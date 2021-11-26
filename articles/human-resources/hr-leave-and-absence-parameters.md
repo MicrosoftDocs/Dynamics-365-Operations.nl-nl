@@ -1,8 +1,8 @@
 ---
 title: Parameters voor verlof en verzuim configureren
-description: Definieer Human resources-parameters voor verlof en verzuim in Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 11/02/2020
+description: In dit onderwerp wordt beschreven hoe u human resources-parameters voor verlof en verzuim definieert in Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ab4b2b3adefa388acfadc77c7b25a6b47d01571f0e58f6ab81101e25d1b548e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 59d89c4b22d71057fd3b398c91e1fbf04112e4a9
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777954"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728852"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Parameters voor verlof en verzuim configureren
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Voordat u verlof- en verzuimplannen instelt in Dynamics 365 Human Resources, kunt u het beste de instellingen controleren voor alle verwante Human resources-parameters, waaronder:
+Voordat u verlof- en verzuimplannen instelt in Dynamics 365 Human Resources, kunt u het best de instellingen controleren voor alle verwante **Human resources-parameters**, waaronder:
 
 - Nummerreeks voor verlofaanvragen
 - FMLA-instellingen (Family and Medical Leave Act)
@@ -74,7 +74,7 @@ Voordat u verlof- en verzuimplannen instelt in Dynamics 365 Human Resources, kun
 
     - Selecteer **Saldoberekening** om saldi weer te geven vanaf vandaag of vanaf de toerekeningsperiode. Als u vandaag **Saldo vanaf vandaag** selecteert, wordt in het saldo het totaal van alle transitorische posten, correcties en aanvragen vanaf vandaag weergegeven. Als u **Saldo vanaf toerekeningsperiode** selecteert, wordt in het saldo het totaal van alle transitorische posten, correcties en aanvragen weergegeven vanaf de toerekeningsperiode die is gedefinieerd door de frequentie in het verlofplan. 
 
-    - Stel de begintijd in voor de batchtaak voor het transporteren van vervaldatums.  
+    - Stel de **Begintijd** in voor de batchtaak voor het **transporteren van vervaldatums**.  
     
     - Selecteer **Ja** om **Werknemers toestaan om verlof te kopen** en **Werknemers toestaan om verlof te verkopen**. Als u **Ja** selecteert voor deze opties, kunt u een inkoop- en verkoopbeleid maken en werknemers in staat stellen om aanvragen voor het kopen en verkopen van verlof in te dienen.
 

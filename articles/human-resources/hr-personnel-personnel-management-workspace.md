@@ -1,27 +1,27 @@
 ---
 title: Werkgebied voor personeelsbeheer
 description: In dit onderwerp worden de conceptelementen van het werkgebied voor personeelsbeheer beschreven.
-author: andreabichsel
-ms.date: 07/01/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmPosition, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.author: anbichse
-ms.reviewer: anbichse
+ms.author: twheeloc
+ms.reviewer: twheeloc
 ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 923d4a980c3f8f9b3bf5be1f77d8910081123fa08b068f1fd8fa935312d3a101
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4332be972ab3dc81e7e4f3cc297a91cd247e721e
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754809"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771333"
 ---
 # <a name="personnel-management-workspace"></a>Werkgebied voor personeelsbeheer
 
@@ -33,11 +33,11 @@ Het werkgebied **Personeelsbeheer** bevat een grote hoeveelheid inhoud. Het beva
 
 Het tabblad **Activiteit** bevat secties waarin werknemers worden gegroepeerd op basis van hun fase in het arbeidsproces:
 
-- Kandidaten om in dienst te nemen
-- Start binnenkort
-- Recente aanstellingen
-- Afsluiten
-- Vertrokken
+- **Kandidaten om in dienst te nemen**
+- **Start binnenkort**
+- **Recente aanstellingen**
+- **Afsluiten**
+- **Vertrokken**
 
 Wanneer een werknemer zich in een van deze fasen bevindt, zijn specifieke acties beschikbaar als een knop op de kaart of in het menu dat verschijnt wanneer u het weglatingsteken (**...**) selecteert in de rechterbovenhoek. In de volgende subsecties worden de secties van het tabblad **Activiteit** beschreven en worden de beschikbare acties weergegeven.
 
@@ -51,9 +51,9 @@ De sectie **Aan te stellen kandidaten** van het werkgebied wordt gevuld vanuit m
 
 Wanneer de kandidaten in de sectie **Aan te stellen kandidaten** verschijnen, kunt u de volgende acties uitvoeren door het weglatingsteken op de kandidaatkaart te selecteren:
 
-- Kandidaat negeren
-- Niet in dienst nemen
-- Aanstellen
+- **Kandidaat negeren**
+- **Niet in dienst nemen**
+- **Aanstellen**
 
 > [!NOTE]
 > Als de kandidatenlijst wordt ingevuld vanuit Microsoft Dataverse, worden dezelfde kandidaten weergegeven voor alle rechtspersonen, omdat er geen rechtspersoon aan de kandidaat is gekoppeld.
@@ -65,7 +65,7 @@ In de sectie **Begint binnenkort** worden werknemers vermeld die een begindatum 
 Als de manager niet op de kaart staat, is er geen positie toegewezen voor de medewerker.
 
 > [!NOTE] 
-> Het is raadzaam om een positie aan een medewerker toe te wijzen voordat u een controlelijst toewijst, omdat opnboardingtaken soms worden toegewezen aan de manager van een nieuwe werknemer. Als er echter geen positie is toegewezen, kan de manager van de nieuwe werknemer niet worden bepaald. In dat geval worden de onboardingtaken die voor de manager zijn bedoeld aan de eigenaar van de controlelijst toegewezen.
+> Het is raadzaam een positie aan een medewerker toe te wijzen voordat u een controlelijst toewijst. Soms worden onboarding-taken toegewezen aan de manager van een nieuwe medewerker. Als er echter geen positie is toegewezen, kan de manager van de nieuwe werknemer niet worden bepaald. In dat geval worden de onboardingtaken die voor de manager zijn bedoeld aan de eigenaar van de controlelijst toegewezen.
 
 Wanneer medewerkers worden weergegeven in de sectie **Begint binnenkort**, zijn de volgende acties beschikbaar voor hen:
 
@@ -85,7 +85,7 @@ In de sectie **Recent aangenomen werknemers** worden medewerkers vermeld die een
 De lijst bevat standaard medewerkers die in de afgelopen zeven dagen in dienst zijn genomen. Als u deze instelling wilt wijzigen, definieert u op de pagina **Human Resources-parameter** op het tabblad **Algemeen** een periode voor **Recent aangenomen werknemers**. De gegevens in de sectie **Recent aangenomen werknemers** kunnen worden weergegeven voor een bepaald aantal dagen, maanden of jaren. Als u bijvoorbeeld de lijst wilt weergeven met werknemers die in de afgelopen 14 dagen zijn aangenomen, stelt u het veld **Periode** in op **14** en stelt u het veld **Eenheid** in op **Dagen**.
 
 > [!NOTE]
-> De instellingen op de pagina **Human resources-parameters** zijn bedrijfsspecifiek. Daarom kan de periode waarvoor u recent aangenomen werknemers bekijkt verschillen per bedrijf. In het bedrijf USMF wilt u bijvoorbeeld mogelijk alle nieuwe werknemers van de laatste zeven dagen weergeven. In het bedrijf USSI wilt u echter alle nieuwe werknemers van de laatste 14 dagen weergeven. In dit geval moet u de pagina **Human resources-parameters** openen in elk bedrijf en de parameters zo nodig instellen.
+> De instellingen op de pagina **Human resources-parameters** zijn bedrijfsspecifiek. Daarom kan de periode waarvoor u recent aangenomen werknemers bekijkt verschillen per bedrijf. In het bedrijf USMF wilt u bijvoorbeeld mogelijk alle nieuwe werknemers van de laatste zeven dagen weergeven. In het bedrijf USSI wilt u mogelijk echter alle nieuwe werknemers van de laatste 14 dagen weergeven. In dit opent u de pagina **Human resources-parameters** in elk bedrijf en stelt u de parameters zo nodig in.
 
 Als de manager niet op de kaart staat, is er geen positie toegewezen voor de medewerker.
 
@@ -132,13 +132,9 @@ Wanneer medewerkers worden weergegeven in de sectie **Vertrokken werknemers**, z
 
 Op het tabblad **Werknemerwijzigingen** staat een lijst met alle personeelsacties van medewerkers. Deze lijst is niet standaard beschikbaar. Als u deze functie wilt inschakelen, stelt u op de pagina **Gedeelde Human Resources-parameters**, op het tabblad **Personeelsacties**, de optie **Werknemeracties** in op **Ja**.
 
-Zie (Koppeling naar de pagina Personeelsacties) voor meer informatie over personeelsacties.
-
 ## <a name="position-changes-tab"></a>Tabblad Positiewijzigingen
 
 Op het tabblad **Positiewijzigingen** staat een lijst met alle personeelsacties van posities. Deze lijst is niet standaard beschikbaar. Als u deze functie wilt inschakelen, stelt u op de pagina **Gedeelde Human Resources-parameters**, op het tabblad **Personeelsacties**, de optie **Positieacties inschakelen** in op **Ja**.
-
-Zie (Koppeling naar de pagina Personeelsacties) voor meer informatie over personeelsacties.
 
 ## <a name="open-positions-tab"></a>Tabblad Openstaande posities
 
@@ -151,11 +147,11 @@ Op het tabblad **Openstaande posities** worden alle openstaande posities weergeg
 
 Op het tabblad **Verlopende records** worden alle artikelen weergegeven die zijn verlopen of zullen verlopen voor de medewerkers in het bedrijf waarin de gebruiker is aangemeld. De volgende items worden weergegeven in de lijst:
 
-- Getuigschriften
-- Id
-- Proeftijd
-- Screenings
-- Tests
+- **Getuigschriften**
+- **Id**
+- **Proeftijd**
+- **Screenings**
+- **Tests**
 
 Als u wilt opgeven of in de lijst verlopen records of verlopende records worden weergegeven, definieert u op de pagina **Human resources-parameters** op het tabblad **Algemeen** een periode voor **Verlopende records** of **Verlopen records**. De gegevens op het tabblad **Verlopende records** kunnen worden weergegeven gedurende een bepaald aantal dagen. Als u bijvoorbeeld de lijst met records wilt weergeven die vervallen in de volgende 14 dagen, stelt u het veld **Aantal dagen** in op **14**.
 

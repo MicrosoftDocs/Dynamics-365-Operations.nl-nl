@@ -201,7 +201,7 @@ De configuratie in deze sectie wordt per rechtspersoon uitgevoerd. U moet dit co
 3. Definieer op het tabblad **Berekening** de verwachte afrondingsregel voor de rechtspersoon. Zie [Afrondingsregels voor belastingberekening](https://go.microsoft.com/fwlink/?linkid=2166988) voor meer informatie over de afrondingslogica.
 4. Definieer op het tabblad **Foutafhandeling** de verwachte foutverwerkingsmethode voor de rechtspersoon. Er zijn drie opties beschikbaar:
 
-    - No
+    - Nee
     - Waarschuwing
     - Fout
 

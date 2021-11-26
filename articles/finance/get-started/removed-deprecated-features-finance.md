@@ -40,7 +40,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 | &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Uitgesloten van verwerking van elektronische berichten bij samenwerking met Hongaars online factureringssysteem |
-| **Vervangen door een andere functie?**   | No |
+| **Vervangen door een andere functie?**   | Nee |
 | **Betrokken productgebieden**         | Sollicitatie |
 | **Implementatieoptie**              | Alles |
 | **Status**                         | Afgeschaft: Uiterlijk op 15 april 2022 zal de indelingsconfiguratie "RTIR Query Invoice Data Request (HU)" niet langer worden ondersteund. |

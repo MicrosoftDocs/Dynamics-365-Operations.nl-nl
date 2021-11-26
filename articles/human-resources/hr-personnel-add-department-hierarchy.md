@@ -1,8 +1,8 @@
 ---
 title: Afdelingen maken en deze opnemen in de afdelingenhiërarchie
-description: Een afdeling is een operationele eenheid die een categorie of functioneel onderdeel van een organisatie voorstelt. Een afdeling is verantwoordelijk voor een specifiek gebied van de organisatie, zoals verkoop, boekhouding of HR. U kunt afdelingen gebruiken om te rapporteren over functiegebieden. Afdelingen zijn mogelijk verantwoordelijk voor winst en verlies.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Een afdeling is een operationele eenheid die een categorie of functioneel onderdeel van een organisatie voorstelt. Een afdeling is verantwoordelijk voor een specifiek gebied van de organisatie, zoals verkoop, boekhouding of HR.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 63213
 ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1fa6d2b18a1b92236a153e453560430cc0d4c1c6e2cde0431c1e1cc68128bd0f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2caa4f1e7be4be54766921a9e38c97d22b8200c7
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727012"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731607"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Afdelingen maken en deze opnemen in de afdelingenhiërarchie
 
@@ -32,15 +32,15 @@ Een afdeling kan ook een groep kostenplaatsen bevatten. Posities kunnen worden t
 
 | Veld               | Beschrijving                                                                                                                                                                                                       |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Naam                | Geef een naam op voor de afdeling.                                                                                                                                                                                  |
-| Nummer afdeling   | Een standaardwaarde kan automatisch worden gegenereerd als er een nummerreekscode is toegewezen aan de verwijzing naar het **Organisatienummer** op de pagina **Nummerreeksen**.                                                 |
-| Zoeknaam         | Voer een naam of een acroniem in die u kunt gebruiken om de afdeling te zoeken.                                                                                                                                            |
-| Memo                | Voer hier aanvullende gegevens in.                                                                                                                                                                            |
-| In hiërarchie        | Een ingeschakeld selectievakje geeft aan dat de afdeling is opgenomen in de afdelingshiërarchie. Voor informatie over hoe u een afdeling aan de afdelingshiërarchie toevoegt, zie de informatie later in dit artikel. |
-| DUNS-nummer         | DUNS staat voor Data Universal Number System. Dit is een nummer van negen cijfers dat door Dun & Bradstreet is uitgegeven.                                                                                                     |
-| Beheerder             | Voer de persona in die de afdeling beheert.                                                                                                                                                                    |
-| Adressen           | Voeg de adresgegevens voor de afdeling toe. Voeg bijvoorbeeld het adres voor het gebouw in waarin de afdeling zich bevindt.                                                                          |
-| Contactgegevens | Voeg contactgegevens voor de afdeling toe. Voeg bijvoorbeeld een telefoonnummer toe voor de servicedesk in de afdeling.                                                                                           |
+| **Naam**                | Geef een naam op voor de afdeling.                                                                                                                                                                                  |
+| **Nummer afdeling**   | Een standaardwaarde kan automatisch worden gegenereerd als er een nummerreekscode is toegewezen aan de verwijzing naar het **Organisatienummer** op de pagina **Nummerreeksen**.                                                 |
+| **Zoeknaam**         | Voer een naam of een acroniem in die u kunt gebruiken om de afdeling te zoeken.                                                                                                                                            |
+| **Memo**                | Voer hier aanvullende gegevens in.                                                                                                                                                                            |
+| **In hiërarchie**        | Een ingeschakeld selectievakje geeft aan dat de afdeling is opgenomen in de afdelingshiërarchie. Voor informatie over hoe u een afdeling aan de afdelingshiërarchie toevoegt, zie de informatie later in dit artikel. |
+| **DUNS-nummer**         | DUNS staat voor Data Universal Number System. Dit is een nummer van negen cijfers dat door Dun & Bradstreet is uitgegeven.                                                                                                     |
+| **Beheerder**             | Voer de persona in die de afdeling beheert.                                                                                                                                                                    |
+| **Adressen**           | Voeg de adresgegevens voor de afdeling toe. Voeg bijvoorbeeld het adres voor het gebouw in waarin de afdeling zich bevindt.                                                                          |
+| **Contactgegevens** | Voeg contactgegevens voor de afdeling toe. Voeg bijvoorbeeld een telefoonnummer toe voor de servicedesk in de afdeling.                                                                                           |
 
 Als u een afdeling wilt toevoegen aan de afdelingshiërarchie, volgt u deze stappen.
 

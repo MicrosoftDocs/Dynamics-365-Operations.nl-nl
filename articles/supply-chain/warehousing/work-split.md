@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: e3f14dd25a60f8d185f0e58a0612a322c5175ab2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b06164a81a18548cf9d98ea2f577b5783145100
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579875"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778252"
 ---
 # <a name="work-split"></a>Werk splitsen
 
@@ -33,9 +33,9 @@ Met functionaliteit voor gesplitst werk kunt u grote werkorder-id's splitsen in 
 
 Voordat u de functionaliteit voor gesplitst werk kunt gebruiken, moet u deze functie en de bijbehorende vereiste functie in uw systeem inschakelen. Beheerders kunnen gebruikmaken van de instellingen van [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functies te controleren en desgewenst in te schakelen.
 
-Schakel eerst de bijbehorende vereiste functie *Werk blokkeren voor de hele organisatie* in als deze nog niet is ingeschakeld. Schakel in het werkgebied **Functiebeheer** deze functie als volgt in:
+Schakel eerst de bijbehorende vereiste functie *Werk blokkeren voor de hele organisatie* in als deze nog niet is ingeschakeld. Vanaf Supply Chain Management versie 10.0.21 is deze functie verplicht, waardoor deze standaard wordt ingeschakeld en niet meer kan worden uitgeschakeld. De functie wordt echter nog wel op de volgende manier vermeld bij [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
-- **Module:** *Magazijnbeheer*
+- **Module:** *Warehouse Management*
 - **Functienaam:** *Werk blokkeren voor de hele organisatie*
 
 > [!NOTE]

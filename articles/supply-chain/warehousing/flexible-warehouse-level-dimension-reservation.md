@@ -421,7 +421,7 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 <td>Niet van toepassing</td>
 </tr>
 <tr>
-<td>No</td>
+<td>Nee</td>
 <td>
 <ol>
 <li>Selecteer de menuoptie <strong>Locatie overschrijven</strong> in de mobiele app Magazijnbeheer wanneer u verzamelwerk start.</li>
@@ -719,7 +719,7 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 </tr>
 <tr>
 <td>Er wordt een werkuitzondering van het type <strong>Korte verzameling</strong> ingesteld, waarbij <strong>Artikelhertoewijzing</strong> = <strong>Handmatig</strong>, <strong>Voorraad aanpassen</strong> = <strong>Ja</strong> en <strong>Reserveringen verwijderen</strong> = <strong>Nee</strong>. Bovendien wordt de <strong>Handmatige artikelhertoewijzing toestaan</strong> ingeschakeld voor de werknemer.</td>
-<td>No</td>
+<td>Nee</td>
 <td>
 <ol>
 <li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de mobiele app Magazijnbeheer wanneer u verzamelwerk uitvoert.</li>
@@ -732,7 +732,7 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 </tr>
 <tr>
 <td>Er wordt een werkuitzondering van het type <strong>Korte verzameling</strong> ingesteld, waarbij <strong>Artikelhertoewijzing</strong> = <strong>Handmatig</strong>, <strong>Voorraad aanpassen</strong> = <strong>Ja</strong> en <strong>Reserveringen verwijderen</strong> = <strong>Ja</strong>. Bovendien wordt de <strong>Handmatige artikelhertoewijzing toestaan</strong> ingeschakeld voor de werknemer.</td>
-<td>No</td>
+<td>Nee</td>
 <td>
 <ol>
 <li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de mobiele app Magazijnbeheer wanneer u verzamelwerk uitvoert.</li>

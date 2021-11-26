@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f4a7ee091d73e2104571ac9134a9de9bab0a7074
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 210d92b9fd962708b141b79f3634f142cca9787a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575459"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777762"
 ---
 # <a name="purchasing-cxml-enhancements"></a>Inkoop-cXML-verbeteringen
 
@@ -28,7 +28,7 @@ De functie _Inkoop-cXML-verbeteringen_ maakt gebruik van de [bestaande externe-c
 
 ## <a name="turn-on-the-purchasing-cxml-enhancements-feature"></a>De functie Inkoop-cXML-verbeteringen inschakelen
 
-Als u de functie wilt inschakelen, opent u de pagina **[Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** en zoekt u naar de functie met de naam *Inkoop-cXML-verbeteringen*. Selecteer de functie en selecteer **Nu inschakelen** om deze in te schakelen.
+Als u de functie wilt inschakelen, opent u de pagina **[Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** en zoekt u naar de functie met de naam *Inkoop-cXML-verbeteringen*. Selecteer de functie en selecteer **Nu inschakelen** om deze in te schakelen. (Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld.)
 
 Nadat u de functie hebt ingeschakeld, moet u de instellingen in de volgende drie gebieden configureren:
 

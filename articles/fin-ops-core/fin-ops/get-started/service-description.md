@@ -333,9 +333,9 @@ Microsoft biedt Finance and Operations-klanten drie ondersteuningsplannen: Premi
 | Onbeperkte indiening van onderbreking/reparatie-incidenten | Ja | Ja | Ja |
 | 24/7 toegang via LCS | Ja | Ja | Ja |
 | Responstijd incident | Minder dan één uur | Minder dan één uur | Volgende werkdag |
-| Adviesuren | Pools worden per overeenkomst verworven. | No | No |
-| Specifieke accountmanager voor ondersteuning | Ja | No | No |
-| Specifieke ondersteuningstechnicus | Onder een afzonderlijke overeenkomst | No | No |
+| Adviesuren | Pools worden per overeenkomst verworven. | Nee | Nee |
+| Specifieke accountmanager voor ondersteuning | Ja | Nee | Nee |
+| Specifieke ondersteuningstechnicus | Onder een afzonderlijke overeenkomst | Nee | Nee |
 
 Zie [Overzicht van ondersteuning](/power-platform/admin/support-overview) voor meer informatie.
 

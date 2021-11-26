@@ -1,8 +1,8 @@
 ---
-title: Een omgeving instellen voor het opzoeken van hoofdgegevens
-description: In dit onderwerp wordt uitgelegd hoe u uw omgeving instelt om de zoekfunctie voor hoofdgegevens voor Belastingberekening te gebruiken.
+title: Zoeken van hoofdgegevens voor btw-berekeningsconfiguratie inschakelen
+description: In dit onderwerp wordt uitgelegd hoe u de zoekfunctie voor hoofdgegevens voor belastingberekening kunt instellen en inschakelen.
 author: kai-cloud
-ms.date: 10/26/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 901f8bcb0220355866952b68e92bc2dd906bb430
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
+ms.openlocfilehash: dafeac01aaff62cbbd5ce6ecb0af0ef111f513b2
+ms.sourcegitcommit: 76fe020f9c5f4e5cc2e93f5ccb3b040f12b0363e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7700399"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "7749505"
 ---
-# <a name="set-up-an-environment-for-master-data-lookup"></a>Een omgeving instellen voor het opzoeken van hoofdgegevens
+# <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Zoeken van hoofdgegevens voor btw-berekeningsconfiguratie inschakelen 
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u uw omgeving instelt om de zoekfunctie voor hoofdgegevens voor Belastingberekening te gebruiken.
+In dit onderwerp wordt uitgelegd hoe u de zoekfunctie voor hoofdgegevens voor belastingberekening kunt instellen en inschakelen. Er is een vervolgkeuzelijst beschikbaar voor het selecteren van waarden in de belastingberekeningsconfiguratie voor velden, zoals **Leveranciersrekening**, **Artikelcode** en **Leveringstermijn**. Deze waarden zijn afkomstig uit de verbonden Microsoft Dynamics 365 Finance-omgeving met de Microsoft Dataverse-gegevensbron.
 
 1. De Microsoft Power Platform integratie instellen in Microsoft Dynamics Lifecycle Services (LCS). Zie [Integratie van Microsoft Power Platform - Overzicht van invoegtoepassingen](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md) voor meer informatie. Nadat u deze stap hebt voltooid, wordt de naam van een Microsoft Power Platform-omgeving weergegeven in de sectie **Power Platform integratie**.
 2. Ga naar het [Microsoft Power Platform-beheercentrum](https://admin.powerplatform.microsoft.com/environments) en selecteer de omgevingsnaam. De omgevings-URL wordt geleverd.

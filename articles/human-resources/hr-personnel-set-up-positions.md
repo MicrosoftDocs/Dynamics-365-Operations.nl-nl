@@ -1,8 +1,8 @@
 ---
 title: Posities instellen
-description: Posities zijn een belangrijk element van het lagere niveau van een organisatiehiërarchie.
-author: andreabichsel
-ms.date: 08/29/2018
+description: Dit onderwerp beschrijft hoe posities een belangrijk element zijn van het lagere niveau van een organisatiehiërarchie.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: DefaultDashboard, HcmWorkforceWorkspace, HcmWorkerActivityChart,
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 83d30b7b0945051e2f3c0ee014cff6c98a2287ad64eb565282f497393b8cf0d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f4b9f09db8465cc55c9b0c4dc403c2c7a3647d7e
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775766"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728707"
 ---
 # <a name="set-up-positions"></a>Posities instellen
 
@@ -28,43 +28,55 @@ ms.locfileid: "6775766"
 
 Posities zijn een belangrijk element van het lagere niveau van een organisatiehiërarchie. Een positie is een afzonderlijk exemplaar van een taak. De positie 'Verkoopmanager (Oost)' is bijvoorbeeld een van de posities die is gekoppeld aan de taak 'Verkoopmanager'. Een positie in een afdeling bestaat en mogelijk is er slechts één werknemer aan gekoppeld. In deze taak wordt u begeleid bij het uitvoeren van de stappen die zijn vereist om een positie te maken. Deze procedure is bedoeld voor personeelsspecialisten.
 
-1. Klik op Personeelsbeheer.
-2. Klik op Openstaande posities.
-3. Klik op Nieuw om het verwijderdialoogvenster te openen.
-4. Typ of selecteer een waarde in het veld Taak.
-    * De functieomschrijving, titel en FTE-aanstellingsfactor worden automatisch van de geselecteerde functie naar de positie gekopieerd.  
+1. Klik op **Personeelsbeheer**.
+2. Selecteer **Openstaande posities**.
+3. Selecteer **Nieuw** om het dialoogvenster met vervolgkeuzemenu te openen.
+4. Typ of selecteer een waarde in het veld **Functie**.
+
+    De velden **Functieomschrijving**, **Titel** en **FTE-aanstellingsfactor** worden automatisch van de geselecteerde functie naar de positie gekopieerd.
+
 5. ResolveChanges de functie.
-6. Klik op Positie maken.
-7. Typ of selecteer een waarde in het veld Afdeling.
-8. Typ of selecteer een waarde in het veld Positietype.
-9. Typ of selecteer een waarde in het veld Compensatieregio.
-    * Met het veld Compensatieregio worden de geschiktheidsregels voor compensaties en budgetten voor vaste verhoging bepaald die van toepassing zijn op een werknemer in die positie.  
-10. Voer in het veld Beschikbaar voor toewijzing een datum en een tijd in.
-11. Vouw de sectie Positieduur uit.
-    * Positieduur wordt standaard ingevoerd op basis van eerder ingevoerde activerings- en deactiveringsdatums  
-12. Vouw de sectie Verantwoording aan positie uit.
-    * Wanneer u een werknemer toewijst aan een positie die aan een andere positie rapporteert, maakt u een directe rapporteringsrelatie tussen de werknemers die zijn toegewezen aan de twee posities.  
-13. Klik op Nieuw om het verwijderdialoogvenster te openen.
-14. Typ of selecteer een waarde in het veld Rapporteert aan.
-15. Klik op Maken.
-16. Vouw de sectie Medewerkerstoewijzing uit.
-17. Vouw de sectie Relaties uit of samen.
-    * Als uw organisatie gebruikmaakt van een matrixhiërarchie of een andere aangepaste hiërarchie, kunt u positiehiërarchietypen instellen en vervolgens rapporteringsrelaties toevoegen aan posities voor elke hiërarchie die u hebt ingesteld.  
-18. Klik op Toevoegen.
+6. Selecteer **Positie maken**.
+7. Typ of selecteer een waarde in het veld **Afdeling**.
+8. Typ of selecteer een waarde in het veld **Positietype**.
+9. Typ of selecteer een waarde in het veld **Compensatieregio**.
+
+    Met het veld **Compensatieregio** worden de geschiktheidsregels voor compensaties en budgetten voor vaste verhoging bepaald die van toepassing zijn op een medewerker in die positie.
+
+10. Voer in het veld **Beschikbaar voor toewijzing** een datum en een tijd in.
+11. Vouw de sectie **Positieduur** uit.
+
+    De positieduur wordt standaard ingevoerd op basis van eerder ingevoerde activerings- en deactiveringsdatums.
+
+12. Vouw de sectie **Verantwoording aan positie** uit.
+
+    Wanneer u een werknemer toewijst aan een positie die aan een andere positie rapporteert, maakt u een directe rapporteringsrelatie tussen de werknemers die zijn toegewezen aan de twee posities.
+
+13. Selecteer **Nieuw bij** om het dialoogvenster met vervolgkeuzemenu te openen.
+14. Typ of selecteer een waarde in het veld **Rapporteert aan**.
+15. Selecteer **Maken**.
+16. Vouw de sectie **Medewerkerstoewijzing** uit.
+17. Vouw de sectie **Relaties** uit of samen.
+
+    Als uw organisatie gebruikmaakt van een matrixhiërarchie of een andere aangepaste hiërarchie, kunt u positiehiërarchietypen instellen en vervolgens rapporteringsrelaties toevoegen aan posities voor elke hiërarchie die u hebt ingesteld.
+
+18. Selecteer **Toevoegen**.
 19. Markeer in de lijst de geselecteerde rij.
-20. Typ of selecteer een waarde in het veld Hiërarchienaam.
-21. Typ of selecteer een waarde in het veld Verantwoording aan positie.
-22. Vouw de sectie Salarisadministratie uit.
-23. Typ of selecteer een waarde in het veld Betalingscyclus.
-24. Typ of selecteer een waarde in het veld Betaald door.
-25. Voer in het veld Jaarlijkse normale uren een getal in.
-    * Dit is het aantal regelmatig betaalde uren die de werknemer in deze positie naar verwachting elk jaar zal werken.  
-26. Vouw de sectie Vakbond uit.
-27. Vouw de sectie Vakbond samen.
-28. Vouw de sectie Financiële dimensies uit.
-29. Typ of selecteer een waarde in het veld Distributiesjabloon.
-30. Typ of selecteer een waarde in het veld Afdeling.
-31. Klik op Opslaan.
+20. Typ of selecteer een waarde in het veld **Hiërarchienaam**.
+21. Typ of selecteer een waarde in het veld **Verantwoording aan positie**.
+22. Vouw de sectie **Salarisadministratie** uit.
+23. Typ of selecteer een waarde in het veld **Betalingscyclus**.
+24. Typ of selecteer een waarde in het veld **Betaald door**.
+25. Voer in het veld **Jaarlijkse normale uren** een getal in.
+
+    De waarde die u invoert, is het aantal regelmatig betaalde uren die de medewerker in deze positie naar verwachting elk jaar zal werken.
+
+26. Vouw de sectie **Vakbond** uit.
+27. Vouw de sectie **Vakbond** samen.
+28. Vouw de sectie **Financiële dimensies** uit.
+29. Typ of selecteer een waarde in het veld **Distributiesjabloon**.
+30. Typ of selecteer een waarde in het veld **Afdeling**.
+31. Selecteer **Opslaan**.
 
 
 

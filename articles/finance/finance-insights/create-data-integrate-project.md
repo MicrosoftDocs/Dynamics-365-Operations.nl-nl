@@ -1,8 +1,8 @@
 ---
-title: Een gegevensintegratorproject maken
-description: In dit onderwerp wordt uitgelegd hoe u een gegevensintegratorproject maakt.
+title: Een gegevensintegratieproject maken
+description: In dit onderwerp wordt uitgelegd hoe u een gegevensintegratieproject maakt.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,25 +15,26 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: b08af906c18f6c0790ca56c69a833733f48cd88c
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 7841f8b31e0ac1a40dce9acaac747f5f378236e0
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386357"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752659"
 ---
-# <a name="create-a-data-integrator-project"></a>Een gegevensintegratorproject maken
+# <a name="create-a-data-integration-project"></a>Een gegevensintegratieproject maken
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u een gegevensintegratorproject maakt.
+In dit onderwerp wordt uitgelegd hoe u een gegevensintegratieproject maakt.
 
 1. Meld u aan bij Microsoft Dynamics 365 Finance.
 2. Ga naar **Werkgebieden \> Gegevensbeheer** en selecteer **Gegevensentiteiten**. Wacht totdat alle gegevensentiteiten zijn vernieuwd voordat u naar de volgende stap gaat.
 3. Open de [Power Apps portal](https://make.powerapps.com/) en voer de volgende stappen uit:
 
     1. Selecteer de gewenste omgeving.
-    2. Selecteer in het linkernavigatievenster **Gegevens \> Verbindingen**.
+    2. Selecteer in het linkernavigatievenster **Dataverse \> Verbindingen**.
     3. Verbinding maken met de juiste instanties van de volgende items:
 
         - Dynamics 365
@@ -41,7 +42,7 @@ In dit onderwerp wordt uitgelegd hoe u een gegevensintegratorproject maakt.
 
 4. Open de [Power Apps omgevingen](https://admin.powerapps.com/environments) en voer de volgende stappen uit:
 
-    1. Selecteer **Gegevensintegrator**.
+    1. Selecteer **Gegevensintegratie**.
     2. Selecteer **Verbindingssets**.
     3. Selecteer **Nieuwe verbindingsset**.
     4. Geef een naam op voor de verbinding.
@@ -57,8 +58,7 @@ In dit onderwerp wordt uitgelegd hoe u een gegevensintegratorproject maakt.
 
     1. Maak gegevensintegratieprojecten voor de volgende sjablonen met de verbindingsset die u zojuist hebt gemaakt:
 
-        - Resultaten van inzichten voor klantbetalingen (CDS naar Fin and OPS)
-            - Als u versie 10.0.17 of hoger gebruikt, moet u de sjabloon gebruiken met de naam Inzichten in klantbetalingen (CDS naar Fin en Ops 10.0.17+).
+        - Resultaat van inzichten voor klantbetalingen (CDS naar Fin and Ops 10.0.17+)
         - Resultaten van cashflowtijdreeksen (CDS naar Fin and Ops)
         - Resultaten van budgettijdreeksen (CDS naar Fin and OPS)
 

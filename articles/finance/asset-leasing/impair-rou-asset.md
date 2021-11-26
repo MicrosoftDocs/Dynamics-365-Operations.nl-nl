@@ -92,8 +92,8 @@ In de volgende tabellen ziet u de waarden die zijn ingesteld op de tabbladen **A
     | Transactiedatum       | 1-1-2022 |
     | Resterende perioden      | 84       |
     | Plaatsen                   | Ja      |
-    | Bekijken alvorens te boeken | No       |
-    | Boek sluiten             | No       |
+    | Bekijken alvorens te boeken | Nee       |
+    | Boek sluiten             | Nee       |
 
 6. Een journaalpost met waardeverminderingskosten is gemaakt en geboekt. Als u deze wilt weergeven, gaat u naar het leasingjournaal van het activum in het leaseboek. Het bedrag van de waardevermindering is gedebiteerd op de boekingsrekening onkosten waardevermindering en de boekingsrekening RoU-activum is gecrediteerd.
 7. Ga naar de tabellen verplichtingen en activumtransacties om het netto-effect van de waardevermindering te bekijken. De waardeverminderingskosten hebben het RoU-activum verlaagd, maar de boekwaarde van de leaseverplichtingen is niet gewijzigd.

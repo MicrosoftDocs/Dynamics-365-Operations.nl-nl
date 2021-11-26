@@ -2,7 +2,7 @@
 title: Elektronische facturering in Regulatory Configuration Services (RCS) configureren
 description: In dit onderwerp wordt uitgelegd hoe u Elektronische facturering configureert in Dynamics 365 Regulatory Configuration Services (RCS).
 author: gionoder
-ms.date: 07/29/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 98ba40da7b365e46e1c624ba70c7dc048144e2c7137e8fd8eb5abe348028ce35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 640244612a2a553ec09661635787cb7f8694283b
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757969"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779665"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Elektronische facturering in Regulatory Configuration Services (RCS) configureren
 
@@ -73,6 +73,7 @@ In de volgende tabel worden de functies voor elektronische facturering weergegev
 | Spanje          | Elektronische factuur Spanje (ES)      | Verkoopfacturen en projectfacturen |
 | Europa         | PEPPOL Elektronische factuur            | PEPPOL verkoopfacturen en projectfacturen |
 | Europa         | PEPPOL - leveranciersfactuur                | PEPPOL - leveranciersfacturen importeren |
+| Saoedi-Arabië   | Elektronische factuur voor Saoedi-Arabië (SA)| Verkoopfacturen en projectfacturen |
 
 ### <a name="preview-features"></a>Voorbeeldfuncties
 
@@ -197,6 +198,11 @@ In de volgende lijsten worden de configuraties van de ER-indelingen vermeld die 
 - Verkoopfactuur (ES)
 - Projectfactuur (ES)
 
+#### <a name="saudi-arabian-sa-electronic-invoice-sales-and-project-invoices-for-saudi-arabia"></a>Saoedische (SA) elektronische factuur: verkoop- en projectfacturen voor Saoedi-Arabië
+
+- Elektronische verkoopfactuur (SA)
+- Elektronische projectfactuur (SA)
+
 Behalve de configuraties van de ER-indeling die buiten het vak beschikbaar zijn voor gebruik met de elektronische factureringsservice, kunt u ook uw eigen ER-indelingsconfiguraties maken. De indelingsconfiguraties die worden gemaakt voor gebruik met elektronische factureringsfuncties, bieden echter geen ondersteuning voor directe verwijzing naar tabellen van Financiën of Supply Chain Management of naar de bijbehorende metagegevens. Alleen verwijzingen naar de ER-modeltoewijzing worden ondersteund.
 
 ### <a name="actions"></a>Acties
@@ -274,7 +280,7 @@ Logische operators:
 - En
 - Of
 
-Typen operators:
+Operatortypen:
 - Equal
 - Not equal
 - Greater than

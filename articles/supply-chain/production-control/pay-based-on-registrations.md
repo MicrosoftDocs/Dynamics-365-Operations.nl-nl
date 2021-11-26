@@ -170,7 +170,7 @@ Selecteer op de pagina **Berekeningsparameters** de optie **Overtijd** als het t
 
 | Specificatie reg. | Type profielspecificatie | Berekening   | Instelling | Betaald         | Instelling |
 |--------------------|----------------------------|---------------|-----|--------------|-----|
-| Werktijd       | Overuren                   | Standaardtijd | Ja | Betaalde tijd     | No  |
+| Werktijd       | Overuren                   | Standaardtijd | Ja | Betaalde tijd     | Nee  |
 |                    |                            | Betaalde tijd      | Ja | Betaalde overtijd | Ja |
 
 Als u de parameters voor berekening hebt aangepast, worden de volgende salarisposten gegenereerd.

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: c2fbaa6945cf46b7ef09232e6004f09b487ea7c822e72225dc00d3d28ecb008e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3612dd45a3f4b8c3597c81962a66c21ed14fb206
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780193"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729022"
 ---
 # <a name="apply-filters-to-a-plan"></a>Filters op een plan toepassen
 
@@ -43,7 +43,7 @@ Er is een planfilter ingesteld met de artikelen A, B en C. Vervolgens vinden voo
 - **Runtimefilter dat alle artikelen bevat (leeg filter):** artikelen A, B en C worden opgenomen in de planningsuitvoering en de eerdere planningsuitvoer voor artikelen A en B wordt overschreven.
 
 > [!NOTE]
-> Stel geen planfilter in voor het plan dat als **Huidig dynamisch hoofdplan** is geselecteerd op de pagina **Parameters hoofdplanning**. Anders wordt de functionaliteit voor dynamische hoofdplannen beperkt tot de gefilterde artikelen. Als de nettobehoeften bijvoorbeeld worden bijgewerkt voor een artikel dat geen deel uitmaakt van het planfilter, wordt er geen resultaat gegenereerd.
+> Als u een planfilter instelt voor het plan dat is geselecteerd als het **Huidige dynamische hoofdplan** op de pagina **Parameters hoofdplanning**, wordt de functionaliteit voor het dynamische hoofdplan beperkt tot de gefilterde artikelen. Als de nettobehoeften bijvoorbeeld worden bijgewerkt voor een artikel dat geen deel uitmaakt van het planfilter, wordt er geen resultaat gegenereerd.
 
 ## <a name="related-resources"></a>Gerelateerde bronnen
 

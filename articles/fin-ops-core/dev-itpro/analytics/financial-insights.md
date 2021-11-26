@@ -89,8 +89,8 @@ Op basis van het volgende vergelijkingsdiagram kunt u onderscheid maken tussen d
 
 | Functie                                                   | Financial Reporting                                               | Financiële analyse |
 |----------------------------------------------------------|-------------------------------------------------------------------|--------------------|
-| **Standaardrapporten bewerken**                                 | Ja                                                               | No |
-| **Nieuwe rapporten maken**                                   | Ja                                                               | No |
+| **Standaardrapporten bewerken**                                 | Ja                                                               | Nee |
+| **Nieuwe rapporten maken**                                   | Ja                                                               | Nee |
 | **Druk rapporten af**                                        | Ja                                                               | Nee |
 | **Exporteren naar Excel**                                      | Ja                                                               | Beperkt Exporteert onbewerkte gegevens naar Excel, niet opgemaakt rapport |
 | **Ondersteuning van rapporthiërarchie/organisatiehiërarchie**   | Ja                                                               | Nee |

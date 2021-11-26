@@ -2,7 +2,7 @@
 title: Overzicht van Organisaties en organisatiehiërarchieën
 description: Met organisatiehiërarchieën worden de relaties aangegeven tussen de organisaties waaruit het bedrijf bestaat.
 author: sericks007
-ms.date: 07/25/2019
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74aa2736b4cfb11039ea1cee3f62e74cf4928a1b27cea16e7e0e86f66bdddd59
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6f0388b6e7c22c339d26b82c35f1bbb1ef54cdb5
+ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715984"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798341"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Overzicht van Organisaties en organisatiehiërarchieën
 
@@ -64,9 +64,19 @@ Een team is een organisatie waarin de leden een gemeenschappelijke verantwoordel
 
 Hiermee definieert u organisatiehiërarchieën waarmee u verschillende aspecten van uw bedrijf kunt bekijken en hierover kunt rapporteren. U kunt bijvoorbeeld een hiërarchie definiëren met rechtspersonen voor belastingaangifte. U kunt een hiërarchie instellen op basis van operationele eenheden voor het rapporteren over financiële gegevens die niet wettelijk vereist zijn, maar die voor interne controle worden gebruikt. U kunt bijvoorbeeld een inkoophiërarchie maken om inkoopbeleid, regels en bedrijfsprocessen te beheren.
 
+> [!NOTE]
+> Nadat een operationele eenheid aan een hiërarchie is toegevoegd, kan de operationele eenheid niet worden verwijderd. 
+
 Aan elke hiërarchie wordt een doel toegewezen. Het doel van een hiërarchie bepaalt welke organisatietypen kunnen worden opgenomen in de hiërarchie. Het doel bepaalt ook de aanvraagscenario's waarbinnen een hiërarchie kan worden gebruikt.
 
 In organisaties in een hiërarchie kunnen parameters, beleid en transacties worden gedeeld. Een organisatie kan de parameters van de bovenliggende organisatie overnemen of vervangen. Gedeelde hoofdgegevens, zoals producten en adresboeken, zijn echter van toepassing op de hele organisatie en kunnen niet worden vervangen voor afzonderlijke organisaties. Voor het maken van organisaties en hiërarchieën is een zorgvuldige planning vereist. Voor meer informatie raadpleegt u [Uw organisatiehiërarchie plannen](plan-organizational-hierarchy.md)
+
+## <a name="additional-resources"></a>Aanvullende bronnen
+- [Uw organisatiehiërarchie plannen](plan-organizational-hierarchy.md)
+- [Een organisatiehiërarchie maken](tasks/create-organization-hierarchy.md)
+- [Een rechtspersoon maken](tasks/create-legal-entity.md)
+- [Een operationele eenheid maken](tasks/create-operating-unit.md)
+
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

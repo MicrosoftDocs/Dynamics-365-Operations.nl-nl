@@ -1,8 +1,8 @@
 ---
 title: Vacatures maken en openen
 description: Wervingsprojecten kunnen u helpen uw wervingsproces te beheren.
-author: andreabichsel
-ms.date: 02/03/2021
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HRMRecruitingTable, HcmWorkerLookUp, HcmJobLookup, HRMRecruiting
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: df60f6461c52e45849d3de89fde4ae53f915dbc3cce417a30790acf443c5fecc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0d59ccb88b8a76de6e2f00453f185fec2f149873
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778767"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731556"
 ---
 # <a name="create-and-open-job-requisition"></a>Vacatures maken en openen
 
@@ -39,7 +39,7 @@ Wervingsprojecten kunnen u helpen uw wervingsproces te beheren. Nadat u een werv
 6. Zoek en selecteer de gewenste record in de lijst.
 7. Selecteer in de lijst de koppeling in de geselecteerde rij.
 8. Kies **Selecteren**.
-9. Selecteer in het veld Afdeling de vervolgkeuzeknop om het zoekveld te openen.
+9. Selecteer in het veld **Afdeling** de vervolgkeuzeknop om het zoekveld te openen.
 10. Selecteer in de lijst de koppeling in de geselecteerde rij.
 11. Selecteer in het veld **Functie** de vervolgkeuzeknop om het zoekveld te openen.
 12. Zoek en selecteer de gewenste record in de lijst.
@@ -58,10 +58,10 @@ Wervingsprojecten kunnen u helpen uw wervingsproces te beheren. Nadat u een werv
 25. Voer een datum in het veld **Einddatum** in.
 26. Selecteer **Opslaan**.
 27. Sluit de pagina.
-28. Selecteer Personeelsadvertenties.
+28. Selecteer **Personeelsadvertenties**.
 29. Selecteer **Opslaan**.
 30. Sluit de pagina.
-31. Schakel het selectievakje **Weergeven in werknemersselfservice** in of uit. Schakel het selectievakje **Weergeven in werknemersselfservice** in. Hiermee maakt u het wervingsproject zichtbaar voor werknemers op de selfservicepagina's voor werknemers.
+31. Schakel het selectievakje **Weergeven in Selfservice werknemer** in of uit. Schakel het selectievakje **Weergeven in Selfservice werknemer** in. Hiermee maakt u het wervingsproject zichtbaar voor werknemers op de pagina **Selfservice werknemer**.
 32. Selecteer **Status wervingsproject**.
 33. Selecteer **Starten**. De status **Gestart** betekent dat het project klaar is om sollicitaties te ontvangen.  
 34. Selecteer **OK**.

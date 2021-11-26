@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 966a878a7e5b0a92d6d53e67bea19c50274087a4416980859175b12c6fdfbcdc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec4265f0433fbbce1e00eda206c297b54f9b8df8
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764831"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778516"
 ---
 # <a name="firm-planned-orders"></a>Vast geplande orders
 
@@ -39,7 +39,7 @@ De meeste geplande orderfuncties zijn beschikbaar in alle standaardinstallaties 
 
 Parallel fiatteren zorgt voor een sneller fiatteringsproces door dit proces parallel te laten verlopen voor meerdere threads. Deze benadering kan handig zijn wanneer een groot aantal geplande orders moet worden gefiatteerd.
 
-Als u deze functionaliteit beschikbaar wilt maken in uw systeem, gaat u naar [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de functie *Parallel fiatteren van geplande orders* in.
+Als u deze functionaliteit beschikbaar wilt maken in uw systeem, gaat u naar [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de functie *Parallel fiatteren van geplande orders* in. (Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld.)
 
 ### <a name="enable-planned-order-firming-with-filtering"></a>Fiatteren van geplande orders inschakelen met filtering
 
@@ -51,7 +51,7 @@ Als u deze functionaliteit beschikbaar wilt maken in uw systeem, gaat u naar [Fu
 
 Met automatische fiattering kunt u tijdens de time fence voor fiattering geplande orders fiatteren als onderdeel van het hoofdplanningsproces. Automatische fiattering wordt altijd ondersteund voor de planningsengine die in Supply Chain Management is geïntegreerd. Als u de functie echter ook wilt gebruiken met Planningsoptimalisatie, moet u de functie inschakelen.
 
-Als u deze functionaliteit beschikbaar wilt maken in uw systeem, gaat u naar [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de functie *Automatisch fiatteren voor Planningsoptimalisatie* in.
+Als u deze functionaliteit beschikbaar wilt maken in uw systeem, gaat u naar [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de functie *Automatisch fiatteren voor Planningsoptimalisatie* in. (Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld.)
 
 ## <a name="manually-firm-planned-orders"></a>Geplande orders handmatig fiatteren
 

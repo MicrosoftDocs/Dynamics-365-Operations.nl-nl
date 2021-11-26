@@ -1,8 +1,8 @@
 ---
 title: Projecten voor massaal aanstellen
-description: Met massale aanstellingsprojecten kunnen resourcespecialisten meerdere functies maken en efficiënt medewerkers in die functies aanstellen.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Dit onderwerp beschrijft massale aanstellingsprojecten, waarmee resourcespecialisten meerdere functies kunnen maken en efficiënt medewerkers in die functies aanstellen.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3e6c2addcf3f43c843692013489afcc1912b9baac1dbdfa6b4d4a1afc4398cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6e0a8bba2227136995542d08f4b3f1e9d6d48ad5
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754796"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728651"
 ---
 # <a name="mass-hire-projects"></a>Projecten voor massaal aanstellen
 
@@ -43,19 +43,19 @@ Maak gebruik van projecten met massale inhuur wanneer u in één keer meerdere w
 
 In de zomer neemt u meestal 15-20 deeltijdstudenten aan om beschikbare stageplaatsen in uw bedrijf op te vullen. Dit jaar wilt u vijf accountants aanstellen, vijf orderverwerkers en vijf kasmedewerkers. In plaats van elke functieregistratie en werknemerregistratie afzonderlijk te maken, kunt u één project met massale inhuur maken met de naam 'SummerInterns'. De begin- en einddata van het project correleren met de begin- en einddata van de duur van de functie voor de functies die u voor het project voor massaal aanstellen maakt.
 
-Selecteer op de pagina **Projecten voor massaal aanstellen** het project 'SummerInterns' en klik vervolgens op **Project openen**. Klik in het project voor massaal aanstellen op **Functies maken** en voer gegevens in over de functie van accountant. U kunt aangeven dat er vijf accountant-functies moeten worden gemaakt met elk dezelfde gegevens. Klik vervolgens op OK. Herhaal dit proces voor de functie van orderverwerker en kasmedewerker.
+Selecteer op de pagina **Projecten voor massaal aanstellen** het project **SummerInterns** en selecteer **Project openen**. Selecteer in het geopende project voor massaal aanstellen de optie **Posities maken** en voer gegevens in over de positie van accountant. U kunt aangeven dat er vijf accountant-posities moeten worden gemaakt en dat voor elke positie dezelfde gegevens moeten worden gebruikt. Selecteer vervolgens **OK**. Herhaal dit proces voor de functie van orderverwerker en kasmedewerker.
 
-Nadat u studenten hebt geselecteerd om voor de stages aan te stellen, voert u voor elke student informatie in **Functiedetails** in voor de functie waarvoor u deze aanstelt. Wanneer u alle functiedetails hebt ingevoerd, selecteert u de functie op de pagina Projecten voor massaal aanstellen en klikt u op **Aanstellen**. Voor elke functie wordt een functieregistratie gemaakt en voor elke persoon die u aanstelt wordt een werknemerregistratie gemaakt en toegewezen aan de juiste functie.
+Nadat u studenten hebt geselecteerd om voor de stages aan te stellen, voert u voor elke student gegevens in bij de positiedetails voor de positie waarvoor u deze aanstelt. Wanneer u alle positiedetails hebt ingevoerd, selecteert u de positie op de pagina **Projecten voor massaal aanstellen** en selecteert u **Aanstellen**. Voor elke functie wordt een positierecord gemaakt en voor elke persoon die u aanstelt wordt een medewerkersrecord gemaakt en toegewezen aan de juiste positie voor iedereen die u aanstelt.
 
 ## <a name="mass-hire-project-statuses"></a>Status van een project met massale inhuur
 
 Een project met massale inhuur kan een van de volgende statussen hebben.
 
 - Gemaakt
-- Openstaand
-- Gesloten
+- Openen
+- Dicht
 
-Klik op de pagina **Project voor massaal aanstellen** op **Project openen** of **Project sluiten** om de status van een project voor massaal aanstellen te wijzigen. In de volgende tabel staat wat u volgens de status met een project kunt doen.
+Selecteer op de pagina **Project voor massaal aanstellen** de optie **Project openen** of **Project sluiten** om de status van een project voor massaal aanstellen te wijzigen. In de volgende tabel staat wat u volgens de status met een project kunt doen.
 
 <table>
 <thead>
@@ -75,8 +75,8 @@ Klik op de pagina **Project voor massaal aanstellen** op **Project openen** of *
 </tr>
 <tr>
 <td>Gesloten</td>
-<td>U kunt geen functies aan het project toevoegen. Om functies aan het project met massale inhuur toe te voegen, moet u het project opnieuw openen. Dit is de status voor voltooide projecten.
-<blockquote>[!NOTE] Voordat u een project met massale inhuur kunt sluiten, moeten alle functies in het project de status Gemaakt of Afgesloten hebben.</blockquote>
+<td><p>U kunt geen functies aan het project toevoegen. Om functies aan het project met massale inhuur toe te voegen, moet u het project opnieuw openen. Dit is de status voor voltooide projecten.</p>
+<p><strong>Opmerking:</strong> voordat u een project voor massaal aanstellen kunt sluiten, moeten alle posities in het project de status <b>Gemaakt</b> of <b>Afgesloten</b> hebben.</p>
 </td>
 </tr>
 </tbody>

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 0fce566bea6340b4016e559b1f5f1764a6881e28
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 9b57c6165e5de4a115818a135ed1455e3b05e3f0
+ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675388"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7733458"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>De parameters van een ER-indeling per rechtspersoon instellen
 
@@ -226,15 +226,6 @@ U kunt deze aanpak van exporteren en importeren ook gebruiken om toepassingsspec
 Als u toepassingsspecifieke parameters configureert voor één versie van een ER-indeling en vervolgens een latere versie van dezelfde indeling importeert in het huidige exemplaar van Finance, worden de bestaande toepassingsspecifieke parameters niet toegepast op de geïmporteerde versie tenzij u de toepassingsspecifieke parameters uit vorige versies van de **ER-indelingen** gebruikt. Zie de sectie [Bestaande parameter opnieuw gebruiken](#reuse-existing-parameters) verderop in dit onderwerp voor meer informatie.
 
 Wanneer u een bestand selecteert dat u wilt importeren, wordt de structuur van de toepassingsspecifieke parameters in dat bestand vergeleken met de structuur van de bijbehorende gegevensbronnen van het type **Zoekopdracht** in de ER-indeling die voor het importeren is geselecteerd. Standaard wordt de importbewerking alleen voltooid als de structuur van elke toepassingsspecifieke parameter overeenkomt met de structuur van de bijbehorende gegevensbron in de ER-indeling die voor het importeren is geselecteerd. Als de structuren niet overeenkomen, krijgt u de waarschuwingsbericht dat de importbewerking niet kan worden uitgevoerd. Als u de importbewerking afdwingt, worden de bestaande toepassingsspecifieke parameters voor de geselecteerde ER-indeling verwijderd en moet u deze opnieuw instellen.
-
-Vanaf versie 10.0.23 van Dynamics 365 Finance kunt u het standaardgedrag wijzigen en voorkomen dat u een waarschuwingsbericht ontvangt door de functie **Specifieke parameters voor de ER-toepassing afstemmen tijdens het importeren** in de werkruimte **Functiebeheer**. Wanneer deze functie is ingeschakeld en als de structuur van de toepassingsspecifieke parameters in dat bestand verschilt van de structuur van de bijbehorende gegevensbronnen in de doel-ER-indeling die voor het importeren is geselecteerd, wordt het importeren in de volgende gevallen uitgevoerd:
-
-- De structuur van de doel-ER-indeling is gewijzigd door nieuwe voorwaardekolommen toe te voegen aan bestaande gegevensbronnen van het type **Zoeken**. Wanneer het importeren is voltooid, worden de toepassingsspecifieke parameters bijgewerkt. In alle geïmporteerde records met toepassingsspecifieke parameters worden de waarden in elke toegevoegde voorwaardekolom geïnitialiseerd met de standaardwaarde voor het [gegevenstype](er-formula-supported-data-types-primitive.md) van die kolom.
-- De structuur van de doel-ER-indeling is gewijzigd door nieuwe voorwaardekolommen te verwijderen uit bestaande gegevensbronnen van het type **Zoeken**. Wanneer het importeren is voltooid, worden de toepassingsspecifieke parameters bijgewerkt. In alle geïmporteerde records met toepassingsspecifieke parameters worden de waarden in elke verwijderde voorwaardekolom verwijderd.
-- De structuur van de doel-ER-indeling is gewijzigd door nieuwe gegevensbronnen toe te voegen van het type **Zoeken**. Wanneer het importeren is voltooid, worden de toegevoegde opzoekbewerkingen aan de toepassingsspecifieke parameters toegevoegd.
-- De structuur van de doel-ER-indeling is gewijzigd door een aantal bestaande gegevensbronnen van het type **Zoeken** te verwijderen. Wanneer het importeren is voltooid, worden alle artefacten die zijn gerelateerd aan de gegevensbronnen van het type **Zoeken** die zijn verwijderd uit de doel ER-indeling, verwijderd uit de geïmporteerde toepassingsspecifieke parameters.
-
-Wanneer het importeren is voltooid, wordt naast de zojuist beschreven wijzigingen, de status van de geïmporteerde toepassingsspecifieke parameters gewijzigd in **In uitvoering**. U krijgt een waarschuwingsbericht dat de automatisch gecorrigeerde toepassingsspecifieke parameters handmatig moeten worden bewerkt.
 
 ### <a name="reuse-existing-parameters"></a>Bestaande parameters opnieuw gebruiken
 

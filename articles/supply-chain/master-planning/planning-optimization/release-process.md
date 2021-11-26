@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ec1683554e389948a64aee68e4d069be1e93cc1a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b2e0145c28b40f4fbfb54ad7e7ed32fbc130c569
+ms.sourcegitcommit: 8afd0cdb39ec443fb7631c39401967cce0fac34e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567338"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7727427"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Vrijgaveproces en vrijgavegeschiedenis van Planningsoptimalisatie
 
@@ -33,6 +33,9 @@ Omdat meldingen niet worden weergegeven wanneer Planningsoptimalisatie in uw omg
 
 | Wijzigingen | Informatie over Functiebeheer | Vrijgavedatum |
 |---|---|---|
+| <p>Extra ondersteuning voor formules voor de berekening van procestijd, productieroute met overlapping en productiebewerkingsnummer van behoeftetransacties.</p><p>Verbeterde foutberichten voor productieplanning met betrekking tot time-out, capaciteit kan niet worden gevonden en cyclische route.</p><p>Verbeterde consistentie bij het berekenen van ontvangst- en uitgiftedatums op zowel geplande orders als gefiatteerde orders.</p><p>Verbeteringen in de algemene prestaties, kwaliteit en stabiliteit. | Functienaam: *Onbeperkte capaciteitsplanning voor Planningsoptimalisatie* | 22-27 oktober 2021 |
+| <p>Extra ondersteuning voor het overwegen van uitvalpercentage bij de berekening van de verwerkingstijd.</p><p>Extra ondersteuning voor bewerkingsnummer en materiaalverbruik tijdens de planning. | Functienaam: *Onbeperkte capaciteitsplanning voor Planningsoptimalisatie* | 5-7 oktober 2021 |
+| <p>Extra ondersteuning voor taaktypen voor productieroute: **Wachtrij vóór**, **Wachtrij na** en **Transporttijd**.</p><p>Verbeteringen in de algemene prestaties, kwaliteit en stabiliteit. | Functienaam: *Onbeperkte capaciteitsplanning voor Planningsoptimalisatie* | 25-30 september 2021 |
 | <p>Extra ondersteuning voor hoofdplannen waarbij **Planningsmethode** is ingesteld op *Bewerkingsplanning*.</p><p>Houd op de pagina **Routegroepen** rekening met de instellingen voor de selectievakjes **Activering**, **Werktijd** en **Capaciteit** voor rijen met een **Type route/taak** van *Instellingen* of *Proces*. </p><p>Verbeteringen in de algemene prestaties, kwaliteit en stabiliteit. | <p>Bewerkingsplanning is beschikbaar in Functiebeheer vanaf versie 10.0.20.</p><p>Functienaam: *Onbeperkte capaciteitsplanning voor Planningsoptimalisatie*</p>  | 9-17 september 2021 |
 | Verbeteringen in de algemene prestaties, kwaliteit en stabiliteit. | Functiebeheer is niet vereist. | 25 - 30 augustus 2021 |
 | <p>Het veld **Doorlooptijd** toegevoegd aan geplande orders.</p><p>Verbeteringen in de algemene prestaties, kwaliteit en stabiliteit.</p> | Functiebeheer is niet vereist. | 12 - 17 augustus 2021 |

@@ -101,7 +101,7 @@ Ontwikkeling van POS-extensie met behulp van ModernPos.sln, CloudPOs.sln, POS.Ex
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Vanaf deze versie is het veld **Interval voor genereren van volledige gegevensset in dagen** in het formulier **Parameters voor handelplanner** in Dynamics 365 Headquarters afgeschaft. In deze versie is het veld ook niet meer zichtbaar, zodat de waarde niet kan worden bewerkt. De waarde blijft **0**. |
-| **Vervangen door een andere functie?**   | No |
+| **Vervangen door een andere functie?**   | Nee |
 | **Betrokken productgebieden**         | Dynamics 365 Commerce |
 | **Implementatieoptie**              | Alles|
 | **Status**                         | Afgeschaft. Gebruik dit veld niet of wijzig de waarde niet.|

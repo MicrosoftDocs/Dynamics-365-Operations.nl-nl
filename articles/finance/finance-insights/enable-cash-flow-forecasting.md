@@ -2,7 +2,7 @@
 title: Cashflowprognose inschakelen
 description: In dit onderwerp wordt uitgelegd hoe u de functie Cashflowprognoses kunt inschakelen in Financiële inzichten.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,45 +15,37 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: b5e54772b132b4098df8259e954a484a0838ee38
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: d968f28126cf205a487d84301aa28f1251713386
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386706"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752683"
 ---
 # <a name="enable-cash-flow-forecasting"></a>Cashflowprognose inschakelen
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u de functie Cashflowprognoses kunt inschakelen in Financiële inzichten.
+In dit onderwerp wordt uitgelegd hoe u de functie Cashflowprognoses kunt inschakelen in Finance Insights.
 
 > [!NOTE]
 > Als u betalingsvoorspellingen in de cashflow wilt gebruiken, moet u de functie Voorspellingen klantbetalingen instellen, zoals wordt beschreven in [Voorspellingen klantbetalingen inschakelen](enable-cust-paymnt-prediction.md).
-
-1. Gebruik informatie op de omgevingspagina in Microsoft Dynamics Lifecycle Services (LCS) om verbinding te maken met het primaire exemplaar van Azure SQL voor die omgeving. Voer de volgende Transact-SQL-opdracht (T-SQL) uit om flights in te schakelen voor de sandbox-omgeving. (Mogelijk moet u de toegang voor uw IP-adres inschakelen in LCS voordat u extern verbinding kunt maken met Application Object Server \[AOS\].)
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('CashflowInsightsFeature', 1)`
-
-    > [!NOTE]
-    > Sla deze stap over als u versie 10.0.20 of hoger gebruikt of als u een Service Fabric-implementatie gebruikt. Het Financiële inzichten-team zou de flight al voor u moeten hebben ingeschakeld. Als de functie niet ziet in het werkgebied **Functiebeheer** of als u problemen ondervindt wanneer u deze wilt inschakelen, neemt u contact op met <fiap@microsoft.com>.
   
-2. Open het werkgebied **Functiebeheer** en voer de volgende stappen uit:
+1. Open het werkgebied **Functiebeheer** en voer de volgende stappen uit:
 
     1. Selecteer **Controleren op updates**.
-    2. De volgende functies inschakelen:
+    2. Zoek op het tabblad **Alle** naar **Cashflowprognoses**. Als u die functie niet kunt vinden, zoekt u naar **(Preview) Cashflowprognoses**. 
+    3. Schakel de functie in.
 
-        - Nieuw rasterbesturingselement
-        - Groeperen in rasters (preview) 
-        - Betalingsvoorspellingen voor klanten (preview)
-        - Cashflowprognoses (preview)
-
-3. Ga naar **Contanten en bankbeheer \> Instelling van cashflowprognoses** en voeg de liquiditeitsrekeningen toe die in de prognoses moeten worden opgenomen.
+2. Ga naar **Contanten en bankbeheer \> Instelling van cashflowprognoses** en voeg de liquiditeitsrekeningen toe die in de prognoses moeten worden opgenomen. Stel ook de liquiditeitsrekening in voor betalingen op de tabbladen **Klanten** en **Leveranciers**. Bereken de cashflowprognose opnieuw.
 
     > [!NOTE]
     > Als er geen liquiditeitsrekeningen zijn ingesteld, kan de cashflow niet worden gegenereerd.
+    >
+    > Zie [Cashflowprognose](../cash-bank-management/cash-flow-forecasting.md) voor meer informatie over het instellen van cashflowprognoses.
 
-4. Ga naar **Contanten en bankbeheer \> Instellen \> Financiële inzichten (preview) \> Cashflowprognoses (preview)** en volg deze stappen:
+3. Ga naar **Contanten en bankbeheer \> Instellen \> Financiële inzichten (preview) \> Cashflowprognoses (preview)** en volg deze stappen:
 
     1. Selecteer op het tabblad **Cashflowprognose** de optie **Functie inschakelen**.
     2. Selecteer **Voorspellingsmodel maken**.

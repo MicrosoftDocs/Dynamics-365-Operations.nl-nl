@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 59d246dd348bca6c00dc90b19353a382986841f2
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 3111de1f9862cbf926e763f963c86059f4121fc0
+ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471735"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7733434"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Schaaleenheden in een gedistribueerde hybride topologie
 
@@ -32,8 +32,8 @@ Bedrijven die werken met productie en distributie moeten belangrijke bedrijfspro
 
 Met een gedistribueerde hybride topologie wordt het concept van *schaaleenheden* geïntroduceerd, waarmee de uitvoeringsbelasting van werkvloer en magazijn over verschillende omgevingen kunnen worden verdeeld. Deze functionaliteit kan helpen de prestaties te verbeteren, serviceonderbrekingen te voorkomen en de uptime te maximaliseren. Schaaleenheden worden geleverd via de volgende invoegingen voor uw Supply Chain Management-abonnement:
 
-- Invoegtoepassing voor cloudschaaleenheden voor Dynamics 365 Supply Chain Management (*beschikbaar april 2021)*
-- Invoegtoepassing voor edgeschaaleenheden voor Dynamics 365 Supply Chain Management (*binnenkort beschikbaar)*
+- Invoegtoepassing Cloud schaaleenheid voor Dynamics 365 Supply Chain Management
+- Invoegtoepassing Edge schaaleenheid voor Dynamics 365 Supply Chain Management
 
 Workloadcapaciteiten worden doorlopend vrijgegeven door middel van incrementele verbeteringen.
 
@@ -51,21 +51,12 @@ U kunt uw hub-omgeving en cloud-schaaleenheden voor geselecteerde workloads conf
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Toegewezen workloadfuncties voor magazijnbeheer in een schaaleenheid
 
-De workload voor magazijnbeheer is de eerste gedistribueerde workload voor schaaleenheden die is vrijgegeven voor algemene beschikbaarheid.
-
-Bij magazijnbeheer bieden schaaleenheden de volgende mogelijkheden:
-
-- Het systeem kan geselecteerde wave-methoden verwerken voor verkooporders en vraagaanvulling.
-- Magazijnmedewerkers kunnen in de mobiele app Magazijnbeheer het werk voor verkoop en aanvulling van het magazijn uitvoeren.
-- Magazijnmedewerkers kunnen in de mobiele app Magazijnbeheer de voorhanden voorraad opzoeken.
-- Magazijnmedewerkers kunnen in de mobiele app Magazijnbeheer voorraadbewegingen maken en uitvoeren.
-- Magazijnmedewerkers kunnen in de mobiele app Magazijnbeheer inkooporders registreren en wegzetwerk doen.
-
+Met de workload voor magazijnbeheer kunt u magazijnbeheerprocessen uitvoeren op afzonderlijke implementaties.
 Zie [Workloads voor magazijnbeheer voor cloud- en edgeschaaleenheden](cloud-edge-workload-warehousing.md) voor meer informatie.
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Toegewezen workloadfuncties voor productie-uitvoering in een schaaleenheid
 
-De eerste release van de productieworkload is momenteel in preview en biedt de volgende mogelijkheden:
+De productie-workload biedt de volgende mogelijkheden:
 
 - Machineoperators en werkvloersupervisors kunnen toegang krijgen tot het operationele productieplan.
 - Machineoperators kunnen het plan up-to-date houden door afzonderlijke en procesproductietaken uit te voeren.
@@ -191,17 +182,33 @@ Microsoft zal uw aanvraag beoordelen en u op de hoogte brengen van de volgende s
 
 Nadat de onboarding is voltooid, kunt u de poort gebruiken om schaaleenheden en workloads te configureren.
 
-### <a name="manage-cloud-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Cloud-schaaleenheden en workloads beheren via de portal voor schaaleenhedenbeheer
+### <a name="manage-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Schaaleenheden en workloads beheren via de beheerportal voor schaaleenheden
 
 Ga naar de [portal voor schaaleenhedenbeheer](https://aka.ms/SCMSUM) en meld u aan met uw tenant-account. Op de pagina **Schaal eenheden configureren** kunt u een hub-omgeving toevoegen als deze nog niet wordt weergegeven. U kunt vervolgens de hub selecteren die u wilt configureren met schaaleenheden en workloads.
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Schaaleenheid- en workloadbeheerervaring.":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Beheerportal voor schaaleenheden, pagina Schaaleenheden configureren.":::
 
 Selecteer **Schaaleenheden toevoegen** om een of meer schaaleenheden toe te voegen die beschikbaar zijn in uw abonnementen.
 
 Op het tabblad **Gedefinieerde workloads** kunt u de knop **Workload maken** gebruiken om een magazijnbeheerworkload toe te voegen aan een van uw schaaleenheden. Voor elke workload moet u de context opgeven van de processen waarvan de workload de eigenaar is. Voor magazijnbeheerworkloads is de context een specifiek magazijn in een specifieke locatie en rechtspersoon.
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Workloads maken.":::
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Het dialoogvenster Workloads definiëren.":::
+
+#### <a name="manage-workloads"></a>Workloads beheren
+
+Wanneer een of meer workloads zijn ingeschakeld, kunt u met de optie **Workloads beheren** processen starten en beheren, zoals processen die in de volgende tabel worden vermeld.
+
+| Proces | Description |
+|---|---|
+| Schaaleenheidcommunicatie onderbreken | Pijplijnberichten onderbreken tussen de hub en een schaaleenheid. Met dit proces wordt de communicatie gestopt en wordt de gegevenspijplijn tussen de hub en schaaleenheden leeggemaakt. U moet dit proces uitvoeren voordat u een bewerking voor Supply Chain Management onderhoudt op de hub of de schaaleenheid, maar u kunt dit ook in andere situaties gebruiken. |
+| Schaaleenheidcommunicatie hervatten | Pijplijnberichten hervatten tussen de hub en een schaaleenheid. U moet dit proces bijvoorbeeld gebruiken wanneer u een onderhoudsbewerking voor Supply Chain Management hebt uitgevoerd op de hub of de schaaleenheid. |
+| Workloads upgraden | Nieuwe functionaliteit synchroniseren tussen de hub en workloads van de schaaleenheid. U moet dit proces bijvoorbeeld gebruiken wanneer door onderhoud de query's voor gegevensuitwisseling veranderd zijn, en/of nieuwe tabellen of velden aan de workload zijn toegevoegd. |
+| Workloads overbrengen naar een schaaleenheid | Een workload plannen die momenteel wordt uitgevoerd op de hub om te worden verplaatst naar een schaaleenheid. Wanneer dit proces wordt uitgevoerd, stroomt de synchronisatie van de gegevens, en worden zowel de hub als de schaaleenheid ingesteld om het eigendom van de workload te wijzigen. |
+| Schaaleenheid naar de hub overbrengen | Een workload plannen die momenteel wordt uitgevoerd op een schaaleenheid om te worden verplaatst naar de hub. Wanneer dit proces wordt uitgevoerd, stroomt de synchronisatie van de gegevens, en worden zowel de hub als de schaaleenheid ingesteld om het eigendom van de workload te wijzigen.
+| Overgang in noodgevallen naar hub | <p>Een bestaande workload onmiddellijk overdragen naar de hub. *Bij dit proces wordt het eigendom gewijzigd van alleen de gegevens die momenteel beschikbaar zijn op de hub.*</p><p><strong>Waarschuwing:</strong> dit proces kan leiden tot gegevensverlies voor niet-gesynchroniseerde gegevens en uitval van bedrijfsprocessen. Daarom moet het alleen in noodgevallen worden gebruikt, wanneer bedrijfsprocessen op de hub moeten worden verwerkt omdat de schaaleenheid een storing heeft die niet binnen een redelijke tijd kan worden verholpen.</p> |
+| Gedistribueerde topologie uit bedrijf nemen | Verwijder een implementatie van een schaaleenheid en draai alleen op de hub, zonder workloadverwerking. |
+
+:::image type="content" source="media/sum-manage-workloads.png" alt-text="Schaaleenheid- en workloadbeheerervaring.":::
 
 > [!TIP]
 > Na verloop van tijd worden incrementele verbeteringen toegevoegd aan schaaleenhedenbeheer om de LCS-bewerkingen eenvoudiger te maken. De specifieke mogelijkheden voor de huidige versie worden gedocumenteerd in een handboek voor onboarding dat beschikbaar is voor klanten in het onboardingsproces naar de gedistribueerde, hybride topologie voor Supply Chain Management. <!-- KFM: Add a link to the handbook when it is published -->

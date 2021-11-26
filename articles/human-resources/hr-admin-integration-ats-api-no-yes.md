@@ -34,7 +34,7 @@ Deze opsomming biedt opties die zijn ingesteld voor standaard Booleaanse eigensc
 
 | Waarde | Etiket | Beschrijving |
 | --- | --- | --- |
-| 200000000 | No | Nr. |
+| 200000000 | Nee | Nr. |
 | 200000001 | Ja | Ja. |
 
 ## <a name="see-also"></a>Zie ook

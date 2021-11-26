@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 19c4e3c6ad682f3814d334f88c0653c4e7a51d23
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2fa82c721316fb21442e1cfc00ba00ff8cb2b750
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569282"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778226"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Gereedmelden via het apparaat voor taakkaarten
 
@@ -218,7 +218,7 @@ Met geavanceerde magazijnprocessen kan de nummerplaatdimensie worden gebruikt om
 
 Als u de functies wilt gebruiken die in deze sectie worden beschreven, moet u [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de volgende functies in te schakelen (in deze volgorde):
 
-1. Nummerplaat voor gereedmelding toegevoegd aan het apparaat voor taakkaarten
+1. De nummerplaat voor gereedmelding die is toegevoegd aan het taakkaartapparaat (vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld.)
 1. Het automatisch genereren van nummerplaatnummers inschakelen bij het gereedmelden in het apparaat voor taakkaarten
 1. Label afdrukken vanaf apparaat voor taakkaart
 

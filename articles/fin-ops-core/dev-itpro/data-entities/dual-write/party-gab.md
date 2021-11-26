@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 08/11/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: da5ca16ed87108f8046348c831d37085f6f780d7
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 127b4092ad3c5e8737aff43f503e0a8f36ff1ec8
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386680"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781339"
 ---
 # <a name="party-and-global-address-book"></a>Partij en globaal adresboek
 
@@ -30,14 +30,14 @@ Een partij is een persoon of een organisatie die betrokken is bij een bedrijf. D
 
 + **Medewerker**: een werknemer. Een voorbeeld is een werknemer van Contoso.
 + **Leverancier**: Een leveranciersorganisatie die of eenmansbedrijf dat goederen of diensten levert aan een bedrijf. Als Fabrikam bijvoorbeeld goederen verkoopt aan Contoso, is Fabrikam een leverancier van Contoso.
-+ **Contactpersoon**: Een persoon om contact mee op te nemen. Als Contoso bijvoorbeeld goederen koopt van Fabrikam, zouden werknemers van Contoso bijvoorbeeld contact opnemen met de contactpersoon bij Fabrikam.
-+ **Klant**: Een klant is een persoon die of bedrijf dat goederen koopt van een bedrijf. Als Contoso bijvoorbeeld goederen koopt van Fabrikam, is Contoso een klant van Fabrikam.
++ **Contactpersoon**: Een persoon om contact mee op te nemen. Als Contoso bijvoorbeeld producten koopt bij Fabrikam, nemen werknemers van Contoso contact op met de contactpersoon bij Fabrikam.
++ **Klant**: Een klant is een persoon die of bedrijf dat goederen koopt van een bedrijf. Als Contoso bijvoorbeeld producten koopt van Fabrikam, is Contoso een klant van Fabrikam.
 
 Het partijmodel wordt vaak gebruikt om gemiddelde tot complexe relaties tussen organisaties en mensen weer te geven, met name als een partij meer dan één rol heeft. Hieronder vindt u een aantal gangbare voorbeelden:
 
-+ Een partij kan zowel een klant als leverancier zijn. In Noord-Amerika verkoopt Fabrikam bijvoorbeeld elektrische kabels aan Contoso en koopt ook weer geassembleerde luidsprekers van Contoso. In Europa verkoopt Fabrikam onderdelen aan Contoso, maar koopt Fabrikam niets van Contoso.
++ Een partij kan zowel een klant als leverancier zijn. In Noord-Amerika verkoopt Fabrikam bijvoorbeeld elektrische kabels aan Contoso en koopt Fabrikam geassembleerde luidsprekers van Contoso. In Europa verkoopt Fabrikam onderdelen aan Contoso, maar koopt Fabrikam niets van Contoso.
 + Een partij kan zowel een werknemer als klant zijn. Een werknemer van Contoso kan bijvoorbeeld elektronica kopen bij Contoso voor persoonlijk gebruik.
-+ Er kan een veel-op-veel-relatie (N:N) tussen een persoon en een organisatie bestaan. Fabrikam levert bijvoorbeeld servicespecialisten en heeft een plaatsingscoördinator in dienst. De plaatsingscoördinator wijst de servicespecialisten toe aan de werkaanvragen van verschillende klanten van Fabrikam. Contoso is één van de klanten van Fabrikam. Wanneer Contoso een servicespecialist nodig heeft, neemt het bedrijf contact op met de plaatsingscoördinator die de aanvraag vervolgens inwilligt. Omdat de plaatsingscoördinator aanvragen voor alle klanten verwerkt, spreken we hier van een N:N-relatie.
++ Er kan een veel-op-veel-relatie (N:N) tussen een persoon en een organisatie bestaan. Fabrikam levert bijvoorbeeld servicespecialisten en heeft een plaatsingscoördinator in dienst. De plaatsingscoördinator wijst de servicespecialisten toe aan de werkaanvragen van verschillende klanten van Fabrikam. Contoso is een van de klanten van Fabrikam. Wanneer Contoso een servicespecialist nodig heeft, neemt het bedrijf contact op met de plaatsingscoördinator die de aanvraag vervolgens inwilligt. Omdat de plaatsingscoördinator aanvragen voor alle klanten verwerkt, spreken we hier van een N:N-relatie.
 
 De volgende afbeelding toont het gegevensmodel voor Partij.
 

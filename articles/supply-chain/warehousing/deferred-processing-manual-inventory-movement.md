@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a15c913c876e961c6824c1e8812ab2be2d6ffa4333cd0d4e6f80cae8bac79394
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f5c9ba7079895feeb0c171f2021479587aa13cc9
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746742"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777661"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Uitgestelde verwerking van handmatige voorraadmutaties
 
@@ -32,7 +32,7 @@ De achtergrondverwerking wordt gerealiseerd met de functie [Gebeurtenissen van d
 
 Als u deze functie beschikbaar wilt maken, schakelt u de volgende functies in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in: U moet ze in deze volgende volgorde in- of uitschakelen:
 
-1. Werk blokkeren voor de hele organisatie
+1. Werk blokkeren voor de hele organisatie (vanaf Supply Chain Management versie 10.0.21 is deze functie verplicht, waardoor deze standaard wordt ingeschakeld en niet meer kan worden uitgeschakeld.)
 1. Gebeurtenissen in magazijnapp verwerken
 1. Uitgestelde put-bewerkingen
 1. Uitgestelde verwerking van handmatige bewerking voor voorraadmutatie

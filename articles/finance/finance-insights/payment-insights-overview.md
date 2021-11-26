@@ -2,7 +2,7 @@
 title: Voorspellingen voor klantbetalingen
 description: In dit onderwerp wordt beschreven hoe u betalingsvoorspellingen kunt gebruiken om de gebruikelijke betalingsmethoden van klanten beter te begrijpen. De functie kan helpen om omstandigheden te identificeren die kunnen rechtvaardigen dat incassoprocessen eerder worden begonnen dan normaal gesproken.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 21a773b37020aeff969469e29be68e7f7ef44d93
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 300c835c835a5c653b75b9e151462337dfbe49a5
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386656"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752731"
 ---
 # <a name="customer-payment-predictions"></a>Voorspellingen voor klantbetalingen
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 In dit onderwerp wordt beschreven hoe u betalingsvoorspellingen kunt gebruiken om de gebruikelijke betalingsmethoden van klanten beter te begrijpen. De functie kan helpen om omstandigheden te identificeren die kunnen rechtvaardigen dat incassoprocessen eerder worden begonnen dan normaal gesproken.
 
@@ -67,11 +68,5 @@ In veel bedrijven is het incassoproces een reactieve activiteit. Met andere woor
 ## <a name="methodology"></a>Methodologie
 
 In het verleden was het doorgaans moeilijk om een oplossing met kunstmatige intelligentie te ontwikkelen en te implementeren. Voor het proces was een team vereist met gegevenswetenschappers, deskundigen en ingenieurs, die gedurende langere tijd samenwerken om een bruikbare AI-oplossing te formuleren, te ontwikkelen, te implementeren en te onderhouden. Met Voorspellingen van klantbetalingen kunt u eenvoudig een AI-oplossing implementeren en gebruiken in Microsoft Dynamics 365 Finance. Microsoft neemt AI-oplossingenop die zijn gebouwd op basis van Microsoft AI Builder. Daarom kunnen gebruikers de AI-oplossing met één muisklik implementeren om voordeel te halen uit intelligente voorspellingen. Als u niet tevreden bent over de nauwkeurigheid van voorspellingen, kan een hoofdgebruiker (met één klik op de muisknop) opnieuw het AI Builder hulpprogramma openen en vervolgens de velden voor het genereren van voorspellingen selecteren of wissen. Wanneer u klaar bent, kunt u het model 'trainen' en de wijzigingen publiceren. Het nieuwe getrainde model wordt automatisch opgehaald om voorspellingen te genereren in Dynamics 365 Finance.
-
-## <a name="release-details"></a>Releasegegevens
-
-De openbare preview van Finance Insights is beschikbaar voor proefimplementaties in de Verenigde Staten van Amerika, Europa en het Verenigd Koninkrijk. Microsoft voegt incrementeel ondersteuning toe voor meer regio's.
-
-Openbare previeffuncties moeten alleen worden ingeschakeld in Tier-2 sandbox-omgevingen. Setup-modellen en AI-modellen die in een sandbox-omgeving zijn gemaakt, kunnen mogelijk niet naar een productieomgeving worden gemigreerd. Zie voor meer informatie [Aanvullende gebruiksrechtovereenkomst voor Microsoft Dynamics 365 Previews](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

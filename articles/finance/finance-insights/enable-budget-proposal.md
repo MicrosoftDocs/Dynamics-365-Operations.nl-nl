@@ -1,8 +1,8 @@
 ---
-title: Budgetvoorstellen inschakelen
+title: Budgetvoorstel inschakelen
 description: In dit onderwerp wordt uitgelegd hoe u de functie Budgetvoorstel kunt inschakelen in Financiële inzichten.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,31 +15,26 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ab65d1b0e366bfe6bdb07688f89d440662165063
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 3ad610feccf88ac88475a463fd1f10f4336b9407
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386481"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752707"
 ---
-# <a name="enable-budget-proposals"></a>Budgetvoorstellen inschakelen
+# <a name="enable-budget-proposal"></a>Budgetvoorstel inschakelen
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u de functie Budgetvoorstel kunt inschakelen in Financiële inzichten.
 
-1. Gebruik informatie op de omgevingspagina in Microsoft Dynamics Lifecycle Services (LCS) om verbinding te maken met het primaire exemplaar van Azure SQL voor die omgeving. Voer de volgende Transact-SQL-opdracht (T-SQL) uit om flights in te schakelen voor de sandbox-omgeving. (Mogelijk moet u de toegang voor uw IP-adres inschakelen in LCS voordat u extern verbinding kunt maken met Application Object Server \[AOS\].)
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('BudgetIntelligentBudgetRegisterProposalFeature', 1)`
-
-    > [!NOTE]
-    > Sla deze stap over als u versie 10.0.20 of hoger gebruikt of als u een Service Fabric-implementatie gebruikt. Het Financiële inzichten-team zou de flight al voor u moeten hebben ingeschakeld. Als de functie niet ziet in het werkgebied **Functiebeheer** of als u problemen ondervindt wanneer u deze wilt inschakelen, neemt u contact op met <fiap@microsoft.com>.
-
-2. Open het werkgebied **Functiebeheer** en voer de volgende stappen uit:
+1. Open het werkgebied **Functiebeheer** en voer de volgende stappen uit:
 
     1. Selecteer **Controleren op updates**.
-    2. Zoek **Budgetvoorstel** en schakel de functie in.
+    2. Zoek op het tabblad **Alle** naar **Budgetvoorstel**. Als u die functie niet kunt vinden, zoekt u naar **(Preview) Budgetvoorstel**. 
+    3. Schakel de functie in.
 
-3. Ga naar **Budgettering \> Instellen \> Basisbudgettering \> Budgetvoorstel (preview)** en selecteer **Functie inschakelen**.
+2. Ga naar **Budgettering \> Instellen \> Basisbudgettering \> Budgetvoorstel** en selecteer **Functie inschakelen**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

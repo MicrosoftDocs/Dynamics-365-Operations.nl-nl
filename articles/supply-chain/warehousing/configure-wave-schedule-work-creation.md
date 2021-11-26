@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 358f5a87cdb42f0ff646948da8d38475cf49e3f2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5e9dc9b7cf33f9393f408d8f8a458e9b0ea47639
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577907"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778372"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Het maken van werk plannen tijdens waves
 
@@ -33,7 +33,7 @@ Wanneer de functionaliteit is ingeschakeld, wordt automatisch gepland werk gemaa
 
 Als u de functies wilt gebruiken die in dit onderwerp worden beschreven, moeten deze zijn ingeschakeld voor uw systeem. Gebruik de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de volgende functies in deze volgende in te schakelen:
 
-1. **Werk blokkeren voor de hele organisatie**: vereist voor zowel handmatige als automatische configuratie van geplande werkcreatie.
+1. **Werk blokkeren voor de hele organisatie**: vereist voor zowel handmatige als automatische configuratie van geplande werkcreatie. (Vanaf Supply Chain Management versie 10.0.21 is deze functie verplicht, waardoor deze standaard wordt ingeschakeld en niet meer kan worden uitgeschakeld.)
 1. **Werk maken plannen**: vereist voor zowel handmatige als automatische configuratie van geplande werkcreatie.
 1. **Wavemethode "Werk maken plannen" voor de hele organisatie**: vereist voor automatische configuratie van geplande werkcreatie. U hebt deze functie niet nodig als u alleen handmatige configuratie gebruikt.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: fa5a618527ce5a20b59902e7397000bf0796cbbb
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: f852779d43beb3a43c6921a25d393ee00dff96d1
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647184"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777956"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>De uitvoeringsinterface voor de werkvloer configureren
 
@@ -39,7 +39,7 @@ De uitvoeringsinterface voor de werkvloer zelf, plus een aantal optionele instel
 
 ### <a name="the-production-floor-execution-interface"></a>De uitvoeringsinterface voor de werkvloer
 
-Dit is de primaire functie die in dit onderwerp wordt beschreven. Hiermee wordt de uitvoeringsinterface voor de werkvloer aan uw systeem toegevoegd. Schakel deze in door de volgende functie in [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in te schakelen:
+Dit is de primaire functie die in dit onderwerp wordt beschreven. Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Hiermee wordt de uitvoeringsinterface voor de werkvloer aan uw systeem toegevoegd. Schakel deze in door de volgende functie in [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in te schakelen:
 
 - Uitvoering werkvloer
 
@@ -47,19 +47,19 @@ Dit is de primaire functie die in dit onderwerp wordt beschreven. Hiermee wordt 
 
 Deze functies maken de functionaliteit voor nummerplaten beschikbaar voor de uitvoeringsinterface voor de werkvloer. Als u ze wilt gebruiken, schakelt u de volgende functies in [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in (in deze volgorde):
 
-1. Nummerplaat voor gereedmelding toegevoegd aan het apparaat voor taakkaarten
+1. De nummerplaat voor gereedmelding die is toegevoegd aan het taakkaartapparaat (vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld.)
 1. Het automatisch genereren van nummerplaatnummers inschakelen bij het gereedmelden in het apparaat voor taakkaarten
 
 ### <a name="print-labels"></a>Etiketten afdrukken
 
 Deze functies maken de functionaliteit voor het afdrukken van labels beschikbaar voor de uitvoeringsinterface voor de werkvloer. Als u ze wilt gebruiken, schakelt u de volgende functies in [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in (in deze volgorde):
 
-1. Nummerplaat voor gereedmelding toegevoegd aan het apparaat voor taakkaarten
+1. De nummerplaat voor gereedmelding die is toegevoegd aan het taakkaartapparaat (vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld.)
 1. Label afdrukken vanaf apparaat voor taakkaart
 
 ### <a name="allow-locking-the-touch-screen"></a>Vergrendeling van het aanraakscherm toestaan
 
-Deze functie voegt een knop toe aan de uitvoeringsinterface voor de werkvloer waarmee werknemers het aanraakscherm kunnen opschonen. Als u hier gebruik van wilt maken, schakelt u de volgende functie in [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in:
+Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Met deze functie wordt een knop toegevoegd aan de uitvoeringsinterface voor de productievloer waarmee werknemers het aanraakscherm kunnen opschonen. Als u dit wilt gebruiken, schakelt u de volgende functie in [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in:
 
 - Functie voor vergrendelen van taakkaartapparaat en taakkaartterminal zodat ze kunnen worden schoongemaakt
 

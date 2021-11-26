@@ -34,7 +34,7 @@ Deze opsomming biedt een optieset voor ja/nee-eigenschappen die ook leeg mogen z
 | --- | --- | --- |
 | 200000000 | Leeg | Er is geen waarde geselecteerd. |
 | 200000001 | Ja | Ja. |
-| 200000002 | No | Nr. |
+| 200000002 | Nee | Nr. |
 
 ## <a name="see-also"></a>Zie ook
 

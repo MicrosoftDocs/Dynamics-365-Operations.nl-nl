@@ -88,9 +88,9 @@ In de volgende tabel ziet u welke verkooporders door de gebruikers van elke webr
 
 | Verkooporder | Beheerder | Klantmedewerkers voor klant&nbsp;X | Geautoriseerde gebruiker: Jane | Geautoriseerde gebruiker: Sam | Niet-geautoriseerde gebruikers: May |
 |---|---|---|---|---|---|
-| Besteller klant&nbsp;X:&nbsp;Jane | Ja | Ja | Ja | No | No |
-| Besteller klant&nbsp;X:&nbsp;Sam | Ja | Ja | No | Ja | No |
-| Besteller&nbsp;klant Y:&nbsp;May | Ja | No | No | No | No |
+| Besteller klant&nbsp;X:&nbsp;Jane | Ja | Ja | Ja | Nee | Nee |
+| Besteller klant&nbsp;X:&nbsp;Sam | Ja | Ja | Nee | Ja | Nee |
+| Besteller&nbsp;klant Y:&nbsp;May | Ja | Nee | Nee | Nee | Nee |
 
 > [!NOTE]
 > Hoewel zowel Sam als Rob contactpersonen zijn voor klant X, kunnen ze alleen de orders zien die ze zelf hebben geplaatst en niets anders. Hoewel May een order heeft geplaatst, kan ze die order niet zien in de klantportal omdat ze een niet-geautoriseerde gebruiker is. (Ze moet de order bovendien hebben geplaatst via een ander kanaal dan de klantportal.)

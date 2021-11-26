@@ -1,8 +1,8 @@
 ---
 title: Externe gegevens in cashflowprognoses gebruiken
-description: In dit onderwerp worden de installatiestappen beschreven die u moet voltooien zodat externe gegevens kunnen worden ingevoerd of geïmporteerd in cashflowprognoses.
+description: In dit onderwerp worden de installatiestappen beschreven die u moet voltooien, zodat externe gegevens kunnen worden ingevoerd of geïmporteerd in cashflowprognoses.
 author: rcarlson
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,30 +15,35 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 855f428ae8ce79f2b7ce9a6f3347cd454bad9566
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: dbfa04228cf63c0874a7d69af4e2b932544c0d7f
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386457"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752997"
 ---
 # <a name="use-external-data-in-cash-flow-forecasts"></a>Externe gegevens in cashflowprognoses gebruiken
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Externe gegevens kunnen worden ingevoerd of geïmporteerd in cashflowprognoses. Dit onderwerp beschrijft de instellingsstappen die specifiek zijn voor het gebruik van externe gegevens en waarmee de externe gegevens in een cashflowprognose kunnen worden opgenomen.
 
 ## <a name="external-data-setup"></a>Externe gegevens instellen
 
-Gebruik het tabblad **Externe bron** op de pagina **Instelling van cashflowprognose** (**Contanten en bankbeheer \> Cashflowprognose**) om instellingen op te geven die het gebruik van externe gegevens in cashflowprognoses ondersteunen.
+Gebruik het tabblad **Externe bron** op de pagina **Instelling van cashflowprognose** (**Contanten en bankbeheer \> Cashflowprognose \> Instelling van cashflowprognose**) om instellingen op te geven die het gebruik van externe gegevens in cashflowprognoses ondersteunen.
 
-Zie voor meer informatie over het instellen [Cashflowprognose](../cash-bank-management/cash-flow-forecasting.md).
+Externe gegevens kunnen worden ingevoerd of geïmporteerd in cashflowprognoses. Voordat externe gegevens worden ingevoerd of geïmporteerd, moeten externe bronnen zijn ingesteld. Stel externe cashflowcategorieën in op het tabblad **Externe bron**. Een categorie kan **Uitgaand** of **Inkomend** zijn. **Liquiditeit** moet als boekingstype worden geselecteerd. Selecteer in het raster met **instellingen van de rechtspersoon** de rechtspersonen en de bijbehorende hoofdrekeningen waar de externe cashflowcategorieën van toepassing zijn.
 
-Als u externe gegevens wilt invoeren voor cashflowprognoses, kunt u de ervaring Openen in Excel gebruiken voor het invoeren en wijzigen van externe gegevens. Selecteer de knop **Externe gegevens** en selecteer vervolgens **Externe gegevens toevoegen** of **Bestaande externe gegevens bewerken**. Wanneer het Microsoft Excel-bestand wordt geopend, kunt u informatie invoeren in de volgende velden:
+Zie [Cashflowprognose](../cash-bank-management/cash-flow-forecasting.md) voor meer informatie over het instellen van cashflowprognoses.
 
-- **Invoer-ID**
+## <a name="enter-external-data"></a>Externe gegevens invoeren
+
+Als u externe gegevens wilt invoeren en wijzigen voor cashflowprognoses, kunt u de ervaring **Openen in Excel** gebruiken. Selecteer de knop **Externe gegevens** op de pagina **Instelling van cashflowprognose** en selecteer **Externe gegevens toevoegen** of **Bestaande externe gegevens bewerken**. Wanneer het Microsoft Excel-bestand wordt geopend, kunt u informatie invoeren in de volgende velden:
+
+- **Invoer-id** (uniek)
 - **Beschrijving** (optioneel)
-- **Naam van externe bron**: selecteer een van de waarden in de lijst die u hebt gedefinieerd bij het instellen van Financiële inzichten.
+- **Naam van externe bron**: selecteer een van de waarden in de lijst die u hebt gedefinieerd bij het instellen van Finance Insights.
 - **Rechtspersoon**
 - **Datum**
 - **Bedrag in transactievaluta**

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2544591773bea7d54b4da4ac25ed3fed3f9e3594c5f791a0975c0349583b695c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 943eee819c08704212ceb5e02921c36e7f1032dc
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728622"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777834"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Standaard opgeslagen weergaven voor Supply Chain Management
 
@@ -47,15 +47,15 @@ In de volgende tabel worden de opgeslagen weergaven beschreven die beschikbaar z
 
 | Pagina | Weergavenaam | Omschrijving weergeven | Functienaam |
 |---|---|---|---|
-| Voorhanden lijst | Financiële items | Met deze vereenvoudigde weergave kunt u zich richten op financiële gegevens bij het beheren van voorhanden voorraad. | Opgeslagen weergaven voor voorraadbeheer |
-| Voorhanden lijst | Kwaliteitscontrole | Met deze vereenvoudigde weergave kunt u zich richten op kwaliteitsbeheer bij het beheren van voorhanden voorraad. | Opgeslagen weergaven voor voorraadbeheer |
-| Voorhanden lijst | Ontvangen | Met deze vereenvoudigde weergave kunt u zich richten op bewerkingen voor ontvangst bij het beheren van voorhanden voorraad. | Opgeslagen weergaven voor voorraadbeheer |
-| Voorhanden lijst | Verzending | Met deze vereenvoudigde weergave kunt u zich richten op bewerkingen voor verzending bij het beheren van voorhanden voorraad. | Opgeslagen weergaven voor voorraadbeheer |
-| Transacties | Vereenvoudigd | Met deze vereenvoudigde weergave kunt u de voorraadstatus controleren zonder dat u wordt afgeleid door financiële gegevens en andere velden die minder vaak worden gebruikt. | Opgeslagen weergaven voor voorraadbeheer |
-| overboekingsorders | Verzending | Met deze vereenvoudigde weergave kunt u zich richten op bewerkingen voor verzending bij het beheren van overboekingsorders. | Opgeslagen weergaven voor voorraadbeheer |
-| overboekingsorders | Ontvangen | Met deze vereenvoudigde weergave kunt u zich richten op bewerkingen voor ontvangst bij het beheren van overboekingsorders. | Opgeslagen weergaven voor voorraadbeheer |
-| overboekingsorders | Kwaliteitscontrole | Met deze vereenvoudigde weergave kunt u zich richten op kwaliteitsbeheer bij het beheren van overboekingsorders. | Opgeslagen weergaven voor voorraadbeheer |
-| overboekingsorders | Financiële items | Met deze vereenvoudigde weergave kunt u zich richten op financiële gegevens bij het beheren van overboekingsorders. | Opgeslagen weergaven voor voorraadbeheer |
+| Voorhanden lijst | Financiële items | Met deze vereenvoudigde weergave kunt u zich richten op financiële gegevens bij het beheren van voorhanden voorraad. | Opgeslagen weergaven voor voorraadbeheer (standaard ingeschakeld vanaf versie 10.0.21.) |
+| Voorhanden lijst | Kwaliteitscontrole | Met deze vereenvoudigde weergave kunt u zich richten op kwaliteitsbeheer bij het beheren van voorhanden voorraad. | Opgeslagen weergaven voor voorraadbeheer (standaard ingeschakeld vanaf versie 10.0.21.) |
+| Voorhanden lijst | Ontvangen | Met deze vereenvoudigde weergave kunt u zich richten op bewerkingen voor ontvangst bij het beheren van voorhanden voorraad. | Opgeslagen weergaven voor voorraadbeheer (standaard ingeschakeld vanaf versie 10.0.21.) |
+| Voorhanden lijst | Verzending | Met deze vereenvoudigde weergave kunt u zich richten op bewerkingen voor verzending bij het beheren van voorhanden voorraad. | Opgeslagen weergaven voor voorraadbeheer (standaard ingeschakeld vanaf versie 10.0.21.) |
+| Transacties | Vereenvoudigd | Met deze vereenvoudigde weergave kunt u de voorraadstatus controleren zonder dat u wordt afgeleid door financiële gegevens en andere velden die minder vaak worden gebruikt. | Opgeslagen weergaven voor voorraadbeheer (standaard ingeschakeld vanaf versie 10.0.21.) |
+| overboekingsorders | Verzending | Met deze vereenvoudigde weergave kunt u zich richten op bewerkingen voor verzending bij het beheren van overboekingsorders. | Opgeslagen weergaven voor voorraadbeheer (standaard ingeschakeld vanaf versie 10.0.21.) |
+| overboekingsorders | Ontvangen | Met deze vereenvoudigde weergave kunt u zich richten op bewerkingen voor ontvangst bij het beheren van overboekingsorders. | Opgeslagen weergaven voor voorraadbeheer (standaard ingeschakeld vanaf versie 10.0.21.) |
+| overboekingsorders | Kwaliteitscontrole | Met deze vereenvoudigde weergave kunt u zich richten op kwaliteitsbeheer bij het beheren van overboekingsorders. | Opgeslagen weergaven voor voorraadbeheer (standaard ingeschakeld vanaf versie 10.0.21.) |
+| overboekingsorders | Financiële items | Met deze vereenvoudigde weergave kunt u zich richten op financiële gegevens bij het beheren van overboekingsorders. | Opgeslagen weergaven voor voorraadbeheer (standaard ingeschakeld vanaf versie 10.0.21.) |
 
 ## <a name="saved-views-for-the-master-planning-module"></a>Opgeslagen weergaven voor de module Hoofdplanning
 
@@ -83,11 +83,11 @@ In de volgende tabel worden de opgeslagen weergaven beschreven die beschikbaar z
 
 | Pagina | Weergavenaam | Omschrijving weergeven | Functienaam |
 |---|---|---|---|
-| Lijst met vrijgegeven producten | Producten maken | Een vereenvoudigde paginaweergave die alleen de velden bevat die het vaakst worden gebruikt bij het maken van producten. | Opgeslagen weergaven voor vrijgegeven producten |
-| Vrijgegeven productdetails | Producten maken | Een vereenvoudigde paginaweergave die alleen de velden bevat die het vaakst worden gebruikt bij het maken van producten. | Opgeslagen weergaven voor vrijgegeven producten |
-| Vrijgegeven productdetails | Beheer van logistieke gegevens | Een vereenvoudigde paginaweergave die alleen de velden bevat die het vaakst worden gebruikt bij het beheren van logistieke gegevens voor producten. | Opgeslagen weergaven voor vrijgegeven producten |
-| Vrijgegeven productdetails | Beheer van aankoopgegevens | Een vereenvoudigde paginaweergave die alleen de velden bevat die het vaakst worden gebruikt bij het beheren van aankoopgegevens voor producten. | Opgeslagen weergaven voor vrijgegeven producten |
-| Vrijgegeven productdetails | Beheer van verkoopgegevens | Een vereenvoudigde paginaweergave die alleen de velden bevat die het vaakst worden gebruikt bij het beheren van verkoopgerelateerde gegevens van producten. | Opgeslagen weergaven voor vrijgegeven producten |
+| Lijst met vrijgegeven producten | Producten maken | Een vereenvoudigde paginaweergave die alleen de velden bevat die het vaakst worden gebruikt bij het maken van producten. | Opgeslagen weergaven voor vrijgegeven producten (standaard ingeschakeld vanaf versie 10.0.21.) |
+| Vrijgegeven productdetails | Producten maken | Een vereenvoudigde paginaweergave die alleen de velden bevat die het vaakst worden gebruikt bij het maken van producten. | Opgeslagen weergaven voor vrijgegeven producten (standaard ingeschakeld vanaf versie 10.0.21.) |
+| Vrijgegeven productdetails | Beheer van logistieke gegevens | Een vereenvoudigde paginaweergave die alleen de velden bevat die het vaakst worden gebruikt bij het beheren van logistieke gegevens voor producten. | Opgeslagen weergaven voor vrijgegeven producten (standaard ingeschakeld vanaf versie 10.0.21.) |
+| Vrijgegeven productdetails | Beheer van aankoopgegevens | Een vereenvoudigde paginaweergave die alleen de velden bevat die het vaakst worden gebruikt bij het beheren van aankoopgegevens voor producten. | Opgeslagen weergaven voor vrijgegeven producten (standaard ingeschakeld vanaf versie 10.0.21.) |
+| Vrijgegeven productdetails | Beheer van verkoopgegevens | Een vereenvoudigde paginaweergave die alleen de velden bevat die het vaakst worden gebruikt bij het beheren van verkoopgerelateerde gegevens van producten. | Opgeslagen weergaven voor vrijgegeven producten (standaard ingeschakeld vanaf versie 10.0.21.) |
 
 ## <a name="saved-views-for-the-production-control-module"></a>Opgeslagen weergaven voor de module Productiebeheer
 
@@ -95,10 +95,10 @@ In de volgende tabel worden de opgeslagen weergaven beschreven die beschikbaar z
 
 | Pagina | Weergavenaam | Omschrijving weergeven | Functienaam |
 |---|---|---|---|
-| Pagina Stuklijst productieorder | Vereenvoudigd | Deze vereenvoudigde weergave bevat alleen de velden die het vaakst worden gebruikt. Op deze manier biedt de weergave een sneller overzicht en een gestroomlijnd werkproces. | Opgeslagen weergaven voor productiebeheer |
-| Pagina Details van productieorder | Vereenvoudigd | Deze vereenvoudigde weergave bevat alleen de velden die het vaakst worden gebruikt. Op deze manier biedt de weergave een sneller overzicht en een gestroomlijnd werkproces. | Opgeslagen weergaven voor productiebeheer |
-| Pagina Productieorderverzamellijst | Vereenvoudigd | Deze vereenvoudigde weergave bevat alleen de velden die het vaakst worden gebruikt. Op deze manier biedt de weergave een sneller overzicht en een gestroomlijnd werkproces. | Opgeslagen weergaven voor productiebeheer |
-| Lijstpagina Productieorders | Vereenvoudigd | Deze vereenvoudigde weergave bevat alleen de velden die het vaakst worden gebruikt. Op deze manier biedt de weergave een sneller overzicht en een gestroomlijnd werkproces. | Opgeslagen weergaven voor productiebeheer |
+| Pagina Stuklijst productieorder | Vereenvoudigd | Deze vereenvoudigde weergave bevat alleen de velden die het vaakst worden gebruikt. Op deze manier biedt de weergave een sneller overzicht en een gestroomlijnd werkproces. | Opgeslagen weergaven voor productiebeheer (standaard ingeschakeld vanaf versie 10.0.21.) |
+| Pagina Details van productieorder | Vereenvoudigd | Deze vereenvoudigde weergave bevat alleen de velden die het vaakst worden gebruikt. Op deze manier biedt de weergave een sneller overzicht en een gestroomlijnd werkproces. | Opgeslagen weergaven voor productiebeheer (standaard ingeschakeld vanaf versie 10.0.21.) |
+| Pagina Productieorderverzamellijst | Vereenvoudigd | Deze vereenvoudigde weergave bevat alleen de velden die het vaakst worden gebruikt. Op deze manier biedt de weergave een sneller overzicht en een gestroomlijnd werkproces. | Opgeslagen weergaven voor productiebeheer (standaard ingeschakeld vanaf versie 10.0.21.) |
+| Lijstpagina Productieorders | Vereenvoudigd | Deze vereenvoudigde weergave bevat alleen de velden die het vaakst worden gebruikt. Op deze manier biedt de weergave een sneller overzicht en een gestroomlijnd werkproces. | Opgeslagen weergaven voor productiebeheer (standaard ingeschakeld vanaf versie 10.0.21.) |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Opgeslagen weergaven voor de module Verkoop en marketing
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: c2d7f140c0199b4b81a7b42220d5800d427be680
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577835"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778054"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Magazijnverwerking van inkomende ladingen voor inkooporders
 
@@ -205,7 +205,7 @@ De volgende tabel geeft een overzicht van de effecten van de instelling **Meerde
 | Meerdere productontvangsten toestaan per lading | Ladinghoeveelheid | Status lading | Notitie |
 |---|---|---|---|
 | Als dit veld niet beschikbaar is (versies vóór 10.0.10) | <p>De ladinghoeveelheid wordt zo ingesteld dat deze gelijk is aan de geregistreerde hoeveelheid.</p><p>Als de ladinghoeveelheid wordt gewijzigd in 0 (nul), betekent dit dat er geen registratie is uitgevoerd, en wordt de ladingsregel verwijderd.</p><p>Als er geen ladingsregels in de lading zijn, wordt de lading verwijderd.</p> | _Ontvangen_ | Als er meerdere ladingen bestaan voor de geregistreerde hoeveelheid van de orderregel, wordt alleen de status van de lading waarvoor de ontvangst is geboekt, bijgewerkt naar _Ontvangen_. |
-| No | <p>De ladinghoeveelheid wordt zo ingesteld dat deze gelijk is aan de geregistreerde hoeveelheid die aan de lading-id is gekoppeld.</p><p>Als er geen lading-id wordt geregistreerd voor de voorraadtransactie, komt het gedrag overeen met de versies vóór 10.0.10.</p> | _Ontvangen_ | |
+| Nee | <p>De ladinghoeveelheid wordt zo ingesteld dat deze gelijk is aan de geregistreerde hoeveelheid die aan de lading-id is gekoppeld.</p><p>Als er geen lading-id wordt geregistreerd voor de voorraadtransactie, komt het gedrag overeen met de versies vóór 10.0.10.</p> | _Ontvangen_ | |
 | Ja | Geen updates | _Ontvangen_, als de totale geregistreerde ladinghoeveelheid gelijk is aan of groter is dan de ladinghoeveelheid | |
 | Ja | Geen updates | _Verzonden_ of _Onderhanden_, als de totale geregistreerde ladinghoeveelheid kleiner is dan de ladinghoeveelheid | |
 
@@ -267,7 +267,7 @@ Voor deze scenario's hebt u de functie _Meerdere productontvangsten toestaan per
 
 1. Open het het werkgebied **Functiebeheer**. (Zie [Overzicht van Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voor gedetailleerde informatie over het zoeken en gebruiken van dit werkgebied.)
 
-1. Schakel de functie _Voorraadtransacties inkooporder koppelen met lading_ in die op de volgende manier wordt weergegeven:
+1. Controleer of de functie _Voorraadtransacties inkooporder koppelen met lading_ is ingeschakeld. Vanaf Supply Chain Management versie 10.0.21 is deze functie verplicht, waardoor deze standaard wordt ingeschakeld en niet meer kan worden uitgeschakeld. De functie wordt echter nog wel op de volgende manier vermeld bij [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
     - **Module:** _Magazijnbeheer_
     - **Functienaam:** _Voorraadtransacties inkooporder koppelen met lading_

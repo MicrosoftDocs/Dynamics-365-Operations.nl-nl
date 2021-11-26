@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 64abe953f42519d508f547f22f1f2b94a7fa16ab
-ms.sourcegitcommit: 477efa4cb138f41d4f68bcd82552af3473bcc3d9
+ms.openlocfilehash: 3b5f0c6947944ec875c30fa912f830f245b5a48e
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7715249"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777932"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.21 (oktober 2021)
 
@@ -70,10 +70,10 @@ De volgende tabel vermeldt de functies die standaard zijn ingeschakeld in 10.0.2
 | Annulering van transferorder | 1-9-2021 | 13-7-2020 | Standaard ingeschakeld | Voorraad- en magazijnbeheer |
 | Voorraadjournaal ontgrendelen | 1-9-2021 | 17-8-2020 | Standaard ingeschakeld | Voorraad- en magazijnbeheer |
 | Opgeslagen weergaven voor voorraadbeheer | 1-9-2021 | 30-9-2020 | Standaard ingeschakeld | Voorraad- en magazijnbeheer |
-| Navigatie naar stuklijstversie vanuit stuklijstregels. | 1-9-2021 | 11-11-2019 | Standaard ingeschakeld | Voorraad- en magazijnbeheer |
-| Het gebruik van maateenheid en eenheidshoeveelheid in voorraadjournalen. | 1-9-2021 | 11-11-2019 | Standaard ingeschakeld | Voorraad- en magazijnbeheer |
+| Navigatie naar stuklijstversie vanuit stuklijstregels | 1-9-2021 | 11-11-2019 | Standaard ingeschakeld | Voorraad- en magazijnbeheer |
+| Het gebruik van maateenheid en eenheidshoeveelheid in voorraadjournalen | 1-9-2021 | 11-11-2019 | Standaard ingeschakeld | Voorraad- en magazijnbeheer |
 | Lege batchkenmerkwaarden toestaan | 1-9-2021 | 11-11-2019 | Standaard ingeschakeld | Voorraad- en magazijnbeheer |
-| Automatische verhoging van regelnummers van de regels van voorraadtransferorders. | 1-9-2021 | 11-10-2019 | Standaard ingeschakeld | Voorraad- en magazijnbeheer |
+| Automatische verhoging van regelnummers van de regels van voorraadtransferorders | 1-9-2021 | 11-10-2019 | Standaard ingeschakeld | Voorraad- en magazijnbeheer |
 | Goedkeuringswerkstroom voorraadjournaal | 1-9-2021 | 6-1-2020 | Standaard ingeschakeld | Voorraad- en magazijnbeheer |
 | Waarschuwingsfunctie voor parameters voorraadkwaliteitsbeheer inschakelen | 1-9-2021 | 7-10-2019 | Standaard ingeschakeld | Voorraad- en magazijnbeheer |
 | Transferorder maken op basis van verkoopregel | 1-9-2021 | 31-8-2019 | Standaard ingeschakeld | Voorraad- en magazijnbeheer |
@@ -93,12 +93,12 @@ De volgende tabel vermeldt de functies die standaard zijn ingeschakeld in 10.0.2
 | Opgeslagen weergaven voor vrijgegeven producten | 1-9-2021 | 30-9-2020 | Standaard ingeschakeld | Productgegevensbeheer |
 | Verbeteringen in de dialoogvensters Taken goedkeuren en Taken overboeken | 1-9-2021 | 11-10-2019 | Standaard ingeschakeld | Productiebeheer |
 | Nummerplaat voor gereedmelding toegevoegd aan het apparaat voor taakkaarten | 1-9-2021 | 31-8-2019 | Standaard ingeschakeld | Productiebeheer |
-| Er is een nieuwe knop Pauze stoppen toegevoegd aan de pagina Taakkaartterminal. | 1-9-2021 | 19-2-2020 | Standaard ingeschakeld | Productiebeheer |
+| De nieuwe knop Pauze stoppen is toegevoegd aan de pagina Taakkaartterminal | 1-9-2021 | 19-2-2020 | Standaard ingeschakeld | Productiebeheer |
 | Schakel gedeeltelijke ontvangst van uitbestede artikelen in en los een probleem op met de berekening van uitval voor stuklijstregels van het type Leverancier. | 1-9-2021 | 11-11-2019 | Standaard ingeschakeld | Productiebeheer |
 | Opgeslagen weergaven voor productiebeheer | 1-9-2021 | 17-8-2020 | Standaard ingeschakeld | Productiebeheer |
 | Dynamics 365 Guides voor productie | 1-9-2021 | 13-7-2020 | Standaard ingeschakeld | Productiebeheer |
 | Uitvoering werkvloer | 1-9-2021 | 30-9-2020 | Standaard ingeschakeld | Productiebeheer |
-| Functie voor vergrendelen van apparaat en terminal voor taakkaarten zodat ze kunnen worden schoongemaakt. | 1-9-2021 | 10-5-2020 | Standaard ingeschakeld | Productiebeheer |
+| Functie voor vergrendelen van taakkaartapparaat en taakkaartterminal zodat ze kunnen worden schoongemaakt | 1-9-2021 | 10-5-2020 | Standaard ingeschakeld | Productiebeheer |
 | Toewijzing van toeslagen voor een verkooporder | 1-9-2021 | 30-9-2020 | Standaard ingeschakeld | Verkoopbeheer en marketing |
 | Het aantal verkooporders beperken dat kan worden geselecteerd voor boeking | 1-9-2021 | 1-9-2021 | Standaard ingeschakeld | Verkoopbeheer en marketing |
 | Verkooporderhistorie voor update opschonen | 1-9-2021 | 1-9-2021 | Standaard ingeschakeld | Verkoopbeheer en marketing |

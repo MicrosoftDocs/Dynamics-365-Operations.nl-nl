@@ -1,8 +1,8 @@
 ---
 title: Human Resources-parameters configureren
 description: In dit onderwerp wordt uitgelegd hoe u bedrijfsspecifieke parameters instelt in Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 06/23/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 476f44c665adb2918e7cd882d4ea873b4b4f94fa33a74dc96d3eccc74b676ce5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd9bb907f95ba4c368871a470ca9b2bc807646ee
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739246"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771430"
 ---
 # <a name="configure-human-resources-parameters"></a>Human Resources-parameters configureren
 
@@ -65,7 +65,7 @@ De instellingen op het tabblad **Algemeen** bepalen het uiterlijk van informatie
 
 De instellingen op het tabblad **Werving** definiëren de documenttypen die worden gebruikt voor correspondentie die automatisch naar sollicitanten wordt verzonden. U kunt ook het wervingsproject aangeven dat voor open sollicitaties wordt gebruikt.
 
-De periode gedefinieerd als ouderdomsperiode voor het wervingsproject bepaalt de wervingsprojecten opgenomen op de tegel **Verouderende projecten** in het werkgebied **Wervingsbeheer**. De periode die wordt ingesteld voor de sollicitatiedeadlinewaarschuwing wordt gebruikt om wervingsprojecten weer te geven die hun sollicitatiedeadline naderen op de tegel **Einde van sollicitatietermijn nadert** in het werkgebied **Werving**.
+De periode die is gedefinieerd als **ouderdomsperiode voor het wervingsproject**, bepaalt welke wervingsprojecten worden opgenomen op de tegel **Verouderende projecten** in het werkgebied **Wervingsbeheer**. De periode die wordt ingesteld voor de sollicitatiedeadlinewaarschuwing wordt gebruikt om wervingsprojecten weer te geven die hun sollicitatiedeadline naderen op de tegel **Einde van sollicitatietermijn nadert** in het werkgebied **Werving**.
 
 Zie [Werving kandidaten voor functie](hr-personnel-recruit.md) voor meer informatie over werving.
 
@@ -107,20 +107,20 @@ Op het tabblad FMLA stelt u geschiktheidsvereisten voor FMLA en uren voor rechte
 
 ## <a name="employee-self-service"></a>Werknemerselfservice
 
-De instellingen op het tabblad **Selfservice werknemer** beïnvloeden hoe deze service voor werknemers wordt weergegeven. Op dit tabblad kunt u het volgende doen:
+De instellingen op het tabblad **Selfservice werknemer** beïnvloeden hoe deze **selfservice voor werknemers** wordt weergegeven. Op dit tabblad kunt de volgende taken uitvoeren:
 
-- Een naam invoeren voor de werkruimte Selfservice werknemer
+- Een naam invoeren voor het werkgebied **Selfservice werknemer**
 - Selecteren welke informatie een manager voor werknemers kan invoeren
 - Nuttige koppelingen toevoegen voor werknemers
 - Voorkomen dat werknemers zakelijke contactgegevens toevoegen of bewerken. Zie [Persoonlijke gegevens bewerken beperken](hr-employee-self-service-restrict-editing.md) voor meer informatie.
 
-Zie [Overzicht Selfservice voor werknemers en managers](hr-employee-manager-self-service-overview.md) voor meer informatie over het instellen van Selfservice voor werknemers.
+Zie [Overzicht Selfservice voor werknemers en managers](hr-employee-manager-self-service-overview.md) voor meer informatie over het instellen van **Selfservice voor werknemers**.
 
 ![Tabblad Selfservice werknemer.](./media/hr-setup-parameters-employee-self-service.png)
 
 ## <a name="manager-self-service"></a>Selfservice manager
 
-De instellingen op het tabblad **Selfservice managers** beïnvloeden wat managers zien in Selfservice managers. Op dit tabblad kunt u de volgende opties configureren:
+De instellingen op het tabblad **Selfservice managers** beïnvloeden wat managers zien in **Selfservice managers**. Op dit tabblad kunt u de volgende opties configureren:
 
 - Het bereik voor verlopende records
 - Informatie die managers kunnen zien in verlopende records
@@ -128,13 +128,13 @@ De instellingen op het tabblad **Selfservice managers** beïnvloeden wat manager
 - Weergaven van vertrekkende werknemers
 - Nuttige koppelingen voor managers
 
-Zie [Overzicht Selfservice voor werknemers en managers](hr-employee-manager-self-service-overview.md) voor meer informatie over het instellen van Selfservice voor managers.
+Zie [Overzicht Selfservice voor werknemers en managers](hr-employee-manager-self-service-overview.md) voor meer informatie over het instellen van **Selfservice voor managers**.
 
 ![Tabblad Selfservice managers.](./media/hr-setup-parameters-manager-self-service.png)
 
 ## <a name="benefits-management"></a>Vergoedingenbeheer
 
-Op het tabblad Vergoedingenbeheer kunt u e-mailopties voor Vergoedingenbeheer configureren. Zie [Overzicht van Vergoedingenbeheer](hr-benefits-management-overview.md) voor meer informatie over het instellen en het gebruik van Vergoedingenbeheer.
+Op het tabblad **Vergoedingenbeheer** kunt u e-mailopties voor Vergoedingenbeheer configureren. Zie [Overzicht van Vergoedingenbeheer](hr-benefits-management-overview.md) voor meer informatie over het instellen en het gebruik van Vergoedingenbeheer.
 
 ![Tabblad Vergoedingenbeheer.](./media/hr-setup-parameters-benefits-management.png)
 

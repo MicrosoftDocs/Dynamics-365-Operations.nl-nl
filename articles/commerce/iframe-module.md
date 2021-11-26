@@ -2,7 +2,7 @@
 title: Iframe-module
 description: In dit onderwerp wordt beschreven wat de iframe-module is en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 11/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 570901e3afca82abd21172df4c0b6fc575b57262f2b5d1decad11cabc00db31d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767285"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754009"
 ---
 # <a name="iframe-module"></a>Iframe-module
 
@@ -66,7 +66,10 @@ Voer de volgende stappen uit om een iframe-module aan een pagina toe te voegen o
 1. Stel zo nodig andere eigenschappen, zoals **koptekst** en **Hoogte** in.
 1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de pagina in te checken en selecteer **Publiceren** om te publiceren.
 1. Ga naar de marketingpagina op uw site. U ziet dat de video wordt weergegeven in de iframe-module.
- 
+
+> [!NOTE]
+> Omdat de iFrame-module als host voor externe inhoud dient, moeten site-auteurs ervoor zorgen dat inhoud die in een iFrame-module wordt gehost, niet in strijd is met het inhoudsbeperkingsbeleid van de desbetreffende markt. Als er een inhoudsovertreding is op een pagina die de iFrame-module gebruikt, kan de siteauteur de iFrame-module verwijderen door de pagina in Site Builder te openen, **Module verwijderen** te selecteren in het iFrame-modulevak en vervolgens de pagina op te slaan en opnieuw te publiceren.
+
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van modulebibliotheek](starter-kit-overview.md)

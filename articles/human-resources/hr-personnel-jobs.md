@@ -1,26 +1,26 @@
 ---
 title: De onderdelen van een taak instellen
-description: In dit artikel worden de conceptuele elementen beschreven die een functie kan bevatten en worden voorbeelden gegeven van de wijze waarop u deze elementen in uw organisatie kunt gebruiken.
-author: andreabichsel
-ms.date: 06/24/2021
+description: In dit onderwerp worden de conceptuele elementen beschreven die een functie kan bevatten en worden voorbeelden gegeven van de wijze waarop u deze elementen in uw organisatie kunt gebruiken.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace, HCMJobFamily
 audience: Application User
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 55f3edb53236734045e94ddd71461c739d3b5a8e0a2ac07a804dc2dfafabda57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b3d56b3d19bd671d0015e87eefdf8ae62f4cee0
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754771"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731535"
 ---
 # <a name="set-up-the-components-of-a-job"></a>De onderdelen van een taak instellen
 
@@ -60,7 +60,7 @@ Functiebeschrijvingen beschrijven functionele categorieën op hoog niveau beschr
 U onderhoudt functiebeschrijvingen met behulp van de pagina **Functiebeschrijvingen**. Voer op de pagina **Functiebeschrijvingen** een identificatiecode en een korte omschrijving voor de functie in.
 
 ## <a name="compensation"></a>Compensatie
-Als u een plan voor vaste compensatie wilt toewijzen aan een werknemer die een positie in een taak heeft, moet u compensatieniveaus voor de taak instellen. Het compensatieniveau wordt gebruikt wanneer minimum-, middelpunt- en maximumbedragen worden ingesteld in een compensatiestructuur (compensatieraster). Wanneer u een plan voor vaste compensatie maakt, wordt de compensatiestructuur geselecteerd. De compensatiestructuur bevat ook het compensatieniveau. Wanneer u een plan voor vaste compensatie voor een werknemer selecteert, zijn de compensatieniveaus die beschikbaar zijn voor selectie afhankelijk van de positie van de werknemer. Zie [Compensatieplannen](hr-compensation-overview.md) voor meer informatie over het instellen van compensatieplannen.
+Als u een plan voor vaste compensatie wilt toewijzen aan een werknemer die een positie in een taak heeft, moet u compensatieniveaus voor de taak instellen. Het **Compensatieniveau** wordt gebruikt wanneer minimum-, middelpunt- en maximumbedragen worden ingesteld in een compensatiestructuur (compensatieraster). Wanneer u een plan voor vaste compensatie maakt, wordt de compensatiestructuur geselecteerd. De compensatiestructuur bevat ook het compensatieniveau. Wanneer u een plan voor vaste compensatie voor een werknemer selecteert, zijn de compensatieniveaus die beschikbaar zijn voor selectie afhankelijk van de positie van de werknemer. Zie [Compensatieplannen](hr-compensation-overview.md) voor meer informatie over het instellen van compensatieplannen.
 
 ## <a name="job-skills"></a>Functievaardigheden
 Met functievaardigheden worden de vaardigheden beschreven die zijn vereist om een taak uit te voeren. Aan elke functievaardigheid moet een vaardigheidsniveau worden gekoppeld. De vaardigheidsniveaus zijn door de gebruiker gedefinieerd. Ze geven het kennis- of vaardigheidsniveau aan dat vereist is voor de vaardigheid. Bedrijven kunnen bijvoorbeeld numerieke niveaus instellen, zoals 1 tot en met 5, waarbij **1** een beginner aangeeft en **5** een expert. Bedrijven kunnen ook niveaus instellen met de naam **Beginner**, **Gevorderde** of **Expert**. Nadat het vaardigheidsniveau is ingesteld, kan ook het belang van de vaardigheid worden ingesteld. Als een boekhouder bijvoorbeeld een goede kennis van Microsoft Excel moet hebben, kan een vaardigheid met de naam **Excel-kennis** worden gemaakt. Het vaardigheidsniveau kan vervolgens worden ingesteld op **Gevorderde** en het belang op **Meest**.

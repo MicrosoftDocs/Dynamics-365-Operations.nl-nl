@@ -1,8 +1,8 @@
 ---
 title: Artikel aan een werknemer lenen
 description: Deze procedure laat zien hoe een artikel kan worden uitgeleend aan een werknemer en hoe terugbezorging van het artikel door de werknemer kan worden vastgelegd.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmPersonLoan, HcmPersonLookup, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 09ed853cb4e937632015007886676542816094011aec8db87f89fdec3ad7f102
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b60439f5f7bb5509423219606d7b9bb2cf3c28a6
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734470"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771309"
 ---
 # <a name="loan-item-to-a-worker"></a>Artikel aan een werknemer lenen
 
@@ -26,23 +26,23 @@ ms.locfileid: "6734470"
 
 
 
-Deze procedure laat zien hoe een artikel kan worden uitgeleend aan een werknemer en hoe terugbezorging van het artikel door de werknemer kan worden vastgelegd. Werknemers kunnen ook leenartikelen aanvragen op hun pagina's Selfservice werknemer. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
+Deze procedure laat zien hoe een artikel kan worden uitgeleend aan een medewerker en hoe terugbezorging van het artikel door de medewerker kan worden vastgelegd. Medewerkers kunnen ook leenartikelen aanvragen op hun pagina **Selfservice werknemer**. Voor deze procedure is gebruikgemaakt van het demobedrijf **USMF**.
 
 
-## <a name="loan-item-to-a-worker"></a>Artikel aan een werknemer lenen
-1. Ga naar Human resources > Medewerkers > Leenartikelen > Geleende uitrusting.
-2. Klik op Nieuw.
-3. Typ of selecteer een waarde in het veld Persoon.
-4. Typ of selecteer een waarde in het veld Leenartikel.
-5. Voer in het veld Geplande teruggave de datum in waarop de werknemer het leenartikel moet terugbrengen.
-6. Klik op Opslaan.
+## <a name="loan-an-item-to-a-worker"></a>Een artikel aan een werknemer lenen
+
+1. Ga naar **Human resources \> Medewerkers \> Leenartikelen \> Geleende uitrusting**.
+2. Selecteer **Nieuw**.
+3. Typ of selecteer een waarde in het veld **Persoon**.
+4. Typ of selecteer een waarde in het veld **Leenartikel**.
+5. Voer in het veld **Geplande teruggave** de datum in waarop de medewerker het leenartikel moet terugbrengen.
+6. Selecteer **Opslaan**.
 7. Sluit de pagina.
 
 ## <a name="return-a-loan-item"></a>Een leenartikel retourneren
-1. Ga naar Human resources > Medewerkers > Leenartikelen > Geleende uitrusting.
-2. Klik op Bewerken.
-3. Voer in het veld Werkelijke teruggave een datum in.
 
-
+1. Ga naar **Human resources \> Medewerkers \> Leenartikelen \> Geleende uitrusting**.
+2. Selecteer **Bewerken**.
+3. Voer in het veld **Werkelijke teruggave** een datum in.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

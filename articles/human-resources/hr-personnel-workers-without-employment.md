@@ -1,8 +1,8 @@
 ---
 title: Medewerkers zonder dienstverband
-description: Medewerkers zonder toekomstig, actief of historisch dienstverband bij uw organisatie worden weergegeven in het formulier Medewerkers zonder dienstverband.
-author: andreabichsel
-ms.date: 04/06/2021
+description: Medewerkers zonder toekomstig, actief of historisch dienstverband bij uw organisatie worden weergegeven op de pagina Medewerkers zonder dienstverband.
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: ''
 ms.prod: ''
 ms.technology: ''
@@ -10,23 +10,23 @@ ms.search.form: HcmWorkerV2, HRMMassHireProject, HRMMassHireLine, HcmPersonnelMa
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2021-04-06
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 45841c35780960f524cc232dad16f94dbc8ec1c2df75fa2a5c2520e5522d4e3a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d282c0fac00d6bc410717dd156aef9ffce352c6d
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724959"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771285"
 ---
 # <a name="workers-without-employment"></a>Medewerkers zonder dienstverband
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Medewerkers zonder toekomstig, actief of historisch dienstverband bij uw organisatie worden weergegeven in het formulier **Medewerkers zonder dienstverband**. Medewerkers met deze status kunnen worden weergegeven wanneer u medewerkers importeert zonder dienstverbandrecord, of wanneer u het dienstverband van een medewerker verwijdert via **Medewerkers > Historie dienstverband**.
+Medewerkers zonder toekomstig, actief of historisch dienstverband bij uw organisatie worden weergegeven op de pagina **Medewerkers zonder dienstverband**. Medewerkers van dit type kunnen worden weergegeven wanneer u medewerkers importeert zonder dienstverbandrecord, of wanneer u het dienstverband van een medewerker verwijdert via **Medewerkers \> Historie dienstverband**.
 
-Het formulier **Medewerkers zonder dienstverband** is standaard beschikbaar voor de volgende rollen:
+De pagina **Medewerkers zonder dienstverband** is standaard beschikbaar voor de volgende rollen:
 
 - HR-assistent
 - HR-manager

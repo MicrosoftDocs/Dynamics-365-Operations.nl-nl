@@ -344,7 +344,7 @@ Als u in de productie het veld **Gebeurtenistype** instelt op *Rapporteren als g
 </tr>
 <tr>
 <td>Vaste hoeveelheid: 1</td>
-<td>No</td>
+<td>Nee</td>
 <td>
 <p>Batchnummer: Nee</p>
 <p>Serienummer: Nee</p>
@@ -399,7 +399,7 @@ Als u in de productie het veld **Gebeurtenistype** instelt op *Rapporteren als g
 </tr>
 <tr>
 <td>Vaste hoeveelheid: 2</td>
-<td>No</td>
+<td>Nee</td>
 <td>
 <p>Batchnummer: Ja</p>
 <p>Serienummer: Ja</p>

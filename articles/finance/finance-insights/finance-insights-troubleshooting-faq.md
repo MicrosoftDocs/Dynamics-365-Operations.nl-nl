@@ -2,7 +2,7 @@
 title: Problemen met het instellen van Finance Insights oplossen
 description: In dit onderwerp worden problemen weergegeven die kunnen optreden wanneer u functies van Finance Insights gebruikt. Er wordt ook uitgelegd hoe u deze problemen kunt oplossen.
 author: panolte
-ms.date: 08/20/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 7ff42ffc334147c1a4c6b6349c86580df7f1955b
-ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
+ms.openlocfilehash: f3cac30a66ff3a74a7f67c11dd9fa14af79d10af
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7512885"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752612"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Problemen met het instellen van Finance Insights oplossen
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 In dit onderwerp worden problemen weergegeven die kunnen optreden wanneer u functies van Finance Insights gebruikt. Er wordt ook uitgelegd hoe u deze problemen kunt oplossen.
 
@@ -53,6 +54,12 @@ Volg deze stappen in het [Power Platform-beheercentrum](https://admin.powerplatf
 
 1. Als u een preview-versie van Finance Insights gebruikt, verwijdert u het project van Gegevensintegratie dat is gekoppeld aan de sjabloon **Resultaten van inzichten in klantbetalingen (CDS naar Fin en Ops)**.
 2. Volg de stappen in [Een gegevensintegratieproject maken](create-data-integrate-project.md). Gebruik de sjabloon **Resultaten van inzichten in klantbetalingen (CDS naar Fin en Ops 10.0.17 en hoger)**.
+
+## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>Symptoom: wanneer ik AI Builder probeer te openen via de links op de instellingenpagina voor Voorspellingen voor klantbetalingen, waarom krijg ik dan de volgende foutmelding: 'Sorry, er is een verbroken verbinding'?
+
+### <a name="resolution"></a>Oplossing
+
+Dynamics 365 Finance-gebruikers moeten een Microsoft Power Apps-gebruikersaccount voor de omgeving hebben en dat gebruikersaccount moet de rol van de systeemgebruiker hebben. De Microsoft Power Apps-systeembeheerder kan het gebruikersaccount maken en de rol toewijzen. Vervolgens kunt u naar <https://make.preview.powerapps.com/> gaan, u aanmelden met dat gebruikersaccount en de koppelingen opnieuw proberen.
 
 ## <a name="symptom-why-doesnt-the-cash-forecast-tab-in-the-cash-flow-forecast-workspace-show-any-data"></a>Symptoom: waarom worden op het tabblad Cashflowprognose in de werkruimte voor cashflowprognose geen gegevens weergegeven?
 

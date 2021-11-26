@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0df6aee6a5ec1ecc751713c19c659c5471cc4146
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 872a08241f3d0156d0ccf1f89443e3a894656404
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576035"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777597"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Nummerplaat ontvangen via de mobiele app voor Magazijnbeheer
 
@@ -77,7 +77,7 @@ Als deze functie is ingeschakeld, bevatten de menuopdrachten van het mobiele app
 - **Een gedetailleerd overzicht weergeven**: tijdens het ontvangen van een nummerplaat krijgen de werknemers een extra pagina te zien waarop de volledige ASN-informatie wordt weergegeven.
 - **Het overzicht overslaan**: werknemers kunnen de volledige ASN-informatie niet zien. Magazijnmedewerkers kunnen ook geen beschikkingscode instellen of uitzonderingen toevoegen tijdens het ontvangstproces.
 
-Om deze functionaliteit beschikbaar te maken op uw systeem, moet u de functie *Bepalen of de pagina met het ontvangstoverzicht wordt weergegeven op mobiele apparaten* in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) inschakelen.
+Om deze functionaliteit beschikbaar te maken op uw systeem, moet de functie *Bepalen of de pagina met het ontvangstoverzicht wordt weergegeven op mobiele apparaten* in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) zijn ingeschakeld. (Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld.)
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Verhinderen dat met overboekingsorder verzonden nummerplaten worden gebruikt voor andere magazijnen dan het doelmagazijn
 

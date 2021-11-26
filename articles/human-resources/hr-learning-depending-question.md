@@ -1,8 +1,8 @@
 ---
 title: Een vraag afhankelijk maken van het antwoord op de vorige vraag
 description: Voorwaardelijke vragen stellen u in staat op te geven welke opvolgende vraag aan een respondent wordt gepresenteerd op basis van het antwoord op de voorafgaande vraag.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: KMCollection, KMCollectionQuestion, KMCollectionQuestionTree, Hc
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b9397b3dfa353398a5d326ae68ec8269369ebf85b7b2e61c73013db76c5dd475
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 11787aa0b32c0d7493e4528b00304e51f01a655f
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745689"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728900"
 ---
 # <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a>Een vraag afhankelijk maken van het antwoord op de vorige vraag
 
@@ -30,28 +30,28 @@ Voorwaardelijke vragen stellen u in staat op te geven welke opvolgende vraag aan
 
 
 ## <a name="find-the-existing-questionnaire"></a>De bestaande vragenlijst zoeken
-1. Ga naar Vragenlijst > Ontwerp > Vragenlijsten.
+1. Ga naar **Vragenlijst** > **Ontwerp** > **Vragenlijsten**.
 2. Selecteer in de lijst de vragenlijst WorkFH.
 
 ## <a name="add-all-questions-and-sub-questions-to-the-questionnaire"></a>Alle vragen en subvragen toevoegen aan de vragenlijst
-1. Klik op Vragen.
-2. Klik op Nieuw.
-3. Selecteer vraag nummer 00016 in het veld Vraag.
+1. Klik op **Vragen**.
+2. Klik op **Nieuw**.
+3. Selecteer vraag nummer 00016 in het veld **Vraag**.
 4. Zoek en selecteer de gewenste record in de lijst.
 5. Klik in de lijst op de koppeling in de geselecteerde rij.
-6. Klik op Opslaan.
+6. Klik op **Opslaan**.
 7. Sluit de pagina.
 
 ## <a name="set-the-questionnaire-sequence-to-conditional-and-make-the-question-dependent-on-the-appropriate-question"></a>De volgorde van de vragenlijst instellen op Voorwaardelijk en de vraag afhankelijk maken van de bijbehorende vraag
-1. Klik op Bewerken.
-2. Vouw de sectie Instellingen uit.
-3. Selecteer "Voorwaardelijk" in het veld Vraagvolgorde.
-4. Klik op Voorwaardelijke vraag.
+1. Klik op **Bewerken**.
+2. Vouw de sectie **Instellingen** uit.
+3. Selecteer 'Voorwaardelijk' in het veld **Vraagvolgorde**.
+4. Klik op **Voorwaardelijke** vraag.
 5. Selecteer "Questions\Explain why you answered the previous question the way you did" in de structuur.
-6. Selecteer vraag nummer 00009 in het veld Primaire vraag.
+6. Selecteer vraag nummer 00009 in het veld **Primaire vraag**.
 7. Klik in de lijst op de koppeling in de geselecteerde rij.
-8. Voer in het veld Antwoord de antwoordvolgorde-id in van de antwoordoptie waarvan u de vraag afhankelijk wilt maken. Voer bijvoorbeeld 1 in voor de eerste antwoordoptie.
-9. Klik op Opslaan.
+8. Voer in het veld **Antwoord** de antwoordvolgorde-id in van de antwoordoptie waarvan u de vraag afhankelijk wilt maken. Voer bijvoorbeeld 1 in voor de eerste antwoordoptie.
+9. Klik op **Opslaan**.
 10. Selecteer "Questions\I am paid fairly for the work I do." in de structuur.
     * Merk op dat de vraagstructuur wordt bijgewerkt om de afhankelijkheid aan te geven.  
 

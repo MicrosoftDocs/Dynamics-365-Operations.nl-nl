@@ -187,34 +187,34 @@ In de volgende tabel ziet u welke uitgaande functies worden ondersteund en waar 
 
 | Proces                                                      | Hub | Werkbelasting magazijnuitvoering op een schaaleenheid |
 |--------------------------------------------------------------|-----|------------------------------|
-| Brondocumenten verwerken                                   | Ja | No |
-| Laad- en transportbeheer verwerken                | Ja, maar alleen de processen voor ladingplanning. Verwerking van transportbeheer wordt niet ondersteund  | No |
-| Vrijgeven aan magazijn                                         | Ja | No |
-| Gepland cross-docken                                        | No  | No |
+| Brondocumenten verwerken                                   | Ja | Nee |
+| Laad- en transportbeheer verwerken                | Ja, maar alleen de processen voor ladingplanning. Verwerking van transportbeheer wordt niet ondersteund  | Nee |
+| Vrijgeven aan magazijn                                         | Ja | Nee |
+| Gepland cross-docken                                        | Nee  | Nee |
 | Zendingen samenvoegen                                       | Ja, bij gebruik van ladingplanning | Ja |
-| Verzendingswaves verwerken                                     | No  |Ja, behalve **Ladingopbouw en sorteren** |
-| Zendingen onderhouden voor wave                                  | No  | Ja|
-| Magazijnwerk verwerken (inclusief nummerplaat afdrukken)        | No  | Ja, maar alleen voor de eerdergenoemde ondersteunde mogelijkheden |
-| Orderverzamelen van cluster                                              | No  | Ja|
-| Handmatige verpakkingsverwerking, incl. verwerking van werk 'Orderverzameling voor ingepakte container' | No <P>Bepaalde verwerking kan worden uitgevoerd nadat een oorspronkelijk orderverzamelproces is verwerkt door een schaaleenheid. Dit wordt echter afgeraden vanwege volgende geblokkeerde bewerkingen.</p>  | No |
-| Container verwijderen uit groep                                  | No  | No |
-| Uitgaande sorteringen verwerken                                  | No  | No |
+| Verzendingswaves verwerken                                     | Nee  |Ja, behalve **Ladingopbouw en sorteren** |
+| Zendingen onderhouden voor wave                                  | Nee  | Ja|
+| Magazijnwerk verwerken (inclusief nummerplaat afdrukken)        | Nee  | Ja, maar alleen voor de eerdergenoemde ondersteunde mogelijkheden |
+| Orderverzamelen van cluster                                              | Nee  | Ja|
+| Handmatige verpakkingsverwerking, incl. verwerking van werk 'Orderverzameling voor ingepakte container' | Nee <P>Bepaalde verwerking kan worden uitgevoerd nadat een oorspronkelijk orderverzamelproces is verwerkt door een schaaleenheid. Dit wordt echter afgeraden vanwege volgende geblokkeerde bewerkingen.</p>  | Nee |
+| Container verwijderen uit groep                                  | Nee  | Nee |
+| Uitgaande sorteringen verwerken                                  | Nee  | Nee |
 | Lading-gerelateerde documenten afdrukken                           | Ja | Ja|
-| Vrachtbrief en ASN-generatie                            | No  | Ja|
-| Verzendbevestiging                                             | No  | Ja|
-| Zendingsbevestiging met 'Bevestigen en overboeking'            | No  | No |
-| Verwerking van pakbon en facturering                        | Ja | No |
-| Korte orderverzameling (verkoop- en overboekingsorders)                    | No  | Ja, zonder reserveringen voor brondocumenten te verwijderen|
-| Meerverzameling (verkoop- en overboekingsorders)                     | No  | Ja|
-| Wijziging van werklocaties (verkoop- en overboekingsorders)         | No  | Ja|
-| Werk voltooien (verkoop- en overboekingsorders)                    | No  | Ja|
+| Vrachtbrief en ASN-generatie                            | Nee  | Ja|
+| Verzendbevestiging                                             | Nee  | Ja|
+| Zendingsbevestiging met 'Bevestigen en overboeking'            | Nee  | Nee |
+| Verwerking van pakbon en facturering                        | Ja | Nee |
+| Korte orderverzameling (verkoop- en overboekingsorders)                    | Nee  | Ja, zonder reserveringen voor brondocumenten te verwijderen|
+| Meerverzameling (verkoop- en overboekingsorders)                     | Nee  | Ja|
+| Wijziging van werklocaties (verkoop- en overboekingsorders)         | Nee  | Ja|
+| Werk voltooien (verkoop- en overboekingsorders)                    | Nee  | Ja|
 | Werkrapport afdrukken                                            | Ja | Ja|
-| Wavelabel                                                   | No  | Ja|
-| Werk splitsen                                                   | No  | Ja|
-| Werkverwerking - Gestuurd door 'Transportlading'            | No  | No |
-| Opgenomen hoeveelheid reduceren                                       | No  | No |
-| Werk omkeren                                                 | No  | No |
-| Verzendbevestiging omkeren                                | No  | Ja|
+| Wavelabel                                                   | Nee  | Ja|
+| Werk splitsen                                                   | Nee  | Ja|
+| Werkverwerking - Gestuurd door 'Transportlading'            | Nee  | Nee |
+| Opgenomen hoeveelheid reduceren                                       | Nee  | Nee |
+| Werk omkeren                                                 | Nee  | Nee |
+| Verzendbevestiging omkeren                                | Nee  | Ja|
 
 ### <a name="inbound"></a>Inkomend
 
@@ -226,27 +226,27 @@ In de volgende tabel ziet u welke inkomende functies worden ondersteund en waar 
 | Laad- en transportbeheer verwerken                    | Ja | Nee |
 | Francoprijzen voor goederen in transit ontvangen                       | Ja | Nee |
 | Bevestiging inkomende zending                                    | Ja | Nee |
-| Vrijgave inkooporder naar magazijn (magazijnorderverwerking) | Ja | No |
-| Annulering van magazijnorderregels<p>Dit wordt alleen ondersteund als er geen registratie voor de regel heeft plaatsgevonden.</p> | Ja | No |
+| Vrijgave inkooporder naar magazijn (magazijnorderverwerking) | Ja | Nee |
+| Annulering van magazijnorderregels<p>Dit wordt alleen ondersteund als er geen registratie voor de regel heeft plaatsgevonden.</p> | Ja | Nee |
 | Ontvangen en wegzetten van inkooporderartikel                       | <p>Ja,&nbsp;wanneer&nbsp;er&nbsp;geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | <p>Ja, wanneer een inkooporder geen deel uitmaakt van een <i>belasting</i></p> |
 | Ontvangen van inkooporderregel en wegzetten                       | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | <p>Ja, wanneer een inkooporder geen deel uitmaakt van een <i>belasting</i></p></p> |
-| Ontvangen en wegzetten van retourorder                              | Ja | No |
+| Ontvangen en wegzetten van retourorder                              | Ja | Nee |
 | Nummerplaat ontvangen en wegzetten                       | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | Ja |
-| Artikelontvangst laden                                              | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | No |
-| Ontvangen en wegzetten van nummerplaat                             | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | No |
-| Ontvangen en wegzetten van artikel voor overboekingorder                       | Ja | No |
-| overboekingsorderregel ontvangen en wegzetten                       | Ja | No |
+| Artikelontvangst laden                                              | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | Nee |
+| Ontvangen en wegzetten van nummerplaat                             | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | Nee |
+| Ontvangen en wegzetten van artikel voor overboekingorder                       | Ja | Nee |
+| overboekingsorderregel ontvangen en wegzetten                       | Ja | Nee |
 | Werk annuleren (inkomende)                                            | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | <p>Ja, maar alleen als de optie <b>Ontvangst ongedaan maken bij annulering van werk</b> (op de pagina <b>Parameters voor magazijnbeheer</b>) wordt uitgeschakeld</p> |
-| Inkooporder productontvangstbon verwerken                        | Ja | No |
+| Inkooporder productontvangstbon verwerken                        | Ja | Nee |
 | Ontvangen van inkooporder met minderlevering                      | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | Ja, maar alleen door een annuleringsaanvraag vanuit de hub te maken |
 | Ontvangen van inkooporder met meerlevering                       | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | Ja  |
-| Ontvangen met aanmaak van werk *Cross-docken*                 | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | No |
-| Ontvangen met aanmaak van werk *Kwaliteitsorder*                  | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | No |
-| Ontvangen met aanmaak van werk *Bemonstering kwaliteitsartikel*          | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | No |
-| Ontvangen met aanmaak van werk *Kwaliteit in kwaliteitscontrole*       | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | No |
-| Ontvangen met aanmaak van kwaliteitsorder                            | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | No |
-| Werkverwerking - Gestuurd door *Clusteropslag*                 | Ja | No |
-| Werkverwerking met *Kort orderverzamelen*                               | Ja | No |
+| Ontvangen met aanmaak van werk *Cross-docken*                 | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | Nee |
+| Ontvangen met aanmaak van werk *Kwaliteitsorder*                  | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | Nee |
+| Ontvangen met aanmaak van werk *Bemonstering kwaliteitsartikel*          | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | Nee |
+| Ontvangen met aanmaak van werk *Kwaliteit in kwaliteitscontrole*       | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | Nee |
+| Ontvangen met aanmaak van kwaliteitsorder                            | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | Nee |
+| Werkverwerking - Gestuurd door *Clusteropslag*                 | Ja | Nee |
+| Werkverwerking met *Kort orderverzamelen*                               | Ja | Nee |
 | Nummerplaatlading                                           | Ja | Ja |
 
 ### <a name="warehouse-operations-and-exception-handing"></a>Magazijnbewerkingen en uitzonderingen afhandelen
@@ -261,20 +261,20 @@ In de volgende tabel ziet u welke functies voor magazijnbewerkingen en het afhan
 | Magazijn wijzigen                                   | Ja | Ja                          |
 | Mutatie                                           | Ja | Ja                          |
 | Mutatie door sjabloon                               | Ja | Ja                          |
-| Magazijntransfer                                 | Ja | No                           |
-| Transferorders maken vanuit de magazijn-app           | Ja | No                           |
+| Magazijntransfer                                 | Ja | Nee                           |
+| Transferorders maken vanuit de magazijn-app           | Ja | Nee                           |
 | Correctie (in/uit)                                | Ja | Ja, maar niet voor het scenario 'Correctie uit', waarin voorraadreservering moet worden verwijderd met de instelling **Reserveringen verwijderen** voor de voorraadcorrectietypen</p>                           |
-| Wijziging van voorraadstatus                            | Ja | No                           |
+| Wijziging van voorraadstatus                            | Ja | Nee                           |
 | Cyclustelling en Telverschillen verwerken | Ja | Ja                           |
 | Label opnieuw afdrukken (nummerplaat afdrukken)             | Ja | Ja                          |
-| Nummerplaat-build                                | Ja | No                           |
-| Nummerplaat onderbreken                                | Ja | No                           |
-| Verpakken naar geneste nummerplaten                                | Ja | No                           |
-| Inchecken chauffeur                                    | Ja | No                           |
-| Uitchecken chauffeur                                   | Ja | No                           |
+| Nummerplaat-build                                | Ja | Nee                           |
+| Nummerplaat onderbreken                                | Ja | Nee                           |
+| Verpakken naar geneste nummerplaten                                | Ja | Nee                           |
+| Inchecken chauffeur                                    | Ja | Nee                           |
+| Uitchecken chauffeur                                   | Ja | Nee                           |
 | Batchbeschikkingscode wijzigen                      | Ja | Ja                          |
 | Geopende werklijst weergeven                             | Ja | Ja                          |
-| Nummerplaten consolideren                         | Ja | No                           |
+| Nummerplaten consolideren                         | Ja | Nee                           |
 | Verwerking van min/max en zonedrempelaanvulling| Ja <p>Het wordt afgeraden dezelfde locaties als onderdeel van de query's op te nemen.</p>| Ja                          |
 | Aanvulling van vakken verwerken                  | Ja  | Ja<p>Houd er rekening mee dat de instelling moet worden uitgevoerd voor de schaaleenheid</p>                           |
 | Werk blokkeren en deblokkeren                             | Ja | Ja                          |
@@ -290,8 +290,8 @@ In de volgende tabel wordt een overzicht gegeven van productiescenario's voor ma
 |---------|-----|------------------------------|
 | Gereedmelden en eindproducten wegzetten | Ja | Ja |
 | Coproducten en bijproducten wegzetten | Ja | Ja |
-| <p>Alle andere magazijnbeheerprocessen die betrekking hebben op productie, zoals.</p><li>Vrijgeven aan magazijn</li><li>Productie-waves verwerken</li><li>Orderverzameling van grondstoffen</li><li>Kanban wegzetten</li><li>Kanbanorderverzameling</li><li>Productieorder beginnen</li><li>Productie-uitval</li><li>Laatste pallet van productie</li><li>Materiaalverbruik registreren</li><li>Lege Kanban</li></ul> | Ja | No |
-| Aanvulling van grondstoffen | No | No |
+| <p>Alle andere magazijnbeheerprocessen die betrekking hebben op productie, zoals.</p><li>Vrijgeven aan magazijn</li><li>Productie-waves verwerken</li><li>Orderverzameling van grondstoffen</li><li>Kanban wegzetten</li><li>Kanbanorderverzameling</li><li>Productieorder beginnen</li><li>Productie-uitval</li><li>Laatste pallet van productie</li><li>Materiaalverbruik registreren</li><li>Lege Kanban</li></ul> | Ja | Nee |
+| Aanvulling van grondstoffen | Nee | Nee |
 
 ## <a name="maintaining-scale-units-for-warehouse-execution"></a>Schaaleenheden onderhouden voor magazijnuitvoering
 

@@ -42,7 +42,7 @@ Het voorbeeldsysteem bevat de volgende instellingen voor opslagdimensies.
 | Naam      | Actief | Fysieke voorraad | Financiële voorraad |
 |-----------|--------|--------------------|---------------------|
 | Locatie      | Ja    | Ja                | Ja                 |
-| Magazijn | Ja    | Ja                | No                  |
+| Magazijn | Ja    | Ja                | Nee                  |
 
 ### <a name="inventory-model"></a>Voorraadwaarderingsmodel
 

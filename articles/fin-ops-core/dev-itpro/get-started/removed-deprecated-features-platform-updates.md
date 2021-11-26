@@ -178,7 +178,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | De metagegevensartefacten die aan Dynamics AX 2012 Enterprise Portal (EP) zijn gekoppeld, zijn afgeschaft, omdat EP nooit in de Finance and Operations-apps werd ondersteund. |
-| **Vervangen door een andere functie?**   | No |
+| **Vervangen door een andere functie?**   | Nee |
 | **Betrokken productgebieden**         | Webclient |
 | **Implementatieoptie**              | Alles |
 | **Status**                         | Afgeschaft: alle EP-code moet worden verwijderd in de versie van oktober 2021. |
@@ -335,7 +335,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Navigatie-URL's die zijn ingesloten in documenten die door de service worden weergegeven, kunnen gevoelige bedrijfsgegevens bevatten. De ondersteuning voor ingesloten drillthrough-koppelingen in documenten wordt verwijderd als een beveiligingsmaatregel om de gegevens van klanten beter te beschermen. Gebruikers profiteren ook van betere prestaties en kunnen interactief documenten genereren als gevolg van deze wijziging.  |
-| **Vervangen door een andere functie?**   | No |
+| **Vervangen door een andere functie?**   | Nee |
 | **Betrokken productgebieden**         | Rapportage |
 | **Implementatieoptie**              | Alle |
 | **Status**                         | Deze functie wordt actief uit de service verwijderd.<br><br>De moderne client biedt talloze opties voor het produceren van weergaven die automatisch gegenereerde koppelingen bevatten om te helpen bij het navigeren door de toepassing. Gepagineerde documenten die door de service worden weergegeven, worden aanbevolen voor externe communicatie die per e-mail wordt verzonden, gearchiveerd en afgedrukt voor ontvangers. We hebben de ervaring verbeterd voor het direct bekijken van documenten in de browser, die rechtstreeks toegang biedt tot lokale printers. Zie [PDF-documenten bekijken met een ingesloten viewer](../analytics/preview-pdf-documents.md) voor meer informatie. |

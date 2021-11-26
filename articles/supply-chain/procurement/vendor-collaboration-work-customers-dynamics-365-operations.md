@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 024bbaad45f320b8c82b20a52ced05322371e337
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9ad7f116f979d571a5e34eee67beb7218a271522
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575382"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777589"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Leverancierssamenwerking met klanten
 
@@ -102,7 +102,7 @@ Mensen die in de publieke sector werken, kunnen openstaande en verlopen offertea
 
     Als u bent uitgenodigd om te bieden, kunt u dezelfde offerteaanvraag vinden op de pagina **Uitnodigingen voor nieuw bod**. Soms wilt u mogelijk bieden op een openstaande offerteaanvraag terwijl u niet bent uitgenodigd om te bieden. In dat geval kunt u mogelijk uzelf uitnodigen, mits de klant de mogelijkheid voor zelfuitnodiging voor de offerteaanvraagcase biedt.
 
-    Verbeter de toegankelijkheid van de koppeling **Gepubliceerde offerteaanvragen openen** door de functie **Koppeling 'Gepubliceerde offerteaanvragen openen' als tegel weergeven** in te schakelen. Met deze functie wordt de koppeling naar een tegel geconverteerd en naar een prominente locatie verplaatst, zodat u de tegel gemakkelijk kunt terugvinden.
+    Verbeter de toegankelijkheid van de koppeling **Gepubliceerde offerteaanvragen openen** door de functie **Koppeling 'Gepubliceerde offerteaanvragen openen' als tegel weergeven** in te schakelen. Met deze functie wordt de koppeling naar een tegel geconverteerd en naar een prominente locatie verplaatst, zodat u de tegel gemakkelijk kunt terugvinden. (Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld.)
 
 - Selecteer de koppeling **Gesloten gepubliceerde offerteaanvragen** voor een overzicht van gesloten offerteaanvragen die beschikbaar zijn voor het publiek. Een gesloten offerteaanvraag is een offerteaanvraag die is verlopen. U kunt de vervaldatum en -tijd vinden in de koptekst van de offerteaanvraag.
 

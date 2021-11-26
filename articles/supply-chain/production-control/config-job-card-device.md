@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 259ed49b9bdfb70ea357a7d20ea7ae8b141978cd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0382e34664f20389c43e8dec4437f0078fa1f60a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576947"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777735"
 ---
 # <a name="configure-job-card-for-devices"></a>Taakkaart configureren voor apparaten
 
@@ -34,19 +34,19 @@ Enkele van de instellingen die in dit onderwerp worden beschreven, moeten op uw 
 
 Als u deze functie beschikbaar wilt maken, schakelt u de volgende functies in [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (op volgorde):
 
-1. Nummerplaat voor gereedmelding toegevoegd aan het apparaat voor taakkaarten
+1. De nummerplaat voor gereedmelding die is toegevoegd aan het taakkaartapparaat (vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld.)
 1. Het automatisch genereren van nummerplaatnummers inschakelen bij het gereedmelden in het apparaat voor taakkaarten
 
 ### <a name="print-label"></a>Etiket afdrukken
 
 Als u deze functie beschikbaar wilt maken, schakelt u de volgende functies in [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (op volgorde):
 
-1. Nummerplaat voor gereedmelding toegevoegd aan het apparaat voor taakkaarten
+1. De nummerplaat voor gereedmelding die is toegevoegd aan het taakkaartapparaat (vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld.)
 1. Label afdrukken vanaf apparaat voor taakkaart
 
 ### <a name="allow-locking-of-touch-screen"></a>Vergrendeling van aanraakscherm toestaan
 
-Als u deze functie beschikbaar wilt maken, schakelt u de volgende functie in [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Als u dit wilt gebruiken, schakelt u de volgende functie in [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in:
 
 - Functie voor vergrendelen van taakkaartapparaat en taakkaartterminal zodat ze kunnen worden schoongemaakt
 

@@ -1,8 +1,8 @@
 ---
 title: Vragenlijsten maken
-description: Dit artikel beschrijft het proces om een vragenlijst te maken. Als eerste stap ontwerpt u de vragenlijst Wanneer u een vragenlijst ontwerpt, schrijft u niet alleen de vragen en antwoorden, maar maakt u ook de structuur waardoor antwoorden worden geregistreerd en getabelleerd.
-author: andreabichsel
-ms.date: 06/20/2017
+description: In dit onderwerp wordt het proces om een vragenlijst te maken beschreven.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 17341
 ms.assetid: b27e2f12-c7a0-4a54-b8d8-17819f8a1c72
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c2a8c156aa75b02b69da3ee70a1ee60ea9d73a8aa67c70babdaaad88d6eb81f4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08c8015e8729a4ca33f3fb3c48f654e489f32f3f
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755558"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729046"
 ---
 # <a name="create-questionnaires"></a>Vragenlijsten maken
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Dit artikel beschrijft het proces om een vragenlijst te maken. Als eerste stap ontwerpt u de vragenlijst Wanneer u een vragenlijst ontwerpt, schrijft u niet alleen de vragen en antwoorden, maar maakt u ook de structuur waardoor antwoorden worden geregistreerd en getabelleerd. 
+In dit onderwerp wordt het proces om een vragenlijst te maken beschreven. Als eerste stap ontwerpt u de vragenlijst Wanneer u een vragenlijst ontwerpt, schrijft u niet alleen de vragen en antwoorden, maar maakt u ook de structuur waardoor antwoorden worden geregistreerd en getabelleerd. 
 
 Door een vragenlijst zorgvuldig te ontwerpen, verhoogt u de kwaliteit van de gegevens die u verzamelt. Door een zorgvuldig ontwerp kunt u op het juiste moment beter de gewenste opties selecteren voor een vragenlijst. De volgende punten kunnen u helpen bij het plannen van een effectieve vragenlijst:
 
@@ -63,7 +63,7 @@ Voordat u vragenlijsten en vragen kunt maken, moet u de voorwaarden opgeven. Ech
 
 ### <a name="questionnaire-types"></a>Typen vragenlijst
 
-Vragenlijsttypen zijn vereist en moeten worden toegewezen bij het maken van een vragenlijst. Met deze vragenlijsttypen kunt u vragenlijsten eenvoudiger beheren en classificeren. Gebruik vragenlijsttypen om vragenlijsten te classificeren en ze van elkaar te onderscheiden. Als u bijvoorbeeld meerdere vragenlijsten kunt selecteren, kunt u ze filteren op type om zo een specifieke vragenlijst gemakkelijker terug te kunnen vinden. Hieronder staan enkele voorbeelden van vragenlijsttypen:
+**Vragenlijsttypen** zijn vereist en moeten worden toegewezen bij het maken van een vragenlijst. Met deze **vragenlijsttypen** kunt u vragenlijsten eenvoudiger beheren en classificeren. Gebruik vragenlijsttypen om vragenlijsten te classificeren en ze van elkaar te onderscheiden. Als u bijvoorbeeld meerdere vragenlijsten kunt selecteren, kunt u ze filteren op type om zo een specifieke vragenlijst gemakkelijker terug te kunnen vinden. Hieronder staan enkele voorbeelden van vragenlijsttypen:
 
 -   Personeelontwikkeling
 -   Klantenquêtes
@@ -71,9 +71,9 @@ Vragenlijsttypen zijn vereist en moeten worden toegewezen bij het maken van een 
 
 ### <a name="question-types"></a>Vraagtypen
 
-Vraagtypen zijn vereist en moeten worden toegewezen bij het maken van een vraag. 
+**Vraagtypen** zijn vereist en moeten worden toegewezen bij het maken van een vraag. 
 
-Gebruik vraagtypen om vragen voor rapportage te categoriseren. De vraagtypen maken het eenvoudiger om ook vragen te zoeken, omdat u typen kunt gebruiken als filters op de pagina **Vragen**. Hieronder staan enkele voorbeelden van vraagtypen:
+Gebruik **Vraagtypen** om vragen voor rapportage te categoriseren. De **vraagtypen** maken het eenvoudiger om ook vragen te zoeken, omdat u typen kunt gebruiken als filters op de pagina **Vragen**. Hieronder staan enkele voorbeelden van vraagtypen:
 
 -   Personeelsbeleid
 -   Management
@@ -105,7 +105,7 @@ Om een lijst van mogelijke antwoorden voor meerkeuzevragen te geven, kunt u antw
 
 Antwoordgroepen en antwoorden zijn onderdelen van de hoeveelheid informatie waarvan de vragen worden gemaakt. Nadat u een antwoordgroep hebt gemaakt, kunt u de antwoordgroep aan een vraag koppelen in het veld **Antwoordgroep** op de pagina **Vragen**. 
 
-U kunt een antwoordgroep gebruiken voor meer dan één vraag in dezelfde vragenlijst en in meer dan één vragenlijst. 
+U kunt een **Antwoordgroep** gebruiken voor meer dan één vraag in dezelfde vragenlijst en in meer dan één vragenlijst. 
 
 > [!NOTE]
 > Als u antwoordtekst in antwoordgroepen aanpast die al zijn gebruikt op ingevulde vragenlijsten, zijn de gegevens mogelijk moeilijk te beoordelen en zijn de vragenlijstresultaten mogelijk niet meer geldig. Als u een antwoordgroep moet wijzigen, overweeg dan om een nieuwe antwoordgroep te maken in plaats van het een bestaande te wijzigen. U kunt geen antwoordgroepen verwijderen die aan een vraag of antwoord zijn gekoppeld, of die zijn beantwoord.
@@ -171,7 +171,7 @@ In een vragenlijst kunt u de volgende typen vragen verwijderen:
 
 ### <a name="result-groups"></a>Resultaatgroepen
 
-Resultaatgroepen zijn optioneel wanneer u vragen aan een vragenlijst koppelt. 
+**Resultaatgroepen** zijn optioneel wanneer u vragen aan een vragenlijst koppelt. 
 
 Een resultaatgroep wordt gebruikt om punten te berekenen en de resultaten van een vragenlijst te categoriseren. Als u resultaatgroepen gebruikt, kunt u de volgende taken uitvoeren:
 

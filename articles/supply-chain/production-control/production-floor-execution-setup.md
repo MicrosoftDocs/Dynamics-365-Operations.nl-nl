@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 503ba8ae95119f3ce9533f81cdd16c34cf3a9223
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f0be79b54a279893f93d41981342e42c8880f059
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574540"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752827"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Een apparaat instellen om de uitvoeringsinterface voor de werkvloer uit te voeren
 
@@ -28,9 +28,9 @@ De uitvoeringsinterface van de werkvloer wordt ingesteld voor elk apparaat op de
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>De configuratie en filters voor een specifiek apparaat instellen
 
-Als u de configuratie en taakfilters voor een apparaat wilt instellen, meldt u zich aan bij de pagina **Uitvoering werkvloer** met een account die een beveiligingsrol heeft die over het recht *Tijdsupervisor beheren* beschikt. (Van de standaardbeveiligingsrollen heeft alleen *Werkvloersupervisor* dit recht.) Voer vervolgens de volgende stappen uit.
+Als u de configuratie en taakfilters voor een apparaat wilt instellen, meldt u zich aan bij de pagina **Uitvoering werkvloer** met een account die een beveiligingsrol heeft die over het recht *Tijdcontrole beheren* beschikt. (Van de standaardbeveiligingsrollen heeft alleen *Werkvloersupervisor* dit recht.) Voer vervolgens de volgende stappen uit.
 
-1. Ga naar het apparaat dat u wilt instellen en meld u aan bij Microsoft Dynamics 365 Supply Chain Management als werkvloersupervisor. (Gebruik een account die over het recht *Tijdsupervisor beheren* beschikt.)
+1. Ga naar het apparaat dat u wilt instellen en meld u aan bij Microsoft Dynamics 365 Supply Chain Management als werkvloersupervisor. (Gebruik een account die over het recht *Tijdcontrole beheren* beschikt.)
 1. Controleer of er een configuratie beschikbaar is voor het apparaat dat u instelt. Als er nog geen configuratie bestaat, wordt een standaardconfiguratie opgegeven. Zie [Uitvoeringsinterface van de werkvloer configureren](production-floor-execution-configure.md) voor meer informatie over het instellen van een configuratie.
 1. Ga naar **Productiebeheer \> Productie-uitvoering \> Uitvoering werkvloer**.
 

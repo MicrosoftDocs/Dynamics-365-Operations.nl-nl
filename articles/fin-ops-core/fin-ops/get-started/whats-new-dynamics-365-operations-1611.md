@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ce31755e326ca598ad83c59c7025e3802d15a8b471d62f63e3150f61300777ff
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0625010143b7df9c3c897bf7f43ef25993303240
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715193"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752803"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Operations versie 1611 (november 2016)
 
@@ -496,7 +496,7 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dy
 <li>Indeling voor automatische ISO20022-afschrijving voor Italië</li>
 <li>Indeling voor RIBA-incassoremise voor Italië</li>
 <li>Rapport voor binnenlandse btw-transacties voor Italië</li>
-<li>Zwarte-lijstrapport voor Italië</li>
+<li>Blokkeringslijstrapport voor Italië</li>
 <li>Modello770-rapport voor Italië</li>
 <li>Rapport jaarlijkse belastingaangifte voor Italië</li>
 </ul>

@@ -2,7 +2,7 @@
 title: Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
 description: Dit onderwerp bevat informatie over het ontwerpen van een ER-indeling (Elektronische rapportage) voor het invullen van een Excel-sjabloon en het genereren van uitgaande Excel-documenten.
 author: NickSelin
-ms.date: 09/14/2021
+ms.date: 10/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd3171ad24f9c06f04372b30f2682b6da516bcb6
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: cfacc2232201b85a49068ee724b55e71b60eb2be
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488133"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731633"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
 
@@ -85,6 +85,8 @@ Op het tabblad **Toewijzing** van de ER Operations-ontwerper kunt u de eigenscha
 
 Het onderdeel **Bereik** geeft een Excel-bereik aan dat moet worden beheerd door dit ER-onderdeel. De naam van het bereik wordt gedefinieerd in het eigenschap **Excel-bereik** van dit onderdeel.
 
+### <a name="replication"></a>Replicatie
+
 De eigenschap **Replicatierichting** geeft aan of en hoe het bereik wordt herhaald in een gegenereerd document:
 
 - Als de eigenschap **Replicatierichting** is ingesteld op **Geen replicatie**, wordt het betreffende Excel-bereik niet herhaald in het gegenereerde document.
@@ -92,6 +94,8 @@ De eigenschap **Replicatierichting** geeft aan of en hoe het bereik wordt herhaa
 - Als de eigenschap **Replicatierichting** is ingesteld op **Horizontaal**, wordt het betreffende Excel-bereik herhaald in het gegenereerde document. Elk gerepliceerd bereik wordt rechts van het oorspronkelijke bereik in een Excel-sjabloon geplaatst. Het aantal herhalingen wordt gedefinieerd door het aantal records in een gegevensbron van het type **Recordlijst** dat is gekoppeld aan dit ER-onderdeel.
 
 Als u meer wilt weten over horizontale replicatie, volgt u de stappen in [Horizontaal uitvouwbare bereiken gebruiken om kolommen in Excel-rapporten dynamisch toe te voegen](tasks/er-horizontal-1.md).
+
+### <a name="nested-components"></a>Geneste onderdelen
 
 Het onderdeel **Bereik** kan andere geneste ER-onderdelen bevatten die worden gebruikt om waarden op te geven in de toepasselijke benoemde Excel-bereiken.
 
@@ -105,11 +109,40 @@ Het onderdeel **Bereik** kan andere geneste ER-onderdelen bevatten die worden ge
     > [!NOTE]
     > Gebruik dit patroon om de ingevoerde waarden in de Excel-toepassing op te maken op basis van de landinstelling van de lokale computer waarop het uitgaande document wordt geopend.
 
+### <a name="enabling"></a>Inschakelen
+
 Op het tabblad **Toewijzing** van de ER Operations-ontwerper kunt u de eigenschap **Ingeschakeld** voor een onderdeel **Bereik** configureren om op te geven of het onderdeel in een gegenereerd document moet worden geplaatst:
 
 - Als een expressie van de eigenschap **Ingeschakeld** is geconfigureerd om **Waar** te retourneren tijdens runtime, of als er helemaal geen expressie is geconfigureerd, wordt het betreffende bereik in het gegenereerde document ingevuld.
 - Als een expressie van de eigenschap **Ingeschakeld** is geconfigureerd om **Onwaar** te retourneren tijdens runtime en als dit bereik niet alle rijen of kolommen vertegenwoordigt, wordt het betreffende bereik niet in het gegenereerde document ingevuld.
 - Als een expressie van de eigenschap **Ingeschakeld** is geconfigureerd om **Onwaar** te retourneren tijdens runtime en als dit bereik alle rijen of kolommen vertegenwoordigt, bevat het gegenereerde document die rijen en kolommen als verborgen rijen en kolommen.
+
+### <a name="resizing"></a>Formaat wijzigen
+
+U kunt de Excel-sjabloon configureren, zodat cellen worden gebruikt om tekstgegevens te presenteren. Om er zeker van te zijn dat de gehele tekst in een cel zichtbaar is in een gegenereerd document, kunt u die cel zo configureren dat de tekst binnen het document automatisch terugloopt. U kunt de rij met die cel ook zo configureren dat de hoogte ervan automatisch wordt aangepast als de doorlopende tekst niet volledig zichtbaar is. Zie de sectie "Teruglooptekst in een cel" in [Gegevens repareren die worden afgekapt in cellen](https://support.microsoft.com/office/fix-data-that-is-cut-off-in-cells-e996e213-6514-49d8-b82a-2721cef6144e) voor meer informatie.
+
+> [!NOTE]
+> Wegens een bekende [beperking van Excel](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353) is het mogelijk dat, zelfs als u cellen configureert om tekst terug te laten lopen, en u de rijen die deze cellen bevatten configureert om de hoogte ervan automatisch aan te passen aan de teruglopende tekst, u de Excel-functies **AutoAanpassen** en **Tekstterugloop** niet kunt gebruiken voor samengevoegde cellen en de rijen die deze cellen bevatten. 
+
+Vanaf versie 10.0.23 van Dynamics 365 Finance kunt u ER dwingen om in een gegenereerd document de hoogte van elke rij te berekenen die zo is geconfigureerd dat de hoogte ervan automatisch wordt aangepast aan de inhoud van geneste cellen wanneer die rij minimaal één samengevoegde cel bevat die is geconfigureerd om de tekst binnen de rij terug te laten lopen. De berekende hoogte wordt vervolgens gebruikt om de grootte van de rij te wijzigen, zodat alle cellen in de rij zichtbaar zijn in het gegenereerde document. Volg deze stappen om deze functionaliteit te gaan gebruiken wanneer u een ER-indeling uitvoert die geconfigureerd was om Excel-sjablonen te gebruiken om uitgaande documenten te genereren.
+
+1. Ga naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
+2. Selecteer op de pagina **Lokalisatieconfiguraties** in de sectie **Verwante koppelingen** de tegel **Parameters van elektronische rapportage**.
+3. Stel op de pagina **Parameters van elektronische rapportage** op het tabblad **Runtime** de optie **Rijhoogte AutoAanpassen** in op **Ja**.
+
+Als u deze regel voor één ER-indeling wilt wijzigen, moet u de conceptversie van die indeling met de volgende stappen bijwerken.
+
+1. Ga naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
+2. Selecteer op de pagina **Lokalisatieconfiguraties** in de sectie **Configuraties** de optie **Rapportconfiguraties**.
+3. Selecteer op de pagina **Configuraties** in de configuratieboomstructuur in het linkerdeelvenster een ER-configuratie die is ontworpen om een Excel-sjabloon te gebruiken om uitgaande documenten te genereren.
+4. Selecteer op het sneltabblad **Versies** de configuratieversie met de status **Concept**.
+5. Selecteer **Ontwerper** in het actievenster.
+6. Selecteer op de pagina **Indelingsontwerper**, in de indelingsboomstructuur in het linkerdeelvenster, het Excel-onderdeel dat is gekoppeld aan een Excel-sjabloon.
+7. Selecteer op het tabblad **Opmaak** in het veld **Rijhoogte aanpassen** een waarde om op te geven of ER moet worden verplicht om tijdens runtime de hoogte van rijen te wijzigen in een uitgaand document dat wordt gegenereerd door de bewerkte ER-indeling:
+
+    - **Standaard**: gebruik de algemene instelling die is geconfigureerd in het veld **Rijhoogte AutoAanpassen** op de pagina **Parameters voor elektronische rapportage**.
+    - **Ja**: de algemene instelling overschrijven en de rijhoogte wijzigen tijdens runtime.
+    - **Nee**: de algemene instelling overschrijven en de rijhoogte niet wijzigen tijdens runtime.
 
 ## <a name="cell-component"></a>Het onderdeel Cel
 

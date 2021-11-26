@@ -1,8 +1,8 @@
 ---
 title: Nieuwe afdelingen definiëren
 description: Afdelingen zijn operationele eenheden die een functioneel gebied van een bedrijf vertegenwoordigen, zoals verkoop of boekhouding.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: OMOperatingUnit, HierarchyDesigner, OMNodeSelection, HierarchyPu
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 68e925e0aad2bc5e60bfef0479a6eb7247a1a186ebe25c1eaf6afc4715d163f2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb83ab1839e5610731afc7073c9d94e34f31bc07
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726964"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731689"
 ---
 # <a name="define-new-departments"></a>Nieuwe afdelingen definiëren
 
@@ -28,28 +28,28 @@ ms.locfileid: "6726964"
 
 Afdelingen zijn operationele eenheden die een functioneel gebied van een bedrijf vertegenwoordigen, zoals verkoop of boekhouding. Veel bedrijven hebben organisatiehiërarchieën die de verschillende afdelingen in bedrijf weergeven. Deze procedure begeleidt u door het proces van het maken van afdelingen en het toevoegen van die afdelingen aan de afdelingshiërarchie van de organisatie. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 
-1. Ga naar Human resources > Afdelingen > Afdelingen.
-2. Klik op Nieuw om het verwijderdialoogvenster te openen.
-3. Typ een waarde in het veld Naam.
+1. Ga naar **Human resources** > **Afdelingen** > **Afdelingen**.
+2. Klik op **Nieuw** om het uitklapdialoogvenster te openen.
+3. Typ een waarde in het veld **Naam**.
     * Voorbeeld: projectfacturering  
-4. Typ een waarde in het veld Memo.
+4. Typ een waarde in het veld **Memo**.
     * Voorbeeld: projectfacturering  
-5. Typ of selecteer een waarde in het veld Manager.
-    * Voorbeeld: Jodi Christiansen  
-6. Klik op Opslaan.
+5. Typ of selecteer een waarde in het veld **Manager**.
+    * Voorbeeld: Ana Bowman  
+6. Klik op **Opslaan**.
 7. Sluit de pagina.
-8. Ga naar Human resources > Afdelingen > Afdelingshiërarchie.
-9. Klik op Bewerken.
-10. Klik op Invoegen.
-11. Klik op Afdeling.
+8. Ga naar **Human resources** > **Afdelingen** > **Afdelingshiërarchie**.
+9. Klik op **Bewerken**.
+10. Klik op **Invoegen**.
+11. Klik op **Afdeling**.
 12. Zoek en selecteer de gewenste record in de lijst.
     * Voorbeeld: projectfacturering  
-13. Klik op OK.
-14. Klik op Publiceren om het verwijderdialoogvenster te openen.
-15. Typ in het veld Begindatum de datum en een tijd.
+13. Klik op **OK**.
+14. Klik op **Publiceren** om het dialoogvenster te openen.
+15. Voer in het veld **Ingangsdatum** een datum en tijd in.
     * Bij het publiceren van de afdelingshiërarchie kunt u selecteren wanneer de wijzigingen van kracht worden. De wijzigingen kunnen in de toekomst worden uitgevoerd. U weet bijvoorbeeld misschien dat u aan het begin van uw fiscaal jaar een extra afdeling zult toevoegen. U kunt uw ingangsdatum instellen op het begin van het boekjaar. De wijzigingen aan de hiërarchie worden dan op de opgegeven datum van kracht.  
-16. Typ een waarde in het veld Wijzigingen omschrijven.
-17. Klik op Publiceren.
+16. Typ een waarde in het veld **Wijzigingen omschrijven**.
+17. Klik op **Publiceren**.
 
 
 

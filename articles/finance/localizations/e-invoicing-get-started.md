@@ -2,7 +2,7 @@
 title: Aan de slag met Elektronische facturering
 description: Dit onderwerp bevat informatie waarmee u aan de slag kunt met Elektronische facturering in Microsoft Dynamics 365 Finance en Dynamics 365 Supply Chain Management.
 author: gionoder
-ms.date: 08/17/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d0550228dc77ed255a0033bc3b0a4ec21d48a497
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
+ms.openlocfilehash: ebef9cf97f7a91e0a2fd45f5e0e0fc620070b42a
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7700374"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779689"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Aan de slag met Elektronische facturering
 
@@ -57,7 +57,12 @@ Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereiste
 
 Afhankelijk van het land of de regio heeft de elektronische factureringsfunctie mogelijk een specifieke configuratie nodig. 
 
-Zie de documentatie 'Aan de slag' die beschikbaar is voor uw land of regio voor de specifieke stappen.
+> [!NOTE]
+> Wanneer u de functie voor Elektronische facturering voor Finland inschakelt, worden de toepassingsspecifieke parameters bij zoekopdrachten niet ondersteund. Als u dit probleem wilt oplossen, controleert u in de module **Elektronische rapportage** de configuraties voor de verkoopfactuur- en projectfactuurindelingen. Het berekende veld handmatig instellen voor **$PaymentMethodSubstitution** toewijzen en dit veld vervolgens vanuit de verkoopfactuur- en projectfactuurindelingen aan het veld **EpiPaymentMeansCode** koppelen.
+>
+> Wanneer u de functie voor Elektronische facturering voor Italië inschakelt, worden de toepassingsspecifieke parameters bij zoekopdrachten niet ondersteund. Als u dit probleem wilt oplossen, stelt u in de module **Elektronische rapportage** handmatig het berekende veld in voor **$NaturaReverseCharge** toewijzing.
+>
+> Zie de documentatie 'Aan de slag' die beschikbaar is voor uw land of regio voor de specifieke stappen met betrekking tot andere locaties.
 
 ## <a name="import-the-model-mapping-configurations-from-electronic-reporting"></a>De configuraties voor modeltoewijzing importeren vanuit Elektronische rapportage
 
@@ -241,6 +246,14 @@ Zie de documentatie 'Aan de slag' die beschikbaar is voor uw land of regio voor 
 
 3. Selecteer een factuur in het raster en selecteer **Informatie opvragen** \> **Details van indiening**.
 
+## <a name="download-an-electronic-document-file"></a>Een elektronisch documentbestand downloaden
+
+1. Ga naar **Organisatiebeheer** \> **Periodiek** \> **Elektronische documenten** \> **Indieningslogboek voor elektronische documenten**.
+2. Selecteer in het veld **Documenttype** de tabel die de facturen bevat.
+3. Selecteer een document in het raster en selecteer vervolgens **Elektronisch document** \> **Bestand downloaden**. Er wordt voorgesteld een archief met het elektronische documentbestand te downloaden.
+
+> [!NOTE]
+> Voordat u bestanden kunt downloaden, moet de optie **Exportresultaat** worden ingeschakeld voor de gerelateerde actie in de instelling van de elektronische factureringsfunctie in RCS.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

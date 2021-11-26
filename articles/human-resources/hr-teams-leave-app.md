@@ -1,8 +1,8 @@
 ---
 title: Verlofaanvragen beheren in Teams
 description: In dit onderwerp wordt beschreven hoe u verlof kunt aanvragen in de Dynamics 365 Human Resources-app in Microsoft Teams.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 94fa4dca7ff8372d4cf1aeee225e821574f4104048db5ad8a816be2bce496de8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 10538c96a7637a95c60beef40a02fdb5432959ec
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725861"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771526"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Verlofaanvragen beheren in Teams
 
@@ -41,7 +41,7 @@ De Dynamics 365 Human Resources-app is te vinden in het Teams-archief.
 Als u niet automatisch wordt aangemeld bij de app, selecteert u het tabblad **Instellingen** om zich aan te melden.
 
 > [!NOTE]
-> Als er geen dialoogvenster voor aanmelding wordt weergegeven, controleert u de instellingen van uw browser om pop-ups toe te staan. 
+> Als er geen dialoogvenster voor aanmelding wordt weergegeven, werkt u de instellingen van uw browser bij om pop-ups toe te staan. 
 
 Als u toegang hebt tot meer dan één exemplaar van Human resources, kunt u de omgeving selecteren waarmee u verbinding wilt maken op het tabblad **Instellingen**.
 
@@ -53,13 +53,13 @@ Als u toegang hebt tot meer dan één exemplaar van Human resources, kunt u de o
 Na de installatie van de app wordt er een welkomstbericht weergegeven, zodat u weet welke acties de bot namens u kan ondernemen.
 
 > [!NOTE]
-> Bij het eerste contact met de bot moet u zich mogelijk aanmelden. Als er geen dialoogvenster voor aanmelding wordt weergegeven, controleert u de instellingen van uw browser om pop-ups toe te staan.
+> Bij het eerste contact met de bot moet u zich mogelijk aanmelden. Als er geen dialoogvenster voor aanmelding wordt weergegeven, werkt u de instellingen van uw browser bij om pop-ups toe te staan.
 
 U kunt de bot vragen om het volgende te doen:
 
 - Uw huidige verlofsaldi weergeven. U kunt bijvoorbeeld een bericht met de tekst "Verlofsaldi weergeven" verzenden.
 
-- Een verlofaanvraag voor u starten. U kunt bijvoorbeeld een bericht met de tekst "Vrij nemen" of "Ik wil volgende donderdag en vrijdag vakantie nemen" verzenden om specifieker te zijn voor het aanvragen van verlof voor het vakantieverloftype. 
+- Een verlofaanvraag voor u starten. U kunt bijvoorbeeld een bericht met de tekst "Vrij nemen" of "Ik wil volgende donderdag en vrijdag vrij nemen" verzenden om specifieker te zijn voor het aanvragen van verlof voor het vakantieverloftype. 
 
   ![Een verlofaanvraag starten in Teams-chat.](./media/hr-teams-leave-app-initiate.png)
 
@@ -113,7 +113,7 @@ Op het tabblad **Verlof** kunt u het volgende bekijken:
    
 ### <a name="respond-to-teams-notifications"></a>Reageren op meldingen van teams
 
-Wanneer u of een werknemer waarvoor u een fiatteur bent een verlofaanvraag indient, ontvangt u een melding in de Human Resources-app in Teams. U kunt de melding selecteren die u wilt weergeven. Meldingen worden ook weergegeven in het gebied **Chat**.
+Wanneer u of een medewerker voor wie u een fiatteur bent een verlofaanvraag indient, ontvangt u een melding in de Human Resources-app in Teams. U kunt de melding selecteren om de verlofaanvraag weer te geven. Meldingen worden ook weergegeven in het gebied **Chat**.
 
 Als u een fiatteur bent, kunt u **Goedkeuren** of **Weigeren** selecteren in de melding. U kunt ook een optioneel bericht opgeven.
 
@@ -167,7 +167,7 @@ Als u problemen ondervindt met het aanmelden bij of het gebruik van de Dynamics 
 
 Als u zich niet kunt aanmelden bij de app, is het mogelijk dat de account die u gebruikt om u aan te melden bij Microsoft Teams niet is gekoppeld aan een werknemersrecord in Dynamics 365 Human Resources. Neem contact op met uw systeembeheerder om er zeker van te zijn dat de werknemersrecord goed is gekoppeld.
 
-### <a name="cant-find-the-dynamics-365-human-resources-environment-in-settings"></a>Kan de Dynamics 365 Human Resources-omgeving niet vinden in Instellingen
+### <a name="cant-find-the-dynamics-365-human-resources-environment-in-settings"></a>Kan de Dynamics 365 Human Resources-omgeving niet vinden in instellingen
 
 Als u de juiste Dynamics 365-omgeving niet kunt selecteren, is de gebruikersrecord mogelijk niet juist gesynchroniseerd. Neem contact op met uw systeembeheerder om de gebruikersrecord opnieuw te maken en deze te koppelen aan de gebruikersreferenties. Probeer u vervolgens binnen enkele minuten aan te melden bij de Human Resources-app voor Microsoft Teams.
 
@@ -199,7 +199,7 @@ Als u een foutmelding krijgt tijdens het goedkeuren van verlofaanvragen in de Te
 
 2. Zorg ervoor dat gebruikers zijn aangemeld op het tabblad **Chats** met dezelfde referenties die ze gebruiken voor het goedkeuren van verlofaanvragen. Gebruik de berichten "afmelden" en vervolgens "aanmelden" om u aan te melden met de juiste referenties.
 
-3. Als het probleem blijft bestaan, controleert u als systeembeheerder de status van de systeembatch taak Zakelijke gebeurtenissen. Als de taak in de fase fase Wachtend of In uitvoering staat, controleert u deze nog eens over enkele minuten. Als de status niet verandert, kunt u een ondersteuningsticket indienen zodat ons team u kan helpen om het probleem op te lossen.
+3. Als het probleem blijft bestaan, controleert u als systeembeheerder de status van de batchtaak **Zakelijke gebeurtenissen-systeem**. Als de taak in de fase **Wachten** of **In uitvoering** staat, controleert u deze nog eens over enkele minuten. Als de status niet verandert, kunt u een ondersteuningsticket indienen, zodat ons team u kan helpen het probleem op te lossen.
 
 ## <a name="known-accessibility-issues"></a>Bekende toegankelijkheidsproblemen
 
@@ -208,7 +208,7 @@ De app Human Resources in teams heeft de volgende toegankelijkheidsproblemen, di
 | Uitgeven | Tijdelijke oplossing of uitleg |
 | --- | --- |
 | Door te zoomen naar 400% op het bureaublad zijn enkele actieknoppen niet meer zichtbaar. | U kunt beter een vergrootglas gebruiken, totdat dit zoomniveau wel wordt ondersteund. |
-| Op het tabblad **Vrije tijd** kondigt VoiceOver een actieknop aan tijdens het lezen van de koptekst voor het vrijetijdsrooster. | De koptekst en elementen in het rooster worden gegroepeerd per jaar en ze kunnen worden samengevouwen. VoiceOver interpreteert dit als een uitvoerbaar item, maar dat is niet zo. |
+| Op het tabblad **Vrije tijd** kondigt VoiceOver een actieknop aan tijdens het lezen van de koptekst voor het vrijetijdsrooster. | De koptekst en elementen in het rooster worden gegroepeerd per jaar en ze kunnen worden samengevouwen. VoiceOver interpreteert deze presentatie als een uitvoerbaar item, maar dat is niet zo. |
 | Op het tabblad **Vrije tijd** is er een extra veeggebaar wanneer u naar **Redencode** navigeert in een nieuw verzoek. | Er is geen verborgen besturingselement waar het veeggebaar naartoe probeert te navigeren. |
 | Als u op het tabblad **Vrij tijd** veegt terwijl de kalender geopend is, komt u buiten het besturingselement terecht in plaats van bovenaan een nieuwe aanvraag of tijdens het bewerken van een aanvraag. | Wanneer u bij **Ga naar vandaag** komt, zie dat dan als het einde van het besturingselement en veeg in de omgekeerde richting om terug te gaan naar het begin. |
 | Op het tabblad **Chat** wordt de focus naar boven verplaatst wanneer u een datum invoert terwijl u het hulpprogramma of de toetsenbordnavigatie gebruikt. | Druk op de Tab-toets totdat u het invoergebied weer bereikt. |
@@ -217,9 +217,9 @@ De app Human Resources in teams heeft de volgende toegankelijkheidsproblemen, di
 
 ### <a name="microsoft-language-understanding-intelligent-service-luis"></a>Microsoft Language Understanding Intelligent Service (LUIS)
 
-Bij de bot voor Dynamics 365 Human Resources in Microsoft Teams wordt de tekstinvoer van de gebruiker geanalyseerd om de onderliggende vraag/intentie te begrijpen. De invoer van de gebruiker, zoals 'Zoek account Contoso', wordt doorgestuurd naar een van de cognitieve services van Microsoft, de zogeheten Language Understanding Intelligent Service (LUIS). Lees  [hier](https://www.luis.ai/) meer over LUIS. De LUIS-service maakt de gebruikersinvoer eenduidig of begrijpt de intentie van gebruikersinvoer (in dit geval is de intentie om informatie te vinden) en de doelentiteit (in dit geval is een account met de naam Contoso de bedoelde entiteit). Deze informatie wordt vervolgens doorgegeven aan het  [Azure-botraamwerk](https://azure.microsoft.com/services/bot-service/) van Microsoft, dat interacties aangaat met gegevens uit Dynamics 365 Human Resources en de gewenste informatie ophaalt voor de gebruikersquery. 
+Bij de bot voor Dynamics 365 Human Resources in Microsoft Teams wordt de tekstinvoer van de gebruiker geanalyseerd om de onderliggende vraag/intentie te begrijpen. De invoer van de gebruiker, zoals 'Zoek account Contoso', wordt doorgestuurd naar een van de cognitieve services van Microsoft, de zogeheten Language Understanding Intelligent Service (LUIS). Lees  [hier](https://www.luis.ai/) meer over LUIS. De LUIS-service maakt de gebruikersinvoer eenduidig of begrijpt de intentie van gebruikersinvoer (in dit geval is de intentie om informatie te vinden) en de doelentiteit (in dit geval is een account met de naam Contoso de bedoelde entiteit). Deze informatie wordt vervolgens doorgegeven aan het  [Azure Bot Framework](https://azure.microsoft.com/services/bot-service/) van Microsoft, dat interacties aangaat met gegevens uit Dynamics 365 Human Resources en de gewenste informatie ophaalt voor de gebruikersquery. 
 
-Door de bot het installeren en toestemming te verlenen voor gebruik van de bot stemt u ermee dat de LUIS-service en het Azure-botraamwerk de intentie achter de invoer verwerken, wat resulteert in een betere gesprekservaring voor gebruikers. De LUIS-service en het Azure-botraamwerk hebben mogelijk verschillende conformiteitsniveaus in vergelijking met Dynamics 365 Human Resources. Terwijl de LUIS-service alleen toegang heeft tot de gebruikersquery's en niet is ontworpen om te worden verbonden met de Dynamics 365 Human Resources-gegevens of de account van de gebruiker, kan een gebruiker van de bot in Dynamics 365 Human Resources een query uitvoeren die klantgegevens, persoonlijke gegevens of andere gegevens bevat. Deze query-inhoud kan vervolgens naar de LUIS-service en het Azure-botraamwerk worden verzonden. 
+Door de bot het installeren en toestemming te verlenen voor gebruik van de bot stemt u ermee dat de LUIS-service en het Azure-botraamwerk de intentie achter de invoer verwerken, wat resulteert in een betere gesprekservaring voor gebruikers. De LUIS-service en het Azure-botraamwerk hebben mogelijk verschillende conformiteitsniveaus in vergelijking met Dynamics 365 Human Resources. Terwijl de LUIS-service alleen toegang heeft tot de gebruikersquery's en niet is ontworpen om te worden verbonden met de Dynamics 365 Human Resources-gegevens of het account van de gebruiker, kan een gebruiker van de bot in Dynamics 365 Human Resources een query uitvoeren die klantgegevens, persoonlijke gegevens of andere gegevens bevat. Deze query-inhoud kan vervolgens naar de LUIS-service en het Azure Bot Framework worden verzonden. 
 
 De inhoud van de query's en berichten van de gebruiker wordt gedurende maximaal 30 dagen in het LUIS-systeem bewaard, is in rusttoestand versleuteld en wordt niet gebruikt voor training of serviceverbetering. Lees  [hier](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/) meer over Cognitive Services. 
 
@@ -229,7 +229,7 @@ Als u beheerinstellingen voor apps wilt beheren in Microsoft Teams, gaat u naar 
 
 Bij gebruik van de app Dynamics 365 Human Resources in Microsoft Teams kunnen bepaalde klantgegevens buiten het geografische gebied stromen waarin de Human Resources-service van de tenant is geïmplementeerd.
 
-Dynamics 365 Human Resources verzendt het verlofverzoek van de werknemer en de werkstroomtaakgegevens naar Microsoft Azure Event Grid en Microsoft Teams. Deze gegevens kunnen maximaal 24 uur worden opgeslagen in Microsoft Azure Event Grid en worden verwerkt in de Verenigde Staten, worden in transit en in rusttoestand versleuteld en worden niet door Microsoft of haar subverwerkers gebruikt voor opleidings- of serviceverbeteringen. Zie [Locatie van gegevens in Microsoft Teams](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide) voor meer informatie over de opslag van uw gegevens in Teams.
+Dynamics 365 Human Resources verzendt het verlofverzoek van de medewerker en de werkstroomtaakgegevens naar Microsoft Azure Event Grid en Microsoft Teams. Deze gegevens kunnen maximaal 24 uur worden opgeslagen in Microsoft Azure Event Grid en worden verwerkt in de Verenigde Staten, worden in transit en in rusttoestand versleuteld en worden niet door Microsoft of haar subverwerkers gebruikt voor opleidings- of serviceverbeteringen. Zie [Locatie van gegevens in Microsoft Teams](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide) voor meer informatie over de opslag van uw gegevens in Teams.
 
 Tijdens een conversatie met de chatbot in de app Human Resources kan de inhoud van de conversatie worden opgeslagen in Azure Cosmos DB en worden verzonden naar Microsoft Teams. Deze gegevens kunnen maximaal 24 uur in Azure Cosmos DB worden opgeslagen en kunnen worden verwerkt buiten het geografische gebied waar de Human Resources-service van uw tenant is geïmplementeerd, worden in transit en in rusttoestand versleuteld en worden niet gebruikt door Microsoft of haar subverwerkers voor opleidings- of serviceverbeteringen. Zie [Locatie van gegevens in Microsoft Teams](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide) voor meer informatie over de opslag van uw gegevens in Teams.
  

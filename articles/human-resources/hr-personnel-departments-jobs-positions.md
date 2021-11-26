@@ -1,8 +1,8 @@
 ---
 title: Uw werknemers organiseren met afdelingen, taken en posities
-description: Afdelingen, taken en functies zijn organisatie-elementen die worden onderhouden in Human resources. Dit artikel bevat conceptuele informatie over deze elementen.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Dit onderwerp beschrijft conceptuele informatie over afdelingen, taken en posities, de organisatie-elementen die worden onderhouden in Human resources.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 87933
 ms.assetid: eb5dcacb-a5fe-451d-b30a-7ef14da65d81
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: cd50bf7e8e03d72d6d0e1e2b0b065a5d9c7a3ef44e96f92a5fc342a0d820d8e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 51335cba0e0dce755ce36fbe13c6294fca58d797
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778791"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731803"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Uw werknemers organiseren met afdelingen, taken en posities
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Afdelingen, taken en functies zijn organisatie-elementen die worden onderhouden in Human resources. Dit artikel bevat conceptuele informatie over deze elementen. 
+Afdelingen, taken en functies zijn organisatie-elementen die worden onderhouden in Human resources. Dit onderwerp bevat conceptuele informatie over deze elementen. 
 
 Het volgende voorbeeld wordt gebruikt om de concepten te illustreren die in dit artikel worden beschreven.
 
@@ -49,7 +49,6 @@ Een afdeling is een operationele eenheid die een categorie of functioneel gebied
 ## <a name="jobs-and-positions"></a>Taken en functies
 Een taak is een verzameling taken en verantwoordelijkheden die vereist zijn voor iedere persoon die een taak uitvoert. Een positie is een afzonderlijk exemplaar van een taak. Verantwoordelijkheidsgebieden, taken, functies, vaardigheden, opleidingsinformatie en certificaten die vereist zijn voor een taak, zijn ook vereist voor posities die gekoppeld zijn aan een taak.
 ### <a name="job-tasks"></a>Functietaken
-
 U kunt taken maken die de basistaken beschrijven die een werknemer in een positie voor die taak moet uitvoeren. Dezelfde taak kan worden toegevoegd aan meerdere taken, en posities voor die taken nemen die taken over. In de volgende tabel staan voorbeelden van taken.
 
 <table>
@@ -106,24 +105,21 @@ Posities zijn een belangrijk element van het lagere niveau van een organisatiehi
 -   U kunt een werkstroom instellen zodat het toevoegen en wijzigen van posities goedkeuring kan vereisen.
 
 ### <a name="position-duration"></a>Positieduur
-
 Elke positie heeft een periode waarbinnen die positie van kracht is. Deze periode wordt duur genoemd. Zomerposities kunnen bijvoorbeeld duren van 1 mei 2015 tot en met 31 augustus 2015.
 
 ### <a name="worker-assignments"></a>Medewerkerstoewijzingen
-
 Als u een werknemer aan een positie toewijst, vult u die positie in. U kunt medewerkers toewijzen aan meerdere posities, maar slechts één werknemer kan tegelijkertijd aan een positie worden toegewezen.
 
 ### <a name="reporting-relationships"></a>Rapportagerelaties
+Posities zijn belangrijke elementen van het lagere niveau van een organisatiehiërarchie. Op de pagina **Positie** kunt u de positie opgeven waaraan een positie rapporteert. Wanneer u een werknemer toewijst aan een positie die aan een andere positie rapporteert, maakt u een rapporteringsrelatie tussen de werknemers die zijn toegewezen aan de twee posities. 'Boekhouder A' rapporteert bijvoorbeeld aan de positie "Supervisor boekhouding". Ana Bowman is toegewezen aan de positie 'Supervisor boekhouding' en Felix Henderson is toegewezen aan de positie 'Boekhouder A'. Dit betekent dat Felix Henderson de ondergeschikte is van Ana Bowman. 
 
-Posities zijn belangrijke elementen van het lagere niveau van een organisatiehiërarchie. In het formulier Positie kunt u de positie opgeven waaraan een positie rapporteert. Wanneer u een werknemer toewijst aan een positie die aan een andere positie rapporteert, maakt u een rapporteringsrelatie tussen de werknemers die zijn toegewezen aan de twee posities. 'Boekhouder A' rapporteert bijvoorbeeld aan de positie "Supervisor boekhouding". Kim Akers is toegewezen aan de positie "Supervisor boekhouding" en Sanjay Patel is toegewezen aan de positie "Boekhouder A". Dit betekent dat Sanjay Patel rapporteert aan Kim Akers. 
+Als uw organisatie gebruikmaakt van een matrixhiërarchie of een andere aangepaste hiërarchie, kunt u positiehiërarchietypen instellen en vervolgens rapporteringsrelaties toevoegen aan posities voor elke hiërarchie die u hebt ingesteld. Olivia Wilson is bijvoorbeeld een algemeen manager bij Adventure Works en is toegewezen aan de positie 'Algemeen manager '. Olivia beheert de ontwikkeling van een product dat wordt gebruikt voor het reinigen van widgets. Olivia wil hulp van een boekhouder met de financiën voor de ontwikkeling van het product. Daarom heeft ze Felix Henderson als boekhouder aangeworven. Felix rapporteert rechtstreeks aan Ana Bowman, maar werkt ook met Olivia Wilson met betrekking tot de financiën voor de ontwikkeling van de widgetreiniger. 
 
-Als uw organisatie gebruikmaakt van een matrixhiërarchie of een andere aangepaste hiërarchie, kunt u positiehiërarchietypen instellen en vervolgens rapporteringsrelaties toevoegen aan posities voor elke hiërarchie die u hebt ingesteld. Lori Penor is bijvoorbeeld een algemeen manager bij Adventure Works en is toegewezen aan de positie 'Algemeen manager '. Lori beheert de ontwikkeling van een product dat wordt gebruikt voor het reinigen van widgets. Lori wil hulp van een boekhouder met de financiën voor de ontwikkeling van het product. Daarom heeft ze Sanjay Patel als boekhouder aangeworven. Sanjay rapporteert rechtstreeks aan Kim Akers, maar werkt ook met Lori Penor met betrekking tot de financiën voor de ontwikkeling van de widgetreiniger. 
-
-In het vorige voorbeeld zou u de volgende taken voltooien voor het instellen van de werkrelatie tussen Sanjay Patel en Lori Penor:
+In het vorige voorbeeld zou u de volgende taken voltooien voor het instellen van de werkrelatie tussen Felix Henderson en Ana Bowman:
 1.  Maak een aangepast positiehiërarchietype genaamd "Widget" om een hiërarchie te maken die posities bevat die verantwoordelijk zijn voor het werken aan de widgetreiniger.
 2.  Wijs de positie van Algemeen manager toe aan de positie waaraan de positie van Boekhouder A rapporteert in de hiërarchie Widget.
 
-Gebruik de positiehiërarchie de rapporteringsstructuur van posities weer te geven. Als u meerdere positiehiërarchieën hebt, kunt u de hiërarchie voor elk hiërarchietype weergeven in de positiehiërarchie. U kunt ook een positie zoeken via positie-id of de naam van de werknemer die aan de positie is toegewezen. De positiehiërarchie is een organisatiehiërarchie.
+Gebruik de pagina **Positiehiërarchie** om de rapporteringsstructuur van posities weer te geven. Als u meerdere positiehiërarchieën hebt, kunt u de hiërarchie voor elk hiërarchietype weergeven in de **Positiehiërarchie**. U kunt ook een positie zoeken via positie-id of de naam van de werknemer die aan de positie is toegewezen. De **Positiehiërarchie** is een organisatiehiërarchie.
 
 ## <a name="date-effective-records"></a>Ingangsdatumrecords
 Voor sommige records, kunt u toekomstige wijzigingen aan de record opgeven. De volgende informatie heeft een ingangsdatum.
@@ -148,20 +144,12 @@ Voor sommige records, kunt u toekomstige wijzigingen aan de record opgeven. De v
 <td>Posities</td>
 <td><ul>
 <li>Gedetailleerde positie-informatie</li>
-<li>Werknemertoewijzingen</li>
+<li>Werknemerstoewijzingen</li>
 <li>Positieduren</li>
 <li>Functiehiërarchieën</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
-
-U kunt de gegevens vermeld in de vorige tabel wijzigen voor een functie of een taak en een datum opgeven waarop de wijzigingen in de positie of de taak moeten ingaan. Een positie kan bijvoorbeeld alleen worden toegewezen aan één werknemer, maar Sanjay Patel, die is toegewezen aan de positie Boekhouder A, vertrekt binnen twee weken. Joe Healy vervangt Sanjay Patel wanneer Sanjay vertrekt. Hoewel Sanjay nog steeds aan zijn positie is toegewezen, kunt u Joe Healy zo toewijzen aan dezelfde positie dat de toewijzing slechts ingaat na de laatste dag van Sanjay.
-
-
-
-
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Herwaardering voor vreemde valuta van bank
 description: Dit onderwerp biedt een overzicht van het proces voor herwaardering voor vreemde valuta van bank. Dit onderwerp bevat informatie over instellingen, de uitvoering van het proces, de berekening voor het proces en de omkering van herwaarderingstransacties.
-author: mikefalkner
+author: roschlom
 ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 575e92c79eb3524af3e19e29b91567d13e08f9c783d0cca432d23dc5a6d68254
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3df6a22e06abbfa75a12ffddac242dd34f5beba5
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745008"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754115"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Herwaardering voor vreemde valuta van bank
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-obaranov
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 652e6fb3f586fc873ffabf2c741e5c99216931461f159a42f08f9922e756280f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4883f8a548645436e17b933d87d4ee6330570d48
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735891"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777860"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Wavelabel afdrukken plannen tijdens wave
 
@@ -33,7 +33,7 @@ Wanneer u de functie *Wavelabels afdrukken op basis van taken* gebruikt, worden 
 Als u de functies wilt gebruiken die in dit onderwerp worden beschreven, moeten deze zijn ingeschakeld voor uw systeem. Gebruik werkgebied voor [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de functies in deze volgende in te schakelen:
 
 1. *Wavelabels afdrukken*: deze functie is vereist om de procesmethode voor wavelabels afdrukken in te kunnen schakelen.
-1. *Werk blokkeren voor de hele organisatie*: deze functie is vereist voor zowel handmatige als automatische configuratie van geplande werkcreatie.
+1. *Werk blokkeren voor de hele organisatie*: deze functie is vereist voor zowel handmatige als automatische configuratie van geplande werkcreatie. (Vanaf Supply Chain Management versie 10.0.21 is deze functie verplicht, waardoor deze standaard wordt ingeschakeld en niet meer kan worden uitgeschakeld.)
 1. *Wavelabels afdrukken op basis van taken*: deze functie is nodig om afdrukken van wavelabels af te splitsen in een afzonderlijk transactiebereik.
 
 ## <a name="manually-enable-the-new-wave-step-method"></a>De nieuwe wavestapmethode handmatig inschakelen

@@ -1,8 +1,8 @@
 ---
 title: Informatie over letsel en ziekten instellen
 description: Werkgevers moeten weten wanneer hun werknemers een letsel oplopen of ziek worden vanwege aan gevaren op de werkplek.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HRMInjurySetup, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 209d7d2b7f992520d1b36532c0489ef12f18dd2924cfba6f81c43ab1b184b492
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 470f7bbf85288e98fbb57bb43701377995e075c8
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734446"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728715"
 ---
 # <a name="set-up-injury-and-illness-information"></a>Informatie over letsel en ziekten instellen
 
@@ -26,43 +26,37 @@ ms.locfileid: "6734446"
 
 
 
-Werkgevers moeten weten wanneer hun werknemers een letsel oplopen of ziek worden vanwege aan gevaren op de werkplek. U kunt de pagina Letsel en ziekte gebruiken om de gegevens in te stellen die het rapporteren van letsels of ziekte op de werkplaats te vergemakkelijken. U kunt de soorten letsels en ziekten instellen, met inbegrip van de soorten behandelingen, kosten en resultaten. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
+Werkgevers moeten weten wanneer hun werknemers een letsel oplopen of ziek worden vanwege aan gevaren op de werkplek. U kunt de pagina **Letsel en ziekte** gebruiken om de gegevens in te stellen die het rapporteren van letsels of ziekte op de werkplaats te vergemakkelijken. U kunt de soorten letsels en ziekten instellen, met inbegrip van de soorten behandelingen, kosten en resultaten. Voor deze procedure is gebruikgemaakt van het demobedrijf **USMF**.
 
-1. Ga naar Human Resources > Werknemers > Letsel en ziekte > Instelling van letsel en ziekte.
-2. Klik op Nieuw.
-3. Typ in het veld Type letsel of ziekte een waarde.
-    * Voorbeeld: Breuk  
-4. Typ een waarde in het veld Omschrijving.
-    * Voorbeeld: Botbreuk  
-5. Klik op het tabblad Lichaamsdelen.
-6. Klik op Nieuw.
-7. Typ een waarde in het veld Lichaamsdeel.
-    * Voorbeeld: Pols  
-8. Typ een waarde in het veld Omschrijving.
-    * Voorbeeld: Pols  
-9. Klik op het tabblad met behandelingstypen.
-10. Klik op Nieuw.
-11. Typ een waarde in het veld Type behandeling.
-    * Voorbeeld: Spalk  
-12. Typ een waarde in het veld Omschrijving.
-    * Voorbeeld: Een spalk aanbrengen  
-13. Klik op het tabblad met kostentypen.
-14. Klik op Nieuw.
-15. Typ een waarde in het veld Kostentype.
-    * Voorbeeld: Röntgenstralen  
-16. Typ een waarde in het veld Omschrijving.
-    * Voorbeeld: Röntgenstralen  
-17. Klik op het tabblad met Typen gevolgen.
-18. Klik op Nieuw.
-19. Typ een waarde in het veld Resultaattype.
-    * Voorbeeld: Behandeling  
-20. Typ een waarde in het veld Omschrijving.
-    * Voorbeeld: Fysieke therapie  
-21. Klik op het tabblad Ernstniveaus.
-    * De aanpasbare ernstniveaus kunnen worden gemaakt. Bijvoorbeeld: Ernst 1 kan een kleiner letsel zijn, terwijl ernst 3 op een ernstig letsel kan duiden.  
-22. Klik op het tabblad Rapporteringsinstanties.
-    * De rapporteringsinstantie is de instantie waarbij het incident moet worden gerapporteerd. Schakel het selectievakje in voor de instantie die de standaardinstantie is waaraan u letsel en ziekte rapporteert.  
-23. Klik op Opslaan.
+1. Ga naar **Human Resources** \> **Medewerkers** \> **Letsel en ziekte** \> **Instelling van letsel en ziekte**.
+2. Selecteer **Nieuw**.
+3. Typ een waarde in het veld **Type letsel of ziekte** (bijvoorbeeld **Breuk**).
+4. Voer in het veld **Beschrijving** een waarde in (bijvoorbeeld **Botbreuk**).
+5. Selecteer het tabblad **Lichaamsdelen**.
+6. Selecteer **Nieuw**.
+7. In het veld **Lichaamsdeel** typt u een waarde (bijvoorbeeld **Pols**).
+8. Voer in het veld **Beschrijving** een waarde in (bijvoorbeeld **Pols**).
+9. Selecteer het tabblad **Behandelingstypen**.
+10. Selecteer **Nieuw**.
+11. Typ een waarde in het veld **Behandelingstype** (bijvoorbeeld **Spalk**).
+12. Voer in het veld **Beschrijving** een waarde in (bijvoorbeeld **Een spalk aanbrengen**).
+13. Selecteer het tabblad **Kostentypen**.
+14. Selecteer **Nieuw**.
+15. Typ een waarde in het veld **Kostentype** (bijvoorbeeld **Röntgenfoto's**).
+16. Typ een waarde in het veld **Beschrijving** (bijvoorbeeld **Röntgenfoto's**).
+17. Selecteer het tabblad **Typen gevolgen**.
+18. Selecteer **Nieuw**.
+19. Typ een waarde in het veld **Resultaattype** (bijvoorbeeld **Therapie**).
+20. Voer in het veld **Beschrijving** een waarde in (bijvoorbeeld **Fysiotherapie**).
+21. Selecteer het tabblad **Ernstniveaus**.
+
+    De aanpasbare ernstniveaus kunnen worden gemaakt. Bijvoorbeeld: ernst 1 kan op een kleiner letsel duiden, terwijl ernst 3 op ernstig letsel kan duiden.
+
+22. Selecteer het tabblad **Rapporteringsinstanties**.
+
+    De rapporteringsinstantie is de instantie waarbij het incident moet worden gerapporteerd. Schakel het selectievakje **Standaard** in voor de instantie die de standaardinstantie is waaraan u letsel en ziekte moet rapporteren.
+
+23. Selecteer **Opslaan**.
 
 
 

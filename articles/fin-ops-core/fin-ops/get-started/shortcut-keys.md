@@ -2,7 +2,7 @@
 title: Sneltoetsen
 description: Dit onderwerp biedt een overzicht van de sneltoetscombinaties die u kunt gebruiken wanneer u met Finance and Operations-apps werkt.
 author: jasongre
-ms.date: 10/12/2021
+ms.date: 11/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e700b841014e1e12560bf0ce9e5e012361ec397
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 969cd6aaf2d7c4cee7bb95029f19741372f915eb
+ms.sourcegitcommit: ab32fc90ea498ce3b629384f78cbe1aee747f157
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647531"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "7800188"
 ---
 # <a name="keyboard-shortcuts"></a>Sneltoetsen
 
@@ -128,8 +128,10 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 
 ## <a name="grid-shortcuts"></a>Sneltoetsen in raster
 
-| Gewenste bewerking                                                                                                             | Druk op                           |
+| Gewenste bewerking                                                                                                             | Druk op                            |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| Verticaal schuiven                                                                                                     | Muiswiel                     |
+| Horizontaal schuiven                                                                                                   | Shift + muiswiel             |
 | Naar de volgende/vorige kolom gaan                                                                                       | Tabtoets/Shift+Tabtoets                 |
 | Naar het volgende/vorige rij gaan                                                                                          | Pijl-omlaag/Pijl-omhoog           |
 | Naar de volgende/vorige rij gaan zonder te selecteren<blockquote>[!NOTE] Deze sneltoets is alleen van toepassing in scenario's met meerdere selecties.</blockquote> | Ctrl+Pijl-omhoog/Ctrl+Pijl-omlaag |
@@ -141,15 +143,15 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 | Naar de eerste registratie gaan                                                                                               | Ctrl+Home                       |
 | Naar de laatste registratie gaan                                                                                                | Ctrl+End                        |
 | Alle rijen selecteren of wissen                                                                                               | Ctrl+Shift+M                    |
-| Naar de eerste gemarkeerde rij gaan                                                                                           | Alt+Shift+M, F                    |
-| Naar de volgende gemarkeerde rij gaan                                                                                            | Alt+Shift+M, L                    |
-| Naar de vorige gemarkeerde rij gaan                                                                                        | Alt+Shift+M, P                    |
-| Naar de laatste gemarkeerde rij gaan                                                                                           | Alt+Shift+M, N                    |
+| Naar de eerste gemarkeerde rij gaan                                                                                           | Alt+Shift+M, F                  |
+| Naar de volgende gemarkeerde rij gaan                                                                                            | Alt+Shift+M, L                  |
+| Naar de vorige gemarkeerde rij gaan                                                                                        | Alt+Shift+M, P                  |
+| Naar de laatste gemarkeerde rij gaan                                                                                           | Alt+Shift+M, N                  |
 | De standaardactie uitvoeren in een raster<blockquote>[!NOTE] Deze sneltoets is ingeschakeld wanneer de focus zich op een cel met een hyperlink bevindt en alle cellen in die kolom hyperlinks bevatten.</blockquote> | Enter                           |
 | Schakelen tussen de geselecteerde rij en de koptekstrij                                                               | Alt+Shift+H                     |
 | De huidige kolom groter/kleiner maken (met de focus in de koptekstrij)                                                  | Pijl-rechts/-links        |
 | Rasterfilters openen voor de huidige kolom (met de focus in de koptekstrij)                                              | Enter                           |
-| Pas de grootte van de huidige kolom zo aan dat deze past bij de inhoud (met focus in de koptekstrij)                                           | V                               |
+| Pas de grootte van de huidige kolom zo aan dat deze past bij de inhoud (met focus in de koptekstrij)                                           | A (of dubbelklik op de formaatgreep van de kolom) |
 
 ## <a name="input-control-shortcuts"></a>Sneltoetsen voor invoerbesturing
 

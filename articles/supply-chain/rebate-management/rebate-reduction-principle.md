@@ -47,11 +47,11 @@ In de volgende tabel ziet u enkele standaardvoorbeelden van instellingen voor ko
 
 | Kortingsreductieprincipe | Beschrijving | Reductie toepassen | Reductiebasis | Uitsluiten van reductie |
 |---|---|---|---|---|
-| Uitgesteld | Korting verminderen | Ja | Beide | No |
+| Uitgesteld | Korting verminderen | Ja | Beide | Nee |
 | Exclreb | Korting uitsluiten | Ja | Korting | Ja |
 | Meer | Meerdere kortingen | Ja | Beide | Ja |
-| None | Alleen voorziening en korting | No | Beide | Ja |
-| Inrichten | Alleen voorziening | Ja | Inrichten | No |
+| None | Alleen voorziening en korting | Nee | Beide | Ja |
+| Inrichten | Alleen voorziening | Ja | Inrichten | Nee |
 | Korting | Alleen korting | Ja | Korting | Ja |
 
 ## <a name="examples-of-rebate-reduction-principle-calculations"></a>Voorbeelden van berekeningen voor kortingsreductieprincipes

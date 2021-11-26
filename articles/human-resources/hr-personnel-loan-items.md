@@ -1,8 +1,8 @@
 ---
 title: Artikelen beheren die aan werknemers worden uitgeleend
 description: Leenartikelen zijn records waarmee managers de artikelen die uw bedrijf aan werknemers uitleent, bijhouden.
-author: andreabichsel
-ms.date: 06/20/2017
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 3581
 ms.assetid: b14bdddb-f10e-4619-9f91-8c88439da862
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 2399cd1c00f2c1f301b2d514c20cca00017465c90436cd01d44eb584f1b66ce6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff9f9404ebbcbc7359ee9927d7a92e31808a478a
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760581"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728754"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>Artikelen beheren die aan werknemers worden uitgeleend
 
@@ -28,7 +28,8 @@ ms.locfileid: "6760581"
 
 Leenartikelen zijn records waarmee managers de artikelen die uw bedrijf aan werknemers uitleent, bijhouden. 
 
-De volgende punten zijn voorbeelden van artikelen die een bedrijf aan werknemers kan uitlenen:
+Hier zijn enkele voorbeelden van artikelen die een bedrijf aan medewerkers kan uitlenen:
+
 -   Mobiele telefoons
 -   Auto's
 -   Computerapparatuur
@@ -37,7 +38,7 @@ Elke fysiek artikel moet een bijbehorend leenartikel hebben. Bij elke leenartike
 
 Wanneer een artikel wordt uitgeleend, noteert u de datum waarop het artikel is opgehaald, en de datum waarop het artikel naar verwachting zal worden teruggebracht. Als het geleende artikel weer wordt teruggebracht, noteert u de inleverdatum.
 
-Werknemers kunnen de records van de artikelen weergeven die aan hen zijn uitgeleend met het werkgebied Selfservice werknemer. Ze kunnen ook de bestaande records bewerken of nieuwe leenartikelen opgeven als ze extra fysieke artikelen hebben ontvangen.  Workflow kan worden ingesteld om wijzigingen te routeren naar nieuwe of bestaande leenartikelen via een goedkeuringsproces. 
+Medewerkers kunnen het werkgebied **Selfservice werknemer** gebruiken om de records weer te geven van de artikelen die aan hen zijn uitgeleend. Ze kunnen ook de bestaande records bewerken of nieuwe leenartikelen opgeven als ze extra fysieke artikelen hebben ontvangen. Een werkstroom kan worden ingesteld om wijzigingen te routeren naar nieuwe of bestaande leenartikelen via een goedkeuringsproces. 
 
 Managers kunnen geleende artikelen voor hun directe ondergeschikten weergeven. Ze kunnen ook gemachtigd worden om nieuwe leenartikelen namens hun werknemers toe te voegen.
 

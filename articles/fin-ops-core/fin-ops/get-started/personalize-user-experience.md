@@ -2,7 +2,7 @@
 title: De gebruikerservaring personaliseren
 description: In dit onderwerp wordt uitgelegd hoe u de app kunt aanpassen.
 author: jasongre
-ms.date: 09/27/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1f24ff1a0730f13af6231510c8e6b3cb46fde48
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: 6256765c41ff128b067cda9107c790691c5b376a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581060"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777980"
 ---
 # <a name="personalize-the-user-experience"></a>De gebruikerservaring aanpassen
 
@@ -219,6 +219,9 @@ Als Opgeslagen weergaven niet is ingeschakeld, volgt u deze stappen om een aanpa
 ### <a name="export-and-import-views-or-personalizations"></a>Weergaven of aanpassingen exporteren en importeren
 
 U kunt aanpassingen ook delen via export en import. Individuele gebruikers, of een beheerder die namens hen handelt, kunnen met deze methode hun aanpassingen of weergaven exporteren en vervolgens het geëxporteerde bestand aan andere gebruikers geven om te importeren. Gebruikers kunnen hun geëxporteerde aanpassingen ook geven aan een gebruiker met beheerdersbevoegdheden, waarna die gebruiker de pagina **Persoonlijke instellingen** kan gebruiken om het aanpassingsbestand op een groot aantal gebruikers tegelijk toe te passen.
+
+> [!IMPORTANT]
+> Aangezien aanpassingen in alle updates blijven bestaan, hoeven alle aanpassingen na een service-update of op een ander tijdstip niet opnieuw te worden geïmporteerd en wordt dit ten zeerste afgeraden.   
 
 #### <a name="export"></a>Exporteren
 

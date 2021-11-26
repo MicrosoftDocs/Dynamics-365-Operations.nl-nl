@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 6b75dcb7d56648f3be291cb1c09ec57a53477ec0
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344169"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778078"
 ---
 # <a name="wave-label-printing"></a>Wavelabels afdrukken
 
@@ -53,9 +53,9 @@ Deze uitbreidingen maken het efficiënter om dozen te labelen voor palletisering
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>De functie Wavelabels afdrukken inschakelen
 
-Voordat u de functie *Wavelabels afdrukken* kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen het werkgebied [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
+Vanaf Supply Chain Management versie 10.0.21 is deze functie verplicht, waardoor deze standaard wordt ingeschakeld en niet meer kan worden uitgeschakeld. De functie wordt echter nog wel op de volgende manier vermeld bij [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
-- **Module:** *Magazijnbeheer*
+- **Module:** *Warehouse Management*
 - **Functienaam:** *Wavelabels afdrukken*
 
 ## <a name="scenario-1-wave-label-printing-where-a-single-wave-label-is-generated"></a>Scenario 1: Wavelabels afdrukken waarbij één wavelabel wordt gegenereerd

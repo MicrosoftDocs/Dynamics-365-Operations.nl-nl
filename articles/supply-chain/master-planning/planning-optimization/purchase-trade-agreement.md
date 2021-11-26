@@ -75,14 +75,14 @@ De volgende tabel bevat voorbeelden die laten zien hoe verschillende instellinge
 
 | Vrijgegeven product: Leverancier | Standaard orderinstellingen: Levertijd | Artikelbehoefteplanning: Leverancier overschrijven | Artikelbehoefteplanning: Levertijd overschrijven | Handelsovereenkomst: Leverancier | Handelsovereenkomst: Levertijd | Handelsovereenkomst: Levertijd negeren | Resulterende leverancier | Resulterende levertijd |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ***US001** _ | _*_1_*_ | No | No | US003 | 3 | No | _ *US001** | **1** |
-| US001 | 1 | ***Ja: US002** _ | _*_Ja: 2_*_ | US003 | 3 | No | _ *US002** | **2** |
-| *(Leeg)* | 1 | No | No | ***US003** _ | _*_3_*_ | No | _ *US003** | **3** |
-| *(Leeg)* | ***1** _ | No | No | _*_US003_*_ | 3 | Ja | _ *US003** | **1** |
-| *(Leeg)* | ***1** _ | _*_Ja: US002_*_ | No | US003 | 3 | No | _ *US002** | **1** |
-| *(Leeg)* | ***1** _ | _*_Ja: US002_*_ | No | US003 | 3 | No | _ *US002** | **1** |
-| *(Leeg)* | 1 | No | Ja: 2 | ***US003** _ | _*_3_*_ | No | _ *US003** | **3** |
-| *(Leeg)* | 1 | No | ***Ja: 2** _ | _*_US003_*_ | 3 | Ja | _ *US003** | **2** |
+| ***US001** _ | _*_1_*_ | Nee | Nee | US003 | 3 | Nee | _ *US001** | **1** |
+| US001 | 1 | ***Ja: US002** _ | _*_Ja: 2_*_ | US003 | 3 | Nee | _ *US002** | **2** |
+| *(Leeg)* | 1 | Nee | Nee | ***US003** _ | _*_3_*_ | Nee | _ *US003** | **3** |
+| *(Leeg)* | ***1** _ | Nee | Nee | _*_US003_*_ | 3 | Ja | _ *US003** | **1** |
+| *(Leeg)* | ***1** _ | _*_Ja: US002_*_ | Nee | US003 | 3 | Nee | _ *US002** | **1** |
+| *(Leeg)* | ***1** _ | _*_Ja: US002_*_ | Nee | US003 | 3 | Nee | _ *US002** | **1** |
+| *(Leeg)* | 1 | Nee | Ja: 2 | ***US003** _ | _*_3_*_ | Nee | _ *US003** | **3** |
+| *(Leeg)* | 1 | Nee | ***Ja: 2** _ | _*_US003_*_ | 3 | Ja | _ *US003** | **2** |
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

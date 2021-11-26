@@ -64,7 +64,7 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 | 642 | Alle producten uitvoeren | De leveringsmethode voor alle regels instellen op **Uitvoeren**. | Ja | Ja | Nee | Ja\* | Nee |
 | 641 | Geselecteerde producten uitvoeren | De leveringsmethode voor de geselecteerde regels instellen op **Uitvoeren**. | Ja | Ja | Nee | Ja\* | Nee |
 | 647 | Leveringsmethode wijzigen | De leveringsmodus voor vooraf geconfigureerde verzendverkoopregels wijzigen. | Ja | Ja | Nee | Nee| Nee |
-| 1215 | Wachtwoord wijzigen | Met deze bewerking kan de POS-gebruiker zijn of haar wachtwoord wijzigen. | Ja | Ja | Ja | No | No |
+| 1215 | Wachtwoord wijzigen | Met deze bewerking kan de POS-gebruiker zijn of haar wachtwoord wijzigen. | Ja | Ja | Ja | Nee | Nee |
 | 123 | Maateenheid wijzigen | De maateenheid voor het geselecteerde regelartikel wijzigen. | Ja | Ja | Nee | Ja | Nee |
 | 639 | Standaard verkoopvertegenwoordiger wissen voor transactie | De provisieverkoopgroep (vertegenwoordiger) verwijderen uit de transactie. | Ja | Ja | Nee | Ja | Nee |
 | 106 | Hoeveelheid wissen | De hoeveelheid op de geselecteerde regel opnieuw instellen op **1**. | Ja | Ja | Nee | Ja | Nee |
@@ -194,8 +194,8 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 | 500 | Ongeldig gemaakte transactie | De huidige transactie annuleren. | Ja | Ja | Nee | Ja | Nee |
 | 916 | Windows Workflow Foundation | Deze bewerking wordt niet ondersteund. | Niet van toepassing | Niet van toepassing | Niet van toepassing | Niet van toepassing | Nee |
 | 924 | X-rapport voor bankpassen | Deze bewerking wordt niet ondersteund. | Niet van toepassing | Niet van toepassing | Niet van toepassing | Niet van toepassing | Ja |
-| 311 | Systeemkortingen uit transacties verwijderen | Verwijder alle toegewezen systeemkortingen, inclusief couponkortingen, uit de transactie. Hiermee worden handmatige kortingen niet verwijderd. | Ja | Ja | Ja | Ja | No |
-| 312 | Systeemkortingen opnieuw toepassen | Pas systeemkortingen opnieuw toe op de transactie als deze zijn verwijderd met de bewerking **Systeemkortingen uit transacties verwijderen**. | Ja | Ja | Ja | Ja | No |
+| 311 | Systeemkortingen uit transacties verwijderen | Verwijder alle toegewezen systeemkortingen, inclusief couponkortingen, uit de transactie. Hiermee worden handmatige kortingen niet verwijderd. | Ja | Ja | Ja | Ja | Nee |
+| 312 | Systeemkortingen opnieuw toepassen | Pas systeemkortingen opnieuw toe op de transactie als deze zijn verwijderd met de bewerking **Systeemkortingen uit transacties verwijderen**. | Ja | Ja | Ja | Ja | Nee |
 
 \* De bewerking is alleen beschikbaar in de offlinemodus als een klantorder of verkoopofferte wordt gemaakt en alleen als het offline maken van klantorders en verkoopoffertes is geconfigureerd in het POS-functionaliteitsprofiel. De bewerking kan niet worden uitgevoerd wanneer orders worden gemaakt met Real-time Service of wanneer orders worden ingetrokken of bewerkt.
 

@@ -1,8 +1,8 @@
 ---
 title: Nieuwe taken definiëren
 description: Deze taak is gericht op het maken van een nieuwe taak.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmJob, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 088f49d7887616300b4a9ea07f91598d65afbf6899e678b2c5c51797b4966ef0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 844661db4798c23b0b25d4ce7c2cc1862893a5dc
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770451"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771361"
 ---
 # <a name="define-new-jobs"></a>Nieuwe taken definiëren
 
@@ -28,48 +28,54 @@ ms.locfileid: "6770451"
 
 Deze taak is gericht op het maken van een nieuwe taak. Het wordt voltooid met handmatige invoer en functionaliteit Kopiëren uit sjabloon. Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF. Deze taak is bedoeld voor een personeelsspecialist.
 
-1. Ga naar Human resources > Taken > Taken.
-2. Klik op Nieuw.
-3. Typ een waarde in het veld Taak.
-4. Typ een waarde in het veld Omschrijving.
-5. Selecteer een standaardtitel die voor de taak wordt gebruikt. 
-    * De ingevoerde titel wordt als standaard gebruikt voor nieuwe posities die aan de taak worden toegewezen.  
+1. Ga naar **Human resources \> Functies \> Functies**.
+2. Selecteer **Nieuw**.
+3. Voer een waarde in het veld **Functie** in.
+4. Voer een waarde in het veld **Beschrijving** in.
+5. Selecteer een standaardtitel die voor de taak wordt gebruikt.
+
+    Deze titel wordt als standaardwaarde gebruikt voor nieuwe posities die aan de functie worden toegewezen.
+
 6. Zoek en selecteer de gewenste record in de lijst.
-7. Klik in de lijst op de koppeling in de geselecteerde rij.
-8. Selecteer in de groep Maximumaantal functies de optie Maximumfuncties
+7. Selecteer in de lijst de koppeling in de geselecteerde rij.
+8. Selecteer in de groep **Maximumaantal posities** de optie **Maximumposities**.
 9. Voer het maximumaantal functies in. 
-    * Positietoewijzingen zijn niet toegestaan boven de maximale, hier ingevoerde waarde.  
-10. Schakel de uitbreiding van de sectie Beschrijving om.
-11. Voer in het veld Opmerking een standaard beschrijving voor de taak in.
-    * De omschrijving geldt voor alle posities die zijn toegewezen aan de taak die hier wordt gedefinieerd.  
-12. Schakel de uitbreiding van de sectie Taakclassificatie om.
-13. Selecteer een taakfunctie die in standaard rapporten binnen HRM wordt gebruikt.
-14. Zoek en selecteer het gewenste record in de lijst.
-15. Klik in de lijst op de koppeling in de geselecteerde rij.
-16. Selecteer een taaktype om taken in uw organisatie verder te classificeren. 
-    * Taaktypen kunnen in rapporten in HRM worden gebruikt.  
-17. Zoek en selecteer de gewenste record in de lijst.
-18. Klik in de lijst op de koppeling in de geselecteerde rij.
-19. Schakel de uitbreiding van de sectie Compensatie om.
-20. Selecteer een compensatieniveau.
-    * Het compensatieniveau definieert de min. en max. compensatie van een werknemer voor de taak. Compensatieregels definiëren of de compensatie van werknemers buiten het bereik kan zijn.  
-21. Zoek en selecteer de gewenste record in de lijst.
-22. Klik in de lijst op de koppeling in de geselecteerde rij.
-23. Schakel de uitbreiding van de sectie Vaardigheden om.
-    * Merk op dat de velden in de sneltabbladen Vaardigheden, Opleiding en Certificaten leeg zijn. Na het kopiëren van gegevens van een taaksjabloon, wordt de informatie in deze velden in één stap ingevoerd.   
-24. Klik op Opslaan.
-25. Klik op Kopiëren van.
-26. Klik op Kopiëren uit sjabloon.
-27. Klik in het veld Functiesjabloon op de vervolgkeuzeknop om de zoekopdracht te openen.
-28. Zoek en selecteer het gewenste record in de lijst.
-29. Klik in de lijst op de koppeling in de geselecteerde rij.
-30. Klik op de optie Opmerking.
-    * Alleen die artikelen die u selecteert worden naar de geselecteerde taak gekopieerd.    
-31. Klik op OK.
-32. Schakel de uitbreiding van de sectie Certificaten om.
-33. Schakel de uitbreiding van de sectie Opleiding om.
-34. Klik op Opslaan.
 
+    Positietoewijzingen die dit aantal overschrijden, zijn niet toegestaan.
 
+10. In de sectie **Beschrijving**, in het veld **Opmerking**, typt u **Een standaardbeschrijving voor de functie invoeren**.
+
+    Deze beschrijving geldt voor alle posities die zijn toegewezen aan de functie die u aan het definiëren bent.
+
+11. Selecteer in de sectie **Functieclassificatie** een taakfunctie die in standaardrapporten binnen Human resources wordt gebruikt.
+12. Zoek en selecteer de gewenste record in de lijst.
+13. Selecteer in de lijst de koppeling in de geselecteerde rij.
+14. Selecteer in het veld **Taaktype** een taaktype om taken in uw organisatie verder te classificeren.
+
+    Taaktypen kunnen in rapporten in HRM worden gebruikt.
+
+15. Zoek en selecteer de gewenste record in de lijst.
+16. Selecteer in de lijst de koppeling in de geselecteerde rij.
+17. Selecteer een compensatieniveau in de sectie **Compensatie**.
+
+    Het compensatieniveau definieert de minimale en maximale compensatie die een medewerker voor de taak kan krijgen. Compensatieregels definiëren of de compensatie van medewerkers buiten het bereik kan zijn.
+
+18. Zoek en selecteer de gewenste record in de lijst.
+19. Selecteer in de lijst de koppeling in de geselecteerde rij.
+20. Merk op dat in de sectie **Vaardigheden** de velden in de sneltabbladen **Vaardigheden**, **Opleiding** en **Certificaten** leeg zijn. Nadat u gegevens van een taaksjabloon hebt gekopieerd, wordt de informatie in één stap in deze velden ingevoerd.
+21. Selecteer **Opslaan**.
+22. Selecteer **Kopiëren uit**.
+23. Selecteer **Kopiëren uit sjabloon**.
+24. Selecteer in het veld **Functiesjabloon** de vervolgkeuzepijl om de zoekopdracht te openen.
+25. Zoek en selecteer de gewenste record in de lijst.
+26. Selecteer in de lijst de koppeling in de geselecteerde rij.
+27. Selecteer de optie **Opmerking**.
+
+    Alleen de artikelen die u selecteert, worden naar de geselecteerde functie gekopieerd.
+
+28. Selecteer **OK**.
+29. Vouw de sectie **Certificaten** uit.
+30. Vouw de sectie **Opleiding** uit.
+31. Selecteer **Opslaan**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

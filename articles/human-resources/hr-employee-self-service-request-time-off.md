@@ -1,8 +1,8 @@
 ---
 title: Vrije tijd aanvragen
 description: Vraag vrije tijd aan in Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f8fead1105412e5fe967a19632e1875058f4026c722140eaed056c5412c6558f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6e12ac21e80c46f5cb5f231aadab7272fc279194
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756095"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771407"
 ---
 # <a name="request-time-off"></a>Vrije tijd aanvragen
 
@@ -42,7 +42,7 @@ U kunt aanvragen voor vrije tijd indienen, uw vakantie- en verlofsaldi weergeven
 
 6. Selecteer **Indienen** wanneer u gereed bent om uw aanvraag in te dienen. Selecteer anders **Concept opslaan**.
 
-Werknemers die een nieuwe verlofaanvraag indienen, kunnen voor het maken van hun verlofaanvraag verschillende verloftypen selecteren. Alle verloftypen die zijn geselecteerd als onderdeel van een verlofaanvraag, moeten echter dezelfde verlofeenheid hebben. Werknemers kunnen de verlofeenheid voor elk verloftype weergeven via het formulier **Verlofaanvragen**.
+Werknemers die een nieuwe verlofaanvraag indienen, kunnen voor het maken van hun verlofaanvraag verschillende verloftypen selecteren. Alle verloftypen die zijn geselecteerd als onderdeel van een verlofaanvraag, moeten echter dezelfde verlofeenheid hebben. Medewerkers kunnen de verlofeenheid voor elk verloftype weergeven op de pagina **Verlof aanvragen**.
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Een bijlage toevoegen aan een bestaande aanvraag
 
@@ -64,7 +64,7 @@ Wanneer u een bestaande verlofaanvraag bijwerkt, kunt u een bijlage toevoegen. U
 
 1. Selecteer in het werkgebied **Selfservice werknemer** de optie **Vrije tijd weergeven** op de tegel **Verlofsaldi**.
 
-2. Selecteer in het formulier **Verlof** een of meer verlofaanvragen die u wilt annuleren.
+2. Selecteer op de pagina **Verlof** een of meer verlofaanvragen die u wilt annuleren.
 
 3. Selecteer de knop **Annuleren**.
 

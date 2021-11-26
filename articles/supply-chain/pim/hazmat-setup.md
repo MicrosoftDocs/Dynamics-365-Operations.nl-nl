@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: ac6a9b4316fa260a86c124f86d04645625e9b808
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6923bd24fc8f9aad6e758603e3b20f7d5f2b8fde
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577427"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778004"
 ---
 # <a name="set-up-hazardous-materials"></a>Gevaarlijke stoffen instellen
 
@@ -27,7 +27,7 @@ Als u de functie voor gevaarlijke stoffen wilt gebruiken, moet u eerst de gegeve
 
 ## <a name="turn-on-the-hazardous-materials-feature-for-your-system"></a>De functie voor gevaarlijke stoffen inschakelen voor uw systeem
 
-Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
+Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Beheerders kunnen gebruikmaken van de pagina [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en deze zo nodig in of uit te schakelen. Hier ziet u de functie als:
 
 - **Module:** *Productgegevensbeheer*
 - **Functienaam:** *Productgegevens over gevaarlijke stoffen en vervoersdocumentatie*

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 986abfaef81474571de7db179253c4d76f65d4bec180fa9f355f3218ddbb96ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ceedd8b42383dc1334f472ba754ac3e18261b9d
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746814"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777810"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>overboekingsorders maken vanuit de magazijnapp
 
@@ -36,7 +36,7 @@ Voordat u deze functie kunt gebruiken, moet u deze functie en de bijbehorende ve
 1. Schakel vervolgens de functie *Overboekingsorders maken via de app voor magazijnbeheer* in. Deze wordt weergegeven als:
     - **Module** - Magazijnbeheer
     - **Functienaam**: Overboekingsorders maken en verwerken via de app voor magazijnbeheer
-1. Als u de verwerking van uitgaande verzendingen wilt automatiseren, moet u ook de functie [Uitgaande verzendingen bevestigen op basis van batchtaken](confirm-outbound-shipments-from-batch-jobs.md) inschakelen. Deze functie wordt weergegeven als:
+1. Als u de verwerking van uitgaande verzendingen wilt automatiseren, moet u ook de functie [Uitgaande verzendingen bevestigen op basis van batchtaken](confirm-outbound-shipments-from-batch-jobs.md) inschakelen. Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Beheerders kunnen gebruikmaken van de pagina [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en deze zo nodig in of uit te schakelen. Hier ziet u de functie als:
     - **Module** - Magazijnbeheer
     - **Functienaam**: Uitgaande verzendingen bevestigen op basis van batchtaken
 

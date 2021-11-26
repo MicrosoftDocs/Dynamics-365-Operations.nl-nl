@@ -47,7 +47,7 @@ Het IFRS 16 boek is zo ingesteld dat het voldoet aan de IFRS 16-boekhoudnorm. Al
 | Huidige waarde/reële waarde van activum instellen | 0,00           |
 | Drempel voor de korte termijn                    | 12             |
 | Drempel voor geringe waarde                     | 5.000,00       |
-| Betalen aan leverancier                           | No             |
+| Betalen aan leverancier                           | Nee             |
 
 **Wettelijk boek**
 
@@ -64,7 +64,7 @@ Het wettelijke boek is een cash-basis-boek waar het bedrijf de leasekosten zal v
 | Huidige waarde/reële waarde van activum instellen | 0,00        |
 | Drempel voor de korte termijn                    | 0           |
 | Drempel voor geringe waarde                     | 0           |
-| Betalen aan leverancier                           | No          |
+| Betalen aan leverancier                           | Nee          |
 
 **Wettelijk terugboekingsboek**
 
@@ -81,7 +81,7 @@ Het wettelijke terugboekingsboek wordt op dezelfde manier ingesteld als het wett
 | Huidige waarde/reële waarde van activum instellen | 0,00                           |
 | Drempel voor de korte termijn                    | 0                              |
 | Drempel voor geringe waarde                     | 0                              |
-| Betalen aan leverancier                           | No                             |
+| Betalen aan leverancier                           | Nee                             |
 
 Voor dit voorbeeld is er een lease gemaakt met de volgende instellingen op de tabbladen **Algemeen** en **Betalingsschemaregels**.
 

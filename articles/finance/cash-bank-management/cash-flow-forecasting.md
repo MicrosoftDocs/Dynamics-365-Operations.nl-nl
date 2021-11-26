@@ -2,7 +2,7 @@
 title: Cashflowprognose
 description: Dit onderwerp bevat een overzicht van het cashflowprognoseproces. Ook wordt uitgelegd hoe cashflowprognoses worden geïntegreerd met andere modules in het systeem.
 author: panolte
-ms.date: 09/23/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,16 +13,17 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 83f8e5b03a2222884758dc567688da2a756421da
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: 5ad3b2444f194f8324a309df32612a5377851995
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547950"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752899"
 ---
 # <a name="cash-flow-forecasting"></a>Cashflowprognose
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Met de functies voor cashflowprognoses kunt u de geplande cashflow en valutabehoeften analyseren, zodat u de toekomstige behoefte aan contant geld in het bedrijf kunt schatten. Voer de volgende taken uit om een prognose van de cashflow te verkrijgen:
 
@@ -93,9 +94,12 @@ Budgetregisterposten kunnen afzonderlijk door middel van personalisatie in de ca
 Prognoses voor vraag en aanbod van voorraad kunnen worden opgenomen in cashflowprognoses. Op het tabblad **Voorraadbeheer** van de pagina **Instelling cashflowprognose** selecteert u het prognosemodel dat u in de cashflowprognose wilt opnemen. Opname in cashflowprognose kan voor afzonderlijke prognoseregels voor vraag en aanbod worden overschreven.
 
 ### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Dimensies voor cashflowprognose instellen
-Met een nieuw tabblad op de pagina **Cashflowprognose instellen** kunt u bepalen welke financiële dimensies moeten worden gebruikt voor het filteren in het werkgebied **Cashflowprognose**. Dit tabblad wordt alleen weergegeven wanneer de functie Cashflowprognoses is ingeschakeld. 
+Met een nieuw tabblad op de pagina **Cashflowprognose instellen** kunt u bepalen welke financiële dimensies worden gebruikt voor het filteren in het werkgebied **Cashflowprognose**. Dit tabblad wordt alleen weergegeven wanneer de functie Cashflowprognoses is ingeschakeld in Finance Insights. 
 
 Kies op het tabblad **Dimensies** in de lijst de dimensies die u wilt gebruiken voor het filteren en verplaats deze naar de rechterkolom met de pijltoetsen. Er kunnen slechts twee dimensies worden geselecteerd voor het filteren van cashflowprognosegegevens. 
+
+### <a name="setting-up-external-source"></a>Externe bron instellen
+Externe gegevens kunnen worden ingevoerd of geïmporteerd in cashflowprognoses. Voordat externe gegevens worden ingevoerd of geïmporteerd, moeten externe bronnen zijn ingesteld. Stel externe cashflowcategorieën in op het tabblad **Externe bron**. Een categorie kan **Uitgaand** of **Inkomend** zijn. **Liquiditeit** moet als boekingstype worden geselecteerd. Selecteer in het raster met **instellingen van de rechtspersoon** de rechtspersonen en de bijbehorende hoofdrekeningen waar de externe cashflowcategorieën van toepassing zijn.
 
 ### <a name="project-management-and-accounting"></a>Projectbeheer en boekhouding
 

@@ -2,7 +2,7 @@
 title: Overzicht van momentopnamen
 description: In dit onderwerp wordt de functie Momentopnamen beschreven. Hiermee kunt u een cashflowprognose maken voor latere analyse of vergelijking met werkelijke waarden. Wanneer u een cashflow prognose genereert, kunt u die prognose opslaan als een 'momentopname'. U kunt deze momentopnamen vervolgens gebruiken om de rekeningen te bewerken die in de prognose zijn opgenomen of om de prognose in de momentopname te vergelijken met de werkelijke waarden.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: bcaaa9fe13e36bbe71e29d82c9f22a4fff9248ef
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: a91300ac17b36d890840e6c0c3104fad5fce68f0
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386558"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752752"
 ---
 # <a name="snapshots-overview"></a>Overzicht van momentopnamen
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Met momentopnamen kunnen organisaties informatie over hun kaspositie en cashflowprognoses op een bepaald moment bewerken en opslaan. U kunt de momentopname vergelijken met de werkelijke financiële gegevens, de afwijking onderzoeken en deze informatie gebruiken om cashflowprognoses in de loop der tijd te verbeteren. In het bijzonder kunnen momentopnamen op de volgende manieren worden gebruikt:
 
@@ -40,8 +41,6 @@ U kunt een momentopname maken door **Nieuwe momentopname** te selecteren op het 
 
 De kasinkomsten en kasuitgaven in momentopnamen kunnen op elk moment worden bewerkt. Wanneer een inkomstenbedrag of een uitgavenbedrag wordt bewerkt, wordt het bijgewerkte bedrag evenredig verdeeld over de liquiditeitsrekeningen die het oorspronkelijke saldo hebben gemaakt. Wanneer u klaar bent met het bewerken van een momentopname, selecteert u **Opslaan** om uw wijzigingen op te slaan.
 
-Als u meerdere momentopnamen wilt opslaan, selecteert u **Momentopnamen vergelijken**. U kunt twee momentopnamen tegelijk vergelijken. Selecteer de twee momentopnamen die u wilt vergelijken en selecteer vervolgens **OK**. Op de pagina **Momentopname vergelijken** wordt een vergelijking van de geselecteerde momentopnamen weergegeven. De grafiek in het bovenste gedeelte van de pagina toont een vergelijking van de kasinkomsten, kasuitgaven en banksaldi in de overlappende perioden tussen de twee momentopnamen. In het raster in het onderste gedeelte ziet u een gedetailleerde vergelijking van de twee prognoses voor elk liquiditeitsbedrag. In de kolom **Afwijking** in het raster ziet u het verschil tussen de saldi in een periode.
-
-Selecteer **Vergelijken met werkelijke waarden** om de financiële resultaten te vergelijken met een prognose die is opgeslagen als een momentopname . Op de pagina **Momentopname vergelijken** wordt een vergelijking van de werkelijke bedragen en de prognose weergegeven. De grafiek in het bovenste gedeelte van de pagina toont een vergelijking van de kasinkomsten, kasuitgaven en banksaldi in de overlappende perioden tussen de twee momentopnamen. In het raster in het onderste gedeelte ziet u een gedetailleerde vergelijking van de werkelijke saldi per periode en de balansprognose voor elk liquiditeitsbedrag. In de kolom **Afwijking** in het raster ziet u het verschil tussen het werkelijke saldo in een periode en de balansprognose.
+Selecteer **Vergelijken met werkelijke waarden** om de financiële resultaten te vergelijken met een prognose die is opgeslagen als een momentopname . Op de pagina **Vergelijken met werkelijke waarden** wordt een vergelijking van de werkelijke bedragen en de prognose weergegeven. De grafiek in het bovenste gedeelte van de pagina toont een vergelijking van de kasinkomsten, kasuitgaven en banksaldi in de overlappende perioden tussen de twee momentopnamen. In het raster in het onderste gedeelte ziet u een gedetailleerde vergelijking van de werkelijke saldi per periode en de balansprognose voor elk liquiditeitsbedrag. In de kolom **Afwijking** in het raster ziet u het verschil tussen het werkelijke saldo in een periode en de balansprognose.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

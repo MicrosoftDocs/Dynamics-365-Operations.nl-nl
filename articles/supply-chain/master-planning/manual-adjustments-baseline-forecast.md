@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37d78e97a6c7f9152ab0b893a35a3ae70d5adabc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d8a29e93b252c5d4ec68dfcd9ffe2f63ac1b6af2
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579635"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778028"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Handmatige correcties aanbrengen in de basislijnprognose
 
@@ -67,7 +67,7 @@ Op de pagina **Details van vraagprognose** wordt de volgende informatie in grafi
 
 **Opmerkingen:**
 
--   Als u prognose **Selectie van prognosemodel in Details van vraagprognose** inschakelt vanuit Functiebeheer, kunt u op de pagina **Details van vraagprognose** de prognosemodellen selecteren die voor de historische prognose moeten worden opgenomen.
+-   Als u prognose **Selectie van prognosemodel in Details van vraagprognose** inschakelt vanuit Functiebeheer, kunt u op de pagina **Details van vraagprognose** de prognosemodellen selecteren die voor de historische prognose moeten worden opgenomen. (Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld.)
 -   Het betrouwbaarheidsinterval dat in de sectie **Prognose** van de pagina wordt weergegeven is het verschil tussen de betrouwbaarheidsintervalbovengrens en de betrouwbaarheidsintervalondergrens. Om de waarden voor de boven- en ondergrens te zien, beweegt u de cursor over de grafiek in de **Historische vraag en prognose grafisch weergegeven**.
 -   Als u de Microsoft Azure Machine Learning-service Vraagprognose gebruikt, kunt u het percentage van het vertrouwensniveau opgeven dat de gegenereerde prognose moet hebben. Een waarschijnlijkheidsinterval bestaat uit een waardebereik dat als goede ramingen voor de vraagprognose fungeert. Een waarschijnlijkheidspercentage van 95% geeft aan dat er een kans van 5% is dat de vraagprognose valt buiten het bereik van het waarschijnlijkheidsinterval.
 

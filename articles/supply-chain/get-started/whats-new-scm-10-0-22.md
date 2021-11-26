@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: a4f9e5a4a318ceaa45b6919e394e1ff335bfb193
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: a795f88aed78582ad4a2faa90ab1c2529017850f
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678830"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778152"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.22 (november 2021)
 
@@ -41,7 +41,6 @@ In de volgende tabel worden de functieverbeteringen weergegeven die deze versie 
 
 | Module | Functienaam in Functiebeheer | Meer informatie |
 |---|---|---|
-| Kostenbeheer | Gerelateerde boekbonnen maken voor herwaarderingen van standaardkosten bij afronding | <p>Wanneer er een financiële voorraadboeking (zoals een verkooporderfactuur of voorraadtransactie) wordt gemaakt, maakt het systeem door deze functie een afzonderlijk boekstuk voor alle gerelateerde herwaarderingen van standaardkosten voor afronding van de kostprijs en koppelt dit aan het boekstuk van de financiële boeking als een gerelateerd boekstuk.</p><p>Zonder deze functie registreert het systeem herwaarderingen van standaardkostenafronding op dezelfde boekstukboeking. Dat gedrag kan soms tot gegevens met tegenstrijdige datums leiden, omdat bij de herwaarderingen de sessie- of systeemdatum wordt gebruikt, terwijl financiële boekingen de boekingsdatum gebruiken.</p> |
 | Gedistribueerde hybride topologie | *(Functiebeheer is niet vereist.)* | <p>Deze versie biedt een uitbreiding op de uitgaande ladingsplanningsmogelijkheden van de warehouse management-werkbelasting voor cloud- en edge-schaaleenheden.</p><p>Zie [Workloads voor magazijnbeheer voor cloud- en edgeschaaleenheden](../cloud-edge/cloud-edge-workload-warehousing.md) voor meer informatie.</p> |
 | Beheer voor technische wijzigingen | Varianten genereren voor technische producten | <p>Met deze functie kunt u verschillende varianten voor een engineeringproduct genereren op basis van de kleur, grootte, stijl of configuratiedimenssie.</p><p>Zie 'Varianten voor [engineeringproducten genereren'](../engineering-change-management/engineering-variants.md) voor meer informatie.</p> |
 | Voorraad- en magazijnbeheer | Integratie van voorraadzichtbaarheid met verschuiving van reservering | <p>Deze functie kan alleen worden ingeschakeld nadat de functie *Service voor voorraadzichtbaarheid* is ingeschakeld. Deze functie biedt functionaliteit om reserveringen te compenseren die zijn gemaakt op voorraadzichtbaarheid.</p><p>Zie [Voorraadzichtbaarheid reserveringen](../inventory/inventory-visibility-reservations.md) voor meer informatie.</p> |

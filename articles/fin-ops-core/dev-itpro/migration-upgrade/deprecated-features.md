@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76ac50ba2606ffff5a5a90d29ca99c8d67e5f14cce2127f5de6225d1cd8224ef
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2e03becf2572aeaf213e8c3a0e874405ed0d5613
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745171"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7753021"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Verwijderde of afgeschafte functies in eerdere releases
 
@@ -84,7 +84,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Implementatieoptie**              | Alle |
 | **Status**                         | Afgeschaft: op 1 oktober 2020 wordt de methode **setUtcString()** niet meer ondersteund. Ontwikkelaars moeten in plaats daarvan de methode **setUtcDateTime()** gebruiken. |
 
-### <a name="blacklist-report-it--feature-reference-it-00001"></a>Zwarte-lijstrapport (IT) – functieverwijzing IT-00001
+### <a name="blocklist-report-it--feature-reference-it-00001"></a>Blokkeringslijstrapport (IT) – functieverwijzing IT-00001
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
