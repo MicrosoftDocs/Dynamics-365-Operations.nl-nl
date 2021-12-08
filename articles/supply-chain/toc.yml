@@ -62,10 +62,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Magazijnbeheer configureren voor on-premises implementaties
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operations-apps die worden geëxploiteerd door 21Vianet in China
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operations-apps in Frankrijk
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Nieuwe of gewijzigde functies
               items:
                 - name: Nieuwe of gewijzigde functies in Finance and Operations-apps
@@ -2147,7 +2143,7 @@
               items:
                 - name: Informatie voor projectresource instellen
                   href: procurement/tasks/set-up-project-resource-information.md
-                - name: Projectbudgetten indienen en goedkeuren
+                - name: Een projectbudgetwerkstroom maken en indienen
                   href: procurement/tasks/submit-approve-project-budget.md
                 - name: Revisies van projectbudget indienen en goedkeuren
                   href: procurement/tasks/submit-approve-project-budget-revision.md

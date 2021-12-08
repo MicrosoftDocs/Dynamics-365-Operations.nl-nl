@@ -62,10 +62,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Magazijnbeheer configureren voor on-premises implementaties
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-                - name: Finance and Operations-apps die worden geëxploiteerd door 21Vianet in China
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/finance/toc.json
-                - name: Finance and Operations-apps in Frankrijk
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
             - name: Nieuwe of gewijzigde functies
               items:
                 - name: Nieuwe of gewijzigde functies in Finance and Operations-apps
@@ -494,12 +490,14 @@
               href: accounts-receivable/tasks/process-collection-letters.md
             - name: Voorbeeld van aanmaningen verwerken
               href: accounts-receivable/process-collection-letters-example.md
-            - name: Informatie over ouderdom van klanten instellen en genereren
+            - name: De naar ouderdom gerangschikte informatie over klanten instellen en genereren
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
             - name: Ouderdomsmomentopname klant
               href: accounts-receivable/customer-aging-snapshot.md
-            - name: Rapport van naar ouderdom gerangschikte door klanten verschuldigde saldi
+            - name: Naar ouderdom gerangschikt rapport over klanten
               href: accounts-receivable/customer-aging.md
+            - name: Opslag van naar ouderdom gerangschikte gegevens van klanten
+              href: accounts-receivable/customer-aging-data-storage.md
             - name: Een afschrijvingsjournaal voor een klant maken
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Beheer van geavanceerde notities
@@ -1476,6 +1474,10 @@
                           items:
                             - name: Btw-aangifte
                               href: localizations/emea-fra-VAT-declaration-preview-France.md
+                        - name: Rapportage voor Duitsland
+                          items:
+                            - name: Btw-aangifte
+                              href: /localizations/emea-deu-vat-declaration-germany.md
                         - name: Rapportage voor Nederland
                           items:
                             - name: Btw-aangifte
@@ -2160,11 +2162,13 @@
                       href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: Afschrijvingscorrecties voor extra verwervingen in het tweede jaar
                   href: localizations/tasks/de-00002-depreciation.md
+                - name: Btw-aangifte
+                  href: localizations/emea-deu-vat-declaration-germany.md
                 - name: Elektronische transmissie van btw-aangifte (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Duitse Intrastat
                   href: localizations/emea-deu-intrastat.md
-                - name: Btw-aangifte voor Duitsland
+                - name: Btw-overzicht
                   href: localizations/emea-de-vat-declaration.md
                 - name: Rapport met elektronische klantfacturen
                   href: localizations/emea-deu-e-invoices.md

@@ -74,10 +74,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Commerce Data Exchange-implementatierichtlijnen
                   href: dev-itpro/implementation-considerations-cdx.md
-                - name: Finance and Operations-apps die worden geëxploiteerd door 21Vianet in China
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
-                - name: Finance and Operations-apps in Frankrijk
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: Ondersteuning
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: Upgrade en N-1-ondersteuning
@@ -1274,6 +1270,8 @@
               href: set-up-rfm-analysis.md
             - name: Microsoft Clarity instellen in Dynamics 365 Commerce
               href: set-up-clarity.md
+            - name: Commerce-analyse (preview)
+              href: commerce-analytics.md
         - name: Globalisatie
           items:
             - name: Overzicht fiscale integratie voor Commerce-afzetkanalen
@@ -1412,6 +1410,10 @@
                   href: localizations/rus-fpi-sample.md
                 - name: Beheer van klantgegevens voor Rusland
                   href: localizations/rus-customer-information.md
+            - name: Saoedi-Arabië
+              items:
+                - name: QR-codes genereren en deze op ontvangsten voor Saoedi-Arabië afdrukken
+                  href: localizations/emea-sau-qr-code.md
             - name: Zweden
               items:
                 - name: Kassafunctionaliteit
@@ -2536,6 +2538,8 @@
                       href: e-commerce-extensibility/sdk-faq.md
                     - name: Foutopsporing in best practices voor Dynamics 365 Commerce-ontwikkeling
                       href: e-commerce-extensibility/debugging-best-practices.md
+                    - name: E-commercesitepagina's testen op geheugenlekken
+                      href: e-commerce-extensibility/memory-leak-detection.md
             - name: Retail-SDK
               items:
                 - name: Migreren naar de Commerce SDK
