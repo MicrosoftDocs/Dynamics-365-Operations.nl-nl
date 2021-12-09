@@ -10,17 +10,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 954a3bcdf6ad163afd2596227ce2c8548fe37027
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: 268ee58583306bdd99e5d5cd5bb436a328a5648b
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678490"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860478"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Startpagina van Algemene voorraadboekhouding (Global Inventory Accounting)
 
 [!INCLUDE [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 4/30/2022 -->
 
 Internationale organisaties staan onder druk van overheden om te voldoen aan lokale en globale boekhoudstandaarden. De voorraadwaardering kan een belangrijke rol spelen om te zorgen voor compliance. De invoegtoepassing Algemene voorraadboekhouding voor Microsoft Dynamics 365 Supply Chain Management is een uitgebreide oplossing waarmee organisaties (met name internationale organisaties) meerdere kostprijsboekhoudgrootboeken kunnen gebruiken om voorraadboekhouding uit te voeren. Daarom kunnen deze organisaties zich tegelijkertijd houden aan meerdere boekhoudregels en de interne boekhouding voor het management.
 

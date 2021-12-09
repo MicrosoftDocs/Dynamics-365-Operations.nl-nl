@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 792245e7821fe2ecb147e2b4756f3178fcdb17d1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1a311b4a304984044a1c3bd3924c129821afbbb9
+ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569668"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "7825349"
 ---
 # <a name="product-identifiers"></a>Product-id's
 
@@ -39,7 +39,7 @@ In Dynamics 365 Supply Chain Management is de primaire id voor een product het p
 
 In veel gevallen is het productnummer oorspronkelijk niet gemaakt in Dynamics 365 Supply Chain Management. In plaats daarvan is het gekoppeld aan een product in een systeem voor productlevenscyclusbeheer (PLM) of productgegevensbeheer (PDM). In dit geval kunt u gegevensentiteiten gebruiken om de producten en productvarianten te importeren. Supply Chain Management gebruikt vervolgens de cijfers in alle bewerkingen.
 
-Wanneer u Supply Chain Management implementeert, moet u extra aandacht aan uw strategie voor productnummers besteden. Een goed nummeringssysteem verbetert de logistieke stromen en kan fouten helpen voorkomen. Een goede product-id bestaat uit maximaal 15 tekens. In het ideale geval bestaat de id uit minder dan 10 tekens en bevat deze niet meer dan vijf classificerende tekens. U kunt ook zoeknamen gebruiken om snelle zoekacties mogelijk te maken. Een zoeknaam is een extra naam die de classificaties van een product vertegenwoordigt.
+Wanneer u Supply Chain Management implementeert, moet u extra aandacht aan uw strategie voor productnummers besteden. Een goed nummeringssysteem verbetert de logistieke stromen en kan fouten helpen voorkomen. Een goede product-id moet doorgaans 20 tekens of minder lang zijn, maar we raden u meestal aan minder dan 10 tekens te gebruiken en niet meer dan 5 classificerende tekens op te nemen. U kunt ook zoeknamen gebruiken om snelle zoekacties mogelijk te maken. Een zoeknaam is een extra naam die de classificaties van een product vertegenwoordigt.
 
 Wanneer u Microsoft Dataverse gebruikt, is het productnummer in Supply Chain Management ook het productnummer in Microsoft Dataverse. Productvarianten worden als aparte producten naar Dataverse gesynchroniseerd.
 

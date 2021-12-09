@@ -2,7 +2,7 @@
 title: Elektronische berichten instellen
 description: Dit onderwerp bevat informatie over het instellen van de functionaliteit voor elektronische berichten (EM).
 author: liza-golub
-ms.date: 07/07/2021
+ms.date: 11/18/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 2b62efabfae26a6cc004604e687a49bce992d78a30f0d441aa74fa5cde70e063
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a9d623c712de34afd1b38dbc6a8738ebf9613d49
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752170"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860553"
 ---
 # <a name="set-up-electronic-messages"></a>Elektronische berichten instellen
 
@@ -34,6 +34,7 @@ Als u een pakket met gegevensentiteiten niet importeert, kunt u de EM-functional
 - [Aanvullende velden](#additional)
 - [Uitvoerbare klasse-instellingen](#executable)
 - [Acties voor invullen van record](#populate)
+- [Records invullen vanuit meerdere bedrijven](#multiple-companies-populate)
 - [Webtoepassingen](#applications)
 - [Instellingen webservice](#settings)
 - [Acties berichtverwerking](#actions)
@@ -139,6 +140,38 @@ Voeg op het sneltabblad **Instelling van gegevensbronnen** een regel toe voor el
 | Bedrijf                | Dit veld is beschikbaar wanneer de functie **Query's voor meerdere bedrijven voor acties voor het invullen van records** is ingeschakeld in het werkgebied **Functiebeheer**. Gebruik deze functie om gegevensbronnen voor meerdere bedrijven in te stellen voor de acties voor het invullen van records. Gegevens kunnen worden opgehaald uit meerdere bedrijven. |
 | Gebruikersquery             | <p>Als u een query instelt door **Query bewerken** boven het raster te selecteren en u de criteria opgeeft die moeten worden toegepast op de geselecteerde hoofdtabel waar gegevens van worden ingevuld, wordt dit selectievakje automatisch ingeschakeld. Anders worden alle records ingevuld via de geselecteerde hoofdtabelbron.</p><p>Wanneer de functie **Query's voor meerdere bedrijven voor acties voor het invullen van records** is ingeschakeld in het werkgebied **Functiebeheer** en records moeten worden verzameld vanuit verschillende bedrijven, voegt u een regel toe voor elke aanvullende rechtspersoon die in de rapportage moet worden opgenomen. Selecteer voor elke nieuwe regel **Query bewerken** en geef een gerelateerd criterium op dat specifiek is voor de rechtspersoon die is opgegeven in het veld **Bedrijf** op de regel. Wanneer u klaar bent, bevat het raster **Gegevensbroninstellingen** regels voor alle rechtspersonen die in de rapportage moeten worden opgenomen.</p> |
 
+## <a name="populate-records-from-multiple-companies"></a><a id="multiple-companies-populate"></a>Records invullen vanuit meerdere bedrijven
+
+Als uw bedrijf moet rapporteren over meerdere rechtspersonen in dezelfde Finance-database, stelt u de [acties voor het invullen van records](#populate) in voor alle rechtspersonen waarvan gegevens moeten worden opgenomen in de rapportage.
+
+Volg deze stappen om deze mogelijkheid in te stellen in uw Finance-omgeving. 
+
+1. Ga naar **Werkruimten** \> **Functiebeheer**.
+2. Zoek en selecteer de functie **Query's voor meerdere bedrijven voor acties voor het invullen van records** in de lijst.
+3. Selecteer **Nu inschakelen**. 
+
+Volg deze stappen om de [acties voor het invullen van records](#populate) in te stellen voor meerdere bedrijven waaruit gegevens moeten worden opgenomen in de rapportage.
+
+1. Ga naar **Belasting** \> **Instellingen** \> **Elektronische berichtens** \> **Acties voor invullen van record**.
+
+    Wanneer de functie **Query's voor meerdere bedrijven voor acties voor het invullen van records** is ingeschakeld, bevat het raster **Instelling van gegevensbronnen** op de pagina **Actie voor invullen van record** een veld **Bedrijf**. Voor bestaande records die zijn gemaakt tijdens de algemene instelling van de functie [Acties voor invullen van record](#populate), bevat dit veld de id van de huidige rechtspersoon.
+
+2. Voeg in het raster **Instelling van gegevensbronnen** een regel toe voor elke dochtermaatschappij die in de rapportage moet worden opgenomen en stel de volgende velden in.
+
+    | Veldnaam             | Waarde |
+    |------------------------|-------|
+    | Name                   | Voer een tekst in om beter te begrijpen waar deze record vandaan komt. Voer bijvoorbeeld **Naam gegevensbron - Dochtermaatschappij 1** in. |
+    | Type berichtitem      | Selecteer het berichtitemtype dat vereist is voor uw EM-verwerking. |
+    | Rekeningtype           | Geef het accounttype op dat vereist is voor uw EM-verwerking. Als uw EM-verwerking geen specifieke accounttypen heeft, selecteert u **Alle**. |
+    | Naam van hoofdtabel      | Geef de naam op van de hoofdtabel die vereist is voor uw EM-verwerking. |
+    | Veld met documentnummer  | Geef het veld op dat het documentnummer bevat in records van uw EM-verwerking. |
+    | Veld met documentdatum    | Geef het veld op dat de documentdatum bevat in records van uw EM-verwerking. |
+    | Accountveld van document | Geef het veld op dat het documentaccount bevat in records van uw EM-verwerking. |
+    | Bedrijf                | Selecteer de id van de dochtermaatschappij. |
+    | Gebruikersquery             | Dit selectievakje wordt automatisch ingeschakeld wanneer u criteria definieert door **Query bewerken** te selecteren. |
+
+3. Selecteer voor elke nieuwe regel **Query bewerken** en geef gerelateerde criteria op voor de rechtspersoon die is opgegeven in het veld **Bedrijf** op de regel.
+
 ## <a name="web-applications"></a><a id="applications"></a>Webtoepassingen
 
 Gebruik webtoepassingsinstellingen om een webtoepassing in te stellen zodat deze Open Authorizaton (OAuth) 2.0 wordt ondersteund. OAuth is de open standard waarmee gebruikers 'beveiligde gedelegeerde toegang' tot de toepassing namens hen kunnen verlenen zonder dat ze hun toegangsreferenties hoeven te delen. U kunt ook het autorisatieproces doorlopen door een autorisatiecode en toegangstoken op te halen. U kunt webtoepassingsinstellingen instellen door naar **Belasting** \> **Instellingen** \> **Elektronische berichten** \> **Webtoepassingen** te gaan.
@@ -214,6 +247,7 @@ In de volgende tabellen worden de velden op de pagina **Acties berichtverwerking
 | Uitvoerbare klasse                          | Selecteer een bestaande uitvoerbare klasse-instelling. Dit veld is alleen beschikbaar voor acties van het type **Uitvoeringsniveau** **berichtitem**. |
 | Actie voor invullen van record                   | Selecteer een bestaande actie voor het invullen van records. Dit veld is alleen beschikbaar voor acties van het type **Records invullen**. |
 | Webservice                               | Selecteer een bestaande webservice. Dit veld is alleen beschikbaar voor acties van het type **Webservice**. |
+| Te verzenden bestandsnaam                         | Voer de naam in van de bijlage bij een elektronisch bericht die door deze actie moet worden verzonden. Als meerdere bijlagen dezelfde oorspronkelijke bestandsnaam hebben, wordt de nieuwste bijlage verzonden. Als er geen bijlage wordt gevonden met de opgegeven oorspronkelijke bestandsnaam, wordt de aanvraag zonder inhoud verzonden. Dit veld is alleen beschikbaar voor acties van het type **Webservice**. |
 | Bestandsnaam                                 | Geef de naam op van het bestand dat het resultaat van de actie is. Dit bestand kan het antwoord zijn van de webserver of het rapport dat wordt gegenereerd. Dit veld is alleen beschikbaar voor acties van het type **Webservice** en **Bericht over export van elektronische rapportage**. |
 | Bestanden toevoegen aan brondocumenten          | Schakel dit selectievakje in om gegenereerde bestanden te koppelen aan records in een hoofdtabel waarnaar wordt verwezen voor EM-items. Dit veld is alleen beschikbaar voor acties van het type **Export van elektronische rapportage** en **Webservice**. |
 | Bestanden van archiefuitvoer koppelen aan items | Schakel dit selectievakje in om XML-bestanden te extraheren uit het uitvoerarchiefbestand en deze te koppelen aan de bijbehorende elektronische berichtitems. Dit veld is alleen beschikbaar voor acties van het type **Export van elektronische rapportage**. |

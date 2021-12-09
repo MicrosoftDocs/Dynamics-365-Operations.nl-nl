@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: f3cac30a66ff3a74a7f67c11dd9fa14af79d10af
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 68115d484abcdc3c37357ae441e9f9ccb5212659
+ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752612"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "7827048"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Problemen met het instellen van Finance Insights oplossen
 
@@ -70,3 +70,26 @@ De functie voor cashflowprognoses in Contanten en bankbeheer en de functie Cashf
 Stel eerst de cashflowprognose en liquiditeitsrekeningen in en schakel deze in. Zie [Cashflowprognose](../cash-bank-management/cash-flow-forecasting.md) voor meer informatie. Als ze zijn ingesteld, maar u niet de resultaten ziet die u verwacht, raadpleegt u [Problemen met het instellen van cashflowprognoses oplossen](../cash-bank-management/cash-flow-forecasting-tsg.md) voor meer informatie.
 
 Controleer vervolgens of de functie voor cashflowprognoses in Finance Insights (**Contanten en bankbeheer \> Instellen \> Finance Insights \> Cashflowprognoses**) is ingeschakeld en dat de training van het AI-model is voltooid. Als de training niet is voltooid, selecteert u **Nu prognose maken** om het modeltrainingsproces te starten.
+
+## <a name="symptom-why-isnt-the-install-a-new-add-in-button-visible-in-microsoft-dynamics-lifecycle-services"></a>Symptoom: waarom is er geen nieuwe invoegtoepassingsknop zichtbaar in Microsoft Dynamics Lifecycle Services?
+
+### <a name="resolution"></a>Oplossing
+
+Controleer eerst of de rol **Omgevingsmanager** of **Projecteigenaar** is toegewezen aan de aangemelde gebruiker in het veld **Projectbeveiligingsrol** in Microsoft Dynamics Lifecycle Services (LCS). Voor de installatie van de nieuwe invoegtoepassingen is een van deze projectbeveiligingsrollen vereist.
+
+Als de juiste projectbeveiligingsrol aan u is toegewezen, moet u wellicht uw browservenster vernieuwen om de knop **Nieuwe invoegtoepassing installeren** weer te geven.
+
+## <a name="symptom-the-finance-insights-add-in-doesnt-seem-to-be-installing-why-is-that"></a>Symptoom: de invoegtoepassing Finance Insights lijkt niet te worden geïnstalleerd. Waarom is dat?
+
+### <a name="resolution"></a>Oplossing
+
+De volgende stappen moeten zijn uitgevoerd.
+
+- Cotroleer of u toegang hebt als **Systeembeheerder** en **Systeemaanpasser** in het Power Portal-beheercentrum.
+- Controleer of een licentie voor Dynamics 365 Finance of equivalente licentie wordt toegepast op de gebruiker die de invoegtoepassing installeert.
+- Controleer of de volgende Azure AD-app is geregistreerd in Azure AD: 
+
+  | Toepassing                  | App-id           |
+  | ---------------------------- | ---------------- |
+  | Microsoft Dynamics ERP-microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
+  

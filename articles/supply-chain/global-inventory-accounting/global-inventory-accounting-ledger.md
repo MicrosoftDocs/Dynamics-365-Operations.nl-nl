@@ -10,17 +10,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: b29bb1aea9e96b5ef39303025cb286f0d1fde12c
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: 0130aef7212256a11ca9d27ffdd4af7a0aa6d98c
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678878"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860420"
 ---
 # <a name="global-inventory-accounting-ledger"></a>Grootboek voor Algemene voorraadboekhouding (Global Inventory Accounting)
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 4/30/2022 -->
 
 Algemene voorraadboekhouding heeft een eigen set grootboeken. Telkens wanneer een voorraadgerelateerde transactie wordt verwerkt voor een relevante rechtspersoon, kan het systeem die transactie in elk gewenst aantal grootboeken voor Algemene voorraadboekhouding verantwoorden.
 

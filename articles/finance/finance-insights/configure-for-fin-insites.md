@@ -2,7 +2,7 @@
 title: Configuratie voor Finance Insights
 description: In dit onderwerp worden de configuratiestappen beschreven die ervoor zorgen dat uw systeem de mogelijkheden gebruikt die beschikbaar zijn in Finance Insights.
 author: ShivamPandey-msft
-ms.date: 1/03/2021
+ms.date: 11/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 5668d3ddff777645b4f1c6608f025d0c5a63208a
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 6183e8a7500e9deff0ebf6b5dec8842ad4ca94cb
+ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752973"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "7827023"
 ---
 # <a name="configuration-for-finance-insights"></a>Configuratie voor Finance Insights
 
@@ -43,14 +43,34 @@ Ga als volgt te werk om de omgevingen te implementeren.
 
 2. Als u Finance Insights configureert in een sandbox-omgeving, moet u mogelijk productiegegevens naar die omgeving kopiëren om ervoor te zorgen dat voorspellingen werken. Het voorspellingsmodel gebruikt meerdere jaren aan gegevens om voorspellingen samen te stellen. De Contoso-demonstratiegegevens bevatten niet voldoende historische gegevens om het voorspellingsmodel op een adequate manier te trainen. 
 
+## <a name="configure-your-azure-ad-tenant"></a>Uw Azure AD-tenant configureren
+
+Azure Active Directory (Azure AD) moet worden geconfigureerd zodat deze kan worden gebruikt met Dataverse en de Microsoft Power Platform-toepassingen. Voor deze configuratie moet de rol **Projecteigenaar** of de rol **Omgevingsmanager** worden toegewezen aan de gebruiker in het veld **Projectbeveiligingsrol** in LCS.
+
+Controleer of de volgende instellingen zijn voltooid:
+
+- U hebt toegang tot **Systeembeheerder** en **Systeemaanpasser** in het Power Portal-beheercentrum.
+- Er wordt een licentie voor Dynamics 365 Finance of equivalente licentie toegepast op de gebruiker die de invoegtoepassing voor Finance insights installeert.
+
+De volgende Azure AD-apps zijn geregistreerd in Azure AD.
+
+|  Toepassing                             | App-id                               |
+|------------------------------------------|--------------------------------------|
+| Microsoft Dynamics ERP-microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
+    
 ## <a name="configure-dataverse"></a>Dataverse configureren
 
 Voer de volgende stappen uit om Dataverse voor Finance Insights te configureren.
 
 - Open de omgevingspagina in LCS en controleer of de sectie **Power Platform-integratie** al is ingesteld.
 
-    - Als deze al is ingesteld, moet de naam van de Dataverse-omgeving worden weergegeven die is gekoppeld aan de Finance-omgeving.
-    - Als dit nog niet is ingesteld, selecteert u **Instellen**. De instelling van de Dataverse-omgeving kan maximaal een uur duren. Wanneer de instelling is voltooid, moet de naam van de Dataverse-omgeving die is gekoppeld aan de Finance-omgeving worden weergegeven.
+    - Als Dataverse al is ingesteld, moet de naam van de Dataverse-omgeving worden weergegeven die is gekoppeld aan de Finance-omgeving.
+    - Als Dataverse nog niet is ingesteld, selecteert u **Instellingen**. De instelling van de Dataverse-omgeving kan tot een uur duren. Wanneer de instelling is voltooid, moet de naam van de Dataverse-omgeving waarmee is gekoppeld in de Finance-omgeving worden weergegeven.
+    - Als deze integratie is ingesteld met een bestaande Microsoft Power Platform-omgeving, neemt u contact op met de beheerder om te controleren of de gekoppelde omgeving niet uitgeschakeld is.
+
+        Zie [De Power Platform-integratie inschakelen](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md) voor meer informatie. 
+
+        Als u toegang wilt tot de Microsoft Power Platform-beheersite, gaat u naar <https://admin.powerplatform.microsoft.com/environments>.
 
 ## <a name="configure-the-finance-insights-add-in"></a>De invoegtoepassing Finance insights configureren
 

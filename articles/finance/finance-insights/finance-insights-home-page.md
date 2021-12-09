@@ -2,7 +2,7 @@
 title: Startpagina van Finance Insights
 description: Finance Insights biedt configureerbare en uitbreidbare modellen om u te helpen de cashflow van uw bedrijf nauwkeurig en intelligent te voorspellen, te voorspellen wanneer u een betaling voor openstaande debiteuren ontvangt en een budgetvoorstel te genereren waarmee het budgetproces kan worden versneld. Al deze functies zijn gebaseerd op intelligente machine learning-modellen.
 author: ShivamPandey-msft
-ms.date: 11/03/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 3c6320043000dc07eea3128a10c16cfd54b13334
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: dfc4d9cb5be4d8d287122fd33bf09b0570498169
+ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752851"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "7813742"
 ---
 # <a name="finance-insights-home-page"></a>Startpagina van Finance Insights
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Finance Insights biedt configureerbare en uitbreidbare modellen om u te helpen de cashflow van uw bedrijf intelligent te voorspellen, te voorspellen wanneer u een betaling voor openstaande debiteuren ontvangt en een budgetvoorstel te genereren waarmee het budgetproces kan worden versneld. Al deze functies zijn gebaseerd op intelligente machine learning-modellen. Wanneer deze nieuwe mogelijkheden worden gecombineerd met automatisering in betalingen en incasso's van leveranciers, bieden ze een groot en intelligent financieel systeem dat de besluitvorming aanstuurt en u helpt actie te ondernemen om effectief te reageren op huidige en verwachte zakelijke uitdagingen.
+Finance Insights biedt configureerbare en uitbreidbare oplossingen om u te helpen de cashflow van uw bedrijf intelligent te voorspellen, te voorspellen wanneer u mogelijk een betaling voor openstaande debiteuren ontvangt en een budgetvoorstel te genereren waarmee het budgetproces kan worden versneld. Deze functies maken gebruik van intelligente machine learning-sjablonen om modellen samen te bouwen met gegevens die u verstrekt (inclusief gegevens van derden, zoals informatie over consumentenrapports van een bureau). Met deze intelligente mogelijkheden wordt de besluitvorming bevorderd en kunt u actie ondernemen om effectief op huidige en verwachte zakelijke activiteiten te reageren. U bent verantwoordelijk voor alle gegevens die worden gebruikt met of uitgevoerd vanuit Finance insights.
 
 > [!NOTE]
 > De openbare preview van Finance Insights is beschikbaar voor implementatie in de Verenigde Staten, Canada, het Verenigd Koninkrijk, Europa, Azië/Pacific, Japan, Australië en Nieuw-Zeeland. Microsoft voegt incrementeel ondersteuning toe voor meer regio's.
