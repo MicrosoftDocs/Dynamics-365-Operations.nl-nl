@@ -70,7 +70,9 @@
                   items:
                     - name: Startpagina voor nieuwe of gewijzigde functies in Supply Chain Management
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.23
+                    - name: Supply Chain Management 10.0.24 (februari 2022)
+                      href: get-started/whats-new-scm-10-0-24.md
+                    - name: Supply Chain Management 10.0.23 (januari 2022)
                       href: get-started/whats-new-scm-10-0-23.md
                     - name: Supply Chain Management 10.0.22 (november 2021)
                       href: get-started/whats-new-scm-10-0-22.md
@@ -947,7 +949,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Lijst
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: List
                       items:
                         - name: Lijstfuncties
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/supply-chain/toc.json
@@ -3753,9 +3757,9 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Magazijnbeheer
               items:
-                - name: Warehouse Mobile App
+                - name: Warehouse mobile app
                   items:
-                    - name: Vertrouwensrelatie voor certificaatpad niet gevonden bij het instellen van een app-verbinding
+                    - name: Vertrouwensrelatie voor certificeringspad niet gevonden bij het instellen van een app-verbinding
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
                     - name: Vertrouwensrelatie voor certificaatpad niet gevonden bij bijwerken en migreren naar WMS
                       href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md

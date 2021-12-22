@@ -4,6 +4,8 @@
     - name: Nieuwe functies
       items:
         - name: Nieuwe of gewijzigde functies in Human Resources
+          href: hr-whats-new-2021-11-29.md
+        - name: 29 november 2021
           href: hr-admin-whats-new.md
         - name: 5 oktober 2021
           href: hr-whats-new-2021-10-04.md
@@ -793,9 +795,11 @@
                       href: hr-benefits-process-life-event-eligibility.md
                     - name: Wijzigingen in tarieven verwerken
                       href: hr-benefits-process-rate-changes.md
+                - name: Selectie van werknemersvergoedingen
+                  href: employee-select-benefits-ess.md
                 - name: ACA-rapportage
                   href: hr-benefits-management-aca-reports.md
-                - name: Vergoedingeninstructie
+                - name: Vergoedingenoverzicht
                   href: hr-benefits-statement.md
             - name: Een vergoedingenprogramma definiëren en beheren
               href: hr-benefits-manage-program.md

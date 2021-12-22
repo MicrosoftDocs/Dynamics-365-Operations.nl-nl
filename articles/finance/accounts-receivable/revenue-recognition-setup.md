@@ -2,7 +2,7 @@
 title: Instellingen opbrengsttoerekening
 description: In dit onderwerp worden de instellingsopties voor de toerekening van opbrengsten en de implicaties hiervan beschreven.
 author: kweekley
-ms.date: 08/24/2018
+ms.date: 11/24/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: b5ffd86d736cb7b6b5c270663c2b774e14556a6b
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: e8e29ec1ca5a02db67bb4baf522da96ec23c740f
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675173"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867215"
 ---
 # <a name="revenue-recognition-setup"></a>Instellingen opbrengsttoerekening
 [!include [banner](../includes/banner.md)]
@@ -61,11 +61,11 @@ Het eerste scenario doet zich voor nadat aan alle contractuele verplichtingen is
 
 Het tweede scenario doet zich voor als een journaal wordt gemaakt nadat hertoewijzing is uitgevoerd. Hertoewijzing vindt plaats wanneer een verkooporderregel aan een eerder gefactureerde verkooporder wordt toegevoegd of wanneer een nieuwe verkooporder wordt gemaakt die een regel bevat die deel uitmaakt van het oorspronkelijke contract. Als een factuur werd geboekt voordat de nieuwe verkooporderregel was toegevoegd, moet er een corrigerende journaalregel worden gemaakt voor de geboekte klantfactuur.
 
-Het journaal kan worden ingesteld op de pagina **Journaalnamen** (**Opbrengsttoerekening \> Instellingen \> Journaalnamen**). Het journaaltype moet worden ingesteld op **Opbrengsttoerekening**. In het journaal voor opbrengsttoerekening kunt u de boekingslaag selecteren waarnaar u wilt boeken.
+Het journaal kan worden ingesteld op de pagina **Journaalnamen** (**Opbrengsttoerekening \> Instellingen \> Journaalnamen**). Het journaaltype moet worden ingesteld op **Opbrengsttoerekening**. 
 
 ## <a name="parameters-for-revenue-recognition"></a>Parameters voor toerekening van opbrengsten
 
-De instellingen voor toerekening van opbrengst worden geconfigureerd op het tabblad **Opbrengsttoerekening** van de pagina **Grootboekparameters** (**Opbrengsttoerekening \> Instellingen \> Grootboekparameters**). De volgende instellingen zijn beschikbaar:
+De instellingen voor opbrengsttoerekening worden geconfigureerd op het tabblad **Opbrengsttoerekening** van de pagina **Grootboekparameters** (**Opbrengsttoerekening \> Instellingen \> Grootboekparameters**). De volgende instellingen zijn beschikbaar:
 
 - **Naam journaal voor opbrengsttoerekening**: selecteer het journaal dat is gemaakt voor de toerekening van opbrengst. Het journaal is vereist wanneer de opbrengst wordt toegerekend vanuit het opbrengstschema of wanneer u een hertoewijzing uitvoert voor een verkooporder die al is gefactureerd.
 - **Methode voor toewijzing van korting inschakelen**: stel deze optie in op **Ja** om de opbrengstprijs te bepalen door toewijzing van de billijke marktwaarde die voor elk vrijgegeven product is gedefinieerd bij de opbrengstprijs. Deze toewijzing omvat onder andere het toewijzen van eventuele regelkortingen voor de artikelen. Als deze optie is ingesteld op **Nee** gebruikt het systeem de gemiddelde prijs die voor elk vrijgegeven product is gedefinieerd in de opbrengstprijs. Als deze optie is ingesteld op **Nee** maar er geen gemiddelde prijs is ingesteld voor de vrijgegeven producten, wordt de toewijzing van de opbrengstprijs niet uitgevoerd.

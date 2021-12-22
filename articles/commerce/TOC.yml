@@ -92,7 +92,9 @@
                   items:
                     - name: Startpagina voor nieuwe of gewijzigde functies in Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.23
+                    - name: Commerce 10.0.24 (februari 2022)
+                      href: get-started/whats-new-commerce-10-0-24.md
+                    - name: Commerce 10.0.23 (januari 2022)
                       href: get-started/whats-new-commerce-10-0-23.md
                     - name: Commerce 10.0.22 (november 2021)
                       href: get-started/whats-new-commerce-10-0-22.md
@@ -544,6 +546,8 @@
                       href: duplicate-payment-protection.md
                     - name: Overzicht van betalingen voor meerdere kanalen
                       href: omni-channel-payments.md
+                    - name: Meerdere beschikbare betalingsmethoden voor afhalen in de winkel
+                      href: dev-itpro/multiple-payments-pickup.md
                     - name: Commerce-orderbetalingen voor meerdere kanalen
                       href: dev-itpro/commerce-payments.md
                     - name: Gegevens van creditcardtransacties archiveren
@@ -814,9 +818,13 @@
           items:
             - name: Klantbeheer in winkels
               href: customer-mgmt-stores.md
+            - name: Modus voor het maken van asynchrone klanten
+              href: async-customer-mode.md
+            - name: Asynchrone klanten converteren naar synchrone klanten
+              href: convert-async-to-sync.md
             - name: Clienteling
               items:
-                - name: Overzicht van clienteling
+                - name: Clientelingoverzicht
                   href: clienteling-overview.md
             - name: Loyaliteit
               items:
@@ -1330,6 +1338,8 @@
                   href: localizations/latam-bra-nfce-contingency-mode.md
                 - name: Belastingdocumenten voor Brazilië boeken via detailhandelsoverzichten in Commerce Headquarters
                   href: localizations/latam-bra-retail-statements.md
+                - name: CF-e-functionaliteit voor belastingdocumenten en integratie met SAT in Commerce POS for Brazilië
+                  href: localizations/latam-bra-cf-e-sat.md
                 - name: Dynamics 365 Payment Connector voor Adyen in Commerce POS voor Brazilië
                   href: localizations/latam-bra-adyen.md
             - name: Oost-Europa
@@ -1378,8 +1388,10 @@
                   href: localizations/apac-ind-loc-deployment-guidelines.md
                 - name: Ondersteuning voor upgrade en N-1 voor India
                   href: localizations/apac-ind-n-1-for-india.md
-                - name: QR-codes genereren en deze op ontvangsten afdrukken
+                - name: QR-codes genereren en deze op ontvangsten afdrukken voor India
                   href: localizations/ind-generate-qr-code-print-receipt.md
+                - name: Integratie Belasting op goederen en diensten (GST) voor e-commercesites
+                  href: localizations/apac-ind-e-commerce.md
             - name: Italië
               items:
                 - name: Voorbeeld van integratie van fiscale printer voor Italië
@@ -1616,7 +1628,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/commerce/toc.json
-                    - name: Lijst
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/commerce/toc.json
+                    - name: List
                       items:
                         - name: Lijstfuncties
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/commerce/toc.json

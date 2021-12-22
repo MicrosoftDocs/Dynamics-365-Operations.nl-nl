@@ -12,14 +12,14 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Nieuwe of gewijzigde functies in Platform updates
               items:
-                - name: Startpagina voor nieuwe of gewijzigde functies in Platform updates
+                - name: Startpagina voor nieuwe of gewijzigde functies in Platform-updates
                   href: get-started/whats-new-home-page.md
-                - name: Platform updates voor versie 10.0.23
+                - name: Platform-updates voor versie 10.0.24 (februari 2022)
+                  href: get-started/whats-new-platform-updates-10-0-24.md
+                - name: Platform-updates voor versie 10.0.23 (januari 2022)
                   href: get-started/whats-new-platform-updates-10-0-23.md
-                - name: Platform updates voor versie 10.0.22 (november 2021)
+                - name: Platform-updates voor versie 10.0.22 (november 2021)
                   href: get-started/whats-new-platform-updates-10-0-22.md
-                - name: Platform updates voor versie 10.0.21 (oktober 2021)
-                  href: get-started/whats-new-platform-updates-10-0-21.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -232,9 +232,9 @@
               href: data-entities/dm-error-descriptions.md
         - name: Azure Data Lake
           items:
-            - name: Overzicht van Azure Data Lake
-              href: data-entities/azure-data-lake-overview.md
-            - name: Export naar Azure Data Lake configureren
+            - name: Overzicht van Export naar Azure Data Lake
+              href: data-entities/Azure-Data-Lake-GA-version-overview.md
+            - name: Invoegtoepassing Export naar Azure Data Lake installeren
               href: data-entities/configure-export-data-lake.md
             - name: Finance and Operations-apps in Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
@@ -402,10 +402,12 @@
                       href: lifecycle-services/reconfigure-environment.md
                     - name: On-premises implementaties opnieuw implementeren
                       href: deployment/redeploy-on-prem.md
-                    - name: 'Een AOS-knooppunt verwijderen en opnieuw installeren, of toevoegen'
+                    - name: Een AOS-knooppunt verwijderen en opnieuw installeren of toevoegen
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Hetzelfde AD FS-exemplaar hergebruiken voor meerdere omgevingen
                       href: deployment/onprem-reuseadfs.md
+                    - name: Het SQL Server-exemplaar van omgevingen met Microsoft Dynamics 365 Finance + Operations (on-premises) upgraden
+                      href: deployment/onprem-upgrade-sqlserver.md
                 - name: Lokale agent
                   items:
                     - name: AD FS Microsoft 365-compatibiliteit
@@ -1012,7 +1014,7 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Integratie van Microsoft Power Platform
           items:
-            - name: Integratie van Microsoft Power Platform met Finance and Operations
+            - name: Overzicht
               href: power-platform/overview.md
             - name: De integratie met Power Platform inschakelen
               href: power-platform/enable-power-platform-integration.md

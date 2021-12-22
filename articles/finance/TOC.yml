@@ -70,12 +70,12 @@
                   items:
                     - name: Startpagina voor nieuwe of gewijzigde functies in Finance
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.23
+                    - name: Finance 10.0.24 (februari)
+                      href: get-started/whats-new-changed-10-0-24.md
+                    - name: Finance 10.0.23 (januari)
                       href: get-started/whats-new-changed-10-0-23.md
                     - name: Finance 10.0.22 (november 2021)
                       href: get-started/whats-new-changed-10-0-22.md
-                    - name: Finance 10.0.21 (oktober 2021)
-                      href: get-started/whats-new-changed-10-0-21.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -518,6 +518,8 @@
               href: budgeting/budget-control-overview-configuration.md
             - name: Overzicht van Budgettering
               href: budgeting/basic-budgeting-overview-configuration.md
+            - name: Beschikbare budgetfondsen
+              href: budgeting/budget-funds-available.md
             - name: Prognosepositie
               href: budgeting/position-forecasting.md
             - name: Verantwoordingsdocumenten voor budgetplanning
@@ -1434,6 +1436,8 @@
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Elektronische facturering instellen
                           href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
+                        - name: Beheerdersreferentie voor Power Platform-invoegtoepassing
+                          href: localizations/e-invoicing-power-platform-plug-in.md
                     - name: Veelgestelde vragen over Elektronische facturering
                       href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Belastingberekening
@@ -1444,6 +1448,14 @@
                       items:
                         - name: Aan de slag met belastingberekening
                           href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                        - name: Belastingcodes instellen
+                          href: localizations/set-up-tax-codes.md
+                        - name: Belastinggroepen instellen
+                          href: localizations/set-up-tax-groups.md
+                        - name: Belastinggroepen voor artikelen instellen
+                          href: localizations/set-up-item-tax-groups.md
+                        - name: Belastingberekeningen importeren en exporteren
+                          href: localizations/tax-calculation-import-export-feature.md
                         - name: Een omgeving instellen voor het opzoeken van hoofdgegevens
                           href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
                     - name: Vaststelling
@@ -2588,12 +2600,14 @@
                       items:
                         - name: Certificaatnummers voor terug te vorderen TDS registreren
                           href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
-                        - name: Certificaatnummers en -datums bijwerken voor TDS-transacties
+                        - name: Certificaatnummers en -datums voor TDS-transacties bijwerken
                           href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
             - name: Indonesië
               items:
                 - name: Overzicht Indonesië
                   href: localizations/indonesia.md
+                - name: Nummering en facturering van belastingfacturen
+                  href: localizations/apac-idn-invoicing.md
                 - name: Btw-aangifte voor Indonesië
                   href: localizations/apac-idn-ppn-declaration.md
             - name: Italië
@@ -2662,6 +2676,8 @@
                   href: localizations/emea-ita-exil-tax-plafond.md
                 - name: Elektronische klantfacturen
                   href: localizations/emea-ita-e-invoices.md
+                - name: Elektronische leveranciersfacturen
+                  href: localizations/emea-ita-vend-e-invoices.md
                 - name: Jaarlijkse belastingaangifte
                   href: localizations/emea-ita-yearly-tax-communication.md
                 - name: Traceerbaarheid van betalingen
@@ -2964,6 +2980,20 @@
                   href: localizations/emea-nor-nets-import-format.md
                 - name: Btw-overzicht
                   href: localizations/emea-nor-sales-tax-payment-report.md
+                - name: Btw-retouren met directe verzending naar Altinn
+                  items:
+                    - name: Overzicht van btw-retouren met directe verzending naar Altinn
+                      href: localizations/emea-nor-vat-return.md
+                    - name: Een integratiepunt registreren in de webportal van ID-porten
+                      href: localizations/emea-nor-vat-return-integration-point.md
+                    - name: Omgeving voorbereiden om samen te werken met de webservices ID-porten en Altinn
+                      href: localizations/emea-nor-vat-return-setup.md
+                    - name: Controlelijst voor het instellen van elektronische berichten voor btw-retour
+                      href: localizations/emea-nor-vat-return-checklist.md
+                    - name: Finance-omgeving autoriseren om samen te werken met de webservices ID-porten en Altinn
+                      href: localizations/emea-nor-vat-return-authorization.md
+                    - name: Een btw-aangifte naar de webservice Altinn verzenden
+                      href: localizations/emea-nor-vat-return-submission.md
                 - name: Standaard auditfile voor belasting (SAF-T) voor Noorwegen
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
                 - name: Elektronische klantfacturen in Noorwegen
@@ -3831,7 +3861,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/finance/toc.json
-                    - name: Lijst
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/finance/toc.json
+                    - name: List
                       items:
                         - name: Lijstfuncties
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/finance/toc.json
