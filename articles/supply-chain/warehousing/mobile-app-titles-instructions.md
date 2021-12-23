@@ -1,22 +1,22 @@
 ---
 title: Staptitels en instructies aanpassen voor de mobiele app Warehouse Management
 description: In dit onderwerp wordt beschreven hoe u aangepaste instructies kunt aanmaken en weergeven voor elke stap van elke taakstroom die u hebt ingesteld voor de mobiele app van Warehouse Management.
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 08/11/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 112f4ab1d4ed6081ca14e93c3767139ccf95c9f7
-ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
+ms.openlocfilehash: ffd433427b2c5011740a7ee54c93713689945df3
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386142"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902242"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>Staptitels en instructies aanpassen voor de mobiele app Warehouse Management
 

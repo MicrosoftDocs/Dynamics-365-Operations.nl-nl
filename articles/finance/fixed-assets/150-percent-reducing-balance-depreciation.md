@@ -1,7 +1,7 @@
 ---
 title: Degressieve afschrijving van 150 procent
-description: Dit artikel biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving van 150 procent.
-author: saraschi2
+description: Dit onderwerp biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving van 150 procent.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c9d1db1099b2c118f67a74a49fc104b8b1761288f66543ab55d5001fc43ec31
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fe8a794e9d5f01e4cd8844b5388b37970607d0be
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747150"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883307"
 ---
 # <a name="150-percent-reducing-balance-depreciation"></a>Degressieve afschrijving van 150 procent
 
 [!include [banner](../includes/banner.md)]
 
-Dit artikel biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving van 150 procent.
+Dit onderwerp biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving van 150 procent.
 
 Wanneer u een profiel voor de afschrijving van vaste activa instelt en **150% degressief** selecteert in het veld **Methode** op de pagina **Afschrijvingsprofielen**, worden de vaste activa waaraan dit afschrijvingsprofiel is toegewezen, afgeschreven met hetzelfde percentage in elke afschrijvingsperiode. Dit percentage wordt berekend aan de hand van de levensduur van het activum. Als een activum een levensduur van bijvoorbeeld vijf jaar heeft, wordt het percentage berekend als 30 procent (150% ÷ 5). 
 

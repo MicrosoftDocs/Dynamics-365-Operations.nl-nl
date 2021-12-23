@@ -1,8 +1,8 @@
 ---
 title: Verbeteringen van boekingsfunctionaliteit voor overzichten
 description: In dit onderwerp worden verbeteringen beschreven die zijn aangebracht in de functie voor het boeken van overzichten.
-author: josaw1
-ms.date: 05/14/2019
+author: analpert
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -10,19 +10,20 @@ audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: anpurush
+ms.author: analpert
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 49fc9003eae562a155fd8e30345ba4590d36e15b61f9f6a3f0b5896cb720f414
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e7e88511ac3d0044c7e590f43f4486929f691ce9
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772199"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891436"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Verbeteringen van boekingsfunctionaliteit voor overzichten
 
 [!include [banner](includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 In dit onderwerp wordt de eerste set verbeteringen beschreven die zijn aangebracht in de functie voor het boeken van overzichten. Deze verbeteringen zijn beschikbaar in Microsoft Dynamics 365 for Finance and Operations 7.3.2.
 
@@ -116,9 +117,17 @@ Een overzicht doorloopt verschillende bewerkingen (zoals maken, berekenen, wisse
 
 ### <a name="aggregated-transactions"></a>Getotaliseerde transacties
 
-Tijdens het boekingsproces worden de verkooptransacties samengevoegd op basis van de configuratie. Deze samengevoegde transacties worden in het systeem opgeslagen en gebruikt om verkooporders te maken. Met elke samengevoegde transactie wordt één bijbehorende verkooporder in het systeem gemaakt. U kunt de samengevoegde transacties bekijken met de knop **Samengevoegde transacties** in de groep **Uitvoeringsdetails** van het overzicht.
+Tijdens het boekingsproces worden contante transacties samengevoegd per klant en product. Hierdoor worden minder verkooporders en -regels gemaakt. De samengevoegde transacties worden in het systeem opgeslagen en gebruikt om verkooporders te maken. Met elke samengevoegde transactie wordt één bijbehorende verkooporder in het systeem gemaakt. 
 
-Het tabblad **Details van verkooporder** van een samengevoegde transactie bevat de volgende informatie:
+Als een overzicht niet volledig is geboekt, kunt u samengevoegde transacties in het overzicht weergeven. Selecteer in het actievenster op het tabblad **Overzicht** in de groep **Uitvoeringsdetails** de optie **Getotaliseerde transacties**.
+
+![De knop Samengevoegde transacties voor een overzicht dat niet volledig is geboekt.](media/aggregated-transactions.png)
+
+Voor geboekte overzichten kunt u samengevoegde transacties op de pagina **Geboekte overzichten** weergeven. Selecteer **Query's** in het actiedeelvenster en selecteer vervolgens **Getotaliseerde transacties**.
+
+![Opdracht Getotaliseerde transacties voor geboekte overzichten.](media/aggregated-transactions-posted-statements.png)
+
+Het sneltabblad **Details van verkooporder** van een samengevoegde transactie bevat de volgende informatie:
 
 - **Record-ID**: de ID van de samengevoegde transactie.
 - **Overzichtsnummer**: het overzicht waartoe de samengevoegde transactie behoort.
@@ -127,10 +136,26 @@ Het tabblad **Details van verkooporder** van een samengevoegde transactie bevat 
 - **Aantal samengevoegde regels**: het totale aantal regels voor de samengevoegde transactie en de verkooporder.
 - **Status**: de laatste status van de samengevoegde transactie.
 - **Factuur-ID**: wanneer de verkooporder voor de samengevoegde transactie wordt gefactureerd, de id van de verkoopfactuur Als dit veld leeg is, is de factuur voor de verkooporder niet geboekt.
+- **Foutcode:** dit veld wordt ingesteld als de samenvoeging een fout bevat.
+- **Foutbericht:** dit veld wordt ingesteld als de samenvoeging een fout bevat. Het geeft details weer over de oorzaak van het mislukken van het proces. U kunt de informatie in de foutcode gebruiken om het probleem op te lossen en het proces vervolgens handmatig opnieuw starten. Afhankelijk van het type oplossing moeten samengevoegde verkopen mogelijk worden verwijderd en verwerkt in een nieuw overzicht.
 
-Het tabblad **Transactiedetails** van een samengevoegde transactie bevat alle transacties die naar de samengevoegde transactie zijn gehaald. De samengevoegde regels op de samengevoegde transactie tonen alle samengevoegde records van de transacties. De samengevoegde regels bevatten ook details zoals artikel, variant, hoeveelheid, prijs, nettobedrag, eenheid en magazijn. In principe komt elke samengevoegde regel overeen met één verkooporderregel.
+![Velden op het sneltabblad Verkooporderdetails van een samengevoegde transactie.](media/aggregated-transactions-error-message-view.png)
 
-Vanaf de pagina **Samengevoegde transacties** kunt u de XML voor een specifieke samengevoegde transactie downloaden met behulp van de knop **Verkooporder-XML exporteren**. U kunt de XML gebruiken voor foutopsporing van problemen met betrekking tot het maken en boeken van verkooporders. Download het XML-bestand, upload het naar een testomgeving en voer foutopsporing op het probleem in de testomgeving uit. De functionaliteit voor het downloaden van de XML voor samengevoegde transacties is niet beschikbaar voor overzichten die zijn geboekt.
+Het sneltabblad **Transactiedetails** van een samengevoegde transactie bevat alle transacties die naar de samengevoegde transactie zijn gehaald. De samengevoegde regels op de samengevoegde transactie tonen alle samengevoegde records van de transacties. De samengevoegde regels bevatten ook details zoals artikel, variant, hoeveelheid, prijs, nettobedrag, eenheid en magazijn. In principe komt elke samengevoegde regel overeen met één verkooporderregel.
+
+![Het sneltabblad Transactiedetails van een samengevoegde transactie.](media/aggregated-transactions-sales-details.png)
+
+In bepaalde situaties kunnen samengevoegde transacties hun geconsolideerde verkooporder mogelijk niet boeken. In deze situaties wordt een foutcode aan de overzichtsstatus gekoppeld. Als u alleen samengevoegde transacties met fouten wilt weergeven, kunt u het filter **Alleen fouten weergeven** in de weergave van samengevoegde transacties inschakelen door het selectievakje in te schakelen. Als u dit filter inschakelt, beperkt u de resultaten tot samengevoegde transacties met fouten die een oplossing vereisen. Zie [Online orders en asynchrone ordertransacties van klanten bewerken en controleren](edit-order-trans.md) voor informatie over het oplossen van deze problemen.
+
+![Selectievakje voor het filter Alleen weergeven in de weergave van samengevoegde transacties.](media/aggregated-transactions-failure-view.png)
+
+Op de pagina **Samengevoegde transacties** kunt u de XML voor een specifieke samengevoegde transactie downloaden door **Aggregatiegegevens exporteren**. U kunt de XML in elke XML-indeling controleren om de werkelijke gegevens te bekijken die betrekking hebben op het maken en boeken van verkooporders. De functionaliteit voor het downloaden van de XML voor samengevoegde transacties is niet beschikbaar voor overzichten die zijn geboekt.
+
+![De knop Aggregatiegegevens exporteren op de pagina Samengevoegde transacties.](media/aggregated-transactions-export.png)
+
+Als u de fout niet kunt herstellen door gegevens in de verkooporder of gegevens die de verkooporder ondersteunen te corrigeren, is een knop **Klantorder verwijderen** beschikbaar. Als u een order wilt verwijderen, selecteert u de samengevoegde transactie die is mislukt en **Klantorder verwijderen**. Zowel de samengevoegde transactie als de bijbehorende verkooporder wordt verwijderd. U kunt de transacties nu controleren met de functie voor bewerken en controleren. U kunt ze ook opnieuw verwerken via een nieuw overzicht. Nadat alle fouten zijn opgelost, kunt u de overzichtsboeking hervatten door de functie voor het boeken van overzichten voor het betreffende overzicht uit te voeren.
+
+![De knop Klantorder verwijderen in de weergave van samengevoegde transacties.](media/aggregated-transactions-delete-cust-order.png)
 
 De weergave met samengevoegde transacties biedt de volgende voordelen:
 

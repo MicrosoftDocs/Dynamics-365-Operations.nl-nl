@@ -2,7 +2,7 @@
 title: Rastermogelijkheden
 description: Dit onderwerp beschrijft diverse krachtige functies van het rasterbesturingselement. U moet de nieuwe rasterfunctie inschakelen als u toegang tot deze mogelijkheden wilt hebben.
 author: jasongre
-ms.date: 10/25/2021
+ms.date: 12/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a21a41399b5884fda9cce214f99851ffa93bbc43
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: ba3640cf13fecc54f4cc58cd8996e434cd16cf60
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700132"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890851"
 ---
 # <a name="grid-capabilities"></a>Rastermogelijkheden
 
@@ -119,6 +119,9 @@ Op dezelfde manier waarop u alle rijen in het raster kunt selecteren (of deselec
 
 ### <a name="hiding-column-names"></a>Kolomnamen verbergen
 Wanneer u gegevens groepeert, wordt standaard de kolomnaam weergegeven in de rij van de groepskoptekst. U kunt de kolomnaam in groepskoprijen onderdrukken door **Rasteropties** > **Groepskolomnaam verbergen** te selecteren.
+
+### <a name="grouping-on-date-and-time-columns"></a>Groeperen op datum- en tijdkolommen
+Vanaf versie 10.0.24 is voor de velden Datum/tijd en Tijd de optie toegevoegd om te groepen op basis van jaar, maand of dag. De groepswaarde in de bijbehorende koptekstrij komt overeen met de indeling uit dat veld. Bovendien kunt u met de velden Datum/tijd en Tijd groeperen op basis van uur, minuut of seconde.    
 
 ## <a name="freezing-columns"></a>Kolommen blokkeren
 Sommige kolommen in een raster kunnen dermate belangrijk zijn voor context dat u niet wilt dat ze uit de weergave verdwijnen. In plaats daarvan wilt u mogelijk dat de waarden in die kolommen altijd zichtbaar zijn. De functie **Kolommen in raster blokkeren** biedt deze flexibiliteit voor gebruikers. 

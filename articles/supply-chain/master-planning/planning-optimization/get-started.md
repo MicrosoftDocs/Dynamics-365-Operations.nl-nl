@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 8681ef80166f7d5f108c9424b53fa5c6f5324467
-ms.sourcegitcommit: fcb1aa39e933216dea9e586b552bce6057f416a6
+ms.openlocfilehash: 8e6328902cec840b98b401fe8dd46c2a6f18cb54
+ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "7645777"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902554"
 ---
 # <a name="get-started-with-planning-optimization"></a>Aan de slag met Planningsoptimalisatie
 
@@ -40,7 +40,7 @@ Voordat u Planningsoptimalisatie inschakelt, kunt u het beste de resultaten van 
 
 ## <a name="availability"></a>Beschikbaarheid
 
-Planningsoptimalisatie is momenteel beschikbaar in de volgende Azure-regio's: Verenigde Staten, Canada, Europa, Verenigd Koninkrijk, Australië, Azië/Pacific en Japan. Als u de invoegtoepassing vanuit een andere geografische regio probeert te installeren, wordt in LCS een bericht weergegeven dat deze niet wordt ondersteund. Zie [Azure-regio's](https://azure.microsoft.com/global-infrastructure/geographies/#geographies) voor meer informatie over Azure-regio's en de verwante regio's.
+Planningsoptimalisatie is momenteel beschikbaar in de volgende Azure-regio's: Verenigde Staten, Canada, Europa, Verenigd Koninkrijk, Australië, Azië/Pacific, Japan en India. Als u de invoegtoepassing vanuit een andere geografische regio probeert te installeren, wordt in LCS een bericht weergegeven dat deze niet wordt ondersteund. Zie [Azure-regio's](https://azure.microsoft.com/global-infrastructure/geographies/#geographies) voor meer informatie over Azure-regio's en de verwante regio's.
 
 Planningsoptimalisatie wordt niet ondersteund voor on-premises implementaties van Dynamics 365 Supply Chain Management.
 

@@ -2,7 +2,7 @@
 title: Afbeeldingen uploaden
 description: In dit onderwerp wordt beschreven hoe u afbeeldingen uploadt in Microsoft Dynamics 365 Commerce Site Builder.
 author: psimolin
-ms.date: 08/25/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a5607fa70f5d5d28d10bcbd50da11bb96cbf75de
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423250"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891517"
 ---
 # <a name="upload-images"></a>Afbeeldingen uploaden
 
@@ -41,7 +41,8 @@ Bij het uploaden van een afbeelding kan de volgende informatie worden opgegeven.
 - **Activa publiceren na uploaden**: wanneer dit selectievakje is ingeschakeld, worden de afbeeldingen direct na het uploaden gepubliceerd.
 
 > [!NOTE]
-> Afbeeldingsactiva waaraan een categorie is toegewezen, worden ook automatisch gelabeld met de categorie als trefwoord voor het zoeken naar activa van een bepaalde categorie.
+> - Afbeeldingsactiva waaraan een categorie is toegewezen, worden ook automatisch gelabeld met de categorie als trefwoord voor het zoeken naar activa van een bepaalde categorie.
+> - Op productdetailpagina's wordt met behulp van de productnaam dynamisch de **Alt-tekst** gegenereerd. Als u de **Alt-tekst** voor een productafbeelding verandert, heeft dit geen invloed op de weergegeven afbeelding.
 
 ### <a name="naming-conventions-for-omni-channel-images"></a>Naamgevingsconventies voor omnichannel-afbeeldingen 
 

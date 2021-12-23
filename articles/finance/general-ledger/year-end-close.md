@@ -2,7 +2,7 @@
 title: Jaarafsluiting
 description: In dit onderwerp worden de vereiste instellingen en stappen beschreven voor het uitvoeren van het jaarafsluitingsproces van het grootboek.
 author: kweekley
-ms.date: 07/10/2021
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5677ebeee6b8260280d4c9c7c8a7a0e18e7bd78f68a42d23967948a2e75120cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04eeb8886d74fa8c633d2ac4e9e47aa28a12ee30
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778261"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892472"
 ---
 # <a name="year-end-close"></a>Jaarafsluiting
 
@@ -44,7 +44,7 @@ Op de pagina **Hoofdrekening**:
 Op de pagina **Grootboekparameters** onder **Afsluiting boekjaar**:
 
 - De optie **Bestaande jaarafsluitingsposten verwijderen bij het opnieuw afsluiten van het jaar** wordt gebruikt om op te geven of de door het systeem gegenereerde openingstransactie uit een vorige jaarafsluiting moet worden verwijderd wanneer de jaarafsluiting opnieuw wordt uitgevoerd. Als deze optie wordt ingesteld op **Ja**, wordem de vorige openings- en optionele afsluittransacties verwijderd en wordt er een nieuwe openings- of afsluittransactie gemaakt op basis van de huidige saldi. Als deze optie is ingesteld op **Nee**, blijft de vorige openings- en optionele afsluittransactie behouden en wordt er een extra openings- of afsluittransactie gemaakt om de saldi te transporteren via correctietransacties die zijn geboekt na de vorige jaarafsluiting.
-- De optie **Afsluittransacties tijdens overboeken maken** wordt gebruikt om afsluittransacties te maken in het fiscale jaar dat wordt afgesloten om de saldi van de winst- en verliesrekeningen op 0 (nul) te brengen. Als deze optie wordt ingesteld op **Ja**, worden zowel de openingstransactie als de afsluittransactie gemaakt. Als deze optie wordt ingesteld op **Nee**, wordt alleen de openingstransactie gemaakt in het volgende fiscale jaar om de saldi over te boeken. De saldi van winst- en verliesrekening blijven aan het einde van het boekjaar.
+- De optie **Afsluittransacties tijdens overboeken maken** wordt gebruikt om afsluittransacties te maken in het fiscale jaar dat wordt afgesloten om de saldi van alle hoofdrekeningen op 0 (nul) te brengen. Als deze optie wordt ingesteld op **Ja**, worden zowel de openingstransactie als de afsluittransactie gemaakt. Als deze optie wordt ingesteld op **Nee**, wordt alleen de openingstransactie gemaakt in het volgende fiscale jaar om de saldi over te boeken. De saldi van hoofdrekening blijven aan het einde van het boekjaar.
 - De optie **Status boekjaar instellen op definitief afgesloten** wordt gebruikt om het boekjaar in te stellen op een permanent afgesloten status. Gebruik deze optie zorgvuldig, omdat perioden met de status Permanent afgesloten niet opnieuw kunnen worden geopend. Daarom kunnen correcties niet voor het fiscale jaar worden geboekt. U kunt deze optie het beste op **Nee** instellen.
 - De optie **Boekstuknummer moet worden ingevuld** is verwijderd. Er is nu een boekstuk vereist wanneer het jaarafsluitingsproces wordt uitgevoerd. Op dat moment wordt het boekstuknummer handmatig ingevoerd.
 

@@ -2,7 +2,7 @@
 title: Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
 description: Dit onderwerp bevat informatie over het ontwerpen van een ER-indeling (Elektronische rapportage) voor het invullen van een Excel-sjabloon en het genereren van uitgaande Excel-documenten.
 author: NickSelin
-ms.date: 10/29/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cfacc2232201b85a49068ee724b55e71b60eb2be
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: ebe2647bb382421921aa6ffc733953f379a8af10
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731633"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890860"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
 
 [!include[banner](../includes/banner.md)]
 
-U kunt een [ER](general-electronic-reporting.md)-indelingsconfiguratie ontwerpen met een ER-[indelingsonderdeel](general-electronic-reporting.md#FormatComponentOutbound) dat u kunt configureren om een uitgaand document in een Microsoft Excel-werkmapindeling te genereren. Hiervoor moeten specifieke ER-indelingsonderdelen worden gebruikt.
+U kunt een configuratie voor [elektronische rapportage (ER)](general-electronic-reporting.md) ontwerpen met een ER-indelingsonderdeel dat u kunt configureren om een uitgaand document in een Microsoft Excel-werkmapindeling te genereren. Hiervoor moeten specifieke ER-indelingsonderdelen worden gebruikt.
 
 Volg de stappen in het onderwerp [Een configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling](tasks/er-design-reports-openxml-2016-11.md) voor meer informatie over deze functie.
 
@@ -330,6 +330,40 @@ Wanneer een uitgaand document in een Microsoft Excel-werkmapindeling wordt gegen
 6. Genereer een afdrukbaar FTI-document en controleer de voettekst van het gegenereerde document.
 
     ![De voettekst van een gegenereerd document controleren in Excel-indeling.](./media/er-fillable-excel-footer-4.gif)
+
+## <a name="example-2-fixing-the-merged-cells-epplus-issue"></a><a name="example-2"></a>Voorbeeld 2: Het oplossen van het EPPlus-probleem met samengevoegde cellen
+
+U kunt een ER-indeling uitvoeren om een uitgaand document in een Excel-werkmapindeling te genereren. Wanneer de functie **Gebruik van EPPlus-bibliotheek inschakelen in het ER-raamwerk** is ingeschakeld in de werkruimte **Functiebeheer**, wordt de [EPPlus-bibliotheek](https://www.nuget.org/packages/epplus/4.5.2.1) gebruikt om Excel-uitvoer te maken. Mogelijk kan echter vanwege bekend [Excel-gedrag](https://answers.microsoft.com/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) en een beperking van de EPPlus-bibliotheek de volgende uitzondering optreden: "Samengevoegde cellen kunnen niet worden verwijderd/overschreven. Een bereik wordt gedeeltelijk samengevoegd met het andere samengevoegde bereik." Als u wilt weten welke Excel-sjablonen deze uitzondering kunnen veroorzaken en hoe u het probleem kunt oplossen, gaat u in het volgende voorbeeld te werk.
+
+1. Maak in de Excel-bureaubladtoepassing een nieuwe Excel-werkmap.
+2. Voeg in het werkblad **Blad1** de naam **ReportTitle** toe voor cel **A2**.
+3. Voeg de cellen **A1** en **A2** toe.
+
+    ![De resultaten van het samenvoegen van cellen A1 en A2 in de ontworpen Excel-werkmap in de Excel-bureaubladtoepassing.](./media/er-fillable-excel-example2-1.png)
+
+3. Op de pagina **Configuraties** kunt u [een nieuwe ER-indeling toevoegen](er-fillable-excel.md#add-a-new-er-format) om een uitgaand document in Excel-werkmapindeling te genereren.
+4. [Importeer](er-fillable-excel.md#template-import) op de pagina **Indelingsontwerper** de ontworpen Excel-werkmap in de toegevoegde ER-indeling als een nieuwe sjabloon voor uitgaande documenten.
+5. Configureer op het tabblad **Toewijzing** de binding voor het onderdeel **ReportTitle** van het type [Cel](er-fillable-excel.md#cell-component).
+6. Voer de geconfigureerde indeling uit. De volgende uitzondering treedt op: "Samengevoegde cellen kunnen niet worden verwijderd/overschreven. Een bereik wordt gedeeltelijk samengevoegd met het andere samengevoegde bereik."
+
+    ![De resultaten bekijken van het uitvoeren van de geconfigureerde ER-indeling op de pagina Indelingsontwerper.](./media/er-fillable-excel-example2-2.png)
+
+U kunt het probleem op een van de volgende manieren oplossen:
+
+- **Eenvoudiger, maar niet aanbevolen**: schakel in de werkruimte **Functiebeheer** de functie **Gebruik van EPPlus-bibliotheek inschakelen in het ER-raamwerk** uit. Hoewel deze benadering eenvoudiger is, kan het zijn dat u andere problemen krijgt als u deze gebruikt, omdat sommige ER-functionaliteit alleen wordt ondersteund wanneer de functie **Gebruik van EPPlus-bibliotheek inschakelen in het ER-raamwerk** is ingeschakeld.
+- **Aanbevolen:** volg deze stappen:
+
+    1. Pas de Excel-werkmap op een van de volgende manieren aan in de Excel-bureaubladtoepassing:
+
+        - Maak in het werkblad **Blad1** de samenvoeging van de cellen **A1** en **A2** ongedaan.
+        - Wijzig de verwijzing voor de naam **ReportTitle** van **=Sheet1!$A$2** in **=Sheet1!$A$1**.
+
+        ![De resultaten van het wijzigen van de verwijzing in de ontworpen Excel-werkmap in de Excel-bureaubladtoepassing.](./media/er-fillable-excel-example2-3.png)
+
+    2. [Importeer](er-fillable-excel.md#template-import) op de pagina **Indelingsontwerper** de gewijzigde Excel-werkmap in de bewerkbare ER-indeling om de bestaande sjabloon bij te werken.
+    3. Voer de gewijzigde ER-indeling uit.
+
+        ![Het gegenereerde document in de Excel-bureaubladtoepassing controleren.](./media/er-fillable-excel-example2-4.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

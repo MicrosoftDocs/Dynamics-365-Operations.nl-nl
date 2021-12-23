@@ -2,7 +2,7 @@
 title: Werknemerselfservice configureren
 description: In Microsoft Dynamics 365 Human Resources kunt u tegels configureren voor navigatie op het hoogste niveau in Selfservice werknemer.
 author: twheeloc
-ms.date: 08/24/2021
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 92a788dd436f4efc16946a47731c9dbce36ab0e9
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: 1e0c59eb8db5a97405e87922cc65f3eb74bee48e
+ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423299"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7898435"
 ---
 # <a name="configure-employee-self-service"></a>Werknemerselfservice configureren
 
@@ -34,19 +34,16 @@ In Microsoft Dynamics 365 Human Resources kunt u tegels configureren voor naviga
 
 2. Selecteer het tabblad **Tegel voor vergoedingsplannen instellen** en selecteer vervolgens **Nieuw**.
 
-3. Geef de waarden op voor de volgende velden:
+3. Geef de waarden op voor de volgende velden.
 
-   | Veld | Beschrijving |
+   | Veld | Description |
    | --- | --- |
+   | **Code van plantype** | Het plantype dat wordt weergegeven wanneer deze tegel wordt geselecteerd in **Vergoedingen via selfservice**. |
    | **Tegel-id** | De unieke id voor de tegel. |
-   | **Tekst van tegellabel** | De tekst die voor de tegel wordt weergegeven in **Selfservice werknemer**. |
+   | **Tekst van tegellabel** | De tekst die voor de tegel wordt weergegeven in **Vergoedingen via selfservice**. |
    | **Beschrijving** | Een beschrijving van de tegel. |
-   | **Internetadres** | Voer de URL in voor de pagina **Selfservice werknemer**. |
-   | **Tegelgrootte** | De grootte van de tegel: klein, normaal of groot. |
-   | **Doel** | Geeft aan of de pagina in een nieuw venster of in het huidige venster moet worden geopend. |
    | **Afbeelding voor tegelachtergrond** | De URL van de afbeelding die moet worden gebruikt voor de tegel (optioneel). |
-   | **Start** | De begindatum en -tijd waarop de tegel beschikbaar moet zijn. |
-   | **End** | De einddatum en -tijd waarop de tegel beschikbaar moet zijn. |
+   | **Openstaande inschrijving bijhouden** | U kunt deze optie gebruiken als u de voortgang van de openstaande inschrijving voor dit plantype wilt bijhouden. U kunt bijvoorbeeld plannen hebben gemaakt waarbij **Plantype = Overig** is. Deze plannen kunnen optionele plannen zijn waarvan u de voortgang van de inschrijvingsproces niet wilt bijhouden. Als u dit plantype niet selecteert, worden plannen van dit type genegeerd wanneer u de voortgang of voltooiing van de inschrijving op het tabblad **Inschrijving openen** volgt. Deze instelling is van toepassing op het plantype dat voor alle perioden en rechtspersonen is geselecteerd. |
 
 4. Selecteer **Opslaan**.
 
@@ -56,19 +53,16 @@ In Microsoft Dynamics 365 Human Resources kunt u tegels configureren voor naviga
 
 2. Selecteer het tabblad **Tegel voor flex-kredietplan instellen** en selecteer vervolgens **Nieuw**.
 
-3. Geef de waarden op voor de volgende velden:
+3. Geef de waarden op voor de volgende velden.
 
-   | Veld | Beschrijving |
+   | Veld | Description |
    | --- | --- |
+   | **Vergoedingskrediet-id** | De programma's met flexibele kredieten die worden weergegeven wanneer deze tegel wordt geselecteerd in **Vergoedingen via selfservice**. |
    | **Tegel-id** | De unieke id voor de tegel. |
-   | **Tekst van tegellabel** | De tekst die voor de tegel wordt weergegeven in **Selfservice werknemer**. |
+   | **Tekst van tegellabel** | De tekst die voor de tegel wordt weergegeven in **Vergoedingen via selfservice**. |
    | **Beschrijving** | Een beschrijving van de tegel. |
-   | **Internetadres** | Voer de URL in voor de pagina **Selfservice werknemer**. |
-   | **Tegelgrootte** | De grootte van de tegel: klein, normaal of groot. |
-   | **Doel** | Geeft aan of de pagina in een nieuw venster of in het huidige venster moet worden geopend. |
    | **Afbeelding voor tegelachtergrond** | De URL van de afbeelding die moet worden gebruikt voor de tegel (optioneel). |
-   | **Start** | De begindatum en -tijd waarop de tegel beschikbaar moet zijn. |
-   | **End** | De einddatum en -tijd waarop de tegel beschikbaar moet zijn. |
+   | **Openstaande inschrijving bijhouden** | U kunt deze optie gebruiken als u de voortgang van de openstaande inschrijving voor dit plantype wilt bijhouden. U kunt bijvoorbeeld plannen hebben gemaakt waarbij **Plantype = Overig** is. Deze plannen kunnen optionele plannen zijn waarvan u de voortgang van de inschrijvingsproces niet wilt bijhouden. Als u dit plantype niet selecteert, worden plannen van dit type genegeerd wanneer u de voortgang of voltooiing van de inschrijving op het tabblad **Inschrijving openen** volgt. Deze instelling is van toepassing op het plantype dat voor alle perioden en rechtspersonen is geselecteerd. |
 
 4. Selecteer **Opslaan**.
 

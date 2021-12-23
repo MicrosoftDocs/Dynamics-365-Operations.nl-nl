@@ -2,7 +2,7 @@
 title: Het Adventure Works-thema installeren
 description: In dit onderwerp wordt beschreven hoe u het Adventure Works-thema installeert in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/21/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ad704c6c3b95abcfd52e449a0ffbb4b82b236498ae8d2775c4e65811de3ef503
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d9d0d04c1a698c765b5effcca88624e6fb99da64
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763831"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913697"
 ---
 # <a name="install-the-adventure-works-theme"></a>Het Adventure Works-thema installeren
 
@@ -32,7 +32,7 @@ In dit onderwerp wordt beschreven hoe u het Adventure Works-thema installeert in
 
 ## <a name="prerequisites"></a>Vereisten
 
-Voordat u het Adventure Works-thema installeert, moet u een Dynamics 365 Commerce-omgeving (Commerce versie 10.0.20 of hoger) hebben waarin Retail Cloud Scale Unit (RCSU), de Commerce online Software Development Kit (SDK) en de Commerce-modulebibliotheek zijn. Zie [SDK en modulesbibliotheekupdates](e-commerce-extensibility/sdk-updates.md) voor informatie over het installeren van de Commerce SDK en de modulebibliotheek. 
+Voordat u het Adventure Works-thema installeert, moet u een Dynamics 365 Commerce-omgeving (Commerce versie 10.0.20 of hoger) hebben waarin Retail Cloud Scale Unit (RCSU), de Commerce online Software Development Kit (SDK) en de Commerce-modulebibliotheek zijn. Zie [Een ontwikkelomgeving instellen](e-commerce-extensibility/setup-dev-environment.md) voor informatie over het installeren van de Commerce SDK en de modulebibliotheek. 
 
 ## <a name="installation-steps"></a>Installatiestappen
 
@@ -48,11 +48,19 @@ Het pakket van het Adventure Works-thema is beschikbaar in de feed **dynamics365
 
     `"@msdyn365-commerce-theme:registry" "https://pkgs.dev.azure.com/commerce-partner/Registry/_packaging/dynamics365-commerce/npm/registry/"`  
     
-Als u het pakket in de lokale omgeving wilt installeren, moet u de volgende opdracht uitvoeren via de opdrachtprompt. Met deze opdracht wordt het bestand package.json automatisch bijgewerkt zodat het de afhankelijkheid bevat.
+Als u het pakket in uw lokale omgeving wilt installeren, moet u de opdracht `yarn add THEME_PACKAGE@VERSION` uitvoeren via de opdrachtprompt, waarbij **THEME_PACKAGE** het themapakket (@msdyn365-commerce-theme/adventureworks-theme-kit) is en **VERSION** het versienummer van de modulebibliotheek die wordt gebruikt. Het is belangrijk dat de versies van het themapakket en de modulebibliotheek overeenkomen. U vindt het juiste versienummer van de modulebibliotheek die u wilt gebruiken door het package.json-bestand te openen en te zoeken naar de waarde van **starter-pack** onder de sectie **dependencies**. In het volgende voorbeeld gebruikt het package.json-bestand versie 9.32 van de modulebibliotheek die wordt toegewezen aan Dynamics 365 Commerce-versie 10.0.22.  
 
-`yarn add @msdyn365-commerce-theme/adventureworks-theme-kit`
+```json
+"dependencies": {
+    "@msdyn365-commerce-modules/starter-pack": "9.32",
+}
+```
 
-In het bestand **package.json** moet u de themaversie bijwerken naar een specifieke versie.
+In het volgende voorbeeld ziet u hoe u de opdracht `yarn add` kunt uitvoeren om versie 9.32 van het Adventure Works-thema toe te voegen. Met deze opdracht wordt het bestand package.json automatisch bijgewerkt zodat het de afhankelijkheid bevat.
+
+`yarn add @msdyn365-commerce-theme/adventureworks-theme-kit@9.32`
+
+Zie [Updates voor SDK's en modulebibliotheken](e-commerce-extensibility/sdk-updates.md) voor meer informatie over het bijwerken van de modulebibliotheekversie. 
 
 > [!IMPORTANT]
 > - De themaversie moet overeenkomen met de versie van de modulebibliotheek om ervoor te zorgen dat alle functies werken zoals verwacht. 

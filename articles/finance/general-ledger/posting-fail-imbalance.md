@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-8-03
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fc413f8230849653aef8c2951f1749823edded6e
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 0f1f49a7da2f015d90987587fc251a36cfe82d49
+ms.sourcegitcommit: cd7f1c63f48542a8ebcace7b3d512eb810d4b56e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605424"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "7903245"
 ---
 # <a name="journal-posting-failure-because-of-imbalance"></a>Journaalboeking mislukt door onevenwichtigheid
 
@@ -52,13 +52,13 @@ In een ondersteund scenario kan een boekstuk meerdere transactievaluta's hebben.
 
 Als alle regels van een boekstuk dezelfde transactievaluta hebben en de bedragen voor transactievaluta in evenwicht zijn, controleert het systeem of de bedragen in de valuta voor boekhouding in evenwicht zijn. Als het boekstuk is ingevoerd in een vreemde valuta, wordt de wisselkoers op de boekstukregels gebruikt om de bedragen van de transactievaluta om te rekenen naar de valuta voor boekhouding. Eerst wordt elke regel van het boekstuk omgerekend en afgerond op twee decimalen. Vervolgens worden de regels opgeteld om de totale debet- en creditbedragen te bepalen. Aangezien elke regel wordt omgerekend, zijn de totale debet en totale credit mogelijk niet in evenwicht. Als de absolute waarde van het verschil echter binnen de waarde voor **Maximaal afrondingsverschil** valt die is gedefinieerd op de pagina **Grootboekparameters**, wordt het boekstuk geboekt en wordt het verschil automatisch geboekt naar de rekening voor afrondingsverschillen.
 
-Als het boekstuk meerdere transactievaluta heeft, wordt elke regel van het boekstuk omgerekend naar de valuta voor boekhouding en afgerond op twee decimalen. Vervolgens worden de regels opgeteld om de totale debet- en totale creditbedragen te bepalen. Om als in evenwicht te worden beschouwd, moeten de debet- en creditrekeningen in evenwicht zijn, omgerekend of als het afrondingsverschil in de boekhoudingsvaluta wordt opgenomen.
+Als het boekstuk meerdere transactievaluta heeft, wordt elke regel van het boekstuk omgerekend naar de valuta voor boekhouding en afgerond op twee decimalen. Vervolgens worden de regels opgeteld om de totale debet- en totale creditbedragen te bepalen. Voor een evenwichtige afronding moeten de debet- en creditbetalingen in evenwicht zijn in de valuta voor boekhouding.  Er wordt nooit een afrondingsrekening aan het boekstuk in de valuta voor boekhouding toegevoegd om de debet- en creditbedragen in balans te brengen. 
 
 ### <a name="reporting-currency"></a>Aangiftevaluta
 
 Als alle regels van een boekstuk dezelfde transactievaluta hebben en de bedragen voor transactievaluta in evenwicht zijn, controleert het systeem of de bedragen in de aangiftevaluta in evenwicht zijn. Als het boekstuk is ingevoerd in een vreemde valuta, wordt de wisselkoers op de boekstukregels gebruikt om de bedragen van de transactievaluta om te rekenen naar de aangiftevaluta. Eerst wordt elke regel van het boekstuk omgerekend en afgerond op twee decimalen. Vervolgens worden de regels opgeteld om de totale debet- en creditbedragen te bepalen. Aangezien elke regel wordt omgerekend, zijn de totale debet en totale credit mogelijk niet in evenwicht. Als het verschil niettemin binnen de waarde voor **Maximaal afrondingsverschil in aangiftevaluta** valt die is gedefinieerd op de pagina **Grootboekparameters**, wordt het boekstuk geboekt en wordt het verschil automatisch geboekt naar de rekening voor afrondingsverschillen.
 
-Als het boekstuk meerdere transactievaluta heeft, wordt elke regel van het boekstuk omgerekend naar de aangiftevaluta en afgerond op twee decimalen. Vervolgens worden de regels opgeteld om de totale debet- en totale creditbedragen te bepalen. Om als in evenwicht te worden beschouwd, moeten de debet- en creditrekeningen in evenwicht zijn, omgerekend of als het afrondingsverschil in de aangiftevaluta wordt opgenomen.
+Als het boekstuk meerdere transactievaluta heeft, wordt elke regel van het boekstuk omgerekend naar de aangiftevaluta en afgerond op twee decimalen. Vervolgens worden de regels opgeteld om de totale debet- en totale creditbedragen te bepalen. Voor een evenwichtige afronding moeten de debet- en creditbetalingen in evenwicht zijn in de aangiftevaluta.  Er wordt nooit een afrondingsrekening aan het boekstuk in de aangiftevaluta toegevoegd om de debet- en creditbedragen in balans te brengen.
 
 ### <a name="example-for-an-accounting-currency-imbalance"></a>Voorbeeld voor een onevenwicht in een boekhoudingsvaluta
 

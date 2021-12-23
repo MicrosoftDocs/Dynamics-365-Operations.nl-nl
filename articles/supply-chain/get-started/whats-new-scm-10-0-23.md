@@ -1,5 +1,5 @@
 ---
-title: Preview van Dynamics 365 Supply Chain Management 10.0.23
+title: Preview van Dynamics 365 Supply Chain Management 10.0.23 (januari 2022)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management 10.0.23.
 author: kamaybac
 ms.date: 10/15/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 7950d225bd528c05c14df108f4d44cef3e348ebb
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: fd6483c86b34d355e3727a95794b7876dc54ec32
+ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777786"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "7891788"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10023"></a>Preview van Dynamics 365 Supply Chain Management 10.0.23
+# <a name="preview-of-dynamics-365-supply-chain-management-10023-january-2022"></a>Preview van Dynamics 365 Supply Chain Management 10.0.23 (januari 2022)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -26,6 +26,7 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in de
 
 - **Preview van versie:** oktober 2021
 - **Algemene beschikbaarheid van versie (zelfupdate):** december 2021
+- **Algemene beschikbaarheid van versie (automatische update):** januari 2022
 
 ## <a name="features-included-in-this-release"></a>Functies in deze versie
 
@@ -53,6 +54,7 @@ Als u een van deze functies wilt in- of uitschakelen, moet u dit doen in [functi
 | Voorraad- en magazijnbeheer | \[Rusland\] Stornotransacties voor financiële voorraad boeken volgens de correctiemarkering in het financiële boekstuk voor verkooporders | Deze functie is van invloed op de functionaliteit voor correcties van creditnota's voor Rusland. Hiermee wordt het boeken van voorraadtransacties voor verkoopfacturen in overeenstemming met de correctieoptie in het grootboek mogelijk. Wanneer deze functie is ingeschakeld, zijn er geen verschillen meer tussen de vlag **Correctie** op het financiële boekstuk van de voorraadtransactie en de vlag **Storno** op voorraadtransacties. |
 | Voorraad- en magazijnbeheer | (Rusland) Berekening van omzetrapport van voorraadsaldo in batch uitvoeren | Deze functie verschaft voor Russische lokalisaties van Supply Chain Management de mogelijkheid het rapport *Omzet van voorraadsaldi* in batch uit te voeren, dit op te slaan en de rapporten die eerder zijn gegenereerd, weer te geven. |
 | Voorraad- en magazijnbeheer | (Rusland) Vertalingen naar lokale taal gebruiken in land- of regiospecifieke primaire formulieren in Voorraadbeheer | Deze functie maakt voor Russische lokalisaties van Supply Chain Management gebruik van Russische vertalingen mogelijk voor product-/artikelnamen en maateenheden in de volgende specifiek Russische voorraadafdrukken:Tellijst (INV-3),Tellijst (INV-5),Tellijst (INV-6). |
+| Hoofdplanning | Vraagprognose voor service Azure Machine Learning service | Met deze functie kan Azure Machine Learning Service vraagprognoses genereren op basis van historische gegevens. Zie voor meer informatie [Instelling van Vraagprognose](../master-planning/demand-forecasting-setup.md). |
 | Inkoopbeheer | Inkooporderhistorie voor update opschonen | Met deze functie kunt u tijdelijke historische records opschonen die zijn gerelateerd aan updates van inkooporders. Hiermee wordt een nieuwe knop met de naam **Inkooporderhistorie voor update opschonen** aan het actievenster toegevoegd op de pagina **Alle inkooporders**. Deze functie is standaard ingeschakeld. |
 | Productiebeheer | (Preview) Automatisch verzamelen van materialen waarvoor magazijn is ingeschakeld voor automatisch geboekte orderverzamellijsten | Met deze functie kunt u voorraaddimensies automatisch verzamelen en oplossen voor automatisch geboekte en terugwaarts afgeboekte orderverzamellijstjournalen. |
 | Productiebeheer | Vervaldatum van grondstoffen valideren tegen geplande verbruiksdatum | Door deze functie wordt de validatie van batchverloopdatums gewijzigd bij het reserveren van een batch grondstoffen die tijdens de productie moet worden gebruikt. Wanneer deze functie is ingeschakeld, wordt de vervaldatum van de batch gevalideerd tegen de geplande verbruiksdatum (de grondstofdatum), zoals is vastgesteld op de productiestuklijstregel of batchorderformuleregel. Als deze functie is uitgeschakeld, wordt de batchvervaldatum gevalideerd tegen de geplande leveringsdatum van de productie- of batchorder (zoals eerder). |

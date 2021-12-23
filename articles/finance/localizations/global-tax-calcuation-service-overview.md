@@ -2,7 +2,7 @@
 title: Overzicht van belastingberekening
 description: In dit onderwerp worden het algehele bereik en de functies voor belastingberekening uitgelegd.
 author: wangchen
-ms.date: 10/15/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: caa7e458763b6ba6b2b85ab016a1aa2e53cee89a
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 28b14eba7dd870e80a83f8d31671525b593a09c9
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647052"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892419"
 ---
 # <a name="tax-calculation-overview"></a>Overzicht van belastingberekening
 
@@ -64,6 +64,20 @@ Belastingberekening wordt geïmplementeerd in de volgende geografische regio's v
 
 > [!NOTE]
 > Een eerdere versie van Dynamics 365, zoals Dynamics AX 2012, of on-premises implementaties van Dynamics 365 wordt niet door Belastingberekening ondersteund.
+
+## <a name="versions"></a>Versies
+Het is raadzaam om uw btw-berekeningsconfiguratie te importeren en in te stellen met de versie die overeenkomt met uw versie van Finance of Supply Chain Management.
+
+| Versie van Finance of Supply Chain Management | Versie van belastingconfiguratie               |
+| --------------- | --------------------------------------- |
+| 10.0.18         | Belastingconfiguratie - Europa 30.12.82     |
+| 10.0.19         | Belastingberekeningsconfiguratie 36.38.193 |
+| 10.0.20         | Belastingberekeningsconfiguratie 40.43.208 |
+| 10.0.21         | Belastingberekeningsconfiguratie 40.48.215 |
+| 10.0.22         | Belastingberekeningsconfiguratie 40.48.215 |
+| 10.0.23         | Belastingberekeningsconfiguratie 40.50.221 |
+| 10.0.24         | Belastingberekeningsconfiguratie 40.50.225 |
+
 
 ## <a name="data-flow"></a>Gegevensstroom
 
@@ -169,6 +183,10 @@ De volgende landen/regio's voor het primaire adres van een rechtspersoon worden 
 - Japan
 - Maleisië
 - Singapore
+
+De volgende landen/regio's voor het primaire adres van een rechtspersoon worden ondersteund in versie 10.0.24:
+
+- Mexico
 
 ## <a name="related-resources"></a>Gerelateerde bronnen
 

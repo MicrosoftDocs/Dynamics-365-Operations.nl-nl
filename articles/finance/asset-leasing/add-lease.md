@@ -2,7 +2,7 @@
 title: Leases toevoegen of kopiëren (preview)
 description: In dit onderwerp wordt beschreven hoe u een nieuwe lease maakt door informatie in te voeren in Activa leasen of door gegevens uit een bestaande lease te kopiëren.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2f2e6837819158688f3fd6bc28909a106a05a098ca917cab9032a2d0044042fc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee4803c4653b8c2df2cb731652456b1ce2796cd0
+ms.sourcegitcommit: e77d72fde17a43bd1780c265702254011af7407c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761321"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7893640"
 ---
 # <a name="add-or-copy-leases-preview"></a>Leases toevoegen of kopiëren (preview)
 
@@ -35,6 +35,8 @@ Volg deze stappen om een lease te maken in Activa leasen.
 1. Selecteer op de pagina **Leaseoverzicht** in het actievenster de optie **Nieuw**.
 2. Voer gegevens over de lease in. Vereiste velden hebben een rode rand.
 
+> De begindatum voor de leasebetaling kan niet voor de begindatum van de lease vallen. Als u een begindatum opgeeft voor de leasebetaling die eerder is dan de begindatum voor de lease, wordt een foutbericht weergegeven.
+  
 ## <a name="create-a-lease-schedule"></a>Een leaseschema maken
 
 Nadat u de gegevens voor de lease hebt ingevoerd, voert u de volgende stappen uit om een leaseschema te maken.

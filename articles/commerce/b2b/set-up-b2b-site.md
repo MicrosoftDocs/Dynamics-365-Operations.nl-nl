@@ -2,7 +2,7 @@
 title: Een e-commercesite voor B2B instellen
 description: In dit onderwerp wordt beschreven hoe u een e-commercesite voor B2B (business-to-business) in Microsoft Dynamics 365 Commerce instelt.
 author: josaw1
-ms.date: 04/23/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c630580dd75a86085746b36726e9ee55a9db2af5
-ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.openlocfilehash: 171e518258e9600bd7526cf52e3e456d272e6bce
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7713743"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891380"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Een e-commercesite voor B2B instellen
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 E-commercesites voor B2B bieden belangrijke mogelijkheden om de workflow te optimaliseren voor een B2B-gebruiker. In dit onderwerp wordt beschreven hoe u een e-commercesite voor B2B in Microsoft Dynamics 365 Commerce instelt. U doorloopt de modules en locatie-instellingen die geconfigureerd moeten worden om B2B-specifieke scenario's mogelijk te maken.
 
@@ -306,6 +307,30 @@ Voer de volgende stappen uit om een module voor snel toevoegen toe te voegen aan
 
 > [!NOTE] 
 > De module voor snel toevoegen is beschikbaar vanaf Commerce versie 10.0.17. Als u een oudere versie van Commerce bijwerkt, moet u het bestand appsettings.json handmatig bijwerken. Zie [Updates voor SDK's en modulebibliotheken](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file) voor meer instructies.
+
+## <a name="add-a-bulk-purchase-module-to-a-product-details-page"></a>Een module voor bulkaankopen toevoegen aan een pagina met productgegevens
+
+De module voor bulkaankopen op een pagina met productgegevens biedt een op een matrix gebaseerde ervaring waarmee een inkoper snel meerdere varianten van een product aan de winkelwagen kan toevoegen. Als een sitegebruiker meerdere varianten van hetzelfde product moet bestellen, hoeft deze gebruiker nu niet meer de combinatie van productdimensies te selecteren, de hoeveelheid te definiëren, de variant aan de winkelwagen toe te voegen en het proces voor andere vervolgens combinaties van productdimensies te herhalen.
+
+Voer de volgende stappen uit om de module voor bulkaankopen aan een pagina met productgegevens toe te voegen in Commerce Site Builder.
+
+1. Ga naar **Sjablonen** en selecteer de pagina met productgegevens van uw site.
+1. Selecteer **Bewerken**.
+1. Selecteer in het vak **Hoofd** van de module **Standaardpagina** het weglatingsteken (**...**) en vervolgens **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de module **Container** en selecteer vervolgens **OK**.
+1. Selecteer het weglatingsteken (**...**) in het vak **Container** en selecteer **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de module **Bulkaankoop** en selecteer vervolgens **OK**.
+1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren.
+1. Ga naar **Pagina's** en selecteer de pagina met productgegevens van uw site.
+1. Selecteer in het vak **Hoofd** van de module **Standaardpagina** het weglatingsteken (**...**) en vervolgens **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de module **Container** en selecteer vervolgens **OK**.
+1. Stel in het eigenschappendeelvenster voor de module **Container** de eigenschap **Breedte** in op **Container vullen**.
+1. Selecteer het weglatingsteken (**...**) in het vak **Container** en selecteer **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de module **Bulkaankoop** en selecteer vervolgens **OK**.
+1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de pagina in te checken en selecteer **Publiceren** om te publiceren.
+
+> [!NOTE] 
+> De module voor bulkaankopen is beschikbaar vanaf Commerce 10.0.24. Als u een oudere versie van Commerce bijwerkt, moet u het bestand appsettings.json handmatig bijwerken. Zie [Updates voor SDK's en modulebibliotheken](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file) voor meer instructies.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

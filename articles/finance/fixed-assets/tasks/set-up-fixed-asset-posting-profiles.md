@@ -1,7 +1,7 @@
 ---
 title: Boekingsprofielen voor vaste activa instellen
-description: Deze taakbegeleiding stelt boekingsprofielen voor vaste activa in.
-author: saraschi2
+description: Deze procedure laat zien hoe u boekingsprofielen voor vaste activa moet instellen.
+author: moaamer
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,21 +10,21 @@ ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2708997848352205cab2e425c9ae1fb531b8a566ba86a65ba2cbeb7e0b5c2b8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee0006c9588a22d720687e7aceb49acc756b83e1
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767618"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883763"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Boekingsprofielen voor vaste activa instellen
 
 [!include [banner](../../includes/banner.md)]
 
-Deze taakbegeleiding stelt boekingsprofielen voor vaste activa in.  Het gebruikt de accountantsrol en demogegevens voor de USMF-rechtspersoon.  De voorbeelden in de taakbegeleiding zijn voor een basisboekingsprofiel, hoewel de boekingsprofielen voor uw specifieke rekeningschema en financiële rapportagebehoeften moeten worden gemaakt.
+Deze procedure laat zien hoe u boekingsprofielen voor vaste activa moet instellen. De voorbeelden in het onderwerp zijn voor een basisboekingsprofiel, hoewel de boekingsprofielen voor uw specifieke rekeningschema en financiële rapportagebehoeften moeten worden gemaakt.
 
 1. Ga in het navigatievenster naar **Modules > Vaste activa > Instellen > Boekingsprofielen vaste activa**.
 2. Klik op **Nieuw**.

@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 081b6968575a8a057903d96de2833a98552ed123
-ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
+ms.openlocfilehash: ae8e9791b590a32581b66853f55ea11bc389bb19
+ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "7813718"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "7891746"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Werkbelasting van magazijnbeheer voor cloud- en randschaaleenheden
 
@@ -50,6 +50,11 @@ Afhankelijk van de bedrijfsprocessen kan dezelfde gegevensrecord van eigenaar wi
 > Sommige gegevens kunnen zowel op de hub als op de schaaleenheid worden aangemaakt. Voorbeelden zijn **Nummerplaten** en **Batchnummers**. Specifieke conflictverwerking wordt geleverd in gevallen waarin dezelfde unieke record wordt aangemaakt op zowel de hub als de schaaleenheid tijdens dezelfde synchronisatiecyclus. In dat geval mislukt de volgende synchronisatie en moet u naar **Systeembeheer > Opvragen > Werkbelastingvragen > Dubbele records**, waar u de gegevens kunt weergeven en samenvoegen.
 
 ## <a name="outbound-process-flow"></a>Uitgaande processtroom
+
+Voordat u de werkbelasting van magazijnbeheer implementeert op een cloud- of randschaaleenheid, moet u ervoor zorgen dat u de functie *Ondersteuning van de eenheidseenheid voor het vrijgeven naar magazijn van uitgaande orders* hebt ingeschakeld voor uw zakelijke hub. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en desgewenst in te schakelen. Schakel in de werkruimte **Functiebeheer** de functie als volgt in:
+
+- **Module:** *Warehouse Management*
+- **Functienaam:** *ondersteuning van de schaaleenheid voor het vrijgeven naar magazijn van uitgaande orders*
 
 Het proces voor eigendom van uitgaande gegevens is afhankelijk van of u het proces voor belastingplanning gebruikt. In alle gevallen is de hug eigenaar van de *brondocumenten*, zoals verkooporders en transferorders, alsmede het ordertoewijzingsproces en de bijbehorende ordertransactiegegevens. Wanneer u echter het ladingplanningsproces gebruikt, worden de ladingen op de hub gemaakt en dus in eerste instantie eigendom van de hub. Als onderdeel van het proces *Vrijgave naar magazijn* wordt het eigendom van de belastingsgegevens overgebracht naar de specifieke implementatie van de schaaleenheid, die vervolgens eigenaar wordt van de daaropvolgende *verzendingswaves verwerken* (zoals werktoewijzing, aanvullende werkzaamheden en het aanmaken van aanvraagwerk). Magazijnmedewerkers kunnen daarom alleen uitgaand verkoop- en transferorderwerk verwerken met een mobiele Warehouse Management-app die is gekoppeld aan de implementatie met de specifieke werkbelasting van de schaaleenheid.
 
@@ -202,7 +207,7 @@ In de volgende tabel ziet u welke uitgaande functies worden ondersteund en waar 
 | Lading-gerelateerde documenten afdrukken                           | Ja | Ja|
 | Vrachtbrief en ASN-generatie                            | Nee  | Ja|
 | Verzendbevestiging                                             | Nee  | Ja|
-| Zendingsbevestiging met 'Bevestigen en overboeking'            | Nee  | Nee |
+| Zendingsbevestiging met 'Bevestigen en overboeking'            | Nee  | Ja|
 | Verwerking van pakbon en facturering                        | Ja | Nee |
 | Korte orderverzameling (verkoop- en overboekingsorders)                    | Nee  | Ja, zonder reserveringen voor brondocumenten te verwijderen|
 | Meerverzameling (verkoop- en overboekingsorders)                     | Nee  | Ja|
@@ -212,8 +217,8 @@ In de volgende tabel ziet u welke uitgaande functies worden ondersteund en waar 
 | Wavelabel                                                   | Nee  | Ja|
 | Werk splitsen                                                   | Nee  | Ja|
 | Werkverwerking - Gestuurd door 'Transportlading'            | Nee  | Nee |
-| Opgenomen hoeveelheid reduceren                                       | Nee  | Nee |
-| Werk omkeren                                                 | Nee  | Nee |
+| Opgenomen hoeveelheid reduceren                                       | Nee  | Ja|
+| Werk omkeren                                                 | Nee  | Ja|
 | Verzendbevestiging omkeren                                | Nee  | Ja|
 
 ### <a name="inbound"></a>Inkomend
@@ -227,7 +232,7 @@ In de volgende tabel ziet u welke inkomende functies worden ondersteund en waar 
 | Francoprijzen voor goederen in transit ontvangen                       | Ja | Nee |
 | Bevestiging inkomende zending                                    | Ja | Nee |
 | Vrijgave inkooporder naar magazijn (magazijnorderverwerking) | Ja | Nee |
-| Annulering van magazijnorderregels<p>Dit wordt alleen ondersteund als er geen registratie voor de regel heeft plaatsgevonden.</p> | Ja | Nee |
+| Annulering van magazijnorderregels<p>Dit wordt alleen ondersteund als er geen registratie voor de regel heeft plaatsgevonden tijdens de verwerking van de *annuleringsaanvraag*.</p> | Ja | Nee |
 | Ontvangen en wegzetten van inkooporderartikel                       | <p>Ja,&nbsp;wanneer&nbsp;er&nbsp;geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | <p>Ja, wanneer een inkooporder geen deel uitmaakt van een <i>belasting</i></p> |
 | Ontvangen van inkooporderregel en wegzetten                       | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | <p>Ja, wanneer een inkooporder geen deel uitmaakt van een <i>belasting</i></p></p> |
 | Ontvangen en wegzetten van retourorder                              | Ja | Nee |
@@ -246,7 +251,7 @@ In de volgende tabel ziet u welke inkomende functies worden ondersteund en waar 
 | Ontvangen met aanmaak van werk *Kwaliteit in kwaliteitscontrole*       | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | Nee |
 | Ontvangen met aanmaak van kwaliteitsorder                            | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | Nee |
 | Werkverwerking - Gestuurd door *Clusteropslag*                 | Ja | Nee |
-| Werkverwerking met *Kort orderverzamelen*                               | Ja | Nee |
+| Werkverwerking met *Kort orderverzamelen*                               | Ja | Ja |
 | Nummerplaatlading                                           | Ja | Ja |
 
 ### <a name="warehouse-operations-and-exception-handing"></a>Magazijnbewerkingen en uitzonderingen afhandelen

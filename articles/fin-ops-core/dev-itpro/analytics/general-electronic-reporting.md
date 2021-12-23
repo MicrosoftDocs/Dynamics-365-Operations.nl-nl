@@ -2,7 +2,7 @@
 title: Overzicht van elektronische rapportage (ER)
 description: Dit onderwerp biedt een overzicht van het hulpmiddel voor elektronische rapportage. In dit onderwerp worden belangrijke concepten, ondersteunde scenario's en indelingen beschreven die deel uitmaken van de oplossing.
 author: NickSelin
-ms.date: 09/20/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0fd83c787be4d9de151d2727384d07bc209e33f
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 0b772acd4a8d0849803cefa8fc14ae3dd6e18831
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562171"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867275"
 ---
 # <a name="electronic-reporting-er-overview"></a>Overzicht van elektronische rapportage (ER)
 
@@ -30,11 +30,37 @@ ms.locfileid: "7562171"
 
 Dit onderwerp biedt een overzicht van het hulpmiddel voor Elektronische rapportage (ER). Er staat informatie in over belangrijke concepten, de scenario's die door ER ondersteund worden en een lijst met indelingen die als onderdeel van de ER-oplossing ontworpen en uitgegeven zijn.
 
-ER is een hulpprogramma dat u kunt gebruiken voor het configureren van indelingen voor inkomende en uitgaande elektronische documenten volgens de wettelijke voorschriften van verschillende landen/regio's. Met ER kunt u deze indelingen beheren tijdens hun levenscyclus. Zo kunt u bijvoorbeeld nieuwe voorschriften toepassen en bedrijfsdocumenten genereren in de vereiste indeling om langs elektronische gegevens te kunnen uitwisselen met overheidsinstanties, banken en andere partijen.
+ER is een configureerbaar hulpmiddel waarmee u wettelijke elektronische rapportage en betalingen kunt maken en onderhouden. Het is gebaseerd op de volgende drie concepten:
+
+- Configuratie in plaats van codering:
+
+    - De configuratie kan worden uitgevoerd door een zakelijke gebruiker en vereist geen ontwikkelaar.
+    - Het gegevensmodel wordt gedefinieerd in bedrijfstermen.
+    - Er worden visuele editors gebruikt om de onderdelen van de ER-configuratie te maken.
+    - De taal die voor gegevenstransformatie wordt gebruikt, lijkt op de taal die wordt gebruikt in Microsoft Excel.
+
+- Eén configuratie voor meerdere Dynamics 365 Finance-versies:
+
+    - Beheer één domeinspecifiek gegevensmodel dat in bedrijfstermen wordt gedefinieerd.
+    - Isoleer details van toepassingsversies in versieafhankelijke gegevensmodeltoewijzingen.
+    - Onderhoud de configuratie van één indeling voor meerdere versies van de huidige versie op basis van het gegevensmodel.
+
+- Eenvoudige of automatische upgrade:
+
+    - Versiebeheer van ER-configuraties wordt ondersteund.
+    - De Microsoft Dynamics-bibliotheek met Lifecycle Services-activa (LCS) kan worden gebruikt als opslagplaats voor ER-configuraties, voor het uitwisselen van versies.
+    - Lokalisaties die op oorspronkelijke ER-configuraties zijn gebaseerd, kunnen als onderliggende versies worden geïntroduceerd.
+    - Een ER-configuratiestructuur is een hulpmiddel waarmee u afhankelijkheden van versies kunt controleren.
+    - Verschillen in lokalisatie, of de deltaconfiguratie, worden geregistreerd om een automatische upgrade naar een nieuwe versie van de oorspronkelijke ER-configuratie mogelijk te maken.
+    - Conflicten die tijdens de automatische upgrade van lokalisatieversies worden ontdekt, kunnen eenvoudig handmatig worden opgelost.
+
+Met ER kunt u elektronische indelingsstructuren definiëren en vervolgens beschrijven hoe de structuren moeten worden gevuld op basis van gegevens en algoritmes. U kunt een formuletaal gebruiken die lijkt op de Excel-taal voor gegevenstransformatie. Om de toewijzing van de database aan indeling beter beheersbaar, herbruikbaar en onafhankelijk van indelingswijzigingen te maken, is een tussenliggend gegevensmodelconcept geïntroduceerd. Dankzij dit concept kunnen implementatiedetails worden verborgen voor de indelingstoewijzing en kan één gegevensmodel opnieuw worden gebruikt voor toewijzingen met meerdere indelingen.
+
+U kunt ER gebruiken voor het configureren van indelingen voor inkomende en uitgaande elektronische documenten volgens de wettelijke voorschriften van verschillende landen en regio's. Met ER kunt u deze indelingen beheren tijdens hun levenscyclus. Zo kunt u bijvoorbeeld nieuwe voorschriften toepassen en bedrijfsdocumenten genereren in de vereiste indeling om langs elektronische gegevens te kunnen uitwisselen met overheidsinstanties, banken en andere partijen.
 
 De ER-engine is gericht op zakelijke gebruikers in plaats van ontwikkelaars. Aangezien u indelingen configureert in plaats van code, verlopen de processen voor het maken en aanpassen van indelingen voor elektronische documenten sneller en gemakkelijker.
 
-ER ondersteunt op dit moment de werkbladindelingen TEXT, Microsoft Word-document en OPENXML. Een extensie-interface biedt echter ondersteuning voor andere indelingen.
+ER ondersteunt op dit moment de werkbladindelingen TEXT, XML, JSON, PDF, Microsoft Word, Microsoft Excel en OPENXML.
 
 ## <a name="capabilities"></a>Mogelijkheden
 
@@ -48,6 +74,10 @@ De ER-engine biedt de volgende mogelijkheden:
 
 ## <a name="key-concepts"></a>Belangrijke concepten
 
+### <a name="main-data-flow"></a>Hoofdgegevensstroom
+
+[![ER-hoofdgegevensstroom.](./media/ger-main-data-flow.jpg)](./media/ger-main-data-flow.jpg)
+
 ### <a name="components"></a>Onderdelen
 
 Elektronische rapportage ondersteunt de volgende typen onderdelen:
@@ -59,74 +89,6 @@ Elektronische rapportage ondersteunt de volgende typen onderdelen:
 
 Zie [Onderdelen van elektronische rapportage](er-overview-components.md) voor meer informatie.
 
-#### <a name="data-model-and-model-mapping-components"></a>Onderdelen van gegevensmodel en modeltoewijzing
-
-Een gegevensmodelonderdeel is een abstracte representatie van een gegevensstructuur. Hiermee wordt een specifiek bedrijfsdomeingebied beschreven met voldoende detail om te voldoen aan de rapportagevereisten voor dat domein. Een gegevensmodelonderdeel bestaat uit de volgende elementen:
-
-- <a name="DataModelComponent"></a>Een gegevensmodel, als een set domeinspecifieke bedrijfsentiteiten en een hiërarchisch gestructureerde definitie van relaties tussen deze entiteiten
-- <a name="ModelMappingComponent"></a>Een modeltoewijzing die geselecteerde toepassingsgegevensbronnen koppelt aan individuele elementen van een gegevensmodel dat, tijdens de uitvoering, de gegevensstroom en regels voor het invullen van bedrijfsgegevens in een gegevensmodelonderdeel.
-
-Een bedrijfsentiteit van een gegevensmodel wordt voorgesteld als een container (record). Bedrijfsonderdeeleigenschappen worden weergegeven als gegevensitems (velden). Elk gegevensitem heeft een unieke naam, label, omschrijving en waarde. De waarde van elk gegevensitem kan zodanig worden ontworpen dat deze wordt herkend als een tekenreeks, geheel getal, reëel getal, datum, opsomming, Boolean enzovoort. Bovendien kan het een andere record of lijst met records zijn.
-
-Een enkel gegevensmodelonderdeel kan verschillende hiërarchieën met domeinspecifieke zakelijke entiteiten bevatten. Het kan ook modeltoewijzingen bevatten, die ondersteuning bieden voor een bepaalde rapportspecifiek gegevensstroom tijdens runtime. De hiërarchieën worden onderscheiden op basis van een enkele record die is geselecteerd als basis voor modeltoewijzing. Zo ondersteunt bijvoorbeeld het gegevensmodel van het gebied van het betalingsdomein mogelijk de volgende toewijzingen:
-
-- Bedrijf \> Leverancier \> Betalingstransacties van het debiteurendomein
-- Klant \> Bedrijf \> Betalingstransacties van het crediteurendomein
-
-Houd er rekening mee dat zakelijke entiteiten zoals Bedrijf en Betalingstransacties slechts één keer worden ontworpen. Vervolgens worden zij opnieuw gebruikt door verschillende toewijzingen.
-
-Een modeltoewijzing die ondersteuning biedt voor uitgaande elektronische documenten, heeft de volgende mogelijkheden:
-
-- Er kunnen verschillende gegevenstypen worden gebruikt als gegevensbronnen voor een gegevensmodel. Er kan bijvoorbeeld gebruik worden gemaakt van tabellen, gegevensentiteiten, methoden of opsommingen.
-- Er worden gebruikerinvoerparameters ondersteund die kunnen worden gedefinieerd als gegevensbronnen voor een gegevnsmodel wanneer bepaalde gegevens moeten worden opgegeven tijdens de uitvoering.
-- Hij biedt ondersteuning voor de transformatie van gegevens in de vereiste groepen. Ook kunt u hiermee filteren, sorteren en gegevens optellen en logische berekende velden toevoegen die zijn ontwikkeld door middel van formules die vergelijkbaar zijn met Microsoft Excel-formules. Zie voor meer informatie het onderwerp [Formuleontwerper in elektronische rapportage (ER)](general-electronic-reporting-formula-designer.md).
-
-Een modeltoewijzing die ondersteuning biedt voor inkomende elektronische documenten, heeft de volgende mogelijkheden:
-
-- Deze kan verschillende bij te werken gegevenselementen als doel gebruiken. Deze gegevenselementen omvatten tabellen, gegevensentiteiten en weergaven. De gegevens kunnen worden bijgewerkt met behulp van de gegevens van inkomende elektronische documenten. In een enkele modeltoewijzing kunnen meerdere doelen worden gebruikt.
-- Er worden gebruikerinvoerparameters ondersteund die kunnen worden gedefinieerd als gegevensbronnen voor een gegevnsmodel wanneer bepaalde gegevens moeten worden opgegeven tijdens de uitvoering.
-
-Een gegevensmodelonderdeel is ontworpen voor elk zakelijk domein dat moet worden gebruikt als centrale gegevensbron voor rapportage, waarmee rapportage wordt geïsoleerd van de fysieke implementatie van gegevensbronnen voor Finance and Operations. Het vertegenwoordigt domeinspecifieke zakelijke concepten en functionaliteit in een indeling die het initiële ontwerp en later onderhoud van een rapportageformulier efficiënter maakt.
-
-#### <a name="format-components-for-outgoing-electronic-documents"></a><a name="FormatComponentOutbound"></a>Indelingscomponent voor uitgaande elektronische documenten
-
-Een indelingsonderdeel is het schema van de rapportage-uitvoer die wordt gegenereerd tijdens de uitvoering. Een schema bestaat uit de volgende elementen:
-
-- Een indeling die de structuur en de inhoud definieert van het uitgaande document voor elektronische rapportage dat wordt gegenereerd tijdens de uitvoering
-- Gegevensbronnen, als een reeks van gebruikersinvoerparameters en een domeinspecifiek gegevensmodel dat een geselecteerde modeltoewijzing gebruikt
-- Een indelingstoewijzing, als reeks van bindingen van indelingsgegevensbronnen die individuele elementen bevatten van een indeling die tijdens de uitvoering de gegevensstroom en de regels voor het genereren van de indelingsuitvoer specificeert.
-- Een indelingsvalidatie, als een reeks configureerbare regels die de het genereren van het rapport tijdens runtime controleren, afhankelijk van de uitvoeringscontext. Zo kan er bijvoorbeeld een regel zijn die het genereren van betalingen van een leverancier onderbreekt en een uitzondering genereert, wanneer specifieke kenmerken van de geselecteerde leverancier ontbreken, zoals het bankrekeningnummer.
-
-Een indelingsonderdeel ondersteunt de volgende functies:
-
-- Het maken van rapportage-uitvoer als afzonderlijke bestanden in verschillende indelingen, zoals tekst, XML, Microsoft Word-document of werkblad.
-- Het maken van meerdere afzonderlijke bestanden en het opnemen van die bestanden in zip-bestanden.
-
-Een indelingscomponent biedt de mogelijkheid om specifieke bestanden toe te voegen die in de rapportage-uitvoer kunnen worden gebruikt:
-
-- Excel-werkmappen die een werkblad bevatten dat kan worden gebruikt als sjabloon voor uitvoer in de OPENXML-werkbladindeling
-- Word-documenten die een werkblad bevatten dat kan worden gebruikt als sjabloon voor uitvoer in de Microsoft Word-indeling
-- Andere bestanden die als vooraf gedefinieerde bestanden kunnen worden opgenomen in de uitvoer van de indeling
-
-In de volgende afbeelding ziet u hoe de gegevensstroomm voor deze indelingen verloopt.
-
-[![Gegevensstroom voor uitgaande-indelingscomponenten.](./media/ER-overview-02.png)](./media/ER-overview-02.png)
-
-Voor het uitvoeren van een enkele ER-indelingsconfiguratie en het genereren van een uitgaand elektronisch document moet u de toewijzing van de indelingsconfiguratie bepalen.
-
-#### <a name="format-components-for-incoming-electronic-documents"></a><a name="FormatComponentInbound"></a>Indelingscomponent voor inkomende elektronische documenten
-
-Een indelingscomponent is het schema van het inkomende document dat tijdens de uitvoering wordt geïmporteerd. Een schema bestaat uit de volgende elementen:
-
-- Een indeling die de structuur en de inhoud definieert van het inkomende elektronische document dat gegevens bevat die tijdens de uitvoering worden geïmporteerd. Een indelingscomponent wordt gebruikt om een inkomend document te parseren in verschillende indelingen, zoals tekst en XML.
-- Een indelingstoewijzing die afzonderlijke elementen bindt aan elementen van een domeinspecifiek gegevensmodel. Tijdens de uitvoering specificeren de elementen in het gegevensmodel de gegevensstroom en de regels voor het importeren van gegevens uit een inkomend document en slaan daarna de gegevens op in een gegevensmodel.
-- Een indelingsvalidatie, als een reeks configureerbare regels die de het importeren van gegevens tijdens runtime controleren, afhankelijk van de uitvoeringscontext. Zo kan er bijvoorbeeld een regel zijn die het de import van gegevens van een bankafschrift met leveranciersbetalingen onderbreekt en een uitzondering genereert, wanneer specifieke kenmerken van een leverancier ontbreken, zoals de leveranciers-id.
-
-In de volgende afbeelding ziet u hoe de gegevensstroomm voor deze indelingen verloopt.
-
-[![Gegevensstroom voor inkomende-indelingscomponenten.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
-
-Als u een enkele ER-indelingsconfiguratie wilt uitvoeren om gegevens te importeren uit een inkomend elektronisch document, moet u de gewenste toewijzing van een indelingsconfiguratie bepalen en ook het integratiepunt van een modeltoewijzing. U kunt dezelfde modeltoewijzing en bestemmingen samen gebruiken met verschillende indelingen voor verschillende typen inkomende documenten.
 
 #### <a name="component-versioning"></a>Componentversiebeheer
 

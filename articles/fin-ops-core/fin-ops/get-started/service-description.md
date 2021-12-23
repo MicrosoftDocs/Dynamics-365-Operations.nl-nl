@@ -2,19 +2,19 @@
 title: Beschrijving van service voor Finance and Operations-toepassingen
 description: In dit onderwerp vindt u de serviceomschrijving voor Finance and Operations-toepassingen.
 author: tomhig
-ms.date: 11/17/2021
+ms.date: 12/07/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 262cf00bdca63876c284be40954ca5de559b993a
-ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
+ms.openlocfilehash: f7ce73018fda79156cc7ef3d4e1faa3fedf966f8
+ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "7825395"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7898384"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Beschrijving van service voor Finance and Operations-toepassingen
 
@@ -314,9 +314,9 @@ De plannen en procedures voor noodherstel van Microsoft worden regelmatig onderz
 | Microsoft biedt een secundaire omgeving in het aan Azure gekoppelde exemplaar wanneer het primaire productie-exemplaar wordt geïmplementeerd. Zie [Bedrijfscontinuïteit en herstel na noodgeval (BCDR of Business Continuity and Disaster Recovery): gekoppelde Azure-regio's](/azure/best-practices-availability-paired-regions) voor meer informatie. | None |
 | Microsoft schakelt de geografische opslag van SQL SQL en Azure cloud in wanneer het primaire productie-exemplaar wordt geïmplementeerd. | None |
 | Microsoft schakelt automatische back-up van de SQL-databases in Azure in. | None |
-| <p>Bij een storing bepaalt Microsoft of een failover moet worden uitgevoerd voor de klant en of er gegevens verloren gaan. Gegevensverlies kan tot vijf seconden duren. Zie SQL [SQL Database Geo-Restore](https://azure.microsoft.com/blog/azure-sql-database-geo-restore)  voor meer informatie.</p><p>In het geval van gegevensverlies zal Microsoft de aanmelding van de klant voor een failover aanvragen.</p> | In het geval van gegevensverlies, moet de klant mogelijk een schriftelijke aanmelding leveren om de failover te activeren. |
+| <p>Bij een storing bepaalt Microsoft of een failover moet worden uitgevoerd voor de klant en of er gegevens verloren gaan. Klanten kunnen een gegevensverlies van maximaal 15 minuten ervaren, afhankelijk van de aard en timing van de uitval. | In het geval van gegevensverlies, moet de klant mogelijk een schriftelijke ondertekening aanleveren om de failover te activeren. |
 | Wanneer een failover optreedt, werkt de toepasselijke service in beperkte modus. Updateonderhoud kan niet worden geactiveerd in de failovermodus. | De klant kan geen pakketimplementaties of andere regelmatige onderhoudsaanvragen aanvragen in de failovermodus. |
-| Wanneer het datacenter operationeel wordt, valt Microsoft terug op het productie-exemplaar in de primaire Azure-regio. Normale bewerkingen worden hervat. | De klant moet zich mogelijk afmelden bij failback naar het productie-exemplaar in de primaire Azure-regio. |
+| Wanneer het datacenter operationeel wordt, valt Microsoft terug op het productie-exemplaar in de primaire Azure-regio. Normale bewerkingen worden hervat. | De klant moet mogelijk tekenen voor failback naar het productie-exemplaar in de primaire Azure-regio. |
 
 ## <a name="finance-and-operations-support-offerings"></a>Finance and Operations-ondersteuningsaanbiedingen
 

@@ -1,8 +1,8 @@
 ---
 title: Klantbeheer in winkels
 description: In dit onderwerp wordt uitgelegd hoe detailhandelaren mogelijkheden voor klantbeheer kunnen inschakelen op het verkooppunt (POS) in Microsoft Dynamics 365 Commerce.
-author: josaw1
-ms.date: 09/01/2021
+author: gvrmohanreddy
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 395bc7049ba32c1e572730e482b81613a4873c59
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 29e45419f712e25092b473e34144ac1146e4ed9b
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675220"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913621"
 ---
 # <a name="customer-management-in-stores"></a>Klantbeheer in winkels
 
@@ -42,38 +42,13 @@ Detailhandelaren kunnen de pagina **Alle winkels** in Commerce Headquarters (**R
 
 Verkoopmedewerkers kunnen meerdere adressen voor een klant vastleggen. De naam en het telefoonnummer van de klant worden overgenomen vanuit de contactgegevens die aan elk adres zijn gekoppeld. Het sneltabblad **Adressen** van een klantrecord bevat een veld **Doel** dat verkoopmedewerkers kunnen bewerken. Als het klanttype **Persoon** is, geldt **Start** als standaardwaarde. Als het klanttype **Organisatie** is, geldt **Business** als standaardwaarde. Andere waarden die in dit veld worden ondersteund, zijn onder andere **Start**, **Kantoor** en **Postbus**. De waarde van het veld **Land** voor een adres wordt overgenomen van het primaire adres dat is opgegeven op de pagina **Operationele eenheid** in Commerce Headquarters in **Organisatiebeheer \> Organisaties \> Operationele eenhden**.
 
-## <a name="sync-customers-and-async-customers"></a>Synchrone klanten en asynchrone klanten
 
-> [!IMPORTANT]
-> Wanneer het POS offline gaat, maakt het systeem de klanten automatisch asynchroon aan, zelfs wanneer modus Asynchroon klanten aanmaken is uitgeschakeld. Commerce Headquarters-beheerders moeten daarom, ongeacht of er nu synchroon of asynchroon klanten aanmaken is geselecteerd, een terugkerende batchtaak aanmaken en inplannen voor de **P-taak**, de taak **Klanten en zakenpartners synchroniseren vanuit asynchrone modus** (eerder ook wel **Klanten en zakenpartners synchroniseren vanuit asynchrone modus** genoemd) en de taak **1010**, zodat alle asynchrone klanten worden geconverteerd naar synchrone in Commerce Headquarters.
-
-In Commerce zijn er twee manieren om klanten te maken: Synchroon (of Sync) en Asynchroon (of Async). Klanten worden standaard synchroon gemaakt. Dit wil zeggen dat ze in realtime worden gemaakt in Commerce Headquarters. De synchrone modus voor het maken van klanten is nuttig, omdat nieuwe klanten onmiddellijk in verschillende kanalen kunnen worden gezocht. Deze heeft echter ook een nadeel. Aangezien er [Commerce Data Exchange: realtime service](dev-itpro/define-retail-channel-communications-cdx.md#realtime-service)-aanroepen naar Commerce Headquarters worden gegenereerd, kan dit gevolgen hebben voor de prestaties als er veel gelijktijdige aanroepen worden gedaan voor het maken van klanten.
-
-Als de optie **Klant maken in asynchrone modus** is ingesteld op **Ja** in het functionaliteitsprofiel van de winkel (**Retail en Commerce \> Afzetkanaalinstellingen \> Onlinewinkel instellen \> Functionaliteitsprofielen**), worden realtime service-aanroepen niet gebruikt om klantrecords te maken in de afzetkanaaldatabase. De asynchrone modus voor het maken van klanten heeft geen invloed op de prestaties van Commerce Headquarters. Een tijdelijke Globally Unique Identifier (GUID) wordt toegewezen aan elke nieuwe asynchrone klantrecord en wordt gebruikt als de klantrekening-id. Deze GUID wordt niet weergegeven voor POS-gebruikers. In plaats daarvan krijgen deze gebruikers de **In afwachting van synchronisatie** te zien als klantrekening-id. 
-
-### <a name="convert-async-customers-to-sync-customers"></a>Asynchrone klanten converteren naar synchrone klanten
-
-Om asynchrone klanten te converteren naar synchrone klanten, moet u eerst de **P-taak** uitvoeren om de asynchrone klanten naar Commerce Headquarters te verzenden. Voer vervolgens de taak **Klanten en zakenpartners synchroniseren vanuit asynchrone modus** (voorheen de taak **Klanten en zakenpartners synchroniseren vanuit asynchrone modus** genoemd) uit om klantaccount-ID's aan te maken. Voer tot slot de taak **1010** uit om de nieuwe klantrekening-id's te synchroniseren met de afzetkanalen.
-
-### <a name="async-customer-limitations"></a>Beperkingen van asynchrone klanten
-
-De functionaliteit voor asynchrone klanten heeft momenteel de volgende beperkingen:
-
-- Asynchrone klantrecords kunnen niet worden bewerkt tenzij de klant is gemaakt in Commerce Headquarters en de nieuwe klantrekening-id weer met het afzetkanaal is gesynchroniseerd. Het adres kan daarom niet voor een asynchrone klant worden opgeslagen totdat die klant is gesynchroniseerd met Commerce Headquarters, omdat het toeveogen van een klantadres intern is geïmplementeerd als een bewerking voor het klantprofiel. Als echter de functie **Asynchroon aanmaken voor klantadressen inschakelen** is ingeschakeld, kunnen de klantadressen ook voor asynchrone klanten worden opgeslagen.
-- Aansluitingen kunnen niet aan asynchrone klanten worden gekoppeld. Nieuwe asynchrone klanten nemen dus geen aansluitingen over van de standaardklant.
-- Loyaliteitskaarten kunnen alleen aan asynchrone klanten worden uitgegeven als de nieuwe klantrekening-id is gesynchroniseerd met het afzetkanaal.
-- Secundaire e-mailadressen en telefoonnummers kunnen niet worden vastgelegd voor asynchrone klanten.
-
-Hoewel sommige van de eerder genoemde beperkingen u er wellicht toe zouden kunnen aanzetten de optie synchrone klant voor uw bedrijf te kiezen, werkt het team van Commerce eraan de mogelijkheden van asynchrone klanten beter af te stemmen op die van synchrone klanten. In de release van Commerce versie 10.0.22 zorgt bijvoorbeeld een nieuwe functie **Asynchroon aanmaken voor klantadressen inschakelen**, die u kunt inschakelen in de werkruimte **Functiebeheer**, ervoor dat nieuw aangemaakte klantadressen voor zowel synchrone als asynchrone klanten asynchroon worden opgeslagen. Om deze adressen op te slaan in het klantprofiel in Commerce Headquarters, moet u een terugkerende batchtaak inplannen voor de **P-taak**, de taak **Klanten en zakenpartners synchroniseren vanuit de asynchrone modus** en de taak **1010**, zodat eventuele asynchrone klanten worden geconverteerd naar synchrone klanten in Commerce Headquarters.
-
-### <a name="customer-creation-in-pos-offline-mode"></a>Klant maken in offlinemodus van POS
-
-Wanneer het POS offline gaat, maakt het systeem de klanten automatisch asynchroon aan, zelfs wanneer modus Asynchroon klanten aanmaken is uitgeschakeld. Beheerders van Commerce Headquarters moeten daarom, zoals eerder aangegeven, een terugkerende batchtaak aanmaken en inplannen voor de **P-taak**, de taak **Klanten en zakenpartners synchroniseren vanuit de asynchrone modus** en de taak **1010**, zodat eventuele asynchrone klanten worden geconverteerd naar synchronisatieklanten in Commerce Headquarters.
-
-> [!NOTE]
-> Als de optie **Gedeelde klantgegevenstabellen filteren** is ingesteld op **Ja** op de pagina **Handelkanaalschema** (**Retail en Commerce \> Instelling van hoofdkantoor \> Commerce-planner \> Kanaaldatabasegroep**) worden er geen klantrecords gemaakt in de offlinemodus van het Commerce-kanaal. Zie [Uitsluiting van offlinegegevens](dev-itpro/implementation-considerations-cdx.md#offline-data-exclusion) voor meer informatie.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
+
+[Modus voor het maken van asynchrone klanten](async-customer-mode.md)
+
+[Asynchrone klanten converteren naar synchrone klanten](convert-async-to-sync.md)
 
 [Klantkenmerken](dev-itpro/customer-attributes.md)
 

@@ -2,7 +2,7 @@
 title: Human resources-app in Teams
 description: In dit onderwerp maakt u kennis met de Microsoft Dynamics 365 Human Resources-app in Microsoft Teams.
 author: twheeloc
-ms.date: 11/03/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5e44b9fa40971710d8316c055c4d2ac51f9ab266
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: 8eebe154a19dd8476f6e9d75ebfd69fdc5b9e2b7
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771501"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913484"
 ---
 # <a name="human-resources-app-in-teams"></a>Human resources-app in Teams
 
@@ -111,6 +111,9 @@ De volgende werkitems staan op de planning voor toekomstige releases:
 ## <a name="troubleshooting"></a>Problemen oplossen
 
 Als een gebruiker problemen heeft met het aanmelden bij of het gebruik van de Human Resources Teams-app, volgt u de onderstaande instructies voor het oplossen van problemen. Als u na het oplossen van problemen nog steeds problemen ondervindt, neemt u contact op met de ondersteuning. Zie voor meer informatie [Ondersteuning krijgen](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
+
+### <a name="ensure-the-teams-human-resources-application-is-up-to-date"></a>Controleren of de Teams-toepassing Human Resources up-to-date is
+Als er problemen zijn met de Teams-app Human Resources, moet u controleren of u de nieuwste versie gebruikt. De minimaal ondersteunde versie is 1.1.5. Zie de [Teams-documentatie](/MicrosoftTeams/apps-update-experience) voor instructies over het bijwerken van een Teams-toepassing.
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Kan me niet aanmelden bij de Human Resources-app in Teams
 

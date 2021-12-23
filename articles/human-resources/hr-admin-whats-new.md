@@ -2,7 +2,7 @@
 title: Nieuwe of gewijzigde functies in Human Resources
 description: Elke twee weken brengen we een nieuwe release uit voor Microsoft Dynamics 365 Human Resources. De onderwerpen die hier worden vermeld, beschrijven de wijzigingen die elke week worden aangebracht.
 author: twheeloc
-ms.date: 04/21/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e30267ca95bdcaa8b42cfb7e606a0a8eda8c1da4
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.openlocfilehash: 15a46c73da664f9133ce45149f1e2dd5e7b94fbc
+ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641180"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902528"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Nieuwe of gewijzigde functies in Human Resources
 
@@ -40,6 +40,7 @@ Zie het volgende artikel voor meer informatie over geplande nieuwe functies of h
 
 Zie de volgende onderwerpen voor wat er nieuw of gewijzigd is in elke tweewekelijkse versies van Human Resources:
 
+[29 november 2021](hr-whats-new-2021-11-29.md)<br>
 [5 oktober 2021](hr-whats-new-2021-10-04.md)</br>
 [20 september 2021](hr-whats-new-2021-09-20.md)</br>
 [6 september 2021](hr-whats-new-2021-09-06.md)</br>

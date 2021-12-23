@@ -2,7 +2,7 @@
 title: Leasejournaalnamen instellen
 description: In dit onderwerp wordt uitgelegd hoe u leasejournaalnamen definieert. Leasejournaalnamen specificeren in welke journalen invoer vanuit Activa leasen wordt geboekt.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1ea35ec40ddd459e1a9e7641557147e23fe45d3e
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: b9d8136ae4f960a586b9526751fc8bf6e7675c8d
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343209"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890745"
 ---
 # <a name="set-up-lease-journal-names"></a>Leasejournaalnamen instellen
 
@@ -39,6 +39,7 @@ Voer de volgende stappen uit om leasejournaalnamen te configureren.
 2. Ga op het tabblad **Algemeen** naar het veld **Journaalnaam initiële toerekening**, en selecteer een journaal. Alle journaalboekingen voor initiële toerekening worden naar deze journaalnaam geboekt.
 3. Selecteer een journaal in het veld **Factuurjournaalnaam**. Als de optie **Betalen aan leverancier** is ingesteld op **Ja** voor het leaseboek, worden leasefacturen onkostenfacturen naar deze journaalnaam geboekt.
 4. Selecteer een journaal in het veld **Leasejournaalnaam**. Alle afschrijvingsposten, renteposten en herindelingsposten op korte termijn worden naar deze journaalnaam geboekt. Als de optie **Betalen aan leverancier** is ingesteld op **Nee** voor het leaseboek, worden boekingen voor leasebetalingen en onkostenbetalingen ook naar deze journaalnaam geboekt.
+5. Selecteer een journaal in het veld **Naam van journaal voor leasewijzigingen**. Leasecorrectie-, ontslag- en -waardeverminderingstransacties worden naar deze journaalnaam geboekt. Aan de journaalnaam die u selecteert, moet geen workflow of goedkeuring zijn toegewezen. Als de naam van het leasewijzigingsjournaal niet is gedefinieerd, worden leasecorrectie-, ontslag- en -waardeverminderingstransacties geboekt naar de journaalnaam die is geselecteerd in het veld **Leasejournaalnaam**. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

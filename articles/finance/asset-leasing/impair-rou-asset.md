@@ -2,7 +2,7 @@
 title: Waarde van activa met gebruiksrecht verminderen
 description: In dit onderwerp wordt de functionaliteit beschreven waarmee een waardevermindering wordt vastgelegd en het schema van de activa-afschrijving van een Accounting Standards Codification Topic 842 (ASC 842) operationele lease wordt aangepast.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 816f65cff77339ef8684c0449ed2e5f0762b17a2e22174412d5ea9f2a1a62069
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd79880dc8aa77eea8c16f350c0853013c6ad17b
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723818"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890825"
 ---
 # <a name="impair-right-of-use-assets"></a>Waarde van activa met gebruiksrecht verminderen
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Als de boekwaarde van een activum met gebruiksrecht (RoU-activum) niet terugvorderbaar is, moet u mogelijk testen of de waarde van het activum is verminderd. Als u vaststelt dat de waarde van het activum is verminderd, kan Activa leasen de waardevermindering vastleggen en het afschrijvingsschema dienovereenkomstig aanpassen. In dit onderwerp wordt de functionaliteit beschreven waarmee de waardevermindering wordt vastgelegd en het afschrijvingsschema van een Accounting Standards Codification Topic 842 (ASC 842) operationele lease wordt aangepast. Dezelfde methode geldt ook voor International Financial Reporting Standard 16 (IFRS 16)-leases.
 
@@ -37,13 +38,16 @@ Het resterende saldo van het RoU-activum wordt lineair afgeschreven voor het aan
 3. Voer in het dialoogvenster dat verschijnt in het veld **Bedrag waardevermindering** het bedrag van de waardevermindering in. Als u het RoU-activum wilt verlagen, moet u een positieve waarde invoeren.
 4. Voer in het veld **Transactiedatum** de datum in waarop de waardeverminderingspost moet worden geboekt.
 5. Voer in het veld **Resterende perioden** het resterende aantal maanden in dat moet worden afgeschreven.
-6. Schakel de parameter **Boeken** in als u de boeking van de onkostenjournaalpost voor waardevermindering automatisch door het systeem wilt laten boeken. Als u deze parameter uitgeschakeld laat, maakt het systeem de post maar wordt deze niet geboekt. U kunt de post vervolgens boeken vanuit de pagina **Activaleasejournalen**.
-7. Stel de optie **Bekijken alvorens te boeken** in op **Ja** om de voorgestelde post weer te geven voordat deze wordt gemaakt of geboekt.
-8. Stel de optie **Boek sluiten** in op **Ja** om het leaseboek te sluiten. Deze actie kan niet ongedaan worden gemaakt. Posten kunnen niet worden geboekt voor gesloten leases en gesloten leases kunnen niet worden gecorrigeerd.
-9. Klik op **OK** om de waardeverminderingspost te maken of te boeken.
-10. Als u het afschrijvingsschema voor activa met een verminderde waarde wilt weergeven, opent u het schema voor activa-afschrijvingen voor dat leaseboek. Het activum wordt nu op lineaire basis afgeschreven over het aantal maanden dat u hebt ingevoerd in het veld **Resterende perioden**.
-11. Als u de journaalpost voor waardeverminderingskosten wilt weergeven, selecteert u **lActivaleasejournalen** in het actievenster van het boek voor leases met de verminderde waarde. Het systeem maakt een journaalpost die de boekingsrekening waardeverminderingsonkosten debiteert en de boekingsrekening voor de leaseactiva crediteert.
-12. Als u de nieuwe boekwaarde van het RoU-activum wilt weergeven, selecteert u **Activatransacties** in het actievenster van het leaseboek.
+6. Stel de optie **Voorbeeld** in om het voorgestelde activumsaldo en de financiële post weer te geven voordat ze worden gemaakt of geboekt.
+7. Stel de optie **Boek sluiten** in op **Ja** om het leaseboek te sluiten. U kunt deze actie ongedaan maken met de status **Lease opnieuw openen**. Posten kunnen niet worden geboekt voor gesloten leases en gesloten leases kunnen niet worden gecorrigeerd. 
+8. Selecteer **Boeken** om de waardeverminderingspost te maken of te boeken.
+
+    > [!NOTE]
+    > Nadat de waardeverminderingstransactie is geboekt, wordt een nieuwe boekversie gemaakt.
+
+9. Als u het afschrijvingsschema voor activa met een verminderde waarde wilt weergeven, opent u het schema voor activa-afschrijvingen voor het leaseboek. Het activum wordt nu op lineaire basis afgeschreven over het aantal maanden dat u hebt ingevoerd in het veld **Resterende perioden**.
+10. Als u de journaalpost voor waardeverminderingskosten wilt weergeven, selecteert u **lActivaleasejournalen** in het actievenster van het boek voor leases met de verminderde waarde. Het systeem maakt een journaalpost die de boekingsrekening waardeverminderingsonkosten debiteert en de boekingsrekening voor de leaseactiva crediteert. 
+11. Als u de nieuwe boekwaarde van het RoU-activum wilt weergeven, selecteert u **Activatransacties** in het actievenster van het leaseboek.
 
 ## <a name="example-of-rou-asset-impairment"></a>Voorbeeld van waardevermindering RoU-activum
 

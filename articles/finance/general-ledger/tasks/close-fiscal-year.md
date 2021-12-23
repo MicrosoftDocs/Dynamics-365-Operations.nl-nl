@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 013a5b1ac5b99c6a8ac75885e6d65067d5ed4c2ffd5cc5f625a73963666c0a81
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1ade9af06848b125fb6253ea1182f6098588150
+ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779491"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902502"
 ---
 # <a name="close-the-fiscal-year"></a>Het boekjaar afsluiten
 
@@ -36,7 +36,7 @@ Deze procedure legt de stappen uit in het proces voor jaarafsluiting dat saldi n
 
 4. Selecteer Ja of Nee voor de optie **Afsluittransacties tijdens overboeking maken**.
 
-    Als de waarde is ingesteld op Ja, worden twee transacties gemaakt. Één boekstuk wordt gemaakt in het boekjaar dat wordt afgesloten, om de saldi van de grootboekrekeningen van W&V op nul in te stellen. Een tweede boekstuk wordt gemaakt in het volgende boekjaar voor de beginsaldi. Als de waarde is ingesteld op Nee, wordt één boekstuk gemaakt in het volgende boekjaar voor de beginsaldi.  
+    Als de waarde is ingesteld op Ja, worden twee transacties gemaakt. Één boekstuk wordt gemaakt in het boekjaar dat wordt afgesloten, om de saldi van alle grootboekrekeningen op nul in te stellen. Een tweede boekstuk wordt gemaakt in het volgende boekjaar voor de beginsaldi. Als de waarde is ingesteld op Nee, wordt één boekstuk gemaakt in het volgende boekjaar voor de beginsaldi.  
 
 5. Selecteer Ja of Nee voor de optie **Status fiscaal jaar instellen op definitief afgesloten**.
 

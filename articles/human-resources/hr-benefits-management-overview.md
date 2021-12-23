@@ -2,7 +2,7 @@
 title: Overzicht van Vergoedingenbeheer
 description: In dit onderwerp wordt een overzicht gegeven van de functie Vergoedingenbeheer in Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/23/2021
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c4709a63201dd1a02c8879151762886f644ce22
-ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
+ms.openlocfilehash: dc06fd2ef4992b4ef2e20ace4f5c6bcc0bffb9d2
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7417387"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892497"
 ---
 # <a name="benefits-management-overview"></a>Overzicht van Vergoedingenbeheer
 
@@ -109,21 +109,29 @@ U kunt flex-kredietprogramma's gebruiken om werknemers in te schrijven voor verg
 
 ## <a name="configure-required-employee-information"></a>Vereiste werknemersinformatie configureren
 
-Voordat u werknemers voor vergoedingen kunt inschrijven, moet u de vereiste informatie voor hen opgeven. Elke werknemer moet een positie hebben. U moet werknemers inschrijven voor een plan voor vaste compensatie op de begindatum of ze moeten een jaarlijks salarisbedrag voor vergoedingen hebben. In de sectie **Details dienstverband** van de pagina **Werknemer** moet u bovendien een waarde selecteren in het veld **Vergoedingsfrequentie**.
+Voordat u werknemers voor vergoedingen kunt inschrijven, moet u de vereiste informatie voor hen opgeven. 
 
-Als u een werknemer hebt die een aanvullende vergoeding krijgt, zoals provisies, kunt u een **Jaarlijks salarisbedrag voor vergoedingen** uit de werknemerrecord toevoegen. Human Resources gebruikt **het jaarlijkse salarisbedrag voor vergoedingen** om de dekkingsbedragen vast te stellen in plaats van het vaste jaarlijkse compensatiebedrag. Het **Jaarlijks salarisbedrag voor vergoedingen** moet geldig zijn vanaf de begindatum van de werknemer of het begin van de vergoedingsperiode, afhankelijk van het laatste. Als er voor een werknemer zowel een vast compensatiebedrag als een salarisbeloning wordt geregistreerd, wordt het jaarlijkse salaris voor vergoedingen gebruikt bij het bepalen van de bedragen van de dekking.
+Aan de werknemer moet een **functie** zijn toegewezen. Een **functie** kan op de pagina **Werknemer** of **Functie** aan de werknemer worden toegewezen door de **medewerkerstoewijzing** bij te werken. 
+
+Vervolgens moeten werknemers worden ingeschreven voor een plan voor vaste compensatie op de begindatum of ze moeten een **jaarlijks salarisbedrag voor vergoedingen** hebben. Voordat **vaste compensatie** aan een werknemer wordt toegewezen, moet een **functie** worden toegewezen. 
+
+> [!NOTE] 
+> De **begindatum voor vaste compensatie** kan niet vóór de **datum van de positietoewijzing** vallen.
+
+Als u een werknemer hebt die een aanvullende vergoeding krijgt, zoals provisies, kunt u ook een **jaarlijks salarisbedrag voor vergoedingen** uit de werknemerrecord toevoegen. Human Resources gebruikt het **jaarlijkse salarisbedrag voor vergoedingen** om de dekkingsbedragen vast te stellen in plaats van het **vaste jaarlijkse compensatiebedrag**. Het **Jaarlijks salarisbedrag voor vergoedingen** moet geldig zijn vanaf de begindatum van de werknemer of het begin van de vergoedingsperiode, afhankelijk van het laatste. Een functie is echter niet vereist om het **jaarlijkse salarisbedrag** toe te wijzen. U schakelt de functie **Vergoedingen jaarsalaris** in op het tabblad **Vergoedingenbeheer** van de pagina **Gedeelde Human Resources-parameters**. Deze functie is standaard uitgeschakeld.
+
+> [!IMPORTANT]
+> Als er voor een werknemer zowel een **vast compensatiebedrag** als een **jaarlijks salarisbedrag voor vergoedingen** is ingevoerd, wordt het **jaarlijkse salarisbedrag voor vergoedingen** gebruikt bij het bepalen van de bedragen van de dekking. In de sectie **Details dienstverband** van de pagina **Werknemer** moet u een waarde selecteren in het veld **Vergoedingsfrequentie**.
 
 ## <a name="configure-optional-employee-information"></a>Optionele werknemersinformatie configureren
-
 Wanneer u een vergoedingsplan maakt dat tarieven op basis van geslacht of leeftijd gebruikt, moet u een geboortedatum en geslacht invoeren voor de werknemer om de kosten van de vergoeding te berekenen.
 
 ## <a name="process-employees-to-determine-eligibility"></a>Werknemers verwerken om hun geschiktheid te bepalen
+Voordat werknemers bij een regeling kunnen worden ingeschreven, wordt er een geschiktheidsverwerking uitgevoerd om te bepalen voor welke plannen zij in aanmerking komen. U kunt de resultaten van het geschiktheidsproces weergeven in de **viewer voor procesresultaten**. Zie [Geschiktheid voor inschrijving verwerken](hr-benefits-process-enrollment-eligibility.md) voor meer informatie.
 
-Voordat werknemers bij een regeling kunnen worden ingeschreven, wordt er een geschiktheidsverwerking uitgevoerd om te bepalen voor welke plannen zij in aanmerking komen. U kunt de resultaten van het geschiktheidsproces weergeven in de viewer voor procesresultaten. Zie [Geschiktheid voor inschrijving verwerken](hr-benefits-process-enrollment-eligibility.md) voor meer informatie.
+## <a name="employees-select-plans-using-employee-self-service-optional"></a>Werknemers selecteren plannen via **Werknemerselfservice** (optioneel)
 
-## <a name="employees-select-plans-via-employee-self-service-optional"></a>Werknemers selecteren plannen via Werknemerselfservice (optioneel)
-
-Wanneer openstaande inschrijving plaatsvindt, werknemers pas in dienst zijn genomen of een levensgebeurtenis plaatsvindt, kunnen werknemers hun vergoedingen selecteren of bijwerken via werknemerselfservice. Zie [Werknemerselfservice configureren](hr-benefits-setup-employee-self-service.md) voor meer informatie.
+Wanneer openstaande inschrijving plaatsvindt, werknemers pas in dienst zijn genomen of een levensgebeurtenis plaatsvindt, kunnen werknemers hun vergoedingen selecteren of bijwerken via **Werknemerselfservice**. Zie [Werknemerselfservice configureren](hr-benefits-setup-employee-self-service.md) voor meer informatie.
 
 ## <a name="confirm-employee-plan-selections"></a>Werknemerplanselecties bevestigen
 

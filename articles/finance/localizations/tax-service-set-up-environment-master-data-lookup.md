@@ -2,7 +2,7 @@
 title: Zoeken van hoofdgegevens voor btw-berekeningsconfiguratie inschakelen
 description: In dit onderwerp wordt uitgelegd hoe u de zoekfunctie voor hoofdgegevens voor belastingberekening kunt instellen en inschakelen.
 author: kai-cloud
-ms.date: 11/03/2021
+ms.date: 11/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dafeac01aaff62cbbd5ce6ecb0af0ef111f513b2
-ms.sourcegitcommit: 76fe020f9c5f4e5cc2e93f5ccb3b040f12b0363e
+ms.openlocfilehash: 455e8becfdfa910a3733719653e1a91557b2f59a
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "7749505"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867347"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Zoeken van hoofdgegevens voor btw-berekeningsconfiguratie inschakelen 
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u de zoekfunctie voor hoofdgegevens voor belastingberekening kunt instellen en inschakelen. Er is een vervolgkeuzelijst beschikbaar voor het selecteren van waarden in de belastingberekeningsconfiguratie voor velden, zoals **Leveranciersrekening**, **Artikelcode** en **Leveringstermijn**. Deze waarden zijn afkomstig uit de verbonden Microsoft Dynamics 365 Finance-omgeving met de Microsoft Dataverse-gegevensbron.
+In dit onderwerp wordt uitgelegd hoe u de zoekfunctie voor hoofdgegevens voor belastingberekening kunt instellen en inschakelen. Er is een vervolgkeuzelijst beschikbaar voor het selecteren van waarden in de belastingberekeningsconfiguratie voor velden, zoals **Rechtspersoon**, **Leveranciersrekening**, **Artikelcode** en **Leveringstermijn**. Deze waarden zijn afkomstig uit de verbonden Microsoft Dynamics 365 Finance-omgeving met de Microsoft Dataverse-gegevensbron.
+
+> [!NOTE] 
+> De functie voor het opzoeken van hoofdgegevens voor de belastingberekening is optionele functionaliteit. U kunt de volgende stappen overslaan als u de functie **Ondersteuning voor Dataverse-gegevensbronnen van de Belastingdienst** in Regulatory Configuration Service (RCS) uitschakelt. In dat geval is de vervolgkeuzelijst echter niet beschikbaar in de configuratie van de btw-berekening.
 
 1. De Microsoft Power Platform integratie instellen in Microsoft Dynamics Lifecycle Services (LCS). Zie [Integratie van Microsoft Power Platform - Overzicht van invoegtoepassingen](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md) voor meer informatie. Nadat u deze stap hebt voltooid, wordt de naam van een Microsoft Power Platform-omgeving weergegeven in de sectie **Power Platform integratie**.
 2. Ga naar het [Microsoft Power Platform-beheercentrum](https://admin.powerplatform.microsoft.com/environments) en selecteer de omgevingsnaam. De omgevings-URL wordt geleverd.

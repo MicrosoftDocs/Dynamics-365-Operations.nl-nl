@@ -2,7 +2,7 @@
 title: Een Dynamics 365 Commerce-evaluatieomgeving configureren
 description: In dit onderwerp wordt uitgelegd hoe u een evaluatieomgeving van Microsoft Dynamics 365 Commerce configureert na inrichting.
 author: psimolin
-ms.date: 08/24/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416474"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913722"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Een Dynamics 365 Commerce-evaluatieomgeving configureren
 
@@ -39,6 +39,7 @@ Nadat uw evaluatieomgeving van Commerce end-to-end is ingericht, moeten extra co
 1. Selecteer uw omgeving in de lijst.
 1. Klik op **Aanmelden bij omgeving** in de omgevingsgegevens rechts. U wordt doorgestuurd naar Commerce Headquarters.
 1. Zorg ervoor dat de rechtspersoon **USRT** is geselecteerd rechtsboven.
+2. Ga naar **Commerce-parameters > Configuratieparameters** en controleer of er een vermelding bestaat voor **ProductSearch.UseAzureSearch** die is ingesteld op **true**. Als de vermelding ontbreekt, kunt u deze toevoegen en **Kanaaldatabase > Volledige synchronisatie** uitvoeren voor de Commerce Scale Unit die is gekoppeld aan uw eCommerce-website.
 
 Controleer tijdens het activiteiten na het inrichting in Commerce Headquarters of de rechtspersoon **USRT** altijd is geselecteerd.
 
@@ -105,6 +106,12 @@ Ga als volgt te werk om taken in Commerce in te schakelen.
     1. Selecteer de record.
     1. Selecteer in het actievenster op het tabblad **Batchtaak** de optie **Status wijzigen**.
     1. Selecteer **Annuleren** en vervolgens **OK**.
+
+1. Als de status van de taak **Ingehouden** is, voert u de volgende stappen uit:
+
+    1. Selecteer de record.
+    1. Selecteer in het actievenster op het tabblad **Batchtaak** de optie **Status wijzigen**.
+    1. Selecteer **Wachten** en vervolgens **OK**.
 
 U kunt desgewenst ook het terugkeerinterval instellen op één (1) minuut voor de volgende taken:
 

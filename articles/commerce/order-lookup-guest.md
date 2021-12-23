@@ -2,7 +2,7 @@
 title: Orders opzoeken voor gastbetalingen
 description: In dit onderwerp wordt beschreven hoe u orders opzoeken voor gastbetalingen inschakelt in Microsoft Dynamics 365 Commerce.
 author: stuharg
-ms.date: 09/01/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 639ee670b83198423425d03dad308306c9eed25c
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: a2a10b122faae354b0ea002e43a9bd60157f6216
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674971"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891493"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>Orders opzoeken voor gastbetalingen
 
@@ -63,6 +63,16 @@ Nadat u de waarde van het veld **Persoonlijke gegevens opnemen bij het opzoeken 
 ## <a name="configure-the-order-lookup-module"></a>De module voor orders opzoeken configureren
 
 De module voor het opzoeken van orders in de modulebibliotheek van Commerce wordt gebruikt om het formulier weer te geven dat gastgebruikers gebruiken om orders op te zoeken. De module voor het opzoeken van orders kan worden opgenomen in het hoofdtekstvak van elke pagina waarvoor een klant zich niet hoeft aan te melden. Zie [De module voor het opzoeken van orders](order-lookup-module.md) voor informatie over het configureren van de module.
+
+## <a name="configure-the-order-details-page"></a>De pagina met orderdetails configureren
+
+Voordat gastgebruikers hun orderdetails kunnen bekijken, moet de pagina met orderdetails op uw e-commercesite zo worden geconfigureerd dat gebruikers zich niet hoeven aan te melden. Als u de aanmeldingsvereiste voor uw pagina met orderdetails wilt uitschakelen, opent u de pagina in Commerce Site Builder, selecteert u de slot **Standaardpagina (vereist)** in de structuurweergave en schakelt u het selectievakje **Aanmelden vereist?** onder in het deelvenster met eigenschappen aan de rechterkant uit.
+
+## <a name="add-a-link-to-order-details-in-transactional-emails"></a>Een koppeling naar orderdetails in transactionele e-mails toevoegen
+
+In ordergerelateerde e-mails kunt u een koppeling of knop plaatsen waarmee klanten naar de pagina met orderdetails voor hun order gaan. Als u deze koppeling of knop wilt toevoegen, maakt u een HTML-hyperlink die naar de pagina met orderdetails op uw e-commercesite wijst en geeft u de orderbevestigings-id en het e-mailadres van de klant door als URL-parameters, zoals in het volgende voorbeeld wordt weergegeven.
+
+`<a href="https://[domain]/[orderdetailspage]?confirmationId=%orderconfirmationid%&propertyName=email&propertyValue=%customeremailaddress%" target="_blank">View my order status</a>`
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

@@ -2,7 +2,7 @@
 title: Overzicht van Budgetbeheer
 description: Dit onderwerp introduceert de functie voor budgetbeheer en biedt u informatie bij het configureren van budgetbeheer om het beheer van de financiële middelen van uw organisatie te optimaliseren.
 author: panolte
-ms.date: 06/25/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0c8e7a08796a7f1c537978e406f53531e0f0682e6b5a769ced9d771063c30d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 21277361a3d05c57be7aeaa05348723e23873ef6
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772874"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890695"
 ---
 # <a name="budget-control-overview"></a>Overzicht van Budgetbeheer
 
@@ -78,9 +78,7 @@ Vervolgens kunt u op het tabblad **Machtigingen om boven het budget te gaan** ge
 Vervolgens kunt u op het tabblad **Beschikbare budgetfondsen** de formule definiëren die wordt gebruikt om beschikbare budgetfondsen te berekenen. Afhankelijk van hoe conservatief een organisatie zijn financiële middelen beheert, of afhankelijk van de regelgeving of industrievereisten, kan de berekening conceptdocumenten of niet-geboekte documenten bevatten. 
 
 > [!NOTE]
-> Als deze berekening tijdens een budgetcyclus wordt gewijzigd, zijn de wijzigingen niet van invloed op documenten die eerder door budgetbeheercontroles heen zijn gekomen en zijn geboekt of voltooid. In versie 10.0.17 van de toepassing kwam er een nieuwe berekeningsfunctie **Alleen bedragen bijhouden in de berekeningsfunctie voor beschikbare budgetfondsen** beschikbaar voor beperkte klanten. Met deze functie kunt u wijzigen welke gegevens worden bijgehouden in de budgetSourceTracking-tabellen. Wanneer deze functie is ingeschakeld, worden bedragen alleen opgeslagen als deze zijn geselecteerd voor gebruik in de beschikbare berekening van budgetfondsen. Neem contact op met Ondersteuning als u wilt aanvragen dat de functie **Alleen bedragen bijhouden in de berekeningsfunctie voor beschikbare budgetfondsen** is ingeschakeld. 
-
-### <a name="documents-and-journals"></a>Documenten en journalen
+> Als deze berekening tijdens een budgetcyclus wordt gewijzigd, zijn de wijzigingen niet van invloed op documenten die eerder door budgetbeheercontroles heen zijn gekomen en zijn geboekt of voltooid. Met de functie **Alleen bedragen bijhouden in de berekeningsfunctie voor beschikbare budgetfondsen** kunt u wijzigen welke gegevens in de BudgetSourceTracking-tabellen worden bijgehouden. Wanneer deze functie is ingeschakeld, worden bedragen alleen opgeslagen als deze zijn geselecteerd voor gebruik in de beschikbare berekening van budgetfondsen. Zie [Beschikbare budgetfondsen](budget-funds-available.md) voor meer informatie.
 
 Vervolgens kunt u op het tabblad **Documenten en journalen** selecteren welke brondocumenten en journalen aan budgetbeheercontroles worden onderworpen en of de controles zullen plaatsvinden op het niveau van de regelinvoer of voor het document in zijn geheel. 
 
