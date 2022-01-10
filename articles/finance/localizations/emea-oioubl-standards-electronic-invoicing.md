@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 7e5071e046c49847f5c11a1e258b0da506835c4daada4e96b463af0b2d70bda0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3d41b00a6762c9985cf86b54d92b58a3e4ccdf19
+ms.sourcegitcommit: d13ea8b6baf73601a8b57548232aac84ffaba717
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725980"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7941226"
 ---
 # <a name="supported-standards-for-electronic-invoicing-in-europe"></a>Ondersteunde standaarden voor elektronische facturering in Europa
 
@@ -99,6 +99,7 @@ De instellingen en details van elektronische facturen zijn afhankelijk van het l
 
 - [Italië](emea-ita-e-invoices.md)
 - [Noorwegen](emea-nor-e-invoices.md)
+- [Denemarken](emea-dnk-e-invoices.md)
 - [Duitsland](emea-deu-e-invoices.md)
 - [Finland](https://support.microsoft.com/help/4559937)
 - [Estland](https://support.microsoft.com/help/4552679)

@@ -1,5 +1,5 @@
 ---
-title: Preview van Dynamics 365 Supply Chain Management 10.0.23 (januari 2022)
+title: Nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.23 (januari 2022)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management 10.0.23.
 author: kamaybac
 ms.date: 10/15/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: fd6483c86b34d355e3727a95794b7876dc54ec32
-ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
+ms.openlocfilehash: 83d19f92984c9f67242946aa8faf445d9d2bd881
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "7891788"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920195"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10023-january-2022"></a>Preview van Dynamics 365 Supply Chain Management 10.0.23 (januari 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.23 (januari 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in de preview van Microsoft Dynamics 365 Supply Chain Management versie 10.0.23. Deze versie heeft een buildnummer van 10.0.1037 en is als volgt beschikbaar:
+In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management versie 10.0.23. Deze versie heeft een buildnummer van 10.0.1037 en is als volgt beschikbaar:
 
 - **Preview van versie:** oktober 2021
 - **Algemene beschikbaarheid van versie (zelfupdate):** december 2021

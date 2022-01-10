@@ -2,7 +2,7 @@
 title: Voorraadzichtbaarheid configureren
 description: In dit onderwerp wordt beschreven hoe u Voorraadzichtbaarheid configureert.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 53cc457c788d24adfe3c523719ccffc6d445fb61
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: fcbace2bd28a843fca8aa2f4f998c08f238c29d6
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678466"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920293"
 ---
 # <a name="configure-inventory-visibility"></a>Voorraadzichtbaarheid configureren
 
@@ -61,7 +61,7 @@ Nadat de configuratie is voltooid, moet u **Configuratie bijwerken** selecteren 
 Elke gegevensbron vertegenwoordigt een systeem waaruit uw gegevens afkomstig zijn. Voorbeelden van namen van gegevensbronnen zijn `fno` (wat Dynamics 365 Finance and Operations-apps betekent) en `pos` (wat verkooppunt betekent). Standaard is Supply Chain Management ingesteld als een standaardgegevensbron (`fno`) in Voorraadzichtbaarheid.
 
 > [!NOTE]
-> De `fno`-gegevensbron is gereserveerd voor Dynamics 365 Supply Chain Management.
+> De `fno`-gegevensbron is gereserveerd voor Supply Chain Management. Als de invoegtoepassing Voorraadzichtbaarheid is geïntegreerd met een Supply Chain Management-omgeving, raden we u aan om geen configuraties te verwijderen die betrekking hebben op `fno` in de gegevensbron.
 
 Volg deze stappen om een gegevensbron toe te voegen.
 
@@ -273,17 +273,17 @@ De `MyCustomAvailableforReservation`-uitvoer, gebaseerd op de berekeningsinstell
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Configuratie van de partitie
 
-De partitieconfiguratie bestaat uit een combinatie van basisdimensies. Hiermee wordt het patroon van de gegevensdistributie gedefinieerd. Gegevensbewerkingen in dezelfde partitie ondersteunen hoge prestaties en kosten niet te veel. Goede partitiepatronen kunnen daarom aanzienlijke voordelen opleveren.
-
-Voorraadweergave biedt de volgende standaardpartitieconfiguratie.
+De partitieconfiguratie bestaat momenteel uit twee basisdimensies (`SiteId` en `LocationId`) die aangeven hoe de gegevens worden gedistribueerd. Bewerkingen onder dezelfde partitie kunnen betere prestaties bieden tegen lagere kosten. In de volgende tabel wordt de standaardpartitieconfiguratie weergegeven die door de invoegtoepassing Voorraadzichtbaarheid wordt geboden.
 
 | Basisdimensie | Hiërarchie |
 |---|---|
 | `SiteId` | 1 |
 | `LocationId` | 2 |
 
-> [!NOTE]
-> De standaardpartitieconfiguratie dient alleen ter informatie. U hoeft deze niet te definiëren in Voorraadzichtbaarheid. Op dit moment wordt de upgrade van de partitieconfiguratie niet ondersteund.
+De oplossing bevat standaard deze partitieconfiguratie. Daarom *hoeft u deze niet zelf te definiëren*.
+
+> [!IMPORTANT]
+> Pas de standaard partitieconfiguratie niet aan. Als u deze verwijdert of wijzigt, veroorzaakt u waarschijnlijk een onverwachte fout.
 
 ## <a name="product-index-hierarchy-configuration"></a><a name="index-configuration"></a>Configuratie van de productindexhiërarchie
 

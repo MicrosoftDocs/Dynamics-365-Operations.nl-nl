@@ -1,81 +1,119 @@
 ---
-title: Consistentiecontrole voor detailhandelstransacties
-description: In dit onderwerp wordt de functie voor de consistentiecontrole voor transacties in Dynamics 365 Commerce beschreven.
-author: josaw1
-ms.date: 10/07/2020
+title: Winkeltransacties valideren voor de berekening van overzichten
+description: In dit onderwerp wordt de functionaliteit beschreven voor het valideren van winkeltransacties in Microsoft Dynamics 365 Commerce.
+author: analpert
+ms.date: 12/15/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: v-chgriffin
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: josaw
+ms.author: analpert
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c8ba0f99743984860119deb96c889f5d62e1728c8772b9e6786d371690b61489
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 008368ae32aa92682d578b75b148e0587fcc94e0
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741727"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924766"
 ---
-# <a name="retail-transaction-consistency-checker"></a>Consistentiecontrole voor detailhandelstransacties
+# <a name="validate-store-transactions-for-statement-calculation"></a>Winkeltransacties valideren voor de berekening van overzichten
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt de functie voor de consistentiecontrole voor transacties in Microsoft Dynamics 365 Commerce beschreven. In de consistentiecontrole worden inconsistente transacties geïdentificeerd en geïsoleerd voordat ze worden verzameld door het boekingsproces voor overzichten.
+In dit onderwerp wordt de functionaliteit beschreven voor het valideren van winkeltransacties in Microsoft Dynamics 365 Commerce. Tijdens het validatieproces worden transacties aangegeven en gemarkeerd die boekingsfouten veroorzaken voordat ze worden opgehaald door het boekingsproces voor het overzicht.
 
-Wanneer een overzicht wordt geboekt, kan de boeking mislukken vanwege inconsistente gegevens in de tabellen met handelstransacties. Het gegevensprobleem kan worden veroorzaakt door onvoorziene problemen in de POS-toepassing (Point of Sale, POS) of door incorrect geïmporteerde transacties uit POS-systemen van derden. Enkele voorbeelden van hoe deze inconsistenties kunnen worden weergegeven: 
+Wanneer u een overzicht probeert te boeken, kan het validatieproces mislukken vanwege inconsistente gegevens in de tabellen voor de handelstransactie. Hieronder vindt u enkele voorbeelden van factoren die deze inconsistenties kunnen veroorzaken:
 
 - Het transactietotaal in de kopteksttabel komt niet overeen met het transactietotaal op de regels.
-- Het aantal regels in de kopteksttabel komt niet overeen met het aantal regels in de transactietabel.
-- De btw in de kopteksttabel komen niet overeen met het btw-bedrag op de regels. 
+- Het aantal artikelen dat is opgegeven in de kopteksttabel komt niet overeen met het aantal artikelen in de transactietabel.
+- De btw in de kopteksttabel komt niet overeen met het btw-bedrag op de regels. 
 
-Wanneer er inconsistente transacties worden verzameld door het boekingsproces voor overzichten, worden er inconsistente verkoopfacturen en betalingsjournalen gemaakt en mislukt het gehele boekingsproces voor overzichten. Dergelijke overzichten kunnen alleen nog worden hersteld door middel van gecompliceerde gegevenscorrecties via meerdere transactietabellen. Met de consistentiecontrole voor transacties kunnen dit soort problemen worden voorkomen.
+Als er inconsistente transacties worden opgehaald door het boekingsproces voor overzichten, kunnen verkoopfacturen en betalingsjournalen die worden gemaakt ertoe leiden dat het boekingsproces voor overzichten mislukt. Met het proces **Winkeltransacties valideren** worden deze problemen voorkomen door ervoor te zorgen dat alleen transacties die voldoen aan de transactievalidatieregels worden doorgegeven aan het berekeningsproces voor transactieoverzichten.
 
-Het volgende diagram biedt inzicht in het boekingsproces met de consistentiecontrole voor detailhandelstransacties.
+In de volgende afbeelding ziet u de overdag terugkerende processen voor het uploaden van transacties, het valideren van transacties en het berekenen en boeken van transactieoverzichten, plus de processen aan het einde van de dag voor het berekenen en boeken van financiële overzichten.
 
-![Boekingsproces voor overzichten met consistentiecontrole voor transacties.](./media/validchecker.png "Boekingsproces voor overzichten met consistentiecontrole voor transacties")
+![Afbeelding met de overdag terugkerende processen voor het uploaden van transacties, het valideren van transacties en het berekenen en boeken van transactieoverzichten, plus de processen aan het einde van de dag voor het berekenen en boeken van financiële overzichten.](./media/valid-checker-statement-posting-flow.png)
 
-Met het batchproces **Winkeltransacties valideren** wordt de consistentie van de tabellen met handelstransacties gecontroleerd voor de volgende scenario's.
+## <a name="store-transaction-validation-rules"></a>Validatieregels voor winkeltransacties
 
-- **Klantrekening**: hiermee wordt gecontroleerd of de klantrekening in de tabellen met handelstransacties bestaat in het HQ-klantmodel.
-- **Regeltelling**: hiermee wordt gecontroleerd of het aantal regels, zoals vastgelegd in de transactiekopteksttabel, overeenkomt met het aantal regels in de verkooptransactietabellen.
-- **Prijs inclusief belasting**: hiermee wordt gecontroleerd of de parameter **Prijs inclusief belasting** consistent is op de verschillende transactieregels en of de prijs op de verkoopregel in overeenstemming is met de prijs inclusief belasting en de configuratie voor belastingvrijstelling.
-- **Betalingsbedrag**: hiermee wordt gecontroleerd of de betalingsrecords overeenkomen met het betalingsbedrag in de kop, waarbij ook rekening wordt gehouden met de configuratie voor afronding in het grootboek.
-- **Brutobedrag**: hiermee wordt gecontroleerd of het brutobedrag in de kop de som is van de nettobedragen op de regels plus het belastingbedrag, waarbij ook rekening wordt gehouden met de configuratie voor afronding in het grootboek.
-- **Nettobedrag**: hiermee wordt gecontroleerd of het nettobedrag in de kop de som is van de nettobedragen op de regels, waarbij ook rekening wordt gehouden met de configuratie voor afronding in het grootboek.
-- **Over-/onderbetaling**: hiermee wordt gecontroleerd of het verschil tussen het brutobedrag in de kop en het betalingsbedrag niet hoger is dan de maximumwaarde van de configuratie voor over-/onderbetaling, waarbij ook rekening wordt gehouden met de configuratie voor afronding in het grootboek.
-- **Kortingsbedrag**: hiermee wordt gecontroleerd of het kortingsbedrag in de kortingstabellen en het kortingsbedrag in de tabellen met transactieregels consistent zijn en of het kortingsbedrag in de kop het totaal is van de kortingsbedragen op de regels, waarbij ook rekening wordt gehouden met de configuratie voor afronding in het grootboek.
-- **Regelkorting**: hiermee wordt gecontroleerd of de regelkorting op de transactieregel het totaal is van alle regels in de kortingstabel die overeenkomt met de transactieregel.
-- **Geschenkbonartikel**: Commerce ondersteunt niet het retourneren van geschenkbonartikelen. Het saldo op een geschenkbon kan echter wel contant worden uitbetaald. Geschenkbonartikelen die worden verwerkt als een retourregel in plaats van een uitbetalingsregel mislukken voor het boekingsproces voor overzichten. Het validatieproces voor geschenkbonartikelen zorgt dat de enige retourregels voor geschenkbonartikelen in de transactietabellen uitbetalingsregels voor de geschenkbon zijn.
-- **Negatieve prijs**: hiermee wordt gevalideerd of er geen transactieregels met een negatieve prijs zijn.
-- **Artikel en variant**: hiermee wordt gevalideerd of artikelen en varianten op de transactieregels bestaan in het stambestand met artikelen en varianten.
-- **Belastingbedrag**: hiermee wordt gecontroleerd of belastingrecords overeenkomen met de belastingbedragen op de regels.
-- **Serienummer**: hiermee wordt gevalideerd of het serienummer aanwezig is in de transactieregels voor artikelen die worden gecontroleerd op serienummer.
-- **Ondertekenen**: hiermee wordt gevalideerd of het teken op de hoeveelheid en het nettobedrag hetzelfde zijn in alle transactieregels.
-- **Zakelijke datum**: hiermee wordt gecontroleerd of de financiële perioden voor alle zakelijke datums voor de transacties openstaan.
-- **Toeslagen**: hiermee wordt gecontroleerd of het bedrag van de toeslag in de kop en op de regels in overeenstemming is met de prijs, inclusief belasting en de configuratie voor belastingvrijstelling.
-
-## <a name="set-up-the-consistency-checker"></a>De consistentiecontrole instellen
-
-Configureer het batchproces 'Winkeltransacties valideren' via **Retail en Commerce \> IT Retail en Commerce \> POS-boekingen** voor periodieke uitvoering. De batchtaak kan worden gepland op basis van de organisatiehiërarchie van de winkel, op dezelfde wijze als de processen Overzichten in batch berekenen en Overzichten in batch boeken zijn ingesteld. We raden u aan dit batchproces zo te configureren dat het meerdere keren per dag wordt uitgevoerd en zo te plannen dat het na elke P-taak wordt uitgevoerd.
-
-## <a name="results-of-validation-process"></a>Resultaten van validatieproces
-
-De resultaten van de validatie door het batchproces worden toegevoegd aan de betreffende transactie. Het veld **Validatiestatus** in de record van de transactie wordt ingesteld op **Geslaagd** of **Fout** en de datum van de laatste validatie wordt weergegeven in het veld **Laatste validatietijd**.
-
-Als u meer beschrijvende fouttekst voor een validatiefout wilt weergeven, selecteert u de betreffende transactierecord voor de winkel en klikt u op de knop **Validatiefouten**.
-
-Transacties die de validatie niet doorstaan en transacties die nog niet zijn gevalideerd, worden niet in overzichten opgenomen. Tijdens het proces Overzicht berekenen wordt voor gebruikers een melding weergegeven als er transacties zijn die door een validatiefout niet in het overzicht zijn opgenomen.
-
-Als een validatiefout wordt gevonden, kunt u de fout alleen herstelen door contact op te nemen met Microsoft Support. In een toekomstige versie wordt het voor gebruikers mogelijk om de betreffende records te herstellen via de gebruikersinterface. Daarnaast worden functies voor logboekregistratie en controle toegevoegd, zodat de geschiedenis van de wijzigingen kan worden bijgehouden.
+Met het batchproces **Winkeltransacties valideren** wordt de consistentie van de tabellen met handelstransacties gecontroleerd op basis van de volgende validatieregels.
 
 > [!NOTE]
-> In een toekomstige versie worden extra validatieregels toegevoegd om meer scenario's te ondersteunen.
+> In volgende versies zullen nog steeds validatieregels worden toegevoegd.
 
+### <a name="transaction-header-validation-rules"></a>Validatieregels voor transactiekopteksten
+
+De volgende tabel bevat de validatieregels voor de transactiekoptekst die worden gecontroleerd tegen de koptekst van detailhandelstransacties voordat deze transacties worden doorgegeven aan de overzichtsboeking.
+
+| Titel | Beschrijving |
+|-------|-------------|
+| Werkdatum | Met deze regel wordt gevalideerd of de bedrijfsdatum van de transactie aan een openstaande boekperiode in het grootboek is gekoppeld. |
+| Valuta-afronding | Met deze regel wordt gevalideerd of de transactiebedragen worden afgerond volgens de afrondingsregel voor valuta's. |
+| Klantrekening | Met deze regel wordt gevalideerd of de klant die in de transactie wordt gebruikt, aanwezig is in de database. |
+| Kortingsbedrag | Met deze regel wordt gevalideerd of het kortingsbedrag in de koptekst gelijk is aan het totaal van de kortingsbedragen van de regels. |
+| Boekingsstatus van belastingdocument (Brazilië) | Met deze regel wordt gevalideerd of het fiscale document kan worden geboekt. |
+| Brutobedrag | Met deze regel wordt gevalideerd of het brutobedrag in de transactiekop overeenkomt met het nettobedrag, inclusief btw, van de transactieregels plus toeslagen. |
+| Netto | Met deze regel wordt gevalideerd of het nettobedrag in de transactiekop overeenkomt met het nettobedrag, exclusief btw, van de transactieregels plus toeslagen. |
+| Netto + btw | Met deze regel wordt gevalideerd of het brutobedrag in de transactiekop overeenkomt met het nettobedrag, exclusief btw, van de transactieregels plus alle belastingen en toeslagen. |
+| Aantal artikelen | Met deze regel wordt gevalideerd of het aantal artikelen dat is opgegeven in de transactiekoptekst overeenkomt met de som van de hoeveelheden op de transactieregels. |
+| Betalingsbedrag | Met deze regel wordt gevalideerd of het betalingsbedrag in de transactiekoptekst overeenkomt met de som van alle betalingstransacties. |
+| Berekening van btw-vrijstelling | Met deze regel wordt gevalideerd of de som van het berekende bedrag en het vrijgestelde btw-bedrag van toeslagregels gelijk is aan het oorspronkelijke berekende bedrag. |
+| Prijzen inclusief btw | Met deze regel wordt gevalideerd of de vlag **Btw is inbegrepen in prijzen** consistent is voor de transactiekoptekst en de btw-transacties. |
+| Transactie niet leeg | Met deze regel wordt gevalideerd of de transactie regels bevat en dat minimaal één regel niet ongeldig is gemaakt. |
+| Te weinig/te veel betaald | Met deze regel wordt gevalideerd of het verschil tussen het brutobedrag in de kop en het betalingsbedrag niet hoger is dan het maximum voor de configuratie voor onder-/overbetaling. |
+
+### <a name="transaction-line-validation-rules"></a>Validatieregels voor transactieregels
+
+De volgende tabel bevat de validatieregels voor transactieregels die worden gecontroleerd tegen de regeldetails van detailhandelstransacties voordat deze transacties worden doorgegeven aan de overzichtsboeking.
+
+| Titel | Beschrijving |
+|-------|-------------|
+| Streepjescode | Met deze regel wordt gevalideerd of alle streepjescodes die worden gebruikt voor de transactieregels bestaan in de database. |
+| Toeslagregels | Met deze regel wordt gevalideerd of de som van het berekende bedrag en het vrijgestelde btw-bedrag van toeslagregels gelijk is aan het oorspronkelijke berekende bedrag. |
+| Retouren van geschenkbonnen | Met deze regel wordt gevalideerd of er geen retouren van geschenkkaarten in de transactie zijn. |
+| Artikelvariant | Met deze regel wordt gevalideerd of alle artikelen en alle varianten die worden gebruikt voor de transactieregels bestaan in de database. |
+| Regelkorting | Met deze regel wordt gevalideerd of het kortingsbedrag voor de regel gelijk is aan het totaal van de kortingstransacties. |
+| Btw per regel | Met deze regel wordt gevalideerd of het btw-bedrag voor de regel gelijk is aan het totaal van de btw-transacties. |
+| Negatieve prijs | Met deze regel wordt gevalideerd of er geen negatieve prijzen worden gebruikt om de transactieregels. |
+| Gecontroleerd via serienummer | Met deze regel wordt gevalideerd of het serienummer aanwezig is op de transactieregel voor artikelen die worden gecontroleerd op serienummer. |
+| Serienummerdimensie | Met deze regel wordt gevalideerd of er geen serienummer is opgegeven als de serienummerdimensie van het artikel inactief is. |
+| Tekenverschil | Met deze regel wordt gevalideerd of het teken voor de hoeveelheid en het teken voor het nettobedrag hetzelfde zijn op alle transactieregels. |
+| Btw-vrijstelling | Met deze regel wordt gevalideerd of de som van de regelartikelprijs en het vrijgestelde btw-bedrag gelijk is aan de oorspronkelijke prijs. |
+| Btw-groeptoewijzing | Met deze regel wordt gevalideerd of er door de combinatie van de btw-groep en de btw-groep voor artikelen een geldige btw-doorsnede ontstaat. |
+| Conversies van maateenheden | Met deze regel wordt gevalideerd of de maateenheid van alle regels een geldige conversie naar de voorraadmaateenheid heeft. |
+
+## <a name="enable-the-store-transaction-validation-process"></a>Het validatieproces voor winkeltransacties inschakelen
+
+Configureer de taak **Winkeltransacties valideren** voor periodieke uitvoeringen in Commerce Headquarters (**Retail en commerce \> IT Retail en Commerce \> POS-boekingen**). De batchtaak wordt gepland op basis van de organisatiehiërarchie van de winkel. Het is raadzaam om dit batchproces zo te configureren dat dit wordt uitgevoerd met dezelfde frequentie als de batchtaken voor de berekening van **P-taak** en **Transactieoverzichten berekenen**.
+
+## <a name="results-of-the-validation-process"></a>Resultaten van het validatieproces
+
+De resultaten van het batchproces **Winkeltransacties valideren** kunnen worden bekeken in elke detailhandelstransactie. Het veld **Validatiestatus** in de transactierecord is ingesteld op **Geslaagd**, **Fout** of **Geen**. In het veld **Laatste validatietijd** wordt de datum weergegeven waarop de laatste validatie is uitgevoerd.
+
+In de volgende tabel wordt elke validatiestatus beschreven.
+
+| Validatiestatus | Beschrijving |
+|-------------------|-------------|
+| Geslaagd | Alle ingeschakelde validatieregels zijn geslaagd. |
+| Fout | Er is een fout geïdentificeerd door een ingeschakelde validatieregel. U kunt meer details over de fout weergeven door **Validatiefouten** te selecteren in het actievenster. |
+| Geen | Voor het transactietype hoeven geen validatieregels te worden toegepast. |
+
+![De pagina Winkeltransacties met het veld Validatiestatus en de knop Validatiefouten.](./media/valid-checker-validation-status-errors.png)
+
+Alleen transacties met de validatiestatus **Geslaagd** worden naar de transactieoverzichten overgebracht. Als u transacties met de status **Fout** wilt weergeven, controleert u de tegel **Fouten in contante transacties** in de werkruimte **Financiën van winkel**.
+
+![Tegels in de werkruimte Financiën van winkel.](./media/valid-checker-cash-carry-validation-failures.png)
+
+Zie [Contante transacties en transacties voor beheer van contant geld bewerken en controleren](edit-cash-trans.md) voor meer informatie over het oplossen van validatiefouten in contante transacties.
+
+## <a name="additional-resources"></a>Aanvullende bronnen
+
+[Contante transacties en transacties voor beheer van contant geld bewerken en controleren](edit-cash-trans.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

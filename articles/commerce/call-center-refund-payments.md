@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 93eff7a54f9d3851c59b83a28d3aa61a8de7bc41f2a845be21c8bf4d1c6401d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8d5bcf3a0d36e323ee96c1f37829a95b60f529bc
+ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731026"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7944708"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Methoden voor restitutiebetalingen in callcenters
 
@@ -33,11 +33,14 @@ De logica van het callcenter bepaalt de betalingswijze voor de restitutiebetalin
 
 Het callcenter gebruikt de betalingswijze van de oorspronkelijke order om de betalingswijze te bepalen die moet worden toegepast op een retourorder. Hierna volgt de procedure voor de volgende oorspronkelijke betalingswijzen:
 
-- **Normaal** (contant) of **Cheque**: wanneer een retourorder die is gemaakt, verwijst naar een oorspronkelijke order die is betaald met de normale betalingswijze (contant) of met een cheque, verwijst de callcentertoepassing naar configuraties op de pagina **Restitutiemethoden van callcenter**. Met deze pagina kunnen organisaties in ordervaluta definiëren hoe restituties aan klanten worden gedaan voor orders die oorspronkelijk zijn betaald met de normale betalingswijze of met een cheque. Via de pagina **Restitutiemethoden van callcenter** kunnen organisaties ook selecteren of een door het systeem gegenereerde restitutiecheque naar de klant wordt verzonden of dat er een klanttegoed wordt gemaakt voor het interne klantaccountsaldo. In deze scenario's verwijst de callcenterlogica naar de valuta van de retourorder en gebruikt ze vervolgens de waarde van de **Betalingswijze detailhandel** voor die valuta om een restitutiebetalingsregel op de retourverkooporder te maken. Later wordt een klantbetalingsjournaal voor klanten (AR) dat de toegewezen AR-betalingsmethode gebruikt, aan de valuta gekoppeld.
+- **Normaal** (contant) of **Cheque**: wanneer een retourorder die is gemaakt, verwijst naar een oorspronkelijke order die is betaald met de normale betalingswijze (contant) of met een cheque, verwijst de callcentertoepassing naar configuraties op de pagina **Restitutiemethoden van callcenter**. Met deze pagina kunnen organisaties in ordervaluta definiëren hoe restituties aan klanten worden gedaan voor orders die oorspronkelijk zijn betaald met de normale betalingswijze of met een cheque. Met de pagina **Restitutiemethoden van callcenter** kunnen organisaties ook selecteren of een door het systeem gegenereerde restitutiecontrole naar de klant moet worden verzonden. In deze scenario's verwijst de callcenterlogica naar de valuta van de retourorder en gebruikt ze vervolgens de waarde van de **Betalingswijze detailhandel** voor die valuta om een restitutiebetalingsregel op de retourverkooporder te maken. Later wordt een klantbetalingsjournaal voor klanten (AR) dat de toegewezen AR-betalingsmethode gebruikt, aan de valuta gekoppeld.
 
     De volgende illustratie toont de configuratie voor een scenario waarin een klant producten retourneert van een verkooporder die is gekoppeld aan de valuta USD, en die oorspronkelijk is betaald met de normale of cheque betalingswijze. In dit scenario wordt een restitutie aan de klant gedaan via een door het systeem gegenereerde restitutiecheque. De AR-betalingsmethode **REF-CHK** is geconfigureerd als betalingstype voor de restitutiecheque.
 
     ![Configuratie van restitutiemethoden in het callcenter voor normale betalingen en betalingen met cheques.](media/callcenterrefundmethods.png)
+
+    > [!NOTE]
+    > Klantrekening is geen ondersteunde restitutiemethode voor contante betalingen of chequebetalingen.
 
 - **Creditcard**: wanneer een gemaakte retourorder verwijst naar een oorspronkelijke order die met een creditcard is betaald, past de callcenter-logica voor restitutiebetalingen dezelfde oorspronkelijke creditcard toe op de retourorder.
 - **Klantenkaart**: wanneer een gemaakte retourorder verwijst naar een oorspronkelijke order die met een klantenkaart is betaald, past de callcenter-logica voor restitutiebetalingen de restitutie toe op dezelfde klantenkaart.

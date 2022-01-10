@@ -1,8 +1,8 @@
 ---
 title: Databaselogboeken configureren en beheren
 description: U kunt wijzigingen in tabellen en velden in Dynamics 365 Human Resources bijhouden met databaselogboeken.
-author: andreabichsel
-ms.date: 06/10/2020
+author: twheeloc
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4fd0f69df4a141e509c8c250f767cbbc3a20ef4ab7ac3dcec2bc6faa15eababb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 10591abee7890d54d721c9324101a4b4bd0a74d2
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781652"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924815"
 ---
 # <a name="configure-and-manage-database-logging"></a>Databaselogboeken configureren en beheren
 
@@ -93,14 +93,14 @@ U kunt de databaselogboeken geheel of gedeeltelijk verwijderen met behulp van de
 Volg deze stappen om databaselogboeken op te schonen: 
 
 1. Ga naar **Systeembeheer > Koppelingen > Database > Databaselogboek**. Selecteer **Logboek opschonen**.
-
-2. Kies een van de volgende opties voor het selecteren van logboeken die u wilt verwijderen:
+2. Selecteer onder de koptekst **Op te nemen records** de optie **Filter**.
+3. Kies de methode die wordt gebruikt om logboeken te selecteren voor verwijdering. Voer een van de volgende opties in:
 
    - Tabel-ID
    - Type logboek
    - Aanmaakdatum en -tijd
 
-3. Gebruik het tabblad **Databaselogboek opschonen** om te bepalen wanneer u de taak voor het opschonen van het logboek wilt uitvoeren. Databaselogboeken zijn standaard 30 dagen beschikbaar.
+4. Gebruik het tabblad **Databaselogboek opschonen** om te bepalen wanneer u de taak voor het opschonen van het logboek wilt uitvoeren. Databaselogboeken zijn standaard 30 dagen beschikbaar.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
