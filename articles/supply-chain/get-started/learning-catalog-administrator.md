@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ff9d4d0c1d72d3002f84f895f67d3c9cb347f1e8
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: a11455c4e3f59ef52d9a1e3d2e6a10c57a070a79
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402220"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920418"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Trainingscatalogus voor beheerders van Dynamics 365 Supply Chain Management
 
@@ -66,7 +66,7 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 
 ## <a name="supply-chain-management"></a>Supply Chain Management<a name="scm"></a>
 
-| Inhoud | Beschrijving | Format | Lengte |
+| Inhoud | Beschrijving | Format | Length |
 |---------|-------------|--------|--------|
 | [Technisch wijzigingsbeheer instellen voor Dynamics 365 Supply Chain Management](/learn/paths/set-up-engineering-change-management/) | De hedendaagse fabrikanten vereisen een krachtig productgegevensbeheer, versiebeheer en beheer van technische wijzigingen om in een wereld van constant kortere levenscycli van producten, verhoogde kwaliteit en betrouwbaarheid en toegenomen nadruk op productveiligheid te slagen. Kom in dit leertraject meer te weten over het instellen van technisch wijzigingsbeheer. | Gratis online leertraject voor zelfstudie | 4 uur |
 

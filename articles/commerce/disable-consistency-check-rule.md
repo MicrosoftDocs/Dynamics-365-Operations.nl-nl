@@ -1,8 +1,8 @@
 ---
-title: Regels in de consistentiecontrole voor detailhandeltransacties uitschakelen
-description: In dit onderwerp wordt de functionaliteit beschreven voor het uitschakelen van de regels in de consistentiecontrole voor transacties in Microsoft Dynamics 365 Commerce.
-author: josaw1
-ms.date: 10/15/2019
+title: Regels uitschakelen die worden gebruikt tijdens het validatieproces voor transacties
+description: In dit onderwerp wordt de functionaliteit beschreven voor het uitschakelen van de regels voor transactievalidatie in Microsoft Dynamics 365 Commerce.
+author: analpert
+ms.date: 12/11/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,24 +15,21 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 381bc8534d4b0a06a50c8c18b3f78aba9d43a1f497bfd271361216ed1dee9197
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cdaea51b4c84e6a62f0eb9412315ae77b4c11503
+ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746656"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7919520"
 ---
-# <a name="disable-rules-in-the-retail-transaction-consistency-checker"></a>Regels in de consistentiecontrole voor detailhandeltransacties uitschakelen 
+# <a name="disable-rules-used-in-the-transaction-validation-process"></a>Regels uitschakelen die worden gebruikt tijdens het validatieproces voor transacties
 
 [!include [banner](../includes/banner.md)]
 
-Detailhandelaren kunnen bedrijfsscenario's en processen hebben die uniek zijn. Daarom zijn niet alle regels die standaard zijn opgenomen in de consistentiecontrole voor handeltransacties van toepassing op alle detailhandelaren. Om verschillen te kunnen verwerken, biedt Microsoft Dynamics 365 Commerce functionaliteit die kan worden gebruikt om de regels die niet van toepassing zijn, uit te schakelen.
+Detailhandelaren kunnen bedrijfsscenario's en processen hebben die uniek zijn. Daarom zijn niet alle regels die zijn opgenomen in het proces voor validatie van transacties van toepassing op alle retailers. Om verschillen te kunnen verwerken, biedt Microsoft Dynamics 365 Commerce functionaliteit die kan worden gebruikt voor het uitschakelen van regels die niet van toepassing zijn.
 
-Voor het weergeven van de lijst met regels die beschikbaar zijn in de consistentiecontrole voor detailhandeltransacties in uw omgeving en om de status van elke regel weer te geven, gaat u naar **Detailhandel en Commerce \> Instelling van hoofdkantoor \> Parameters \> Commerce-parameters** en selecteert u het tabblad **Transactievalidatie**.
+Als u de lijst met regels wilt weergeven die beschikbaar zijn in het transactievalidatieproces in uw omgeving en als u de status van elke regel wilt weergeven, gaat u naar **Retail en Commerce \> Instelling van hoofdkantoor \> Parameters \> Commerce-parameters** en selecteert u het tabblad **Transactievalidatie**. Alle ingeschakelde regels worden gebruikt om transacties te valideren tijdens het proces **Winkeltransacties valideren** en moeten geslaagd zijn om transacties te kunnen verzamelen en boeken in een transactieoverzicht.
 
-Standaard is de status van elke regel ingesteld op **Ingeschakeld**. Daarom worden alle regels gebruikt om detailhandeltransacties te valideren voordat ze in de handelsoverzichten worden opgenomen. Als u een regel wilt uitschakelen, wijzigt u de status in **Uitgeschakeld**. Uitgeschakelde regels worden niet meegenomen wanneer transacties worden gevalideerd tijdens het berekeningsproces van het overzicht.
-
-Als u het gehele validatieproces wilt overslaan, ongeacht de ingeschakelde regels, gaat u naar **Detailhandel en Commerce \> Instelling van hoofdkantoor \> Parameters \> Commerce-parameters** en stelt u op het tabblad **Transactievalidatie** de optie **Consistentiecontrole voor Commerce-transacties uitschakelen** in op **Ja**. Als deze optie is ingesteld op **Nee**, kan deze niet worden teruggezet op **Ja** vanuit de gebruikersinterface.
-
+Standaard is de status van elke regel ingesteld op **Ingeschakeld**. Daarom worden alle regels gebruikt om detailhandelstransacties te valideren voordat ze in de handelstransactieoverzichten kunnen worden opgenomen. Als u een regel wilt uitschakelen, wijzigt u de status in **Uitgeschakeld**. Uitgeschakelde regels worden niet meegenomen wanneer transacties worden gevalideerd tijdens het proces **Winkeltransacties valideren**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

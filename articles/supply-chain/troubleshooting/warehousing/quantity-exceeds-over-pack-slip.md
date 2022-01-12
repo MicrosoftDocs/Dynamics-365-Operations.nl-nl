@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 00e3da7767b80e16f9351f59b109765bffc0128fe149cefafc1edda3a6cbcb96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc74c5748950b1f0f001fd89acb2e023640065ee
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781340"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920045"
 ---
 # <a name="quantity-exceeds-over-delivery-percentage-during-packing-slip-generation"></a>Hoeveelheid overschrijdt meerleveringspercentage tijdens genereren pakbon
 
@@ -50,10 +50,10 @@ Met de volgende procedure kunt u de hoeveelheid op de ladingsregel aanpassen.
 
 1. Ga naar **Magazijnbeheer \> Ladingen \> Alle ladingen**.
 1. Selecteer de lading waarvoor geen pakbon kan worden gegenereerd.
-1. Selecteer in het actievenster, op het tabblad  **Verzenden en ontvangen**, in de groep  **Omkeren** de optie  **Verzendbevestiging omkeren**.
-1. Selecteer op het tabblad  **Ladingsregels** de ladingsregel voor het artikel dat het meerleveringspercentage overschrijdt.
+1. Selecteer in het actievenster, op het tabblad **Verzenden en ontvangen**, in de groep **Omkeren** de optie **Verzendbevestiging omkeren**.
+1. Selecteer op het tabblad **Ladingsregels** de ladingsregel voor het artikel dat het meerleveringspercentage overschrijdt.
 1. Selecteer **Opgenomen hoeveelheid reduceren** om de opgenomen hoeveelheid aan te passen.
-1. Selecteer op het tabblad  **Regeldetails** de optie **Order**.
+1. Selecteer op het tabblad **Regeldetails** de optie **Order**.
 1. Stel veld **Hoeveelheid** in op de opgenomen hoeveelheid (dat wil zeggen, op de waarde van het veld **Hoeveelheid gemaakt werk**), zodat de pakbon kan worden gegenereerd.
 
 ### <a name="adjust-the-over-delivery-percentage"></a>Het meerleveringspercentage aanpassen
@@ -62,8 +62,8 @@ Met de volgende procedure kunt u het meerleveringspercentage aanpassen.
 
 1. Ga naar **Klanten \> Orders \> Alle orders**.
 1. Selecteer de verkooporder waarvoor u geen pakbon voor de lading kunt boeken.
-1. Selecteer op het tabblad  **Verkooporderregels** de verkooporderregel voor het artikel dat het percentage voor meerleveringen overschrijdt.
-1. Selecteer op het tabblad  **Regeldetails** de optie **Levering**.
+1. Selecteer op het tabblad **Verkooporderregels** de verkooporderregel voor het artikel dat het percentage voor meerleveringen overschrijdt.
+1. Selecteer op het tabblad **Regeldetails** de optie **Levering**.
 1. Stel in het veld **Meerlevering** de waarde in op een groter percentage dat geschikt is voor de hoeveelheid die voor de ladinghoeveelheid was verzameld, zodat het genereren van de pakbon doorgang kan vinden.
 
 ### <a name="reverse-and-make-adjustments"></a>Omkeren en correcties aanbrengen
@@ -73,14 +73,14 @@ Keer alles om dat voor de lading is geboekt (bijvoorbeeld de pakbon, bevestiging
 Gebruik de volgende procedure om een pakbon te annuleren.
 
 1. Ga naar **Magazijnbeheer \> Ladingen \> Alle ladingen**.
-1. Selecteer in het actievenster, op het tabblad  **Verzenden en ontvangen**, in de groep  **Omkeren** de optie  **Pakbonnen annuleren**.
+1. Selecteer in het actievenster, op het tabblad **Verzenden en ontvangen**, in de groep **Omkeren** de optie **Pakbonnen annuleren**.
 
 Gebruik de volgende procedure om een verzendingsbevestiging om te keren.
 
 1. Ga naar **Magazijnbeheer \> Ladingen \> Alle ladingen**.
-1. Selecteer in het actievenster, op het tabblad  **Verzenden en ontvangen**, in de groep  **Omkeren** de optie  **Verzendbevestiging omkeren**.
+1. Selecteer in het actievenster, op het tabblad **Verzenden en ontvangen**, in de groep **Omkeren** de optie **Verzendbevestiging omkeren**.
 
 Gebruik de volgende procedure om werk om te keren.
 
 1. Ga naar **Magazijnbeheer \> Ladingen \> Alle ladingen**.
-1. Selecteer in het actievenster op het tabblad  **Ladingen** in de groep  **Werk** de optie  **Werk omkeren**.
+1. Selecteer in het actievenster op het tabblad **Ladingen** in de groep **Werk** de optie **Werk omkeren**.

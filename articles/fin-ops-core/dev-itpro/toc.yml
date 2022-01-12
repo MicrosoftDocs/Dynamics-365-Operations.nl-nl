@@ -232,9 +232,9 @@
               href: data-entities/dm-error-descriptions.md
         - name: Azure Data Lake
           items:
-            - name: Overzicht van Export naar Azure Data Lake
+            - name: Overzicht van exporteren naar Azure Data Lake
               href: data-entities/Azure-Data-Lake-GA-version-overview.md
-            - name: Invoegtoepassing Export naar Azure Data Lake installeren
+            - name: Invoegtoepassing voor exporteren naar Azure Data Lake installeren
               href: data-entities/configure-export-data-lake.md
             - name: Finance and Operations-apps in Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
@@ -1012,7 +1012,9 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Bestanden van vertaalgeheugen
                   href: lifecycle-services/use-translation-service-tm.md
-        - name: Integratie van Microsoft Power Platform
+                - name: Azure DevOps-extensie (openbare preview)
+                  href: lifecycle-services/dts-devops-extension.md
+        - name: Integratie met Microsoft Power Platform
           items:
             - name: Overzicht
               href: power-platform/overview.md
@@ -1602,6 +1604,8 @@
                   href: sysadmin/retryable-batch.md
                 - name: Een batchtaak kopiëren
                   href: sysadmin/copy-batch-job.md
+                - name: Batchplanning op basis van prioriteit
+                  href: sysadmin/priority-based-batch-scheduling.md
                 - name: Actieve batchperioden
                   href: sysadmin/activeperiod.md
                 - name: Ondersteuning voor zomertijd voor actieve batchperioden

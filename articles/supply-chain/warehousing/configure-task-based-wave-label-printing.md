@@ -1,22 +1,22 @@
 ---
 title: Wavelabel afdrukken plannen tijdens wave
 description: In dit onderwerp wordt beschreven hoe u de functionaliteit voor afdrukken van wavelabels op basis van taken kunt instellen en gebruiken.
-author: MSFTGarm
+author: perlynne
 ms.date: 06/09/2021
 ms.topic: article
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-obaranov
+ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 4883f8a548645436e17b933d87d4ee6330570d48
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 1323538765308ec3dd366456e31f5e08b08ce5ab
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777860"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920144"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Wavelabel afdrukken plannen tijdens wave
 
@@ -40,7 +40,7 @@ Als u de functies wilt gebruiken die in dit onderwerp worden beschreven, moeten 
 
 U moet eerst de nieuwe wavestapmethode maken en deze methode inschakelen voor parallelle asynchrone taakverwerking.
 
-1. Ga naar  **Magazijnbeheer \> Instellen \> Waves \> Methoden voor verwerking van waves**.
+1. Ga naar **Magazijnbeheer \> Instellen \> Waves \> Methoden voor verwerking van waves**.
 1. Selecteer in het actievenster **Methode opnieuw genereren**. U ziet dat *waveLabelPrinting* is toegevoegd aan de lijst met procesmethoden die u kunt gebruiken in uw verzendwavesjablonen.
 1. Selecteer de record waarin het veld **Naam methode** is ingesteld op *waveLabelPrinting* en selecteer vervolgens **Taakconfiguratie** in het actievenster.
 1. Selecteer in het actievenster de optie **Nieuw** om een rij toe te voegen aan het raster. Stel daarna de volgende velden in voor de nieuwe rij:
@@ -51,7 +51,7 @@ U moet eerst de nieuwe wavestapmethode maken en deze methode inschakelen voor pa
 
 U kunt een bestaande sjabloon nu bijwerken zodat deze gebruik maakt van de wave-verwerkingsmethode *Wavelabels afdrukken*. U kunt ook een nieuwe wavesjabloon maken die deze methode gebruikt.
 
-1. Ga naar  **Magazijnbeheer  \> Instellen \> Waves \> Wavesjablonen**.
+1. Ga naar **Magazijnbeheer \> Instellen \> Waves \> Wavesjablonen**.
 1. Selecteer **Bewerken** in het actievenster.
 1. Selecteer in het lijstvenster de wavesjabloon die u wilt bijwerken. (Als u demogegevens gebruikt voor testdoeleinden, kunt u wavesjabloon *24 Standaardverzending* selecteren.)
 1. Selecteer op het sneltabblad **Methoden** in de kolom **Resterende methoden** de rij waarin het veld **Naam** is ingesteld op *waveLabelPrinting*.

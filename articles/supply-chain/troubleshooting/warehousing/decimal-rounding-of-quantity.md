@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ddfac7106eb0e8b934516ca10e3950891d10910a2ccdef1868faf25812243159
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a9e0475aab452daa9e1a6f012e17a59e611010da
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726556"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920468"
 ---
 # <a name="decimal-rounding-of-the-physical-updating-quantity-is-incorrect"></a>De decimale afronding van de fysieke bijwerkingshoeveelheid is onjuist
 
@@ -49,10 +49,10 @@ Gebruik de volgende procedure om de ladingsregels te controleren en correcties a
 
 1. Ga naar **Magazijnbeheer \> Ladingen \> Alle ladingen**.
 1. Selecteer de lading waarvoor geen pakbon kan worden gegenereerd.
-1. Selecteer in het actievenster, op het tabblad  **Verzenden en ontvangen**, in de groep  **Omkeren** de optie  **Verzendbevestiging omkeren**.
-1. Selecteer op het tabblad  **Ladingsregels** de ladingsregel voor het artikel dat een probleem veroorzaakt.
+1. Selecteer in het actievenster, op het tabblad **Verzenden en ontvangen**, in de groep **Omkeren** de optie **Verzendbevestiging omkeren**.
+1. Selecteer op het tabblad **Ladingsregels** de ladingsregel voor het artikel dat een probleem veroorzaakt.
 1. Selecteer **Opgenomen hoeveelheid reduceren** om de opgenomen hoeveelheid aan te passen.
-1. Selecteer op het tabblad  **Regeldetails** de optie **Order**.
+1. Selecteer op het tabblad **Regeldetails** de optie **Order**.
 1. Stel veld **Hoeveelheid** in op de opgenomen hoeveelheid (dat wil zeggen, op de waarde van het veld **Hoeveelheid gemaakt werk**), zodat de pakbon kan worden gegenereerd.
 
 ### <a name="review-your-load-lines-and-make-adjustments-to-ensure-that-the-unit-and-quantity-are-aligned-with-the-decimal-precision-of-the-unit"></a>Controleer uw ladingsregels en breng correcties aan om ervoor te zorgen dat de eenheid en hoeveelheid worden afgestemd op de precisie van decimalen van de eenheid

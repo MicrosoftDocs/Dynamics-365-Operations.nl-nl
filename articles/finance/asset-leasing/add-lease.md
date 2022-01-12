@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ee4803c4653b8c2df2cb731652456b1ce2796cd0
-ms.sourcegitcommit: e77d72fde17a43bd1780c265702254011af7407c
+ms.openlocfilehash: e6f47e7bccdfa5205209a290b2ce0d37f2e5a534
+ms.sourcegitcommit: c42d047cb866f7988f1879ac84cd45284a03abf8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "7893640"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7931976"
 ---
 # <a name="add-or-copy-leases-preview"></a>Leases toevoegen of kopiëren (preview)
 
@@ -50,6 +50,9 @@ Nadat u de gegevens voor de lease hebt ingevoerd, voert u de volgende stappen ui
     De pagina **Boekdetails** geeft aan hoe de lease wordt verwerkt in de boeken die aan de lease zijn toegewezen. Hier kunt u de leaseschema's bekijken.
 
     Het betalingsschema bevat de invoer uit het tabblad **Betalingsschemaregels** op de pagina **Lease toevoegen**. U kunt nog steeds alle betalingsbedragen en variabele betalingen wijzigen. De leaseverplichtingen worden berekend op basis van het aangepaste betalingsschema.
+    
+> [!NOTE]
+> De begindatum voor de leasebetaling moet dezelfde of een latere datum zijn dan de begindatum voor de lease. U ontvangt een foutbericht als de begindatum voor de leasebetaling eerder is dan de begindatum voor de lease. 
 
 4. Wanneer u klaar bent met het controleren van het betalingsschema, selecteert u **Schema bevestigen**. Nadat het schema is bevestigd, kan de lease niet meer worden bewerkt.
 

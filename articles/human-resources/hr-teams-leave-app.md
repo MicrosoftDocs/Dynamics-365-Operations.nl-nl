@@ -2,7 +2,7 @@
 title: Verlofaanvragen beheren in Teams
 description: In dit onderwerp wordt beschreven hoe u verlof kunt aanvragen in de Dynamics 365 Human Resources-app in Microsoft Teams.
 author: twheeloc
-ms.date: 11/03/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 10538c96a7637a95c60beef40a02fdb5432959ec
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: d004e33d01dbd171626d7e23f93df081bc0210a9
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771526"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924742"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Verlofaanvragen beheren in Teams
 
@@ -35,6 +35,9 @@ De Dynamics 365 Human Resources-app is te vinden in het Teams-archief.
 1. Navigeer in Microsoft Teams naar de lijst met apps.
  
 2. Zoek naar Dynamics 365 Human Resources en selecteer de tegel **Human resources**.
+
+> [!NOTE]
+> Per 20 december 2021 zijn de botservices voor de Human Resources-app (versie 1.1.4) die in Microsoft-tenants worden beheerd stopgezet. De meest recente extensie (versie 1.1.5) kan worden geïnstalleerd. Zie [Verlofaanvragen beheren in Teams](hr-admin-teams-leave-app.md#update-app) voor meer informatie.
 
 3. Selecteer de knop **Toevoegen** om de app te installeren.
 

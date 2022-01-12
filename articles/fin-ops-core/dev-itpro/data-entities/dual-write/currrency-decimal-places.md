@@ -2,19 +2,19 @@
 title: Migratie Valuta-gegevenstype voor Twee keer wegschrijven
 description: In dit onderwerp wordt beschreven hoe u het aantal decimalen wijzigt dat door Twee keer wegschrijven wordt ondersteund voor valuta.
 author: RamaKrishnamoorthy
-ms.date: 04/06/2020
+ms.date: 12/08/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: eaf0cd931e763f31faa334d5353ae6950ed7ee4f
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: bce58631ecd54bb90993bd552d529d3b379de1b1
+ms.sourcegitcommit: 6762a674a552353d9f53587923c9acba9b43cb56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782802"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "7917725"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migratie Valuta-gegevenstype voor Twee keer wegschrijven
 
@@ -83,9 +83,20 @@ Als u wilt dat de valutanauwkeurigheid voor een bepaalde valuta afwijkt van de v
 
 ![Valuta-instellingen voor een bepaalde landinstelling.](media/specific-currency.png)
 
-### <a name="tables-currency-column"></a>tabellen: kolom Valuta
+### <a name="tables-currency-column"></a>Tabellen: kolom Valuta
 
 Het aantal decimalen achter de komma dat kan worden geconfigureerd voor specifieke valutakolommen is beperkt tot vier.
 
+### <a name="default-currency-decimal-precision"></a>Standaard decimale valutaprecisie
+Raadpleeg de volgende tabel voor het verwachte gedrag van de standaard decimale valutaprecisie bij migratie- en niet-migratiescenario's. 
+
+| Aanmaakdatum  | Veld Decimale positie voor valuta    | Bestaande organisatie (veld Valuta niet gemigreerd) | Bestaande organisatie (veld Valuta gemigreerd) | Nieuwe organisatie gemaakt na build-9.2.21062.00134 |
+|---------------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|------------------------------------------------|
+| Valutaveld gemaakt voor build-9.2.21111.00146  |     |  |       |
+|    | Max. precisie zichtbaar in UI   | 4 cijfers    | 10 cijfers    | N.v.t.    |
+| | Max. precisie zichtbaar in UI van database- en DB-queryresultaten         | 4 cijfers   | 10 cijfers   | N.v.t.    |
+| Valutaveld gemaakt na build-9.2.21111.00146 |    |  |     |   |
+|   | Max. decimale precisie zichtbaar in UI     | 4 cijfers   | 10 cijfers   | 10 cijfers     |
+|          | Max. decimale precisie zichtbaar in UI van database- en DB-queryresultaten | 10 cijfers. Er zijn er echter slechts 4 belangrijk, met allemaal nullen na de 4 cijfers. Hierdoor kunt u indien nodig een eenvoudiger en snellere migratie van de organisatie mogelijk maken. | 10 cijfers      | 10 cijfers     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

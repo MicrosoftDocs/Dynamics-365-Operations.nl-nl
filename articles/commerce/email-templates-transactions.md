@@ -14,17 +14,17 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 25d7fcb803645f50ee4f5c608f5b6e789dfe3c31
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 4fd46ea161fb4441d94a9e7c7f7ffbfb245eb873
+ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913747"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7919496"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>E-mailsjablonen maken voor transactiegebeurtenissen
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 In dit onderwerp wordt beschreven hoe u e-mailsjablonen kunt maken, uploaden en configureren voor transactiegebeurtenissen in Microsoft Dynamics 365 Commerce.
 

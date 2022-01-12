@@ -1,8 +1,8 @@
 ---
 title: Een aanmaningsreeks maken
 description: Gebruik deze procedure om een aanmaningsreeks te maken.
-author: abruer
-ms.date: 07/22/2019
+author: JodiChristiansen
+ms.date: 12/07/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bfc5bd0b1228ef28631da8746b2eb60e4cf488c1
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: adeae6e20a799165e086df28b92a1357e8f2f0d3
+ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753581"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921194"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Een aanmaningsreeks maken
 
@@ -31,10 +31,10 @@ Gebruik deze procedure om een aanmaningsreeks te maken. Bij deze taak wordt het 
 3. Voer in het veld **Aanmaningsreeks** een volgorde-id in die de volgorde aangeeft. Deze wordt gebruikt bij het instellen van een boekingsprofiel.
 4. Typ een waarde in het veld **Beschrijving**.  De betalingsvoorwaarden zijn optioneel. Als u hier een waarde invoert, gebruikt de factuur voor de aanmaningskosten deze betalingsvoorwaarden in plaats van de betalingsvoorwaarden die zijn opgeslagen met de klant.  
 5. Selecteer in het veld **Aanmaningscode** de code voor de eerste aanmaning die u wilt verzenden. De eerste aanmaning wordt gemaakt aan de hand van de vervaldatum op de factuur, die waarde die u invoert voor de respijtperiode in het veld Dagen op deze regel en andere gegevens die u in deze regel invoert.  
-6. Typ een waarde in het veld **Beschrijving**. De valuta voor de bijzondere kosten is standaard in de valuta van de klant. Deze valutacode kan verschillen van de factuurvaluta.  
-7. Klik op **Toevoegen** om de volgende aanmaning toe te voegen die in de reeks wordt verzonden. In veel gevallen is de eerste aanmaning enkel een waarschuwing. U kunt indien nodig bijzondere kosten toevoegen.  
-8. Selecteer in het veld van de aanmaningscode de volgende aanmaning die wordt verzonden in de reeks.
-9. Typ een waarde in het veld **Beschrijving**.
+6. Typ een waarde in het veld **Beschrijving**. 
+7. De standaardvaluta voor de bijzondere kosten is de valuta van de rechtspersoon. Deze valutacode kan verschillen van de factuurvaluta.   
+8. Klik op **Toevoegen** om de volgende aanmaning toe te voegen die in de reeks wordt verzonden. In veel gevallen is de eerste aanmaning enkel een waarschuwing. U kunt indien nodig bijzondere kosten toevoegen.  
+9. Selecteer in het veld **Aanmaningscode** de volgende aanmaning die wordt verzonden in de reeks.
 10. Selecteer in het veld **Hoofdrekening** de opbrengstrekening die voor bijzondere kosten wordt gebruikt.
 11. Voer de kosten in die worden doorberekend bij het maken van deze aanmaning.
 12. Klik in het veld **Btw-groep voor artikel** op de vervolgkeuzeknop om de zoekopdracht te openen. Selecteer een btw-groep voor artikel als btw op de kosten moet worden berekend.  

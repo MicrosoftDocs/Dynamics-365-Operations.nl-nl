@@ -2,7 +2,7 @@
 title: Kaspositie
 description: In dit onderwerp wordt beschreven hoe u met de functie voor cashflowprognoses de kaspositie van een organisatie voor bepaalde tijdstippen kunt voorspellen. Ook worden de opties beschreven die beschikbaar zijn voor het weergeven van prognoses voor verschillende perioden.
 author: ShivamPandey-msft
-ms.date: 11/03/2021
+ms.date: 12/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: bf99ce5c9de00061cba2f49d00cc9dbc728753a8
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 6bb99084a2ffef067dd0d7158ecb5e57d6d97d75
+ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752875"
+ms.lasthandoff: 12/23/2021
+ms.locfileid: "7945784"
 ---
 # <a name="cash-position"></a>Kaspositie
 
@@ -45,5 +45,17 @@ In het onderste gedeelte van het tabblad **Kaspositie** worden details weergegev
 - Het raster **Bankrekening** toont het effect van de verwachte kasinkomsten en -uitgaven op het banksaldo.
 
 Maak een momentopname om de contante positie op te slaan en te bewerken. Zie voor meer informatie over hoe u werkt met momentopnamen [Overzicht van momentopnamen](payment-snapshots.md).
+
+## <a name="details-of-the-cash-position-capability"></a>Details van de functie Kaspositie 
+
+De functie Kaspositie bevat de volgende voorzieningen. 
+
+- Met de functie Kaspositie wordt de cashflow weergegeven op basis van bestaande documenten in het systeem en aan de hand van kasinkomsten- en kasuitgavenregels die vanuit externe systemen zijn geïmporteerd.
+- U kunt de cashflowgegevens van externe systemen eenvoudig integreren in Dynamics 365 Finance. Kaspositie kunnen ook gebruikmaken van het raamwerk voor importeren/exporteren van gegevens. Met dit raamwerk is integratie in Excel OData eenvoudig. U kunt ook gegevens uit meerdere bronnen combineren om een allesomvattende oplossing voor de kaspositie te creëren.
+- Introduceert een intelligente kaspositie. De kaspositie wordt opgesteld op basis van het betalingsgedrag van de klant om te voorspellen wanneer een bedrijf kan verwachten dat contant geld op hun rekening beschikbaar is.
+- Voor klantorders en facturen wordt de AI-functionaliteit voor de voorspelling van klantbetalingen gebruikt om het historische betalingsgedrag van klanten vast te stellen wanneer een order of factuur wordt betaald.
+- Voor leveranciersorders en facturen gebruiken we de gemiddelde tijd tussen verzending en factuur en het betalen van een factuur per leverancier om te bepalen wanneer een leveranciersorder of factuur wordt betaald waardoor de kasuitgavenstromen nauwkeuriger worden.
+
+Hierdoor wordt een nauwkeurigere weergave van de cashflow gemaakt op basis van het historische betalingsgedrag voor de financieel beheerder. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

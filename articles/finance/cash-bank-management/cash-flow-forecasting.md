@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5ad3b2444f194f8324a309df32612a5377851995
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 7d462992816a5a2dee73979ed4cb1521ca4ce4f7
+ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752899"
+ms.lasthandoff: 12/23/2021
+ms.locfileid: "7945749"
 ---
 # <a name="cash-flow-forecasting"></a>Cashflowprognose
 
@@ -37,6 +37,7 @@ Nadat u deze taken hebt uitgevoerd, kunt u prognoses van de cashflow en geplande
 Cashflowprognose kan worden geïntegreerd met Grootboek, Klanten, Leveranciers, Budgettering en Voorraadbeheer. Het prognoseproces gebruikt transactiegegevens die in het systeem worden ingevoerd en het berekeningsproces geeft een prognose van het verwachte effect van elke transactie op contant geld. De volgende soorten transacties worden in aanmerking genomen wanneer de cashflow wordt berekend:
 
 - **Verkooporders** - verkooporders die nog niet zijn gefactureerd en die leiden tot fysieke of financiële verkopen
+- **Vrije-tekstfacturen**: vrije-tekstfacturen die nog niet zijn geboekt en die resulteren in financiële verkopen. 
 - **Inkooporders** - inkooporders die nog niet zijn gefactureerd en die leiden tot fysieke of financiële inkopen
 - **Klanten** - openstaande klanttransacties (facturen die nog niet zijn betaald)
 - **Leveranciers** - openstaande leverancierstransacties (facturen die nog niet zijn betaald)
@@ -44,7 +45,9 @@ Cashflowprognose kan worden geïntegreerd met Grootboek, Klanten, Leveranciers, 
 - **Budgetregistervermeldingen** - budgetjournaalposten die zijn geselecteerd voor cashflowprognoses.
 - **Vraagprognoses** : voorraadprognosemodelregels die worden geselecteerd voor cashflowprognoses.
 - **Aanbodprognoses** : voorraadprognosemodelregels die worden geselecteerd voor cashflowprognoses.
+- **Externe gegevensbron** : externe gegevens die met behulp van werkbladsjablonen in de cashflowprognoses worden ingevoerd of geïmporteerd.
 - **Projectprognoses**: projectbeheer- en boekhoudprognoses met behulp van prognosemodel.
+- **Betalingen van btw-dienst**: voorspelde betalingsbedragen van de btw-dienst en timing die resulteren in financiële betalingen. De functie Betalingen van btw-dienst inschakelen.
 
 ## <a name="configuration"></a>Configuratie
 
@@ -94,7 +97,7 @@ Budgetregisterposten kunnen afzonderlijk door middel van personalisatie in de ca
 Prognoses voor vraag en aanbod van voorraad kunnen worden opgenomen in cashflowprognoses. Op het tabblad **Voorraadbeheer** van de pagina **Instelling cashflowprognose** selecteert u het prognosemodel dat u in de cashflowprognose wilt opnemen. Opname in cashflowprognose kan voor afzonderlijke prognoseregels voor vraag en aanbod worden overschreven.
 
 ### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Dimensies voor cashflowprognose instellen
-Met een nieuw tabblad op de pagina **Cashflowprognose instellen** kunt u bepalen welke financiële dimensies worden gebruikt voor het filteren in het werkgebied **Cashflowprognose**. Dit tabblad wordt alleen weergegeven wanneer de functie Cashflowprognoses is ingeschakeld in Finance Insights. 
+Met een nieuw tabblad op de pagina **Cashflowprognose instellen** kunt u bepalen welke financiële dimensies worden gebruikt voor het filteren in het werkgebied **Cashflowprognose**. Dit tabblad wordt alleen weergegeven wanneer de functie Cashflowprognoses is ingeschakeld.
 
 Kies op het tabblad **Dimensies** in de lijst de dimensies die u wilt gebruiken voor het filteren en verplaats deze naar de rechterkolom met de pijltoetsen. Er kunnen slechts twee dimensies worden geselecteerd voor het filteren van cashflowprognosegegevens. 
 
@@ -108,6 +111,10 @@ In versie 10.0.17 maakt een nieuwe functie integratie met Projectbeheer en boekh
 Als de functie Cashflowprojectprognose is ingeschakeld, kan de cashflowprognose voor elk project worden weergegeven op de pagina **Alle projecten**. Selecteer in het actievenster op het tabblad **Plannen** in de groep **Prognose** de optie **Cashflowprognose**. In de werkruimten **Kasoverzicht** (zie de sectie [Rapportage](#reporting) verderop in dit onderwerp) toont het type projectprognosetransactie de instroom (projectprognoseopbrengst) en de uitstroom (projectprognosekosten). De bedragen kunnen alleen worden opgenomen als het veld **Projectfase** in de werkruimten **Kasoverzicht** is ingesteld op **Onderhanden**.
 
 Projecttransacties worden nog steeds op verschillende manieren opgenomen in de cashflowprognose, ongeacht of de functie **Cashflowprojectprognose** is ingeschakeld. Geboekte projectfacturen worden opgenomen in de prognose als onderdeel van openstaande klanttransacties. Door projecten geïnitieerde verkooporders en inkooporders worden in de prognose als openstaande orders opgenomen nadat ze in het systeem zijn ingevoerd. U kunt ook projectprognoses overbrengen naar een grootboekbudgetmodel. Dit grootboekbudgetmodel wordt vervolgens opgenomen in de cashflowprognose als onderdeel van de budgetregistervermeldingen. Als u de functie **Cashflowprojectprognose** hebt ingeschakeld, brengt u projectprognoses niet over naar een grootboekbudgetmodel, omdat deze actie ertoe leidt dat de projectprognoses twee keer worden geteld.
+
+### <a name="sales-tax-authority-payments"></a>Betalingen van btw-dienst 
+
+Met de functie Betalingen van btw-dienst wordt de cashflow-impact van btw-betalingen voorspeld. Hierbij wordt gebruiktgemaakt van onbetaalde btw-transacties, belastingvereffeningsperioden en de betalingstermijn voor de btw-periode om de datum en het bedrag van cashflowbetalingen te voorspellen. 
 
 ### <a name="calculation"></a>Berekening
 

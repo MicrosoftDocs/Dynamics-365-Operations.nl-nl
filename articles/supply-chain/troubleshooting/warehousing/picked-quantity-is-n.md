@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 361b61690e9e16a690234ed9319478d864c743e7559746654e4868272de13524
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6febc340f140d0b3a3f08ea32a59d9eb4e6e5204
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716463"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920443"
 ---
 # <a name="picked-quantity-isnt-sufficient-during-packing-slip-generation"></a>Opgenomen hoeveelheid onvoldoende tijdens genereren pakbon
 
@@ -66,8 +66,8 @@ Met de volgende procedure kunt u de hoeveelheid op de ladingsregel aanpassen.
 
 1. Ga naar **Magazijnbeheer \> Ladingen \> Alle ladingen**.
 1. Selecteer de lading waarvoor geen pakbon kan worden gegenereerd.
-1. Selecteer in het actievenster, op het tabblad  **Verzenden en ontvangen**, in de groep  **Omkeren** de optie  **Verzendbevestiging omkeren**.
-1. Selecteer op het tabblad  **Ladingsregels** de ladingsregel voor het artikel dat een probleem veroorzaakt.
+1. Selecteer in het actievenster, op het tabblad **Verzenden en ontvangen**, in de groep **Omkeren** de optie **Verzendbevestiging omkeren**.
+1. Selecteer op het tabblad **Ladingsregels** de ladingsregel voor het artikel dat een probleem veroorzaakt.
 1. Selecteer **Opgenomen hoeveelheid reduceren** om de opgenomen hoeveelheid aan te passen.
 1. Stel het veld **Ladingsregel verminderen** zo in dat correcties op de ladingsregel worden weergegeven.
 
@@ -79,5 +79,5 @@ Gebruik de volgende procedure om de orderverzamelregistratie om te keren.
 
 1. Ga naar **Klanten \> Orders \> Alle orders**.
 1. Selecteer de verkooporder waarvoor u geen pakbon voor de lading kunt boeken.
-1. Selecteer op het tabblad  **Verkooporderregels** de verkooporderregel waar de orderverzamelregistratie voor is uitgevoerd.
+1. Selecteer op het tabblad **Verkooporderregels** de verkooporderregel waar de orderverzamelregistratie voor is uitgevoerd.
 1. Selecteer **Regel bijwerken \> Orderverzamelen** om het verzamelen van de artikelen ongedaan te maken.

@@ -2,7 +2,7 @@
 title: Openbare API's voor Voorraadzichtbaarheid
 description: In dit onderwerp worden de openbare API's beschreven die worden geleverd door Voorraadzichtbaarheid.
 author: yufeihuang
-ms.date: 09/30/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 1899969ddbbccafde3f7bb06a897ea7c0f2d656b
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: d676191f921d74a5a0ced934f3692dacbe7cd7b4
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678782"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920095"
 ---
 # <a name="inventory-visibility-public-apis"></a>Openbare API's voor Voorraadzichtbaarheid
 
@@ -41,8 +41,8 @@ De volgende tabel bevat de API's die momenteel beschikbaar zijn:
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Plaatsen | [Voorhanden hoeveelheden instellen/overschrijven](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Plaatsen | [Eén reserveringsgebeurtenis maken](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Plaatsen | [Meerdere reserveringsgebeurtenissen maken](#create-multiple-reservation-events) |
-| /api/environment/{environmentId}/onhand/indexquery | Ophalen | [Een query uitvoeren met de post-methode](#query-with-post-method) |
-| /api/environment/{environmentId}/onhand/indexquery | Plaatsen | [Een query uitvoeren met de get-methode](#query-with-get-method) |
+| /api/environment/{environmentId}/onhand/indexquery | Plaatsen | [Een query uitvoeren met de post-methode](#query-with-post-method) |
+| /api/environment/{environmentId}/onhand | Ophalen | [Een query uitvoeren met de get-methode](#query-with-get-method) |
 
 Microsoft heeft een gebruiksklare *Postman*-aanvraagverzameling geleverd. U kunt deze verzameling in uw *Postman*-software importeren via de volgende gedeelde koppeling: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>
 
@@ -476,7 +476,7 @@ Body:
 
 ## <a name="query-on-hand"></a>Voorhanden query
 
-De API _Voorhanden query_ wordt gebruikt om huidige voorhanden voorraadgegevens voor uw producten op te halen.
+Gebruik de API _Voorhanden query_ om huidige voorhanden voorraadgegevens voor uw producten op te halen. De API ondersteunt momenteel query's met maximaal 100 afzonderlijke artikelen per `ProductID`-waarde. Ook kunnen in elke query meerdere `SiteID`- en `LocationID`-waarden worden opgegeven. De maximumlimiet wordt gedefinieerd als `NumOf(SiteID) * NumOf(LocationID) <= 100`.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Een query uitvoeren met de post-methode
 
@@ -551,7 +551,7 @@ De volgende voorbeelden laten zien hoe u een query uitvoert op een specifieke si
 
 ```txt
 Path:
-    /api/environment/{environmentId}/onhand/indexquery
+    /api/environment/{environmentId}/onhand
 Method:
     Get
 Headers:
@@ -568,7 +568,7 @@ Query(Url Parameters):
 Hier is een voorbeeld van een get-URL. Deze get-aanvraag is exact hetzelfde als het post-voorbeeld dat eerder is opgegeven.
 
 ```txt
-/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

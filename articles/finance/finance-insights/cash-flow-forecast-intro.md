@@ -1,8 +1,8 @@
 ---
-title: Cashflowprognose
+title: Kasprognose
 description: In dit onderwerp wordt de functie voor cashflowprognoses beschreven.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 12/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ad568fcd126ad3dc9e5ff269cc3bc99b218e822a
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 62e30e382d94e4eff73789b3e884c6b81afce6c1
+ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386608"
+ms.lasthandoff: 12/23/2021
+ms.locfileid: "7945824"
 ---
-# <a name="cash-flow-forecast"></a>Cashflowprognose
+# <a name="cash-forecast"></a>Kasprognose
 
 [!include [banner](../includes/banner.md)]
 
@@ -43,25 +43,17 @@ Voor de meeste bedrijven is het beheer van de cashflow en het uitvoeren van cash
 ## <a name="details-of-the-cash-flow-forecasts-capability"></a>Details van de functie voor cashflowprognoses
 De functie voor cashflowprognoses bevat de volgende onderdelen. 
 
-- U kunt de cashflowgegevens van externe systemen eenvoudig integreren in Dynamics 365 Finance. Cashflowprognoses kunnen ook het raamwerk voor importeren/exporteren van gegevens gebruiken. Met dit raamwerk is integratie in Excel OData eenvoudig. U kunt ook gegevens uit meerdere bronnen combineren om een allesomvattende cashflowoplossing te creëren. 
-
-- Introduceert een intelligente kaspositie. De kaspositie wordt opgesteld op basis van het betalingsgedrag van de klant om te voorspellen wanneer een bedrijf kan verwachten dat contant geld op hun rekening beschikbaar is. De historische patronen van de betalingen aan leveranciers worden geanalyseerd, om te voorspellen wanneer toekomstige facturen en orders waarschijnlijk zullen worden betaald. 
-
 - Introduceert intelligente cashflowprognoses voor de lange termijn met behulp van tijdreeksprognoses via automatische integratie met AI Builder.
 
-- Biedt de mogelijkheid om specifieke cashflowposities of -prognoses op te slaan, te bewerken en vervolgens de prognoseprestaties eenvoudig te vergelijken en te meten met de werkelijke financiële waarden.
+- U kunt hiermee specifieke cashflowposities of -prognoses opslaan, bewerken en vervolgens eenvoudig de prognoseprestaties vergelijken en meten met de werkelijke financiële waarden.
 
 - Maakt wat-als-analyse mogelijke via vergelijking van momentopnamen. U kunt bijvoorbeeld meerdere momentopnamen maken die een optimistische, pessimistische en de meest realistische weergaven van uw cashflow vertegenwoordigen, en vervolgens de verschillen vergelijken en weergeven.
 
-- Biedt de mogelijkheid om de cashflowprognose voor meerdere valuta's en rechtspersonen weer te geven, en de cashflow te filteren en te bekijken die betrekking heeft op een bankrekening. 
+- U kunt hiermee de cashflowprognose voor meerdere valuta's en rechtspersonen weergeven, en de cashflow filteren en bekijken die betrekking heeft op een bankrekening. 
 
 - U kunt filteren op bankrekeningen die zijn gerelateerd aan financiële dimensies.
 
 Met de functionaliteit voor cashflowprognoses in Dynamics 365 Finance kan uw organisatie het saaie, complexe en terugkerende werk voor cashflowprognoses omzetten in een eenvoudig, geautomatiseerd proces. Door de saaie aspecten van cashflowprognoses te automatiseren kunt u zich concentreren op belangrijke besluiten om de gewenste bedrijfsresultaten te behalen.
 
-## <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Dimensies voor cashflowprognose instellen
-Met een nieuw tabblad op de pagina **Cashflowprognose instellen** kunt u bepalen welke financiële dimensies moeten worden gebruikt voor het filteren in het werkgebied **Cashflowprognose**. Dit tabblad wordt alleen weergegeven wanneer de functie Cashflowprognoses is ingeschakeld. 
-
-Kies op het tabblad **Dimensies** in de lijst de dimensies die u wilt gebruiken voor het filteren en verplaats deze naar de rechterkolom met de pijltoetsen. Er kunnen slechts twee dimensies worden geselecteerd voor het filteren van cashflowprognosegegevens. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 1b2de9d6a7b1b7793b6bb753dd580d052d3c2841
-ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
+ms.openlocfilehash: 610f0d4e0448dd21d10765400f25cd89e3c7a84b
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "7891763"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920268"
 ---
-# <a name="saleshistorycleanupperformanceimprovements"></a>Prestatieverbeteringen bij opschonen van verkoophistorie
+# <a name="sales-history-cleanup-performance-improvements"></a>Prestatieverbeteringen bij opschonen van verkoophistorie
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
@@ -34,7 +34,7 @@ Met deze functie kunt u de bestaande opschoonfunctie op de volgende manieren ver
 
 Nadat u de functie hebt ingeschakeld, wordt de batchtaak **Opschoning van verkoophistorie** (**Verkoop en marketing \> Periodieke taken \> Opschonen \> Opschoning van verkoophistorie**) uitgevoerd zoals eerder, maar met betere prestaties en maximaal twee uur. Dit betekent dat de taak mogelijk meerdere keren moet worden uitgevoerd om alle gegevens op te schonen voor een bepaalde periode.
 
-## <a name="turn-on-the-saleshistorycleanupperformanceimprovements-feature"></a>De functie Prestatieverbeteringen bij opschonen van verkoophistorie inschakelen
+## <a name="turn-on-the-sales-history-cleanup-performance-improvements-feature"></a>De functie Prestatieverbeteringen bij opschonen van verkoophistorie inschakelen
 
 Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in de werkruimte **Functiebeheer** de functie als volgt in:
 

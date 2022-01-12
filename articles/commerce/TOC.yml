@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-23.md
                     - name: Commerce 10.0.22 (november 2021)
                       href: get-started/whats-new-commerce-10-0-22.md
-                    - name: Commerce 10.0.21 (oktober 2021)
-                      href: get-started/whats-new-commerce-10-0-21.md
                 - name: Verwijderde of afgeschafte functies
                   items:
                     - name: Startpagina voor verwijderde of afgeschafte functies
@@ -842,7 +840,7 @@
           items:
             - name: Overzicht van overzichten
               href: retail-statements.md
-            - name: Consistentiecontrole voor transacties
+            - name: Winkeltransacties valideren voor de berekening van overzichten
               href: valid-checker.md
             - name: Regels in consistentiecontrole voor detailhandelstransacties uitschakelen
               href: disable-consistency-check-rule.md
@@ -1286,6 +1284,8 @@
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: Fiscale integratie voor Commerce-afzetkanalen instellen
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: Build-pipeline instellen voor voorbeeld van fiscale integratie
+              href: localizations/fiscal-integration-sample-build-pipeline.md
             - name: Door gebruiker gedefinieerde certificaatprofielen voor winkels
               href: localizations/certificate-profiles-for-retail-stores.md
             - name: Regulatory Configuration Service (RCS)
@@ -1322,6 +1322,8 @@
               items:
                 - name: Voorbeeld van integratie van fiscale registratieservice voor Oostenrijk
                   href: localizations/emea-aut-fi-sample.md
+                - name: Implementatierichtlijnen voor voorbeeld van fiscale integratie voor Oostenrijk (legacy)
+                  href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brazilië
               items:
                 - name: Commerce-lokalisatie voor Brazilië
@@ -1358,12 +1360,16 @@
                   items:
                     - name: Voorbeeld van integratie van fiscale registratieservice voor Tsjechië
                       href: localizations/emea-cze-fi-sample.md
+                    - name: Implementatierichtlijnen voor voorbeeld van fiscale integratie voor Tsjechië (legacy)
+                      href: localizations/emea-cze-fi-sample-sdk.md
                 - name: Polen
                   items:
                     - name: Voorbeeld van integratie van fiscale printer voor Polen
                       href: localizations/emea-pol-fpi-sample.md
                     - name: Beheer van klantgegevens voor Polen
                       href: localizations/emea-pol-customer-information.md
+                    - name: Implementatierichtlijnen voor voorbeeld van fiscale integratie voor Polen (legacy)
+                      href: localizations/emea-pol-fpi-sample-sdk.md
             - name: Frankrijk
               items:
                 - name: Kassafunctionaliteit
@@ -1380,6 +1386,8 @@
               items:
                 - name: Voorbeeld van integratie van fiscale registratieservice voor Duitsland
                   href: localizations/emea-deu-fi-sample.md
+                - name: Implementatierichtlijnen voor voorbeeld van fiscale integratie voor Duitsland (legacy)
+                  href: localizations/emea-deu-fi-sample-sdk.md
             - name: India
               items:
                 - name: Integratie Belasting op goederen en diensten (GST) voor kassa's
@@ -1398,6 +1406,8 @@
                   href: localizations/emea-ita-fpi-sample.md
                 - name: Beheer van klantgegevens voor Italië
                   href: localizations/emea-ita-customer-information.md
+                - name: Implementatierichtlijnen voor voorbeeld van fiscale integratie voor Italië (legacy)
+                  href: localizations/emea-ita-fpi-sample-sdk.md
             - name: Mexico
               items:
                 - name: Algemene CFDI-e-facturen voor Mexico
@@ -1407,6 +1417,8 @@
                 - name: Kassafunctionaliteit
                   href: localizations/emea-nor-cash-registers.md
                 - name: Implementatierichtlijnen voor kassa's
+                  href: localizations/emea-nor-fi-deployment.md
+                - name: Implementatierichtlijnen voor kassa's (verouderd)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: Rusland
               items:
@@ -1432,6 +1444,8 @@
                   href: localizations/emea-swe-cash-registers.md
                 - name: Voorbeeld van regeleenheidintegratie voor Zweden
                   href: localizations/emea-swe-fi-sample.md
+                - name: Implementatierichtlijnen voor voorbeeld van integratie van beheereenheid voor Zweden (legacy)
+                  href: localizations/emea-swe-fi-sample-sdk.md
                 - name: Voorbeeld voor Retail POS-integratie met regeleenheden (verouderd)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Rapportage en Power BI-integratie
@@ -2466,6 +2480,8 @@
                       href: e-commerce-extensibility/set-up-key-vault.md
                     - name: Een invoegtoepassing-hook maken voor een aanvraagpijplijn
                       href: e-commerce-extensibility/request-pipeline-hook.md
+                    - name: Afbeeldingsonderdeel
+                      href: e-commerce-extensibility/image-component.md
                 - name: Gegevensacties ontwikkelen
                   items:
                     - name: Overzicht van gegevensacties
@@ -2574,6 +2590,8 @@
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
                 - name: Voorbeelden en pakketten van GitHub en NuGet downloaden
                   href: dev-itpro/retail-sdk/sdk-github.md
+                - name: Een Visual Studio 2017-buildagent instellen om Modern POS te bouwen
+                  href: dev-itpro/retail-sdk/mpos-build-agent.md
                 - name: Veelgestelde vragen over Retail SDK
                   href: dev-itpro/retail-sdk/sdk-faq.md
             - name: Uitbreidbaarheid van verkooppunten (POS)

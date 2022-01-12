@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ec4265f0433fbbce1e00eda206c297b54f9b8df8
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: a709528b04e82c32f644073f79513b7ef11bb6bf
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778516"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920718"
 ---
 # <a name="firm-planned-orders"></a>Vast geplande orders
 
@@ -80,6 +80,9 @@ Als u geplande orders handmatig wilt fiatteren, kunt u de geplande orders zoeken
     - **Groeperen op inkoopovereenkomst**: stel deze optie in op *Ja* om geplande inkooporders met dezelfde leverancier als bestaande inkoopovereenkomsten te groeperen en één inkooporder per inkoopovereenkomst te maken. Deze optie wordt automatisch ingeschakeld als **Groeperen op leverancier** is ingeschakeld. Als u **Groeperen op inkoopovereenkomst** wilt gebruiken, moet **Inkoopovereenkomst zoeken** zijn ingesteld op *Ja* op de pagina **Parameters van hoofdplanning**.
     - **Groeperen op periode** (in het gedeelte **Inkooporders**): selecteer de periode waarvoor u geplande inkooporders wilt groeperen. Als u deze optie wilt gebruiken, moet u ook de optie **Groeperen op leverancier** inschakelen.
     - **Groeperen op periode** (in het gedeelte **Transferorders**): selecteer de periode waarvoor u geplande transferorders wilt groeperen. De orders worden gegroepeerd op basis van de waarden **Van magazijn** en **Naar magazijn**.
+
+    > [!NOTE]
+    > Door elk van de opties 'Groeperen op' wordt elke geplande order geconverteerd naar een regel in de afzonderlijke inkooporder die het resultaat is van de groepering.
 
     ![Sneltabblad Parameters in het dialoogvenster Fiattering.](./media/manual-firming.png "Sneltabblad Parameters in het dialoogvenster Fiattering")
 

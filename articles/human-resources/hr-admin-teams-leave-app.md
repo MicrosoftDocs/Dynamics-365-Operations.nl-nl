@@ -2,7 +2,7 @@
 title: Human resources-app in Teams
 description: In dit onderwerp maakt u kennis met de Microsoft Dynamics 365 Human Resources-app in Microsoft Teams.
 author: twheeloc
-ms.date: 12/09/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8eebe154a19dd8476f6e9d75ebfd69fdc5b9e2b7
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 9274ab345616561deddd322ebad0d6e0b834d1d4
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913484"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924717"
 ---
 # <a name="human-resources-app-in-teams"></a>Human resources-app in Teams
 
@@ -41,6 +41,21 @@ De Dynamics 365 Human Resources-app is te vinden in het Teams-archief. Zie [Verl
 Zie [Machtigingsbeleid voor apps beheren in Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) voor informatie over het beheren van app-machtigingen in Teams.
 
 Als u wilt dat uw gebruikers de verlof- en verzuimkalender in de app bekijken, moet u de **Verlof- en verzuimkalender in Teams** in Functiebeheer inschakelen. Meer informatie over het inschakelen van functies vindt u in [Functies beheren](hr-admin-manage-features.md).
+
+## <a name="update-app"></a>App bijwerken
+>[!NOTE]
+> Per 20 december 2021 zijn de botservices voor de Human Resources-app die in Microsoft-tenants worden beheerd stopgezet. Dit heeft geen gevolgen voor een bijgewerkte extensie (versie 1.1.5) die beschikbaar is voor installatie. De belangrijkste impact ligt bij de verouderde extensie (versie 1.1.4). Dit chatbot in deze versie stopt met werken. Het tabblad **Verlof** blijft werken in beide extensies.
+
+Voor versie 1.1.4 stopt de chatbot met reageren op berichten. Bijvoorbeeld **Aanmelden**, **Saldi weergeven** en **Verlof bekijken**. De app moet handmatig naar de laatste versie worden bijgewerkt. Zie [Apps bijwerken in Microsoft Teams](/MicrosoftTeams/apps-update-experience) voor meer informatie.
+
+Als u wilt bijwerken naar versie 1.1.5, voert u de volgende stappen uit:
+1. Ga in Microsoft Teams naar **Apps**.
+2. Zoek de app **Human Resources**.
+3. Selecteer **Bijwerken**.
+
+U kunt de versie van de Human Resources-app controleren door naar het tabblad **Info** of naar de sectie **Persoonlijke app** te gaan. 
+
+![Tabblad **Info** van Human Resources.](./media/HR-teams-about.png)
 
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>Meldingen inschakelen voor de Human Resources-app in Teams
 

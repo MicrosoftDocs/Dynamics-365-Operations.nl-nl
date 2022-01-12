@@ -2,7 +2,7 @@
 title: Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
 description: Dit onderwerp bevat informatie over het ontwerpen van een ER-indeling (Elektronische rapportage) voor het invullen van een Excel-sjabloon en het genereren van uitgaande Excel-documenten.
 author: NickSelin
-ms.date: 12/03/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ebe2647bb382421921aa6ffc733953f379a8af10
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 87d5929557e5120a5339ee46eac655fd399679d1
+ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890860"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7943607"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
 
@@ -364,6 +364,22 @@ U kunt het probleem op een van de volgende manieren oplossen:
     3. Voer de gewijzigde ER-indeling uit.
 
         ![Het gegenereerde document in de Excel-bureaubladtoepassing controleren.](./media/er-fillable-excel-example2-4.png)
+
+## <a name="limitations"></a>Beperkingen
+
+### <a name="known-epplus-library-limitations"></a>Bekende beperkingen van EPPlus-bibliotheek
+
+#### <a name="external-data-sources"></a>Externe gegevensbronnen
+
+Als een van de sjablonen een draaitabel bevat die is gebaseerd op een PowerPivot-model dat verwijst naar een [externe gegevensbron](https://support.microsoft.com/office/create-a-pivottable-with-an-external-data-source-db50d01d-2e1c-43bd-bfb5-b76a818a927b) en de functie **Gebruik van EPPlus-bibliotheek inschakelen in het ER-raamwerk** is ingeschakeld, ontvangt u het volgende foutbericht wanneer u een ER-indeling gebruikt die deze sjabloon gebruikt om een uitgaand document in Excel-indeling te genereren: "De cachesource is geen werkblad." Om dit probleem te verhelpen, hebt u de volgende opties:
+
+- **Aanbevolen:** ontwerp de Excel-oplossing die u gebruikt opnieuw:
+
+    1. Neem het gedeelte met draaipunten op in een afzonderlijke Excel-werkmap (werkmap A). 
+    2. Gebruik ER om een tweede Excel-werkmap (werkmap B) te genereren vanuit Finance met de vereiste details. 
+    3. Raadpleeg werkmap B in werkmap A zodra werkmap B is gegenereerd.
+
+- Gebruik een andere optie dan EPPlus om de functie uit te schakelen. 
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

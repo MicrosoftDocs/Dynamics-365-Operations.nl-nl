@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e84df8aa4f3e4079cf97d35b0d67a75d68dbb4b2
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: e872600222ad23bf3de62c0f2d6cda74942d5b55
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860528"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920643"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hoe werknemers de uitvoeringsinterface voor de werkvloer gebruiken
 
@@ -110,9 +110,6 @@ Wanneer werknemers een taak voltooien of gedeeltelijk voltooien, kunnen ze goede
 ![Dialoogvenster Voortgang rapporteren.](media/pfei-report-progress-dialog.png "Dialoogvenster Voortgang rapporteren")
 
 ## <a name="reporting-good-quantities-on-batch-orders-that-have-co-products-and-by-products"></a>Goede hoeveelheden rapporteren voor batchorders met co- en bijproducten
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)] 
-<!--KFM: Preview until GA with 10.0.23 -->
 
 Werknemers kunnen de uitvoeringsinterface voor de werkvloer gebruiken om de voortgang van batchorders te rapporteren. Deze rapportage omvat rapportage over co- en bijproducten.
 
