@@ -2,7 +2,7 @@
 title: Een B2C-tenant instellen in Commerce
 description: In dit onderwerp wordt beschreven hoe u uw B2C-tenants (business-to-consumers) in Azure Active Directory (Azure AD) instelt voor de verificatie van sitegebruikers in Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 08/31/2021
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d54de9025926d2c1908ce29d2b680a48172f46a4
-ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
+ms.openlocfilehash: 8e0fa2c4f22a1854a449a14aac3552313e808cf3
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "7466263"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952439"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Een B2C-tenant instellen in Commerce
 
@@ -58,7 +58,9 @@ Voordat u begint, moet u ervoor zorgen dat uw Dynamics 365 Commerce-omgeving en 
 
 Na implementatie van uw Dynamics 365 Commerce-omgeving is het ook aan te raden om [seed data](enable-configure-retail-functionality.md) te initialiseren in de omgeving.
 
-## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>Een AAD B2C-tenant maken of een koppeling met een bestaande AAD B2C-tenant instellen in de Azure-portal
+## <a name="create-or-link-to-an-existing-azure-ad-b2c-tenant-in-the-azure-portal"></a>Een Azure AD B2C-tenant maken of een koppeling met een bestaande Azure AD B2C-tenant instellen in de Azure-portal
+
+In deze sectie wordt het maken of koppelen van een Azure AD B2C-tenant voor gebruik op uw Commerce-site behandeld. Zie [Zelfstudie: Een Azure Active Directory B2C-tenant maken](/azure/active-directory-b2c/tutorial-create-tenant) voor meer informatie.
 
 1. Meld u aan bij de [Azure-portal](https://portal.azure.com/).
 1. Selecteer **Een resource maken** in het menu van Azure Portal. Gebruik het abonnement en de map die met uw Commerce-omgeving worden verbonden.
@@ -68,7 +70,7 @@ Na implementatie van uw Dynamics 365 Commerce-omgeving is het ook aan te raden o
 1. Ga naar **Identiteit \> Azure Active Directory B2C**.
 1. Op de pagina **Nieuwe B2C-tenant maken of koppelen aan bestaande tenant maken** gebruikt u een van de volgende opties die het beste aansluit bij de behoeften van uw bedrijf:
 
-    - **Een nieuwe Azure AD B2C-tenant maken**: gebruik deze optie om een nieuwe AAD B2C-tenant te maken.
+    - **Een nieuwe Azure AD B2C-tenant maken**: gebruik deze optie om een nieuwe Azure AD B2C-tenant te maken.
         1. Selecteer **Een nieuwe Azure AD B2C-tenant maken**.
         1. Voer onder **Naam van organisatie** de naam van de organisatie in.
         1. Voer bij **Oorspronkelijke domeinnaam** de oorspronkelijke domeinnaam in.
@@ -86,7 +88,7 @@ Na implementatie van uw Dynamics 365 Commerce-omgeving is het ook aan te raden o
 
 1. Zodra de nieuwe Azure AD B2C-map is gemaakt (dit kan even duren), wordt een koppeling naar de nieuwe map weergegeven op het dashboard. Met deze koppeling wordt u naar de pagina Welkom bij Azure Active Directory B2C geleid.
 
-    ![Koppeling naar nieuwe AAD-map.](./media/B2CImage_4.png)
+    ![Koppeling naar nieuwe Azure AD-directory](./media/B2CImage_4.png)
 
 > [!NOTE]
 > Als u meerdere abonnementen hebt in uw Azure-account of als u de B2C-tenant hebt ingesteld zonder deze aan een actief abonnement te koppelen, kunt u via een banner **Problemen oplossen** de tenant aan een abonnement koppelen. Selecteer het probleemoplossingsbericht en volg de instructies om het probleem met het abonnement op te lossen.
@@ -104,11 +106,11 @@ Ga als volgt te werk om de B2C-toepassing te maken:
 1. Selecteer in de Azure-portal de optie **App-registraties** en selecteer vervolgens **Nieuwe registratie**.
 1. Voer onder **Naam** de naam in die u aan deze Azure AD B2C-toepassing wilt geven.
 1. Selecteer onder **Ondersteunde accounttypen** de optie **Accounts in een identiteitsprovider of organisatiemap (voor het verifiëren van gebruikers met gebruikersstromen)**.
-1. Voer voor **Omleidings-URI** uw speciale antwoord-URL's in als type **Web**. Zie [Antwoord-URL's](#reply-urls) hieronder voor informatie over antwoord-URL's en hoe u deze kunt opmaken.
+1. Voer voor **Omleidings-URI** uw speciale antwoord-URL's in als type **Web**. Zie [Antwoord-URL's](#reply-urls) hieronder voor informatie over antwoord-URL's en hoe u deze kunt opmaken. Er moet een omleidings-URI/antwoord-URL worden ingevoerd om omleidingen van Azure AD B2C terug naar uw site in te schakelen wanneer een gebruiker verifieert. De antwoord-URL kan tijdens het registratieproces worden toegevoegd of later worden toegevoegd door de koppeling **Omleidings-URI toevoegen** te selecteren in het menu **Overzicht** in de sectie **Overzicht** van de B2C-toepassing.
 1. Selecteer voor **Machtigingen** de optie **Beheerdersmachtigingen verlenen voor de machtigingen openid en offline_access**.
 1. Selecteer **Registreren**.
-1. Selecteer de nieuw gemaakte toepassing en navigeer naar het menu **Verificatie**. Hier kunt u indien nodig (nu of later) extra **Omleidings-URI's** toevoegen. Ga verder met de volgende stap als dit momenteel niet nodig is.
-1. Selecteer onder **Impliciete toekenning** zowel **Toegangstokens** als **Id-tokens** om ze in te schakelen voor de toepassing. Selecteer **Opslaan**.
+1. Selecteer de nieuw gemaakte toepassing en navigeer naar het menu **API-machtigingen**. 
+1. Als een antwoord-URL is ingevoerd, selecteert u onder **Impliciete toekenning en hybride stromen** de opties **Toegangstokens** en **ID-tokens** om deze voor de toepassing in te schakelen en selecteert u **Opslaan**. Als een antwoord-URL niet is ingevoerd tijdens de registratie, kunt u deze ook op deze pagina toevoegen door **Een platform toevoegen** te selecteren, **Web** te selecteren, en vervolgens de omleidings-URI van de toepassing in te voeren. De sectie **Impliciete toekenning en hybride stromen** is vervolgens beschikbaar voor het selecteren van zowel **Toegangstokens** als **ID-tokens**.
 1. Ga naar het menu **Overzicht** van de Azure-portal en kopieer de **Toepassings(client)-id**. Noteer deze id voor latere installatiestappen (hiernaar wordt later verwezen als de **client-GUID**).
 
 Zie [De nieuwe ervaring App-registraties voor Azure Active Directory B2C](/azure/active-directory-b2c/app-registrations-training-guide) voor meer informatie over App-registraties in Azure AD B2C
@@ -131,7 +133,7 @@ Azure AD B2C biedt drie algemene typen gebruikersstromen:
 - Profiel bewerken
 - Wachtwoord opnieuw instellen
 
-U kunt ervoor kiezen om de standaardgebruikersstromen van Azure AD te gebruiken. Vervolgens wordt er een pagina weergegeven die wordt gehost door AAD B2C. U kunt ook een HTML-pagina maken om het uiterlijk van deze gebruikersstroomervaringen te bepalen. 
+U kunt ervoor kiezen om de standaardgebruikersstromen van Azure AD te gebruiken. Vervolgens wordt er een pagina weergegeven die wordt gehost door Azure AD B2C. U kunt ook een HTML-pagina maken om het uiterlijk van deze gebruikersstroomervaringen te bepalen. 
 
 Zie [Aangepaste pagina's voor gebruikersaanmeldingen instellen](custom-pages-user-logins.md) als u de gebruikersbeleidspagina's wilt aanpassen met pagina's die zijn gebouwd in Dynamics 365 Commerce. Zie voor aanvullende informatie [De interface met gebruikerservaringen in Azure Active Directory B2C aanpassen](/azure/active-directory-b2c/tutorial-customize-ui).
 
@@ -143,9 +145,9 @@ Voer de volgende stappen uit om een gebruikersstroombeleid voor registreren en a
 1. Selecteer op de pagina **Azure AD B2C - Gebruikersstromen (beleid)** de optie **Nieuwe gebruikersstroom**.
 1. Selecteer het beleid **Registreren en aanmelden** en selecteer vervolgens de versie **Aanbevolen**.
 1. Voer een beleidsnaam in onder **Naam**. Deze naam wordt vervolgens weer gegeven met een voorvoegsel dat wordt toegewezen door de portal (bijvoorbeeld B2C_1_).
-1. Schakel onder **Identiteitsproviders** het desbetreffende selectievakje in.
+1. Selecteer onder **Identiteitsproviders** in de sectie **Lokale accounts** de optie **E-mailaanmelding**. E-mailverificatie wordt gebruikt in de meeste algemene scenario's voor Commerce. Als u ook de verificatie via providers van sociale identiteiten gebruikt, kunt u deze op dit moment ook selecteren.
 1. Selecteer de juiste keuze voor uw bedrijf onder **Meervoudige verificatie**. 
-1. Selecteer onder **Gebruikerskenmerken en claims** opties om kenmerken te verzamelen of claims naar wens te retourneren. Voor Commerce zijn de volgende standaardopties vereist:
+1. Selecteer onder **Gebruikerskenmerken en claims** opties om kenmerken te verzamelen of claims naar wens te retourneren. Selecteer **Meer weergeven...** om de volledige lijst met kenmerken en claimopties te bekijken. Voor Commerce zijn de volgende standaardopties vereist:
 
     | **Kenmerk verzamelen** | **Claim retourneren** |
     | ---------------------- | ----------------- |
@@ -161,9 +163,6 @@ De volgende afbeelding is een voorbeeld van de gebruikersstroom voor registreren
 
 ![Beleidsinstellingen voor registreren en aanmelden.](./media/B2CImage_11.png)
 
-In de volgende afbeelding ziet de optie **Gebruikersstroom uitvoeren** in de in de gebruikers stroom voor registreren en aanmelden in Azure AD B2C.
-
-![De optie Gebruikersstroom uitvoeren in de beleidsstroom.](./media/B2CImage_23.png)
    
 ### <a name="create-a-profile-editing-user-flow-policy"></a>Een beleid voor de gebruikersstroom voor het bewerken van profielen maken
 
@@ -173,18 +172,22 @@ Voer de volgende stappen uit om een gebruikersstroombeleid voor het bewerken van
 1. Selecteer op de pagina **Azure AD B2C - Gebruikersstromen (beleid)** de optie **Nieuwe gebruikersstroom**.
 1. Selecteer **Profielen bewerken** en selecteer vervolgens de versie **Aanbevolen**.
 1. Voer onder **Naam** de gebruikersstroom voor het bewerken van profielen in. Deze naam wordt vervolgens weer gegeven met een voorvoegsel dat wordt toegewezen door de portal (bijvoorbeeld B2C_1_).
-1. Selecteer onder **Identiteitsproviders** de optie **Aanmelden voor e-mail**.
+1. Selecteer onder **Identiteitsproviders** in het gedeelte **Lokale accounts** de optie **E-mailaanmelding**.
 1. Schakel onder **Gebruikerskenmerken** de volgende selectievakjes in:
-    - **E-mailadressen** (alleen **Claim retourneren**)
-    - **Voornaam** (**Kenmerk verzamelen** en **Claim retourneren**)
-    - **Identiteitsprovider** (alleen **Claim retourneren**)
-    - **Achternaam** (**Kenmerk verzamelen** en **Claim retourneren**)
-    - **De object-id van de gebruiker** (alleen **Claim retourneren**)
+    
+    | **Kenmerk verzamelen** | **Claim retourneren** |
+    | ---------------------- | ----------------- |
+    |                        | E-mailadressen   |
+    | Voornaam             | Voornaam        |
+    |                        | Identiteitsprovider |
+    | Achternaam                | Achternaam           |
+    |                        | De object-id van de gebruiker  |
+    
 1. Selecteer **Maken**.
 
 In de volgende afbeelding ziet u een voorbeeld van de gebruikersstroom voor het bewerken van profielen in Azure AD B2C.
 
-![De gebruikersstroom voor het bewerken van profielen maken.](./media/B2CImage_12.png)
+![Voorbeeld van de gebruikersstroom voor het bewerken van Azure AD B2C-profielen](./media/B2CImage_12.png)
 
 ### <a name="create-a-password-reset-user-flow-policy"></a>Een beleid voor de gebruikersstroom voor het opnieuw instellen van wachtwoorden maken
 
@@ -324,11 +327,11 @@ De volgende afbeelding toont een voorbeeld van een beleid voor gebruikersstromen
 
 ![De namen van elke B2C-beleidsstroom verzamelen.](./media/B2CImage_22.png)
 
-### <a name="enter-your-aad-b2c-tenant-application-information-into-commerce"></a>De toepassingsgegevens van de AAD B2C-tenant invoeren in Commerce
+### <a name="enter-your-azure-ad-b2c-tenant-application-information-into-commerce"></a>De toepassingsgegevens van de Azure AD B2C-tenant invoeren in Commerce
 
 U moet gegevens van de Azure AD B2C-tenant invoeren in Commerce Site Builder voordat u de B2C-tenant aan uw site(s) koppelt.
 
-Ga als volgt te werk om uw toepassingsgegevens voor AAD B2C-tenants toe te voegen aan Commerce.
+Ga als volgt te werk om uw toepassingsgegevens voor Azure AD B2C-tenants toe te voegen aan Commerce.
 
 1. Meld u aan als beheerder van Commerce Site Builder voor uw omgeving.
 1. Selecteer in het linkernavigatievenster de optie **Tenantinstellingen** om deze uit te vouwen.

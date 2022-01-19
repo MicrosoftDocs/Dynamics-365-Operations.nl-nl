@@ -2478,8 +2478,6 @@
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: Azure Key Vault instellen voor beveiligd sleutelbeheer
                       href: e-commerce-extensibility/set-up-key-vault.md
-                    - name: Een invoegtoepassing-hook maken voor een aanvraagpijplijn
-                      href: e-commerce-extensibility/request-pipeline-hook.md
                     - name: Afbeeldingsonderdeel
                       href: e-commerce-extensibility/image-component.md
                 - name: Gegevensacties ontwikkelen

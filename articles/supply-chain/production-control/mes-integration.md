@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 43814023474d44b8c95bae087c7b6a4d52d21471
-ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
+ms.openlocfilehash: ea39a1fc9092aaa4622c7193f7538acc85aa0f46
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7891921"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952672"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Integratie met productie-uitvoeringssystemen van derden
 
@@ -37,10 +37,17 @@ De onderstaande afbeelding toont een veelvoorkomende verzameling zakelijke gebeu
 
 ## <a name="turn-on-the-mes-integration-feature"></a>De MES-integratiefunctie inschakelen
 
-Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in de werkruimte **Functiebeheer** de functie als volgt in:
+Voordat u deze functie kunt gebruiken, moet een beheerder deze in het systeem inschakelen zoals beschreven in de volgende procedure.
 
-- **Module:** *Productiebeheer*
-- **Functienaam:** *integratie met productie-uitvoeringssysteem*
+1. Ga naar **Systeembeheer \> Instellingen \> Licentieconfiguratie**.
+1. Controleer of de licentiesleutel **Tijd en aanwezigheid** is ingeschakeld (met een vinkje). Deze licentiesleutel is vereist omdat deze de functionaliteit en gegevens van het productie-uitvoeringssysteem beheert. Als deze niet is ingeschakeld, gaat u als volgt te werk:
+    1. Plaats uw systeem in de onderhoudsmodus, zoals wordt beschreven in [Onderhoudsmodus](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+    1. Schakel op de pagina **Licentieconfiguratie** het selectievakje **Tijd en aanwezigheid** in.
+    1. Schakel de onderhoudsmodus uit, zoals wordt beschreven in [Onderhoudsmodus](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+1. Ga naar **Systeembeheer \> Werkruimten \> Functiebeheer**.
+1. Schakel de functie in die wordt weergegeven op de volgende manier (zie ook [Overzicht van functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)):
+    - **Module:** *Productiebeheer*
+    - **Functienaam:** *integratie met productie-uitvoeringssysteem*
 
 ## <a name="processes-available-for-mes-integration"></a>Processen die beschikbaar zijn voor MES-integratie
 

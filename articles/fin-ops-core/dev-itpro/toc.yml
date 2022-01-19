@@ -512,6 +512,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: Een LCS-connector (Lifecycle Services) maken in Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: Taken voor LCS-verbindingsverificatie bijwerken naar MSAL in Azure Pipelines
+                  href: dev-tools/pipeline-lcs-connection-update.md
                 - name: De gehoste Azure Pipeline voor nieuwe NuGet-pakketten bijwerken
                   href: dev-tools/pipeline-nuget-split.md
                 - name: Een oudere pijplijn bijwerken in Azure Pipelines
@@ -1480,10 +1482,12 @@
               href: perf-test/rsat/rsat-tutorial.md
             - name: Niet-beheerders configureren
               href: perf-test/rsat/rsat-configure-nonadmin.md
-            - name: Best practices
+            - name: Aanbevolen procedures
               href: perf-test/rsat/rsat-best-practices.md
             - name: Gegevensonafhankelijk testen met Regression Suite Automation Tool
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
+            - name: RSAT (Regression Suite Automation Tool) uitvoeren met parallelle uitvoering
+              href: perf-test/rsat/rsat-parallel-execution.md
             - name: Problemen oplossen
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Oplossingen vrijgeven via Lifecycle Services

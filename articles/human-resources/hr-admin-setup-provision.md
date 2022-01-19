@@ -2,7 +2,7 @@
 title: Human Resources inrichten
 description: In dit onderwerp wordt het proces van het inrichten van een nieuwe productieomgeving voor Microsoft Dynamics 365 Human Resources uitgelegd.
 author: twheeloc
-ms.date: 08/11/2021
+ms.date: 01/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c84fdb3c5c61598dfd0934e769f4a7262ce74052
-ms.sourcegitcommit: 8439ce2d4ad5ee5c1ec870640b52b5d2e947a671
+ms.openlocfilehash: b5ea27c6650df0b94284902eb37e2169ea36261a
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "7644522"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952697"
 ---
 # <a name="provision-human-resources"></a>Human Resources inrichten
 
@@ -44,7 +44,7 @@ Voordat u uw eerste sandbox- of productieomgeving inricht, kunt u een [Human Res
 
 Testomgevingen bieden de mogelijkheid om de functionaliteit Human Resources te beoordelen voor personen die nog geen toegang hebben tot een Human Resources-omgeving. Als u een proefomgeving inricht en de geverifieerde gebruiker al toegang heeft tot een of meer bestaande Human Resources-omgevingen, wordt de gebruiker omgeleid naar de bestaande omgeving of een lijst met omgevingen.
 
-Proefomgevingen zijn niet bedoeld als productieomgevingen. Proefomgevingen zijn beperkt tot een periode van 60 dagen. Wanneer een proefperiode verloopt, worden de omgeving en alle gegevens erin permanent verwijderd. De omgeving kan niet worden geconverteerd naar een sandbox of een productieomgeving. Nadat de bestaande omgeving is verlopen, kunt u zich aanmelden voor een nieuwe proefomgeving.
+Proefomgevingen zijn niet bedoeld als productieomgevingen. Proefomgevingen zijn beperkt tot een periode van 30 dagen. Wanneer een proefperiode verloopt, worden de omgeving en alle gegevens erin permanent verwijderd. De omgeving kan niet worden geconverteerd naar een sandbox of een productieomgeving. Nadat de bestaande omgeving is verlopen, kunt u zich aanmelden voor een nieuwe proefomgeving.
 
 Bij het aanmaken van een testomgeving voor Human Resources wordt ook een testomgeving aangemaakt voor Power Apps voor de tenant, die wordt gekoppeld aan de Human Resources-omgeving. De Power Apps-omgeving, met de naam TestDrive, heeft dezelfde testperiode als de Human Resources-omgeving.
 

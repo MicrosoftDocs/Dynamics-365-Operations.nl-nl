@@ -2,19 +2,19 @@
 title: Beschrijving van service voor Finance and Operations-toepassingen
 description: In dit onderwerp vindt u de serviceomschrijving voor Finance and Operations-toepassingen.
 author: tomhig
-ms.date: 12/07/2021
+ms.date: 01/05/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: f7ce73018fda79156cc7ef3d4e1faa3fedf966f8
-ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
+ms.openlocfilehash: 85f82a863f0bde4c0414760fa2477651242538f2
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "7898384"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952361"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Beschrijving van service voor Finance and Operations-toepassingen
 
@@ -117,7 +117,7 @@ Finance and Operations-toepassingen worden vanuit verschillende Azure-regio's ov
 ### <a name="countryregion-specific-considerations"></a>Land-/regiospecifieke overwegingen
 
 - Klanten in de gereguleerde sector of commerciële organisaties die zaken doen met entiteiten in Frankrijk die lokale gegevensresidentie vereisen, moeten [Finance and Operations in Frankrijk](../../dev-itpro/deployment/france-local-deployment.md) nalezen.
-- Klanten die activiteiten in China hebben moeten [Finance and Operations via 21Vianet in China](../../dev-itpro/deployment/china-local-deployment.md) nalezen.
+- Klanten die activiteiten in China hebben moeten [Azure China Playbook](/azure/china/) en [Finance and Operations via 21Vianet in China](../../dev-itpro/deployment/china-local-deployment.md) raadplegen.
 - Klanten die bewerkingen hebben in Rusland, moeten de [Russische localisatiewetgeving van persoonlijke gegevens](/business-applications-release-notes/october18/dynamics365-finance-operations/russian-regulations-on-prem#when-will-the-cloud-deployment-option-of-dynamics-365-for-finance-and-operations-be-generally-available-for-russia) controleren.
 
 ### <a name="general-data-protection-regulation-gdpr"></a>Algemene verordening gegevensbescherming (AVG)
@@ -356,6 +356,7 @@ Microsoft heeft een beschikbaarheidspercentage van 99,9 procent per maand van de
 - **[Licentiehandleiding](https://www.microsoft.com/licensing/docs/view/Microsoft-Dynamics-365)** – gebruik deze handleiding om meer te weten te komen over de licentie voor Dynamics 365.
 - **[Klantenondersteuning](https://dynamics.microsoft.com/support/)** – Krijg toonaangevende ondersteuning voor uw Dynamics 365-apps.
 - **[Dynamics Lifecycle Services](https://lcs.dynamics.com/)** - Beheer de levenscyclus van uw toepasing en ga naar voorspelbare, herhaalbare, hoogwaardige implementaties.
+- **[Implementatiehandleiding van Dynamics 365](https://aka.ms/D365ImplementationGuideFlip)** - De implementatiehandleiding van Dynamics 365 documenteert beproefde Success by Design-principes en biedt richtlijnen voor architectuur, bouw, test en implementatie van Dynamics 365-oplossingen.
 
 ## <a name="definitions"></a>Definities
 
@@ -428,6 +429,10 @@ De SLA is van toepassing op de onlineservices van Microsoft. Zie voor meer infor
 ### <a name="service-update"></a>Serviceupdate
 
 Microsoft onderhoudt Finance and Operations-omgevingen op consistente basis via service-updates. Klanten stellen hun eigen kalender voor service-updates in op basis van hun zakelijke behoeften. Meer informatie over dit onderwerp vindt u in [Veelgestelde vragen over updates van service met één versie](../../dev-itpro/lifecycle-services/oneversion-overview.md).
+
+### <a name="success-by-design"></a>[Success by Design](/dynamics365/fasttrack/success-by-design-overview)
+
+Het raamwerk dat een implementatie systematisch door een reeks evaluaties in belangrijke fasen begeleidt om te zorgen voor een optimale architectuur, beveiliging, prestaties en gebruikerservaring voor een Dynamics 365-oplossing.
 
 ### <a name="user"></a>Gebruiker
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: e9dc692061cec830f487e01a79075eda835bac23
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: d667aef827addcf7c34075b08afffffe3fd71935
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937655"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952593"
 ---
 # <a name="engineering-change-management-overview"></a>Overzicht van technisch wijzigingsbeheer
 
@@ -71,6 +71,7 @@ Schakel vervolgens de configuratiesleutels in door de volgende stappen uit te vo
 
 1. Als u ook de versiedimensie wilt gebruiken schakelt u het selectievakje **Productdimensie - versie** in. (Dit selectievakje vindt u verder naar beneden in de lijst, niet genest onder het knooppunt **Technisch wijzigingsbeheer**.)
 1. Schakel de onderhoudsmodus uit, zoals wordt beschreven in [Onderhoudsmodus](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+1. Voer een databasesynchronisatie uit om ervoor te zorgen dat de configuratiesleutels op de juiste manier zijn ingeschakeld.
 
 > [!IMPORTANT]
 > Vanaf april 2022 worden de licentiesleutels voor zowel **Engineering Change Management** als voor **Productdimensie - Versie** standaard ingeschakeld voor alle nieuwe installaties, maar u kunt ze zo nodig ook uitschakelen.

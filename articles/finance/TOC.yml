@@ -1212,6 +1212,8 @@
                   href: finance-insights/enable-cust-paymnt-prediction.md
                 - name: Cashflowprognose inschakelen
                   href: finance-insights/enable-cash-flow-forecasting.md
+                - name: Externe gegevens in cashflowprognoses
+                  href: finance-insights/external-data-in-cash-flow.md
                 - name: Budgetvoorstellen inschakelen
                   href: finance-insights/enable-budget-proposal.md
                 - name: Data Integrator-project maken
@@ -1232,10 +1234,8 @@
                   href: finance-insights/budget-proposals.md
                 - name: Kaspositie
                   href: finance-insights/cash-position.md
-                - name: Cashflowprognose
+                - name: Kasprognose
                   href: finance-insights/cash-flow-forecast-intro.md
-                - name: Externe gegevens in cashflowprognoses gebruiken
-                  href: finance-insights/external-data-in-cash-flow.md
                 - name: Voorspellingen voor klantbetalingen
                   href: finance-insights/payment-insights-overview.md
                 - name: Voorspellingen voor klantbetalingen gebruiken
@@ -1432,6 +1432,8 @@
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Aan de slag met Elektronische facturering voor Saoedi-Arabië
                           href: localizations/e-invoicing-sa-get-started.md
+                        - name: Directe integratie van Italiaanse FatturaPA met SDI instellen
+                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
                         - name: De service voor Elektronische facturering gebruiken om leveranciersfacturen te importeren
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Elektronische facturering instellen
@@ -1508,10 +1510,14 @@
                           items:
                             - name: Btw-aangifte
                               href: localizations/emea-che-vat-declaration-switzerland.md
-                        - name: Rapportage voor Verenigd Koninkrijk
+                        - name: Aangifte voor Verenigd Koninkrijk
                           items:
                             - name: Btw-aangifte
                               href: localizations/emea-gbr-vat-declaration.md
+                        - name: Aangifte voor Noorwegen
+                          items:
+                            - name: Btw-aangifte
+                              href: localizations/emea-nor-vat-declaration.md
                     - name: Belastingberekening voor transferorder inschakelen
                       items:
                         - name: Ondersteuning voor belastingfunctie voor transferorders
@@ -1557,7 +1563,7 @@
                 - name: Btw-overzicht
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Rapportage voor internationale dienstverlening
-                  href: localizations/emea-aut-vat-statement-details.md
+                  href: localizations/emea-aut-cross-border-services-report.md
                 - name: Oostenrijkse intrastat
                   href: localizations/emea-aut-intrastat.md
                 - name: Inkoopheffingen
@@ -1824,7 +1830,7 @@
                   href: localizations/tasks/golden-tax-integration-export-setup.md
                 - name: Afschrijvingsmethoden voor vaste activa
                   href: localizations/apac-chn-depreciation-methods-fixed-assets.md
-                - name: De entiteit Chinese industriële btw-gegevens importeren
+                - name: De Chinese industriële btw-bestanden importeren
                   href: localizations/apac-chn-import-golden-tax-data-entity.md
                 - name: Maandelijks gemiddelde kostprijsmodel
                   href: localizations/apac-chn-monthly-average-cost-model.md
@@ -2088,6 +2094,8 @@
                   href: localizations/finland.md
                 - name: Btw-betalingsrapport voor FInland
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
+                - name: Finse Intrastat
+                  href: localizations/emea-fin-intrastat.md
             - name: Frankrijk
               items:
                 - name: Overzicht Frankrijk
@@ -2610,6 +2618,8 @@
                   href: localizations/apac-idn-invoicing.md
                 - name: Btw-aangifte voor Indonesië
                   href: localizations/apac-idn-ppn-declaration.md
+                - name: Bronbelastingaangifte voor Indonesië
+                  href: localizations/apac-idn-wht-declaration.md
             - name: Italië
               items:
                 - name: Overzicht Italië

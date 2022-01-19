@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 88dea2724f574383298c5deac9b76b4cd1d802b5427c8ec2a59a9d1ab0de4e0c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ab125f963b8f2e00c8d937c6eea091970feaef65
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741579"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952541"
 ---
 # <a name="cost-accounting-home-page"></a>Startpagina Kostprijsboekhouding
 
@@ -38,7 +38,7 @@ Het volgende leertraject toont de belangrijkste concepten en taken met die het r
 
 | &nbsp; | &nbsp;  |
 |------|---|
-|  [Basisentiteiten configureren (eLearning)](https://mbspartner.microsoft.com/Home) (vereist een CustomerSource-account)  |[Dimensies van kostenelement](cost-elements.md)  |
+|  [Aan de slag met kostprijsboekhouding (Learn)](https://docs.microsoft.com/learn/modules/get-started-cost-accounting-dyn365-finance/)  |[Dimensies van kostenelement](cost-elements.md)  |
 |  [Dimensiehiërarchie](dimension-hierarchy.md)  |[Kostenbeheereenheden definiëren](./tasks/define-cost-control-units.md)| 
 | [Toewijzingsgrondslagen](allocation-bases.md)|[Een kostentoewijzingsbeleid maken en toewijzen aan een kostenbeheereenheid](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
 | [Een gegevensbron beheren voor het grootboek van kostprijsboekhouding](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Brongegevens verwerken en traceren](./tasks/process-trace-source-data.md)     | 

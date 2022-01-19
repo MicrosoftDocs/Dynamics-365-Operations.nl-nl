@@ -1,8 +1,8 @@
 ---
 title: Veelgestelde vragen over jaarafsluitingsactiviteiten
-description: Dit onderwerp is samengesteld om u te helpen met uw jaarafsluitingsactiviteiten.
-author: kweekley
-ms.date: 01/25/2021
+description: Dit onderwerp bevat vragen over de jaarafsluiting en antwoorden die kunnen helpen bij de jaarsluitingsactiviteiten.
+author: moaamer
+ms.date: 12/21/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,18 +13,30 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1b7606314b9cf7050a565822b5b9e23beb0cb4978b20e88596c5002d918cfcd9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b0560024d87ad72c7ab77eaff52a305a4ab5a089
+ms.sourcegitcommit: cd0ba5f0ac7c44d36559a3e6e0fffb6ed18f9a20
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725069"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947257"
 ---
 # <a name="year-end-activities-faq"></a>Veelgestelde vragen over jaarafsluitingsactiviteiten 
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp is samengesteld om u te helpen met uw jaarafsluitingsactiviteiten. De informatie in dit onderwerp is hoofdzakelijk gericht op vragen over jaarafsluitingsactiviteiten voor Grootboek en Leveranciers.
+Dit onderwerp bevat vragen over de jaarafsluiting en antwoorden die kunnen helpen bij de jaarsluitingsactiviteiten. De informatie in dit onderwerp heeft hoofdzakelijk betrekking op vragen over jaarafsluitingsactiviteiten voor Grootboek en Leveranciers.
+
+## <a name="general-ledger-year-end-enhancements"></a>Verbeteringen bij jaarafsluiting grootboek 
+In versie 10.0.20 is een verbetering voor de jaarafsluiting geïntroduceerd, die standaard wordt ingeschakeld vanaf versie 10.0.25. Als uw organisatie een versie gebruikt van vóór 10.0.25, raden we u aan deze functie in te schakelen voordat u met het jaarafsluitingsproces begint. Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen de werkruimte Functiebeheer gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
+
+ - Module: Grootboek
+ - Functienaam: Verbeteringen bij jaarafsluiting grootboek
+
+De instellingen voor de sjablonen voor de jaarafsluiting zijn verplaatst naar de nieuwe pagina **Configuratie van de jaarafsluitingssjabloon**. De bestaande jaarafsluitingspagina verandert op een manier die lijkt op de Herwaardering van vreemde valuta voor grootboek, waar bij het uitvoeren of het omkeren van de jaarafsluiting steeds een lijst wordt weergegeven. Een accounting manager kan de jaarafsluiting starten vanaf de nieuwe pagina. 
+
+Als u de jaarafsluiting wilt omkeren, selecteert u het meest recente fiscale jaar voor de betreffende rechtspersoon en kiest u de knop **Jaarafsluiting omkeren**. Met de omkering worden de journaalregels voor de vorige jaarafsluiting verwijderd en wordt de jaarafsluiting niet automatisch opnieuw uitgevoerd. 
+
+U kunt de jaarafsluiting opnieuw starten door het proces voor het fiscale jaar en de rechtspersoon opnieuw te starten. Het proces blijft de instelling van de grootboekparameters gebruiken om te bepalen of bij de nieuwe uitvoering van de jaarafsluiting alleen rekening wordt gehouden met de nieuwe of gewijzigde transacties, of dat de vorige jaarafsluiting volledig wordt omgekeerd, waarbij het proces voor alle transacties opnieuw wordt uitgevoerd.  
 
 ## <a name="general-ledger-how-do-i-know-that-were-running-year-end-close-and-not-undoing-year-end-close"></a>Grootboek: Hoe weet ik of we het jaar afsluiten en niet de jaarafsluiting ongedaan maken?
 Het komt wel voor dat organisaties een jaarafsluiting juist ongedaan maken terwijl ze de jaarafsluiting proberen uit te voeren. Als de jaarafsluiting heel snel wordt uitgevoerd of er geen openingssaldi worden geproduceerd, valideert u de instelling **Vorige afsluiting ongedaan maken** in **Jaarafsluiting** (**Grootboek > Afgesloten periode > Jaarafsluiting > Jaarafsluiting uitvoeren**). 
@@ -67,43 +79,72 @@ Met de jaarafsluitingssjabloon kunnen de organisaties het financiële-dimensieni
 
 Het is raadzaam om de vereisten van uw organisatie te evalueren en, indien mogelijk, zo veel mogelijk dimensies te sluiten met de jaarafsluitingsoptie **Eén sluiten** om de prestaties te verbeteren. Wanneer u afsluit op één dimensiewaarde (wat ook een lege waarde kan zijn), worden er minder details berekend bij het bepalen van de saldi voor journaalregels voor ingehouden winst.
 
-### <a name="10013-update-or-later"></a>10.0.13-update of hoger
-Als u hebt bijgewerkt naar versie 10.0.13 of hoger sinds de laatste keer dat uw organisatie een jaarafsluiting heeft uitgevoerd, kan het jaarafsluitingsproces langer duren vanwege de [implementatie van de HashV2-functie](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog/posts/verify-hash-function-changes-after-update-to-dynamics-365-finance-2020-release-wave-2). (De term *hash* verwijst naar een veld dat wordt berekend op basis van andere tekenreeksvelden. De API voor het berekenen van de GUID-waarde voor hash is bijgewerkt om de beveiliging te verbeteren.) Om het jaarafsluitingsproces te versnellen, kunt u het beste de saldi van de dimensiesets opnieuw opbouwen voordat u de jaarafsluiting uitvoert. Als u de dimensiesetsaldi al opnieuw hebt opgebouwd nadat u de 10.0.13-update hebt uitgevoerd, hoeft u het proces niet opnieuw uit te voeren.
- 
-## <a name="general-ledger--what-does-the-period-close--year-end-close-do"></a>Grootboek: Wat gebeurt er met Afgesloten periode - Jaarafsluiting?
+## <a name="degenerate-dimensions"></a>Gedegenereerde dimensies
+
+Een gedegenereerde dimensie kan zelden of nooit alleen of in combinatie met andere dimensies worden hergebruikt. Er zijn twee typen gedegenereerde dimensies. Het eerste type is een losstaande gedegenereerde dimensie. Dit type gedegenereerde dimensie verschijnt meestal in slechts één transactie of in kleine reeksen transacties. Het tweede type is een dimensie die gedegenereerd raakt in combinatie met een of meer aanvullende dimensies die hetzelfde potentieel vertonen op basis van de mogelijke permutaties die kunnen worden gegenereerd. Een gedegenereerde dimensie kan veel invloed hebben op de prestaties van het jaarafsluitingsproces. Als u prestatieproblemen wilt voorkomen, definieert u alle gedegenereerde dimensies als **Eén sluiten** in de instellingen voor de jaarafsluiting die worden beschreven in de voorgaande sectie.
+
+## <a name="general-ledger-what-does-the-period-close-year-end-close-do"></a>Grootboek: Wat gebeurt er met de afgesloten periode bij de jaarafsluiting?
  
 [![Afgesloten periode, Jaarafsluiting.](./media/faq-2020-yr-end-05.png)](./media/faq-2020-yr-end-05.png)
 
-### <a name="performance-improvements-for-rebuilding-financial-dimension-sets-new-feature"></a>Prestatieverbeteringen bij het opnieuw opbouwen van financiële-dimensiesets (nieuwe functie)
+### <a name="performance-improvements-for-rebuilding-financial-dimension-sets"></a>Prestatieverbeteringen voor het opnieuw opbouwen van sets met financiële dimensies
 Een nieuwe functie die is toegevoegd in versie 10.0.16 verbetert de prestaties van de jaarafsluitings- en consolidatieprocessen. De naam van de functie is Prestatieverbeteringen bij het opnieuw opbouwen van financiële-dimensiesets. Deze functie wijzigt de manier waarop dimensiesets opnieuw worden opgebouwd, zodat ze alleen voor een relevante periode opnieuw worden opgebouwd. In eerdere versies werden dimensiesets opnieuw opgebouwd voor alle datums. Als u het jaar 2020 afsluit, worden bijvoorbeeld alleen de saldi voor transacties in het boekjaar 2020 opnieuw opgebouwd. Als u consolidatie uitvoert voor een datumbereik van 1 tot 30 november 2020, worden de saldi alleen voor dat datumbereik opnieuw opgebouwd.
 
-Aangezien deze functie wordt beschouwd als een wijziging die fouten veroorzaakt, moet u deze inschakelen via het werkgebied **Functiebeheer**.
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen de werkruimte Functiebeheer gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
  
-[![Jaarafsluiting.](./media/faq-2020-yr-end-06.png)](./media/faq-2020-yr-end-06.png)
+- Module: Grootboek
+- Functienaam: Prestatieverbeteringen bij het opnieuw opbouwen van financiële-dimensiesets
 
-## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2020"></a>Leveranciers: Welke wijzigingen zijn aangebracht om de 1099-eindejaarsaangifte voor 2020 te ondersteunen?
+## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2021"></a>Leveranciers: Welke wijzigingen zijn aangebracht om de 1099-eindejaarsaangifte voor 2021 te ondersteunen?
 
-Er zijn twee nieuwe wettelijk voorgeschreven functies toegevoegd voor 1099-eindejaarswijzigingen in 2020. De eerste functie, **Wijzigingen toepassen op de formulieren 1099-NEC en 1099-MISC voor 2020**, is halverwege het jaar vrijgegeven als verplichte functie. Hiermee moet ervoor worden gezorgd dat 1099-transactiegegevens voor het jaar 2020 kunnen worden bijgehouden voor het nieuwe 1099-NEC-formulier. Met deze functie zijn de 1099-velden toegevoegd die nodig zijn om de nieuwe 1099-NEC-velden te ondersteunen en zijn de 1099-MISC-velden bijgewerkt. In deze update zijn ook gegevens van leveranciersrecords bijgewerkt voor de 1099-vakgegevens. 
+In 2021 zijn kleine wijzigingen doorgevoerd in de formulieren DIV, NEC en MISC en zijn enkele extra vakken toegevoegd.
 
-De tweede wettelijk voorgeschreven functie, **1099-overzichten bijgewerkt voor belastingwetgeving van 2020**, omvat de volgende wijzigingen.
+#### <a name="div-new-box2e-2f"></a>DIV: nieuw vak 2e, 2f
+ 
+- Vak 2e. Bevat het gedeelte van het bedrag in vak 1a dat in sectie 897 als winst wordt toegeschreven voor Amerikaanse eigendomsbelangen (USRPI).  
+- Vak 2f. Bevat het gedeelte van het bedrag in vak 2a dat in sectie 897 als winst wordt toegeschreven voor USRPI. De vakken 2e en 2f zijn alleen van toepassing op buitenlandse personen en entiteiten waarvan het inkomenstype hetzelfde blijft wanneer dit wordt doorberekend of gedistribueerd aan de directe of indirecte buitenlandse eigenaren of begunstigden. Dit wordt in het algemeen behandeld als daadwerkelijk verbonden met een handel of bedrijf in de Verenigde Staten. Bekijk de instructies voor uw belastingaangifte. 
+ 
+#### <a name="nec-new-box-2"></a>NEC: nieuw vak 2 
+ 
+Als vak 2 is ingeschakeld, moet u consumentenproducten van in totaal USD 5.000 of meer aangeven die aan u zijn verkocht voor wederverkoop op basis van inkoop-verkoop, deposito-provisie of een andere basis. Over het algemeen kunt u alle inkomsten uit de verkoop van deze producten aangeven in schema C (formulier 1040). 
+ 
+De formuliergrootte van NEC is gewijzigd. Tijdens het afdrukken zijn er drie formulieren per pagina. 
+ 
+#### <a name="misc-new-box-11"></a>MISC: nieuw vak 11 
+ 
+In vak 11 wordt het bedrag weergegeven dat is betaald voor de aankoop van vis voor wederverkoop van een persoon die werkzaam is bij een visserijhandel of -bedrijf. Zie de instructies voor uw belastingaangifte voor het rapporteren van dit inkomen. 
+ 
+#### <a name="electronic-filing"></a>Elektronische aangifte 
+Zie [Publicatie voor vereisten voor elektronische aangifte](https://www.irs.gov/pub/irs-pdf/p1220.pdf) voor informatie over elektronische aangifte.
 
-- 1099-OID: het formulier is door de belastingdienst (IRS) omgezet voor continu gebruik.
-   - Het derde en vierde cijfer van het aangiftejaar moeten worden ingevuld wanneer het wordt afgedrukt. Gebruik het derde en vierde cijfer uit het veld **Aangiftejaar** onder **Afdrukopties 1099-belasting**. 
-
-- 1099-NEC: een nieuw formulier voor 2020. Hierin wordt compensatie voor niet-werknemers vastgelegd. 
-
--   1099-MISC: vanwege het nieuwe formulier heeft de belastingdienst (IRS) formulier 1099-MISC gereviseerd en de vaknummers opnieuw gerangschikt voor het aangeven van bepaalde inkomsten.
-Wijzigingen in de aangifte van inkomsten en de vaknummers van het formulier worden hieronder vermeld.
-   - De betaler heeft via directe verkoop minstens $ 5000 verdiend (selectievakje) in vak 7.
-   - Opbrengsten uit oogstverzekering worden aangegeven in vak 9.
-   - Bruto-opbrengsten voor een advocaat worden aangegeven in vak 10.
-   - Uitgestelde posten volgens sectie 409A worden aangegeven in vak 12.
-   - Inkomsten uit niet-gekwalificeerde compensatie worden in vak 14 aangegeven.
-   - In de vakken 15, 16 en 17 worden respectievelijk de ingehouden staatsbelasting, het staatidentificatienummer en het bedrag aan verdiende inkomsten in de staat vermeld.
-
-- Geen wijzigingen in 1099-DIV of 1099-INT in 2020.
-
-- Elektronische aangifte: de indeling is gewijzigd voor het nieuwe ERW-formulier en de bovenstaande wijzigingen in de MISC-vakken. Zie [IRS-publicatie 1220](https://www.irs.gov/pub/irs-pdf/p1220.pdf) voor specifieke informatie over vereisten voor elektronische aangifte.
+Update van indelingsspecificaties en recordindelingen voor elektronische aangifte over 2021 
+- Sec. 2 Uitgever "A"-record. 
+- Bedragcodes - Verhoogde veldpositie 28-45, lengte tot 18. 
+ 
+#### <a name="sec-2-issuer-a-record-for-reporting-payments-on-form-1099-div"></a>Sec. 2 Uitgever "A"-record, voor aangifte van betalingen op formulier 1099-DIV: 
+- Bedragtype – Toegevoegd Sectie 897 Gewone dividenden en toegevoegd Bedragcode H. 
+- Bedragtype – Toegevoegd Sectie 897 Vermogenswinst en toegevoegd Bedragcode J. 
+ 
+#### <a name="sec-3-payee-b-record"></a>Sec. 3 Begunstigde "B"-record 
+- Algemene informatierecords – Derde opsommingsitem is bijgewerkt van 16 naar 18 velden met betalingsbedragen. 
+- Veldtitel betaling H – Veldpositie 247-258, veldtitel, lengte en omschrijving van het algemene veld bijgewerkt. 
+- Veldtitel betaling J – Veldpositie 259-270, veldtitel, lengte en omschrijving van het algemene veld bijgewerkt. 
+- Leeg veld bijgewerkt naar veldpositie 271-286. 
+- Indicator buitenland bijgewerkt naar veldpositie 287. 
+- Veldregel met naam van eerste begunstigde bijgewerkt naar veldpositie 288-327. 
+- Veldregel met naam van tweede begunstigde bijgewerkt naar veldpositie 328-367. 
+- Posities in recordindeling, formulier 1099-MISC – Veldpositie 548 en veldtitel FATCA-indicator aangiftevereiste verwijderd. 
+- Recordindelingsposities, formulier 1099-NEC – 545-546 bijgewerkt naar leeg, veld 547 bijgewerkt met indicator voor directe verkoop, lengte en beschrijving en opmerkingen Veld 548-722 bijgewerkt naar leeg. 
+ 
+#### <a name="sec-4-end-of-issuer-c-record"></a>Sec. 4 Einde van uitgever "C"-record 
+- Veldtitel betaling H – Veldpositie 304-321, veldtitel, lengte en omschrijving van het algemene veld bijgewerkt. 
+- Veldtitel betaling L – Veldpositie 322-339, veldtitel, lengte en omschrijving van het algemene veld bijgewerkt. 
+- Veldtitel 340-499 – Lengte bijgewerkt naar 160. 
+ 
+#### <a name="sec-5-state-totals-k-record"></a>Sec. 5 Statustotalen “K”-record 
+- Veldtitel betaling H – Veldpositie 304-321, veldtitel, lengte en omschrijving van het algemene veld bijgewerkt. 
+- Veldtitel betaling L – Veldpositie 322-339, veldtitel, lengte en omschrijving van het algemene veld bijgewerkt. 
+- Veldtitel 340-499 – Lengte bijgewerkt naar 160.  
 
 ## <a name="accounts-payable-1099--how-do-i-change-the-1099-box-and-values-for-a-vendor-that-wasnt-tracking-1099-information-throughout-the-year"></a>Leveranciers: 1099 – Hoe wijzig ik het 1099-vak en waarden voor een leverancier die niet het hele jaar 1099-gegevens heeft bijhouden?
 Gebruik de functionaliteit voor het bijwerken van 1099-transacties (**Leveranciers > Leveranciers > Alle leveranciers, selecteer een leverancier, ga naar het tabblad Leverancier in het lint en selecteer 1099-formulier bijwerken**) om eerder betaalde factuurtransacties te bekijken en de 1099-gegevens correct opnieuw toe te wijzen volgens de instellingen op het tabblad **1099-belasting** op de pagina **Leverancier**.
@@ -111,7 +152,7 @@ Gebruik de functionaliteit voor het bijwerken van 1099-transacties (**Leverancie
 ## <a name="can-i-run-the-update-1099-for-all-my-vendors-at-once"></a>Kan ik de routine 1099-formulier bijwerken voor al mijn leveranciers tegelijk uitvoeren?
 Nee. De routine 1099-formulier bijwerken wordt uitgevoerd voor één leverancier tegelijk. Als deze vereiste nodig is voor uw organisatie, kunt u stemmen voor het idee [Batchproces voor update van 1099-gegevens van leverancier](https://experience.dynamics.com/ideas/idea/?ideaid=5493d608-350e-eb11-b5d9-0003ff68ded8).
 
-## <a name="accounts-payable-1099--recalculate-existing-1099-amounts-vs-update-all-in-the-update-1099-utility"></a>Leveranciers: 1099 – Bestaande 1099-bedragen opnieuw berekenen versus Alles bijwerken in het hulpprogramma 1099-formulier bijwerken.
+## <a name="accounts-payable-1099--recalculate-existing-1099-amounts-versus-update-all-in-the-update-1099-utility"></a>Leveranciers: 1099 – Bestaande 1099-bedragen opnieuw berekenen versus Alles bijwerken in het hulpprogramma 1099-formulier bijwerken
 Met het selectievakje **Bestaande 1099-bedragen opnieuw berekenen** wordt het 1099-bedrag weer ingesteld op de totaal betaalde waarden als het wordt gebruikt in combinatie met het selectievakje **Alles bijwerken**. 
 
 [![Transacties met 1099-belasting: voordat de updateroutine wordt uitgevoerd.](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)

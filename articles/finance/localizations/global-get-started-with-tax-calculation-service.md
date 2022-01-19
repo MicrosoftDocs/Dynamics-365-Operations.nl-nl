@@ -2,7 +2,7 @@
 title: Aan de slag met belastingberekening
 description: In dit onderwerp wordt uitgelegd hoe u belastingberekening instelt.
 author: wangchen
-ms.date: 10/15/2021
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,31 +15,74 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2f26f8e5eafe29e88c26d3fb6cfa950466ec6be9
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: ae2c20fe79c2f8fd8d102740441230ae443f16a3
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647429"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952516"
 ---
 # <a name="get-started-with-tax-calculation"></a>Aan de slag met belastingberekening
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp vindt u informatie over hoe u aan de slag met het berekenen van belasting. U wordt door de configuratiestappen geleid in Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance en Dynamics 365 Supply Chain Management. Vervolgens wordt gekeken naar het gemeenschappelijke proces voor het gebruik van de functies voor belastingberekening in Finance- en Supply Chain Management-transacties.
+In dit onderwerp vindt u informatie over hoe u aan de slag met het berekenen van belasting. De secties in dit onderwerp leiden u door het basisontwerp en de configuratiestappen in Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance en Dynamics 365 Supply Chain Management. 
 
-De configuratie omvat vier hoofdstappen:
+De configuratie omvat drie hoofdstappen.
 
 1. In LCS installeert u de invoegtoepassing Belastingberekening.
 2. Stel in RCS de functie Belastingberekening in. Deze instelling in niet specifiek voor een rechtspersoon. Deze kan worden gedeeld tussen rechtspersonen in Finance en Supply Chain Management.
 3. In Finance en Supply Chain Management stelt u de parameters voor Belastingberekening in per rechtspersoon.
-4. In Finance en Supply Chain Management maakt u transacties, zoals verkooporders, en gebruikt u Belastingberekening om belastingen te bepalen en te berekenen.
+
+## <a name="high-level-design"></a>Basisontwerp
+
+### <a name="runtime-design"></a>Runtime-ontwerp
+
+De volgende afbeelding toont het basis-runtime-ontwerp van Belastingberekening. Aangezien Belastingberekening met meerdere Dynamics 365-toepassingen kan worden geïntegreerd, wordt in de afbeelding de integratie met Financiën als voorbeeld gebruikt.
+
+1. Een transactie, zoals een verkoop- of inkooporder, wordt gemaakt in Financiën.
+2. Financiën gebruikt automatisch de standaardwaarden van de btw-groep en de btw-groep voor artikelen.
+3. Wanneer de knop **Btw** is geselecteerd voor de transactie, wordt de btw-berekening geactiveerd. Financiën verzendt vervolgens de nettolading naar de belastingberekeningsservice.
+4. De belastingberekeningsservice matcht de nettolading met vooraf gedefinieerde regels in de btw-functie om tegelijkertijd een nauwkeurigere btw-groep en btw-groep voor artikelen te vinden.
+
+    - Als de nettolading kan worden gematcht met de matrix **Toepasbaarheid belastinggroep**, wordt de waarde van de btw-groep overschreven met de waarde van de gematchte btw-groep in de toepasbaarheidsregel. Anders blijft de waarde van de btw-groep van Financiën worden gebruikt.
+    - Als de nettolading kan worden gematcht met de matrix **Toepasbaarheid artikelbelastinggroep**, wordt de waarde van de artikelbelastinggroep overschreven met de waarde van de gematchte artikelbelastinggroep in de toepasbaarheidsregel. Anders blijft de waarde van de artikelbelastinggroep van Financiën worden gebruikt.
+
+5. De service voor belastingberekening bepaalt de uiteindelijke belastingcodes door de intersectie van de btw-groep en de artikelbelastinggroep te gebruiken.
+6. De service voor belastingberekening berekent de belasting op basis van de uiteindelijke belastingcodes die door de service zijn bepaald.
+7. De service voor belastingberekening retourneert het resultaat van de belastingberekening aan Financiën.
+
+![Runtime-ontwerp van de belastingberekening.](media/tax-calculation-runtime-logic.png)
+
+### <a name="high-level-configuration"></a>Basisconfiguratie
+
+De volgende stappen geven een basisoverzicht van het configuratieproces voor de service voor belastingberekening.
+
+1. In LCS installeert u de invoegtoepassing **Belastingberekening** in uw LCS-project.
+2. Maak in RCS de functie **Belastingberekening**.
+3. Stel in RCS de functie **Belastingberekening** in:
+
+    1. Selecteer de belastingconfiguratieversie.
+    2. Maak belastingcodes.
+    3. Maak een belastinggroep.
+    4. Maak een belastinggroep voor artikelen.
+    5. Optioneel: maak de toepasbaarheid van belastingroepen als u de standaard btw-groep wilt overschrijven die is ingevoerd vanuit de hoofdgegevens van de klant of leverancier.
+    6. Optioneel: maak de toepasbaarheid van artikelgroepen als u de standaard btw-groep voor artikelen wilt overschrijven die is ingevoerd vanuit de artikelhoofdgegevens.
+
+4. Voltooi en publiceer in RCS de functie **Belastingberekening**.
+5. Selecteer in Financiën de gepubliceerde functie **Belastingberekening**.
+
+Nadat u deze stappen hebt voltooid, worden de volgende instellingen automatisch gesynchroniseerd van RCS naar Financiën.
+
+- Btw-codes
+- Btw-groepen
+- Btw-groepen voor artikel
+
+In de overige secties van dit onderwerp vindt u meer gedetailleerde configuratiestappen.
 
 ## <a name="prerequisites"></a>Vereisten
 
-Voordat u de procedures in dit onderwerp kunt voltooien, moet voor elk omgevingstype aan bepaalde vereisten zijn voldaan.
-
-Er moet aan de volgende vereisten zijn voldaan:
+Voordat u de resterende procedures in dit onderwerp kunt voltooien, moet aan de volgende vereisten zijn voldaan:<!--TO HERE-->
 
 - U moet toegang tot uw LCS-account hebben en u moet een LCS-project hebben geïmplementeerd met een Tier 2-omgeving (of hoger) waarop versie 10.0.21 of hoger van Dynamics 365 wordt uitgevoerd.
 - U moet een RCS-omgeving voor uw organisatie maken en u moet toegang tot uw account hebben. Zie [Overzicht Regulatory Configuration Service](rcs-overview.md) voor meer informatie over het maken van een RCS-omgeving.
@@ -72,15 +115,7 @@ De stappen in deze sectie zijn niet gerelateerd aan een specifieke rechtspersoon
 5. Selecteer in het veld **Type** de optie **Globaal**.
 6. Selecteer **Openen**.
 7. Ga naar **Belastinggegevensmodel**, vouw de bestandsstructuur uit en selecteer vervolgens **Belastingconfiguratie**.
-8. Selecteer de juiste belastingconfiguratieversie op basis van uw Finance-versie en selecteer vervolgens **Importeren**.
-
-    | Versie van release | Belastingconfiguratie                       |
-    | --------------- | --------------------------------------- |
-    | 10.0.18         | Belastingconfiguratie - Europa 30.12.82     |
-    | 10.0.19         | Belastingberekeningsconfiguratie 36.38.193 |
-    | 10.0.20         | Belastingberekeningsconfiguratie 40.43.208 |
-    | 10.0.21         | Belastingberekeningsconfiguratie 40.48.215 |
-
+8. Selecteer de juiste [belastingconfiguratieversie](global-tax-calcuation-service-overview.md#versions) op basis van uw Finance-versie en selecteer vervolgens **Importeren**.
 9. Selecteer in de werkruimte **Globalisatiefuncties** **Functies**, selecteer de tegel **Belastingberekening** en kies **Toevoegen**.
 10. Selecteer een van de volgende functietypen:
 
@@ -209,42 +244,3 @@ De configuratie in deze sectie wordt per rechtspersoon uitgevoerd. U moet dit co
 
 5. Op het tabblad **Meerdere btw-registraties** kunt u afzonderlijk de btw-aangifte, de EU-verkooplijst en Intrastat intrekken om te werken met een scenario voor meerdere btw-registraties. Zie [Aangifte van meerdere btw-registraties](emea-reporting-for-multiple-vat-registrations.md) voor meer informatie over btw-aangiftes voor meerdere btw-registraties.
 6. Sla de instellingen op en herhaal de vorige stappen voor elke extra rechtspersoon. Wanneer een nieuwe versie wordt gepublcieerd en u deze wilt toepassen, stelt u het veld **Functie-instellingen** in op het tabblad **Algemeen** van de pagina **Parameters voor belastingberekening** (zie stap 2).
-
-## <a name="transaction-processing"></a>Transacties verwerken
-
-Nadat u alle configuratieprocedures hebt voltooid, kunt u Belastingberekening gebruiken om de belasting in Finance te bepalen en te berekenen. De stappen voor het verwerken van transacties blijven hetzelfde. De volgende transacties worden ondersteund in versie 10.0.21 van Finance:
-
-- Verkoopproces
-
-    - Verkoopofferte
-    - Verkooporder
-    - Bevestiging
-    - Orderverzamellijst
-    - Pakbon
-    - Verkoopfactuur
-    - Creditnota
-    - Retourorder
-    - Kopteksttoeslag
-    - Regeltoeslag
-
-- Aankoopproces
-
-    - Inkooporder
-    - Bevestiging
-    - Ontvangstlijst
-    - Ontvangst van producten
-    - Inkoopfactuur
-    - Kopteksttoeslag
-    - Regeltoeslag
-    - Creditnota
-    - Retourorder
-    - Opdracht tot inkoop
-    - Regeltoeslag opdracht tot inkoop
-    - Offerteaanvraag
-    - Kopteksttoeslag offerteaanvraag
-    - Regeltoeslag offerteaanvraag
-
-- Voorraadproces
-
-    - Transferorder – verzenden
-    - Transferorder - ontvangen

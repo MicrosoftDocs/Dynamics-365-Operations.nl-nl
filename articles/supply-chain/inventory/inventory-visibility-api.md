@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: d676191f921d74a5a0ced934f3692dacbe7cd7b4
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 92c427d3063c34f263d5bc449be6fac695b5912d
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920095"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952622"
 ---
 # <a name="inventory-visibility-public-apis"></a>Openbare API's voor Voorraadzichtbaarheid
 
@@ -48,6 +48,8 @@ Microsoft heeft een gebruiksklare *Postman*-aanvraagverzameling geleverd. U kunt
 
 > [!NOTE]
 > Het deel {environmentId} van het pad is de omgevings-id in Microsoft Dynamics Lifecycle Services (LCS).
+> 
+> De bulk-API kan maximaal 512 records voor elke aanvraag retourneren.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Het eindpunt vinden volgens uw Lifecycle Services-omgeving
 
@@ -249,7 +251,7 @@ In het volgende voorbeeld wordt een voorbeeld gegeven van de inhoud van de hoofd
 
 ### <a name="create-multiple-change-events"></a><a name="create-multiple-onhand-change-events"></a>Meerdere wijzigingsgebeurtenissen maken
 
-Met deze API kunnen meerdere records tegelijkertijd worden gemaakt. De enige verschillen tussen deze API en de [API met één gebeurtenis](#create-one-onhand-change-event) zijn de waarden `Path` en `Body`. Voor deze API biedt `Body` een matrix van records.
+Met deze API kunnen meerdere records tegelijkertijd worden gemaakt. De enige verschillen tussen deze API en de [API met één gebeurtenis](#create-one-onhand-change-event) zijn de waarden `Path` en `Body`. Voor deze API biedt `Body` een matrix van records. Het maximum aantal records is 512, wat betekent dat de bulk-API voor wijziging van de voorhanden hoeveelheden tot 512 wijzigingsgebeurtenissen tegelijk kan ondersteunen.
 
 ```txt
 Path:

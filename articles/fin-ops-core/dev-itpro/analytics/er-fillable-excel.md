@@ -2,7 +2,7 @@
 title: Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
 description: Dit onderwerp bevat informatie over het ontwerpen van een ER-indeling (Elektronische rapportage) voor het invullen van een Excel-sjabloon en het genereren van uitgaande Excel-documenten.
 author: NickSelin
-ms.date: 12/15/2021
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 87d5929557e5120a5339ee46eac655fd399679d1
-ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
+ms.openlocfilehash: 9b1c83894d93789a270ed4521ba7f80da70285ac
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943607"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952647"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
 
@@ -379,7 +379,7 @@ Als een van de sjablonen een draaitabel bevat die is gebaseerd op een PowerPivot
     2. Gebruik ER om een tweede Excel-werkmap (werkmap B) te genereren vanuit Finance met de vereiste details. 
     3. Raadpleeg werkmap B in werkmap A zodra werkmap B is gegenereerd.
 
-- Gebruik een andere optie dan EPPlus om de functie uit te schakelen. 
+- Schakel de functie **Gebruik van EPPlus-bibliotheek inschakelen in het ER-raamwerk** uit om een andere optie dan EPPlus te gebruiken. 
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fd79880dc8aa77eea8c16f350c0853013c6ad17b
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: b104cec399a368ada64a73688c42476e6fbd9e52
+ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890825"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "7947335"
 ---
 # <a name="impair-right-of-use-assets"></a>Waarde van activa met gebruiksrecht verminderen
 
@@ -44,6 +44,8 @@ Het resterende saldo van het RoU-activum wordt lineair afgeschreven voor het aan
 
     > [!NOTE]
     > Nadat de waardeverminderingstransactie is geboekt, wordt een nieuwe boekversie gemaakt.
+
+    > Als de lease is geclassificeerd als een operationele lease, wordt de maandelijkse afschrijving na waardevermindering berekend met behulp van lineaire afschrijving.
 
 9. Als u het afschrijvingsschema voor activa met een verminderde waarde wilt weergeven, opent u het schema voor activa-afschrijvingen voor het leaseboek. Het activum wordt nu op lineaire basis afgeschreven over het aantal maanden dat u hebt ingevoerd in het veld **Resterende perioden**.
 10. Als u de journaalpost voor waardeverminderingskosten wilt weergeven, selecteert u **lActivaleasejournalen** in het actievenster van het boek voor leases met de verminderde waarde. Het systeem maakt een journaalpost die de boekingsrekening waardeverminderingsonkosten debiteert en de boekingsrekening voor de leaseactiva crediteert. 
@@ -100,6 +102,7 @@ In de volgende tabellen ziet u de waarden die zijn ingesteld op de tabbladen **A
     | Boek sluiten             | Nee       |
 
 6. Een journaalpost met waardeverminderingskosten is gemaakt en geboekt. Als u deze wilt weergeven, gaat u naar het leasingjournaal van het activum in het leaseboek. Het bedrag van de waardevermindering is gedebiteerd op de boekingsrekening onkosten waardevermindering en de boekingsrekening RoU-activum is gecrediteerd.
+
 7. Ga naar de tabellen verplichtingen en activumtransacties om het netto-effect van de waardevermindering te bekijken. De waardeverminderingskosten hebben het RoU-activum verlaagd, maar de boekwaarde van de leaseverplichtingen is niet gewijzigd.
 
 De waardevermindering heeft een ander effect waaraan u aandacht moet schenken. Omdat het bedrag van het RoU-activum nu veel kleiner is dan de leaseverplichtingen, moet het bedrag anders worden afgeschreven dan eerder. Het activum wordt nu op lineaire wijze afgeschreven gedurende de resterende 84 maanden van de lease, te beginnen op de transactiedatum.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 02364a0871e9a54f52c7c526cd1897165d52ec68
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: a766247e5482677429706a324c09cc9be4386c0b
+ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345365"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "7947310"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Afschrijving van activum met gebruiksrecht vastleggen (preview)
 
@@ -35,7 +35,7 @@ Voor leases die worden herkend op de balans van een organisatie, wordt het activ
 1. Selecteer een lease op de pagina **Leaseoverzicht**. Selecteer vervolgens **Boeken \> Afschrijvingsschema activa** om de pagina **Afschrijvingsschema activa** te openen.
 
     Het journaalpost voor afschrijvingskosten van het RoU-activum is gebaseerd op het bedrag in de kolom **Afschrijvingskosten**. Zie de sectie [Afschrijvingskosten voor RoU-activum berekenen voor financiële leases](#calculation-of-rou-asset-amortization-expense-for-finance-leases) verderop in dit onderwerp voor een voorbeeld van de richtlijnen voor de naleving van de boekhoudstandaard.
-
+    
 2. Selecteer de afschrijvingperiode en selecteer **Journaal maken**. U ontvangt een bericht met de mededeling dat het journaal dat wordt gebruikt voor het vastleggen van de afschrijving is gemaakt.
 3. Selecteer **Journalen \> Activaleasejournalen** om de pagina **Activaleasejournaal** te openen, waar u de gemaakte journaalpost voor afschrijvingskosten kunt bekijken.
 
@@ -70,6 +70,8 @@ Zoals eerder vermeld worden de lineaire leaseonkosten berekend als de som van al
 
 > [!NOTE]
 > Volgens ASC 842 wordt de afschrijving van het RoU-activum voor een operationele lease geclassificeerd als leaseonkosten op het inkomensoverzicht. Voor zichtbaarheid beschrijft de activalease de boeking als de afschrijving van het RoU-activum. De debetpost moet echter worden toegewezen aan een onkostenrekening voor operationele leases en de creditpost moet rechtstreeks worden toegewezen aan het RoU-activum voor de operationele lease. In de leaseparameters kunt u echter opgeven dat creditposten moeten worden gemaakt op een rekening voor de samengevoegde afschrijving voor RoU-activa.
+
+Als de lease is geclassificeerd als een operationele lease, wordt de maandelijkse afschrijving na waardevermindering berekend met behulp van lineaire afschrijving.
 
 ## <a name="calculation-of-rou-asset-amortization-expense-for-finance-leases"></a>Berekenen van afschrijvingskosten voor RoU-activa voor financiële leases
 
