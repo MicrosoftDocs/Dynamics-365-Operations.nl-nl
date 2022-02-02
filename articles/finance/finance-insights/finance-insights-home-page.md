@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "14151"
 - intro-internal
@@ -17,22 +17,21 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: dfc4d9cb5be4d8d287122fd33bf09b0570498169
-ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
+ms.openlocfilehash: 8cc7b2d733cdcf1adef2885b7900ea312a10d98c
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "7813742"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968781"
 ---
 # <a name="finance-insights-home-page"></a>Startpagina van Finance Insights
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Finance Insights biedt configureerbare en uitbreidbare oplossingen om u te helpen de cashflow van uw bedrijf intelligent te voorspellen, te voorspellen wanneer u mogelijk een betaling voor openstaande debiteuren ontvangt en een budgetvoorstel te genereren waarmee het budgetproces kan worden versneld. Deze functies maken gebruik van intelligente machine learning-sjablonen om modellen samen te bouwen met gegevens die u verstrekt (inclusief gegevens van derden, zoals informatie over consumentenrapports van een bureau). Met deze intelligente mogelijkheden wordt de besluitvorming bevorderd en kunt u actie ondernemen om effectief op huidige en verwachte zakelijke activiteiten te reageren. U bent verantwoordelijk voor alle gegevens die worden gebruikt met of uitgevoerd vanuit Finance insights.
 
 > [!NOTE]
-> De openbare preview van Finance Insights is beschikbaar voor implementatie in de Verenigde Staten, Canada, het Verenigd Koninkrijk, Europa, Azië/Pacific, Japan, Australië en Nieuw-Zeeland. Microsoft voegt incrementeel ondersteuning toe voor meer regio's.
+> Finance Insights is beschikbaar voor implementatie in de Verenigde Staten, Canada, het Verenigd Koninkrijk, Europa, Azië/Pacific, Japan, Australië en Nieuw-Zeeland. Microsoft voegt incrementeel ondersteuning toe voor meer regio's.
 
 ## <a name="prerequisites"></a>Vereisten
 

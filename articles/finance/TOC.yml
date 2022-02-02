@@ -4,6 +4,30 @@
       items:
         - name: Startpagina van Dynamics 365 Finance
           href: index.md
+        - name: Nieuwe of gewijzigde functies
+          items:
+            - name: Nieuw of gewijzigd in Finance and Operations-apps
+              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
+            - name: Nieuwe of gewijzigde functies in Finance
+              items:
+                - name: Startpagina voor nieuwe of gewijzigde functies in Finance
+                  href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.24 (februari)
+                  href: get-started/whats-new-changed-10-0-24.md
+                - name: Finance 10.0.23 (januari)
+                  href: get-started/whats-new-changed-10-0-23.md
+            - name: Verwijderde of afgeschafte functies
+              items:
+                - name: Startpagina voor verwijderde of afgeschafte functies
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
+                - name: Verwijderde of afgeschafte functies in Dynamics 365 Finance
+                  href: get-started/removed-deprecated-features-finance.md
+                - name: Verwijderde of afgeschafte functies in eerdere releases
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
+            - name: AX 2012-functies die zijn uitgesteld
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
+            - name: Einde van basisondersteuning voor Microsoft Dynamics AX 2009 en 2012
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
         - name: Aan de slag
           items:
             - name: Beschrijving van service
@@ -62,32 +86,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Magazijnbeheer configureren voor on-premises implementaties
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-            - name: Nieuwe of gewijzigde functies
-              items:
-                - name: Nieuwe of gewijzigde functies in Finance and Operations-apps
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-                - name: Nieuwe of gewijzigde functies in Finance
-                  items:
-                    - name: Startpagina voor nieuwe of gewijzigde functies in Finance
-                      href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.24 (februari)
-                      href: get-started/whats-new-changed-10-0-24.md
-                    - name: Finance 10.0.23 (januari)
-                      href: get-started/whats-new-changed-10-0-23.md
-                    - name: Finance 10.0.22 (november 2021)
-                      href: get-started/whats-new-changed-10-0-22.md
-            - name: Verwijderde of afgeschafte functies
-              items:
-                - name: Startpagina voor verwijderde of afgeschafte functies
-                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
-                - name: Verwijderde of afgeschafte functies in Dynamics 365 Finance
-                  href: get-started/removed-deprecated-features-finance.md
-                - name: Verwijderde of afgeschafte functies in eerdere releases
-                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
-            - name: AX 2012-functies die zijn uitgesteld
-              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
-            - name: Einde van basisondersteuning voor Microsoft Dynamics AX 2009 en 2012
-              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
             - name: Documentatiebronnen
               items:
                 - name: Help-systeem
@@ -836,6 +834,8 @@
                   href: asset-leasing/set-up-lease-books.md
                 - name: Een leasegroep maken
                   href: asset-leasing/create-lease-group.md
+                - name: Type betalingsbedrag
+                  href: asset-leasing/Payment-amount-type.md
                 - name: Indextarieven instellen
                   href: asset-leasing/set-up-index-rate-types.md
                 - name: Onkostentypen instellen
@@ -1460,6 +1460,8 @@
                           href: localizations/tax-calculation-import-export-feature.md
                         - name: Een omgeving instellen voor het opzoeken van hoofdgegevens
                           href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                        - name: De belastinginstellingen van Service voor belastingberekening synchroniseren met Finance
+                          href: localizations/global-master-data-sync-tax-calculation-service-finance.md
                     - name: Vaststelling
                       items:
                         - name: Gegevensmodel voor belastingberekening
@@ -1491,7 +1493,7 @@
                         - name: Rapportage voor Duitsland
                           items:
                             - name: Btw-aangifte
-                              href: /localizations/emea-deu-vat-declaration-germany.md
+                              href: localizations/emea-deu-vat-declaration-germany.md
                         - name: Rapportage voor Nederland
                           items:
                             - name: Btw-aangifte
@@ -1502,6 +1504,8 @@
                           items:
                             - name: 'Directe levering van informatie over btw (Suministro Inmediato de Información del IVA, SII)'
                               href: localizations/emea-esp-sii-spain.md
+                            - name: Btw-aangifte
+                              href: localizations/emea-esp-vat-declaration-spain.md
                         - name: Rapportage voor Zweden
                           items:
                             - name: Btw-aangifte
@@ -1536,6 +1540,8 @@
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
             - name: Wettelijk voorgeschreven updates
               href: localizations/regulatory-updates.md
+            - name: Zoeken naar wettelijke updates
+              href: localizations/search-for-regulatory-updates.md
             - name: Australië
               items:
                 - name: Overzicht Australië
@@ -1754,6 +1760,8 @@
                   href: localizations/tasks/br-00066-1-set-up-interest-fines-customer-payments.md
                 - name: Rente en boetes berekenen voor klantbetalingen
                   href: localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
+                - name: Bankrekeningnummers instellen voor Brazilië
+                  href: localizations/latam-bra-bank-account-number-setup-brazil-localization.md
                 - name: Belastingen
                   items:
                     - name: Overzicht van belastingen voor Brazilië
@@ -1782,6 +1790,8 @@
                       href: localizations/tasks/br-10001-2-set-up-adjustment-codes-icms-taxes-fiscal-documents.md
                     - name: 'Proces voor aanvulling en teruggave van ICMS-ST aangifte voor de staten RS, SC en SP'
                       href: localizations/latam-bra-complement-restitution.md
+                    - name: Basiswijziging in de berekeningen van ICMS-DIF-belasting voor producten van leveranciers in andere staten
+                      href: localizations/latam-brazil-basis-change-ICMS-DIF-tax-calculation-products-suppliers-other-states.md
                     - name: Correctiecodes voor IPI-belastingen instellen
                       href: localizations/tasks/br-10004-1-set-up-adjustment-codes-ipi-taxes.md
                     - name: Vaste activa voor PIS en COFINS
@@ -1884,6 +1894,8 @@
                   href: localizations/emea-cze-vat-statement-details.md
                 - name: Btw-aangifte (Tsjechische Republiek)
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
+                - name: Tsjechische Intrastat
+                  href: localizations/emea-cze-intrastat.md
                 - name: Banksymbolen voor bankrekeningen
                   href: localizations/emea-cze-specify-bank-symbols-for-bank-accounts.md
                 - name: Intracommunautaire btw
@@ -1916,6 +1928,8 @@
                   href: localizations/tasks/set-up-oioubl-electronic-invoicing.md
                 - name: Indeling betalingsbon instellen
                   href: localizations/tasks/set-up-payment-slip-format.md
+                - name: Deense Intrastat
+                  href: localizations/emea-dnk-intrastat.md
             - name: Egypte
               items:
                 - name: Overzicht Egypte
@@ -1938,6 +1952,8 @@
                   href: localizations/emea-est-personal-info.md
                 - name: Btw-overzicht
                   href: localizations/emea-est-vat-statement-details.md
+                - name: Estische Intrastat
+                  href: localizations/emea-est-intrastat.md
             - name: Europa
               items:
                 - name: Overzicht Europa
@@ -2084,6 +2100,8 @@
                       href: localizations/emea-vat-reporting.md
                     - name: Btw-rapport maken en indienen
                       href: localizations/tasks/create-submit-vat-report.md
+                    - name: Datum van btw-register leverancier
+                      href: localizations/emea-date-vendor-vat-register.md
                 - name: Transacties weergeven bij vereffening
                   href: localizations/emea-transactions-settlement-form.md
                 - name: Financiële reden
@@ -2872,6 +2890,8 @@
                   href: localizations/emea-lva-tax-natural-resources.md
                 - name: Details btw-overzicht
                   href: localizations/emea-lva-vat-statement-details.md
+                - name: Letse Intrastat
+                  href: localizations/emea-lva-intrastat.md
             - name: Litouwen
               items:
                 - name: Overzicht Litouwen
@@ -3060,6 +3080,8 @@
                       href: localizations/emea-pol-vdek-reporting.md
                     - name: Details van specifieke zakelijke scenario's in het JPK-V7M-rapport
                       href: localizations/emea-pol-vdek-scenarios.md
+                - name: Betalingsvoorwaarden in rapport met commerciële transacties
+                  href: localizations/emea-pol-payment-terms-report.md
             - name: Qatar
               items:
                 - name: Overzicht Qatar
@@ -3352,10 +3374,12 @@
                   href: localizations/emea-esp-print-checks-with-spanish-layout.md
                 - name: Opties voor promessen
                   href: localizations/emea-esp-promissory-note-options.md
-                - name: 340-aangifte
+                - name: Rapport 340
                   href: localizations/emea-esp-report-340.md
                 - name: 347-aangifterapport
                   href: localizations/emea-esp-declaration-347-report.md
+                - name: Btw-aangifte 303
+                  href: localizations/emea-esp-vat-declaration-spain.md
                 - name: Verkoop- en inkoopcycli
                   href: localizations/emea-esp-sales-purchase-cycle.md
                 - name: Speciale boekingen en openingsbladen
@@ -3466,6 +3490,8 @@
           items:
             - name: Overzicht van Human Resources
               href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
+            - name: Infrastructuurrelease 10.0.25
+              href: ../human-resources/hr-infrastructure.md?toc=/dynamics365/finance/toc.json
             - name: Human Resources instellen
               items:
                 - name: Human Resources-parameters configureren
@@ -3473,7 +3499,7 @@
                 - name: Gedeelde Human Resources-parameters onderhouden
                   href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
                 - name: Werkstromen voor Human Resources instellen
-                  href: /dynamics365/finance/hr-workflow-manage-employee-information?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
                 - name: Datum- en tijdvelden begrijpen
                   href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
             - name: Personeelsbeheer

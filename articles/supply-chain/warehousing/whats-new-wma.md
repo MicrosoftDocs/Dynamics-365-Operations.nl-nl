@@ -2,7 +2,7 @@
 title: Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
 description: In dit onderwerp worden de nieuwe en gewijzigde functies genoemd voor elke vrijgegeven versie van de mobiele app Warehouse Management voor Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 09/09/2021
+ms.date: 01/18/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,51 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9d50c1380418365f7c51d6b96051e9ea68a5f104
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 6f45cacd7f43c8caf836fd1ea24d354e4bcf5853
+ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901883"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8007569"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 In dit onderwerp worden de nieuwe functies, oplossingen, verbeteringen en bekende problemen genoemd voor elke vrijgegeven versie van de mobiele app Warehouse Management voor Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20140"></a>Versie 2.0.14.0
+
+Deze versie bevat de volgende nieuwe functies, verbeteringen en oplossingen voor fouten:
+
+- Het probleem opgelost dat de standaardknop Indienen werd uitgeschakeld.
+
+## <a name="version-20130"></a>Versie 2.0.13.0
+
+Deze versie bevat de volgende nieuwe functies, verbeteringen en oplossingen voor fouten:
+ 
+- Verbeterd bladeren tussen pagina's met soepelere animatie.
+- Niet-intuïtieve reacties bij swipen en vastlopen van scherm opgelost.
+- Verbeterde kleurencombinaties van tekst in de donkere modus en achtergrond voor een betere leesbaarheid.
+- Een probleem opgelost waarbij een bepaalde tekst erg klein werd bij het wijzigen van het formaat van het appvenster.
+- Een probleem opgelost waarbij de app soms vastloopt bij het scannen van streepjescodes.
+- De mogelijkheid toegevoegd om een schuifregelaar door een knop te vervangen.
+- Een probleem opgelost dat dit foutbericht in de app wordt weergegeven: "AADSTS7000215: ongeldig clientgeheim opgegeven."
+- Animatie voor hint aangepast voor het weergeven hoe u een pagina sluit door naar beneden te vegen.
+- De mogelijkheid toegevoegd om een pagina af te sluiten met een gebaar voor naar beneden vegen.
+- Een probleem opgelost waarbij de vervolgkeuzelijsttitels niet werden weergegeven op de pagina **Gebruikersinstellingen**.
+- Een lokalisatieprobleem opgelost waarbij de app geen komma's (,) als decimaal scheidingsteken herkent.
+- Verbeterde toegankelijkheid.
+- De navigatie opgelost op de pagina **Nieuwe verbinding** om de toegankelijkheid te verbeteren.
+- Een probleem opgelost waarbij het schermtoetsenbord niet werd weergegeven bij het selecteren van een invoerveld.
+- Een probleem opgelost waarbij de app vastliep als gebruikers de vensterafmetingen snel wijzigen.
+- Een probleem opgelost waarbij een korte druk op een toets soms werd geïnterpreteerd als een lange druk.
+- Een probleem opgelost waarbij de app-indeling beschadigd kon raken als gevolg van veldaanpassingen in Supply Chain Management.
+- Een probleem opgelost waarbij artikellocaties niet juist werden weergegeven.
+- Een probleem opgelost met betrekking tot het verzamelen voor de werkstroom voor productvarianten.
+- Onnodige validatie van velden met vooraf ingestelde standaardwaarden verwijderd.
+- Prestaties verbeterd.
+- Een nieuwe instelling toegevoegd waarmee gebruikers kunnen kiezen hoe velden worden gefilterd en besteld op de kaartpagina.
 
 ## <a name="version-20110"></a>Versie 2.0.11.0
 

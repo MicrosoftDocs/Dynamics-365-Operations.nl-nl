@@ -3,21 +3,20 @@ title: Overzicht van twee keer wegschrijven
 description: Dit onderwerp biedt een overzicht van twee keer wegschrijven wat een near-realtime interactie biedt tussen Customer Engagement- en Finance and Operations-apps.
 author: RamaKrishnamoorthy
 ms.date: 02/06/2020
-ms.topic: article
+ms.topic: overview
 audience: Application User, IT Pro
 ms.reviewer: tfehr
-ms.custom: intro-internal
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 131c002000ee6ebed81a23f45ce17b7a7fff0b95
-ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
+ms.openlocfilehash: e71d1496da24b21949259e8f43a32cd4ff60249c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7817356"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984136"
 ---
-# <a name="dual-write-overview"></a>Overzicht van twee keer wegschrijven
+# <a name="dual-write-overview"></a>Overzicht van Twee keer wegschrijven
 
 [!include [banner](../../includes/banner.md)]
 
@@ -50,7 +49,7 @@ De infrastructuur voor twee keer wegschrijven is uitbreidbaar en betrouwbaar en 
 + Betrouwbaar levenscyclusbeheer voor toepassingen
 + Kant-en-klare instelling voor nieuwe klanten
 
-### <a name="application"></a>Aanvraag
+### <a name="application"></a>Toepassing
 
 Met twee keer wegschrijven worden concepten in Finance and Operations-apps gekoppeld aan concepten in Customer Engagement-apps. Deze integratie ondersteunt de volgende scenario's:
 

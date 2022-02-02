@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 7434c2ed486fe0546a746afdd2c4c4aacdcc3d5c
-ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
+ms.openlocfilehash: eaafe8d98049cb8838317396f28e9d6ca720a677
+ms.sourcegitcommit: 08dcbc85e372d4e4fb3ba64389f6d5051212c212
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7817283"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "8015710"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Bijwerken naar het model voor partij en globaal adresboek
 
@@ -24,7 +24,7 @@ ms.locfileid: "7817283"
 
 De [Microsoft Azure Data Factory-sjablonen](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema) helpen u bij het upgraden van de volgende bestaande gegevens met twee keer wegschrijven naar het partij- en globale adresboekmodel: gegevens in de tabellen **Account**, **Contactpersoon** en **Leverancier** en post- en elektronische adressen.
 
-De volgende drie Data Factory-sjablonen zijn beschikbaar. Zij helpen de gegevens van zowel Finance and Operations-apps als apps voor klantbetrokkenheid op elkaar afstemmen.
+De volgende drie Data Factory-sjablonen zijn beschikbaar. Met de sjabloon worden de gegevens van zowel Finance and Operations-apps als apps voor klantbetrokkenheid afgestemd.
 
 - **[Partijsjabloon](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/arm_template.json) (Upgrade data to dual-write Party-GAB schema/arm_template.json)**: deze sjabloon helpt bij het bijwerken van gegevens van het type **Partij** en **Contactpersoon** die zijn gekoppeld aan gegevens in de tabellen **Account**, **Contactpersoon** en **Leverancier**.
 - **[Sjabloon Postadres van partij](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Postal%20Address%20-%20GAB/arm_template.json) (Upgrade data to dual-write Party-GAB schema/Upgrade to Party Postal Address - GAB/arm_template.json)**: met deze sjabloon kunt u de postadressen bijwerken die zijn gekoppeld aan gegevens in de tabellen **Account**, **Contactpersoon** en **Leverancier**.
@@ -34,16 +34,16 @@ Aan het einde van het proces worden de volgende CSV-bestanden (Comma Separated V
 
 | Bestandsnaam | Doel |
 |---|---|
-| FONewParty.csv | Met dit bestand kunt u van nieuwe records **Partij** maken binnen de Finance and Operations-app. |
-| ImportFONewPostalAddressLocation.csv | Met dit bestand kunt u nieuwe records **Postadreslocatie** maken in de Finance and Operations-app. |
-| ImportFONewPartyPostalAddress.csv | Met dit bestand kunt u nieuwe records **Partijpostadres** maken in de Finance and Operations-app. |
-| ImportFONewPostalAddress.csv | Met dit bestand kunt u nieuwe records **Postadres** maken in de Finance and Operations-app. |
-| ImportFONewElectronicAddress.csv | Met dit bestand kunt u nieuwe records **Elektronisch adres** maken in de Finance and Operations-app. |
+| FONewParty.csv | Met dit bestand kunt u nieuwe **Partij**-records maken in de Finance and Operations-app. |
+| ImportFONewPostalAddressLocation.csv | Met dit bestand kunt u nieuwe **Postadreslocatie**-records maken in de Finance and Operations-app. |
+| ImportFONewPartyPostalAddress.csv | Met dit bestand kunt u nieuwe **Partijpostadres**-records maken in de Finance and Operations-app. |
+| ImportFONewPostalAddress.csv | Met dit bestand kunt u nieuwe **Postadres**-records maken in de Finance and Operations-app. |
+| ImportFONewElectronicAddress.csv | Met dit bestand kunt u nieuwe **Elektronische adres**-records maken in de Finance and Operations-app. |
 
 In dit onderwerp wordt uitgelegd hoe u de Data Factory-sjablonen kunt gebruiken en uw gegevens kunt upgraden. Als u geen aanpassingen hebt, kunt u de sjablonen ongewijzigd gebruiken. Als u echter aanpassingen hebt voor gegevens van het type **Account**, **Contactpersoon** en **Leverancier**, moet u de sjablonen wijzigen zoals beschreven in dit onderwerp.
 
 > [!IMPORTANT]
-> Er zijn speciale instructies als u de sjablonen voor postadressen voor partijen en elektronische adressen voor partijen gaat uitvoeren. U moet eerst de sjabloon voor de partij uitvoeren, daarna de sjabloon voor het postadres van de partij en vervolgens de sjabloon voor het elektronisch adres van de partij.
+> Er zijn speciale instructies voor het uitvoeren van de sjablonen voor postadressen voor partijen en elektronische adressen voor partijen. U moet eerst de sjabloon voor de partij uitvoeren, daarna de sjabloon voor het postadres van de partij en vervolgens de sjabloon voor het elektronisch adres van de partij. Elke sjabloon is ontworpen om in een afzonderlijke data factory te worden geïmporteerd.
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -61,7 +61,7 @@ Voor een upgrade moet u de volgende voorbereidingen treffen:
 + **Integratiesleutels:** de tabellen **Account (klant)**, **Contactpersoon** en **Leverancier** in apps voor klantbetrokkenheid gebruiken de integratiesleutels die met het product worden meegeleverd. Als u de integratiesleutels hebt aangepast, moet u de sjabloon aanpassen.
 + **Partijnummer:** alle records uit de tabellen **Account (klant)**, **Contactpersoon** en **Leverancier** die worden bijgewerkt, hebben een partijnummer. Records zonder partijnummer worden genegeerd. Als u deze records wilt upgraden, voegt u er een partijnummer aan toe voordat u het upgradeproces start.
 + **Systeemstoring:** tijdens het upgradeproces moet u de Finance and Operations-omgeving en de omgeving voor klantbetrokkenheid offline halen.
-+ **Momentopname:** maak een momentopname van de Finance and Operations-apps en de apps voor klantbetrokkenheid. U kunt vervolgens de momentopnamen om de vorige toestand te herstellen als dat nodig is.
++ **Momentopname**: maak een momentopname van zowel Finance and Operations- als Customer Engagement-apps. U kunt vervolgens de momentopnamen om de vorige toestand te herstellen als dat nodig is.
 
 ## <a name="deployment"></a>Implementatie
 
@@ -142,7 +142,7 @@ In deze sectie worden de instellingen beschreven die vereist zijn voordat u de D
 
     | Nummer | Name | Type | Waarde |
     |---|---|---|---|
-    | 1 | IsFOSource | bool | Deze parameter bepaalt welke primaire systeemadressen bij conflicten worden vervangen. Als de waarde **waar** is, vervangen de primaire adressen in Finance and Operations-apps de primaire adressen in apps voor klantbetrokkenheid. Als de waarde **onwaar** is, vervangen de primaire adressen in apps voor klantbetrokkenheid de primaire adressen in Finance and Operations-apps. |
+    | 1 | IsFOSource | bool | Deze parameter bepaalt welke primaire systeemadressen bij conflicten worden vervangen. Als de waarde **waar** is, vervangen de primaire adressen in Finance and Operations-apps de primaire adressen in apps voor klantbetrokkenheid. Als de waarde **onwaar** is, vervangen de primaire adressen in Customer Engagement-apps de primaire adressen in Finance and Operations-apps. |
     | 2 | ElectronicAddressIdPrefix | tekenreeks | Met deze parameter wordt een serienummer als voorvoegsel aan nieuwe elektronische adressen toegevoegd. Zorg ervoor dat u een tekenreeks opgeeft die geen conflict veroorzaakt met elektronische adressen in Finance and Operations-apps en apps voor klantbetrokkenheid. Gebruik bijvoorbeeld **ADF-EAD-**. |
 
     ![Algemene parameters IsFOSource en ElectronicAddressIdPrefix worden gemaakt op het tabblad Beheren.](media/ADF-4.png)
@@ -161,7 +161,7 @@ In deze sectie worden de instellingen beschreven die vereist zijn voordat u de D
 
 2. Zorg ervoor dat de kaarten worden verwijderd uit de tabel **msdy_dualwriteruntimeconfig** in Dataverse.
 3. Installeer [de oplossingen voor twee keer wegschrijven naar Partij en Globaal adresboek](https://aka.ms/dual-write-gab) uit AppSource.
-4. Als de volgende tabellen gegevens bevatten, voert u in de Finance and Operations-app de optie **Initiële synchronisatie** uit:
+4. Als de volgende tabellen gegevens bevatten in de Finance and Operations-app, moet u **Initiële synchronisatie** uitvoeren:
 
     + Aanhef
     + Persoonlijke karaktertypen
@@ -275,7 +275,7 @@ In deze sectie worden de instellingen beschreven die vereist zijn voordat u de D
 
     ![De sjablonen voor het postadres van de partij en het elektronische adres van de partij uitvoeren.](media/ADF-7.png)
 
-10. Als u de Finance and Operations-app met deze gegevens wilt bijwerken, moet u de CSV-bestanden converteren naar een Excel-werkmap en [deze importeren in de Finance and Operations-app](/data-entities/data-import-export-job). Als de CSV-import voor u werkt, kunt u ook de CSV-bestanden rechtstreeks importeren. Het kan enkele uren duren voordat deze stap is voltooid, afhankelijk van het volume.
+10. Als u de Finance and Operations-app met deze gegevens wilt bijwerken, moet u de CSV-bestanden converteren naar een Excel-werkmap en deze [importeren in de Finance and Operations-app](/data-entities/data-import-export-job). Als de CSV-import voor u werkt, kunt u ook de CSV-bestanden rechtstreeks importeren. Het kan enkele uren duren voordat deze stap is voltooid, afhankelijk van het volume.
 
     ![Geslaagde import.](media/ADF-8.png)
 

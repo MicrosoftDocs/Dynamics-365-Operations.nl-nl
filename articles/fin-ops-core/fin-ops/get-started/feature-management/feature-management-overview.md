@@ -1,29 +1,28 @@
 ---
 title: Overzicht functiebeheer
-description: Dit onderwerp bevat een beschrijving van de functie Functiebeheer en de manier waarop u deze kunt gebruiken.
+description: Dit onderwerp bevat een beschrijving van Functiebeheer en de manier waarop u deze kunt gebruiken.
 author: Peakerbl
-ms.date: 09/13/2021
-ms.topic: article
+ms.date: 01/10/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: IT Pro, Application user
 ms.reviewer: sericks
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 1318093d66cfc30a04815311cce332df010d4b69
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 6605fe68576ce80726438b60c1f1fbf3782d0934
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488173"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984454"
 ---
-# <a name="feature-management-overview"></a>Overzicht van Functiebeheer
+# <a name="feature-management-overview"></a>Overzicht functiebeheer
 
 [!include [banner](../../includes/banner.md)]
 
@@ -75,9 +74,9 @@ Functies die worden bijgewerkt naar **Standaard ingeschakeld** worden standaard 
 > [!NOTE]
 > Omdat deze functies automatisch worden ingeschakeld, is het van belang dat u bepaalt of uw organisatie gereed is om deze functies te gaan gebruiken of dat er meer tijd nodig is. Als er meer tijd nodig is, kan het nodig zijn om deze functies tijdelijk uit te schakelen. De overgang van een functie naar **Standaard ingeschakeld** wordt meestal uitgevoerd in de hoofdversie voordat de functie **Verplicht** wordt. Op dat moment hebt u niet de mogelijkheid om de functie uit te schakelen. 
 
-### <a name="released-features-mandatory"></a>Vrijgegeven functies (verplicht)
+### <a name="mandatory"></a>Verplicht
 
-**Vrijgegeven** is de definitieve status voor functies. Hiermee wordt aangegeven dat de functies zijn ingeschakeld en dat u deze niet kunt uitschakelen zonder contact op te nemen met Microsoft. Van optionele functies wordt verwacht dat ze na twee hoofdversies verplicht worden. Kritieke functies kunnen bij uitzondering worden ingevoerd als verplicht.
+**Verplicht** is de verwachte uiteindelijke status voor functies. Hiermee wordt aangegeven dat de functies zijn ingeschakeld en dat u deze niet kunt uitschakelen zonder contact op te nemen met Microsoft. Van optionele functies wordt verwacht dat ze na twee hoofdversies verplicht worden. Kritieke functies kunnen bij uitzondering worden ingevoerd als verplicht.
 
 ## <a name="example-of-expected-feature-lifecycles"></a>Voorbeeld van verwachte levenscycli van functies
 

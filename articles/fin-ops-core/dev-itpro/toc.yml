@@ -2,24 +2,22 @@
   items:
     - name: Ontwikkeling en beheer voor Finance and Operations-apps
       items:
-        - name: Documentatie voor Finance and Operations-apps
+        - name: Documentatie over Finance and Operations-apps
           href: ../fin-ops/index.md
         - name: Ontwikkeling en beheer voor Finance and Operations-apps
           href: index.md
         - name: Nieuwe of gewijzigde functies
           items:
-            - name: Nieuwe of gewijzigde functies in Finance and Operations-apps
+            - name: Nieuw of gewijzigd in Finance and Operations-apps
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Nieuwe of gewijzigde functies in Platform updates
               items:
-                - name: Startpagina voor nieuwe of gewijzigde functies in Platform-updates
+                - name: Startpagina voor nieuwe of gewijzigde functies in Platform updates
                   href: get-started/whats-new-home-page.md
                 - name: Platform-updates voor versie 10.0.24 (februari 2022)
                   href: get-started/whats-new-platform-updates-10-0-24.md
                 - name: Platform-updates voor versie 10.0.23 (januari 2022)
                   href: get-started/whats-new-platform-updates-10-0-23.md
-                - name: Platform-updates voor versie 10.0.22 (november 2021)
-                  href: get-started/whats-new-platform-updates-10-0-22.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -72,7 +70,7 @@
                   href: data-entities/recurring-integrations.md
                 - name: Services testen met hulpprogramma's van derden
                   href: data-entities/third-party-service-test.md
-            - name: Finance and Operations-connector
+            - name: Connector Finance and Operations
               href: data-entities/fin-ops-connector.md
             - name: Ontwikkeling voor integratie
               items:
@@ -96,9 +94,9 @@
                       items:
                         - name: Van prospect tot contant geld
                           href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                        - name: Rekeningen in Sales rechtstreeks synchroniseren met klanten in Finance and Operations
+                        - name: Accounts in Sales rechtstreeks synchroniseren met klanten in Finance and Operations
                           href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                        - name: Producten in Finance and Operations rechtstreeks synchroniseren met producten in Sales
+                        - name: Producten van Finance and Operations rechtstreeks synchroniseren met producten in Sales
                           href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
                         - name: Contactpersonen in Sales rechtstreeks synchroniseren met contactpersonen of klanten in Finance and Operations
                           href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
@@ -112,7 +110,7 @@
                       items:
                         - name: Overzicht van Integratie met Field Service configureren
                           href: ../../supply-chain/sales-marketing/field-service.md
-                        - name: Producten in Finance and Operations synchroniseren met producten in Field Service
+                        - name: Producten van Finance and Operations synchroniseren met producten in Field Service
                           href: ../../supply-chain/sales-marketing/field-service-product.md
                         - name: Werkorders in Field Service synchroniseren met verkooporders in Finance and Operations
                           href: ../../supply-chain/sales-marketing/field-service-work-order.md
@@ -128,7 +126,7 @@
                           href: ../../supply-chain/sales-marketing/synchronize-project-list.md
                         - name: Magazijnen van Finance and Operations synchroniseren met Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                        - name: Werkorders met projecten synchroniseren vanuit Field Service naar Finance and Operations
+                        - name: Werkorders synchroniseren met project van Field Service naar Finance and Operations
                           href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
                     - name: Project Service Automation-integratie configureren
                       items:
@@ -336,7 +334,7 @@
                   href: deployment/arm-onbarding-us-goverment.md
                 - name: Azure ExpressRoute en Finance and Operations
                   href: deployment/expressroute.md
-                - name: Finance and Operations-architectuur
+                - name: Architectuur voor Finance and Operations
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Updates toepassen op cloudomgevingen
                   href: deployment/apply-deployable-package-system.md
@@ -360,7 +358,7 @@
                       href: deployment/on-premises-overview.md
                     - name: On-premises implementaties plannen en voorbereiden
                       href: deployment/plan-onprem-deployment.md
-                    - name: Door Microsoft Dynamics 365 Finance + Operations (on-premises) ondersteunde software
+                    - name: Voor Microsoft Dynamics 365 Finance + Operations (on-premises) ondersteunde software
                       href: deployment/onprem-compatibility.md
                     - name: Vereisten voor omvang hardware
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
@@ -406,7 +404,7 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Hetzelfde AD FS-exemplaar hergebruiken voor meerdere omgevingen
                       href: deployment/onprem-reuseadfs.md
-                    - name: Het SQL Server-exemplaar van omgevingen met Microsoft Dynamics 365 Finance + Operations (on-premises) upgraden
+                    - name: Het SQL Server-exemplaar van Microsoft Dynamics 365 Finance + Operations (on-premises)-omgevingen upgraden
                       href: deployment/onprem-upgrade-sqlserver.md
                 - name: Lokale agent
                   items:
@@ -1054,6 +1052,8 @@
                           href: data-entities/dual-write/link-your-environment.md
                         - name: Entiteitstoewijzing voor twee keer wegschrijven inschakelen
                           href: data-entities/dual-write/enable-entity-map.md
+                    - name: Afzonderlijk Application Orchestration-pakket voor twee keer wegschrijven
+                      href: data-entities/dual-write/separated-solutions.md
                     - name: Migratie van valutagegevenstype voor twee keer wegschrijven
                       href: data-entities/dual-write/currrency-decimal-places.md
                     - name: De toewijzing instellen voor de verkooporderstatusvelden
@@ -1156,7 +1156,7 @@
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
                         - name: Problemen met live synchronisatie oplossen
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                        - name: Problemen met twee keer wegschrijven in Finance and Operations-apps oplossen
+                        - name: Problemen met twee keer wegschrijven oplossen in de toepassingen Finance and Operations
                           href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                         - name: Problemen met partij en globaal adresboek oplossen
                           href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
@@ -1164,7 +1164,7 @@
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
                         - name: Problemen met upgrades van Finance and Operations-apps oplossen
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: Configuratie van twee keer wegschrijven in Finance and Operations-apps en Dataverse verifiëren
+                        - name: Configuratie voor twee keer wegschrijven verifiëren in Finance and Operations-apps en Dataverse
                           href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                         - name: Foutcodes voor de statuscontrole van de tabeltoewijzing
                           href: data-entities/dual-write/table-map-health-check.md
@@ -1184,7 +1184,7 @@
                   href: power-platform/enable-virtual-entities.md
                 - name: Power Apps-portals met Finance and Operations
                   href: power-platform/power-portal-reference.md
-                - name: Veelgestelde vragen over virtuele entiteiten in Finance and Operations
+                - name: Veelgestelde vragen over virtuele entiteiten van Finance and Operations
                   href: power-platform/faq.md
             - name: Zakelijke gebeurtenissen
               items:
@@ -1530,11 +1530,11 @@
               href: lifecycle-services/lcs-support.md
             - name: Overzicht van Dynamics 365-ondersteuning
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: Ondersteuning krijgen voor Finance and Operations geëxploiteerd door 21Vianet in China
+            - name: Ondersteuning verkrijgen voor Finance and Operations geëxploiteerd door 21Vianet in China
               href: lifecycle-services/21vianet-support.md
             - name: Technische ondersteuning instellen voor Finance and Operations-apps
               href: lifecycle-services/support-experience.md
-            - name: Ervaringen met ondersteuning voor Finance and Operations-apps beheren
+            - name: Ondersteuningservaringen met Finance and Operations-apps beheren
               href: lifecycle-services/cloud-powered-support-lcs.md
             - name: Productieondersteuning en -controle
               href: ../fin-ops/imp-lifecycle/production-support-monitoring.md

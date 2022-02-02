@@ -1,6 +1,6 @@
 ---
-title: Configuratie voor Finance insights in openbare preview (preview) - versie 10.0.20 en hoger
-description: In dit onderwerp wordt uitgelegd hoe u uw systeem configureert voor gebruik van de mogelijkheden die beschikbaar zijn in Finance Insights voor openbare preview in versie 10.0.20 en hoger.
+title: Configuratie voor Finance Insights - versie 10.0.20 en hoger
+description: In dit onderwerp wordt uitgelegd hoe u uw systeem configureert voor gebruik van de mogelijkheden die beschikbaar zijn in Finance Insights in versie 10.0.20 en hoger.
 author: ShivamPandey-msft
 ms.date: 06/16/2021
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 7e5752b8deffbd2694193494652a0ff808ecbfb0
-ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.openlocfilehash: 8ff20334445fba1db435d7005c4ca9ba18f97f72
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7927399"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968957"
 ---
-# <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>Configuratie voor Finance insights in openbare preview (preview) - versie 10.0.20 en hoger
+# <a name="configuration-for-finance-insights---version-10020-and-later"></a>Configuratie voor Finance Insights - versie 10.0.20 en hoger
 
 [!include [banner](../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Finance Insights combineert de functionaliteit van Microsoft Dynamics 365 Finance met Dataverse, Azure en AI Builder, zodat u beschikt over krachtige prognosefuncties voor uw organisatie. In dit onderwerp wordt uitgelegd hoe u Dynamics 365 Finance versie 10.0.20 configureert zodat uw systeem de mogelijkheden kan gebruiken die beschikbaar zijn in Finance Insights voor openbare preview.
+Finance Insights combineert de functionaliteit van Microsoft Dynamics 365 Finance met Dataverse, Azure en AI Builder, zodat u beschikt over krachtige prognosefuncties voor uw organisatie. In dit onderwerp wordt uitgelegd hoe u Dynamics 365 Finance versie 10.0.20 configureert zodat uw systeem de mogelijkheden kan gebruiken die beschikbaar zijn in Finance Insights.
 
 > [!NOTE]
 > De configuratiestappen die in dit onderwerp worden beschreven, zijn alleen van toepassing op Finance versie 10.0.20 en hoger. Zie [Configuratie voor Finance Insights - versies tot en met 10.0.19](configure-for-fin-insites.md) als u Finance insights versie 10.0.19 en lager wilt instellen.
@@ -38,7 +38,7 @@ Finance Insights combineert de functionaliteit van Microsoft Dynamics 365 Financ
 
 Ga als volgt te werk om de omgevingen te implementeren.
 
-1. In Microsoft Dynamics Lifecycle Services (LCS) kunt u een Finance-omgeving maken of bijwerken. Voor de omgeving is app-versie 10.0.20 of hoger van Finance and Operations-apps vereist.
+1. In Microsoft Dynamics Lifecycle Services (LCS) kunt u een Finance-omgeving maken of bijwerken. Voor de omgeving is appversie 10.0.20 of hoger vereist van de Finance and Operations-apps.
 2. De omgeving moet een omgeving met hoge beschikbaarheid (HA) zijn in de sandbox. (Dit type omgeving wordt ook wel een Tier-2-omgeving genoemd.) Zie [Omgevingsplanning](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md) voor meer informatie.
 3. Als u Finance insights configureert in een Sandbox-omgeving, moet u mogelijk productiegegevens naar die omgeving kopiëren om voorspellingen te kunnen uitvoeren. Het voorspellingsmodel gebruikt meerdere jaren aan gegevens om voorspellingen samen te stellen. De Contoso-demonstratiegegevens bevatten niet voldoende historische gegevens om het voorspellingsmodel op een adequate manier te trainen. 
 
@@ -90,7 +90,7 @@ Voer de volgende stappen uit om Azure te configureren met het Windows PowerShell
 2. Selecteer **Beheren \> Ondernemingstoepassingen**.
 3. Zoek naar de volgende toepassingen op app-id.
 
-    | Sollicitatie                              | App-id                               |
+    | Toepassing                              | App-id                               |
     |------------------------------------------|--------------------------------------|
     | Microsoft Dynamics ERP-microservices     | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
     | Microsoft Dynamics ERP-microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
@@ -752,6 +752,6 @@ Het kan enkele minuten duren voordat de invoegtoepassing is geïnstalleerd.
 
 ## <a name="feedback-and-support"></a>Feedback en ondersteuning
 
-Stuur een e-mail naar [Finance insights (preview)](mailto:fiap@microsoft.com) als u feedback wilt geven of ondersteuning nodig hebt.
+Stuur een e-mail naar [Finance insights](mailto:fiap@microsoft.com) als u feedback wilt geven of ondersteuning nodig hebt.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

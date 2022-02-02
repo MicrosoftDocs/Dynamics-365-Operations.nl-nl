@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b21fba6fbfd4fe2a645efd56fb3592252c2a3fe0
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: e4a120dd4199b143c3103392515c85e7b887194b
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920618"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982710"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management
 
@@ -31,7 +31,7 @@ U ziet in de volgende onderwerpen wat er nieuw of gewijzigd is in alle versies v
 
 | Versie | Build nr. | Beschikbaarheid van automatische update | Meer informatie |
 |---|---|---|---|
-| 10.0.24 | 10.0.1084 | 2022 februari | [Preview van Dynamics 365 Supply Chain Management 10.0.24](whats-new-scm-10-0-24.md) |
+| 10.0.24 | 10.0.1084 | 2022 februari | [Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.24](whats-new-scm-10-0-24.md) |
 | 10.0.23 | 10.0.1037 | 2022 januari | [Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.23](whats-new-scm-10-0-23.md) |
 | 10.0.22 | 10.0.995 | november 2021 | [Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.22](whats-new-scm-10-0-22.md) |
 | 10.0.21 | 10.0.960 | 2021 oktober | [Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.21](whats-new-scm-10-0-21.md) |
@@ -62,7 +62,7 @@ Zie de volgende onderwerpen voor informatie over wat er nieuw of gewijzigd is ve
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.3      | 10.0.107         | 2019 juni        | [Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations versie 10.0.3 (juni 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-3.md)                    |
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.2      | 10.0.80          | mei 2019         | [Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations versie 10.0.2 (mei 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-2.md)                     |
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.1      | 10.0.51          | 2019 april       | [Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations versie 10.0.1 (april 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-1.md)                   |
-| Microsoft Dynamics 365 for Finance and Operations                     | 10.0        | 10.0.8           | 2019 april       | [Wat is nieuw of gewijzigd in Finance and Operations versie 10.0 (april 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-1.md)                                      |
+| Microsoft Dynamics 365 for Finance and Operations                     | 10.0        | 10.0.8           | 2019 april       | [Wat is nieuw of gewijzigd in Finance and Operations versie 10.0 (april 2019) ](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-1.md)                                      |
 | Microsoft Dynamics 365 for Finance and Operations                     | 8.1.3       | 8.1.227          | januari 2019     | [Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations versie 8.1.3 (januari 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-3.md)                   |
 | Microsoft Dynamics 365 for Finance and Operations                     | 8.1.2       | 8.1.195          | 2018 december    | [Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations versie 8.1.2 (december 2018)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-2.md)                  |
 | Microsoft Dynamics 365 for Finance and Operations                     | 8.1.1       | 8.1.170          | 2018 oktober     | [Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations versie 8.1.1 (oktober 2018)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-1.md)                   |

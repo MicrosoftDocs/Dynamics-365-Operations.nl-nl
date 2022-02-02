@@ -86,7 +86,7 @@
                   href: dev-itpro/RetailSDK-update.md
             - name: Nieuwe of gewijzigde functies
               items:
-                - name: Nieuwe of gewijzigde functies in Finance and Operations-apps
+                - name: Nieuw of gewijzigd in Finance and Operations-apps
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
                 - name: Nieuwe of gewijzigde functies in Commerce
                   items:
@@ -96,13 +96,11 @@
                       href: get-started/whats-new-commerce-10-0-24.md
                     - name: Commerce 10.0.23 (januari 2022)
                       href: get-started/whats-new-commerce-10-0-23.md
-                    - name: Commerce 10.0.22 (november 2021)
-                      href: get-started/whats-new-commerce-10-0-22.md
                 - name: Verwijderde of afgeschafte functies
                   items:
                     - name: Startpagina voor verwijderde of afgeschafte functies
                       href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/commerce/toc.json
-                    - name: Verwijderde of afgeschafte functies in Finance and Operations
+                    - name: Verwijderde of verouderde functies in Finance and Operations
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
                     - name: Verwijderde of afgeschafte functies in Dynamics 365 Commerce
                       href: get-started/removed-deprecated-features-commerce.md
@@ -712,6 +710,10 @@
                   href: sync-product-ratings.md
                 - name: Het handmatig publiceren van beoordelingen en recensies door een moderator inschakelen
                   href: manual-publish-rating-reviews.md
+                - name: Beoordelingen en recensies importeren en exporteren
+                  href: import-export-reviews.md
+                - name: Verificatie van service naar service configureren
+                  href: service-to-service-auth.md
                 - name: Veelgestelde vragen over beoordelingen en recensies
                   href: ratings-reviews-faq.md
             - name: Uw voorraad beheren
@@ -998,8 +1000,6 @@
                       href: style-presets.md
                     - name: Een favicon toevoegen
                       href: add-favicon.md
-                    - name: Een welkomstbericht toevoegen
-                      href: add-welcome-message.md
                     - name: Een auteursrechtmelding toevoegen
                       href: add-copyright-notice.md
                     - name: Talen toevoegen
@@ -2180,7 +2180,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/commerce/toc.json
                 - name: Een aangepaste ER-bron voor inkomende documenten implementeren
                   href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-source.md?toc=/dynamics365/commerce/toc.json
-        - name: De mobiele app Finance and Operations (Dynamics 365)
+        - name: Mobiele app voor Finance and Operations (Dynamics 365)
           items:
             - name: Startpagina mobiele app
               href: ../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/dynamics365/commerce/toc.json
