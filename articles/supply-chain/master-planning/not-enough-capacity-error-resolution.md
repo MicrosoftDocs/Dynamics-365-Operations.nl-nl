@@ -1,5 +1,5 @@
 ---
-title: De planningsenginefout 'Er kan niet voldoende capaciteit worden gevonden' oplossen
+title: De planningsenginefout 'Er kan niet voldoende capaciteit worden gevonden' en eindige capaciteit oplossen
 description: In dit onderwerp vindt u informatie over de redenen en oplossingen voor het bericht 'Productieorder %1 kan niet worden gepland. Er kan niet voldoende capaciteit worden gevonden' voor de planningsenginefout.
 author: ChristianRytt
 ms.date: 7/29/2021
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 16626a7ee74e89bd129d8435a17d16b41a5e0387
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: becd537d37a8ba8931f2598dccbae8554a4d168e
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565754"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985025"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>De planningsenginefout 'Er kan niet voldoende capaciteit worden gevonden' oplossen
 
@@ -105,5 +105,11 @@ Volg deze stappen om de beschikbare capaciteit van de resourcegroep te controler
 
 1. Ga naar **Organisatiebeheer \> Resources \> Resourcegroepen** en selecteer een resourcegroep die van toepassing is op de order die niet kan worden gepland.
 1. Selecteer in het actievenster op het tabblad **Resourcegroep** in de groep **Weergeven** de optie **Capaciteitsbelasting** of **Grafiek van capaciteitsbelasting** en zorg ervoor dat er capaciteit beschikbaar is.
+
+## <a name="master-planning-books-a-resource-when-the-resource-calendar-is-closed"></a>Hoofdplanning boekt een resource als de resourcekalender is afgesloten
+
+Wanneer de bewerkingsplanning wordt gebruikt, wordt de capaciteit gepland op basis van de kalender van de primaire resourcegroep. De secundaire bewerking wordt tegelijk met de primaire bewerking geboekt en er wordt geen rekening gehouden met de kalenders of capaciteit van de secundaire bewerking. Dit kan resulteren in de planning van de productieorder op een afgesloten kalender of op een tijdstip waarop de secundaire bewerking niet beschikbaar is (kalender afgesloten, geen capaciteit).
+
+Wanneer u taakplanning gebruikt, wordt bij het plannen van de order rekening gehouden met de capaciteit en kalender van zowel de primaire als de secundaire bewerking. Kalenders voor de resources van beide bewerkingen moeten geopend zijn en over beschikbare capaciteit beschikken om de order te kunnen plannen.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

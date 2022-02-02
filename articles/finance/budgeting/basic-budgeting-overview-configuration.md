@@ -1,9 +1,9 @@
 ---
 title: Budgetteringsoverzicht
-description: Bijna elk bedrijf dat gebruikmaakt van de functionaliteit Financiële items in Microsoft Dynamics 365 Finance, moet rapporten kunnen maken van gebudgetteerde versus werkelijke waarden. In dit artikel wordt de minimale configuratie uitgelegd die nodig is om budgetten in Finance and Operations te kunnen maken of budgetten te kunnen laden vanuit een programma van derden.
+description: Bijna elk bedrijf dat gebruikmaakt van de functionaliteit Financiële items in Microsoft Dynamics 365 Finance, moet rapporten kunnen maken van gebudgetteerde versus werkelijke waarden. In dit artikel wordt de minimale configuratie uitgelegd die nodig is om budgetten in Finance and Operation te kunnen maken of budgetten te kunnen laden vanuit een programma van derden.
 author: panolte
 ms.date: 04/29/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetParameters
@@ -17,18 +17,18 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 849b1202ea2c0080f5fc5bacba1f95180fc4008a
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 8e881a878265062dc5ce8cec68a45237711f385d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343651"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986505"
 ---
-# <a name="budgeting-overview"></a>Overzicht van Budgettering
+# <a name="budgeting-overview"></a>Budgetteringsoverzicht
 
 [!include [banner](../includes/banner.md)]
 
-Bijna elk bedrijf dat gebruikmaakt van de functionaliteit Financiële items in Microsoft Dynamics 365 Finance, moet rapporten kunnen maken van gebudgetteerde versus werkelijke waarden. In dit artikel wordt de minimale configuratie uitgelegd die nodig is om budgetten in Finance and Operations te kunnen maken of budgetten te kunnen laden vanuit een programma van derden.
+Bijna elk bedrijf dat gebruikmaakt van de functionaliteit Financiële items in Microsoft Dynamics 365 Finance, moet rapporten kunnen maken van gebudgetteerde versus werkelijke waarden. In dit artikel wordt de minimale configuratie uitgelegd die nodig is om budgetten in Finance and Operation te kunnen maken of budgetten te kunnen laden vanuit een programma van derden.
 
 ## <a name="overview"></a>Overzicht
 

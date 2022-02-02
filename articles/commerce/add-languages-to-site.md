@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 06c28e078a09cfadda6cbb0565bcaf8564681efaae8f57817922afb07ff4e6b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d118c90dc16be964bb22aa6f170fe2d2f009b3e9
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725429"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964549"
 ---
 # <a name="add-languages-to-your-site"></a>Talen toevoegen aan uw site
 
@@ -159,13 +159,11 @@ De taal die u hebt toegevoegd, is nu beschikbaar, zodat u de site kunt configure
 
 [Een logo toevoegen](add-logo.md)
 
-[Selecteer een thema voor de site](select-site-theme.md)
+[Een thema voor de site selecteren](select-site-theme.md)
 
 [Werken met CSS-overschrijvingsbestanden](css-override-files.md)
 
 [Een favicon toevoegen](add-favicon.md)
-
-[Een welkomstbericht toevoegen](add-welcome-message.md)
 
 [Een auteursrechtmelding toevoegen](add-copyright-notice.md)
 

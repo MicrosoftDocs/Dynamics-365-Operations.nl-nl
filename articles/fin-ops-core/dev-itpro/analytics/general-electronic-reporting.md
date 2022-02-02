@@ -3,7 +3,7 @@ title: Overzicht van elektronische rapportage (ER)
 description: Dit onderwerp biedt een overzicht van het hulpmiddel voor elektronische rapportage. In dit onderwerp worden belangrijke concepten, ondersteunde scenario's en indelingen beschreven die deel uitmaken van de oplossing.
 author: NickSelin
 ms.date: 11/02/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERWorkspace
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b772acd4a8d0849803cefa8fc14ae3dd6e18831
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 976a02f51e22c513b988e1ecfcb792d5f93a4b54
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867275"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986142"
 ---
 # <a name="electronic-reporting-er-overview"></a>Overzicht van elektronische rapportage (ER)
 
@@ -143,7 +143,7 @@ In een ER-opslagplaats worden ER-configuraties opgeslagen. De volgende typen ER-
 
 De opslagplaats **Gedeelde LCS-bibliotheek** biedt toegang tot de lijst met configuraties binnen de bibliotheek voor gedeelde activa in Lifecycle Services (LCS). Dit type ER-opslagplaats kan alleen worden geregistreerd voor de Microsoft-provider. Vanuit de LCS-bibliotheek voor gedeelde activa kunt u de meest recente versies van ER-configuraties importeren in het huidige exemplaar.
 
-Een opslagplaats **LCS-project** biedt toegang tot de lijst met configuraties van een specifiek LCS-project (activabibliotheek voor LCS-project) dat is geselecteerd tijdens de registratie van de opslagplaats. Via ER kunt u gedeelde configuraties uploaden vanuit het huidige exemplaar naar een specifieke opslagplaats voor **LCS-projecten**. U kunt ook configuraties importeren vanuit een opslagplaats **LCS-project** in het huidige exemplaar van uw Finance and Operations-apps.
+Een opslagplaats **LCS-project** biedt toegang tot de lijst met configuraties van een specifiek LCS-project (activabibliotheek voor LCS-project) dat is geselecteerd tijdens de registratie van de opslagplaats. Via ER kunt u gedeelde configuraties uploaden vanuit het huidige exemplaar naar een specifieke opslagplaats voor **LCS-projecten**. U kunt ook configuraties importeren vanuit een bepaalde opslagplaats voor **LCS-projecten** in het huidige exemplaar van uw Finance and Operations-apps.
 
 Een opslagplaats **Bestandssysteem** biedt toegang tot de lijst met configuraties die zich als XML-bestanden bevinden in de opgegeven map van het lokale bestandssysteem op de computer waarop de AOS-service wordt gehost. Vereiste map is geselecteerd in de fase van opslagplaatsregistratie. U kunt configuraties importeren vanuit een opslagplaats **Bestandssysteem** in het huidige exemplaar. 
 

@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 6bb99084a2ffef067dd0d7158ecb5e57d6d97d75
-ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
+ms.openlocfilehash: 7d43657573ea8092f047615fc50a1a50ab97f094
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/23/2021
-ms.locfileid: "7945784"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968982"
 ---
 # <a name="cash-position"></a>Kaspositie
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Kaspositie is de projectie van de cashflowprognose voor de korte termijn. Dit is gebaseerd op de projectie van contante ontvangsten van klanten die openstaande facturen en orders betalen, en ook op de prognoses voor contante betalingen aan leveranciers voor inkoopfacturen en orders.
 

@@ -14,17 +14,16 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 171e518258e9600bd7526cf52e3e456d272e6bce
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: e012b88465e98e788f65697d95fc141d453888e3
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891380"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983312"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Een e-commercesite voor B2B instellen
 
 [!include [banner](../../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 E-commercesites voor B2B bieden belangrijke mogelijkheden om de workflow te optimaliseren voor een B2B-gebruiker. In dit onderwerp wordt beschreven hoe u een e-commercesite voor B2B in Microsoft Dynamics 365 Commerce instelt. U doorloopt de modules en locatie-instellingen die geconfigureerd moeten worden om B2B-specifieke scenario's mogelijk te maken.
 

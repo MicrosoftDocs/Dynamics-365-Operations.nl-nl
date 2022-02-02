@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7857920a04faaebaee44d5485f7b2ffc2e675f59e7c9dc15b2b86376207e3a2d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 63e11b718a2b5221c722a11de3a8df6d9d0e3d6b
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772125"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964848"
 ---
 # <a name="work-with-style-presets"></a>Werken met vooraf ingestelde stijlen
 
@@ -110,13 +110,11 @@ De stijlwaarden van de voorinstelling worden actief gemaakt op uw openbare websi
 
 [Een logo toevoegen](add-logo.md)
 
-[Selecteer een thema voor de site](select-site-theme.md)
+[Een thema voor de site selecteren](select-site-theme.md)
 
 [Werken met CSS-overschrijvingsbestanden](css-override-files.md)
 
 [Een favicon toevoegen](add-favicon.md)
-
-[Een welkomstbericht toevoegen](add-welcome-message.md)
 
 [Een auteursrechtmelding toevoegen](add-copyright-notice.md)
 

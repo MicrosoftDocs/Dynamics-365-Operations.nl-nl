@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0a2bd50ef11e92fb427a61a1e8624fcd7d15e163
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 6ea27f4e38697d517b1520176eb5dfeee651a598
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920169"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982145"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Planning met onbeperkte capaciteit
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
-<!--KFM: Preview until 1/14/2022 -->
 
 Met de functie *Onbeperkte capaciteitsplanning voor Planningsoptimalisatie* wordt planning op basis van routegegevens geïntroduceerd. Hiermee kunt u taken plannen op basis van een groot aantal route-instellingen. Bij het plannen voor Planningsoptimalisatie wordt gebruikgemaakt van vaak gehanteerde route-instellingen, waaronder de routebewerkingsvolgorde of vereisten voor bronnen voor routebewerkingen.
 
@@ -51,7 +49,9 @@ Tijdens het planningsproces wordt ook rekening gehouden met de *resourcevereiste
 - Capaciteit (voor meer informatie zie [Planning met bronselectie op basis van capaciteit](capability-based-scheduling.md).)
 
 > [!NOTE]
-> Vereisten met betrekking tot Human Resources, zoals vaardigheden of certificaatvereisten, worden nog niet ondersteund.
+>
+> - Als de resource en/of resourcegroep zijn ingesteld op onbeperkte capaciteit, worden ze door de hoofdplanning als onbeperkte capaciteit gezien.
+> - Vereisten met betrekking tot Human Resources, zoals vaardigheden of certificaatvereisten, worden nog niet ondersteund.
 
 De functie ondersteunt ook de operationele eigenschappen **Insteltijd** en **Uitvoeringstijd**. Wanneer u deze eigenschappen instelt voor een routebewerking, worden tijdens het planningsproces de juiste instellings- en uitvoeringstaken uitgevoerd.
 

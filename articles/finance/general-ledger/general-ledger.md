@@ -3,7 +3,7 @@ title: Overzicht van Grootboek en Financiële rapportage
 description: Met Grootboek kunt u de financiële records van de rechtspersoon definiëren en beheren.
 author: ShylaThompson
 ms.date: 08/14/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b143807b6076d2b798de26d2ebd2cf7a40a8fdf89fdc8387acfbb79cecb44e3b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 639d77e43fc9a55e43ebb030f8fc292ce8fb7fce
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715113"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985232"
 ---
 # <a name="general-ledger-home-page"></a>Startpagina Grootboek
 
@@ -61,7 +61,7 @@ Ga naar het onderwerp [Overzicht van Financial Reporting](../../fin-ops-core/dev
 
 #### <a name="blogs"></a>Weblogs
 
-U kunt adviezen, nieuws en andere informatie vinden in de [Microsoft Dynamics 365-blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) en de [Microsoft Dynamics 365 Finance and Operations - Financials-blog](https://community.dynamics.com/365/financeandoperations/b/financials).
+U vindt adviezen, nieuws en andere informatie in de [blog over Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) en de [blog over Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 De [Microsoft Dynamics Operations-blog van de partnercommunity](https://community.dynamics.com/partner/b/operationspartnercommunityblog) biedt Microsoft Dynamics-partners één bron met informatie over wat nieuw is en welke trends er zijn in Dynamics 365.
 

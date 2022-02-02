@@ -2,25 +2,25 @@
 title: Leasebetalingen die zijn gekoppeld aan een indextarief herwaarderen
 description: Dit onderwerp beschrijft de correctie die wordt uitgevoerd om de aansprakelijkheid voor een RoU-activum te leasen wanneer variabele leasebetalingen veranderen vanwege een wijziging in het indextarief.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 01/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeaseIndexRevaluation
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1b3eed28ba6fc5af02c1bbf430cc9779426084f0eaf4e027141bbdd18a70dde4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5abd1f5d265c6e8b53903e6df5c52a06b3468880
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734581"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968047"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>Leasebetalingen die zijn gekoppeld aan een indextarief herwaarderen
 
@@ -43,7 +43,7 @@ Volg deze stappen om leasebetalingen die zijn gekoppeld aan een indextarief te h
 4. Selecteer de filters voor het selecteren van leases die in het achtergrondproces moeten worden opgenomen en selecteer vervolgens **OK**.
 
     Het dialoogvenster **Herwaardering indextarief preview** wordt geopend en toont de leases die worden geherwaardeerd. Ook worden de activa en aansprakelijkheidscorrecties of de variabele betalingscorrecties weergegeven.
-    
+
 5. Als u wilt voorkomen dat leases worden geherwaardeerd, selecteert u de leases die **moeten** worden geherwaardeerd. Als u geen leases selecteert, worden alle leases geherwaardeerd. Wanneer u klaar bent, selecteert u **OK** om de leasebetalingen te herwaarderen.
 6. Als u de transacties wilt weergeven die zijn gemaakt voor een specifiek indexherwaarderingsproces, selecteert u de proces-id en selecteert u vervolgens **Transacties**.
 
@@ -66,5 +66,7 @@ U kunt het nieuw gegenereerde betalingsschema bekijken dat begint op de herwaard
 
 De journaalboeking heeft de correctiejournaalpost automatisch geboekt naar de rekening voor de wijziging in de leasebetalingen die betrekking hebben op de indexherwaardering.
 
+> [!NOTE]
+> Als de optie **Betalingsbedrag opsplitsen** is ingeschakeld op het sneltabblad **Algemeen** van de pagina **Leasedetails** en het gekoppelde boek IFRS 16 is, wordt bij de indexherwaardering automatisch een record toegevoegd in het dialoogvenster **Opsplitsing betalingsbedrag**. Het bedrag laat de wijziging zien in de betaling als gevolg van de indexherwaardering. De record wordt gemarkeerd als **Gebruikt voor IRFS 16-indexherwaardering**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

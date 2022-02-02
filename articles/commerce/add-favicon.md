@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 41beef346744dc93be3f2d83e660a96e27562f3da933363a1f99144e34060d9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 080ef4da7313bd6b9d91e616f576b3ff774509d9
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724623"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964727"
 ---
 # <a name="add-a-favicon"></a>Een favicon toevoegen
 
@@ -82,11 +82,9 @@ Wanneer u een voorbeeld bekijkt van pagina's die zijn gebaseerd op de sjabloon w
 
 [Een logo toevoegen](add-logo.md)
 
-[Selecteer een thema voor de site](select-site-theme.md)
+[Een thema voor de site selecteren](select-site-theme.md)
 
 [Werken met CSS-overschrijvingsbestanden](css-override-files.md)
-
-[Een welkomstbericht toevoegen](add-welcome-message.md)
 
 [Een auteursrechtmelding toevoegen](add-copyright-notice.md)
 

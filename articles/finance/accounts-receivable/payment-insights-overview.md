@@ -3,7 +3,7 @@ title: Inzichten in klantbetalingen (voorbeeld)
 description: In dit onderwerp wordt beschreven hoe u inzichten in betalingen kunt gebruiken om de gebruikelijke betalingsmethoden van individuele klanten beter te begrijpen. De functie kan u helpen om omstandigheden te identificeren die kunnen rechtvaardigen dat incassoprocessen eerder worden begonnen dan normaal gesproken.
 author: ShivamPandey-msft
 ms.date: 11/06/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: ecd368237f949b6cbfbbb7293f6ddc5b1199d6fc0aef7e0bf44f4a2a808a6ccb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d359e3ceef0fb7213d52aeb265da2e75120ae223
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737768"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983997"
 ---
 # <a name="customer-payment-insights-preview"></a>Inzichten in klantbetalingen (voorbeeld)
 
@@ -69,7 +69,7 @@ Als u geïnteresseerd bent in het uitproberen van Inzichten in klantbetalingen (
 
 ## <a name="privacy-notice"></a>Privacyverklaring
 
-Previews (1) bieden mogelijk minder privacy- en beveiligingsmaatregelen dan de service Dynamics 365 Finance and Operations, (2) worden mogelijk niet opgenomen in de serviceovereenkomst voor deze service, (3) mogen niet worden gebruikt voor de verwerking van persoonsgegevens of andere gegevens die aan juridische of wettelijke nalevingvereisten zijn onderworpen en (4) worden slechts beperkt ondersteund.
+Daarnaast geldt dat previews (1) mogelijk minder privacy- en beveiligingsmaatregelen bieden dan de service Dynamics 365 Finance and Operations, (2) mogelijk niet worden opgenomen in de serviceovereenkomst voor deze service, (3) niet mogen worden gebruikt voor de verwerking van persoonsgegevens of andere gegevens die aan juridische of wettelijke nalevingvereisten zijn onderworpen en (4) slechts beperkt wordt ondersteund.
 
 
 

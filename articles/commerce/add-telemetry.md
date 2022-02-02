@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e3916b18c797222c300957fb25cabad78c4fcb9744a29d611a81b0bda3e9834d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f796a3e10345da41ff461b656d88affb3adbdf9e
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724599"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964524"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Scriptcode toevoegen aan sitepagina's voor ondersteuning van telemetrie
 
@@ -106,13 +106,11 @@ Voer de volgende stappen uit om een extern script rechtstreeks toe te voegen aan
 
 [Een logo toevoegen](add-logo.md)
 
-[Selecteer een thema voor de site](select-site-theme.md)
+[Een thema voor de site selecteren](select-site-theme.md)
 
 [Werken met CSS-overschrijvingsbestanden](css-override-files.md)
 
 [Een favicon toevoegen](add-favicon.md)
-
-[Een welkomstbericht toevoegen](add-welcome-message.md)
 
 [Een auteursrechtmelding toevoegen](add-copyright-notice.md)
 

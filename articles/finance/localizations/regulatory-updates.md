@@ -2,22 +2,22 @@
 title: Wettelijk voorgeschreven updates
 description: Dit onderwerp bevat een lijst van geplande updates en vrijgegeven reglementaire updates voor Microsoft Dynamics 365 Finance.
 author: VStamberg
-ms.date: 07/15/2021
+ms.date: 01/20/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 16d4b9b31f213218fa5eb79c9808e5139db2dbd2239e7bb29c62af15aa372a9f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f4c9d82d882771c2b7131169615504613836def9
+ms.sourcegitcommit: 68655c5673aef9892063e5913ffee6bfc3817387
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772740"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "8016095"
 ---
 # <a name="regulatory-updates"></a>Wettelijk voorgeschreven updates
 
@@ -71,7 +71,7 @@ Raadpleeg de volgende tabel voor de meest recente plannen voor wettelijke update
 
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
-- Zoek naar alle geplande en wettelijke updates op [Lifecycle Service - probleem zoeken](https://lcs.dynamics.com/Logon/Index) (aanmelden vereist).
+- Raadpleeg [Zoeken naar landspecifieke wettelijke updates](search-for-regulatory-updates.md) voor meer informatie over alle geplande en vrijgegeven landspecifieke wettelijke updates. (Aanmelden is verplicht.)
 - Voor een overzicht van de taalversies die worden ondersteund voor , raadpleegt u de [Internationale beschikbaarheidshandleiding](https://aka.ms/dynamics_365_international_availability_deck).
 
 

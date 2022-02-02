@@ -3,7 +3,7 @@ title: Overzicht van Documenten afdrukken
 description: U kunt documenten afdrukken met behulp van een lokale printer of een netwerkapparaat. In dit artikel vindt u een overzicht van hoe documenten worden afgedrukt.
 author: RichdiMSFT
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: IT Pro, Application User
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5a0d26836043ea225b9a6d3e62980ada2dc49b0a01a6dacec739b50f28e17bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b9105ef39e411ac33043f1941d4e1dd32b758e5
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728233"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984903"
 ---
 # <a name="document-printing-overview"></a>Overzicht van Documenten afdrukken
 
@@ -51,7 +51,7 @@ In de volgende tabel worden de drie primaire afdrukscenario's beschreven.
 Omdat de oplossing afhankelijk van het scenario verschilt, bevatten toepassingen van Finance geïntegreerde services en functies waarmee gebruikers hun doelen kunnen bereiken:
 
 - **Scenario 1** wordt ondersteund door de weergave in de browser van de HTML5-client.
-- **Scenario 2** maakt gebruik van clienttoepassingen en services van Microsoft Office 365.
+- **Scenario 2** maakt gebruik van clienttoepassingen en services van Microsoft 365.
 - **Scenario 3** vereist ondersteuning van clienttoepassingen en services die worden gehost in Microsoft Azure.
 
 Naast het platform dat in het Azure-abonnement is geïmplementeerd, bevatten Finance and Operations-toepassingen een geïntegreerde, directe Azure-toepassing waarmee ze makkelijker in het domein gehoste apparaten kunnen gebruiken om documenten af te drukken.

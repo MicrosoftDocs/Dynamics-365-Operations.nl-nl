@@ -2,23 +2,22 @@
 title: Overzicht van technisch wijzigingsbeheer (bevat video)
 description: Dit onderwerp biedt een overzicht van het beheer van technische wijzigingen, waarmee u productversies kunt plannen en beheren en productlevenscycli en technische wijzigingen kunt beheren.
 author: t-benebo
-ms.date: 08/26/2021
-ms.topic: article
+ms.date: 01/11/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d667aef827addcf7c34075b08afffffe3fd71935
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 8c200796d587d77c0f4d2344524a890ba964ab39
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952593"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985207"
 ---
 # <a name="engineering-change-management-overview"></a>Overzicht van technisch wijzigingsbeheer
 
@@ -39,9 +38,9 @@ Het beheer van technische wijzigingen helpt u productversies te plannen en beher
 - Aanvragen voor technische wijzigingen die worden ondersteund door werkstromen
 - Orders voor technische wijzigingen die worden ondersteund door werkstromen
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4HE6B]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HE6B]
 
-De voorgaande video ([Mogelijkheden voor wijzigingsbeheer in Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) is opgenomen in de [Finance and Operations speellijst](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) beschikbaar op YouTube.
+De voorgaande video ([Mogelijkheden voor wijzigingsbeheer in Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) is opgenomen in de [Finance and Operations-speellijst](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) beschikbaar op YouTube.
 
 ## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>De functies voor het beheer van technische wijzigingen voor uw systeem inschakelen
 
@@ -71,7 +70,9 @@ Schakel vervolgens de configuratiesleutels in door de volgende stappen uit te vo
 
 1. Als u ook de versiedimensie wilt gebruiken schakelt u het selectievakje **Productdimensie - versie** in. (Dit selectievakje vindt u verder naar beneden in de lijst, niet genest onder het knooppunt **Technisch wijzigingsbeheer**.)
 1. Schakel de onderhoudsmodus uit, zoals wordt beschreven in [Onderhoudsmodus](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-1. Voer een databasesynchronisatie uit om ervoor te zorgen dat de configuratiesleutels op de juiste manier zijn ingeschakeld.
+1. De database moet zijn gesynchroniseerd om ervoor te zorgen dat de configuratiesleutels op de juiste manier zijn ingeschakeld. Ga als volgt te werk, afhankelijk van het type omgeving waaraan u werkt:
+    - **Voor Niveau 1-omgevingen (ontwikkelomgevingen)**:Open het project in Microsoft Visual Studio en selecteer vervolgens **Dynamics 365 \> Database synchroniseren \> Synchroniseren**.
+    - **Voor Niveau 2-omgevingen (en hoger)**: de database wordt automatisch gesynchroniseerd nadat u de omgeving in en uit de onderhoudsmodus hebt gezet, dus u kunt deze stap overslaan.
 
 > [!IMPORTANT]
 > Vanaf april 2022 worden de licentiesleutels voor zowel **Engineering Change Management** als voor **Productdimensie - Versie** standaard ingeschakeld voor alle nieuwe installaties, maar u kunt ze zo nodig ook uitschakelen.

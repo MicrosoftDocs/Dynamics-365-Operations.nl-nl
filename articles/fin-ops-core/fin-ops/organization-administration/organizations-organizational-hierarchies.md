@@ -2,8 +2,8 @@
 title: Overzicht van Organisaties en organisatiehiërarchieën
 description: Met organisatiehiërarchieën worden de relaties aangegeven tussen de organisaties waaruit het bedrijf bestaat.
 author: sericks007
-ms.date: 11/10/2021
-ms.topic: article
+ms.date: 01/03/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMOperatingUnit,
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f0388b6e7c22c339d26b82c35f1bbb1ef54cdb5
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: c8e8f2c2004582f42c3f464fedf9f3d049b5278f
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798341"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7992077"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Overzicht van Organisaties en organisatiehiërarchieën
 
@@ -54,7 +54,7 @@ De typen operationele eenheden omvatten kostenplaatsen, bedrijfseenheden, afdeli
 | Bedrijfseenheid       | Een semi-zelfstandige operationele eenheid die is gemaakt om strategische doelstellingen van de onderneming te behalen. | Deze optie wordt gebruikt voor financiële rapportages die zijn gebaseerd op industrieën of productlijnen van de organisatie, onafhankelijk van rechtspersonen. |
 | Waardestroom        | Een bewerkingseenheid waarmee één of meer productiestromen worden beheerd. | Deze optie wordt vaak gebruikt bij lean manufacturing om de activiteiten en stromen te beheren die zijn vereist voor de levering van een product of service aan klanten. |
 | Afdeling          | Een operationele eenheid waarmee een categorie of functioneel onderdeel van een organisatie wordt aangegeven voor het uitvoeren van een specifieke taak, zoals verkoop of boekhouding. | Deze optie wordt gebruikt voor de rapportage over functionele gebieden. Een afdeling kan verantwoordelijk zijn voor winst en verlies en kan bestaan uit een groep kostenplaatsen. |
-| Commerce-kanaal      | Een operationele eenheid die een fysieke winkel, een online winkel of een online handelsplaats vertegenwoordigt. | Gebruikt voor het beheer en de operationele controle van een of meer winkels binnen of tussen verschillende rechtspersonen. |
+| Detailhandelkanaal      | Een operationele eenheid die een fysieke winkel, een online winkel of een callcenter vertegenwoordigt. | Gebruikt voor het beheer en de operationele controle van een of meer winkels binnen of tussen verschillende rechtspersonen. |
 
 ### <a name="teams"></a>Teams
 

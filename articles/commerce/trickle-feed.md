@@ -2,7 +2,7 @@
 title: Groepsgewijs orders voor detailhandelstransacties maken
 description: Dit onderwerp beschrijft het groepsgewijs maken van orders voor winkeltransacties in Microsoft Dynamics 365 Commerce.
 author: analpert
-ms.date: 12/14/2021
+ms.date: 01/11/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3a7fd8698d7123403cf9092a4a4bf810595d795b
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: 67b66cd4bf2a77f3ab7f33f691156e38cc13770a
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921240"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964623"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Groepsgewijs orders voor detailhandelstransacties maken
 
 [!include [banner](includes/banner.md)]
 
-In versie 10.0.5 en hoger van Microsoft Dynamics 365 Commerce raden we u aan om alle boekingsprocessen voor overzichten over te brengen naar de boekingsprocessen voor overzichten op basis van groepsgewijze boeking. Er worden aanzienlijke prestaties en zakelijke vergoedingen gekoppeld aan het gebruik van de functionaliteit voor groepsgewijs boeken van uw bedrijf. Verkooptransacties worden de hele dag verwerkt. Betalings- en kasbeheertransacties worden aan het einde van de dag verwerkt in het financieel overzicht. Functionaliteit voor groepsgewijs boeken maakt de continue verwerking van verkooporders, facturen en betalingen mogelijk. Daarom kunnen voorraad, opbrengst en betalingen bijna in realtime worden bijgewerkt en herkend.
+In versie 10.0.5 en hoger van Microsoft Dynamics 365 Commerce raden we u aan om alle boekingsprocessen voor overzichten over te brengen naar de boekingsprocessen voor overzichten op basis van groepsgewijze boeking. Er worden aanzienlijke prestaties en zakelijke vergoedingen gekoppeld aan het gebruik van de functionaliteit voor groepsgewijs boeken van uw bedrijf. Verkooptransacties worden de hele dag verwerkt. Betalings- en kasbeheertransacties worden aan het einde van de dag verwerkt in het financieel overzicht. Functionaliteit voor groepsgewijs boeken maakt de continue verwerking van verkooporders, facturen en betalingen mogelijk. Daarom worden voorraad, opbrengst en betalingen bijna in realtime bijgewerkt en herkend.
 
 ## <a name="use-trickle-feed-based-posting"></a>Groepsgewijs boeken gebruiken
 
@@ -47,6 +47,10 @@ Plan het uitvoeren van de volgende taken met hoge frequentie:
 ### <a name="financial-statements"></a>Financiële overzichten
 
 De verwerking van financiële overzichten is bedoeld als een proces aan het einde van de dag. Dit type verwerking van overzichten ondersteunt alleen de **afsluitingsmethode voor ploegendiensten** en er worden alleen afgesloten ploegendiensten verwerkt. Overzichten zijn beperkt tot financiële afstemming. Hiermee worden alleen de journalen gemaakt voor de verschillen tussen het getelde bedrag en het transactiebedrag voor betalingsmethoden, samen met journalen voor andere transacties voor beheer van contant geld.
+
+Met financiële overzichten kunnen ook de volgende transacties worden beoordeeld: kascontroletransacties, betalingstransacties, bankstortingstransacties en kluisstortingstransacties. De pagina met de stortingsdetails is alleen zichtbaar wanneer een financieel overzicht wordt geselecteerd.
+
+![Een afbeelding van de sectie met de stortingsdetails van het boekingsoverzichtsformulier alleen wanneer een financieel overzicht wordt geselecteerd.](./media/Trickle-feed-posted-statements-transaction-view.png)
 
 Plan de begin- en eindtijden van de volgende taken in het financieel overzicht op basis van de verwachte einde van de dag:
 

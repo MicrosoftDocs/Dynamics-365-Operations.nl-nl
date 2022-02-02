@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cd110a94991659036ac5cee1cd5f77e0cd3ba7356be902bdae37e957247535ea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a13400258a86087b6137b08ca724cbbfc1a90ad4
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737525"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964776"
 ---
 # <a name="select-a-site-theme"></a>Een thema voor de site selecteren
 
@@ -43,15 +43,13 @@ Voer de volgende stappen uit om het thema te selecteren dat op uw site wordt toe
 > [!NOTE]
 > Het geselecteerde thema wordt op uw site gepubliceerd zodra u **Opslaan en publiceren** selecteert op de pagina **Uitbreidbaarheid**. Als u een voorbeeld van een thema op uw site wilt weergeven voordat u het toepast, kunt u uw ontwikkel- of sandbox-omgeving gebruiken.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Een logo toevoegen](add-logo.md)
 
 [Werken met CSS-overschrijvingsbestanden](css-override-files.md)
 
 [Een favicon toevoegen](add-favicon.md)
-
-[Een welkomstbericht toevoegen](add-welcome-message.md)
 
 [Een auteursrechtmelding toevoegen](add-copyright-notice.md)
 

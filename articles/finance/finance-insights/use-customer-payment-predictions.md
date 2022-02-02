@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 0606118007c01fc21c2c61d2128a7ec014617fcc
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: ed70e133b93c783542d4669b679fc5b6d2d20240
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752769"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968907"
 ---
 # <a name="use-customer-payment-predictions"></a>Voorspellingen voor klantbetalingen gebruiken
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u de Voorspellingen voor klantbetalingen kunt gebruiken. Voordat u deze functie gebruikt, moet u ervoor zorgen dat u de juiste installatiestappen hebt uitgevoerd. Zie [Voorspellingen voor klantbetalingen inschakelen](enable-cust-paymnt-prediction.md) voor meer informatie.
 
@@ -89,8 +88,8 @@ U kunt de nauwkeurigheid van betalingsvoorspellingen bekijken door naar **Credit
 
 [![Nauwkeurigheid van betalingsvoorspellingen.](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
 
-Als u niet tevreden bent met de nauwkeurigheid, selecteert u de koppeling **Modelnauwkeurigheid verbeteren** om de extensie van AI Builder te openen. In de extensie AI Builder kunt u velden selecteren of de selectie van velden annuleren totdat u de velden hebt geselecteerd waarvan u denkt dat ze het belangrijkst zijn voor het nauwkeurig voorspellen van betalingskansen. Wanneer u klaar bent, kunt u het voorspellingsmodel eenvoudig opnieuw trainen en uw wijzigingen publiceren. Het nieuwe getrainde voorspellingsmodel wordt automatisch opgehaald voor voorspellingen in Dynamics 365 Finance.
+Als u niet tevreden bent met de nauwkeurigheid, selecteert u de koppeling **Modelnauwkeurigheid** verbeteren om de extensie van AI Builder te openen. In de extensie AI Builder kunt u velden selecteren of de selectie van velden annuleren totdat u de velden hebt geselecteerd waarvan u denkt dat ze het belangrijkst zijn voor het nauwkeurig voorspellen van betalingskansen. Wanneer u klaar bent, kunt u het voorspellingsmodel eenvoudig opnieuw trainen en uw wijzigingen publiceren. Het nieuwe getrainde voorspellingsmodel wordt automatisch opgehaald voor voorspellingen in Dynamics 365 Finance.
 
-[![Extensie AI Builder.](./media/ai-builder.png)](./media/ai-builder.png)
+[Ervaring met ![AI Builder-uitbreiding.](./media/ai-builder.png)](./media/ai-builder.png)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

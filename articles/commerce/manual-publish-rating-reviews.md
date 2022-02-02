@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 25ae7074fcf39bf4408ea1fa0acfc334281bb254
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 443ebaa13d7ac29df66ffe77a2ed938e44a0c488
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675044"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968198"
 ---
 # <a name="enable-manual-publishing-of-ratings-and-reviews-by-a-moderator"></a>Handmatig publiceren van beoordelingen en recensies inschakelen door een moderator
 
@@ -68,3 +68,17 @@ In de volgende afbeelding ziet u een voorbeeld van drie niet-gepubliceerde beoor
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht beoordelingen en recensies](ratings-reviews-overview.md)
+
+[Aanmelden om beoordelingen en recensies te gebruiken](opt-in-ratings-reviews.md)
+
+[Beoordelingen en recensies beheren](manage-reviews.md)
+
+[Beoordelingen en recensies configureren](configure-ratings-reviews.md)
+
+[Productbeoordelingen synchroniseren](sync-product-ratings.md)
+
+[Beoordelingen en recensies importeren en exporteren](import-export-reviews.md)
+
+[Service-to-Service verificatie configureren](service-to-service-auth.md)
+
+[Veelgestelde vragen over beoordelingen en recensies](ratings-reviews-faq.md)

@@ -3,24 +3,23 @@ title: Overzicht van Beheer van bedrijfsdocumenten
 description: Dit onderwerp biedt informatie over het gebruiken van de functie Beheer van bedrijfsdocumenten van het ER-raamwerk.
 author: NickSelin
 ms.date: 04/23/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b59f535e01de2ae30e6bbeb6d5ab97a415df6043233694d4feb1c48140a110f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: faea9d4d9b3fc8f3f1474b6bb2a8dc31cdc22511
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753071"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986246"
 ---
 # <a name="business-document-management-overview"></a>Overzicht van Beheer van bedrijfsdocumenten
 
@@ -28,7 +27,7 @@ ms.locfileid: "6753071"
 
 Zakelijke gebruikers gebruiken het raamwerk van [ER (Elektronische rapportage)](general-electronic-reporting.md) om indelingen voor uitgaande documenten te configureren in overeenstemming met de wettelijke voorschriften van verschillende landen/regio's. Gebruikers kunnen ook de gegevensstroom definiëren om op te geven welke toepassingsgegevens in gegenereerde documenten worden geplaatst. Het ER-raamwerk genereert uitgaande documenten in Microsoft Office-indelingen (Excel-werkmappen of Word-documenten) met behulp van vooraf gedefinieerde sjablonen. De sjablonen worden gevuld met vereiste gegevens in overeenstemming met de geconfigureerde gegevensstroom wanneer vereiste documenten worden gegenereerd. Elke geconfigureerde indeling kan als onderdeel van een ER-oplossing worden gepubliceerd om specifieke uitgaande documenten te genereren. Dit wordt weergegeven in een configuratie met de ER-indeling die sjablonen kan bevatten die u kunt gebruiken om verschillende uitgaande documenten te genereren. Zakelijke gebruikers kunnen dit raamwerk gebruiken om vereiste bedrijfsdocumenten te beheren.
 
-**Beheer van bedrijfsdocumenten** is gebaseerd op het ER-raamwerk en stelt zakelijke gebruikers in staat zakelijke documentsjablonen te bewerken met de Microsoft 365--service of de desbetreffende Microsoft Office-bureaubladtoepassing. Wijzigingen in de documenten kunnen betrekking hebben op het wijzigen in het ontwerp van bedrijfsdocumenten en het toevoegen van tijdelijke aanduidingen voor extra gegevens zonder wijzigingen in broncode en nieuwe implementaties. Er is geen kennis van het ER-raamwerk nodig om sjablonen van bedrijfsdocumenten bij te werken.
+**Beheer van bedrijfsdocumenten** is gebaseerd op het ER-raamwerk en stelt zakelijke gebruikers in staat zakelijke documentsjablonen te bewerken met de Microsoft 365-service of de toepasselijke Microsoft Office-bureaubladtoepassing. Wijzigingen in de documenten kunnen betrekking hebben op het wijzigen in het ontwerp van bedrijfsdocumenten en het toevoegen van tijdelijke aanduidingen voor extra gegevens zonder wijzigingen in broncode en nieuwe implementaties. Er is geen kennis van het ER-raamwerk nodig om sjablonen van bedrijfsdocumenten bij te werken.
 
 > [!NOTE]
 > Houd er rekening mee dat u met Beheer van bedrijfsdocumenten sjablonen kunt wijzigen die worden gebruikt om bedrijfsdocumenten te produceren, zoals orders, facturen, enzovoort. Als een sjabloon is gewijzigd en er een nieuwe versie is gepubliceerd, wordt deze versie gebruikt om vereiste bedrijfsdocumenten te genereren. Beheer van bedrijfsdocumenten kan niet worden gebruikt om reeds gegenereerde bedrijfsdocumenten te wijzigen.
@@ -300,7 +299,7 @@ De optie **Nieuw document** is altijd beschikbaar voor een sjabloon in een ER-in
 
 4. Selecteer **OK** om het begin van het bewerkingsproces te bevestigen.
 
-De pagina **BDM-sjablooneditor** wordt geopend. De geselecteerde sjabloon is beschikbaar voor online bewerking met Microsoft 365.
+De pagina **BDM-sjablooneditor** wordt geopend. De geselecteerde sjabloon is beschikbaar voor on line bewerken met Microsoft 365.
 
 ![Sjablooneditor voor Beheer van bedrijfsdocumenten.](./media/BDM-Overview-EditingLayout1.png)
 
@@ -408,7 +407,7 @@ Wanneer u de sjabloon bewerkt vanuit een ER-indeling die eigendom is van de huid
 
 Dit is een bekend probleem met de Microsoft 365-omleiding. Dit gebeurt wanneer u zich voor de eerste keer aanmeldt bij Microsoft 365. Als u dit probleem wilt oplossen, selecteert u **Terug** in uw browser om terug te gaan naar de vorige pagina.
 
-### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>Ik begrijp hoe ik een sjabloon kan bewerken met Microsoft 365 in de eerste toepassingssessie en hoe ik de sjabloon in de tweede toepassingssessie kan gebruiken om de sjabloon aan te passen en te zien hoe mijn wijzigingen van invloed zijn op het gegenereerde bedrijfsdocument. Kan ik de Office-bureaubladtoepassing op dezelfde manier gebruiken?
+### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>Ik begrijp hoe ik een sjabloon kan bewerken met Microsoft 365 in de eerste toepassingssessie en hoe ik de sjabloon in de tweede toepassingssessie gebruik om de sjabloon aan te passen en hoe ik mijn wijzigingen kan zien die van invloed zijn op het gegenereerde bedrijfsdocument. Kan ik de Office-bureaubladtoepassing op dezelfde manier gebruiken?
 
 Ja, dat kan. Selecteer in de eerste toepassingssessie de optie **Openen in bureaubladtoepassing**. De sjabloon wordt opgeslagen in de tijdelijke bestandsopslag en geopend in de Office-bureaubladtoepassing. Voer de volgende stappen uit om een voorbeeld te bekijken van de wijzigingen in de sjabloon in het gegenereerde bedrijfsdocument:
 

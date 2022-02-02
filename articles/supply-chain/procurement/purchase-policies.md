@@ -3,7 +3,7 @@ title: Overzicht van Aanschafbeleid
 description: Dit artikel biedt informatie over aanschafbeleid. Een inkoopbeleid is een verzameling regels die het opdrachtproces regelen. Een aanschafbeleid helpt beheerders hun aanschaffingsstrategie implementeren door een beleidsstructuur te maken die is afgestemd op de strategische aanschaffingsbehoeften van de organisatie.
 author: Henrikan
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage, PurchReqControlRule, RequisitionReplenishCatAccessPolicyRule, PurchReApprovalPolicyRule, RequisitionReplenishControlRule, PurchReqControlRFQRule
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3d3c35cabc9b5b8c69dbf4d597388192b4130d49
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3cc150ae1a912fbfb4daf505e4240786c2f380a3
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575483"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982272"
 ---
 # <a name="purchasing-policies-overview"></a>Overzicht van Aanschafbeleid
 

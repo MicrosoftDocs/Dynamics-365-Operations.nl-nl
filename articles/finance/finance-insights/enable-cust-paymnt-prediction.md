@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 16ccd7f2e11f0b46aaa646de272e668d29ccc0c0
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 5002fc79842bef150892347a7ff4702b07cfe5be
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752923"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968872"
 ---
 # <a name="enable-customer-payment-predictions"></a>Voorspellingen voor klantbetalingen inschakelen
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u de functie Voorspellingen voor klantbetalingen kunt inschakelen en configureren in Financiële inzichten. U schakelt de functie in het werkgebied **Functiebeheer** in en voert de configuratie-instellingen in op de pagina **Finance Insights-configuratie**. Dit onderwerp bevat ook informatie die u kan helpen bij het effectief gebruik van de functie.
 

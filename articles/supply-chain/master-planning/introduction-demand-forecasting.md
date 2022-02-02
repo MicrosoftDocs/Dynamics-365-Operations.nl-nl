@@ -3,7 +3,7 @@ title: Overzicht vraagprognose
 description: Vraagprognoses worden gebruikt om onafhankelijke vraag van verkooporders en afhankelijke vraag op ontkoppelingspunten voor klantorders te voorspellen. De verbeterde vraagprognosereductieregels bevatten een ideale oplossing voor massa-aanpassing.
 author: ChristianRytt
 ms.date: 07/07/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 980001dda67e96ab3f428ad60cb7951dd5de4d0c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 34a8cd4b17a5a75a5e817e6a1f982d75eefbb717
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571012"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983065"
 ---
 # <a name="demand-forecasting-overview"></a>Overzicht vraagprognose
 
@@ -56,7 +56,7 @@ Drie belangrijke thema's zijn geïmplementeerd in vraagprognose:
 - **Modulariteit** – Vraagprognose is modulair en eenvoudig te configureren. U kunt de functionaliteit in- en uitschakelen door de configuratiesleutel te wijzigen via **Handel** &gt; **Voorraadprognose** &gt; **Vraagprognose**.
 - **Hergebruik van de Microsoft-stack:** met Machine Learning, dat nu deel uitmaakt van het pakket Microsoft Cortana Analytics, kunt u snel en eenvoudig voorspellende analyse-experimenten, zoals vraagschattingsexperimenten, maken door algoritmen R of Python-programmeertalen en een eenvoudige interface met slepen-en-neerzetten te gebruiken.
   - U kunt de experimenten voor vraagprognoses downloaden, ze aanpassen om uw bedrijfsbehoeften te voldoen, ze publiceren als een webservice op Azure, en ze gebruiken om vraagprognoses te genereren. De experimenten kunnen worden gedownload als u een Supply Chain Management-abonnement hebt aangeschaft voor een productieplanner als gebruiker op ondernemingsniveau.
-  - U kunt alle beschikbare experimenten voor vraagprognoses downloaden uit de [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/). De experimenten voor vraagprognose worden automatisch geïntegreerd met Supply Chain Management, maar klanten en partners moeten de experimenten die ze van [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/) downloaden zelf integreren. Daarom zijn experimenten van de [Cortana Analytics Galleryy](https://gallery.cortanaanalytics.com/) niet zo gemakkelijk te gebruiken als de experimenten voor vraagprognose in Finance and Operations. U moet de code van de experimenten wijzigen zodat ze de API (Application Programming Interface) van Finance and Operations gebruiken.
+  - U kunt alle beschikbare experimenten voor vraagprognoses downloaden uit de [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/). De experimenten voor vraagprognose worden automatisch geïntegreerd met Supply Chain Management, maar klanten en partners moeten de experimenten die ze van [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/) downloaden zelf integreren. Daarom zijn experimenten van de [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/) niet zo gemakkelijk te gebruiken als de experimenten voor vraagprognose in Finance and Operations. U moet de code van de experimenten wijzigen zodat ze de API (Application Programming Interface) van Finance and Operations gebruiken.
   - U kunt uw eigen experimenten maken in Microsoft Azure Machine Learning Studio (klassiek), ze publiceren als services op Azure en ze gebruiken om vraagprognoses te genereren.
   - Als u geen hoge prestaties vereist of als u niet vereist dat een grote hoeveelheid gegevens wordt verwerkt, kunt u de gratis laag van Machine Learning gebruiken. We raden u altijd van dit niveau te starten, met name tijdens de fasen voor implementatie en testen. Als u betere prestaties en extra opslag nodig hebt, kunt u de standaardlaag van Machine Learning gebruiken. Deze laag vereist een Azure-abonnement en brengt extra kosten met zich mee. Voor details over Machine Learning-prijzen raadpleegt u [Machine Learning Studio-prijzen](https://aka.ms/machine-learning-price-info).
 - **Prognosereductie op elk ontkoppelingspunt** - Vraagprognoses in builds maken gebruik van deze functionaliteit, waarmee u prognoses van afhankelijke en onafhankelijke vraag kunt maken op elk ontkoppelingspunt.
