@@ -2,7 +2,7 @@
 title: Winkeltransacties valideren voor de berekening van overzichten
 description: In dit onderwerp wordt de functionaliteit beschreven voor het valideren van winkeltransacties in Microsoft Dynamics 365 Commerce.
 author: analpert
-ms.date: 12/15/2021
+ms.date: 01/31/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: analpert
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 008368ae32aa92682d578b75b148e0587fcc94e0
-ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.openlocfilehash: f51b1f39aa212fe8587761721194db7791bec5bc
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "7924766"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087444"
 ---
 # <a name="validate-store-transactions-for-statement-calculation"></a>Winkeltransacties valideren voor de berekening van overzichten
 
@@ -51,9 +51,9 @@ Met het batchproces **Winkeltransacties valideren** wordt de consistentie van de
 
 De volgende tabel bevat de validatieregels voor de transactiekoptekst die worden gecontroleerd tegen de koptekst van detailhandelstransacties voordat deze transacties worden doorgegeven aan de overzichtsboeking.
 
-| Titel | Beschrijving |
+| Regel | Beschrijving |
 |-------|-------------|
-| Werkdatum | Met deze regel wordt gevalideerd of de bedrijfsdatum van de transactie aan een openstaande boekperiode in het grootboek is gekoppeld. |
+| Werkdatum | Met deze regel wordt gevalideerd of de werkdatum van de transactie aan een openstaande boekperiode in het grootboek is gekoppeld. |
 | Valuta-afronding | Met deze regel wordt gevalideerd of de transactiebedragen worden afgerond volgens de afrondingsregel voor valuta's. |
 | Klantrekening | Met deze regel wordt gevalideerd of de klant die in de transactie wordt gebruikt, aanwezig is in de database. |
 | Kortingsbedrag | Met deze regel wordt gevalideerd of het kortingsbedrag in de koptekst gelijk is aan het totaal van de kortingsbedragen van de regels. |
@@ -72,7 +72,7 @@ De volgende tabel bevat de validatieregels voor de transactiekoptekst die worden
 
 De volgende tabel bevat de validatieregels voor transactieregels die worden gecontroleerd tegen de regeldetails van detailhandelstransacties voordat deze transacties worden doorgegeven aan de overzichtsboeking.
 
-| Titel | Beschrijving |
+| Regel | Beschrijving |
 |-------|-------------|
 | Streepjescode | Met deze regel wordt gevalideerd of alle streepjescodes die worden gebruikt voor de transactieregels bestaan in de database. |
 | Toeslagregels | Met deze regel wordt gevalideerd of de som van het berekende bedrag en het vrijgestelde btw-bedrag van toeslagregels gelijk is aan het oorspronkelijke berekende bedrag. |

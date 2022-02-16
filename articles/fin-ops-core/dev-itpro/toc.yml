@@ -1,10 +1,10 @@
-- name: Ontwikkeling en beheer voor Finance and Operations-apps
+- name: Ontwikkeling en beheer voor apps voor financiën en bedrijfsactiviteiten
   items:
-    - name: Ontwikkeling en beheer voor Finance and Operations-apps
+    - name: Ontwikkeling en beheer voor apps voor financiën en bedrijfsactiviteiten
       items:
         - name: Documentatie over Finance and Operations-apps
           href: ../fin-ops/index.md
-        - name: Ontwikkeling en beheer voor Finance and Operations-apps
+        - name: Ontwikkeling en beheer voor apps voor financiën en bedrijfsactiviteiten
           href: index.md
         - name: Nieuwe of gewijzigde functies
           items:
@@ -12,8 +12,10 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Nieuwe of gewijzigde functies in Platform updates
               items:
-                - name: Startpagina voor nieuwe of gewijzigde functies in Platform updates
+                - name: Startpagina voor nieuwe of gewijzigde functies in Platform-updates
                   href: get-started/whats-new-home-page.md
+                - name: Platform-updates voor versie 10.0.25 (april 2022)
+                  href: get-started/whats-new-platform-updates-10-0-25.md
                 - name: Platform-updates voor versie 10.0.24 (februari 2022)
                   href: get-started/whats-new-platform-updates-10-0-24.md
                 - name: Platform-updates voor versie 10.0.23 (januari 2022)
@@ -430,6 +432,8 @@
                   href: deployment/install-deployable-package.md
                 - name: Een pakket verwijderen
                   href: deployment/uninstall-deployable-package.md
+                - name: Aangepaste X++-scripts uitvoeren met nul downtime
+                  href: deployment/run-custom-scripts.md
                 - name: Problemen met pakkettoepassingen oplossen
                   href: deployment/deployable-package-troubleshooting.md
             - name: Aangepaste Help implementeren
@@ -854,6 +858,8 @@
                   href: perf-test/continuous-build-test-automation.md
                 - name: SysTest-filtering met klasse- en methodekenmerken
                   href: perf-test/systest-filtering.md
+                - name: SysTestRow-kenmerk voor het testen van meerdere waarden
+                  href: perf-test/systest-row.md
                 - name: Acceptatietestbibliotheek
                   items:
                     - name: Resources acceptatietestbibliotheek

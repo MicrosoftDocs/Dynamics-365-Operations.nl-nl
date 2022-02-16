@@ -1,6 +1,8 @@
-- name: Dynamics 365 for Talent
-  href: ./index.md
+- name: Pensionering Dynamics 365 Talent
+  href: ../human-resources/hr-talent-retire.md?toc=/dynamics365/talent/toc.json
   items:
+    - name: Startpagina van Dynamics 365 Talent
+      href: ./index.md
     - name: Aan de slag
       items:
         - name: Aan de slag met Talent

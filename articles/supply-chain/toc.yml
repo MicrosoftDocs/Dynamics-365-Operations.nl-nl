@@ -12,6 +12,8 @@
               items:
                 - name: Startpagina voor nieuwe of gewijzigde functies in Supply Chain Management
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.25 (april 2022)
+                  href: get-started/whats-new-scm-10-0-25.md
                 - name: Supply Chain Management 10.0.24 (februari 2022)
                   href: get-started/whats-new-scm-10-0-24.md
                 - name: Supply Chain Management 10.0.23 (januari 2022)
@@ -102,8 +104,6 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Video's
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Woordenlijst
-                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/supply-chain/toc.json
             - name: Trainingscatalogus
               items:
                 - name: Startpagina trainingscatalogus
@@ -308,6 +308,8 @@
               href: cloud-edge/cloud-edge-workload-manufacturing.md
             - name: Werkbelasting van magazijnbeheer voor cloud- en randschaaleenheden
               href: cloud-edge/cloud-edge-workload-warehousing.md
+            - name: De mobiele Warehouse Management-app configureren voor cloud- en randschaaleenheden
+              href: cloud-edge/cloud-edge-workload-setup-warehouse-app.md
             - name: Magazijnorders voor cloud- en randschaaleenheden
               href: cloud-edge/cloud-edge-warehouse-order.md
             - name: Magazijnvoorraadcorrectie
@@ -1233,6 +1235,8 @@
                   items:
                     - name: Configuraties maken om gegevens te importeren uit een extern XML-bestand
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: In batchmodus gegevens importeren vanuit handmatig geselecteerde bestanden
+                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Gegevensimport configureren in batchmodus op basis van in SharePoint gevonden bestanden
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Bestanden importeren in XML-indeling
@@ -1461,6 +1465,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Toepassingsupdate 10.0.21
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Toepassingsupdate 10.0.23
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Toepassingsupdate 10.0.25
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Een aangepaste opslaglocatie opgeven voor gegenereerde documenten
                   items:
                     - name: Abonneren op een gebeurtenis om een reactie te vragen van een abonneehandler
@@ -1691,12 +1699,16 @@
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Vast geplande orders
                   href: master-planning/planning-optimization/planned-order-firming.md
+                - name: Geplande orders vereenvoudigd
+                  href: master-planning/planning-optimization/planned-orders-simplified.md
                 - name: Planning met negatieve voorhanden hoeveelheden
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Planhistorie en planningslogboeken weergeven
                   href: master-planning/planning-optimization/plan-history-logs.md
                 - name: Een planningstaak annuleren
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Actieberichten
+                  href: master-planning/action-messages.md
                 - name: Problemen met Planningsoptimalisatie oplossen
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
                 - name: Uitbreidbaarheid van Planningsoptimalisatie
@@ -1725,12 +1737,10 @@
                   href: master-planning/safety-stock-journal.md
                 - name: Vertragingen
                   href: master-planning/delays.md
-                - name: Een master planning-taak annuleren
+                - name: Een hoofdplanningstaak annuleren
                   href: master-planning/cancel-master-planning-job.md
                 - name: Tracering gebruiken voor explosie
                   href: master-planning/trace-explosion.md
-                - name: Actieberichten
-                  href: master-planning/action-messages.md
                 - name: Een hoofdplanningsuitvoering controleren
                   href: master-planning/tasks/monitor-master-planning-run.md
                 - name: Een planning voor een vestiging maken
@@ -3763,6 +3773,8 @@
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
                     - name: Vertrouwensrelatie voor certificaatpad niet gevonden bij bijwerken en migreren naar WMS
                       href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
+                - name: Verwerkingsproblemen treden op na installatie van de werkbelasting voor een magazijn voor een schaaleenheid
+                  href: troubleshooting/warehousing/Scale-unit-warehouse-workload-installation-issues.md
                 - name: Ook bij beschikbare voorraad wordt de instructie voor automatische reservering voor een batchnummer weergegeven
                   href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
                 - name: Order verzamelen kan niet worden geblokkeerd vanwege onvoltooide aanvullingswerkzaamheden
@@ -3901,9 +3913,11 @@
                   href: troubleshooting/warehousing/work-remains-blocked.md
                 - name: Het is niet mogelijk om werk van een gebruiker te annuleren
                   href: troubleshooting/warehousing/you-cannot-cancel-wo.md
-    - name: Ontwikkeling en beheer voor Finance and Operations-apps
+    - name: Ontwikkeling en beheer voor apps voor financiën en bedrijfsactiviteiten
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md
     - name: Dynamics 365 Commerce
       href: ../commerce/index.md
+    - name: Dynamics 365 Human Resources
+      href: ../human-resources/index.md

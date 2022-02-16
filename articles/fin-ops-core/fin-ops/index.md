@@ -1,6 +1,6 @@
 ---
-title: Documentatie voor Finance and Operations-apps
-description: Documentatie voor Finance and Operations-apps.
+title: Documentatie over Finance and Operations-apps
+description: Documentatie over Finance and Operations-apps.
 author: tonyafehr
 ms.date: 04/13/2021
 ms.topic: index-page
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe029d6a3eb2555e0d77035b089c7cb3e710ee85
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782127"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075392"
 ---
-# <a name="finance-and-operations-application-documentation"></a>Documentatie voor Finance and Operations-apps
+# <a name="finance-and-operations-application-documentation"></a>Documentatie over Finance and Operations-apps
 
 [!include [banner](includes/banner.md)]
 
@@ -43,7 +43,7 @@ Veel van deze inhoud is ook van toepassing op de gerelateerde producten: Dynamic
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Een implementatieoptie kiezen</a></p>
  <p><a href="get-started/purchase-on-premises.md">Finance and Operations (on-premises) aanschaffen</a></p>
 
-<h3><a href="imp-lifecycle/implementation-lifecycle.md">Levenscyclus van de implementatie</a></h3>
+<h3><a href="imp-lifecycle/implementation-lifecycle.md">-implementatielevenscyclus</a></h3>
 <p><a href="/dynamics365/fasttrack/">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Onboarding van een project</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Voorbereiding voor live gaan</a></p>
@@ -80,12 +80,14 @@ Veel van deze inhoud is ook van toepassing op de gerelateerde producten: Dynamic
 <p><a href="../../finance/public-sector/public-sector-functionality.md">Openbare sector</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Regionale wettelijk voorgeschreven functies</a></p>
 
-<h3><a href="hr/hr-landing-page.md">Human Resources</a></h3>
-<p><a href="../../human-resources/hr-benefits-manage-program.md">Vergoedingen</a></p>
-<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Ontwikkeling en training van werknemers</a></p>
-<p><a href="../../human-resources/hr-learning-questionnaires.md">Vragenlijsten</a></p>
-<p><a href="hr/manage-recruiting-process.md">Werving</a></p>
-<p><a href="hr/localizations/noam-usa-payroll.md">Salarisadministratie VS</a></p>
+<h3><a href="hr/hr-landing-page.md">Human resources</a></h3>
+<p><a href="../../human-resources/hr-employee-manager-self-service-overview.md">Selfservice werknemer</a></p>
+<p><a href="../../human-resources/hr-personnel-departments-jobs-positions.md">Personeelsbeheer</a></p>
+<p><a href="../../human-resources/hr-leave-and-absence-overview.md">Verlof en verzuim</a></p>
+<p><a href="../../human-resources/hr-benefits-manage-program.md">Voordelen</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Werknemerontwikkeling</a></p>
+<p><a href="../../human-resources/hr-learning-courses.md">Leren</a></p>
+ <p><a href="hr/localizations/noam-usa-payroll.md">Salarisadministratie VS</a></p>
 
 </td>
 <td>
@@ -131,11 +133,6 @@ Veel van deze inhoud is ook van toepassing op de gerelateerde producten: Dynamic
 <p><a href="../../commerce/define-maintain-retail-channels.md">Kanalen instellen en beheren</p>
 <p><a href="../../commerce/retail-peripherals-overview.md">MPOS en Cloud POS</p>
 <p><a href="../../commerce/dev-itpro/dev-retail-home-page.md">Commerce-ontwikkelaar en -beheer</p>
-
-<h4><a href="/dynamics365/human-resources/">Dynamics 365 Human Resources</a></h4>
-<p><a href="../../human-resources/hr-admin-overview.md">Beheerdershandleiding</a></p>
-<p><a href="../../human-resources/hr-developer-overview.md">Ontwikkelaarshandleiding</a></p>
-<p><a href="../../human-resources/hr-hrpro-overview.md">Gebruikershandleiding</a></p>
 
 
 </td>
