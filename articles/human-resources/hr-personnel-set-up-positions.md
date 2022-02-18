@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f4b9f09db8465cc55c9b0c4dc403c2c7a3647d7e
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 67682b6ea949183c2697b658bb77925a791e7da1
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728707"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071499"
 ---
 # <a name="set-up-positions"></a>Posities instellen
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -35,48 +38,47 @@ Posities zijn een belangrijk element van het lagere niveau van een organisatiehi
 
     De velden **Functieomschrijving**, **Titel** en **FTE-aanstellingsfactor** worden automatisch van de geselecteerde functie naar de positie gekopieerd.
 
-5. ResolveChanges de functie.
-6. Selecteer **Positie maken**.
-7. Typ of selecteer een waarde in het veld **Afdeling**.
-8. Typ of selecteer een waarde in het veld **Positietype**.
-9. Typ of selecteer een waarde in het veld **Compensatieregio**.
+5. Selecteer **Positie maken**.
+6. Typ of selecteer een waarde in het veld **Afdeling**.
+7. Typ of selecteer een waarde in het veld **Positietype**.
+8. Typ of selecteer een waarde in het veld **Compensatieregio**.
 
     Met het veld **Compensatieregio** worden de geschiktheidsregels voor compensaties en budgetten voor vaste verhoging bepaald die van toepassing zijn op een medewerker in die positie.
 
-10. Voer in het veld **Beschikbaar voor toewijzing** een datum en een tijd in.
-11. Vouw de sectie **Positieduur** uit.
+9. Voer in het veld **Beschikbaar voor toewijzing** een datum en een tijd in.
+10. Vouw de sectie **Positieduur** uit.
 
     De positieduur wordt standaard ingevoerd op basis van eerder ingevoerde activerings- en deactiveringsdatums.
 
-12. Vouw de sectie **Verantwoording aan positie** uit.
+11. Vouw de sectie **Verantwoording aan positie** uit.
 
     Wanneer u een werknemer toewijst aan een positie die aan een andere positie rapporteert, maakt u een directe rapporteringsrelatie tussen de werknemers die zijn toegewezen aan de twee posities.
 
-13. Selecteer **Nieuw bij** om het dialoogvenster met vervolgkeuzemenu te openen.
-14. Typ of selecteer een waarde in het veld **Rapporteert aan**.
-15. Selecteer **Maken**.
-16. Vouw de sectie **Medewerkerstoewijzing** uit.
-17. Vouw de sectie **Relaties** uit of samen.
+12. Selecteer **Nieuw bij** om het dialoogvenster met vervolgkeuzemenu te openen.
+13. Typ of selecteer een waarde in het veld **Rapporteert aan**.
+14. Selecteer **Maken**.
+15. Vouw de sectie **Medewerkerstoewijzing** uit.
+16. Vouw de sectie **Relaties** uit of samen.
 
     Als uw organisatie gebruikmaakt van een matrixhiërarchie of een andere aangepaste hiërarchie, kunt u positiehiërarchietypen instellen en vervolgens rapporteringsrelaties toevoegen aan posities voor elke hiërarchie die u hebt ingesteld.
 
-18. Selecteer **Toevoegen**.
-19. Markeer in de lijst de geselecteerde rij.
-20. Typ of selecteer een waarde in het veld **Hiërarchienaam**.
-21. Typ of selecteer een waarde in het veld **Verantwoording aan positie**.
-22. Vouw de sectie **Salarisadministratie** uit.
-23. Typ of selecteer een waarde in het veld **Betalingscyclus**.
-24. Typ of selecteer een waarde in het veld **Betaald door**.
-25. Voer in het veld **Jaarlijkse normale uren** een getal in.
+17. Selecteer **Toevoegen**.
+18. Markeer in de lijst de geselecteerde rij.
+19. Typ of selecteer een waarde in het veld **Hiërarchienaam**.
+20. Typ of selecteer een waarde in het veld **Verantwoording aan positie**.
+21. Vouw de sectie **Salarisadministratie** uit.
+22. Typ of selecteer een waarde in het veld **Betalingscyclus**.
+23. Typ of selecteer een waarde in het veld **Betaald door**.
+24. Voer in het veld **Jaarlijkse normale uren** een getal in.
 
     De waarde die u invoert, is het aantal regelmatig betaalde uren die de medewerker in deze positie naar verwachting elk jaar zal werken.
 
-26. Vouw de sectie **Vakbond** uit.
-27. Vouw de sectie **Vakbond** samen.
-28. Vouw de sectie **Financiële dimensies** uit.
-29. Typ of selecteer een waarde in het veld **Distributiesjabloon**.
-30. Typ of selecteer een waarde in het veld **Afdeling**.
-31. Selecteer **Opslaan**.
+25. Vouw de sectie **Vakbond** uit.
+26. Vouw de sectie **Vakbond** samen.
+27. Vouw de sectie **Financiële dimensies** uit.
+28. Typ of selecteer een waarde in het veld **Distributiesjabloon**.
+29. Typ of selecteer een waarde in het veld **Afdeling**.
+30. Selecteer **Opslaan**.
 
 
 

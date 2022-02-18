@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: b1687b24f499f4d226406a0035f8ea70b6046167
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 54962b48dee05b2cd62fd3ea8814e4c965ba7818
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901984"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069374"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>De mobiele app Warehouse Management installeren en verbinden
 
@@ -143,6 +143,10 @@ Verificatie met Azure AD biedt een veilige manier om een mobiel apparaat te verb
 Certificaten kunnen worden gebruikt als geheimen om de identiteit van de toepassing te bewijzen wanneer een token wordt aangevraagd. Het openbare gedeelte van het certificaat wordt geüpload naar de app-registratie in de Azure-portal, terwijl het volledige certificaat moet worden geïmplementeerd op elk apparaat waarop de mobiele app Warehouse Management is geïnstalleerd. Uw organisatie is verantwoordelijk voor het beheer van het certificaat wat betreft rotatie en dergelijke. U kunt zelfondertekende certificaten gebruiken, maar u moet altijd met niet-exporteerbare certificaten werken.
 
 U moet het certificaat lokaal beschikbaar maken voor elk apparaat waarop u de mobiele app Warehouse Management uitvoert. Zie [Certificaten voor verificatie gebruiken in Microsoft Intune](/mem/intune/protect/certificates-configure) voor informatie over het beheren van certificaten voor door Intune beheerde apparaten als u Intune gebruikt.
+
+## <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>De mobiele app Warehouse Management configureren voor cloud- en randschaaleenheden
+
+Enkele extra stappen zijn vereist als u de mobiele app Warehouse Management wilt uitvoeren voor een cloud- of randschaaleenheid. Zie [De mobiele app Warehouse Management configureren voor cloud- en randschaaleenheden](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md) voor instructies.
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>De toepassing configureren door verbindingsinstellingen te importeren
 
@@ -306,5 +310,6 @@ Als een apparaat is verloren of beschadigd, moet u de toegang tot Supply Chain M
 
 - [Gebruikersinstellingen mobiel apparaat](mobile-device-user-settings.md)
 - [Stappictogrammen en -titels toewijzen voor de mobiele app Warehouse Management](step-icons-titles.md)
+- [De mobiele app Warehouse Management configureren voor cloud- en randschaaleenheden](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

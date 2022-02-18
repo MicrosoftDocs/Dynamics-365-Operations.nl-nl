@@ -1,5 +1,5 @@
 ---
-title: De Help-ervaring voor Finance and Operations-apps configureren
+title: De Help-ervaring voor apps voor financiële en bedrijfsactiviteiten configureren
 description: Dit onderwerp biedt informatie over de onderdelen van het Help-systeem voor sommige Microsoft Dynamics 365-apps.
 author: margoc
 ms.date: 08/11/2021
@@ -15,22 +15,25 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a6c37822e84ba08fa0720ed2b3912cbec1448e3
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: bac06e258a96bb50bb6de7957e3e5ed07e966127
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594852"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071003"
 ---
-# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>De Help-ervaring voor Finance and Operations-apps configureren
+# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>De Help-ervaring voor apps voor financiële en bedrijfsactiviteiten configureren
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp vindt u een overzicht van de onderdelen van het Help-systeem voor Finance and Operations-apps, zoals Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce en Dynamics 365 Human Resources. Ook wordt uitgelegd hoe u deze onderdelen verbindt en u vindt een overzicht van het proces voor het maken van aangepaste Help.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+In dit onderwerp vindt u een overzicht van de onderdelen van het Help-systeem voor apps voor financiële en bedrijfsactiviteiten, zoals Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce en Dynamics 365 Human Resources. Ook wordt uitgelegd hoe u deze onderdelen verbindt en u vindt een overzicht van het proces voor het maken van aangepaste Help.
 
 ## <a name="help-architecture"></a>Help-architectuur
 
-Finance and Operations-apps bevatten conceptuele overzichten en andere onderwerpen die op de site met [Microsoft Dynamics 365-documentatie](/dynamics365/) worden gepubliceerd. Deze inhoud kan vervolgens worden geopend vanuit het deelvenster **Help** in het product. De volgende afbeelding toont de onderdelen van het Help-systeem.
+Apps voor financiële en bedrijfsactiviteiten bevatten conceptuele overzichten en andere onderwerpen die op de site met [Microsoft Dynamics 365-documentatie](/dynamics365/) worden gepubliceerd. Deze inhoud kan vervolgens worden geopend vanuit het deelvenster **Help** in het product. De volgende afbeelding toont de onderdelen van het Help-systeem.
 
 [![Help-architectuur.](./media/help-architecture.png)](./media/help-architecture.png)
 
@@ -60,7 +63,7 @@ Als u taakbegeleidingen voor een oplossing wilt configureren, volgt u deze stapp
 2. Selecteer de BPM-bibliotheken (in het geselecteerde project) om taakregistraties op te halen.
 3. Stel de weergavevolgorde van de BPM-bibliotheken in. Dit weergavevolgorde bepaalt de volgorde waarin de taakregistraties uit de bibliotheken verschijnen in het deelvenster **Help**.
 
-Wanneer u deze stappen hebt voltooid, kunt u het deelvenster **Help** openen en het tabblad **Taakbegeleidingen** selecteren. U ziet nu de taakbegeleidingen die van toepassing zijn op de pagina die nu is geopend in Finance and Operations-apps. Als er geen taakbegeleidingen worden gevonden, kunt u trefwoorden invoeren om uw zoekopdracht te verfijnen.
+Wanneer u deze stappen hebt voltooid, kunt u het deelvenster **Help** openen en het tabblad **Taakbegeleidingen** selecteren. U ziet nu de taakbegeleidingen die van toepassing zijn op de pagina die nu is geopend in apps voor financiële en bedrijfsactiviteiten. Als er geen taakbegeleidingen worden gevonden, kunt u trefwoorden invoeren om uw zoekopdracht te verfijnen.
 
 ### <a name="showing-translated-task-guides"></a>Vertaalde taakbegeleidingen weergeven
 
@@ -84,7 +87,7 @@ Als u een partner bent en een bibliotheek propageert als bedrijfsbibliotheek en 
 
 ### <a name="connect-a-custom-help-site"></a>Verbinding maken met een aangepaste Help-site
 
-Finance and Operations-apps worden zelden in hun kant-en-klare vorm gebruikt. In plaats daarvan wordt de oplossing aangepast en uitgebreid om aan de behoeften van de organisatie te voldoen. U kunt de Help-ervaring ook aanpassen en uitbreiden. U kunt bijvoorbeeld aangepaste Help toevoegen aan het deelvenster **Help** in het product.
+Apps voor financiële en bedrijfsactiviteiten worden zelden in hun kant-en-klare vorm gebruikt. In plaats daarvan wordt de oplossing aangepast en uitgebreid om aan de behoeften van de organisatie te voldoen. U kunt de Help-ervaring ook aanpassen en uitbreiden. U kunt bijvoorbeeld aangepaste Help toevoegen aan het deelvenster **Help** in het product.
 
 Microsoft heeft een toolkit geleverd waarmee u aangepaste Help kunt implementeren en kunt koppelen aan het deelvenster **Help**. Zie [Overzicht van aangepaste Help](../../dev-itpro/help/custom-help-overview.md) voor informatie over het instellen van een aangepaste Help-oplossing die is gekoppeld aan het deelvenster **Help**.
 

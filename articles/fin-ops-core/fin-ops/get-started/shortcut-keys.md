@@ -1,6 +1,6 @@
 ---
 title: Sneltoetsen
-description: Dit onderwerp biedt een overzicht van de sneltoetscombinaties die u kunt gebruiken wanneer u met Finance and Operations-apps werkt.
+description: Dit onderwerp biedt een overzicht van de sneltoetscombinaties die u kunt gebruiken wanneer u met apps voor financiële en bedrijfsactiviteiten werkt.
 author: jasongre
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e6f6faf75bb9dc2b11b3a27a886b1674cc7b339
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 0ecf745337c15270290f02496cc6ce4ccac86861
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913513"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070978"
 ---
 # <a name="keyboard-shortcuts"></a>Sneltoetsen
 
 [!include [banner](../includes/banner.md)]
 
-Met de volgende sneltoetsen kunt u snel en efficiënt gegevens invoeren in Finance and Operations-apps.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+Met de volgende sneltoetsen kunt u snel en efficiënt gegevens invoeren in apps voor financiële en bedrijfsactiviteiten.
 
 > [!NOTE]
 > De sneltoetsen die hier worden beschreven, verwijzen naar de toetsenbordindeling voor de Verenigde Staten. De toetsen in andere toetsenbordindelingen komen mogelijk niet exact overeen met de toetsen op een toetsenbord voor de VS.

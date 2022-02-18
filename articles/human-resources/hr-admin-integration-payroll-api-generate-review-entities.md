@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a90daf02862b9c6e5415999a491d54d841d8f5f9a236b9cc472112145c50e6d2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1249b29031c3c7b7eb8bcbeee91895d1085b9bd
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739269"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066113"
 ---
 # <a name="generate-payroll-entities"></a>Entiteiten voor salarisadministratie genereren
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 Gebruik deze OData-functie om de entiteiten te genereren die nodig zijn voor salarisintegratie. Als er wijzigingen worden aangebracht aan deze entiteiten in Human Resources, zoals het toevoegen van aangepaste velden, kan deze functie opnieuw worden aangeroepen om de metagegevens van elke entiteit te vernieuwen. Het antwoord bevat een bewerkings-id die u kunt controleren zodat u weet wanneer het proces voor het genereren is voltooid.
 

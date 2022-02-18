@@ -14,14 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 413143afb578aed29ce0836aaa3ac98ffc0c6cc3
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: 7c72f866886f320d8a7fa22d6ccfa7e43284b5bf
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7484091"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071488"
 ---
 # <a name="process-compensation"></a>Compensatie verwerken
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -41,10 +44,10 @@ Nadat de parameters van de procesgebeurtenis zijn opgeslagen, klikt u op de knop
 
 Klik op de knop **Toevoegen** op het tabblad **Plannen** om een compensatieplan toe te voegen aan de procesgebeurtenis. De kolommen **Andere hefboomwerking gebruiken**, **Hefboomwerkingsfactor** en **Beschrijving van hefboomwerking** worden alleen gebruikt voor variabele-compensatieplannen en worden hier niet behandeld.
 
-Sla de record op en klik vervolgens op de knop **Toevoegen** op het tabblad **Acties** om vaste-compensatieacties voor het geselecteerde plan toe te voegen. Gebruik de optie **Aanbevelingen inschakelen**, als u een bedrag wilt kunnen invoeren dat afwijkt van de berekende richtlijnverhoging voor de actie. Als u een actie wilt berekenen op basis van het resultaat van de vorige actie om zo meerdere compensatieacties aan elkaar te koppelen, schakel dan de optie **Vorig resultaat gebruiken** in. Vaste-compensatieacties zijn typen compensatielogica waaraan u een beschrijvende naam kunt geven. Bij Schaal- en Bandplannen kunt u alleen vaste-compensatieacties van de volgende typen toevoegen:
+Sla de record op en klik vervolgens op de knop **Toevoegen** op het tabblad **Acties** om vaste-compensatieacties voor het geselecteerde plan toe te voegen. Gebruik de optie **Aanbevelingen inschakelen**, als u een bedrag wilt kunnen invoeren dat afwijkt van de berekende richtlijnverhoging voor de actie. Als u een actie wilt berekenen op basis van het resultaat van de vorige actie om zo meerdere compensatieacties aan elkaar te koppelen, schakel dan de optie **Vorig resultaat gebruiken** in. Vaste-compensatieacties zijn typen compensatielogica waaraan u een beschrijvende naam kunt geven. Bij **Schaal**- en **Schijf**-plannen kunt u alleen vastecompensatieacties van de volgende typen toevoegen:
 
-| Type vastecompensatieactie | Functionaliteit                                                                                                                                                                                                                                                                                                                                                                                                    |
-|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Type vastecompensatieactie | Functionaliteit                  |
+|-------------------------------|-------------------------------------------------------------------------|
 | Eigen vermogen                        | Salarisaanpassingsacties vergelijken de het salaristarief van de werknemer op de einddatum van de cyclus met het laagste referentiepunt voor het niveau dat is aangegeven voor de functie van de werknemer. Als het salaristarief van de werknemer lager is dan het minimum referentiepunt, wordt de verhoging berekend die nodig is om de werknemer naar het laagste punt in dat bereik te krijgen.                                                                                |
 | Verdienste                         | Acties voor verdienste berekenen een verhoging op basis van het salaristarief van de werknemer vanaf de einddatum van de cyclus en het verhogingspercentage in de vaste-budgetverhoging voor de afdeling, de vakbond en de locatie van de werknemer.                                                                                                                                                                                         |
 | Algemeen                       | Algemene acties berekenen een verhoging op basis van een percentage of geven de werknemers een vast bedrag. Dit wordt bepaald op basis van de instellingen voor **Vaste compensatie** op het tabblad **Algemeen**.                                                                                                                                                                                                                        |
@@ -53,12 +56,12 @@ Sla de record op en klik vervolgens op de knop **Toevoegen** op het tabblad **Ac
 
 U kunt alleen **Vaste-compensatieacties** van het type Stap toevoegen aan een Stappenplan.
 
-| Type vastecompensatieactie | Functionaliteit                                                                                                                                                                                           |
-|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Type vastecompensatieactie | Functionaliteit                |
+|--------------------------------|------------------------------|
 | Stap                           | Geef op het tabblad **Algemeen** aan of deze Stap-actie de werknemers 0 stappen, één stap of twee stappen naar voren moet verplaatsen.                                                                                  |
 |                                | **0 stappen**: De werknemer ontvangt het salaristarief voor de stap waarop hij/zij zich momenteel bevindt.                                                                                                                      |
 |                                | **1 stap**: Het systeem controleert of de werknemer al bij het laatste referentiepunt voor diens niveau is.                                                                                             |
-|                                | **2 stappen**: Het systeem verplaatst de werknemer twee stappen naar voren op het huidige niveau. Het systeem verplaatst de werknemer mogelijk slechts één stap (of zelfs nul stappen) als deze het laatste referentiepunt voor hun niveau bereikt. |
+|                                | **2 stappen**: de werknemer gaat twee stappen op het huidige niveau vooruit. Werknemers schuiven mogelijk slechts één stap (of zelfs nul stappen) op als ze het laatste referentiepunt voor hun niveau bereiken. |
 
 ## <a name="run-the-compensation-process"></a>Het compensatieproces uitvoeren
 Nadat de procesgebeurtenis is ingesteld met de nodige datumvelden, plannen en acties, kunt u klikken op **Proces uitvoeren** op de pagina **Procesgebeurtenis**. Hiermee wordt het dialoogvenster **Compensatieproces uitvoeren** geopend. Klik op de optie **Resultaten van verwerking weergeven** om te zien hoe de compensatiebedragen voor elke werknemer zijn berekend. Als u op **OK** klikt, wordt het compensatieproces uitgevoerd voor alle werknemers in de geselecteerde compensatieplannen vanaf de cycluseinddatum.

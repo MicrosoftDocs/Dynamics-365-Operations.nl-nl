@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9ad7f116f979d571a5e34eee67beb7218a271522
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: f699b00ab7ea2d043e12824015c54439caf8e63c
+ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777589"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "8022969"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Leverancierssamenwerking met klanten
 
@@ -78,7 +78,7 @@ Als u consignatievoorraad gebruikt, kunt u de interface voor leverancierssamenwe
 
 ## <a name="working-with-rfqs-in-the-vendor-bidding-workspace"></a>Werken met offerteaanvragen in het werkgebied Biedingen van leverancier
 
-In de werkruimte **Biedingen van leverancier** kunt u de offerteaanvragen weergeven waarop uw bedrijf is gevraagd te reageren. U kunt ook reageren op de offerteaanvragen. 
+In de werkruimte **Biedingen van leverancier** kunt u de offerteaanvragen weergeven waarop uw bedrijf is gevraagd te reageren. U kunt ook reageren op de offerteaanvragen.
 
 De werkruimte bevat ook alle offerteaanvragen die u hebt binnengehaald of verloren. Als het systeem is geconfigureerd voor de publieke sector, worden in het werkgebied de offerteaanvragen weergegeven die openbaar beschikbaar zijn.
 
@@ -96,20 +96,28 @@ Open het werkgebied **Biedingen van leverancier** om toegang te krijgen tot de v
 
 ### <a name="working-with-rfqs-that-are-publicly-available"></a>Werken met offerteaanvragen die openbaar beschikbaar zijn
 
-Mensen die in de publieke sector werken, kunnen openstaande en verlopen offerteaanvragen bekijken die beschikbaar zijn gemaakt voor het publiek.
+Mensen die in de openbare sector werken, kunnen openstaande en verlopen offerteaanvragen bekijken die beschikbaar zijn gemaakt voor het publiek.
 
 - Selecteer de koppeling **Gepubliceerde offerteaanvragen openen** voor een overzicht van openstaande offerteaanvragen die openbaar beschikbaar zijn. Een openstaande offerteaanvraag is een offerteaanvraag die nog niet is verlopen. U kunt de vervaldatum en -tijd vinden in de koptekst van de offerteaanvraag.
 
-    Als u bent uitgenodigd om te bieden, kunt u dezelfde offerteaanvraag vinden op de pagina **Uitnodigingen voor nieuw bod**. Soms wilt u mogelijk bieden op een openstaande offerteaanvraag terwijl u niet bent uitgenodigd om te bieden. In dat geval kunt u mogelijk uzelf uitnodigen, mits de klant de mogelijkheid voor zelfuitnodiging voor de offerteaanvraagcase biedt.
+    Als u bent uitgenodigd om te bieden, kunt u dezelfde offerteaanvraag vinden op de pagina **Uitnodigingen voor nieuw bod**. Soms wilt u mogelijk bieden op een openstaande offerteaanvraag terwijl u niet bent uitgenodigd om te bieden. In dat geval kunt u mogelijk uzelf uitnodigen, mits de klant de mogelijkheid voor zelfuitnodiging voor de offerteaanvraagcase biedt. 
 
-    Verbeter de toegankelijkheid van de koppeling **Gepubliceerde offerteaanvragen openen** door de functie **Koppeling 'Gepubliceerde offerteaanvragen openen' als tegel weergeven** in te schakelen. Met deze functie wordt de koppeling naar een tegel geconverteerd en naar een prominente locatie verplaatst, zodat u de tegel gemakkelijk kunt terugvinden. (Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld.)
+    De pagina **Uitnodigingen voor nieuw bod** kan een filter bevatten waarmee u de openstaande offerteregels kunt bekijken en die regels kunt identificeren die overeenkomen met uw goedgekeurde inkoopcategorieën. Om dit filter beschikbaar te maken, moet u de functie *Leveranciers naar offerteaanvragen per inkoopcategorie laten zoeken* in uw systeem inschakelen. Beheerders kunnen het werkgebied **Functiebeheer** gebruiken om de status van deze functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
+
+    - **Module:** *Leveranciers*
+    - **Functienaam**: *Leveranciers naar offerteaanvragen per inkoopcategorie laten zoeken* <!-- KFM: I don't see this here, is this right? -->
+
+    U kunt de toegankelijkheid van de koppeling **Gepubliceerde offerteaanvragen openen** verbeteren door de functie *Koppeling 'Gepubliceerde offerteaanvragen openen' als tegel weergeven* in te schakelen. Met deze functie wordt de koppeling naar een tegel geconverteerd en naar een prominente locatie verplaatst, zodat u de tegel gemakkelijk kunt terugvinden. Beheerders kunnen het werkgebied **Functiebeheer** gebruiken om de status van deze functie te controleren en desgewenst in te schakelen. (Vanaf Supply Chain Management versie 10.0.21 is de functie standaard ingeschakeld.) De functie wordt daar als volgt weergegeven:
+
+    - **Module:** *Inkoopbeheer*
+    - **Functienaam:** *De koppeling Gepubliceerde offerteaanvragen openen weergeven als tegel*
 
 - Selecteer de koppeling **Gesloten gepubliceerde offerteaanvragen** voor een overzicht van gesloten offerteaanvragen die beschikbaar zijn voor het publiek. Een gesloten offerteaanvraag is een offerteaanvraag die is verlopen. U kunt de vervaldatum en -tijd vinden in de koptekst van de offerteaanvraag.
 
     In een gesloten offerteaanvraag worden alle biedingen van leveranciers tot het regelniveau weergegeven. Wanneer biedingen worden toegekend of geweigerd, wordt deze informatie weergegeven in de gesloten offerteaanvraag. Eventuele bijlagen die zijn opgenomen in de bieding zijn ook beschikbaar.
 
 > [!NOTE]
-> Deze functionaliteit is alleen beschikbaar als de configuratie Publieke sector is ingeschakeld.
+> Deze functionaliteit is alleen beschikbaar als de configuratie voor openbare sector is ingeschakeld.
 
 ### <a name="bidding"></a>Bieden
 

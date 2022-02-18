@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bb827e17dcfc63031d0edcb5f447e70f03e8ac3c
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: e798646263b9939445f49a3866532cd229c668cd
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431457"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071440"
 ---
 # <a name="edit-personal-information"></a>Persoonlijke gegevens bewerken
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -69,7 +72,7 @@ De op de pagina **Parameters globaal adresboek** ingestelde parameters bepalen w
     - Selecteer **Nieuw** om een identificatienummer toe te voegen. Vul de velden in en selecteer **Opslaan**.
     - Selecteer **Bewerken** om een nummer te bewerken. Bewerk de velden waar nodig en selecteer **Opslaan**.
 
-7. Als u wilt wijzigen hoe u wordt betaald, selecteert u het tabblad **Mijn betalingsgegevens**. Dit tabblad is alleen beschikbaar als betalingsmethoden zijn ingeschakeld in het formulier **Parameters personeel**. HR kan **Bankcheque**, **Contant**, **Cheque**, **Elektronische betaling** of **Anders** inschakelen. HR kan ook de validatie van elektronische betalingen (gebruikt voor Amerikaanse salarisadministraties) en de validatie van bankrekening- en routenummers uitschakelen.
+7. Als u wilt wijzigen hoe u wordt betaald, selecteert u het tabblad **Mijn betalingsgegevens**. Dit tabblad is alleen beschikbaar als betalingsmethoden zijn ingeschakeld op de pagina **Human Resources-parameters**. HR kan **Bankcheque**, **Contant**, **Cheque**, **Elektronische betaling** of **Anders** inschakelen. HR kan ook de validatie van elektronische betalingen (gebruikt voor Amerikaanse salarisadministraties) en de validatie van bankrekening- en routenummers uitschakelen.
 
 8. Als u de afbeelding wilt wijzigen die in HRM wordt weergegeven voor uw profiel, selecteert u het tabblad **Afbeelding**. Afhankelijk van de instellingen van uw organisatie, worden afbeeldingen mogelijk ter goedkeuring gerouteerd.
 

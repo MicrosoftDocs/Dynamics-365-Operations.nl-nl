@@ -1,6 +1,6 @@
 ---
 title: Help-systeem (bevat video)
-description: In dit onderwerp vindt u een overzicht van het Help-systeem voor Finance and Operations-apps.
+description: In dit onderwerp vindt u een overzicht van het Help-systeem voor apps voor financiële en bedrijfsactiviteiten.
 author: edupont04
 ms.date: 07/20/2021
 ms.topic: overview
@@ -17,16 +17,19 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67f2fe493c57cd004b1003c1d95734bd455fde8c
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: dd34addc2ffa5e437691cb1e3e8b33246053ccc7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984429"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070496"
 ---
 # <a name="help-system"></a>Help-systeem
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Gebruikers van de volgende apps kunnen toegang krijgen tot contextafhankelijke Help en andere inhoud die is gebaseerd op hetzelfde Help-systeem:
 
@@ -50,7 +53,7 @@ Met een zoekmachine kunt u inhoud vinden op docs.microsoft.com. We raden u voor 
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Meldingen over wijzigingen ontvangen in een RSS-feed
 
-Als u zich wilt abonneren op een RSS-feed met alle updates die zijn aangebracht op docs.microsoft.com in de Finance and Operations-apps, gebruikt u de volgende koppeling:
+Als u zich wilt abonneren op een RSS-feed met alle updates die zijn aangebracht op docs.microsoft.com in de apps voor financiële en bedrijfsactiviteiten, gebruikt u de volgende koppeling:
 
 [RSS-feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 

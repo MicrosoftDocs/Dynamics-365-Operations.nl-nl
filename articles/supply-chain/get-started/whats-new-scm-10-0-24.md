@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: d7dd3bbb0d1aa701757ad7fa525aba04fe9419c9
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: a254e20dd7fcc29ca520282b4bf9fcd903e4de58
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986298"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087545"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.24 (februari 2022)
 
@@ -34,6 +34,7 @@ De volgende tabel vermeldt de functies die deze versie bevat. Mogelijk wordt dit
 | Functiegebied | Functie | Meer informatie | Ingeschakeld door   |
 |---|---|---|---|
 | Gedistribueerde hybride topologie | [Verbeterde werkbelasting voor magazijnuitvoering op schaaleenheden](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-warehouse-execution-workloads-scale-units) | [Werkbelasting van magazijnbeheer voor cloud- en randschaaleenheden](../cloud-edge/cloud-edge-workload-warehousing.md) | Standaard ingeschakeld. |
+| Gedistribueerde hybride topologie | [Productieorder beginnen voor workloads voor magazijnbeheer voor de cloud- en randschaaleenheid](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-manufacturing-execution-workloads-scale-units) | [Werkbelasting voor productie-uitvoering voor cloud- en randschaaleenheden](../cloud-edge/cloud-edge-workload-manufacturing.md) | Functiebeheer (*Productieorder beginnen voor workloads voor magazijnbeheer voor de cloud- en randschaaleenheid*)  |
 | Planning | [Ondersteuning van Planningsoptimalisatie voor bestel- en uitgiftemarges](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-reorder-margin-issue-margin) | [Veiligheidsmarges](../master-planning/planning-optimization/safety-margins.md) | Standaard ingeschakeld. |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Functieverbeteringen in deze versie
@@ -47,7 +48,6 @@ Als u een van deze functies wilt in- of uitschakelen, moet u dat doen in [Functi
 | Productiebeheer | Controle voor beschikbaarheid van materiaal op aanvraag voor productieorders | Met deze functie opent u sneller de pagina **Vrij te geven productieorders**, die beschikbaar is vanuit de werkruimte **Productiebeheer**. Zonder deze functie controleert het systeem automatisch of materialen beschikbaar zijn voor alle vermelde productieorders zodra u de pagina opent, wat veel tijd kan kosten als u een groot aantal orders hebt. Wanneer deze functie is ingeschakeld, biedt het systeem in plaats daarvan een werkbalkknop die u kunt gebruiken om de materiaalcontrole alleen te starten voor geselecteerde orders en wanneer dat nodig is. |
 | Productiebeheer | (Preview) Materiaalverbruik registreren op de uitvoeringsinterface van de werkvloer (niet-WMS) | Met deze functie kunnen werknemers de uitvoeringsinterface voor de werkvloer gebruiken om materiaalverbruik, batchnummers en serienummers te registreren. Deze functie ondersteunt alleen artikelen die niet zijn ingeschakeld om geavanceerde magazijnprocessen (WMS) te gebruiken. Ondersteuning voor WMS-artikelen is gepland voor een toekomstige versie.<p>Sommige fabrikanten, met name fabrikanten binnen de procesindustrieën, moeten de hoeveelheid verbruikt materiaal voor elke batch of productieorder expliciet registreren. Werknemers kunnen bijvoorbeeld een schaal gebruiken om te wegen hoeveel materiaal tijdens het werk wordt verbruikt. Voor volledige materiaaltraceerbaarheid moeten deze organisaties ook registreren welke batchnummers zijn verbruikt bij de productie van elk product. |
 | Productiebeheer | Gereedmelden voor workloads voor magazijnbeheer voor de cloud- en randschaaleenheid | Met deze functie kunnen werknemers de mobiele app Warehouse Management gebruiken om een productie- of batchorder gereed te melden wanneer de app wordt uitgevoerd voor een workload voor magazijnbeheer in een cloud- of randschaaleenheid. Zie [Gereedmelden en wegzetten in een schaaleenheid](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF) voor meer informatie. |
-| Productiebeheer | Productieorder beginnen voor workloads voor magazijnbeheer voor de cloud- en randschaaleenheid | Met deze functie kunnen werknemers de mobiele app Warehouse Management gebruiken om een productie- of batchorder te beginnen wanneer de app wordt uitgevoerd voor een workload voor magazijnbeheer in een cloud- of randschaaleenheid. |
 | Magazijnbeheer | Nieuwe workbenchpagina's voor ladingplanning | Hiermee worden twee nieuwe workbenchpagina's voor ladingplanning gemaakt: **Workbench voor binnenkomende ladingplanning** en **Workbench voor uitgaande ladingplanning**. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Nieuwe en bijgewerkte documentatiebronnen
@@ -68,9 +68,9 @@ De volgende Help-onderwerpen zijn onlangs toegevoegd of ingrijpend bijgewerkt. D
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformupdates voor Finance and Operations-apps
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformupdates voor apps voor financiële en bedrijfsactiviteiten
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.24 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.24 van Finance and Operations-apps (november 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.24 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.24 van apps voor financiële en bedrijfsactiviteiten (februari 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
 
 ### <a name="bug-fixes"></a>Correcties
 

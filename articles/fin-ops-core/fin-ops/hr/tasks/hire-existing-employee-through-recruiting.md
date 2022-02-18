@@ -9,19 +9,23 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 49bb7bea167674eb81fd6d1144c6c302a7c29391
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 9e7343a485ae4779b075eeb48dabc39467e1a176
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964903"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074908"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Bestaande werknemers aannemen via werving
 
 [!include [banner](../../includes/banner.md)]
+
+> [!IMPORTANT]
+> De functionaliteit die in dit onderwerp wordt vermeld, is momenteel beschikbaar voor Human Resources-klanten in de Finance-infrastructuur.  
+
 
 Soms kunnen open posities worden vervuld met kandidaten die al werknemers in uw organisatie zijn. Deze procedure wordt uitgevoerd door de stappen van het aanstellen van een bestaande werknemer via het wervingsproces te doorlopen. In deze procedure is reeds een wervingsproject ingesteld en heeft een bestaande werknemer al een sollicitatie voor het wervingsproject ingediend. Voor deze procedure is gebruikgemaakt van het demobedrijf **USMF**.
 

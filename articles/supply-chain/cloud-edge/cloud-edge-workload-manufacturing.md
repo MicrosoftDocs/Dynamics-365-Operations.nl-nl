@@ -16,20 +16,23 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 77e0a0e0eb47c331b2b219dc523ecd2c706a4638
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 633740ee1e26d2e4ed2ea7031ef298fb11c2ab58
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345293"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068839"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Werkbelasting voor productie-uitvoering voor cloud- en randschaaleenheden
 
 [!include [banner](../includes/banner.md)]
 
-> [!WARNING]
-> De werkbelasting voor productie-uitvoering is op dit moment als voorbeeld beschikbaar.
+> [!IMPORTANT]
+> De workload voor productie-uitvoering is momenteel alleen beschikbaar in preview.
+>
 > Sommige bedrijfsfuncties worden niet volledig ondersteund in de openbare preview wanneer workloadschaaleenheden worden gebruikt.
+>
+> U kunt de preview-workload voor productie-uitvoering niet voor een schaaleenheid uitvoeren waarbij de workload voor productie-uitvoering ook is geïnstalleerd.
 
 In de productie-uitvoering leveren schaaleenheden de volgende mogelijkheden:
 
@@ -128,6 +131,22 @@ In de huidige versie worden de bewerkingen voor gereedmelden en wegzetten (voor 
 ### Customize report as finished and putaway functionality
 
  -->
+
+## <a name="enable-and-use-the-start-operation-on-a-scale-unit"></a>De startbewerking voor een schaaleenheid inschakelen en gebruiken
+
+In de huidige versie wordt de startbewerking voor productie- en batchorders ondersteund door de [workload voor magazijnuitvoering](cloud-edge-workload-warehousing.md) (niet door de workload voor productie-uitvoering). Als u deze functionaliteit wilt gebruiken wanneer u bent verbonden met een schaaleenheid, moet u daarom de volgende taken uitvoeren:
+
+- Installeer zowel de werkbelasting voor magazijnuitvoering als de werkbelasting voor de productie-uitvoering in uw schaaleenheid.
+- Schakel de functie *Productieorder beginnen voor workload voor magazijnbeheer voor de cloud- en randschaaleenheid* in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in.
+- Gebruik de mobiele app Warehouse Management om de productie- of batchorder te starten.
+
+## <a name="enable-and-use-material-consumption-on-a-scale-unit"></a>Materiaalverbruik voor een schaaleenheid inschakelen en gebruiken
+
+In de huidige versie wordt de stroom in de mobiele app Warehouse Management voor het registreren van materiaalverbruik ondersteund door de [workload voor magazijnuitvoering](cloud-edge-workload-warehousing.md) (niet door de workload voor productie-uitvoering). Als u deze functionaliteit wilt gebruiken wanneer u bent verbonden met een schaaleenheid, moet u daarom de volgende taken uitvoeren:
+
+- Installeer zowel de werkbelasting voor magazijnuitvoering als de werkbelasting voor de productie-uitvoering in uw schaaleenheid.
+- Schakel de functie *Materiaalverbruik op de mobiele app voor een schaaleenheid registreren* in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in.
+- Gebruik de mobiele app Warehouse Management om materiaalverbruik te registreren.
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

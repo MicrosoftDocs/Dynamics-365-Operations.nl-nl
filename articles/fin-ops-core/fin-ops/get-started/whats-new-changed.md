@@ -1,6 +1,6 @@
 ---
-title: Startpagina van Nieuwe of gewijzigde functies in Finance and Operations-apps
-description: Op deze pagina vindt u verwijzingen naar onderwerpen die informatie geven over de nieuwe functies in de meest recente versies van Finance and Operations-apps.
+title: Startpagina Nieuwe of gewijzigde functies in apps voor financiële en bedrijfsactiviteiten
+description: Op deze pagina vindt u verwijzingen naar onderwerpen die informatie geven over de nieuwe functies in de meest recente toepassingen van Finance and Operations.
 author: josaw1
 ms.date: 02/14/2020
 ms.topic: article
@@ -17,30 +17,37 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 06f7e9b39b72a5e2cbbc06949dda7f16f2405250dd6c25b919260daca76e33bc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8348f935ddee557a5f47b550c24f78cf68e37db2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759180"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075195"
 ---
-# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Startpagina van Nieuwe of gewijzigde functies in Finance and Operations-apps
+# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Startpagina Nieuwe of gewijzigde functies in apps voor financiële en bedrijfsactiviteiten
 
 [!include [banner](../includes/banner.md)]
 
 
 ## <a name="application-releases"></a>Toepassingsversies
 
-Toelichting op wat er nieuw of gewijzigd is in alle versies van een Finance and Operations-app vindt u in de volgende onderwerpen:
+Zie de volgende onderwerpen om te zien wat er nieuw of gewijzigd is in elke versie van een app voor financiële en bedrijfsactiviteiten:
 
-- **Finance:** [Nieuwe of gewijzigde functies in Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md) 
+- **Finance:** [Nieuwe of gewijzigde functies in Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)
+- **Human Resources (samengevoegde infrastructuur):** [Wat is er nieuw of gewijzigd in Microsoft Dynamics 365 Human Resources](../../../human-resources/get-started/hr-whats-new-changed-10-0-25.md)  
 - **Supply Chain Management:** [Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md) 
 - **Commerce:** [Nieuwe of gewijzigde functies in Dynamics 365 Commerce](../../../commerce/get-started/whats-new-home-page.md)
+
+
+## <a name="stand-alone-applications"></a>Zelfstandige toepassingen
+
+Zie het volgende onderwerp om te zien wat er nieuw of gewijzigd is in de zelfstandige versie van Dynamics 365 Human Resources:
+
 - **Human Resources:** [Nieuwe of gewijzigde functies in Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)
 
 ## <a name="platform-updates"></a>Platformupdates
 
-Informatie over wat er nieuw of gewijzigd is in de platformupdates voor de Finance and Operations-apps vindt u in het volgende onderwerp:
+Informatie over wat er nieuw of gewijzigd is in de platformupdates voor de apps voor financiële en bedrijfsactiviteiten vindt u in het volgende onderwerp:
 
 - [Nieuwe of gewijzigde functies in Platformupdates](../../dev-itpro/get-started/whats-new-home-page.md)
 

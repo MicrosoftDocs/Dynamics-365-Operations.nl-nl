@@ -2,7 +2,7 @@
 title: Compensatierasters instellen
 description: Compensatierasters worden gebruikt om de salarisstructuren voor plannen voor vaste compensatie weer te geven of te onderhouden.
 author: twheeloc
-ms.date: 08/25/2021
+ms.date: 01/03/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e6aabf5c05b2a7a5d2b37b43c9a7e93ea6e9bbb
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: 51b98320eac539e49787d352f32683efadc11f41
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483810"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071449"
 ---
 # <a name="set-up-compensation-grids"></a>Compensatierasters instellen
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -66,29 +69,17 @@ Compensatierasters worden gebruikt om de salarisstructuren voor plannen voor vas
     * Nu gebruiken we de functie Groepsgewijs wijzigen om de bedragen in elk volgend niveau te verhogen met een bepaald percentage of bedrag. In dit voorbeeld krijgt elk cijfer een afstand van 12,5% tussen hun middelpunten.  
 7. Selecteer een optie in het veld **Correctietype**.
 8. Voer in het veld **Aanpassingsbedrag** een getal in.
-9. Zoek en selecteer het gewenste record in de lijst.
-10. Zoek en selecteer het gewenste record in de lijst.
-11. Zoek en selecteer het gewenste record in de lijst.
-12. Zoek en selecteer het gewenste record in de lijst.
-13. Klik op **Toepassen op raster**.
-14. Zoek en selecteer het gewenste record in de lijst.
-15. Zoek en selecteer het gewenste record in de lijst.
-16. Zoek en selecteer het gewenste record in de lijst.
-17. Klik op **Toepassen op raster**.
-18. Zoek en selecteer het gewenste record in de lijst.
-19. Zoek en selecteer het gewenste record in de lijst.
-20. Klik op **Toepassen op raster**.
-21. Zoek en selecteer de gewenste record in de lijst.
-22. Klik op Toepassen op raster.
+9. Zoek en selecteer de gewenste record in de lijst.
+10. Klik op **Toepassen op raster**.
     * Nu gebruiken we de functie Groepsgewijs wijzigen om de minimum- en maximumreferentiepunten voor elk niveau te corrigeren. Dit voorbeeld gebruikt een afstand van 50% zodat het minimumreferentiepunt met -20% worden gecorrigeerd en het maximumreferentiepunt met +20% wordt aangepast.  
-23. Voer in het veld **Aanpassingsbedrag** een getal in.
-24. Typ of selecteer een waarde in het veld **Referentiepunt**.
-25. Selecteer of deselecteer alle rijen in de lijst.
-26. Klik op **Toepassen op raster**.
-27. Voer in het veld **Aanpassingsbedrag** een getal in.
-28. Typ of selecteer een waarde in het veld **Referentiepunt**.
-29. Selecteer of deselecteer alle rijen in de lijst.
-30. Klik op **Toepassen op raster**.
+11. Voer in het veld **Aanpassingsbedrag** een getal in.
+12. Typ of selecteer een waarde in het veld **Referentiepunt**.
+13. Selecteer of deselecteer alle rijen in de lijst.
+14. Klik op **Toepassen op raster**.
+15. Voer in het veld **Aanpassingsbedrag** een getal in.
+16. Typ of selecteer een waarde in het veld **Referentiepunt**.
+17. Selecteer of deselecteer alle rijen in de lijst.
+18. Klik op **Toepassen op raster**.
 
 
 

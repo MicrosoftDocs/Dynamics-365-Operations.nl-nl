@@ -1,5 +1,5 @@
 ---
-title: Een vraag met gesloten einde aanmaken
+title: Een meerkeuzevraag maken
 description: Met meerkeuzevragen kunt u opties bieden waaruit de respondent kan kiezen.
 author: twheeloc
 ms.date: 08/26/2021
@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8758b74f9ce7c8687b7c2925ccd04cd512602db0
-ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
+ms.openlocfilehash: b3b90bb2a4981f32feb10ee1192e9c4d2e604e7a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7465168"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071479"
 ---
 # <a name="create-a-closed-ended-question"></a>Een meerkeuzevraag maken
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -34,10 +37,10 @@ Met meerkeuzevragen kunt u opties bieden waaruit de respondent kan kiezen. Als e
 2. Klik op **Nieuw**.
 3. Typ een waarde in het veld **Antwoordgroep**.
 4. Typ een waarde in het veld **Beschrijving**.
-    * Gebruik de functionaliteit Willekeurig maken om de antwoorden in een willekeurig volgorde te plaatsen telkens wanneer de antwoordgroep wordt gebruikt voor een vraag.  
+    * Gebruik de functionaliteit **Willekeurig maken** om de antwoorden in een willekeurig volgorde te plaatsen telkens wanneer de antwoordgroep wordt gebruikt voor een vraag.  
 5. Klik op **Beantwoorden**.
 6. Klik op **Nieuw**.
-    * Het volgnummer bepaalt de volgorde waarin de antwoorden worden weergegeven, tenzij Willekeurig maken is geselecteerd voor de antwoordgroep.  
+    * Het volgnummer bepaalt de volgorde waarin de antwoorden worden weergegeven, tenzij **Willekeurig maken** is geselecteerd voor de **Antwoordgroep**.  
     * Er kunnen punten worden toegekend aan antwoorden voor gebruik bij het scoren van de vragenlijst.  
 7. Voer in het veld **Punten** een getal in.
     * Het juiste antwoord kan worden gemarkeerd om aan te geven dat het geselecteerde antwoord juist is. Dit kan worden gebruikt voor het scoren van de vragenlijst.  
@@ -61,8 +64,8 @@ Met meerkeuzevragen kunt u opties bieden waaruit de respondent kan kiezen. Als e
 ## <a name="create-the-question"></a>De vraag maken
 1. Ga naar **Vragenlijst** > **Ontwerp** > **Vragen**.
 2. Klik op **Nieuw**.
-3. Gebruik het Veld Type om gerelateerde vragen te groeperen.
-    * U kunt de invoertypen Selectievakje, Alternatieve knop of Keuzelijst met invoervak gebruiken voor meerkeuzevragen.  
+3. Gebruik het veld **Type** om gerelateerde vragen te groeperen.
+    * U kunt de invoertypen **Selectievakje**, **Alternatieve knop** of **Keuzelijst met invoervak** gebruiken voor meerkeuzevragen.  
 4. Selecteer een optie in het veld **Invoertype**.
 5. Typ of selecteer een waarde in het veld **Antwoordgroep**.
 6. Typ een waarde in het veld **Tekst**.

@@ -10,19 +10,23 @@ ms.search.form: HRMApplication, HcmWorkerNewWorker, HcmPositionLookup, HcmWorker
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 07f89a41cca7b3ff66404305d31cf1b8a67bfe47
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 2a6ecee078b18b12769a14cadc7e0182bf03d704
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964956"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075368"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>Kandidaat aannemen via werving
 
 [!include [banner](../../includes/banner.md)]
+
+> [!IMPORTANT]
+> De functionaliteit die in dit onderwerp wordt vermeld, is momenteel beschikbaar voor Human Resources-klanten in de Finance-infrastructuur.  
+
 
 Deze procedure stelt een werver in staat om een sollicitant aan te stellen die een sollicitatie heeft ingediend via een specifiek wervingsproject. Wanneer u een sollicitant aanstelt via een wervingsproject, wordt een nieuwe werknemerregistratie gemaakt en krijgt de registratie van de sollicitant de status **Aangesteld**. Voor deze procedure is gebruikgemaakt van het demobedrijf **USMF**.
 

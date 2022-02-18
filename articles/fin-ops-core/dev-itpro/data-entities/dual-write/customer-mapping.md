@@ -9,20 +9,20 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 48070628aafd7daac65327a484c87dc01ffb3954
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 41e4b6c192b6125a144e4d5ef952ba0975821d44
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781685"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063284"
 ---
 # <a name="integrated-customer-master"></a>Model voor geïntegreerde klanten
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Klantgegevens kunnen in meerdere Dynamics 365-toepassingen worden beheerd. Een klantrij kan bijvoorbeeld afkomstig zijn van een verkoopactiviteit in Dynamics 365 Sales (een klantbetrokkenheidsapp) of een rij die afkomstig is van een detailhandelactiviteit in Dynamics 365 Commerce (een Finance and Operations-app). Ongeacht waar de klantgegevens vandaan komen, ze worden achter de schermen geïntegreerd. Met het geïntegreerde klantmodel hebt u de flexibiliteit om de hoofdgegevens van klanten te beheren in elke Dynamics 365-toepassing met een uitgebreid overzicht van de klant in de Dynamics 365-toepassingsreeks.
+
+Klantgegevens kunnen in meerdere Dynamics 365-toepassingen worden beheerd. Een klantrij kan bijvoorbeeld afkomstig zijn van een verkoopactiviteit in Dynamics 365 Sales (een klantbetrokkenheidsapp) of een rij die afkomstig is van een detailhandelactiviteit in Dynamics 365 Commerce (een app voor financiële en bedrijfsactiviteiten). Ongeacht waar de klantgegevens vandaan komen, ze worden achter de schermen geïntegreerd. Met het geïntegreerde klantmodel hebt u de flexibiliteit om de hoofdgegevens van klanten te beheren in elke Dynamics 365-toepassing met een uitgebreid overzicht van de klant in de Dynamics 365-toepassingsreeks.
 
 ## <a name="customer-data-flow"></a>Klantgegevensstroom
 
@@ -32,7 +32,7 @@ Klantgegevens kunnen in meerdere Dynamics 365-toepassingen worden beheerd. Een k
 
 Klanten kunnen globaal worden ingedeeld in twee typen: commerciële/organisatorische klanten en consumenten/eindgebruikers. Deze twee typen klanten worden in Finance and Operations en Dataverse op een andere manier opgeslagen en verwerkt.
 
-In Finance and Operations worden zowel commerciële/organisatieklanten als consumenten/eindgebruikers in één tabel met de naam **CustTable** (CustCustomerV3Entity) beheerd en worden ze geclassificeerd op basis van het kenmerk **Type**. (Als **Type** is ingesteld op **Organisatie**, is de klant een commerciële/organisatorische klant en als **Type** is ingesteld op **Persoon**, is de klant een consument/eindgebruiker.) De primaire contactpersoonsgegevens worden afgehandeld via de tabel SMMContactPersonEntity.
+In Finance and Operations worden zowel commerciële/organisatorische klanten als consumenten/eindgebruikers in één tabel met de naam **CustTable** (CustCustomerV3Entity) beheerd en worden ze geclassificeerd op basis van het kenmerk **Type**. (Als **Type** is ingesteld op **Organisatie**, is de klant een commerciële/organisatorische klant en als **Type** is ingesteld op **Persoon**, is de klant een consument/eindgebruiker.) De primaire contactpersoonsgegevens worden afgehandeld via de tabel SMMContactPersonEntity.
 
 In Dataverse worden commerciële/organisatorische klanten beheerd in de tabel Account en worden ze geïdentificeerd als klant als het kenmerk **RelationshipType** is ingesteld op **Klant**. Zowel consumenten/eindgebruikers als de contactpersoon worden vertegenwoordigd door de tabel Contactpersoon. Om een duidelijke scheiding te maken tussen een consument/eindgebruiker en een contactpersoon, heeft de tabel **Contactpersoon** een Booleaanse vlag met de naam **Verkoopbaar**. Wanneer **Verkoopbaar** de waarde **Waar** heeft, is de contactpersoon een consument/eindgebruiker en kunnen er voor die contactpersoon offertes en orders worden gemaakt. Als **Verkoopbaar** is ingesteld op **Onwaar**, is de contactpersoon slechts een primaire contactpersoon van een klant.
 
@@ -42,7 +42,7 @@ Wanneer een niet-verkoopbare contactpersoon deelneemt aan een offerte- of orderp
 
 Klantgegevens omvatten alle informatie over de klant, zoals de klantgroep, adressen, contactgegevens, betalingsprofiel en factuurprofiel. Een verzameling tabeltoewijzingen werkt samen tijdens interactie met klantgegevens, zoals in de volgende tabel wordt weergegeven.
 
-Finance and Operations-apps | Customer Engagement-apps         | Beschrijving
+Apps voor financiële en bedrijfsactiviteiten | Customer Engagement-apps         | Beschrijving
 ----------------------------|---------------------------------|------------
 [CDS-contactpersonen V2](mapping-reference.md#115) | contacten | Met deze sjabloon worden alle primaire, secundaire en tertiaire contactgegevens voor zowel klanten als leveranciers gesynchroniseerd.
 [Klantengroepen](mapping-reference.md#126) | msdyn_customergroups | Met deze sjabloon worden klantengroepgegevens gesynchroniseerd.

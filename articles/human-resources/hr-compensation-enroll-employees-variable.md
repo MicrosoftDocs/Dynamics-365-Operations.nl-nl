@@ -13,24 +13,27 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67b3cd95276b9e59e794583fa51ddbcec4c43b1e
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 49a64407778fba5669ad13f239363bffd4b0c7d6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431309"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071480"
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Een werknemer inschrijven voor een variabele honoreringsregeling
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-De manager Compensatie en emolumenten kan werknemers inschrijven op plannen voor variabele compensatie inschrijven om contante en niet-contante toekenningen voor werknemers te berekenen. Bij deze procedure wordt aangenomen dat een plan voor variabele compensatie is aangemaakt met het veld **Inschrijving inschakelen** ingesteld op Ja en dat beschikbaarheidregels zijn aangemaakt voor dit plan voor variabele compensatie. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. U kunt beginnen met deze procedure door naar **Human resources** > **Medewerkers** > **Werknemers** > **Compensatie** > **Inschrijving op variabel plan** te gaan.
+De manager Compensatie en emolumenten kan werknemers inschrijven op plannen voor variabele compensatie inschrijven om contante en niet-contante toekenningen voor werknemers te berekenen. Bij deze procedure wordt aangenomen dat een plan voor variabele compensatie is aangemaakt waarbij het veld **Inschrijving inschakelen** is ingesteld op **Ja** en dat geschiktheidsregels zijn aangemaakt voor dit plan voor variabele compensatie. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. U kunt beginnen met deze procedure door naar **Human resources** > **Medewerkers** > **Werknemers** > **Compensatie** > **Inschrijving op variabel plan** te gaan.
 
 1. Klik op **Nieuw**.
 2. Klik in het veld **Plan** op de vervolgkeuzeknop om de zoekopdracht te openen.
     * De zoekopdracht voor het plannen wordt gefilterd zodat alleen de plannen voor variabele compensatie worden weergegeven waarvoor de werknemer in aanmerking komt op basis van de beschikbaarheidregels.  
 3. Klik in de lijst op de koppeling in de geselecteerde rij.
-4. Schakel de uitbreiding van de sectie Algemeen om.
+4. Schakel de uitbreiding van de sectie **Algemeen** om.
 5. Voer een datum in het veld **Begindatum** in.
 6. Klik op **Opslaan**.
 7. Schakel de uitbreiding van het gedeelte **Overschrijvingen** om.

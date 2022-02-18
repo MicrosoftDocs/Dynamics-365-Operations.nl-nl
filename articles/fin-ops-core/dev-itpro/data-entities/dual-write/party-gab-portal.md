@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 872b477ae73a374cd62b9e86048bfc27c84064c1
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 8242a74b8b2251a8489b772f5c4746b113fe2987
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781363"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060915"
 ---
 # <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>Microsoft Power Apps-portals gebruiken met het gegevensmodel Partij
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-[!INCLUDE[rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Orkestratieversie 2.0.999.0 en hoger van de oplossing Twee keer wegschrijven omvatten wijzigingen in het gegevensmodel voor partijen en het globale adresboek voor de tabellen Rekening en Contactpersoon. De wijzigingen maken veel-op-veel-relaties mogelijk die geavanceerde bedrijfsscenario's ondersteunen. Deze wijzigingen worden niet ondersteund door portalwebrollen, inclusief de klantportal, die out-of-the-box worden verzonden of die in uw omgeving bestonden voordat u Twee keer wegschrijven installeerde. Om de webrollen te laten werken zoals verwacht, moet u nieuwe webrollen maken met behulp van het nieuwe gegevensmodel. 
 

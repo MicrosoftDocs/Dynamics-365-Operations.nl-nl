@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: tfehr
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e41d600464d707d01a0e319dd3cd343b04aa26b7
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 0deb4198acb59b90bf06e4050889d028df2223e3
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782375"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063642"
 ---
 # <a name="integrated-ledger"></a>Geïntegreerd grootboek
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 In een bedrijfstoepassing definiëren grootboekgegevens de basisinstelling van de manier waarop een bedrijf zaken doet. Zo beschreven grootboekgegevens bijvoorbeeld het fiscaal jaar dat het bedrijf volgt, de valuta's waarin het bedrijf handelt en de rekeningen die worden gebruikt. In dit onderwerp wordt de integratie van deze financiële kerngegevens beschreven.
 
@@ -28,7 +28,7 @@ In een bedrijfstoepassing definiëren grootboekgegevens de basisinstelling van d
 
 Grootboekgegevens omvatten een verzameling financiële basistabeltoewijzingen die samenwerken tijdens de interactie van gegevens, zoals in de volgende tabel wordt weergegeven.
 
-Finance and Operations-apps | Customer Engagement-apps     | Beschrijving
+Apps voor financiële en bedrijfsactiviteiten | Customer Engagement-apps     | Beschrijving
 ---------------------------------|----------------------------------|------------
 [Wisselkoersen CDS](mapping-reference.md#123) | msdyn_currencyexchangerates |
 [Rekeningschema](mapping-reference.md#121) | msdyn_chartofaccountses |

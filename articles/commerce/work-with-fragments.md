@@ -2,7 +2,7 @@
 title: Werken met fragmenten
 description: In dit onderwerp wordt beschreven waarom, wanneer en hoe u fragmenten gebruikt in Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 10/16/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 35a19f064b63ce476252064253032d35697bd69c84c4c93db1d0349a57527c2a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 98cb1fba158ea99427d2068ca49b257cb5290de3
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776189"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090739"
 ---
 # <a name="work-with-fragments"></a>Werken met fragmenten 
 
@@ -122,7 +122,21 @@ Voer de volgende stappen uit om een fragment te bewerken in Commerce Site Builde
 
 U kunt een fragment ook bewerken door het te selecteren op een pagina, in een sjabloon of in een bovenliggend fragment en vervolgens **Fragment bewerken** te selecteren in het deelvenster Eigenschappen aan de rechterkant.
 
-## <a name="additional-resources"></a>Aanvullende resources
+### <a name="rename-a-fragment"></a>De naam van een fragment wijzigen
+
+Voer de volgende stappen uit om de naam van een bestaand fragment te wijzigen in Site Builder.
+
+1. Selecteer **Fragmenten** in het deelvenster voor navigatie aan de linkerkant.
+1. Selecteer de naam van het fragment waarvan u de naam wilt wijzigen.
+1. Selecteer **Bewerken** om het fragment te gaan bewerken. U kunt een fragment niet bewerken als iemand anders het fragment al aan het bewerken is.
+1. Selecteer in het deelvenster met eigenschappen voor fragmenten het pensymbool naast de naam van het fragment.
+1. Bewerk de naam van het fragment indien nodig.
+1. Selecteer het vinkje om de naamswijziging te bevestigen.
+1. Selecteer **Bewerken voltooien**.
+
+U kunt de naam van een fragment wijzigen nadat het is gemaakt door het te bewerken en vervolgens het pensymbool naast de naam van het fragment in het eigenschappenvenster te selecteren.
+
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht sjablonen en indelingen](templates-layouts-overview.md)
 

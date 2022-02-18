@@ -2,7 +2,7 @@
 title: Randschaaleenheden implementeren op aangepaste hardware met LBD
 description: In dit onderwerp wordt uitgelegd hoe u on-premises randschaaleenheden inricht door aangepaste hardware en implementatie te gebruiken die is gebaseerd op lokale bedrijfsgegevens (LBD).
 author: cabeln
-ms.date: 11/29/2021
+ms.date: 01/24/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2407d4e3c6adaf5df2e8f5440ee8336f86012caf
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 1204b65e76c107c29a94a61c321064a87c7571fb
+ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920668"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "8024537"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>Randschaaleenheden implementeren op aangepaste hardware met LBD
 
@@ -26,6 +26,13 @@ Randschaaleenheden spelen een belangrijke rol in de gedistribueerde hybride topo
 De randschaaleenheden kunnen worden geïmplementeerd door een lokale bedrijfsomgeving (LBD) [on-premises-omgeving](../../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md) te maken en deze vervolgens te configureren om als een schaaleenheid te fungeren in uw gedistribueerde hybride topologie voor Supply Chain Management. Dit wordt bereikt door de on-premises LBD-omgeving aan een Supply Chain Management-omgeving te koppelen in de cloud die is configureerd om als hub te fungeren.  
 
 In dit onderwerp wordt beschreven hoe u een on-premises LBD-omgeving instelt als een randschaaleenheid en deze vervolgens koppelt aan een hub.
+
+## <a name="infrastructure-considerations"></a>Infrastructuuroverwegingen
+
+Randschaaleenheden worden uitgevoerd in on-premises omgevingen, waardoor de infrastructuurvereisten redelijk vergelijkbaar zijn. Er zijn echter bepaalde verschillen waarmee rekening moet worden gehouden:
+
+- Voor randschaaleenheden wordt geen gebruik gemaakt van Financial Reporting, waardoor er geen knooppunten voor Financial Reporting nodig zijn.
+- De workloads voor productie en magazijnbeheer zijn niet rekenintensief. Daarom moet u overwegen de rekenkracht voor AOS-knooppunten dienovereenkomstig aan te passen.
 
 ## <a name="deployment-overview"></a>Overzicht van implementatie
 

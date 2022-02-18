@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 25bd2cc0df4940f02313b3a61f69b2273e835639
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 3657e41363ca6c1ce8eabfeaf3ba6da9b93f5e2a
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782080"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061021"
 ---
 # <a name="company-concept-in-dataverse"></a>Bedrijfsconcept in Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 
 In Finance and Operations is het concept *bedrijf* zowel een juridische constructie als een bedrijfsconstructie. Het is ook een beveiligings- en zichtbaarheidsgrens voor gegevens. Gebruikers werken altijd in de context van één bedrijf en de meeste gegevens zijn verdeeld per bedrijf.
@@ -29,7 +29,7 @@ Dataverse heeft geen gelijkwaardig concept. Het concept dat het meest overeenkom
 
 Omdat bedrijfseenheid en bedrijf geen gelijkwaardige concepten zijn, is het niet mogelijk om een 1:1-toewijzing (één-op-één) tussen beide te forceren met het oog op Dataverse-integratie. Maar omdat gebruikers standaard in de toepassing dezelfde rijen moeten kunnen zien als in Dataverse, heeft Microsoft een nieuwe tabel in Dataverse geïntroduceerd met de naam cdm\_Company. Deze tabel is gelijk aan de tabel Bedrijf in de toepassing. Om te garanderen dat de zichtbaarheid van rijen standaard equivalent is tussen de toepassing en Dataverse, raden we de volgende instellingen voor Dataverse-gegevens aan:
 
-+ Voor elke Finance and Operations-bedrijfsrij die is ingeschakeld voor Twee keer wegschrijven, wordt een bijbehorende cdm\_Bedrijfsrij gemaakt.
++ Voor elke Finance and Operations-bedrijfsrij die is ingeschakeld voor Twee keer wegschrijven, wordt een bijbehorende cdm\_Company-rij gemaakt.
 + Wanneer een cdm\_Company-rij is gemaakt en is ingeschakeld voor Twee keer wegschrijven, wordt er een standaardbedrijfseenheid met dezelfde naam gemaakt. Hoewel er automatisch een standaardteam voor die bedrijfseenheid wordt gemaakt, wordt de bedrijfseenheid niet gebruikt.
 + Er wordt een afzonderlijk eigenaarsteam gemaakt dat dezelfde naam heeft. Het wordt ook gekoppeld aan de bedrijfseenheid.
 + De eigenaar van een rij die is gemaakt en twee keer wordt weggeschreven naar Dataverse, wordt standaard ingesteld op het team 'DW eigenaar' dat is gekoppeld aan de betreffende bedrijfseenheid.

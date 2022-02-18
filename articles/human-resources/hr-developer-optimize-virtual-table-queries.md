@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40fc4c06c563415cd5b1a13c145b778276274fd97279dc9f56ff5e3f8954dc76
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1857d2e35e369bcd0c8f02a059a307f31da8b3b9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732004"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067449"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>Virtuele Dataverse-tabelquery's optimaliseren
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="issue"></a>Uitgeven
 
@@ -47,7 +50,7 @@ Een van de oorzaak van tragere prestaties bij virtuele Dataverse-tabellen voor H
 Een voorbeeld waar u deze impact kunt zien, is in query's die worden uitvoeren op de entiteit Werknemer (**mshr_hcmworkerentity**) of Basiswerker (**mshr_hcmworkerbaseentity**). Het prestatieprobleem kan op een aantal verschillende manieren zichtbaar zijn:
 
 - **Trage uitvoering van query's**: de query uit de virtuele tabel kan de verwachte resultaten retourneren, maar het duurt langer dan verwacht om de uitvoering van de query te voltooien.
-- **Time-out van query**: de query krijgt een time-out en geeft de volgende fout: "Een token is verkregen om Finance and Operations aan te roepen maar Finance and Operations heeft een fout van het type InternalServerError geretourneerd."
+- **Time-out van query**: er treedt een time-out voor de query op en de volgende fout wordt geretourneerd: "Een token is verkregen om Finance and Operations aan te roepen maar Finance and Operations heeft een fout van het type InternalServerError geretourneerd."
 - **Onverwachte fout**: de query kan een fouttype 400 retourneren met het volgende bericht: "Er is een onverwachte fout opgetreden."
 
   ![Fouttype 400 op HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType400.png)
@@ -101,7 +104,7 @@ Als u tijdens het maken van een Power BI-rapport met een virtuele Dataverse-tabe
 4. Vouw het knooppunt **Entiteiten** uit in het navigatievenster.
 5. Voer in het zoekvak **mshr_hcmworkerbaseentity** en selecteer de entiteit.
 6. Selecteer **Gegevens transformeren**.
-7. Selecteer Geavanceerde editor in het venster **Power Query-editor**.
+7. Selecteer **Geavanceerde editor** in het venster Power Query-editor.
 8. Werk de query bij in het venster **Geavanceerde editor** zodat deze er als hieronder uitziet en voeg zo nodig kolommen aan de matrix toe of verwijder deze.
 
    ```
@@ -113,7 +116,7 @@ Als u tijdens het maken van een Power BI-rapport met een virtuele Dataverse-tabe
    in
      selectedWorkerBaseEntityColumns
    ```
-   ![De query bijwerken in Geavanceerde editor voor Power Query-editor.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
+   ![De query bijwerken in de Geavanceerde editor voor Power Query-editor.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
 
 9. Selecteer **Gereed**.
 

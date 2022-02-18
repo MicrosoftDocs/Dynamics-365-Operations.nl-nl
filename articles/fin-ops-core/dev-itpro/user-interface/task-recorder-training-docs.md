@@ -15,16 +15,19 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d137b5dbde52423d0e040c3012fb4f1eee2368d4
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 448c2b302136e595852c423d53e49adfcc40d12d
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781227"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070521"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Documentatie of training maken met Taakrecorder
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 In dit onderwerp wordt uitgelegd wat de Taakrecorder en taakbegeleidingen zijn, hoe u taakregistraties maakt en hoe u Microsoft-taakbegeleidingen aanpast en opneemt in uw Help.
 

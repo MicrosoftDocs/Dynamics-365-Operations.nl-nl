@@ -14,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11a3ff7d8d952bf0599ad9a38f21ffbb9e9dafa651a1bb32830b8fafaf42ecaa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2d6d9dcb99e00d4ce3f99e525a72421cb12af178
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754949"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070116"
 ---
 # <a name="configure-line-item-workflows"></a>Workflows voor regelitems configureren
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 In dit onderwerp wordt uitgelegd hoe u een workflowelement voor regelartikelen configureert.
 

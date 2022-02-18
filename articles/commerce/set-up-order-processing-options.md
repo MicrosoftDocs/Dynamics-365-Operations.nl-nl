@@ -2,7 +2,7 @@
 title: Callcenterkanalen instellen
 description: Dit onderwerp biedt informatie over het verwerken van procesorders voor callcenters met gebruik van Dynamics 365 Commerce.
 author: josaw1
-ms.date: 01/06/2020
+ms.date: 02/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5f9afd1b67d6b164facc4dd15a8680866fe8c5b4e4b491d969cda6554eebb1de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 64669c5bf71a4f1673f5ad2c46db7d3a2eaf2a97
+ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750643"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092427"
 ---
 # <a name="set-up-call-center-channels"></a>Callcenterkanalen instellen
 
@@ -56,6 +56,9 @@ Als de instelling **Ordervoltooiing inschakelen** is ingeschakeld voor het callc
 Als de instelling **Ordervoltooiing inschakelen** is ingeschakeld wanneer gebruikers verkooporders maken en in de invoermodus regelartikel zijn, is het veld **Bron** beschikbaar op de koptekst van de hoofdverkooporder. het veld **Bron** wordt gebruikt een [catalogusbroncode](/dynamics365/unified-operations/retail/call-center-catalogs) vast te leggen in een verkoopscenario voor direct marketing. Deze code kan vervolgens speciale prijzen en promoties opgeven.
 
 Zelfs als de instelling **Ordervoltooiingi inschakelen** is uitgeschakeld, kunnen gebruikers nog steeds een broncode toepassen op een verkooporder. Maar ze moeten eerst de koptekstgegevens van de verkooporder openen voor toegang tot het veld **Bron**. Er zijn dus een aantal aanvullende muisklikken nodig. Dezelfde situatie is van toepassing op functies zoals zending voltooid en afgehandelde orders. Deze functies zijn beschikbaar voor alle orders die zijn gemaakt in het callcenter. Als de instelling **Ordervoltooiing inschakelen** is ingeschakeld, kunnen gebruikers de configuratie van deze functies zien in de verkoopkoptekst in de weergave voor regelinvoer. Ze hoeven niet in te zoommen naar de koptekstgegevens van de verkooporder om de gewenste instellingen en velden te zien.
+
+> [!NOTE]
+> Wanneer de functie **Commerce-orderbetalingen voor meerdere kanalen** is ingeschakeld, wordt de knop **Ordervoltooiing inschakelen** van het callcenter verborgen in het hoofdkantoor op het sneltabblad **Algemeen** van uw kanaal via **Retail en commerce \> Kanalen \> Callcenters**.
 
 ### <a name="enable-direct-selling"></a>Rechtstreekse verkoop inschakelen
 

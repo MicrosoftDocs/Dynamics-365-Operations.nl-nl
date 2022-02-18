@@ -2,7 +2,7 @@
 title: Het geconfigureerde ER-onderdeel inspecteren om runtimeproblemen te voorkomen
 description: In dit onderwerp wordt uitgelegd hoe u de geconfigureerde onderdelen voor elektronische rapportage (ER) kunt inspecteren om runtimeproblemen te voorkomen.
 author: NickSelin
-ms.date: 08/26/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a855619ebd1c41dc3ca583912f758ed8a8f9ceef
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: c63ffc6316d21d36bb2aad57194b8aa1c477607e
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488109"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074786"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Het geconfigureerde ER-onderdeel inspecteren om runtimeproblemen te voorkomen
 
 [!include[banner](../includes/banner.md)]
 
-Elke geconfigureerde [indeling](general-electronic-reporting.md#FormatComponentOutbound) voor [elektronische rapportage](general-electronic-reporting.md) en elke onderdeel voor [modeltoewijzing](general-electronic-reporting.md#data-model-and-model-mapping-components) kan tijdens het ontwerp worden [gevalideerd](er-fillable-excel.md#validate-an-er-format). Tijdens deze validatie wordt een consistentie controle uitgevoerd om runtimeproblemen te voorkomen die zich kunnen voordoen, zoals uitvoeringsfouten en prestatievermindering. Voor elk gevonden probleem wordt het pad van een problematisch element verstrekt. Voor sommige problemen is een automatische oplossing beschikbaar.
+Elke geconfigureerde [indeling](er-overview-components.md#format-components-for-outgoing-electronic-documents) voor [elektronische rapportage](general-electronic-reporting.md) en elke onderdeel voor [modeltoewijzing](er-overview-components.md#model-mapping-component) kan tijdens het ontwerp worden [gevalideerd](er-fillable-excel.md#validate-an-er-format). Tijdens deze validatie wordt een consistentie controle uitgevoerd om runtimeproblemen te voorkomen die zich kunnen voordoen, zoals uitvoeringsfouten en prestatievermindering. Voor elk gevonden probleem wordt het pad van een problematisch element verstrekt. Voor sommige problemen is een automatische oplossing beschikbaar.
 
 De validatie wordt standaard automatisch toegepast in de volgende gevallen voor een ER-configuratie die de eerder genoemde ER-onderdelen bevat:
 
@@ -236,6 +236,15 @@ De volgende tabel biedt een overzicht van de inspecties die ER biedt. Als u meer
 <td>Fout</td>
 <td>Er zijn meer dan twee bereikonderdelen zonder replicatie. Verwijder overbodige onderdelen.</td>
 </tr>
+<tr>
+<td><a href='#i18'>Uitvoerbaarheid van een expressie met ORDERBY-functie</a></td>
+<td>Uitvoerbaarheid</td>
+<td>Fout</td>
+<td>
+<p>Op de lijstexpressie van de functie ORDERBY kan geen query worden uitgevoerd.</p>
+<p><b>Runtimefout:</b> sorteren wordt niet ondersteund. Valideer de configuratie voor meer informatie hierover.</p>
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -365,7 +374,7 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 8. Noem het nieuwe geneste veld **$AccNumber** en configureer het zodat het de expressie `TRIM(Vendor.AccountNum)` bevat.
 9. Selecteer **Valideren** om het bewerkbare modeltoewijzingsonderdeel te inspecteren op de pagina **Ontwerper modeltoewijzing** en te controleren of de expressie `FILTER(Vendor, Vendor.AccountNum="US-101")` in de gegevensbron **Vendor** kan worden opgevraagd.
 
-    ![Controleren of de expressie kan worden opgevraagd op de pagina Ontwerper modeltoewijzing.](./media/er-components-inspections-04.gif)
+    ![Controleren of de expressie met de FILTER-functie kan worden opgevraagd op de pagina Ontwerper modeltoewijzing.](./media/er-components-inspections-04.gif)
 
 10. Er treedt een validatiefout op, omdat de gegevensbron **Vendor** een genest veld van het type **Berekend veld** bevat waarmee de expressie van de gegevensbron **FilteredVendor** niet kan worden omgezet in de directe SQL-instructie.
 
@@ -671,19 +680,19 @@ In de volgende afbeelding wordt de runtimefout weergegeven die optreedt als u de
 
 ![Runtimefout die optreedt tijdens het uitvoeren van de indelingstoewijzing op de pagina Indelingsontwerper.](./media/er-components-inspections-10b.png)
 
-### <a name="automatic-resolution&quot;></a>Automatische oplossing
+### <a name="automatic-resolution"></a>Automatische oplossing
 
 Er is geen optie beschikbaar om dit probleem automatisch op te lossen.
 
-### <a name=&quot;manual-resolution&quot;></a>Handmatige oplossing
+### <a name="manual-resolution"></a>Handmatige oplossing
 
-#### <a name=&quot;option-1&quot;></a>Optie 1
+#### <a name="option-1"></a>Optie 1
 
 De markering **Cache** verwijderen uit de gegevensbron **Vendor**. De gegevensbron **FilteredVendor** wordt dan uitvoerbaar, maar de gegevensbron **Vendor** waarnaar wordt verwezen in de tabel VendTable wordt elke keer geopend wanneer de gegevensbron **FilteredVendor** wordt aangeroepen.
 
-#### <a name=&quot;option-2&quot;></a>Optie 2
+#### <a name="option-2"></a>Optie 2
 
-Wijzig de expressie van de gegevensbron **FilteredVendor** van `FILTER(Vendor, Vendor.AccountNum=&quot;US-101")` in `WHERE(Vendor, Vendor.AccountNum="US-101")`. In dit geval wordt de gegevensbron **Vendor** waarnaar wordt verwezen in de tabel VendTable alleen geopend tijdens de eerste aanroep van de gegevensbron **Vendor**. De selectie van records wordt echter in het geheugen uitgevoerd. Deze benadering kan daardoor leiden tot slechte prestaties.
+Wijzig de expressie van de gegevensbron **FilteredVendor** van `FILTER(Vendor, Vendor.AccountNum="US-101")` in `WHERE(Vendor, Vendor.AccountNum="US-101")`. In dit geval wordt de gegevensbron **Vendor** waarnaar wordt verwezen in de tabel VendTable alleen geopend tijdens de eerste aanroep van de gegevensbron **Vendor**. De selectie van records wordt echter in het geheugen uitgevoerd. Deze benadering kan daardoor leiden tot slechte prestaties.
 
 ## <a name="missing-binding"></a><a id="i11"></a>Binding ontbreekt
 
@@ -892,6 +901,47 @@ Er is geen optie beschikbaar om dit probleem automatisch op te lossen.
 #### <a name="option-1"></a>Optie 1
 
 Pas de geconfigureerde indeling aan door de eigenschap **Replicatierichting** te wijzigen voor alle inconsistente onderdelen **Excel\\Bereik**.
+
+## <a name="executability-of-an-expression-with-orderby-function"></a><a id="i18"></a>Uitvoerbaarheid van een expressie met ORDERBY-functie
+
+De ingebouwde ER-functie [ORDERBY](er-functions-list-orderby.md) wordt gebruikt om de records te sorteren van een ER-gegevensbron van het type **[Recordlijst](er-formula-supported-data-types-composite.md#record-list)** dat wordt opgegeven als een argument van de functie.
+
+Argumenten van de functie `ORDERBY` kunnen worden [opgegeven](er-functions-list-orderby.md#syntax-2) om records te sorteren van toepassingstabellen, weergaven of gegevensentiteiten door een enkele database-aanroep te plaatsen om de gesorteerde gegevens als een lijst met records op te halen. Een gegevensbron van het type **Recordlijst** wordt gebruikt als argument van de functie en geeft de toepassingsbron voor de oproep aan.
+
+In ER wordt gecontroleerd of er een directe databasequery kan worden gemaakt naar een gegevensbron waarnaar wordt verwezen in de functie `ORDERBY`. Als er geen directe query kan worden gemaakt, treedt een validatiefout op in de ontwerper voor ER-modeltoewijzing. Het bericht dat wordt weergegeven, geeft aan dat de ER-expressie die de functie `ORDERBY` bevat, niet kan worden uitgevoerd tijdens runtime.
+
+De volgende stappen laten zien hoe dit probleem kan optreden.
+
+1. Begin met het configureren van het ER-modeltoewijzingsonderdeel.
+2. Voeg een gegevensbron toe van het type **Dynamics 365 for Operations \\ Tabelrecords**.
+3. Geef de nieuwe gegevensbron de naam **Vendor**. Selecteer in het veld **Tabel** de optie **VendTable** om aan te geven dat deze gegevensbron de tabel **VendTable** moet opvragen.
+4. Voeg een gegevensbron van het type **Berekend veld** toe.
+5. Geef de nieuwe gegevensbron de naam **OrderedVendors** en configureer deze zodat deze de expressie `ORDERBY("Query", Vendor, Vendor.AccountNum)` bevat.
+ 
+    ![Gegevensbronnen configureren op de pagina Ontwerper modeltoewijzing.](./media/er-components-inspections-18-1.png)
+
+6. Selecteer **Valideren** om het bewerkbare modeltoewijzingsonderdeel te inspecteren op de pagina **Ontwerper modeltoewijzing** en te controleren of de expressie in de gegevensbron **OrderedVendors** kan worden opgevraagd.
+7. Wijzig de gegevensbron **Vendor** door een genest veld van het type **Berekend veld** toe te voegen om het bijgesneden leveranciersrekeningnummer te krijgen.
+8. Noem het nieuwe geneste veld **$AccNumber** en configureer het zodat het de expressie `TRIM(Vendor.AccountNum)` bevat.
+9. Selecteer **Valideren** om het bewerkbare modeltoewijzingsonderdeel te inspecteren op de pagina **Ontwerper modeltoewijzing** en te controleren of de expressie in de gegevensbron **Vendor** kan worden opgevraagd.
+
+    ![Controleren of de expressie in de gegevensbron Vendor kan worden opgevraagd op de pagina Ontwerper modeltoewijzing.](./media/er-components-inspections-18-2.png)
+
+10. Er treedt een validatiefout op, omdat de gegevensbron **Vendor** een genest veld van het type **Berekend veld** bevat waarmee de expressie van de gegevensbron **OrderedVendors** niet kan worden omgezet in de directe database-instructie. Dezelfde fout treedt op tijdens runtime als u de validatiefout negeert en **Uitvoeren** selecteert om deze modeltoewijzing uit te voeren.
+
+### <a name="automatic-resolution"></a>Automatische oplossing
+
+Er is geen optie beschikbaar om dit probleem automatisch op te lossen.
+
+### <a name="manual-resolution"></a>Handmatige oplossing
+
+#### <a name="option-1"></a>Optie 1
+
+In plaats van een genest veld van het type **Berekend veld** toe te voegen aan de gegevensbron **Vendor**, voegt u het geneste veld **$AccNumber** toe aan de gegevensbron **FilteredVendors** en configureert u het veld zodanig dat dit de expressie `TRIM(FilteredVendor.AccountNum)` bevat. Op deze manier kan de expressie `ORDERBY("Query", Vendor, Vendor.AccountNum)` worden uitgevoerd op het databaseniveau en kan de berekening van het geneste veld **$AccNumber** achteraf worden uitgevoerd.
+
+#### <a name="option-2"></a>Optie 2
+
+Wijzig de expressie van de gegevensbron **FilteredVendors** van `ORDERBY("Query", Vendor, Vendor.AccountNum)` in `ORDERBY("InMemory", Vendor, Vendor.AccountNum)`. We raden u niet aan de expressie voor een tabel met een groot gegevensvolume (transactionele tabel) te wijzigen, omdat alle records worden opgehaald en de ordening van de vereiste records in het geheugen plaatsvindt. Deze benadering kan daardoor leiden tot slechte prestaties.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

@@ -1,6 +1,6 @@
 ---
-title: Configuratie van twee keer wegschrijven in Finance and Operations-apps en Dataverse controleren
-description: In dit onderwerp wordt uitgelegd hoe u kunt bepalen of Twee keer wegschrijven is geconfigureerd in Finance and Operations-apps en Dataverse.
+title: Configuratie voor twee keer wegschrijven verifiëren in apps voor financiële en bedrijfsactiviteiten en Dataverse
+description: In dit onderwerp wordt uitgelegd hoe u kunt bepalen of Twee keer wegschrijven is geconfigureerd in apps voor financiële en bedrijfsactiviteiten en in Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,36 +9,36 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 1f82705f3d8bc11eacbc13d32c14ad1765dcc559
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 3fa16a450032464e445ae166f0699fe0dc388071
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782622"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062795"
 ---
-# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Configuratie van twee keer wegschrijven in Finance and Operations-apps en Dataverse controleren
+# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Configuratie voor twee keer wegschrijven verifiëren in apps voor financiële en bedrijfsactiviteiten en Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
-Dit onderwerp bevat informatie voor het oplossen van problemen voor de integratie van twee keer wegschrijven tussen Finance and Operations-apps en Dataverse. In dit onderwerp wordt specifiek uitgelegd hoe u kunt bepalen of Twee keer wegschrijven is geconfigureerd in Finance and Operations-apps en Dataverse.
 
-## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Controleren of Twee keer wegschrijven is geconfigureerd in een Finance and Operations-app
+Dit onderwerp bevat informatie voor het oplossen van problemen met de integratie van Twee keer wegschrijven tussen apps voor financiële en bedrijfsactiviteiten en Dataverse. In dit onderwerp wordt specifiek uitgelegd hoe u kunt bepalen of Twee keer wegschrijven is geconfigureerd in apps voor financiële en bedrijfsactiviteiten en in Dataverse.
+
+## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Configuratie voor twee keer wegschrijven verifiëren in een app voor financiële en bedrijfsactiviteiten
 
 Om te bepalen of de fouten die worden weergegeven wanneer u rijen voor de update probeert op te slaan, afkomstig zijn van Twee keer wegschrijven, controleert u eerst of Twee keer wegschrijven is geconfigureerd.
 
-+ Als u beheerdersrechten hebt in de Finance and Operations-app, gaat u naar **Werkruimten \> Gegevensbeheer** en selecteert u de tegel voor **Twee keer wegschrijven**. Als de details van de gekoppelde omgevingen en de lijst met actieve tabeltoewijzingen worden weergegeven, wordt Twee keer wegschrijven geconfigureerd.
++ Als u beheerdersrechten hebt in de app voor financiële en bedrijfsactiviteiten, gaat u naar **Werkgebieden \> Gegevensbeheer** en selecteert u de tegel **Twee keer wegschrijven**. Als de details van de gekoppelde omgevingen en de lijst met actieve tabeltoewijzingen worden weergegeven, wordt Twee keer wegschrijven geconfigureerd.
 
-    ![De verbinding met de Finance and Operations-app controleren als u beheerdersbevoegdheden hebt.](media/verify_fin_ops_1.png)
+    ![De verbinding met de app voor financiële en bedrijfsactiviteiten controleren als u beheerdersbevoegdheden hebt.](media/verify_fin_ops_1.png)
 
-+ Als u geen beheerdersbevoegdheden hebt, wordt er een foutbericht weergegeven: *Kan geen gegevens schrijven naar entiteit \<entity name\>*. In het voorbeeld in de volgende afbeelding kunt u geen klantrij in de Finance and Operations-app maken, omdat Twee keer wegschrijven is geconfigureerd, maar de verwijzingsgegevens voor de klantengroep en de betalingsvoorwaarden zijn niet aanwezig in Dataverse.
++ Als u geen beheerdersbevoegdheden hebt, wordt er een foutbericht weergegeven: *Kan geen gegevens schrijven naar entiteit \<entity name\>*. In het voorbeeld in de volgende afbeelding kunt u geen klantrij in de app voor financiële en bedrijfsactiviteiten maken, omdat Twee keer wegschrijven is geconfigureerd, maar de verwijzingsgegevens voor de klantengroep en de betalingsvoorwaarden zijn niet aanwezig in Dataverse.
 
-    ![De verbinding met de Finance and Operations-app controleren als u beheerdersbevoegdheden hebt.](media/verify_fin_ops_2.png)
+    ![De verbinding met de app voor financiële en bedrijfsactiviteiten controleren als u geen beheerdersbevoegdheden hebt.](media/verify_fin_ops_2.png)
 
-Voor informatie over het oplossen van problemen wanneer u gegevens maakt in Finance and Operations-apps leest u [Problemen met live synchronisatie oplossen](dual-write-troubleshooting-live-sync.md).
+Voor informatie over het oplossen van problemen wanneer u gegevens maakt in apps voor financiële en bedrijfsactiviteiten leest u [Problemen met live synchronisatie oplossen](dual-write-troubleshooting-live-sync.md).
 
 ## <a name="verify-that-dual-write-is-configured-in-dataverse"></a>Controleren of Twee keer wegschrijven is geconfigureerd in Dataverse
 

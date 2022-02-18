@@ -2,27 +2,24 @@
 title: Verbeteringen van boekingsfunctionaliteit voor overzichten
 description: In dit onderwerp worden verbeteringen beschreven die zijn aangebracht in de functie voor het boeken van overzichten.
 author: analpert
-ms.date: 12/03/2021
+ms.date: 01/31/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9a5a7d6394a87eccde8e1c364caaaabdb0297fd2
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 6ee0cea76be05634aa21643acef5b341f19d75ef
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982198"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087598"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Verbeteringen van boekingsfunctionaliteit voor overzichten
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp wordt de eerste set verbeteringen beschreven die zijn aangebracht in de functie voor het boeken van overzichten. Deze verbeteringen zijn beschikbaar in Microsoft Dynamics 365 for Finance and Operations 7.3.2.
 
@@ -53,12 +50,24 @@ Als onderdeel van de nieuwe overzichtsboekingsfunctie zijn er drie nieuwe parame
 
 - **Telling uitschakelen vereist**: wanneer deze optie is ingesteld op **Ja**, wordt het boekingsproces voor een overzicht voortgezet, zelfs als het verschil tussen het getelde bedrag en het transactiebedrag op het overzicht buiten de drempelwaarde valt die is gedefinieerd op het sneltabblad **Overzicht** voor winkels.
 
+> [!NOTE]
+> Wanneer vanaf Commerce versie 10.0.14 de functie **Detailhandeloverzichten - groepsgewijze invoer** wordt ingeschakeld , is de batchtaak **Voorraad boeken** niet meer van toepassing en kan deze niet meer worden uitgevoerd.
+
 Daarnaast zijn de volgende parameters ingevoerd op het sneltabblad **Batchverwerking** op het tabblad **Boeking** van de pagina **Commerce-parameters**: 
 
 - **Maximumaantal parallelle overzichtboekingen**: dit veld bepaalt het aantal batchtaken dat wordt gebruikt om meerdere overzichten te boeken. 
 - **Maximale aantal threads voor orderverwerking per overzicht**: dit veld geeft het maximale aantal threads aan dat wordt gebruikt door de batchtaak voor het boeken van overzichten verkooporders voor een enkel overzicht te maken en te factureren. Het totale aantal threads dat door het boekingsproces voor overzichten wordt gebruikt, wordt berekend op basis van de waarde in deze parameter vermenigvuldigd met de waarde in de parameter **Maximumaantal parallelle overzichtboekingen**. Als u de waarde van deze parameter te hoog instelt, kunnen de prestaties van het boekingsproces voor overzichten negatief worden beïnvloed.
 - **Maximale aantal transactieregels dat is opgenomen in aggregatie**: in dit veld wordt het aantal transactieregels gedefinieerd dat wordt opgenomen in één geaggregeerde transactie voordat een nieuwe wordt gemaakt. Geaggregeerde transacties worden gemaakt op basis van verschillende aggregatiecriteria zoals klant, werkdag of financiële dimensies. Het is belangrijk te weten dat de regels van een enkele transactie niet over verschillende geaggregeerde transacties worden verdeeld. Dit betekent dat het aantal regels in een geaggregeerde transactie iets hoger of lager kan liggen, op basis van factoren zoals het aantal verschillende producten.
 - **Maximumaantal threads om winkeltransacties te valideren**: dit veld definieert het aantal threads dat wordt gebruikt om transacties te valideren. Het valideren van transacties is een vereiste stap die moet plaatsvinden voordat de transacties in de overzichten kunnen worden opgenomen. U moet ook een **geschenkbonproduct** definiëren op het sneltabblad **Geschenkbon** van het tabblad **Boeking** van de pagina **Commerce-parameters**. Dit moet worden gedefinieerd zelfs als er geen geschenkbonnen worden gebruikt door de organisatie.
+
+In de volgende tabel staan de aanbevolen waarden voor de voorgaande parameters. Deze waarden moeten worden getest op en aangepast aan de implementatieconfiguratie en beschikbare infrastructuur. Een verhoging van de aanbevolen waarden kan een nadelige invloed hebben op andere batchverwerkingen en moet worden gevalideerd.
+
+| Parameter | Aanbevolen waarde | Gegevens |
+|-----------|-------------------|---------|
+| Maximumaantal parallelle overzichtboekingen | <p>Stel deze parameter in op het aantal batchtaken dat beschikbaar is voor de batchgroep die de taak **Overzicht** uitvoert.</p><p>**Algemene regel:** het aantal virtuele AOS-servers (Application Object Server) vermenigvuldigen met het aantal batchtaken dat beschikbaar is per virtuele AOS-server.</p> | Deze parameter is niet van toepassing als de functie **Detailhandeloverzichten - groepsgewijze invoer** is ingeschakeld. |
+| Maximale thread voor orderverwerking per overzicht | Begin met het testen van waarden bij **4**. Normaal gesproken mag de waarde niet hoger zijn dan **8**. | Deze parameter geeft het aantal threads aan dat wordt gebruikt om verkooporders te maken en te boeken. De parameter vertegenwoordigt het aantal threads dat voor boeking per overzicht beschikbaar is. |
+| Maximumaantal transactieregels dat is opgenomen in een aggregatie | Begin met het testen van waarden bij **1000**. Afhankelijk van de configuratie van het hoofdkantoor kunnen kleinere orders gunstiger zijn voor de prestaties. | Deze parameter bepaalt het aantal regels dat in elke verkooporder wordt opgenomen tijdens het boeken van het overzicht. Als dit nummer is bereikt, worden regels opgedeeld in een nieuwe order. Hoewel het aantal verkoopregels niet exact is omdat de opsplitsing op verkooporderniveau plaatsvindt, blijft het aantal dicht bij het aantal dat is ingesteld. Deze parameter wordt gebruikt om verkooporders te genereren voor detailhandeltransacties die geen benoemde klant hebben. |
+| Maximumaantal threads voor het valideren van winkeltransacties | We raden u aan om deze parameter op **4** in te stellen en deze alleen te verhogen als u geen acceptabele prestaties bereikt. Het aantal threads dat in dit proces wordt gebruikt, kan niet hoger zijn dan het aantal processors dat beschikbaar is op de batchserver. Als u hier te veel threads toewijst, heeft dit mogelijk invloed op andere batchverwerkingen. | Met deze parameter wordt het aantal transacties bepaald dat tegelijkertijd kan worden gevalideerd voor een bepaalde winkel. |
 
 > [!NOTE]
 > Alle instellingen en parameters die zijn gerelateerd aan overzichtsboekingen en die zijn gedefinieerd in winkels op de pagina **Commerce-parameters** zijn van toepassing op de verbeterde functie voor het boeken van overzichten.
@@ -161,7 +170,7 @@ De weergave met samengevoegde transacties biedt de volgende voordelen:
 - De gebruiker heeft zicht op de samengevoegde transacties die zijn mislukt tijdens het maken van verkooporders en de verkooporders die zijn mislukt tijdens het factureren.
 - De gebruiker heeft zicht op de wijze waarop transacties worden samengevoegd.
 - De gebruiker heeft een volledige audittrail, van transacties tot verkooporders, tot verkoopfacturen. Deze audittrail was niet beschikbaar in de verouderde functie voor het boeken van overzichten.
-- Samengevoegde XML-bestanden maken het eenvoudiger om problemen te identificeren tijdens het maken van verkooporders en de facturering.
+- Samengevoegde XML-bestanden maken het eenvoudiger om problemen te identificeren tijdens het maken van verkooporders en tijdens facturering.
 
 ### <a name="journal-vouchers"></a>Journaalboekstukken
 

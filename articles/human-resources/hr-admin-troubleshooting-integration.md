@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8c368f916a199c7472f6f886d143048487a38ecc
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
+ms.openlocfilehash: 308e2a538666522edf4a76be13b93c82c3f3a774
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413371"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071105"
 ---
 # <a name="integration-with-finance-faq"></a>Veelgestelde vragen over integratie met Finance
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 In dit onderwerp wordt antwoord gegeven op veelgestelde vragen over welke gegevens worden gesynchroniseerd wanneer Dynamics 365 Human Resources wordt geïntegreerd met Dynamics 365 Finance.
 
@@ -86,7 +89,7 @@ Er is geen speciale instelling vereist voor het afhandelen van uitzonderingen. M
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Kan ik integratie in twee richtingen instellen?
 
-Nee, de integratie verloopt momenteel slechts in één richting (van Human Resources naar Finance and Operations). Er is echter een standaardsjabloon beschikbaar voor het verzenden van gegevens van Human Resources naar Finance.
+Nee, integratie verloopt momenteel in één richting (Human Resources naar Finance and Operations). Er is echter een standaardsjabloon beschikbaar voor het verzenden van gegevens van Human Resources naar Finance.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Kan ik recordverwijdering toestaan als onderdeel van mijn integratie?
 

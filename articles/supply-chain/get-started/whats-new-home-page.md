@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e4a120dd4199b143c3103392515c85e7b887194b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 4c37a91a00aa6b7896bfbf9b57567a25c30d8b35
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982710"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075119"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management
 
@@ -31,6 +31,7 @@ U ziet in de volgende onderwerpen wat er nieuw of gewijzigd is in alle versies v
 
 | Versie | Build nr. | Beschikbaarheid van automatische update | Meer informatie |
 |---|---|---|---|
+| 10.0.25 | 10.0.1149 | 2022 april | [Preview van Dynamics 365 Supply Chain Management 10.0.25](whats-new-scm-10-0-25.md) |
 | 10.0.24 | 10.0.1084 | 2022 februari | [Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.24](whats-new-scm-10-0-24.md) |
 | 10.0.23 | 10.0.1037 | 2022 januari | [Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.23](whats-new-scm-10-0-23.md) |
 | 10.0.22 | 10.0.995 | november 2021 | [Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.22](whats-new-scm-10-0-22.md) |

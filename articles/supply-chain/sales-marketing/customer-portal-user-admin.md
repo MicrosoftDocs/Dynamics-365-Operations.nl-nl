@@ -12,17 +12,17 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 20751a25a6dedb04806068780bc2f4e381bf79bc
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: 4615182e6c3341a376e8e55a1417480e3e3f5ea7
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937448"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062485"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Gebruikers van klantportal maken en beheren
 
 [!include [banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 In de standaardimplementatie kunnen gebruikers zichzelf niet zelf registreren voor websites die zijn gemaakt met de klantportal. Om zich aan te melden en een website te gebruiken moeten gebruikers door de beheerder worden uitgenodigd. Microsoft heeft de mogelijkheid voor gebruikers om zichzelf te registreren, opzettelijk geblokkeerd.
 

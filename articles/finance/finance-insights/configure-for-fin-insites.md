@@ -2,7 +2,7 @@
 title: Configuratie voor Finance Insights
 description: In dit onderwerp worden de configuratiestappen beschreven die ervoor zorgen dat uw systeem de mogelijkheden gebruikt die beschikbaar zijn in Finance Insights.
 author: ShivamPandey-msft
-ms.date: 11/19/2021
+ms.date: 01/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 6183e8a7500e9deff0ebf6b5dec8842ad4ca94cb
-ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
+ms.openlocfilehash: b9bad6445e9e77688f66c6c4186422d7a898edd7
+ms.sourcegitcommit: 7fc0a9a6440ac087292e9e76c26c67f56154b9e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/20/2021
-ms.locfileid: "7827023"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8051365"
 ---
 # <a name="configuration-for-finance-insights"></a>Configuratie voor Finance Insights
 
@@ -100,6 +100,9 @@ Nadat de invoegtoepassing is geïnstalleerd, kan het tot een uur duren voordat u
 
    Nadat het proces van de **statuscontrole van Insights-inrichting** is uitgevoerd, kunt u Finance Insights-functies inschakelen in het werkgebied **Functiebeheer**.
 
+> [!NOTE]
+> Als het proces van **Statuscontrole voor Insights-inrichting** niet wordt uitgevoerd, gaat u naar **Systeembeheer** > **Query´s** > **Batchtaken**. Wijzig in het veld **Polling-systeem procesautomatisering** de waarde in **Wachtend** om het proces te starten. 
+> 
 ## <a name="feedback-and-support"></a>Feedback en ondersteuning
 
 Stuur een e-mail naar [Finance Insights (preview)](mailto:fiap@microsoft.com) als u feedback wilt geven of ondersteuning nodig hebt.

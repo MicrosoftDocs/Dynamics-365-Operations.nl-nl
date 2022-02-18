@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fcbace2bd28a843fca8aa2f4f998c08f238c29d6
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 8ba478fef424a6c4688191ed4e5375bbce52de0c
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920293"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060996"
 ---
 # <a name="configure-inventory-visibility"></a>Voorraadzichtbaarheid configureren
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 In dit onderwerp wordt beschreven hoe u de invoegtoepassing Voorraadzichtbaarheid gebruikt met de app Voorraadzichtbaarheid in Power Apps.
 
@@ -58,7 +58,7 @@ Nadat de configuratie is voltooid, moet u **Configuratie bijwerken** selecteren 
 
 ## <a name="data-source-configuration"></a>Configuratie van de gegevensbron
 
-Elke gegevensbron vertegenwoordigt een systeem waaruit uw gegevens afkomstig zijn. Voorbeelden van namen van gegevensbronnen zijn `fno` (wat Dynamics 365 Finance and Operations-apps betekent) en `pos` (wat verkooppunt betekent). Standaard is Supply Chain Management ingesteld als een standaardgegevensbron (`fno`) in Voorraadzichtbaarheid.
+Elke gegevensbron vertegenwoordigt een systeem waaruit uw gegevens afkomstig zijn. Voorbeelden van namen van gegevensbronnen zijn `fno` (wat voor apps voor Dynamics 365 Finance en bedrijfsactiviteiten staat) en `pos` (wat verkooppunt betekent). Standaard is Supply Chain Management ingesteld als een standaardgegevensbron (`fno`) in Voorraadzichtbaarheid.
 
 > [!NOTE]
 > De `fno`-gegevensbron is gereserveerd voor Supply Chain Management. Als de invoegtoepassing Voorraadzichtbaarheid is geïntegreerd met een Supply Chain Management-omgeving, raden we u aan om geen configuraties te verwijderen die betrekking hebben op `fno` in de gegevensbron.

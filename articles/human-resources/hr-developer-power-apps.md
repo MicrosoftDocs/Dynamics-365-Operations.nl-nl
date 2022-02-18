@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a466ef2d2002ebc9d35b33571009727626cd5c678e995d42a00dbe64a2806729
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fedf9b35e5dc8372fd82c6308ec5b1452eab7e8f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778050"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070295"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Uitbreiden met Power Apps en Power Automate
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 In dit artikel worden enkele voorbeelden beschreven van uitbreidbaarheidsscenario's voor Microsoft Dynamics 365 Human Resources die gebruikmaken van Microsoft Power Apps en Microsoft Power Automate. U kunt het oplossingspakket importeren dat is gekoppeld aan elk voorbeeld in uw Power Apps-omgeving. Vervolgens kunt u de pakketten als richtlijn of als beginpunt gebruiken voor het implementeren van scenario's die van toepassing op uw organisatie.
 
@@ -44,7 +47,7 @@ De app **Integratie met Microsoft 365** kan worden gebruikt voor het ophalen van
 
 U kunt deze app uitbreiden voor andere scenario's. U kunt deze bijvoorbeeld gebruiken om teamvakantiegegevens, agenda-items en teamspecifieke gebeurtenissen weer te geven.
 
-Voor het downloaden van de app **Integratie met Microsoft 365, Power Automate** gaat u naar [Integratie met Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2081787) in het Microsoft Downloadcentrum.
+Voor het downloaden van de app voor **integratie met Microsoft 365, Power Automate** gaat u naar [Integratie met Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2081787) in het Microsoft Downloadcentrum.
 
 ## <a name="power-automate--sql-connect-and-execute"></a>Power Automate: verbinding maken met SQL en SQL-query´s uitvoeren
 

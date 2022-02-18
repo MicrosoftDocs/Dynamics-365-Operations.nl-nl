@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 23f720db57bf60c81182ed8ae4bdac965676741ce2a2e53bc699c2bd49325b74
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb4693f3c856e7abcc39cbd658183d01ec98a066
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754132"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063742"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (14 mei 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Human Resources. Wijzigingen die van toepassing zijn op buildnummer 8.1.3244. De getallen tussen haakjes in sommige koppen verwijzen ter referentie naar ondersteuningsnummers in Lifecycle Services (LCS).
 
 ## <a name="platform-changes"></a>Platformwijzigingen
 
-In de release van deze week zijn platformwijzigingen opgenomen. Zie [Platformupdates voor versie 10.0.10 van Finance and Operations-apps (mei 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md) voor meer informatie. Deze versie bevat correcties en wijzigingen in opgeslagen weergaven.
+In de release van deze week zijn platformwijzigingen opgenomen. Zie voor meer informatie [Platformupdates voor versie 10.0.10 van apps voor financiële en bedrijfsactiviteiten (mei 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Deze versie bevat correcties en wijzigingen in opgeslagen weergaven.
  
 ## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Zorg ervoor dat Dataverse-selectielijsten consistent zijn met Verlof-enums (436343)
 

@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: bce58631ecd54bb90993bd552d529d3b379de1b1
-ms.sourcegitcommit: 6762a674a552353d9f53587923c9acba9b43cb56
+ms.openlocfilehash: e9dc3e6c5fbec9636370b64a9bbdcf8a5834d332
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "7917725"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061831"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migratie Valuta-gegevenstype voor Twee keer wegschrijven
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 U kunt het aantal decimalen dat voor valutawaarden wordt ondersteund, verhogen tot maximaal 10. De standaard limiet is vier decimalen. Door het aantal decimalen te verhogen voorkomt u gegevensverlies wanneer u met gegevens synchroniseert met Twee keer wegschrijven. De verhoging van het aantal decimalen is een optionele wijziging. Om dit te implementeren moet u ondersteuning vragen aan Microsoft.
 
@@ -29,7 +29,7 @@ Het proces waarbij het aantal decimalen wordt gewijzigd, heeft twee stappen:
 1. De migratie aanvragen bij Microsoft.
 2. Het aantal decimalen wijzigen in Dataverse.
 
-De Finance and Operations-app en Dataverse moet hetzelfde aantal decimale posities in valutawaarden ondersteunen. Anders kunnen gegevens verloren gaan wanneer de gegevens tussen apps worden gesynchroniseerd. Het migratieproces configureert de manier waarop valuta- en wisselkoerswaarden worden opgeslagen, maar wijzigt geen gegevens. Nadat de migratie is voltooid, kan het aantal decimalen voor valutacodes en prijzen worden verhoogd. De gegevens die gebruikers invoeren en weergeven, kunnen de decimalen nauwkeuriger aangeven.
+De app voor financiële en bedrijfsactiviteiten en Dataverse moeten hetzelfde aantal decimale posities in valutawaarden ondersteunen. Anders kunnen gegevens verloren gaan wanneer de gegevens tussen apps worden gesynchroniseerd. Het migratieproces configureert de manier waarop valuta- en wisselkoerswaarden worden opgeslagen, maar wijzigt geen gegevens. Nadat de migratie is voltooid, kan het aantal decimalen voor valutacodes en prijzen worden verhoogd. De gegevens die gebruikers invoeren en weergeven, kunnen de decimalen nauwkeuriger aangeven.
 
 Migratie is optioneel. Als u meer decimalen wilt gebruiken, is het raadzaam om de migratie te overwegen. Organisaties die geen waarden nodig hebben met meer dan vier decimalen, hoeven niet te worden gemigreerd.
 
@@ -37,7 +37,7 @@ Migratie is optioneel. Als u meer decimalen wilt gebruiken, is het raadzaam om d
 
 Opslag voor bestaande valutakolommen in Dataverse kan niet meer dan vier decimalen ondersteunen. Daarom worden valutawaarden tijdens het migratieproces naar nieuwe interne kolommen in de database gekopieerd. Dit proces vindt voortdurend plaats totdat alle gegevens zijn gemigreerd. Intern worden de oude opslagtypen aan het eind van de migratie vervangen door de nieuwe opslagtypen, maar de gegevenswaarden blijven ongewijzigd. De valutakolommen kunnen vervolgens maximaal 10 decimale posities ondersteunen. Tijdens het migratieproces kunt u Dataverse zonder onderbreking blijven gebruiken.
 
-Tegelijkertijd worden wisselkoersen gewijzigd, zodat ze maximaal 12 decimalen ondersteunen in plaats van de huidige limiet van 10. Deze wijziging is vereist om ervoor te zorgen dat het aantal decimalen in de Finance and Operations-app hetzelfde is als in Dataverse.
+Tegelijkertijd worden wisselkoersen gewijzigd, zodat ze maximaal 12 decimalen ondersteunen in plaats van de huidige limiet van 10. Deze wijziging is vereist om ervoor te zorgen dat het aantal decimalen in de app voor financiële en bedrijfsactiviteiten hetzelfde is als in Dataverse.
 
 Bij de migratie worden de gegevens niet gewijzigd. Nadat de kolommen met valuta en wisselkoers zijn geconverteerd, kunnen beheerders het systeem zo configureren dat er maximaal tien decimalen worden gebruikt voor valutakolommen door het aantal decimalen voor elke transactievaluta en voor prijzen op te geven.
 

@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 8ff20334445fba1db435d7005c4ca9ba18f97f72
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: cea6258d3a99ba33e73acd2508ec7b6c11d15859
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968957"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061749"
 ---
 # <a name="configuration-for-finance-insights---version-10020-and-later"></a>Configuratie voor Finance Insights - versie 10.0.20 en hoger
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Finance Insights combineert de functionaliteit van Microsoft Dynamics 365 Finance met Dataverse, Azure en AI Builder, zodat u beschikt over krachtige prognosefuncties voor uw organisatie. In dit onderwerp wordt uitgelegd hoe u Dynamics 365 Finance versie 10.0.20 configureert zodat uw systeem de mogelijkheden kan gebruiken die beschikbaar zijn in Finance Insights.
 
@@ -38,7 +38,7 @@ Finance Insights combineert de functionaliteit van Microsoft Dynamics 365 Financ
 
 Ga als volgt te werk om de omgevingen te implementeren.
 
-1. In Microsoft Dynamics Lifecycle Services (LCS) kunt u een Finance-omgeving maken of bijwerken. Voor de omgeving is appversie 10.0.20 of hoger vereist van de Finance and Operations-apps.
+1. In Microsoft Dynamics Lifecycle Services (LCS) kunt u een Finance-omgeving maken of bijwerken. Voor de omgeving is appversie 10.0.20 of hoger vereist van de apps voor financiële en bedrijfsactiviteiten.
 2. De omgeving moet een omgeving met hoge beschikbaarheid (HA) zijn in de sandbox. (Dit type omgeving wordt ook wel een Tier-2-omgeving genoemd.) Zie [Omgevingsplanning](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md) voor meer informatie.
 3. Als u Finance insights configureert in een Sandbox-omgeving, moet u mogelijk productiegegevens naar die omgeving kopiëren om voorspellingen te kunnen uitvoeren. Het voorspellingsmodel gebruikt meerdere jaren aan gegevens om voorspellingen samen te stellen. De Contoso-demonstratiegegevens bevatten niet voldoende historische gegevens om het voorspellingsmodel op een adequate manier te trainen. 
 
@@ -126,7 +126,7 @@ Als u geen van de voorgaande toepassingen kunt vinden, voert u de volgende stapp
         - **Prestaties**: we raden u aan om **Standaard** te selecteren.
         - **Soort account**: selecteer **StorageV2**.
 
-    3. Selecteer **Inschakelen** onder **Hiërarchische naamruimten** in het dialoogvenster **Geavanceerde opties** voor de optie **Data Lake Storage Gen2**. Als u deze functie niet inschakelt, kunt u geen gegevens gebruiken die door Finance and Operations-apps worden geschreven met behulp van services zoals Power BI-gegevensstromen.
+    3. Selecteer **Inschakelen** onder **Hiërarchische naamruimten** in het dialoogvenster **Geavanceerde opties** voor de optie **Data Lake Storage Gen2**. Als u deze functie niet inschakelt, kunt u geen gegevens gebruiken die door apps voor financiële en bedrijfsactiviteiten worden geschreven met behulp van services zoals Power BI-gegevensstromen.
     4. Selecteer **Controleren en maken**. Wanneer de implementatie is voltooid, wordt de nieuwe resource weergegeven in de Azure Portal.
     5. Ga naar het opslagaccount dat u hebt gemaakt.
     6. Selecteer **Toegangssleutels** in het linkermenu.

@@ -13,16 +13,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a97c2a8bb6c334a5a060fcbfc9527a41ba592750
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 4e3287fc824f2f7eb725b11c990a1c457d45439f
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964650"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075144"
 ---
 # <a name="develop-and-open-job-requisition"></a>Vacatures ontwikkelen en openen
 
 [!include [banner](../../includes/banner.md)]
+
+> [!IMPORTANT]
+> De functionaliteit die in dit onderwerp wordt vermeld, is momenteel beschikbaar voor Human Resources-klanten in de Finance-infrastructuur.  
+
 
 Wervingsprojecten kunnen u helpen uw wervingsproces te beheren. Bij elk wervingsproject kunt u informatie, zoals de functie waarvoor u personeel werft, de naam van de werver, de status van het project en de afdeling waar de functie zich bevindt, instellen voor elk wervingsproject. Nadat u een wervingsproject hebt gemaakt, schrijft u een personeelsadvertentie uit voor het project, publiceert u de functie op de pagina **Selfservice werknemer**, koppelt u sollicitaties voor de functie aan het project en houdt u activiteiten voor dat project bij. Voor deze procedure is gebruikgemaakt van het demobedrijf **USMF**.
 

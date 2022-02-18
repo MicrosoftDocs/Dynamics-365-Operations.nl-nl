@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d58a42236b07bf177e09aee50a207ffdf2ed1435
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: 24ddd242185d736287f61ec250c631ab65e08c95
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414709"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065036"
 ---
 # <a name="choose-a-data-integration-technology"></a>Een technologie voor gegevensintegratie kiezen
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dit onderwerp bevat informatie over het integreren met gegevens die worden beheerd door Dynamics 365 Human Resources. Er worden verschillende integratietechnologieën beschreven zodat u kunt bepalen welke technologie het meest geschikt is voor uw behoeften.
 
@@ -68,7 +71,7 @@ De Dataverse-tabellen en hun bijbehorende API's zijn de beste optie voor toegang
 
 ### <a name="dmfdixf-entities"></a>DMF/DIXF-entiteiten
 
-Human Resources, dat hoofdzakelijk op hetzelfde platform als Finance and Operations-toepassingen gebouwd is, biedt een [DMF (Data Management Framework)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). DMF staat ook bekend als Data Import Export Framework (DIXF). Human Resources bevat een set gegevensentiteiten die u kunt gebruiken voor het importeren en exporteren van Human Resources-gegevens. Hoewel Dataverse-tabellen de geprefereerde openbare interface voor gegevensintegratie voor Human Resources zijn, zijn de DMF-entiteiten nog steeds handig in bepaalde omstandigheden, zoals:
+Human Resources, dat hoofdzakelijk op hetzelfde platform als toepassingen voor financiële en bedrijfsactiviteiten gebouwd is, biedt een [DMF (Data Management Framework)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). DMF staat ook bekend als Data Import Export Framework (DIXF). Human Resources bevat een set gegevensentiteiten die u kunt gebruiken voor het importeren en exporteren van Human Resources-gegevens. Hoewel Dataverse-tabellen de geprefereerde openbare interface voor gegevensintegratie voor Human Resources zijn, zijn de DMF-entiteiten nog steeds handig in bepaalde omstandigheden, zoals:
 
 - Dataverse-tabellen zijn nog niet beschikbaar.
 
@@ -111,7 +114,7 @@ BYOD is geschikt voor het melden van oplossingen, gegevensintegraties, gegevensm
 
 ### <a name="odata-enabled-entities"></a>Voor OData ingeschakelde entiteiten
 
-De meeste DMF-entiteiten zijn ook ingeschakeld voor toegang via de Human Resources-gegevensservice (OData). De documentatie die voor de [Finance and Operations OData-service](/dynamics365/unified-operations/dev-itpro/data-entities/odata) wordt geleverd, is van toepassing op Human Resources, behalve voor het maken van uw eigen in OData weergegeven entiteiten.
+De meeste DMF-entiteiten zijn ook ingeschakeld voor toegang via de Human Resources-gegevensservice (OData). De documentatie die voor de [OData-service van Finance and Operations](/dynamics365/unified-operations/dev-itpro/data-entities/odata) wordt geleverd, is van toepassing op Human Resources, behalve voor het maken van uw eigen in OData weergegeven entiteiten.
 
 Hoewel Dataverse en de OData-implementatie die wordt verschaft door Dataverse (via de [Dynamics 365 Web API](/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))), de voorkeur heeft boven de Human Resources-gegevensservice, heeft de Human Resources-gegevensservice momenteel een meer volledige entiteitsdekking voor de Human Resources-gegevens.
 
@@ -129,7 +132,7 @@ Gegevensintegratorprojecten zijn geschikt voor integratie van Dataverse-batches.
 
 ### <a name="power-query"></a>Power Query
 
-Gegevensintegrator ondersteunt ook [Power Query](/power-query/power-query-what-is-power-query) via de [geavanceerde queryfunctie](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). Met Power Query beschikt u over krachtige, flexibele gegevensfiltering en transformatie, waaronder de rijke M-formuletaal. Het is mogelijk dat Power Query bekend is als u Power BI-rapporten hebt ontwikkeld.
+Gegevensintegrator ondersteunt [Power Query](/power-query/power-query-what-is-power-query) via de [geavanceerde queryfunctie](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). Met Power Query beschikt u over krachtige, flexibele gegevensfiltering en transformatie, waaronder de rijke M-formuletaal. Het is mogelijk dat Power Query bekend is als u Power BI-rapporten hebt ontwikkeld.
 
 ## <a name="deciding-on-an-integration-technology"></a>Beslissen over een integratietechnologie
 

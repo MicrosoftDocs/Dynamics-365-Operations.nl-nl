@@ -9,20 +9,20 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 127b4092ad3c5e8737aff43f503e0a8f36ff1ec8
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 601c49e21c3a97d2da225705ddbb386e491d4d25
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781339"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060327"
 ---
 # <a name="party-and-global-address-book"></a>Partij en globaal adresboek
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-*Partij* en *globaal adresboek* zijn concepten in Finance and Operations-toepassingen. Een partij kan een organisatie of persoon zijn. Het is handig om de eigenschappen van een partij, zoals de naam, taal, contactpersonen en adressen, globaal op te slaan en te beheren. Als de waarde van een eigenschap op de ene plaats wordt gewijzigd, wordt deze wijziging ook doorgevoerd op alle andere plaatsen waar de partij wordt gebruikt.
+
+*Partij* en *Globaal adresboek* zijn concepten in toepassingen voor financiële en bedrijfsactiviteiten. Een partij kan een organisatie of persoon zijn. Het is handig om de eigenschappen van een partij, zoals de naam, taal, contactpersonen en adressen, globaal op te slaan en te beheren. Als de waarde van een eigenschap op de ene plaats wordt gewijzigd, wordt deze wijziging ook doorgevoerd op alle andere plaatsen waar de partij wordt gebruikt.
 
 ## <a name="party"></a>Partij
 
@@ -46,7 +46,7 @@ De volgende afbeelding toont het gegevensmodel voor Partij.
 > [!TIP]
 > Wanneer u een nieuwe accountrecord wilt maken, gebruikt u het veld **Partij** om op naam naar de record te zoeken. Op deze manier hoeft u de record alleen maar te selecteren nadat u deze hebt gevonden. Alle gegevens van de partij worden vervolgens automatisch ingevuld. U hoeft niet alle verplichte velden handmatig in te stellen. Dit gedrag is standaardgedrag op de pagina's **Account**, **Contactpersoon** en **Leverancier**.
 
-Niet alle partijrollen van Finance and Operations-apps worden ondersteund door Twee keer wegschrijven. Zie [Overzicht van globaal adresboek](../../../fin-ops/organization-administration/overview-global-address-book.md) voor een volledige lijst met partijrollen.
+Niet alle partijrollen van apps voor financiële en bedrijfsactiviteiten worden ondersteund door Twee keer wegschrijven. Zie [Overzicht van globaal adresboek](../../../fin-ops/organization-administration/overview-global-address-book.md) voor een volledige lijst met partijrollen.
 
 ### <a name="global-address-book"></a>Algemeen adresboek
 
@@ -75,7 +75,7 @@ In de tabel **Contactpersoon** kunnen de volgende typen rijen worden opgeslagen:
 |----------|-------------|
 | Een persoon die een klant is (bijvoorbeeld een verkoopbare contactpersoon of een B2C-klant). | Een gestreepte contactpersoonrecord waarbij het veld **Bedrijf** niet leeg is en het veld **Is klant** is ingesteld op **Ja**. |
 | Een persoon die een leverancier is (bijvoorbeeld een eenmansbedrijf zoals een leverancier). | Een gestreepte contactpersoonrecord waarbij het veld **Bedrijf** niet leeg is en het veld **Is leverancier** is ingesteld op **Ja**. |
-| Een persoon die zowel een klant als leverancier is. | Een gestreepte contactpersoonrecord waarbij het veld **Bedrijf** niet leeg is, het veld **Is klant** is ingesteld op **Ja** en het veld **Is leverancier** is ingesteld op **Ja**. Een persoon kan zowel een fabrikant voor een product als een klant voor een ander product zijn. Beide Finance and Operations-apps en Twee keer wegschijven ondersteunen deze relatie. |
+| Een persoon die zowel een klant als leverancier is. | Een gestreepte contactpersoonrecord waarbij het veld **Bedrijf** niet leeg is, het veld **Is klant** is ingesteld op **Ja** en het veld **Is leverancier** is ingesteld op **Ja**. Een persoon kan zowel een fabrikant voor een product als een klant voor een ander product zijn. Beide apps voor financiële en bedrijfsactiviteiten en Twee keer wegschijven ondersteunen deze relatie. |
 | Een persoon die een contactpersoon is voor een organisatie, maar geen klant of leverancier is. | Een niet-gestreepte contactpersoonrecord waarbij het veld **Bedrijf** leeg is, het veld **Is klant** is ingesteld op **Nee** en het veld **Is leverancier** is ingesteld op **Nee**. |
 
 ## <a name="contact-for-party-table"></a>Contactpersoon voor de tabel Partij
@@ -142,7 +142,7 @@ Met de knop **Nieuw elektronisch adres** boven het raster kunt u zoveel postadre
 Elektronische adressen zijn alleen beschikbaar in dit raster. In toekomstige releases worden alle velden voor elektronische en postadressen verwijderd van andere tabbladen, zoals de tabbladen **Overzicht** en **Informatie**. Contactgegevens die worden weergegeven op het tabblad **Informatie** zijn alleen-lezen-kopieën van het primaire elektronische adres, zoals primair telefoonnr., primair e-mailadres, primair telefoonnr., primaire fax en primaire Twitter-ID. Tijdens het kwalificatieproces voor de lead kunt u zowel een bedrijfstelefoonnummer als een mobiel telefoonnummer opgeven. Het zakelijke telefoonnummer wordt beschouwd als de primair telefoonnr. als **IsMobile=Nee** en het mobiele telefoonnummer wordt beschouwd als secundair telefoonnr. als **IsMobile=Ja**.
 
 > [!TIP]
-> Gebruik de tabbladen **Adressen** en **Elektronische adressen** in de formulieren **Account** en **Contactpersoon** om post- en elektronische adressen te beheren. Op deze manier worden adresgegevens met Finance and Operations-apps gesynchroniseerd.
+> Gebruik de tabbladen **Adressen** en **Elektronische adressen** in de formulieren **Account** en **Contactpersoon** om post- en elektronische adressen te beheren. Hiermee wordt ervoor gezorgd dat adresgegevens met apps voor financiële en bedrijfsactiviteiten worden gesynchroniseerd.
 
 ## <a name="setup"></a>Instelling
 
@@ -152,7 +152,7 @@ Elektronische adressen zijn alleen beschikbaar in dit raster. In toekomstige rel
 
 3. Installeer [de oplossingen voor twee keer wegschrijven voor Partij en Globaal adresboek](https://aka.ms/dual-write-gab).
 
-4. Open de Finance and Operations-app. Navigeer naar de module Gegevensbeheer en selecteer het tabblad Twee keer wegschrijven. De pagina voor beheer van twee keer wegschrijven wordt geopend.
+4. Open de app voor financiële en bedrijfsactiviteiten. Navigeer naar de module Gegevensbeheer en selecteer het tabblad Twee keer wegschrijven. De pagina voor beheer van twee keer wegschrijven wordt geopend.
 
 5. Pas beide oplossingen toe die in stap 2 en 3 zijn geïnstalleerd met behulp van de functie [Oplossing toepassen](link-your-environment.md).
 
@@ -230,7 +230,7 @@ Elektronische adressen zijn alleen beschikbaar in dit raster. In toekomstige rel
 
 12. Voer de kaarten uit in de volgende volgorde. Als u een fout krijgt met de tekst "Projectvalidatie mislukt. Doelveld ontbreekt...", open dan de kaart en selecteer **Tabellen vernieuwen**. Voer vervolgens de kaart uit.
 
-    Finance and Operations-app | Customer Engagement-app  
+    App voor financiële en bedrijfsactiviteiten | Customer Engagement-app  
     ----------------------------|------------------------
     [CDS-partijen](mapping-reference.md#220) | msdyn_parties
     [CDS-locaties van postadres](mapping-reference.md#234) | msdyn_postaladdresscollections
@@ -269,7 +269,7 @@ Elektronische adressen zijn alleen beschikbaar in dit raster. In toekomstige rel
 
 Een verzameling tabeltoewijzingen werkt samen voor de interactie tussen partij en globaal adresboek, zoals in de volgende tabel wordt weergegeven.
 
-| Finance and Operations-app | Customer Engagement-app | Beschrijving |
+| App voor financiële en bedrijfsactiviteiten | Customer Engagement-app | Description |
 |----------------------------|-------------------------|-------------|
 | [Titels contactpersoon](mapping-reference.md#223) | msdyn\_salescontactpersontitles |
 | [Klanten V3](mapping-reference.md#101) | rekeningen |
@@ -295,10 +295,10 @@ Zie [Toewijzingsverwijzing voor twee keer wegschrijven](mapping-reference.md) vo
 
 ## <a name="known-issues-and-limitations"></a>Bekende problemen en beperkingen
 
-+ Wanneer u in Finance and Operations-apps een klant maakt met een adres en deze opslaat, wordt het adres mogelijk niet gesynchroniseerd met de tabel **Adres**. Dit komt door een probleem in de volgordeverwerking op het platform voor Twee keer wegschrijven. Een tijdelijke oplossing is om eerst de klant aan te maken en deze op te slaan. Voeg daarna pas het adres toe.
-+ Wanneer in Finance and Operations-apps een klantrecord een primair adres heeft en u een nieuwe contactpersoon voor die klant maakt, neemt de contactpersoonrecord een primair adres over van de bijbehorende klantrecord. Dit gebeurt ook bij contactpersoon van een leverancier. Dataverse ondersteunt dit gedrag momenteel niet. Als Twee keer wegschrijven is ingeschakeld, wordt een contactpersoon van een klant die is overgenomen met een primair adres uit de Finance and Operations-app samen met het adres gesynchroniseerd naar Dataverse.
++ Wanneer u in apps voor financiële en bedrijfsactiviteiten een klant maakt met een adres en deze opslaat, wordt het adres mogelijk niet gesynchroniseerd met de tabel **Adres**. Dit komt door een probleem in de volgordeverwerking op het platform voor Twee keer wegschrijven. Een tijdelijke oplossing is om eerst de klant aan te maken en deze op te slaan. Voeg daarna pas het adres toe.
++ Wanneer in apps voor financiële en bedrijfsactiviteiten een klantrecord een primair adres heeft en u een nieuwe contactpersoon voor die klant maakt, neemt de contactpersoonrecord een primair adres over van de bijbehorende klantrecord. Dit gebeurt ook bij contactpersoon van een leverancier. Dataverse ondersteunt dit gedrag momenteel niet. Als Twee keer wegschrijven is ingeschakeld, wordt een contactpersoon van een klant die is overgenomen met een primair adres uit de app voor financiële en bedrijfsactiviteiten samen met het adres gesynchroniseerd naar Dataverse.
 + Elektronische adressen die zijn ingesteld op het tabblad Elektronische adressen van de formulieren **Account**, **Contactpersoon** en **Leverancier** komen uit de tabel `msdyn_partyelectronicaddress`. Deze informatie stroomt niet naar de gekoppelde transacties zoals verkooporder, offerte en inkooporder. Dit probleem wordt opgelost in een incrementele release. De bestaande gegevens in de velden met elektronische adressen van de account- en contactpersoonrecords blijven werken voor transacties zoals verkooporder, offerte en inkooporder.
-+ In Finance and Operations-apps kunt u een contactpersoonrecord maken vanuit het formulier **Contactpersoon toevoegen**. Wanneer u een nieuwe contactpersoon probeert te maken vanuit het formulier **Contactpersonen weergeven**, mislukt de actie. Dit is een bekend probleem.
++ In apps voor financiële en bedrijfsactiviteiten kunt u een contactpersoonrecord maken vanuit het formulier **Contactpersoon toevoegen**. Wanneer u een nieuwe contactpersoon probeert te maken vanuit het formulier **Contactpersonen weergeven**, mislukt de actie. Dit is een bekend probleem.
 
     ![Bekend probleem met Contactpersoon toevoegen.](media/party-gab-contact-issue.png)
 
@@ -307,4 +307,4 @@ Zie [Toewijzingsverwijzing voor twee keer wegschrijven](mapping-reference.md) vo
 
     ![Bekend probleem met Adres.](media/party-gab-address-issue.png)
 
-+ U kunt geen vooruitgedateerd postadres invoeren met een Finance and Operations-app met twee keer wegschrijven, omdat Dataverse niet de ingangsdatum ondersteunt. Als u een vooruitgedateerd postadres invoert via een Finance and Operations-app, wordt dit volledig met Dataverse gesynchroniseerd en wordt het adres direct in de gebruikersinterface gebruikt. Updates van deze record resulteren in een fout, aangezien dit adres in de toekomst wordt gebruikt en nog niet wordt gebruikt in de Finance and Operations-app.
++ U kunt geen vooruitgedateerd postadres invoeren met een app voor financiële en bedrijfsactiviteiten met twee keer wegschrijven, omdat Dataverse niet de ingangsdatum ondersteunt. Als u een vooruitgedateerd postadres invoert via een app voor financiële en bedrijfsactiviteiten, wordt dit volledig met Dataverse gesynchroniseerd en wordt het adres direct in de gebruikersinterface gebruikt. Updates van deze record resulteren in een fout, aangezien dit adres in de toekomst wordt gebruikt en nog niet wordt gebruikt in de app voor financiële en bedrijfsactiviteiten.

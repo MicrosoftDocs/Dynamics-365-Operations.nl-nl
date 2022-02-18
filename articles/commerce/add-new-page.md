@@ -2,7 +2,7 @@
 title: Een nieuwe sitepagina toevoegen
 description: In dit onderwerp wordt beschreven hoe u een nieuwe sitepagina toevoegt in Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4b031431499eba0e109ac04dc46ec187250eba694284864bf78bb1f90265d788
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725381"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090714"
 ---
 # <a name="add-a-new-site-page"></a>Een nieuwe sitepagina toevoegen
 
@@ -33,11 +33,11 @@ Nadat u sjablonen en fragmenten voor uw site hebt gemaakt, is de volgende stap h
 
 U kunt een sjabloon of een indeling gebruiken voor uw nieuwe pagina. Zie voor meer informatie [Overzicht met sjablonen en indelingen](templates-layouts-overview.md).
 
-## <a name="page-name"></a>Paginanaam
+## <a name="specify-the-page-name"></a>De paginanaam opgeven
 
-De paginanaam moet uniek zijn voor de pagina. Het moet een duidelijke omschrijving zijn, zodat u deze gemakkelijk kunt terugvinden en andere mensen weten waarvoor de pagina bedoeld is. U kunt de paginanaam zorgvuldig kiezen, omdat deze later niet kan worden gewijzigd.
+De paginanaam moet uniek voor uw site zijn en een duidelijke omschrijving geven, zodat u deze gemakkelijk kunt terugvinden en andere mensen weten waarvoor de pagina bedoeld is. U kunt de naam van uw pagina later wijzigen door deze te bewerken en vervolgens het pensymbool naast de paginanaam in het eigenschappenvenster te selecteren.
 
-## <a name="page-url"></a>Pagina-URL
+## <a name="specify-the-page-url"></a>De pagina-URL opgeven
 
 U kunt kiezen of u een URL wilt invoeren voor uw nieuwe pagina. Wanneer u een pagina maakt, kunt u een tekenreeks invoeren die wordt gebruikt om een volledige URL te vormen. De tekenreeks staat bekend als relatieve URL of URL-slug genoemd. Vervolgens wordt een volledige URL gegenereerd op basis van de URL-slug en wordt de nieuwe pagina hieraan toegewezen. U kunt de URL-slug later wijzigen voordat u de pagina publiceert. Zie [Een pagina-URL maken](create-page-URL.md) voor meer informatie.
 

@@ -2,7 +2,7 @@
 title: Gegevensimport uit SharePoint configureren
 description: In dit onderwerp wordt uitgelegd hoe u gegevens importeert uit Microsoft SharePoint.
 author: NickSelin
-ms.date: 11/19/2020
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 6cd717c0c599d68574a5a064761c8d6777418515
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 9ac328e660c7a8a3b4a4f34a650062a0fa974771
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675340"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074761"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Gegevensimport uit SharePoint configureren
 
@@ -192,11 +192,11 @@ U kunt ook de pagina **Bestandsstatus voor de bronnen** openen door **Organisati
 
 ## <a name=""></a><a name="limitations">Beperkingen</a>
 
-Het ER-raamwerk biedt geen mogelijkheid om een nieuwe batchtaak te starten waarmee een modeltoewijzing wordt uitgevoerd in de onbeheerde modus voor gegevensimport. Hiervoor moet u nieuwe logica ontwikkelen, zodat de geconfigureerde modeltoewijzing kan worden aangeroepen vanuit de gebruikersinterface van de toepassing om gegevens uit inkomende bestanden te importeren. Daarom zijn technische aanpassingen vereist. 
+In versies van Dynamics 365 Finance vóór versie 10.0.25 biedt de gebruikersinterface van het ER-raamwerk geen mogelijkheid om een nieuwe batchtaak te starten waarmee een modeltoewijzing wordt uitgevoerd in de onbeheerde modus voor gegevensimport. In plaats daarvan moet u nieuwe logica ontwikkelen, zodat de geconfigureerde ER-modeltoewijzing kan worden aangeroepen vanuit de gebruikersinterface van de toepassing om gegevens uit inkomende bestanden te importeren. Voor het ontwikkelen van deze logica zijn wat technische aanpassingen vereist. 
 
-Voor meer informatie over de relevante ER-API raadpleegt u de sectie [Code voor het uitvoeren van een indelingstoewijzing voor gegevensimport](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) in het onderwerp [Wijzigingen in API voor ER-raamwerk in Application update 7.3](er-apis-app73.md).
+Zie voor meer informatie over de relevante ER-API de sectie [Code voor het uitvoeren van een indelingstoewijzing voor gegevensimport](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) in [Wijzigingen in API voor ER-raamwerk in toepassingsupdate 7.3](er-apis-app73.md). Bekijk de code in de klasse `BankImport_RU` van het model `Application Suite` om te zien hoe uw aangepaste logica kan worden geïmplementeerd. Met de klasse `BankImport_RU` wordt de klasse `RunBaseBatch` uitgebreid. Bekijk in het bijzonder de methode `runER()` waarin het object `ERIModelMappingDestinationRun` wordt gemaakt als de uitvoerder van een ER-modeltoewijzing.
 
-Bekijk de code in de klasse `BankImport_RU` van het model `Application Suite` om te zien hoe uw aangepaste logica kan worden geïmplementeerd. Deze klasse breidt de klasse `RunBaseBatch` uit. Bekijk in het bijzonder de methode `runER()` waarin het object `ERIModelMappingDestinationRun` wordt gemaakt als de uitvoerder van een ER-modeltoewijzing.
+In Finance versie 10.0.25 en later biedt de gebruikersinterface van het ER-raamwerk wel de mogelijkheid om een nieuwe batchtaak te starten waarmee een modeltoewijzing wordt uitgevoerd in de onbeheerde modus voor gegevensimport. Zie [Gegevens importeren in batchmodus vanuit handmatig geselecteerde bestanden](er-configure-data-import-batch.md) voor meer informatie over dit proces.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
@@ -205,6 +205,8 @@ Bekijk de code in de klasse `BankImport_RU` van het model `Application Suite` om
 [Wijzigingen in API voor ER-raamwerk in Application update 7.3](er-apis-app73.md)
 
 [Wijzigingen in API voor ER-raamwerk in Application update 10.0.23](er-apis-app10-0-23.md)
+
+[Wijzigingen in API voor ER-raamwerk in Application update 10.0.25](er-apis-app10-0-25.md)
 
 
 

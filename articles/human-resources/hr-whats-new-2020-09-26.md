@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a01e172f5c62b746f4733e03d25ea43f0247790003ea1a1470bc28e98db12deb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b0260c4d1bafe271a08336ceed7dc3742f1d590
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741400"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061379"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources 26 september 2020
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn of die binnenkort worden vrijgegeven in Dynamics 365 Human Resources. Zie [Updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces en de planning.
 
@@ -39,7 +39,7 @@ Deze versie bevat de volgende nieuwe functies en correcties. Wijzigingen die van
 
 De volgende functie is algemeen beschikbaar in deze release:
 
-- **Platformupdate 10.0.13 is nu beschikbaar**: zie [Platformupdates voor versie 10.0.13 van Finance and Operations-apps (oktober 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md) voor meer informatie over de update.
+- **Platformupdate 10.0.13 is nu beschikbaar**: zie [Platformupdates voor versie 10.0.13 van apps voor financiële en bedrijfsactiviteiten (oktober 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md) voor meer informatie over de update.
 
 ### <a name="bug-fixes"></a>Correcties
 

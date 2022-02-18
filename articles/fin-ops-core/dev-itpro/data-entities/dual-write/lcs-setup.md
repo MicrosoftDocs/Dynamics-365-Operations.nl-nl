@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 1fd15b5d664fead10949750678a2d3eab967af22
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 825d6a4b3462077d0f4b3f4275792ea0fe5152df
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781387"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063667"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Instellingen voor twee keer wegschrijven van Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 In dit onderwerp wordt uitgelegd hoe u twee keer wegschrijven kunt inschakelen vanuit Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -53,18 +53,18 @@ Voer de volgende stappen uit om twee keer wegschrijven via de pagina **Omgevings
 
     :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Koppeling naar Power Platform-omgeving.":::
 
-8. Wanneer de koppeling is voltooid, wordt er een hyperlink weergegeven. Gebruik de koppeling om u aan te melden bij het beheergebied voor twee keer wegschrijven in de Finance and Operations-omgeving. Vanaf hier kunt u entiteitstoewijzingen instellen.
+8. Wanneer de koppeling is voltooid, wordt er een hyperlink weergegeven. Gebruik de koppeling om u aan te melden bij het beheergebied voor twee keer wegschrijven in de client voor financiële en bedrijfsactiviteiten. Vanaf hier kunt u entiteitstoewijzingen instellen.
 
 ## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a>Twee keer wegschrijven instellen voor een bestaande Dataverse-omgeving
 
 Als u twee keer wegschrijven wilt instellen voor een bestaande Dataverse-omgeving, moet u een Microsoft-[ondersteuningsticket](../../lifecycle-services/lcs-support.md) maken. Het ticket moet het volgende bevatten:
 
-+ Uw ID voor de Finance and Operations-omgeving.
++ De id van uw omgeving voor financiële en bedrijfsactiviteiten.
 + Uw omgevingsnaam van Lifecycle Services.
 + De Dataverse-organisatie-ID of Power Platform-omgevings-ID van Power Platform Beheercentrum. Vraag in uw ticket om de ID te gebruiken voor Power Platform-integratie.
 
 > [!NOTE]
-> U kunt omgevingen niet ontkoppelen met behulp van LCS. Als u een omgeving wilt ontkoppelen, opent u de werkruimte **Gegevensintegratie** in de Finance and Operations-omgeving en selecteert u **Koppeling verbreken**.
+> U kunt omgevingen niet ontkoppelen met behulp van LCS. Als u een omgeving wilt ontkoppelen, opent u het werkgebied **Gegevensintegratie** in de client voor financiële en bedrijfsactiviteiten en selecteert u **Koppeling verbreken**.
 
 ## <a name="linking-mismatch"></a>Koppeling aan een verkeerde instantie
 

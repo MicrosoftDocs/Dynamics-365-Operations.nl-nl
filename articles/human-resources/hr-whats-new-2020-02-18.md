@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f74692ffe8afbdeea7519ac8bdfbbe54105b9ccee83031a9b1c223be78fc12e4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9cce93aab902a8ca269cf22e1999716fe49f3ed8
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770403"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062999"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (18 februari 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 In dit artikel worden de functies beschreven die in Dynamics 365 Human Resources nieuw of gewijzigd zijn. Wijzigingen die van toepassing zijn op buildnummer 8.1.2903. De getallen tussen haakjes in sommige koppen verwijzen naar ondersteuningsnummers in LCS ter referentie.
 
 ## <a name="platform-update-32"></a>Platformupdate 32 
 
-Platform update 32 is nu beschikbaar. Meer informatie vindt u in [Nieuw of gewijzigd in Platform update 32 voor Finance and Operations (februari 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
+Platform update 32 is nu beschikbaar. Zie [Nieuw of gewijzigd in platformupdate 32 voor Finance and Operations (februari 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md) voor meer informatie.
 
 ## <a name="search-values-are-remembered-when-changing-view-options-in-streamlined-employee-form-383833"></a>Zoekwaarden worden onthouden bij het wijzigen van de weergaveopties in het gestroomlijnde formulier voor werknemers (383833)
 

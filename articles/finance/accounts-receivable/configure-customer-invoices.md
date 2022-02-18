@@ -1,26 +1,26 @@
 ---
 title: Een klantfactuur maken
-description: Een **klantfactuur voor een verkooporder** is een rekening die door een organisatie aan een klant wordt verstrekt in verband met een verkoop.
+description: Een klantfactuur voor een verkooporder is een rekening die door een organisatie aan een klant wordt verstrekt in verband met een verkoop.
 author: ShivamPandey-msft
-ms.date: 01/12/2018
+ms.date: 02/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 77772
 ms.assetid: 00b4b40c-1576-4098-9aed-ac376fdeb8c5
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 369f0737ee4026c32ffbae6b11b5815c5548d83d564aebf2eae4b1c246e73508
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d408ca5265802cf17a53dd5cb004f707f6f7855b
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723866"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087418"
 ---
 # <a name="create-a-customer-invoice"></a>Een klantfactuur maken
 
@@ -30,7 +30,7 @@ Een **klantfactuur voor een verkooporder** is een rekening die door een organisa
 
 Een **vrije-tekstfactuur** is niet gerelateerd aan een verkooporder. Deze factuur bevat orderregels met grootboekrekeningen, vrije-tekstomschrijvingen en verkoopbedragen die u invoert. U kunt geen artikelnummer invoeren op dit type factuur. U moet de betreffende btw-gegevens invullen. Op een vrije-tekstfactuur wordt een hoofdrekening voor de verkoop vermeld die u over meerdere grootboekrekeningen kunt verdelen door te klikken op **Bedragen verdelen** op de pagina **Vrije-tekstfactuur**. Tevens wordt het klantsaldo naar de totaalrekening van het boekingsprofiel geboekt dat gebruikt wordt voor de vrije-tekstfactuur.
 
-Zie  voor meer informatie.
+Zie voor meer informatie.
 
 [Vrije-tekstfacturen maken](../accounts-receivable/create-free-text-invoice-new.md)
 
@@ -42,6 +42,23 @@ Zie  voor meer informatie.
 
 
 Een **pro forma-factuur** is een factuur die wordt gemaakt als raming van de werkelijke factuurbedragen voordat de factuur wordt geboekt. Een pro forma-factuur kunt u zowel voor een klantfactuur als voor een verkooporder of een vrije-tekstfactuur afdrukken.
+
+## <a name="using-sales-order-customer-invoice-data-entities"></a>Gegevensentiteiten voor klantfacturen van verkooporders gebruiken
+U kunt gegevensentiteiten gebruiken om informatie over een klantfactuur voor een verkooporder te importeren en exporteren. De informatie in de verkoopfactuurkoptekst en de verkoopfactuurregels kan op verschillende entiteiten worden vermeld.
+
+De volgende entiteiten zijn beschikbaar voor de informatie in de verkoopfactuurkoptekst:
+
+- Entiteit **Koptekst verkoopfactuurjournaal** (SalesInvoiceJournalHeaderEntity)
+- Entiteit **Kopteksten verkoopfactuur V2** (SalesInvoiceHeaderV2Entity)
+
+Het wordt aangeraden de entiteit **Koptekst verkoopfactuurjournaal** te gebruiken, omdat dit betere prestaties oplevert bij het importeren en exporteren van verkoopkopteksten. Deze entiteit bevat de kolom **Btw-bedrag** (INVOICEHEADERTAXAMOUNT) niet, waarmee de btw-waarde in de koptekst van de verkoopfactuur wordt vertegenwoordigd. Als die informatie nodig is in uw bedrijfsscenario, gebruikt u de entiteit **Kopteksten verkoopfactuur V2** om de koptekstgegevens van de verkoopfactuur te importeren en te exporteren.
+
+De volgende entiteiten zijn beschikbaar voor de informatie op verkoopfactuurregels:
+
+- Entiteit **Klantfactuurregels** (BusinessDocumentSalesInvoiceLineItemEntity)
+- Entiteit **Verkoopfactuurregels V3** (SalesInvoiceLineV3Entity)
+
+Wanneer u bepaalt welke regelentiteit moet worden gebruikt voor export, moet u overwegen of er een volledige push of een incrementele push wordt gebruikt. Houd ook rekening met de gegevenssamenstelling. De entiteit **Verkoopfactuurregels V3** ondersteunt complexere scenario's (bijvoorbeeld toewijzing aan de voorraadvelden). Daarnaast worden exportscenario's voor volledige push ondersteund. Voor incrementele pushes is het raadzaam om de entiteit **Klantfactuurregels** te gebruiken. Deze entiteit bevat een veel eenvoudigere gegevenssamenstelling dan de entiteit **Verkoopfactuurregels V3** en heeft de voorkeur, met name als voorraadveldintegratie niet is vereist. Vanwege verschillen in de toewijzingsondersteuning tussen de regelentiteiten levert de entiteit **Klantfactuurregels** doorgaans snellere prestaties dan de entiteit **Verkoopfactuurregels V3**.
 
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-sales-orders"></a>Individuele klantfacturen op basis van verkooporders boeken en afdrukken
 Via deze procedure kunt u een factuur maken op basis van een verkooporder. U kunt dit bijvoorbeeld doen als u uw klant een factuur stuurt voordat u de goederen of services levert. 

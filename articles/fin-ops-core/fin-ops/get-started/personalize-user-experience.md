@@ -2,7 +2,7 @@
 title: De gebruikerservaring personaliseren
 description: In dit onderwerp wordt uitgelegd hoe u de app kunt aanpassen.
 author: jasongre
-ms.date: 11/08/2021
+ms.date: 01/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6256765c41ff128b067cda9107c790691c5b376a
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 840a68d506664043c9affb67e801429e0594f0bd
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777980"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075417"
 ---
 # <a name="personalize-the-user-experience"></a>De gebruikerservaring aanpassen
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 In dit onderwerp wordt uitgelegd hoe u de app personaliseert en worden de volgende onderwerpen behandeld: 
 
@@ -120,7 +124,9 @@ De volgende hulpmiddelen zijn beschikbaar op de werkbalk **Aanpassing**:
 - Gebruik het hulpmiddel **Selecteren** om de eigenschappen van een element te wijzigen. Als u dit hulpmiddel wilt gebruiken, selecteert u de knop **Selecteren** op de werkbalk en selecteert u vervolgens het gewenste element. Het eigenschappenvenster van het element wordt geopend en u kunt daar eventuele eigenschappen van dat element wijzigen. U kunt het proces herhalen voor andere elementen die op de pagina kunnen worden aangepast. Sommige aangepaste eigenschappen zijn mogelijk niet in alle scenario's beschikbaar. U kunt bijvoorbeeld geen veld vergrendelen dat vereist is.
 - Gebruik het hulpmiddel **Verbergen** om een element op de pagina te verbergen. Als u dit hulpmiddel wilt gebruiken, selecteert u de knop **Verbergen** op de werkbalk en selecteert u vervolgens het element dat u wilt verbergen. Wanneer u het hulpmiddel **Verbergen** gebruikt, worden alle elementen die momenteel verborgen zijn, zichtbaar gemaakt, maar in een grijze container weergegeven. U kunt een element vervolgens zichtbaar maken door het te selecteren. Als u wilt zien hoe de pagina eruitziet wanneer elementen verborgen zijn, schakelt u over op een ander personalisatiehulpmiddel of sluit u de personalisatiewerkbalk.
 - Gebruik het hulpmiddel **Velden toevoegen** om velden toe te voegen aan uw pagina. Wanneer u dit hulpprogramma gebruikt, kunt u alleen velden toevoegen die deel uitmaken van de paginadefinitie. Zie voor informatie over het maken van nieuwe velden die geen deel uitmaken van de huidige paginadefinitie [Maken en werken met aangepaste velden](user-defined-fields.md). Nadat u de knop **Velden toevoegen** op de werkbalk hebt geselecteerd, moet u eerst het raster of de sectie selecteren waar u een veld wilt toevoegen. Er wordt een dialoogvenster weergegeven met de lijst met velden die gerelateerd zijn aan het geselecteerde raster of sectie. Selecteer in het dialoogvenster een of meer velden die u wilt toevoegen in de lijst **Aanbevolen velden** of **Alle velden**. Wanneer u de gewenste velden hebt gekozen, selecteert u **Bijwerken**. Als u een veld wilt verwijderen dat u eerder hebt toegevoegd, herhaalt u de procedure, maar wist u de selectie van het veld in het dialoogvenster.
-    - In de lijst **Aanbevolen velden** worden velden weergegeven die eerder zijn toegevoegd door andere gebruikers in uw organisatie. Deze lijst met velden wordt bijgewerkt op basis van de terugkeerfrequentie van de **Aanbevelingsbatchtaak**. Er is een soortgelijke ervaring bij het toevoegen van nieuwe filtervelden met behulp van het filtervenster op een pagina.
+
+    In de lijst **Aanbevolen velden** worden velden weergegeven die eerder zijn toegevoegd door andere gebruikers in uw organisatie. Deze lijst met velden wordt bijgewerkt op basis van de terugkeerfrequentie van de **Aanbevelingsbatchtaak**. Er is een soortgelijke ervaring bij het toevoegen van nieuwe filtervelden met behulp van het filtervenster op een pagina.
+
 - Gebruik het hulpmiddel **Verplaatsen** om een element te verplaatsen naar een andere locatie binnen de huidige groep elementen. U kunt een element niet buiten de bovenliggende groep verplaatsen. Als u dit hulpmiddel wilt gebruiken, selecteert u de knop **Verplaatsen** op de werkbalk en selecteert u vervolgens het element dat u wilt verplaatsen. Wanneer u een element selecteert, bepaalt de app de locaties waar het element naartoe kan worden verplaatst. Deze locaties worden *neerzetzones* genoemd. Wanneer u het element binnen de huidige groep versleept, wordt elke neerzetzone weergegeven als een gekleurde vette lijn naast het gebied waar het element kan worden neergezet.
 - Gebruik het hulpmiddel **Overslaan** om een element te verwijderen uit de volgorde van de toetsenbordtoets Tab van de pagina. Wanneer u de knop **Overslaan** op de werkbalk selecteert, worden alle elementen die momenteel overgeslagen worden, weergegeven in een grijze container. U kunt velden interactief verwijderen of toevoegen aan de tabvolgorde.
 - Gebruik het hulpmiddel **Weergeven in koptekst** als u wilt dat een veld in de samenvattingssectie van het sneltabblad wordt weergegeven. Wanneer u de knop **Weergeven in koptekst** selecteert op de werkbalk, worden alle velden die zijn geselecteerd als overzichtsvelden, weergegeven in een grijze container. U kunt interactief velden toevoegen aan het sneltabbladoverzicht en velden uit het sneltabbladoverzicht verwijderen door de velden te selecteren.
@@ -152,7 +158,10 @@ Voor sommige pagina's die lijsten bevatten, is de aanpassingsfunctie **Toevoegen
 
 - Als u een lijst aan een werkgebied wilt toevoegen, sorteert of filtert u de lijst op de pagina eerst, zodat deze de informatie bevat zoals u deze wilt weergeven in het werkgebied. (Als de functie **Opgeslagen weergaven** is ingeschakeld, kunt u pas doorgaan nadat u een weergave met deze voorwaarden hebt opgeslagen.) Selecteer vervolgens **Toevoegen aan werkruimte**. Selecteer een werkgebied en selecteer in het veld **Presentatie** de optie **Lijst**. Nadat u **Configureren** hebt geselecteerd, verschijnt een dialoogvenster waarin u de kolommen kunt selecteren die moeten worden weergegeven in de lijst in het werkgebied. Ook kunt u het label opgeven dat wordt gebruikt voor de lijst in het werkgebied.
 - Als u een tegel aan een werkgebied wilt toevoegen, filtert u eerst de lijst op de pagina om de gegevens weer te geven waarvan u een overzicht wilt of waartoe u snel toegang wilt. (Als de functie **Opgeslagen weergaven** is ingeschakeld, kunt u pas doorgaan nadat u een weergave met deze voorwaarden hebt opgeslagen.) Selecteer vervolgens **Toevoegen aan werkruimte**. Selecteer een werkgebied en selecteer in het veld **Presentatie** de optie **Tegel**. Nadat u **Configureren** hebt geselecteerd, verschijnt een dialoogvenster waarin u het label kunt opgeven dat moet worden gebruikt voor de tegel in het werkgebied. U kunt ook opgeven of de tegel een telling moet weergeven. Nadat de tegel is toegevoegd aan het werkgebied, kunt u deze selecteren om de huidige pagina te openen vanuit het werkgebied. Vervolgens kunt u de gefilterde lijst bekijken die aan de tegel is gekoppeld.
-- Als u een koppeling aan een werkgebied wilt toevoegen, filtert u de lijst op de pagina eerst zodat hier de gegevens worden weergegeven waarin u geïnteresseerd bent. (Als de functie **Opgeslagen weergaven** is ingeschakeld, kunt u pas doorgaan nadat u een weergave met deze voorwaarden hebt opgeslagen.) Selecteer vervolgens **Toevoegen aan werkruimte**. Selecteer een werkgebied en selecteer in het veld **Presentatie** de optie **Koppeling**. Nadat u **Configureren** hebt geselecteerd, verschijnt een dialoogvenster waarin u het label kunt opgeven dat moet worden gebruikt voor de koppeling. U kunt desgewenst ook een label opgeven voor een nieuwe sectie die deze koppeling bevat.
+- Als u een koppeling aan een werkgebied wilt toevoegen, filtert u de lijst op de pagina eerst zodat hier de gegevens worden weergegeven waarin u geïnteresseerd bent. (Als de functie **Opgeslagen weergaven** is ingeschakeld, kunt u pas doorgaan nadat u een weergave met deze voorwaarden hebt opgeslagen.) Selecteer vervolgens **Toevoegen aan werkruimte**. Selecteer een werkgebied en selecteer in het veld **Presentatie** de optie **Koppeling**. Nadat u **Configureren** hebt geselecteerd, verschijnt een dialoogvenster waarin u het label kunt opgeven dat moet worden gebruikt voor de koppeling. U kunt desgewenst ook een label opgeven voor de sectie waarin deze koppeling kan worden geplaatst. Als die sectie niet bestaat, wordt een nieuwe sectie gemaakt.
+
+> [!NOTE]
+> Wanneer u uw lijst, tegel of koppeling configureert, moet u vanaf versie 10.0.25 mogelijk ook de werkgebiedweergaven selecteren die u aan het element wilt toevoegen als de functie **(Preview) Ondersteuning van opgeslagen weergaven voor werkgebieden** is ingeschakeld. De beschikbare werkgebiedweergaven worden weergegeven in de sectie **Opties voor werkgebied** van elk dialoogvenster **Configureren**. 
 
 Nadat een lijst, tegel of koppeling is toegevoegd aan een werkgebied, kunt u dit werkgebied openen en de elementen erin op de gewenste manier ordenen.
 
@@ -221,7 +230,7 @@ Als Opgeslagen weergaven niet is ingeschakeld, volgt u deze stappen om een aanpa
 U kunt aanpassingen ook delen via export en import. Individuele gebruikers, of een beheerder die namens hen handelt, kunnen met deze methode hun aanpassingen of weergaven exporteren en vervolgens het geëxporteerde bestand aan andere gebruikers geven om te importeren. Gebruikers kunnen hun geëxporteerde aanpassingen ook geven aan een gebruiker met beheerdersbevoegdheden, waarna die gebruiker de pagina **Persoonlijke instellingen** kan gebruiken om het aanpassingsbestand op een groot aantal gebruikers tegelijk toe te passen.
 
 > [!IMPORTANT]
-> Aangezien aanpassingen in alle updates blijven bestaan, hoeven alle aanpassingen na een service-update of op een ander tijdstip niet opnieuw te worden geïmporteerd en wordt dit ten zeerste afgeraden.   
+> Aangezien aanpassingen in alle updates blijven bestaan, hoeven alle aanpassingen na een service-update of op een ander tijdstip niet opnieuw te worden geïmporteerd en wordt dit ten zeerste afgeraden.
 
 #### <a name="export"></a>Exporteren
 
@@ -271,11 +280,8 @@ Zie de sectie 'Weergaven globaal beheren' in het onderwerp [Opgeslagen weergaven
 Voor klanten die de functie [Opgeslagen weergaven](saved-views.md) nog niet hebben ingeschakeld, bevat deze pagina vier tabbladen:
 
 - **Toepassen**: u kunt een aanpassing voor een of meer gebruikers importeren of selecteren. Als u een aanpassing wilt toepassen op een of meer gebruikers, selecteert u eerst een rol en gebruikers die deze rol hebben. Vervolgens selecteert u een bestaande aanpassing om toe te passen op geselecteerde gebruikers of importeert u een aanpassingsbestand. De aanpassing wordt gevalideerd en toegepast op alle geselecteerde gebruikers. Dit wordt van kracht bij de volgende keer dat ze de geselecteerde pagina openen.
-
 - **Wissen**: u kunt alle aanpassingen voor een pagina of werkgebied voor een of meer gebruikers wissen. Selecteer eerst een pagina of werkgebied voor een overzicht van de gebruikers die deze hebben aangepast. Kies vervolgens de gebruikers waarvoor de aanpassingen voor die pagina moeten worden gewist en selecteer **Wissen**. Alle aanpassingen die de geselecteerde gebruikers hebben toegepast op de geselecteerde pagina of het geselecteerde werkgebied, worden verwijderd. Deze actie kan niet ongedaan worden gemaakt. Als de pagina of het werkgebied echter een opgeslagen aanpassing heeft, kan die aanpassing opnieuw worden geïmporteerd.
-
 - **Gebruikers**: selecteer een gebruiker voor een lijst met de pagina's die de gebruiker heeft aangepast. Vervolgens kunt u in- of uitschakelen of de gebruiker voor bepaalde pagina's of voor het hele systeem aanpassingen kan doorvoeren. U kunt ook een aanpassing importeren, exporteren of wissen voor de gebruiker. Daarnaast kunt u de functietoelichtingen voor de gebruiker opnieuw instellen. Als de gebruiker pop-upvensters die nieuwe functies introduceren, eerder heeft gesloten, worden deze opnieuw weergegeven wanneer de gebruiker de volgende keer de desbetreffende functie tegenkomt.
-
 - **Systeem**: u kunt tijdelijk aanpassingen voor alle gebruikers in het systeem uitschakelen. In dat geval worden alle aanpassingen voor alle gebruikers verwijderd en worden alle pagina's opnieuw ingesteld op de standaardstatus. Als u aanpassingen later weer wilt inschakelen, worden alle aanpassingen opnieuw toegepast. U kunt alle aanpassingen voor alle gebruikers in het systeem ook permanent verwijderen. Er is geen enkele manier om aanpassingen terug te halen die zijn verwijderd. Voordat u deze taak uitvoert, moet u er daarom voor zorgen dat u aanpassingen hebt geëxporteerd die u later mogelijk wilt.
 
 ## <a name="personalizing-inventory-dimensions"></a>Voorraaddimensies aanpassen

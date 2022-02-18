@@ -2,7 +2,7 @@
 title: Uw werknemers organiseren met afdelingen, taken en posities
 description: Dit onderwerp beschrijft conceptuele informatie over afdelingen, taken en posities, de organisatie-elementen die worden onderhouden in Human resources.
 author: twheeloc
-ms.date: 10/28/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 51335cba0e0dce755ce36fbe13c6294fca58d797
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: 2b4c1efac249b315de25348a104f00a613c32df9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731803"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071469"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Uw werknemers organiseren met afdelingen, taken en posities
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -48,32 +51,18 @@ Een afdeling is een operationele eenheid die een categorie of functioneel gebied
 
 ## <a name="jobs-and-positions"></a>Taken en functies
 Een taak is een verzameling taken en verantwoordelijkheden die vereist zijn voor iedere persoon die een taak uitvoert. Een positie is een afzonderlijk exemplaar van een taak. Verantwoordelijkheidsgebieden, taken, functies, vaardigheden, opleidingsinformatie en certificaten die vereist zijn voor een taak, zijn ook vereist voor posities die gekoppeld zijn aan een taak.
+
 ### <a name="job-tasks"></a>Functietaken
+
 U kunt taken maken die de basistaken beschrijven die een werknemer in een positie voor die taak moet uitvoeren. Dezelfde taak kan worden toegevoegd aan meerdere taken, en posities voor die taken nemen die taken over. In de volgende tabel staan voorbeelden van taken.
 
-<table>
-<thead>
-<tr class="header">
-<th>Functie</th>
-<th>Functietaak</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Verkoopmanager</td>
-<td><ul>
-<li><span class="input">Perf-revisie</span> – Bekijk de prestaties van elke verkoper.</li>
-<li><span class="input">Abs-review</span> – Verlofaanvragen of registraties van elke verkoper goedkeuren of weigeren.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Accountant</td>
-<td><span class="input">FIN-Rapport</span> – Wekelijks financiële rapporten presenteren aan de chief financial officer.</td>
-</tr>
-</tbody>
-</table>
+| Functie           | Functietaak                                                |
+|---------------|-------------------------------------------------------------|
+| Verkoopmanager | Perf-revisie – Bekijk de prestaties van elke verkoper.    |
+| Accountant    | Abs-review – Verlofaanvragen of registraties van elke verkoper goedkeuren of weigeren. |
 
-### <a name="job-functions"></a>Taakfuncties
+
+### <a name="job-functions"></a>Functieposities
 
 Functies zijn vergelijkbaar met taken. Een taakfunctie beschrijft een of meer taken, rechten of verantwoordelijkheden die aan een taak zijn toegewezen. Taakfuncties worden toegewezen aan taken en worden gebruikt voor het instellen en implementeren van geschiktheidsregels voor compensatieplannen. In de volgende tabel staan voorbeelden van taakfuncties.
 

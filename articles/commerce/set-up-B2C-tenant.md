@@ -2,7 +2,7 @@
 title: Een B2C-tenant instellen in Commerce
 description: In dit onderwerp wordt beschreven hoe u uw B2C-tenants (business-to-consumers) in Azure Active Directory (Azure AD) instelt voor de verificatie van sitegebruikers in Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 01/05/2022
+ms.date: 02/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8e0fa2c4f22a1854a449a14aac3552313e808cf3
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: dcd5c022c00070922e287a6b8750810ff76bc26f
+ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952439"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092454"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Een B2C-tenant instellen in Commerce
 
@@ -109,7 +109,7 @@ Ga als volgt te werk om de B2C-toepassing te maken:
 1. Voer voor **Omleidings-URI** uw speciale antwoord-URL's in als type **Web**. Zie [Antwoord-URL's](#reply-urls) hieronder voor informatie over antwoord-URL's en hoe u deze kunt opmaken. Er moet een omleidings-URI/antwoord-URL worden ingevoerd om omleidingen van Azure AD B2C terug naar uw site in te schakelen wanneer een gebruiker verifieert. De antwoord-URL kan tijdens het registratieproces worden toegevoegd of later worden toegevoegd door de koppeling **Omleidings-URI toevoegen** te selecteren in het menu **Overzicht** in de sectie **Overzicht** van de B2C-toepassing.
 1. Selecteer voor **Machtigingen** de optie **Beheerdersmachtigingen verlenen voor de machtigingen openid en offline_access**.
 1. Selecteer **Registreren**.
-1. Selecteer de nieuw gemaakte toepassing en navigeer naar het menu **API-machtigingen**. 
+1. Selecteer de nieuw gemaakte toepassing en navigeer naar het menu **Verificatie**. 
 1. Als een antwoord-URL is ingevoerd, selecteert u onder **Impliciete toekenning en hybride stromen** de opties **Toegangstokens** en **ID-tokens** om deze voor de toepassing in te schakelen en selecteert u **Opslaan**. Als een antwoord-URL niet is ingevoerd tijdens de registratie, kunt u deze ook op deze pagina toevoegen door **Een platform toevoegen** te selecteren, **Web** te selecteren, en vervolgens de omleidings-URI van de toepassing in te voeren. De sectie **Impliciete toekenning en hybride stromen** is vervolgens beschikbaar voor het selecteren van zowel **Toegangstokens** als **ID-tokens**.
 1. Ga naar het menu **Overzicht** van de Azure-portal en kopieer de **Toepassings(client)-id**. Noteer deze id voor latere installatiestappen (hiernaar wordt later verwezen als de **client-GUID**).
 
@@ -309,19 +309,15 @@ Nadat de installatie van uw Azure AD B2C-tenant is voltooid, moet u de B2C-tenan
 
 Voer de volgende stappen uit om de vereiste toepassingsgegevens te verzamelen.
 
-1. Ga in de Azure-portal naar **Start \> Azure AD B2C - Toepassingen**.
-1. Selecteer de gewenste toepassing en selecteer in het linkernavigatievenster **Eigenschappen** om de toepassingsgegevens op te halen.
-1. Verzamel in het vak **Toepassings-id** de toepassings-id van de B2C-toepassing die in de B2C-tenant is gemaakt. Deze wordt later ingevoerd als **client-GUID** in Site Builder.
-1. Verzamel de antwoord-URL onder **Antwoord-URL**.
-1. Ga naar **Start \> Azure AD B2C – Gebruikersstromen (beleid)** en verzamel vervolgens de namen van elk gebruikersstroombeleid.
+1. Ga in de Azure-portal naar **Start \> Azure AD B2C - App-registraties**.
+1. Selecteer uw toepassing en selecteer in het linkernavigatievenster **Overzicht** om de toepassingsgegevens op te halen.
+1. Verzamel in het vak **Id van toepassing (client)** de toepassings-id van de B2C-toepassing die in uw B2C-tenant is gemaakt. Deze wordt later ingevoerd als **client-GUID** in Site Builder.
+1. Selecteer **Omleidings-URI´s** en verzamel de antwoord-URL die voor uw site wordt weergegeven (de antwoord-URL die is ingevoerd bij de setup).
+1. Ga naar **Start \> Azure AD B2C – Gebruikersstromen** en verzamel vervolgens de volledige namen van elk gebruikersstroombeleid.
 
-In de volgende afbeelding ziet u een voorbeeld van de pagina **Azure AD B2C - Toepassingen**.
+In de volgende afbeelding ziet u een voorbeeld van de overzichtspagina **Azure AD B2C - App-registraties**.
 
-![Naar de B2C-toepassing navigeren binnen uw tenant.](./media/B2CImage_19.png)
-
-In de volgende afbeelding ziet u een voorbeeld van de pagina **Eigenschappen** van een toepassing in Azure AD B2C. 
-
-![De toepassings-id uit de eigenschappen van de B2C-toepassing kopiëren.](./media/B2CImage_21.png)
+![Overzichtspagina Azure AD B2C - App-registraties met de id van toepassing (client) gemarkeerd](./media/ClientGUID_Application_AzurePortal.png)
 
 De volgende afbeelding toont een voorbeeld van een beleid voor gebruikersstromen op de pagina **Azure AD B2C – Gebruikersstromen (beleid)**.
 

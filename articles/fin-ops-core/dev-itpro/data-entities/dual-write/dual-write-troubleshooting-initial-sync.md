@@ -9,25 +9,25 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 241277ada768cc6497035cc377d0e158646a42d6
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 030e565ffff561f6c1efbdd0de9928f70c7c46c0
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781109"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063053"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Problemen tijdens eerste synchronisatie oplossen
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dit onderwerp bevat informatie voor het oplossen van problemen voor de integratie van twee keer wegschrijven tussen Finance and Operations-apps en Dataverse. Dit onderwerp bevat specifieke informatie over het oplossen van problemen die kunnen optreden bij de eerste synchronisatie.
+
+Dit onderwerp bevat informatie voor het oplossen van problemen met de integratie van Twee keer wegschrijven tussen apps voor financiële en bedrijfsactiviteiten en Dataverse. Dit onderwerp bevat specifieke informatie over het oplossen van problemen die kunnen optreden bij de eerste synchronisatie.
 
 > [!IMPORTANT]
 > In sommige problemen die in dit onderwerp worden beschreven, is mogelijk de rol van systeembeheerder vereist of de referenties van de Microsoft Azure Active Directory-tenantbeheerder (Azure AD). In de sectie voor elk probleem wordt uitgelegd of een specifieke rol of referenties vereist zijn.
 
-## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Controleren op initiële synchronisatiefouten in een Finance and Operations-app
+## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Controleren op initiële synchronisatiefouten in een app voor financiële en bedrijfsactiviteiten
 
 Nadat u de toewijzingssjablonen hebt ingeschakeld, moet de status van de toewijzingen **Wordt uitgevoerd** zijn. Als de status **Wordt niet uitgevoerd**, zijn er fouten opgetreden tijdens de initiële synchronisatie. Als u de fouten wilt weergeven , selecteert u het tabblad **Details initiële synchronisatie** op de pagina **Twee keer wegschrijven**.
 
@@ -63,7 +63,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 Als deze fout voortdurend optreedt en u de eerste synchronisatie niet kunt voltooien, voert u de volgende stappen uit om het probleem op te lossen.
 
-1. Meld u aan bij de virtuele machine (VM) voor de Finance and Operations-app.
+1. Meld u aan bij de virtuele machine (VM) voor de app voor financiële en bedrijfsactiviteiten.
 2. Open Microsoft Management Console.
 3. Controleer in het deelvenster **Services** of de Microsoft Dynamics 365-raamwerkservice voor gegevens importeren/exporteren wordt uitgevoerd. Start de service opnieuw als deze is gestopt omdat de initiële synchronisatie dat vereist.
 
@@ -75,7 +75,7 @@ Mogelijk wordt het volgende foutbericht weergegeven tijdens de initiële synchro
 
 Volg deze stappen om het probleem op te lossen.
 
-1. Meld u aan bij de Finance and Operations-app.
+1. Meld u aan bij de app voor financiële en bedrijfsactiviteiten.
 2. Verwijder op de pagina **Azure Active Directory-toepassingen** de **DtAppID**-client en voeg deze vervolgens opnieuw toe.
 
 ![DtAppID-client in de lijst met Azure AD-toepassingen.](media/aad_applications.png)
@@ -102,9 +102,9 @@ Hieronder volgen een aantal voorbeelden:
 
 Als rijen in de tabel leverancier waarden hebben in de kolommen **PrimaryContactPersonId** en **InvoiceVendorAccountNumber**, volgt u deze stappen om de initiële synchronisatie te voltooien.
 
-1. Verwijder in de Finance and Operations-app de kolommen **PrimaryContactPersonId** en **InvoiceVendorAccountNumber** uit de toewijzing en sla de toewijzing op.
+1. Verwijder in de app voor financiële en bedrijfsactiviteiten de kolommen **PrimaryContactPersonId** en **InvoiceVendorAccountNumber** uit de toewijzing en sla de toewijzing op.
 
-    1. Selecteer op de pagina voor de toewijzing van twee keer wegschrijven voor **Leveranciers v2 (msdyn\_vendors)**, op het tabblad **Ttabeltoewijzingen** in het linkerfilter de optie **Finance and Operations apps.Vendors V2**. Selecteer in het rechterfilter **Sales.Vendor**.
+    1. Selecteer op de pagina voor de toewijzing van twee keer wegschrijven voor **Leveranciers v2 (msdyn\_vendors)**, op het tabblad **Tabeltoewijzingen** in het linkerfilter de optie **Finance and Operations apps.Vendors V2**. Selecteer in het rechterfilter **Sales.Vendor**.
     2. Zoek naar **primarycontactperson** om de bronkolom **PrimaryContactPersonId** te vinden.
     3. Selecteer **Acties** en vervolgens **Verwijderen**.
 
@@ -149,7 +149,7 @@ Hieronder volgen een aantal voorbeelden:
 
 Als rijen in de tabel klant waarden hebben in de kolommen **ContactPersonID** en **InvoiceAccount**, volgt u deze stappen om de initiële synchronisatie te voltooien. U kunt deze methode gebruiken voor alle standaardtabellen zoals **accounts** en **contactpersonen**.
 
-1. Verwijder in de Finance and Operations-app de kolommen **ContactPersonID** en **InvoiceAccount** uit de toewijzing **Klanten V3 (accounts)** en sla de toewijzing op.
+1. Verwijder in de app voor financiële en bedrijfsactiviteiten de kolommen **ContactPersonID** en **InvoiceAccount** uit de toewijzing **Klanten V3 (accounts)** en sla de toewijzing op.
 
     1. Selecteer op de pagina voor de toewijzing van twee keer wegschrijven voor **Klanten v3 (accounts)** op het tabblad **Tabeltoewijzingen** in het linkerfilter de optie **Finance and Operations app.Customers V3**. Selecteer in het rechterfilter **Dataverse.Account**.
     2. Zoek naar **contactperson** om de bronkolom **ContactPersonID** te vinden.
@@ -182,16 +182,16 @@ Als rijen in de tabel klant waarden hebben in de kolommen **ContactPersonID** en
     > Er zijn twee toewijzingen met dezelfde naam. Selecteer de toewijzing met de volgende omschrijving op het tabblad **Details**: **Sjabloon voor twee keer wegschrijven voor sync tussen FO.CDS Vendor Contacts V2 to CDS.Contacts. Vereist nieuw pakket \[Dynamics365SupplyChainExtended\].**
 
 5. Voeg de kolommen **InvoiceAccount** en **ContactPersonId** weer toe aan de toewijzing **Klanten V3 (Accounts)** en sla de toewijzing op. Nu maken de kolommen **InvoiceAccount** en **ContactPersonId** weer deel uit van de live synchronisatiemodus. In de volgende stap voert u de initiële synchronisatie uit voor deze kolommen.
-6. Voer de initiële synchronisatie opnieuw uit voor de toewijzing **Klanten V3 (Accounts)**. Omdat het bijhouden van wijzigingen is uitgeschakeld, worden de gegevens voor **InvoiceAccount** en **ContactPersonId** uit de Finance and Operations-app gesynchroniseerd met Dataverse.
-7. Voor het synchroniseren van de gegevens voor **InvoiceAccount** en **ContactPersonId** van Dataverse met de Finance and Operations-app, gebruikt u een gegevensintegratieproject.
+6. Voer de initiële synchronisatie opnieuw uit voor de toewijzing **Klanten V3 (Accounts)**. Omdat het bijhouden van wijzigingen is uitgeschakeld, worden de gegevens voor **InvoiceAccount** en **ContactPersonId** uit de app voor financiële en bedrijfsactiviteiten gesynchroniseerd met Dataverse.
+7. Voor het synchroniseren van de gegevens voor **InvoiceAccount** en **ContactPersonId** van Dataverse met de app voor financiële en bedrijfsactiviteiten, gebruikt u een gegevensintegratieproject.
 
-    1. Maak in Power Apps een gegevensintegratieproject tussen de tabellen **Sales.Account** en **Finance and Operations apps.Customers V3**. De gegevensrichting moet van Dataverse naar de Finance and Operations-app gaan. Omdat **InvoiceAccount** een nieuw kenmerk is voor twee keer wegschrijven, wilt u mogelijk de initiële synchronisatie voor dit kenmerk overslaan. Zie voor meer informatie [Gegevens integreren in Dataverse](/power-platform/admin/data-integrator).
+    1. Maak in Power Apps een gegevensintegratieproject tussen de tabellen **Sales.Account** en **Finance and Operations apps.Customers V3**. De gegevensrichting moet van Dataverse naar de app voor financiële en bedrijfsactiviteiten gaan. Omdat **InvoiceAccount** een nieuw kenmerk is voor twee keer wegschrijven, wilt u mogelijk de initiële synchronisatie voor dit kenmerk overslaan. Zie voor meer informatie [Gegevens integreren in Dataverse](/power-platform/admin/data-integrator).
 
         In de volgende afbeelding ziet u een project waarmee **CustomerAccount** en **ContactPersonId** worden bijgewerkt.
 
         ![Gegevensintegratieproject voor het bijwerken van CustomerAccount en ContactPersonId.](media/cust_selfref6.png)
 
-    2. Voeg de bedrijfscriteria toe in het filter aan de kant van Dataverse, zodat alleen de rijen die aan de filtercriteria voldoen, in de app Finance and Operations worden bijgewerkt. Klik op de filterknop om een filter toe te voegen. Voeg vervolgens In het dialoogvenster **Query bewerken** een filterquery als **\_msdyn\_company\_value eq '\<guid\>'** toe.
+    2. Voeg de bedrijfscriteria toe in het filter aan de kant van Dataverse, zodat alleen de rijen die aan de filtercriteria voldoen, in de app voor financiële en bedrijfsactiviteiten worden bijgewerkt. Klik op de filterknop om een filter toe te voegen. Voeg vervolgens In het dialoogvenster **Query bewerken** een filterquery als **\_msdyn\_company\_value eq '\<guid\>'** toe.
 
         > [OPMERKING] Als de filterknop niet aanwezig is, maakt u een ondersteuningsticket om aan het gegevensintegratieteam te vragen om de filtermogelijkheid voor uw tenant in te schakelen.
 
@@ -201,7 +201,7 @@ Als rijen in de tabel klant waarden hebben in de kolommen **ContactPersonID** en
 
     De initiële synchronisatie van de rijen is nu voltooid.
 
-8. Schakel het bijhouden van wijzigingen in voor de tabel **Klanten V3** in de Finance and Operations-app.
+8. Schakel het bijhouden van wijzigingen in voor de tabel **Klanten V3** in de app voor financiële en bedrijfsactiviteiten.
 
 ## <a name="initial-sync-failures-on-maps-with-more-than-10-lookup-fields"></a>Initiële synchronisatieproblemen in toewijzingen met meer dan 10 opzoekvelden
 
@@ -227,7 +227,7 @@ Mogelijk wordt het volgende foutbericht weergegeven wanneer u probeert de oorspr
 
 *Partijnummer kan niet worden gevonden in Dataverse.*
 
-Er is een bereik ingesteld voor **DirPartyCDSEntity in** Finance and Operations-apps waarmee partijen van het type **Persoon** en **Organisatie** worden gefilterd. Hierdoor worden bij een initiële synchronisatie van de toewijzing van **CDS-partijen - msdyn_parties** geen partijen van andere typen gesynchroniseerd, waaronder **Rechtspersoon** en **Operationele eenheid**. Wanneer de initiële synchronisatie wordt uitgevoerd voor **postadressen van CDS-partij (msdyn_partypostaladdresses)** of **Partijcontacten V3 (msdyn_partyelectronicaddresses)** wordt er mogelijk een fout weergegeven.
+Er is een bereik ingesteld voor **DirPartyCDSEntity** in apps voor financiële en bedrijfsactiviteiten waarmee partijen van het type **Persoon** en **Organisatie** worden gefilterd. Hierdoor worden bij een initiële synchronisatie van de toewijzing van **CDS-partijen - msdyn_parties** geen partijen van andere typen gesynchroniseerd, waaronder **Rechtspersoon** en **Operationele eenheid**. Wanneer de initiële synchronisatie wordt uitgevoerd voor **postadressen van CDS-partij (msdyn_partypostaladdresses)** of **Partijcontacten V3 (msdyn_partyelectronicaddresses)** wordt er mogelijk een fout weergegeven.
 
 We werken aan een oplossing om het bereik partijtype voor de Finance and Operations-entiteit te verwijderen, zodat partijen van alle typen naar Dataverse kunnen worden gesynchroniseerd.
 

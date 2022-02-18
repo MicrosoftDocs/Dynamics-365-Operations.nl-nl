@@ -2,7 +2,7 @@
 title: Meertalige rapporten ontwerpen in Elektronische rapportage
 description: In dit onderwerp wordt uitgelegd hoe u labels voor elektronische rapporten (ER) kunt gebruiken om meertalige rapporten te ontwerpen en genereren.
 author: NickSelin
-ms.date: 09/03/2021
+ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf02e8f90fb83acd8448339f411489851742af18
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: e5c6b28dc115719922e418cb7a6156032d994d39
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674424"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074937"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Meertalige rapporten ontwerpen in Elektronische rapportage
 
@@ -28,9 +28,9 @@ ms.locfileid: "7674424"
 
 ## <a name="overview"></a>Overzicht
 
-Zakelijke gebruikers gebruiken het raamwerk van [ER (Elektronische rapportage)](general-electronic-reporting.md) om indelingen voor uitgaande documenten te configureren in overeenstemming met de wettelijke voorschriften van verschillende landen/regio's. Wanneer dit vereist dat uitgaande documenten worden gegenereerd in verschillende talen voor verschillende landen of regio's, kunt u één ER-[indeling](general-electronic-reporting.md#FormatComponentOutbound) configureren die taalafhankelijke bronnen bevat. Op die manier kunt u de indeling opnieuw gebruiken om uitgaande documenten voor verschillende landen of regio's te genereren. U kunt ook één ER-indeling gebruiken om een uitgaand document in verschillende talen te genereren voor overeenkomende klanten, leveranciers, dochtermaatschappijen of andere partijen.
+Zakelijke gebruikers gebruiken het raamwerk van [ER (Elektronische rapportage)](general-electronic-reporting.md) om indelingen voor uitgaande documenten te configureren in overeenstemming met de wettelijke voorschriften van verschillende landen/regio's. Wanneer dit vereist dat uitgaande documenten worden gegenereerd in verschillende talen voor verschillende landen of regio's, kunt u één ER-indeling configureren die taalafhankelijke bronnen bevat. Op die manier kunt u de indeling opnieuw gebruiken om uitgaande documenten voor verschillende landen of regio's te genereren. U kunt ook één ER-indeling gebruiken om een uitgaand document in verschillende talen te genereren voor overeenkomende klanten, leveranciers, dochtermaatschappijen of andere partijen.
 
-U kunt gegevensmodellen en modeltoewijzingen voor ER configureren als de gegevensbronnen van geconfigureerde ER-indelingen om de gegevensstroom te definiëren waarmee wordt aangegeven welke toepassingsgegevens in gegenereerde documenten worden opgeslagen. Als [provider](general-electronic-reporting.md#Provider) van een ER-configuratie [publiceert](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs) u geconfigureerde [gegevensmodellen](general-electronic-reporting.md#data-model-and-model-mapping-components), [modeltoewijzingen](general-electronic-reporting.md#data-model-and-model-mapping-components) en [indelingen](general-electronic-reporting.md#FormatComponentOutbound) als onderdelen van een ER-oplossing om specifieke uitgaande documenten te genereren. U kunt klanten ook toestaan de gepubliceerde ER-oplossing te [uploaden](general-electronic-reporting-manage-configuration-lifecycle.md) zodat deze kan worden gebruikt en aangepast. Als u verwacht dat klanten andere talen spreken, kunt u de ER-onderdelen zo configureren dat deze taalafhankelijke bronnen bevatten. Op die manier kan de inhoud van een bewerkbaar ER-onderdeel in de voorkeurstaal van de klant worden gepresenteerd tijdens het ontwerpen.
+U kunt gegevensmodellen en modeltoewijzingen voor ER configureren als de gegevensbronnen van geconfigureerde ER-indelingen om de gegevensstroom te definiëren waarmee wordt aangegeven welke toepassingsgegevens in gegenereerde documenten worden opgeslagen. Als [provider](general-electronic-reporting.md#Provider) van een ER-configuratie kunt u geconfigureerde [gegevensmodellen](general-electronic-reporting.md#data-model-and-model-mapping-components), [modeltoewijzingen](general-electronic-reporting.md#data-model-and-model-mapping-components) en indelingen als onderdelen van een ER-oplossing [publiceren](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs) om specifieke uitgaande documenten te genereren. U kunt klanten ook toestaan de gepubliceerde ER-oplossing te [uploaden](general-electronic-reporting-manage-configuration-lifecycle.md) zodat deze kan worden gebruikt en aangepast. Als u verwacht dat klanten andere talen spreken, kunt u de ER-onderdelen zo configureren dat deze taalafhankelijke bronnen bevatten. Op die manier kan de inhoud van een bewerkbaar ER-onderdeel in de voorkeurstaal van de klant worden gepresenteerd tijdens het ontwerpen.
 
 U kunt taalafhankelijke bronnen als ER-labels configureren. Vervolgens kunt u deze labels gebruiken om de ER-onderdelen te configureren voor de volgende doelen:
 
@@ -232,6 +232,19 @@ Zoals eerder in dit onderwerp is beschreven, kunnen de kenmerken **Label** en **
 ## <a name="performance"></a><a name=performance></a>Prestaties
 
 Wanneer u een onderdeel van een ER-indeling configureert om een rapport te genereren in uw voorkeurs [taal](#language) of om een inkomend document te importeren waarbij de inhoud wordt geparsed door uw voorkeurstaal, wordt aanbevolen de functie **Voorkeurstaal van de huidige gebruiker voor ER-runs cachen** in de werkruimte [Functiebeheer](../../fin-ops/get-started/feature-management/feature-management-overview.md) in te schakelen. Deze functie zorgt voor betere prestaties, met name voor onderdelen van een ER-indeling die meerdere verwijzingen naar labels in ER-formules en -bindingen en een groot aantal [validatie](general-electronic-reporting-formula-designer.md#TestFormula)regels bevatten om gebruikersberichten in de taal van uw voorkeur te genereren.
+
+Wanneer u de status van een ER-configuratieversie wijzigt van **Concept** in **Voltooid**, worden deze labels opgeslagen in de toepassingsdatabase als de configuratieversie ER-labels bevat. Het opslagschema is afhankelijk van de status van de functie **Opslag ER-labels versnellen**:
+
+- Als de functie niet is ingeschakeld, worden alle labels als één XML-fragment in het veld **LABELXML** van de tabel **ERSOLUTIONVERSIONTABLE** opgeslagen.
+- Als de functie is ingeschakeld, wordt een afzonderlijke record gemaakt voor elke taal in de tabel **ERSOLUTIONVERSIONLABELSTABLE**. Met het veld **CONTENTS** van deze tabel worden labels per taal opgeslagen als een gecomprimeerde XML-fragment.
+
+Het is raadzaam om de functie **Opslag ER-labels versnellen** in het werkgebied **Functiebeheer** in te schakelen. Deze functie helpt het netwerkbandbreedtegebruik en de algehele systeemprestaties te verbeteren, omdat er in de meeste gevallen ER-labels van één taal worden gebruikt wanneer u met één ER-configuratie werkt.
+
+Als u het geselecteerde opslagschema wilt toepassen op het bijhouden van labels van alle ER-configuraties in het huidige Finance-exemplaar, gaat u als volgt te werk.
+
+1. Ga naar **Organisatiebeheer** > **Periodiek** > **Het geselecteerde opslagschema voor labels toepassen voor alle ER-configuraties**.
+2. Selecteer **OK**.
+
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

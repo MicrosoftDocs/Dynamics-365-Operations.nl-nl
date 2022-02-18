@@ -18,17 +18,17 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: edb4d1217617ee3bcb7f528da4aad42fb4fb6b82
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 703f2cb9a1ea8691420765a8598d59f3e6cc6488
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576899"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062947"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Productiemedewerkers voorzien van mixed reality-guides
 
 [!include [banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Medewerkers in productieprocessen zullen gebruikmaken van relevante instructies die op het juiste moment in het context van hun werk worden geleverd. *Instructies* zijn van toepassing op verschillende domeinen van werkzaamheden, waaronder: assemblage, service, bewerkingen, certificering en veiligheid. In al deze belangrijke bedrijfsfuncties kunnen doorlopende trainingsinstructies worden gebruikt om medewerkers te helpen meer te bereiken en beter te werken.
 

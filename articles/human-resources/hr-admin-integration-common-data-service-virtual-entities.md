@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: f7ffe522f0f17a21280e53728c6efc2823743733
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414659"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069141"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Virtuele Dataverse-tabellen configureren
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 Human Resources is een virtuele gegevensbron in Microsoft Dataverse. De gegevensbron biedt volledige bewerkingen voor maken, lezen, bijwerken en verwijderen vanuit Dataverse en Microsoft Power Platform. De gegevens voor virtuele tabellen worden niet opgeslagen in Dataverse, maar in de toepassingsdatabase.
 
@@ -119,7 +122,7 @@ In de volgende stap configureert u de gegevensbron van de virtuele tabel in de P
 
 4. Selecteer op de **Oplossingsstatushub** het pictogram **Geavanceerd zoeken** in de rechtsbovenhoek van de toepassingspagina.
 
-5. Selecteer op de pagina **Geavanceerd zoeken** in de vervolgkeuzelijst **Zoeken naar** de optie **Finance and Operations Virtual Data Source Configurations**.
+5. Selecteer op de pagina **Geavanceerd zoeken** in de vervolgkeuzelijst **Zoeken naar** de optie **Configuraties voor virtuele Finance and Operations-gegevensbronnen**.
 
    > [!NOTE]
    > De installatie van de Virtual Table-app uit de vorige instellingsstap kan enkele minuten duren. Als **Configuraties voor virtuele Finance and Operations-gegevensbronnen** niet beschikbaar is in de lijst, moet u even wachten en de lijst vernieuwen.

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 72273a125da2e6c4a2fc16b449cd5077f3d767df
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: b5f7342a997407c8701b836c2a6a6222d8512121
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7548188"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074989"
 ---
 # <a name="create-and-invoice-an-intercompany-sales-order-for-an-external-customer"></a>Een intercompany-verkooporder voor een externe klant maken en factureren
 
@@ -75,5 +75,18 @@ Voer deze stappen uit in rechtspersoon B. Deze procedure komt overeen met het va
 1. Selecteer de verkooporder en selecteer **OK**.
 
 De klantfactuur voor de intercompany-verkooporder wordt automatisch geboekt in rechtspersoon B. De intercompany-leveranciersfactuur wordt vervolgens automatisch gemaakt en geboekt in rechtspersoon A. Als de oorspronkelijke verkooporder is ingesteld als een rechtstreekse levering, wordt de klantfactuur gemaakt voor de oorspronkelijke verkooporder in rechtspersoon A.
+
+> [!NOTE]
+> Eerder was het in geval van intercompany-verkoopscenario's als de werkstroom voor leveranciersfacturen was geconfigureerd in het intercompany-inkoopbedrijf, niet mogelijk om de intercompany-verkooporder juist te factureren. Daarom moest de werkstroom van de leveranciersfactuur voor het intercompany-inkoopbedrijf worden uitgeschakeld. 
+> 
+> Deze beperking is opgelost door een recente functie in release 10.0.25. Intercompany-verkooporders kunnen nu worden gefactureerd wanneer de werkstroom voor leveranciersfacturen is geconfigureerd in het intercompany-inkoopbedrijf.
+> 
+> Voer de volgende stappen uit om deze functie in te schakelen.
+>
+> 1. Selecteer de rechtspersoon voor intercompany-verkoop.  
+> 2. Ga naar **Klanten \> Klanten \> Alle klanten**.
+> 3. Selecteer de klant voor het intercompany-inkoopbedrijf.
+> 4. Ga naar **Algemeen \> Instellen \> Intercompany**.
+> 5. Selecteer op het tabblad **Inkooporderbeleid** de parameter **Werkstroom voor leveranciersfacturen overslaan voor intercompany-leveranciersfacturen**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

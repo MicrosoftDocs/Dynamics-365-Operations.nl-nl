@@ -2,7 +2,7 @@
 title: Problemen met het instellen van Finance Insights oplossen
 description: In dit onderwerp worden problemen weergegeven die kunnen optreden wanneer u functies van Finance Insights gebruikt. Er wordt ook uitgelegd hoe u deze problemen kunt oplossen.
 author: panolte
-ms.date: 11/03/2021
+ms.date: 01/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: c1bbdbec2bc0273a73ffc13a4cce024543af5a13
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: f77cddfdab22bef8af7f62d49723e330c4f13261
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968831"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8064861"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Problemen met het instellen van Finance Insights oplossen
 
@@ -92,3 +92,25 @@ De volgende stappen moeten zijn uitgevoerd.
   | ---------------------------- | ---------------- |
   | Microsoft Dynamics ERP-microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
   
+## <a name="symptom-error-we-didnt-find-any-data-for-the-selected-filter-range-please-select-a-different-filter-range-and-try-again"></a>Symptoom: fout: 'Er zijn geen gegevens voor het geselecteerde filterbereik gevonden. Selecteer een ander filterbereik en probeer het opnieuw.' 
+
+### <a name="resolution"></a>Oplossing
+
+Controleer de instellingen van de gegevensintegrator om te controleren of de gegevens naar verwachting werken en om de gegevens van AI Builder terug in Finance in te voegen.  
+Zie voor meer informatie [Een gegevensintegratieproject maken](../finance-insights/create-data-integrate-project.md).
+
+## <a name="symptom-customer-payment-prediction-training-failed-and-the-ai-builder-error-states-prediction-should-have-only-2-distinct-outcome-values-to-train-the-model-map-to-two-outcomes-and-retrain-training-report-issue-isnotminrequireddistinctnonnullvalues"></a>Symptoom: de training voor voorspellingen van klantbetalingen is mislukt en in de AI Builder-foutmelding wordt het volgende aangegeven: 'De voorspelling mag maar twee verschillende resultaatwaarden hebben om het model te trainen. Wijs aan twee resultaten toe en train opnieuw.' 'Trainingsrapportprobleem: IsNotMinRequiredDistinctNonNullValues'.
+
+### <a name="resolution"></a>Oplossing
+
+Deze fout geeft aan dat er niet voldoende historische transacties zijn in het afgelopen jaar waarmee elke categorie wordt vertegenwoordigd die wordt beschreven in de categorieën **Op tijd**, **Laat** en **Erg laat**. Als u deze fout wilt oplossen, past u de transactieperiode **Erg laat** aan. Als de fout met het aanpassen van de transactieperiode **Erg laat** niet wordt opgelost, is **Voorspellingen voor klantbetalingen** niet de beste oplossing om te gebruiken, omdat de gegevens in elke categorie nodig zijn voor trainingsdoeleinden.
+
+Zie [Voorspellingen voor klantbetalingen inschakelen](../finance-insights/enable-cust-paymnt-prediction.md) voor meer informatie over het aanpassen van de categorieën **Op tijd**, **Laat** en **Erg laat**.
+
+## <a name="symptom-model-training-failed"></a>Symptoom: modeltraining is mislukt
+
+### <a name="resolution"></a>Oplossing
+
+Voor de modeltraining **Cashflowprognose** zijn gegevens nodig die meer dan een jaar beslaan en meer dan 100 transacties bevatten. Deze transacties moeten invloed hebben op liquiditeitsrekeningen die zijn opgenomen in de instellingen van de cashflowprognose.
+
+Voor **Voorspellingen voor klantbetalingen** zijn minimaal 100 klantfactuur- en betalingstransacties in de laatste zes tot negen maanden nodig om voorspellingen te maken.  

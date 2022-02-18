@@ -2,7 +2,7 @@
 title: Targeting op apparaten, markt en geolocatie
 description: In dit onderwerp wordt beschreven hoe u doelgroepen en doelen kunt aanmaken, bewerken en beheren in Microsoft Dynamics 365 Commerce Site Builder met behulp van apparaat-, markt- en geolocatiegegevens.
 author: sushma-rao
-ms.date: 07/30/2021
+ms.date: 02/03/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2021-07-31
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: b17c394105d4bb878c8375989924d3c3da079c78
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 0c8ceb5e59c801e0d3dbc3a57e54c40fa8d967ac
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985132"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090689"
 ---
 # <a name="device-market-and-geolocation-targeting"></a>Targeting op apparaten, markt en geolocatie
 
@@ -96,6 +96,18 @@ Als u een doelgroep wilt bewerken, selecteert u de hyperlink voor de doelgroep o
 
 > [!NOTE]
 > Een doelgroep is een concept op site-niveau in Commerce Site Builder. U kunt dezelfde doelgroep delen voor meerdere doelen.
+
+### <a name="rename-an-audience-in-site-builder"></a>De naam van een doelgroep wijzigen in Site Builder
+
+Voer de volgende stappen uit om de naam van een bestaande doelgroep te wijzigen in Commerce Site Builder.
+
+1. Selecteer **Doelgroepen** in het deelvenster voor navigatie aan de linkerkant.
+1. Selecteer de naam van het doelgroepsegment waarvan u de naam wilt wijzigen.
+1. Selecteer **Bewerken** om de doelgroep te gaan bewerken.
+1. Selecteer in het deelvenster met eigenschappen voor doelgroepen het pensymbool naast de naam van de doelgroep.
+1. Bewerk de naam van de doelgroep indien nodig.
+1. Selecteer het vinkje om de naamswijziging te bevestigen.
+1. Selecteer **Bewerken voltooien**.
 
 ## <a name="targets"></a>Doelen
 

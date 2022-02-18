@@ -1,6 +1,6 @@
 ---
-title: Problemen met Twee keer wegschrijven in Finance and Operations-apps oplossen
-description: Dit onderwerp bevat informatie over het oplossen van problemen met betrekking tot de module Twee keer wegschrijven in Finance and Operations-apps.
+title: Problemen met twee keer wegschrijven oplossen in de toepassingen Finance and Operations
+description: Dit onderwerp bevat informatie over het oplossen van problemen met betrekking tot de module Twee keer wegschrijven in apps voor financiële en bedrijfsactiviteiten.
 author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
@@ -9,25 +9,25 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 3caf3f18718fd6bee20232a0200d421b9c9ef22c
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: db49c6a4555f39800362a5b248f9757b07ee5481
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781193"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061803"
 ---
-# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Problemen met Twee keer wegschrijven in Finance and Operations-apps oplossen
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Problemen met twee keer wegschrijven oplossen in de toepassingen Finance and Operations
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dit onderwerp bevat informatie voor het oplossen van problemen voor de integratie van twee keer wegschrijven tussen Finance and Operations-apps en Dataverse. Dit onderwerp bevat specifieke informatie over het oplossen van problemen met betrekking tot de module **Twee keer wegschrijven** in Finance and Operations-apps.
+
+Dit onderwerp bevat informatie voor het oplossen van problemen met de integratie van Twee keer wegschrijven tussen apps voor financiële en bedrijfsactiviteiten en Dataverse. Dit onderwerp bevat met name informatie over het oplossen van problemen met betrekking tot de module **Twee keer wegschrijven** in apps voor financiële en bedrijfsactiviteiten.
 
 > [!IMPORTANT]
 > In sommige problemen die in dit onderwerp worden beschreven, is mogelijk de rol van systeembeheerder vereist of de referenties van de Microsoft Azure Active Directory-tenantbeheerder (Azure AD). In de sectie voor elk probleem wordt uitgelegd of een specifieke rol of referenties vereist zijn.
 
-## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>U kunt de module voor Twee keer wegschrijven niet laden in een Finance and Operations-app
+## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>U kunt de module voor Twee keer wegschrijven niet laden in een app voor financiële en bedrijfsactiviteiten
 
 Als u de pagina **Twee keer wegschrijven** niet kunt openen door het selecteren van de tegel **Twee keer wegschrijven** in de werkruimte **Gegevensbeheer**, is de gegevensintegratieservice waarschijnlijk niet beschikbaar. Maak een ondersteuningsticket met een aanvraag voor het opnieuw starten van de gegevensintegratieservice.
 
@@ -49,7 +49,7 @@ Meld u aan met een InPrivate-venster in Microsoft Edge, een incognito-venster in
 
 ## <a name="error-when-you-link-the-environment-for-dual-write-or-add-a-new-table-mapping"></a>Fout bij het koppelen van de omgeving voor twee keer wegschrijven of het toevoegen van een nieuwe tabeltoewijzing
 
-**Vereiste rol om het probleem op te lossen:** systeembeheerder in Finance and Operations-apps en Dataverse.
+**Vereiste rol om het probleem op te lossen:** systeembeheerder voor zowel apps voor financiële en bedrijfsactiviteiten als Dataverse.
 
 De volgende fout kan optreden bij het koppelen of maken van toewijzingen:
 
@@ -59,7 +59,7 @@ Session ID: \<your session id\>
 Root activity ID: \<your root activity\> id
 ```
 
-Deze fout kan optreden als u niet over voldoende machtigingen beschikt om Twee keer wegschrijven te koppelen of toewijzingen te maken. Deze fout kan ook optreden als de Dataverse-omgeving opnieuw is ingesteld zonder het ontkoppelen van twee keer wegschrijven. Alle gebruikers met de rol van systeembeheerder in Finance and Operations-apps en Dataverse kunnen de omgevingen koppelen. Alleen de gebruiker die de verbinding voor Twee keer wegschrijven heeft ingesteld, kan nieuwe tabeltoewijzingen toevoegen. Na de installatie kunnen alle gebruikers met de rol van systeembeheerder de status controleren en de toewijzingen bewerken.
+Deze fout kan optreden als u niet over voldoende machtigingen beschikt om Twee keer wegschrijven te koppelen of toewijzingen te maken. Deze fout kan ook optreden als de Dataverse-omgeving opnieuw is ingesteld zonder het ontkoppelen van twee keer wegschrijven. Alle gebruikers met de rol van systeembeheerder in apps voor financiële en bedrijfsactiviteiten en Dataverse kunnen de omgevingen koppelen. Alleen de gebruiker die de verbinding voor Twee keer wegschrijven heeft ingesteld, kan nieuwe tabeltoewijzingen toevoegen. Na de installatie kunnen alle gebruikers met de rol van systeembeheerder de status controleren en de toewijzingen bewerken.
 
 ## <a name="error-when-you-stop-the-table-mapping"></a>Fout bij het stoppen van de tabeltoewijzing
 
@@ -82,7 +82,7 @@ Het volgende foutbericht kan worden weergegeven wanneer u probeert de initiële 
 Wanneer u deze status van een toewijzing probeert in te stellen op **Wordt uitgevoerd**, kan dit foutbericht worden weergegeven. De correctie is afhankelijk van de oorzaak van de fout:
 
 + Als de toewijzing afhankelijke toewijzingen heeft, moet u ervoor zorgen dat u de afhankelijke toewijzingen van deze tabeltoewijzing inschakelt.
-+ De toewijzing mist mogelijk bron- of doelkolommen. Als een kolom in de Finance and Operations-app ontbreekt, volgt u de stappen in de sectie [Probleem met ontbrekende tabelkolommen in toewijzingen](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Als een kolom in Dataverse ontbreekt, klikt u op de knop **Tabellen vernieuwen** in de toewijzing, zodat de kolommen automatisch opnieuw worden gevuld in de toewijzing.
++ De toewijzing mist mogelijk bron- of doelkolommen. Als een kolom in de app voor financiële en bedrijfsactiviteiten ontbreekt, voert u de stappen uit in de sectie [Probleem met ontbrekende tabelkolommen in toewijzingen](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Als een kolom in Dataverse ontbreekt, klikt u op de knop **Tabellen vernieuwen** in de toewijzing, zodat de kolommen automatisch opnieuw worden gevuld in de toewijzing.
 
 ### <a name="version-mismatch-error-and-upgrading-dual-write-solutions"></a>Fout voor niet-overeenkomende versies en het upgraden van dubbele-schrijfoplossingen
 

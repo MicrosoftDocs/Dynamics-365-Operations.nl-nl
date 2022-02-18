@@ -10,18 +10,18 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: 3fe1b7707df72927fba78ee9659502cc62471799
-ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.openlocfilehash: e2f870368dc662032a3e7ca7ddca902feb23a713
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "7924866"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063257"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Dual-write Application Orchestration-pakket is opgesplitst
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Voorheen was het Dual-write Application Orchestration-pakket een enkel pakket dat de volgende oplossingen bevatte:
 
@@ -58,7 +58,7 @@ Met het Dual-write Application Core-pakket kunnen gebruikers twee keer wegschrij
 
 De volgende kaarten zijn beschikbaar in dit pakket.
 
-| Finance and Operations-apps     | Customer Engagement-apps                    |
+| Apps voor financiële en bedrijfsactiviteiten     | Customer Engagement-apps                    |
 |---------------------------------|---------------------------------------------|
 | Operationele eenheid                  | msdyn_internalorganizations                 |
 | Organisatiehiërarchie          | msdyn_internalorganizationhierarchies       |
@@ -89,7 +89,7 @@ Het Dual-write Human Resources-pakket bevat de oplossingen en kaarten die nodig 
 
 De volgende kaarten zijn beschikbaar in dit pakket.
 
-| Finance and Operations-apps | Customer Engagement-apps         |
+| Apps voor financiële en bedrijfsactiviteiten | Customer Engagement-apps         |
 |-----------------------------|----------------------------------|
 | Etnische afkomst              | cdm_ethnicorigins                |
 | Compensatie functiepositie   | cdm_jobfunctions                 |
@@ -119,7 +119,7 @@ Het Dual-write Supply Chain-pakket bevat de oplossingen en kaarten die nodig zij
 
 De volgende kaarten zijn beschikbaar in dit pakket.
 
-| Finance and Operations-apps                 | Customer Engagement-apps                      |
+| Apps voor financiële en bedrijfsactiviteiten                 | Customer Engagement-apps                      |
 |---------------------------------------------|-----------------------------------------------|
 | Eenheden                                       | uoms                                          |
 | CDS-verkooporderkopteksten                     | salesorders                                   |
@@ -197,7 +197,7 @@ Het Dual-write Finance-pakket bevat de oplossingen en kaarten die nodig zijn om 
 
 De volgende kaarten zijn beschikbaar in dit pakket.
 
-| Finance and Operations-apps             | Customer Engagement-apps        |
+| Apps voor financiële en bedrijfsactiviteiten             | Customer Engagement-apps        |
 |-----------------------------------------|---------------------------------|
 | Bronbelastinggroepen                  | msdyn_withholdingtaxgroups      |
 | CDS-contactpersonen V2 (klant)              | contacten                        |
@@ -247,7 +247,7 @@ Het Dual-write Notes-pakket bevat de oplossingen en kaarten die nodig zijn om ge
 
 De volgende kaarten zijn beschikbaar in dit pakket.
 
-| Finance and Operations                     | Customer Engagement |
+| Finance en Operations                     | Customer Engagement |
 |--------------------------------------------|---------------------|
 | Documentbijlagen van verkooporderkoptekst    | aantekeningen         |
 | Klantbijlagen                       | aantekeningen         |
@@ -274,7 +274,7 @@ Het Dual-write Activabeheer-pakket bevat de oplossingen en kaarten die nodig zij
 
 De volgende kaarten zijn beschikbaar in dit pakket.
 
-| Finance and Operations-apps                           | Customer Engagement-apps                |
+| Apps voor financiële en bedrijfsactiviteiten                           | Customer Engagement-apps                |
 |-------------------------------------------------------|-----------------------------------------|
 | Garantie voor activabeheer                             | msdyn_warranties                        |
 | Modellen voor activabeheer                               | msdyn_models                            |

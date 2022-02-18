@@ -2,7 +2,7 @@
 title: Een online afzetkanaal instellen
 description: In dit onderwerp wordt beschreven hoe u een nieuw online afzetkanaal maakt in Microsoft Dynamics 365 Commerce.
 author: samjarawan
-ms.date: 07/02/2020
+ms.date: 02/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,21 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 11796d27a6071b180ad58c46ba2a521ecc238c6091517dbdc3a4f153b3d81749
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f32872fcc27e2e74300c4f18dfa08d666e4ad8a8
+ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714706"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092107"
 ---
 # <a name="set-up-an-online-channel"></a>Een online afzetkanaal instellen
-
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u een nieuw online afzetkanaal maakt in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 Dynamics 365 Commerce ondersteunt meerdere detailhandelkanalen. Deze detailhandelskanalen zijn o.a. online winkels, call centers en winkels (ook fysieke winkels genoemd). Een online winkel biedt klanten de mogelijkheid om producten zowel in de online winkel als in de fysieke winkel van de detailhandelaar te kopen.
 
@@ -61,9 +58,13 @@ In de volgende afbeelding ziet u een voorbeeld van een online afzetkanaal.
 
 ![Voorbeeld van online afzetkanaal.](media/channel-setup-online-2.png)
 
+## <a name="assign-the-channel-to-a-commerce-scale-unit"></a>Het kanaal toewijzen aan een Commerce Scale Unit
+
+Uw nieuwe kanaal moet worden toegewezen aan een Commerce Scale Unit. Zie [Kanalen configureren om Commerce Scale Unit te gebruiken](../fin-ops-core/dev-itpro/deployment/initialize-retail-channels.md#configure-channels-to-use-commerce-scale-unit) voor instructies.
+
 ## <a name="set-up-languages"></a>Talen instellen
 
-Als uw e-Commerce site ondersteuning biedt voor meerdere talen, vouwt u de sectie **Talen** uit en voegt u de toepasselijke extra talen toe.
+Als uw e-Commerce-site ondersteuning biedt voor meerdere talen, vouwt u de sectie **Talen** uit en voegt u desgewenst extra talen toe.
 
 ## <a name="set-up-payment-account"></a>Betalingsrekening instellen
 

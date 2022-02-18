@@ -2,7 +2,7 @@
 title: Werken met vooraf ingestelde indelingen
 description: In dit onderwerp wordt beschreven hoe u werkt met vooraf ingestelde indelingen in Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0f6effd4dda669041a269d568bd39beda607a2bcc05c65e40bb76c6f1d02cd5e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 56ad992b6a9fd6fce09cadad70b8098acdc74ac0
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775307"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090840"
 ---
 # <a name="work-with-preset-layouts"></a>Werken met vooraf ingestelde indelingen
 
@@ -91,14 +91,26 @@ Als u de wijzigingen wilt bekijken, opent u een bestaande pagina die de vooraf i
 
 Nadat u een voorbeeld van de wijzigingen in de vooraf ingestelde indeling hebt bekeken, volgt u een van deze stappen om de indeling naar uw live site te publiceren:
 
-* Ga naar **Indelingen**, selecteer de indeling en selecteer **Publiceren.**
-* Selecteer de indelingsnaam om de indelingseditor te openen en selecteer vervolgens **Publiceren**.
-* Publiceer een pagina die verwijst naar de niet-gepubliceerde indeling. De indeling wordt automatisch gepubliceerd.
+1. Ga naar **Indelingen**, selecteer de indeling en selecteer **Publiceren.**
+1. Selecteer de indelingsnaam om de indelingseditor te openen en selecteer vervolgens **Publiceren**.
+1. Publiceer een pagina die verwijst naar de niet-gepubliceerde indeling. De indeling wordt automatisch gepubliceerd.
 
 > [!WARNING]
 > Op meerdere pagina's kan naar een vooraf ingestelde indeling worden verwezen. Wanneer u een vooraf ingestelde indeling publiceert, kan dit van invloed zijn op de indeling van meerdere pagina's.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="rename-a-preset-layout"></a>De naam van een vooraf gedefinieerde indeling wijzigen
+
+Voer de volgende stappen uit om de naam van een vooraf gedefinieerde indeling in Site Builder te wijzigen.
+
+1. Selecteer **Indelingen** in het navigatievenster aan de linkerkant.
+1. Selecteer de naam van de indeling die u wilt wijzigen.
+1. Selecteer **Bewerken** om de indeling te gaan bewerken.
+1. Selecteer in het deelvenster met eigenschappen voor indelingen het pensymbool naast de naam van de indeling.
+1. Bewerk de naam van de indeling indien nodig.
+1. Selecteer het vinkje om de naamswijziging te bevestigen.
+1. Selecteer **Bewerken voltooien**.
+
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht sjablonen en indelingen](templates-layouts-overview.md)
 

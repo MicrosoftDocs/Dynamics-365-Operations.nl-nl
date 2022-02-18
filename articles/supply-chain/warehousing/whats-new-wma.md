@@ -10,18 +10,25 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6f45cacd7f43c8caf836fd1ea24d354e4bcf5853
-ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
+ms.openlocfilehash: ceb327599bb2651a37ac51c3e0fdffc39d20c7f6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8007569"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067246"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 In dit onderwerp worden de nieuwe functies, oplossingen, verbeteringen en bekende problemen genoemd voor elke vrijgegeven versie van de mobiele app Warehouse Management voor Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20150"></a>Versie 2.0.15.0
+
+Deze versie bevat de volgende nieuwe functies, verbeteringen en oplossingen voor fouten:
+
+- Verbeterde prestaties door een geheugenlekprobleem op te lossen.
+- Een probleem is opgelost waarbij sommige veldwaarden niet juist werden bijgewerkt als ze werden geselecteerd op de detailpagina.
 
 ## <a name="version-20140"></a>Versie 2.0.14.0
 

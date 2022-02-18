@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e03becf2572aeaf213e8c3a0e874405ed0d5613
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 6dfe1cf9d3d67c6b65f64248d48a2e7420a47c93
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753021"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063232"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Verwijderde of afgeschafte functies in eerdere releases
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 > [!IMPORTANT]
-> Dit onderwerp wordt niet meer bijgewerkt. Als u een actuele lijst met functies wilt weergeven die zijn verwijderd of afgeschaft in Finance and Operations-apps, zoekt u naar de inhoud **Verwijderde of afgeschafte functies** die betrekking heeft op de app die u gebruikt.
+> Dit onderwerp wordt niet meer bijgewerkt. Als u een actuele lijst met functies wilt weergeven die zijn verwijderd of afgeschaft in apps voor financiële en bedrijfsactiviteiten, zoekt u naar de inhoud **Verwijderde of afgeschafte functies** die betrekking heeft op de app die u gebruikt.
 
 In dit onderwerp worden de functies beschreven die zijn verwijderd of afgeschaft in Dynamics 365 for Finance and Operations en eerdere versies van dat product.
 
@@ -37,7 +37,7 @@ In dit onderwerp worden de functies beschreven die zijn verwijderd of afgeschaft
 
 Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning rekening te houden met deze verwijderingen en afschaffingen. 
 
-Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
+Gedetailleerde informatie over objecten in apps voor financiële en bedrijfsactiviteiten is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van apps voor financiële en bedrijfsactiviteiten.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 met Platformupdate 31
 
@@ -50,7 +50,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Implementatieoptie**              | Alle |
 | **Status**                         | Afgeschaft: op 1 december 2020 worden Chinese boekingstypen niet meer ondersteund zonder dat rekeninggroepen zijn geselecteerd. Meer informatie over het nieuwe functieontwerp is te vinden in Nieuwe functies in 10.0.7 |
 
-## <a name="finance-and-operations-1006-with-platform-update-30"></a>Finance and Operations 10.0.6 met platformupdate 30
+## <a name="finance-and-operations-1006-with-platform-update-30"></a>Finance and Operations 10.0.6 met Platform update 30
 
 
 ### <a name="dimensionhashgethashstr-_message"></a>DimensionHash.getHash(str _message)
@@ -138,7 +138,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 </tbody>
 </table>
 
-## <a name="finance-and-operations-1005-with-platform-update-29"></a>Finance and Operations 10.0.5 met platformupdate 29
+## <a name="finance-and-operations-1005-with-platform-update-29"></a>Finance and Operations 10.0.5 met Platform update 29
 
 ### <a name="us-payroll-tax-updates"></a>Updates van Amerikaanse payroll-belasting
 
@@ -163,7 +163,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Implementatieoptie**              | Alle  |
 | **Status**                         | Afgeschaft: de verwijdering van de functionaliteit staat gepland voor december 2020. |
 
-## <a name="finance-and-operations-1004-with-platform-update-28"></a>Finance and Operations 10.0.4 met platformupdate 28
+## <a name="finance-and-operations-1004-with-platform-update-28"></a>Finance and Operations 10.0.4 met Platform update 28
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>Frankrijk: FEC-boekhoudingsgegevens exporteren in XML
 
@@ -187,7 +187,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Status**                         | Afgeschaft: vanaf april 2020 is de oude navigatiebalk niet meer beschikbaar. Tot dat kunnen klanten nog de oude navigatiebalk herstellen via de pagina **Prestatieopties van client**. |
 
 
-## <a name="finance-and-operations-1002-with-platform-update-26"></a>Finance and Operations 10.0.2 met platformupdate 26
+## <a name="finance-and-operations-1002-with-platform-update-26"></a>Finance and Operations 10.0.2 met Platform update 26
 
 
 ### <a name="legacy-default-action-behavior"></a>Oud standaardgedrag voor acties
@@ -231,7 +231,7 @@ Ondersteuning voor het maken van projectgebaseerde verkooporders waarbij het pro
 | **Implementatieoptie**              | Alle |
 | **Status**                         | Afgeschaft: de verwijdering van de functionaliteit staat gepland voor april 2020. |
 
-## <a name="finance-and-operations-1001-with-platform-update-25"></a>Finance and Operations 10.0.1 met platformupdate 25
+## <a name="finance-and-operations-1001-with-platform-update-25"></a>Finance and Operations 10.0.1 met Platform update 25
 
 ### <a name="deprecated-apis-and-potential-breaking-changes"></a>Afgeschafte API's en potentiële ingrijpende wijzigingen
 
@@ -256,7 +256,7 @@ Ondersteuning voor het maken van projectgebaseerde verkooporders waarbij het pro
 | **Implementatieoptie**              | Alle |
 | **Status**                         | Afgeschaft: de waarschuwing wordt een compilatiefout in platformupdate 26. |
 
-## <a name="finance-and-operations-1000-with-platform-update-24"></a>Finance and Operations 10.0.0 met platformupdate 24
+## <a name="finance-and-operations-1000-with-platform-update-24"></a>Finance and Operations 10.0.0 met Platform update 24
 
 ### <a name="renaming-released-products"></a>Naam wijzigen van vrijgegeven producten 
 | &nbsp;  |&nbsp;  |
@@ -265,13 +265,13 @@ Ondersteuning voor het maken van projectgebaseerde verkooporders waarbij het pro
 | **Vervangen door een andere functie?**   | Nr. |
 | **Betrokken productgebieden**         | Productgegevensbeheer |
 | **Implementatieoptie**              | Alle  |
-| **Status**                         | Verwijderd sinds Finance and Operations 10.0.0 met Platform update 24.|
+| **Status**                         | Verwijderd vanaf Finance and Operations 10.0.0 met Platform update 24.|
 
 
-## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3 met platformupdate 23
+## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3 met Platform update 23
 
 ### <a name="sql-server-reporting-services-reportviewer-control"></a>SQL Server Reporting Services ReportViewer-besturingselement
-Klanten kunnen de actie **Exporteren** gebruiken die wordt verschaft door het SQL Server Reporting Services (SSRS) ReportViewer-besturingselement om documenten te downloaden die door Finance and Operations-toepassingen zijn gemaakt. Deze op HTML gebaseerde presentatie van het rapport biedt gebruikers een voorbeeld van het document zonder pagina´s.
+Klanten kunnen de actie **Exporteren** gebruiken die wordt verschaft door het SQL Server Reporting Services (SSRS) ReportViewer-besturingselement om documenten te downloaden die door toepassingen voor financiële en bedrijfsactiviteiten zijn gemaakt. Deze op HTML gebaseerde presentatie van het rapport biedt gebruikers een voorbeeld van het document zonder pagina´s.
 
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
@@ -302,12 +302,12 @@ Ingesloten prestatie-indicatoren (KPI's) kunnen worden gemodelleerd in Visual St
 | **Vervangen door een andere functie?**   | Deze waarschuwing wordt in de toekomst vervangen door een compilatiefout. |
 | **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's |
 | **Implementatieoptie**              | Alle |
-| **Status**                         | Afgeschaft: De waarschuwing is een compilatiefout in platform updates voor versie 10.0.11 van Finance and Operations-apps. |
+| **Status**                         | Afgeschaft: de waarschuwing is een compilatietijdfout in platformupdates voor versie 10.0.11 van apps voor financiële en bedrijfsactiviteiten. |
 
 #### <a name="complete-list"></a>Volledige lijst
 Raadpleeg voor toegang tot de volledige lijst met API's [Afschaffing van methoden en metagegevenselementen](deprecation-deletion-apis.md).
 
-## <a name="finance-and-operations-81-with-platform-update-20"></a>Finance and Operations 8.1 met platformupdate 20
+## <a name="finance-and-operations-81-with-platform-update-20"></a>Finance and Operations 8.1 met Platform update 20
 
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Batchoverboekingsregels voor journaalregels in subadministratie
 De modus voor synchrone overdracht wordt afgeschaft in de grootboekparameters.  Deze modus wordt vervangen door asynchrone overdrachten en geplande batches, die al bestaan als overdrachtopties. Zie voor meer informatie het blog [Grootboekparameters: regels voor batchoverboeking](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules).
@@ -329,7 +329,7 @@ Functie voor het configureren van bestandsindelingen .txt en .xml van aangiften.
 | **Vervangen door een andere functie?**   | Ja. |
 | **Betrokken productgebieden**         | Grootboek |
 | **Implementatieoptie**              | Alle |
-| **Status**                         | Verwijderd sinds Finance and Operations 8.1 met Platform update 20. |
+| **Status**                         | Verwijderd vanaf Finance and Operations 8.1 met Platform update 20. |
 
 ### <a name="financial-reports-generator-for-russia"></a>Aanmaker van financiële rapporten voor Rusland
 Een hulpmiddel om gegevensverzameling in te stellen voor boekhouding en belastingaangiften, en gegevens te exporteren naar XLS- en DOC-rapportsjablonen. Functionele onderdelen: gegevens exporteren naar XLS- en DOC-rapportsjablonen, query's, vaste vereisten worden verwijderd. 
@@ -340,7 +340,7 @@ Een hulpmiddel om gegevensverzameling in te stellen voor boekhouding en belastin
 | **Vervangen door een andere functie?**   | Ja. De gebruikersinterface voor de instelling van financiële rapportage moet worden gebruikt voor het instellen van regels voor het verzamelen van gegevens door grootboekrekeningen of belastingregisters. Exportgegevens in verschillende bestandstypen, vaste vereisten en queryregels voor het verzamelen van gegevens moeten worden geconfigureerd in Elektronische rapportage. |
 | **Betrokken productgebieden**         | Grootboek. |
 | **Implementatieoptie**              | Alle |
-| **Status**                         | Verwijderd sinds Finance and Operations 8.1 met Platform update 20. |
+| **Status**                         | Verwijderd vanaf Finance and Operations 8.1 met Platform update 20. |
 
 ### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Integratie met externe providers voor het verzenden via communicatiekanalen van elektronische rapportage voor Rusland
 Functie voor het exporteren van gegenereerde elektronische aangiftebestanden naar de map voor doorsturen naar officiële aanbieders van elektronische rapportage en het importeren van de status.
@@ -351,7 +351,7 @@ Functie voor het exporteren van gegenereerde elektronische aangiftebestanden naa
 | **Vervangen door een andere functie?**   | Ja.  |
 | **Betrokken productgebieden**         | Grootboek, Belasting |
 | **Implementatieoptie**              | Alle |
-| **Status**                         | Verwijderd sinds Finance and Operations 8.1 met Platform update 20. |
+| **Status**                         | Verwijderd vanaf Finance and Operations 8.1 met Platform update 20. |
 
 
 ### <a name="profit-tax-register-wizard"></a>Wizard voor winstbelastingregister
@@ -359,11 +359,11 @@ Functie voor het maken van sjablonen voor nieuwe winstbelastingregisters. Met de
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Functie is niet compatibel met het Finance and Operations uitbreidbare model. |
+| **Reden voor afschaffing/verwijdering** | De functie is niet compatibel met het Finance and Operations-rekbaarheidsmodel. |
 | **Vervangen door een andere functie?**   | Nee |
-| **Betrokken productgebieden**         | Belasting |
-| **Implementatieoptie**              | Alles |
-| **Status**                         | Verwijderd sinds Finance and Operations 8.1 met Platform update 20. |
+| **Betrokken productgebieden**         | Btw |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Verwijderd vanaf Finance and Operations 8.1 met Platform update 20. |
 
 ### <a name="payroll-and-human-resources-for-russia"></a>Salarisadministratie en Human Resources voor Rusland
 Voor Rusland landspecifieke module voor het beheer van personeelsadministratiegegevens, urenstaatdetails voor werknemers, salarisadministratie en het maken van salarisoverzichten. 
@@ -371,12 +371,12 @@ Voor Rusland landspecifieke module voor het beheer van personeelsadministratiege
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Salarisadministratie maakt geen deel uit van de globale strategische focus van het Dynamics 365-portfolio. Partners en ISV's kunnen het beste salarisfunctionaliteit bieden die voldoet aan lokale regelgeving en belastingupdates.|
-| **Vervangen door een andere functie?**   | No|
+| **Vervangen door een andere functie?**   | Nr.|
 | **Betrokken productgebieden**         | Beheer van salarisadministratie en Human Resources voor Rusland |
 | **Implementatieoptie**              | Alles |
 | **Status**                         | Afgeschaft: de verwijdering van de functionaliteit is een van de toekomstige updates van versie 10.0. |
 
-## <a name="finance-and-operations-80-with-platform-update-15"></a>Finance and Operations 8.0 met platformupdate 15
+## <a name="finance-and-operations-80-with-platform-update-15"></a>Finance and Operations 8.0 met Platform update 15
 Er zijn geen onderdelen verwijderd of vervangen in deze versie. Platformupdate 15 is cumulatief en bevat nieuwe of gewijzigde functies van platformupdate 13, platformupdate 14 en platformupdate 15.
 
 ## <a name="finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Finance and Operations, Enterprise edition 7.3 met Platform update 12
@@ -400,8 +400,8 @@ De mogelijkheid om aangepaste functies te introduceren voor gebruik in de ER-opb
 | **Reden voor afschaffing/verwijdering** | Initiatief voor codeverzegeling  |
 | **Vervangen door een andere functie?**   | Geen. Wanneer u een nieuwe ingebouwde functie nodig hebt, moet u een nieuwe uitbreidingsaanvraag richten aan het team van het ER-framework.<br><br>Als tijdelijke oplossing terwijl de aangevraagde functie wordt ontwikkeld door het ER-team kan de vereiste logica worden geprogrammeerd als een methode van een aangepaste toepassingsklasse. Deze methode kan in een ER-expressie worden geopend als een eigenschap van de toegevoegde ER-gegevensbron van het type **Toepassing\Klasse** dat naar die aangepaste toepassingsklasse verwijst.  |
 | **Betrokken productgebieden**         | Framework voor elektronische rapportage                                                      |
-| **Implementatieoptie**              | Alles                                                                                      |
-| **Status**                         | Verwijderd sinds Finance and Operations, Enterprise edition 7.3.    |
+| **Implementatieoptie**              | Alle                                                                                      |
+| **Status**                         | Verwijderd vanaf Finance and Operations, Enterprise edition 7.3.    |
 
 ### <a name="inventory-by-item-group-and-inventory-by-inventory-dimension-aging-reports"></a>De rapporten Voorraad op naar ouderdom gerangschikte artikelengroep en Voorraad op naar ouderdom gerangschikte voorraaddimensie
 
@@ -514,12 +514,12 @@ Omrekening van valuta voor boekhouding en rapportage van valuta's werd ingevoerd
 
 ### <a name="warehouse-mobile-devices-portal"></a>Portal voor mobiele apparaten voor magazijnbeheer
 
-Portal voor mobiele apparaten voor magazijnbeheer (WMDP) is een zelfstandig onderdeel dat is bedoeld voor on-premises zelfimplementatie. Dit onderdeel wordt niet meer ondersteund in Finance and Operations. De functionaliteit van WMDP is vervangen door een native app waarmee de gebruikerservaring wordt verbeterd.
+Portal voor mobiele apparaten voor magazijnbeheer (WMDP) is een zelfstandig onderdeel dat is bedoeld voor on-premises zelfimplementatie. Deze component wordt niet meer ondersteund in Finance and Operations. De functionaliteit van WMDP is vervangen door een native app waarmee de gebruikerservaring wordt verbeterd.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Dubbele functionaliteit.       |
-| **Vervangen door een andere functie?**   | Ja. Deze functie is vervangen door Finance and Operations - Magazijnbeheer. Zie [Overzicht van het installeren en configureren van de Warehousing-app](../../../supply-chain/warehousing/install-configure-warehousing-app.md) voor meer informatie over instellingen en vereisten. |
+| **Vervangen door een andere functie?**   | Ja. Deze functie is vervangen door Finance and Operations - Warehousing. Zie [Overzicht van het installeren en configureren van de Warehousing-app](../../../supply-chain/warehousing/install-configure-warehousing-app.md) voor meer informatie over instellingen en vereisten. |
 | **Betrokken productgebieden**         | Magazijnbeheer, Transportbeheer     |
 | **Implementatieoptie**              | Portal voor mobiele apparaten voor magazijnbeheer (WMDP) is een zelfstandig onderdeel dat is bedoeld voor on-premises zelfimplementatie.               |
 | **Status**                         | Afgeschaft: doeltijd voor verwijdering van de functionaliteit is kwartaal 4 van 2019.   |
@@ -870,7 +870,7 @@ Een workflow voor het beheren van het maken van werknemerdoelstellingen is een v
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Prestatiebeheer is volledig opnieuw ontworpen in Finance and Operations.     |
+| **Reden voor afschaffing/verwijdering** | Het prestatiebeheer is volledig opnieuw ontworpen in Finance and Operations.     |
 | **Vervangen door een andere functie?**   | De functie Prestatiebeheer is volledig opnieuw ontworpen en geeft meer controle over de inhoud van de doelen, de metingen die worden gebruikt om de voortgang bij te houden en het bijvoegen van ondersteunende documentatie. Doelen kunnen als sjablonen worden opgeslagen en opnieuw worden gebruikt. Deze functie kan u helpen om sneller extra doelen voor uw werknemers op te zetten. |
 | **Betrokken productgebieden**         | Human Capital-beheer                 |
 | **Status**                         | Verwijderd sinds Dynamics 365 for Operations-versie 1611. |

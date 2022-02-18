@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 8e56688aac445b84d5a9c0df289d48ffefd5767f673f2329f69582e820c27820
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 830e05db47e2e2d3bb5970869bc395cfa73ad603
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738144"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087365"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Verwerking van catch weight-producten bij magazijnbeheer
 
@@ -138,7 +138,6 @@ Niet alle workflows ondersteunen verwerking van catch weight-producten bij magaz
 - Catch weight-producten die variabel kunnen zijn, kunnen niet samen worden gebruikt met de functionaliteit voor het converteren van variabele maateenheden.
 - Catch weight-producten kunnen niet worden gemarkeerd als een Commerce-productkit.
 - Catch weight-producten kunnen alleen worden gebruikt met een volgordegroep voor de eenheid die catch weight-materiaalverwerkingseenheden heeft en die de catch-weight-eenheid als laagste volgnummer heeft.
-- Voor catch weight-producten kan de voorraadeenheid alleen worden geconverteerd naar de catch weight-eenheid als de conversie een nominale hoeveelheid van meer dan 1 produceert.
 - Het instellen van streepjescodes voor catch weight-producten ondersteunt niet een variabele gewichtsinstelling.
 
 ### <a name="order-processing"></a>Orderverwerking

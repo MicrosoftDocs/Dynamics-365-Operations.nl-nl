@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: c038773dc7c1c475f5852f0f0272b59516140593
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 6238b67a35a303a03c51bbd261dd24d1b2acf041
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944658"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8077110"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>Implementatierichtlijnen voor het voorbeeld van integratie van fiscale registratieservice voor Oostenrijk (verouderd)
 
@@ -206,7 +206,7 @@ De vorige procedure maakt de extensies die onderdelen zijn van het voorbeeld van
 
 ## <a name="design-of-extensions"></a>Ontwerp van extensies
 
-Het voorbeeld van integratie van fiscale registratieservice voor Oostenrijk is gebaseerd op de [functionaliteit voor fiscale integratie](fiscal-integration-for-retail-channel.md). Zie het [overzicht van het ontwerp van een voorbeeld voor fiscale integratie](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) voor meer informatie over het ontwerp van de oplossing voor fiscale integratie.
+Het voorbeeld van integratie van fiscale registratieservice voor Oostenrijk is gebaseerd op de [functionaliteit voor fiscale integratie](fiscal-integration-for-retail-channel.md). Zie het [overzicht van het ontwerp van een voorbeeld voor fiscale integratie](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) voor meer informatie over het ontwerp van de oplossing voor fiscale integratie.
 
 ### <a name="commerce-runtime-extension-design"></a>Ontwerp van Commerce runtime-extensie
 

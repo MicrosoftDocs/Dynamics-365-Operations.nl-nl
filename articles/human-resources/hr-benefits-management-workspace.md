@@ -2,7 +2,7 @@
 title: Werkgebied voor vergoedingenbeheer
 description: In dit onderwerp wordt de werkruimte Vergoedingenbeheer in Dynamics 365 Human Resources beschreven.
 author: twheeloc
-ms.date: 09/21/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e6cc1432e108c74706dea124a62024272e65b6c1
-ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
+ms.openlocfilehash: 424f4a2098e05b4f7dc6fa84df133dda81cc59f0
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7512468"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071460"
 ---
 # <a name="benefits-management-workspace"></a>Werkgebied voor vergoedingenbeheer
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [applies to](../includes/applies-to-hr.md)]
 
@@ -94,7 +97,7 @@ Als u een andere vergoedingsperiode wilt bekijken, selecteert u deze in de vervo
 U kunt actie-items weergeven door een tegel of een tabblad te selecteren. Als u een tabblad selecteert, kunt u werknemers op de werkruimtepagina weergeven en selecteren.
 Het tabblad **Inschrijving openen** biedt belangrijke metrische gegevens voor het openstaande inschrijvingsproces. 
 
-Informatie over openstaande inschrijving wordt 30 dagen voor de **Begindatum inschrijving** weergegeven. Deze datum wordt gedefinieerd in de instelling **Perioden** in **Vergoedingenbeheer** > **Koppelingen** > **Perioden** in het veld **Begindatum inschrijving**.  Als u deze instelling wilt wijzigen, gaat u naar de opties **Human Resources-parameters** > **Vergoedingenbeheer** > **Inschrijvingsopties openen** en werkt u het veld **Aantal** bij.  
+Informatie over openstaande inschrijving wordt 30 dagen voor de **Begindatum inschrijving** weergegeven. Deze datum wordt gedefinieerd in de instelling **Perioden** in **Vergoedingenbeheer** > **Koppelingen** > **Perioden** in het veld **Begindatum inschrijving**.  Als u deze instelling wilt wijzigen, gaat u naar **Gedeelde Human Resources-parameters** > **Vergoedingenbeheer** > **Inschrijvingsopties openen** en werkt u het veld **Aantal** bij.  
 
 Op het tabblad **Inschrijving openen** is de volgende informatie beschikbaar:
  - Werknemers die het proces voor het openen van inschrijving nog niet hebben gestart
@@ -109,11 +112,11 @@ Op het tabblad **Inschrijving openen** is de volgende informatie beschikbaar:
   > [!NOTE]
   > Als u het proces van het openen van inschrijving voor een **Plantype** niet wilt bijhouden, kunt u dit uitsluiten door naar **Vergoedingenbeheer** > **Koppelingen** > **Parameters voor werknemerselfservice** > **Tegelinstelling vergoedingsplannen** en het veld **Openstaande inschrijvingsvoortgang bijhouden** bij te werken.  U hebt bijvoorbeeld plannen gemaakt waarbij **Plantype** = **Overig** is. Deze plannen kunnen optionele plannen zijn waarvan u de voortgang van de inschrijvingsproces niet wilt bijhouden. Als u dit plantype niet selecteert, worden plannen van dit type genegeerd wanneer u de voortgang of voltooiing van de inschrijving op het tabblad **Inschrijving openen** volgt. Deze instelling is van toepassing op het plantype dat voor alle perioden en rechtspersonen is geselecteerd.
 
-- **In uitvoering** – Op de tegel **In uitvoering** wordt het aantal werknemers weergegeven van wie keuzen worden verwerkt De tegel **uitvoering** is een gefilterde lijst waarin alleen werknemers worden weergegeven die ten minste één plan hebben dat is kwijtgescholden of geselecteerd. Verplichte plannen worden genegeerd en niet opgenomen, omdat deze standaard worden geselecteerd voor de werknemer. U kunt uitzoomen op deze tegel om de geselecteerde en kwijtgescholden plannen weer te geven op de pagina **Bulkupdate van vergoedingsplannen voor medewerkers**.
+- **In uitvoering** – Op de tegel **In uitvoering** wordt het aantal werknemers weergegeven van wie keuzen worden verwerkt De tegel **uitvoering** is een gefilterde lijst waarin alleen werknemers worden weergegeven die ten minste één plan hebben dat is kwijtgescholden of geselecteerd. Verplichte plannen worden genegeerd en niet opgenomen, omdat deze standaard worden geselecteerd voor de werknemer. U kunt inzoomen op deze tegel om de geselecteerde en kwijtgescholden plannen weer te geven op de pagina **Bulkupdate van vergoedingsplannen voor medewerkers**.
 
 - **Ingeschreven voor vergoedingen** – Op de tegel **Ingeschreven voor vergoedingen** wordt het aantal werknemers weergegeven dat volledig is ingeschreven voor vergoedingen. De tegel **Ingeschreven voor vergoedingen** is een gefilterde lijst met werknemers van wie alle plannen zijn geselecteerd of kwijtgescholden. Met de query worden plannen uitgesloten die niet worden bijgehouden voor openstaande inschrijving op de pagina **Parameters voor werknemerselfservice**. U kunt uitzoomen op deze tegel om een lijst met werknemers weer te geven op de pagina **Vergoedingsplannen voor medewerker**.
 
-- **Niet-bevestigde selecties** – Op de tegel **Niet-bevestigde selecties** wordt het aantal werknemers weergegeven met plannen die zijn geselecteerd of kwijtgescholden en moeten worden bevestigd. U kunt uitzoomen op deze tegel om de pagina **Bulkupdate van vergoedingsplannen voor medewerkers** weer te geven.
+- **Niet-bevestigde selecties** – Op de tegel **Niet-bevestigde selecties** wordt het aantal werknemers weergegeven met plannen die zijn geselecteerd of kwijtgescholden en moeten worden bevestigd. U kunt inzoomen op deze tegel om de pagina **Bulkupdate van vergoedingsplannen voor medewerkers** weer te geven.
 
 **Activiteit**
 

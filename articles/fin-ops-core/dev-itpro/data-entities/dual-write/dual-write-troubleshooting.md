@@ -1,6 +1,6 @@
 ---
 title: Algemene problemen oplossen
-description: Dit onderwerp bevat informatie voor het oplossen van algemene problemen voor de integratie van twee keer wegschrijven tussen Finance and Operations-apps en Dataverse.
+description: Dit onderwerp bevat algemene informatie voor het oplossen van problemen voor de integratie van twee keer wegschrijven tussen apps voor financiële en bedrijfsactiviteiten en Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: bcedb9f6e8fb15210512ed6a376d4329759593e4
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: f6f5b9f26990e2f4db9bf69040a6c4be31400b40
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781169"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062333"
 ---
 # <a name="general-troubleshooting"></a>Algemene problemen oplossen
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dit onderwerp bevat informatie voor het oplossen van algemene problemen voor de integratie van twee keer wegschrijven tussen Finance and Operations-apps en Dataverse.
+
+Dit onderwerp bevat algemene informatie voor het oplossen van problemen voor de integratie van twee keer wegschrijven tussen apps voor financiële en bedrijfsactiviteiten en Dataverse.
 
 > [!IMPORTANT]
 > In sommige problemen die in dit onderwerp worden beschreven, is mogelijk de rol van systeembeheerder vereist of de referenties van de Microsoft Azure Active Directory-tenantbeheerder (Azure AD). In de sectie voor elk probleem wordt uitgelegd of een specifieke rol of referenties vereist zijn.
@@ -44,37 +44,37 @@ Voer de volgende stappen uit om het traceerlogboek weer te geven.
 2. Zoek de traceerlogboeken waarvoor de kolom **Type naam** is ingesteld op **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Dubbelklik op een item om het volledige logboek weer te geven en controleer vervolgens op het sneltabblad **Uitvoering** de tekst **Bericht blokkeren**.
 
-## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>De modus Foutopsporing inschakelen om live synchronisatieproblemen in Finance and Operations-apps op te lossen
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>De modus Foutopsporing inschakelen om live synchronisatieproblemen in apps voor financiële en bedrijfsactiviteiten op te lossen
 
 **Vereiste rol om de fouten weer te geven:** systeembeheerder
 
-Fouten met twee keer wegschrijven die afkomstig zijn uit Dataverse, kunnen worden weergegeven in de  Finance and Operations-app. Neem de volgende stappen om uitgebreide logboekregistratie van de fouten in te schakelen:
+Fouten met twee keer wegschrijven die afkomstig zijn Dataverse, kunnen worden weergegeven in de app voor financiële en bedrijfsactiviteiten. Neem de volgende stappen om uitgebreide logboekregistratie van de fouten in te schakelen:
 
-1. Alle projectconfiguraties in Finance and Operations-apps hebben een vlag **IsDebugMode** in de tabel **DualWriteprojectConfiguration**.
-2. Open de tabel **DualWriteProjectConfiguration** met de Excel-invoegtoepassing. Als u de invoegtoepassing wilt gebruiken, moet u de ontwerpmodus in de Excel-invoegtoepassing van Finance and Operations inschakelen en de **DualWriteprojectConfiguration** aan het werkblad toevoegen. Zie [Entiteitsgegevens weergeven en bijwerken met Excel](../../office-integration/use-excel-add-in.md) voor meer informatie.
+1. Voor alle projectconfiguraties in app voor financiële en bedrijfsactiviteiten is er de flag **IsDebugMode** in de tabel **DualWriteProjectConfiguration**.
+2. Open de tabel **DualWriteProjectConfiguration** met de Excel-invoegtoepassing. Als u de invoegtoepassing wilt gebruiken, moet u de ontwerpmodus in de Excel-invoegtoepassing van Finance and Operations inschakelen en **DualWriteProjectConfiguration** aan het werkblad toevoegen. Zie [Entiteitsgegevens weergeven en bijwerken met Excel](../../office-integration/use-excel-add-in.md) voor meer informatie.
 3. Stel **IsDebugMode** in op **Ja** in het project.
 4. Voer het scenario uit dat fouten genereert.
 5. De uitgebreide logboeken worden opgeslagen in de tabel **DualWriteErrorLog**.
 6. Als u gegevens wilt opzoeken in de tabelbrowser, gebruikt u de volgende koppeling: `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog` en vervangt u indien nodig `999`.
 7. Voer de update opnieuw na [KB-4595434](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe), die beschikbaar is voor platformupdates 37 en later. Als u deze oplossing hebt geïnstalleerd, worden in de foutopsporingsmodus meer logboeken vastgelegd.  
 
-## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Synchronisatiefouten controleren op de virtuele machine voor de Finance and Operations-app
+## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Synchronisatiefouten controleren op de virtuele machine voor de app voor financiële en bedrijfsactiviteiten
 
 **Vereiste rol om de fouten weer te geven:** systeembeheerder
 
 1. Meld u aan bij Microsoft Dynamics LCS (LifeCycle Services).
 2. Open het LCS-project dat u hebt gekozen voor tests met twee keer wegschrijven.
 3. Selecteer de tegel **Cloudomgevingen**.
-4. Gebruik extern bureaublad om u aan te melden bij de virtuele machine (VM) voor de Finance and Operations-app. Gebruik het lokale account dat wordt weergegeven in LCS.
+4. Gebruik Extern bureaublad om u aan te melden bij de virtuele machine (VM) voor de app voor financiële en bedrijfsactiviteiten. Gebruik het lokale account dat wordt weergegeven in LCS.
 5. Open Logboeken.
 6. Selecteer **Logboeken Toepassingen en Services \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operationeel**.
 7. Bekijk de lijst met recente fouten.
 
-## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Een Dataverse-omgeving ontkoppelen en een andere omgeving uit een Finance and Operations-app koppelen
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Een andere Dataverse-omgeving (los)koppelen vanuit een app voor financiële en bedrijfsactiviteiten
 
-**De vereiste rol om de omgeving te ontkoppelen:** systeembeheerder voor de Finance and Operations-app of Dataverse.
+**De vereiste rol om de omgeving te ontkoppelen**: systeembeheerder voor de app voor financiële en bedrijfsactiviteiten of Dataverse.
 
-1. Meld u aan bij de Finance and Operations-app.
+1. Meld u aan bij de app voor financiële en bedrijfsactiviteiten.
 2. Ga naar **Werkruimten \> Gegevensbeheer** en selecteer de tegel **Twee keer wegschrijven**.
 3. Selecteer alle actieve toewijzingen en vervolgens **Stoppen**.
 4. Selecteer **Koppeling met omgeving verbreken**.

@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1aac3c50cbe40d65abc9bedcdd2a64a6e5a1c1ad
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 1cf4ed8d2373a71594b9b03306c582ed998b6e39
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431179"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071450"
 ---
 # <a name="create-custom-links-in-manager-self-service"></a>Aangepaste koppelingen aanmaken in Selfservice manager
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -36,11 +39,11 @@ Schakel **Aangepaste koppelingen in Selfservice manager** in het werkgebied **Fu
 
 1. Selecteer **Selfservice manager** in **Parameters van Human Resources**.
 
-2. Onder **Koppelingen instellen voor managers** kunt u een koppeling toevoegen, bewerken of verwijderen. U kunt de koppelingen ook groeperen, zodat ze in een groep worden weergegeven in Selfservice manager.
+2. Onder **Koppelingen instellen voor managers** kunt u een koppeling toevoegen, bewerken of verwijderen. U kunt de koppelingen ook groeperen, zodat ze in een groep in **Selfservice manager** worden weergegeven.
 
    ![Aangepaste koppelingen instellen in Selfservice manager.](./media/hr-employee-manager-self-service-custom-links-setup.png)
 
-3. Ga naar het tabblad **Mijn team** in Selfservice werknemer om de koppelingen te bekijken.
+3. Ga naar het tabblad **Mijn team** in **Selfservice werknemer** om de koppelingen te bekijken.
 
    ![Aangepaste koppelingen in Selfservice manager weergeven.](./media/hr-employee-manager-self-service-custom-links-view.png)
 

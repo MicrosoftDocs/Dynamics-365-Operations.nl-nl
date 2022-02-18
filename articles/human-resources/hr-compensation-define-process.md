@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 883948c6e3f7b205d7e0f1f2b6adef1173616dc1
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 188a87f580c274e073710601ef306139f723c797
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431088"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071459"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Compensatieproces definiëren en resultaten berekenen
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -40,13 +43,13 @@ Compensatieprocessen worden gebruikt om nieuwe compensatiebedragen en toekenning
     * De actieve datum van transactie is de datum waarop de nieuwe compensatietarieven van kracht moeten worden. Veel bedrijven nemen een paar maanden op tussen het einde van een cyclus en de tijd waarop de nieuwe compensatietarieven van kracht gaan. De extra tijd wordt gebruikt voor de verwerking en controle van de nieuwe compensatie.  
 8. Voer in het veld **Actieve datum van transactie** een datum in.
     * De tijdsgebonden datum wordt gebruikt voor variabele compensatieplannen die het toekenningsbedrag van een werknemer bepalen op basis van de compensatietarief op dat moment.  
-    * De huurdatum omgeslagen vast loon wordt gebruikt met vaste compensatieplannen met als huurregel Percentage.  Werknemers die tussen de begindatum van cyclus en de huurdatum omgeslagen vast loon in dienst worden genomen, krijgen 100% van hun berekende compensatieverhoging in plaats van het omgeslagen percentage.  
+    * De aanstellingsdatum voor omgeslagen vast loon wordt gebruikt met vaste compensatieplannen met als aanstellingsregel **Percentage**. Werknemers die tussen de begindatum van cyclus en de huurdatum omgeslagen vast loon in dienst worden genomen, krijgen 100% van hun berekende compensatieverhoging in plaats van het omgeslagen percentage.  
 9. Voer in het veld **Huurdatum omgeslagen vast loon** een datum in.
     * De deadline voor controle is de datum waarop alle procesresultaten moeten zijn gecontroleerd zodat deze in de compensatierecord van een werknemer kunnen worden geladen vóór de actieve datum van transactie. Dit veld is alleen ter informatie.  
 10. Voer in het veld **Deadline beoordelen** een datum in.
 11. Klik op **Opslaan**.
 
-## <a name="setup-the-compensation-plans-and-actions-for-a-compensation-process"></a>De compensatieplannen en -acties voor een compensatieproces instellen
+## <a name="set-up-the-compensation-plans-and-actions-for-a-compensation-process"></a>De compensatieplannen en -acties voor een compensatieproces instellen
 1. Klik op **Instellen**.
     * De pagina **Instellingen** wordt gebruikt om te selecteren welk plan wordt verwerkt als onderdeel van dit compensatieproces en welke acties voor elk plan moeten worden uitgevoerd.  
 2. Typ of selecteer een waarde in het veld **Plannen**.
@@ -56,7 +59,7 @@ Compensatieprocessen worden gebruikt om nieuwe compensatiebedragen en toekenning
 6. Klik op **Toevoegen**.
 7. Selecteer in het veld **Actie** een actietype **Verdienste**.
     * Compensatieacties kunnen aan elkaar worden 'geketend' met het veld **Vorig resultaat gebruiken** om aan te geven of de geselecteerde actie het basisloon van de werknemer of het resultaat van de vorige actie moet gebruiken als beginpunt voor de berekening van deze actie.  
-8. Selecteer **Ja** in het veld Vorig resultaat gebruiken.
+8. Selecteer **Ja** in het veld **Vorig resultaat gebruiken**.
 9. Klik op **Toevoegen**.
 10. Selecteer in het veld **Actie** een actietype **Algemeen**.
     * Verschillende compensatieactietypen schakelen andere velden in. Voor het compensatieactietype Algemeen kunt u een verhogingspercentage of een verhogingsbedrag opgeven.  
@@ -85,7 +88,7 @@ Compensatieprocessen worden gebruikt om nieuwe compensatiebedragen en toekenning
 1. Klik op **Procesresultaten**.
 2. Klik op **Werknemersresultaten**.
 3. Zoek en selecteer de gewenste record in de lijst.
-4. Vouw de sectie Vaste compensatie uit.
+4. Vouw de sectie **Vaste compensatie** uit.
     * Vouw de sneltabbladen uit om de resultaten van het proces weer te geven. Als voor een compensatieactie **Aanbevelingen inschakelen** is gemarkeerd, worden de velden voor **Aanbeveling** ingeschakeld voor die actie.  
 5. Zoek en selecteer de gewenste record in de lijst.
     * U kunt de resultaten voor één werknemer bekijken door op de knop **Resultaten weergeven** te klikken.  

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b2e0145c28b40f4fbfb54ad7e7ed32fbc130c569
-ms.sourcegitcommit: 8afd0cdb39ec443fb7631c39401967cce0fac34e
+ms.openlocfilehash: f9674bb68d7f577a6efdef3416d1731d743d0555
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7727427"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087161"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Vrijgaveproces en vrijgavegeschiedenis van Planningsoptimalisatie
 
@@ -33,6 +33,8 @@ Omdat meldingen niet worden weergegeven wanneer Planningsoptimalisatie in uw omg
 
 | Wijzigingen | Informatie over Functiebeheer | Vrijgavedatum |
 |---|---|---|
+| <p>Extra planningsprioriteitsondersteuning voor productieorders. | Beschikbaar in versie 10.0.25 als onderdeel van de functie met de naam *Prioriteitsgestuurde MRP-ondersteuning voor planningsoptimalisatie*. | 12-18 november 2021 |
+| <p>Verbeteringen in de algemene prestaties, kwaliteit en stabiliteit. | Functiebeheer is niet vereist. | 12-18 november 2021 |
 | <p>Extra ondersteuning voor formules voor de berekening van procestijd, productieroute met overlapping en productiebewerkingsnummer van behoeftetransacties.</p><p>Verbeterde foutberichten voor productieplanning met betrekking tot time-out, capaciteit kan niet worden gevonden en cyclische route.</p><p>Verbeterde consistentie bij het berekenen van ontvangst- en uitgiftedatums op zowel geplande orders als gefiatteerde orders.</p><p>Verbeteringen in de algemene prestaties, kwaliteit en stabiliteit. | Functienaam: *Onbeperkte capaciteitsplanning voor Planningsoptimalisatie* | 22-27 oktober 2021 |
 | <p>Extra ondersteuning voor het overwegen van uitvalpercentage bij de berekening van de verwerkingstijd.</p><p>Extra ondersteuning voor bewerkingsnummer en materiaalverbruik tijdens de planning. | Functienaam: *Onbeperkte capaciteitsplanning voor Planningsoptimalisatie* | 5-7 oktober 2021 |
 | <p>Extra ondersteuning voor taaktypen voor productieroute: **Wachtrij vóór**, **Wachtrij na** en **Transporttijd**.</p><p>Verbeteringen in de algemene prestaties, kwaliteit en stabiliteit. | Functienaam: *Onbeperkte capaciteitsplanning voor Planningsoptimalisatie* | 25-30 september 2021 |
