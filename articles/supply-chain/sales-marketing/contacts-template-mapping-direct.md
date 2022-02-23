@@ -1,50 +1,53 @@
 ---
 title: Contactpersonen in Sales rechtstreeks synchroniseren met contactpersonen of klanten in Supply Chain Management
 description: Dit onderwerp bepreekt de sjablonen en onderliggende taken die worden gebruikt om entiteiten van het type Contactpersoon (contactpersonen) en Contactpersoon (klanten) te synchroniseren rechtstreeks vanuit Dynamics 365 Sales naar Dynamics 365 Supply Chain Management.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 10/25/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 57a9c2a860e99855e841f0f4276ba2f92767c2b1
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a252c3ecb12cb6a4dc429f35c8aeab6bd3914d03
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062510"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528944"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Contactpersonen in Sales rechtstreeks synchroniseren met contactpersonen of klanten in Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> Voordat u de oplossing Prospect naar contant geld kunt gebruiken, moet u vertrouwd zijn met [Gegevens integreren in Microsoft Dataverse for Apps](/powerapps/administrator/data-integrator).
+> Voordat u de oplossing Prospect naar contant geld kunt gebruiken, moet u vertrouwd zijn met [Gegevens integreren in Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
-Dit onderwerp bepreekt de sjablonen en onderliggende taken die worden gebruikt om tabellen van het type Contactpersoon (contactpersonen) en Contactpersoon (klanten) te synchroniseren rechtstreeks vanuit Dynamics 365 Sales naar Dynamics 365 Supply Chain Management.
+Dit onderwerp bepreekt de sjablonen en onderliggende taken die worden gebruikt om entiteiten van het type Contactpersoon (contactpersonen) en Contactpersoon (klanten) te synchroniseren rechtstreeks vanuit Dynamics 365 Sales naar Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Gegevensstroom in Prospect naar contant geld
 
 De oplossing Prospect naar contant geld gebruikt de functie Gegevensintegratie om gegevens te synchroniseren tussen exemplaren van Supply Chain Management en Sales. De Prospect naar contant geld-sjablonen die beschikbaar zijn in de functie Gegevensintegratie activeren de stroom van gegevens over rekeningen, contactpersonen, producten, verkoopoffertes en verkoopfacturen tussen Supply Chain Management en Sales. De volgende afbeelding laat zien hoe de gegevens worden gesynchroniseerd tussen Supply Chain Management en Sales.
 
-[![Gegevensstroom in Prospect naar contant geld.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Gegevensstroom in Prospect naar contant geld](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Sjablonen en taken
 
 Open het [PowerApps-beheercentrum](https://preview.admin.powerapps.com/dataintegration) om toegang te krijgen tot de beschikbare sjablonen. Selecteer **Projecten** en selecteer vervolgens in de rechterbovenhoek de optie **Nieuw project** om openbare sjablonen te selecteren.
 
-De volgende sjablonen en onderliggende taken worden gebruikt voor het synchroniseren van tabellen Contactpersoon (contactpersonen) in Sales naar tabellen Contactpersoon (klanten) in Supply Chain Management:
+De volgende sjablonen en onderliggende taken worden gebruikt voor het synchroniseren van entiteiten in Contactpersoon (contactpersonen) in Sales naar entiteiten in Contactpersoon (klanten) in Supply Chain Management:
 
 - **Namen van de sjablonen in Gegevensintegratie**
 
@@ -60,10 +63,10 @@ De volgende synchronisatietaak is vereist voor de synchronisatie van contactpers
 
 ## <a name="entity-sets"></a>Entiteitsets
 
-| Verkopen    | Supply Chain Management |
+| Verkoop    | Supply Chain Management |
 |----------|------------------------|
-| Contactpersonen | Dataverse-contactpersonen           |
-| Contactpersonen | Klanten V2           |
+| Contacten | CDS-contactpersonen           |
+| Contacten | Klanten V2           |
 
 ## <a name="entity-flow"></a>Entiteitstroom
 
@@ -76,13 +79,13 @@ Een contactpersoon in Sales kan een contactpersoon of klant worden in Supply Cha
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Oplossing Prospect naar contant geld voor Sales
 
-Er is een nieuwe kolom **Is actieve klant** toegevoegd aan de contactpersoon. Deze kolom wordt gebruikt om onderscheid te maken tussen contactpersonen met verkoopactiviteiten en contactpersonen zonder verkoopactiviteiten. **Is actieve klant** is alleen ingesteld op **Ja** voor contactpersonen met gerelateerde offertes, orders of facturen. Alleen die contactpersonen worden als klanten gesynchroniseerd met Supply Chain Management.
+Er is een nieuw veld **Is actieve klant** toegevoegd aan de contactpersoon. Dit veld wordt gebruikt om onderscheid te maken tussen contactpersonen met verkoopactiviteiten en contactpersonen zonder verkoopactiviteiten. **Is actieve klant** is alleen ingesteld op **Ja** voor contactpersonen met gerelateerde offertes, orders of facturen. Alleen die contactpersonen worden als klanten gesynchroniseerd met Supply Chain Management.
 
-Er wordt een nieuwe kolom **IsCompanyAnAccount** toegevoegd aan de contactpersoon. In deze kolom wordt aangegeven of een contactpersoon is gekoppeld aan een bedrijf (bovenliggend account/contactpersoon) van het type **Account**. Deze informatie wordt gebruikt ter identificatie van contactpersonen die als contactpersonen moeten worden gesynchroniseerd met Supply Chain Management.
+Er wordt een nieuw veld **IsCompanyAnAccount** toegevoegd aan de contactpersoon. In dit veld wordt aangegeven of een contactpersoon is gekoppeld aan een bedrijf (bovenliggende rekening/contactpersoon) van het type **Rekening**. Deze informatie wordt gebruikt ter identificatie van contactpersonen die als contactpersonen moeten worden gesynchroniseerd met Supply Chain Management.
 
-Er is een nieuwe kolom **Contactnummer** toegevoegd aan de contactpersoon om een natuurlijke en unieke sleutel voor de integratie te garanderen. Wanneer u een nieuwe contactpersoon maakt, wordt automatisch een waarde voor **Contactnummer** gegenereerd op basis van een nummerreeks. De waarde bestaat uit **CON**, gevolgd door een stijgende nummerreeks en vervolgens een achtervoegsel van zes tekens. Bijvoorbeeld: **CON-01000-BVRCPS**
+Er is een nieuw veld **Contactnummer** toegevoegd aan de contactpersoon om een natuurlijke en unieke sleutel voor de integratie te garanderen. Wanneer u een nieuwe contactpersoon maakt, wordt automatisch een waarde voor **Contactnummer** gegenereerd op basis van een nummerreeks. De waarde bestaat uit **CON**, gevolgd door een stijgende nummerreeks en vervolgens een achtervoegsel van zes tekens. Bijvoorbeeld: **CON-01000-BVRCPS**
 
-Wanneer de integratieoplossing voor Sales wordt toegepast, stelt een upgradescript de kolom **Contactnummer** in voor bestaande contactpersonen op basis van de eerder genoemde nummerreeks. Het upgradescript stelt ook de kolom **Is actieve klant** in op **Ja** voor contactpersonen met verkoopactiviteiten.
+Wanneer de integratieoplossing voor Sales wordt toegepast, stelt een upgradescript het veld **Contactnummer** in voor bestaande contactpersonen op basis van de eerder genoemde nummerreeks. Het upgradescript stelt ook het veld **Is actieve klant** in op **Ja** voor contactpersonen met verkoopactiviteiten.
 
 ## <a name="in-supply-chain-management"></a>In Supply Chain Management
 
@@ -92,7 +95,7 @@ Contactpersonen worden gelabeld met de eigenschap **IsContactPersonExternallyMai
 
 ### <a name="contact-to-customer"></a>Contactpersoon met klant
 
-- **CustomerGroup** is vereist in Supply Chain Management. Om synchronisatiefouten te voorkomen, kunt u een standaardwaarde opgeven in de toewijzing. De standaardwaarde wordt vervolgens gebruikt als de kolom leeg is in Sales.
+- **CustomerGroup** is vereist in Supply Chain Management. Om synchronisatiefouten te voorkomen, kunt u een standaardwaarde opgeven in de toewijzing. De standaardwaarde wordt vervolgens gebruikt als het veld is leeg in Sales.
 
     De standaardsjabloonwaarde is **10**.
 
@@ -115,20 +118,20 @@ Contactpersonen worden gelabeld met de eigenschap **IsContactPersonExternallyMai
 In de volgende afbeeldingen ziet u een voorbeeld van sjabloontoewijzing in Gegevensintegratie. 
 
 > [!NOTE]
-> Aan de hand van de toewijzing kunt u zien welke kolomgegevens vanuit Sales naar Supply Chain Management worden gesynchroniseerd.
+> Aan de hand van de toewijzing kunt u zien welke veldgegevens vanuit Sales naar Supply Chain Management worden gesynchroniseerd.
 
-### <a name="contact-to-contact-example"></a>Voorbeeld van contact tussen contactpersonen
+### <a name="contact-to-contact"></a>Contactpersoon met contactpersoon
 
-![Sjabloontoewijzing voor contact tussen contactpersonen in Gegevensintegrator.](./media/contacts-direct-template-mapping-data-integrator-1.png)
+![Sjabloontoewijzing in Gegevensintegrator](./media/contacts-direct-template-mapping-data-integrator-1.png)
 
-### <a name="contact-to-customer-example"></a>Voorbeeld van contact met klanten
+### <a name="contact-to-customer"></a>Contactpersoon met klant
 
-![Sjabloontoewijzing voor contact met klanten in Gegevensintegrator.](./media/contacts-direct-template-mapping-data-integrator-2.png)
+![Sjabloontoewijzing in Gegevensintegrator](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Van prospect tot contant geld](prospect-to-cash.md)
+[Van prospect naar contant geld](prospect-to-cash.md)
 
 [Rekeningen rechtstreeks vanuit Sales synchroniseren met klanten in Supply Chain Management](accounts-template-mapping-direct.md)
 
@@ -139,6 +142,3 @@ In de volgende afbeeldingen ziet u een voorbeeld van sjabloontoewijzing in Gegev
 [Kopteksten en regels in verkoopfacturen rechtstreeks synchroniseren vanuit Supply Chain Management naar Sales](sales-invoice-template-mapping-direct.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

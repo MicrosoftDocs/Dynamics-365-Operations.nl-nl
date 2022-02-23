@@ -56,6 +56,3 @@ Organisaties kennen vrije tijd verschillend toe, afhankelijk van wanneer werknem
 ## <a name="known-issue"></a>Bekend probleem
 
 -   **Probleem:** als een nieuwe bijlage wordt toegevoegd aan een werknemer, zijn de knoppen **Nieuw** en **Bewerken** niet beschikbaar. **Oplossing:** voordat u de pagina van de bijlage opent, controleert u of de feitenvakken op de pagina **Werknemer** zijn gesloten. Als de feitenvakken zijn gesloten wanneer de pagina **Werknemer** wordt geladen, worden de knoppen **Bijlagen** ingeschakeld. (Dit probleem wordt opgelost in de volgende platformupdate.)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

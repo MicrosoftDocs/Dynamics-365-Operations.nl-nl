@@ -2,9 +2,11 @@
 title: RCS‑bestanden in XML-indeling importeren met optionele kenmerken
 description: Dit onderwerp biedt informatie over de manier waarop een gebruiker ER‑opmaakconfiguraties kan ontwerpen om bestanden in XML-indeling met optionele kenmerken te importeren.
 author: NickSelin
+manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b9447c827a02acb616bbfdcb2c7305e8bdd013c9811e28bb25256db056d85d6a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d1d4c8c1d81faa60193d2339fd6541e752c2e2f9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720707"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684133"
 ---
 # <a name="rcs-import-files-in-xml-format-with-optional-attributes"></a>RCS‑bestanden in XML-indeling importeren met optionele kenmerken
 
@@ -121,6 +123,3 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeemb
 
 > [!NOTE]
 > Hetzelfde bestand is geïmporteerd als het opmaakontwerp, beschouw nu het kenmerk 'id' voor het element 'document' als optioneel.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Overzicht van pagina's voor accountbeheer
 description: In dit onderwerp wordt een overzicht gegeven van de pagina's voor accountbeheer in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,18 +16,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b21ae257ce84034f05fa22a93a2c622ee14c0a2b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e194004476545fb142f71aa4bd889dbbc70c6ed4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984514"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969846"
 ---
-# <a name="account-management-pages-overview"></a>Overzicht van pagina's voor rekeningbeheer
+# <a name="account-management-pages-overview"></a>Overzicht van pagina's voor accountbeheer
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt een overzicht gegeven van de pagina's voor accountbeheer in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Overzicht
 
 Met accountbeheerpagina's kunnen klanten informatie bekijken die betrekking heeft op hun account en orders. De pagina's voor accountbeheer bevatten de landingspagina, het gebruikersprofiel, en pagina's voor het gebruikersprofiel, adressen, de orderhistorie, orderdetails, loyaliteit en verlanglijst.
 
@@ -35,35 +39,35 @@ Wanneer een klant zich aanmeldt en **Mijn account** selecteert, wordt de landing
 
 In de volgende afbeelding ziet u een voorbeeld van de landingspagina voor accountbeheer.
 
-![Voorbeeld van een landingspagina voor accountbeheer.](./media/Account-Management.PNG)
+![Voorbeeld van een landingspagina voor accountbeheer](./media/Account-Management.PNG)
 
 ### <a name="my-profile-page"></a>Mijn profielpagina
 
-Op de pagina **Mijn profiel** worden de accountgegevens van de klant weergegeven, zoals de naam en het telefoonnummer. De klant kan de profielgegevens op deze pagina bijwerken. Deze pagina kan zodanig worden aangepast dat er extra voorkeuren voor het klantaccount zijn, zoals een optie om te kiezen voor marketing via e-mail.
+Op de pagina **Mijn profiel** worden de accountgegevens van de klant weergegeven, zoals zijn of haar naam en telefoonnummer. De klant kan zijn of haar profielgegevens op deze pagina bijwerken. Deze pagina kan zodanig worden aangepast dat er extra voorkeuren voor het klantaccount zijn, zoals een optie om te kiezen voor marketing via e-mail.
 
 In de volgende afbeelding ziet u een voorbeeld van een pagina **Mijn profiel** die is gemaakt met de modulebibliotheek.
 
-![Voorbeeld van een pagina Mijn profiel.](./media/Account-Management-MyProfile.PNG)
+![Voorbeeld van een pagina Mijn profiel](./media/Account-Management-MyProfile.PNG)
 
 ### <a name="addresses-page"></a>Pagina Adressen
 
-Op de pagina **Adressen** kan de klant adressen aan de account toevoegen. Ook wordt de lijst met adressen weergegeven die de klant eerder heeft toegevoegd of opgeslagen voor het account. Dit zijn adressen die de klant op deze pagina heeft ingevoerd of tijdens het plaatsen van een order.
+Op de pagina **Adressen** kan de klant adressen aan zijn of haar account toevoegen. Ook wordt de lijst met adressen weergegeven die de klant eerder heeft toegevoegd of opgeslagen voor het account. Dit zijn adressen die de klant op deze pagina heeft ingevoerd of tijdens het plaatsen van een order.
 
 In de volgende afbeelding ziet u een voorbeeld van de pagina **Adressen**.
 
-![Voorbeeld van een pagina Adressen.](./media/Account-Management-Address.png)
+![Voorbeeld van een pagina Adressen](./media/Account-Management-Address.png)
 
 ### <a name="order-history-and-order-details-pages"></a>Pagina's Orderhistorie en Orderdetails
 
-Op de pagina **Orderhistorie** wordt een overzicht weergegeven van alle orders die de klant heeft ingediend met de account. Het geeft een beknopt overzicht van de artikelen die zijn besteld, het bevestigingsnummer, de verkoop-id, de traceringsgegevens en andere informatie. Als de klant een gedetailleerde uitsplitsing wil zien van elke order, is er een pagina **Orderdetails**. Deze pagina bevat informatie zoals het verzendadres, de betalingsgegevens, kortingen, belastingen en verzendkosten voor de order.
+Op de pagina **Orderhistorie** wordt een overzicht weergegeven van alle orders die de klant heeft ingediend met zijn of haar account. Het geeft een beknopt overzicht van de artikelen die zijn besteld, het bevestigingsnummer, de verkoop-id, de traceringsgegevens en andere informatie. Als de klant een gedetailleerde uitsplitsing wil zien van elke order, is er een pagina **Orderdetails**. Deze pagina bevat informatie zoals het verzendadres, de betalingsgegevens, kortingen, belastingen en verzendkosten voor de order.
 
 In de volgende afbeelding ziet u een voorbeeld van de pagina **Orderhistorie**.
 
-![Voorbeeld van de pagina Orderhistorie.](./media/Account-Management-OrderHistory.PNG)
+![Voorbeeld van de pagina Orderhistorie](./media/Account-Management-OrderHistory.PNG)
 
 In de volgende afbeelding ziet u een voorbeeld van de pagina **Orderdetails**.
 
-![Voorbeeld van de pagina Orderdetails.](./media/Account-Management-OrderDetails.PNG)
+![Voorbeeld van de pagina Orderdetails](./media/Account-Management-OrderDetails.PNG)
 
 ### <a name="loyalty-program-page"></a>Pagina Loyaliteitsprogramma
 
@@ -71,15 +75,15 @@ Op de pagina **Loyaliteitsprogramma** kan de klant lid worden van een loyaliteit
 
 In de volgende afbeelding ziet u een voorbeeld van een pagina **Loyaliteitsprogramma**.
 
-![Voorbeeld van een pagina Loyaliteitsprogramma.](./media/Account-Management-Loyalty.PNG)
+![Voorbeeld van een pagina Loyaliteitsprogramma](./media/Account-Management-Loyalty.PNG)
 
 ### <a name="wishlist-page"></a>Wensenlijstpagina
 
-Op de pagina **Verlanglijst** wordt een lijst weergegeven met de artikelen die de klant aan de lijst heeft toegevoegd. Zowel de producten als de productvarianten kunnen worden toegevoegd aan de verlanglijst. Op deze pagina kan de klant een artikel uit de verlanglijst verwijderen of een artikel rechtstreeks aan de winkelwagen toevoegen.
+Op de pagina **Verlanglijst** wordt een lijst weergegeven met de artikelen die de klant aan zijn of haar lijst heeft toegevoegd. Zowel de producten als de productvarianten kunnen worden toegevoegd aan de verlanglijst. Op deze pagina kan de klant een artikel uit de verlanglijst verwijderen of een artikel rechtstreeks aan de winkelwagen toevoegen.
 
 In de volgende afbeelding ziet u een voorbeeld van een pagina **Verlanglijst**.
 
-![Voorbeeld van een pagina Verlanglijst.](./media/Account-Management-Wishlist.PNG)
+![Voorbeeld van een pagina Verlanglijst](./media/Account-Management-Wishlist.PNG)
 
 Zie [Accountbeheer](account-management.md) voor meer informatie over accountbeheermodules en hoe u deze kunt ontwerpen.
 
@@ -91,6 +95,3 @@ Zie [Accountbeheer](account-management.md) voor meer informatie over accountbehe
 
 [Overzicht van pagina's met winkelwagen en kassa](quick-tour-cart-checkout.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

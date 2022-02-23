@@ -2,9 +2,11 @@
 title: Mobiel werkgebied Adresboek van bedrijf
 description: Dit onderwerp bevat informatie over het mobiele werkgebied Adresboek van bedrijf, waarmee gebruikers andere werknemers in hun organisatie kunnen bekijken en contact met hen kunnen opnemen.
 author: jcart1106
+manager: AnnBe
 ms.date: 09/17/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2152d89e7d60a74e8d7561ea888e60cff42dd1ffd0ec697fac371aad9b85383c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3193fbc4d4b3492960c7c13dc24b41bb920e7d23
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720643"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683426"
 ---
 # <a name="company-directory-mobile-workspace"></a>Mobiel werkgebied Adresboek van bedrijf
 
@@ -77,7 +79,7 @@ Download en installeer de mobiele Finance and Operations-app:
 3.  De eerste keer dat u zich aanmeldt, wordt u gevraagd uw gebruikersnaam en wachtwoord in te voeren. Voer uw referenties in.
 4.  Nadat u zich hebt aangemeld, worden de beschikbare werkgebieden voor uw bedrijf weergegeven. Houd er rekening mee dat als uw systeembeheerder later een nieuw werkgebied publiceert, u de lijst met mobiele werkgebieden moet vernieuwen.
 
-[![Opvragen om te vernieuwen.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Opvragen om te vernieuwen](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-company-directory-by-using-the-mobile-workspace"></a>Het adresboek van het bedrijf weergeven met het mobiele werkgebied
 1.  Selecteer in de mobiele app het werkgebied **Adresboek van bedrijf**. Er wordt een lijst met werknemers weergegeven.
@@ -87,6 +89,3 @@ Download en installeer de mobiele Finance and Operations-app:
 1.  Selecteer in de mobiele app het werkgebied **Adresboek van bedrijf**.
 2.  Voer in het veld **Zoeken** de voornaam, achternaam, titel of afdeling van de werknemer in om de zoekopdracht te starten.
 3.  Selecteer een werknemer. De pagina **Werknemersprofiel** wordt weergegeven. De informatie op deze pagina bevat van de voornaam, achternaam, titel en afdeling van de werknemer.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

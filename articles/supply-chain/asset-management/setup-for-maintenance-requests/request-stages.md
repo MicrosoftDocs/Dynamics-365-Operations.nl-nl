@@ -1,10 +1,12 @@
 ---
 title: Statussen van levenscyclus voor onderhoudsverzoeken
 description: In dit onderwerp wordt beschreven hoe u levenscyclusstatussen van onderhoudsverzoeken instelt in Activabeheer.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestLifecycleState, EntAssetRequestLifecycleModel
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ece0fc1121211706350d804fec59e72ef08282fcba4e65f557a510834738b11
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3c2f717969b938d05e68ac775d31b6a5d5ec26a
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743669"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022075"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>Statussen van levenscyclus voor onderhoudsverzoeken
 
@@ -48,7 +50,7 @@ Levenscyclusstatussen van onderhoudsverzoeken bepalen de fasen die een verzoek k
 
 In de volgende afbeelding ziet u een voorbeeld van de pagina **Levenscyclusstatussen van onderhoudsverzoeken**.
 
-![Pagina Statussen van levenscyclus voor onderhoudsverzoeken.](media/02-setup-for-requests.png)
+![Pagina Statussen van levenscyclus voor onderhoudsverzoeken](media/02-setup-for-requests.png)
 
 > [!NOTE]
 > Levenscyclusstatussen, levenscyclusstatusgroepen en -typen van onderhoudsverzoeken zijn gerelateerd aan en worden op dezelfde manier gebruikt als levenscyclusstatussen, levenscyclusstatusgroepen en -typen van werkorders. 
@@ -66,9 +68,9 @@ Nadat u de levenscyclusstatussen hebt gemaakt die vereist zijn voor uw onderhoud
 
 5. Ga naar het sneltabblad **Levenscyclusstatussen** en selecteer de levencyclusstatussen die moet worden opgenomen in het levenscyclusmodel:
 
-    - Als u een levenscyclusstatus wilt opnemen in het levenscyclusmodel, selecteert u deze in de sectie **Resterende levenscyclusstatussen** en selecteert u vervolgens de knop Pijl-rechts ![Pijl-rechts.](media/03-setup-for-requests.png) om deze te verplaatsen naar de sectie **Geselecteerde levenscyclusstatussen**.
-    - Als u alle beschikbare levenscyclusstatussen in het levenscyclusmodel wilt opnemen, selecteert u de knop **Alle beschikbare statussen selecteren** ![Alle beschikbare statussen selecteren.](media/04-setup-for-requests.png). Alle levenscyclusstatussen worden verplaatst naar de sectie **Geselecteerde levenscyclusstatussen**.
-    - Als u een levenscyclusstatus wilt verwijderen uit het levenscyclusmodel, selecteert u deze in de sectie **Geselecteerde levenscyclusstatussen** en selecteert u vervolgens de knop Pijl-rechts ![Pijl-rechts.](media/05-setup-for-requests.png) om deze te verplaatsen naar de sectie **Resterende levenscyclusstatussen**.
+    - Als u een levenscyclusstatus wilt opnemen in het levenscyclusmodel, selecteert u deze in de sectie **Resterende levenscyclusstatussen** en selecteert u vervolgens de knop Pijl-rechts ![Pijl-rechts](media/03-setup-for-requests.png) om deze te verplaatsen naar de sectie **Geselecteerde levenscyclusstatussen**.
+    - Als u alle beschikbare levenscyclusstatussen in het levenscyclusmodel wilt opnemen, selecteert u de knop **Alle beschikbare statussen selecteren** ![Alle beschikbare statussen selecteren](media/04-setup-for-requests.png). Alle levenscyclusstatussen worden verplaatst naar de sectie **Geselecteerde levenscyclusstatussen**.
+    - Als u een levenscyclusstatus uit het levenscyclusmodel wilt verwijderen, selecteert u deze in de sectie **Geselecteerde levenscyclusstatussen** en selecteert u vervolgens de knop Pijl-links ![Pijl-links](media/05-setup-for-requests.png) om deze te verplaatsen naar de sectie **Resterende levenscyclusstatussen**.
 
 6. Op het sneltabblad **Algemeen** zijn de velden in de sectie **Updates** relevant als u depotreparatie gebruikt.
 
@@ -77,7 +79,4 @@ Nadat u de levenscyclusstatussen hebt gemaakt die vereist zijn voor uw onderhoud
 
 In de volgende afbeelding ziet u een voorbeeld van de pagina **Levenscyclusmodellen van onderhoudsverzoeken**.
 
-![Pagina Levenscyclusmodellen van onderhoudsverzoeken.](media/06-setup-for-requests.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![Pagina Levenscyclusmodellen van onderhoudsverzoeken](media/06-setup-for-requests.png)

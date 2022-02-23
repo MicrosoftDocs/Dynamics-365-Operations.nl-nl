@@ -2,30 +2,36 @@
 title: Talen toevoegen aan uw site
 description: In dit onderwerp wordt uitgelegd hoe u ondersteuning voor extra talen toevoegt aan een Microsoft Dynamics 365 Commerce-site.
 author: bicyclingfool
+manager: annbe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d118c90dc16be964bb22aa6f170fe2d2f009b3e9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: fa3029387d5f1ca605fc9559c4272c8dfebcddaf
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964549"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411316"
 ---
 # <a name="add-languages-to-your-site"></a>Talen toevoegen aan uw site
+
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u ondersteuning voor extra talen toevoegt aan een Microsoft Dynamics 365 Commerce-site.
+
+## <a name="overview"></a>Overzicht
 
 U kunt uw website lokaliseren in elke taal die door Commerce wordt ondersteund. (De lijst met ondersteunde talen wordt later in dit onderwerp weergegeven.) Als u een taal op uw website wilt toevoegen, moet u deze eerst toevoegen aan een online winkel die aan uw site is gekoppeld.
 
@@ -159,15 +165,14 @@ De taal die u hebt toegevoegd, is nu beschikbaar, zodat u de site kunt configure
 
 [Een logo toevoegen](add-logo.md)
 
-[Een thema voor de site selecteren](select-site-theme.md)
+[Selecteer een thema voor de site](select-site-theme.md)
 
 [Werken met CSS-overschrijvingsbestanden](css-override-files.md)
 
 [Een favicon toevoegen](add-favicon.md)
 
+[Een welkomstbericht toevoegen](add-welcome-message.md)
+
 [Een auteursrechtmelding toevoegen](add-copyright-notice.md)
 
 [Scriptcode toevoegen aan sitepagina's voor ondersteuning van telemetrie](add-telemetry.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

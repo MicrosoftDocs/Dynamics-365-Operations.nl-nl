@@ -2,13 +2,16 @@
 title: Ontvangstbewijsnummers opnieuw instellen
 description: In dit onderwerp wordt beschreven hoe u de ontvangstbewijsnummers opnieuw kunt instellen die worden gebruikt voor verschillende acties op een gewenste datum (bijvoorbeeld het boekjaar of het kalenderjaar).
 author: ShalabhjainMSFT
+manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-Commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: 855c39f15db6de8fac1f0cd4667eec485c70542b9aebde0d7085e2703f4609bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 31ba82ac5e032734e00f2aee12339bc85a53550b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733864"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411309"
 ---
 # <a name="reset-receipt-numbers"></a>Nummers voor ontvangstbewijzen opnieuw instellen 
 
@@ -55,7 +58,7 @@ Voer de volgende stappen uit om het opnieuw instellen in te schakelen.
 1. Selecteer in het veld **Type voor opnieuw instellen van ontvangstbewijs** de optie **Eenmalig** of **Jaarlijks**.
 1. Selecteer **OK**.
 
-![Een datum voor het opnieuw instellen van een ontvangstbewijs selecteren.](media/Enable_receipt_reset.png "Een datum voor het opnieuw instellen van een ontvangstbewijs selecteren")
+![Een datum voor het opnieuw instellen van een ontvangstbewijs selecteren](media/Enable_receipt_reset.png "Een datum voor het opnieuw instellen van een ontvangstbewijs selecteren")
 
 Nadat u een datum hebt geselecteerd, wordt deze weergegeven in de kolom **Volgende datum voor opnieuw instellen van ontvangstbewijsnummer**. De datum voor opnieuw instellen is van toepassing op alle typen ontvangsttransacties. Daarom wordt de reeks ontvangstbewijsnummers opnieuw ingesteld voor alle typen ontvangstbewijzen.
 
@@ -65,6 +68,3 @@ Met de functie **Datum voor opnieuw instellen** kunt u toekomstige datums voor o
 
 > [!NOTE]
 > Afhankelijk van de datum voor opnieuw instellen die u selecteert en de ontvangstbewijsindeling, hebt u mogelijk dubbele ontvangstbewijsnummers. Hoewel het verkooppunt (POS) deze situaties kan verwerken, is er hierdoor meer tijd nodig voor het verwerken van retouren, aangezien verkoopmedewerkers moeten kiezen uit dubbele ontvangstbewijzen. Andere complicaties met betrekking tot het opschonen van gegevens kunnen zich voordoen als de dubbele ontvangstbewijzen geen gepland gevolg hebben. Daarom raden we aan om dynamische datumtekens (bijvoorbeeld **ddd**, **MM**, **DD** en **YY**) te gebruiken om dubbele ontvangstbewijsnummers na opnieuw instellen te voorkomen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

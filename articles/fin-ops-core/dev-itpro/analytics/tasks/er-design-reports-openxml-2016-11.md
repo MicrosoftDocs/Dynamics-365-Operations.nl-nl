@@ -1,10 +1,12 @@
 ---
 title: 'ER: een configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling (november 2016)'
-description: In dit onderwerp wordt beschreven hoe u een nieuwe ER-configuratie (Electronic Reporting) maakt die een sjabloon voor het genereren van elektronische documenten in OPENXML-indeling bevat.
+description: In de volgende stappen wordt uitgelegd hoe een gebruiker in de rol van Systeembeheerder of Ontwikkelaar voor Elektronische rapportage een nieuwe configuratie voor Elektronische rapportage (ER) kan maken die een sjabloon bevat voor het genereren van elektronische documenten in OPENXML-indeling.
 author: NickSelin
-ms.date: 04/23/2021
+manager: AnnBe
+ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERModelGroupByFunctionEditor, VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c3dfe6ce9c918b5fccbd7097096fa359facdf41bbf6fd0fab6c61153171484cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf909efbac5dce8e22d9713ad2e694ce624ffeb0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753023"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681896"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER: een configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling (november 2016)
 
@@ -28,7 +30,7 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker in de rol van Systeembe
 
 In dit voorbeeld maakt u een configuratie voor het voorbeeldbedrijf, Litware, Inc. Maken. Deze stappen kunnen in GBSI-bedrijven worden uitgevoerd.
 
-Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedure "Een configuratieprovider maken en deze als actief markeren" voltooien. U moet ook een Excel-bestand hebben dat wordt geïmporteerd bij het maken van de sjabloon. Dit bestand kan worden geopend vanuit [Sjabloon van betalingsrapport](https://download.microsoft.com/download/3/f/0/3f0658b2-042c-43cf-a776-0f4c7f7cfe4e/SampleVendPaymWsReport.xlsx).
+Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedure "Een configuratieprovider maken en deze als actief markeren" voltooien. U moet ook een Excel-bestand hebben dat wordt geïmporteerd bij het maken van de sjabloon. Dit bestand kan worden geopend vanuit [Sjabloon van betalingsrapport](https://go.microsoft.com/fwlink/?linkid=862266).
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>De gegevensmodelconfiguratie Betalingen uploaden
@@ -148,6 +150,3 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedure "Een 
 17. Typ in het veld **Bankrekening** `GBSI OPER`.
 18. Selecteer **OK** en vervolgens weer **OK**. Controleer het gemaakte werkblad, inclusief details van betalingsregels en totalen voor elke valutacode die in dit betalingsbericht wordt gebruikt.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

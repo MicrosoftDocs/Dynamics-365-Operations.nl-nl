@@ -1,35 +1,33 @@
 ---
-title: Opties voor geschiktheid van persoonlijke contactpersonen configureren
-description: In dit onderwerp wordt uitgelegd hoe u geschiktheidsopties voor persoonlijke contactpersonen in Microsoft Dynamics 365 Human Resources configureert.
-author: twheeloc
-ms.date: 08/24/2021
+title: Geschiktheidsopties voor persoonlijke contactpersonen configureren
+description: Configureer geschiktheidsopties voor persoonlijke contactpersonen in Microsoft Dynamics 365 Human Resources. Persoonlijke contactpersonen kunnen begunstigden of gezinsleden zijn.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ad9dc9d12bcc419c3925b0f78566d9f3eb0a1e35
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 68364b0cc1c579a3ee9813474c9d3f6e4df1c05d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070345"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418001"
 ---
-# <a name="configure-personal-contact-eligibility-options"></a>Opties voor geschiktheid van persoonlijke contactpersonen configureren
+# <a name="configure-personal-contact-eligibility-options"></a>Geschiktheidsopties voor persoonlijke contactpersonen configureren
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-In dit artikel wordt uitgelegd hoe u de typen persoonlijke contactpersonen die kunnen worden gebruikt in vergoedingen kunt configureren in Microsoft Dynamics 365 Human Resources. Persoonlijke contactpersonen zijn de personen die onder uw plannen vallen (afhankelijken) of die van uw plannen zullen profiteren (begunstigden). Afhankelijken zijn meestal echtgenoten/echtgenotes of kinderen. Begunstigden kunnen echtgenoten/echtgenotes, kinderen, vertrouwensrelaties of ouders zijn.
+In dit artikel wordt beschreven hoe u typen persoonlijke contactpersonen voor vergoedingen kunt configureren in Microsoft Dynamics 365 Human Resources. Persoonlijke contactpersonen kunnen begunstigden of gezinsleden zijn. 
 
 1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Instellen** de optie **Geschiktheidsopties van persoonlijke contactpersonen**.
 
@@ -47,6 +45,3 @@ In dit artikel wordt uitgelegd hoe u de typen persoonlijke contactpersonen die k
    | **Leeftijd** | De maximale leeftijd van een geschikte persoonlijke contactpersoon voor het vergoedingsplan. Dit veld is alleen actief als u een relatie selecteert. Deze leeftijd wordt vergeleken met de berekende leeftijd van de persoonlijke contactpersoon. Berekende leeftijd is: (dekkingsdatum – geboortedatum van persoonlijke contactpersoon/365). Dit aantal is altijd een geheel getal. |
 
 4. Selecteer **Opslaan**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

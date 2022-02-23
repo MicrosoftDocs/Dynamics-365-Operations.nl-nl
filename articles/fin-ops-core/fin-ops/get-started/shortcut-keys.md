@@ -1,10 +1,12 @@
 ---
 title: Sneltoetsen
-description: Dit onderwerp biedt een overzicht van de sneltoetscombinaties die u kunt gebruiken wanneer u met apps voor financiële en bedrijfsactiviteiten werkt.
+description: Dit onderwerp biedt een overzicht van de sneltoetscombinaties die u kunt gebruiken wanneer u met Finance and Operations-apps werkt.
 author: jasongre
-ms.date: 12/10/2021
+manager: AnnBe
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,21 +16,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0ecf745337c15270290f02496cc6ce4ccac86861
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d2dee0b1eb911764ea68f9b6df5516bf2cb81d07
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070978"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798221"
 ---
 # <a name="keyboard-shortcuts"></a>Sneltoetsen
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
-
-Met de volgende sneltoetsen kunt u snel en efficiënt gegevens invoeren in apps voor financiële en bedrijfsactiviteiten.
+Met de volgende sneltoetsen kunt u snel en efficiënt gegevens invoeren in Finance and Operations-apps.
 
 > [!NOTE]
 > De sneltoetsen die hier worden beschreven, verwijzen naar de toetsenbordindeling voor de Verenigde Staten. De toetsen in andere toetsenbordindelingen komen mogelijk niet exact overeen met de toetsen op een toetsenbord voor de VS.
@@ -130,10 +129,8 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 
 ## <a name="grid-shortcuts"></a>Sneltoetsen in raster
 
-| Gewenste bewerking                                                                                                             | Druk op                            |
+| Gewenste bewerking                                                                                                             | Druk op                           |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| Verticaal schuiven                                                                                                     | Muiswiel                     |
-| Horizontaal schuiven                                                                                                   | Shift + muiswiel             |
 | Naar de volgende/vorige kolom gaan                                                                                       | Tabtoets/Shift+Tabtoets                 |
 | Naar het volgende/vorige rij gaan                                                                                          | Pijl-omlaag/Pijl-omhoog           |
 | Naar de volgende/vorige rij gaan zonder te selecteren<blockquote>[!NOTE] Deze sneltoets is alleen van toepassing in scenario's met meerdere selecties.</blockquote> | Ctrl+Pijl-omhoog/Ctrl+Pijl-omlaag |
@@ -145,24 +142,22 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 | Naar de eerste registratie gaan                                                                                               | Ctrl+Home                       |
 | Naar de laatste registratie gaan                                                                                                | Ctrl+End                        |
 | Alle rijen selecteren of wissen                                                                                               | Ctrl+Shift+M                    |
-| Naar de eerste gemarkeerde rij gaan                                                                                           | Alt+Shift+M, F                  |
-| Naar de volgende gemarkeerde rij gaan                                                                                            | Alt+Shift+M, L                  |
-| Naar de vorige gemarkeerde rij gaan                                                                                        | Alt+Shift+M, P                  |
-| Naar de laatste gemarkeerde rij gaan                                                                                           | Alt+Shift+M, N                  |
+| Naar de eerste gemarkeerde rij gaan                                                                                           | Alt+Shift+M, F                    |
+| Naar de volgende gemarkeerde rij gaan                                                                                            | Alt+Shift+M, L                    |
+| Naar de vorige gemarkeerde rij gaan                                                                                        | Alt+Shift+M, P                    |
+| Naar de laatste gemarkeerde rij gaan                                                                                           | Alt+Shift+M, N                    |
 | De standaardactie uitvoeren in een raster<blockquote>[!NOTE] Deze sneltoets is ingeschakeld wanneer de focus zich op een cel met een hyperlink bevindt en alle cellen in die kolom hyperlinks bevatten.</blockquote> | Enter                           |
 | Schakelen tussen de geselecteerde rij en de koptekstrij                                                               | Alt+Shift+H                     |
 | De huidige kolom groter/kleiner maken (met de focus in de koptekstrij)                                                  | Pijl-rechts/-links        |
-| Verplaats huidige kolom naar de volgende/vorige positie (met focus in de koptekstrij)                                   | Ctrl+Shift+Pijl-rechts/Ctrl+Shift+Pijl-links |
 | Rasterfilters openen voor de huidige kolom (met de focus in de koptekstrij)                                              | Enter                           |
-| Pas de grootte van de huidige kolom zo aan dat deze past bij de inhoud (met focus in de koptekstrij)                                           | A (of dubbelklik op de formaatgreep van de kolom) |
 
 ## <a name="input-control-shortcuts"></a>Sneltoetsen voor invoerbesturing
 
-| Gewenste bewerking                                                                   | Druk op                          |
+| Gewenste bewerking                                                                   | Druk op                         |
 |------------------------------------------------------------------------------|-------------------------------|
 | De hyperlink openen                                                           | Ctrl+Enter                    |
-| De sessiedatum invoeren in een datumveld                                       | M                             |
-| De huidige datum invoeren in een datumveld                                       | D                             |
+| De sessiedatum invoeren in een datumveld                                       | M                         |
+| De huidige datum invoeren in een datumveld                                       | D                         |
 | Zoekveld, keuzelijst met invoervak, datumkiezer, dialoogvenster voor beëindigen openen                         | Alt+Pijl-omlaag                |
 | Zoekveld, keuzelijst met invoervak, datumkiezer, dialoogvenster voor beëindigen sluiten                        | Esc                           |
 | Focus in een zoekopdracht plaatsen (wanneer de zoekopdracht al open is)                   | Alt+Pijl-omlaag                |
@@ -209,8 +204,8 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 | Het hulpmiddel Verplaatsen gebruiken (in de aanpassingsmodus)                                                                       | M                                   |
 | Het huidige besturingselement selecteren als het besturingselement dat moet worden verplaatst (als u het hulpmiddel Verplaatsen gebruikt en er nog geen besturingselement is geselecteerd om te verplaatsen)  | Spatiebalk of Enter                      |
 | Het te verplaatsen besturingselement wissen (als u het hulpmiddel Verplaatsen gebruikt)                                                                   | Esc                                 |
-| Verplaats het geselecteerde besturingselement naar de volgende positie (wanneer u het hulpmiddel Verplaatsen gebruikt)                                              | Tab of Pijl-rechts of Pijl-omlaag    |
-| Verplaats het geselecteerde besturingselement naar de vorige positie (wanneer u het hulpmiddel Verplaatsen gebruikt)                                          | Shift+Tab of Pijl-links of Pijl-omhoog |
+| Naar de volgende positie voor het geselecteerde besturingselement gaan (wanneer u het hulpmiddel Verplaatsen gebruikt)                                          | Tab of Pijl-rechts of Pijl-omlaag    |
+| Naar de vorige positie voor het geselecteerde besturingselement gaan (wanneer u het hulpmiddel Verplaatsen gebruikt)                                      | Shift+Tab of Pijl-links of Pijl-omhoog |
 | Het hulpmiddel Verbergen gebruiken (in de aanpassingsmodus)                                                                       | H                                   |
 | Instellen of het huidige besturingselement zichtbaar of verborgen is (als u het hulpprogramma Verbergen gebruikt)                                     | Spatiebalk of Enter                      |
 | Het hulpmiddel Overslaan gebruiken (in de aanpassingsmodus)                                                                       | K                                   |
@@ -260,6 +255,3 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 
 [Sneltoetsen voor ontbrekende rekeninganalyse](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

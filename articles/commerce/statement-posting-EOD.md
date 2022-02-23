@@ -1,25 +1,31 @@
 ---
 title: Verbeteringen van boekingsfunctionaliteit voor overzichten
 description: In dit onderwerp worden verbeteringen beschreven die zijn aangebracht in de functie voor het boeken van overzichten.
-author: analpert
-ms.date: 01/31/2022
+author: josaw1
+manager: AnnBe
+ms.date: 05/14/2019
 ms.topic: article
-audience: Application User, Developer, IT Pro
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
-ms.author: analpert
+ms.search.industry: retail
+ms.author: anpurush
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: 6ee0cea76be05634aa21643acef5b341f19d75ef
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 68abef8f28c04a4f6f88e638c8abf944d06a32c4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087598"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411448"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Verbeteringen van boekingsfunctionaliteit voor overzichten
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp wordt de eerste set verbeteringen beschreven die zijn aangebracht in de functie voor het boeken van overzichten. Deze verbeteringen zijn beschikbaar in Microsoft Dynamics 365 for Finance and Operations 7.3.2.
 
@@ -50,24 +56,12 @@ Als onderdeel van de nieuwe overzichtsboekingsfunctie zijn er drie nieuwe parame
 
 - **Telling uitschakelen vereist**: wanneer deze optie is ingesteld op **Ja**, wordt het boekingsproces voor een overzicht voortgezet, zelfs als het verschil tussen het getelde bedrag en het transactiebedrag op het overzicht buiten de drempelwaarde valt die is gedefinieerd op het sneltabblad **Overzicht** voor winkels.
 
-> [!NOTE]
-> Wanneer vanaf Commerce versie 10.0.14 de functie **Detailhandeloverzichten - groepsgewijze invoer** wordt ingeschakeld , is de batchtaak **Voorraad boeken** niet meer van toepassing en kan deze niet meer worden uitgevoerd.
-
 Daarnaast zijn de volgende parameters ingevoerd op het sneltabblad **Batchverwerking** op het tabblad **Boeking** van de pagina **Commerce-parameters**: 
 
 - **Maximumaantal parallelle overzichtboekingen**: dit veld bepaalt het aantal batchtaken dat wordt gebruikt om meerdere overzichten te boeken. 
 - **Maximale aantal threads voor orderverwerking per overzicht**: dit veld geeft het maximale aantal threads aan dat wordt gebruikt door de batchtaak voor het boeken van overzichten verkooporders voor een enkel overzicht te maken en te factureren. Het totale aantal threads dat door het boekingsproces voor overzichten wordt gebruikt, wordt berekend op basis van de waarde in deze parameter vermenigvuldigd met de waarde in de parameter **Maximumaantal parallelle overzichtboekingen**. Als u de waarde van deze parameter te hoog instelt, kunnen de prestaties van het boekingsproces voor overzichten negatief worden beïnvloed.
 - **Maximale aantal transactieregels dat is opgenomen in aggregatie**: in dit veld wordt het aantal transactieregels gedefinieerd dat wordt opgenomen in één geaggregeerde transactie voordat een nieuwe wordt gemaakt. Geaggregeerde transacties worden gemaakt op basis van verschillende aggregatiecriteria zoals klant, werkdag of financiële dimensies. Het is belangrijk te weten dat de regels van een enkele transactie niet over verschillende geaggregeerde transacties worden verdeeld. Dit betekent dat het aantal regels in een geaggregeerde transactie iets hoger of lager kan liggen, op basis van factoren zoals het aantal verschillende producten.
 - **Maximumaantal threads om winkeltransacties te valideren**: dit veld definieert het aantal threads dat wordt gebruikt om transacties te valideren. Het valideren van transacties is een vereiste stap die moet plaatsvinden voordat de transacties in de overzichten kunnen worden opgenomen. U moet ook een **geschenkbonproduct** definiëren op het sneltabblad **Geschenkbon** van het tabblad **Boeking** van de pagina **Commerce-parameters**. Dit moet worden gedefinieerd zelfs als er geen geschenkbonnen worden gebruikt door de organisatie.
-
-In de volgende tabel staan de aanbevolen waarden voor de voorgaande parameters. Deze waarden moeten worden getest op en aangepast aan de implementatieconfiguratie en beschikbare infrastructuur. Een verhoging van de aanbevolen waarden kan een nadelige invloed hebben op andere batchverwerkingen en moet worden gevalideerd.
-
-| Parameter | Aanbevolen waarde | Gegevens |
-|-----------|-------------------|---------|
-| Maximumaantal parallelle overzichtboekingen | <p>Stel deze parameter in op het aantal batchtaken dat beschikbaar is voor de batchgroep die de taak **Overzicht** uitvoert.</p><p>**Algemene regel:** het aantal virtuele AOS-servers (Application Object Server) vermenigvuldigen met het aantal batchtaken dat beschikbaar is per virtuele AOS-server.</p> | Deze parameter is niet van toepassing als de functie **Detailhandeloverzichten - groepsgewijze invoer** is ingeschakeld. |
-| Maximale thread voor orderverwerking per overzicht | Begin met het testen van waarden bij **4**. Normaal gesproken mag de waarde niet hoger zijn dan **8**. | Deze parameter geeft het aantal threads aan dat wordt gebruikt om verkooporders te maken en te boeken. De parameter vertegenwoordigt het aantal threads dat voor boeking per overzicht beschikbaar is. |
-| Maximumaantal transactieregels dat is opgenomen in een aggregatie | Begin met het testen van waarden bij **1000**. Afhankelijk van de configuratie van het hoofdkantoor kunnen kleinere orders gunstiger zijn voor de prestaties. | Deze parameter bepaalt het aantal regels dat in elke verkooporder wordt opgenomen tijdens het boeken van het overzicht. Als dit nummer is bereikt, worden regels opgedeeld in een nieuwe order. Hoewel het aantal verkoopregels niet exact is omdat de opsplitsing op verkooporderniveau plaatsvindt, blijft het aantal dicht bij het aantal dat is ingesteld. Deze parameter wordt gebruikt om verkooporders te genereren voor detailhandeltransacties die geen benoemde klant hebben. |
-| Maximumaantal threads voor het valideren van winkeltransacties | We raden u aan om deze parameter op **4** in te stellen en deze alleen te verhogen als u geen acceptabele prestaties bereikt. Het aantal threads dat in dit proces wordt gebruikt, kan niet hoger zijn dan het aantal processors dat beschikbaar is op de batchserver. Als u hier te veel threads toewijst, heeft dit mogelijk invloed op andere batchverwerkingen. | Met deze parameter wordt het aantal transacties bepaald dat tegelijkertijd kan worden gevalideerd voor een bepaalde winkel. |
 
 > [!NOTE]
 > Alle instellingen en parameters die zijn gerelateerd aan overzichtsboekingen en die zijn gedefinieerd in winkels op de pagina **Commerce-parameters** zijn van toepassing op de verbeterde functie voor het boeken van overzichten.
@@ -125,17 +119,9 @@ Een overzicht doorloopt verschillende bewerkingen (zoals maken, berekenen, wisse
 
 ### <a name="aggregated-transactions"></a>Getotaliseerde transacties
 
-Tijdens het boekingsproces worden contante transacties samengevoegd per klant en product. Hierdoor worden minder verkooporders en -regels gemaakt. De samengevoegde transacties worden in het systeem opgeslagen en gebruikt om verkooporders te maken. Met elke samengevoegde transactie wordt één bijbehorende verkooporder in het systeem gemaakt. 
+Tijdens het boekingsproces worden de verkooptransacties samengevoegd op basis van de configuratie. Deze samengevoegde transacties worden in het systeem opgeslagen en gebruikt om verkooporders te maken. Met elke samengevoegde transactie wordt één bijbehorende verkooporder in het systeem gemaakt. U kunt de samengevoegde transacties bekijken met de knop **Samengevoegde transacties** in de groep **Uitvoeringsdetails** van het overzicht.
 
-Als een overzicht niet volledig is geboekt, kunt u samengevoegde transacties in het overzicht weergeven. Selecteer in het actievenster op het tabblad **Overzicht** in de groep **Uitvoeringsdetails** de optie **Getotaliseerde transacties**.
-
-![De knop Samengevoegde transacties voor een overzicht dat niet volledig is geboekt.](media/aggregated-transactions.png)
-
-Voor geboekte overzichten kunt u samengevoegde transacties op de pagina **Geboekte overzichten** weergeven. Selecteer **Query's** in het actiedeelvenster en selecteer vervolgens **Getotaliseerde transacties**.
-
-![Opdracht Getotaliseerde transacties voor geboekte overzichten.](media/aggregated-transactions-posted-statements.png)
-
-Het sneltabblad **Details van verkooporder** van een samengevoegde transactie bevat de volgende informatie:
+Het tabblad **Details van verkooporder** van een samengevoegde transactie bevat de volgende informatie:
 
 - **Record-ID**: de ID van de samengevoegde transactie.
 - **Overzichtsnummer**: het overzicht waartoe de samengevoegde transactie behoort.
@@ -144,33 +130,17 @@ Het sneltabblad **Details van verkooporder** van een samengevoegde transactie be
 - **Aantal samengevoegde regels**: het totale aantal regels voor de samengevoegde transactie en de verkooporder.
 - **Status**: de laatste status van de samengevoegde transactie.
 - **Factuur-ID**: wanneer de verkooporder voor de samengevoegde transactie wordt gefactureerd, de id van de verkoopfactuur Als dit veld leeg is, is de factuur voor de verkooporder niet geboekt.
-- **Foutcode:** dit veld wordt ingesteld als de samenvoeging een fout bevat.
-- **Foutbericht:** dit veld wordt ingesteld als de samenvoeging een fout bevat. Het geeft details weer over de oorzaak van het mislukken van het proces. U kunt de informatie in de foutcode gebruiken om het probleem op te lossen en het proces vervolgens handmatig opnieuw starten. Afhankelijk van het type oplossing moeten samengevoegde verkopen mogelijk worden verwijderd en verwerkt in een nieuw overzicht.
 
-![Velden op het sneltabblad Verkooporderdetails van een samengevoegde transactie.](media/aggregated-transactions-error-message-view.png)
+Het tabblad **Transactiedetails** van een samengevoegde transactie bevat alle transacties die naar de samengevoegde transactie zijn gehaald. De samengevoegde regels op de samengevoegde transactie tonen alle samengevoegde records van de transacties. De samengevoegde regels bevatten ook details zoals artikel, variant, hoeveelheid, prijs, nettobedrag, eenheid en magazijn. In principe komt elke samengevoegde regel overeen met één verkooporderregel.
 
-Het sneltabblad **Transactiedetails** van een samengevoegde transactie bevat alle transacties die naar de samengevoegde transactie zijn gehaald. De samengevoegde regels op de samengevoegde transactie tonen alle samengevoegde records van de transacties. De samengevoegde regels bevatten ook details zoals artikel, variant, hoeveelheid, prijs, nettobedrag, eenheid en magazijn. In principe komt elke samengevoegde regel overeen met één verkooporderregel.
-
-![Het sneltabblad Transactiedetails van een samengevoegde transactie.](media/aggregated-transactions-sales-details.png)
-
-In bepaalde situaties kunnen samengevoegde transacties hun geconsolideerde verkooporder mogelijk niet boeken. In deze situaties wordt een foutcode aan de overzichtsstatus gekoppeld. Als u alleen samengevoegde transacties met fouten wilt weergeven, kunt u het filter **Alleen fouten weergeven** in de weergave van samengevoegde transacties inschakelen door het selectievakje in te schakelen. Als u dit filter inschakelt, beperkt u de resultaten tot samengevoegde transacties met fouten die een oplossing vereisen. Zie [Online orders en asynchrone ordertransacties van klanten bewerken en controleren](edit-order-trans.md) voor informatie over het oplossen van deze problemen.
-
-![Selectievakje voor het filter Alleen weergeven in de weergave van samengevoegde transacties.](media/aggregated-transactions-failure-view.png)
-
-Op de pagina **Samengevoegde transacties** kunt u de XML voor een specifieke samengevoegde transactie downloaden door **Aggregatiegegevens exporteren**. U kunt de XML in elke XML-indeling controleren om de werkelijke gegevens te bekijken die betrekking hebben op het maken en boeken van verkooporders. De functionaliteit voor het downloaden van de XML voor samengevoegde transacties is niet beschikbaar voor overzichten die zijn geboekt.
-
-![De knop Aggregatiegegevens exporteren op de pagina Samengevoegde transacties.](media/aggregated-transactions-export.png)
-
-Als u de fout niet kunt herstellen door gegevens in de verkooporder of gegevens die de verkooporder ondersteunen te corrigeren, is een knop **Klantorder verwijderen** beschikbaar. Als u een order wilt verwijderen, selecteert u de samengevoegde transactie die is mislukt en **Klantorder verwijderen**. Zowel de samengevoegde transactie als de bijbehorende verkooporder wordt verwijderd. U kunt de transacties nu controleren met de functie voor bewerken en controleren. U kunt ze ook opnieuw verwerken via een nieuw overzicht. Nadat alle fouten zijn opgelost, kunt u de overzichtsboeking hervatten door de functie voor het boeken van overzichten voor het betreffende overzicht uit te voeren.
-
-![De knop Klantorder verwijderen in de weergave van samengevoegde transacties.](media/aggregated-transactions-delete-cust-order.png)
+Vanaf de pagina **Samengevoegde transacties** kunt u de XML voor een specifieke samengevoegde transactie downloaden met behulp van de knop **Verkooporder-XML exporteren**. U kunt de XML gebruiken voor foutopsporing van problemen met betrekking tot het maken en boeken van verkooporders. Download het XML-bestand, upload het naar een testomgeving en voer foutopsporing op het probleem in de testomgeving uit. De functionaliteit voor het downloaden van de XML voor samengevoegde transacties is niet beschikbaar voor overzichten die zijn geboekt.
 
 De weergave met samengevoegde transacties biedt de volgende voordelen:
 
 - De gebruiker heeft zicht op de samengevoegde transacties die zijn mislukt tijdens het maken van verkooporders en de verkooporders die zijn mislukt tijdens het factureren.
 - De gebruiker heeft zicht op de wijze waarop transacties worden samengevoegd.
 - De gebruiker heeft een volledige audittrail, van transacties tot verkooporders, tot verkoopfacturen. Deze audittrail was niet beschikbaar in de verouderde functie voor het boeken van overzichten.
-- Samengevoegde XML-bestanden maken het eenvoudiger om problemen te identificeren tijdens het maken van verkooporders en tijdens facturering.
+- Samengevoegde XML-bestanden maken het eenvoudiger om problemen te identificeren tijdens het maken van verkooporders en de facturering.
 
 ### <a name="journal-vouchers"></a>Journaalboekstukken
 
@@ -204,6 +174,3 @@ Andere back-endverbeteringen die gebruikers kunnen zien, zijn aangebracht in de 
 
     - Ga naar **Detailhandel en commerce** \> **Instelling van hoofdkantoor** \> **Parameters** \> **Commerce-parameters**. Selecteer op het tabblad **Boeken** op het sneltabblad **Voorraadbijwerking** in het veld **Detailniveau** **Overzicht**.
     - Ga naar **Detailhandel en commerce** \> **Instelling van hoofdkantoor** \> **Parameters** \> **Commerce-parameters**. Stel vervolgens op het tabblad **Boeken** op het sneltabblad **Samenvoeging** de optie **Boekstuktransacties** in op **Ja**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

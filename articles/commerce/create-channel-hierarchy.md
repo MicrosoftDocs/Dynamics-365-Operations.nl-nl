@@ -2,24 +2,27 @@
 title: Een afzetkanaalnavigatiehiërarchie maken
 description: In dit onderwerp wordt beschreven hoe u een kanaalnavigatiehiërarchie maakt in Microsoft Dynamics 365 Commerce.
 author: samjarawan
-ms.date: 04/27/2021
+manager: annbe
+ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d522838bdddf6cda6d7e451b27183f733e3de53df865d49cdadf846cf99cc953
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e83860667f142adcc85cd8542d521e18f16dbc2c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749950"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411273"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>Een afzetkanaalnavigatiehiërarchie maken
 
@@ -49,7 +52,7 @@ Voer de volgende stappen uit om een navigatiehiërarchie voor een kanaal te make
 
 In de volgende afbeelding ziet u een voorbeeld van een hoofdknooppunt.
 
-![Voorbeeld hoofdknooppunt.](media/create-channel-hierarchy-1.png)
+![Voorbeeld hoofdknooppunt](media/create-channel-hierarchy-1.png)
 
 ## <a name="create-navigation-category-nodes"></a>Navigatiecategorieknooppunten maken
 
@@ -65,7 +68,7 @@ Voer de volgende stappen uit om extra navigatiecategorieknooppunten te maken die
 
 In de volgende afbeelding ziet u een voorbeeld van een voltooide kanaalnavigatiehiërarchie.
 
-![Voorbeeld kanaalhiërarchie.](media/create-channel-hierarchy-2.png)
+![Voorbeeld kanaalhiërarchie](media/create-channel-hierarchy-2.png)
 
 ## <a name="add-products-to-category-nodes"></a>Producten aan categorieknooppunten toevoegen
 
@@ -77,11 +80,11 @@ Voer de volgende stappen uit om producten toe te voegen aan categorieknooppunten
 1. Selecteer **Opslaan** in het actievenster.
 
 > [!NOTE]
-> Producten toevoegen aan een knooppunt in de kanaalnavigatiehiërarchie is niet genoeg om de producten te laten weergeven in een geselecteerd kanaal. De producten moeten ook aan een afzetkanaal worden geassorteerd. Meer informatie over assortimenten vindt u in [Assortimentsbeheer](assortments.md).
+> Producten toevoegen aan een knooppunt in de kanaalnavigatiehiërarchie is niet genoeg om de producten te laten weergeven in een geselecteerd kanaal. De producten moeten ook onder een product worden geassorteerd.
 
 De volgende afbeelding toont een voorbeeldknooppunt met toegevoegde producten.
 
-![Producten toegevoegd aan een categorieknooppunt.](media/create-channel-hierarchy-3.png)
+![Producten toegevoegd aan een categorieknooppunt](media/create-channel-hierarchy-3.png)
 
 ## <a name="add-product-attribute-groups-to-category-nodes"></a>Productkenmerkgroepen toevoegen aan categorieknooppunten
 
@@ -97,13 +100,10 @@ Voer deze stappen uit om een productkenmerkgroep aan een categorieknooppunt toe 
 
 De volgende afbeelding toont een voorbeeldknooppunt met toegevoegde productkenmerkgroepen.
 
-![Productkenmerkgroepen op een knooppunt.](media/create-channel-hierarchy-4.png)
+![Productkenmerkgroepen op een knooppunt](media/create-channel-hierarchy-4.png)
 
-## <a name="additional-resources"></a>Aanvullende bronnen
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Assortimenten instellen](set-up-assortments.md)
 
 [Kenmerken en kenmerkgroepen beheren](attribute-attributegroups-lifecycle.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

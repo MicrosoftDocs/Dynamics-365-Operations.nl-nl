@@ -2,13 +2,16 @@
 title: Hoofdplanning met vraagprognoses
 description: In dit onderwerp wordt uitgelegd hoe u vraagprognoses opneemt tijdens de hoofdplanning met Planningsoptimalisatie.
 author: ChristianRytt
+manager: tfehr
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ReqPlanSched, ReqGroup, ReqReduceKey, ForecastModel
+ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cbac68b79b2a10f05e0e442d4f0aa716e5a04634
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 8b47aee41494394a32ffc0ea0c42a512e5051532
+ms.sourcegitcommit: b86576e1114e4125eba8c144d40c068025f670fc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867242"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4666717"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Hoofdplanning met vraagprognoses
 
@@ -68,7 +71,7 @@ Voer de volgende stappen uit om een behoefteplanningsgroep zo te configureren da
         - **Orders**: alleen verkooporders moeten de prognose verminderen.
 
         > [!NOTE]
-        > Als u *Alle transacties* selecteert, worden transacties met zowel vraag als aanbod in dezelfde voorraaddimensies beschouwd als neutraal en genegeerd tijdens de prognosereductie. Als de planningsdimensie bijvoorbeeld is ingesteld op alleen site, niet magazijn, wordt een overboekingsorder tussen site 1, magazijn 11 en site 1, magazijn 13 genegeerd en wordt de resterende vraagprognose niet verminderd.
+        > Als u *Alle transacties* selecteert, worden transacties met zowel vraag als aanbod in dezelfde voorraaddimensies beschouwd als neutraal en genegeerd tijdens de prognosereductie. Als de planningsdimensie bijvoorbeeld is ingesteld op alleen site, niet magazijn, wordt een transferorder tussen site 1, magazijn 11 en site 1, magazijn 13 genegeerd en wordt de resterende vraagprognose niet verminderd.
 
     - **Intercompany-orders opnemen**: stel deze optie in op *Ja* als intercompany-orders moeten worden opgenomen wanneer de prognose wordt verminderd. In het andere geval kiest u voor *Nee*.
     - **Klantprognose opnemen in de vraagprognose**: geef op of een klantprognose moet worden opgenomen in de algemene prognose. Deze optie bepaalt hoe werkelijke vraag de geprognosticeerde vraag verlaagt. U kunt deze optie gebruiken om ervoor te zorgen dat de hoofdplanning de levering van artikelen vervoert die door bepaalde klanten zijn gekocht.
@@ -86,9 +89,9 @@ Wanneer u een prognose in een hoofdplan opneemt, kunt u selecteren hoe de progno
 
 Als u een prognose wilt opnemen in een hoofdplan en de methode wilt selecteren die wordt gebruikt om prognosebehoeften te reduceren, gaat u naar **Hoofdplanning \> Instellen \> Plannen \> Hoofdplannen**. Selecteer in het veld **Prognosemodel** een prognosemodel. Selecteer een methode in het veld **Gebruikte methode voor het reduceren van prognosebehoeften**. De volgende opties zijn beschikbaar:
 
-- Geen
+- None
 - Percentage - reductiesleutel
-- Transacties - reductiesleutel
+- Transacties – reductiesleutel (nog niet ondersteund met Planningsoptimalisatie)
 - Transacties - dynamische periode
 
 De volgende secties bevatten meer informatie over elke optie.
@@ -137,85 +140,32 @@ In dit geval worden, als u de prognoseplanning op 1 januari uitvoert, de vraagpr
 
 #### <a name="transactions--reduction-key"></a>Transacties - reductiesleutel
 
-Als u het veld **Gebruikte methode om prognosebehoeften te verminderen** instelt op *Transacties - reductiesleutel*, worden de prognosevereisten verminderd met de gekwalificeerde vraagtransacties die plaatsvinden tijdens de perioden die worden gedefinieerd door de reductiesleutel.
-
-De gekwalificeerde vraag wordt gedefinieerd door het veld **Prognose verlagen per** op de pagina **Behoefteplanningsgroepen**. Als u het veld **Prognose verminderen per** instelt op *Orders*, worden alleen verkoopordertransacties als gekwalificeerde vraag beschouwd. Als u het veld instelt op *Alle transacties*, worden alle niet-intercompany-transacties voor uitgifte voorraad als gekwalificeerde vraag beschouwd. Als Intercompany-verkooporders ook als gekwalificeerde vraag moeten worden beschouwd, stel dan de optie **Intercompany-orders opnemen** in op *Ja*.
-
-Prognosereductie begint met de eerste (vroegste) vraagprognoserecord in de reductiesleutelperiode. Als de hoeveelheid gekwalificeerde voorraadtransacties hoger ligt dan de hoeveelheid vraagprognoseregels in dezelfde reductiesleutelperiode, wordt het saldo van de hoeveelheid voorraadtransacties gebruikt om de vraagprognosehoeveelheid in de vorige periode te verminderen (als er niet-geconsumeerde prognose is).
-
-Als er geen niet-geconsumeerde prognose overblijft in de vorige reductiesleutelperiode, wordt het saldo van de hoeveelheid voorraadtransacties gebruikt om de prognosehoeveelheid in de volgende maand te verminderen (als er niet-geconsumeerde prognose is).
-
-De waarde van het veld **Percentage** op de reductiesleutelregels wordt niet gebruikt wanneer het veld **Gebruikte methode om prognosebehoeften te verminderen** wordt ingesteld op *Transacties - reductiesleutel*. Alleen de datums worden gebruikt om de reductiesleutelperiode te definiëren.
-
-> [!NOTE]
-> Prognoses die op of voor de datum van vandaag worden geboekt, worden genegeerd en worden niet gebruikt om geplande orders aan te maken. Als uw vraagprognose voor de maand bijvoorbeeld op 1 januari wordt gegenereerd en u op 2 januari de hoofdplanning maakt die vraagprognose bevat, negeert de berekening de vraagprognoseregel met 1 januari.
+Als u **Transacties - reductiesleutel** selecteert, worden de prognosebehoeften gereduceerd door de transacties die plaatsvinden tijdens de perioden die worden gedefinieerd door de reductiesleutel.
 
 ##### <a name="example-transactions--reduction-key"></a>Voorbeeld: Transacties - reductiesleutel
 
 In dit voorbeeld wordt weergegeven hoe werkelijke orders, die plaatsvinden tijdens de perioden die zijn gedefinieerd door de reductiesleutel, vraagprognosebehoeften reduceren.
 
-[![Werkelijke orders en prognoses voordat de hoofdplanning wordt uitgevoerd.](media/forecast-reduction-keys-1-small.png)](media/forecast-reduction-keys-1.png)
+Voor dit voorbeeld selecteert u **Transacties - reductiesleutel** in het veld **Methode gebruikt voor het reduceren van prognosebehoeften** op de pagina **Hoofdplannen**.
 
-Voor dit voorbeeld selecteert u *Transacties - reductiesleutel* in het veld **Methode gebruikt voor het reduceren van prognosebehoeften** op de pagina **Hoofdplannen**.
+Op 1 januari waren er de volgende verkooporders.
 
-De volgende vraagprognoseregels bestaan op 1 april.
+| Maand    | Besteld aantal stuks |
+|----------|--------------------------|
+| januari  | 956                      |
+| februari | 1.176                    |
+| maart    | 451                      |
+| april    | 119                      |
 
-| Datum     | Aantal stuks voorspeld |
-|----------|-----------------------------|
-| 5 april  | 100                         |
-| 12 april | 100                         |
-| 19 april | 100                         |
-| 26 april | 100                         |
-| mei 3    | 100                         |
-| mei 10   | 100                         |
-| mei 17   | 100                         |
+Als u dezelfde vraagprognose (van het vorige voorbeeld) van 1000 stuks per maand gebruikt, worden de volgende behoeftehoeveelheden naar het hoofdplan overgebracht.
 
-De volgende verkooporderregels bestaan in april.
-
-| Datum     | Aangevraagd aantal stuks |
-|----------|----------------------------|
-| 27 april | 240                        |
-
-[![Gepland aanbod dat is gegenereerd op basis van orders in april.](media/forecast-reduction-keys-2-small.png)](media/forecast-reduction-keys-2.png)
-
-De volgende vereiste hoeveelheden worden naar het hoofdplan overgebracht wanneer de hoofdplanning op 1 april wordt uitgevoerd. Zoals u ziet, zijn de prognosetransacties voor april verminderd met de vraaghoeveelheid van 240 in een reeks, te beginnen bij de eerste van die transacties.
-
-| Datum     | Benodigd aantal stuks |
-|----------|---------------------------|
-| 5 april  | 0                         |
-| 12 april | 0                         |
-| 19 april | 60                        |
-| 26 april | 100                       |
-| 27 april | 240                       |
-| mei 3    | 100                       |
-| mei 10   | 100                       |
-| mei 17   | 100                       |
-
-Stel nu dat er nieuwe orders zijn geïmporteerd voor de periode van mei.
-
-De volgende verkooporderregels bestaan in mei.
-
-| Datum   | Aangevraagd aantal stuks |
-|--------|----------------------------|
-| mei 4  | 80                         |
-| mei 11 | 130                        |
-
-[![Gepland aanbod dat is gegenereerd op basis van orders in april en mei.](media/forecast-reduction-keys-3-small.png)](media/forecast-reduction-keys-3.png)
-
-De volgende vereiste hoeveelheden worden naar het hoofdplan overgebracht wanneer de hoofdplanning op 1 april wordt uitgevoerd. Zoals u ziet, zijn de prognosetransacties voor april verminderd met de vraaghoeveelheid van 240 in een reeks, te beginnen bij de eerste van die transacties. De prognosetransacties voor mei werden echter met een totaal van 210 verlaagd, te beginnen bij de eerste vraagprognosetransactie in mei. De totalen per periode blijven echter behouden (400 in april en 300 in mei).
-
-| Datum     | Benodigd aantal stuks |
-|----------|---------------------------|
-| 5 april  | 0                         |
-| 12 april | 0                         |
-| 19 april | 60                        |
-| 26 april | 100                       |
-| 27 april | 240                       |
-| mei 3    | 0                         |
-| mei 4    | 80                        |
-| mei 10   | 0                         |
-| mei 11   | 130                       |
-| mei 17   | 90                        |
+| Maand                | Benodigd aantal stuks |
+|----------------------|---------------------------|
+| januari              | 44                        |
+| Februari             | 0                         |
+| maart                | 549                       |
+| april                | 881                       |
+| Mei tot en met december | 1.000                     |
 
 #### <a name="transactions--dynamic-period"></a>Transacties - dynamische periode
 
@@ -300,7 +250,7 @@ Daarom worden de volgende geplande orders gemaakt.
 Een prognosereductiesleutel wordt gebruikt in de methoden **Transacties - reductiesleutel** en **Percentage - reductiesleutel** voor het reduceren van prognosebehoeften. Voer deze stappen uit om een reductiesleutel te maken en in te stellen.
 
 1. Ga naar **Hoofdplanning \> Instellen \> Behoefteplanning \> Reductiesleutels**.
-2. Selecteer **Nieuw** om een reductiesleutel te maken.
+2. Selecteer **Nieuw** of druk op **Ctrl+N** om een reductiesleutel te maken.
 3. Voer in het veld **Reductiesleutel** een unieke id voor de prognosereductiesleutel in. Voer vervolgens in het veld **Naam** een naam in. 
 4. Definieer de perioden en het reductiesleutelpercentage in elke periode:
 
@@ -316,78 +266,11 @@ Een prognosereductiesleutel moet worden toegewezen aan de behoefteplanningsgroep
 2. Selecteer in het veld **Reductiesleutel** op het sneltabblad **Overige** de reductiesleutel die u aan de behoefteplanningsgroep wilt toewijzen. De reductiesleutel wordt vervolgens toegepast op alle artikelen van de behoefteplanningsgroep.
 3. Als u een reductiesleutel wilt gebruiken om tijdens de hoofdplanning een prognose reductie te berekenen, moet u deze instelling opgeven in de instellingen van het prognoseplan of het hoofdplan. Ga naar een van de volgende locaties:
 
-    - **Hoofdplanning \> Instellen \> Plannen \> Prognoseplannen**
-    - **Hoofdplanning \> Instellen \> Plannen \> Hoofdplannen**
+    - Hoofdplanning \> Instellen \> Plannen \> Prognoseplannen
+    - Hoofdplanning \> Instellen \> Plannen \> Hoofdplannen
 
 4. Selecteer op de pagina **Prognoseplannen** of **Hoofdplannen** op het sneltabblad **Algemeen** in het veld **Gebruikte methode voor het reduceren van prognosebehoeften** **Percentage - reductiesleutel** of **Transacties - reductiesleutel**.
 
 ### <a name="reduce-a-forecast-by-transactions"></a>Een prognose op basis van transacties reduceren
 
 Wanneer u **Transacties - reductiesleutel** of **Transacties - dynamische periode** selecteert als de methode voor het reduceren van prognosebehoeften, kunt u opgeven met welke transacties de prognose wordt gereduceerd. Selecteer op de pagina **Behoefteplanningsgroepen** op het sneltabblad **Overige** in het veld **Prognose reduceren met** **Alle transacties** als de prognose moeten worden gereduceerd met alle transacties of **Orders** als de prognose alleen met verkooporders moet worden gereduceerd.
-
-## <a name="forecast-models-and-submodels"></a>Prognosemodellen en submodellen
-
-In deze sectie wordt beschreven hoe u prognosemodellen maakt en hoe u meerdere prognosemodellen combineert door submodellen in te stellen.
-
-Een *prognosemodel* benoemt en identificeert een bepaalde prognose. Nadat u het prognosemodel hebt gemaakt, kunt u er prognoseregels aan toevoegen. Als u prognoseregels voor meerdere artikelen wilt toevoegen, gebruikt u de pagina **Vraagprognoseregels**. U kunt prognoseregels voor een specifiek geselecteerd artikel toevoegen op de pagina **Vrijgegeven producten**.
-
-Een prognosemodel kan prognoses van andere prognosemodellen bevatten. U bereikt dit resultaat door andere prognosemodellen toe te voegen als *submodellen* van een bovenliggend prognosemodel. U moet elk relevant model maken voordat u dit kunt toevoegen als submodel van een bovenliggend prognosemodel.
-
-De resulterende structuur biedt u een krachtige manier om prognoses te beheren, omdat u hiermee de invoer uit meerdere afzonderlijke prognoses kunt combineren (samengevoegd). Daarom is het vanuit oogpunt van planning eenvoudig om prognoses voor simulaties te combineren. U kunt bijvoorbeeld een simulatie instellen die is gebaseerd op de combinatie van een normale prognose met de prognose voor een lentepromotie.
-
-### <a name="submodel-levels"></a>Submodelniveaus
-
-Er is geen limiet voor het aantal submodellen dat aan een bovenliggend prognosemodel kan worden toegevoegd. De structuur kan echter slechts één niveau diep zijn. Met andere woorden, een prognosemodel dat een submodel is van een ander prognosemodel kan geen eigen submodellen hebben. Wanneer u submodellen aan een prognosemodel toevoegt, controleert het systeem of dat prognosemodel al een submodel of een ander prognosemodel is.
-
-Als er in de hoofdplanning een submodel met eigen submodellen wordt gevonden, wordt een foutbericht weergegeven.
-
-#### <a name="submodel-levels-example"></a>Voorbeeld van submodelniveaus
-
-Prognosemodel A heeft prognosemodel B als submodel. Prognosemodel B kan daarom geen eigen submodellen hebben. Als u een submodel probeert toe te voegen aan prognosemodel B, wordt het volgende foutbericht weergegeven: 'Prognosemodel B is een submodel voor model A'.
-
-### <a name="aggregating-forecasts-across-forecast-models"></a>Prognoses samenvoegen in prognosemodellen
-
-Prognoseregels die op dezelfde dag plaatsvinden, worden samengevoegd in hun prognosemodel en de submodellen.
-
-#### <a name="aggregation-example"></a>Voorbeeld van samenvoeging
-
-Prognosemodel A heeft prognosemodel B en C als submodellen.
-
-- Prognosemodel A bevat een vraagprognose voor 2 stuks op 15 juni.
-- Prognosemodel B bevat een vraagprognose voor 3 stuks op 15 juni.
-- Prognosemodel C bevat een vraagprognose voor 4 stuks op 15 juni.
-
-De resulterende vraagprognose is één vraag naar 9 stuks (2 + 3 + 4) op 15 juni.
-
-> [!NOTE]
-> Elk submodel heeft eigen parameters, niet de parameters van het bovenliggende prognosemodel.
-
-### <a name="create-a-forecast-model"></a>Een prognosemodel maken
-
-Volg deze stappen om een prognosemodel te maken:
-
-1. Ga naar **Hoofdplanning \> Instellen \> Vraagprognose \> Prognosemodellen**.
-1. Selecteer **Nieuw** in het actievenster.
-1. Stel de volgende velden in voor het nieuwe prognosemodel:
-
-    - **Model**: hier kunt u een unieke ID voor het model invoeren.
-    - **Naam**: voer een beschrijvende naam in voor het model.
-    - **Gestopt**: u moet deze optie meestal instellen op *Nee*. Stel het alleen in op *Ja* als u wilt voorkomen dat alle prognoseregels die aan het model zijn toegewezen, worden bewerkt.
-
-    > [!NOTE]
-    > Het veld **Opnemen in cashflowprognoses** en de velden op het sneltabblad **Project** zijn niet gerelateerd aan de hoofdplanning. Daarom kunt u ze in deze context negeren. U moet ze alleen in overweging nemen wanneer u werkt met prognoses voor de module **Projectbeheer en boekhouding**.
-
-### <a name="assign-submodels-to-a-forecast-model"></a>Submodellen toewijzen aan een prognosemodel
-
-Volg deze stappen om submodellen aan een prognosemodel toe te wijzen.
-
-1. Ga naar **Voorraadbeheer \> Instellen \> Prognose \> Prognosemodellen**.
-1. Selecteer in het lijstdeelvenster het prognosemodel waarvoor u een submodel wilt instellen.
-1. Selecteer op het sneltabblad **Submodel** de optie **Toevoegen** om een rij toe te voegen aan het raster.
-1. Stel in de nieuwe rij de volgende velden in.
-
-    - **Submodel**: selecteer het prognosemodel dat u wilt toevoegen als submodel. Dit prognosemodel moet al bestaan en mag geen eigen submodellen hebben.
-    - **Naam**: voer een beschrijvende naam in voor het submodel. Deze naam kan bijvoorbeeld de relatie van het submodel met het bovenliggende prognosemodel aangeven.
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

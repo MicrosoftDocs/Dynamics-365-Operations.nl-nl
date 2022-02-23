@@ -2,9 +2,11 @@
 title: Goedkeuringsstappen configureren in een workflow
 description: In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een goedkeuringsstap configureert.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 84ff82dcb9f4ce930b4f1122790f7989c56fac35
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 09f32833d914c05a1830e2bba36ebe4c66a8a52c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070772"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797091"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>Goedkeuringsstappen configureren in een workflow
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een goedkeuringsstap configureert.
 
@@ -159,7 +158,7 @@ Voer de volgende stappen uit om op te geven aan wie de goedkeuringsstap moet wor
 
     - **Eén fiatteur**: de eerste persoon die reageert bepaalt welke actie op het document wordt toegepast. Stel dat Sam een onkostennota voor 15.000 EUR heeft ingediend. De onkostennota is op dit moment toegewezen aan Suzan, Jo en Bill. Als Suzan als eerste reageert, wordt de actie die zij uitvoert op het document toegepast. Wijst Suzan het document af, dan wordt het document afgewezen en teruggestuurd naar Sam. Als Suzan het document goedkeurt, wordt het ter goedkeuring naar Anne doorgezonden.
 
-        ![Een werkstroom met een goedkeuringsproces.](./media/workflow_multipleusersinstep.gif)
+        ![Een workflow met een goedkeuringsproces](./media/workflow_multipleusersinstep.gif)
 
     - **Meerderheid van fiatteurs**: welke actie op het document wordt toegepast wordt bepaald wanneer een meerderheid van de fiatteurs reageert. Stel dat Sam een onkostennota voor 15.000 EUR heeft ingediend. De onkostennota is op dit moment toegewezen aan Suzan, Jo en Bill. Als Suzan en Jo als eerste twee personen reageren, wordt de actie die zij uitvoeren op het document toegepast.
 
@@ -277,6 +276,3 @@ Als een gebruiker niet binnen de toegekende tijd actie onderneemt op een documen
 
 5. Herhaal stappen 3 tot en met 4 voor elke gebruiker die u aan het escalatiepad wilt toevoegen. U kunt de volgorde van de gebruikers wijzigen.
 6. Als de gebruikers in het escalatiepad niet binnen de gestelde tijd op het document reageren, onderneemt het systeem automatisch actie op het document. Om de actie in te stellen die het systeem moet uitvoeren, selecteert u de rij **Actie** en klikt u op het tabblad **Actie beëindigen**. Selecteer hier een actie.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Typen kritieke eigenschappen van activa
 description: In het onderwerp wordt uitgelegd hoe u typen kritieke eigenschappen van activa maakt in Activabeheer.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetCriticality, EntAssetObjectCriticality
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9edf55c22375a66fda04ae7ff76d7a0a191140e5ffb3a377b9ac1a7ba604a8d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9d2c5e8b6676abf03fe0d3de8b23f125713d6f2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776915"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021699"
 ---
 # <a name="asset-criticality-types"></a>Typen kritieke eigenschappen van activa
 
@@ -40,7 +42,7 @@ Als u kritieke eigenschappen wilt instellen, maakt u eerst de typen kritieke eig
 4. Voer in het veld **Naam** een naam voor het type kritieke eigenschappen in.
 5. Voer in het veld **Factor** een factor in. Deze factor wordt gebruikt tijdens de berekening van de werkorderplanning om de record voor kritieke eigenschappen te bepalen die moet worden gebruikt. (Er wordt altijd gebruikgemaakt van de record met de hoogste factor.) Deze instelling is relevant als, zoals wordt weergegeven in de volgende afbeelding, regels voor kritieke eigenschappen worden gemaakt met dezelfde waarde voor kritieke eigenschappen.
 
-    ![Pagina Typen kritieke eigenschappen.](media/23-setup-for-objects.png)
+    ![Pagina Typen kritieke eigenschappen](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>Kritieke eigenschappen van activa instellen
 
@@ -59,6 +61,3 @@ Als u kritieke eigenschappen wilt instellen, maakt u eerst de typen kritieke eig
 - De kritieke eigenschappen van een werkorder worden telkens opnieuw berekend wanneer een werkorderregel wordt toegevoegd aan of verwijderd uit de werkorder.
 - Als een werkorder meerdere werkordertaken bevat, wordt voor de werkorder altijd gebruikgemaakt van de hoogste kritieke eigenschappen, volgens het veld **Factor** op de pagina **Typen kritieke eigenschappen**.
 - Over het algemeen kunnen kritieke eigenschappen van activa veranderen gedurende een periode. Kritieke eigenschappen kunnen worden beïnvloed door de aanschaf van nieuwe apparatuur, verbouwingen, enzovoort. Overweeg om de kritieke eigenschappen van uw activa op regelmatige tijdstippen opnieuw te evalueren (bijvoorbeeld één keer per jaar of om het andere jaar) om ervoor te zorgen dat uw definities voor kritieke eigenschappen overeenkomen met uw huidige productie-instellingen.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

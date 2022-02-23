@@ -2,25 +2,28 @@
 title: Leaseparameters configureren (preview)
 description: In dit onderwerp worden de configuratie-instellingen voor Activa leasen beschreven, zoals beveiligingsinformatie en boekhoudinstellingen.
 author: moaamer
-ms.date: 01/11/2022
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeasePostingAccounts
+ms.search.form: TaxTable
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2a644b3c9d9ed4fc86a816af1ab338b96b1aa7ad
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: f71006570cd8f2bdc0385388eae0800cd29d3ec8
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968072"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4442164"
 ---
 # <a name="configure-lease-parameters"></a>Leaseparameters configureren
 
@@ -39,11 +42,7 @@ Verschillende configuratie-instellingen zijn van invloed op de werking van de Ac
 
     Als u deze optie instelt op **Ja** en het overgangstype van het boek is ingesteld op **optie A of B voor cumulatief verzamelen**, stelt het systeem het veld **Verhoogd leningtarief** in op de waarde van het veld **Verhoogd leningtarief bij overgang** op de pagina **Instellingen voor boeken**. Als deze optie is ingesteld op **Nee**, wordt het tarief op de hoofdlease ingesteld op de waarde van het veld **Verhoogd leningtarief** op de pagina **Boekdetails**, ongeacht het overgangstype van het boek.
 
-4. Stel de optie **Afschrijvingsomkeringen voor afgesloten boek toestaan** in op **Ja** om het terugboeken van onkostentransacties voor afschrijving toe te staan. Onkostentransacties kunnen worden omgekeerd, zelfs als de boekversie is afgesloten.
+4. Stel de optie **Afschrijvingsomkeringen voor afgesloten boekversie toestaan** in op **Ja** om het terugboeken van onkostentransacties voor afschrijving toe te staan. Onkostentransacties kunnen worden omgekeerd, zelfs als de boekversie is afgesloten.
 
     > [!NOTE]
     > U kunt deze optie het beste op **Nee** instellen. De instelling van deze optie wordt gebruikt als validatie en controle om te voorkomen dat een gesloten boekversie onbedoeld wordt afgeschreven. U kunt de nettoboekwaarde en de toekomstige afschrijvingsberekeningen nauwkeurig bijhouden door de optie op **Nee** in te stellen.
-
-5. Stel de optie **Betalingsbedrag opsplitsen toestaan** in op **Ja** als u de uitsplitsing van de betalingsbedragen wilt toestaan op het sneltabblad **Betalingsschemaregels** van de pagina **Lease**. De opsplitingstypen van de betalingen worden gedefinieerd onder **Instellingen** op de pagina **Betalingsbedragtypen**. 
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

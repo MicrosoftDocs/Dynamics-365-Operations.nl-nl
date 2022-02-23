@@ -2,9 +2,11 @@
 title: Werkitems in een workflow delegeren
 description: Als u gedurende niet op kantoor aanwezig zult zijn of als u niet beschikbaar bent om werkitems op te volgen, kunt u uw werkitems aan andere gebruikers delegeren of toewijzen.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 07/07/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserSetup, WorkflowDelegationUserListLookup
 audience: Application User
@@ -13,19 +15,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 128dce6a1b852d908e01c348cb767088031b11a5
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 48d8fd06217d318fa8208e11ffa5624f6be25be1
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070092"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796701"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>Werkitems in een workflow delegeren
 
 [!include [banner](../../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 ## <a name="manually-delegate-a-work-item"></a>Een werkitem handmatig delegeren
 
@@ -61,6 +60,3 @@ Als u van plan bent om buiten kantoor te zijn of anderszins niet beschikbaar ben
 8. Typ in het veld **Einddatum** de datum en een tijd.
 9. Schakel het selectievakje **Ingeschakeld** in om de machtigingsregel te activeren. 
 10. Voer in het veld **Opmerking** tekst in met uw reden voor het delegeren van de werkitems.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,28 +1,28 @@
 ---
 title: Financiële rapportage
-description: Financiële rapportage stelt financiële en bedrijfsprofessionals in staat om financiële overzichten te maken, te beheren, te gebruiken en weer te geven.
+description: Financiële rapportage stelt financiële en bedrijfsprofessionals in staat om financiële overzichten te maken, te beheren, te gebruiken en weer te geven. Het gaat verder dan traditionele rapportagebeperkingen om u te helpen op efficiënte verschillende typen rapporten te ontwerpen.
 author: aprilolson
+manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinanicalReportingSetup
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-- "68813"
-- intro-internal
+ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 20e2b4cb2b68500eeee06f1be5d95fc2cbab246f43b5e4a0e83eca7a8be53005
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7da0d1aa4bb10658c66fce996e00b5714125f100
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769869"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682691"
 ---
 # <a name="financial-reporting"></a>Financiële rapportage
 
@@ -96,6 +96,3 @@ De volgende onderdelen van financiële rapportage maken het gemakkelijk om rappo
 
 ## <a name="additional-resources"></a>Aanvullende resources
 [Financiële rapporten genereren](generate-financial-report.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

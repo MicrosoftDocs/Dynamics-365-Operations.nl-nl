@@ -1,42 +1,36 @@
 ---
 title: Opties voor dekking maken
-description: In dit onderwerp worden de dekkingsopties in Microsoft Dynamics 365 Human Resources beschreven voor de selectie van een deelnemer in een vergoedingsplan of -programma.
-author: twheeloc
-ms.date: 08/24/2021
+description: Dekkingsopties in Microsoft Dynamics 365 Human Resources zijn dekkingsniveaus voor de selectie van een deelnemer in een vergoedingsplan of -programma.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 01eb0c56578cf6f6b070c4a05768ec5361993555
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 8690dbe00c2316ccf745f5222c3cbaa9c3379f85
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065863"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418026"
 ---
 # <a name="create-coverage-options"></a>Opties voor dekking maken
 
+Dekkingsopties in Microsoft Dynamics 365 Human Resources zijn dekkingsniveaus voor de selectie van een deelnemer in een vergoedingsplan of -programma. Dekkingsopties kunnen bijvoorbeeld **Alleen werknemer** zijn voor een medisch plan of **2x salaris** voor een levensverzekeringsplan. Nadat u dit hebt gedefinieerd, kunt u de dekkingsopties voor vergoedingen opnieuw gebruiken. U kunt een optie aan een of meer plannen koppelen.
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+Nadat u de dekkingsopties hebt gedefinieerd, koppelt u de dekkingsopties aan een type vergoedingsplan. Het plantype wordt vervolgens gekoppeld aan een vergoedingsplan of -programma. De dekkingsopties die aan een plantype zijn gekoppeld, zijn beschikbaar voor alle plannen die met dat plantype worden gemaakt. 
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Opties voor dekking bepalen wie gedekt moet worden of hoeveel dekking er in een verzekeringsplan beschikbaar is. Voor een medische planning hebt u bijvoorbeeld een optie **Alleen-werknemer**, een optie **Werknemer + 1** en een optie **Familie**. Voor levensverzekering kunt u een dekking bieden van **1 x salaris** of **2 x salaris**.
-
-Nadat opties voor vergoedingsdekking zijn gedefinieerd, kunt u deze opnieuw gebruiken. U kunt een optie aan een of meer plannen koppelen.
-
-> [!IMPORTANT]
-> Nadat u de dekkingsopties hebt gedefinieerd, koppelt u ze aan een type vergoedingsplan. Het plantype wordt vervolgens gekoppeld aan een vergoedingsplan of -programma. De dekkingsopties die aan een plantype zijn gekoppeld, zijn beschikbaar voor alle plannen van dat type die worden gemaakt.
-
-## <a name="create-coverage-options"></a>Opties voor dekking maken
 1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Instellen** de optie **Dekkingsopties**.
 
 2. Selecteer **Nieuw**.
@@ -47,9 +41,9 @@ Nadat opties voor vergoedingsdekking zijn gedefinieerd, kunt u deze opnieuw gebr
    | --- | --- |
    | **Dekkingsoptie** | Een unieke naam voor de dekkingsoptie. |
    | **Beschrijving** | Een omschrijving van de dekkingsoptie. |
-   | **Dekkingscode** | Met dekkingscodes worden minimum- en maximumbedragen toegewezen aan elk in type persoon dat in aanmerking komt voor de dekking. Een dekkingscode geeft aan wie is gedekt of hoeveel dekking er voor een plantype is toegestaan. U kunt het bedrag van de dekking uitdrukken als een bedrag in euro's of een percentage. Bijvoorbeeld:<ul><li>**Werknemer+1**: om hiervoor in aanmerking te komen, moet de werknemer één gezinslid hebben geselecteerd (als er meer dan één persoon wordt geselecteerd, komt de werknemer niet meer in aanmerking).</li><li>**Werknemer+familie**: om hiervoor in aanmerking te komen, moet de werknemer ten minste twee gezinsleden hebben geselecteerd.</li></ul> |
+   | **Dekkingscode** | Met dekkingscodes worden minimum- en maximumbedragen toegewezen aan elk in type persoon dat in aanmerking komt voor de dekking. Een dekkingscode geeft aan wie is gedekt of hoeveel dekking er voor een plantype is toegestaan. U kunt het bedrag van de dekking uitdrukken als een bedrag in euro's of een percentage. Bijvoorbeeld:</br></br>- **Werknemer+1** – om hiervoor in aanmerking te komen, moet de werknemer één gezinslid hebben geselecteerd (als er meer dan één persoon wordt geselecteerd, komt de werknemer niet meer in aanmerking).</br></br>- **Werknemer+familie** - om hiervoor in aanmerking te komen, moet de werknemer ten minste twee gezinsleden hebben geselecteerd. |
    | **Maximum aantal** | Het maximale aantal gezinsleden. |
-   | **Status** | De status van de dekkingsoptie. Als de status van de dekkingsoptie is ingesteld op **Inactief**, kan de dekkingsoptie niet worden geselecteerd voor plantypen. |
+   | **Status** | De status van de dekkingsoptie. Als de status van de dekkingsoptie is ingesteld op Inactief, kan de dekkingsoptie niet worden geselecteerd voor plantypen. |
    | **Percentage** | Het percentage. Dit veld is alleen actief als '% x salaris' is geselecteerd in het veld Dekkingscode. |
    | **Deler** | De deler die bij de berekening moet worden gebruikt wanneer u de dekkingscode '% x salaris' selecteert. |
    | **Minimumpercentage** | Het minimumpercentage wanneer u de dekkingscode Percentage selecteert. |
@@ -61,10 +55,7 @@ Nadat opties voor vergoedingsdekking zijn gedefinieerd, kunt u deze opnieuw gebr
 
    | Veld | Beschrijving |
    | --- | --- |
-   | **Bijdragebedrag werknemer toestaan** | Geeft aan of werknemers het bijdragebedrag In Vergoedingen via selfservice mogen wijzigen wanneer ze vergoedingen selecteren. Als u dit selectievakje inschakelt, worden de parameters van het vergoedingsplan berekend op basis van het bijdragebedrag dat de werknemer invoert bij Selfservice voor vergoedingen. |
-   | **Dekkingsbedrag werknemer toestaan** | Geeft aan of werknemers het dekkingsbedrag in Vergoedingen via selfservice mogen wijzigen wanneer ze vergoedingen selecteren. Als u dit selectievakje inschakelt, worden de parameters van het vergoedingsplan berekend op basis van het dekkingsbedrag dat de werknemer invoert in Werknemerselfservice. |
+   | **Bijdragebedrag werknemer toestaan** | Geeft aan of werknemers het bijdragebedrag voor vergoedingen via selfservice mogen wijzigen wanneer ze vergoedingen selecteren. Als u dit selectievakje inschakelt, worden de parameters van het vergoedingsplan berekend op basis van het bijdragebedrag dat de werknemer invoert via de selfservice voor vergoedingen. |
+   | **Dekkingsbedrag werknemer toestaan** | Geeft aan of werknemers het dekkingsbedrag voor vergoedingen via selfservice mogen wijzigen wanneer ze vergoedingen selecteren. Als u dit selectievakje inschakelt, worden de parameters van het vergoedingsplan berekend op basis van het dekkingsbedrag dat de werknemer invoert in Werknemerselfservice. |
 
 6. Selecteer **Opslaan**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

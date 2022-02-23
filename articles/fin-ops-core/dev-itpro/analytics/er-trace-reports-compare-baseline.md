@@ -2,9 +2,11 @@
 title: Gegenereerde rapportresultaten traceren en vergelijken met basislijnwaarden
 description: Dit onderwerp biedt informatie over hoe u de resultaten van gegenereerde ER-rapporten (elektronische rapportage) kunt vergelijken met basislijnrapportwaarden.
 author: NickSelin
+manager: AnnBe
 ms.date: 06/17/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9fabdef96b02747c84a76bf42997633842f185e9
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: d89922bd10b6db17d3fee22409137d6ec966858b
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605200"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682818"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Gegenereerde rapportresultaten traceren en vergelijken met basislijnwaarden
 
@@ -52,7 +54,7 @@ Als u de stappen in dit voorbeeld wilt uitvoeren, moet u eerst in RCS de stappen
 2. Geef in het veld **Klasse** de tekst **Bestand bijvoegen** op.
 3. Geef in het veld **Groep** de tekst **Bestand** op.
 
-![Pagina Documenttypen.](media/GER-BaselineSample-SetupDocumentType.PNG "Schermafbeelding van de pagina Documenttypen")
+![Pagina Documenttypen](media/GER-BaselineSample-SetupDocumentType.PNG "Schermafbeelding van de pagina Documenttypen")
 
 > [!NOTE]
 > Een nieuw documenttype met dezelfde naam moet worden geconfigureerd voor elke gegevensset waarvoor u de ER-basislijnfunctie wilt gebruiken.
@@ -61,11 +63,11 @@ Als u de stappen in dit voorbeeld wilt uitvoeren, moet u eerst in RCS de stappen
 
 1. Selecteer in het werkgebied **Elektronische rapportage** in de sectie **Verwante koppelingen** de optie **Parameters van elektronische rapportage**.
 
-    ![Werkgebied voor elektronische rapportage.](media/GER-BaselineSample-ERWorkspace.PNG "Schermafbeelding van het werkgebied Elektronische rapportage")
+    ![Werkgebied voor elektronische rapportage](media/GER-BaselineSample-ERWorkspace.PNG "Schermafbeelding van het werkgebied Elektronische rapportage")
 
 2. Typ of selecteer op het tabblad **Bijlagen** in het veld **Basislijn** het documenttype dat u zojuist hebt gemaakt.
 
-    ![Het tabblad Bijlagen van de pagina Parameters van elektronische rapportage.](media/GER-BaselineSample-ERParameters.PNG "Schermafbeelding van de pagina Parameters van elektronische rapportage")
+    ![Het tabblad Bijlagen van de pagina Parameters van elektronische rapportage](media/GER-BaselineSample-ERParameters.PNG "Schermafbeelding van de pagina Parameters van elektronische rapportage")
 
 3. Selecteer **Opslaan** en sluit de pagina **Parameters van elektronische rapportage**.
 
@@ -76,7 +78,7 @@ Als u de stappen in dit voorbeeld wilt uitvoeren, moet u eerst in RCS de stappen
 3. Voer in het vervolgkeuzemenu in het veld **Naam** **Model voor leren van ER-basislijnen** in.
 4. Selecteer **Configuratie maken** om het maken van een nieuw ER-gegevensmodel te bevestigen.
 
-![Dialoogvenster Configuratie maken, een nieuwe ER-modelconfiguratie toevoegen.](media/GER-BaselineSample-ModelAdd.PNG "Schermafbeelding van het vervolgkeuzemenu Configuratie maken")
+![Het vervolgkeuzemenu Configuratie maken](media/GER-BaselineSample-ModelAdd.PNG "Schermafbeelding van het vervolgkeuzemenu Configuratie maken")
 
 ### <a name="design-a-data-model"></a>Een gegevensmodel ontwerpen
 
@@ -90,7 +92,7 @@ Als u de stappen in dit voorbeeld wilt uitvoeren, moet u eerst in RCS de stappen
 8. Selecteer **Status wijzigen**.
 9. Selecteer **Voltooid** en vervolgens **OK**.
 
-![Pagina Configuraties.](media/GER-BaselineSample-ModelComplete.PNG "Schermafbeelding van de pagina Configuraties")
+![Pagina Configuraties](media/GER-BaselineSample-ModelComplete.PNG "Schermafbeelding van de pagina Configuraties")
 
 ### <a name="add-a-new-er-format-configuration"></a>Een nieuwe ER-indelingsconfiguratie toevoegen
 
@@ -99,7 +101,7 @@ Als u de stappen in dit voorbeeld wilt uitvoeren, moet u eerst in RCS de stappen
 3. Voer in het veld **Naam** de tekst **Indeling voor leren van ER-basislijnen** in.
 4. Selecteer **Configuratie maken** om het maken van een nieuwe ER-indeling te bevestigen.
 
-![Dialoogvenster Configuratie maken, een nieuwe ER-indelingsconfiguratie toevoegen.](media/GER-BaselineSample-FormatAdd.PNG "Schermafbeelding van het vervolgkeuzemenu Configuratie maken")
+![Het vervolgkeuzemenu Configuratie maken](media/GER-BaselineSample-FormatAdd.PNG "Schermafbeelding van het vervolgkeuzemenu Configuratie maken")
 
 ### <a name="design-a-format"></a>Een indeling ontwerpen
 
@@ -107,41 +109,41 @@ In dit voorbeeld maakt u een eenvoudige ER-indeling voor het genereren van XML-d
 
 1. Selecteer in het actievenster op de pagina **Configuraties** de optie **Ontwerper**.
 2. Selecteer **Basis toevoegen**.
-3. Voer de volgende stappen uit in het dialoogvenster:
+2. Voer de volgende stappen uit in het dialoogvenster:
 
     1. Selecteer **Common\\File** in de structuur.
     2. Voer in het veld **Naam** de tekst **Uitvoer** in.
     3. Selecteer **OK**.
 
-4. Selecteer **Toevoegen**.
-5. Voer de volgende stappen uit in het dialoogvenster:
+3. Selecteer **Toevoegen**.
+4. Voer de volgende stappen uit in het dialoogvenster:
 
     1. Selecteer **XML\\Element** in de structuur.
     2. Voer in het veld **Naam** de tekst **Document** in.
     3. Selecteer **OK**.
 
-6. Selecteer **Output\\Document** in de structuur.
-7. Selecteer **Toevoegen**.
-8. Voer de volgende stappen uit in het dialoogvenster:
+5. Selecteer **Output\\Document** in de structuur.
+6. Selecteer **Toevoegen**.
+7. Voer de volgende stappen uit in het dialoogvenster:
 
     1. Selecteer **XML\\Attribute** in de structuur.
     2. Geef in het veld **Naam** de tekst **Id** op.
     3. Selecteer **OK**.
 
-    ![Pagina Indelingsontwerper, XML-kenmerk geselecteerd in structuur.](media/GER-BaselineSample-FormatLayoutDesign.PNG "Schermafbeelding van de pagina Indelingsontwerper")
+    ![Pagina Indelingsontwerper](media/GER-BaselineSample-FormatLayoutDesign.PNG "Schermafbeelding van de pagina Indelingsontwerper")
 
-9. Selecteer op het tabblad **Toewijzing** de optie **Verwijderen**.
-10. Selecteer **Basis toevoegen**.
-11. Selecteer in het vervolgkeuzemenu in de structuur **Algemeen\\Gebruikersinvoerparameter** en voer vervolgens de volgende stappen uit:
+8. Selecteer op het tabblad **Toewijzing** de optie **Verwijderen**.
+9. Selecteer **Basis toevoegen**.
+10. Selecteer in het vervolgkeuzemenu in de structuur **Algemeen\\Gebruikersinvoerparameter** en voer vervolgens de volgende stappen uit:
 
     1. Geef in het veld **Naam** de tekst **Id** op.
     2. Geef in het veld **Label** de tekst **Id opgeven** op.
     3. Selecteer **OK**.
 
-12. Select **Uitvoer\\Document\\Id** in de structuur.
-13. Selecteer **Binden** en vervolgens **Opslaan**.
+11. Select **Uitvoer\\Document\\Id** in de structuur.
+12. Selecteer **Binden** en vervolgens **Opslaan**.
 
-![Pagina Indelingsontwerper, tabblad Toewijzing.](media/GER-BaselineSample-FormatMappingDesign.PNG "Schermafbeelding van de pagina Indelingsontwerper")
+![Pagina Indelingsontwerper](media/GER-BaselineSample-FormatMappingDesign.PNG "Schermafbeelding van de pagina Indelingsontwerper")
 
 Op basis van de ontworpen structuur genereert de geconfigureerde indeling een XML-bestand. Deze XML bevat het element **Basis** met het kenmerk **Id** dat is ingesteld op de waarde die de gebruiker invoert in het dialoogvenster ER-runtime.
 
@@ -151,11 +153,11 @@ Op basis van de ontworpen structuur genereert de geconfigureerde indeling een XM
 2. Geef in het veld **Id opgeven** het cijfer **1** op.
 3. Selecteer **OK**.
 
-    ![Dialoogvenster Parameters elektronisch rapport.](media/GER-BaselineSample-FormatRunToMakeBaselineFile1.PNG "Schermafbeelding van het dialoogvenster Parameters elektronisch rapport")
+    ![Dialoogvenster Parameters elektronisch rapport](media/GER-BaselineSample-FormatRunToMakeBaselineFile1.PNG "Schermafbeelding van het dialoogvenster Parameters elektronisch rapport")
 
 4. Sla een lokale kopie op van het gegenereerde bestand **out.Admin.xml**, zodat u het later kunt gebruiken als basislijn voor deze ER-indeling.
 
-    ![Melding over het gegenereerde bestand op de pagina Configuraties.](media/GER-BaselineSample-FormatRunToMakeBaselineFile2.PNG "Schermafbeelding van de melding over het gegenereerde bestand op de pagina Configuraties")
+    ![Melding over het gegenereerde bestand op de pagina Configuraties](media/GER-BaselineSample-FormatRunToMakeBaselineFile2.PNG "Schermafbeelding van de melding over het gegenereerde bestand op de pagina Configuraties")
 
 ### <a name="configure-er-parameters-to-use-the-baseline-feature"></a>ER-parameters configureren om de basislijnfunctie te gebruiken
 
@@ -163,20 +165,20 @@ Op basis van de ontworpen structuur genereert de geconfigureerde indeling een XM
 2. Stel de optie **Uitvoeren in foutoplossingsmodus** in op **Ja**.
 3. Selecteer **OK**.
 
-![Dialoogvenster voor gebruikersparameters.](media/GER-BaselineSample-ERUserParameters.PNG "Schermafbeelding van het dialoogvenster Gebruikersparameters")
+![Dialoogvenster voor gebruikersparameters](media/GER-BaselineSample-ERUserParameters.PNG "Schermafbeelding van het dialoogvenster Gebruikersparameters")
 
 ### <a name="add-a-new-baseline-for-designed-er-format"></a>Een nieuwe basislijn voor een ontworpen ER-indeling toevoegen
 
 1. Ga naar **Organisatiebeheer** \> **Elektronische rapportage** \> **Configuraties**.
 2. Selecteer **Basislijnen** in het actievenster.
 
-    ![De knop Basislijnen op de pagina Configuraties.](media/GER-BaselineSample-OpenBaselinePage.PNG "Schermafbeelding van de knop Basislijnen op de pagina Configuraties")
+    ![De knop Basislijnen op de pagina Configuraties](media/GER-BaselineSample-OpenBaselinePage.PNG "Schermafbeelding van de knop Basislijnen op de pagina Configuraties")
 
 3. Selecteer **Nieuw** in het actievenster.
 4. Selecteer de ER-indeling **Indeling voor leren van ER-basislijnen** die u eerder hebt ontworpen.
 5. Selecteer **Opslaan**.
 
-![De pagina Basislijnen voor ER-indeling.](media/GER-BaselineSample-AddBaseline.PNG "Schermafbeelding van de pagina Basislijnen voor ER-indeling")
+![De pagina Basislijnen voor ER-indeling](media/GER-BaselineSample-AddBaseline.PNG "Schermafbeelding van de pagina Basislijnen voor ER-indeling")
 
 De basislijn wordt toegevoegd voor de indeling **Indeling voor leren van ER-basislijnen**.
 
@@ -186,7 +188,7 @@ De basislijn wordt toegevoegd voor de indeling **Indeling voor leren van ER-basi
 2. Selecteer **Nieuw** \> **Bestand** in het actievenster. In de ER-parameters moet het documenttype **Bestand** eerder zijn geselecteerd als het documenttype dat wordt gebruikt voor de opslag van basislijnbestanden.
 3. Selecteer **Bladeren** en selecteer de het bestand **out.Admin.xml** dat is gegenereerd toen u de geconfigureerde ER-indeling eerder uitvoerde.
 
-    ![De pagina Bijlagen.](media/GER-BaselineSample-UploadBaselineFile.PNG "Schermafbeelding van de pagina Bijlagen")
+    ![De pagina Bijlagen](media/GER-BaselineSample-UploadBaselineFile.PNG "Schermafbeelding van de pagina Bijlagen")
 
 4. Sluit de pagina **Bijlagen**.
 5. Selecteer **Nieuw** op het sneltabblad **Basislijnen**.
@@ -201,7 +203,7 @@ De basislijn wordt toegevoegd voor de indeling **Indeling voor leren van ER-basi
 10. In het veld **Basislijn** typt of selecteert u de bijlage **out.Admin**.
 11. Selecteer **Opslaan**.
 
-![Pagina Basislijnen voor ER-indeling, sneltabblad Basislijnen met een basislijn geselecteerd.](media/GER-BaselineSample-SetupBaselineLine.PNG "Schermafbeelding van de pagina Basislijnen voor ER-indeling")
+![De pagina Basislijnen voor ER-indeling](media/GER-BaselineSample-SetupBaselineLine.PNG "Schermafbeelding van de pagina Basislijnen voor ER-indeling")
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>De ontworpen ER-indeling uitvoeren en het logboek controleren om de resultaten te analyseren
 
@@ -212,7 +214,7 @@ De basislijn wordt toegevoegd voor de indeling **Indeling voor leren van ER-basi
 5. Selecteer **OK**.
 6. Ga naar **Organisatiebeheer** \> **Elektronische rapportage** \> **Foutopsporingslogboeken voor configuraties**.
 
-    ![Pagina Elektronische uitvoeringslogboeken, met dezelfde basislijnen.](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Schermafbeelding van de pagina Uitvoeringslogboeken voor elektronische rapportage")
+    ![Pagina Elektronische uitvoeringslogboeken](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Schermafbeelding van de pagina Uitvoeringslogboeken voor elektronische rapportage")
 
     > [!NOTE]
     > Het uitvoeringslogboek bevat informatie over de resultaten van de vergelijking van het gegenereerde bestand met de geconfigureerde basislijn. In dit voorbeeld geeft het logboek aan dat het gegenereerde bestand en de basislijn gelijk zijn.
@@ -228,7 +230,7 @@ De basislijn wordt toegevoegd voor de indeling **Indeling voor leren van ER-basi
 5. Selecteer **OK**.
 6. Ga naar **Organisatiebeheer** \> **Elektronische rapportage** \> **Foutopsporingslogboeken voor configuraties**.
 
-    ![Pagina Elektronische uitvoeringslogboeken, met verschillende basislijnen.](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Schermafbeelding van de pagina Uitvoeringslogboeken voor elektronische rapportage")
+    ![Pagina Elektronische uitvoeringslogboeken](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Schermafbeelding van de pagina Uitvoeringslogboeken voor elektronische rapportage")
 
     > [!NOTE]
     > Het uitvoeringslogboek bevat informatie over de resultaten van de vergelijking van het gegenereerde bestand met de geconfigureerde basislijn. In dit voorbeeld geeft het logboek aan dat het gegenereerde bestand en de basislijn niet gelijk zijn.
@@ -241,6 +243,3 @@ De basislijn wordt toegevoegd voor de indeling **Indeling voor leren van ER-basi
 ## <a name="additional-resources"></a>Aanvullende resources
 
 - [Raamwerk elektronische rapportage (ER) configureren](electronic-reporting-er-configure-parameters.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

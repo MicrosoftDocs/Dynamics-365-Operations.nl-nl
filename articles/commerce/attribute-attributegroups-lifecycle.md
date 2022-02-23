@@ -2,13 +2,16 @@
 title: Kenmerken en kenmerkgroepen beheren
 description: In dit onderwerp wordt beschreven hoe u kenmerken kunt gebruiken om een product en de bijbehorende karakteristieken door middel van door gebruiker gedefinieerde velden te beschrijven.
 author: ashishmsft
+manager: AnnBe
 ms.date: 04/28/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: EcoResCategoryAttribute, EcoResProductEntityAttributeTableFieldAssociation, EcoResCategorySearchList, EcoResAttribute, COODualUseCategories, EcoResAttributeType, EcoResAttributeValue, EcoResCategoryAttributeGroup, EcoResCategoryFriendlyName
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: b3960f0877bdf68dd2f511ad283961b2a92db6a60078e84be55f071a00eae927
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b5d0e92196f98fb707b1c424a6ae237f4dc9545c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727649"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411358"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Kenmerken en kenmerkgroepen beheren
 
@@ -70,7 +73,7 @@ Kenmerken zijn gebaseerd op *kenmerktypen*. Het kenmerktype geeft het gegevensty
     - Geef één kenmerktype de naam **Vorm lens** en voeg de volgende waarden toe: **Ovaal**, **Vierkant** en **Rechthoek**.
     - Geef het andere kenmerktype de naam **Zonnebrilmerk** en voeg de volgende waarden toe: **Ray ban**, **Aviator** en **Oakley**.
 
-![Typen kenmerk.](media/AttributeType.png)
+![Kenmerktypen](media/AttributeType.png)
 
 ### <a name="set-up-an-attribute"></a>Een kenmerk instellen
 
@@ -79,7 +82,7 @@ Kenmerken zijn gebaseerd op *kenmerktypen*. Het kenmerktype geeft het gegevensty
 3. Maak een kenmerk met de naam **Lens**.
 4. Stel het veld **Kenmerktype** in op **Vorm lens**.
 
-![Kenmerken.](media/Attribute.png)
+![Kenmerken](media/Attribute.png)
 
 ## <a name="attribute-metadata"></a>Kenmerkmetagegevens
 
@@ -101,7 +104,7 @@ Dit zijn de overige opties voor kenmerkmetagegevens op de pagina **Kenmerken**:
 
 Deze opties waren oorspronkelijk bedoeld voor het verbeteren van de zoekfunctie voor de online winkel. Hoewel Commerce niet een kant-en-klare online winkel omvat, bevat het product wel de eCommerce Publishing Software Development Kit (SDK). Klanten kunnen met deze SDK producten in een zoekindex van hun keuze plaatsen. Hoewel de productgegevens zijn geïmporteerd, moeten klanten nog steeds onderscheid kunnen maken tussen doorzoekbare gegevens en gegevens die worden opgevraagd, enzovoort. In op die manier kunnen ze een optimale index maken en zorgen dat ze alleen kenmerken indexeren die, *naar hun mening*, moeten worden geïndexeerd.
 
-Zie voor informatie over het doel van deze overige opties [Overzicht van het zoekschema in SharePoint Server 2013](/SharePoint/search/search-schema-overview).
+Zie voor informatie over het doel van deze overige opties [Overzicht van het zoekschema in SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>Filterinstellingen voor kenmerken
 
@@ -134,7 +137,7 @@ De pagina **Voorkeuren van filterweergave** bevat de volgende velden:
     - 200 – 500
     - 500 of meer
 
-![Filterinstellingen van kenmerk.](media/AttributeFilterSettings.PNG)
+![Filterinstellingen van kenmerk](media/AttributeFilterSettings.PNG)
 
 ## <a name="attribute-groups"></a>Kenmerkgroepen
 
@@ -142,7 +145,7 @@ Nadat de kenmerken zijn gedefinieerd, kunnen ze worden toegewezen aan de kenmerk
 
 U kunt ook standaardwaarden instellen voor kenmerken die zijn opgenomen in een kenmerkgroep. U kunt bijvoorbeeld een kenmerk voor kleur toevoegen aan een kenmerkgroep en **blauw** selecteren als de standaardwaarde van het kenmerk. Wanneer de kenmerkgroep in dit geval wordt toegevoegd aan een product waarin kleur een van de eigenschappen is, wordt **blauw** weergegeven als de standaardkleur voor dat product.
 
-![Kenmerkgroepen.](media/AttributeGroup.png)
+![Kenmerkgroepen](media/AttributeGroup.png)
 
 ### <a name="create-an-attribute-group"></a>Een kenmerkgroep maken
 
@@ -155,7 +158,7 @@ U kunt ook standaardwaarden instellen voor kenmerken die zijn opgenomen in een k
 
 Een of meer kenmerkgroepen kunnen worden gekoppeld aan categorieknooppunten in de volgende hiërarchietypen voor categorieën: Commerce-producthiërarchie, hiërarchie van kanaalnavigatiecategorieën en aanvullende productcategoriehiërarchie. Wanneer producten worden gecategoriseerd, erven zij de kenmerken die zijn opgenomen in de kenmerkgroepen.
 
-![Producthiërarchie: productkenmerkgroepen.](media/AGRetailProdHierarchy.PNG)
+![Producthiërarchie: productkenmerkgroepen](media/AGRetailProdHierarchy.PNG)
 
 Volg deze stappen om kenmerkgroepen toe te wijzen aan categorieën in de Commerce-producthiërarchie.
 
@@ -200,7 +203,7 @@ Een of meer kenmerkgroepen kunnen worden gekoppeld aan een of meer winkels in de
     3. Selecteer het categorieknooppunt **Mode-accessoires**, selecteer de categorie **Modieuze zonnebril** en selecteer vervolgens op het sneltabblad **Afzetkanaalproductkenmerken** **Kenmerk opnemen** voor elk kenmerk.
     4. Selecteer het categorieknooppunt **Mannenmode**, selecteer de categorie **Broek** en selecteer vervolgens op het sneltabblad **Afzetkanaalproductkenmerken** **Kenmerk opnemen** voor elk kenmerk.
 
-![Afzetkanaalcategorieën en productkenmerken: kenmerkgroepen.](media/CCPAttrGrp.png)
+![Afzetkanaalcategorieën en productkenmerken: kenmerkgroepen](media/CCPAttrGrp.png)
 
 ## <a name="overriding-attribute-values"></a>Overschrijven van kenmerkwaarden
 
@@ -214,7 +217,7 @@ De standaardwaarden van kenmerken kunnen voor afzonderlijke producten worden ove
 4. Selecteer het vereiste product in het raster. Selecteer vervolgens in het Actievenster het tabblad **Product** in de groep **Instellen** en selecteer **Productkenmerken**.
 5. Selecteer een kenmerk in het linkerdeelvenster en werk vervolgens de waarde bij in het rechterdeelvenster.
 
-![Pagina Productdetails: productkenmerkgroepen.](media/ProdDetailsProdAttrValues.png)
+![Pagina Productdetails: productkenmerkgroepen](media/ProdDetailsProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-catalog"></a>De waarden van kenmerken van producten in een catalogus overschrijven
 
@@ -233,7 +236,7 @@ De standaardwaarden van kenmerken kunnen voor afzonderlijke producten worden ove
     > [!NOTE]
     > Als gedeelde productmedia en gedeelde productkenmerken zijn gemaakt, zijn ze van toepassing op alle producten.
 
-![Kenmerkgroepen van catalogusproducten.](media/CatalogProdAttrValues.png)
+![Kenmerkgroepen van catalogusproducten](media/CatalogProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-channel"></a>De waarden van kenmerken van producten in een kanaal overschrijven
 
@@ -254,6 +257,3 @@ De standaardwaarden van kenmerken kunnen voor afzonderlijke producten worden ove
 
     > [!NOTE]
     > Als gedeelde productmedia en gedeelde productkenmerken zijn gemaakt, zijn ze van toepassing op alle producten.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

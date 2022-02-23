@@ -1,24 +1,27 @@
 ---
 title: Overzicht van Financiële consolidaties en valutaomzetting
 description: Dit onderwerp beschrijft financiële consolidaties en valutaomrekening in het grootboek.
-author: jiwo
-ms.date: 10/07/2021
-ms.topic: overview
+author: aprilolson
+manager: AnnBe
+ms.date: 07/25/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a77fe5e1970c617203706d9d629ac65e3a47909b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982400"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442080"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Overzicht van Financiële consolidaties en valutaomzetting
 
@@ -66,13 +69,13 @@ Hier volgen enkele consolidatiescenario's die met Online consolideren worden ond
 ## <a name="legal-entity-setup"></a>Rechtspersoon instellen
 Voordat u een consolidatie verwerkt, moet u de rechtspersoon instellen. U kunt consolidatie zo vaak als nodig is uitvoeren en alle gegevens worden omgerekend van de valuta voor boekhouding van het bronbedrijf naar de valuta die is gedefinieerd voor het consolidatiebedrijf. Daarom moet u voor de volgende organisatiestructuur, als u alle Noord-Amerikaanse bedrijven eerst naar Amerikaanse dollars (USD) en vervolgens naar de euro (EUR), de valuta van het moederbedrijf, moet omrekenen, ten minste twee consolidatiebedrijven hebben.
 
-![Organisatiestructuur.](./media/organizational-structure.png "Organisatiestructuur")
+![Organisatiestructuur](./media/organizational-structure.png "Organisatiestructuur")
 
 In de voorgaande organisatiestructuur moet u een rechtspersoon voor de Noord-Amerikaanse consolidatie hebben, omdat consolidaties altijd van de valuta voor boekhouding van het bronbedrijf naar de valuta van het consolidatiebedrijf worden geconsolideerd. In het voorbeeld worden, als alle bedrijven zijn opgenomen in één consolidatie, de Mexicaanse dochtermaatschappij omgerekend van Mexicaanse peso's (MXN) naar EUR en niet van MXN naar USD naar EUR.
 
 Wanneer u de rechtspersoon maakt, kunt u opgeven of het bedrijf wordt gebruikt voor zowel het consolidatieproces als het schrappingsproces of slechts voor een van deze processen. In de volgende afbeelding wordt het bedrijf voor beide processen gebruikt. Houd er rekening mee dat u geen dagelijkse journalen in een consolidatiebedrijf kunt boeken, maar u kunt ze wel in een eliminatiebedrijf boeken. Daarom wilt u wellicht een afzonderlijk eliminatiebedrijf hebben.
 
-![Rechtspersoon die wordt gebruikt voor zowel consolidatie als schrapping.](./media/sep-elimination-company.png "Rechtspersoon die wordt gebruikt voor zowel consolidatie als schrapping")
+![Rechtspersoon die wordt gebruikt voor zowel consolidatie als schrapping](./media/sep-elimination-company.png "Rechtspersoon die wordt gebruikt voor zowel consolidatie als schrapping")
 
 ## <a name="main-accounts-and-consolidation-account-groups"></a>Hoofdrekeningen en consolidatierekeninggroepen
 Eén keuze die u moet maken, is hoe u uw rekeningschema wilt consolideren. U hebt drie opties voor het consolideren van hoofdrekeningen tijdens het consolidatieproces.
@@ -81,11 +84,11 @@ De eerste optie is het gebruik van de hoofdrekeningen van de bronbedrijven. In d
 
 De tweede optie bestaat eruit een standaardrekening voor consolidatie op te geven op de pagina **Hoofdrekeningen**. De rekening wordt vervolgens toegewezen aan de consolidatierekening. Deze optie kan handig zijn wanneer u verschillende rekeningschema's hebt of moet toewijzen aan een rekeningschema dat is gedefinieerd door het hoofdkantoor.
 
-![Standaardconsolidatierekening opgegeven op de pagina Hoofdrekeningen.](./media/main-accounts.png "Standaardconsolidatierekening opgegeven op de pagina Hoofdrekeningen")
+![Standaardconsolidatierekening opgegeven op de pagina Hoofdrekeningen](./media/main-accounts.png "Standaardconsolidatierekening opgegeven op de pagina Hoofdrekeningen")
 
 De derde optie is het gebruik van consolidatierekeninggroepen. U kunt zoveel consolidatierekeninggroepen als nodig zijn definiëren. Vervolgens wijst u op de pagina **Aanvullende consolidatierekeningen** de hoofdrekening uit het rekeningschema toe aan de rekening die u nodig hebt voor die groep.
 
-![Toewijzing op de pagina Aanvullende consolidatierekeningen.](./media/additional-consolidation-accounts.png "Toewijzing op de pagina Aanvullende consolidatierekeningen")
+![Toewijzing op de pagina Aanvullende consolidatierekeningen](./media/additional-consolidation-accounts.png "Toewijzing op de pagina Aanvullende consolidatierekeningen")
 
 ## <a name="consolidating-online"></a>Online consolideren
 Zie voor informatie over het invoeren van details van online consolidaties [Online financiële consolidaties](./consolidate-online.md).
@@ -97,7 +100,7 @@ Als u de resultaten van de consolidatie wilt bekijken, hebt u meerdere opties:
 - Controleer de lijstpagina **Proefbalans** in het consolidatiebedrijf.
 - Geef in de lijst met consolidatietransacties op de pagina **Consolidaties** de saldi weer die per datum zijn gemaakt voor elk bronbedrijf voor elke periode.
 
-    ![Consolidatietransacties op de pagina Consolidaties.](./media/managing-consolidation-transactions.png "Consolidatietransacties op de pagina Consolidaties")
+    ![Consolidatietransacties op de pagina Consolidaties](./media/managing-consolidation-transactions.png "Consolidatietransacties op de pagina Consolidaties")
 
 Als u de consolidatie opnieuw wilt uitvoeren, kunt u de consolidatie gewoon verwerken. U kunt ook eerst **Transacties verwijderen** op de pagina **Consolidaties** selecteren.
 Als de saldi op uw geconsolideerde rekening niet nauwkeurig zijn, kunnen deze saldi worden gecorrigeerd met de pagina **Correcties van afsluitperiode**.
@@ -118,15 +121,15 @@ De instellingen voor schrappingen vindt u in het gedeelte **Instellen** van de m
 
 U kunt indien nodig de datum instellen waarop de schrappingsregel van kracht wordt en de datum waarop deze verloopt. U moet de optie **Actief** instellen op **Ja** als u wilt dat de schrappingsregel beschikbaar is in het schrappingsvoorstelproces. Selecteer een journaalnaam van het type **Schrapping**.
 
-![Basiseigenschappen van een schrappingsregel.](./media/ledger-elimination-rule-journal.png "Basiseigenschappen van een schrappingsregel")
+![Basiseigenschappen van een schrappingsregel](./media/ledger-elimination-rule-journal.png "Basiseigenschappen van een schrappingsregel")
 
 Nadat u de basiseigenschappen hebt gedefinieerd, selecteert u **Regels** om de werkelijke verwerkingsregels te definiëren. Er zijn twee opties voor schrappingen: u kunt het bedrag van de nettowijziging verwijderen of een vast bedrag definiëren.
 
-Selecteer de bronrekeningen. U kunt een sterretje (\*) als jokerteken gebruiken. Zo worden met **1\**_ alle rekeningen geselecteerd die beginnen met een _* 1** als bron van gegevens voor de toewijzing.
+Selecteer de bronrekeningen. U kunt een sterretje (\*) als jokerteken gebruiken. Zo worden met **1\*** alle rekeningen die beginnen met een **1** als bron van gegevens voor de toewijzing geselecteerd.
 
 Nadat u de bronrekeningen hebt geselecteerd, gebruikt u het veld **Rekeningspecificatie** om de rekening op te geven die van het doelbedrijf wordt gebruikt. Selecteer **Bron** als u dezelfde hoofdrekening wilt gebruiken die is gedefinieerd in de bronrekening. Als u **Door gebruiker gedefinieerd** selecteert, moet u een doelrekening opgeven.
 
-![Pagina Schrappingsregel regel grootboek.](./media/ledger-elimination-rule-line.png "Pagina Schrappingsregel regel grootboek")
+![Pagina Schrappingsregel regel grootboek](./media/ledger-elimination-rule-line.png "Pagina Schrappingsregel regel grootboek")
 
 Het veld **Dimensiespecificatie** werkt net als het veld **Rekeningspecificatie**. Selecteer **Bron** als u dezelfde dimensies in het doelbedrijf en het bronbedrijf wilt gebruiken. Als u **Door gebruiker gedefinieerd** selecteert, moet u de dimensies opgeven in het doelbedrijf door **Doeldimensies** te selecteren. Selecteer vervolgens brondimensies en de financiële dimensies en waarden die worden gebruikt als bron van de schrapping.
 
@@ -165,8 +168,7 @@ Klanten die Financiële rapportage voor financiële consolidaties en valutaomrek
 - **Gestroomlijnde valutaomrekening**: na de minimale instelling in Finance kunt u elk rapport van Financiële rapportage omzetten in elke valuta voor rapportage die is ingesteld. Daarnaast kunt u een onbeperkt aantal rapportagevaluta´s instellen.
 - **Schrappingen boeken bij de bron**: u kunt een schrappingsrapport maken en afdrukken om schrappingstransacties te verifiëren. Vervolgens kunt u alle nieuwe schrappingen boeken als standaard intercompany-transacties. U kunt ook een rechtspersoon voor schrapping gebruiken voor elke transactie die u niet in uw rechtspersonen wilt.
 
-## <a name="supported-consolidation-scenarios-for-financial-reporting"></a>Ondersteunde consolidatiescenario's voor financiële rapportage
-
+## <a name="supported-consolidation-scenarios"></a>Ondersteunde consolidatiescenario's
 Hier volgen enkele consolidatiescenario's die in Financiële rapportage worden ondersteund:
 
 - Consolidaties op één niveau en meerdere niveaus voor rechtspersonen
@@ -180,18 +182,3 @@ Hier volgen enkele consolidatiescenario's die in Financiële rapportage worden o
 
 ## <a name="generating-consolidated-financial-statements"></a>Geconsolideerde financiële overzichten genereren
 Zie voor informatie over scenario's waarin u mogelijk geconsolideerde financiële overzichten genereert [Geconsolideerde financiële overzichten genereren](./generating-consolidated-financial-statements.md).
-
-## <a name="performance-enhancement-for-large-consolidations"></a>Prestatieverbetering voor grote consolidaties
-
-Omgevingen met veel grootboektransacties kunnen trager worden uitgevoerd dan optimaal is. U kunt dit probleem oplossen door een parallelle verwerking van batches in te stellen waarbij een door de gebruiker gedefinieerd aantal datums wordt gebruikt. Om er zeker van te zijn dat de oplossing werkt zoals bedoeld, voegt u een uitbreidingspunt aan de consolidatie toe om een container met datumbereiken te retourneren. De basisimplementatie moet één datumbereik bevatten voor de begin- en einddatum van de consolidatie. Datumbereiken in de basisuitvoering worden gevalideerd om te voorkomen dat er sprake van hiaten of overlapping is. De datumbereiken worden gebruikt om parallelle batchbundels voor elk bedrijf te maken.
-
-U kunt het aantal datumbereiken aanpassen om aan de behoeften van uw organisatie te voldoen. Door het aantal datumbereiken aan te passen, kunt u het testen vereenvoudigen en de invloed op bestaande code beperken omdat er geen toewijzingslogica is. De enige nieuwe tests die vereist zijn, valideren het maken van batchbundels, valideren datumbereiken en testen een subset van datumbereiken om te controleren of de batches samen kunnen worden gebracht voor de laatste batchtaak. 
-
-Door deze functie wordt het consolidatieproces in Grootboek verbeterd wanneer het proces in een batch wordt uitgevoerd. De verbetering verbetert de prestaties van het grootboekconsolidatieproces door de consolidatie op te splitsen in meerdere taken die parallel kunnen worden verwerkt. In de standaardmethode voor het uitvoeren van een consolidatie verwerkt elke taak acht dagen aan grootboekactiviteit. Er is echter een uitbreidingspunt toegevoegd waarmee u het gemaakte aantal taken kunt aanpassen.
-
-Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen het werkgebied **Functiebeheer** gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
-
-- **Module:** Grootboek
-- **Functienaam:** Prestatieverbetering voor grote consolidaties
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,54 +1,60 @@
 ---
-title: Configuratie voor twee keer wegschrijven verifiëren in apps voor financiële en bedrijfsactiviteiten en Dataverse
-description: In dit onderwerp wordt uitgelegd hoe u kunt bepalen of Twee keer wegschrijven is geconfigureerd in apps voor financiële en bedrijfsactiviteiten en in Dataverse.
+title: Controleer of Twee keer wegschrijven is geconfigureerd in Finance and Operations-apps en Dataverse
+description: In dit onderwerp wordt uitgelegd hoe u kunt bepalen of Twee keer wegschrijven is geconfigureerd in Finance and Operations-apps en Dataverse.
 author: RamaKrishnamoorthy
+manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
-ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 3fa16a450032464e445ae166f0699fe0dc388071
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-03-16
+ms.openlocfilehash: f389bcf133cc7e6a086167d5e26c1b8795d0fa30
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062795"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685534"
 ---
-# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Configuratie voor twee keer wegschrijven verifiëren in apps voor financiële en bedrijfsactiviteiten en Dataverse
+# <a name="verify-that-dual-write-is-configured-in-finance-and-operations-apps-and-dataverse"></a>Controleer of Twee keer wegschrijven is geconfigureerd in Finance and Operations-apps en Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
+Dit onderwerp bevat informatie voor het oplossen van problemen voor de integratie van twee keer wegschrijven tussen Finance and Operations-apps en Dataverse. In dit onderwerp wordt specifiek uitgelegd hoe u kunt bepalen of Twee keer wegschrijven is geconfigureerd in Finance and Operations-apps en Dataverse.
 
-Dit onderwerp bevat informatie voor het oplossen van problemen met de integratie van Twee keer wegschrijven tussen apps voor financiële en bedrijfsactiviteiten en Dataverse. In dit onderwerp wordt specifiek uitgelegd hoe u kunt bepalen of Twee keer wegschrijven is geconfigureerd in apps voor financiële en bedrijfsactiviteiten en in Dataverse.
-
-## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Configuratie voor twee keer wegschrijven verifiëren in een app voor financiële en bedrijfsactiviteiten
+## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Controleren of Twee keer wegschrijven is geconfigureerd in een Finance and Operations-app
 
 Om te bepalen of de fouten die worden weergegeven wanneer u rijen voor de update probeert op te slaan, afkomstig zijn van Twee keer wegschrijven, controleert u eerst of Twee keer wegschrijven is geconfigureerd.
 
-+ Als u beheerdersrechten hebt in de app voor financiële en bedrijfsactiviteiten, gaat u naar **Werkgebieden \> Gegevensbeheer** en selecteert u de tegel **Twee keer wegschrijven**. Als de details van de gekoppelde omgevingen en de lijst met actieve tabeltoewijzingen worden weergegeven, wordt Twee keer wegschrijven geconfigureerd.
++ Als u beheerdersrechten hebt in de Finance and Operations-app, gaat u naar **Werkruimten \> Gegevensbeheer** en selecteert u de tegel voor **Twee keer wegschrijven**. Als de details van de gekoppelde omgevingen en de lijst met actieve tabeltoewijzingen worden weergegeven, wordt Twee keer wegschrijven geconfigureerd.
 
-    ![De verbinding met de app voor financiële en bedrijfsactiviteiten controleren als u beheerdersbevoegdheden hebt.](media/verify_fin_ops_1.png)
+    ![De verbinding met de Finance and Operations-app controleren als u beheerdersbevoegdheden hebt](media/verify_fin_ops_1.png)
 
-+ Als u geen beheerdersbevoegdheden hebt, wordt er een foutbericht weergegeven: *Kan geen gegevens schrijven naar entiteit \<entity name\>*. In het voorbeeld in de volgende afbeelding kunt u geen klantrij in de app voor financiële en bedrijfsactiviteiten maken, omdat Twee keer wegschrijven is geconfigureerd, maar de verwijzingsgegevens voor de klantengroep en de betalingsvoorwaarden zijn niet aanwezig in Dataverse.
++ Als u geen beheerdersbevoegdheden hebt, wordt er een foutbericht weergegeven: *Kan geen gegevens schrijven naar entiteit \<entity name\>*. In het voorbeeld in de volgende afbeelding kunt u geen klantrij in de Finance and Operations-app maken, omdat Twee keer wegschrijven is geconfigureerd, maar de verwijzingsgegevens voor de klantengroep en de betalingsvoorwaarden zijn niet aanwezig in Dataverse.
 
-    ![De verbinding met de app voor financiële en bedrijfsactiviteiten controleren als u geen beheerdersbevoegdheden hebt.](media/verify_fin_ops_2.png)
+    ![De verbinding met de Finance and Operations-app controleren als u beheerdersbevoegdheden hebt](media/verify_fin_ops_2.png)
 
-Voor informatie over het oplossen van problemen wanneer u gegevens maakt in apps voor financiële en bedrijfsactiviteiten leest u [Problemen met live synchronisatie oplossen](dual-write-troubleshooting-live-sync.md).
+Voor informatie over het oplossen van problemen wanneer u gegevens maakt in Finance and Operations-apps leest u [Problemen met live synchronisatie oplossen](dual-write-troubleshooting-live-sync.md).
 
 ## <a name="verify-that-dual-write-is-configured-in-dataverse"></a>Controleren of Twee keer wegschrijven is geconfigureerd in Dataverse
 
-Wanneer u gegevens maakt en u de kolom **Bedrijf** ziet op pagina's in Dataverse, is Twee keer wegschrijven geconfigureerd.
+Wanneer u gegevens maakt en u het veld **Bedrijf** ziet op pagina's in Dataverse, is Twee keer wegschrijven geconfigureerd.
 
-![De Dataverse-verbinding controleren.](media/verify_cds.png)
+![De Dataverse-verbinding controleren](media/verify_cds.png)
 
 Voor informatie over het oplossen van problemen wanneer u gegevens maakt in Dataverse leest u [Problemen met live synchronisatie oplossen](dual-write-troubleshooting-live-sync.md).
 
 Voor informatie over het weergeven van foutdetails als u fouten tegenkomt bij het maken van gegevens in Dataverse, raadpleegt u [Het traceerlogboek voor de invoegtoepassing inschakelen en weergeven in Dataverse om foutdetails weer te geven](dual-write-troubleshooting.md#enable-view-trace).
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

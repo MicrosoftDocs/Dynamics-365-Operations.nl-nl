@@ -2,22 +2,25 @@
 title: Rapportage voor betalingssaldo instellen (België)
 description: Gebruik deze procedure om BLWI-informatie (Belgisch Luxemburgs Wissel Instituut) in te stellen voor België.
 author: v-oloski
+manager: AnnBe
 ms.date: 07/12/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations
 ms.search.region: Belgium
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36d59465b358d343a9460474e070778e6d9d6f17aa38ea880c8393c5099f6660
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7268b961cf6c79d491fe5b1a698e42bb39b21795
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728695"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408319"
 ---
 # <a name="set-up-payment-balance-reporting-belgium"></a>Rapportage voor betalingssaldo instellen (België)
 
@@ -74,6 +77,3 @@ Deze functionaliteit is beschikbaar voor rechtspersonen die hun primaire adres i
 10. Schakel het selectievakje Betaling opnemen in.
     * Houd er rekening mee dat betalingstransacties standaard niet worden overgeboekt naar het betalingssaldo. De gebruiker moet het veld Betaling opnemen activeren voor doelcodes.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Toegankelijkheidsfuncties
 description: In dit onderwerp wordt de functionaliteit beschreven die is ontworpen voor gebruikers met verschillende handicaps.
 author: TLeforMicrosoft
+manager: AnnBe
 ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,19 +14,16 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 022c51f7050d11caf5ce67c5df8f9f9040a54b98
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2d0dd3ebf4b50f43f9fb1893081ede2a93428c72
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071053"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798690"
 ---
 # <a name="accessibility-features"></a>Toegankelijkheidsopties
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 In dit onderwerp wordt de functionaliteit beschreven die is ontworpen om gebruikers met verschillende handicaps te helpen om deze app te gebruiken. Er zijn bijvoorbeeld functies voor mensen die zichtondersteunende technologieën zoals Microsoft Windows Verteller gebruiken.
 
@@ -55,13 +54,13 @@ Elke actie die beschikbaar is op een pagina, kan worden uitgevoerd met een toets
 
 U wilt de actie **Logboek voor e-mailmelding** uitvoeren die wordt weergegeven in de groep **E-mailmelding** op het tabblad **Verkooporder** in het actievenster.
 
-![Actie Logboek voor e-mailmelding in het actievenster.](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Actie Logboek voor e-mailmelding in het actievenster")
+![Actie Logboek voor e-mailmelding in het actievenster](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Actie Logboek voor e-mailmelding in het actievenster")
 
 U kunt uw toetsenbord gebruiken. Druk op Ctrl+F6 om de focus te verplaatsen naar het actievenster en druk vervolgens herhaaldelijk op Tab tot de focus is verplaatst naar de actie **Logboek voor e-mailmelding**.
 
 U kunt de actie echter ook directer uitvoeren. Druk op een willekeurige plek op de pagina op Ctrl+apostrof (') om het zoekvak voor acties weer te geven.
 
-![Zoekvak voor acties.](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Zoekvak voor acties")
+![Zoekvak voor acties](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Zoekvak voor acties")
 
 Typ in het zoekvak woorden om de actie te beschrijven. De actie wordt beschikbaar gesteld voor u en u kunt deze direct uitvoeren. Door **e-mail**, **meldi** (een gedeeltelijk woord) of **logboek** te typen, kunt u bijvoorbeeld naar de functionaliteit Logboek voor e-mailmelding springen.
 
@@ -98,6 +97,3 @@ Op smartphones en andere kleine schermen zullen de besturingselementen en de for
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Richtlijnen om ontwikkelaars en klanten toegankelijk denken in hun aanpassingen te laten verwerken
 
 Zie [Toegankelijkheid in formulieren, producten en besturingselementen](../../dev-itpro/user-interface/enable-accessibility.md) voor meer informatie over best practices van Microsoft om de toegankelijkheid te vergroten.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

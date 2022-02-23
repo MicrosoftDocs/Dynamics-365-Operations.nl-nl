@@ -1,24 +1,26 @@
 ---
 title: Clientwaarschuwingen per e-mail
 description: Dit onderwerp biedt informatie over het instellen van regels die e-mailberichten verzenden wanneer vooraf gedefinieerde gebeurtenissen optreden.
-author: RichdiMSFT
+author: tjvass
+manager: AnnBe
 ms.date: 09/20/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 4e2205ba3bdf5ec2a4e6d9390007eaf1098293c3dd2a5b2ff1b3c73c7de5a83f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a1d520584e331631bb5a6a88ba6c9a8b50b3d29e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734609"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798618"
 ---
 # <a name="client-alert-notifications-by-email"></a>Clientwaarschuwingen per e-mail
 
@@ -36,7 +38,7 @@ Zie voor meer informatie over het configureren van e-mail [E-mail configureren e
 
 In de volgende afbeelding ziet u het dialoogvenster **Waarschuwingsregel maken**, dat nu een optie **E-mail verzenden** bevat.
 
-[![Dialoogvenster Waarschuwingsregel maken met de optie E-mail verzenden ingesteld op Ja.](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
+[![Dialoogvenster Waarschuwingsregel maken met de optie E-mail verzenden ingesteld op Ja](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
 
 > [!NOTE]
 > Wanneer de optie **E-mail verzenden** is ingesteld op **Ja**, blijven waarschuwingen afgeleverd worden vanuit het actiecentrum.
@@ -47,7 +49,4 @@ De service verzendt e-mailberichten met behulp van vooraf gedefinieerde e-mailsj
 
 De volgende afbeelding toont de structuur van de waarschuwingsmeldingen die per e-mail worden ontvangen.
 
-[![Waarschuwingsberichten op basis van een sjabloon voor maken van records, veldwijzigingen en sjabloonverwijdering.](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[![Waarschuwingsberichten op basis van een sjabloon voor maken van records, veldwijzigingen en sjabloonverwijdering](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)

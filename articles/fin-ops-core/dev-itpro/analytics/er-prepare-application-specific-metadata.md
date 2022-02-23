@@ -2,9 +2,11 @@
 title: Toepassingsspecifieke metagegevens voorbereiden voor RCS en ER
 description: In dit onderwerp wordt uitgelegd hoe u toepassingsspecifieke metagegevens voorbereidt voor Regulatory Configuration Service (RCS) en Elektronische rapportage (ER).
 author: NickSelin
+manager: AnnBe
 ms.date: 04/04/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
@@ -13,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9136bd3db2aee1447d6af3b3c47b908177cee966aba630490cc6e72072525d29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f15b78d3ed5b4df47540f9f89cc69c0b535a7241
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735593"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680189"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Toepassingsspecifieke metagegevens voorbereiden voor RCS en ER
 
@@ -278,6 +280,3 @@ Wanneer u deze modeltoewijzing moet evalueren door de metagegevens van een ander
 ## <a name="additional-resources"></a>Aanvullende resources
 
 U kunt ook de taakbegeleider **Metagegevens van de toepassing die kunnen worden gebruikt in RCS voorbereiden** in de toepassing bekijken, evenals de taakbegeleiders **Metagegevens van de toepassing openen met gebruik van een ER-configuratie** en **Metagegevens van de toepassing openen met gebruik van verbonden toepassingen** in RCS. Deze taakbegeleiders kunt u downloaden van de pagina [Taakbegeleiders voor Elektronische rapportage voor Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

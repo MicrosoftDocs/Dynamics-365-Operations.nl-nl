@@ -1,26 +1,29 @@
 ---
 title: Algemene journaalverwerking
 description: Dit onderwerp beschrijft capaciteiten in Microsoft Dynamics 365 Finance die kunnen helpen algemene journaalverwerking eenvoudiger te maken en dat ook kan helpen waarborgen dat de juiste gegevens worden vastgelegd en dat geen inbreuk wordt gemaakt op de interne controle.
-author: kweekley
+author: ShylaThompson
+manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
-ms.author: kweekley
+ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f9f4019618891909e674c6b936f79778ac84744
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: c067b7b6cbbcad4456df6037da8ab124776261e9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726772"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442076"
 ---
 # <a name="general-journal-processing"></a>Algemene journaalverwerking
 
@@ -34,7 +37,7 @@ Een van de belangrijkste in te stellen gebieden is Journaalnamen. Het is verstan
 
 Op de pagina **Journaalnamen** kunt u de volgende elementen instellen:
 
--   **Goedkeuring workflow** - Om interne controle te verhogen, definieert u journaalworkflows die materiaallimieten vastleggen voor controle- en goedkeuringsstappen, op basis van criteria zoals totale debetbedrag wordt gebaseerd. U stelt werkstromen voor de algemene journalen in op de pagina **Grootboekworkflows**.
+-   **Goedkeuring workflow** - Om interne controle te verhogen, definieert u journaalworkflows die materiaallimieten vastleggen voor controle- en goedkeuringsstappen, op basis van criteria zoals totale debetbedrag wordt gebaseerd. U stelt workflows voor de algemene journalen in op de pagina **Grootboekworkflows**.
 -   **Standaardwaarden** - Selecteer standaardwaarden voor tegenrekeningen, valuta en financiële dimensies.
 -   **Journaalcontrole** - U kunt beperkingen instellen op het bedrijf en het rekeningtype, en ook de segmentwaarden. 
 
@@ -42,14 +45,14 @@ Op de pagina **Journaalnamen** kunt u de volgende elementen instellen:
 
 U kunt een journaalnaam alleen gebruiken voor correcties. In dit geval kunt u opgeven dat alleen het rekeningtype **Grootboek** geldig is voor alle bedrijven. 
 
-[![Rekeningtypen voor journaalcontrole.](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+[![Rekeningtypen voor journaalcontrole](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
 Een journaalnaam kan alleen worden gebruikt voor een specifiek segment of voor een bereik voor hoofdrekeningen. 
 
-[![Journaalcontrolesegment.](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![Journaalcontrolesegment](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 De optie **Automatische omkering** is beschikbare in algemene journalen. U hebt bijvoorbeeld een toerekeningscorrectie waar het werkelijke document nog niet van is verwerkt, zoals in de volgende afbeelding.
-[![Omkering van algemeen journaal.](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+[![Omkering van algemeen journaal](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
 De Microsoft Excel-invoegtoepassing voor journaalboeking biedt een extra niveau van automatisering en maakt gegevensinvoer eenvoudiger. De actie **Regels openen in Excel** is beschikbaar op de pagina's **Algemeen journaal** en **Journaalboekstuk**. 
 
@@ -97,11 +100,8 @@ U kunt **Boeking simuleren** voor de meeste journalen vinden in het menu **Valid
 ## <a name="journal-unlock"></a>Journaal ontgrendelen
 Op de journaalpagina is een knop beschikbaar om een journaal te ontgrendelen waarvan de status 'Vergrendeld door systeem' is ingesteld op Ja. Deze ontgrendeling kan worden uitgevoerd door een systeembeheerder die eventuele batchtaken heeft geanalyseerd en bevestigd dat het journaal niet meer actief wordt verwerkt door een batchtaak. Deze knop wordt ingeschakeld door de functie **Knop Journaal ontgrendelen** op de pagina **Functiebeheer** . 
 
-## <a name="workflow-recall"></a>Werkstroom intrekken 
-De mogelijkheid om een journaal in een werkstroom met de status 'Onherstelbaar' terug te roepen, wordt ingeschakeld via de knop **Workflow** in een journaal en op de pagina **Workflowhistorie**. Deze wordt ingeschakeld door de functie **De werkstroomstatus voor journalen opnieuw instellen** op de pagina **Functiebeheer**.
+## <a name="workflow-recall"></a>Werkstroom terugroepen 
+De mogelijkheid om een journaal in een werkstroom met de status 'Onherstelbaar' terug te roepen, wordt ingeschakeld via de knop **Workflow** in een journaal en op de pagina **Workflowhistorie**. Deze wordt ingeschakeld door de functie **De workflowstatus voor journalen opnieuw instellen** op de pagina **Functiebeheer**.
 
 ## <a name="delete-journal-lines"></a>Journaalregels verwijderen
 De mogelijkheid om alle journaalregels snel te verwijderen, is in een journaal ingeschakeld onder **Functies** > **Journaalregels verwijderen**. Als u deze functie wilt inschakelen, selecteert u op de pagina **Functiebeheer** de optie **Prestatie-optimalisaties van journaal verwijderen**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

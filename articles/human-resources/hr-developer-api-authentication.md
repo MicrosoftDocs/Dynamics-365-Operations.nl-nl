@@ -2,12 +2,15 @@
 title: Authenticatie
 description: Dit artikel bevat overzichtsinformatie over het verifiëren met de Application Programming Interface (API) voor Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
+manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,19 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3396f0ae6d089f43c39f318dc9d92a88a7db3d7c
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: a0509ce99205d49d516e180203ffb65a1dc09a7c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070863"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417912"
 ---
 # <a name="authentication"></a>Authenticatie
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dit artikel bevat overzichtsinformatie over het verifiëren met de Application Programming Interface (API) voor Microsoft Dynamics 365 Human Resources.
 
@@ -84,13 +82,13 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
         - Geef voor webapps de basis-URL van de app op. Zo kan `http://localhost:31544` bijvoorbeeld de URL zijn voor een webapp zijn die op uw lokale computer wordt uitgevoerd. Gebruikers kunnen deze URL gebruiken om zich aan te melden bij een webclient-app.
         - Geef voor openbare clientapps de URI op die Azure AD gebruikt wordt voor het retourneren van tokenantwoorden. Voer een waarde in die specifiek is voor uw app, zoals `myapp://auth`.
 
-        Zie de QuickStarts in [Microsoft-identiteitsplatform (voorheen Azure Active Directory voor ontwikkelaars)](/azure/active-directory/develop/#quickstarts) voor specifieke voorbeelden van webapps of native apps.
+        Zie de QuickStarts in [Microsoft-identiteitsplatform (voorheen Azure Active Directory voor ontwikkelaars)](https://docs.microsoft.com/azure/active-directory/develop/#quickstarts) voor specifieke voorbeelden van webapps of native apps.
 
 5. Selecteer **Een machtiging toevoegen** onder **API-machtigingen**. Zoek vervolgens op het tabblad **API's die mijn organisatie gebruikt** naar **Dynamics 365 Human Resources** en voeg de machtiging **gebruikers\_imitatie** toe aan uw app. De toepassings-id voor Human Resources is f9be0c49-aa22-4ec6-911a-c5da515226ffis. Gebruik deze id om ervoor te zorgen dat u de juiste toepassing hebt gekozen.
 
 6. Selecteer **Registreren**.
 
-   [![Een nieuwe app registreren in de Azure-portal.](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
+   [![Een nieuwe app registreren in de Azure-portal](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
 
 Azure AD wijst een unieke toepassings-id (client-id) toe aan uw app en brengt u naar de pagina **Overzicht** van uw app. Als u meer mogelijkheden aan uw app wilt toevoegen, kunt u andere configuratieopties selecteren, zoals opties voor huisstijl en voor certificaten en geheimen.
 
@@ -187,6 +185,3 @@ namespace TalentODataPoC
 ```
 
 Wanneer u een toegangstoken hebt opgehaald, geeft u het token in de autorisatiekoptekst door als een bearertoken met elke aanvraag die u naar de gegevens-API verzendt, zoals hierboven is beschreven.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

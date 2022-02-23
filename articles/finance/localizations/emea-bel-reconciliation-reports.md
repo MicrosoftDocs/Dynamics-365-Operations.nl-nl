@@ -2,24 +2,27 @@
 title: Afstemmingsrapporten voor België
 description: In dit onderwerp worden de standaardrapporten beschreven die Microsoft Dynamics 365 Finance biedt om u te helpen bij de INTERVAT-belastingaangifte en afstemmingsanalyse.
 author: anasyash
+manager: AnnBe
 ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxReportExtraFieldsBE
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 273103
 ms.search.region: Belgium
 ms.author: roschlom
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: f585d959b96640df384624edd4109aec8e9d4f0f9d8c314faa19be8c5e0b508b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b331d5caec6b479088c7892ab9f85a1da05e2828
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744288"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408334"
 ---
 # <a name="reconciliation-reports-for-belgium"></a>Afstemmingsrapporten voor België
 
@@ -39,21 +42,21 @@ Het rapport **Btw-correctie** biedt een afgedrukt overzicht van INTERVAT-belasti
 
 Als u het rapport **Btw-correctie** wilt afdrukken, gaat u naar **Belasting** \> **Aangiften** \> **Btw** \> **Aanvullende btw-rapportvakken** en klikt u op **Btw-correcties** \> **Afdrukken.**
 
-![Gegenereerd rapport Btw-correcties.](media/1_Sales_tax_corrections.png)
+![Gegenereerd rapport Btw-correcties](media/1_Sales_tax_corrections.png)
 
 ## <a name="sales-tax-list---belgium"></a>Btw-lijst - België
 Gebruik het rapport **Btw-lijst - België** om informatie te bekijken over geboekte btw. Het rapport bevat details over btw-code, naam, grootboekrekening, rekeningnaam, hoeveelheid, bedrag inclusief btw, oorsprong en btw-bedrag. De parameters voor dit rapport bieden u veel flexibiliteit. U kunt een zeer nauwkeurig rapport opvragen door de parameters boekstuk, datum of btw-code te selecteren. Gebruik een filter om rapportparameters in te stellen.
 
 Als u het rapport **Btw-lijst - België** wilt afdrukken, gaat u naar **Btw** \> **Query's en rapporten** \> **Btw-aangiften** \> **Btw-lijst - België**.
 
-![Gegenereerd rapport Btw-lijst.](media/2_Sales_tax_list.png)
+![Gegenereerd rapport Btw-lijst](media/2_Sales_tax_list.png)
 
 ## <a name="sales-tax-transactions---details--belgium"></a>Btw-transacties - Details - België
 Gebruik het rapport **Btw-transacties - Details - België** om informatie weer te geven en af te drukken over geboekte btw-transacties voor een bepaalde periode en een specifiek bereik van btw-codes. De transacties worden opgesomd per btw-code. Voor elke transactie kunt u de klant of leverancier, het boekstuknummer, de rekening waarop het btw-basisbedrag (oorsprong) wordt geboekt, het bedrag waarover btw wordt berekend, het bedrag inclusief btw, het btw-bedrag, de btw-toeslag en de richting van de btw vermeld. De bedragen worden opgeteld voor elke btw-code. De bedragen voor de te ontvangen en te betalen btw worden opgeteld in een eindtotaal. Het rapport bevat ook btw-codes met andere btw-richtingen, zoals gebruiksbelasting.
 
 Als u het rapport **Btw-transacties - Details - België** wilt afdrukken, gaat u naar **Btw** \> **Query's en rapporten** \> **Btw-aangiften** \> **Btw-transacties - Details - België**.
 
-![Gegenereerd rapport Btw-transacties - Details - België.](media/3_Sales_tax_transactions_details.png)
+![Gegenereerd rapport Btw-transacties - Details - België](media/3_Sales_tax_transactions_details.png)
 
 ## <a name="sales-tax-transactions-re-sales"></a>Btw-transacties wederverkoop
 U kunt het rapport **Btw-transacties wederverkoop** gebruiken voor het ophalen van wederverkoopgegevens voor de transactie die specifiek zijn voor België. Deze informatie omvat relevante details, zoals journaal, boekstuk, datum, klantrekening, naam, bedrag en btw-aangiftecodes. Dit rapport wordt gemaakt op btw-vrijstellingsnummer, ondernemingsnummer en periode. Accountmanagers en boekhouders genereren dit rapport periodiek of wanneer dit is vereist.
@@ -63,7 +66,7 @@ U kunt het rapport **Btw-transacties wederverkoop** gebruiken voor het ophalen v
 
 Als u het rapport **Btw-transacties wederverkoop** wilt afdrukken, gaat u naar **Btw** \> **Query's en rapporten** \> **Btw-aangiften** \> **Btw-transacties wederverkoop**.
 
-![Gegenereerd rapport Btw-transacties wederverkoop.](media/4_Sales_tax_transactions_re_sales.png)
+![Gegenereerd rapport Btw-transacties wederverkoop](media/4_Sales_tax_transactions_re_sales.png)
 
 
 ## <a name="sales-tax-transactions---belgium"></a>Btw-transacties - België
@@ -74,7 +77,7 @@ U kunt het rapport sorteren op boekstuk, datum, boekstukvaluta, btw-code en bron
 
 Als u het rapport **Btw-transacties België** wilt afdrukken, gaat u naar **Btw** \> **Query's en rapporten** \> **Btw-aangiften** \> **Btw-transacties - België**.
 
-![Gegenereerd rapport Btw-transacties.](media/5_Sales_tax_transactions.png)
+![Gegenereerd rapport Btw-transacties](media/5_Sales_tax_transactions.png)
 
 ## <a name="sales-tax-by-customer---belgium"></a>Btw per klant - België
 
@@ -96,7 +99,7 @@ Dit rapport kan als volgt worden gegenereerd:
 
 De parameters voor dit rapport bieden u veel flexibiliteit. U kunt een zeer nauwkeurig rapport opvragen door de parameters klantrekening, datum of btw-code te selecteren. Gebruik een filter om rapportparameters nauwkeuriger in te stellen.  Als u het rapport **Btw** **per klant - België** wilt afdrukken, klikt u op **Btw** &gt; **Query's en rapporten** &gt; **Btw-aangiften** &gt; **Btw** **per klant - België**.
 
-![Belgisch gegenereerd rapport Btw per klant.](media/6_Sales_tax_by_customer.png)
+![Belgisch gegenereerd rapport Btw per klant](media/6_Sales_tax_by_customer.png)
 
 ## <a name="sales-tax-by-vendor---belgium"></a>Btw per leverancier - België
 
@@ -118,12 +121,9 @@ Dit rapport kan als volgt worden gegenereerd:
 
 De parameters voor dit rapport bieden u veel flexibiliteit. U kunt een zeer nauwkeurig rapport opvragen door de parameters leveranciersrekening, datum of btw-code te selecteren. Gebruik een filter om rapportparameters nauwkeuriger in te stellen. Als u het rapport **Btw** **per leverancier - België** wilt afdrukken, klikt u op **Btw** &gt; **Query's en rapporten** &gt; **Btw-aangiften** &gt; **Btw** **per leverancier - België**.
 
-![Belgisch gegenereerd rapport Btw per leverancier.](media/7_Sales_tax_by_vendor.png)
+![Belgisch gegenereerd rapport Btw per leverancier](media/7_Sales_tax_by_vendor.png)
 
 ## <a name="purchase-sales-tax-transactions"></a>Btw-inkooptransacties
 Het rapport **btw-transacties voor inkoop** bevat transacties met een inkoopheffing. De inkoopheffing wordt berekend en geboekt samen met btw-betalingen. Inkoopheffingen en btw worden beide aangegeven voor de vereffeningsperiode. De vereffeningsperiode wordt gedefinieerd per btw-dienst op de pagina **Btw-vereffeningsperioden**. De informatie in het koptekstdeel van het rapport bevat relevante gegevens zoals btw-nummer, ondernemingsnummer en periode. De informatie in de detailsectie omvat journaal, boekstuk, datum, leveranciersrekening, naam, bedrag inclusief btw en btw-aangiftecodes. Dit rapport is een extern rapport. De boekhouder of accountingmanager genereert en dient dit periodiek in bij de desbetreffende instanties. Als u het rapport **Btw-transacties voor inkoop** wilt afdrukken, klikt u op **Btw** &gt; **Query's en rapporten** &gt; **Btw-aangiften** &gt;**Btw-transacties voor inkoop**.
 
-![Gegenereerd rapport Btw-inkooptransacties.](media/8_Purchase_sales_tax_transactions.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+![Gegenereerd rapport Btw-inkooptransacties](media/8_Purchase_sales_tax_transactions.png)

@@ -2,13 +2,16 @@
 title: e-Commerce-gebruikers en -rollen beheren
 description: In dit onderwerp wordt uitgelegd hoe u gebruikerstoegang verleent voor de ontwerpomgeving voor uw Microsoft Dynamics 365 Commerce-site.
 author: bicyclingfool
+manager: AnnBe
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ff0d3e607eb905eb9264bbb9ba151fbd527a81a2c72252252f2a45edc201e1b4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9a1f9abae20d0f2e71790a3b27337338dc042b52
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715401"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411265"
 ---
 # <a name="manage-e-commerce-users-and-roles"></a>e-Commerce-gebruikers en -rollen beheren
 
@@ -68,6 +71,3 @@ Nadat de site is gemaakt, hebben alleen gebruikers in de beveiligingsgroepen die
 [Overwegingen bij SEO (Search Engine Optimization) voor uw site](search-engine-optimization-considerations.md)
 
 [Beveiligingsbeleid voor inhoud (CSP) beheren](manage-csp.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

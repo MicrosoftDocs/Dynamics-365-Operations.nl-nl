@@ -2,25 +2,28 @@
 title: Boekingstypen voor lease
 description: In dit onderwerp worden de boekingstypen beschreven die worden gebruikt voor activa-leasingtransacties.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeasePostingAccounts
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 721463000c05eb1774335ccce1af39468c2aed9f179e5e88d8725f4d265d6870
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ceb4fbeb4dbf2f535e05a9d46c84169435d2803b
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718242"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4442172"
 ---
 # <a name="lease-posting-types"></a>Boekingstypen voor lease
 
@@ -89,6 +92,15 @@ De rekening is gekoppeld aan de contra-activumrekening van het RoU-activum. Deze
 **Debet:** afschrijvingskosten XXX<br>
 **Credit:** samengevoegde afschrijving XXX
 
+## <a name="retained-earnings"></a>Ingehouden winst
+
+De rekening is gekoppeld aan ingehouden inkomsten. Deze rekening kan worden gedebiteerd of gecrediteerd in een journaalpost transitiecorrectie met behulp van de volledige retrospectieve methode of de cumulatieve achterstallige optie A-methode. Het verschil tussen het oorspronkelijke RoU-activum en de leaseverplichtingen wordt geboekt op ingehouden winsten. In zeldzame gevallen kunnen de ingehouden winsten ook worden beïnvloed tijdens het wijzigen van de lease, als de classificatie van een lease wordt gewijzigd van financieel naar operationeel om het RoU-activum omhoog of omlaag te schrijven, zodat het gelijk is aan de leaseverplichtingen.
+
+**Voorbeeldjournaalposten:** transitiecorrectie (volledige retrospectieve methode of de cumulatieve achterstallige optie A-methode)<br>
+**Debet:** leaseverplichtingen XXX<br>
+**Credit:** leaseactivum XXX<br>
+**Credit:** ingehouden inkomsten XXX
+
 ## <a name="variable-payment"></a>Variabele betaling
 
 De rekening is gekoppeld aan variabele leasebetalingen die worden geproduceerd door een herwaardering van de index onder ASC 842, ASC 840 en IAS 17 leases. In het leasebetalingsschema worden variabele betalingen opgenomen in de kolom **Variabele betaling**. Deze rekening wordt gedebiteerd wanneer er een factuur wordt gemaakt op basis van een betalingsschemaregel die een variabele betaling bevat.
@@ -142,6 +154,3 @@ De rekening die is geselecteerd voor elk onkostentype wordt gedebiteerd wanneer 
 
 > [!NOTE]
 > De tegenrekening wordt geselecteerd op het leaseniveau op de regels voor het betalingsschema administratieve kosten. Deze tegenrekening kan aan de leverancier of aan een grootboekrekening zijn gekoppeld.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,31 +1,37 @@
 ---
-title: robots.txt-bestanden beheren
+title: Robots.txt-bestanden beheren
 description: In dit onderwerp wordt beschreven hoe u robots.txt-bestanden beheert in Microsoft Dynamics 365 Commerce.
 author: BrianShook
+manager: annbe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e1078de354a96cc50b7c1b79a864db5041ea5069df650670e65531faaeb32e0a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad87594b9c20d0c2b53e8d4e7c1170a78babe74b
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754387"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517447"
 ---
-# <a name="manage-robotstxt-files"></a>robots.txt-bestanden beheren
+# <a name="manage-robotstxt-files"></a>Robots.txt-bestanden beheren
+
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u robots.txt-bestanden beheert in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Overzicht
 
 De uitsluitingsstandaard voor robots, of robots.txt, is een standaard die websites gebruiken om te communiceren met webrobots. Hiermee worden webrobots geïnstrueerd over de gebieden van een website die niet bezocht mogen worden. Robots worden vaak gebruikt door zoekmachines om websites te indexeren.
 
@@ -101,6 +107,3 @@ Volg deze stappen om een robots.txt-bestand te verwijderen in Commerce.
 [Ondersteuning voor een CDN (contentleveringsnetwerk) toevoegen](add-cdn-support.md)
 
 [Detectie van winkels op basis van de locatie inschakelen](enable-store-detection.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

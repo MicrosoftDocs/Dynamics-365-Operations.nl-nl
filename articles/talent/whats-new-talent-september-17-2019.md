@@ -59,6 +59,3 @@ In deze versie is het veld taakgroep toegevoegd aan de pagina **Wijzigingen behe
 Deze functionaliteit is nu beschikbaar in sandbox-omgevingen. Als u deze functie wilt inschakelen, navigeert u naar **Systeembeheer > Koppelingen > Instellingen > Systeemparameters > Voorbeeldfuncties**. Selecteer **Verbeterd medewerkersformulier en navigatie**. Hierdoor worden deze wijzigingen voor alle gebruikers ingeschakeld. U kunt deze optie op elk gewenst moment uitschakelen.
 
 Zie [Gestroomlijnde invoer en navigatie voor werknemers](./streamlined-employee-entry.md) voor meer informatie. Bekijk de wijzigingen door de video [Dynamics 365 for Talent 2019 releasewave 2-overzicht](https://aka.ms/ROGT19RW2ROV) te bekijken.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

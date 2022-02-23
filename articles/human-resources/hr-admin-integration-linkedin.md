@@ -2,12 +2,15 @@
 title: Integreren met LinkedIn Talent Hub
 description: In dit onderwerp wordt uitgelegd hoe u integratie instelt tussen Microsoft Dynamics 365 Human Resources en LinkedIn Talent Hub.
 author: jaredha
+manager: tfehr
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,19 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fb75c391809f1ce5c7d48728a735f347ef1784ed
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441260"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527880"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Integreren met LinkedIn Talent Hub
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+[!include [banner](includes/preview-feature.md)]
 
-> [!IMPORTANT]
-> De in dit onderwerp beschreven integratie tussen Dynamics 365 Human Resources en LinkedIn Talent Hub zal op 31 december 2021 worden beëindigd. De integratieservice zal na deze datum niet meer beschikbaar zijn. Organisaties die de integratieservice nog niet gebruiken, kunnen de service niet implementeren voordat deze wordt beëindigd.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) is een ATS-platform (Applicant Tracking System). Hier zijn sourcing, beheer en aanstelling van werknemers op één plaats mogelijk. Door Microsoft Dynamics 365 Human Resources te integreren met LinkedIn Talent Hub kunt u eenvoudig werknemersrecords in Human Resources maken voor sollicitanten die voor een functie zijn aangesteld.
 
@@ -47,7 +49,7 @@ Een systeembeheerder moet installatietaken voltooien om integratie met LinkedIn 
 
 5. Selecteer op de pagina **Dynamics 365 Human Resources** de omgeving waaraan u LinkedIn Talent Hub wilt koppelen en selecteer vervolgens **Koppelen**.
 
-    ![LinkedIn Talent Hub-onboarding.](./media/hr-admin-integration-talent-hub-onboarding.jpg)
+    ![LinkedIn Talent Hub-onboarding](./media/hr-admin-integration-talent-hub-onboarding.jpg)
 
     > [!NOTE]
     > U kunt alleen koppelingen maken naar omgevingen waarin uw gebruikersaccount beheerderstoegang heeft tot zowel de Human Resources-omgeving als de bijbehorende Power Apps-omgeving. Als er geen omgevingen worden weergegeven op de koppelingspagina Human Resources, controleert u of u een gelicentieerde Human Resources-omgeving hebt op de tenant en of de gebruiker die u op de koppelingspagina hebt aangemeld, beheerdersrechten heeft voor zowel de Human Resources-omgeving als de Power Apps-omgeving.
@@ -90,7 +92,7 @@ Er moet een toepassingsgebruiker worden gemaakt voor de LinkedIn Talent Hub-adap
 
 6. Gebruik het vervolgkeuzemenu boven de lijst om de weergave te wijzigen van de standaardweergave **Ingeschakelde gebruikers** in **Toepassingsgebruikers**.
 
-    ![Weergave van toepassingsgebruikers.](./media/hr-admin-integration-power-apps-application-users.jpg)
+    ![Weergave van toepassingsgebruikers](./media/hr-admin-integration-power-apps-application-users.jpg)
 
 7. Selecteer **Nieuw** op de werkbalk.
 
@@ -125,14 +127,14 @@ Nadat u de nieuwe toepassingsgebruiker in de vorige sectie hebt opgeslagen en ge
     - **Naam**: voer de naam in van de Power Apps-beveiligingsrol die u eerder hebt gemaakt, zoals **HRIS-integratie met LinkedIn Talent Hub**.
     - **Gebruikers-ID**: selecteer een gebruiker met machtigingen voor het schrijven van gegevens in Personeelsbeheer.
 
-### <a name="create-the-table-in-dataverse"></a>De tabel maken in Dataverse
+### <a name="create-the-entity-in-common-data-service"></a>De entiteit maken in Common Data Service
 
 > [!IMPORTANT]
-> De integratie met de LinkedIn Talent Hub is afhankelijk van virtuele tabellen in Dataverse voor Human Resources. Als een voorwaarde voor deze stap in de instellingen moet u virtuele tabellen configureren. Zie [Virtuele tabellen in Dataverse configureren](./hr-admin-integration-common-data-service-virtual-entities.md) voor informatie over het configureren van virtuele tabellen.
+> De integratie met de LinkedIn Talent Hub is afhankelijk van virtuele entiteiten in Common Data Service voor Human Resources. Als een voorwaarde voor deze stap in de instellingen moet u virtuele entiteiten configureren. Zie [Virtuele entiteiten in Common Data Service configureren](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities) voor informatie over het configureren van virtuele entiteiten.
 
-1. Open in Human Resources de pagina **Integratie met Dataverse**.
+1. Open in Human Resources de pagina **Integratie met Common Data Service (CDS)**.
 
-2. Selecteer het tabblad **Virtuele tabellen**.
+2. Selecteer het tabblad **Virtuele entiteiten**.
 
 3. Filter de lijst met entiteiten op entiteitslabel om te zoeken naar **Geëxporteerde kandidaten voor LinkedIn**.
 
@@ -162,7 +164,7 @@ Nadat een kandidaat is verplaatst via het wervingsproces en is aangesteld, kunt 
     - Voer in het veld **Locatie** de locatie in waar de werknemer wordt geplaatst.
     - Voer het e-mailadres van de werknemer in of verifieer het.
 
-![Deelvenster Exporteren naar HRIS in LinkedIn Talent Hub.](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
+![Deelvenster Exporteren naar HRIS in LinkedIn Talent Hub](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
 
 ## <a name="complete-onboarding-in-human-resources"></a>Onboarding in Human Resources voltooien
 
@@ -186,8 +188,5 @@ De volgende details worden geïmporteerd en opgenomen in de nieuwe werknemersrec
 
 ## <a name="see-also"></a>Zie ook
 
-[Virtuele Dataverse-entiteiten configureren](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[Wat is Microsoft Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Virtuele entiteiten van Common Data Service configureren](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Wat is Common Data Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)

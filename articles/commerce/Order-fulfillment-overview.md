@@ -1,25 +1,27 @@
 ---
 title: Winkelorderafhandeling
 description: Dit onderwerp bevat een overzicht van de afhandeling van orders in winkels.
-author: BrianShook
+author: rubencdelgado
+manager: AnnBe
 ms.date: 10/30/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 36ce908e81639fbb836d33ff3e84976c395b1473
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: fa568926ccdde4620294915679cd094adbd1e833
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983337"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965397"
 ---
 # <a name="store-order-fulfillment"></a>Winkelorderafhandeling
 
@@ -33,7 +35,7 @@ De orderafhandelingsbewerking in het verkooppunt biedt één werkgebied in het v
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>Toegang tot uniforme orderafhandeling in het verkooppunt
 
-Orderafhandeling, [bewerkings-id 928](pos-operations.md), kan worden gebruikt om toegang te krijgen tot het werkgebied voor winkelorderafhandeling in het verkooppunt.
+Orderafhandeling, [bewerkings-id 928](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), kan worden gebruikt om toegang te krijgen tot het werkgebied voor winkelorderafhandeling in het verkooppunt.
 
 Voor de orderafhandelingsbewerking bestaat geen eigen standaardmachtiging, maar in de toekomst kunnen gebruikers de machtiging **Order ophalen toestaan** gebruiken om de bewerking aan te roepen vanuit het verkooppunt.
 
@@ -93,7 +95,7 @@ Nadat een order is geaccepteerd, kunnen regels worden geselecteerd en gemarkeerd
 
 Orderverzamellijsten kunnen bij het verkooppunt worden afgedrukt om werknemers te ondersteunen tijdens het orderverzamelproces. Een afgedrukte orderverzamellijst kan door de werknemer verantwoordelijk voor het verzamelen van artikelen worden meegenomen en handmatig worden bijgewerkt tijdens het werk.
 
-De indeling van de orderverzamellijst wordt geconfigureerd in Commerce en toegevoegd aan het ontvangstprofiel. Zie voor meer informatie over het instellen van ontvangstbewijsprofielen [Ontvangstsjablonen en afdrukken](receipt-templates-printing.md).
+De indeling van de orderverzamellijst wordt geconfigureerd in Commerce en toegevoegd aan het ontvangstprofiel. Zie voor meer informatie over het instellen van ontvangstbewijsprofielen [Ontvangstsjablonen en afdrukken](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 Als er regels zijn geselecteerd en er een orderverzamellijst is afgedrukt voor deze regels, worden deze automatisch bijgewerkt met de status **Orderverzameling**.
 
@@ -119,7 +121,7 @@ Orderregels kunnen op elk moment worden verpakt nadat de orderregel is geaccepte
 - **Resulterende status:** Verpakt of gedeeltelijk verpakt
 - **Resulterende status backoffice:** Geleverd of gedeeltelijk geleverd
 
-Met deze actie worden regels gemarkeerd als gedeeltelijk verpakt en wordt een pakbon afgedrukt. Een pakbon kan worden afgedrukt voor het valideren van de producten die samen zijn verpakt. De indeling van de pakbon wordt geconfigureerd in Commerce en toegevoegd aan het ontvangstprofiel. Zie voor meer informatie over het instellen van ontvangstbewijsprofielen [Ontvangstsjablonen en afdrukken](receipt-templates-printing.md).
+Met deze actie worden regels gemarkeerd als gedeeltelijk verpakt en wordt een pakbon afgedrukt. Een pakbon kan worden afgedrukt voor het valideren van de producten die samen zijn verpakt. De indeling van de pakbon wordt geconfigureerd in Commerce en toegevoegd aan het ontvangstprofiel. Zie voor meer informatie over het instellen van ontvangstbewijsprofielen [Ontvangstsjablonen en afdrukken](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 **Actie: Markeren als verpakt**
 
@@ -215,6 +217,3 @@ Orderafhandeling in het verkooppunt omvat allerlei filters, zodat gebruikers gem
 - Gemaakt op
 - Leveringsdatum
 - Ontvangstdatum
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

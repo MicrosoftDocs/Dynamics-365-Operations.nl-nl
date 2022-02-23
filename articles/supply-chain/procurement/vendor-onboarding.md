@@ -1,24 +1,26 @@
 ---
 title: Leveranciers onboarden
 description: In dit onderwerp wordt het proces voor het onboarden van nieuwe leveranciers beschreven. Hier wordt uitgelegd welke acties vereist zijn voor de verschillende rollen tijdens dit proces.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests, SysUserRequestListPage, VendRequestListPage, VendRequestCompanyProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c2950cecfaf2c8b19ed14df748810b7d6f926c53
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 081c2e5145a9175ace946e332e299247e706b548
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566882"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019874"
 ---
 # <a name="onboard-vendors"></a>Leveranciers onboarden
 
@@ -33,7 +35,7 @@ Het proces bestaat uit de volgende stappen, waarbij verschillende rollen acties 
 1. **OData-gegevensbeheer** – Entiteitimport: de eerste aanvraag is de registratieaanvraag van de potentiële leverancier. Deze aanvraag is gewoonlijk afkomstig van een bron die anonieme toegang toestaat, zoals een door een klant gehoste website. Leveranciers kunnen zich aanmelden door algemene gegevens op te geven, zoals de naam van de leverancier, een verantwoording, het organisatienummer en de naam en het e-mailadres van de contactpersoon. De aanvragen worden geïmporteerd via de interface Gegevensbeheer.
 2. **Lijstpagina Aanvraag voor registratie van potentiële leverancier**: op basis van de informatie die is opgegeven in de aanvraag voor registratie van de potentiële leverancier, besluit de inkoopmedewerker of de leverancier moet worden ingewerkt. De inkoopmedewerker analyseert de inkomende aanvraag op de lijstpagina **Aanvragen voor registratie van potentiële leverancier**.
 3. **Workflow Gebruikersbevoegdheden toekennen**: wanneer een inkoopmedewerker de informatie in de inkomende aanvraag heeft geverifieerd en heeft besloten om door te gaan met het onboardingproces, ontvangt de nieuwe gebruiker gebruikersbevoegdheden op basis van de workflow voor gebruikersaanvragen en wordt per e-mail een uitnodiging verzonden om de contactpersoon als een geverifieerde gebruiker van Microsoft Dynamics 365 te accepteren.
-4. **Wizard Leveranciersregistratie** - de contactpersoon van de leverancier meldt zich aan met het nieuwe gebruikersaccount. Ze voltooien een wizard voor het registreren van leveranciers om informatie, zoals adressen, bedrijfsinformatie, inkoopcategorieën en antwoorden op vragenlijst, te verstrekken.
+4. **Wizard Leveranciersregistratie** - de contactpersoon van de leverancier meldt zich aan met het nieuwe gebruikersaccount. Hij of zij voltooit een wizard voor het registreren van leveranciers om informatie, zoals adressen, bedrijfsinformatie, inkoopcategorieën en antwoorden op vragenlijst, te verstrekken.
 5. **Goedkeuringsworkflow**: er wordt een leverancieraanvraag met de registratie-informatie gemaakt. Deze leverancieraanvraag wordt verzonden naar een workflow en ter controle en goedkeuring doorgestuurd.
 6. **Een leveranciermodel maken en gebruikersrol wijzigen**: als de leverancieraanvraag wordt goedgekeurd, wordt er een leveranciersrecord gemaakt. De gebruikersaccount van de contactpersoon van de leverancier krijgt toestemming voor leverancierssamenwerking of wordt uitgeschakeld.
 
@@ -172,6 +174,3 @@ Met de actie **Verwijderen** in de registratieaanvraag van de potentiële levera
 |         Goedgekeurd         |                                                                               De leverancieraanvraag is goedgekeurd.                                                                               |                                                                                                   De aanvraag voor registratie van de potentiële leverancier, de ingevoerde gegevens in de wizard voor leveranciersregistratie en de leverancieraanvraag worden verwijderd.                                                                                                    |
 |         Afgewezen         |                                                                               De leverancieraanvraag is afgewezen.                                                                               |                                                                                                   De aanvraag voor registratie van de potentiële leverancier, de ingevoerde gegevens in de wizard voor leveranciersregistratie en de leverancieraanvraag worden verwijderd.                                                                                                    |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

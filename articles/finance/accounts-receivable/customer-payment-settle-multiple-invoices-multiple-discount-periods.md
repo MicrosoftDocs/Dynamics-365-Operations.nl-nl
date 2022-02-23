@@ -1,28 +1,31 @@
 ---
-title: Eén klantbetaling gebruiken om facturen te vereffenen die verschillende kortingsperioden omvatten
+title: Een klantbetaling gebruiken om meerdere facturen te vereffenen die verschillende kortingperioden omvatten
 description: Dit onderwerp toont hoe meerdere facturen worden betaald wanneer elke factuur in aanmerking komt voor een contantkorting. De scenario's in dit artikel markeren hoe de verkregen contantkortingen variëren, afhankelijk van wanneer de betaling wordt uitgevoerd.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14511
 ms.assetid: 3e42ccb5-b9d7-4a70-8db9-4206d10fd433
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c86423c9e3453d8be11e6bdbc3484647e26e9eeec59c9a2e888cc5a2b2b5592
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c7ae0bdc8245db1391103ca0f214fb3120f93f5b
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769054"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4442187"
 ---
-# <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>Eén klantbetaling gebruiken om facturen te vereffenen die verschillende kortingsperioden omvatten
+# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Een klantbetaling gebruiken om meerdere facturen te vereffenen die verschillende kortingperioden omvatten
 
 [!include [banner](../includes/banner.md)]
 
@@ -66,7 +69,7 @@ Als Arnie een betalingsdagboek maakt om deze facturen volledig te vereffenen op 
 | Geselecteerd en gemarkeerd | Normaal            | FTI-10042 | 4032    | 6/25/2015 | 25/7/2015 | 10042   | 1.000,00                             |                                       | USD      | 990,00           |
 
 ## <a name="partial-settlement-on-june-29"></a>Gedeeltelijke vereffening op 29 juni
-Klant 4032 kan een gedeeltelijk bedrag betalen, zoals de helft van elke factuur. Arnie maakt een betaling voor klant 4032 en opent vervolgens de pagina **Transacties vereffenen**. Op de pagina **Transacties vereffenen** markeert Arnie alle drie factuurregels voor vereffening. Op elke regel voert Arnie het te vereffenen bedrag in, op basis van de instructies die de klant heeft verstrekt. Wanneer Arnie een regel selecteert, ziet Arnie het kortingsbedrag voor die regel en het bedrag voor contantkorting dat is toegepast. Omdat de klant de helft van de factuur betaalt, ziet Arnie dat de waarde in het veld **Contantkortingsbedrag** voor FTI-10042 **20,00** is, maar dat de waarde in het veld **Toegepaste contantkorting** **10,00** bedraagt. Het betalingsbedrag is 1485,00.
+Klant 4032 kan een gedeeltelijk bedrag betalen, zoals de helft van elke factuur. Arnie maakt een betaling voor klant 4032 en opent vervolgens de pagina **Transacties vereffenen**. Op de pagina **Transacties vereffenen** markeert Arnie alle drie factuurregels voor vereffening. Op elke regel voert hij het te vereffenen bedrag in, op basis van de instructies die de klant heeft verstrekt. Wanneer Arnie een regel selecteert, ziet hij het kortingsbedrag voor die regel en het bedrag voor contantkorting dat is toegepast. Omdat de klant de helft van de factuur betaalt, ziet Arnie dat de waarde in het veld **Contantkortingsbedrag** voor FTI-10042 **20,00** is, maar dat de waarde in het veld **Toegepaste contantkorting** **10,00** bedraagt. Het betalingsbedrag is 1485,00.
 
 | Markeren                     | Contantkorting gebruiken | Boekstuk   | Rekening | Datum      | Vervaldatum  | Factuur | Debetbedrag in transactievaluta | Creditbedrag in transactievaluta | Valuta | Bedrag om te vereffenen |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
@@ -74,11 +77,11 @@ Klant 4032 kan een gedeeltelijk bedrag betalen, zoals de helft van elke factuur.
 | Geselecteerd                 | Normaal            | FTI-10041 | 4032    | 6/25/2015 | 25/7/2015 | 10041   | 1.000,00                             |                                       | USD      | 495,00           |
 | Geselecteerd en gemarkeerd | Normaal            | FTI-10042 | 4032    | 6/25/2015 | 25/7/2015 | 10042   | 1.000,00                             |                                       | USD      | 490,00           |
 
-Arnie kan het betalingsbedrag van 1485,00 ook handmatig invoeren voordat hij de pagina **Transacties vereffenen** opent. Als Arnie het betalingsbedrag handmatig invoert en vervolgens alle drie de transacties markeert, maar de waarde in het veld **Bedrag om te vereffenen** niet aanpast voor elke transactie, ontvangt Arnie het volgende bericht wanneer de pagina wordt gesloten:
+Arnie kan het betalingsbedrag van 1485,00 ook handmatig invoeren voordat hij de pagina **Transacties vereffenen** opent. Als Arnie het betalingsbedrag handmatig invoert en vervolgens alle drie de transacties markeert, maar de waarde in het veld **Bedrag om te vereffenen** niet aanpast voor elke transactie, ontvangt hij het volgende bericht wanneer hij de pagina sluit:
 
 > Het totaalbedrag van de gemarkeerde transacties verschilt van het journaalbedrag. Wilt u het journaalbedrag wijzigen?
 
-Als Arnie wil dat het betalingsbedrag slechts 1485,00 is, moet Arnie op **Nee** klikken en vervolgens het journaal boeken. De transacties worden als volgt vereffend:
+Als Arnie wil dat het betalingsbedrag slechts 1485,00 is, moet hij op **Nee** klikken en vervolgens het journaal boeken. De transacties worden als volgt vereffend:
 
 1.  Factuur FTI-10040 is volledig vereffend voor 1.000,00, omdat deze op 15 mei werd ingevoerd en dit de oudste factuur is. Er is geen korting genomen. Het resterende bedrag van de betalingstransactie is 485,00.
 2.  Factuur FTI-10041 is helemaal niet vereffend. Facturen FTI-10041 en FTI-10042 werden op dezelfde datum ingevoerd. Er is echter een korting van 1 procent beschikbaar voor factuur FTI-10041 en een korting van 2 voor factuur FTI-10042. Omdat er een betere korting beschikbaar is voor factuur FTI-10042, wordt de resterende 485,00 vereffend met factuur FTI-10042.
@@ -98,6 +101,3 @@ Arnie bekijkt de informatie op de pagina **Klanttransacties**.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,30 +2,35 @@
 title: Een favicon toevoegen
 description: In dit onderwerp wordt uitgelegd hoe u een favicon aan uw site toevoegt.
 author: bicyclingfool
+manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 080ef4da7313bd6b9d91e616f576b3ff774509d9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964727"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411311"
 ---
 # <a name="add-a-favicon"></a>Een favicon toevoegen
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u een favicon aan uw site toevoegt.
+
+## <a name="overview"></a>Overzicht
 
 Een favicon is een klein grafisch bestand dat onder andere wordt weergegeven op het tabblad van de webbrowser, in de adresbalk, de browsergeschiedenis en in bladwijzers of favorieten. Het is raadzaam om een favicon aan uw site toe te voegen, omdat deze uw merk vertegenwoordigt en benadrukt. Zo onderscheidt uw site zich van andere sites die uw klant bezoekt.
 
@@ -61,7 +66,7 @@ Als u een fragment wilt maken dat een metatag bevat voor uw favicon, voert u dez
 1. Selecteer in het dialoogvenster **Nieuw fragment** de optie **Metatags** als de module waarop het fragment is gebaseerd.
 1. Voer een naam in voor het fragment en klik op **OK**.
 1. Selecteer in de structuur van de fragmenthiërarchie de onderliggende waarde **Standaard metatags**.
-1. Selecteer in het rechterdeelvenster onder **Metatags** de optie **Toevoegen** en voer vervolgens de HTML-reeks in die u eerder voor de favicon hebt gemaakt. 
+1. Selecteer in het rechterdeelvenster onder **Metatags** de optie **Toevoegen** en voer vervolgens de HTML-reeks in die u eerder voor de favicon hebt gemaakt. 
 1. Selecteer **Bewerken voltooien** en **Publiceren** om het fragment te publiceren.
 
 ## <a name="add-the-metatag-fragment-to-the-html-head-section-of-your-pages"></a>Het metatagfragment toevoegen aan de HTML-sectie head van uw pagina's
@@ -82,9 +87,11 @@ Wanneer u een voorbeeld bekijkt van pagina's die zijn gebaseerd op de sjabloon w
 
 [Een logo toevoegen](add-logo.md)
 
-[Een thema voor de site selecteren](select-site-theme.md)
+[Selecteer een thema voor de site](select-site-theme.md)
 
 [Werken met CSS-overschrijvingsbestanden](css-override-files.md)
+
+[Een welkomstbericht toevoegen](add-welcome-message.md)
 
 [Een auteursrechtmelding toevoegen](add-copyright-notice.md)
 
@@ -92,6 +99,3 @@ Wanneer u een voorbeeld bekijkt van pagina's die zijn gebaseerd op de sjabloon w
 
 [Scriptcode toevoegen aan sitepagina's voor ondersteuning van telemetrie](add-telemetry.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

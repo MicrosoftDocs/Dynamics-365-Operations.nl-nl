@@ -1,24 +1,26 @@
 ---
 title: Een aanschafbeleid maken
 description: Dit onderwerp laat zien hoe u aanschafbeleid kunt maken voor afstemming met uw bedrijfsprocessen voor inkoop.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicyParameters, SysPolicy, RequisitionPurposeRule
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dde2df0f04ea8ed1b200ae731df7143cc8de3aae
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 86ffdff4cdb256fdae39de6228555da5fb88c707
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579491"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017029"
 ---
 # <a name="create-purchasing-policies"></a>Een aanschafbeleid maken
 
@@ -54,6 +56,3 @@ Dit onderwerp laat zien hoe u aanschafbeleid kunt maken voor afstemming met uw b
 4. Selecteer **Sluiten**.
 - Nu kunt u beleidsregels instellen voor het aanschafbeleid. Merk op dat een type beleidsregel geen overlappende regels kan hebben die tegelijkertijd actief zijn binnen een enkel inkoopbeleid.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

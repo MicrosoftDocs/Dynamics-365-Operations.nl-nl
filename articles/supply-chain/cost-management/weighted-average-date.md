@@ -2,9 +2,11 @@
 title: Datum gewogen gemiddelde
 description: Datum gewogen gemiddelde is een voorraadmodel dat is gebaseerd op het principe van het gewogen gemiddelde, waarbij uitgiften worden berekend tegen de gemiddelde waarde van de artikelen die worden ontvangen in voorraad voor elke afzonderlijke dag in de afsluitingsperiode van de voorraad.
 author: AndersGirke
+manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce056a661130d30426ccfa4c288a0ce5b62ff959
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5df497a8590c6d60a5f0bc39469cf048c3448572
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572020"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963733"
 ---
 # <a name="weighted-average-date"></a>Datum gewogen gemiddelde
 
@@ -39,7 +41,7 @@ Gewogen gemiddelde = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 +
 
 Tijdens de voorraadafsluiting wordt de berekening elke dag via de afsluitperiode uitgevoerd, zoals in de volgende afbeelding wordt weergegeven. 
 
-![Dagelijks rekenmodel datum gewogen gemiddelde.](./media/weightedaveragedatedailycalculationmodel.gif) 
+![Dagelijks rekenmodel datum gewogen gemiddelde](./media/weightedaveragedatedailycalculationmodel.gif) 
 
 Voorraadtransacties die de voorraad verlaten, zoals verkooporders, voorraadjournalen en productieorders, vinden plaats tegen een geraamde kostprijs op de boekingsdatum. De geraamde kostprijs wordt ook wel de lopende gemiddelde kostprijs genoemd. Op de datum van de voorraadafsluiting worden de voorraadtransacties voor vorige perioden, vorige dagen en de huidige dag geanalyseerd. Deze analyse wordt gebruikt om te bepalen welke van de volgende afsluitingsprincipes er moeten worden gebruikt:
 
@@ -72,7 +74,7 @@ De volgende afbeelding geeft deze transacties weer:
 -   2b. Financiële voorraaduitgifte wordt bijgewerkt voor een hoeveelheid van 2 tegen een prijs van EUR 10,00 per stuk.
 -   3. Voorraadafsluiting wordt uitgevoerd met behulp van de directe-vereffeningsmethode om de financiële ontvangst van de voorraad te vereffenen met de financiële uitgifte van de voorraad.
 
-![Datum gewogen gemiddelde directe vereffening zonder de optie Fysieke waarde opnemen.](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
+![Datum gewogen gemiddelde directe vereffening zonder de optie Fysieke waarde opnemen](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Sleutel voor de afbeelding:**
 
@@ -126,7 +128,7 @@ De samengevatte voorraadoverboekingstransactie worden gegenereerd en geboekt. Oo
 
 In de volgende afbeelding wordt deze reeks transacties getoond en wordt aangegeven wat het effect is van het gebruik van het voorraadmodel van het gewogen gemiddelde en het samengevatte-vereffeningsprincipe zonder dat de optie **Fysieke waarde opnemen** wordt gebruikt. 
 
-![Datum gewogen gemiddelde samengevatte vereffening zonder de optie Fysieke waarde opnemen.](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Datum gewogen gemiddelde samengevatte vereffening zonder de optie Fysieke waarde opnemen](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Sleutel voor de afbeelding**
 
@@ -162,7 +164,7 @@ De afdeling Klantenservice heeft een spoedorder van een belangrijke klant aangen
 U kunt een uitgiftetransactie aan een ontvangst koppelen voordat de transactie wordt geboekt. U kunt dit doen vanaf een verkooporderregel op de pagina **Details verkooporder**. U kunt de openstaande ontvangsttransacties bekijken op de pagina **Markering**. U kunt een uitgiftetransactie aan een ontvangst koppelen nadat de transactie is geboekt. U kunt een uitgiftetransactie voor een openstaande ontvangsttransactie voor een geïnventariseerd artikel afstemmen of markeren vanuit een geboekt voorraadcorrectiejournaal. De volgende afbeelding geeft deze transacties weer:
 
 -   1a. Fysieke voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 10,00 per stuk.
--   1b. Financiële voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 10,00 per stuk.
+-   1a. Financiële voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 10,00 per stuk.
 -   2a. Fysieke voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 20,00 per stuk.
 -   2b. Financiële voorraadontvangst voor een hoeveelheid 1 tegen een prijs van USD 20,00 per stuk.
 -   3a. Fysieke voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 25,00 per stuk.
@@ -175,7 +177,7 @@ U kunt een uitgiftetransactie aan een ontvangst koppelen voordat de transactie w
 
 De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en fysiek bijgewerkte transacties met USD 27,50. In de volgende afbeelding worden voor deze reeks transacties de effecten weergegeven van het gebruik van het voorraadmodel voor datum gewogen gemiddelde en markering.
 
-![Datum gewogen gemiddelde met markering.](./media/weightedaveragedatewithmarking.gif) 
+![Datum gewogen gemiddelde met markering](./media/weightedaveragedatewithmarking.gif) 
 
 **Sleutel voor de afbeelding:**
 
@@ -193,6 +195,3 @@ De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

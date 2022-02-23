@@ -153,6 +153,3 @@ Een aanbod kan op elk moment om verschillende redenen van een kandidaat worden i
 ## <a name="closing-an-offer"></a>Een aanbieding afsluiten 
 
 Wanneer een aanbieding is geaccepteerd, geweigerd of ingetrokken zonder dat verdere acties nodig zijn, kunt u de aanbieding sluiten zodat er geen verdere wijzigingen kunnen worden gemaakt in dit aanbiedingspakket.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,33 +1,31 @@
 ---
-title: Wijzigingen in levensgebeurtenissen verwerken
-description: In dit onderwerp wordt uitgelegd hoe u wijzigingen in de levensgebeurtenissen in Microsoft Dynamics 365 Human Resources verwerkt.
-author: twheeloc
-ms.date: 08/23/2021
+title: Wijzigingen van levensgebeurtenissen verwerken
+description: U kunt wijzigingen in levensgebeurtenissen verwerken in Microsoft Dynamics 365 Human Resources bij wijzigingen in levensgebeurtenissen.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes, BenefitEligibilityProcessResultViewer
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cb894d9886c095d760efe66abcf773a975a99caa
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 39d1e94347809a1756fc4f66e5edc345c70eaf39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067599"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417930"
 ---
-# <a name="process-life-event-changes"></a>Wijzigingen in levensgebeurtenissen verwerken
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+# <a name="process-life-event-changes"></a>Wijzigingen van levensgebeurtenissen verwerken
 
 U kunt wijzigingen in levensgebeurtenissen verwerken in Microsoft Dynamics 365 Human Resources voor twee levensgebeurtenissen:
 
@@ -54,6 +52,3 @@ U kunt wijzigingen in levensgebeurtenissen verwerken in Microsoft Dynamics 365 H
    4. Selecteer **OK**. Het proces wordt uitgevoerd met de parameters die u instelt.
 
 4. Selecteer **OK**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

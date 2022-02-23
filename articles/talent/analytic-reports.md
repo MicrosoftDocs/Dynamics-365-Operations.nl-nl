@@ -88,6 +88,3 @@ Een van de mooie functies van Power BI is de manier waarop alle visuele elemente
 ## <a name="export-to-excel"></a>Exporteren naar Excel
 
 Als u rapportgegevens wilt weergeven in Excel, kunt u op het optiemenu (drie puntjes) in een visueel element klikken en **Onderliggende gegevens exporteren** selecteren. Geëxporteerde gegevens worden als gefilterd geëxporteerd, met inachtneming van de gebruikersmachtigingen in Attract. Zie [Gegevens exporteren vanuit visualisaties](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data) voor meer informatie.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

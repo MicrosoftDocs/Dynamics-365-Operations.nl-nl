@@ -2,13 +2,16 @@
 title: Tijd- en aanwezigheidsbeheer in Retail
 description: In dit onderwerp worden de scenario's beschreven die worden ondersteund voor beheer van Tijd en aanwezigheid in Dynamics 365 Commerce.
 author: aamirallaqaband
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: JMGParameters
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 62813
 ms.assetid: 821994a6-cd29-45a3-a526-ce204064f080
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 68aafc9f397333d88644bb1870bb4e65da32c265decb10e6ac420be99c1e2c4e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cca5e3232450e75f931a621b278c134129fc745c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762663"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411495"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Tijd- en aanwezigheidsbeheer in Retail
 
@@ -38,9 +41,9 @@ In dit onderwerp worden de scenario's beschreven die worden ondersteund voor beh
 
 ### <a name="plan-worker-schedules"></a>De planning van de werknemersplannen
 
-- Profielen toepassen met behulp van de werkplanner. Zie [Profielen met behulp van werkplanner toepassen](/dynamicsax-2012/appuser-itpro/apply-profiles-using-work-planner) voor meer informatie over werktijdprofielen.
+- Profielen toepassen met behulp van de werkplanner. Zie [Profielen met behulp van werkplanner toepassen](https://technet.microsoft.com/library/aa551234.aspx) voor meer informatie over werktijdprofielen.
 
-Zie voor informatie over de configuratiestappen [Tijd en aanwezigheid instellen](/dynamicsax-2012/appuser-itpro/setting-up-time-and-attendance).
+Zie voor informatie over de configuratiestappen [Tijd en aanwezigheid instellen](https://technet.microsoft.com/library/aa496971.aspx).
 
 ### <a name="commerce-specific-configuration"></a>Commerce-specifieke configuratie
 
@@ -97,7 +100,7 @@ Zie voor informatie over de configuratiestappen [Tijd en aanwezigheid instellen]
         </tbody>
         </table>
 
-        [![Statussen van tijdklok.](./media/timeclockstates.png)](./media/timeclockstates.png)
+        [![Statussen van tijdklok](./media/timeclockstates.png)](./media/timeclockstates.png)
 
 - Bekijk het bevestigingsbericht weergeven, en controleer of de huidige activiteitstijd correct is.
 - Logboek:
@@ -135,7 +138,4 @@ Een Commerce-gebruiker volgt de workflow om tijdregistraties te berekenen, goed 
 - Massaal uitklokken
 - Verzuim registreren
 
-Zie [Registraties van procestijd en -aanwezigheid](/dynamicsax-2012/appuser-itpro/process-time-and-attendance-registrations) voor meer informatie over het verwerken van tijd- en aanwezigheidsregistraties.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Zie [Registraties van procestijd en -aanwezigheid](https://technet.microsoft.com/library/aa573180.aspx) voor meer informatie over het verwerken van tijd- en aanwezigheidsregistraties.

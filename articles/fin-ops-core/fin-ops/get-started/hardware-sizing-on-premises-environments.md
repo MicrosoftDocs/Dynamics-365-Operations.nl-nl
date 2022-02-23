@@ -2,9 +2,11 @@
 title: Vereisten vaststellen voor grootte van de hardware voor on-premises omgevingen
 description: Vereisten vaststellen voor grootte van de hardware voor on-premises omgevingen
 author: sericks007
-ms.date: 06/02/2021
+manager: AnnBe
+ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 443b80e44a90a68610fbb2bb5a5f4b6b7d545fa7ad772edb3672972fa82f8cbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9d4f2e59d4dd78d15d561ff0da47e4b9b1a2fce3
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763429"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798299"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Vereisten vaststellen voor grootte van de hardware voor on-premises omgevingen
 
@@ -36,7 +38,7 @@ Nadat u de documentatie hebt bekeken, kunt u gaan inschatten hoeveel transaction
 
 Alle factoren in de volgende afbeelding zijn bepalend voor de grootte. Hoe meer gedetailleerde informatie u verzamelt, hoe preciezer u de grootte kunt bepalen. Zonder ondersteunende gegevens kunt u de omvang van de hardware niet inschatten. De absolute minimumvereiste voor de benodigde gegevens is de piekbelasting voor de transactieregels per uur.
 
-[![Grootte van de hardware voor on-premises omgevingen vaststellen.](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
+[![Grootte van de hardware voor on-premises omgevingen vaststellen](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
 
 Van links naar rechts gezien, is de eerste en de belangrijkste factor voor het nauwkeurig schatten een transactieprofiel of een karakterisering van de transacties. Het is van groot belang dat u altijd het transactionele piekvolume per uur weet. Als er meerdere piekuren zijn, moeten deze perioden correct zijn gedefinieerd.
 
@@ -132,15 +134,10 @@ In de meeste gevallen, tenzij bij intensief gebruik, zijn de aanbevolen minimale
 
 Voor de algemene beschikbaarheid hoeft slechts één SSRS-knooppunt te worden geïmplementeerd. Controleer SSRS-knooppunt bij het testen en verhoog het aantal beschikbare cores voor SSRS op basis van de behoefte. Zorg ervoor dat er een vooraf geconfigureerd secundair knooppunt beschikbaar is op een virtuele host die verschilt van de SSRS VM. Dit is belangrijk als er een probleem is met de virtuele machine die als host fungeert voor SSRS of met de virtuele host. Als dit het geval is, moeten ze worden vervangen.
 
-Vanaf versie 10.0.17 kunt u extra SSRS-knooppunten configureren om een hoge beschikbaarheid te bereiken. Zie [Hoge beschikbaarheid configureren voor SSRS-knooppunten (SQL Server Reporting Services)](../../dev-itpro/deployment/onprem-ssrsha.md).
-
 ## <a name="environment-orchestrator"></a>Orchestrator-omgeving
 
-De Orchestrator-service beheert uw implementatie en de gerelateerde communicatie met LCS. Deze service wordt geïmplementeerd als de primaire Service Fabric-service en vereist ten minste drie VM's. Deze service bevindt zich op dezelfde locatie als de Service Fabric-configuratieservices. De omvang moet voldoen aan de piekbelasting van het cluster. Zie voor meer informatie [Implementatie van Service Fabric-cluster plannen en voorbereiden](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
+De Orchestrator-service beheert uw implementatie en de gerelateerde communicatie met LCS. Deze service wordt geïmplementeerd als de primaire Service Fabric-service en vereist ten minste drie VM's. Deze service bevindt zich op dezelfde locatie als de Service Fabric-configuratieservices. De omvang moet voldoen aan de piekbelasting van het cluster. Zie voor meer informatie [Implementatie van Service Fabric-cluster plannen en voorbereiden](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Virtualisering en te veel abonnementen
 
 Bedrijfskritieke services, zoals de AOS, moeten worden gehost op virtuele hosts met eigen resources: cores, geheugen en schijfruimte.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

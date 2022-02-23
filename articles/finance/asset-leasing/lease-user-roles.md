@@ -2,25 +2,28 @@
 title: Gebruikersrollen voor lease toewijzen
 description: In dit onderwerp worden de beveiligingsrollen beschreven die worden gebruikt voor activa-leasing. Ook wordt uitgelegd hoe u gebruikers aan deze rollen toewijst.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SysOperationTemplateForm
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7a3443cf9fa5b14ac0b3c4560ed45874939aa50cd665f4db46290f5af04bf6ce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b31d0880d4f2cd2b8ad2dffcfe279421f935ed35
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771747"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4442171"
 ---
 # <a name="assign-lease-user-roles"></a>Gebruikersrollen voor lease toewijzen
 
@@ -41,6 +44,3 @@ Volg deze stappen om gebruikers toe te wijzen aan de rollen die worden gebruikt 
 1. Ga naar **Systeembeheer \> Beveiliging \> Gebruikers toewijzen aan rollen**.
 2. Selecteer de rol **Lease onderhouden**, **Leasemedewerker** of **Lease weergeven** en selecteer vervolgens **Gebruikers handmatig toewijzen / uitsluiten**.
 3. Selecteer de gebruiker die u aan de rol wilt toewijzen en selecteer vervolgens **Toewijzen aan rol**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

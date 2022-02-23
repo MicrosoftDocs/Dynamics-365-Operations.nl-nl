@@ -2,9 +2,11 @@
 title: Workfloweigenschappen configureren
 description: In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een workflow configureert.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81f73f187f75e40297f1f8462e9fff58a309f7f0
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 8bd3c9bea010099f83d16dad70261bc2d46a1dac
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069243"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693277"
 ---
 # <a name="configure-workflow-properties"></a>Workfloweigenschappen configureren
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een workflow configureert.
 
@@ -74,9 +73,6 @@ Het is mogelijk om instructies op te geven voor gebruikers die documenten voor v
     4. Voer in het veld **Vertaalde tekst** de gewenste tekst in.
     5. Als u de tekst wilt personaliseren, kunt u tijdelijke aanduidingen invoegen. Zie de stap 3 voor instructies voor het invoeren van een tijdelijke aanduiding.
     6. Klik op **Sluiten**.
-
-> [!NOTE]
-> Tijdelijke aanduidingen kunnen niet worden toegevoegd met kopiëren en plakken, omdat de doelgegevens niet op de juiste manier worden geplakt. Gebruik de interface om tijdelijke aanduidingen toe te voegen.
 
 ## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>Geef op wanneer deze workflow wordt gebruikt via activeringsvoorwaarden
 
@@ -183,6 +179,3 @@ Voer de volgende stappen uit om opmerkingen in te voeren over de wijzigingen die
 2. Voer in het veld **Opmerkingen over de workflow invoeren** uw opmerkingen in.
 3. Uw opmerkingen controleren. Nadat u opmerkingen hebt toegevoegd, kunt u deze niet meer wijzigen.
 4. Klik op **Toevoegen** om uw opmerkingen aan het gebied **Opmerkingshistorie** toe te voegen.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

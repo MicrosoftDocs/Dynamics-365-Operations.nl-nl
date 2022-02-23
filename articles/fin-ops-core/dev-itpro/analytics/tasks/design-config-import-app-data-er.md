@@ -2,9 +2,11 @@
 title: ER-configuraties ontwerpen voor het parseren van inkomende documenten
 description: Deze procedure toont aan hoe u ER-configuraties (Elektronische rapportage) ontwerpt om een inkomend elektronisch document te parseren.
 author: NickSelin
+manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8068850ee143540ff9f3b6222485d3ecd2a2a82020063f34cfd7b5a69826eda3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 446a4676ad00c93d691d3048408c32d7ad373d2d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756376"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682088"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>ER-configuraties ontwerpen voor het parseren van inkomende documenten
 
@@ -111,6 +113,3 @@ U kunt de gemaakte modeltoewijzing uitvoeren voor testdoeleinden om te zien hoe 
     * Selecteer Bladeren en selecteer het bestand Response4.xml.
 16. Selecteer OK.
     * Controleer de gegenereerde uitvoer. Het responstype is nu correct herkend net als voor het bestand Response1.xml.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

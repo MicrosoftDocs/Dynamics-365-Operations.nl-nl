@@ -1,32 +1,33 @@
 ---
 title: Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (10 maart 2020)
 description: In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 10 maart 2020.
-author: andreabichsel
+author: Darinkramer
+manager: AnnBe
 ms.date: 03/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c6e4d93f89721bd722de523fbba7adfd2ee3f786
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 944481727f3222a10f128ac3078c117f5ae7d193
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061146"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4526905"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (10 maart 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 In dit artikel worden de functies beschreven die in Dynamics 365 Human Resources nieuw of gewijzigd zijn. Wijzigingen die van toepassing zijn op buildnummer 8.1.2985. De getallen tussen haakjes in sommige koppen verwijzen naar ondersteuningsnummers in LCS ter referentie.
 
@@ -44,7 +45,7 @@ Het formulier Taakonderhoud werknemer geeft een overzicht van alle taken voor ee
 
 Voorbeeld: Benjamin Martin is een vergoedingenbeheerder. Tijdens het onboarden van werknemers worden er taken voor Benjamin gemaakt om de vergoedingenselectie van de nieuwe werknemer te controleren. Benjamin heeft taken in het verleden die hij voltooid heeft en toekomstige taken die hij moet voltooien. Benjamin besluit het bedrijf te verlaten, zodat zijn taken opnieuw moeten worden toegewezen of moeten worden verwijderd. In het formulier Taakonderhoud (in het actievenster van het formulier **Werknemer**) kunnen alle taken van Benjamin opnieuw aan een andere werknemer worden toegewezen of worden verwijderd.  
 
-## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>Dataverse-oplossing is nu beschikbaar met de volgende wijzigingen:
+## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>Common Data Service-oplossing is nu beschikbaar met de volgende wijzigingen:
 
 | Omschrijving | Wisselgeld |
 | --- | --- |
@@ -56,18 +57,18 @@ Voorbeeld: Benjamin Martin is een vergoedingenbeheerder. Tijdens het onboarden v
 | Entiteiten voor nieuwe instellingen voor variabele compensatie | <ul><li>**Type variabelecompensatieplan**</li><li>**Variabelecompensatieplan**</li><li>**Vestigingsregels**</li><li>**Niveau variabelecompensatieplan**</li></ul> |
 | Nieuwe entiteit **Medewerkerkalender aanstelling** | <ul><li>Entiteit **Werkkalender** toegevoegd</li></ul> |
 | Nieuwe entiteit **Salarispositiedetail** | <ul><li>**Salarispositiedetail** toegevoegd</li></ul> |
-| Nieuwe entiteit **Titel** | <ul><li>**Titel** toegevoegd</li></ul> De nieuwe entiteit **Titel** wordt opgenomen in Dataverse maar er wordt nu niet naar verwezen in de entiteiten **Taakpositie** of **Functie**. |
+| Nieuwe entiteit **Titel** | <ul><li>**Titel** toegevoegd</li></ul> De nieuwe entiteit **Titel** wordt opgenomen in Common Data Service maar er wordt nu niet naar verwezen in de entiteiten **Taakpositie** of **Functie**. |
 
 > [!NOTE]
-> Financiële dimensies voor zowel posities als aanstellingen zorgen voor integratie in één richting voor updates van Human Resources naar Dataverse. Voor updates van financiële dimensies wordt Dataverse momenteel niet gesynchroniseerd met Human Resources.
+> Financiële dimensies voor zowel posities als aanstellingen zorgen voor integratie in één richting voor updates van Human Resources naar Common Data Service. Voor updates van financiële dimensies wordt Common Data Service momenteel niet gesynchroniseerd met Human Resources.
 
-In de komende weken zijn deze entiteitswijzigingen beschikbaar in alle omgevingen. Handmatig de meest recente Dataverse-oplossing voor Human Resources installeren:
+In de komende weken zijn deze entiteitswijzigingen beschikbaar in alle omgevingen. Handmatig de meest recente Common Data Service-oplossing voor Human Resources installeren:
 
 1.  Ga naar het [Power Platform-beheercentrum](https://admin.powerplatform.microsoft.com).
 
 2.  Selecteer **Omgevingen**.
 
-3.  Zoek de omgeving die u wilt bijwerken. De omgeving moet overeenkomen met **Omgevingsnaam**  in de sectie **Dataverse-gegevens** in het formulier **Info** in Human Resources.
+3.  Zoek de omgeving die u wilt bijwerken. De omgeving moet overeenkomen met **Omgevingsnaam**  in de sectie **Common Data Service-gegevens** in het formulier **Info** in Human Resources.
 
 4.  Selecteer de omgeving waarin u de omgevingsdetails wilt weergeven.
 
@@ -102,8 +103,6 @@ De volgende voorbeeldfuncties zijn beschikbaar op 3 februari 2020:
 ## <a name="see-also"></a>Zie ook
 
 [Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)</br>
-[Overzicht van releasewave 2 van Dynamics 365 Human Resources](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Overzicht van releasewave 2 van Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Het updateproces](hr-admin-setup-update-process.md)</br>
 [Functies beheren](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

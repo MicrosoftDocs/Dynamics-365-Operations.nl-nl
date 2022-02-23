@@ -1,26 +1,28 @@
 ---
 title: Inleiding op werkorders
 description: Dit onderwerp bevat een overzicht van werkorders in Activabeheer.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderLineNote, EntAssetWorkOrderTable, EntAssetWorkOrderActive, EntAssetWorkOrderHoursInfoPart, EntAssetWorkOrderLineListPage, EntAssetWorkOrderAddObjectBOMItem, EntAssetWorkOrderTablePoolAdd, EntAssetWorkOrderPurchReqListPagePreviewPane, EntAssetWorkOrderPoolReferenceAdd, EntAssetWorkOrderWorkspace, EntAssetWorkOrderTableAdjust, EntAssetWorkOrderGantt, EntAssetWorkOrderNotes, EntAssetWorkOrderActivePart, EntAssetWorkOrderTableInfoPart, EntAssetWorkOrderLineListPagePreviewPane, EntAssetWorkOrderTool, EntAssetMobileWorkOrderLineDetails, EntAssetMobileWorkOrderLineList, EntAssetMobileWorkOrderDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3891ea08a484950d8fef57d6229117e90ed93a92ab800f9de3ad82db3aff956d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 378fc6d55deada95e94f91ed3f73f2518efbeb1f
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754699"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021875"
 ---
 # <a name="introduction-to-work-orders"></a>Inleiding tot werkorders
 
@@ -51,7 +53,7 @@ Selecteer **Activabeheer** > **Algemeen** > **Werkorders** > **Alle werkorders**
 
 In de onderstaande afbeelding ziet u een voorbeeld van de lijstpagina **Alle werkorders**.
 
-![Figuur 1.](media/01-work-orders.png)
+![Figuur 1](media/01-work-orders.png)
 
 Selecteer **Activabeheer** > **Algemeen** > **Werkorders** > **Actieve werkorders** om een lijst met alleen actieve werkorders weer te geven. 
 
@@ -63,13 +65,13 @@ Hier volgen enkele manieren waarop u de pagina **Alle werkorders** kunt gebruike
 
 - De detailweergave bevat gedetailleerde informatie die is gerelateerd aan de werkorder.  
 
-- Selecteer in de detailweergave het tabblad **Regels** om de werkordertaakdetails weer te geven of het tabblad **Header** om werkorderdetails te bekijken.  
+- Selecteer in de detailweergave het tabblad **Regels** om de werkordertaakdetails weer te geven of het tabblad **Koptekst** om werkorderdetails te bekijken.  
 
 - Vouw het deelvenster **Gerelateerde informatie** aan de rechterkant van de pagina uit om aanvullende informatie over de geselecteerde werkorder weer te geven.
 
 In de onderstaande afbeelding ziet u een voorbeeld van de detailweergave **Alle werkorders**.
 
-![Figuur 2.](media/02-work-orders.png)
+![Figuur 2](media/02-work-orders.png)
 
 
 De knoppen in het actievenster zijn geordend op tabbladen. In de volgende tabel worden kort de knoppen beschreven die betrekking hebben op Activabeheer:
@@ -116,6 +118,3 @@ De knoppen in de groep **Project** op het tabblad **Werkorder** van het actieven
 >[!NOTE]
 >Prognoses die voor een werkorder zijn gemaakt, kunnen worden opgenomen wanneer de hoofdplanning wordt uitgevoerd door het prognosemodel te gebruiken dat is geselecteerd op de pagina **Parameters voor activabeheer**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

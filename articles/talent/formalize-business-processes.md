@@ -73,6 +73,3 @@ Als u een sjabloon voor bedrijfsprocessen wilt maken of kopiëren, of een bedrij
 
 Als u actieve processen en bijbehorende taken wilt weergeven, opent u het werkgebied **Bedrijfsprocessen**.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

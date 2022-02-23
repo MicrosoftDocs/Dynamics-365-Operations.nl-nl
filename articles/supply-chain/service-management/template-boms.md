@@ -1,10 +1,12 @@
 ---
 title: Sjabloonstuklijsten
 description: Met een sjabloonstuklijst beschikt u over een gestandaardiseerde lijst onderdelen voor serviceobjecten die regelmatig worden onderhouden.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 09/19/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMATemplateBOMTable
 audience: Application User
@@ -15,23 +17,25 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d34502d74590595f26ba5aae78158ed893a095df
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 01cd4cf03fb0ac1a3399673097895513f7180cf1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571302"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965774"
 ---
-# <a name="template-boms"></a>Sjabloonstuklijsten
+# <a name="template-boms"></a>Sjabloonstuklijsten    
 
 [!include [banner](../includes/banner.md)]
+
 
 Met een sjabloonstuklijst beschikt u over een gestandaardiseerde lijst onderdelen voor serviceobjecten die regelmatig worden onderhouden. De onderdelen die in de sjabloonstuklijst worden vermeld, vertegenwoordigen de afzonderlijke subonderdelen van het serviceobject. Door een sjabloonstuklijst op een serviceobject toe te passen, kunt u een record van de subonderdelen bijhouden die voor het serviceobject zijn vervangen.
 
 Als u een sjabloonstuklijst wilt toepassen op een serviceovereenkomst of een serviceorder, koppelt u deze aan een serviceobjectrelatie.
 
+
 > [!NOTE]
-> U kunt slechts één sjabloonstuklijst toepassen op een serviceobject.
+> <P>U kunt slechts één sjabloonstuklijst toepassen op een serviceobject.</P>
 
 ## <a name="create-a-template-bom"></a>Een sjabloonstuklijst maken
 
@@ -39,8 +43,8 @@ De volgende tabel bevat informatie over de verschillende methoden die u kunt geb
 
 <table>
 <colgroup>
-<col />
-<col />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -68,6 +72,7 @@ De volgende tabel bevat informatie over de verschillende methoden die u kunt geb
 </tbody>
 </table>
 
+
 ## <a name="apply-the-template-bom-to-a-service-agreement-or-service-order"></a>De sjabloonstuklijst toepassen op een serviceovereenkomst of een serviceorder
 
 U kunt een sjabloonstuklijst toepassen op een serviceovereenkomst, een serviceorder of allebei. De serviceovereenkomst betreft meestal een langdurige relatie met een klant. De historie van vervangingen die is vastgelegd in de servicestuklijst, is nuttige informatie om op te nemen in de serviceovereenkomst.
@@ -78,7 +83,7 @@ U kunt ook een sjabloonstuklijst op een serviceorder toepassen om de historie va
 
 U kunt de historie van een servicestuklijstregel verplaatsen van de ene serviceovereenkomst naar de andere. Door de servicehistorie te kopiëren tussen serviceovereenkomsten, kunt u de vervangingen bijhouden voor een artikel.
 
-### <a name="example"></a>Voorbeeld
+**Voorbeeld**
 
 U hebt een serviceovereenkomst van drie jaar afgesloten voor de auto van een klant. Tijdens die periode wordt de klant gewend aan de goede service die het bedrijf levert. Dus na het verlopen van de overeenkomst wil de klant een nieuwe instellen. Nu kunt u onderhandelen over een gunstigere overeenkomst voor het bedrijf. Aangezien de historie van vervangen onderdelen in de toekomst handig van pas kan komen, kopieert u de historie van de servicestuklijst naar de nieuwe overeenkomst.
 
@@ -96,18 +101,26 @@ U kunt de manier wijzigen waarop stuklijstregelinformatie wordt weergegeven voor
 
 Om sjabloonstuklijsten te gebruiken, moet u twee nummerreeksen instellen. Stel één nummerreeks in voor de sjabloonstuklijst en één voor het stuklijstregelnummer.
 
+
 > [!NOTE]
-> Nummerreeksen worden gebruikt om id's toe te wijzen aan records die deze vereisen. Voordat u een nummerreeks aan een sjabloonstuklijst of een regelnummer stuklijstgeschiedenis kunt toewijzen, moet u nummerreekscodes instellen.
+> <P>Nummerreeksen worden gebruikt om id's toe te wijzen aan records die deze vereisen. Voordat u een nummerreeks aan een sjabloonstuklijst of een regelnummer stuklijstgeschiedenis kunt toewijzen, moet u nummerreekscodes instellen.</P>
+
 
 ## <a name="set-up-number-sequences"></a>Nummerreeksen instellen
 
-1. Op de pagina **Nummerreeksen** kunt u nummerreeksen maken voor sjabloonstuklijsten en het regelnummer voor de stuklijstgeschiedenis.
-1. Selecteer **Servicebeheer** \> **Instellen** \> **Parameters voor servicebeheer**.
-1. Selecteer **Nummerreeksen** en selecteer vervolgens een nummerreekscode voor de nummerreeksverwijzingen die u hebt gemaakt in het formulier **Nummerreeksen**.
-1. Sluit het formulier om de wijzigingen op te slaan.
+1.  Op de pagina **Nummerreeksen** kunt u nummerreeksen maken voor sjabloonstuklijsten en het regelnummer voor de stuklijstgeschiedenis. 
+
+2.  Klik op **Servicebeheer** \> **Instellen** \> **Parameters voor servicebeheer**.
+
+3.  Klik op **Nummerreeksen** en selecteer vervolgens een nummerreekscode voor de nummerreeksverwijzingen die u hebt gemaakt in het formulier **Nummerreeksen**.
+
+4.  Sluit het formulier om de wijzigingen op te slaan.
+
 
 > [!NOTE]
-> Het regelnummer stuklijstgeschiedenis wordt gebruikt om de transacties in de stuklijstgeschiedenis aan een serviceovereenkomst of serviceorder te koppelen. Het nummer wordt niet weergegeven in de gebruikersinterface.
+> <P>Het regelnummer stuklijstgeschiedenis wordt gebruikt om de transacties in de stuklijstgeschiedenis aan een serviceovereenkomst of serviceorder te koppelen. Het nummer wordt niet weergegeven in de gebruikersinterface.</P>
+
+
 
 ## <a name="see-also"></a>Zie ook
 
@@ -117,4 +130,6 @@ Om sjabloonstuklijsten te gebruiken, moet u twee nummerreeksen instellen. Stel �
 
 [Een servicestuklijst wijzigen](modify-service-bom.md)
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+ 
+
+

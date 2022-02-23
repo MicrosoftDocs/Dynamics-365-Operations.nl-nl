@@ -85,6 +85,3 @@ Aanvullende informatie over deze functie is beschikbaar in de [Zelfstudie Office
 ## <a name="other-fixes"></a>Andere correcties
 
 Deze versie bevat een aantal correcties, de toevoeging van nieuwe entiteiten, correcties voor bestaande entiteiten en gelokaliseerde labelwijzigingen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

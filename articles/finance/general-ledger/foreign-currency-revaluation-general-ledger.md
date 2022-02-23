@@ -2,25 +2,28 @@
 title: Herwaardering van vreemde valuta voor Grootboek
 description: 'Dit onderwerp bevat een overzicht van de volgende onderdelen van het herwaarderingsproces van vreemde valuta voor het grootboek: instellingen, het proces uitvoeren, berekening voor het proces en het omkeren van de herwaarderingstransacties, indien nodig.'
 author: kweekley
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CurrencyLedgerGainLossAccount
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 62153
 ms.assetid: 842e8561-560f-4cc6-8668-70cca60b1ba3
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 49f724eb31904c7fd745864c9d71f401a4d539e29b5ff01814334adf6f0ebc37
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 798e26badfd2a1f44891ea92f277de327fbed9c7
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771651"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4442129"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Herwaardering van vreemde valuta voor Grootboek
 
@@ -81,7 +84,7 @@ De hoofdrekening wordt geherwaardeerd op 31 januari.  De niet-gerealiseerde wins
 
 | Huidig saldo in transactievaluta | Huidig saldo in valuta voor boekhouding | Wisselkoers voor herwaardering | Nieuw bedrag in valuta voor boekhouding | Niet-gerealiseerde winst/verlies    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| EUR 500                                     | USD 1000                                   | 166.6667                         | USD 833,33 (500 x 1,666667)        | 166,67 verlies (833,33 – 1000) |
+| EUR 500                                     | USD 1000                                   | 166.6667                         | EUR 833,33 (500 x 1,666667)        | 166,67 verlies (833,33 – 1000) |
 
 De volgende vermelding in de boekhouding wordt gemaakt.
 
@@ -110,6 +113,3 @@ U kunt de resultaten van de verouderde herwaarderingsvolgorde omkeren, maar moge
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

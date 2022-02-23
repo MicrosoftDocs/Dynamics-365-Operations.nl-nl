@@ -2,12 +2,15 @@
 title: Siteselectiemodule
 description: In dit onderwerp wordt beschreven wat de siteselectiemodule is en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: a5f6f6e3ff459447aa4b3c0058b5526c9e8d1038a5d2629eefbed197012aebf0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b4e5f715efcac7f883df99508d282db904be0d80
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772223"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665218"
 ---
 # <a name="site-selector-module"></a>Siteselectiemodule
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven wat de siteselectiemodule is en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Overzicht
 
 Wanneer een bedrijf verschillende sites heeft voor verschillende markten, regio's en landen, hebben sitegebruikers een eenvoudige manier nodig om tussen sites te schakelen en hun favoriete winkelsite te selecteren. Voor dit scenario kunnen gebruikers met de siteselectiemodule bladeren door meerdere sites.
 
@@ -37,7 +42,7 @@ De siteselectiemodule moet worden geconfigureerd met de lijst met sites (markten
 
 In de volgende afbeelding ziet u een voorbeeld van een siteselectiemodule die wordt weergegeven in de koptekst van een sitepagina.
 
-![Voorbeeld van een siteselectiemodule in de koptekst van een sitepagina.](./media/ecommerce-sitepicker.PNG)
+![Voorbeeld van een siteselectiemodule in de koptekst van een sitepagina](./media/ecommerce-sitepicker.PNG)
 
 ## <a name="site-selector-module-properties"></a>Eigenschappen van siteselectiemodule
 
@@ -59,6 +64,3 @@ De siteselectiemodule kan aan de [Koptekstmodule](author-header-module.md) onder
 [Breadcrumb-module](add-breadcrumb.md)
 
 [Navigatiemenumodule](nav-menu-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -89,6 +89,3 @@ U kunt een afbeelding van het logo van uw bedrijf en andere informatie uploaden 
     ![Koppelingen naar het privacybeleid en de gebruiksvoorwaarden van uw bedrijf toevoegen voor de e-mailvoettekst](./media/attract-admin-email-footer.png)
 
 4. Selecteer **Opslaan** om de e-mailsjablooninstellingen op te slaan.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

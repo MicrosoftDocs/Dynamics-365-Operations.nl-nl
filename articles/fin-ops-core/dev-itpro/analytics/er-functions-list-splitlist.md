@@ -2,8 +2,11 @@
 title: De ER-functie SPLITLIST
 description: Dit onderwerp biedt informatie over het gebruik van de ER-functie (Elektronische rapportage) SPLITLIST.
 author: NickSelin
-ms.date: 03/15/2021
+manager: kfend
+ms.date: 12/12/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef0b548173a01cc5a15fcfb743dfb29397c1349b3c2926fa6401399459d07026
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d0f527dcf313a6a5e3b6601cac9a0f6495f66833
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776117"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680333"
 ---
 # <a name="splitlist-er-function"></a>De ER-functie SPLITLIST
 
@@ -27,16 +30,10 @@ ms.locfileid: "6776117"
 
 De functie `SPLITLIST` splitst de opgegeven lijst in sublijsten (of batches) waarvan elk het opgegeven aantal records bevat. De functie retourneert vervolgens het resultaat als een nieuwe waarde van het type *Recordlijst* die uit de batches bestaat.
 
-## <a name="syntax-1"></a>Syntaxis 1
+## <a name="syntax"></a>Syntaxis
 
 ```vb
 SPLITLIST (list, number)
-```
-
-## <a name="syntax-2"></a>Syntaxis 2
-
-```vb
-SPLITLIST (list, number, on-demand reading flag)
 ```
 
 ## <a name="arguments"></a>Argumenten
@@ -48,10 +45,6 @@ Het geldige pad van een gegevensbron van het gegevenstype *Recordlijst*.
 `number`: *Geheel getal*
 
 Het maximum aantal records per batch.
-
-`on-demand reading flag`: *Booleaans*
-
-Een *Booleaanse* waarde die aangeeft of elementen van sublijsten op aanvraag moeten worden gegenereerd.
 
 ## <a name="return-values"></a>Retourwaarden
 
@@ -71,8 +64,6 @@ De geretourneerde lijst batches bevat de volgende elementen:
 
     Het nummer van de huidige batch in de geretourneerde lijst.
 
-Wanneer de on-demand leesmarkering is ingesteld op **Waar**, worden sublijsten op aanvraag gegenereerd, waardoor het geheugenverbruik kan worden beperkt, maar prestaties kunnen verslechteren als elementen niet opeenvolgend worden gebruikt.
-
 ## <a name="example"></a>Voorbeeld
 
 In het volgende voorbeeld wordt een gegevensbron **Regels** gemaakt als een recordlijst met drie records. Deze lijst is onderverdeeld in batches, die elk maximaal twee records bevatten.
@@ -90,6 +81,3 @@ In de volgende afbeelding ziet u het resultaat wanneer de ontworpen indeling wor
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Lijstfuncties](er-functions-category-list.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

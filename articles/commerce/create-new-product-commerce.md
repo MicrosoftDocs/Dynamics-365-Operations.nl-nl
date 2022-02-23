@@ -1,10 +1,12 @@
 ---
-title: Een nieuw product maken in Commerce
+title: Een nieuwe product maken in Commerce
 description: In dit onderwerp wordt beschreven hoe u een nieuw product maakt in Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -14,14 +16,14 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 73911d9d8e3fdc6d72eadb8d071382e15dd5375eae8274f88d88b1078e7720f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b578c1bdfe1c6b4bf66cc85cc09ed906fb812a8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753717"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965301"
 ---
-# <a name="create-a-new-product-in-commerce"></a>Een nieuw product maken in Commerce
+# <a name="create-a-new-product-in-commerce"></a>Een nieuwe product maken in Commerce
 
 
 [!include [banner](includes/banner.md)]
@@ -49,13 +51,13 @@ Een product wordt voornamelijk gedefinieerd door een productnummer, -naam en -be
 
 De volgende afbeelding toont een voorbeeldproduct dat wordt toegevoegd.
 
-![Een product maken.](media/create-new-product.png)
+![Een product maken](media/create-new-product.png)
 
 Wanneer een product wordt toegevoegd, kunt u er extra gegevens voor instellen, zoals **Productbeschrijving**, **Variantgroepen**, **Dimensiegroepen**, **Productkenmerken** en **Gerelateerde producten**.
 
 In de volgende afbeelding ziet u de aanvullende gegevens van een product.
 
-![Productgegevens.](media/create-new-product-2.png)
+![Productgegevens](media/create-new-product-2.png)
 
 ### <a name="create-product-variants"></a>Productvarianten maken
 
@@ -74,23 +76,23 @@ Om een product te verkopen, moet het eerst aan een rechtspersoon worden vrijgege
 
 1. Selecteer **Producten vrijgeven** op de productpagina.
 
-    ![Product vrijgeven.](media/create-new-product-3.png)
+    ![Product vrijgeven](media/create-new-product-3.png)
 
 1. Selecteer het product dat u wilt vrijgeven en selecteer **Volgende**.
 
-    ![Producten kiezen om vrij te geven.](media/create-new-product-4.png)
+    ![Producten kiezen om vrij te geven](media/create-new-product-4.png)
 
 1. Selecteer de set productvarianten die u wilt vrijgeven en selecteer **Volgende**.
 
-    ![Productvarianten kiezen om vrij te geven.](media/create-new-product-5.png)
+    ![Productvarianten kiezen om vrij te geven](media/create-new-product-5.png)
 
 1. Selecteer de rechtspersoon en selecteer **Volgende**.
 
-    ![Rechtspersoon kiezen.](media/create-new-product-6.png)
+    ![Rechtspersoon kiezen](media/create-new-product-6.png)
 
 1. Selecteer **Voltooien**.
 
-    ![Productvrijgave voltooien.](media/create-new-product-7.png)
+    ![Productvrijgave voltooien](media/create-new-product-7.png)
 
 ## <a name="configure-a-released-product"></a>Een vrijgegeven product configureren
 
@@ -105,13 +107,10 @@ Nadat een product is vrijgegeven, is er verdere configuratie nodig, zoals het to
 
 In de volgende afbeelding ziet u een voorbeeldconfiguratie voor een vrijgegeven product.
 
-![Een vrijgegeven product configureren.](media/create-new-product-8.png)
+![Een vrijgegeven product configureren](media/create-new-product-8.png)
 
-## <a name="additional-resources"></a>Aanvullende bronnen
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Rechtspersonen maken](channels-legal-entities.md)
 
 [Een variantgroep maken](create-variant-group.md) 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

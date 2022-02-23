@@ -1,10 +1,12 @@
 ---
 title: Onderhoudsbudgetten maken
 description: In dit onderwerp wordt uitgelegd hoe u een onderhoudsbudget maakt in Activabeheer.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetBudgetLineAdjust, EntAssetBudget, EntAssetBudgetRecalc, EntAssetBudgetCopy, EntAssetBudgetLine, EntAssetBudgetCreate, EntAssetBudgetApprove, EntAssetBudgetCalculateActualCost
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a375eb7c208479615b2d5e7cf78168ffd7ac8b16c52c85a7ef5a41aa69c947d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 602a00060c1e56285d9954981d019bececaf90fd
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776939"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020984"
 ---
 # <a name="create-maintenance-budgets"></a>Onderhoudsbudgetten maken
 
@@ -50,12 +52,9 @@ Onderhoudsbudgetten zijn gebaseerd op de kostentypen die worden gebruikt in Acti
     > [!NOTE]
     > Nadat u een onderhoudsbudget hebt goedgekeurd, kunt u de gerelateerde regels niet opnieuw berekenen of aanpassen op de pagina **Budgetregels voor onderhoud**, tenzij u eerst de goedkeuring verwijdert. Als u de goedkeuring van een onderhoudsbudget wilt verwijderen, selecteert u het op de pagina **Onderhoudsbudgetten** en selecteert u vervolgens **Goedkeuren**. Selecteer vervolgens in het dialoogvenster **Budget goedkeuren** de optie **OK**.
 
-![Onderhoudsbudgetten.](media/01-maintenance-budgets.png)
+![Onderhoudsbudgetten](media/01-maintenance-budgets.png)
 
 U kunt ook een nieuw onderhoudsbudget maken door een bestaand budget te kopiëren. Selecteer op de pagina **Onderhoudsbudgetten** het te kopiëren budget en selecteer vervolgens **kopiëren**. Deze benadering is handig als u bijvoorbeeld een budget hebt gemaakt voor één maand en dit wilt kopiëren naar andere maanden.
 
 > [!NOTE]
 > Het onderhoudsbudget berekent alleen budgetkosten op basis van regels voor onderhoudsplannings. Als u de werkelijke kosten voor dezelfde periode wilt berekenen, kunt u die berekening uitvoeren op de pagina **Kostenbeheer activa**. 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

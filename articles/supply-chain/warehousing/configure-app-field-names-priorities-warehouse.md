@@ -1,10 +1,12 @@
 ---
-title: Velden configureren voor de mobiele app Magazijnbeheer
-description: In dit onderwerp wordt beschreven hoe u veldnamen en prioriteiten van velden die worden weergegeven in de mobiele app Magazijnbeheer kunt definiëren en configureren.
-author: Mirzaab
+title: Veldnamen configureren in de magazijnapp
+description: In dit onderwerp wordt beschreven hoe u veldnamen en prioriteiten van de magazijnapp kunt definiëren en configureren in Dynamics 365 Supply Chain Management.
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
@@ -13,24 +15,24 @@ ms.custom: 269434
 ms.assetid: 6cf3d7da-29bb-4d3d-aaf5-544ca9cc2980
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8c9c1d921f68538d5b84db16b1e88e28147e6b41
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: ac31b3d2b3b1d9ca51919fe75e06f0de1cda0c63
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902291"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963430"
 ---
-# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Velden configureren voor de mobiele app Magazijnbeheer
+# <a name="configure-app-field-names-in-the-warehouse-app"></a>Veldnamen in de magazijnapp configureren
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u veldnamen en prioriteiten van velden die worden weergegeven in de mobiele app Magazijnbeheer kunt definiëren en configureren.
+In dit onderwerp wordt beschreven hoe u veldnamen en prioriteiten van de magazijnapp kunt definiëren en configureren in Dynamics 365 Supply Chain Management. 
 
 > [!NOTE]
-> Dit onderwerp is van toepassing op functies in Magazijnbeheer. Het geldt niet voor functies in Voorraadbeheer. De mobiele app Magazijnbeheer is een toepassing waarmee u magazijntaken kunt uitvoeren. U kunt de in de app gebruikte veldnamen definiëren en configureren en u kunt ook de prioriteit configureren waaraan de veldnamen moeten worden toegewezen. In dit onderwerp wordt uitgelegd hoe u deze veldnamen en prioriteiten van de mobiele app Magazijnbeheer kunt definiëren en configureren en hoe ze worden gebruikt in Magazijnbeheer.
+> Dit onderwerp is van toepassing op functies in Magazijnbeheer. Het geldt niet voor functies in Voorraadbeheer. Magazijnbeheer is een toepassing waarmee u magazijntaken kunt uitvoeren. U kunt de in de app gebruikte veldnamen definiëren en configureren en u kunt ook de prioriteit configureren waaraan de veldnamen moeten worden toegewezen. In dit onderwerp wordt uitgelegd hoe u deze veldnamen en prioriteiten van de magazijnapp kunt definiëren en configureren en hoe ze worden gebruikt in Magazijnbeheer. Raadpleeg de zelfstudie [Overzicht van installatie en configuratie van de magazijnapp](install-configure-warehousing-app.md) voor gedetailleerde informatie over het configureren van de verbinding met Magazijnbeheer.
 
 ## <a name="configure-warehouse-app-field-names"></a>Veldnamen van magazijnapp configureren
 
@@ -50,7 +52,7 @@ Wanneer u Magazijnbeheer op uw mobiele apparaat gebruikt, kunt u configureren ho
 <tbody>
 <tr class="odd">
 <td>Geprefereerde invoermethode</td>
-<td>Met deze optie wordt bepaald of het veld Scannen of een invoerveld voor handmatige invoer moet worden weergegeven voor de geselecteerde veldnaam. Dit is handig om velden te onderscheiden, afhankelijk van de vraag of er streepjescodes voor het veld worden gebruikt. <strong>Opmerking:</strong> voor veldnamen waarvan de gewenste invoermodus is ingesteld op <strong>Scannen</strong>, kunt u gegevens handmatig invoeren als de streepjescode onleesbaar of beschadigd is.</td>
+<td>Met deze optie wordt bepaald of het veld Scannen of een invoerveld voor handmatige invoer moet worden weergegeven voor de geselecteerde veldnaam. Dit is handig om velden te onderscheiden, afhankelijk van de vraag of er streepjescodes voor het veld worden gebruikt. <strong>Opmerking:</strong> voor veldnamen waarvan de gewenste invoermodus is ingesteld op <strong>Scannen</strong>, kunt u gegevens handmatig invoeren als de streepjescode onleesbaar of is beschadigd is.</td>
 </tr>
 <tr class="even">
 <td>Invoertype</td>
@@ -137,9 +139,7 @@ Op basis van de instellingen van de veldprioriteit van de magazijnapp in de bove
 
 De resterende metagegevens, bijvoorbeeld Locatie, worden niet weergegeven op de taakpagina, maar worden op een detailpagina weergegeven. Raadpleeg voor meer informatie en voorbeelden van de gebruikersinterface het blogbericht [Finance and Operations - Magazijnbeheer aankondigen](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
-## <a name="additional-resources"></a>Aanvullende bronnen
+<a name="additional-resources"></a>Aanvullende bronnen
+--------
 
-[De mobiele app Magazijnbeheer installeren en verbinden](../warehousing/install-configure-warehouse-management-app.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Overzicht van installatie en configuratie van de magazijnapp](install-configure-warehousing-app.md)

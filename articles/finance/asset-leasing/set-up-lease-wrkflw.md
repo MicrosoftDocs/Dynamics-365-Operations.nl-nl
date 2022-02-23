@@ -2,25 +2,28 @@
 title: Goedkeuringswerkstromen voor lease instellen
 description: In het onderwerp wordt uitgelegd hoe u een goedkeuringswerkstroom instelt die wordt uitgevoerd wanneer er een nieuwe lease wordt gemaakt.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WorkflowTableListPageRnr
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2f99bb480e6ee2314852965ab9559bae2ad348fb92514d791fca127d91558348
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 58c0fd781710b7ab8efeaa7a6874f412279a5924
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733630"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4442151"
 ---
 # <a name="set-up-lease-approval-workflows"></a>Goedkeuringswerkstromen voor lease instellen
 
@@ -50,6 +53,3 @@ In het onderwerp wordt uitgelegd hoe u een goedkeuringswerkstroom instelt die wo
 14. Selecteer op de pagina **Werkstroom maken**, de optie **Sluiten**.
 14. Selecteer de nieuwe werkstroom en selecteer vervolgens **Versies**. Selecteer vervolgens **Actief maken** om ervoor te zorgen dat de werkstroom actief is.
 15. Selecteer **Sluiten**. De nieuwe actieve versie wordt weergegeven.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

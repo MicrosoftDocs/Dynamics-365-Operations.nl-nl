@@ -2,28 +2,29 @@
 title: Sjablonen laden
 description: In dit onderwerp wordt beschreven hoe u laadsjablonen instelt en hoe u een laadsjabloon koppelt aan een nieuwe lading.
 author: Henrikan
+manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTemplate
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 694860d1ade74f9fd51a8ac579aa69fe7fb673a8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1ea7f5244b483a1b9d6c55227c676a3878a71d83
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569908"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646376"
 ---
 # <a name="load-templates"></a>Sjablonen laden
-
-[!include [banner](../../includes/banner.md)]
 
 Wanneer u een nieuwe lading maakt, kunt u een laadsjabloon toewijzen. De laadsjabloon bevat informatie over apparatuur en over maateenheden zoals de hoogte, breedte, diepte en het volume van de lading.
 
@@ -53,6 +54,3 @@ In dit onderwerp wordt beschreven hoe u laadsjablonen instelt en hoe u een laads
 1. Selecteer in het actievenster op het tabblad **Vraag en aanbod** in de groep **Toevoegen** de optie **Aan nieuwe lading**.
 1. Selecteer in het dialoogvenster **Laadsjabloon** in het veld **Laadsjabloon-ID** de toe te passen sjabloon.
 1. Selecteer **OK** om de sjabloon toe te passen.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

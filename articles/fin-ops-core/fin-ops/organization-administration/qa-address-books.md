@@ -2,9 +2,11 @@
 title: Veelgestelde vragen over adresboeken
 description: Dit onderwerp bevat antwoorden op veelgestelde vragen met betrekking tot de adresboeken.
 author: msftbrking
-ms.date: 02/03/2021
+manager: AnnBe
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d429639f52c745a737567419b6012884ab20d43d
-ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.openlocfilehash: 922900b20b878dd8b479158d47a9f7792caa684d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463612"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796893"
 ---
 # <a name="address-books-faq"></a>Veelgestelde vragen over adresboeken
 
@@ -65,13 +67,3 @@ U kunt partijregistraties invoeren in het algemene adresboek of op de pagina van
 ## <a name="can-i-translate-address-information-for-party-records"></a>Kan ik adresgegevens voor partijregistraties vertalen?
 
 U kunt vertalingen van adresgegevens zo instellen dat u de gegevens in uw gebruikerstaal (systeemtaal) kunt bekijken in uw programma, terwijl de gegevens in documenten, zoals verkooporders, in een andere taal worden weergegeven. U kunt vertalingen invoeren voor landen/regionamen, adresdoeleinden en naamvolgordes. Stel dat uw systeemtaal Deens is en u een verkooporder voor een klant in Frankrijk maakt. In dit geval kunt u de klantregistratie in het programma in het Deens weergeven, maar worden de adresgegevens in het Frans weergegeven op de afgedrukte verkooporder. Als u vertalingen instelt, moet u een vertaling voor elk artikel in de lijst invoeren. Elk artikel waarvoor u geen vertaling invoert, verschijnt in de systeemtaal. Als uw systeemtaal bijvoorbeeld Deens is, en u verstuurd een document naar een klant in Spanje. Als u geen Spaanse (ESP) vertalingen voor de adresgegevens hebt ingevoerd, worden die gegevens zowel in het programma als op het afgedrukte document in het Deens weergegeven.
-
-## <a name="after-i-import-addresses-why-cant-i-edit-the-records"></a>Waarom kan ik de records niet bewerken nadat ik adressen heb geïmporteerd?
-
-Wanneer u adressen importeert, is er een veld met de naam **IsLocationOwner**. Dit veld geeft aan of de partij die aan de locatie (het adres) is gekoppeld, de eigenaar van het adres is. Als de partij de eigenaar van het adres is, kan het adres worden bewerkt wanneer de partij in het globale adresboek wordt gebruikt of vanuit de hoofdrecordpagina (zoals de klant, leverancier of medewerker). Als de partij niet de eigenaar van het adres is, kan de record niet worden bewerkt. 
-
-Wanneer u adressen importeert, moet het veld **IsLocationOwner** worden ingesteld op **Ja** als u wilt dat het adres kan worden bewerkt via de gekoppelde partij. Als dit veld niet goed wordt geïmporteerd, kan de eigenaar van de locatie worden bijgewerkt in het globale adresboek.
-
-Zie [Locatie-eigenaren beheren](./global-address-book-location-owner.md) voor meer informatie over het wijzigen van de locatie-eigenaar van een geïmporteerd adres.
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

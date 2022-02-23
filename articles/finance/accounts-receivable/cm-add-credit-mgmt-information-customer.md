@@ -1,23 +1,26 @@
 ---
 title: Informatie over kredietbeheer voor klanten toevoegen
 description: In dit onderwerp wordt uitgelegd hoe u informatie over kredietbeheer voor een klant toevoegt.
-author: JodiChristiansen
+author: mikefalkner
+manager: AnnBe
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3c8584c33b4f77b6d1f5a4dc0d62208b76b3ffa3
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 919aa50136f02a44eb69146589496ad1284721f2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753965"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441932"
 ---
 # <a name="add-credit-management-information-for-customers"></a>Informatie over kredietbeheer voor klanten toevoegen
 
@@ -99,6 +102,3 @@ U kunt verzekeringspolissen en garanties maken op de pagina **Alle klanten** (**
     In dit geval is de effectieve kredietlimiet 125.000 (= A + \[B × C\]).
     
     Als u het selectievakje **Opgenomen in risico** echter inschakelt, wordt de waarde **Kredietlimiet bijwerken** van 50.000 (= 50 procent van 100.000) verwijderd en is de risicowaarde 75.000 (= A + \[B × C\] – B).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

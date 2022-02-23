@@ -1,33 +1,31 @@
 ---
 title: Een compensatiestructuur ontwikkelen
-description: In dit onderwerp wordt beschreven hoe u een vastecompensatieplan maakt en werknemers registreert voor het plan via geschiktheidsregels.
-author: twheeloc
-ms.date: 08/25/2021
+description: Dit artikel begeleidt u bij het maken van een vastecompensatieplan en het registreren van werknemers voor het plan via geschiktheidsregels.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/10/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2e35f4978cc4e8162c56ba05de28ab5b2366ccc7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 124d0f7f83feebabf622f00732c25bfa0f6eccdd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065281"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418008"
 ---
 # <a name="develop-a-compensation-structure"></a>Een compensatiestructuur ontwikkelen
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Dit onderwerp beschrijft hoe u een vastecompensatieplan maakt en werknemers registreert voor het plan via geschiktheidsregels. In dit onderwerp worden de USMF-demodata gebruikt en toegepast op managers voor compensatie en vergoedingen.
+Dit artikel begeleidt u bij het maken van een vastecompensatieplan en het registreren van werknemers voor het plan via geschiktheidsregels. In dit artikel, dat van toepassing is op managers voor compensatie en vergoedingen, worden de USMF-voorbeeldgegevens gebruikt.
 
 ## <a name="create-a-fixed-compensation-plan"></a>Een vast compensatieplan maken
 
@@ -45,7 +43,7 @@ Dit onderwerp beschrijft hoe u een vastecompensatieplan maakt en werknemers regi
 
 7. Selecteer in het veld **Type** of het vastecompensatieplan van het type **Schaal**, **Schijf** of **Stap** is.
 
-8. Het selectievakje **Aanbeveling toegestaan** wordt gebruikt als standaardwaarde voor eventuele acties die aan dit plan in een procesgebeurtenis worden toegevoegd. Met Aanbeveling toegestaan kunt u het berekende richtlijnbedrag overschrijven bij het verwerken van de compensatie.
+8. Het selectievakje **Aanbeveling toegestaan** fungeert als standaardwaarde voor eventuele acties die aan dit plan in een procesgebeurtenis worden toegevoegd. Met Aanbeveling toegestaan kunt u het berekende richtlijnbedrag overschrijven bij het verwerken van de compensatie.
 
 9. Met het veld **Tolerantie voor buiten bereik** kunt u opgeven hoe u compensatiebedragen wilt verwerken die buiten het opgegeven bereik van de compensatiestructuur voor het opgegeven niveau vallen. Als u het veld **Tolerantie voor buiten bereik** instelt op **Geen**, kunt u elk gewenst compensatiebedrag gebruiken. **Zachte tolerantie** waarschuwt gebruikers als het compensatiebedrag minder is dan het minimale of meer dan het maximale referentiepuntbedrag voor dat niveau. Gebruikers kunnen de waarschuwing negeren en verdergaan. **Harde tolerantie** genereert een fout als de compensatie van een werknemer buiten de minimum- en maximumreferentiepunten voor het niveau ligt en wordt de compensatie automatisch aangepast om binnen het bereik te vallen.
 
@@ -115,6 +113,3 @@ U kunt een vastecompensatieplan toewijzen aan een werknemer totdat u geschikthei
 
 8. Sluit de pagina.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

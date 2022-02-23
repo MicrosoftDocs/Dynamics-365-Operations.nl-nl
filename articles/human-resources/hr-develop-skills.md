@@ -1,114 +1,64 @@
 ---
-title: Vaardigheden configureren
-description: U kunt de vaardigheden van uw werknemer bijhouden in Dynamics 365 Human Resources. U kunt ook opgeven welke vaardigheden voor een bepaalde functie zijn vereist.
-author: twheeloc
-manager: tfehr
-ms.date: 03/23/2021
+title: Personeelsvaardigheden afstemmen op bedrijfsbehoeften
+description: U kunt de vaardigheden bijhouden die de werknemers, sollicitanten of de contactpersonen hebben of zouden moeten hebben om hun functie effectief te vervullen. U kunt ook opgeven welke vaardigheden voor een bepaalde functie zijn vereist.
+author: andreabichsel
+manager: AnnBe
+ms.date: 11/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 3361
 ms.assetid: c2ce94c0-933d-4edb-822c-7f0e7b49e4ee
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 13206bb3c961f001620e8b65a8b1bb39bf95ee49
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 7abaa99bdec5fcf20a63bfeb716ebb63dd3712df
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075066"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417988"
 ---
-# <a name="configure-skills"></a>Vaardigheden configureren
+# <a name="align-workforce-skills-with-business-needs"></a>Personeelsvaardigheden afstemmen op bedrijfsbehoeften
 
-> [!IMPORTANT]
-> De functionaliteit die in dit onderwerp wordt vermeld, is momenteel beschikbaar voor Human Resources-klanten in de Finance-infrastructuur.  
-
-
-U kunt de vaardigheden van uw werknemer bijhouden in Dynamics 365 Human Resources. U kunt ook opgeven welke vaardigheden voor een bepaalde functie zijn vereist.
+U kunt de vaardigheden bijhouden die de werknemers, sollicitanten of de contactpersonen hebben of zouden moeten hebben om hun functie effectief te vervullen. U kunt ook opgeven welke vaardigheden voor een bepaalde functie zijn vereist.
 
 Voorbeelden van de vaardigheden die u kunt bijhouden zijn:
+-   Supervisie - vermogen om toe te zien op het werk van anderen.
+-   Leiderschap - vermogen om leiding te geven aan medewerkers en bedrijfseenheden.
+-   Planning - vermogen om vooruit te denken, visies te ontwikkelen en uit te voeren.
+-   HTML - vermogen om HTML-code te schrijven.
 
-- Supervisie - vermogen om toe te zien op het werk van anderen.
-- Leiderschap - vermogen om leiding te geven aan medewerkers en bedrijfseenheden.
-- Planning: mogelijkheid om vooruit te kijken, visies te ontwikkelen en uit te voeren.
-- HTML - vermogen om HTML-code te schrijven.
+Voordat u een vaardigheid kunt toewijzen aan een persoon of functie, een zoekopdracht voor vaardigheidstoewijzingen of een vaardigheidsprofiel kunt maken, moet u informatie over de vaardigheden in de pagina **Vaardigheden** invoeren. Voor elke vaardigheid kunt u een vaardigheidstype en een beoordelingsmodel selecteren.
 
-Als u nog geen vaardigheidstypen en beoordelingsmodellen hebt ingesteld, moet u er een aantal toevoegen voordat u vaardigheden kunt maken.
+## <a name="rating-models"></a>Beoordelingsmodellen
+Beoordelingsmodellen helpen te beoordelen wat het werkelijke vaardigheidsniveau van een persoon is, het niveau dat ze moeten zien te bereiken of het vaardigheidsniveau dat ze voor een taak moeten hebben. U kunt tot maximaal 10 niveaus ingeven voor een classificatiemodel.  Aan elk niveau in een beoordelingsmodel wordt een factor toegewezen.  De factorwaarde wordt gebruikt om scores te normaliseren van vaardigheden die verschillende beoordelingsmodellen gebruiken.  De factor moet een getal tussen 0-9 zijn en elk niveau moet een unieke factor hebben.  Niveaus met een hogere factorwaarden zijn belangrijker in een beoordelingsmodel.
 
-De volgende personen kunnen vaardigheden voor een werknemer invoeren:
+## <a name="specify-job-skills"></a>Opgeven functievaardigheden
+Wanneer u informatie over een taak invoert, kunt u de vaardigheden opgeven die een persoon moet hebben om het vereiste werk voor de taak uit te voeren.  Daarnaast kunt u het gewenste niveau voor elke vaardigheid opgeven evenals het belang van de vaardigheid. Het belang van een bepaalde vaardigheid kan per taak verschillen.
 
-- Werknemers kunnen vaardigheden voor zichzelf invoeren in Selfservice werknemer. Voor deze vaardigheden is goedkeuring van de manager vereist.
-- Managers kunnen vaardigheden voor hun werknemers invoeren. U kunt een werkstroom maken waarmee deze vaardigheden automatisch worden goedgekeurd.
+## <a name="enter-skills-for-workers-applicants-or-contacts"></a>Vaardigheden voor werknemers, sollicitanten of contactpersonen invoeren
+U kunt gewenste vaardigheden of werkelijke vaardigheden voor werknemers, sollicitanten of contactpersonen, invoeren. Een gewenste vaardigheid is een vaardigheid die een persoon van plan is te verwerven. Een werkelijke vaardigheid is een vaardigheid die iemand op dat moment heeft.
 
-## <a name="create-a-skill-type"></a>Een vaardigheidstype maken
+## <a name="skill-mapping-and-skill-mapping-profiles"></a> Vaardigheidstoewijzing en Profielen voor vaardigheidstoewijzing
+U kunt een zoekopdracht voor vaardigheidstoewijzing maken om een werknemer, sollicitant of contactpersoon te zoeken die gekwalificeerd is om een bepaald type taak uit te voeren. De zoekopdrachten voor vaardigheidstoewijzingen zoeken in de opleiding, vaardigheden, certificaten, vertrouwensposities en projectervaring, en retourneren resultaten die aan de criteria voldoen.  Bijvoorbeeld: het kan handig zijn om te bepalen welke werknemers in uw organisatie hun CPA hebben verdiend.
 
-Vaardigheidstypen zijn categorieën waaronder afzonderlijke vaardigheden vallen, zoals Administratie of Verkoop.
+De profielen voor vaardigheidstoewijzing maken het mogelijk huidige werknemers of kandidaten te vinden met kwalificaties die aansluiten op zakelijke behoeften.  U kunt bijvoorbeeld een profiel voor vaardigheidstoewijzing maken voor een vacature in uw organisatie. Door een profiel voor een bepaalde taak te maken en de vaardigheden, opleiding en certificaten van die taak naar het profiel te kopiëren, kunt u snel werknemers, sollicitanten en contactpersonen zoeken die aan een of meer van de criteria van het profiel voldoen en een lijst weergeven van de kandidaten waarvan de vaardigheden het dichtst liggen bij de vaardigheden die voor de taak zijn vereist.
 
-1. Selecteer **Koppelingen** in het werkgebied **Werknemersontwikkeling**.
+> **Opmerking** Alleen de werknemers, sollicitanten en de contactpersonen die zijn geselecteerd om in zoekopdrachten voor vaardigheidstoewijzing te worden opgenomen, kunnen in een resultatenlijst worden weergegeven of in een vaardigheidsprofiel worden opgenomen. Om een werknemer, sollicitant of contactpersoon op te nemen in zoekopdrachten voor vaardigheidstoewijzingen, stelt u de selectie **Opnemen in vaardigheidstoewijzing** in op Ja op de volgende pagina's:
+> 
+> + Werknemer
+> + Werknemer
+> + Sollicitant
+> + Contactpersonen
 
-2. Selecteer **Vaardigheidstypen** onder **Competentie-instellingen**.
+## <a name="skill-gap-analysis-and-skill-profile-analysis"></a>Vaardigheidshiaatanalyse en analyse van het vaardigheidsprofiel
+U kunt een analyse van een vaardigheidsprofiel maken om een lijst met de competenties van een werknemer, sollicitant of een contactpersoon vanaf een bepaalde datum te bekijken. U kunt een vaardigheidshiaatanalyse maken om de vaardigheden van een persoon te vergelijken met de vaardigheden die zijn vereist voor een bepaalde functie  
 
-3. Selecteer **Nieuw**.
 
-4. Vul de volgende velden in:
-
-   - **Vaardigheidstype**: voer een unieke naam voor het vaardigheidstype in.
-   - **Omschrijving**: voer een omschrijving voor het vaardigheidstype in.
-
-5. Selecteer **Opslaan**.
-
-## <a name="create-a-rating-model"></a>Een beoordelingsmodel maken
-
-Beoordelingsmodellen helpen te beoordelen wat het werkelijke vaardigheidsniveau van een persoon is, het niveau dat ze moeten zien te bereiken of het vaardigheidsniveau dat ze voor een taak moeten hebben. Aan elk niveau in een beoordelingsmodel wordt een factor toegewezen.
-
-1. Selecteer **Koppelingen** in het werkgebied **Werknemersontwikkeling**.
-
-2. Selecteer **Beoordelingsmodellen** onder **Competentie-instellingen**.
-
-3. Selecteer **Nieuw**.
-
-4. Vul de volgende velden in:
-
-   - **Beoordeling**: voer een naam in voor het beoordelingsmodel, zoals **Vaardigheden**.
-   - **Omschrijving**: voer een omschrijving in voor het beoordelingsmodel, zoals **Vaardigheidsbeoordelingen**.
-
-5. Selecteer **Nieuw** in de sectie **Niveaus**. Vul de volgende velden in voor elk niveau dat u wilt toevoegen:
-
-   - **Niveau**: voer een naam voor het niveau in.
-   - **Omschrijving**: voer een omschrijving in voor het niveau.
-   - **Factor**: voer een factorwaarde in van 0-9. Factorwaarden worden gebruikt om scores te normaliseren van vaardigheden die verschillende beoordelingsmodellen gebruiken. Elk niveau moet een unieke factor hebben. Niveaus met een hogere factorwaarden zijn belangrijker in een beoordelingsmodel.
-
-   Ga indien nodig door met het toevoegen van niveaus. U kunt tot maximaal 10 niveaus invoeren voor elk beoordelingsmodel.
-
-6. Selecteer **Opslaan**.
-
-## <a name="create-a-skill"></a>Een vaardigheid maken
-
-Voordat u een vaardigheid kunt toewijzen, een zoekopdracht voor vaardigheidstoewijzingen of een vaardigheidsprofiel kunt maken, moet u informatie over de vaardigheden op de pagina **Vaardigheden** invoeren. Voor elke vaardigheid kunt u een vaardigheidstype en een beoordelingsmodel selecteren.
-
-1. Selecteer **Koppelingen** in het werkgebied **Werknemersontwikkeling**.
-
-2. Selecteer **Vaardigheden** onder **Competentie-instellingen**.
-
-3. Selecteer **Nieuw**.
-
-4. Vul de volgende velden in:
-
-   - **Vaardigheid**: voer een naam voor de vaardigheid in.
-   - **Omschrijving**: voer een omschrijving voor de vaardigheid in.
-   - **Beoordeling**: selecteer het beoordelingsmodel dat u voor deze vaardigheid wilt gebruiken.
-   - **Vaardigheidstype**: selecteer een vaardigheidstype in de lijst met vaardigheidstypen.
-
-5. Selecteer **Opslaan**.
-
-## <a name="see-also"></a>Zie ook
-
-[Vaardigheden invoeren](hr-develop-enter-skills.md)<br>
-[Vaardigheden toewijzen](hr-develop-map-skills.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

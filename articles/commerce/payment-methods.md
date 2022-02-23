@@ -1,14 +1,17 @@
 ---
 title: Betalingsmethoden
 description: Elk betalingstype dat een detailhandelaar accepteert, moet worden geconfigureerd wanneer het systeem wordt ingesteld. In dit artikel wordt beschreven welke betalingstypen u kunt instellen en wordt het proces beschreven voor het instellen hiervan.
-author: BrianShook
-ms.date: 11/03/2021
+author: rubencdelgado
+manager: AnnBe
+ms.date: 06/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 15831
 ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0450dbaa37365705ca59fd2223c9d3866054c12a
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 2b56609de3b2620dcc605c6c6d697cb74c8ed6c1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779565"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411388"
 ---
 # <a name="payment-methods"></a>Betalingsmethoden
 
@@ -46,11 +49,3 @@ Voor het instellen van betalingsmethoden moet u de volgende taken voltooien.
 2. Kaarttypen en kaartnummers voor de hele organisatie maken. Als creditcards of betaalpassen worden geaccepteerd, moet u één betalingsmethode maken voor kaarten en vervolgens de typen kaarten en kaartnummers voor de organisatie maken.
 3. Betalingsmethoden voor winkels instellen. Koppel betalingsmethoden aan elke winkel en voer vervolgens de winkelspecifieke instellingen in voor elke betalingsmethode.
 4. Betalingsmethoden via kaart instellen voor winkels. Voltooi de kaartinstellingen voor alle kaartbetalingsmethoden die door de winkel worden geaccepteerd.
-
-## <a name="handle-change-tendering-for-payment-methods"></a>Betalingswijzen voor wisselgeld verwerken
-
-Sommige betalingswijzen bieden geen ondersteuning voor direct wisselgeld als geld moet worden terugbetaald aan klanten tijdens verkooppunttransacties. Alleen de betalingswijzen **Contant** en **Valuta** kunnen worden gebruikt voor wisselgeld. 
-
-Voor gevallen waarin wisselgeld tijdens een transactie is vereist maar de betalingswijze geen wisselgeld ondersteunt, kunt u de betalingswijze **Wisselgeld** definiëren. Selecteer de betalingswijze die u wilt gebruiken wanneer u winkelbetalingswijzen wilt instellen voor de winkel. Voer vervolgens in de sectie **Wisselgeld** van het veld **Wisselgeld** een betalingsoptie voor wisselgeld in. U kunt bijvoorbeeld **1** invoeren om aan te geven dat contant geld kan worden gebruikt als betalingsoptie voor wisselgeld.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Definities voor gegevensmodel selecteren tijdens het maken van indelingen
 description: Als u de stappen in deze procedure wilt uitvoeren, moet u eerst de stappen in de procedure 'ER Een configuratieprovider maken en deze als actief markeren' voltooien.
 author: NickSelin
+manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34e6c8df735976ca0f7805fe3e06f141d38abf12faf02ff66195339147aa5405
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 44288cc3979a0ac2ed6b4a8478aac21a85aca24e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720827"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684206"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>Definities voor gegevensmodel selecteren tijdens het maken van indelingen
 
@@ -96,6 +98,3 @@ Deze procedure is bedoeld voor gebruikers met de rol Systeembeheerder of Elektro
     * Houd er rekening mee dat nu slechts één basisitem beschikbaar is voor toewijzing aan de gegevensbronnen van de toepassing. Wanneer ten minste één modeltoewijzing wordt geïntroduceerd, kunnen alleen de basisitems van het model die aan toepassingsgegevensbronnen zijn toegewezen, als modeldefinitie worden geselecteerd terwijl de ER-indeling wordt toegevoegd.   
 5. Sluit de pagina.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

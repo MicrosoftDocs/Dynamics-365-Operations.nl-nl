@@ -2,9 +2,11 @@
 title: Voordat u koopt
 description: Stapsgewijze instructies om te gebruiken wanneer u het kopen van Dynamics 365 Finance, Dynamics 365 Supply Chain Management of Dynamics 365 Commerce overweegt.
 author: ShellyBakke
-ms.date: 11/30/2021
+manager: AnnBe
+ms.date: 11/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f994acfb85e5bb7ccb9cbd3e6c0a0f3c4eec318a
-ms.sourcegitcommit: 34113bd588d53b9aed481da060a1c6738fca0eaf
+ms.openlocfilehash: ea741e3d4b3a6ce93a30c9d8c8adc7c91b513871
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "7874579"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798544"
 ---
 # <a name="before-you-buy"></a>Voordat u gaat kopen
 
@@ -42,7 +44,7 @@ De volgende overwegingen moeten in acht worden genomen wanneer u on-premises kie
 - [Systeemvereisten voor on-premises implementaties](system-requirements-on-prem.md).
 
 > [!IMPORTANT]
-> On-premises implementaties van worden niet ondersteund op een openbare cloud-infrastructuur, met inbegrip van Microsoft Azure. Deze worden echter wel ondersteund om te worden uitgevoerd in [Microsoft Azure Stack HCI](https://azure.microsoft.com/products/azure-stack/hci/) en [Microsoft Azure Stack Hub](https://azure.microsoft.com/products/azure-stack/hub/).
+> On-premises implementaties van worden niet ondersteund op een openbare cloud-infrastructuur, met inbegrip van Microsoft Azure.
 
 Zie [Implementatieopties](../../dev-itpro/deployment/choose-deployment-type.md) voor meer informatie.
 
@@ -86,11 +88,8 @@ Voor aanvullende bronnen zie:
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Stap vier: Informatie over FastTrack en uw implementatie plannen
 
-Microsoft FastTrack for Dynamics 365 is onze succesvolle klantenservice die is bedoeld om u te helpen bij een probleemloze en betrouwbare overgang naar Dynamics 365, zodat u sneller zakelijke voordelen kunt realiseren. Wanneer u deelneemt aan het het FastTrack-programma, ontvangt u richtlijnen voor aanbevolen procedures en het plannen van succesvolle implementaties. Ook leert u manieren om nieuwe gebruikers op weg te helpen en de mogelijkheden uit te breiden: alles in uw eigen tempo. Bovendien hebt u toegang tot technische informatiebronnen van Microsoft zodat uw ervaring met Dynamics 365 een succes wordt. Voor meer informatie zie [Microsoft FastTrack](/dynamics365/fasttrack/).
+Microsoft FastTrack for Dynamics 365 is onze succesvolle klantenservice die is bedoeld om u te helpen bij een probleemloze en betrouwbare overgang naar Dynamics 365, zodat u sneller zakelijke voordelen kunt realiseren. Wanneer u deelneemt aan het het FastTrack-programma, ontvangt u richtlijnen voor aanbevolen procedures en het plannen van succesvolle implementaties. Ook leert u manieren om nieuwe gebruikers op weg te helpen en de mogelijkheden uit te breiden: alles in uw eigen tempo. Bovendien hebt u toegang tot technische informatiebronnen van Microsoft zodat uw ervaring met Dynamics 365 een succes wordt. Voor meer informatie zie [Microsoft FastTrack](fasttrack-dynamics-365-overview.md).
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Als u een upgrade uitvoert van Dynamics AX 2012 of migreert van AX 2009
 
 Als u een upgrade uitvoert van Microsoft Dynamics AX 2012 of migreert van Microsoft Dynamics AX 2009, is het mogelijk dat u in aanmerking komt voor een langere evaluatieperiode. Neem contact op <daxcf@microsoft.com> voor meer informatie.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

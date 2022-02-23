@@ -142,6 +142,3 @@ Nadat kandidaten voor een of meer functies hebben gesolliciteerd, kunnen ze **So
 ## <a name="internal-jobs"></a>Interne functies
 
 Op dit moment worden functies die zijn gemarkeerd als intern en op de Attract-vacaturesite zijn geplaatst, niet op de vacaturesite weergegeven. Ze zijn alleen toegankelijk via de rechtstreekse URL **Solliciteren** die kan worden gekopieerd uit de Attract-sollicitatie.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

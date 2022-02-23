@@ -2,25 +2,28 @@
 title: Vereffening configureren
 description: Hoe en wanneer de transacties worden vereffend, kunnen complexe onderwerpen zijn. Daarom is het belangrijk dat u parameters begrijpt en de parameters kunt definiëren om aan uw bedrijfsbehoeften te voldoen. In dit onderwerp worden de parameters beschreven die voor leveranciers en klanten worden gebruikt voor vereffening.
 author: kweekley
+manager: AnnBe
 ms.date: 05/16/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 323a1e6d426208a880a72dd89f7be04bacbf13a8e6c5d8ab7599217cfc18f2c0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 094b8876b3b10b6dcbc0ce399a1a9915271459ed
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720569"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442102"
 ---
 # <a name="configure-settlement"></a>Vereffening configureren
 
@@ -64,6 +67,3 @@ Om de extra boekhoudingsposten te voorkomen, de debet en de credit naar dezelfde
 
 -   Organisaties gebruiken vaak vaste dimensies om een financiële dimensie die niet vereist is op nul in te stellen. Dit is meestal het geval voor balansrekeningen, zoals rekeningen van klanten/leveranciers. Rekeningstructuren kunnen worden gebruikt om financiële dimensies niet te traceren, die meestal met nullen worden gevuld.  U kunt de financiële dimensie voor de balansrekeningen verwijderen, waardoor geen vaste dimensie meer nodig is.
 -   Als uw organisatie vaste dimensies vereist voor de hoofdrekening van klanten/leveranciers, zoekt u een manier om de vaste dimensie standaard te maken voor de betaling, zodat de waarde van de vaste dimensie wordt opgeslagen in de leverancierstransactie voor de betaling. Hierdoor kan het systeem de hoofdrekening van klanten/leveranciers reconstrueren en de vaste-dimensiewaarden opnemen. De vaste-dimensiewaarde kan worden gedefinieerd als standaard voor leveranciers of de journaalnaam voor het betalingsjournaal.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

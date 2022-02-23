@@ -1,55 +1,50 @@
 ---
 title: Een project voor massaal aanstellen maken
 description: Deze procedure doorloopt het proces van het instellen van een project voor massaal aanstellen.
-author: twheeloc
-ms.date: 10/28/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMMassHireProject,  HRMMassHireLineCreate, HcmJobLookup, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4f119805af275b5bcddd910325179c02ed44758e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 8ddcfd531e7b5c76ac4b15cee54880f6868a73f1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065109"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417917"
 ---
 # <a name="create-a-mass-hire-project"></a>Een project voor massaal aanstellen maken
 
 
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+Deze procedure doorloopt het proces van het instellen van een project voor massaal aanstellen. Een werver kan projecten voor massaal aanstellen gebruiken om gemakkelijk meerdere posities te maken en een aantal werknemers aan te stellen in die functies. U begint deze procedure door naar Human resources > Werving > Projecten voor massaal aanstellen te gaan. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 
-
-
-Deze procedure doorloopt het proces van het instellen van een project voor massaal aanstellen. Een werver kan projecten voor massaal aanstellen gebruiken om gemakkelijk meerdere posities te maken en een aantal werknemers aan te stellen in die functies. U begint deze procedure door naar **Human resources** > **Werving** > **Projecten voor massaal aanstellen** te gaan. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
-
-1. Klik op **Nieuw**.
-2. Typ een waarde in het veld **Project voor massaal aanstellen**.
-3. Typ een waarde in het veld **Beschrijving**.
-4. Voer in het veld **Begin project** een datum in.
-5. Voer in het veld **Einde project** een datum in.
-6. Klik op **Project openen**.
-7. Klik op **Ja**.
-8. Klik op **Posities maken**.
-9. Voer in het veld **Hoeveelheid** het aantal posities in dat u wilt maken
-    * De begindatum wordt de **Aanstellingsdatum** voor de nieuwe medewerkers.  
-    * De einddatum is de **Ontslagdatum** voor de nieuwe medewerkers.  
-    * Geef op of het bij de nieuwe medewerkers om **Medewerkers** of **Contractanten** gaat.  
-10. Klik in het veld **Taak** op de vervolgkeuzelijstknop om de taak te selecteren waarvoor u de posities wilt maken.
+1. Klik op Nieuw.
+2. Typ een waarde in het veld Project voor massaal aanstellen.
+3. Typ een waarde in het veld Omschrijving.
+4. Voer in het veld Begin project een datum in.
+5. Voer in het veld Einde project een datum in.
+6. Klik op Project openen.
+7. Klik op Ja.
+8. Klik op Posities maken.
+9. Voer in het veld Hoeveelheid het aantal posities in dat u wilt maken
+    * De begindatum wordt de aanstellingsdatum voor de nieuwe werknemers.  
+    * De einddatum is de ontslagdatum voor de nieuwe werknemers.  
+    * Geef op of het bij de nieuwe werknemers om werknemers of contractanten gaat.  
+10. Klik in het veld Taak op de vervolgkeuzelijstknop om de taak te selecteren waarvoor u de posities wilt maken.
 11. Zoek en selecteer de gewenste record in de lijst.
 12. Klik in de lijst op de koppeling in de geselecteerde rij.
     * De standaard voltijdse equivalentwaarde is afkomstig van de geselecteerde taak. U kunt deze zo nodig wijzigen.  
     * Selecteer desgewenst de afdeling voor de nieuwe posities.  
-13. Klik op **OK**.
+13. Klik op OK.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

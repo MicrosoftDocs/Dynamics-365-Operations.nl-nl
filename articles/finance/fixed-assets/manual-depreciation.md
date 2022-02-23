@@ -1,10 +1,12 @@
 ---
 title: Handmatige afschrijving
 description: Dit artikel biedt een overzicht van de methode voor handmatige afschrijving.
-author: moaamer
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: roschlom
 ms.custom: 13811
 ms.assetid: b0e837c9-515a-4aed-9060-5ec94f37edeb
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5b62bbdd5d745bc9d0745cc6fa6d6e8034a61e3
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 228e6c94042942a26793eb0bebc1186dd4767e7f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674822"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969024"
 ---
 # <a name="manual-depreciation"></a>Handmatige afschrijving
 
@@ -30,11 +32,11 @@ Dit artikel biedt een overzicht van de methode voor handmatige afschrijving.
 
 Wanneer u een profiel voor de afschrijving van vaste activa instelt en **Handmatig** selecteert in het veld **Methode** op de pagina **Afschrijvingsprofielen**, wordt de afschrijving van vaste activa die aan het afschrijvingsprofiel zijn toegewezen, bepaald door het percentage dat u opgeeft voor elk interval in het kalenderjaar. De intervallen waarvoor u percentages instelt, worden geboekt volgens de waarde die u selecteert in het veld **Periodefrequentie** op het sneltabblad **Algemeen** van de pagina **Afschrijvingsprofielen**. U kunt kiezen uit de volgende waarden:
 
-- Jaarlijks
-- Maandelijks
-- Per kwartaal
-- Zesmaandelijks
-- Dagelijks
+-   Jaarlijks
+-   Maandelijks
+-   Per kwartaal
+-   Zesmaandelijks
+-   Dagelijks
 
 Nadat u een periodefrequentie hebt geselecteerd, klikt u op **Handmatige schema's** en stelt u percentages in voor elk van de boekingsintervallen. Het afschrijvingsbedrag wordt door de combinatie van handmatige schema's en de boekingsintervallen gedefinieerd, zoals in de voorbeelden verderop in dit artikel wordt getoond. De handmatige afschrijving wordt altijd berekend als een percentage van de aanschafprijs. Voor handmatige afschrijving hoeven de percentages die u invoert in de intervallen van de afschrijving niet samen 100 procent te zijn. Handmatige afschrijving is een flexibele afschrijvingsmethode, die vaak wordt gebruikt om een buitengewoon afschrijvingsprofiel te definiëren op de pagina **Boeken**, zoals een niet-periodieke afschrijving voor speciale doeleinden (bijvoorbeeld belastingen).
 
@@ -73,6 +75,3 @@ Het totaal van de percentages voor alle intervallen hoeft niet gelijk te zijn aa
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

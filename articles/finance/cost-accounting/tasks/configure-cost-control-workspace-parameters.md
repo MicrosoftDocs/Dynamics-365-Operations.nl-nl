@@ -2,9 +2,11 @@
 title: Parameters voor werkgebied voor kostenbeheer configureren
 description: Gebruik deze procedure om het werkgebied kostenbeheer te configureren, zodat managers op verschillende niveaus in een organisatie inzicht kunnen krijgen in hun kostenobjecten, zoals kostencentra en productgroepen.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ecc775019445bbe97dd5a0e9198b9c605b1c65322006d912a95a5bb1fbdf879
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9861d6bc83d3f1d62091154a36436627eeccad4a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766929"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969348"
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Parameters voor werkgebied voor kostenbeheer configureren
 
@@ -56,6 +58,3 @@ Gebruik deze procedure om het werkgebied kostenbeheer te configureren, zodat man
 27. Typ of selecteer een waarde in het veld Dimensiehiërarchieknooppunt van een kostenobject.
     * Nadat u een kostenobjectdimensiehiërarchie hebt geselecteerd, vouwt u de kostenelementdimensiehiërarchie uit om de gewenste kostenwaarden te zien. U kunt bijvoorbeeld de hiërarchie uitvouwen naar Productieoverhead om de waarde te zien.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

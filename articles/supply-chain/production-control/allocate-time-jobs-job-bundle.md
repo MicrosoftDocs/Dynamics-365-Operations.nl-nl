@@ -2,9 +2,11 @@
 title: Tijd toewijzen aan taken in een takenbundel
 description: In Productie-uitvoering kunt u taken bundelen. U kunt meerdere taken tegelijk starten op de pagina Taaklijst.
 author: johanhoffmann
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgBundleSlize, JmgProdParameters, JmgRegistration
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb0236f9f39afc67cb5c8cedecee5278a6555d03deefb859fc134a4a4160285b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 382cf8d12d9695c80c3b13497886d20f29f3680c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766602"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966575"
 ---
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Tijd toewijzen aan taken in een takenbundel
 
@@ -80,7 +82,7 @@ De volgende tabel illustreert de formule voor de berekening van de toegewezen ti
 ## <a name="net-time-allocation-key"></a>Toewijzingssleutel Nettotijd
 De volgende tabel illustreert de formule voor de berekening van de toegewezen tijd. Hier volgt de formule: Berekende tijd per rapportage = Bundeltijd ÷ Aantal taken
 
-| Voorbeeld                       | 09:00–10:00 (1 uur) | 10:00–11:00 (1 uur) | 11:00–13:00 (2 uur) | 13:00–15:00 (2 uur) | Toegewezen tijd |
+|                              | 09:00–10:00 (1 uur) | 10:00–11:00 (1 uur) | 11:00–13:00 (2 uur) | 13:00–15:00 (2 uur) | Toegewezen tijd |
 |------------------------------|----------------------|----------------------|-----------------------|-----------------------|----------------|
 | Het aantal taken in de bundel | 1                    | 3                    | 2                     | 1                     | Niet van toepassing |
 | Taak 1                        | 1 ÷ 1 = 1 uur       | 1 ÷ 3 = 0,33 uur    | Niet van toepassing        | Niet van toepassing        | 1,33 uur     |
@@ -108,6 +110,3 @@ De gecorrigeerde kosten per uur en de taaktijd worden geboekt in een productiejo
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

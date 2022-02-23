@@ -1,14 +1,17 @@
 ---
 title: Geavanceerde automatische toeslagen voor meerdere kanalen
-description: Dit onderwerp beschrijft de mogelijkheden voor het beheren van andere toeslagen voor Commerce-kanaalorders met behulp van de geavanceerde functie voor automatische toeslagen.
+description: Dit onderwerp beschrijft de mogelijkheden voor het beheren van extra toeslagen voor Commerce-kanaalorders met behulp van de geavanceerde functie voor automatische toeslagen.
 author: hhaines
+manager: annbe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ef6396ec66a0f96ba97b176c46bf70d83a080883cf496312398f14dce3ad9758
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2d463bf01659aeb6599023ce46da0c604f8eeff0
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743426"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4411527"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Geavanceerde automatische toeslagen voor meerdere kanalen
 
@@ -29,9 +32,9 @@ ms.locfileid: "6743426"
 
 Dit onderwerp bevat informatie over de configuratie en implementatie van de geavanceerde functies voor automatische toeslagen die beschikbaar zijn in Dynamics 365 for Retail versie 10.0.
 
-Wanneer de geavanceerde functie voor automatische toeslagen is ingeschakeld, kunnen orders die zijn gemaakt in een ondersteund Commerce-afzetkanaal (verkooppunt (POS), callcenter en online), profiteren van de configuraties voor [automatische toeslagen](/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) die zijn gedefinieerd in de ERP-toepassing voor toeslagen op zowel koptekst- als op regelniveau.
+Wanneer de geavanceerde functie voor automatische toeslagen is ingeschakeld, kunnen orders die zijn gemaakt in een ondersteund Commerce-afzetkanaal (verkooppunt (POS), callcenter en online), profiteren van de configuraties voor [automatische toeslagen](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) die zijn gedefinieerd in de ERP-toepassing voor toeslagen op zowel koptekst- als op regelniveau.
 
-In releases vóór Retail versie 10.0 zijn configuraties voor [automatische toeslagen](/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) alleen toegankelijk voor orders die zijn gemaakt in e-Commerce- en callcenterkanalen. In versie 10.0 of hoger kunnen met POS gemaakte orders de configuraties gebruiken voor automatische toeslagen. Op die manier kunnen extra diverse toeslagen systematisch worden toegevoegd aan de verkooptransacties.
+In releases vóór Retail versie 10.0 zijn configuraties voor [automatische toeslagen](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) alleen toegankelijk voor orders die zijn gemaakt in e-Commerce- en callcenterkanalen. In versie 10.0 of hoger kunnen met POS gemaakte orders gebruikmaken van de configuraties voor automatische toeslagen. Op die manier kunnen extra diverse toeslagen systematisch worden toegevoegd aan de verkooptransacties.
 
 Bij gebruik van versies ouder dan versie 10.0 wordt een POS-gebruiker gevraagd handmatig verzendkosten in te voeren tijdens het maken van een 'alles verzenden' of 'geselecteerd verzenden' POS-transactie. Terwijl de mogelijkheden van de diverse toeslagen van de toepassing worden gebruikt met betrekking tot de manier waarop de toeslagen op de order worden geschreven, wordt er geen systematische berekening geboden; de berekening is afhankelijk van de invoer van de gebruiker om de hoogte van de toeslagen te bepalen. De toeslagen kunnen alleen worden toegevoegd als een enkele 'verzending'-gerelateerde toeslagencode en kunnen niet eenvoudig worden bewerkt of gewijzigd in het POS nadat ze zijn gemaakt.
 
@@ -39,11 +42,11 @@ Het gebruik van handmatige prompts om verzendkosten toe te voegen is nog steeds 
 
 Met de geavanceerde functie voor automatische toeslagen beschikken POS-gebruikers over systematische berekeningen voor alle gedefinieerde diverse toeslagen op basis van de instellingentabellen voor automatische toeslagen. Daarnaast hebben gebruikers de mogelijkheid een onbeperkt aantal extra toeslagen en kosten aan een POS-verkooptransactie toe te voegen of te bewerken op kop- of regelniveau (voor contante transacties of een klantorder).
 
-## <a name="enable-advanced-auto-charges"></a>Geavanceerde automatische toeslagen inschakelen
+## <a name="enabling-advanced-auto-charges"></a>Geavanceerde automatische toeslagen inschakelen
 
 Op de pagina **Retail en Commerce \> Instellingen hoofdkwartier \> Parameters \> Commerce-parameters** gaat u naar het tabblad **Klantorders**. Op het sneltabblad **Toeslagen** stelt u **Geavanceerde automatische toeslagen gebruiken** in op **Ja**.
 
-![Parameter geavanceerde automatische toeslagen.](media/advancedchargesparameter.png)
+![Parameter geavanceerde automatische toeslagen](media/advancedchargesparameter.png)
 
 Wanneer geavanceerde automatische toeslagen zijn ingeschakeld, wordt gebruikers niet meer gevraagd handmatig verzendkosten in te voeren in de POS-terminal bij het maken van een klantorder met alles verzenden of geselecteerd verzenden. Toeslagen op de POS-order worden automatisch berekend en toegevoegd aan de POS-transactie (als een bijbehorende tabel voor automatische toeslagen die voldoet aan het criterium van de order die wordt gemaakt, wordt gevonden). Gebruikers kunnen ook toeslagen op kop- of regelniveau handmatig toevoegen of onderhouden via de toegevoegde POS-bewerkingen die kunnen worden toegevoegd aan de POS-schermindelingen.
 
@@ -51,9 +54,9 @@ Wanneer geavanceerde automatische toeslagen zijn ingeschakeld, worden de bestaan
 
 Zorg ervoor dat voordat u deze functie inschakelt uw medewerkers zijn opgeleid en getest, want door het inschakelen van de functie wijzigen het bedrijfsproces voor het berekenen van verzend- of andere kosten en hoe deze worden toegevoegd aan de POS-verkooporder. Zorg ervoor dat u weet wat de impact is van de processtroom op het maken van transacties vanuit het POS. Voor callcenter- en e-Commerce-orders is de impact van het inschakelen van geavanceerde automatische toeslagen minimaal. Callcenter- en e-Commerce-toepassingen gedragen zich als voorheen ten aanzien van de tabellen voor automatische toeslagen voor het berekenen van extra toeslagen of kosten voor een order. Gebruikers van het callcenterkanaal behouden de mogelijkheid om door het systeem berekende automatische toeslagen handmatig te verwerken op koptekst- of regelniveau of extra diverse toeslagen handmatig toe te voegen op koptekst- of regelniveau.
 
-## <a name="add-pos-operations"></a>POS-bewerkingen toevoegen
+## <a name="additional-pos-operations"></a>Aanvullende POS-bewerkingen
 
-Om geavanceerde automatische toeslagen goed te laten werken in uw POS-toepassingsomgeving, zijn nieuwe POS-bewerkingen toegevoegd. Deze bewerkingen moeten worden toegevoegd aan uw [POS-schermindelingen](/dynamics365/unified-operations/retail/pos-screen-layouts) en geïmplementeerd op de POS-apparaten als u geavanceerde automatische toeslagen implementeert. Als deze bewerkingen niet worden toegevoegd, is het voor gebruikers niet mogelijk diverse toeslagen op de POS-transacties te beheren of onderhouden en kunnen ze op geen enkele wijze de toeslagwaarden die systematisch worden berekend op basis van configuraties van automatische toeslagen aanpassen of wijzigen. Ten minste wordt voorgesteld dat u de bewerking **Toeslagen beheren** in uw POS-indeling installeert.
+Om geavanceerde automatische toeslagen goed te laten werken in uw POS-toepassingsomgeving, zijn nieuwe POS-bewerkingen toegevoegd. Deze bewerkingen moeten worden toegevoegd aan uw [POS-schermindelingen](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) en geïmplementeerd op de POS-apparaten als u geavanceerde automatische toeslagen implementeert. Als deze bewerkingen niet worden toegevoegd, is het voor gebruikers niet mogelijk diverse toeslagen op de POS-transacties te beheren of onderhouden en kunnen ze op geen enkele wijze de toeslagwaarden die systematisch worden berekend op basis van configuraties van automatische toeslagen aanpassen of wijzigen. Ten minste wordt voorgesteld dat u de bewerking **Toeslagen beheren** in uw POS-indeling installeert.
 
 De nieuwe bewerkingen zijn als volgt.
 
@@ -86,7 +89,7 @@ Configureer twee verschillende automatische toeslagen op koptekstniveau. Configu
 
 Voor de toeslagen van de grondlevering definieert u in het regelgedeelte van de pagina **Automatische toeslagen** een toeslag van € 10 die wordt toegepast voor orders tussen € ,01 en € 100. Maak een andere toeslagenregel om aan te geven dat voor bestellingen van meer dan € 100,01 geen toeslag geldt.
 
-![Twee voorbeelden van tabellen met automatische toeslagen.](media/headerchargesexample.png)
+![Twee voorbeelden van tabellen met automatische toeslagen](media/headerchargesexample.png)
 
 Voor de toeslagen van de luchtlevering definieert u in de regelsectie van het formulier voor automatische toeslagen een toeslag van € 20 die wordt toegepast op alle orders (tussen € ,01 en € 9.999.999).
 
@@ -116,7 +119,7 @@ Ga naar **Klanten \> Instelling van toeslagen \> Automatische toeslagen**.
 
 Stel het vervolgkeuzemenu **Niveau** in op **Regel** en maak een nieuwe record voor automatische toeslagen voor alle klanten en voor het specifieke product of de specifieke productgroep waarvoor de installatiekosten worden berekend.
 
-![Eén voorbeeld van een tabel met automatische toeslagen op regelniveau.](media/linechargesexample.png)
+![Eén voorbeeld van een tabel met automatische toeslagen op regelniveau](media/linechargesexample.png)
 
 Verzend de toeslagen naar de Commerce Scale Unit/afzetkanaal DB, zodat het POS ze kan gebruiken door de taak **1040 distributieplanning** uit te voeren.
 
@@ -136,13 +139,13 @@ Een detailhandelaar maakt een uitzondering op kenmerkende processen door special
 
 Zorg ervoor dat de toeslagencode die wordt gebruikt in dit scenario juist is geconfigureerd door naar **Klanten \> Instelling toeslagen \> Toeslagen** te gaan om een juiste toeslagencode voor dit scenario te definiëren.
 
-![Voorbeeld toeslagen.](media/chargesexample.png)
+![Voorbeeld toeslagen](media/chargesexample.png)
 
 Als de toeslag moet worden beschouwd als 'verzendkosten' met het oog op verzendingsgerelateerde kortingen of promoties, stelt u **Verzendkosten** voor de toeslagencode in op **Ja**. Als deze toeslag ook systematisch mag worden terugbetaald tijdens de verwerking van een retourtransactie in de POS-toepassing, stelt u **Terug te betalen** in op **Ja**. De markering **Terug te betalen** is alleen toe te passen wanneer de parameter **Geavanceerde automatische toeslagen gebruiken** is ingesteld op **Ja**.
 
 Verzend de toeslagen naar de Commerce Scale Unit/afzetkanaal DB, zodat het POS ze kan gebruiken door de taak **1040 distributieplanning** uit te voeren.
 
-De bewerking **Koptoeslag toevoegen** moet worden geconfigureerd uw [POS-schermindeling](/dynamics365/unified-operations/retail/pos-screen-layouts) zodat een knop die toegankelijk is voor de gebruiker vanuit het POS deze bewerking kan uitvoeren (bewerking 141). Wijzigingen in de schermindeling moeten ook naar het kanaal worden gedistribueerd via de functie voor distributieplanning.
+De bewerking **Koptoeslag toevoegen** moet worden geconfigureerd uw [POS-schermindeling](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) zodat een knop die toegankelijk is voor de gebruiker vanuit het POS deze bewerking kan uitvoeren (bewerking 141). Wijzigingen in de schermindeling moeten ook naar het kanaal worden gedistribueerd via de functie voor distributieplanning.
 
 #### <a name="sales-processing-of-manual-header-charges"></a>Verkoopverwerking van handmatige koptoeslagen
 
@@ -164,11 +167,11 @@ Als de toeslag moet worden beschouwd als 'verzendkosten' met het oog op verzendi
 
 Verzend de toeslagen naar de Commerce Scale Unit/afzetkanaal DB, zodat het POS ze kan gebruiken door de taak **1040 distributieplanning** uit te voeren.
 
-De bewerking **Regeltoeslag toevoegen** moet worden geconfigureerd uw [POS-schermindeling](/dynamics365/unified-operations/retail/pos-screen-layouts) zodat een knop die toegankelijk is voor de gebruiker vanuit het POS deze bewerking kan uitvoeren (bewerking 140). Wijzigingen in de schermindeling moeten ook naar het kanaal worden gedistribueerd via de functie voor distributieplanning.
+De bewerking **Regeltoeslag toevoegen** moet worden geconfigureerd uw [POS-schermindeling](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) zodat een knop die toegankelijk is voor de gebruiker vanuit het POS deze bewerking kan uitvoeren (bewerking 140). Wijzigingen in de schermindeling moeten ook naar het kanaal worden gedistribueerd via de functie voor distributieplanning.
 
 #### <a name="sales-processing-of-the-manual-line-charge"></a>Verkoopverwerking van de handmatige regeltoeslag
 
-Voor het uitvoeren van het scenario in de POS-toepassing, maakt de POS-gebruiker de verkooptransactie zoals gebruikelijk door de producten en eventuele andere configuraties toe te voegen aan de verkoop. Vóór het innen van de betaling, moet de gebruiker de specifieke regel selecteren waarop de toeslag van toepassing zal zijn in de weergegeven lijst met POS-artikelen en de bewerking **Regeltoeslag toevoegen** uitvoeren. De gebruiker wordt gevraagd om een toeslagencode te selecteren en het bedrag van de toeslag in te voeren. Nadat de gebruiker het proces heeft voltooid, wordt de toeslag gekoppeld aan de regel en toegevoegd aan de verkooporder als een toeslag op regelniveau. De gebruiker kan het proces herhalen om meer regeltoeslagen toe te voegen aan andere artikelregels van de transactie, indien nodig.
+Voor het uitvoeren van het scenario in de POS-toepassing, maakt de POS-gebruiker de verkooptransactie zoals gebruikelijk door de producten en eventuele andere configuraties toe te voegen aan de verkoop. Vóór het innen van de betaling, moet de gebruiker de specifieke regel selecteren waarop de toeslag van toepassing zal zijn in de weergegeven lijst met POS-artikelen en de bewerking **Regeltoeslag toevoegen** uitvoeren. De gebruiker wordt gevraagd om een toeslagencode te selecteren en het bedrag van de toeslag in te voeren. Nadat de gebruiker het proces heeft voltooid, wordt de toeslag gekoppeld aan de regel en toegevoegd aan de verkooporder als een toeslag op regelniveau. De gebruiker kan het proces herhalen om extra kosten toe te voegen aan andere artikelregels van de transactie indien nodig.
 
 Hetzelfde proces kan worden toegepast in het callcenter met de functie 'toeslagen onderhouden' gevonden onder de **Financiën** vervolgkeuzelijst in het gedeelte **Verkooporderregels** op de pagina **Verkooporder**. Als u deze optie selecteert, wordt de pagina **Toeslagen onderhouden** geopend waarin de gebruiker een nieuwe toeslag voor een specifieke regel aan de transactie kan toevoegen.
 
@@ -176,7 +179,7 @@ Hetzelfde proces kan worden toegepast in het callcenter met de functie 'toeslage
 
 ### <a name="editing-charges-on-a-pos-sales-transaction"></a>Toeslagen op een POS-verkooptransactie bewerken
 
-De bewerking **Toeslagen beheren** (142) moet worden toegevoegd aan de [POS-schermindeling](/dynamics365/unified-operations/retail/pos-screen-layouts) zodat een gebruiker alle door het systeem berekende of handmatig gemaakte koptekst- of regeltoeslagen kan bekijken en bewerken of overschrijven. Als de bewerking niet wordt toegevoegd, zullen gebruikers niet in staat zijn om het bedrag van de toeslagen op de POS-transactie aan te passen, noch zullen zij in staat zijn om de details van de toeslagen, zoals het type toeslagencode gekoppeld aan de toeslag te bekijken.
+De bewerking **Toeslagen beheren** (142) moet worden toegevoegd aan de [POS-schermindeling](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) zodat een gebruiker alle door het systeem berekende of handmatig gemaakte koptekst- of regeltoeslagen kan bekijken en bewerken of overschrijven. Als de bewerking niet wordt toegevoegd, zullen gebruikers niet in staat zijn om het bedrag van de toeslagen op de POS-transactie aan te passen, noch zullen zij in staat zijn om de details van de toeslagen, zoals het type toeslagencode gekoppeld aan de toeslag te bekijken.
 
 Op de pagina **Toeslagen beheren** op het POS kan de gebruiker de details van de toeslagen op kop- en regelniveau bekijken. De gebruiker kan de functie **Bewerken** die beschikbaar is op deze pagina gebruiken om het bedrag in een specifieke toeslagregel te wijzigen. Wanneer een toeslagregel handmatig is overschreven, wordt deze niet systematisch herberekend tenzij de gebruiker de bewerking **Toeslagen herberekenen** start.
 
@@ -197,7 +200,7 @@ Toeslagen worden niet systematisch terugbetaald in **Retourorders** gemaakt in C
 De volgende elementen voor het ontvangstbewijs zijn toegevoegd aan de ontvangstregel en voettekst ter ondersteuning van de functionaliteit voor geavanceerde automatische toeslagen.
 
 - **Regel verzendkosten**: dit element op regelniveau kan worden gebruikt om specifieke toeslagencodes die zijn toegepast op de verkoopregel samen te vatten. Alleen codes die zijn gemarkeerd als **Verzend**-kosten op de pagina **Toeslagencode** worden weergegeven.
-- **Regel andere toeslagen**: dit element op regelniveau kan worden gebruikt om niet-verzendingsspecifieke toeslagencodes samen te vatten die zijn toegepast op de verkoopregel. **Regel andere toeslagen**: dit zijn toeslagencodes waarvoor de markering **Verzending** op de pagina **Toeslagencode** niet is ingeschakeld.
+- **Regel andere toeslagen**: dit element op regelniveau kan worden gebruikt om niet-verzendingsspecifieke toeslagencodes samen te vatten die zijn toegepast op de verkoopregel. Dit zijn toeslagencodes waarvoor de markering **Verzending** op de pagina **Toeslagencode** niet is ingeschakeld.
 - **Details verzendkosten order**: dit element op voettekstniveau bevat de omschrijvingen van de toeslagencodes toegepast op de order die zijn gemarkeerd als **Verzendkosten** op de instellingspagina **Toeslagencode**.
 - **Verzendkosten order**: dit element op voettekstniveau toont de eurowaarde van de toeslagen voor verzending.
 - **Details overige toeslagen**: dit element op voettekstniveau bevat de omschrijving van de toeslagencodes toegepast op de order die niet zijn gemarkeerd als Verzendkosten.
@@ -219,6 +222,3 @@ Als gebruikers de berekende toeslagen handmatig overschrijven of een handmatige 
 
 [Toeslagen voor koptekst naar rato verdelen voor overeenkomende verkoopregels](pro-rate-charges-matching-lines.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,29 +2,34 @@
 title: Taakbeheer configureren
 description: In dit onderwerp wordt beschreven hoe u functies voor taakbeheer configureert in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0ae0f3bd58db587d9024beceedd790cc3d3e4ee990a2f4c727dfda96b2f0785c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9a4775c2dba2b9aa8e671ab6c246000303b3a37e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730798"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411442"
 ---
 # <a name="configure-task-management"></a>Taakbeheer configureren
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u functies voor taakbeheer configureert in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Overzicht
 
 Voordat managers en werknemers die met Dynamics 365 Commerce werken de functies voor taakbeheer in Commerce kunnen gebruiken, moet taakbeheer worden geconfigureerd. Configuratiestappen omvatten het verlenen van machtigingen aan managers en werknemers, het distribueren van machtigingen aan POS-clients, het instellen van POS-meldingen en het configureren van de tegel **Taken** op de startpagina van een POS-toepassing.
 
@@ -44,7 +49,7 @@ Voer de volgende stappen uit om machtigingen voor taakbeheer voor winkelmanagers
 
 De volgende illustratie laat zien hoe u machtigingen voor taakbeheer kunt configureren voor winkelmanagers.
 
-![Machtigingen voor taakbeheer configureren voor winkelmanagers.](media/HQ-POS-Tasks-Notifications-User-Permission.png)
+![Machtigingen voor taakbeheer configureren voor winkelmanagers](media/HQ-POS-Tasks-Notifications-User-Permission.png)
 
 ## <a name="configure-permissions-for-employees"></a>Machtigingen voor werknemers configureren
 
@@ -78,7 +83,7 @@ Ga als volgt te werk om POS-meldingen voor taken te configureren.
 
 In de volgende afbeelding ziet u de bewerking **Taakbeheer** op de pagina **POS-bewerkingen**.
 
-![Bewerking Taakbeheer op de pagina POS-bewerkingen.](media/HQ-POS-Tasks-Notifications.png)
+![Bewerking Taakbeheer op de pagina POS-bewerkingen](media/HQ-POS-Tasks-Notifications.png)
 
 Zie [Meldingen over orders op het verkooppunt (POS) weergeven](notifications-pos.md) voor meer informatie over het configureren van POS-meldingen.
 
@@ -95,17 +100,14 @@ Ga als volgt te werk om de tegel **Taken** te configureren op de startpagina van
 
 In de volgende afbeelding ziet u een voorbeeld van een tegel **Taken** op een POS-startpagina.
 
-![Tegel Taken op een POS-startpagina.](media/POS-home-screen-tasks-button-image.png)
+![Tegel Taken op een POS-startpagina](media/POS-home-screen-tasks-button-image.png)
 
-## <a name="additional-resources"></a>Aanvullende bronnen
+## <a name="additional-resources"></a>Aanvullende resources
 
-[Overzicht van Taakbeheer](task-mgmt-overview.md)
+[Overzicht van taakbeheer](task-mgmt-overview.md)
 
 [Takenlijsten maken en taken toevoegen](task-mgmt-create-lists.md)
 
 [Takenlijsten toewijzen aan winkels of werknemers](task-mgmt-assign-lists.md)
 
 [Taakbeheer in POS](task-mgmt-POS.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,6 +45,3 @@ Met deze wijziging wordt het veld **Actie aangevraagd door** nu standaard gevuld
 ### <a name="ideas-portal-updated"></a>Ideeënportal bijgewerkt
 Koppelingen in apps om een idee voor Talent in te dienen, is nu bijgewerkt in de nieuwe ideeënportal. Alle ideeën die zijn ingevoerd in de oude portal zijn gemigreerd. Uw fantastische ideeën zijn nog steeds daar en anderen kunnen er nog steeds op stemmen.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

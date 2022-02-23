@@ -2,9 +2,11 @@
 title: Door gebruiker gedefinieerde certificaatprofielen voor winkels
 description: Dit onderwerp biedt een overzicht van de manier waarop certificaten worden gebruikt in detailhandelwinkels.
 author: josaw
+manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFormLayout, RetailParameters
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9cb82a6d6336bb69fe818fb33e04ad621382b383055b24a4e79eee5ddff217ac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 81fa3770a137471e3d7f8cab3c7d7f37febe64fa
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719925"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018863"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Door gebruiker gedefinieerde certificaatprofielen voor winkels
 
@@ -79,7 +81,7 @@ Wanneer u een nieuwe regel toevoegt aan de pagina **Instellingen certificaatprof
 - **Sleutelkluiscertificaat**: dit veld is verplicht als u het veld **Locatietype** instelt op **Sleutelkluis**. Gebruik dit veld om een geheim voor een sleutelkluiscertificaat op te geven.
 
     > [!NOTE]
-    > Voordat u een sleutelkluiscertificaat in certificaatprofielen gebruikt, moet u ervoor zorgen dat u een certificaat uploadt naar de sleutelkluisopslag en volgt u de instructies in [Client voor Azure-sleutelkluis instellen](../../finance/localizations/setting-up-azure-key-vault-client.md).
+    > Voordat u een sleutelkluiscertificaat in certificaatprofielen gebruikt, moet u ervoor zorgen dat u een certificaat uploadt naar de sleutelkluisopslag en volgt u de instructies in [Client voor Azure-sleutelkluis instellen](https://docs.microsoft.com/dynamics365/finance/localizations/setting-up-azure-key-vault-client).
 
 - **Winkelnaam**: dit veld is optioneel en is alleen beschikbaar als u het veld **Locatietype** instelt op **Lokaal certificaat**. Gebruik dit veld om een standaardwinkelnaam op te geven die moet worden gebruikt voor het zoeken naar lokale certificaten.
 - **Winkellocatie**: dit veld is optioneel en is alleen beschikbaar als u het veld **Locatietype** instelt op **Lokaal certificaat**. Gebruik dit veld om een standaardwinkellocatie op te geven die moet worden gebruikt voor het zoeken naar lokale certificaten.
@@ -119,6 +121,3 @@ Als er een nieuwe versie van het certificaat wordt ingevoerd, maar deze niet in 
 
 > [!NOTE]
 > In Commerce Runtime wordt de nieuwe versie van het certificaat als eerste aangeroepen. Als het certificaat in een specifieke winkel of op een specifieke terminal niet is bijgewerkt, wordt de vorige versie aangeroepen.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

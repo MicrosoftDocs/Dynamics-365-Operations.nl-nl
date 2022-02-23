@@ -61,6 +61,3 @@ Meer informatie over platformupdate 29 voor Finance and Operations vindt u in [P
 Wijzigingen in medewerkersrecords worden zelden direct doorgevoerd. U moet gegevens bijwerken vanaf de begindatum van de medewerker, die vaak in de toekomst ligt, en u moet ook gegevens in het verleden bijwerken. Met dit gestroomlijnde navigatiemodel kunt u toekomstige en oude gegevens bijwerken zonder naar meerdere formulieren te hoeven navigeren of de datumcontext te wijzigen. Met deze wijziging worden ook de belangrijkste gegevens in het bovenste bannergebied van de medewerkersrecord dynamisch gepromoot en weergegeven.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

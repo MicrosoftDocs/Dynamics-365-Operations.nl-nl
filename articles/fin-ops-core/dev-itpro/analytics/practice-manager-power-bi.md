@@ -1,10 +1,12 @@
 ---
 title: Power BI-inhoud Praktijkbeheerder
-description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud Praktijkbeheerder.
-author: kfend
+description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud Praktijkbeheerder. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot rapporten in de inhoud en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld.
+author: KimANelson
+manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4acef3c595f25fa0be16945a9f41611832cfcea9
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 17a68e5aedb8b085c85d1ed7b6ad87f3eaecfc25
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500216"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685700"
 ---
 # <a name="practice-manager-power-bi-content"></a>Power BI-inhoud Praktijkbeheerder
 
@@ -115,6 +117,3 @@ In de volgende secties worden de samengevoegde metingen uitgelegd die worden geb
 | Belangrijke samengevoegde meting       | Veld               | Omschrijving |
 |---------------------------------|---------------------|-------------|
 | Geplande kosten voltooide activiteit | Sum(TotalCostPrice) | De totale kostprijs in ramingen voor alle projecttransactietypen met voltooide taken. |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

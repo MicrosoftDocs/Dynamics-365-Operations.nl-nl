@@ -2,25 +2,28 @@
 title: Drieweg-overeenstemmingsbeleid
 description: Dit onderwerp biedt voorbeelden van drieweg-overeenstemming.
 author: abruer
+manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d33a8cb001f1cd2f79c2a174710af90af423b9b3abc66eb80aa4811953ea4a14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d84e3ed050bacf7632d03cf0123f682c43fd7b58
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722834"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441908"
 ---
 # <a name="three-way-matching-policies"></a>Drieweg-overeenstemmingsbeleid
 
@@ -28,7 +31,8 @@ ms.locfileid: "6722834"
 
 Dit onderwerp biedt voorbeelden van drieweg-overeenstemming.
 
-## <a name="example-three-way-matching-for-items"></a>Voorbeeld: drieweg-overeenstemming voor artikelen
+<a name="example-three-way-matching-for-items"></a>Voorbeeld: drieweg-overeenstemming voor artikelen
+-------------------------------------
 
 **Samenvatting:** Ken is de controller van het hoofdkantoor van een rechtspersoon met de naam Fabrikam. Ken besluit dat alle facturen van leveranciers die zijn gebaseerd op een inkooporder, moeten worden vereffend met inkooporderregels (tweeweg-overeenstemming). Voor aankopen van items die worden gebruikt als vaste activa, moeten facturen worden vereffend met zowel de inkooporderregels en de productontvangstregels (drieweg-overeenstemming).
 
@@ -36,9 +40,9 @@ Fabrikam werkt met meerdere rechtspersonen en werknemers in alle delen van de we
 
 Het factuurvereffeningsbeleid in dit voorbeeld helpen mensen in de volgende functies deze doelstellingen te bereiken:
 
--   Ken is de controller voor de onderneming Fabrikam. Ken kan de mensen binnen de organisatie helpen problemen te identificeren en oplossen met bestellen, ontvangen en betalen van artikelen (goederen en diensten) van leveranciers.
+-   Ken is de controller voor de onderneming Fabrikam. Hij kan de mensen binnen de organisatie helpen problemen te identificeren en oplossen met bestellen, ontvangen en betalen van artikelen (goederen en diensten) van leveranciers.
 -   Phyllis en April zijn boekhoudmanagers in de leveranciersafdeling voor de VS-afdeling van Fabrikam. Ze kunnen bedrijfsbeleid opleggen en ervoor zorgen dat facturen pas worden betaald nadat de facturen worden vergeleken met de inkooporder en de ontvangsten van goederen en diensten, indien van toepassing.
--   Tony is de productiemanager van de voor de Verenigde Staten-afdeling van Fabrikam. Tony en ander productiepersoneel kunnen ervoor dat de artikelen worden ontvangen van leveranciers zoals ze zijn besteld en dat ze worden geregistreerd zodat het personeel het nodige heeft om hun taak uit te voeren.
+-   Tony is de productiemanager van de voor de Verenigde Staten-afdeling van Fabrikam. Hij en ander productiepersoneel kunnen ervoor dat de artikelen worden ontvangen van leveranciers zoals ze zijn besteld en dat ze worden geregistreerd zodat het personeel het nodige heeft om hun taak uit te voeren.
 
 ### <a name="prerequisites"></a>Vereisten
 
@@ -48,15 +52,15 @@ Het factuurvereffeningsbeleid in dit voorbeeld helpen mensen in de volgende func
 -   Ken stelt het overeenstemmingsbeleid op het artikelniveau voor artikel 1500 – CNC Milicron Machine in op Drieweg-afstemming. Dit artikel is een activumartikel dat wordt gebruikt voor de productie bij Fabrikam. Facturen voor dit artikel worden vereffend met inkooporderregels voor prijzen en met productontvangstbonnen voor de hoeveelheden.
 -   Tony voert een bestelopdracht voor vijf CNC-Milicron Machines in. Alicia, een medewerker inkooporders van Fabrikam, maakt een inkooporder op aan een rechtspersoon met de naam Contoso om de artikelen te leveren.
 
-    | artikelnummer                 | Hoeveelheid | Eenheidsprijs | Nettobedrag | Toeslagcode        | Waarde van toeslagen |
+    | Artikelnummer                 | Hoeveelheid | Eenheidsprijs | Nettobedrag | Toeslagcode        | Waarde van toeslagen |
     |-----------------------------|----------|------------|------------|---------------------|---------------|
-    | 1500 – CNC Milicron Machine | 5        | 8000,00   | 40.000,00  | Verzending & verwerking | 3,000.00      |
+    | 1500 – CNC Milicron Machine | 5        | 8000,00   | 40.000,00  | Verzending & verwerking | 3000,00      |
 
 -   Arnie, een medewerker klanten bij Contoso, bekijkt de verzendingen voor de week. Arnie selecteert de verzendtransacties om de levering van de CNC Milicron Machines aan Fabrikam te factureren. Arnie voegt een toeslag voor verzenden en behandelen toe. Fabrikam beschouwt de toeslag als een deel van de kosten van het activum.
 
 ### <a name="scenario"></a>Scenario
 
-1.  Sammy, een werknemer in de ontvangende afdeling bij Fabrikam, ontvangt de totale hoeveelheid machines die werden verzonden door Contoso. Sammy voert de hoeveelheid 5 in op de productontvangstbon. Aangezien de inkooporder volledig is ontvangen, wordt de status van de inkooporder gewijzigd naar Ontvangen.
+1.  Sammy, een werknemer in de ontvangende afdeling bij Fabrikam, ontvangt de totale hoeveelheid machines die werden verzonden door Contoso. Hij voert een aantal van 5 in op de productontvangstbon. Aangezien de inkooporder volledig is ontvangen, wordt de status van de inkooporder gewijzigd naar Ontvangen.
 2.  April, de coördinator leveranciers bij Fabrikam, controleert de factuur die Contoso heeft ingediend en voert deze in. Zij controleert de volgende informatie:
     -   Voor artikelen waar drieweg-overeenstemming is vereist, controleert ze of de hoeveelheid op de factuurregel overeenstemt met de ontvangen hoeveelheid. De ontvangen hoeveelheid is aangegeven op de productontvangstbon die met de factuur wordt vereffend.
     -   Voor artikelen waarvoor tweeweg-overeenstemming of drieweg-overeenstemming is vereist, vallen de prijzen op de factuurregel binnen de toleranties die zijn gedefinieerd in Microsoft Dynamics 365 Finance. Dit omvat de volgende soorten prijsovereenstemming:
@@ -65,7 +69,7 @@ Het factuurvereffeningsbeleid in dit voorbeeld helpen mensen in de volgende func
 
 De papieren factuur van Contoso bevat de volgende gegevens.
 
-| Artikel                        | Hoeveelheid | Eenheidsprijs | Nettobedrag |
+| Artikel                        | De hoeveelheid | Eenheidsprijs | Nettobedrag |
 |-----------------------------|----------|------------|------------|
 | 1500 – CNC Milicron Machine | 5        | 8100,00   | 40,500.00  |
 | Verzending en verwerking       |          |            | 4,000.00   |
@@ -86,7 +90,7 @@ Samenvatting: Ken is de controller van het hoofdkantoor van een rechtspersoon me
 Het volume en de bedragen zijn klein en er zijn problemen met de levering van bepaalde leveranciers in Maleisië. Om deze redenen stelt Cassie het niveau van controle voor bepaalde combinaties van artikel en leverancier in Maleisië in op drieweg-overeenstemming. 
 
 Het factuurvereffeningsbeleid in dit voorbeeld helpen mensen in de volgende functies deze doelstellingen te bereiken:
--   Ken is de controller voor de onderneming Fabrikam. Ken kan de mensen binnen de organisatie helpen problemen te identificeren en oplossen met bestellen, ontvangen en betalen van artikelen (goederen en diensten) van leveranciers.
+-   Ken is de controller voor de onderneming Fabrikam. Hij kan de mensen binnen de organisatie helpen problemen te identificeren en oplossen met bestellen, ontvangen en betalen van artikelen (goederen en diensten) van leveranciers.
 -   Cassie is de boekhouder voor de Maleisië-afdeling van Fabrikam. Zij kan bedrijfsbeleid opleggen en ervoor zorgen dat facturen pas worden betaald nadat deze worden vergeleken met de inkooporderregels en de productontvangstbonnen van de ontvangsten van goederen en diensten. Zij kan ook het niveau van de controle verhogen naar drieweg-overeenstemming voor bepaalde artikelen om de operationele kosten te beheren.
 
 ### <a name="prerequisites"></a>Vereisten
@@ -94,7 +98,7 @@ Het factuurvereffeningsbeleid in dit voorbeeld helpen mensen in de volgende func
 -   Ken stelt het overeenstemmingsbeleid op rechtspersoonsniveau in op Tweeweg-afstemming.
 -   Ken stelt het veld Totaalprijzen vereffenen voor de rechtspersoon in op Percentage en vult 10% in als het tolerantiepercentage.
 -   Ken stelt de eenheidsprijstolerantie voor alle artikelen in op 2%.
--   Cassie stelt het overeenstemmingsbeleid op het niveau van de combinatie artikel en leverancier voor artikel PH2500 - Computer en leverancier Contoso in op Drieweg-afstemming.
+-   Cassie stelt het overeenstemmingsbeleid op het niveau van de combinatie artikel en leverancier voor artikel PH2500 – Computer en leverancier Contoso in op Drieweg-afstemming.
 -   Alicia, een inkooporder medewerker van de afdeling Maleisië van Fabrikam, maakt inkooporders naar Contoso op om drie artikelen te leveren, zoals getoond in de volgende tabel. Wanneer ze de inkooporder maakt, overschrijft zij het overeenstemmingsbeleid voor de draadloze muis met drieweg-overeenstemming in plaats van tweeweg-overeenstemming.
 
     | Artikelnummer           | Hoeveelheid | Eenheidsprijs | Nettobedrag | Overeenstemmingsbeleid (standaardwaarde) | Overeenstemmingsbeleid (op de inkooporderregel) |
@@ -114,7 +118,7 @@ Het factuurvereffeningsbeleid in dit voorbeeld helpen mensen in de volgende func
 
 De papieren factuur van Contoso bevat de volgende gegevens.
 
-| Artikel                  | Hoeveelheid | Eenheidsprijs | Nettobedrag |
+| Artikel                  | De hoeveelheid | Eenheidsprijs | Nettobedrag |
 |-----------------------|----------|------------|------------|
 | PH2500 – Computer     | 2        | 2.500,00   | 5.000,00   |
 | MM01 – Draadloze muis | 2        | 41.00      | 82.00      |
@@ -141,6 +145,3 @@ Zie [Overzicht van Factuurvereffening voor leveranciers](accounts-payable-invoic
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

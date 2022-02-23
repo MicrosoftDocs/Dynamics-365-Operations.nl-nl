@@ -60,6 +60,3 @@ Alle nieuwe functies behouden gedurende minimaal 30 dagen en doorgaans 30-60 dag
 Soms is een integrale functie standaard ingeschakeld en kan deze niet worden uitgeschakeld (bijvoorbeeld het werkgebied **Functiebeheer**).
  
 Als een functie algemeen beschikbaar is, kan deze worden in- of uitgeschakeld in productieomgevingen. Het werkgebied **Functiebeheer** geeft aan wanneer een preview-functie verplicht wordt. Deze datum is gewoonlijk 1 oktober of 1 april, in overeenstemming met de halfjaarlijkse releaseplannen. U kunt verplichte functies niet uitschakelen. Tot de functie verplicht wordt, kunt u deze in alle omgevingen in- of uitschakelen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

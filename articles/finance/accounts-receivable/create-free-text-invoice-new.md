@@ -2,22 +2,25 @@
 title: Een vrije-tekstfactuur invoeren
 description: In dit onderwerp wordt uitgelegd hoe u vrije-tekstfacturen maakt.
 author: mikefalkner
+manager: AnnBe
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e5ca9e00ec881707248d966470288fd3ddba4e785127f30bd0e6dd4e7186c7e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1ac06e7d702ffe3a8cdb6bd2823f2ffdc055c722
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763281"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441830"
 ---
 # <a name="create-a-free-text-invoice"></a>Een vrije-tekstfactuur invoeren
 
@@ -27,7 +30,7 @@ In dit onderwerp wordt uitgelegd hoe u vrije-tekstfacturen maakt. Gebruik voor d
 
 ## <a name="create-a-free-text-invoice"></a>Een vrije-tekstfactuur invoeren
 
-1. Ga naar **Klanten (of Verkoopgrootboek) \> Facturen \> Alle vrije-tekstfacturen**.
+1. Ga naar **Klanten \> Facturen \> Alle vrije-tekstfacturen**.
 2. Selecteer **Nieuw**.
 3. Selecteer een waarde in het veld **Klantrekening**.
 
@@ -82,6 +85,3 @@ Nadat u de regels hebt gekopieerd, kunt u de gegevens zo nodig bewerken.
 U kunt een vrije-tekstfactuur maken op basis van een sjabloon. Wanneer u **Nieuw van sjabloon** op het tabblad **Factuur** selecteert, kunt u een sjabloonnaam en de klantrekening voor de nieuwe vrije-tekstfactuur selecteren. Standaardwaarden, zoals de betalingsvoorwaarden en betalingsmethode, kunnen automatisch van de klant worden overgenomen, of u kunt de waarden gebruiken die zijn opgeslagen in de sjabloon.
 
 Er wordt een nieuwe vrije-tekstfactuur gemaakt en u kunt de waarden indien nodig bewerken.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

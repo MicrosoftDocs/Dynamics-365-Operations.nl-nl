@@ -2,9 +2,11 @@
 title: Taak voor het opruimen van voorhanden artikelen in magazijnbeheer
 description: Dit onderwerp beschrijft de taak voor het opruimen van voorhanden artikelen, waardoor de systeemprestaties worden verbeterd door gerelateerde maar onnodige records te identificeren en te verwijderen.
 author: perlynne
+manager: tfehr
 ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
@@ -12,17 +14,15 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
-ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: d839ed861a24f6ef7267c85e942c275586b4a8c4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.12
+ms.openlocfilehash: f045b9686bbdfcf3e82f5158f0fd28860354b7d7
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565091"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014478"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Taak voor het opruimen van voorhanden artikelen in magazijnbeheer
-
-[!include [banner](../includes/banner.md)]
 
 De prestaties van query's die worden gebruikt om de voorhanden voorraad te berekenen, worden beïnvloed door het aantal records in de desbetreffende tabellen. Een manier om de prestaties te verbeteren is om het aantal records te verminderen dat moet worden doorzocht.
 
@@ -62,6 +62,3 @@ De instelling **Maximale uitvoeringstijd** is standaard niet beschikbaar. Als u 
 
 - **Module:** *Magazijnbeheer*
 - **Functienaam:** *Maximale uitvoeringstijd voor de taak voor het opruimen van voorhanden artikelen in magazijnbeheer*
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

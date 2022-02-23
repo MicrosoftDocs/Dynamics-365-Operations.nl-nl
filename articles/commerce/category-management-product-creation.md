@@ -2,13 +2,16 @@
 title: Productcategorieën en producten beheren
 description: In dit onderwerp wordt beschreven hoe merchandisingmanagers productcategorieën gebruiken om relaties tussen de producthiërarchie en vrijgegeven productdetails in Commerce te beheren.
 author: ashishmsft
+manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: EcoResCategorySearchList, EcoResAttribute, COODualUseCategories, EcoResProductCategory, EcoResCategoryAddProduct, EcoResAttributeValue
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: ''
 ms.assetid: c7ed2ba5-87c6-4d99-9728-2a83e6d95ca9
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 101e03c053203fc92648b7024998202d782f46fb07a5b6d5647b8e2a6514ea17
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9d47a866703b830e84e3f2e37a02d9d58f73987b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743979"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411344"
 ---
 # <a name="manage-product-categories-and-products"></a>Productcategorieën en producten beheren
 
@@ -35,17 +38,17 @@ U ziet de verbeterde structuur van de pagina **Producthiërarchie in Commerce**.
 
 Met de verbeterde opzet voor producteigenschappen blijven producteigenschappen logisch gescheiden, op basis van hun toepassing in een groep, om de formulierstructuur voor details van vrijgegeven producten te weerspiegelen.
 
-![Groepering van de velden op basis van het toepassingsbereik van de eigenschappen.](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
+![Groepering van de velden op basis van het toepassingsbereik van de eigenschappen](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 
 U kunt schakelen tussen het beheren van specifieke eigenschappen voor rechtspersonen voor alle rechtspersonen en het beheren van deze eigenschappen voor een specifieke rechtspersoon.
 
 Als u eigenschappen wilt beheren voor alle rechtspersonen, selecteert u **Weergeven voor alle rechtspersonen** (of **Bewerken voor alle rechtspersonen**).
 
-![Weergeven/bewerken voor alle rechtspersonen.](media/ToggleBackToEditForSpecificLegalEntity.PNG)
+![Weergeven/bewerken voor alle rechtspersonen](media/ToggleBackToEditForSpecificLegalEntity.PNG)
 
 Als u eigenschappen wilt beheren voor een specifieke rechtspersoon, selecteert u **Weergeven voor een specifieke rechtspersoon** (of **Bewerken voor een specifieke rechtspersoon**).
 
-![Weergeven/bewerken voor een specifieke rechtspersoon.](media/ToggleToEditForAllLegalEntities.PNG)
+![Weergeven/bewerken voor een specifieke rechtspersoon](media/ToggleToEditForAllLegalEntities.PNG)
 
 In de verbeterde productcategoriestructuur kan een merchandisingmanager nu ook standaardwaarden definiëren voor een aanvullende reeks producteigenschappen op het niveau van een individuele categorie. Wanneer de producten worden gemaakt, nemen ze deze standaardwaarden voor producteigenschappen over, op basis van de koppeling van deze eigenschappen met een individuele categorie uit de producthiërarchie. Deze overgenomen producteigenschappen kunnen ook worden aangepast voor elk product om te voldoen aan individuele zakelijke behoeften.
 
@@ -53,7 +56,4 @@ In de verbeterde productcategoriestructuur kan een merchandisingmanager nu ook s
 
 Gebruik de nieuwe uitgebreide structuur voor producteigenschappen om te selecteren welke producteigenschappen moeten worden verplaatst naar de bijbehorende producten. Op de pagina **Producthiërarchie in Commerce** selecteert u in het actievenster **Categorie** en vervolgens **Producten bijwerken** om het dialoogvenster **Producten bijwerken** te openen.
 
-![Het dialoogvenster Producten bijwerken.](media/NewUpdateProductsEnhancedView.PNG)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Het dialoogvenster Producten bijwerken](media/NewUpdateProductsEnhancedView.PNG)

@@ -2,25 +2,28 @@
 title: Goedkeuringswerkstromen voor lease gebruiken
 description: In dit onderwerp wordt uitgelegd hoe u werkstromen gebruikt om activaleases goed te keuren en hoe u de status en historie van de werkstromen bijhoudt.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WorkflowTableListPageRnr
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 33faf7aa6bc9e5df4b8b0f004692b2c1803c6994264c7b9a8e3eb404387f6800
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1805e1f87ee70a1f35d9105b8f7ad6c95861efcc
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726081"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4442177"
 ---
 # <a name="use-lease-approval-workflows"></a>Goedkeuringswerkstromen voor lease gebruiken
 
@@ -42,6 +45,3 @@ Voordat u deze procedure gaat gebruiken, moet u ervoor zorgen dat ten minste Ã©Ã
 
 8. Als u een werkstroom wilt stoppen, selecteert u op de pagina **Werkstroomhistorie** de optie **Intrekken**. Voer in het dialoogvenster dat verschijnt een opmerking in en selecteer vervolgens **OK**.
 9. Als u een werkstroom wilt deactiveren of een eerder gemaakte werkstroom wilt activeren, gaat u naar **Activa leasen \> Instellingen \> Leasewerkstroom**. Selecteer vervolgens op de pagina **Leasewerkstroom** **Werkstroom \> Versies**. Als u een huidige werkstroom wilt deactiveren, selecteert u de actieve lease in het dialoogvenster Leaseversie en selecteert u **Deactiveren**. Als u een bestaande werkstroom wilt activeren, selecteert u de werkstroom en selecteert u **Activeren**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

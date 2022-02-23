@@ -1,51 +1,47 @@
 ---
 title: Kandidaat aannemen via werving
 description: Deze procedure stelt een werver in staat om een sollicitant aan te stellen die een sollicitatie heeft ingediend via een specifiek wervingsproject.
-author: twheeloc
-ms.date: 01/10/2022
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMApplication, HcmWorkerNewWorker, HcmPositionLookup, HcmWorker, HcmPosition, HcmPositionDateManager,  DefaultDashboard
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: anbichse
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2a6ecee078b18b12769a14cadc7e0182bf03d704
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 120fc00de7b66490c491d70b38aae79190de708f
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075368"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797278"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>Kandidaat aannemen via werving
 
 [!include [banner](../../includes/banner.md)]
 
-> [!IMPORTANT]
-> De functionaliteit die in dit onderwerp wordt vermeld, is momenteel beschikbaar voor Human Resources-klanten in de Finance-infrastructuur.  
+Deze procedure stelt een werver in staat om een sollicitant aan te stellen die een sollicitatie heeft ingediend via een specifiek wervingsproject. Wanneer u een sollicitant aanstelt via een wervingsproject, wordt een nieuwe werknemerregistratie gemaakt en krijgt de registratie van de sollicitant de status Aangesteld. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. U voltooit deze procedure door te navigeren naar Human resources > Werving > Sollicitaties > Sollicitaties 
 
+1. Een sollicitatie selecteren voor een externe sollicitant
+2. Klik in de lijst op de koppeling in de geselecteerde rij.
+3. Klik op Sollicitatiestatus.
+4. Klik op Nieuwe werknemer aannemen.
+5. Typ in het datumveld voor het begin van het dienstverband een datum en een tijd.
+6. Klik in het veld Positie op de vervolgkeuzeknop om de zoekopdracht te openen.
+7. Klik in de lijst op de koppeling in de geselecteerde rij.
+8. Voer in het veld Begin toewijzing een datum en een tijd in.
+9. Klik op Nieuwe werknemer aannemen.
+10. Vouw het feitenvak Historie dienstverband uit.
+11. Vouw het feitenvak Huidige posities uit.
+12. Vouw het feitenvak Historie dienstverband uit.
+13. Vouw het feitenvak Huidige posities uit.
+14. Vouw de sectie Adressen uit of samen.
+15. Vouw de sectie Contactgegevens uit of samen.
+16. Vouw de sectie Persoonlijke gegevens uit of samen.
 
-Deze procedure stelt een werver in staat om een sollicitant aan te stellen die een sollicitatie heeft ingediend via een specifiek wervingsproject. Wanneer u een sollicitant aanstelt via een wervingsproject, wordt een nieuwe werknemerregistratie gemaakt en krijgt de registratie van de sollicitant de status **Aangesteld**. Voor deze procedure is gebruikgemaakt van het demobedrijf **USMF**.
-
-1. Ga naar **Human Resources \> Werving \> Sollicitaties \> Sollicitaties**. 
-2. Selecteer een sollicitatie voor een externe sollicitant.
-3. Selecteer in de lijst de koppeling in de geselecteerde rij.
-4. Selecteer **Sollicitatiestatus**.
-5. Selecteer **Nieuwe werknemer aannemen**.
-6. Typ in het veld **Begindatum dienstverband** een datum en een tijd.
-7. Selecteer in het veld **Positie** de vervolgkeuzepijl om de zoekopdracht te openen.
-8. Selecteer in de lijst de koppeling in de geselecteerde rij.
-9. Voer in het veld **Begin toewijzing** een datum en een tijd in.
-10. Selecteer **Nieuwe werknemer aannemen**.
-11. Vouw het feitenvak **Historie dienstverband** uit.
-12. Vouw het feitenvak **Huidige posities** uit.
-13. Vouw het feitenvak **Historie dienstverband** uit.
-14. Vouw het feitenvak **Huidige posities** uit.
-15. Vouw de sectie **Adressen** uit of samen.
-16. Vouw de sectie **Contactgegevens** uit of samen.
-17. Vouw de sectie **Persoonlijke gegevens** uit of samen.
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

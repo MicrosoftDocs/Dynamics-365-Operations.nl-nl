@@ -1,38 +1,39 @@
 ---
 title: Nieuwe of gewijzigde functies in Dynamics 365 Human Resources (23 juli 2020)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 23 juli 2020.
-author: andreabichsel
+author: Darinkramer
+manager: AnnBe
 ms.date: 07/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1dd8ab95d37c2fbc5d7453fadeae043677c30160
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: d0672e3039f54a4591db49eee00d69bf5e4278fd
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063717"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528444"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-23-2020"></a>Nieuwe of gewijzigde functies in Dynamics 365 Human Resources (23 juli 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Human Resources. Wijzigingen die van toepassing zijn op buildnummer 8.1.3416. De getallen tussen haakjes in sommige koppen verwijzen naar ondersteuningsnummers in LCS ter referentie.
 
 ## <a name="deleting-financial-dimensions-on-a-position-doesnt-work-as-expected-445476"></a>Financiële dimensies verwijderen op een positie werkt niet zoals verwacht (445476)
 
-Als u dimensies van een positie verwijdert, worden die posities nu verwijderd uit Dataverse.
+Als u dimensies van een positie verwijdert, worden die posities nu verwijderd uit Common Data Service.
 
 ## <a name="positions-not-in-hierarchy-show-inactive-positions-397257"></a>Posities die niet in de hiërarchie staan, geven inactieve posities weer (397257)
 
@@ -54,7 +55,7 @@ U kunt nu velden verplicht maken met behulp van de aanpassingsmogelijkheden van 
 
 ## <a name="human-resources-application-in-teams"></a>Human Resources-toepassing in Teams
 
-Werknemers kunnen vrije tijd bekijken en aanvragen in Microsoft Teams. Ze kunnen met een bot werken om verlofaanvragen te maken. Zie [Human resources-app in Teams](./hr-admin-teams-leave-app.md) voor meer informatie. 
+Werknemers kunnen vrije tijd bekijken en aanvragen in Microsoft Teams. Ze kunnen met een bot werken om verlofaanvragen te maken. Zie [Human resources-app in Teams](https://go.microsoft.com/fwlink/?linkid=2127841) voor meer informatie. 
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>DMF-entiteiten (Data Management Framework) voor vergoedingenbeheer
  
@@ -93,9 +94,9 @@ Een DMF-entiteit is nu beschikbaar voor opschorten van toerekeningen.
 
 ## <a name="coming-soon"></a>Binnenkort beschikbaar
 
-## <a name="checklist-entities-included-in-dataverse"></a>Check List-entiteiten opgenomen in Dataverse
+## <a name="checklist-entities-included-in-common-data-service"></a>Check List-entiteiten opgenomen in Common Data Service
 
-Controlelijstentiteiten voor de processen Onboarding, Offboarding, Overdracht en Bedrijfs zijn binnenkort beschikbaar in Dataverse.
+Controlelijstentiteiten voor de processen Onboarding, Offboarding, Overdracht en Bedrijfs zijn binnenkort beschikbaar in Common Data Service.
 
 ## <a name="platform-changes"></a>Platformwijzigingen
 
@@ -104,9 +105,6 @@ Platformupdate 10.0.12 (36)
 ## <a name="see-also"></a>Zie ook
 
 [Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)</br>
-[Overzicht van releasewave 2 van Dynamics 365 Human Resources](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Overzicht van releasewave 2 van Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Het updateproces](hr-admin-setup-update-process.md)</br>
 [Functies beheren](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

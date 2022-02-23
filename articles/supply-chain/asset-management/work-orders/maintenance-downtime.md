@@ -1,10 +1,12 @@
 ---
 title: Uitvaltijd voor onderhoud voor werkorders
 description: In dit onderwerp wordt beschreven hoe u registraties voor uitvaltijd voor onderhoud maakt voor het geselecteerde activum in een werkorder.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 38c47a47fdf64c1d3601f6f3f7b84bf128823ec2ceb0c50e586822f6bdb97906
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53487a0173453ef7a8f5ea818672d999fe71cb65
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753367"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020906"
 ---
 # <a name="maintenance-downtime-for-work-orders"></a>Uitvaltijd voor onderhoud voor werkorders
 
@@ -45,7 +47,7 @@ U kunt registraties voor uitvaltijd voor onderhoud maken voor de geselecteerde a
 
 In de onderstaande afbeelding ziet u een voorbeeld van de pagina **Redencodes voor uitvaltijd voor onderhoud**.
 
-![Figuur 1.](media/15-work-orders.png)
+![Figuur 1](media/15-work-orders.png)
 
 Nadat u de redencodes voor uitvaltijd voor onderhoud hebt gemaakt die u wilt gebruiken, kunt u registraties voor uitvaltijd voor onderhoud maken voor werkorders en activa.
 
@@ -71,21 +73,18 @@ Nadat u de redencodes voor uitvaltijd voor onderhoud hebt gemaakt die u wilt geb
 
 In de onderstaande afbeelding ziet u een voorbeeld van een registratie voor uitvaltijd voor onderhoud.
 
-![Figuur 2.](media/16-work-orders.png)
+![Figuur 2](media/16-work-orders.png)
 
 De kalender die wordt gebruikt voor het berekenen van de registratie van uitvaltijd voor onderhoud is afhankelijk van uw selectie bij het instellen van activa en parameters. Als een resource wordt geselecteerd voor een activum in het veld **Resource** op het het sneltabblad **Vaste activa** van de pagina **Alle activa**, wordt de kalender gebruikt die is ingesteld voor de gekoppelde resourcegroep, zoals weergegeven in de volgende afbeelding.
 
-![Figuur 3.](media/17-work-orders.png)
+![Figuur 3](media/17-work-orders.png)
 
 Als geen resource is geselecteerd voor het activum, wordt de standaardkalender gebruikt die is geselecteerd op de pagina **Parameters voor activabeheer**, zoals weergegeven in de volgende afbeelding.
 
-![Figuur 4.](media/18-work-orders.png)
+![Figuur 4](media/18-work-orders.png)
 
 Klik op **Activabeheer voor bedrijven** > **Query's** > **Uitvaltijd voor onderhoud** voor een overzicht van alle registraties van uitvaltijd voor onderhoud.
 
 >[!NOTE]
 >Alle kalenders die in de module **Activabeheer** worden gebruikt, worden ingesteld in **Organisatiebeheer** > **Instellingen** > **Kalenders** > **Kalenders**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

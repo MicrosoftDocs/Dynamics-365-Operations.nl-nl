@@ -2,9 +2,11 @@
 title: De structuur van een bedrijfsdocumentsjabloon bijwerken
 description: In dit onderwerp wordt uitgelegd hoe u de structuur van een bedrijfsdocumentsjabloon kunt bijwerken met de functie Beheer van bedrijfsdocumenten.
 author: NickSelin
+manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERBDTemplateEditor
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2f57e3f3a84a6e767755c69074bc194e90793e6edd79d0e07ae7449d45ec7539
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb0188e372b5f6275472cf040d10bb796eed1858
+ms.sourcegitcommit: 95d2fc0fa7d17d3a96f7969f12c985b018b4ff94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775281"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "4728084"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>De structuur van een bedrijfsdocumentsjabloon bijwerken 
 
@@ -58,7 +60,7 @@ Voer de volgende procedures uit in [Overzicht van Beheer van bedrijfsdocumenten]
 
     De nieuwe sjabloon wordt geopend om te worden bewerkt in het ingesloten Excel online-besturingselement op de pagina van de sjablooneditor.
 
-[![De werkruimte Beheer van bedrijfsdocumenten gebruiken om een bedrijfsdocumentsjabloon te bewerken.](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
+[![De werkruimte Beheer van bedrijfsdocumenten gebruiken om een bedrijfsdocumentsjabloon te bewerken](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
 
 ### <a name="review-the-current-structure-of-the-editable-template"></a>De huidige structuur van de bewerkbare sjabloon controleren
 
@@ -68,7 +70,7 @@ Voer de volgende procedures uit in [Overzicht van Beheer van bedrijfsdocumenten]
 4. Vouw in het deelvenster **Sjabloonstructuur** de optie **Rapport \> Factuur \> rptHeader \> rptHeaderPart1** uit.
 5. Zoals u ziet, wordt het item **rptHeaderCompLogo** in de sjabloonstructuur in Finance weergegeven als onderliggend item van **Rapport \> Factuur \> rptHeader \> rptHeaderPart1**.
 
-[![De werkruimte Beheer van bedrijfsdocumenten gebruiken om de huidige structuur van een bewerkbare sjabloon te controleren.](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
+[![De werkruimte Beheer van bedrijfsdocumenten gebruiken om de huidige structuur van een bewerkbare sjabloon te controleren](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-deleting-a-picture"></a>De structuur van een bedrijfsdocumentsjabloon bijwerken door een afbeelding te verwijderen
 
@@ -85,7 +87,7 @@ Voer de volgende procedures uit in [Overzicht van Beheer van bedrijfsdocumenten]
 4. Vouw in het deelvenster **Sjabloonstructuur** de optie **Rapport \> Factuur \> rptHeader \> rptHeaderPart1** uit.
 5. Zoals u ziet , is het item **rptHeaderCompLogo** niet meer opgenomen in de sjabloonstructuur in Finance.
 
-[![De werkruimte Beheer van bedrijfsdocumenten gebruiken om een afbeelding te verwijderen uit een bedrijfsdocumentsjabloon.](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
+[![De werkruimte Beheer van bedrijfsdocumenten gebruiken om een afbeelding te verwijderen uit een bedrijfsdocumentsjabloon](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-adding-a-picture"></a>De structuur van een bedrijfsdocumentsjabloon bijwerken door een afbeelding toe te voegen
 
@@ -97,13 +99,10 @@ Voer de volgende procedures uit in [Overzicht van Beheer van bedrijfsdocumenten]
 6. Vouw in het deelvenster **Sjabloonstructuur** de optie **Rapport \> Factuur \> rptHeader \> rptHeaderPart1** uit.
 7. Zoals u ziet , is de nieuwe afbeelding nu opgenomen als item in de sjabloonstructuur in Finance.
 
-[![De werkruimte Beheer van bedrijfsdocumenten gebruiken om een afbeelding toe te voegen aan een bedrijfsdocumentsjabloon.](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
+[![De werkruimte Beheer van bedrijfsdocumenten gebruiken om een afbeelding toe te voegen aan een bedrijfsdocumentsjabloon](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
 
 ## <a name="related-links"></a>Verwante koppelingen
 
 [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 
 [Overzicht van Beheer van bedrijfsdocumenten](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

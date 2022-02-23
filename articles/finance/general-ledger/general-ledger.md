@@ -2,27 +2,28 @@
 title: Overzicht van Grootboek en Financiële rapportage
 description: Met Grootboek kunt u de financiële records van de rechtspersoon definiëren en beheren.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 08/14/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "65431"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 65431
 ms.assetid: d2c604df-daae-42cd-82d9-c80e3dee4a60
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 639d77e43fc9a55e43ebb030f8fc292ce8fb7fce
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1ade10020e4bab02490c9104c37fe1f234d634e8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985232"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442075"
 ---
 # <a name="general-ledger-home-page"></a>Startpagina Grootboek
 
@@ -39,7 +40,7 @@ U kunt bedragen toewijzen aan (of verdelen over) een of meer rekeningen of combi
 - [Grootboekrekeningsaldi](general-ledger-account-balances.md)
 - [Financiële dimensies](financial-dimensions.md)
 
-[![Bedrijfsproces.](./media/GL-process.PNG)](./media/GL-process.PNG)
+[![Bedrijfsproces](./media/GL-process.PNG)](./media/GL-process.PNG)
 
 ## <a name="sales-tax"></a>Btw
 Ieder bedrijf int en betaalt btw aan verschillende btw-diensten. De regels en tarieven variëren per land/regio, staat, graafschap en stad.
@@ -54,14 +55,14 @@ Bovendien moeten de regels periodiek worden bijgewerkt wanneer de belastingdiens
 
 #### <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
 
-Ga naar de [releaseplannen voor Microsoft Dynamics 365](/dynamics365/release-plans/) om te zien welke nieuwe functies er zijn gepland. 
+Ga naar de [releaseplannen voor Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) om te zien welke nieuwe functies er zijn gepland. 
 
 #### <a name="financial-reporting"></a>Financiële rapportage
 Ga naar het onderwerp [Overzicht van Financial Reporting](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md) voor informatie over financiële rapporten.
 
 #### <a name="blogs"></a>Weblogs
 
-U vindt adviezen, nieuws en andere informatie in de [blog over Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) en de [blog over Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+U kunt adviezen, nieuws en andere informatie vinden in de [Microsoft Dynamics 365-blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) en de [Microsoft Dynamics 365 Finance and Operations - Financials-blog](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 De [Microsoft Dynamics Operations-blog van de partnercommunity](https://community.dynamics.com/partner/b/operationspartnercommunityblog) biedt Microsoft Dynamics-partners één bron met informatie over wat nieuw is en welke trends er zijn in Dynamics 365.
 
@@ -73,6 +74,3 @@ Bekijk de procedurevideo's die nu beschikbaar zijn op het [Microsoft Dynamics 36
 
 - [Wat u moet weten over grootboek in Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

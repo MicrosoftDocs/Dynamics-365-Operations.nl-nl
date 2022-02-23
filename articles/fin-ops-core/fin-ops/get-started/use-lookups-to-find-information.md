@@ -1,10 +1,12 @@
 ---
 title: Informatie vinden met zoekopdrachten
-description: In dit onderwerp vindt u informatie over opzoekfuncties en handige tips voor een optimaal gebruik van opzoekfuncties in het systeem.
+description: Veel velden hebben zoekopdrachten waarmee u gemakkelijk de juiste of de gewenste waarde vindt. Enkele verbeteringen zijn toegevoegd aan de lookups, die deze besturingselementen bruikbaarder maken en gebruikers productiever. In dit onderwerp vindt u informatie over deze nieuwe lookupfuncties en handige tips voor een optimaal gebruik van lookups in het systeem.
 author: jasongre
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7135487e5d87564163c643d1315c51231fa66de
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d75e66e8fb9f1a227c9dd15f92ca5db433c0db4a
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069293"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798137"
 ---
 # <a name="find-information-by-using-lookups"></a>Informatie vinden met zoekopdrachten
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Veel velden hebben zoekopdrachten waarmee u gemakkelijk de juiste of de gewenste waarde vindt. Enkele verbeteringen zijn toegevoegd aan de lookups, die deze besturingselementen bruikbaarder maken en gebruikers productiever. In dit onderwerp vindt u informatie over deze nieuwe lookupfuncties en handige tips voor een optimaal gebruik van lookups in het systeem.
 
@@ -47,15 +46,15 @@ Neem bijvoorbeeld een lookup-veld met de naam **Plaats**.
 
 Wanneer de focus zich in het veld **Plaats** bevindt, kunt u naar de gewenste plaatsnaam gaan zoeken door een paar letters te typen, zoals 'col'. Nadat u ophoudt met typen, wordt de lookup automatisch geopend. De lijst is gefilterd op plaatsnamen die beginnen met 'col'.
 
-[![typeaheadLookupExample.](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png)
+[![typeaheadLookupExample](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png)
 
 De cursor bevindt zich op dit moment nog steeds in het zoekveld. Als u doorgaat met typen zodat de waarde 'colum' is, wordt de inhoud van de lookup automatisch aangepast aan de meest recente waarde in het besturingselement.
 
-![updateFilterLookupExample.](./media/updatefilterlookupexample.png)
+![updateFilterLookupExample](./media/updatefilterlookupexample.png)
 
 Hoewel het lookup-besturingselement nog steeds de focus heeft, u kunt ook met de toetsen **pijl-omhoog** of **pijl-omlaag** de rij markeren die u wilt selecteren. Als u op **Enter** drukt, wordt de gemarkeerde rij geselecteerd uit de lookup en de waarde van het besturingselement wordt bijgewerkt.
 
-![changingSelectionLookup.](./media/changingselectionlookup.png)
+![changingSelectionLookup](./media/changingselectionlookup.png)
 
 ## <a name="typing-in-more-than-ids"></a>Meer invoeren dan id's
 
@@ -75,15 +74,12 @@ De gebruiker kan nu echter ook het begin van een **Accountnaam** invoeren. Als d
 
 De lookup-verbeteringen die in de voorgaande twee secties zijn besproken, maken het de gebruiker aanzienlijk makkelijker om door rijen in een lookup te bladeren op basis van een zoekopdracht 'begint met' voor de velden **Id** of **Naam** in de lookup. Er zijn echter situaties waarin meer geavanceerde filteren (of sorteren) nodig is om de juiste rij te vinden. In dergelijke situaties moet de gebruiker de opties voor filteren en sorteren in de rasterkolomkoppen in de lookup gebruiken. Stel dat een werknemer een verkooporderregel invoert en als product de juiste 'cable' moet vinden. Het woord 'cable' invoeren in het besturingselement voor **Artikelnummer** is niet zo handig, omdat er geen productnamen zijn die beginnen met 'cable'.
 
-![emptyitemlookup.](./media/emptyitemlookup.png)
+![legeartikellookup](./media/emptyitemlookup.png)
 
 In plaats daarvan moet de gebruiker de waarde in het lookup-besturingselement wissen, de lookup-vervolgkeuzelijst openen en filteren met behulp van de rasterkolomkop, zoals hieronder weergegeven. Een gebruiker met muis of touchscreen kan elke kolomkop aanklikken of aantikken om de filter- en sorteeropties voor die kolom te openen. Een gebruiker die een toetsenbord gebruikt, moet de toetscombinatie **Alt**+**pijl**-**omlaag** nog een keer indrukken. De focus wordt nu naar de vervolgkeuzelijst verplaatst, waarna de gebruiker de juiste kolom kan selecteren. Als hij dan **Ctrl**+**G** indrukt, wordt de vervolgkeuzelijst van de rasterkolomkop geopend.
 
-[![gridfilteritemlookup.](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
+[![rasterfilterartikellookup](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
 
 Nadat het filter is toegepast (zie de onderstaande afbeelding), kan de gebruiker de rij zoals gebruikelijk zoeken en selecteren.
 
-![filtereditemlookup.](./media/filtereditemlookup.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![gefilterdartikellookup](./media/filtereditemlookup.png)

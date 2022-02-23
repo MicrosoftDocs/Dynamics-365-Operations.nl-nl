@@ -2,30 +2,35 @@
 title: Het delen van inhoud door meerdere kanalen inschakelen en gebruiken
 description: In dit onderwerp wordt beschreven hoe u de functie voor het delen van inhoud door meerdere kanalen in Microsoft Dynamics 365 Commerce Site Builder kunt inschakelen en gebruiken.
 author: psimolin
+manager: annbe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 05614b3ec14bfca9551242e5cf31aee0cb21c39a85150114af446a187fac998a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77284045bda193500117978102c0565c5f15ec6d
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742411"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4411506"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Het delen van inhoud door meerdere kanalen inschakelen en gebruiken
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u de functie voor het delen van inhoud door meerdere kanalen in Microsoft Dynamics 365 Commerce Site Builder kunt inschakelen en gebruiken.
+
+## <a name="overview"></a>Overzicht
 
 Met de functie voor het delen van inhoud door meerdere kanalen kunnen detailhandelaren de inhoud tussen meerdere kanalen van een site opnieuw gebruiken en delen. Deze mogelijkheid is nuttig wanneer de sitekanalen beschikken over een compatibele basistaal of wanneer ze talloze gemeenschappelijke inhoudsitems hebben.
 
@@ -48,15 +53,15 @@ Voer de volgende stappen uit om het delen van inhoud door meerdere kanalen in te
 1. Ga naar **Site-instellingen \> Functies**.
 1. Stel de optie voor de functie **Meerdere kanalen** in op **Aan**.
 
-    ![Optie Meerdere kanalen ingesteld op Aan in Commerce Site Builder.](./media/enabling-cross-channel-sharing.png)
+    ![Optie Meerdere kanalen ingesteld op Aan in Commerce Site Builder](./media/enabling-cross-channel-sharing.png)
 
 Nadat u het delen van inhoud door meerdere kanalen hebt ingeschakeld, worden gegevens over meerdere kanalen weergegeven in de sectie **Kanalen** bij **Site-instellingen \> Functies** , zoals in het voorbeeld in de volgende afbeelding wordt weergegeven.
 
-![Kanaalgegevens die zichtbaar zijn nadat de functie voor het delen van inhoud door meerdere kanalen is ingeschakeld.](./media/channels-cross-channel.png)
+![Kanaalgegevens die zichtbaar zijn nadat de functie voor het delen van inhoud door meerdere kanalen is ingeschakeld](./media/channels-cross-channel.png)
 
 Bovendien bevat nadat u het delen van inhoud door meerdere kanalen hebt ingeschakeld, het veld **Kanaal** rechtsboven in Commerce Site Builder de optie **Onlinewinkel voor meerdere kanalen** die u kunt gebruiken om inhoud voor meerdere kanalen te beheren, zoals in de volgende afbeelding wordt weergegeven.
 
-![De optie Onlinewinkel voor meerdere kanalen in het veld Kanalen nadat de functie voor het delen van inhoud door meerdere kanalen is ingeschakeld.](./media/cross-channel-dropdown.png)
+![De optie Onlinewinkel voor meerdere kanalen in het veld Kanalen nadat de functie voor het delen van inhoud door meerdere kanalen is ingeschakeld](./media/cross-channel-dropdown.png)
 
 ## <a name="create-and-use-cross-channel-content"></a>Inhoud voor meerdere kanalen maken en gebruiken
 
@@ -132,6 +137,3 @@ Als u nu de basis-URL van het kanaal gebruikt en naar de URL van de pagina voor 
 [Statussen en levenscyclus van document](document-states-overview.md)
 
 [Werken met groepen publiceren](publish-groups.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

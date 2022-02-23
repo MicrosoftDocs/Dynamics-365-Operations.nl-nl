@@ -2,23 +2,26 @@
 title: Rapport Btw-betaling per code afdrukken
 description: Dit onderwerp bevat informatie over de instellingen en acties die vereist zijn om het rapport Btw-betaling per code af te drukken in de valuta van de boekhouding of de btw-code.
 author: anasyash
+manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 7c863308d2efc442ad16973407fe1cb72fb68cf89204c20f4468a3c98f4740c5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7033999f7258e9ddd1d01620f9ad416e94ef3111
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774324"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441973"
 ---
 # <a name="print-the-sales-tax-payment-by-code-report"></a>Rapport Btw-betaling per code afdrukken 
 
@@ -40,11 +43,8 @@ Schakel in het werkgebied **Functiebeheer** de volgende functie in: **Het rappor
     - **Valuta voor boekhouding**: druk de rapportbedragen af in de valuta voor boekhouding.
     - **Valuta van btw-code**: druk de rapportbedragen af in de valuta van de btw-codes.
 
-    ![Dialoogvenster Btw-betaling per code.](media/Sales-tax-payment-by-code.png)
+    ![Dialoogvenster Btw-betaling per code](media/Sales-tax-payment-by-code.png)
 
 In de volgende afbeelding ziet u een voorbeeld van het gegenereerde rapport. In het rapport wordt aangegeven dat de aangiftecode **101** de valuta **EUR** gebruikt als het veld **Btw-valuta** wordt ingesteld op **EUR** voor de btw-code waaraan de aangiftecode is toegewezen.
 
-![Voorbeeld van rapport Btw-betaling per code.](media/Sales-tax-payment-by-code-2.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+![Voorbeeld van rapport Btw-betaling per code](media/Sales-tax-payment-by-code-2.png)

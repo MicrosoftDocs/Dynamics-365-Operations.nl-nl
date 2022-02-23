@@ -2,13 +2,16 @@
 title: Beleid voor totalisering van kosten en overheadberekening
 description: Dit onderwerp bevat informatie over het bepalen van het juiste niveau van secundaire kostenelementen en het maken van regels voor kostentotalisering die passen in de organisatierapportage en de traceerbaarheid van kosten.
 author: AndersGirke
+manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy, CAMOverheadRatePolicy
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f86529359f548bf48fdef8817bd2e2260235561cce57cac28158739687ade2c1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b02bfd83cfc4f1585c9044ebca8b20413042124a
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779951"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4442127"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Beleid voor totalisering van kosten en overheadberekening 
 
@@ -44,11 +47,11 @@ Om deze gevolgen te voorkomen, kunt u met Kostprijsboekhouding kostentoewijzing 
 
 Stel dat een organisatie de volgende structuur heeft met 4 kostenplaatsen.
 
-![Voorbeeld van een organisatiestructuur.](./media/dimension-hierarchy-org.png)
+![Voorbeeld van een organisatiestructuur](./media/dimension-hierarchy-org.png)
 
 **Dimensie van kostenobject**
 
-| Kostenplaatsen | Beschrijving          |
+| Kostenplaatsen | Omschrijving          |
 |--------------|-----------|
 | CC001        | HR        |
 | CC002        | Financiën   |
@@ -149,7 +152,8 @@ Kostentoewijzingsregels kunnen als volgt worden ingesteld.
 | CC001                                | Totaal         | **HR-services**        |
 | CC002                                | Totaal         | **Financiële services** |
 
-## <a name="brhow-cost-flows-between-cost-centers"></a><br>Hoe kosten tussen kostenplaatsen stromen 
+<a name="brhow-cost-flows-between-cost-centers"></a><br>Hoe kosten tussen kostenplaatsen stromen 
+---------------------------------------------------
 
 Als u wilt weten hoe kosten stromen tussen de kostenplaatsen in de organisatie, kunt u kostenelementen van het type **Secundair** voor elke kostenplaats maken. Deze kostenelementen worden vervolgens gebruikt om saldi tussen de kostenplaatsen over te brengen tijdens het berekenen van overhead.
 
@@ -297,6 +301,3 @@ De duidelijke scheiding tussen **Kostentoewijzing** en **Beleid voor totaliserin
 -  [Dimensies van kostenelement](cost-elements.md)
 -  [Dimensiehiërarchie](dimension-hierarchy.md)
 -  [Overheadberekening](overhead-calculation.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

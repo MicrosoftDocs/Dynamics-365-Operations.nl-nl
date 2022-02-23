@@ -2,23 +2,26 @@
 title: Magazijnvakken
 description: Dit onderwerp biedt informatie over magazijnvakken. Met magazijnvakken kunt u de vraag consolideren op basis van artikel en maateenheid vanuit orders met de status Besteld, Gereserveerd of Vrijgegeven. Hiermee kunnen magazijnbeheerders orderverzamellocaties intelligent plannen voordat orders naar het magazijn worden vrijgegeven en het orderverzamelwerk wordt gemaakt.
 author: mirzaab
+manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSInventFixedLocation, WHSSlotDemandLocated, WHSSlotDemand, WHSSlotUOMTier, WHSSlotTemplate, WHSLocDirHint, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 36903bc7ce4164e42d191156b7d9e04bec84d4f6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: 31b86837735ca16610a1d304eab611b12a6aceeb
+ms.sourcegitcommit: be4b9d557511bbb43e71a93f2c3b23b5f1a4669d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575142"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "4627744"
 ---
 # <a name="warehouse-slotting"></a>Magazijnvakken
 
@@ -28,16 +31,16 @@ Met de diverse functies voor magazijnvakken kunnen magazijnbeheerders orderverza
 
 Met *Functie voor magazijnvakken* kunt u de vraag consolideren op basis van artikel en maateenheid vanuit orders met de status *Besteld*, *Gereserveerd* of *Vrijgegeven*. Gegenereerde vraag kan vervolgens worden toegepast op locaties die worden gebruikt voor orderverzamelen, op basis van hoeveelheid, eenheid, fysieke afmetinge, vaste locaties en meer. Nadat het vakkenplan is ingesteld, kunt u aanvullingswerk maken om de gewenste voorraadhoeveelheid naar alle locaties te brengen.
 
-Met de functie *Magazijnvakken voor overboekingsorders* kunnen magazijnbeheerders de orderverzamellocaties aanvullen op basis van de vraag vanuit overboekingsorders die nog niet zijn vrijgegeven aan het magazijn. Hiermee zorgt u ervoor dat verzamellocaties alle artikelen bevatten die nodig zijn voor de overboekingsorders nadat ze zijn vrijgegeven aan het magazijn. Voor deze functie moet u ook de functie *Functie voor magazijnvakken* inschakelen.
+Met de functie *Magazijnvakken voor transferorders* kunnen magazijnbeheerders de orderverzamellocaties aanvullen op basis van de vraag vanuit transferorders die nog niet zijn vrijgegeven aan het magazijn. Hiermee zorgt u ervoor dat verzamellocaties alle artikelen bevatten die nodig zijn voor de transferorders nadat ze zijn vrijgegeven aan het magazijn. Voor deze functie moet u ook de functie *Functie voor magazijnvakken* inschakelen.
 
-Met de functie *Uitbreidingen voor vakkentoewijzing in magazijn* voegt u een optie toe voor de sjabloonregels die worden gebruikt door de functie *Functie voor magazijnvakken*. Met deze optie kan het systeem rekening houden met de bestaande voorhanden voorraad op een doellocatie. Het is dus mogelijk dat er minder aanvullingen worden gegenereerd voor magazijnvakken. Voor de functie *Uitbreidingen voor vakkentoewijzing in magazijn* moet u ook de functie *Functie voor magazijnvakken* inschakelen. Deze kan optioneel worden gebruikt in combinatie met de functie *Magazijnvakken voor overboekingsorders*.
+Met de functie *Uitbreidingen voor vakkentoewijzing in magazijn* voegt u een optie toe voor de sjabloonregels die worden gebruikt door de functie *Functie voor magazijnvakken*. Met deze optie kan het systeem rekening houden met de bestaande voorhanden voorraad op een doellocatie. Het is dus mogelijk dat er minder aanvullingen worden gegenereerd voor magazijnvakken. Voor de functie *Uitbreidingen voor vakkentoewijzing in magazijn* moet u ook de functie *Functie voor magazijnvakken* inschakelen. Deze kan optioneel worden gebruikt in combinatie met de functie *Magazijnvakken voor transferorders*.
 
 ## <a name="turn-on-the-warehouse-slotting-features"></a>De functies voor magazijnvakken inschakelen
 
 Voordat u deze functies kunt gebruiken, moeten deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functies te controleren en deze zo nodig in te schakelen. Schakel zo nodig de volgende functies in:
 
 - Functie Magazijnvakken
-- Magazijnvakken voor overboekingsorders
+- Magazijnvakken voor transferorders
 
     > [!IMPORTANT]
     > De functie *Functie voor magazijnvakken* moet voor deze functie zijn ingeschakeld.
@@ -107,7 +110,7 @@ Elke vakkensjabloon bepaalt hoe de voorraad wordt toegewezen aan locaties voor e
 1. Ga naar **Magazijnbeheer \> Instellingen \> Aanvulling \> Aanvullingssjablonen**.
 1. Selecteer **Nieuw** om een sjabloon te maken.
 
-Vervolgens moet u de koptekst van de sjabloon, vakspecificaties en de locatie-instructies instellen, zoals in de volgende subsecties wordt uitgelegd. De instelling voor overboekingsorders lijkt op de instelling voor magazijnvakken voor verkooporders, maar het veld **Type vraag** wordt ingesteld op *overboekingsorders* in plaats van op *Verkooporder*.
+Vervolgens moet u de koptekst van de sjabloon, vakspecificaties en de locatie-instructies instellen, zoals in de volgende subsecties wordt uitgelegd. De instelling voor transferorders lijkt op de instelling voor magazijnvakken voor verkooporders, maar het veld **Type vraag** wordt ingesteld op *Transferorders* in plaats van op *Verkooporder*.
 
 #### <a name="set-up-the-header-for-a-sales-order-slotting-template"></a>De koptekst instellen voor een vakkensjabloon voor verkooporders
 
@@ -118,7 +121,7 @@ Vervolgens moet u de koptekst van de sjabloon, vakspecificaties en de locatie-in
     - **Vraagtype:** *Verkooporder*
 
         > [!NOTE]
-        > Momenteel zijn *Verkooporders* en *overboekingsorders* de enige ondersteunde vraagtypen. U kunt *overboekingsorders* alleen selecteren als de functie *Magazijnvakken voor overboekingsorders* is ingeschakeld.
+        > Momenteel zijn *Verkooporders* en *Transferorders* de enige ondersteunde vraagtypen. U kunt *Transferorders* alleen selecteren als de functie *Magazijnvakken voor transferorders* is ingeschakeld.
 
     - **Vraagstrategie:** _Besteld_
 
@@ -381,6 +384,3 @@ Nadat alle vereiste elementen zijn ingesteld, kunt u vaktoewijzing configureren 
 1. Stel het herhalingspatroon desgewenst in op automatisch herhalen.
 
 Stel voor de oefeningen in het scenario **niet** automatische vaktoewijzing in.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

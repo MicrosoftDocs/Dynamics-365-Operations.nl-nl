@@ -1,35 +1,33 @@
 ---
 title: Geschiktheid voor inschrijving verwerken
-description: In dit onderwerp wordt uitgelegd hoe u het proces voor het bepalen van de geschiktheid voor inschrijving uitvoert.
-author: twheeloc
-ms.date: 08/23/2021
+description: In dit artikel wordt uitgelegd hoe u het proces voor het bepalen van de geschiktheid voor inschrijving uitvoert.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8997cf24bf24097e46a05acffef8b3839056c57
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: dfb7f13dce48f33c111af491918702763f7e3b8a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067624"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417933"
 ---
 # <a name="process-enrollment-eligibility"></a>Geschiktheid voor inschrijving verwerken
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-In dit onderwerp wordt uitgelegd hoe u het proces voor het bepalen van de geschiktheid voor inschrijving uitvoert.
+In dit artikel wordt uitgelegd hoe u het proces voor het bepalen van de geschiktheid voor inschrijving uitvoert.
 
 1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Verwerken** de optie **Geschiktheid voor inschrijving verwerken**.
 
@@ -56,13 +54,13 @@ In dit onderwerp wordt uitgelegd hoe u het proces voor het bepalen van de geschi
 
 ## <a name="view-process-results"></a>Procesresultaten weergeven
 
-In dit onderwerp wordt uitgelegd hoe u de resultaten van het geschiktheidsproces weergeeft.
+In dit artikel wordt uitgelegd hoe u de resultaten van het geschiktheidsproces weergeeft.
 
 1.  Selecteer in het werkgebied **Vergoedingenbeheer** onder **Verwerken** de optie **Procesresultaten**.
 
-2.  Op de pagina **Procesresultaten** zijn de volgende velden opgegeven:
+2.  In het formulier **Procesresultaten** zijn de volgende velden opgegeven:
 
-   | Veld | Beschrijving |
+   | Veld | Omschrijving |
    | --- | --- |
    | **Proces-ID** | De unieke id voor de combinatie van werknemer, rechtspersoon en procesuitvoering. |
    | **Procestype** | Hiermee wordt het proces aangegeven dat is uitgevoerd. Bijvoorbeeld: registratie. |
@@ -74,6 +72,3 @@ In dit onderwerp wordt uitgelegd hoe u de resultaten van het geschiktheidsproces
    | **Resulterende status** | Dit komt wel of niet in aanmerking. De status van het resultaat komt niet in aanmerking als de werknemer niet voldoet aan de criteria voor de geschiktheidsregel, als er vereiste informatie ontbreekt voor de werknemer, zoals een betalingsfrequentie of vaste compensatie, of als er gegevens ontbreken in het vergoedingsplan waardoor werknemers niet kunnen worden ingeschreven. |
    | **Resulterend bericht** | Geeft aan waarom een werknemer niet in aanmerking komt voor een vergoedingsplan of is geslaagd voor een geschiktheidsregel. |
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

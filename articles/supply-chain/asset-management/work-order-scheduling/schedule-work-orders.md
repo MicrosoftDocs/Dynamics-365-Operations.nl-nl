@@ -1,10 +1,12 @@
 ---
 title: Werkorders plannen
 description: In dit onderwerp wordt uitgelegd hoe u werkorders plant in Activabeheer.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderSchdulePreviewPart, EntAssetWorkOrderScheduleExclusively, EntAssetWorkOrderSchduleInfoPart, EntAssetWorkOrderScheduleListPage, EntAssetWorkOrderSchedule, EntAssetWorkOrderScheduleDelete
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: becd06c46afd92bf07d9a69147b7768e780aefa57f9045c11698c04154d6ddb8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7e7751e3e2f216abf46f02ee0644909c6894c5b2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718054"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020224"
 ---
 # <a name="schedule-work-orders"></a>Werkorders plannen
 
@@ -56,7 +58,7 @@ Alleen werkorders met een levenscyclusstatus voor werkorders die planning toesta
 
 *Voorbeeld*: in de volgende afbeelding genereert de formule ingevoegd in het veld **Verwachte begindatum** de planning van de werkorder voor alle werkorders met een verwachte begindatum een week vanaf nu en later. Deze formule kan handig zijn wanneer u voortdurend werkorders plant, maar er zeker van wilt zijn dat de geplande werkorders voor de komende 5-6 dagen niet opnieuw worden gepland.
 
-![Figuur 1.](media/03-work-order-scheduling.png)
+![Figuur 1](media/03-work-order-scheduling.png)
 
 Voor het werkordertype dat aan werkorders is gekoppeld, kan de planning voor één onderhoudsmedewerker worden ingesteld (**Activabeheer** > **Instellingen** > **Werkorders** > **Werkordertypen** > **Eén onderhoudsmedewerker** ingesteld op Ja). Als het werkordertype wordt gebruikt voor een werkorder, wordt de wisselknop **Eén onderhoudsmedewerker** dus automatisch ingesteld op Ja op de detailpagina **Alle werkorders** > weergave **Koptekst** > sneltabblad **Plannen**. Bij de planning van werkorders worden alle werkordertaken die in de werkorder zijn gemaakt gepland voor dezelfde onderhoudsmedewerker. Indien nodig kunt u de selectie bewerken met de wisselknop **Eén onderhoudsmedewerker** in **Alle werkorders** om verschillende medewerkers of één medewerker te plannen voor de werkordertaken.
 
@@ -135,6 +137,3 @@ U kunt het Gantt-diagram als volgt weergeven en gebruiken:
     - Als u een weergegeven werkorder opnieuw wilt plannen, selecteert u deze en sleept u de werkorder naar de gewenste nieuwe datum en tijd.
 
 1. Als u wijzigingen hebt aangebracht, selecteert u **Opslaan** in het actievenster om ze op te slaan.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

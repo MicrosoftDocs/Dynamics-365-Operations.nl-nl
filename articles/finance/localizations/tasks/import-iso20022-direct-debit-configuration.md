@@ -2,23 +2,26 @@
 title: Configuratie van ISO20022 automatische afschrijving importeren
 description: In deze procedure ziet u hoe u een configuratie voor elektronische rapportage van klantenbetalingen importeert.
 author: mrolecki
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7f89e49f8647f69443b789ea4f32ca6e8d4786f698911609e78e6d6a9ade11ca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e5d4256b155d3e06d63e425fab63b4025ef2577f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743746"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442007"
 ---
 # <a name="import-iso20022-direct-debit-configuration"></a>Configuratie van ISO20022 automatische afschrijving importeren
 
@@ -46,6 +49,3 @@ Dit is de eerste van vijf taken die het proces voor klantenbetalingen toelichten
     * Als de knop Importeren niet beschikbaar is, betekent dit dat deze configuratie al is geïmporteerd.  
 9. Klik op Ja.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

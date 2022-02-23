@@ -2,22 +2,25 @@
 title: Bewerking Order intrekken in POS
 description: In dit onderwerp worden de functies uitgelegd die beschikbaar zijn voor de verbeterde pagina´s voor orderintrekking in POS.
 author: hhainesms
-ms.date: 03/12/2021
+manager: annbe
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 43d6b2e4e5d923b16b02337432fc5259f66c0bf1a8ba1dbf311fb76cb3f085e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 42b11ff16757d633b868dfdf248341193a44378f
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737599"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665293"
 ---
 # <a name="recall-order-operation-in-pos"></a>Bewerking Order intrekken in POS
 
@@ -29,11 +32,11 @@ Als u deze functie wilt inschakelen, schakelt u de functie **Verbeterde bewerkin
 
 Met de configuratie van de bewerkingsknop **Order intrekken** kunnen organisaties de bewerking implementeren met een vooraf gedefinieerde weergave.
 
-![Configuratie knoppenraster.](media/recallorderbuttongrid.png)
+![Configuratie knoppenraster](media/recallorderbuttongrid.png)
 
 De weergaveopties zijn als volgt.
 - **Geen**: met deze optie wordt de bewerking zonder specifieke weergave geïmplementeerd. Wanneer gebruikers de bewerking met deze configuratie openen, wordt hen gevraagd orders te zoeken of om een keuze te maken uit een vooraf gedefinieerd orderfilter.
-- **Af te handelen orders**: wanneer een gebruiker de bewerking start, wordt automatisch een query uitgevoerd om een lijst met orders te zoeken en weer te geven die door de huidige winkel van de gebruiker moeten worden afgehandeld. Deze orders worden geconfigureerd om te worden opgehaald in de winkel of om vanuit de winkel te worden verzonden en de regels van deze orders zijn nog niet verzameld of verpakt.
+- **Af te handelen orders**: wanneer een gebruiker de bewerking start, wordt automatisch een query uitgevoerd om een lijst met orders te zoeken en weer te geven die door de winkel moeten worden afgehandeld. Deze orders worden geconfigureerd om te worden opgehaald in de winkel of om vanuit de winkel te worden verzonden en de regels van deze orders zijn nog niet verzameld of verpakt.
 - **Op te halen orders**: wanneer een gebruiker de bewerking start, wordt automatisch een query uitgevoerd om een lijst met orders te zoeken en weer te geven die zijn geconfigureerd om te worden opgehaald in de huidige winkel van de gebruiker.
 - **Te verzenden orders**: wanneer een gebruiker de bewerking start, wordt automatisch een query uitgevoerd om een lijst met orders te zoeken en weer te geven die zijn geconfigureerd voor verzending vanuit de huidige winkel van de gebruiker.
 
@@ -42,28 +45,22 @@ Als de weergave is ingesteld op **Geen** , kan een gebruiker op een van de volge
 - Selecteer **Orders zoeken** of het pictogram **Zoeken en filteren** op de AppBar om het filtermechanisme te gebruiken om orders te vinden die voldoen aan de filtercriteria.
 - Maak een keuze uit een vooraf gedefinieerd filter in het vervolgkeuzemenu **Orders weergeven** (af te handelen orders, op te halen orders of te verzenden orders).
 
-![RecallOrderMainMenu.](media/recallordermain.png)
+![RecallOrderMainMenu](media/recallordermain.png)
 
-Nadat de zoekcriteria zijn toegepast, wordt in de toepassing een lijst met overeenkomende verkooporders weergegeven. Het is belangrijk om er rekening mee te houden dat wanneer de zoek-/filteropties worden gebruikt, de opgehaalde orders niet moeten worden gekoppeld aan de huidige winkel van de gebruiker. Met dit zoekproces worden eventuele klantorders die aan de zoekcriteria voldoen, opgehaald en weergegeven, zelfs als de order is gemaakt of ingesteld voor afhandeling door een andere winkel-/kanaal- of magazijnlocatie.
+Nadat de zoekcriteria zijn toegepast, wordt in de toepassing een lijst met overeenkomende verkooporders weergegeven.
 
-![RecallOrderDetail.](media/orderrecalldetail.png)
+![RecallOrderDetail](media/orderrecalldetail.png)
 
 Een gebruiker kan een order in de lijst selecteren om aanvullende details weer te geven. In het informatievenster aan de rechterkant van het scherm worden specifieke gegevens over de geselecteerde order weergegeven, waaronder orderregeldetails, leveringsdetails en afhandelingsinformatie.
 
 Via de Appbar kan een gebruiker een bewerking selecteren. Afhankelijk van de status van de order kunnen bepaalde bewerkingen niet worden ingeschakeld.
 
-- **Retour**: start het proces waarbij een retour wordt aangemaakt voor alle gefactureerde producten op de geselecteerde klantorder.
+- **Retourneren**: hiermee wordt een retour uitgevoerd voor een of meer facturen die aan de geselecteerde klantorder zijn gerelateerd.
 
-- **Annuleren**: hiermee wordt een volledige annulering van de geselecteerde verkooporder uitgegeven. Deze optie is niet beschikbaar voor orders die zijn geïnitieerd via een callcenterkanaal en kan niet worden gebruikt om een order gedeeltelijk te annuleren.
+- **Annuleren**: hiermee wordt een volledige annulering van de geselecteerde verkooporder uitgegeven.
 
 - **Afhandelen**: hiermee wordt de gebruiker overgebracht naar de pagina Order afhandelen die vooraf wordt gefilterd voor de geselecteerde order. Alleen orderregels die open zijn voor afhandeling door de winkel van de gebruiker voor de geselecteerde order worden weergegeven.
 
-- **Bewerken**: hiermee kunnen gebruikers wijzigingen aanbrengen in de geselecteerde klantorder. Orders kunnen alleen in [bepaalde scenario's](customer-orders-overview.md#edit-an-existing-customer-order) worden bewerkt.
+- **Bewerken**: hiermee kunnen gebruikers wijzigingen aanbrengen in de geselecteerde klantorder.
 
-- **Ophalen**: deze optie is beschikbaar als de order een of meer regels heeft die bij de huidige winkel van de gebruiker kunnen worden opgehaald. Met deze bewerking wordt de ophaalstroom gestart zodat de gebruiker de producten kan kiezen die moeten worden opgehaald, en wordt de verkooptransactie voor ophalen gemaakt.
-
-## <a name="add-notifications-to-the-recall-order-operation"></a>Meldingen toevoegen aan de bewerking Order intrekken
-
-In versie 10.0.18 en hoger kunt u POS-meldingen configureren en indien nodig waarschuwingen live maken voor de bewerking **Order intrekken**. Zie [Meldingen over orders op het verkooppunt (POS) weergeven](notifications-pos.md) voor meer informatie.  
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+- **Ophalen**: hiermee wordt de ophaalstroom gestart zodat de gebruiker de producten kan kiezen die moeten worden opgehaald, en wordt de verkooptransactie voor ophalen gemaakt.

@@ -2,22 +2,25 @@
 title: Assortimentsbeheer
 description: In dit onderwerp worden de basisconcepten toegelicht van assortimentsbeheer in Dynamics 365 Commerce en overwegingen bij de implementatie voor uw project.
 author: jblucher
+manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: 1ff4929e8789748433f4e9386397431e174a85f81518d2e0a1d8f9ea68211fa6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1b177989065740eef0bd917a7ce1e0a2c79088b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717766"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411303"
 ---
 # <a name="assortment-management"></a>Assortimentsbeheer
 
@@ -35,27 +38,27 @@ De algehele productsamenstelling van een kanaal wordt bepaald door de gepublicee
 
 In het volgende voorbeeld wordt een uniek assortiment geconfigureerd voor elke winkel. In dit geval is alleen product 1 beschikbaar in winkel 1, en alleen product 2 in winkel 2.
 
-![Elk product is in één winkel beschikbaar.](./media/Managing-assortments-figure1.png)
+![Elk product is in één winkel beschikbaar](./media/Managing-assortments-figure1.png)
 
 Als u wilt dat product 2 beschikbaar is in winkel 1, kunt u het product toevoegen aan assortiment 1.
 
-![Product 2 toegevoegd aan assortiment 1.](./media/Managing-assortments-figure2.png)
+![Product 2 toegevoegd aan assortiment 1](./media/Managing-assortments-figure2.png)
 
 U kunt ook winkel 1 toevoegen aan assortiment 2.
 
-![Winkel 1 toegevoegd aan assortiment 2.](./media/Managing-assortments-figure3.png)
+![Winkel 1 toegevoegd aan assortiment 2](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Organisatiehiërarchieën
 
 In situaties waarin meerdere kanalen dezelfde productassortimenten delen, kunt u de assortimenten configureren met behulp van de Commerce-organisatiehiërarchie voor assortimenten. Wanneer de knooppunten uit deze hiërarchie worden toegevoegd, worden alle kanalen in dat knooppunt en de onderliggende knooppunten opgenomen.
 
-![Organisatiehiërarchie.](./media/Managing-assortments-figure4.png)
+![Organisatiehiërarchie](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>Productcategorieën
 
 Aan de productkant kunt u groepen producten op dezelfde manier opnemen door categoriehiërarchieën voor producten te gebruiken. U kunt assortimenten configureren door een of meer hiërarchieknooppunten voor categorieën op te nemen. Het assortiment bevat in dit geval alle producten in dat categorieknooppunt en de onderliggende knooppunten.
 
-![Productcategorieën.](./media/Managing-assortments-figure5.png)
+![Productcategorieën](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Uitgesloten producten of categorieën
 
@@ -64,7 +67,7 @@ Behalve het opnemen van producten en categorieën in assortimenten kunt u de opt
 > [!NOTE]
 > Als een product per definitie zowel is opgenomen als is uitgesloten in een of meer assortimenten, wordt het product altijd beschouwd als uitgesloten.
 
-![Uitgesloten product.](./media/Managing-assortments-figure6.png)
+![Uitgesloten product](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Algemene en vrijgegeven producten
 
@@ -104,6 +107,3 @@ Overweeg de volgende vereisten voor de uitvoering als u assortimenten voor uw Co
 - **Verkopen en retouren buiten assortimenten**: met deze mogelijkheid kunnen detailhandelaren hun assortimenten effectief beheren, doordat ze het aantal beschikbare producten beperken tot producten die tot de kernproductmix voor de winkel behoren. Hierdoor kunnen detailhandelaren ook situaties verwerken waarin een product per ongeluk is weggelaten uit een assortiment of waarin een product buiten de ingangsdatums voor het assortiment is geretourneerd.
 
 Als productgegevens niet bestaan in de kanaaldatabase, start het POS realtime oproepen naar het hoofkantoor om de vereiste informatie op te halen, zodat het product kan worden verkocht, geretourneerd of op een bestelling kan worden geplaatst. Productgegevens die op deze manier worden opgehaald, zijn alleen beschikbaar tijdens het bereik van deze transactie. Het product wordt niet toegevoegd aan de assortimentdefinitie. Daarom worden volgende realtime aanroepen gestart indien vereist.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

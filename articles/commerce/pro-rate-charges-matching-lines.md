@@ -2,13 +2,16 @@
 title: Toeslagen voor koptekst naar rato verdelen voor overeenkomende verkoopregels
 description: In dit onderwerp worden aanvullende mogelijkheden beschreven voor het berekenen en toepassen van automatische toeslagen op Commerce-kanaalorders met behulp van de geavanceerde functie voor automatische toeslagen.
 author: hhaines
+manager: annbe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0de29e1817840c172f9235f2ee48251c4878a0573d270a60fde5b42ba6f88d31
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 048885cac7a316e144b2df072da405d74096203f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774504"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411251"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Toeslagen voor koptekst naar rato verdelen voor overeenkomende verkoopregels
 
@@ -30,7 +33,7 @@ ms.locfileid: "6774504"
 
 Dit onderwerp beschrijft de functionaliteit waarmee automatische toeslagen op koptekstniveau worden gegroepeerd en naar rato worden verdeeld voor Commerce-verkoopregels. Deze functionaliteit is beschikbaar voor transacties die zijn gemaakt op het verkooppunt (POS) in Retail versie 10.0.1 en verkopen die zijn gemaakt in een callcenter in Retail versie 10.0.2.
 
-Deze functionaliteit is alleen beschikbaar als de functie voor [geavanceerde automatische toeslagen](/dynamics365/unified-operations/retail/omni-auto-charges) is ingeschakeld via de optie op de pagina **Commerce-parameters**. Bovendien kan de verbeterde berekeningsmethode voor automatische toeslagen alleen worden toegepast op verkooporders die zijn gemaakt via Commerce-kanalen (het POS, een callcenter en het platform Dynamics e-Commerce).
+Deze functionaliteit is alleen beschikbaar als de functie voor [geavanceerde automatische toeslagen](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges) is ingeschakeld via de optie op de pagina **Commerce-parameters**. Bovendien kan de verbeterde berekeningsmethode voor automatische toeslagen alleen worden toegepast op verkooporders die zijn gemaakt via Commerce-kanalen (het POS, een callcenter en het platform Dynamics e-Commerce).
 
 Deze nieuwe functionaliteit biedt organisaties meer flexibiliteit in de manier waarop automatische toeslagen op koptekstniveau worden berekend en toegepast op verkooptransacties.
 
@@ -38,7 +41,7 @@ In versies van de app die eerder zijn dan versie 10.0.1, worden automatische toe
 
 Bijvoorbeeld: automatische toeslagen op koptekstniveau worden gedefinieerd voor leveringsmethode **99** en leveringsmethode **11**. Een verkooporder wordt gemaakt en de leveringsmethode **99** wordt gedefinieerd op de orderkoptekst. Sommige verkoopregels zijn echter zo ingesteld dat ze worden verzonden met behulp van de leveringsmethode **11**. In dit geval worden alleen de toeslagen op koptekstniveau die zijn gekoppeld aan leveringsmethode **99**, meegenomen en toegepast op de verkooporder.
 
-In Commerce hebben de toeslagen op koptekstniveau een extra functie waarmee u een [configuratie van gelaagde toeslagen](/dynamics365/unified-operations/retail/configure-call-center-delivery) kunt definiëren die is gebaseerd op de orderwaarde. Bijvoorbeeld: als de orderwaarde tussen 50,00 en 200,00 EUR is, wil een organisatie mogelijk vrachtkosten van 5,00 EUR in rekening brengen. Als de waarde tussen 200,01 en 500,00 EUR ligt, zijn de vrachtkosten echter mogelijk 4,00 EUR.
+In Commerce hebben de toeslagen op koptekstniveau een extra functie waarmee u een [configuratie van gelaagde toeslagen](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery) kunt definiëren die is gebaseerd op de orderwaarde. Bijvoorbeeld: als de orderwaarde tussen 50,00 en 200,00 EUR is, wil een organisatie mogelijk vrachtkosten van 5,00 EUR in rekening brengen. Als de waarde tussen 200,01 en 500,00 EUR ligt, zijn de vrachtkosten echter mogelijk 4,00 EUR.
 
 Sommige organisaties willen de voordelen van de berekening van gelaagde toeslagen die wordt verschaft met de toeslagen op koptekstniveau. In scenario's met gecombineerde leveringsmethoden, wil men er echter ook voor zorgen dat de toeslagen die worden berekend, worden gebaseerd op een overeenkomst met de leveringsmethode die is gedefinieerd op elke verkoopregel.
 
@@ -56,9 +59,9 @@ In dit scenario wordt uitgelegd wat er gebeurt als de optie **Naar rato verdelen
 
 In dit scenario heeft de organisatie de toeslagen op koptekstniveau voor relatie voor leveringsmethode **99** en relatie voor leveringsmethode **11** gedefinieerd. Er worden geen automatische toeslagen geconfigureerd voor leveringsmethode **21**.
 
-![Automatische toeslagen voor leveringsmethode 99 wanneer verdeling naar rato voor overeenkomende regels is uitgeschakeld.](media/99_disabled.png)
+![Automatische toeslagen voor leveringsmethode 99 wanneer verdeling naar rato voor overeenkomende regels is uitgeschakeld](media/99_disabled.png)
 
-![Automatische toeslagen voor leveringsmethode 11 wanneer verdeling naar rato voor overeenkomende regels is uitgeschakeld.](media/11_disabled.png)
+![Automatische toeslagen voor leveringsmethode 11 wanneer verdeling naar rato voor overeenkomende regels is uitgeschakeld](media/11_disabled.png)
 
 Een verkooporder wordt gemaakt in het callcenter en de leveringsmethode wordt ingesteld op **99**. Deze order bevat vijf artikelen. Twee orderregels zijn geconfigureerd voor het gebruik van leveringsmethode **99**, twee regels zijn geconfigureerd voor het gebruik van leveringsmethode **11**, en één regel is geconfigureerd voor het gebruik van leveringsmethode **21**, zoals weergegeven in de volgende tabel.
 
@@ -72,15 +75,15 @@ Een verkooporder wordt gemaakt in het callcenter en de leveringsmethode wordt in
 
 In dit scenario wordt de gehele order geëvalueerd op basis van de tabel voor automatische toeslagen voor leveringsmethode **99**. Het volledige totaal van alle verkoopregels wordt gebruikt om een overeenkomende laag in de configuratie van automatische toeslagen te bepalen, en deze toeslagen worden toegepast op het niveau van de orderkoptekst. In dit voorbeeld is het ordertotaal € 165,00 en de vrachtkosten van € 15,00 worden toegepast op de orderkoptekst. Automatische toeslagen die worden geconfigureerd voor leveringsmethode **11**, worden nooit toegepast of er wordt nooit naar verwezen.
 
-In dit scenario wordt als een klant enkele artikelen op de order retourneert en als de [code voor toeslagen zo is geconfigureerd dat deze wordt gerestitueerd](/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2), de totale toeslag op koptekstniveau systematisch toegepast op de restitutie, zelfs als slechts enkele artikelen worden geretourneerd.
+In dit scenario wordt als een klant enkele artikelen op de order retourneert en als de [code voor toeslagen zo is geconfigureerd dat deze wordt gerestitueerd](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2), de totale toeslag op koptekstniveau systematisch toegepast op de restitutie, zelfs als slechts enkele artikelen worden geretourneerd.
 
 ### <a name="scenario-2"></a>Scenario 2
 
 In dit scenario zijn toeslagen op koptekstniveau gedefinieerd voor relatie voor leveringsmethode **99** en relatie voor leveringsmethode **11**. De optie **Naar rato verdelen voor overeenkomende verkoopregels** is echter ingesteld op **Ja** voor deze tabellen met automatische toeslagen.
 
-![Automatische toeslagen voor leveringsmethode 99 wanneer verdeling naar rato voor overeenkomende regels is ingeschakeld.](media/99_enabled.png)
+![Automatische toeslagen voor leveringsmethode 99 wanneer verdeling naar rato voor overeenkomende regels is ingeschakeld](media/99_enabled.png)
 
-![Automatische toeslagen voor leveringsmethode 11 wanneer verdeling naar rato voor overeenkomende regels is ingeschakeld.](media/11_enabled.png)
+![Automatische toeslagen voor leveringsmethode 11 wanneer verdeling naar rato voor overeenkomende regels is ingeschakeld](media/11_enabled.png)
 
 In dit scenario wordt dezelfde verkooporder gebruikt die vijf regels bevat. De leveringsmethode op de orderkoptekst is ingesteld op **99**, maar de leveringsmethode voor elk artikel op de verkooporder is geconfigureerd, zoals in de volgende tabel wordt weergegeven.
 
@@ -130,9 +133,9 @@ Omdat de configuratie voor automatische toeslagen is ingesteld op verdeling naar
     - Totale productwaarde = € 15
     - **Toeslagwaarde = € 0** (er zijn geen automatische toeslagen geconfigureerd voor deze combinatie van klant en leveringsmethode.)
 
-    ![Toeslagen van leveringsmethode 11 vallen in de gemarkeerde laag.](media/step2mode11.png)
+    ![Toeslagen van leveringsmethode 11 vallen in de gemarkeerde laag](media/step2mode11.png)
 
-    ![Toeslagen van leveringsmethode 99 vallen in de gemarkeerde laag.](media/step2mode99.png)
+    ![Toeslagen van leveringsmethode 99 vallen in de gemarkeerde laag](media/step2mode99.png)
 
 3. De toeslagwaarde die moet worden toegepast op elke regel, wordt berekend op basis van de logica van verdeling naar rato waarin de proportionele waarde van de regel in verhouding tot de totale productwaarde van de groep wordt meegenomen.
 
@@ -163,7 +166,7 @@ Omdat de configuratie voor automatische toeslagen is ingesteld op verdeling naar
 
 Daarom wordt in dit voorbeeld aan artikel 81334 vrachtkosten van € 5,62 toegewezen. U kunt deze toeslagen bekijken op de pagina **Toeslagen onderhouden** voor de verkoopregel. In de volgende afbeelding ziet u hoe de pagina er voor artikel 81334 uitziet.
 
-![Naar rato verdeelde toeslagen op verkoopregel voor artikel 81334.](media/proratedlinecharge.png)
+![Naar rato verdeelde toeslagen op verkoopregel voor artikel 81334](media/proratedlinecharge.png)
 
 Wanneer deze berekeningsmethode wordt gebruikt in een scenario van een gedeeltelijke retourzending en als de toeslagcode restitueerbaar is, wordt alleen het deel van de toeslag dat is toegewezen aan die regel, gerestitueerd wanneer het artikel wordt geretourneerd.
 
@@ -172,6 +175,3 @@ Wanneer deze berekeningsmethode wordt gebruikt in een scenario van een gedeeltel
 [Geavanceerde automatische toeslagen voor meerdere kanalen](omni-auto-charges.md)
 
 [Automatische toeslagen per kanaal inschakelen en configureren](auto-charges-by-channel.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,25 +2,28 @@
 title: Financiële dimensies en boeken
 description: Wanneer u een rekeningschema plant en instelt, moet u overwegen hoe de verschillende onderdelen samenwerken bij het boeken van een document of journaal. Deze onderdelen omvatten rekeningstructuren, geavanceerde regels, en salderende en vaste dimensies. In dit onderwerp wordt uitgelegd wat elk onderdeel is en hoe de onderdelen samenwerken.
 author: aprilolson
+manager: AnnBe
 ms.date: 08/04/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerChartofAccounts,DimensionDetails
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9e7416c1ed69fa9783694e2adee7ada4e25e14054daeb1761428855690eb522f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e65d371486d53d0fe4f039da68fbb4dcc35074d1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778961"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441925"
 ---
 # <a name="financial-dimensions-and-posting"></a>Financiële dimensies en boeken 
 
@@ -71,29 +74,29 @@ Gebruikers hebben vaak vragen over de volgorde waarin de verschillende onderdele
 
 In de volgende afbeelding ziet u de vaste standaarddimensie die is ingesteld op de hoofdrekening 401100.
 
-[![Financiële standaarddimensies.](./media/default-dimensions.png)](./media/default-dimensions.png)
+[![Financiële standaarddimensies](./media/default-dimensions.png)](./media/default-dimensions.png)
 
 In dit eenvoudige voorbeeld wordt een algemeen journaal gebruikt waarin de afdelingsdimensie is ingesteld op de standaardwaarde **023** (Operations). We geven een grootboekrekening op en voeren boekingen uit. De volgende afbeelding toont de standaard financiële dimensie in de koptekst van het grootboek.
 
-[![Algemene journalen.](./media/general-journal.png)](./media/general-journal.png)
+[![Algemene journalen](./media/general-journal.png)](./media/general-journal.png)
 
 De standaarddimensie in de journaalkoptekst zorgt dat afdeling 023 standaard wordt toegepast op de verkooprekeningregel. In de volgende afbeelding ziet u de algemene journaalregel, waar de standaarddimensiewaarde **023** uit de koptekst wordt toegepast.
 
-[![Journaalboekstuk.](./media/journal-voucher.png)](./media/journal-voucher.png)
+[![Journaalboekstuk](./media/journal-voucher.png)](./media/journal-voucher.png)
 
 Wanneer de regel wordt geboekt, wordt echter de vaste dimensie is toegepast en wordt de regel geboekt naar afdeling 022. De volgende afbeelding toont het geboekte boekstuk, waarbij de vaste dimensie is toegepast voor de verkooprekening.
 
-[![Boekstuktransacties met vaste dimensie toegepast.](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![Boekstuktransacties](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>Voorbeeld 2
 
 Dit voorbeeld gebruikt dezelfde instelling als het eerste voorbeeld. We voegen echter een tweede component toe en gebruiken de afdelingsdimensie als een salderende dimensie. In het volgende voorbeeld is **Afdeling** ingesteld als de salderende financiële dimensie voor het grootboek USMF.
 
-[![Illustratie die Afdeling als salderende financiële dimensie toont.](./media/ledger.png)](./media/ledger.png)
+[![Grootboek](./media/ledger.png)](./media/ledger.png)
 
 Wanneer de instellingen voor dezelfde journaalkoptekst worden gebruikt en dezelfde transactie wordt geboekt, wordt eerst de vaste dimensie toegepast. De salderingslogica wordt toegepast om te garanderen dat elke afdeling een salderende post heeft. In de volgende afbeelding ziet u de boekstuktransacties met de salderingspost nadat de vaste dimensie is toegepast.
 
-[![Boekstuktransacties nadat de salderingspost is vereffend.](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Boekstuktransacties](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>Voorbeeld 3
 
@@ -101,11 +104,11 @@ In dit voorbeeld wordt een geavanceerde regel toegevoegd. De geavanceerde regel 
 
 Dit voorbeeld is belangrijk vanwege de volgorde. De rekeningstructuur wordt bepaald nadat de hoofdrekening is ingevoerd. Als u naar de instellingen van de rekeningstructuur verwijst, wordt bepaald of hoofdrekening, bedrijfseenheid, afdeling en kostenplaats relevant zijn. Op dit moment is de geavanceerde regel nog niet geactiveerd, omdat vaste dimensies pas worden toegepast als de standaarddimensies voor het journaalboekstuk zijn vereffend tijdens het boeken. In het volgende voorbeeld is het segment Klant niet aanwezig, omdat nog niet is voldaan aan de criteria voor de geavanceerde regel.
 
-[![Grootboekrekening.](./media/drop-down.png)](./media/drop-down.png)
+[![Grootboekrekening](./media/drop-down.png)](./media/drop-down.png)
 
 De boeking is niet gelukt, omdat de vaste dimensie is toegepast aan het einde van het proces. Bij het valideren van de dimensies wordt bepaald dat het segment Klant vereist is als de hoofdrekening 401100 en de afdeling 022. De boeking kan niet worden uitgevoerd vanwege de validatiefout. De volgende afbeelding toont het bericht dat verschijnt nadat bij de dimensievalidatie is vastgesteld dat Klant een vereist segment is.
 
-[![Berichtdetails.](./media/message.png)](./media/message.png)
+[![Berichtdetails](./media/message.png)](./media/message.png)
 
 In dit voorbeeld moet u de standaardwaarde overschrijven, zodat de geavanceerde regel wordt geactiveerd en u het segment Klant kunt invoeren. Deze oplossing is echter niet altijd mogelijk en gebruikers zijn zich niet altijd bewust van de boekingsregels. Het is daarom belangrijk dat u de volgorde weet waarin de standaarddimensies worden toegepast bij het instellen van uw rekeningschema.
 
@@ -119,11 +122,8 @@ Enkele van de volgende bronnen verwijzen naar een eerdere versie van onze softwa
 
 [Uw rekeningschema plannen](plan-chart-of-accounts.md) 
 
-[Uw rekeningschema plannen in AX 2012 (blog)](/archive/blogs/axsa/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7): deze koppeling opent deel 1 van een reeks van zeven delen.
+[Uw rekeningschema plannen in AX 2012 (blog)](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/): deze koppeling opent deel 1 van een reeks van zeven delen.
 
-[Standaardinstellingen voor dimensies in boekhoudingsverdelingen](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-in-accounting-distributions-part-1-introduction)
+[Standaardinstellingen voor dimensies in boekhoudingsverdelingen](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
 
-[Standaardinstellingen voor dimensies in dimensieraamwerk](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Standaardinstellingen voor dimensies in dimensieraamwerk](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)

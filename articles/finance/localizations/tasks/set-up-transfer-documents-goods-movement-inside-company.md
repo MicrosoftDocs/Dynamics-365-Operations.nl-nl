@@ -1,24 +1,27 @@
 ---
 title: De overboekingsdocumenten instellen voor goederenverplaatsing in een bedrijf
-description: Deze procedure laat zien hoe u overboekingsdocumenten voor goederenverplaatsing binnen een bedrijf instelt.
+description: Deze procedure laat zien hoe u overboekingsdocumenten voor goederenverplaatsing binnen een bedrijf maakt.
 author: v-oloski
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTransferOrders, InventLocationIdLookup, TransportationDocument, HcmWorkerLookUp, SrsReportViewerForm, InventTransferParmShip
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 80805bf30b4be753d7543ed4c6de30401d36e981
-ms.sourcegitcommit: 2fba4f2ef7e513357366fc640befe0d2f7bc31f5
+ms.openlocfilehash: e85bd359ce1053629ad4217cf623e57b2976463a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "7601445"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442005"
 ---
 # <a name="set-up-the-transfer-documents-for-goods-movement-inside-a-company"></a>De overboekingsdocumenten instellen voor goederenverplaatsing in een bedrijf
 
@@ -71,6 +74,3 @@ Deze procedure laat zien hoe u overboekingsdocumenten voor goederenverplaatsing 
 10. Klik op Pakbon.
 11. Klik op OK.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

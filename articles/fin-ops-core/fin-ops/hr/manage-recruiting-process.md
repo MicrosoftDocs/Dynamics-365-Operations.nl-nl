@@ -1,10 +1,12 @@
 ---
 title: Wervingsprocessen beheren
-description: In dit onderwerp wordt een concept beschreven dat recruiters kunnen gebruiken om de stappen in een wervingsproces bij te houden.
+description: In dit artikel wordt een concept beschreven dat recruiters kunnen gebruiken om de stappen in een aanwervingsproces op te volgen, waaronder inspanningen om vacatures te adverteren en sollicitanten aan te werven, het opvolgen van gegevens van sollicitanten en sollicitaties, het interviewen van sollicitanten en een of meerdere kandidaten selecteren om de openstaande posities in uw organisatie in te vullen.
 author: andreabichsel
-ms.date: 01/10/2022
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMApplication, HRMRecruitingTable
 audience: Application User
@@ -15,18 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fa1d5201fcc52d49b9d954356f1ca39b7619cd2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 71e30a30aee5edcea2e24b326b0f263612b6b897
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075470"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798038"
 ---
 # <a name="manage-recruiting-processes"></a>Wervingsprocessen beheren
 
-> [!IMPORTANT]
-> De functionaliteit die in dit onderwerp wordt vermeld, is momenteel beschikbaar voor Human Resources-klanten in de Finance-infrastructuur.  
-
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp wordt een concept beschreven dat recruiters kunnen gebruiken om de stappen in een aanwervingsproces op te volgen, waaronder inspanningen om vacatures te adverteren en sollicitanten aan te werven, het opvolgen van gegevens van sollicitanten en sollicitaties, het interviewen van sollicitanten en een of meerdere kandidaten selecteren om de openstaande posities in uw organisatie in te vullen.
 
@@ -44,7 +44,7 @@ Dankzij wervingsprojecten kunnen recruiters de voortgang voor het invullen van e
 - De sollicitatiedeadline
 - De geschatte begindatum
 
-Het wervingsproject bevat de waarde **Personeelsadvertentie** die wordt gebruikt op de pagina **Werknemerselfservice** om de vacature te adverteren. Als u de vacature voor werknemers alleen wilt weergeven, als het wervingsproject de waarde **Personeelsadvertentie** bevat, moet het veld **Weergeven in werknemersselfservice** op **Ja** zijn ingesteld, moet het veld **Sollicitatietermijn** op een toekomstige datum zijn ingesteld en moet de **Projectstatus** van het wervingsproject op **Gestart** zijn ingesteld. De volgende tabel geeft de mogelijke wervingsprojectstatussen en hun beschrijving weer.
+Het wervingsproject bevat de **Personeelsadvertentie** die wordt gebruikt op de **Werknemerselfservice** om de vacature te adverteren. Als u de vacature voor werknemers wilt weergeven, moet het wervingsproject een **Personeelsadvertentie** hebben, moet het veld **Weergeven in werknemersselfservice** op Ja zijn ingesteld, moet **Sollicitatietermijn** op een toekomstige datum zijn ingesteld en moet de **Projectstatus** van het wervingsproject op Gestart zijn ingesteld. De volgende tabel geeft de mogelijke wervingsprojectstatussen en hun beschrijving weer.
 
 | Status    | Geeft aan dat...                                                                         |
 |-----------|-----------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Recruiters kunnen ook de **Media** registreren die worden gebruikt om de vacatur
 
 ## <a name="applicants"></a>Sollicitanten
 
-Een sollicitant is een persoon die solliciteert op een functie in uw onderneming. Sollicitanten worden tussen alle rechtspersonen in uw organisatie gedeeld. Daarom hebt u een grote groep talenten om in te zoeken. U kunt competenties, referenties, accommodatieaanvragen en persoonlijke gegevens bijhouden voor sollicitanten. Wanneer u sollicitatieregistratie maakt, wordt er een persoonlijke registratie voor die sollicitant in het globale adresboek gemaakt. U kunt de pagina **Sollicitant** gebruiken voor het bijwerken van de volgende globale adresboekinformatie voor sollicitanten:
+Een sollicitant is een persoon die solliciteert op een functie in uw onderneming. Sollicitanten worden gedeeld door alle rechtspersonen in uw organisatie zodat u een grote verzameling van talent krijgt waarin u kunt zoeken. U kunt competenties, referenties, accommodatieaanvragen en persoonlijke gegevens bijhouden voor sollicitanten. Wanneer u sollicitatieregistratie maakt, wordt er een persoonlijke registratie voor die sollicitant in het globale adresboek gemaakt. U kunt de pagina **Sollicitant** gebruiken voor het bijwerken van de volgende globale adresboekinformatie voor sollicitanten:
 
 - Adresgegevens
 - Contactgegevens
@@ -86,7 +86,7 @@ De sollicitatiestatus geeft aan waar de sollicitatie zich bevindt in het werving
 
 ### <a name="correspondence-actions"></a>Correspondentieacties
 
-Een correspondentieactie van een sollicitant bepaalt de document- of e-mailsjabloon die u gebruikt om te communiceren met de sollicitant die heeft gesolliciteerd. Als u **sollicitatiebladwijzers** koppelt aan correspondentieacties, kunt u waarden van de pagina's **Sollicitatie**, **Sollicitant**, **Gesprek** en **Wervingsproject** gebruiken in uw communicatie met sollicitanten. Met **e-mailsjablonen** voor de correspondentieacties kunt u snel e-mails te verzenden naar sollicitanten die een sollicitatie hebben met een bepaalde combinatie van status en correspondentieactie. U kunt bijvoorbeeld een bevestigings-e-mail verzenden naar alle sollicitaties met de **statuswaarde** **Ontvangen** en een waarde voor **Correspondentieactie** van **Ontvangen**. Na het verzenden van de e-mail hebt u de optie om de status van de sollicitaties automatisch bij te werken.
+Een correspondentieactie van een **sollicitant** bepaalt de document- of e-mailsjabloon die u gebruikt om te communiceren met de sollicitant die heeft gesolliciteerd. U kunt **Sollicitatiebladwijzers** koppelen aan correspondentieacties zodat u waarden van de pagina's Sollicitatie, Sollicitant, Gesprek en Wervingsproject kunt gebruiken in uw communicatie met sollicitanten. **E-mailsjabloon** kan voor de correspondentieacties worden gemaakt om snel e-mails te verzenden naar sollicitanten die een sollicitatie hebben met een bepaalde combinatie van status en correspondentieactie. U kunt bijvoorbeeld een bevestigings-e-mail verzenden naar alle sollicitaties met de **Status** van Ontvangen en een **Correspondentieactie** van Ontvangen. Na het verzenden van de e-mail hebt u de optie om de status van de sollicitaties automatisch bij te werken.
 
 ## <a name="application-routing"></a>Sollicitatieroutering
 
@@ -103,5 +103,3 @@ Als een sollicitatie moet worden geëvalueerd door verschillende werknemers, kun
 ## <a name="hiring-applicants"></a>Sollicitanten aannemen
 
 Gebruik de pagina **Sollicitaties** om een sollicitant aan te stellen. Wanneer u een sollicitant aanneemt, heeft de sollicitatierecord de status **Aangesteld** en wordt de persoonlijke registratie voor het globale adresboek van de sollicitant gekoppeld aan de nieuwe werknemerregistratie. Wijzigingen in de globale adresboekgegevens voor nieuwe werknemersregistratie worden tevens weergegeven in de sollicitatieregistratie. Dit kan helpen bij het verminderen van gegevensinvoer als de nieuwe werknemer weer solliciteert voor een andere baan binnen uw onderneming. Om een bestaande werknemer voor een andere positie aan te werven, klikt u op **Positie wijzigen** in de vervolgkeuzelijst **Sollicitatiestatus** om het overdrachtsproces te starten.
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

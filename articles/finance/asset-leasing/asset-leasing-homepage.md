@@ -2,27 +2,28 @@
 title: Introductiepagina Activa leasen
 description: Dit onderwerp bevat een overzicht van de documentatie voor Activa leasen en koppelingen naar specifieke onderwerpen.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeaseLeasingWorkspace
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "4464"
-- intro-internal
+ms.search.scope: Core, Operations, Retail
+ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d187f094a7d13e26a6121a2115c146c1372dba46bcafd423a3683d73a1e779f7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cd32ad1b745d1bfda25abf57330fb1385014e4fc
+ms.sourcegitcommit: f0f5545a8ff99583e0131f435d91c64bb68a1c38
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775213"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4442179"
 ---
 # <a name="asset-leasing-home-page"></a>Introductiepagina Activa leasen
 
@@ -30,9 +31,7 @@ ms.locfileid: "6775213"
 
 In dit onderwerp vindt u een overzicht van de Help-onderwerpen die beschikbaar zijn voor Activa leasen en koppelingen naar specifieke onderwerpen. 
 
-Activalease is een geavanceerde functie voor het beheren, bijhouden en automatiseren van financiële transacties voor geleasde activa in Microsoft Dynamics 365 Finance. Activalease voldoet aan de internationale boekhoudstandaarden (IFRS 16) en de US GAAP-normen (ASC 842). In Activalease worden de gegevens over de leases vastgelegd en verwerkt en worden journaalboekingen gegenereerd voor de gehele levenscyclus van de lease, vanaf de eerste toerekening, maandelijkse journaalboekingen, tot en met waardevermindering en beëindiging van de lease.
-
-Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen het werkgebied **Functiebeheer** gebruiken om de status van de functie te controleren en desgewenst in te schakelen. Zoek in het werkgebied **Functiebeheer** de functie **Activaleasing** en klik op de knop **Nu inschakelen**.
+Activalease is een geavanceerde functie voor het beheren, bijhouden en automatiseren van financiële transacties voor geleasde activa in Microsoft Dynamics 365 Finance. Activalease voldoet aan de internationale boekhoudstandaarden (IFRS 16) en de US GAAP-normen (ASC 842). In Activalease worden de gegevens over de leases vastgelegd en verwerkt en worden journaalboekingen gegenereerd voor de gehele levenscyclus van de lease, vanaf de eerste toerekening, maandelijkse journaalboekingen, tot en met waardevermindering en beëindiging van de lease.  
 
 ## <a name="asset-leasing-topics"></a>Onderwerpen voor Activa leasen
 Het volgende onderwerp is beschikbaar voor het configureren en gebruiken van Activa leasen. 
@@ -86,7 +85,7 @@ In dit onderwerp vindt u een beknopt overzicht van de rapporten die beschikbaar 
 
 ### <a name="whats-new-and-in-development"></a>Nieuw functies en functies in ontwikkeling
 
-Ga naar de [releaseplannen voor Microsoft Dynamics 365](/dynamics365/release-plans/) om te zien welke nieuwe functies er zijn gepland. 
+Ga naar de [releaseplannen voor Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) om te zien welke nieuwe functies er zijn gepland. 
 
 ### <a name="blogs"></a>Weblogs
 
@@ -97,6 +96,3 @@ De [Microsoft Dynamics Operations-blog van de partnercommunity](https://communit
 ### <a name="videos"></a>Video's
 
 Bekijk de procedurevideo's die nu beschikbaar zijn op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ). 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

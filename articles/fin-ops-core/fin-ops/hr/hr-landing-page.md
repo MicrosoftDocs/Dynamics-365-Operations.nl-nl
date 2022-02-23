@@ -1,28 +1,28 @@
 ---
-title: Overzicht van Human Resources
-description: Human resources stroomlijnt routinematige registratietaken, automatiseert processen die betrekking hebben op de personeelsbezetting van uw organisatie en biedt een raamwerk voor HR-personeel voor het beheren van overzichtsgebieden.
+title: Overzicht van Human resources
+description: Human resources stroomlijnt veel routinematige registratietaken en automatiseert een aantal processen die betrekking hebben op de personeelsbezetting van uw organisatie. Het biedt tevens een kader voor het personeel van Human resources voor het beheren van gebieden van toezicht. Deze gebieden zijn werknemerwerving en behoud, vergoedingenbeheer, training, beoordelingsgesprekken en wijzigingsbeheer.
 author: andreabichsel
+manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.custom:
-- "20931"
-- intro-internal
+ms.custom: 20931
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cd7ce1268dd1aeae142e85fdd3ea2d9faa0a659
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: b2c23cda87060ecb129befcc67c5b54f2f062bb3
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983124"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797812"
 ---
-# <a name="human-resources-overview"></a>Overzicht van Human Resources
+# <a name="human-resources-overview"></a>Overzicht van Human resources
 
 [!include [banner](../includes/banner.md)]
 
@@ -44,38 +44,38 @@ Met Human resources kunt u deze taken uitvoeren:
 
 Tijdens het werken met Human resources kunt u bepalen hoe u uw organisatie wilt structureren met behulp van elementen, zoals afdelingen, taken en posities. Dit vormen enkele van de basiselementen die u in Human resources gaat configureren. Individuele werknemers worden toegewezen aan posities die aan taken zijn gekoppeld.
 
-- [Uw werknemers organiseren met afdelingen, taken en posities](../../../human-resources/hr-personnel-departments-jobs-positions.md)
-- [Bedrijfsspecifieke parameters voor Human Resources (HR) instellen](../../../human-resources/hr-setup-parameters.md)
-- [Parameters voor HR-resources instellen voor rechtspersonen](../../../human-resources/hr-setup-shared-parameters.md)
+- [Uw werknemers organiseren met afdelingen, taken en posities](../../../talent/departments-jobs-positions.md)
+- [Bedrijfsspecifieke parameters voor Human Resources (HR) instellen](../../../talent/set-up-company-specific-hr-parameters.md)
+- [Parameters voor HR-resources instellen voor rechtspersonen](../../../talent/set-up-hr-parameters-across-legal-entities.md)
 
 ## <a name="recruit-hire-and-motivate-employees"></a>Werknemers werven, in dienst nemen en motiveren
 
 Wervingsprojecten beheren de inhoud die wordt gebruikt in advertenties voor vacatures en kunnen u helpen bij het beheren van sollicitaties voor vacatures. U kunt deze gebruiken om antwoorden op vacatures bij te houden voor een specifiek wervingsproject of specifieke sollicitanten en de status van openstaande posities bij te werken. U kunt ook individuele sollicitanten aanstellen of projecten voor massaal aanstellen beheren die het inhuren van meerdere werknemers vergemakkelijken, bijvoorbeeld, om te voorzien in seizoensgebonden bedrijfsbehoeften.
 
 - [Wervingsprocessen beheren](manage-recruiting-process.md)
-- [Projecten voor massaal aanstellen](../../../human-resources/hr-personnel-mass-hire-projects.md) 
+- [Projecten voor massaal aanstellen](mass-hire-projects.md) 
 
 Nadat u personeel in dienst hebt genomen, kunt u plannen instellen om effectief en op billijke wijze compensatie te beheren, en tevens artikelen, zoals computers en telefoons, die uw organisatie uitleent aan werknemers te beheren. U kunt plannen voor vaste en variabele compensatie maken, alsmede regels definiëren voor het toepassen van het compensatieplan om te voldoen aan de criteria voor dat plan.
 
-- [Compensatieplannen](../../../human-resources/hr-compensation-overview.md)
-- [Plannen voor vaste compensatie maken](../../../human-resources/hr-compensation-fixed-plans.md)
-- [Plannen voor variabele compensatie maken](../../../human-resources/hr-compensation-variable-plans.md)
+- [Compensatieplannen](../../../talent/compensation-plans.md)
+- [Plannen voor vaste compensatie maken](../../../talent/create-fixed-compensation-plans.md)
+- [Plannen voor variabele compensatie maken](../../../talent/create-variable-compensation-plans.md)
 
 ## <a name="develop-and-train-employees"></a>Werknemers ontwikkelen en trainen
 
 U kunt doelen instellen, prestatiebeoordelingen uitvoeren en feedback volgen om uw werknemers te helpen hun loopbaandoelstellingen te realiseren terwijl zij voorzien in essentiële zakelijke behoeften. U kunt bovendien werknemers helpen om benodigde vaardigheden te ontwikkelen door docenten, cursustypen, cursussen, cursusomschrijvingen, agenda's, paden en sessies in te stellen voordat u een docent aan een cursus toewijst of iemand inschrijft voor een cursus. Docenten moeten al bestaan als werknemers, sollicitanten of contactpersonen.
 
-- [Prestatiebeheer](../../../human-resources/hr-develop-performance-management-overview.md)
-- [Personeelsvaardigheden afstemmen op zakelijke behoeften](../../../human-resources/hr-develop-skills.md)
-- [Trainingscursussen instellen](../../../human-resources/hr-learning-courses.md)
+- [Prestatiebeheer](../../../talent/performance-management-overview.md)
+- [Personeelsvaardigheden afstemmen op zakelijke behoeften](../../../talent/skills.md)
+- [Trainingscursussen instellen](../../../talent/courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>Vergoedingen maken en onderhouden
 
 Naast compensatie van uw personeel via lonen, salarissen en bonussen, kunt u vergoedingsprogramma's ontwikkelen, zoals een ziektekostenverzekering en pensioenplannen. U kunt ook vergoedingen beheren zoals leenprogramma's, waarbij uw bedrijf artikelen, zoals computers en telefoons, uitleent aan haar werknemers.
 
-- [Een vergoedingenprogramma definiëren en beheren](../../../human-resources/hr-benefits-management-overview.md)
-- [Beleid inzake geschiktheid voor vergoedingen](../../../human-resources/hr-benefits-eligibility-policies.md)
-- [Artikelen beheren die aan werknemers worden uitgeleend](../../../human-resources/hr-personnel-loan-items.md)
+- [Een vergoedingenprogramma definiëren en beheren](../../../talent/manage-benefit-program.md)
+- [Beleid inzake geschiktheid voor vergoedingen](../../../talent/benefit-eligibility-policies.md)
+- [Artikelen beheren die aan werknemers worden uitgeleend](../../../talent/loan-items.md)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Veiligheid en conformiteit op de werkplek onderhouden
 
@@ -89,10 +89,7 @@ Microsoft Dynamics AX kan u helpen een veilige werkomgeving te handhaven die vol
 
 U kunt vragenlijsten ontwerpen en laten invullen om informatie te verzamelen die voor allerlei doelen wordt gebruikt. Met de vragenlijstfunctie kunt u vragenlijsten ontwerpen en maken. Wanneer een vragenlijst klaar is, distribueert u deze op brede schaal of aan een specifieke groep respondenten om in te vullen. Nadat de respondenten hun antwoorden hebben verstrekt, kunt u de resultaten gaan bekijken en analyseren.
 
-- [Vragenlijsten](../../../human-resources/hr-learning-questionnaires.md)
-- [Vragenlijsten ontwerpen](../../../human-resources/hr-learning-design-questionnaires.md)
-- [Vragenlijsten plannen en distribueren](../../../human-resources/hr-learning-distribute-questionnaires.md)
-- [De resultaten van vragenlijsten bekijken en evalueren](../../../human-resources/hr-learning-evaluate-questionnaire-results.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+- [Vragenlijsten](../../../talent/questionnaires.md)
+- [Vragenlijsten ontwerpen](../../../talent/design-questionnaires.md)
+- [Vragenlijsten plannen en distribueren](../../../talent/distribute-questionnaires.md)
+- [De resultaten van vragenlijsten bekijken en evalueren](../../../talent/evaluate-questionnaire-results.md)

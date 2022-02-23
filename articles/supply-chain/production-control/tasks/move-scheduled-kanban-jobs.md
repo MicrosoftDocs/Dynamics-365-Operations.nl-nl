@@ -1,24 +1,26 @@
 ---
 title: Geplande kanbantaken verplaatsen
 description: Deze procedure is gericht bij het verplaatsen van geplande proceskanbantaken naar een andere periode.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 11/07/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c1b6ea92a1e3b16df6678030957c3fa407c15b1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2769a7d519e12613796025b658db0b08cdfc4fde
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568010"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961635"
 ---
 # <a name="move-scheduled-kanban-jobs"></a>Geplande kanbantaken verplaatsen
 
@@ -59,6 +61,3 @@ Deze procedure is gericht bij het verplaatsen van geplande proceskanbantaken naa
 2. Klik op **Vooruit**. Merk op dat de taak één regel omlaag in de lijst wordt verplaatst. 
 
 3. Klik op **Achteruit**. Merk op dat de taak één regel omhoog in de lijst wordt verplaatst.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

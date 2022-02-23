@@ -1,25 +1,27 @@
 ---
 title: Voorraadtellingsprocessen definiëren
 description: Deze onderwerp geeft een beschrijving van de configuratie van telprocessen voor basisvoorraad door een telgroep en een tellijst te maken.
-author: yufeihuang
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 07/26/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCountGroup, InventJournalName, InventParameters, EcoResProductDetailsExtended, InventItemLocation, InventLocationIdLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: mafoge
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee47b04ba7ec9f3d74230b7a41b1c295eaea9313
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3c8550e539a1b3299d89ec2b13550a13e284d807
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580835"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961366"
 ---
 # <a name="define-inventory-counting-processes"></a>Voorraadtellingsprocessen definiëren
 
@@ -82,6 +84,3 @@ Deze onderwerp geeft een beschrijving van de configuratie van telprocessen voor 
 5. Selecteer een telgroep in het vervolgkeuzemenu van het veld **Telgroep**. U kunt een specifieke telgroep selecteren die moet gelden voor het artikel in het opgegeven magazijn dat u hebt geselecteerd. Als het tellen wordt uitgevoerd in dat magazijn, negeert dit telbeleid het algemene telbeleid voor het artikel.  
 6. Selecteer **Opslaan**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

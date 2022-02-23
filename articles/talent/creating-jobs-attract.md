@@ -157,6 +157,3 @@ Volg deze stappen om een functie te maken.
 
 13. Als u de functie wilt activeren, selecteert u **Activeren**.
 14. Als u de functie wilt plaatsen, gaat u naar **Boekingen** en selecteert u vervolgens **Nu plaatsen** onder Talent Loopbanen of LinkedIn.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

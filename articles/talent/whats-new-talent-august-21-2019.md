@@ -70,6 +70,3 @@ Met een nieuwe optie kunnen managers de prestaties van hun directe en indirecte 
 #### <a name="platform-update-29-for-finance-and-operations"></a>Platformupdate 29 voor Finance and Operations
 
 Meer informatie over platformupdate 29 voor Finance and Operations vindt u in [Previewfuncties in Dynamics 365 Finance and Operations-platformupdate 29 (oktober 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

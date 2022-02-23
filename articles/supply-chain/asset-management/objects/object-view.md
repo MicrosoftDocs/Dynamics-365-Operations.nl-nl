@@ -1,10 +1,12 @@
 ---
 title: Activaweergave
 description: In dit onderwerp wordt de activaweergave in Activabeheer beschreven.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectTree, EntAssetFunctionalLocationTree
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4265928fc5cb899a77eee6e5b9ff0a928efbe99c99ec7fe31eecffcb0f98f752
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d0256cc86dc306c8addb37d2c8f335470b19177a
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765533"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019399"
 ---
 # <a name="asset-view"></a>Activaweergave
 
@@ -45,6 +47,3 @@ Id functionele locatie/id functionele locatie (als er meer dan één functionele
 Als u een activum hebt geselecteerd in de structuurweergave, kunt u **Actieve aanvragen** of **Actieve werkorders** selecteren om de onderhoudsaanvragen of werkorders weer te geven die zijn gerelateerd aan het activum. U kunt ook **Openen** \> **Functionele locatie**, **Activum** of **Activumstuklijst** selecteren om de gerelateerde weergave te openen.
 
 De optie **Functionele locaties van activa** die u kunt selecteren in het veld **Weergeven**, is ook beschikbaar in elke zoekopdracht voor activa waar u een activum kunt selecteren. De structuurweergave wordt bijvoorbeeld weergegeven op een tabblad **Activaweergave**, waar u [een activum maakt](../objects/create-an-object.md), een onderhoudsaanvraag maakt of een werkorder maakt.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

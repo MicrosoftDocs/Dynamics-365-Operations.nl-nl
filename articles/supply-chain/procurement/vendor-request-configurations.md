@@ -1,24 +1,26 @@
 ---
 title: Configuraties leverancieraanvraag
 description: In dit onderwerp worden de velden beschreven die moeten worden ingevuld in een nieuwe leverancieraanvraag.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationConfig
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 1d34a9974da41b7abb40bb2cf046a15432c249eb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 987b9cefef395b3bf3e915f41232fe0daba213b9
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570292"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021159"
 ---
 # <a name="vendor-request-configurations"></a>Configuraties leverancieraanvraag
 [!include [banner](../includes/banner.md)]
@@ -51,6 +53,3 @@ U kunt ook een bevestigingsbericht opgeven dat wordt weergegeven zodra de wizard
 4.  Open het tabblad **Land/regio's** om het land of de regio te selecteren waarvoor de configuratie moet worden gebruikt.
 5.  Voltooi de configuratie door de richtlijnen voor de standaardconfiguratie te volgen.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

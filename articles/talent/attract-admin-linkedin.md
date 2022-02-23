@@ -118,6 +118,3 @@ Van deze functie kan momenteel een voorbeeld worden bekeken. Voordat u deze stap
 [Functies maken, goedkeuren en boeken in Attract](./creating-jobs-attract.md)
 
 [Problemen met integratie met LinkedIn en Microsoft Dynamics 365 Talent - Attract oplossen](./attract-troubleshoot-linkedin.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

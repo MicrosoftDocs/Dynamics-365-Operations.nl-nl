@@ -2,35 +2,37 @@
 title: Een apparaat instellen om de uitvoeringsinterface voor de werkvloer uit te voeren
 description: De uitvoeringsinterface van de werkvloer wordt ingesteld voor elk apparaat op de werkvloer. Bedrijven stellen meestal elk apparaat anders in, afhankelijk van het doel van het apparaat. Een bedrijf kan bijvoorbeeld één apparaat in de receptie hebben staan, waar werknemers in- en uitklokken en een ander apparaat op de werkvloer, waar werknemers hun taken beheren.
 author: johanhoffmann
+manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgProductionFloorExecution, HcmWorker, JmgProductionFloorExecutionDeviceConfiguration
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0be79b54a279893f93d41981342e42c8880f059
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: d4529af21d9673512889b17aeb1e7fbd49969cdc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752827"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966269"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Een apparaat instellen om de uitvoeringsinterface voor de werkvloer uit te voeren
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 De uitvoeringsinterface van de werkvloer wordt ingesteld voor elk apparaat op de werkvloer. Bedrijven stellen meestal elk apparaat anders in, afhankelijk van het doel van het apparaat. Een bedrijf kan bijvoorbeeld één apparaat in de receptie hebben staan, waar werknemers in- en uitklokken en een ander apparaat op de werkvloer, waar werknemers hun taken beheren.
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>De configuratie en filters voor een specifiek apparaat instellen
 
-Als u de configuratie en taakfilters voor een apparaat wilt instellen, meldt u zich aan bij de pagina **Uitvoering werkvloer** met een account die een beveiligingsrol heeft die over het recht *Tijdcontrole beheren* beschikt. (Van de standaardbeveiligingsrollen heeft alleen *Werkvloersupervisor* dit recht.) Voer vervolgens de volgende stappen uit.
+Als u de configuratie en taakfilters voor een apparaat wilt instellen, meldt u zich aan bij de pagina **Uitvoering werkvloer** met een account die een beveiligingsrol heeft die over het recht *Tijdsupervisor beheren* beschikt. (Van de standaardbeveiligingsrollen heeft alleen *Werkvloersupervisor* dit recht.) Voer vervolgens de volgende stappen uit.
 
-1. Ga naar het apparaat dat u wilt instellen en meld u aan bij Microsoft Dynamics 365 Supply Chain Management als werkvloersupervisor. (Gebruik een account die over het recht *Tijdcontrole beheren* beschikt.)
+1. Ga naar het apparaat dat u wilt instellen en meld u aan bij Microsoft Dynamics 365 Supply Chain Management als werkvloersupervisor. (Gebruik een account die over het recht *Tijdsupervisor beheren* beschikt.)
 1. Controleer of er een configuratie beschikbaar is voor het apparaat dat u instelt. Als er nog geen configuratie bestaat, wordt een standaardconfiguratie opgegeven. Zie [Uitvoeringsinterface van de werkvloer configureren](production-floor-execution-configure.md) voor meer informatie over het instellen van een configuratie.
 1. Ga naar **Productiebeheer \> Productie-uitvoering \> Uitvoering werkvloer**.
 
@@ -70,13 +72,10 @@ Vaak wordt de uitvoeringsinterface van de werkvloer uitgevoerd op een apparaat d
 
 In het bovenste gedeelte van de volgende afbeelding ziet u hoe de interface er standaard uitziet. In het onderste gedeelte ziet u hoe de interface eruitziet in de modus Volledig scherm wanneer het navigatiedeelvenster is verborgen.
 
-![Standaardinterface versus interface met volledig scherm.](media/pfei-full-screen.png "Standaardinterface versus interface met volledig scherm")
+![Standaardinterface versus interface met volledig scherm](media/pfei-full-screen.png "Standaardinterface versus interface met volledig scherm")
 
 ## <a name="extend-the-session-past-12-hours"></a>De sessie na 12 uur verlengen
 
 Standaard wordt de uitvoeringsinterface van de werkvloer afgemeld als niemand deze gedurende 12 uur gebruikt. Een gebruiker van Supply Chain Management moet zich vervolgens opnieuw aanmelden. U kunt de time-outlimiet echter uitbreiden naar maximaal 90 dagen.
 
 Als u de time-outlimiet wilt uitbreiden, meldt u zich aan bij Supply Chain Management en gaat u naar **Systeembeheer \> Gebruikers \> Sessieverlengingen**. Geef de gebruikersaccount voor Supply Chain Management op die wordt gebruikt om u aan te melden bij het apparaat en het aantal uren dat de sessie actief moet blijven.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

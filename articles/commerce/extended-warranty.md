@@ -2,9 +2,11 @@
 title: Uitgebreide garanties maken en configureren
 description: In dit onderwerp wordt beschreven wat uitgebreide garanties zijn en hoe u ze maakt en configureert in Microsoft Dynamics 365 Commerce.
 author: sijoshi
+manager: annbe
 ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +17,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 772dc1fdda7c34448ffa946237f717e657df6d83d8fda9336049e79d19ed1af0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 411895763cc282766b5a668208f20c72496059cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745375"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965110"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Uitgebreide garanties maken en configureren
 
@@ -81,7 +83,7 @@ Voer de volgende stappen uit om een garantieartikel te maken in Commerce.
 
     Voor een garantieperiode van twee jaar stelt u bijvoorbeeld het veld **Tijdseenheid** in op **Jaren** en het veld **Tijdsduur** op **2**. U kunt ook het veld **Tijdseenheid** instellen op **Maanden** en het veld **Tijdsduur** op **24**, zoals wordt weergegeven in de volgende afbeelding.
 
-    ![De pagina met productgegevens voor een garantieartikel.](./media/ew-time-properties.png)
+    ![De pagina met productgegevens voor een garantieartikel](./media/ew-time-properties.png)
 
 1. Selecteer **Opslaan** om het garantieartikel op te slaan.
 1. Geef het garantieproduct vrij aan het bedrijf zodat het kan worden verkocht. Zie voor meer informatie [Detailhandelproducten instellen](set-up-retail-products.md).
@@ -94,7 +96,7 @@ Voer de volgende stappen uit om een garantieartikel te maken in Commerce.
 
     In de volgende afbeelding ziet u een voorbeeld van het veld **Basis prijsbereik** ingesteld op **Basisprijs**, waarbij het veld **Ondergrens** is ingesteld op $ 500 en het veld **Bovengrens** op $ 1000.
     
-    ![De pagina met vrijgegeven productgegevens voor een garantieartikel.](./media/ew-release-product-details.png)
+    ![De pagina met vrijgegeven productgegevens voor een garantieartikel](./media/ew-release-product-details.png)
 
 1. Deel het garantieartikel in bij het kanaal waar het wordt verkocht. Zie [Assortimenten instellen](set-up-assortments.md) voor meer informatie.
 
@@ -161,11 +163,11 @@ Er zijn twee POS-bewerkingen voor verkoopmedewerkers om garantieartikelen te ver
 
 In de volgende afbeelding ziet u een voorbeeld van een POS-terminalpagina met een prompt om een garantieartikel toe te voegen voor de huidige aankoop van een verzekerbaar artikel.
 
-![Voorbeeld van een prompt om een garantieartikel toe te voegen voor de huidige aankoop.](./media/ew-sell-warranty.png)
+![Voorbeeld van een prompt om een garantieartikel toe te voegen voor de huidige aankoop](./media/ew-sell-warranty.png)
 
 In de volgende afbeelding ziet u een voorbeeld van de functie voor het toevoegen van een garantieartikel aan een verzekerbaar artikel dat eerder is verkocht.
 
-![Voorbeeld van de functie voor het toevoegen van een garantieartikel voor een eerder verkocht verzekerbaar artikel.](./media/ew-add-warranty-existing.png)
+![Voorbeeld van de functie voor het toevoegen van een garantieartikel voor een eerder verkocht verzekerbaar artikel](./media/ew-add-warranty-existing.png)
 
 ## <a name="process-warranty-transactions"></a>Garantietransacties verwerken
 
@@ -236,6 +238,3 @@ Een garantie is een service die wordt geleverd voor een specifiek uniek product.
 [Assortimenten instellen](set-up-assortments.md)
 
 [Overzicht van Nummerreeksen](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

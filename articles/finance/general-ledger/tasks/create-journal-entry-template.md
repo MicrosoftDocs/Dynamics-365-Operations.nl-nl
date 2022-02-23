@@ -2,23 +2,26 @@
 title: Een journaalboeking maken met een sjabloon
 description: Geboekte journaalboekstuk kunnen als boekstuksjablonen worden opgeslagen en toegepast in een nieuw journaalboekstuk.
 author: aprilolson
+manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransVoucherTemplate
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c015bbba6784f511ac51802ea005d2114e703861370e33350cff62b6005d630c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 360df29e6349fd4d42d6d14af646e929b73943bd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730525"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442037"
 ---
 # <a name="create-a-journal-entry-using-template"></a>Een journaalboeking maken met een sjabloon
 
@@ -60,6 +63,3 @@ Geboekte journaalboekstuk kunnen als boekstuksjablonen worden opgeslagen en toeg
 29. Voer in het veld **Bedrag** het bedrag in dat op het boekstuk moet worden toegepast. Het veld **Bedrag** wordt alleen weergegeven als de boekstuksjabloon van het type Procent is.  
 30. Klik op **OK**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

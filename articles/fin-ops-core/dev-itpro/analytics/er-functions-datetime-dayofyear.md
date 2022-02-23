@@ -2,8 +2,11 @@
 title: De ER-functie DAYOFYEAR
 description: Dit onderwerp biedt informatie over het gebruik van de ER-functie (Elektronische rapportage) DAYOFYEAR.
 author: NickSelin
+manager: kfend
 ms.date: 12/04/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab252b6194267836ba9e1d85f3b96fb100c9f598c783bd9c849c6490c2e54e21
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b9b937e7fae3e90d1a87196fab653dfac8e94179
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712304"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682384"
 ---
 # <a name="dayofyear-er-function"></a>De ER-functie DAYOFYEAR
 
@@ -56,6 +59,3 @@ De resulterende numerieke waarde.
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Datum- en tijdfuncties](er-functions-category-datetime.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

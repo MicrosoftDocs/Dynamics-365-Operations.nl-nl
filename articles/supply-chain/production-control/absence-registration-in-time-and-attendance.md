@@ -2,9 +2,11 @@
 title: Verzuimregistratie in Tijd en aanwezigheid
 description: In dit onderwerp wordt uitgelegd hoe u verzuimregistraties afhandelt in Tijd en aanwezigheid.
 author: johanhoffmann
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JMGParameters, JmgAbsenceCalendar
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06adca12c172dffa241fe44a6b64bb30863bcb4a8f3867429ad10bc852efd7c3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 12a61f23ac5a16000275e53d3901c8aea202bab0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730221"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966625"
 ---
 # <a name="absence-registration-in-time-and-attendance"></a>Verzuimregistratie in Tijd en aanwezigheid
 
@@ -31,7 +33,7 @@ In dit onderwerp worden de concepten voor verzuim beschreven en wordt uitgelegd 
 
 Werknemers worden beschouwd als afwezig voor alle uren die ze niet werken tijdens hun normale werkuren. Normale werkuren worden gedefinieerd in het standaardtijdprofiel van een werknemer.
 
-Een werknemer kan bijvoorbeeld werken op basis van een dagprofiel met een inkloktijd van 07:00 uur en een uitkloktijd van 15:00 uur. Als werknemers om 09:00 uur inklokken, worden zij van 07:00 tot 09:00 uur als afwezig beschouwd voor die dag.
+Een werknemer kan bijvoorbeeld werken op basis van een dagprofiel met een inkloktijd van 07:00 uur en een uitkloktijd van 15:00 uur. Als de werknemer om 09:00 uur inklokt, wordt hij van 07:00 tot 09:00 uur als afwezig beschouwd voor die dag.
 
 In dat geval dienen werknemers een reden voor hun afwezigheid in te voeren. Ze kunnen een reden opgeven door een verzuimcode te selecteren.
 
@@ -101,11 +103,8 @@ Registraties van werknemerstijd moeten worden berekend en goedgekeurd voordat ze
 
 Een fiatteur kan de tijdregistraties van een werknemer wijzigen. De fiatteur kan zelfs het verzuim wijzigen dat de werknemer heeft geregistreerd. Als de fiatteur handmatig een periode met een verzuimcode invoert, wordt de verzuimcode voor die periode niet overschreven door de standaardverzuimcode uit Parameters in Tijd en aanwezigheid.
 
-Stel, een werknemer klokt in om 10:00 uur en selecteert een verzuimcode waarmee wordt aangegeven dat hij/zij te laat is. Later informeert de werknemer zijn/haar supervisor dat hij/zij van 08:00 tot 10:00 uur een doktersafspraak had. Een doktersafspraak mag niet resulteren in het inhouden van salaris. Daarom kan de supervisor in dit geval de twee verzuimuren van 08:00 tot 10:00 uur handmatig aanpassen door een verzuimcode in te voeren die op ziekte duidt.
+Stel, een werknemer klokt in om 10:00 uur en selecteert een verzuimcode waarmee wordt aangegeven dat zij te laat is. Later informeert de werknemer haar supervisor dat ze van 08:00 tot 10:00 uur een doktersafspraak had. Een doktersafspraak mag niet resulteren in het inhouden van salaris. Daarom kan de supervisor in dit geval de twee verzuimuren van 08:00 tot 10:00 uur handmatig aanpassen door een verzuimcode in te voeren die op ziekte duidt.
 
 ### <a name="calculate-and-approve-absence"></a>Verzuim berekenen en goedkeuren
 
 - Selecteer **Tijd en aanwezigheid** &gt; **Controleren en goedkeuren** &gt; **Goedkeuren of berekenen**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

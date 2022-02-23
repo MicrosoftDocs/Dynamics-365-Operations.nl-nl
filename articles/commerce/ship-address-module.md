@@ -2,30 +2,35 @@
 title: Module voor verzendadressen
 description: In dit onderwerp wordt de module voor verzendadressen beschreven en uitgelegd hoe u deze configureert in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 02/11/2021
+manager: annbe
+ms.date: 08/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 30baef62e03cdaa766133efc4b182c61da3dc7b67e077d80716a035f0b5e40e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aeaa410fde29b285fdbbdd6acac19b0c4e917aa5
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765189"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4411538"
 ---
 # <a name="shipping-address-module"></a>Module voor verzendadressen
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt de module voor verzendadressen beschreven en wordt uitgelegd hoe u deze configureert in Microsoft Dynamics 365 Commerce.
+In dit onderwerp wordt de module voor verzendadressen beschreven en uitgelegd hoe u deze configureert in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Overzicht
 
 Met de module voor verzendadressen kan een klant het verzendadres voor een order toevoegen of selecteren tijdens de betalingsstroom. Als een klant is aangemeld, worden alle adressen weergegeven die eerder voor die klant zijn opgeslagen en de klant kan een adres selecteren. De klant kan ook een nieuw adres toevoegen. De module voor verzendadressen wordt gebruikt voor alle artikelen in de order waarvoor verzending is vereist.
 
@@ -37,16 +42,14 @@ Hoewel de module voor verzendadressen geen adresvalidatie biedt, kunt u deze fun
 
 De volgende afbeelding toont een voorbeeld van een nieuwe verzendadresmodule op een betalingspagina.
 
-![Voorbeeld van een module voor verzendadressen op een betalingspagina.](./media/ecommerce-shippingaddress.PNG)
+![Voorbeeld van een module voor verzendadressen op een betalingspagina](./media/ecommerce-shippingaddress.PNG)
 
 ## <a name="module-properties"></a>Module-eigenschappen
 
 | Naam van eigenschap. | Waarden | Beschrijving |
 |---------------|--------|-------------|
-| Koptekst | Koptekst en een tag voor koptekst (**H1**, **H2**, **H3**, **H4**, **H5** of **H6**) | Een optionele koptekst voor de module voor verzendadressen. |
+| Kop | Koptekst en een tag voor koptekst (**H1**, **H2**, **H3**, **H4**, **H5** of **H6**) | Een optionele koptekst voor de module voor verzendadressen. |
 | Adrestype weergeven | **True** of **False** | Als deze eigenschap is ingesteld op **Waar**, wordt een adrestype weergegeven, zoals **Thuis** of **Werk**. Als u geen adrestype opgeeft, wordt het adres automatisch opgeslagen als **Type**=**Overig**. |
-| Automatische suggestie inschakelen| **True** of **False** | Als deze optionele eigenschap is ingesteld op **True**, worden automatische adressuggesties geleverd. Deze suggesties worden aangeboden door Bing Kaarten. Zie [Winkelselectiemodule](store-selector.md) voor informatie over het instellen van integratie met Bing Kaarten voor uw site. Deze functie is beschikbaar vanaf Commerce-versie 10.0.15.|
-|Opties voor automatische suggesties| Aantal| Als automatische adressuggesties zijn ingeschakeld, kunt u aanvullende opties opgeven, zoals het maximale aantal suggesties dat moet worden verstrekt.|
 
 ## <a name="add-a-shipping-address-module-to-a-checkout-page-and-set-the-required-properties"></a>Een module voor verzendadressen aan een uitcheckpagina toevoegen en de vereiste eigenschappen instellen
 
@@ -64,13 +67,8 @@ Een module voor verzendadressen kan alleen aan een uitcheckmodule worden toegevo
 
 [Module voor leveringsopties](delivery-options-module.md)
 
-[Module met afhaalinformatie](pickup-info-module.md)
+[Module ophaalinformatie](pickup-info-module.md)
 
 [Module voor orderdetails](order-confirmation-module.md)
 
 [Geschenkbonmodule](add-giftcard.md)
-
-[Winkelselectiemodule](store-selector.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

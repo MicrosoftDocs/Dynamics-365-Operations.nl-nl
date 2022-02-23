@@ -143,6 +143,3 @@ De bijgewerkte toewijzingen moeten hierop lijken.
 
 ![Transformatie van veld Geslacht](./media/WorkerTransform.png)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,13 +2,16 @@
 title: Zich afmelden voor persoonlijke aanbevelingen
 description: In dit onderwerp wordt uitgelegd hoe u klanten in staat kunt stellen af te zien van het ontvangen van persoonlijke aanbevelingen in Microsoft Dynamics 365 Commerce.
 author: bebeale
+manager: AnnBe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,18 +19,20 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f634e39fe8ca7ffecfd1952933cb82e1bfe7d5a8eec28a61e1d78d21847f95f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6a64b45e1326673dd84c3c705491c9c100cdd069
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772932"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411349"
 ---
-# <a name="opt-out-of-personalized-recommendations"></a>Afmelden voor gepersonaliseerde aanbevelingen
+# <a name="opt-out-of-personalized-recommendations"></a>Zich afmelden voor persoonlijke aanbevelingen
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u klanten in staat kunt stellen af te zien van het ontvangen van persoonlijke aanbevelingen in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Overzicht
 
 Tijdens het maken van de rekening worden nieuwe klanten automatisch ingesteld voor het ontvangen van persoonlijke aanbevelingen. Dynamics 365 Commerce biedt echter verschillende manieren om gebruikers in staat te stellen zich af te melden voor het ontvangen van deze aanbevelingen en de verwerking van hun persoonlijke gegevens te beperken. Geverifieerde gebruikers die zich afmelden voor het ontvangen van persoonlijke aanbevelingen zien direct geen persoonlijke lijsten meer. Bovendien worden alle persoonlijke gegevens die worden verzameld voor personalisatie, verwijderd uit persoonlijke aanbevelingen.
 
@@ -44,11 +49,11 @@ In Accountbeheer in Commerce Back Office kunnen detailhandelaren de afmelding ui
 1. Zoek op de startpagina van Back Office naar **alle klanten**.
 1. Zoek en selecteer een klant en selecteer vervolgens het sneltabblad **Detailhandel**.
 
-    ![Sneltabblad Detailhandel.](./media/Disablepersonalizationpart1.png)
+    ![Sneltabblad Detailhandel](./media/Disablepersonalizationpart1.png)
 
 1. Stel onder **Privacy** de optie **Persoonlijke instellingen uitschakelen** in op **Ja**.
 
-    ![Privacyinstellingen.](./media/Disablepersonalizationpart2.png)
+    ![Privacy-instellingen](./media/Disablepersonalizationpart2.png)
 
 1. Selecteer **Opslaan** en sluit de pagina.
 
@@ -99,6 +104,3 @@ In het volgende voorbeeld ziet u hoe een detailhandelaar deze taak kan uitvoeren
 [Aanbevelingen maken met voorbeeldgegevens](product-recommendations-demo-data.md)
 
 [Veelgestelde vragen over productaanbevelingen](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

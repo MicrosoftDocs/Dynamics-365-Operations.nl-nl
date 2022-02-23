@@ -1,42 +1,40 @@
 ---
 title: Taakbegeleiders opslaan in LCS en opnieuw afspelen
-description: In dit onderwerp wordt uitgelegd hoe u taakbegeleidingen opslaat in Microsoft Dynamics Lifecycle Services (LCS) en ze vervolgens opnieuw afspeelt.
-author: twheeloc
-ms.date: 08/23/2021
+description: In dit artikel wordt uitgelegd hoe u taakbegeleiders opslaat in Microsoft Dynamics Lifecycle Services (LCS) en ze vervolgens opnieuw afspeelt.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 54251aed1a54f626e5cd6cbd983e3eb4589a02e8
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b55937c0867117809471f50f1987f7bf12a4b25d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068354"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417987"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>Taakbegeleiders opslaan in LCS en opnieuw afspelen
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Omgevingsdetails** 
 
 Microsoft Dynamics 365 Human Resources is geïmplementeerd via Microsoft Dynamics Lifecycle Services (LCS)
 
-**Uitgeven**
+**Probleem**
 
-De klant wil nieuwe taakregistraties in het LCS-project opslaan en de opgeslagen taakbegeleiders vervolgens opnieuw afspelen.
+De klant wil nieuwe taakregistraties in zijn of haar LCS-project opslaan en de opgeslagen taakbegeleiders vervolgens opnieuw afspelen.
 
-**Oplossing**
+**Resolutie**
 
 Ga als volgt te werk om een taakregistratie in LCS op te slaan.
 
@@ -55,7 +53,7 @@ Ga als volgt te werk om een taakregistratie in LCS op te slaan.
 10. Maak een taakregistratie.
 11. Wanneer u klaar bent, selecteert u **Opslaan in Lifecycle Services**.
 
-    ![Opslaan in Lifecycle Services.](media/task-guides.png)
+    ![Opslaan in Lifecycle Services](media/task-guides.png)
 
 12. Selecteer de BPM-bibliotheek en het knooppunt waarin u de taakregistratie wilt opslaan.
 
@@ -65,6 +63,3 @@ Ga als volgt te werk om een taakbegeleider opnieuw af te spelen vanuit LCS.
 2. Selecteer **Openen vanuit LCS**.
 3. Selecteer de bibliotheek en het BPM-knooppunt met de opgeslagen taakbegeleider.
 4. Open de taakbegeleider.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

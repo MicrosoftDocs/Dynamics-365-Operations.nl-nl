@@ -2,24 +2,27 @@
 title: Domeinen in Dynamics 365 Commerce
 description: In dit onderwerp wordt beschreven hoe domeinen worden verwerkt in Microsoft Dynamics 365 Commerce.
 author: BrShoo
-ms.date: 03/17/2021
+manager: AnnBe
+ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bf96c47b8f5e940ffdd9241c3bdda4162a3101c42004c58c431f135f11c39d14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb2b003168d32d05387bd45796d313736b11a41f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733986"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517350"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domeinen in Dynamics 365 Commerce
 
@@ -38,7 +41,7 @@ Wanneer u een e-commerce-omgeving inricht in [Microsoft Dynamics Lifecycle Servi
 
 De volgende afbeelding toont het inrichtingsscherm voor e-Commerce van LCS met het vak **Ondersteunde hostnamen** gemarkeerd. 
 
-![Inrichtingsscherm voor e-Commerce van LCS met het vak **Ondersteunde hostnamen** gemarkeerd.](./media/Domains_ProvisioningeCommerceScreen_publish.png)
+![Inrichtingsscherm voor e-Commerce van LCS met het vak **Ondersteunde hostnamen** gemarkeerd](./media/Domains_ProvisioningeCommerceScreen.png)
 
 U kunt een serviceverzoek maken om extra domeinen aan een omgeving toe te voegen als het inrichten al heeft plaatsgevonden. Als u een serviceaanvraag wilt maken in LCS, gaat u in uw omgeving naar **Ondersteuning \> Ondersteuningsproblemen** en selecteert u **Een incident indienen**.
 
@@ -56,7 +59,7 @@ Wanneer u voor het eerst een site instelt in Site Builder, wordt het dialoogvens
 
 In de volgende afbeelding wordt het dialoogvenster **Uw site instellen weergegeven** voor een site met de naam 'default' wanneer u de site voor het eerst opent in Site Builder.
 
-![Het dialoogvenster **Uw site instellen**.](./media/Domains_SetupyoursiteScreen.png)
+![Het dialoogvenster **Uw site instellen**](./media/Domains_SetupyoursiteScreen.png)
 
 In het vak **Een domein selecteren** kunt u een van de ondersteunde hostnamen voor uw site koppelen in LCS aan uw site koppelen in Site Builder.
 
@@ -79,11 +82,11 @@ Nadat de site is ingesteld met een pad, worden alle URL's die zijn gekoppeld aan
 
 In de volgende afbeelding ziet u het dialoogvenster **Nieuwe URL** in Site Builder met een voorbeeld van een URL-pad. 
 
-![Het dialoogvenster **Nieuwe URL** in Site Builder.](./media/Domains_PageSetup2a.png)
+![Het dialoogvenster **Nieuwe URL** in Site Builder](./media/Domains_PageSetup2a.png)
 
 In de volgende afbeelding ziet u de pagina **URL's** in Site Builder met een voorbeeld van een URL in de lijst.
 
-![De optie Gebruikersstroom uitvoeren in de beleidsstroom.](./media/Domains_URLsInSiteBuilder2a.png)
+![De optie Gebruikersstroom uitvoeren in de beleidsstroom](./media/Domains_URLsInSiteBuilder2a.png)
 
 ## <a name="domains-in-site-builder"></a>Domeinen in Site Builder
 
@@ -151,7 +154,7 @@ Het door Commerce geleverde Azure Front Door-exemplaar ondersteunt geen Apex-dom
 
   [Een nieuwe e-commerce-tenant implementeren](deploy-ecommerce-site.md)
 
-  [Een online winkelafzetkanaal instellen](./channel-setup-online.md)
+  [Een online winkelafzetkanaal instellen](online-stores.md)
 
   [Een e-commerce-site maken](create-ecommerce-site.md)
 
@@ -170,6 +173,3 @@ Het door Commerce geleverde Azure Front Door-exemplaar ondersteunt geen Apex-dom
   [Ondersteuning voor een CDN (contentleveringsnetwerk) toevoegen](add-cdn-support.md)
 
   [Detectie van winkels op basis van de locatie inschakelen](enable-store-detection.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,26 +1,29 @@
 ---
 title: Boeken met afgeleide boeken
 description: In dit artikel wordt beschreven hoe u afgeleide boeken gebruikt.
-author: moaamer
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBookTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 3421
 ms.assetid: f5187c21-eec5-4148-b178-b8a5feff7f23
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef0c7b2ad93f4a9c4ff24052c749f7891f9e915d
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 2b58b2da949211f7eef804af98c866bf5074d47f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675414"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441822"
 ---
 # <a name="post-with-derived-books"></a>Boeken met afgeleide boeken
 
@@ -34,7 +37,7 @@ Wanneer u transacties boekt voor een boek dat afgeleide afschrijvingsboeken beva
 -   Andere waarden voor het transactietype kunnen ook worden toegepast. Als bijvoorbeeld het primaire boek en de afgeleide boeken dezelfde intervallen voor verkoop of afboeking hebben, kunnen alle typen vaste-activatransacties worden gebruikt bij het instellen van een afgeleid boek.
 
 > [!WARNING]
-> De afschrijving die in het afgeleide boek is geboekt, is hetzelfde bedrag als het bedrag dat voor het primaire boek is geboekt. Als de afschrijvingsmethoden bij de boeken verschillen, moet u geen afschrijvingstransacties met behulp van het afgeleide proces genereren. |
+> De afschrijving die in het afgeleide boek is geboekt, wordt hetzelfde bedrag als het bedrag dat voor het primaire boek is geboekt. Als de afschrijvingsmethoden bij de boeken verschillen, moet u geen afschrijvingstransacties met behulp van het afgeleide proces genereren. |
 
 ## <a name="example"></a>Voorbeeld 
 Hieronder wordt beschreven hoe u verwervingsmethoden instelt met de functionaliteit van het afgeleide boek.
@@ -52,10 +55,7 @@ Wanneer een verwerving wordt geboekt voor een vast activum met boek VM 1, wordt 
 > [!NOTE]                                                                                                         
 > Als u geen afgeleide boeken gebruikt, moet u de verwerving van de vaste activa voor zowel boek VM 1 als voor boek VM 2 afschrijven.
 
-Zie [Afgeleide boeken](derived-books.md) voor meer informatie.
+Zie voor meer informatie [Afgeleide boeken](derived-books.md).
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

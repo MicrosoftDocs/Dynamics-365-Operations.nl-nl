@@ -2,30 +2,36 @@
 title: Een nieuwe sitepagina toevoegen
 description: In dit onderwerp wordt beschreven hoe u een nieuwe sitepagina toevoegt in Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 02/03/2022
+manager: annbe
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: b0f1e290526c25aa6e6300c65e24044a325bee53
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090714"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411323"
 ---
 # <a name="add-a-new-site-page"></a>Een nieuwe sitepagina toevoegen
+
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u een nieuwe sitepagina toevoegt in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Overzicht
 
 Nadat u sjablonen en fragmenten voor uw site hebt gemaakt, is de volgende stap het maken van pagina's die deze gebruiken. Om aan de slag te gaan moet u een sjabloon of indeling, een paginanaam en een pagina-URL selecteren.
 
@@ -33,11 +39,11 @@ Nadat u sjablonen en fragmenten voor uw site hebt gemaakt, is de volgende stap h
 
 U kunt een sjabloon of een indeling gebruiken voor uw nieuwe pagina. Zie voor meer informatie [Overzicht met sjablonen en indelingen](templates-layouts-overview.md).
 
-## <a name="specify-the-page-name"></a>De paginanaam opgeven
+## <a name="page-name"></a>Paginanaam
 
-De paginanaam moet uniek voor uw site zijn en een duidelijke omschrijving geven, zodat u deze gemakkelijk kunt terugvinden en andere mensen weten waarvoor de pagina bedoeld is. U kunt de naam van uw pagina later wijzigen door deze te bewerken en vervolgens het pensymbool naast de paginanaam in het eigenschappenvenster te selecteren.
+De paginanaam moet uniek zijn voor de pagina. Het moet een duidelijke omschrijving zijn, zodat u deze gemakkelijk kunt terugvinden en andere mensen weten waarvoor de pagina bedoeld is. U kunt de paginanaam zorgvuldig kiezen, omdat deze later niet kan worden gewijzigd.
 
-## <a name="specify-the-page-url"></a>De pagina-URL opgeven
+## <a name="page-url"></a>Pagina-URL
 
 U kunt kiezen of u een URL wilt invoeren voor uw nieuwe pagina. Wanneer u een pagina maakt, kunt u een tekenreeks invoeren die wordt gebruikt om een volledige URL te vormen. De tekenreeks staat bekend als relatieve URL of URL-slug genoemd. Vervolgens wordt een volledige URL gegenereerd op basis van de URL-slug en wordt de nieuwe pagina hieraan toegewezen. U kunt de URL-slug later wijzigen voordat u de pagina publiceert. Zie [Een pagina-URL maken](create-page-URL.md) voor meer informatie.
 
@@ -85,8 +91,3 @@ Voer de volgende stappen uit om een nieuwe sitepagina aan uw site toe te voegen.
 [Een landingspagina voor een categorie verrijken](enrich-category-page.md)
 
 [Toegankelijkheid van pagina-inhoud controleren](verify-accessibility.md)
-
-[Dynamische e-commercepagina's maken op basis van URL-parameters](create-dynamic-pages.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

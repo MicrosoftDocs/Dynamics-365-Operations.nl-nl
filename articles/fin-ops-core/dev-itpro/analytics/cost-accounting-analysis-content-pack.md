@@ -1,10 +1,12 @@
 ---
 title: Analyse van kostprijsboekhouding Power BI-inhoud
-description: In dit onderwerp wordt beschreven wat wordt opgenomen in de Power BI-inhoud voor de analyse van kostprijsboekhouding.
+description: In dit onderwerp wordt beschreven wat wordt opgenomen in de Power BI-inhoud voor de analyse van kostprijsboekhouding. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 author: AndersGirke
+manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -14,18 +16,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d3b8832e5a5612fd0311811f43454689d5b274c36404b4fb92b710411d45e573
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c15995edb5d65a00207fdb425447779d3a17d993
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747364"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683866"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Analyse van kostprijsboekhouding Power BI-inhoud
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven wat is opgenomen in de Microsoft Power BI-inhoud **Analyse van kostprijsboekhouding**. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+In dit onderwerp wordt beschreven wat wordt opgenomen in de Power BI-inhoud voor **Analyse kostprijsboekhouding**. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 
 ## <a name="overview"></a>Overzicht
 
@@ -40,7 +42,7 @@ Zie voor meer informatie over kostprijsboekhouding [Startpagina kostprijsboekhou
 Als u beveiliging op toegangsniveau in kostprijsboekhouding definieert en combineert met beveiliging op rijniveau in Power BI, kunt u alle kostenobjecteigenaren toegang verlenen tot de Power BI-inhoud voor **Analyse kostprijsboekhouding**. Alle gegevens in de visualisaties worden vervolgens gefilterd op basis van het toegangsniveau dat in de kostprijsboekhouding wordt beheerd. Zie [Beveiliging instellen voor de kostprijsboekhoudingsanalyse van Power BI-inhoud](setup-security-cost-accounting-content-pack.md) voor meer informatie over beveiliging op toegangsniveau en beveiliging op rijniveau .
 
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud
-U vindt de Power BI-inhoud voor **Analyse kostprijsboekhouding** in de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS). Zie voor meer informatie over hoe u de inhoud downloadt en in uw organisatie implementeert [Power BI-inhoud in LCS van Microsoft en uw partners](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
+U vindt de Power BI-inhoud voor **Analyse kostprijsboekhouding** in de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS). Zie voor meer informatie over hoe u de inhoud downloadt en in uw organisatie implementeert [Power BI-inhoud in LCS van Microsoft en uw partners](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
 
 Let erop dat u de inhoud **Analyse kostprijsboekhouding** downloadt die geldt voor de versie van Microsoft Dynamics 365 die u gebruikt.
 
@@ -121,6 +123,3 @@ De volgende belangrijke dimensies worden gebruikt als filters voor het segmenter
 | Fiscale kalenders                   | Kalender, kalenderomschrijving                                                                                       |
 | Boekjaren                       | Kalenderjaar                                                                                                        |
 | Boekperioden                     | Kalenderjaarperiode                                                                                                 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

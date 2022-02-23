@@ -2,22 +2,25 @@
 title: Aanvullingsstrategieën
 description: Dit onderwerp bevat informatie over aanvullingsstrategieën en een uitleg over het gebruik van het veld Aanvullingsstrategie voor waveaanvraagregels van een aanvullingssjabloon om te selecteren hoe aanvulling wordt uitgevoerd.
 author: mirzaab
+manager: tfehr
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
-ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: bd2ddbfeef454f2759ca09d8d763bada36a1fc83
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.16
+ms.openlocfilehash: 45b3b1a4d2e92a52ee69c17865634a6578181ac7
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574156"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646128"
 ---
 # <a name="replenishment-strategies"></a>Aanvullingsstrategieën
 
@@ -45,7 +48,7 @@ Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem
 
 Ga naar **Magazijnbeheer \> Instellingen \> Aanvulling \> Aanvullingssjablonen** om de sjablonen te openen. Selecteer of maak in de sectie **Overzicht** een aanvullingssjabloon voor een waveaanvraag, waarbij het veld **Aanvullingstype** is ingesteld op *Waveaanvraag*. Stel vervolgens de regels van de aanvullingssjabloon in de sectie **Details aanvullingssjabloon** in. Selecteer voor elke regel in het veld **Aanvullingsstrategie** de aanvullingsstrategie die u wilt gebruiken.
 
-![De pagina Aanvullingssjablonen.](media/ReplenTempWaveDmdMaxLocCap.png "De pagina Aanvullingssjablonen")
+![De pagina Aanvullingssjablonen](media/ReplenTempWaveDmdMaxLocCap.png "De pagina Aanvullingssjablonen")
 
 Als de kolom **Aanvullingsstrategie** niet wordt weergegeven in het raster in de sectie **Details van aanvullingssjabloon**, controleert u of de functie is ingeschakeld en of de geselecteerde aanvullingssjabloon het aanvullingstype *Waveaanvraag* heeft.
 
@@ -85,7 +88,7 @@ Als u in plaats daarvan de aanvullingsstrategie instelt op *Maximale capaciteit 
 - **Aanvullingswerk 1:** haal vier dozen op van de bulklocatie en zet deze op verzamellocatie-001.
 - **Aanvullingswerk 2:** haal vijf dozen op van de bulklocatie en zet deze op verzamellocatie-002.
 
-[![Voorbeeld 1.](media/ReplenTemp_example_1.png "Voorbeeld 1")](media/ReplenTemp_example_1_large.png)
+[![Voorbeeld 1](media/ReplenTemp_example_1.png "Voorbeeld 1")](media/ReplenTemp_example_1_large.png)
 
 ### <a name="example-2"></a>Voorbeeld 2
 
@@ -109,9 +112,6 @@ Afhankelijk van de instelling van de optie **Splitsen toestaan** in de locatie-i
 
 De resultaten verschillen vanwege de informatie die beschikbaar is wanneer u het werk maakt. Wanneer de optie **Splitsen toestaan** is ingesteld op *Ja* in de locatie-instructies voor het verzamelen van de aanvulling, weet u dat u 160 stuks hebt gevonden. Daarom kunt u werk voor die hoeveelheid maken. Als de optie **Splitsen toestaan** echter is ingesteld op *Nee*, weet u niet dat er 160 stuks bestaan. Omdat de extra hoeveelheid die u wilde aanvullen drie dozen groot was, verwijdert u die extra hoeveelheid en probeert u de oorspronkelijke hoeveelheid opnieuw.
 
-[![Voorbeeld 2.](media/ReplenTemp_example_2.png "Voorbeeld 2")](media/ReplenTemp_example_2_large.png)
+[![Voorbeeld 2](media/ReplenTemp_example_2.png "Voorbeeld 2")](media/ReplenTemp_example_2_large.png)
 
 Als u de maximumhoeveelheid wilt ophalen voor de aangevulde locaties, moet u daarom de optie **Splitsen toestaan** op *Ja* instellen in de locatie-instructies voor het verzamelen van de aanvulling.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

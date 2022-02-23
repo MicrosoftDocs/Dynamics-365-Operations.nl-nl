@@ -2,9 +2,11 @@
 title: " Financiële dimensies maken voor POS-kassa's en dimensiewaarden configureren voor kassa's"
 description: Deze procedure doorloopt het maken van financiële dimensies voor verkooppuntregisters (POS) en demonstreert hoe u waarden van financiële dimensies voor registers configureert.
 author: jashanno
+manager: AnnBe
 ms.date: 11/14/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -13,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12206661c20c3029ca61c75f728fbd915706477be6f6ebf7abe8366ebda8980b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c51c77f4b9f411ae45fb955032aa40cb34738e9a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759256"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964765"
 ---
 # <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a> Financiële dimensies maken voor POS-kassa's en dimensiewaarden configureren voor kassa's
 
@@ -45,6 +47,3 @@ Deze procedure doorloopt het maken van financiële dimensies voor verkooppuntreg
 17. Zoek en selecteer in de lijst de dimensiewaarde voor het register dat wordt bijgewerkt.
 18. Klik op Opslaan.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

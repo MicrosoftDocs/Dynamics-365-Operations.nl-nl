@@ -2,9 +2,11 @@
 title: Afbeeldingen uploaden
 description: In dit onderwerp wordt beschreven hoe u afbeeldingen uploadt in Microsoft Dynamics 365 Commerce Site Builder.
 author: psimolin
-ms.date: 12/03/2021
+manager: annbe
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,18 +17,20 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: 69b812c58739357dfdb3f9e65e34e5d54d890284
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891517"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963005"
 ---
 # <a name="upload-images"></a>Afbeeldingen uploaden
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u afbeeldingen uploadt in Microsoft Dynamics 365 Commerce Site Builder.
+
+## <a name="overview"></a>Overzicht
 
 Met de mediabibliotheek van de Commerce Site Builder kunt u afbeeldingen met mappen uploaden, zowel afzonderlijk als tegelijk. U moet altijd de versie van de afbeelding uploaden met de hoogste resolutie en kwaliteit, omdat de componenten voor het bepalen van de afbeeldinggrootte automatisch de afbeelding optimaliseert voor de verschillende viewports en de bijbehorende onderbrekingspunten.
 
@@ -41,8 +45,7 @@ Bij het uploaden van een afbeelding kan de volgende informatie worden opgegeven.
 - **Activa publiceren na uploaden**: wanneer dit selectievakje is ingeschakeld, worden de afbeeldingen direct na het uploaden gepubliceerd.
 
 > [!NOTE]
-> - Afbeeldingsactiva waaraan een categorie is toegewezen, worden ook automatisch gelabeld met de categorie als trefwoord voor het zoeken naar activa van een bepaalde categorie.
-> - Op productdetailpagina's wordt met behulp van de productnaam dynamisch de **Alt-tekst** gegenereerd. Als u de **Alt-tekst** voor een productafbeelding verandert, heeft dit geen invloed op de weergegeven afbeelding.
+> Afbeeldingsactiva waaraan een categorie is toegewezen, worden ook automatisch gelabeld met de categorie als trefwoord voor het zoeken naar activa van een bepaalde categorie.
 
 ### <a name="naming-conventions-for-omni-channel-images"></a>Naamgevingsconventies voor omnichannel-afbeeldingen 
 
@@ -53,17 +56,9 @@ De standaard naamgevingsconventie varieert afhankelijk van de categorie:
 - Categorieafbeeldingen moeten de naam "**/Categories/\{CategoryName\}.png**" hebben
 - Klantafbeeldingen moeten de naam "**/Customers/\{CustomerNumber\}.jpg**" hebben
 - Afbeeldingen van werknemers moeten de naam "**/Workers/\{WorkerNumber\}.jpg**" hebben
-- Productafbeeldingen moeten de naam **/Products/\{ProductNumber\}\_000_001.png** hebben
+- Productafbeeldingen moeten de naam "**/Products/\{ProductNumber\}_000_001.png**" hebben
     - 001 is de reeks van de afbeelding en dit kan 001, 002, 003, 004 of 005 zijn.
-- Productvariantafbeeldingen moeten de naam "**/Products/\{ProductNumber\} \^ \{Style\} \^ \{Size\} \^ \{Color\} \^\_000_001.png**" hebben
-    - Bijvoorbeeld: 93039 \^ &nbsp;\^ 2 \^ Zwart \^\_000_001.png
-- Afbeeldingen van productvarianten met configuratiedimensie moeten de naam **/Products/\{ProductNumber\} \^ \{Configuratie\}\_000_001.png** hebben
-    - Bijvoorbeeld: 93039 \^ LB8017_000_001.png
-
-> [!NOTE]
-> Als de dimensiewaarde voor afbeeldingen van productvarianten leeg is, moeten er tussen de caret-tekens in de bestandsnaam twee spaties staan.
-
-In de bovenstaande voorbeelden wordt de standaardconfiguratie gebruikt. Het scheidingsteken en de dimensies kunnen worden geconfigureerd en de exacte naam die nodig is, kan per implementatie verschillen. Een van de methoden om de exacte naamgevingsconventie vast te stellen die vereist is, is het gebruik van de ontwikkelaarsconsole van de browser om de aanvragen voor de afbeeldingen van de productvariant te controleren terwijl u de productdimensies op de pagina met productdetails (PDP) van de winkel wijzigt.
+- Productvariantafbeeldingen moeten de naam "**/Products/\{ProductNumber\}\_\{Size\}\_\{Color\}\_\{Style\}\_000_001.png**" hebben
 
 ## <a name="upload-an-image"></a>Een afbeelding uploaden
 
@@ -101,6 +96,3 @@ Volg deze stappen om een map met afbeeldingen in bulk te uploaden.
 [Focuspunten van afbeelding aanpassen](dam-custom-focal-point.md)
 
 [Statische bestanden uploaden en verwerken](upload-serve-static-files.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

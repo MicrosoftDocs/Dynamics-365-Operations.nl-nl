@@ -67,6 +67,3 @@ Wanneer het werkgebied **Selfservice werknemer** is geselecteerd als de eerste o
 
 ### <a name="termination-reason-code-updates-position-assignment-record"></a>Met redencode voor ontslag wordt de positietoewijzingsrecord bijgewerkt
 Met de redencode voor ontslag wordt de positietoewijzing nu bijgewerkt wanneer de aanstelling van een werknemer en de positie worden beëindigd. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

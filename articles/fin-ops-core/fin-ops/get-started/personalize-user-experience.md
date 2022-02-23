@@ -1,10 +1,12 @@
 ---
-title: De gebruikerservaring personaliseren
+title: De gebruikerservaring aanpassen
 description: In dit onderwerp wordt uitgelegd hoe u de app kunt aanpassen.
 author: jasongre
-ms.date: 01/28/2022
+manager: AnnBe
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
@@ -15,20 +17,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 840a68d506664043c9affb67e801429e0594f0bd
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 734f6499753d74b0bac8b2df1381ece4a7824142
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075417"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797485"
 ---
 # <a name="personalize-the-user-experience"></a>De gebruikerservaring aanpassen
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 In dit onderwerp wordt uitgelegd hoe u de app personaliseert en worden de volgende onderwerpen behandeld: 
 
@@ -65,7 +63,7 @@ Hier volgt een lijst met de acties die onder het normale gebruik van de pagina v
 - **Actievensters**: een *actievenster* wordt weergegeven boven aan de meeste pagina's. Het actievenster bevat knoppen voor een groot aantal van de acties die u op de huidige pagina uitvoeren kunt. Deze knoppen zijn vaak geordend op tabbladen. U kunt het gehele actievenster open *vastzetten* of u kunt het standaard samengevouwen laten. De volgende keer dat u de pagina opent, is het actievenster geopend of samengevouwen, gebaseerd op uw laatste interactie met de pagina. Als u het actievenster open hebt vastgemaakt, wordt het laatst gebruikte tabblad weergegeven.
 - **Snelfilters**: een *snelfilter* wordt boven aan veel rasters weergegeven. Met het snelfilter kunt u het raster filteren op basis van één kolom die u selecteert. De app slaat de kolom op waarop u hebt gefilterd. De volgende keer dat u die pagina opent, wordt het raster standaard op dezelfde kolom gefilterd. U kunt vervolgens echter toch een andere kolom selecteren om het raster op te filteren.
 - **Kolomkopfilters**: wanneer u een raster filtert met behulp van *kolomkopfilters*, kunt u de filteroperator indien nodig wijzigen om de gegevens te vinden die u zoekt. U kunt de operator bijvoorbeeld wijzigen van **begint met** in **is exact**. Telkens wanneer u een koptekstfilter gebruikt en de filteroperator wijzigt, slaat de app de wijziging op. Vervolgens wordt de filteroperator hersteld wanneer u de volgende keer op die kolom filtert.
-- **Navigatievenster**: u kunt het *navigatievenster* openen door de knop **Het navigatiedeelvenster uitvouwen** te selecteren, linksboven op elke pagina. (Deze knop wordt ook wel de _**Menu**-knop_, de *hamburger*, het *hamburgermenu* of de *hamburgerknop* genoemd.) U kunt het navigatievenster open vastzetten of u kunt het standaard samengevouwen houden. Nadat u het navigatievenster open hebt vastgezet, houdt de app het open totdat u het samenvouwt.
+- **Navigatievenster**: u kunt het *navigatievenster* openen door de knop **Het navigatiedeelvenster uitvouwen** te selecteren, linksboven op elke pagina. (Deze knop wordt ook wel de _**Menu** knop_, de *hamburger*, het *hamburgermenu* of de *hamburgerknop* genoemd.) U kunt het navigatievenster open vastzetten of u kunt het standaard samengevouwen houden. Nadat u het navigatievenster open hebt vastgezet, houdt de app het open totdat u het samenvouwt.
 
 ## <a name="full-personalization-access-formerly-explicit-personalizations"></a>Volledige toegang tot persoonlijke instellingen (voorheen expliciete gepersonaliseerde items)
 
@@ -89,7 +87,7 @@ Sommige van de meest gangbare en belangrijke wijzigingen die in een pagina kunne
 
 Bovendien zijn de meest algemene typen aanpassing beschikbaar door met de rechtermuisknop op een element te klikken en vervolgens **Aanpassen** te selecteren. (Houd er rekening mee dat niet alle elementen op uw pagina kunnen worden aangepast.) Wanneer u deze methode van aanpassing selecteert, ziet u het *eigenschappenvenster* van het element.
 
-![Eigenschappen van een element aanpassen.](./media/cli-element-property-window.png)
+![Eigenschappen van een element aanpassen](./media/cli-element-property-window.png)
 
 U kunt het eigenschappenvenster gebruiken om een element op de volgende manieren aan te passen:
 
@@ -102,7 +100,7 @@ U kunt het eigenschappenvenster gebruiken om een element op de volgende manieren
 
 Het eigenschappenvenster kan andere mogelijkheden voor aanpassing hebben, afhankelijk van het element. Met het eigenschappenvenster van een tegel kunt u de tegel bijvoorbeeld promoveren tot dashboard en met het eigenschappenvenster van elementen op het standaarddashboard kunt u mogelijk een nieuw werkgebied maken.
 
-### <a name="personalization-toolbar"></a>Aanpassingswerkbalk
+### <a name="the-personalization-toolbar"></a>De werkbalk Aanpassing
 
 Als u meerdere wijzigingen in een pagina wilt aanbrengen of wijzigingen wilt doorvoeren die niet beschikbaar zijn via andere mechanismen (zoals de volgorde van elementen wijzigen), kunt u de werkbalk **Aanpassing** gebruiken. Voer een van de volgende stappen uit om de werkbalk **Aanpassing** te openen:
 
@@ -111,7 +109,7 @@ Als u meerdere wijzigingen in een pagina wilt aanbrengen of wijzigingen wilt doo
 - Selecteer **Deze pagina aanpassen** in de groep **Aanpassen** op het tabblad **Opties** van het actievenster van een pagina.
 - Selecteer de knop **Instellingen** (het tandwielsymbool) op de navigatiebalk en selecteer **Aanpassen.**
 
-[![Aanpassingswerkbalk.](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
+[![Aanpassingswerkbalk](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Navigeren op de pagina
 
@@ -123,10 +121,7 @@ De volgende hulpmiddelen zijn beschikbaar op de werkbalk **Aanpassing**:
 
 - Gebruik het hulpmiddel **Selecteren** om de eigenschappen van een element te wijzigen. Als u dit hulpmiddel wilt gebruiken, selecteert u de knop **Selecteren** op de werkbalk en selecteert u vervolgens het gewenste element. Het eigenschappenvenster van het element wordt geopend en u kunt daar eventuele eigenschappen van dat element wijzigen. U kunt het proces herhalen voor andere elementen die op de pagina kunnen worden aangepast. Sommige aangepaste eigenschappen zijn mogelijk niet in alle scenario's beschikbaar. U kunt bijvoorbeeld geen veld vergrendelen dat vereist is.
 - Gebruik het hulpmiddel **Verbergen** om een element op de pagina te verbergen. Als u dit hulpmiddel wilt gebruiken, selecteert u de knop **Verbergen** op de werkbalk en selecteert u vervolgens het element dat u wilt verbergen. Wanneer u het hulpmiddel **Verbergen** gebruikt, worden alle elementen die momenteel verborgen zijn, zichtbaar gemaakt, maar in een grijze container weergegeven. U kunt een element vervolgens zichtbaar maken door het te selecteren. Als u wilt zien hoe de pagina eruitziet wanneer elementen verborgen zijn, schakelt u over op een ander personalisatiehulpmiddel of sluit u de personalisatiewerkbalk.
-- Gebruik het hulpmiddel **Velden toevoegen** om velden toe te voegen aan uw pagina. Wanneer u dit hulpprogramma gebruikt, kunt u alleen velden toevoegen die deel uitmaken van de paginadefinitie. Zie voor informatie over het maken van nieuwe velden die geen deel uitmaken van de huidige paginadefinitie [Maken en werken met aangepaste velden](user-defined-fields.md). Nadat u de knop **Velden toevoegen** op de werkbalk hebt geselecteerd, moet u eerst het raster of de sectie selecteren waar u een veld wilt toevoegen. Er wordt een dialoogvenster weergegeven met de lijst met velden die gerelateerd zijn aan het geselecteerde raster of sectie. Selecteer in het dialoogvenster een of meer velden die u wilt toevoegen in de lijst **Aanbevolen velden** of **Alle velden**. Wanneer u de gewenste velden hebt gekozen, selecteert u **Bijwerken**. Als u een veld wilt verwijderen dat u eerder hebt toegevoegd, herhaalt u de procedure, maar wist u de selectie van het veld in het dialoogvenster.
-
-    In de lijst **Aanbevolen velden** worden velden weergegeven die eerder zijn toegevoegd door andere gebruikers in uw organisatie. Deze lijst met velden wordt bijgewerkt op basis van de terugkeerfrequentie van de **Aanbevelingsbatchtaak**. Er is een soortgelijke ervaring bij het toevoegen van nieuwe filtervelden met behulp van het filtervenster op een pagina.
-
+- Gebruik het hulpmiddel **Velden toevoegen** om velden toe te voegen aan uw pagina. Wanneer u dit hulpmiddel gebruikt, kunt u alleen velden toevoegen die deel uitmaken van de paginadefinitie. Zie voor informatie over het maken van nieuwe velden die geen deel uitmaken van de huidige paginadefinitie [Maken en werken met aangepaste velden](user-defined-fields.md). Nadat u de knop **Velden toevoegen** op de werkbalk hebt geselecteerd, moet u eerst het raster of de sectie selecteren waar u een veld wilt toevoegen. Er wordt een dialoogvenster weergegeven met de lijst met velden die gerelateerd zijn aan het geselecteerde raster of sectie. Selecteer in het dialoogvenster een of meer velden om toe te voegen en selecteer vervolgens **Bijwerken**. Als u een veld wilt verwijderen dat u eerder hebt toegevoegd, herhaalt u de procedure, maar wist u de selectie van het veld in het dialoogvenster.
 - Gebruik het hulpmiddel **Verplaatsen** om een element te verplaatsen naar een andere locatie binnen de huidige groep elementen. U kunt een element niet buiten de bovenliggende groep verplaatsen. Als u dit hulpmiddel wilt gebruiken, selecteert u de knop **Verplaatsen** op de werkbalk en selecteert u vervolgens het element dat u wilt verplaatsen. Wanneer u een element selecteert, bepaalt de app de locaties waar het element naartoe kan worden verplaatst. Deze locaties worden *neerzetzones* genoemd. Wanneer u het element binnen de huidige groep versleept, wordt elke neerzetzone weergegeven als een gekleurde vette lijn naast het gebied waar het element kan worden neergezet.
 - Gebruik het hulpmiddel **Overslaan** om een element te verwijderen uit de volgorde van de toetsenbordtoets Tab van de pagina. Wanneer u de knop **Overslaan** op de werkbalk selecteert, worden alle elementen die momenteel overgeslagen worden, weergegeven in een grijze container. U kunt velden interactief verwijderen of toevoegen aan de tabvolgorde.
 - Gebruik het hulpmiddel **Weergeven in koptekst** als u wilt dat een veld in de samenvattingssectie van het sneltabblad wordt weergegeven. Wanneer u de knop **Weergeven in koptekst** selecteert op de werkbalk, worden alle velden die zijn geselecteerd als overzichtsvelden, weergegeven in een grijze container. U kunt interactief velden toevoegen aan het sneltabbladoverzicht en velden uit het sneltabbladoverzicht verwijderen door de velden te selecteren.
@@ -154,14 +149,11 @@ Voor sommige pagina's die lijsten bevatten, is de aanpassingsfunctie **Toevoegen
 > [!NOTE]
 > Als de functie [Opgeslagen weergaven](saved-views.md) is ingeschakeld, is de inhoud die u naar een werkgebied verplaatst, rechtstreeks aan een weergave gekoppeld. De query van de weergave wordt gebruikt om gegevens op te halen in de werkruimte. De bijbehorende tegel of koppeling in het werkgebied opent de pagina voor die weergave, zodat de query en de persoonlijke instellingen van de weergave worden toegepast. Als de weergave wordt bijgewerkt, worden de bijbehorende elementen van de werkruimte aangepast aan de nieuwe weergavedefinitie.
 
-[![Toevoegen aan werkgebied.](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
+[![Toevoegen aan werkgebied](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
 
 - Als u een lijst aan een werkgebied wilt toevoegen, sorteert of filtert u de lijst op de pagina eerst, zodat deze de informatie bevat zoals u deze wilt weergeven in het werkgebied. (Als de functie **Opgeslagen weergaven** is ingeschakeld, kunt u pas doorgaan nadat u een weergave met deze voorwaarden hebt opgeslagen.) Selecteer vervolgens **Toevoegen aan werkruimte**. Selecteer een werkgebied en selecteer in het veld **Presentatie** de optie **Lijst**. Nadat u **Configureren** hebt geselecteerd, verschijnt een dialoogvenster waarin u de kolommen kunt selecteren die moeten worden weergegeven in de lijst in het werkgebied. Ook kunt u het label opgeven dat wordt gebruikt voor de lijst in het werkgebied.
 - Als u een tegel aan een werkgebied wilt toevoegen, filtert u eerst de lijst op de pagina om de gegevens weer te geven waarvan u een overzicht wilt of waartoe u snel toegang wilt. (Als de functie **Opgeslagen weergaven** is ingeschakeld, kunt u pas doorgaan nadat u een weergave met deze voorwaarden hebt opgeslagen.) Selecteer vervolgens **Toevoegen aan werkruimte**. Selecteer een werkgebied en selecteer in het veld **Presentatie** de optie **Tegel**. Nadat u **Configureren** hebt geselecteerd, verschijnt een dialoogvenster waarin u het label kunt opgeven dat moet worden gebruikt voor de tegel in het werkgebied. U kunt ook opgeven of de tegel een telling moet weergeven. Nadat de tegel is toegevoegd aan het werkgebied, kunt u deze selecteren om de huidige pagina te openen vanuit het werkgebied. Vervolgens kunt u de gefilterde lijst bekijken die aan de tegel is gekoppeld.
-- Als u een koppeling aan een werkgebied wilt toevoegen, filtert u de lijst op de pagina eerst zodat hier de gegevens worden weergegeven waarin u geïnteresseerd bent. (Als de functie **Opgeslagen weergaven** is ingeschakeld, kunt u pas doorgaan nadat u een weergave met deze voorwaarden hebt opgeslagen.) Selecteer vervolgens **Toevoegen aan werkruimte**. Selecteer een werkgebied en selecteer in het veld **Presentatie** de optie **Koppeling**. Nadat u **Configureren** hebt geselecteerd, verschijnt een dialoogvenster waarin u het label kunt opgeven dat moet worden gebruikt voor de koppeling. U kunt desgewenst ook een label opgeven voor de sectie waarin deze koppeling kan worden geplaatst. Als die sectie niet bestaat, wordt een nieuwe sectie gemaakt.
-
-> [!NOTE]
-> Wanneer u uw lijst, tegel of koppeling configureert, moet u vanaf versie 10.0.25 mogelijk ook de werkgebiedweergaven selecteren die u aan het element wilt toevoegen als de functie **(Preview) Ondersteuning van opgeslagen weergaven voor werkgebieden** is ingeschakeld. De beschikbare werkgebiedweergaven worden weergegeven in de sectie **Opties voor werkgebied** van elk dialoogvenster **Configureren**. 
+- Als u een koppeling aan een werkgebied wilt toevoegen, filtert u de lijst op de pagina eerst zodat hier de gegevens worden weergegeven waarin u geïnteresseerd bent. (Als de functie **Opgeslagen weergaven** is ingeschakeld, kunt u pas doorgaan nadat u een weergave met deze voorwaarden hebt opgeslagen.) Selecteer vervolgens **Toevoegen aan werkruimte**. Selecteer een werkgebied en selecteer in het veld **Presentatie** de optie **Koppeling**. Nadat u **Configureren** hebt geselecteerd, verschijnt een dialoogvenster waarin u het label kunt opgeven dat moet worden gebruikt voor de koppeling. U kunt desgewenst ook een label opgeven voor een nieuwe sectie die deze koppeling bevat.
 
 Nadat een lijst, tegel of koppeling is toegevoegd aan een werkgebied, kunt u dit werkgebied openen en de elementen erin op de gewenste manier ordenen.
 
@@ -179,97 +171,11 @@ Het dashboard is vaak de eerste pagina die bij het openen van de app wordt weerg
 Een unieke aanpassingsmogelijkheid die beschikbaar is op het dashboard, is de mogelijkheid om tegels toe te voegen. 
 
 - Als de functie **Apps op volledige pagina's** is uitgeschakeld, voegt u een nieuwe tegel toe door met de rechtermuisknop op een element in het dashboard te klikken en vervolgens **Een werkgebied toevoegen** te selecteren. Een nieuwe werkgebiedtegel wordt onder aan het dashboard gemaakt. U kunt deze werkgebiedtegel desgewenst hernoemen. U kunt ook lijsten, tegels en koppelingen toevoegen aan het werkgebied, zoals beschreven in de sectie [Tegels, lijsten en koppelingen toevoegen aan een werkgebied](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) van dit onderwerp.
-- Als de functie **Apps op volledige pagina's** is ingeschakeld, voegt u een nieuwe tegel toe door met de rechtermuisknop op een element in het dashboard te klikken en vervolgens **Een app toevoegen** te selecteren. Selecteer in het dialoogvenster of u een tegel wilt toevoegen voor een nieuw werkgebied of een tegel met inhoud uit Power Apps of een website. Voer vervolgens de stappen uit om de geselecteerde optie te configureren. Een nieuwe werkgebiedtegel wordt onder aan het dashboard gemaakt. Raadpleeg voor meer informatie over het toevoegen, bewerken, verwijderen en delen van deze ingesloten apps [Canvas-apps insluiten vanuit Power Apps](embed-power-apps.md) en [Apps van derde partijen insluiten](embed-website.md).
+- Als de functie **Apps op volledige pagina's** is ingeschakeld, voegt u een nieuwe tegel toe door met de rechtermuisknop op een element in het dashboard te klikken en vervolgens **Een app toevoegen** te selecteren. Selecteer in het dialoogvenster of u een tegel wilt toevoegen voor een nieuw werkgebied of een tegel met inhoud uit Power Apps of een website. Voer vervolgens de stappen uit om de geselecteerde optie te configureren. Een nieuwe werkgebiedtegel wordt onder aan het dashboard gemaakt. 
 
 ## <a name="sharing-personalizations"></a>Persoonlijke instellingen delen
 
-Nadat u een pagina hebt aangepast, kunt u op verschillende manieren uw aanpassingen delen met andere gebruikers. In de volgende lijst zijn de methoden gerangschikt op volgorde van de meest aanbevolen naar de minst aanbevolen methode.
-
-1. Weergaven naar gebruikers publiceren.
-2. Weergaven of aanpassingen naar gebruikers kopiëren.
-3. Weergaven of aanpassingen exporteren en importeren.
-
-### <a name="publish-views-to-users"></a>Weergaven naar gebruikers publiceren
-
-Als de functie [Opgeslagen weergaven](saved-views.md) is ingeschakeld en als de pagina weergaven ondersteunt, kunt u de weergave het beste met andere gebruikers delen door de weergave te publiceren naar gebruikers met een of meer beveiligingsrollen. Meer informatie over dit onderwerp vindt u in [Weergaven publiceren](saved-views.md#publishing-views).
-
-### <a name="copy-views-or-personalizations-to-users"></a>Weergaven of aanpassingen naar gebruikers kopiëren
-
-Als de functie [Opgeslagen](saved-views.md) weergaven is uitgeschakeld of als de pagina geen weergaven ondersteunt, is de aanbevolen manier om aanpassingen te delen door deze van de ene gebruiker naar de andere te kopiëren. Deze methode is alleen beschikbaar voor bevoegde gebruikers (bijvoorbeeld systeembeheerders). Beheerders kunnen echter de aanpassing van een bepaalde gebruiker in het systeem opzoeken (inclusief de persoonlijke weergave van de gebruiker als Opgeslagen weergaven is ingeschakeld) en de configuratie naar andere gebruikers kopiëren.
-
-Als Opgeslagen weergaven is ingeschakeld, volgt u deze stappen om de aanpassing te kopiëren.
-
-1. Ga naar **Systeembeheer \> Instellingen \> Persoonlijke instellingen**.
-2. U kunt persoonlijke weergaven als volgt kopiëren:
-
-    1. Selecteer **Persoonlijke weergaven**.
-    2. Selecteer de gewenste weergaven in de lijst.
-    3. Selecteer **Kopiëren naar gebruikers**.
-    4. Selecteer de gebruikers naar wie u de weergaven wilt kopiëren.
-
-    Volg deze stappen om aanpassingen te kopiëren van pagina's die geen weergaven ondersteunen:
-
-    1. Selecteer **Gebruikersinstellingen**.
-    2. Selecteer de gebruiker met de aanpassing die u wilt delen.
-    3. Selecteer **Alle aanpassingen beheren**.
-    4. Selecteer de gewenste aanpassingen in de lijst.
-    5. Selecteer **Kopiëren naar gebruikers**.
-    6. Selecteer de gebruikers naar wie u de aanpassingen wilt kopiëren.
-
-Als Opgeslagen weergaven niet is ingeschakeld, volgt u deze stappen om een aanpassingen te kopiëren.
-
-1. Ga naar **Systeembeheer \> Instellingen \> Persoonlijke instellingen**.
-2. Selecteer **Toepassing**.
-3. Selecteer de gebruikers naar wie u de aanpassing wilt kopiëren.
-4. Selecteer **Bestaande aanpassingen selecteren**.
-5. Zoek en selecteer de (enkele) aanpassing waarin u geïnteresseerd bent.
-6. Selecteer **OK**.
-
-### <a name="export-and-import-views-or-personalizations"></a>Weergaven of aanpassingen exporteren en importeren
-
-U kunt aanpassingen ook delen via export en import. Individuele gebruikers, of een beheerder die namens hen handelt, kunnen met deze methode hun aanpassingen of weergaven exporteren en vervolgens het geëxporteerde bestand aan andere gebruikers geven om te importeren. Gebruikers kunnen hun geëxporteerde aanpassingen ook geven aan een gebruiker met beheerdersbevoegdheden, waarna die gebruiker de pagina **Persoonlijke instellingen** kan gebruiken om het aanpassingsbestand op een groot aantal gebruikers tegelijk toe te passen.
-
-> [!IMPORTANT]
-> Aangezien aanpassingen in alle updates blijven bestaan, hoeven alle aanpassingen na een service-update of op een ander tijdstip niet opnieuw te worden geïmporteerd en wordt dit ten zeerste afgeraden.
-
-#### <a name="export"></a>Exporteren
-
-In het algemeen kunt u een van uw eigen weergaven of aanpassingen exporteren door de betreffende pagina te openen, de werkbalk **Persoonlijke instellingen** te openen en vervolgens **Exporteren** te selecteren. Meer informatie over de werkbalk vindt u in de sectie [Aanpassingswerkbalk](#personalization-toolbar) een stukje terug in dit artikel. Als [Opgeslagen weergaven](saved-views.md) is ingeschakeld, kunt u ook gaan naar **Instellingen \> Gebruikersopties \> Persoonlijke instellingen** om een lijst met al uw aanpassingen in het systeem weer te geven. Hier kunt u de weergaven of aanpassingen selecteren die u wilt exporteren en vervolgens **Exporteren** selecteren.
-
-Verder kunnen beheerders de aanpassingen van andere gebruikers exporteren door de volgende stappen uit te voeren.
-
-1. Ga naar **Systeembeheer \> Instellingen \> Persoonlijke instellingen**.
-2. Selecteer op het tabblad **Gebruikers** de gewenste gebruiker.
-3. Zoek en selecteer de weergave of aanpassing waarin u geïnteresseerd bent.
-4. Selecteer **Exporteren**.
-
-#### <a name="import"></a>Importeren
-
-Als u een weergave of aanpassing wilt importeren, opent u gewoon de werkbalk **Persoonlijke instellingen** en selecteert u **Importeren**. Bovendien kunnen beheerders een bestand importeren en dit direct aan een of meer gebruikers geven.
-
-Als Opgeslagen weergaven is ingeschakeld, volgt u deze stappen.
-
-1. Ga naar **Systeembeheer \> Instellingen \> Persoonlijke instellingen**.
-2. Selecteer in het actievenster **Weergaven importeren \> Gebruikersweergaven**.
-3. Selecteer de importmodus:
-
-    - **Specifieke gebruikers selecteren**: de weergave of de aanpassing geven aan geselecteerde gebruikers.
-    - **As-is importeren**: de weergave of personalisatie importeren naar dezelfde gebruiker die deze heeft geëxporteerd.
-
-4. Selecteer **Bladeren** en zoek en selecteer de aanpassing die u wilt importeren.
-5. Selecteer **Volgende**.
-6. Als u in stap 3 **Specifieke gebruikers selecteren** hebt gekozen, selecteert u de gebruikers naar wie u de personalisatie wilt importeren.
-7. Selecteer **Importeren**.
-8. Los waar nodig conflicten op.
-
-Als Opgeslagen weergaven niet is ingeschakeld, volgt u deze stappen.
-
-1. Ga naar **Systeembeheer \> Instellingen \> Persoonlijke instellingen**.
-2. Selecteer **Toepassing**.
-3. Selecteer de gebruikers naar wie u de aanpassing wilt kopiëren.
-4. Selecteer **Aanpassingen importeren uit een bestand**.
-5. Selecteer **Bladeren** en zoek en selecteer de aanpassing die u wilt importeren.
-6. Selecteer **OK**.
+Nadat u een pagina hebt aangepast, kunt u uw aanpassingen delen met andere gebruikers door de aangepaste pagina te exporteren. U kunt vervolgens andere gebruikers vragen het personalisatiebestand te importeren. U kunt ook uw aanpassingen geven aan een gebruiker die beheerdersrechten heeft. Die gebruiker kan het aanpassingsbestand vervolgens toepassen op veel gebruikers tegelijk via de beheerpagina **Persoonlijke instellingen**.
 
 ## <a name="administration-of-personalizations"></a>Beheer van aanpassingen
 
@@ -289,6 +195,3 @@ Voor klanten die de functie [Opgeslagen weergaven](saved-views.md) nog niet hebb
 Wanneer u de instellingen van de voorraaddimensies op een pagina wilt aanpassen, kunt u de instellingen toepassen die zijn gemaakt met de optie **Dimensie weergeven**. U gebruikt aanpassing bijvoorbeeld om een kolom te verbergen voor de voorraaddimensie Batchnummer, maar de kolom wordt de volgende keer dat de pagina wordt geopend, weergegeven. Deze werking treedt op omdat de **Weergave van dimensies**-instellingen bepalen welke voorraaddimensiekolommen worden weergegeven. De **Weergave van dimensies**-instellingen zijn van toepassing op alle pagina's en hebben voorrang op aangepaste instellingen van voorraaddimensievelden op afzonderlijke pagina's.
 
 Als u in het vorige voorbeeld niet wilt dat de kolom voor de voorraaddimensie Batchnummer wordt weergegeven op een pagina, moet u die dimensie uitschakelen als onderdeel van de optie **Weergave van dimensies** voor die pagina.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

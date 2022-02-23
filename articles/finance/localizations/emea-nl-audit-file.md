@@ -5,20 +5,22 @@ author: liza-golub
 ms.date: 05/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxEvatParameters_NL
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Finance
 ms.search.region: Netherlands
 ms.author: elgolu
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3eb834350545846bd411a46a1cacdecc78c80c2b1d774d5914e7499c99a294be
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 99f90740e802cb1c20d9f05629f1decb0a16ad80
+ms.sourcegitcommit: 102c1e998a591a295307c588dfe523cfa750d43c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766270"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665500"
 ---
 # <a name="audit-file-xml-auditfile-financieel-xaf"></a>Auditfile (XML Auditfile Financieel, XAF)
 
@@ -46,6 +48,3 @@ Met de stappen in deze procedure wordt uitgelegd hoe u de auditfile gebruikt.
 3. Voer een datum in het veld **Einddatum** in. 
 4. Typ **Auditfile (NL)** in het veld **Indelingstoewijzing**.
 5. Selecteer **OK**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

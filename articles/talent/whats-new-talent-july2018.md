@@ -57,6 +57,3 @@ Titels zijn uitgebreid in deze update. Het veld is nu 65 tekens lang. Deze wijzi
 ## <a name="benefit-enrollment-status-report"></a>Statusrapport voor inschrijving voor vergoedingen
 
 Ingebouwde rapporten over open inschrijving voor vergoedingen helpen u op eenvoudige wijze te begrijpen waar uw werknemers zich bevinden in het open inschrijvingsproces. U kunt te weten komen hoeveel werknemers het proces hebben voltooid, hier momenteel mee bezig zijn of er nog niet mee zijn begonnen. Bovendien kunt u snel eventuele problemen bekijken die tijdens de werknemersinschrijving optreden en een volledig logboek van alle opmerkingen van werknemers weergeven. U kunt dus eenvoudig indieningen van werknemers verifiëren en controleren.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

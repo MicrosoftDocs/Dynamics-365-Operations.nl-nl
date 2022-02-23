@@ -2,9 +2,11 @@
 title: Een recordsjabloon maken om de invoer van gegevens te vergemakkelijken
 description: In dit onderwerp wordt voorgedaan hoe u een recordsjabloon kunt maken, zodat vaak gebruikte veldwaarden niet expliciet moeten worden ingevoerd voor elke nieuwe record.
 author: margoc
+manager: AnnBe
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, SysRecordInfo, SysRecordTemplatePromptOnCreate
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72ffb6458ca3b10415d75fc835677ed2fa03e4197978ab648f2b244248f45058
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 68d3c7dd2f042617a7e2fcc8bee05fae6a82bde9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767720"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685212"
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>Een recordsjabloon maken om de invoer van gegevens te vergemakkelijken
 
@@ -41,6 +43,3 @@ In dit onderwerp wordt voorgedaan hoe u een recordsjabloon kunt maken, zodat vaa
 13. Selecteer **OK**.
 14. Selecteer **Sluiten**.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,13 +2,16 @@
 title: Dimensiehiërarchie
 description: Dit onderwerp bevat informatie over dimensiehiërarchieën. U gebruikt een dimensiehiërarchie om de rapportagestructuur, het kostenbeleid en de beveiligingsinstelling in Kostprijsboekhouding te definiëren.
 author: AndersGirke
+manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 40ae7b61537cdcd1934056b9e289f342e96b57d3eebe5a6e713b2db91310ed9a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 71ba02fc6be4ab9a7871c10a9f95c474e52ae765
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766966"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441880"
 ---
 # <a name="dimension-hierarchy"></a>Dimensiehiërarchie
 
@@ -39,7 +42,7 @@ Dimensiehiërarchieën worden op verschillende plaatsen in Kostprijsboekhouding 
 
 Hier volgt een voorbeeld van een dimensiehiërarchie.
 
-![Voorbeeld van een dimensiehiërarchie.](./media/dimension-hierarchy.png)
+![Voorbeeld van een dimensiehiërarchie](./media/dimension-hierarchy.png)
 
 Een dimensiehiërarchie kan worden gemaakt voor de volgende typen dimensies:
 
@@ -80,7 +83,7 @@ Een dimensiehiërarchie wordt gemaakt als een boomstructuur die knooppunt- en bl
 
 Een klein bedrijf heeft de volgende organisatiestructuur, waarin Financiën en Personeelszaken afdelingen zijn die onder Administatie vallen, en Assemblage en Verpakking onder Productie.
 
-![Voorbeeld van een organisatiestructuur.](./media/dimension-hierarchy-org.png)
+![Voorbeeld van een organisatiestructuur](./media/dimension-hierarchy-org.png)
 
 Een kostenobjectdimensie vertegenwoordigt alle kostenplaatsen in de organisatie.
 
@@ -122,13 +125,12 @@ Een dimensiehiërarchie die voldoet aan de rapportagevereisten van de organisati
 
 De dimensiehiërarchie voor rapportage kan worden ingesteld zoals hier wordt weergegeven.
 
-**Bereiken van dimensieleden**
-
-|   Knooppunten           |   Van dimensielid   |   Tot dimensielid   |
+|                   | Bereiken van dimensieleden   |                         |
 |-------------------|---------------------------|-------------------------|
+| **Knooppunten**         | **Van dimensielid** | **Tot dimensielid** |
 | Organisatie      |                           |                         |
 | &nbsp;&nbsp;Beheer         |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Financiën   | CC002                     | CC003                   |
+|&nbsp;&nbsp;&nbsp;&nbsp;Financiën   | CC002                     | CC003                   |
 |                   | CC007                     | CC007                   |
 | &nbsp;&nbsp;&nbsp;&nbsp;HR        | CC001                     | CC001                   |
 | &nbsp;&nbsp;Productie    |                           |                         |
@@ -145,13 +147,12 @@ Een dimensiehiërarchie die voldoet aan de beleidsvereiste kan worden ingesteld 
 
 De dimensiehiërarchie voor het beleid kan worden ingesteld zoals hier wordt weergegeven.
 
-**Bereiken van dimensieleden**
-
-|   Knooppunten           |   Van dimensielid   |   Tot dimensielid   |
+|                   | Bereiken van dimensieleden   |                         |
 |-------------------|---------------------------|-------------------------|
+| **Knooppunten**         | **Van dimensielid** | **Tot dimensielid** |
 | Kostengedrag     |                           |                         |
 | &nbsp;&nbsp;Vaste kosten    | 10001                     | 10011                   |
-| &nbsp;&nbsp;Variabele kosten | 40001                     | 40010                   |
+|&nbsp;&nbsp;Variabele kosten | 40001                     | 40010                   |
 
 > [!NOTE]
 > Onder **Bereiken van dimensieleden** kan een knooppunt 1:_n_ bereiken van dimensieleden bevatten. U kunt de dimensielid-id´s invoegen die nog niet bestaan als dimensieleden. Deze benadering maakt de hiërarchie flexibel voor de toekomst.  
@@ -297,10 +298,9 @@ Alle managers kunnen mogelijk toegang krijgen tot zeer gevoelige bedrijfsgegeven
 
 Het nieuwe sneltabblad **Gebruikers** is beschikbaar in de hiërarchieontwerper. Hier kunt u een of meer gebruikers-id´s in elk knooppunt van de hiërarchie invoegen.
 
-**Gebruikers en bereiken van dimensieleden**
-
-|   Knooppunten         |   Gebruikers-ID        |   Van dimensielid   |   Tot dimensielid   |
+|                 | Gebruikers            | Bereiken van dimensieleden   |                         |
 |-----------------|------------------|---------------------------|-------------------------|
+| **Knooppunten**       | **Gebruikers-id**      | **Van dimensielid** | **Tot dimensielid** |
 | Organisatie    | Benjamin, Claire |                           |                         |
 | &nbsp;&nbsp;Beheer         | april            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Financiën   | Alicia           | CC002                     | CC003                   |
@@ -331,8 +331,5 @@ De instellingen voor de hiërarchie van toegangslijsten worden gebruikt om de ge
     - Power BI-gegevensvisualisaties die zijn ingesloten in de Dynamics 365 Finance-client
 
 > [!NOTE] 
-> - Voordat de hiërarchie van toegangslijsten van invloed kan zijn op gegevens in Power BI, moeten de hiërarchie van toegangslijsten en beveiliging op rijniveau in Power BI worden gekoppeld. Zie [Beveiliging instellen voor het inhoudpakket Kostprijsboekhouding](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md) voor meer informatie.
+> - Voordat de hiërarchie van toegangslijsten van invloed kan zijn op gegevens in Power BI, moeten de hiërarchie van toegangslijsten en beveiliging op rijniveau in Power BI worden gekoppeld. Zie [Beveiliging instellen voor het inhoudpakket Kostprijsboekhouding](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md) voor meer informatie.
 > - De hiërarchie van toegangslijsten helpen de export van gegevens naar Excel niet beveiligen. Daarom moet die rapportagefunctie alleen worden gebruikt door kostenaccountants en managers die volledige toegang moeten hebben om de gegevens weer te geven.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

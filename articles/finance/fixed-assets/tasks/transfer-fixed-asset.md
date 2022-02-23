@@ -1,30 +1,33 @@
 ---
 title: Een vast activum overboeken
 description: Deze taakbegeleiding boekt de financiële gegevens voor het vaste-activaboek over van een set financiële dimensies naar een nieuwe set financiële dimensies.
-author: moaamer
+author: saraschi2
+manager: AnnBe
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetTransfer, DimensionLookup, AssetTransferConfirmation
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e573386ddbb97bf60e2e501ba92b225f8716c73a
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: eb38483d3ac61acb4513e87d8c36ddd0f8863a10
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883357"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441975"
 ---
 # <a name="transfer-a-fixed-asset"></a>Een vast activum overboeken
 
 [!include [banner](../../includes/banner.md)]
 
-Deze taakbegeleiding boekt de financiële gegevens voor het vaste-activaboek over van een set financiële dimensies naar een nieuwe set financiële dimensies.  
+Deze taakbegeleiding boekt de financiële gegevens voor het vaste-activaboek over van een set financiële dimensies naar een nieuwe set financiële dimensies.  Het gebruikt de accountantsrol en demogegevens voor de USMF-rechtspersoon.
 
 1. Ga in het navigatievenster naar **Modules > Vaste activa > Vaste activa > Vaste activa**.
 2. Zoek en selecteer in de lijst het vaste activum om over te boeken.
@@ -45,6 +48,3 @@ Deze taakbegeleiding boekt de financiële gegevens voor het vaste-activaboek ove
     * Controleer resultaten voordat de vaste-activumboeken worden overgeboekt.  
 10. Klik op **Overboeken**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

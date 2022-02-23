@@ -80,6 +80,3 @@ Zie [Problemen met integratie met LinkedIn en Microsoft Dynamics 365 Talent - At
 [Kandidaten zoeken met LinkedIn Recruiter](./attract-linkedin-recruiter.md)
 
 [Problemen met integratie met LinkedIn oplossen](./attract-troubleshoot-linkedin.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

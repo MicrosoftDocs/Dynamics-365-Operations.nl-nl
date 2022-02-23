@@ -1,32 +1,35 @@
 ---
 title: Lineaire afschrijving van levensduur
-description: Dit onderwerp geeft een overzicht van de afschrijvingsmethode ´Lineaire afschrijving van levensduur´.
-author: moaamer
+description: Dit artikel geeft een overzicht van de afschrijvingsmethode Lineaire levensduur.
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 3341
 ms.assetid: ae5ceaeb-aeb7-45cd-b835-23cf9c5cf95a
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b34cdf9485d38cdbf1362bd605841201a4295f26
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 7b7b9b240156263b4dc1bc308a7f4457380a27f3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675266"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441995"
 ---
 # <a name="straight-line-service-life-depreciation"></a>Lineaire afschrijving van levensduur
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp geeft een overzicht van de afschrijvingsmethode ´Lineaire afschrijving van levensduur´.
+Dit artikel geeft een overzicht van de afschrijvingsmethode Lineaire levensduur.
 
 Wanneer u een afschrijvingsprofiel voor vaste activa instelt en Lineaire levensduur selecteert in het veld Methode van de pagina Afschrijvingsprofielen, worden de activa waaraan dit afschrijvingsprofiel is toegewezen, afgeschreven op basis van de totale levensduur van het activum. Dit is over het algemeen in elke afschrijvingsperiode hetzelfde afschrijvingsbedrag. 
 
@@ -44,11 +47,11 @@ Als u Kalender selecteert, wordt uitgegaan van een jaar van 1 januari t/m 31 dec
 Met de optie Kalender wordt de afschrijvingsbasis (doorgaans de nettoboekwaarde min de restwaarde) bijgewerkt op 1 januari van elk jaar. In de voorbeelden verderop in dit onderwerp is de afschrijvingsbasis de teller in de eerste expressie in de berekeningenkolom. 
 
 Als u Kalender selecteert, zijn de volgende opties beschikbaar in het veld Periodefrequentie. Dit veld bepaalt voor het gehele kalenderjaar de boekdatums en bedragen voor de toerekening van de afschrijving:
-- Met Jaarlijks wordt een bedrag geboekt op 31 december.
-- Maandelijks: aan het einde van elke kalendermaand wordt een maandbedrag geboekt.
-- Driemaandelijks: aan het einde van elk kwartaal (31 maart, 30 juni, 30 september en 31 december) wordt een kwartaalbedrag geboekt.
-- Met Zesmaandelijks wordt aan het einde van elk half jaar (30 juni en 31 december) een halfjaarlijks bedrag geboekt.
-- Met Dagelijks wordt het afschrijvingsbedrag voor de dagelijkse afschrijvingsmethode geboekt met één transactie voor elke dag.
+-   Met Jaarlijks wordt een bedrag geboekt op 31 december.
+-   Maandelijks: aan het einde van elke kalendermaand wordt een maandbedrag geboekt.
+-   Driemaandelijks: aan het einde van elk kwartaal (31 maart, 30 juni, 30 september en 31 december) wordt een kwartaalbedrag geboekt.
+-   Met Zesmaandelijks wordt aan het einde van elk half jaar (30 juni en 31 december) een halfjaarlijks bedrag geboekt.
+-   Met Dagelijks wordt het afschrijvingsbedrag voor de dagelijkse afschrijvingsmethode geboekt met één transactie voor elke dag.
 
 Als u bijvoorbeeld Jaarlijks selecteert, wordt de jaarlijkse afschrijving wordt slechts één keer geboekt. Dit is telkens op 31 december. Als u Maandelijks selecteert, wordt de maandelijkse afschrijving elke maand als 1/12de van het jaarlijkse afschrijvingsbedrag geboekt.
 
@@ -59,15 +62,15 @@ Als u Fiscaal selecteert in het veld Afschrijvingsjaar wordt de lineaire afschri
 Voor bijvoorbeeld het boekjaar van 1 juli t/m 30 juni wordt de afschrijving vanaf 1 juli berekend. Een boekjaar kan langer of korter dan 12 maanden zijn. De afschrijving wordt automatisch voor elke boekperiode aangepast. De lengte van het volgende boekjaar is gebaseerd op de boekperioden die u instelt wanneer u een nieuw boekjaar maakt in de pagina Fiscale kalenders. 
 
 Als u Fiscaal selecteert in het veld Periodefrequentie, dan zijn de volgende opties beschikbaar:
-- De optie Jaarlijks boekt het totale bedrag van de afschrijving die is berekend voor het boekjaar als één bedrag op de laatste dag van het boekjaar.
-- De optie Fiscale periode berekent het totale bedrag van de afschrijving voor het boekjaar, dat wordt toegerekend in de boekperioden die zijn gedefinieerd in de pagina Fiscale kalenders voor de fiscale kalender.
+-   De optie Jaarlijks boekt het totale bedrag van de afschrijving die is berekend voor het boekjaar als één bedrag op de laatste dag van het boekjaar.
+-   De optie Fiscale periode berekent het totale bedrag van de afschrijving voor het boekjaar, dat wordt toegerekend in de boekperioden die zijn gedefinieerd in de pagina Fiscale kalenders voor de fiscale kalender.
 
 ## <a name="example-straight-line-depreciation-of-an-unchanged-fixed-asset"></a>Voorbeeld: lineaire afschrijving van een ongewijzigd vast activum
 Stel dat een vast activum de volgende kenmerken heeft.
 
-| Kenmerk      | Waarde  |
-|:---------------------|--------:|
-| Bijboekingskosten    | 11,000 |
+|                     |        |
+|---------------------|--------|
+| Verwervingskosten    | 11.000 |
 | Restwaarde       | 1.000  |
 | Afschrijvingsbasis   | 10.000 |
 | Levensduur in jaren  | 5      |
@@ -76,7 +79,7 @@ Stel dat een vast activum de volgende kenmerken heeft.
 U krijgt elk jaar hetzelfde afschrijvingsbedrag. (Aanschafkosten - restwaarde) / jaren levensduur
 
 | Periode | Berekening van het jaarlijkse afschrijvingsbedrag | Nettoboekwaarde aan het einde van het jaar |
-|:--------:|:-------------------------------------------|---------------------------------------:|
+|--------|-------------------------------------------|---------------------------------------|
 | Jaar 1 | (11.000 - 1.000) / 5 = 2.000              | 9.000                                 |
 | Jaar 2 | (11.000 - 1.000) / 5 = 2.000              | 7.000                                 |
 | Jaar 3 | (11.000 - 1.000) / 5 = 2.000              | 5.000                                 |
@@ -90,7 +93,7 @@ Stel dat u een bijboekingscorrectie van 4000 in jaar 2 aan hetzelfde vaste activ
 De levensduur van de bijboekingscorrectie is gelijk aan die van het vaste activum en begint op het moment van bijboeken. Aan het eind van jaar 5 blijft er een nettoboekwaarde over die overeenkomt met de nettoboekwaarde van de bijboekingscorrectie. De afschrijving per periode wordt berekend zoals in de volgende tabel.
 
 | Periode | Berekening van het jaarlijkse afschrijvingsbedrag | Nettoboekwaarde aan het einde van het jaar |
-|:--------:|:-------------------------------------------|---------------------------------------:|
+|--------|-------------------------------------------|---------------------------------------|
 | Jaar 1 | 10.000 / 5 = 2.000                        | 11.000 - 2.000 = 9.000                |
 | Jaar 2 | 4.000 (verwervingscorrectie)            | 9.000 + 4.000 =13.000                 |
 | Jaar 2 | 14.000 / 5 = 2.800                        | 13.000 - 2.800 = 10.200               |
@@ -105,6 +108,3 @@ De levensduur van de bijboekingscorrectie is gelijk aan die van het vaste activu
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

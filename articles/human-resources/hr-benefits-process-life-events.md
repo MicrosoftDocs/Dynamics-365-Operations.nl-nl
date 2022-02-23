@@ -1,35 +1,33 @@
 ---
 title: Levensgebeurtenissen verwerken
 description: Tijdens de levenscyclus van werknemers in Microsoft Dynamics 365 Human Resources, kan iedere werknemer verschillende levensgebeurteniswijzigingen ondergaan.
-author: twheeloc
-ms.date: 08/23/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes, BenefitEligibilityProcessResultViewer
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9155795edf657d6589539e58d4c1536f7e9d64c3
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ada986888a22afe83885985a694cd00ff94c9217
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069650"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417929"
 ---
 # <a name="process-life-events"></a>Levensgebeurtenissen verwerken
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Tijdens de levenscyclus van werknemers in Microsoft Dynamics 365 Human Resources, kan iedere werknemer verschillende levensgebeurteniswijzigingen ondergaan. Bijvoorbeeld een huwelijk, verandering van werk of wijziging van gezinsleden of begunstigden. Als u levensgebeurtenissen wilt gebruiken, moet u levensgebeurtenissen inschakelen op de pagina **Parameters voor vergoedingen** en opties voor levensgebeurtenissen instellen voor plantypen.
+Tijdens de levenscyclus van werknemers in Microsoft Dynamics 365 Human Resources, kan iedere werknemer verschillende levensgebeurteniswijzigingen ondergaan. Bijvoorbeeld een huwelijk, verandering van werk of wijziging van gezinsleden of begunstigden. Als u levensgebeurtenissen wilt gebruiken, moet u levensgebeurtenissen inschakelen in het formulier voor parameters voor vergoedingen en opties voor de levensgebeurtenissen instellen voor plantypen.
 
 Voordat u de levensgebeurtenissen kunt verwerken, moet u al minimaal eenmaal een open inschrijving hebben uitgevoerd tijdens een aanstellingstijdvak. In de Verenigde Staten vindt een open inschrijving meestal eenmaal per jaar plaats. Buiten de Verenigde Staten kan de open inschrijving worden uitgevoerd op het moment van de aanstelling. Een medewerker hoeft geen vergoedingsplan te selecteren om te zorgen dat levensgebeurtenissen worden verwerkt, maar de medewerker moeten wel zijn opgenomen in de verwerking van een openstaande inschrijving. 
 
@@ -59,6 +57,3 @@ Als het bijvoorbeeld vandaag 1 februari is, op 14 februari medewerker Joe Smith 
    4. Selecteer **OK**. Het proces wordt uitgevoerd met de parameters die u instelt.
 
 4. Selecteer **OK**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

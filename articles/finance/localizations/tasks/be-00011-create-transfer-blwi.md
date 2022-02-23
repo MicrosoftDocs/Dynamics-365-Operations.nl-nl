@@ -2,22 +2,25 @@
 title: Transacties maken en overboeken naar het BLWI (België)
 description: Deze procedure begeleidt u bij het maken van een BLWI-rapport voor België.
 author: v-oloski
+manager: AnnBe
 ms.date: 07/12/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations
 ms.search.region: Belgium
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4ee9dea635614729b4b6cf4e5ae935193861111
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: d09feb3d78f4ad4ff8de8fbf564ec7225672e1e9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403905"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408316"
 ---
 # <a name="create-and-transfer-transactions-to-the-blwi-belgium"></a>Transacties maken en overboeken naar het BLWI (België)
 
@@ -48,6 +51,3 @@ Klant- of leverancierstransacties gemarkeerd met een van de gekozen betalingsdoe
 17. Klik op OK.
 18. Sluit de pagina.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

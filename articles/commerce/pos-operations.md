@@ -2,12 +2,15 @@
 title: Online en offline verkooppuntbewerkingen (POS)
 description: Dit onderwerp bevat meer informatie over POS-bewerkingen (Point Of Sale) in Dynamics 365 Commerce. Hier wordt aangegeven waar in de toepassing de bewerkingen kunnen worden aangeroepen en of deze beschikbaar zijn in de offlinemodus.
 author: jblucher
-ms.date: 11/30/2021
+manager: AnnBe
+ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -15,18 +18,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 88daca466e0e01bf3870b6eeee0628e0c159fea3
-ms.sourcegitcommit: 971456c197820421f108ad7345001cc1b6c99949
+ms.openlocfilehash: 7dc9f85bf90e6ddf9badf656eb136e28a71b036f
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "7875472"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594108"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Online en offline verkooppuntbewerkingen (POS)
 
 [!include [banner](includes/banner.md)]
 
-De meeste acties die gebruikers uitvoeren in POS worden beschouwd als bewerkingen. Bewerkingen worden geconfigureerd en beheerd in de back-office van Dynamics 365 Commerce. Veel bewerkingen kunnen worden toegevoegd aan knoppen in het POS-knoppenraster. Gebruikers kunnen de knoppen vervolgens selecteren om de bewerkingen aan te roepen en hun functie uit te voeren. Andere bewerkingen maken deel uit van de POS-hoofdtoepassing en worden aangeroepen via schermknoppen of als onderdeel van andere workflows of processen.
+De meeste acties die de gebruiker uitvoert in POS worden beschouwd als bewerkingen. Bewerkingen worden geconfigureerd en beheerd in de back-office van Dynamics 365 Commerce. Veel bewerkingen kunnen worden toegevoegd aan knoppen in het POS-knoppenraster. Gebruikers kunnen de knoppen vervolgens selecteren om de bewerkingen aan te roepen en hun functie uit te voeren. Andere bewerkingen maken deel uit van de POS-hoofdtoepassing en worden aangeroepen via schermknoppen of als onderdeel van andere workflows of processen.
 
 De volgende tabel bevat informatie over de bewerkingen die beschikbaar zijn in Modern POS en Cloud POS. In de tabel wordt ook aangegeven waar in de toepassing de bewerkingen kunnen worden aangeroepen en of deze beschikbaar zijn als het POS zich in de offlinemodus bevindt.
 
@@ -72,17 +75,18 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 | 121 | Verkoper wissen | Deze bewerking wordt niet ondersteund. | Niet van toepassing | Niet van toepassing | Niet van toepassing | Niet van toepassing | Nee |
 | 1055 | Ploeg sluiten | De huidige ploeg sluiten, een Z-rapport afdrukken en de gebruiker afmelden bij het systeem. | Ja | Ja | Ja | Nee | Nee |
 | 139 | Transactie afsluiten | De gebruiker wordt gevraagd de betalingsmethode te selecteren | Ja | Ja | Nee | Ja | Nee |
+| 620 | Klantorder maken | De POS-transactie omzetten in een klantorder. | Ja | Ja | Nee | Ja\* | Nee |
 | 925 | De bankcheque kopiëren | Deze bewerking wordt niet ondersteund. | Niet van toepassing | Niet van toepassing | Niet van toepassing | Niet van toepassing | Ja |
 | 620 | Klantorder maken | De POS-transactie omzetten in een klantorder. | Ja | Ja | Nee | Ja\* | Nee |
 | 621 | Offerte maken | De POS-transactie omzetten in een verkoopofferte. | Ja | Ja | Nee | Ja\* | Nee |
-| 636 | Detailhandelstransactie maken | Een standaardverkooptransactie maken wanneer het standaardgedrag voor POS het maken van klantorders is. | Ja | Ja | Nee | Ja | Nee |
+| 636 | Detailhandelstransactie maken | Met deze bewerking kan de gebruiker een standaardverkooptransactie maken wanneer het standaardgedrag voor POS het maken van klantorders is. | Ja | Ja | Nee | Ja | Nee |
 | 600 | Klant | Voeg de opgegeven klant toe aan de transactie. | Nee | Nee | Nee | Ja | Nee |
 | 1100 | Klantrekeningdeposito | Een betaling uitvoeren naar de rekening van een klant. | Ja | Ja | Ja | Ja | Ja |
-| 612 | Klant toevoegen | Een nieuwe klantregistratie maken. | Ja | Ja | Ja | Ja† | Nee |
+| 612 | Klant toevoegen | Met deze bewerking kan de gebruiker een nieuwe klantregistratie maken. | Ja | Ja | Ja | Ja† | Nee |
 | 603 | Klant wissen | De klant verwijderen uit de huidige transactie. | Ja | Ja | Nee | Ja | Nee |
-| 602 | Klant zoeken | Een klantregistratie zoeken door te navigeren naar de pagina voor het zoeken van klanten in het POS. | Ja | Ja | Ja | Ja | Nee |
+| 602 | Klant zoeken | Met deze bewerking kan de gebruiker een klantregistratie zoeken door te navigeren naar de pagina voor het zoeken van klanten in het POS. | Ja | Ja | Ja | Ja | Nee |
 | 609 | Klanttransacties | Deze bewerking wordt niet ondersteund. | Niet van toepassing | Niet van toepassing | Niet van toepassing | Niet van toepassing | Nee |
-| 917 | Status van databaseverbinding | De huidige verbindingsinstellingen weergeven en schakelen tussen online- en offlinemodi. | Ja | Ja | Ja | Ja | Nee |
+| 917 | Status van databaseverbinding | Met deze bewerking kan de gebruiker de huidige verbindingsinstellingen weergeven en schakelen tussen online- en offlinemodi. | Ja | Ja | Ja | Ja | Nee |
 | 1200 | Beginbedrag declareren | Het bedrag in de kassalade aan het begin van de dag of werktijd registreren. | Ja | Ja | Ja | Ja | Nee |
 | 132 | Deposito overschrijven | Het standaard deposito voor orders van klanten negeren. | Ja | Ja | Nee | Ja\* | Nee |
 | 913 | Ontwerpmodus uitschakelen | Deze bewerking wordt niet ondersteund. | Niet van toepassing | Niet van toepassing | Niet van toepassing | Niet van toepassing | Nee |
@@ -95,14 +99,14 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 | 615 | Offerte bewerken | De geselecteerde offerte intrekken zodat deze kan worden gewijzigd in het POS. | Nee | Nee | Nee | Nee | Nee |
 | 518 | Uitgavenrekeningen | Het geld registreren dat voor incidentele uitgaven uit de kassalade wordt genomen. | Ja | Ja | Ja | Ja | Nee |
 | 919 | Uitgebreide aanmelding | De machtiging voor aanmelding door een streepjescode te scannen of een kaart door de lezer te halen, toewijzen of verwijderen. | Ja | Ja | Ja | Ja | Nee |
-| 1201 | Wisselgeldinvoer | Extra geld toevoegen aan de huidige lade of ploeg. | Ja | Ja | Ja | Ja | Nee |
+| 1201 | Wisselgeldinvoer | Met deze bewerking kan de gebruiker extra geld toevoegen aan de huidige lade of ploeg. | Ja | Ja | Ja | Ja | Nee |
 | 1218 | Ontgrendelen van randapparaat forceren | Deze bewerking wordt intern door het systeem gebruikt voor het ontgrendelen van POS-randapparatuur. | Niet van toepassing | Niet van toepassing | Niet van toepassing | Niet van toepassing | Nee |
 | 520 | Geschenkbonsaldo | Het huidige saldo van een geschenkbon weergeven. | Ja | Ja | Nee | Nee | Nee |
 | 708 | Apparaat deactiveren | Het huidige apparaat uitschakelen zodat het niet kan worden gebruikt als een POS-kassa. | Nee | Nee | Nee | Nee | Nee |
 | 804 | inkomende bewerking | Toegang verkrijgen tot de functies van inkomend winkelvoorraadbeheer. | Ja | Nee | Ja | Nee| Nee |
 | 517 | Inkomstenrekeningen | Het geld registreren dat om een andere reden dan een verkoop in de kassalade wordt gedaan. | Ja | Ja | Ja | Ja | Nee |
 | 801 | Zoeken in voorraad | Beschikbare hoeveelheden, hoeveelheden in bestelling en ATP-hoeveelheden (available-to-promise) voor de huidige winkel en andere beschikbare locaties opzoeken. | Ja | Ja | Ja | Nee | Nee |
-| 122 | Factuuropmerking | Een opmerking over de huidige transactie invoeren. | Ja | Ja | Nee | Ja | Nee |
+| 122 | Factuuropmerking | Met deze bewerking kan de gebruiker een opmerking invoeren over de huidige transactie. | Ja | Ja | Nee | Ja | Nee |
 | 511 | Creditnota uitgeven | Een creditnota uitgeven om een boekstuk op te geven in plaats van een restitutie. | Ja | Ja | Nee | Nee | Nee |
 | 512 | Geschenkbon uitgeven | Een nieuwe geschenkbon uitgeven voor het opgegeven bedrag. | Ja | Ja | Nee | Nee | Nee |
 | 625 | Loyaliteitskaart uitgeven | Een loyaliteitskaart uitgeven aan een klant, zodat deze kan deelnemen aan het loyaliteitsprogramma van de winkel. | Ja | Ja | Ja | Nee | Nee |
@@ -116,7 +120,7 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 | 914 | POS-venster minimaliseren | Deze bewerking wordt niet ondersteund. | Niet van toepassing | Niet van toepassing | Niet van toepassing | Niet van toepassing | Nee |
 | 1000 | Lade openen | Een niet-verkoopbewerking uitvoeren en de momenteel geselecteerde kassalade openen. | Ja | Ja | Ja | Ja | Nee |
 | 928 | Orderafhandeling | Met deze bewerking kunnen gebruikers orders voor afhalen in de winkel verzamelen, verpakken, verzenden of intrekken. | Ja | Ja | Ja | Nee | Nee |
-| 805 | Uitgaande bewerking | Toegang verkrijgen tot functies voor het beheren van zendingen van uitgaande overboekingsorders. | Ja | Nee | Ja | Nee| Nee |
+| 805 | Uitgaande bewerking | Toegang verkrijgen tot functies voor het beheren van zendingen van uitgaande transferorders. | Ja | Nee | Ja | Nee| Nee |
 | 129 | Btw voor regelproducten overschrijven | Het btw-tarief voor het geselecteerde regelartikel overschrijven en een ander opgegeven btw-tarief gebruiken. | Ja | Ja | Nee | Ja | Nee |
 | 130 | Btw voor regelproducten overschrijven vanuit lijst | Het btw-tarief voor het geselecteerde regelartikel overschrijven en het tarief gebruiken dat de gebruiker selecteert in een lijst. | Ja | Ja | Nee | Ja | Nee |
 | 127 | Btw voor transacties overschrijven | Het btw-tarief voor de transactie overschrijven en een ander opgegeven tarief gebruiken. | Ja | Ja | Nee | Ja | Nee |
@@ -146,42 +150,42 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 | 1056 | X afdrukken | Een X-rapport afdrukken voor de huidige ploeg. | Ja | Ja | Ja | Nee | Nee |
 | 103 | Productopmerking | Voeg een opmerking toe aan het geselecteerde regelartikel in de transactie. | Ja | Ja | Nee | Ja | Nee |
 | 100 | Productverkoop | Een opgegeven product toevoegen aan de transactie. | Ja | Ja | Ja | Ja | Nee |
-| 108 | Artikel zoeken | Een product zoeken door te navigeren naar de pagina voor het zoeken van producten in het POS. | Ja | Ja | Ja | Ja | Nee |
-| 633 | Vervaldatum van offerte | De vervaldatum op een verkoopofferte weergeven of wijzigen. | Ja | Ja | Nee | Ja\* | Nee |
+| 108 | Artikel zoeken | Met deze bewerking kan de gebruiker een product zoeken door te navigeren naar de pagina voor het zoeken van producten in het POS. | Ja | Ja | Ja | Ja | Nee |
+| 633 | Vervaldatum van offerte | Met deze bewerking kan de gebruiker de vervaldatum op een verkoopofferte weergeven of wijzigen. | Ja | Ja | Nee | Ja\* | Nee |
 | 627 | Opnieuw berekenen | Alle klantorderregels en btw opnieuw berekenen, op basis van de huidige configuratie. | Ja | Ja | Nee | Ja\* | Nee |
 | 143 | Toeslagen opnieuw berekenen | De automatische toeslagen die op de order zijn toegepast, opnieuw berekenen. | Ja | Ja | Nee | Nee| Nee |
-| 515 | Order intrekken | Klantorders en verkoopoffertes zoeken en intrekken. | Ja | Ja | Ja | Nee | Nee |
-| 504 | Transactie intrekken | Een eerder uitgestelde transactie voor de huidige winkel intrekken. | Ja | Ja | Nee | Ja‡ | Nee |
+| 515 | Order terugroepen | Met deze bewerking kan de gebruiker klantorders en verkoopoffertes zoeken en intrekken. | Ja | Ja | Ja | Nee | Nee |
+| 504 | Transactie intrekken | Met deze bewerking kan de gebruiker een eerder uitgestelde transactie voor de huidige winkel intrekken. | Ja | Ja | Nee | Ja‡ | Nee |
 | 305 | Loyaliteitspunten inwisselen | Deze bewerking wordt niet ondersteund. | Niet van toepassing | Niet van toepassing | Niet van toepassing | Niet van toepassing | Ja |
-| 635 | Verzendkosten terugbetalen | Verzendkosten voor een geannuleerde order terugbetalen. | Nee | Nee | Nee | Nee | Nee |
+| 635 | Verzendkosten terugbetalen | Met deze bewerking kan de gebruiker verzendkosten voor een geannuleerde order terugbetalen. | Nee | Nee | Nee | Nee | Nee |
 | 644 | Couponcode verwijderen | De gebruiker vragen om coupons te verwijderen door ze te selecteren in een lijst met coupons die aan de transactie zijn gekoppeld. | Ja | Ja | Nee | Ja | Nee |
 | 1057 | Z opnieuw afdrukken | Het Z-rapport voor de vorige ploeg of een geselecteerde ploeg opnieuw afdrukken. | Ja | Ja | Ja | Nee | Nee |
 | 1216 | Voer een nieuw wachtwoord in | Met deze bewerking kan een gebruiker met de machtiging voor het opnieuw instellen van wachtwoorden het wachtwoord van een andere werknemer opnieuw instellen met behulp van een tijdelijk wachtwoord. | Ja | Ja | Ja | Nee | Nee |
-| 1219 | URL openen in POS | In POS een URL openen die is geconfigureerd door een beheerder. | Ja | Ja | Ja | Ja | Nee |
+| 1219 | URL openen in POS | Met deze bewerking kan een gebruiker in POS een URL openen die is geconfigureerd door een beheerder. | Ja | Ja | Ja | Ja | Nee | 
 | 109 | Product retourneren | Afzonderlijke producten retourneren. Het volgende gescande product wordt weergegeven als een geretourneerd product met een negatieve hoeveelheid en prijs. | Ja | Ja | Nee | Ja | Nee |
 | 114 | Retourtransactie | Een eerdere transactie op basis van het ontvangstbewijsnummer intrekken om sommige of alle producten terug te halen. | Ja | Ja | Ja | Ja§ | Nee |
 | 1211 | Kluisstorting | Voer een kluisstorting uit om geld van een kassa naar een kluis te verplaatsen. | Ja | Ja | Ja | Ja | Nee |
 | 516 | Verkoopfactuur | Met deze bewerking kan de klant betalingen doen voor de geselecteerde verkoopfactuur. | Ja | Ja | Nee | Nee | Nee |
-| 502 | Verkoper | De waarde voor **Verkoopafnemer** in een verkooporder instellen voor klantorders in het POS. | Ja | Ja | Nee | Ja\* | Nee |
+| 502 | Verkoper | Met deze bewerking kan de gebruiker de waarde voor **Verkoopafnemer** in een verkooporder instellen voor klantorders in het POS. | Ja | Ja | Nee | Ja\* | Nee |
 | 2000 | Beheer plannen | Deze bewerking wordt nog niet ondersteund. | Ja | Ja | Ja | Nee | Nee |
 | 2001 | Aanvragen plannen | Deze bewerking wordt nog niet ondersteund. | Ja | Ja | Ja | Nee | Nee |
 | 622 | Orders zoeken | Met deze bewerking kunnen gebruikers POS-knoppen vooraf configureren om te zoeken op artikel, klant of categorie. | Ja | Ja | Ja | Ja | Nee |
 | 1213 | Verzendadres zoeken | Deze bewerking wordt niet ondersteund. | Niet van toepassing | Niet van toepassing | Niet van toepassing | Niet van toepassing | Nee |
-| 709 | Hardwarestation selecteren | Een hardwarestation in een lijst met beschikbare hardwarestations selecteren. | Ja | Ja | Ja | Ja | Nee |
-| 637 | Standaard verkoopvertegenwoordiger instellen voor transactie | Een van de in aanmerking komende provisieverkoopgroepen (vertegenwoordigers) selecteren als de standaardvertegenwoordiger voor regels die later worden toegevoegd. | Ja | Ja | Nee | Ja | Nee |
+| 709 | Hardwarestation selecteren | Met deze bewerking kan de gebruiker een hardwarestation in een lijst met beschikbare hardwarestations selecteren. | Ja | Ja | Ja | Ja | Nee |
+| 637 | Standaard verkoopvertegenwoordiger instellen voor transactie | Met deze bewerking kan de gebruiker een van de in aanmerking komende provisieverkoopgroepen (vertegenwoordigers) selecteren als de standaardvertegenwoordiger voor regels die later worden toegevoegd. | Ja | Ja | Nee | Ja | Nee |
 | 105 | Hoeveelheid instellen | Wijzig de hoeveelheid van een regelartikel in de transactie. | Ja | Ja | Nee | Ja | Nee |
-| 638 | Verkoopvertegenwoordiger instellen op regel | Een van de in aanmerking komende provisieverkoopgroepen (vertegenwoordigers) selecteren voor de momenteel geselecteerde regel. | Ja | Ja | Nee | Ja | Nee |
+| 638 | Verkoopvertegenwoordiger instellen op regel | Met deze bewerking kan de gebruiker een van de in aanmerking komende provisieverkoopgroepen (vertegenwoordigers) selecteren voor de momenteel geselecteerde regel. | Ja | Ja | Nee | Ja | Nee |
 | 630 | Alle producten verzenden | De afhandelingsmodus instellen op **Verzenden** voor alle regelartikelen. | Ja | Ja | Nee | Ja\* | Nee |
 | 629 | Geselecteerde producten verzenden | De afhandelingsmodus voor de geselecteerde regels instellen op **Verzenden**. | Ja | Ja | Nee | Ja\* | Nee |
-| 115 | Journaal weergeven | Het journaal van de winkel weergeven. U kunt transacties weergeven, ontvangstbewijzen en giftontvangsten opnieuw afdrukken en intrekken voor retour. | Ja | Ja | Ja | Ja\*\* | Nee |
-| 802 | Voorraadtelling | Voorraadtellingsjournalen maken of wijzigen voor fysieke voorraad of cyclustellingen. | Ja | Ja | Ja | Nee | Nee |
+| 115 | Journaal weergeven | Het journaal van de winkel weergeven. U kunt transacties weergeven, ontvangstbewijzen en giftontvangsten opnieuw afdrukken en terugroepen voor retour. | Ja | Ja | Ja | Ja\*\* | Nee |
+| 802 | Voorraadtelling | Met deze bewerking kan de gebruiker voorraadtellingsjournalen maken of wijzigen voor fysieke voorraad of cyclustellingen. | Ja | Ja | Ja | Nee | Nee |
 | 401 | Submenu | Met deze bewerking gaat de gebruiker naar een ander gekoppeld knoppenraster. | Ja | Ja | Ja | Ja | Nee |
 | 1054 | Ploeg uitstellen | De huidige ploeg uitstellen zodat een nieuwe of andere ploeg kan worden geactiveerd voor het huidige register. | Ja | Ja | Ja | Nee | Nee |
 | 503 | Transactie uitstellen | De huidige verkooptransactie uitstellen zodat deze later in de winkel kan worden ingetrokken. | Ja | Ja | Nee | Ja‡ | Nee |
 | 1004 | Taakregistratie | Taakregistratie openen om procedurestappen in het POS vast te leggen. | Nee | Nee | Nee | Ja | Nee |
-| 1052 | Kascontrole | Het opgegeven geldbedrag in de lade voor elke getelde betalingsmethode opgeven. | Ja | Ja | Ja | Ja | Nee |
-| 1210 | Wisselgeld verwijderen | Geld verwijderen uit de huidige lade of ploeg. | Ja | Ja | Ja | Ja | Nee |
-| 920 | Tijdklok | In- en uitklokken voor ploegendiensten en pauzes. | Ja | Ja | Ja | Nee | Nee |
+| 1052 | Kascontrole | Met deze bewerking kan de gebruiker het opgegeven geldbedrag in de lade voor elke getelde betalingsmethode opgeven. | Ja | Ja | Ja | Ja | Nee |
+| 1210 | Wisselgeld verwijderen | Met deze bewerking kan de gebruiker geld verwijderen uit de huidige lade of ploeg. | Ja | Ja | Ja | Ja | Nee |
+| 920 | Tijdklok | Met deze bewerking kunnen gebruikers in- en uitklokken voor ploegendiensten en pauzes. | Ja | Ja | Ja | Nee | Nee |
 | 302 | Totaal kortingsbedrag | Een kortingsbedrag invoeren voor de transactie. Deze bewerking geldt alleen voor kortingsartikelen en alleen binnen de opgegeven kortingslimieten. | Ja | Ja | Nee | Ja | Nee |
 | 303 | Totaal kortingspercentage | Een kortingspercentage invoeren voor de transactie. Deze bewerking geldt alleen voor kortingsartikelen en alleen binnen de opgegeven kortingslimieten. | Ja | Ja | Nee | Ja | Nee |
 | 501 | Opmerking bij transactie | Een opmerking toevoegen aan de huidige transactie. | Ja | Ja | Nee | Ja | Nee |
@@ -193,8 +197,8 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 | 500 | Ongeldig gemaakte transactie | De huidige transactie annuleren. | Ja | Ja | Nee | Ja | Nee |
 | 916 | Windows Workflow Foundation | Deze bewerking wordt niet ondersteund. | Niet van toepassing | Niet van toepassing | Niet van toepassing | Niet van toepassing | Nee |
 | 924 | X-rapport voor bankpassen | Deze bewerking wordt niet ondersteund. | Niet van toepassing | Niet van toepassing | Niet van toepassing | Niet van toepassing | Ja |
-| 311 | Systeemkortingen uit transacties verwijderen | Verwijder alle toegewezen systeemkortingen, inclusief couponkortingen, uit de transactie. Hiermee worden handmatige kortingen niet verwijderd. | Ja | Ja | Ja | Ja | Nee |
-| 312 | Systeemkortingen opnieuw toepassen | Pas systeemkortingen opnieuw toe op de transactie als deze zijn verwijderd met de bewerking **Systeemkortingen uit transacties verwijderen**. | Ja | Ja | Ja | Ja | Nee |
+| 311 | Systeemkortingen uit transacties verwijderen | Verwijder alle toegewezen systeemkortingen, inclusief couponkortingen, uit de transactie. Hiermee worden handmatige kortingen niet verwijderd. | Ja | Ja | Ja | Ja | No |
+| 312 | Systeemkortingen opnieuw toepassen | Pas systeemkortingen opnieuw toe op de transactie als deze zijn verwijderd met de bewerking **Systeemkortingen uit transacties verwijderen**. | Ja | Ja | Ja | Ja | No |
 
 \* De bewerking is alleen beschikbaar in de offlinemodus als een klantorder of verkoopofferte wordt gemaakt en alleen als het offline maken van klantorders en verkoopoffertes is geconfigureerd in het POS-functionaliteitsprofiel. De bewerking kan niet worden uitgevoerd wanneer orders worden gemaakt met Real-time Service of wanneer orders worden ingetrokken of bewerkt.
 
@@ -205,6 +209,3 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 § Als het POS offline is, kunnen alleen transacties in de huidige offlinedatabase worden ingetrokken voor retour.
 
 \*\* Als het POS offline is, kunnen alleen transacties in de huidige kanaaldatabase worden weergegeven in het journaal.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

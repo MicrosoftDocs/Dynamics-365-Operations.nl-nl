@@ -2,8 +2,11 @@
 title: De ER-functie NUMBERFORMAT
 description: Dit onderwerp biedt informatie over het gebruik van de ER-functie (Elektronische rapportage) NUMBERFORMAT.
 author: NickSelin
+manager: kfend
 ms.date: 12/10/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0208796382bd6564539ebbe3d902cc41dedce235adafefe1126961774cdb2076
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2c3907d1d2c74c852f4f90731e5f4bc23bfbd717
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749723"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680261"
 ---
 # <a name="numberformat-er-function"></a>De ER-functie NUMBERFORMAT
 
 [!include [banner](../includes/banner.md)]
 
-De functie `NUMBERFORMAT` retourneert een waarde van het type *Tekenreeks* die de opgegeven numerieke waarde in de opgegeven indeling en in een optioneel opgegeven [cultuur](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) bevat. Zie voor informatie over de ondersteunde indelingen [standaard](/dotnet/standard/base-types/standard-numeric-format-strings) en [aangepast](/dotnet/standard/base-types/custom-numeric-format-strings).
+De functie `NUMBERFORMAT` retourneert een waarde van het type *Tekenreeks* die de opgegeven numerieke waarde in de opgegeven indeling en in een optioneel opgegeven [cultuur](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) bevat. Zie voor informatie over de ondersteunde indelingen [standaard](https://msdn.microsoft.com/library/dwhawy9k(v=vs.110).aspx) en [aangepast](https://msdn.microsoft.com/library/0c899ak8(v=vs.110).aspx).
 
 ## <a name="syntax-1"></a>Syntaxis 1
 
@@ -74,6 +77,3 @@ Voor de cultuur **EN-US** retourneert `NUMBERFORMAT (0.45, "p")` **10 %** en ret
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Tekstfuncties](er-functions-category-text.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Actieafhankelijke ER-bestemmingen configureren
 description: In dit onderwerp wordt uitgelegd hoe actieafhankelijke bestemmingen worden geconfigureerd voor een ER-indeling (elektronische rapportage) die wordt geconfigureerd voor het genereren van uitgaande documenten.
 author: NickSelin
+manager: AnnBe
 ms.date: 02/09/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d860c2b9fe01231e8e47b085f93c79c5a7dc449e
-ms.sourcegitcommit: d13ea8b6baf73601a8b57548232aac84ffaba717
+ms.openlocfilehash: ea7543fddef085cfd1e92edf0b1dabf6d0aac38a
+ms.sourcegitcommit: 5264aaec3723c40a219e4d2867afe1ba9cc5f2a2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7941239"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5153634"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Actieafhankelijke ER-bestemmingen configureren
 
@@ -60,7 +62,7 @@ Als u het documenttype **Elke** selecteert, wordt **Automatische detectie** auto
     - Wanneer de actie **Verzenden** wordt opgegeven tijdens runtime, wordt de ER-bestemming **E-mail** toegepast.
     - Wanneer de actie **Afdrukken** wordt opgegeven tijdens runtime, wordt de ER-bestemming **Printer** toegepast.
 
-U kunt bijvoorbeeld de ER-indeling **Vrije-tekstfactuur (Excel)** gebruiken om een [vrije-tekstfactuur](../../../finance/accounts-receivable/create-free-text-invoice-new.md) af te drukken wanneer u deze boekt. Als u een gegenereerd document wilt routeren, moet u ER-bestemmingen configureren voor deze ER-indeling. U moet bijvoorbeeld mogelijk deze ER-bestemmingen configureren om het volgende uit te voeren voor een gegenereerd document:
+U kunt bijvoorbeeld de ER-indeling **Vrije-tekstfactuur (Excel)** gebruiken om een [vrije-tekstfactuur](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new) af te drukken wanneer u deze boekt. Als u een gegenereerd document wilt routeren, moet u ER-bestemmingen configureren voor deze ER-indeling. U moet bijvoorbeeld mogelijk deze ER-bestemmingen configureren om het volgende uit te voeren voor een gegenereerd document:
 
 - Het document archiveren als de ER-indeling wordt uitgevoerd, maar er geen actiecode is opgegeven (bijvoorbeeld wanneer het document elektronisch wordt verzonden).
 - Een voorbeeld van het document weergeven in een webbrowser wanneer een gebruiker de actie **Weergeven** uitvoert.
@@ -69,11 +71,11 @@ U kunt bijvoorbeeld de ER-indeling **Vrije-tekstfactuur (Excel)** gebruiken om e
 
 In de volgende afbeelding wordt getoond hoe u het configureren van deze ER-bestemmingen kunt bereiken als de set afzonderlijke bestemmingsrecords wanneer elke record wordt geconfigureerd voor een afzonderlijke gebruikersactie:
 
-![Pagina voor elektronische rapportagebestemming met actieafhankelijke bestemmingsinstellingen voor een ER-indeling wanneer elke bestemmingsrecord wordt geconfigureerd voor één gebruikersactie.](./media/er-destination-action-dependent-01.png)
+![Pagina voor elektronische rapportagebestemming met actieafhankelijke bestemmingsinstellingen voor een ER-indeling wanneer elke bestemmingsrecord wordt geconfigureerd voor één gebruikersactie](./media/er-destination-action-dependent-01.png)
 
 In de volgende afbeelding wordt getoond hoe u het alternatieve configureren van deze ER-bestemmingen kunt bereiken als de set afzonderlijke bestemmingsrecords wanneer elke record wordt geconfigureerd voor een afzonderlijke bestemming:
 
-![Pagina voor elektronische rapportagebestemming met actieafhankelijke bestemmingsinstellingen voor een ER-indeling wanneer elke bestemmingsrecord wordt geconfigureerd voor één bestemming.](./media/er-destination-action-dependent-01a.png)
+![Pagina voor elektronische rapportagebestemming met actieafhankelijke bestemmingsinstellingen voor een ER-indeling wanneer elke bestemmingsrecord wordt geconfigureerd voor één bestemming](./media/er-destination-action-dependent-01a.png)
 
 > [!NOTE]
 > Als een actiecode wordt opgegeven voor de lopende ER-indeling maar er geen bestemmingen zijn geconfigureerd voor die actiecode, wordt het [standaard](electronic-reporting-destinations.md#default-behavior)bestemmingsgedrag toegepast.
@@ -82,9 +84,9 @@ In de volgende afbeelding wordt getoond hoe u het alternatieve configureren van 
 
 Wanneer er een ER-indeling wordt uitgevoerd en er gebruikersacties zijn opgegeven door gebruikers die de juiste [machtigingen](electronic-reporting-destinations.md#security-considerations) hebben om geconfigureerde bestemmingsinstellingen tijdens runtime te wijzigen, wordt een dialoogvenster weergegeven dat de optie biedt om de geconfigureerde bestemmingsinstellingen te wijzigen. Dit dialoogvenster is optioneel en heeft een uiterlijk dat afhankelijk is van hoe de oproep waarmee het ER-framework wordt uitgevoerd, een ER-indeling implementeert. Als dit dialoogvenster wordt weergegeven, worden de ER-bestemmingen in het dialoogvenster ingeschakeld op basis van de geleverde gebruikersactie.
 
-Hieronder ziet u een voorbeeld van het dialoogvenster **Bestemming van indeling voor elektronische rapportage** dat wordt weergegeven wanneer er een vrije-tekstfactuur wordt [geboekt](../../../finance/accounts-receivable/create-free-text-invoice-new.md) en de ER-indeling **Vrije-tekstfactuur** wordt uitgevoerd om dit document te genereren, als de actie **Printer** is opgegeven en ER-bestemmingen voor deze indeling zijn geconfigureerd, zoals eerder in dit onderwerp is beschreven.
+Hieronder ziet u een voorbeeld van het dialoogvenster **Bestemming van indeling voor elektronische rapportage** dat wordt weergegeven wanneer er een vrije-tekstfactuur wordt [geboekt](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new) en de ER-indeling **Vrije-tekstfactuur** wordt uitgevoerd om dit document te genereren, als de actie **Printer** is opgegeven en ER-bestemmingen voor deze indeling zijn geconfigureerd, zoals eerder in dit onderwerp is beschreven.
 
-![Dialoogvenster met de mogelijkheid om de oorspronkelijk geconfigureerde ER-bestemmingen te wijzigen voor de lopende ER-indeling.](./media/er-destination-action-dependent-02.gif)
+![Dialoogvenster met de mogelijkheid om de oorspronkelijk geconfigureerde ER-bestemmingen te wijzigen voor de lopende ER-indeling](./media/er-destination-action-dependent-02.gif)
 
 > [!NOTE]
 > Als u ER-bestemmingen hebt geconfigureerd voor verschillende onderdelen van de lopende ER-indeling, wordt er voor elk geconfigureerd onderdeel van de ER-indeling afzonderlijk een optie aangeboden.
@@ -103,7 +105,7 @@ Volg deze stappen om de opgegeven gebruikersactiecode te controleren.
 6. Filter op de pagina **Foutopsporingslogboeken voor configuraties** de ER-uitvoeringslogboeken om het logboek voor de uitvoering van uw ER-indeling te zoeken.
 7. Controleer de logboekgegevens die de record moeten bevatten die de geleverde gebruikersactiecode vertegenwoordigt, als er een actie is geleverd voor de ER-indelingsuitvoering.
 
-    ![Pagina Elektronische uitvoeringslogboeken die informatie bevat over de gebruikersactiecode die is opgegeven voor de gefilterde uitvoering van een ER-indeling.](./media/er-destination-action-dependent-03.png)
+    ![Pagina Elektronische uitvoeringslogboeken die informatie bevat over de gebruikersactiecode die is opgegeven voor de gefilterde uitvoering van een ER-indeling](./media/er-destination-action-dependent-03.png)
 
 ## <a name=""></a><a name="reports-list-wave1">Lijst met bedrijfsdocumenten (wave 1)</a>
 
@@ -115,6 +117,7 @@ De volgende lijst met bedrijfsdocumenten wordt bepaald door de functie **Uitvoer
 - Inkooporder inkooponderzoek
 - Bevestiging verkooporder
 - Notitie bij aanmaning
+- Klantrekeningoverzicht
 - Rentenota
 - Advies leveranciersbetaling
 - Offerteaanvraag
@@ -126,6 +129,3 @@ De volgende lijst met bedrijfsdocumenten wordt bepaald door de functie **Uitvoer
 [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md)
 
 [Wijzigingen in API voor raamwerk voor elektronische rapportage in Application update 10.0.17](er-apis-app10-0-17.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

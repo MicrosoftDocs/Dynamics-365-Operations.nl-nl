@@ -2,25 +2,28 @@
 title: Financiële dimensies toevoegen aan het CFO-werkgebied
 description: In dit onderwerp wordt uitgelegd hoe u financiële dimensies toevoegt aan het werkgebied CFO zodat ze kunnen worden gebruikt voor grootboek- en budgetrapporten.
 author: aprilolson
+manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 3acff8a0cf36ee6958effd9c5384895df20c180499437c43feddce31c884dbbf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3817c6688339735c7478e85786efe15bd2372c91
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729577"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441941"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Financiële dimensies toevoegen aan het CFO-werkgebied
 
@@ -31,7 +34,7 @@ In dit onderwerp wordt uitgelegd hoe u financiële dimensies toevoegt aan het we
 1. Werk in Finance op de pagina **Entiteitopslag** de maateenheden **LedgerActivityMeasure** en **BudgetActivityMeasure** bij.
 2. Open Toepassingsverkenner in Microsoft Visual Studio en zoek naar **LedgerCFO**.
 3. Open onder **Resources** **LedgerCFOWorkspacePBIX**.
-4. Wanneer de resource wordt geopend in Microsoft Power BI Desktop, selecteert u **Gegevens ophalen**, **SQL Server-database** en vervolgens **Verbinden**.
+4. Wanneer de resource wordt geopend in Microsoft Power BI-bureaublad, selecteert u **Gegevens ophalen**, **SQL Server-database** en vervolgens **Verbinden**.
 5. Voer de servernaam in en **AxDW** als de gedatabase. Selecteer **DirectQuery** en vervolgens **OK**.
 6. Zoek en selecteer **LedgerActivityMeasure\_DimensionCombination**, en selecteer vervolgens **laden**.
 
@@ -45,14 +48,11 @@ In dit onderwerp wordt uitgelegd hoe u financiële dimensies toevoegt aan het we
 11. Wijzig de waarde **Cross-filter richting** in **Eén**.
 12. Selecteer **Deze relatie actief maken** en **Uitgaan van referentiële integriteit**, selecteer **OK** en vervolgens **Sluiten**.
 
-    [![Een relatie maken.](./media/Create-relationship.png)](./media/Create-relationship.png)
+    [![Een relatie maken](./media/Create-relationship.png)](./media/Create-relationship.png)
 
 13. In de lijst **Velden** ziet u de tabel en de beschikbare financiële dimensies. Sleep de gewenste financiële dimensies naar de filters voor het rapportniveau.
 14. Sla de wijzigingen op.
 15. Klik in de Application Object Tree (AOT) met de rechtermuisknop op het project en selecteer **Synchroniseren**.
 16. Stel het project samen en open vervolgens de toepassing om de resultaten weer te geven.
 
-    [![Voltooid werkgebied.](./media/workspace.png)](./media/workspace.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+    [![Voltooid werkgebied](./media/workspace.png)](./media/workspace.png)

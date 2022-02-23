@@ -2,13 +2,16 @@
 title: Weergaveconfiguraties van POS-gebruikersinterface
 description: Dit onderwerp biedt informatie over schermindelingen voor Dynamics 365 Commerce.
 author: boycezhu
+manager: annbe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 17379dc97c7a8b22912482a7aeebd0d8ac08dc496fa7b1661952bca10a21c75b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
+ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765875"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4411509"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Weergaveconfiguraties van POS-gebruikersinterface
 
@@ -32,15 +35,15 @@ De gebruikersinterface van het Microsoft Dynamics 365 Commerce-POS kan worden ge
 
 In de volgende afbeelding worden de relaties weergegeven tussen de verschillende eenheden waaruit de configureerbare aspecten van de POS-gebruikersinterface bestaan.
 
-![Entiteiten voor POS-schermindeling.](../commerce/media/POS-layout-configuration-entities-diagram.png)
+![Entiteiten voor POS-schermindeling](../commerce/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a>Weergaveprofiel
 
 Weergaveprofielen worden toegewezen aan kassa's en worden gebruikt om de weergave-elementen op te geven die specifiek zijn voor kassa's en worden gedeeld door gebruikers. Alle gebruikers die zich aanmelden bij de kassa krijgen hetzelfde thema en dezelfde indeling, kleuren en afbeeldingen te zien.
 
-![POS-welkomstscherm met licht thema.](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
+![POS-welkomstscherm met licht thema](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
 
-![POS-transactiescherm met donker thema.](../commerce/media/POS-Transaction-Screen-with-Dark-theme.png)
+![POS-transactiescherm met donker thema](../commerce/media/POS-Transaction-Screen-with-Dark-theme.png)
 
 - **Profielnummer**: het profielnummer is de unieke id van het weergaveprofiel.
 - **Beschrijving**: u kunt een beschrijvende naam opgeven om het juiste profiel voor uw situatie te identificeren.
@@ -65,15 +68,15 @@ U moet de distributieplanningstaak **1090** (**Registers**) uitvoeren om de laat
 
 Schermindelingsconfiguraties bepalen de acties, inhoud en plaatsing van de UI-besturingselementen in het POS-**welkomstscherm** en het scherm **Transactie**.
 
-![Weergave POS-schermindeling.](../commerce/media/POS-Screen-Layout-View.png)
+![Weergave POS-schermindeling](../commerce/media/POS-Screen-Layout-View.png)
 
 - **Welkomstscherm**: in de meeste gevallen zien gebruikers het welkomstscherm als eerste nadat zij zich hebben aangemeld bij het POS. Het welkomstscherm kan bestaan uit een branding-afbeelding en knoppenrasters die toegang tot POS-bewerkingen bieden. Normaal gesproken worden hier bewerkingen weergegeven die niet specifiek van toepassing op de huidige transactie zijn.
 
-    ![POS-welkomstscherm.](../commerce/media/POS-Welcome-Screen.png)
+    ![POS-welkomstscherm](../commerce/media/POS-Welcome-Screen.png)
 
 - **Transactiescherm**: het scherm **Transactie** is het hoofdscherm in het POS voor de verwerking van verkooptransacties en orders. De inhoud en indeling worden geconfigureerd met behulp van de ontwerper van schermindelingen.
 
-    ![POS-transactiescherm.](../commerce/media/POS-Transaction-Screen.png)
+    ![POS-transactiescherm](../commerce/media/POS-Transaction-Screen.png)
 
 - **Standaardstartscherm**: sommige detailhandelaren geven er de voorkeur aan dat kassamedewerkers na het aanmelden rechtstreeks naar het scherm **Transactie** gaan. Via de instelling **Standaardstartscherm** kunt u het standaardscherm opgeven dat na het aanmelden voor elke schermindeling wordt weergegeven.
 
@@ -89,7 +92,7 @@ De meeste aspecten van de POS-gebruikersinterface zijn responsief en de lay-out 
 
 Bij het opstarten selecteert de POS-toepassing automatisch de indelingsgrootte die is geconfigureerd voor het apparaat. Een schermindeling kan ook configuraties voor de modi Liggend en Staand bevatten en voor volwaardige en compacte apparaten. Daarom kunnen gebruikers worden toegewezen aan één schermindeling die werkt voor verschillende afmetingen en vormfactoren die worden gebruikt in de winkel.
 
-![POS-indelingsgrootten.](../commerce/media/POS-Screen-Layout-Sizes.png)
+![POS-indelingsgrootten](../commerce/media/POS-Screen-Layout-Sizes.png)
 
 - **Naam**: u kunt een omschrijvende naam invoeren om de schermgrootte te identificeren.
 - **Indelingstype**: in de POS-toepassing kan de gebruikersinterface in verschillende modi worden weergegeven om de beste gebruikerservaring op een bepaald apparaat te kunnen bieden.
@@ -102,7 +105,7 @@ Bij het opstarten selecteert de POS-toepassing automatisch de indelingsgrootte d
 > [!TIP]
 > U kunt de vereiste indelingsgrootte voor een POS-scherm achterhalen door de resolutie in de app te bekijken. Start het POS en ga naar **Instellingen \> Sessie-informatie**. In het POS worden de momenteel geladen schermindeling, de indelingsgrootte en de resolutie van het app-venster weergegeven.
 
-![Pagina met informatie voor de POS-sessie, met de momenteel geladen schermindeling, de indelingsgrootte en de resolutie van het app-venster.](../commerce/media/POS-Session-Information.png)
+![Pagina met informatie voor de POS-sessie, met de momenteel geladen schermindeling, de indelingsgrootte en de resolutie van het app-venster](../commerce/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>Knoppenrasters
 
@@ -112,10 +115,7 @@ In volledige POS-indelingen wordt de plaats van knoppenrasters opgegeven in de o
 
 In compacte POS-indelingen worden de knoppenrasters automatisch van boven naar beneden, van het laagste nummer (transactiescherm 1) naar het hoogste nummer weergegeven. Deze kunnen worden geopend in het menu **Acties**.
 
-![Knoppenrasters voor compacte indelingen.](../commerce/media/Compact-View-Button-Grids.png)
-
-> [!NOTE]
-> De grootte van de knoppen in de ontwerper wordt aangepast aan de grootte van het venster en geven mogelijk niet de werkelijke knoppen aan die in POS worden weergegeven. U kunt de indeling van het knoppenraster het beste simuleren door de ontwerpvensters aan te passen tot dezelfde grootte als het POS.
+![Knoppenrasters voor compacte indelingen](../commerce/media/Compact-View-Button-Grids.png)
 
 ### <a name="images"></a>Afbeeldingen
 
@@ -132,7 +132,7 @@ In de ontwerper van schermindelingen kunt u verschillende aspecten van het POS-s
 
 In de ontwerper van volledige indelingen kunnen gebruikers besturingselementen in de gebruikersinterface naar het POS-scherm **Transactie** slepen en de instellingen van deze elementen configureren.
 
-![Ontwerper van volledige POS-indeling (modus Liggend).](../commerce/media/POS-Full-Layout-Designer-Landscape.png)
+![Ontwerper van volledige POS-indeling (modus Liggend)](../commerce/media/POS-Full-Layout-Designer-Landscape.png)
 
 - **Indeling importeren/exporteren**: u kunt ontwerpen van POS-schermindelingen importeren en exporteren als XML-bestanden, zodat u deze eenvoudig opnieuw kunt gebruiken en kunt delen in verschillende omgevingen. Het is belangrijk dat u indelingsontwerpen voor de juiste indelingsformaten importeert. Anders passen gebruikersinterface-elementen mogelijk niet goed op het scherm.
 - **Liggen/Staand**: als het POS-apparaat gebruikers in staat stelt te schakelen tussen de modi Liggend en Staand, moet u een schermindeling voor elke modus definiëren. Het POS detecteert schermrotatie automatisch om de juiste indeling te kunnen weergeven.
@@ -140,11 +140,11 @@ In de ontwerper van volledige indelingen kunnen gebruikers besturingselementen 
 - **Inzoomen in ontwerper**: u kunt in- en uitzoomen in de ontwerperweergave om de inhoud in het POS-scherm beter te kunnen bekijken. Deze functie is handig wanneer de schermresolutie in het POS aanzienlijk afwijkt van de resolutie van het scherm dat wordt gebruikt in de ontwerper.
 - **Navigatiebalk weergeven/verbergen**: voor volledige POS-indelingen kunt u opgeven of de linkernavigatiebalk moet worden weergegeven in het scherm **Transactie**. Deze functie is handig voor weergaven met een lagere resolutie. Als u de zichtbaarheid wilt instellen, klikt u met de rechtermuisknop op de navigatiebalk in de ontwerper en schakelt u het selectievakje **Altijd zichtbaar** in of uit. Als de navigatiebalk is verborgen, kunnen POS-gebruikers deze nog steeds gebruiken via het menu in de linkerbovenhoek.
 
-    ![Navigatiebalk weergeven/verbergen.](../commerce/media/Navigation-Bar.PNG)
+    ![Navigatiebalk weergeven/verbergen](../commerce/media/Navigation-Bar.PNG)
 
 - **POS-besturingselementen**: in de POS-indelingsontwerper worden de volgende besturingselementen ondersteund. U kunt veel besturingselementen configureren met de rechtermuisknop en het snelmenu.
 
-    ![Besturingselementen in POS-gebruikersinterface.](../commerce/media/POS-UI-Controls.png)
+    ![Besturingselementen in POS-gebruikersinterface](../commerce/media/POS-UI-Controls.png)
 
     - **Numeriek toetsenblok**: het toetsenblok is het belangrijkste mechanisme voor gebruikersinvoer in het POS-scherm **Tranasactie**. U kunt het besturingselement zo configureren dat het volledige toetsenblok wordt weergegeven. Deze optie is ideaal voor apparaten met een aanraakscherm. U kunt deze ook zo configureren dat alleen het invoerveld wordt weergegeven. In dit geval wordt een fysiek toetsenbord gebruikt voor invoer. De instellingen voor het numerieke toetsenblok zijn alleen beschikbaar voor volledige indelingen. Voor compacte indelingen wordt het volledige toetsenblok weergegeven in het scherm **Transactie**.
     - **Deelvenster Totalen**: u kunt het deelvenster Totalen configureren in een of twee kolommen, om waarden als het aantal regels, kortingsbedrag, toeslagen, subtotaal en btw weer te geven. Compacte indelingen bieden slechts ondersteuning voor één kolom.
@@ -159,13 +159,13 @@ In de ontwerper van volledige indelingen kunnen gebruikers besturingselementen 
 
 Net als in de ontwerper voor de volledige indeling kunt u in de ontwerper voor de compacte indeling de POS-schermindeling voor telefoons en kleine tablets configureren. In dit geval wordt echter de indeling zelf opgelost. U kunt de besturingselementen in de indeling configureren met de rechtermuisknop en het snelmenu. Voor extra inhoud kunt u echter niet gebruikmaken van de functie voor slepen en neerzetten.
 
-![Ontwerper van compacte indeling.](../commerce/media/Compact-Layout-Designer.png)
+![Ontwerper van compacte indeling](../commerce/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a>Ontwerper van knoppenraster
 
 In de ontwerper van het knoppenraster kunt u knoppenrasters configureren die kunnen worden gebruikt in het POS-welkomstscherm en het scherm **Transactie**, zowel voor volledige als compacte indelingen. Hetzelfde knoppenraster kan voor verschillende indelingen en indelingstypen worden gebruikt. Net als in de schermindelingsontwerper wordt in de ontwerper van het knoppenraster de ClickOnce-implementatietechnologie gebruikt om altijd de meest recente versie van de toepassing te downloaden, te installeren en te starten als de gebruiker deze ontwerper opent. Controleer de browservereisten voor ClickOnce. In sommige browsers, zoals Google Chrome, zijn extensies vereist.
 
-![Ontwerper van knoppenraster.](../commerce/media/Button-Grid-Designer.png)
+![Ontwerper van knoppenraster](../commerce/media/Button-Grid-Designer.png)
 
 - **Knop Nieuw**: klik hierop om een nieuwe knop toe te voegen aan het knoppenraster. Nieuwe knoppen worden standaard in de linkerbovenhoek van het raster weergegeven. U kunt knoppen echter schikken door ze te slepen in de indeling.
 
@@ -178,7 +178,7 @@ In de ontwerper van het knoppenraster kunt u knoppenrasters configureren die kun
     > [!IMPORTANT]
     > Sommige knoppenrasterinstellingen gelden alleen voor Enterprise POS en niet voor Modern POS of Cloud POS.
 
-    ![Knopeigenschappen voor knoppenraster.](../commerce/media/Button-grid-button-properties.png)
+    ![Knopeigenschappen voor knoppenraster](../commerce/media/Button-grid-button-properties.png)
 
     - **Actie**: selecteer in de lijst met relevante POS-bewerkingen de bewerking die wordt geactiveerd als op de knop wordt geklikt in het POS.
 
@@ -190,7 +190,7 @@ In de ontwerper van het knoppenraster kunt u knoppenrasters configureren die kun
     - **Knopinfo**: geef extra Help-tekst op die wordt weergegeven wanneer gebruikers de muisaanwijzer over de knop bewegen.
     - **Grootte in kolommen/rijen**: u kunt opgeven hoe hoog en breed de knop moet zijn.
 
-        ![Grootte van POS-knoppen in rijen en kolommen.](../commerce/media/POS-Button-Sizes-In-Rows-And-Columns.png)
+        ![Grootte van POS-knoppen in rijen en kolommen](../commerce/media/POS-Button-Sizes-In-Rows-And-Columns.png)
 
     - **Aangepast lettertype**: wanneer u het selectievakje **Aangepast lettertype inschakelen voor POS** inschakelt, kunt u een ander lettertype opgeven dan het standaardsysteemlettertype voor het POS.
     - **Aangepast thema**: standaard wordt voor POS-knoppen de accentkleur van het weergaveprofiel gebruikt. Als u het selectievakje **Aangepast thema gebruiken** inschakelt, kunt u extra kleuren opgeven.
@@ -200,11 +200,8 @@ In de ontwerper van het knoppenraster kunt u knoppenrasters configureren die kun
 
     - **Afbeelding van knop**: knoppen kunnen afbeeldingen of pictogrammen bevatten. Maak een keuze uit de beschikbare afbeeldingen die zijn opgegeven via **Retail en Commerce \> Afzetkanaalinstellingen \> POS-instellingen \> POS \> Afbeeldingen**.
 
-![Voorbeeld van knoppenraster in het POS.](../commerce/media/Example-Button-Grid-In-POS.png)
+![Voorbeeld van knoppenraster in het POS](../commerce/media/Example-Button-Grid-In-POS.png)
 
-## <a name="additional-resources"></a>Aanvullende bronnen
+## <a name="additional-resources"></a>Aanvullende resources
 
 [De indelingsontwerper voor Retail-verkooppunten (POS) installeren](install-pos-layout-designer.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,24 +1,26 @@
 ---
 title: Beleid instellen voor categoriehiërarchieën voor aanschaffing
 description: Gebruik deze procedure voor het instellen van regels voor het bestellen van producten in een categorie.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicy, ProcCategoryAccessPolicyRule, ProcCategoryPolicyRule, EcoResCategorySingleLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee056d7c2a8bdc9bcd2f5a0f4b96a7bf69c8c862
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3fc01793ee83444e5c7097021c19aeda80a132e6
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577091"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017085"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Beleid instellen voor categoriehiërarchieën voor aanschaffing
 
@@ -49,6 +51,3 @@ Gebruik deze procedure voor het instellen van regels voor het bestellen van prod
 6. Selecteer een optie in het veld **Leveranciersselectie**. Selecteer een regel om te bepalen welk type leveranciers kan worden geselecteerd voor de categorie bij het maken van bestelopdrachten.  
 7. Klik op **Sluiten**. De beleidsregels die u hebt gedefinieerd zijn voor bestelopdrachten van het type Verbruik. Als u beleid wilt definiëren voor bestelopdrachten van het type Aanvulling, maakt u een regel voor het type beleidsregel genaamd Toegangsbeleidsregel voor aanvullingscategorie.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

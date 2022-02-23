@@ -1,34 +1,38 @@
 ---
-title: Boekhoudingsverdelingen en journaalposten voor leveranciersfacturen
+title: Boekhoudingsverdelingen en journaalposten in de subadministratie voor leveranciersfacturen
 description: Boekhoudingsverdelingen worden gebruikt om te bepalen hoe een bedrag zal worden verwerkt, zoals hoe de onkosten, BTW of heffingen zullen worden verwerkt op een leveranciersfactuur. Elk bedrag dat moet worden verwerkt wanneer de leveranciersfactuur in het boekhoudingsjournaal wordt vastgelegd, heeft een of meerdere boekhoudingsverdelingen.
-author: sunfzam
+author: abruer
+manager: AnnBe
 ms.date: 08/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendEditInvoice
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 26891
 ms.assetid: 93dc608a-b5b4-4ec3-83c2-618e3d80a583
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7296b1e00bfd49bceb40a0e8b859d46c6517450a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: f8e38e6a571bb7f08b32548bcb4af823807a4340
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594686"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442107"
 ---
-# <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>Boekhoudingsverdelingen en journaalposten voor leveranciersfacturen
+# <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>Boekhoudingsverdelingen en journaalposten in de subadministratie voor leveranciersfacturen
 
 [!include [banner](../includes/banner.md)]
 
 Boekhoudingsverdelingen worden gebruikt om te bepalen hoe een bedrag zal worden verwerkt, zoals hoe de onkosten, BTW of heffingen zullen worden verwerkt op een leveranciersfactuur. Elk bedrag dat moet worden verwerkt wanneer de leveranciersfactuur in het boekhoudingsjournaal wordt vastgelegd, heeft een of meerdere boekhoudingsverdelingen. 
 
-## <a name="accounting-distributions"></a>Boekhoudingsverdelingen 
+<a name="accounting-distributions"></a>Boekhoudingsverdelingen 
+-------------------------
 
 U kunt de volgende knoppen op de pagina Leveranciersfactuur gebruiken voor het weergeven en mogelijk wijzigen van de boekhoudingsverdelingen voor elk bedrag op de leveranciersfactuur.
 -   **Bedragen verdelen** – De boekhoudingsverdelingen weergeven en wijzigen voor een afzonderlijke regel en alle onderliggende regels, zoals belastingen of heffingen. U kunt de boekhoudingsverdeling voor de onderliggende regel rechtstreeks weergeven en wijzigen op de pagina Btw-transacties of de pagina Transacties met toeslagen transacties.
@@ -226,7 +230,8 @@ Wanneer u een leveranciersfactuur invoert, wordt elk bedrag als volgt verdeeld.
 </table>
 
 
-## <a name="distributing-taxes"></a>Belastingen verdelen
+<a name="distributing-taxes"></a>Belastingen verdelen
+------------------
 
 Boekhoudingsverdelingen voor belastingen kunnen pas worden gemaakt nadat belastingen zijn berekend. Voor het berekenen van de btw moet u een van de volgende taken uitvoeren op de pagina Leveranciersfactuur:
 -   Het factuurtotaal weergeven.
@@ -245,6 +250,3 @@ Indien het journaal in de subadministratie onjuist is wanneer u een afdrukvoorbe
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

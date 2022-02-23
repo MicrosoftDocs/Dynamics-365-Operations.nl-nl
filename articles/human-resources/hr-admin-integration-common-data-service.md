@@ -1,133 +1,120 @@
 ---
-title: Dataverse-integratie configureren
-description: In dit onderwerp wordt de integratie tussen Microsoft Dataverse en Dynamics 365 Human Resources beschreven.
-author: twheeloc
-ms.date: 08/19/2021
+title: Common Data Service-integratie configureren
+description: U kunt de integratie tussen Common Data Service en Dynamics 365 Human Resources in- of uitschakelen. U kunt ook synchronisatiegegevens weergeven, traceringsgegevens wissen en een entiteit opnieuw synchroniseren als hulp bij het oplossen van problemen tussen de twee omgevingen.
+author: andreabichsel
+manager: AnnBe
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: CDSIntegrationAdministration
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c4e68142045b72b139bdda8be707a73e21e568fd
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d9ee4715526e18b33ae4b7e90b081ed5868bb19c
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065446"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527914"
 ---
-# <a name="configure-dataverse-integration"></a>Dataverse-integratie configureren
+# <a name="configure-common-data-service-integration"></a>Common Data Service-integratie configureren
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+U kunt de integratie tussen Common Data Service en Dynamics 365 Human Resources in- of uitschakelen. U kunt ook de synchronisatiegegevens weergeven, traceringsgegevens wissen en een entiteit opnieuw synchroniseren als hulp bij het oplossen van problemen tussen de twee omgevingen.
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+Wanneer u integratie uitschakelt, kunnen gebruikers wijzigingen aanbrengen in Human Resources of Common Data Service, maar deze wijzigingen worden niet gesynchroniseerd tussen de twee omgevingen.
 
-U kunt de integratie tussen Microsoft Dataverse en Dynamics 365 Human Resources in- of uitschakelen. U kunt ook de synchronisatiegegevens weergeven, traceringsgegevens wissen en een tabel opnieuw synchroniseren als hulp bij het oplossen van problemen tussen de twee omgevingen.
-
-> [!NOTE]
-> Voor meer informatie over Dataverse (voorheen Common Data Service) en bijgewerkte terminologie, zie [Wat is Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)
-
-Wanneer u integratie uitschakelt, kunnen gebruikers wijzigingen aanbrengen in Human Resources of Dataverse, maar deze wijzigingen worden niet gesynchroniseerd tussen de twee omgevingen.
-
-Integratie tussen Human Resources en Dataverse is standaard uitgeschakeld.
+Integratie tussen Human Resources en Common Data Service is standaard uitgeschakeld.
 
 Mogelijk wilt u integratie in de volgende situaties uitschakelen:
 
 - U vult gegevens in via het Data Management Framework en u moet de gegevens meerdere keren importeren om de juiste status te krijgen.
 
-- Er zijn problemen met gegevens in Human Resources of Dataverse. Als u integratie uitschakelt, kunt u een record in de ene omgeving verwijderen zonder deze in de andere omgeving te verwijderen. Wanneer u de integratie weer inschakelt, wordt de record in de omgeving waarin deze niet is verwijderd, gesynchroniseerd naar de omgeving waarin deze was verwijderd. De synchronisatie begint de volgende keer dat de batchtaak **Gemiste aanvragen Dataverse-integratie synchroniseren** wordt uitgevoerd.
+- Er zijn problemen met gegevens in Human Resources of Common Data Service. Als u integratie uitschakelt, kunt u een record in de ene omgeving verwijderen zonder deze in de andere omgeving te verwijderen. Wanneer u de integratie weer inschakelt, wordt de record in de omgeving waarin deze niet is verwijderd, gesynchroniseerd naar de omgeving waarin deze was verwijderd. De synchronisatie begint de volgende keer dat de batchtaak **Gemiste aanvragen Common Data Service-integratie synchroniseren** wordt uitgevoerd.
 
 > [!WARNING]
 > Wanneer u gegevensintegratie uitschakelt, moet u niet dezelfde record in beide omgevingen bewerken. Wanneer u de integratie weer inschakelt, wordt de record die u als laatste hebt bewerkt, gesynchroniseerd. Als u in beide omgevingen niet dezelfde wijzigingen in de record hebt aangebracht, kan er gegevensverlies optreden.
 
-## <a name="access-the-dataverse-integration-page"></a>Toegang tot de pagina Dataverse-integratie
+## <a name="access-the-common-data-service-integration-page"></a>Toegang tot de pagina Common Data Service-integratie
 
-1. Selecteer in het Human Resources-exemplaar waarin u de instellingen voor de integratie met Dataverse wilt weergeven of configureren, de tegel **Systeembeheer**.
+1. Selecteer in het Human Resources-exemplaar waarin u de instellingen voor de integratie met Common Data Service wilt weergeven of configureren, de tegel **Systeembeheer**.
 
-    [![Tegel Systeembeheer.](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
+    [![Tegel Systeembeheer](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
 
 2. Selecteer het tabblad **Koppelingen**.
 
-    [![Tabblad Koppelingen.](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
+    [![Tabblad Koppelingen](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
 
-3. Selecteer onder **Integraties** de optie **Dataverse-configuratie**.
+3. Selecteer onder **Integraties** de optie **Common Data Service-configuratie**.
 
-    [![Koppeling Dataverse-configuratie.](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
+    [![Koppeling Common Data Service-configuratie](./media/hr-select-common-data-service-configuration.png)](./media/hr-select-common-data-service-configuration.png)
 
-## <a name="turn-data-integration-between-human-resources-and-dataverse-on-or-off"></a>Gegevensintegratie tussen Human Resources en Dataverse in- of uitschakelen
+## <a name="turn-data-integration-between-human-resources-and-common-data-service-on-or-off"></a>Gegevensintegratie tussen Human Resources en Common Data Service in- of uitschakelen
 
-- Als u de integratie wilt inschakelen, stelt u de optie **Dataverse-integratie inschakelen** in op **Ja** op de pagina **Microsoft Dataverse-integratie**.
+- Als u de integratie wilt inschakelen, stelt u de optie **De integratie met Common Data Service inschakelen** in op **Ja**.
 
     > [!NOTE]
-    > Wanneer u de integratie inschakelt, worden de gegevens gesynchroniseerd wanneer de batchtaak **Gemiste aanvragen Dataverse-integratie synchroniseren** de volgende keer wordt uitgevoerd. Alle gegevens zijn als het goed is beschikbaar nadat de batchtaak is voltooid.
+    > Wanneer u de integratie inschakelt, worden de gegevens gesynchroniseerd wanneer de batchtaak **Gemiste aanvragen Common Data Service-integratie synchroniseren** de volgende keer wordt uitgevoerd. Alle gegevens zijn als het goed is beschikbaar nadat de batchtaak is voltooid.
 
 - Als u de integratie wilt uitschakelen, stelt u de optie in op **Nee**.
 
-[![De Dataverse-integratie in- of uitschakelen.](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
+[![De Common Data Service-integratie in- of uitschakelen](./media/hr-enable-or-disable-common-data-service-integration.png)](./media/hr-enable-or-disable-common-data-service-integration.png)
 
 > [!WARNING]
-> Het wordt nadrukkelijk aanbevolen om Dataverse-integratie uit te schakelen tijdens het uitvoeren van gegevensmigratietaken. Grote gegevensuploads kunnen de prestaties aanzienlijk beïnvloeden. Het uploaden van 2000 werknemers kan bijvoorbeeld enkele uren duren wanneer integratie is ingeschakeld, en minder dan een uur wanneer het is uitgeschakeld. De getallen die in dit voorbeeld worden gegeven, zijn alleen voor demonstratiedoeleinden. De exacte hoeveelheid tijd die nodig is voor het importeren van records kan sterk variëren op basis van een groot aantal factoren.
+> Het wordt nadrukkelijk aanbevolen om Common Data Service-integratie uit te schakelen tijdens het uitvoeren van gegevensmigratietaken. Grote gegevensuploads kunnen de prestaties aanzienlijk beïnvloeden. Het uploaden van 2000 werknemers kan bijvoorbeeld enkele uren duren wanneer integratie is ingeschakeld, en minder dan een uur wanneer het is uitgeschakeld. De getallen die in dit voorbeeld worden gegeven, zijn alleen voor demonstratiedoeleinden. De exacte hoeveelheid tijd die nodig is voor het importeren van records kan sterk variëren op basis van een groot aantal factoren.
 
 ## <a name="view-data-integration-details"></a>Details van de gegevensintegratie weergeven
 
-Op het sneltabblad **Beheer** van de pagina **Microsoft Dataverse-integratie** kunt u zien hoe de rijen in Human Resources en Dataverse aan elkaar zijn gekoppeld.
+Op het sneltabblad **Beheer** van de pagina **Common Data Service-integratie** kunt u zien hoe de records in Human Resources en Common Data Service aan elkaar zijn gekoppeld.
 
-- Als u de rijen voor een tabel wilt weergeven, selecteert u de tabel in het veld **Dataverse-tabel**. In het raster worden alle rijen weergegeven die zijn gekoppeld aan de geselecteerde tabel.
+- Als u de records voor een entiteit wilt weergeven, selecteert u de entiteit in het veld **CDS-entiteitsnaam**. In het raster worden alle records weergegeven die zijn gekoppeld aan de geselecteerde entiteit.
+
+[![De records voor een entiteit weergeven](./media/hr-common-data-service-configuration-view-entity.png)](./media/hr-common-data-service-configuration-view-entity.png)
 
 > [!NOTE]
-> Niet alle Dataverse-tabellen worden op dit moment weergegeven. Alleen tabellen die het gebruik van aangepaste velden ondersteunen, worden weergegeven in het raster. Nieuwe tabellen worden beschikbaar via doorlopende releases van Human Resources.
+> Niet alle Common Data Service-entiteiten worden op dit moment in het raster weergegeven. Alleen entiteiten die het gebruik van aangepaste velden ondersteunen, worden weergegeven in het raster. Nieuwe entiteiten worden beschikbaar via doorlopende releases van Human Resources.
 
 Het raster bevat de volgende velden:
 
-- **Dataverse-tabel**: de naam van de tabel in Dataverse.
-- **Dataverse-tabelverwijzing**: de id die in Dataverse wordt gebruikt om een record aan te duiden. Deze waarde is gelijk aan de **RecId**-waarde van Human Resources. U kunt de id vinden wanneer u de Dataverse-tabel opent in Microsoft Excel.
-- **Human Resources-entiteitsnaam**: de Human Resources-entiteit die als laatste gegevens heeft gesynchroniseerd naar Dataverse. De entiteit kan het voorvoegsel Dataverse of een ander voorvoegsel hebben.
+- **CDS-entiteitsnaam** – De naam van de entiteit in Common Data Service.
+- **CDS-entiteitsverwijzing** – De id die in Common Data Service wordt gebruikt om een record aan te duiden. Deze waarde is gelijk aan de **RecId**-waarde van Human Resources. U kunt de id vinden wanneer u de Common Data Service-entiteit opent in Microsoft Excel.
+- **Human Resources-entiteitsnaam** – De entiteit die als laatste gegevens heeft gesynchroniseerd naar Common Data Service. De entiteit kan het voorvoegsel Common Data Service of een ander voorvoegsel hebben.
 - **Human Resources-verwijzing** – De **RecId**-waarde die is gekoppeld aan de record in Human Resources.
-- **Verwijderd uit Dataverse**: een waarde die aangeeft of de rij is verwijderd uit Dataverse.
+- **Is verwijderd uit CDS** – Een waarde die aangeeft of de record is verwijderd uit Common Data Service.
 
-> [!NOTE]
-> Records in Human Resources komen overeen met rijen in Dataverse.
+## <a name="remove-the-association-of-a-record-in-human-resources-from-common-data-service"></a>De koppeling van een record in Human Resources verwijderen uit Common Data Service
 
-## <a name="remove-the-association-of-a-human-resources-record-from-a-dataverse-row"></a>De koppeling van een record in Human Resources verwijderen uit een Dataverse-rij
+Als u problemen ondervindt tijdens de gegevenssynchronisatie tussen Human Resources en Common Data Service, kunt u deze mogelijk oplossen door de traceringsgegevens te wissen en de traceringstabel opnieuw te synchroniseren. Als u de koppeling verwijdert en vervolgens een record wijzigt of verwijdert in Common Data Service, worden de wijzigingen niet gesynchroniseerd naar Human Resources. Als u wijzigingen aanbrengt in Human Resources, wordt er een nieuwe traceringsrecord gemaakt en wordt de record bijgewerkt in Common Data Service.
 
-Als u problemen ondervindt tijdens de gegevenssynchronisatie tussen Human Resources en Dataverse, kunt u deze mogelijk oplossen door de traceringsgegevens te wissen en de traceringstabel opnieuw te synchroniseren. Als u de koppeling verwijdert en vervolgens een rij wijzigt of verwijdert in Dataverse, worden de wijzigingen niet gesynchroniseerd naar Human Resources. Als u wijzigingen aanbrengt in Human Resources, wordt er een nieuwe traceringsrecord gemaakt en wordt de rij bijgewerkt in Dataverse.
+- Als u de koppeling van een record tussen Human Resources en Common Data Service wilt verwijderen, selecteert u de entiteit in het veld **CDS-entiteitsnaam** en selecteert u vervolgens de optie **Traceringsgegevens wissen**.
 
-- Als u de koppeling van een Human Resources-record en een Dataverse-rij wilt verwijderen, selecteert u de tabel in het veld **Dataverse-tabel** en selecteert u de optie **Traceringsgegevens wissen**.
+[![Traceringsgegevens wissen](./media/hr-common-data-service-configuration-clear-tracking.png)](./media/hr-common-data-service-configuration-clear-tracking.png)
 
-[![Traceringsgegevens wissen.](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
+Zie de volgende procedure als u een volledige synchronisatie wilt uitvoeren op de entiteit nadat u de traceringsgegevens hebt gewist.
 
-Zie de volgende procedure als u een volledige synchronisatie wilt uitvoeren op de tabel nadat u de traceringsgegevens hebt gewist.
-
-## <a name="sync-a-table-between-human-resources-and-dataverse"></a>Een tabel synchroniseren tussen Human Resources en Dataverse
+## <a name="sync-an-entity-between-human-resources-and-common-data-service"></a>Een entiteit synchroniseren tussen Human Resources en Common Data Service
 
 Gebruik deze procedure als:
 
-- De wijzigingen van Dataverse te lang duren om te worden weergegeven in Human Resources.
+- De wijzigingen van Common Data Service te lang duren om te worden weergegeven in Human Resources.
 
 - U moet de traceringstabel vernieuwen nadat u de tracering hebt gewist.
 
-Een volledige synchronisatie uitvoeren voor een tabel tussen Human Resources en Dataverse:
+Een volledige synchronisatie uitvoeren voor een entiteit tussen Human Resources en Common Data Service:
 
-1. Selecteer de tabel in het veld **Dataverse-tabel**.
+1. Selecteer de entiteit in het veld **CDS-entiteitsnaam**.
 
 2. Selecteer **Nu synchroniseren**.
 
-[![Een volledige synchronisatie uitvoeren.](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
-
-## <a name="see-also"></a>Zie ook
-
-[Dataverse-tabellen](hr-developer-entities.md)<br>
-[Virtuele Dataverse-entiteiten configureren](hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[Veelgestelde vragen over virtuele tabellen in Human Resources](hr-admin-virtual-entity-faq.md)<br>
-[Wat is Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)<br>
-[Terminologiewijzigingen](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+[![Een volledige synchronisatie uitvoeren](./media/hr-common-data-service-configuration-sync-now.png)](./media/hr-common-data-service-configuration-sync-now.png)
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

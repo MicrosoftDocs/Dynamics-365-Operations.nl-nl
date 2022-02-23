@@ -2,27 +2,27 @@
 title: Overzicht van Budgetplanning
 description: In dit onderwerp wordt budgetplanning beschreven. Het bevat informatie waarmee u budgetplanning kunt configureren en budgetplanningprocessen kunt instellen.
 author: panolte
+manager: AnnBe
 ms.date: 01/11/2018
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "17251"
-- intro-internal
+ms.custom: 17251
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 391f62f42e482f79420bbe1bbd4cec4930790229
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 847ae83102345a8005a8b2a630805d22ccfd736d
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982060"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019223"
 ---
 # <a name="budget-planning-overview"></a>Overzicht van Budgetplanning
 
@@ -42,7 +42,7 @@ Een organisatie kan budgetplanning configureren en vervolgens budgetplanningspro
 - **Budgetplanningsfasen**: met de budgetplanningsfasen worden de stappen gedefinieerd die een budgetplan volgt vanaf het begin tot de definitieve goedkeuring. Budgetplanningsfasen worden gerangschikt in budgetplanningwerkstromen.
 - **Budgetplanningsworkflows**: budgetplanningsworkflows bestaan uit budgetplanningsfasen en de budgetplanningsfasen worden gedefinieerd met de budgetplanningsworkflows. Budgetplanningsworkflows worden gekoppeld aan budgetteringsworkflows. Budgetteringsworkflows zijn de geautomatiseerde en handmatige processen waarmee budgetplannen door de budgetplanningsfasen worden verplaatst.
 
-[![Terminologie budgetplanning.](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
+[![Terminologie budgetplanning](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
 
 ### <a name="typical-tasks"></a>Veelvoorkomende taken
 
@@ -67,17 +67,17 @@ Een optionele maar aanbevolen eerste stap bestaat eruit een schema te maken waar
 
 In de volgende afbeelding wordt een generiek voorbeeld weergegeven, waarin afzonderlijke budgetplanningsworkflows worden gemaakt voor verschillende niveaus van de organisatie. Fasen worden gedefinieerd in elke workflow en specifieke scenario's worden toegewezen aan elke fase om de budgetgegevens te bewaren. Taken worden voltooid om de gegevens van de ene fase naar de volgende fase te verplaatsen. Bedragen kunnen bijvoorbeeld aan verschillende rekeningen, goedkeuringen of andere beoordelingen worden toegewezen of ermee samengevoegd. In deze illustratie wordt met de cursieve tekst een scenario aangegeven dat niet kan worden bewerkt tijdens de fase, of historische gegevens of gegevens die zijn goedgekeurd in een eerdere fase en daarom niet kunnen worden gewijzigd.
 
-[![Generiek schema budgetplanning.](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
+[![Generiek schema budgetplanning](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
 
 De volgende illustratie bevat een voorbeeld waar het hoofdkantoor van het bedrijf de budgetbasisbedragen voor het aanvankelijke budget schat en deze verdeelt over verkoopafdelingen. De verkoopafdelingen maken vervolgens een raming en dienen hun prognose weer in bij het hoofdkantoor, waar de budgetmanager de prognose samenvoegt en corrigeert. Tot slot verzendt de budgetmanager de gecorrigeerde budgetbedragen naar de CFO voor controle, laatste correcties en goedkeuring.
 
-[![Voorbeeld van een budgetplanningsschema.](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
+[![Voorbeeld van een budgetplanningsschema](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
 
 ### <a name="organization-hierarchy-for-budget-planning"></a>Organisatiehiërarchie voor budgetplanning
 
 Op de pagina **Organisatiehiërarchie** kunt u een organisatiehiërarchie opgeven als een budgetplanningshiërarchie voor elk budgetplanningsproces. De budgetplanningshiërarchie hoeft niet overeen te komen met de standaardorganisatiehiërarchie die wordt gebruikt voor andere doeleinden. Omdat deze hiërarchie wordt gebruikt om gegevens samen te voegen en te distribueren, kunt u deze wellicht een andere structuur geven. In het voorbeeldschema bevinden de verkoopafdelingen zich onder een hoofdkantoorniveau dat budget- en financiële afdelingen bevat. Deze structuur verschilt waarschijnlijk van de structuur die wordt gebruikt om bewerkingen voor de verkoopafdelingen te beheren. Slechts één organisatiehiërarchie kan worden toegewezen aan elk budgetplanningsproces.
 
-Zie [Organisaties en organisatiehiërarchieën](../../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md) voor meer informatie.
+Zie [Organisaties en organisatiehiërarchieën](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md) voor meer informatie.
 
 ### <a name="user-security"></a>Gebruikersbeveiliging
 
@@ -95,7 +95,7 @@ Het is een goed idee om een budgetplanningsworkflow voor elk niveau van een budg
 
 U maakt de budgetteringsworkflow voor budgetplanning op de pagina **Budgetteringsworkflows**. Het proces lijkt op het proces voor het maken van andere workflows. In de volgende afbeelding ziet u een voorbeeld van een workflow voor het hoofdkantoor.
 
-[![Budgetteringsworkflow voor budgetplanning.](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
+[![Budgetteringsworkflow voor budgetplanning](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
 
 De workflow bevat de volgende elementen:
 
@@ -143,11 +143,11 @@ Wanneer u een fasetoewijzing instelt, koppelt u de budgetplanningswerkstroom en 
 
 In het voorbeeldschema eerder in dit onderwerp, wordt een toewijzing gedaan om bedragen van een budgetplan en scenario's in de hoofdkantoorbasisfase over te boeken naar een ander budgetplan en scenario's en in de ramingsfase van de verkoopafdelingen. In de volgende afbeelding ziet u de relevante sectie van het voorbeeldschema.
 
-[![Fasetoewijzing.](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
+[![Fasetoewijzing](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 
 Bovendien vindt in het voorbeeldschema een aggregatie plaats vanuit budgetplannen en scenario's in de indieningsfase van de verkoopafdelingen met een bovenliggend plan in de rollup-fase voor het hoofdkantoor. In de volgende afbeelding ziet u de relevante sectie van het voorbeeldschema.
 
-[![Aggregatie.](./media/aggregation-109x300.png)](./media/aggregation.png)
+[![Aggregatie](./media/aggregation-109x300.png)](./media/aggregation.png)
 
 ### <a name="priorities"></a>Prioriteiten
 
@@ -165,7 +165,7 @@ Naast kolommen voor budgetbedragen kunt u kolommen definiëren voor de velden vo
 
 Voor het voorbeeldschema wilt u mogelijk kolommen maken voor de scenario's "Verkoop vorig jaar", "Contracten" en "Prognose". (In de volgende afbeelding ziet u de relevante sectie van het voorbeeldschema.) U kunt vervolgens één scenario of al deze scenario's in afzonderlijke kolommen opdelen voor elk kwartaal van het boekjaar, zodat de manager van de verkoopafdeling nauwkeurig prognosebedragen voor elke periode kan invoeren.
 
-[![Illustratie van secties van het schema voor het toevoegen van kolommen.](./media/columns.png)](./media/columns.png)
+[![Kolommen](./media/columns.png)](./media/columns.png)
 
 U kunt ook opgeven of elk indelingselement (kolom) bewerkbaar is en of het beschikbaar is in een werkbladsjabloon die voor die indeling is gemaakt. Voor het voorbeeldschema zijn in de indeling die voor de ramingsfase wordt gebruikt, de prognosekolommen bewerkbaar, terwijl de kolommen "Verkoop vorig jaar" en "Contracten" alleen-lezen zijn.
 
@@ -203,7 +203,4 @@ Via het menu **Acties** kunt u ook een nieuw proces maken door een bestaand proc
 
 Een andere nuttige opdracht in het menu **Acties** is **Budgetprocesstatus weergeven**. Met deze opdracht worden de budgetplannen in een proces grafisch weergegeven, samen met relevante gegevens, zoals de workflowstatus van de plannen, overzichten per bedrag en per eenheid en navigatie naar de budgetplannen zelf via één keer klikken.
 
-[![Status van budgetplanningproces.](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[![Status van budgetplanningproces](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)

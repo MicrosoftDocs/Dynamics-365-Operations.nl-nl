@@ -2,34 +2,35 @@
 title: Beleidsregels voor consolidatie van zendingen
 description: Dit onderwerp biedt een overzicht van de functionaliteit die flexibele configuratie van consolidatiebeleid voor zendingen biedt.
 author: GarmMSFT
+manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate, WHSShipConsolidationTemplateApply, WHSShipConsolidationTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 11ee4beefed02425d4650de3e896e608d3d00ef5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f895b13b2e11d4cb341f80b3cfeb40ed998ccfc4
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577955"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654215"
 ---
 # <a name="shipment-consolidation-policies"></a>Beleidsregels voor consolidatie van zendingen
-
-[!include [banner](../includes/banner.md)]
 
 In het consolidatieproces voor zendingen waarbij wordt gebruikgemaakt van consolidatiebeleid voor zendingen kunnen zendingen automatisch worden geconsolideerd en handmatig worden vrijgegeven aan het magazijn. De automatische consolidatie die beschikbaar was voordat deze functie werd geïntroduceerd, had hard gecodeerde velden en was gebaseerd op het veld **Zending bij vrijgave naar magazijn consolideren** dat voor een magazijn was ingesteld.
 
 Consolidatiebeleid voor zendingen wordt gebruikt voor de volgende functionaliteit:
 
 - De batchtaak voor automatische vrijgave naar magazijn
-- De opdracht **Vrijgave naar magazijn** in een verkoop- of overboekingsorder
+- De opdracht **Vrijgave naar magazijn** in een verkoop- of transferorder
 - De speciale pagina **Vrijgave naar magazijn**
 - De opdracht **Vrijgave naar magazijn** op de pagina **Workbench ladingplanning**
 - De handmatige consolidatie van zendingen op de pagina's **Zendingen consolideren** en **Workbench zendingsconsolidatie**
@@ -42,9 +43,9 @@ Wanneer consolidatiebeleid voor zendingen beschikbaar wordt gemaakt, is de inste
 
 U kunt de pagina **Vrijgave naar magazijn** gebruiken om toepasselijke consolidatiebeleid op dezelfde manier handmatig te overschrijven als uitvoeringsbeleid.
 
-U kunt de opdracht **Vrijgeven \> Vrijgave naar magazijn** op de pagina **Workbench ladingplanning** gebruiken om uitgaande ladingen te maken die zijn gebaseerd op verkooporder- en overboekingsorderregels voordat u het product vrijgeeft naar het magazijn. Deze ladingen gebruiken de consolidatielogica die samen met het beleid voor consolidatie van zendingen is ingevoerd.
+U kunt de opdracht **Vrijgeven \> Vrijgave naar magazijn** op de pagina **Workbench ladingplanning** gebruiken om uitgaande ladingen te maken die zijn gebaseerd op verkooporder- en transferorderregels voordat u het product vrijgeeft naar het magazijn. Deze ladingen gebruiken de consolidatielogica die samen met het beleid voor consolidatie van zendingen is ingevoerd.
 
-U kunt de pagina **Workbench zendingsconsolidatie** gebruiken voor het consolideren van bestaande zendingen die nog niet zijn bevestigd, maar al wel zijn vrijgegeven naar het magazijn. Deze functionaliteit ondersteunt scenario's waarbij het geautomatiseerde vrijgaveproces, dat een eigen zendingsconsolidatie heeft, meerdere keren per dag wordt uitgevoerd. Mogelijke extra consolidaties worden echter handmatig geïdentificeerd voordat de zending naar vervoerders wordt voltooid tijdens het bevestigingsproces. Met deze functie kunt u uitgaande zendingen die zijn gemaakt op basis van verkooporder- of overboekingsorderregels op elk moment consolideren nadat de zendingen zijn vrijgegeven naar het magazijn, maar voordat ze worden bevestigd.
+U kunt de pagina **Workbench zendingsconsolidatie** gebruiken voor het consolideren van bestaande zendingen die nog niet zijn bevestigd, maar al wel zijn vrijgegeven naar het magazijn. Deze functionaliteit ondersteunt scenario's waarbij het geautomatiseerde vrijgaveproces, dat een eigen zendingsconsolidatie heeft, meerdere keren per dag wordt uitgevoerd. Mogelijke extra consolidaties worden echter handmatig geïdentificeerd voordat de zending naar vervoerders wordt voltooid tijdens het bevestigingsproces. Met deze functie kunt u uitgaande zendingen die zijn gemaakt op basis van verkooporder- of transferorderregels op elk moment consolideren nadat de zendingen zijn vrijgegeven naar het magazijn, maar voordat ze worden bevestigd.
 
 De pagina **Workbench zendingsconsolidatie** werkt zoals de workbench voor ladingopbouw, waar u meerdere zendingen tegelijk kunt beoordelen en een niet-geconsolideerde order aan een specifieke zending kunt toewijzen. U kunt zendingsconsolidatiesjablonen toepassen om voorgestelde consolidaties meerdere keren te beoordelen en te bevestigen. Sommige regels zijn geïmplementeerd om ongeoorloofde consolidatie te voorkomen en u te waarschuwen voor mogelijke fouten.
 
@@ -54,7 +55,7 @@ In deze sectie worden de pagina's, opdrachten en functies beschreven die worden 
 
 ### <a name="shipment-consolidation-policies-page"></a>De pagina Consolidatiebeleid voor zendingen
 
-Beleid wordt gedifferentieerd op basis van werkordertype. Het type **Verkooporders** staat voor _verkooporderzendingen_, het type **overboekingsorders** voor _overboekingsorderzendingen_.
+Beleid wordt gedifferentieerd op basis van werkordertype. Het type **Verkooporders** staat voor _verkooporderzendingen_, het type **Transferorders** voor _transferorderzendingen_.
 
 Elk consolidatiebeleid voor zendingen bevat een query die definieert wanneer het beleid wordt toegepast en een volgnummer waarmee de uitvoeringsvolgorde wordt bepaald. Voor elke unieke combinatie van de geselecteerde velden wordt een consolidatie toegepast. Een extra parameter die wordt geleverd, wordt gebruikt voor consolidatie met bestaande (openstaande) zendingen. Het beleid wordt telkens geëvalueerd en toegepast wanneer een nieuwe zending wordt gemaakt (vóór wave-verwerking).
 
@@ -69,7 +70,7 @@ In de volgende lijst worden de verplichte velden weergegeven. Omdat zendingen al
     - **Postadres (RecId):** _WHSShipmentTable.DeliveryPostalAddress_
     - **Magazijn:** _WHSShipmentTable.InventLocationId_
 
-- Voor overboekingsorders:
+- Voor transferorders:
 
     - **Van magazijn:** _InventTransferTable.InventLocationIdFrom_
     - **Naar magazijn:** _InventTransferTable.InventLocationIdTo_
@@ -91,7 +92,7 @@ De waarden die gebruikers voor deze velden selecteren, worden gebruikt voor alle
 
 Niet-geselecteerde velden worden genegeerd tijdens het consolidatieproces. Als twee zendingen verschillende waarden voor een niet-geselecteerd veld hebben, wordt het veld leeg gemaakt (dat wil zeggen dat het is ingesteld op leeg). Als beide zendingen dezelfde waarde voor een niet-geselecteerd veld hebben, wordt het veld ingevuld.
 
-De lijst met consolidatievelden (de velden die worden gewist als ze verschillende waarden hebben) wordt gecodeerd. De lijst bevat alle velden die worden geïnitialiseerd vanaf een verkooporder- of overboekingsorderregel wanneer een nieuwe zending wordt gemaakt. Met andere woorden, als een veld niet wordt geïnitialiseerd via een verkooporder- of overboekingsorderregel, wordt dit genegeerd wanneer nieuwe gegevens aan een bestaande zending worden toegevoegd.
+De lijst met consolidatievelden (de velden die worden gewist als ze verschillende waarden hebben) wordt gecodeerd. De lijst bevat alle velden die worden geïnitialiseerd vanaf een verkooporder- of transferorderregel wanneer een nieuwe zending wordt gemaakt. Met andere woorden, als een veld niet wordt geïnitialiseerd via een verkooporder- of transferorderregel, wordt dit genegeerd wanneer nieuwe gegevens aan een bestaande zending worden toegevoegd.
 
 ### <a name="release-to-warehouse-page"></a>De pagina Vrijgave naar magazijn
 
@@ -122,7 +123,7 @@ De volgende tabel biedt een overzicht van de manier waarop zendingsconsolidatie 
 |---|----|
 | Niet van toepassing | Verkoop- of overschrijvingszendingen die zijn geselecteerd voor consolidatie moeten hetzelfde consolidatiebeleid hebben als de zending die wordt gemaakt, of ze moeten worden toegewezen aan een openstaande zending (als de optie **Consolideren met bestaande zendingen** is ingeschakeld). |
 | Met de procedure *Vrijgave naar magazijn* wordt niet tussen bestaande zendingen gezocht om een zending voor consolidatie te zoeken. Alleen zendingen die door een huidig exemplaar van de procedure *Vrijgave naar magazijn* worden gemaakt, worden gebruikt om een zending voor consolidatie te zoeken. | Als de optie **Consolideren met bestaande zendingen** is ingeschakeld voor een consolidatiebeleid dat momenteel wordt gebruikt, zoekt de procedure *Vrijgave naar magazijn* tussen bestaande zendingen die zijn gemaakt op basis van hetzelfde consolidatiebeleid om een zending voor consolidatie te vinden. Als u dus twee beleidsregels hebt, wordt een zending die op basis van beleid 2 wordt gemaakt nooit geconsolideerd met een zending die is gemaakt op basis van beleid 1. |
-| Niet van toepassing | Als een lijst met consolidatiebeleidsvelden leeg is of als er geen beleid wordt gevonden, wordt voor elke verkooporder- of overboekingsorderregel een nieuwe zending gemaakt. |
+| Niet van toepassing | Als een lijst met consolidatiebeleidsvelden leeg is of als er geen beleid wordt gevonden, wordt voor elke verkooporder- of transferorderregel een nieuwe zending gemaakt. |
 | Het volgende consolidatieveld bepaalt de unieke combinatie van waarden die wordt gebruikt om zendingen voor een *overschrijvingsregel* te consolideren. (Alle overige velden worden genegeerd.)<ul><li>Ordernummer (OrderNum)</li></ul> | De volgende consolidatievelden bepalen de unieke combinatie van waarden die wordt gebruikt om zendingen voor een *overschrijvingsregel* te consolideren. (Alle overige velden worden genegeerd.)<ul><li>Ordernummer (OrderNum)</li><li>Ontvanger van levering (DeliveryName)</li><li>Postadres (DeliveryPostalAddress)</li><li>ISO-landcode (CountryRegionISOCode)</li><li>Adres (Address)</li><li>Locatie (InventSiteId)</li><li>Magazijn (InventLocationId)</li><li>Vervoerder (CarrierCode)</li><li>Vervoerdersservice (CarrierServiceCode)</li><li>Leveringsmethode (ModeCode)</li><li>Vervoerdersgroep (CarrierGroupCode)</li><li>Leveringsvoorwaarden (DlvTermId)</li></ul>Deze velden zijn de enige velden die beschikbaar zijn en worden geïnitialiseerd wanneer een nieuwe zending wordt gemaakt. |
 | De volgende consolidatievelden bepalen de unieke combinatie van waarden die wordt gebruikt om zendingen voor een *verkoopregel* te consolideren. (Alle overige velden worden genegeerd.)<ul><li>Ordernummer (OrderNum)</li><li>Klantverwijzing (CustomerRef)</li><li>Bestelopdracht van klant (CustomerReq)</li><li>Leveringsvoorwaarden (DlvTermId)</li></ul> | De volgende consolidatievelden bepalen de unieke combinatie van waarden die wordt gebruikt om zendingen voor een *verkoopregel* te consolideren. (Alle overige velden worden genegeerd.)<ul><li>Ordernummer (OrderNum)</li><li>Rekeningnummer (AccountNum)</li><li>Ontvanger van levering (DeliveryName)</li><li>Postadres (DeliveryPostalAddress)</li><li>ISO-landcode (CountryRegionISOCode)</li><li>Adres (Address)</li><li>Locatie (InventSiteId)</li><li>Magazijn (InventLocationId)</li><li>Vervoerder (CarrierCode)</li><li>Vervoerdersservice (CarrierServiceCode)</li><li>Leveringsmethode (ModeCode)</li><li>Vervoerdersgroep (CarrierGroupCode)</li><li>Tussenpersoon-id (BrokerCode)</li><li>Richting (LoadDirection)</li><li>Leveringsvoorwaarden (DlvTermId)</li><li>Klantverwijzing (CustomerRef)</li><li>Bestelopdracht van klant (CustomerReq)</li></ul>Deze velden zijn de enige velden die beschikbaar zijn en worden geïnitialiseerd wanneer een nieuwe zending wordt gemaakt. |
 | Niet van toepassing | De volgende consolidatievelden zijn verplicht voor een *verkoopregel* en kunnen niet worden verwijderd:<ul><li>Rekeningnummer (AccountNum)</li><li>Ontvanger van levering (DeliveryName)</li><li>Postadres (DeliveryPostalAddress)</li><li>Magazijn (InventLocationId)</li></ul>Deze velden worden standaard toegewezen wanneer een nieuw beleid wordt gemaakt. Ze kunnen niet worden verwijderd. |
@@ -134,6 +135,3 @@ De volgende tabel biedt een overzicht van de manier waarop zendingsconsolidatie 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 - [Consolidatiebeleid voor zendingen configureren](configure-shipment-consolidation-policies.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

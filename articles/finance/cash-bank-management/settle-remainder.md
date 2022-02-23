@@ -1,24 +1,27 @@
 ---
 title: Restbedrag vereffenen
 description: U kunt het resterende bedrag van de vereffeningsactiviteit vereffenen door het toe te passen op een grootboekrekening.
-author: roschlom
+author: mikefalkner
+manager: aolson
 ms.date: 10/16/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 216c5c1d7db72e5f5071f2cd03656df538a64e72
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 52b0b456a6d9879c480ac3f076a32e382426a89c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7754091"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441953"
 ---
 # <a name="settle-remainder"></a>Restbedrag vereffenen
 
@@ -67,6 +70,3 @@ Ga als volgt te werk om het restant te vereffenen:
 7)  U kunt er ook voor kiezen een betalingsjournaal met het restbedrag van de vereffening te maken of dit alleen zonder een journaal boeken. Selecteer **Ja** voor **Bewerken in journaal** om een betalingsjournaal te maken. U kunt het door u gemaakte betalingsjournaal bewerken.
 8)  Klik op **Restbedrag vereffenen**. Als u ervoor hebt gekozen een journaal te maken, wordt de knop gewijzigd in **Journaal maken**. Klik in dat geval op **Journaal maken**.
 9)  Als u een betalingsjournaal hebt gemaakt, wordt de journaalpagina geopend als u op **Restbedrag vereffenen** klikt. Er wordt een regel aan het journaal toegevoegd met het resterende vereffeningsbedrag als het bedrag en met de rekening voor het restbedrag als tegenrekening. Als u een klant of leverancier hebt toegevoegd zodat u het vereffeningsbedrag naar een andere klant of leverancier kunt verplaatsen, wordt een extra regel toegevoegd aan het journaal om het vereffeningsbedrag naar die klant of leverancier te verplaatsen.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

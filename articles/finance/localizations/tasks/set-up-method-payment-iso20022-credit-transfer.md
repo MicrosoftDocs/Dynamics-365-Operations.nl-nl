@@ -2,23 +2,26 @@
 title: Betalingsmethode voor ISO20022-kredietoverdracht instellen
 description: IN deze procedure ziet u hoe u de betalingsmethode van de leverancier instelt voor ISO20022-kredietoverdracht of een ander type betaling door middel van elektronische rapportage en zo een bestand aanmaakt.
 author: mrolecki
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPaymMode
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7f87cc0dfa47295f047ef97732f60733c362ca4066d9070418322b34934e3ce3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d6d60502cd7f749b71cf39cc38d8a39dcbb7b108
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773655"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441809"
 ---
 # <a name="set-up-method-of-payment-for-iso20022-credit-transfer"></a>Betalingsmethode voor ISO20022-kredietoverdracht instellen
 
@@ -45,6 +48,3 @@ Dit is de derde van vijf taken die het leveranciersbetalingproces toelichten doo
 10. Geef de waarden 'DEMF OPER' op in het veld Betalingsrekening.
 11. Klik op Opslaan.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

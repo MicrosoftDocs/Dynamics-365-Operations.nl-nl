@@ -113,5 +113,3 @@ De download is een ZIP-bestand dat het volgende bevat:
 ## <a name="see-also"></a>Zie ook
 
 [Dynamics 365 Talent: Attract- en Dynamics 365 Talent: Onboard-apps buiten gebruik stellen](https://community.dynamics.com/365/talent/b/dynamics365fortalent/posts/retiring-dynamics-365-talent-attract-and-onboard-apps)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: 'ER: vereiste configuraties maken voor het importeren van gegevens uit een extern bestand'
-description: Dit onderwerp beschrijft het ontwerpen van configuraties elektronische rapportage om gegevens te importeren in de Microsoft Dynamics 365 Finance-app vanuit een extern bestand.
+description: In de volgende stappen wordt uitgelegd hoe een gebruiker in de rol van systeembeheerder of ER-ontwikkelaar nieuwe ER-configuraties kan maken waarmee gegevens vanuit een extern bestand in de Microsoft Dynamics 365 Finance-toepassing kunnen worden geïmporteerd.
 author: NickSelin
-ms.date: 03/24/2021
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
@@ -13,25 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7eaa35baae8e030d8a8b7ce903554c4876c874b48cfd72d6ac278cf4c0e8a6e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d9b26f4963f32be34ae1d954a3f363be7ea28d41
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720851"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684276"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER: vereiste configuraties maken voor het importeren van gegevens uit een extern bestand
 
 [!include [banner](../../includes/banner.md)]
 
-In de volgende stappen wordt uitgelegd hoe een gebruiker in de rol van systeembeheerder of ER-ontwikkelaar nieuwe ER-configuraties kan maken waarmee gegevens vanuit een extern bestand in de toepassing kunnen worden geïmporteerd. In dit voorbeeld maakt u de vereiste ER-configuraties voor het voorbeeldbedrijf Litware, Inc. Voordat u deze stappen uitvoert, moet u eerst de stappen uitvoeren in de Taakbegeleiding "ER Een configuratieprovider maken en deze als actief markeren". Deze stappen kunnen worden voltooid met de USMF-gegevensset. U moet ook de volgende bestanden downloaden en lokaal opslaan: 
-
-| Omschrijving inhoud                       | Bestandsnaam                                     |
-|-------------------------------------------|-----------------------------------------------|
-| Configuratie van model voor ER-gegevens - 1099 | [1099model,xml](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml)                  |
-| ER-indelingsconfiguratie - 1099    | [1099format.xml](https://download.microsoft.com/download/e/8/7/e87154b0-b53f-431f-8e1e-0b7f7c9805a9/1099format.xml)                  |
-| Voorbeeld van het binnenkomende document in XML-indeling                          | [1099entries.xml](https://download.microsoft.com/download/4/0/3/403a4958-df24-476a-b8b0-6843a9fa7f89/1099entries.xml)        |
-| Voorbeeld van de werkmap voor beheer van gegevens van inkomend document                          | [1099entries.xlsx](https://download.microsoft.com/download/6/0/0/6001abab-a331-48db-a939-41851fb0f5d0/1099entries.xlsx) |
+In de volgende stappen wordt uitgelegd hoe een gebruiker in de rol van systeembeheerder of ER-ontwikkelaar nieuwe ER-configuraties kan maken waarmee gegevens vanuit een extern bestand in de toepassing kunnen worden geïmporteerd. In dit voorbeeld maakt u de vereiste ER-configuraties voor het voorbeeldbedrijf Litware, Inc. Voordat u deze stappen uitvoert, moet u eerst de stappen uitvoeren in de Taakbegeleiding "ER Een configuratieprovider maken en deze als actief markeren". Deze stappen kunnen worden voltooid met de USMF-gegevensset. U moet ook de volgende bestanden downloaden vanaf de koppelingen in het overzichtsonderwerp Electronic Reporting (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 
 ER biedt zakelijke gebruikers de mogelijkheid om het proces te configureren voor de import van externe gegevensbestanden in tabellen in de indeling .XML of .TXT. Allereerst moet u een abstract gegevensmodel en een configuratie voor een ER-gegevensmodel opzetten, om de gegevens te vertegenwoordigen die u wilt importeren. Vervolgens moet u de structuur definiëren van het bestand dat u wilt importeren en de methode die u gebruikt om de gegevens van het bestand over te zetten naar het abstracte gegevensmodel. De ER-indelingsconfiguratie die de toewijzing naar het door u ontworpen gegevensmodel bevat, moet voor dat abstracte gegevensmodel worden gemaakt. Vervolgens moet u de gegevensmodelconfiguratie uitbreiden met een toewijzing die beschrijft hoe de geïmporteerde gegevens permanent worden gemaakt als gegevens in het abstracte gegevensmodel en hoe ze worden gebruikt voor het bijwerken van tabellen.  Aan de gegevensmodelconfiguratie van ER moet een nieuwe modeltoewijzing worden toegevoegd, die de binding van het gegevensmodel aan de bestemmingen van de toepassing beschrijft.  
 
@@ -259,6 +254,3 @@ Voer deze toewijzingsindeling uit om te testen. Gebruik het bestand 1099entries.
 27. Sluit de pagina.
 28. Sluit de pagina.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

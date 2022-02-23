@@ -2,24 +2,27 @@
 title: Verkoopprijsbeheer detailhandel
 description: Dit onderwerp beschrijft de concepten voor het maken en beheren van verkoopprijzen in Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-ms.date: 07/28/2021
+manager: AnnBe
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f78a4f328d6962db373990ea60dc03cec35718dc719aa0b284b319db5bc059ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a90f5706c87d398f495fae40f42f6c2d408b1c2a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759280"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411253"
 ---
 # <a name="retail-sales-price-management"></a>Verkoopprijsbeheer van detailhandel
 
@@ -40,21 +43,21 @@ De volgende termen worden gebruikt in dit onderwerp.
 
 ## <a name="price-groups"></a>Prijsgroepen
 
-Prijsgroepen vormen de kern van het prijzen- en kortingenbeheer in Commerce. Prijsgroepen worden gebruikt om prijzen en kortingen toe te wijzen aan Commerce-entiteiten (zoals kanalen, catalogi, lidmaatschappen en loyaliteitsprogramma's). Aangezien prijsgroepen worden gebruikt voor alle prijzen en kortingen, is het belangrijk dat u plant hoe u ze gebruikt voordat u begint.
+Prijsgroepen vormen de kern van het prijzen- en kortingenbeheer in Commerce. Prijsgroepen worden gebruikt om prijzen en kortingen toe te wijzen aan commerce-entiteiten (zoals kanalen, catalogi, aansluitingen en loyaliteitsprogramma's). Aangezien prijsgroepen worden gebruikt voor alle prijzen en kortingen, is het belangrijk dat u plant hoe u ze gebruikt voordat u begint.
 
-Een prijsgroep is in feite alleen een naam, een omschrijving en eventueel een prioriteit voor prijscalculatie. Het belangrijkste punt om te onthouden over prijsgroepen is dat ze worden gebruikt om de veel-op-veel-relaties van kortingen en prijzen met Commerce-entiteiten te beheren.
+Een prijsgroep is in feite alleen een naam, een omschrijving en eventueel een prioriteit voor prijscalculatie. Het belangrijkste punt om te onthouden over prijsgroepen is dat ze worden gebruikt om de veel-op-veel-relaties van kortingen en prijzen met commerce-entiteiten te beheren.
 
-De volgende afbeelding laat zien hoe prijsgroepen worden gebruikt. In deze afbeelding ziet u dat 'Prijsgroep' letterlijk het middelpunt is van prijzen- en kortingsbeheer. De Commerce-entiteiten die u kunt gebruiken voor het beheren van gedifferentieerde prijzen en kortingen staan aan de linkerkant en de werkelijke prijzen- en kortingsrecords aan de rechterkant.
+De volgende afbeelding laat zien hoe prijsgroepen worden gebruikt. In deze afbeelding ziet u dat 'Prijsgroep' letterlijk het middelpunt is van prijzen- en kortingsbeheer. De commerce-entiteiten die u kunt gebruiken voor het beheren van gedifferentieerde prijzen en kortingen staan aan de linkerkant en de werkelijke prijzen- en kortingsrecords aan de rechterkant.
 
-![Prijsgroepen.](./media/PriceGroups.png "Prijsgroepen")
+![Prijsgroepen](./media/PriceGroups.png "Prijsgroepen")
 
-Wanneer u prijsgroepen maakt, moet u niet één prijsgroep gebruiken voor meerdere soorten Commerce-entiteiten. Anders kan het lastig zijn om te bepalen waarom een bepaalde prijs of korting op een transactie wordt toegepast.
+Wanneer u prijsgroepen maakt, moet u niet één prijsgroep gebruiken voor meerdere soorten commerce-entiteiten. Anders kan het lastig zijn om te bepalen waarom een bepaalde prijs of korting op een transactie wordt toegepast.
 
 Zoals de rode streepjeslijn in de afbeelding laat zien, ondersteunt Commerce de basisfunctie van Microsoft Dynamics 365 van prijsgroepen die direct voor een klant zijn ingesteld. In dit geval krijgt u echter alleen verkoopprijshandelsovereenkomsten. Als u klantspecifieke prijzen wilt toepassen, raden wij aan dat u niet prijsgroepen rechtstreeks voor de klant instelt. In plaats daarvan moet u aansluitingen gebruiken. 
 
 Als de prijsgroep is ingesteld voor de klant, wordt deze prijsgroep gekoppeld aan de verkooporderkoptekst van de orders die voor deze klant zijn gemaakt. Als de gebruiker de prijsgroep in de orderkop wijzigt, wordt de oude prijsgroep alleen voor de huidige order vervangen door de nieuwe prijsgroep. De oude prijsgroep heeft bijvoorbeeld geen invloed op de huidige order, maar is nog steeds gekoppeld aan de klant voor toekomstige orders.
 
-De volgende secties bevatten meer informatie over de Commerce-entiteiten die u kunt gebruiken om verschillende prijzen in te stellen wanneer prijsgroepen worden gebruikt. De configuratie van prijzen en kortingen voor alle entiteiten is een tweeledig proces. Deze stappen kunnen in een willekeurige volgorde worden uitgevoerd. De logische volgorde is echter om de prijsgroepen eerst in te stellen voor de entiteiten, omdat deze stap waarschijnlijk een eenmalige instelling is die wordt uitgevoerd tijdens de implementatie. Vervolgens kunt u, als prijzen en kortingen zijn gemaakt, de prijsgroepen afzonderlijk instellen voor deze prijzen en kortingen.
+De volgende secties bevatten meer informatie over de commerce-entiteiten die u kunt gebruiken om verschillende prijzen in te stellen wanneer prijsgroepen worden gebruikt. De configuratie van prijzen en kortingen voor alle entiteiten is een tweeledig proces. Deze stappen kunnen in een willekeurige volgorde worden uitgevoerd. De logische volgorde is echter om de prijsgroepen eerst in te stellen voor de entiteiten, omdat deze stap waarschijnlijk een eenmalige instelling is die wordt uitgevoerd tijdens de implementatie. Vervolgens kunt u, als prijzen en kortingen zijn gemaakt, de prijsgroepen afzonderlijk instellen voor deze prijzen en kortingen.
 
 ### <a name="channels"></a>Afzetkanalen
 
@@ -214,21 +217,20 @@ Wanneer u verkoopprijzen in Dynamics 365 instelt, geeft u niet aan of de waarde 
 
 Als u werkt met inclusief en exclusief btw, is het belangrijk dat u prijzen correct hebt ingesteld, omdat het totale bedrag dat de klant betaalt, niet verandert als de instelling **Prijs inclusief btw** in het kanaal wordt gewijzigd.
 
-## <a name="differences-between-commerce-pricing-and-non-commerce-pricing"></a>Verschillen tussen Commerce-prijzen en andere prijzen
+## <a name="differences-between-retail-pricing-and-non-retail-pricing"></a>Verschillen tussen adviesprijs en niet-adviesprijs
 
-Er wordt één prijzenengine gebruikt voor het berekenen van de prijzen voor alle kanalen: callcenters, winkels en online winkels. Dit is handig bij het faciliteren van gemeenschappelijke Commerce-scenario's.
+Er wordt één prijscalculatie-engine gebruikt voor het berekenen van de prijzen voor alle kanalen: callcenters, winkels en online winkels. Dit is handig voor het inschakelen van de gecombineerde handelsscenario's.
 
-De prijzen zijn ontworpen om te worden gebruikt met Commerce-entiteiten, en niet met andere entiteiten. Het is vooral ontworpen om prijzen in te stellen per winkel, niet per magazijn.
+Prijscalculatie is ontworpen om te gebruiken met detailhandelsentiteiten in plaats van niet-detailhandelsentiteiten. Het is vooral ontworpen om prijzen in te stellen per winkel, niet per magazijn.
 
-De engine voor Commerce-prijzen **biedt geen ondersteuning** voor de volgende prijsbepalingsfuncties:
+De prijsengine **biedt geen ondersteuning** voor de volgende prijsbepalingsfuncties:
 
 - Het instellen van prijzen op basis van de opslagdimensies van de vestiging of de vestiging en het magazijn wordt niet ondersteund. Als u alleen de vestigingsdimensie in de handelsovereenkomsten opgeeft, negeert de prijsengine de vestiging en wordt de handelsovereenkomst toegepast op alle vestigingen. Als u zowel vestiging als magazijn opgeeft, is het gedrag niet gedefinieerd/niet getest omdat wordt verwacht dat detailhandelaren de winkelprijsgroepen gebruiken om de prijzen voor elke winkel en elk magazijn te beheren.
 - Prijzen op basis van kenmerk worden niet ondersteund.
 - Leverancierskortingen worden niet ondersteund.
-- De algemene valutafunctie wordt niet ondersteund. Zelfs als voor een handelsovereenkomst de schakeloptie **Algemene valuta opnemen** is ingeschakeld, wordt deze handelsovereenkomst alleen als geldig beschouwd voor de valuta die in de handelsovereenkomst is gedefinieerd.
 - De standaard prijsengine voor Supply Chain Management ondersteunt de prijsberekening op basis van de gewenste verzenddatum en gewenste ontvangstdatum, samen met de huidige datum. Deze waarden worden momenteel echter niet ondersteund voor detailhandelprijzen. De reden is dat voor B2C-scenario's niet wordt verwacht dat de gewenste leveringsdatum de artikelprijs beïnvloedt. In sommige gevallen zijn detailhandelaren zowel op het gebied van B2B als B2C actief. Voor B2B-activiteiten is het gebruikelijk om prijzen te wijzigen op basis van de leveringsdatums. Deze detailhandelaren kunnen Supply Chain Management-prijzen gebruiken voor hun B2B-activiteiten en detailhandelprijzen voor hun B2C-activiteiten. Detailhandelprijzen worden alleen gebruikt als de gebruiker van de toepassing wordt toegevoegd als een callcenter-gebruiker, zodat de detailhandelaren bepaalde gebruikers kunnen toewijzen die met de Supply Chain Management-prijzen werken en een aantal gebruikers kunnen toewijzen die geschikt zijn voor de detailhandelprijs, dat wil zeggen dat deze gebruikers moeten worden toegevoegd als een callcenter-gebruiker. Daarnaast moet de eigenschap **Datum van vandaag gebruiken voor het berekenen van prijzen** in **Commerce-parameters > Prijzen en kortingen > Diversen** zijn ingeschakeld. Op deze manier kunnen ze de waarde van de klantparameterwaarde voor Gewenste verzenddatum of Gewenste ontvangstdatum voor de Supply Chain Management-prijs blijven gebruiken, maar blijft de datum van vandaag behouden voor de prijsberekening.
 
-Bovendien ondersteunt de Commerce-prijzenengine **alleen** de volgende prijsbepalingsfuncties:
+Bovendien ondersteunt de prijsengine **alleen** de volgende prijsbepalingsfuncties:
 
 - De prijs is gebaseerd op de productdimensies in volgorde van de meest specifieke variantprijs naar de minst specifieke variantprijs voor de modelproductprijs. Een prijs die wordt ingesteld via twee productdimensies (bijvoorbeeld kleur en grootte) wordt gebruikt vóór een prijs die is ingesteld via slechts één productdimensie (bijvoorbeeld grootte).
 - Dezelfde prijsgroep kan worden gebruikt om prijzen en kortingen te bepalen.
@@ -237,7 +239,4 @@ Bovendien ondersteunt de Commerce-prijzenengine **alleen** de volgende prijsbepa
 
 Prijs is een van de belangrijkste factoren voor koopbeslissingen van veel klanten en veel klanten vergelijken de prijzen op verschillende locaties voordat ze overgaan tot koop. Om er zeker van te zijn dat ze concurrerende prijzen bieden, houden detailhandelaren hun concurrenten goed in de gaten en hebben ze vaak acties. Om deze detailhandelaren te helpen bij het aantrekken van klanten, is het zeer belangrijk dat bij het zoeken naar producten, in de bladerfunctie, lijsten en op de pagina met productdetails de meest nauwkeurige prijzen worden weergegeven.
 
-De **GetActivePrices**-API (Application Programming Interface) in Commerce retourneert prijzen die eenvoudige kortingen bevatten (bijvoorbeeld kortingen van één regel die niet afhankelijk zijn van andere artikelen in de winkelwagen). Op deze manier liggen de prijzen die worden weergegeven dicht bij het werkelijke bedrag dat klanten voor artikelen betalen. Deze API bevat alle soorten eenvoudige kortingen: op relatie, loyaliteit, catalogus en kanaal gebaseerde kortingen. Daarnaast retourneert de API de namen en validiteitsgegevens voor de toegepaste kortingen, zodat winkeliers een meer gedetailleerde omschrijving van de prijs kunnen bieden en een gevoel van urgentie creëren als de geldigheid van de korting binnenkort verloopt.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+In een aanstaande release van Commerce retourneert de API **GetActivePrices** prijzen die eenvoudige kortingen bevatten (bijvoorbeeld kortingen van één regel die niet afhankelijk zijn van andere artikelen in de winkelwagen). Op deze manier liggen de prijzen die worden weergegeven dicht bij het werkelijke bedrag dat klanten voor artikelen betalen. Deze API bevat alle soorten eenvoudige kortingen: op relatie, loyaliteit, catalogus en kanaal gebaseerde kortingen. Daarnaast retourneert de API de namen en validiteitsgegevens voor de toegepaste kortingen, zodat detailhandelaren een meer gedetailleerde omschrijving van de prijs kunnen bieden en een gevoel van urgentie creëren als de geldigheid van de korting binnenkort verloopt.

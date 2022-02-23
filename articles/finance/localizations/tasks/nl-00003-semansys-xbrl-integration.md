@@ -2,9 +2,11 @@
 title: Semansys XBRL-integratie
 description: Deze procedure begeleidt u door het gebruik van Nederlandse functionaliteit om financiële gegevens naar de XML-indeling te exporteren.
 author: mrolecki
+manager: AnnBe
 ms.date: 05/28/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Dialog
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Netherlands
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6f451fc74a4316ecb35e988fe6e6daa93ffe5396e8ac63c0134c65f561b67f83
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d14623482b0637e7bc6c34d550e2ef4076f9a4bf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775862"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968311"
 ---
 # <a name="deliver-xbrl-to-the-dutch-regulatory-body-via-semansys-xbrlone"></a>XBRL aan de Nederlandse regelgevende instantie bezorgen via Semansys XBRLOne
 
@@ -34,7 +36,7 @@ Voor dit proces zijn de volgende vereisten nodig:
 - Kennis van de juiste taxonomie waarvoor u rapporteert en de bevestiging dat u aan een Nederlandse regelgevende instantie levert.
 - Importeer de elektronische rapporteringsconfiguraties **Nederlands XBRL-integratiemodel** en **Semansys XBRL (NL)**.
 
-Zie voor meer informatie over het downloaden van ER-configuraties vanuit Microsoft Dynamics Lifecycle Services (LCS) [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](../../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+Zie voor meer informatie over het downloaden van ER-configuraties vanuit Microsoft Dynamics Lifecycle Services (LCS) [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](../../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 In het volgende voorbeeld ziet u welke stappen een gebruiker moet uitvoeren om de gegevens voor een jaarrapport voor 2019 te exporteren. 
 
@@ -45,6 +47,3 @@ In het volgende voorbeeld ziet u welke stappen een gebruiker moet uitvoeren om d
 5. Selecteer **OK**.
 
 U kunt het Semansys DataBridge-indelingspakket nu naar de XBRLOne-portal overdragen voor de volgende stappen in het proces.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

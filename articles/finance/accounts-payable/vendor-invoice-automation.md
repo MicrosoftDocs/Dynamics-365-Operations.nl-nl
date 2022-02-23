@@ -2,29 +2,32 @@
 title: Factuurautomatisering voor gescande documenten
 description: In dit onderwerp worden de functies beschreven die beschikbaar zijn voor end-to-end automatisering van leveranciersfacturen, zelfs facturen die bijlagen bevatten.
 author: abruer
-ms.date: 03/24/2021
+manager: AnnBe
+ms.date: 05/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f407d42fe624206e32a2f58fe8c7fcaf2df52c729a1d945d3d801f450b6ed129
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f6d19d0e10f477e498e8f0fff1f431bc4bfdd9a1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722762"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441905"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Factuurautomatisering voor gescande documenten
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de gegevensentiteiten beschreven die beschikbaar zijn voor end-to-end automatisering van leveranciersfacturen, inclusief facturen met bijlagen.
+In dit onderwerp worden de functies beschreven die beschikbaar zijn voor end-to-end automatisering van leveranciersfacturen, zelfs facturen die bijlagen bevatten.
 
 Organisaties die hun crediteurprocessen willen stroomlijnen, wijzen het verwerken van facturen vaak aan als een van de belangrijke procesgebieden die efficiënter moeten worden gemaakt. In veel gevallen brengen deze organisaties de verwerking van papieren facturen onder bij met een externe OCR-provider (Optical Character Recognition). Ze ontvangen vervolgens machineleesbare factuurmetagegevens, samen met een gescande afbeelding van elke factuur. Ter ondersteuning van de automatisering wordt dan een oplossing voor het laatste stukje samengesteld, zodat deze artefacten in het factureringssysteem kunnen worden verwerkt Nu is dit laatste stukje automatisering standaard beschikbaar, door middel van een oplossing voor automatische factuurverwerking.
 
@@ -32,9 +35,9 @@ Organisaties die hun crediteurprocessen willen stroomlijnen, wijzen het verwerke
 
 De oplossing voor factuurautomatisering schakelt een standaard-interface in, die factuurmetagegevens voor de factuurkoptekst en factuurregels kan accepteren, maar ook bijlagen die van toepassing op de factuur zijn. Alle externe systemen die artefacten genereren die compatibel zijn met deze interface, kunnen de feed zenden voor automatische verwerking van facturen en bijlagen.
 
-In de volgende afbeelding ziet u een voorbeeldintegratiescenario, waarin Contoso samenwerkt met een OCR-provider voor verwerking van leverancierfacturen. De leveranciers van Contoso verzenden facturen per e-mail naar de serviceprovider. Via de OCR-verwerking genereert de serviceprovider factuurmetagegevens (koptekst en/of regels) en een gescande afbeelding van de factuur. Een integratielaag zet deze artefacten vervolgens om, zodat deze verwerkt kunnen worden.
+In de volgende afbeelding ziet u een voorbeeldintegratiescenario, waarin Contoso samenwerkt met een OCR-provider voor verwerking van leverancierfacturen. De leveranciers van Contoso zenden hun facturen per e-mail naar de serviceprovider. Via de OCR-verwerking genereert de serviceprovider factuurmetagegevens (koptekst en/of regels) en een gescande afbeelding van de factuur. Een integratielaag zet deze artefacten vervolgens om, zodat deze verwerkt kunnen worden.
 
-![Voorbeeldintegratiescenario.](media/vendor_invoice_automation_01.png)
+![Voorbeeldintegratiescenario](media/vendor_invoice_automation_01.png)
 
 Er zijn verschillende varianten van het voorgaande scenario mogelijk als factuurintegratie vereist is. Gegevensmigratie is een ander gebruiksvoorbeeld, waarbij deze interface kan worden gebruikt voor het maken van facturen en bijlagen.
 
@@ -88,11 +91,11 @@ Facturen die zijn geïmporteerd via de gegevenspakketten kunnen op twee manieren
 
 In scenario's waarin leveranciersfacturen in Finance and Operations komen door middel van integratie, moet er een eenvoudige manier zijn waarmee een lid van het team Crediteuren uitzonderingen of mislukte facturen kan verwerken en in behandeling zijnde facturen kan maken van mislukte facturen. Deze verwerking van uitzonderingen voor leveranciersfacturen maakt nu deel uit van Finance and Operations.
 
-### <a name="vendor-invoices-that-failed-to-import-list-page"></a>Lijstpagina Leveranciersfacturen waarvan import is mislukt
+### <a name="exceptions-list-page"></a>Lijstpagina met uitzonderingen
 
-De nieuwe lijstpagina met factuuruitzonderingen is beschikbaar op **Leveranciers** > **Facturen** > **Importfouten** > **Leveranciersfacturen waarvan import is mislukt**. Op deze pagina ziet u alle leveranciersfactuurkoptekstrecords uit de faseringstabel van de gegevensentiteit Leveranciersfactuurkoptekst. U kunt dezelfde records weergeven vanuit de werkruimte **Gegevensbeheer**. Vanuit de werkruimte **Gegevensbeheer** kunt u ook dezelfde acties uitvoeren die beschikbaar zijn in de functie voor uitzonderingsverwerking. De functie voor het verwerken van uitzonderingen is geoptimaliseerd voor een functionele gebruiker, waardoor deze gemakkelijker te gebruiken is.
+De nieuwe lijstpagina met factuuruitzonderingen is beschikbaar op **Leveranciers** > **Facturen** > **Importfouten** > **Leveranciersfacturen waarvan import is mislukt**. Op deze pagina ziet u alle leveranciersfactuurkoptekstrecords uit de faseringstabel van de gegevensentiteit Leveranciersfactuurkoptekst. Merk op dat u dezelfde records kunt weergeven in het werkgebied **Gegevensbeheer**. Daar kunt u ook dezelfde acties uitvoeren die beschikbaar zijn in de functie voor uitzonderingsverwerking. Echter de gebruikersinterface van de functie voor uitzonderingsverwerking is geoptimaliseerd voor een functionele gebruiker.
 
-![Lijstpagina met uitzonderingen.](media/vendor_invoice_automation_02.png)
+![Lijstpagina met uitzonderingen](media/vendor_invoice_automation_02.png)
 
 Deze pagina bevat de volgende velden die worden geleverd via de feed:
 
@@ -116,17 +119,24 @@ Deze pagina bevat de volgende velden die worden geleverd via de feed:
 Deze lijstpagina heeft ook een voorbeeldvenster dat u op de volgende manieren kunt gebruiken:
 
 + Het gehele foutbericht weergeven zodat u niet de kolom **Foutbericht** in het raster hoeft uit te vouwen.
++ De volledige lijst met bijlagen voor de factuur weergeven, als bijlagen bij de factuur zijn meegestuurd.
 
 De lijstpagina ondersteunt de volgende acties:
 
 + **Bewerken**: de uitzonderingsrecord openen in bewerkingsmodus, zodat u de problemen kunt oplossen.
 + **Opties**: toegang tot de standaardopties die beschikbaar zijn op de lijstpagina's. U kunt de optie **Toevoegen aan werkgebied** gebruiken om de lijstpagina met uitzonderingen aan uw werkgebied vast te maken als een lijst of tegel.
 
-### <a name="vendor-invoices-that-failed-to-import-details-page"></a>Detailpagina Leveranciersfacturen waarvan import is mislukt
+### <a name="exception-details-page"></a>Pagina met uitzonderingsgegevens
 
-Wanneer u de bewerkingsmodus start, wordt de detailpagina **Leveranciersfacturen waarvan import is mislukt** voor de factuur met problemen geopend. Als er problemen zijn met een factuur die een bijlage bevat, wordt de bijlage niet weergegeven. De bijlage moet opnieuw aan de factuur worden toegevoegd.
+Wanneer u de bewerkingsmodus start, wordt de pagina met uitzonderingdetails voor de problematische factuur geopend. Als er geen bijlagen zijn, worden de factuur en de standaardbijlage naast elkaar weergegeven op de pagina met uitzonderingsdetails.
 
-Via de detailpagina **Leveranciersfacturen waarvan import is mislukt** kunt u een factuur in behandeling maken. Nadat u de problemen voor een factuur hebt opgelost als onderdeel van de verwerking van een uitzondering, kunt u de knop **Factuur in behandeling maken** selecteren om de factuur in behandeling te maken. De factuur in behandeling wordt op de achtergrond gemaakt. 
+![Pagina met uitzonderingsgegevens](media/vendor_invoice_automation_03.png)
+
+In de vorige afbeelding waren er geen regels voor de koptekst van de inkomende leveranciersfactuur. Daarom is het gedeelte met regels leeg.
+
+De pagina met uitzonderingsdetails ondersteunt de volgende bewerking:
+
++ **Factuur in behandeling maken**: Nadat u de problemen op de factuur hebt opgelost als onderdeel van de uitzonderingsverwerking, kunt u op deze knop klikken om de factuur in behandeling te maken. Het maken van in behandeling genomen facturen vindt plaats op de achtergrond (als een asynchrone bewerking).
 
 ### <a name="shared-service-vs-organization-based-exception-processing"></a>Uitzonderingen verwerken met gedeelde service of op basis van organisatie
 
@@ -134,13 +144,13 @@ De lijstpagina met uitzonderingen ondersteunt de standaardbeveiligingsconcepten 
 
 + Door gebruikersrol
 + Door gebruiker
-+ Per rechtspersoon
++ Door rechtspersoon
 
-![Importtaak die wordt beveiligd door de gebruikersrol en rechtspersoon.](media/vendor_invoice_automation_04.png)
+![Importtaak die wordt beveiligd door de gebruikersrol en rechtspersoon](media/vendor_invoice_automation_04.png)
 
 Als beveiliging voor de factuurimporttaak is geconfigureerd, neemt de lijstpagina met uitzonderingen die instellingen over. Gebruikers kunnen alleen de factuuruitzonderingsrecords zien die zij volgens de configuratie mogen zien.
 
-Contoso besluit bijvoorbeeld factuuruitzonderingen te verwerken per rechtspersoon. Daarom is beveiliging geconfigureerd op de factuurimporttaak, zodanig dat een gebruiker in rechtspersoon A alleen factuuruitzonderingen in rechtspersoon A kan zien en een gebruiker in rechtspersoon B alleen factuuruitzonderingen in rechtspersoon B. Met deze instelling brengt u scheiding van taken aan voor het beheer van factuuruitzonderingen.
+Contoso besluit bijvoorbeeld factuuruitzonderingen te verwerken op rechtspersoon. Daarom is beveiliging geconfigureerd op de factuurimporttaak, zodanig dat een gebruiker in rechtspersoon A alleen factuuruitzonderingen in rechtspersoon A kan zien en een gebruiker in rechtspersoon B alleen factuuruitzonderingen in rechtspersoon B. Met deze instelling brengt u scheiding van taken aan voor het beheer van factuuruitzonderingen.
 
 Contoso zou ook kunnen besluiten om geen beveiliging in te stellen, zodat een gebruiker factuuruitzonderingen voor alle rechtspersonen kan verwerken. Deze instelling maakt een scenario met gedeelde services mogelijk voor voor beheer van de factuuruitzonderingen.
 
@@ -178,7 +188,7 @@ U kunt slechts één document instellen als de standaard-bijlage. Nadat u een do
 
 Met een nieuwe knop die beschikbaar is op de querypagina's **Uitzonderingen verwerken**, **Factuur in behandeling** en **Facturenjournaal** kunt u de bijlage-viewer zichtbaar maken of verbergen.
 
-## <a name="security"></a>Beveiliging
+### <a name="security"></a>Beveiliging
 
 De volgende acties in de bijlageviewer worden gecontroleerd door middel van op rollen gebaseerde beveiliging:
 
@@ -203,7 +213,7 @@ De volgende rollen bieden alleen-lezentoegang of lees-/ schrijftoegang tot de bi
 + **Leveranciersmedewerker** en **Leveranciersmanager** : de functie Leveranciersfacturen onderhouden is toegewezen aan deze rollen.
 + **Leveranciersmedewerker**, **Leveranciersmanager**, **Medewerker gecentraliseerde klantenbetalingen** en **Leveranciersadministrateur**: de functie Informeren naar status van leveranciersfacturen is toegewezen aan deze rollen.
 
-### <a name="vendor-invoice-attachment"></a>Leveranciersfactuurbijlage
+### <a name="invoice-exception-details-page"></a>Pagina met factuuruitzonderingsgegevens
 
 De volgende bevoegdheden bieden alleen-lezentoegang of lees-/schrijftoegang tot de bijlageviewer voor de acties markeren, blokkeren en aantekeningen.
 
@@ -222,6 +232,3 @@ De volgende rollen bieden alleen-lezentoegang of tot de bijlageviewer voor deze 
 + **Leveranciersmedewerker** en **Leveranciersmanager** : de functie Leveranciersfacturen onderhouden is toegewezen aan deze rollen.
 
 Als de gebruikersrol bewerkingsrechten op een pagina biedt, heeft de gebruiker standaard ook bewerkingsrechten voor de bijlagenviewer voor de acties markeren, blokkeren en aantekeningen. Als er echter scenario's zijn waarin een specifieke rol moet beschikken over bewerkingsrechten voor de pagina, maar niet voor de bijlageviewer, kunnen de betreffende bevoegdheden uit de voorgaande lijst worden gebruikt om te voldoen aan de use-case.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Inkoop
 description: In dit onderwerp wordt de inkoop in Activabeheer uitgelegd.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderPurchaseListPagePreviewPane, EntAssetWorkOrderPurchaseListPage, EntAssetWorkOrderPurchaseLineAmountInfoPart, EntAssetWorkOrderPurchReqListPage
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2b5e160beb4743db2530b91020f21b686d84237b17cfa7ff7f0cc1da97695d08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fce60f6ac2ac0dabe1c0ecd804a1dec1e7e373a2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743645"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020199"
 ---
 # <a name="procurement"></a>Inkoop
 
@@ -36,7 +38,7 @@ De lijstpagina **Opdracht tot inkoop voor werkorder** (**Activabeheer** > **Alge
 
 In de onderstaande afbeelding ziet u een voorbeeld van de lijstpagina **Opdracht tot inkoop voor werkorder**.
 
-![Figuur 1.](media/08-work-orders.png)
+![Figuur 1](media/08-work-orders.png)
 
 
 De lijstpagina **Inkoop werkorder** (**Activabeheer** > **Algemeen** > **Inkoop** > **Inkoop werkorder**) toont een lijst van inkooporders die betrekking hebben op werkorders. Wanneer u op deze pagina een werkordertaak selecteert, kunt u de knoppen in de groep **Tonen** van het tabblad **Inkoop werkorder** van het actievenster gebruiken om diverse acties uit te voeren:
@@ -47,7 +49,7 @@ De lijstpagina **Inkoop werkorder** (**Activabeheer** > **Algemeen** > **Inkoop*
 
 In de onderstaande afbeelding ziet u een voorbeeld van de lijstpagina **Inkoop werkorder**.
 
-![Figuur 2.](media/09-work-orders.png)
+![Figuur 2](media/09-work-orders.png)
 
 
 Op de lijstpagina **Inkoop werkorder** en de lijstpagina **Opdracht tot inkoop voor werkorder** wordt er rechts van elke regel een symbool weergegeven dat is gerelateerd aan de controle van de leveringsdatum. Als het pictogram een uitroepteken in een rode cirkel is, betekent dit dat de levering van de betreffende inkooporder of opdracht tot inkoop mogelijk is vertraagd.
@@ -93,10 +95,7 @@ Als u het activiteitsnummer wilt bekijken of invoeren dat aan een inkooporderreg
 
 In onderstaande afbeelding ziet u een voorbeeld van de pagina **Inkooporder** met de focus op het **Activiteitsnummer**.
 
-![Figuur 3.](media/10-work-orders.png)
+![Figuur 3](media/10-work-orders.png)
 
 En als u het activiteitsnummer wilt bekijken of invoeren dat aan een regel voor een opdracht tot inkoop voor werkorder is gekoppeld, selecteert u de record van de opdracht tot inkoop op de lijstpagina **Opdracht tot inkoop voor werkorder** en selecteert u in de kolom **Opdracht tot inkoop** de koppeling voor de opdracht tot inkoop. U vindt het veld **Activiteitsnummer** op het tabblad **Project** van het sneltabblad **Regeldetails**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

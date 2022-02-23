@@ -46,6 +46,3 @@ Zie voor meer informatie de sectie Toegang verlenen tot de omgeving in [Talent i
 **Langetermijnoplossing**
 
 Microsoft overweegt automatisch de juiste rechten voor Onboard en Attract toe te wijzen wanneer een gebruiker wordt toegevoegd aan Human Resources.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

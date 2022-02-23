@@ -1,30 +1,33 @@
 ---
 title: Een hoofdrekening maken
-description: Deze procedures doorlopen het toevoegen van een hoofdrekening aan een bestaand rekeningschema.
+description: Deze taakbegeleiding helpt u bij het toevoegen van een hoofdrekening aan een bestaand rekeningschema.
 author: aprilolson
+manager: AnnBe
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MainAccount, CompanyInfoList
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cbc93e2d2aec1ffcfa755c46553022931bc24c5b
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: a116164a31337013d34f963b549c394aade2de1c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394630"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441866"
 ---
 # <a name="create-a-main-account"></a>Een hoofdrekening maken
 
 [!include [banner](../../includes/banner.md)]
 
-Deze procedures doorlopen het toevoegen van een hoofdrekening aan een bestaand rekeningschema. Bij deze registratie wordt het demobedrijf USMF gebruikt.  
+Deze taakbegeleiding helpt u bij het toevoegen van een hoofdrekening aan een bestaand rekeningschema. Bij deze registratie wordt het demobedrijf USMF gebruikt.  
 
 1. Ga naar **Navigatiedeelvenster > Modules > Grootboek > Rekeningschema > Rekeningen > Hoofdrekeningen**.
 2. Klik op **Nieuw**.
@@ -49,6 +52,3 @@ Deze procedures doorlopen het toevoegen van een hoofdrekening aan een bestaand r
 21. Selecteer in het veld **Type valutaomzetting** de methode voor het berekenen van de wisselkoersen voor de rekening.
 22. Sluit de pagina.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -58,6 +58,3 @@ Bij het wijzigen van de functie voor een positie wordt **Functiegroep** nu stand
 
 ### <a name="performance-improvements-when-rendering-workspaces"></a>Betere prestaties bij het weergeven van werkgebieden
 Analysetabbladen in werkgebieden worden voortaan alleen geladen wanneer toegang wordt verkregen tot deze pagina's. Een indicator wordt weergegeven tijdens de eerste weergave van de pagina in de linkerbovenhoek van de pagina.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

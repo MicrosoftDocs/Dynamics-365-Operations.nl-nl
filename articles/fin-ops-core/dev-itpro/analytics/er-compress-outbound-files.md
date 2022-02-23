@@ -2,9 +2,11 @@
 title: Grote documenten comprimeren die worden gegenereerd in elektronische rapportage
 description: In dit onderwerp wordt uitgelegd hoe u grote documenten kunt comprimeren die worden gegenereerd door een ER-indeling (elektronische rapportage).
 author: NickSelin
+manager: kfend
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner, ERFormatDestinationTable
 audience: Application User, IT Pro
@@ -15,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7ef8f730f2e207a8fd28c2bf5167d14f57d6c607314bfc48d4358a59d3ef5c43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 30de55f9e55911290750c148621fd3d4531686c2
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718594"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680849"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Grote documenten comprimeren die worden gegenereerd in elektronische rapportage 
 
 [!include [banner](../includes/banner.md)]
 
-U kunt het [Raamwerk elektronische rapportage (ER)](general-electronic-reporting.md) gebruiken om een oplossing te configureren waarmee transactiegegevens worden opgehaald om een uitgaand document te genereren. Dit gegenereerde document kan vrij groot zijn. Als dit type document wordt gegenereerd, wordt het geheugen van de [Application Object Server (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) gebruikt om het document op te slaan. Op een bepaald moment moet het document worden gedownload vanuit uw Microsoft Dynamics 365 Finance-toepassing. Momenteel is de maximale grootte van één document dat wordt gegenereerd in ER, beperkt tot 2 gigabytes (GB). Bovendien is de grootte van een gedownload bestand in Finance momenteel [beperkt](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) tot 1 GB. Daarom moet u een ER-oplossing configureren waarmee de kans wordt verkleind dat deze beperkingen worden overschreden en dat u de uitzondering **De stroom is te lang** of **Overloop of negatieve overloop in de rekenkundige bewerking** ontvangt.
+U kunt het [Raamwerk elektronische rapportage (ER)](general-electronic-reporting.md) gebruiken om een oplossing te configureren waarmee transactiegegevens worden opgehaald om een uitgaand document te genereren. Dit gegenereerde document kan vrij groot zijn. Als dit type document wordt gegenereerd, wordt het geheugen van de [Application Object Server (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) gebruikt om het document op te slaan. Op een bepaald moment moet het document worden gedownload vanuit uw Microsoft Dynamics 365 Finance-toepassing. Momenteel is de maximale grootte van één document dat wordt gegenereerd in ER, beperkt tot 2 gigabytes (GB). Bovendien is de grootte van een gedownload bestand in Finance momenteel [beperkt](https://fix.lcs.dynamics.com/Issue/Details?bugId=489291) tot 1 GB. Daarom moet u een ER-oplossing configureren waarmee de kans wordt verkleind dat deze beperkingen worden overschreden en dat u de uitzondering **De stroom is te lang** of **Overloop of negatieve overloop in de rekenkundige bewerking** ontvangt.
 
 Als u een oplossing configureert, kunt u uw ER-indeling in de Operations-ontwerper aanpassen door een hoofdelement van het type **Map** toe te voegen om de inhoud te comprimeren die door een van de bijbehorende geneste elementen wordt gegenereerd. Compressie werkt 'just in time', zodat het piekgeheugengebruik en de grootte van het bestand dat wordt gedownload, kunnen worden gereduceerd.
 
@@ -55,7 +57,7 @@ Voordat u de procedures in dit onderwerp uitvoert, moet u de volgende stappen ui
 1. [De geïmporteerde indeling uitvoeren](er-defer-xml-element.md#run-the-imported-format).
 2. U ziet dat de grootte van het gegenereerde document in XML-indeling 3 kilobytes (KB) is.
 
-    ![Voorbeeld van het niet-gecomprimeerde uitgaande document.](./media/er-compress-outbound-files1.png)
+    ![Voorbeeld van het niet-gecomprimeerde uitgaande document](./media/er-compress-outbound-files1.png)
 
 ### <a name="modify-the-format-to-compress-the-generated-output"></a>De indeling wijzigen om de gegenereerde uitvoer te comprimeren
 
@@ -80,7 +82,7 @@ Voordat u de procedures in dit onderwerp uitvoert, moet u de volgende stappen ui
     > [!NOTE] 
     > De compressiefactor van het XML-bestand dat dit zip-bestand bevat, is 87 procent. De compressiefactor is afhankelijk van de gegevens die worden gecomprimeerd.
 
-    ![Voorbeeld van het gecomprimeerde uitgaande document.](./media/er-compress-outbound-files2.png)
+    ![Voorbeeld van het gecomprimeerde uitgaande document](./media/er-compress-outbound-files2.png)
 
 > [!NOTE]
 > Als de [ER-bestemming](electronic-reporting-destinations.md) is geconfigureerd voor het indelingselement waarmee uitvoer wordt gegenereerd (het element **Rapport** in dit voorbeeld), wordt de compressie van de uitvoer overgeslagen.
@@ -92,6 +94,3 @@ Voordat u de procedures in dit onderwerp uitvoert, moet u de volgende stappen ui
 [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md)
 
 [De uitvoering van XML-elementen in ER-indelingen uitstellen](er-defer-xml-element.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,30 +1,33 @@
 ---
 title: Financiële dimensies definiëren
-description: Deze procedure toont hoe u een door een entiteit ondersteunde financiële dimensie en een aangepaste financiële dimensie toevoegt.
+description: Deze taakhandleiding toont het toevoegen van een door een entiteit ondersteunde financiële dimensie en een aangepaste financiële dimensie.
 author: aprilolson
+manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionDetails,  DimensionAttributeTableExtensionActivate, DimensionValueDetails
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ed6dad64032c03e638c2090471af825dd18560a1
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 6fbe739eec0cfa1e7b0276872640bd4f82be3ef7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394457"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441793"
 ---
 # <a name="define-financial-dimensions"></a>Financiële dimensies definiëren
 
 [!include [banner](../../includes/banner.md)]
 
-Deze procedure toont hoe u een door een entiteit ondersteunde financiële dimensie en een aangepaste financiële dimensie toevoegt.  De taakbegeleiding gebruikt het demobedrijf USMF.
+Deze taakhandleiding toont het toevoegen van een door een entiteit ondersteunde financiële dimensie en een aangepaste financiële dimensie.  De taakbegeleiding gebruikt het demobedrijf USMF.
 
 
 ## <a name="create-an-entity-backed-financial-dimension"></a>Een door een entiteit ondersteunde financiële dimensie maken
@@ -52,6 +55,3 @@ Deze procedure toont hoe u een door een entiteit ondersteunde financiële dimens
 9. Typ in het veld **Dimensiewaarde** een naam om uw waarde van financiële dimensie te beschrijven.
 10. Typ in het veld **Beschrijving** een beschrijving die uw waarde van financiële dimensie beschrijft.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,38 +1,41 @@
 ---
-title: Werkruimte voor afsluiten van financiële periode
-description: Dit artikel geeft een overzicht van de werkruimte Afgesloten financiële periode en de bijbehorende configuratie.
-author: kweekley
+title: Werkgebied voor afsluiten van financiële periode
+description: Dit artikel geeft een overzicht van het werkgebied Afgesloten financiële periode en de bijbehorende configuratie.
+author: ShylaThompson
+manager: AnnBe
 ms.date: 11/29/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
-ms.author: kweekley
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ab203a18229cd426f8483ed6d0483c98614af9c
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 6f96da7f7f5374fb34e317c416238a48c3fe7d05
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7727059"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4442188"
 ---
-# <a name="financial-period-close-workspace"></a>Werkruimte voor afsluiten van financiële periode
+# <a name="financial-period-close-workspace"></a>Werkgebied voor afsluiten van financiële periode
 
 [!include [banner](../includes/banner.md)]
 
-Dit artikel geeft een overzicht van de werkruimte **Afgesloten financiële periode** en de bijbehorende configuratie.
+Dit artikel geeft een overzicht van het werkgebied Afgesloten financiële periode en de bijbehorende configuratie.
 
-Werkruimte voor afsluiten van financiële periode
+Werkgebied voor afsluiten van financiële periode
 
-Met de werkruimte **Afgesloten financiële periode** kunt u uw financiële afsluitingsprocessen voor bedrijven, gebieden en personen bijhouden. Afhankelijk van uw weergave van de werkruimte **Afgesloten financiële periode** ziet u alle taken en statussen voor een afsluitingsplanning, of alleen de taken die aan u zijn toegewezen. 
+Met het werkgebied **Afgesloten financiële periode** kunt u uw financiële afsluitingsprocessen voor bedrijven, gebieden en personen bijhouden. Afhankelijk van uw weergave van het werkgebied **Afgesloten financiële periode** ziet u alle taken en statussen voor een afsluitingsplanning, of alleen de taken die aan u zijn toegewezen. 
 
-U moet eerst een afsluitingsplanning boven in de werkruimte selecteren. Alle gegevens die worden weergegeven in de werkruimte, worden vervolgens gefilterd op de geselecteerde afsluitingsplanning.
+U moet eerst een afsluitingsplanning boven in het werkgebied selecteren. Alle gegevens die worden weergegeven in het werkgebied, worden vervolgens gefilterd op de geselecteerde afsluitingsplanning.
 
 ### <a name="summary-tiles"></a>Overzichtstegels
 
@@ -63,7 +66,7 @@ Voordat u de werkruimte **Afgesloten financiële periode** kunt gebruiken, moet 
 
 ### <a name="resources"></a>Bronnen
 
-Op het tabblad **Resources** definieert u de mensen die betrokken zijn bij het afsluitingsproces. Elke werknemer die verantwoordelijk is voor een afsluitingstaak, moet hier eerst worden toegewezen. U moet ook de weergave van de werkruimte van de werknemer opgeven. De volgende opties zijn beschikbaar:
+Op het tabblad **Resources** definieert u de mensen die betrokken zijn bij het afsluitingsproces. Elke werknemer die verantwoordelijk is voor een afsluitingstaak, moet hier eerst worden toegewezen. U moet ook de weergave van het werkgebied van de werknemer opgeven. De volgende opties zijn beschikbaar:
 
 -   **Alleen toegewezen taken** - De gebruiker ziet alleen de taken die aan hem/haar zijn toegewezen.
 -   **Alle taken en statussen** - De gebruiker ziet alle afsluitingstaken en de status van het algehele proces.
@@ -84,7 +87,7 @@ U gebruikt een sjabloon voor financiële afsluiting om alle taken te definiëren
 
 U kunt een taak in de sjabloon toewijzen aan een of meer bedrijven waar deze taak van toepassing is. Als een andere persoon wordt toegewezen om die werkzaamheden in elk bedrijf te verrichten, is het mogelijk handig meerdere taken te maken voor dezelfde werkzaamheden. Maak een taak voor elk bedrijf. 
 
-De menuoptie **Taakkoppeling** wordt gekoppeld aan de taakwerkinzet en kan worden gebruikt om rechtstreeks naar de gekoppelde pagina te gaan via de taakkoppeling in de werkruimte. Zo kan een afsluitingstaak om het herwaarderingsproces voor valuta uit te voeren voor leveranciers worden gekoppeld aan de bijbehorende pagina **Herwaardering van vreemde valuta**. U kunt ook koppelen aan een externe URL. 
+De menuoptie **Taakkoppeling** wordt gekoppeld aan de taakwerkinzet en kan worden gebruikt om rechtstreeks naar de gekoppelde pagina te gaan via de taakkoppeling in het werkgebied. Zo kan een afsluitingstaak om het herwaarderingsproces voor valuta uit te voeren voor leveranciers worden gekoppeld aan de bijbehorende pagina **Herwaardering van vreemde valuta**. U kunt ook koppelen aan een externe URL. 
 
 > [!TIP]
 > Als u een bepaald Management Reporter-rapport wilt koppelen aan een taak voor het afsluiten van de financiële periode, kunt u de rapport-URL gebruiken. Om de rapport-URL te openen, opent u het rapport in de rapportontwerper en klikt u op **Bestand** &gt; **Rapport weergeven** om het rapport in een webbrowser te openen. U kunt de URL vervolgens kopiëren in de adresbalk van de browser en deze in het veld **Taakkoppeling** **URL** plakken. 
@@ -95,16 +98,13 @@ U kunt meerdere sjablonen voor financiële afsluiting maken. Vervolgens kunt u d
 
 ### <a name="closing-schedules"></a>Afsluitingsplanningen
 
-Met de planning van een afsluiting kunt u een sjabloon voor financiële afsluiting toewijzen aan een specifieke financiële periode die moet worden afgesloten. De taken uit de sjabloon worden vervolgens automatisch gegenereerd voor de opgegeven periode en de nieuwe afsluitingsplanning wordt aan de werkruimte toegevoegd. Wanneer u een nieuwe afsluitingsplanning maakt, wordt het veld **Einddatum van periode** gebruikt om de werkelijke vervaldatums voor de afsluitingstaken te bepalen op basis van de relatieve vervaldatum die is toegewezen in de sjabloon voor financiële afsluiting. 
+Met de planning van een afsluiting kunt u een sjabloon voor financiële afsluiting toewijzen aan een specifieke financiële periode die moet worden afgesloten. De taken uit de sjabloon worden vervolgens automatisch gegenereerd voor de opgegeven periode en de nieuwe afsluitingsplanning wordt aan het werkgebied toegevoegd. Wanneer u een nieuwe afsluitingsplanning maakt, wordt het veld **Einddatum van periode** gebruikt om de werkelijke vervaldatums voor de afsluitingstaken te bepalen op basis van de relatieve vervaldatum die is toegewezen in de sjabloon voor financiële afsluiting. 
 
 Wijs de kalender aan die geschikt is voor de planning van de afsluiting om de werkdagen aan te geven die moeten worden gebruikt bij de taakplanning. Als u geen specifieke kalender definieert, worden voor de vervaldatums van de taak alle dagen van de week gebruikt. 
 
 U moet ook de bedrijven definiëren die worden gekoppeld aan de afsluitingsplanning. Als sjabloontaken worden toegewezen aan meerdere bedrijven, worden er afzonderlijke taken gemaakt voor elk bedrijf dat zich in de afsluitingsplanning bevindt en worden deze toegewezen aan de sjabloontaak. 
 
-Nadat een afsluitingsplanning is voltooid, schakelt u de optie **Afgesloten** in. De taakhistorie blijft nog steeds beschikbaar via de lijstpagina **Alle taken voor het afsluiten van de financiële periode**, maar de afsluitingsplanning wordt verwijderd uit de werkruimte. Nadat een afsluitingsplanning is gemarkeerd als **Afgesloten**, kunt u er mogelijk geen taken aan toevoegen, taken bewerken of taken eruit verwijderen.
+Nadat een afsluitingsplanning is voltooid, schakelt u de optie **Afgesloten** in. De taakhistorie blijft nog steeds beschikbaar via de lijstpagina **Alle taken voor het afsluiten van de financiële periode**, maar de afsluitingsplanning wordt verwijderd uit het werkgebied. Nadat een afsluitingsplanning is gemarkeerd als **Afgesloten**, kunt u er mogelijk geen taken aan toevoegen, taken bewerken of taken eruit verwijderen.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

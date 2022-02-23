@@ -2,9 +2,11 @@
 title: Testen automatiseren met elektronische rapportage
 description: In dit onderwerp wordt uitgelegd hoe u de functie voor de basislijn van het elektronisch rapportageraamwerk (ER) kunt gebruiken om het testen van functionaliteit te automatiseren.
 author: NickSelin
+manager: AnnBe
 ms.date: 07/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERFormatBaselineTable, ERFormatMappingRunLogTable, ERParameters
 audience: Application User, Developer, IT Pro
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: da69cc903197dbfae536c8494f126074c51aa77f9522d57f2673c97b1e682d9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0a2586afd56eef0f953454ad246ff3647a5b09d1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749795"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681443"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Testen automatiseren met elektronische rapportage
 
@@ -59,7 +61,7 @@ Voordat u de taken in dit onderwerp kunt voltooien, moet u de volgende vereisten
 - Implementeer een topologie die testautomatisering ondersteunt. U moet toegang hebben tot het exemplaar van deze topologie voor de rol **Systeembeheerder**. Deze topologie moet de voorbeeldgegevens bevatten die in dit voorbeeld worden gebruikt. Zie [Omgevingen implementeren en gebruiken die continue build- en testautomatisering ondersteunen](../perf-test/continuous-build-test-automation.md) voor meer informatie.
 - Als u de gebruikers- en integratietests automatisch wilt uitvoeren, moet u RSAT installeren in de topologie die u gebruikt en deze op de juiste manier configureren. Zie [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357) voor informatie over het installeren en configureren van RSAT zodat dit werkt met Finance and Operations-apps en Azure DevOps, Let op de vereisten voor het gebruik van het hulpprogramma. In de volgende afbeelding ziet u een voorbeeld van de RSAT‑instellingen. De blauwe rechthoek omsluit de parameters waarmee toegang wordt gegeven tot Azure DevOps. De groene rechthoek omsluit de parameters waarmee de toegang tot het exemplaar wordt gegeven.
 
-    ![RSAT-instellingen.](media/GER-Configure.png "Schermafbeelding van het dialoogvenster RSAT-instellingen")
+    ![RSAT-instellingen](media/GER-Configure.png "Schermafbeelding van het dialoogvenster RSAT-instellingen")
 
 - Als u test cases in suites wilt indelen om de juiste volgorde van uitvoering te garanderen, zodat u logboeken van testuitvoeringen voor verdere rapportage en onderzoek kunt verzamelen, moet u toegang hebben tot Azure DevOps vanuit de geïmplementeerde topologie.
 - Als u het voorbeeld in dit onderwerp wilt voltooien, raden we aan [ER‑gebruik voor RSAT‑testen](https://go.microsoft.com/fwlink/?linkid=874684) te downloaden. Dit zip-bestand bevat de volgende taakbegeleidingen:
@@ -78,7 +80,7 @@ Voordat u de taken in dit onderwerp kunt voltooien, moet u de volgende vereisten
     - **Betalingsmodeltoewijzing 1611** ER modeltoewijzingsconfiguratie
     - **BACS (UK)** ER indelingsconfiguratie
 
-    ![Configuraties van elektronische rapportage.](media/GER-Configurations.png "Schermafbeelding van de configuratiepagina in Elektronische rapportage")
+    ![Configuraties van elektronische rapportage](media/GER-Configurations.png "Schermafbeelding van de configuratiepagina in Elektronische rapportage")
 
 3. Selecteer het **GBSI** voorbeeldgegevensbedrijf, dat een land-/regiocode in Groot-Brittannië heeft.
 4. Leveranciersparameters configureren:
@@ -90,7 +92,7 @@ Voordat u de taken in dit onderwerp kunt voltooien, moet u de volgende vereisten
         1. Stel op het sneltabblad **Bestandsindelingen** de optie **Algemene elektronische exportindeling** in op **Ja**.
         2. Selecteer in het veld **Indelingsconfiguratie exporteren** **BACS**.
 
-    ![Pagina Betalingsmethoden.](media/GER-APParameters.png "Schermafbeelding van de pagina Betalingsmethoden")
+    ![Pagina Betalingsmethoden](media/GER-APParameters.png "Schermafbeelding van de pagina Betalingsmethoden")
 
     > [!NOTE]
     > Als u de afgeleide versie van deze ER-indeling hebt die is gemaakt ter ondersteuning van aanpassingen, kunt u deze configuratie selecteren in de **Elektronische** betalingsmethode.
@@ -100,7 +102,7 @@ Voordat u de taken in dit onderwerp kunt voltooien, moet u de volgende vereisten
     1. Ga naar **Leveranciers \> Betalingen \> Betalingsjournaal**.
     2. Zorg ervoor dat u het betalingsjournaal niet hebt geboekt.
 
-        ![Pagina Betalingsjournaal.](media/GER-APJournal.png "Schermafbeelding van de pagina Betalingsjournaal")
+        ![Pagina Betalingsjournaal](media/GER-APJournal.png "Schermafbeelding van de pagina Betalingsjournaal")
 
     3. Selecteer **Regels** en voer een regel in met de volgende informatie.
 
@@ -111,9 +113,9 @@ Voordat u de taken in dit onderwerp kunt voltooien, moet u de volgende vereisten
         | Valuta            | GBP             |
         | Tegenrekeningtype | Bank            |
         | Tegenrekening      | GBSI OPER       |
-        | Betalingswijze   | Elektronisch      |
+        | Betalingsmethode   | Elektronisch      |
 
-    ![Pagina Leveranciersbetalingen.](media/GER-APJournalLines.png "Schermafbeelding van de pagina Leveranciersbetalingen")
+    ![Pagina Leveranciersbetalingen](media/GER-APJournalLines.png "Schermafbeelding van de pagina Leveranciersbetalingen")
 
 ## <a name="prepare-the-er-framework-to-test-vendor-payment-processing"></a>Het ER-Framework voorbereiden om verwerking van leveranciersbetalingen te testen
 
@@ -122,7 +124,7 @@ Voordat u de taken in dit onderwerp kunt voltooien, moet u de volgende vereisten
 1. Ga naar **Organisatieadministratie \> Elektronische rapportage \> Parameters Elektronische rapportage**.
 2. Selecteer op het tabblad **Bijlagen** in het veld **Basislijn** **Bestand** als het documenttype dat door het Document beheer (DB)-raamwerk wordt gebruikt om documenten met betrekking tot de basislijnfunctie als DM‑bijlagen te behouden.
 
-    ![Pagina Parameters van elektronische rapportage.](media/GER-ERParameters.png "Schermafbeelding van de pagina Parameters van elektronische rapportage")
+    ![Pagina Parameters van elektronische rapportage](media/GER-ERParameters.png "Schermafbeelding van de pagina Parameters van elektronische rapportage")
 
 ### <a name="generate-baseline-copies-of-vendor-paymentrelated-documents"></a>Basislijnkopieën van documenten met betrekking tot leveranciersbetalingen genereren
 
@@ -139,7 +141,7 @@ Voordat u de taken in dit onderwerp kunt voltooien, moet u de volgende vereisten
     - **Bestand** betalingsbestand in tekstindeling
     - **ERVendOutPaymControlReport** controlerapportbestand in XLSX-indeling
 
-    ![Uitgepakte bestanden.](media/GER-APJournalProcessed.png "Schermafbeelding van uitgepakte bestandsnamen in Windows Verkenner")
+    ![Uitgepakte bestanden](media/GER-APJournalProcessed.png "Schermafbeelding van uitgepakte bestandsnamen in Windows Verkenner")
 
 ### <a name="turn-on-the-er-baseline-feature"></a>De functie voor ER basislijn inschakelen
 
@@ -177,7 +179,7 @@ Door de parameter **Uitvoeren in foutopsporingsmodus** in te schakelen, dwingt u
     3. Blader om het lokaal opgeslagen **ERVendOutPaymControlReport** controlerapportbestand in XLSX‑indeling te selecteren.
     4. Voer in het veld **Omschrijving** **Betaling XLXS‑controlerapport** in.
 
-    ![Basislijnen voor het leveranciersbetalingsbestand.](media/GER-BaselineAttachments.png "Schermafbeelding van de pagina Configuraties met Betaling XLXS‑controlerapport geselecteerd")
+    ![Basislijnen voor het leveranciersbetalingsbestand](media/GER-BaselineAttachments.png "Schermafbeelding van de pagina Configuraties met Betaling XLXS‑controlerapport geselecteerd")
 
 8. Sluit de pagina.
 9. Selecteer op het sneltabblad **Basislijnen** **Nieuw** om een basislijn voor het betalingsbestand te configureren:
@@ -196,7 +198,7 @@ Door de parameter **Uitvoeren in foutopsporingsmodus** in te schakelen, dwingt u
     4. Voer in het veld **Masker bestandsnaam** de waarde **\*. XLSX** in als u deze basislijn alleen wilt toepassen op uitvoer van het indelingsonderdeel **ERVendOutPaymControlReport** dat **.xslx** als bestandsnaamextensie heeft.
     5. Selecteer in het veld **Basislijn** **Betaling XLSX controlerapport** zodat deze basislijn wordt gebruikt voor vergelijking met de gegenereerde uitvoer.
 
-    ![Het sneltabblad Basislijnen op de pagina Configuraties.](media/GER-BaselineRules.png "Schermafbeelding van het sneltabblad Basislijnen op de pagina Configuraties")
+    ![Het sneltabblad Basislijnen op de pagina Configuraties](media/GER-BaselineRules.png "Schermafbeelding van het sneltabblad Basislijnen op de pagina Configuraties")
 
 ## <a name="record-tests-to-validate-vendor-payment-processing"></a>Tests vastleggen om verwerking van leveranciersbetalingen te valideren
 
@@ -226,15 +228,15 @@ Met deze taakregistratie worden de volgende acties uitgevoerd:
 
 1. Stel de status van de verwerkte betalingsregel in op **Geen**.
 
-    ![Taakregistratie stap 3 en 4.](media/GER-Recording1Review1.png "Schermafbeelding van taakregistratiestappen 3 en 4")
+    ![Taakregistratie stap 3 en 4](media/GER-Recording1Review1.png "Schermafbeelding van taakregistratiestappen 3 en 4")
 
 2. De ER gebruikersparameter **Uitvoeren in foutopsporingsmodus** inschakelen.
 
-    ![Taakregistratie stap 9 en 10.](media/GER-Recording1Review2.png "Schermafbeelding van taakregistratiestappen 9 en 10")
+    ![Taakregistratie stap 9 en 10](media/GER-Recording1Review2.png "Schermafbeelding van taakregistratiestappen 9 en 10")
 
 3. Opschonen van het ER foutopsporingslogboek met de resultaten van de vergelijking van gegenereerde bestanden met basislijnen.
 
-    ![Taakregistratie stap 13 en 15.](media/GER-Recording1Review3.png "Schermafbeelding van taakregistratiestap 13 tot en met 15")
+    ![Taakregistratie stap 13 tot en met 15](media/GER-Recording1Review3.png "Schermafbeelding van taakregistratiestap 13 tot en met 15")
 
 ### <a name="record-the-steps-to-test-vendor-payment-processing"></a>De stappen voor het testen van de verwerking van leveranciersbetalingen registreren
 
@@ -253,21 +255,21 @@ Met deze taakregistratie worden de volgende acties uitgevoerd:
 1. Verwerking leveranciersbetalingen starten.
 2. Selecteer de juiste runtime‑parameters en schakel het genereren van een controlerapport in.
 
-    ![Taakregistratie stap 3 en 8.](media/GER-Recording2Review1.png "Schermafbeelding van taakregistratiestap 3 tot en met 8")
+    ![Taakregistratie stap 3 tot en met 8](media/GER-Recording2Review1.png "Schermafbeelding van taakregistratiestap 3 tot en met 8")
 
 3. Openen van het ER foutopsporingslogboek om de resultaten van de vergelijking van gegenereerde uitvoer met corresponderende basislijnen te registreren.
 
     In het ER logboek voor foutopsporing worden de resultaten van de vergelijking weergegeven in het veld **Gegenereerde tekst**. De velden **Indelingsonderdeel** en **Indelingspad dat een logboekvermelding veroorzaakte** verwijzen naar het bestandsonderdeel waarvoor de gegenereerde uitvoer is vergeleken met de basislijn.
 
-    ![Vermeldingen op de pagina Elektronische uitvoeringslogboeken.](media/GER-ERDebugLog.png "Schermafbeelding van vermeldingen op de pagina Uitvoeringslogboeken voor elektronische rapportage")
+    ![Vermeldingen op de pagina Elektronische uitvoeringslogboeken](media/GER-ERDebugLog.png "Schermafbeelding van vermeldingen op de pagina Uitvoeringslogboeken voor elektronische rapportage")
 
 4. De vergelijking van de huidige uitvoer met de basislijn wordt vastgelegd met de optie taakregistratie **Valideren** en het selecteren van **Huidige waarde**.
 
-    ![De optie Valideren gebruiken voor vergelijking met de huidige waarde.](media/GER-TRRecordValidation.png "Schermafbeelding van het gebruik van de optie Valideren voor vergelijking met de huidige waarde")
+    ![De optie Valideren gebruiken voor vergelijking met de huidige waarde](media/GER-TRRecordValidation.png "Schermafbeelding van het gebruik van de optie Valideren voor vergelijking met de huidige waarde")
 
     In de volgende afbeelding ziet u hoe de stappen van geregistreerde validatie eruitzien in de taakregistratie.
 
-    ![Taakregistratie stap 13 en 15.](media/GER-Recording2Review2.png "Schermafbeelding van taakregistratiestappen 13 en 15")
+    ![Taakregistratie stap 13 en 15](media/GER-Recording2Review2.png "Schermafbeelding van taakregistratiestappen 13 en 15")
 
 ## <a name="add-the-recorded-tests-to-azure-devops"></a>Voeg de geregistreerde tests toe aan Azure DevOps
 
@@ -284,7 +286,7 @@ Met deze taakregistratie worden de volgende acties uitgevoerd:
     1. Noem de testcase **Test voor verwerking van leveranciersbetalingen met behulp van ER‑indeling BACS (UK)**.
     2. Koppel het bestand **Registreren.xml** vanuit de map **Verwerken** die u eerder hebt gedownload.
 
-    ![Nieuwe testcases voor het geselecteerde testplan.](media/GER-RSAT-DevOps-Tests-Passed.png "Schermafbeelding van de nieuwe testcases voor het geselecteerde testplan")
+    ![Nieuwe testcases voor het geselecteerde testplan](media/GER-RSAT-DevOps-Tests-Passed.png "Schermafbeelding van de nieuwe testcases voor het geselecteerde testplan")
 
 > [!NOTE]
 > Let op de juiste volgorde van uitvoering van de testen die worden toegevoegd.
@@ -296,14 +298,14 @@ Met deze taakregistratie worden de volgende acties uitgevoerd:
 1. Open de lokale RSAT-toepassing in de huidige topologie.
 2. Selecteer **Laden** om de tests te laden die zich momenteel Azure DevOps in RSAT bevinden.
 
-    ![Tests die zijn geladen in RSAT.](media/GER-RSAT-RSAT-Tests-Loaded.png "Schermafbeelding van de tests die in RSAT zijn geladen")
+    ![Tests die zijn geladen in RSAT](media/GER-RSAT-RSAT-Tests-Loaded.png "Schermafbeelding van de tests die in RSAT zijn geladen")
 
 ### <a name="create-automation-and-parameters-files"></a>Automatiserings‑ en parameterbestanden maken
 
 1. Selecteer in RSAT de tests die u hebt geladen van Azure DevOps.
 2. Selecteer **Nieuw** om RSAT automatiserings‑ en parameterbestanden te maken.
 
-    ![RSAT-automatiserings- en -parameterbestanden die in RSAT zijn gemaakt.](media/GER-RSAT-RSAT-Tests-Initiated.png "Schermafbeelding van de RSAT-automatiserings- en -parameterbestanden die in RSAT zijn gemaakt")
+    ![RSAT-automatiserings- en -parameterbestanden die in RSAT zijn gemaakt](media/GER-RSAT-RSAT-Tests-Initiated.png "Schermafbeelding van de RSAT-automatiserings- en -parameterbestanden die in RSAT zijn gemaakt")
 
 ### <a name="modify-the-parameters-files"></a>De parameterbestanden wijzigen
 
@@ -315,7 +317,7 @@ Met deze taakregistratie worden de volgende acties uitgevoerd:
 6. Wijzig in de Excel-werkmap die is geopend in het werkblad **Algemeen** de bedrijfscode in **GBSI**.
 7. In het werkblad **ERFormatMappingRunLogTable** bevatten de cellen A:3 en C:3 de tekst van de velden in de logboektabel voor ER foutopsporing die wordt gebruikt om de resultaten van de vergelijking van de uitvoer naar de basislijn te valideren. Deze teksten worden gebruikt om logboekrecords voor ER foutopsporing te evalueren die tijdens de testuitvoering worden gemaakt.
 
-    ![Werkblad ERFormatMappingRunLogTable.](media/GER-RSAT-RSAT-ExcelParameters.png "Schermafbeelding van het werkblad ERFormatMappingRunLogTable")
+    ![Werkblad ERFormatMappingRunLogTable](media/GER-RSAT-RSAT-ExcelParameters.png "Schermafbeelding van het werkblad ERFormatMappingRunLogTable")
 
 ## <a name="run-the-tests-and-analyze-the-results"></a>De tests uitvoeren en de resultaten analyseren
 
@@ -330,11 +332,11 @@ U ziet dat testcases automatisch worden uitgevoerd in de toepassing met behulp v
 
 De resultaten van de testuitvoering worden opgeslagen in RSAT. U ziet dat beide tests zijn geslaagd.
 
-![Tests die zijn geslaagd in RSAT.](media/GER-RSAT-RSAT-Tests-Passed.png "Schermafbeelding van tests die zijn geslaagd in RSAT")
+![Tests die zijn geslaagd in RSAT](media/GER-RSAT-RSAT-Tests-Passed.png "Schermafbeelding van tests die zijn geslaagd in RSAT")
 
 De resultaten van de testuitvoering worden eveneens verzonden Azure DevOps, zodat u verdere analyses kunt maken.
 
-![Resultaten van de testuitvoering in Azure DevOps.](media/GER-RSAT-DevOps-Tests-Added.png "Schermafbeelding van de resultaten van testuitvoeringen in Azure DevOps")
+![Resultaten van de testuitvoering in Azure DevOps](media/GER-RSAT-DevOps-Tests-Added.png "Schermafbeelding van de resultaten van testuitvoeringen in Azure DevOps")
 
 ### <a name="simulate-a-situation-where-tests-fail"></a>Een situatie simuleren waarbij tests mislukken
 
@@ -357,15 +359,15 @@ U ziet dat testcases automatisch worden uitgevoerd in de toepassing met behulp v
 
 De resultaten van de testuitvoering worden opgeslagen in RSAT. De tweede test is mislukt tijdens de tweede uitvoering.
 
-![Mislukte testresultaten in RSAT.](media/GER-RSAT-RSAT-Tests-Failed.png "Schermafbeelding van de mislukte testresultaten in RSAT")
+![Mislukte testresultaten in RSAT](media/GER-RSAT-RSAT-Tests-Failed.png "Schermafbeelding van de mislukte testresultaten in RSAT")
 
 De resultaten van de testuitvoering worden eveneens verzonden Azure DevOps, zodat u verdere analyses kunt maken.
 
-![Mislukte testresultaten in Azure DevOps.](media/GER-RSAT-DevOps-Tests-Failed.png "Schermafbeelding van de mislukte testresultaten in Azure DevOps")
+![Mislukte testresultaten in Azure DevOps](media/GER-RSAT-DevOps-Tests-Failed.png "Schermafbeelding van de mislukte testresultaten in Azure DevOps")
 
 U kunt de status van elke test bekijken. U kunt ook het uitvoeringslogboek openen, zodat u de redenen voor fouten kunt analyseren. In de volgende afbeelding ziet u in het uitvoeringslogboek dat de fout is opgetreden vanwege het verschil in de inhoud tussen het gegenereerde betalingsbestand en de basislijn.
 
-![Uitvoeringslogboek voor analyseren van fout in Azure DevOps.](media/GER-RSAT-DevOps-Tests-Failed-Log.png "Schermafbeelding van het uitvoeringslogboek voor foutanalyse in Azure DevOps")
+![Uitvoeringslogboek voor analyseren van fout in Azure DevOps](media/GER-RSAT-DevOps-Tests-Failed-Log.png "Schermafbeelding van het uitvoeringslogboek voor foutanalyse in Azure DevOps")
 
 Zoals u hebt gezien, kan de werking van elke willekeurige ER-indeling automatisch worden geëvalueerd door RSAT als testplatform te gebruiken en door op de Taakrecorder gebaseerde testcases te gebruiken die de ER‑basislijnfunctie gebruiken.
 
@@ -378,6 +380,3 @@ Zoals u hebt gezien, kan de werking van elke willekeurige ER-indeling automatisc
 - [Gegenereerde rapportresultaten volgen en vergelijken met de basislijnwaarden](er-trace-reports-compare-baseline.md)
 - [ER Uw indeling upgraden door een nieuwe basisversie van die indeling aan te nemen](tasks/er-upgrade-format.md)
 - [Een ER-configuratie vanuit Lifecycle Services importeren](tasks/er-import-configuration-lifecycle-services.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

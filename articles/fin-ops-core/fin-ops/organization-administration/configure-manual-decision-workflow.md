@@ -2,9 +2,11 @@
 title: Handmatige beslissingen configureren in een workflow
 description: In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een handmatige beslissing configureert.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d54c010c8fe0d8ca6cc8129948392fb56ef85283
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d351facbce02355ddb4bdf91d43d9df561e4f3b5
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065650"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798847"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>Handmatige beslissingen configureren in een workflow
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een handmatige beslissing configureert.
 
@@ -351,6 +350,3 @@ Volg deze stappen als de beslissing binnen een opgegeven tijd moet worden genome
     - **Jaren**: selecteer de dag, week en maand waarop de beslissing uiterlijk moet zijn genomen. U kunt bijvoorbeeld aangeven dat de beslissing uiterlijk op de vrijdag in de derde week van december moet zijn genomen.
 
 4. Als de tijdslimiet is overschreden, dan neemt het systeem automatisch de beslissing. Selecteer in de lijst **Actie** de optie die het systeem moet selecteren.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

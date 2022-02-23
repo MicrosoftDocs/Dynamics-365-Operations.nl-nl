@@ -1,32 +1,35 @@
 ---
 title: Grootboektoewijzingsregels
 description: Dit artikel bevat informatie over grootboektoewijzingsregels. Het beschrijft de verschillende onderdelen van deze toewijzingsregels en toewijzingsmethoden die hiervoor kunnen worden gebruikt.
-author: kweekley
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerAllocation, LedgerAllocationBasisRule, LedgerAllocationRequest, LedgerAllocationRule
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 15402
 ms.assetid: 8147e148-7c11-45ef-95c6-f9889a875b54
 ms.search.region: Global
-ms.author: kweekley
+ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 718640390cd1d4c6c2e9fb1d6bdeba21b515be4a
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 42896fc8b204df921f1e24797098472eca090d30
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726866"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442012"
 ---
 # <a name="ledger-allocation-rules"></a>Grootboektoewijzingsregels
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat informatie over grootboektoewijzingsregels. Het beschrijft de verschillende onderdelen van deze toewijzingsregels en toewijzingsmethoden die hiervoor kunnen worden gebruikt.
+Dit artikel bevat informatie over grootboektoewijzingsregels. Het beschrijft de verschillende onderdelen van deze toewijzingsregels en toewijzingsmethoden die hiervoor kunnen worden gebruikt.
 
 Grootboektoewijzingsregels worden gebruikt om toewijzingsjournalen en journaalregels automatisch te berekenen en te genereren voor de toewijzing van grootboeksaldi of vaste bedragen. Toewijzingsmethoden kunnen variabel of vast zijn. De volgende toewijzingsmethoden kunnen voor grootboektoewijzingsregels worden gebruikt:
 
@@ -48,6 +51,3 @@ Elke toewijzingsregel bestaat uit vier onderdelen: algemeen, bron, doel en tegen
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

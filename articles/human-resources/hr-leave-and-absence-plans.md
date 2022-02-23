@@ -1,33 +1,31 @@
 ---
 title: Een verlof- en verzuimplan maken
-description: In dit onderwerp wordt beschreven hoe u verlofplannen maakt Dynamics 365 Human Resources voor verschillende verloftypen.
-author: twheeloc
-ms.date: 10/28/2021
+description: Maak verlofplannen in Dynamics 365 Human Resources voor verschillende verloftypen.
+author: andreabichsel
+manager: AnnBe
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9267b4d4025ef0e5cec2d3e995785a6291c850e5
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070245"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418031"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Een verlof- en verzuimplan maken
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Definieer verlof- en verzuimplannen in Dynamics 365 Human Resources voor elk verloftype dat u aanbiedt. Toerekening voor verlof- en verzuimplannen kan plaatsvinden met verschillende frequenties, zoals jaarlijks, maandelijks of halfmaandelijks. U kunt ook een plan definiëren als beloning, met één toerekening op een bepaalde datum. Zo kunt u bijvoorbeeld een plan maken waarmee jaarlijks wisselende feestdagen worden toegekend.
 
@@ -385,6 +383,3 @@ Voorspeld saldo (30) = Toerekeningsbedrag (10 × 1) + Huidig saldo (40) – Getr
 - [Overzicht van verlof en verzuim](hr-leave-and-absence-overview.md)
 - [Verlof- en verzuimtypen configureren](hr-leave-and-absence-types.md)
 - [Verlof- en verzuimplannen toerekenen](hr-leave-and-absence-accrue.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

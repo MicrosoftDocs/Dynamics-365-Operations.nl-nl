@@ -1,31 +1,34 @@
 ---
 title: Product-id's
 description: Dit onderwerp bevat informatie over de verschillende typen product-id's en hierin wordt uitgelegd hoe u product-id's in de productgegevens kunt toevoegen.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 03/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: benebotg
+ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 638b5c3b0c83f67f3d99331b6456efd1b8f5225a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: c16818f1dc52c9e21130539213e7e8d1053fef1d
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063336"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529181"
 ---
 # <a name="product-identifiers"></a>Product-id's
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 [!include [banner](../includes/banner.md)]
 
@@ -39,9 +42,9 @@ In Dynamics 365 Supply Chain Management is de primaire id voor een product het p
 
 In veel gevallen is het productnummer oorspronkelijk niet gemaakt in Dynamics 365 Supply Chain Management. In plaats daarvan is het gekoppeld aan een product in een systeem voor productlevenscyclusbeheer (PLM) of productgegevensbeheer (PDM). In dit geval kunt u gegevensentiteiten gebruiken om de producten en productvarianten te importeren. Supply Chain Management gebruikt vervolgens de cijfers in alle bewerkingen.
 
-Wanneer u Supply Chain Management implementeert, moet u extra aandacht aan uw strategie voor productnummers besteden. Een goed nummeringssysteem verbetert de logistieke stromen en kan fouten helpen voorkomen. Een goede product-id moet doorgaans 20 tekens of minder lang zijn, maar we raden u meestal aan minder dan 10 tekens te gebruiken en niet meer dan 5 classificerende tekens op te nemen. U kunt ook zoeknamen gebruiken om snelle zoekacties mogelijk te maken. Een zoeknaam is een extra naam die de classificaties van een product vertegenwoordigt.
+Wanneer u Supply Chain Management implementeert, moet u extra aandacht aan uw strategie voor productnummers besteden. Een goed nummeringssysteem verbetert de logistieke stromen en kan fouten helpen voorkomen. Een goede product-id bestaat uit maximaal 15 tekens. In het ideale geval bestaat de id uit minder dan 10 tekens en bevat deze niet meer dan vijf classificerende tekens. U kunt ook zoeknamen gebruiken om snelle zoekacties mogelijk te maken. Een zoeknaam is een extra naam die de classificaties van een product vertegenwoordigt.
 
-Wanneer u Microsoft Dataverse gebruikt, is het productnummer in Supply Chain Management ook het productnummer in Microsoft Dataverse. Productvarianten worden als aparte producten naar Dataverse gesynchroniseerd.
+Wanneer u Common Data Service gebruikt, is het productnummer in Supply Chain Management ook het productnummer in de Common Data Service. Productvarianten worden als aparte producten naar de Common Data Service gesynchroniseerd.
 
 ## <a name="item-number-and-product-dimensions"></a>Artikelnummer en productdimensies
 
@@ -72,7 +75,7 @@ De zoeknaam kan ook een klant- of leveranciersproduct-id of een andere externe p
 
 Voor vrijgegeven producten kunt u de artikelnummers, -namen en -omschrijvingen die de klant of leverancier gebruikt, behouden. Deze worden ook gebruikt in externe documenten, zoals verkooporders, inkooporders, pakbonnen en facturen. In de huidige versie van Supply Chain Management worden deze externe verwijzingen niet weergegeven op pagina's voor kernoperaties. Het leveranciersartikelnummer is de enige uitzondering. Dit nummer wordt weergegeven in het dialoogvenster **Productgegevens** als een standaardleverancier is gedefinieerd voor het vrijgegeven product.
 
-U kunt de externe product-id's beheren op vrijgegeven product, vrijgegeven productvariant, klant, klantengroep, leverancier of leveranciersgroep.
+U kunt de externe product-id's op vrijgegeven product, vrijgegeven productvariant, klant of klantengroep, of leverancier of leveranciersgroep beheren.
 
 Voer een van de volgende stappen uit op de pagina **Vrijgegeven producten**.
 
@@ -87,7 +90,7 @@ Op de pagina **Extern-artikelomschrijvingen** kunt u het artikelnummer van de kl
 | Omschrijving | De naam die de klant aan het artikel koppelt | De naam die de leverancier aan het artikel koppelt |
 | Tekst extern artikel | De artikelomschrijving van de klant | De artikelomschrijving van de leverancier |
 
-Als veel klanten of leveranciers hetzelfde artikelnummer gebruiken (zoals met een inkopersvereniging of een Commerce-groep), kunt u groepen klanten of leveranciers maken om het beheer van externe productgegevens te vereenvoudigen.
+Als veel klanten of leveranciers hetzelfde artikelnummer gebruiken (zoals in het geval van een inkopersvereniging of een Commerce-groep), kunt u groepen klanten of leveranciers maken om het beheer van externe productgegevens te vereenvoudigen.
 
 - Voor klantengroepen gaat u naar **Verkoop** &gt; **Instellingen** &gt; **Artikelen** &gt; **Extern-artikelomschrijving** om de groepen en de bijbehorende artikelnummers te maken en te beheren. Als u klanten wilt koppelen aan een groep, gaat u naar **Klanten** &gt; **Klanten** &gt; **Alle klanten** en geeft u op het sneltabblad **Standaardwaarden verkooporders** een waarde op in het veld **Artikel - klantengroep**.
 - Voor leveranciersgroepen gaat u naar **Inkoop en sourcing** &gt; **Instellingen** &gt; **Groep extern-artikelomschrijvingen** om de groepen en de bijbehorende artikelnummers te maken en te beheren. Als u leveranciers wilt koppelen aan een groep, gaat u naar **Crediteuren** &gt; **Leveranciers** &gt; **Alle leveranciers** en geeft u op het sneltabblad **Details over inkooporders** een waarde op in het veld **Artikel - Leveranciersgroep**.
@@ -106,7 +109,7 @@ U beheert streepjescodes door op de pagina **Vrijgegeven producten** op het tabb
 
 In e-commerce is het van groot belang dat alle partijen een gemeenschappelijke taal spreken en naar producten verwijzen met een gemeenschappelijke set id's. Daarom maken sommige bedrijfstakken gebruik van [GTIN](https://www.gs1.org/id-keys/gtin), een wereldwijd systeem voor artikelnummering dat mogelijk wordt gemaakt door GS1.
 
-Wij adviseren de GTIN als streepjescode te onderhouden. U kunt GTIN echter ook gebruiken op de pagina **Artikel - GTIN**. U opent deze pagina door op de pagina **Vrijgegeven producten** op het tabblad **Voorraad beheren** in de groep **Magazijn** de optie **GTIN-codes** te selecteren. GTIN wordt niet als een globaal nummer beheerd. In plaats daarvan wordt het beheerd per rechtspersoon.
+Wij adviseren de GTIN als streepjescode te onderhouden. U kunt GTIN echter ook gebruiken op de pagina **Artikel - GTIN**. U opent deze pagina door op de pagina **Vrijgegeven producten** op het tabblad **Voorraad beheren** in de groep **Magazijn** de optie **GTIN-codes** te selecteren. Houd er rekening mee dat GTIN niet als een globaal nummer wordt beheerd. In plaats daarvan wordt het beheerd per rechtspersoon.
 
 In Supply Chain Management definieert u verpakkingsvarianten in de magazijnbewerkingen door specifieke maateenheden op te geven. Een artikel kan bijvoorbeeld zijn opgeslagen in stuks, in bundels van zes, in laden van 18 of in volle pallets. Er wordt een bepaalde maateenheid gedefinieerd voor elk van deze verpakkingsvarianten. Aangezien GTIN doorgaans is gerelateerd aan de verpakkingseenheid van een product, kunt u op de pagina **Artikel - GTIN** meerdere GTIN-codes per product en maateenheid beheren. U kunt dezelfde GTIN-code echter niet vaker dan één keer voor verschillende artikelen of varianten van het product van een rechtspersoon gebruiken.
 
@@ -129,7 +132,7 @@ Helaas is er geen standaardfunctionaliteit waarmee u op externe codes kunt zoeke
 | Vrijgegeven productvarianten | Artikelnummer, productdimensies, productnummer | Productnummer, zoeknaam voor product, productnaam, productomschrijving, productdimensies | Net als de entiteit **Productvarianten** kan deze entiteit worden gebruikt voor het maken van nieuwe producten die de sjabloon voor de nomenclatuur van producten volgen of hun eigen productnummers voor de variant gebruiken. |
 | Extern-artikelomschrijving voor klanten | Artikelnummer van klant, naam van klantartikel, klantomschrijving, klantrekening | Artikelnummer van klant, naam van klantartikel, klantomschrijving, klantrekening | Een groep klanten (bijvoorbeeld een kopersvereniging) kan worden samengevoegd tot één groep met behulp van de entiteit **Klantengroepen voor extern-artikelomschrijving**. |
 | Extern-artikelomschrijving voor leveranciers | Artikelnummer van leverancier, naam van leveranciersartikel, omschrijving van leverancier, leverancierrekening | Artikelnummer van leverancier, naam van leveranciersartikel, omschrijving van leverancier, leverancierrekening | Een groep leveranciers (bijvoorbeeld een leveranciersvereniging of een brancheorganisatie) kan worden samengevoegd tot één groep met behulp van de entiteit **Leveranciersgroepen voor extern-artikelomschrijving**. |
-| Artikelstreepjescode | Streepjescode | Streepjescode | Tijdens het importeren moet u verwijzen naar streepjescode-instellingen die zijn gedefinieerd in het doelsysteem. De verwijzingen voor de geïmporteerde streepjescode worden gevalideerd op basis van die streepjescode-instellingen en worden geweigerd als de streepjescodes niet aan de vereisten voldoen die in die instellingen zijn gedefinieerd. |
+| Artikelstreepjescode | Streepjescode | Streepjescode | Tijdens het importeren moet u verwijzen naar streepjescode-instellingen die zijn gedefinieerd in het doelsysteem. De verwijzingen voor de geïmporteerde streepjescode worden gevalideerd op basis van die streepjescode-instellingen en worden geweigerd als de streepjescodes niet aan de vereisten voldoen die in de streepjescode-instellingen zijn gedefinieerd. |
 | Externe codes voor vrijgegeven producten | Externe code | Externe code, externe codeklassen, artikelnummer | Externe codes gelden per rechtspersoon. Voor het importeren moet u verwijzen naar een gedefinieerde codeklasse. Importeer de codeklassen met behulp van de entiteit **Externe codeklassen voor vrijgegeven producten**. |
 | Externe codes voor vrijgegeven productvarianten | Externe code | Externe code, externe codeklassen, artikelnummer, productdimensies | Externe codes gelden per rechtspersoon. Voor het importeren moet u verwijzen naar een gedefinieerde codeklasse. Importeer de codeklassen met behulp van de entiteit **Externe codeklassen voor vrijgegeven producten**. Deze entiteit verwijst naar productvarianten op basis van het artikelnummer en productdimensies. |
 | Externe codes voor vrijgegeven productvarianten per productnummer-id | Externe code | Externe code, externe codeklassen, productnummer | Externe codes gelden per rechtspersoon. Voor het importeren moet u verwijzen naar een gedefinieerde codeklasse. Importeer de codeklassen met behulp van de entiteit **Externe codeklassen voor vrijgegeven producten**. Deze entiteit verwijst naar productvarianten op basis van het productnummer van de variant. (Uit de volgende grote release) |
@@ -158,13 +161,13 @@ De volgende tabel biedt een overzicht van de resultaten van het importeren en ha
 | Nummerreeks Productnummer | Nummerreeks Artikelnummer | Toewijzing van het artikelnummer | Toewijzing van het productnummer | Resultaat van entiteitsimport | Resultaat van handmatig maken | Conclusie |
 |--------------------------------|-----------------------------|----------------------------|-------------------------------|-------------------------|----------------------------|-----------|
 | Handmatig = Nee | Handmatig = Nee | Geen toewijzing | Geen toewijzing | Productnummers gebruiken de nummerreeks **Productnummer**. Artikelnummers gebruiken de nummerreeks **Artikelnummer**. | Productnummers gebruiken de nummerreeks **Productnummer**. Artikelnummers gebruiken de nummerreeks **Artikelnummer**. | Met deze configuratie volgen de productnummers de productnummerreeks en artikelnummers de artikelnummerreeks. Deze configuratie werkt echter niet als er meer dan één artikel (rij) moet worden geïmporteerd. |
-| Handmatig = Nee | Handmatig = Ja | Automatisch genereren | Geen toewijzing | Zowel productnummers als artikelnummers gebruiken de nummerreeks **Artikelnummer**. | Zowel productnummers als artikelnummers gebruiken de nummerreeks **Productnummer**. | Zowel productnummers als artikelnummers gebruiken de productnummerreeks. Dit is de aanbevolen benadering voor het importeren van bulkproducten met de gegevensentiteit Vrijgegeven product maken V2.<br><br>U kunt deze methode alleen gebruiken bij het importeren van artikelen in bulk (meerdere rijen) en wanneer u geen artikelen via de gebruikersinterface maakt. Als u producten zowel in bulk wilt importeren als wilt maken via de gebruikersinterface, gebruikt u in plaats daarvan de procedure in de volgende rij van deze tabel. Als u wilt overstappen van de methode voor bulkimport naar het gebruik van de gebruikersinterface voor het handmatig importeren en maken van producten, moet u het **volgende nummer** in de artikelnummerreeks handmatig aanpassen om het nummer van het **volgende nummer** in de nummerreeks van het product te laten overeenkomen. Vervolgens kunt u overschakelen op de benadering in de volgende rij van deze tabel. |
-| Handmatig = Nee | Handmatig = Ja | Geen toewijzing | Geen toewijzing | Zowel productnummers als artikelnummers gebruiken de nummerreeks **Productnummer**. | Zowel productnummers als artikelnummers gebruiken de nummerreeks **Productnummer**. | Zowel productnummers als artikelnummers gebruiken de productnummerreeks. Deze configuratie werkt echter niet als er meer dan één artikel (rij) moet worden geïmporteerd.<br><br>U moet deze methode gebruiken als u zowel producten met behulp van de entiteiten moet importeren (er kan slechts één rij tegelijk worden geïmporteerd) als om producten te maken via de gebruikersinterface. |
+| Handmatig = Nee | Handmatig = Ja | Automatisch genereren | Geen toewijzing | Zowel productnummers als artikelnummers gebruiken de nummerreeks **Artikelnummer**. | Zowel productnummers als artikelnummers gebruiken de nummerreeks **Productnummer**. | Zowel productnummers als artikelnummers gebruiken de productnummerreeks. Dit is de aanbevolen benadering voor het importeren van bulkproducten met de gegevensentiteit Vrijgegeven product maken V2. |
+| Handmatig = Nee | Handmatig = Ja | Geen toewijzing | Geen toewijzing | Zowel productnummers als artikelnummers gebruiken de nummerreeks **Productnummer**. | Zowel productnummers als artikelnummers gebruiken de nummerreeks **Productnummer**. | Zowel productnummers als artikelnummers gebruiken de productnummerreeks. Deze configuratie werkt echter niet als er meer dan één artikel (rij) moet worden geïmporteerd. |
 | Handmatig = Ja | Niet van toepassing | Niet van toepassing | Automatisch genereren | U ontvangt het foutbericht Nummerreeks kan niet worden gevonden. | Op basis van de nummerreeks **Artikelnummer** | Deze instelling wordt niet ondersteund voor importeren. |
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Productentiteit-id (alle product-id's exporteren)
 
-Het model voor productentiteit-id's is gemaakt om versie 1.0 van Dataverse te kunnen inrichten met alle id's die worden gebruikt om te verwijzen naar een product. Om deze taak te vereenvoudigen, worden alle id's samengevoegd in één algemene id-tabel, zodat ze kunnen worden geëxporteerd als één model. Houd er rekening mee dat deze versie van Dataverse het model voor product-id's niet gebruikt. Daarom hebben de entiteit **Entiteit voor Common Data Service-id voor productentiteit** en dit proces een beperkt praktisch nut en worden deze waarschijnlijk gewijzigd in de toekomst.
+Het model voor productentiteit-id's is gemaakt om versie 1.0 van CDS te kunnen inrichten met alle id's die worden gebruikt om te verwijzen naar een product. Om deze taak te vereenvoudigen, worden alle id's samengevoegd in één algemene id-tabel, zodat ze kunnen worden geëxporteerd als één model. Houd er rekening mee dat deze versie van CDS het model voor product-id's niet gebruikt. Daarom hebben de entiteit **Entiteit voor Common Data Service-id voor productentiteit** en dit proces een beperkt praktisch nut en worden deze waarschijnlijk gewijzigd in de toekomst.
 
 De tabel met product-id's is een globale tabel die wordt gevuld op basis van alle verwijzingstabellen van de hoofdrechtspersoon via een terugkerende batchtaak. U moet een rechtspersoon en een productcategoriehiërarchie selecteren als de definitie van het bereik van het globale productmodel. Er wordt alleen een globale tabel met product-id's gegenereerd voor producten die voor de geselecteerde rechtspersoon zijn vrijgegeven en producten die deel uitmaken van de producthiërarchie die is geselecteerd voor de rol **Common Data Service** in de productcategoriehiërarchie.
 
@@ -172,7 +175,7 @@ Hierbij wordt ervan uitgegaan dat producthoofdgegevens voornamelijk worden behee
 
 Ga als volgt te werk om de omgeving te configureren.
 
-1. Selecteer de categoriehiërarchie voor Dataverse. Als op de pagina **Rolkoppelingen categoriehiërarchie** geen hiërarchie is gekoppeld aan de rol **Common Data Service** , moet u een nieuwe koppeling maken. Selecteer de rol **Common Data Service** en koppel vervolgens de categoriehiërarchie die staat voor het productaanbod dat moet worden gesynchroniseerd naar Dataverse.
+1. Selecteer de categoriehiërarchie voor CDS. Als op de pagina **Rolkoppelingen categoriehiërarchie** geen hiërarchie is gekoppeld aan de rol **Common Data Service** , moet u een nieuwe koppeling maken. Selecteer de rol **Common Data Service** en koppel vervolgens de categoriehiërarchie die staat voor het productaanbod dat moet worden gesynchroniseerd naar CDS.
 2. Selecteer de rechtspersoon voor globale producthoofdgegevens. Selecteer op de pagina **Parameters productgegevensbeheer** op het tabblad **Productkenmerken** het hoofdbedrijf waar de product- en artikel-id's voornamelijk worden beheerd.
 3. Definieer de id-codetypen en -codes die moeten worden geëxporteerd. Ga naar **Productgegevensbeheer** &gt; **Instellingen** &gt; **Identificatiecodes voor producten**. Selecteer **Codes genereren** om de typen id-codes te genereren. Een codetypevermelding wordt gegenereerd voor elk type id dat wordt gevonden in de geselecteerde rechtspersoon.
 
@@ -187,6 +190,3 @@ Nu kunt u de gegevensentiteiten **Entiteit voor Common Data Service-id voor prod
 ## <a name="related-topic"></a>Verwant onderwerp
 
 [Producten en productvarianten zoeken tijdens orderinvoer](search-products-product-variants.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

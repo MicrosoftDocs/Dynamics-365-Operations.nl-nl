@@ -1,50 +1,47 @@
 ---
-title: Help-systeem (bevat video)
-description: In dit onderwerp vindt u een overzicht van het Help-systeem voor apps voor financiële en bedrijfsactiviteiten.
+title: Help-systeem
+description: In dit onderwerp vindt u een overzicht van het Help-systeem voor Finance and Operations-apps.
 author: edupont04
-ms.date: 07/20/2021
-ms.topic: overview
+manager: AnnBe
+ms.date: 05/11/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.custom:
-- "16381"
-- intro-internal
+ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd34addc2ffa5e437691cb1e3e8b33246053ccc7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070496"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695134"
 ---
 # <a name="help-system"></a>Help-systeem
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
-
 Gebruikers van de volgende apps kunnen toegang krijgen tot contextafhankelijke Help en andere inhoud die is gebaseerd op hetzelfde Help-systeem:
 
-- Dynamics 365 Commerce
+- Microsoft Dynamics 365 Commerce
 - Dynamics 365 Finance
 - Dynamics 365 Human Resources
 - Dynamics 365 Supply Chain Management
 
 In al deze apps kunt u productspecifieke Help openen vanuit het deelvenster **Help**.
 
-![Deelvenster Help.](./media/help-pane-ops-help.png)
+![Deelvenster Help](./media/help-pane-ops-help.png)
 
 ## <a name="help-on-docsmicrosoftcom"></a>Help op docs.microsoft.com
 
-De site docs.microsoft.com ([docs.microsoft.com/dynamics365](/dynamics365/)) is de standaardbron voor productdocumentatie voor de eerdere vermelde apps. Deze site biedt de volgende functies:
+De site docs.microsoft.com ([docs.microsoft.com/dynamics365](https://docs.microsoft.com/dynamics365/)) is de standaardbron voor productdocumentatie voor de eerdere vermelde apps. Deze site biedt de volgende functies:
 
 - **Toegang tot de meest recente inhoud**: de site biedt Microsoft een snellere en flexibelere manier om productdocumentatie te maken, te leveren en bij te werken. Zo hebt u eenvoudig toegang tot de meest recente technische informatie.
 - **Inhoud die door deskundigen is geschreven**: communityleden binnen en buiten Microsoft kunnen bijdragen aan de site.
@@ -53,20 +50,9 @@ Met een zoekmachine kunt u inhoud vinden op docs.microsoft.com. We raden u voor 
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Meldingen over wijzigingen ontvangen in een RSS-feed
 
-Als u zich wilt abonneren op een RSS-feed met alle updates die zijn aangebracht op docs.microsoft.com in de apps voor financiële en bedrijfsactiviteiten, gebruikt u de volgende koppeling:
+Als u zich wilt abonneren op een RSS-feed (Really Simple Syndication) met alle updates op docs.microsoft.com, gebruikt u de volgende koppeling:
 
-[RSS-feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
-
-> [!NOTE]
-> De RSS-feed retourneert een lijst met de 100 onderwerpen die het laatst zijn bijgewerkt. De lijst wordt niet op datum gesorteerd.  
-
-U kunt ook per app een abonnement op een RSS-feed nemen:
-
-- [Commerce](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-commerce%27)&locale=en-us)  
-- [Finance](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finance%27)&locale=en-us)  
-- [Human Resources](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-hr%27)&locale=en-us)  
-- [Toeleveringsketen](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
-- [Talent](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-talent%27)&locale=en-us)  
+[RSS-feed](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
 ### <a name="leave-us-feedback"></a>Feedback achterlaten
 
@@ -76,7 +62,7 @@ Als u ons feedback wilt geven of vragen hebt over een onderwerp, kunt u onder aa
 
 2. Begin met het typen van uw opmerkingen en selecteer **Feedback verzenden**.
 
-    ![Opmerking verzenden.](./media/feedback.png)
+    ![Opmerking verzenden](./media/feedback.png)
 
 > [!NOTE]
 > Als u documentatiefeedback wilt verzenden, moet u zich aanmelden met een GitHub-account. Zie [Uw GitHub-profiel instellen en beheren](https://help.github.com/github/setting-up-and-managing-your-github-profile) voor meer informatie.
@@ -89,7 +75,7 @@ U kunt bijdragen aan en wijzigingen aanbrengen in de documentatie. Om te beginne
 
 De video [Bijdragen aan de Microsoft Dynamics 365-documentatie](https://youtu.be/m5djioozRbg) (zie hierboven) is te vinden op het Microsoft Dynamics 365-kanaal op YouTube.
 
-Zie voor meer informatie de [handleiding voor bijdragers aan documenten](/contribute), die wordt gepubliceerd door het team dat de site docs.microsoft.com heeft gebouwd.
+Zie voor meer informatie de [handleiding voor bijdragers aan documenten](https://docs.microsoft.com/contribute), die wordt gepubliceerd door het team dat de site docs.microsoft.com heeft gebouwd.
 
 > [!NOTE]
 > Op dit moment accepteren we alleen bijdragen aan onze Engelse inhoud.
@@ -100,11 +86,11 @@ Een taakbegeleidingen is een gecontroleerde, begeleide, interactieve ervaring di
 
 Microsoft heeft de taakbegeleidingsbibliotheek voor productversies tot en met de release van 2017 december van Dynamics 365 for Finance and Operations uitgebracht. In de sectie [Taakbegeleiders openen via het deelvenster Help](#accessing-task-guides-from-the-help-pane) van dit onderwerp wordt beschreven hoe u de juiste taakbegeleidingen voor uw product vindt.
 
-![Leesweergave van taakbegeleiding.](./media/task-guide-ops.png)
+![Leesweergave van taakbegeleiding](./media/task-guide-ops.png)
 
 U kunt met de interactieve taakbegeleiding beginnen door **Taakbegeleiding starten** onder aan het deelvenster **Help** te selecteren. Een zwarte aanwijzer geeft aan waar u eerst naartoe moet gaan. Volg de aanwijzingen die in de gebruikersinterface verschijnen en voer gegevens in volgens de aanwijzingen.
 
-![Instructies bij stappen taakbegeleiding.](./media/task-guide-step-1-ops.png)
+![Instructies bij stappen taakbegeleiding](./media/task-guide-step-1-ops.png)
 
 > [!IMPORTANT]
 > De gegevens die u invoert wanneer u een taakbegeleider afspeelt, zijn echt. Als u in een productieomgeving bent, worden de gegevens ingevoerd in het bedrijf dat u momenteel gebruikt.
@@ -117,7 +103,7 @@ Sommige velden bevatten veldomschrijvingen om gebruikers verder te helpen wannee
 
 U opent Help-inhoud door de knop **Help** (**?**) te selecteren en vervolgens **Help** te selecteren. Of druk op **Ctrl+Shift+?**. In beide gevallen wordt het deelvenster **Help** geopend. Via het deelvenster **Help** kunt u toegang krijgen tot conceptuele onderwerpen of taakbegeleidingen die relevant zijn voor het gebied van het product dat u momenteel gebruikt.
 
-![Deelvenster Help.](./media/help-pane-ops-help.png)
+![Deelvenster Help](./media/help-pane-ops-help.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Help-onderwerpen openen via het deelvenster Help
 
@@ -134,13 +120,13 @@ Voordat u taakbegeleidingen via het deelvenster **Help** kunt openen, moet een s
 > - In order to configure Help, you must be signed in with an account in the same tenant as the tenant in which the app is deployed.
 > - It is not possible to connect to an LCS library from an instance of the app running in a local virtual hard drive (VHD).
 
-![System Parameters form with Help settings.](./media/system-parameters_ops-1024x437.png)
+![System Parameters form with Help settings](./media/system-parameters_ops-1024x437.png)
 
 On the **System parameters** page, follow these steps:
 
 1. **Important:** The first time that you open the Help tab, you must connect to Lifecycle Services. Be sure to select the link in the middle of the form, wait for the connection, close the dialog box, and then select **OK** to get to the parameters form.
 
-    ![Connect to LCS.](./media/connect-to-lcs-crop-1024x365.png)
+    ![Connect to LCS](./media/connect-to-lcs-crop-1024x365.png)
 
 2. Select the Lifecycle Services project to connect to.
 3. Select BPM libraries (within the selected project) to retrieve task recordings from.
@@ -148,7 +134,7 @@ On the **System parameters** page, follow these steps:
 
 Wanneer een systeembeheerder deze stappen heeft voltooid, kunt u het deelvenster **Help** openen en het tabblad **Taakbegeleidingen** selecteren. U ziet nu de taakbegeleidingen die van toepassing zijn op de pagina die nu is geopend. Als er geen taakbegeleidingen worden gevonden, kunt u trefwoorden invoeren om uw zoekopdracht te verfijnen. Nadat u een taakbegeleiding in het deelvenster **Help** hebt geselecteerd, toont het deelvenster **Help** de stapsgewijze instructies en kunt u de taakbegeleiding afspelen.
 
-![Leesweergave van taakbegeleiding.](./media/task-guide-ops.png)
+![Leesweergave van taakbegeleiding](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a>Waar zijn de vertaalde taakbegeleidingen voor Microsoft-bibliotheken?
 
@@ -171,14 +157,10 @@ In de volgende tabel worden onze websites weergegeven. Sites die een sterretje (
 | Locatie | Omschrijving |
 |------|-------------|
 | [Docs.microsoft.com](/dynamics365/) | Deze site host of koppelt naar alle productdocumentatie voor Dynamics 365. |
-| [Microsoft Learn](/learn/) | Deze site is de gratis eLearning-site van Microsoft. |
+| [Microsoft Learn](https://docs.microsoft.com/learn/) | Deze site is de gratis eLearning-site van Microsoft. |
 | [Microsoft DynamicsLifecycle Services (LCS)](https://lcs.dynamics.com/)\* | Deze site biedt een ruimte voor samenwerking in de cloud die klanten en hun partners kunnen gebruiken om projecten te beheren van pre-sales naar implementatie en bewerkingen. Deze site is handig in alle fasen van een implementatie. |
 | [Ondersteuningsblog](https://aka.ms/AXSupportBlog) | De site biedt tips en trucs die door het ondersteuningsteam worden geplaatst. |
 | [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | Deze site host inhoud uit eerdere versies. |
 | [Dynamics Community](https://community.dynamics.com/) | Deze site host blogs, forums en video's. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Deze site biedt evaluatie- en verkoopinformatie. |
-
-
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+| [CustomerSource](https://mbs.microsoft.com/customersource/)\* | Deze site host trainingsresources, downloadbare rapporten en whitepapers en is de primaire ondersteuningssite voor serviceplanhouders. Mogelijk is een serviceplan vereist om toegang te krijgen tot bepaalde bronnen op de site. |

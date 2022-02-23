@@ -101,6 +101,3 @@ De mogelijkheid om verlof van werknemers bij te houden en inzicht te krijgen in 
 ### <a name="email-support-for-alerts"></a>E-ondersteuning voor waarschuwingen
 
 In platformupdate 26 voor Finance and Operations kunnen gebruikers waarschuwingsregels maken waarmee automatisch e-mailmeldingen worden verzonden naar contactpersonen wanneer meldingen door een gebeurtenis worden geactiveerd.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

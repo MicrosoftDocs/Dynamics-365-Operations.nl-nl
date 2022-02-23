@@ -2,9 +2,11 @@
 title: Gegevensagnostisch testen met de Regression Suite Automation Tool
 description: In dit onderwerp worden de aanbevelingen besproken voor gegevensagnostisch testen met behulp van de Regression Suite Automation Tool.
 author: kfend
+manager: AnnBe
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: d9a5bce1cc56dfdf66b2ce58c2e740b7c4b3bdfc7f4e75396fe5dc7cb931b6d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2398bcbf0d148932e62ebe90aa8016acf0c79c28
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763405"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798196"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>Gegevensagnostisch testen met de Regression Suite Automation Tool
 
@@ -30,7 +32,7 @@ Hoewel de functionele validatie van een ERP-toepassing niet volledig gegevensagn
 - ATL kader
 - Regression Suite Automation Tool (RSAT)
 
-[![Piramide met testclassificatie.](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
+[![Piramide met testclassificatie](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
 
 ## <a name="overview"></a>Overzicht
 -   **SysTest-kader** – het SysTest-kader is betrouwbaar voor het schrijven van tests. Aangezien de eenheidstesten in het algemeen een methode of functie testen, moeten deze altijd gegevensagnostisch zijn en alleen afhankelijk van de invoergegevens die als onderdeel van de test worden geleverd.
@@ -42,11 +44,8 @@ Hoewel de functionele validatie van een ERP-toepassing niet volledig gegevensagn
     - o Geef de unieke id's, zoals factuurnummers, op via de nummer reeks of met behulp Microsoft Excel-functies zoals =TEXT(NOW(),"yyyymmddhhmm"). Deze functie geeft elke minuut een uniek nummer, waarmee u kunt bijhouden wanneer de actie heeft plaatsgevonden. Deze kan worden gebruikt voor variabelen zoals productontvangstbonnen en factuurnummers van leveranciers. Deze tests blijven opnieuw en in dezelfde database werken, zonder dat er een herstelbewerking hoeft worden uitgevoerd.
     - Steld de **Bewerkingsmodus** van de omgeving altijd in op **Lezen** of **Bewerken** als eerste testaanvraag, omdat de standaardoptie **Automatisch** is. De **Automatische**-opties gebruiken altijd de vorige instelling en kunnen onbetrouwbare tests tot gevolg hebben. 
  
-    [![Pagina Opties, tabblad Prestaties.](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
+    [![Pagina Opties, tabblad Prestaties](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
  
     - Valideer alleen nadat u op een bepaalde transactie hebt gefilterd in plaats van algemene validatie. Filter bijvoorbeeld voor het aantal records op het transactienummer of de transactiedatum, zodat alle overige transacties worden uitgesloten. 
     - Als u een klantsaldo of een budgetcontrole controleert, slaat u eerst de waarde op en voegt u vervolgens uw transactiewaarde toe om het verwachte resultaat te valideren, in plaats van een vaste verwachte waarde te valideren. 
  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Fout aan werkorder toevoegen
 description: In dit onderwerp wordt beschreven hoe u foutregistraties toevoegt aan werkorders in Activabeheer.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1090d95d381a047e77bca3e18ef7b99151ea3d5f941f2d6c9e4877a339f1385e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 083ceca9605ad044c172ba7aa23739d170f8c301
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761063"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019299"
 ---
 # <a name="add-fault-to-work-order"></a>Fout aan werkorder toevoegen
 
@@ -50,7 +52,7 @@ Aan een werkorder kunt u fouten toevoegen die in de foutontwerper zijn ingesteld
 
 In de onderstaande afbeelding ziet u een voorbeeld van een foutregistratie.
 
-![Figuur 1.](media/19-work-orders.png)
+![Figuur 1](media/19-work-orders.png)
 
 
 ## <a name="view-asset-faults"></a>Activafouten weergeven
@@ -77,6 +79,3 @@ Via de lijstpagina **Alle activa** kunt u een rapport met activafouten afdrukken
 >[!NOTE]
 >U kunt een foutrapport voor verschillende activa of activatypen afdrukken door **Activabeheer** > **Rapporten** > **Activa** > **Fout in activum** te selecteren.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

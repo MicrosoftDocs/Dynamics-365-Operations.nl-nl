@@ -2,9 +2,11 @@
 title: Een evaluatieomgeving voor Dynamics 365 Commerce inrichten
 description: In dit onderwerp wordt uitgelegd hoe u een evaluatieomgeving van Microsoft Dynamics 365 Commerce inricht.
 author: psimolin
+manager: annbe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +17,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c8241c31e82d124398189666c3a1709d25884b8acd9c8f3b1068529cbd216684
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8cda79a6be1aca7ad3826b9409e110524e6560e3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777495"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969896"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Een evaluatieomgeving voor Dynamics 365 Commerce inrichten
 
@@ -32,6 +34,8 @@ Voordat u begint, kunt u het beste dit onderwerp snel doorlezen om een idee te k
 
 > [!NOTE]
 > Commerce-evaluatieomgevingen zijn doorgaans niet beschikbaar en worden aan partners en klanten op aanvraag ter beschikking gesteld. Neem contact op met uw Microsoft-partner voor meer informatie.
+
+## <a name="overview"></a>Overzicht
 
 Als u uw evaluatieomgeving van Commerce wilt inrichten, moet u een project maken met een specifieke productnaam en een specifiek producttype. De omgeving en Commerce Scale Unit (CSU) beschikken ook over specifieke parameters die u moet gebruiken wanneer u e-Commerce later wilt inrichten. De instructies in dit onderwerp beschrijven alle vereiste stappen voor het voltooien van de inrichting en de parameters die u moet gebruiken.
 
@@ -76,7 +80,7 @@ Ga als volgt te werk om een nieuw project te maken in LCS.
 
 ### <a name="add-the-azure-connector"></a>De Azure-connector toevoegen
 
-Om de Azure-connector aan uw LCS-project toe te voegen volgt u de stappen in de procedure voor [het voltooien van het onboardingproces van Azure Resource Manager (ARM)](../fin-ops-core/dev-itpro/deployment/arm-onboarding.md).
+Om de Azure-connector aan uw LCS-project toe te voegen volgt u de stappen in de procedure voor [het voltooien van het onboardingproces van Azure Resource Manager (ARM)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/arm-onboarding).
 
 ### <a name="deploy-the-environment"></a>De omgeving implementeren
 
@@ -90,16 +94,16 @@ Ga als volgt te werk om de omgeving te implementeren.
 1. Selecteer in het veld **Toepassingsversie** de meest recente versie. Als u specifiek een andere toepassingsversie dan de meest recente versie wilt selecteren, moet u geen eerdere versie dan **10.0.14** selecteren.
 1. Gebruik in het veld **Platformversie** de platform versie die automatisch wordt gekozen voor de toepassingsversie die u hebt geselecteerd. 
 
-    ![Toepassings- en platformversies selecteren.](./media/project1.png)
+    ![Toepassings- en platformversies selecteren](./media/project1.png)
 
 1. Selecteer **Volgende**.
 1. Selecteer **Demo** als de omgevingstopologie.
 
-    ![De omgevingstopologie 1 selecteren.](./media/project2.png)
+    ![De omgevingstopologie 1 selecteren](./media/project2.png)
 
 1. Voer op de pagina **Omgeving implementeren** een omgevingsnaam in. Laat geavanceerde instellingen ongewijzigd.
 
-    ![De pagina Omgeving implementeren.](./media/project4.png)
+    ![De pagina Omgeving implementeren](./media/project4.png)
 
 1. Pas de VM-grootte naar wens aan. (We raden VM-voorraadeenheid \[SKU\] **D13 v2** aan.)
 1. Controleer de prijs- en licentievoorwaarden en schakel vervolgens het selectievakje in om aan te geven dat u ermee instemt.
@@ -180,13 +184,10 @@ Zie [Een evaluatieomgeving van Commerce configureren](cpe-post-provisioning.md) 
 
 [Veelgestelde vragen over evaluatieomgeving voor Dynamics 365 Commerce](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Commerce Scale Unit (cloud)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Commerce Scale Unit (cloud)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure-portal](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce-website](https://aka.ms/Dynamics365CommerceWebsite)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

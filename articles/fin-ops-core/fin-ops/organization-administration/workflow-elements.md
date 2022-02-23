@@ -2,9 +2,11 @@
 title: Workflowelementen
 description: In dit onderwerp worden de diverse elementen beschreven waaruit een workflow bestaat.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9491b8ee6da69ba93c830bf0721c1d58fd4385b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b259d733076193cda793a227bd0bb71c232339d1
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070445"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797571"
 ---
 # <a name="workflow-elements"></a>Workflowelementen
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 In dit onderwerp worden de diverse elementen beschreven waaruit een workflow bestaat.
 
@@ -63,7 +62,7 @@ Een *goedkeuringsproces* bestaat uit afzonderlijke stappen. In elke goedkeurings
 
 Er kan een workflow worden gemaakt om documenten of de regelitems in een document te verwerken. Bijvoorbeeld als u een goedkeuringsworkflow voor urenstaten hebt gemaakt. Deze workflow noemen we de *documentworkflow*. U kunt een element van een *workflow voor regelartikelen* toevoegen aan deze documentworkflow. Wanneer het regelitemelement wordt uitgevoerd, wordt elk regelitem in het document ter verwerking aangeboden. U wilt mogelijk alle regelitems laten verwerken door de workflow voor regelitems of u wilt dat elk regelitem door een andere workflow voor regelitems wordt verwerkt. Stel dat een werknemer een urenstaat heeft ingediend die op de volgende afbeelding lijkt.
 
-![Werkstroom voor regelartikelen.](./media/workflow_lineitemworkflow.gif)
+![Workflow voor regelartikelen](./media/workflow_lineitemworkflow.gif)
 
 In dit scenario wilt u mogelijk de volgende workflows voor regelartikelen maken:
 
@@ -90,6 +89,3 @@ Een *parallelle activiteit* is een workflowelement dat twee of meer workflowvert
 ### <a name="subworkflow"></a>Subworkflow
 
 Een *subworkflow* is een workflow die wordt uitgevoerd in de context van een andere workflow.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

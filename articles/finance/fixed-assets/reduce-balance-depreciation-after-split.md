@@ -2,25 +2,28 @@
 title: Degressieve afschrijving na een splitsing
 description: In dit onderwerp wordt de methode beschreven die wordt gebruikt in vaste activa om de afschrijving te berekenen nadat een activum is gesplitst met de methode degressieve afschrijving.
 author: moaamer
+manager: Ann Beebe
 ms.date: 11/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8e59ff1ef2b06a7203c1023bade7f06019479f3929dfbd582860f102c46b49f0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 615d17c71b904d426081d4c57492ba7e95c2c749
+ms.sourcegitcommit: 65f9e2584c0530b1a71655aae09101691726b47f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737696"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4650655"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Degressieve afschrijving na een splitsing
 
@@ -37,11 +40,8 @@ De volgende voorwaarden zijn bijvoorbeeld van toepassing:
 - De afschrijving van het eerste fiscale jaar is gelijk aan $18.000,-, de maandelijkse afschrijving is $150,- en het activum wordt vervolgens afgeschreven tot november 2019 in de hoeveelheid $738,75.
 - In november 2019 wordt 80 procent van het activum opgesplitst in andere vaste activa.
 
-[![Degressieve afschrijving na een splitsing.](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
+[![Degressieve afschrijving na een splitsing](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
 
 Het bedrag dat moet worden afgeschreven voor het oorspronkelijke activum, is $1.822,25. Dit bedrag is gelijk aan de NBW voordat de gesplitste transactie is geboekt ($9.111,25), plus de verwervingscorrectie die wordt gegenereerd tijdens het boeken van de gesplitste transactie (-$8.000,-), plus de afschrijvingscorrectie die wordt gegenereerd tijdens de gesplitste transactie ($711,-). Daarom is de afschrijving voor het tweede jaar (1.822,25 × 18 procent) ÷ 12 = $27,33.
 
 Het bedrag dat moet worden afgeschreven voor het nieuwe vaste activum in het eerste jaar is (8.000 × 18 procent) ÷ 12 = $120.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

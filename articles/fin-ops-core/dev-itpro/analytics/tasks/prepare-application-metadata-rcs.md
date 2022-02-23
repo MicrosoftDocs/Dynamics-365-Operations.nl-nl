@@ -1,10 +1,12 @@
 ---
 title: Metagegevens van de toepassing voorbereiden voor gebruik in RCS
-description: In dit onderwerp wordt beschreven hoe u een nieuwe rapportageconfiguratie maakt die toepassingsmetagegevens bevat.
+description: In de stappen in dit onderwerp wordt uitgelegd hoe een gebruiker een nieuwe configuratie voor een elektronische rapportage (ER) kan maken die de metagegevens bevat voor het ontwerpen van ER‑modelconfiguratie in Regulatory Configuration Service (RCS).
 author: NickSelin
+manager: AnnBe
 ms.date: 06/28/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 71a33a69796b31c456bfcc5abbb3b18bcb1064be65c1c58b36656a9cebfbf47d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dbc1ca45a39f2a5c3309276f9e2f5d2b7d2ba5f7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750569"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684086"
 ---
 # <a name="prepare-application-metadata-to-be-used-in-rcs"></a>Metagegevens van de toepassing voorbereiden voor gebruik in RCS
 [!include [banner](../../includes/banner.md)]
@@ -78,6 +80,3 @@ We hebben metagegevens over de Intrastat-tabelrecords toegevoegd.
 3.    Klik op **OK**. 
     
 De gemaakte ER‑metagegevensconfiguratie is opgeslagen als XML-bestand dat kan worden geïmporteerd naar RCS en gebruikt als de bron van informatie over metagegevens voor het bedrijfsdomein voor buitenlandse handel. Op basis van deze informatie kunnen we de toewijzing opgeven tussen de metagegevens van de toepassing en het ER-gegevensmodel.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Technische bedrijven en regels voor gegevenseigendom
 description: In dit onderwerp wordt uitgelegd hoe u een of meer technische bedrijven kunt gebruiken om ervoor te zorgen dat de hoofdgegevens voor producten centraal worden gemaakt en onderhouden. Een technisch bedrijf staat voor het bedrijf dat eigenaar is van de technische producten en de technisch relevante gegevens.
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgEngineeringOrganization
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1a05ad1a9d24239e2659c1ffecc21e5e186b1e96
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: ab5ca3bee65bb0ee8ce7f44ba97c00347fe38366
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572908"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963658"
 ---
 # <a name="engineering-companies-and-data-ownership-rules"></a>Technische bedrijven en regels voor gegevenseigendom
 
@@ -64,6 +66,3 @@ Aangezien het technische bedrijf eigenaar is van de technisch relevante gegevens
 
     - Wanneer deze documenten aan andere rechtspersonen worden vrijgegeven, worden de documenten beschermd tegen verwijdering door het operationele bedrijf.
     - Andere rechtspersonen kunnen volledig nieuwe lokale documenten toevoegen. Het operationele bedrijf is eigenaar van deze lokale documenten en beheert deze.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

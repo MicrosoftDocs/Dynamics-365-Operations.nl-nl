@@ -2,30 +2,33 @@
 title: De sorteervolgorde voor entiteiten voor merchandising wijzigen
 description: In dit onderwerp worden de concepten beschreven die te maken hebben met het bepalen van de weergavevolgorde voor diverse merchandising-gerelateerde entiteiten in Dynamics 365 Commerce.
 author: josaw1
+manager: AnnBe
 ms.date: 08/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: Category, Retail product hierarchy, Navigation hierarchy
 audience: Application User, Merchandising manager, Catalog manager
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 268444
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 444f1ebd99cf8443181a51d93a48b6b4d1addf4d
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: b983cb5c63db171c76d34375a93a2b9086185d3a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779537"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411384"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>De sorteervolgorde voor entiteiten voor merchandising wijzigen
 
 
-[!Include [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Voor detailhandelaren is het kunnen vinden van producten een primair hulpmiddel voor de interactie met klanten in alle kanalen. Met behulp van diverse functies kunnen klanten gemakkelijk producten ontdekken. Ze kunnen bijvoorbeeld bladeren in categorieën, zoeken en filteren.
 
@@ -51,9 +54,9 @@ Voordat u deze procedure kunt uitvoeren, moeten er voorbeeldgegevens in uw omgev
 
 De weergavevolgorde voor de kanaalnavigatiehiërarchie wordt weergegeven in HQ voor de Commerce-producthiërarchie en de vrijgegeven producten per categorie.
 
-![Aangepaste sortering van producthiërarchie met negatieve waarden.](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
+![Aangepaste sortering van producthiërarchie met negatieve waarden](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
 
-![Aangepaste sortering van vrijgegeven producten op categorie op basis van de producthiërarchie.](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
+![Aangepaste sortering van vrijgegeven producten op categorie op basis van de producthiërarchie](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
 
 ## <a name="configure-the-display-order-for-categories-in-the-channel-navigation-hierarchy"></a>De weergavevolgorde configureren voor categorieën in de kanaalnavigatiehiërarchie
 
@@ -77,14 +80,11 @@ Voordat u deze procedure kunt uitvoeren, moeten er voorbeeldgegevens in uw omgev
 
 De weergavevolgorde voor de kanaalnavigatiehiërarchie wordt weerspiegeld in HQ, catalogus en kanalen.
 
-![Aangepaste sortering voor hiërarchie van detailhandelafzetkanaal.](./media/ChannelNavCustomSorted.png)
+![Aangepaste sortering voor hiërarchie van detailhandelafzetkanaal](./media/ChannelNavCustomSorted.png)
 
-![Aangepaste sorteren van catalogusnavigatiehiërarchie op basis van de kanaalnavigatiehiërarchie.](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
+![Aangepaste sorteren van catalogusnavigatiehiërarchie op basis van de kanaalnavigatiehiërarchie](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
 
-![POS met aangepaste gesorteerde categorieën.](./media/POSChannelCategoriesCustomSorted.png)
+![POS met aangepaste gesorteerde categorieën](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
-> De functie voor aangepast sorteren is standaard uitgeschakeld. Zie [Functiebeheer](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview) voor meer informatie over het inschakelen van deze functie en andere functies.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> De functie voor aangepast sorteren is standaard uitgeschakeld. Zie [Functiebeheer](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview) voor meer informatie over het inschakelen van deze functie en andere functies.

@@ -2,9 +2,11 @@
 title: Assortimenten instellen
 description: In dit artikel wordt beschreven wat een assortiment is en hoe u assortimenten instelt in Dynamics 365 Commerce.
 author: jblucher
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 31ec0079584832537431872fea61a07b58d31648cdac0f29a469bc977009622f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32edf6534716236706847556a14b951f18ef40ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774480"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969821"
 ---
 # <a name="set-up-assortments"></a>Assortimenten instellen
 
@@ -31,7 +33,7 @@ In dit artikel wordt beschreven wat een assortiment is en hoe u assortimenten in
 
 Een assortiment is een verzameling van verwante producten die u aan toewijst aan een kanaal voor handel, zoals een fysieke winkel of een online winkel. U kunt assortimenten gebruiken om de producten te identificeren die beschikbaar zijn in elke winkel. Een assortiment kan productcategorieën bevatten. Alle producten die aan een speciale categorie zijn toegewezen behoren daarom tot het assortiment. Een assortiment kan ook specifieke producten en bepaalde varianten van producten bevatten. Door een assortiment in te stellen, kunt u duizenden producten tegelijkertijd toewijzen aan uw kanalen, in de combinatie die uw winkels vereisen. U kunt zo veel productassortimenten als nodig instellen. Elk product kan in één of meer assortimenten opgenomen worden en elk assortiment kan aan één of meer kanalen toegewezen worden. U definieert bijvoorbeeld één assortiment met een basisset van producten. Alle winkels ontvangen dit assortiment. Vervolgens definieert u een ander assortiment dat alleen grote sportuitrustingen bevat. Alleen uw grotere winkels ontvangen dit assortiment. Het volgende diagram laat zien hoe producten kunnen worden toegewezen aan assortimenten en hoe deze assortimenten kunnen worden toegewezen aan kanalen.
 
-![Relaties productassortiment.](./media/assortments_relationship.gif)
+![Relaties productassortiment](./media/assortments_relationship.gif)
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -52,6 +54,3 @@ Na het voltooien van de vereisten kunt u een assortiment maken en dit aan uw kan
 2. Selecteer de kanalen of de groepen kanalen op hoog niveau waarop het assortiment van toepassing is.
 3. Productcategorieën, individuele producten of productvarianten toevoegen aan het assortiment. U kunt alle producten in een specifieke categorie plaatsen of u kunt geselecteerde producten uitsluiten van een categorie die is opgenomen in het assortiment.
 4. Assortiment publiceren. Wanneer u een assortiment publiceert, wordt de assortimentsplanner automatisch uitgevoerd. Dit proces genereert de lijst van producten. Na het uitvoeren van dit proces, worden deze producten beschikbaar voor de kanalen waar het productassortiment aan is toegewezen. Als wijzigingen zijn aangebracht aan een gepubliceerd assortiment of aan de kanalen waar het assortiment aan is toegewezen, moet het assortiment worden bijgewerkt. Om het assortiment bij te werken wanneer wijzigingen worden aangebracht, kunt u de assortimentsplanner uitvoeren als batchtaak.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Contante denominaties voor het verkooppunt (POS) configureren
 description: Contante denominaties voor bankbiljetten en munten kunnen worden gedefinieerd in de backoffice voor gebruik in het POS door kassiers, verkoopmedewerkers en managers in de winkel.
 author: jblucher
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreCashDeclarationTable
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0ff4eb5bc7c5e2c0192a5349219301b26e479ac6be978eb05063b68f348b4e55
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3a5f9a73bdee50e3e7c68125144c3b43305efa8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743453"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961554"
 ---
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>Contante denominaties voor het verkooppunt (POS) configureren
 
@@ -33,7 +35,7 @@ Contante denominaties voor bankbiljetten en munten kunnen worden gedefinieerd in
 
 De denominaties worden per winkel ingesteld via **Instellen** \> **Contantdeclaratie** van de pagina voor winkeleigenschappen.
 
-![De optie Contantdeclaratie.](./media/image1-denomination.png)
+![De optie Contantdeclaratie](./media/image1-denomination.png)
 
 Denominaties definiëren:
 
@@ -41,7 +43,7 @@ Denominaties definiëren:
 1. Geef het type op (munt of biljet).
 1. Geef het bedrag op (waarde).
 
-![De pagina Denominaties contantdeclaratie.](./media/image2-denomination.png)
+![De pagina Denominaties contantdeclaratie](./media/image2-denomination.png)
 
 ## <a name="configure-the-functionality-profile"></a>Het functionaliteitsprofiel configureren
 
@@ -49,6 +51,3 @@ Bij de betaling met contant geld in POS kan de gebruiker kan de denominaties geb
 
 - **Groter of gelijk aan het verschuldigde bedrag**: standaard worden door het POS alleen denominaties weergegeven die groter zijn dan het verschuldigde bedrag, wat one-touch offertes mogelijk maakt. Als het verschuldigde bedrag bijvoorbeeld $7,50 is, geeft het POS de volgende denominaties weer: $10, $20, $50 en $100. Als een van deze bedragen wordt aangeraakt, wordt de verkoop automatisch aangeboden voor dat bedrag. De biljetten van $1 en $5 worden niet weergegeven omdat deze bedragen kleiner dan het te betalen bedrag.
 - **Alle denominaties**: selecteer deze optie om altijd alle denominaties in POS weer te geven, ongeacht het betaalde bedrag. Dit betekent dat de gebruiker een combinatie van biljetten kan gebruiken voor het verschuldigde bedrag. Als het verschuldigde bedrag bijvoorbeeld $25,00 is, kan de gebruiker $20 en $5 kiezen voor het voltooien van de verkoop.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

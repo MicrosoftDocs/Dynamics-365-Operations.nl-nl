@@ -2,23 +2,27 @@
 title: Conformiteitsoverzicht
 description: Dit onderwerp is een overzicht van de compliancerichtlijnen die bij Microsoft Dynamics 365 Commerce worden geleverd zodat u ervoor kunt zorgen dat de sites van uw bedrijf compliant zijn.
 author: BrianShook
+manager: annbe
 ms.date: 01/08/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3d90bbce5949468966d995710cdad69484aa90c9
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 45d96317f5b6ef956647bfc511e80533e2c34bca
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983287"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411376"
 ---
 # <a name="compliance-overview"></a>Conformiteitsoverzicht
 
@@ -42,6 +46,3 @@ Bezoek het [Microsoft Vertrouwenscentrum](https://www.microsoft.com/trust-center
 [Een pagina met het privacybeleid toevoegen](add-privacy-page.md)
 
 [Gebruikers-id's vervangen die zijn gekoppeld aan wijzigingen in bijgehouden inhoud](replace-IDs-tracked-changes.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

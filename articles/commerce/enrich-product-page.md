@@ -2,30 +2,36 @@
 title: Een productpagina verrijken
 description: In dit onderwerp wordt beschreven hoe u een productpagina verrijkt in Microsoft Dynamics 365 Commerce.
 author: psimolin
+manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0c663498a65832c68b80ea7166da34914ceefb8c70d6a598f3fa648b199ef156
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 12508a80c440894ec6e2073b5e550846480e6c45
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777591"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411301"
 ---
 # <a name="enrich-a-product-page"></a>Een productpagina verrijken
+
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u een productpagina verrijkt in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Overzicht
 
 Standaard gebruikt uw site een algemene pagina om productgegevens weer te geven. Deze pagina bevat de basisgegevens over het product en de besturingselementen die nodig zijn om het product te verkopen. U kunt echter de informatie van de Commerce Scale Unit aanvullen met extra afbeeldingen of tekst voor een specifiek product. Dit proces wordt het verrijken van de productpagina genoemd.
 
@@ -67,8 +73,3 @@ Volg deze stappen om een productpagina te verrijken.
 [Een landingspagina voor een categorie verrijken](enrich-category-page.md)
 
 [Toegankelijkheid van pagina-inhoud controleren](verify-accessibility.md)
-
-[Dynamische e-commercepagina's maken op basis van URL-parameters](create-dynamic-pages.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

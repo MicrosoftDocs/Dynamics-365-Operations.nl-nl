@@ -2,9 +2,11 @@
 title: Formuleontwerper in elektronische rapportage (ER)
 description: Dit onderwerp biedt algemene informatie over het gebruik van de formuleontwerper in ER (Elektronische rapportage).
 author: NickSelin
+manager: kfend
 ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eec63fb1782c5afed0320eb841b6bfc92af31a691731ef6bac5d00ed442c0dcd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d96fe041fd0ffb292909c1e724068efebe0184b9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777399"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682644"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formuleontwerper in elektronische rapportage (ER)
 
@@ -58,11 +60,11 @@ De ER-formuleontwerper kan worden gebruikt om een expressie te definiëren voor 
 
 De volgende afbeelding toont het ontwerp van een expressie van dit type. In dit voorbeeld rondt de expressie de waarde van het veld **Intrastat.AmountMST** in de Intrastat-tabel af op twee decimalen en wordt de afgeronde waarde geretourneerd.
 
-[![De expressie Gegevensbinding.](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)
+[![De expressie Gegevensbinding](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)
 
 De volgende afbeelding toont hoe een expressie van dit type kan worden gebruikt. In dit voorbeeld wordt het resultaat van de ontworpen expressie ingevoerd in het onderdeel **Transaction.InvoicedAmount** van het gegevensmodel **Belastingrapportagemodel**.
 
-[![De expressie Gegevensbinding wordt gebruikt.](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)
+[![De expressie Gegevensbinding wordt gebruikt](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)
 
 Tijdens runtime rondt de ontworpen formule, `ROUND (Intrastat.AmountMST, 2)`, de waarde van het veld **AmountMST** voor elke record in de Intrastat-tabel af op twee decimalen. Vervolgens wordt de afgeronde waarde ingevoerd in het onderdeel **Transaction.InvoicedAmount** van het gegevensmodel **Btw-aangifte**.
 
@@ -72,17 +74,17 @@ De ER-formuleontwerper kan worden gebruikt om een expressie te definiëren voor 
 
 De volgende afbeelding toont het ontwerp van een transformatie van dit type. In dit voorbeeld kapt de transformatie **TrimmedString** inkomende gegevens van het gegevenstype *Tekenreeks* af door spaties vooraan en achteraan te verwijderen. Vervolgens wordt de afgekapte waarde geretourneerd.
 
-[![Transformatie.](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)
+[![Transformatie](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)
 
 De volgende afbeelding toont hoe een transformatie van dit type kan worden gebruikt. In dit voorbeeld wordt met verschillende opmaakonderdelen tijdens runtime tekst als uitvoer verzonden naar het genererende elektronische document. Alle opmaakonderdelen verwijzen bij naam naar de transformatie **TrimmedString**.
 
-[![Transformatie wordt gebruikt.](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)
+[![Transformatie wordt gebruikt](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)
 
 Wanneer indelingsonderdelen, zoals het onderdeel **partyName** in de vorige illustratie, verwijzen naar de transformatie **TrimmedString**, verzendt de transformatie tekst als uitvoer naar het genererende elektronische document. Deze tekst bevat geen spaties vooraan en achteraan.
 
 Als u een opmaak hebt die afzonderlijk moet worden toegepast, kan deze opmaak als een afzonderlijke expressie van een binding van een specifieke indelingscomponent worden geïntroduceerd. De volgende afbeelding toont een expressie van dit type. In dit voorbeeld is het indelingsonderdeel **partyType** gebonden aan de gegevensbron via een expressie waarmee inkomende gegevens vanuit het veld **Model.Company.RegistrationType** in de gegevensbron worden geconverteerd naar tekst in hoofdletters. Vervolgens wordt die tekst als uitvoer verzonden naar het elektronische document.
 
-[![Opmaak toepassen op een afzonderlijke component.](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
+[![Opmaak toepassen op een afzonderlijke component](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
 ## <a name="process-flow-control"></a><a name="Validation"></a>Processtroombeheer
 
@@ -98,7 +100,7 @@ Elke regel van het processtroombeheer is ontworpen als afzonderlijke validatie. 
 - Als de lijst met transacties leeg is, stopt de validatie het uitvoeringsproces en retourneert **FALSE**.
 - De validatie retourneert een foutbericht dat de tekst van label SYS70894 bevat in de voorkeurstaal van de gebruiker.
 
-[![Validatie.](./media/picture-validation.jpg)](./media/picture-validation.jpg)
+[![Validatie](./media/picture-validation.jpg)](./media/picture-validation.jpg)
 
 De ER-formuleontwerper kan ook worden gebruikt om een bestandsnaam te genereren voor een genererend elektronisch document en om het proces voor het maken van bestanden te beheren. De volgende afbeelding toont het ontwerp van een processtroombesturingselement van dit type. Hier volgt een uitleg van de configuratie in dit voorbeeld:
 
@@ -107,7 +109,7 @@ De ER-formuleontwerper kan ook worden gebruikt om een bestandsnaam te genereren 
 - Een expressie retourneert een bestandsnaam voor genererende elektronische documenten door de bestandsnaam en bestandsextensie aaneen te schakelen. Voor de tweede en alle volgende batches bevat de bestandsnaam de batch-id als achtervoegsel.
 - Een expressie activeert (door **TRUE** te retourneren) het maken van een bestand voor batches die ten minste één record bevatten.
 
-[![Processtroombeheer.](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
+[![Processtroombeheer](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
 ## <a name="document-content-control"></a><a name="Enabled"></a>Besturingselement voor documentinhoud
 
@@ -121,18 +123,18 @@ De volgende afbeelding toont expressies van dit type. (Versie 11.12.11 van de **
 - Het onderdeel **PaymentNotes** wordt gebruikt om de tekst van betalingsnotities te genereren.
 - Het onderdeel **DelimitedSequence** genereert door komma's gescheiden factuurnummers die worden gebruikt om de huidige kredietoverdracht te vereffenen.
 
-[![De onderdelen PaymentNotes en DelimitedSequence.](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
+[![De onderdelen PaymentNotes en DelimitedSequence](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
 
 > [!NOTE]
 > De onderdelen **PaymentNotes** en **DelimitedSequence** worden aangeduid met een vraagteken. Een vraagteken geeft aan dat het gebruik van een onderdeel voorwaardelijk is. In dit geval wordt het gebruik van de onderdelen gebaseerd op de volgende criteria:
 >
 > - Door de expressie `@.PaymentsNotes <> ""`, die is gedefinieerd voor het onderdeel **PaymentNotes**, kan door **TRUE** te retourneren het XML-element **Ustrd** worden gevuld met de tekst van betalingsnotities, als deze tekst niet leeg is voor de huidige kredietoverdracht.
 >
->    [![Expressie voor het onderdeel PaymentNotes.](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
+>    [![Expressie voor het onderdeel PaymentNotes](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
 >
 > - Door de expressie `@.PaymentsNotes = ""`, die is gedefinieerd voor het onderdeel **DelimitedSequence**, kan door **TRUE** te retourneren het XML-element **Ustrd** worden gevuld met een door komma's gescheiden lijst met de factuurnummers die worden gebruikt om de huidige kredietoverdracht te vereffenen, als de tekst van betalingsnotities voor die kredietoverdracht leeg is.
 >
->    [![Expressie voor het onderdeel DelimitedSequence.](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
+>    [![Expressie voor het onderdeel DelimitedSequence](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
 > 
 > Op basis van deze instelling bevat het gegenereerde bericht voor alle debiteurenbetalingen het XML-element **Ustrd**, de tekst van de betalingsnotities of, wanneer deze tekst leeg is, een door komma's gescheiden lijst met factuurnummers die worden gebruikt om de betaling te vereffenen.
 
@@ -140,7 +142,7 @@ De volgende afbeelding toont expressies van dit type. (Versie 11.12.11 van de **
 
 Selecteer op de pagina **Formuleontwerper** de optie **Testen** om te valideren hoe de geconfigureerde formule werkt.
 
-[![Test selecteren om een formule te valideren.](./media/ER-FormulaTest-Start.png)](./media/ER-FormulaTest-Start.png)
+[![Test selecteren om een formule te valideren](./media/ER-FormulaTest-Start.png)](./media/ER-FormulaTest-Start.png)
 
 Wanneer de waarden van formuleargumenten vereist zijn, kunt u het dialoogvenster **Expressie testen** openen via de pagina **Formuleontwerper**. In de meeste gevallen moeten deze argumenten handmatig worden gedefinieerd, omdat de geconfigureerde bindingen niet worden uitgevoerd tijdens de ontwerpperiode. Op het tabblad **Testresultaat** op de pagina **Formuleontwerper** wordt het resultaat van de uitvoering van de geconfigureerde formule weergegeven.
 
@@ -148,20 +150,17 @@ In het volgende voorbeeld ziet u hoe u de formule kunt testen die is geconfigure
 
 Wanneer u deze formule test, kunt u het dialoogvenster **Expressie testen** gebruiken om de waarde van de Intrastat-basisproductcode voor het testen op te geven.
 
-[![De Intrastat-basisproductcode voor het testen opgeven.](./media/ER-FormulaTest-Start-EnterArguments.png)](./media/ER-FormulaTest-Start-EnterArguments.png)
+[![De Intrastat-basisproductcode voor het testen opgeven](./media/ER-FormulaTest-Start-EnterArguments.png)](./media/ER-FormulaTest-Start-EnterArguments.png)
 
 Nadat u de Intrastat-basisproductcode hebt opgegeven en **OK** hebt geselecteerd, wordt op het tabblad **Testresultaat** op de pagina **Formuleontwerper** het resultaat van de uitvoering van de geconfigureerde formule weergegeven. U kunt vervolgens beoordelen of het resultaat acceptabel is. Als het resultaat niet acceptabel is, kunt u de formule bijwerken en opnieuw testen.
 
-[![Testresultaat.](./media/ER-FormulaTest-Result.png)](./media/ER-FormulaTest-Result.png)
+[![Testresultaat](./media/ER-FormulaTest-Result.png)](./media/ER-FormulaTest-Result.png)
 
 Sommige formules kunnen niet worden getest tijdens de ontwerpperiode. Een formule kan bijvoorbeeld een resultaat opleveren van een gegevenstype dat niet kan worden weergegeven op het tabblad **Testresultaat**. In dit geval wordt een foutbericht weergegeven waarin wordt gesteld dat de formule niet kan worden getest.
 
-[![Foutmelding.](./media/ER-FormulaTest-Error.png)](./media/ER-FormulaTest-Error.png)
+[![Foutbericht](./media/ER-FormulaTest-Error.png)](./media/ER-FormulaTest-Error.png)
 
-## <a name="additional-resources"></a>Aanvullende bronnen
+## <a name="additional-resources"></a>Aanvullende resources
 
 - [Overzicht van elektronische rapportage](general-electronic-reporting.md)
 - [Formuletaal in Elektronische rapportage](er-formula-language.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,24 +1,27 @@
 ---
 title: ISO20022-bestanden importeren
 description: In dit onderwerp wordt beschreven hoe u betalingsbestanden met de indelingen ISO 20022 camt.054 en pain.002 importeert in Microsoft Dynamics 365 Finance.
-author: anasyash
+author: neserovleo
+manager: AnnBe
 ms.date: 07/27/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymMode, CustBankAccounts, VendPaymMode, VendBankAccounts
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Italy, Latvia, Lithuania, Norway, Poland, Spain, Sweden, Switzerland, United Kingdom
-ms.author: anasyash
+ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 19b9e90ac42c496931c2fc936a25ee3b1b16ce58
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: b809ba8d92772d8f3f416d4854d4af322e6f954a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592600"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408322"
 ---
 # <a name="import-iso20022-files"></a>ISO20022-bestanden importeren
 
@@ -114,7 +117,7 @@ Wanneer u een indelingsconfiguratie van LCS importeert, kunt u de hele configura
  - **Pain.002**: deze indeling wordt samen met de betalingsmodeltoewijzing naar bestemming ISO20022 gebruikt om het bestand pain.002 te importeren in het journaal met leverancierbetalingsoverboekingen
  - **Camt.054**: deze indeling wordt samen met de betalingsmodeltoewijzing naar bestemming ISO20022 gebruikt om het bestand camt.054 te importeren in het journaal met leverancierbetalingsoverboekingen Dezelfde indelingsconfiguratie wordt gebruikt voor de importfunctionaliteit voor klantbetalingen, maar de andere toewijzing wordt gebruikt in de configuratie van betalingsmodeltoewijzing voor bestemming ISO20022.
 
-Raadpleeg voor meer informatie over de elektronische aangifte [Overzicht van elektronische rapportage](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
+Raadpleeg voor meer informatie over de elektronische aangifte [Overzicht van elektronische rapportage](../../dev-itpro/analytics/general-electronic-reporting.md).
 
 ## <a name="additional-resources"></a>Aanvullende resources
 - [Leveranciersbetalingen maken en exporteren met de ISO20022-betalingsindeling](./tasks/create-export-vendor-payments-iso20022-payment-format.md)
@@ -126,6 +129,3 @@ Raadpleeg voor meer informatie over de elektronische aangifte [Overzicht van ele
 - [Betalingsmethode voor ISO20022-kredietoverdracht instellen](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
 - [Betalingsmethode voor ISO20022 automatische afschrijving instellen](./tasks/setup-method-payment-iso20022-direct-debit.md)
 - [Leveranciers en bankrekeningen voor leveranciers voor ISO20022-kredietoverdrachten instellen](./tasks/set-up-vendor-iso20022-credit-transfers.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

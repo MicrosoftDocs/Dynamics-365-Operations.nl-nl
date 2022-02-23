@@ -61,6 +61,3 @@ De volgende gegevens zijn beschikbaar bij procescontrole.
 |Sollicitatiehistorie | Sollicitatie (msdyn_JobapplicatonId)<br></br>Status (msdyn_status) <br></br>Reden van status (msdyn_statusreason) <br></br>Reden voor afwijzing (msdyn_rejectionreason) |
 | Vacaturehistorie | Vacature (msdyn_JobopeningId) <br></br>Status (msdyn_jobopeningstatus) <br></br>Reden van status (msdyn_jobopeningstatusreason) |
 | Kandidaathistorie | Kandidaat (msdyn_CandidateId) |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

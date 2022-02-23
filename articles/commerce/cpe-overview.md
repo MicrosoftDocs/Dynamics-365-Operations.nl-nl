@@ -2,23 +2,27 @@
 title: Overzicht van de evaluatieomgeving voor Dynamics 365 Commerce
 description: Dit onderwerp biedt een overzicht van de evaluatieomgeving van Microsoft Dynamics 365 Commerce.
 author: v-chgri
+manager: annbe
 ms.date: 07/16/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
-ms.reviewer: josaw
+ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: josaw
+ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 35cd06070ff73af1c97706bb1cdb67045715d458
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 25c0574e8d4502bcb846fba0ddf913d81eded87b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982634"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411271"
 ---
 # <a name="dynamics-365-commerce-evaluation-environment-overview"></a>Overzicht van de evaluatieomgeving voor Dynamics 365 Commerce
 
@@ -28,6 +32,8 @@ Dit onderwerp biedt een overzicht van de evaluatieomgeving van Microsoft Dynamic
 
 > [!NOTE]
 > Commerce-evaluatieomgevingen zijn doorgaans niet beschikbaar en worden aan partners en klanten op aanvraag ter beschikking gesteld. Neem contact op met uw Microsoft-partner voor meer informatie.
+
+## <a name="overview"></a>Overzicht
 
 De evaluatieomgeving van Commerce is een optionele end-to-end omgeving van Dynamics 365 Commerce waarmee partners en potentiële klanten het Commerce-product kunnen uitproberen.
 
@@ -58,6 +64,3 @@ Zie [Een evaluatieomgeving van Commerce inrichten](provisioning-guide.md) om de 
 [Optionele functies voor een Dynamics 365 Commerce-evaluatieomgeving configureren](cpe-optional-features.md)
 
 [Veelgestelde vragen over evaluatieomgeving voor Dynamics 365 Commerce](cpe-faq.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

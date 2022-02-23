@@ -1,32 +1,31 @@
 ---
 title: Overzicht van gegevensimport- en exporttaken
-description: Gebruik de werkruimte Gegevensbeheer om taken voor het importeren en exporteren van gegevens te maken en te beheren.
-author: peakerbl
-ms.date: 10/21/2021
-ms.topic: overview
+description: Gebruik het werkgebied Gegevensbeheer om taken voor het importeren en exporteren van gegevens te maken en te beheren.
+author: Sunil-Garg
+manager: AnnBe
+ms.date: 11/02/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e63daad6f206500bfa21c28635648c717f5bbdde
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3af49d9355f37e0016f491ed37050f75bbc65d72
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071080"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684055"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Overzicht van Gegevensimport- en exporttaken
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
-
-Gebruik de werkruimte **Gegevensbeheer** om taken voor het importeren en exporteren van gegevens te maken en te beheren. Standaard wordt met het proces voor gegevensimport en -export een faseringstabel gemaakt voor elke entiteit in de doeldatabase. Met faseringstabellen kunt u gegevens verifiëren, opschonen of converteren voordat u deze verplaatst.
+Gebruik het werkgebied **Gegevensbeheer** om taken voor het importeren en exporteren van gegevens te maken en te beheren. Standaard wordt met het proces voor gegevensimport en -export een faseringstabel gemaakt voor elke entiteit in de doeldatabase. Met faseringstabellen kunt u gegevens verifiëren, opschonen of converteren voordat u deze verplaatst.
 
 > [!NOTE]
 > Dit onderwerp gaat ervanuit dat u vertrouwd bent met [gegevensentiteiten](data-entities.md).
@@ -71,9 +70,6 @@ Wanneer u een entiteit selecteert, moet u de indeling selecteren van de gegevens
 | XML                    | \-N.v.t.                                      | XML-element XML-kenmerk |
 | Gescheiden, vaste breedte | Komma, puntkomma, tab, verticale streep, dubbele punt | \-N.v.t.                     |
 
-> [!NOTE]
-> Het is belangrijk dat u de juiste waarde selecteert voor **Rijscheidingsteken**, **Kolomscheidingsteken** en **Tekstkwalificatie** als de optie **Bestandsindeling** is ingesteld op **Gescheiden**. Zorg ervoor dat uw gegevens niet het teken bevatten dat als scheidingsteken of kwalificatie wordt gebruikt , omdat dit kan leiden tot fouten tijdens het importeren en exporteren.
-
 ### <a name="sequence-the-entities"></a>De volgorde van de entiteiten bepalen
 Entiteiten kunnen worden geordend in een gegevenssjabloon of in import- en exporttaken. Wanneer u een taak met meer dan één gegevensentiteit uitvoert, moet u ervoor zorgen dat de gegevensentiteiten correct zijn geordend. U stelt voornamelijk een volgorde voor entiteiten in als er functionele afhankelijkheden tussen entiteiten bestaan. Als entiteiten geen functionele afhankelijkheden hebben, kunnen ze worden gepland voor parallel importeren of exporteren.
 
@@ -112,10 +108,10 @@ Er zijn twee toewijzingsweergaven: **Visualisering van toewijzing**, de standaar
 
 U kunt een toewijzing op de pagina genereren door **Brontoewijzing maken** te selecteren. Een gegenereerde toewijzing gedraagt zich als een automatische toewijzing. Daarom moet u niet-toegewezen velden handmatig toewijzen.
 
-![Toewijzing van gegevens.](./media/dixf-map.png)
+![Toewijzing van gegevens](./media/dixf-map.png)
 
 ## <a name="verify-the-security-for-your-import-or-export-job"></a>De beveiliging voor uw import- of exporttaak controleren
-De toegang tot de werkruimte **Gegevensbeheer** kan worden beperkt zodat niet-beheerders alleen toegang tot bepaalde gegevenstaken krijgen. Toegang tot een gegevenstaak houdt volledige toegang tot de uitvoeringshistorie van die taak en de faseringstabellen in. Daarom moet u ervoor zorgen dat passende toegangsbeperkingen zijn ingesteld wanneer u een gegevenstaak maakt.
+De toegang tot het werkgebied **Gegevensbeheer** kan worden beperkt zodat niet-beheerders alleen toegang tot bepaalde gegevenstaken krijgen. Toegang tot een gegevenstaak houdt volledige toegang tot de uitvoeringshistorie van die taak en de faseringstabellen in. Daarom moet u ervoor zorgen dat passende toegangsbeperkingen zijn ingesteld wanneer u een gegevenstaak maakt.
 
 ### <a name="secure-a-job-by-roles-and-users"></a>Een taak beveiligen op rollen en gebruikers
 Gebruik het menu **Toepasselijke rollen** om de taak tot een of meer beveiligingsrollen te beperken. Alleen gebruikers in deze rollen hebben toegang tot de taak.
@@ -138,7 +134,7 @@ U kunt één taak tegelijk uitvoeren door de knop **Importeren** of **Exporteren
 ## <a name="validate-that-the-job-ran-as-expected"></a>Controleren of de taak naar verwachting is uitgevoerd
 De taakhistorie is beschikbaar voor het oplossen van problemen bij import- en exporttaken. Historische taakuitvoeringen worden ingedeeld op tijd.
 
-![Taakhistoriebereiken.](./media/dixf-job-history.md.png)
+![Taakhistoriebereiken](./media/dixf-job-history.md.png)
 
 Voor elke taakuitvoering worden de volgende gegevens weergegeven:
 
@@ -167,7 +163,19 @@ Voor een snellere import van gegevens kan een parallelle verwerking van een best
     - Voer in het veld **Drempel voor records importeren** het drempelaantal in voor records importeren. Hiermee wordt het aantal records bepaald dat door een thread moet worden verwerkt. Als een bestand 10.000 records bevat, wordt met een recordaantal van 2500 met het taakaantal van 4 bedoeld dat elke thread 2500 records verwerkt.
     - Voer in het veld **Taakaantal importeren** het aantal importtaken in. Dit mag niet hoger zijn dan het maximum aantal batchthreads dat is toegewezen voor batchverwerking **Systeembeheer \> Serverconfiguratie**.
 
-## <a name="job-history-clean-up"></a>Taakhistorie opschonen 
+## <a name="clean-up-the-staging-tables"></a>De faseringstabellen opschonen
+Vanaf Platform update 29 is deze functionaliteit afgeschaft. Deze wordt vervangen door een nieuwe versie van de functie historie opschonen die hieronder wordt toegelicht.
+
+U kunt faseringstabellen opschonen met de functie **Fasering opschonen** in het werkgebied **Gegevensbeheer**. U kunt de volgende opties gebruiken om op te geven welke records moeten worden verwijderd uit welke faseringstabel:
+
+- **Entiteit** : als alleen een entiteit is opgegeven, worden alle records uit de faseringstabel van die entiteit verwijderd. Selecteer deze optie om alle gegevens voor de entiteit in alle gegevensprojecten en alle taken te verwijderen.
+- **Taak-ID**: als alleen een taak-ID is opgegeven, worden alle records voor alle entiteiten in de geselecteerde taak verwijderd uit de betreffende faseringstabellen.
+- **Gegevensprojecten**: als alleen een gegevensproject is geselecteerd, worden alle records voor alle entiteiten en in alle taken voor het geselecteerde gegevensproject verwijderd.
+
+U kunt de opties ook combineren om verder te beperken welke recordset wordt verwijderd.
+
+## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>Taakgeschiedenis opschonen (beschikbaar in Platform update 29 en hoger)
+
 De functie historie opschonen in gegevensbeheer moet worden gebruikt om een periodieke opschoning van de uitvoeringshistorie te plannen. Deze functionaliteit vervangt de vorige functie voor het opschonen van faseringstabellen, die nu is afgeschaft. De volgende tabellen worden in dit proces opgeschoond.
 
 -   Alle faseringstabellen
@@ -196,17 +204,23 @@ Bij het plannen van het opschoningsproces moeten de volgende parameters worden o
 
 -   **Aantal uren om de taak uit te voeren** – Afhankelijk van de hoeveelheid historie die moet worden opgeschoond, kan de totale uitvoeringstijd voor de opschoningstaak variëren van enkele minuten tot enkele uren. Deze parameter moet worden ingesteld op het aantal uren dat de taak wordt uitgevoerd. Nadat de opschoontaak gedurende het opgegeven aantal uren is uitgevoerd, wordt de taak afgesloten en wordt de opschoonbewerking hervat de volgende keer wanneer de taak wordt uitgevoerd op basis van het terugkeerschema.
 
-    Een maximale uitvoeringstijd kan worden opgegeven door een maximum in te stellen voor het aantal uren dat de taak met deze instelling moet worden uitgevoerd. De opschoningslogica doorloopt één taakuitvoering-id tegelijk in een chronologische volgorde, waarbij de oudste het eerst wordt opgeschoond. Er worden geen nieuwe uitvoering-id's voor opschonen meer opgehaald wanneer de resterende uitvoeringsduur binnen de laatste 10% van de opgegeven duur is. In sommige gevallen wordt verwacht dat de opschoningstaak langer duurt dan de opgegeven maximale tijd. Dit is grotendeels afhankelijk van het aantal records dat moet worden verwijderd voor de huidige uitvoerings-id die is gestart voordat de drempel van 10% is bereikt. De opschoning die is gestart, moet worden voltooid om de gegevensintegriteit te waarborgen, wat betekent dat opschonen ondanks overschrijding van de opgegeven limiet wordt voortgezet. Wanneer dit voltooid is, worden geen nieuwe uitvoerings-id's opgehaald en wordt de opschoningstaak voltooid. De resterende uitvoeringshistorie die door gebrek aan uitvoeringstijd niet is opgeschoond, wordt voor de volgende ingeplande opschoning opgehaald. De standaard- en minimumwaarde voor deze instelling is 2 uur.
+    Een maximale uitvoeringstijd kan worden opgegeven door een maximum in te stellen voor het aantal uren dat de taak met deze instelling moet worden uitgevoerd. De opschoningslogica doorloopt één taakuitvoering-ID tegelijk in een chronologische volgorde, waarbij de oudste het eerst wordt opgeschoond. Er worden geen nieuwe uitvoering-id's voor opschonen meer opgehaald wanneer de resterende uitvoeringsduur binnen de laatste 10% van de opgegeven duur is. In sommige gevallen wordt verwacht dat de opschoningstaak langer duurt dan de opgegeven maximale tijd. Dit is grotendeels afhankelijk van het aantal records dat moet worden verwijderd voor de huidige uitvoerings-id die is gestart voordat de drempel van 10% is bereikt. De opschoning die is gestart, moet worden voltooid om de gegevensintegriteit te waarborgen, wat betekent dat opschonen ondanks overschrijding van de opgegeven limiet wordt voortgezet. Wanneer dit voltooid is, worden geen nieuwe uitvoerings-id's opgehaald en wordt de opschoningstaak voltooid. De resterende uitvoeringshistorie die door gebrek aan uitvoeringstijd niet is opgeschoond, wordt voor de volgende ingeplande opschoning opgehaald. De standaard- en minimumwaarde voor deze instelling is 2 uur.
 
 -   **Terugkerende batch** – De opschoningstaak kan worden uitgevoerd als een eenmalige, handmatige uitvoering, of kan worden gepland voor terugkerende batchuitvoering. De batch kan worden gepland met de instellingen bij **Op de achtergrond uitvoeren**, de standaardinstelling voor batchuitvoering.
 
 > [!NOTE]
 > Als records in de faseringstabellen niet volledig worden opgeschoond, controleert u of de opschoontaak gepland staat voor uitvoering in het terugkeerpatroon. Zoals hierboven beschreven, worden bij een opschoningsbewerking slechts zoveel uitvoerings-id's opgeschoond als mogelijk is binnen het opgegeven maximale aantal uren. Om door te gaan met het opschonen van resterende faseringsrecords, moet de taak worden gepland voor periodieke uitvoering.
 
-## <a name="job-history-clean-up-and-archival"></a>Taakgeschiedenis opschonen en archiveren 
+## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>Taakgeschiedenis opschonen en archiveren (beschikbaar voor preview in Platformupdate 39 of versie 10.0.15)
 De functie voor het opschonen en archiveren van de taakgeschiedenis vervangt de vorige versies van de functionaliteit voor opschonen. In deze sectie worden deze nieuwe mogelijkheden uitgelegd.
 
-Een van de belangrijkste wijzigingen in de functionaliteit voor opschonen is het gebruik van de systeembatchtaak voor het opschonen van de geschiedenis. Met het gebruik van de systeembatchtaak kunnen apps voor financiële en bedrijfsactiviteiten de batchtaak voor opschonen automatisch plannen en uitvoeren zodra het systeem gereed is. Het is niet meer nodig om de batchtaak handmatig te plannen. In deze standaardmodus wordt de batchtaak elk uur uitgevoerd vanaf middernacht en wordt de uitvoeringsgeschiedenis voor de meest recente 7 dagen bewaard. De verwijderde geschiedenis wordt gearchiveerd voor toekomstige ophaalacties. Vanaf versie 10.0.20 is deze functie altijd beschikbaar.
+Een van de belangrijkste wijzigingen in de functionaliteit voor opschonen is het gebruik van de systeembatchtaak voor het opschonen van de geschiedenis. Met het gebruik van de systeembatchtaak kunnen Finance and Operations-apps de batchtaak voor opschonen automatisch plannen en uitvoeren zodra het systeem gereed is. Het is niet meer nodig om de batchtaak handmatig te plannen. In deze standaardmodus wordt de batchtaak elk uur uitgevoerd vanaf 12 middernacht en wordt de uitvoeringsgeschiedenis voor de meest recente 7 dagen bewaard. De verwijderde geschiedenis wordt gearchiveerd voor toekomstige ophaalacties.
+
+> [!NOTE]
+> Omdat deze functionaliteit in preview is, zal de systeembatchtaak geen uitvoeringsgeschiedenis verwijderen totdat deze is ingeschakeld via de flight DMFEnableExecutionHistoryCleanupSystemJob. Wanneer de functie algemeen beschikbaar is in een toekomstige versie, is deze flight niet vereist en wordt de systeembatchtaak gestart voor opschonen en archiveren nadat het systeem is gereed, op basis van het gedefinieerde schema zoals hierboven wordt uitgelegd. 
+
+> [!NOTE]
+> In een toekomstige versie worden de eerdere versies van de functionaliteit voor opschonen verwijderd uit Finance and Operations-apps.
 
 De tweede wijziging in het opschoonproces is het archiveren van de verwijderde uitvoeringsgeschiedenis. Met de opschoontaak worden de verwijderde records gearchiveerd naar de blob-opslag die DIXF gebruikt voor normale integraties. Het gearchiveerde bestand heeft de DIXF-pakketindeling en is 7 dagen beschikbaar in de blob. Gedurende deze tijd kan het worden gedownload. De standaardduur van 7 dagen voor het gearchiveerde bestand kan worden ingesteld op maximaal 90 dagen in de parameters.
 
@@ -229,6 +243,3 @@ Als u de gearchiveerde uitvoeringsgeschiedenis wilt downloaden, gaat u naar de w
 -   DMFSTAGINGLOGDETAILS
 -   DMFSTAGINGVALIDATIONLOG
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

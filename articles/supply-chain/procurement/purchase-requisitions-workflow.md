@@ -1,10 +1,12 @@
 ---
 title: Werkstroom voor opdrachten tot inkoop
 description: Het workflowproces verplaatst opdrachten tot inkoop door het beoordelingsproces, vanaf de beginstatus Concept tot de laatste status Goedgekeurd. Wanneer een opdracht tot inkoop ter controle wordt ingediend, wordt het workflowproces gestart. Nadat een opdracht tot inkoop is goedgekeurd, kan een inkooporder worden gegenereerd voor de regels van de opdracht tot inkoop en kunnen ze bij de leverancier worden ingediend om te worden voltooid.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqAuthorization, WorkflowParticipantExpenToken
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2234
 ms.assetid: dad3ba5a-2892-45d2-874a-300896f59b34
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 66305688d1613b9882d3778a81886728df934931
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f6069e2ab93e1ce4299669850bdae37e82b17428
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569452"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021975"
 ---
 # <a name="purchase-requisition-workflow"></a>Werkstroom voor opdrachten tot inkoop
 
@@ -51,7 +53,7 @@ De volgende afbeelding geeft aan hoe een opdracht tot inkoop als één document 
 -   **Inkoper** – De gebruiker die een aanschaffingscontrole uitvoert en het document kan goedkeuren.
 -   **De manager van de aanvrager** – De gebruiker die een managercontrole uitvoert en het document kan goedkeuren.
 
-![Werkstroom controleproces voor opdrachten tot inkoop.](./media/purchreqworkflowoverview_submission.gif)  
+![Werkstroom controleproces voor opdrachten tot inkoop](./media/purchreqworkflowoverview_submission.gif)  
 In dit voorbeeld omvat het workflowproces voor de opdracht tot inkoop de volgende stappen:
 
 1.  De voorbereider dienst een opdracht tot inkoop ter controle in.
@@ -74,7 +76,7 @@ De volgende rollen zijn in het workflowproces opgenomen voor dit voorbeeld:
 -   **Afdelingsmanager** – De gebruiker die een uitgavencontrole uitvoert en het document kan goedkeuren.
 -   **Groepsmanager** – De gebruiker die een handtekeningsbevoegdheidscontrole uitvoert en het document kan goedkeuren.
 
-![Workflowcontroleproces voor regel van opdracht tot inkoop.](./media/purchreqlineworkflowoverview.gif)  
+![Workflowcontroleproces voor regel van opdracht tot inkoop](./media/purchreqlineworkflowoverview.gif)  
 In dit voorbeeld omvat het workflowproces voor de regels in de opdracht tot inkoop de volgende stappen:
 
 1.  De voorbereider dienst een opdracht tot inkoop ter controle in. Elke regel wordt naar de controleur gerouteerd die in het workflowproces is geconfigureerd om deze te ontvangen.
@@ -105,7 +107,8 @@ U kunt de uitgavencontroleurs op de pagina **Controleurs van uitgaven voor opdra
 
 Als u een van de uitgavencontroleurs wilt gebruiken die u in een workflow instelt, moet u de optie **Type deelnemer** instellen op **Uitgavendeelnemers** in de eigenschappen **Toewijzing** voor het relevante workflowelement.
 
-## <a name="additional-resources"></a>Aanvullende resources
+<a name="additional-resources"></a>Aanvullende resources
+--------
 
 [Een bestelaanvraag voor verbruik maken](tasks/create-requisition-consumption.md)
 
@@ -117,6 +120,3 @@ Als u een van de uitgavencontroleurs wilt gebruiken die u in een workflow instel
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

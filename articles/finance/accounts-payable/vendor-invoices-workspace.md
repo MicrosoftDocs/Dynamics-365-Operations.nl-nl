@@ -1,27 +1,30 @@
 ---
-title: Werkgebied voor automatisering van leveranciersfacturen
+title: Werkgebied voor leveranciersfactuurregistratie
 description: In dit onderwerp wordt uitgelegd hoe u het werkgebied instelt dat is gerelateerd aan leveranciersfacturen en waar de gegevens worden weergegeven die beschikbaar zijn via Microsoft Power BI.
 author: abruer
+manager: AnnBe
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: dde77a19fae9af8f40af8b14259a29db80f4a80cf8be75233a463d6fec2dac46
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a4ba676d9b6df69cf0a91862bcc4d2837b7cb69e
+ms.sourcegitcommit: 0efa93f11847a2b75d13cd0a49e716c76130ec44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722714"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4442122"
 ---
-# <a name="vendor-invoice-automation-workspace"></a>Werkgebied voor automatisering van leveranciersfacturen
+# <a name="vendor-invoice-entry-workspace"></a>Werkgebied voor leveranciersfactuurregistratie
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -30,11 +33,11 @@ In dit onderwerp wordt uitgelegd hoe u het werkgebied instelt dat is gerelateerd
 
 ## <a name="overview"></a>Overzicht
 
-In het werkgebied **Automatisering van leveranciersfacturen** wordt informatie weergegeven die is gerelateerd aan de verwerking van leveranciersfacturen. Dit werkgebied bevat de weergave **Mijn werk** en de pagina **Analyse - alle bedrijven**. In de weergave **Mijn werk** vindt u overzichtstegels, rasters met leverancierstransacties en gerelateerde leveranciersgegevens. Op de pagina **Analyse - alle bedrijven** worden de mogelijkheden van Power BI gebruikt om visualisaties te tonen die zijn gerelateerd aan leveranciersfacturen.
+In het werkgebied **Leveranciersfactuurregistratie** wordt informatie weergegeven die is gerelateerd aan de verwerking van leveranciersfacturen. Dit werkgebied bevat de weergave **Mijn werk** en de pagina **Analyse - alle bedrijven**. In de weergave **Mijn werk** vindt u overzichtstegels, rasters met leverancierstransacties en gerelateerde leveranciersgegevens. Op de pagina **Analyse - alle bedrijven** worden de mogelijkheden van Power BI gebruikt om visualisaties te tonen die zijn gerelateerd aan leveranciersfacturen.
 
 ## <a name="set-up-the-workspace-to-show-power-bi-content"></a>Het werkgebied zo instellen dat Power BI-inhoud wordt weergegeven
 
-U moet deze instelling voltooien voordat gegevens in Power BI-visualisaties in het werkgebied **Automatisering van leveranciersfacturen** kunnen worden weergegeven.
+U moet deze instelling voltooien voordat gegevens in Power BI-visualisaties in het werkgebied **Leveranciersfactuurregistratie** kunnen worden weergegeven.
 
 1. Filter in het werkgebied **Functiebeheer** de lijst om de functie **Automatisering van leveranciersfacturen** te vinden.
 3. Selecteer **Nu inschakelen**.
@@ -54,7 +57,7 @@ Als u de informatie wilt weergeven die in het werkgebied wordt weergegeven, moet
 
 ### <a name="company-selection"></a>Bedrijfsselectie
 
-Wanneer de functie **Automatisering van leveranciersfacturen** is ingeschakeld, wordt het veld **Bedrijf** boven aan het werkgebied weergegeven. De selectie in het veld **Bedrijf** is van invloed op alle informatie die in het werkgebied wordt weergegeven. In de weergave wordt standaard informatie weergegeven over het bedrijf waarbij u zich hebt aangemeld. Door een ander bedrijf te selecteren in het veld **Bedrijf** kunt u informatie over dat bedrijf weergeven in het werkgebied. U kunt vervolgens een tegel in het werkgebied selecteren om naar de gerelateerde pagina in het geselecteerde bedrijf te gaan.
+Wanneer de functie **Leveranciersfacturen automatiseren** is ingeschakeld, wordt het veld **Bedrijf** boven aan het werkgebied weergegeven. De selectie in het veld **Bedrijf** is van invloed op alle informatie die in het werkgebied wordt weergegeven. In de weergave wordt standaard informatie weergegeven over het bedrijf waarbij u zich hebt aangemeld. Door een ander bedrijf te selecteren in het veld **Bedrijf** kunt u informatie over dat bedrijf weergeven in het werkgebied. U kunt vervolgens een tegel in het werkgebied selecteren om naar de gerelateerde pagina in het geselecteerde bedrijf te gaan.
 
 ### <a name="summary-tiles"></a>Overzichtstegels
 
@@ -114,6 +117,3 @@ In de volgende tabel ziet u de visualisaties die op elke rapportpagina beschikba
 | Facturen die niet kunnen worden geïmporteerd | <ul><li>Facturen die niet kunnen worden geïmporteerd</li><li>Facturen die niet kunnen worden geïmporteerd per bedrijf</li></ul> |
 | Redenen voor automatiseringsfout | <ul><li>Mislukte facturen</li><li>Mislukte facturen per bedrijf</li><li>Mislukte facturen per leveranciersgroep</li></ul> |
 | Werkstroomstatus                | <ul><li>Facturen in werkstroom</li><li>Werkstroomexemplaren leveranciersfacturen</li><li>Toewijzing per fiatteur</li><li>Leveranciersfacturenwerkstroom per bedrijf</li><li>Gemiddeld aantal dagen in workflow op fiatteur</li></ul> |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

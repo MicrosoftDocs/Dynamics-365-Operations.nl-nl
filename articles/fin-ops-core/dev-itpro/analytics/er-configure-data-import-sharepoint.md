@@ -2,9 +2,11 @@
 title: Gegevensimport uit SharePoint configureren
 description: In dit onderwerp wordt uitgelegd hoe u gegevens importeert uit Microsoft SharePoint.
 author: NickSelin
-ms.date: 01/05/2022
+manager: AnnBe
+ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9ac328e660c7a8a3b4a4f34a650062a0fa974771
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 1f7754a3e69238ab1760b3f7eb8f5e2c792b451b
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074761"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680897"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Gegevensimport uit SharePoint configureren
 
@@ -47,13 +49,13 @@ Speel de taakbegeleidingen **ER-gegevens importeren uit een Microsoft Excel-best
 - ER-modelconfiguratie, **1099 Payments model**
 - ER-indelingsconfiguratie, **Indeling voor het importeren van transacties van leveranciers vanuit Excel**
 
-![ER-configuraties voor het importeren van gegevens uit SharePoint.](./media/GERImportFromSharePoint-01-Configurations.PNG)
+![ER-configuraties voor het importeren van gegevens uit SharePoint](./media/GERImportFromSharePoint-01-Configurations.PNG)
 
 #### <a name="sample-of-the-incoming-file-for-data-import"></a>Voorbeeld van het inkomende bestand voor het importeren van gegevens
 
 - Excel-bestand **1099import-data.xlsx**, met leverancierstransacties die moeten worden geïmporteerd.
 
-![Voorbeeld Excel-bestand voor importeren vanuit SharePoint.](./media/GERImportFromSharePoint-02-Excel.PNG)
+![Voorbeeld Excel-bestand voor importeren vanuit SharePoint](./media/GERImportFromSharePoint-02-Excel.PNG)
     
 > [!NOTE]
 > De indeling voor het importeren van leverancierstransacties is geselecteerd als de standaardmodeltoewijzing. Dus als u een modeltoewijzing uitvoert van het **1099 Payments model** en die modeltoewijzing van het type **Tot bestemming** is, voert de modeltoewijzing deze indeling uit om gegevens uit externe bestanden te importeren. Vervolgens worden deze gegevens gebruikt om toepassingstabellen bij te werken.
@@ -68,7 +70,7 @@ Als u elektronische rapportbestanden op een SharePoint-locatie wilt opslaan, moe
      - Bron voor importeren van bestanden (hoofd) (voorbeeld weergegeven in onderstaande schermafbeelding)
      - Bron voor importeren van bestanden (alternatief)
 
-    ![Bron voor importeren van bestanden (hoofd).](./media/GERImportFromSharePoint-04-SharePointFolder1.png)
+    ![Bron voor importeren van bestanden (hoofd)](./media/GERImportFromSharePoint-04-SharePointFolder1.png)
 
 4. (Optioneel) Maak de volgende mappen waarin de bestanden na het importeren kunnen worden opgeslagen. 
 
@@ -87,7 +89,7 @@ Als u elektronische rapportbestanden op een SharePoint-locatie wilt opslaan, moe
 |SP-waarschuwing             |Bestand                |SharePoint     |Map voor bestanden met waarschuwing|
 |SP-fout             |Bestand                |SharePoint     |Map voor bestanden met een fout|
 
-![SharePoint-instelling - nieuw documenttype.](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)
+![SharePoint-instelling - nieuw documenttype](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)
 
 ## <a name="configure-er-sources-for-the-er-format"></a>ER-bronnen voor de ER-indeling configureren
 1. Klik op **Organisatiebeheer** \> **Elektronische rapportage** \> **Bron van elektronische rapportage**.
@@ -96,7 +98,7 @@ Als u elektronische rapportbestanden op een SharePoint-locatie wilt opslaan, moe
 4. Wijzig **Bestanden sorteren vóór het importeren** in **Niet sorteren** wanneer verschillende bestanden moeten worden geïmporteerd en als de volgorde van importeren niet belangrijk is
 5. Selecteer alle SharePoint-mappen die u eerder hebt gemaakt.
 
-    [![Broninstelling voor ER-bestanden.](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)
+    [![Broninstelling voor ER-bestanden](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)
 
 > [!NOTE]
 > - De ER-*bron* wordt voor elk toepassingsbedrijf afzonderlijk gedefinieerd. ER-*configuraties* worden echter gedeeld door bedrijven.
@@ -114,7 +116,7 @@ U kunt ook de pagina **Bestandsstatus voor de bronnen** openen door **Organisati
 ## <a name="import-data-from-excel-files-that-are-in-a-sharepoint-folder"></a>Gegevens importeren uit Excel-bestanden die zich in een SharePoint-map bevinden
 1. Upload in SharePoint het Microsoft Excel-bestand **1099import-data.xlsx** dat leverancierstransacties bevat, naar de SharePoint-map **Bron voor importeren van bestanden (hoofd)** die u eerder hebt gemaakt.
 
-    [![SharePoint-inhoud: Microsoft Excel -bestand voor het importeren.](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
+    [![SharePoint-inhoud: Microsoft Excel -bestand voor het importeren](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
 
 2. Selecteer op de pagina **Bestandsstatus voor de bronnen** de optie **Vernieuwen** om de pagina te vernieuwen. Het Excel-bestand dat is geüpload naar SharePoint werd op deze pagina weergegeven met de status **Gereed**. De volgende statussen worden momenteel ondersteund:
 
@@ -124,19 +126,19 @@ U kunt ook de pagina **Bestandsstatus voor de bronnen** openen door **Organisati
     - **Mislukt**: automatisch toegewezen door een ER-rapport wanneer het bestand importeren met fouten of uitzonderingen is voltooid.
     - **In wachtstand**: handmatig toegewezen door de gebruiker op deze pagina. Deze status betekent dat het bestand niet op dit moment wordt geïmporteerd. Deze status kan worden gebruikt voor het uitstellen van het importeren van sommige bestanden.
 
-    [![Vernieuwd ER-bestand vermeldt pagina voor de geselecteerde bronnen.](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
+    [![Vernieuwd ER-bestand vermeldt pagina voor de geselecteerde bronnen](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
 
 ## <a name="import-data-from-sharepoint-files"></a>Gegevens importeren vanuit SharePoint-bestanden
 1. Open de ER-configuratiestructuur, selecteer het **1099 Payment model** en vouw de lijst met ER-modelcomponenten uit.
 2. Selecteer de naam van de modeltoewijzing om de lijst van modeltoewijzingen van de geselecteerde ER-modelconfiguratie te openen.
 
-    [![Configuratiepagina.](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)
+    [![Configuratiepagina](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)
 
 3. Selecteer **Uitvoeren** om de geselecteerde modeltoewijzing uit te voeren. Omdat u bestandsbronnen voor de ER-indeling hebt geconfigureerd, kunt u de instelling van het **Bronbestand** indien nodig wijzigen. Als u de instelling van deze optie houdt, worden de .xslx-bestanden geïmporteerd van de geconfigureerde bronnen (de mappen van SharePoint in dit voorbeeld).
 
     In dit voorbeeld importeert u slechts één bestand. Als er echter meerdere bestanden zijn, worden ze voor importeren geselecteerd in de volgorde waarin ze zijn toegevoegd aan de SharePoint-map. Elke uitvoering van een ER-indeling importeert één geselecteerd bestand.
 
-    [![Importeren vanuit SharePoint en ER-modeltoewijzing uitvoeren.](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)
+    [![Importeren vanuit SharePoint en ER-modeltoewijzing uitvoeren](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)
 
 4. De modeltoewijzing kan [onbeheerd](#limitations) worden uitgevoerd in de batchmodus. In dit geval wordt elke keer dat een batch deze ER-indeling uitvoert, één bestand geïmporteerd van de geconfigureerde bestandsbronnen.
 
@@ -144,11 +146,11 @@ U kunt ook de pagina **Bestandsstatus voor de bronnen** openen door **Organisati
 
 5. Voer de boekstuk-id, zoals **V-00001**, in en selecteer vervolgens **OK**.
 
-    [![ER-modeltoewijzing uitvoeren.](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)
+    [![ER-modeltoewijzing uitvoeren](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)
 
 6. Selecteer op de pagina **Bestandsstatus voor de bronnen** de optie **Vernieuwen** om de pagina te vernieuwen.
 
-    [![Statussen van ER-bestand voor bronnenpagina.](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)
+    [![Statussen van ER-bestand voor bronnenpagina](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)
 
 7. Controleer de lijst met bestanden in het gedeelte **Bestanden**. De sectie **Logboeken van bronnen voor importindeling** bieden de historie van de Excel-bestandsimport. Omdat dit bestand met succes geïmporteerd is, wordt het gemarkeerd als **Verwijderd** in de SharePoint-map.
 8. Controleer de SharePoint-map **Bron voor importeren van bestanden (hoofd)**. De Excel-bestanden die met succes zijn geïmporteerd, zijn uit deze map verwijderd.
@@ -157,12 +159,12 @@ U kunt ook de pagina **Bestandsstatus voor de bronnen** openen door **Organisati
 
     De leverancierstransacties die zijn geïmporteerd vanuit de Excel-bestanden in SharePoint voor boekstuk **V-00001**, worden op de pagina weergegeven.
 
-    [![pagina met 1099-leverancierstransacties.](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)
+    [![pagina met 1099-leverancierstransacties](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)
 
 ## <a name="prepare-an-excel-file-for-import"></a>Een Excel-bestand voor import voorbereiden
 1. Open het Excel-bestand dat u eerder hebt gebruikt. Voeg in rij 3, kolom 1 een leverancierscode toe die niet in de toepassing bestaat. Voeg extra onware leveranciersgegevens toe aan de rij.
 
-    [![Voorbeeldbestand in Microsoft Excel voor het importeren uit SharePoint.](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
+    [![Voorbeeld Microsoft Excel-bestand voor het importeren uit SharePoint](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
 
 2. Upload het bijgewerkte Excel-bestand met leverancierstransacties naar de SharePoint-map **Bron voor importeren van bestanden (hoofd)**.
 3. Open de ER-configuratiestructuur, selecteer het **1099 Payment model** en vouw de lijst met ER-modelcomponenten uit.
@@ -170,7 +172,7 @@ U kunt ook de pagina **Bestandsstatus voor de bronnen** openen door **Organisati
 5. Selecteer **Ontwerper**.
 6. Op het tabblad **Validaties** moet u de actie na validatie wijzigen voor de validatieregel die is geconfigureerd om te bepalen of de leveranciersrekening die wordt geïmporteerd, in de toepassing bestaat. Wijzig de waarde van het veld **Actie na validatie** in **Uitvoering stoppen**, sla uw wijzigingen op en sluit de pagina.
 
-    [![pagina ER-modeltoewijzing ontwerpen.](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)
+    [![pagina ER-modeltoewijzing ontwerpen](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)
 
 7. Sla uw wijzigingen op en sluit de ontwerper van ER-modeltoewijzingen.
 8. Selecteer **Uitvoeren** om de gewijzigde ER-modeltoewijzing uit te voeren.
@@ -178,11 +180,11 @@ U kunt ook de pagina **Bestandsstatus voor de bronnen** openen door **Organisati
 
     Het infologboek bevat een melding dat een bestand in de SharePoint-map een onjuiste leveranciersrekening bevat en niet kan worden geïmporteerd.
 
-    [![Voltooide uitvoering van ER-modeltoewijzing.](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)
+    [![Voltooide uitvoering van ER-modeltoewijzing](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)
 
 10. Selecteer op de pagina **Bestandsstatus voor de bronnen** de optie **Vernieuwen** en bekijk de lijst met bestanden in het gedeelte **Bestanden**.
 
-    [![ER-bestand vermeldt pagina voor de geselecteerde bronnen.](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)
+    [![ER-bestand vermeldt pagina voor de geselecteerde bronnen](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)
 
    De sectie **Logboeken van bronnen voor importindeling** geeft aan dat het importproces is mislukt en dat het bestand nog in de SharePoint-map voor foutbestanden staat (het selectievakje **Is verwijderd** is niet ingeschakeld). Als u dit bestand in SharePoint corrigeert door de juiste leverancierscode toe te voegen en het vervolgens verplaatst naar de SharePoint-map Bron voor importeren van bestanden (hoofd), kunt u het bestand opnieuw importeren.
 
@@ -192,11 +194,11 @@ U kunt ook de pagina **Bestandsstatus voor de bronnen** openen door **Organisati
 
 ## <a name=""></a><a name="limitations">Beperkingen</a>
 
-In versies van Dynamics 365 Finance vóór versie 10.0.25 biedt de gebruikersinterface van het ER-raamwerk geen mogelijkheid om een nieuwe batchtaak te starten waarmee een modeltoewijzing wordt uitgevoerd in de onbeheerde modus voor gegevensimport. In plaats daarvan moet u nieuwe logica ontwikkelen, zodat de geconfigureerde ER-modeltoewijzing kan worden aangeroepen vanuit de gebruikersinterface van de toepassing om gegevens uit inkomende bestanden te importeren. Voor het ontwikkelen van deze logica zijn wat technische aanpassingen vereist. 
+Het ER-raamwerk biedt geen mogelijkheid om een nieuwe batchtaak te starten waarmee een modeltoewijzing wordt uitgevoerd in de onbeheerde modus voor gegevensimport. Hiervoor moet u nieuwe logica ontwikkelen, zodat de geconfigureerde modeltoewijzing kan worden aangeroepen vanuit de gebruikersinterface van de toepassing om gegevens uit inkomende bestanden te importeren. Daarom zijn technische aanpassingen vereist. 
 
-Zie voor meer informatie over de relevante ER-API de sectie [Code voor het uitvoeren van een indelingstoewijzing voor gegevensimport](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) in [Wijzigingen in API voor ER-raamwerk in toepassingsupdate 7.3](er-apis-app73.md). Bekijk de code in de klasse `BankImport_RU` van het model `Application Suite` om te zien hoe uw aangepaste logica kan worden geïmplementeerd. Met de klasse `BankImport_RU` wordt de klasse `RunBaseBatch` uitgebreid. Bekijk in het bijzonder de methode `runER()` waarin het object `ERIModelMappingDestinationRun` wordt gemaakt als de uitvoerder van een ER-modeltoewijzing.
+Voor meer informatie over de relevante ER-API raadpleegt u de sectie [Code voor het uitvoeren van een indelingstoewijzing voor gegevensimport](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) in het onderwerp [Wijzigingen in API voor ER-raamwerk in Application update 7.3](er-apis-app73.md).
 
-In Finance versie 10.0.25 en later biedt de gebruikersinterface van het ER-raamwerk wel de mogelijkheid om een nieuwe batchtaak te starten waarmee een modeltoewijzing wordt uitgevoerd in de onbeheerde modus voor gegevensimport. Zie [Gegevens importeren in batchmodus vanuit handmatig geselecteerde bestanden](er-configure-data-import-batch.md) voor meer informatie over dit proces.
+Bekijk de code in de klasse `BankImport_RU` van het model `Application Suite` om te zien hoe uw aangepaste logica kan worden geïmplementeerd. Deze klasse breidt de klasse `RunBaseBatch` uit. Bekijk in het bijzonder de methode `runER()` waarin het object `ERIModelMappingDestinationRun` wordt gemaakt als de uitvoerder van een ER-modeltoewijzing.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
@@ -204,10 +206,3 @@ In Finance versie 10.0.25 en later biedt de gebruikersinterface van het ER-raamw
 
 [Wijzigingen in API voor ER-raamwerk in Application update 7.3](er-apis-app73.md)
 
-[Wijzigingen in API voor ER-raamwerk in Application update 10.0.23](er-apis-app10-0-23.md)
-
-[Wijzigingen in API voor ER-raamwerk in Application update 10.0.25](er-apis-app10-0-25.md)
-
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

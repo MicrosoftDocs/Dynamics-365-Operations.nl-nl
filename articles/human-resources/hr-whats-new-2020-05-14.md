@@ -1,42 +1,43 @@
 ---
 title: Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (14 mei 2020)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 14 mei 2020.
-author: andreabichsel
+author: Darinkramer
+manager: AnnBe
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cb4693f3c856e7abcc39cbd658183d01ec98a066
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 76ca497cc7fabf737c8a0ee71363f22fd4201ea8
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063742"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528492"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (14 mei 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Human Resources. Wijzigingen die van toepassing zijn op buildnummer 8.1.3244. De getallen tussen haakjes in sommige koppen verwijzen ter referentie naar ondersteuningsnummers in Lifecycle Services (LCS).
 
 ## <a name="platform-changes"></a>Platformwijzigingen
 
-In de release van deze week zijn platformwijzigingen opgenomen. Zie voor meer informatie [Platformupdates voor versie 10.0.10 van apps voor financiële en bedrijfsactiviteiten (mei 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Deze versie bevat correcties en wijzigingen in opgeslagen weergaven.
+In de release van deze week zijn platformwijzigingen opgenomen. Zie [Platformupdates voor versie 10.0.10 van Finance and Operations-apps (mei 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34) voor meer informatie. Deze versie bevat correcties en wijzigingen in opgeslagen weergaven.
  
-## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Zorg ervoor dat Dataverse-selectielijsten consistent zijn met Verlof-enums (436343)
+## <a name="ensure-common-data-service-picklists-are-consistent-with-leave-enums-436343"></a>Zorg ervoor dat Common Data Service-selectielijsten consistent zijn met Verlof-enums (436343)
 
-Dataverse-selectielijsten zijn nu consistent met Verlof-enums.
+Common Data Service-selectielijsten zijn nu consistent met Verlof-enums.
 
 ## <a name="allow-users-to-configure-leave-request-workflow-based-on-the-request-amount-300044"></a>Gebruikers toestaan om werkstroom voor verlofverzoek te configureren op basis van het aanvraagbedrag (300044)
 
@@ -74,7 +75,7 @@ Deze wijziging corrigeert een fout als er aan een verlofplan twee verloftypen zi
 
 Met deze wijziging wordt de Aan de slag-banner verborgen voor gebruikers die geen systeembeheerder of beheerder voor gegevensbeheer zijn. 
 
-## <a name="the-dataverse-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>De Dataverse-entiteit Adres medewerker werkt verschillend wat betreft datum en tijd voor ingangsdatums in Human resources (425071)
+## <a name="the-common-data-service-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>De Common Data Service-entiteit Adres medewerker werkt verschillend wat betreft datum en tijd voor ingangsdatums in Human resources (425071)
 
 Door deze wijziging worden de adresgegevens in bepaalde scenario's uitgelijnd op basis van de datums van het adres.
 
@@ -115,8 +116,6 @@ U kunt een verloftype voor transporteren opgeven voor verlofsaldi waarvoor trans
 ## <a name="see-also"></a>Zie ook
 
 [Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)</br>
-[Overzicht van releasewave 2 van Dynamics 365 Human Resources](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Overzicht van releasewave 2 van Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Het updateproces](hr-admin-setup-update-process.md)</br>
 [Functies beheren](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

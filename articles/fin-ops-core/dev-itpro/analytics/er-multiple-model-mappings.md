@@ -2,9 +2,11 @@
 title: Verschillende afgeleide toewijzingen voor één modelbasis beheren
 description: In dit onderwerp wordt uitgelegd hoe u verschillende afgeleide toewijzingen beheert die voor één modelbasis zijn geconfigureerd.
 author: NickSelin
+manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERModelMappingTable
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 10363371713bd5a882b41900249e7061afc577ba6473fdb3356a822c8e48f8f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3116fe98f499637b3bc7f243ed1b5094853caa7e
+ms.sourcegitcommit: 7cfe8931dd454e811a691f5118a4ecae7ba4b478
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743282"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "4826104"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Verschillende afgeleide toewijzingen voor één modelbasis beheren
 
@@ -55,7 +57,7 @@ Als u de ER-standaardconfiguraties wilt toevoegen aan uw huidige Finance-exempla
 2. Selecteer op de pagina **Lokalisatieconfiguraties** in de sectie **Configuraties** de tegel **Rapportconfiguraties**.
 3. Vouw op de pagina **Configuraties** in de configuratiestructuur in het linkerdeelvenster **Factuurmodel** uit.
 
-    ![Geïmporteerde configuraties op de pagina Configuraties controleren.](./media/er-multiple-model-mappings-image1.png)
+    ![Geïmporteerde configuraties op de pagina Configuraties controleren](./media/er-multiple-model-mappings-image1.png)
 
 4. Bekijk de indeling **Vrije-tekstfactuur (Excel)**:
 
@@ -66,7 +68,7 @@ Als u de ER-standaardconfiguraties wilt toevoegen aan uw huidige Finance-exempla
     
        De huidige ER-indeling wordt geconfigureerd voor het gebruik van de basisdefinitie **InvoiceCustomer** van **Factuurmodel**. Wanneer deze indeling wordt uitgevoerd en de gegevensbron **Model** wordt aangeroepen, wordt de modeltoewijzing die is geconfigureerd voor de basisdefinitie **InvoiceCustomer** gebruikt om toegang te krijgen tot toepassingsgegevens en het gegevensmodel in te vullen.
 
-        ![De modelgegevensbron op de pagina Indelingsontwerper controleren.](./media/er-multiple-model-mappings-image2.png)
+        ![De modelgegevensbron op de pagina Indelingsontwerper controleren](./media/er-multiple-model-mappings-image2.png)
 
     6. Sluit de pagina **Indelingsontwerper**.
 
@@ -79,7 +81,7 @@ Als u de ER-standaardconfiguraties wilt toevoegen aan uw huidige Finance-exempla
         + De modeltoewijzing **Klantfactuur** wordt geconfigureerd voor de basisdefinitie **InvoiceCustomer** van **Factuurmodel**. Daarom kan bij het uitvoeren van de ER-indeling **Vrije-tekstfactuur (Excel)** de modeltoewijzing **Klantfactuur** van deze ER-configuratie worden gekozen om toegang te krijgen tot toepassingsgegevens en het gegevensmodel in te vullen.
         + De modeltoewijzing **Projectfactuur** wordt geconfigureerd voor de basisdefinitie **InvoiceProject** van **Factuurmodel**. Daarom kan bij het uitvoeren van de ER-indeling **Projectfactuur (Excel)** de modeltoewijzing **Projectfactuur** van deze ER-configuratie worden gekozen om toegang te krijgen tot toepassingsgegevens en het gegevensmodel in te vullen.
 
-        ![Factuurmodeltoewijzing op de pagina Model voor gegevensbrontoewijzing.](./media/er-multiple-model-mappings-image3.png)
+        ![Factuurmodeltoewijzing op de pagina Model voor gegevensbrontoewijzing](./media/er-multiple-model-mappings-image3.png)
 
     4. Sluit de pagina **Model aan gegevensbrontoewijzing**.
     5. Selecteer op het sneltabblad **Versies** de optie **Verwijderen** om alle versies van deze ER-configuratie die later zijn dan versie 240.175 te verwijderen.
@@ -90,7 +92,7 @@ Als u de ER-standaardconfiguraties wilt toevoegen aan uw huidige Finance-exempla
     2. Selecteer **Ontwerper** in het actievenster.
     3. U ziet op de pagina **Model voor gegevensbrontoewijzing** dat de huidige configuratie van ER-modeltoewijzing de **InvoiceProject**-modeltoewijzing bevat en dat deze modeltoewijzing is geconfigureerd voor de basisdefinitie **InvoiceProject** van **Factuurmodel**. Wanneer de ER-indeling **Projectfactuur (Excel)** wordt uitgevoerd, selecteert u de modeltoewijzing **InvoiceProject** van deze ER-configuratie om toegang te krijgen tot toepassingsgegevens en het gegevensmodel in te vullen.
 
-        ![Projectfactuurmodeltoewijzing op de pagina Model voor gegevensbrontoewijzing.](./media/er-multiple-model-mappings-image4.png)
+        ![Projectfactuurmodeltoewijzing op de pagina Model voor gegevensbrontoewijzing](./media/er-multiple-model-mappings-image4.png)
 
     4. Sluit de pagina **Model aan gegevensbrontoewijzing**.
     5. Selecteer op het sneltabblad **Versies** de optie **Verwijderen** om alle versies van deze ER-configuratie die later zijn dan versie 226.35 te verwijderen.
@@ -115,7 +117,7 @@ In deze sectie wordt uitgelegd hoe u de modeltoewijzingen [aanpast](er-quick-sta
 
 7. Selecteer In het actievenster **Ontwerper** om de modeltoewijzingen van deze configuratie te controleren.
 
-    ![De factuurmodeltoewijzing op de pagina Model voor gegevensbrontoewijzing controleren.](./media/er-multiple-model-mappings-image5.png)
+    ![De factuurmodeltoewijzing op de pagina Model voor gegevensbrontoewijzing controleren](./media/er-multiple-model-mappings-image5.png)
 
     > [!TIP]
     > U kunt nu elk van de ER-modeltoewijzingscomponenten van deze ER-configuratie in de ontwerper openen om uw aangepaste logica te configureren. Zie [De modeltoewijzingsconfiguratie aanpassen](er-quick-start3-customize-report.md#customize-the-model-mapping-configuration) voor meer informatie.
@@ -126,7 +128,7 @@ U hebt nu configuraties **Factuurmodeltoewijzing** en **Factuurmodeltoewijzing L
  
 > Er bestaan meerdere modeltoewijzingen voor het gegevensmodel \<model name\> (\<root descriptor\>) in de configuraties \<configuration names separated by commas\>. Stel een van de configuraties als standaard in.
 
-![De indeling voor bewerkingen op de pagina Configuraties openen.](./media/er-multiple-model-mappings-image6.gif)
+![De indeling voor bewerkingen op de pagina Configuraties openen](./media/er-multiple-model-mappings-image6.gif)
 
 ### <a name="customize-the-project-invoice-model-mapping-rdp-configuration"></a>De projectfactuurmodeltoewijzingsconfiguratie (RDP) aanpassen
 
@@ -138,7 +140,7 @@ U hebt nu configuraties **Factuurmodeltoewijzing** en **Factuurmodeltoewijzing L
 6. Stel voor de configuratie **Toewijzing projectfactuurmodel Litware** die momenteel is geselecteerd in de configuratiestructuur de optie **Concept uitvoeren** in op **Ja**.
 7. Selecteer In het actievenster **Ontwerper** om de modeltoewijzingen van deze configuratie te controleren.
 
-    ![De aangepaste projectfactuurmodeltoewijzingen op de pagina Model voor gegevensbrontoewijzing controleren.](./media/er-multiple-model-mappings-image7.png)
+    ![De aangepaste projectfactuurmodeltoewijzingen op de pagina Model voor gegevensbrontoewijzing controleren](./media/er-multiple-model-mappings-image7.png)
 
 8. Sluit de pagina **Model aan gegevensbrontoewijzing**.
 
@@ -149,7 +151,7 @@ U hebt nu configuraties **Factuurmodeltoewijzing**, **Projectfactuurmodeltoewijz
 1. Selecteer op de pagina **Configuraties** in de configuratiestructuur in het linkerdeelvenster **Factuurmodeltoewijzing Litware**.
 2. Stel de optie **Standaard voor modeltoewijzing** in op **Ja**.
 
-    ![De modeltoewijzing instellen als de standaardmodeltoewijzing op de pagina Configuraties.](./media/er-multiple-model-mappings-image8.png)
+    ![De modeltoewijzing instellen als de standaardmodeltoewijzing op de pagina Configuraties](./media/er-multiple-model-mappings-image8.png)
 
     Door deze instelling wordt de modeltoewijzing **Klantfactuurkopie** gebruikt wanneer u de **Vrije-tekstfactuur (Excel)** uitvoert of wanneer u deze bewerkt of valideert. De modeltoewijzing **Klantfactuur** van de configuratie **Factuurmodeltoewijzing** wordt genegeerd.
 
@@ -167,7 +169,7 @@ U hebt nu configuraties **Factuurmodeltoewijzing**, **Projectfactuurmodeltoewijz
 5. Selecteer op de pagina **Model naar gegevensbrontoewijzing** de optie **Bewerken** om de pagina bewerkbaar te maken.
 6. Selecteer de modeltoewijzing **Projectfactuurkopie** en schakel vervolgens het selectievakje **Is verwijderd** in.
 
-    ![De modeltoewijzing instellen als virtueel verwijderd op de pagina Model voor gegevensbrontoewijzing.](./media/er-multiple-model-mappings-image9.png)
+    ![De modeltoewijzing instellen als virtueel verwijderd op de pagina Model voor gegevensbrontoewijzing](./media/er-multiple-model-mappings-image9.png)
 
     Door deze instelling wordt de configuratie **Factuurmodeltoewijzing Litware** behandeld alsof deze geen modeltoewijzing heeft voor de basisdefinitie **InvoiceProject**. De modeltoewijzing **InvoiceProject-kopie** die standaard is uitgegeven. De configuratie, **Toewijzing projectfactuurmodel Litware**, die deze modeltoewijzing bevat, wordt gemarkeerd als de standaardconfiguratie. Omdat deze als standaard is gemarkeerd, heeft deze een hogere prioriteit dan de modeltoewijzing **InvoiceProject** van de cconfiguratie **Projectfactuurmodeltoewijzing (RDP)**.
 
@@ -180,6 +182,3 @@ De modeltoewijzing **InvoiceProject-kopie** van de configuratie **Toewijzing pro
 - [ER-modeltoewijzing in afzonderlijke ER-configuraties beheren](./tasks/er-manage-model-mapping-configurations-july-2017.md)
 - [ER-modeltoewijzingen configureren afhankelijk van landencontext](er-country-dependent-model-mapping.md)
 - [Wijzigingen API raamwerk voor elektronische rapportage](er-apis-app10-0-11.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

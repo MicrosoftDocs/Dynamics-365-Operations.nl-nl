@@ -2,9 +2,11 @@
 title: Rijdefinitiecellen wijzigen
 description: In dit onderwerp wordt beschreven welke informatie is vereist voor elke cel in een rijdefinitie in een financieel rapport en wordt uitgelegd hoe u die gegevens invoert
 author: ShylaThompson
-ms.date: 08/11/2021
+manager: AnnBe
+ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 80df992ce14577ba78587648f8af2c35b382a589
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 92d03f08fc5e34402f10068ed770b1f724cfd3a8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344880"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685854"
 ---
 # <a name="modify-row-definition-cells"></a>Rijdefinitiecellen wijzigen
 
@@ -174,7 +176,7 @@ In de kolom **Opmaakcode** in een rijdefinitie passen de opmaakcodes **DES**, **
 
 In het volgende voorbeeld wil een gebruiker voorkomen dat de koptekst en onderstrepingstekens in de rij **Kastotaal** van haar rapport worden afgedrukt, omdat er geen activiteit in een van de rekeningen van contant geld is. Daarom voert de gebruiker in rij 220 (die, zoals de opmaakcode **---** aangeeft, een opmaakrij is) in de cel **Gerelateerde formules/rijen/eenheden** **250** in, wat de rijcode is van de bedragrij die de gebruiker wil onderdrukken.
 
-[![RelatedRowsRowDefinition.](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
+[![RelatedRowsRowDefinition](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
 ## <a name="select-the-base-row-for-a-column-calculation"></a>De basisrij voor een kolomberekening selecteren
 Bij relationele rapportage wijst u één of meer basisrijen in de rijdefinitie toe door de opmaakcode **CBR** (basisrij wijzigen) te gebruiken. Een basisrij wordt vervolgens verwezen door een berekening in de kolomdefinitie. Hieronder staan enkele typische voorbeelden van CBR-berekeningen:
@@ -399,7 +401,7 @@ De cel **Koppeling naar financiële dimensies** bevat koppelingen naar de financ
 2. Dubbelklik op een cel in de kolom **Koppeling naar financiële dimensies**.
 3. Dubbelklik in het dialoogvenster **Dimensies** op een cel onder de dimensienaam.
 4. Selecteer **Persoon of bereik** in het dialoogvenster voor de dimensie.
-5. Voer in het veld **Van** de begindimensie in of klik op ![Bladeren.](media/browse.gif "Bladeren") om te zoeken naar beschikbare dimensies. Om een bereik van dimensies in te voeren, voert u in het veld **Tot** de einddimensie in.
+5. Voer in het veld **Van** de begindimensie in of klik op ![Bladeren](media/browse.gif "Bladeren") om naar beschikbare dimensies te zoeken. Om een bereik van dimensies in te voeren, voert u in het veld **Tot** de einddimensie in.
 6. Klik op **OK** om het dialoogvenster voor de dimensie te sluiten. Het dialoogvenster **Dimensies** geeft de bijgewerkte dimensie of het bijgewerkte bereik weer.
 7. Klik op **OK** om het dialoogvenster **Dimensies** te sluiten.
 
@@ -527,6 +529,3 @@ Een set van de dimensiewaarden is een benoemde groep van dimensiewaarden. Een se
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Financiële rapportage](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

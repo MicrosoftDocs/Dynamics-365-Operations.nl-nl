@@ -1,28 +1,28 @@
 ---
 title: Overzicht van Aanschafbeleid
 description: Dit artikel biedt informatie over aanschafbeleid. Een inkoopbeleid is een verzameling regels die het opdrachtproces regelen. Een aanschafbeleid helpt beheerders hun aanschaffingsstrategie implementeren door een beleidsstructuur te maken die is afgestemd op de strategische aanschaffingsbehoeften van de organisatie.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage, PurchReqControlRule, RequisitionReplenishCatAccessPolicyRule, PurchReApprovalPolicyRule, RequisitionReplenishControlRule, PurchReqControlRFQRule
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "11614"
-- intro-internal
+ms.custom: 11614
 ms.assetid: 729a304d-0f3f-4ccb-bd5b-46ee0976c57f
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3cc150ae1a912fbfb4daf505e4240786c2f380a3
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: def842116e0c6c57d407cb4fb30a26a9e17d9a2c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982272"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022201"
 ---
 # <a name="purchasing-policies-overview"></a>Overzicht van Aanschafbeleid
 
@@ -134,7 +134,7 @@ De regels voor het maken van inkooporders en consolidatie van de vraag bepaalt d
 -   Op het tabblad **Prijstolerantie** kunt u regels definiëren om goedgekeurde opdrachten tot inkoop opnieuw door het revisieproces te routeren wanneer de prijs van een artikel in de aanschaffingscatalogus is gestegen. Stel het maximumbedrag in waarmee het nettobedrag op een regel van een opdracht tot inkoop kan stijgen tussen het tijdstip waarop de opdracht tot inkoop is goedgekeurd en het tijdstip waarop de inkooporder is gemaakt. Het nettobedrag wordt berekend met de volgende formule: (\[Hoeveelheid× (Eenheidsprijs - Korting) ÷ Prijseenheid\] + Diverse toeslagen voor de bestelling) x (100 - Kortingspercentage) ÷ 100. Regels van de inkoopopdracht die de prijstolerantie overschrijden, worden vastgehouden voor handmatige verwerking. De regels die u configureert op het tabblad **Foutverwerking** bepalen hoe de regels van de opdracht tot inkoop worden verwerkt.
 -   Op het tabblad **Foutverwerking** kunt u de verwerkingsregel configureren die wordt toegepast op een opdracht tot inkoop waarvan de validatie is mislukt bij het maken van de inkooporder vanwege een leveranciersfout of prijstolerantiefout. Een van de volgende opties selecteren:
     -   **Geen actie** - De regels van de opdracht tot inkoop blijven op de pagina **Goedgekeurde opdrachten tot inkoop vrijgeven**. De status van de regels van de opdracht tot inkoop blijft **Goedgekeurd**. De fouten moeten echter worden gecorrigeerd voordat er een inkooporder voor de regels van de opdracht tot inkoop kan worden gegenereerd.
-    -   **De opdracht tot inkoopregel annuleren** De regels van de opdracht tot inkoop worden geannuleerd. Aanvragers kunnen een nieuwe opdracht tot inkoop voor de geannuleerde regels maken als zij de regelartikelen nog steeds willen aanvragen.
+    -   **De opdracht tot inkoopregel annuleren** De regels van de opdracht tot inkoop worden geannuleerd. De aanvrager kan een nieuwe opdracht tot inkoop voor de geannuleerde regels maken als hij of zij de regelartikelen nog steeds wil aanvragen.
     -   **Een nieuwe opdracht tot inkoopregel maken** - De regels van de opdracht tot inkoop worden geannuleerd. Vervolgens worden er nieuwe opdrachten tot inkoop gegenereerd die alleen de regels van de opdracht tot inkoop bevatten waarvan de validatie is mislukt. De nieuwe opdrachten tot inkoop die worden gegenereerd, hebben de status **Concept**. Deze opdrachten tot inkoop kunnen opnieuw ter controle worden ingediend nadat de validatiefouten zijn gecorrigeerd. De voorbereider van de regels van de opdracht tot inkoop ontvangt een melding dat de regels zijn geannuleerd en dat er nieuwe opdrachten tot inkoop zijn gegenereerd voor de regels van de opdracht tot inkoop waarvan de validatie is mislukt.
 -   Op het tabblad **Handmatig inkooporders maken** kunt u de parameters definiëren die bepalen of een opdracht tot inkoop handmatig moet worden verwerkt of automatisch naar een inkooporder kan worden geconverteerd. De parameters kunnen van toepassing zijn op interne-catalogusartikelen, externe-catalogusartikelen of niet-catalogusartikelen. Een van de volgende opties selecteren:
     -   **Handmatig inkooporders maken** - Maak handmatig inkooporders voor alle opdrachten tot inkoop.
@@ -150,6 +150,3 @@ De regels voor het maken van inkooporders en consolidatie van de vraag bepaalt d
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

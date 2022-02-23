@@ -2,27 +2,27 @@
 title: Configuraties voor elektronische rapportage aanpassen om een elektronisch document te genereren
 description: In dit onderwerp wordt uitgelegd hoe u de door Microsoft geleverde ER-configuraties (elektronische rapportage) kunt aanpassen, waarmee een aangepast elektronisch document wordt gegenereerd.
 author: NickSelin
+manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
+ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b3c867af3b4d93e5a124d14e88eae60ff45987aebc639bd78806ff7a12009447
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 47bb8a2a9adab4ec963a1d0b95e783299aab3819
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769991"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683010"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Configuraties voor elektronische rapportage aanpassen om een elektronisch document te genereren
 
@@ -108,7 +108,7 @@ Als u de ER-standaardconfiguraties wilt toevoegen aan uw huidige Finance-exempla
 5. Selecteer op het sneltabblad **Versies** de versie **11.2.2**.
 6. Selecteer **Importeren** om de geselecteerde versie vanuit de algemene opslagplaats te downloaden.
 
-![Configuratie archiefpagina.](./media/er-quick-start3-import-solution1.png)
+![Configuratie archiefpagina](./media/er-quick-start3-import-solution1.png)
 
 > [!TIP]
 > Als u problemen ondervindt met de toegang tot de [globale opslagplaats](er-download-configurations-global-repo.md), kunt u in plaats daarvan [configuraties downloaden](download-electronic-reporting-configuration-lcs.md) van Microsoft Dynamics Lifecycle Services (LCS).
@@ -122,7 +122,7 @@ Als u de ER-standaardconfiguraties wilt toevoegen aan uw huidige Finance-exempla
 
 Naast de geselecteerde ER-indeling **Peppol-verkoopfactuur** zijn er andere vereiste ER-configuraties geïmporteerd. Omdat nieuwe versies van ER-configuraties steeds worden gepubliceerd naar de algemene opslagplaats en LCS zodat de bijbehorende oplossingen conform nieuwe vereisten blijven, zijn de laatste versies van de vereiste configuraties voor [gegevensmodel](general-electronic-reporting.md#data-model-and-model-mapping-components)configuratie en de bijbehorende [modeltoewijzing](general-electronic-reporting.md#data-model-and-model-mapping-components) geïmporteerd.
 
-![Pagina Configuraties.](./media/er-quick-start3-imported-solution1a.png)
+![Pagina Configuraties](./media/er-quick-start3-imported-solution1a.png)
 
 Voer de volgende stappen uit om de status te simuleren die ER-configuraties in het huidige Finance-exemplaar zouden hebben als u versie **11.2.2** van de ER-indeling **Peppol-verkoopfactuur** in het verleden hebt geïmporteerd (bijvoorbeeld op 7 augustus 2019).
 
@@ -136,7 +136,7 @@ Controleer vervolgens of de volgende configuraties beschikbaar zijn in de config
     - Versie 11 bevat versie 10 van het ER-onderdeel [gegevensmodel](general-electronic-reporting.md#data-model-and-model-mapping-components) waarmee de gegevensstructuur van het bedrijfsdomein voor facturering wordt vertegenwoordigd. Deze ER-configuratie is geïmporteerd als een voorganger van de ER-indeling **Peppol-verkoopfactuur** die voor import is geselecteerd.
     - Versie 50 bevat versie 31 van het ER-onderdeel van het gegevensmodel. Deze ER-configuratie is geïmporteerd als een voorganger van de versie van 7 augustus 2019 voor de configuratie van ER-modeltoewijzing **Toewijzing factuurmodellen**.
 
-    ![Configuratie van het ER-gegevensmodel voor factuurmodel op de pagina Configuraties.](./media/er-quick-start3-imported-solution1b1.png)
+    ![Configuratie van het ER-gegevensmodel voor factuurmodel op de pagina Configuraties](./media/er-quick-start3-imported-solution1b1.png)
 
     > [!TIP]
     > Als u versie 50 van dit gegevensmodel niet ziet, opent u de algemene opslagplaats en importeert u versie 50.19 van de ER-configuratie **Toewijzing factuurmodellen**.
@@ -145,7 +145,7 @@ Controleer vervolgens of de volgende configuraties beschikbaar zijn in de config
 
     - Versie 50.19 is geïmporteerd als de meest recente implementatie van versie 50 van de configuratie van het ER-gegevensmodel **Factuurmodel**. Het bevat twee ER-onderdelen voor [modeltoewijzing](general-electronic-reporting.md#data-model-and-model-mapping-components) waarmee wordt beschreven hoe het gegevensmodel tijdens de uitvoering wordt gevuld met toepassingsgegevens.
 
-    ![Configuratie van het ER-model voor factuurmodeltoewijzing op de pagina Configuraties.](./media/er-quick-start3-imported-solution1b2.png)
+    ![Configuratie van het ER-model voor factuurmodeltoewijzing op de pagina Configuraties](./media/er-quick-start3-imported-solution1b2.png)
 
     > [!TIP]
     > Als u versie 50.19 van deze modeltoewijzing niet ziet, opent u de algemene opslagplaats en importeert u versie 50.19 van de ER-configuratie **Toewijzing factuurmodellen**.
@@ -158,7 +158,7 @@ Controleer vervolgens of de volgende configuraties beschikbaar zijn in de config
 
     - Versie 11.2.2 bevat de ER-onderdelen voor indeling en indelingstoewijzing die zijn geconfigureerd om e-facturen te genereren in PEPPOL-indeling (Pan-European Public Procurement OnLine).
 
-    ![De configuratie van de ER-indeling van Peppol-verkoopfactuur op de pagina Configuraties.](./media/er-quick-start3-imported-solution1b3.png)
+    ![De configuratie van de ER-indeling van Peppol-verkoopfactuur op de pagina Configuraties](./media/er-quick-start3-imported-solution1b3.png)
 
 ## <a name="configure-the-accounts-receivable-parameters"></a><a name="ConfigureAR1"></a>De parameters van module Klanten definiëren
 
@@ -166,7 +166,7 @@ Controleer vervolgens of de volgende configuraties beschikbaar zijn in de config
 2. Selecteer op het tabblad **Elektronische documenten** op het sneltabblad **Elektronische rapportage** in het veld **Verkoop- en vrije-tekstfactuur** de optie **Peppol-verkoopfactuur**.
 3. Selecteer **Opslaan**.
 
-![Tabblad Elektronische documenten op de pagina Parameters van module Klanten.](./media/er-quick-start3-configure-ar1.png)
+![Tabblad Elektronische documenten op de pagina Parameters van module Klanten](./media/er-quick-start3-configure-ar1.png)
 
 ## <a name="configure-the-legal-entity-parameters"></a><a name="ConfigureLE"></a>De parameters voor rechtspersonen configureren
 
@@ -218,7 +218,7 @@ U kunt nu de ER-standaardconfiguraties gebruiken die u elektronisch hebt geïmpo
 
 5. Selecteer **Opslaan**.
 
-![Pagina Vrije-tekstfactuur.](./media/er-quick-start3-add-invoice.png)
+![Pagina Vrije-tekstfactuur](./media/er-quick-start3-add-invoice.png)
 
 Zie [Een vrije-tekstfactuur maken](../../../finance/accounts-receivable/create-free-text-invoice-new.md) voor meer informatie.
 
@@ -228,14 +228,14 @@ Zie [Een vrije-tekstfactuur maken](../../../finance/accounts-receivable/create-f
 2. Selecteer op de pagina **Vrije-tekstfactuur** in het actievenster **Boeken**.
 3. Selecteer in het dialoogvenster **Vrije-tekstfactuur boeken** **OK**.
 
-![Pagina Details van vrije-tekstfactuur.](./media/er-quick-start3-post-invoice.png)
+![Pagina Details van vrije-tekstfactuur](./media/er-quick-start3-post-invoice.png)
 
 ### <a name="send-a-posted-invoice"></a>Een geboekte factuur verzenden
 
 1. Ga naar **Klanten** \> **Facturen** \> **Alle vrije-tekstfacturen**.
 2. Selecteer op de pagina **Vrije-tekstfactuur** in het actievenster in de groep **Document** de optie **Verzenden** \> **Origineel**.
 
-    ![Voorbeeld van de oorspronkelijke factuur.](./media/er-quick-start3-send-invoice.png)
+    ![Voorbeeld van de oorspronkelijke factuur](./media/er-quick-start3-send-invoice.png)
 
 3. Sluit de pagina **Vrije-tekstfactuur**.
 
@@ -245,12 +245,12 @@ Zie [Een vrije-tekstfactuur maken](../../../finance/accounts-receivable/create-f
 2. Selecteer op de pagina **Elektronische rapportagetaken** de eerste record met de taakomschrijving **De eInvoice-XML verzenden**.
 3. Selecteer **Bestanden weergeven** om toegang te krijgen tot de lijst met gegenereerde bestanden.
 
-    ![Pagina Elektronische rapportagetaken.](./media/er-quick-start3-jobs-list.png)
+    ![Pagina Elektronische rapportagetaken](./media/er-quick-start3-jobs-list.png)
 
 4. Selecteer **Openen** om het gegenereerde XML-bestand voor elektronische facturen te downloaden.
 5. Het XML-bestand van de elektronische factuur analyseren U ziet dat het belastingschema van de klant momenteel wordt vertegenwoordigd door de XML-kenmerken **schemeID** en **schemeAgencyID**. U ziet ook dat het XML-element **cbc:CustomizationID** momenteel de volgende tekst bevat: `urn:www.cenbii.eu:transaction:biicoretrdm010:ver1.0:# urn:www.peppol.eu:bis:peppol5a:ver1.0` .
 
-    ![Voorbeeld van het gegenereerde XML-bestand van de elektronische factuur.](./media/er-quick-start3-e-invoice1.png)
+    ![Voorbeeld van het gegenereerde XML-bestand van de elektronische factuur](./media/er-quick-start3-e-invoice1.png)
 
 ## <a name="add-a-custom-database-field"></a><a name="AddCustomField"></a>Een aangepast databaseveld toevoegen
 
@@ -282,7 +282,7 @@ Voer de volgende stappen uit om de aanpassing uit te voeren.
 12. Selecteer in het berichtvak dat verschijnt **Ja** om te bevestigen dat u een nieuwe **FederalTaxID** wilt maken voor de tabel **Klanten**.
 13. Selecteer **Invoegen** om <a name="insert_custom_field"></a>het veld **FederalTaxID\_Aangepast** toe te voegen aan de huidige pagina.
 
-    ![Pagina Alle klanten.](./media/er-quick-start3-create-new-field.gif)
+    ![Pagina Alle klanten](./media/er-quick-start3-create-new-field.gif)
 
 14. Sluit de pagina **Alle klanten**.
 
@@ -312,7 +312,7 @@ Als gebruiker met de rol Functioneel consultant van elektronische rapportage kun
 
 U kunt nu de ER-gegevensmodelontwerper gebruiken om versie 50.1 van de ER-configuratie **Factuurmodel (Litware)** in de status **Concept**-[status](general-electronic-reporting.md#component-versioning) te bewerken.
 
-![Versie 50.1 van de ER-configuratie op de pagina Configuraties.](./media/er-quick-start3-added-custom-model.png)
+![Versie 50.1 van de ER-configuratie op de pagina Configuraties](./media/er-quick-start3-added-custom-model.png)
 
 #### <a name="configure-a-custom-data-model"></a>Een aangepast gegevensmodel configureren
 
@@ -328,7 +328,7 @@ U moet uw aangepaste gegevensmodel wijzigen door een nieuw veld toe te voegen om
 8. Accepteer in het veld **Itemtype** de standaardwaarde **Tekenreeks**.
 9. Selecteer **Toevoegen** en vervolgens **Opslaan**.
 
-    ![Pagina Gegevensmodel ontwerpen.](./media/er-quick-start3-add-data-model-field.png)
+    ![Pagina Gegevensmodel ontwerpen](./media/er-quick-start3-add-data-model-field.png)
 
     > [!NOTE]
     > In de velden **Label** en **Omschrijving** wordt het doel van het nieuwe veld beschreven. U kunt deze velden in meerdere talen invullen. Zie [Meertalige rapporten ontwerpen in elektronische rapportage](er-design-multilingual-reports.md) voor meer informatie.
@@ -345,7 +345,7 @@ U moet uw werk [voltooien](general-electronic-reporting.md#component-versioning)
 
 De status van versie 50.1 wordt gewijzigd van **Concept** in **Voltooid** en de versie wordt alleen-lezen. Er is een nieuwe bewerkbare versie, 50.2, toegevoegd en deze heeft de status **Concept**. U kunt deze versie gebruiken om verdere wijzigingen aan te brengen in uw aangepaste ER-gegevensmodelconfiguratie.
 
-![Versie 50.1 voltooid op de pagina Configuraties.](./media/er-quick-start3-completed-custom-model1.png)
+![Versie 50.1 voltooid op de pagina Configuraties](./media/er-quick-start3-completed-custom-model1.png)
 
 ### <a name="customize-the-model-mapping-configuration"></a>De modeltoewijzingsconfiguratie aanpassen
 
@@ -365,7 +365,7 @@ Als gebruiker met de rol Ontwikkelaar van elektronische rapportage kunt u uw aan
 
 7. Selecteer **Configuratie maken** om de nieuwe ER-configuratie toe te voegen.
 
-![Een configuratie van de aangepaste modeltoewijzing op de pagina Configuraties toevoegen.](./media/er-quick-start3-adding-custom-mapping.png)
+![Een configuratie van de aangepaste modeltoewijzing op de pagina Configuraties toevoegen](./media/er-quick-start3-adding-custom-mapping.png)
 
 #### <a name="configure-a-custom-model-mapping"></a>Een aangepaste modeltoewijzing configureren
 
@@ -386,7 +386,7 @@ U moet uw aangepaste modeltoewijzing aanpassen en opgeven hoe toepassingsgegeven
 10. Vouw in het deelvenster **Gegevensmodel** **Klantgegevens (klant)** uit en selecteer het gegevensmodelveld **FederalTaxID\_Litware**.
 11. Selecteer **Binden**.
 
-    ![Pagina voor ontwerper van modeltoewijzingen.](./media/er-quick-start3-customize-model-mapping.gif)
+    ![Pagina voor ontwerper van modeltoewijzingen](./media/er-quick-start3-customize-model-mapping.gif)
 
 12. Selecteer **Opslaan**.
 13. Sluit de pagina **Ontwerper modeltoewijzing**.
@@ -402,7 +402,7 @@ U moet uw werk [uitvoeren](general-electronic-reporting.md#component-versioning)
 
 De status van versie 50.19.1 wordt gewijzigd van **Concept** in **Voltooid** en de versie wordt alleen-lezen. Er is een nieuwe bewerkbare versie, 50.19.2, toegevoegd en deze heeft de status **Concept**. U kunt deze versie gebruiken om verdere wijzigingen aan te brengen in uw aangepaste ER-modeltoewijzingsconfiguratie.
 
-![Versie 50.19.1 voltooid op de pagina Configuraties.](./media/er-quick-start3-completed-custom-mapping1.png)
+![Versie 50.19.1 voltooid op de pagina Configuraties](./media/er-quick-start3-completed-custom-mapping1.png)
 
 > [!NOTE]
 > De ondersteunde [levenscyclus](general-electronic-reporting-manage-configuration-lifecycle.md) van de configuratie dekt niet de levenscyclus van databasewijzigingen. Als u versie 50.19.1 van de configuratie **Factuurmodeltoewijzing (Litware)** vanuit het huidige Finance-exemplaar exporteert en het in een ander exemplaar probeert te importeren dat niet het aangepaste veld **FederalTaxID\_Aangepast** in de tabel **CustTable** bevat, treedt er een uitzondering op. De uitzondering geeft aan dat de geïmporteerde ER-configuratie niet compatibel is met de metagegevens van het Finance-doelexemplaar.
@@ -426,11 +426,11 @@ Als gebruiker met de rol Functioneel consultant van elektronische rapportage kun
 7. Selecteer in het veld **Gegevensmodel** de basisdefinitie **InvoiceCustomer**.
 8. Selecteer **Configuratie maken** om de nieuwe ER-configuratie toe te voegen.
 
-![Een configuratie van een aangepaste indeling op de pagina Configuraties toevoegen.](./media/er-quick-start3-adding-custom-format.png)
+![Een configuratie van een aangepaste indeling op de pagina Configuraties toevoegen](./media/er-quick-start3-adding-custom-format.png)
 
 U kunt nu de ER Operations-ontwerper gebruiken om versie 11.2.2.1 van de ER-configuratie **Peppol-verkoopfactuur (Litware)** in de status **Concept**-[status](general-electronic-reporting.md#component-versioning) te bewerken.
 
-![Versie 11.2.2.1 van de ER-configuratie op de pagina Configuraties.](./media/er-quick-start3-added-custom-format.png)
+![Versie 11.2.2.1 van de ER-configuratie op de pagina Configuraties](./media/er-quick-start3-added-custom-format.png)
 
 #### <a name="configure-a-custom-format"></a>Een aangepaste indeling configureren
 
@@ -446,7 +446,7 @@ U moet uw aangepaste indeling wijzigen door een nieuw opmaakelement toe te voege
 8. Selecteer in de indelingsstructuur **FederalTaxID** onder **XMLHeader** \> **Factuur** \> **cac:AccountingCustomerParty** \> **cac:Party** \> **cac:PartyTaxScheme** \> **cac:TaxScheme** \> **cbc:ID**.
 9. Selecteer **Omhoog verplaatsen**.
 
-![Nieuw indelingselement op de pagina Indelingsontwerper.](./media/er-quick-start3-customized-format.png)
+![Nieuw indelingselement op de pagina Indelingsontwerper](./media/er-quick-start3-customized-format.png)
 
 #### <a name="configure-a-custom-format-mapping"></a>Een aangepaste indelingstoewijzing configureren
 
@@ -454,7 +454,7 @@ U moet uw aangepaste indeling wijzigen door een nieuw opmaakelement toe te voege
 2. Vouw onder **Factuur** **Klantgegevens (klant)** uit en selecteer **FederalTaxID\_Litware**.
 3. Selecteer **Binden**.
 
-    ![Pagina Indelingsontwerper.](./media/er-quick-start3-customized-format-mapping.png)
+    ![Pagina Indelingsontwerper](./media/er-quick-start3-customized-format-mapping.png)
 
 4. Selecteer de gegevensbron **Factuur** van het type **Model** en selecteer vervolgens **Bewerken**.
 5. Selecteer in het veld **Versie** **1** van uw aangepaste gegevensmodel en selecteer vervolgens **OK**.
@@ -471,7 +471,7 @@ U moet uw werk [uitvoeren](general-electronic-reporting.md#component-versioning)
 
 De status van versie 11.2.2.1 wordt gewijzigd van **Concept** in **Voltooid** en de versie wordt alleen-lezen. Er is een nieuwe bewerkbare versie, 11.2.2.2, toegevoegd en deze heeft de status **Concept**. U kunt deze versie gebruiken om verdere wijzigingen aan te brengen in uw aangepaste ER-indelingsconfiguratie.
 
-![Versie 11.2.2.1 voltooid op de pagina Configuraties.](./media/er-quick-start3-completed-custom-format1.png)
+![Versie 11.2.2.1 voltooid op de pagina Configuraties](./media/er-quick-start3-completed-custom-format1.png)
 
 ## <a name="configure-the-accounts-receivable-parameters-to-start-to-use-custom-er-configurations"></a><a name="ConfigureAR2"></a>Configureer de parameters van de module Klanten om aangepaste ER-configuraties te gaan gebruiken.
 
@@ -479,7 +479,7 @@ De status van versie 11.2.2.1 wordt gewijzigd van **Concept** in **Voltooid** en
 2. Selecteer op het tabblad **Elektronische documenten** op het sneltabblad **Elektronische rapportage** in het veld **Verkoop- en vrije-tekstfactuur** de optie **Peppol-verkoopfactuur (Litware)**.
 3. Selecteer **Opslaan**.
 
-![Tabblad Elektronische documenten op de pagina Parameters van module Klanten, sneltabblad Elektronische rapportage.](./media/er-quick-start3-configure-ar2.png)
+![Tabblad Elektronische documenten op de pagina Parameters van module Klanten, sneltabblad Elektronische rapportage](./media/er-quick-start3-configure-ar2.png)
 
 ## <a name="update-a-customer-record-by-adding-a-federal-tax-identification-code"></a><a name="ConfigureCustomer2"></a>Een klantrecord bijwerken door een code voor nationale belasting-ID toe te voegen
 
@@ -488,7 +488,7 @@ De status van versie 11.2.2.1 wordt gewijzigd van **Concept** in **Voltooid** en
 3. Voer **LITWARE-6789** op sneltabblad **Algemeen** in het veld **Nationale belasting-ID** in.
 4. Selecteer **Opslaan**.
 
-    ![Pagina met details van klant DE-014.](./media/er-quick-start3-added-tax-id-value.png)
+    ![Pagina met details van klant DE-014](./media/er-quick-start3-added-tax-id-value.png)
 
 5. Sluit de pagina **Alle klanten**.
 
@@ -509,7 +509,7 @@ De status van versie 11.2.2.1 wordt gewijzigd van **Concept** in **Voltooid** en
 4. Selecteer **Openen** om het gegenereerde XML-bestand voor elektronische facturen te downloaden.
 5. Het XML-bestand van de elektronische factuur analyseren In overeenstemming met uw aanpassing bevat het belastingschema van de klant naast de XML-kenmerken **schemeID** en **schemeAgencyID** ook het aangepaste XML-kenmerk **FederalTaxID**. De waarde van dit nieuwe XML-kenmerk wordt opgegeven door de nationale belasting-ID **LITWARE-6789** die voor een gefactureerde klant is ingevoerd.
 
-    ![Voorbeeld van het gegenereerde XML-bestand van de elektronische factuur met uw aanpassingen.](./media/er-quick-start3-e-invoice2.png)
+    ![Voorbeeld van het gegenereerde XML-bestand van de elektronische factuur met uw aanpassingen](./media/er-quick-start3-e-invoice2.png)
 
 ## <a name="import-the-latest-versions-of-standard-er-configurations"></a><a name="ImportERConfigurations2"></a>De laatste versies van ER-standaardconfiguraties importeren
 
@@ -522,7 +522,7 @@ Als u de set ER-standaardconfiguraties in uw Finance-exemplaar [up-to-date](gene
 5. Selecteer op het sneltabblad **Versies** versie **32.6.7** van de geselecteerde ER-indelingsconfiguratie die is uitgegeven ter ondersteuning van elektronische facturen voor klanten in de indeling PEPPOL BIS 3. Zie [KB4490320](https://support.microsoft.com/help/4490320/an-update-for-european-union-to-support-export-of-customers-electronic) voor meer informatie.
 6. Selecteer **Importeren** om de geselecteerde versie vanuit de algemene opslagplaats te downloaden naar het huidige Finance-exemplaar.
 
-![Versie 32.6.7 geselecteerd op de pagina Opslagplaats configuratie.](./media/er-quick-start3-import-solution2.png)
+![Versie 32.6.7 geselecteerd op de pagina Opslagplaats configuratie](./media/er-quick-start3-import-solution2.png)
 
 Zie [Bijgewerkte versies van ER-configuraties importeren](er-download-updated-versions-global-repo.md) voor informatie over hoe dit proces kan worden geautomatiseerd.
 
@@ -543,13 +543,13 @@ Zorg ervoor dat de volgende ER-configuraties uiteindelijk beschikbaar zijn in de
 
     - Versie 206 (of later) bevat versie 24 (of later) van het ER-onderdeel voor gegevensmodel waarmee de gegevensstructuur van het bedrijfsdomein voor facturering wordt vertegenwoordigd. Deze ER-configuratie is geïmporteerd als een voorganger van de laatst beschikbare configuratie van ER-modeltoewijzing **Toewijzing factuurmodel**.
 
-    ![Versie 206 op de pagina Configuraties.](./media/er-quick-start3-imported-solution2b1.png)
+    ![Versie 206 op de pagina Configuraties](./media/er-quick-start3-imported-solution2b1.png)
 
 - ER-gegevensmodelconfiguratie **Toewijzing factuurmodel**:
 
     - Versie 206.132 (of later) is geïmporteerd als de meest recente implementatie van versie 206 van de configuratie van het ER-gegevensmodel **Factuurmodel**. Het bevat verschillende ER-onderdelen voor modeltoewijzing waarmee wordt beschreven hoe het gegevensmodel tijdens de uitvoering wordt gevuld met toepassingsgegevens.
 
-    ![Versie 206.132 op de pagina Configuraties.](./media/er-quick-start3-imported-solution2b2.png)
+    ![Versie 206.132 op de pagina Configuraties](./media/er-quick-start3-imported-solution2b2.png)
 
 - Configuratie van ER-indeling **UBL-verkoopfactuur**:
 
@@ -559,7 +559,7 @@ Zorg ervoor dat de volgende ER-configuraties uiteindelijk beschikbaar zijn in de
 
     - Versie 32.6.7 bevat de ER-onderdelen voor indeling en indelingstoewijzing die zijn geconfigureerd om e-facturen te genereren in PEPPOL-indeling.
 
-    ![Versie 32.6.7 op de pagina Configuraties.](./media/er-quick-start3-imported-solution2b3.png)
+    ![Versie 32.6.7 op de pagina Configuraties](./media/er-quick-start3-imported-solution2b3.png)
 
 ## <a name="adopt-the-changes-to-the-new-standard-er-configurations-in-your-custom-er-configurations"></a><a name="RebaseCustomERConfigurations"></a>De wijzigingen in de nieuwe versies van de ER-standaardconfiguraties opnemen in uw aangepaste ER-configuraties
 
@@ -579,7 +579,7 @@ Zorg ervoor dat de volgende ER-configuraties uiteindelijk beschikbaar zijn in de
 
 De status van versie 206.2 wordt gewijzigd van **Concept** in **Voltooid** en de versie wordt alleen-lezen. Er is een nieuwe bewerkbare versie, 206.3, toegevoegd en deze heeft de status **Concept**. U kunt deze versie gebruiken om verdere wijzigingen aan te brengen in uw aangepaste ER-gegevensmodelconfiguratie.
 
-![Versie 206.2 voltooid op de pagina Configuraties.](./media/er-quick-start3-completed-custom-model2.png)
+![Versie 206.2 voltooid op de pagina Configuraties](./media/er-quick-start3-completed-custom-model2.png)
 
 ### <a name="adopt-your-custom-er-model-mapping"></a>Uw aangepaste ER-modeltoewijzing opnemen
 
@@ -592,12 +592,12 @@ De status van versie 206.2 wordt gewijzigd van **Concept** in **Voltooid** en de
 
     U ziet dat er een aantal rebaseconflicten is ontdekt. U moet deze conflicten nu handmatig oplossen.
 
-    ![Bericht over rebaseconflicten op de pagina Configuraties.](./media/er-quick-start3-rebase-conflicts-model-mapping1.png)
+    ![Bericht over rebaseconflicten op de pagina Configuraties](./media/er-quick-start3-rebase-conflicts-model-mapping1.png)
 
 5. Selecteer **Ontwerper** in het actievenster en selecteer vervolgens **Klantfactuur** in de lijst met toewijzingen.
 6. Selecteer voor elk rebaseconflict **Eigen waarde behouden**, omdat u voor elk onderdeel dat is vermeld het versienummer van uw aangepaste gegevensmodel moet behouden.
 
-    ![Rebaseconflicten op de pagina Ontwerper modeltoewijzing.](./media/er-quick-start3-rebase-conflicts-model-mapping2.png)
+    ![Rebaseconflicten op de pagina Ontwerper modeltoewijzing](./media/er-quick-start3-rebase-conflicts-model-mapping2.png)
 
 7. Selecteer **Opslaan** en sluit de pagina **Ontwerper modeltoewijzing**.
 8. Selecteer **Projectfactuur** in de lijst met toewijzingen.
@@ -611,7 +611,7 @@ De status van versie 206.2 wordt gewijzigd van **Concept** in **Voltooid** en de
 
 De status van versie 206.132.2 wordt gewijzigd van **Concept** in **Voltooid** en de versie wordt alleen-lezen. Er is een nieuwe bewerkbare versie, 206.132.3, toegevoegd en deze heeft de status **Concept**. U kunt deze versie gebruiken om verdere wijzigingen aan te brengen in uw aangepaste ER-modeltoewijzingsconfiguratie.
 
-![Versie 206.132.2 voltooid op de pagina Configuraties.](./media/er-quick-start3-completed-custom-mapping2.png)
+![Versie 206.132.2 voltooid op de pagina Configuraties](./media/er-quick-start3-completed-custom-mapping2.png)
 
 ### <a name="adopt-your-custom-er-format"></a>Uw aangepaste ER-indeling opnemen
 
@@ -639,7 +639,7 @@ De status van versie 206.132.2 wordt gewijzigd van **Concept** in **Voltooid** e
 
 De status van versie 32.6.7.2 wordt gewijzigd van **Concept** in **Voltooid** en de versie wordt alleen-lezen. Er is een nieuwe bewerkbare versie, 32.6.7.3, toegevoegd en deze heeft de status **Concept**. U kunt deze versie gebruiken om verdere wijzigingen aan te brengen in uw aangepaste ER-indelingsconfiguratie.
 
-![Versie 32.6.7.2 voltooid op de pagina Configuraties.](./media/er-quick-start3-completed-custom-format2.png)
+![Versie 32.6.7.2 voltooid op de pagina Configuraties](./media/er-quick-start3-completed-custom-format2.png)
 
 ## <a name="process-a-customer-invoice-by-using-new-versions-of-the-custom-er-configurations"></a><a name="ProcessInvoice3"></a>Een klantfactuur verwerken met behulp van nieuwe versies van de aangepaste ER-configuraties
 
@@ -662,15 +662,12 @@ De status van versie 32.6.7.2 wordt gewijzigd van **Concept** in **Voltooid** en
 4. Selecteer **Openen** om het gegenereerde XML-bestand voor elektronische facturen te downloaden.
 5. Het XML-bestand van de elektronische factuur analyseren In overeenstemming met uw aanpassing bevat het belastingschema van de klant nog steeds naast de XML-kenmerken **schemeID** en **schemeAgencyID** ook het aangepaste XML-kenmerk **FederalTaxID**. Omdat de wijzigingen in de nieuwe versie van de basisindeling **UBL-verkoopfactuur** met uw aanpassing zijn samengevoegd, is de tekst van het XML-element **cbc: CustomizationID** gewijzigd van `urn:www.cenbii.eu:transaction:biicoretrdm010:ver1.0:# urn:www.peppol.eu:bis:peppol5a:ver1.0` in `urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0`.
 
-    ![Voorbeeld van het gegenereerde XML-bestand van de elektronische factuur met aanpassingen.](./media/er-quick-start3-e-invoice3.png)
+    ![Voorbeeld van het gegenereerde XML-bestand van de elektronische factuur met aanpassingen](./media/er-quick-start3-e-invoice3.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 - [Overzicht van elektronische rapportage](general-electronic-reporting.md)
 - [ER-configuraties downloaden uit Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
 - [ER-configuraties downloaden uit de algemene opslagplaats van de configuratieservice](er-download-configurations-global-repo.md)
-- [Een vrije-tekstfactuur invoeren](../../../finance/accounts-receivable/create-free-text-invoice-new.md)
-- [Maken en werken met aangepaste velden](../../fin-ops/get-started/user-defined-fields.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+- [Een vrije-tekstfactuur invoeren](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new)
+- [Maken en werken met aangepaste velden](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields)

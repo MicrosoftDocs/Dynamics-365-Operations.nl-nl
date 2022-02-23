@@ -1,30 +1,33 @@
 ---
 title: Activa vanuit Leveranciers maken en aanschaffen
-description: Deze procedure doorloopt het maken en bijboeken van vaste activa met het inkoopproces.
+description: Deze taakbegeleiding doorloopt het maken en bijboeken van vaste activa met het inkoopproces.
 author: saraschi2
+manager: AnnBe
 ms.date: 08/13/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetParameters, VendInvoiceWorkspace, VendEditInvoice, VendTableLookup, InventItemIdLookupSimple, AssetTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dbac069362a15b5ab1d2dbf88a732a14a3cf709d
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 7cb9a37c65fb8eab4db6084b91a71c13a45ba42c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394653"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441994"
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a>Activa vanuit Leveranciers maken en aanschaffen
 
 [!include [banner](../../includes/banner.md)]
 
-Deze procedure doorloopt het maken en bijboeken van vaste activa met het inkoopproces.  Het gebruikt de accountant en Leveranciersmedewerker en het demobedrijf USMF.
+Deze taakbegeleiding doorloopt het maken en bijboeken van vaste activa met het inkoopproces.  Het gebruikt de accountant en Leveranciersmedewerker en het demobedrijf USMF.
 
 
 ## <a name="set-fixed-assets-parameters"></a>Parameters voor vaste activa instellen
@@ -53,6 +56,3 @@ Deze procedure doorloopt het maken en bijboeken van vaste activa met het inkoopp
 17. Klik in de lijst op de koppeling in de geselecteerde rij.
 18. Klik op **Boeken**. Het vaste activum wordt gemaakt en bijgeboekt wanneer de factuur wordt geboekt.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

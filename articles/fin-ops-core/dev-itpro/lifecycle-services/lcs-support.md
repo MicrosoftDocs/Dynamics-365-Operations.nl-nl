@@ -1,10 +1,12 @@
 ---
-title: Ondersteuning krijgen voor apps voor financiële en bedrijfsactiviteiten of Lifecycle Services (LCS)
-description: In dit onderwerp wordt uitgelegd hoe u ondersteuning kunt krijgen bij apps voor financiële en bedrijfsactiviteiten of Microsoft Dynamics Lifecycle Services (LCS).
+title: Ondersteuning vragen voor Finance and Operations-apps of Lifecycle Services (LCS)
+description: In dit onderwerk wordt uitgelegd hoe u ondersteuning kunt krijgen bij Finance and Operations-apps of Microsoft Dynamics Lifecycle Services (LCS).
 author: EricMoos
-ms.date: 08/02/2021
+manager: AnnBe
+ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: IT Pro, Developer, Application user
 ms.reviewer: sericks
@@ -14,21 +16,18 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e697c574efb0b04db6cb04d01c41066a0ac3974
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2ec326f2df53ee465b5a75b4f3c24ed914b28551
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068029"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679987"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Ondersteuning krijgen voor apps voor financiële en bedrijfsactiviteiten of Lifecycle Services (LCS)
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Ondersteuning vragen voor Finance and Operations-apps of Lifecycle Services (LCS)
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-2.md)]
-
-In dit onderwerp wordt uitgelegd hoe u ondersteuning kunt krijgen bij apps voor financiële en bedrijfsactiviteiten of Microsoft Dynamics Lifecycle Services (LCS). 
+In dit onderwerk wordt uitgelegd hoe u ondersteuning kunt krijgen bij Finance and Operations-apps of Microsoft Dynamics Lifecycle Services (LCS). 
 
 <table>
 <thead>
@@ -51,7 +50,7 @@ In dit onderwerp wordt uitgelegd hoe u ondersteuning kunt krijgen bij apps voor 
 <td>In <a href="https://lcs.dynamics.com/">LCS</a> kunt u met <strong>Problemen zoeken</strong> snel zoeken naar artikelen, hotfixes en oplossingen voor gerapporteerde problemen in Microsoft Knowledge Base (KB). U kunt zien welke gerapporteerde problemen momenteel worden opgelost voor een specifiek functioneel gebied, en welke problemen al zijn opgelost. Zie voor meer informatie <a href="issue-search-lcs.md">Problemen zoeken (Lifecycle Services, LCS)</a>.</td>
 </tr>
 <tr>
-<td>Ondersteuning krijgen binnen uw app voor financiële en bedrijfsactiviteiten.</td>
+<td>Ondersteuning binnen de app.</td>
 <td>Selecteer de knop <strong>Help</strong> (<strong>?</strong>) in de rechterbovenhoek van de app en selecteer vervolgens <strong>Ondersteuning</strong>. Problemen worden gemeld op het tabblad <strong>Actieve problemen</strong> in LCS. Daar kunnen beheerders bepalen of ze interne ondersteuning moeten bieden of de problemen naar Microsoft moeten verzenden.</td>
 </tr>
 <tr>
@@ -69,6 +68,3 @@ In dit onderwerp wordt uitgelegd hoe u ondersteuning kunt krijgen bij apps voor 
 </tr>
 </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

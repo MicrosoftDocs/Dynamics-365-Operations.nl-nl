@@ -2,9 +2,11 @@
 title: De uitvoering van XML-elementen in ER-indelingen uitstellen
 description: In dit onderwerp wordt uitgelegd hoe u de uitvoering van een XML-element uitstelt in een ER-indeling (elektronische rapportage).
 author: NickSelin
-ms.date: 04/23/2021
+manager: kfend
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: afe0f9945d86c0c7da88b427f582483ed38a54db837818c3e63c5ae2cc60cfbb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6dce3768c886403f789063d516e0e696fc829f81
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718376"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680705"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>De uitvoering van XML-elementen in ER-indelingen uitstellen
 
@@ -44,7 +46,7 @@ De optie **Uitgestelde uitvoering** wordt niet ondersteund voor XML-elementen di
 
 ## <a name="example-defer-the-execution-of-an-xml-element-in-an-er-format"></a><a name="Example"></a>Voorbeeld: de uitvoering van een XML-element in een ER-indeling uitstellen
 
-In de volgende stappen wordt uitgelegd hoe een gebruiker in de [rol](../sysadmin/tasks/assign-users-security-roles.md) Systeembeheerder of consultant voor elektronische rapportage een ER-indeling kan configureren die een XML-element bevat waarvoor de volgorde van uitvoering verschilt van de volgorde in de indelingshiërarchie.
+In de volgende stappen wordt uitgelegd hoe een gebruiker in de [rol](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) Systeembeheerder of consultant voor elektronische rapportage een ER-indeling kan configureren die een XML-element bevat waarvoor de volgorde van uitvoering verschilt van de volgorde in de indelingshiërarchie.
 
 Deze stappen kunnen in het bedrijf **USMF** worden uitgevoerd in Microsoft Dynamics 365 Finance.
 
@@ -59,14 +61,14 @@ Als u het voorbeeld nog niet hebt ingevuld in het onderwerp [De uitvoering van r
 
 | Omschrijving inhoud            | Bestandsnaam |
 |--------------------------------|-----------|
-| Configuratie van model voor ER-gegevens    | [Model voor het leren van uitgestelde elementen.versie.1.xml](https://download.microsoft.com/download/7/6/0/760933ca-4ac3-4f50-bc0c-c35e596ee066/Modeltolearndeferredelements.version.1.xml) |
-| Configuratie van ER-modeltoewijzing | [Toewijzing voor het leren van uitgestelde elementen.versie.1.xml](https://download.microsoft.com/download/c/9/c/c9c4b9dd-b700-4385-a087-a84ce9fc1d0f/Mappingtolearndeferredelements.version.1.1.xml) |
+| Configuratie van model voor ER-gegevens    | [Model voor het leren van uitgestelde elementen.versie.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configuratie van ER-modeltoewijzing | [Toewijzing voor het leren van uitgestelde elementen.versie.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 Voordat u begint, moet u ook de volgende configuratie van de voorbeeld-ER-oplossing downloaden en opslaan op uw lokale computer.
 
 | Omschrijving inhoud     | Bestandsnaam |
 |-------------------------|-----------|
-| ER-indelingsconfiguratie | [Indeling voor het leren van uitgestelde XML-elementen.versie.1.1.xml](https://download.microsoft.com/download/4/7/8/478fa846-22e9-4fa0-89b1-d3aeae660067/FormattolearndeferredXMLelements.version.1.1.xml) |
+| ER-indelingsconfiguratie | [Indeling voor het leren van uitgestelde XML-elementen.versie.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 ### <a name="import-the-sample-er-configurations"></a>De voorbeeld-ER-configuraties importeren
 
@@ -90,14 +92,14 @@ Voordat u begint, moet u ook de volgende configuratie van de voorbeeld-ER-oploss
 6. Vouw in de configuratiestructuur **Model om uitgestelde elementen te leren** uit.
 7. Bekijk de lijst met geïmporteerde ER-configuraties in de configuratiestructuur.
 
-    ![Geïmporteerde ER-configuraties op de pagina Configuratie.](./media/ER-DeferredXml-Configurations.png)
+    ![Geïmporteerde ER-configuraties op de pagina Configuratie](./media/ER-DeferredXml-Configurations.png)
 
 ### <a name="activate-a-configuration-provider"></a>Een configuratieprovider activeren
 
 1. Ga naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
 2. Controleer op de pagina **Lokalisatieconfiguraties** in de sectie **Configuratieproviders** of de [configuratieprovider](general-electronic-reporting.md#Provider) voor het voorbeeldbedrijf Litware, Inc. (`http://www.litware.com`) wordt vermeld en of het is gemarkeerd als Actief. Als deze configuratieprovider niet wordt vermeld of als deze niet is gemarkeerd als actief, volgt u de stappen in het onderwerp [Een configuratieprovider maken en als actief markeren](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-    ![Voorbeeldbedrijf Litware, Inc. op de pagina Lokalisatieconfiguraties.](./media/ER-DeferredXml-ElectronicReportingWorkspace.png)
+    ![Voorbeeldbedrijf Litware, Inc. op de pagina Lokalisatieconfiguraties](./media/ER-DeferredXml-ElectronicReportingWorkspace.png)
 
 ### <a name="review-the-imported-model-mapping"></a>De geïmporteerde modeltoewijzing controleren
 
@@ -119,7 +121,7 @@ Controleer de instellingen van de ER-modeltoewijzingscomponent die is geconfigur
     - De gegevensbron **Gegroepeerd** van het type *Groeperen op* is geconfigureerd om gefilterde belastingstransacties van de gegevensbron **Gefilterd** te groeperen.
     - Het aggregatieveld **TotalSum** van de gegevensbron **Gegroepeerd** is geconfigureerd om waarden van het veld **\$TaxAmount** van de gegevensbron **Gefilterd** samen te vatten voor alle gefilterde belastingstransacties van die gegevensbron.
 
-        ![Aggregatieveld TotalSum op de pagina 'Groeperen op'-parameters bewerken.](./media/ER-DeferredXml-GroupByParameters.png)
+        ![Aggregatieveld TotalSum op de pagina 'Groeperen op'-parameters bewerken](./media/ER-DeferredXml-GroupByParameters.png)
 
 9. Bekijk hoe de geconfigureerde gegevensbronnen aan het gegevensmodel zijn gebonden en hoe ze gegevens waartoe toegang is verkregen, beschikbaar maken in ER-indeling:
 
@@ -127,7 +129,7 @@ Controleer de instellingen van de ER-modeltoewijzingscomponent die is geconfigur
     - Het veld **\$TaxAmount** van de gegevensbron **Gefilterd** is gebonden aan het veld **Gegevens.Lijst.Waarde** van het gegevensmodel.
     - Het veld **TotalSum** van de gegevensbron **Gegroepeerd** is gebonden aan het veld **Gegevens.Overzicht.Totaal** van het gegevensmodel.
 
-    ![Pagina voor ontwerper van modeltoewijzingen.](./media/ER-DeferredXml-ModelMapping.png)
+    ![Pagina voor ontwerper van modeltoewijzingen](./media/ER-DeferredXml-ModelMapping.png)
 
 10. Sluit de pagina's **Ontwerper modeltoewijzing** en **Modeltoewijzingen**.
 
@@ -143,7 +145,7 @@ Controleer de instellingen van de ER-modeltoewijzingscomponent die is geconfigur
     - Het XML-element **Rapport \\Bericht\\Record** is zo geconfigureerd dat het uitgaande document wordt gevuld met één recordknooppunt waarin de details van afzonderlijke belastingstransacties worden weergegeven.
     - Het XML-element **Rapport\\Bericht\\Samenvatting** is zo geconfigureerd dat het uitgaande document wordt gevuld met één samenvattingsknooppunt dat de som van de belastingswaarden uit de verwerkte belastingtransacties bevat.
 
-    ![Bericht-XML-element en geneste XML-elementen op de pagina Indelingsontwerper.](./media/ER-DeferredXml-Format.png)
+    ![Bericht-XML-element en geneste XML-elementen op de pagina Indelingsontwerper](./media/ER-DeferredXml-Format.png)
 
 5. Controleer de volgende gegevens op het tabblad **Toewijzing**:
 
@@ -157,14 +159,14 @@ Controleer de instellingen van de ER-modeltoewijzingscomponent die is geconfigur
     - Het kenmerk **TotalTaxAmount** is aan **model.Gegevens.Samenvatting.Totaal** gebonden om de som van de belastingswaarden van de verwerkte belastingstransacties te genereren.
     - Het kenmerk **ExecutionDateTime** genereert de datum en tijd (inclusief milliseconden) wanneer het samenvattingsknooppunt wordt toegevoegd.
 
-    ![Tabblad Toewijzing op de pagina Indelingsontwerper.](./media/ER-DeferredXml-Format2.png)
+    ![Tabblad Toewijzing op de pagina Indelingsontwerper](./media/ER-DeferredXml-Format2.png)
 
 ### <a name="run-the-imported-format"></a>De geïmporteerde indeling uitvoeren
 
 1. Selecteer **Uitvoeren** op de pagina **Indelingsontwerper**.
 2. Download het bestand dat door de webbrowser wordt aangeboden en open het bestand ter controle.
 
-    ![Gedownload bestand met geïmporteerde indeling.](./media/ER-DeferredXml-Run.png)
+    ![Gedownload bestand](./media/ER-DeferredXml-Run.png)
 
 U ziet dat het samenvattingsknooppunt de som van de belastingswaarden voor de verwerkte transacties weergeeft. Omdat de indeling is geconfigureerd voor het gebruik van de binding **model.Gegevens.Samenvatting.Totaal** om dit totaal te retourneren, wordt de som berekend door de **TotalSum**-aggregatie van de gegevensbron **Gegroepeerd** van het type *GroupBy* aan te roepen in de modeltoewijzing. Voor het berekenen van deze aggregatie doorloopt de modeltoewijzing bij herhaling alle transacties die in gegevensbron **Gefilterd** zijn geselecteerd. Door de uitvoeringstijden van het samenvattingsknooppunt en het laatste recordknooppunt te vergelijken kunt u vaststellen dat de berekening van de som 12 milliseconden (ms) duurde. Door de uitvoeringstijden van de het eerste en het laatste recordknooppunt te vergelijken kunt u vaststellen dat het genereren van alle recordknooppunten 9 milliseconden (ms) duurde. Daarom was er in totaal 21 ms nodig.
 
@@ -178,25 +180,25 @@ Als het volume van transacties veel groter is dan het volume in het huidige voor
 4. Configureer de expressie **Sleutelnaam verzamelde gegevens** als `WsColumn`.
 5. Configureer de expressie **Sleutelwaarde verzamelde gegevens** als `WsRow`.
 
-    ![Record-XML-element op de pagina Indelingsontwerper.](./media/ER-DeferredXml-Format3.png)
+    ![Record-XML-element op de pagina Indelingsontwerper](./media/ER-DeferredXml-Format3.png)
 
 6. Selecteer het kenmerk **Rapport\\Bericht\\Record\\TaxAmount**.
 7. Configureer de expressie **Sleutelnaam verzamelde gegevens** als `SummingAmountKey`.
 
-    ![Kenmerk TaxAmount op de pagina Indelingsontwerper.](./media/ER-DeferredXml-Format4.png)
+    ![Kenmerk TaxAmount op de pagina Indelingsontwerper](./media/ER-DeferredXml-Format4.png)
 
     U kunt deze instelling beschouwen als de afhandeling van een virtueel werk blad, waarbij de waarde van cel A1 wordt toegevoegd met de waarde van het belastingsbedrag uit elke verwerkte belastingstransactie.
 
 8. Selecteer het kenmerk **Rapport\\Bericht\\Record\\RunningTotal** en selecteer vervolgens **Formule bewerken**.
 9. Configureer de `SUMIF(SummingAmountKey, WsColumn, WsRow)`-expressie met behulp van de ingebouwde ER-functie [SUMIF](er-functions-datacollection-sumif.md) en selecteer vervolgens **Opslaan**.
 
-    ![Expressie SUMIF.](./media/ER-DeferredXml-FormulaDesigner.png)
+    ![Expressie SUMIF](./media/ER-DeferredXml-FormulaDesigner.png)
 
 10. Sluit de pagina **Formuleontwerper**.
 11. Selecteer **Opslaan** en vervolgens **Uitvoeren**.
 12. Download en controleer het bestand dat door de webbrowser wordt aangeboden.
 
-    ![Gegenereerde lijst met btw-waarde met lopend totaal.](./media/ER-DeferredXml-Run1.png)
+    ![Gedownload bestand](./media/ER-DeferredXml-Run1.png)
 
     Het laatste recordknooppunt bevat het lopende totaal van belastingswaarden die voor alle verwerkte transacties worden berekend door de gegenereerde uitvoer als gegevensbron te gebruiken. Deze gegevensbron begint aan het begin van het rapport en gaat door tot met de laatste belastingstransactie. Het samenvattingsknooppunt bevat de som van de belastingswaarden voor alle verwerkte transacties die worden berekend in de modeltoewijzing met behulp van de gegevensbron van het type *GroupBy*. U ziet dat deze waarden gelijk zijn. Daarom kan de op uitvoer gebaseerde optelling worden gebruikt in plaats van **GroupBy**. Door de uitvoeringstijden van de het eerste recordknooppunt en het samenvattingsknooppunt te vergelijken kunt u vaststellen dat het genereren van alle recordknooppunten en het totaliseren 11 milliseconden (ms) duurde. Daarom is de aangepaste indeling ongeveer twee keer sneller dan de oorspronkelijke indeling voor wat betreft het genereren van recordknooppunten en het totaliseren van belastingswaarden.
 
@@ -205,7 +207,7 @@ Als het volume van transacties veel groter is dan het volume in het huidige voor
 15. Selecteer **Opslaan** en vervolgens **Uitvoeren**.
 16. Download en controleer het bestand dat door de webbrowser wordt aangeboden.
 
-    ![Gegenereerde lijst met btw-waarden met behulp van bewerkte formule.](./media/ER-DeferredXml-Run2.png)
+    ![Gedownload bestand](./media/ER-DeferredXml-Run2.png)
 
     Zoals u ziet, is het lopende totaal van de belastingswaarden in het laatste recordknooppunt gelijk aan de som in het samenvattingsknooppunt.
 
@@ -218,7 +220,7 @@ Als u bijvoorbeeld de som van de belastingswaarden in de koptekst van uw rapport
 3. Selecteer **Opslaan** en vervolgens **Uitvoeren**.
 4. Download en controleer het bestand dat door de webbrowser wordt aangeboden.
 
-    ![Gedownload bestand met btw-waarden voor de rapportkoptekst.](./media/ER-DeferredXml-Run3.png)
+    ![Gedownload bestand](./media/ER-DeferredXml-Run3.png)
 
     De som van de belastingswaarden in het samenvattingsknooppunt is nu gelijk aan 0 (nul), omdat dit totaal nu wordt berekend op basis van de gegenereerde uitvoer. Wanneer het eerste recordknooppunt wordt gegenereerd, bevat de gegenereerde uitvoer nog geen recordknooppunten met transactiedetails. U kunt deze indeling zo configureren dat de uitvoering van het reekselement **Rapport\\Bericht\\Samenvatting** wordt uitgevoerd totdat het element **Rapport\\Bericht\\Record** voor alle belastingstransacties is uitgevoerd.
 
@@ -227,12 +229,12 @@ Als u bijvoorbeeld de som van de belastingswaarden in de koptekst van uw rapport
 1. Selecteer op de pagina **Indelingsontwerper** op het tabblad **Indeling** het XML-element **Rapport\\Bericht\\Samenvatting**.
 2. Stel de optie **Uitgestelde uitvoering** in op **Ja**.
 
-    ![Optie Uitgestelde uitvoering van het samenvattings-XML-element op de pagina Indelingsontwerper.](./media/ER-DeferredXml-Format5.png)
+    ![Optie Uitgestelde uitvoering van het samenvattings-XML-element op de pagina Indelingsontwerper](./media/ER-DeferredXml-Format5.png)
 
 3. Selecteer **Opslaan** en vervolgens **Uitvoeren**.
 4. Download en controleer het bestand dat door de webbrowser wordt aangeboden.
 
-    ![Gedownload bestand voor uitgestelde uitvoering.](./media/ER-DeferredXml-Run4.png)
+    ![Gedownload bestand](./media/ER-DeferredXml-Run4.png)
 
     Het element **Rapport\\Bericht\\Overzicht** wordt nu alleen uitgevoerd nadat alle andere artikelen die zijn genest onder het bovenliggend element, **Rapport\\Bericht**, zijn uitgevoerd. Daarom wordt het uitgevoerd nadat het reekselement **Rapport\\Bericht\\Record** is uitgevoerd voor alle belastingstransacties van de gegevensbron **model.Gegevens.Lijst**. De uitvoeringstijden van het eerste en laatste recordknooppunt en van het koptekst- en samenvattingsknooppunt onthullen dit feit.
 
@@ -241,6 +243,3 @@ Als u bijvoorbeeld de som van de belastingswaarden in de koptekst van uw rapport
 - [Indeling configureren voor tellen en totaliseren](./tasks/er-format-counting-summing-1.md)
 - [Uitvoering van ER-indeling traceren om prestatieproblemen op te lossen](trace-execution-er-troubleshoot-perf.md)
 - [De uitvoering van reekselementen in ER-indelingen uitstellen](er-defer-sequence-element.md#Example)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,12 +2,15 @@
 title: Module voor sociaal delen
 description: In dit onderwerp worden modules voor sociaal delen beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 2e997cad97d45949c8f542764126a08fb6daa73551079eb2d400d7edfb98ca2b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 82a8795360f453cdee19fa6e9e376a42e8276849
+ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730942"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4411507"
 ---
 # <a name="social-share-module"></a>Module voor sociaal delen
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp worden modules voor sociaal delen beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Overzicht
 
 Met modules voor sociaal delen kunnen gebruikers pagina-URL's van e-commerce-sites delen op sociale media, zoals Facebook, Twitter, Pinterest en LinkedIn. URL's van sitepagina's kunnen ook via e-mail worden gedeeld. Modules voor sociaal delen worden vaak gebruikt op pagina's met productgegevens om gebruikers te helpen productgegevens te delen.
 
@@ -36,7 +41,7 @@ Op elk platform voor sociale media kunnen cookies worden bijgehouden, dus voor d
 
 In de volgende afbeelding wordt een voorbeeld van een module voor sociaal delen op een pagina met productgegevens weergegeven.
 
-![Voorbeeld van een module voor sociaal delen.](./media/ecommerce-socialshare.png)
+![Voorbeeld van een module voor sociaal delen](./media/ecommerce-socialshare.png)
 
 ## <a name="social-share-module-properties"></a>Eigenschappen van module voor sociaal delen
 
@@ -77,6 +82,3 @@ Ga als volgt te werk om een module voor sociaal delen toe te voegen aan een koop
 [Module met vakje voor kopen](add-buy-box.md)
 
 [Conformiteit van cookie](cookie-compliance.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

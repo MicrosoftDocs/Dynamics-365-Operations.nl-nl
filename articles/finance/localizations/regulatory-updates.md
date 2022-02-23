@@ -1,23 +1,26 @@
 ---
 title: Wettelijk voorgeschreven updates
 description: Dit onderwerp bevat een lijst van geplande updates en vrijgegeven reglementaire updates voor Microsoft Dynamics 365 Finance.
-author: VStamberg
-ms.date: 01/20/2022
+author: ShylaThompson
+manager: AnnBe
+ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations
 ms.search.region: Global
-ms.author: vastrup
+ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f4c9d82d882771c2b7131169615504613836def9
-ms.sourcegitcommit: 68655c5673aef9892063e5913ffee6bfc3817387
+ms.openlocfilehash: 46e9b3c3d47207715d0eee689913073d363f3af3
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/21/2022
-ms.locfileid: "8016095"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517495"
 ---
 # <a name="regulatory-updates"></a>Wettelijk voorgeschreven updates
 
@@ -25,7 +28,7 @@ ms.locfileid: "8016095"
 
 In dit onderwerp worden de reglementaire updates genoemd die zijn gepland en vrijgegeven in door Dynamics 365 Finance ondersteunde lokalisaties. Leveringstijdlijnen kunnen worden gewijzigd en verwachte functionaliteit kan verschillen of niet worden vrijgegeven. Zie [Microsoft-beleid](https://go.microsoft.com/fwlink/p/?linkid=2007332) voor meer informatie. 
 
-Wettelijk voorgeschreven updates zijn functies die worden geïmplementeerd ter ondersteuning van nieuwe of gewijzigde landspecifieke wetgeving. Raadpleeg de [Dynamics 365- en Power Platform-releaseplannen](/business-applications-release-notes/index) voor meer informatie over geplande en vrijgegeven landspecifieke functies.
+Wettelijk voorgeschreven updates zijn functies die worden geïmplementeerd ter ondersteuning van nieuwe of gewijzigde landspecifieke wetgeving. Raadpleeg de [Dynamics 365- en Power Platform-releaseplannen](https://docs.microsoft.com/business-applications-release-notes/index) voor meer informatie over geplande en vrijgegeven landspecifieke functies.
 
 Microsoft streeft ernaar nieuwe wettelijke eisen zo vroeg mogelijk te implementeren. De werkelijke leveringsdatum is afhankelijk van de aankondigingsdatum van de wet, de beschikbaarheid van de vereistedetails van de lokale autoriteiten, de beschikbaarheid van de validatiehulpprogramma's en de grootte en complexiteit van de wijziging.
 
@@ -38,42 +41,49 @@ Reglementaire updates die worden uitgebracht als onderdeel van de maandelijkse u
 Raadpleeg de volgende tabel voor de meest recente plannen voor wettelijke updates.   
 
 |Land/regio|Datum vrijgeven|Versie van release|Wettelijke update|
-|--------------------|---------------|-------|-------| 
-|      Australië         |   2021 juni      | 10.0.21      |   AU - Betalingstijden rapporteringsrekening 2020 voor Microsoft Dynamics 365 Finance   |
-|      Brazilië         |   Mei 2021, februari 2021      | 10.0.20, 10.0.19      |   NF-e NT2020.006 - Identificatie van de intermediair van het digitale platform (updates van indelings- en validatieregels)   |
-|      Brazilië         |   2021 maart         | 10.0.19         |    SPED-REINF-indeling 1.5.1  |
-|      Brazilië         |   2021 april         | 10.0.20        |    SPED ECD - indeling 9  |
-|      Brazilië         |   mei 2021         | 10.0.20         |    SPED-bijdragen - versiehandleiding 1.34  |
-|      Brazilië         |   2021 juni         | 10.0.21         |    SPED ECF - Indeling 7  |
-|      Brazilië         |   mei 2021         | 10.0.20         |    NF-e NT2020.005 v1.10 - Validatieregels en updates van PED ECF - Indeling 7  |
-|      Brazilië         |   mei 2021         | 10.0.21         |    SPED Reinf 1.5.1 - Wijzigingen in de webservicemethode van EVENT 5011  |
-|      Frankrijk        |   2021 april       | 10.0.20      |   Verbetering van de Franse gegevensarchiveringsexport (FEC)  |
-|      Duitsland        |   2021 maart       | 10.0.19      |   GDPDU-uitbreidingen voor de tabel Vaste activa en transacties  |
-|      Duitsland        |   2021 april       | 10.0.20HF      |   Wijzigingen in de indeling voor elektronische facturering (xRechnung) in Duitsland sinds 2021  |
-|      India         |   2021 maart      | 10.0.19      |   Elektronische GST-facturen: exportorders, met uitvoer gelijkgestelde verkoop, SEZ  |
-|      India         |   2021 maart      | 10.0.19      |   Dynamics QR-code op B2C-factuur  |
-|      India         |   2021 juni      | 10.0.21      |   Nieuwe API-versie voor e-factuur (v.1.04)  |
-|      Italië         |   2021 maart      | 10.0.19      |   Wijzigingen in indeling factuurcommunicatie (Esterometro) v.2.1.1  |
-|      Italië        |   mei 2021      | 10.0.19      |   Retail - voorbeeldupdate van fiscale printerintegratie om XML 2.0 te ondersteunen  |
-|      Italië         |   2021 maart      | 10.0.19      |   Retail: detailhandelspecifieke facturen inschakelen die chronologische boeking schenden  |
-|      Italië         |   2021 februari      | 10.0.19      |   Unieke certificering - 2021  |
-|      Oman         |   2021 juni      | 10.0.21      |   Btw-aangifte  |
-|      Polen          |   2021 juni     | 10.0.21     |   JPK_V7M (VDEK) - Verbeteringen in procedurele markeringen |
-|      Polen          |   Juli 2021     | 10.0.21     |   JPK-V7M nieuwe regels voor voltooiing vanaf juli 2021 |
-|      Rusland          |   2021 maart     | 10.0.19    |   De belastingaangifte voor eigendomsbelasting 2020 moet de gemiddelde jaarwaarde van verschuifbare vaste activa aangeven.|
-|      Rusland          |   2021 maart     | 10.0.19HF    |   Winstbelastingaangifte versie 5.09 voor 2020-aangifte|
-|      Rusland          |   2021 maart     | 10.0.19    |   Overheidsbesluit N 2200 21.12.2020 toepassing 4 nieuwe forma voor transportfactuur is vereist|
-|      Rusland          |   2021 juni     | 10.0.21HF, 10.0.20HF, 10.0.19 HF    |   Wijzigingen in afdrukbare indelingen van factuurfacturen en correctiefacturen|
-|      Spanje          |   Juli 2021     | 10.0.21    |    OSS/IOSS-scenario - ClaveRegimenEspecialOTrascendencia = 17- KB4623605|
-|      Zweden          |   Juli 2021     | 10.0.21    |    Notatie van btw-aangifte inclusief bedragen van omgekeerde toeslag|
-|      Verenigde Arabische Emiraten   |   mei 2021     | 10.0.20    |   Betalingsjournaal met gepostdateerde cheques naar bankrekening boeken |
+|--------------------|---------------|-------|-------|
+|      Oostenrijk         |   2020 september      | 10.0.15      |   Indeling van btw-aangifte U30 is bijgewerkt voor 2020-aangifte   |
+|      Bahrein         |   2020 juni      | 10.0.13      |   Deadline voor uitgeven van facturen (GCC)   |
+|      Bahrein         |   2020 september      | 10.0.13      |   Projectfactuur voor Bahrein   |
+|      Bahrein         |   2020 juni      | 10.0.13      |   Btw-aangifte voor Bahrein - transactieomschrijving inschakelen   |   
+|      Brazilië         |   Augustus 2020      | 10.0.14, 10.0.13      |   ADRCST-declaratie PR   |
+|      Brazilië         |   mei 2020      | 10.0.13      |   SPED ECF indeling 6   |
+|      Brazilië         |   Juli 2020      | 10.0.13      |   SPED Fiscaal - Record C176 - RS-status   |
+|      Brazilië         |   2020 oktober      | 10.0.16, 10.0.15HF, 10.0.14HF, 10.0.13HF      |   NF-e NT2019.001 v1.51 - Validatieregels bij vergoedingscode in gebruik genomen door Distrito Federal   |
+|      Brazilië         |   2020 oktober      | 10.0.16      |   SPED Fiscal - Indeling 015   |
+|      Brazilië         |   november 2020      | 10.0.15HF      |   SPED Fiscal ICMS / IPI-record C176-update voor RS-status   |
+|      Brazilië         |   2020 oktober      | 10.0.16      |   DRCST-declaratie SC - SEF 262/2020   |
+|      Brazilië         |   2020 oktober      | 10.0.16      |   SPED FIscal ICMS / IPI-record C176   |
+|      Tsjechische Republiek      |   Juli 2020      | 10.0.13      |   Wijzigingen btw-controleoverzicht in XML-schema (lijst met facturen)   |
+|      Tsjechische Republiek         |   Juli 2020      | 10.0.13      |   Btw-aangifte in XML, voorbeeld van btw-aangifte in Excel en XML-indeling van btw-controleoverzicht gebaseerd op belastingaangiftemodel   |
+|      Europa        |   Augustus 2020       | 10.0.14      |   Btw-id van partner overbrengen naar Intrastat  |
+|      Finland         |   Juli 2020       | 10.0.13      |   Ondersteuning van elektronische facturen voor Finland  |
+|      India         |   Juli 2020      | 10.0.13      |   TCS op verkoop van goederen als per sectie 206C (1H) - Drempelwaarde als per PAN-gebaseerde samenvoeging van transacties.  |
+|      India         |   Augustus 2020, juni 2020      | 10.0.13      |   Credit-/debetnota voor exportfactuur  |
+|      India         |   Augustus 2020      | 10.0.13      |   Elektronische factuur onder GST  |
+|      India         |   Juli 2020      | 10.0.13      |   Nieuwe offline GSTR-tool (ANX-1 & ANX-2) (bètaversie)  |
+|      India         |   2020 oktober      | 10.0.14HF, 10.0.13HF      |   Elektronische factuur onder GST in voorraad transferorder voor India|
+|      India         |   2020 oktober      | 10.0.14HF, 10.0.13HF      |   Elektronische factuur onder GST voor India met meerdere GSTIN-registraties|
+|      India         |   2020 september      | 10.0.13HF      |   Bronbelastingstarief in 3/5 decimalen|
+|      India         |   2020 september      | 10.0.14HF      |   Nummervolgordegroep: "GSTNSG", transactietype: "GST-factuur" die moet worden ingesteld voor de GTS-referentienummervolgordegroep van belastingsinformatie "0073"|
+|      Italië         |   Juli 2020      | 10.0.13      |   Wijzigingen in de indeling van Italiaanse elektronische facturen - FatturaPA |
+|      Maleisië         |   Juli 2020      | 10.0.13      |   SST-rapport |
+|      Mexico         |   2020 september      | 10.0.13HF      |   CFDI URL-schemalocatie op basis van Anexo 20-document |
+|      Nederland         |   2020 oktober      | 10.0.16     |   Intrastat-indeling wordt bijgewerkt vanaf 2021 |
+|      Noorwegen         |   Augustus 2020      | 10.0.14     |   SAF-T-transactiegroeperingsniveau door "Voucher" moet worden gerapporteerd op het elementniveau “Transactie“ in plaats van "Journaal" |
+|      Polen          |   2020 september     | 10.0.14     |   Polen: JPK-V7M (VDEK) Excel-indeling - ter vervanging van SSRS-rapport  |
+|      Polen          |   Juli 2020     | 10.0.15, 10.0.14HF, 10.0.13     |   Verbeteringen in vrijwillige gesplitste betaling |
+|      Polen          |   2020 oktober     | 10.0.13HF     |   Verbeteringen in verplichte gesplitste betaling |
+|      Polen          |   november 2020     | 10.0.16, 10.0.15, 10.0.14, 10.0.13     |   JPK-V7M (VDEK) - verkoopdocumenttype FP en RO voor detailhandeltransacties |
+|      Polen          |   2020 september     | 10.0.15     |   Polen: JPK-V7M (VDEK) - mogelijkheid ontgrendelen om het rapport op basis van onderdelen te genereren |
+|      Polen          |   2020 oktober     | 10.0.16     |   JPK-V7M (VDEK)-rapport - Parameteropname 'Vrijwillig gesplitst betalen' |
+|      Rusland          |   Augustus 2020     | 10.0.14    |   Indeling van boekhoudrapporten wordt gewijzigd vanaf 2020  |
+|      Rusland          |   Juli 2020     | 10.0.13    |   Afschrijvingsberekening op basis van aanschafkosten en grote reparaties voor toepassing van de afschrijvingsbonus in de belastingboekhouding  |
+|      Rusland          |   november 2020     | 10.0.16    |   De indeling van de btw-aangifte wordt bijgewerkt naar versie 5.07 vanaf de rapportage voor Q4 2020|
 
 
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
-- Raadpleeg [Zoeken naar landspecifieke wettelijke updates](search-for-regulatory-updates.md) voor meer informatie over alle geplande en vrijgegeven landspecifieke wettelijke updates. (Aanmelden is verplicht.)
+- Zoek naar alle geplande en wettelijke updates op [Lifecycle Service - probleem zoeken](https://lcs.dynamics.com/Logon/Index) (aanmelden vereist).
 - Voor een overzicht van de taalversies die worden ondersteund voor , raadpleegt u de [Internationale beschikbaarheidshandleiding](https://aka.ms/dynamics_365_international_availability_deck).
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,24 +2,27 @@
 title: Optionele functies voor een Dynamics 365 Commerce-evaluatieomgeving configureren
 description: In dit onderwerp wordt uitgelegd hoe u optionele functies voor een evaluatieomgeving van Microsoft Dynamics 365 Commerce configureert.
 author: psimolin
+manager: annbe
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2f4e93b7ece7652b72ae2067be4de73f45a8261ada1b0bc731e2bd2147dcccc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6f7ba7e6de3791720458b509059f008423c73a82
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728286"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411272"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Optionele functies voor een Dynamics 365 Commerce-evaluatieomgeving configureren
 
@@ -100,7 +103,7 @@ Voor elke transactionele gebeurtenis waarvoor u e-mailberichten wilt verzenden, 
 
 Mogelijk wilt u de e-mailsjablonen aanpassen zodat deze verschillende afbeeldingen gebruiken. U kunt ook de koppelingen in de sjablonen bijwerken, zodat deze naar uw evaluatieomgeving leiden. In deze procedure wordt uitgelegd hoe u de standaardsjablonen kunt downloaden, aanpassen en bijwerken in het systeem.
 
-1. Download via een webbrowser het [zipbestand met standaard e-mailsjablonen voor Microsoft Dynamics 365 Commerce-evaluatie](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) naar uw lokale computer. Dit bestand bevat de volgende HTML-documenten:
+1. Download via een webbrowser [het zipbestand met standaard e-mailsjablonen voor Microsoft Dynamics 365 Commerce-evaluatie](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) naar uw lokale computer. Dit bestand bevat de volgende HTML-documenten:
 
     - Sjabloon voor orderbevestiging
     - Sjabloon voor uitgifte van geschenkbon
@@ -131,19 +134,19 @@ Als de e-mail wordt weergegeven, worden deze tokens vervangen door de werkelijke
 
 De volgende tokens gelden voor de algehele verkooporder.
 
-| Naam van token | Token |
+| Naam van token | Token  |
 |-------------------|-------|
 | Ordernummer      | %salesid% |
 | Naam van klant   | %customername% |
 | Afleveradres  | %deliveryaddress% |
-| Factuuradres   | %customeraddress% |
+| Factureringsadres   | %customeraddress% |
 | Besteldatum        | %shipdate% |
 | Bezorgingsmodus     | %modeofdelivery% |
 | Korting          | %discount% |
 | Btw         | %tax% |
 | Ordertotaal       | %total% |
 
-#### <a name="sales-line"></a>Verkoopregel 
+#### <a name="sales-line"></a>Verkoopregel
 
 De volgende tokens worden voor elk product in de order vervangen door waarden.
 
@@ -155,9 +158,9 @@ De volgende tokens worden voor elk product in de order vervangen door waarden.
 | Productlijst - begin   | \<!--%tablebegin.salesline% --\> |
 | Productlijst - eind     | \<!--%tableend.salesline%--\> |
 | Productnaam           | %lineproductname% |
-| Beschrijving            | %lineproductdescription% |
+| Omschrijving            | %lineproductdescription% |
 | Hoeveelheid               | %linequantity% |
-| Regel met eenheidsprijs        | %lineprice% (verifiëren) |
+| Regel met eenheidsprijs        | %lineprice% (controleren) |
 | totaal regelartikel        | %linenetamount% |
 | regelkorting          | %linediscount% |
 | Verzenddatum              | %lineshipdate% |
@@ -177,13 +180,10 @@ De volgende tokens worden voor elk product in de order vervangen door waarden.
 
 [Veelgestelde vragen over evaluatieomgeving voor Dynamics 365 Commerce](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure-portal](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce-website](https://aka.ms/Dynamics365CommerceWebsite)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

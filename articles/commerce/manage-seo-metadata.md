@@ -2,30 +2,36 @@
 title: Metagegevens SEO beheren
 description: In dit onderwerp wordt beschreven hoe u SEO-metagegevens (Search Engine Optimization) in Microsoft Dynamics 365 Commerce kunt beheren.
 author: psimolin
+manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 06d2da60695be499971904451fd56fb8a64dfd64c9192d93f87ababb349e9378
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 74229628e48ffb8ac974acd868e325eeca77d91e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751562"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411359"
 ---
 # <a name="manage-seo-metadata"></a>Metagegevens SEO beheren
+
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u SEO-metagegevens (Search Engine Optimization) in Microsoft Dynamics 365 Commerce kunt beheren.
+
+## <a name="overview"></a>Overzicht
 
 SEO-metagegevens voor een site kunnen worden beheerd met siteoverzichten en metagegevens van de pagina.
     
@@ -89,8 +95,3 @@ Volg deze stappen om metagegevens te wijzigen.
 [Een landingspagina voor een categorie verrijken](enrich-category-page.md)
 
 [Toegankelijkheid van pagina-inhoud controleren](verify-accessibility.md)
-
-[Dynamische e-commercepagina's maken op basis van URL-parameters](create-dynamic-pages.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

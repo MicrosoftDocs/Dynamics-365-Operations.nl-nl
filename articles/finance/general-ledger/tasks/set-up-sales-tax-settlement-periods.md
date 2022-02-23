@@ -2,23 +2,26 @@
 title: Btw-vereffeningsperioden instellen
 description: In dit onderwerp wordt uitgelegd hoe u vereffeningsperioden voor btw instelt in Dynamics 365 Finance.
 author: twheeloc
+manager: AnnBe
 ms.date: 08/05/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f57cd2b5b0f8f86d67500086403c5f484a263f76601453c00f59ede901b01a8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e5068c121e921c1586dc6ae003c0021bf41d2254
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732952"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441968"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Btw-vereffeningsperioden instellen
 
@@ -37,7 +40,9 @@ Bij deze taak wordt het demobedrijf USMF gebruikt.
 7. Selecteer in het veld **Betalingscondities** de gewenste record in het vervolgkeuzemenu. De gerelateerde btw-dienst kan als leverancier worden ingesteld en de btw-vereffening maakt een open leveranciersfactuur. De betalingstermijnen bepalen de vervaldatum voor de open leveranciersfactuur.  
 8. Selecteer een type voor de vereffeningsperiode-intervallen.
 9. Voer het aantal periode-intervaleenheden per periode in. Bijvoorbeeld, een kwartaal heeft 3 maanden.
-10. Schakel het selectievakje **Batchverwerking gebruiken voor btw-vereffening** in of uit. Het vereffeningsproces voor de vereffeningsperiode kan als batchtaak in de achtergrond worden verwerkt. Dit wordt aanbevolen voor een groot aantal btw-transacties binnen een periode-interval.
+10. Schakel het selectievakje **Batchverwerking gebruiken voor btw-vereffening** in of uit. Het vereffeningsproces voor de vereffeningsperiode kan als batchtaak in de achtergrond worden verwerkt. Dit wordt aanbevolen voor een groot aantal btw-transacties binnen een periode-interval.  
+    > [!NOTE]
+    > Momenteel wordt dit niet ondersteund in Spanje, Japan en Nederland.
 11. Schakel het selectievakje **Genereren van tegengerekende btw-transacties voorkomen** in of uit. Standaard genereert het systeem tegengerekende btw-transacties tijdens het vereffeningsproces, wat kan leiden tot prestatieprobleem als er een groot aantal btw-transacties binnen een periode-interval is. Schakel dit selectievakje in om genereren van tegengerekende btw-transacties te voorkomen.
 12. Vouw het tabblad **Periode-intervallen** uit.
 13. Selecteer **Toevoegen**.
@@ -46,6 +51,3 @@ Bij deze taak wordt het demobedrijf USMF gebruikt.
 16. Selecteer **Nieuw periode-interval**. Als het eerste periode-interval is ingevoerd, kunnen nieuwe perioden automatisch worden gemaakt. U kunt later nieuwe periode-intervallen toevoegen.  
 17. Sluit de pagina.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

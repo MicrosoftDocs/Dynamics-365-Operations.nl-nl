@@ -1,10 +1,12 @@
 ---
 title: Evenwichtige journalen voor interunit-boekhouding
 description: Dit artikel laat zien hoe een journaal automatisch wordt gesaldeerd wanneer een financiële tegendimensie wordt geselecteerd op de Grootboekpagina.
-author: kweekley
+author: ShylaThompson
+manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerParameters
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: roschlom
 ms.custom: 15791
 ms.assetid: 301bd80e-f8b1-4f12-8194-e6d7de736084
 ms.search.region: Global
-ms.author: kweekley
+ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f6ffccb2ee504f182250dbf6d316823efafddf5
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: f189d1ed5b0917c9975587accc2275556ceb8143
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726889"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968749"
 ---
 # <a name="balanced-journals-for-interunit-accounting"></a>Evenwichtige journalen voor interunit-boekhouding
 
@@ -30,7 +32,7 @@ Dit artikel laat zien hoe een journaal automatisch wordt gesaldeerd wanneer een 
 
 Als boekingen niet in evenwicht zijn op het niveau van de financiële dimensiewaarden, worden automatisch extra boekingen gemaakt om het journaal automatisch in evenwicht te brengen. Deze boekingen gebruiken de boekingstypen **Inter-unit - debet** en **Inter-unit - credit** op de pagina **Rekeningen voor automatische transacties** om de hoofdrekening te bepalen. Bijvoorbeeld, Bedrijfseenheid, het tweede segment van de grootboekrekening, wordt geselecteerd als de financiële tegendimensie en de volgende boekingsregels staan op het punt om te worden gemaakt.
 
-| &nbsp;               | &nbsp;    |
+|                      |           |
 |----------------------|-----------|
 | 6100 – MSP – OU\_256 | 100,00 DR |
 | 6100 – NY – OU\_249  | 100,00 DR |
@@ -43,7 +45,7 @@ In dit geval worden de volgende saldi gedefinieerd:
 
 Daarom worden de volgende posten automatisch gemaakt om het journaal op het niveau van de financiële dimensiewaarden in evenwicht te brengen.
 
-| &nbsp;                            | &nbsp;    |
+|                                   |           |
 |-----------------------------------|-----------|
 | (Inter-unit debet) – MSP – OU\_256 | 100,00 DR |
 | (Inter-unit credit) – NY – OU\_249 | 100,00 CR |
@@ -52,6 +54,3 @@ Daarom worden de volgende posten automatisch gemaakt om het journaal op het nive
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,8 +2,11 @@
 title: De ER-functie INTVALUE
 description: Dit onderwerp biedt informatie over het gebruik van de ER-functie (Elektronische rapportage) INTVALUE.
 author: NickSelin
+manager: kfend
 ms.date: 12/05/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d54543a6f9878feb3482c1c1e6c1f1f468718489fbc46aded84a5a84bdfb04e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 98b91a983c60bb99280763f7f7a944d08f535e60
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745935"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685998"
 ---
 # <a name="intvalue-er-function"></a>De ER-functie INTVALUE
 
@@ -70,6 +73,3 @@ Eventuele cijfers achter de komma worden afgekapt.
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Type conversiefuncties](er-functions-category-type-conversion.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

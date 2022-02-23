@@ -2,9 +2,11 @@
 title: Nieuwe of bijgewerkte taakbegeleidingen (december 2017)
 description: In dit onderwerp worden de nieuwe of bijgewerkte taakbegeleidingen vermeld die zijn uitgebracht voor de Microsoft APQC Unified Library (december 2016, alle talen) voor Microsoft Dynamics 365 for Operations. Er is geen nieuwe bibliotheek Aan de slag uitgebracht.
 author: josaw1
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -12,12 +14,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 42bf8e4a1264b67ff11dad7417d16b6273e6feb36294596014faf562a4a0ef3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c24fed0027f1c1f6aeab823b22bc3b36b814f814
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723050"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4799057"
 ---
 # <a name="new-or-updated-task-guides-december-2017"></a>Nieuwe of bijgewerkte taakbegeleidingen (december 2017)
 
@@ -366,6 +368,3 @@ Wanneer een BPM-regel wordt verwijderd, wordt elke taakbegeleiding die gekoppeld
 **Verwijderde BPM-regel**
 
 - Geplande kanbantaken verplaatsen
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

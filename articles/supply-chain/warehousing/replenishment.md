@@ -2,28 +2,29 @@
 title: Overzicht van Aanvulling
 description: Dit onderwerp beschrijft de aanvullingsstrategieën die beschikbaar zijn voor magazijnen die gebruikmaken van de functionaliteit die beschikbaar is in Magazijnbeheer.
 author: Mirzaab
+manager: tfehr
 ms.date: 02/19/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSReplenishmentTemplates, WHSInventFixedLocation, WHSRequestType
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "90043"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 90043
 ms.assetid: 49fa97eb-8e10-49a5-9261-1e393159f178
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7681294c1c05f1ca93330c948fc454b6460cb41c
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1fc7ae950ed32a75b8767d764c1b77193c454381
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985779"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654119"
 ---
 # <a name="replenishment-overview"></a>Overzicht van Aanvulling
 
@@ -51,7 +52,7 @@ De pagina **Aanvullingssjabloon** bevat een selectievakje **Gebruik van niet-ger
 
 **Aanvullingseenheid** is de minimum eenheid voor aanvullen. Dit moet een geheel getal zijn dat een veelvoud is van de eenheid. Het systeem voert een afronding uit naar de hoogste eenheid die mogelijk is bij het maken van werk.
 
-Vraagaanvulling wordt ondersteund voor verkooporders, overboekingsorders, productieorders en kanbans. 
+Vraagaanvulling wordt ondersteund voor verkooporders, transferorders, productieorders en kanbans. 
 
 ## <a name="minmax-replenishment"></a>Min/Max aanvulling
 In Min/Max aanvulling wordt voorraad aangevuld zodat deze tussen de minimale en maximale limieten blijft die zijn ingesteld. Dit proces gebeurt meestal eenmaal per dag om te garanderen dat alle orderverzamellocaties tot het maximumniveau zijn gevuld voordat het orderverzamelen van start gaat. 
@@ -78,6 +79,3 @@ In plaats van het totaal van de vraag aan het einde van een toewijzingsproces te
 |   Instructielocatie   |                                                       Locatie-instructies zijn vereist om het werk naar de locaties te leiden waar de aanvulling vereist is en naar de locaties waaruit voorraad afkomstig is.                                                        |
 |     Werksjablonen      |                                                   Werksjablonen van het type <strong>Aanvulling</strong> zijn vereist voor het maken van aanvullingswerk zodat de voorraad kan worden verplaatst naar de gewenste locaties.                                                    |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

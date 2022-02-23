@@ -1,10 +1,12 @@
 ---
 title: Inkooporders maken
 description: In dit artikel worden het proces en de opties voor het handmatig maken van een inkooporder beschreven.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 93053
 ms.assetid: 25b1c9f1-20f8-4cf5-b87c-876e32f68846
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20b8e00316b45126b028b6d9812a455ef0e53f19
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 105d4022e1867f553fcae5e4ae9c0ed7ce4e912d
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575507"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022276"
 ---
 # <a name="create-purchase-orders"></a>Inkooporders maken
 
@@ -65,7 +67,7 @@ Soms wilt u mogelijk de hoeveelheid die u hebt besteld opsplitsen, zodat verschi
 Toeslagen kunnen automatisch worden toegevoegd aan inkooporderregels als automatische toeslagen zijn ingesteld voor de leverancier of de toeslagengroep van de leverancier, en voor het artikel of de toeslaggroep van het artikel. Meestal worden toeslagen echter handmatig toegevoegd op het niveau van de orderregel. U kunt een toeslag toevoegen door de pagina **Toeslagen onderhouden** te openen met de actie **Toeslagen onderhouden** in het menu **Financiële items** in de weergave **Regels**. Het voordeel van het toevoegen van toeslagen rechtstreeks op het niveau van de orderregel is dat de toeslag kan worden toegewezen als voorraadkosten. U kunt toeslagcodes instellen voor productkosten door de debetoptie **Artikel** te gebruiken. Dit soort toeslagen moet worden toegewezen vanuit de IO-koptekst aan de regels voordat de order kan worden bevestigd. Zo wilt u bijvoorbeeld mogelijk toeslagen toewijzen op basis van de hoeveelheid op elke regel. De toeslagcategorie heeft eveneens invloed op hoe de toeslagen worden verwerkt. Bij vaste toeslagen, bijvoorbeeld, geeft u een vast bedrag op en procentuele toeslagen worden berekend als een percentage van het nettobedrag voor de orderregel. Inkooporders kunnen worden toegewezen aan een belasting en de belasting kan een schatting bevatten van de verwachte kosten voor het vervoer. U kunt deze onkosten vanuit de belasting terug aan de regels toewijzen.
 
 ## <a name="purchase-order-actions"></a>Inkooporderacties
-Nadat u de koptekst en regels aan de inkooporder hebt toegevoegd, moet u vaak extra stappen voltooien voordat de order klaar is voor bevestiging. Omdat er zoveel opties beschikbaar zijn, vindt u het misschien handig om [Actie zoeken](../../fin-ops-core/fin-ops/get-started/action-search.md) te gebruiken om het gewenste menu-item te zoeken.  
+Nadat u de koptekst en regels aan de inkooporder hebt toegevoegd, moet u vaak extra stappen voltooien voordat de order klaar is voor bevestiging. Omdat er zoveel opties beschikbaar zijn, vindt u het misschien handig om [Actie zoeken](../../fin-and-ops/get-started/action-search.md) te gebruiken om het gewenste menu-item te zoeken.  
 
 U kunt producten op de order zodanig configureren dat zij bijkomende artikelen hebben. Bijkomende artikelen zijn producten die samen met andere producten moeten of kunnen worden gekocht. Bijkomende producten kunnen gratis worden toegevoegd als begeleidende producten, of u kunt zelf beslissen of u ze wilt toevoegen aan de order of niet. U kunt de bijkomende artikelen bekijken na elke orderregel die is toegevoegd. Waarschijnlijk vindt u het echter handiger om relevante bijkomende artikelen te controleren en toe te voegen voor alle orderregels via de pagina **Bijkomende artikelen**, die u vanuit het actievenster kunt openen.  
 
@@ -80,7 +82,8 @@ Inkooporders kunnen zodanig worden geconfigureerd dat budgetfondsen moeten worde
 
 Mogelijk moet u de voltooiing van een inkooporder uitstellen. Zo hebt u bijvoorbeeld mogelijk meer informatie nodig over producten of diensten of hebt u toestemming voor de besteding nodig. Er zijn verschillende manieren om een order te vertragen. Zo kunt u bijvoorbeeld wachten met het bevestigen van de bestelling. Ook kunt u, als een werkstroom voor wijzigingsbeheer wordt gebruikt, de order niet indienen voor goedkeuring. Als u alle orders voor een bepaalde leverancier moet blokkeren, kunt u ook de leverancier markeren als **In wachtstand** voor verwerking in het leveranciermodel. Er zijn tevens omstandigheden die mogelijk de verwerking van de order kunnen voorkomen. Zo kan bijvoorbeeld de verwerking worden voorkomen als de kredietlimieten zijn overschreden of als vereiste budgetfondsen niet beschikbaar zijn.
 
-## <a name="additional-resources"></a>Aanvullende resources
+<a name="additional-resources"></a>Aanvullende resources
+--------
 
 [Overzicht van inkooporders](purchase-order-overview.md)
 
@@ -92,6 +95,3 @@ Mogelijk moet u de voltooiing van een inkooporder uitstellen. Zo hebt u bijvoorb
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

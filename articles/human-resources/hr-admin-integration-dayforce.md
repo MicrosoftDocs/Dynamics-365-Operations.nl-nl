@@ -1,35 +1,33 @@
 ---
 title: Integratie met Dayforce configureren
-description: In dit onderwerp worden de vereiste configuratiestappen beschreven die zijn vereist voor de integratie tussen Microsoft Dynamics 365 Human Resources en Ceridian Dayforce.
-author: twheeloc
-ms.date: 08/19/2021
+description: De integratie tussen Microsoft Dynamics 365 Human Resources en Ceridian Dayforce is afhankelijk van verschillende configuratiestappen, die in dit artikel worden beschreven. Voordat u een betaling kunt verwerken, moet u de integratie configureren in zowel Human Resources als Dayforce.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: PersonnelIntegrationConfiguration
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7e2043e75aa647e21f3e0816247dcf651be64730
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: c66ec772ea66732e042f50081f04a6569852f211
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067071"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417903"
 ---
 # <a name="configure-integration-with-dayforce"></a>Integratie met Dayforce configureren
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-De integratie tussen Microsoft Dynamics 365 Human Resources en Ceridian Dayforce is afhankelijk van verschillende configuratiestappen die in dit onderwerp worden beschreven. Voordat u een betaling kunt verwerken, moet u de integratie configureren in zowel Human Resources als Dayforce.
+De integratie tussen Microsoft Dynamics 365 Human Resources en Ceridian Dayforce is afhankelijk van verschillende configuratiestappen, die in dit artikel worden beschreven. Voordat u een betaling kunt verwerken, moet u de integratie configureren in zowel Human Resources als Dayforce.
 
 Als u een service zoals Dayforce gebruikt voor het uitvoeren van betalingen, moet u de integratie inschakelen in Human Resources. De integratie vereist specifieke gegevens vanuit Human Resources. Daarom moet u controleren of gegevens die zijn toegewezen aan Dayforce, zodanig in Human Resources zijn geconfigureerd dat de integratie wordt ondersteund. De integratie maakt gebruik van de volgende brede categorieën gegevens:
 
@@ -38,7 +36,7 @@ Als u een service zoals Dayforce gebruikt voor het uitvoeren van betalingen, moe
 - Salarisgegevens, zoals betalingscycli, salarisperioden en inkomstencodes
 - Medewerkergegevens
 
-In dit onderwerp worden de stappen beschreven die u moet volgen om de integratie in te schakelen en worden de gegevenstypen en de configuratiedetails uitgelegd die voor de integratie nodig zijn.
+In dit artikel worden de stappen beschreven die u moet volgen om de integratie in te schakelen. Ook wordt uitgelegd welke typen gegevens en welke configuratiedetails vereist zijn voor de integratie.
 
 ## <a name="enable-the-integration"></a>De integratie inschakelen
 
@@ -53,10 +51,10 @@ Voer de volgende stappen uit om de integratie in Human Resources in te schakelen
 
 Wanneer de integratie is ingeschakeld, worden het pakket voor gegevensexport en de bestanden gemaakt en wordt de frequentie ingesteld. U kunt deze frequentie naar behoefte wijzigen.
 
-Zie de volgende Azure-onderwerpen voor meer informatie over Azure-opslagaccounts en verbindingstekenreeksen voor Azure Storage:
+Zie de volgende Azure-artikelen voor meer informatie over Azure Storage-accounts en Azure Storage-verbindingstekenreeksen:
 
-- [Informatie over Azure-opslagaccounts](/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
-- [Verbindingstekenreeks voor Azure Storage configureren](/azure/storage/common/storage-configure-connection-string)
+- [Informatie over Azure-opslagaccounts](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
+- [Verbindingstekenreeks voor Azure Storage configureren](https://docs.microsoft.com/azure/storage/common/storage-configure-connection-string)
 
 ### <a name="technical-details-when-payroll-integration-is-enabled"></a>Technische details wanneer integratie van salarisadministratie is ingeschakeld
 
@@ -124,12 +122,12 @@ Dayforce maakt de volgende inhoudingen, op basis van de salarisgevolgen die zijn
 | Alleen bijdrage          | Er wordt een inhouding voor de werkgever gemaakt.             |
 | Inhouding en bijdrage | Er worden inhoudingen voor werknemer en werkgever gemaakt. |
 
-Zie de volgende onderwerpen voor meer informatie over het definiëren en beheren van een vergoedingsprogramma:
+Zie de volgende artikelen voor meer informatie over het definiëren en beheren van een vergoedingsprogramma:
 
-- [Een vergoedingenprogramma voor werknemers maken](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
-- [Een nieuwe vergoeding maken](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
-- [Regels en beleid van de vergoedingsgeschiktheid definiëren](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
-- [Vergoedingen inschrijven en verwijderen van medewerkers](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
+- [Een vergoedingenprogramma voor werknemers maken](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
+- [Een nieuwe vergoeding maken](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
+- [Regels en beleid van de vergoedingsgeschiktheid definiëren](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
+- [Vergoedingen inschrijven en verwijderen van medewerkers](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
 
 #### <a name="compensation"></a>Compensatie 
 
@@ -137,22 +135,22 @@ Compensatiebeheer wordt gebruikt om de betaling van basisloon en beloningen te b
 
 Dayforce gebruikt compensatie-informatie voor het berekenen van het uur- of jaartarief van een werknemer. Er zijn vastecompensatieplannen en conversies van het loontarief vereist. Werknemers moeten worden gekoppeld aan een vastecompensatieplan.
 
-Zie de volgende onderwerpen voor meer informatie over compensatieplannen:
+Zie de volgende artikelen voor meer informatie over compensatieplannen:
 
-- [Plannen voor vaste compensatie maken](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-- [Plannen voor variabele compensatie maken](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
-- [Salaris-/compensatiestructuur en -plannen ontwikkelen](/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
-- [Compensatie verwerken](/dynamics365/unified-operations/talent/process-compensation)
-- [Compensatieproces definiëren en resultaten berekenen](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
-- [Een werknemer inschrijven voor een vaste honoreringsregeling](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
-- [Een werknemer inschrijven voor een variabele honoreringsregeling](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
+- [Plannen voor vaste compensatie maken](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+- [Plannen voor variabele compensatie maken](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+- [Salaris-/compensatiestructuur en -plannen ontwikkelen](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
+- [Compensatie verwerken](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
+- [Compensatieproces definiëren en resultaten berekenen](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
+- [Een werknemer inschrijven voor een vaste honoreringsregeling](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
+- [Een werknemer inschrijven voor een variabele honoreringsregeling](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
 
 #### <a name="jobs"></a>Taken 
 
-Een functie is een verzameling taken en verantwoordelijkheden die vereist zijn voor iedere persoon die een functie uitvoert. Zie de volgende onderwerpen voor meer informatie:
+Een functie is een verzameling taken en verantwoordelijkheden die vereist zijn voor iedere persoon die een functie uitvoert. Zie de volgende artikelen voor meer informatie:
 
-- [De onderdelen van een taak instellen](/dynamics365/unified-operations/talent/create-job)
-- [Nieuwe taken definiëren](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
+- [De onderdelen van een taak instellen](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-job)
+- [Nieuwe taken definiëren](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
 
 ##### <a name="positions"></a>Posities
 
@@ -174,19 +172,19 @@ Let op de volgende gegevens en configuratie bij het instellen van posities:
 
 Als meerdere posities op dezelfde afdeling aan dezelfde functie zijn gekoppeld, worden deze geconsolideerd in een enkele positie in Dayforce.
 
-Zie de volgende onderwerpen voor meer informatie:
+Zie de volgende artikelen voor meer informatie:
 
-- [Uw werknemers organiseren met afdelingen, taken en posities](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
-- [Posities instellen](/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
+- [Uw werknemers organiseren met afdelingen, taken en posities](https://docs.microsoft.com/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
+- [Posities instellen](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
 
 #### <a name="departments"></a>Afdelingen
 
 Een afdeling is een operationele eenheid die een categorie of functioneel onderdeel van een organisatie voorstelt. Een afdeling is verantwoordelijk voor een specifiek gebied van de organisatie, zoals verkoop, boekhouding of HR. U kunt afdelingen gebruiken om te rapporteren over functiegebieden. Afdelingen zijn mogelijk verantwoordelijk voor winst en verlies.
 
-Zie de volgende onderwerpen voor meer informatie:
+Zie de volgende artikelen voor meer informatie:
 
-- [Een afdeling maken en koppelen aan de afdelingshiërarchie](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
-- [Nieuwe afdelingen definiëren](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
+- [Een afdeling maken en koppelen aan de afdelingshiërarchie](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
+- [Nieuwe afdelingen definiëren](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
 
 #### <a name="pay-cycles-and-pay-periods"></a>Betalingscycli en salarisperioden
 
@@ -678,6 +676,3 @@ Werknemers kunnen paspoortgegevens opgeven. Deze informatie is van het identific
 
 Werknemers kunnen meerdere identificatienummers van het identificatietype **Paspoort** opgeven. Echter alleen de huidige actieve paspoortvermelding wordt geïntegreerd in Dayforce. Als alle paspoortvermeldingen zijn verlopen, wordt het paspoort dat als laatste is uitgegeven geïntegreerd in Dayforce.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

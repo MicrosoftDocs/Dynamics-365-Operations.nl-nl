@@ -102,6 +102,3 @@ Als u een negatieve impact op de gebruikersinterface (UI) wilt voorkomen, moet u
 - **Overig**
 
 In plaats daarvan kunt u de **TalentSource**-opsomming uitbreiden om andere typen bronnen toe te voegen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

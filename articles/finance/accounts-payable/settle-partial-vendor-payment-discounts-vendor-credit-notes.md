@@ -1,28 +1,31 @@
 ---
-title: Een gedeeltelijke leveranciersbetaling vereffenen met kortingen op creditnota's
+title: Een gedeeltelijke leverancierbetaling vereffenen met kortingen op creditnota's van de leverancier
 description: Dit artikel begeleidt u door een scenario waarin een creditnota voor een factuur wordt vereffend.
 author: abruer
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14222
 ms.assetid: 2b19f7fd-9ff9-4ee4-bddf-f582946d008e
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 553150a59d132bb1d8b563e03456995cbc8d2be5f36bab0c1fe6b8bbbf77dce1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 923ab0305ac75c1156984c7a6d051f036479a16d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737108"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441807"
 ---
-# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-credit-notes"></a>Een gedeeltelijke leveranciersbetaling vereffenen met kortingen op creditnota's
+# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Een gedeeltelijke leverancierbetaling vereffenen met kortingen op creditnota's van de leverancier
 
 [!include [banner](../includes/banner.md)]
 
@@ -40,10 +43,10 @@ Op 29 juni maakt April een factuur voor 1000,00 voor leverancier 3050. Op 2 juli
 
 Informatie over korting voor de creditnota wordt onder de pagina **Openstaande transacties vereffenen** weergegeven.
 
-| Veld                        | Waarde     |
+|                              |           |
 |------------------------------|-----------|
-| Datum voor contantkorting           | 13-7-2015 |
-| Contantkortingsbedrag         | 2.00      |
+| Datum van contantkorting           | 13-7-2015 |
+| Contantkortingsbedrag         | 2,00      |
 | Contantkorting gebruiken            | Normaal    |
 | Toegepaste contantkorting          | 0,00      |
 | Contantkortingsbedrag dat moet worden toegepast | 2,00      |
@@ -68,6 +71,3 @@ April kan de leveranciertransacties op de pagina **Leveranciertransacties** cont
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

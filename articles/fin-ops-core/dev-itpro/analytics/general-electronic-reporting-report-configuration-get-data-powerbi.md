@@ -2,9 +2,11 @@
 title: Elektronische rapportage (ER) configureren om gegevens op te halen in Power BI
 description: In dit onderwerp wordt beschreven hoe u uw ER-configuratie (Elektronische rapportage) kunt gebruiken om gegevens van uw exemplaar over te dragen naar Power BI-services.
 author: NickSelin
-ms.date: 04/23/2021
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: aa9a47c9ee7c76322fd2d9bfcf5fc61a50bf421321891b3c78a782be6a9f8e6a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 34d4ad9106b2751c77db4fd03d83932e587a5332
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740937"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680115"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Elektronische rapportage (ER) configureren om gegevens op te halen in Power BI
 
@@ -53,12 +55,12 @@ Om het voorbeeld in dit onderwerp te kunnen voltooien, moet u over de volgende t
 1. Configureer op de pagina **Parameters voor documentbeheer** toegang tot de SharePoint-server die in het bedrijf wordt gebruikt waarbij u bent aangemeld (het bedrijf DEMF in dit voorbeeld).
 2. Test de verbinding met de SharePoint-server om er zeker van te zijn dat u toegang hebt gekregen.
 
-    [![Pagina Parameters voor documentbeheer.](./media/ger-power-bi-sharepoint-server-setting-1024x369.png)](./media/ger-power-bi-sharepoint-server-setting.png)
+    [![Pagina Parameters voor documentbeheer](./media/ger-power-bi-sharepoint-server-setting-1024x369.png)](./media/ger-power-bi-sharepoint-server-setting.png)
 
 3. Open de geconfigureerde SharePoint-site. Maak een nieuwe map waarin door ER Excel-bestanden moeten worden opgeslagen die de bedrijfsgegevens bevatten die Power BI-rapporten nodig hebben als bron van Power BI-gegevenssets.
 4. Maak op de pagina **Documenttypen** een nieuw documenttype dat wordt gebruikt om toegang te krijgen tot de SharePoint-map die u zojuist hebt gemaakt. Voer **Bestand** in het veld **Groep** en **SharePoint** in het veld **Locatie** in een geef vervolgens het adres van de SharePoint-map op.
 
-    [![Pagina Documenttypen.](./media/ger-power-bi-sharepoint-document-type-1024x485.png)](./media/ger-power-bi-sharepoint-document-type.png)
+    [![Pagina Documenttypen](./media/ger-power-bi-sharepoint-document-type-1024x485.png)](./media/ger-power-bi-sharepoint-document-type.png)
 
 ## <a name="configure-er-parameters"></a>ER-parameters configureren
 1. Klik in de werkruimte **Elektronische rapportage** op de koppeling **Parameters van elektronische rapportage**.
@@ -68,23 +70,23 @@ Om het voorbeeld in dit onderwerp te kunnen voltooien, moet u over de volgende t
 ## <a name="use-an-er-data-model-as-the-source-of-data"></a>Een ER-gegevensmodel als de bron van gegevens selecteren
 U moet een ER-gegevensmodel hebben als bron van zakelijke gegevens die worden gebruikt voor Power BI-rapporten. Dit gegevensmodel wordt geüpload vanuit de opslagplaats voor ER-configuraties. Zie voor meer informatie [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](download-electronic-reporting-configuration-lcs.md) of speel de taakbegeleiding **Een ER-configuratie vanuit Lifecycle Services importeren** af. Selecteer **Intrastat** als het te uploaden gegevensmodel vanuit de geselecteerde opslagplaats voor ER-configuraties. (In dit voorbeeld wordt versie 1 van het model gebruikt.) U kunt vervolgens toegang krijgen tot de configuratie **Intrastat** ER-model op de pagina **Configuraties**.
 
-[![Configuratie van Intrastat ER-model op de pagina Configuratie.](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
+[![Pagina Configuraties](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
 
 ## <a name="design-an-er-format-configuration"></a>Een configuratie voor de ER-indeling ontwerpen
-U moet een nieuwe configuratie voor de ER-indeling maken waarbij het gegevensmodel **Intrastat** als bron van zakelijke gegevens wordt gebruikt. Deze indelingsconfiguratie moet uitvoerresultaten als elektronische documenten in de indeling OpenXML (Excel-bestand) genereren. Speel voor meer informatie de taakbegeleiding **ER Een configuratie maken voor het genereren van rapporten in OPENXML-indeling** af. Geef de nieuwe configuratie de naam **Import-/exportactiviteiten**, zoals in de volgende afbeelding. Gebruik het Excel-bestand [ER-gegevens - import- en exportdetails](https://download.microsoft.com/download/f/7/5/f755c0fd-025c-4aa9-920b-909abb8302ad/ER-data-import-and-export-details.xlsx) als sjabloon wanneer u de ER-indeling ontwerpt. (Speel de taakbegeleiding af voor informatie over het importeren van een indelingssjabloon.)
+U moet een nieuwe configuratie voor de ER-indeling maken waarbij het gegevensmodel **Intrastat** als bron van zakelijke gegevens wordt gebruikt. Deze indelingsconfiguratie moet uitvoerresultaten als elektronische documenten in de indeling OpenXML (Excel-bestand) genereren. Speel voor meer informatie de taakbegeleiding **ER Een configuratie maken voor het genereren van rapporten in OPENXML-indeling** af. Geef de nieuwe configuratie de naam **Import-/exportactiviteiten**, zoals in de volgende afbeelding. Gebruik het Excel-bestand [ER-gegevens - import- en exportdetails](https://go.microsoft.com/fwlink/?linkid=845208) als sjabloon wanneer u de ER-indeling ontwerpt. (Speel de taakbegeleiding af voor informatie over het importeren van een indelingssjabloon.)
 
-[![Configuratie van Import-/exportactiviteiten.](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png)
+[![Configuratie van Import-/exportactiviteiten](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png)
 
 Ga als volgt te werk om de indelingsconfiguratie **Import-/exportactiviteiten** te wijzigen.
 
 1. Klik op **Ontwerper**.
 2. Geef op het tabblad **Indeling** het bestandelement voor deze indeling de naam **Excel-uitvoerbestand**.
 
-    [![Element Excel-uitvoerbestand.](./media/ger-power-bi-format-configuration-file-element-name-1024x395.png)](./media/ger-power-bi-format-configuration-file-element-name.png)
+    [![Element Excel-uitvoerbestand](./media/ger-power-bi-format-configuration-file-element-name-1024x395.png)](./media/ger-power-bi-format-configuration-file-element-name.png)
 
 3. Geef op het tabblad **Toewijzing** de naam van het Excel-bestand op dat wordt gegenereerd als deze indeling wordt uitgevoerd. Configureer de gerelateerde expressie om de waarde **Import- en exportdetails** te retourneren (de bestandsnaamextensie .xlsx wordt automatisch toegevoegd).
 
-    [![Indelingsontwerper.](./media/ger-power-bi-format-configuration-output-file-name-1024x396.png)](./media/ger-power-bi-format-configuration-output-file-name.png)
+    [![Indelingsontwerper](./media/ger-power-bi-format-configuration-output-file-name-1024x396.png)](./media/ger-power-bi-format-configuration-output-file-name.png)
 
 4. Voeg een nieuw gegevensbronitem voor deze indeling toe. (Deze opsomming is vereist voor verdere gegevensbinding.)
 
@@ -92,19 +94,19 @@ Ga als volgt te werk om de indelingsconfiguratie **Import-/exportactiviteiten** 
     2. Selecteer **Opsomming van gegevensmodel** als gegevensbrontype.
     3. Verwijs naar de gegevensmodelopsomming **Richting**.
 
-    [![direction_enum.](./media/ger-power-bi-format-configuration-mapping-added-enum-1024x454.png)](./media/ger-power-bi-format-configuration-mapping-added-enum.png)
+    [![direction_enum](./media/ger-power-bi-format-configuration-mapping-added-enum-1024x454.png)](./media/ger-power-bi-format-configuration-mapping-added-enum.png)
 
 5. Voltooi de binding van elementen van het gegevensmodel **Intrastat** en elementen van de ontworpen indeling, zoals in de volgende afbeelding.
 
-    [![De binding voltooien.](./media/ger-power-bi-format-configuration-mapping-details-1024x454.png)](./media/ger-power-bi-format-configuration-mapping-details.png)
+    [![De binding voltooien](./media/ger-power-bi-format-configuration-mapping-details-1024x454.png)](./media/ger-power-bi-format-configuration-mapping-details.png)
 
 Nadat deze is uitgevoerd, genereert de ER-indeling het uitvoerresultaat in de Excel-indeling. De details van de Intrastat-transacties worden naar het uitvoerresultaat verzonden en hierbij wordt onderscheid gemaakt tussen de transacties die importactiviteiten en exportactiviteiten beschrijven. Klik op **Uitvoeren** om de nieuwe ER-indeling voor de lijst met Intrastat-transacties op de pagina **Intrastat** (**Belasting** &gt; **Aangiften** &gt; **Buitenlandse handel** &gt; **Intrastat**) te testen.
 
-[![Pagina Intrastat.](./media/ger-power-bi-format-test-run-transactions-1024x322.png)](./media/ger-power-bi-format-test-run-transactions.png)
+[![Pagina Intrastat](./media/ger-power-bi-format-test-run-transactions-1024x322.png)](./media/ger-power-bi-format-test-run-transactions.png)
 
 Het volgende uitvoerresultaat wordt gegenereerd. Het bestand wordt **Import- en exportdetails.xlsx** genoemd, zoals u in de indelingsinstellingen hebt opgegeven.
 
-[![Import- en exportdetails.xlsx.](./media/ger-power-bi-format-test-run-output-1024x472.png)](./media/ger-power-bi-format-test-run-output.png)
+[![Import- en exportdetails.xlsx](./media/ger-power-bi-format-test-run-output-1024x472.png)](./media/ger-power-bi-format-test-run-output.png)
 
 ## <a name="configure-the-er-destination"></a>De ER-bestemming configureren
 U moet het ER-framework configureren om het uitvoerresultaat van de nieuwe ER-indelingsconfiguratie op een speciale manier te verzenden.
@@ -126,35 +128,35 @@ Klik op de knop **Instellingen** voor de nieuwe bestemmingsrecord. Ga vervolgens
 1. Selecteer op de pagina **Configuraties** (**Organisatiebeheer** &gt; **Elektronische rapportage** &gt; **Configuraties**) in de configuratiestructuur de configuratie **Import-/exportactiviteiten** die u eerder hebt gemaakt.
 2. Wijzig de status van versie 1.1 van **Concept** in **Volledig** om deze indeling voor gebruik beschikbaar te maken.
 
-    [![Configuratie van activiteiten importeren/exporteren op de pagina Configuratie.](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
+    [![Pagina Configuraties](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
 
 3. Selecteer de voltooide versie van de configuratie **Import-/exportactiviteiten** en klik op **Uitvoeren**. De geconfigureerde bestemming wordt toegepast op het uitvoerresultaat dat in de Excel-indeling wordt gegenereerd.
 4. Stel de optie **Batchverwerking** in op **Ja** om dit rapport in een modus zonder toezicht uit te voeren.
 5. Klik op **Terugkeerpatroon** om het vereiste terugkeerpatroon van deze batchuitvoering te plannen. Met het terugkeerpatroon geeft u op hoe vaak de bijgewerkte gegevens naar Power BI worden overgedragen.
 
-    [![Dialoogvenster Parameters elektronisch rapport.](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png)
+    [![Dialoogvenster Parameters elektronisch rapport](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png)
 
 6. Na de configuratie vindt u de taak van de ER-rapportuitvoering op de pagina **Batchtaken** (**Systeembeheer &gt; Query's &gt; Batchtaken**).
 
-    [![Pagina Batchtaken.](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png)
+    [![Pagina Batchtaken](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png)
 
 7. Als deze taak voor het eerst wordt uitgevoerd, wordt een nieuw Excel-bestand met de geconfigureerde naam in de geselecteerde SharePoint-map gemaakt. Elke volgende keer dat de taak wordt uitgevoerd, wordt er een nieuwe versie van dit Excel-bestand gemaakt.
 
-    [![Nieuwe versie van het Excel-bestand.](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
+    [![Nieuwe versie van het Excel-bestand](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
 
 ## <a name="create-a-power-bi-dataset-by-using-the-output-result-of-the-er-format"></a>Een Power BI-gegevensset maken op basis van het uivoerresultaat van de ER-indeling
 1. Meld u aan bij Power BIen open een bestaande Power BI-groep (werkruimte ) of maak een nieuwe groep. Klik op **Toevoegen** onder **Bestanden** in het gedeelte **Importeren of verbinden met gegevens** of klik op het plusteken (**+**) naast **Gegevenssets** in het linkerdeelvenster.
 
-    [![Een gegevensset maken.](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png)
+    [![Een gegevensset maken](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png)
 
 2. Selecteer de optie **SharePoint – Teamsites** en voer vervolgens het pad in van de SharePoint-server die u gebruik (`https://ax7partner.litware.com` in ons voorbeeld).
 3. Blader naar de map **/Shared Documents/GER data/PowerBI** en selecteer het Excel-bestand dat u als de gegevensbron voor de nieuwe Power BI-gegevensset hebt gemaakt.
 
-    [![Het Excel-bestand selecteren.](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png)
+    [![Het Excel-bestand selecteren](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png)
 
 4. Klik op **Verbinden** en klik vervolgens op **Importeren**. Er wordt een nieuwe gegevensset gemaakt die is gebaseerd op het geselecteerde Excel-bestand. De gegevensset kan ook automatisch aan het nieuwe dashboard worden toegevoegd.
 
-    [![Gegevensset op het dashboard.](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png)
+    [![Gegevensset op het dashboard](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png)
 
 5. Configureer het schema voor vernieuwen voor deze gegevensset om een periodieke update af te dwingen. Bij periodieke updates kunnen nieuwe bedrijfsgegevens worden gebruikt die zijn gegenereerd uit periodieke uitvoering van het ER-rapport door nieuwe versies van het Excel-bestand die op de SharePoint-server worden gemaakt.
 
@@ -168,17 +170,17 @@ Klik op de knop **Instellingen** voor de nieuwe bestemmingsrecord. Ga vervolgens
 
 3. Sla het Power BI-rapport op als **Rapport Import- en exportdetails**.
 
-    [![Rapport Import- en exportdetails.](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png)
+    [![Rapport Import- en exportdetails](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png)
 
     Op de kaart worden de landen/regio's weergegeven die in het Excel-bestand worden vermeld (Oostenrijk en Zwitserland in dit voorbeeld). Met kleuren wordt de verhouding gefactureerde bedragen voor elk weergegeven.
 
 4. Werk de lijst met Intrastat-transacties bij. De exporttransactie uit Italië wordt toegevoegd.
 
-    [![Lijst Intrastat-transacties.](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png)
+    [![Lijst Intrastat-transacties](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png)
 
 5. Wacht tot de volgende geplande uitvoering van het ER-rapport en de volgende geplande update van de Power BI-gegevensset. Controleer vervolgens het Power BI-rapport (geef alleen geïmporteerde transacties weer). De bijgewerkte kaart bevat nu Italië.
 
-    [![Bijgewerkte kaart.](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
+    [![Bijgewerkte kaart](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
 
 ## <a name="access-power-bi-report-in-finance"></a>Power BI-rapport in Finance openen
 Stel integratie met Power BI in. Zie voor meer informatie [Power BI-integratie voor werkgebieden configureren](configure-power-bi-integration.md).
@@ -187,13 +189,10 @@ Stel integratie met Power BI in. Zie voor meer informatie [Power BI-integratie v
 2. Selecteer het Power BI-rapport **Import- en exportdetails** dat u hebt gemaakt om dat rapport als actie-item weer te geven op de geselecteerde pagina.
 3. Klik op het actie-item om de pagina te openen met het rapport dat u in Power BI hebt ontworpen.
 
-    [![Rapport Import- en exportdetails ontworpen in Power BI.](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
+    [![Rapport Import- en exportdetails](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
-## <a name="additional-resources"></a>Aanvullende bronnen
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md)
 
 [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,93 +1,70 @@
 ---
 title: Overzicht van fiscale integratie voor Commerce-kanalen
 description: Dit onderwerp biedt een overzicht van de fiscale integratiefuncties die beschikbaar zijn in Dynamics 365 Commerce.
-author: EvgenyPopovMBS
-ms.date: 01/31/2022
+author: josaw
+manager: annbe
+ms.date: 02/01/2019
 ms.topic: article
-audience: Application User, Developer, IT Pro
-ms.reviewer: v-chgriffin
+ms.prod: ''
+ms.service: dynamics-365-retail
+ms.technology: ''
+ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
+audience: Application User
+ms.reviewer: josaw
 ms.search.region: Global
+ms.search.industry: Retail
 ms.author: epopov
-ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 82913eaca1d56a5b0609480d8825717278eca132
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.search.validFrom: 2019-1-16
+ms.dyn365.ops.version: 10
+ms.openlocfilehash: 2f1abf29058e773f1645301fcd7a960df488d92b
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077187"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017462"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Overzicht van fiscale integratie voor Commerce-kanalen
 
 [!include [banner](../includes/banner.md)]
-[!include[banner](../includes/preview-banner.md)]
 
-Dit onderwerp biedt een overzicht van de fiscale integratiefuncties die beschikbaar zijn in Dynamics 365 Commerce. 
+## <a name="introduction"></a>Inleiding
 
-Fiscale integratie omvat integratie met verschillende fiscale apparaten en services die fiscale registratie mogelijk maken van verkoop, in overeenstemming met de lokale belastingwetgeving die gericht is op het voorkomen van belastingfraude in de detailhandel. Dit zijn enkele veelvoorkomende scenario's die kunnen worden gedekt door fiscale integratie:
+Dit onderwerp biedt een overzicht van de fiscale integratiefuncties die beschikbaar zijn in Dynamics 365 Commerce. Fiscale integratie omvat integratie met verschillende fiscale apparaten en services die fiscale registratie mogelijk maken van verkoop, in overeenstemming met de lokale belastingwetgeving die gericht is op het voorkomen van belastingfraude in de detailhandel. Dit zijn enkele veelvoorkomende scenario's die kunnen worden gedekt door fiscale integratie:
 
 - Registreer een verkoop op een fiscaal apparaat dat is verbonden met POS, zoals een fiscale printer, en druk een fiscaal ontvangstbewijs voor de klant af.
 - Dien veilig informatie die verband houdt met verkopen en retouren die worden voltooid in Retail POS, in bij een externe webservice die wordt bediend door de belastingdienst.
 - Help intactheid van verkooptransactiegegevens garanderen met behulp van digitale ondertekening.
 
-De functionaliteit voor fiscale integratie is een raamwerk dat een gemeenschappelijke oplossing biedt voor verdere ontwikkeling en aanpassing van de integratie tussen Retail POS en fiscale apparaten en services. De functionaliteit bevat ook fiscale integratievoorbeelden die ondersteuning bieden voor basisscenario's voor specifieke landen of regio's, en die werken met specifieke fiscale apparaten of services. Een fiscaal integratievoorbeeld bestaat uit verschillende uitbreidingen van de Commerce-onderdelen en is opgenomen in de SDK (Software Development Kit). Zie voor meer informatie over de voorbeelden van fiscale integratie [Voorbeelden van fiscale integratie in de Commerce-SDK](#fiscal-integration-samples-in-the-commerce-sdk). Zie voor informatie over het installeren en gebruiken van de Commerce-SDK [Architectuur van Retail-SDK (Software Development Kit)](../dev-itpro/retail-sdk/retail-sdk-overview.md).
+De functionaliteit voor fiscale integratie is een raamwerk dat een gemeenschappelijke oplossing biedt voor verdere ontwikkeling en aanpassing van de integratie tussen Retail POS en fiscale apparaten en services. De functionaliteit bevat ook fiscale integratievoorbeelden die ondersteuning bieden voor basisscenario's voor specifieke landen of regio's, en die werken met specifieke fiscale apparaten of services. Een fiscaal integratievoorbeeld bestaat uit verschillende uitbreidingen van de Commerce-onderdelen en is opgenomen in de SDK (Software Development Kit). Zie voor meer informatie over de voorbeelden van fiscale integratie [Voorbeelden van fiscale integratie in de Retail-SDK](#fiscal-integration-samples-in-the-retail-sdk). Zie voor informatie over het installeren en gebruiken van de Retail-SDK [Architectuur van Retail-SDK (Software Development Kit)](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
 Ter ondersteuning van andere scenario's die niet worden ondersteund door een fiscaal integratievoorbeeld, om Retail POS te integreren met andere fiscale apparaten of services of om te voldoen aan vereisten van andere landen of regio's, moet u een bestaand fiscaal integratievoorbeeld uitbreiden of een nieuw voorbeeld maken op basis van een bestaand voorbeeld.
 
-## <a name="fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services"></a>Voorbeelden van fiscaal registratieproces en fiscale integratie voor fiscale apparaten en services
+## <a name="fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices"></a>Fiscale registratieproces- en fiscale integratievoorbeelden voor fiscale apparaten
 
-Een fiscaal registratieproces in Retail POS kan bestaan uit een of meer stappen. Elke stap omvat fiscale registratie van specifieke transacties of gebeurtenissen in één fiscaal apparaat of service. De volgende oplossingsonderdelen maken deel uit van de fiscale registratie in een fiscaal apparaat of fiscale service:
+Een fiscaal registratieproces in Retail POS kan bestaan uit een of meer stappen. Elke stap omvat fiscale registratie van specifieke transacties of gebeurtenissen in één fiscaal apparaat of service. De volgende oplossingsonderdelen maken deel uit van de fiscale registratie in een fiscaal apparaat dat is verbonden met een Hardware-station:
 
-- **Fiscale documentprovider**: met dit onderdeel worden gegevens van transacties/gebeurtenissen geserialiseerd in de indeling die ook wordt gebruikt voor interactie met het fiscale apparaat of de fiscale service, worden antwoorden van het fiscale apparaat of de fiscale service geparseerd en worden de antwoorden in de kanaaldatabase opgeslagen. De extensie definieert ook de specifieke transacties en gebeurtenissen die moeten worden geregistreerd.
-- **Fiscale connector**: met dit onderdeel wordt de communicatie geïnitialiseerd met het fiscale apparaat of de fiscale service, worden aanvragen verzonden naar of opdrachten gegeven aan het fiscale apparaat of de fiscale service op basis van de gegevens van transacties/gebeurtenissen die afkomstig zijn uit het fiscale document, en worden antwoorden van het fiscale apparaat of de fiscale service ontvangen.
+- Extensie **Commerce runtime (CRT)**: dit onderdeel serialiseert gebeurtenissen van transacties/gebeurtenissen in de indeling die ook wordt gebruikt voor interactie met het fiscale apparaat, ontleedt antwoorden van het fiscale apparaat en slaat de antwoorden op in de afzetkanaaldatabase. De extensie definieert ook de specifieke transacties en gebeurtenissen die moeten worden geregistreerd. Naar dit onderdeel wordt vaak verwezen als een *fiscale documentprovider*.
+- **Extensie Hardware-station**: dit onderdeel initialiseert de communicatie met het fiscale apparaat, verzendt aanvragen en directe opdrachten naar het fiscale apparaat op basis van de gegevens van transacties/gebeurtenissen die afkomstig zijn uit het fiscale document en ontvangt antwoorden van het fiscale apparaat. Naar dit onderdeel wordt vaak verwezen als een *fiscale connector*.
 
-Een voorbeeld van een fiscale integratie kan de extensies Commerce runtime (CRT), Hardwarestation en POS bevatten voor een fiscale documentprovider en een fiscale connector. Het bevat ook de volgende componentconfiguraties:
+Een fiscaal integratievoorbeeld voor een fiscaal apparaat bevat de extensies CRT en Hardware-station voor respectievelijk een fiscale documentprovider en een fiscale connector. Het bevat ook de volgende componentconfiguraties:
 
-- **Configuratie van fiscale documentprovider**: deze configuratie bepaalt een uitvoermethode en een indeling voor fiscale documenten. De configuratie bevat ook een gegevenstoewijzing voor belastingen en betalingsmethoden om gegevens uit Retail POS compatibel te maken met de waarden die vooraf zijn gedefinieerd in de firmware van het fiscale apparaat of de fiscale service.
-- **Configuratie van fiscale connector**: deze configuratie bepaalt de fysieke communicatie met het specifieke fiscale apparaat of de specifieke fiscale service.
+- **Configuratie van fiscale documentprovider**: deze configuratie bepaalt een uitvoermethode en een indeling voor fiscale documenten. De configuratie bevat ook een gegevenstoewijzing voor belastingen en betalingsmethoden om gegevens uit Retail POS compatibel te maken met de waarden die vooraf zijn gedefinieerd in de firmware van het fiscale apparaat.
+- **Configuratie van fiscale connector**: deze configuratie bepaalt de fysieke communicatie met het specifieke fiscale apparaat.
 
-Een fiscaal registratieproces voor een bepaalde POS-kassa wordt gedefinieerd door een bijbehorende instelling in het POS-functionaliteitsprofiel. Zie voor meer informatie over het configureren van een fiscaal registratieproces, het uploaden van configuraties voor de fiscale documentprovider en fiscale connector en het wijzigen van configuratieparameters [Een fiscaal registratieproces instellen](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
+Een fiscaal registratieproces voor een bepaalde POS-kassa wordt gedefinieerd door een bijbehorende instelling in het POS-functionaliteitsprofiel. Voor meer informatie over het configureren van een fiscaal registratieproces uploadt u configuraties voor de fiscale documentprovider en connector en wijzigt u de parameters ervan. Zie [Een fiscaal registratieproces instellen](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
 
-De volgende typische fiscale registratiestroom begint met een gebeurtenis in het POS (bijvoorbeeld de voltooien van een verkooptransactie) en implementeert een vooraf gedefinieerde stappenvolgorde die andere Commerce-onderdelen betreft (zoals CRT en Hardwarestation).
+Het volgende voorbeeld toont een gebruikelijke fiscale registratie-uitvoeringsstroom voor een fiscaal apparaat. De stroom begint met een gebeurtenis in het POS (bijvoorbeeld de voltooiing van een verkooptransactie) en implementeert de volgende reeks stappen:
 
-1. In het POS wordt een fiscaal document van het FIF (Fiscal Integration Framework) gevraagd.
-1. Het FIF bepaalt of voor de huidige gebeurtenis fiscale registratie is vereist.
-1. Op basis van de instellingen voor het fiscale registratieproces, identificeert het FIF een fiscale connector en een bijbehorende fiscale documentprovider die moet worden gebruikt voor de fiscale registratie.
-1. Het FIF voert de fiscale documentprovider uit waarmee een fiscaal document wordt gegenereerd (bijvoorbeeld een XML-document) dat de transactie of gebeurtenis vertegenwoordigt.
-1. Het FIF retourneert het gegenereerde fiscale document naar het POS.
-1. Het POS vraagt het FIF het fiscale document naar het fiscale apparaat of de fiscale service te verzenden.
-1. Het FIF voert de fiscale connector uit waarmee het fiscale document wordt verwerkt en verzendt het naar het fiscale apparaat of de fiscale service.
-1. Het FIF retourneert het fiscale antwoord (het antwoord van het fiscale apparaat of de fiscale service) naar het POS.
-1. Het POS analyseert het fiscale antwoord om te bepalen of de fiscale registratie is gelukt. Het POS vraagt het FIF indien nodig om eventuele opgetreden fouten te verwerken. 
-1. Het POS vraagt het FIF het fiscale antwoord te verwerken en op te slaan.
-1. De fiscale documentprovider verwerkt het fiscale antwoord. Als onderdeel van deze verwerking verwerkt de fiscale documentprovider het antwoord en worden op basis hiervan uitgebreide gegevens geëxtraheerd.
-1. Het FIF slaat het antwoord en de uitgebreide gegevens in de kanaaldatabase op.
-1. Het POS drukt zo nodig een ontvangstbewijs af via een normale printer voor kassabonnen die is gekoppeld aan het hardwarestation. Het ontvangstbewijs kan vereiste gegevens uit het fiscale antwoord bevatten.
- 
-De volgende voorbeelden laten fiscale registratie-uitvoeringsstromen zien voor typische fiscale apparaten of services.
- 
-### <a name="fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station"></a>Fiscale registratie wordt uitgevoerd via een apparaat dat is gekoppeld aan het hardwarestation.
+1. Het POS vraagt een fiscaal document aan bij CRT.
+2. CRT bepaalt of de huidige gebeurtenis fiscale registratie vereist.
+3. Op basis van de instellingen voor het fiscale registratieproces, identificeert CRT een fiscale connector en de bijbehorende fiscale documentprovider die moet worden gebruikt voor de fiscale registratie.
+4. CRT wordt uitgevoerd voor de fiscale documentprovider die een fiscaal document genereert (bijvoorbeeld een XML-document) dat staat voor de transactie of gebeurtenis.
+5. Het POS verzendt het fiscale document dat CRT voorbereidt naar een Hardware-station.
+6. Het Hardware-station voert de fiscale connector uit die het fiscale document verwerkt en doorgeeft aan het fiscale apparaat of service.
+7. Het POS analyseert de reactie van het fiscale apparaat of service om te bepalen of de fiscale registratie voltooid is.
+8. CRT slaat het antwoord op in de afzetkanaaldatabase.
 
-Deze configuratie wordt gebruikt wanneer een fysiek fiscaal apparaat, zoals een fiscale printer, aan het hardwarestation is gekoppeld. Deze configuratie is ook van toepassing als de communicatie met een fiscaal apparaat of fiscale service wordt uitgevoerd via software die op het hardwarestation is geïnstalleerd. In dit geval bevindt de fiscale documentprovider zich in CRT en de fiscale connector op het hardwarestation.
-
-![Fiscale registratie uitgevoerd via een apparaat dat is gekoppeld aan het hardwarestation.](media/FIF-CRT-HWS.png)
-
-### <a name="fiscal-registration-is-done-via-an-external-service"></a>Fiscale registratie wordt via een externe service uitgevoerd
-
-Deze configuratie wordt gebruikt wanneer fiscale registratie via een externe service wordt uitgevoerd, zoals een webservice van de belastingdienst. In dit geval bevinden zowel de fiscale documentprovider als de fiscale connector zich in CRT.
-
-![Fiscale registratie uitgevoerd via een externe service](media/FIF-CRT-CRT.png)
- 
-### <a name="fiscal-registration-is-done-internally-in-the-crt"></a>Fiscale registratie wordt intern uitgevoerd in de CRT
-
-Deze configuratie wordt gebruikt als er geen extern fiscaal apparaat of fiscale service vereist is voor fiscale registratie. De configuratie wordt bijvoorbeeld gebruikt wanneer fiscale registratie wordt uitgevoerd via het digitaal ondertekenen van verkooptransacties. In dit geval bevinden zowel de fiscale documentprovider als de fiscale connector zich in CRT.
-
-![Fiscale registratie wordt intern uitgevoerd in de CRT.](media/FIF-CRT-CRT-SGN.png)
-
-### <a name="fiscal-registration-is-done-via-a-device-or-service-in-the-local-network"></a>Fiscale registratie wordt uitgevoerd via een apparaat of service in het lokale netwerk
-
-Deze configuratie wordt gebruikt wanneer een fysiek fiscaal apparaat of fiscale service aanwezig is in het lokale netwerk van de winkel en een HTTPS-API (Application Programming Interface) bevat. In dit geval bevindt de fiscale documentprovider zich in de CRT en de fiscale connector in het POS.
-
-![Fiscale registratie wordt uitgevoerd via een apparaat of service in het lokale netwerk.](media/FIF-CRT-POS.png)
+![Oplossingsschema](media/emea-fiscal-integration-solution.png "Oplossingsschema")
 
 ## <a name="error-handling"></a>Foutverwerking
 
@@ -97,24 +74,19 @@ Het fiscale integratieraamwerk biedt de volgende opties voor het afhandelen van 
 - **Annuleren**: met deze optie kunnen operators de fiscale registratie van de huidige transactie of gebeurtenis uitstellen als deze mislukt. Nadat de registratie is uitgesteld, kan de operator blijven werken op het POS en kan elke bewerking worden voltooid waarvoor geen fiscale registratie vereist is. Wanneer een gebeurtenis de fiscale registratie vereist in het POS (er wordt bijvoorbeeld een nieuwe transactie geopend), wordt het dialoogvenster voor foutafhandeling automatisch weergegeven om de operator te informeren dat de vorige transactie niet correct is geregistreerd en om opties voor foutafhandeling te bieden.
 - **Overslaan**: operators kunnen deze optie gebruiken wanneer de fiscale registratie onder bepaalde voorwaarden kan worden weggelaten en normale bewerkingen kunnen doorgaan in het POS. Deze optie kan bijvoorbeeld worden gebruikt wanneer een verkooptransactie waarvoor de fiscale registratie is mislukt, kan worden geregistreerd in een speciaal papieren journaal.
 - **Markeren als geregistreerd**: operatoren kunnen deze optie gebruiken als de transactie is geregistreerd in het fiscale apparaat (er is bijvoorbeeld een fiscaal ontvangstbewijs afgedrukt), maar er een fout is opgetreden bij het opslaan van het fiscale antwoord in de afzetkanaaldatabase.
-- **Uitstellen**: operatoren kunnen deze optie gebruiken als de transactie niet is geregistreerd omdat de registratieservice niet beschikbaar was. 
 
 > [!NOTE]
-> De opties **Overslaan**, **Markeren als geregistreerd** en **Uitstellen** moeten in het fiscale registratieproces worden geactiveerd voordat ze worden gebruikt. Bovendien moeten bijbehorende machtigingen worden toegekend aan operators.
+> De opties **Overslaan** en **Markeren als geregistreerd** moeten in het fiscale registratieproces worden geactiveerd voordat ze worden gebruikt. Bovendien moeten bijbehorende machtigingen worden toegekend aan operators.
 
-De opties **Overslaan**, **Markeren als geregistreerd** en **Uitstellen** maken informatiecodes mogelijk om bepaalde specifieke informatie over een fout op te slaan, zoals de reden voor de fout of een uitleg van de reden waarom de fiscale registratie is overgeslagen of de transactie als geregistreerd is gemarkeerd. Zie voor meer informatie over het instellen van parameters voor foutafhandeling [Instellingen voor het verwerken van fouten kiezen](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+De opties **Overslaan** en **Markeren als geregistreerd** maken infocodes mogelijk om bepaalde specifieke informatie over de fout op te slaan, zoals de reden voor de fout of een uitleg van waarom de fiscale registratie is overgeslagen of de transactie als geregistreerd is gemarkeerd. Zie voor meer informatie over het instellen van parameters voor foutafhandeling [Instellingen voor het verwerken van fouten kiezen](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
 ### <a name="optional-fiscal-registration"></a>Optionele fiscale registratie
 
 Fiscale registratie kan verplicht zijn voor bepaalde bewerkingen, maar optioneel voor andere bewerkingen. De fiscale registratie van normale verkopen en retouren kan bijvoorbeeld verplicht zijn, maar de fiscale registratie van bewerkingen die zijn gerelateerd aan klantdeposito´s kan optioneel zijn. In dit geval wordt verdere verkoop geblokkeerd als er geen fiscale registratie van een verkoop plaatsvindt, maar als de fiscale registratie van een klantdeposito niet wordt uitgevoerd, wordt verdere verkoop niet geblokkeerd. Om een onderscheid te maken tussen verplichte en optionele bewerkingen wordt aangeraden deze af te handelen via verschillende documentproviders en afzonderlijke stappen in het proces van fiscale registratie voor deze providers in te stellen. De parameter **Doorgaan bij fout** moet worden ingeschakeld voor elke stap die is gerelateerd aan optionele fiscale registratie. Zie voor meer informatie over het instellen van parameters voor foutafhandeling [Instellingen voor het verwerken van fouten kiezen](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
-### <a name="manually-rerun-fiscal-registration"></a>Fiscale registratie handmatig opnieuw uitvoeren
+### <a name="manually-running-fiscal-registration"></a>Fiscale registratie handmatig uitvoeren
 
 Als de fiscale registratie van een transactie of gebeurtenis is uitgesteld na een fout (bijvoorbeeld als de operator **Annuleren** heeft geselecteerd in het dialoogvenster voor foutafhandeling), kunt u de fiscale registratie handmatig opnieuw uitvoeren door een bijbehorende bewerking aan te roepen. Zie voor meer informatie [Handmatige uitvoering van uitgestelde fiscale registratie inschakelen](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
-
-### <a name="postpone-option"></a>Optie Uitstellen
-
-Met de optie **Uitstellen** kunt u doorgaan met het fiscale registratieproces als de huidige stap mislukt. De optie kan worden gebruikt als er een back-upoptie voor fiscale registratie is.
 
 ### <a name="fiscal-registration-health-check"></a>Statuscontrole fiscale registratie
 
@@ -143,10 +115,8 @@ Fiscale transacties worden overgeboekt naar Headquarters door de *P-taak* samen 
 Een fiscale transactie wordt opgeslagen met de volgende gegevens:
 
 - Details van fiscaal registratieproces (proces, connectorgroep, connector, enzovoort). Slaat ook het serienummer van het fiscale apparaat op in het veld **Kassanummer** als deze informatie is opgenomen in het fiscale antwoord.
-- De status van de fiscale registratie: **Voltooid** voor succesvolle registratie, **Overgeslagen** als de operator de optie **Overslaan** heeft geselecteerd voor een mislukte registratie, **Gemarkeerd als geregistreerd** als de operator de optie **Markeren als geregistreerd** heeft geselecteerd of **Uitgesteld** als de operator de optie **Uitstellen** heeft geselecteerd.
-- Infocodetransacties weergeven die zijn gekoppeld aan een geselecteerde fiscale transactie. Als u de infocodetransacties wilt weergeven, selecteert u op het sneltabblad **Fiscale transacties** een fiscale transactie met de status **Overgeslagen**, **Gemarkeerd als geregistreerd** of **Uitgesteld** en selecteert u vervolgens **Informatiecodetransacties**.
-
-Als u **Uitgebreide gegevens** selecteert, kunt u ook bepaalde eigenschappen van de fiscale transactie weergeven. De lijst met eigenschappen die kunnen worden weergegeven, is specifiek voor de fiscale registratiefunctionaliteit die de fiscale transactie heeft gegenereerd. U kunt bijvoorbeeld de digitale handtekening, het opeenvolgende nummer, het certificaatsalgoritme, de hash-algoritme-id en andere eigenschappen voor fiscale transacties voor de functionaliteit voor digitale ondertekening voor Frankrijk weergeven.
+- De status van de fiscale registratie: **Voltooid** voor succesvolle registratie, **Overgeslagen** als de operator de optie **Overslaan** heeft geselecteerd voor een mislukte registratie of **Gemarkeerd als geregistreerd** als de operator de optie **Markeren als geregistreerd** heeft geregistreerd.
+- Infocodetransacties weergeven die zijn gekoppeld aan een geselecteerde fiscale transactie. Als u de infocodetransacties wilt weergeven, selecteert u op het sneltabblad **Fiscale transacties** een fiscale transactie met de status **Overgeslagen** of **Gemarkeerd als geregistreerd** en selecteert u vervolgens **Informatiecodetransacties**.
 
 ## <a name="fiscal-texts-for-discounts"></a>Fiscale teksten voor kortingen
 
@@ -159,30 +129,23 @@ De functionaliteit voor fiscale integratie ondersteunt het genereren van eindeda
 - Nieuwe knoppen die corresponderende bewerkingen uitvoeren, moeten worden toegevoegd aan de POS-schermindeling. Zie voor meer informatie [X/Z-rapporten instellen vanaf het POS](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
 - In het fiscale integratievoorbeeld moeten deze bewerkingen worden vergeleken met de bijbehorende bewerkingen van het fiscale apparaat.
 
-## <a name="fiscal-integration-samples-in-the-commerce-sdk"></a>Fiscale integratievoorbeelden in de Commerce-SDK
+## <a name="fiscal-integration-samples-in-the-retail-sdk"></a>Fiscale integratievoorbeelden in de Retail-SDK
 
-De volgende fiscale integratievoorbeelden zijn momenteel beschikbaar in de Commerce-SDK:
+De volgende fiscale integratievoorbeelden zijn momenteel beschikbaar in de Retail-SDK:
 
-- [Voorbeeld van integratie van fiscale printer voor Italië](./emea-ita-fpi-sample.md)
-- [Voorbeeld van integratie van fiscale printer voor Polen](./emea-pol-fpi-sample.md)
-- [Voorbeeld van integratie van fiscale registratieservice voor Oostenrijk](./emea-aut-fi-sample.md)
-- [Voorbeeld van integratie van fiscale registratieservice voor Tsjechië](./emea-cze-fi-sample.md)
+- [Voorbeeld van integratie van fiscale printer voor Italië](emea-ita-fpi-sample.md)
+- [Voorbeeld van integratie van fiscale printer voor Polen](emea-pol-fpi-sample.md)
+- [Voorbeeld van integratie van fiscale registratieservice voor Oostenrijk](emea-aut-fi-sample.md)
+- [Voorbeeld van integratie van fiscale registratieservice voor Tsjechië](emea-cze-fi-sample.md)
 - [Regeleenheidintegratievoorbeeld voor Zweden](./emea-swe-fi-sample.md)
 - [Voorbeeld van integratie van fiscale registratieservice voor Duitsland](./emea-deu-fi-sample.md)
-- [Voorbeeld van integratie van fiscale printer voor Rusland](./rus-fpi-sample.md)
 
-De volgende functionaliteit voor fiscale integratie wordt ook geïmplementeerd met behulp van het fiscale integratieraamwerk, maar is kant-en-klaar beschikbaar en is niet opgenomen in de Commerce-SDK:
+De volgende fiscale Integratiefunctionaliteit is ook beschikbaar in de Retail-SDK, maar maakt op het moment geen gebruik van het fiscale integratieraamwerk. Migratie van deze functionaliteit naar het fiscale integratieraamwerk is gepland voor latere updates.
 
-- [Fiscale registratie voor Brazilië](./latam-bra-commerce-localization.md#fiscal-registration-for-brazil)
-- [Digitale handtekening voor Frankrijk](./emea-fra-cash-registers.md)
 
-De volgende fiscale Integratiefunctionaliteit is ook beschikbaar in de Commerce-SDK, maar deze maakt op het moment geen gebruik van het fiscale integratieraamwerk. Migratie van deze functionaliteit naar het fiscale integratieraamwerk is gepland voor latere updates.
+- [Digitale handtekening voor Frankrijk](emea-fra-cash-registers.md)
+- [Digitale handtekening voor Noorwegen](emea-nor-cash-registers.md)
 
-- [Digitale handtekening voor Noorwegen](./emea-nor-cash-registers.md)
-
-De volgende verouderde functionaliteit voor fiscale integratie die beschikbaar is in de Commerce-SDK maakt geen gebruik van het raamwerk voor fiscale integratie en wordt afgeschaft in latere updates:
+De volgende verouderde functionaliteit voor fiscale integratie die beschikbaar is in Retail SDK maakt geen gebruik van het raamwerk voor fiscale integratie en wordt afgeschaft in latere updates:
 
 - [Regeleenheidintegratievoorbeeld voor Zweden (verouderd)](./retail-sdk-control-unit-sample.md)
-- [Digitale handtekening voor Frankrijk (verouderd)](./emea-fra-deployment.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

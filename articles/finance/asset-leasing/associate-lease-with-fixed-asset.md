@@ -2,30 +2,32 @@
 title: Vaste activa koppelen met leases
 description: In dit onderwerp wordt uitgelegd hoe u een bestaand vast activum aan een nieuwe lease koppelt.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeaseDetail
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: bd55d433b0961b8b210b9c28d7340ff880635a85
-ms.sourcegitcommit: 3af457fc216bd0020843291ca57fd379acb53c96
+ms.openlocfilehash: d627633e43c2e6f5cad90dfe4100ff95a71541f7
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "7392469"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4442168"
 ---
 # <a name="associate-fixed-assets-with-leases"></a>Vaste activa koppelen met leases
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u een bestaand vast activum aan een nieuwe lease koppelt. Wanneer u een vast activum koppelt aan een lease, wordt de waarde van het activum met gebruiksrecht (RoU) bij de eerste toerekening gebruikt als de verwervingskosten van het vaste activum.
 
@@ -50,18 +52,5 @@ Nadat u de journaalboeking voor de eerste toerekening hebt uitgevoerd, wordt de 
 
 De vaste activa kunnen nu worden afgeschreven met de standaard afschrijvingsfunctionaliteit in Vaste activa. Zie voor meer informatie [Afschrijvingsmethoden en conventies](../fixed-assets/depreciation-methods-conventions.md).
 
-Wanneer een lease is gekoppeld aan een vast activum, wordt het veld **Levensduur** in het vaste-activaboek bijgewerkt met de kleinste waarde uit de volgende criteria: 
-
- - De economische levensduur van het activum
- - De leasetermijn uit het gekoppelde leaseboek
-
-Als het veld **Eigendomsoverdracht** is ingesteld op **Ja** voor het leaseboek, is de waarde in het veld **Levensduur** altijd de economische levensduur van het activum. 
- 
-De levensduur wordt elke keer bijgewerkt wanneer de lease wordt aangepast om ervoor te zorgen dat het activum met gebruiksrecht wordt afgeschreven gedurende de termijnlease, alsof het wordt afgeschreven in Activum leasen.
-
 > [!NOTE]
 > Als u een vast activum aan een lease koppelt, worden de knoppen **Afschrijving van activa** en **Leasewaardevermindering** uitgeschakeld in Activa leasen. U kunt transacties voor afschrijvingen van activa en waardevermindering voor leases weergeven in Vaste activa. De knop **Activatransacties**, waarmee een queryformulier wordt geopend, wordt ook uitgeschakeld. U kunt het queryformulier **Activatransacties** ook openen in Vaste activa.  
-
-Op de pagina's **Vaste activa** en **Vaste-activaboek** wordt de lease-id weergegeven die aan een vast activum is gekoppeld. Als een vast activum aan een lease is gekoppeld, worden de lease-id en de leaseomschrijving weergegeven op het sneltabblad **Lease-informatie** op de pagina **Vaste activa**. Voor vaste-activaboeken die aan leaseboeken zijn gekoppeld, worden via de velden **Lease-id**, **Leaseomschrijving** en **Boektype** gegevens weergegeven over het geselecteerde vaste-activaboek op het sneltabblad **Leasegegevens** om aan te geven dat deze zijn gekoppeld aan een leaseboek.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

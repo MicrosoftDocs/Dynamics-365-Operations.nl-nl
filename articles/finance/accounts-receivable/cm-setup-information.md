@@ -1,23 +1,26 @@
 ---
 title: Instellingen voor kredietbeheer
 description: In dit onderwerp worden de instellingen beschreven die zijn vereist voor kredietbeheer.
-author: JodiChristiansen
+author: mikefalkner
+manager: AnnBe
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9b9e756b678786d2c5a8c5bb9e890ce988090c09
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: d1d33dbbd37daaa75f4b64359194a2328728b27f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753660"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441834"
 ---
 # <a name="credit-management-setup"></a>Instellingen voor kredietbeheer 
 
@@ -150,6 +153,3 @@ Volg deze stappen om regels toe te voegen die de kredietlimiet aangeven die word
 2. Selecteer de vergelijkingsoperator waarmee wordt gedefinieerd hoe de informatie over de scoregroep moet worden geëvalueerd.
 3. Voer de waarde in die moet worden vergeleken met de waarde die is opgegeven voor de scoregroep.
 4. Voer de kredietlimiet in die moet worden toegewezen als de klantgegevens overeenkomen met de waarde die is opgegeven voor de scoregroep. U kunt bijvoorbeeld een automatische kredietlimiet maken voor de scoregroep **Laag**. Als het aantal jaren in bedrijf een van de scoregroepen is, kunt u één regel definiëren die een kredietlimiet van 100.000 toewijst als de klant vijf jaar in bedrijf is en een andere regel die een kredietlimiet van 200.000 limiet toewijst als de klant 10 jaar in bedrijf is.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

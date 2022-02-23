@@ -1,32 +1,35 @@
 ---
-title: Boekingsrekeningen voor verwerving van vaste activa
-description: In dit artikel wordt beschreven hoe u grootboekboekingsrekeningen instelt voor het aanschaffen van activa.
-author: moaamer
+title: Boekingsrekeningen verwerving vaste activa
+description: In dit artikel wordt beschreven hoe u grootboekboekingsrekeningen instelt voor het aanchaffen van activa.
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7718ab6ad40dd135a79d2d07def19465aef68b33
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 8fea6b1cd79b5536341a7cb50e5592ea38a7392d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675019"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441899"
 ---
-# <a name="fixed-asset-acquisition-posting-accounts"></a>Boekingsrekeningen voor verwerving van vaste activa
+# <a name="fixed-asset-acquisition-posting-accounts"></a>Boekingsrekeningen verwerving vaste activa
 
 [!include [banner](../includes/banner.md)]
 
-In dit artikel wordt beschreven hoe u grootboekboekingsrekeningen instelt voor het aanschaffen van activa.
+In dit artikel wordt beschreven hoe u grootboekboekingsrekeningen instelt voor het aanchaffen van activa.
 
 Rekeningen voor het boeken van verwervingen van vaste activa kunnen verschillen afhankelijk van de methode die wordt gebruikt om het activum te verwerven. Selecteer Verwerving en Verwervingscorrectie op de pagina Boekingsprofielen voor vaste activa op het tabblad Grootboekrekeningen vaste-activarekeningen in te stellen om naar het grootboek te boeken. 
 
@@ -42,6 +45,3 @@ Zie voor meer informatie [Verwerving van activa via inkoop](acquire-assets-procu
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,12 +2,15 @@
 title: Productbeoordelingen synchroniseren in Dynamics 365 Commerce
 description: In dit onderwerp wordt beschreven hoe u productbeoordelingen in Microsoft Dynamics 365 Commerce kunt synchroniseren.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: dec87b548f3a218e1f833b752305f373e893b14c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967945"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411444"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Productbeoordelingen synchroniseren in Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u productbeoordelingen in Microsoft Dynamics 365 Commerce kunt synchroniseren.
+
+## <a name="overview"></a>Overzicht
 
 Als u productbeoordelingen wilt gebruiken in omnichannels, zoals op het verkooppunt (POS) en in callcenters, moeten productbeoordelingen van de beoordelings- en revisieservice worden geïmporteerd in de database met Commerce-kanalen. Wanneer productbeoordelingen beschikbaar worden gemaakt in omnichannels, kunnen klanten tijdens hun interactie met verkoopmedewerkers indirect worden geholpen.
 
@@ -57,7 +62,7 @@ Voer de volgende stappen uit om te controleren of de subtaak **RetailproductRati
 
 In de volgende afbeelding ziet u een voorbeeld van subtaakdetails in Commerce.
 
-![Details van de subtaak RetailProductRating.](media/rnr-hq-ratings-sub-job.png)
+![Details van de subtaak RetailproductRating](media/rnr-hq-ratings-sub-job.png)
 
 > [!NOTE]
 > Als u de subtaak **RetailproductRating** niet kunt vinden, hebt u mogelijk al de taak **Productbeoordelingen synchroniseren** en de **1040 CDX**-taak uitgevoerd voordat u de Commerce-planner hebt geïnitialiseerd. Voer in dat geval de volgende stappen uit om de taak **Volledige gegevenssynchronisatie** uit te voeren.
@@ -81,7 +86,7 @@ Voer de volgende stappen uit om productbeoordelingen in Commerce te importeren v
 
 In de volgende afbeelding ziet u een voorbeeld van batchtaakconfiguratie in Commerce.
 
-![Configuratie van de batchtaak voor de synchronisatie van productbeoordelingen.](media/rnr-hq-batchjob-recurrence.png)
+![Configuratie van de batchtaak voor de synchronisatie van productbeoordelingen](media/rnr-hq-batchjob-recurrence.png)
 
 ## <a name="verify-that-the-batch-job-for-product-rating-synchronization-was-successful"></a>Controleren of de batchtaak voor het synchroniseren van productbeoordelingen is geslaagd
 
@@ -93,7 +98,7 @@ Ga als volgt te werk om te controleren of de batchtaak voor **synchroniseren van
 
 In de volgende afbeelding ziet u een voorbeeld van de details van de batchtaak in Commerce wanneer de batchtaak wordt uitgevoerd met een interval van twee uur.
 
-![Details van de batchtaak voor de synchronisatie van productbeoordelingen.](media/rnr-hq-batchjob-status-checking.png)
+![Details van de batchtaak voor de synchronisatie van productbeoordelingen](media/rnr-hq-batchjob-status-checking.png)
 
 ## <a name="make-product-ratings-available-at-the-pos"></a>Productbeoordelingen beschikbaar maken op het POS
 
@@ -111,17 +116,17 @@ Voer de volgende stappen uit om productbeoordelingen in te schakelen op het POS.
 
 In de volgende afbeelding ziet u een voorbeeld van de configuratie van de Commerce-parameters om productbeoordelingen in te schakelen op het POS.
 
-![Configuratie van Commerce-parameters voor productbeoordelingen op het POS.](media/rnr-hq-enable-ratings-in-pos.png)
+![Configuratie van Commerce-parameters voor productbeoordelingen op het POS](media/rnr-hq-enable-ratings-in-pos.png)
 
 In de volgende afbeelding ziet u een voorbeeld van de productbeoordelingen op het POS.
 
-![Productbeoordelingen op het POS.](media/rnr-pos-catalog-ratings.png)
+![Productbeoordelingen op het POS](media/rnr-pos-catalog-ratings.png)
 
 In de volgende afbeelding ziet u een voorbeeld van de productbeoordelingen in callcenterkanalen.
 
-![Productbeoordelingen in een callcenterkanaal.](media/rnr-call-center-ratings.png)
+![Productbeoordelingen in een callcenterkanaal](media/rnr-call-center-ratings.png)
 
-## <a name="additional-resources"></a>Aanvullende bronnen
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Overzicht beoordelingen en recensies](ratings-reviews-overview.md)
 
@@ -130,16 +135,3 @@ In de volgende afbeelding ziet u een voorbeeld van de productbeoordelingen in ca
 [Beoordelingen en recensies beheren](manage-reviews.md)
 
 [Beoordelingen en recensies configureren](configure-ratings-reviews.md)
-
-[Productbeoordelingen synchroniseren](sync-product-ratings.md)
-
-[Handmatig publiceren van beoordelingen en recensies inschakelen door een moderator](manual-publish-rating-reviews.md)
-
-[Beoordelingen en recensies importeren en exporteren](import-export-reviews.md)
-
-[Service-to-Service verificatie configureren](service-to-service-auth.md)
-
-[Veelgestelde vragen over beoordelingen en recensies](ratings-reviews-faq.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

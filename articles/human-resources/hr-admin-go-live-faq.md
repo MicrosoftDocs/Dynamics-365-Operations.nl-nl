@@ -2,12 +2,15 @@
 title: Veelgestelde vragen over go-live
 description: Dit onderwerp bevat veelgestelde vragen over hoe u live kunt gaan werken met een Dynamics 365 Human Resources-implementatieproject.
 author: rachel-profitt
+manager: tfehr
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,21 +18,16 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c449ae6eb84fb4150072c386d02b100ca3cca219
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: cbf00f7428c9b1852a5bf54fd7e30a3bddc1a31e
+ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067221"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4668940"
 ---
 # <a name="go-live-faq"></a>Veelgestelde vragen over go-live 
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dit onderwerp bevat veelgestelde vragen over hoe u live kunt gaan werken met een Dynamics 365 Human Resources-implementatieproject. 
 
@@ -50,7 +48,7 @@ Zie  [Voorbereiden op go-live](hr-admin-go-live-prepare.md) voor een lijst met
 
 ## <a name="what-is-a-go-live-assessment"></a>Wat is een go-live-beoordeling?  
 
-De go-live-beoordeling maakt deel uit van het  [Microsoft FastTrack-programma](/dynamics365/fasttrack/). Tijdens deze evaluatie beoordeelt een oplossingsarchitect of een implementatieproject gereed is voor een geslaagde cutover en go-live. Deze evaluatie is verplicht voor elk implementatieproject voordat u in een productieomgeving kunt verzoeken om live te gaan. 
+De go-live-beoordeling maakt deel uit van het  [Microsoft FastTrack-programma](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview). Tijdens deze evaluatie beoordeelt een oplossingsarchitect of een implementatieproject gereed is voor een geslaagde cutover en go-live. Deze evaluatie is verplicht voor elk implementatieproject voordat u in een productieomgeving kunt verzoeken om live te gaan. 
 
 ## <a name="our-sandbox-environments-are-deployed-in-the-central-us-datacenter-we-want-our-production-environments-to-be-deployed-in-the-west-us-datacenter-can-i-select-west-us-as-the-datacenter-in-my-production-configuration"></a>Onze Sandbox-omgevingen zijn geïmplementeerd in het Central US-datacenter. We willen dat onze productieomgevingen in het West US-datacenter worden geïmplementeerd. Kan ik West US als het datacenter selecteren in mijn productieconfiguratie? 
 
@@ -58,7 +56,7 @@ LCS weerhoudt u er niet van een ander datacenter te selecteren wanneer u een HRM
 
 Als u het West US-datacenter voor uw productieomgeving wilt, moet u eerst uw Sandbox-omgevingen opnieuw implementeren voor het West US-datacenter, deze testen en afmelden. 
 
-Zie [Netwerkvereisten](../fin-ops-core/fin-ops/get-started/system-requirements.md#network-requirements) voor informatie over het selecteren van het juiste datacenter. 
+Zie [Netwerkvereisten](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements#network-requirements) voor informatie over het selecteren van het juiste datacenter. 
 
 ## <a name="what-level-of-access-do-i-have-to-the-azure-resources-for-my-human-resources-environments"></a>Welk toegangsniveau heb ik nodig voor de Azure-resources voor mijn Human Resources-omgevingen?  
 
@@ -66,9 +64,9 @@ De toegang tot de Human Resources-omgevingen is beperkt. U hebt geen toegang tot
 
 Hoewel u niet direct toegang kunt krijgen tot de Azure-resources of Dynamics 365 Human Resources-omgeving, zijn er aanvullende functies die u kunt gebruiken om toegang te krijgen tot uw gegevens:
 
-- U kunt een Azure SQL-database implementeren in uw eigen Azure-tenant en de BYOD-functie (Bring Your Own Database) gebruiken om gegevens te synchroniseren. Meer informatie over BYOD vindt u in [Uw eigen database gebruiken (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md).
+- U kunt een Azure SQL-database implementeren in uw eigen Azure-tenant en de BYOD-functie (Bring Your Own Database) gebruiken om gegevens te synchroniseren. Meer informatie over BYOD vindt u in [Uw eigen database gebruiken (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database).
 
-- U kunt Dataverse-integratie gebruiken om geselecteerde entiteiten te synchroniseren met de Dataverse-database. Zie [Dataverse-tabellen](hr-developer-entities.md) voor meer informatie. 
+- U kunt Common Data Service-integratie gebruiken om geselecteerde entiteiten te synchroniseren met de Common Data Service-database. Zie [Common Data Service-entiteiten](hr-developer-entities.md) voor meer informatie. 
 
 ## <a name="how-often-is-my-production-database-backed-up"></a>Hoe vaak wordt er een back-up van mijn productiedatabase gemaakt? 
 
@@ -82,11 +80,11 @@ Databases worden met de volgende frequenties beschermd door middel van automatis
 
 Microsoft bewaart voldoende back-ups zodat PITR (Point in Time Restore) binnen de afgelopen 14 dagen mogelijk is. 
 
-Zie  [Meer informatie over automatische back-ups van SQL-database](/azure/azure-sql/database/automated-backups-overview?tabs=single-database) voor meer informatie. 
+Zie  [Meer informatie over automatische back-ups van SQL-database](https://docs.microsoft.com/azure/azure-sql/database/automated-backups-overview?tabs=single-database) voor meer informatie. 
 
 ## <a name="can-i-request-a-copy-of-the-backup-of-my-production-database"></a>Kan ik een kopie van de back-up van mijn productiedatabase aanvragen? 
 
-Nr. U kunt echter een serviceaanvraag voor het vernieuwen van de database indienen om uw productieomgeving naar uw Sandbox-omgeving te kopiëren. U kunt een Azure SQL-database implementeren in uw eigen Azure-tenant en de BYOD-functie gebruiken om gegevens te synchroniseren vanuit uw productieomgeving. Meer informatie over BYOD vindt u in [Uw eigen database gebruiken (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md). 
+Nr. U kunt echter een serviceaanvraag voor het vernieuwen van de database indienen om uw productieomgeving naar uw Sandbox-omgeving te kopiëren. U kunt een Azure SQL-database implementeren in uw eigen Azure-tenant en de BYOD-functie gebruiken om gegevens te synchroniseren vanuit uw productieomgeving. Meer informatie over BYOD vindt u in [Uw eigen database gebruiken (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database). 
 
 ## <a name="how-do-i-move-my-sandbox-environment-to-production-for-go-live"></a>Hoe verplaats ik mijn Sandbox-omgeving naar productie voor een go-live? 
 
@@ -96,11 +94,8 @@ Het is raadzaam een duidelijke lijst met entiteiten die in uw Sandbox zijn gecon
 
 ## <a name="what-should-i-do-if-my-production-environment-is-down"></a>Wat moet ik doen als er een storing in mijn productieomgeving is? 
 
-Als u een storing in de productie wilt rapporteren, volgt u het proces dat wordt beschreven in  [Een storing in de productie rapporteren](../fin-ops-core/dev-itpro/lifecycle-services/report-production-outage.md). 
+Als u een storing in de productie wilt rapporteren, volgt u het proces dat wordt beschreven in  [Een storing in de productie rapporteren](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/report-production-outage). 
 
  ## <a name="see-also"></a>Zie ook
 
  [Voorbereiden voor go-live](hr-admin-go-live-prepare.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

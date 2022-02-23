@@ -71,6 +71,3 @@ Volg deze stappen om een aanstellingsprocessjabloon te maken.
     - Als u een activiteit wilt verwijderen, vouwt u deze uit en selecteert u de prullenbakknop in de koptekst van de activiteit.
 
 8. Selecteer **Opslaan**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

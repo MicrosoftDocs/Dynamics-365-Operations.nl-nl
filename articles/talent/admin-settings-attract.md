@@ -69,6 +69,3 @@ U kunt ook opties configureren die zijn gerelateerd aan de kandidaatervaring. Me
 U kunt ook een verloopdatum instellen en afdwingen voor aanbiedingen. Als u de optie **Een vervaldatum vereisen voor alle aanbiedingen** instelt op **Ja**, vervallen aanbiedingen na het aantal uren of dagen dat u opgeeft.
 
 Zie voor meer informatie over aanbiedingsbeheer [Aanbiedingsbeheer instellen](./offer-setup.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

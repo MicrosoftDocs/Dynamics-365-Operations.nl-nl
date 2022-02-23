@@ -2,12 +2,15 @@
 title: De focuspunten van de afbeelding aanpassen
 description: In dit onderwerp wordt beschreven hoe u de focuspunten van afbeeldingen aanpast in Microsoft Dynamics 365 Commerce Site Builder.
 author: psimolin
+manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9c8a1b6de774a4d89c0ebcf46847c1b2c5b62374b3e5ac25a0bea2ff30b47510
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b20fbc20f18243c712595795a0b16ae417e755e6
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727601"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594327"
 ---
-# <a name="customize-image-focal-points"></a>Focuspunten van afbeelding aanpassen
+# <a name="customize-image-focal-points"></a>De focuspunten van de afbeelding aanpassen
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u de focuspunten van afbeeldingen aanpast in Microsoft Dynamics 365 Commerce Site Builder.
+
+## <a name="overview"></a>Overzicht
 
 Wanneer een afbeelding wordt geüpload naar mediabibliotheek in Commerce Site Builder, probeert het systeem het focuspunt van de afbeelding te bepalen. Als de afbeelding bijvoorbeeld een persoon bevat, wordt het focuspunt door het systeem standaard ingesteld op het gezicht van de persoon. In de meeste gevallen is het automatisch instellen van een focuspunt geschikt voor alle viewports, maar soms wilt u het focuspunt aanpassen om ervoor te zorgen dat een bepaald deel van de afbeelding altijd zichtbaar is.
 
@@ -55,6 +60,3 @@ Voer de volgende stappen uit om een aangepast focuspunt te definiëren voor een 
 [Afbeeldingen bijsnijden](dam-crop-images.md)
 
 [Statische bestanden uploaden en verwerken](upload-serve-static-files.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

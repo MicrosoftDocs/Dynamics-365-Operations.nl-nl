@@ -157,6 +157,3 @@ Kandidaten zijn personen die zijn toegevoegd aan een talentenpool, maar die niet
 |-----------------------------|----------------------------------|----------------------------------|-------------|
 | Profiel: kandidaatdetails | Maken, lezen, bijwerken en verwijderen | Maken, lezen, bijwerken en verwijderen | Geen toegang   |
 | Documenten                   | Maken, lezen, bijwerken en verwijderen | Maken, lezen, bijwerken en verwijderen | Geen toegang   |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

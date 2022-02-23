@@ -91,6 +91,3 @@ Met de activiteit Web-inhoud (iframe) kunt u een aangepaste weboplossing insluit
 
 > [!NOTE]
 > De activiteit Webinhoud is alleen beschikbaar met de Uitgebreide invoegtoepassing voor aanstellingen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

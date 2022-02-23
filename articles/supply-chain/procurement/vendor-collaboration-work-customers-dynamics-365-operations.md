@@ -2,36 +2,40 @@
 title: Leverancierssamenwerking met klanten
 description: In dit onderwerp wordt beschreven hoe u leverancierssamenwerking kunt gebruiken om met inkooporders te werken en consignatievoorraad te bewaken.
 author: TaylorVH
+manager: tfehr
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart, VendVendorProfileCard, PurchVendorPortalAllResponse, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
-ms.reviewer: kamaybac
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f699b00ab7ea2d043e12824015c54439caf8e63c
-ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
+ms.openlocfilehash: dc97b230f23056db90e654b4aea3272bb8f1ba13
+ms.sourcegitcommit: 0c33864efdd66c6ac11a4f35d971c0bb4efb15db
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8022969"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654335"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Leverancierssamenwerking met klanten
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 In dit onderwerp wordt beschreven hoe u leverancierssamenwerking kunt gebruiken om met klanten te werken in Microsoft Dynamics 365 Supply Chain Management. Leveranciers kunnen een reeks bedrijfsprocessen voltooien vanuit de volgende werkgebieden:
 
 - **Inkooporderbevestiging**: controleer inkooporders en reageer hierop.
 - **Biedingen van leverancier**: bekijk offerteaanvragen en reageer hierop door te bieden.
 - **Leveranciersgegevens**: bekijk modelgegevens van leveranciers en werk deze bij.
-- **Facturering**: werk met facturen. In dit onderwerp komt het werkgebied **Facturering** niet aan bod. Zie [Werkgebied voor samenwerkingsfacturering van leveranciers](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md) voor meer informatie over dit werkgebied.
+- **Facturering**: werk met facturen. In dit onderwerp komt het werkgebied **Facturering** niet aan bod. Zie [Werkgebied voor samenwerkingsfacturering van leveranciers](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md) voor meer informatie over dit werkgebied.
 
 Leveranciers kunnen ook informatie over de consignatievoorraad controleren.
 
@@ -78,7 +82,7 @@ Als u consignatievoorraad gebruikt, kunt u de interface voor leverancierssamenwe
 
 ## <a name="working-with-rfqs-in-the-vendor-bidding-workspace"></a>Werken met offerteaanvragen in het werkgebied Biedingen van leverancier
 
-In de werkruimte **Biedingen van leverancier** kunt u de offerteaanvragen weergeven waarop uw bedrijf is gevraagd te reageren. U kunt ook reageren op de offerteaanvragen.
+In de werkruimte **Biedingen van leverancier** kunt u de offerteaanvragen weergeven waarop uw bedrijf is gevraagd te reageren. U kunt ook reageren op de offerteaanvragen. 
 
 De werkruimte bevat ook alle offerteaanvragen die u hebt binnengehaald of verloren. Als het systeem is geconfigureerd voor de publieke sector, worden in het werkgebied de offerteaanvragen weergegeven die openbaar beschikbaar zijn.
 
@@ -96,28 +100,20 @@ Open het werkgebied **Biedingen van leverancier** om toegang te krijgen tot de v
 
 ### <a name="working-with-rfqs-that-are-publicly-available"></a>Werken met offerteaanvragen die openbaar beschikbaar zijn
 
-Mensen die in de openbare sector werken, kunnen openstaande en verlopen offerteaanvragen bekijken die beschikbaar zijn gemaakt voor het publiek.
+Mensen die in de publieke sector werken, kunnen openstaande en verlopen offerteaanvragen bekijken die beschikbaar zijn gemaakt voor het publiek.
 
 - Selecteer de koppeling **Gepubliceerde offerteaanvragen openen** voor een overzicht van openstaande offerteaanvragen die openbaar beschikbaar zijn. Een openstaande offerteaanvraag is een offerteaanvraag die nog niet is verlopen. U kunt de vervaldatum en -tijd vinden in de koptekst van de offerteaanvraag.
 
-    Als u bent uitgenodigd om te bieden, kunt u dezelfde offerteaanvraag vinden op de pagina **Uitnodigingen voor nieuw bod**. Soms wilt u mogelijk bieden op een openstaande offerteaanvraag terwijl u niet bent uitgenodigd om te bieden. In dat geval kunt u mogelijk uzelf uitnodigen, mits de klant de mogelijkheid voor zelfuitnodiging voor de offerteaanvraagcase biedt. 
+    Als u bent uitgenodigd om te bieden, kunt u dezelfde offerteaanvraag vinden op de pagina **Uitnodigingen voor nieuw bod**. Soms wilt u mogelijk bieden op een openstaande offerteaanvraag terwijl u niet bent uitgenodigd om te bieden. In dat geval kunt u mogelijk uzelf uitnodigen, mits de klant de mogelijkheid voor zelfuitnodiging voor de offerteaanvraagcase biedt.
 
-    De pagina **Uitnodigingen voor nieuw bod** kan een filter bevatten waarmee u de openstaande offerteregels kunt bekijken en die regels kunt identificeren die overeenkomen met uw goedgekeurde inkoopcategorieën. Om dit filter beschikbaar te maken, moet u de functie *Leveranciers naar offerteaanvragen per inkoopcategorie laten zoeken* in uw systeem inschakelen. Beheerders kunnen het werkgebied **Functiebeheer** gebruiken om de status van deze functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
-
-    - **Module:** *Leveranciers*
-    - **Functienaam**: *Leveranciers naar offerteaanvragen per inkoopcategorie laten zoeken* <!-- KFM: I don't see this here, is this right? -->
-
-    U kunt de toegankelijkheid van de koppeling **Gepubliceerde offerteaanvragen openen** verbeteren door de functie *Koppeling 'Gepubliceerde offerteaanvragen openen' als tegel weergeven* in te schakelen. Met deze functie wordt de koppeling naar een tegel geconverteerd en naar een prominente locatie verplaatst, zodat u de tegel gemakkelijk kunt terugvinden. Beheerders kunnen het werkgebied **Functiebeheer** gebruiken om de status van deze functie te controleren en desgewenst in te schakelen. (Vanaf Supply Chain Management versie 10.0.21 is de functie standaard ingeschakeld.) De functie wordt daar als volgt weergegeven:
-
-    - **Module:** *Inkoopbeheer*
-    - **Functienaam:** *De koppeling Gepubliceerde offerteaanvragen openen weergeven als tegel*
+    Verbeter de toegankelijkheid van de koppeling **Gepubliceerde offerteaanvragen openen** door de functie **Koppeling 'Gepubliceerde offerteaanvragen openen' als tegel weergeven** in te schakelen. Met deze functie wordt de koppeling naar een tegel geconverteerd en naar een prominente locatie verplaatst, zodat u de tegel gemakkelijk kunt terugvinden.
 
 - Selecteer de koppeling **Gesloten gepubliceerde offerteaanvragen** voor een overzicht van gesloten offerteaanvragen die beschikbaar zijn voor het publiek. Een gesloten offerteaanvraag is een offerteaanvraag die is verlopen. U kunt de vervaldatum en -tijd vinden in de koptekst van de offerteaanvraag.
 
     In een gesloten offerteaanvraag worden alle biedingen van leveranciers tot het regelniveau weergegeven. Wanneer biedingen worden toegekend of geweigerd, wordt deze informatie weergegeven in de gesloten offerteaanvraag. Eventuele bijlagen die zijn opgenomen in de bieding zijn ook beschikbaar.
 
 > [!NOTE]
-> Deze functionaliteit is alleen beschikbaar als de configuratie voor openbare sector is ingeschakeld.
+> Deze functionaliteit is alleen beschikbaar als de configuratie Publieke sector is ingeschakeld.
 
 ### <a name="bidding"></a>Bieden
 
@@ -151,6 +147,3 @@ De toegankelijke gegevens zijn de naam van de leverancier, adressen, contactgege
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Gebruikers van leverancierssamenwerking beheren](manage-vendor-collaboration-users.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

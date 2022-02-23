@@ -1,25 +1,28 @@
 ---
 title: CODA-bankafschrift
 description: Dit onderwerp bevat informatie over CODA. Dit is een rapportindeling die in het Belgische elektronische banksysteem wordt gebruikt.
-author: anasyash
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankAccountTable, BankCodaAccountStatement, BankCodaAccountStatementLines, BankCodaParameters, BankCodaTrans, BankCodaTransCategory, BankCodaTransDefTable, BankCodaTransFamily
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 262534
 ms.search.region: Belgium
-ms.author: anasyash
+ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 97e7f8ac575decf2be019435de897e2ee893ebef
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: 76f7cbb7c016c27331801de40a89d31707e8bce6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592567"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408320"
 ---
 # <a name="coda-bank-statement"></a>CODA-bankafschrift
 
@@ -32,7 +35,7 @@ Voor importen van Belgische bankoverzichten gebruikt u de CODA-bestandsindeling.
 ## <a name="import-transactions-from-a-bank-statement"></a>Transacties van een bankafschrift importeren
 Voer de volgende stappen uit om een bankafschriftbestand voor een bankrekening te importeren. **Opmerking**: voordat u een bankafschriftbestand importeert, moet u het volgende al hebben uitgevoerd:
 
--   De CODA-configuraties vanuit Lifecycle Services (LCS) importeren Zie voor meer informatie [Elektronische rapportageconfiguraties downloaden vanuit Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+-   De CODA-configuraties vanuit Lifecycle Services (LCS) importeren Zie voor meer informatie [Elektronische rapportageconfiguraties downloaden vanuit Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 -   Selecteer de geïmporteerde CODA-configuratie op de pagina **CODA-parameters**.
 
 1.  Ga naar de pagina **Bankrekeningen**.
@@ -51,12 +54,9 @@ Voer de volgende stappen uit om de bankafschrifttransacties te verwerken.
 1. Verwerk detailregels (**CODA** &gt; **Detailregels verwerken**). Start automatisch afstemmen op basis van **CODA-definities**. Deze regels bepalen welk grootboek of welke klant of leverancier moet worden gebruikt voor deze transactie. De vergelijking wordt gebaseerd op welke transactiegroepscode, transactiecode en transactiecategoriecode zijn opgegeven in het CODA-bestand voor elke transactie.
 2. Transacties met een klant- en leveranciersrekeningtype kunnen worden vergeleken met de facturen. Indien nodig kunnen geïmporteerde transacties handmatig op elk gewenst moment na verwerking worden gewijzigd, alvorens ze worden overgeboekt naar het grootboek.
 3. Als er transacties met fouten zijn (in het algemeen als er geen regels zijn ingesteld), kunnen deze worden verwezen naar de speciale grootboekrekening die is opgegeven op de pagina <strong>CODA-parameters **(</strong>CODA** &gt; <strong>Fouten wissen</strong>).
-4. Nadat alle transacties in het bankafschrift zijn vereffend, kunnen ze worden overgeboekt naar het grootboekjournaal (<strong>CODA</strong> &gt;<strong>Overboeken naar grootboek</strong>). Voor de bankrekening moeten journaalinstellingen worden opgegeven. Journalen kunnen worden geopend op de pagina <strong>Bankrekeningen **voor de geselecteerde record door te klikken op **Instellen</strong> &gt; <strong>CODA-journaal</strong>.
+4. Nadat alle transacties in het bankafschrift zijn vereffend, kunnen ze worden overgeboekt naar het grootboekjournaal (<strong>CODA</strong> &gt;<strong>Overboeken naar grootboek</strong>). Voor de bankrekening moeten journaalinstellingen worden opgegeven. Journalen kunnen worden geopend op de pagina <strong>Bankrekeningen** voor de geselecteerde record door te klikken op **Instellen</strong> &gt; <strong>CODA-journaal</strong>.
 
 Nadat bankafschrifttransacties zijn verwerkt, wordt een nieuw grootboekjournaal gemaakt en is deze gereed voor boeking.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

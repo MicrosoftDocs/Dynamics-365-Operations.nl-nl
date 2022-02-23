@@ -2,9 +2,11 @@
 title: Een online functionaliteitsprofiel maken
 description: In dit onderwerp wordt beschreven hoe u een online functionaliteitsprofiel maakt in Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -14,18 +16,21 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d6dcbb5b9ea01035396e90a6809cb1568c3a4fc86def41cf36732588b5046da7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b0afeabfecb60672156692f3cd809445624020c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716189"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969971"
 ---
 # <a name="create-an-online-functionality-profile"></a>Een online functionaliteitsprofiel maken
+
 
 [!include [banner](includes/banner.md)]
 
 Dit onderwerp bevat een overzicht van het instellen van een online functionaliteitsprofiel voor Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Overzicht
 
 Het online functionaliteitsprofiel biedt verschillende instellingen voor online kanalen. In elk online kanaal moet een online functionaliteitsprofiel worden opgegeven.
 
@@ -42,7 +47,7 @@ In de volgende procedure wordt beschreven hoe u een online functionaliteitsprofi
 
 In de volgende afbeelding ziet u een voorbeeld van een online functionaliteitsprofiel.
   
-![Voorbeeld van online functionaliteitprofiel.](media/online-functionality-profile.png)
+![Voorbeeld van online functionaliteitprofiel](media/online-functionality-profile.png)
 
 ## <a name="functions"></a>Functies
 
@@ -61,6 +66,3 @@ In de volgende afbeelding ziet u een voorbeeld van een online functionaliteitspr
 [Een detailhandelafzetkanaal instellen](channel-setup-retail.md)
 
 [Een callcenterkanaal instellen](channel-setup-callcenter.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

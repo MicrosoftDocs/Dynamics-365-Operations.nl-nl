@@ -1,10 +1,12 @@
 ---
 title: Configuraties beoordelen voor het genereren van rapporten in Office-indeling die ingesloten afbeeldingen bevatten
-description: Dit onderwerp laat zien hoe u rapportageconfiguraties ontwerpt voor het genereren van elektronische documenten met ingesloten afbeeldingen. (Deel 1 - Parameters instellen).
+description: 'Als u deze stappen wilt voltooien, moet u eerst de stappen uitvoeren in de taakbegeleiding "ER Rapporten in MS Office-indelingen maken met ingesloten afbeeldingen (deel 1: Parameters instellen)".'
 author: NickSelin
+manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f209fcbac310dffb654f7830a4d4b12fa95d7a461b681864b8c9b547f4a4986c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c41ff1ba99411b97ea2b5d9f31bdee7c7701315
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717565"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684350"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Configuraties beoordelen voor het genereren van rapporten in Office-indeling die ingesloten afbeeldingen bevatten
 
@@ -89,6 +91,3 @@ Deze procedure is bedoeld voor gebruikers met de rol Systeembeheerder of Elektro
     * Sommige labels die worden weergegeven in het voorgedrukte chequeformulier, worden in het rapport opgenomen wanneer het wordt gemaakt voor testdoeleinden. Deze labels worden echter niet afgedrukt tijdens het echte afdrukken, omdat het voorgedrukte formulier deze al bevat.  
 15. Sluit de pagina.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

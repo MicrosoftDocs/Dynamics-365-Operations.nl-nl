@@ -2,25 +2,28 @@
 title: Leases beheren via het raamwerk voor het importeren van leases
 description: In dit onderwerp wordt uitgelegd hoe u het raamwerk voor het importeren van leases kunt gebruiken om meerdere leases tegelijk aan te passen.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeaseLeaseImportHeader
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 534584a7da494b427d48b1bc97bf6554d25f4a79d9d62f59ec5f2afb65e67431
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d7a7d2afd8f352bc167ec8c0a354ee4ac0a9e77b
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758892"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4442167"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>Leases beheren via het raamwerk voor het importeren van leases
 
@@ -53,7 +56,7 @@ Met de functie vergelijken kunt u een record die u importeert vergelijken met de
 > [!NOTE]
 > De functionaliteit Vergelijken werkt niet voor leases die het procestype **Record toevoegen** hebben, omdat er niets met die lease kan worden vergeleken.
 >
-> Als u meerdere leases tegelijk wilt vergelijken, gaat u naar **Activa leasen \> Raamwerk voor het importeren van leases \> Periodiek** en selecteert u **Vergelijken**.
+> Als u meerdere leases tegelijk wilt vergelijken, gaat u naar **Activa leasen \> Raamwerk voor het importeren van leases \> Periodiek \> Vergelijken** en selecteert u **Vergelijken**.
 
 Voor elke entiteit kunt u de verschillen weergeven tussen wat zich momenteel in het systeem bevindt en wat zich in de faseringstabellen bevindt. Selecteer voor elke entiteit in de faseringstabellen **Verschillen bekijken**. In het dialoogvenster dat verschijnt, worden de huidige waarde en de voorgestelde faseringswaarde weergegeven.
 
@@ -62,17 +65,17 @@ U kunt de faseringswaarde ook bijwerken door deze te wijzigen in de kolom **Nieu
 U kunt leases valideren om ervoor te zorgen dat de records in het systeem kunnen worden gebracht zonder dat er fouten worden geïntroduceerd. Voordat een leaserecord wordt gemigreerd, voert het systeem diverse validaties uit om ervoor te zorgen dat de record met succes kan worden geïmporteerd. Selecteer **Valideren** om een individuele lease te valideren.
 
 > [!NOTE]
-> Als u meerdere leases tegelijk wilt valideren, gaat u naar **Activa leasen \> Raamwerk voor het importeren van leases \> Periodiek** en selecteert u **Valideren**.
+> Als u meerdere leases tegelijk wilt valideren, gaat u naar **Activa leasen \> Raamwerk voor het importeren van leases \> Periodiek \> Valideren** en selecteert u **Vergelijken**.
 
 Als u een afzonderlijke lease wilt verwerken, selecteert u **Leaserecords migreren** op de pagina **Importheader**. Wanneer een lease wordt gemigreerd, voert het systeem de actie uit die is opgegeven in het veld **Procestype**.
 
 > [!NOTE]
-> Als u meerdere leases tegelijk wilt migreren, gaat u naar **Activa leasen \> Raamwerk voor het importeren van leases \> Periodiek** en selecteert u **Migreren**.
+> Als u meerdere leases tegelijk wilt valideren, gaat u naar **Activa leasen \> Raamwerk voor het importeren van leases \> Periodiek \> Valideren** en selecteert u **Vergelijken**.
 
 Nadat de leases zijn vergeleken, kunt u een rapport uitvoeren om de verschillen weer te geven voor elke lease die is opgenomen in de import-id. Als u het rapport wilt uitvoeren voor één lease, selecteert u die lease in de faseringsgegevens en vervolgens selecteert u **Vergelijken en rapport weergeven \> Verschillenrapport**.
 
 > [!NOTE]
-> Als u meerdere leases tegelijk wilt vergelijken, gaat u naar **Activa leasen \> Raamwerk voor het importeren van leases \> Periodiek** en selecteert u **Vergelijken**. 
+> Als u meerdere leases tegelijk wilt valideren, gaat u naar **Activa leasen \> Query's en rapporten \> Verschillenrapport** en selecteert u **Vergelijken**.
 
 ## <a name="set-up-update-fields"></a>Bijwerkvelden instellen
 
@@ -80,6 +83,3 @@ Als u het lease-importraamwerk gebruikt om leases bij te werken en het procestyp
 
 1. Ga naar **Activa leasen \> Raamwerk voor het importeren van leases \> Instellen \> Selectie veld bijwerken**.
 2. Selecteer op de pagina die wordt weergegeven de velden die moeten worden bijgewerkt en selecteer vervolgens de groene pijl om deze naar de lijst **Geselecteerde velden** te verplaatsen. Alleen velden in de lijst **Geselecteerde velden** kunnen worden bijgewerkt met de lease-import suite.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,23 +1,25 @@
 ---
 title: Analyses aan werkgebieden toevoegen met Power BI Embedded
 description: In dit onderwerp wordt beschreven hoe u een Power BI-rapport insluit op het tabblad Analyses van een werkgebied.
-author: RichdiMSFT
+author: tjvass
+manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53c9d6343422f64aed74ce436bafd2c8b2ce1c3e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760147"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680931"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analyses aan werkgebieden toevoegen met Power BI Embedded
 
@@ -26,12 +28,12 @@ ms.locfileid: "6760147"
 > [!NOTE]
 > Deze functie wordt ondersteund in Finance and Operations (versie 7.2 en hoger).
 
-## <a name="introduction"></a>Inleiding
+## <a name="introduction"></a>Introductie
 In dit onderwerp wordt beschreven hoe u een Microsoft Power BI-rapport insluit op het tabblad **Analyses** van een werkgebied. In het hier gebruikte voorbeeld wordt het werkgebied **Reserveringenbeheer** in de toepassing Wagenparkbeheer uitgebreid om een analytisch werkgebied in te sluiten in het tabblad **Analyses**.
 
 ## <a name="prerequisites"></a>Vereisten
 + Open een ontwikkelaaromgeving waarop Platformupdate 8 of hoger wordt uitgevoerd.
-+ Een analyserapport (.pbix-bestand) dat is gemaakt met Microsoft Power BI Desktop en dat een gegevensmodel bevat dat de entiteitsopslagdatabase als bron heeft.
++ Een analyserapport (.pbix-bestand) dat is gemaakt met Microsoft Power BI Desktop-bureaublad en dat een gegevensmodel bevat dat de entiteitsopslagdatabase als bron heeft.
 
 ## <a name="overview"></a>Overzicht
 Of u een bestaand werkgebied van de toepassing uitbreidt of een nieuw werkgebied introduceert, u kunt in beide de ingesloten analytische weergaven gebruiken om begrijpelijke en interactieve weergaven van uw zakelijke gegevens te maken. Het proces voor het toevoegen van een analytisch werkgebiedtabblad bestaat uit vier stappen.
@@ -54,11 +56,11 @@ Volg deze stappen om een .pbix-bestand toe te voegen als een Visual Studio-proje
 3. Selecteer in het dialoogvenster **Nieuw artikel toevoegen** onder **Operations-artefacten** de sjabloon **Resource**.
 4. Voer een naam in die wordt gebruikt als referentie voor het rapport in X ++-metagegevens en klik vervolgens op **Toevoegen**.
 
-    ![Dialoogvenster Nieuw artikel toevoegen.](media/analytical-workspace-add.png)
+    ![Dialoogvenster Nieuw artikel toevoegen](media/analytical-workspace-add.png)
 
 5. Zoek het .pbix-bestand dat de definitie van het analytische rapport bevat en klik op **Openen**.
 
-    ![Het dialoogvenster met een bronbestand selecteren.](media/analytical-workspace-select-resource.png)
+    ![Het dialoogvenster met een bronbestand selecteren](media/analytical-workspace-select-resource.png)
 
 Nu u het .pbix-bestand hebt toegevoegd als een Dynamics 365-resource, kunt u rapporten insluiten in werkgebieden en rechtstreekse koppelingen toevoegen via menuopties.
 
@@ -67,7 +69,7 @@ In dit voorbeeld breiden we het werkgebied **Reserveringsbeheer** in het model W
 
 In de volgende afbeelding ziet u hoe het formulier **FMClerkWorkspace** eruit ziet in de ontwerper in Microsoft Visual Studio.
 
-![Formulier FMClerkWorkspace voor het wijzigen.](media/analytical-workspace-definition-before.png)
+![Formulier FMClerkWorkspace voor het wijzigen](media/analytical-workspace-definition-before.png)
 
 Volg deze stappen om de formulierdefinitie voor het werkgebied **Reserveringsbeheer** uit te breiden.
 
@@ -92,7 +94,7 @@ Volg deze stappen om de formulierdefinitie voor het werkgebied **Reserveringsbeh
 
 In de volgende afbeelding ziet u hoe het ontwerp eruitziet nadat deze wijzigingen zijn toegepast.
 
-![FMClerkWorkspace na wijzigingen.](media/analytical-workspace-definition-after.png)
+![FMClerkWorkspace na wijzigingen](media/analytical-workspace-definition-after.png)
 
 U hebt nu de besturingselementen voor het formulier toegevoegd die worden gebruikt voor het insluiten van het werkgebiedrapport. Vervolgens moet u de grootte van het bovenliggende besturingselement definiëren zodat dit geschikt is voor de lay-out. Standaard zijn de pagina **Filtervenster** en de pagina **Tabblad** zichtbaar in het rapport. U kunt echter de zichtbaarheid van deze besturingselementen wijzigen afhankelijk van de eindgebruiker van het rapport.
 
@@ -142,7 +144,7 @@ Volg deze stappen om bedrijfslogica toe te voegen voor het initialiseren van het
 
 U hebt nu de taak voltooid voor het toevoegen van bedrijfslogica voor het initialiseren van het ingesloten rapportweergave-besturingselement. In de volgende afbeelding ziet u hoe het werkgebied eruitziet nadat deze wijzigingen zijn toegepast.
 
-![Rapport ingesloten in het werkgebied.](media/analytical-workspace-final.png)
+![Rapport ingesloten in het werkgebied](media/analytical-workspace-final.png)
 
 > [!NOTE]
 > U kunt de bestaande operationele weergave openen met de werkgebiedtabbladen onder de paginatitel.
@@ -173,6 +175,3 @@ public static void initializeReportControl(
 | showFilterPane   | Een Booleaanse waarde die aangeeft of het filtervenster moet worden weergegeven (**true**) of verborgen (**false**).     |
 | showNavPane      | Een Booleaanse waarde die aangeeft of het navigatievenster moet worden weergegeven (**true**) of verborgen (**false**). |
 | defaultFilters   | De standaardfilters voor het Power BI-rapport.                                                                 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

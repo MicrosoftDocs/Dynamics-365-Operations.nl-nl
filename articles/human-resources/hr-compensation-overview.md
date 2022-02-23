@@ -1,34 +1,33 @@
 ---
 title: Compensatieplannen
-description: In dit onderwerp wordt beschreven hoe u compensatiebeheer gebruikt voor het beheren en verwerken van compensatieplannen.
-author: twheeloc
-ms.date: 08/25/2021
-ms.topic: overview
+description: Managers Compensatie en emolumenten kunnen Compensatiebeheer gebruiken om plannen voor vaste en variabele compensatie voor de werknemers van de organisatie te beheren en te verwerken.
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCompensationLevel, HRCCompGrid, HRMCompFixedAction, HRMCompFixedBudget, HRMCompFixedPlanTable, HcmCompensationWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
+ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 7571f220780ca383f57338bb69505cc68a741877
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b6dd163b0e956624eb57fa031b918a94609f9cfa
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066895"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417938"
 ---
 # <a name="compensation-plans"></a>Compensatieplannen
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Managers Compensatie en emolumenten kunnen **Compensatiebeheer** gebruiken om plannen voor vaste en variabele compensatie voor de werknemers van de organisatie te beheren en te verwerken.
+Managers Compensatie en emolumenten kunnen Compensatiebeheer gebruiken om plannen voor vaste en variabele compensatie voor de werknemers van de organisatie te beheren en te verwerken.
 
 ### <a name="introduction"></a>Introductie
 
@@ -44,8 +43,8 @@ De volgende tabel geeft een overzicht van de onderdelen van het compensatieproce
 <table>
 <thead>
 <tr class="header">
-<th>Component</th>
-<th>Meer informatie</th>
+<th>Onderdeel</th>
+<th>Meer informatie...</th>
 </tr>
 </thead>
 <tbody>
@@ -91,10 +90,10 @@ De volgende tabel geeft een overzicht van de onderdelen van het compensatieproce
 </tr>
 <tr class="even">
 <td>Controlepunt</td>
-<td>Met het controlepunt geeft u het optimale loontarief aan voor alle werknemers op een bepaald compensatieniveau. Voor salarisschaalstructuren zijn controlepunten meestal het midden van het bereik. Bandstructuren maken zelden gebruik van besturingspunten. U kunt het controlepunt van een plan voor vaste compensatie opgeven in het formulier **Vastecompensatieplannen**.</td>
+<td>Met het controlepunt geeft u het optimale loontarief aan voor alle werknemers op een bepaald compensatieniveau. Voor salarisschaalstructuren zijn controlepunten meestal het midden van het bereik. Bandstructuren maken zelden gebruik van besturingspunten. U kunt het controlepunt van een plan voor vaste compensatie opgeven in het formulier Vastecompensatieplannen.</td>
 </tr>
 <tr class="odd">
-<td>Functieposities</td>
+<td>Taakfuncties</td>
 <td>Taakfuncties worden gebruikt om compensatieplannen te classificeren en te filteren voor specifieke taken.</td>
 </tr>
 <tr class="even">
@@ -123,7 +122,8 @@ De volgende tabel geeft een overzicht van de onderdelen van het compensatieproce
 ## <a name="process-events"></a>Procesgebeurtenissen
 Een procesgebeurtenis berekent compensatiegegevens voor een bepaalde periode voor alle werknemers die zijn ingeschreven in een of meer vaste of variabele compensatieplannen. U kunt een procesgebeurtenis herhaaldelijk uitvoeren om de berekende compensatieresultaten te testen of bij te werken.
 
-## <a name="compensation-events"></a>Compensatiegebeurtenissen
+<a name="compensation-events"></a>Compensatiegebeurtenissen
+-------------------
 
 Telkens wanneer een procesgebeurtenis wordt uitgevoerd, wordt een compensatiegebeurtenis gemaakt.  Compensatiegebeurtenissen bevatten de resultaten van het compensatieproces voor elke werknemer die is opgenomen in deze procesgebeurtenis.  Wanneer de berekeningen juist zijn, kunt u de compensatiegebeurtenis laden om de compensatierecords bij te werken voor de werknemers op wie de procesgebeurtenis van invloed is.
 
@@ -132,6 +132,3 @@ Nadat u een procesgebeurtenis uitvoert, kunt u aanbevelingen doen voor aanpassin
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

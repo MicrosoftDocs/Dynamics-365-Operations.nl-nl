@@ -1,27 +1,27 @@
 ---
 title: Overzicht van Documenten afdrukken
 description: U kunt documenten afdrukken met behulp van een lokale printer of een netwerkapparaat. In dit artikel vindt u een overzicht van hoe documenten worden afgedrukt.
-author: RichdiMSFT
+author: TJVass
+manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: IT Pro, Application User
 ms.reviewer: kfend
-ms.custom:
-- "69161"
-- intro-internal
+ms.custom: 69161
 ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b9105ef39e411ac33043f1941d4e1dd32b758e5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: b1d64a2efeade5e9ba24f4dfe61c861f5a4cbad4
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984903"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680091"
 ---
 # <a name="document-printing-overview"></a>Overzicht van Documenten afdrukken
 
@@ -51,7 +51,7 @@ In de volgende tabel worden de drie primaire afdrukscenario's beschreven.
 Omdat de oplossing afhankelijk van het scenario verschilt, bevatten toepassingen van Finance geïntegreerde services en functies waarmee gebruikers hun doelen kunnen bereiken:
 
 - **Scenario 1** wordt ondersteund door de weergave in de browser van de HTML5-client.
-- **Scenario 2** maakt gebruik van clienttoepassingen en services van Microsoft 365.
+- **Scenario 2** maakt gebruik van clienttoepassingen en services van Microsoft Office 365.
 - **Scenario 3** vereist ondersteuning van clienttoepassingen en services die worden gehost in Microsoft Azure.
 
 Naast het platform dat in het Azure-abonnement is geïmplementeerd, bevatten Finance and Operations-toepassingen een geïntegreerde, directe Azure-toepassing waarmee ze makkelijker in het domein gehoste apparaten kunnen gebruiken om documenten af te drukken.
@@ -71,9 +71,6 @@ Met de clientoplossing kunnen klanten hun afdrukeisen naar wens beheren. Klanten
 
 Het volgende diagram toont de basisonderdelen voor het ondersteunen van netwerkafdrukfuncties.
 
-[![service-components-for-network-printing\_2016.](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
+[![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Houd er rekening mee dat één printer kan worden geregistreerd met meerdere documentrouteringsagents. Om te voldoen aan de printervoorkeuren gebruikt de gehoste service het netwerkpad dat een unieke identificatie is voor elke netwerkprinter. Hierdoor wordt zelfs een printer die door meerdere clients is geregistreerd, als één selectie weergegeven in de lijst met printers die beschikbaar zijn in toepassingen van Finance.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

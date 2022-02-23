@@ -57,6 +57,3 @@ Als uw vacature na 24 uur nog niet op LinkedIn is verschenen, voert u de volgend
 [Functies maken, goedkeuren en boeken in Attract](./creating-jobs-attract.md)
 
 [Problemen met integratie met LinkedIn en Microsoft Dynamics 365 Talent - Attract oplossen](./attract-troubleshoot-linkedin.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

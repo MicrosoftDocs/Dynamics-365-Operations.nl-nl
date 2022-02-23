@@ -53,6 +53,3 @@ Met deze wijziging zijn de velden **Proeftijd** en **Kalender** toegevoegd aan d
 
 ### <a name="platform-update-23-for-finance-and-operations"></a>Platformupdate 23 voor Finance and Operations
 Kleine correcties zijn opgenomen als onderdeel van platformupdate 23 voor Finance and Operations. Zie voor meer informatie [Wat is nieuw of gewijzigd in Dynamics 365 Finance and Operations platformupdate 23 (januari 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Onderhoudsverzoeken maken
 description: In dit onderwerp wordt uitgelegd hoe u een onderhoudsverzoek maakt in Activabeheer.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestTableCreate
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4b48a0504b79d2edf7815296312c7839052092e7d6773b7ebd5d38cbb59c9428
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f45378405d9ea06ae847d93b7eacd9badf6d7e00
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714975"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019173"
 ---
 # <a name="create-maintenance-requests"></a>Onderhoudsverzoeken maken
 
@@ -30,7 +32,7 @@ ms.locfileid: "6714975"
 
 Onderhoudsverzoeken kunnen worden gebruikt als onderhoudsmedewerkers of productiemedewerkers ontdekken dat apparatuur moet worden gerepareerd, maar de reparatie niet meteen kan worden uitgevoerd.
 
-**Voorbeeld:** terwijl onderhoudsmedewerkers een reparatie doen, ontdekken ze dat een ander activum op dezelfde locatie moet worden onderhouden. De onderhoudsmedewerker heeft echter niet de tijd of de vereiste reserveonderdelen om de reparatietaak uit te voeren. Daarom maken ze een onderhoudsverzoek voor het activum en voeren ze een korte beschrijving van het probleem in.
+**Voorbeeld:** terwijl een onderhoudsmedewerker een reparatie doet, ontdekt ze dat een ander activum op dezelfde locatie moet worden onderhouden. De onderhoudsmedewerker heeft echter niet de tijd of de vereiste reserveonderdelen om de reparatietaak uit te voeren. Daarom maakt ze een onderhoudsverzoek voor het activum en voert ze een korte beschrijving van het probleem in.
 
 De sectie **Actieve onderhoudsverzoeken** van het deelvenster **Verwante informatie** aan de rechterkant van de pagina **Alle activa** of **Actieve activa** (**Activabeheer** \> **Algemeen** \> **Activa** \> **Alle activa** of **Actieve activa**) bevat de actieve onderhoudsverzoeken die aan het geselecteerde activum gekoppeld zijn.
 
@@ -52,7 +54,7 @@ De sectie **Actieve onderhoudsverzoeken** van het deelvenster **Verwante informa
 11. Voer in het veld **Notities** eventuele aanvullende notities in die vereist zijn.
 12. Selecteer **OK**.
 
-![Onderhoudsverzoek maken.](media/03-manage-maintenance-requests.png)
+![Onderhoudsverzoek maken](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>Daaropvolgende verwerking van onderhoudsverzoeken
 
@@ -67,10 +69,7 @@ In de detailweergave u diverse gegevens bijwerken. Hieronder vindt u enkele voor
 - Selecteer een type onderhoudstaak en, als deze informatie relevant is, een gerelateerde onderhoudstaakvariant en een vakgebied.
 - Voer in de velden **Breedtegraad** en **Lengtegraad** de geografische coördinaten in. Alle coördinaten die aan een onderhoudsverzoek worden toegevoegd, worden automatisch overgebracht naar een gerelateerde werkorder. 
 
-![Onderhoudsverzoek bijwerken.](media/04-manage-maintenance-requests.png)
+![Onderhoudsverzoek bijwerken](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Als u een activum selecteert wanneer u een onderhoudsverzoek maakt, kunt u één fout aan het activum toevoegen. Nadat het onderhoudsverzoek is gemaakt, kunt u zo nodig meer fouten toevoegen. Als u fouten wilt toevoegen, selecteert u **Activafout** op de pagina **Alle onderhoudsverzoeken**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

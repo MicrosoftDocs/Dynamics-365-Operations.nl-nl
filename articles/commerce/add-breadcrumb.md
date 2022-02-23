@@ -1,13 +1,16 @@
 ---
 title: Breadcrumb-module
-description: In dit onderwerp wordt beschreven wat breadcrumb-modules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
+description: In dit onderwerp worden breadcrumb-modules voor functies beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2ba857ef7a796336bab3709817b5ba48fd3fa845667e4b9c40596cfe450290f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec9f5c72b03d9fd76055369e24491db5c7633cdf
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720007"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517155"
 ---
 # <a name="breadcrumb-module"></a>Breadcrumb-module
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven wat breadcrumb-modules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
+In dit onderwerp worden breadcrumb-modules voor functies beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Overzicht
 
 Breadcrumb-modules worden gebruikt om secundaire navigatie uit te voeren op sitepagina's. Ze worden meestal boven aan een pagina weer gegeven, onder de koptekst. Hoewel u breadcrumb-modules aan elke pagina kunt toevoegen, worden ze meestal op de pagina's met productgegevens (PDP's) gebruikt om de hiërarchie van productcategorieën weer te geven zodat u snel door een locatie kunt navigeren. Een breadcrumb-module kan ook worden gebruikt om de koppeling Terug naar resultaten weer te geven wanneer gebruikers een PDP openen vanuit een zoek- of lijstpagina. Op deze manier kunnen gebruikers snel terugkeren naar de gefilterde lijstpagina om door te gaan met winkelen.
 
@@ -37,7 +42,7 @@ Op pagina's met een productcategoriecontext, zoals PDP's en categoriepagina's, w
 
 De volgende afbeelding toont een voorbeeld van een breadcrumb-module waarin de categoriehiërarchie op een PDP wordt weergegeven.
 
-![Voorbeeld van een breadcrumb-module.](./media/ecommerce-breadcrumb.PNG)
+![Voorbeeld van een breadcrumb-module](./media/ecommerce-breadcrumb.PNG)
 
 ## <a name="breadcrumb-module-settings"></a>Instellingen van breadcrumb-module
 
@@ -90,6 +95,3 @@ Voer de volgende stappen uit om een breadcrumb-module aan een PDP toe te voegen 
 [Module met vakje voor kopen](add-buy-box.md)
 
 [Updates voor SDK's en modulebibliotheken](e-commerce-extensibility/sdk-updates.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

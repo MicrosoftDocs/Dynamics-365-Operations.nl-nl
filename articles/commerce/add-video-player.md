@@ -2,30 +2,36 @@
 title: Videospelermodule
 description: In dit onderwerp wordt beschreven wat videospelermodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+manager: annbe
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8d09797d24572a99cc8f5ed2d34b73eb7144af7a35661a929b6a571a20dfed04
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3cf7ead9a5340d5db37a87bdf131ba87681d5a82
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731714"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411332"
 ---
 # <a name="video-player-module"></a>Videospelermodule
+
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven wat videospelermodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Overzicht
 
 De videospelermodules wordt gebruikt om het afspelen van video's te ondersteunen. Deze kan aan elke pagina worden toegevoegd, mits video-inhoud wordt geüpload naar en beschikbaar is in het CMS-systeem (Content Management System). De videospelermodule ondersteunt het mediatype .mp4.
 
@@ -43,16 +49,12 @@ De videospelermodule ondersteunt ook secundaire audiotracks. Wanneer een video w
 
 De volgende afbeelding toont een voorbeeld van een videospelermodule op een introductiepagina.
 
-![Voorbeeld van een videospelermodule.](./media/ecommerce-videoplayer.PNG)
+![Voorbeeld van een videospelermodule](./media/ecommerce-videoplayer.PNG)
 
 ### <a name="video-player-module-properties"></a>Eigenschappen van videospelermodule
 
-| Naam van eigenschap.         | Waarde                               | Beschrijving |
+| Naam van eigenschap.         | Waarde                               | Omschrijving |
 |-----------------------|-------------------------------------|-------------|
-| Koptekst               | Koptekst en tag voor koptekst (**H1**, **H2**, **H3**, **H4**, **H5** of **H6**) | Standaard wordt het koptekstlabel **H2** gebruikt voor de koptekst, maar het label kan desgewenst worden gewijzigd voor toegankelijkheidsvereisten. |
-| RTF             | Alineatekst | De module ondersteunt alineatekst in RTF-indeling. Sommige basisfuncties voor tekstopmaak worden ondersteund, zoals hyperlinks en vetgedrukte, onderstreepte en cursieve tekst. Sommige van deze mogelijkheden kunnen worden overschreven door het paginathema dat op de module wordt toegepast. |
-| Koppeling                  | Koppelingstekst, koppelings-URL, label Accessible Rich internet Applications (ARIA) en selectie **Koppeling in nieuw tabblad openen** | De module ondersteunt een of meer koppelingen met oproep tot actie. Als er een koppeling wordt toegevoegd, zijn een koppelingstekst, een URL en een ARIA-label vereist. ARIA-labels moeten een omschrijving hebben om aan toegankelijkheidsvereisten te voldoen. U kunt koppelingen zo configureren dat deze worden geopend op een nieuw tabblad. |
-| Subtekst              | Koptekst, tekst of koppelingen | Er kan extra context voor de videospelermodule worden toegevoegd, zoals een auteurs- of ontwerpernaam, of koppelingen naar persoonlijke blogs. |
 | Automatisch afspelen             | **True** of **False**               | Wanneer de waarde is ingesteld op **True**, wordt de video automatisch afgespeeld. |
 | Dempen                  | **True** of **False**               | Wanneer de waarde is ingesteld op **True**, wordt het geluid gedempt. Voor deze speler is de standaardwaarde **False**. In de Chrome-browser worden de automatische video's standaard gedempt en wordt de audio alleen afgespeeld als de gebruiker de video handmatig start. |
 | Lus                  | **True** of **False**               | Wanneer de waarde is ingesteld op **True**, wordt de video steeds herhaald. |
@@ -62,9 +64,6 @@ De volgende afbeelding toont een voorbeeld van een videospelermodule op een intr
 | Besturingselementen voor videospeler | **True** of **False**               | Wanneer de waarde is ingesteld op **True**, worden alle videospelerbesturingen weergegeven. Deze besturingen zijn onder andere knoppen voor afspelen en onderbreken, een voortgangsindicator en opties voor ondertiteling. |
 | Posterafbeelding verbergen     | **True** of **False**               | Een video kan een posterframe hebben. Wanneer de waarde van deze eigenschap is ingesteld op **True**, is het posterframe verborgen. |
 | Maskerniveau            | Een getal tussen **0** en **100** | Het masker dat op de video wordt toegepast voor opmaak. |
-
-> [!IMPORTANT]
-> De eigenschappen **Koptekst**, **RTF**, **Koppeling** en **Subtekst** zijn beschikbaar vanaf Dynamics 365 Commerce versie 10.0.20.
 
 ## <a name="add-a-video-player-module-to-a-page"></a>Een videospelermodule toevoegen aan een pagina
 
@@ -107,6 +106,3 @@ Voer de volgende stappen uit om een videospelermodule aan een nieuwe pagina toe 
 [Text Block-module](add-content-rich-block.md)
 
 [Inhoudsblokmodule](add-hero-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,12 +2,15 @@
 title: Een experiment instellen
 description: In dit onderwerp wordt beschreven hoe u een experiment in een service van derden instelt.
 author: sushma-rao
+manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -15,18 +18,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 870bcb9cc63fd4dbf6d7b40d730edfad7783540d5d943896e0129d29572fa875
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 29c21ceb4c259f463f4a039942e51141201a9809
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769390"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4411519"
 ---
 # <a name="set-up-an-experiment"></a>Een experiment instellen
 
 Nadat u [een hypothese hebt gedefinieerd en hebt bepaald welke metrische gegevens voor succes u wilt gebruiken](experimentation-identify.md), moet u uw experiment instellen in de service van derden. In het volgende diagram ziet u alle stappen voor het instellen en uitvoeren van een experiment op een e-Commerce-website in Dynamics 365 Commerce. Extra stappen worden in afzonderlijke onderwerpen behandeld.
 
-[ ![Traject van gebruiker voor experimenten - instellen.](./media/experimentation_setup.svg) ](./media/experimentation_setup.svg#lightbox)
+[ ![Traject van gebruiker voor experimenten - instellen](./media/experimentation_setup.svg) ](./media/experimentation_setup.svg#lightbox)
 
 
 ## <a name="set-up-your-experiment-in-the-third-party-service"></a>Uw experiment in de service van derden instellen
@@ -51,6 +54,3 @@ Voer de volgende stappen uit om uw metrische gegevens voor succes in te stellen.
 
 ## <a name="next-step"></a>Volgende stap
 [Een experiment verbinden en bewerken](experimentation-connect-edit.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

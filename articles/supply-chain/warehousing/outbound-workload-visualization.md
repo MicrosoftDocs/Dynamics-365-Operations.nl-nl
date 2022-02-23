@@ -2,22 +2,24 @@
 title: Visualisatie van uitgaande workload
 description: Dit onderwerp biedt informatie over visualisatie van uitgaande workloads. Met deze functionaliteit kunnen magazijnbeheerders en supervisors aangepaste workloaddiagrammen maken die kunnen worden gebruikt om de voortgang van het huidige werk en de resterende hoeveelheid te controleren. Magazijnbeheerders kunnen meerdere weergaven maken en zo nodig automatisch vernieuwen instellen.
 author: Mirzaab
+manager: tfehr
 ms.date: 08/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 8416d43fe2b8b08e4d66434a1d95daa4b01a0fa4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 2515a71297df7213f93a4c619f7eebf1c2411b39
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576155"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965547"
 ---
 # <a name="outbound-workload-visualization"></a>Visualisatie van uitgaande workload
 
@@ -60,7 +62,7 @@ Voer de volgende stappen uit om een visualisatie voor een uitgaande workload in 
     - **Op te nemen dagen**: geef het aantal dagen op in het verleden waarvoor het diagram moet worden gegenereerd.
     - **Werkordertype**: selecteer de typen uitgaande werkorder waarop u wilt filteren.
 
-    ![Pagina Filters configureren.](media/work-viz-filters-1.png "Pagina Filters configureren")
+    ![Pagina Filters configureren](media/work-viz-filters-1.png "Pagina Filters configureren")
 
 1. Sluit de pagina **Filters configureren** om terug te keren naar de pagina **Visualisaties van uitgaande workload**.
 
@@ -70,11 +72,11 @@ Voer de volgende stappen uit om een visualisatie voor een uitgaande workload in 
     - **Laatst vernieuwd**: dit veld bevat de datum en tijd waarop de gegevens in het diagram voor het laatst zijn bijgewerkt.
     - **Geschatte/werkelijke tijd**: als arbeidsstandaarden in het systeem zijn ingesteld, stelt u deze optie in op *Ja* om de geaccumuleerde geraamde verzameltijden boven aan elke kolom in het diagram weer te geven. Als u geen arbeidsstandaarden gebruikt, is deze optie niet beschikbaar.
 
-    ![Voorbeeld visualisatie.](media/work-viz-chart.png "Voorbeeld visualisatie")
+    ![Voorbeeld visualisatie](media/work-viz-chart.png "Voorbeeld visualisatie")
 
 1. Selecteer een willekeurige staaf in het diagram om de bijbehorende werkregeldetails weer te geven.
 
-    ![Details werkregel.](media/work-viz-work-details.png "Details werkregel")
+    ![Details werkregel](media/work-viz-work-details.png "Details werkregel")
 
 ## <a name="example-outbound-workload-visualization-for-zones"></a>Voorbeeld: Visualisatie van uitgaande workload voor zones
 
@@ -92,9 +94,6 @@ Voor dit voorbeeld wilt u een visualisatie instellen die werkregels weergeeft vo
 
 In de volgende afbeelding ziet u een voorbeeld van het resulterende diagram.
 
-![Visualisatie van zone vs. werkstatus.](media/work-viz-chart.png "Visualisatie van zone vs. werkstatus")
+![Visualisatie van zone vs. werkstatus](media/work-viz-chart.png "Visualisatie van zone vs. werkstatus")
 
 Dit diagram toont twee zones met de naam **VERDIEPING** en **BULK**, plus een zone met de naam **Leeg**. De **lege** zone vertegenwoordigt alle werkregels die geen deel uitmaken van een zone. In het diagram worden altijd alle niet-gerelateerde gefilterde gegevens als **Leeg** weergegeven, zodat u zo veel mogelijk inzicht krijgt. In de **VERDIEPING**-zone worden in het diagram drie afgesloten regels en vier openstaande regels weergegeven. In de **BULK**-zone worden in het diagram vier afgesloten regels, één openstaande regel en 24 geannuleerde regels weergegeven. Tot slot worden in het diagram acht afgesloten regels weergegeven die geen deel uitmaken van een zone en die dus **leeg** zijn.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,23 +1,26 @@
 ---
 title: Overzicht België
 description: In dit onderwerp vindt u een overzicht van de specifieke functionaliteit voor België.
-author: anasyash
-ms.date: 10/27/2021
-ms.topic: overview
+author: ShylaThompson
+manager: AnnBe
+ms.date: 07/25/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations
 ms.search.region: belgium
-ms.author: anasyash
+ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0b6672e447a2eb223f3608c5784015fbece18b15
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c90ede8d5e7d1625be07f77b3cf36473d3165089
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985641"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408325"
 ---
 # <a name="belgium-overview"></a>Overzicht België
 
@@ -40,16 +43,10 @@ Voor informatie over het instellen en maken van de INTERVAT-belastingaangifte vo
 |----------------------------|--------------------------|----------------------------------------|
 |Rapport Belgisch Luxemburgs Wissel Instituut (BLWI)|**Btw** > **Aangiften** > **Buitenlandse handel** > **BLWI** | Zie [Rapportage voor betalingssaldo instellen (België)](tasks/be-00011-set-up-payment-balance-reporting.md) als u de BLWI-informatie wilt instellen. Zie [Transacties maken en overboeken naar het BLWI (België)](tasks/be-00011-create-transfer-blwi.md) als u het BLWI-rapport wilt genereren.| 
 |PRODCOM-rapport|**Btw** > **Aangiften** > **Buitenlandse handel** > **PRODCOM**|Fabrikanten van industriële producten verzenden het PRODCOM-rapport aan het Nationaal Instituut voor de Statistiek (NIS) in reactie op het jaarlijkse PRODCOM-onderzoek. Het PRODCOM-rapport bevat productiestatistieken voor industriële producten die worden vervaardigd door productiebedrijven die in België gevestigd zijn. Dit rapport wordt meestal gebruikt door accountants en boekhoudmanagers. Zie voor meer informatie [PRODCOM instellen en onderhouden](emea-bel-prodcom-report.md). |
-|Journaalrapporten|**Grootboek** > **Vragen en rapporten** > **Journaalrapporten**|Belgische bedrijven moeten geregeld een rapport afdrukken voor elk journaal. Het rapport bevat een chronologische lijst met alle boekingen naar de grootboekrekeningen voor elk journaal. Deze rapporten bewijzen de integriteit van de boekhouding en worden gebruikt tijdens het financiële audits om de btw-vereffening af te stemmen met de boekingen op de bijbehorende grootboekrekeningen. Zie [Journaalrapporten (boekingsjournalen)](emea-bel-journal-reports.md) voor meer informatie. |
-|Jaarlijkse btw-lijst van binnenlandse verkopen| **Belasting** > **Query's en rapporten** > **Btw-aangiften** > **Rapport factuuromzet - België** | Het rapport factuuromzet wordt eenmaal per jaar naar de belastingdienst verzonden. Het wordt gebruikt om de omzet aan te geven voor Belgische btw-geregistreerde klanten, als die omzet hoger is dan een bepaald bedrag. Het rapport bevat facturen van klanttransacties waarbij de klanten een ondernemingsnummer hebben dat is opgemaakt volgens de richtlijnen van de Belgische overheid. Zie [Jaarlijkse btw-lijst van binnenlandse verkopen](emea-bel-annual-vat-listing-of-domestic-sales.md) voor meer informatie. |
-|Belgische Intrastat|  **Belasting** > **Aangiften** > **Buitenlandse handel** > **Intrastat** | U kunt de pagina **Intrastat** gebruiken om informatie te genereren en te rapporteren over handel tussen landen van de EU. De Belgische Intrastat-aangifte bevat informatie over de handel in goederen voor rapportage. Zie [Belgische Intrastat](emea-bel-intrastat.md) voor meer informatie. |
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 - [Microsoft Dynamics Localization Portal: Rapport België](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/Belgium.html) (CustomerSource-account vereist)
-- [Overzicht van elektronische rapportage](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
-- [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-- [Lokalisatie en wettelijk voorgeschreven functies](../../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- [Overzicht van elektronische rapportage](../../dev-itpro/analytics/general-electronic-reporting.md)
+- [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+- [Lokalisatie en wettelijk voorgeschreven functies](../../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json)

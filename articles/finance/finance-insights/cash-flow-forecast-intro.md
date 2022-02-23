@@ -1,32 +1,34 @@
 ---
-title: Kasprognose
+title: Cashflowprognose (preview)
 description: In dit onderwerp wordt de functie voor cashflowprognoses beschreven.
 author: ShivamPandey-msft
-ms.date: 12/21/2021
+manager: AnnBe
+ms.date: 05/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "14151"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 62e30e382d94e4eff73789b3e884c6b81afce6c1
-ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
+ms.openlocfilehash: f97b8fc0896f0f7b95bf5609f94367b3a8230ca7
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/23/2021
-ms.locfileid: "7945824"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645243"
 ---
-# <a name="cash-forecast"></a>Kasprognose
+# <a name="cash-flow-forecast-preview"></a>Cashflowprognose (preview)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Cashflow is van groot belang voor alle bedrijven. Zelfs winstgevende bedrijven kunnen te maken krijgen met betalingsproblemen als de cashflow niet op peil is om onmiddellijke behoeften te voldoen. De prognosefunctie voor cashflow in Financiële inzichten kan bedrijven helpen hun contante saldi effectief te controleren en te beheren. Deze functie maakt gebruik van machine learning om bedrijven te helpen hun cashflowprognose nauwkeuriger te maken. Ook kunnen managers beslissingen nemen over het optimaliseren van verkoopkansen in de context van hun huidige financiële positie. 
 
@@ -43,17 +45,26 @@ Voor de meeste bedrijven is het beheer van de cashflow en het uitvoeren van cash
 ## <a name="details-of-the-cash-flow-forecasts-capability"></a>Details van de functie voor cashflowprognoses
 De functie voor cashflowprognoses bevat de volgende onderdelen. 
 
+- U kunt de cashflowgegevens van externe systemen eenvoudig integreren in Dynamics 365 Finance. Cashflowprognoses kunnen ook het raamwerk voor importeren/exporteren van gegevens gebruiken. Met dit raamwerk is integratie in Excel OData eenvoudig. U kunt ook gegevens uit meerdere bronnen combineren om een allesomvattende cashflowoplossing te creëren. 
+
+- Introduceert een intelligente kaspositie. De kaspositie wordt opgesteld op basis van het betalingsgedrag van de klant om te voorspellen wanneer een bedrijf kan verwachten dat contant geld op hun rekening beschikbaar is. De historische patronen van de betalingen aan leveranciers worden geanalyseerd, om te voorspellen wanneer toekomstige facturen en orders waarschijnlijk zullen worden betaald. 
+
 - Introduceert intelligente cashflowprognoses voor de lange termijn met behulp van tijdreeksprognoses via automatische integratie met AI Builder.
 
-- U kunt hiermee specifieke cashflowposities of -prognoses opslaan, bewerken en vervolgens eenvoudig de prognoseprestaties vergelijken en meten met de werkelijke financiële waarden.
+- Biedt de mogelijkheid om specifieke cashflowposities of -prognoses op te slaan, te bewerken en vervolgens de prognoseprestaties eenvoudig te vergelijken en te meten met de werkelijke financiële waarden.
 
 - Maakt wat-als-analyse mogelijke via vergelijking van momentopnamen. U kunt bijvoorbeeld meerdere momentopnamen maken die een optimistische, pessimistische en de meest realistische weergaven van uw cashflow vertegenwoordigen, en vervolgens de verschillen vergelijken en weergeven.
 
-- U kunt hiermee de cashflowprognose voor meerdere valuta's en rechtspersonen weergeven, en de cashflow filteren en bekijken die betrekking heeft op een bankrekening. 
+- Biedt de mogelijkheid om de cashflowprognose voor meerdere valuta's en rechtspersonen weer te geven, en de cashflow te filteren en te bekijken die betrekking heeft op een bankrekening. 
 
 - U kunt filteren op bankrekeningen die zijn gerelateerd aan financiële dimensies.
 
 Met de functionaliteit voor cashflowprognoses in Dynamics 365 Finance kan uw organisatie het saaie, complexe en terugkerende werk voor cashflowprognoses omzetten in een eenvoudig, geautomatiseerd proces. Door de saaie aspecten van cashflowprognoses te automatiseren kunt u zich concentreren op belangrijke besluiten om de gewenste bedrijfsresultaten te behalen.
 
+## <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Dimensies voor cashflowprognose instellen
+Met een nieuw tabblad op de pagina **Cashflowprognose instellen** kunt u bepalen welke financiële dimensies moeten worden gebruikt voor het filteren in het werkgebied **Cashflowprognose**. Dit tabblad wordt alleen weergegeven wanneer de functie Cashflowprognoses is ingeschakeld. 
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Kies op het tabblad **Dimensies** in de lijst de dimensies die u wilt gebruiken voor het filteren en verplaats deze naar de rechterkolom met de pijltoetsen. Er kunnen slechts twee dimensies worden geselecteerd voor het filteren van cashflowprognosegegevens. 
+
+#### <a name="privacy-notice"></a>Privacyverklaring
+Previews (1) bieden mogelijk minder privacy- en beveiligingsmaatregelen dan de service Dynamics 365 Finance and Operations, (2) worden niet opgenomen in de serviceovereenkomst voor deze service, (3) mogen niet worden gebruikt voor de verwerking van persoonsgegevens of andere gegevens die aan juridische of wettelijke nalevingvereisten zijn onderworpen en (4) worden slechts beperkt ondersteund.

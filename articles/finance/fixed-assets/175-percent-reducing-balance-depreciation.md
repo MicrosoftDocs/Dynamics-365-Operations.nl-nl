@@ -1,26 +1,29 @@
 ---
 title: Degressieve afschrijving van 175 procent
 description: Dit onderwerp biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving van 175 procent.
-author: moaamer
+author: saraschi2
+manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 13911
 ms.assetid: cc5d001f-bcfe-4602-9ec1-9e265e9fd188
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99bd47192d389c373b29a98f5344e1e0c1ab04e6
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 3a21c315aa9a7193c20e4184da20d4d6d38386c4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883258"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442000"
 ---
 # <a name="175-percent-reducing-balance-depreciation"></a>Degressieve afschrijving van 175 procent
 
@@ -64,27 +67,24 @@ Als u **Fiscaal** als het afschrijvingsjaar selecteert, zijn de volgende opties 
 
 ## <a name="example-of-175-reducing-balance-depreciation"></a>Voorbeeld van een 175% degressieve afschrijving
 
-| Veld                          | Waarde  |
+|                                |        |
 |--------------------------------|--------|
-| Bijboekingskosten               | 11,000 |
+| Bijboekingskosten               | 11.000 |
 | Restwaarde                  | 1.000  |
 | Afschrijvingsbasis              | 10.000 |
 | Levensduur in jaren             | 5      |
 | Jaarlijks afschrijvingspercentage | 35%    |
 
-Bij de 175% degressieve afschrijvingsmethode wordt 175 procent door het aantal jaren levensduur gedeeld. Dat percentage wordt vermenigvuldigd met de nettoboekwaarde van de activa om het afschrijvingsbedrag voor het jaar te kunnen bepalen.
+Bij de methode 175% degressieve afschrijvingsmethode wordt 175 procent door het aantal jaren levensduur gedeeld. Dat percentage wordt vermenigvuldigd met de nettoboekwaarde van de activa om het afschrijvingsbedrag voor het jaar te kunnen bepalen.
 
 | Periode | Berekening van het jaarlijkse afschrijvingsbedrag | Boekwaarde                  | Nettoboekwaarde aan het einde van het jaar |
 |--------|-----------------------------------------------|-----------------------------|---------------------------------------|
-| Jaar 1 | (11.000 – 1000) × 35% = 3500                | 11.000 – 3500 = 7500      | 11.000 – 1000 – 3500 = 6500        |
-| Jaar 2 | 6500 × 35% = 2275                           | 7500 – 2275 = 5225       | 6500 – 2275 = 4225                 |
-| Jaar 3 | 4225 × 35% = 1478,75                        | 5225 – 1478,75 = 3746,25 | 4225 – 1478,75 = 2746,25           |
+| Jaar 1 | (11.000 – 1000) × 35% = 3500                | 11.000 – 3500 = 7500      | 11.000 – 1000 – 3500 = 6500        |
+| Jaar 2 | 6500 × 35% = 2275                           | 7500 – 2275 = 5225       | 6500 – 2275 = 4225                 |
+| Jaar 3 | 4225 × 35% = 1478,75                        | 5225 – 1478,75 = 3746,25 | 4225 – 1478,75 = 2746,25           |
 
 > [!NOTE] 
 > Wanneer het bedrag dat wordt berekend met de methode voor 175% degressieve afschrijving lager is dan het bedrag dat wordt berekend door de lineaire methode te gebruiken, vindt er doorgaans een conversie naar de lineaire methode plaats voor de resterende levensduur.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

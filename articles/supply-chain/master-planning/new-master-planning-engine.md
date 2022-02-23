@@ -2,13 +2,16 @@
 title: Migratie naar Planningsoptimalisatie voor hoofdplanning
 description: Dit onderwerp bevat informatie over de nieuwe hoofdplannings-engine, Planningsoptimalisatie, en migratie van de bestaande engine.
 author: ChristianRytt
+manager: tfehr
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d3edeefca2e2194a8d5484afbfabf2091da4a1c1538d238351a5d389177ccfd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 94e5668da45c524ed9ab9eef10b40d0fb5336a65
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728574"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645991"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migratie naar Planningsoptimalisatie voor hoofdplanning
 
@@ -63,12 +66,8 @@ Uitzonderingen voor de migratie naar Planningsoptimalisatie zijn momenteel allee
 
 Nadat de vereiste functies beschikbaar zijn, geeft Microsoft een respijtperiode totdat de uitzondering is verlopen. De omgevingsbeheerder wordt geïnformeerd wanneer de vereiste functies beschikbaar zijn geworden en de respijtperiode is gestart.
 
-In het volgende stroomdiagram worden de gegevens in dit onderwerp samengevat, zodat u snel kunt zien of u een uitzondering moet aanvragen. Als u een uitzondering moet aanvragen, vult u de [Plannings- en uitzonderingsvragenlijst voor optimalisatie](https://go.microsoft.com/fwlink/?linkid=2144962) in en dient u deze in.
-
-![Stroomdiagram uitzonderingen.](media/exception-diagram.png "Stroomdiagram uitzonderingen")
-
 > [!NOTE]
-> U kunt alleen een uitzondering aanvragen voor tenants die een productieomgeving (gaan) bevatten en niet voor tenants met alleen een sandboxomgeving. Als u de uitzonderingsfout voor Planningsoptimalisatie in een IaaS-sandboxomgeving (infrastructure as a service) wilt uitschakelen, voert u de SQL-query uit die in [Sandbox-omgevingen](#faq-sandbox) wordt geleverd.
+> U kunt alleen een uitzondering voor productieomgevingen aanvragen, niet voor sandbox-omgevingen. Als u de uitzonderingsfout voor Planningsoptimalisatie in een IaaS-sandboxomgeving (infrastructure as a service) wilt uitschakelen, voert u de SQL-query uit die in [Sandbox-omgevingen](#faq-sandbox) wordt geleverd.
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 
@@ -117,6 +116,3 @@ Ik gebruik versie 10.0.16 of hoger en het volgende foutbericht wordt weergegeven
 > Vul de volgende vragenlijst in om aan de slag te gaan en indien relevant uitzondering van de migratie naar Planningsoptimalisatie aan te vragen.
 
 **Antwoord:** Nee, de hoofdplanning wordt niet geblokkeerd. De uitvoering van de hoofdplanning is voltooid en u kunt het resultaat op de gebruikelijke manier gebruiken. Om dit foutbericht echter te vermijden tijdens toekomstige uitvoeringen van hoofdplanningen, moet u direct migreren naar Planningsoptimalisatie of een uitzondering aanvragen via de koppeling in het foutbericht.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

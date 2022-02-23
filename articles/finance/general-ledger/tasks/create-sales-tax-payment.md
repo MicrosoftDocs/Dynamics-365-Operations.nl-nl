@@ -2,9 +2,11 @@
 title: Een btw-betaling maken
 description: De procedure voor de taak Btw vereffenen en boeken vereffent btw-saldi op de btw-rekeningen en tegenboekt ze naar de btw-vereffeningsrekening voor een bepaalde periode.
 author: twheeloc
-ms.date: 10/25/2021
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Dialog
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 54132ca4775482b4a06ff7e73125e804aff40cb4
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: 9b5e3e26e19bd0a9dbf878626328da267b61964f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700108"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968699"
 ---
 # <a name="create-a-sales-tax-payment"></a>Een btw-betaling maken
 
@@ -30,35 +32,7 @@ De procedure voor de taak Btw vereffenen en boeken vereffent btw-saldi op de btw
 2. Klik in het veld **Vereffeningsperiode** op de vervolgkeuzeknop om de zoekopdracht te openen.
 3. Klik in de lijst op de koppeling in de geselecteerde rij.
 4. Voer een datum in het veld **Begindatum** in.
-    - Als u de optie **Correcties opnemen** op de pagina **Grootboekparameters** niet selecteert, kan de vereffening voor verschillende versies worden verwerkt. Oorspronkelijk is de eerste vereffening voor een periode-interval en kan deze slechts eenmaal worden verwerkt voor een periode-interval. De laatste correcties vereffenen btw-transacties die zijn geboekt nadat de oorspronkelijke versie is gemaakt.
+    * Als u de optie **Correcties opnemen** op de pagina **Grootboekparameters** niet selecteert, kan de vereffening voor verschillende versies worden verwerkt. Oorspronkelijk is de eerste vereffening voor een periode-interval en kan deze slechts eenmaal worden verwerkt voor een periode-interval. De laatste correcties vereffenen btw-transacties die zijn geboekt nadat de oorspronkelijke versie is gemaakt.   
 5. Voer in het veld **Transactiedatum** een datum in.
 6. Klik op **OK**.
 
-## <a name="performance-consideration"></a>Prestatieoverwegingen
-
-De voltooiing van de btw-betalingsprocedure kan veel tijd in beslag nemen. De belangrijkste factoren die van invloed zijn op de prestaties van de procedure, zijn het aantal facturen in de vereffeningsperiode en het aantal vermeldingen dat moet worden geboekt in het btw-vereffeningsboekstuk. U kunt ervoor zorgen dat de prestaties worden verbeterd door bepaalde functionaliteit te omzeilen die niet vereist is in het proces.
-
-### <a name="enable-the-sales-tax-payment-performance-improvement-feature"></a>De functie Prestatieverbetering van btw-betalingen inschakelen
-
-Met de functie **Prestatieverbetering van btw-betalingen** kunnen de prestaties van de btw-betalingsprocedure worden verbeterd door op één regel het bedrag in de valuta van de boekhouding en het bedrag in de valuta van de aangifte op boekstukregels van btw-betaling samen te voegen met dezelfde hoofdrekening, grootboekdimensie en valuta.
-
-1. Ga naar **Systeembeheer** \> **Werkruimten** \> **Functiebeheer**.
-2. Zoek op het tabblad **Alle** naar **Prestatieverbeteringen voor btw-betalingen** en selecteer deze optie.
-3. Selecteer **Inschakelen**.
-
-### <a name="prevent-generation-of-offset-tax-transactions"></a>Genereren van tegengerekende btw-transacties voorkomen
-
-Standaard boekt het boekstuk van de btw-betaling tegengerekende btw-transacties voor elke btw-transactie die wordt vereffend in de btw-betalingsprocedure. Deze tegengerekende btw-transacties worden opgenomen in het rapport **Afstemming btw/grootboek**. Ze laten het uitstaande saldo van de btw-transacties zien die niet zijn vereffend tijdens de periode.
-
-De btw-tegenrekeningtransacties kunnen echter de last op de btw-betalingsprocedure verhogen. Daarom kan een flighting met de naam **TaxReportGenOffsetTaxTransPerRecordSetFlighting** op aanvraag worden geactiveerd. Deze flighting kan voor betere prestaties zorgen bij het genereren van tegenbelastingtransacties voor landen en regio's, behalve voor Thailand, Polen, Hongarije, Litouwen, Maleisië, India, Italië, Rusland, Tsjechische Republiek, Estland en Letland.
-
-> [!NOTE]
-> Als er aangepaste velden in de tabel voor belastingtransacties zijn, kan de flighting niet worden geactiveerd.
-
-Omdat het rapport **Afstemming btw/grootboek** over het algemeen alleen wordt gebruikt voor interne controle en niet is vereist voor veel belastingregimes, kunt u ervoor kiezen om geen tegengerekende btw-transacties op het boekstuk van de btw-betaling te genereren.
-
-1. Ga naar **Belasting** \> **Indirecte belastingen** \> **Btw** \> **Btw-vereffeningsperioden**.
-2. Selecteer een vereffeningsperiode.
-3. Stel op het sneltabblad **Algemeen** de optie **Genereren van tegengerekende btw-transacties voorkomen** in op **Ja**.
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

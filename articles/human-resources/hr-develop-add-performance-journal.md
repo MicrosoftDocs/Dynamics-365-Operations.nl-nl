@@ -1,60 +1,56 @@
 ---
 title: Toevoegen aan uw prestatiejournaal en lovende kritiek naar iemand verzenden
-description: Het prestatiejournaal bevat informatie over hoe medewerkers hun doelstellingen haalden of hoe ze gedurende een periode hebben gepresteerd.
-author: twheeloc
-ms.date: 08/25/2021
+description: In het prestatiejournaal wordt informatie vastgelegd die te maken heeft met hoe u uw doelstellingen haalt of hoe u gedurende een periode hebt gepresteerd.
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EssWorkspace, HcmPerfJournal, HcmPerfJournalAddLink, HcmPerfPraise, HcmWorkerLookUpByPerson, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 65cfa5be344c14c466dc07799259ef8d8a018b39
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: a2a90a5f746e49e1a5df9910867e8cd35feb1147
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065787"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417920"
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Toevoegen aan uw prestatiejournaal en lovende kritiek naar iemand verzenden
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
 In het prestatiejournaal wordt informatie vastgelegd die te maken heeft met hoe u uw doelstellingen haalt of hoe u gedurende een periode hebt gepresteerd. U kunt ook vanuit het journaal de acties van een collega prijzen. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operations, versie 1611.
 
-1. Ga naar **Alle werkgebieden** > **Selfservice werknemer**.
-2. Klik op **Prestatiejournaal**.
-3. Klik op **Nieuw**.
-4. Typ een waarde in het veld **Titel**.
-5. Typ een waarde in het veld **Beschrijving**.
+1. Ga naar Alle werkgebieden > Selfservice werknemer.
+2. Klik op Prestatiejournaal.
+3. Klik op Nieuw.
+4. Typ een waarde in het veld Titel.
+5. Typ een waarde in het veld Omschrijving.
     * De datum van het prestatiejournaal is de datum waarop het journaal is gemaakt.  
-    * De bron geeft aan waar het prestatiesjournaal vandaan komt. Als u het hebt gemaakt, komt het uit Mijn journaal. Als uw manager het heeft gemaakt, komt het uit het Managersjournaal.      * U kunt dit journaal met uw manager delen of het alleen voor u zichtbaar maken.  
-6. Voer een datum in het veld **Startdatum** in.
-7. Typ een datum in het veld **Datum voltooid**.
-8. Selecteer **Ja** in het veld **Ontwikkelingsplan**.
-9. Typ een waarde in het veld **Trefwoorden**.
-10. Klik op **Externe koppeling toevoegen**.
-11. Typ 'Envision' in het veld **Omschrijving**.
-12. In het veld **Internetadres** typ 'https://www.microsoft.com/en/envision/default'.
-13. Klik onder de knop **Opslaan** op het bijschrift **Prestatiejournaal** om terug te gaan naar het raster.
-    * U kunt het geselecteerde journaal of journalen aan een doelstelling toevoegen, zodat het wordt weergegeven wanneer u de doelstelling opent. Een koppeling wordt toegevoegd aan het sneltabblad **Koppelingen**. Als u een journaal aan een doelstelling toevoegt en de doelstelling aan een beoordeling toevoegt, wordt het journaal automatisch weergegeven in de beoordeling.  
-    * U kunt het geselecteerde journaal of journalen aan een beoordeling toevoegen, zodat het wordt weergegeven wanneer u de beoordeling opent. Een koppeling wordt toegevoegd aan het sneltabblad **Koppelingen**.  
-14. Klik op **Snel** toevoegen.
-15. Typ een waarde in het veld **Titel**.
-16. Typ een waarde in het veld **Beschrijving**.
-17. Klik op **Opslaan**.
-18. Klik op **Lovende kritiek verzenden**.
+    * De bron geeft aan waar het prestatiesjournaal vandaan komt. Als u het hebt gemaakt, komt het uit Mijn journaal. Als uw manager het heeft gemaakt, komt het uit het Managersjournaal.  
+    * U kunt dit journaal met uw manager delen of het alleen voor u zichtbaar maken.  
+6. Voer een datum in het veld Startdatum in.
+7. Typ een datum in het veld Datum voltooid.
+8. Selecteer in het veld Ontwikkelingsplan de waarde Ja.
+9. Typ een waarde in het veld Trefwoorden.
+10. Klik op Externe koppeling toevoegen.
+11. Typ 'Envision' in het veld Omschrijving.
+12. Typ 'https://www.microsoft.com/en/envision/default' in het veld Internetadres.
+13. Klik onder de knop Opslaan op het bijschrift "Prestatiejournaal" om terug te gaan naar het raster.
+    * U kunt het geselecteerde journaal of journalen aan een doelstelling toevoegen, zodat het wordt weergegeven wanneer u de doelstelling opent. Een koppeling wordt toegevoegd aan het sneltabblad Koppelingen. Als u een journaal aan een doelstelling toevoegt en de doelstelling aan een beoordeling toevoegt, wordt het journaal automatisch weergegeven in de beoordeling.  
+    * U kunt het geselecteerde journaal of journalen aan een beoordeling toevoegen, zodat het wordt weergegeven wanneer u de beoordeling opent.    Een koppeling wordt toegevoegd aan het sneltabblad Koppelingen.  
+14. Klik op Snel toevoegen.
+15. Typ een waarde in het veld Titel.
+16. Typ een waarde in het veld Omschrijving.
+17. Klik op Opslaan.
+18. Klik op Lovende kritiek verzenden
 19. Selecteer iemand in de lijst met werknemers.
-20. Typ in het Veld **Beschrijving** de tekst **Hartelijk dank voor alle hulp tijdens de conferentie!**.
-21. Klik op **Verzenden**.
+20. Typ in het Veld Bschrijving 'Hartelijk dank voor alle hulp tijdens de conferentie!'.
+21. Klik op Verzenden.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

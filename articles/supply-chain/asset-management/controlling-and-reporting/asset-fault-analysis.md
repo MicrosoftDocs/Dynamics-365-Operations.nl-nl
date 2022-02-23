@@ -1,10 +1,12 @@
 ---
 title: Foutanalyse activum
 description: In dit onderwerp worden foutanalyses voor activa in Activabeheer uitgelegd.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectFaultCalculate
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 880ed35a9780185836218a5c2a7addb2a47eabd737d6bec99794ecb7a0959791
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 674e10b94711b00e526af4af0e0c0afddd05e62c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779273"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022370"
 ---
 # <a name="asset-fault-analysis"></a>Foutanalyse activum
 
@@ -60,7 +62,7 @@ In de onderstaande schermafbeelding is alleen de knop **Symptoom** geselecteerd.
 - Er zijn foutregistraties uitgevoerd voor drie foutsymptomen: Luchtlek, Gesprongen zekering en Vastgelopen apparatuur.  
 - In de kolom **Waarschijnlijkheidspercentage** zijn alle percentages bij elkaar 100%. De waarschijnlijkheid is gebaseerd op alle **symptoomregistraties** in deze foutanalyse.
 
-![Figuur 1.](media/06-controlling-and-reporting.png)
+![Figuur 1](media/06-controlling-and-reporting.png)
 
 ### <a name="group-by-symptoms-and-time-period"></a>Groeperen op symptomen en tijdsperiode
 
@@ -69,7 +71,7 @@ In de onderstaande schermafbeelding worden **Jaar** en **Maand** toegevoegd om a
 - De foutsymptomen worden nu weergegeven als registraties per jaar/maand.  
 - Als u in de kolom **Waarschijnlijkheidspercentage** alle percentages voor elke maand optelt, komt u uit op 100%. De waarschijnlijkheid is gebaseerd op de **symptoomregistraties** in deze foutanalyse. Als u een groot aantal regels voor een activum hebt, maar een groot percentage op een regel staat, is dit een indicatie van een foutsymptoom om nader te onderzoeken of het aantal registraties voor dit foutsymptoom kan worden beperkt.
 
-![Figuur 2.](media/07-controlling-and-reporting.png)
+![Figuur 2](media/07-controlling-and-reporting.png)
 
 ### <a name="group-by-multiple-symptoms-and-assets"></a>Groeperen op meerdere symptomen en activa
 
@@ -84,7 +86,7 @@ In de onderstaande schermafbeelding zijn **Activum** en **Activumtype** toegevoe
 - De foutsymptomen zijn nu opgesplitst in combinaties van **Activum** / **Activumtype** / **Symptoom**.  
 - Als u in de kolom **Waarschijnlijkheidspercentage** alle percentages voor de combinatie van **Activum** / **Activumtype** / **Symptoom** optelt, komt u uit op 100%. De waarschijnlijkheid is gebaseerd op **symptoomregistraties** in deze foutanalyse. Als u een groot aantal regels voor een activum hebt, maar een groot percentage op een regel staat, is dit een indicatie van een foutsymptoom om nader te onderzoeken of het aantal registraties voor dit foutsymptoom kan worden beperkt.
 
-![Figuur 3.](media/08-controlling-and-reporting.png)
+![Figuur 3](media/08-controlling-and-reporting.png)
 
 **Groeperen op twee symptomen, activum en activatype**
 
@@ -92,7 +94,7 @@ In de onderstaande schermafbeelding is **Gebied** toegevoegd aan **Symptoom**, *
 
 - Als u in de kolom **Waarschijnlijkheidspercentage** alle percentages voor de combinatie van **Activum** / **Activumtype** / **Symptoom** voor een activum optelt, komt u uit op 100%. De waarschijnlijkheid is gebaseerd op de combinatie van **Symptoom** en **Gebied** in deze foutanalyse. Als u een groot aantal regels voor een activum hebt, maar een groot percentage op een regel staat, is dit een indicatie van een foutgebied om nader te onderzoeken of het aantal registraties voor dit foutgebied kan worden beperkt.  
 
-![Figuur 4.](media/09-controlling-and-reporting.png)
+![Figuur 4](media/09-controlling-and-reporting.png)
 
 **Groeperen op drie symptomen, activum en activatype**
 
@@ -100,12 +102,9 @@ In de onderstaande schermafbeelding is **Type** toegevoegd en de meest gedetaill
  
 - Als u in de kolom **Waarschijnlijkheidspercentage** alle percentages voor de combinatie van **Activum** / **Activumtype** / **Symptoom** voor een activum optelt, komt u uit op 100%. De waarschijnlijkheid is gebaseerd op de combinatie van **Symptoom**, **Gebied** en **Type** in deze foutanalyse. Als u een groot aantal regels voor een activum hebt, maar een groot percentage op een regel staat, is dit een indicatie van een fouttype om nader te onderzoeken of het aantal registraties voor dit fouttype kan worden beperkt.
 
-![Figuur 5.](media/10-controlling-and-reporting.png)
+![Figuur 5](media/10-controlling-and-reporting.png)
 
 
 >[!NOTE]
 >Voor een overzicht van alle gemaakte foutregistraties voor werkorders en onderhoudsverzoeken klikt u op **Activabeheer** > **Query's** > **Activafout** > **Activafouten**. Selecteer op de pagina **Activafouten** een activumfoutregistratie en vouw het deelvenster **Verwante informatie** uit om informatie over de bijbehorende werkorder of het bijbehorende onderhoudsverzoek weer te geven.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

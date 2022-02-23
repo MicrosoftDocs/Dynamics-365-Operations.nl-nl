@@ -1,32 +1,35 @@
 ---
 title: Degressieve afschrijving van 150 procent
-description: Dit onderwerp biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving van 150 procent.
-author: moaamer
+description: Dit artikel biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving van 150 procent.
+author: saraschi2
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe8a794e9d5f01e4cd8844b5388b37970607d0be
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: a132a8d6e5eaf0dad54133fc9d0c12dcf5866c7c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883307"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441939"
 ---
 # <a name="150-percent-reducing-balance-depreciation"></a>Degressieve afschrijving van 150 procent
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving van 150 procent.
+Dit artikel biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving van 150 procent.
 
 Wanneer u een profiel voor de afschrijving van vaste activa instelt en **150% degressief** selecteert in het veld **Methode** op de pagina **Afschrijvingsprofielen**, worden de vaste activa waaraan dit afschrijvingsprofiel is toegewezen, afgeschreven met hetzelfde percentage in elke afschrijvingsperiode. Dit percentage wordt berekend aan de hand van de levensduur van het activum. Als een activum een levensduur van bijvoorbeeld vijf jaar heeft, wordt het percentage berekend als 30 procent (150% ÷ 5). 
 
@@ -64,7 +67,7 @@ Als u **Fiscaal** als het afschrijvingsjaar selecteert, zijn de volgende opties 
 
 ## <a name="example-of-150-reducing-balance-depreciation"></a>Voorbeeld van een 150% degressieve afschrijving
 
-| &nbsp;                         | &nbsp; |
+|                                |        |
 |--------------------------------|--------|
 | Bijboekingskosten               | 11.000 |
 | Restwaarde                  | 1.000  |
@@ -72,7 +75,7 @@ Als u **Fiscaal** als het afschrijvingsjaar selecteert, zijn de volgende opties 
 | Levensduur in jaren             | 5      |
 | Jaarlijks afschrijvingspercentage | 30%    |
 
-Bij de methode 150% degressieve afschrijving wordt 150 procent door het aantal jaren levensduur gedeeld. Dat percentage wordt vermenigvuldigd met de nettoboekwaarde van de activa om het afschrijvingsbedrag voor het jaar te kunnen bepalen.
+Bij de methode 150% degressieve afschrijvingsmethode, wordt 150 procent door het aantal jaren levensduur gedeeld. Dat percentage wordt vermenigvuldigd met de nettoboekwaarde van de activa om het afschrijvingsbedrag voor het jaar te kunnen bepalen.
 
 | Periode | Berekening van het jaarlijkse afschrijvingsbedrag | Boekwaarde             | Nettoboekwaarde aan het einde van het jaar |
 |--------|-----------------------------------------------|------------------------|---------------------------------------|
@@ -85,6 +88,3 @@ Bij de methode 150% degressieve afschrijving wordt 150 procent door het aantal j
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

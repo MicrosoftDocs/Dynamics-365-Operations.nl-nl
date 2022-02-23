@@ -1,60 +1,55 @@
 ---
 title: Een nieuwe vergoeding maken
 description: Deze taak laat zien hoe u vergoedingselementen maakt die worden gebruikt bij het maken van een nieuwe vergoeding.
-author: twheeloc
-ms.date: 11/03/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBenefitPlanLookup, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 222bac97d461cd0a090c3e5d99594c07724818ff
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: f9618e62e33655bfc1a0653cb767abe0094d1e79
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066971"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417937"
 ---
 # <a name="create-a-new-benefit"></a>Een nieuwe vergoeding maken
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Deze taak laat zien hoe u vergoedingselementen maakt die worden gebruikt bij het maken van een nieuwe vergoeding. Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF. Deze taak is bedoeld voor een Manager compensatie en vergoedingen.
 
 
 ## <a name="create-benefit-elements"></a>Vergoedingselementen maken
-
-1. Ga naar **Human resources \> Vergoedingen \> Instellen \> Vergoedingselementen**.
-2. Selecteer **Nieuw**.
-3. Voer in het veld **Type** de naam in van het type vergoeding dat u maakt.
-4. Voer een waarde in het veld **Beschrijving** in.
-5. Selecteer een optie in het veld **Gelijktijdige inschrijving**.
-
-    Beperk de mogelijkheid van medewerkers om zich te registreren in meerdere medische plannen door **Eén inschrijving per type** te selecteren.
-
-6. Selecteer een optie in het veld **Salariscategorie**.
-7. Selecteer **Nieuw** op het tabblad **Plannen**.
-8. Voer een waarde in het veld **Plan** in.
-9. Voer een waarde in het veld **Beschrijving** in.
-10. Typ of selecteer een waarde in het veld **Type**.
-11. Selecteer een optie in het veld **Gevolgen voor salaris**.
-12. Selecteer **Opslaan**.
+1. Ga naar Human resources > Vergoedingen > Instellen > Vergoedingselementen.
+2. Klik op Nieuw.
+3. Typ in het veld Type de naam van het type vergoeding dat u maakt.
+4. Typ een waarde in het veld Omschrijving.
+5. Selecteer een optie in het veld Gelijktijdige inschrijving.
+    * Beperk de mogelijkheid van werknemers om zich te registreren in meerdere medische plannen door Eén inschrijving per type te selecteren.  
+6. Selecteer een optie in het veld Salariscategorie.
+7. Klik op het tabblad Plannen.
+8. Klik op Nieuw.
+9. Typ een waarde in het veld Plan.
+10. Typ een waarde in het veld Omschrijving.
+11. Typ of selecteer een waarde in het veld Type.
+12. Selecteer een optie in het veld Gevolgen voor salaris.
+13. Klik op Opslaan.
 
 ## <a name="create-a-benefit"></a>Een vergoeding maken
+1. Sluit de pagina.
+2. Ga naar Human resources > Vergoedingen > Vergoedingen.
+3. Klik op Nieuw om het verwijderdialoogvenster te openen.
+4. Typ of selecteer een waarde in het veld Plan.
+5. Typ of selecteer een waarde in het veld Optie.
+6. Typ in het veld Begindatum de datum en een tijd.
+7. Klik op Vergoeding maken.
 
-1. Ga naar **Human Resources \> Vergoedingen \> Vergoedingen**.
-2. Selecteer **Nieuw**.
-3. Typ of selecteer een waarde in het vervolgkeuzemenu in het veld **Plan**.
-4. Typ of selecteer een waarde in het veld **Optie**.
-5. Typ in het veld **Geldig vanaf** een datum en tijd.
-6. Selecteer **Vergoeding maken**.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

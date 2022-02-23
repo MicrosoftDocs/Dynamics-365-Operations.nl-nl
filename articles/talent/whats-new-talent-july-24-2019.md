@@ -78,6 +78,3 @@ Met een nieuwe optie kunnen managers de prestaties van hun directe en indirecte 
 Wij zijn blij om te kunnen bekendmaken dat de regio's Canada en Zuidoost-Azië sinds 1 augustus 2019 beschikbaar zijn voor Talent. Met deze wijziging kunt u omgevingen maken in de Canadese en Aziatische regio's en alle Talent-gegevens worden uitsluitend in die locaties beheerd. U kunt een omgeving maken in deze nieuwe regio's maken door de locatie te selecteren in het dialoogvenster Nieuwe omgeving en deze omgeving te gebruiken om Talent in te richten in LCS op de wijze die wordt beschreven in [Talent inrichten](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
 Gegevensmigratie van bestaande projecten van andere regio's naar de Canadese en Aziatische regio's wordt niet ondersteund. Alleen nieuwe projecten kunnen worden ingericht voor de nieuwe ondersteunde regio's.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

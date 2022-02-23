@@ -151,6 +151,3 @@ De bijgewerkte toewijzingen moeten op de volgende afbeeldingen lijken.
 ![Taak Werknemers naar Werknemer.](./media/WorkerMapping.png)
 
 ![Transformatie van veld Geslacht](./media/WorkerTransform.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

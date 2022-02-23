@@ -2,12 +2,15 @@
 title: Inhoudsblokmodule
 description: In dit onderwerp wordt beschreven wat inhoudsblokmodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,21 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0b5ec0a75c613cedcee9d156d81380d679224ea476af4f4745a30040f257fed8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7a8b1c214ba31b7c47cecbe67bef493f5fa450fc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726434"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411315"
 ---
-# <a name="content-block-module"></a>Inhoudsblokkenmodule
+# <a name="content-block-module"></a>Inhoudsblokmodule
+
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven wat inhoudsblokmodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Overzicht
 
 Een inhoudsblokmodule wordt gebruikt voor de marketing van producten of promoties via een combinatie van afbeeldingen en tekst. Zo kan een detailhandelaar een inhoudsblokmodule toevoegen aan de startpagina van een e-Commerce-site om een nieuw product te promoten en de aandacht van klanten te trekken.
 
@@ -46,11 +52,11 @@ Bovendien kan het thema verschillende eigenschappen voor elke indeling tonen. Ee
 
 In de volgende afbeelding ziet u een voorbeeld van een inhoudsblokmodule met een hero-indeling.
 
-![Voorbeeld van een heldmodule.](./media/Hero.PNG)
+![Voorbeeld van een heldmodule](./media/Hero.PNG)
 
 In de volgende afbeelding ziet u een voorbeeld van een inhoudsblokmodule met een functie-indeling.
 
-![Voorbeelden van functiemodules.](./media/Feature.PNG)
+![Voorbeelden van functiemodules](./media/Feature.PNG)
 
 ## <a name="content-block-module-properties"></a>Eigenschappen van inhoudsblokmodules
 
@@ -101,6 +107,3 @@ Voer de volgende stappen uit om een heldmodule aan een nieuwe pagina toe te voeg
 [Text Block-module](add-content-rich-block.md)
 
 [Videospelermodule](add-video-player.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

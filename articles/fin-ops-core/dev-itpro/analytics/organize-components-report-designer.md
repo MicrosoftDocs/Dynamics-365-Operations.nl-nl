@@ -1,10 +1,12 @@
 ---
 title: Rapportonderdelen indelen in Report Designer
-description: In dit onderwerp wordt uitgelegd hoe u bestaande rapporten, bouwstenen en objecten in Report Designer kunt organiseren.
+description: Nadat u bouwstenen hebt ontworpen en rapporten hebt gegenereerd, is het handig om deze objecten te ordenen zodat gebruikers ze eenvoudig kunnen vinden. In dit artikel wordt uitgelegd hoe u bestaande rapporten, bouwstenen en objecten in Report Designer kunt organiseren.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6b30e7e480edb50bb9509e270806224755f98e38111cda0c1cae86a0f56eb193
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 58525da35eb9e9376cb5793ad6c6fa45b9de42e6
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763519"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685806"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Rapportonderdelen indelen in Report Designer
 
@@ -47,7 +49,7 @@ U kunt rapportdefinities groeperen om meerdere rapporten tegelijk te genereren. 
 ### <a name="create-a-report-group"></a>Een rapportgroep maken
 
 1. Klik in Report Designer in het navigatievenster op **Rapportgroepen**.
-2. Klik in het menu **Bestand** op **Nieuw** &gt; **Rapportgroepdefinitie** om een nieuwe groep in het venster van de viewer te openen. U kunt ook klikken op de knop **Rapportgroep** ![Rapportgroep.](media/report-group.gif "Rapportgroep") op de werkbalk.
+2. Klik in het menu **Bestand** op **Nieuw** &gt; **Rapportgroepdefinitie** om een nieuwe groep in het venster van de viewer te openen. U kunt ook klikken op de knop **Rapportgroep** ![Rapportgroep](media/report-group.gif "Rapportgroep") op de werkbalk.
 3. Klik op het tabblad **Rapportgroep**. Als u de informatie over de afzonderlijke rapportdefinities wilt negeren voor het genereren van dit rapport, schakelt u het selectievakje **Instellingen voor bedrijf, details en datum uit individuele rapportdefinities negeren** in. De bedrijfsnaam, het detailniveau, voorlopige instellingen en datumgegevens worden automatisch ingevuld, maar u kunt wel updates uitvoeren.
 4. Als u meerdere rapporten wilt genereren die de aangiftevaluta tonen, schakelt u het selectievakje **Alle aangiftevaluta opnemen** in. U kunt vervolgens meerdere weergaven openen door op de knop **Valuta** te klikken in de Web Viewer wanneer u het rapport weergeeft.
 5. Klik in het veld **Rapporten in groep** op **Toevoegen** om de rapporten te selecteren die u in de rapportgroep wilt opnemen. Als u meerdere rapporten wilt selecteren in het dialoogvenster **Toevoegen**, houdt u de toets Ctrl ingedrukt terwijl u rapporten selecteert. Wanneer u klaar bent met het selecteren van rapporten, klikt u op **OK**.
@@ -58,15 +60,15 @@ U kunt rapportdefinities groeperen om meerdere rapporten tegelijk te genereren. 
 1. Klik in Report Designer in het navigatievenster op **Rapportgroepen**.
 2. Dubbelklik op de rapportgroep die u wilt wijzigen.
 3. Breng de gewenste wijzigingen aan op het tabblad **Rapportgroep**.
-4. Klik in het menu **Bestand** op **Opslaan** om de gewijzigde rapportgroep op te slaan of klik op de knop **Opslaan** ![Opslaan.](media/save.gif "Opslaan") op de werkbalk.
+4. Klik in het menu **Bestand** op **Opslaan** om de gewijzigde rapportgroep op te slaan of klik op de knop **Opslaan** ![Opslaan](media/save.gif "Opslaan") in de werkbalk.
 
-> Als u rapporten hebt gepland die met ingestelde intervallen moeten worden gegenereerd, kunt u die instellingen negeren en onmiddellijk een rapport genereren.
+> [OPMERKING] Als u rapporten hebt gepland die met ingestelde intervallen moeten worden gegenereerd, kunt u die instellingen negeren en onmiddellijk een rapport genereren.
 
 ### <a name="generate-a-report-group-report"></a>Een rapportgroeprapport genereren
 
 1. Klik in Report Designer in het navigatievenster op **Rapportgroepen**.
 2. Open de rapportgroep die u wilt genereren.
-3. Klik op de knop **Rapport genereren** ![Rapport genereren.](media/generate-report.gif "Rapport genereren") om rapporten te genereren.
+3. Klik op de knop **Rapport genereren** ![Rapport genereren](media/generate-report.gif "Rapport genereren") om rapporten te genereren.
 
 ### <a name="delete-a-report-group"></a>Een rapportgroep verwijderen
 
@@ -146,6 +148,3 @@ Alleen standaardinstellingen voor de basisperiode worden opgeslagen met de rappo
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Financiële rapportage](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

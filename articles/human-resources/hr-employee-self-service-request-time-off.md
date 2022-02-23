@@ -1,13 +1,16 @@
 ---
 title: Vrije tijd aanvragen
 description: Vraag vrije tijd aan in Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 11/03/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,19 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f7ca3fd03cda720187cb9c21b7f3ef3545c8901e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b034f3bac7264ff96100396cbb45e5b869765ce8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066770"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418050"
 ---
 # <a name="request-time-off"></a>Vrije tijd aanvragen
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 U kunt aanvragen voor vrije tijd indienen, uw vakantie- en verlofsaldi weergeven en de status van uw verlofaanvragen bekijken in Dynamics 365 Human Resources.
 
@@ -45,11 +43,9 @@ U kunt aanvragen voor vrije tijd indienen, uw vakantie- en verlofsaldi weergeven
 
 6. Selecteer **Indienen** wanneer u gereed bent om uw aanvraag in te dienen. Selecteer anders **Concept opslaan**.
 
-Werknemers die een nieuwe verlofaanvraag indienen, kunnen voor het maken van hun verlofaanvraag verschillende verloftypen selecteren. Alle verloftypen die zijn geselecteerd als onderdeel van een verlofaanvraag, moeten echter dezelfde verlofeenheid hebben. Medewerkers kunnen de verlofeenheid voor elk verloftype weergeven op de pagina **Verlof aanvragen**.
-
 ## <a name="add-an-attachment-to-an-existing-request"></a>Een bijlage toevoegen aan een bestaande aanvraag
 
-Wanneer u een bestaande verlofaanvraag bijwerkt, kunt u een bijlage toevoegen. U kunt ook alle gerelateerde aanvragen voor een bepaalde datum weergeven.
+Wanneer u een bestaande verlofaanvraag bijwerkt, kunt u een bijlage toevoegen. U kunt ook alle gerelateerde aanvragen voor een bepaalde datum weergeven. 
 
 ## <a name="view-leave-balances"></a>Verlofsaldi weergeven
 
@@ -63,21 +59,6 @@ Wanneer u een bestaande verlofaanvraag bijwerkt, kunt u een bijlage toevoegen. U
 
 2. Als u uw goedgekeurde verlofaanvragen wilt weergeven, selecteert u **Goedgekeurde vrije tijd**. Als u uw uitstaande verlofaanvragen wilt weergeven, selecteert u **Verlofaanvragen**.
 
-## <a name="cancel-time-off-requests"></a>Verlofaanvragen annuleren
-
-1. Selecteer in het werkgebied **Selfservice werknemer** de optie **Vrije tijd weergeven** op de tegel **Verlofsaldi**.
-
-2. Selecteer op de pagina **Verlof** een of meer verlofaanvragen die u wilt annuleren.
-
-3. Selecteer de knop **Annuleren**.
-
-4. Voer in het deelvenster **Details van annulering** een opmerking in en selecteer Vervolgens **Indienen**.
-
-   ![Verlofaanvraag annuleren.](media/hr-leave-and-absence-cancel.png)
-
 ## <a name="see-also"></a>Zie ook
 
 - [Overzicht van verlof en verzuim](hr-leave-and-absence-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

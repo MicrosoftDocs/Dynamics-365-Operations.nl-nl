@@ -2,29 +2,34 @@
 title: Afmelden voor verzamelen van gebeurtenissen voor webactiviteit
 description: In dit onderwerp wordt uitgelegd hoe u bezoekers van uw website in staat kunt stellen om zich af te melden voor het verzamelen van gebeurtenissen voor webactiviteiten in Microsoft Dynamics 365 Commerce.
 author: aamiral
+manager: AnnBe
 ms.date: 05/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: sericks
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d71a184b541f243ccc23914ac2e7c663e5ba61be0a27cf8d41e368fe6a384b9f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4b0e48307527a8fea729d8dfdcdbc6337be0faf1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729825"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411396"
 ---
 # <a name="opt-out-of-web-activity-event-collection"></a>Afmelden voor verzamelen van gebeurtenissen voor webactiviteit
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u klanten in staat kunt stellen zich af te melden voor het verzamelen van gebeurtenissen voor webactiviteiten in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Overzicht
 
 Met Dynamics 365 Commerce kunnen sitebeheerders de webactiviteiten analyseren van gebruikers van hun e-commercesites. Op die manier kunnen ze beter begrijpen hoe hun sites worden gebruikt en kunnen ze de sites optimaliseren voor een verbeterde gebruikerservaring en voor het behalen van zakelijke doelstellingen.
 
@@ -40,7 +45,7 @@ In Accountbeheer in Commerce Headquarters (HQ) kunnen beheerders de afmelding ui
 1. Zoek in de HQ-client op de pagina **Alle klanten** een klant en selecteer deze.
 1. Stel op de pagina met klantdetails op het sneltabblad **Retail** in de sectie **Privacy** de optie **Webactiviteit niet bijhouden** in op **Ja**.
 
-    ![Privacyinstellingen.](media/Disablepersonalizationpart2.png)
+    ![Privacy-instellingen](media/Disablepersonalizationpart2.png)
 
 1. Selecteer **Opslaan** en sluit de pagina.
 
@@ -51,6 +56,3 @@ Beheerders kunnen geverifieerde gebruikers zichzelf laten afmelden voor het verz
 ### <a name="custom-extensions"></a>Aangepaste extensies
 
 Beheerders kunnen hun eigen extensies maken om de afmelding voor gebruikers te beheren. Zie [Retail Server-API's aanroepen](e-commerce-extensibility/call-retail-server-apis.md) en [Uitbreidbaarheid van online afzetkanaal](e-commerce-extensibility/overview.md). voor meer informatie.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,31 +1,33 @@
 ---
 title: Overzicht van klantbetalingen
-description: Deze procedure doorloopt de verschillende methoden die worden gebruikt om klantbetalingen in te voeren.
+description: Deze taakbegeleier behandelt verschillende methoden die worden gebruikt om klantenbetalingen in te voeren.
 author: kweekley
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, CustPaymEntry, CustTableLookup, LedgerJournalTransCustPaym, CustOpenTrans, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f3782c1dd5e326bfc8ae5c005b58d4039f32b021
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 9196bedcea26a0024b3eabbbcb9c58a0155a7490
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394484"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441947"
 ---
 # <a name="customer-payment-overview"></a>Overzicht van klantbetalingen
 
 [!include [banner](../../includes/banner.md)]
 
-Deze procedure doorloopt de verschillende methoden die worden gebruikt om klantbetalingen in te voeren. Bij deze taak wordt het demobedrijf USMF gebruikt.
+Deze taakbegeleier behandelt verschillende methoden die worden gebruikt om klantenbetalingen in te voeren. Bij deze taak wordt het demobedrijf USMF gebruikt.
 
 1. Ga naar het **Navigatiedeelvenster > Modules > Klanten > Betalingen > Betalingsjournaal**.
 2. Klik op **Nieuw**.
@@ -50,6 +52,3 @@ Deze procedure doorloopt de verschillende methoden die worden gebruikt om klantb
 21. Voer in het veld **Betalingsreferentie** een betalingsreferentie in. De betalingsreferentie is alleen vereist als u ervoor kiest de betaling op te nemen op een depositostrook.  
 22. Klik in het **actievenster** op **Boeken** om de klantbetalingen te boeken. 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

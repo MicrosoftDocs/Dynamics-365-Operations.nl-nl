@@ -2,24 +2,27 @@
 title: " Correcties van beloningspunten voor loyaliteit verwerken"
 description: Deze procedure toont hoe u de loyaliteitskaartgegevens opzoekt en de beloningspunten voor loyaliteit aanpast.
 author: scott-tucker
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailLoyaltyCards, RetailLoyaltyCardRewardPointTrans, RetailLoyaltyCardRewardPointAdjustment, RetailAffiliationLookup
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 07008234255102e6094e362edcadb116158e9ee770d782fbb654bfc1ce000285
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bdbd9fa60fe4d000359e4695a9fb034fae3ca1b0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757340"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411413"
 ---
 # <a name="process-loyalty-reward-point-adjustments"></a> Correcties van beloningspunten voor loyaliteit verwerken
 
@@ -47,6 +50,3 @@ Deze procedure toont hoe u de loyaliteitskaartgegevens opzoekt en de beloningspu
 15. Klik op Kaarttransacties.
 16. Sluit de pagina.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

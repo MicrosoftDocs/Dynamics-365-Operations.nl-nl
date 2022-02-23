@@ -2,34 +2,32 @@
 title: Talent uitbreiden met Power Apps en Power Automate
 description: In dit artikel worden enkele voorbeelden beschreven van uitbreidbaarheidsscenario's voor Microsoft Dynamics 365 Human Resources die gebruikmaken van Microsoft Power Apps en Microsoft Power Automate.
 author: negudava
+manager: Annbe
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core;Experience Apps;Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fedf9b35e5dc8372fd82c6308ec5b1452eab7e8f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2e89347829ccd6569d568db42c79b5fea2316ba3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070295"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527021"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Uitbreiden met Power Apps en Power Automate
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 In dit artikel worden enkele voorbeelden beschreven van uitbreidbaarheidsscenario's voor Microsoft Dynamics 365 Human Resources die gebruikmaken van Microsoft Power Apps en Microsoft Power Automate. U kunt het oplossingspakket importeren dat is gekoppeld aan elk voorbeeld in uw Power Apps-omgeving. Vervolgens kunt u de pakketten als richtlijn of als beginpunt gebruiken voor het implementeren van scenario's die van toepassing op uw organisatie.
 
@@ -47,13 +45,13 @@ De app **Integratie met Microsoft 365** kan worden gebruikt voor het ophalen van
 
 U kunt deze app uitbreiden voor andere scenario's. U kunt deze bijvoorbeeld gebruiken om teamvakantiegegevens, agenda-items en teamspecifieke gebeurtenissen weer te geven.
 
-Voor het downloaden van de app voor **integratie met Microsoft 365, Power Automate** gaat u naar [Integratie met Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2081787) in het Microsoft Downloadcentrum.
+Voor het downloaden van de app **Integratie met Microsoft 365, Power Automate** gaat u naar [Integratie met Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2081787) in het Microsoft Downloadcentrum.
 
 ## <a name="power-automate--sql-connect-and-execute"></a>Power Automate: verbinding maken met SQL en SQL-query´s uitvoeren
 
 Met de sjabloon **Power Automate: verbinding maken met SQL en SQL-query´s uitvoeren** wordt verbinding gemaakt met Microsoft SQL Server en kunnen SQL-query's worden uitgevoerd.
 
-Hoewel met deze sjabloon SQL-tabellen worden gelezen en bijgewerkt, kunt u deze uitbreiden en gebruiken voor andere scenario's. Zo kunt u de sjabloon bijvoorbeeld gebruiken voor het vullen van een faseringstabel in Dataverse met records van SQL Server en voor het periodiek synchroniseren van de faseringstabel met behulp van een incrementele push van SQL Server.
+Hoewel met deze sjabloon SQL-tabellen worden gelezen en bijgewerkt, kunt u deze uitbreiden en gebruiken voor andere scenario's. Zo kunt u de sjabloon bijvoorbeeld gebruiken voor het vullen van een faseringstabel in Common Data Service met records van SQL Server en voor het periodiek synchroniseren van de faseringstabel met behulp van een incrementele push van SQL Server.
 
 Geavanceerde query is geïntegreerd met Flow om gegevenstransformatie en incrementele push mogelijk te maken.
 
@@ -61,6 +59,4 @@ Voor het downloaden van de sjabloon **Power Automate: verbinding maken met SQL e
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Het Microsoft Power Platform](/power-platform/admin/admin-documentation)</br>
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Het Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>

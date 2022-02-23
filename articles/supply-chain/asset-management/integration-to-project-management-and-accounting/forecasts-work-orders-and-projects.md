@@ -1,10 +1,12 @@
 ---
 title: Prognoses, werkorders en projecten
 description: In dit onderwerp worden prognoses en de integratie van werkorders met de module Projectbeheer en boekhouding in Activabeheer beschreven.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/29/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderProjCostInfoPart
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b53dcf4e8796f808283b7bd5ea92b869ee0e59aac5359d74bcdc5de37ea7352
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f062b5463b54e9bcf32ed6f17263811c4bb24138
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770331"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021014"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Prognoses, werkorders en projecten
 
@@ -58,13 +60,13 @@ Een deel van deze informatie is mogelijk niet gevonden in een werkorder. Daarom 
 
 Vanwege de manier waarop het activumtype **Truckmotor** is ingesteld, is in de volgende afbeelding elke werkordertaak die is gemaakt met het activumtype **Truckmotor**, een subproject van project-id 000186.
 
-![Figuur 1.](media/01-integration-to-pma.png)
+![Figuur 1](media/01-integration-to-pma.png)
 
 Het doel van de project-id in de werkordertaak en het bijbehorende activiteitnummer is het bijhouden van kosten die zijn gerelateerd aan de werkordertaak en het activum dat ervoor is geselecteerd in de module **Projectbeheer en boekhouding**. (Als u de project-id en het activiteitnummer wilt bekijken, selecteert u **Activabeheer** > **Algemeen** > **Werkorders** > **Alle werkorders** en selecteert u de werkorder. Op het sneltabblad **Regeldetails** ziet u in het veld **Project-id** de project-id. In het veld **Activiteitnummer** ziet u het activiteitnummer.) Meer informatie over kostenbeheer in Activabeheer vindt u in [Kosten- en datumbeheer](../controlling-and-reporting/cost-and-date-control.md).
 
 In de volgende afbeelding ziet u een grafisch overzicht van werkorderprojecten en gerelateerde projectactiviteiten.
 
-![Figuur 2.](media/02-integration-to-pma.png)
+![Figuur 2](media/02-integration-to-pma.png)
 
 Wanneer een nieuwe werkordertaak wordt gemaakt voor een werkorder, wordt automatisch een werkorderproject gemaakt voor de taak. De financiële dimensies voor het activum dat is gekoppeld aan de werkordertaak, worden automatisch overgebracht naar het werkorderproject.
 
@@ -86,18 +88,15 @@ Houd rekening met de afhankelijkheden in relatie tot de module **Projectbeheer e
 
 De volgende afbeeldingen tonen de koppelingen tussen werkorderprojectgroepen, gerelateerde projecttypen, projectfasen en levenscyclusstatussen van werkorders.
 
-![Figuur 3.](media/03-integration-to-pma.png)
+![Figuur 3](media/03-integration-to-pma.png)
 
-![Figuur 4.](media/04-integration-to-pma.png)
+![Figuur 4](media/04-integration-to-pma.png)
 
-![Figuur 5.](media/05-integration-to-pma.png)
+![Figuur 5](media/05-integration-to-pma.png)
 
 Informatie over het instellen van werkorderprojecten vindt u in [Projectinstellingen werkorder](../setup-for-work-orders/work-order-project-setup.md). Zie [Levenscyclusstatussen van werkorder](../setup-for-work-orders/work-order-lifecycle-states.md) voor meer informatie over het maken van levenscyclusstatussen van werkorders.
 
 In de volgende afbeelding ziet u een grafisch overzicht van de verschillende projecten die in de module **Activabeheer** zijn gemaakt om de integratie met de module **Projectbeheer en boekhouding** mogelijk te maken. Ook worden de werkprocessen weergegeven waaraan de projecten zijn gekoppeld.
 
-![Figuur 6.](media/06-integration-to-pma.png)
+![Figuur 6](media/06-integration-to-pma.png)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

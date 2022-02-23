@@ -2,25 +2,28 @@
 title: Rentepercentages instellen voor een rentecode
 description: Rentecodes bevatten instellingen die bepalen wanneer kosten voor de rente geheven worden en hoe deze berekend wordt op achterstallige rekeningen.
 author: ShivamPandey-msft
-ms.date: 02/17/2021
+manager: AnnBe
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Interest
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 59402
 ms.assetid: 3b945333-1eaf-4658-ab5a-1a7791a7eb40
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 09808433140f71bf2d7bfaaca87b6c27adb56d86c4c14ad44b37592d416fa2b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a3ca43503ecbe8e814958576e46ced10bfe9ad49
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716712"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441862"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Rentepercentages instellen voor een rentecode
 
@@ -44,19 +47,10 @@ U kunt de rentevoeten instellen die een opgegeven percentage berekenen.
 
 - Rentebedrag is van toepassing op alle valuta's.
 - Optionele limieten voor het rentebedrag kunnen worden ingevoerd.
-- **Percentage** is geselecteerd in het veld **Rente berekenen op basis van** op de pagina **Rentecodes instellen**.
+- <strong>Percentage</strong> is geselecteerd** <strong>in het veld **Rente berekenen op basis van</strong> op de pagina <strong>Rentecodes instellen</strong>.
 
 Als u bijvoorbeeld een rentecode wilt instellen die 5 procent rente aanrekent voor elke twee maanden dat de factuurbetaling voorbij de vervaldatum is, voert u 2 in het veld **Bereken rente elke** in en selecteert u **Maand**.
 
-> [!NOTE] 
-> Het nieuwe algoritme voor het berekenen van rentenota's wordt toegevoegd met behulp van Functiebeheer. Als u dit algoritme wilt gebruiken, moet u de functie **(GBL) Toestaan om rente per dag te berekenen als jaarlijks percentage gedeeld door 365** inschakelen. Zie [Overzicht van functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voor meer informatie over het inschakelen van de functie.
-> 
-> De formule voor de berekening van het rentenotabedrag luidt: 
->  
-> Bedrag rentenota = Verschuldigd bedrag * Jaarlijks rente % / 365 * Aantal dagen achterstallig
->  
-> Deze functie is beschikbaar in versie 10.0.18 of hoger.    
- 
 ## <a name="interest-rates-based-on-amounts"></a>Rentevoeten op basis van bedragen
 U kunt de rentevoeten instellen die een opgegeven bedrag berekenen per valuta.
 - Een rentebedrag wordt opgegeven voor elke valuta in de rentecode.
@@ -90,6 +84,7 @@ U stelt de bereikinformatie als volgt in.
 
 
 ## <a name="example-2-interest-by-range--days"></a>Voorbeeld 2: Rente volgens bereik = Dagen
+--------------------------------------------------
 
 U stelt een rentecode in die één keer rente aanrekent voor elke 15 dagen dat de factuur voorbij de vervaldatum is. U wilt de berekening baseren op een rentewaarde van een bepaald bedrag, volgens getrapte dagintervallen. De waarde van de rente worden 10,00 per 15 dagen gedurende de eerste 60 dagen 15,00 per 15 dagen van dagen 61-90 en 20,00 per 15 dagen vanaf dag 91 en later. U stelt het rentecodeveld als volgt in.
 
@@ -110,6 +105,7 @@ U stelt de bereikinformatie als volgt in.
 
 
 ## <a name="example-3-interest-by-range--months"></a>Voorbeeld 3: Rente volgens bereik = Maanden
+----------------------------------------------------
 
 U stelt een rentecode in die één keer rente aanrekent voor elke maand dat de factuur voorbij de vervaldatum is. U wilt de berekening baseren op een percentage rentewaarde, volgens getrapte maandintervallen. De waarde van de rente is 1,5 procent per maand voor de eerste drie maanden achterstal, 2,0 procent per maand voor de tweede drie maanden en 2,5 procent per maand voor elke maand voorbij de eerste zes maanden. U stelt het rentecodeveld als volgt in.
 
@@ -135,6 +131,3 @@ Als u verschillende versies wilt bekijken, kunt u de menukeuze **Begindatum** ge
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

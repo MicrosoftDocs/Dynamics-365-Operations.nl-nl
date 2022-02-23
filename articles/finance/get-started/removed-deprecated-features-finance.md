@@ -2,22 +2,25 @@
 title: Verwijderde of afgeschafte functies in Dynamics 365 Finance
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering uit Dynamics 365 Finance.
 author: roschlom
-ms.date: 12/03/2021
+manager: AnnBe
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
+ms.search.scope: Operations
 ms.search.region: Global
-ms.author: roschlom
+ms.author: sericks
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ad3df2ee9c10972dac8258b6ee41ae0a6eabfbea
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: a406db6d78302fa05596a58fffb7464222d4bfea
+ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890948"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689489"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Verwijderde of afgeschafte functies in Dynamics 365 Finance
 
@@ -31,109 +34,13 @@ In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn g
 Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning rekening te houden met deze verwijderingen en afschaffingen. 
 
 > [!NOTE]
-> Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
-
-## <a name="features-removed-or-deprecated-in-the-finance-10024-release"></a>Verwijderde of verouderde functies in versie 10.0.24 van Finance
-
-### <a name="sales-tax-report-for-sweden-design-based-on-reporting-codes"></a>Btw-rapport voor Zweden (ontwerp op basis van aangiftecodes)
-
-[Btw-rapport voor Zweden](../localizations/emea-swe-sales-tax-payment-report-sweden.md)
-
-| &nbsp; | &nbsp; |
-|------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Vervangen door een nieuw ontwerp voor btw-aangifte [Btw-aangifte voor Zweden](../localizations/emea-swe-vat-declaration-sweden.md) |
-| **Vervangen door een andere functie?**   | Ja |
-| **Betrokken productgebieden**         | Toepassing |
-| **Implementatieoptie**              | Alle |
-| **Status**                         | Afgeschaft: vanaf 1 december 2022 willen we geen ondersteuning meer bieden voor het btw-rapport voor Zweden (Zweedse rapportindeling). In plaats daarvan worden onder het model **Belastingaangifte** de nieuwe ER-indelingen **XML voor btw-aangifte (SE)** en **Btw-aangifte Excel (SE)** beschikbaar gesteld. |
-
-### <a name="vat-statement-for-austria-design-based-on-reporting-codes"></a>Btw-overzicht voor Oostenrijk (ontwerp op basis van aangiftecodes)
-
-[Details btw-overzicht voor Oostenrijk](../localizations/emea-aut-vat-statement-details.md)
-
-| &nbsp; | &nbsp; |
-|------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Vervangen door een nieuw ontwerp voor btw-aangifte [Btw-aangifte voor Oostenrijk](../localizations/emea-aut-vat-declaration-austria.md) |
-| **Vervangen door een andere functie?**   | Ja |
-| **Betrokken productgebieden**         | Toepassing |
-| **Implementatieoptie**              | Alle |
-| **Status**                         | Afgeschaft: vanaf 1 december 2022 willen we geen ondersteuning meer bieden voor de ER-indeling **Btw-aangifte (AT)** onder **Btw-aangiftemodel**. In plaats daarvan worden onder het model **Belastingaangifte** de nieuwe indelingen **XML voor btw-aangifte (AT)** en **Btw-aangifte Excel (AT)** beschikbaar gesteld. |
-
-### <a name="elster-declaration-for-germany-design-based-on-reporting-codes"></a>ELSTER-aangifte voor Duitsland (ontwerp op basis van aangiftecodes)
-
-[Btw-overzicht](../localizations/emea-de-vat-declaration.md)</br>
-[Elektronische belastingaangifte voor Duitsland instellen](../../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md)</br>
-[Elektronische transmissie van btw-aangifte (ELSTER)](../localizations/tasks/de-00003-electronic-transmission-elster.md)
-
-| &nbsp; | &nbsp; |
-|------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Vervangen door een nieuw ontwerp voor btw-aangifte [Btw-aangifte voor Duitsland](../localizations/emea-deu-vat-declaration-germany.md) |
-| **Vervangen door een andere functie?**   | Ja |
-| **Betrokken productgebieden**         | Toepassing |
-| **Implementatieoptie**              | Alle |
-| **Status**                         | Afgeschaft: vanaf 1 december 2022 willen we geen ondersteuning meer bieden voor de ER-indelingen **Elster (DE)** en **Elster-model**. In plaats daarvan worden onder het model **Belastingaangifte** de nieuwe indelingen **XML voor btw-aangifte (DE)** en **Btw-aangifte Excel (DE)** beschikbaar gesteld. |
-
-### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes"></a>OB-aangifte voor Nederland (ontwerp op basis van aangiftecodes)
-
-[OB-aangifte](../localizations/emea-nl-vat-declaration.md)
-
-| &nbsp; | &nbsp; |
-|------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Vervangen door een nieuw ontwerp voor btw-aangifte [Btw-aangifte voor Nederland](../localizations/emea-nl-vat-declaration-netherlands.md) |
-| **Vervangen door een andere functie?**   | Ja |
-| **Betrokken productgebieden**         | Toepassing |
-| **Implementatieoptie**              | Alle |
-| **Status**                         | Afgeschaft: vanaf 1 december 2022 willen we geen ondersteuning meer bieden voor de ER-indelingen **OB-aangifte (NL)** en **OB-aangiftemodel**. In plaats daarvan worden onder het model **Belastingaangifte** de nieuwe indelingen **XML voor btw-aangifte (NL)** en **Btw-aangifte Excel (NL)** beschikbaar gesteld. |
-
-## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Verwijderde of verouderde functies in versie 10.0.20 van Finance
-
-### <a name="rtir-query-invoice-data-request-hu-electronic-reporting-er-format-configuration"></a>Configuratie van de HU-indeling ('RTIR Query Invoice Data Request') voor elektronische rapportage (ER)
-
-| &nbsp; | &nbsp; |
-|------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Uitgesloten van verwerking van elektronische berichten bij samenwerking met Hongaars online factureringssysteem |
-| **Vervangen door een andere functie?**   | Nee |
-| **Betrokken productgebieden**         | Sollicitatie |
-| **Implementatieoptie**              | Alles |
-| **Status**                         | Afgeschaft: Uiterlijk op 15 april 2022 zal de indelingsconfiguratie "RTIR Query Invoice Data Request (HU)" niet langer worden ondersteund. |
-
-### <a name="french-fec-audit-file-electronic-reporting-er-format-for-france-under-german-audit-file-output-format"></a>'Frans FEC-auditbestand' met indeling voor elektronische rapportage (ER) voor Frankrijk onder 'uitvoer van Duits auditfile'-indeling
-
-| &nbsp; | &nbsp; |
-|------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Vervangen door nieuwe 'Frans FEC-auditbestand (FR)'-indeling |
-| **Vervangen door een andere functie?**   | Ja |
-| **Betrokken productgebieden**         | Sollicitatie |
-| **Implementatieoptie**              | Alles |
-| **Status**                         | Afgeschaft: per 1 mei 2022 zijn we van plan om niet langer het 'Frans FEC-auditbestand' met indeling voor elektronische rapportage (ER) voor Frankrijk onder 'uitvoer van Duits auditfile'-indeling te ondersteunen. In plaats daarvan wordt de nieuwe 'Frans FEC-auditbestand (FR)'-indeling geïntroduceerd onder het 'Gegevensexportmodel'. |
-
-## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Verwijderde of verouderde functies in versie 10.0.17 van Finance
-
-### <a name="lcs-repository-as-a-storage-option-for-electronic-reporting-configurations"></a>LCS-opslagplaats als een opslagoptie voor configuraties voor elektronische rapportage
-
-| &nbsp; | &nbsp; |
-|------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Vervangen door de nieuwe algemene opslagplaats voor Regulatory Configuration Service (RCS) |
-| **Vervangen door een andere functie?**   | Ja |
-| **Betrokken productgebieden**         | Dynamics 365 Finance-, Supply Chain Management- en Project Operations-producten|
-| **Implementatieoptie**              | Alles |
-| **Status**                         | Afgeschaft: tegen 1 april 2022 willen we opslagplaats voor Microsoft Dynamics Lifecycle Services (LCS) niet langer ondersteunen als opslagoptie voor ER-configuraties (Elektronische rapportage). Nieuwe Microsoft ER-configuraties worden gepubliceerd om exclusief te downloaden uit de algemene opslagplaats. De algemene opslagplaats kan worden gebruikt vanuit de Dynamics 365-producten en RCS. Zie [ER-configuraties importeren vanuit RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md) en [Afschaffing Regulatory Configuration Service - Lifecycle Services Storage](../localizations/rcs-lcs-repo-dep-faq.md) voor meer informatie. |
+> Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Verwijderde of verouderde functies in versie 10.0.16 van Finance
 
-### <a name="vat-declaration-cz-and-control-statement-export-cz-electronic-reporting-formats-for-czech-republic"></a>Indelingen Btw-aangifte (CZ) en Export van controleoverzicht (CZ) voor elektronische aangifte voor Tsjechië
-
-| &nbsp; | &nbsp; |
-|------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Vervangen door nieuwe indelingen |
-| **Vervangen door een andere functie?**   | Ja |
-| **Betrokken productgebieden**         | Sollicitatie |
-| **Implementatieoptie**              | Alles |
-| **Status**                         | Afgeschaft: tegen 22 januari 2022 zetten we de ondersteuning voor de indelingen Btw-aangifte (CZ) en Export van controleoverzicht (CZ) voor elektronische aangifte stop. In plaats daarvan worden onder het model Belastingaangifte een nieuwe XML voor btw-aangifte (CZ), een nieuw Excel-bestand voor btw-aangifte (CZ) en een nieuwe XML voor het btw-controleoverzicht beschikbaar gesteld. |
-
 ### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>"Exportindeling voor grootboektransacties (BE)" elektronische rapporteringsindeling en het bijbehorende model "Exporteren van grootboektransacties (BE)" voor België
 
-| &nbsp; | &nbsp; |
+|   |  |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Vervangen met nieuwe ER-indeling onder het model "Standaard auditfile (SAF-T)".  |
 | **Vervangen door een andere functie?**   | Ja |
@@ -143,7 +50,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 ### <a name="vat-100-report-for-the-united-kingdom-in-ssrs-format"></a>Het rapport 'VAT 100' voor het Verenigd Koninkrijk in SSRS-indeling
 
-| &nbsp; | &nbsp; |
+|   |  |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Vervangen door nieuwe ER-indeling - 'VAT-aangifte Excel (VK)'-indeling onder 'Belastingaangiftemodel'.  |
 | **Vervangen door een andere functie?**   | Ja |
@@ -155,7 +62,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Internet Explorer 11-ondersteuning voor Dynamics 365 is afgeschaft
 
-| &nbsp; | &nbsp; |
+|   |  |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Met ingang van december 2020 wordt Microsoft Internet Explorer 11-ondersteuning voor alle Dynamics 365-producten afgeschaft en wordt Internet Explorer 11 na augustus 2021 niet meer ondersteund.<br><br>Dit heeft invloed op klanten die Dynamics 365-producten gebruiken die zijn ontworpen om via een Internet Explorer 11-interface te worden gebruikt. Na augustus 2021 wordt Internet Explorer 11 niet ondersteund voor dergelijke Dynamics 365-producten. |
 | **Vervangen door een andere functie?**   | Wij raden klanten aan om overstappen op Microsoft Edge.|
@@ -165,21 +72,21 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10012-release"></a>Verwijderde of verouderde functies in versie 10.0.12 van Finance
 
-### <a name="not-deprecated-polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Niet afgeschaft: Poolse SSRS-rapporten: Btw-register voor verkoop, btw-register voor inkoop, btw-register EU-overzicht – functieverwijzing PL-00014
+### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Poolse SSRS-rapporten: Btw-register voor verkoop, Btw-register voor inkoop, Btw-register EU-overzicht – functieverwijzing PL-00014
 
-| &nbsp; | &nbsp; |
+|   |  |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Niet wettelijk vereist.  |
 | **Vervangen door een andere functie?**   | Ja (Excel-indeling voor standaardauditbestand met btw-aangifte - JPK_VDEK) |
-| **Betrokken productgebieden**         | Sollicitatie |
-| **Implementatieoptie**              | Alles |
-| **Status**                         | Niet afgeschaft: Vanaf 27 april 2021 zijn wij van plan om de SSRS-rapporten te blijven ondersteunen: **Btw-register voor verkoop, btw-register voor inkoop, btw-register EU-overzicht – functieverwijzing PL-00014**. Er wordt tevens een voorbeeld van een Excel-indeling geïntroduceerd voor het standaardauditbestand met btw-aangifte (JPK_VDEK). |
+| **Betrokken productgebieden**         | Aanvraag |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft: vanaf 1 juli 2021 worden de SSRS-rapporten niet meer ondersteund: **Btw-register voor verkoop, Btw-register voor inkoop, Btw-register EU-overzicht – functieverwijzing PL-00014**. In plaats daarvan wordt een voorbeeld van een Excel-indeling geïntroduceerd voor het standaardauditbestand met btw-aangifte (JPK_VDEK). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10011-release"></a>Verwijderde of verouderde functies in versie 10.0.11 van Finance
 
 ### <a name="norwegian-standard-main-accounts"></a>Standaard hoofdrekeningen Noors
 
-| &nbsp; | &nbsp; |
+|   |  |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Nieuw ontwerp  |
 | **Vervangen door een andere functie?**   | Ja (vervangen door specifieke aanvraagparameters voor ER-indeling) |
@@ -190,8 +97,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 ## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>Verwijderde of verouderde functies in versie 10.0.7 van Finance
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>Dialoogvenster Wijziging in werkstroom aanvragen bevat niet langer een vervolgkeuzelijst voor gebruikersselectie
-
-| &nbsp; | &nbsp; |
+|   |  |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Gewijzigd in de functie met selectie van rekeninggroepen.  |
 | **Vervangen door een andere functie?**   | Ja |
@@ -201,6 +107,3 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Eerdere aankondigingen over verwijderde of afgeschafte functies
 Zie [Verwijderde of afgeschafte functies in eerdere versies](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md) voor meer informatie over functies die zijn verwijderd of vervangen in eerdere versies.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

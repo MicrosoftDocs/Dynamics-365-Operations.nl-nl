@@ -1,28 +1,29 @@
 ---
 title: Btw-overzicht
 description: In dit onderwerp vindt u een overzicht van het btw-systeem. Daarnaast worden de verschillende elementen van de btw-instellingen uitgelegd en wordt aangegeven hoe deze samenwerken.
-author: kailiang
+author: ShylaThompson
+manager: AnnBe
 ms.date: 10/28/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "13111"
-- intro-internal
+ms.search.scope: Core, Operations, Retail
+ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
-ms.author: kailiang
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 021692e0b599731db1d991405fcb4632080582bf
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: a3dacc755b3d4d3b5c7f51f6bac7c2e9c62773ba
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983923"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442015"
 ---
 # <a name="sales-tax-overview"></a>Btw-overzicht
 
@@ -30,13 +31,14 @@ ms.locfileid: "7983923"
 
 In dit onderwerp vindt u een overzicht van het btw-systeem. Daarnaast worden de verschillende elementen van de btw-instellingen uitgelegd en wordt aangegeven hoe deze samenwerken.
 
-## <a name="overview"></a>Overzicht
+<a name="overview"></a>Overzicht
+--------
 
 Het btw-raamwerk ondersteunt veel typen indirecte belastingen zoals btw, belasting toegevoegde waarde (btw), belasting voor goederen en services (GST), kosten op basis van eenheden en bronbelasting. Deze belastingen worden berekend en gedocumenteerd tijdens transacties voor inkoop en verkoop. Periodiek moeten deze belastingen worden aangegeven bij en betaald aan de belastingdienst. 
 
 In het volgende diagram worden de verschillende rechtspersonen in de btw-structuur en hun onderlinge relaties beschreven.
 
-[![Diagram met overzicht van entiteiten voor btw-instellingen.](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
+[![Diagram met overzicht van entiteiten voor btw-instellingen](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
 Voor elk type btw waarvoor een bedrijf zich moet verantwoorden, moet een btw-code worden gedefinieerd. In een btw-code worden de btw-tarieven en berekeningsregels voor de btw opgeslagen. 
 
@@ -95,6 +97,3 @@ Echter, als u een voorwaardelijke BTW gebruikt, hoeft u pas met de belastingdien
 Als u gepostdateerde cheques gebruikt als betalingsmethode, vindt geen afstemming met de bankrekening plaats wanneer de betaling wordt uitgevoerd. In sommige landen/regio's wordt de btw een 'gerealiseerde' schuld als de betaling wordt vereffend, wat betekent dat de gepostdateerde cheque is vereffend. U kunt deze optie inschakelen door **De voorwaardelijke belasting realiseren wanneer gepostdateerde cheques worden geïnd** in **Contanten en bankbeheer > Instellingen > Parameters voor Contanten en bankbeheer > Gepostdateerde cheques**.
 
 Zie [Bronbelasting instellen](tasks/set-up-withholding-tax.md) voor meer informatie.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

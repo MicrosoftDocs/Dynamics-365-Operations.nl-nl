@@ -1,25 +1,28 @@
 ---
 title: Een oorspronkelijk budget maken en vervolgens de voorlopige budgetposten in de openbare sector terugboeken
-description: Dit onderwerp biedt informatie over het maken en terugboeken van een oorspronkelijke budgetpost met behulp van budgetmodel- en dimensiewaarden met voorlopige budgetbedragen.
+description: Wanneer u een oorspronkelijke budgetregel maakt en het budgetmodel en de dimensiewaarden gebruikt die voorlopige budgetbedragen bevatten, kunnen voorlopige budgetbedragen worden omgekeerd.
 author: twheeloc
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetTransaction, BudgetAccountStructureLookup, BudgetTransactionMultiPost
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f0120e4aa895d70da418c643a81bd0046a96c031de0ca660e31bb3e0d8f8c2df
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32d89216d49a743729de8910f738276cbddcd8bb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744245"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442055"
 ---
 # <a name="create-an-original-budget-and-then-reverse-preliminary-budget-entries-in-the-public-sector"></a>Een oorspronkelijk budget maken en vervolgens de voorlopige budgetposten in de openbare sector terugboeken
 
@@ -48,6 +51,3 @@ Wanneer u een oorspronkelijke budgetregel maakt en het budgetmodel en de dimensi
     * Om optionele selecties te maken, klikt u boven aan de pagina op het pictogram Ontgrendelen.  
 18. Klik op Bijwerken.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

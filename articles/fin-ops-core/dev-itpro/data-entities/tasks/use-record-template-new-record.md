@@ -2,9 +2,11 @@
 title: Een nieuwe record maken met behulp van een recordsjabloon
 description: In deze procedure wordt voorgedaan hoe u een nieuwe record kunt maken met behulp van een eerder gedefinieerde recordsjabloon.
 author: margoc
+manager: AnnBe
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, SysRecordTemplateSelect
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4e59280c55b78bac49a3d60b9bd9f09ece5a988dc7754f0caf7b4fcdc64b9eaf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b9c71bab129aeecfdf5c59affece0d665e133979
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716033"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685164"
 ---
 # <a name="use-record-template-to-create-a-new-record"></a>Een nieuwe record maken met behulp van een recordsjabloon
 
@@ -33,6 +35,3 @@ In deze procedure wordt het demobedrijf USMF gebruikt.
 3. Zoek en selecteer de gewenste record in de lijst.
 4. Klik op **OK**.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

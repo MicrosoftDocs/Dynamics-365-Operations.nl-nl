@@ -1,10 +1,12 @@
 ---
 title: Werkordergroepen
 description: In dit onderwerp wordt beschreven hoe u met werkordergroepen in Activabeheer werkt.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderTablePoolPart, EntAssetWorkOrderPoolReferenceInfoPart, EntAssetWorkOrderPool, EntAssetWorkOrderPoolPreviewPart
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dd474451569e123fab811cc3625862d599a07963f3714c72d5a724ffd052983e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: afea5b8d0f958c3ab53d6cef8c9a0e9030d7c67b
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733511"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017512"
 ---
 # <a name="work-order-pools"></a>Werkordergroepen
 
@@ -85,7 +87,7 @@ Als u alle werkorderregels wilt verwijderen, stelt u de optie **Werkorderrelatie
 
 In de onderstaande afbeelding ziet u een voorbeeld van de lijstpagina **Werkordergroep**.
 
-![Figuur 1.](media/22-work-orders.png)
+![Figuur 1](media/22-work-orders.png)
 
 
 ## <a name="add-a-work-order-to-a-work-order-pool"></a>Een werkorder toevoegen aan een werkordergroep
@@ -106,6 +108,3 @@ Zoals in de voorgaande sectie is beschreven, kunt u werkorders aan een werkorder
 
 Als u een werkorder uit een werkordergroep wilt verwijderen, herhaalt u deze stappen, maar selecteert u in stap 3 de optie **Verwijderen**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

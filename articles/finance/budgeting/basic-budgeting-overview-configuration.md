@@ -1,36 +1,38 @@
 ---
 title: Budgetteringsoverzicht
-description: Bijna elk bedrijf dat gebruikmaakt van de functionaliteit Financiële items in Microsoft Dynamics 365 Finance, moet rapporten kunnen maken van gebudgetteerde versus werkelijke waarden. In dit artikel wordt de minimale configuratie uitgelegd die nodig is om budgetten in Finance and Operation te kunnen maken of budgetten te kunnen laden vanuit een programma van derden.
-author: panolte
-ms.date: 04/29/2021
-ms.topic: overview
+description: Bijna elk bedrijf dat gebruikmaakt van de functionaliteit Financiële items in Microsoft Dynamics 365 Finance, moet rapporten kunnen maken van gebudgetteerde versus werkelijke waarden. In dit artikel wordt de minimale configuratie uitgelegd die nodig is om budgetten in Finance and Operations te kunnen maken of budgetten te kunnen laden vanuit een programma van derden.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 01/11/2018
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "60113"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
-ms.author: panolte
+ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e881a878265062dc5ce8cec68a45237711f385d
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 36144474defc4849a112a180247f37796de00a27
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986505"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441974"
 ---
-# <a name="budgeting-overview"></a>Budgetteringsoverzicht
+# <a name="budgeting-overview"></a>Overzicht van Budgettering
 
 [!include [banner](../includes/banner.md)]
 
-Bijna elk bedrijf dat gebruikmaakt van de functionaliteit Financiële items in Microsoft Dynamics 365 Finance, moet rapporten kunnen maken van gebudgetteerde versus werkelijke waarden. In dit artikel wordt de minimale configuratie uitgelegd die nodig is om budgetten in Finance and Operation te kunnen maken of budgetten te kunnen laden vanuit een programma van derden.
+Bijna elk bedrijf dat gebruikmaakt van de functionaliteit Financiële items in Microsoft Dynamics 365 Finance, moet rapporten kunnen maken van gebudgetteerde versus werkelijke waarden. In dit artikel wordt de minimale configuratie uitgelegd die nodig is om budgetten in Finance and Operations te kunnen maken of budgetten te kunnen laden vanuit een programma van derden.
 
-## <a name="overview"></a>Overzicht
+<a name="overview"></a>Overzicht
+--------
 
 Het goedgekeurde budget voor een rechtspersoon wordt beheerd in een document dat een *budgetregisterregel* wordt genoemd. De regels in een budgetjournaalpostdocument worden *budgetrekeningposten* genoemd, en bevatten financiële dimensiegegevens, datums en de bedragen van het goedgekeurde budget. Het document met budgetjournaalposten is geïntegreerd met elementaire financiële rapporten en querypagina´s waarin werkelijke bedragen worden vergeleken met gebudgetteerde bedragen. 
 
@@ -38,7 +40,7 @@ Er zijn meerdere methoden om budgetregisterposten te maken:
 
 -   Voer handmatig de documentinformatie in op de pagina **Budgetregisterposten**.
 -   Gebruik de Microsoft Excel-sjabloon die u kunt openen door op de knop **Openen in Excel** te klikken op de pagina **Budgetregisterposten**.
--   Gebruik de gegevensentiteit **Budgetjournaalregels** in gegevensentiteit om budgetregisterregels te importeren. U kunt overwegen deze methode te gebruiken en de parameter **Op sets gebaseerde verwerking** in te schakelen wanneer u veel budgetjournaalregels in het systeem moet importeren.
+-   Gebruik de gegevensentiteit **Budgetjournaalregels** in gegevensentiteit om budgetregisterregels te importeren. U kunt overwegen deze methode te gebruiken en de parameter **Op sets gebaseerde** **verwerking** in te schakelen wanneer u veel budgetjournaalposten in het systeem moet importeren.
 -   Als het bedrijf de budgetplanningsfunctionaliteit gebruikt om budgetgegevens voor te bereiden, kunt u het periodieke proces **Budgetregisterpost genereren** gebruiken.
 
 De budgetjournaalpost wordt beschouwd als voltooid wanneer de budgetsaldi zijn bijgewerkt. Op de pagina **Budgetjournaalposten** klikt u op **Budgetsaldi bijwerken** voor een geselecteerde budgetjournaalpost of meerdere posten. Nadat u de budgetsaldi hebt bijgewerkt, verandert de status van de budgetregisterregel in. **Voltooid** Ingevulde budgetregisterregel kan niet worden heropend voor bewerkingen. Daarom moet u, als de budgetgegevens moeten worden gecorrigeerd, een nieuwe budgetjournaalregel maken in plaats van gegevens in de ingevulde budgetregisterpost te corrigeren.
@@ -50,7 +52,7 @@ Vervolgens, als er beleid is dat de goedkeuring van budgetregisterregels bepaalt
 
 Op de **Budgetteringsdimensies** pagina, moet u de financiële dimensies selecteren die voor budgettering worden gebruikt, op basis van de dimensies die in het rekeningschema worden gebruikt. U kunt alle financiële dimensies of een subset selecteren voor budgettering.
 
-Definieer een *Budgetmodel* dat correspondeert met alle of enkele van de budgetten. U kunt een enkel budgetmodel voor alle budgetregisterregels gebruiken. Als alternatief kunt u aparte modellen maken die zijn gebaseerd op het budgettype, de geografische locatie of een andere manier waarop een budget kan worden geclassificeerd. 
+Definieer een *budgetmodel* dat correspondeert met alle of enkele budgetten. U kunt een enkel budgetmodel voor alle budgetregisterregels gebruiken. Als alternatief kunt u aparte modellen maken die zijn gebaseerd op het budgettype, de geografische locatie of een andere manier waarop een budget kan worden geclassificeerd. 
 
 > [!NOTE] 
 > Als budgetbeheer wordt gebruikt, kunt u slechts één budgetmodel aan een specifieke budgetcyclustijd koppelen. 
@@ -72,7 +74,7 @@ Functionaliteit die in Microsoft Dynamics 365 Finance versie 10.0.7 (januari 202
 
 Met de functie **Budgetregistervermeldingen voor alleen hoeveelheid** kunt u een budgetregistervermelding met alleen hoeveelheden boeken. U kunt bijvoorbeeld een budgetregel boeken met een hoeveelheid van 32 en een prijs van nul, wat resulteert in een bedrag van nul. U kunt deze hoeveelheid vervolgens binnen de context van een financieel rapport gebruiken om een prijs per hoeveelheid te bepalen. U ziet dat er geen query's of rapporten zijn bijgewerkt als onderdeel van deze functie. Met deze functie kunt u alleen een bedrag van nul boeken.
 
-De functie **Budgetregistervermeldingen standaard van bedragtype** maakt het mogelijk dat het standaard bedragtype binnen een budgetregistervermelding een ander bedragtype is dan onkosten. Voor de budgetregistervermeldingsregel wordt nu standaard onkosten gebruikt wanneer het hoofdrekeningtype onkosten is; standaard wordt opbrengst gebruikt als het hoofdrekeningtype opbrengst is; en standaard wordt onkosten gebruikt voor alle andere rekeningtypen.
+De functie **Budgetregistervermeldingen standaard van bedragtype** maakt het mogelijk dat het standaard bedragtype binnen een budgetregistervermelding een ander bedragtype is dan onkosten. Voor de budgetregistervermeldingsregel wordt nu standaard onkosten gebruikt wanneer het hoofdrekeningtype onkosten is, wordt standaard opbrengst gebruikt als het hoofdrekeningtype onkosten is en wordt standaard onkosten gebruikt voor alle andere rekeningtypen.
 
 ## <a name="using-workspaces-and-inquiry-pages-to-track-budget-vs-actuals"></a>Werkruimten en querypagina's gebruiken om budget vs. werkelijk bij te houden
 De budgetmanager kan de huidige status van een budget controleren in de werkruimte **Grootboekbudgetten en prognoses**. De tabbladen **Onkostenbudgetoverschrijding** en **Inkomsten onder budget** biedt een snelle weergave van de financiële dimensies waarin de budgetdoelen niet worden gehaald of de drempel benaderen. U kunt het budgetdrempelpercentage en de financiële dimensiesets personaliseren die op deze tabbladen worden gebruikt door op **Mijn werkruimte configureren** te klikken. U kunt klikken op **Beheerders van eenheden** om de werknemers weer te geven die voor specifieke financiële dimensiecombinaties verantwoordelijk zijn die op deze tabbladen zijn geselecteerd. Als u bijvoorbeeld ziet dat het onkostenbudget van de afdeling Bedrijfsactiviteiten over de budgetdrempel gaat, kunt u de manager van de afdeling Bedrijfsactiviteiten gemakkelijk vinden en contacteren om het probleem te bespreken. 
@@ -86,6 +88,3 @@ Een bedrijf dat budgetplanningsfunctionaliteit gebruikt, kan *budgetprognoses* m
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

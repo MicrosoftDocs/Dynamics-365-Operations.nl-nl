@@ -1,14 +1,17 @@
 ---
 title: Aanbevelingen voor vergelijkbare artikelen inschakelen
-description: In dit onderwerp wordt beschreven hoe u productaanbevelingen voor vergelijkbare artikelen kunt inschakelen in Microsoft Dynamics 365 Commerce.
+description: In dit onderwerp wordt beschreven hoe u productaanbevelingen voor vergelijkbare artikelen kunt inschakelen in in Microsoft Dynamics 365 Commerce.
 author: bebeale
+manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,18 +19,20 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: e70365be8484d71ef9e0e9823b0a4406b0fd2761439780cafc30e1284bda1f20
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da957850072e233a41a042d5857f81ddbf178f7a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721995"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411450"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>Aanbevelingen voor vergelijkbare artikelen inschakelen
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u productaanbevelingen voor vergelijkbare artikelen kunt inschakelen in Microsoft Dynamics 365 Commerce.
+In dit onderwerp wordt beschreven hoe u productaanbevelingen voor vergelijkbare artikelen kunt inschakelen in in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Overzicht
 
 De aanbevelingen van de optie voor voor vergelijkbare artikelen in Dynamics 365 Commerce maakt gebruik van de kracht van kunstmatige intelligentie en machine learning (AI-ML) om aanbevelingen te geven voor vergelijkbare producten aan klanten. Door de aanbevelingen voor vergelijkbare artikelen beschikbaar te maken voor alle detailhandelkanalen in Commerce, kunnen detailhandelaren de klanttevredenheid verbeteren doordat klanten gemakkelijk vinden wat ze zoeken.
 
@@ -68,7 +73,7 @@ Voer de volgende stappen uit om de aanbevelingen voor vergelijkbare producten in
 
 In de volgende afbeelding ziet u de functie **Vergelijkbare artikelen** op de pagina **Functiebeheer** in Commerce Headquarters.
 
-![De functie Vergelijkbare artikelen op de pagina Functiebeheer in Commerce Headquarters.](./media/enableshopsimilarlooks.png)
+![De functie Vergelijkbare artikelen op de pagina Functiebeheer in Commerce Headquarters](./media/enableshopsimilarlooks.png)
 
 Nadat de voorgaande taken zijn voltooid, worden POS-terminals automatisch uitgebreid met een contextvenster met **Vergelijkbare artikelen**. Als u **Meer weergeven** kiest, kunnen gebruikers van POS-terminals een specifieke pagina met Vergelijkbare artikelen openen voor verdere filtering.
 
@@ -88,7 +93,7 @@ Voer deze stappen uit om een knop voor **Vergelijkbare artikelen** toe te voegen
 
 In de volgende afbeelding ziet u het selectievakje **Koppeling voor vergelijkbare artikelen inschakelen** en de knop **Vergelijkbare artikelen** op een PDP-voorbeeldpagina in site builder.
 
-![Selectievakje Koppeling voor vergelijkbare artikelen inschakelen en de knop Vergelijkbare artikelen op een PDP in site builder.](./media/SSLecomtooling.png)
+![Selectievakje Koppeling voor vergelijkbare artikelen inschakelen en de knop Vergelijkbare artikelen op een PDP in site builder](./media/SSLecomtooling.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
@@ -111,6 +116,3 @@ In de volgende afbeelding ziet u het selectievakje **Koppeling voor vergelijkbar
 [Aanbevelingen maken met voorbeeldgegevens](product-recommendations-demo-data.md)
 
 [Veelgestelde vragen over productaanbevelingen](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

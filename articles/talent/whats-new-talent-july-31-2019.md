@@ -72,6 +72,3 @@ Zie [Talent inrichten](https://docs.microsoft.com/dynamics365/unified-operations
 ### <a name="view-extended-information-for-performance-in-manager-self-service"></a>Uitgebreide informatie over prestaties in de selfservice-functionaliteit voor managers weergeven
 
 Met een nieuwe optie kunnen managers de prestaties van hun directe en indirecte ondergeschikten weergeven. Op dit moment kunnen lijnmanagers prestatiedoelstellingen toewijzen en bijwerken, en nieuwe beoordelingen uitgeven. Bovendien kunnen directe leidinggevenden en hun werknemers prestatiejournalen onderhouden en bijwerken om ervoor te zorgen dat het proces voor prestatiebeoordelingen soepel verloopt. Wanneer deze wijziging is geïmplementeerd, kunnen managers prestatiegerelateerde gegevens weergeven en beheren voor indirecte en directe ondergeschikten.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

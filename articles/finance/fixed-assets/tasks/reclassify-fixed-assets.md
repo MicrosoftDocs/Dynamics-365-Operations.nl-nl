@@ -1,10 +1,12 @@
 ---
 title: Vaste activa opnieuw classificeren
-description: In dit onderwerp wordt het proces van het opnieuw classificeren van activa uitgelegd. Als u een activum opnieuw wilt classificeren, moet u dit overbrengen naar een nieuwe vaste-activagroep of er een nieuw vaste-activanummer aan toewijzen binnen dezelfde groep.
-author: moaamer
+description: Als u een activum opnieuw wilt classificeren, moet u dit overbrengen naar een nieuwe vaste-activagroep of er een nieuw vaste-activanummer aan toewijzen binnen dezelfde groep.
+author: saraschi2
+manager: AnnBe
 ms.date: 05/14/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a5fadebe685810d6833d1cb0581ed9a4869cc124
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 4cfc1425aca7a62205e0c7c50237f206a179a0e7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883641"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968849"
 ---
 # <a name="reclassify-fixed-assets"></a>Vaste activa opnieuw classificeren
 
@@ -27,25 +29,11 @@ Als u een activum opnieuw wilt classificeren, moet u dit overbrengen naar een ni
 
 Wanneer een vast activum opnieuw wordt ingedeeld:
 
-- Alle boeken voor het bestaande vaste activum worden gemaakt voor het nieuwe vaste activum. Informatie die was ingesteld voor het oorspronkelijke vaste activum is naar het nieuwe vaste activum gekopieerd. De status van de boeken voor het oorspronkelijke vaste activum is Gesloten. 
+* Alle boeken voor het bestaande vaste activum worden gemaakt voor het nieuwe vaste activum. Informatie die was ingesteld voor het oorspronkelijke vaste activum is naar het nieuwe vaste activum gekopieerd. De status van de boeken voor het oorspronkelijke vaste activum is Gesloten. 
 
-- De nieuwe boeken voor het nieuwe vaste activum bevatten de datum van het opnieuw classificeren in het veld **Verwervingsdatum**. De datum in het veld **Uitvoeringsdatum afschrijving** is gekopieerd uit de oorspronkelijke activumgegevens. Als de afschrijving al is begonnen, geeft het veld **Datum waarop de afschrijving** het laatst is uitgevoerd de datum van het opnieuw classificeren weer. 
+* De nieuwe boeken van het nieuwe vaste activum bevatten de datum van het opnieuw classificeren in het veld **Verwervingsdatum**. De datum in het veld **Uitvoeringsdatum afschrijving** is gekopieerd uit de oorspronkelijke activumgegevens. Als de afschrijving al is begonnen, geeft het veld **Datum waarop de afschrijving** het laatst is uitgevoerd de datum van het opnieuw classificeren weer. 
 
-- De bestaande vaste-activatransacties voor het oorspronkelijke vaste activum zijn geannuleerd en opnieuw gegenereerd voor het nieuwe vaste activum.
-
-- Wanneer een activum met een overboekingstransactie opnieuw is geclassificeerd, toont het systeem een bericht in het **Actiecentrum** om aan te geven dat een overboekingstransactie niet werd voltooid tijdens het herclassificatieproces. Een overboekingstransactie moet worden voltooid om de bestaande herclassificatietransacties naar de juiste financiële dimensies te verplaatsen. 
-
-   Tijdens het herclassificatieproces worden de volgende acties uitgevoerd om het activumsaldo van het oorspronkelijke activum naar het nieuwe activum opnieuw te classificeren. 
-   
-   - Het herclassificatieproces kopieert de gegevens van het oorspronkelijke vaste-activaboek naar het nieuwe vaste-activaboek.
-
-   - De herclassificatietransactie gebruikt gegevens van de oorspronkelijke geboekte verwerving die informatie over financiële dimensies bevat die in de verwervingstransactie zijn opgenomen.  
-   
-   - Tegelijkertijd draait het herclassificatieproces de verwerving van de oorspronkelijke activum en de activumoverboekingstransactie terug. 
-
-Het volgende diagram en procedure geven een voorbeeld van het herclassificatieproces. 
-
-[![Diagram met het herclassificatieproces.](../media/reclassification-process-01.png)](../media/reclassification-process-01.png)
+* De bestaande vaste-activatransacties voor het oorspronkelijke vaste activum zijn geannuleerd en opnieuw gegenereerd voor het nieuwe vaste activum.
 
 Voer de volgende stappen uit om een vast activum opnieuw te classificeren:
 
@@ -56,7 +44,4 @@ Voer de volgende stappen uit om een vast activum opnieuw te classificeren:
     * Als de nieuwe vaste-activagroep aan een nummerreeks is gekoppeld, wordt het veld **Nieuw nummer voor vaste activa** bijgewerkt met het nummer uit de nummerreeks voor de nieuwe vaste-activagroep. Anders wordt het veld **Nieuw nummer voor vaste activa** bijgewerkt met het nummer uit de nummerreeks die is geconfigureerd op de pagina **Vaste-activaparameters**. Als op de pagina **Vaste-activaparameters** geen nummerrreeks is geconfigureerd, typ dan een nummer in het veld **Nieuw nummer voor vaste activa**.  
 5. Typ een datum in het veld **Datum herclassificatie**.
 6. Typ of selecteer een waarde in het veld **Boekstuknummering**.
-7. Selecteer **OK**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+7. Klik op **OK**.

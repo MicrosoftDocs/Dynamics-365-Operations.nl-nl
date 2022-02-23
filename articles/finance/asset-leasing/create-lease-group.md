@@ -2,25 +2,28 @@
 title: Een leasegroep maken
 description: In dit onderwerp wordt uitgelegd hoe u leasegroepen instelt. Leasegroepen zijn vereist om nieuwe leases te maken.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeaseGroupTable
+ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5ff4892408aa87214231762452c195274192447512525ae9c1f08dad8e318076
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f8512a59d0e9935090f97a0f0237bfefc8473955
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728098"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4442162"
 ---
 # <a name="create-a-lease-group"></a>Een leasegroep maken
 
@@ -47,6 +50,3 @@ Nadat u leasegroepen hebt gemaakt, kunt u boeken aan elke groep toewijzen. Wanne
 1. Ga naar **Activa leasen \> Instellen \> Leasegroep**.
 2. Selecteer een leasegroep en selecteer vervolgens **Boeken**.
 3. Selecteer **Nieuw** en selecteer vervolgens in het veld **Boektype** het boek dat u wilt toewijzen aan de leasegroep. U kunt meerdere boeken aan een leasegroep toewijzen als een lease op verschillende manieren moet worden verwerkt.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

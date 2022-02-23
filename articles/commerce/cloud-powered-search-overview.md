@@ -2,29 +2,36 @@
 title: Overzicht van zoekopdrachten via cloud
 description: Dit onderwerp geeft een overzicht van de zoekfunctie via de cloud in Microsoft Dynamics 365 Commerce.
 author: ashishmsft
+manager: annbe
 ms.date: 06/29/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb34780d5bdd41a128fff543fe0f1ef73cfead8b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 00a3de2515cea341f7529b8cb6cb2caae5e33d22
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983664"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411254"
 ---
 # <a name="cloud-powered-search-overview"></a>Overzicht van zoekopdrachten via cloud
+
 
 [!include [banner](includes/banner.md)]
 
 Dit onderwerp geeft een overzicht van de zoekfunctie via de cloud in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Overzicht
 
 Met behulp van productdetectie kunnen klanten snel en eenvoudig producten vinden door te bladeren in categorieën, en door te zoeken en te filteren. Voor detailhandelaren is het kunnen vinden van producten een primair hulpmiddel voor de interactie met klanten in alle kanalen.
 
@@ -40,7 +47,7 @@ De relevantie en prestaties van de zoekopdrachten zijn belangrijke factoren in d
 
 In de volgende afbeelding ziet u een voorbeeld van een normale blader- en zoekfunctie.
 
-![Landingspagina voor zoeken.](./media/SearchLanding.png)
+![Landingspagina voor zoeken](./media/SearchLanding.png)
 
 ## <a name="faceted-navigation-and-choice-summary"></a>Facetnavigatie en keuzeoverzicht 
 
@@ -50,7 +57,7 @@ Met facetnavigatie kunt u verschillende verfijningen instellen voor een termense
 
 In de volgende afbeelding ziet u een voorbeeld waarin facetnavigatie wordt gebruikt bij een zoekopdracht.
 
-![Keuzeoverzicht.](./media/ChoiceSummary.png)
+![Keuzeoverzicht](./media/ChoiceSummary.png)
 
 ## <a name="immersive-autosuggest"></a>Automatische suggesties
 
@@ -60,7 +67,7 @@ Dynamics 365 Commerce ondersteunt ook functionaliteit voor trefwoordovereenkomst
 
 In de volgende afbeelding ziet u een voorbeeld waarin automatische suggesties wordt gebruikt.
 
-![meeslepende automatische suggesties.](./media/ImmersiveAutoSuggestUX.png)
+![Automatische suggesties](./media/ImmersiveAutoSuggestUX.png)
 
 ## <a name="sort"></a>Sorteren
 
@@ -68,13 +75,10 @@ Dankzij de verbeterde sorteermogelijkheden in Dynamics 365 Commerce kunnen klant
 
 >[!NOTE]
 >Deze zoekmogelijkheden via de cloud zijn beschikbaar vanaf versie 10.0.8. Zorg ervoor dat onder **Commerce-parameters > Configuratieparameters** een vermelding bestaat voor ProductSearch.UseAzureSearch die is ingesteld op true. 
-![Configuratieparameters voor zoekopdrachten via de cloud.](./media/CloudPoweredSearchConfigurationParameters.png)
+![Configuratieparameters voor zoekopdrachten via de cloud](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van de standaard landingspagina voor categorieën en pagina met zoekresultaten](category-search-page-overview.md)
 
 [Metagegevens SEO beheren](manage-seo-metadata.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

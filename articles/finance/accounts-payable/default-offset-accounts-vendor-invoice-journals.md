@@ -1,28 +1,31 @@
 ---
-title: Standaardtegenrekeningen voor leveranciersfactuur- en factuurgoedkeuringsjournalen
+title: Standaardtegenrekeningen voor leveranciersfactuurjournalen en factuurgoedkeuringsjournalen
 description: Gebruik dit onderwerp om te bepalen waar u het beste standaardrekeningen voor factuurjournalen kunt toewijzen.
 author: abruer
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 62093
 ms.assetid: 553933ca-928d-4031-bb8c-f9cff458320b
 ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1b0184850602191da5448df25779437f70e5c3182e1b7b70d92d4c406e08599
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c6ff4e209f1d1c41d7c05cad735aacc320bdeb83
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749023"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441882"
 ---
-# <a name="default-offset-accounts-for-vendor-invoice-and-invoice-approval-journals"></a>Standaardtegenrekeningen voor leveranciersfactuur- en factuurgoedkeuringsjournalen
+# <a name="default-offset-accounts-for-vendor-invoice-journals-and-invoice-approval-journals"></a>Standaardtegenrekeningen voor leveranciersfactuurjournalen en factuurgoedkeuringsjournalen
 
 [!include [banner](../includes/banner.md)]
 
@@ -65,7 +68,7 @@ Gebruik de volgende tabel om u te helpen kiezen waar u het beste standaardrekeni
 <td>Gebruik deze optie als u normaal gesproken betaalt voor dezelfde typen artikelen van dezelfde leveranciers.</td>
 </tr>
 <tr class="odd">
-<td><strong>Journaalnamen</strong> – Stel standaardtegenrekeningen in voor journalen op de pagina <strong>Journaalnamen</strong>. Selecteer de optie <strong>Vaste tegenrekening</strong>. Merk op dat u &#39;geen standaardtegenrekeningen op journaalnamen kunt opgeven als het journaaltype van de journaalnamen of <strong>Facturenregister</strong> of <strong>Goedkeuring</strong> is.</td>
+<td><strong>Journaalnamen</strong> – Stel standaardtegenrekeningen in voor journalen op de pagina <strong>Journaalnamen</strong>. Selecteer de optie <strong>Vaste tegenrekening</strong>. Merk op dat u geen standaardtegenrekeningen op journaalnamen kunt opgeven als het journaaltype van de journaalnamen of <strong>Facturenregister</strong> of <strong>Goedkeuring</strong> is.</td>
 <td><ul>
 <li>Journaalkop die de journaalnaam gebruikt</li>
 <li>Journaalboekingen in journalen die de journaalnaam gebruiken</li>
@@ -95,6 +98,3 @@ Gebruik de volgende tabel om u te helpen kiezen waar u het beste standaardrekeni
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

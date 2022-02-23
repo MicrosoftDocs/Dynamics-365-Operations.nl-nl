@@ -2,9 +2,11 @@
 title: Video's
 description: Op deze pagina worden door Microsoft gemaakte procedures en Tech Talk-video's met betrekking tot Finance and Operations-apps weergegeven die beschikbaar zijn op YouTube en andere sites.
 author: sericks007
-ms.date: 09/15/2021
+manager: AnnBe
+ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: sericks
@@ -14,12 +16,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 3fe44a9a7fcef2f22dff3be00ddfadd5b8c59574
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 56fdfc400b5bc3e640e7951985d54ffa870f96c9
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487986"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797870"
 ---
 # <a name="videos"></a>Video's 
 
@@ -34,6 +36,7 @@ Op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/U
 
 ### <a name="data-integration"></a>Gegevensintegratie
 
+- [Integratie van prospect tot contant geld](https://youtu.be/AVV9x5x-XCg)
 - [Een werkorder synchroniseren tussen Dynamics 365 for Field Service- en Finance and Operations-apps](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>Gegevensbeheer
@@ -83,12 +86,12 @@ Op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/U
 
 ## <a name="videos-for-dynamics-365-finance"></a>Video's voor Dynamics 365 Finance
 
-### <a name="business-document-management"></a>Beheer van bedrijfsdocumenten
-- [Een nieuw bedrijfsdocument maken met Beheer van bedrijfsdocumenten](https://www.youtube.com/watch?v=gAIYl-mM_pw)
-
 ### <a name="customize-the-app"></a>De app aanpassen
 - [Aangepaste velden toevoegen](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
 - [Power Apps insluiten](https://www.youtube.com/watch?v=x3qyA1bH-NY)
+
+### <a name="expenses"></a>Onkosten
+- [Ervaring voor onkostennota's](https://youtu.be/Ocy-MsTvEE0)
 
 ### <a name="financial-reporting"></a>Financiële rapportage
 - [De versie van rapportontwerper zoeken](https://www.youtube.com/embed/icfA5Q3kp4w)
@@ -108,15 +111,12 @@ Op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/U
 ### <a name="revenue-recognition"></a>Opbrengsttoerekening
 - [Opbrengsttoerekening gebruiken](https://youtu.be/v3amIsiqvoo)
 
-### <a name="tax-engine"></a>Belastingengine
+### <a name="tax-engine"></a>Belastingberekenfunctie
 
-- [Overzicht van belastingengine](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
+- [Overzicht van Belastingberekenfunctie](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
 
 
 ## <a name="videos-for-dynamics-365-supply-chain-management"></a>Video's voor Dynamics 365 Supply Chain Management
-
-### <a name="business-document-management"></a>Beheer van bedrijfsdocumenten
-- [Een nieuw bedrijfsdocument maken met Beheer van bedrijfsdocumenten](https://www.youtube.com/watch?v=gAIYl-mM_pw)
 
 ### <a name="costs"></a>Kosten
 - [Het mobiele werkgebied Kostenbeheer](https://youtu.be/imsuTg8rUVk)
@@ -167,6 +167,3 @@ Op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/U
 [FastTrack Tech-talks](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) richten zich op het verschaffen van technische diepte en aanbevolen procedures die klanten en partners gedetailleerde kennis verschaffen die specifiek voor het onderwerpgebied geldt.
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

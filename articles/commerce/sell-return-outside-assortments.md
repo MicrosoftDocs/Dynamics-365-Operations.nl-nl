@@ -2,25 +2,28 @@
 title: Producten verkopen en terugsturen die geen deel uitmaken van een winkelassortiment
 description: Met Dynamics 365 Commerce kunt u producten buiten assortimenten verkopen en retourneren
 author: pdp1207
+manager: AnnBe
 ms.date: 05/24/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 318fa3bb4aed2b22e4db821f4e4e4762866fddc42f6cf0050a2a3c392faeb561
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 86c6ecf9ef67ca3ac4ed3c44d930acaa965112b6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713385"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411458"
 ---
 # <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a>Producten verkopen en terugsturen die geen deel uitmaken van een winkelassortiment
 
@@ -43,6 +46,3 @@ Deze algemene scenario's zijn beschikbaar voor detailhandelaren die Commerce geb
 + Producten in de huidige winkel of een andere winkel afhalen.
 + Een order in de huidige winkel of een andere winkel annuleren.
 + Een order retourneren met of zonder kassabon in de huidige winkel of een andere winkel.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

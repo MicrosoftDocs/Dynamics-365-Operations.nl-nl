@@ -2,23 +2,26 @@
 title: Het boekjaar afsluiten
 description: Deze procedure legt de stappen uit in het proces voor jaarafsluiting dat saldi naar een nieuw boekjaar overboekt.
 author: aprilolson
+manager: AnnBe
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerParameters, LedgerFiscalCloseGroup, LedgerFiscalCloseAddLedger, SysLookupMultiSelectGrid, LedgerFiscalCloseRunGroup
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e1ade9af06848b125fb6253ea1182f6098588150
-ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
+ms.openlocfilehash: 593ab5b45cc0c2e1a8b876aa89de014fd9df1a13
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902502"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442042"
 ---
 # <a name="close-the-fiscal-year"></a>Het boekjaar afsluiten
 
@@ -36,7 +39,7 @@ Deze procedure legt de stappen uit in het proces voor jaarafsluiting dat saldi n
 
 4. Selecteer Ja of Nee voor de optie **Afsluittransacties tijdens overboeking maken**.
 
-    Als de waarde is ingesteld op Ja, worden twee transacties gemaakt. Één boekstuk wordt gemaakt in het boekjaar dat wordt afgesloten, om de saldi van alle grootboekrekeningen op nul in te stellen. Een tweede boekstuk wordt gemaakt in het volgende boekjaar voor de beginsaldi. Als de waarde is ingesteld op Nee, wordt één boekstuk gemaakt in het volgende boekjaar voor de beginsaldi.  
+    Als de waarde is ingesteld op Ja, worden twee transacties gemaakt. Één boekstuk wordt gemaakt in het boekjaar dat wordt afgesloten, om de saldi van de grootboekrekeningen van W&V op nul in te stellen. Een tweede boekstuk wordt gemaakt in het volgende boekjaar voor de beginsaldi. Als de waarde is ingesteld op Nee, wordt één boekstuk gemaakt in het volgende boekjaar voor de beginsaldi.  
 
 5. Selecteer Ja of Nee voor de optie **Status fiscaal jaar instellen op definitief afgesloten**.
 
@@ -80,6 +83,3 @@ Deze procedure legt de stappen uit in het proces voor jaarafsluiting dat saldi n
 23. De jaarafsluiting wordt standaard in de batchmodus uitgevoerd. Het is een best practice om processen met een lange uitvoeringstijd in batchmodus uit te voeren. Dit is meestal een dergelijk proces, en daarom wordt standaard de batchmodus geselecteerd.  
 24. Klik op **OK**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

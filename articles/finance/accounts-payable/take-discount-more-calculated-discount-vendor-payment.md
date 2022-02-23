@@ -1,28 +1,31 @@
 ---
-title: Meer dan de berekende korting voor een leveranciersbetaling nemen
+title: Een korting nemen die groter is dan de berekende korting voor een leveranciersbetaling
 description: Dit artikel begeleidt u door een scenario waarbij een contantkorting voor een bedrag wordt toegepast die meer is dan de korting die oorspronkelijk op de factuur beschikbaar is. Dit scenario kan optreden als een organisatie een overeenkomst met de leverancier aangaat om een lager bedrag op de factuur te betalen.
 author: abruer
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14281
 ms.assetid: 7f0a4197-95dd-4969-ade9-154815cf659e
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52e18e75cfad34829dc78486d2b78b8e4211bb948bc5ddd0be85552bd914010b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b84b3d6ef1a86d8174823345a5ee9181c701c151
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736940"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441803"
 ---
-# <a name="take-more-than-the-calculated-discount-for-a-vendor-payment"></a>Meer dan de berekende korting voor een leveranciersbetaling nemen
+# <a name="take-a-discount-that-is-more-than-the-calculated-discount-for-a-vendor-payment"></a>Een korting nemen die groter is dan de berekende korting voor een leveranciersbetaling
 
 [!include [banner](../includes/banner.md)]
 
@@ -36,10 +39,10 @@ Leverancier 3051 laat Fabrikam een contantkorting van 4 procent nemen als een fa
 
 Informatie over korting wordt onder aan de pagina **Transacties vereffenen** weergegeven.
 
-| Veld                        | Waarde     |
+|                              |           |
 |------------------------------|-----------|
-| Datum voor contantkorting           | 7/12/2015 |
-| Contantkortingsbedrag         | 60.00     |
+| Datum van contantkorting           | 7/12/2015 |
+| Contantkortingsbedrag         | 60,00     |
 | Contantkorting gebruiken            | Normaal    |
 | Toegepaste contantkorting          | 0,00      |
 | Contantkortingsbedrag dat moet worden toegepast | 60,00     |
@@ -48,6 +51,3 @@ Vervolgens boekt April het betalingsjournaal. De factuur is volledig vereffend m
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

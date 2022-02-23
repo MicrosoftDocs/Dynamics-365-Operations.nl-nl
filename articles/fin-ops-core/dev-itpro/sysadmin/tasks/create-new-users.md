@@ -2,9 +2,11 @@
 title: Nieuwe gebruikers maken
 description: Gebruikers zijn interne werknemers van uw organisatie of externe klanten en leveranciers, die toegang nodig hebben tot het systeem om hun taken uit te voeren.
 author: peakerbl
+manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement, SysDataAreaSelectLookup, SysSecUserAddRoles, SysUserMSODSUserImport
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 480d181e8abb3af5a7406efd13c8bd9961a7490a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: ca062ddd49f1c206c503fb6160ed436fe2d6f7e9
+ms.sourcegitcommit: 9e27a097b7eb3c8f2df66011ccc597ad18bc5445
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595381"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "4878652"
 ---
 # <a name="create-new-users"></a>Nieuwe gebruikers maken
 
@@ -29,10 +31,10 @@ Voordat u toegang kunt krijgen tot Finance and Operations-apps, moet u eerst wor
 Voor informatie over hoe u Finance and Operations-apps koopt en hiervoor een licentie krijgt, raadpleegt u [Microsoft Dynamics 365-licentiehandleiding](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>Een licentie aan een gebruiker toewijzen
-Systeembeheerders [kunnen licenties aan gebruikers toewijzen](/office365/admin/subscriptions-and-billing/assign-licenses-to-users) in het [Microsoft 365-beheercentrum](/office365/admin/admin-overview/about-the-admin-center).
+Systeembeheerders [kunnen licenties aan gebruikers toewijzen](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) in het [Microsoft 365-beheercentrum](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide).
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Een externe gebruiker toevoegen in Azure AD en een licentie toewijzen 
-Externe gebruikers moeten worden vertegenwoordigd in uw tenantdirectory (Azure Active Directory (Azure AD)) zodat aan hen licenties kunnen worden toegewezen. Deze externe gebruikers moeten aan de tenant in Azure AD als gast gebruikers worden toegevoegd en vervolgens de vereiste licenties toegewezen krijgen. Een vereiste voor Finance and Operations-apps is dat het bedrijf van de gastgebruiker Azure AD moet gebruiken. Zie [Gebruikers van Azure Active Directory B2B-samenwerking toevoegen in de Azure Portal](/azure/active-directory/b2b/add-users-administrator)voor meer informatie.
+Externe gebruikers moeten worden vertegenwoordigd in uw tenantdirectory (Azure Active Directory (Azure AD)) zodat aan hen licenties kunnen worden toegewezen. Deze externe gebruikers moeten aan de tenant in Azure AD als gast gebruikers worden toegevoegd en vervolgens de vereiste licenties toegewezen krijgen. Een vereiste voor Finance and Operations-apps is dat het bedrijf van de gastgebruiker Azure AD moet gebruiken. Zie [Gebruikers van Azure Active Directory B2B-samenwerking toevoegen in de Azure Portal](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator)voor meer informatie.
 
 ## <a name="import-new-users-from-azure-ad"></a>Nieuwe gebruikers importeren vanuit Azure AD 
 1. Ga naar **Systeembeheer** \> **Gebruiker** \> **Gebruikers**.
@@ -57,7 +59,7 @@ Externe gebruikers moeten worden vertegenwoordigd in uw tenantdirectory (Azure A
 7. Selecteer in het veld **Bedrijf** het standaardopstartbedrijf voor de gebruiker. 
 8. Selecteer **Opslaan**.
 
-De waarden voor identiteitsprovider en telemetrie-ID worden bijgewerkt op basis van een [Microsoft Graph](/graph/overview)-oproep wanneer de gebruikersrecord wordt opgeslagen. De telemetrie-ID is gebaseerd op de object-ID/Security Identifier (SID) van de gebruiker in Azure AD.
+De waarden voor identiteitsprovider en telemetrie-ID worden bijgewerkt op basis van een [Microsoft Graph](https://docs.microsoft.com/graph/overview)-oproep wanneer de gebruikersrecord wordt opgeslagen. De telemetrie-ID is gebaseerd op de object-ID/Security Identifier (SID) van de gebruiker in Azure AD.
 
 > [!NOTE]
 > Nadat u een gebruiker hebt toevoegt, moet u voor zover van toepassing rollen en organisaties toewijzen. Zie [Gebruikers aan beveiligingsrollen toewijzen](assign-users-security-roles.md) voor meer informatie. Soms is het ook nodig dat u de gebruiker aan een **Persoon** koppelt en **Gebruikersopties**, zoals taal, bijwerkt.
@@ -79,6 +81,3 @@ Als u een gebruikers-ID wilt wijzigen, moet u de naam van de sleutel in de datab
 Zie [B2B-gebruikers exporteren naar Azure AD](../implement-b2b.md) voor meer opties voor het implementeren van B2B-gebruikers.
 
 Zie [Vooraf geconfigureerde systeemaccounts](../pre-configured-system-accounts.md) voor informatie over vooraf geconfigureerde systeemaccounts
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

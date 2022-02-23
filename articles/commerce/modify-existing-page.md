@@ -2,30 +2,36 @@
 title: Een bestaande sitepagina wijzigen
 description: In dit onderwerp wordt beschreven hoe u een bestaande sitepagina wijzigt in Microsoft Dynamics 365 Commerce.
 author: psimolin
+manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0039489c266840e5341f2e322fa7783216ac9bb3ebcecff840f591beec9f79c4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ca23dcf568cb0df6934f0d6201e4aafba5f9ba1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751538"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411457"
 ---
 # <a name="modify-an-existing-site-page"></a>Een bestaande sitepagina wijzigen
+
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u een bestaande sitepagina wijzigt in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Overzicht
 
 Wanneer u een pagina wilt wijzigen, moet u de pagina eerst openen in de pagina-editor. Ga naar de site die de pagina bevat en zoek in de lijst met pagina's naar de gewenste pagina. Als u de pagina niet kunt vinden, gebruikt u de uitgebreide zoekfunctie van het ontwerpgereedschap. Typ de exacte paginanaam of typ de eerste paar letters van de pagina en vervolgens een asterisk (\*). Er wordt een gefilterde lijst met pagina's weergegeven. U kunt deze lijst gebruiken om de gewenste pagina te zoeken. Nadat u de juiste pagina hebt gevonden, selecteert u de paginanaam om de pagina te openen in de pagina-editor.
 
@@ -81,8 +87,3 @@ In het volgende voorbeeld ziet u hoe u de startpagina kunt wijzigen door de vide
 [Een landingspagina voor een categorie verrijken](enrich-category-page.md)
 
 [Toegankelijkheid van pagina-inhoud controleren](verify-accessibility.md)
-
-[Dynamische e-commercepagina's maken op basis van URL-parameters](create-dynamic-pages.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

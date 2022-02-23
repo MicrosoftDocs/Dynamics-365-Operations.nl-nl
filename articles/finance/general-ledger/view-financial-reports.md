@@ -2,25 +2,28 @@
 title: Financiële rapporten weergeven
 description: In dit onderwerp wordt beschreven hoe u financiële rapporten in Microsoft Dynamics 365 Finance kunt bekijken en verkennen. Het bevat informatie over de verschillende opties die u op financiële rapporten kunt toepassen om hun vormgeving en de gegevens die ze bevatten te wijzigen.
 author: kweekley
+manager: AnnBe
 ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 10334
 ms.assetid: d20f435f-fb65-4068-ab09-7efc7be683a6
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 485d8f0aee791aa577432947d74b08caf484da0a3056d8119579e9d659ca3d57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c368259af9454af94da217585b2a1d01ea75d834
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730501"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441964"
 ---
 # <a name="view-financial-reports"></a>Financiële rapporten weergeven
 
@@ -28,7 +31,8 @@ ms.locfileid: "6730501"
 
 In dit onderwerp wordt beschreven hoe u financiële rapporten kunt bekijken en verkennen. Het bevat informatie over de verschillende opties die u op financiële rapporten kunt toepassen om hun vormgeving en de gegevens die ze bevatten te wijzigen.
 
-## <a name="financial-reporting-overview"></a>Overzicht van financiële rapportage
+<a name="financial-reporting-overview"></a>Overzicht van financiële rapportage
+----------------------------
 
 ## <a name="open-a-financial-report"></a>Een financieel rapport openen
 Als u een rapport wilt openen, selecteert u de rapportnaam. De eerste keer dat een rapport wordt geopend, wordt het automatisch gegenereerd voor de vorige maand. Als u bijvoorbeeld een rapport voor de eerste keer opent in augustus 2015, wordt het rapport gegenereerd voor 31 juli 2015. Nadat een rapport is geopend, kunt u beginnen met het verkennen ervan door in te zoomen op specifieke gegevensitems en rapportopties te wijzigen.
@@ -75,13 +79,11 @@ Nadat u klaar bent met het instellen van de afdrukopties, klikt u op **Afdrukken
 ## <a name="export-a-financial-report"></a>Een financieel rapport exporteren
 Als u een financieel rapport wilt exporteren, klikt u in het actievenster op **Exporteren**. Het rapport wordt geëxporteerd naar Microsoft Excel en in uw browser wordt u gevraagd of u het geëxporteerde bestand wilt openen of opslaan. De exportinstellingen die in het rapportontwerp zijn gedefinieerd, worden toegepast op het geëxporteerde rapport.    
 
-## <a name="additional-resources"></a>Aanvullende bronnen
+<a name="additional-resources"></a>Aanvullende bronnen
+--------
 
-[Financiële rapportage](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md)
-
-
-
+[Financiële rapportage](../../dev-itpro/analytics/financial-reporting-intro.md)
 
 
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

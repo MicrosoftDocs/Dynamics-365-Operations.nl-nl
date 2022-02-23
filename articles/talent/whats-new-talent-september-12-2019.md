@@ -104,6 +104,3 @@ Met deze versie kunnen nu controlelijsten worden toegepast op werknemers die wor
 Deze functionaliteit is nu beschikbaar in sandbox-omgevingen. Als u deze functie wilt inschakelen, navigeert u naar **Systeembeheer > Koppelingen > Instellingen > Systeemparameters > Voorbeeldfuncties**. Selecteer **Verbeterd medewerkersformulier en navigatie**. Hierdoor worden deze wijzigingen voor alle gebruikers ingeschakeld. U kunt deze optie op elk gewenst moment uitschakelen.
 
 Zie [Gestroomlijnde invoer en navigatie voor werknemers](./streamlined-employee-entry.md) voor meer informatie.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

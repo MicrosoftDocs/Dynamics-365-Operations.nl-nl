@@ -2,23 +2,26 @@
 title: Validatie van factuurvereffening instellen voor leveranciers
 description: Dit onderwerp biedt informatie over het instellen van validatie van factuurvereffening voor leveranciers.
 author: abruer
+manager: AnnBe
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendParameters
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 017b0197563b9d7fd03f5fc927353be8d16586090f467cff792016431e0fafad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a101edd9e25fba1aa2325cb2193c6ea56282c9d1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722858"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441904"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Validatie van factuurvereffening instellen voor leveranciers
 
@@ -95,6 +98,3 @@ G naar **Leveranciers > Instellen > Instelling van factuurvereffening > Tolerant
 
 1. Als u toleranties voor individuele leveranciers wilt instellen die de standaardtolerantie overschrijven, selecteer u **Leverancier**.
 2. Voer het afwijkingspercentage in dat u voor deze leverancier accepteert.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

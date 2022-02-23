@@ -2,9 +2,11 @@
 title: Technische kenmerken en de zoekfunctie voor technische kenmerken
 description: In dit onderwerp wordt uitgelegd hoe u met technische kenmerken alle niet-standaardkenmerken kunt opgeven om er zeker van te zijn dat alle productmodelgegevens in het systeem kunnen worden geregistreerd. Verder wordt uitgelegd hoe u de zoekfunctie voor technische kenmerken kunt gebruiken om producten eenvoudig te vinden op basis van die geregistreerde kenmerken.
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductAttributeSearch, EngChgMaintainAttributeInheritance, EngChgAttribute
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2f8803e46ce6f104a5afee64faaf393a2df47a61
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 32cd2c6d0915df1e48973a22a7d391eb8d62a072
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568106"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963683"
 ---
 # <a name="engineering-attributes-and-engineering-attribute-search"></a>Technische kenmerken en de zoekfunctie voor technische kenmerken
 
@@ -26,13 +28,15 @@ ms.locfileid: "7568106"
 
 Als u er zeker van wilt zijn dat alle productmodelgegevens in het systeem kunnen worden geregistreerd, moet u technische kenmerken gebruiken om alle niet-standaardkenmerken op te geven. Vervolgens kunt u de zoekfunctie voor technische kenmerken gebruiken om producten eenvoudig te vinden op basis van die geregistreerde kenmerken.
 
-## <a name="create-engineering-attributes-and-attribute-types"></a>Technische kenmerken en kenmerktypen maken
+## <a name="engineering-attributes"></a>Technische kenmerken
 
 Technische producten hebben doorgaans veel kenmerken en eigenschappen die u moet vastleggen. Hoewel u sommige eigenschappen kunt registreren met behulp van de standaardproductvelden, kunt u ook waar nodig nieuwe technische eigenschappen maken. U kunt uw eigen *technische kenmerken* definiëren en deze onderdeel van de productdefinitie maken.
 
+### <a name="create-engineering-attributes-and-attribute-types"></a>Technische kenmerken en kenmerktypen maken
+
 Elk technisch kenmerk moet behoren tot een *kenmerktype*. Deze vereiste bestaat omdat elk technisch kenmerk een *gegevenstype* moet hebben dat definieert welke de typen waarden het kan bevatten. Een type technisch kenmerk kan een standaardtype zijn (zoals vrije tekst, een geheel getal of een decimaal) of een aangepast type (zoals tekst met een specifieke set waarden waaruit u kunt kiezen). U kunt elk kenmerktype opnieuw gebruiken met elk aantal technische kenmerken.
 
-### <a name="set-up-engineering-attribute-types"></a>Typen technische kenmerken instellen
+#### <a name="set-up-engineering-attribute-types"></a>Typen technische kenmerken instellen
 
 Voer de volgende stappen uit om een type technisch kenmerk weer te geven, te maken of te bewerken.
 
@@ -46,7 +50,7 @@ Voer de volgende stappen uit om een type technisch kenmerk weer te geven, te mak
     - **Waardebereik**: deze optie is alleen beschikbaar als u het veld **Type** instelt op *Geheel getal*, *Decimaal* of *Valuta*. Stel *Ja* in om minimum- en maximumwaarden vast te leggen die worden geaccepteerd voor kenmerken van dit type. U gebruikt het sneltabblad **Bereik** om de minimum- en maximumwaarden vast te stellen en (voor valuta) de valuta die van toepassing is op de limieten die u hebt ingevoerd. Stel *Nee* in als u elke waarde wilt accepteren. 
     - **Maateenheid**: dit veld is alleen beschikbaar als u het veld **Type** instelt op *Geheel getal* of *Decimaal*. Selecteer de maateenheid die van toepassing is op dit type kenmerk. Als er geen eenheid vereist is, laat u dit veld leeg.
 
-### <a name="set-up-engineering-attributes"></a>Technische kenmerken instellen
+#### <a name="set-up-engineering-attributes"></a>Technische kenmerken instellen
 
 Voer de volgende stappen uit om een technisch kenmerk weer te geven, te maken of te bewerken.
 
@@ -68,43 +72,17 @@ Voer de volgende stappen uit om een technisch kenmerk weer te geven, te maken of
     - **Minimum**: voer de minimaal aanbevolen of geaccepteerde waarde in.
     - **Maximum**: voer de maximaal aanbevolen of geaccepteerde waarde in.
 
-### <a name="engineering-attribute-inheritance"></a>Overname van engineeringkenmerken
-
-Voor productstructuren, zoals stuklijsten (BOM) of formules, kunnen bepaalde kenmerken worden doorgegeven van de tussenliggende artikelen naar de bovenliggende artikelen. U kunt dit proces zien als 'overname omkeren'.
-
-#### <a name="turn-on-this-feature-for-your-system"></a>Deze functie inschakelen voor uw systeem
-
-Als de functies die in dit gedeelte worden beschreven, nog niet in het systeem aanwezig zijn, gaat u naar [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de functie *Verbeterde overname kenmerken voor Engineering Change Management* in.
-
-#### <a name="attribute-inheritance-example"></a>Voorbeeld kenmerkovername
-
-Voor een voedingsproduct zoals worteltaart moet het systeem elke allergeen registreren die het product bevat. De worteltaart kan in het systeem worden gemodelleerd als een engineeringproduct met een formule. Deze formule bevat de ingrediënten van de worteltaart zoals bloem, melk, wortels en noten. In dit voorbeeld biedt het bedrijf twee modellen voor worteltaart: één met lactose en één zonder.
-
-De taart die lactose bevat, heeft de volgende kenmerken op ingrediëntniveau:
-
-- Ingrediënt 'bloem': kenmerk 'gluten' = ja
-- Ingrediënt 'melk': kenmerk 'lactose' = ja
-- Ingrediënt 'noten': kenmerk 'noten' = ja
-
-Voor de taart die geen lactose bevat, wordt lactosevrije melk gebruikt; deze heeft de volgende kenmerken op ingrediëntniveau:
-
-- Ingrediënt 'bloem': kenmerk 'gluten' = ja
-- Ingrediënt 'melk': kenmerk 'lactose' = nee
-- Ingrediënt 'noten': kenmerk 'noten' = ja
-
-Aangezien deze producten grotendeels vergelijkbaar zijn, kan het handig zijn om deze kenmerken van de kinderen (de twee varianten) over te brengen naar het bovenliggende product (de basis voor worteltaart). Als u deze 'overname omkeren' wilt implementeren, kunt u de functionaliteit *Kenmerkovername* gebruiken. Deze functionaliteit wordt gedefinieerd voor elke [engineeringversie](engineering-versions-product-category.md).
-
-## <a name="connect-engineering-attributes-to-an-engineering-product-category"></a>Technische kenmerken koppelen aan een categorie van technische producten
+### <a name="connect-engineering-attributes-to-an-engineering-product-category"></a>Technische kenmerken koppelen aan een categorie van technische producten
 
 Sommige technische kenmerken zijn van toepassing op alle producten, terwijl andere specifiek zijn bedoeld voor afzonderlijke producten of productcategorieën. Elektrische kenmerken zijn bijvoorbeeld niet vereist voor mechanische producten. Daarom kunt u *categorieën voor technische producten* instellen. Een categorie voor technische producten bepaalt de collectie technische kenmerken die deel moeten uitmaken van de definitie voor producten die tot die categorie behoren. U kunt ook opgeven welke technische kenmerken verplicht zijn en of er een standaardwaarde is.
 
 Zie voor meer informatie over het werken met categorieën voor technische producten, waaronder informatie over het verbinden van kenmerken met categorieën, het onderwerp [Technische versies van en categorieën voor technische producten](engineering-versions-product-category.md).
 
-## <a name="set-attribute-values-for-engineering-attributes"></a>Kenmerkwaarden voor engineeringkenmerken instellen
+### <a name="set-values-for-engineering-attributes"></a>Waarden voor technische kenmerken instellen
 
 De technische kenmerken die aan een categorie voor technische producten zijn gekoppeld, worden weergegeven wanneer u een nieuw technisch product maakt dat op die categorie is gebaseerd. Op dat moment kunt u waarden voor de kenmerken instellen. Deze waarden kunnen later worden gewijzigd op de pagina **Technische versie** of als onderdeel van het beheer van technische wijzigingen in een order voor technische wijzigingen. Zie [Wijzigingen in technische producten beheren](engineering-change-management.md) voor meer informatie.
 
-## <a name="create-an-engineering-product"></a>Een technisch product maken
+### <a name="create-an-engineering-product"></a>Een technisch product maken
 
 Open de pagina **Vrijgegeven producten** om een technisch product te maken. Selecteer **Technisch product** in de groep **Nieuw** op het tabblad **Product** in het actievenster.
 
@@ -115,6 +93,3 @@ Geef de technische categorie op waartoe het product behoort. De categorie stelt 
 U kunt de zoekfunctie voor technische kenmerken gebruiken om producten te zoeken door te zoeken naar de waarden van de technische kenmerken. U kunt dus eenvoudig technische producten vinden op basis van hun kenmerken. U kunt zoeken in de producten die behoren tot een categorie voor technische producten of u kunt zoeken in alle technische producten.
 
 De zoekfunctie is beschikbaar op pagina's met hoofdgegevens van producten en op basis van transactionele artikelen in het systeem, zoals verkooporders. Voor een transactioneel artikel kunt u de pagina **Zoeken naar technische kenmerken** gebruiken om naar een product te zoeken. U kunt vervolgens de knop **Toevoegen als nieuwe regel gebruiken** om het product aan de verkooporderregels toe te voegen. Producten in de zoekresultaten kunnen ook direct aan de order worden toegevoegd.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

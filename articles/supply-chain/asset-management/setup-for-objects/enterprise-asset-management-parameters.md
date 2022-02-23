@@ -1,10 +1,12 @@
 ---
 title: Parameters voor activabeheer
 description: In Activabeheer moeten algemene parameters met betrekking tot activa, werkorders en de planning van werkorders worden ingesteld.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e1deef00f01d83bc809a004265c386ba9d300df5fa4a1be245812ed5632059f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5e4b76ba90ab03cd35e72eff8acc89f780659fa5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751956"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020648"
 ---
 # <a name="asset-management-parameters"></a>Parameters voor activabeheer
 
@@ -99,11 +101,8 @@ De velden die worden beschreven in de volgende lijst hebben betrekking op bereke
 
 ## <a name="the-document-types-tab"></a>Het tabblad Documenttypen
 
-Selecteer de documenttypen die beschikbaar moeten zijn voor het afdrukken van bijlagen met betrekking tot een werkorderrapport. Dit wordt gedaan door een documenttype te selecteren in de sectie **Beschikbaar** en de ![pijl naar voren.](media/15-setup-for-objects.png) te selecteren. Als u een geselecteerd documenttype wilt verwijderen, selecteert u het documenttype in de sectie **Geselecteerd** en selecteert u de ![pijl terug](media/16-setup-for-objects.png).
+Selecteer de documenttypen die beschikbaar moeten zijn voor het afdrukken van bijlagen met betrekking tot een werkorderrapport. Dit wordt gedaan door een documenttype te selecteren in de sectie **Beschikbaar** en de ![pijl naar voren](media/15-setup-for-objects.png) te selecteren. Als u een geselecteerd documenttype wilt verwijderen, selecteert u het documenttype in de sectie **Geselecteerd** en selecteert u de ![pijl terug](media/16-setup-for-objects.png).
 
 ## <a name="the-number-sequences-tab"></a>Het tabblad Nummerreeksen
 
 Selecteer de vereiste nummerreeksen in deze sectie. Er zijn twee nummerreeksen voor activa: de ene voor handmatig gemaakte activa en de andere voor activa die zijn gemaakt via in behandeling zijnde activa.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

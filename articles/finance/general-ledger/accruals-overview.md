@@ -2,27 +2,28 @@
 title: Overzicht van transitorische posten
 description: In dit artikel worden toerekeningen beschreven en wordt aangegeven hoe u deze instelt en transacties maakt.
 author: aprilolson
+manager: AnnBe
 ms.date: 01/11/2018
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerAccuralTable
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "14131"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 14131
 ms.assetid: 0489b59a-37a7-4a78-87bf-4b597e9efad9
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc3234c1a64155e1d0ad53cb7008d91847f7af7d
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 4b97055f7eac12e3e82d028a0097ca926e5c355a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985282"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441923"
 ---
 # <a name="accruals-overview"></a>Overzicht van transitorische posten
 
@@ -45,6 +46,3 @@ Wanneer u een journaal invoert, kunt u klikken op **Transitorische grootboekpost
 
 
 Zie voor meer informatie [Toerekeningsschema's maken](tasks/create-accrual-schemes.md) en [Toenametransacties voor grootboek maken](tasks/create-ledger-accrual-transactions.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

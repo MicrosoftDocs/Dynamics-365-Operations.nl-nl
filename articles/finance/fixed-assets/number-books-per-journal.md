@@ -2,25 +2,28 @@
 title: Aantal boeken per journaal
 description: Dit onderwerp beschrijft de relatie tussen journalen en activaboeken wanneer u een voorstel voor verwerving of afschrijving van vaste activa maakt met behulp van een batchtaak. U kunt het maximumaantal boeken definiëren dat voor elke verwerving en afschrijving wordt opgenomen.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d8c6a3aab9063e1f2143c10f9e442001660dc121bfee0b3b2c9e17ade5f762e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d4ba98cefdc0b555eedfaa56b6a3ca4870b5de93
+ms.sourcegitcommit: 65f9e2584c0530b1a71655aae09101691726b47f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767027"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4650654"
 ---
 # <a name="number-of-books-per-journal"></a>Aantal boeken per journaal
 
@@ -41,11 +44,6 @@ U kunt batchverwerking gebruiken om afschrijving uit te voeren voor dezelfde ree
 
 De batchverwerkingstaak sluit afgesloten boeken uit. In een batchtaak voor afschrijving worden bijvoorbeeld 10 van de eerste 2.000 boeken afgesloten. In dit geval bevat het eerste journaal boeken die zijn gekoppeld aan de vaste activa die zijn genummerd van 1 tot en met 2.011. Het tweede journaal bevat boeken die zijn gekoppeld aan de vaste activa die zijn genummerd van 2.012 tot en met 4.000.
 
-> [!NOTE]
-> Als u vaste-activa-id's hebt met verschillende scheidingstekens (zoals – of /) en u vaste-activatransacties maakt in batchtaken, moet u voor elk type scheidingsteken een afzonderlijke batchtaak uitvoeren. Het systeem kan niet verschillende scheidingstekens in dezelfde batchtaak verwerken.
-
 De limiet van het aantal boeken wordt toegepast als er geen dubbele activa-id's in hetzelfde journaal aanwezig zijn. Als de activa-id echter hetzelfde is als de boek-id, kan het aantal boeken per journaal worden overschreden om de activa-id in hetzelfde journaal te houden.
 
-Er zijn bijvoorbeeld 5.001 vaste-activa-id's, drie boeken worden gekoppeld aan elke vaste-activa-id en elk activaboek wordt naar dezelfde boekingslaag geboekt. U voert de afschrijving uit voor drie opeenvolgende maanden, zonder samenvatting.  Het afschrijvingsjournaal wordt gemaakt via een batch taak en er worden zeven journalen gemaakt met 667 vaste-activa-id's en drie boeken voor elke vaste-activa-id. Het resultaat is 2.001 boeken. Over drie maanden zijn er dus 6.003 journaalregels om dezelfde activa-id's in hetzelfde journaal te behouden. Er wordt ook één journaal gemaakt met 332 vaste-activa-id's en drie boeken voor elke vaste-activa-id. Over drie maanden zijn er 2.988 regels.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Er zijn bijvoorbeeld 5.001 vaste-activa-id's, drie boeken worden gekoppeld aan elke vaste-activa-id en elk activaboek wordt naar dezelfde boekingslaag geboekt. U voert de afschrijving uit voor drie opeenvolgende maanden zonder samenvatting. Het afschrijvingsjournaal wordt gemaakt via een batch taak en er worden zeven journalen gemaakt met 667 vaste-activa-id's en drie boeken voor elke vaste-activa-id. Het resultaat is 2.001 boeken. Over drie maanden zijn er dus 6.003 journaalregels om dezelfde activa-id's in hetzelfde journaal te behouden. Er wordt ook één journaal gemaakt met 332 vaste-activa-id's en drie boeken voor elke vaste-activa-id. Over drie maanden zijn er 2.988 regels.

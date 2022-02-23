@@ -56,6 +56,3 @@ De aanbevelingen worden weergegeven als kaarten op het tabblad **Prospects** van
 > Als u onlangs bent begonnen Attract te gebruiken, moet u wachten totdat u 10 of meer sollicitanten met volledige profielen of cv's hebt voordat u deze functie kunt gebruiken.
 
 Om een mogelijk verschil in de aanbevelingen te voorkomen, scant Attract alleen kandidaatprofielen op vaardigheden, kwalificaties en andere trefwoorden die overeenkomen met de functieomschrijving. Bovendien verwijdert Attract persoonlijke gegevens uit de kandidaatprofielen vóór evaluatie.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

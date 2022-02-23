@@ -2,13 +2,16 @@
 title: Intercompany-planning
 description: In dit onderwerp wordt intercompany-planning beschreven en wordt uitgelegd hoe u intercompany-planning configureert met Planningsoptimalisatie in Microsoft Dynamics 365 Supply Chain Management.
 author: ChristianRytt
+manager: tfehr
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2bf69a5d0d6e070374277e2d82d5fbf6eb4b8704895ffe31aa7e2d2d3546bb16
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 25c80ce27498131c6eb92174ab14a592bfa9915a
+ms.sourcegitcommit: fe21a3a98dcf6fe4eb9351941493f2c0443d8696
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777906"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672178"
 ---
 # <a name="intercompany-planning"></a>Intercompany-planning
 
@@ -45,8 +48,8 @@ Als u hoofdplanning uitvoert vanuit een hoofdplan dat geplande downstreamvraag o
 
 Als u intercompany-planning wilt gebruiken, moet u het systeem op de volgende manier voorbereiden:
 
-1. De relevante producten moeten in alle betrokken bedrijven worden vrijgegeven. Zie voor meer informatie [Intercompany-handel configureren en gebruiken in Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) op Microsoft Learn.
-1. Downstreamvraag moet worden gedekt door inkopen van een leverancier die een intercompany-relatie heeft met het upstreambedrijf en relevante standaardvoorraaddimensies (locatie en magazijn) voor de klant. Zie voor meer informatie [Intercompany-handel configureren en gebruiken in Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) op Microsoft Learn.
+1. De relevante producten moeten in alle betrokken bedrijven worden vrijgegeven. Zie voor meer informatie [Intercompany-handel configureren en gebruiken in Dynamics 365 Supply Chain Management ](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) op Microsoft Learn.
+1. Downstreamvraag moet worden gedekt door inkopen van een leverancier die een intercompany-relatie heeft met het upstreambedrijf en relevante standaardvoorraaddimensies (locatie en magazijn) voor de klant. Zie voor meer informatie [Intercompany-handel configureren en gebruiken in Dynamics 365 Supply Chain Management ](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) op Microsoft Learn.
 1. Het hoofdplan in het upstream-bedrijf moet geplande downstreamvraag bevatten en het relevante bedrijf en hoofdplan moeten worden opgegeven in de downstreamplannen.
 
 ## <a name="include-planned-downstream-demand"></a>Geplande downstream vraag opnemen
@@ -76,7 +79,7 @@ Voor dit voorbeeld wordt een geplande productieorder gemaakt in het bedrijf USMF
 
 In de volgende afbeelding ziet u hoe dit voorbeeld op de pagina **Tracering van de behoefte op meer niveaus** kan worden weergegeven voor de geplande productieorder.
 
-![Intercompany-voorbeeld met twee bedrijven.](media/IntercompanyPlanning1.png)
+![Intercompany-voorbeeld met twee bedrijven](media/IntercompanyPlanning1.png)
 
 ### <a name="intercompany-example-that-involves-three-companies"></a>Intercompany-voorbeeld met drie bedrijven
 
@@ -84,7 +87,4 @@ Voor dit voorbeeld wordt een geplande inkooporder gemaakt in het bedrijf USMF om
 
 In de volgende afbeelding ziet u hoe dit voorbeeld op de pagina **Tracering van de behoefte op meer niveaus** kan worden weergegeven voor de geplande productieorder.
 
-![Intercompany-voorbeeld met drie bedrijven.](media/IntercompanyPlanning2.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![Intercompany-voorbeeld met drie bedrijven](media/IntercompanyPlanning2.png)

@@ -2,25 +2,28 @@
 title: Projectfacturering
 description: Dit onderwerp biedt een overzicht van projectfacturen voor tijd- en materiaalprojecten en projecten met een vaste prijs. Het bevat informatie over factuurvoorstellen (voorlopige facturen), factuurbeheer, a conto-facturering, leveranciersfacturering en creditnota's.
 author: TaylorVH
+manager: AnnBe
 ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
-ms.reviewer: zezhangzhao
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 82de9c8ff1b3eeb1811332316522e541b2a405ff
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: ba2f9d69295f9f5cfb4a2a791be781de32b50f46
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883563"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441915"
 ---
 # <a name="project-invoicing"></a>Projectfacturering
 
@@ -72,7 +75,7 @@ Als uw organisatie vereist dat factuurvoorstellen worden gecontroleerd voordat z
 
 ### <a name="view-grant-information-on-project-invoice-list-pages"></a>Subsidiegegevens weergeven op de projectfactuurlijstpagina's
 
-Gebruikers in de publieke sector kunnen de **subsidie-id** en de **subsidienaam** toevoegen aan de lijstpagina's **Projectfactuurvoorstellen** en **Projectfacturen**. Deze kolommen worden ingeschakeld met de functie **Subsidiegegevens toevoegen aan lijstpagina's met projectfacturen**. Deze functie is standaard uitgeschakeld en kan worden ingeschakeld in **Werkgebieden > Functiebeheer**. Neem contact op met uw systeembeheerder voor hulp bij het inschakelen van deze functie.
+Gebruikers in de publieke sector kunnen de **subsidie-id** en de **subsidienaam** toevoegen aan de lijstpagina's **Projectfactuurvoorstellen** en **Projectfacturen**. Deze kolommen worden ingeschakeld met de functie **Subsidiegegevens toevoegen aan lijstpagina's met projectfacturen**. Deze functie is standaard uitgeschakeld en kan worden ingeschakeld in **Werkgebieden > Functiebeheer**. Neem contact op met uw systeembeheerder voor hulp bij het inschakelen van deze functie.
 
 ## <a name="on-account-invoicing"></a>Facturering op rekening
 Het bedrag dat u op een a conto-factuur invoert voor een project, hangt af van de uren, het voltooiingspercentage en andere factuurvoorwaarden die in het bijbehorende projectcontract zijn gespecificeerd. Het bedrag wordt niet berekend op basis van de uren, artikelen, kosten of toeslagen die voor een project worden geboekt. 
@@ -129,6 +132,3 @@ U kunt een klantfactuur met een negatieve waarde maken. Dit wordt een factuur di
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

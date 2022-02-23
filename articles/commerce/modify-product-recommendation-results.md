@@ -2,13 +2,16 @@
 title: Resultaten van productaanbevelingen op basis van AI-ML aanpassen
 description: In dit onderwerp wordt uitgelegd hoe u resultaten van productaanbevelingen kunt aanpassen op basis van kunstmatige intelligentie-machine learning (AI-ML) voor uw bedrijf.
 author: bebeale
+manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5374b2ce559134bd26036b06ac6d96a9f5510ab847544707fc9885506aaab547
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc6a793061a3e644599f0882ff163f5f57b2162d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748517"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411462"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>Resultaten van productaanbevelingen op basis van AI-ML aanpassen
 
@@ -51,7 +54,7 @@ Afhankelijk van uw bedrijf kunnen de resultaten in de lijst 'Meest verkocht' afw
 
 De productlijst 'Meest verkocht' bevat één parameter die kan worden gewijzigd:
 
-![Voorbeeld standaardparameter Meest verkochte lijst.](./media/examplebestsellingparameters.PNG)
+![Voorbeeld standaardparameter Meest verkochte lijst](./media/examplebestsellingparameters.PNG)
 
 1. **Verkoop van laatste X dagen opnemen**: verkooptransacties die hebben plaatsgevonden binnen het opgegeven aantal dagen voor de huidige datum, kunnen worden gebruikt om producten te bestellen. De standaardwaarde hierboven geeft aan dat alle aankopen van een product in de laatste 30 dagen worden gebruikt om de plaatsing van het product in de lijst met meest verkochte producten te bepalen. 
 
@@ -65,13 +68,13 @@ De productlijst 'Meest verkocht' bevat één parameter die kan worden gewijzigd:
 1.  Selecteer **Regel toevoegen** om producten aan de tabel toe te voegen. 
 1.  Zoek onder de kolom Product naar een product op **naam** of **productnummer**.
 
-    ![Voorbeeld van het zoeken naar een product op de productlijst 'Nieuw'.](./media/examplenewlistconfiguration1.png)
+    ![Voorbeeld van het zoeken naar een product op de productlijst 'Nieuw'](./media/examplenewlistconfiguration1.png)
 
 1.  Selecteer een van de volgende opties onder de kolom Regeltype:
     -   **Opnemen**: een product aan het begin de lijst plaatsen
     -   **Uitsluiten**: een product uit de lijst verwijderen
     
-    ![Voorbeeld van het opnemen of uitsluiten van een product uit de productlijst 'Nieuw'.](./media/examplenewlistconfiguration2.png)
+    ![Voorbeeld van het opnemen of uitsluiten van een product uit de productlijst 'Nieuw'](./media/examplenewlistconfiguration2.png)
 
 1.  Als u de **Weergavevolgorde** wijzigt, wordt de volgorde gewijzigd waarin producten die zijn gemarkeerd als **Opnemen** in de lijst worden weergegeven.
     - Als twee producten dezelfde waarde voor **weergavevolgorde** hebben, kan de uiteindelijke volgorde van de twee resultaten afwijken van de backoffice.
@@ -87,11 +90,11 @@ Een *seedproduct* is het product waarvoor u resultaten wilt genereren. In de con
 Voer de volgende stappen uit om handmatig resultaten voor een seed product toe te voegen of te verwijderen:
 1.  Selecteer het **Seedproduct**. 
 1.  Zoek onder de kolom **Product** naar een product op **Naam** of **Productnummer**
-![.Voorbeeld van zoeken naar een product in de lijst Vaak samen gekocht.](./media/exampleFBTlistconfiguration1.png)
+![.Voorbeeld van zoeken naar een product in de lijst Vaak samen gekocht](./media/exampleFBTlistconfiguration1.png)
 1. Selecteer een van de volgende opties onder de kolom **Regeltype**:
     - **Opnemen**: een product aan het begin de lijst plaatsen
     - **Uitsluiten**: een product uit de lijst verwijderen     
-![Voorbeeld van het opnemen of uitsluiten van een product voor de lijst met vaak samen gekochte producten.](./media/exampleFBTlistconfiguration2.png)
+![Voorbeeld van het opnemen of uitsluiten van een product voor de lijst met vaak samen gekochte producten](./media/exampleFBTlistconfiguration2.png)
 1.  Producten verwijderen uit de tabel: selecteer de regel die u wilt verwijderen en selecteer Verwijderen.
 
 
@@ -118,6 +121,3 @@ Voer de volgende stappen uit om handmatig resultaten voor een seed product toe t
 [Aanbevelingen maken met voorbeeldgegevens](product-recommendations-demo-data.md)
 
 [Veelgestelde vragen over productaanbevelingen](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

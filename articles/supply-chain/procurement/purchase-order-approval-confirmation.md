@@ -1,10 +1,12 @@
 ---
 title: Inkooporders goedkeuren en bevestigen
 description: In dit onderwerp worden de statussen beschreven die een inkooporder doorloopt nadat deze is gemaakt, en de gevolgen van het inschakelen van wijzigingsbeheer voor IO's.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchOrderInReview, PurchOrderApproved, PurchOrderInDraft, PurchOrderAssignedToMe, VendPurchOrderJournalListPage, PurchTableWorkflowDropDialog, VendPurchOrderJournal
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ae625950e62b2bf5ec092ccda414ee306c62d79
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eafce0be07ae21e5bc2db2cf5bb694a9d71a6269
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570532"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018439"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Inkooporders goedkeuren en bevestigen
 
@@ -83,7 +85,8 @@ Als u de hele hoeveelheid op een inkooporderregel wilt annuleren, moet u de hoev
 
 Als een inkooporder onder wijzigingsbeheer valt, moeten wijzigingen, zoals het annuleren van de order of het leveringsrestant, worden ingediend bij het werkstroomsysteem en worden goedgekeurd voordat het proces kan worden voltooid en de voorraadtransacties kunnen worden bijgewerkt als geannuleerd.
 
-## <a name="additional-resources"></a>Aanvullende resources
+<a name="additional-resources"></a>Aanvullende resources
+--------
 
 [Overzicht van inkooporders](purchase-order-overview.md)
 
@@ -95,6 +98,3 @@ Als een inkooporder onder wijzigingsbeheer valt, moeten wijzigingen, zoals het a
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

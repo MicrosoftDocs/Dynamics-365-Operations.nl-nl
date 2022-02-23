@@ -1,27 +1,30 @@
 ---
 title: Ontvangstbewijsindelingen instellen en ontwerpen
 description: In dit artikel wordt beschreven hoe u formulierindelingen kunt wijzigen om te bepalen hoe ontvangsten, facturen en andere documenten worden afgedrukt. Dynamics 365 Commerce heeft een ontwerper voor formulierindelingen waarmee u gemakkelijk en grafisch verschillende soorten formulierindelingen kunt maken en veranderen.
-author: BrianShook
-ms.date: 09/16/2021
+author: rubencdelgado
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFormLayout
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 57841
 ms.assetid: e530dd8e-95e2-4021-90bd-ce1235f9e250
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dac0ad75ff35367b5d6ac84c75c68e22e2cb0cb1
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: ab6b01d6833850af8c04167d94b0a60c7312075c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779396"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411481"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Ontvangstbewijsindelingen instellen en ontwerpen
 
@@ -44,15 +47,6 @@ In dit artikel wordt beschreven hoe u formulierindelingen kunt wijzigen om te be
     - **Vragen aan gebruiker** - De gebruiker wordt gevraagd het ontvangstbewijs af te drukken.
     - **Zoals vereist** - Deze optie wordt alleen gebruikt voor giftontvangsten. Wanneer deze optie is geselecteerd, kan de gebruiker een ontvangstbewijs van een geschenk afdrukken vanaf de pagina, **Wijzigen**, als een ontvangstbewijs van geschenk is vereist.
 
-## <a name="print-images"></a>Afbeeldingen afdrukken
-
-De ontwerpfunctie voor ontvangstbewijzen bevat een variabele **Logo**. U kunt deze variabele gebruiken om een afbeelding op te geven die op ontvangstbewijzen moet worden afgedrukt. Afbeeldingen die worden afgedrukt op ontvangstbewijzen met de variabele **Logo**, moeten van het bestandstype monochrome bitmap (.bmp) zijn. Als er een bitmapafbeelding is opgegeven in de ontwerper van ontvangstbewijzen, maar de afbeelding niet wordt afgedrukt wanneer het ontvangstbewijs naar de printer wordt verzonden, kan dit een van de volgende oorzaken hebben:
-
-- De bestandsgrootte is te groot, of de pixeldimensies van de afbeelding zijn niet compatibel met de printer. Probeer in dit geval de resolutie of dimensies van het afbeeldingsbestand te beperken.
-- Sommige OPOS-printerdrivers (Object Linking and Embedding for Point of Sale) implementeren de methode **PrintMemoryBitmap** niet die hardwarestations gebruiken om afbeeldingen van logo's af te drukken. Probeer in dit geval de volgende vlag toe te voegen aan het bestand **HardwareStation.Extension.config** van uw eigen of gedeelde hardwarestation:
-
-    `<add name="HardwareStation.UsePrintBitmapMethod" value="true"/>`
-
 ## <a name="design-a-receipt-format"></a>Een ontvangstbewijsindeling ontwerpen
 
 Gebruik de ontwerpfunctie voor formulierindelingen om de grafische indeling van het formulierdocument te maken. De pagina **Ontwerper van ontvangstbewijsindeling** bevat drie gedeelten: **Koptekst**, **Regels** en **Voettekst**. Voor sommige typen formulierindelingen worden elementen uit alle drie de secties gebruikt, terwijl voor andere typen elementen uit slechts één of twee secties worden gebruikt. Als u de beschikbare elementen voor elke sectie wilt bekijken, klikt u op de desbetreffende knop in het navigatievenster aan de linkerkant van de pagina.
@@ -73,7 +67,7 @@ Gebruik de ontwerpfunctie voor formulierindelingen om de grafische indeling van 
     - **Uitlijnen**: stel de uitlijning van het veld in op **Links** of **Rechts**.
     - **Opvulteken** – Het spatieteken opgeven. Standaard wordt een lege positie gebruikt. U kunt echter elk teken invoeren.
     - **Voorvoegsel** – Typ de waarde die aan het begin van het veld wordt weergegeven. Deze instelling is slechts van toepassing op het gedeelte **Regels** van de indeling.
-    - **Tekens** – Geef het maximale aantal tekens op dat het veld kan bevatten als het element een variabele bevat. Als de tekst in het veld langer is dan het aantal tekens dat u opgeeft, wordt de tekst afgekapt om in het veld te passen.
+    - **Tekens** – Geef het maximale aantal tekens op dat het veld kan bevatten als het element een variabele bevat. Als de tekst in het veld langer is dan het aantal tekens dat u opgeeft, wordt de tekst ingekort om in het veld te passen.
     - **Variabele** – Dit selectievakje is automatisch ingeschakeld als dit element een variabele bevat en niet kan worden aangepast.
     - **Lettertype** – Het lettertype instellen op **Normaal** of **Vet**. Vetgedrukte letters nemen twee maal zoveel plaats in beslag als normale letters. Dit betekent dat sommige tekens mogelijk worden afgekapt.
     - **Tekengrootte** – De tekengrootte instellen op **Normaal** of **Groot**. Grote letters zijn twee keer zo hoog als gewone letters. Daarom kan gebruik van grote letters leiden tot overlappende tekst op de kassabon.
@@ -88,6 +82,3 @@ De ontvangstprofielen worden direct toegewezen aan printers via het hardwareprof
 
 > [!NOTE]
 > Als twee printers worden gebruikt, kan één printer worden gebruikt om standaard 40 kolom thermische ontvangstbewijzen af te drukken. De tweede printer wordt meestal gebruikt voor het afdrukken van ontvangsttypen van een hele pagina die meer informatie vereisen. Deze ontvangsttypen omvatten de ontvangsten van klantorders en klantfacturen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

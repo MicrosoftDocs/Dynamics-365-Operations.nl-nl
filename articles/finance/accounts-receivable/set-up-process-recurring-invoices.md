@@ -2,25 +2,28 @@
 title: Terugkerende facturen instellen en verwerken
 description: In dit artikel wordt beschreven hoe u terugkerende facturen instelt en verwerkt. U kunt terugkerende facturen gebruiken als u klanten regelmatig voor hetzelfde bedrag moet factureren.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustInvoiceTemplate
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14011
 ms.assetid: 9cc37003-adf1-413d-b2b2-2badcf512e3b
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53b667b8a5aef0a788abd6a9d5d4a3b4d8d890e2a18bb5f74e58bb198fab5fa8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4b443630d1612b5095fefa74b5ed6d057be534b7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743862"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441861"
 ---
 # <a name="set-up-and-process-recurring-invoices"></a>Terugkerende facturen instellen en verwerken
 
@@ -28,7 +31,8 @@ ms.locfileid: "6743862"
 
 In dit artikel wordt beschreven hoe u terugkerende facturen instelt en verwerkt. U kunt terugkerende facturen gebruiken als u klanten regelmatig voor hetzelfde bedrag moet factureren.
 
-## <a name="create-a-recurring-free-text-invoice-template"></a>Een sjabloon maken voor een terugkerende vrije-tekstfactuur
+<a name="create-a-recurring-free-text-invoice-template"></a>Een sjabloon maken voor een terugkerende vrije-tekstfactuur
+---------------------------------------------
 
 Als u klanten voor dezelfde services periodiek wilt factureren, moet u een sjabloon voor vrije-tekstfacturen definiëren die kan worden hergebruikt om de facturen te maken. Deze sjabloon bevat de volgende gegevens:
 
@@ -51,16 +55,15 @@ Een klant kan meerdere sjablonen hebben die verschillende frequenties hebben.
 ## <a name="generate-the-recurring-invoices"></a>De terugkerende facturen genereren
 De pagina **Terugkerende facturen** bevat een taak waarmee sjablonen voor terugkerende facturen worden verwerkt. U geeft de factuurdatum en de sjabloon op op basis waarvan u de facturen wilt genereren. Facturen worden gegenereerd en worden als één herhalings-ID toegewezen voor elke groep facturen die wordt verwerkt.
 
-## <a name="post-recurring-free-text-invoices"></a>Terugkerende vrije-tekstfacturen boeken
+<a name="post-recurring-free-text-invoices"></a>Terugkerende vrije-tekstfacturen boeken
+---------------------------------
 
 Nadat terugkerende facturen zijn gegenereerd, wordt de factuurherhalings-ID weergegeven in een boekingstaak op de pagina **Terugkerende facturen**. U kunt alle facturen voor een herhalings-ID weergeven door op de koppeling te klikken. Tijdens de controle van de facturen voor de herhalings-ID kunt u afzonderlijke facturen verwijderen. De herhalingsinstellingen van de klant worden voor die sjabloon opnieuw ingesteld, zodat deze later opnieuw kan worden gegenereerd. U kunt één factuur, een groot aantal facturen of alle facturen voor een herhalings-ID boeken. Als workflows worden ingeschakeld, moet u klikken op **Verzenden** voordat u de facturen kunt boeken.
 
-## <a name="print-recurring-free-text-invoices"></a>Terugkerende vrije-tekstfacturen afdrukken
+<a name="print-recurring-free-text-invoices"></a>Terugkerende vrije-tekstfacturen afdrukken
+----------------------------------
 
 Nadat terugkerende facturen zijn geboekt, kunt u de facturen op de pagina met de lijst vrije-tekstfacturen afdrukken. U kunt de geselecteerde facturen afdrukken of u kunt een bereik facturen selecteren die u wilt afdrukken.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

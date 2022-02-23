@@ -93,6 +93,3 @@ De mogelijkheid om verlof van werknemers bij te houden en inzicht te krijgen in 
 ### <a name="indicate-instance-type-when-provisioning-talent"></a>Exemplaartype aangeven bij het inrichten van Talent
 
 Bij het inrichten van een nieuw exemplaar van Talent kunt u aangeven of het exemplaartype **Productie** of **Sandbox** is, waardoor nieuwe functies vroegtijdig kunnen worden getest. Alle bestaande exemplaren van Talent worden bijgewerkt naar het exemplaartype Productie. Als u wilt dat een van de bestaande exemplaren wordt bijgewerkt naar het exemplaartype Sandbox, neemt u contact op met de ondersteuning om de wijzigingsaanvraag te initiëren.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

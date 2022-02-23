@@ -209,6 +209,3 @@ Er zijn verschillende onderdelen van het proces voor het maken van een aanbiedin
 
 
 Als u meer wilt weten over het maken van aanbiedingen, raadpleegt u [Aanbiedingen maken, goedkeuren en ondertekenen](./creating-offers.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

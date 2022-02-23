@@ -51,6 +51,3 @@ U wilt uw openstaande posities aan zoveel mogelijk kandidaten voorleggen. Wervin
 
 > [!NOTE]
 > Microsoft en Attract zijn niet betrokken bij het maken en onderhouden van deze waarden. Het is uw verantwoordelijkheid ze om up-to-date te houden in Attract en te werken met Broadbean om eventuele problemen op te lossen die betrekking hebben op uw referenties.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

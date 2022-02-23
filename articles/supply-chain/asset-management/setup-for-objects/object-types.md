@@ -1,10 +1,12 @@
 ---
 title: Activatypen
 description: In dit onderwerp wordt uitgelegd hoe u activatypen maakt in Activabeheer. Ook worden de elementen beschreven die gerelateerd zijn aan activatypen.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectJobType, EntAssetObjectType, EntAssetObjectTypeDefaultSparePart, EntAssetObjectTypeDefaultSparePartApprove, EntAssetObjectTypeDefaultCreateCombinations, EntAssetObjectTypeDefault, EntAssetObjectTypeDefaultCopy
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc1a8d98e9a8853e2e72bfcc7415ddb9a0a3b7758504621d6fccff00a08a36be
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 295840c12f89bc6c6a4d53023985259ac761d6b2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730365"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017412"
 ---
 # <a name="asset-types"></a>Activatypen
 
@@ -45,9 +47,9 @@ Eerst stelt u de vereiste activatypen in. Vervolgens maakt u de activamodellen d
 7. Selecteer **Opslaan**.
 8. Selecteer op het sneltabblad **Typen onderhoudstaken** de onderhoudstaaktypen die moeten worden gerelateerd aan het activumtype:
 
-    - Als u een type onderhoudstaak wilt selecteren, selecteert u dit in het veld **Resterende typen onderhoudstaken** en selecteert u vervolgens de knop pijl naar rechts ![Knop Pijl naar rechts.](media/29-setup-for-objects.png) om de taak naar de sectie **Geselecteerde onderhoudstaaktypen** te verplaatsen.
-    - Als u alle beschikbare onderhoudstaaktypen wilt selecteren, selecteert u de knop ![Pijl allemaal doorsturen.](media/30-setup-for-objects.png) . Alle onderhoudstaaktypen worden overgebracht van het veld **Resterende onderhoudstaaktypen** naar het veld **Geselecteerde onderhoudstaaktypen**.
-    - Als u de selectie van een type onderhoudstaak wilt annuleren, selecteert u dit in het veld **Geselecteerde onderhoudstaaktypen** en selecteert u vervolgens de knop pijl naar links ![Knop Pijl naar links.](media/31-setup-for-objects.png) om de taak naar het veld **Resterende onderhoudstaaktypen** te verplaatsen.
+    - Als u een onderhoudstaaktype wilt selecteren, selecteert u dit in het veld **Resterende onderhoudstaaktypen** en selecteert u vervolgens de knop pijl naar rechts ![knop Pijl naar rechts](media/29-setup-for-objects.png) om het te verplaatsen naar de sectie **Geselecteerde onderhoudstaaktypen**.
+    - Als u alle beschikbare onderhoudstaaktypen wilt selecteren, selecteert u de knop ![Pijl allemaal doorsturen](media/30-setup-for-objects.png). Alle onderhoudstaaktypen worden overgebracht van het veld **Resterende onderhoudstaaktypen** naar het veld **Geselecteerde onderhoudstaaktypen**.
+    - Als u de selectie van een onderhoudstaaktype wilt annuleren, selecteert u dit in het veld **Geselecteerde onderhoudstaaktypen** en selecteert u vervolgens de knop pijl naar links ![knop Pijl naar links](media/31-setup-for-objects.png) om het te verplaatsen naar het veld **Resterende onderhoudstaaktypen**.
 
 9. U kunt ook de tellers selecteren die moeten worden gerelateerd aan het activatype. Maak op het sneltabblad **Tellers** uw selecties met behulp van de methoden die worden beschreven voor onderhoudstaaktypen in stap 8. Zie [Tellers](counters.md) voor meer informatie over het instellen van tellers.
 10. U kunt ook de kenmerktypen selecteren die moeten worden gerelateerd aan het activatype. Maak op het sneltabblad **Kenmerktypen** uw selecties met behulp van de methoden die worden beschreven voor onderhoudstaaktypen in stap 8. Vervolgens kunt u de voorkeursvolgorde van kenmerktypen instellen door een kenmerktype te selecteren in het veld **Geselecteerde kenmerktypen** en de knoppen pijl-omhoog en pijl-omlaag te gebruiken om deze te verplaatsen. De volgorde van kenmerktypen wordt weergegeven voor activa die gebruikmaken van dit activatype. Zie [Kenmerktypen voor onderhoud](../setup-for-functional-locations/specification-types.md) voor meer informatie over kenmerken van activa.
@@ -94,6 +96,3 @@ Op de pagian **Reserveonderdelen** kunt u ook nieuwe reserveonderdelen maken voo
 
 Als u wilt zien of het reserveonderdeel op de geselecteerde regel ergens anders in activabeheer wordt gebruikt (bijvoorbeeld in relatie tot activa en werkorders), selecteert u **Artikel waar gebruikt** om de pagina **Artikel waar gebruikt** te openen. 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

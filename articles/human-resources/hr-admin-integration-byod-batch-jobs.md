@@ -2,37 +2,35 @@
 title: BYOD geplande batchtaken optimaliseren
 description: In dit onderwerp wordt uitgelegd hoe u prestaties optimaliseert wanneer u de BYOD-functie (Uw eigen database gebruiken) gebruikt met Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
+manager: AnnBe
 ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: a2f110d105b8c04f07f219f7f11a57d24e00ce4a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d08762ff40b4da8264bd5bc4a1c16fd2afc4d610
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067774"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417961"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>BYOD geplande batchtaken optimaliseren
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-In dit onderwerp wordt uitgelegd hoe u prestaties optimaliseert wanneer u de BYOD-functie (Uw eigen database gebruiken). Meer informatie over BYOD vindt u in [Uw eigen database gebruiken (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+In dit onderwerp wordt uitgelegd hoe u prestaties optimaliseert wanneer u de BYOD-functie (Uw eigen database gebruiken). Meer informatie over BYOD vindt u in [Uw eigen database gebruiken (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json).
 
 ## <a name="performance-considerations-for-data-export"></a>Prestatieoverwegingen voor het exporteren van gegevens
 
-Wanneer entiteiten zijn gepubliceerd naar de doeldatabase, kunt u de functie Exporteren in de werkruimte **Gegevensbeheer** gebruiken om gegevens te verplaatsen. Met de functie Exporteren kunt u een gegevensverplaatsingstaak definiëren die een of meer entiteiten bevat. Meer informatie over het exporteren van gegevens vindt u in [Overzicht van gegevensimport- en exporttaken](../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+Wanneer entiteiten zijn gepubliceerd naar de doeldatabase, kunt u de functie Exporteren in de werkruimte **Gegevensbeheer** gebruiken om gegevens te verplaatsen. Met de functie Exporteren kunt u een gegevensverplaatsingstaak definiëren die een of meer entiteiten bevat. Meer informatie over het exporteren van gegevens vindt u in [Overzicht van gegevensimport- en exporttaken](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json).
 
 U kunt de pagina **Exporteren** gebruiken om gegevens te exporteren naar verschillende doelgegevensindelingen, zoals een CSV-bestand (Comma Separated Values). Deze pagina ondersteunt ook SQL-databases als een andere bestemming.
 
@@ -63,7 +61,7 @@ Voor de beste prestaties gebruikt u altijd de optie **Exporteren in batch** op d
 
 Wanneer u een entiteit toevoegt voor gegevensexport, kunt u een incrementele pushbewerking (export) of een volledige push uitvoeren. Met een volledige push verwijdert u alle bestaande records uit een entiteit in de BYOD-database. Vervolgens wordt de huidige set records uit de entiteit Human Resources ingevoegd.
 
-Als u een incrementele push wilt uitvoeren, moet u Wijzigingen bijhouden inschakelen voor elke entiteit op de pagina **Entiteiten**. Meer informatie vindt u in [Wijzigingen bijhouden voor entiteiten inschakelen](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+Als u een incrementele push wilt uitvoeren, moet u Wijzigingen bijhouden inschakelen voor elke entiteit op de pagina **Entiteiten**. Meer informatie vindt u in [Wijzigingen bijhouden voor entiteiten inschakelen](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json).
 
 Als u een incrementele push selecteert, is de eerste push altijd een volledige push. SQL houdt wijzigingen bij ten opzichte van deze eerste volledige push. Wanneer een nieuwe record wordt ingevoegd of wanneer een record wordt bijgewerkt of verwijderd, wordt de wijziging gereflecteerd in de doelentiteit.
 
@@ -90,20 +88,11 @@ De functie BYOD heeft de volgende beperkingen:
 
 **Probleem:** wanneer er voor een entiteit een volledige push wordt uitgevoerd, ziet u een grote set records in BYOD wanneer u een **select**-instructie gebruikt. Wanneer u echter een incrementele push uitvoert, ziet u slechts enkele records in BYOD. Het lijkt alsof de incrementele push alle records heeft verwijderd en alleen de gewijzigde records in BYOD heeft toegevoegd.
 
-**Oplossing:** de SQL-tabellen voor het bijhouden van wijzigingen hebben mogelijk niet de verwachte status. In dit soort gevallen wordt aangeraden om Wijzigingen bijhouden uit te schakelen voor de entiteit en vervolgens weer in te schakelen. Meer informatie vindt u in [Wijzigingen bijhouden voor entiteiten inschakelen](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
-
-### <a name="staging-tables-arent-clearing"></a>Faseringstabellen worden niet geleegd
-
-**Probleem**: Wanneer u fasering voor het project gebruikt, worden de faseringstabellen niet op de juiste manier geleegd. Er worden steeds meer gegevens aan de tabellen toegevoegd, wat tot prestatieproblemen leidt.
-
-**Oplossing**: In de faseringstabellen wordt zeven dagen historie aangehouden. Historische gegevens ouder dan zeven dagen worden automatisch uit de faseringstabellen gewist door de batchtaak **Exportfasering opschonen**. Als deze taak niet correct wordt uitgevoerd, worden de tabellen niet op de juiste manier leeggemaakt. Als u deze batchtaak opnieuw start, wordt het proces voortgezet om de faseringstabellen automatisch op te schonen.
+**Oplossing:** de SQL-tabellen voor het bijhouden van wijzigingen hebben mogelijk niet de verwachte status. In dit soort gevallen wordt aangeraden om Wijzigingen bijhouden uit te schakelen voor de entiteit en vervolgens weer in te schakelen. Meer informatie vindt u in [Wijzigingen bijhouden voor entiteiten inschakelen](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json).
 
 ## <a name="see-also"></a>Zie ook
 
-[Overzicht van Gegevensbeheer](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
-[Uw eigen database gebruiken (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
-[Overzicht van Gegevensimport- en exporttaken](../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
-[Wijzigingen bijhouden voor entiteiten inschakelen](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Overzicht van Gegevensbeheer](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages?toc=/dynamics365/human-resources/toc.json)<br>
+[Uw eigen database gebruiken (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json)<br>
+[Overzicht van Gegevensimport- en exporttaken](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json)<br>
+[Wijzigingen bijhouden voor entiteiten inschakelen](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json)

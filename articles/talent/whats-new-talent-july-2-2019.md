@@ -55,6 +55,3 @@ Deze versie bevat kleine correcties voor Dynamics 365 Talent: Onboard.
 ## <a name="changes-in-core-hr"></a>Wijzigingen in Core HR
 
 Deze versie bevat kleine correcties voor Dynamics 365 Talent: Core HR.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

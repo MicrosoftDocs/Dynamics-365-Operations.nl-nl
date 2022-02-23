@@ -1,32 +1,33 @@
 ---
 title: Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (13 april 2020)
 description: In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 13 april 2020.
-author: andreabichsel
-ms.date: 04/13/2020
+author: Darinkramer
+manager: AnnBe
+ms.date: 4/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-04-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b5af74329fa741a443932a1007a6c2ef6abd3445
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a7ea8348cfe1c66d6d0cfa39b46c8e69111fe185
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062206"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528516"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-13-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (13 april 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 In dit artikel worden de functies beschreven die in Dynamics 365 Human Resources nieuw of gewijzigd zijn. Wijzigingen die van toepassing zijn op buildnummer 8.1.3136. De getallen tussen haakjes in sommige koppen verwijzen naar ondersteuningsnummers in LCS ter referentie.
 
@@ -42,9 +43,9 @@ Met deze wijziging wordt het veld **Afrondingsprecisie** nu weergegeven nadat u 
 
 U kunt nu de einddatum voor de inschrijving bewerken zonder de foutmelding "Veld Basis toerekendatum moet worden ingevuld".
 
-## <a name="employment-entity-doesnt-sync-to-dataverse-430834"></a>Aanstellingsentiteit wordt niet gesynchroniseerd met Dataverse (430834)
+## <a name="employment-entity-doesnt-sync-to-common-data-service-430834"></a>Aanstellingsentiteit wordt niet gesynchroniseerd met Common Data Service (430834)
 
-Deze wijziging corrigeert het probleem waarbij de aanstellingsgegevens niet worden gesynchroniseerd met Dataverse na het toevoegen van financiële dimensies. 
+Deze wijziging corrigeert het probleem waarbij de aanstellingsgegevens niet worden gesynchroniseerd met Common Data Service na het toevoegen van financiële dimensies. 
 
 ## <a name="remove-multi-parenting-for-work-calendar-time-interval-entity-431775"></a>Meerdere bovenliggende entiteiten verwijderen voor entiteit Tijdsinterval werkkalender (431775)
 
@@ -93,8 +94,6 @@ Als het documentvoorbeeld voor documenten opgeslagen in SharePoint niet werkt, v
 ## <a name="see-also"></a>Zie ook
 
 [Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)</br>
-[Overzicht van releasewave 2 van Dynamics 365 Human Resources](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Overzicht van releasewave 2 van Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Het updateproces](hr-admin-setup-update-process.md)</br>
 [Functies beheren](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

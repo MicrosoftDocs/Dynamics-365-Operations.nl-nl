@@ -2,23 +2,26 @@
 title: Uitzonderingen onderzoeken of oplossen
 description: Beleidsregels voor leveranciersfacturen worden uitgevoerd wanneer u een leveranciersfactuur boekt met behulp van de pagina Leveranciersfactuur en wanneer u de leveranciersfactuurpagina Beleidsovertredingen opent.
 author: abruer
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendParameters,  SysPolicyListPage, SysPolicyParameters, SysPolicySourceDocumentRuleType, SysPolicy, SysPolicySourceDocumentRule, SysQueryForm, SysQueryTableLookUp, SysQueryPrefixLookUp, SysQueryFieldLookUp
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d35504ab2fe6b8143d040bda505a904ab179b6137472073d788515f392faaef9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 995d68f6224b6dfbb1928c907ad991b86fc47668
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722882"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441906"
 ---
 # <a name="research-or-resolve-exceptions"></a>Uitzonderingen onderzoeken of oplossen
 
@@ -62,7 +65,7 @@ Bij deze registratie wordt het demobedrijf USMF gebruikt. De leveranciersmanager
 3. Typ een waarde in het veld Naam.
 4. Typ een waarde in het veld Omschrijving.
 5. Vouw de sectie Beleidorganisaties uit of samen.
-6. Selecteer in de structuur 'Contoso-entertainmentsysteem USA'.
+6. In de structuur selecteert u "Contoso-entertainmentsysteem USA".
 7. Klik op Toevoegen.
 8. Vouw de sectie Beleidsregels uit of samen.
 9. Klik op Beleidsregel maken.
@@ -83,6 +86,3 @@ Bij deze registratie wordt het demobedrijf USMF gebruikt. De leveranciersmanager
 24. Sluit de pagina.
 25. Sluit de pagina.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,12 +2,15 @@
 title: Module Kaarten
 description: In dit onderwerp worden kaartmodules beschreven en hoe u ze configureert in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,21 +18,23 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bc5962d6bedba1f5abf423c396382e5c8a901c81797ae95132833e23c46cfd57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: af6aedb6c0112822155c6d855909578a927d1c2c
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747388"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665415"
 ---
-# <a name="map-module"></a>Kaartmodule
+# <a name="map-module"></a>Module Kaarten
 
 [!include [banner](includes/banner.md)]
 
 
 In dit onderwerp worden kaartmodules beschreven en hoe u ze configureert in Microsoft Dynamics 365 Commerce.
 
-Een kaartmodule toont de locaties van winkels op een interactieve kaart die wordt gegenereerd met behulp van het [V8-webbesturingselement van Bing Kaarten](/bingmaps/v8-web-control/). Er is een API-sleutel voor Bing Kaarten vereist. Deze moet worden toegevoegd aan de pagina met gedeelde parameters in Commerce Headquarters. Kaartmodules bieden verschillende weergaven, zoals Road, Aerial en Streetside, die gebruikers kunnen selecteren om kaartlocaties weer te geven. Ze maken ook interacties mogelijk, zoals in- en uitzoomen en gebruik van de locatie van de gebruiker.
+## <a name="overview"></a>Overzicht
+
+Een kaartmodule toont de locaties van winkels op een interactieve kaart die wordt gegenereerd met behulp van het [V8-webbesturingselement van Bing Kaarten](https://docs.microsoft.com/bingmaps/v8-web-control/). Er is een API-sleutel voor Bing Kaarten vereist. Deze moet worden toegevoegd aan de pagina met gedeelde parameters in Commerce Headquarters. Kaartmodules bieden verschillende weergaven, zoals Road, Aerial en Streetside, die gebruikers kunnen selecteren om kaartlocaties weer te geven. Ze maken ook interacties mogelijk, zoals in- en uitzoomen en gebruik van de locatie van de gebruiker.
 
 Een kaartmodule werkt samen met de winkelselectiemodule om de geografische locaties van winkels te bepalen die moeten worden weergegeven op een kaart. Winkelselectie- en kaartmodules communiceren wanneer een gebruiker een winkel selecteert in een van deze modules op een sitepagina. Kaartmodules kunnen worden uitgebreid voor andere scenario's, naast interactie met winkelselectiemodules. Het aanpassen van modules is echter vereist.
 
@@ -38,13 +43,13 @@ Een kaartmodule werkt samen met de winkelselectiemodule om de geografische locat
 
 De volgende afbeelding toont een voorbeeld van een kaartmodule die wordt gebruikt op winkellocatiepagina.
 
-![Voorbeeld van een winkelselectiemodule.](./media/ecommerce-Storelocator.PNG)
+![Voorbeeld van een winkelselectiemodule](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="module-properties"></a>Module-eigenschappen
 
-| Naam van eigenschap.             | Waarde                 | Beschrijving |
+| Naam van eigenschap.             | Waarde                 | Omschrijving |
 |---------------------------|-----------------------|-------------|
-| Koptekst | Tekst | De koptekst voor de module. |
+| Kop | Tekst | De koptekst voor de module. |
 | Punaiseopties: standaardpictogram | Afbeelding | Het punaisesymbool dat moet worden gebruikt voor winkels die op een kaart worden weergegeven. |
 | Punaiseopties: pictogram Actief | Afbeelding | Het punaisesymbool dat moet worden gebruikt voor een winkel die op een kaart is geselecteerd. |
 | Punaiseopties: standaardpictogramkleur | Tekenreeks | De tekst of hexadecimale waarde voor de kleur van punaisesymbolen op een kaart. |
@@ -76,7 +81,4 @@ Zie [Winkelselectiemodule](store-selector.md) voor meer informatie over het conf
 
 [Bing Kaarten voor uw organisatie beheren](./dev-itpro/manage-bing-maps.md)
 
-[V8-webbesturingselement van Bing Kaarten](/bingmaps/v8-web-control/)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[V8-webbesturingselement van Bing Kaarten](https://docs.microsoft.com/bingmaps/v8-web-control/)

@@ -2,25 +2,28 @@
 title: Het kortetermijngedeelte van een leaseverplichting opnieuw classificeren
 description: In dit onderwerp wordt uitgelegd hoe u een maandelijkse journaalboeking maakt om een gedeelte van de leaseverplichting opnieuw te classificeren als korte termijn.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: Dialog
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 21cf81ce84d91d88a800cd250fca8fd5a9c876e66f506cd366b8d61ed480ea7e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 46bcd396c93bc1d2944241165d438f8ccc013e20
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720617"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4442156"
 ---
 # <a name="reclassify-the-short-term-portion-of-lease-liability"></a>Het kortetermijngedeelte van een leaseverplichting opnieuw classificeren
 
@@ -36,7 +39,5 @@ Voer de volgende stappen uit om de journaalboeking voor herclassificatie van kor
 2. Selecteer in het dialoogvenster **Batchjournaal maken** in het veld **Schema selecteren** en selecteer **Herclassificatie kortlopende leaseverplichtingen**.
 3. Selecteer een leasegroep in het veld **Leasegroep**. U kunt ook in het veld **Boek-id** de boek-id selecteren.
 4. Schakel de parameter **Boeken** in. Indien de invoer moet worden gemaakt, maar niet worden geboekt, dient u deze parameter uit te schakelen.
-5. Selecteer **OK**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+5. Schakel de parameter **Bekijken alvorens te boeken** om de invoer weer te geven voordat deze wordt geboekt.
+6. Selecteer **OK**.

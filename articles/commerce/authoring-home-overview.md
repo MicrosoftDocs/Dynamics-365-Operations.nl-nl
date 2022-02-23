@@ -1,31 +1,37 @@
 ---
-title: Overzicht van pagina schrijven
-description: In dit onderwerp vindt u een overzicht van de creatiepagina in Microsoft Dynamics 365 Commerce.
+title: Overzicht ontwerppagina
+description: In dit onderwerp vindt u een overzicht van de ontwerppagina in Microsoft Dynamics 365 Commerce.
 author: brendans
+manager: annbe
 ms.date: 10/31/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application USer
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 68487c899edccaeff9c339d746d21b1d27b498aa
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 95908c3a8b6c5231f2f5b283fa05f07c4e91b5d7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984616"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411356"
 ---
-# <a name="authoring-page-overview"></a>Overzicht van pagina schrijven
+# <a name="authoring-page-overview"></a>Overzicht ontwerppagina
 
   
  [!include [banner](includes/banner.md)]
 
-In dit onderwerp vindt u een overzicht van de creatiepagina in Microsoft Dynamics 365 Commerce.
+In dit onderwerp vindt u een overzicht van de ontwerppagina in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Overzicht
 
 U kunt websites maken ter ondersteuning van verschillende zakelijke behoeften. Ze kunnen een geheel bedrijf vertegenwoordigen, een enkel kanaal van het bedrijf weergeven, of zijn gericht op een specifiek publiek of een bepaald segment van een publiek. Een kledingfabrikant kan bijvoorbeeld een website hebben met een overzicht van alle merken die het bedrijf bezit. Dezelfde kleding fabrikant kan vervolgens voor elk van deze merken een aparte website hebben en tevens een reeks websites voor luxe mode, outdoorkleding en kindermode.
 
@@ -39,7 +45,7 @@ Op dit moment bestaat de ontwerppagina uit de volgende secties.
 
 In de volgende afbeelding wordt de ontwerppagina weergegeven.
 
-![Ontwerppagina in Dynamics 365 Commerce.](../commerce/media/authoring_tools_01.png)
+![Ontwerppagina in Dynamics 365 Commerce](../commerce/media/authoring_tools_01.png)
 
 ## <a name="use-the-home-button-to-select-a-tool"></a>Gebruik de startknop om een hulpmiddel te selecteren
 
@@ -116,6 +122,3 @@ Nadat de ontwerpfunctie is geladen, kunt u **Start** kiezen om terug te gaan naa
 [Overwegingen bij SEO (Search Engine Optimization) voor uw site](search-engine-optimization-considerations.md)
 
 [Beveiligingsbeleid voor inhoud (CSP) beheren](manage-csp.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

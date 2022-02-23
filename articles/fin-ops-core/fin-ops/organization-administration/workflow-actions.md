@@ -2,9 +2,11 @@
 title: Acties in goedkeuringsprocessen voor workflows
 description: In dit artikel worden de acties beschreven die elke deelnemer in een goedkeuringsproces kan uitvoeren.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,25 +16,22 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e546dc57692e31d4501984dafa21fbae23a48fe
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e622f9a0a50cd6c5dbcbaf9cd5d56b691232c849
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070928"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797597"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>Acties in goedkeuringsprocessen voor workflows
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
-
 In dit artikel worden de acties beschreven die elke deelnemer in een goedkeuringsproces kan uitvoeren.
 
 Bij een workflow kunnen meerdere groepen gebruikers zijn betrokken: de starter, degenen aan wie taken zijn toegewezen, degenen die beslissingen nemen en fiatteurs. Hieronder ziet u een workflow voor een onkostennota. In dit voorbeeld is Sam de starter, zijn de leden van de wachtrij toegewezenen, is Jan een besluitvormer en zijn Frank, Suzan en Anne de fiatteurs.
 
-[![Workflow\_WithManualDecision.](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
+[![Workflow\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
 
 In de volgende secties worden de workflowacties beschreven die door elk van deze groepen kan worden uitgevoerd.
 
@@ -142,6 +141,3 @@ Wanneer een fiatteur een wijziging in een document aanvraagt, wordt het document
 Stel dat Sam een onkostennota van EUR 12.000 heeft ingediend, die is toegewezen aan Suzan. Als Suzan een wijziging aanvraagt, wordt de onkostennota teruggestuurd naar Sam.
 
 Sam kan de onkostennota opnieuw indienen. Hij kan eerst de gevraagde wijzigingen aanbrengen of de oorspronkelijke versie van de onkostennota opnieuw indienen. Als Sam de onkostennota opnieuw indient, wordt het ter goedkeuring naar Frank verzonden omdat hij de eerste fiatteur in het goedkeuringsproces is.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

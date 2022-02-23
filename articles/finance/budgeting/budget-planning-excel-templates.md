@@ -2,9 +2,11 @@
 title: Sjablonen voor budgetplanning in Excel
 description: In dit onderwerp wordt beschreven hoe u Microsoft Excel-sjablonen kunt maken die voor budgetplannen kunnen worden gebruikt.
 author: panolte
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanSetLayout
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8297548bee83d1e982f50c4e5adae748f9f40137362f4ad47ad837ea2af96c29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 11c98768d08ef28d436bfc63812321e7c7787a72
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775165"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019274"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Sjablonen voor budgetplanning in Excel
 
@@ -37,17 +39,17 @@ Budgetplandocumenten kunnen worden weergegeven en bewerkt met behulp van een of 
 1. Open de **Lijst met budgetplannen** (**Budgettering** &gt; **Budgetplannen**). 
 2. Klik op **Nieuw** om een nieuw budgetplandocument te maken. 
 
-   [![Budgetplanlijst.](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+   [![Budgetplanlijst](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 3. Gebruik de optie **Regel toevoegen** om regels toe te voegen. Klik op **indelingen** om de documentindelingsconfiguratie voor het budgetplan weer te geven. 
 
-   [![Budgetplannen toevoegen.](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+   [![Budgetplannen toevoegen](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
 U kunt de indelingsconfiguratie controleren en zo nodig aanpassen. 
 1. Ga naar **Sjabloon** &gt; **Genereren** om een Excel-bestand voor deze indeling te maken. 
 2. Nadat de sjabloon is gegenereerd, gaat u naar **Sjabloon** &gt; **Weergave** om de documentsjabloon voor het budgetplan te openen en te controleren. U kunt het Excel-bestand op uw lokale schijf opslaan. 
 
-[![Opslaan als.](./media/bpt3-1024x545.png)](./media/bpt3.png)
+[![Opslaan als](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > De documentindeling van het budgetplan kan niet worden bewerkt nadat er een Excel-sjabloon aan is gekoppeld. Als u de indeling wilt wijzigen, verwijdert u het gekoppelde Excel-sjabloonbestand en genereert u het opnieuw. Dit is noodzakelijk om de indeling voor de velden te behouden en om het werkblad gesynchroniseerd te laten. 
@@ -64,19 +66,20 @@ Klik op het tabblad **Ontwerp** op **Velden toevoegen** en selecteer vervolgens 
 
 Wijs met de cursor de gewenste locatie in het Excel-bestand aan. Klik op **Label toevoegen** om het veldlabel aan de geselecteerde locatie toe te voegen. Selecteer **Waarde toevoegen** als u het waardeveld wilt toevoegen aan de geselecteerde plaats. Klik op **Gereed** om de ontwerper te sluiten.
 
-## <a name="select-add-valuemediabpt7png"></a>[![Waarde toevoegen selecteren.](./media/bpt7.png)](./media/bpt7.png)
+## <a name="select-add-valuemediabpt7png"></a>[![Waarde toevoegen selecteren](./media/bpt7.png)](./media/bpt7.png)
 
-## <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Een berekende kolom aan de documentsjabloontabel voor het budgetplan toevoegen
+<a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Een berekende kolom aan de documentsjabloontabel voor het budgetplan toevoegen
+--------------------------------------------------------------
 
 Vervolgens worden berekende kolommen toegevoegd aan gegenereerde documentsjablonen voor het budgetplan. De kolom **Totale aanvraag**, waarin de kolommen Aanvraag KW1-Aanvraag KW4 worden samengevat, en de kolom **Correctie**, waarmee de kolom **Totale aanvraag** opnieuw wordt berekend met een vooraf gedefinieerde factor.
 
 Klik op **Ontwerp** in **Gegevensconnector** om kolommen aan de tabel toe te voegen. Klik op **Bewerken** naast de gegevensbron **BudgetPlanWorksheet** om te beginnen met het toevoegen van kolommen.
 
-[![Beginnen met toevoegen van kolommen.](./media/bpt8-1024x301.png)](./media/bpt8.png) 
+[![Beginnen met toevoegen van kolommen](./media/bpt8-1024x301.png)](./media/bpt8.png) 
 
 De geselecteerde veldgroep bevat de kolommen die in de sjabloon beschikbaar zijn. Klik op **Formule** om een nieuwe kolom toe te voegen. Geef de nieuwe kolom een naam en plak de formule in het veld **Formule**. Klik op **Bijwerken** om de kolom in te voegen.
 
-[![Kolom toevoegen en invoegen.](./media/bpt12-1024x565.png)](./media/bpt12.png)
+[![Kolom toevoegen en invoegen](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
 > Als u de formule wilt definiëren, maakt u de formule in de spreadsheet en kopieert u deze naar het venster **Ontwerp**. Een aan Finance and Operations gerelateerde tabel heeft meestal de naam 'AXTable1'. Om bijvoorbeeld de kolommen Aanvraag KW1-Aanvraag KW4 in de spreadsheet samen te vatten, is de formule als volgt: AxTable1\[Aanvraag KW1\]+ AxTable1\[Aanvraag KW2\]+ AxTable1\[Aanvraag KW3\]+ AxTable1\[Aanvraag KW4\].
@@ -85,11 +88,11 @@ Herhaal deze stappen om de kolom **Correctie** in te voegen. Gebruik formule = A
 
 Sla het Excel-bestand op en sluit het. Klik in **Indelingen** op **Sjabloon &gt; Uploaden** om de opgeslagen Excel-sjabloon te uploaden die moet worden gebruikt voor het budgetplan. 
 
-[![Excel-sjabloon uploaden.](./media/bpt10-1024x352.png)](./media/bpt10.png) 
+[![Excel-sjabloon uploaden](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 
 Sluit de schuifregelaar **Indelingen**. Klik in het **Budgetplan**-document op **Werkblad** om het document in Excel weer te geven en te bewerken. Houd er rekening mee dat de aangepaste Excel-sjabloon is gebruikt om dit budgetplanwerkblad te maken en dat berekende kolommen worden bijgewerkt met de formules die zijn gedefinieerd in de vorige stappen. 
 
-[![Document weergeven en bewerken in Excel.](./media/bpt111-1024x431.png)](./media/bpt111.png)
+[![Document weergeven en bewerken in Excel](./media/bpt111-1024x431.png)](./media/bpt111.png)
 
 ## <a name="tips--tricks-for-creating-budget-plan-templates"></a>Tips & trucs voor het maken van budgetplansjablonen
 ### <a name="can-i-add-and-use-additional-data-sources-to-a-budget-plan-template"></a>Kan ik extra gegevensbronnen gebruiken en toevoegen aan een budgetplansjabloon?
@@ -102,21 +105,21 @@ U kunt de optie **Filter** in de **Gegevensconnector** gebruiken om gewenste fil
 
 Ja, open de **Gegevensconnector**-opties om de optie **Ontwerp** voor andere gebruikers te verbergen.
 
-[![Opties voor gegevensconnector openen.](./media/bpt13-1024x565.png)](./media/bpt13.png)
+[![Opties voor gegevensconnector openen](./media/bpt13-1024x565.png)](./media/bpt13.png)
 
 Vouw **Gegevensconnector-opties** uit en schakel het selectievakje **Ontwerp inschakelen** uit. Hiermee wordt de optie **Ontwerp** verborgen in de **Gegevensconnector**.
 
-[![Ontwerpoptie verbergen voor gegevensconnector.](./media/bpt14-1024x592.png)](./media/bpt14.png)
+[![Ontwerpoptie verbergen voor gegevensconnector](./media/bpt14-1024x592.png)](./media/bpt14.png)
 
 ### <a name="can-i-prevent-users-from-accidently-closing-the-data-connector-while-working-with-data"></a>Kan ik voorkomen dat gebruikers per ongeluk de Gegevensconnector afsluiten tijdens het werken met gegevens?
 
 Het is raadzaam om de sjabloon te vergrendelen om te voorkomen dat gebruikers deze sluiten. Als u de vergrendeling wilt inschakelen, klikt u op **Gegevensconnector**. In de rechterbovenhoek wordt een pijl weergegeven. 
 
-[![Vergrendeling inschakelen.](./media/bpt15-1024x285.png)](./media/bpt15.png) 
+[![Vergrendeling inschakelen](./media/bpt15-1024x285.png)](./media/bpt15.png) 
 
 Klik op de pijl voor een extra menu. Selecteer **Vergrendelen**.
 
-### <a name="select-lockmediabpt16png"></a>[![Vergrendelen selecteren.](./media/bpt16-1024x614.png)](./media/bpt16.png)
+### <a name="select-lockmediabpt16png"></a>[![Vergrendelen selecteren](./media/bpt16-1024x614.png)](./media/bpt16.png)
 
 ### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>Kan ik andere Excel-functies, zoals celopmaak, kleuren, voorwaardelijke opmaak en grafieken, gebruiken met mijn budgetplansjablonen?
 
@@ -126,6 +129,3 @@ U kunt ook draaitabellen en diagrammen maken en gebruiken voor extra groeperinge
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

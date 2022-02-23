@@ -2,31 +2,32 @@
 title: Maandelijkse journaalposten maken in een batch
 description: In dit onderwerp wordt uitgelegd hoe u journaalposten in een batch maakt om de efficiëntie te verhogen wanneer de maandelijkse leasekosten worden vastgelegd.
 author: moaamer
-ms.date: 08/10/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: Dialog
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 22e2892a6866123ecf0e72511bdce19fe12895df
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: a2293f6bd3ce66832996652c3bfca0fc4bc73782
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344848"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4442160"
 ---
 # <a name="create-monthly-journal-entries-in-a-batch"></a>Maandelijkse journaalposten maken in een batch
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
-
 
 In dit onderwerp wordt uitgelegd hoe u journaalposten in een batch maakt om de efficiëntie te verhogen wanneer de maandelijkse leasekosten worden vastgelegd. Batchverwerking kan worden gebruikt om journaalposten te maken op basis van meerdere schema's. Deze journaalposten kunnen bijvoorbeeld leasebetalingen, afschrijvingen van verplichtingen, afschrijving van RoU-activa en administratieve kosten bevatten. U kunt ook batchverwerking gebruiken om de eerste toerekening van meerdere leases tegelijk uit te voeren of om tegelijkertijd overgangscorrecties voor meerdere leases te maken.
 
@@ -36,7 +37,3 @@ Als u een batchtaak wilt instellen of betalingsfacturen, afschrijving of rente v
 > Latere transacties, zoals het afschrijvingsschema verplichtingen, betalingen, afschrijving en onkosten, worden pas geboekt nadat de eerste toerekening voor bijbehorende leases is geboekt.
 >
 > De journaalposten worden gemaakt, maar ze worden pas geboekt wanneer u de opdracht **Uitvoeren** selecteert.
-
-Als u de eerste journaalpost voor toerekening wilt boeken op een andere datum dan de begindatum van de lease, selecteert u **Boekingsdatum voor eerste toerekening toewijzen**. Er wordt een veld **Datum** weergegeven waarin u de juiste boekingsdatum kunt opgeven.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

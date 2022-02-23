@@ -1,23 +1,26 @@
 ---
 title: Overzicht Europa
 description: Dit onderwerp bevat koppelingen naar Microsoft Dynamics 365 Finance-documentatiebronnen voor Europa.
-author: kfend
-ms.date: 01/15/2022
-ms.topic: overview
+author: ShylaThompson
+manager: AnnBe
+ms.date: 07/25/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations
 ms.search.region: global
-ms.author: kfend
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2d8a2e44713607ff2a4df91271c70d96c4d71d9
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1d63d5682521b1991c387604c2cc219c7f147c8d
+ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982089"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "4512206"
 ---
 # <a name="europe-overview"></a>Overzicht Europa
 
@@ -38,7 +41,6 @@ Dit onderwerp bevat informatie en koppelingen naar bronnen die u kunnen helpen b
 - [EU-verkooplijst](emea-eu-sales-list.md)
 - [Aanpassingen wisselkoers](emea-exchange-rate-adjustments.md)
 - [Bestandsindelingen voor betalingsmethoden](emea-select-file-formats-for-the-method-of-payments.md)
-- [Richtlijnen Finance (globalisatie) over impact van Brexit](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [Integratie van fiscale service (ESR)](emea-fiscal-service-integration.md)
 - [Afstoting van vaste activa voor Estland en Litouwen](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Een overboekingsdocument genereren voor een interne voorraadoverboeking](tasks/transfer-document-internal-inventory-transfer.md)
@@ -63,7 +65,6 @@ Dit onderwerp bevat informatie en koppelingen naar bronnen die u kunnen helpen b
 - [Factuurverwerking](emea-invoice-processing.md)
 - [Een EU-invoercertificaat uitgeven](tasks/eur-00012-issue-eu-entry-certificate.md)
 - [Ondersteunde standaarden voor elektronische facturering](emea-oioubl-standards-electronic-invoicing.md)
-- [Verplicht genereren van elektronische facturen](emea-eur-forced-einvoices.md)
 - [Oorspronkelijke factuurreferentie (Oost-Europa)](tasks/ee-00004-original-invoice-reference.md)
 - [Een partij zoeken door middel van het btw-id](tasks/eur-00015-party-search-vat-id.md)
 - [Tool voor genereren van betalingsverwijzingen](tasks/ee-00015-payment-reference-generation-tool.md)
@@ -93,13 +94,8 @@ Dit onderwerp bevat informatie en koppelingen naar bronnen die u kunnen helpen b
   - [Btw-rapport maken en indienen](tasks/create-submit-vat-report.md)
   - [Transacties voor vereffening weergeven voor Oost-Europa](emea-transactions-settlement-form.md)
   - [Btw-puntdatum (datum van btw-register)](emea-tax-point-date.md)
-  - [Datum van btw-register leverancier](emea-date-vendor-VAT-register.md)
-- [Uitbreiding van financiële redenfunctie](emea-financial-reason.md)
 
-## <a name="additional-resources"></a>Aanvullende bronnen
+## <a name="additional-resources"></a>Aanvullende resources
 
-- [Overzicht van elektronische rapportage](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
-- [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- [Overzicht van elektronische rapportage](../../dev-itpro/analytics/general-electronic-reporting.md)
+- [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
