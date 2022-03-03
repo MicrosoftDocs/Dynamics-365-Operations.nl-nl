@@ -2,7 +2,7 @@
 title: De btw op online orders wordt onjuist berekend
 description: Dit onderwerp bevat richtlijnen voor het oplossen van problemen die kunnen helpen bij het foutief berekenen van btw op online orders of wanneer de btw-groep op de verkoopregel niet juist is ingesteld.
 author: Reza-Assadi
-ms.date: 03/11/2021
+ms.date: 02/16/2022
 ms.topic: Troubleshooting
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: e51ae789dad2c7b5118be2cf8a88f4e4090a8c74c8259b4eaaddad1a134af80a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0e4361b436cc78eccaff29dfa2927d342e26072d
+ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715255"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8312026"
 ---
 # <a name="taxes-on-online-orders-are-incorrectly-calculated"></a>De btw op online orders wordt onjuist berekend
 
@@ -33,6 +33,17 @@ Dit onderwerp bevat richtlijnen voor het oplossen van problemen die kunnen helpe
 Wanneer een e-commerce-order wordt geplaatst, wordt de btw onjuist berekend of wordt de btw-groep op de verkoopregel onjuist ingesteld.
 
 ## <a name="resolution"></a>Oplossing
+
+### <a name="configure-general-sales-tax-groups-in-commerce-headquarters"></a>Algemene btw-groepen configureren in Commerce headquarters
+
+Voer deze stappen uit om algemene btw-groepen te configureren in Commerce Headquarters.
+
+1. Ga naar **Btw \> Indirecte belastingen \> Btw \> Btw-groep**.
+1. Selecteer in het navigatiedeelvenster aan de linkerkant de btw-groep die u wilt configureren.
+1. Configureer op het sneltabblad **Op retailbestemming gebaseerde btw** de btw voor de btw-groep.
+
+> [!NOTE]
+> Voor verzending waarbij geen btw is opgenomen die wordt bepaald door het adres van de klant, wordt de btw-groep bepaald door het afleveradres van de regel en de op bestemming gebaseerde btw die zijn geconfigureerd voor de btw-groep. Zie [Belastingen voor online winkels instellen op basis van de bestemming](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination) voor meer informatie.
 
 ### <a name="configure-the-sales-tax-for-a-retail-store-in-commerce-headquarters"></a>De btw configureren voor een detailhandelwinkel in Commerce Headquarters
 
@@ -57,17 +68,6 @@ Voer deze stappen uit om btw te configureren voor het adres van een klant in Com
 
 > [!NOTE]
 > Voor verzending waarbij btw op het adres van de klant is betrokken, bepaalt het afleveradres van de regel de btw-groep voor de regel. Als de klant verzendt naar een bestaand adres dat al een btw-groep heeft geconfigureerd, wordt de bestaande btw-groep gebruikt. Adressen hebben standaard geen btw-groep wanneer ze worden gemaakt.
-
-### <a name="configure-general-sales-tax-groups-in-commerce-headquarters"></a>Algemene btw-groepen configureren in Commerce headquarters
-
-Voer deze stappen uit om algemene btw-groepen te configureren in Commerce Headquarters.
-
-1. Ga naar **Btw \> Indirecte belastingen \> Btw \> Btw-groep**.
-1. Selecteer in de linkernavigatie de btw-groep die u wilt configureren.
-1. Configureer op het sneltabblad **Op retailbestemming gebaseerde btw** de btw voor de btw-groep.
-
-> [!NOTE]
-> Voor verzending waarbij geen btw op het adres van de klant is betrokken, wordt de btw-groep bepaald door het afleveradres van de regel en de op bestemming gebaseerde btw die zijn geconfigureerd voor de btw-groep. Zie [Belastingen voor online winkels instellen op basis van de bestemming](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination) voor meer informatie.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

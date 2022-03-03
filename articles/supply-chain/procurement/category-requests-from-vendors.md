@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 560b62183f9c0c45c872998373a90dc9dc0ebbb3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5d06f05ca27ed8fe58a9a24fcde8c0082662b866
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571708"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103090"
 ---
 # <a name="category-requests-from-vendors"></a>Categorieaanvragen van leveranciers
 
@@ -26,11 +26,11 @@ Met het proces voor categorieaanvragen kunnen leveranciers verzoeken om nieuwe i
 
 Categorieaanvragen worden geïnitieerd door leveranciers in het werkgebied **Leveranciergegevens**. Vervolgens worden ze ter beoordeling en goedkeuring naar uw instelling verzonden. Goedgekeurde categorieën worden toegevoegd aan de lijst met inkoopcategorieën in de account van de leverancier.
 
-## <a name="turn-on-the-feature-in-your-system"></a>De functie inschakelen in uw systeem
+## <a name="turn-the-category-requests-from-vendors-feature-on-or-off"></a>De functie Categorieaanvragen van leveranciers in- of uitschakelen
 
-Als uw systeem de functie die in dit onderwerp wordt beschreven nog niet bevat, gaat u naar [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de functie *Leveranciers toestaan inkoopcategorieën aan te vragen via leverancierssamenwerking* in.
+Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Leveranciers toestaan zich aan te melden voor inkoopcategorieën via leverancierssamenwerking* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-Nadat de functie is ingeschakeld, kunt u nog steeds handmatig inkoopcategorieën toevoegen aan leveranciersaccounts. Meer informatie over dit onderwerp vindt u in [Leveranciers goedkeuren voor specifieke inkoopcategorieën](tasks/approve-vendors-specific-procurement-categories.md).
+Als deze functie is ingeschakeld, kunt u nog steeds handmatig inkoopcategorieën toevoegen aan leveranciersaccounts. Meer informatie over dit onderwerp vindt u in [Leveranciers goedkeuren voor specifieke inkoopcategorieën](tasks/approve-vendors-specific-procurement-categories.md).
 
 ## <a name="vendor-collaboration-requirements"></a>Vereisten voor leverancierssamenwerking
 

@@ -2,27 +2,24 @@
 title: EU-verkooplijst rapportering
 description: Dit artikel biedt informatie over rapportage van de EU-verkooplijst (Europese Unie).
 author: EvgenyPopovMBS
-manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/17/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EUSalesList
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 12811
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68cbd8d3495f8c10c57fa0751fabb03a6946c7dd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: af49817667999dd02a96a7a9bd5bb966be652d35
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408326"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323471"
 ---
 # <a name="eu-sales-list-reporting"></a>Rapport ICL-lijst
 
@@ -30,8 +27,7 @@ ms.locfileid: "4408326"
 
 Dit artikel biedt informatie over rapportage van de EU-verkooplijst (Europese Unie).
 
-<a name="eu-sales-list-reporting"></a>EU-verkooplijst rapportering
------------------------
+## <a name="eu-sales-list-reporting"></a>EU-verkooplijst rapportering
 
 Een leverancier die de intracommunautaire levering van goederen of diensten aan bedrijven uitvoert die binnen De Europese Unie (EU) zijn gevestigd, moeten een Aangifte vanIntracommunautaire Levering (EU-verkooplijst of ESL) indienen. In het algemeen moet ESL bij de belastingdienst worden ingediend, niet later dan de laatste dag van de maand na de kalenderperiode die ESL dekt. De leverancier moet zijn Belasting Toegevoegde Waarde (BTW)-nummer in ESL opgeven en moet ook per klant, de volgende informatie opgeven:
 
@@ -72,13 +68,19 @@ De volgende tabel geeft de vereisten weer waaraan moet worden voldaan voordat u 
 <td>Stel de identificatieparameters voor btw-vrijstelling in op de pagina <strong>Parameters land/regio</strong> (klik op <strong>Belasting</strong> &gt; <strong>Instellen</strong> &gt; <strong>Btw</strong> &gt; <strong>Parameters land/regio</strong>). Voor elk land/regio waar u tegenpartijen hebt, maak een record op de pagina en geef de volgende gegevens:
 <ul>
 <li><strong>Land/regio</strong> - Selecteer een land of regio om te koppelen aan een BTW-vrijstellingsidentificatie.</li>
-<li><strong>BTW</strong> - Voer het BTW-vrijstelling identificatienummer (oftewel het BTW-vrijstellingnummervoorvoegsel) voor het geselecteerde land of de regio.</li>
+<li><strong>Btw</strong> - Voer het identificatienummer voor btw-vrijstelling (oftewel het btw-registratienummer of -vrijstellingnummervoorvoegsel) voor het geselecteerde land of de regio in.</li>
 <li><strong>Controleer BTW-vrijstellingnummer</strong> – Schakel dit selectievakje in als u de btw-vrijstellings-ID voor het land of de regio wilt valideren.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Instelling: </strong>BTW-vrijstellingsnummers</td>
-<td>Maak btw-vrijstellingsnummers voor uw tegenpartijen op de pagina <strong>Btw-vrijstellingnummers</strong> (klik op <strong>Belasting</strong> &gt; <strong>Instellen</strong> &gt; <strong>Btw</strong> &gt; <strong>Btw-vrijstellingsnummers</strong>). Voor elk BTW-vrijstellingsnummer, maak een registratie op de pagina, en geef de volgende informatie:
+<td><strong>Instellen:</strong> Registratienummers instellen</td>
+<td>Maak btw-registratienummers voor uw tegenpartijen op de pagina <strong>Alle klanten</strong> (ga naar <strong>Verkoop en marketing</strong> &gt; <strong>Klanten</strong> &gt; <strong>Alle klanten</strong>, selecteer een klantrecord en selecteer vervolgens <strong>klanten</strong> &gt; <strong>Registratie-id's</strong>) of de pagina <strong>Leveranciers</strong> (ga naar <strong>Inkoop en sourcing</strong> &gt; <strong>Leveranciers</strong> &gt; <strong>Leveranciers</strong>, selecteer een leveranciersrecord en selecteer vervolgens <strong>Leveranciers</strong> &gt; <strong>Registratie-id's</strong>). Maak een record en definieer de volgende informatie op het tabblad <strong>Algemeen</strong> van het sneltabblad <strong>Registratie-id</strong>:
+<ul>
+<li><strong>Registratietype</strong>: selecteer het registratietype dat is toegewezen aan de registratiecategorie <strong>btw-id</strong> voor het land of de regio van de tegenpartij.</li>
+<li><strong>Registratienummer</strong>: voer het btw-registratienummer van de tegenpartij in.</li>
+<li><strong>Geldig</strong>: selecteer het begin van de gebruiksperiode van het btw-registratienummer.</li>
+</ul>  
+U kunt ook een btw-registratienummers voor uw tegenpartijen maken op de pagina <strong>Btw-vrijstellingnummers</strong> (ga naar <strong>Belasting</strong> &gt; <strong>Instellen</strong> &gt; <strong>Btw</strong> &gt; <strong>Btw-vrijstellingsnummers</strong>). Voor elk BTW-vrijstellingsnummer, maak een registratie op de pagina, en geef de volgende informatie:
 <ul>
 <li><strong>Land/regio </strong>- Selecteer het land of de regio van de BTW registratie van de tegenpartij.</li>
 <li><strong>BTW-vrijstellingsnummer</strong> - Voer het BTW-vrijstellingsnummer van de tegenpartij in.</li>
@@ -87,7 +89,7 @@ De volgende tabel geeft de vereisten weer waaraan moet worden voldaan voordat u 
 </tr>
 <tr class="even">
 <td><strong>Instellen: </strong>Belastingregistratie voor tegenpartijen</td>
-<td>Stel btw-registratiegegevens in voor uw tegenpartijen op de pagina <strong>Alle klanten</strong> (klik op <strong>Verkoop en marketing</strong> &gt; <strong>Klanten</strong> &gt; <strong>Alle klanten</strong>, selecteer een klantrecord en klik vervolgens op <strong>Opties</strong> &gt; <strong>Weergave wijzigen</strong> &gt; <strong>Detailweergave</strong>) of de pagina <strong>Leveranciers</strong> (klik op <strong>Inkoop en sourcing</strong> &gt; <strong>Leveranciers</strong> &gt; <strong>Leveranciers</strong>, selecteer een leveranciersrecord en klik vervolgens op <strong>Opties</strong> &gt; <strong>Weergave wijzigen</strong> &gt; <strong>Detailweergave</strong>). Op het Sneltabblad <strong>Factuur en levering</strong>, in het veld <strong>Btw-vrijstellingsnummer</strong>, selecteer het belastingregistratienummer.</td>
+<td>Stel btw-registratiegegevens in voor uw tegenpartijen op de pagina <strong>Alle klanten</strong> (klik op <strong>Verkoop en marketing</strong> &gt; <strong>Klanten</strong> &gt; <strong>Alle klanten</strong>, selecteer een klantrecord en klik vervolgens op <strong>Opties</strong> &gt; <strong>Weergave wijzigen</strong> &gt; <strong>Detailweergave</strong>) of de pagina <strong>Leveranciers</strong> (klik op <strong>Inkoop en sourcing</strong> &gt; <strong>Leveranciers</strong> &gt; <strong>Leveranciers</strong>, selecteer een leveranciersrecord en klik vervolgens op <strong>Opties</strong> &gt; <strong>Weergave wijzigen</strong> &gt; <strong>Detailweergave</strong>). Selecteer op het sneltabblad <strong>Factuur en levering</strong> in het veld <strong>Btw-vrijstellingsnummer</strong> het btw-registratienummer.</td>
 </tr>
 <tr class="odd">
 <td><strong>Instelling:</strong> BTW</td>
@@ -160,3 +162,6 @@ Als u het rapportageproces voor een specifieke periode (bijvoorbeeld, wanneer de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

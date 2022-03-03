@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: f001734baf9aee59f0a61d21ca5a99af0c55b56f
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
+ms.openlocfilehash: 185fb9a33cb4cc655dfdf640b4c239d617426c64
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413588"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323896"
 ---
 # <a name="use-data-collection-data-sources-in-electronic-reporting-formats"></a>Gegevensbronnen voor GEGEVENSVERZAMELING in elektronische rapportageindelingen gebruiken
 
 [!include [banner](../includes/banner.md)]
 
-U kunt de Operations-ontwerper van het [ER](general-electronic-reporting.md)-raamwerk gebruiken om de [indelings](general-electronic-reporting.md#FormatComponentOutbound)component te configureren van een ER-oplossing die wordt gebruikt om uitgaande documenten in verschillende indelingen te genereren. De hiërarchische structuur van de geconfigureerde indelingscomponent bestaat uit indelingselementen van verschillende typen. Deze indelingselementen worden gebruikt om gegenereerde documenten te vullen met de vereiste informatie tijdens runtime. Wanneer u een ER-indeling uitvoert, worden de indelingselementen standaard in dezelfde volgorde uitgevoerd als waarin deze worden weergegeven in de opmaakhiërarchie: één voor één, van boven naar beneden.
+U kunt de Operations-ontwerper van het [ER](general-electronic-reporting.md)-raamwerk gebruiken om de indelingscomponent te configureren van een ER-oplossing die wordt gebruikt om uitgaande documenten in verschillende indelingen te genereren. De hiërarchische structuur van de geconfigureerde indelingscomponent bestaat uit indelingselementen van verschillende typen. Deze indelingselementen worden gebruikt om gegenereerde documenten te vullen met de vereiste informatie tijdens runtime. Wanneer u een ER-indeling uitvoert, worden de indelingselementen standaard in dezelfde volgorde uitgevoerd als waarin deze worden weergegeven in de opmaakhiërarchie: één voor één, van boven naar beneden.
 
-Wanneer er een opmaakelement via ER wordt uitgevoerd dat een binding bevat, wordt de formule van die binding uitgevoerd en voegt het opmaakelement de waarde toe aan een gegenereerd document. De binding kan bijvoorbeeld de waarde van een [gegevensmodel](general-electronic-reporting.md#data-model-and-model-mapping-components)veld doorgeven aan een opmaakelement. U kunt een gegevensbron voor GEGEVENSVERZAMELING dusdanig configureren dat het waarden van gegevensmodelvelden tijdens runtime verzamelt, deze waarden optelt en een gegenereerd document met de verzamelde waarden vult. Om deze benadering te gebruiken, wijzigt u de eerste binding dusdanig dat de geconfigureerde gegevensbron voor GEGEVENSVERZAMELING wordt gebruikt om de waarde van een gegevensmodelveld aan een opmaakelement door te geven. Door waarden via de gegevensbron voor GEGEVENSVERZAMELING door te geven, kunt u de vereiste gegevens voor verder gebruik verzamelen.
+Wanneer er een opmaakelement via ER wordt uitgevoerd dat een binding bevat, wordt de formule van die binding uitgevoerd en voegt het opmaakelement de waarde toe aan een gegenereerd document. De binding kan bijvoorbeeld de waarde van een gegevensmodelveld doorgeven aan een opmaakelement. U kunt een gegevensbron voor GEGEVENSVERZAMELING dusdanig configureren dat het waarden van gegevensmodelvelden tijdens runtime verzamelt, deze waarden optelt en een gegenereerd document met de verzamelde waarden vult. Om deze benadering te gebruiken, wijzigt u de eerste binding dusdanig dat de geconfigureerde gegevensbron voor GEGEVENSVERZAMELING wordt gebruikt om de waarde van een gegevensmodelveld aan een opmaakelement door te geven. Door waarden via de gegevensbron voor GEGEVENSVERZAMELING door te geven, kunt u de vereiste gegevens voor verder gebruik verzamelen.
 
 Wanneer u een gegevensbron voor GEGEVENSVERZAMELING configureert, geeft u een waardetype op dat in de gegevensbron zal worden beheerd. De volgende [gegevenstypen](er-formula-supported-data-types-primitive.md) worden momenteel ondersteund voor het verzamelen van waarden:
 

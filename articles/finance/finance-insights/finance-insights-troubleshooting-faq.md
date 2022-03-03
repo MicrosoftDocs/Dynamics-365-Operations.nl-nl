@@ -2,7 +2,7 @@
 title: Problemen met het instellen van Finance Insights oplossen
 description: In dit onderwerp worden problemen weergegeven die kunnen optreden wanneer u functies van Finance Insights gebruikt. Er wordt ook uitgelegd hoe u deze problemen kunt oplossen.
 author: panolte
-ms.date: 01/29/2022
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: f77cddfdab22bef8af7f62d49723e330c4f13261
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: fc616e5fce6bbfeaa3b36ccc35f1b1cf407af4a6
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064861"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109855"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Problemen met het instellen van Finance Insights oplossen
 
@@ -111,6 +111,14 @@ Zie [Voorspellingen voor klantbetalingen inschakelen](../finance-insights/enable
 
 ### <a name="resolution"></a>Oplossing
 
-Voor de modeltraining **Cashflowprognose** zijn gegevens nodig die meer dan een jaar beslaan en meer dan 100 transacties bevatten. Deze transacties moeten invloed hebben op liquiditeitsrekeningen die zijn opgenomen in de instellingen van de cashflowprognose.
+Voor de modeltraining **Cashflowprognose** zijn gegevens nodig die meer dan 100 transacties bevatten en meer dan een jaar beslaan. We raden u aan minimaal twee jaar aan gegevens met meer dan 1000 transacties te gebruiken.
 
-Voor **Voorspellingen voor klantbetalingen** zijn minimaal 100 klantfactuur- en betalingstransacties in de laatste zes tot negen maanden nodig om voorspellingen te maken.  
+Voor de functie **Voorspellingen voor klantbetalingen** moeten meer dan 100 transacties zijn uitgevoerd in de voorgaande zes tot negen maanden. De transacties kunnen vrije-tekstfacturen, verkooporders en klantbetalingen omvatten. Deze gegevens moeten worden verdeeld over de instellingen voor **Op tijd**, **Te laat** en **Erg laat** die zijn gedefinieerd op de pagina **Configuratie**.    
+
+Voor de functie **Budgetvoorstel** is minimaal drie jaar aan budget of werkelijke gegevens nodig. Deze oplossing gebruikt drie tot tien jaar aan gegevens in de ramingen. Meer dan drie jaar levert betere resultaten op. De gegevens zelf werken het beste als er variatie in de waarden is. Als de gegevens alle constante gegevens bevatten, zoals leaseonkosten, kan de training mislukken, omdat AI door een gebrek aan variatie de bedragen niet projecteert.
+
+## <a name="symptom-error-message-states-that-the-table-with-name-msdyn_paypredpredictionresultentities-does-not-exist-the-remote-server-returned-an-error-404-not-found"></a>Symptoom: in de foutmelding wordt aangegeven dat de tabel met de naam msdyn_paypredpredictionresultentities niet bestaat. De externe server heeft een fout geretourneerd: (404) Niet gevonden..."
+
+### <a name="resolution"></a>Oplossing
+
+De maximale tabellimiet van Data Lake-services is bereikt. Zie de sectie **Gegevenswijzigingen in bijna realtime inschakelen** van het onderwerp [Exporteren naar Azure Data Lake-overzicht](../../fin-ops-core/dev-itpro/data-entities/Azure-Data-Lake-GA-version-overview.md) voor meer informatie over de limiet.

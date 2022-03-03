@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4c83b96673fa717b034207a41c921a1b197e17ef3588e77b2304ec9e27fa93a6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2c8adaad2afee3b735c69a501d7949a807f4e770
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738766"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323375"
 ---
 # <a name="set-product-quantity-limits-for-b2b-e-commerce-sites"></a>De limieten voor de producthoeveelheid instellen voor B2B-e-commercesites
 
@@ -77,7 +77,7 @@ Voer deze stappen uit om de functionaliteit voor hoeveelheidslimieten voor B2B-o
 
 [Een B2B-e-commercesite instellen](set-up-b2b-site.md)
 
-[Hiërarchieën voor organisatiemodellering voor B2B-organisaties maken](org-model.md)
+[B2B-zakenpartners beheren met behulp van klanthiërarchieën](partners-customer-hierarchies.md)
 
 [Gebruikers van zakelijke partners beheren op e-commercesites voor B2B](manage-b2b-users.md)
 

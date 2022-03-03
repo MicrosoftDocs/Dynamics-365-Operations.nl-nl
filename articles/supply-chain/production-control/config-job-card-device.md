@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 0382e34664f20389c43e8dec4437f0078fa1f60a
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 4c7a9585d96a1e08790e0f3c972e704971f27dc0
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777735"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103433"
 ---
 # <a name="configure-job-card-for-devices"></a>Taakkaart configureren voor apparaten
 
@@ -34,21 +34,19 @@ Enkele van de instellingen die in dit onderwerp worden beschreven, moeten op uw 
 
 Als u deze functie beschikbaar wilt maken, schakelt u de volgende functies in [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (op volgorde):
 
-1. De nummerplaat voor gereedmelding die is toegevoegd aan het taakkaartapparaat (vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld.)
-1. Het automatisch genereren van nummerplaatnummers inschakelen bij het gereedmelden in het apparaat voor taakkaarten
+1. *Nummerplaat voor gereedmelding toegevoegd aan het apparaat voor taakkaarten*<br>(Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management versie 10.0.25 is deze functie verplicht.)
+1. *Het automatisch genereren van nummerplaatnummers inschakelen bij het gereedmelden in het apparaat voor taakkaarten*<br>(Vanaf Supply Chain Management versie 10.0.25 is deze functie verplicht.)
 
-### <a name="print-label"></a>Etiket afdrukken
+### <a name="print-label"></a>Label afdrukken
 
 Als u deze functie beschikbaar wilt maken, schakelt u de volgende functies in [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (op volgorde):
 
-1. De nummerplaat voor gereedmelding die is toegevoegd aan het taakkaartapparaat (vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld.)
-1. Label afdrukken vanaf apparaat voor taakkaart
+1. *Nummerplaat voor gereedmelding toegevoegd aan het apparaat voor taakkaarten*<br>(Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management versie 10.0.25 is deze functie verplicht.)
+1. *Label afdrukken vanaf apparaat voor taakkaart*<br>(Vanaf Supply Chain Management versie 10.0.25 is deze functie verplicht.)
 
 ### <a name="allow-locking-of-touch-screen"></a>Vergrendeling van aanraakscherm toestaan
 
-Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Als u dit wilt gebruiken, schakelt u de volgende functie in [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in:
-
-- Functie voor vergrendelen van taakkaartapparaat en taakkaartterminal zodat ze kunnen worden schoongemaakt
+Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Functie voor vergrendelen van taakkaartapparaat en taakkaartterminal zodat ze kunnen worden schoongemaakt* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="manage-your-device-configurations"></a>Uw apparaatconfiguraties beheren
 

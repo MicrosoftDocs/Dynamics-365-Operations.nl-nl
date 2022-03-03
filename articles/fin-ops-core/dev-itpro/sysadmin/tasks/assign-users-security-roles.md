@@ -1,12 +1,10 @@
 ---
 title: Gebruikers aan beveiligingsrollen toewijzen
-description: Voor toegang tot Finance and Operations-apps moeten gebruikers zijn toegewezen aan beveiligingsrollen.
+description: Voor toegang tot Finance and Operations-apps moeten gebruikers worden toegewezen aan beveiligingsrollen.
 author: Peakerbl
-manager: AnnBe
-ms.date: 05/06/2020
+ms.date: 02/09/2022
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysSecRolesEditUsers, SysSecAssignmentQueryLookup, SysQueryForm, SysSecRoleExcludeUsers
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f78c24e8c2ffe5418ce119e19b7c0193f01f64b8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 36874b996cc5708f6fd7fbc45251f3066b5b1c97
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679859"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105533"
 ---
-# <a name="assign-users-to-security-roles"></a>Gebruikers aan beveiligingsrollen toewijzen
+# <a name="manage-users-and-security-roles"></a>Gebruikers en beveiligingsrollen beheren
 
 [!include [banner](../../includes/banner.md)]
 
-Als u andere dan algemene mogelijkheden in Finance and Operations-apps wilt gebruiken, moeten gebruikers aan beveiligingsrollen worden toegewezen. U kunt gebruikers automatisch aan rollen toewijzen op basis van regels en zakelijke gegevens, gebruikers uitsluiten van automatische roltoewijzing of gebruikers handmatig aan rollen toevoegen.
+Als u andere dan algemene mogelijkheden in apps voor financiën en bedrijfsactiviteiten wilt gebruiken, moeten gebruikers aan beveiligingsrollen worden toegewezen. U kunt gebruikers automatisch aan rollen toewijzen op basis van regels en zakelijke gegevens, gebruikers uitsluiten van automatische roltoewijzing of gebruikers handmatig aan rollen toevoegen.
 
 ## <a name="automatically-assign-users-to-roles"></a>Gebruikers automatisch aan rollen toewijzen
 In deze procedure wordt beschreven hoe systeembeheerders gebruikers automatisch aan rollen kunnen toewijzen op basis van bedrijfsgegevens. 
@@ -42,6 +40,8 @@ In deze procedure wordt beschreven hoe systeembeheerders gebruikers automatisch 
 10. Controleer de rollen die aan verschillende gebruikers zijn toegewezen om te bevestigen dat de query voor roltoewijzing juist is. Pas aan en voer opnieuw uit, indien nodig.
 
 ## <a name="exclude-users-from-automatic-role-assignment"></a>Gebruikers uitsluiten van automatische roltoewijzing
+In deze procedure wordt uitgelegd hoe u gebruikers kunt uitsluiten van automatische roltoewijzing.
+
 1. Sluit de pagina.
 2. Ga naar **Navigatievenster >Modules > Systeembeheer > Beveiliging > Gebruikers aan rollen toewijzen**.
 3. Selecteer Supervisor boekhouding in de structuur. Hier kunt u een rol selecteren. Selecteer voor dit voorbeeld Supervisor boekhouding.  
@@ -57,3 +57,19 @@ Gebruikers die handmatig aan beveiligingsrollen zijn toegewezen, moeten ook hand
 2. Selecteer een rol in de structuur en in het menu **Gebruikers die aan rol zijn toegewezen** de optie **Gebruikers handmatig toewijzen/uitsluiten**.
 4. In **Gebruikers toewijzen aan of uitsluiten van rol** worden gebruikers aan wie de rol niet is toegewezen, weergegeven en wordt de **Toewijzingsmodus** ingesteld op **Geen**. Selecteer een of meer gebruikers waaraan u de rol wilt toewijzen.
 5. Selecteer **Toewijzen aan rol** in het **actievenster**. De **Toewijzingsmodus** wordt bijgewerkt naar **Handmatig** en aan de gebruikers wordt nu een nieuwe rol toegewezen.
+
+## <a name="manually-remove-users-from-roles"></a>Gebruikers handmatig verwijderen uit rollen
+Gebruikers die handmatig aan beveiligingsrollen zijn toegewezen, moeten ook handmatig door de beheerder worden verwijderd. Deze gebruikers worden niet verwijderd via regels voor automatische roltoewijzing.
+
+1. Ga naar **Navigatievenster >Modules > Systeembeheer > Beveiliging > Gebruikers aan rollen toewijzen**.
+2. Volg deze stappen om één gebruiker te verwijderen:
+   1. Selecteer een rol in de structuur. 
+   2. Selecteer de gebruiker die moet worden verwijderd in het gebied **Gebruikers die aan rol zijn toegewezen**.
+   3. Selecteer **Verwijderen** om de gebruiker uit de rol te verwijderen.
+3. Volg deze stappen om meerdere gebruikers te verwijderen:
+   1. Selecteer een rol in de structuur. 
+   2. Selecteer in het gebied **Gebruikers die aan rol zijn toegewezen** de optie **Gebruikers handmatig toewijzen/uitsluiten**.
+   3. Op de pagina **Gebruikers toewijzen aan of uitsluiten van rol** wordt voor gebruikers aan wie de rol niet is toegewezen de waarde **Geen** weergegeven in de kolom **Toewijzingsmodus**. Selecteer de gebruikers die moeten worden uitgesloten van de rol.
+   4. Selecteer **Uitsluiten voor rol** in het **actievenster**. De kolom **Toewijzingsmodus** wordt nu bijgewerkt naar **Handmatig** en de gebruikers zijn nu uitgesloten van de rol.
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

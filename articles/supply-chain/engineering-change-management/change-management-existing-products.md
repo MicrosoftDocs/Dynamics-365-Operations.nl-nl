@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f0fba0a9234e5b7cb055f7b97578bff72f1d06ac
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e356ef8339f8f71965bf9313e14fed3d0810152d
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571972"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103608"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Wijzigingsbeheer voor bestaande producten inschakelen
 
@@ -27,12 +27,9 @@ In dit onderwerp wordt uitgelegd hoe u wijzigingsbeheer voor bestaande producten
 
 Wanneer u wijzigingsbeheer inschakelt voor een bestaand product, kunt u versies van dat product maken en wijzigingen traceren die in het product zijn aangebracht gedurende de levensduur. U kunt deze wijzigingen dan bijhouden door wijzigingsorders te gebruiken. Als u wijzigingsbeheer wilt inschakelen, moet u de relevante producten converteren naar *technische artikelen* (ook wel technische producten genoemd). Technische producten zijn producten waarvoor versiebeheer wordt uitgevoerd en die worden beheerd via wijzigingsbeheer. Er is een wizard beschikbaar die u begeleidt bij het conversieproces.
 
-## <a name="turn-on-the-feature-in-your-system"></a>De functie inschakelen in uw systeem
+## <a name="turn-this-feature-on-or-off"></a>Deze functie in- of uitschakelen
 
-Voer de volgende taken uit om deze mogelijkheid te gebruiken:
-
-1. Schakel technisch wijzigingsbeheer en de bijbehorende configuratiesleutel in zoals beschreven in [Overzicht van technisch wijzigingsbeheer](product-engineering-overview.md).
-1. Schakel de functie *Wijzigingsbeheer voor bestaande producten inschakelen* in functiebeheer in. Zie [Overzicht van functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voor meer informatie.
+Voor deze functie moeten de functies *Beheer voor technische wijzigingen* en *Wijzigingsbeheer voor bestaande producten inschakelen* zijn ingeschakeld voor uw systeem. Zie [Overzicht van technisch wijzigingsbeheer](product-engineering-overview.md) voor meer informatie over het in- of uitschakelen van deze functies.
 
 ## <a name="restrictions-and-limitations"></a>Beperkingen en limieten
 

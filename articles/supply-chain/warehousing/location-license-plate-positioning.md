@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c19f8dcdb7d84b752e0eec56afdb1a1865cfe00b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f87723ebd6684efba8464a7d64c7e1ea99f194eb
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567602"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102784"
 ---
 # <a name="location-license-plate-positioning"></a>Positionering van locatie nummerplaat
 
@@ -30,12 +30,9 @@ De functie voegt een volgnummer toe aan elke nummerplaat die op een opslaglocati
 
 Dit onderwerp bespreekt een scenario waarin wordt uitgelegd hoe u de functie instelt en gebruikt.
 
-## <a name="turn-on-the-location-license-plate-positioning-feature"></a>De functie Positionering van locatie nummerplaat inschakelen
+## <a name="turn-the-location-license-plate-positioning-feature-on-or-off"></a>De functie Positionering van locatie nummerplaat in- of uitschakelen
 
-Voordat u de functie Positionering van locatie nummerplaat kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen het werkgebied [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
-
-- **Module:** *Magazijnbeheer*
-- **Functienaam:** *Positionering van locatie nummerplaat*
+Als u de functionaliteit wilt gebruiken die in dit onderwerp wordt beschreven, moet de functie *Positionering van locatie nummerplaat* zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Positionering van locatie nummerplaat* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="example-scenario"></a>Voorbeeldscenario
 

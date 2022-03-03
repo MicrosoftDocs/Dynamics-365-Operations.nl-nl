@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 98d28c39b2923afecc851299a07aa3b93ef2edce
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 27e9e977193f9ff5c8188b780e8de955742c4ebe
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867289"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323870"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Een nieuwe ER-configuratie ontwerpen om rapporten in Word-indeling te genereren
 
@@ -28,7 +28,7 @@ Als u rapporten wilt genereren als Microsoft Word-documenten, moet u een sjabloo
 
 ![Voorbeeldsjabloon voor het controlerapport in de Word-bureaubladtoepassing.](./media/er-design-configuration-word-image1.png)
 
-Als u een Word-document wilt gebruiken als sjabloon voor rapporten in Word-indeling, kunt u een nieuwe [Electronic reporting (ER)](general-electronic-reporting.md) [oplossing](er-quick-start1-new-solution.md) configureren. Deze oplossing moet een ER-[configuratie](general-electronic-reporting.md#Configuration) bevatten die een onderdeel voor [ER-indeling](general-electronic-reporting.md#FormatComponentOutbound) bevat.
+Als u een Word-document wilt gebruiken als sjabloon voor rapporten in Word-indeling, kunt u een nieuwe [Electronic reporting (ER)](general-electronic-reporting.md) [oplossing](er-quick-start1-new-solution.md) configureren. Deze oplossing moet een ER-[configuratie](general-electronic-reporting.md#Configuration) bevatten die een onderdeel voor ER-indeling bevat.
 
 > [!NOTE]
 > Wanneer u een nieuwe ER-indelingsconfiguratie maakt om rapporten te genereren in Word-indeling, moet u ofwel **Word** als indelingstype selecteren in het vervolgvenster **Configuratie maken** of het veld **Indelingstype** leeg laten.

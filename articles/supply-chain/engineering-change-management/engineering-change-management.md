@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f362aef527272781464d5c1a17f0a382cfb8cacc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 93f5c3e4951784a6c4925b8f9026816bfaf551ee
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568130"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102905"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Wijzigingen in technische producten beheren
 
@@ -123,7 +123,7 @@ Als u beïnvloede transacties wilt controleren, geselecteerde transacties wilt b
     - **Alle transacties weergeven**: open de volledige lijst met alle transacties, niet alleen de openstaande transacties.
 
 > [!IMPORTANT]
-> De knop **Productie waarschuwen** is alleen beschikbaar als de functie *Technische meldingen voor productie* is ingeschakeld in het systeem. Raadpleeg [Overzicht van technisch wijzigingsbeheer](product-engineering-overview.md) voor instructies.
+> De knop **Productie waarschuwen** is alleen beschikbaar als de functie *Technische meldingen voor productie* is ingeschakeld voor het systeem. Zie [Overzicht van technisch wijzigingsbeheer](product-engineering-overview.md) voor instructies voor het in- of uitschakelen van deze functie en de vereisten ervan.
 
 #### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Meldingen over wijzigingen voor transacties controleren en verwerken
 
@@ -136,7 +136,7 @@ U kunt de wijzigingsmeldingen die u ontvangt op de volgende manieren lezen en ve
 Wanneer u productieordermeldingen controleert op de pagina **Technische meldingen**, kunt u koppelingen naar gerelateerde wijzigingsorders of productieorders volgen door kolomwaarden te selecteren of door de bijbehorende opdrachten in het actievenster te gebruiken. Wanneer u klaar bent met het evalueren van een wijziging en wanneer u productieorders hebt geannuleerd of indien nodig gewijzigd, kunt u een melding markeren als opgelost. Selecteer de melding en selecteer vervolgens **Oplossen** in het actievenster. De melding wordt uit alle weergaven van gebruikers verwijderd.
 
 > [!IMPORTANT]
-> Voor de mogelijkheid om meldingen voor productieorders te verzenden, moet de functie *Technische meldingen voor productie* in het systeem zijn ingeschakeld. Raadpleeg [Overzicht van technisch wijzigingsbeheer](product-engineering-overview.md) voor instructies.
+> Voor de mogelijkheid om meldingen voor productieorders te verzenden, moet de functie *Technische meldingen voor productie* voor het systeem zijn ingeschakeld. Zie [Overzicht van technisch wijzigingsbeheer](product-engineering-overview.md) voor instructies voor het in- of uitschakelen van deze functie en de vereisten ervan.
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Een wijzigingsorder maken op basis van een wijzigingsaanvraag
 

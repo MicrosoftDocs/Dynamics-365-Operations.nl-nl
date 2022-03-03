@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72c372a4d9b6af337731ff0bbd750b3b58f27bb79cb3813a0b5e4f79707d9f5c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 96fdf33f4cc5f22015c00c57858bd438e6465764
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730602"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323635"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>Ondersteunde primitieve gegevenstypen voor formules voor elektronische rapportage
 
@@ -101,7 +101,7 @@ Vergelijkings [operators](er-formula-language.md#Operators) zijn het enige opera
 
 ## <a name="enumeration"></a><a name="enumeration"></a>Opsomming
 
-Het primitieve gegevenstype *opsomming* is een lijst met letterlijke waarden. U kunt opsommingen gebruiken die in de [broncode](../dev-ref/xpp-data-primitive.md#enum) van de toepassing zijn gedefinieerd. U kunt ook uw eigen opsommingen introduceren in de onderdelen [ER-gegevensmodel](general-electronic-reporting.md#data-model-and-model-mapping-components) en [ER-indeling](general-electronic-reporting.md#FormatComponentOutbound).
+Het primitieve gegevenstype *opsomming* is een lijst met letterlijke waarden. U kunt opsommingen gebruiken die in de [broncode](../dev-ref/xpp-data-primitive.md#enum) van de toepassing zijn gedefinieerd. U kunt ook uw eigen opsommingen introduceren in de onderdelen ER-gegevensmodel en ER-indeling.
 
 Een *opsomming* van toepassingen kan worden gebruikt in expressies van elke ER-modeltoewijzing en ER-indeling.
 

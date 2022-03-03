@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 872a08241f3d0156d0ccf1f89443e3a894656404
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 6663188334c70035906f924c7850a0dc5002f306
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777597"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103058"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Nummerplaat ontvangen via de mobiele app voor Magazijnbeheer
 
@@ -77,15 +77,13 @@ Als deze functie is ingeschakeld, bevatten de menuopdrachten van het mobiele app
 - **Een gedetailleerd overzicht weergeven**: tijdens het ontvangen van een nummerplaat krijgen de werknemers een extra pagina te zien waarop de volledige ASN-informatie wordt weergegeven.
 - **Het overzicht overslaan**: werknemers kunnen de volledige ASN-informatie niet zien. Magazijnmedewerkers kunnen ook geen beschikkingscode instellen of uitzonderingen toevoegen tijdens het ontvangstproces.
 
-Om deze functionaliteit beschikbaar te maken op uw systeem, moet de functie *Bepalen of de pagina met het ontvangstoverzicht wordt weergegeven op mobiele apparaten* in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) zijn ingeschakeld. (Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld.)
+Om deze functionaliteit beschikbaar te maken, moet de functie *Bepalen of de pagina met het ontvangstoverzicht wordt weergegeven op mobiele apparaten* zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Bepalen of u een ontvangstoverzichtspagina wilt weergeven op mobiele apparaten* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Verhinderen dat met overboekingsorder verzonden nummerplaten worden gebruikt voor andere magazijnen dan het doelmagazijn
 
 Een ontvangstproces voor een nummerplaat kan niet worden gebruikt als een ASN een nummerplaat-id bevat die al bestaat en fysieke voorraadgegevens bevat op een magazijnlocatie anders dan de magazijnlocatie waar de nummerplaatregistratie wordt uitgevoerd.
 
-Voor overboekingsorderscenario's waarbij het transitmagazijn geen nummerplaten volgt (en dus ook geen fysieke voorhanden voorraad per nummerplaat bijhoudt), kunt u de functie *Verhinderen dat met overboekingsorder verzonden nummerplaten worden gebruikt voor andere magazijnen dan het doelmagazijn* gebruiken om fysieke voorraadupdates te voorkomen in nummerplaten in transit.
-
-Als u deze functionaliteit op uw systeem beschikbaar wilt maken, moet u de functie *Verhinderen dat met overboekingsorder verzonden nummerplaten worden gebruikt voor andere magazijnen dan het doelmagazijn* in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) inschakelen.
+Voor overboekingsorderscenario's waarbij het transitmagazijn geen nummerplaten volgt (en dus ook geen fysieke voorhanden voorraad per nummerplaat bijhoudt), kunt u de functie *Verhinderen dat met overboekingsorder verzonden nummerplaten worden gebruikt voor andere magazijnen dan het doelmagazijn* gebruiken om fysieke voorraadupdates te voorkomen in nummerplaten in transit. Als u deze functionaliteit op uw systeem beschikbaar wilt maken, moet u de functie *Verhinderen dat met overboekingsorder verzonden nummerplaten worden gebruikt voor andere magazijnen dan het doelmagazijn* inschakelen voor uw systeem. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functie in- of uitschakelen door ernaar te zoeken in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Voer de volgende stappen uit om de functionaliteit te beheren wanneer deze functie beschikbaar is.
 

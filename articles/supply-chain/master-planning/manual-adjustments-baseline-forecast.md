@@ -1,12 +1,10 @@
 ---
 title: Handmatige correcties aanbrengen in de basislijnprognose
 description: In dit onderwerp wordt uitgelegd hoe u handmatige aanpassingen kunt uitvoeren op een basislijnprognose en details van de prognose kunt weergeven.
-author: roxanadiaconu
-manager: tfehr
+author: ChristianRytt
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afdcbb98c96b2a685f64a16886b9a064ed13c2c0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4d00061efa551c9fe2ad9d0e441bba44e70b071c
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967025"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103758"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Handmatige correcties aanbrengen in de basislijnprognose
 
@@ -36,7 +34,7 @@ Voordat u handmatige aanpassingen uitvoert, is het belangrijk dat u een paar con
 ## <a name="grid-on-the-adjusted-demand-forecast-page"></a>Raster op de pagina Gecorrigeerde vraagprognose
 De **Gecorrigeerde vraagprognose** pagina bevat een raster met de volgende structuur:
 
--   De eerste kolom geeft de artikelen, artikeltoewijzingssleutels, bedrijven, enzovoort weer, waarvoor de prognose is gegenereerd. De ondertitel van de pagina bevat een omschrijving van de huidige prognosedimensies die in het raster worden weergegeven. Als de ondertitel van de pagina bijvoorbeeld **Bedrijf / Locatie / Artikeltoewijzingssleutel** is en een van de rijkopteksten in het raster **USMF / 1 / D\_Alloc** is, bevat die rij de prognose voor het USMF-bedrijf, locatie 1 en de artikeltoewijzingssleutel **D\_Alloc**.
+-   De eerste kolom geeft de artikelen, artikeltoewijzingssleutels, bedrijven, enzovoort weer, waarvoor de prognose is gegenereerd. De ondertitel van de pagina bevat een omschrijving van de huidige prognosedimensies die in het raster worden weergegeven. Als de ondertitel van de pagina bijvoorbeeld **Bedrijf / Locatie / Artikeltoewijzingssleutel** is en een van de rijheaderen in het raster **USMF / 1 / D\_Alloc** is, bevat die rij de prognose voor het USMF-bedrijf, locatie 1 en de artikeltoewijzingssleutel **D\_Alloc**.
 -   De volgende kolommen zijn de prognoseverzamelingen waarvoor de prognose is gegenereerd. Elke kolomkop is de eerste datum van de prognoseverzameling die in de kolom wordt weergegeven.
 -   De waarden in de cellen vertegenwoordigen de prognose voor één artikel, artikeltoewijzingssleutel enzovoort, voor die specifieke prognosebucket.
 
@@ -69,14 +67,13 @@ Op de pagina **Details van vraagprognose** wordt de volgende informatie in grafi
 
 **Opmerkingen:**
 
--   Als u prognose **Selectie van prognosemodel in Details van vraagprognose** inschakelt vanuit Functiebeheer, kunt u op de pagina **Details van vraagprognose** de prognosemodellen selecteren die voor de historische prognose moeten worden opgenomen.
--   Het betrouwbaarheidsinterval dat in de sectie **Prognose** van de pagina wordt weergegeven is het verschil tussen de betrouwbaarheidsintervalbovengrens en de betrouwbaarheidsintervalondergrens. Om de waarden voor de boven- en ondergrens te zien, beweegt u de cursor over de grafiek in de **Historische vraag en prognose grafisch weergegeven**.
--   Als u de Microsoft Azure Machine Learning-service Vraagprognose gebruikt, kunt u het percentage van het vertrouwensniveau opgeven dat de gegenereerde prognose moet hebben. Een waarschijnlijkheidsinterval bestaat uit een waardebereik dat als goede ramingen voor de vraagprognose fungeert. Een waarschijnlijkheidspercentage van 95% geeft aan dat er een kans van 5% is dat de vraagprognose valt buiten het bereik van het waarschijnlijkheidsinterval.
+- Met de functie *Selectie van prognosemodel in Details van vraagprognose* voegt u instellingen op de pagina **Details van vraagprognose** toe waarmee u de prognosemodellen kunt selecteren die moeten worden opgenomen. Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Selectie prognosemodel in Details vraagprognose* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- Het betrouwbaarheidsinterval dat in de sectie **Prognose** van de pagina wordt weergegeven is het verschil tussen de betrouwbaarheidsintervalbovengrens en de betrouwbaarheidsintervalondergrens. Om de waarden voor de boven- en ondergrens te zien, beweegt u de cursor over de grafiek in de **Historische vraag en prognose grafisch weergegeven**.
+- Als u de Microsoft Azure Machine Learning-service Vraagprognose gebruikt, kunt u het percentage van het vertrouwensniveau opgeven dat de gegenereerde prognose moet hebben. Een waarschijnlijkheidsinterval bestaat uit een waardebereik dat als goede ramingen voor de vraagprognose fungeert. Een waarschijnlijkheidspercentage van 95% geeft aan dat er een kans van 5% is dat de vraagprognose valt buiten het bereik van het waarschijnlijkheidsinterval.
 
 U kunt ook handmatige aanpassingen uitvoeren aan de prognose op de pagina **Details van vraagprognose** door de waarden in de rij **Prognose** te wijzigen in de sectie **Prognose**.
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Prognosenauwkeurigheid controleren](monitor-forecast-accuracy.md)
 
@@ -84,3 +81,6 @@ U kunt ook handmatige aanpassingen uitvoeren aan de prognose op de pagina **Deta
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

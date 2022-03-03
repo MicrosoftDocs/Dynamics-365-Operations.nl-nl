@@ -2,26 +2,23 @@
 title: Terugkerende vrije-tekstfacturen genereren en boeken
 description: Terugkerende facturen worden gebruikt om klanten regelmatig voor hetzelfde bedrag te factureren.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysLookupMultiSelectGrid, CustRecurrenceInvoiceGroup, CustFreeInvoice, CustRecurrenceInvoiceTotals
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f3b31dbf296a06ea6253a8ae71bfea6193a1e03e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3d30dd5ba29ee34784921047627642644c0c4ab2
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441952"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182474"
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>Terugkerende vrije-tekstfacturen genereren en boeken
 
@@ -33,16 +30,19 @@ Terugkerende facturen worden gebruikt om klanten regelmatig voor hetzelfde bedra
 ## <a name="generate-recurring-invoices"></a>Terugkerende facturen genereren
 
 ## <a name="post-recurring-invoices"></a>Terugkerende facturen boeken
-1. Ga naar Klanten > Facturen > Terugkerende facturen > Terugkerende facturen genereren.
+1. Ga naar **Klanten > Facturen > Terugkerende facturen > Terugkerende facturen genereren**.
     * Gebruik deze pagina voor het bekijken en afdrukken van terugkerende facturen die al eerder zijn gegenereerd.  
 2. Klik in de lijst op de koppeling in de geselecteerde rij.
     * Selecteer de terugkerende factuurgroep.  
-3. Klik op Totalen.
+3. Klik op **Totalen**.
     * Controleer totalen voor de terugkerende factuurgroep.  
-4. Klik op Sluiten.
-    * Elke onderstaande regel is een terugkerende vrije-tekstfactuur. U kunt een regel selecteren en op de knop Details klikken om details van vrije-tekstfacturen weer te geven.  
-5. Klik op Valideren.
+4. Klik op **Sluiten**.
+    * Elke onderstaande regel is een terugkerende vrije-tekstfactuur. U kunt een regel selecteren en op de knop **Details klikken** om details van vrije-tekstfacturen weer te geven.  
+5. Klik op **Valideren**.
     * Controleer of de geselecteerde facturen geen fouten bevatten, maar boek de facturen niet.  
-6. Klik op Boeken.
+6. Klik op **Boeken**.
     * De geselecteerde facturen boeken.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

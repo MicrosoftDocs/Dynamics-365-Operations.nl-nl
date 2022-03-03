@@ -1,27 +1,24 @@
 ---
 title: Restbedrag vereffenen
 description: U kunt het resterende bedrag van de vereffeningsactiviteit vereffenen door het toe te passen op een grootboekrekening.
-author: mikefalkner
-manager: aolson
-ms.date: 10/16/2018
+author: twheeloc
+ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 52b0b456a6d9879c480ac3f076a32e382426a89c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 881b46774d3ca6a9b91d4dc06babb30c8677183a
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441953"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182399"
 ---
 # <a name="settle-remainder"></a>Restbedrag vereffenen
 
@@ -30,10 +27,10 @@ ms.locfileid: "4441953"
 U kunt het resterende bedrag van de vereffeningsactiviteit vereffenen door het toe te passen op een grootboekrekening of een andere klant. U kunt de rest vereffenen wanneer u bedragen vereffent die zijn ingevoerd in een journaal of wanneer u alleen openstaande transacties vereffent.
 
 ## <a name="setting-up-defaults"></a>Standaardinstellingen opgeven 
-U moet de functie Restbedrag vereffenen inschakelen en de standaardinstellingen instellen voordat u Restbedrag vereffenen gebruikt
+U moet de functie **Restbedrag vereffenen** inschakelen en de standaardinstellingen instellen voordat u **Restbedrag vereffenen** gebruikt.
 
 1)  Klik op **Klanten   > Parameters > Vereffeningen** of **Leveranciers > Parameters > Vereffeningen**
-2)  Selecteer het tabblad **Vereffening** en klik op **Restbedrag vereffenen inschakelen**
+2)  Selecteer het tabblad **Vereffening** en klik op **Restbedrag vereffenen inschakelen**.
 3)  Selecteer bij **Standaardredencode** een standaardredencode. De redencodes moeten al zijn ingesteld in **Klanten > Instellingen > Redencodes voor afschrijvingen van klant** of **Leveranciers > Instellingen > Redencodes voor afschrijvingen van klant**. Bij **Standaardrekening voor restbedrag vereffenen** wordt standaard de rekening ingesteld die is toegewezen aan de redencode voor afschrijving.
 3)  Werk de waarde voor **Standaardrekening voor restbedrag vereffenen** zo nodig bij.
 4)  Selecteer bij **Standaardjournaalnaam** een betalingsjournaal dat wordt gebruikt als u een betalingsjournaal wilt maken wanneer u alleen openstaande transacties vereffent. Als u de functie Restbedrag vereffenen inschakelt, moet u een standaardjournaalnaam toevoegen.
@@ -61,8 +58,8 @@ U kunt het restant ook vereffenen wanneer u openstaande transacties zonder een j
 
 Ga als volgt te werk om het restant te vereffenen:
 
-1)  Markeer op de pagina **Vereffening** de facturen of transacties die u wilt vereffenen
-2)  Klik op **Restbedrag vereffenen**
+1)  Markeer op de pagina **Vereffening** de facturen of transacties die u wilt vereffenen.
+2)  Klik op **Restbedrag vereffenen**.
 3)  Er wordt een dialoogvenster weergegeven met het bedrag dat wordt vereffend met een grootboekrekening, de datum die wordt gebruikt voor het vereffenen van het restbedrag, de standaardredencode uit de parameters en de standaardrekening uit de parameters. 
 4)  Selecteer een nieuwe vereffeningsreden als u de standaardreden wilt wijzigen. De vereffeningsrekening wordt gewijzigd in de rekening die is gekoppeld aan de redencode.
 5)  Bewerk de **vereffeningsrekening** als u deze wilt wijzigen.
@@ -70,3 +67,6 @@ Ga als volgt te werk om het restant te vereffenen:
 7)  U kunt er ook voor kiezen een betalingsjournaal met het restbedrag van de vereffening te maken of dit alleen zonder een journaal boeken. Selecteer **Ja** voor **Bewerken in journaal** om een betalingsjournaal te maken. U kunt het door u gemaakte betalingsjournaal bewerken.
 8)  Klik op **Restbedrag vereffenen**. Als u ervoor hebt gekozen een journaal te maken, wordt de knop gewijzigd in **Journaal maken**. Klik in dat geval op **Journaal maken**.
 9)  Als u een betalingsjournaal hebt gemaakt, wordt de journaalpagina geopend als u op **Restbedrag vereffenen** klikt. Er wordt een regel aan het journaal toegevoegd met het resterende vereffeningsbedrag als het bedrag en met de rekening voor het restbedrag als tegenrekening. Als u een klant of leverancier hebt toegevoegd zodat u het vereffeningsbedrag naar een andere klant of leverancier kunt verplaatsen, wordt een extra regel toegevoegd aan het journaal om het vereffeningsbedrag naar die klant of leverancier te verplaatsen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

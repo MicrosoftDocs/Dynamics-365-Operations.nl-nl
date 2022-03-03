@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 066655b58d4676bafb6e8ed8d80a95636c047444
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9255b7d2eaf030592207b557b3b6567a1a5bda98
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566018"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102858"
 ---
 # <a name="change-work-pool-on-work"></a>Werkgroep voor werk wijzigen
 
@@ -28,12 +28,9 @@ U kunt werkpools gebruiken om werk in groepen te organiseren. U kunt bijvoorbeel
 
 Met de functie *Werkpool voor werk wijzigen* wordt een knop **Werkpool wijzigen** toegevoegd aan het actievenster voor werkitems. Daarom kunnen magazijnmanagers de werkpool van bestaand werk eenvoudig wijzigen. Met deze functie reageert de manager snel op wijzigingen op de werkvloer in het magazijn en kunnen ze beter aanpassen aan veranderende situaties en de noodzaak om werk over te brengen naar een andere werkpool.
 
-## <a name="turn-on-the-change-work-pool-on-work-feature"></a>Schakel de functie Werkpool voor werk wijzigen in
+## <a name="turn-the-change-work-pool-on-work-feature-on-or-off"></a>De functie Werkgroep voor werk wijzigen in- of uitschakelen
 
-Voordat u deze functie gaat instellen of gebruiken, moet u controleren of deze beschikbaar is in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en desgewenst in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
-
-- **Module:** *Magazijnbeheer*
-- **Functienaam:** *Werkpool voor werk wijzigen*
+Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Werkgroep voor werk wijzigen* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-the-change-work-pool-on-work-feature"></a>De functie Werkpool voor werk wijzigen instellen
 

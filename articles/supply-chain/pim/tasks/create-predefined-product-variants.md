@@ -1,73 +1,103 @@
 ---
 title: Vooraf gedefinieerde productvarianten maken
 description: Deze procedure begeleidt u bij het maken van productvarianten voor een productmodel met behulp van de combinaties van productdimensies.
-author: ShylaThompson
-manager: tfehr
-ms.date: 08/29/2018
+author: t-benebo
+ms.date: 04/22/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductMasterDimension, EcoResProductVariants, EcoResProductVariantSuggestions, EcoResProductVariantsPendingReleaseFormPart
+ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductMasterDimension, EcoResProductVariants, EcoResProductVariantSuggestions, EcoResProductVariantsPendingReleaseFormPart, EcoResProductVariantSuggestionsEnhanced
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d07a090dbd41eb17e8d604887435bbb8b07e8d9e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.19
+ms.openlocfilehash: 6d3a4ae8efd438e01c263af1c0a1746d9484e491
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966925"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103084"
 ---
-# <a name="create-predefined-product-variants"></a>Vooraf gedefinieerde productvarianten maken
+# <a name="predefined-product-variants"></a>Vooraf gedefinieerde productvarianten
 
 [!include [banner](../../includes/banner.md)]
 
-Deze procedure begeleidt u bij het maken van productvarianten voor een productmodel met behulp van de combinaties van productdimensies. Het demobedrijf dat wordt gebruikt om deze procedure te maken is USMF.
+## <a name="example-scenario-create-predefined-product-variants"></a>Voorbeeldscenario: Vooraf gedefinieerde productvarianten maken
 
+In dit voorbeeldscenario ziet u hoe u productvarianten maakt voor een productmodel met behulp van combinaties van productdimensies.
 
-## <a name="create-a-product-master"></a>Een productmodel maken
-1. Ga naar Productgegevensbeheer > Producten > Productmodellen.
-2. Klik op Nieuw.
-3. Typ een waarde in het veld Productnummer.
-    * Handmatig invoeren van een productnummer is alleen verplicht als er geen nummerreeks is ingesteld voor het productnummerveld. Met andere woorden: sla de stap over als een nummerreeks voor het veld is ingesteld.  
-4. Typ een waarde in het veld Productnaam.
-5. Typ of selecteer een waarde in het veld Productdimensiegroep.
-    * Selecteer de productdimensiegroep SizeCol (Grootte en Kleur).  
-6. Klik op OK.
+### <a name="make-demo-data-available"></a>Demogegevens beschikbaar maken
 
-## <a name="add-product-dimensions"></a>Productdimensies toevoegen
-1. Klik op Productdimensies.
-    * Dit voorbeeld toont hoe productdimensies handmatig worden ingevoerd. U kunt er ook voor kiezen een grootte, kleur of een stijlgroep te selecteren die de productdimensiewaarden bevat die u wilt gebruiken.  
-2. Klik op Nieuw.
-3. Markeer in de lijst de geselecteerde rij.
-4. Typ of selecteer een waarde in het veld Grootte.
-5. Typ een waarde in het veld Naam.
-6. Klik op Nieuw.
-7. Markeer in de lijst de geselecteerde rij.
-8. Typ of selecteer een waarde in het veld Grootte.
-9. Typ een waarde in het veld Naam.
-10. Klik op het tabblad Kleuren.
-11. Klik op Nieuw.
-12. Markeer in de lijst de geselecteerde rij.
-13. Typ of selecteer een waarde in het veld Kleur.
-14. Typ een waarde in het veld Naam.
-15. Klik op Nieuw.
-16. Markeer in de lijst de geselecteerde rij.
-17. Typ of selecteer een waarde in het veld Kleur.
-18. Typ een waarde in het veld Naam.
-19. Klik op Opslaan.
-20. Sluit de pagina.
+Om dit scenario uit te voeren met de hier gegeven waarden, moeten demogegevens zijn geïnstalleerd en moet u de rechtspersoon *USMF* selecteren.
 
-## <a name="generate-product-variants"></a>Productvarianten genereren
-1. Klik op Productvarianten.
-2. Klik op Variantsuggesties.
-3. Klik op Alles selecteren.
-    * In dit voorbeeld worden alle mogelijke varianten geselecteerd. Als alleen een subset van de mogelijke productdimensiecombinaties wordt gebruikt om varianten te maken, kunt u de afzonderlijke items selecteren.  
-4. Klik op Maken.
-    * U kunt omschrijvingen voor al uw varianten genereren op basis van de combinatie van productdimensiewaarden. De omschrijvingen zijn optioneel.  
-5. Klik op Opslaan.
+### <a name="step-1-create-a-product-master"></a>Stap 1: Een productmodel maken
 
+U maakt als volgt een productmodel:
+
+1. Ga naar **Productgegevensbeheer > Producten > Productmodellen**.
+1. Selecteer **Nieuw**.
+1. Als er in het veld **Productnummer** nog geen nummer staat, voert u een waarde in. Deze stap is alleen vereist als er geen nummerreeks voor dit veld is ingesteld.
+1. Voer in het vak **Productnaam** een naam in.
+1. Selecteer in het veld **Productdimensiegroep** de productdimensiegroep *SizeCol* (Maat en Kleur).
+1. Selecteer **OK** om het nieuwe productmodel te maken en te openen.
+
+### <a name="step-2-add-product-dimensions"></a>Stap 2: Productdimensies toevoegen
+
+Dit voorbeeld toont hoe productdimensies handmatig worden ingevoerd. U kunt er ook voor kiezen een grootte, kleur of stijlgroep te selecteren die de productdimensiewaarden bevat die u wilt gebruiken.
+
+U voegt als volgt productdimensies toe:
+
+1. Als uw nieuwe productmodel nog steeds geopend is, selecteert u **Productdimensies** in het actievenster.
+1. Open het tabblad **Grootte** en selecteer **Nieuw** op de werkbalk om een rij aan het raster toe te voegen. Voer voor de nieuwe rij de volgende instellingen in:
+    - **Grootte**: selecteer een berekeningswaarde.
+    - **Naam**: voer een naam in voor de grootte.
+1. Selecteer **Nieuw** op de werkbalk en voeg een tweede grootte aan het raster toe met een nieuwe **Grootte** en **Naam**.
+1. Open het tabblad **Kleuren** en selecteer **Nieuw** op de werkbalk om een rij aan het raster toe te voegen. Voer voor de nieuwe rij de volgende instellingen in:
+    - **Kleur**: selecteer een kleurwaarde.
+    - **Naam**: voer een naam in voor de kleur.
+1. Selecteer **Nieuw** op de werkbalk en voeg een tweede kleur aan het raster toe met een nieuwe **Kleur** en **Naam**.
+1. Selecteer **Opslaan**.
+1. Sluit de pagina en ga terug naar uw nieuwe productmodel.
+
+### <a name="step-3-generate-product-variants"></a>Stap 3: Productvarianten genereren
+
+> [!NOTE]
+> In deze sectie wordt beschreven hoe u productvarianten genereert wanneer de functie *Verbeteringen voor de pagina Variantsuggesties* niet is ingeschakeld. In het volgende gedeelte leest u meer over het genereren van productvarianten wanneer die functie beschikbaar is.
+
+U genereert als volgt productvarianten:
+
+1. Als uw nieuwe productmodel nog steeds geopend is, selecteert u **Productvarianten** in het actievenster.
+1. Selecteer **Variantsuggesties** in het actievenster.
+1. Er wordt een lijst gegenereerd met alle mogelijke combinaties van grootten en kleuren die u voor het product hebt gedefinieerd. Selecteer **Alles selecteren** op de werkbalk.
+    - In dit voorbeeld selecteert u alle mogelijke varianten. Als u alleen een subset van de mogelijke productdimensiecombinaties wilt gebruiken, schakelt u alleen waar nodig de vereiste selectievakjes in.  
+1. Selecteer **Maken**.
+1. Selecteer **Opslaan**.
+
+## <a name="improved-variant-suggestions"></a>Verbeterde variantsuggesties
+
+De functie *Verbeteringen voor de pagina Variantsuggesties* verbetert de pagina **Variantsuggesties**, zodat prestatie- en bruikbaarheidsproblemen worden verholpen voor bedrijven die combinaties van productdimensies hebben. Het verbeterde proces voor selectie van de productdimensiewaarden waarvoor variantsuggesties moeten worden gegenereerd, maakt het sneller en eenvoudiger om de relevante set productvarianten te identificeren en vrij te geven.
+
+De functie voegt de volgende verbeteringen toe:
+
+- **Uitgestelde generatie van variantsuggesties**: Op de pagina **Variantsuggesties** worden geen suggesties meer weergegeven wanneer u deze voor het eerst opent. In plaats daarvan moet u expliciet kiezen welke waarden u nodig hebt en vervolgens op de knop **Voorstellen** klikken om de combinaties te genereren. Hierdoor wordt het proces zichtbaarder en interactiever.
+- **Selectie van dimensiewaarden**: Wanneer u veel dimensiewaarden hebt, bent u meestal geïnteresseerd in het genereren van variantsuggesties die slechts enkele daarvan bevatten (bijvoorbeeld wanneer u een nieuwe reeks kleuren of stijlen wilt introduceren). Met het verbeterde ontwerp kunt u de dimensiewaarden selecteren waarvoor u productvariantsuggesties wilt genereren. Hierdoor wordt de voorgestelde varianten aanzienlijk relevanter en worden de systeemprestaties en de productiviteit van de gebruiker verbeterd.
+
+### <a name="turn-the-variant-suggestions-page-improvements-feature-on-or-off"></a>De functie Verbeteringen voor de pagina Variantsuggesties in- of uitschakelen
+
+Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Verbeteringen voor pagina met variantsuggesties* in de werkruimte [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+### <a name="work-with-the-improved-variant-suggestions"></a>Werken met de verbeterde variantsuggesties
+
+U genereert als volgt productvarianten wanneer de functie *Verbeteringen voor de pagina Variantsuggesties* is ingeschakeld:
+
+1. Open of maak een productmodel en voeg hieraan de vereiste productdimenssie toe, zoals beschreven in de vorige sectie.
+1. Als het productmodel geopend is, selecteert u **Productvarianten** in het actievenster.
+1. Selecteer **Variantsuggesties** in het actievenster.
+1. Selecteer de waarden die u wilt gebruiken voor elk van de dimensies.
+1. Selecteer **Voorstellen** op de bovenste werkbalk.
+1. Er wordt een lijst gegenereerd met alle mogelijke combinaties van grootten en kleuren die u hebt geselecteerd. Schakel op het sneltabblad **Voorgestelde varianten** het selectievakje in voor elke productdimensiecombinatie die u wilt gebruiken of selecteer **Alles selecteren** op de werkbalk om ze allemaal te selecteren.  
+1. Selecteer **Maken** om de varianten aan het huidige productmodel toe te voegen.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,39 +1,33 @@
 ---
 title: Een profiel voor e-mailmeldingen instellen
 description: In dit onderwerp wordt beschreven hoe u een profiel voor e-mailmeldingen maakt in Microsoft Dynamics 365 Commerce.
-author: samjarawan
-manager: annbe
-ms.date: 03/31/2020
+author: bicyclingfool
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: samjar
+ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c0ab56c15a37313d0a88b1174d5bcf51d391dcec
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9f7adffd67e8198d16e4f7ed4fc4aadf59071b1d
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411290"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109626"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Een profiel voor e-mailmeldingen instellen
-
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u een profiel voor e-mailmeldingen maakt in Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Overzicht
-
-Voordat u kanalen gaat maken, moet u een profiel instellen om ervoor te zorgen dat e-mailmeldingen kunnen worden verzonden voor verschillende gebeurtenissen, zoals het maken van orders, het verzenden van orders en het mislukken van de betaling.
+Wanneer u kanalen maakt, kunt u een e-mailmeldingsprofiel instellen. Met het e-mailmeldingsprofiel worden de gebeurtenissen van een verkooptransactie gedefinieerd (zoals de gebeurtenissen gemaakte order, verpakte order en gefactureerde order) waarvoor u meldingen naar uw klanten verzendt. 
 
 Zie [E-mail configureren en verzenden](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json) voor meer informatie over het configureren van e-mail.
 
@@ -49,7 +43,7 @@ Voer de volgende stappen uit om een e-mailmeldingsprofiel te maken.
 
 ### <a name="create-an-email-template"></a>Een e-mailsjabloon maken
 
-Voordat een e-mailmelding kan worden gemaakt, moet u een e-mailsjabloon voor de organisatie maken die de e-mailgegevens van de afzenders en de e-mailsjabloon bevat.
+Voordat een e-mailmeldingstype kan worden ingeschakeld, moet u een e-mailsjabloon voor de organisatie maken in Commerce Headquarters voor elk meldingstype dat u wilt ondersteunen. Met deze sjabloon definieert u het onderwerp van het e-mailbericht, de afzender, de standaardtaal en de hoofdtekst van de e-mail voor elke ondersteunde taal.
 
 Volg deze stappen om een e-mailsjabloon te maken.
 
@@ -59,13 +53,15 @@ Volg deze stappen om een e-mailsjabloon te maken.
 1. Voer in het veld **Naam afzender** de naam van de afzender in.
 1. Voer in het veld **Beschrijving van e-mail** een betekenisvolle beschrijving in.
 1. Voer in het veld **E-mailadres afzender** het e-mailadres van de afzender in.
-1. Vul in de sectie **Algemeen** alle optionele informatie in die nodig is (zoals de e-mailprioriteit).
+1. Selecteer in de sectie **Algemeen** een standaardtaal voor de e-mailsjabloon. De standaardtaal wordt gebruikt als er geen gelokaliseerde sjabloon voor de opgegeven taal bestaat.
 1. Vouw de sectie **Inhoud van e-malbericht** uit en selecteer **Nieuw** om de sjablooninhoud te maken. Selecteer voor elk inhoudsitem de taal en geef de onderwerpregel van het e-mailbericht op. Als het e-mailbericht tekst bevat, controleert u of het vak **Heeft hoofdtekst** is ingeschakeld.
 1. Selecteer **E-mailbericht** in het actievenster om een sjabloon voor e-mailteksten op te geven.
 
 De volgende afbeelding toont enkele voorbeelden van e-mailsjablooninstellingen.
 
-![Instellingen van e-mailsjabloon](media/email-template.png)
+![Instellingen van e-mailsjabloon.](media/email-template.png)
+
+Zie [E-mailsjablonen maken voor transactiegebeurtenissen](email-templates-transactions.md) voor meer informatie over het maken van e-mailsjablonen. 
 
 ### <a name="create-an-email-event"></a>Een e-mailgebeurtenis maken
 
@@ -80,12 +76,27 @@ Volg deze stappen om een e-mailgebeurtenis te maken.
 
 De volgende afbeelding toont enkele voorbeelden van instellingen voor meldingen van meldingen.
 
-![Instellingen voor melding van gebeurtenissen](media/email-notification-profile.png)
+![Instellingen voor melding van gebeurtenissen.](media/email-notification-profile.png)
+
+> [!NOTE]
+> Voor het type door de klant gemaakte melding moet u een aanpassing doorvoeren voordat een e-mailmelding kan worden verzonden.
+
+### <a name="schedule-a-recurring-email-notification-process-job"></a>Een terugkerende taak voor het verwerken van e-mailmeldingen plannen
+
+Als u e-mailmeldingen wilt verzenden, moet de taak **E-mailmelding voor detailhandelorder verwerken** worden uitgevoerd.
+
+Volg deze stappen om de taak **E-mailmelding voor detailhandelorder verwerken** in Commerce Headquarters in te stellen als u dit nog niet hebt gedaan.
+
+1. Ga naar **Retail en commerce \> IT retail en commerce \> E-mail en meldingen \> E-mailmelding verzenden**.
+1. Selecteer **Terugkeerpatroon** in het dialoogvenster **E-mailmelding voor detailhandelorder verwerken**.
+1. Selecteer **Geen einddatum** in het dialoogvenster **Terugkeerpatroon definiëren**.
+1. Selecteer **Minuten** onder **Terugkeerpatroon** en stel het veld **Aantal** in op **1**. Met deze instellingen zorgt u ervoor dat e-mailmeldingen zo snel mogelijk worden verwerkt.
+1. Selecteer **OK** om terug te keren naar het dialoogvenster **E-mailmelding voor detailhandelorder verwerken**.
+1. Selecteer **OK** om het instellen van de taak af te ronden.
 
 ### <a name="next-steps"></a>Volgende stappen
 
 Voordat u e-mailberichten kunt verzenden, moet u de service voor uitgaande e-mail configureren en een batchtaak instellen. Zie [E-mail configureren en verzenden](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json) voor meer informatie.
-
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
@@ -96,3 +107,6 @@ Voordat u e-mailberichten kunt verzenden, moet u de service voor uitgaande e-mai
 [Vereisten voor het instellen van kanalen](channels-prerequisites.md)
 
 [Overzicht van Organisaties en organisatiehiërarchieën](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

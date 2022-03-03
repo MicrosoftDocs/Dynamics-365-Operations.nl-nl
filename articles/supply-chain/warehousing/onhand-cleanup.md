@@ -2,11 +2,9 @@
 title: Taak voor het opruimen van voorhanden artikelen in magazijnbeheer
 description: Dit onderwerp beschrijft de taak voor het opruimen van voorhanden artikelen, waardoor de systeemprestaties worden verbeterd door gerelateerde maar onnodige records te identificeren en te verwijderen.
 author: perlynne
-manager: tfehr
 ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
@@ -14,15 +12,17 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: f045b9686bbdfcf3e82f5158f0fd28860354b7d7
-ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: b2bdfb7fa0c9c4d9e1f630a41357dc405f0082bc
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014478"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103858"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Taak voor het opruimen van voorhanden artikelen in magazijnbeheer
+
+[!include [banner](../includes/banner.md)]
 
 De prestaties van query's die worden gebruikt om de voorhanden voorraad te berekenen, worden beïnvloed door het aantal records in de desbetreffende tabellen. Een manier om de prestaties te verbeteren is om het aantal records te verminderen dat moet worden doorzocht.
 
@@ -58,7 +58,7 @@ De prestatieverbetering die de opschoningstaak oplevert moet deze kleine verliez
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>De instelling voor maximale uitvoeringstijd beschikbaar maken
 
-De instelling **Maximale uitvoeringstijd** is standaard niet beschikbaar. Als u deze functie wilt gebruiken, moet u [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de gerelateerde functie in uw systeem in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
+De instelling **Maximale uitvoeringstijd** is alleen beschikbaar als de functie *Maximale uitvoeringstijd voor het opschonen van de vermeldingen van voorhanden voorraad voor magazijnbeheer* is ingeschakeld. Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Maximale uitvoeringstijd voor het opschonen van de vermeldingen van voorhanden voorraad voor magazijnbeheer* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- **Module:** *Magazijnbeheer*
-- **Functienaam:** *Maximale uitvoeringstijd voor de taak voor het opruimen van voorhanden artikelen in magazijnbeheer*
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: Validatie van factuurvereffening instellen voor leveranciers
 description: Dit onderwerp biedt informatie over het instellen van validatie van factuurvereffening voor leveranciers.
 author: abruer
-manager: AnnBe
-ms.date: 06/26/2019
+ms.date: 02/14/2022
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendParameters
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a101edd9e25fba1aa2325cb2193c6ea56282c9d1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 602666df4cf015791398939a3067a2cae85a12eb
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441904"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182550"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Validatie van factuurvereffening instellen voor leveranciers
 
@@ -57,7 +54,7 @@ Er zijn vier verschillende typen vereffeningsvalidatie beschikbaar.
 12. Voer in het veld **Tolerantie totale inkoopprijs** een bedrag in de valuta voor boekhouding in. Dit veld is beschikbaar als **Totaalprijzen vereffenen** is ingesteld op **Bedrag** of **Percentage en bedrag**.
 13. Selecteer in het veld **Pictogram voor totaalprijsvereffening weergeven** of een pictogram wordt weergegeven als een verschil voor factuurvereffening groter is dan de tolerantie voor de nettoprijs per eenheid. U kunt kiezen om het pictogram weer te geven als een positieve discrepantie groter is dan de tolerantie, of wanneer een positieve of een negatieve discrepantie de tolerantie overschrijdt.
 Bijvoorbeeld: de tolerantie is 5 procent en de totale artikelprijs op de inkooporder is 10,00. Daarom wordt een pictogram voor prijsvereffening weergegeven als de totale artikelprijs op de factuur hoger is dan 10,50. Als u **Indien groter of kleiner dan tolerantie** selecteert, wordt het pictogram ook weergegeven als de totale artikelprijs op de factuur minder dan 9,50 bedraagt.
-13. Stel de vereffening van toeslagen in.
+13. Stel de **vereffening van toeslagen** in.
 14. Als u feitelijke kosten wilt vereffenen met de verwachte kosten, gebaseerd op de informatie in de inkooporder, schakelt u het selectievakje **Vereffening van toeslagen** in.
 
 ## <a name="set-up-unit-price-tolerance-percentages"></a>Tolerantiepercentages voor eenheidsprijzen instellen
@@ -78,7 +75,7 @@ Standaard zijn negatieve prijsverschillen toegestaan. U kunt echter geen negatie
 
 ## <a name="set-up-matching-policy-override"></a>Overschrijven van overeenstemmingsbeleid instellen
 
-Ga naar **Leveranciers > Instellen > Instelling van factuurvereffening > Overeenstemmingbeleid** om de standaardinvoer voor het veld Overeenstemmingbeleid voor regels in het formulier Inkooporder op te geven. Deze instelling is optioneel. Met dit formulier kunt u tweeweg- of drieweg-overeenstemming instellen voor artikelen, leveranciers of combinaties van artikelen en leveranciers. Hiermee kunt u een nauwkeuriger overeenstemmingsbeleid definiëren dan het overeenstemmingsbeleid voor rechtspersonen dat u hebt gedefinieerd op de pagina **Parameters van module Leveranciers**. Het standaard regelovereenstemmingsbeleid voor rechtspersonen is van toepassing op alle artikelen en leveranciers, met uitzondering van artikelen en leveranciers waarvoor een ander regelovereenstemmingsbeleid is opgegeven op deze pagina.
+Ga naar **Leveranciers > Instellen > Instelling van factuurvereffening > Overeenstemmingbeleid** om de standaardinvoer voor het veld **Overeenstemmingbeleid** voor regels op de pagina **Inkooporder** op te geven. Deze instelling is optioneel. Op deze pagina kunt u tweeweg- of drieweg-overeenstemming instellen voor artikelen, leveranciers of combinaties van artikelen en leveranciers. Hiermee kunt u een nauwkeuriger overeenstemmingsbeleid definiëren dan het overeenstemmingsbeleid voor rechtspersonen dat u hebt gedefinieerd op de pagina **Parameters van module Leveranciers**. Het standaard regelovereenstemmingsbeleid voor rechtspersonen is van toepassing op alle artikelen en leveranciers, met uitzondering van artikelen en leveranciers waarvoor een ander regelovereenstemmingsbeleid is opgegeven op deze pagina.
 
 Selecteer op deze pagina **Niveau overeenstemmingsbeleid**. Selecteer het niveau in de hiërarchie voor het overeenstemmingsbeleid waarvoor u het regelovereenstemmingsbeleid wilt instellen.
 
@@ -98,3 +95,6 @@ G naar **Leveranciers > Instellen > Instelling van factuurvereffening > Tolerant
 
 1. Als u toleranties voor individuele leveranciers wilt instellen die de standaardtolerantie overschrijven, selecteer u **Leverancier**.
 2. Voer het afwijkingspercentage in dat u voor deze leverancier accepteert.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 686600e857c7b5aab74d80b7bc31c6bbaaf8d2336d57ff5839752d0ff33def84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: af3a646e24976d50f83d8564e3006fc2c50d8e2a
+ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741675"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8313562"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Een relatief pad gebruiken in gegevensbindingen van ER-modellen en -indelingen
 
@@ -26,8 +26,8 @@ ms.locfileid: "6741675"
 
 Met het hulpprogramma voor Elektronische rapportage (ER) kunnen gebruikers elektronische indelingsstructuren definiëren en vervolgens beschrijven hoe deze structuren moeten worden gevuld met behulp van gegevens en algoritmen die in de toepassing bestaan. Zie [ER-configuraties (Elektronische rapportage) maken](electronic-reporting-configuration.md) voor meer informatie. Als u de gegevensstroom wilt opgeven voor het ophalen van gegevens uit Finance and Operations en het gebruik ervan om een elektronisch document te genereren, moet u het volgende doen:
 
-- De geconfigureerde gegevensbronnen binden aan elementen van het ontworpen domeinspecifieke [gegevensmodel](general-electronic-reporting.md#data-model-and-model-mapping-components). De modelstructuur en de geselecteerde gegevensbronnen kunnen deel uitmaken van een complexe hiërarchische structuur. Hierdoor kunnen eindbindingen vrij groot zijn en vele elementen van verschillende typen bevatten (bijvoorbeeld relaties, tabellen en methoden). De bindingen kunnen minder goed leesbaar worden en zijn zeer ingewikkeld om te controleren en te begrijpen, vooral voor niet-eigenaars. 
-- Gegevensmodelelementen binden met [indelingscomponenten](general-electronic-reporting.md#FormatComponentOutbound) om te definiëren welke gegevens uit het gegevensmodel de gegenereerde indelingsoutput zullen vullen.
+- De geconfigureerde gegevensbronnen binden aan elementen van het ontworpen domeinspecifieke gegevensmodel. De modelstructuur en de geselecteerde gegevensbronnen kunnen deel uitmaken van een complexe hiërarchische structuur. Hierdoor kunnen eindbindingen vrij groot zijn en vele elementen van verschillende typen bevatten (bijvoorbeeld relaties, tabellen en methoden). De bindingen kunnen minder goed leesbaar worden en zijn zeer ingewikkeld om te controleren en te begrijpen, vooral voor niet-eigenaars. 
+- Gegevensmodelelementen binden met indelingscomponenten om te definiëren welke gegevens uit het gegevensmodel de gegenereerde indelingsoutput zullen vullen.
 
 De functie [relatief pad](er-formula-language.md#relative-path) is vrijgegeven om de bruikbaarheid van ontwerpers van ER‑toewijzing te verbeteren. De optie voor relatieve padweergave is standaard ingeschakeld voor elk nieuw exemplaar van de toepassing waarvoor de ER‑ontwerpervaring is ingeschakeld (Microsoft Dynamics 365 Finance, Microsoft Regulatory Configuration Service). We hebben de relatieve pad parameter geïmplementeerd, zodat gebruikers het volledige pad kunnen blijven gebruiken wanneer ze met deze weergave van ER-bindingen werken.
 

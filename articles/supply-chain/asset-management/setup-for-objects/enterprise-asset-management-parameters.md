@@ -1,12 +1,10 @@
 ---
 title: Parameters voor activabeheer
 description: In Activabeheer moeten algemene parameters met betrekking tot activa, werkorders en de planning van werkorders worden ingesteld.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e4b76ba90ab03cd35e72eff8acc89f780659fa5
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 1659fd3b4c173ffe09f245631309d329bba5b1bd
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020648"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105484"
 ---
 # <a name="asset-management-parameters"></a>Parameters voor activabeheer
 
@@ -51,7 +49,7 @@ Het tabblad **Werkorders** biedt de volgende instellingen:
 - **Standaard werkordertype** definieert standaardinstellingen bij het maken van een werkorder.  
 - **Preventief werkordertype** definieert het type werkorder dat wordt gebruikt bij het maken van werkorders op basis van onderhoudsplannen. Als dit veld leeg blijft, wordt het werkordertype in het veld **Standaard werkordertype** gebruikt.  
 - In het veld **Verwant werkordermasker** definieert u het maximumaantal werkorders dat aan een werkorder kan worden gekoppeld. Met ## kunt u bijvoorbeeld maximaal 99 verwante werkorders hebben. Als u een masker definieert zoals hier wordt beschreven, worden gerelateerde werkorders genummerd [werkorder-id van de werkorder waaraan een werkorder is gerelateerd]-01, -02, -03 enzovoort. Als u geen masker in dit veld definieert, krijgt een verwante werkorder de volgende sequentiële werkorder-id.  
-- Selecteer **Ja** bij **Fouten kopiëren** als u automatisch fouten die zijn geregistreerd voor werkorders wilt kopiëren naar gerelateerde onderhoudsaanvragen. 
+- Selecteer **Ja** bij **Fouten kopiëren** als u automatisch geregistreerde fouten voor onderhoudsverzoeken wilt kopiëren naar gerelateerde werkorders. 
 - In het veld **Niveau** definieert u het functionele locatieniveau dat automatisch in een werkorder wordt ingevoegd als alle gerelateerde werkordertaken naar dezelfde functionele locatie verwijzen. Als de werkordertaken niet allemaal betrekking hebben op dezelfde functionele locatie op het gedefinieerde niveau, wordt het veld **Functionele locatie** leeg gelaten in de werkorder. Als u bijvoorbeeld het cijfer '1' in dit veld invoegt, is dat het hoogste niveau in een functionele locatiestructuur. Als u het cijfer '0' in dit veld invoegt, hebt u geen specifiek functioneel locatieniveau gedefinieerd, maar alleen aangegeven dat de functionele locatie alleen aan de werkorder wordt toegevoegd als alle werkordertaken in een werkorder aan dezelfde functionele locatie zijn gerelateerd.  
 - Journalen die worden gebruikt bij het boeken van verbruik in een werkorder kunnen worden geselecteerd op het sneltabblad **Algemeen** in de velden **Uur**, **Artikel** en **Onkosten**.  
 - Selecteer in het veld **Producttaalbron** welke taal moet worden gebruikt voor productnamen in rapporten van Activabeheer. U kunt de taal selecteren die is ingesteld op de bedrijfsrekening of de taal die is ingesteld voor de gebruiker die momenteel is aangemeld.  
@@ -101,8 +99,11 @@ De velden die worden beschreven in de volgende lijst hebben betrekking op bereke
 
 ## <a name="the-document-types-tab"></a>Het tabblad Documenttypen
 
-Selecteer de documenttypen die beschikbaar moeten zijn voor het afdrukken van bijlagen met betrekking tot een werkorderrapport. Dit wordt gedaan door een documenttype te selecteren in de sectie **Beschikbaar** en de ![pijl naar voren](media/15-setup-for-objects.png) te selecteren. Als u een geselecteerd documenttype wilt verwijderen, selecteert u het documenttype in de sectie **Geselecteerd** en selecteert u de ![pijl terug](media/16-setup-for-objects.png).
+Selecteer de documenttypen die beschikbaar moeten zijn voor het afdrukken van bijlagen met betrekking tot een werkorderrapport. Dit wordt gedaan door een documenttype te selecteren in de sectie **Beschikbaar** en de ![pijl naar voren.](media/15-setup-for-objects.png) te selecteren. Als u een geselecteerd documenttype wilt verwijderen, selecteert u het documenttype in de sectie **Geselecteerd** en selecteert u de ![pijl terug](media/16-setup-for-objects.png).
 
 ## <a name="the-number-sequences-tab"></a>Het tabblad Nummerreeksen
 
 Selecteer de vereiste nummerreeksen in deze sectie. Er zijn twee nummerreeksen voor activa: de ene voor handmatig gemaakte activa en de andere voor activa die zijn gemaakt via in behandeling zijnde activa.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,26 +1,23 @@
 ---
 title: Parameters voor kredietbeheer instellen
 description: In dit onderwerp worden de opties beschreven die u kunt gebruiken om kredietbeheer te configureren om tegemoet te komen aan de vereisten van uw bedrijf.
-author: mikefalkner
-manager: AnnBe
-ms.date: 08/03/2020
+author: JodiChristiansen
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0b25bbeb270f33d1d158de2091ab86e7e98be98a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d8bc4f0a981b75c1b65d51aa1d8fada9c2187e22
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441928"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323405"
 ---
 # <a name="credit-management-parameters-setup"></a>Parameters voor kredietbeheer instellen
 
@@ -34,7 +31,7 @@ Er zijn vier sneltabbladen in de sectie **Krediet** waar u de parameters voor kr
 
 ### <a name="credit-holds"></a>Kredietblokkeringen
 
-- Stel de optie **Toestaan dat verkooporderwaarde wordt bewerkt nadat orderwachtstand is vrijgegeven** in op **Nee** om te vereisen dat de boekingsregels opnieuw worden gecontroleerd als de verkooporderwaarde (de berekende prijs) is verhoogd nadat de verkooporder is vrijgegeven vanuit de wachtstandenlijst. .
+- Stel de optie **Toestaan dat verkooporderwaarde wordt bewerkt nadat orderwachtstand is vrijgegeven** in op **Nee** om te vereisen dat de boekingsregels opnieuw worden gecontroleerd als de verkooporderwaarde (de berekende prijs) is verhoogd nadat de verkooporder is vrijgegeven vanuit de wachtstandenlijst.
 - Selecteer in het veld **Redenen voor geannuleerde orders** de reden van de vrijgave die standaard wordt gebruikt wanneer een verkooporder wordt geannuleerd die in de wachtstand voor kredietbeheer stond.
 - Stel de optie **Kredietlimiet van kredietgroepen van klant controleren** in op **Ja** als u de kredietlimiet van een kredietgroep van klant wilt controleren wanneer de klant voor een verkooporder tot een kredietgroep van klant behoort. De kredietlimiet voor de groep wordt gecontroleerd en als deze voldoende is, wordt de kredietlimiet voor de klant gecontroleerd.
 - Stel de optie **Kredietlimiet controleren wanneer betalingsvoorwaarden veranderen** in op **Ja** als u wilt dat de classificatie van de betalingsvoorwaarden wordt gecontroleerd om na te gaan of de betalingsvoorwaarden op de verkooporder verschillen van de standaardbetalingsvoorwaarden voor de klant. Als de nieuwe betalingsvoorwaarden een hogere classificatie hebben dan de oorspronkelijke betalingsvoorwaarden, wordt de order in de wachtstand voor kredietbeheer geplaatst.
@@ -53,7 +50,8 @@ U kunt ook het aantal respijtdagen definiëren voordat de kredietregels opnieuw 
 
 Als u het aantal respijtdagen niet opgeeft, worden de kredietregels gecontroleerd bij elke boekingsstap die is ingesteld voor het uitvoeren van regels voor kredietbeheer. Als u de verkooporder vrijgeeft zonder boeking en vervolgens weer dezelfde orderverwerkingsstap uitvoert, worden de kredietregels opnieuw gecontroleerd. Stel, een order wordt na een bevestiging in de wachtstand gezet, en u geeft deze vervolgens vrij met of zonder boeking. In dat geval wordt de order opnieuw in de wachtstand gezet als u deze opnieuw bevestigt. Gebruik respijtdagen als de order naar de volgende verwerkingsstap moet worden verplaatst zonder dat deze opnieuw in de wacht wordt gezet.
 
-Het is niet mogelijk om voor sommige boekingscontrolepunten wel respijtdagen op te geven en voor andere niet. U moet alle boekingscontrolepunten instellen met respijtdagen of u moet ze allemaal instellen zonder respijtdagen.
+> [!Note]
+> Als voor één boekingsperiode een respijtdag is ingevoerd, moeten alle boekingsdagen die zijn gemarkeerd voor boeking respijtdagen hebben.
 
 - Schakel het selectievakje **Boeking** in als u de regels voor kredietbeheer wilt uitvoeren wanneer het boekingscontrolepunt wordt uitgevoerd dat op de regel wordt weergegeven. Als u het selectievakje niet inschakelt, worden de regels slechts eenmaal tijdens het gehele boekingsproces gecontroleerd.
 - Als u het selectievakje **Boeking** inschakelt, geeft u het aantal respijtdagen op dat moet verstrijken voordat de blokkeerregels opnieuw worden gecontroleerd. U kunt geen respijtdagen toevoegen als het selectievakje **Boeking** is uitgeschakeld.
@@ -75,7 +73,14 @@ Diverse statistieken voor kredietbeheer zijn opgenomen in het feitenvak **Statis
 
 - In kredietbeheer wordt de kredietlimiet van de klant weergegeven in de valuta van de klant. U moet het wisselkoerstype voor de kredietlimiet opgeven in de valuta van de klant. Selecteer in het veld **Wisselkoerstype voor kredietlimiet** het type wisselkoers dat moet worden gebruikt om de primaire kredietlimiet om te zetten in de kredietlimiet van de klant.
 - Stel de optie **Handmatig bewerken van kredietlimieten toestaan** in op **Nee** als u wilt voorkomen dat gebruikers kredietlimieten op de pagina **Klant** kunnen bewerken. Als deze optie is ingesteld op **Nee**, kunnen wijzigingen in de kredietlimiet van een klant alleen worden gedaan door het boeken van kredietlimietcorrecties voor klant.
+- Stel de optie **Voorraadreserveringen overslaan** in op **Ja** om voorraadreserveringen te negeren wanneer de blokkeringsregels van creditbeheer worden gecontroleerd. In dit geval controleert het systeem volledige regelhoeveelheden en schakelt respijtperioden voor controlepunten in, ongeacht de voorraadreserveringshoeveelheid.
+- Wanneer Creditbeheer is ingeschakeld, wordt de instelling van het veld **Bericht bij overschrijding van kredietlimiet** gebruikt om alleen vrije-tekstfacturen te verwerken. Berichten worden nog steeds aan verkooporders toegevoegd wanneer de klant de kredietlimiet heeft overschreden, maar de aanwezigheid van die berichten zorgt er niet voor dat de bevestiging wordt geblokkeerd en dat het afdrukken van orderverzamellijsten en pakbonnen of het boeken van facturen wordt voorkomen.
+
+    Creditbeheer is standaard ingeschakeld, maar u kunt het uitschakelen. Als deze functie is ingeschakeld, gebruikt u de blokkeringsregels en controlepunten voor kredietbeheer om aan te geven wanneer klanten hun kredietlimiet hebben overschreden. Als deze is uitgeschakeld, kunt u door de berichten die aan verkooporders worden toegevoegd op basis van de instelling van het veld **Bericht bij overschrijding van kredietlimiet** aangeven wanneer klanten de kredietlimiet hebben overschreden.
 
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Nummerreeksen en parameters voor gedeelde nummerreeksen
 
 Een journaal-id is vereist om kredietlimietcorrecties te verwerken. U moet het nummer van de kredietlimietcorrectie toevoegen die moet worden gebruikt om de journaal-id te genereren.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

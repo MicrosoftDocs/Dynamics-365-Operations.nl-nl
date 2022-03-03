@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f5c9ba7079895feeb0c171f2021479587aa13cc9
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 21dd01448fcf6c2b3ca90a5476fad061bb0f55e4
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777661"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102734"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Uitgestelde verwerking van handmatige voorraadmutaties
 
@@ -32,10 +32,10 @@ De achtergrondverwerking wordt gerealiseerd met de functie [Gebeurtenissen van d
 
 Als u deze functie beschikbaar wilt maken, schakelt u de volgende functies in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in: U moet ze in deze volgende volgorde in- of uitschakelen:
 
-1. Werk blokkeren voor de hele organisatie (vanaf Supply Chain Management versie 10.0.21 is deze functie verplicht, waardoor deze standaard wordt ingeschakeld en niet meer kan worden uitgeschakeld.)
-1. Gebeurtenissen in magazijnapp verwerken
-1. Uitgestelde put-bewerkingen
-1. Uitgestelde verwerking van handmatige bewerking voor voorraadmutatie
+1. *Werk blokkeren voor de hele organisatie*<br>(Vanaf Supply Chain Management versie 10.0.21 is deze functie verplicht, waardoor deze standaard wordt ingeschakeld en niet meer kan worden uitgeschakeld.)
+1. *Gebeurtenissen in magazijnapp verwerken*<br>(Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld.)
+1. *Uitgestelde put-bewerkingen*
+1. *Uitgestelde verwerking van handmatige bewerking voor voorraadmutatie*<br>(Vanaf Supply Chain Management versie 10.0.25 is deze functie verplicht, waardoor deze standaard wordt ingeschakeld en niet meer kan worden uitgeschakeld.)
 
 ## <a name="configure-the-work-processing-policies"></a>Het beleid voor werkverwerking configureren
 

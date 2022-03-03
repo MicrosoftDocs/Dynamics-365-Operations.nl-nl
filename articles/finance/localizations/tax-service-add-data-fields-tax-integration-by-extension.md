@@ -2,7 +2,7 @@
 title: Gegevensvelden in de belastingintegratie toevoegen met extensies
 description: In dit onderwerp wordt uitgelegd hoe u X++-extensies gebruikt om gegevensvelden toe te voegen in de belastingintegratie.
 author: qire
-ms.date: 04/20/2021
+ms.date: 02/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8bdd56ebdd50c1eae98094725a01bf9c5ec52bb4e689eb282f80631810a65725
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: acbe8070424febf24883362448ea56857d9d72d9
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721653"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323518"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Gegevensvelden in de belastingintegratie toevoegen met extensies
 
@@ -353,15 +353,77 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
 }
 ```
 
-In deze code is `_destination` het wrapper-object dat wordt gebruikt om de boekingsaanvraag te genereren en is `_source` het `TaxIntegrationLineObject`-object. 
+In deze code is `_destination` het wrapper-object dat wordt gebruikt om de boekingsaanvraag te genereren en is `_source` het `TaxIntegrationLineObject`-object.
 
 > [!NOTE]
-> * Definieer de sleutel die in het aanvraagformulier wordt gebruikt als `private const str`.
-> * Stel het veld in de `copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine`-methode in met de `SetField`-methode. Het gegevenstype van de tweede parameter moet `string` zijn. Als het gegevenstype niet `string` is, converteert u het naar `string`.
+> Definieer de sleutel die in het aanvraagformulier wordt gebruikt als **private const str**. De tekenreeks moet exact gelijk zijn aan de naam van de meting die is toegevoegd in het onderwerp [Gegevensvelden toevoegen in belastingconfiguraties](tax-service-add-data-fields-tax-configurations.md).
+> Stel het veld in de methode **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** in op basis van de methode **SetField**. Het gegevenstype van de tweede parameter moet **string** zijn. Als het gegevenstype niet **string** is, converteert u het.
+> Als een **type opsomming** X++ wordt uitgebreid, moet u op het verschil tussen de waarde, het label en de naam letten.
+> 
+>   - De waarde van de opsomming is een geheel getal.
+>   - Het label van de opsomming kan in verschillende voorkeurstalen verschillend zijn. Gebruik niet **enum2Str** om het opsommingstype te converteren naar string.
+>   - De naam van de opsomming wordt aanbevolen omdat het een vaste naam is. **enum2Symbol** kan worden gebruikt om de opsomming te converteren naar de naam. De opsommingswaarde die in de belastingconfiguratie is toegevoegd, moet exact gelijk zijn aan opsommingsnaam.
+
+## <a name="model-dependency"></a>Modelafhankelijkheid
+
+Om het project te bouwen, voegt u de volgende referentiemodellen toe aan de modelafhankelijkheden:
+
+- ApplicationPlatform
+- ApplicationSuite
+- Belastingengine
+- Dimensies, als financiële dimensies worden gebruikt
+- Andere vereiste modellen waarnaar in de code wordt verwezen
+
+## <a name="validation"></a>Validatie
+
+Nadat u de vorige stappen hebt voltooid, kunt u de wijzigingen valideren.
+
+1. Ga in Finance naar **Leveranciers** en voeg **&debug=vs%2CconfirmExit&** toe aan de URL. Bijvoorbeeld https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&. De laatste **&** is essentieel.
+2. Open de pagina **Inkooporder** en selecteer **Nieuw** om een inkooporder te maken.
+3. Stel de waarde voor het aangepaste veld in en selecteer vervolgens **Btw**. Een probleemoplossingsbestand met het voorvoegsel **TaxServiceTroubleshootingLog** wordt automatisch gedownload. Dit bestand bevat de transactiegegevens die zijn geboekt naar de btw-berekeningsservice. 
+4. Controleer of het toegevoegde aangepaste veld aanwezig is in de sectie **JSON voor invoer voor berekening van btw-service** en of de waarde juist is. Als de waarde niet correct is, controleert u de stappen in dit document nogmaals.
+
+Voorbeeld van bestand:
+
+```
+===Tax service calculation input JSON:===
+{
+  "TaxableDocument": {
+    "Header": [
+      {
+        "Lines": [
+          {
+            "Line Type": "Normal",
+            "Item Code": "",
+            "Item Type": "Item",
+            "Quantity": 0.0,
+            "Amount": 1000.0,
+            "Currency": "EUR",
+            "Transaction Date": "2022-1-26T00:00:00",
+            ...
+            /// The new fields added at line level
+            "Cost Center": "003",
+            "Project": "Proj-123"
+          }
+        ],
+        "Amount include tax": true,
+        "Business Process": "Journal",
+        "Currency": "",
+        "Vendor Account": "DE-001",
+        "Vendor Invoice Account": "DE-001",
+        ...
+        // The new fields added at header level, no new fields in this example
+        ...
+      }
+    ]
+  },
+}
+...
+```
 
 ## <a name="appendix"></a>Bijlage
 
-In deze bijlage ziet u de volledige voorbeeldcode voor de integratie van financiële dimensies (**Kostenplaats** en **Project**) op regelniveau.
+In deze bijlage ziet u de volledige voorbeeldcode voor de integratie van de financiële dimensies (**Kostenplaats** en **Project**) op regelniveau.
 
 ### <a name="taxintegrationlineobject_extensionxpp"></a>TaxIntegrationLineObject_Extension.xpp
 

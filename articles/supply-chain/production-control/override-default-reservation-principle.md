@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 959b8b85fe55ed5e0a93b5b614c3f6166bbd2bb6ef07e9d0f0f4c2b1ea3c4659
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b12740e58b2bf8667bee8a2c51917d69771779f2
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721314"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103358"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Het standaardreserveringsprincipe voor materialen in de productie overschrijven
 
@@ -31,12 +31,9 @@ Wanneer u een nieuwe productieorder of batchorder maakt, wordt u gevraagd het re
 
 Als u bijvoorbeeld grondstoffen of ingrediënten hebt waarvoor orderverzameling is vereist, is voor de stuklijst- of formuleregels die voor deze producten worden gemaakt een fysieke reservering vereist, omdat fysieke reservering een vereiste is voor het genereren van magazijnwerk. Normaal gesproken kunt u, als u wilt dat de reservering automatisch wordt uitgevoerd, een van de volgende reserveringsprincipes selecteren: *raming*, *planning*, *vrijgave* of *begin*. Als u echter materialen of ingrediënten hebt waarvoor geen orderverzameling is vereist, omdat ze direct vanaf een locatie worden verbruikt, selecteert u doorgaans het *handmatige* reserveringsprincipe, waarmee geen fysieke reserveringen worden gemaakt of orderverzameling wordt gegenereerd.
 
-## <a name="turn-on-the-feature"></a>De functie inschakelen
+## <a name="turn-the-override-default-production-reservation-feature-on-or-off"></a>De functie Standaardproductiereservering overschrijven in- of uitschakelen
 
-Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
-
-- **Module:** *Productiebeheer*
-- **Functienaam**: *Standaardproductiereservering overschrijven*
+Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Standaardproductiereservering overschrijven* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Een productiereserveringsbeleid toewijzen aan een artikelmodelgroep
 

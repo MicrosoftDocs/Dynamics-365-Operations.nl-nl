@@ -1,30 +1,27 @@
 ---
-title: Werkgebied voor leveranciersfactuurregistratie
+title: Werkgebied voor automatisering van leveranciersfacturen
 description: In dit onderwerp wordt uitgelegd hoe u het werkgebied instelt dat is gerelateerd aan leveranciersfacturen en waar de gegevens worden weergegeven die beschikbaar zijn via Microsoft Power BI.
 author: abruer
-manager: AnnBe
-ms.date: 09/28/2020
+ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.assetid: ''
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a4ba676d9b6df69cf0a91862bcc4d2837b7cb69e
-ms.sourcegitcommit: 0efa93f11847a2b75d13cd0a49e716c76130ec44
+ms.openlocfilehash: f28cc5f63df2f0d8a4c8cae407f7166aa4fa03db
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4442122"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182574"
 ---
-# <a name="vendor-invoice-entry-workspace"></a>Werkgebied voor leveranciersfactuurregistratie
+# <a name="vendor-invoice-automation-workspace"></a>Werkgebied voor automatisering van leveranciersfacturen
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -33,11 +30,11 @@ In dit onderwerp wordt uitgelegd hoe u het werkgebied instelt dat is gerelateerd
 
 ## <a name="overview"></a>Overzicht
 
-In het werkgebied **Leveranciersfactuurregistratie** wordt informatie weergegeven die is gerelateerd aan de verwerking van leveranciersfacturen. Dit werkgebied bevat de weergave **Mijn werk** en de pagina **Analyse - alle bedrijven**. In de weergave **Mijn werk** vindt u overzichtstegels, rasters met leverancierstransacties en gerelateerde leveranciersgegevens. Op de pagina **Analyse - alle bedrijven** worden de mogelijkheden van Power BI gebruikt om visualisaties te tonen die zijn gerelateerd aan leveranciersfacturen.
+In het werkgebied **Automatisering van leveranciersfacturen** wordt informatie weergegeven die is gerelateerd aan de verwerking van leveranciersfacturen. Dit werkgebied bevat de weergave **Mijn werk** en de pagina **Analyse - alle bedrijven**. In de weergave **Mijn werk** vindt u overzichtstegels, rasters met leverancierstransacties en gerelateerde leveranciersgegevens. Op de pagina **Analyse - alle bedrijven** worden de mogelijkheden van Power BI gebruikt om visualisaties te tonen die zijn gerelateerd aan leveranciersfacturen.
 
 ## <a name="set-up-the-workspace-to-show-power-bi-content"></a>Het werkgebied zo instellen dat Power BI-inhoud wordt weergegeven
 
-U moet deze instelling voltooien voordat gegevens in Power BI-visualisaties in het werkgebied **Leveranciersfactuurregistratie** kunnen worden weergegeven.
+U moet deze instelling voltooien voordat gegevens in Power BI-visualisaties in het werkgebied **Automatisering van leveranciersfacturen** kunnen worden weergegeven.
 
 1. Filter in het werkgebied **Functiebeheer** de lijst om de functie **Automatisering van leveranciersfacturen** te vinden.
 3. Selecteer **Nu inschakelen**.
@@ -57,20 +54,20 @@ Als u de informatie wilt weergeven die in het werkgebied wordt weergegeven, moet
 
 ### <a name="company-selection"></a>Bedrijfsselectie
 
-Wanneer de functie **Leveranciersfacturen automatiseren** is ingeschakeld, wordt het veld **Bedrijf** boven aan het werkgebied weergegeven. De selectie in het veld **Bedrijf** is van invloed op alle informatie die in het werkgebied wordt weergegeven. In de weergave wordt standaard informatie weergegeven over het bedrijf waarbij u zich hebt aangemeld. Door een ander bedrijf te selecteren in het veld **Bedrijf** kunt u informatie over dat bedrijf weergeven in het werkgebied. U kunt vervolgens een tegel in het werkgebied selecteren om naar de gerelateerde pagina in het geselecteerde bedrijf te gaan.
+Wanneer de functie **Automatisering van leveranciersfacturen** is ingeschakeld, wordt het veld **Bedrijf** boven aan het werkgebied weergegeven. De selectie in het veld **Bedrijf** is van invloed op alle informatie die in het werkgebied wordt weergegeven. In de weergave wordt standaard informatie weergegeven over het bedrijf waarbij u zich hebt aangemeld. Door een ander bedrijf te selecteren in het veld **Bedrijf** kunt u informatie over dat bedrijf weergeven in het werkgebied. U kunt vervolgens een tegel in het werkgebied selecteren om naar de gerelateerde pagina in het geselecteerde bedrijf te gaan.
 
 ### <a name="summary-tiles"></a>Overzichtstegels
 
 De tegels in de sectie **Overzicht van facturen in behandeling** van de weergave **Mijn werk** geven een overzicht van de status van uw leveranciersfacturen. U kunt journalen zien die nog niet zijn geboekt en geblokkeerde facturen. Bovendien zijn er vier tegels die zijn gekoppeld aan de functie voor automatisering van leveranciersfacturen:
 
-- Handmatige ontvangstvereffening vereist
-- Validatie van vereffening mislukt
-- Facturen niet ingediend bij werkstroom
-- Facturen niet geïmporteerd
+- **Handmatige ontvangstvereffening vereist**
+- **Validatie van vereffening mislukt**
+- **Facturen niet ingediend bij werkstroom**
+- **Facturen niet geïmporteerd**
 
-(Voor deze vier tegels moet de functie Automatisering van leveranciersfacturen zijn ingeschakeld in Functiebeheer.)
+(Voor deze vier tegels moet de functie Automatisering van leveranciersfacturen zijn ingeschakeld in **Functiebeheer**.)
 
-Als u de tegel **Leveranciersfacturen herstellen** wilt gebruiken, moet de functie zijn ingeschakeld in de parameters van de module Leveranciers. Ga naar **Leveranciers \> Parameters van module Leveranciers** en stel vervolgens op het tabblad **Factuur** de optie **Herstellen van leveranciers toestaan** in op **Ja**.
+Als u de tegel **Leveranciersfacturen herstellen** wilt gebruiken, moet de functie zijn ingeschakeld in **Parameters van module Leveranciers**. Ga naar **Leveranciers \> Parameters van module Leveranciers** en stel vervolgens op het tabblad **Factuur** de optie **Herstellen van leveranciers toestaan** in op **Ja**.
 
 Wanneer de functie is ingeschakeld, worden ook drie tegels gegroepeerd in het werkgebied in een sectie met de naam **Journalen**. De tegels hebben de naam **Journalen**, **Journalen - toegewezen aan mij** en **Facturenpool**. 
 
@@ -117,3 +114,6 @@ In de volgende tabel ziet u de visualisaties die op elke rapportpagina beschikba
 | Facturen die niet kunnen worden geïmporteerd | <ul><li>Facturen die niet kunnen worden geïmporteerd</li><li>Facturen die niet kunnen worden geïmporteerd per bedrijf</li></ul> |
 | Redenen voor automatiseringsfout | <ul><li>Mislukte facturen</li><li>Mislukte facturen per bedrijf</li><li>Mislukte facturen per leveranciersgroep</li></ul> |
 | Werkstroomstatus                | <ul><li>Facturen in werkstroom</li><li>Werkstroomexemplaren leveranciersfacturen</li><li>Toewijzing per fiatteur</li><li>Leveranciersfacturenwerkstroom per bedrijf</li><li>Gemiddeld aantal dagen in workflow op fiatteur</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

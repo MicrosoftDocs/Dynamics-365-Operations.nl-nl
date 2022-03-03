@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 419e2b3b6bc5636aa75cf3ecc26e32ad22260a7e
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: dca0aba081321dff5ae061ebe4bddcae0e42bc54
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778102"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102758"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Standaard orderinstellingen voor dimensies en productvarianten
 
@@ -186,12 +186,9 @@ U kunt kiezen hoe strikt het systeem moet zijn bij het valideren van hoeveelhede
 
 Strikte validatie is van toepassing op **standaardorderhoeveelheden** die zijn opgegeven op de pagina's **Inkooporder**, **Voorraad** en **Verkooporder** van de pagina **Standaard orderinstellingen**. Elk sneltabblad heeft een eigen instelling **Meerdere**, die wordt gebruikt om de **standaardorderhoeveelheid** te valideren die voor dat sneltabblad is opgegeven.
 
-### <a name="enable-the-strict-validation-option"></a>De strikte validatieoptie inschakelen
+### <a name="turn-the-strict-validation-option-on-or-off"></a>De strikte validatieoptie in- of uitschakelen
 
-Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Beheerders kunnen gebruikmaken van de pagina [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en deze zo nodig in of uit te schakelen. Hier ziet u de functie als:
-
-- **Module** - *Productgegevensbeheer*
-- **Functienaam** - *Strikte validatie van standaardorderhoeveelheden*
+Om streng te valideren, moet de functie *Strikte validatie van standaardorderhoeveelheden* voor het systeem zijn ingeschakeld. Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunt u deze functionaliteit in- of uitschakelen door naar [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) te gaan en te zoeken naar de functie *Strikte validatie van standaardorderhoeveelheden*.
 
 ### <a name="set-the-validation-option"></a>De validatieoptie instellen
 

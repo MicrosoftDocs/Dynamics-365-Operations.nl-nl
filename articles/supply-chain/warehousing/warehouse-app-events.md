@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d1e648b5db9405e749fbd24502f65f344d0549b0f13b48e98c38d1476866db01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c92bf179006d668f8673e9abc3419a10e644184
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729981"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103258"
 ---
 # <a name="warehouse-app-event-processing"></a>Verwerking van gebeurtenissen in de app voor magazijnbeheer
 
@@ -26,16 +26,13 @@ ms.locfileid: "6729981"
 
 Batchtaken die worden uitgevoerd in Supply Chain Management kunnen gegevens uit een wachtrij verwerken voor de verwerking van gebeurtenissen die zijn uitgegeven door de mobiele app Magazijnbeheer om zo nodig te reageren op de gesignaleerde gebeurtenissen. Deze functie voegt relevante gebeurtenissen toe aan de wachtrij als reactie op bepaalde typen acties die door medewerkers met de app worden uitgevoerd. Een voorbeeld is dat bij gebruik van de functie *overboekingsorders maken en verwerken vanuit de app voor magazijnbeheer* de koptekst en regels van de overboekingsorder worden gemaakt en bijgewerkt in de back-end wanneer de batchtaak **Gebeurtenissen van de app voor magazijnbeheer verwerken** wordt uitgevoerd door het systeem.
 
-## <a name="enable-the-process-warehouse-app-events-feature"></a>De functie Gebeurtenissen van de app voor magazijnbeheer verwerken inschakelen
+## <a name="turn-the-process-warehouse-app-events-feature-on-or-off"></a>De functie Gebeurtenissen in magazijnapp verwerken in- of uitschakelen
 
-Voordat u deze functie kunt gebruiken, moet u deze inschakelen op uw systeem. Beheerders kunnen gebruikmaken van de pagina voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en deze zo nodig in te schakelen. De functie Gebeurtenissen van de app voor magazijnbeheer verwerken staat vermeld als:
-
-- **Module** - Magazijnbeheer
-- **Functienaam**: gebeurtenissen van de app voor magazijnbeheer verwerken
+Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Gebeurtenissen in magazijnapp verwerken* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-a-batch-job-to-process-warehouse-app-events"></a>Een batchtaak instellen om gebeurtenissen van de app voor magazijnbeheer te verwerken
 
-### <a name="process-warehouse-app-events"></a>Gebeurtenissen in app voor magazijnbeheer verwerken
+### <a name="process-warehouse-app-events"></a>Gebeurtenissen in magazijnapp verwerken
 
 Stel een geplande batc taak in om de gebeurtenissen van de app voor magazijnbeheer te verwerken voor het maken van overboekingsorders en regelupdates.
 

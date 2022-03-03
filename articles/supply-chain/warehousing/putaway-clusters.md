@@ -2,25 +2,22 @@
 title: Wegzetclusters
 description: Wegzetclusters bieden u de mogelijkheid om meerdere nummerplaten tegelijk te verzamelen en ze vervolgens mee te nemen om op verschillende locaties weg te zetten. Dit kan zeer nuttig zijn voor handelsbedrijven, waarbij de nummerplaten doorgaans geen volledige pallets met voorraad zijn.
 author: Mirzaab
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 6a330ddccbd17c92443232fc8488e36a59235773
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: d5aa579394a0e3bd4c27cd44c9ff98951b3bfe1c
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512325"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103658"
 ---
 # <a name="putaway-clusters"></a>Wegzetclusters
 
@@ -28,12 +25,9 @@ ms.locfileid: "4512325"
 
 Wegzetclusters bieden u de mogelijkheid om meerdere nummerplaten tegelijk te verzamelen en ze vervolgens mee te nemen om op verschillende locaties weg te zetten. Naar dit proces wordt vaak verwezen als een *milk run*. Wegzetclusters kunnen zeer nuttig zijn voor handelsbedrijven, waarbij de nummerplaten doorgaans geen volledige pallets met voorraad zijn. 
 
-## <a name="turn-on-the-cluster-putaway-feature"></a>De functie Cluster wegzetten inschakelen
+## <a name="turn-the-cluster-putaway-feature-on-or-off"></a>De functie Cluster wegzetten in- of uitschakelen
 
-Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen het werkgebied [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
-
-- **Module:** *Magazijnbeheer*
-- **Functie naam:** *functie Cluster wegzetten*
+Als u de functionaliteit wilt gebruiken die in dit onderwerp wordt beschreven, moet de functie *Cluster wegzetten* zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Cluster wegzetten* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup-for-the-example-scenario"></a>Instellingen voor het voorbeeldscenario
 
@@ -231,7 +225,7 @@ Dit scenario simuleert het verwerken van wegzetclusters.
 
 #### <a name="receive-and-sort-the-inventory-into-a-cluster"></a>De voorraad ontvangen en in een cluster sorteren
 
-1. Meld u aan bij de magazijnapp als een gebruiker die is ingesteld voor magazijn *61*.
+1. Meld u aan bij de mobiele app Magazijnbeheer als een gebruiker die is ingesteld voor magazijn *61*.
 1. Selecteer **Inkomend** in het hoofdmenu.
 1. Selecteer in het menu **Inkomend** de optie **Cluster ontvangen en sorteren**.
 1. Voer in het veld **Inkoopordernummer** het inkoopordernummer in.
@@ -273,7 +267,7 @@ Voordat de artikelen in het cluster kunnen worden weggezet, moet het cluster wor
 
 #### <a name="put-the-cluster-away"></a>Het cluster wegzetten
 
-1. Meld u aan bij de magazijnapp als een gebruiker die is ingesteld voor magazijn *61*.
+1. Meld u aan bij de mobiele app Magazijnbeheer als een gebruiker die is ingesteld voor magazijn *61*.
 1. Selecteer **Inkomend** in het hoofdmenu.
 1. Selecteer in het menu **Inkomend** de optie **Cluster wegzetten**.
 1. Selecteer **Cluster-id** en voer de cluster-id in die u eerder voor het gesloten cluster hebt ingevoerd.
@@ -287,7 +281,7 @@ Voordat de artikelen in het cluster kunnen worden weggezet, moet het cluster wor
 
     U hebt de standaardopties om deze stap te overschrijven of te negeren.
 
-    ![De pagina Cluster wegzetten: plaatsen](media/Cluster_putaway-Put.png "De pagina Cluster wegzetten: plaatsen")
+    ![De pagina Cluster wegzetten: plaatsen.](media/Cluster_putaway-Put.png "De pagina Cluster wegzetten: plaatsen")
 
 1. Selecteer **OK** om het wegzetten van het cluster te bevestigen.
 
@@ -296,3 +290,6 @@ Voordat de artikelen in het cluster kunnen worden weggezet, moet het cluster wor
 ## <a name="notes-and-tips"></a>Opmerkingen en tips
 
 Als de cluster-id de bovenliggende nummerplaat voor een genest pallet wordt, wordt de plaatsingspositie automatisch gegeven wanneer de cluster-id wordt gescand. Er moet geen verdere nummerplaat worden gescand, zelfs als het genereren van nummerplaten is ingesteld op handmatig.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

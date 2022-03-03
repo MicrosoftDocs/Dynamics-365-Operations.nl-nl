@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4b7c01a21dcbe7543332439ee6fd371b426851f4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b89a13e72816bbf140986bd5450d037cf2510753
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579923"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103508"
 ---
 # <a name="wave-creation-and-processing"></a>Waves maken en verwerken
 
@@ -190,9 +190,9 @@ Indien nodig, kunt u een wave annuleren die is verwerkt. Als u een wave en het g
 
 Gebruik de pagina **Details van batchtaak voor wave** om de batchtaken en gerelateerde taken te inspecteren die aan een wave zijn gekoppeld. Dit is vooral handig voor het oplossen van problemen met een wave die is mislukt. Zonder deze functie hebben alleen beheerders doorgaans toegang tot batchverwerkingsdetails. De pagina **Details van batchtaken voor wave** kan beschikbaar worden gesteld aan niet-beheerders en biedt een alleen-lezen weergave van batchtaken en gerelateerde taken.
 
-### <a name="enable-the-wave-batch-job-details-page"></a>De pagina Details van batchtaken voor wave inschakelen
+### <a name="turn-the-wave-batch-job-details-page-on-or-off"></a>De pagina Details van batchtaken voor wave in- of uitschakelen
 
-Als uw systeem nog niet de pagina **Details van batchtaken voor wave** bevat, gaat u naar [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de functie *Details van batchtaken voor wave* in.
+Vanaf Supply Chain Management versie 10.0.25 is de pagina **Details van batchtaken voor wave** standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Details van batchtaken voor wave* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="use-the-wave-batch-job-details-page"></a>De pagina Details van batchtaken voor wave gebruiken
 

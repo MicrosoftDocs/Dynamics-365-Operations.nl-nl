@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: cfabd6f544dca6f48448da4ef9ff8383c6583f8488a718a7c971ff7b39c1f2cb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f8e74902e939355aba9bbadd8e7f8f8aa46fe5c5
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737970"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323920"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Besturingselementen voor Word-inhoud onderdrukken in gegenereerde rapporten
 
 [!include [banner](../includes/banner.md)]
 
-Als u rapporten wilt genereren als Microsoft Word-documenten, moet u een sjabloon voor de rapporten ontwerpen als een Word-document. Deze sjabloon moet besturingselementen voor Word-inhoud bevatten als tijdelijke aanduidingen voor gegevens die tijdens runtime worden ingevuld. Als u het Word-document wilt gebruiken is gemaakt als sjabloon voor uw rapporten, kunt u een nieuwe [ER (elektronische rapportage)](general-electronic-reporting.md)-[oplossing](er-quick-start1-new-solution.md) [configureren](er-design-configuration-word.md). De oplossing moet een ER-[configuratie](general-electronic-reporting.md#Configuration) bevatten die een onderdeel voor [ER-indeling](general-electronic-reporting.md#FormatComponentOutbound) bevat. Deze ER-indeling moet worden geconfigureerd om de ontworpen sjabloon te gebruiken voor het genereren van een rapport.
+Als u rapporten wilt genereren als Microsoft Word-documenten, moet u een sjabloon voor de rapporten ontwerpen als een Word-document. Deze sjabloon moet besturingselementen voor Word-inhoud bevatten als tijdelijke aanduidingen voor gegevens die tijdens runtime worden ingevuld. Als u het Word-document wilt gebruiken is gemaakt als sjabloon voor uw rapporten, kunt u een nieuwe [ER (elektronische rapportage)](general-electronic-reporting.md)-[oplossing](er-quick-start1-new-solution.md) [configureren](er-design-configuration-word.md). De oplossing moet een ER-[configuratie](general-electronic-reporting.md#Configuration) bevatten die een onderdeel voor ER-indeling bevat. Deze ER-indeling moet worden geconfigureerd om de ontworpen sjabloon te gebruiken voor het genereren van een rapport.
 
 In versie 10.0.6 en hoger van Dynamics 365 Finance kunt u formules configureren in de ER-indeling om bepaalde besturingselementen voor Word-inhoud in gegenereerde documenten te onderdrukken.
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: banluo
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 7978c7b326ef1b62f76711ac187c28539eb1f449
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: 3da92c384d3074335067433120eccc97d11b6b81
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798316"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103935"
 ---
 # <a name="inventory-value-reports"></a>Voorraadwaardenrapporten
 
@@ -53,12 +53,9 @@ Het rapport **Opslag van voorraadwaardenrapport** is handig wanneer de uitvoer v
 > [!NOTE]
 > In het rapport **Opslag van voorraadwaardenrapport** worden geen subtotalen opgenomen die zijn gedefinieerd in de rapportindeling. Ook bevat deze optie geen grootboeksaldi, zelfs wanneer deze saldi zijn gedefinieerd in de rapportindeling. U moet de afstemming in het grootboek uitvoeren met behulp van proefbalansen. Het standaardrapport **Voorraadwaarde** bevat echter wel deze subtotalen en saldi.
 
-## <a name="turn-on-the-inventory-value-report-storage-feature"></a>De functie voor opslag van voorraadwaardenrapport inschakelen
+## <a name="turn-the-inventory-value-report-storage-feature-on-or-off"></a>De functie Opslag voorraadwaardenrapport in- of uitschakelen
 
-Het standaard **Voorraadwaarden** rapport is standaard ingeschakeld. Als u echter het meer geavanceerde rapport **Opslag voor voorraadwaardenrapport** wilt genereren, moet u de functie in uw systeem aanzetten. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en desgewenst in te schakelen. Schakel in de werkruimte **Functiebeheer** de functie als volgt in:
-
-- **Module:** *Cost management*
-- **Functienaam:** *Opslag voor voorraadwaardenrapport*
+Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Opslag voorraadwaardenrapport* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="define-inventory-value-report-configurations"></a><a name="report-configuration"></a>Configuraties van het voorraadwaardenrapport definiëren
 

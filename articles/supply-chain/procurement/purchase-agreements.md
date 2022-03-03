@@ -1,12 +1,10 @@
 ---
 title: Inkoopovereenkomsten
 description: Dit artikel biedt informatie over inkoopovereenkomsten. Een inkoopovereenkomst is een contract dat een organisatie ertoe verbindt een opgegeven aantal of bedrag in te kopen via meerdere inkooporders in een bepaalde periode. De koper ontvangt in ruil voor deze toezegging speciale prijzen en kortingen.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal, PurchLine, AgreementLines
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cd3c18129724cc67560aee7bf9fc0e5dcd2ebc3
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d8084ebed80a509d543053867bb1f4d483b3f8eb
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017182"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103733"
 ---
 # <a name="purchase-agreements"></a>Inkoopovereenkomsten
 
@@ -43,10 +41,7 @@ Als u wilt voorkomen dat uw inkoopovereenkomst wordt gebruikt en bevestigd, mark
 U kunt een primaire verantwoordelijke medewerker en secundaire verantwoordelijke medewerker identificeren in de classificatie van de inkoopovereenkomst. Deze waarden worden overgenomen door de resulterende inkoopovereenkomst. U bent niet verplicht om verantwoordelijke medewerkers toe te voegen aan de inkoopovereenkomst en ze kunnen rechtstreeks per geval worden gewijzigd in de inkoopovereenkomst zelf. U kunt geen secundaire verantwoordelijke medewerker zonder een primaire verantwoordelijke medewerker opgeven, hoewel u geen secundaire verantwoordelijke medewerker hoeft te hebben. U kunt dezelfde werknemer niet opgeven als primaire en secundaire verantwoordelijke medewerker.
 
 > [!IMPORTANT]
-> Voordat u de functie voor de verantwoordelijke partij kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
-> 
-> - **Module:** *Inkoopbeheer*
-> - **Functienaam:** *Verantwoordelijke partij voor inkoopovereenkomst*
+> Als u de functie voor de verantwoordelijke partij wilt gebruiken, moet deze zijn ingeschakeld in uw systeem. Vanaf Supply Chain Management 10.0.25 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Verantwoordelijke partij voor inkoopovereenkomst* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="commitment-types"></a>Toezeggingstypen
 Elke regel in een inkoopovereenkomst staat voor een toezegging om iets te kopen. U kunt regels uit meerdere inkooporders gebruiken om te voldoen aan de verbintenis. Er zijn vier typen toezeggingen:
@@ -104,12 +99,13 @@ Als u in één rechtspersoon een intercompany-inkooporder maakt die de intercomp
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Financiële dimensies op inkoopovereenkomsten
 U kunt financiële dimensies kopiëren naar documentkopteksten of naar afzonderlijke regels van een inkoopovereenkomst. Als u de dimensies in de overeenkomstkoptekst of de overeenkomstregel wijzigt, dan beïnvloedt de wijziging niet de vrijgegeven orders, maar werkt door in nieuwe orders die worden aangemaakt.
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Een inkoopovereenkomst maken](tasks/create-purchase-agreement.md)
-
-[Een vrijgaveorder maken voor inkoop van een inkoopovereenkomst](tasks/create-purchase-release-order-purchase-agreement.md)
+- [Een inkoopovereenkomst maken](tasks/create-purchase-agreement.md)
+- [Een inkoopovereenkomst toepassen bij het maken van een inkooporder](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

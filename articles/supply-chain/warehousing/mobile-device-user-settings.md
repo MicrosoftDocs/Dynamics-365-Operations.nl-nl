@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 13c99854224a6d220e73a43636d85ec1951f8149
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 4ea0fcfa7a165587567968f95549799859edaa60
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901867"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103708"
 ---
 # <a name="mobile-device-user-settings"></a>Gebruikersinstellingen mobiel apparaat
 
@@ -39,12 +39,9 @@ Deze functie kan werknemers sneller helpen aan de slag te gaan wanneer ze een ni
 > [!IMPORTANT]
 > De functie voor *gebruikersinstellingen voor mobiele apparaten* is alleen aanwezig in de nieuwe mobiele app Warehouse Management. Deze functie werkt niet met de oude magazijn-app.
 
-## <a name="turn-on-the-mobile-device-user-settings-feature"></a>De functie voor gebruikersinstellingen voor mobiele apparaten in- of uitschakelen
+## <a name="turn-the-mobile-device-user-settings-feature-on-or-off"></a>De functie voor gebruikersinstellingen voor mobiele apparaten in- of uitschakelen
 
-Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in de werkruimte **Functiebeheer** de functie als volgt in:
-
-- **Module:** *Warehouse Management*
-- **Functienaam:** *gebruikersinstellingen, pictogrammen en staptitels voor de nieuwe magazijnapp*
+Om de functionaliteit te gebruiken die in dit onderwerp wordt beschreven, moet de functie *Gebruikersinstellingen, pictogrammen en stapnamen voor de nieuwe magazijnapp* worden ingeschakeld voor het systeem. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Gebruikersinstellingen, pictogrammen en stapnamen voor de nieuwe magazijnapp* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="create-and-manage-user-settings"></a>Gebruikersinstellingen maken en beheren
 

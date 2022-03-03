@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: a709528b04e82c32f644073f79513b7ef11bb6bf
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 7e3a86e2aa0e7182f7f9e853b9e8667e677a8ad6
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920718"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102708"
 ---
 # <a name="firm-planned-orders"></a>Vast geplande orders
 
@@ -35,17 +35,15 @@ In dit onderwerp wordt elke methode uitgebreid beschreven.
 
 De meeste geplande orderfuncties zijn beschikbaar in alle standaardinstallaties van Microsoft Dynamics 365 Supply Chain Management die gebruikmaken van Planningsoptimalisatie. Enkele functies die in dit onderwerp worden beschreven, moeten echter worden ingeschakeld in Functiebeheer voordat u ze kunt gebruiken.
 
-### <a name="enable-parallelized-firming-of-planned-orders"></a>Parallel fiatteren van geplande orders inschakelen
+### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Parallel fiatteren van geplande orders in- of uitschakelen
 
-Parallel fiatteren zorgt voor een sneller fiatteringsproces door dit proces parallel te laten verlopen voor meerdere threads. Deze benadering kan handig zijn wanneer een groot aantal geplande orders moet worden gefiatteerd.
-
-Als u deze functionaliteit beschikbaar wilt maken in uw systeem, gaat u naar [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de functie *Parallel fiatteren van geplande orders* in. (Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld.)
+Parallel fiatteren zorgt voor een sneller fiatteringsproces door dit proces parallel te laten verlopen voor meerdere threads. Deze benadering kan handig zijn wanneer een groot aantal geplande orders moet worden gefiatteerd. Als u deze functionaliteit wilt gebruiken, moet de functie *Parallelle fiattering van geplande orders* voor het systeem zijn ingeschakeld. Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunt u deze functionaliteit in- of uitschakelen door naar [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) te gaan en te zoeken naar de functie *Parallelle fiattering van geplande orders*.
 
 ### <a name="enable-planned-order-firming-with-filtering"></a>Fiatteren van geplande orders inschakelen met filtering
 
 Via fiatteren van geplande orders met filtering kunt u logische criteria definiëren om geplande orders te selecteren die moeten worden gefiatteerd. U kunt ook een voorbeeld bekijken van de geplande orders die zijn geselecteerd, het proces uitvoeren op de achtergrond en/of dit proces als een batchtaak plannen.
 
-Als u deze functionaliteit beschikbaar wilt maken in uw systeem, gaat u naar [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de functie *Fiatteren van geplande orders met filtering* in.
+Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Parallelle fiattering van geplande orders* in de werkruimte [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="enable-auto-firming-for-planning-optimization"></a>Automatische fiattering voor Planningsoptimalisatie inschakelen
 

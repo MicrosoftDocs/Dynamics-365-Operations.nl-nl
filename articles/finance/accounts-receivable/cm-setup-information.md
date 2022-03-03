@@ -1,26 +1,23 @@
 ---
 title: Instellingen voor kredietbeheer
 description: In dit onderwerp worden de instellingen beschreven die zijn vereist voor kredietbeheer.
-author: mikefalkner
-manager: AnnBe
-ms.date: 09/04/2019
+author: JodiChristiansen
+ms.date: 02/15/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1d33dbbd37daaa75f4b64359194a2328728b27f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6977789b039c3e77e6d697e32bf4cac69c35a901
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441834"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182423"
 ---
 # <a name="credit-management-setup"></a>Instellingen voor kredietbeheer 
 
@@ -42,7 +39,7 @@ U kunt een verkooporder blokkeren als de betalingsvoorwaarden op de order niet o
 
 Als de rangschikking voor betalingsvoorwaarden is geactiveerd en als de betalingsvoorwaarden voor de order een hogere rang hebben dan de standaard betalingsvoorwaarden voor de klant, worden de verkooporders geblokkeerd.
 
-Als u de positie van betalingsvoorwaarden wilt instellen, gaat u naar **Crediteringen en aanmaningen \> Instellen \> Kredietbeheer instellen \>Positie van betalingsvoorwaarden**  
+Als u de positie van betalingsvoorwaarden wilt instellen, gaat u naar **Crediteringen en aanmaningen \> Instellen \> Kredietbeheer instellen \>Positie van betalingsvoorwaarden**.  
 
 ### <a name="ranking-settlement-discounts"></a>Vereffeningskortingen rangschikken
 
@@ -89,7 +86,7 @@ U kunt rekeningstatussen maken op de pagina **Rekeningstatussen** (**Creditering
 
 ## <a name="scoring-groups"></a>Scoregroepen
 
-U kunt scoregroepen instellen om risicofactoren te definiëren en de criteria die worden gebruikt om ze te meten. Wanneer informatie over een klant wordt toegepast op een scoregroep, wordt voor elke risicofactor een score berekend en gebruikt om de klant in een risicogroep te plaatsen. De risicogroep kan worden gebruikt om kredietwaardigheid te identificeren en automatische kredietlimieten te berekenen.
+U kunt **scoregroepen** instellen om risicofactoren te definiëren en de criteria die worden gebruikt om ze te meten. Wanneer informatie over een klant wordt toegepast op een scoregroep, wordt voor elke risicofactor een score berekend en gebruikt om de klant in een risicogroep te plaatsen. De risicogroep kan worden gebruikt om kredietwaardigheid te identificeren en automatische kredietlimieten te berekenen.
 
 U kunt scoregroepen maken op de pagina **Scoregroepen** (**Crediteringen en aanmaningen \> Instellen \> Kredietbeheer instellen \> Risico \> Scoregroepen**).
 
@@ -153,3 +150,6 @@ Volg deze stappen om regels toe te voegen die de kredietlimiet aangeven die word
 2. Selecteer de vergelijkingsoperator waarmee wordt gedefinieerd hoe de informatie over de scoregroep moet worden geëvalueerd.
 3. Voer de waarde in die moet worden vergeleken met de waarde die is opgegeven voor de scoregroep.
 4. Voer de kredietlimiet in die moet worden toegewezen als de klantgegevens overeenkomen met de waarde die is opgegeven voor de scoregroep. U kunt bijvoorbeeld een automatische kredietlimiet maken voor de scoregroep **Laag**. Als het aantal jaren in bedrijf een van de scoregroepen is, kunt u één regel definiëren die een kredietlimiet van 100.000 toewijst als de klant vijf jaar in bedrijf is en een andere regel die een kredietlimiet van 200.000 limiet toewijst als de klant 10 jaar in bedrijf is.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

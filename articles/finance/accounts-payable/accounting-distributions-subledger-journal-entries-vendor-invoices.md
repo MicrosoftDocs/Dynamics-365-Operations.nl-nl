@@ -1,38 +1,34 @@
 ---
-title: Boekhoudingsverdelingen en journaalposten in de subadministratie voor leveranciersfacturen
+title: Boekhoudingsverdelingen en journaalposten voor leveranciersfacturen
 description: Boekhoudingsverdelingen worden gebruikt om te bepalen hoe een bedrag zal worden verwerkt, zoals hoe de onkosten, BTW of heffingen zullen worden verwerkt op een leveranciersfactuur. Elk bedrag dat moet worden verwerkt wanneer de leveranciersfactuur in het boekhoudingsjournaal wordt vastgelegd, heeft een of meerdere boekhoudingsverdelingen.
-author: abruer
-manager: AnnBe
-ms.date: 08/20/2017
+author: sunfzam
+ms.date: 02/18/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendEditInvoice
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.custom: 26891
 ms.assetid: 93dc608a-b5b4-4ec3-83c2-618e3d80a583
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8e38e6a571bb7f08b32548bcb4af823807a4340
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fecdafe8765121d6d54389a70e6c2e497a03611a
+ms.sourcegitcommit: 43d0555c17a0643c9e5ba3bc2da3ce5f80754642
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442107"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "8325963"
 ---
-# <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>Boekhoudingsverdelingen en journaalposten in de subadministratie voor leveranciersfacturen
+# <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>Boekhoudingsverdelingen en journaalposten voor leveranciersfacturen
 
 [!include [banner](../includes/banner.md)]
 
 Boekhoudingsverdelingen worden gebruikt om te bepalen hoe een bedrag zal worden verwerkt, zoals hoe de onkosten, BTW of heffingen zullen worden verwerkt op een leveranciersfactuur. Elk bedrag dat moet worden verwerkt wanneer de leveranciersfactuur in het boekhoudingsjournaal wordt vastgelegd, heeft een of meerdere boekhoudingsverdelingen. 
 
-<a name="accounting-distributions"></a>Boekhoudingsverdelingen 
--------------------------
+## <a name="accounting-distributions"></a>Boekhoudingsverdelingen 
 
 U kunt de volgende knoppen op de pagina Leveranciersfactuur gebruiken voor het weergeven en mogelijk wijzigen van de boekhoudingsverdelingen voor elk bedrag op de leveranciersfactuur.
 -   **Bedragen verdelen** – De boekhoudingsverdelingen weergeven en wijzigen voor een afzonderlijke regel en alle onderliggende regels, zoals belastingen of heffingen. U kunt de boekhoudingsverdeling voor de onderliggende regel rechtstreeks weergeven en wijzigen op de pagina Btw-transacties of de pagina Transacties met toeslagen transacties.
@@ -66,7 +62,7 @@ Wanneer u een leveranciersfactuur invoert, wordt elk bedrag als volgt verdeeld.
 <td>Product in voorraad</td>
 <td><ol>
 <li>De boekhoudingsverdeling voor de inkooporderregel.</li>
-<li>Het veld Hoofdrekening wanneer Inkoopuitgave voor product is geselecteerd op de pagina Boeking.</li>
+<li>Het veld **Hoofdrekening** wanneer Inkoopuitgave voor product is geselecteerd op de pagina **Boeking**.</li>
 </ol></td>
 <td><ol>
 <li>Als de factuurregel verwijst naar een inkooporderregel, gebruikt u de boekhoudingsverdeling voor de inkooporderregel.</li>
@@ -77,35 +73,35 @@ Wanneer u een leveranciersfactuur invoert, wordt elk bedrag als volgt verdeeld.
 <td>Een aanschaffingscategorie of een product dat niet op voorraad is</td>
 <td><ol>
 <li>De boekhoudingsverdeling voor de inkooporderregel indien de leveranciersfactuurregel verwijst naar een inkooporderregel.</li>
-<li>Het veld Hoofdrekening wanneer Inkoopuitgave voor onkosten is geselecteerd op de pagina Boeking.</li>
+<li>Het veld **Hoofdrekening** wanneer Inkoopuitgave voor onkosten is geselecteerd op de pagina **Boeking**.</li>
 </ol></td>
 <td><ol>
 <li>Als de factuurregel verwijst naar een inkooporderregel, gebruikt u de boekhoudingsverdeling voor de inkooporderregel.</li>
 <li>Indien de hoofdrekening een toewijzingsrekening is, gebruikt u de standaardwaarde van de definitie van de toewijzingsrekening.</li>
 <li>De standaard financiële dimensiewaarden gebruiken op de leveranciersfactuur.</li>
 <li>De financiële dimensiewaarden gebruiken van de leveranciersfactuurregel.</li>
-<li>De standaard financiële dimensiewaarden gebruiken van de hoofdrekening op de pagina Rekeningschema.</li>
+<li>De standaard financiële dimensiewaarden gebruiken van de hoofdrekening op de pagina **Rekeningschema**.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Vaste activa</td>
 <td><ol>
 <li>De boekhoudingsverdeling voor de inkooporderregel indien de leveranciersfactuurregel verwijst naar een inkooporderregel.</li>
-<li>Als Verwerving is geselecteerd in het veld Transactietype in het formulier Leveranciersfactuur, wordt het veld Hoofdrekening geselecteerd op de pagina Boekingsprofielen voor vaste activa.</li>
-<li>Als Verwervingscorrectie is geselecteerd in het veld Transactietype, wordt het veld Verwervingscorrectie geselecteerd op de pagina Boekingsprofielen voor vaste activa.</li>
+<li>Als **Verwerving** is geselecteerd in het veld **Transactietype** op de pagina **Leveranciersfactuur**: het veld **Hoofdrekening** wanneer **Verwerving** is geselecteerd op de pagina **Boekingsprofielen voor vaste activa**.</li>
+<li>Als **Verwervingscorrectie** is geselecteerd in het veld **Transactietype**: het veld **Hoofdrekening** wanneer **Verwervingscorrectie** is geselecteerd op de pagina **Boekingsprofielen voor vaste activa**.</li>
 </ol></td>
 <td><ol>
 <li>Gebruik de boekhoudingsverdeling voor de inkooporderregel als de factuurregel verwijst naar een inkooporderregel.</li>
 <li>De financiële dimensiewaarden gebruiken van de leveranciersfactuurregel.</li>
-<li>De standaard financiële dimensiewaarden gebruiken van de hoofdrekening op de pagina Rekeningschema.</li>
+<li>De standaard financiële dimensiewaarden gebruiken van de hoofdrekening op de pagina **Rekeningschema**.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Project gedefinieerd op de leveranciersfactuurregel</td>
 <td><ol>
 <li>De boekhoudingsverdeling voor de inkooporderregel als de factuurregel verwijst naar een inkooporderregel.</li>
-<li>Als Saldo is geselecteerd in het veld Kosten boeken - Artikel op de pagina Projectgroep, wordt het veld Hoofdrekening geselecteerd op de pagina Instellingen boeking in grootboek.</li>
-<li>Als Verlies-en-winstrekening is geselecteerd in het veld Kosten boeken - Artikel op de pagina Projectgroep, wordt het veld Kosten - artikel geselecteerd op de pagina Instellingen boeking in grootboek.</li>
+<li>Als **Saldo** is geselecteerd in het veld **Kosten boeken - Artikel** op de pagina **Projectgroepen**: het veld **Hoofdrekening** wanneer **Kosten** is geselecteerd op de pagina **Boeking in grootboek instellen**.</li>
+<li>Als **Verlies-en-winstrekening** is geselecteerd in het veld **Kosten boeken - Artikel** op de pagina **Projectgroepen**:, het veld **Hoofdrekening** wanneer **Kosten - artikel** is geselecteerd op de pagina **Boeking in grootboek instellen**.</li>
 </ol></td>
 <td><ol>
 <li>Als de factuurregel verwijst naar een inkooporderregel, gebruikt u de boekhoudingsverdeling voor de inkooporderregel.</li>
@@ -115,18 +111,18 @@ Wanneer u een leveranciersfactuur invoert, wordt elk bedrag als volgt verdeeld.
 <td>Regelkorting</td>
 <td><ol>
 <li>De boekhoudingsverdeling voor de inkooporderregel als de factuurregel verwijst naar een inkooporderregel.</li>
-<li>Het veld Hoofdrekening wanneer Korting is geselecteerd op de pagina Boeking.</li>
+<li>Het veld **Hoofdrekening** wanneer **Korting** is geselecteerd op de pagina **Boeking**.</li>
 <li>Als een hoofdrekening voor een korting niet is gedefinieerd in het boekingsprofiel, de boekhoudingsverdeling van de totaalprijs op de inkooporderregel.</li>
 </ol></td>
 <td><ol>
 <li>Als de factuurregel verwijst naar een inkooporderregel, gebruikt u de boekhoudingsverdeling voor de inkooporderregel.</li>
 <li>De financiële dimensies gebruiken voor de boekhoudingsverdelingen voor de totaalprijs van de leveranciersfactuurregel.</li>
 <li>De financiële dimensiewaarden voor de leveranciersfactuurregel gebruiken.</li>
-<li>De standaard financiële dimensiewaarden gebruiken van de hoofdrekening op de pagina Rekeningschema.</li>
+<li>De standaard financiële dimensiewaarden gebruiken van de hoofdrekening op de pagina **Rekeningschema**.</li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Aankooptoeslag, ingevoerd op het tabblad Prijs en korting van de inkooporderregel</td>
+<td>Aankooptoeslag, ingevoerd op het tabblad **Prijs en korting** van de inkooporderregel</td>
 <td><ol>
 <li>De boekhoudingsverdeling voor de inkooporderregel als de factuurregel verwijst naar een inkooporderregel.</li>
 <li>De boekhoudingsverdeling van de totaalprijs op de inkooporderregel.</li>
@@ -140,21 +136,21 @@ Wanneer u een leveranciersfactuur invoert, wordt elk bedrag als volgt verdeeld.
 <td>Regeltoeslag</td>
 <td><ol>
 <li>De boekhoudingsverdeling voor de inkooporderregel als de factuurregel verwijst naar een inkooporderregel.</li>
-<li>Als Grootboekrekening is geselecteerd in het veld Debettype in het formulier Toeslagcode, het veld Debetrekening op de pagina Toeslagcode.</li>
-<li>Als Artikel is geselecteerd in het veld Debettype in het formulier Toeslagcode, de boekhoudingsverdeling voor de totaalprijs op de inkooporderregel.</li>
-<li>Als Klant/leverancier is geselecteerd in het veld Debettype in het formulier Toeslagcode, het veld Creditrekening op de pagina Toeslagcode.</li>
+<li>Als **Grootboekrekening** is geselecteerd in het veld **Debettype** van de pagina **Toeslagcode**: het veld **Debetrekening** op de pagina **Toeslagcode**.</li>
+<li>Als **Artikel** is geselecteerd in het veld **Debettype** van de pagina **Toeslagcode**: de boekhoudingsverdeling voor de totaalprijs op de inkooporderregel.</li>
+<li>Als **Klant/leverancier** is geselecteerd in het veld **Debettype** van de pagina **Toeslagcode**: het veld **Creditrekening** op de pagina **Toeslagcode**.</li>
 </ol></td>
 <td><ol>
 <li>Als de factuurregel verwijst naar een inkooporderregel, gebruikt u de boekhoudingsverdeling voor de inkooporderregel.</li>
 <li>De financiële dimensies gebruiken voor de boekhoudingsverdelingen voor de totaalprijs van de leveranciersfactuurregel.</li>
 <li>De financiële dimensiewaarden gebruiken van de leveranciersfactuurregel.</li>
-<li>De standaard financiële dimensiewaarden gebruiken van de hoofdrekening op de pagina Rekeningschema.</li>
+<li>De standaard financiële dimensiewaarden gebruiken van de hoofdrekening op de pagina **Rekeningschema**.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>BTW, met de volgende status:
 <ul>
-<li>De optie Amerikaanse belastingregels toepassen wordt geselecteerd op de pagina Grootboekparameters.</li>
+<li>De optie Amerikaanse belastingregels toepassen wordt geselecteerd op de pagina **Grootboekparameters**.</li>
 </ul></td>
 <td><ol>
 <li>De boekhoudingsverdeling voor de inkooporderregel als de factuurregel verwijst naar een inkooporderregel.</li>
@@ -169,69 +165,68 @@ Wanneer u een leveranciersfactuur invoert, wordt elk bedrag als volgt verdeeld.
 <tr class="odd">
 <td>BTW, met de volgende status:
 <ul>
-<li>De optie Amerikaanse belastingregels wordt uitgeschakeld op de pagina Grootboekparameters.</li>
-<li>Het veld Gebruiksbelasting voor de btw-groep wordt uitgeschakeld op de pagina Btw-groepen.</li>
+<li>De optie Amerikaanse belastingregels wordt uitgeschakeld op de pagina **Grootboekparameters**.</li>
+<li>Het veld **Gebruiksbelasting** voor de btw-groep wordt uitgeschakeld op de pagina **Btw-groepen**.</li>
 </ul></td>
 <td><ol>
-<li>Als het btw-percentage terug te vorderen is, het veld Te ontvangen btw op de pagina Groepen boekingen in grootboek.</li>
+<li>Als het btw-percentage terug te vorderen is: het veld **Te ontvangen btw** op de pagina **Groepen boekingen in grootboek**.</li>
 <li>Als het btw-bedrag niet recupereerbaar is, de totaalprijs of de boekhoudingsverdeling voor de toeslag.</li>
 </ol></td>
 <td><ol>
 <li>Als de factuurregel verwijst naar een inkooporderregel, gebruikt u de boekhoudingsverdeling voor de inkooporderregel.</li>
 <li>De financiële dimensies gebruiken voor de totaalprijs of de boekhoudingsverdelingen voor de kost van de leveranciersfactuurregel.</li>
 <li>De financiële dimensiewaarden gebruiken van de leveranciersfactuurregel.</li>
-<li>De standaard financiële dimensiewaarden gebruiken van de hoofdrekening op de pagina Rekeningschema.</li>
+<li>De standaard financiële dimensiewaarden gebruiken van de hoofdrekening op de pagina **Rekeningschema**.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>BTW, met de volgende status:
 <ul>
-<li>De optie Amerikaanse belastingregels wordt uitgeschakeld op de pagina Grootboekparameters.</li>
-<li>Het veld Gebruiksbelasting voor de btw-groep wordt ingeschakeld op de pagina Btw-groepen.</li>
+<li>De optie Amerikaanse belastingregels wordt uitgeschakeld op de pagina **Grootboekparameters**.</li>
+<li>Het veld **Gebruiksbelasting** voor de btw-groep wordt ingeschakeld op de pagina **Btw-groepen**.</li>
 </ul></td>
 <td><ol>
-<li>Als het btw-percentage terug te vorderen is, het veld Te ontvangen btw op de pagina Groepen boekingen in grootboek.</li>
-<li>Als het btw-percentage niet terug te vorderen is, het veld Gebruiksbelastinguitgave op de pagina Groepen boekingen in grootboek.</li>
+<li>Als het btw-percentage terug te vorderen is: het veld **Te ontvangen btw** op de pagina **Groepen boekingen in grootboek**.</li>
+<li>Als het belastingbedrag niet terug te vorderen is: het veld **Gebruiksbelastinguitgave** op de pagina **Groepen boekingen in grootboek**.</li>
 </ol></td>
 <td><ol>
 <li>Als de factuurregel verwijst naar een inkooporderregel, gebruikt u de boekhoudingsverdeling voor de inkooporderregel.</li>
 <li>De financiële dimensies gebruiken voor de totaalprijs of de boekhoudingsverdelingen voor de kost van de leveranciersfactuurregel.</li>
 <li>De financiële dimensiewaarden gebruiken van de leveranciersfactuurregel.</li>
-<li>De standaard financiële dimensiewaarden gebruiken van de hoofdrekening op de pagina Rekeningschema.</li>
+<li>De standaard financiële dimensiewaarden gebruiken van de hoofdrekening op de pagina **Rekeningschema**.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Kopteksttoeslag</td>
 <td><ol>
-<li>Als Grootboekrekening is geselecteerd in het veld Debettype in het formulier Toeslagcode, het veld Debetrekening op de pagina Toeslagcode.</li>
-<li>Als Klant/leverancier is geselecteerd in het veld Debettype in het formulier Toeslagcode, het veld Creditrekening op de pagina Toeslagcode.</li>
+<li>Als **Grootboekrekening** is geselecteerd in het veld **Debettype** van de pagina **Toeslagcode**: het veld **Debetrekening** op de pagina **Toeslagcode**.</li>
+<li>Als **Klant/leverancier** is geselecteerd in het veld **Debettype** van de pagina **Toeslagcode**: het veld **Creditrekening** op de pagina **Toeslagcode**.</li>
 </ol></td>
 <td><ol>
 <li>Als de factuurregel verwijst naar een inkooporderregel, gebruikt u de boekhoudingsverdeling voor de inkooporderregel.</li>
 <li>Indien de hoofdrekening een toewijzingsrekening is, gebruikt u de standaardwaarde van de definitie van de toewijzingsrekening.</li>
 <li>De standaardsjabloon gebruiken van de financiële dimensie van de leveranciersfactuurtitel.</li>
 <li>De financiële dimensiewaarden gebruiken van de leveranciersfactuurregel.</li>
-<li>De standaard financiële dimensiewaarden gebruiken van de hoofdrekening op de pagina Rekeningschema.</li>
+<li>De standaard financiële dimensiewaarden gebruiken van de hoofdrekening op de pagina **Rekeningschema**.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Kortingtitel</td>
 <td><ol>
-<li>Het veld Hoofdrekening voor het boekingstype Korting op leveranciersfactuur op de pagina Rekeningen voor automatische transacties.</li>
+<li>Het veld **Hoofdrekening** voor het boekingstype **Korting op leveranciersfactuur** op de pagina **Rekeningen voor automatische transacties**.</li>
 </ol></td>
 <td><ol>
 <li>Als de factuurregel verwijst naar een inkooporderregel, gebruikt u de boekhoudingsverdeling voor de inkooporderregel.</li>
 <li>De financiële dimensies gebruiken voor de boekhoudingsverdelingen voor de totaalprijs van de leveranciersfactuurregel.</li>
 <li>De financiële dimensiewaarden gebruiken van de leveranciersfactuurregel.</li>
-<li>De standaard financiële dimensiewaarden gebruiken van de hoofdrekening op de pagina Rekeningschema.</li>
+<li>De standaard financiële dimensiewaarden gebruiken van de hoofdrekening op de pagina **Rekeningschema**.</li>
 </ol></td>
 </tr>
 </tbody>
 </table>
 
 
-<a name="distributing-taxes"></a>Belastingen verdelen
-------------------
+## <a name="distributing-taxes"></a>Belastingen verdelen
 
 Boekhoudingsverdelingen voor belastingen kunnen pas worden gemaakt nadat belastingen zijn berekend. Voor het berekenen van de btw moet u een van de volgende taken uitvoeren op de pagina Leveranciersfactuur:
 -   Het factuurtotaal weergeven.
@@ -250,3 +245,6 @@ Indien het journaal in de subadministratie onjuist is wanneer u een afdrukvoorbe
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

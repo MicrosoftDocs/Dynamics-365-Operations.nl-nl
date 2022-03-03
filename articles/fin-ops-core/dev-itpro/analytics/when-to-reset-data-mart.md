@@ -2,7 +2,7 @@
 title: Veelgestelde vragen over opnieuw instellen van een datamart
 description: Dit onderwerp biedt antwoorden op een aantal veelgestelde vragen over het opnieuw instellen (reset) van een datamart.
 author: jinniew
-ms.date: 07/16/2021
+ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e5a40342306eb9888b456a865ab2220dccfe65f8ccecc67bf8fc16f907e06977
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53f45f469c39f9e389763aa0daed658e5a62d377
+ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767750"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119507"
 ---
 # <a name="data-mart-resets-faq"></a>Veelgestelde vragen over opnieuw instellen van een datamart
 
@@ -35,8 +35,9 @@ Om te zorgen dat oude gegevens niet zijn ingevoegd, kan opnieuw instellen van ee
 
 Als er een of meer van de volgende uitspraken van toepassing zijn op uw situatie, kan opnieuw instellen van een datamart voor uw organisatie zin hebben:
 
-- De toepassingsdatabase is teruggezet.
-- U hebt een ondersteuningsticket geopend en een ondersteuningstechnicus heeft u opdracht gegeven om de datamart opnieuw in te stellen als onderdeel van een probleemoplossingsstap.
+- **De toepassingsdatabase is teruggezet**
+- **U hebt een ondersteuningsticket geopend**: een ondersteuningstechnicus heeft u opdracht gegeven om de datamart opnieuw in te stellen als onderdeel van een probleemoplossingsstap.
+- **Hoog percentage verouderde records**: verouderde records zijn op zichzelf geen reden om de datamart opnieuw in te stellen. Hoge percentages verlopen gegevens kunnen de algehele prestaties van het genereren en integreren van rapporten beïnvloeden en leiden tot extra databaseruimtegebruik. We raden u aan om een datamartreset te voltooien om de verouderde gegevens te verwijderen wanneer de datamart meer dan 80% aan verlopen gegevens bevat.
  
 > [!NOTE]
 > Het proces van het opnieuw instellen van een datamart wordt beïnvloed door het aantal grootboek- en budgettransacties in uw database. Afhankelijk van het aantal transacties in het systeem kan een reset van de datamart binnen een paar minuten worden uitgevoerd. Het kan echter ook tot vier uur in beslag nemen. Als het opnieuw instellen echter meer dan vier uur duurt, raden we u aan contact op te nemen met Ondersteuning.
@@ -45,13 +46,12 @@ Als er een of meer van de volgende uitspraken van toepassing zijn op uw situatie
 
 Hierna volgen enkele omstandigheden waarin het niet raadzaam is om een datamart opnieuw in te stellen:
 
-- U ondervindt prestatieproblemen die betrekking hebben op gegevenssynchronisatie.
+- U ondervindt prestatieproblemen met betrekking tot gegevensintegraties.
 - Er is sprake van een terugkerend resetpatroon om een van de volgende redenen:
 
-    - **Ontbrekende gegevens**: als u ziet dat er gegevens ontbreken, opent u een ondersteuningticket bij Microsoft om de rapportindeling en mogelijke problemen met gegevenssynchronisatie te bekijken.
+    - **Ontbrekende of onverwachte gegevens in het rapport**: als u ziet dat er gegevens ontbreken, opent u een ondersteuningticket bij Microsoft om de rapportindeling en mogelijke problemen met gegevenssynchronisatie te bekijken.
     - **Vastgelopen integratie**
-    - **Verouderde records**: verouderde records zijn op zichzelf geen reden om de datamart opnieuw in te stellen. Als u een grote gegevensset hebt, zal het even duren deze opnieuw in te stellen, maar is het niet waarschijnlijk dat dit iets oplevert.
-
+   
 ## <a name="if-i-reset-the-data-mart-will-i-lose-reports-that-ive-already-designed"></a>Als ik de datamart opnieuw instel, raak ik dan rapporten kwijt die ik al heb ontworpen?
 
 Nee. Uw rapporten worden opgeslagen in SQL-tabellen die niet worden beïnvloed door opnieuw instellen van de datamart. Als u zich zorgen maakt over het kwijtraken van rapporten die u hebt ontworpen, kunt u een back-up maken van de ontwerpen die u niet kwijt wilt raken. Als u een back-up van de ontwerpen wilt maken, opent u Report Designer en gaat u naar **Bedrijf \> Bedrijven \> Bouwstenen \> Exporteren**.

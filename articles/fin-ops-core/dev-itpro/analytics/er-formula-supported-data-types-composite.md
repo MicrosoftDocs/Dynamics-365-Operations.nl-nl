@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72b97b2f7091883e445b2e8474ca140217bda004b0c4d8988411b9ed4209e254
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf7178888e39a5f26ae92e77df9c996374b76bf3
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758259"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323660"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Ondersteunde samengestelde gegevenstypen voor formules voor elektronische rapportage
 
@@ -27,7 +27,7 @@ Dit onderwerp biedt informatie over de samengestelde gegevenstypen die worden on
 
 Het gegevenstype *klasse* verwijst naar een klasse voor een openbare toepassing. In ER wordt dit voorgesteld als een [*record*](#record) die een afzonderlijk veld bevat voor elke openbare methode van de klasse waarnaar wordt verwezen. Wanneer de parameteraanroep van de methode wordt uitgevoerd, moet u ook de vereiste argumenten van de juiste typen opgeven in een ER-expressie die is geconfigureerd voor het aanroepen van de methode.
 
-In [toewijzing](general-electronic-reporting.md#data-model-and-model-mapping-components)s- en [indeling](general-electronic-reporting.md#FormatComponentOutbound)sonderdelen voor ER kunt u de gegevensbron **Klasse** toevoegen die wordt weergegeven als gegevensbron en die een waarde van het type *klasse* retourneert. Deze gegevensbron maakt openbare methoden van de klasse beschikbaar die tijdens runtime kunnen worden aangeroepen.
+In toewijzings- en indelingsonderdelen voor ER kunt u de gegevensbron **Klasse** toevoegen die wordt weergegeven als gegevensbron en die een waarde van het type *klasse* retourneert. Deze gegevensbron maakt openbare methoden van de klasse beschikbaar die tijdens runtime kunnen worden aangeroepen.
 
 > [!NOTE]
 > Alleen methoden die een waarde retourneren, kunnen worden aangeroepen vanuit ER-expressies.

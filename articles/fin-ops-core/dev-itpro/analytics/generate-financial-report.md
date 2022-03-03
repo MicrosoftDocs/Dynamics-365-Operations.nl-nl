@@ -2,7 +2,7 @@
 title: Financiële rapporten genereren
 description: Dit onderwerp biedt informatie over het genereren van een financieel rapport.
 author: jinniew
-ms.date: 03/08/2021
+ms.date: 02/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 101cf2b29bb6f91cec5a3dac0be30b53388905c96ecf481f5b7b3e90cda3f804
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 00a860089265800ca1a0058f222d5e85c360501c
+ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740258"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119498"
 ---
 # <a name="generate-financial-reports"></a>Financiële rapporten genereren
 
@@ -28,9 +28,22 @@ ms.locfileid: "6740258"
 
 Dit onderwerp biedt informatie over het genereren van een financieel rapport.
 
-Om een rapport te genereren, open de rapportdefinitie en selecteer vervolgens de knop **Genereren** op de werkbalk. Het venster **Status van de rapportwachtrij** wordt geopend en geeft de locatie van uw rapport in de wachtrij aan. Standaard, wordt het gegenereerde rapport in de Webkijker geopend.
+Om een rapport te genereren, opent u de rapportdefinitie en selecteert u **Genereren** op de werkbalk. de pagina **Status van de rapportwachtrij** wordt geopend en geeft de locatie van uw rapport in de wachtrij aan.
 
-De volgende opties zijn beschikbaar voor het genereren van rapporten:
+Naarmate het genereren van het rapport vordert, kunnen de volgende statusindicatoren voor rapportwachtrijen worden weergegeven op de pagina **Status van de rapportwachtrij**.
+
+| Status          | Staat/provincie | Description|
+|-----------------|--------|--------------------|
+| In wachtrij plaatsen        | Tussentijds |De rapportdefinitie wordt gevalideerd voordat het rapport in de wachtrij voor genereren wordt geplaatst.                    |
+| In wachtrij gezet          | Tussentijds | Het rapport wordt toegevoegd aan de wachtrij voor het genereren van het rapport en wacht op verwerking.                      |
+| In verwerking      | Tussentijds | Deze status volgt doorgaans op de status **In wachtrij gezet** en gaat meestal over in de status **Definitief** wanneer de verwerking is voltooid.       |
+| Naverwerking | Tussentijds | Deze status volgt op de status **In verwerking** en geeft aan dat alle rapportgegevens zijn verzameld, maar dat er afgeleide acties, zoals berekenen en totaliseren, worden uitgevoerd.            |
+| Annuleren      | Tussentijds | De rapportage wordt op verzoek van de gebruiker geannuleerd. Deze status is het resultaat van een door de gebruiker aangevraagde annulering voor een rapport met de status **In wachtrij gezet** of In **verwerking**. Het systeem probeert het rapport in de status **Geannuleerd** te zetten, tenzij het systeem al te ver is en het rapport in een andere status moet worden voltooid. |
+| Geannuleerd        | Definitief | De verwerking van het rapport is beëindigd, maar niet voltooid vanwege een door de gebruiker aangevraagde stop.            |
+| Voltooid       | Definitief | Het rapport is gereed voor gebruik.                      |
+| Niet geslaagd          | Definitief | De verwerking van het rapport is beëindigd, maar het rapport is mislukt en moet niet worden gebruikt. |
+
+Standaard, wordt het gegenereerde rapport in de Webkijker geopend. De volgende opties zijn beschikbaar voor het genereren van rapporten:
 
 - Een planning instellen om een rapport of groep rapporten automatisch te genereren
 - De controle voor ontbrekende rekeningen of gegevens in een rapport, en valideert de nauwkeurigheid van een rapport
@@ -61,9 +74,9 @@ Rapportgroepen zijn een efficiënte manier om verschillende rapporten tegelijk t
 4. Sla de rapportgroep op.
 
 ## <a name="schedule-report-generation"></a>Het genereren van rapporten plannen
-Veel bedrijven hebben een aantal standaardrapporten die op geplande tijdstippen worden uitgevoerd in overeenstemming met hun bedrijfsprocessen. U kunt een rapport plannen om regelmatig worden gegenereerd, bijvoorbeeld dagelijks, wekelijks, maandelijks, of jaarlijks. U kunt één rapport plannen, of een groep rapporten die betrekking hebben op meerdere bedrijven. U moet uw referenties invoeren voor elk bedrijf dat is opgegeven, zoals die in een rapporteringsstructuurdefinitie. Als de gebruikersgegevens niet geldig zijn wordt in het rapport alleen de informatie waar u voor gemachtigd bent weergegeven, zoals het bedrijf waar u op dat moment bent aangemeld. De uitvoer informatie wordt eerst gelezen uit de rapportgroep, en vervolgens uit de afzonderlijke rapporten.
+Veel bedrijven hebben een aantal standaardrapporten die op geplande tijdstippen worden uitgevoerd in overeenstemming met hun bedrijfsprocessen. U kunt een rapport plannen om regelmatig worden gegenereerd, bijvoorbeeld dagelijks, wekelijks, maandelijks, of jaarlijks. U kunt één rapport plannen, of een groep rapporten die betrekking hebben op meerdere bedrijven. U moet uw referenties invoeren voor elk bedrijf dat is opgegeven, zoals die in een rapporteringsstructuurdefinitie. Als de gebruikersgegevens niet geldig zijn, wordt in het rapport alleen de informatie waar u voor gemachtigd bent weergegeven, zoals het bedrijf waar u op dat moment bent aangemeld. De uitvoer informatie wordt eerst gelezen uit de rapportgroep, en vervolgens uit de afzonderlijke rapporten.
 
-Als rapportplanning worden gemaakt en opgeslagen, worden deze weergegeven in het navigatievenster onder Rapportplanning. U kunt mappen maken om de rapporten overzichtelijk in te delen. Als een rapport in een groep geplande rapporten niet kan worden uitgevoerd, wordt doorgegaan met de overige rapporten.
+Als rapportplanningen worden gemaakt en opgeslagen, worden deze weergegeven in het navigatievenster onder Rapportplanning. U kunt mappen maken om de rapporten overzichtelijk in te delen. Als een rapport in een groep geplande rapporten niet kan worden uitgevoerd, wordt doorgegaan met de overige rapporten.
 
 > [!IMPORTANT]
 > U kunt alleen geplande rapporten maken, wijzigen en verwijderen als u beschikt over de rol van ontwerper of beheerder. Wanneer een rapport wordt uitgevoerd, worden de gebruikersgegevens van de gebruiker die het plan maakte gebruikt om het rapport te genereren.
@@ -105,7 +118,7 @@ Om een rapportplan te verwijderen, moet u de eigenaar van het rapportplan zijn o
 
 Als u geen referenties invoert die voor alle bedrijven opgenomen in de rapporten worden vereist, ontvangt u het volgende bericht wanneer u op het rapportplan: "U moet uw referenties voor de bedrijven invoeren die dit rapportplan bevat. Selecteer de knop Machtigingen om uw referenties in te voeren."
 
-Bijvoorbeeld: een gebruiker meldt zich aan bij bedrijf A met een gebruikersnaam en wachtwoord. De gebruiker maakt een planning voor een rapport dat een rapporteringsstructuurdefinitie gebruikt om gegevens uit meerdere bedrijven te verzamelen. Wanneer Phyllis het rapport opslaat, wordt de gebruiker gevraagd de referenties voor alle overige bedrijven in de rapporteringsstructuurdefinitie op te geven. Wanneer uw referenties verlopen, dan worden de betrokken rapporten in de rapportplanning niet gegenereerd tot de referenties zijn bijgewerkt. Een bericht wordt weergegeven in de rapportwachtrij om aan te geven dat de machtigingen moeten worden bijgewerkt. Het rapport het plan mislukt als een van de volgende scenario's (omdat deze referenties vereisen) plaatsvind:
+Bijvoorbeeld: een gebruiker meldt zich aan bij bedrijf A met een gebruikersnaam en wachtwoord. De gebruiker maakt een planning voor een rapport dat een rapporteringsstructuurdefinitie gebruikt om gegevens uit meerdere bedrijven te verzamelen. Wanneer Phyllis het rapport opslaat, wordt de gebruiker gevraagd de referenties voor alle overige bedrijven in de rapporteringsstructuurdefinitie op te geven. Wanneer uw referenties verlopen, worden de betrokken rapporten in de rapportplanning pas gegenereerd als de referenties zijn bijgewerkt. Een bericht wordt weergegeven in de rapportwachtrij om aan te geven dat de machtigingen moeten worden bijgewerkt. Het rapport het plan mislukt als een van de volgende scenario's (omdat deze referenties vereisen) plaatsvind:
 
 - Een nieuw bedrijf is toegevoegd aan een rapportstructuur voor een individueel rapport.
 - Een rapport in een rapportgroep is gewijzigd.
@@ -121,7 +134,7 @@ Er worden ontbrekende rekeningen bepaald door de laagste en hoogste waarden te g
 > [!TIP]
 > Dit proces moet voor validatiedoeleinden worden uitgevoerd voordat u maandelijkse rapporten genereert en wanneer u nieuwe bouwstenen maakt.
 
-Rapporten die waardebereiken hebben minder kans om ontbrekende rekeningen te hebben. Wanneer mogelijk, gebruik bereiken in de bouwsteen om nieuwe rekeningen te omvatten wanneer deze worden gemaakt. Als een rapportdefinitie is ingesteld op de bedrijfswaarde @ANY, kunt u zich vervolgens aanmelden bij een specifiek bedrijf en een analyse uitvoeren naar ontbrekende rekeningen voor dat bedrijf.
+Rapporten die waardebereiken hebben minder kans om ontbrekende rekeningen te hebben. Gebruik zo mogelijk bereiken in de bouwsteen om nieuwe rekeningen te omvatten wanneer deze worden gemaakt. Als een rapportdefinitie is ingesteld op de bedrijfswaarde @ANY, kunt u zich vervolgens aanmelden bij een specifiek bedrijf en een analyse uitvoeren naar ontbrekende rekeningen voor dat bedrijf.
 
 > [!NOTE]
 > Als een nieuw bedrijf is toegevoegd, moet u het nieuwe bedrijf aan de rapportagestructuren in eventuele bestaande rapporten toevoegen of het bedrijf zal niet opgenomen worden in de ontbrekende rekeninganalyse.
@@ -134,8 +147,8 @@ Rapporten die waardebereiken hebben minder kans om ontbrekende rekeningen te heb
 4. Selecteer in het veld **Groeperen op** een optie om de resultaten te sorteren. U kunt resultaten sorteren op de bouwsteen waarop deze van invloed zijn of op de dimensie en waardesets.
 5. Controleer de weergegeven resultaten. Wanneer u in het bovenste deelvenster een item selecteert, wordt in het onderste deelvenster aanvullende informatie over de uitzondering weergegeven. Dit omvat gerelateerde dimensies, waarden en rapporten.
 6. Om het desbetreffende item te openen, selecteert u het gekoppelde pictogram dat in het lijstdeelvenster wordt weergegeven of klikt umet de rechtermuisknop op het item en selecteert u **Openen**. Als u meerdere items wilt selecteren, houdt u de toets **Ctrl** ingedrukt terwijl u de items in het onderste deelvenster selecteert.
-7. Als eventuele waarden, bouwstenen, of rapporten worden geretourneerd die niet in de analyse moeten worden opgenomen, klikt u met de rechtermuiskno op het item en selecteert u **Uitsluiten** of schakelt u het selectievakje **Uitsluiten** naast het item in om het artikel uit de lijst te verwijderen. De uitgesloten artikelen niet opgenomen wanneer de lijst wordt vernieuwd. Als u meerdere items wilt selecteren, houdt u de toets **Ctrl** ingedrukt terwijl u de items in het onderste deelvenster selecteert. Schakel het selectievakje **Uitgesloten bouwstenen en waarden weergeven** in en selecteer vervolgens **Vernieuwen** als u alle items wilt weergeven, waaronder eventuele items die u eerder hebt uitgesloten van de analyse.
-8. Selecteer **Vernieuwen** om uitzonderingen te vernieuwen die u hebt geadresseerd. Selecteer **Ja** om volledige vernieuwing van alle resultaten uit te voeren of selecteer **Nee** om een gedeeltelijke vernieuwing uit te voeren van de geadresseerde items.
+7. Als eventuele waarden, bouwstenen, of rapporten worden geretourneerd die niet in de analyse moeten worden opgenomen, klikt u met de rechtermuisknop op het item en selecteert u **Uitsluiten** of schakelt u het selectievakje **Uitsluiten** naast het item in om het artikel uit de lijst te verwijderen. Uitgesloten artikelen worden niet opgenomen wanneer de lijst wordt vernieuwd. Als u meerdere items wilt selecteren, houdt u de toets **Ctrl** ingedrukt terwijl u de items in het onderste deelvenster selecteert. Schakel het selectievakje **Uitgesloten bouwstenen en waarden weergeven** in en selecteer vervolgens **Vernieuwen** als u alle items wilt weergeven, waaronder eventuele items die u eerder hebt uitgesloten van de analyse.
+8. Selecteer **Vernieuwen** om uitzonderingen te vernieuwen die u hebt aangepakt. Selecteer **Ja** om volledige vernieuwing van alle resultaten uit te voeren of selecteer **Nee** om een gedeeltelijke vernieuwing uit te voeren van de geadresseerde items.
 
     > [!NOTE]
     > Het formulier wordt tijdens het openen automatisch vernieuwd, tenzij het formulier in de afgelopen 15 minuten al is geopend.
