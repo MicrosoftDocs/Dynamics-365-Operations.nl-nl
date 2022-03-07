@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 09/20/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: d2c22123d5f05945b34eb107c5b912852aec387a
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: 78d4c547f544d95c66490e5610374a5c4598b266
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744460"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5565594"
 ---
 # <a name="switch-between-vendor-designs"></a>Schakelen tussen leverancierontwerpen
 
@@ -78,3 +77,6 @@ Ga als volgt te werk om nieuwe werkstroomprocessen te maken op basis van de werk
 4. Maak een werkstroomproces voor de tabel **Contactpersoon** en selecteer de sjabloon **Leveranciers van het type Persoon bijwerken in tabel Leveranciers**.
 5. U kunt de werkstromen configureren als realtime werkstromen of werkstromen op de achtergrond, afhankelijk van uw vereisten. Als u een werkstroom als een achtergrondwerkstroom wilt configureren, selecteert u **Converteren naar een workflow op de achtergrond**.
 6. Activeer de werkstromen die u hebt gemaakt voor de tabellen **Contactpersoon** en **Leverancier** om de tabel **Contactpersoon** te gebruiken voor het opslaan van leveranciersgegevens van het type **Persoon**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

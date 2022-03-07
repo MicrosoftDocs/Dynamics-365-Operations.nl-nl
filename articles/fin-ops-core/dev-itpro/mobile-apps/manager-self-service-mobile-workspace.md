@@ -1,12 +1,10 @@
 ---
 title: Mobiel werkgebied Mijn team
-description: In dit onderwerp vindt u informatie over het mobiele werkgebied Mijn team, waarin managers hun directe ondergeschikten en uitgebreide personeel kunnen weergeven. Gebruikers kunnen ook lof versturen voor personen in hun rapportageketen.
+description: In dit onderwerp vindt u informatie over het mobiele werkgebied Mijn team, waarin managers hun directe ondergeschikten en uitgebreide personeel kunnen weergeven.
 author: ShielaSogge
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6ac3bf0a6ce20866f749b0c14030b70770e5589c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 74abb4ce77b4fc13c614e8e1b734e1b9f5f24e0a728a10b79508e6be4faf3dca
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680965"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767107"
 ---
 # <a name="my-team-mobile-workspace"></a>Mobiel werkgebied Mijn team
 
@@ -80,7 +78,7 @@ Download en installeer de mobiele Finance and Operations-app:
 3.  De eerste keer dat u zich aanmeldt, wordt u gevraagd uw gebruikersnaam en wachtwoord in te voeren. Voer uw referenties in.
 4.  Nadat u zich hebt aangemeld, worden de beschikbare werkgebieden voor uw bedrijf weergegeven. Houd er rekening mee dat als uw systeembeheerder later een nieuw werkgebied publiceert, u de lijst met mobiele werkgebieden moet vernieuwen.
 
-[![Opvragen om te vernieuwen](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Opvragen om te vernieuwen.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-team-members-by-using-the-my-team-mobile-workspace"></a>Teamleden weergeven met behulp van het mobiele werkgebied Mijn team
 1.  Selecteer in de mobiele app het werkgebied **Mijn team**. Een lijst met teamleden wordt weergegeven. De lijst bevat ook de titel van elk teamlid en eventuele directe ondergeschikten die het lid heeft.
@@ -97,3 +95,6 @@ Download en installeer de mobiele Finance and Operations-app:
 1.  Selecteer **Lovende kritiek verzenden**. 
 1. Voer de tekst in van de lovende kritiek die u wilt verzenden. 
 1. Selecteer **Gereed**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Productdimensiewaarden configureren die moeten worden weergegeven als stalen
 description: In dit onderwerp wordt beschreven hoe u productdimensiewaarden als stalen kunt configureren in Microsoft Dynamics 365 Commerce Headquarters.
 author: anupamar-ms
-ms.date: 08/02/2021
+ms.date: 05/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: b1cef992b3d4e3889dd1d5dcc21a0d1ba3f55acc166f5003fc79f64fc54a8754
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 513ec2f48a3c7c81a41fd64a9752067d12eb4ec8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764609"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353857"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Productdimensiewaarden configureren die moeten worden weergegeven als stalen
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
 In dit onderwerp wordt beschreven hoe u productdimensiewaarden als stalen kunt configureren in Microsoft Dynamics 365 Commerce Headquarters. Zie [Productdimensies](../../supply-chain/pim/product-dimensions.md) voor meer informatie over productdimensies.
 
@@ -46,7 +47,7 @@ De onderstaande afbeelding toont een voorbeeld waarin kleuren als stalen worden 
 
 ## <a name="enable-the-display-dimensions-as-swatches-feature-in-commerce-headquarters"></a>De functie Dimensies als stalen weergeven in Commerce Headquarters
 
-Als u de functie Dimensies als stalen weergeven wilt inschakelen in Commerce Headquarters, gaat u naar **Werkgebieden \> Functiebeheer** en schakelt u de functie **Een mechanisme inschakelen om dimensies als stalen weer te geven** in. Wanneer deze functievlag is ingeschakeld, worden er drie nieuwe velden toegevoegd voor elke dimensie in de betreffende tabellen in Commerce Headquarters: **Hexcode**, **URL** (voor afbeeldingen) en **RefinerGroup**.
+Als u de functie Dimensies als stalen weergeven wilt inschakelen in Commerce Headquarters, gaat u naar **Werkgebieden \> Functiebeheer** en schakelt u de functie **Afbeeldingsondersteuning voor productdimensiewaarden inschakelen** in. Wanneer deze functievlag is ingeschakeld, worden er drie nieuwe velden toegevoegd voor elke dimensie in de betreffende tabellen in Commerce Headquarters: **Hexcode**, **URL** (voor afbeeldingen) en **RefinerGroup**.
 
 ## <a name="configure-dimension-values-in-commerce-headquarters"></a>Dimensiewaarden configureren in Commerce Headquarters
 
@@ -125,22 +126,9 @@ Voordat stalen op e-commercesitepagina's kunnen worden weergegeven die dimensies
 
 Bovendien moet u de eigenschap **Productkenmerken opnemen in zoekresultaten** inschakelen voor modules van zoekresultaten. Als op uw site aangepaste categoriepagina's worden gebruikt, moet u de modules van de zoekresultaten die op die pagina's worden gebruikt, bijwerken zodat de eigenschap **Productkenmerken opnemen in zoekresultaten** wordt ingeschakeld. Zie [Module voor zoekresultaten](../search-result-module.md) voor meer informatie.
 
-## <a name="inventory-awareness-on-swatches"></a>Voorraadbeschikbaarheid weergeven met stalen
-
-Met stalen kunt u optioneel de voorraadbeschikbaarheid van een productvariantkleur of -dimensie weergeven. Een product wordt bijvoorbeeld in meerdere formaten verkocht, maar sommige formaten zijn niet op voorraad. In dit geval worden de stalen voor de niet-voorraadproducten anders weergegeven om aan te geven dat ze niet beschikbaar zijn. Dankzij deze mogelijkheid kunt u het aantal klantklikken beperken dat nodig is om de beschikbaarheid van producten te bepalen.
-
-De functie voor weergave van voorraadbeschikbaarheid met stalen kan worden geconfigureerd voor gebruik in zowel PDP´s als in zoek- of categorielijstpagina's waar stalen worden weergegeven. Als u deze functie wilt activeren, moet u de eigenschap **Media bijwerken voor dimensieselectie** instellen op **Waar** in de [mediagaleriemodule](../media-gallery-module.md). Met deze instelling kunnen afbeeldingen in mediagalerieën worden bijgewerkt wanneer dimensies worden geselecteerd. 
-
-> [!IMPORTANT]
-> De functie voor weergave van voorraadbeschikbaarheid met stalen is beschikbaar vanaf de release van Commerce versie 10.0.21. U moet pakketversie 9.31 van de modulebibliotheek van Commerce installeren.
-
-De volgende afbeelding bevat een voorbeeld van de weergave van voorraadbeschikbaarheid met groottestalen in een PDP.
-
-![Voorbeeld van de weergave van voorraadbeschikbaarheid met groottestalen in een PDP](../dev-itpro/media/swatch_inventory.png)
-
 ## <a name="display-swatches-in-pos-and-other-channels"></a>Stalen weergeven in POS en andere kanalen
 
-Commerce heeft op dit moment geen standaardimplementatie waarin de weergave van stalen wordt ondersteund in POS (Point of Sale) en andere kanalen. U kunt de functionaliteit voor weergave van stalen echter implementeren als een uitbreiding, omdat kanaal-API's de hexcodes en afbeelding-URL's retourneren die nodig zijn voor het weergeven van stalen.
+Commerce heeft op dit moment geen standaardimplementatie waarin de weergave van stalen wordt ondersteund in POS (Point of Sale) en andere kanalen. U kunt de functionaliteit voor weergave van stalen echter implementeren als extensie die ervoor zorgt dat kanaal-API's de hexcodes en afbeelding-URL's retourneren die nodig zijn voor het weergeven van stalen.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 32edf6534716236706847556a14b951f18ef40ae
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d61addbc4eac691351c2d8cac013c9d94bd900e9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969821"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264595"
 ---
 # <a name="set-up-assortments"></a>Assortimenten instellen
 
@@ -54,3 +54,6 @@ Na het voltooien van de vereisten kunt u een assortiment maken en dit aan uw kan
 2. Selecteer de kanalen of de groepen kanalen op hoog niveau waarop het assortiment van toepassing is.
 3. Productcategorieën, individuele producten of productvarianten toevoegen aan het assortiment. U kunt alle producten in een specifieke categorie plaatsen of u kunt geselecteerde producten uitsluiten van een categorie die is opgenomen in het assortiment.
 4. Assortiment publiceren. Wanneer u een assortiment publiceert, wordt de assortimentsplanner automatisch uitgevoerd. Dit proces genereert de lijst van producten. Na het uitvoeren van dit proces, worden deze producten beschikbaar voor de kanalen waar het productassortiment aan is toegewezen. Als wijzigingen zijn aangebracht aan een gepubliceerd assortiment of aan de kanalen waar het assortiment aan is toegewezen, moet het assortiment worden bijgewerkt. Om het assortiment bij te werken wanneer wijzigingen worden aangebracht, kunt u de assortimentsplanner uitvoeren als batchtaak.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

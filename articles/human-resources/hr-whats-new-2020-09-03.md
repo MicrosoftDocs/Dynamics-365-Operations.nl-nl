@@ -1,37 +1,36 @@
 ---
 title: Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (03 september 2020)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 3 september 2020.
-author: Darinkramer
-manager: tfehr
-ms.date: 9/03/2020
+author: andreabichsel
+ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ddffff18e1d6d16bd5a5f7e7021f9a34651307fa
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: d1cc3a64e6c345df7727f5ca7336821388c9dbcf
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527453"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063538"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-3-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (3 september 2020)
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Human Resources. Wijzigingen die van toepassing zijn op buildnummer 8.1.3504. De getallen tussen haakjes in sommige koppen verwijzen ter referentie naar ondersteuningsnummers in Lifecycle Services (LCS).
 
-Zie [overzicht van Dynamics 365 Human Resources 2019 releasewave 2 voor meer informatie over geplande functies in HRM](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/). Zie [Het updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces voor Human Resources.
+Zie [overzicht van Dynamics 365 Human Resources 2019 releasewave 2 voor meer informatie over geplande functies in HRM](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/). Zie [Het updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces voor Human Resources.
 
 ## <a name="in-this-release"></a>In deze versie
 
@@ -76,21 +75,21 @@ In het analyserapport wordt nu de juiste informatie voor **Loontarief** weergege
 
 Werknemers kunnen vrije tijd bekijken en aanvragen in Microsoft Teams. Ze kunnen met een bot werken om verlofaanvragen te maken. Ga voor meer informatie naar:
 
-- [Voorziening voor verlof en verzuim van werknemers in Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) in het Dynamics 365 2020 releasewave 1-plan
-- [Human Resources-app in Teams](https://go.microsoft.com/fwlink/?linkid=2127841) in Human Resources-documentatie
+- [Voorziening voor verlof en verzuim van werknemers in Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) in het Dynamics 365 2020 releasewave 1-plan
+- [Human Resources-app in Teams](./hr-admin-teams-leave-app.md) in Human Resources-documentatie
 
 ### <a name="human-resources-app-in-teams-preview-features"></a>Preview-functies op Human Resources-app in Teams
  
 -  **Meldingen**: inzenders en goedkeurders van verlofaanvragen worden in de Human Resources-app in Teams geïnformeerd. Fiatteurs kunnen verlofaanvragen goedkeuren of weigeren. Voor indieners wordt een melding weergegeven als de aanvraag is goedgekeurd of geweigerd. Ga voor meer informatie naar:
-   - [Voorziening voor verlof en verzuim van werknemers in Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) in het Dynamics 365 2020 releasewave 2-plan
-   - [Meldingen inschakelen voor de Human Resources-app in Teams](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#enable-notifications-for-the-human-resources-app-in-teams) in Human Resources-documentatie
-   - [Teams-meldingen in- of uitschakelen voor individuele gebruikers](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#turn-teams-notifications-on-or-off-for-individual-users) in Human Resources-documentatie
-   - [Teams-meldingen](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#teams-notifications) in Human Resources-documentatie
-   - [De verlofkalender van uw team weergeven](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#view-your-teams-leave-calendar) in Human Resources-documentatie
+   - [Voorziening voor verlof en verzuim van werknemers in Microsoft Teams](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) in het Dynamics 365 2020 releasewave 2-plan
+   - [Meldingen inschakelen voor de Human Resources-app in Teams](./hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) in Human Resources-documentatie
+   - [Teams-meldingen in- of uitschakelen voor individuele gebruikers](./hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users) in Human Resources-documentatie
+   - [Teams-meldingen](./hr-teams-leave-app.md#respond-to-teams-notifications) in Human Resources-documentatie
+   - [De verlofkalender van uw team weergeven](./hr-teams-leave-app.md#view-your-teams-leave-calendar) in Human Resources-documentatie
  
 - **Verlofagenda van manager**: managers kunnen goedgekeurde en in behandeling zijnde verlofaanvragen van hun ondergeschikten in een kalenderweergave bekijken. Deze weergave geeft duidelijk weer wanneer teamleden afwezig zijn. Ga voor meer informatie naar:
-   - [Voorziening voor verlof en verzuim van werknemers in Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) in het Dynamics 365 2020 releasewave 2-plan
-   - [De verlofkalender van uw team weergeven](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#view-your-teams-leave-calendar) in Human Resources-documentatie
+   - [Voorziening voor verlof en verzuim van werknemers in Microsoft Teams](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) in het Dynamics 365 2020 releasewave 2-plan
+   - [De verlofkalender van uw team weergeven](./hr-teams-leave-app.md#view-your-teams-leave-calendar) in Human Resources-documentatie
 
 ### <a name="configuration-option-to-position-work-items-assigned-to-me-list-477004"></a>Configuratieoptie om de lijst Aan mij toegewezen werkitems te positioneren (477004)
 
@@ -98,17 +97,17 @@ Er is nu een nieuwe optie beschikbaar om de lijst **Aan mij toegewezen werkitems
 
 Deze functie bevordert ook de werkstroomopties die worden weergegeven in de formulieren voor personeelsacties. Werkstroomopties worden ook boven het sneltabblad Actie weergegeven voor snelle toegang. Ga voor meer informatie naar: 
 
-- [Verbeteringen in de werkstroom voor organisatie- en personeelsbeheer](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) in het Dynamics 365 2020 releasewave 2-abonnement
+- [Verbeteringen in de werkstroom voor organisatie- en personeelsbeheer](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) in het Dynamics 365 2020 releasewave 2-abonnement
 
-![Aan mij toegewezen werkitems](./media/hr-workflow-work-items-assigned-to-me.png)
+![Aan mij toegewezen werkitems.](./media/hr-workflow-work-items-assigned-to-me.png)
 
-![Snelle toegang tot werkstroomitems](./media/hr-workflow-quick-access.png)
+![Snelle toegang tot werkstroomitems.](./media/hr-workflow-quick-access.png)
 
 ## <a name="coming-soon"></a>Binnenkort beschikbaar
 
-### <a name="checklist-entities-included-in-common-data-service"></a>Check List-entiteiten opgenomen in Common Data Service
+### <a name="checklist-entities-included-in-dataverse"></a>Check List-entiteiten opgenomen in Dataverse
 
-Controlelijstentiteiten voor de processen Onboarding, Offboarding, Overdracht en Bedrijfs zijn binnenkort beschikbaar in Common Data Service.
+Controlelijstentiteiten voor de processen Onboarding, Offboarding, Overdracht en Bedrijfs zijn binnenkort beschikbaar in Dataverse.
 
 ### <a name="benefits-management-reason-codes"></a>Redencodes voor vergoedingenbeheer
 
@@ -117,6 +116,9 @@ Redencodes voor vergoedingenbeheer worden binnenkort gecombineerd met bestaande 
 ## <a name="see-also"></a>Zie ook
 
 [Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)</br>
-[Overzicht van releasewave 2 van Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Overzicht van releasewave 2 van Dynamics 365 Human Resources](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Het updateproces](hr-admin-setup-update-process.md)</br>
 [Functies beheren](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

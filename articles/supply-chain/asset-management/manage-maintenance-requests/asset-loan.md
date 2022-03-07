@@ -1,12 +1,10 @@
 ---
 title: Geleende activa
 description: In dit onderwerp wordt beschreven hoe u geleende activa registreert in Activabeheer.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectLoanSend, EntAssetObjectLoanListPage, EntAssetObjectLoanReturn, EntAssetObjectLoanInfoPart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 355e3d3e0e952db14a03810145528f9701804ca2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 65809d9be39372412d5d6b419f7356fe2c9668a1a01ede32ef52cbd66753e6d7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022327"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752845"
 ---
 # <a name="asset-loans"></a>Geleende activa
 
@@ -46,7 +44,7 @@ Als uw bedrijf activa ontvangt voor reparatie- of onderhoudstaken van interne ve
 
 Als u een lijst wilt weergeven met alle activa die u hebt uitgeleend aan andere vestigingen of klanten, selecteert u **Activabeheer** \>**Algemeen** \>**Geleend activum** \>**Alle geleende activa**. Als het selectievakje **Beëindigd** is ingeschakeld voor een activum, is het activum geregistreerd als geretourneerd aan uw bedrijf.
 
-![Onderhoudsaanvragen beheren](media/06-manage-maintenance-requests.png)
+![Onderhoudsaanvragen beheren.](media/06-manage-maintenance-requests.png)
 
 Op de pagina **Actieve geleende activa** kunt u een lijst weergeven met alle geleende activa die nog niet aan uw bedrijf zijn geretourneerd.
 
@@ -57,3 +55,6 @@ Op de pagina **Actieve geleende activa** kunt u een lijst weergeven met alle gel
 3. Voer de datum en de tijd in het veld **Geretourneerd** in.
 4. Selecteer **OK**.
 5. Vernieuw de pagina met de lijst **Actieve geleende activa** en u ziet dat het geleende activum niet meer op de lijst voorkomt.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

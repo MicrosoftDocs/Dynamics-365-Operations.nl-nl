@@ -2,11 +2,9 @@
 title: Back-upopslag van ER-sjablonen
 description: In dit onderwerp wordt uitgelegd hoe u de back-upopslag voor elektronische rapportage (ER) gebruikt voor het herstellen van sjablonen.
 author: NickSelin
-manager: AnnBe
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 136a81e661590d7af879e816c1142de85fb72e06
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b5de8b9dc06cf10bda1932d5f4ee4484cdae591564fdcd5dd28c5036b82abc66
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681395"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767872"
 ---
 # <a name="backup-storage-of-er-templates"></a>Back-upopslag van ER-sjablonen
 
@@ -67,19 +65,19 @@ Als u de parameter **Automatisch de procedure uitvoeren voor het in batch herste
 > [!NOTE]
 > Deze parameter is gedefinieerd voor de toepassingsgebruiker en geldt specifiek voor het aangemelde bedrijf.
 
-![Pagina ER-configuraties](./media/GER-BackupTemplates-1.png)
+![Pagina ER-configuraties.](./media/GER-BackupTemplates-1.png)
 
 In de volgende afbeelding toont een voorbeeld van het bericht dat wordt weergegeven wanneer de parameter **Automatisch de procedure uitvoeren voor het in batch herstellen van de gebroken sjablonen** is ingesteld op **Aan**.
 
-![Pagina Journaal met betalingen van leverancier](./media/GER-BackupTemplates-2.png)
+![Pagina Journaal met betalingen van leverancier.](./media/GER-BackupTemplates-2.png)
 
 In de volgende afbeelding ziet u het batchproces **Verbroken sjablonen terugzetten uit interne databaseback-up** op de pagina **Batchtaak**.
 
-![Pagina Batchtaak](./media/GER-BackupTemplates-3.png)
+![Pagina Batchtaak.](./media/GER-BackupTemplates-3.png)
 
 Het uitvoeringslogboek van het voltooide batchproces **Verbroken sjablonen terugzetten uit interne databaseback-up** bevat informatie over de sjablonen die zijn hersteld uit de back-upopslaglocatie naar de primaire opslaglocatie.
 
-![Pagina Batchtaakhistorie](./media/GER-BackupTemplates-4.png)
+![Pagina Batchtaakhistorie.](./media/GER-BackupTemplates-4.png)
 
 Het proces van het automatisch maken van back-ups van sjablonen in de ER-indelingsconfiguraties is standaard ingeschakeld. Als u wilt stoppen met het maken van back-ups van sjablonen, stelt u de optie **Stoppen met het maken van back-upkopieën van sjablonen** in op **Ja** op het tabblad **Bijlagen** van de pagina **Parameters van elektronische rapportage**. U kunt deze pagina openen via het werkgebied **Elektronische rapportage**.
 
@@ -87,7 +85,7 @@ Als u de optie **Stoppen met het maken van back-upkopieën van sjablonen** hebt 
 
 Als u uw omgeving hebt opgewaardeerd naar Finance and Operations, versie 10.0.5 (oktober 2019) en u wilt migreren naar een nieuwe omgeving waarin de ER-indelingsconfiguraties zijn opgenomen die kunnen worden uitgevoerd, selecteert u **Back-upopslag invullen** op de pagina **Parameters van elektronische rapportage** voordat de migratie plaatsvindt. Met deze knop start u het proces van het maken van back-ups van alle beschikbare sjablonen, zodat deze kunnen worden opgeslagen op de ER-opslaglocatie voor back-ups van sjablonen.
 
-![Pagina Parameters van elektronische rapportage](./media/GER-BackupTemplates-5.png)
+![Pagina Parameters van elektronische rapportage.](./media/GER-BackupTemplates-5.png)
 
 ## <a name="manual-recovery"></a>Handmatig herstel
 
@@ -102,3 +100,6 @@ In Finance and Operations versie 10.0.5 is de functie Back-upopslag van ER-sjabl
 [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 
 [Raamwerk elektronische rapportage (ER) configureren](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

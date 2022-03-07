@@ -2,16 +2,13 @@
 title: Randapparaten aansluiten op het verkooppunt (POS)
 description: In dit onderwerp wordt beschreven hoe u randapparatuur aansluit op uw Retail POS.
 author: rubencdelgado
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 92383
 ms.assetid: 83f31ea6-f0a2-4501-9d4d-a37b6eec2599
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ec64cb8a7c490c6798a897fd20a56e5af5c8be3a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f00ca2748c3c8f7ec839069f21a5846377b6be04
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411296"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349547"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Randapparaten aansluiten op het verkooppunt (POS)
 
@@ -81,7 +78,7 @@ Terwijl het hardwarestation zelf is opgegeven op kanaalniveau en exemplaarspecif
 
 ### <a name="mpos-with-connected-peripheral-devices"></a>MPOS met aangesloten randapparaten
 
-[![Traditioneel, vast verkooppunt](./media/traditional-300x279.png)](./media/traditional.png)
+[![Traditioneel, vast verkooppunt.](./media/traditional-300x279.png)](./media/traditional.png)
 
 Als u MPOS wilt verbinden met POS-randapparaten volgens een traditioneel, vast POS-scenario, gaat u eerst naar de kassa zelf en wijst u hieraan een hardwareprofiel toe. U vindt de POS-kassa's onder **Retail en Commerce** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **Kassa's**. 
 
@@ -100,7 +97,7 @@ Gebruik tot slot, in MPOS, de bewerking **Hardwarestation selecteren** om het ha
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>MPOS of Cloud POS met een zelfstandig hardwarestation
 
-[![Gedeelde randapparatuur](./media/shared-300x254.png)](./media/shared.png)
+[![Gedeelde randapparatuur.](./media/shared-300x254.png)](./media/shared.png)
 
 In dit scenario wordt een zelfstandig hardwarestation gedeeld door MPOS- en Cloud POS-clients. In dit scenario moet u een profiel voor een hardwarestation maken om het downloadpakket, de poort en het hardwareprofiel op te geven dat het hardwarestation gebruikt. U kunt het profiel voor een hardwarestation vinden onder **Retail en Commerce** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Profielen van hardwarestation**. 
 
@@ -205,3 +202,6 @@ Meer informatie met betrekking tot activering omvat de werknemer die de activeri
 ### <a name="client-data-synchronization"></a>Synchronisatie van clientgegevens
 
 Alle wijzigingen in een POS-client, met uitzondering van de wijzigingen in de status van de apparaatactivering, worden pas van kracht na synchronisatie met de kanaaldatabase. Om wijzigingen te synchroniseren met de kanaaldatabase, gaat u naar **Retail en Commerce** &gt; **Retail en Commerce IT** &gt; **Distributieplanning** en voert u de vereiste distributieplanning uit. Voor clientwijzigingen moet u de distributieplanningen **Kassa's** en **Kanaalconfiguratie** uitvoeren.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

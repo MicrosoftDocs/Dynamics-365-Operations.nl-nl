@@ -2,15 +2,12 @@
 title: Werknemerverlof beheren
 description: Werknemerverlof beheren in Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
-ms.date: 11/02/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,19 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 627c8959b1845fbad761a85bdca7dc93bfc6a105
-ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
+ms.openlocfilehash: ccdf2346e3fdecf4f27fc9f34f0641d3b1fb5b55
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "4418068"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067372"
 ---
 # <a name="manage-employee-leave"></a>Werknemerverlof beheren
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 U kunt het verlof van een werknemer op verloftype beheren. Dit omvat de vervalregistratie voor verlof en het aanpassen van saldi voor de typen verlof. 
 
@@ -45,14 +47,16 @@ U kunt het verlof van een werknemer op verloftype beheren. Dit omvat de vervalre
 
 U kunt een redencode en een opmerking opnemen bij het aanpassen van het verlofsaldo van een werknemer. 
 
->[!IMPORTANT]
->Aanvullende informatie over verlofsaldi wordt weergegeven. U moet deze in uw **Sandbox**-omgeving inschakelen. Zie [Functies beheren](hr-admin-manage-features.md) voor meer informatie over het inschakelen van previewfuncties.<br>
->Wanneer u de aanwijzer op een verlofsaldo houdt, ziet u het volgende:<br>
->- **Beschikbaar** : totaal dit jaar - op te nemen dit jaar
->- **Totaal dit jaar**: alle grootboekposten, correcties en transportsaldi voor het jaar
->- **Dit jaar opgenomen** : alle goedgekeurde vrije dagen
+Wanneer u nu over een verlofsaldo beweegt, worden de volgende gegevens weergegeven:
+
+- **Beschikbaar**: de waarde **Totaal voor dit jaar** min de waarde **Dit jaar opgenomen**.
+- **Totaal voor dit jaar**: alle grootboekposten, correcties en transportsaldi voor het jaar.
+- **Dit jaar opgenomen**: alle goedgekeurde vrije dagen.
 
 ## <a name="see-also"></a>Zie ook
 
 - [Overzicht van verlof en verzuim](hr-leave-and-absence-overview.md)
 - [Verlof- en verzuimaanvragen beheren](hr-employee-self-service-manage-requests.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

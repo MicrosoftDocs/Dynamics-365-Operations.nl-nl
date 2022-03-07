@@ -2,11 +2,9 @@
 title: Stuklijsten en formules
 description: Dit onderwerp bevat informatie over stuklijsten en formules, die een centraal deel uitmaken van de definitie van producten en productvarianten.
 author: cvocph
-manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMConsistOf, BOMDesigner, BOMTable, EcoResProductProcessManufacturingWorkspace, ProdBOM, ProdJournalTransBOM, ProdBOMCurrent, PmfBOMDesignerEditCoBy, ProdJournalPickingListLineSummary, ProdBOMOverview, PmfCoReqPlanning, EcoResProductProdTypeFormulaNoActiveFormulaFormPart, EcoResItemsMissingActiveRouteVersionFormPart, EcoResItemsProdTypeBOMExpiringBOMFormPart, BOMDesignerBOMVersion, BOMExpandPurch, BOMChangeLine, BOMExpandSales, EcoResItemsProdTypeBOMExpiringRouteFormPart, EngChgEcmBomDesigner, EngChgEcmProductBOMItemIdLookup, EngChgEcmProductBOMConsistOf, EngChgEcmBOMCopyDialog, EngChgEcmBomDesignerEditBom, BOMDesignerFilterDialog, BOMDesignerFilterDialog, BOMPartOf, BOMSetupReportFinish, EcoResItemsMissingActiveBOMVersionFormPart, BOMIdLookup, EcoResProductProdTypeFormulaNoActiveRouteFormPart, BOMExpandPurchRFQ, EngChgCaseRouteTablePart
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01491f15405e28e63e4b83f9a9c7af90c2e4a1b5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bb9b26eaedd9e9645209ce0b4b767170cccfdc48
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966475"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190107"
 ---
 # <a name="bills-of-materials-and-formulas"></a>Stuklijsten en formules
 
@@ -31,8 +29,7 @@ ms.locfileid: "4966475"
 
 Dit onderwerp bevat informatie over stuklijsten en formules, die een centraal deel uitmaken van de definitie van producten en productvarianten. Met stuklijsten en formules worden de benodigde materialen of ingrediënten voor een specifiek product opgegeven. Met formules worden ook de coproducten en bijproducten opgegeven die worden ontvangen in een specifieke productiecontext. 
 
-<a name="bills-of-materials"></a>Stuklijsten
-------------------
+## <a name="bills-of-materials"></a>Stuklijsten
 
 Met een stuklijst worden de onderdelen gedefinieerd die vereist zijn om een product te produceren. De onderdelen kunnen grondstoffen, halffabrikaten of ingrediënten zijn. In sommige gevallen kan naar services worden verwezen in een stuklijst. Met stuklijsten worden gewoonlijk de *materiaalresources* beschreven die zijn vereist.  
 
@@ -117,3 +114,6 @@ Selecteer het regeltype **Leverancier** als in het productieproces een toelevera
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

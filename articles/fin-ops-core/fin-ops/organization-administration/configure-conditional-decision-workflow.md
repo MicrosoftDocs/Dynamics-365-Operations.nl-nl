@@ -2,11 +2,9 @@
 title: Voorwaardelijke beslissingen configureren in een workflow
 description: Met behulp van de volgende procedure kunt u de eigenschappen van een voorwaardelijke beslissing configureren.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a880d4be461ea9b2caa61b7d038f9b24486a919
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: ed53eeb26e1b4b1df1647739ce1d115c7dd169f8
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798874"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747926"
 ---
 # <a name="configure-conditional-decisions-in-a-workflow"></a>Voorwaardelijke beslissingen configureren in een workflow
 
@@ -52,3 +50,6 @@ Het systeem bepaalt welke tak wordt gebruikt om het aangeboden document te verwe
     2. Selecteer een record in het gebied **Voorwaarde valideren** van het formulier.
     3. Klik op **Testen**. Het systeem evalueert de registratie en bepaalt of het voldoet aan de voorwaarden die u hebt gedefinieerd.
     4. Klik op **OK** of **Annuleren** om terug te gaan naar het formulier **Eigenschappen**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

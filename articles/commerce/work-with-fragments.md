@@ -1,36 +1,31 @@
 ---
 title: Werken met fragmenten
-description: In dit onderwerp wordt beschreven waarom, wanneer en hoe u fragmenten in gebruikt Microsoft Dynamics 365 Commerce.
+description: In dit onderwerp wordt beschreven waarom, wanneer en hoe u fragmenten gebruikt in Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f1525610fb16edd5ff9ccefe0194f6f27b797b62
-ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
+ms.openlocfilehash: 1fa55ab83562983273768895db61032ec7199fa6
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4411505"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793940"
 ---
 # <a name="work-with-fragments"></a>Werken met fragmenten 
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven waarom, wanneer en hoe u fragmenten in gebruikt Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
+In dit onderwerp wordt beschreven waarom, wanneer en hoe u fragmenten gebruikt in Microsoft Dynamics 365 Commerce.
 
 Fragmenten bieden een gecentraliseerde ontwerpervaring voor moduleconfiguraties die op de gehele site opnieuw moeten worden gebruikt. Kopteksten, voetteksten en banners worden vaak vaak als fragmenten geconfigureerd, omdat ze over meerdere pagina's worden gedeeld. U kunt fragmenten zien als miniatuurwebpagina's die in andere pagina's op uw site kunnen worden ingevoegd. Fragmenten hebben hun eigen levenscyclus. Met andere woorden ze worden in de ontwerphulpmiddelen als onafhankelijke entiteiten gemaakt, als verwijzing genoemd, bijgewerkt en verwijderd.
 
@@ -136,3 +131,6 @@ U kunt een fragment ook bewerken door het te selecteren op een pagina, in een sj
 [Werken met vooraf ingestelde indelingen](work-with-layouts.md)
 
 [Werken met publicatiegroepen](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

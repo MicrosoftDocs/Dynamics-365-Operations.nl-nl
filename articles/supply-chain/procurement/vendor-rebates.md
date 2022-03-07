@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 46d6beb287f7d034c6fde09999f7854695a4987c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b0bbb97625b9746f8332eb75cac0ab0b904ca7e1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966650"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246592"
 ---
 # <a name="vendor-rebates"></a>Leverancierskortingen
 
@@ -166,3 +166,6 @@ Het proces voor het verwerken van leverancierskortingen omvat meerdere, vaak saa
 - Nauwkeurige kortingsclaims genereren
 - De verwachte te ontvangen en tussentijdse winst boeken in het grootboek
 - Het saldo van de leverancier en het inkomstenoverzicht bijwerken met de vergoeding die verschuldigd is
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

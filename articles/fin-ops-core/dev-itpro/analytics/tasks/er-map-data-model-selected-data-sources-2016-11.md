@@ -1,12 +1,10 @@
 ---
 title: Er Wjis gegevensmodel toe aan geselecteerde gegevensbronnen
-description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een ER-gegevensmodel (elektronische rapportage) kan toewijzen aan geselecteerde Microsoft Dynamics 365 Finance-gegevensbronnen.
+description: In dit onderwerp wordt beschreven hoe u een ER-gegevensmodel (Electronic Reporting) toewijst aan geselecteerde Microsoft Dynamics 365 Finance-gegevensbronnen.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d2d09370b0e08897799d40c41c20c21b58e885dc
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 60c20f6616d406bdd1ccdf42ac62eb4c1c5d27040f32469fa6dd370c41830450
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684302"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775971"
 ---
 # <a name="er-map-data-model-to-selected-data-sources"></a>Er Wjis gegevensmodel toe aan geselecteerde gegevensbronnen
 
@@ -146,3 +144,6 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeemb
 5. Selecteer de ingevulde versie van de huidige configuratie.
     * Merk op dat de gemaakte configuratie wordt opgeslagen als voltooide versie 1.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

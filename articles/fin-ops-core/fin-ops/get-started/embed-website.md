@@ -2,7 +2,7 @@
 title: Apps van derden insluiten
 description: In dit onderwerp wordt uitgelegd hoe u apps van derden kunt insluiten om de functionaliteit van het product te verbeteren.
 author: jasongre
-ms.date: 09/13/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,16 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 89f101bcf33080f6a73664fe7c3fe6719de04a4e
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: b0471fd2ea9a5e8b07b9e8bc279da53f6a1539ca
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488229"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345405"
 ---
 # <a name="embed-third-party-apps"></a>Apps van derden insluiten
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Veel klanten gebruiken een meerdere toepassingen om hun activiteiten uit te voeren. Sommige van deze toepassingen zijn webtoepassingen van derden, die werken in combinatie met Finance and Operations-apps. Voor een soepele gebruikerservaring kunt u met de functie **Apps op volledige pagina (preview)** deze toepassingen van derden rechtstreeks in uw Finance and Operations-apps insluiten (als deze toepassingen van derden het toelaten te worden ingesloten). Op deze manier hebben gebruikers toegang tot de websites en apps die ze nodig hebben, zonder dat ze tussen tabbladen of vensters moeten wisselen.
 

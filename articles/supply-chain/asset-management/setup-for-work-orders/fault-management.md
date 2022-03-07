@@ -1,12 +1,10 @@
 ---
 title: Foutbeheer
 description: In dit onderwerp wordt foutbeheer in Activabeheer uitgelegd.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetFaultArea, EntAssetFaultDesigner, EntAssetFaultCopyFromObjectType, EntAssetFaultRemedy, EntAssetObjectFaultRelationRequestInfoPart, EntAssetObjectFaultRelationWorkOrderInfoPart, EntAssetFaultCreateCombinations, EntAssetObjectFaultSymptom, EntAssetObjectFaultSymptomListPage, EntAssetFaultType, EntAssetFaultSymptom, EntAssetFaultCause
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 176fbebcf88e7557bf2bafc56524cd2ec015220e
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: c87bfa057fd2808551674f2acb9d654ad47e9a42
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020959"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825657"
 ---
 # <a name="fault-management"></a>Foutbeheer
 
@@ -132,3 +130,6 @@ Volg deze stappen om een lijst met suggesties voor oplossing en reparatie te mak
 
 > [!NOTE]
 > U kunt de namen van uw foutsymptomen, -gebieden, -typen, -oorzaken en -oplossingen wijzigen als dat nodig is. De naamswijzigingen worden automatisch weergegeven in de gerelateerde foutregistraties.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

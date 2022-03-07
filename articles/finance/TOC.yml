@@ -4,32 +4,6 @@
       items:
         - name: Startpagina van Dynamics 365 Finance
           href: index.md
-        - name: Nieuwe of gewijzigde functies
-          items:
-            - name: Nieuw of gewijzigd in Finance and Operations-apps
-              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-            - name: Nieuwe of gewijzigde functies in Finance
-              items:
-                - name: Startpagina voor nieuwe of gewijzigde functies in Finance
-                  href: get-started/whats-new-home-page.md
-                - name: Finance 10.0.25 (april)
-                  href: get-started/whats-new-changed-10-0-25.md
-                - name: Finance 10.0.24 (februari)
-                  href: get-started/whats-new-changed-10-0-24.md
-                - name: Finance 10.0.23 (januari)
-                  href: get-started/whats-new-changed-10-0-23.md
-            - name: Verwijderde of afgeschafte functies
-              items:
-                - name: Startpagina voor verwijderde of afgeschafte functies
-                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
-                - name: Verwijderde of afgeschafte functies in Dynamics 365 Finance
-                  href: get-started/removed-deprecated-features-finance.md
-                - name: Verwijderde of afgeschafte functies in eerdere releases
-                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
-            - name: AX 2012-functies die zijn uitgesteld
-              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
-            - name: Einde van basisondersteuning voor Microsoft Dynamics AX 2009 en 2012
-              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
         - name: Aan de slag
           items:
             - name: Beschrijving van service
@@ -88,6 +62,38 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Magazijnbeheer configureren voor on-premises implementaties
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
+                - name: Finance and Operations-apps die worden geëxploiteerd door 21Vianet in China
+                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/finance/toc.json
+                - name: Finance and Operations-apps in Frankrijk
+                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
+            - name: Nieuwe of gewijzigde functies
+              items:
+                - name: Nieuwe of gewijzigde functies in Finance and Operations-apps
+                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
+                - name: Nieuwe of gewijzigde functies in Finance
+                  items:
+                    - name: Startpagina voor nieuwe of gewijzigde functies in Finance
+                      href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.22 (november 2021)
+                      href: get-started/whats-new-changed-10-0-22.md
+                    - name: Finance 10.0.21 (oktober 2021)
+                      href: get-started/whats-new-changed-10-0-21.md
+                    - name: Finance 10.0.20 (augustus 2021)
+                      href: get-started/whats-new-changed-10-0-20.md
+                    - name: Finance 10.0.19 (juni 2021)
+                      href: get-started/whats-new-changed-10-0-19.md
+            - name: Verwijderde of afgeschafte functies
+              items:
+                - name: Startpagina voor verwijderde of afgeschafte functies
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
+                - name: Verwijderde of afgeschafte functies in Dynamics 365 Finance
+                  href: get-started/removed-deprecated-features-finance.md
+                - name: Verwijderde of afgeschafte functies in eerdere releases
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
+            - name: AX 2012-functies die zijn uitgesteld
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
+            - name: Einde van basisondersteuning voor Microsoft Dynamics AX 2009 en 2012
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
             - name: Documentatiebronnen
               items:
                 - name: Help-systeem
@@ -104,6 +110,8 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/finance/toc.json
                 - name: Video's
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/finance/toc.json
+                - name: Woordenlijst
+                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/finance/toc.json
             - name: Trainingscatalogus
               items:
                 - name: Startpagina trainingscatalogus
@@ -218,9 +226,7 @@
                   href: accounts-payable/vendor-copy.md
                 - name: Een leveranciersfactuur in het factuurjournaal registreren
                   href: accounts-payable/tasks/record-vendor-invoice-invoice-journal.md
-                - name: Een betalingsschema toepassen op het factuurjournaal
-                  href: accounts-payable/payment-invoice-journal.md
-            - name: Facturen en hoofdgegevens controleren in Leveranciers
+            - name: Facturen en hoofdgegevens controleren in leveranciers
               href: general-ledger/tasks/audit-invoices-key-data-ap-system.md
             - name: Drieweg-overeenstemmingsbeleid
               href: accounts-payable/three-way-matching-policies.md
@@ -236,10 +242,6 @@
                   href: accounts-payable/auto-vendr-invc-process.md
                 - name: Instellingsopties voor de automatisering van leveranciersfacturering
                   href: accounts-payable/vnd-invoice-set-up-options.md
-                - name: Aanbetalingen automatisch toepassen op overzicht met leveranciersfacturen
-                  href: accounts-payable/apply-prepymnts-overview.md
-                - name: Factuurregels genereren bij het importeren van leveranciersfacturen
-                  href: accounts-payable/auto-create-invc-lines-at-import.md
                 - name: Facturen indienen bij het werkstroomsysteem en productontvangstbonregels koppelen
                   href: accounts-payable/submit-invoice-workflow-automatically.md
                 - name: Resultaten van de automatisering van leveranciersfacturering weergeven
@@ -272,8 +274,6 @@
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: Boekingsprofielen van leverancier
               href: accounts-payable/vendor-posting-profiles.md
-            - name: Datums leveranciersfacturen
-              href: accounts-payable/vendor-invoice-dates.md
             - name: Herwaardering van vreemde valuta voor Leveranciers en Klanten
               href: cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md
             - name: Mobiele factuurgoedkeuringen
@@ -286,8 +286,6 @@
               href: accounts-payable/broker-contract.md
             - name: Beheer van royaltycontracten
               href: accounts-payable/royalty-contract.md
-            - name: Verwijzing naar oorspronkelijke facturen in creditnota's (leveranciersfacturen)
-              href: accounts-payable/gbl-original-invoice-numbers-credit-notes-ap.md
             - name: Betalingen en vereffeningen
               items:
                 - name: Gecentraliseerde betalingen voor Leveranciers
@@ -408,12 +406,6 @@
                   href: accounts-receivable/rev-rec-reallocation-scenario-3.md
                 - name: Hertoewijzing van opbrengsttoerekening - scenario 4
                   href: accounts-receivable/rev-rec-reallocation-scenario-4.md
-            - name: Facturering van abonnementen
-              items:
-                - name: Overzicht van facturering van abonnementen
-                  href: accounts-receivable/subscription-billing-summary.md
-                - name: Factureringsschema's instellen
-                  href: accounts-receivable/sb-billing-schedules.md
             - name: Betalingen en vereffeningen
               items:
                 - name: Overzicht van klantbetalingen
@@ -458,8 +450,6 @@
                   href: accounts-receivable/tasks/review-collections-information.md
                 - name: Automatisering van incassoproces
                   href: accounts-receivable/collections-process-automate.md
-                - name: Parameters voor automatisering van incassoproces configureren
-                  href: accounts-receivable/config-paramtrs-collections-proc-automate.md
                 - name: Instellingen voor kredietbeheer
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: Informatie voor het instellen van kredietbeheer
@@ -496,14 +486,12 @@
               href: accounts-receivable/tasks/process-collection-letters.md
             - name: Voorbeeld van aanmaningen verwerken
               href: accounts-receivable/process-collection-letters-example.md
-            - name: De naar ouderdom gerangschikte informatie over klanten instellen en genereren
+            - name: Informatie over ouderdom van klanten instellen en genereren
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
             - name: Ouderdomsmomentopname klant
               href: accounts-receivable/customer-aging-snapshot.md
-            - name: Naar ouderdom gerangschikt rapport over klanten
+            - name: Rapport van naar ouderdom gerangschikte door klanten verschuldigde saldi
               href: accounts-receivable/customer-aging.md
-            - name: Opslag van naar ouderdom gerangschikte gegevens van klanten
-              href: accounts-receivable/customer-aging-data-storage.md
             - name: Een afschrijvingsjournaal voor een klant maken
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Beheer van geavanceerde notities
@@ -524,8 +512,6 @@
               href: budgeting/budget-control-overview-configuration.md
             - name: Overzicht van Budgettering
               href: budgeting/basic-budgeting-overview-configuration.md
-            - name: Beschikbare budgetfondsen
-              href: budgeting/budget-funds-available.md
             - name: Prognosepositie
               href: budgeting/position-forecasting.md
             - name: Verantwoordingsdocumenten voor budgetplanning
@@ -714,6 +700,48 @@
               href: general-ledger/electronic-messaging-work-with-em.md
             - name: Een eenvoudige export-ER-indeling aanroepen om een Excel-rapport te genereren
               href: general-ledger/electronic-messaging-example.md
+        - name: Onkostenbeheer
+          items:
+            - name: Overzicht van Onkostenbeheer
+              href: /dynamics365/project-operations/prod-exp/expense-management
+            - name: Opnieuw ontworpen onkostendeclaraties
+              href: /dynamics365/project-operations/prod-exp/ExpenseWorkspaceNew
+            - name: Onkostenbeheer plannen
+              href: /dynamics365/project-operations/prod-exp/plan-expense-management
+            - name: Parameters onkostenbeheer
+              href: /dynamics365/project-operations/prod-exp/Expense-Management-Parameters
+            - name: Mobiel werkgebied voor onkostenbeheer
+              href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace
+            - name: Werkstromen instellen voor onkostenbeheer
+              href: /dynamics365/project-operations/prod-exp/expense-workflows
+            - name: Werkstroom voor onkostenbeheer
+              href: /dynamics365/project-operations/prod-exp/expense-workflow
+            - name: Onkostendelegering beheren
+              href: /dynamics365/project-operations/prod-exp/manage-expense-delegation
+            - name: Verwerking van onkostenkwitanties
+              href: /dynamics365/project-operations/prod-exp/expense-receipt-processing
+            - name: Creditcardtransacties importeren en onderhouden
+              href: /dynamics365/project-operations/prod-exp/import-credit-card
+            - name: Verdelingen in een onkostendeclaratie
+              href: /dynamics365/project-operations/prod-exp/expense-report-distributions
+            - name: Intercompany-onkosten
+              href: /dynamics365/project-operations/prod-exp/intercompany-expense
+            - name: Onkostenbeleid definiëren
+              href: /dynamics365/project-operations/prod-exp/travel-expense-policies
+            - name: Een onkostendeclaratie weergeven
+              href: /dynamics365/project-operations/prod-exp/view-expense-report
+            - name: Een onkostendeclaratie boeken
+              href: /dynamics365/project-operations/prod-exp/post-expense
+            - name: Onkostendeclaraties en meerdere goedkeurders
+              href: /dynamics365/project-operations/prod-exp/expense-report-multiple-approvers
+            - name: Btw-restitutie in Onkostenbeheer
+              href: /dynamics365/project-operations/prod-exp/VAT-expense-report
+            - name: Per diem-regels
+              href: /dynamics365/project-operations/prod-exp/per-diem
+            - name: Reisaanvragen
+              href: /dynamics365/project-operations/prod-exp/travel-req
+            - name: Persoonlijke onkosten in een onkostendeclaratie
+              href: /dynamics365/project-operations/prod-exp/personal-expenses
         - name: Vaste activa
           items:
             - name: Startpagina van Vaste activa
@@ -842,8 +870,6 @@
                   href: asset-leasing/set-up-lease-books.md
                 - name: Een leasegroep maken
                   href: asset-leasing/create-lease-group.md
-                - name: Type betalingsbedrag
-                  href: asset-leasing/Payment-amount-type.md
                 - name: Indextarieven instellen
                   href: asset-leasing/set-up-index-rate-types.md
                 - name: Onkostentypen instellen
@@ -904,144 +930,144 @@
               href: asset-leasing/asset-leasing-rprts.md
         - name: Grootboek
           items:
-            - name: Startpagina Grootboek
+            - name: Overzicht van grootboek
               href: general-ledger/general-ledger.md
-            - name: Rekeningschema
+            - name: Rekeningen
               items:
+                - name: Overzicht van transitorische posten
+                  href: general-ledger/accruals-overview.md
+                - name: Schrappingregels
+                  href: general-ledger/elimination-rules.md
+                - name: Combinaties van rekeningen en dimensies
+                  href: general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
+                - name: Evenwichtige journalen voor interunit-boekhouding
+                  href: general-ledger/example-balanced-journals-interunit-accounting.md
+                - name: Boekdefinities
+                  href: general-ledger/posting-definitions.md
+                - name: Voorbeelden van boekdefinities
+                  href: general-ledger/example-posting-definitions.md
+                - name: Standaard beschrijvingen voor automatische boeking instellen
+                  href: general-ledger/set-up-default-descriptions-for-automatic-posting.md
+                - name: Grootboekrekeningsaldi
+                  href: general-ledger/general-ledger-account-balances.md
+                - name: Financiële dimensies definiëren
+                  href: general-ledger/tasks/define-financial-dimensions.md
+                - name: Standaardsjablonen voor financiële dimensies onderhouden
+                  href: general-ledger/tasks/maintain-financial-dimension-default-templates.md
+                - name: Financiële-dimensiesets
+                  href: general-ledger/financial-dimension-sets.md
+                - name: Rekeningstructuren maken
+                  href: general-ledger/tasks/create-account-structures.md
+                - name: Financiële dimensies en boeken
+                  href: general-ledger/default-dimensions.md
+                - name: Toerekeningsschema's maken
+                  href: general-ledger/tasks/create-accrual-schemes.md
+                - name: Financiële consolidaties en valutaomzetting
+                  items:
+                    - name: Overzicht van Financiële consolidaties en valutaomzetting
+                      href: general-ledger/financial-consolidations-currency-translation.md
+                    - name: Consolidatie online
+                      href: general-ledger/consolidate-online.md
+                    - name: Geconsolideerde financiële overzichten genereren
+                      href: general-ledger/generating-consolidated-financial-statements.md
+                    - name: Gegevens van de dochtermaatschappij importeren vanuit bestanden
+                      href: general-ledger/import-subsidiary-data-from-files.md
+                    - name: Gegevens van de dochtermaatschappij exporteren naar een bestand
+                      href: general-ledger/export-subsidiary-data-to-file.md
+                    - name: Consolideren met import - Indeling
+                      href: general-ledger/consolidate-with-import-format.md
+                    - name: Een rechtspersoon voorbereiden voor gebruik in het consolidatieproces
+                      href: general-ledger/prepare-company-for-consolidation.md
+                    - name: Een dochtermaatschappij voor consolidatie instellen
+                      href: general-ledger/set-up-subsidiary-company-for-consolidation.md
+                - name: Consolidatiegroepen en extra consolidatierekening maken
+                  href: general-ledger/tasks/create-consolidation-groups.md
+                - name: Hoofdrekeningtypen
+                  href: general-ledger/main-account-types.md
+                - name: Een hoofdrekening maken
+                  href: general-ledger/tasks/create-main-account.md
                 - name: Uw rekeningschema plannen
                   href: general-ledger/plan-chart-of-accounts.md
-                - name: Hoofdrekeningen
-                  items:
-                    - name: Hoofdrekeningtypen
-                      href: general-ledger/main-account-types.md
-                    - name: Categorieën van hoofdrekening instellen
-                      href: general-ledger/tasks/set-up-main-account-categories.md
-                    - name: Een alias voor een grootboekrekening instellen
-                      href: general-ledger/tasks/set-up-ledger-account-alias.md
-                    - name: Een hoofdrekening maken
-                      href: general-ledger/tasks/create-main-account.md
-                    - name: Toewijzingstermijnen
-                      href: general-ledger/main-account-allocation-terms.md
-                - name: Financiële dimensies
-                  items:
-                    - name: Financiële dimensies
-                      href: general-ledger/financial-dimensions.md
-                    - name: Financiële dimensies definiëren
-                      href: general-ledger/tasks/define-financial-dimensions.md
-                    - name: Combinaties van rekeningen en dimensies
-                      href: general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
-                    - name: Financiële-dimensiesets
-                      href: general-ledger/financial-dimension-sets.md
-                    - name: Standaardsjablonen voor financiële dimensies onderhouden
-                      href: general-ledger/tasks/maintain-financial-dimension-default-templates.md
-                    - name: Financiële dimensies en boeken
-                      href: general-ledger/default-dimensions.md
-                    - name: Rekeningstructuren configureren
-                      href: general-ledger/configure-account-structures.md
-                    - name: Rekeningstructuren maken
-                      href: general-ledger/tasks/create-account-structures.md
-                    - name: Geavanceerde regelstructuren maken en toewijzen
-                      href: general-ledger/tasks/create-assign-advanced-rule-structures.md
-                    - name: Hoe stel ik salderende financiële dimensies in?
-                      href: general-ledger/set-up-balance-dimensions.md
-            - name: Instelling
-              items:
+                - name: Transacties tussen grootboekrekeningen vereffenen
+                  href: general-ledger/tasks/settle-transactions-between-ledger-accounts.md
+                - name: Een alias voor een grootboekrekening instellen
+                  href: general-ledger/tasks/set-up-ledger-account-alias.md
+                - name: Categorieën van hoofdrekening instellen
+                  href: general-ledger/tasks/set-up-main-account-categories.md
+                - name: Bronverkenner voor boekhouding
+                  href: accounts-payable/accounting-source-explorer.md
+                - name: Boekhoudingsverdelingen
+                  href: accounts-payable/accounting-distributions.md
                 - name: Toewijzingen verwerken
                   href: general-ledger/process-allocations.md
-                - name: Het grootboek configureren
-                  items:
-                    - name: 'Fiscale kalenders, boekjaren en boekperioden'
-                      href: budgeting/fiscal-calendars-fiscal-years-periods.md
-                    - name: Grootboeken configureren
-                      href: general-ledger/configure-ledger.md
-                    - name: De boekhoudings- of aangiftevaluta wijzigen
-                      href: general-ledger/add-change-acctg-rprtg-crrncy.md
-                    - name: Een grootboekkalender wijzigen of opnieuw toewijzen
-                      href: general-ledger/change-mdfy-clndr-to-ledger.md
-                - name: Intercompany- en salderende dimensies
-                  items:
-                    - name: Evenwichtige journalen voor interunit-boekhouding
-                      href: general-ledger/example-balanced-journals-interunit-accounting.md
-                    - name: Instelling van intercompany-boekhouding
-                      href: general-ledger/intercompany-accounting-setup.md
-                    - name: Hoe stel ik salderende financiële dimensies in?
-                      href: general-ledger/set-up-balance-dimensions.md
-                - name: Standaardwaarden journaal en boeking
-                  items:
-                    - name: Standaard beschrijvingen voor automatische boeking instellen
-                      href: general-ledger/set-up-default-descriptions-for-automatic-posting.md
-                    - name: Overzicht van transitorische posten
-                      href: general-ledger/accruals-overview.md
-                    - name: Toerekeningsschema's maken
-                      href: general-ledger/tasks/create-accrual-schemes.md
-                    - name: Grootboekjournaaltypen
-                      href: general-ledger/ledger-journal-types.md
-                    - name: Geavanceerde regels voor journalen maken
-                      href: general-ledger/tasks/create-advanced-rules-journals.md
-                    - name: Zoekwaarden voor financiële dimensies toevoegen aan Excel-sjablonen
-                      href: ../fin-ops-core/dev-itpro/financial/add-dimensions-excel-templates.md
-                    - name: Boekdefinities
-                      href: general-ledger/posting-definitions.md
-                    - name: Voorbeelden van boekdefinities
-                      href: general-ledger/example-posting-definitions.md
-                - name: Valuta
-                  items:
-                    - name: Valutawisselkoersen importeren
-                      href: general-ledger/import-currency-exchange-rates.md
-                    - name: Twee valuta's
-                      href: general-ledger/dual-currency.md
-                - name: Toewijzingsregels
-                  items:
-                    - name: Grootboektoewijzingsregels
-                      href: general-ledger/ledger-allocation-rules.md
-                    - name: Grootboektoewijzingsjournaal verwerken
-                      href: general-ledger/tasks/process-ledger-allocation-journal.md
-            - name: Journalen en brondocumenten
+                - name: Toewijzingstermijn
+                  href: general-ledger/main-account-allocation-terms.md
+                - name: Financiële dimensies
+                  href: general-ledger/financial-dimensions.md
+                - name: Groep met consolidatierekeningen en extra consolidatierekeningen
+                  href: budgeting/consolidation-account-groups-consolidation-accounts.md
+                - name: Overzicht van consolidatie en schrapping
+                  href: budgeting/consolidation-elimination-overview.md
+                - name: 'Fiscale kalenders, boekjaren en boekperioden'
+                  href: budgeting/fiscal-calendars-fiscal-years-periods.md
+                - name: Rekeningstructuren configureren
+                  href: general-ledger/configure-account-structures.md
+                - name: Twee valuta's
+                  href: general-ledger/dual-currency.md
+            - name: Journalen en grootboeken
               items:
-                - name: Journalen
-                  items:
-                    - name: Algemene journaalverwerking
-                      href: general-ledger/general-journal-processing.md
-                    - name: Periodieke journalen boeken
-                      href: general-ledger/tasks/post-periodic-journals.md
-                    - name: Journalen maken en valideren
-                      href: general-ledger/tasks/create-validate-journals.md
-                    - name: Journaalboeking mislukt vanwege niet-salderende posten
-                      href: general-ledger/posting-fail-imbalance.md
-                    - name: Journaalboekingen tegenboeken
-                      href: general-ledger/reverse-journal-posting.md
-                    - name: Waarom kan ik deze transactie niet ongedaan maken?
-                      href: general-ledger/cant-reverse-transctns.md
-                    - name: Een journaalboeking maken met een sjabloon
-                      href: general-ledger/tasks/create-journal-entry-template.md
-                    - name: Grootboektoewijzingsjournaal verwerken
-                      href: general-ledger/tasks/process-ledger-allocation-journal.md
-                    - name: Journaalboekingen of transacties weergeven
-                      href: general-ledger/tasks/view-journal-entries-or-transactions.md
-                    - name: Een gerelateerd intercompany-boekstuk weergeven vanuit een journaal
-                      href: general-ledger/tasks/view-related-intercompany-voucher-journal.md
-                    - name: Journaalregels en documenten publiceren vanuit Excel
-                      href: general-ledger/open-lines-excel-journals-documents.md
-                    - name: Toenametransacties voor grootboek maken
-                      href: general-ledger/tasks/create-ledger-accrual-transactions.md
-                    - name: Eén boekstuk
-                      href: general-ledger/one-voucher.md
-                    - name: Veelgestelde vragen over Eén boekstuk
-                      href: general-ledger/one-voucher-faq.md
-                - name: Brondocumenten
-                  items:
-                    - name: Boekhoudingsverdelingen
-                      href: accounts-payable/accounting-distributions.md
-                    - name: Overboeken vanuit de subadministratie naar het grootboek
-                      href: general-ledger/subledger-transfer.md
-                    - name: Bronverkenner voor boekhouding
-                      href: accounts-payable/accounting-source-explorer.md
-            - name: Rapporten en query's
-              items:
+                - name: Algemene journaalverwerking
+                  href: general-ledger/general-journal-processing.md
+                - name: Periodieke journalen boeken
+                  href: general-ledger/tasks/post-periodic-journals.md
+                - name: Journaalboekingen tegenboeken
+                  href: general-ledger/reverse-journal-posting.md
+                - name: Grootboektoewijzingsjournaal verwerken
+                  href: general-ledger/tasks/process-ledger-allocation-journal.md
+                - name: Instelling van intercompany-boekhouding
+                  href: general-ledger/intercompany-accounting-setup.md
+                - name: Grootboektoewijzingsregels
+                  href: general-ledger/ledger-allocation-rules.md
+                - name: Geavanceerde regels voor journalen maken
+                  href: general-ledger/tasks/create-advanced-rules-journals.md
+                - name: Geavanceerde regelstructuren maken en toewijzen
+                  href: general-ledger/tasks/create-assign-advanced-rule-structures.md
+                - name: Grootboekjournaaltypen
+                  href: general-ledger/ledger-journal-types.md
+                - name: Grootboeken configureren
+                  href: general-ledger/configure-ledger.md
+                - name: Journalen maken en valideren
+                  href: general-ledger/tasks/create-validate-journals.md
+                - name: Journaalboekingen of transacties weergeven
+                  href: general-ledger/tasks/view-journal-entries-or-transactions.md
+                - name: Een gerelateerd intercompany-boekstuk weergeven vanuit een journaal
+                  href: general-ledger/tasks/view-related-intercompany-voucher-journal.md
+                - name: Een journaalboeking maken met een sjabloon
+                  href: general-ledger/tasks/create-journal-entry-template.md
+                - name: Toenametransacties voor grootboek maken
+                  href: general-ledger/tasks/create-ledger-accrual-transactions.md
+                - name: Overboeken vanuit de subadministratie naar het grootboek
+                  href: general-ledger/subledger-transfer.md
+                - name: Journaalregels en documenten publiceren vanuit Excel
+                  href: general-ledger/open-lines-excel-journals-documents.md
                 - name: Journaalposten en transacties weergeven
                   href: general-ledger/view-journal-entries-transactions.md
                 - name: Proefbalans met transactiedetailrapport
                   href: public-sector/general-ledger-public-sector-trial-balance.md
+                - name: Geboekte journaalposten journaliseren
+                  href: general-ledger/tasks/journalize-posted-journal-entries.md
+                - name: Valutaherwaardering in een consolidatiebedrijf
+                  href: general-ledger/currency-revaluation-consolidation-company.md
+                - name: Herwaardering van vreemde valuta voor grootboek
+                  href: general-ledger/foreign-currency-revaluation-general-ledger.md
+                - name: Valutawisselkoersen importeren
+                  href: general-ledger/import-currency-exchange-rates.md
+                - name: Eén boekstuk
+                  href: general-ledger/one-voucher.md
+                - name: Veelgestelde vragen over Eén boekstuk
+                  href: general-ledger/one-voucher-faq.md
+                - name: Grootboekvereffeningen
+                  href: general-ledger/ledger-settlements.md
             - name: Einde van periode afsluiten
               items:
                 - name: Het grootboek aan het einde van de periode afsluiten
@@ -1056,48 +1082,78 @@
                   href: general-ledger/tasks/mass-financial-period-close.md
                 - name: Veelgestelde vragen over jaarafsluitingsactiviteiten
                   href: general-ledger/faq-year-end-activities.md
-                - name: Grootboekvereffeningen
-                  href: general-ledger/ledger-settlements.md
-                - name: Bewustzijn tussen grootboekvereffening en jaarafsluiting
-                  href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
-                - name: Herwaardering van vreemde valuta voor grootboek
-                  href: general-ledger/foreign-currency-revaluation-general-ledger.md
-                - name: Grootboekrekeningsaldi
-                  href: general-ledger/general-ledger-account-balances.md
-                - name: Grootboektoewijzingsjournaal verwerken
-                  href: general-ledger/tasks/process-ledger-allocation-journal.md
-                - name: Grootboektoewijzingsregels
-                  href: general-ledger/ledger-allocation-rules.md
-                - name: Geboekte journaalposten journaliseren
-                  href: general-ledger/tasks/journalize-posted-journal-entries.md
-            - name: Consolidaties en schrappingen
+            - name: Btw
               items:
-                - name: Overzicht van consolidatie en schrapping
-                  href: budgeting/consolidation-elimination-overview.md
-                - name: Overzicht van financiële consolidaties en valutaomzetting
-                  href: general-ledger/financial-consolidations-currency-translation.md
-                - name: Groepen met consolidatierekeningen en extra consolidatierekeningen
-                  href: budgeting/consolidation-account-groups-consolidation-accounts.md
-                - name: Consolidatiegroepen en extra consolidatierekening maken
-                  href: general-ledger/tasks/create-consolidation-groups.md
-                - name: Een rechtspersoon voorbereiden voor gebruik in het consolidatieproces
-                  href: general-ledger/prepare-company-for-consolidation.md
-                - name: Een dochtermaatschappij voor consolidatie instellen
-                  href: general-ledger/set-up-subsidiary-company-for-consolidation.md
-                - name: Consolidatie online
-                  href: general-ledger/consolidate-online.md
-                - name: Gegevens van de dochtermaatschappij importeren vanuit bestanden
-                  href: general-ledger/import-subsidiary-data-from-files.md
-                - name: Gegevens van de dochtermaatschappij exporteren naar een bestand
-                  href: general-ledger/export-subsidiary-data-to-file.md
-                - name: Consolideren met import - Indeling
-                  href: general-ledger/consolidate-with-import-format.md
-                - name: Schrappingregels
-                  href: general-ledger/elimination-rules.md
-                - name: Geconsolideerde financiële overzichten genereren
-                  href: general-ledger/generating-consolidated-financial-statements.md
-                - name: Valutaherwaardering in een consolidatiebedrijf
-                  href: general-ledger/currency-revaluation-consolidation-company.md
+                - name: Btw-overzicht
+                  href: general-ledger/indirect-taxes-overview.md
+                - name: Btw-tarieven op basis van de marginale basis- en berekeningsmethoden
+                  href: general-ledger/marginal-base-field.md
+                - name: Btw-betalingen en afrondingsregels
+                  href: general-ledger/round-sales-tax-payments.md
+                - name: Btw-berekeningsmethoden in het veld Oorsprong
+                  href: general-ledger/sales-tax-calculation-methods-origin-field.md
+                - name: Berekeningsopties Volledige bedrag en interval voor btw-codes
+                  href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                - name: Btw-berekening voor algemene journaalregels
+                  href: general-ledger/sales-tax-calculation-on-general-journal.md
+                - name: Btw op een leveranciersfactuur berekenen en corrigeren
+                  href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                - name: Berekening van vertraagde btw in journaal inschakelen
+                  href: general-ledger/enable-delayed-tax-calculation.md
+                - name: Een btw-betaling maken
+                  href: general-ledger/tasks/create-sales-tax-payment.md
+                - name: Btw-transacties maken in documenten
+                  href: general-ledger/tasks/create-sales-tax-transactions-documents.md
+                - name: Groepen boekingen in grootboek instellen voor btw
+                  href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                - name: Btw-diensten instellen
+                  href: general-ledger/tasks/set-up-sales-tax-authorities.md
+                - name: Btw-codes instellen
+                  href: general-ledger/tasks/set-up-sales-tax-codes.md
+                - name: Btw-groepen en artikel-btw-groepen instellen
+                  href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                - name: Btw-aangiftecodes instellen
+                  href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: Ondersteuning van dubbele valuta voor btw
+                  href: general-ledger/dual-currency-for-tax.md
+                - name: Rapport btw-specificatie per grootboektransactie
+                  href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
+                - name: Btw-vereffeningsperioden instellen
+                  href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                - name: Geboekte btw-transacties weergeven
+                  href: general-ledger/tasks/view-posted-sales-tax-transactions.md
+                - name: Rapport met btw-betaling per code afdrukken
+                  href: general-ledger/print-sales-tax-payment-by-code-report.md
+                - name: Problemen met btw oplossen
+                  items:
+                    - name: Belasting wordt niet berekend of het btw-bedrag is nul
+                      href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
+                    - name: De prestaties van de belastingberekening hebben invloed op transacties
+                      href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
+                    - name: Onjuiste veldwaarde in TaxTrans
+                      href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
+                    - name: TaxTrans-record is niet gegenereerd
+                      href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
+                    - name: Belasting wordt geboekt naar de verkeerde grootboekrekening in het boekstuk
+                      href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
+                    - name: Boekstuk wordt niet gegenereerd
+                      href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
+            - name: Bronbelasting
+              items:
+                - name: Bronbelasting instellen
+                  href: general-ledger/tasks/set-up-withholding-tax.md
+                - name: Algemene bronbelasting
+                  items:
+                    - name: Overzicht van algemene bronbelasting
+                      href: general-ledger/global-withholding-tax-overview.md
+                    - name: Algemene bronbelasting instellen
+                      href: general-ledger/set-up-global-withholding-tax.md
+                    - name: Bronbelasting in inkooptransacties
+                      href: general-ledger/withholding-tax-in-purchase-transactions.md
+                    - name: Bronbelasting in verkooptransacties
+                      href: general-ledger/withholding-tax-in-sales-transactions.md
+                    - name: Een betaling van bronbelasting maken
+                      href: general-ledger/create-a-withholding-tax-payment.md
             - name: Controleworkbench
               items:
                 - name: Controlebeleidsregels
@@ -1122,7 +1178,7 @@
                   href: general-ledger/open-fincl-jrnls-in-office.md
                 - name: Standaard financiële dimensies in financiële journalen
                   href: general-ledger/dimension-default-values.md
-                - name: Journaalboeking mislukt vanwege niet-salderende posten
+                - name: Journaalboeking mislukt vanwege een niet-salderende posten
                   href: general-ledger/posting-fail-imbalance.md
                 - name: Waarom kan ik deze transactie niet ongedaan maken?
                   href: general-ledger/cant-reverse-transctns.md
@@ -1136,8 +1192,6 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
             - name: Valutamogelijkheden in financiële rapportage
               href: general-ledger/financial-reporting-currency-capability.md
-            - name: Berekening van ingehouden winst in Financial Reporting
-              href: general-ledger/retained-earnings-enhancements.md
             - name: Financiële rapporten balans
               href: general-ledger/balance-sheet-financial-reports.md
             - name: Financiële rapporten genereren
@@ -1180,14 +1234,14 @@
               href: finance-insights/finance-insights-home-page.md
             - name: Instellingen en administratie
               items:
-                - name: Finance Insights configureren
+                - name: Finance Insights configureren voor openbare preview
+                  href: finance-insights/configure-for-fin-insites-PubPrvw.md
+                - name: Finance Insights configureren voor beperkte preview
                   href: finance-insights/configure-for-fin-insites.md
                 - name: Voorspellingen voor klantbetalingen inschakelen
                   href: finance-insights/enable-cust-paymnt-prediction.md
                 - name: Cashflowprognose inschakelen
                   href: finance-insights/enable-cash-flow-forecasting.md
-                - name: Externe gegevens in cashflowprognoses
-                  href: finance-insights/external-data-in-cash-flow.md
                 - name: Budgetvoorstellen inschakelen
                   href: finance-insights/enable-budget-proposal.md
                 - name: Data Integrator-project maken
@@ -1208,16 +1262,98 @@
                   href: finance-insights/budget-proposals.md
                 - name: Kaspositie
                   href: finance-insights/cash-position.md
-                - name: Kasprognose
+                - name: Cashflowprognose
                   href: finance-insights/cash-flow-forecast-intro.md
+                - name: Externe gegevens in cashflowprognoses gebruiken
+                  href: finance-insights/external-data-in-cash-flow.md
                 - name: Voorspellingen voor klantbetalingen
                   href: finance-insights/payment-insights-overview.md
                 - name: Voorspellingen voor klantbetalingen gebruiken
                   href: finance-insights/use-customer-payment-predictions.md
                 - name: Overzicht van momentopnamen
                   href: finance-insights/payment-snapshots.md
-            - name: Veelgestelde vragen over probleemoplossing Finance Insights
-              href: finance-insights/finance-insights-troubleshooting-faq.md
+        - name: Projectbeheer en boekhouding
+          items:
+            - name: Overzicht van Projectbeheer en boekhouding
+              href: /dynamics365/project-operations/prod-pma/overview-project-management-accounting
+            - name: Intercompany-facturering
+              href: /dynamics365/project-operations/prod-pma/intercompany-invoicing
+            - name: Intercompany-projectfacturering configureren
+              href: /dynamics365/project-operations/prod-pma/configure-intercompany-project-invoicing
+            - name: Standaardkosten voor arbeid en onkosten configureren
+              href: /dynamics365/project-operations/prod-pma/configure-standard-costs-labor-expenses
+            - name: Inhoudingstermijnen voor leveranciersbetalingen maken en toepassen
+              href: /dynamics365/project-operations/prod-pma/create-and-apply-vendor-payment-retention-terms
+            - name: Betalen bij betaling instellen en gebruiken voor leveranciersbetalingen
+              href: /dynamics365/project-operations/prod-pma/setup-manage-vendor-payments
+            - name: Toerekening van inkoopontvangsten aan projectkosten
+              href: accounts-payable/project-cost-accrual-purchase-receipts.md
+            - name: Projectfacturering
+              href: accounts-payable/project-invoicing.md
+            - name: Projectcontracten
+              href: /dynamics365/project-operations/prod-pma/project-contracts
+            - name: Geavanceerde contracten maken voor facturering op basis van voortgang
+              href: /dynamics365/project-operations/prod-pma/project-create-advanced-contracts-for-billing-based-progress
+            - name: Projectprognoses en -budgetten
+              href: /dynamics365/project-operations/prod-pma/project-forecasts-budgets
+            - name: Prognosemodellen voor projectbudgetten maken
+              href: /dynamics365/project-operations/prod-pma/create-forecast-models-project-budgets
+            - name: Projectbudgetten transporteren aan het einde van het fiscale jaar
+              href: /dynamics365/project-operations/prod-pma/process-project-budgets-for-fiscal-year-end
+            - name: Verkooporders voor een project
+              href: /dynamics365/project-operations/prod-pma/project-sales-orders
+            - name: Inkooporders voor een project
+              href: /dynamics365/project-operations/prod-pma/project-purchase-orders
+            - name: Projectoffertes
+              href: /dynamics365/project-operations/prod-pma/project-quotations
+            - name: 'Een projectofferte bevestigen, bijwerken en verzenden'
+              href: /dynamics365/project-operations/prod-pma/confirm-update-send-project-quotation
+            - name: Een offerte overbrengen naar een project
+              href: /dynamics365/project-operations/prod-pma/transfer-quote-new-existing-project
+            - name: Projectbronnen
+              items:
+                - name: Overzicht van toewijzing van projectresources
+                  href: /dynamics365/project-operations/prod-pma/project-resourcing
+                - name: Projectresources instellen
+                  href: /dynamics365/project-operations/prod-pma/set-up-project-resources
+                - name: Resourcecompetenties beheren
+                  href: /dynamics365/project-operations/prod-pma/manage-resource-competencies
+                - name: Een nieuw project maken
+                  href: /dynamics365/project-operations/prod-pma/create-new-project
+                - name: Op rollen gebaseerde prijzen instellen
+                  href: /dynamics365/project-operations/prod-pma/set-up-role-based-pricing
+                - name: Een projectteam maken
+                  href: /dynamics365/project-operations/prod-pma/create-project-team
+                - name: Resourcecapaciteit synchroniseren
+                  href: /dynamics365/project-operations/prod-pma/synchronize-resource-capacity
+                - name: Prestaties van projectresourceplanning
+                  href: /dynamics365/project-operations/prod-pma/project-scheduling-performance
+                - name: Rollen instellen voor sjablonen voor structuur voor werkspecificatie
+                  href: /dynamics365/project-operations/prod-pma/set-up-roles-wbs-template
+                - name: Resourcevoorziening voor geplande resources
+                  href: /dynamics365/project-operations/prod-pma/resource-fulfillment-planned-resources
+            - name: Artikelen ontvangen op een inkooporder vanuit een artikelbehoefte
+              href: /dynamics365/project-operations/prod-pma/receive-items-purchase-order-item-requirement
+            - name: Structuren voor werkspecificatie
+              items:
+                - name: Overzicht van structuren voor werkspecificatie
+                  href: /dynamics365/project-operations/prod-pma/work-breakdown-structures
+                - name: Microsoft Project Client-integratie
+                  href: /dynamics365/project-operations/prod-pma/project-integration
+                - name: Overzicht van Mobiele Project-toepassingen
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview
+                - name: Tijdinvoer voor project voor mobiel werkgebied
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace
+                - name: Mobiele app voor Project Timesheet
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet
+                - name: Project Timesheets op een mobiel apparaat
+                  href: /dynamics365/project-operations/prod-pma/Mobile-timesheets
+                - name: Aangepaste velden voor de mobiele app Project Timesheet implementeren
+                  href: /dynamics365/project-operations/prod-pma/custom-fields-mobile
+            - name: Projectsubsidies
+              href: /dynamics365/project-operations/prod-pma/project-grants
+            - name: Een projectraming elimineren
+              href: /dynamics365/project-operations/prod-pma/eliminate-project-estimate
         - name: Openbare sector
           items:
             - name: Startpagina van Openbare sector
@@ -1404,16 +1540,10 @@
                           href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Aan de slag met Elektronische facturering voor Mexico
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
-                        - name: Aan de slag met Elektronische facturering voor Saoedi-Arabië
-                          href: localizations/e-invoicing-sa-get-started.md
-                        - name: Directe integratie van Italiaanse FatturaPA met SDI instellen
-                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
                         - name: De service voor Elektronische facturering gebruiken om leveranciersfacturen te importeren
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Elektronische facturering instellen
                           href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
-                        - name: Beheerdersreferentie voor Power Platform-invoegtoepassing
-                          href: localizations/e-invoicing-power-platform-plug-in.md
                     - name: Veelgestelde vragen over Elektronische facturering
                       href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Belastingberekening
@@ -1424,26 +1554,14 @@
                       items:
                         - name: Aan de slag met belastingberekening
                           href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
-                        - name: Belastingcodes instellen
-                          href: localizations/set-up-tax-codes.md
-                        - name: Belastinggroepen instellen
-                          href: localizations/set-up-tax-groups.md
-                        - name: Belastinggroepen voor artikelen instellen
-                          href: localizations/set-up-item-tax-groups.md
-                        - name: Belastingberekeningen importeren en exporteren
-                          href: localizations/tax-calculation-import-export-feature.md
                         - name: Een omgeving instellen voor het opzoeken van hoofdgegevens
                           href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
-                        - name: De belastinginstellingen van Service voor belastingberekening synchroniseren met Finance
-                          href: localizations/global-master-data-sync-tax-calculation-service-finance.md
                     - name: Vaststelling
                       items:
                         - name: Gegevensmodel voor belastingberekening
                           href: localizations/tax-calculation-data-model-overview.md
                         - name: Logica voor toepasselijkheid van btw en het bepalen van btw-groepen
                           href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
-                        - name: Parameters voor btw-jurisdictie gebruiken voor de berekeningsinstellingen van contantkortingen
-                          href: localizations/global-tax-jurisdiction-cash-discount-setup.md?toc=/dynamics365/finance/toc.json
                     - name: Berekening
                       items:
                         - name: Belasting berekenen over prijzen wanneer Prijzen inclusief belastingen is ingeschakeld
@@ -1456,30 +1574,16 @@
                           href: localizations/emea-multiple-vat-registration-numbers.md
                         - name: Aangifte van meerdere btw-registraties
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
-                        - name: Rapportage voor Oostenrijk
-                          items:
-                            - name: Btw-aangifte
-                              href: localizations/emea-aut-vat-declaration-austria.md
                         - name: Rapportage voor Frankrijk
                           items:
                             - name: Btw-aangifte
                               href: localizations/emea-fra-VAT-declaration-preview-France.md
-                        - name: Rapportage voor Duitsland
-                          items:
-                            - name: Btw-aangifte
-                              href: localizations/emea-deu-vat-declaration-germany.md
                         - name: Rapportage voor Nederland
                           items:
                             - name: Btw-aangifte
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: ICL-lijst
                               href: localizations/emea-nl-eu-sales-list.md
-                        - name: Rapportage voor Spanje
-                          items:
-                            - name: 'Directe levering van informatie over btw (Suministro Inmediato de Información del IVA, SII)'
-                              href: localizations/emea-esp-sii-spain.md
-                            - name: Btw-aangifte
-                              href: localizations/emea-esp-vat-declaration-spain.md
                         - name: Rapportage voor Zweden
                           items:
                             - name: Btw-aangifte
@@ -1488,110 +1592,22 @@
                           items:
                             - name: Btw-aangifte
                               href: localizations/emea-che-vat-declaration-switzerland.md
-                        - name: Aangifte voor Verenigd Koninkrijk
+                        - name: Rapportage voor Verenigd Koninkrijk
                           items:
-                            - name: Btw-aangifte
-                              href: localizations/emea-gbr-vat-declaration.md
-                        - name: Aangifte voor Noorwegen
-                          items:
-                            - name: Btw-aangifte
-                              href: localizations/emea-nor-vat-declaration.md
+                            - name: Voorbereiden op integratie met MTD voor btw
+                              href: localizations/emea-gbr-mtd-vat-integration.md
                     - name: Belastingberekening voor transferorder inschakelen
                       items:
                         - name: Ondersteuning voor belastingfunctie voor transferorders
                           href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
-                        - name: Btw-gegevens afdrukken op transferorderdocumenten
-                          href: localizations/tax-calculation-print-tax-information-on-transfer-order-documents.md?toc=/dynamics365/finance/toc.json
                     - name: Extensie
                       items:
                         - name: Gegevensvelden toevoegen in belastingconfiguraties
                           href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Gegevensvelden in de belastingintegratie toevoegen met extensies
                           href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                        - name: Belastingconfiguraties aanpassen voor het opzoeken van hoofdgegevens
-                          href: localizations/customize-tax-configurations-master-data-lookup.md
-                    - name: Veelgestelde vragen over belastingberekening
-                      href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
-            - name: Belasting
-              items:
-                - name: Btw
-                  items:
-                    - name: Btw-overzicht
-                      href: general-ledger/indirect-taxes-overview.md
-                    - name: Btw-tarieven op basis van de marginale basis- en berekeningsmethoden
-                      href: general-ledger/marginal-base-field.md
-                    - name: Btw-betalingen en afrondingsregels
-                      href: general-ledger/round-sales-tax-payments.md
-                    - name: Btw-berekeningsmethoden in het veld Oorsprong
-                      href: general-ledger/sales-tax-calculation-methods-origin-field.md
-                    - name: Berekeningsopties Volledige bedrag en interval voor btw-codes
-                      href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                    - name: Btw-berekening voor algemene journaalregels
-                      href: general-ledger/sales-tax-calculation-on-general-journal.md
-                    - name: Btw op een leveranciersfactuur berekenen en corrigeren
-                      href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                    - name: Berekening van vertraagde btw in journaal inschakelen
-                      href: general-ledger/enable-delayed-tax-calculation.md
-                    - name: Een btw-betaling maken
-                      href: general-ledger/tasks/create-sales-tax-payment.md
-                    - name: Afronding van btw-vereffening op basis van aangepaste decimale posities voor valuta
-                      href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
-                    - name: Btw-transacties maken in documenten
-                      href: general-ledger/tasks/create-sales-tax-transactions-documents.md
-                    - name: Groepen boekingen in grootboek instellen voor btw
-                      href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                    - name: Btw-diensten instellen
-                      href: general-ledger/tasks/set-up-sales-tax-authorities.md
-                    - name: Btw-codes instellen
-                      href: general-ledger/tasks/set-up-sales-tax-codes.md
-                    - name: Btw-groepen en artikel-btw-groepen instellen
-                      href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                    - name: Btw-aangiftecodes instellen
-                      href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                    - name: Ondersteuning van dubbele valuta voor btw
-                      href: general-ledger/dual-currency-for-tax.md
-                    - name: Rapport btw-specificatie per grootboektransactie
-                      href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
-                    - name: Btw-vereffeningsperioden instellen
-                      href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                    - name: Geboekte btw-transacties weergeven
-                      href: general-ledger/tasks/view-posted-sales-tax-transactions.md
-                    - name: Rapport met btw-betaling per code afdrukken
-                      href: general-ledger/print-sales-tax-payment-by-code-report.md
-                    - name: Problemen met btw oplossen
-                      items:
-                        - name: Belasting wordt niet berekend of het btw-bedrag is nul
-                          href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
-                        - name: De prestaties van de belastingberekening hebben invloed op transacties
-                          href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
-                        - name: Onjuiste veldwaarde in TaxTrans
-                          href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
-                        - name: TaxTrans-record is niet gegenereerd
-                          href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
-                        - name: Belasting wordt geboekt naar de verkeerde grootboekrekening in het boekstuk
-                          href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
-                        - name: Boekstuk wordt niet gegenereerd
-                          href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
-                - name: Bronbelasting
-                  items:
-                    - name: Bronbelasting instellen
-                      href: general-ledger/tasks/set-up-withholding-tax.md
-                    - name: Algemene bronbelasting
-                      items:
-                        - name: Overzicht van algemene bronbelasting
-                          href: general-ledger/global-withholding-tax-overview.md
-                        - name: Algemene bronbelasting instellen
-                          href: general-ledger/set-up-global-withholding-tax.md
-                        - name: Bronbelasting in inkooptransacties
-                          href: general-ledger/withholding-tax-in-purchase-transactions.md
-                        - name: Bronbelasting in verkooptransacties
-                          href: general-ledger/withholding-tax-in-sales-transactions.md
-                        - name: Een betaling van bronbelasting maken
-                          href: general-ledger/create-a-withholding-tax-payment.md
             - name: Wettelijk voorgeschreven updates
               href: localizations/regulatory-updates.md
-            - name: Zoeken naar wettelijke updates
-              href: localizations/search-for-regulatory-updates.md
             - name: Australië
               items:
                 - name: Overzicht Australië
@@ -1614,18 +1630,14 @@
                   href: localizations/austria.md
                 - name: Halfjaarlijkse afschrijving op extra verwervingen
                   href: localizations/emea-aut-half-year-depreciation.md
-                - name: Verpakkingsmateriaalkosten
+                - name: Bijzondere verpakkingsmateriaalkosten
                   href: localizations/emea-aut-packing-material-fee-calculation.md
                 - name: Btw-overzicht
                   href: localizations/emea-aut-vat-statement-details.md
-                - name: Rapportage voor internationale dienstverlening
+                - name: Internationale dienstverlening (rapport)
                   href: localizations/emea-aut-cross-border-services-report.md
-                - name: Oostenrijkse intrastat
-                  href: localizations/emea-aut-intrastat.md
                 - name: Inkoopheffingen
                   href: localizations/emea-aut-purchase-duties.md
-                - name: Btw-aangifte
-                  href: localizations/emea-aut-vat-declaration-austria.md
             - name: Bahrein
               items:
                 - name: Overzicht Bahrein
@@ -1656,10 +1668,6 @@
                   href: localizations/tasks/be-00011-set-up-payment-balance-reporting.md
                 - name: PRODCOM instellen en onderhouden
                   href: localizations/emea-bel-prodcom-report.md
-                - name: Jaarlijks btw-overzicht voor binnenlandse verkopen
-                  href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
-                - name: Intrastat België
-                  href: localizations/emea-bel-intrastat.md
             - name: Brazilië
               items:
                 - name: Overzicht Brazilië
@@ -1754,8 +1762,6 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: NF-e-parameters instellen voor een fiscale instelling
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
-                    - name: NF-e XML-bestanden als bijlagen verplaatsen
-                      href: localizations/latam-bra-nf-e-move-xml-as-attachment.md
                     - name: NT2020.005 - updates van indeling en validatie in het elektronische belastingdocument (NF-e)
                       href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 - intermediair digitaal verkoopplatform voor NF-e
@@ -1810,8 +1816,6 @@
                   href: localizations/tasks/br-00066-1-set-up-interest-fines-customer-payments.md
                 - name: Rente en boetes berekenen voor klantbetalingen
                   href: localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
-                - name: Bankrekeningnummers instellen voor Brazilië
-                  href: localizations/latam-bra-bank-account-number-setup-brazil-localization.md
                 - name: Belastingen
                   items:
                     - name: Overzicht van belastingen voor Brazilië
@@ -1840,8 +1844,6 @@
                       href: localizations/tasks/br-10001-2-set-up-adjustment-codes-icms-taxes-fiscal-documents.md
                     - name: 'Proces voor aanvulling en teruggave van ICMS-ST aangifte voor de staten RS, SC en SP'
                       href: localizations/latam-bra-complement-restitution.md
-                    - name: Basiswijziging in de berekeningen van ICMS-DIF-belasting voor producten van leveranciers in andere staten
-                      href: localizations/latam-brazil-basis-change-ICMS-DIF-tax-calculation-products-suppliers-other-states.md
                     - name: Correctiecodes voor IPI-belastingen instellen
                       href: localizations/tasks/br-10004-1-set-up-adjustment-codes-ipi-taxes.md
                     - name: Vaste activa voor PIS en COFINS
@@ -1890,7 +1892,7 @@
                   href: localizations/tasks/golden-tax-integration-export-setup.md
                 - name: Afschrijvingsmethoden voor vaste activa
                   href: localizations/apac-chn-depreciation-methods-fixed-assets.md
-                - name: De Chinese industriële btw-bestanden importeren
+                - name: De entiteit Chinese industriële btw-gegevens importeren
                   href: localizations/apac-chn-import-golden-tax-data-entity.md
                 - name: Maandelijks gemiddelde kostprijsmodel
                   href: localizations/apac-chn-monthly-average-cost-model.md
@@ -1944,8 +1946,6 @@
                   href: localizations/emea-cze-vat-statement-details.md
                 - name: Btw-aangifte (Tsjechische Republiek)
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
-                - name: Tsjechische Intrastat
-                  href: localizations/emea-cze-intrastat.md
                 - name: Banksymbolen voor bankrekeningen
                   href: localizations/emea-cze-specify-bank-symbols-for-bank-accounts.md
                 - name: Intracommunautaire btw
@@ -1978,8 +1978,6 @@
                   href: localizations/tasks/set-up-oioubl-electronic-invoicing.md
                 - name: Indeling betalingsbon instellen
                   href: localizations/tasks/set-up-payment-slip-format.md
-                - name: Deense Intrastat
-                  href: localizations/emea-dnk-intrastat.md
             - name: Egypte
               items:
                 - name: Overzicht Egypte
@@ -2002,8 +2000,6 @@
                   href: localizations/emea-est-personal-info.md
                 - name: Btw-overzicht
                   href: localizations/emea-est-vat-statement-details.md
-                - name: Estische Intrastat
-                  href: localizations/emea-est-intrastat.md
             - name: Europa
               items:
                 - name: Overzicht Europa
@@ -2150,20 +2146,14 @@
                       href: localizations/emea-vat-reporting.md
                     - name: Btw-rapport maken en indienen
                       href: localizations/tasks/create-submit-vat-report.md
-                    - name: Datum van btw-register leverancier
-                      href: localizations/emea-date-vendor-vat-register.md
                 - name: Transacties weergeven bij vereffening
                   href: localizations/emea-transactions-settlement-form.md
-                - name: Financiële reden
-                  href: localizations/emea-financial-reason.md
             - name: Finland
               items:
                 - name: Overzicht Finland
                   href: localizations/finland.md
                 - name: Btw-betalingsrapport voor FInland
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
-                - name: Finse Intrastat
-                  href: localizations/emea-fin-intrastat.md
             - name: Frankrijk
               items:
                 - name: Overzicht Frankrijk
@@ -2250,13 +2240,11 @@
                       href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: Afschrijvingscorrecties voor extra verwervingen in het tweede jaar
                   href: localizations/tasks/de-00002-depreciation.md
-                - name: Btw-aangifte
-                  href: localizations/emea-deu-vat-declaration-germany.md
                 - name: Elektronische transmissie van btw-aangifte (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Duitse Intrastat
                   href: localizations/emea-deu-intrastat.md
-                - name: Btw-overzicht
+                - name: Btw-aangifte voor Duitsland
                   href: localizations/emea-de-vat-declaration.md
                 - name: Rapport met elektronische klantfacturen
                   href: localizations/emea-deu-e-invoices.md
@@ -2308,8 +2296,6 @@
                   href: localizations/apac-ind-scope.md
                 - name: Nieuwe of gewijzigde functies in de lokalisatie voor India
                   items:
-                    - name: Nieuwe of gewijzigde functies in 10.0.20 - 10.0.22
-                      href: localizations/ind-news-letter-10-0-20-22.md
                     - name: Nieuwe of gewijzigde functies in 10.0.15 - 10.0.19
                       href: localizations/ind-news-letter-10-0-15-19.md
                     - name: Nieuwe of gewijzigde functies in 10.0.14
@@ -2342,8 +2328,6 @@
                       href: localizations/apac-ind-news-letter-10-0-01.md
                     - name: Nieuwe of gewijzigde functies in 10.0.0
                       href: localizations/apac-ind-news-letter-10-0-00.md
-                - name: Audittrail en bewerkingslogboeken voor boekhoudsoftware
-                  href: localizations/apac-ind-audit-trail-edit-logs-accounting-software.md
                 - name: Indirecte belastingen
                   items:
                     - name: GST India
@@ -2678,18 +2662,8 @@
                       items:
                         - name: Certificaatnummers voor terug te vorderen TDS registreren
                           href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
-                        - name: Certificaatnummers en -datums voor TDS-transacties bijwerken
+                        - name: Certificaatnummers en -datums bijwerken voor TDS-transacties
                           href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
-            - name: Indonesië
-              items:
-                - name: Overzicht Indonesië
-                  href: localizations/indonesia.md
-                - name: Nummering en facturering van belastingfacturen
-                  href: localizations/apac-idn-invoicing.md
-                - name: Btw-aangifte voor Indonesië
-                  href: localizations/apac-idn-ppn-declaration.md
-                - name: Bronbelastingaangifte voor Indonesië
-                  href: localizations/apac-idn-wht-declaration.md
             - name: Italië
               items:
                 - name: Overzicht Italië
@@ -2698,6 +2672,8 @@
                   href: localizations/emea-ita-vat-statements-details.md
                 - name: Kwartaalrapport over btw-communicatie
                   href: localizations/emea-ita-quarterly-vat-communication.md
+                - name: Zwarte-lijstrapport
+                  href: localizations/emea-ita-black-list-report.md
                 - name: Competentiedatum en fiscaal journaal
                   href: localizations/emea-ita-competence-date.md
                 - name: Afschrijving van vaste activa
@@ -2726,14 +2702,10 @@
                   href: localizations/emea-ita-exil-zero-invoice-posting.md
                 - name: Verbetering van de bruikbaarheid van bankgegevens
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
-                - name: Intrastat
-                  items:
-                    - name: Italiaanse Intrastat
-                      href: localizations/emea-ita-intrastat.md
-                    - name: Ontvangsten en verzendingen voor Intrastat boeken
-                      href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
-                    - name: Intrastat-bestandsindeling (IT)
-                      href: /dynamics/s-e/365business/dynamices365finance_itintrastatfile
+                - name: Italiaanse Intrastat
+                  href: localizations/emea-ita-intrastat.md
+                - name: Ontvangsten en verzendingen voor Intrastat boeken
+                  href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
                 - name: Diverse toeslagen per kilogram in een intrastat-aangifte
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: Intentieverklaring - gebruikelijke exporteurs factureren
@@ -2756,8 +2728,6 @@
                   href: localizations/emea-ita-exil-tax-plafond.md
                 - name: Elektronische klantfacturen
                   href: localizations/emea-ita-e-invoices.md
-                - name: Elektronische leveranciersfacturen
-                  href: localizations/emea-ita-vend-e-invoices.md
                 - name: Jaarlijkse belastingaangifte
                   href: localizations/emea-ita-yearly-tax-communication.md
                 - name: Traceerbaarheid van betalingen
@@ -2942,8 +2912,6 @@
                   href: localizations/emea-lva-tax-natural-resources.md
                 - name: Details btw-overzicht
                   href: localizations/emea-lva-vat-statement-details.md
-                - name: Letse Intrastat
-                  href: localizations/emea-lva-intrastat.md
             - name: Litouwen
               items:
                 - name: Overzicht Litouwen
@@ -3006,8 +2974,6 @@
                   href: localizations/tasks/mx-00010-e-invoicing-cfdi.md
                 - name: Elektronische facturen
                   href: localizations/latam-mex-CFDI-electronic-invoices.md
-                - name: Aanvulling op vrachtbrief (Carta de Porte) (versie 1.0)
-                  href: localizations/latam-mex-carta-de-porte.md
                 - name: Overzichten van elektronische grootboekrekening
                   href: localizations/latam-mex-electronic-ledger-accounting-statements.md
                 - name: Btw-registratie-id's voor Mexicaanse rechtspersonen invoeren
@@ -3028,6 +2994,12 @@
                   href: localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: Leveranciersregistratie-id's
                   href: localizations/tasks/mx-00008-vendor-registration-ids.md
+            - name: Oman
+              items:
+                - name: Overzicht Oman
+                  href: localizations/oman.md
+                - name: Btw-aangifte voor Oman (OM-00003)
+                  href: localizations/emea-oma-vat-declaration.md
             - name: Nederland
               items:
                 - name: Overzicht Nederland
@@ -3042,14 +3014,8 @@
                   href: localizations/emea-nl-audit-file.md
                 - name: Btw-aangifte (Nederland)
                   href: localizations/emea-nl-vat-declaration-netherlands.md
-                - name: Intrastat Nederland
-                  href: localizations/emea-nl-intrastat.md
                 - name: ICL-lijst
                   href: localizations/emea-nl-EU-sales-list.md
-            - name: Nieuw-Zeeland
-              items:
-                - name: GST-aangifteformulier GST101A voor Nieuw-Zeeland (NZ-00003)
-                  href: localizations/apac-nzl-gst-declaration.md
             - name: Noorwegen
               items:
                 - name: Overzicht Noorwegen
@@ -3062,30 +3028,10 @@
                   href: localizations/emea-nor-nets-import-format.md
                 - name: Btw-overzicht
                   href: localizations/emea-nor-sales-tax-payment-report.md
-                - name: Btw-retouren met directe verzending naar Altinn
-                  items:
-                    - name: Overzicht van btw-retouren met directe verzending naar Altinn
-                      href: localizations/emea-nor-vat-return.md
-                    - name: Een integratiepunt registreren in de webportal van ID-porten
-                      href: localizations/emea-nor-vat-return-integration-point.md
-                    - name: Omgeving voorbereiden om samen te werken met de webservices ID-porten en Altinn
-                      href: localizations/emea-nor-vat-return-setup.md
-                    - name: Controlelijst voor het instellen van elektronische berichten voor btw-retour
-                      href: localizations/emea-nor-vat-return-checklist.md
-                    - name: Finance-omgeving autoriseren om samen te werken met de webservices ID-porten en Altinn
-                      href: localizations/emea-nor-vat-return-authorization.md
-                    - name: Een btw-aangifte naar de webservice Altinn verzenden
-                      href: localizations/emea-nor-vat-return-submission.md
                 - name: Standaard auditfile voor belasting (SAF-T) voor Noorwegen
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
                 - name: Elektronische klantfacturen in Noorwegen
                   href: localizations/emea-nor-e-invoices.md
-            - name: Oman
-              items:
-                - name: Overzicht Oman
-                  href: localizations/oman.md
-                - name: Btw-aangifte voor Oman (OM-00003)
-                  href: localizations/emea-oma-vat-declaration.md
             - name: Polen
               items:
                 - name: Overzicht Polen
@@ -3108,8 +3054,6 @@
                   href: localizations/emea-pol-returnable-packages.md
                 - name: Btw-aangiften
                   href: localizations/emea-pol-sales-tax-reports.md
-                - name: Poolse Intrastat
-                  href: localizations/emea-pol-intrastat.md
                 - name: Nummerreeksen instellen per magazijn
                   href: localizations/emea-pol-number-sequence-warehouses.md
                 - name: Standaard auditfile
@@ -3132,8 +3076,6 @@
                       href: localizations/emea-pol-vdek-reporting.md
                     - name: Details van specifieke zakelijke scenario's in het JPK-V7M-rapport
                       href: localizations/emea-pol-vdek-scenarios.md
-                - name: Betalingsvoorwaarden in rapport met commerciële transacties
-                  href: localizations/emea-pol-payment-terms-report.md
             - name: Qatar
               items:
                 - name: Overzicht Qatar
@@ -3158,10 +3100,6 @@
                       href: localizations/rus-turnover-balance-statement-reports.md
                     - name: Rapporten over rekeningactiviteiten
                       href: localizations/rus-account-activity-reports.md
-                    - name: Federale boekhoudwetgeving 27-2021
-                      href: localizations/emea-rus-federal-accounting-standard-27-2021.md
-                    - name: Bestemmingen voor elektronische rapportage inschakelen voor het opslaan van Russische boekhoudingsdocumenten
-                      href: localizations/rus-enable-er-destinations-ru-accounting-documents.md
                 - name: Voorschothouders
                   items:
                     - name: Overzicht van Voorschothouders voor Rusland
@@ -3264,8 +3202,6 @@
                           href: localizations/rus-not-valuable-assets.md
                         - name: Boekhouding voor werkkleding/speciale uitrusting (Rusland)
                           href: localizations/rus-working-clothes-instruments-accounting.md
-                    - name: Integratie van vaste activa met module Activabeheer
-                      href: localizations/rus-integration-eam-with-fixed-asset.md
                 - name: Leveranciers en klanten
                   items:
                     - name: Creditnotacorrecties (Rusland)
@@ -3300,8 +3236,6 @@
                           href: localizations/rus-purchases-on-commission.md
                         - name: Verkopen op provisie
                           href: localizations/rus-sales-on-commission.md
-                    - name: Lokale rapporten en primaire formulieren in Klanten en Leveranciers
-                      href: localizations/rus-local-reports-primary-forms-ar-ap.md
                 - name: Voorraad
                   items:
                     - name: Goederen in transit vanaf leverancier
@@ -3398,8 +3332,6 @@
                   href: localizations/emea-sau-zakat-reporting.md
                 - name: Bankdocumenttoeslagen aan een zending toewijzen
                   href: localizations/apac-sau-allocate-bank-document-charges-shipment.md
-                - name: Elektronische klantfacturen in Saoedi-Arabië
-                  href: localizations/emea-sau-e-invoices.md
             - name: Singapore
               items:
                 - name: Overzicht Singapore
@@ -3426,20 +3358,16 @@
                   href: localizations/emea-esp-fixed-asset-group-revaluation.md
                 - name: Intracommunautaire btw
                   href: localizations/emea-esp-intra-community-vat.md
-                - name: Spaanse Intrastat
-                  href: localizations/emea-esp-intrastat.md
                 - name: Eenmalige klanten
                   href: localizations/emea-esp-no-one-time-customer-for-project-contracts.md
                 - name: Cheques afdrukken met een Spaanse indeling
                   href: localizations/emea-esp-print-checks-with-spanish-layout.md
                 - name: Opties voor promessen
                   href: localizations/emea-esp-promissory-note-options.md
-                - name: Rapport 340
+                - name: 340-aangifte
                   href: localizations/emea-esp-report-340.md
                 - name: 347-aangifterapport
                   href: localizations/emea-esp-declaration-347-report.md
-                - name: Btw-aangifte 303
-                  href: localizations/emea-esp-vat-declaration-spain.md
                 - name: Verkoop- en inkoopcycli
                   href: localizations/emea-esp-sales-purchase-cycle.md
                 - name: Speciale boekingen en openingsbladen
@@ -3514,26 +3442,28 @@
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
                     - name: Btw-groepen instellen voor een omgekeerde toeslag
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-                - name: Belasting digitaal maken (MTD) voor btw
+                - name: Rapportage voor Verenigd Koninkrijk
                   items:
-                    - name: Belasting digitaal maken (MTD) voor btw-aangifte in het Verenigd Koninkrijk
-                      href: localizations/emea-gbr-mtd-vat-integration.md
-                    - name: Uw omgeving voorbereiden om samen te werken met de webservice voor MTD-btw van HMRC
-                      href: localizations/emea-gbr-mtd-vat-integration-setup.md
-                    - name: Controlelijst voor het instellen van elektronische berichten voor MTD-btw
-                      href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
-                    - name: Samenwerking met de btw-sandbox voor MTD testen
-                      href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                    - name: Finance-omgeving autoriseren om samen te werken met de MTD-webservice van HMRC
-                      href: localizations/emea-gbr-mtd-vat-integration-authorization.md
-                    - name: Een btw-aangifte naar de MTD-webservice van HMRC verzenden
-                      href: localizations/emea-gbr-mtd-vat-integration-submission.md
-                    - name: Gegevens over btw-betalingen en -schulden ophalen van HMRC
-                      href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
-                    - name: Details van btw-instellingen voor btw-aangiften in het Verenigd Koninkrijk
-                      href: localizations/emea-gbr-mtd-vat-integration-declaration.md
-                    - name: Een btw-aangifte op papier genereren (btw 100-aangifte)
-                      href: localizations/emea-gbr-mtd-vat-integration-vat100.md
+                    - name: Belasting digitaal maken (MTD) voor btw
+                      items:
+                        - name: Belasting digitaal maken (MTD) voor btw-aangifte in het Verenigd Koninkrijk
+                          href: localizations/emea-gbr-mtd-vat-integration.md
+                        - name: Uw omgeving voorbereiden om samen te werken met de MTD btw-webservice van HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-setup.md
+                        - name: Finance-omgeving autoriseren om samen te werken met de MTD-webservice van HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                        - name: Samenwerking met de btw-sandbox voor MTD testen
+                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                        - name: Een btw-aangifte naar de MTD-webservice van HMRC verzenden
+                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
+                        - name: Controlelijst voor het instellen van elektronische berichten voor MTD-btw
+                          href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
+                        - name: Een btw-aangifte op papier genereren (btw 100-aangifte)
+                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
+                        - name: Details van btw-instellingen voor btw-aangiften in het Verenigd Koninkrijk
+                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                        - name: Gegevens over btw-betalingen en -schulden ophalen van HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
                 - name: Statistieken over rapport met betalingsmethoden
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Verenigde Staten
@@ -3546,6 +3476,168 @@
                   href: localizations/noam-usa-form-1099-public-sector.md
                 - name: Leveranciers voor 1099-aangifte instellen
                   href: localizations/noam-usa-set-up-vndrs-1099-rprtg.md
+        - name: Human Resources
+          items:
+            - name: Overzicht van Human Resources
+              href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
+            - name: Human Resources instellen
+              items:
+                - name: Human Resources-parameters configureren
+                  href: ../human-resources/hr-setup-parameters.md?toc=/dynamics365/finance/toc.json
+                - name: Gedeelde Human Resources-parameters onderhouden
+                  href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
+                - name: Werkstromen voor Human Resources instellen
+                  href: /dynamics365/finance/hr-workflow-manage-employee-information?toc=%2fdynamics365%2ffinance%2ftoc.json
+                - name: Datum- en tijdvelden begrijpen
+                  href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
+            - name: Personeelsbeheer
+              items:
+                - name: Uw personeel organiseren
+                  href: ../human-resources/hr-personnel-departments-jobs-positions.md?toc=/dynamics365/finance/toc.json
+                - name: De onderdelen van een taak instellen
+                  href: ../human-resources/hr-personnel-jobs.md?toc=/dynamics365/finance/toc.json
+                - name: Afdelingen definiëren
+                  href: ../human-resources/hr-personnel-define-departments.md?toc=/dynamics365/finance/toc.json
+                - name: Een afdeling aan een hiërarchie toevoegen
+                  href: ../human-resources/hr-personnel-add-department-hierarchy.md?toc=/dynamics365/finance/toc.json
+                - name: Taken definiëren
+                  href: ../human-resources/hr-personnel-define-jobs.md?toc=/dynamics365/finance/toc.json
+                - name: Een werktijdenkalender maken
+                  href: ../human-resources/hr-personnel-create-working-time-calendar.md?toc=/dynamics365/finance/toc.json
+                - name: Veelgestelde vragen over personeelsacties
+                  href: ../human-resources/hr-personnel-actions-faq.md?toc=/dynamics365/finance/toc.json
+                - name: Werknemersgegevens beheren met behulp van werkstromen
+                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
+                - name: Rapporteringsrelaties voor een positie wijzigen
+                  href: ../human-resources/hr-personnel-modify-reporting-relationships-position.md?toc=/dynamics365/finance/toc.json
+                - name: Gegevens medewerker invoeren
+                  href: ../human-resources/hr-personnel-enter-worker-information.md?toc=/dynamics365/finance/toc.json
+                - name: Artikelen uitlenen aan medewerkers
+                  href: ../human-resources/hr-personnel-loan-item-worker.md?toc=/dynamics365/finance/toc.json
+                - name: Leenartikelen maken
+                  href: ../human-resources/hr-personnel-create-loan-items.md?toc=/dynamics365/finance/toc.json
+                - name: Leenartikelen beheren
+                  href: ../human-resources/hr-personnel-loan-items.md?toc=/dynamics365/finance/toc.json
+                - name: Een opvolgingsplan ontwikkelen
+                  href: ../human-resources/hr-personnel-develop-succession-plan.md?toc=/dynamics365/finance/toc.json
+                - name: Project Timesheets invoeren
+                  href: ../fin-ops-core/fin-ops/hr/tasks/hr-enter-project-timesheets.md
+                - name: Projecten voor massaal aanstellen
+                  href: ../human-resources/hr-personnel-mass-hire-projects.md?toc=/dynamics365/finance/toc.json
+                - name: Een project voor massaal aanstellen maken
+                  href: ../human-resources/hr-personnel-create-mass-hire-project.md?toc=/dynamics365/finance/toc.json
+                - name: Posities instellen
+                  href: ../human-resources/hr-personnel-set-up-positions.md?toc=/dynamics365/finance/toc.json
+                - name: Informatie over letsel en ziekten instellen
+                  href: ../human-resources/hr-personnel-set-up-injury-illness-information.md?toc=/dynamics365/finance/toc.json
+                - name: Informatie over letsel en ziekte bij werknemers bijhouden
+                  href: ../human-resources/hr-personnel-maintain-employee-injury-illness-information.md?toc=/dynamics365/finance/toc.json
+            - name: Kandidaten werven
+              items:
+                - name: Wervingsprocessen beheren
+                  href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
+                - name: Projecten voor massaal aanstellen
+                  href: ../human-resources/hr-personnel-mass-hire-projects.md
+                - name: Projecten voor massaal aanstellen maken
+                  href: ../human-resources/hr-personnel-create-mass-hire-project.md
+                - name: Sollicitant- en sollicitatiegegevens handmatig invoeren
+                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
+                - name: Vacatures ontwikkelen en openen
+                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
+                - name: Posities instellen
+                  href: ../human-resources/hr-personnel-set-up-positions.md
+                - name: Kandidaten aannemen via werving
+                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
+                - name: Een bestaande werknemer aannemen via werving
+                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
+                - name: Middelen voor selectie van kandidaten identificeren en implementeren
+                  href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
+            - name: Compensatieplannen instellen
+              items:
+                - name: Overzicht van compensatieplannen
+                  href: ../human-resources/hr-compensation-overview.md?toc=/dynamics365/finance/toc.json
+                - name: Compensatierasters instellen
+                  href: ../human-resources/hr-compensation-grids.md?toc=/dynamics365/finance/toc.json
+                - name: Een structuur en plan voor compensatie ontwikkelen
+                  href: ../human-resources/hr-compensation-structure.md?toc=/dynamics365/finance/toc.json
+                - name: Plannen voor vaste compensatie maken
+                  href: ../human-resources/hr-compensation-fixed-plans.md?toc=/dynamics365/finance/toc.json
+                - name: Plannen voor variabele compensatie maken
+                  href: ../human-resources/hr-compensation-variable-plans.md?toc=/dynamics365/finance/toc.json
+                - name: Werknemers inschrijven voor een vaste compensatieregeling
+                  href: ../human-resources/hr-compensation-enroll-employees-fixed.md?toc=/dynamics365/finance/toc.json
+                - name: Werknemers inschrijven voor een variabele compensatieregeling
+                  href: ../human-resources/hr-compensation-enroll-employees-variable.md?toc=/dynamics365/finance/toc.json
+                - name: Compensatieproces definiëren en resultaten berekenen
+                  href: ../human-resources/hr-compensation-define-process.md?toc=/dynamics365/finance/toc.json
+                - name: Compensatieplannen verwerken
+                  href: ../human-resources/hr-compensation-process.md?toc=/dynamics365/finance/toc.json
+            - name: Vergoedingen beheren
+              items:
+                - name: Een vergoedingenprogramma definiëren en beheren
+                  href: ../human-resources/hr-benefits-manage-program.md?toc=/dynamics365/finance/toc.json
+                - name: Beleid voor geschiktheid vergoedingen
+                  href: ../human-resources/hr-benefits-eligibility-policies.md?toc=/dynamics365/finance/toc.json
+                - name: Proces voor geschiktheid voor vergoeding
+                  href: ../human-resources/hr-benefits-eligibility-process.md?toc=/dynamics365/finance/toc.json
+                - name: Regels en beleid van de vergoedingsgeschiktheid definiëren
+                  href: ../human-resources/hr-benefits-define-eligibility-rules.md?toc=/dynamics365/finance/toc.json
+                - name: Een vergoedingenprogramma voor werknemers maken
+                  href: ../human-resources/hr-benefits-deliver-employee-benefits-program.md?toc=/dynamics365/finance/toc.json
+                - name: Nieuwe vergoedingen maken
+                  href: ../human-resources/hr-benefits-create.md?toc=/dynamics365/finance/toc.json
+                - name: Medewerkers inschrijven voor vergoedingen
+                  href: ../human-resources/hr-benefits-enroll-workers.md?toc=/dynamics365/finance/toc.json
+                - name: Vervaldatums voor vergoeding beheren
+                  href: ../human-resources/hr-benefits-expiration-dates.md?toc=/dynamics365/finance/toc.json
+                - name: ACA-rapporten genereren
+                  href: ../human-resources/hr-benefits-aca-reports.md?toc=/dynamics365/finance/toc.json
+            - name: Werknemers ontwikkelen
+              items:
+                - name: Overzicht van prestatiebeheer
+                  href: ../human-resources/hr-develop-performance-management-overview.md?toc=/dynamics365/finance/toc.json
+                - name: Personeelsvaardigheden afstemmen
+                  href: ../human-resources/hr-develop-skills.md?toc=/dynamics365/finance/toc.json
+                - name: Toevoegen aan uw prestatiejournaal
+                  href: ../human-resources/hr-develop-add-performance-journal.md?toc=/dynamics365/finance/toc.json
+                - name: Een doelstelling maken
+                  href: ../human-resources/hr-develop-create-goal.md?toc=/dynamics365/finance/toc.json
+                - name: Een prestatiebeoordeling maken
+                  href: ../human-resources/hr-develop-create-performance-review.md?toc=/dynamics365/finance/toc.json
+            - name: Cursussen maken
+              items:
+                - name: Trainingscursussen instellen
+                  href: ../human-resources/hr-learning-courses.md?toc=/dynamics365/finance/toc.json
+                - name: Overzicht van vragenlijsten
+                  href: ../human-resources/hr-learning-questionnaires.md?toc=/dynamics365/finance/toc.json
+                - name: Vragenlijsten ontwerpen
+                  href: ../human-resources/hr-learning-design-questionnaires.md?toc=/dynamics365/finance/toc.json
+                - name: Vragenlijsten distribueren en plannen
+                  href: ../human-resources/hr-learning-distribute-questionnaires.md?toc=/dynamics365/finance/toc.json
+                - name: Vragenlijsten distribueren met een planning
+                  href: ../human-resources/hr-learning-distribute-questionnaires-scheduling.md?toc=/dynamics365/finance/toc.json
+                - name: Resultaten van vragenlijst weergeven
+                  href: ../human-resources/hr-learning-evaluate-questionnaire-results.md?toc=/dynamics365/finance/toc.json
+                - name: Resultaten vragenlijst analyseren
+                  href: ../human-resources/hr-learning-analyze-questionnaire-results.md?toc=/dynamics365/finance/toc.json
+                - name: Een open vraag maken
+                  href: ../human-resources/hr-learning-create-open-ended-question.md?toc=/dynamics365/finance/toc.json
+                - name: Een meerkeuzevraag maken
+                  href: ../human-resources/hr-learning-create-closed-ended-question.md?toc=/dynamics365/finance/toc.json
+                - name: Een afhankelijke vraag maken
+                  href: ../human-resources/hr-learning-depending-question.md?toc=/dynamics365/finance/toc.json
+            - name: Veiligheid en conformiteit op de werkplek (Verenigde Staten)
+              items:
+                - name: Verificatie van formulier I-9
+                  href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-form-i-9-verification.md
+                - name: Recht op werk verifiëren met formulier I-9
+                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/employment-verification-i9-verification.md
+                - name: Documenttypen formulier I-9 instellen
+                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/set-up-i9-document-types.md
+                - name: Naleving van de Disabilities Act (Amerikaanse gehandicaptenwetgeving)
+                  href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
+                - name: Verblijven voor werknemers beheren
+                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
         - name: Rapportage en Power BI-integratie
           items:
             - name: Rapportage en analyse met Power BI
@@ -3699,8 +3791,6 @@
           items:
             - name: Overzicht van elektronische rapportage
               href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/finance/toc.json
-            - name: Onderdelen van elektronische rapportage
-              href: ../fin-ops-core/dev-itpro/analytics/er-overview-components.md?toc=/dynamics365/finance/toc.json
             - name: Configuraties
               items:
                 - name: Configuraties maken
@@ -3765,8 +3855,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/finance/toc.json
                         - name: AddDays
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/finance/toc.json
-                        - name: ChangeTimeZone
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-changetimezone.md?toc=/dynamics365/finance/toc.json
                         - name: DateFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/finance/toc.json
                         - name: DateTimeFormat
@@ -3793,9 +3881,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/finance/toc.json
-                        - name: WeekNum
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/finance/toc.json
-                    - name: List
+                    - name: Lijst
                       items:
                         - name: Lijstfuncties
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/finance/toc.json
@@ -3901,8 +3987,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/finance/toc.json
                         - name: GetEnumValueByName
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/finance/toc.json
-                        - name: GetLabelText
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getlabeltext.md?toc=/dynamics365/finance/toc.json
                         - name: GuidValue
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/finance/toc.json
                         - name: JsonValue
@@ -3915,8 +3999,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/finance/toc.json
                         - name: Mid
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/finance/toc.json
-                        - name: NewGUID
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-newguid.md?toc=/dynamics365/finance/toc.json
                         - name: NumberFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/finance/toc.json
                         - name: NumeralsToText
@@ -4037,8 +4119,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
                         - name: Indelingen uitvoeren om kolommen dynamisch toe te voegen aan Excel-rapporten
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
-                    - name: Een ER-indeling ontwerpen om gegenereerde documenten in Excel te pagineren
-                      href: ../fin-ops-core/dev-itpro/analytics/er-paginate-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Configuraties ontwerpen om rapporten in Word-indeling te genereren
                   items:
                     - name: Een nieuwe ER-configuratie ontwerpen om rapporten in Word-indeling te genereren
@@ -4089,8 +4169,6 @@
                   items:
                     - name: Configuraties maken om gegevens te importeren uit een extern XML-bestand
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/finance/toc.json
-                    - name: In batchmodus gegevens importeren vanuit handmatig geselecteerde bestanden
-                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/finance/toc.json
                 - name: Gegevensimport configureren in batchmodus op basis van in SharePoint gevonden bestanden
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/finance/toc.json
                 - name: Bestanden importeren in XML-indeling
@@ -4171,8 +4249,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/finance/toc.json
                         - name: Rapporten uitvoeren
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/finance/toc.json
-                    - name: Records groeperen en tellen en totaliseren met behulp van GROUPBY-gegevensbronnen
-                      href: ../fin-ops-core/dev-itpro/analytics/er-groupby-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: De gegenereerde uitvoer gebruiken als gegevensbron voor tellen en totaliseren
                       items:
                         - name: Indelingen maken
@@ -4233,8 +4309,6 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/finance/toc.json
                 - name: Relatief pad in gegevensbindingen
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/finance/toc.json
-                - name: Expressies ontwerpen om methoden voor toepassingsklassen aan te roepen
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/design-expressions-app-class-er.md?toc=/dynamics365/finance/toc.json
             - name: ER-oplossingen gebruiken in Finance
               items:
                 - name: Het raamwerk configureren
@@ -4323,10 +4397,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
                     - name: Toepassingsupdate 10.0.21
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
-                    - name: Toepassingsupdate 10.0.23
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/finance/toc.json
-                    - name: Toepassingsupdate 10.0.25
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/finance/toc.json
                 - name: Een aangepaste opslaglocatie opgeven voor gegenereerde documenten
                   items:
                     - name: Abonneren op een gebeurtenis om een reactie te vragen van een abonneehandler
@@ -4339,8 +4409,6 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
                 - name: Code wijzigen om gebruikers in staat te stellen de benoemde ER-bestemmingen te configureren en te gebruiken
                   href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
-                - name: Een aangepaste ER-bron voor inkomende documenten implementeren
-                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-source.md?toc=/dynamics365/finance/toc.json
         - name: Mobiele app
           items:
             - name: Startpagina mobiele app
@@ -4429,8 +4497,6 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Het globale adresboek configureren
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/finance/toc.json
-                - name: Adresinstelling
-                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/finance/toc.json
                 - name: Veelgestelde vragen over adresboeken
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Adresboeken configureren
@@ -4657,11 +4723,9 @@
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-8.md
             - name: 'Transacties vereffenen met CustTrans::settleTransaction'
               href: ../fin-ops-core/dev-itpro/financial/settletransact-obsolete.md
-    - name: Ontwikkeling en beheer voor apps voor financiën en bedrijfsactiviteiten
+    - name: Ontwikkeling en beheer voor Finance and Operations-apps
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Supply Chain Management
       href: ../supply-chain/index.md
     - name: Dynamics 365 Commerce
       href: ../commerce/index.md
-    - name: Dynamics 365 Human Resources
-      href: ../human-resources/index.md

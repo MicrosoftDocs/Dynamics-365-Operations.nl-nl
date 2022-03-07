@@ -2,36 +2,30 @@
 title: Organisatiehiërarchieën instellen
 description: In dit onderwerp wordt beschreven hoe u organisatiehiërarchieën instelt in Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 29d4b686cbb66715196fca06e4642fbb8a337ace
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ce0732f32a9a80fc5b0ede7ae9f1c1ab9a68a89b2fb0b1821cb5df123ca5ca4a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411338"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746011"
 ---
 # <a name="set-up-organization-hierarchies"></a>Organisatiehiërarchieën instellen
-
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u organisatiehiërarchieën instelt in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 Voordat u kanalen gaat maken, moet u controleren of uw organisatiehiërarchieën zijn ingesteld.
 
@@ -60,7 +54,7 @@ Volg deze stappen om om een organisatiehiërarchie te maken.
 
 De volgende afbeelding toont een voorbeeld van een organisatiehiërarchie die is gemaakt voor een fictieve reeks winkels van Adventure Works.
 
-![Voorbeeld van een organisatiehiërarchie](media/organizational-hierarchies.png)
+![Voorbeeld van een organisatiehiërarchie.](media/organizational-hierarchies.png)
 
 ### <a name="add-organizations-to-a-hierarchy"></a>Organisaties aan een hiërarchie toevoegen
 
@@ -73,9 +67,9 @@ Volg deze stappen om organisaties toe te voegen aan een hiërarchie.
 
 De volgende afbeelding toont een rechtspersoon die is toegevoegd aan de hiërarchiebasis. Er zijn vier kostenplaatsen toegevoegd: de kanalen winkelcentrum, outlet, online en callcenter. Aan elke winkel kunnen diverse detailhandels-, callcenter- en onlinekanalen worden toegevoegd.
 
-![Voorbeeld van hiërarchieontwerper](media/hierarchy-designer.png)
+![Voorbeeld van hiërarchieontwerper.](media/hierarchy-designer.png)
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van Organisaties en organisatiehiërarchieën](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 
@@ -88,3 +82,6 @@ De volgende afbeelding toont een rechtspersoon die is toegevoegd aan de hiërarc
 [Overzicht van kanalen](channels-overview.md)
 
 [Vereisten voor het instellen van kanalen](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

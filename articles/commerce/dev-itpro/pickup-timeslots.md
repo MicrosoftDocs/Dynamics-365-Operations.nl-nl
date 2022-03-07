@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: 125696e8f32c2452a572a2316f512779f399f5c4
-ms.sourcegitcommit: 8b4cb7b6ad4aab37566bcc91e426bd56db771416
+ms.openlocfilehash: 6dc2be8a6f62ce13068ce2242f92ef17830c2447
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "4828206"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205742"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Tijdvakken voor het ophalen door klanten maken en bijwerken
 
@@ -127,3 +127,6 @@ In de callcenter-app kunnen callcentermedewerkers de ophaalwinkel of -locatie se
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Module ophaalinformatie](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

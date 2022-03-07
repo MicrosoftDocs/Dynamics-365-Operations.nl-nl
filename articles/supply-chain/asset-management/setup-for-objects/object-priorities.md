@@ -1,12 +1,10 @@
 ---
 title: Serviceniveaus van activa
 description: In dit onderwerp worden serviceniveaus voor activa in Activabeheer uitgelegd.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83b195add44927d847491e6394e72637323117b3
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 4163d059fda4ae0120d5c989e744c5a5fe0f5892
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021624"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808280"
 ---
 # <a name="asset-service-levels"></a>Serviceniveaus van activa
 
@@ -52,3 +50,6 @@ Zie [Parameters voor activabeheer](../setup-for-objects/enterprise-asset-managem
 
 > [!NOTE]
 > Als u een activumserviceniveaurecord op de pagina **Serviceniveaus van activa** wijzigt nadat u deze al op een werkorder hebt gebruikt, wordt het serviceniveau voor onderhoudsaanvragen en werkorders niet dienovereenkomstig bijgewerkt.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

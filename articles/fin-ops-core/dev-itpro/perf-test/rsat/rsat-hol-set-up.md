@@ -1,25 +1,27 @@
 ---
 title: Zelfstudie over het instellen en installeren van Regression Suite Automation Tool
 description: Dit onderwerp is een zelfstudie waarin wordt beschreven hoe u RSAT (Regression Suite Automation Tool) instelt en installeert.
-author: tonyafehr
+author: robinarh
+manager: AnnBe
 ms.date: 09/20/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
 ms.custom: 21761, NotInToc
 ms.search.region: Global
-ms.author: tfehr
+ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 5dcdd14f54b9c0ad39794ff98ede29332c246513
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 46115dc4a46be951517265197f76637ad3e63b78
+ms.sourcegitcommit: b337b647a1be4908fc361fb6d962e96a69f301a9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781986"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5036704"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Zelfstudie over het instellen en installeren van Regression Suite Automation Tool
 
@@ -54,7 +56,7 @@ Dit onderwerp is een zelfstudie waarmee u RSAT en de bijbehorende hulpprogramma'
 
 ### <a name="user-eligibility"></a>Geschiktheid van gebruikers
 
-Controleer of de gebruiker is gemaakt in Azure DevOps en een abonnementsniveau heeft dat toegang biedt tot Azure Test Plans. Een Azure DevOps Test Plans-licentie is alleen vereist als de gebruiker testcases maakt en beheert (dus niet alle RSAT-gebruikers hebben deze licentie nodig). Zie [Licentievereisten](/azure/devops/test/manual-test-permissions#license-requirements) voor informatie over de licentievereisten.
+Controleer of de gebruiker is gemaakt in Azure DevOps en een abonnementsniveau heeft dat toegang biedt tot Azure Test Plans. Een Azure DevOps Test Plans-licentie is alleen vereist als de gebruiker testcases maakt en beheert (dus niet alle RSAT-gebruikers hebben deze licentie nodig). Zie [Licentievereisten](https://docs.microsoft.com/azure/devops/test/manual-test-permissions#license-requirements) voor informatie over de licentievereisten.
 
 ### <a name="create-a-new-azure-devops-project"></a>Een nieuw Azure DevOps-project maken
 
@@ -67,14 +69,14 @@ RSAT gebruikt Azure Devops voor het beheer van testcases en testsuites, rapporta
 - Verwijder geen status van een werkitemtype.
 - Voeg geen vereiste velden toe aan een werkitemtype.
 
-![Foutbericht met een lijst met aanbevolen procedures.](./media/setup_rsa_tool_02.png)
+![Foutbericht met een lijst met aanbevolen procedures](./media/setup_rsa_tool_02.png)
 
 Anders raden we u voor deze zelfstudie aan om een nieuw Azure DevOps-project te maken. Zie [Problemen bij synchronisatie naar Modelleertool bedrijfsprocessen met een aangepaste Azure DevOps-processjabloon (VSTS)](https://blogs.msdn.microsoft.com/lcs/2018/11/28/issues-when-syncing-to-bpm-using-a-custom-azure-devops-vsts-process-template/) voor meer informatie.
 
 1. Open de URL van Azure DevOps (`https://dev.azure.com/<Azure DevOps Name>`).
 2. Selecteer **Project maken** in de rechterbovenhoek van de Azure DevOps-pagina.
 
-    ![De knop Project maken.](./media/setup_rsa_tool_03.png)
+    ![De knop Project maken](./media/setup_rsa_tool_03.png)
 
 3. Vul de volgende velden in en selecteer **Maken**:
 
@@ -82,7 +84,7 @@ Anders raden we u voor deze zelfstudie aan om een nieuw Azure DevOps-project te 
     - **Versiebeheer**: selecteer **Team Foundation Version Control**. De standaardoptie, **Git**, wordt niet ondersteund.
     - **Werkitemproces**
 
-    ![Het dialoogvenster Nieuw project maken.](./media/setup_rsa_tool_04.png)
+    ![Het dialoogvenster Nieuw project maken](./media/setup_rsa_tool_04.png)
 
 ### <a name="create-a-personal-access-token"></a>Een persoonlijke toegangstoken maken
 
@@ -90,11 +92,11 @@ In deze zelfstudie gebruikt u de LCS-oplossing BPM (Modelleertool bedrijfsproces
 
 1. Selecteer het profielpictogram in de rechterbovenhoek van de pagina voor uw Azure DevOps-project en selecteer **Beveiliging**.
 
-    ![De opdracht Beveiliging.](./media/setup_rsa_tool_05.png)
+    ![De opdracht Beveiliging](./media/setup_rsa_tool_05.png)
 
 2. Selecteer in het linkerdeelvenster onder **Beveiliging** de optie **Persoonlijke toegangstokens**. Selecteer vervolgens **Nieuwe token**.
 
-    ![De knop Nieuwe token op het tabblad Persoonlijke toegangstokens in Gebruikersinstellingen.](./media/setup_rsa_tool_06.png)
+    ![De knop Nieuwe token op het tabblad Persoonlijke toegangstokens in Gebruikersinstellingen](./media/setup_rsa_tool_06.png)
 
 3. Vul de volgende velden in en selecteer **Maken**:
 
@@ -102,12 +104,12 @@ In deze zelfstudie gebruikt u de LCS-oplossing BPM (Modelleertool bedrijfsproces
     - **Verval (UTC)**: selecteer **Aangepast** en gebruik vervolgens de datumkiezer om de laatste beschikbare datum te selecteren.
     - **Bereiken**: selecteer de optie **Volledige toegang**.
 
-    ![Het dialoogvenster Een nieuwe persoonlijke toegangstoken maken.](./media/setup_rsa_tool_07.png)
+    ![Het dialoogvenster Een nieuwe persoonlijke toegangstoken maken](./media/setup_rsa_tool_07.png)
 
     > [!NOTE]
     > Noteer de gemaakte persoonlijke toegangstoken. U hebt deze later nodig wanneer u de RSAT-configuratie instelt.
 
-    ![Persoonlijk toegangstoken.](./media/setup_rsa_tool_08.png)
+    ![Persoonlijke toegangstoken](./media/setup_rsa_tool_08.png)
 
 ## <a name="configure-the-lcs-project"></a>Het LCS-project configureren
 
@@ -123,11 +125,11 @@ Voor uw LCS-project kunt u bestaande klantimplementaties of partnerprojecten geb
 1. Ga naar het LCS-implementatieproject.
 2. Selecteer de knop **Instellingen** (het tandwielsymbool) in de rechterbovenhoek en selecteer vervolgens **Taalvoorkeur**.
 
-    ![Taalvoorkeur bijwerken.](./media/setup_rsa_tool_09.png)
+    ![Taalvoorkeur bijwerken](./media/setup_rsa_tool_09.png)
 
 3. Selecteer in het veld **Voorkeurstaal** de optie **Engels (Verenigde Staten)** en selecteer vervolgens **Opslaan**.
 
-    ![Het tabblad Voorkeurstaal in Gebruikersinstellingen.](./media/setup_rsa_tool_10.png)
+    ![Het tabblad Voorkeurstaal in Gebruikersinstellingen](./media/setup_rsa_tool_10.png)
 
 ### <a name="configure-lcs-to-connect-to-the-azure-devops-project"></a>LCS configureren om verbinding te maken met het Azure DevOps-project
 
@@ -136,67 +138,67 @@ Als u eerder een nieuw Azure DevOps-project hebt gemaakt, configureert u het LCS
 1. Ga naar het LCS-implementatieproject.
 2. Selecteer de knop **Menu** en vervolgens **Project settings**.
 
-    ![De opdracht Project settings.](./media/setup_rsa_tool_11.png)
+    ![De opdracht Project settings](./media/setup_rsa_tool_11.png)
 
 3. Selecteer **Visual Studio Team Services** in het linkerdeelvenster en selecteer vervolgens **Setup Visual Studio Team Services**.
 
-    ![Het tabblad Visual Studio Team Services in Project settings.](./media/setup_rsa_tool_12.png)
+    ![Het tabblad Visual Studio Team Services in Project settings](./media/setup_rsa_tool_12.png)
 
 4. Geef in het veld **Azure DevOps site URL** de URL van de Azure DevOps-site op. Voer in het veld **Personal access token** de persoonlijke toegangstoken in die eerder is gemaakt.
 
     > [!NOTE]
     > Hoewel VSTS nu bekend staat als Azure DevOps, gebruikt u de oude URL om uw Azure DevOps-project te maken. De URL voor Azure DevOps die in deze zelfstudie wordt gebruikt, is bijvoorbeeld `https://dev.azure.com/D365FOFastTrack/`. In de volgende afbeelding wordt deze echter ingevoerd als `https://D365FOFastTrack.visualstudio.com/`.
 
-    ![Stap 1 in Setup Visual Studio Team Services.](./media/setup_rsa_tool_13.png)
+    ![Stap 1 in Setup Visual Studio Team Services](./media/setup_rsa_tool_13.png)
 
 5. Selecteer **Continue**.
 6. Selecteer in het veld **Visual Studio Team Services project** het VSTS-project op de geselecteerde site die moet worden gekoppeld aan het LCS-project. Het veld **Process template** is standaard ingesteld op **Agile**. Neem voor een aangepaste sjabloon de richtlijn voor de aanbevolen procedure in [Een nieuw Azure DevOps-project maken](#create-a-new-azure-devops-project) door. Selecteer vervolgens **Continue**.
 
-    ![Stap 2 in Setup Visual Studio Team Services.](./media/setup_rsa_tool_14.png)
+    ![Stap 2 in Setup Visual Studio Team Services](./media/setup_rsa_tool_14.png)
 
 7. Controleer de instellingen en selecteer vervolgens **Opslaan**.
 
-    ![Stap 3 in Setup Visual Studio Team Services.](./media/setup_rsa_tool_15.png)
+    ![Stap 3 in Setup Visual Studio Team Services](./media/setup_rsa_tool_15.png)
 
 8. Selecteer **Authorize** om LCS te autoriseren om namens u toegang tot de geconfigureerde Azure DevOps-site te krijgen en functies in te schakelen die worden geïntegreerd met VSTS.
 
-    ![De knop Authorize.](./media/setup_rsa_tool_16.png)
+    ![De knop Authorize](./media/setup_rsa_tool_16.png)
 
 9. Er wordt een berichtvenster weergegeven waarin wordt aangegeven dat u naar een externe site wordt omgeleid om LCS te autoriseren om namens u verbinding met Visual Studio Team Services te maken. Daarnaast wordt gevraagd of u wilt doorgaan. Selecteer **Ja**.
 
-    ![Berichtvenster.](./media/setup_rsa_tool_17.png)
+    ![Berichtvenster](./media/setup_rsa_tool_17.png)
 
 10. Selecteer **Accepteren**.
 
-    ![Toegang verlenen.](./media/setup_rsa_tool_18.png)
+    ![Toegang verlenen](./media/setup_rsa_tool_18.png)
 
 11. Als u geautoriseerd bent als gebruiker, moet u door de UI worden omgeleid naar de pagina met LCS-projectinstellingen.
 
-    ![Geautoriseerde gebruiker.](./media/setup_rsa_tool_19.png)
+    ![Geautoriseerde gebruiker](./media/setup_rsa_tool_19.png)
 
 ### <a name="create-a-new-bpm-library"></a>Een nieuwe BPM-bibliotheek maken
 
 1. Ga naar het LCS-implementatieproject.
 2. Selecteer de knop **Menu** en vervolgens **Business process modeler**.
 
-    ![De opdracht Business process modeler.](./media/setup_rsa_tool_20.png)
+    ![De opdracht Business process modeler](./media/setup_rsa_tool_20.png)
 
 3. Selecteer **New library**.
 
-    ![De knop New library.](./media/setup_rsa_tool_21.png)
+    ![De knop New library](./media/setup_rsa_tool_21.png)
 
 4. Voer in het veld **Library name** een naam in en selecteer **Create**. Geef de BPM-bibliotheek voor deze zelfstudie de naam **RSAT**.
 
-    ![Het dialoogvenster Create new library.](./media/setup_rsa_tool_22.png)
+    ![Het dialoogvenster Create new library](./media/setup_rsa_tool_22.png)
 
 5. Open de nieuwe BPM-bibliotheek **RSAT**.
 6. Selecteer het proces **Sample Core Business Process** en selecteer vervolgens **Edit mode** rechts.
 
-    ![De knop Edit mode.](./media/setup_rsa_tool_23.png)
+    ![De knop Edit mode](./media/setup_rsa_tool_23.png)
 
 7. Wijzig de waarde van de velden **Name** en **Description** in **Een product maken**. Selecteer **Save**.
 
-    ![De velden Name en Description.](./media/setup_rsa_tool_24.png)
+    ![De velden Name en Description](./media/setup_rsa_tool_24.png)
 
 ## <a name="environment"></a>Omgeving
 
@@ -219,14 +221,14 @@ Deze stap is vereist om verbinding te maken met LCS zodat taakregistraties kunne
 2. Ga naar **Systeembeheer \> Instellen \> Systeemparameters**.
 3. Selecteer op het tabblad **Help** in het veld **Help-configuratie van Lifecycle Services** het betreffende LCS-project (**RSAT** voor deze zelfstudie).
 
-    ![Het veld Help-configuratie van Lifecycle Services op het tabblad Help.](./media/setup_rsa_tool_25.png)
+    ![Het veld Help-configuratie van Lifecycle Services op het tabblad Help](./media/setup_rsa_tool_25.png)
 
     BPM-bibliotheken worden ingevuld onder het desbetreffende LCS-project.
 
 4. Selecteer **Opslaan**.
 5. Mogelijk moet u de browser vernieuwen om de bijgewerkte Help-inhoud weer te geven.
 
-    ![Melding over het vernieuwen van de browser.](./media/setup_rsa_tool_26.png)
+    ![Melding over het vernieuwen van de browser](./media/setup_rsa_tool_26.png)
 
 ## <a name="task-recordings"></a>Taakregistraties
 
@@ -240,54 +242,54 @@ Maak een bijbehorende taakregistratie die u kunt koppelen aan het eenvoudige bed
 1. Open de client.
 2. Selecteer op het hoofddashboard de knop **Instellingen** (het tandwielsymbool) en selecteer **Taakregistratie**.
 
-    ![Taakrecorder selecteren in het menu Instellingen.](./media/setup_rsa_tool_27.png)
+    ![Taakrecorder selecteren in het menu Instellingen](./media/setup_rsa_tool_27.png)
 
 3. Selecteer **Registratie maken**.
 
-    ![De knop Registratie maken.](./media/setup_rsa_tool_28.png)
+    ![De knop Registratie maken](./media/setup_rsa_tool_28.png)
 
 4. Vul de velden **Naam van registratie** en **Omschrijving van registratie** in en selecteer **Starten**.
 
-    ![De velden Naam van registratie en Omschrijving van registratie.](./media/setup_rsa_tool_29.png)
+    ![De velden Naam van registratie en Omschrijving van registratie](./media/setup_rsa_tool_29.png)
 
 5. Registreer de stappen voor het maken van een product. Wanneer u klaar bent, selecteert u **Stoppen** om de registratie te stoppen.
 
-    ![Stappen voor het maken van een product.](./media/setup_rsa_tool_30.png)
+    ![Stappen voor het maken van een product](./media/setup_rsa_tool_30.png)
 
 6. Selecteer **Opslaan in Lifecycle Services**.
 
-    ![Taakregistratie opslaan in Lifecycle Services.](./media/setup_rsa_tool_31.png)
+    ![Taakregistratie opslaan in Lifecycle Services](./media/setup_rsa_tool_31.png)
 
     Bibliotheekgegevens worden vanuit LCS geladen.
 
-    ![Bibliotheekgegevens laden.](./media/setup_rsa_tool_32.png)
+    ![Bibliotheekgegevens laden](./media/setup_rsa_tool_32.png)
 
 7. Selecteer de BPM-bibliotheek waaraan u de taakregistratie wilt koppelen. Selecteer voor deze zelfstudie de BPM-bibliotheek **RSAT** die eerder is gemaakt en het bedrijfsproces **Een product maken** daaronder. Selecteer vervolgens **OK**.
 
-    ![De taakregistratie koppelen aan een BPM-bibliotheek en een bedrijfsproces.](./media/setup_rsa_tool_33.png)
+    ![De taakregistratie koppelen aan een BPM-bibliotheek en een bedrijfsproces](./media/setup_rsa_tool_33.png)
 
     Het bericht Opgeslagen naar Lifecycle Services wordt weergegeven.
 
-    ![Bericht over de opslag naar LCS.](./media/setup_rsa_tool_34.png)
+    ![Bericht over de opslag naar LCS](./media/setup_rsa_tool_34.png)
 
 8. Voer de volgende stappen uit als u de taakregistratie lokaal wilt opslaan en vervolgens wilt uploaden naar BPM via LCS:
 
     1. Als de registratie is voltooid, selecteert u **Opslaan op deze pc**.
 
-        ![Opslaan op deze pc.](./media/setup_rsa_tool_35.png)
+        ![Opslaan op deze pc](./media/setup_rsa_tool_35.png)
 
     2. Selecteer in de meldingsbalk van de browser de optie **Opslaan** of **Opslaan als** om het bestand op uw lokale computer op te slaan.
 
-        ![Meldingsbalk.](./media/setup_rsa_tool_36.png)
+        ![Meldingsbalk](./media/setup_rsa_tool_36.png)
 
     3. Ga naar de BPM-bibliotheek **RSAT** en selecteer het bedrijfsproces waarvoor u de taakregistratie wilt opslaan.
     4. Selecteer op het tabblad **Overzicht** de optie **Uploaden**.
 
-        ![De knop Uploaden.](./media/setup_rsa_tool_37.png)
+        ![De knop Uploaden](./media/setup_rsa_tool_37.png)
 
     5. Selecteer **Bladeren** en selecteer het AXTR-bestand dat u eerder hebt opgeslagen. Selecteer vervolgens **Uploaden**.
 
-        ![Het AXTR-bestand selecteren om te uploaden.](./media/setup_rsa_tool_38.png)
+        ![Het AXTR-bestand selecteren om te uploaden](./media/setup_rsa_tool_38.png)
 
 ### <a name="test-the-synchronization-from-bpm-to-azure-devops"></a>De synchronisatie van BPM naar Azure DevOps testen
 
@@ -299,36 +301,36 @@ Nu een taakregistratie aan het bedrijfsproces is gekoppeld, moet u controleren o
 1. Ga naar de BPM-bibliotheek en open de bibliotheek **RSAT** die u eerder hebt gemaakt.
 2. Selecteer de knop met het weglatingsteken (**...**) en selecteer **VSTS synchroniseren**.
 
-    ![De opdracht VSTS synchroniseren.](./media/setup_rsa_tool_39.png)
+    ![De opdracht VSTS synchroniseren](./media/setup_rsa_tool_39.png)
 
     Als de VSTS-synchronisatie is voltooid, wordt het tabblad **Vereisten** links weergegeven met het bijbehorende Azure DevOps-werkitem.
 
     > [!NOTE]
     > Het werkitem dat in Azure DevOps wordt gemaakt, heeft de BPM-bibliotheeknaam als titelvoorvoegsel.
 
-    ![Het tabblad Vereisten.](./media/setup_rsa_tool_40.png)
+    ![Het tabblad Vereisten](./media/setup_rsa_tool_40.png)
 
 3. Vernieuw de pagina.
 4. Selecteer de knop met het weglatingsteken (**...**). De extra optie **Testcases synchroniseren** wordt weergegeven. Selecteer deze optie.
 
-    ![De opdracht Testcases synchroniseren.](./media/setup_rsa_tool_41.png)
+    ![De opdracht Testcases synchroniseren](./media/setup_rsa_tool_41.png)
 
     > [!NOTE]
     > Als de optie **Testcases synchroniseren** niet beschikbaar is als u de pagina hebt vernieuwd, gaat u naar de hoofdpagina voor BPM en selecteert u **Testcases synchroniseren** voor de hele bibliotheek zelf. Op deze manier dwingt u op effectieve wijze een synchronisatie af voor de hele bibliotheek.
     >
-    > ![Testcases synchroniseren selecteren voor de hele bibliotheek.](./media/setup_rsa_tool_42.png)
+    > ![Testcases synchroniseren selecteren voor de hele bibliotheek](./media/setup_rsa_tool_42.png)
 
     Als de synchronisatie van testcases is voltooid, wordt een nieuwe testcase gemaakt op het tabblad **Vereisten**.
 
-    ![Nieuwe testcase op het tabblad Vereisten.](./media/setup_rsa_tool_43.png)
+    ![Nieuwe testcase op het tabblad Vereisten](./media/setup_rsa_tool_43.png)
 
 5. Ga naar uw Azure DevOps-project en selecteer **Borden \> Werkitems**.
 
-    ![De opdracht Werkitems onder Borden.](./media/setup_rsa_tool_44.png)
+    ![De opdracht Werkitems onder Borden](./media/setup_rsa_tool_44.png)
 
 6. Controleer of het werkitem en de testcase die u via BPM-synchronisatie hebt gemaakt, bestaan.
 
-    ![Werkitem en testcase.](./media/setup_rsa_tool_45.png)
+    ![Werkitem en testcase](./media/setup_rsa_tool_45.png)
 
 ## <a name="install-and-configure-rsat"></a>RSAT installeren en configureren
 
@@ -354,16 +356,16 @@ Als u verificatie wilt inschakelen, moet u een certificaat genereren en installe
     > [!NOTE]
     > Voer **certlm.msc** in en niet **certmgr.msc**, aangezien de certificaten zijn opgeslagen op de lokale computer.
 
-    ![Het certificaat D365 Automated testing certificate.](./media/setup_rsa_tool_46.png)
+    ![Het certificaat D365 Automated testing certificate](./media/setup_rsa_tool_46.png)
 
 3. Klik met de rechtermuisknop op het certificaat en selecteer **Kopiëren**.
 4. Ga naar **Vertrouwde basiscertificeringsinstanties \> Certificaten**.
 
-    ![De map Certificaten onder de map Vertrouwde basiscertificeringsinstanties.](./media/setup_rsa_tool_47.png)
+    ![De map Certificaten onder de map Vertrouwde basiscertificeringsinstanties](./media/setup_rsa_tool_47.png)
 
 5. Selecteer in het menu **Actie** de optie **Plakken** om het certificaat naar de locatie **Vertrouwde basiscertificeringsinstanties** te kopiëren.
 
-    ![De opdracht Plakken in het menu Actie.](./media/setup_rsa_tool_48.png)
+    ![De opdracht Plakken in het menu Actie](./media/setup_rsa_tool_48.png)
 
 6. Om de vingerafdruk van het geïnstalleerde certificaat op te halen, zonder spaties of speciale tekens, opent u een Windows PowerShell-venster als beheerder en voert u de volgende opdrachten uit.
 
@@ -384,11 +386,11 @@ Als u verificatie wilt inschakelen, moet u een certificaat genereren en installe
 1. Breng een RDP-verbinding (Remote Desktop Protocol) tot stand met de AOS-computer. Details voor aanmelden zijn beschikbaar op de pagina met omgevingsdetails in LCS.
 2. Open Microsoft Internet Information Services (IIS) en vind **AOSService** in de lijst met sites.
 
-    ![AOSService in de lijst met sites.](./media/setup_rsa_tool_49.png)
+    ![AOSService in de lijst met sites](./media/setup_rsa_tool_49.png)
 
 3. Klik met de rechtermuisknop op **Verkennen** om de map **\<Drive\>: \\AosService\\WebRoot** te openen. Zoek het bestand **wif.config**.
 
-    ![Wif.config-bestand in de map WebRoot.](./media/setup_rsa_tool_50.png)
+    ![Wif.config-bestand in de map WebRoot](./media/setup_rsa_tool_50.png)
 
 4. Werk het bestand **wif.config** bij door een nieuwe instantievermelding en -naam toe te voegen voor uw certificaat, zoals in het volgende voorbeeld.
 
@@ -434,11 +436,11 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 1. Ga naar <https://www.microsoft.com/download/details.aspx?id=57357> en selecteer **Downloaden**.
 2. Selecteer alle bestanden en vervolgens **Volgende**.
 
-    ![Alle bestanden selecteren.](./media/setup_rsa_tool_51.png)
+    ![Alle bestanden selecteren](./media/setup_rsa_tool_51.png)
 
 3. Dubbelklik op het MSI-pakket om het installatieprogramma uit te voeren. Nadat de installatie is voltooid, selecteert u **Voltooien**.
 
-    ![RSAT-installatiebestand.](./media/setup_rsa_tool_52.png)
+    ![RSAT-installatiebestand](./media/setup_rsa_tool_52.png)
 
 ### <a name="install-selenium-and-browser-drivers"></a>Selenium- en browserstuurprogramma's installeren
 
@@ -453,46 +455,46 @@ In oudere versies van RSAT moest u Selenium- en browserstuurprogramma's installe
 
 1. Ga naar het Azure DevOps-project en selecteer **Testplannen**.
 
-    ![De opdracht Testplannen.](./media/setup_rsa_tool_53.png)
+    ![De opdracht Testplannen](./media/setup_rsa_tool_53.png)
 
 2. Selecteer **Nieuw testplan**.
 
-    ![De knop Nieuw testplan.](./media/setup_rsa_tool_54.png)
+    ![De knop Nieuw testplan](./media/setup_rsa_tool_54.png)
 
 3. Vul het veld **Naam** in en selecteer **Maken**. Geef het testplan voor deze zelfstudie de naam **RSAT-testplan**.
 
-    ![Het dialoogvenster Nieuw testplan.](./media/setup_rsa_tool_55.png)
+    ![Het dialoogvenster Nieuw testplan](./media/setup_rsa_tool_55.png)
 
 4. Selecteer het plusteken (**+**) en selecteer **Statische suite** om een statische suite te maken onder het nieuwe testplan. Geef de nieuwe testsuite de naam **T01 – Maken naar voorraad**.
 
     > [!NOTE]
     > U kunt ook een suite op basis van query's maken, als u wilt dat de nieuwe testcases vanuit BPM automatisch in de RSAT-testsuite worden opgenomen.
 
-    ![Een statische suite maken.](./media/setup_rsa_tool_56.png)
+    ![Een statische suite maken](./media/setup_rsa_tool_56.png)
 
 ### <a name="attach-test-cases-to-test-suites"></a>Testcases koppelen aan testsuites
 
 1. Selecteer **Bestaande toevoegen** rechts om bestaande testcases toe te voegen aan de testsuite.
 
-    ![De knop Bestaande toevoegen.](./media/setup_rsa_tool_57.png)
+    ![De knop Bestaande toevoegen](./media/setup_rsa_tool_57.png)
 
 2. Selecteer op de pagina **Testcases toevoegen aan suite** de optie **Query uitvoeren** en selecteer de testcase die u wilt toevoegen aan de testsuite. Selecteer voor deze zelfstudie de testcase **Een nieuw product maken**. Selecteer **Testcases toevoegen** in de rechterbenedenhoek van de pagina (deze knop wordt niet weergegeven in de volgende afbeelding).
 
-    ![De knop Query uitvoeren.](./media/setup_rsa_tool_58.png)
+    ![De knop Query uitvoeren](./media/setup_rsa_tool_58.png)
 
     De testcase wordt toegevoegd aan de testsuite **T01-Maken naar voorraad**.
 
-    ![Testcase toegevoegd aan de testsuite.](./media/setup_rsa_tool_59.png)
+    ![Testcase toegevoegd aan de testsuite](./media/setup_rsa_tool_59.png)
 
 ### <a name="configure-rsat"></a>RSAT configureren
 
 1. Open RSAT.
 
-    ![RSAT-pictogram.](./media/setup_rsa_tool_60.png)
+    ![RSAT-pictogram](./media/setup_rsa_tool_60.png)
 
 2. Er wordt een waarschuwingsbericht weergegeven dat Selenium vereist is voor Regression Suite Automation Tool en u wordt gevraagd of u Selenium automatisch wilt downloaden en installeren. Selecteer **Ja**.
 
-    ![Waarschuwingsbericht dat voor Regression Suite Automation Tool Selenium is vereist.](./media/setup_rsa_tool_61.png)
+    ![Waarschuwingsbericht dat voor Regression Suite Automation Tool Selenium is vereist](./media/setup_rsa_tool_61.png)
 
 3. Selecteer de knop **Instellingen** (het tandwielsymbool) in de rechterbovenhoek en vul in het dialoogvenster dat wordt weergegeven de volgende velden in:
 
@@ -506,7 +508,7 @@ In oudere versies van RSAT moest u Selenium- en browserstuurprogramma's installe
         > [!NOTE]
         > Als u de hostnaam en de SOAP-hostnaam wilt vinden, opent u IIS Manager, klikt u met de rechtermuisknop op **Sites \> AOSService** en selecteert u **Bindingen bewerken**. De kolom **Hostnaam** bevat de hostnaam en SOAP-hostnaam (de SOAP-hostnaam bevat het achtervoegsel **soap** in de URL).
 
-        ![Hostnaam en SOAP-hostnaam in de kolom Hostnaam.](./media/setup_rsa_tool_63.png)
+        ![Hostnaam en SOAP-hostnaam in de kolom Hostnaam](./media/setup_rsa_tool_63.png)
 
     - **Gebruikersnaam beheerder**: voer het e-mailadres van een beheerder in de testomgeving in.
     - **Vingerafdruk**: voer de vingerafdruk van het verificatiecertificaat in, zoals eerder in deze zelfstudie wordt beschreven.
@@ -520,7 +522,7 @@ In oudere versies van RSAT moest u Selenium- en browserstuurprogramma's installe
     - **Time-out van testactie**: in dit veld wordt de time-outperiode in minuten voor serveraanvragen in de Finance and Operation-omgeving beheerd. Meestal volstaat de standaardwaarde (2 minuten). Voor langzamere omgevingen kunt u echter de waarde verhogen als er fouten optreden die betrekking hebben op time-outs.
     - **Bedrijfsnaam**: voer de bedrijfsnaam in die moet worden gebruikt als uw standaardbedrijf wanneer Excel-parameterbestanden worden gemaakt. U kunt het bedrijf later wijzigen door het Excel-parameterbestand te bewerken.
 
-    ![Het dialoogvenster Instellingen.](./media/setup_rsa_tool_62.png)
+    ![Het dialoogvenster Instellingen](./media/setup_rsa_tool_62.png)
 
 4. Selecteer **Toepassen** om de instellingen toe te passen en op te slaan.
 
@@ -532,15 +534,15 @@ In oudere versies van RSAT moest u Selenium- en browserstuurprogramma's installe
 
 1. Selecteer **Laden** om het **RSAT-testplan** te laden vanuit het Azure DevOps-project.
 
-    ![De knop Laden.](./media/setup_rsa_tool_64.png)
+    ![De knop Laden](./media/setup_rsa_tool_64.png)
 
 2. Selecteer de testcase **Een nieuw product laden** vanuit de testsuite en selecteer vervolgens **Nieuw \> Testuitvoering en parameterbestanden genereren**.
 
-    ![De opdracht Testuitvoering en parameterbestanden genereren in het menu Nieuw.](./media/setup_rsa_tool_65.png)
+    ![De opdracht Testuitvoering en parameterbestanden genereren in het menu Nieuw](./media/setup_rsa_tool_65.png)
 
     Het Excel-parameterbestand wordt gemaakt in de lokale map die u hebt opgegeven in de RSAT-configuratie (bijvoorbeeld **C:\\Temp\\RegressionTool**).
 
-    ![Het gemaakte Excel-parameterbestand.](./media/setup_rsa_tool_66.png)
+    ![Het gemaakte Excel-parameterbestand](./media/setup_rsa_tool_66.png)
 
 3. Selecteer **Uploaden** als u de parameterbestanden wilt opslaan. Testautomatiseringsbestanden van alle geselecteerde testcases worden voor toekomstig gebruik naar Azure DevOps geüpload. (Deze bestanden omvatten Excel-testparameterbestanden.)
 
@@ -553,33 +555,33 @@ In oudere versies van RSAT moest u Selenium- en browserstuurprogramma's installe
     - **.xlsx** – Excel-parameterbestand
     - **.xml** – Registratiebestand
 
-    ![Bestanden op het tabblad Bijlagen.](./media/setup_rsa_tool_67.png)
+    ![Bestanden op het tabblad Bijlagen](./media/setup_rsa_tool_67.png)
 
 5. Selecteer de testcase die u wilt uitvoeren en selecteer **Uitvoeren**.
 
     > [!NOTE]
     > Als u Internet Explorer gebruikt, moet u er voordat u testcases uitvoert voor zorgen dat de bureaubladresolutie is ingesteld op **100%** in **Windows-beeldscherminstellingen \> Schaal en lay-out**. Als u deze instelling niet kunt wijzigen op een virtuele machine (VM), wijzigt u deze op de client (laptop) waarvan u de VM wilt openen. De resolutie-instellingen worden vervolgens overgenomen door de beeldscherminstellingen van de VM.
 
-    ![Bureaubladresolutie ingesteld op 100%.](./media/setup_rsa_tool_68.png)
+    ![Bureaubladresolutie ingesteld op 100%](./media/setup_rsa_tool_68.png)
 
 6. Als de browserstuurprogramma's niet op het systeem zijn geïnstalleerd, wordt er een waarschuwingsbericht weergegeven dat u voor deze bewerking stuurprogramma \<browser name\> nodig hebt. Daarnaast wordt u gevraagd of u het automatisch nu wilt downloaden en installeren? Selecteer **Ja**.
 
-    ![Waarschuwingsbericht voor Internet Explorer.](./media/setup_rsa_tool_69.png)
+    ![Waarschuwingsbericht voor Internet Explorer](./media/setup_rsa_tool_69.png)
 
-    ![Waarschuwingsbericht voor Chrome.](./media/setup_rsa_tool_70.png)
+    ![Waarschuwingsbericht voor Chrome](./media/setup_rsa_tool_70.png)
 
     > [!NOTE]
     > Als u Chrome als browser gebruikt en er een foutbericht wordt weergegeven waarin wordt aangegeven dat de sessie niet is gemaakt omdat de Chrome-versie niet juist is, downloadt u de meest recente versie van <http://chromedriver.chromium.org/downloads> naar de map **C:\\Program Files (x86)\\Regression Suite Automation Tool\\Common\\External\\Selenium**.
 
-    ![Foutbericht voor Chrome.](./media/setup_rsa_tool_71.png)
+    ![Foutbericht voor Chrome](./media/setup_rsa_tool_71.png)
 
     De testcase wordt uitgevoerd en het veld **Resultaat** wordt bijgewerkt.
 
-    ![Bijgewerkt resultaatveld.](./media/setup_rsa_tool_72.png)
+    ![Bijgewerkt resultaatveld](./media/setup_rsa_tool_72.png)
 
     Als u deze zelfstudie hebt gevolgd zoals deze is geschreven, mislukt de testcase **Een nieuw product maken** omdat met de taakregistratie voor het maken van een product de productnaam is opgeslagen als een hard gecodeerde waarde. Als u dezelfde testcase opnieuw uitvoert, wordt er een foutbericht weergegeven omdat het product al bestaat.
 
-    ![Het veld Resultaat ingesteld op Mislukt.](./media/setup_rsa_tool_72.png)
+    ![Het veld Resultaat ingesteld op Mislukt](./media/setup_rsa_tool_72.png)
 
 ### <a name="view-the-test-results"></a>De testresultaten weergeven
 
@@ -587,38 +589,38 @@ In oudere versies van RSAT moest u Selenium- en browserstuurprogramma's installe
 
     U ontvangt een foutbericht.
 
-    ![Foutmelding.](./media/setup_rsa_tool_73.png)
+    ![Foutmelding](./media/setup_rsa_tool_73.png)
 
 2. Selecteer **Details** om het volledige foutbericht weer te geven.
 
-    ![Volledige foutbericht.](./media/setup_rsa_tool_74.png)
+    ![Volledige foutbericht](./media/setup_rsa_tool_74.png)
 
 3. Als u een gedetailleerde versie van het fout bericht in Azure DevOps wilt weergeven, selecteert u **Openen in Azure DevOps**. In Azure DevOps kunt u de status van de testcase en het gedetailleerde foutbericht bekijken.
 
-    ![Gedetailleerd foutbericht in Azure DevOps.](./media/setup_rsa_tool_75.png)
+    ![Gedetailleerd foutbericht in Azure DevOps](./media/setup_rsa_tool_75.png)
 
 4. Als u de testresultaten rechtstreeks in het Azure DevOps-project wilt weergeven, gaat u naar **Testplannen \> Testplannen \> Uitvoeringen**. Dubbelklik op de testuitvoering waarover u meer details wilt weergeven.
 
-    ![Lijst met testuitvoeringen in Azure DevOps.](./media/setup_rsa_tool_76.png)
+    ![Lijst met testuitvoeringen in Azure DevOps](./media/setup_rsa_tool_76.png)
 
 5. Op het tabblad **Uitvoeringsoverzicht** wordt aangegeven dat de testcase is mislukt, maar het werkelijke foutbericht wordt niet weergegeven. Als u het gedetailleerde foutbericht wilt weergeven, selecteert u het tabblad **Testresultaten**.
 
-    ![Het tabblad Uitvoeringsoverzicht.](./media/setup_rsa_tool_77.png)
+    ![Het tabblad Uitvoeringsoverzicht](./media/setup_rsa_tool_77.png)
 
     Het tabblad **Testresultaten** bevat informatie over de testcase, het resultaat en het foutbericht.
 
-    ![Het tabblad Testresultaten.](./media/setup_rsa_tool_78.png)
+    ![Het tabblad Testresultaten](./media/setup_rsa_tool_78.png)
 
 6. Dubbelklik op de relevante record om het gedetailleerde foutbericht weer te geven.
 
-    ![Gedetailleerd foutbericht.](./media/setup_rsa_tool_79.png)
+    ![Gedetailleerd foutbericht](./media/setup_rsa_tool_79.png)
 
     > [!NOTE]
     > Alle foutberichten zijn ook lokaal beschikbaar in **C:\\Users\\\$YourUserName\\AppData\\Roaming\\regressionTool\\errormsg-.txt**.
 
 7. U kunt de resultaten van de testuitvoering ook exporteren vanuit het niveau van het testplan door **Exporteren** te selecteren.
 
-    ![Een testplan exporteren.](./media/setup_rsa_tool_80.png)
+    ![Een testplan exporteren](./media/setup_rsa_tool_80.png)
 
 ### <a name="modify-the-excel-parameter-file"></a>Het Excel-parameterbestand wijzigen
 
@@ -636,23 +638,23 @@ In oudere versies van RSAT moest u Selenium- en browserstuurprogramma's installe
     > [!NOTE]
     > Naast het tabblad **Algemeen** bevat het Excel-parameterbestand een gegevenstabblad voor elke formulierpagina die de testcase bezoekt.
 
-    ![Het veld Productnummer.](./media/setup_rsa_tool_81.png)
+    ![Het veld Productnummer](./media/setup_rsa_tool_81.png)
 
 4. Selecteer **Opslaan** en sluit de Excel-werkmap.
 5. Selecteer **Uploaden** om het Excel-parameterbestand naar Azure DevOps op te slaan.
 
-    ![Bericht over geslaagde upload.](./media/setup_rsa_tool_82.png)
+    ![Bericht over geslaagde upload](./media/setup_rsa_tool_82.png)
 
     > [!NOTE]
     > Als u testcases in een specifieke gebruikerscontext wilt uitvoeren, typt u de e-mail-id van de gebruiker in het veld **Gebruiker testen** op het tabblad **Algemeen** van het Excel-parameterbestand. In de meest recente versie van RSAT is de indeling van de velden in het Excel-parameterbestand bijgewerkt, maar het concept blijft hetzelfde.
     >
-    > ![Het veld Gebruiker testen.](./media/setup_rsa_tool_83.png)
+    > ![Het veld Gebruiker testen](./media/setup_rsa_tool_83.png)
 
 ### <a name="validate-the-results"></a>De resultaten valideren
 
 - Selecteer **Uitvoeren** om de testcase opnieuw uit te voeren en controleer of de testcase is geslaagd. U kunt de testresultaten weergeven op de wijze die wordt beschreven in de sectie [De testresultaten weergeven](#view-the-test-results).
 
-    ![Het veld Resultaat ingesteld op Geslaagd.](./media/setup_rsa_tool_84.png)
+    ![Het veld Resultaat ingesteld op Geslaagd](./media/setup_rsa_tool_84.png)
 
 ### <a name="chaining-of-test-cases"></a>Koppelen van testcases
 
@@ -666,27 +668,27 @@ In deze sectie maakt u een opgeslagen variabele in de eerste testcase, maakt u e
 2. Selecteer de knop **Instellingen** (het tandwielsymbool) en selecteer **Taakregistratie**.
 3. Selecteer **Opname bewerken**.
 
-    ![De knop Opname bewerken.](./media/setup_rsa_tool_85.png)
+    ![De knop Opname bewerken](./media/setup_rsa_tool_85.png)
 
 4. Selecteer **Openen vanuit Lifecycle Services**.
 
-    ![De knop Openen vanuit Lifecycle Services.](./media/setup_rsa_tool_86.png)
+    ![De knop Openen vanuit Lifecycle Services](./media/setup_rsa_tool_86.png)
 
 5. Selecteer **Selecteer de Lifecycle Services-bibliotheek**.
 
-    ![De knop Selecteer de Lifecycle Services-bibliotheek.](./media/setup_rsa_tool_87.png)
+    ![De knop Selecteer de Lifecycle Services-bibliotheek](./media/setup_rsa_tool_87.png)
 
     BPM-bibliotheken worden geladen uit LCS.
 
-    ![BPM-bibliotheken laden.](./media/setup_rsa_tool_88.png)
+    ![BPM-bibliotheken laden](./media/setup_rsa_tool_88.png)
 
 6. Nadat de BPM-bibliotheken vanuit LCS zijn geladen, selecteert u de BPM-bibliotheek **RSAT** en het bedrijfsproces **Een nieuw product maken** waaraan de taakregistratie is gekoppeld. Selecteer vervolgens **OK**.
 
-    ![Een BMP-bibliotheek en een bedrijfsproces selecteren.](./media/setup_rsa_tool_89.png)
+    ![Een BMP-bibliotheek en een bedrijfsproces selecteren](./media/setup_rsa_tool_89.png)
 
 7. De naam van de betreffende taakregistratie wordt ingevoerd in het veld **Naam van registratie**. Selecteer **Starten**.
 
-    ![Naam van de taakregistratie in het veld Naam van registratie.](./media/setup_rsa_tool_90.png)
+    ![Naam van de taakregistratie in het veld Naam van registratie](./media/setup_rsa_tool_90.png)
 
 8. Ga naar **Productgegevensbeheer \> Producten** en selecteer **Nieuw** om de pagina te openen waarop de oorspronkelijke taakregistratie **Een product maken** is geregistreerd.
 9. Selecteer **Stap invoegen**.
@@ -694,15 +696,15 @@ In deze sectie maakt u een opgeslagen variabele in de eerste testcase, maakt u e
     > [!NOTE]
     > De nieuwe stap wordt ingevoegd **na** de stap die u in het deelvenster hebt geselecteerd.
 
-    ![De knop Stap invoegen.](./media/setup_rsa_tool_91.png)
+    ![De knop Stap invoegen](./media/setup_rsa_tool_91.png)
 
 10. Klik met de rechtermuisknop in het veld **Productnummer** en selecteer vervolgens **Taakregistratie \> Kopiëren**.
 
-    ![De opdracht Kopiëren.](./media/setup_rsa_tool_92.png)
+    ![De opdracht Kopiëren](./media/setup_rsa_tool_92.png)
 
 11. Er wordt een nieuwe stap toegevoegd in het deelvenster. Noteer de waarde in het veld **Productnummer**. U hebt deze later nog nodig.
 
-    ![Nieuwe stap toegevoegd.](./media/setup_rsa_tool_93.png)
+    ![Nieuwe stap toegevoegd](./media/setup_rsa_tool_93.png)
 
 12. Selecteer **Klaar met bewerken**.
 13. Selecteer **Opslaan in Lifecycle Services** en koppel de nieuwe taakregistratie aan dezelfde BPM-bibliotheek en hetzelfde bedrijfsproces als de oorspronkelijke taakregistratie. Zie de sectie [Een taakregistratie maken en opslaan in de BPM-bibliotheek](#create-a-task-recording-and-save-it-to-the-bpm-library) voor meer informatie.
@@ -714,7 +716,7 @@ In deze sectie maakt u een opgeslagen variabele in de eerste testcase, maakt u e
 
 16. Selecteer **Bewerken** om het nieuwe Excel-parameterbestand te openen. De nieuwe invoer **Opgeslagen variabele** wordt weergegeven op regel 9. Deze variabele, **{{EcoResProductCreate\_Identification\_ProductNumber\_Copy}}**, wordt opgeslagen in het XML-bestand van de taakregistratie en kan in volgende tests worden gebruikt.
 
-    ![Het item Opgeslagen variabele.](./media/setup_rsa_tool_94.png)
+    ![Het item Opgeslagen variabele](./media/setup_rsa_tool_94.png)
 
 #### <a name="create-a-new-test-case"></a>Een nieuwe testcase maken
 
@@ -722,7 +724,7 @@ In deze sectie maakt u een opgeslagen variabele in de eerste testcase, maakt u e
 2. Selecteer het proces **Sample Support Business Process** en selecteer vervolgens **Edit mode** rechts.
 3. Wijzig de waarde van de velden **Name** en **Description** in **Een product vrijgeven**. Selecteer **Save**.
 
-    ![Naam en omschrijving gewijzigd in Een product vrijgeven.](./media/setup_rsa_tool_95.png)
+    ![Naam en omschrijving gewijzigd in Een product vrijgeven](./media/setup_rsa_tool_95.png)
 
 #### <a name="create-a-new-task-recording-that-has-a-validate-function"></a>Een nieuwe taakregistratie maken met een functie Valideren
 
@@ -731,21 +733,21 @@ In deze sectie maakt u een opgeslagen variabele in de eerste testcase, maakt u e
     > [!NOTE]
     > Voor aangeschakelde testcases raden wij u aan altijd de benodigde record te zoeken of te filteren door de *waarde van het veld handmatig in te voeren*. Op die manier kan worden bepaald voor welke record de actie moet worden uitgevoerd in de volgende testcase.
 
-    ![Nieuwe taakregistratie met een functie Valideren.](./media/setup_rsa_tool_96.png)
+    ![Nieuwe taakregistratie met een functie Valideren](./media/setup_rsa_tool_96.png)
 
     Zoals u in de vorige afbeelding kunt zien, kunt u, nadat u het product hebt gevonden met het snelfilter, voordat u **Producten vrijgeven** selecteert de waarde van het veld **Productnummer** valideren om er zeker van te zijn dat de product-id de product-id is die u eerder hebt gemaakt. Als u de waarde wilt valideren, klikt u met de rechtermuisknop in het veld **Productnummer** en selecteert u **Taakregistratie \> Valideren \> Huidige waarde**.
 
-    ![De huidige waarde valideren.](./media/setup_rsa_tool_97.png)
+    ![De huidige waarde valideren](./media/setup_rsa_tool_97.png)
 
 #### <a name="save-the-task-recording-to-bpm"></a>De taakregistratie opslaan in BPM
 
 1. Als de taakregistratie is voltooid, selecteert u **Opslaan in Lifecycle Services**.
 
-    ![Voltooide taakregistratie opslaan in Lifecycle Services.](./media/setup_rsa_tool_98.png)
+    ![Voltooide taakregistratie opslaan in Lifecycle Services](./media/setup_rsa_tool_98.png)
 
 2. Bibliotheekgegevens worden vanuit LCS geladen.
 
-    ![Bibliotheekgegevens laden vanuit LCS.](./media/setup_rsa_tool_99.png)
+    ![Bibliotheekgegevens laden vanuit LCS](./media/setup_rsa_tool_99.png)
 
 3. Selecteer de BPM-bibliotheek waaraan u de taakregistratie wilt koppelen. Selecteer voor deze zelfstudie de BPM-bibliotheek **RSAT** die eerder is gemaakt en het bedrijfsproces **Een product vrijgeven** daaronder. Selecteer vervolgens **OK**.
 
@@ -763,11 +765,11 @@ In deze sectie maakt u een opgeslagen variabele in de eerste testcase, maakt u e
 3. Selecteer **Query uitvoeren** op de pagina **Testcases toevoegen aan suite**.
 4. Selecteer de nieuwe testcase die voor **Een product vrijgeven** is gemaakt en selecteer vervolgens **Testcases toevoegen** in de rechterbenedenhoek van de pagina (deze knop wordt niet weergegeven in de volgende afbeelding).
 
-    ![De pagina Testcases toevoegen aan suite.](./media/setup_rsa_tool_100.png)
+    ![De pagina Testcases toevoegen aan suite](./media/setup_rsa_tool_100.png)
 
     De testsuite bevat nu twee testcases.
 
-    ![Twee testcases in de testsuite.](./media/setup_rsa_tool_101.png)
+    ![Twee testcases in de testsuite](./media/setup_rsa_tool_101.png)
 
 #### <a name="load-test-cases-into-rsat"></a>Testcases in RSAT laden
 
@@ -778,7 +780,7 @@ In deze sectie maakt u een opgeslagen variabele in de eerste testcase, maakt u e
 
     Beide testcases worden geladen, samen met het Excel-parameterbestand voor de eerste testcase. Omdat u **Uploaden** hebt geselecteerd bij de laatste uitvoering, worden de parameterbestanden opgehaald uit Azure DevOps.
 
-    ![Testcases geladen.](./media/setup_rsa_tool_103.png)
+    ![Testcases geladen](./media/setup_rsa_tool_103.png)
 
 3. Selecteer alleen de tweede testcase en selecteer vervolgens **Nieuw \> Testuitvoering en parameterbestanden genereren**.
 
@@ -787,7 +789,7 @@ In deze sectie maakt u een opgeslagen variabele in de eerste testcase, maakt u e
 1. Selecteer alleen de tweede testcase en selecteer vervolgens **Bewerken** om het bijbehorende Excel-parameterbestand te openen.
 2. Kopieer de opgeslagen variabele **{{EcoResProductCreate\_Identification\_ProductNumber\_Copy}}** (zie de sectie [Een bestaande taakregistratie wijzigen om een opgeslagen variabele te maken](#modify-an-existing-task-recording-to-create-a-saved-variable)) uit de eerste testcase in alle velden waarin het productnummer wordt gebruikt. In dit geval kopieert u de variabele naar de velden **Productnummer** en **Productnummer valideren** op het blad **EcoResproductListPage**.
 
-    ![De velden Productnummer en Productnummer valideren.](./media/setup_rsa_tool_104.png)
+    ![De velden Productnummer en Productnummer valideren](./media/setup_rsa_tool_104.png)
 
     > [!NOTE]
     > Variabelen kunnen alleen tijdens dezelfde testuitvoering worden doorgegeven tussen tests. De namen van de variabelen moeten exact overeenkomen.
@@ -800,7 +802,4 @@ In deze sectie maakt u een opgeslagen variabele in de eerste testcase, maakt u e
 1. Selecteer beide testcases die u wilt uitvoeren en selecteer **Uitvoeren**.
 2. Controleer of de testcases zijn geslaagd.
 
-    ![Het veld Resultaat ingesteld op Geslaagd voor beide testcases.](./media/setup_rsa_tool_105.png)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+    ![Het veld Resultaat ingesteld op Geslaagd voor beide testcases](./media/setup_rsa_tool_105.png)

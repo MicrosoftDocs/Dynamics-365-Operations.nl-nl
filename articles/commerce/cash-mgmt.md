@@ -2,15 +2,12 @@
 title: Verbeteringen in kasbeheer
 description: In dit onderwerp worden de verbeteringen in kasbeheer in POS voor Dynamics 365 Commerce beschreven.
 author: anpurush
-manager: AnnBe
 ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0c561c39dfcbfa739c5a22394c05191e7f9bc107
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f878f39e8e9913edbe1da192e199090139a88adb6b7ed9a1e9b779c5748171b5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411342"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735649"
 ---
 # <a name="cash-management-improvements"></a>Verbeteringen in kasbeheer
 
@@ -62,3 +59,6 @@ In Retail-versie 10.0.3 en hoger zijn ook de volgende functies voor transacties 
 - Als tijdens het afstemmen de geselecteerde transactie niet in balans is, moet de gebruiker een omschrijving van de reden voor de niet-sluitende afstemming invoeren. Gebruikers kunnen één transactie selecteren en deze afstemmen met de relevante redenomschrijving.
 - Gebruikers kunnen transacties blijven afstemmen en afstemmingen ongedaan maken totdat de ploeg is gesloten. Als een ploeg is gesloten, kan de afstemming van transacties niet ongedaan worden gemaakt.
 - Wanneer een gebruiker ervoor kiest een ploeg te sluiten, wordt in Commerce gecontroleerd of er geen niet-afgestemde kasbeheertransacties meer bestaan in de ploeg. Een ploeg kan niet worden gesloten als deze nog niet-afgestemde transacties bevat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

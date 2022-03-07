@@ -1,29 +1,31 @@
 ---
 title: Vergoedingen inschrijven en verwijderen van werknemers
 description: Deze procedure toont hoe één medewerker in een of meerdere vergoedingen kan worden geregistreerd en hoe meerdere medewerkers in een vergoeding kunnen worden geregistreerd.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, HcmWorkerEnrollment, HcmBenefitByEligibilityLookup, HcmMassBenefitEnrollment, HcmBenefitLookup, HcmMassBenefitEnrollmentResults, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 36fd724ff27cbb646f3f8a35ca1b30dc86a5afe4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1b99db1e480ea4a53d2bda609eb08105509d95f4
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417898"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065371"
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>Vergoedingen inschrijven en verwijderen van werknemers
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -58,3 +60,6 @@ Deze procedure toont hoe één medewerker in een of meerdere vergoedingen kan wo
 14. Klik in de lijst op de koppeling in de geselecteerde rij.
 15. Met deze pagina kunt u weergeven welke werknemers in de vergoeding zijn geregistreerd en welke werknemers niet zijn geregistreerd.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

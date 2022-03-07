@@ -2,28 +2,25 @@
 title: Aanmaningen in Klanten
 description: De gegevens van klantaanmaningen worden in één centrale weergave beheerd, namelijk de pagina Microsoft Dynamics 365 Finance Aanmaningen. Credit- en incassomanagers kunnen deze centrale weergave gebruiken om aanmaningen te beheren. Incassomedewerkers kunnen het incassoproces starten vanuit klantlijsten die worden gegenereerd met de vooraf gedefinieerde incassocriteria, of vanuit de pagina Klanten.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c150eb7283b34c82e728da36ed0e1e6643eff46a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b143ebead89804af57e7d2dbfa6f7d366c1ae664573776d78bff44763ddeb819
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441836"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723914"
 ---
 # <a name="collections-in-accounts-receivable"></a>Aanmaningen in Klanten
 
@@ -102,8 +99,7 @@ De afschrijvingstransactie wordt gemaakt in de transactievaluta.
 
 Zie voor meer informatie [Een afschrijvingsjournaal voor een klant maken](tasks/create-write-off-journal-customer.md).
 
-<a name="process-not-sufficient-funds-nsf-payments"></a>Betalingen met ontoereikend saldo verwerken  
---------------------------------------------
+## <a name="process-not-sufficient-funds-nsf-payments"></a>Betalingen met ontoereikend saldo verwerken  
 
 U kunt betalingen met ontoereikend saldo verwerken door op Betaling met ontoereikend saldo op de pagina Aanmaningen te klikken. Wanneer u op deze knop klikt, wordt de betaling geannuleerd. Als er kosten voor een betaling met ontoereikend saldo voor de klant van toepassing zijn, wordt een toeslagentransactie gemaakt in een betalingsjournaal. Het bedrag van de kosten is gebaseerd op de instellingen voor de automatische toeslagen. De automatische toeslagen die van toepassing zijn voor betalingen met ontoereikend saldo, zijn opgegeven bij de groep toeslagen die is geselecteerd op de pagina Bankrekeningen voor de betreffende bankrekening.
 
@@ -111,3 +107,6 @@ U kunt betalingen met ontoereikend saldo verwerken door op Betaling met ontoerei
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

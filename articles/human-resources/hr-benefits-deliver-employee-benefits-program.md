@@ -2,28 +2,28 @@
 title: Vergoedingenprogramma voor werknemers maken
 description: In dit artikel leest u hoe u vergoedingselementen maakt die worden gebruikt bij het maken van een nieuwe vergoeding.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBenefitPlanLookup, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: cc02346ebccd04f2b4f6fc7029717a8793d75e0d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f55301c1fe7807860e9e9e1e881f3456d734f9f0
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418006"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805917"
 ---
 # <a name="deliver-employee-benefits-program"></a>Vergoedingenprogramma voor werknemers maken
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 In dit artikel leest u hoe u vergoedingselementen maakt die worden gebruikt bij het maken van een nieuwe vergoeding. Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF. Deze taak is bedoeld voor een Manager compensatie en vergoedingen.
 
@@ -68,3 +68,6 @@ In dit artikel leest u hoe u vergoedingselementen maakt die worden gebruikt bij 
 16. Selecteer een optie in het veld Basis.
 17. Voer een nummer in het veld Bedrag of tarief in.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

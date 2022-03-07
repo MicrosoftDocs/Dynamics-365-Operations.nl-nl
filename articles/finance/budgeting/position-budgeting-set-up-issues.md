@@ -2,11 +2,9 @@
 title: Probleemoplossing voor positiebudgettering
 description: Dit artikel bevat beantwoorden op vragen die u kunt hebben wanneer u positiebudgettering configureert. Het behandelt vaak gestelde vragen over hoe u budgetkostenelementen, compensatiegroepen en compensatierasters maakt.
 author: panolte
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBudgetPurposeType, HcmPositionForecast
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8211c5bd4514bffbd001f9930859f777dac7f0e1
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 492a0798d1934b0fe1adf4f0546013f394beab06948f02f92358bae408e7748f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017612"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726057"
 ---
 # <a name="position-budgeting-troubleshooting"></a>Probleemoplossing voor positiebudgettering
 
@@ -30,8 +28,7 @@ ms.locfileid: "5017612"
 
 Dit artikel bevat beantwoorden op vragen die u kunt hebben wanneer u positiebudgettering configureert. Het behandelt vaak gestelde vragen over hoe u budgetkostenelementen, compensatiegroepen en compensatierasters maakt. 
 
-<a name="why-cant-i-find-the-forecast-position-page-in-human-resources"></a>Waarom kan ik de prognosepositiepagina in Human resources niet vinden?
----------------------------------------------------------------
+## <a name="why-cant-i-find-the-forecast-position-page-in-human-resources"></a>Waarom kan ik de prognosepositiepagina in Human resources niet vinden?
 
 Prognoseposities zijn verplaatst naar Budgettering.
 
@@ -63,3 +60,6 @@ De datums op de prognosepositiekostenelementregel moeten binnen de volgende bere
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

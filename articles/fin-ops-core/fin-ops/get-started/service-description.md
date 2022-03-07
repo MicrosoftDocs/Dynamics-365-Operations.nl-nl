@@ -2,19 +2,19 @@
 title: Beschrijving van service voor Finance and Operations-toepassingen
 description: In dit onderwerp vindt u de serviceomschrijving voor Finance and Operations-toepassingen.
 author: tomhig
-ms.date: 01/05/2022
+ms.date: 09/29/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 85f82a863f0bde4c0414760fa2477651242538f2
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: a1547f0cc6c6f705cd0e2ff6e5be751cb97b946a
+ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952361"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "7581811"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Beschrijving van service voor Finance and Operations-toepassingen
 
@@ -33,7 +33,7 @@ Samen met [business intelligence](/power-bi/fundamentals/power-bi-service-overvi
 - Ingebouwde [personalisatie-ervaring](personalize-user-experience.md)
 - [Microsoft Power Platform](../../dev-itpro/power-platform/overview.md)-hulpmiddelen
 - [Visual Studio](https://visualstudio.microsoft.com)–gebaseerde [Finance and Operations software development kit (SDK)](../../dev-itpro/dev-tools/developer-home-page.md) en [Azure DevOps build automation](../../dev-itpro/dev-tools/developer-home-page.md#build-automation-using-azure)
-- Oplossingen voor onafhankelijke softwareleveranciers (ISV) van [AppSource](https://appsource.microsoft.com/partners)
+- Oplossingen voor onafhankelijke softwareleveranciers (ISV) van[AppSource](https://appsource.microsoft.com/partners)
 
 Klanten kiezen op basis van behoeften hun oplossingsbenadering. Zij werken samen met hun implementatiepartner om hun oplossing te definiëren, te ontwikkelen en te testen met behulp van de hulpprogramma's en best practices die worden geleverd in [Microsoft Dynamics Lifecycle Services (LCS)](../../dev-itpro/lifecycle-services/lcs.md). Er zijn vier veelvoorkomende scenario's:
 
@@ -50,7 +50,7 @@ Het gebruiksmodel van toepassingen definieert specifieke rollen en verantwoordel
 
 ### <a name="customer-activities"></a>Klantenactiviteiten
 
-Klanten werken samen met hun partner en [Microsoft FastTrack](/dynamics365/fasttrack/) op basis van het [Dynamics 365 Implementation Guide](https://community.dynamics.com/365/dynamics-365-fasttrack/p/dynamics365implementationguide), the [Success by Design](/dynamics365/fasttrack/success-by-design-overview)-framework en maken gebruik van de tools en best practice-sjablonen die in [Lifecycle Services](../../dev-itpro/lifecycle-services/lcs.md) worden geleverd om de oplossing te implementeren. Veelvoorkomende activiteiten zijn:
+Klanten werken samen met hun partner en [Microsoft FastTrack](/dynamics365/fasttrack/) op basis van het [Success by Design](/dynamics365/fasttrack/success-by-design-overview)-framework en maken gebruik van tools en best practice-sjablonen die in [Lifecycle Services](../../dev-itpro/lifecycle-services/lcs.md) worden geleverd om de oplossing te implementeren. Veelvoorkomende activiteiten zijn:
 
 - Identiteit en beveiligingsbeheer van gebruikers
 - Bedrijfsprocessen definiëren, ontwikkelen en bedienen
@@ -96,7 +96,7 @@ Om ervoor te zorgen dat een implementatie is geconfigureerd voor hoge prestaties
 - Geef nauwkeurige gebruiksinformatie over de Finance and Operations-implementatie in de [LCS-abonnementschatter](../../dev-itpro/lifecycle-services/subscription-estimator.md).
 - Uitbreidingen bouwen en testen op prestaties en schaalbaarheid.
 - De gegevensconfiguraties op de juiste manier testen op de prestaties.
-- Schaalbaarheid controleren door [prestatietests](https://community.dynamics.com/365/b/techtalks/posts/performance-testing-approach-april-30-2018) uit te voeren voordat u live gaat.
+- Schaalbaarheid controleren door [prestatietests](https://community.dynamics.com/365/b/techtalks/posts/performance-testing-approach-april-30-2018)uit te voeren voordat u live gaat.
 
 ## <a name="onboarding-and-implementation"></a>Onboarding en implementatie
 
@@ -117,8 +117,8 @@ Finance and Operations-toepassingen worden vanuit verschillende Azure-regio's ov
 ### <a name="countryregion-specific-considerations"></a>Land-/regiospecifieke overwegingen
 
 - Klanten in de gereguleerde sector of commerciële organisaties die zaken doen met entiteiten in Frankrijk die lokale gegevensresidentie vereisen, moeten [Finance and Operations in Frankrijk](../../dev-itpro/deployment/france-local-deployment.md) nalezen.
-- Klanten die activiteiten in China hebben moeten [Azure China Playbook](/azure/china/) en [Finance and Operations via 21Vianet in China](../../dev-itpro/deployment/china-local-deployment.md) raadplegen.
-- Klanten die bewerkingen hebben in Rusland, moeten de [Russische localisatiewetgeving van persoonlijke gegevens](/business-applications-release-notes/october18/dynamics365-finance-operations/russian-regulations-on-prem#when-will-the-cloud-deployment-option-of-dynamics-365-for-finance-and-operations-be-generally-available-for-russia) controleren.
+- Klanten die activiteiten in China hebben moeten [Finance and Operations via 21Vianet in China](../../dev-itpro/deployment/china-local-deployment.md) nalezen.
+- Klanten die bewerkingen hebben in Rusland, moeten de localisatiewetgeving van persoonlijke gegevens van het bedrijf [zelf ](/business-applications-release-notes/october18/dynamics365-finance-operations/russian-regulations-on-prem#when-will-the-cloud-deployment-option-of-dynamics-365-for-finance-and-operations-be-generally-available-for-russia)controleren.
 
 ### <a name="general-data-protection-regulation-gdpr"></a>Algemene verordening gegevensbescherming (AVG)
 
@@ -135,7 +135,7 @@ LCS biedt [self-service tools](../../dev-itpro/deployment/infrastructure-stack.m
 **Gebeurtenis:** [een productie-exemplaar aanvragen](../imp-lifecycle/prepare-go-live.md#requesting-the-production-environment)
 
 - Voltooi de [Go-live controlelijst](../imp-lifecycle/prepare-go-live.md) en verzend deze naar het [Microsoft FastTrack](/dynamics365/fasttrack/)-team.
-- Voltooi de [LCS-abonnementsschatter](../../dev-itpro/lifecycle-services/subscription-estimator.md) voordat u een productie-exemplaar aanvraagt.
+- Voltooi de [LCS-abonnementsschatter ](../../dev-itpro/lifecycle-services/subscription-estimator.md)voordat u een productie-exemplaar aanvraagt.
 - Voltooi alle implementatietaken die zijn opgegeven in de [LCS-methodologie](../../dev-itpro/lifecycle-services/create-methodology.md).
 
 **Gebeurtenis:** [een sandbox database kopiëren naar een productie-exemplaar](../../dev-itpro/database/dbmovement-scenario-goldenconfig.md)
@@ -150,7 +150,7 @@ LCS biedt [self-service tools](../../dev-itpro/deployment/infrastructure-stack.m
 
 ### <a name="environment-and-data-management-events-for-non-production-instances"></a>Omgevings- en gegevensbeheergebeurtenissen voor niet-productie-exemplaren
 
-LCS biedt [self-service tools](../../dev-itpro/deployment/infrastructure-stack.md) en [gegevensverplaatsingsbewerkingen](../../dev-itpro/database/dbmovement-operations.md) die gebruikt worden voor het uitvoeren van omgevings- en gegevensbeheertaken. Hieronder volgen een aantal voorbeelden:
+LCS biedt [self-service tools ](../../dev-itpro/deployment/infrastructure-stack.md)en [gegevensverplaatsingsbewerkingen](../../dev-itpro/database/dbmovement-operations.md) die gebruikt worden voor het uitvoeren van omgevings- en gegevensbeheertaken. Hieronder volgen een aantal voorbeelden:
 
 **Gebeurtenis:** [een nieuw sandbox exemplaar implementeren](../../dev-itpro/deployment/deployenvironment-newinfrastructure.md)
 
@@ -184,7 +184,7 @@ LCS biedt [self-service tools](../../dev-itpro/deployment/infrastructure-stack.m
 
 Databases voor Finance and Operations-omgevingen in het SaaS-abonnement worden beveiligd door automatische back-ups. Voor productieomgevingen worden automatische back-ups 28 dagen bewaard, tenzij Microsoft een rollback doet. Voor een sandbox-omgeving (Tier 2+) blijven deze zeven dagen behouden. De productieomgeving kan worden terugdraaien als een fout optreedt tijdens een geplande onderhoudsupdate.
 
-Zie [Automatische back-ups - Azure SQL Database & SQL Managed Instance](/azure/azure-sql/database/automated-backups-overview?tabs=single-database) voor meer informatie over automatische back-ups.
+Zie [Automatische back-ups - Azure SQL Database & SQL Managed Instance ](/azure/azure-sql/database/automated-backups-overview?tabs=single-database) voor meer informatie over automatische back-ups.
 
 ## <a name="service-activity-responsibilities"></a>Verantwoordelijkheden voor serviceactiviteiten
 
@@ -265,7 +265,7 @@ De tenantbeheerder van de klant heeft toegang tot productie-exemplaren of niet-p
 |---|---|---|
 | **Niet-productie**<br>Sandbox van niveau 1 | Een niet-productieomgeving die door klanten wordt geïmplementeerd voor ontwikkelings-, demonstratie- of trainingsdoeleinden. | Een sandbox van niveau 1 (ook wel een cloud-hostomgeving genoemd) is een door de klant beheerde VM die wordt geïmplementeerd in het Azure-abonnement van de klant vanuit LCS. Omdat het een VM is in het Abonnement op Azure van de klant, heeft de klant volledige beheertoegang tot de omgeving via Extern bureaublad. |
 | **Niet-productie**<br>Tier 2 (of hoger) sandbox | Een niet-productieomgeving die door klanten wordt geïmplementeerd voor acceptatietests voor gebruikers, integratietests, training, fasering of andere scenario's vóór de productie. | Tier 2 en hogere sandboxes worden geïmplementeerd in het Finance and Operations-SaaS-abonnement. Toegang tot Azure SQL-databases die aan de niet-productieomgeving zijn gekoppeld, wordt verleend via [just-in-time toegang](../../dev-itpro/database/database-just-in-time-jit-access.md). Toegang tot extern bureaublad is niet beschikbaar. |
-| **Productie** | Een productieomgeving wordt geïmplementeerd wanneer het project gereed is [voor eerste go-live](/imp-lifecycle/environment-planning.md#production-system-readiness). | Productieomgevingen worden geïmplementeerd in het SaaS-abonnement. Alle toegang is via de browser, service-eindpunten of LCS. |
+| **Productie** | Een productieomgeving wordt geïmplementeerd wanneer het project gereed is [voor eerste go-live ](/imp-lifecycle/environment-planning.md#production-system-readiness)productie. | Productieomgevingen worden geïmplementeerd in het SaaS-abonnement. Alle toegang is via de browser, service-eindpunten of LCS. |
 
 ### <a name="microsoft-administrative-access"></a>Microsoft-beheerderstoegang
 
@@ -280,11 +280,11 @@ De volgende tabel toont de verschillende toegangsniveaus voor verschillende Micr
 
 ## <a name="monitoring"></a>Controle
 
-Microsoft heeft geïnvesteerd in een uitgebreide toolset om de productie-exemplaren van klanten te monitoren en diagnosticeren. Microsoft controleert de productieomgevingen van klanten 24 uur per dag, zeven dagen per week. Zie [Productieondersteuning en -controle](../imp-lifecycle/production-support-monitoring.md) voor meer informatie.
+Microsoft heeft geïnvesteerd in een uitgebreide toolset om de productie-exemplaren van klanten te monitoren en diagnosticeren. Microsoft controleert de productieomgevingen van klanten 24 uur per dag, zeven dagen per week. Zie [ productie-ondersteuning en -controle](../imp-lifecycle/production-support-monitoring.md)  voor meer informatie.
 
 | Verantwoordelijkheden van Microsoft | Verantwoordelijkheden van klant |
 |---|---|
-| <ul><li>De beschikbaarheid van de service controleren.</li><li>Voortdurend bewaken en waarschuwen via gezondheidsstatistieken en waakhonden voor kritieke componenten zoals Application Object Server (AOS), Batch, Data Import/Export Framework (DIXF), Commerce en Management Reporter.</li><li>Controleren op prestatieverbetering die wordt veroorzaakt door infrastructuurservices (zoals Azure Active Directory \[Azure AD\] en Azure SQL).</li><li>Als Microsoft vaststelt dat een enkel proces of batchtaak afwijkingen veroorzaakt, wordt dat proces of die taak beëindigd na communicatie met de klant.</li></ul> | <ul><li>Wijzigingen in toepassingsconfiguraties en extensies controleren die kunnen leiden tot functionele problemen en prestatieproblemen.</li><li>Toepassingsfouten moeten worden gecontroleerd door gebruik te maken van de controleprogramma's. Gebruik deze functies om een diagnose te maken van door de gebruiker gerapporteerde prestatieafwijkingen.</li><li>Microsoft informeren als er wordt verwacht dat er belasting op het systeem wordt geladen boven het verwachte piekgebruik.</li><li>Als de toepasselijke service niet beschikbaar is in het productie-exemplaar, kan de klant LCS gebruiken om een [productie-uitval](../../dev-itpro/lifecycle-services/report-production-outage.md) te rapporteren.</li></ul> |
+| <ul><li>De beschikbaarheid van de service controleren.</li><li>Voortdurend bewaken en waarschuwen via gezondheidsstatistieken en waakhonden voor kritieke componenten zoals Application Object Server (AOS), Batch, Data Import/Export Framework (DIXF), Commerce en Management Reporter.</li><li>Controleren op prestatieverbetering die wordt veroorzaakt door infrastructuurservices (zoals Azure Active Directory\[Azure AD\]en Azure SQL).</li><li>Als Microsoft vaststelt dat een enkel proces of batchtaak afwijkingen veroorzaakt, wordt dat proces of die taak beëindigd na communicatie met de klant.</li></ul> | <ul><li>Wijzigingen in toepassingsconfiguraties en extensies controleren die kunnen leiden tot functionele problemen en prestatieproblemen.</li><li>Toepassingsfouten moeten worden gecontroleerd door gebruik te maken van de controleprogramma's. Gebruik deze functies om een diagnose te maken van door de gebruiker gerapporteerde prestatieafwijkingen.</li><li>Microsoft informeren als er wordt verwacht dat er belasting op het systeem wordt geladen boven het verwachte piekgebruik.</li><li>Als de toepasselijke service niet beschikbaar is in het productie-exemplaar, kan de klant LCS gebruiken om een [productie-uitval te ](../../dev-itpro/lifecycle-services/report-production-outage.md) rapporteren.</li></ul> |
 
 Door online ondersteuningsverzoeken in te dienen, via LCS, stellen klanten Microsoft in staat om snelle en diepgaande technische expertise op de meest effectieve en efficiënte manier te leveren. Hoewel er een telefoonoptie beschikbaar is, moet u deze alleen gebruiken als de online optie niet beschikbaar is. Zie [Ondersteuning via telefoon](/power-platform/admin/support-overview.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json#is-there-a-phone-number-i-can-call-to-contact-support) voor meer informatie.
 
@@ -292,7 +292,7 @@ Door online ondersteuningsverzoeken in te dienen, via LCS, stellen klanten Micro
 
 Microsoft reageert op en repareert incidenten op basis van ernstniveaus. De ernstniveaus van incidenten van Microsoft kunnen worden gewijzigd tijdens de eerste beoordeling van het incident en naarmate er meer informatie over de impact en reikwijdte beschikbaar komt. Als het incident wordt beperkt, blijft de ernst van het incident ongewijzigd.
 
-Zie deze [ernsttabel](/power-platform/admin/support-overview#what-is-initial-response-time-and-how-quickly-can-i-expect-to-hear-back-from-someone-after-submitting-my-support-request) voor meer informatie over ernstsniveaus.
+Zie deze [ernsttabel ](/power-platform/admin/support-overview#what-is-initial-response-time-and-how-quickly-can-i-expect-to-hear-back-from-someone-after-submitting-my-support-request)  voor meer informatie over ernstsniveaus.
 
 ## <a name="business-continuity-through-high-availability-and-disaster-recovery"></a>Bedrijfscontinuïteit door hoge beschikbaarheid en noodherstel 
 
@@ -305,7 +305,7 @@ Microsoft biedt bedrijfscontinuïteit en noodherstel voor productie-instanties v
     - Geo-redundante kopieën van Azure Blob Storage (die documentbijlagen bevat) in andere Azure-regio's.
     - Secundaire regio voor de Azure SQL- en Azure Blob Storage-replicaties.
 
-De primaire gegevensarchieven zijn ondersteund voor replicatie. Daarom gebruiken onderdelen voor elke service, zoals Management Reporter en entiteitsopslag, transformatiegegevens uit de primaire database. Deze gegevens moeten worden gegenereerd nadat de herstelsite is ingesteld en de service is gestart. Klantcode-artefacten en herstelde gegevensarchieven worden gebruikt om de site opnieuw te implementeren. Met de nieuweployment kunnen de status van de berekende knooppunten samen met deze en andere onderdelen worden gebruikt om de herstelde gegevensopslagpunten te gebruiken om de secundaire site in te stellen. Als noodherstel wordt gebruikt om het productie-exemplaar van de klant te herstellen, voldoen Microsoft en de klant aan hun [verantwoordelijkheden bij](service-description.md#incident-management) incidentbeheer.
+De primaire gegevensarchieven zijn ondersteund voor replicatie. Daarom gebruiken onderdelen voor elke service, zoals Management Reporter en entiteitsopslag, transformatiegegevens uit de primaire database. Deze gegevens moeten worden gegenereerd nadat de herstelsite is ingesteld en de service is gestart. Klantcode-artefacten en herstelde gegevensarchieven worden gebruikt om de site opnieuw te implementeren. Met de nieuweployment kunnen de status van de berekende knooppunten samen met deze en andere onderdelen worden gebruikt om de herstelde gegevensopslagpunten te gebruiken om de secundaire site in te stellen. Als noodherstel wordt gebruikt om het productie-exemplaar van de klant te herstellen, voldoen Microsoft en de klant aan hun [verantwoordelijkheden bij ](service-description.md#incident-management) incidentbeheer.
 
 De plannen en procedures voor noodherstel van Microsoft worden regelmatig onderzocht door middel van System and Organization Controls (SOC)-audits. Deze compliance-audits getuigen van het technische en procedurele proces van Microsoft's DR, inclusief Dynamics 365 Finance and Operations-toepassingen. [SoC-conformiteitscontrolerapporten](/compliance/regulatory/offering-soc-2) en alle andere conformiteitsrapporten zijn beschikbaar op het [nalevingsaanbod van het Microsoft Trust Center](/compliance/regulatory/offering-home).
 
@@ -314,16 +314,16 @@ De plannen en procedures voor noodherstel van Microsoft worden regelmatig onderz
 | Microsoft biedt een secundaire omgeving in het aan Azure gekoppelde exemplaar wanneer het primaire productie-exemplaar wordt geïmplementeerd. Zie [Bedrijfscontinuïteit en herstel na noodgeval (BCDR of Business Continuity and Disaster Recovery): gekoppelde Azure-regio's](/azure/best-practices-availability-paired-regions) voor meer informatie. | None |
 | Microsoft schakelt de geografische opslag van SQL SQL en Azure cloud in wanneer het primaire productie-exemplaar wordt geïmplementeerd. | None |
 | Microsoft schakelt automatische back-up van de SQL-databases in Azure in. | None |
-| <p>Bij een storing bepaalt Microsoft of een failover moet worden uitgevoerd voor de klant en of er gegevens verloren gaan. Klanten kunnen een gegevensverlies van maximaal 15 minuten ervaren, afhankelijk van de aard en timing van de uitval. | In het geval van gegevensverlies, moet de klant mogelijk een schriftelijke ondertekening aanleveren om de failover te activeren. |
+| <p>Bij een storing bepaalt Microsoft of een failover moet worden uitgevoerd voor de klant en of er gegevens verloren gaan. Gegevensverlies kan tot vijf seconden duren. Zie SQL [SQL Database Geo-Restore](https://azure.microsoft.com/blog/azure-sql-database-geo-restore)  voor meer informatie.</p><p>In het geval van gegevensverlies zal Microsoft de aanmelding van de klant voor een failover aanvragen.</p> | In het geval van gegevensverlies, moet de klant mogelijk een schriftelijke aanmelding leveren om de failover te activeren. |
 | Wanneer een failover optreedt, werkt de toepasselijke service in beperkte modus. Updateonderhoud kan niet worden geactiveerd in de failovermodus. | De klant kan geen pakketimplementaties of andere regelmatige onderhoudsaanvragen aanvragen in de failovermodus. |
-| Wanneer het datacenter operationeel wordt, valt Microsoft terug op het productie-exemplaar in de primaire Azure-regio. Normale bewerkingen worden hervat. | De klant moet mogelijk tekenen voor failback naar het productie-exemplaar in de primaire Azure-regio. |
+| Wanneer het datacenter operationeel wordt, valt Microsoft terug op het productie-exemplaar in de primaire Azure-regio. Normale bewerkingen worden hervat. | De klant moet zich mogelijk afmelden bij failback naar het productie-exemplaar in de primaire Azure-regio. |
 
 ## <a name="finance-and-operations-support-offerings"></a>Finance and Operations-ondersteuningsaanbiedingen
 
 Technische ondersteuning is beschikbaar in markten waar Finance and Operations-services worden aangeboden. [Ondersteuningservaringen](../../dev-itpro/lifecycle-services/lcs-support.md) worden geleverd in LCS of Finance and Operations-apps. Hieronder volgen een aantal voorbeelden:
 
 - [Problemen zoeken](../../dev-itpro/lifecycle-services/issue-search-lcs.md) in LCS
-- [Geïntegreerde technische ondersteuning](../../dev-itpro/lifecycle-services/support-experience.md) in Finance and Operations-toepassingen
+- [Geïntegreerde technische ondersteuning ](../../dev-itpro/lifecycle-services/support-experience.md)in Finance and Operations-toepassingen
 - [Cloudondersteuning](../../dev-itpro/lifecycle-services/cloud-powered-support-lcs.md) in LCS
 
 Microsoft biedt Finance and Operations-klanten drie ondersteuningsplannen: Premier, Professional Direct en de ondersteuning die is opgenomen in het abonnement. Het ondersteuningsniveau per plan verschilt. De volgende tabel toont een vergelijking van de drie plannen.
@@ -345,7 +345,7 @@ Bij incidenten waarbij zijn Finance and Operations-toepassingen betrokken zijn, 
 
 ### <a name="service-level-agreement"></a>Servicelevelovereenkomst
 
-Microsoft heeft een beschikbaarheidspercentage van 99,9 procent per maand van de service toegezegd. Als Microsoft het serviceniveau voor de toepasselijke service niet behoudt zoals wordt beschreven in de serviceovereenkomst (SLA), kan de klant in aanmerking komen voor een krediet voor een deel van de maandelijkse servicekosten voor die service. Zie de sectie "Claims" van de serviceservice voor informatie over het starten van een [servicekrediet](https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services).
+Microsoft heeft een beschikbaarheidspercentage van 99,9 procent per maand van de service toegezegd. Als Microsoft het serviceniveau voor de toepasselijke service niet behoudt zoals wordt beschreven in de serviceovereenkomst (SLA), kan de klant in aanmerking komen voor een krediet voor een deel van de maandelijkse servicekosten voor die service. Zie de sectie "Claims" van de serviceservice voor informatie over het starten van een [servicekrediet ](https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services).
 
 ## <a name="important-resources"></a>Belangrijke resources
 
@@ -356,7 +356,6 @@ Microsoft heeft een beschikbaarheidspercentage van 99,9 procent per maand van de
 - **[Licentiehandleiding](https://www.microsoft.com/licensing/docs/view/Microsoft-Dynamics-365)** – gebruik deze handleiding om meer te weten te komen over de licentie voor Dynamics 365.
 - **[Klantenondersteuning](https://dynamics.microsoft.com/support/)** – Krijg toonaangevende ondersteuning voor uw Dynamics 365-apps.
 - **[Dynamics Lifecycle Services](https://lcs.dynamics.com/)** - Beheer de levenscyclus van uw toepasing en ga naar voorspelbare, herhaalbare, hoogwaardige implementaties.
-- **[Implementatiehandleiding van Dynamics 365](https://aka.ms/D365ImplementationGuideFlip)** - De implementatiehandleiding van Dynamics 365 documenteert beproefde Success by Design-principes en biedt richtlijnen voor architectuur, bouw, test en implementatie van Dynamics 365-oplossingen.
 
 ## <a name="definitions"></a>Definities
 
@@ -429,10 +428,6 @@ De SLA is van toepassing op de onlineservices van Microsoft. Zie voor meer infor
 ### <a name="service-update"></a>Serviceupdate
 
 Microsoft onderhoudt Finance and Operations-omgevingen op consistente basis via service-updates. Klanten stellen hun eigen kalender voor service-updates in op basis van hun zakelijke behoeften. Meer informatie over dit onderwerp vindt u in [Veelgestelde vragen over updates van service met één versie](../../dev-itpro/lifecycle-services/oneversion-overview.md).
-
-### <a name="success-by-design"></a>[Success by Design](/dynamics365/fasttrack/success-by-design-overview)
-
-Het raamwerk dat een implementatie systematisch door een reeks evaluaties in belangrijke fasen begeleidt om te zorgen voor een optimale architectuur, beveiliging, prestaties en gebruikerservaring voor een Dynamics 365-oplossing.
 
 ### <a name="user"></a>Gebruiker
 

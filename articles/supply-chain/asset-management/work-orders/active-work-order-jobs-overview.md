@@ -1,28 +1,26 @@
 ---
 title: Overzicht van actieve onderhoudstaken voor werkorder
 description: In dit onderwerp wordt het overzicht van actieve onderhoudstaken voor werkorders in Activabeheer weergegeven.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 81e5611cd1491ee0c119f049e992afb4b6299991
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 8642f7d92a9c0ca69ad4965fd3a8219e57278ed1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019474"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359168"
 ---
 # <a name="active-work-order-maintenance-jobs-overview"></a>Overzicht van actieve onderhoudstaken voor werkorder
 
@@ -38,7 +36,10 @@ In de kolom **%** wordt met een percentage aangegeven in hoeverre de werkorder i
 
 In de onderstaande afbeelding ziet u een voorbeeld van de lijstpagina **Actieve onderhoudstaken voor werkorder**.
 
-![Figuur 1](media/23-work-orders.png)
+![Figuur 1.](media/23-work-orders.png)
 
 Voor een korte omschrijving van de knoppen op de lijstpagina **Actieve onderhoudstaken voor werkorder** raadpleegt u [Inleiding op werkorders](../work-orders/introduction-to-work-orders.md) waarin identieke knoppen worden beschreven.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Een batchtaak maken
 description: Een batchtaak is een groep taken die voor automatische verwerking naar een AOS-exemplaar (Application Object Server) worden verzonden.
 author: maertenm
-manager: AnnBe
 ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BatchJob, SysRecurrence, BatchAlerts
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e4360cd7068658a170f5b44c2ce7c71c39c44fa8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f498014555e0beccbc8965dd43e5162944867978
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679883"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745856"
 ---
 # <a name="create-a-batch-job"></a>Een batchtaak maken
 
@@ -54,3 +52,6 @@ Een batchtaak is een groep taken die voor automatische verwerking naar een AOS-e
     - **Inhouden**: stel de batchtaak in op **Inhouden**, zodat deze niet wordt opgenomen in de planner van batchtaken. Staat gelijk aan *Stoppen*.
     - **Wachten**: stel de batchtaak in op **Wachten** om deze in de wachtrij voor de planner van batchtaken te zetten. Staat gelijk aan *Gaan*.
 5. Klik op **OK**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

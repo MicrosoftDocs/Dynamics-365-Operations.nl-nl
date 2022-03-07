@@ -1,21 +1,21 @@
 ---
 title: Stappictogrammen en -titels toewijzen voor de mobiele app Warehouse Management
 description: In dit onderwerp wordt beschreven hoe u stappictogrammen en -titels kunt toewijzen voor nieuwe of aangepaste taakstromen voor de mobiele app Warehouse Management.
-author: Mirzaab
+author: MarkusFogelberg
 ms.date: 05/17/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a687c26cacc0dbdaf0091b2d26277864553ca1bf
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: a74847b50512d2f712e5a9a5125e520afc732591
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103308"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344488"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Stappictogrammen en -titels toewijzen voor de mobiele app Warehouse Management
 
@@ -27,9 +27,12 @@ In de volgende afbeeldingen ziet u hoe stappictogrammen en staptitels worden wee
 
 ![Voorbeeld van een stappictogram en een staptitel in de mobiele app Warehouse Management.](media/step-icon-example.png "Voorbeeld van een stappictogram en een staptitel in de mobiele app Warehouse Management")
 
-## <a name="turn-this-feature-on-or-off"></a>Deze functie in- of uitschakelen
+## <a name="turn-on-this-feature-in-your-system"></a>Deze functie inschakelen in uw systeem
 
-Om de functionaliteit te gebruiken die in dit onderwerp wordt beschreven, moet de functie *Gebruikersinstellingen, pictogrammen en stapnamen voor de nieuwe magazijnapp* worden ingeschakeld voor het systeem. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Gebruikersinstellingen, pictogrammen en stapnamen voor de nieuwe magazijnapp* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)-instellingen om de status van de functie te controleren en deze in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
+
+- **Module:** *Magazijnbeheer*
+- **Functienaam:** *gebruikersinstellingen, pictogrammen en staptitels voor de nieuwe magazijnapp*
 
 ## <a name="standard-step-ids-classes-and-icons"></a>Standaard ID´s, klassen en pictogrammen van stappen
 

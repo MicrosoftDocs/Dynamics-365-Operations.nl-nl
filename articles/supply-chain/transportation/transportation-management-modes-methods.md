@@ -2,22 +2,24 @@
 title: Modi en methoden voor Transportbeheer
 description: In dit onderwerp wordt beschreven hoe u de modi en methoden voor Transportbeheer instelt.
 author: Henrikan
+manager: tfehr
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
-ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a24e2300f3f3ee21b9c480c8768c4382b21867aa
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.14
+ms.openlocfilehash: b9b548212c6f1f3faac56cd7ca182d84cc339bd2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574780"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4973905"
 ---
 # <a name="transportation-management-modes-and-methods"></a>Modi en methoden voor Transportbeheer
 
@@ -44,6 +46,3 @@ Volg deze stappen om een transportmethode te maken.
 1. Selecteer **Nieuw** om een nieuwe transportmethode te maken.
 1. Voer een unieke id en een omschrijvende naam in voor de transportmethode.
 1. Sluit de pagina.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Optie Dit ophalen wordt niet weergegeven op winkelwagen- of productdetailpagina's
 description: Dit onderwerp bevat richtlijnen voor probleemoplossing die kunnen helpen wanneer de optie voor ophalen in een winkel niet wordt weergegeven op de winkelwagen- of productdetailpagina's.
 author: Reza-Assadi
+manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -15,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 836f767caae8e32c156a1c13d1e2864a4d3cdd92e7a11814a2585c9e907575dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c78dee7289931cecd0f2d7c09caf7881eb8cfd23
+ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733816"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5585264"
 ---
 # <a name="pick-this-up-option-doesnt-appear-on-cart-or-product-details-pages"></a>Optie 'Dit ophalen' wordt niet weergegeven op winkelwagen- of productdetailpagina's
 
@@ -34,7 +36,7 @@ De knop **Dit ophalen** wordt niet weergegeven op de winkelwagen- of productdeta
 
 In de volgende afbeelding ziet u een voorbeeld van een pagina met de knop **Dit ophalen**.
 
-![Knop Dit ophalen.](media/pickup-button-missing.jpg)
+![Knop Dit ophalen](media/pickup-button-missing.jpg)
 
 ## <a name="resolution"></a>Oplossing
 

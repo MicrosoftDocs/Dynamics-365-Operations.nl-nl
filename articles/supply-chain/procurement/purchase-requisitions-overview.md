@@ -1,28 +1,28 @@
 ---
 title: Overzicht opdracht tot inkoop
 description: In dit onderwerp wordt de workflow voor opdrachten tot inkoop beschreven en de verschillende statussen die een opdracht tot inkoop kan hebben.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 11/02/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2174
+ms.custom:
+- "2174"
+- intro-internal
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 189debe46ea28808cf3081a7d8f49686298e8c8e
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: acd0deebe79e29bd1beb32ea21cd179f5bf12c43
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020074"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982897"
 ---
 # <a name="purchase-requisition-overview"></a>Overzicht opdracht tot inkoop
 
@@ -49,7 +49,7 @@ U kunt het workflowproces voor de opdracht tot inkoop configureren om een opdrac
 
 Het volgende schema geeft de statussen weer die aan een opdracht tot inkoop en aan een regel in een opdracht tot inkoop worden toegewezen terwijl deze het controleproces doorlopen.  
 
-[![Koptekst en regelstatussen van opdracht tot inkoop](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![Koptekst en regelstatussen van opdracht tot inkoop.](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>Koptekst en regelstatusrelaties van opdracht tot inkoop
 
@@ -134,7 +134,7 @@ Als u een regel in een opdracht tot inkoop die is afgewezen opnieuw indient, dan
 U kunt in een opdracht tot inkoop de kosten van een product over meerdere financiële rekeningen verspreiden. Als uw organisatie dimensies gebruikt, zoals kostencentra en afdelingen, kunt u de kosten van een product verspreiden over dimensies voor financiële rekeningen.
 
 ## <a name="requisition-purposes"></a>Bestelopdrachtdoelen
-De bestelopdrachtdoelen maken het proces van de uitvoering van opdrachten tot vraag meer flexibel. Bij het maken van een opdracht kunt u er één van twee doelen aan toewijzen: verbruik of aanvulling. Afhankelijk van het bestelopdrachtdoel en hoe uw organisatie is geconfigureerd, kan aan een bestelvraag worden voldaan met een inkooporder, een transferorder, een productieorder of een kanban.  
+De bestelopdrachtdoelen maken het proces van de uitvoering van opdrachten tot vraag meer flexibel. Bij het maken van een opdracht kunt u er één van twee doelen aan toewijzen: verbruik of aanvulling. Afhankelijk van het bestelopdrachtdoel en hoe uw organisatie is geconfigureerd, kan aan een bestelvraag worden voldaan met een inkooporder, een overboekingsorder, een productieorder of een kanban.  
 
 In het inkoopbeleid kunt u de bestelopdrachtdoelen bepalen die beschikbaar zijn bij het maken van een opdracht voor uw organisatie.
 
@@ -144,7 +144,7 @@ Een opdracht die een verbruiksdoel heeft, vertegenwoordigt een vraag naar artike
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>Opdrachten bestemd voor aanvulling
 
-Een opdracht die een aanvullingsdoel heeft, vertegenwoordigt een verzoek voor het aanvullen van de voorraad. U maakt bijvoorbeeld een opdracht om producten aan te vullen zodat ze op een specifiek moment kunnen worden verkocht op een specifieke detailhandellocatie. De vraag die is gemaakt door dit soort opdracht kan worden voldaan door inkooporder, transferorder, productieorder of kanban.  
+Een opdracht die een aanvullingsdoel heeft, vertegenwoordigt een verzoek voor het aanvullen van de voorraad. U maakt bijvoorbeeld een opdracht om producten aan te vullen zodat ze op een specifiek moment kunnen worden verkocht op een specifieke detailhandellocatie. De vraag die is gemaakt door dit soort opdracht kan worden voldaan door inkooporder, overboekingsorder, productieorder of kanban.  
 
 Wanneer de opdracht een aanvullingsdoel heeft, wordt vraag uitgedrukt als een aantal in plaats van een geldbedrag. Daarom zijn vorderingsboekhouding, budgettaire controle, bedrijfsregels voor vaststellen van vaste activa (BRAD), projectboekhouding en alle bijbehorende regels niet van toepassing. Alleen producten die zijn aangelegd en vrijgegeven voor de opgegeven rechtspersoon kunnen gebruikt worden om te voldoen aan een aanvullingsopdracht. Als u de producten wilt definiëren die beschikbaar zijn wanneer het bestelopdrachtdoel is vervuld, gebruikt u de pagina **Toegangsbeleidsregel voor aanvullingscategorie**.  
 
@@ -181,7 +181,7 @@ Als u een inkooporder wilt maken voor regels in de opdracht tot inkoop die niet 
 
 Het proces voor consolidatie van de vraag wordt gestart wanneer een opdracht tot inkoop is goedgekeurd in een werkstroom en, als budgetbeheer is geconfigureerd voor uw organisatie, wanneer de budgetreserveringen en voorvorderingen zijn opgenomen. Het volgende schema geeft de processtroom voor consolidatie van de vraag weer.  
 
-[![Processtroom voor vraagconsolidatie](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
+[![Processtroom voor vraagconsolidatie.](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 Om goedgekeurde inkoopbestelopdrachtregels samen te voegen, volgt u deze stappen:
 
@@ -192,8 +192,7 @@ Om goedgekeurde inkoopbestelopdrachtregels samen te voegen, volgt u deze stappen
 5.  Inkooporders maken voor geconsolideerde opdrachtregels of inkoopbestelopdrachtregels in een samenvoegingsmogelijkheid.
 
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Een bestelaanvraag voor verbruik maken](tasks/create-requisition-consumption.md)
 
@@ -201,3 +200,6 @@ Om goedgekeurde inkoopbestelopdrachtregels samen te voegen, volgt u deze stappen
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

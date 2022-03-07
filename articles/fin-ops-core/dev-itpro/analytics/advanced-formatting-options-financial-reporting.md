@@ -1,12 +1,10 @@
 ---
 title: Geavanceerde opmaakopties in financiële rapportage
-description: Wanneer u een rapport in financiële rapportage maakt, zijn aanvullende opmaakfuncties beschikbaar, zoals filters voor dimensies, beperkingen voor kolommen en rapporteringseenheden, niet-afdrukbare rijen en IF/THEN/ELSE-instructies in berekeningen.
-author: ryansandness
-manager: AnnBe
+description: In dit onderwerp worden functies voor geavanceerde opmaak beschreven, waaronder filters, beperkingen, niet-afdrukrijen en voorwaardelijke instructies in berekeningen.
+author: panolte
 ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3508099dfa3c6671da8dddc9061f737a97e825ce
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e15869fdd598aeec7ef616f6d54593c7551cb906ab53763a64f4202473bcd926
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683158"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760121"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Geavanceerde opmaakopties in financiële rapportage
 
@@ -283,10 +281,10 @@ Als u een berekening wilt beperken tot één rapportage-eenheid in een rapportag
 > [!NOTE]
 > Als u deze functie wilt gebruiken, moet u een rapportagestructuur koppelen aan de rijdefinitie.
 
-De berekeningsrij kan naar een berekeningsrij of een financiële gegevensrij verwijzen. De berekening is geregistreerd in de cel **Gerelateerde formules/rijen/eenheden** van de rijdefinitie en de beperking van het type Financiële gegevens. De berekening moet een voorwaardelijke berekening gebruiken die begint met een **IF @Unit**-constructie. Een voorbeeld: IF @Unit(SALES) THEN @100 ELSE 0 Deze berekening bevat het bedrag van rij 100 in elke kolom van het rapport, maar alleen voor de verkoopeenheid. Als meerdere eenheden de naam VERKOOP hebben, wordt het bedrag in elk van die eenheden weergegeven. Bovendien kan rij 100 een financiële gegevensrij zijn en als niet af te drukken rij worden gedefinieerd. In dit geval wordt voorkomen dat het bedrag in alle eenheden in de structuur wordt weergeven. U kunt het bedrag ook beperken tot één kolom van het rapport, zoals kolom H, door een kolombeperking te gebruiken om de waarde alleen in die kolom van het rapport af te drukken. U kunt **OR**-combinaties opnemen in een **IF**-constructie. Een voorbeeld: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 U kunt een eenheid in een beperking van het type Berekening opgeven op een van de volgende manieren:
+De berekeningsrij kan naar een berekeningsrij of een financiële gegevensrij verwijzen. De berekening is geregistreerd in de cel **Gerelateerde formules/rijen/eenheden** van de rijdefinitie en de beperking van het type Financiële gegevens. De berekening moet een voorwaardelijke berekening gebruiken die begint met een **IF \@Unit**-constructie. Een voorbeeld: IF @Unit(SALES) THEN @100 ELSE 0 Deze berekening bevat het bedrag van rij 100 in elke kolom van het rapport, maar alleen voor de verkoopeenheid. Als meerdere eenheden de naam VERKOOP hebben, wordt het bedrag in elk van die eenheden weergegeven. Bovendien kan rij 100 een financiële gegevensrij zijn en als niet af te drukken rij worden gedefinieerd. In dit geval wordt voorkomen dat het bedrag in alle eenheden in de structuur wordt weergeven. U kunt het bedrag ook beperken tot één kolom van het rapport, zoals kolom H, door een kolombeperking te gebruiken om de waarde alleen in die kolom van het rapport af te drukken. U kunt **OR**-combinaties opnemen in een **IF**-constructie. Hier is een voorbeeld: **IF @Unit(VERKOOP) OR @Unit(SALESWEST) THEN 5 ELSE @100**. U kunt op een van de volgende manieren een eenheid in een beperking van het type berekening opgeven:
 
-- Voer een eenheidsnaam in om eenheden op te nemen die overeenkomen. Zo schakelt **IF @Unit(SALES)** de berekening in voor elke eenheid met de naam VERKOOP, zelfs als er verschillende verkoopeenheden in de rapportagestructuur zijn.
-- Voer de naam van het bedrijf en de eenheidnaam in om de berekening te beperken tot specifieke eenheden in een specifiek bedrijf. Voer bijvoorbeeld **IF @Unit(ACME:SALES**) in om de berekening in verkoopeenheden in het ACME-bedrijf te beperken.
+- Voer een eenheidsnaam in om eenheden op te nemen die overeenkomen. Zo schakelt **IF \@Unit(VERKOOP)** de berekening in voor elke eenheid met de naam VERKOOP, zelfs als zich verschillende eenheden VERKOOP in de rapportagestructuur bevinden.
+- Voer de naam van het bedrijf en de eenheidnaam in om de berekening te beperken tot specifieke eenheden in een specifiek bedrijf. Voer bijvoorbeeld **IF @Unit (ACME:VERKOOP)** in om de berekening in eenheden VERKOOP in het ACME-bedrijf te beperken.
 - Voer de volledige hiërarchiecode van de rapportagestructuur in om de berekening te beperken tot een specifieke eenheid. Voer bijvoorbeeld **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)** in.
 
 > [!NOTE]
@@ -296,7 +294,7 @@ De berekeningsrij kan naar een berekeningsrij of een financiële gegevensrij ver
 
 1. Klik in Rapportontwerper op **Rijdefinities** en open vervolgens de rijdefinitie die u wilt wijzigen.
 2. Dubbelklik op de cel **Opmaakcode** en selecteer vervolgens **CAL**.
-3. Klik op de cel **Gerelateerde formules/rijen/eenheden** en voer vervolgens een voorwaardelijke berekening in die begint met een **IF @Unit**-constructie.
+3. Klik op de cel **Gerelateerde formules/rijen/eenheden** en voer vervolgens een voorwaardelijke berekening in die begint met een **IF \@Unit**-constructie.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>IF/THEN/ELSE-constructies in een kolomdefinitie
 
@@ -310,3 +308,5 @@ Een **IF/THEN/ELSE**-constructie zorgt ervoor dat elke berekening kan afhangen v
 U kunt rapporten ontwerpen met behulp van dimensiewaarden die een ampersand (&) bevatten.
 
 In een veld **Koppeling naar financiële dimensies** kunt u een waarde invoeren zoals **'W&V'**. Het opnemen van enkele aanhalingstekens (' ') aan beide zijden van de dimensiewaarde geeft aan dat u de letterlijke waarde gebruikt, zoals bijvoorbeeld het ampersand-teken (&).
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

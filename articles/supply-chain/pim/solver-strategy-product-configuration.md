@@ -1,10 +1,12 @@
 ---
 title: Oplossingsstrategie voor productconfiguratie
 description: In dit onderwerp wordt beschreven hoe u oplossingsstrategie kunt gebruiken voor het verbeteren van de prestaties van productconfiguratie.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCCreateProductConfigurationModel, PCProductConfigurationModelListPage
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37e8f2c9557ee6fc827d60ca6dc83cd638b6378a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c368fe3ede2818f28e2063ae22cdfd49cd9bc68f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565689"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244178"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Oplossingsstrategie voor productconfiguratie
 
@@ -50,7 +52,7 @@ Werkelijke klantimplementaties hebben aangetoond dat een wijziging in de oplossi
 
 Als u de oplossingsstrategie wilt wijzigen, selecteert u op de pagina **Productconfiguratiemodellen** in het actiedeelvenster **Modeleigenschappen**. Selecteer vervolgens in het dialoogvenster **De details van het model bewerken** een oplossingsstrategie.
 
-[![De oplossingsstrategie kiezen.](./media/solver-strategy.png)](./media/solver-strategy.png)
+[![De oplossingsstrategie kiezen](./media/solver-strategy.png)](./media/solver-strategy.png)
 
 Er is momenteel geen logica die automatisch vaststelt welke oplossingsstrategie het efficiëntst is voor op beperkingen gebaseerde productconfiguratie. Daarom moet u de oplossingsstrategieën een voor een proberen.
 

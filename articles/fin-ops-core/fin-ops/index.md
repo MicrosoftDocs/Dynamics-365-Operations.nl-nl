@@ -1,29 +1,27 @@
 ---
-title: Documentatie voor Finance and Operations-apps
-description: Documentatie voor Finance and Operations-apps.
-author: robinarh
-manager: AnnBe
-ms.date: 07/25/2019
+title: Documentatie over Finance and Operations-apps
+description: Documentatie over Finance and Operations-apps.
+author: tonyafehr
+ms.date: 04/13/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
-ms.reviewer: rhaertle
-ms.custom: 62303
+ms.reviewer: tfehr
+ms.custom: intro-internal
 ms.search.region: Global
-ms.author: margoc
+ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a44324a14a78174ad4d68e6686c523c49d7aa3bd
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694380"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075392"
 ---
-# <a name="finance-and-operations-application-documentation"></a>Documentatie voor Finance and Operations-apps
+# <a name="finance-and-operations-application-documentation"></a>Documentatie over Finance and Operations-apps
 
 [!include [banner](includes/banner.md)]
 
@@ -45,21 +43,21 @@ Veel van deze inhoud is ook van toepassing op de gerelateerde producten: Dynamic
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Een implementatieoptie kiezen</a></p>
  <p><a href="get-started/purchase-on-premises.md">Finance and Operations (on-premises) aanschaffen</a></p>
 
-<h3><a href="imp-lifecycle/implementation-lifecycle.md">Levenscyclus van de implementatie</a></h3>
-<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
+<h3><a href="imp-lifecycle/implementation-lifecycle.md">-implementatielevenscyclus</a></h3>
+<p><a href="/dynamics365/fasttrack/">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Onboarding van een project</a></p>
-<p><a href="imp-lifecycle/prepare-go-live.md">Voorbereiden voor go-live</a></p>
+<p><a href="imp-lifecycle/prepare-go-live.md">Voorbereiding voor live gaan</a></p>
 
-<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">Updates van service met één versie</a></h3>
-<p><a href="get-started/one-version.md">Veelgestelde vragen over updates van service met één versie</a></p>
+<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">One Version-service-updates</a></h3>
+<p><a href="get-started/one-version.md">Veelgestelde vragen over One Version-service-updates</a></p>
 <p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">Lifecycle-beleid voor software: cloud</a></p>
 <p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">Lifecycle-beleid voor software: on-premises</a></p>
-<p><a href="get-started/public-preview-releases.md">Standaard- en First Release-serviceupdates</a></p>
+<p><a href="get-started/public-preview-releases.md">Standaard- en First Release-service-updates</a></p>
 <p><a href="get-started/whats-new-changed.md">Nieuwe of gewijzigde functies</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Upgrades, updates en hotfixes</a></p>
 <p><a href="../dev-itpro/deployment/apply-deployable-package-system.md">Updates toepassen op cloudomgevingen</a></p>
-<p><a href="../dev-itpro/lifecycle-services/configure-service-updates.md">Serviceupdates configureren</a></p>
-<p><a href="../dev-itpro/lifecycle-services/pause-service-updates.md">Serviceupdates onderbreken</a></p>
+<p><a href="../dev-itpro/lifecycle-services/configure-service-updates.md">Service-updates configureren</a></p>
+<p><a href="../dev-itpro/lifecycle-services/pause-service-updates.md">Service-updates onderbreken</a></p>
 <p><a href="../dev-itpro/lifecycle-services/notifications-service-updates.md">Bericht ontvangen over service-updates</a></p>
 <p><a href="../dev-itpro/data-entities/data-task-automation.md">Automatisering van gegevenstaak</a></p>
 <p><a href="../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md">Regression Suite Automation Tool</a></p>
@@ -67,7 +65,7 @@ Veel van deze inhoud is ook van toepassing op de gerelateerde producten: Dynamic
 <h3><a href="../dev-itpro/data-entities/integration-overview.md">Integraties</a></h3>
 <p><a href="../dev-itpro/business-events/home-page.md">Zakelijke gebeurtenissen</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">Gegevensentiteiten</a></p>
-<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Integratie met behulp van Microsoft Power Automate</a></p>
+<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Integratie met Microsoft Power Automate</a></p>
 
 <h3><a href="../../finance/index.md">Financieel beheer</a></h3>
 <p><a href="../../finance/accounts-payable/accounts-payable.md">Leveranciers</a></p>
@@ -78,16 +76,18 @@ Veel van deze inhoud is ook van toepassing op de gerelateerde producten: Dynamic
 <p><a href="../../finance/cost-accounting/cost-accounting-home-page.md">Kostprijsboekhouding</a></p>
 <p><a href="../../finance/fixed-assets/fixed-assets.md">Vaste activa</a></p>
 <p><a href="../../finance/general-ledger/general-ledger.md">Grootboek</a></p>
-<p><a href="../../finance/project-management/overview-project-management-accounting.md">Projectbeheer</a></p>
+<p><a href="/dynamics365/project-operations/prod-pma/overview-project-management-accounting">Projectbeheer</a></p>
 <p><a href="../../finance/public-sector/public-sector-functionality.md">Openbare sector</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Regionale wettelijk voorgeschreven functies</a></p>
 
-<h3><a href="hr/hr-landing-page.md">Human Resources</a></h3>
-<p><a href="../../human-resources/hr-benefits-manage-program.md">Vergoedingen</a></p>
-<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Ontwikkeling en training van werknemers</a></p>
-<p><a href="../../human-resources/hr-learning-questionnaires.md">Vragenlijsten</a></p>
-<p><a href="hr/manage-recruiting-process.md">Werving</a></p>
-<p><a href="hr/localizations/noam-usa-payroll.md">Salarisadministratie VS</a></p>
+<h3><a href="hr/hr-landing-page.md">Human resources</a></h3>
+<p><a href="../../human-resources/hr-employee-manager-self-service-overview.md">Selfservice werknemer</a></p>
+<p><a href="../../human-resources/hr-personnel-departments-jobs-positions.md">Personeelsbeheer</a></p>
+<p><a href="../../human-resources/hr-leave-and-absence-overview.md">Verlof en verzuim</a></p>
+<p><a href="../../human-resources/hr-benefits-manage-program.md">Voordelen</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Werknemerontwikkeling</a></p>
+<p><a href="../../human-resources/hr-learning-courses.md">Leren</a></p>
+ <p><a href="hr/localizations/noam-usa-payroll.md">Salarisadministratie VS</a></p>
 
 </td>
 <td>
@@ -118,7 +118,7 @@ Veel van deze inhoud is ook van toepassing op de gerelateerde producten: Dynamic
 <p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">Mobiel platform</a></p>
 <p><a href="get-started/demo-data.md">Demogegevens</a></p>
 
-<h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">Administratie</h3>
+<h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">Beheer</h3>
 <p><a href="../dev-itpro/deployment/cloud-deployment-overview.md">Cloudimplementatie</a></p>
 <p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">On-premises implementatie</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Bijwerken</a></p>
@@ -128,16 +128,11 @@ Veel van deze inhoud is ook van toepassing op de gerelateerde producten: Dynamic
 </td>
 <td>
 <h3>Verwante producten</h3>
-<h4><a href="../../retail/index.md">Dynamics 365 Commerce</a></h4>
-<p><a href="../../retail/call-center-functionality.md">Callcenter</p>
-<p><a href="../../retail/define-maintain-retail-channels.md">Kanalen instellen en beheren</p>
-<p><a href="../../retail/retail-peripherals-overview.md">MPOS en Cloud POS</p>
-<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Commerce-ontwikkelaar en -beheer</p>
-
-<h4><a href="../../human-resources/hr-welcome.md">Dynamics 365 Human Resources</a></h4>
-<p><a href="../../human-resources/hr-admin-overview.md">Beheerdershandleiding</a></p>
-<p><a href="../../human-resources/hr-developer-overview.md">Ontwikkelaarshandleiding</a></p>
-<p><a href="../../human-resources/hr-hrpro-overview.md">Gebruikershandleiding</a></p>
+<h4><a href="/dynamics365/commerce/">Dynamics 365 Commerce</a></h4>
+<p><a href="../../commerce/call-center-functionality.md">Callcenter</p>
+<p><a href="../../commerce/define-maintain-retail-channels.md">Kanalen instellen en beheren</p>
+<p><a href="../../commerce/retail-peripherals-overview.md">MPOS en Cloud POS</p>
+<p><a href="../../commerce/dev-itpro/dev-retail-home-page.md">Commerce-ontwikkelaar en -beheer</p>
 
 
 </td>
@@ -145,3 +140,6 @@ Veel van deze inhoud is ook van toepassing op de gerelateerde producten: Dynamic
 
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

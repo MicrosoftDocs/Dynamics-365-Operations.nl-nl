@@ -1,7 +1,7 @@
 ---
 title: Producten cross-docken vanuit ontvangend magazijn naar winkels
 description: Deze procedure doorloopt de stappen om een cross-dock te maken en te verwerken om producten van de ontvangende locatie van een inkooporder naar een of meer winkels te distribueren.
-author: Mirzaab
+author: ShylaThompson
 ms.date: 02/17/2016
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e65535a1879eab229f185e0e97d81a304fd292d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7c660534053793b454f8558a114eb4db1d715472c126f55dc97171a31e2a1ab9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572956"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724719"
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>Producten cross-docken vanuit ontvangend magazijn naar winkels
 

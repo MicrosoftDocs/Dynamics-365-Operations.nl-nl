@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 68aa220896e3d6f598f32cad201cde1aa89f1670
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 13ae9bd714988d079a933e20e6e17209161e46eb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442034"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5224664"
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>Afschrijvingsprofielen instellen en maken
 
@@ -40,3 +39,6 @@ Afschrijvingsprofielen definiëren het type en de frequentie van afschrijving vo
 7. Selecteer een optie in het veld **Periodefrequentie**.
 8. Het formulier sluiten.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

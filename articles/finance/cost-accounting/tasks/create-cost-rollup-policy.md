@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b6d32cc2c1844c6c334dd00b249c736e153f13d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6505d658103a4c34dfe7c7eb86ad4ea41515ccfb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442100"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5261279"
 ---
 # <a name="create-a-cost-rollup-policy"></a>Beleid voor totalisering van kosten maken
 
@@ -68,3 +67,6 @@ Deze procedure laat zien hoe u een beleid voor het totaliseren van kosten maakt 
     * Ga door totdat alle kostenplaatsen zijn toegewezen aan de overeenkomstige secundaire kostenelementen.  
 16. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,36 +2,30 @@
 title: Een detailhandelkanaal instellen
 description: In dit onderwerp wordt beschreven hoe u een nieuw detailhandelkanaal maakt in Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
-ms.date: 01/27/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a9291dddf7d4dc080b6eb1ec60702de32a761f45
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6a8db8bb4b42c7ad6c0c0e0c257bc03e356de7d525f524c22eab46e38c018d49
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411339"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745401"
 ---
 # <a name="set-up-a-retail-channel"></a>Een detailhandelafzetkanaal instellen
-
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u een nieuw detailhandelkanaal maakt in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 Dynamics 365 Commerce ondersteunt meerdere detailhandelkanalen. Deze detailhandelskanalen zijn o.a. online winkels, call centers en winkels (ook fysieke winkels genoemd). Iedere Retail-winkelkanaal kan zijn eigen betalingsmethoden, prijsgroepen, verkooppuntkassa's (POS), inkomsten- en uitgavenrekeningen en personeel hebben. U moet al deze elementen instellen voordat u een Retail-winkelkanaal kunt maken. 
 
@@ -56,11 +50,11 @@ Controleer vóór het maken van een detailhandelkanaal of u de [Vereisten voor a
 
 De volgende afbeelding toont het maken van een nieuw detailhandelkanaal.
 
-![Nieuw detailhandelafzetkanaal](media/channel-setup-retail-1.png)
+![Nieuw detailhandelafzetkanaal.](media/channel-setup-retail-1.png)
 
 In de volgende afbeelding ziet u een voorbeeld van een detailhandelafzetkanaal.
 
-![Voorbeeld van detailhandelafzetkanaal](media/channel-setup-retail-2.png)
+![Voorbeeld van detailhandelafzetkanaal.](media/channel-setup-retail-2.png)
 
 ## <a name="other-settings"></a>Overige instellingen
 
@@ -70,17 +64,17 @@ Zie ook [Schermindelingen voor het POS](pos-screen-layouts.md) voor informatie o
 
 In de volgende afbeelding ziet u een voorbeeldconfiguratie van een detailhandelafzetkanaal.
 
-![Voorbeeldconfiguratie van detailhandelafzetkanaal](media/channel-setup-retail-3.png)
+![Voorbeeldconfiguratie van detailhandelafzetkanaal.](media/channel-setup-retail-3.png)
 
 ## <a name="additional-channel-set-up"></a>Aanvullende kanaalinstellingen
 
-Er zijn nog meer zaken die u moet instellen voor een kanaal. Deze vindt u in de sectie **Instellingen** van het **Actievenster**.
+Er zijn nog meer zaken die u moet instellen voor een kanaal. Deze vindt u in de sectie **Instellingen** van het Actievenster.
 
 Aanvullende taken die nodig zijn voor het instellen van online kanalen, zijn onder andere het instellen van betalingsmethoden, contantdeclaraties, leveringsmethoden, inkomsten- en onkostenrekeningen, secties, de toewijzing van afhandelingsgroepen en kluizen.
 
 De volgende afbeelding toont diverse aanvullende opties voor het instellen van detailhandelskanalen op het tabblad **Instellingen**.
 
-![Kanaal instellen](media/channel-setup-retail-4.png)
+![Kanaal instellen.](media/channel-setup-retail-4.png)
 
 ### <a name="set-up-payment-methods"></a>Betalingsmethoden instellen
 
@@ -95,7 +89,7 @@ Volg deze stappen om betalingsmethoden in te stellen voor elk betalingstype dat 
 
 In de volgende afbeelding ziet u een voorbeeld van een contante betalingsgmethode.
 
-![Voorbeeldbetalingsmethoden](media/channel-setup-retail-5.png)
+![Voorbeeldbetalingsmethoden.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-cash-declaration"></a>Contantdeclaratie instellen
 
@@ -104,11 +98,11 @@ In de volgende afbeelding ziet u een voorbeeld van een contante betalingsgmethod
 
 In de volgende afbeelding ziet u een voorbeeld van een contantdeclaratie.
 
-![Contantdeclaraties instellen](media/channel-setup-retail-6.png)
+![Contantdeclaraties instellen.](media/channel-setup-retail-6.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Leveringsmethoden instellen
 
-U kunt de geconfigureerde leveringsmethoden bekijken door **Leveringsmethoden** te selecteren op het tabblad **Instellingen** van het **actievenster**.  
+U kunt de geconfigureerde leveringsmethoden bekijken door **Leveringsmethoden** te selecteren op het tabblad **Instellingen** van het actievenster.  
 
 Voer de volgende stappen uit als u een leveringsmethode wilt wijzigen of toevoegen.
 
@@ -118,7 +112,7 @@ Voer de volgende stappen uit als u een leveringsmethode wilt wijzigen of toevoeg
 
 In de volgende afbeelding ziet u een voorbeeld van een leveringsmethode.
 
-![Leveringsmethoden instellen](media/channel-setup-retail-7.png)
+![Leveringsmethoden instellen.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-incomeexpense-account"></a>Inkomsten-/uitgavenrekening instellen
 
@@ -135,7 +129,7 @@ Volg deze stappen om een inkomsten-/uitgavenrekening in te stellen.
 
 De volgende afbeelding toont een voorbeeld van een inkomsten-/uitgavenrekening.
 
-![Inkomsten-/uitgavenrekeningen instellen](media/channel-setup-retail-8.png)
+![Inkomsten-/uitgavenrekeningen instellen.](media/channel-setup-retail-8.png)
 
 ### <a name="set-up-sections"></a>Secties instellen
 
@@ -161,7 +155,7 @@ Volg deze stappen als u de toewijzing van een afhandelingsgroep wilt instellen.
 
 De volgende afbeelding toont een voorbeeld van de instellingen voor de toewijzing van een afhandelingsgroep.
 
-![Toewijzingen van een afhandelingsgroep instellen](media/channel-setup-retail-9.png)
+![Toewijzingen van een afhandelingsgroep instellen.](media/channel-setup-retail-9.png)
 
 ### <a name="set-up-safes"></a>Kluizen instellen
 
@@ -172,7 +166,38 @@ Volg deze stappen om kluizen in te stellen.
 1. Voer een naam in voor de kluis.
 1. Selecteer **Opslaan** in het actievenster.
 
-## <a name="additional-resources"></a>Aanvullende resources
+### <a name="ensure-unique-transaction-ids"></a>Zorgen dat unieke transactie-id's worden gemaakt
+
+Vanaf Commerce versie 10.0.18 zijn transactie-id's die zijn gegenereerd voor het POS opeenvolgend en bevatten de volgende delen:
+
+- Een vast deel, dat een samenvoeging is van een winkel-id en een terminal-id. 
+- Een volgnummer, dat uit een nummerreeks wordt genomen. 
+
+Specifiek gezegd is de indeling *{store}{terminal}-{numbersequence}*. 
+
+Aangezien transactie-id's kunnen worden gegenereerd in offline en online modi, zijn er ook wel eens dubbele transactie-id's gegenereerd. Het verwijderen van dubbele transactie-id's vereist veel handmatig herstel van gegevens. 
+
+In Commerce versie 10.0.19 is de transactie-id-indeling bijgewerkt: het nummerreeksdeel is verwijderd en in plaats daarvan wordt een nummer van 13 cijfers gebruikt dat is gegenereerd door de tijd sinds het jaar 1970 te berekenen in milliseconden. Met deze wijziging is de nieuwe transactie-ID-indeling nu *{store}-{terminal}-{millisecondsSince1970}*. Vanaf deze update is de transactie-id niet-sequentieel en dus altijd uniek. 
+
+> [!NOTE]
+> Transactie-id's zijn alleen bedoeld voor intern systeemgebruik, dus hoeven ze niet opeenvolgend te zijn. In veel landen moeten kassabon-id's echter wel opeenvolgend zijn.
+
+De nieuwe functie voor de indeling van transactie-id's kan worden ingeschakeld vanuit het werkgebied **Functiebeheer**. 
+
+Als u het gebruik van nieuwe transactie-id's wilt inschakelen, gaat u als volgt te werk:
+
+1. Ga in Commerce Headquarters naar **Systeembeheer \> Werkgebieden \> Functiebeheer**.
+1. Filter op de module Retail en Commerce.
+1. Zoek de functienaam **Nieuwe transactie-id inschakelen om dubbele transactie-id's te voorkomen**.
+1. Selecteer de functie en selecteer vervolgens **Nu inschakelen** in het het rechterdeelvenster.  
+1. Ga naar **Retail en Commerce \> Retail en Commerce IT \> Distributieplanning**.
+1. Voer de taken **1070 (Kanaalconfiguratie)** en **1170 POS-taakregistratie** uit om de ingeschakelde functie te synchroniseren met de winkels.
+1. Nadat de wijzigingen naar de winkels zijn verzonden, moeten POS-terminals worden gesloten en opnieuw worden geopend om de nieuwe transactie-id-indeling te gebruiken. 
+
+> [!NOTE]
+> Nadat de functie voor de nieuwe transactie-id-indeling is ingeschakeld, kunt u deze functie niet meer uitschakelen. Als deze echt moet worden uitgeschakeld, neem dan contact op met de Commerce-ondersteuning.
+
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van kanalen](channels-overview.md)
 
@@ -182,3 +207,6 @@ Volg deze stappen om kluizen in te stellen.
 
 [Een callcenterkanaal instellen](channel-setup-callcenter.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,27 +2,25 @@
 title: Leases toevoegen of kopiëren (preview)
 description: In dit onderwerp wordt beschreven hoe u een nieuwe lease maakt door informatie in te voeren in Activa leasen of door gegevens uit een bestaande lease te kopiëren.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 01/11/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: abbf04d009a4b347792cd8b317e334da2a4cbbee
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b09a87c7d4f5ba076647218c3586d17a13e6c558
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969598"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7967921"
 ---
 # <a name="add-or-copy-leases-preview"></a>Leases toevoegen of kopiëren (preview)
 
@@ -37,6 +35,19 @@ Volg deze stappen om een lease te maken in Activa leasen.
 1. Selecteer op de pagina **Leaseoverzicht** in het actievenster de optie **Nieuw**.
 2. Voer gegevens over de lease in. Vereiste velden hebben een rode rand.
 
+De begindatum voor de leasebetaling kan niet voor de begindatum van de lease vallen. Als u een begindatum opgeeft voor de leasebetaling die eerder is dan de begindatum voor de lease, wordt een foutbericht weergegeven.
+
+De optie **Betalingsbedrag opsplitsen** op het sneltabblad **Algemeen** van de pagina **Leasedetails** is standaard ingesteld op **Nee** als de optie **Betaling opsplitsen toestaan** op de pagina **Parameters voor Activa leasen** is ingesteld op **Ja**. 
+
+Als de optie **Betalingsbedrag opsplitsen** is ingesteld op **Ja**, is het veld **Betalingsbedrag** op het sneltabblad **Betalingsschemaregels** vergrendeld. Deze wordt ingesteld op het totaal van de betalingsbedragen die later worden ingevoerd in de catalogus **Opsplitsing van betalingsbedragen**.
+
+Selecteer **Opsplitsing van betalingsbedragen** om een pagina te openen waar u de gespecificeerde betalingstypen kunt toevoegen. Met de knop **Totalen toevoegen aan betalingsbedrag** worden de totalen naar het veld **Betalingsbedrag** verplaatst.
+
+> [!NOTE]
+> Als u een gespecificeerd betalingsbedrag toevoegt en vervolgens op **Esc** drukt, worden de ingevoerde bedragen niet toegevoegd aan het veld **Betalingsbedrag** op het sneltabblad **Betalingsschemaregels**. In plaats daarvan worden ze opgeslagen in het dialoogvenster **Opsplitsing van betalingsbedragen**. Als u wilt dat in het dialoogvenster het totaalbedrag wordt weergegeven, selecteert u de kolom **Bedrag**, selecteert u deze waarde en houdt u deze vast (of klikt u met de rechtermuisknop) en selecteert u vervolgens **Deze kolom totaliseren**. 
+
+Met de knop **Regel kopiëren** kopieert u de gespecificeerde betalingsbedragen.
+
 ## <a name="create-a-lease-schedule"></a>Een leaseschema maken
 
 Nadat u de gegevens voor de lease hebt ingevoerd, voert u de volgende stappen uit om een leaseschema te maken.
@@ -50,6 +61,9 @@ Nadat u de gegevens voor de lease hebt ingevoerd, voert u de volgende stappen ui
     De pagina **Boekdetails** geeft aan hoe de lease wordt verwerkt in de boeken die aan de lease zijn toegewezen. Hier kunt u de leaseschema's bekijken.
 
     Het betalingsschema bevat de invoer uit het tabblad **Betalingsschemaregels** op de pagina **Lease toevoegen**. U kunt nog steeds alle betalingsbedragen en variabele betalingen wijzigen. De leaseverplichtingen worden berekend op basis van het aangepaste betalingsschema.
+
+    > [!NOTE]
+    > De begindatum voor de leasebetaling moet dezelfde of een latere datum zijn dan de begindatum voor de lease. U ontvangt een foutbericht als de begindatum voor de leasebetaling eerder is dan de begindatum voor de lease. 
 
 4. Wanneer u klaar bent met het controleren van het betalingsschema, selecteert u **Schema bevestigen**. Nadat het schema is bevestigd, kan de lease niet meer worden bewerkt.
 
@@ -88,3 +102,6 @@ Alle journaalposten die zijn gemaakt in Activa leasen worden opgenomen in het ac
 
 > [!NOTE]
 > Het Activaleasejournaal kan niet handmatig worden gemaakt. Het wordt automatisch gemaakt wanneer er leaseschema's worden gemaakt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

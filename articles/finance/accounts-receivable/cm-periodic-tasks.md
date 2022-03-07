@@ -1,26 +1,23 @@
 ---
 title: Periodieke taken voor kredietbeheer
 description: In dit onderwerp worden de periodieke taken beschreven die een noodzakelijk onderdeel zijn van het proces voor het beheren van kredietlimieten voor klanten.
-author: mikefalkner
-manager: AnnBe
+author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 17b4b2f487fdeb9f1aa7d77bf87197885ba60e47
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 398fcd9d45ce0ddfb1f7189e0712f9dac2db012f
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441926"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753502"
 ---
 # <a name="periodic-credit-management-tasks"></a>Periodieke taken voor kredietbeheer
 
@@ -44,3 +41,6 @@ Naarmate bedrijven zich ontwikkelen en omstandigheden veranderen, is het mogelij
 U kunt het proces **Saldostatistieken van klant bijwerken** uitvoeren om de berekening van saldostatistieken bij te werken die worden weergegeven op de pagina **Saldostatistieken opvragen**. Deze informatie wordt gebruikt voor het berekenen van risicoscores en de waarden die worden weergegeven in de feitenblokken met kredietstatistieken op de pagina **Klant**.
 
 Wanneer u het proces uitvoert, worden saldostatistieken voor één klant bijgewerkt. Als u een batchtaak wilt instellen om het proces uit te voeren voor meerdere klanten, kunt de pagina **Saldostatistieken berekenen** gebruiken (**Kredietbeheer \> Periodieke taken \> Saldostatistieken berekenen**).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

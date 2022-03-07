@@ -2,11 +2,9 @@
 title: Auditbeleid voor brondocumenten definiëren
 description: In dit onderwerp wordt beschreven hoe u controlebeleidsregels instelt en uitvoert.
 author: panolte
-manager: AnnBe
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysFieldLookUp, SysPolicyListPage, SysPolicy, AuditPolicyRule, SysQueryForm, SysQueryFieldLookUp, AuditPolicyDateSelection, AuditPolicyAdditionalOption, BatchJob, CaseDetail
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e020a9e82ff18055e40e3e0ddc7bbed1068c886c
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 62ebe3d6ba1208bd5f9a2082969b1960c413c152
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021424"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836956"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Auditbeleid voor brondocumenten definiëren
 
@@ -87,3 +85,6 @@ In dit onderwerp wordt beschreven hoe u controlebeleidsregels instelt en uitvoer
 57. Vouw de sectie **Koppelingen** uit.
 58. Zoek en selecteer de gewenste record in de lijst.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
-title: Groepsgewijs orders voor detailhandelstransacties maken
+title: Groepsgewijs orders voor detailhandeltransacties maken
 description: Dit onderwerp beschrijft het groepsgewijs maken van orders voor winkeltransacties in Microsoft Dynamics 365 Commerce.
-author: analpert
-ms.date: 01/11/2021
+author: josaw1
+manager: AnnBe
+ms.date: 09/04/2020
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,53 +17,40 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 67b66cd4bf2a77f3ab7f33f691156e38cc13770a
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 1f864fd6e3aa62cabd039922ed55ad5f7714f0ce
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964623"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991331"
 ---
-# <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Groepsgewijs orders voor detailhandelstransacties maken
+# <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Groepsgewijs orders voor detailhandeltransacties maken
 
 [!include [banner](includes/banner.md)]
 
-In versie 10.0.5 en hoger van Microsoft Dynamics 365 Commerce raden we u aan om alle boekingsprocessen voor overzichten over te brengen naar de boekingsprocessen voor overzichten op basis van groepsgewijze boeking. Er worden aanzienlijke prestaties en zakelijke vergoedingen gekoppeld aan het gebruik van de functionaliteit voor groepsgewijs boeken van uw bedrijf. Verkooptransacties worden de hele dag verwerkt. Betalings- en kasbeheertransacties worden aan het einde van de dag verwerkt in het financieel overzicht. Functionaliteit voor groepsgewijs boeken maakt de continue verwerking van verkooporders, facturen en betalingen mogelijk. Daarom worden voorraad, opbrengst en betalingen bijna in realtime bijgewerkt en herkend.
+In Dynamics 365 Retail versie 10.0.4 en eerder is het boeken van een overzicht een bewerking die aan het einde van de dag plaatsvindt. Alle transacties worden aan het einde van de dag geboekt. Grote transacties moeten vervolgens in een beperkt tijdvenster worden verwerkt, met soms als gevolg dat er fouten optreden bij het laden, vergrendelen en boeken van overzichten. Bovendien kunnen winkeliers gedurende de dag geen opbrengsten en betalingen in hun boeken toerekenen.
 
-## <a name="use-trickle-feed-based-posting"></a>Groepsgewijs boeken gebruiken
+Met de functie voor het groepsgewijs maken van orders in Retail versie 10.0.5 kunnen transacties gedurende de hele dag worden verwerkt, en worden alleen de financiële afstemming van de kas en andere contante transacties aan het einde van de dag verwerkt. Met deze functionaliteit wordt de werklast voor het maken van verkooporders, facturen en betalingen verspreid over de hele dag. Dit leidt tot betere prestaties en de mogelijkheid om opbrengsten en betalingen in de boeken bijna in realtime toe te rekenen. 
 
-> [!IMPORTANT]
-> Voordat u groepsgewijs boeken inschakelt, moet u ervoor zorgen dat er geen berekende en ongeboekte overzichten zijn. Boek alle overzichten voordat u de functie inschakelt. U kunt controleren op openstaande overzichten in de werkruimte **Financiën van winkel**.
 
-Als u groepsgewijs boeken van detailhandelstransacties wilt inschakelen, schakelt u de functie **Detailhandeloverzichten - Groepsgewijze invoer** in de werkruimte **Functiebeheer** in. Overzichten worden onderverdeeld in twee typen: transactieoverzichten en financiële overzichten.
+## <a name="how-to-use-trickle-feed-based-posting"></a>Groepsgewijs boeken gebruiken
+  
+1. Als u groepsgewijs boeken van detailhandeltransacties wilt inschakelen, schakelt u de functie **Detailhandeloverzichten - Groepsgewijze invoer** in met behulp van Functiebeheer.
 
-### <a name="transactional-statements"></a>Transactieoverzichten
+    > [!IMPORTANT]
+    > Voordat u deze functie inschakelt, moet u ervoor zorgen dat er geen overzichten wachten om te worden geboekt.
 
-Het verwerken van transactieoverzichten is bedoeld om met een hoge frequentie te worden uitgevoerd, de hele dag lang, zodat documenten worden gemaakt wanneer de transacties worden geüpload in Commerce Headquarters. Transacties worden vanuit de winkels naar Commerce Headquarters geladen wanneer u de **P-Taak** uitvoert. U moet ook de taak **Winkeltransacties valideren** uitvoeren om transacties te valideren zodat ze worden opgepikt door het transactieoverzicht.
+2. Het huidige overzichtsdocument wordt opgesplitst in twee typen: transactieoverzicht en financieel overzicht.
 
-Plan het uitvoeren van de volgende taken met hoge frequentie:
+      - In het transactieoverzicht worden alle niet-geboekte en gevalideerde transacties opgenomen. Vervolgens worden verkooporders, verkoopfacturen, betalings- en kortingsjournalen en inkomsten-/uitgaventransacties gemaakt op basis van de door u geconfigureerde frequentie. U moet dit proces configureren met een hoge frequentie, zodat documenten worden gemaakt wanneer de transacties in Headquarters worden geüpload via de P-taak. Aangezien met het transactieoverzicht al verkooporders en verkoopfacturen worden gemaakt, is het niet echt nodig om de batchtaak **Voorraad boeken** te configureren. U kunt deze echter nog wel gebruiken om te voldoen aan de specifieke vereisten van uw bedrijf.  
+      
+     - Het financiële overzicht is ontworpen om aan het einde van de dag te worden gemaakt en ondersteunt alleen de afsluitingsmethode **Ploeg**. Dit overzicht wordt alleen gebruikt voor financiële afstemming en maakt alleen de journalen voor de verschillen tussen het getelde bedrag en het transactiebedrag voor de verschillende betalingsmethoden, samen met journalen voor andere contante transacties.   
 
-- Als u een transactieoverzicht wilt berekenen, voert u de taak **Transactieoverzichten in batch berekenen** uit (**Retail en commerce \> IT Retail en Commerce \> POS-boekingen \> Transactieoverzichten in batch berekenen**). Met deze taak worden alle niet-geboekte en gevalideerde transacties opgehaald en aan een nieuw transactieoverzicht toegevoegd.
-- Als u transactieoverzichten wilt boeken in een batch, voert u de taak **Transactieoverzichten in batch boeken** uit (**Retail en commerce \> IT Retail en Commerce \> POS-boekingen \> Transactieoverzichten in batch boeken**). Met deze taak wordt het boekingsproces uitgevoerd en worden verkooporders, verkoopfacturen, betalingsjournalen, kortingsjournalen en inkomsten-/uitgaventransacties gemaakt voor niet-geboekte overzichten die geen fouten bevatten. 
+3. Als u het transactieoverzicht wilt berekenen, gaat u naar **Retail en Commerce > IT Retail en Commerce > POS-boekingen > Transactieoverzichten in batch berekenen**. Als u het transactieoverzicht in batch wilt boeken, gaat u naar **Retail en Commerce > IT Retail en Commerce > POS-boekingen > Transactieoverzichten in batch boeken**.
 
-### <a name="financial-statements"></a>Financiële overzichten
+4. Als u het financiële overzicht wilt berekenen, gaat u naar **Retail en Commerce > IT Retail en Commerce > POS-boekingen > Financiële overzichten in batch berekenen**. Als u de financiële overzicht in batch wilt boeken, gaat u naar **Retail en Commerce > IT Retail en Commerce > POS-boekingen > Financiële overzichten in batch boeken**.
 
-De verwerking van financiële overzichten is bedoeld als een proces aan het einde van de dag. Dit type verwerking van overzichten ondersteunt alleen de **afsluitingsmethode voor ploegendiensten** en er worden alleen afgesloten ploegendiensten verwerkt. Overzichten zijn beperkt tot financiële afstemming. Hiermee worden alleen de journalen gemaakt voor de verschillen tussen het getelde bedrag en het transactiebedrag voor betalingsmethoden, samen met journalen voor andere transacties voor beheer van contant geld.
+> [!NOTE]
+> De menuopdrachten **Retail en Commerce > IT Retail en Commerce > POS-boekingen > Overzichten in batch berekenen** en **Retail en Commerce > IT Retail en Commerce > POS-boekingen > Overzichten in batch boeken** worden vervangen door deze nieuwe functie.
 
-Met financiële overzichten kunnen ook de volgende transacties worden beoordeeld: kascontroletransacties, betalingstransacties, bankstortingstransacties en kluisstortingstransacties. De pagina met de stortingsdetails is alleen zichtbaar wanneer een financieel overzicht wordt geselecteerd.
-
-![Een afbeelding van de sectie met de stortingsdetails van het boekingsoverzichtsformulier alleen wanneer een financieel overzicht wordt geselecteerd.](./media/Trickle-feed-posted-statements-transaction-view.png)
-
-Plan de begin- en eindtijden van de volgende taken in het financieel overzicht op basis van de verwachte einde van de dag:
-
-- Als u een financieel overzicht wilt berekenen, voert u de taak **Financiële overzichten in batch berekenen** uit (**Retail en commerce \> IT Retail en Commerce \> POS-boekingen \> Financiële overzichten in batch berekenen**). Met deze taak worden alle niet-geboekte financiële transacties verzameld en aan een nieuw financieel overzicht toegevoegd.
-- Als u financiële overzichten wilt boeken in een batch, voert u de taak **Financiële overzichten in batch boeken** uit (**Retail en commerce \> IT Retail en Commerce \> POS-boekingen \> Financiële overzichten in batch boeken**).
-
-### <a name="manually-create-statements"></a>Handmatig overzichten maken
-
-Typen transactie- en financiële overzichten kunnen ook handmatig worden gemaakt. 
-
-1. Ga naar **Retail en commerce \> Afzetkanalen \> Winkels** en selecteer **Overzichten**. 
-2. Selecteer **Nieuw** en selecteer vervolgens het type overzicht dat u wilt maken. De velden op de pagina **Overzichten** tonen gegevens die relevant zijn voor het geselecteerde overzichtstype, terwijl de acties onder **Overzichtsgroep** relevante acties laten zien.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+U kunt de typen van transactie- en financiële overzichten ook handmatig maken. Ga naar **Retail en Commerce > Afzetkanalen > Winkels** en klik op **Overzichten**. Klik op **Nieuw** en selecteer het type overzicht dat u wilt maken. De velden op de pagina **Overzichten** en de acties onder **Overzichtsgroep** op de pagina laten de relevante gegevens en acties zien op basis van het geselecteerde overzichtstype.

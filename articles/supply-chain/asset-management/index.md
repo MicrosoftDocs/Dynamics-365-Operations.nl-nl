@@ -1,12 +1,10 @@
 ---
 title: Overzicht van Activabeheer
 description: In dit onderwerp wordt de functionaliteit van Activabeheer in Dynamics 365 Supply Chain Management beschreven.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 07/24/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ff485e05b10b0d22d0fdac6d764cebb13507f391
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d780c7a52570e8e8dbd0c42c6d1aa8e41d2d4819
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018798"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809873"
 ---
 # <a name="asset-management-overview"></a>Overzicht van Activabeheer
 
@@ -37,3 +35,6 @@ De onderstaande afbeelding is een illustratie van de interfaces met andere modul
 ![Overzicht van de integratie van Activabeheer](media/overview-integrate2.jpg)
 
 Met Activabeheer kunt u taken met betrekking tot het beheren en onderhouden van vele soorten apparatuur in uw bedrijf efficiënt beheren en uitvoeren, bijvoorbeeld machines, productieapparatuur en voertuigen. Activabeheer ondersteunt oplossingen in tal van industrieën.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

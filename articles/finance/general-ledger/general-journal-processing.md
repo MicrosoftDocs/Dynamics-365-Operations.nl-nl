@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c067b7b6cbbcad4456df6037da8ab124776261e9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6f9f19f0714fc160792a29261e21fe4ec8d62c4b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442076"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249234"
 ---
 # <a name="general-journal-processing"></a>Algemene journaalverwerking
 
@@ -100,8 +99,11 @@ U kunt **Boeking simuleren** voor de meeste journalen vinden in het menu **Valid
 ## <a name="journal-unlock"></a>Journaal ontgrendelen
 Op de journaalpagina is een knop beschikbaar om een journaal te ontgrendelen waarvan de status 'Vergrendeld door systeem' is ingesteld op Ja. Deze ontgrendeling kan worden uitgevoerd door een systeembeheerder die eventuele batchtaken heeft geanalyseerd en bevestigd dat het journaal niet meer actief wordt verwerkt door een batchtaak. Deze knop wordt ingeschakeld door de functie **Knop Journaal ontgrendelen** op de pagina **Functiebeheer** . 
 
-## <a name="workflow-recall"></a>Werkstroom terugroepen 
+## <a name="workflow-recall"></a>Werkstroom intrekken 
 De mogelijkheid om een journaal in een werkstroom met de status 'Onherstelbaar' terug te roepen, wordt ingeschakeld via de knop **Workflow** in een journaal en op de pagina **Workflowhistorie**. Deze wordt ingeschakeld door de functie **De workflowstatus voor journalen opnieuw instellen** op de pagina **Functiebeheer**.
 
 ## <a name="delete-journal-lines"></a>Journaalregels verwijderen
 De mogelijkheid om alle journaalregels snel te verwijderen, is in een journaal ingeschakeld onder **Functies** > **Journaalregels verwijderen**. Als u deze functie wilt inschakelen, selecteert u op de pagina **Functiebeheer** de optie **Prestatie-optimalisaties van journaal verwijderen**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

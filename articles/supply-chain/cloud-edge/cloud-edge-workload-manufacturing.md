@@ -2,11 +2,9 @@
 title: Productie-uitvoeringsworkloads voor cloud- en edge-schaaleenheden
 description: In dit onderwerp wordt beschreven hoe productie-uitvoeringsworkloads werken met cloud- en edge-schaaleenheden.
 author: cabeln
-manager: ''
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,22 +16,25 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 08c46655d3966ad1433935318c5e60667dd10bb6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 633740ee1e26d2e4ed2ea7031ef298fb11c2ab58
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967755"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068839"
 ---
-# <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Productie-uitvoeringsworkloads voor cloud- en edge-schaaleenheden
+# <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Werkbelasting voor productie-uitvoering voor cloud- en randschaaleenheden
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-> [!WARNING]
+> [!IMPORTANT]
+> De workload voor productie-uitvoering is momenteel alleen beschikbaar in preview.
+>
 > Sommige bedrijfsfuncties worden niet volledig ondersteund in de openbare preview wanneer workloadschaaleenheden worden gebruikt.
+>
+> U kunt de preview-workload voor productie-uitvoering niet voor een schaaleenheid uitvoeren waarbij de workload voor productie-uitvoering ook is geïnstalleerd.
 
-Bij productie-uitvoering leveren cloud- en edge-schaaleenheden de volgende mogelijkheden, zelfs wanneer edge-eenheden niet zijn verbonden met de hub:
+In de productie-uitvoering leveren schaaleenheden de volgende mogelijkheden:
 
 - Machineoperators en werkvloersupervisors kunnen toegang krijgen tot het operationele productieplan.
 - Machineoperators kunnen het plan up-to-date houden door afzonderlijke en procesproductietaken uit te voeren.
@@ -46,7 +47,7 @@ In dit onderwerp wordt beschreven hoe productie-uitvoeringsworkloads werken met 
 
 Zoals in de volgende afbeelding wordt weergegeven, is de productielevenscyclus onderverdeeld in drie fasen: *Plannen*, *Uitvoeren* en *Voltooien*.
 
-[![Productie-uitvoeringsfasen wanneer één omgeving wordt gebruikt](media/mes-phases.png "Productie-uitvoeringsfasen wanneer één omgeving wordt gebruikt")](media/mes-phases-large.png)
+[![Productie-uitvoeringsfasen wanneer één omgeving wordt gebruikt](media/mes-phases.png "Productie-uitvoeringsfasen wanneer er één omgeving wordt gebruikt.")](media/mes-phases-large.png)
 
 De _planfase_ omvat productdefinitie, planning, het maken en plannen van orders en vrijgave. De vrijgavestap geeft de overgang van de _planfase_ naar de _uitvoeringsfase_ aan. Wanneer een productieorder wordt vrijgegeven, worden de productieordertaken weergegeven op de productievloer en zijn ze klaar voor uitvoering.
 
@@ -56,7 +57,7 @@ Wanneer een productietaak is gemarkeerd als voltooid, wordt deze verplaatst van 
 
 Zoals u in de volgende afbeelding kunt zien, wordt de _uitvoeringsfase_ een afzonderlijke workload opgesplitst wanneer er schaaleenheden worden gebruikt.
 
-[![Productie-uitvoeringsfasen wanneer er schaaleenheden worden gebruikt](media/mes-phases-workloads.png "Productie-uitvoeringsfasen wanneer er schaaleenheden worden gebruikt")](media/mes-phases-workloads-large.png)
+[![Productie-uitvoeringsfasen wanneer er schaaleenheden worden gebruikt](media/mes-phases-workloads.png "Productie-uitvoeringsfasen wanneer er schaaleenheden worden gebruikt.")](media/mes-phases-workloads-large.png)
 
 Het model gaat nu van een installatie met één exemplaar naar een model dat is gebaseerd op hub en schaaleenheden. De _planfase_ en _voltooiingsfase_ worden uitgevoerd als back-upbewerkingen op de hub en de productie-uitvoeringsworkload wordt uitgevoerd op de schaaleenheden. Gegevens worden asynchroon overgebracht tussen de hub en schaaleenheden.
 
@@ -73,6 +74,7 @@ De volgende productie-uitvoeringstaken kunnen momenteel worden uitgevoerd op wor
 - Uitval rapporteren
 - Indirecte activiteit
 - Pauze
+- Gereedmelden en wegzetten (vereist dat u ook de werkbelasting van de magazijnuitvoering op uw schaaleenheid uitvoert, zie ook [Gereedmelden en wegzetten in een schaaleenheid](#RAF))
 
 ## <a name="working-with-manufacturing-execution-workloads-on-the-hub"></a>Werken met productie-uitvoeringsworkloads op de hub
 
@@ -88,7 +90,7 @@ Hoewel de taak normaal gesproken automatisch wordt uitgevoerd, kunt u deze op el
 
 Als u het registratieverwerkingslogbestand wilt bekijken, meldt u zich aan bij de hub en gaat u naar **Productiecontrole \> Periodieke taken \> Backoffice workloadbeheer \> Logbestand onbewerkte registratieverwerking**. Op de pagina **Logbestand voor onbewerkte registratieverwerking** wordt een lijst met verwerkte onbewerkte registraties en de status van elke registratie weergegeven.
 
-![De pagina Logbestand voor onbewerkte registratieverwerking](media/mes-processing-log.png "De pagina Logbestand voor onbewerkte registratieverwerking")
+![De pagina Logbestand voor onbewerkte registratieverwerking.](media/mes-processing-log.png "De pagina Logbestand voor onbewerkte registratieverwerking")
 
 U kunt aan elke registratie in de lijst werken door deze te selecteren en vervolgens een van de volgende knoppen in het actiedeelvenster te selecteren:
 
@@ -109,3 +111,43 @@ Als u de geschiedenis wilt weergeven van de productietaken die op een schaaleenh
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>De taak Berichtverwerker productiehub naar schaaleenheid
 
 De taak _Berichtverwerker productiehub naar schaaleenheid_ verwerkt gegevens van de hub naar de schaaleenheid. Deze taak wordt automatisch gestart wanneer de productie-uitvoeringsworkload wordt geïmplementeerd. U kunt dit echter op elk gewenst moment handmatig uitvoeren door naar **Productiecontrole \> Periodieke taken \> Backoffice workloadbeheer \> Berichtverwerker productiehub naar schaaleenheid** te gaan.
+
+<a name="RAF"></a>
+
+## <a name="report-as-finished-and-putaway-on-a-scale-unit"></a>Gereedmelden en wegzetten in een schaaleenheid
+
+<!-- KFM: 
+This section describes how to enable the abilities to report as finished and then putaway finished items when you are using to a scale unit.
+
+### Enable and use report as finished and putaway on a scale unit -->
+
+In de huidige versie worden de bewerkingen voor gereedmelden en wegzetten (voor eindproducten, coproducten en bijproducten) ondersteund door de [werkbelasting voor magazijnuitvoering](cloud-edge-workload-warehousing.md) (niet door de werkbelasting van de productie-uitvoering). Als u deze functionaliteit wilt gebruiken wanneer deze is gekoppeld aan een schaaleenheid, moet u daarom het volgende doen:
+
+- Installeer zowel de werkbelasting voor magazijnuitvoering als de werkbelasting voor de productie-uitvoering in uw schaaleenheid.
+- Gebruik de mobiele app Warehouse Management om gereed te melden en het wegzetwerk te verwerken. Deze processen worden momenteel niet ondersteund in de uitvoeringsinterface voor de productievloer.
+
+<!-- KFM: API details needed
+
+### Customize report as finished and putaway functionality
+
+ -->
+
+## <a name="enable-and-use-the-start-operation-on-a-scale-unit"></a>De startbewerking voor een schaaleenheid inschakelen en gebruiken
+
+In de huidige versie wordt de startbewerking voor productie- en batchorders ondersteund door de [workload voor magazijnuitvoering](cloud-edge-workload-warehousing.md) (niet door de workload voor productie-uitvoering). Als u deze functionaliteit wilt gebruiken wanneer u bent verbonden met een schaaleenheid, moet u daarom de volgende taken uitvoeren:
+
+- Installeer zowel de werkbelasting voor magazijnuitvoering als de werkbelasting voor de productie-uitvoering in uw schaaleenheid.
+- Schakel de functie *Productieorder beginnen voor workload voor magazijnbeheer voor de cloud- en randschaaleenheid* in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in.
+- Gebruik de mobiele app Warehouse Management om de productie- of batchorder te starten.
+
+## <a name="enable-and-use-material-consumption-on-a-scale-unit"></a>Materiaalverbruik voor een schaaleenheid inschakelen en gebruiken
+
+In de huidige versie wordt de stroom in de mobiele app Warehouse Management voor het registreren van materiaalverbruik ondersteund door de [workload voor magazijnuitvoering](cloud-edge-workload-warehousing.md) (niet door de workload voor productie-uitvoering). Als u deze functionaliteit wilt gebruiken wanneer u bent verbonden met een schaaleenheid, moet u daarom de volgende taken uitvoeren:
+
+- Installeer zowel de werkbelasting voor magazijnuitvoering als de werkbelasting voor de productie-uitvoering in uw schaaleenheid.
+- Schakel de functie *Materiaalverbruik op de mobiele app voor een schaaleenheid registreren* in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in.
+- Gebruik de mobiele app Warehouse Management om materiaalverbruik te registreren.
+
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,28 +2,25 @@
 title: Leveranciersbetalingen voor een gedeeltelijk bedrag
 description: Soms wilt u een leverancier minder betalen dan het bedrag van een factuur. In dit artikel worden de verschillende opties beschreven om deze situatie te dekken.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14321
 ms.assetid: 9a17075e-5325-4d55-a1e5-1791b8c460a0
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89e025977a0dcd40e35f17448a7b0ebde08cb6c8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a46ebb841b4abe6aa5bd8b06966f4197b27aeaee
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441797"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841208"
 ---
 # <a name="vendor-payments-for-a-partial-amount"></a>Leveranciersbetalingen voor een gedeeltelijk bedrag
 
@@ -54,3 +51,6 @@ U voert misschien een gedeeltelijke betaling uit, waarbij het bedrag dat nog moe
 
 
 Zie [Overzicht van leveranciersbetaling](../cash-bank-management/tasks/vendor-payment-overview.md) voor meer informatie.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

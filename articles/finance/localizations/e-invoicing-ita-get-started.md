@@ -9,20 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-- "97423"
-- intro-internal
+ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c0197ff9d93833aa50fef56ec597fa0c904d792d
-ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.openlocfilehash: 140977a6eac145f35870d3516a4b0d0c794afe4b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8313639"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894772"
 ---
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>Aan de slag met Elektronische facturering voor Italië
 
@@ -61,7 +59,7 @@ Tijdens de RCS-instelling voert u de volgende taken uit:
 
 4. Selecteer de functie **E-facturen exporteren (IT)** en selecteer **Importeren**.
 
-![De functie E-facturen importeren (IT) exporteren.](media/e-Invoicing-services-get-started-ITA-Select-Import-e-Invoicing-feature.png)
+![De functie E-facturen importeren (IT) exporteren](media/e-Invoicing-services-get-started-ITA-Select-Import-e-Invoicing-feature.png)
 
 Wanneer u de functie **E-facturen exporteren (IT)** uit de algemene opslagplaats importeert, worden alle instellingen die in de volgende secties worden beschreven, ook geïmporteerd.
 
@@ -69,13 +67,13 @@ Wanneer u de functie **E-facturen exporteren (IT)** uit de algemene opslagplaats
 
 1. Selecteer op de pagina **Functies voor e-Facturering** op het tabblad **Versies** de optie **Nieuw**. 
 
-    ![Een nieuwe versie van de functie e-Facturering toevoegen.](media/e-Invoicing-services-get-started-ITA-Select-New-e-Invoicing-feature-version.png)
+    ![Een nieuwe versie van de functie e-Facturering toevoegen](media/e-Invoicing-services-get-started-ITA-Select-New-e-Invoicing-feature-version.png)
 
     Hierna configureert u de indelingen voor elektronische rapportage (ER) die aan de functie e-Facturering zijn gekoppeld.
 
 2. Selecteer op het tabblad **Configuraties** de optie **Toevoegen** om de configuratieversies te beheren.
 
-    ![Configuratieversies voor de functie e-Facturering beheren.](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-configurations.png)
+    ![Configuratieversies voor de functie e-Facturering beheren](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-configurations.png)
 
     In deze stap voegt u de ER-indelingen toe voor verschillende bestanden die worden gebruikt voor het exporteren van Italiaanse e-facturen. Voor Italiaanse FatturaPA e-facturen gebruikt u de volgende standaardconfiguraties of de feitelijke aangepaste configuraties die u gebruikt voor e-facturering:
 
@@ -87,17 +85,17 @@ Wanneer u de functie **E-facturen exporteren (IT)** uit de algemene opslagplaats
 3. Selecteer een specifieke configuratie voor bestanden met een ER-indeling.
 4. Selecteer **Bewerken** of **Weergeven** om de pagina **Indelingsontwerper** te openen.
 
-    ![De pagina Indelingsontwerper openen.](media/e-Invoicing-services-get-started-ITA-Configuration-ER-format-designer.png)
+    ![De pagina Indelingsontwerper openen](media/e-Invoicing-services-get-started-ITA-Configuration-ER-format-designer.png)
 
 5. Gebruik de pagina **Indelingsontwerper** om de configuratie van bestanden met een ER-indeling te bewerken en weer te geven.
 
-    ![Pagina Indelingsontwerper.](media/e-Invoicing-services-get-started-ITA-ER-format-designer.png)
+    ![Pagina Indelingsontwerper](media/e-Invoicing-services-get-started-ITA-ER-format-designer.png)
 
 ## <a name="manage-the-e-invoicing-feature-setups"></a>De instellingen voor de functie e-Facturering beheren
 
 - Selecteer op de pagina **Functies voor e-Facturering** op het tabblad **Instellingen** de optie **Toevoegen**, **Verwijderen** of **Bewerken** om de instellingen van de functie e-Facturering te beheren.
 
-![De instellingen voor de functie e-Facturering beheren.](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-setup.png)
+![De instellingen voor de functie e-Facturering beheren](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-setup.png)
 
 In deze stap configureert u de gebeurtenissen die van toepassing zijn op elektronische facturen, waaronder het genereren van de XML-uitvoerbestanden in **FatturaPA**-indeling en digitale handtekening (indien nodig).
 
@@ -107,7 +105,7 @@ In deze stap configureert u de gebeurtenissen die van toepassing zijn op elektro
 2. Selecteer **Bewerken**.
 3. Selecteer op de pagina **Instellingen functieversie** het tabblad **Acties** om de lijst met acties te beheren. Met acties kunt u een lijst met bewerkingen definiëren die na elkaar moeten worden uitgevoerd om de gebeurtenis volledig uit te voeren.
 
-    ![Tabblad Acties.](media/e-Invoicing-services-get-started-ITA-Select-Actions.png)
+    ![Tabblad Acties](media/e-Invoicing-services-get-started-ITA-Select-Actions.png)
 
     | Actie-ID | Naam actie        | Omschrijving van de actie                                     |
     |-----------|--------------------|--------------------------------------------------------|
@@ -116,11 +114,11 @@ In deze stap configureert u de gebeurtenissen die van toepassing zijn op elektro
 
 4. Selecteer het tabblad **Toepasbaarheidsregels** om de toepasbaarheidsregels weer te geven en te onderhouden. Regels voor toepasbaarheid definiëren de context waarin de actie wordt uitgevoerd.
 
-    ![Tabblad Toepasbaarheidsregels.](media/e-Invoicing-services-get-started-ITA-Select-Applicability-rules.png)
+    ![Tabblad Toepasbaarheidsregels](media/e-Invoicing-services-get-started-ITA-Select-Applicability-rules.png)
 
 5. Selecteer het tabblad **Variabelen** om de variabelen weer te geven en te onderhouden.
 
-    ![Tabblad Variabelen.](media/e-Invoicing-services-get-started-ITA-Select-Variables.png)
+    ![Tabblad Variabelen](media/e-Invoicing-services-get-started-ITA-Select-Variables.png)
 
 6. De openbare variabelen definiëren die vereist zijn om de acties uit te voeren.
 
@@ -135,7 +133,7 @@ De stappen en instellingen die nodig zijn om de instelling van de functie **Proj
 3. Selecteer in het veld **Geldig vanaf** de ingangsdatum van de omgeving.
 4. Selecteer **Inschakelen**. 
 
-![De omgeving voor e-Facturering inschakelen.](media/e-Invoicing-services-get-started-ITA-Enable-e-Invoicing-environment.png)
+![De omgeving voor e-Facturering inschakelen](media/e-Invoicing-services-get-started-ITA-Enable-e-Invoicing-environment.png)
 
 ## <a name="publish-the-e-invoicing-feature"></a>De functie e-Facturering publiceren
 
@@ -151,7 +149,7 @@ U kunt de functie e-Facturering publiceren door de versiestatus te wijzigen in *
 1. Selecteer op de pagina **Functies voor e-Facturering** op het tabblad **Versies** de versie van de functie e-Facturering met de status **Voltooid**.
 2. Selecteer **Status wijzigen \> Publiceren**.
 
-![De status van de functie e-Facturering wijzigen.](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
+![De status van de functie e-Facturering wijzigen](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
 
 ## <a name="set-up-electronic-invoicing-integration-in-finance"></a>Integratie van Elektronisch factureren instellen in Finance
 
@@ -172,7 +170,7 @@ Tijdens de instelling van Finance voert u de volgende taken uit:
 1. Ga naar **Organisatiebeheer \> Instellen \> Parameters voor elektronische documenten**.
 2. Schakel op het tabblad **Functies** het selectievakje **Ingeschakeld** in bij de rij voor functiereferentie **IT00036**.
 
-![De functie FatturaPA inschakelen.](media/e-Invoicing-services-get-started-ITA-Enable-FatturaPA-feature.png)
+![De functie FatturaPA inschakelen](media/e-Invoicing-services-get-started-ITA-Enable-FatturaPA-feature.png)
 
 #### <a name="configure-electronic-documents"></a>Elektronische documenten configureren
 
@@ -187,7 +185,7 @@ Tijdens de instelling van Finance voert u de volgende taken uit:
     - Selecteer voor **Klantfactuurjournaal** de optie **Klantfactuurcontext**.
     - Selecteer voor **Projectfactuur** de optie **Projectfactuurcontext**.
 
-![Responstypen instellen.](media/e-Invoicing-services-get-started-ITA-Set-up-response-types.png)
+![Responstypen instellen](media/e-Invoicing-services-get-started-ITA-Set-up-response-types.png)
 
 ## <a name="electronic-invoice-processing"></a>Verwerking van elektronische facturen
 
@@ -209,13 +207,13 @@ U kunt de documenten handmatig indienen op basis van uw behoefte aan e-factuurdo
 2. Als u een document voor het eerst indient, moet u de optie **Documenten opnieuw indienen** op **Nee** instellen. Stel deze optie in op **Ja** als u een document opnieuw moet indienen via de service.
 3. Selecteer op het sneltabblad **Op te nemen records** de optie **Filter** om het dialoogvenster **Query** te openen. Hier kunt u een query samenstellen om documenten te selecteren die u wilt indienen.
 
-![Het dialoogvenster Elektronische documenten indienen.](media/e-Invoicing-services-get-started-ITA-Submission-form.png)
+![Het dialoogvenster Elektronische documenten indienen](media/e-Invoicing-services-get-started-ITA-Submission-form.png)
 
 #### <a name="filter-query"></a>Filterquery
 
 1. Configureer in het dialoogvenster **Query** de filtervoorwaarden voor verkoop- en projectfacturen of laat de voorwaarden leeg om alle ingediende facturen mee te nemen.
 
-    ![Filtercriteria voor indienen instellen.](media/e-Invoicing-services-get-started-ITA-Set-up-Submission-filter-criteria.png)
+    ![Filtercriteria voor indienen instellen](media/e-Invoicing-services-get-started-ITA-Set-up-Submission-filter-criteria.png)
 
 2. Selecteer **OK** om het dialoogvenster **Query** te sluiten.
 3. Klik op **OK** om de geselecteerde documenten in te dienen.
@@ -229,13 +227,13 @@ U kunt de indieningslogboeken voor alle ingediende documenten weergeven.
 1. Ga naar **Organisatiebeheer \> Periodiek \> Elektronische documenten \> Indieningslogboek voor elektronische documenten**.
 2. Selecteer in het veld **Documenttype** de optie **Klantfactuurjournaal** of **Projectfactuur** om te filteren op de vereiste elektronische documenten.
 
-    ![Een documenttype selecteren om de indieningslogboeken weer te geven.](media/e-Invoicing-services-get-started-ITA-Select-Document-type-for-viewing-submission-log.png)
+    ![Een documenttype selecteren om de indieningslogboeken weer te geven](media/e-Invoicing-services-get-started-ITA-Select-Document-type-for-viewing-submission-log.png)
 
     De waarde die wordt weergegeven in de kolom **Indieningsstatus** staat voor de status van het indieningsproces. Hiermee wordt aangegeven of het proces volgens de configuratie is uitgevoerd en of er aanvullende actie vereist is.
 
 3. Selecteer in het actievenster **Query's \> Details van indiening** om de details van de uitvoeringslogboeken van indieningen weer te geven.
 
-    ![Details van indieningslogboeken weergeven.](media/e-Invoicing-services-get-started-ITA-View-Submission-log-details.png)
+    ![Details van indieningslogboeken weergeven](media/e-Invoicing-services-get-started-ITA-View-Submission-log-details.png)
 
 4. Op het sneltabblad **Verwerkingsacties** kunt u het uitvoeringslogboek weergeven voor de acties die zijn geconfigureerd in de functieversie die is ingesteld in RCS. De kolom **Status** geeft aan of de actie met goed gevolg is uitgevoerd.
 5. Op het sneltabblad **Actiebestanden** kunt u de tussenliggende bestanden weergeven die zijn gegenereerd tijdens de uitvoering van de acties. U kunt **Weergeven** selecteren om het uitvoer-XML-bestand in **FatturaPA**-indeling te downloaden en de inhoud weer te geven.

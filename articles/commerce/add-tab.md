@@ -2,15 +2,12 @@
 title: Tabbladmodule
 description: In dit onderwerp wordt beschreven wat tabbladmodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c9d897113442f14b95539efb9fec9482be96447a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e7d2cd7b7ce9446d77eff66433739c8ea6b1f309
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411321"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348291"
 ---
 # <a name="tab-module"></a>Tabbladmodule
 
@@ -31,21 +28,19 @@ ms.locfileid: "4411321"
 
 In dit onderwerp wordt beschreven wat tabbladmodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Overzicht
-
 Tabbladmodules zijn containerachtige modules die worden gebruikt om de informatie op een sitepagina in tabbladen te ordenen. Ze kunnen worden gebruikt op elke pagina waar informatie moet worden weergegeven op tabbladen.
 
 Aan elke tabbladmodule kunt u een of meer modules toevoegen. Elke tabbladitemmodule vertegenwoordigt één tabblad. In elke tabbladitemmodule kunnen een of meer modules worden toegevoegd. Er gelden geen beperkingen voor de typen modules die kunnen worden toegevoegd aan een tabbladitemmodule.
 
 De volgende afbeelding toont een voorbeeld van een tabbladmodule op een sitepagina. In dit voorbeeld is het tabblad **Verzending** geselecteerd.
 
-![Voorbeeld van een tabbladmodule](./media/ecommerce-tab.PNG)
+![Voorbeeld van een tabbladmodule.](./media/ecommerce-tab.PNG)
 
 ## <a name="tab-module-properties"></a>Eigenschappen van tabbladmodule
 
-| Naam van eigenschap. | Waarden | Omschrijving |
+| Naam van eigenschap. | Waarden | Beschrijving |
 |---------------|--------|-------------|
-| Kop | Tekst | Deze eigenschap geeft een optionele koptekst aan voor de tabbladmodule. |
+| Koptekst | Tekst | Deze eigenschap geeft een optionele koptekst aan voor de tabbladmodule. |
 | Actieve tabbladindex | Nummer | Met deze eigenschap wordt het tabblad aangegeven dat standaard actief moet zijn wanneer een pagina wordt geladen. Als er geen waarde wordt opgegeven, is het eerste tabbladitem standaard actief. |
 
 ## <a name="tab-item-module-properties"></a>Eigenschappen van tabbladitemmodule
@@ -84,3 +79,6 @@ Voer de volgende stappen uit om een tabbladmodule aan een nieuwe pagina toe te v
 [Accordeonmodule](add-accordion.md)
 
 [Text Block-module](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

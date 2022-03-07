@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 77284045bda193500117978102c0565c5f15ec6d
-ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
+ms.openlocfilehash: 987dca54e47b909014862e310aa424019d8c4677
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4411506"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207818"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Het delen van inhoud door meerdere kanalen inschakelen en gebruiken
 
@@ -137,3 +136,6 @@ Als u nu de basis-URL van het kanaal gebruikt en naar de URL van de pagina voor 
 [Statussen en levenscyclus van document](document-states-overview.md)
 
 [Werken met groepen publiceren](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

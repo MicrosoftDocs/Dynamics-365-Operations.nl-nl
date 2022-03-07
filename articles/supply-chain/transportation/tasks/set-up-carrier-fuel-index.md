@@ -1,25 +1,27 @@
 ---
 title: Brandstofindex van een vervoerder instellen
 description: Deze guide laat zien hoe een regio voor de brandstofindex, een brandstofindex en een index van de vervoerder kan worden gemaakt.
-author: Henrikan
+author: ShylaThompson
+manager: tfehr
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSFuelIndexRegion,TMSCarrierFuelIndexTable,TMSFuelIndex
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b67219a6cb19b393dce25f77febc194c5ea2a16
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 772468fa73e18a02331f877a375a5bd089ece6be
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576251"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004922"
 ---
 # <a name="set-up-a-carrier-fuel-index"></a>Brandstofindex van een vervoerder instellen
 
@@ -64,6 +66,3 @@ Deze guide laat zien hoe een regio voor de brandstofindex, een brandstofindex en
 12. Klik in de lijst op de koppeling in de geselecteerde rij.
 13. Klik op Opslaan.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,35 +1,32 @@
 ---
 title: Degressieve afschrijving van 200 procent
-description: Dit artikel geeft een overzicht van de afschrijvingsmethode Degressieve afschrijving van 200 procent.
-author: saraschi2
-manager: AnnBe
+description: Dit onderwerp biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving van 200 procent.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13951
 ms.assetid: 69b4e010-7683-4dc2-8a06-6d572f37e903
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0474a8cecccaf1e23874458c27e0bea991140b6c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 52a199489ffe42bc7b2d21e85b18dcd0bf35c165
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442009"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883488"
 ---
 # <a name="200-percent-reducing-balance-depreciation"></a>Degressieve afschrijving van 200 procent
 
 [!include [banner](../includes/banner.md)]
 
-Dit artikel geeft een overzicht van de afschrijvingsmethode Degressieve afschrijving van 200 procent.
+Dit onderwerp biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving van 200 procent.
 
 Wanneer u een profiel voor de afschrijving van vaste activa instelt en **200% degressief** selecteert in het veld **Methode** op de pagina **Afschrijvingsprofielen**, worden de vaste activa waaraan dit afschrijvingsprofiel is toegewezen, afgeschreven met hetzelfde percentage in elke afschrijvingsperiode. Het percentage wordt berekend aan de hand van de levensduur van het activum. Als een activum een levensduur van bijvoorbeeld vijf jaar heeft, wordt het percentage berekend als 40 procent (200% ÷ 5). 
 
@@ -69,7 +66,7 @@ Als **Fiscaal** als afschrijvingsjaar wordt geselecteerd, zijn de volgende optie
 
 ## <a name="example-of-200-reducing-balance-depreciation"></a>Voorbeeld van een 200% degressieve afschrijving
 
-|                                |        |
+| &nbsp;                         | &nbsp; |
 |--------------------------------|--------|
 | Bijboekingskosten               | 11.000 |
 | Restwaarde                  | 1.000 |
@@ -77,16 +74,19 @@ Als **Fiscaal** als afschrijvingsjaar wordt geselecteerd, zijn de volgende optie
 | Levensduur in jaren             | 5      |
 | Jaarlijks afschrijvingspercentage | 40%    |
 
-Bij de methode 200% degressieve afschrijvingsmethode, wordt 200 procent door het aantal jaren levensduur gedeeld. Dat percentage wordt vermenigvuldigd met de nettoboekwaarde van de activa om het afschrijvingsbedrag voor het jaar te kunnen bepalen.
+Bij de methode 200% degressieve afschrijving wordt 200 procent door het aantal jaren levensduur gedeeld. Dat percentage wordt vermenigvuldigd met de nettoboekwaarde van de activa om het afschrijvingsbedrag voor het jaar te kunnen bepalen.
 
 | Periode | Berekening van het jaarlijkse afschrijvingsbedrag | Boekwaarde             | Nettoboekwaarde aan het einde van het jaar |
 |--------|-----------------------------------------------|------------------------|---------------------------------------|
-| Jaar 1 | (11.000 – 1.000) × 40% = 4.000                | 11.000 – 4.000 = 7.000 | 11.000 – 1.000 – 4.000 = 6.000        |
-| Jaar 2 | 6.000 × 40% = 2.400                           | 7.000 – 2.400 = 4.600  | 6.000 – 2.400 = 3.600                 |
-| Jaar 3 | 3.600 × 40% = 1.440                           | 4.600 – 1.440 = 3.160  | 3.600 – 1.440 = 2.160                 |
+| Jaar 1 | (11.000 – 1000) × 40% = 4000                | 11.000 – 4000 = 7000 | 11.000 – 1000 – 4000 = 6000        |
+| Jaar 2 | 6000 × 40% = 2400                           | 7000 – 2400 = 4600  | 6000 – 2400 = 3600                 |
+| Jaar 3 | 3600 × 40% = 1440                           | 4600 – 1440 = 3160  | 3600 – 1440 = 2160                 |
 
 > [!NOTE] 
 > Wanneer het bedrag dat wordt berekend met de methode voor 200% degressieve afschrijving lager is dan het bedrag dat wordt berekend door de lineaire methode te gebruiken, vindt er doorgaans een conversie naar de lineaire methode plaats voor de resterende levensduur.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

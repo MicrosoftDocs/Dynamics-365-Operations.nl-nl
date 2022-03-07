@@ -1,27 +1,25 @@
 ---
 title: Mobiel werkgebied Leverancierssamenwerking
 description: In dit onderwerp vindt u informatie over het mobiele werkgebied Leverancierssamenwerking. Met dit werkgebied kunnen uw leveranciers op de hoogte blijven van de inkooporders die aan hen zijn verzonden voor goedkeuring. Ze zien hier ook informatie over nieuwe en bijgewerkte inkooporders en contactpersonen.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
-ms.author: riluan
+ms.author: dabourq
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 5cd8a2b2db7147aca6bdc29ba15d99a619ddb4f8
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 8f6affd05e658f39d567f7512c71d944636588ff
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020831"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907934"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Mobiel werkgebied Leverancierssamenwerking
 
@@ -59,7 +57,7 @@ In het werkgebied **Leverancierssamenwerking** kan een leverancier deze taken ui
 De vereisten verschillen, afhankelijk van de versie van Microsoft Dynamics 365 die voor uw organisatie is geïmplementeerd.
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>Vereisten als u Supply Chain Management gebruikt
-Als Supply Chain Management is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Leverancierssamenwerking** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Als Supply Chain Management is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Leverancierssamenwerking** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Vereisten als u versie Microsoft Dynamics 365 for Operations 1611 met platformupdate 3 of hoger gebruikt
 Als Microsoft Dynamics 365 for Operations versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder de volgende vereisten uitvoeren. 
@@ -79,7 +77,7 @@ Als Microsoft Dynamics 365 for Operations versie 1611, met platformupdate 3 of h
 <td>KB 3216943 is een binaire update die is vereist als u platformupdate 3 gebruikt. Uw systeembeheerder moet de volgende stappen uitvoeren voor het implementeren van deze KB.
 <ol>
 <li>Download KB 3216943 uit Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li>De binaire update installeren, die als een implementeerbaar pakket is geleverd. Zie voor informatie over het toepassen van een implementeerbaar pakket <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Een implementeerbaar pakket toepassen</a>.</li>
+<li>De binaire update installeren, die als een implementeerbaar pakket is geleverd. Zie voor informatie over het toepassen van een implementeerbaar pakket <a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Een implementeerbaar pakket toepassen</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -87,14 +85,14 @@ Als Microsoft Dynamics 365 for Operations versie 1611, met platformupdate 3 of h
 <td>Systeembeheerder</td>
 <td>KB 4013633 is een X++-update of metagegevenshotfix die het mobiele werkgebied <strong>Voorhanden voorraad</strong> bevat. Uw systeembeheerder moet de volgende stappen uitvoeren voor het implementeren van KB 4013633.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">De metagegevens-hotfix downloaden vanuit LCS</a>.</li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">De metagegevenshotfix installeren</a>.</li><li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Een implementeerbaar pakket maken</a> dat de ApplicationSuite en <strong>SCMMobile</strong>-modellen bevat en het implementeerbare pakket vervolgens uploaden naar LCS.</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Het implementeerbare pakket toepassen</a></li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">De metagegevens-hotfix downloaden vanuit LCS</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">De metagegevenshotfix installeren</a>.</li><li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Een implementeerbaar pakket maken</a> dat de ApplicationSuite en <strong>SCMMobile</strong>-modellen bevat en het implementeerbare pakket vervolgens uploaden naar LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Het implementeerbare pakket toepassen</a></li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Het mobiele werkgebied <strong>Leverancierssamenwerking</strong> moet worden gepubliceerd.</td><td>Systeembeheerder</td>
-<td>Zie <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Mobiel werkgebied publiceren</a>.</td>
+<td>Zie <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiel werkgebied publiceren</a>.</td>
 </tr>
 <tr class="even">
 <td>De leveranciersgebruiker moet toegang hebben tot de webinterface voor leverancierssamenwerking in de webclient en een gebruiker voor leverancierssamenwerking instellen.</td><td>Inkopers en de systeembeheerder</td>
@@ -169,3 +167,6 @@ Alle wijzigingen die zijn aangebracht in de orderregelreactie worden hier weerge
 
 ### <a name="open-confirmed-orders"></a>Openstaande bevestigde orders
 Wanneer de inkooporder is bevestigd door de klant (wat inhoudt dat de inkooporder is gewijzigd naar de status **Bevestigd**) wordt hij weergegeven als openstaande bevestigde order. Hij blijft in de lijst staan, totdat hij wordt geregistreerd als ontvangen door de klant.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

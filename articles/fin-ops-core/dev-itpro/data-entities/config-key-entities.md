@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 05/10/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: e6145a2f6925932361851735df55374dda8ca03d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 383b8664b7e8cc063b980c52997ddf273d363033
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679375"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569168"
 ---
 # <a name="configuration-keys-and-data-entities"></a>Configuratiesleutels en gegevensentiteiten
 
@@ -94,3 +93,6 @@ Met de configuratiesleutelmetagegevens die worden gemaakt tijdens het vernieuwen
 Elke keer dat u configuratiesleutels bijwerkt op entiteit-, tabel- of veldniveau, moet de entiteitslijst in het gegevensbeheerframework worden vernieuwd. Dit proces zorgt ervoor dat het framework de meest recente configuratiesleutelinstellingen gebruikt. Totdat de entiteitslijst is vernieuwd, wordt de volgende waarschuwing weergegeven op de entiteitslijstpagina. De bijgewerkte configuratiesleutelwijzigingen gaan direct in nadat de entiteitslijst is vernieuwd. Het wordt aangeraden om bestaande gegevensprojecten en taken te valideren om zeker te weten dat ze werken zoals verwacht nadat de configuratiesleutelwijzigingen zijn ingegaan.
 
 ![Doelvelden](./media/Target_fields_3.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

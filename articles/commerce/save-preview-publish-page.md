@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: db4866b22060b764fdde3e4a44e99e969133c0a0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 68fec8c2ddc05c71394045351cef880361f2e306
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411469"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254812"
 ---
 # <a name="save-preview-and-publish-a-page"></a>Een pagina opslaan, voorvertonen en publiceren
 
@@ -100,3 +99,8 @@ Voer deze stappen uit om een URL te publiceren.
 [Een landingspagina voor een categorie verrijken](enrich-category-page.md)
 
 [Toegankelijkheid van pagina-inhoud controleren](verify-accessibility.md)
+
+[Dynamische e-commercepagina's maken op basis van URL-parameters](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,27 +2,26 @@
 title: Overzicht van functiebeheer
 description: Dit onderwerp bevat een beschrijving van de functie Functiebeheer en de manier waarop u deze kunt gebruiken.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: IT Pro, Application user
 ms.reviewer: sericks
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: a0f7391273e2374bdd136c5db47bcb65487e2a9c
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: e3cb0c637d47e3267cf63e956c8a7ea45d0623bd
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798347"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336711"
 ---
 # <a name="feature-management-overview"></a>Overzicht van Functiebeheer
 
@@ -142,7 +141,7 @@ Met Functiebeheer kunt u de functies beheren die in elke release worden geleverd
 
 ## <a name="new-features-are-optional-for-12-months"></a>Nieuwe functies zijn gedurende 12 maanden optioneel
 
-Wanneer een nieuwe niet-essentiële functie wordt geïnstalleerd, is deze optioneel gedurende een periode van twaalf maanden. Dit geeft u en uw organisatie tijd om te plannen voor het moment dat u een functie opneemt en deze te testen voor uw dagelijkse activiteiten. Meer informatie over dit onderwerp vindt u in [Veelgestelde vragen over updates van service met één versie](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-about-new-features).
+Wanneer een nieuwe niet-essentiële functie wordt geïnstalleerd, is deze optioneel gedurende een periode van twaalf maanden. Dit geeft u en uw organisatie tijd om te plannen voor het moment dat u een functie opneemt en deze te testen voor uw dagelijkse activiteiten. Meer informatie over dit onderwerp vindt u in [Veelgestelde vragen over updates van service met één versie](../one-version.md#what-about-new-features).
 
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Functiebeheer gebruiken om ISV-functies of aangepaste functies in te schakelen
 
@@ -162,8 +161,8 @@ Het beleid is dat alle nieuwe functies voor een periode van twaalf maanden in aa
 ### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Waarom is er geen specifieke verplichte datum voor inschakelen? 
 De timing van updateversies is variabel, timing van omgevingsupdates is variabel en klanten kunnen ervoor kiezen sommige updates over te slaan. Hierdoor zijn bepaalde datums moeilijk te bepalen. 
 
-### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Waar is de documentatie voor functies die verplicht worden gesteld? 
-Deze documentatie is afkomstig uit de toepassingsteams. Deze worden vaak vermeld in [Verwijderde of afgeschafte functies](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features). 
+### <a name="wheres-the-documentation-for-features-that-are-mandatory"></a>Waar is de documentatie voor functies die verplicht zijn? 
+Deze documentatie is afkomstig van elk Dynamics 365-toepassingsteam. Deze functies worden vaak genoemd in [statussen van updates voor clientfuncties](/dynamics365-release-plan/2021wave1/finance-operations/finance-operations-crossapp-capabilities/updates-client-feature-states) of [verwijderde of afgeschafte functies](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
 
 ### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Is er een melding of signaal in het product dat een functie verplicht wordt ingeschakeld? 
 Er bestaat op dit moment geen meldingsmechanisme voor het verplicht maken van een functie.
@@ -203,3 +202,6 @@ IFeatureLifecycle is een intern Microsoft-mechanisme voor het aangeven van de le
 - `PublicPreview` - wordt standaard weergegeven, maar met een waarschuwing dat het bij de functie nog om een voorbeeld gaat.
 - `Released` - volledig vrijgegeven.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

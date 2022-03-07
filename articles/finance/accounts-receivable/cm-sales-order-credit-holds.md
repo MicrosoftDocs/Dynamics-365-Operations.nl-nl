@@ -2,25 +2,22 @@
 title: Kredietblokkeringen voor verkooporders
 description: In dit onderwerp wordt beschreven hoe u regels instelt om een kredietblokkering voor een verkooporder op te geven.
 author: mikefalkner
-manager: AnnBe
 ms.date: 01/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 102ea4285407a4f4985cc8dd46ebc1ad21fc6f67
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d94b19061838f9bb2552c3c91c6b3591040ccf52
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441835"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827645"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Kredietblokkeringen voor verkooporders
 [!include [banner](../includes/banner.md)]
@@ -265,3 +262,6 @@ Verkooporders met een geforceerde blokkeringsreden kunnen niet automatisch worde
 Kredietbeheer kan momenteel alleen worden gebruikt voor verkooporders. Vrije-tekst facturen, POS-verkooporders en Callcenter-orders gebruiken de tijdelijke kredietlimieten en verzekering/garanties die u toevoegt om de kredietlimiet aan te passen. Ze maken geen gebruik van de blokkeringsregels en ze worden niet in de blokkeringslijst geplaatst als er een probleem is met de kredietlimiet.
 
 Er is geen ondersteuning voor projectfacturen in kredietbeheer.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

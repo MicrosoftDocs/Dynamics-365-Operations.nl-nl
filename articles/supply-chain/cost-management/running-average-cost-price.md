@@ -2,11 +2,9 @@
 title: Lopend gemiddelde kostprijs
 description: Met het proces voor het afsluiten van voorraden worden uitgiftetransacties vereffend met ontvangsttransacties op basis van de methode voor het waarderen van voorraden die in de artikelmodelgroep van het artikel is geselecteerd. Voordat de voorraadafsluiting wordt uitgevoerd, wordt echter een lopend gemiddelde kostprijs berekend die in de meeste gevallen wordt gebruikt voor het boeken van uitgiftetransacties.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup, InventOnhandItem, InventTrans
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 776f886fc0dfccf1b2675c9d54d44c16c6df4f09
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 75dfd2f23034bbd222e020b532027e60ef215241
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963758"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830259"
 ---
 # <a name="running-average-cost-price"></a>Lopend gemiddelde kostprijs
 
@@ -75,3 +73,6 @@ Houd er ook rekening mee dat de maximumtegenboeking in uw fysieke voorraadwaarde
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

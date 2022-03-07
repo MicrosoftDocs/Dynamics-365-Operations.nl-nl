@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 094b8876b3b10b6dcbc0ce399a1a9915271459ed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ee37bc38c1027e2b52e25b331f65be6f2f5edd98
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442102"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254054"
 ---
 # <a name="configure-settlement"></a>Vereffening configureren
 
@@ -67,3 +66,6 @@ Om de extra boekhoudingsposten te voorkomen, de debet en de credit naar dezelfde
 
 -   Organisaties gebruiken vaak vaste dimensies om een financiële dimensie die niet vereist is op nul in te stellen. Dit is meestal het geval voor balansrekeningen, zoals rekeningen van klanten/leveranciers. Rekeningstructuren kunnen worden gebruikt om financiële dimensies niet te traceren, die meestal met nullen worden gevuld.  U kunt de financiële dimensie voor de balansrekeningen verwijderen, waardoor geen vaste dimensie meer nodig is.
 -   Als uw organisatie vaste dimensies vereist voor de hoofdrekening van klanten/leveranciers, zoekt u een manier om de vaste dimensie standaard te maken voor de betaling, zodat de waarde van de vaste dimensie wordt opgeslagen in de leverancierstransactie voor de betaling. Hierdoor kan het systeem de hoofdrekening van klanten/leveranciers reconstrueren en de vaste-dimensiewaarden opnemen. De vaste-dimensiewaarde kan worden gedefinieerd als standaard voor leveranciers of de journaalnaam voor het betalingsjournaal.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

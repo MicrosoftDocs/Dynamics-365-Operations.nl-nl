@@ -1,70 +1,67 @@
 ---
 title: Degressieve afschrijving
-description: Dit artikel biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving.
-author: ShylaThompson
-manager: AnnBe
+description: Dit onderwerp biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving.
+author: moaamer
 ms.date: 04/25/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3281
 ms.assetid: 1b86763d-d47c-4a6a-a9a6-d97a736750da
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dd4a8726ca194de2e5d95128659f3b212eaace5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f734a0cedf6d9ee7967c3bbed0dfcf95cf33f1cd
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442020"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674620"
 ---
 # <a name="reduce-balance-depreciation"></a>Degressieve afschrijving
 
 [!include [banner](../includes/banner.md)]
 
-Dit artikel biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving.
+Dit onderwerp biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving.
 
-Wanneer u een profiel voor de afschrijving van vaste activa instelt en Degressieve afschrijving selecteert in het veld Methode op de pagina Afschrijvingsprofielen, worden de activa waaraan dit afschrijvingsprofiel is toegewezen, afgeschreven met hetzelfde percentage in elke afschrijvingsperiode.
+Wanneer u een profiel voor de afschrijving van vaste activa instelt en Degressieve afschrijving selecteert in het veld **Methode** op de pagina **Afschrijvingsprofielen**, worden de activa waaraan dit afschrijvingsprofiel is toegewezen, afgeschreven met hetzelfde percentage in elke afschrijvingsperiode.
 
-Om degressieve afschrijving in te stellen, moet u ook waarden selecteren in velden op het sneltabblad Algemeen van de pagina Afschrijvingsprofielen. Selecteer eerst een jaar in het veld Afschrijvingsjaar. In het veld Periodefrequentie worden verschillende opties weergegeven, afhankelijk van wat in het andere veld is geselecteerd (zie verderop). 
+Om degressieve afschrijving in te stellen, moet u ook waarden selecteren in velden op het sneltabblad **Algemeen** van de pagina **Afschrijvingsprofielen**. Selecteer eerst een jaar in het veld **Afschrijvingsjaar**. In het veld **Periodefrequentie** worden verschillende opties weergegeven, afhankelijk van wat in het andere veld is geselecteerd (zie verderop). 
 
-U dient ook een waarde in te voeren bij het veld Percentage voor het afschrijvingsprofiel. Als u de optie Volledige afschrijving selecteert, wordt de resterende afschrijvingsbasis gekozen in de laatste afschrijvingsperiode en is het mogelijk een grote hoeveelheid. Bepaalde landen/regio's gebruiken geen overschakeling naar een lineaire methode. Wanneer het bedrag van de alternatieve afschrijvingsmethode groter dan of gelijk aan is het bedrag van het primaire afschrijvingsprofiel, wordt overgeschakeld en wordt het bedrag van de alternatieve methode gebruikt als afschrijvingsbedrag. 
+U dient ook een waarde in te voeren bij het veld **Percentage** voor het afschrijvingsprofiel. Als u de optie **Volledige afschrijving** selecteert, wordt de resterende afschrijvingsbasis gekozen in de laatste afschrijvingsperiode en is het mogelijk een grote hoeveelheid. Bepaalde landen/regio's gebruiken geen overschakeling naar een lineaire methode. Wanneer het bedrag van de alternatieve afschrijvingsmethode groter dan of gelijk aan is het bedrag van het primaire afschrijvingsprofiel, wordt overgeschakeld en wordt het bedrag van de alternatieve methode gebruikt als afschrijvingsbedrag. 
 
-Aangezien een activum nooit volledig zal worden afgeschreven op basis van een berekening van het percentage, dient u de optie Volledige afschrijving te selecteren om een activum volledig af te schrijven.
+Aangezien een activum nooit volledig zal worden afgeschreven op basis van een berekening van het percentage, dient u de optie **Volledige afschrijving** te selecteren om een activum volledig af te schrijven.
 
 ## <a name="select-a-depreciation-year"></a>Een afschrijvingsjaar selecteren
-U kunt Kalender of Fiscaal selecteren in het veld Afschrijvingsjaar op de pagina Afschrijvingsprofielen. De selectie bepaalt welke opties beschikbaar zijn in het veld Periodefrequentie. De standaardoptie is Kalender.
+U kunt **Kalender** of **Fiscaal** selecteren in het veld **Afschrijvingsjaar** op de pagina **Afschrijvingsprofielen**. De selectie bepaalt welke opties beschikbaar zijn in het veld **Periodefrequentie**. De standaardoptie is **Kalender**.
 
 ### <a name="calendar"></a>Kalender
 
-Met de optie Kalender wordt de afschrijvingsbasis (doorgaans de nettoboekwaarde min de restwaarde) bijgewerkt op 1 januari van elk jaar. In het onderstaande voorbeeld van degressieve saldoafschrijving verder in dit onderwerp, is de afschrijvingsbasis de teller in de eerste uitdrukking in de kolom met berekeningen. 
+Met de optie **Kalender** wordt de afschrijvingsbasis (doorgaans de nettoboekwaarde min de restwaarde) bijgewerkt op 1 januari van elk jaar. In het onderstaande voorbeeld van degressieve saldoafschrijving verder in dit onderwerp, is de afschrijvingsbasis de teller in de eerste uitdrukking in de kolom met berekeningen. 
 
-Als u Kalender selecteert, zijn de volgende opties beschikbaar in het veld Periodefrequentie. Dit veld bepaalt voor het gehele kalenderjaar de boekdatums en bedragen voor de toerekening van de afschrijving:
+Als u **Kalender** selecteert, zijn de volgende opties beschikbaar in het veld **Periodefrequentie**. Dit veld bepaalt voor het gehele kalenderjaar de boekdatums en bedragen voor de toerekening van de afschrijving:
 
--   Jaarlijks boekt op 31 december.
--   Maandelijks: aan het einde van elke kalendermaand wordt een maandbedrag geboekt.
--   Driemaandelijks: aan het einde van elk kwartaal (31 maart, 30 juni, 30 september en 31 december) wordt een kwartaalbedrag geboekt.
--   Met Zesmaandelijks wordt aan het einde van elk half jaar (30 juni en 31 december) een halfjaarlijks bedrag geboekt.
--   Met Dagelijks wordt het afschrijvingsbedrag voor de dagelijkse afschrijvingsmethode geboekt met één transactie voor elke dag.
+- Jaarlijks boekt op 31 december.
+- Maandelijks: aan het einde van elke kalendermaand wordt een maandbedrag geboekt.
+- Driemaandelijks: aan het einde van elk kwartaal (31 maart, 30 juni, 30 september en 31 december) wordt een kwartaalbedrag geboekt.
+- Met Zesmaandelijks wordt aan het einde van elk half jaar (30 juni en 31 december) een halfjaarlijks bedrag geboekt.
+- Met Dagelijks wordt het afschrijvingsbedrag voor de dagelijkse afschrijvingsmethode geboekt met één transactie voor elke dag.
 
-Als u bijvoorbeeld Jaarlijks selecteert, wordt de jaarlijkse afschrijving wordt slechts één keer geboekt. Dit is telkens op 31 december. Als u Maandelijks selecteert, wordt de maandelijkse afschrijving elke maand als 1/12de van het jaarlijkse afschrijvingsbedrag geboekt.
+Als u bijvoorbeeld **Jaarlijks** selecteert, wordt de jaarlijkse afschrijving wordt slechts één keer geboekt. Dit is telkens op 31 december. Als u **Maandelijks** selecteert, wordt de maandelijkse afschrijving elke maand als 1/12de van het jaarlijkse afschrijvingsbedrag geboekt.
 
 ### <a name="fiscal"></a>Fiscaal
 
-Als u Fiscaal selecteert in het veld Afschrijvingsjaar wordt de lineaire afschrijvingsmethode gebruikt. Het wordt berekend op basis van het fiscaal jaar dat is ingesteld op de pagina Fiscale kalenders voor de fiscale kalender die is geselecteerd op de pagina Grootboek. Voor bijvoorbeeld het boekjaar van 1 juli t/m 30 juni wordt de afschrijving vanaf 1 juli berekend. Een boekjaar kan langer of korter dan 12 maanden zijn. De afschrijving wordt voor elke boekperiode aangepast. De lengte van het volgende boekjaar is gebaseerd op de boekperioden die u instelt wanneer u een nieuw fiscaal jaar maakt op de pagina Fiscale kalenders.
+Als u **Fiscaal** selecteert in het veld **Afschrijvingsjaar**, wordt de lineaire afschrijvingsmethode gebruikt. Het wordt berekend op basis van het fiscaal jaar dat is ingesteld op de pagina **Fiscale kalenders** voor de fiscale kalender die is geselecteerd op de pagina **Grootboek**. Voor bijvoorbeeld het boekjaar van 1 juli t/m 30 juni wordt de afschrijving vanaf 1 juli berekend. Een boekjaar kan langer of korter dan 12 maanden zijn. De afschrijving wordt voor elke boekperiode aangepast. De lengte van het volgende boekjaar is gebaseerd op de boekperioden die u instelt wanneer u een nieuw fiscaal jaar maakt op de pagina **Fiscale kalenders**.
 
 
-Als u Fiscaal selecteert in het veld Periodefrequentie, dan zijn de volgende opties beschikbaar:
+Als u **Fiscaal** selecteert in het veld **Periodefrequentie**, dan zijn de volgende opties beschikbaar:
 
--   Jaarlijks boekt het totale bedrag van de afschrijving die is berekend voor het boekjaar als één bedrag op de laatste dag van het boekjaar.
--   Boekperiode boekt het totale bedrag van de afschrijving berekend voor het fiscaal jaar, dat wordt toegerekend in de boekperioden die zijn gedefinieerd voor de fiscale kalender die is geselecteerd op de pagina Grootboek of voor de fiscale kalender die is geselecteerd voor het boek voor een vast activum.
+- Jaarlijks boekt het totale bedrag van de afschrijving die is berekend voor het boekjaar als één bedrag op de laatste dag van het boekjaar.
+- Boekperiode boekt het totale bedrag van de afschrijving berekend voor het fiscaal jaar, dat wordt toegerekend in de boekperioden die zijn gedefinieerd voor de fiscale kalender die is geselecteerd op de pagina **Grootboek** of voor de fiscale kalender die is geselecteerd voor het boek voor een vast activum.
 
 ## <a name="example-of-reducing-balance-depreciation"></a>Voorbeeld van een degressieve afschrijving
 
@@ -79,9 +76,12 @@ Door de methode Degressief te gebruiken, wordt 30 procent van de afschrijvingsba
 | Jaar 3 | (5200 - 1000) \* 30% = 1260            | (5200 - 1260) = 3940               |
 
 
--
 
 
 
 
 
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

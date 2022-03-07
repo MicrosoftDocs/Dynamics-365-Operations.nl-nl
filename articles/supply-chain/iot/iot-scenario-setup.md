@@ -1,25 +1,27 @@
 ---
 title: Scenario-instelling voor IoT-intelligentie
 description: In dit onderwerp wordt uitgelegd hoe u scenario's configureert voor IoT-intelligentie in Microsoft Dynamics 365 Supply Chain Management.
-author: tonyafehr
+author: robinarh
+manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
 ms.custom: ''
 ms.search.region: Global
-ms.author: tfehr
+ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b8e8c65cebe64f86dcf158668e8a4f5600c158a1
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 1632e6df34e2ee2558502597bb94281ab9937824
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782422"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264817"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>Scenario-instelling voor IoT-intelligentie
 
@@ -42,7 +44,7 @@ Het scenario **Apparatuuruitval** heeft de volgende afhankelijkheden:
 Volg deze stappen om het scenario te configureren.
 
 1. Meld u aan bij Supply Chain Management.
-2. Schakel de functievlag voor IoT-intelligentie in. Zie [Overzicht van functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voor meer informatie.
+2. Schakel de functievlag voor IoT-intelligentie in. Zie [Overzicht van functiebeheer](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview) voor meer informatie.
 3. Configureer de metrische gegevens. Zie [Metrische gegevens configureren](iot-metrics-setup.md#configure-metrics) voor meer informatie.
 4. Ga naar **Productiebeheer \> Instellingen \> IoT-intelligentie- \> Scenariobeheer**.
 6. Selecteer op de tegel **Apparatuuruitval** de optie **Configureren** om de configuratiewizard te openen.

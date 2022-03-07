@@ -1,7 +1,7 @@
 ---
 title: Voorraadprognoses
 description: In dit onderwerp worden de functies voor aanbod- en vraagprognose beschreven die kunnen worden gebruikt om voorraadprognoses te maken in Microsoft Dynamics 365 Supply Chain Management.
-author: ChristianRytt
+author: crytt
 ms.date: 06/08/2021
 ms.topic: article
 ms.search.form: EcoResProductDetailsExtended, ForecastSales, ForecastPurch, ForecastInvent
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 5ce997a0bb3d6766b801f3f4dea8ab3f19085d02
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b9c82f28dcc7ebd223b2483ca257ba934024d755
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577547"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7475079"
 ---
 # <a name="inventory-forecasts"></a>Voorraadprognoses
 
@@ -51,9 +51,9 @@ Zoals de tabel in stap 1 aangeeft, zijn er verschillende manieren om de gebruikt
     | Vrijgegeven productvarianten | <ol><li>Ga naar **Productgegevensbeheer \> Producten \> Vrijgegeven productvarianten**.</li><li>Selecteer de variant waarvoor u een prognose wilt maken.</li><li>Selecteer in het actievenster op het tabblad **Plan** in de groep **Prognose** **Vraagprognose**, **Aanbodprognose** of **Voorraadprognose**, afhankelijk van het prognosetype waarmee u wilt werken.</li></ol> |
     | Artikelengroepen | <ol><li>Ga naar **Voorraadbeheer \> Instellingen \> Voorraad \> Artikelgroepen**.</li><li>Selecteer de artikelgroep waarvoor u een prognose wilt maken.</li><li>Selecteer in het actievenster **Prognose \> Vraag**, **Prognose \> Aanbod** of **Prognose \> Voorraadprognose**, afhankelijk van het prognosetype waarmee u wilt werken.</li></ol> |
     | Artikeltoewijzingssleutels | <ol><li>Ga naar **Voorraadbeheer \> Instellen \> Prognose**.</li><li>Selecteer de artikeltoewijzingssleutel waarvoor u een prognose wilt maken.</li><li>Selecteer **Vraagprognose** in het actievenster.</li></ol> |
-    | Klanten | <ol><li>Ga naar **Hoofdplanning \> Prognose \> Prognose handmatig invoeren \> Klanten**.</li><li>Selecteer de klant waarvoor u een prognose wilt maken.</li><li>Selecteer **Vraagprognose definiëren** in het actievenster.</li></ol> |
+    | Klanten     | <ol><li>Ga naar **Hoofdplanning \> Prognose \> Prognose handmatig invoeren \> Klanten**.</li><li>Selecteer de klant waarvoor u een prognose wilt maken.</li><li>Selecteer **Vraagprognose definiëren** in het actievenster.</li></ol> |
     | Klantengroepen | <ol><li>Ga naar **Hoofdplanning \> Prognose \> Prognose handmatig invoeren \> Klantgroepen**.</li><li>Selecteer de klantgroep waarvoor u een prognose wilt maken.</li><li>Selecteer **Vraagprognose definiëren** in het actievenster.</li></ol> |
-    | Leveranciers | <ol><li>Ga naar **Hoofdplanning \> Prognose \> Prognose handmatig invoeren \> Leveranciers**.</li><li>Selecteer de leverancier waarvoor u een prognose wilt maken.</li><li>Selecteer in het actievenster **Invoer** om de pagina **Aanbodprognose** te openen.</li></ol> |
+    | Leveranciers    | <ol><li>Ga naar **Hoofdplanning \> Prognose \> Prognose handmatig invoeren \> Leveranciers**.</li><li>Selecteer de leverancier waarvoor u een prognose wilt maken.</li><li>Selecteer in het actievenster **Invoer** om de pagina **Aanbodprognose** te openen.</li></ol> |
     | Leveranciersgroepen | <ol><li>Ga naar **Hoofdplanning \> Prognose \> Prognose handmatig invoeren \> Leveranciersgroepen**.</li><li>Selecteer de leveranciersgroep waarvoor u een prognose wilt maken.</li><li>Selecteer in het actievenster **Invoer** om de pagina **Aanbodprognose** te openen.</li></ol> | 
     | Alle regels | <ul><li>Ga naar **Hoofdplanning \> Prognose \> Vraagprognoseregels** of **Hoofdplanning \> Prognose \> Aanbodprognoseregels**, afhankelijk van het prognosetype waarmee u wilt werken.</li></ul> |
 

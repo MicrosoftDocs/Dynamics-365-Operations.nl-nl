@@ -1,12 +1,10 @@
 ---
 title: Startpagina van Budgettering
 description: Dit onderwerp biedt een overzicht van de onderdelen van de budgetteringsfunctionaliteit, budgetteringstools en rapportagemogelijkheden in Microsoft Dynamics 365 Finance.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 08/09/2017
+author: panolte
+ms.date: 04/29/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 106043
 ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
 ms.search.region: Global
-ms.author: roschlom
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af006a94d29781473c164d108fb48ca7d00d169d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a2597dda47e3441d2c41497081849a2213974e55
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962905"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187911"
 ---
 # <a name="budgeting-home-page"></a>Startpagina van Budgettering
 
@@ -30,8 +28,7 @@ ms.locfileid: "4962905"
 
 Dit onderwerp biedt een overzicht van de onderdelen van de budgetteringsfunctionaliteit, budgetteringstools en rapportagemogelijkheden. 
 
-<a name="components-of-budgeting-functionality"></a>Onderdelen van budgetfunctionaliteit
--------------------------------------
+## <a name="components-of-budgeting-functionality"></a>Onderdelen van budgetfunctionaliteit
 
 De resourceplanningscyclus voor een bedrijf bestaat meestal uit plannings-, budgetterings- en prognoseactiviteiten.
 
@@ -70,3 +67,6 @@ U kunt bijvoorbeeld bepalen wie budgettering doet, wat wordt gebudgetteerd en ho
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

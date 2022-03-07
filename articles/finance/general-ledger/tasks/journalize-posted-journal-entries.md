@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ad18063e0a66a4aac0ebef7f0ce45c73137abcc7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ca1aed3a77da66ef336942b2c178abdd425d3c25
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968524"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5240661"
 ---
 # <a name="journalize-posted-journal-entries"></a>Geboekte journaalposten journaliseren
 
@@ -39,3 +39,6 @@ Deze procedure laat zien hoe u geboekte journaalposten journaliseert. Deze proce
 9. Klik op **OK** om de filterpagina te sluiten.
 10. Klik op **OK** om het journaalproces te starten. Een rapport wordt gegenereerd nadat het proces is voltooid.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

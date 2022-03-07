@@ -2,23 +2,26 @@
 title: Technische versies van en categorieën voor technische producten
 description: Dit onderwerp bevat informatie over het concept van technische versies. Technische versies zorgen ervoor dat de verschillende statussen van een product en de bijbehorende gegevens actueel en duidelijk blijven en dat ze in het systeem kunnen worden gevisualiseerd.
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgLookupDynastring, EngChgProductVersionNumberRule, EngChgEcmProductRoute, EngChgEcmRequestProducts, EngChgEcmProductRoute, EngChgEcmProductPreview,EngChgEcmProductBOMItemIdLookup, EngChgEcmProductBOMConsistOf, EngChgEcmProductCreate, EngChgEcmProductLookup, EngChgProductVersionPrCompany, ngChgProductTypeLookup, EngChgProductType, EngChgProductItemPart, EngChgProductItem, EngChgEcmCategory, EngChgEcmBomDesignerEditBom, EngChgEcmBomDesigner, EngChgEcmBOMCopyDialog
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 42faa9e5f073d718c18422e37212c2ae8a28b28d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 3eb5b5c4304b393008ecc5f5ff5a663295ed0d22
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572884"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4425890"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Technische versies van en categorieën voor technische producten
 
@@ -48,8 +51,7 @@ Wanneer u werkt met technische producten, heeft elk product minstens één techn
 - Het technische bedrijf dat het product heeft gemaakt en hiervan eigenaar is (zie [Technische bedrijven en regels voor gegevenseigendom](engineering-org-data-ownership-rules.md) voor meer informatie)
 - Gerelateerde technische documenten, zoals assemblagehandboek, gebruikersinstructies, afbeeldingen en koppelingen
 - De technische kenmerken (zie [Technische kenmerken en de zoekfunctie voor technische kenmerken](engineering-attributes-and-search.md) voor meer informatie)
-- Stuklijst voor technische producten
-- Formules voor producten in procesfabricage
+- De technische stuklijsten
 - De technische routes
 
 U kunt deze gegevens bijwerken voor een bestaande versie of een nieuwe versie maken met behulp van een *order voor technische wijzigingen*. (Zie [Wijzigingen in technische producten beheren](engineering-change-management.md) voor meer informatie). Als u een nieuwe versie van een product maakt, kopieert het systeem alle technisch relevante gegevens naar die nieuwe versie. Vervolgens kunt u de gegevens voor die nieuwe versie wijzigen. Op deze manier kunt u specifieke gegevens voor elke opeenvolgende versie bijhouden. Als u de verschillen tussen opeenvolgende technische versies wilt vergelijken, inspecteert u de order voor technische wijzigingen, die typewijzigingen bevatten die alle wijzigingen aangeven.
@@ -111,11 +113,9 @@ Stel de volgende velden op het sneltabblad **Details** van een categorie voor ee
 | Veld | Beschrijving |
 |---|---|
 | Producttype | Selecteer of de categorie van toepassing is op producten of services. |
-| Productietype | Dit veld wordt alleen weergegeven als u [formulewijzigingsbeheer](manage-formula-changes.md) in het systeem hebt ingeschakeld. Selecteer het type productie waarop deze categorie van technische producten van toepassing is:<ul><li>**Planningsartikel**: met deze technische categorie kunt u formulewijzigingsbeheer uitvoeren voor planningsartikelen. Voor planningsartikelen worden formules gebruikt. Deze artikelen lijken op formuleartikelen, maar worden gebruikt om alleen co- en bijproducten te produceren, niet om afgewerkte producten te maken. Formules worden gebruikt tijdens procesfabricage.</li><li>**Stuklijst**: gebruik deze technische categorie om technische producten te beheren, waarvoor geen formules worden gebruikt en meestal (maar niet noodzakelijkerwijs) stuklijsten bevatten.</li><li>**Formule**: met deze technische categorie kunt u formulewijzigingsbeheer uitvoeren voor eindproducten. Deze artikelen hebben een formule, maar geen stuklijst. Formules worden gebruikt tijdens procesfabricage.</li></ul> |
-| Variabel gewicht | Deze optie wordt alleen weergegeven als u [formulewijzigingsbeheer](manage-formula-changes.md) in het systeem hebt ingeschakeld. Deze optie is alleen beschikbaar als het veld **Productietype** is ingesteld op *Planningsartikel* of *Formule*. Stel deze optie in op *Ja* als u deze technische categorie gebruikt om artikelen te beheren waarvoor catch weight-ondersteuning nodig is. |
-| Versies in transacties traceren | Selecteer of de versie van het product moet worden vermeld voor alle transacties (logistieke gevolgen). Als u de versie in transacties bijhoudt, geeft elke verkooporder bijvoorbeeld aan welke specifieke versie van het product in die verkooporder is verkocht. Als u de versie in transacties niet bijhoudt, wordt in verkooporders niet aangegeven welke specifieke versie is verkocht. In plaats daarvan wordt altijd de meest recente versie weergegeven.<ul><li>Als deze optie is ingesteld op *Ja*, wordt een productmodel gemaakt voor het product en is elke versie van het product een variant die de productdimensie *versie* gebruikt. Het veld **Subtype van product** wordt automatisch ingesteld op *Productmodel* en in het veld **Productdimensiegroep** moet u een productdimensiegroep selecteren waarvoor de dimensie *versie* actief is. Alleen productdimensiegroepen waarvoor *versie* een actieve dimensie is, worden weergegeven. U kunt nieuwe productdimensiegroepen maken door de knop **Bewerken** (potloodsymbool) te selecteren.</li><li>Als deze optie is ingesteld op *Nee*, wordt de productdimensie *versie* niet gebruikt. U kunt vervolgens selecteren of u een product of een productmodel wilt maken waarin de andere dimensies worden gebruikt.</li></ul><p>Deze optie wordt vaak gebruikt voor producten waarvoor een kostenverschil bestaat tussen versies of producten waar verschillende voorwaarden van toepassing zijn met betrekking tot de klant. Het is daarom belangrijk om aan te geven welke versie in elke transactie is gebruikt.</p> |
+| Versies in transacties traceren | Selecteer of de versie van het product moet worden vermeld voor alle transacties (logistieke gevolgen). Als u de versie in transacties bijhoudt, geeft elke verkooporder bijvoorbeeld aan welke specifieke versie van het product in die verkooporder is verkocht. Als u de versie in transacties niet bijhoudt, wordt in verkooporders niet aangegeven welke specifieke versie is verkocht. In plaats daarvan wordt altijd de meest recente versie weergegeven.<ul><li>Als deze optie is ingesteld op *Ja*, wordt een productmodel gemaakt voor het product en is elke versie van het product een variant die de productdimensie *versie* gebruikt. Het veld **Subtype van product** wordt automatisch ingesteld op *Productmodel* en u moet een productdimensiegroep selecteren waarvoor de dimensie *versie* actief is. Alleen productdimensiegroepen waarvoor *versie* een actieve dimensie is, worden weergegeven. U kunt nieuwe productdimensiegroepen maken door de knop **Bewerken** (potloodsymbool) te selecteren.</li><li>Als deze optie is ingesteld op *Nee*, wordt de productdimensie *versie* niet gebruikt. U kunt vervolgens selecteren of u een product of een productmodel wilt maken waarin de andere dimensies worden gebruikt.</li></ul><p>Deze optie wordt vaak gebruikt voor producten waarvoor een kostenverschil bestaat tussen versies of producten waar verschillende voorwaarden van toepassing zijn met betrekking tot de klant. Het is daarom belangrijk om aan te geven welke versie in elke transactie is gebruikt.</p> |
 | Subtype product | Selecteer of de categorie producten of productmodellen bevat. Voor productmodellen worden productdimensies gebruikt.
-| Productdimensiegroep | Met de instelling **Versies in transacties traceren** kunt u de productdimensiegroep selecteren. Als u hebt opgegeven dat u de versie in transacties wilt bijhouden, worden de productdimensiegroepen weergegeven waarvoor de dimensie *versie* wordt gebruikt. Anders worden alleen productdimensiegroepen weergegeven waarvoor de dimensie *versie* niet wordt gebruikt. |
+| Productdimensiegroep | Met de instelling **Versies in transacties traceren** kunt u het subtype van het product selecteren. Als u hebt opgegeven dat u de versie in transacties wilt bijhouden, worden de productdimensiegroepen weergegeven waarvoor de dimensie *versie* wordt gebruikt. Anders worden alleen productdimensiegroepen weergegeven waarvoor de dimensie *versie* niet wordt gebruikt. |
 | Status in productlevenscyclus na aanmaken | Stel de standaard levenscyclusstatus in die een technisch product moet hebben wanneer het voor het eerst wordt gemaakt. Zie voor meer informatie [Levenscyclusstatussen en transacties van producten](product-lifecycle-state-transactions.md). |
 | Versienummerregel | Selecteer de versienummerregel die van toepassing is op de categorie:<ul><li>**Handmatig**: u kiest het versienummer voor elke nieuwe versie.</li><li>**Automatisch**: het versienummer wordt ingesteld op basis van een indeling die u definieert. Wanneer u de notatie instelt, gebruikt u een hekje (\#) om een cijfer aan te duiden en elk ander teken voor een constante waarde. Als u de notatie bijvoorbeeld definieert als *V-\#\#*, is de eerste versie V-01, de tweede V-02, enzovoort.</li><li>**Lijst**: het volgende nummer wordt opgehaald uit een vooraf gedefinieerde lijst met aangepaste waarden die u definieert.</li></ul> |
 | Geldigheid afdwingen | Geef op of de ingangsdatums van de technische versies aaneengesloten moeten zijn of dat er hiaten en overlappingen kunnen bestaan. Deze instelling is van invloed op de manier waarop u de velden **Geldig vanaf** en **Geldig tot** kunt gebruiken voor elke technische versie waarop de categorie van toepassing is.<ul><li>Als deze optie is ingesteld op *Ja*, moet er een waarde voor **Geldig vanaf** worden opgegeven voor elke versie en zijn hiaten en overlappingen niet toegestaan tussen versies. Het datumbereik voor elke technische versie is direct verbonden met de vorige en volgende technische versies, indien aanwezig. In dit scenario wordt altijd de nieuwste versie gebruikt en worden oudere versies niet meer gebruikt.</li><li>Als deze optie is ingesteld op **Nee**, gelden er geen beperkingen voor de geldigheidsdatumvelden voor technische versies en zijn zowel overlappingen als hiaten toegestaan. In dit scenario kunnen meerdere versies tegelijk actief zijn en kunt u met elke actieve versie werken.</li></ul><p>Deze optie is ook van invloed op stuklijsten en routes die zijn verbonden met een productversie. Zie de sectie [Stuklijsten en routes verbinden met technische versies](#boms-routes) verderop in dit onderwerp voor meer informatie.</p> |
@@ -142,10 +142,7 @@ Stel de volgende velden in voor elke rij die u toevoegt aan het raster.
 
 ### <a name="readiness-policy-fasttab"></a>Het sneltabblad Gereedheidsbeleid
 
-Gebruik het veld **Productgereedheidsbeleid** om het gereedheidsbeleid te selecteren dat moet worden toegepast op producten die worden gemaakt op basis van deze technische categorie. Zie voor meer informatie [Productgereedheid](product-readiness.md).
-
-> [!NOTE]
-> Het veld **Productgereedheidsbeleid** werkt iets anders als u de functie *Productgereedheidscontroles* in uw systeem hebt ingeschakeld. (Met deze functie kunt u gereedheidsbeleid toepassen op standaard \[niet-technische\] producten). Zie [Gereedheidsbeleid toewijzen aan standaard en technische producten](product-readiness.md#assign-policy) voor meer informatie.
+Gebruik het veld **Productgereedheidsbeleid** om het gereedheidsbeleid te selecteren dat van toepassing is op producten die tot deze categorie behoren. Zie voor meer informatie [Productgereedheid](product-readiness.md).
 
 ### <a name="release-policy-fasttab"></a>Het sneltabblad Vrijgavebeleid
 
@@ -165,6 +162,3 @@ Technische stuklijsten en routes worden gemaakt op basis van de technische versi
 Voor producten waarvoor u de productversie *dimensie* gebruikt (samen met logistieke impact op de transacties) wordt de versie ook toegevoegd aan de stuklijsten en routes. Dit gedrag zorgt voor het onderscheid tussen stuklijsten en routes van opeenvolgende versies, ongeacht de instelling voor **Geldigheid afdwingen**.
 
 Voor producten waarvoor u de productversie *dimensie* niet gebruikt (zonder logistieke impact op de transacties) wordt de versie niet toegevoegd aan de stuklijsten of routes. Daarom is er geen verschil tussen de stuklijsten en routes van opeenvolgende versies. In dit geval is het raadzaam de optie **Geldigheid afdwingen** in te stellen op *Ja*. Op deze manier voorkomt u dat technische versies elkaar overlappen. U kunt ook de stuklijst en route van een nieuwere versie activeren zonder eerst de stuklijst en route van de vorige versie te deactiveren. Als u in dit geval de optie **Geldigheid afdwingen** op *Ja* instelt, moet u de stuklijsten en routes van oudere versies handmatig uitschakelen voordat u de meest recente versie kunt activeren.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

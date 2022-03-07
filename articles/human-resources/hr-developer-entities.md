@@ -1,16 +1,13 @@
 ---
-title: Entiteiten in Common Data Service
-description: Microsoft Dynamics 365 Human Resources maakt gebruik van Common Data Service om uitbreidings- en integratiescenario's in te schakelen.
+title: Dataverse-tabellen
+description: Microsoft Dynamics 365 Human Resources maakt gebruik van Dataverse om uitbreidings- en integratiescenario's in te schakelen.
 author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 01/25/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,26 +15,30 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 988fa0b6d39a49b973626a8a0abe83c546f42297
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 6774fad3543d80d04faacf5960c8037f1734f084
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4530001"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066820"
 ---
-# <a name="common-data-service-entities"></a>Entiteiten in Common Data Service
+# <a name="dataverse-tables"></a>Dataverse-tabellen
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Microsoft Dynamics 365 Human Resources maakt gebruik van Common Data Service om uitbreidings- en integratiescenario's in te schakelen.
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
-Zie [Wat is Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) voor meer informatie over Common Data Service.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-De volgende Human Resources-entiteiten zijn beschikbaar in Common Data Service.
+Microsoft Dynamics 365 Human Resources maakt gebruik van Dataverse om uitbreidings- en integratiescenario's in te schakelen.
 
-## <a name="benefit-entities"></a>Vergoedingsentiteiten
+> [!NOTE]
+> Human Resources-entiteiten komen overeen met Dataverse-tabellen. Voor meer informatie over Dataverse (voorheen Common Data Service) en bijgewerkte terminologie, zie [Wat is Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)
 
-| Naam | Entiteit |
+De volgende Dataverse-entiteiten zijn beschikbaar op basis van Human Resource-entiteiten.
+
+## <a name="benefit-tables"></a>Tabellen voor vergoedingen
+
+| Naam | Tabel |
 | --- | --- |
 | Frequentie van vergoedingenberekening | cdm_benefitcalculationfrequency |
 | Salarisperiode vergoedingsberekeningsfrequentie | cdm_benefitcalculationfrequencypayperiod |
@@ -47,9 +48,9 @@ De volgende Human Resources-entiteiten zijn beschikbaar in Common Data Service.
 | Vergoedingsplan | cdm_benefitplan (niet ingeschakeld voor ondersteuning van aangepaste velden) |
 | Vergoedingstype | cdm_benefittype |
 
-## <a name="business-process-tasks-entities"></a>Entiteiten voor bedrijfsprocestaken
+## <a name="business-process-tasks-tables"></a>Tabellen voor bedrijfsprocestaken
 
-| Naam | Entiteit |
+| Naam | Tabel |
 | --- | --- |
 | Kalender voor bedrijfsprocessen | cdm_businessprocesscalendar |
 | Groepstoewijzing van bedrijfsproces | cdm_businessprocessgroupassignment |
@@ -58,11 +59,11 @@ De volgende Human Resources-entiteiten zijn beschikbaar in Common Data Service.
 | Koptekst van controlelijstsjabloon | cdm_businessprocesstemplateheader |
 | Taak voor controlelijstsjabloon | cdm_businessprocesstemplatetask |
 
-## <a name="compensation-entities"></a>Entiteiten voor compensatie
+## <a name="compensation-tables"></a>Tabellen voor compensatie
 
-| Naam | Entiteit |
+| Naam | Tabel |
 | --- | --- |
-| Vastecompensatieplan | cdm_compensationfixedplan |
+| Vast compensatieplan | cdm_compensationfixedplan |
 | Compensatieraster | cdm_compensationgrid |
 | Compensatieniveau | cdm_compensationlevel |
 | Compensatiebetalingsfrequentie | cdm_compensationpayfrequency |
@@ -75,11 +76,11 @@ De volgende Human Resources-entiteiten zijn beschikbaar in Common Data Service.
 | Type plan voor variabele compensatie | cdm_compensationvariableplantype |
 | Gebeurtenis voor vaste compensatie | cdm_fixedcompensationevent |
 | Vestigingsregel | cdm_vestingrule |
-| Vaste compensatie medewerker | cdm_workerfixedcompensation |
+| Vaste compensatie van medewerker | cdm_workerfixedcompensation |
 
-## <a name="organization-entities"></a>Organisatie-entiteiten
+## <a name="organization-tables"></a>Tabellen voor de organisatie
 
-| Naam | Entiteit |
+| Naam | Tabel |
 | --- | --- |
 | Departement | cdm_department |
 | Dienstverband | cdm_employment |
@@ -95,11 +96,11 @@ De volgende Human Resources-entiteiten zijn beschikbaar in Common Data Service.
 | Titel | cdm_title |
 
 > [!NOTE]
-> Financiële dimensies voor **Positietype**, **Medewerkertoewijzing voor positie** en **Dienstverband** bieden integratie in één richting naar Common Data Service. Updates van financiële dimensies kunnen momenteel niet van Common Data Service naar Human Resources worden gesynchroniseerd. 
+> Financiële dimensies voor **Positietype**, **Medewerkertoewijzing voor positie** en **Dienstverband** bieden integratie in één richting naar Dataverse. Updates van financiële dimensies kunnen momenteel niet van Dataverse naar Human Resources worden gesynchroniseerd. 
 
-## <a name="leave-and-absence-entities"></a>Entiteiten voor verlof en verzuim
+## <a name="leave-and-absence-tables"></a>Tabellen voor verlof en verzuim
 
-| Naam | Entiteit |
+| Naam | Tabel |
 | --- | --- |
 | Verlofbanktransactie | cdm_leavebanktransaction |
 | Verlofinschrijving | cdm_leaveenrollment |
@@ -109,22 +110,22 @@ De volgende Human Resources-entiteiten zijn beschikbaar in Common Data Service.
 | Verloftype | cdm_leavetype |
 | Redencode voor verloftype | cdm_leavetypereasoncode |
 
-## <a name="payroll-entities"></a>Entiteiten salarisadministratie
+## <a name="payroll-tables"></a>Tabellen voor salarisadministratie
 
-| Naam | Entiteit |
+| Naam | Tabel |
 | --- | --- |
 | Betalingscyclus | cdm_paycycle |
 | Salarisperiode | cdm_payperiod |
-| Inkomstencode salaris | cdm_payrollearningcode |
+| Salarisinkomstencode | cdm_payrollearningcode |
 | Bankrekeningvoorschot | cdm_bankaccountdisbursement |
 | Belastingregio | cdm_taxregion |
 
-## <a name="worker-entities"></a>Entiteiten medewerker
+## <a name="worker-tables"></a>Tabellen voor werknemers
 
-| Naam | Entiteit |
+| Naam | Tabel |
 | --- | --- |
-| Medewerker | cdm_worker |
-| Adres medewerker | cdm_workeraddress |
+| Werknemer | cdm_worker |
+| Medewerkeradres | cdm_workeraddress |
 | Persoonsgegevens van medewerker | cdm_workerpersonaldetail |
 | Persoonlijk identificatienummer medewerker | cdm_workerpersonidentificationnumber |
 | Persoonlijk identificatietype medewerker | cdm_workerpersonidentificationtype |
@@ -133,50 +134,57 @@ De volgende Human Resources-entiteiten zijn beschikbaar in Common Data Service.
 | Feestdag werkkalender |cdm_workcalendarholiday |
 | Feestdagregel van werkkalender | cdm_workcalendarholidayline |
 | Tijdsinterval werkkalender | cdm_workcalendartimeinterval (niet ingeschakeld voor ondersteuning van aangepaste velden) |
-| Bankrekening medewerker | cdm_workerbankaccount |
+| Bankrekening van medewerker | cdm_workerbankaccount |
 
-## <a name="worker-setup-entities"></a>Entiteiten voor de instelling van medewerkers
+## <a name="worker-setup-tables"></a>Tabellen voor werknemerinstellingen
 
-| Naam | Entiteit |
+| Naam | Tabel |
 | --- | --- |
 | Veteraanstatus | cdm_veteranstatus |
 | Etnische afkomst | cdm_ethnicorigin |
 | Redencode | cdm_reasoncode |
-| Instelling die persoonsidentificatie uitgeeft | cdm_personidentificationissuingagency |
+| Uitgevende instantie voor persoonsidentificatie | cdm_personidentificationissuingagency |
 
-## <a name="competency-entities"></a>Competentie-entiteiten
+## <a name="competency-tables"></a>Tabellen voor competenties
 
-| Naam | Entiteit |
+| Naam | Tabel |
 | --- | --- |
 | Vaardigheidstype | cdm_skilltype |
 
-## <a name="entity-relationship-models"></a>Entiteitsrelatiemodellen
+## <a name="table-relationship-models"></a>Tabelrelatiemodellen
 
-### <a name="worker"></a>Medewerker
+### <a name="worker"></a>Werknemer
 
-![Medewerker](./media/HCMCommon-worker-entity-diagram.png)
+![Medewerker.](./media/HCMCommon-worker-entity-diagram.png)
 
 ### <a name="job-and-job-position"></a>Functie en functiepositie
 
-![Functie en functiepositie](./media/HCMCommon-job-and-job-position-entity-diagram.png)
+![Functie en functiepositie.](./media/HCMCommon-job-and-job-position-entity-diagram.png)
 
-### <a name="benefits"></a>Vergoedingen
+### <a name="benefits"></a>Voordelen
 
-![Vergoedingen](./media/HCMCommon-benefits-entity-diagram.png)
+![Voordelen.](./media/HCMCommon-benefits-entity-diagram.png)
 
 ### <a name="compensation"></a>Compensatie
 
-![Compensatie](./media/HCMCommon-compensation-entity-diagram.png)
+![Compensatie.](./media/HCMCommon-compensation-entity-diagram.png)
 
-### <a name="leave"></a>Verlaten
+### <a name="leave"></a>Verlof
 
-![Verlaten](./media/HCMCommon-leave-entity-diagram.png)
+![Verlof.](./media/HCMCommon-leave-entity-diagram.png)
 
 ### <a name="work-calendar"></a>Werkkalender
 
-![Werkkalender](./media/HCMCommon-work-calendar-entity-diagram.png)
+![Werkkalender.](./media/HCMCommon-work-calendar-entity-diagram.png)
 
 ## <a name="see-also"></a>Zie ook
 
-[Een technologie voor gegevensintegratie kiezen](hr-admin-integration-choose-technology.md)</br>
-[Integratie met Common Data Service configureren](hr-admin-integration-common-data-service.md)
+[Een technologie voor gegevensintegratie kiezen](hr-admin-integration-choose-technology.md)<br>
+[Integratie met Dataverse configureren](hr-admin-integration-common-data-service.md)<br>
+[Virtuele Dataverse-entiteiten configureren](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Veelgestelde vragen over virtuele tabellen voor Human Resources](hr-admin-virtual-entity-faq.md)<br>
+[Wat is Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)<br>
+[Terminologiewijzigingen](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

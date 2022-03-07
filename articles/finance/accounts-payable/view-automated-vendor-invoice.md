@@ -2,11 +2,9 @@
 title: Resultaten van de automatisering van leveranciersfacturering weergeven (preview)
 description: In dit onderwerp wordt uitgelegd hoe u de status van leveranciersfacturen kunt weergeven die zich in het geautomatiseerde proces voor indiening bij de werkstroom bevinden.
 author: abruer
-manager: AnnBe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: baa2f1f55dfb9bb93b4f27c45db563e39850dd37
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e7ec69177cdb4f6304b75016963f4111bbfde6ed975d66ffa702426a68dce640
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969721"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728956"
 ---
 # <a name="view-vendor-invoice-automation-results"></a>Resultaten van de automatisering van leveranciersfacturering weergeven
 
@@ -37,3 +35,6 @@ Als een geïmporteerde factuur afhankelijk is van het proces voor indiening bij 
 - **Onderbroken**: de geautomatiseerde processen die zijn gedefinieerd op de pagina **Parameters van module Leveranciers** zijn uitgevoerd, maar ten minste één stap in het proces is mislukt. De status **Onderbroken** wordt ook toegepast als het veld **Opnemen in geautomatiseerde verwerking** is ingesteld op **Nee**. U kunt de fouten weergeven door **Meest recente resultaten weergeven** te selecteren.
 - **In werkstroom**: de geïmporteerde factuur is bij het werkstroomsysteem ingediend via het geautomatiseerde proces voor indiening bij de werkstroom of handmatig.
 - **Werkstroom voltooid**: het werkstroomproces is voltooid voor de geïmporteerde factuur.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

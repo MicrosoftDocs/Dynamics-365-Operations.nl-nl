@@ -2,30 +2,29 @@
 title: Talent uitbreiden met Power Apps en Power Automate
 description: In dit artikel worden enkele voorbeelden beschreven van uitbreidbaarheidsscenario's voor Microsoft Dynamics 365 Human Resources die gebruikmaken van Microsoft Power Apps en Microsoft Power Automate.
 author: negudava
-manager: Annbe
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core;Experience Apps;Human Resources
+ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2e89347829ccd6569d568db42c79b5fea2316ba3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 5b1ebe17063d954b52a0607d39e3ea08518adb89
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527021"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6057593"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Uitbreiden met Power Apps en Power Automate
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -51,7 +50,7 @@ Voor het downloaden van de app **Integratie met Microsoft 365, Power Automate** 
 
 Met de sjabloon **Power Automate: verbinding maken met SQL en SQL-query´s uitvoeren** wordt verbinding gemaakt met Microsoft SQL Server en kunnen SQL-query's worden uitgevoerd.
 
-Hoewel met deze sjabloon SQL-tabellen worden gelezen en bijgewerkt, kunt u deze uitbreiden en gebruiken voor andere scenario's. Zo kunt u de sjabloon bijvoorbeeld gebruiken voor het vullen van een faseringstabel in Common Data Service met records van SQL Server en voor het periodiek synchroniseren van de faseringstabel met behulp van een incrementele push van SQL Server.
+Hoewel met deze sjabloon SQL-tabellen worden gelezen en bijgewerkt, kunt u deze uitbreiden en gebruiken voor andere scenario's. Zo kunt u de sjabloon bijvoorbeeld gebruiken voor het vullen van een faseringstabel in Dataverse met records van SQL Server en voor het periodiek synchroniseren van de faseringstabel met behulp van een incrementele push van SQL Server.
 
 Geavanceerde query is geïntegreerd met Flow om gegevenstransformatie en incrementele push mogelijk te maken.
 
@@ -59,4 +58,6 @@ Voor het downloaden van de sjabloon **Power Automate: verbinding maken met SQL e
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Het Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
+[Het Microsoft Power Platform](/power-platform/admin/admin-documentation)</br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

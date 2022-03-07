@@ -2,9 +2,11 @@
 title: Een productieorder ramen
 description: U kunt deze procedure uitvoeren met behulp van het demobedrijf USMF of met uw eigen gegevensset.
 author: johanhoffmann
+manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -13,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0450186382b6c306910fc6653f67ce313b7cfc2c69a134a9a806d1a232dc0fd2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 58a0f8e9247e5885b1f148b3b28b7e67b1fa292d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765413"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5240312"
 ---
 # <a name="estimate-a-production-order"></a>Een productieorder ramen
 

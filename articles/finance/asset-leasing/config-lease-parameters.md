@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f71006570cd8f2bdc0385388eae0800cd29d3ec8
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 4bb8372c5e4a1d7183b5d793b142fed92e833d5a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4442164"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210428"
 ---
 # <a name="configure-lease-parameters"></a>Leaseparameters configureren
 
@@ -46,3 +45,6 @@ Verschillende configuratie-instellingen zijn van invloed op de werking van de Ac
 
     > [!NOTE]
     > U kunt deze optie het beste op **Nee** instellen. De instelling van deze optie wordt gebruikt als validatie en controle om te voorkomen dat een gesloten boekversie onbedoeld wordt afgeschreven. U kunt de nettoboekwaarde en de toekomstige afschrijvingsberekeningen nauwkeurig bijhouden door de optie op **Nee** in te stellen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

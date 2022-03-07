@@ -1,7 +1,7 @@
 ---
 title: Een hoofdplanningsuitvoering controleren
 description: In dit onderwerp wordt beschreven hoe de productieplanner kan zien of een hoofdplanning wordt uitgevoerd.
-author: ChristianRytt
+author: josaw1
 ms.date: 11/04/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQ
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4db1173b35cd196ab39fae3cac3754439fab84d0
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a1733562768b3fe869f326bbfb47b6135a91b5cb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103158"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829637"
 ---
 # <a name="monitor-a-master-planning-run"></a>Een hoofdplanningsuitvoering controleren
 
@@ -28,11 +28,12 @@ ms.locfileid: "8103158"
 
 Op de pagina **Voortgang van hoofdplanning weergeven** kunt u details van historische hoofdplanningsuitvoeringen als een Gantt-diagram weergeven. Deze functionaliteit kan u helpen om te begrijpen hoeveel tijd wordt besteed aan de verschillende fasen van de hoofdplanning. Voor een huidige actieve planningstaak kan de pagina **Voortgang van hoofdplanning weergeven** worden gebruikt om de voortgang bij te houden en de geschatte resterende tijd weer te geven.
 
-### <a name="turn-the-master-plan-progress-visualization-feature-on-or-off"></a>De functie Voortgangsvisualisatie hoofdplanning in- of uitschakelen
+### <a name="turn-on-and-use-the-master-plan-progress-visualization-feature"></a>De functie voor visualisatie van de voortgang van de hoofdplanning inschakelen en gebruiken
 
-Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Voortgangsvisualisatie hoofdplanning* in de werkruimte [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Volg deze stappen om deze functionaliteit te gebruiken.
 
-### <a name="use-the-master-plan-progress-visualization-feature"></a>De functie Voortgangsvisualisatie hoofdplanning gebruiken
+1. Selecteer **Visualisatie van voortgang van hoofdplanning** in de lijst op het tabblad **Nieuw** van het werkgebied **Functiebeheer**. Als de functie niet wordt weergegeven op het tabblad **Nieuw**, kijkt u op de tabbladen **Niet ingeschakeld** en **Alle**.
+1. Selecteer **Nu inschakelen**. U kunt ook **Planning** selecteren en vervolgens het tijdstip selecteren waarop u de functie wilt inschakelen.
 
 Op de pagina **Voortgang van hoofdplanning weergeven** kunnen zowel historische planningstaken als actieve planningstaken worden weergegeven. 
 

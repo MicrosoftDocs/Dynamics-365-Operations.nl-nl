@@ -2,11 +2,9 @@
 title: Online kanaal maken en kanaalkenmerken definiëren
 description: Deze procedure doorloopt het maken van een nieuw online kanaal en het toevoegen ervan aan de organisatiehiërarchie.
 author: jashanno
-manager: AnnBe
 ms.date: 06/04/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailSPOnlineStoreDetailPage, SysLookupMultiSelectGrid, DimensionLookup, OMHierarchyManager, HierarchyDesigner, OMNodeSelection, HierarchyPublishAndCloseForm
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8e92e28c721692ed92fa931ed899c48678622349
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 98d218a2d4f3b31084adfbc013dd0999f459dc1572e29a6470edc7cb899809c1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964789"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713361"
 ---
 # <a name="create-online-channel-and-define-channel-attributes"></a>Online kanaal maken en kanaalkenmerken definiëren
 
@@ -66,3 +64,6 @@ Deze procedure doorloopt het maken van een nieuw online kanaal en het toevoegen 
 3. Voer de distributieplanning 1070 uit om wijzigingen te synchroniseren naar de kanaaldatabase. 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

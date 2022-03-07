@@ -11,16 +11,14 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 85167e3de5f586c341143a43412501377a6c689e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ffee79f152141297ceb24e2d7a40523eac18ffaf
+ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570892"
+ms.lasthandoff: 06/01/2021
+ms.locfileid: "6129748"
 ---
 # <a name="production-planning"></a>Productieplanning
-
-[!include [banner](../../includes/banner.md)]
 
 Tijdens Planningsoptimalisaties worden verschillende productiescenario's ondersteund. Als u migreert van de bestaande, ingebouwde hoofdplanningsengine, is het belangrijk dat u zich realiseert dat bepaalde zaken gewijzigd zijn.
 

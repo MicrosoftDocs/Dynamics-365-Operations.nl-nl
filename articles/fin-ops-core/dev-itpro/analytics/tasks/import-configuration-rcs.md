@@ -2,11 +2,9 @@
 title: (ER) Configuraties importeren uit RCS
 description: Dit onderwerp biedt informatie over de manier waarop een gebruiker een nieuwe versie van een ER‑configuratie kan importeren uit RCS.
 author: NickSelin
-manager: AnnBe
 ms.date: 07/03/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b591df3d384e8dc59646ebb9d0205001db040a55
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 77d637b2ec1deeabc04a6796644363b330f5756e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684182"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744886"
 ---
 # <a name="er-import-configurations-from-rcs"></a>(ER) Configuraties importeren uit RCS
 
@@ -55,3 +53,6 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeemb
 5. Selecteer **Sluiten**. 
 6. Selecteer de gewenste versie van de ER‑configuratie en selecteer **Importeren** om deze in het huidige exemplaar te plaatsen.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

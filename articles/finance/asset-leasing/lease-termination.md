@@ -2,11 +2,11 @@
 title: Voorstel voor leasebeëindiging
 description: In dit onderwerp wordt uitgelegd hoe u een voorstel voor beëindiging van een lease opstelt.
 author: moaamer
-ms.date: 07/16/2021
+ms.date: 1/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: AssetLeaseTerminateLeaseListPage
+ms.search.form: AssetLease
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 657bd2aa32179941e4103fea31f813688ad478ac6e9902212c976a92620b2e67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e303821bd41751cb0a07442613b8b20e8061b052
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717492"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819861"
 ---
 # <a name="propose-a-lease-for-termination"></a>Een lease voordragen voor beëindiging
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Als een lease voortijdig wordt beëindigd, kan bij Activa leasen een journaalboeking voor beëindiging worden gemaakt, zodat de leaseverplichtingen, het activum met gebruiksrecht (RoU-activum) en de geaccumuleerde afschrijving worden afgeschreven en de winst of het verlies wordt geboekt. Met het proces voor voortijdige beëindiging worden een lease en de bijbehorende leaseboeken beëindigd. Hiermee worden geen individuele leaseboeken beëindigd. In dit onderwerp wordt de functionaliteit beschreven waarmee u een lease kunt voordragen voor beëindiging en de vermelding in het lease-beëindigingsjournaal kunt verwerken.
 

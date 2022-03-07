@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BankChequeTable, LedgerJournalTransBankChequeReversal, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14361
 ms.assetid: 9f0a1883-cbe0-4cc7-b9f3-dd12fb85ebe8
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db9208c8e76d963d5b8f6bee6b7c73268af68734
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 65aefa75de772fa39b45fc376349b75a3662cd73
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441913"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227421"
 ---
 # <a name="reverse-a-vendor-payment"></a>Een leveranciersbetaling omkeren
 
@@ -83,3 +82,6 @@ Als de cheque die is omgekeerd is uitgegeven voor een klantrestitutie, gebeurt o
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

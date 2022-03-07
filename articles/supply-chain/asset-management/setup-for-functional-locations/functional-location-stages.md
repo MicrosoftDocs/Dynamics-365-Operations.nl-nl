@@ -1,12 +1,10 @@
 ---
 title: Levenscyclusstatussen van functionele locatie
 description: In dit onderwerp wordt beschreven hoe u statussen van functionele locaties en levenscyclusmodellen instelt in Activabeheer.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationLifecycleModel, EntAssetFunctionalLocationLifecycleState
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f119e68319b901b052fa4aa659260f386f44bcf
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: a1ab19358857440e46d3df2323fbcea19a476903
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021265"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837748"
 ---
 # <a name="functional-location-lifecycle-states"></a>Levenscyclusstatussen van functionele locatie
 
@@ -62,3 +60,6 @@ Wanneer u de levenscyclusstatussen hebt gemaakt die zijn vereist voor uw functio
 5. Als u alle beschikbare statussen voor een model wilt selecteren, klikt u op de knop ![Alle beschikbare fasen selecteren](media/03-setup-for-functional-locations.png). Alle statussen worden overgebracht naar de sectie **Geselecteerde levenscyclusstatussen**.
 6. Als u een geselecteerde status uit het model wilt verwijderen, selecteert u de status in de sectie **Geselecteerde levenscyclusstatussen** en selecteert u vervolgens de knop ![pijl terug](media/04-setup-for-functional-locations.png).
 7. Selecteer **Updates van levenscyclusstatussen** om te definiëren welke levenscyclusstatussen een geselecteerde status kunnen volgen.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

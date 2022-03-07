@@ -1,12 +1,11 @@
 ---
 title: ER-bestemmingstype voor printer
-description: Dit onderwerp bevat informatie over het configureren van een printerbestemming voor elke MAP- of BESTAND-component van een ER-indeling (elektronische rapportage) die wordt geconfigureerd voor het genereren van uitgaande documenten in PDF- of Microsoft Office-indeling (Excel\Word).
+description: In dit onderwerp wordt uitgelegd hoe u een printerbestemming kunt configureren voor elke MAP- of BESTAND-component van een ER-indeling (Electronic Reporting).
 author: NickSelin
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,14 +16,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: b7a279dcb30e7681ae654ab17d898a5364391d57
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 19613d9dfba21d591d96a2df45bedb80c043b3a7
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679601"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5561945"
 ---
-# <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Printerbestemming
+# <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Bestemming voor printers
 
 [!include [banner](../includes/banner.md)]
 
@@ -49,8 +48,6 @@ De bestemming **Printer** kan alleen worden geconfigureerd voor bestandsonderdel
 
 ### <a name="limitations"></a>Beperkingen
 
-Deze functie is een voorbeeldfunctie en is onderworpen aan de gebruiksvoorwaarden die worden beschreven in [aanvullende gebruiksvoorwaarden voor Microsoft Dynamics 365-voorbeelden](https://go.microsoft.com/fwlink/?linkid=2105274).
-
 De bestemming **Printer** is alleen geïmplementeerd voor cloudimplementaties.
 
 ### <a name="use-the-printer-destination"></a>De printerbestemming gebruiken
@@ -70,3 +67,6 @@ Als u een bepaalde [afdrukstand](electronic-reporting-destinations.md#SelectPdfP
 
 - [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 - [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

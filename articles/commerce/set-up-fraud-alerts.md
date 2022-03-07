@@ -2,16 +2,13 @@
 title: Fraudewaarschuwingen van callcenters instellen en gebruiken
 description: Dit onderwerp wordt beschreven hoe u regels instelt om klantenservice medewerkers van potentieel frauduleuze informatie te waarschuwen wanneer bestellingen zijn verwerkt. U kunt speciale codes definiëren die automatisch of handmatig worden gebruikt om verdachte orders in de wachtstand te zetten.
 author: josaw1
-manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 79103
 ms.assetid: e342af8d-7498-4d20-8483-ab368429c578
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 38649e40021d1caaf70f217b3ebae0d488806180
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e692d43b8c2648a424ff3b4fdc9d0cf16d0e03702d6a237f71caaf49646c5ec3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411456"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763663"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Fraudewaarschuwingen van callcenters instellen en gebruiken
 
@@ -37,13 +34,13 @@ In dit onderwerp wordt uitgelegd hoe u criteria en regels instelt om mogelijk fr
 
 ## <a name="turning-on-the-fraud-check-feature"></a>De functie voor fraudecontrole inschakelen
 
-Als u de fraudecontrolefunctie wilt gebruiken, moet u de optie **Ordervoltooiing inschakelen** in het kanaal op **Ja** instellen wanneer het callcenterkanaal wordt [gedefinieerd](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-order-processing-options). Wanneer ordervoltooiing is ingeschakeld, moeten callcentergebruikers **Gereed** selecteren op de pagina van de verkooporder voor alle verkooporders die worden gemaakt. De actie Gereed opent de pagina **Overzicht van verkooporder**. Nadat gebruikers de vereiste betalingsgegevens op de pagina **Overzicht van verkooporder** hebben ingevoerd, selecteren ze **Indienen** om de order te voltooien. Wanneer de order wordt verzonden, wordt de fraudecontrolefunctie geactiveerd en worden regels die actief in het systeem zijn, automatisch gevalideerd.
+Als u de fraudecontrolefunctie wilt gebruiken, moet u de optie **Ordervoltooiing inschakelen** in het kanaal op **Ja** instellen wanneer het callcenterkanaal wordt [gedefinieerd](/dynamics365/unified-operations/retail/set-up-order-processing-options). Wanneer ordervoltooiing is ingeschakeld, moeten callcentergebruikers **Gereed** selecteren op de pagina van de verkooporder voor alle verkooporders die worden gemaakt. De actie Gereed opent de pagina **Overzicht van verkooporder**. Nadat gebruikers de vereiste betalingsgegevens op de pagina **Overzicht van verkooporder** hebben ingevoerd, selecteren ze **Indienen** om de order te voltooien. Wanneer de order wordt verzonden, wordt de fraudecontrolefunctie geactiveerd en worden regels die actief in het systeem zijn, automatisch gevalideerd.
 
-Callcentergebruikers kunnen verkooporders ook handmatig in de wachtstand plaatsen voor fraudecontrole, voordat ze **Indienen** selecteren. Als u handmatig een verkooporder op de pagina **Overzicht van verkooporder** in de wachtstand wilt plaatsen, selecteert u **Blokkeren** \> **Handmatige fraudewachtstand**. Vervolgens wordt u gevraagd een opmerking in te voeren om uit te leggen waarom u de order in de wachtstand plaatst. Deze opmerking wordt weergegeven in de workbench [orderwachtstanden](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds) om context te bieden aan de gebruiker die orders controleert die in de wachtstand staan om te bepalen of de order moet worden vrijgegeven.
+Callcentergebruikers kunnen verkooporders ook handmatig in de wachtstand plaatsen voor fraudecontrole, voordat ze **Indienen** selecteren. Als u handmatig een verkooporder op de pagina **Overzicht van verkooporder** in de wachtstand wilt plaatsen, selecteert u **Blokkeren** \> **Handmatige fraudewachtstand**. Vervolgens wordt u gevraagd een opmerking in te voeren om uit te leggen waarom u de order in de wachtstand plaatst. Deze opmerking wordt weergegeven in de workbench [orderwachtstanden](/dynamics365/unified-operations/retail/work-with-order-holds) om context te bieden aan de gebruiker die orders controleert die in de wachtstand staan om te bepalen of de order moet worden vrijgegeven.
 
 Naast het configureren van de optie **Ordervoltooiing inschakelen** in het kanaal moet u de fraudecontrolefunctie configureren in de callcenterparameters. Ga naar **Detailhandel en commerce** \> **Kanaalinstellingen** \> **Instellingen van callcenter** \> **Parameters van callcenter**. Stel op de pagina **Parameters van callcenter** op het tabblad **Blokkeringen** de optie **Fraudecontrole** in op **Ja**.
 
-Op het tabblad **Blokkeringen** moet u ook de [wachtstandcodes](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds) definiëren die worden toegepast op een order die handmatig of automatisch in de wachtstand wordt geplaatst voor fraudecontrole. Stel de wachtstandcodes in de velden **Handmatige wachtstandcode voor fraude** en **Wachtstandcode voor fraude** in. Mogelijk vindt u het nuttig twee unieke wachtstandcodes te maken, zodat gebruikers die in de workbench Blokkeringen werken eenvoudig kunnen filteren en onderscheid kunnen maken tussen automatische en handmatige wachtstanden.
+Op het tabblad **Blokkeringen** moet u ook de [wachtstandcodes](/dynamics365/unified-operations/retail/work-with-order-holds) definiëren die worden toegepast op een order die handmatig of automatisch in de wachtstand wordt geplaatst voor fraudecontrole. Stel de wachtstandcodes in de velden **Handmatige wachtstandcode voor fraude** en **Wachtstandcode voor fraude** in. Mogelijk vindt u het nuttig twee unieke wachtstandcodes te maken, zodat gebruikers die in de workbench Blokkeringen werken eenvoudig kunnen filteren en onderscheid kunnen maken tussen automatische en handmatige wachtstanden.
 
 Wil de fraudecontrolefunctie goed werken, dan moet u ook het veld **Minimale score** instellen. Elk fraudecriterium en elke regel die zijn gedefinieerd in het systeem heeft een score. Wanneer een verkooporder wordt gecontroleerd op fraudeovereenkomsten en er een of meer overeenkomsten worden gevonden, worden de scores opgeteld om de order een totale fraudescore te geven. Als de totale fraudescore voor een order hoger is dan de waarde van het veld **Minimale score**, wordt de order automatisch in de wachtstand geplaatst. U kunt desgewenst de overige scoregerelateerde velden op het tabblad **Blokkeringen** gebruiken om de e-mailscore, postcodescore en uitgebreide postcodescore te definiëren. Als u voor een van deze statische fraudecriteria geen score opgeeft wanneer u ze definieert op de pagina **Statische fraudegegevens**, geeft het systeem ze een score met behulp van de standaardscores die u opgeeft op het tabblad **Blokkeringen** van de pagina **parameters van callcenter**.
 
@@ -68,4 +65,7 @@ De order wordt opgeslagen, maar de vlag **Niet verwerken** wordt ervoor ingestel
 
 Als u de orders wilt weergeven en beheren die in de wachtstand staan voor fraudecontrole, gaat u naar **Detailhandel en commerce** \> **Klanten** \> **Orderwachtstanden**. Selecteer op de pagina **Orderwachtstanden** een item in de lijst en klik vervolgens op **Orderwachtstand** om een gedetailleerdere weergave te zien met informatie over de reden voor de blokkering. Op het sneltabblad **Fraudedetails** ziet u de systematische fraudecriteria die als overeenkomst zijn gevonden voor de order en de scores die zijn toegepast. Als de order handmatig in de wachtstand is geplaatst, kunt u eventuele opmerkingen beoordelen die zijn ingevoerd door de gebruiker die de order in de wachtstand plaatste door te kijken naar het gedeelte **Fraudenotities** op het sneltabblad **Notities**.
 
-Zie voor meer informatie over hoe u werkt met orders in de wachtstand [Orderwachtstanden](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
+Zie voor meer informatie over hoe u werkt met orders in de wachtstand [Orderwachtstanden](/dynamics365/unified-operations/retail/work-with-order-holds).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,27 +2,24 @@
 title: Genereren en uitvoeren van kant-en-klare rapporten
 description: Gebruik deze taakbegeleider om kant-en-klare rapporten uit te voeren in Headquarters vanuit verschillende werkgebieden en query's en verkooprapporten in Commerce.
 author: ashishmsft
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailCategoryAndProductWorkspace, RetailOrgHierarchyTreeLookup, SrsReportViewerForm
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0d148fa36a116860af8c44043d90759b8a2d76fb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 27dc29109693c06913c8107e27e79a48cf2c9db7146ff3a5919305366641af3d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411408"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774456"
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>Genereren en uitvoeren van kant-en-klare rapporten
 
@@ -64,3 +61,6 @@ Het demobedrijf dat wordt gebruikt om deze registratie te maken is USRT. Deze re
 5. Klik op Exporteren.
 6. Klik op PDF.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

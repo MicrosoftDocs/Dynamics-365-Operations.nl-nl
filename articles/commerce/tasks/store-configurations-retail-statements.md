@@ -2,27 +2,24 @@
 title: Winkelconfiguraties voor detailhandeloverzichten
 description: Deze procedure doorloopt winkelconfiguraties die van invloed zijn op hoe Commerce-overzichten worden gemaakt en geboekt.
 author: jashanno
-manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e255c58997ed1c0ad5614b15867f14714a8bcfc8
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: da862af25df241ad42b7e1ade3fdca19f6280278
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4411530"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804108"
 ---
 # <a name="store-configurations-for-retail-statements"></a>Winkelconfiguraties voor detailhandeloverzichten
 
@@ -49,3 +46,6 @@ Deze procedure doorloopt winkelconfiguraties die van invloed zijn op hoe Commerc
 17. Selecteer Ja bij **Splitsing per overzichtsmethode** om overzichten te laten maken voor elke gedefinieerde overzichtsmethode. Deze actie kan nuttig zijn als de prestaties van de boeking moeten worden verbeterd voor winkels met grote transactievolumes, aangezien er veel kleinere overzichten worden gemaakt die parallel kunnen worden verwerkt.  
 18. In het veld **Standaardklant** op het sneltabblad **Algemeen** kunt u de klantrekening selecteren die u wilt gebruiken voor verkoop aan inloopklanten.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

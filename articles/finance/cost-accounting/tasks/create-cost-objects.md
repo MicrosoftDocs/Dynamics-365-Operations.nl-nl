@@ -2,26 +2,23 @@
 title: Kostenobjecten maken
 description: Deze procedure laat zien hoe u kostenobjecten maakt door het importeren van financiële dimensies van kostenplaatsen in Kostprijsboekhouding via een gegevensconnector.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimension, CAMAXFinancialDimensionMemberProviderConfiguration, CAMDimensionMember
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 55f5f6e5048f70e744cb3dc82a2a279aae69b4af
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0215e815e3e44568fb81ab7fad9b44c219e961cb6ef68996bf43218ef817e8d9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442098"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765047"
 ---
 # <a name="create-cost-objects"></a>Kostenobjecten maken 
 
@@ -51,3 +48,6 @@ Deze procedure laat zien hoe u kostenobjecten maakt door het importeren van fina
 ## <a name="view-the-imported-cost-centers"></a>De geïmporteerde kostenplaatsen weergeven
 1. Klik op Dimensieleden weergeven.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

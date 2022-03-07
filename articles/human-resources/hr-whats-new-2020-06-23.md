@@ -1,12 +1,10 @@
 ---
 title: Nieuwe of gewijzigde functies in Dynamics 365 Human Resources (25 juni 2020)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 23 juni 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 06/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,17 +13,19 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 28eecb6289e5e895e860cffa29a55e773c6aadaa
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 49853eaaf9d4e0fa44c22b3f0927ae4ab034cf8e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528712"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802306"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>Nieuwe of gewijzigde functies in Dynamics 365 Human Resources (23 juni 2020)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -118,9 +118,9 @@ Een DMF-entiteit is nu beschikbaar voor opschorten van toerekeningen.
 
 Een nieuwe optie is beschikbaar in **Parameters personeel** om de naam van de werkruimte voor werknemerselfservice te wijzigen in Selfservice.
 
-## <a name="checklist-entities-included-in-common-data-service"></a>Check List-entiteiten opgenomen in Common Data Service
+## <a name="checklist-entities-included-in-dataverse"></a>Check List-entiteiten opgenomen in Dataverse
 
-Controlelijstentiteiten voor de processen Onboarding, Offboarding, Overdracht en Bedrijfs zijn binnenkort beschikbaar in Common Data Service.
+Controlelijstentiteiten voor de processen Onboarding, Offboarding, Overdracht en Bedrijfs zijn binnenkort beschikbaar in Dataverse.
 
 ## <a name="see-also"></a>Zie ook
 
@@ -128,3 +128,5 @@ Controlelijstentiteiten voor de processen Onboarding, Offboarding, Overdracht en
 [Overzicht van releasewave 2 van Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Het updateproces](hr-admin-setup-update-process.md)</br>
 [Functies beheren](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

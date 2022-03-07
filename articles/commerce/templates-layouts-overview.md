@@ -2,11 +2,9 @@
 title: Overzicht sjablonen en indelingen
 description: In dit onderwerp worden sjablonen en indelingen in Microsoft Dynamics 365 Commerce besproken.
 author: phinneyridge
-manager: annbe
 ms.date: 12/12/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 835b283ea93f761791745a41c74b6a12c11eea02
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 888f5295dce601d4ce5d823f14169bbcdfe48d6b
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962955"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986089"
 ---
 # <a name="templates-and-layouts-overview"></a>Overzicht sjablonen en indelingen
 
@@ -34,7 +32,7 @@ Een goede start voor het werken met sjablonen is inzicht krijgen in de functione
 
 In de volgende afbeelding ziet u de paginamodelhiërarchie achter een weergegeven webpagina.
 
-![Paginamodeldiagram](../commerce/media/page-model-diagram.png)
+![Paginamodeldiagram.](../commerce/media/page-model-diagram.png)
 
 | Entiteit        | Basisfunctie |
 |---------------|----------------|
@@ -100,7 +98,7 @@ Vooraf gedefinieerde indelingen en aangepaste indelingen worden in verschillende
 
 In de volgende illustraties ziet u scenario's voor vooraf ingestelde en aangepaste indelingen.
 
-![Vooraf ingestelde en aangepaste indelingsscenario's](../commerce/media/template-figure1.png)
+![Vooraf ingestelde en aangepaste indelingsscenario's.](../commerce/media/template-figure1.png)
 
 Zie [Werken met vooraf ingestelde indelingen](work-with-layouts.md) om vooraf gedefinieerde indelingen te gebruiken.
 
@@ -111,3 +109,6 @@ Zie [Werken met vooraf ingestelde indelingen](work-with-layouts.md) om vooraf ge
 [Werken met vooraf ingestelde indelingen](work-with-layouts.md)
 
 [Werken met publicatiegroepen](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

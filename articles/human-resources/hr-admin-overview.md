@@ -1,12 +1,10 @@
 ---
-title: Overzicht
+title: Beheer - overzicht
 description: Deze beheerdershandleiding helpt u bij het instellen en beheren van Dynamics 365 Human Resources en het oplossen van problemen.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 3eb5d686ff6edf11cdbde6c4799a99815719da71
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527856"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801138"
 ---
-# <a name="overview"></a>Overzicht
+# <a name="administration-overview"></a>Beheer - overzicht
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -41,7 +41,7 @@ Deze beheerdershandleiding helpt u bij het instellen en beheren van Dynamics 365
 
 - Gegevensintegratie instellen
   - [Een gegevensintegratietechnologie kiezen](hr-admin-integration-choose-technology.md)
-  - [Integratie met Common Data Service configureren](hr-admin-integration-common-data-service.md)
+  - [Integratie met Dataverse configureren](hr-admin-integration-common-data-service.md)
   - [Integratie met Finance configureren](hr-admin-integration-finance.md)
   - [Integratie met Dayforce configureren](hr-admin-integration-dayforce.md)
   - [Een app voor het exporteren van terugkerende gegevens maken](hr-admin-integration-recurring-data-export.md)
@@ -102,3 +102,5 @@ Deze beheerdershandleiding helpt u bij het instellen en beheren van Dynamics 365
 - [Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)
 - [Handleiding voor ontwikkelaars](hr-developer-overview.md)
 - [Gebruikershandleiding](hr-hrpro-overview.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

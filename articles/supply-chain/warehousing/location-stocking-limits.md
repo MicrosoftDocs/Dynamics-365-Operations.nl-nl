@@ -2,32 +2,29 @@
 title: Opslaglimieten van locatie
 description: Dit onderwerp beschrijft de functionaliteit voor opslaglimieten van locaties.
 author: perlynne
-manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 208662f38b06b1f230bdde5247946a9fefd57cea
-ms.sourcegitcommit: d2dea9ce480f35d0c0b10615c18862695e107d55
+ms.openlocfilehash: 239b9fa8d8e34a92d453d3387881cff7b0a11f28a3c3b1e19891ea3bd78c3d7c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "4607274"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714157"
 ---
 # <a name="location-stocking-limits"></a>Opslaglimieten van locatie
 
 [!include [banner](../includes/banner.md)]
 
-U kunt de pagina **Opslaglimieten van locatie** (**Magazijnbeheer \> Instellen \> Magazijn \> Opslaglimieten van locatie**) gebruiken om de belastingscapaciteit op magazijnlocaties te beheren zonder dat u de meer geavanceerde processen voor volumetrische berekeningen van fysieke producten hoeft te gebruiken.
+U kunt de pagina **Opslaglimieten van locatie** (**Magazijnbeheer \> Instellen \> Magazijn \> Opslaglimieten van locatie**) gebruiken om de ladingscapaciteit op magazijnlocaties te beheren zonder dat u de meer geavanceerde processen voor volumetrische berekeningen van fysieke producten hoeft te gebruiken.
 
 Het doel van de opslaglimieten van locaties is om de maximum hoeveelheid te evalueren die een locatie kan bevatten. U kunt de functie instellen op alle drie niveaus, die elk een tabblad hebben op de pagina **Opslaglimieten van locatie**:
 
@@ -84,7 +81,7 @@ In dit voorbeeld voert u een ontvangststroom voor de inkooporder uit voor twee r
 
 U ontvangt eerst een hoeveelheid van *4* eenheden *PL* in grootte *S* en controleert de opslagregellocaties voor het werk dat is gemaakt. U ontvangt vervolgens een hoeveelheid van *4* eenheden *PL* in grootte *L* en controleert de opslagregellocaties voor het werk dat is gemaakt.
 
-1. In de magazijn-app meldt u zich aan met *24* als gebruikers-id en *1* als wachtwoord.
+1. In de mobiele app Magazijnbeheer meldt u zich aan met *24* als gebruikers-id en *1* als wachtwoord.
 1. Selecteer **Inkomend** \> **Inkoop ontvangen**.
 1. Ontvang *4* *PL* van artikelnummer *D0013* in grootte *S*.
 1. Controleer het wegzetwerk dat is gemaakt. Het volgende resultaat wordt weergegeven:
@@ -104,3 +101,6 @@ Als u deze duidelijke fout wilt uitleggen, moet u de selectiecriteria voor de op
 
 > [!NOTE]
 > U kunt opslaglimieten van locaties niet gebruiken om bijvoorbeeld de aanvulling van artikelen met verschillende hoeveelheden op dezelfde locatie te beheren. Gebruik in dit geval een *aanvullingssjabloon*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

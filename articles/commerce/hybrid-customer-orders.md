@@ -2,15 +2,12 @@
 title: Hybride klantorders
 description: Een hybride klantorder is een enkele order, die producten bevat die door de klant vanuit de winkel kunnen worden getransporteerd, alsmede de producten die later worden opgehaald of verzonden.
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 261164
 ms.assetid: 9d99a5b9-4662-499a-bece-3ea1d6092934
 ms.search.region: global
@@ -18,12 +15,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1c2105aa99e0489d7643d076e84123eec628679e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a4cb448670af9a6ddce8008be008cf3b0ff76bbce65053bf4618ea6668c4568d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411463"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739524"
 ---
 # <a name="hybrid-customer-orders"></a>Hybride klantorders
 
@@ -41,3 +38,6 @@ Als een winkelwagenregel is geselecteerd en **Selectie kiezen**, **Selectie verz
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Klantorders in Modern POS (MPOS)](customer-orders-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

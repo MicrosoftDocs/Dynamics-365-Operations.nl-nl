@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 703087f5311205e18b6b8f99b847b539770160b91574b12d505822c8e16ca96c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 862b032c75145594be78fb2f4e27ea5616605c4d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770089"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792924"
 ---
 # <a name="create-and-update-store-hours"></a>Openingstijden maken en bijwerken
 
@@ -49,14 +49,14 @@ Volg deze stappen om openingstijden te configureren.
     > [!NOTE]
     > U kunt meerdere sjablonen maken met overlappende begin- en einddatums. Daarom kunt u bijvoorbeeld openingstijden voor winkels in verschillende tijdzones definiëren.
 
-    ![Het dialoogvenster Bereik toevoegen.](../dev-itpro/media/Storehours1.png "Het dialoogvenster Bereik toevoegen")
+    ![Het dialoogvenster Bereik toevoegen](../dev-itpro/media/Storehours1.png "Het dialoogvenster Bereik toevoegen")
 
 4. Koppel de sjabloon voor openingstijden aan de winkels waar deze wordt gebruikt. Selecteer in het dialoogvenster **Organisatieknooppunten kiezen** de winkels, regio's en organisaties waaraan de sjabloon moet worden gekoppeld.
 
     - U kunt slechts één sjabloon voor openingstijden aan elke winkel koppelen.
     - Gebruik de pijlknoppen om winkels, regio's of organisaties te selecteren. De kalender is beschikbaar voor de winkels of winkelketens en is ter referentie zichtbaar in het POS.
 
-    ![Dialoogvenster Organisatieknooppunten kiezen.](../dev-itpro/media/Storehours2.png "Dialoogvenster Organisatieknooppunten kiezen")
+    ![Het dialoogvenster Organisatieknooppunten kiezen](../dev-itpro/media/Storehours2.png "Dialoogvenster Organisatieknooppunten kiezen")
 
 5. Voer op de pagina **Distributieplanning** de taken **1070** en **1090** uit om de openingstijden beschikbaar te maken voor het POS.
 
@@ -75,7 +75,7 @@ Voer de volgende stappen uit om openingstijden toe te voegen aan de afgedrukte P
 
 POS-ontvangstbewijzen bevatten nu de openingstijden. Als de sjabloon feestdagen bevat, worden deze weergegeven op het ontvangstbewijs.
 
-![Voorbeeld van ontvangstbewijs.](../dev-itpro/media/Storehours3.png "Voorbeeld van ontvangstbewijs")
+![Voorbeeld van ontvangstbewijs](../dev-itpro/media/Storehours3.png "Voorbeeld van ontvangstbewijs")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

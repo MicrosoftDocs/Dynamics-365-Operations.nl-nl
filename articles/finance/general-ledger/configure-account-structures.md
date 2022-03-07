@@ -2,28 +2,25 @@
 title: Rekeningstructuren configureren
 description: Dit onderwerp biedt informatie over rekeningstructuren en financiële dimensies.
 author: aprilolson
-manager: AnnBe
 ms.date: 06/03/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c278cefd47b14c44c1949505404d08628cb7f52f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc9219009991cce3f4df9c6f7e04903f5625dd80
+ms.sourcegitcommit: b2fe67e2fe6a99a35decb04c8d62efd1e94fe1b8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442033"
+ms.lasthandoff: 12/22/2021
+ms.locfileid: "7945536"
 ---
 # <a name="configure-account-structures"></a>Rekeningstructuren configureren
 
@@ -49,9 +46,9 @@ Stel ter illustratie van een best practice voor het instellen van een rekeningst
 
 **Winst- en verliesrekeningstructuur**
 
-|Hoofdrekening          | Bedrijfseenheid    |Departement          | Kostenplaats    |
-|----------------------|-----------|----------------------|-----------|
-|400000..999999 | *;” “|*;” “|*;” “|*;” “|
+|Hoofdrekening          | Bedrijfseenheid    |Departement          | Kostenplaats    | &nbsp; |
+|----------------------|------------------|--------------------|-----------|---|
+|400000..999999 | \*;” “| \*;” “| \*;” “| \*;” “|
 
 **Geavanceerde regel voor het toevoegen van een klant**
 
@@ -68,7 +65,7 @@ De sectie **Segmenten** en **Details van toegestane waarden** biedt een rasterac
 
 De sectie **Details van toegestane waarden** begeleidt u bij het maken van criteria met **Operatoren**, zoals begint met, valt tussen, omvat en vele andere.
 
-[![Waarden toestaan](./media/account.png)](./media/account.png) 
+[![Waarden toestaan.](./media/account.png)](./media/account.png) 
 
 Toegestane waarden worden standaard opgenomen op een invoerpagina voor journalen of boekhoudingsverdeling als er geen andere mogelijke waarden om te selecteren zijn op basis van de ingestelde rekeningstructuur.
 
@@ -107,3 +104,6 @@ Bij het instellen van uw rekeningstructuren zijn er enkele aanbevelingen die u k
 Wanneer u tevreden bent met uw nieuwe instellingen of een wijziging in de rekeningstructuur, moet u deze activeren. Als een rekeningstructuur is toegewezen aan een grootboek, kan deze activering een langdurig proces zijn, omdat alle niet-geboekte transacties in het systeem moeten worden gesynchroniseerd met de nieuwe structuur. Geboekte transacties worden niet beïnvloed door wijzigingen in de rekeningstructuur.
 
 Zie voor meer informatie [Uw rekeningschema plannen](plan-chart-of-accounts.md), [Financiële dimensies](financial-dimensions.md) en [Rekening- en dimensiecombinaties invoeren (gesegmenteerd invoerbesturingselement)](enter-account-dimension-combinations-segmented-entry-control.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

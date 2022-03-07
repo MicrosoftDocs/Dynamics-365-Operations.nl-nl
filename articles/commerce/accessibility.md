@@ -2,36 +2,30 @@
 title: Toegankelijkheidsfuncties en -mogelijkheden
 description: Dit onderwerp bevat informatie over de toegankelijkheidsfuncties en -mogelijkheden in Microsoft Dynamics 365 Commerce.
 author: BrianShook
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f6bca3589da4055eef000fc3b2c88b93eabb4d5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 77c5b2e40c3dd16b95afe421d4515c45af0e81358940c29a14c03754c39a076e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411298"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716271"
 ---
-# <a name="accessibility-features-and-capabilities"></a>Toegankelijkheidsfuncties en -mogelijkheden
-
+# <a name="accessibility-features-and-capabilities"></a>Toegankelijksfuncties en -voorzieningen
 
 [!include [banner](includes/banner.md)]
 
 Dit onderwerp bevat informatie over de toegankelijkheidsfuncties en -mogelijkheden in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 Toegankelijkheidsfuncties en -mogelijkheden bieden de functionele middelen voor alle gebruikers om acties te openen en uit te voeren, zodat ze hun doelen kunnen bereiken. Dit brede scala aan gebruikers vereist mogelijk ondersteunende hulpmiddelen voor gehoor, zicht, mobiliteit of neurodiversiteit.
 
@@ -101,11 +95,11 @@ Volg deze stappen om het kenmerk **Minimumleeftijd** voor een video-asset in te 
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-[Toegankelijkheid in formulieren, producten en besturingselementen](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/user-interface/enable-accessibility)
+[Toegankelijkheid in formulieren, producten en besturingselementen](/dynamics365/unified-operations/dev-itpro/user-interface/enable-accessibility)
 
 [Microsoft Accessibility Center](https://www.microsoft.com/accessibility)
 
-[Dynamics 365 Accessibility Center](https://docs.microsoft.com/dynamics365/get-started/accessibility/index)
+[Dynamics 365 Accessibility Center](/dynamics365/get-started/accessibility/index)
 
 [Conformiteitsoverzicht](compliance-overview.md)
 
@@ -114,3 +108,6 @@ Volg deze stappen om het kenmerk **Minimumleeftijd** voor een video-asset in te 
 [Een pagina met het privacybeleid toevoegen](add-privacy-page.md)
 
 [Gebruikers-id's vervangen die zijn gekoppeld aan wijzigingen in bijgehouden inhoud](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

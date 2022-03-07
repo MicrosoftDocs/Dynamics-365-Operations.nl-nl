@@ -2,28 +2,28 @@
 title: Informatie over letsel en ziekten instellen
 description: Werkgevers moeten weten wanneer hun werknemers een letsel oplopen of ziek worden vanwege aan gevaren op de werkplek.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMInjurySetup, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 117ae1d690221dbbe0cf4287a3f986cdb3606623
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 19512a075a9b863a84ca3e9db4a06f7eac047140
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417994"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802498"
 ---
 # <a name="set-up-injury-and-illness-information"></a>Informatie over letsel en ziekten instellen
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -65,3 +65,6 @@ Werkgevers moeten weten wanneer hun werknemers een letsel oplopen of ziek worden
     * De rapporteringsinstantie is de instantie waarbij het incident moet worden gerapporteerd. Schakel het selectievakje in voor de instantie die de standaardinstantie is waaraan u letsel en ziekte rapporteert.  
 23. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

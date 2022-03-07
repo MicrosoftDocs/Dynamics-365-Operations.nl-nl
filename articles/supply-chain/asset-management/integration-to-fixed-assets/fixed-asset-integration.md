@@ -1,23 +1,25 @@
 ---
 title: Beheer van bedrijfsmiddelen integreren met vaste activa
 description: In dit onderwerp wordt uitgelegd hoe u de modules Asset Management en Vaste activa integreert, zodat u vaste activa kunt koppelen aan onderhoudsactiva.
-author: johanhoffmann
+author: kamaybac
+manager: tfehr
 ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: johanho
+ms.author: dabourq
 ms.search.validFrom: 2020-04-17
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 40e4fdce50b335668a53d2efe53b7cf6c66f364f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: 879950b9aeb345fcd59dfe73d3963a44607c7ac2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567578"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994224"
 ---
 # <a name="integrate-asset-management-with-fixed-assets"></a>Beheer van bedrijfsmiddelen integreren met vaste activa
 
@@ -112,6 +114,3 @@ Volg deze stappen om een bestaande koppeling tussen een onderhoudsactivum en een
 1. Zoek het vaste activum en open het.
 1. Wis op het sneltabblad **Vast activum** de waarde uit het veld **Functionele locatie**.
 1. Selecteer **Opslaan** in het actievenster.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

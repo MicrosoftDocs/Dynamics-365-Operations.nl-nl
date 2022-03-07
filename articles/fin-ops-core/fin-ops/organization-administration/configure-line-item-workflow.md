@@ -2,11 +2,9 @@
 title: Workflows voor regelitems configureren
 description: In dit onderwerp wordt uitgelegd hoe u een workflowelement voor regelartikelen configureert.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c19693151399fc02ea9562757af7fc24124c9b6c
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 2d6d9dcb99e00d4ce3f99e525a72421cb12af178
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798824"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070116"
 ---
 # <a name="configure-line-item-workflows"></a>Workflows voor regelitems configureren
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 In dit onderwerp wordt uitgelegd hoe u een workflowelement voor regelartikelen configureert.
 
@@ -54,3 +55,6 @@ Volg deze stappen om op te geven of dezelfde workflow wordt gebruikt om alle reg
     6. Klik op **Testen** om te controleren of de door u ingevoerde set voorwaarden correct is ingesteld. Seelecteer op de pagina **Workflowvoorwaarde testen** in het gebied **Voorwaarde valideren** een record en klik op **Testen**. Het systeem evalueert de registratie en bepaalt of het voldoet aan de voorwaarden die u hebt gedefinieerd. Klik op **OK** of **Annuleren** om terug te gaan naar de pagina **Eigenschappen**.
 
     Selecteer op het tabblad **Workflow** de workflow die u wilt gebruiken om regelartikelen te verwerken die aan de set voorwaarden voldoen die u hebt gedefinieerd.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

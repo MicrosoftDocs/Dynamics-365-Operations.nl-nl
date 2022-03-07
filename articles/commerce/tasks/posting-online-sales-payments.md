@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailChannelOperationsWorkspace, RetailOperatingUnitPicker, SysRecurrence
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e3bac0cab764436a618fa570901c84ab720dbc86
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e24c2be8a1b0da3c34919fdb44aa744f8e7fc87c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411419"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5215407"
 ---
 # <a name="posting-of-online-sales-and-payments"></a>Boeking van online verkopen en betalingen
 
@@ -109,3 +108,6 @@ Deze procedure doorloopt de configuratie en uitvoering van een terugkerende batc
 - RetailTransactionMarkupTrans
 - RetailTransactionPaymentTrans
 - RetailTransactionAttributeTrans
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

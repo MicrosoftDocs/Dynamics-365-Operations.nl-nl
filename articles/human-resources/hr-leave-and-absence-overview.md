@@ -2,15 +2,12 @@
 title: Overzicht van verlof en verzuim
 description: In Dynamics 365 Human Resources biedt de werkruimte Verlof en verzuim een flexibel raamwerk voor het maken van nieuwe verlofplannen. Het biedt ook werkstromen voor het beheren van aanvragen en een intuïtieve selfservice pagina voor werknemers om verlof aan te vragen.
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ea58c3a08e74eea1ab51aa19a5a28445a9bcbb04
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f27c96040e13fede86ee91fe3c86da41aae2fb9b
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418036"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6054927"
 ---
 # <a name="leave-and-absence-overview"></a>Overzicht van verlof en verzuim
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources helpt u uitstekende verlofvergoedingen aan uw werknemers te bieden. De werkruimte **Verlof en verzuim** biedt een flexibel raamwerk voor het maken van nieuwe verlofplannen. Het biedt ook werkstromen voor het beheren van aanvragen en een intuïtieve selfservice pagina voor werknemers om verlof aan te vragen. Met Analytics kunt u de saldi en het gebruik van uw verlofplannen in uw organisatie meten en bijhouden.
 
@@ -54,3 +53,6 @@ Uw werknemers kunnen verlofaanvragen indienen en u kunt deze beheren in het werk
 [Verlof aanvragen](hr-employee-self-service-request-time-off.md)
 [Verlof- en verzuimaanvragen beheren](hr-employee-self-service-manage-requests.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

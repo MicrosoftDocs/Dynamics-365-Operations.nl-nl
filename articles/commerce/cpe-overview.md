@@ -2,27 +2,24 @@
 title: Overzicht van de evaluatieomgeving voor Dynamics 365 Commerce
 description: Dit onderwerp biedt een overzicht van de evaluatieomgeving van Microsoft Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
+ms.reviewer: josaw
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: v-chgri
+ms.author: josaw
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 25c0574e8d4502bcb846fba0ddf913d81eded87b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c890d7c49b6607ab0cbad536bbf8a3649465a7c1
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411271"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193487"
 ---
 # <a name="dynamics-365-commerce-evaluation-environment-overview"></a>Overzicht van de evaluatieomgeving voor Dynamics 365 Commerce
 
@@ -32,8 +29,6 @@ Dit onderwerp biedt een overzicht van de evaluatieomgeving van Microsoft Dynamic
 
 > [!NOTE]
 > Commerce-evaluatieomgevingen zijn doorgaans niet beschikbaar en worden aan partners en klanten op aanvraag ter beschikking gesteld. Neem contact op met uw Microsoft-partner voor meer informatie.
-
-## <a name="overview"></a>Overzicht
 
 De evaluatieomgeving van Commerce is een optionele end-to-end omgeving van Dynamics 365 Commerce waarmee partners en potentiële klanten het Commerce-product kunnen uitproberen.
 
@@ -64,3 +59,6 @@ Zie [Een evaluatieomgeving van Commerce inrichten](provisioning-guide.md) om de 
 [Optionele functies voor een Dynamics 365 Commerce-evaluatieomgeving configureren](cpe-optional-features.md)
 
 [Veelgestelde vragen over evaluatieomgeving voor Dynamics 365 Commerce](cpe-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

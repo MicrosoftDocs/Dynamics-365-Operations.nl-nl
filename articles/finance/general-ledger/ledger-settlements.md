@@ -1,77 +1,97 @@
 ---
 title: Grootboekvereffeningen
 description: In dit onderwerp wordt uitgelegd hoe u de grootboekvereffeningspagina gebruikt om grootboektransacties te vereffenen en vereffeningen om te keren.
-author: mikefalkner
-manager: aolson
-ms.date: 09/28/2018
+author: kweekley
+ms.date: 01/31/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerTransSettlement
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kweekley
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: d41a69bed3d1340736cc7df35aa3ded032d4d79d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e98b012210338e7f18cb874eefbc8a023aa4428b
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441875"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075319"
 ---
 # <a name="ledger-settlements"></a>Grootboekvereffeningen
 
 [!include [banner](../includes/banner.md)]
 
-Met grootboekvereffeningen kunt u debet- en credittransacties in het grootboek afstemmen en markeren als vereffend. Op deze manier kunt u ervoor zorgen dat verwante transacties zijn gewist. U kunt ook vereffeningen omkeren als deze per ongeluk zijn aangebracht.
+Grootboekvereffening is het proces waarin debet- en credittransacties in het grootboek worden afgestemd. De vereffening van de debet- en creditbedragen wordt gebruikt om het saldo van de grootboekrekening te vereffenen met de gedetailleerde transacties waaruit het saldo bestaat.
 
-## <a name="enable-advanced-ledger-settlements"></a>Geavanceerde grootboekvereffeningen inschakelen
+Vereffende transacties kunnen worden uitgesloten van onderzoeken en rapporten. Op deze manier is het eenvoudiger om de openstaande grootboektransacties te analyseren waaruit het saldo van de grootboekrekening bestaat.
 
-De pagina geavanceerde grootboekvereffeningen biedt extra mogelijkheden voor filteren en selecteren van transacties. Als u geavanceerde grootboekvereffeningen wilt inschakelen, volgt u deze stappen.
+> [!IMPORTANT] 
+> De modules Klanten en Leveranciers werken ook met vereffening van facturen en betalingen. Wanneer vereffening plaatsvindt in de subjournalen van Klanten en Leveranciers, worden de bijbehorende grootboekposten niet automatisch vereffend.
 
-1. Selecteer **Grootboek** \> **Grootboek instellen** \> **Grootboekparameters**. 
-2. Stel op het tabblad **Grootboekvereffeningen** de optie **Geavanceerde grootboekvereffening** in op **Ja** om de geavanceerde grootboekvereffening in te schakelen. De pagina **Geavanceerde grootboekvereffeningen** wordt gebruikt wanneer u **Grootboekvereffeningen** selecteert in de **periodieke taken**. 
-3. U moet de lijst met rekeningen invoeren die moeten worden gebruikt voor grootboekvereffeningen voor elk rekeningschema. Deze lijst wordt gebruikt voor het filteren van de transacties die worden weergegeven op de pagina **Grootboekvereffeningen**. Selecteer in de lijst **Rekeningschema's** een rekeningschema en selecteer vervolgens **Nieuw** om nieuwe rekeningen aan de lijst toe te voegen.
+## <a name="ledger-settlement-features"></a>Functies voor grootboekvereffening
+In Microsoft Dynamics 365 Finance versie 10.0.21 is de optie **Geavanceerde grootboekvereffening inschakelen** verwijderd van de pagina **Grootboekparameters**. Geavanceerde grootboekvereffening is nu altijd ingeschakeld.
+In Finance versie 10.0.25 is de functie **Bewustzijn tussen grootboekvereffening en jaarafsluiting van het grootboek** geïntroduceerd. Met deze functie wordt de basisfunctionaliteit in zowel grootboekvereffening als jaarafsluiting van het grootboek gewijzigd. Voordat u deze functie inschakelt in het werkgebied **Functiebeheer**, raadpleegt u [Bewustzijn tussen grootboekvereffening en jaarafsluiting van het grootboek](awareness-between-ledger-settlement-year-end-close.md).
 
-## <a name="settle-transactions-by-using-the-advanced-ledger-settlements-page"></a>Transacties vereffenen met behulp van de pagina Geavanceerde grootboekvereffeningen
+## <a name="set-up-ledger-settlement"></a>Grootboekvereffening instellen
+U moet de hoofdrekeningen selecteren waarvoor u grootboekvereffening wilt uitvoeren. U kunt deze hoofdrekeningen op twee manieren selecteren.
 
+1. Ga naar **Grootboek** > **Grootboek instellen** > **Grootboekparameters**.
+2. Selecteer op het tabblad **Grootboekvereffeningen** het rekeningschema waaruit u de hoofdrekeningen wilt selecteren.
+3. Selecteer de hoofdrekeningen waarvoor u grootboekvereffening wilt uitvoeren. Omdat rekeningschema´s globaal zijn, hebben alle bedrijven waaraan het geselecteerde rekeningschema is toegewezen, dezelfde hoofdrekeningen voor grootboekvereffening geselecteerd.
+
+  – of –
+
+1. Ga naar **Grootboek** > **Periodieke taken** > **Grootboekvereffeningen**.
+2. Selecteer **Rekeningen voor grootboekvereffeningen**.
+3. Selecteer in het dialoogvenster de rekeningschema´s en hoofdrekeningen waarvoor u grootboekvereffening wilt uitvoeren. Dit dialoogvenster is een snelkoppeling. Alle hoofdrekeningen die u hier toevoegt, worden ook weergegeven op de pagina **Grootboekparameters**.
+
+U kunt op elk gewenst moment dezelfde basisprocedures gebruiken om hoofdrekeningen te verwijderen uit grootboekvereffening. Het verwijderen van een hoofdrekening heeft geen effect op eerdere grootboekvereffeningen. De hoofdrekening en transacties worden echter niet meer weergegeven op de pagina **Grootboekvereffening**.
+
+## <a name="settle-transactions"></a><a name="settle-transactions"></a>Transacties vereffenen
 Als u grootboektransacties wilt vereffenen, voert u de volgende stappen uit.
 
-1. Selecteer **Grootboek** \> **Periodieke taken** \> **Grootboekvereffeningen**.
+1. Ga naar **Grootboek** > **Periodieke taken** > **Grootboekvereffeningen**.
 2. Stel de filters bovenaan de pagina in:
 
-    - Selecteer een datumbereik of selecteer **Datumintervalcode** om automatisch het datumbereik in te vullen.
-    - Wijzig de boekingslaag desgewenst.
-    - Als u de grootboekrekening en dimensies afzonderlijk wilt weergeven, selecteert u een financiële dimensieset.
+    - Selecteer een datumbereik. U kunt ook een datumintervalcode selecteren om automatisch in het datumbereik in te vullen. Het is niet aan te raden grootboekvereffening uit te voeren voor transacties die meerdere fiscale jaren beslaan.
+    - Wijzig zo nodig de boekingslaag. U kunt geen transacties vereffenen in verschillende boekingslagen.
+    - Als u de hoofdrekening en dimensies afzonderlijk wilt weergeven, selecteert u een financiële dimensieset.
 
-3. Selecteer **Transacties weergegeven** om alle transacties weer te geven die overeenkomen met de filters die u hebt ingesteld, en de lijst met rekeningen die u hebt opgegeven toen u het rekeningschema instelde in de vorige sectie. Als u een van de filters of de dimensiesets wijzigt, moet u **Transacties weergegeven** opnieuw selecteren.
-4. Selecteer een of meer regels die u voor vereffening overweegt. De waarde van het veld **Geselecteerd bedrag** boven aan de pagina wordt verhoogd of verlaagd met het totale bedrag op de regels die u hebt geselecteerd.
-5. Nadat u klaar bent met het selecteren van transacties, selecteert u **Selectie markeren**. Er wordt een vinkje weergegeven in de kolom **Gemarkeerd** voor elke transactie die u hebt geselecteerd. De waarde van het veld **Gemarkeerd bedrag** boven aan het raster wordt bovendien verhoogd of verlaagd met het totale bedrag op de regels die u hebt gemarkeerd.
-6. Wanneer de waarde **Gemarkeerd bedrag** **0** (nul) is, selecteert u **Gemarkeerde transacties vereffenen**. De status van de gemarkeerde transacties wordt bijgewerkt in **Vereffend**.
+3. Selecteer **Transacties weergegeven** om alle transacties weer te geven die overeenkomen met de filters die u hebt ingesteld, en de lijst met rekeningen die u hebt opgegeven toen u het rekeningschema instelde in de vorige sectie.
+
+    - Als u een van de filters of de dimensiesets wijzigt, moet u **Transacties weergegeven** opnieuw selecteren.
+    - Als u de transacties wilt filteren op een afzonderlijke hoofdrekening, gebruikt u het filter in het veld **Grootboekrekening**. Het is niet aan te raden grootboekvereffening uit te voeren voor transacties die naar verschillende hoofdrekeningen worden geboekt.
+
+4. Selecteer regels voor vereffening. De waarde in het veld **Geselecteerd bedrag** bovenaan de pagina wordt verhoogd of verlaagd om het totale bedrag op de geselecteerde regels weer te geven.
+5. Als u klaar bent met het selecteren van transacties, selecteert u **Selectie markeren**. Er wordt een vinkje weergegeven in de kolom **Gemarkeerd** voor elke geselecteerde transactie. De waarde in het veld **Gemarkeerd bedrag** bovenaan het raster wordt bovendien verhoogd of verlaagd om het totale bedrag op de gemarkeerde regels weer te geven.
+6. Als de waarde in het veld **Gemarkeerd bedrag** **0** (nul) is, selecteert u **Gemarkeerde transacties vereffenen**. De status van de gemarkeerde transacties wordt bijgewerkt in **Vereffend**.
+
+    > [!IMPORTANT]
+    > Alle transacties die u hebt gemarkeerd voor vereffening voor de actieve rechtspersoon worden vereffend, zelfs als deze momenteel niet worden weergegeven op de pagina Grootboekvereffening omdat u een filter hebt toegepast.
 
 ## <a name="make-transactions-easier-to-find"></a>Transacties eenvoudiger te vinden maken
+De pagina **Grootboekvereffeningen** bevat mogelijkheden waardoor het gemakkelijker wordt om de transacties weer te geven die u nodig hebt voor vereffening.
 
-De pagina **Grootboekvereffeningen** bevat mogelijkheden waardoor het gemakkelijker wordt om de transacties te zien die u nodig hebt voor vereffening.
-
-- De knop **Markering van selectie opheffen** wist het veld **Gemarkeerd** voor alle regels die zijn geselecteerd.
-- Met het filter **Gemarkeerd** kunt u transacties filteren op basis van de vraag of het veld **Gemarkeerd** voor hen is geselecteerd of gewist.
-- Met het filter **Status** kunt u transacties filteren op de vraag of de status ervan **Vereffend** of **Niet vereffend** is.
-- Met de knop **Sorteren op absoluut bedrag** sorteert u de bedragen op absolute waarde, zodat u debet- en creditbedragen kunt groeperen die dezelfde waarde hebben.
+- Met het filter **Gemarkeerd** kunt u transacties filteren op basis van de vraag of het selectievakje **Gemarkeerd** ervoor is ingeschakeld.
+- Met het filter **Status** kunt u transacties filteren op basis van de status ervan.
+- Selecteer **Sorteren op absoluut bedrag** om de bedragen op absolute waarde te sorteren. Op deze manier kunt u debet- en creditbedragen met hetzelfde bedrag groeperen.
 
 ## <a name="reverse-a-settlement"></a>Een vereffening omkeren
-
 U kunt een vereffening omkeren die ten onrechte is aangebracht.
 
-1. Volg stap 1 tot en met 3 in de sectie 'Transacties vereffenen met behulp van de pagina Geavanceerde grootboekvereffeningen' om de transacties weer te geven die u zoekt.
+1. Voer stap 1 tot en met 3 uit in het gedeelte [Transacties vereffenen](#settle-transactions) om de transacties weer te geven waarin u geïnteresseerd bent.
 2. Selecteer in het filter **Status** **Vereffend**.
-3. Selecteer een of meer regels die u voor omkering overweegt. De waarde van het veld **Geselecteerd bedrag** boven aan de pagina wordt verhoogd of verlaagd met het totale bedrag op de regels die u hebt geselecteerd.
-4. Nadat u klaar bent met het selecteren van transacties, selecteert u **Selectie markeren**. Er wordt een vinkje weergegeven in de kolom **Gemarkeerd** voor elke transactie die u hebt geselecteerd. De waarde van het veld **Gemarkeerd bedrag** boven aan de pagina wordt bovendien verhoogd of verlaagd met het totale bedrag op de regels die u hebt gemarkeerd.
-5. Wanneer de waarde **Gemarkeerd bedrag** **0** (nul) is, selecteert u **Gemarkeerde transacties omkeren**. De status van de gemarkeerde transacties wordt bijgewerkt in **Niet vereffend**.
+3. Selecteer regels voor terugboeking.
+4. Selecteer **Gemarkeerde transacties omkeren**. De status van alle transacties met dezelfde vereffenings-id wordt gewijzigd in **Niet vereffend**.
 
-## <a name="update-the-list-of-accounts-that-are-included-in-the-list-of-transactions"></a>De lijst met rekeningen bijwerken die zijn opgenomen in de lijst met transacties
+    > [!IMPORTANT]
+    > Alle transacties met dezelfde vereffenings-id worden omgekeerd, zelfs als ze niet zijn gemarkeerd. Er zijn bijvoorbeeld vier regels gemarkeerd en vereffend. Alle vier de regels hebben dezelfde vereffenings-id. Als u een van deze vier regels markeert en vervolgens **Gemarkeerde transacties omkeren** selecteert, worden alle vier de regels omgekeerd.
 
-Selecteer **Rekeningen voor grootboekvereffeningen** om een dialoogvenster te openen waarin u de rekeningen kunt bewerken die zijn opgenomen in de lijst met transacties. Selecteer **Nieuw** om nieuwe rekeningen aan de lijst toe te voegen. Deze lijst wordt gebruikt voor het filteren van de transacties die worden weergegeven op de pagina **Grootboekvereffeningen**.
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

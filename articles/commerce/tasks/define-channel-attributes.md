@@ -2,11 +2,9 @@
 title: " Afzetkanaalkenmerken definiëren"
 description: Verrijk het kanaal door kanaal- en productkenmerken toe te voegen.
 author: jashanno
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailInternalOrganization, EcoResAttributeGroup, EcoResAttributeGroupAttribute, RetailAddChannelItems, RetailCatalogProductAttributeValue, RetailMedia
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f50e925689f11f67285c956aec1a7ece235cdb74
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e99c59eba133427dad6d6a27a96b64f06621c932924293e3978d7f540e86153e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964690"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726402"
 ---
 # <a name="define-channel-attributes"></a> Afzetkanaalkenmerken definiëren
 
@@ -32,7 +30,7 @@ Verrijk het kanaal door kanaal- en productkenmerken toe te voegen. U moet het ka
 
 ## <a name="define-channel-product-attribute"></a>Definieer kanaalproductkenmerk.
 1. Ga naar Retail en Commerce > Kanaalinstellingen > Kanaalcategorieën en productkenmerken.
-2. Selecteer in de structuur 'Contoso Retail\Fashion\Houston'.
+2. In de structuur selecteert u 'Contoso Retail\Fashion\Houston'.
 3. Klik op Bewerken.
 4. Typ of selecteer een waarde in het veld Categoriehiërarchie.
     * De navigatiehiërarchie wordt gebruikt voor het navigeren van het product in uw kanalen.  
@@ -71,3 +69,6 @@ Verrijk het kanaal door kanaal- en productkenmerken toe te voegen. U moet het ka
 33. Klik op OK.
 34. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

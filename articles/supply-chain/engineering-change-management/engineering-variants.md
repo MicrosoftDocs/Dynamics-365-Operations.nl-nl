@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 7921983a965af5557f54f608418c8ec922256ba6
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: e24bceac9457212ecaafda876d19ba62df049371
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103633"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7471831"
 ---
 # <a name="generate-variants-for-engineering-products"></a>Varianten genereren voor technische producten
 
@@ -23,9 +23,15 @@ ms.locfileid: "8103633"
 
 In dit onderwerp wordt beschreven hoe u varianten voor technische producten genereert.
 
-## <a name="turn-variant-generation-for-engineering-products-on-or-off"></a>Varianten genereren voor technische producten in- of uitschakelen
+## <a name="turn-on-variant-generation-for-engineering-products"></a>Varianten genereren voor technische producten inschakelen
 
-Voor deze functie moeten de functies *Beheer voor technische wijzigingen* en *Varianten genereren voor technische producten* zijn ingeschakeld voor uw systeem. Zie [Overzicht van technisch wijzigingsbeheer](product-engineering-overview.md) voor meer informatie over het in- of uitschakelen van deze functies.
+Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
+
+- **Module:** *beheer technische wijzigingen*
+- **Naam eigenschap:** *Varianten genereren voor technische producten*
+
+> [!IMPORTANT]
+> De functie *Varianten genereren voor technische producten* is alleen zichtbaar in het systeem nadat u de configuratiesleutel *Engineering Change Management* hebt ingeschakeld. Raadpleeg [Overzicht van technisch wijzigingsbeheer](product-engineering-overview.md) voor instructies.
 
 ## <a name="generate-one-or-more-new-variants-of-an-engineering-product"></a>Een of meer nieuwe varianten van een technisch product genereren
 

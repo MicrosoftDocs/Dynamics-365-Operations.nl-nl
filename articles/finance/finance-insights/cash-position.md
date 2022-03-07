@@ -2,39 +2,35 @@
 title: Kaspositie (preview)
 description: In dit onderwerp wordt beschreven hoe u met de functie voor cashflowprognoses de kaspositie van een organisatie voor bepaalde tijdstippen kunt voorspellen. Ook worden de opties beschreven die beschikbaar zijn voor het weergeven van prognoses voor verschillende perioden.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 64b8dcd43024e5c26d33bf12c5fe198711adde56
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 1935be3b2d52e19b764e6afdf00a8bc546f801df
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645885"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638747"
 ---
 # <a name="cash-position-preview"></a>Kaspositie (preview)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Kaspositie is de projectie van de cashflowprognose voor de korte termijn. Dit is gebaseerd op de projectie van contante ontvangsten van klanten die openstaande facturen en orders betalen, en ook op de prognoses voor contante betalingen aan leveranciers voor inkoopfacturen en orders.
 
 Bij het voorspellen van de betalingen van klanten, worden de voorspellingsmodellen voor klantbetalingen gebruikt. Zonder betalingsvoorspellingen wordt de gemiddelde tijd die voor elke klant nodig is om een klantfactuur te converteren naar een betaling, gebruikt om een betalingsdatum te berekenen. Voor openstaande klantorders wordt de factuurdatum berekend op basis van het gemiddelde aantal dagen voor de orderregels die per klant moeten worden gefactureerd. Vervolgens wordt de factuurdatum als invoer gebruikt voor de functionaliteit voor betalingsvoorspelling. Met de functionaliteit voor het voorspellen van klantbetalingen wordt een betalingsdatum voor elke orderregel berekend. 
 
-<*Heb tekst van Jarek of Dave nodig over hoe betalingsvoorspellingen naar een datum worden geconverteerd*> De betalingsdatum voor openstaande facturen wordt [*geraamd*] op basis van de betalingsvoorspellingen door een datum te selecteren die overeenkomt met het vijftigste percentiel van de cumulatieve verdelingsfunctie die uit de waarschijnlijkheid van de voorspelling van de bucket wordt verkregen.
+De betalingsdatum voor openstaande facturen wordt geraamd op basis van de betalingsvoorspellingen door een datum te selecteren die overeenkomt met het vijftigste percentiel van de cumulatieve verdelingsfunctie die uit de waarschijnlijkheid van de voorspelling van de bucket wordt verkregen.
 
 Een vergelijkbare aanpak wordt gebruikt om betalingen aan leveranciers te voorspellen. Het systeem berekent voor elke leverancier de gemiddelde tijd die nodig is om een leveranciersfactuur om te rekenen naar een betaling. Dat aantal dagen wordt vervolgens gebruikt om de betalingsdatum te berekenen. Voor openstaande leveranciersorders wordt de factuurdatum berekend door het gemiddelde aantal dagen te nemen dat is vereist om orderregels te converteren naar een factuur voor elke leverancier. Het systeem berekent vervolgens de betalingsdatum door voor elke leverancier de gemiddelde tijd te nemen die nodig is om een leveranciersfactuur om te rekenen naar een betaling.
 
@@ -51,3 +47,5 @@ Maak een momentopname om de contante positie op te slaan en te bewerken. Zie voo
 
 #### <a name="privacy-notice"></a>Privacyverklaring
 Previews (1) bieden mogelijk minder privacy- en beveiligingsmaatregelen dan de service Dynamics 365 Finance and Operations, (2) worden niet opgenomen in de serviceovereenkomst voor deze service, (3) mogen niet worden gebruikt voor de verwerking van persoonsgegevens of andere gegevens die aan juridische of wettelijke nalevingvereisten zijn onderworpen en (4) worden slechts beperkt ondersteund.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

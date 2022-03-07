@@ -1,12 +1,10 @@
 ---
-title: De Help-ervaring voor Finance and Operations-apps configureren
-description: Dit onderwerp biedt informatie over de onderdelen van het Help-systeem voor sommige Microsoft Dynamics 365-apps. Ook wordt uitgelegd hoe u deze apps verbindt en u vindt een overzicht van het proces voor het maken van aangepaste Help.
+title: De Help-ervaring voor apps voor financiële en bedrijfsactiviteiten configureren
+description: Dit onderwerp biedt informatie over de onderdelen van het Help-systeem voor sommige Microsoft Dynamics 365-apps.
 author: margoc
-manager: AnnBe
-ms.date: 05/11/2020
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
@@ -17,31 +15,34 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d000c3f801d382921a027c8ee259fd44ac5cdc80
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: bac06e258a96bb50bb6de7957e3e5ed07e966127
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798275"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071003"
 ---
-# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>De Help-ervaring voor Finance and Operations-apps configureren
+# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>De Help-ervaring voor apps voor financiële en bedrijfsactiviteiten configureren
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp vindt u een overzicht van de onderdelen van het Help-systeem voor Finance and Operations-apps, zoals Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce en Dynamics 365 Human Resources. Ook wordt uitgelegd hoe u deze onderdelen verbindt en u vindt een overzicht van het proces voor het maken van aangepaste Help.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+In dit onderwerp vindt u een overzicht van de onderdelen van het Help-systeem voor apps voor financiële en bedrijfsactiviteiten, zoals Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce en Dynamics 365 Human Resources. Ook wordt uitgelegd hoe u deze onderdelen verbindt en u vindt een overzicht van het proces voor het maken van aangepaste Help.
 
 ## <a name="help-architecture"></a>Help-architectuur
 
-Finance and Operations-apps bevatten conceptuele overzichten en andere onderwerpen die op de [https://docs.microsoft.com/dynamics365](/dynamics365/)-site worden gepubliceerd. Deze inhoud kan vervolgens worden geopend vanuit het deelvenster **Help** in het product. De volgende afbeelding toont de onderdelen van het Help-systeem.
+Apps voor financiële en bedrijfsactiviteiten bevatten conceptuele overzichten en andere onderwerpen die op de site met [Microsoft Dynamics 365-documentatie](/dynamics365/) worden gepubliceerd. Deze inhoud kan vervolgens worden geopend vanuit het deelvenster **Help** in het product. De volgende afbeelding toont de onderdelen van het Help-systeem.
 
-[![Help-architectuur](./media/help-architecture.png)](./media/help-architecture.png)
+[![Help-architectuur.](./media/help-architecture.png)](./media/help-architecture.png)
 
 De Help van het product haalt artikelen op van docs.microsoft.com en andere verbonden websites. Daarnaast worden taakbegeleidingen opgehaald die zijn opgeslagen in Modelleertool bedrijfsprocessen in Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="adding-task-guides"></a>Taakbegeleidingen toevoegen
 
 > [!NOTE]
-> Het tabblad **Taakbegeleidingen** is momenteel niet beschikbaar in Human Resources of Commerce. <!--We are currently working to enable this functionality in a future release.--> De taakbegeleidingen in de ervaring Aan de slag in Human Resources blijven echter beschikbaar om de basisfunctionaliteit uit te leggen. Procedurele Help is beschikbaar op de site [https://docs.microsoft.com/dynamics365](/dynamics365/) voor zowel Human Resources als Commerce.
+> Het tabblad **Taakbegeleidingen** is momenteel niet beschikbaar in Human Resources of Commerce. <!--We are currently working to enable this functionality in a future release.--> De taakbegeleidingen in de ervaring Aan de slag in Human Resources blijven echter beschikbaar om de basisfunctionaliteit uit te leggen. Op de site [Microsoft Dynamics 365-documentatie](/dynamics365/) is procedurele Help beschikbaar voor zowel Human Resources als Commerce.
 
 Op de pagina **Systeemparameters** kunnen systeembeheerders de toegang tot relevante bibliotheken voor taakbegeleidingen configureren voor een implementatie.
 
@@ -49,20 +50,20 @@ Op de pagina **Systeemparameters** kunnen systeembeheerders de toegang tot relev
 > - Voordat u Help kunt configureren, moet u zich aanmelden met een account in de dezelfde tenant als de tenant waarin de app is geïmplementeerd.
 > - Een LCS-bibliotheek kan niet worden verbonden vanuit een exemplaar van de app die wordt uitgevoerd op een lokale virtuele harde schijf (VHD).
 
-[![Formulier Systeemparameters met Help-instellingen](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
+[![Formulier Systeemparameters met Help-instellingen.](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
 
 Als u taakbegeleidingen voor een oplossing wilt configureren, volgt u deze stappen op de pagina **Systeemparameters**.
 
 > [!IMPORTANT]
 > De eerste keer dat u het tabblad **Help** opent, moet u verbinding maken met Lifecycle Services. Let erop dat u de koppeling in het midden van het formulier selecteert. Wacht op de verbinding, sluit het dialoogvenster en selecteer **OK** om de pagina **Systeemparameters** te openen.
 >
-> [![Verbinden met LCS](./media/connect-to-lcs-crop-1024x365.png "Verbinden met LCS")](./media/connect-to-lcs-crop.png)
+> [![Verbinden met LCS](./media/connect-to-lcs-crop-1024x365.png "Verbinden met LCS.")](./media/connect-to-lcs-crop.png)
 
 1. Selecteer het project Lifecycle Services om verbinding mee te maken.
 2. Selecteer de BPM-bibliotheken (in het geselecteerde project) om taakregistraties op te halen.
 3. Stel de weergavevolgorde van de BPM-bibliotheken in. Dit weergavevolgorde bepaalt de volgorde waarin de taakregistraties uit de bibliotheken verschijnen in het deelvenster **Help**.
 
-Wanneer u deze stappen hebt voltooid, kunt u het deelvenster **Help** openen en het tabblad **Taakbegeleidingen** selecteren. U ziet nu de taakbegeleidingen die van toepassing zijn op de pagina die nu is geopend in Finance and Operations-apps. Als er geen taakbegeleidingen worden gevonden, kunt u trefwoorden invoeren om uw zoekopdracht te verfijnen.
+Wanneer u deze stappen hebt voltooid, kunt u het deelvenster **Help** openen en het tabblad **Taakbegeleidingen** selecteren. U ziet nu de taakbegeleidingen die van toepassing zijn op de pagina die nu is geopend in apps voor financiële en bedrijfsactiviteiten. Als er geen taakbegeleidingen worden gevonden, kunt u trefwoorden invoeren om uw zoekopdracht te verfijnen.
 
 ### <a name="showing-translated-task-guides"></a>Vertaalde taakbegeleidingen weergeven
 
@@ -86,7 +87,7 @@ Als u een partner bent en een bibliotheek propageert als bedrijfsbibliotheek en 
 
 ### <a name="connect-a-custom-help-site"></a>Verbinding maken met een aangepaste Help-site
 
-Finance and Operations-apps worden zelden in hun kant-en-klare vorm gebruikt. In plaats daarvan wordt de oplossing aangepast en uitgebreid om aan de behoeften van de organisatie te voldoen. U kunt de Help-ervaring ook aanpassen en uitbreiden. U kunt bijvoorbeeld aangepaste Help toevoegen aan het deelvenster **Help** in het product.
+Apps voor financiële en bedrijfsactiviteiten worden zelden in hun kant-en-klare vorm gebruikt. In plaats daarvan wordt de oplossing aangepast en uitgebreid om aan de behoeften van de organisatie te voldoen. U kunt de Help-ervaring ook aanpassen en uitbreiden. U kunt bijvoorbeeld aangepaste Help toevoegen aan het deelvenster **Help** in het product.
 
 Microsoft heeft een toolkit geleverd waarmee u aangepaste Help kunt implementeren en kunt koppelen aan het deelvenster **Help**. Zie [Overzicht van aangepaste Help](../../dev-itpro/help/custom-help-overview.md) voor informatie over het instellen van een aangepaste Help-oplossing die is gekoppeld aan het deelvenster **Help**.
 
@@ -99,3 +100,6 @@ Als u wilt samenwerken met Microsoft aan hulpprogramma's en processen voor het a
 [Resources voor Taakrecorder](../../dev-itpro/user-interface/task-recorder.md)  
 [Documentatie of training maken met Taakrecorder](../../dev-itpro/user-interface/task-recorder-training-docs.md)  
 [Custom Help GitHub repository](https://github.com/microsoft/dynamics356f-o-custom-help)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

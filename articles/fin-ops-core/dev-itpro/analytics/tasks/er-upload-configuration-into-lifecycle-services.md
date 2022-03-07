@@ -1,12 +1,10 @@
 ---
 title: Een configuratie in Lifecycle Services uploaden
-description: In dit onderwerp wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een nieuwe configuratie voor elektronische rapportage (ER) kan maken en uploaden in Microsoft Dynamics Lifecycle Services (LCS).
+description: In dit onderwerp wordt uitgelegd hoe u een nieuwe configuratie voor Elektronische rapportage (ER) maakt en uploadt in Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
-manager: AnnBe
-ms.date: 09/14/2020
+ms.date: 06/17/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport
 audience: Application User
@@ -15,18 +13,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ebafb52882fd33f4f0ef140c5d23d3288af97a2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 41a8fcf2592bde4901aba703e0cd124b1155dac6
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684158"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270554"
 ---
 # <a name="upload-a-configuration-into-lifecycle-services"></a>Een configuratie in Lifecycle Services uploaden
 
 [!include [banner](../../includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een nieuwe [configuratie voor elektronische rapportage (ER)](../general-electronic-reporting.md#Configuration) kan maken en uploaden in de [activabibliotheek op projectniveau](../../lifecycle-services/asset-library.md) in Microsoft Dynamics Lifecycle Services (LCS).
+
+> [!IMPORTANT]
+> Het gebruik van LCS als opslagplaats voor ER-configuraties wordt [afgeschaft](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Zie [Afschaffing Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) Storage](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md) voor meer informatie.
 
 In dit voorbeeld maakt u een configuratie en uploadt u deze in LCS voor het voorbeeldbedrijf, Litware, Inc. Deze stappen kunnen in elk bedrijf worden uitgevoerd aangezien ER-configuraties tussen bedrijven worden gedeeld. Als u deze stappen wilt uitvoeren, moet u eerst de stappen voltooien in [Configuratieproviders maken en deze als actief markeren](er-configuration-provider-mark-it-active-2016-11.md). Ook is toegang tot LCS vereist.
 
@@ -145,3 +146,6 @@ In dit voorbeeld maakt u een configuratie en uploadt u deze in LCS voor het voor
     De ER-configuratie die u hebt geüpload, moet worden vermeld.
 
     De geüploade LCS-configuratie kan naar een ander exemplaar worden geïmporteerd als providers toegang tot dit LCS-project hebben.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

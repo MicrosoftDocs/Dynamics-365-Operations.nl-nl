@@ -2,16 +2,13 @@
 title: Geavanceerde automatische toeslagen voor meerdere kanalen
 description: Dit onderwerp beschrijft de mogelijkheden voor het beheren van extra toeslagen voor Commerce-kanaalorders met behulp van de geavanceerde functie voor automatische toeslagen.
 author: hhaines
-manager: annbe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2d463bf01659aeb6599023ce46da0c604f8eeff0
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: 3326f8740874083746c1566063ee7d265ee90faf
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4411527"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804668"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Geavanceerde automatische toeslagen voor meerdere kanalen
 
@@ -222,3 +219,6 @@ Als gebruikers de berekende toeslagen handmatig overschrijven of een handmatige 
 
 [Toeslagen voor koptekst naar rato verdelen voor overeenkomende verkoopregels](pro-rate-charges-matching-lines.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,28 +2,25 @@
 title: Financiële dimensies en boeken
 description: Wanneer u een rekeningschema plant en instelt, moet u overwegen hoe de verschillende onderdelen samenwerken bij het boeken van een document of journaal. Deze onderdelen omvatten rekeningstructuren, geavanceerde regels, en salderende en vaste dimensies. In dit onderwerp wordt uitgelegd wat elk onderdeel is en hoe de onderdelen samenwerken.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/04/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerChartofAccounts,DimensionDetails
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: e65d371486d53d0fe4f039da68fbb4dcc35074d1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7783c22659c5a2b070648c82a8b72e49e17b8e34
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441925"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823855"
 ---
 # <a name="financial-dimensions-and-posting"></a>Financiële dimensies en boeken 
 
@@ -127,3 +124,6 @@ Enkele van de volgende bronnen verwijzen naar een eerdere versie van onze softwa
 [Standaardinstellingen voor dimensies in boekhoudingsverdelingen](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
 
 [Standaardinstellingen voor dimensies in dimensieraamwerk](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,27 +2,24 @@
 title: Een bankrekening afstemmen
 description: In dit onderwerp wordt beschreven hoe u een bankrekening afstemt.
 author: panolte
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c77d08d5877ab27f9b6549a5b2a666150938fc08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e06a38a19a16a07d77d0c9aceaa4e3206646dd0561996681b417b785058f3938
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442036"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739354"
 ---
 # <a name="reconcile-a-bank-account"></a>Een bankrekening afstemmen
 
@@ -71,3 +68,6 @@ Met de functie Afstemming bankafschrift annuleren kunt u de afstemming van banka
 Afstemmingen van bankafschriften kunnen alleen worden geannuleerd in de chronologische volgorde waarin ze zijn geboekt. Wanneer een afstemming van bankafschriften wordt geannuleerd, worden nieuwe transacties en correcties teruggedraaid en worden alle andere transacties als niet-afgestemd gemarkeerd.
  
 Als u de afstemming van bankafschriften wilt annuleren, selecteert u het bankafschrift en selecteert u **Bankafschrift > Bankafstemming annuleren**. Geef op de pagina **Bankafstemming annuleren** de **Redencode**, een **Opmerking bij reden** en de **Annuleringsdatum** op. Selecteer **OK** om te beginnen met annuleren. Opmerking: de annuleringsdatum van het bankafschrift moet op of na de datum van het bankafschrift liggen. Nadat de afstemming van het bankafschrift is geannuleerd, wordt het veld **Annuleringsdatum** voor het bankafschrift bijgewerkt met de opgegeven **Annuleringsdatum**. Selecteer de knop **Transacties** om de transacties weer te geven waarvoor de afstemming is geannuleerd.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

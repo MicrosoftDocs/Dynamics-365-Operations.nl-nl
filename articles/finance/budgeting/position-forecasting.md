@@ -2,28 +2,25 @@
 title: Prognosepositie
 description: De onkosten die aan werknemers zijn gerelateerd vormen vaak een grote deel van de kosten van een organisatie. Positie voorspellen laat u die onkosten plannen en deze opnemen in de planning van budgetten.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmPositionForecast
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5bae90cf7c8f11fa5409014023d36cc68ae1bd0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 03a195c725854eff1fe6d6fa20bb815673e2e307
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442002"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827333"
 ---
 # <a name="position-forecasting"></a>Prognosepositie
 
@@ -218,3 +215,6 @@ Om te zien in welke budgetplannen een prognosepositie is opgenomen, kunt u in he
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

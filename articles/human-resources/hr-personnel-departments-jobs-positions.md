@@ -2,30 +2,29 @@
 title: Uw werknemers organiseren met afdelingen, taken en posities
 description: Afdelingen, taken en functies zijn organisatie-elementen die worden onderhouden in Human resources. Dit artikel bevat conceptuele informatie over deze elementen.
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources, Retail
+ms.search.scope: Human Resources
 ms.custom: 87933
 ms.assetid: eb5dcacb-a5fe-451d-b30a-7ef14da65d81
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 826de9e1e5d70ba1ec088b44254c871726b5c38e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 84e7017cb0bd799e27e19fc82009307d2955dea7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417963"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189745"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Uw werknemers organiseren met afdelingen, taken en posities
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Afdelingen, taken en functies zijn organisatie-elementen die worden onderhouden in Human resources. Dit artikel bevat conceptuele informatie over deze elementen. 
 
@@ -43,8 +42,7 @@ Het volgende voorbeeld wordt gebruikt om de concepten te illustreren die in dit 
 |**Human resources**|HR manager (centraal)|HR manager|
 
 
- <a name="departments"></a>Afdelingen
-------------
+##  <a name="departments"></a>Afdelingen
 
 Een afdeling is een operationele eenheid die een categorie of functioneel gebied van een organisatie vertegenwoordigt die verantwoordelijk is voor een bepaald gebied van de organisatie, zoals verkoop of boekhouding. Een afdeling wordt gebruikt voor rapportage over functionele gebieden en kan verantwoordelijk zijn voor winsten en verliezen. Een afdeling kan ook een groep van kostenplaatsen bevatten. Verkoop, boekhouding en human resources zijn enkele voorbeelden van afdelingen in een organisatie.
 
@@ -97,8 +95,7 @@ Gebruik taaktypen om vergelijkbare taken in categorieën in te delen. Taaktypes 
 
 Verantwoordelijkheidsgebieden gebruiken om aan te geven voor welke werkrollen, processen en producten een werknemer in een positie voor die taak verantwoordelijk is. Een voorbeeld van een verantwoordelijkheidsgebied voor een taak met de titel 'Boekhouder' is mogelijk 'Financiële rapportering voor Product A'.
 
-<a name="positions"></a>Posities
-----------
+## <a name="positions"></a>Posities
 
 Posities zijn een belangrijk element van het lagere niveau van een organisatiehiërarchie. Een positie is een afzonderlijk exemplaar van een taak. De positie 'Verkoopmanager (Oost)' is bijvoorbeeld maar een van de posities die is gekoppeld aan de taak 'Verkoopmanager'. Posities komen voor in een afdeling en worden aan werknemers toegewezen.
 ### <a name="position-creation-and-maintenance"></a>Maken en onderhouden van posities
@@ -120,7 +117,7 @@ Als u een werknemer aan een positie toewijst, vult u die positie in. U kunt mede
 
 Posities zijn belangrijke elementen van het lagere niveau van een organisatiehiërarchie. In het formulier Positie kunt u de positie opgeven waaraan een positie rapporteert. Wanneer u een werknemer toewijst aan een positie die aan een andere positie rapporteert, maakt u een rapporteringsrelatie tussen de werknemers die zijn toegewezen aan de twee posities. 'Boekhouder A' rapporteert bijvoorbeeld aan de positie "Supervisor boekhouding". Kim Akers is toegewezen aan de positie "Supervisor boekhouding" en Sanjay Patel is toegewezen aan de positie "Boekhouder A". Dit betekent dat Sanjay Patel rapporteert aan Kim Akers. 
 
-Als uw organisatie gebruikmaakt van een matrixhiërarchie of een andere aangepaste hiërarchie, kunt u positiehiërarchietypen instellen en vervolgens rapporteringsrelaties toevoegen aan posities voor elke hiërarchie die u hebt ingesteld. Lori Penor is bijvoorbeeld een algemeen manager bij Adventure Works en is toegewezen aan de positie 'Algemeen manager '. Lori beheert de ontwikkeling van een product dat wordt gebruikt voor het reinigen van widgets. Lori wil dat een boekhouder haar helpt met de financiën voor de ontwikkeling van het product. Daarom heeft ze Sanjay Patel als haar boekhouder aangeworven. Sanjay rapporteert rechtstreeks aan Kim Akers, maar werkt ook met Lori Penor met betrekking tot de financiën voor de ontwikkeling van de widgetreiniger. 
+Als uw organisatie gebruikmaakt van een matrixhiërarchie of een andere aangepaste hiërarchie, kunt u positiehiërarchietypen instellen en vervolgens rapporteringsrelaties toevoegen aan posities voor elke hiërarchie die u hebt ingesteld. Lori Penor is bijvoorbeeld een algemeen manager bij Adventure Works en is toegewezen aan de positie 'Algemeen manager '. Lori beheert de ontwikkeling van een product dat wordt gebruikt voor het reinigen van widgets. Lori wil hulp van een boekhouder met de financiën voor de ontwikkeling van het product. Daarom heeft ze Sanjay Patel als boekhouder aangeworven. Sanjay rapporteert rechtstreeks aan Kim Akers, maar werkt ook met Lori Penor met betrekking tot de financiën voor de ontwikkeling van de widgetreiniger. 
 
 In het vorige voorbeeld zou u de volgende taken voltooien voor het instellen van de werkrelatie tussen Sanjay Patel en Lori Penor:
 1.  Maak een aangepast positiehiërarchietype genaamd "Widget" om een hiërarchie te maken die posities bevat die verantwoordelijk zijn voor het werken aan de widgetreiniger.
@@ -159,9 +156,12 @@ Voor sommige records, kunt u toekomstige wijzigingen aan de record opgeven. De v
 </tbody>
 </table>
 
-U kunt de gegevens vermeld in de vorige tabel wijzigen voor een functie of een taak en een datum opgeven waarop de wijzigingen in de positie of de taak moeten ingaan. Een positie kan bijvoorbeeld alleen worden toegewezen aan één werknemer, maar Sanjay Patel, die is toegewezen aan de positie Boekhouder A, vertrekt binnen twee weken. Joe Healy vervangt Sanjay Patel wanneer hij vertrekt. Hoewel Sanjay nog steeds aan zijn positie is toegewezen, kunt u Joe Healy zo toewijzen aan dezelfde positie dat de toewijzing slechts ingaat na de laatste dag van Sanjay.
+U kunt de gegevens vermeld in de vorige tabel wijzigen voor een functie of een taak en een datum opgeven waarop de wijzigingen in de positie of de taak moeten ingaan. Een positie kan bijvoorbeeld alleen worden toegewezen aan één werknemer, maar Sanjay Patel, die is toegewezen aan de positie Boekhouder A, vertrekt binnen twee weken. Joe Healy vervangt Sanjay Patel wanneer Sanjay vertrekt. Hoewel Sanjay nog steeds aan zijn positie is toegewezen, kunt u Joe Healy zo toewijzen aan dezelfde positie dat de toewijzing slechts ingaat na de laatste dag van Sanjay.
 
 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

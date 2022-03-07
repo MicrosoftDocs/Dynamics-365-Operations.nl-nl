@@ -2,35 +2,30 @@
 title: Selecteer een thema voor de site
 description: In dit onderwerp wordt beschreven hoe u het thema van uw site kunt instellen of wijzigen in Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c54a3e9471fdeb56f27fe7c567c7cd7f0b7fd218
-ms.sourcegitcommit: 2ef23dcd4e42362186b9951e675010d97d55c6bd
+ms.openlocfilehash: a13400258a86087b6137b08ca724cbbfc1a90ad4
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4556424"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964776"
 ---
-# <a name="select-a-site-theme"></a>Selecteer een thema voor de site
+# <a name="select-a-site-theme"></a>Een thema voor de site selecteren
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u het thema van uw site kunt instellen of wijzigen in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 De indeling en stijl van een site (bijvoorbeeld lettertypen, afmetingen en kleuren) worden gedefinieerd door het thema dat u selecteert en op de site toepast. Een thema wordt gemaakt en geïmplementeerd door een ontwikkelaar in uw bedrijf. Zie [Overzicht van thema's](e-commerce-extensibility/theming.md) voor een overzicht van thema's. Zie [Een nieuw thema maken](e-commerce-extensibility/create-theme.md) voor meer informatie over het maken en implementeren van regels.
 
@@ -48,15 +43,13 @@ Voer de volgende stappen uit om het thema te selecteren dat op uw site wordt toe
 > [!NOTE]
 > Het geselecteerde thema wordt op uw site gepubliceerd zodra u **Opslaan en publiceren** selecteert op de pagina **Uitbreidbaarheid**. Als u een voorbeeld van een thema op uw site wilt weergeven voordat u het toepast, kunt u uw ontwikkel- of sandbox-omgeving gebruiken.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Een logo toevoegen](add-logo.md)
 
 [Werken met CSS-overschrijvingsbestanden](css-override-files.md)
 
 [Een favicon toevoegen](add-favicon.md)
-
-[Een welkomstbericht toevoegen](add-welcome-message.md)
 
 [Een auteursrechtmelding toevoegen](add-copyright-notice.md)
 
@@ -68,3 +61,6 @@ Voer de volgende stappen uit om het thema te selecteren dat op uw site wordt toe
 
 [Een nieuw thema maken](e-commerce-extensibility/create-theme.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

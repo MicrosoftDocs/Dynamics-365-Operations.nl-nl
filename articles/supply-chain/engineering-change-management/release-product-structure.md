@@ -2,11 +2,9 @@
 title: Productstructuren van de vrijgave
 description: In dit onderwerp wordt beschreven hoe u volledige productstructuren kunt vrijgeven naast het vrijgeven van producten in combinatie met hun technische versies. Op deze manier kunt u ervoor zorgen dat productgegevens die technisch relevant zijn gemakkelijk kunnen worden hergebruikt in verschillende rechtspersonen.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductReleaseSiteBulkEdit, EngChgProductReleaseSendListPage, EngChgProductReleaseSendDetails,EngChgProductReleaseSelection,EngChgProductReleaseReceiveListPage, EngChgProductReleaseReceiveDetails, EngChgProductReleasePreviewPane, EngChgProductReleasePolicy, EngChgProductReleasePart, EngChgProductReleaseNote
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 971ff16b862a48581365523edc6b64052b29c380
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 4dc1b073350044ef8afb765470ed14da88a70fdd
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967226"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567482"
 ---
 # <a name="release-product-structures"></a>Productstructuren van de vrijgave
 
@@ -77,8 +75,6 @@ Zie [Het product bekijken en accepteren voordat u het in het lokale bedrijf vrij
 
 Niet alle operationele bedrijven hebben dezelfde productgegevens nodig. In het algemeen is voor operationele bedrijven die technische producten produceren een stuklijst nodig, terwijl voor operationele bedrijven die alleen technische producten verkopen geen stuklijst nodig is. U kunt het vrijgavebeleid gebruiken om de parameters op te geven die worden gebruikt voor de vrijgave van producten.
 
-Voor technische producten wordt het vrijgavebeleid toegewezen in de categorie technische producten en is het veld verplicht. Voor standaardproducten wordt het beleid toegewezen aan het gedeelde product en is het veld optioneel.
-
 Zie [Technische versies en categorieën van technische producten](engineering-versions-product-category.md) voor meer informatie over categorieën voor technische producten.
 
 Tijdens het vrijgaveproces kunt u de instellingen beïnvloeden.
@@ -107,6 +103,7 @@ Stel de volgende velden in het sneltabblad **Algemeen** van een beleid voor prod
 | Veld | Beschrijving |
 |---|---|
 | Producttype | Selecteer of het beleid van toepassing is op producten van het type *Artikel* of *Service*. U kunt deze instelling niet wijzigen nadat u de record hebt opgeslagen. |
+| Productietype | Dit veld wordt alleen weergegeven als u [formulewijzigingsbeheer](manage-formula-changes.md) in het systeem hebt ingeschakeld. Selecteer het type productie waarop dit beleid voor productvrijgave van toepassing is:<ul><li>**Coproduct**: gebruik dit vrijgavebeleid om coproducten te beheren. Coproducten worden geproduceerd tijdens de procesfabricage en zijn geen producten met versies of technische producten. Beleidsregels voor vrijgave van coproducten kunnen ervoor zorgen dat belangrijke instellingen, zoals **Opslagdimensiegroep** en **Traceringsdimensiegroep**, worden ingesteld met behulp van een vrijgegeven productsjabloon voordat deze worden vrijgegeven voor een bedrijf.</li><li>**Bijproduct**: gebruik dit vrijgavebeleid om bijproducten te beheren. Bijproducten worden geproduceerd tijdens de procesfabricage en zijn geen producten met versies of technische producten. Beleidsregels voor vrijgave van bijproducten kunnen ervoor zorgen dat belangrijke instellingen, zoals **Opslagdimensiegroep** en **Traceringsdimensiegroep**, worden ingesteld met behulp van een vrijgegeven productsjabloon voordat deze worden vrijgegeven voor een bedrijf.</li><li>**Geen**: gebruik dit beleid om standaardproducten te beheren die geen versie hebben of geen technische producten, co- of bijproducten zijn.</li><li>**Planningsartikel**: gebruik dit vrijgavebeleid om planningsartikelen te beheren die worden geproduceerd via procesfabricage. Voor planningsartikelen worden formules gebruikt. Deze artikelen lijken op formuleartikelen, maar worden gebruikt om alleen co- en bijproducten te produceren, niet om afgewerkte producten te maken.</li><li>**Stuklijst**: gebruik dit vrijgavebeleid om technische producten te beheren, waarvoor geen formules worden gebruikt en meestal (maar niet noodzakelijkerwijs) stuklijsten bevatten.</li><li>**Formule**: gebruik dit vrijgavebeleid om eindproducten te beheren die worden geproduceerd via procesfabricage. Deze artikelen hebben een formule, maar geen stuklijst.</li></ul> |
 | Sjablonen toepassen | Selecteer een van de volgende opties om op te geven of en hoe productvrijgavesjablonen moeten worden toegepast wanneer het beleid wordt gebruikt:<ul><li>**Altijd**: een product met vrijgavesjabloon moet altijd worden gebruikt voor vrijgaven. Als u deze optie selecteert, gebruikt u het sneltabblad **Alle producten** om de sjabloon op te geven die wordt gebruikt voor elk bedrijf waaraan u wilt vrijgeven. Als u geen sjabloon opgeeft voor elk bedrijf dat op het sneltabblad **Alle producten** wordt vermeld, wordt een foutbericht weergegeven wanneer u het beleid probeert op te slaan.</li><li>**Optioneel**: als een product met vrijgavesjabloon is opgegeven voor een bedrijf dat wordt vermeld op het sneltabblad **Alle producten** wordt die sjabloon gebruikt wanneer u vrijgeeft aan dat bedrijf. Anders wordt er geen sjabloon gebruikt. Als u deze optie selecteert, kunt u het beleid opslaan zonder sjablonen toe te wijzen aan alle bedrijven. (Er wordt geen waarschuwing weergegeven.)</li><li>**Nooit**: er wordt geen product met vrijgavesjabloon gebruikt voor bedrijven waaraan u vrijgeeft, zelfs als een sjabloon is opgegeven voor bedrijven die worden vermeld op het sneltabblad **Alle producten**. De sjabloonkolommen zijn niet beschikbaar.</li></ul> |
 | Actief | Gebruik deze optie om uw vrijgavebeleid te beheren. Stel deze in op *Ja* voor elk vrijgavebeleid dat u gebruikt. Stel deze in op *Nee* als u een vrijgavebeleid wilt markeren als inactief wanneer het niet wordt gebruikt. U kunt een vrijgavebeleid dat is toegewezen aan een technische productcategorie niet deactiveren en u kunt alleen inactief vrijgavebeleid verwijderen. |
 
@@ -159,3 +156,6 @@ Dit gedrag is alleen van toepassing wanneer een product rechtstreeks voor vrijga
 Product X wordt bijvoorbeeld toegewezen aan de producteigenaarsgroep *Designkasten*. Product X maakt ook deel uit van de stuklijst van product Y, dat is toegewezen aan de producteigenaarsgroep *Design luidsprekers*. Als een gebruiker in de producteigenaarsgroep *Design luidsprekers* product Y en de bijbehorende stuklijst vrijgeeft, wordt product X samen met product Y vrijgegeven.
 
 Zie voor meer informatie [Producteigenaren](product-owner.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

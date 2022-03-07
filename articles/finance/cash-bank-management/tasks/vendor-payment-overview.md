@@ -1,39 +1,37 @@
 ---
 title: Overzicht van leveranciersbetaling
-description: Deze taakhandleiding leidt u door verschillende methoden die worden gebruikt voor het maken van leveranciersbetalingen, inclusief het gebruiken van een betalingsvoorstel of het handmatig invoeren van een eenmalige betaling.
+description: Deze handleiding leidt u door verschillende methoden die worden gebruikt voor het maken van leveranciersbetalingen, inclusief het gebruiken van een betalingsvoorstel of het handmatig invoeren van een eenmalige betaling.
 author: kweekley
-manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19cea683058f7fb757ac3a99541959ba06df1963
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 73fd1b46bbf73bb3e65f381289e0b3efa12392b4
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441998"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394433"
 ---
 # <a name="vendor-payment-overview"></a>Overzicht van leveranciersbetaling
 
 [!include [banner](../../includes/banner.md)]
 
-Deze taakhandleiding leidt u door verschillende methoden die worden gebruikt voor het maken van leveranciersbetalingen, inclusief het gebruiken van een betalingsvoorstel of het handmatig invoeren van een eenmalige betaling. Bij deze procedure wordt het demobedrijf USMF gebruikt.
+Deze handleiding leidt u door verschillende methoden die worden gebruikt voor het maken van leveranciersbetalingen, inclusief het gebruiken van een betalingsvoorstel of het handmatig invoeren van een eenmalige betaling. Bij deze procedure wordt het demobedrijf USMF gebruikt.
 
 1. Ga naar het **Navigatiedeelvenster > Modules > Klanten > Betalingen > Betalingsjournaal**.
 2. Klik op **Nieuw**.
 3. Selecteer het betalingsjournaal waarin de leveranciersbetalingen moeten worden opgeslagen. 
 4. Selecteer het journaal of voer dit handmatig in.
 5. Klik op **Regels**.
-6. Klik **Actievenster** op **Betalingsvoorstel**.
+6. Klik in het **Actievenster** op **Betalingsvoorstel**.
 7. Klik op **Betalingsvoorstel maken**. Het betalingsvoorstel is een query die wordt gebruikt om facturen voor betaling te selecteren. U kunt de lijst met facturen om te betalen bewerken voordat u de leveranciersbetalingen maakt of genereert.
 8. Selecteer facturen voor betaling op vervaldatum, contantkorting of beide. 
 9. Voer de datum in voor vergelijking met de vervaldatum of de contantkorting. 
@@ -63,3 +61,6 @@ Deze taakhandleiding leidt u door verschillende methoden die worden gebruikt voo
 33. Klik op **OK** om de betalingen te genereren.
 34. Klik op **Boeken** als alle betalingen zijn goedgekeurd en gegenereerd. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

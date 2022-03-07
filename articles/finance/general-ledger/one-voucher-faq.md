@@ -2,9 +2,11 @@
 title: Veelgestelde vragen over Eén boekstuk
 description: In dit onderwerp worden antwoorden gegeven op veelgestelde vragen over de functionaliteit Eén boekstuk. Met één boekstuk voor financiële journalen (algemeen journaal, vaste-activajournaal, leveranciersbetalingsjournaal, enzovoort) kunt u meerdere subgrootboekransacties invoeren in de context van één boekstuk.
 author: kweekley
+manager: AnnBe
 ms.date: 11/05/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 04e1f53802a69aa9de84826bfad05db7b29739a26441b1222cabc224d2873177
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a0cbc9e1f70bd41157e2ed70f78c8129671a6a04
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715041"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234160"
 ---
 # <a name="one-voucher-faq"></a>Veelgestelde vragen over Eén boekstuk
 

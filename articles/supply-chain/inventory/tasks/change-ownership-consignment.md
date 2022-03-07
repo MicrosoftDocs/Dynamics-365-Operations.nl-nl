@@ -1,7 +1,7 @@
 ---
 title: Het eigendom van consignatievoorraad wijzigen op basis van de productievraag
 description: Deze procedure laat zien hoe u de eigenaar van de consignatievoorraad wijzigt van de leverancier in uw rechtspersoon wanneer er vraag is naar de voorraad in productie.
-author: yufeihuang
+author: perlynne
 ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e735a9003f2859ed173f399525297506ec458e8d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6385fba0b6288416a85f1b7de73d3bb4972a852a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565826"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834116"
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a>Het eigendom van consignatievoorraad wijzigen op basis van de productievraag
 

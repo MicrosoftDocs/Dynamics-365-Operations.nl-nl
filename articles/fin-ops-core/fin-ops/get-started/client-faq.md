@@ -1,12 +1,10 @@
 ---
 title: FAQ client
-description: Dit artikel biedt antwoorden op veelgestelde vragen over de Finance and Operations-client.
+description: Dit artikel biedt antwoorden op veelgestelde vragen over de client voor financiële en bedrijfsactiviteiten.
 author: jasongre
-manager: AnnBe
 ms.date: 09/11/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,18 +14,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6fe6da2575b7de866de614ad399c8ad5c0110d9a
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: e64fb2453f17760b17ca2a7d3f593ac34cde0cc9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798494"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071028"
 ---
 # <a name="client-faq"></a>FAQ client
 
 [!include [banner](../includes/banner.md)]
 
-Dit artikel biedt antwoorden op veelgestelde vragen over de Finance and Operations-client.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+Dit artikel biedt antwoorden op veelgestelde vragen over de client voor financiële en bedrijfsactiviteiten.
 
 ## <a name="why-arent-symbols-loaded"></a>Waarom worden symbolen niet geladen?
 
@@ -54,3 +55,6 @@ De optie **Details weergeven** is beschikbaar op een paar manieren:
 
 - Als een besturingselement mogelijkheden voor **Details weergeven** heeft, en als het besturingselement een waarde heeft, wordt die waarde weergegeven als hyperlink. U kunt op de hyperlink klikken om een pagina te openen die aanvullende informatie bevat.
 - **Details weergeven** is ook een optie in de snelmenu's. Zie de vorige sectie voor meer informatie over wanneer de snelmenu's worden weergegeven wanneer u met de rechtermuisknop klikt.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

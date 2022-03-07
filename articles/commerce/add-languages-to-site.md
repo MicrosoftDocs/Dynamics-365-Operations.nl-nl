@@ -2,36 +2,30 @@
 title: Talen toevoegen aan uw site
 description: In dit onderwerp wordt uitgelegd hoe u ondersteuning voor extra talen toevoegt aan een Microsoft Dynamics 365 Commerce-site.
 author: bicyclingfool
-manager: annbe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fa3029387d5f1ca605fc9559c4272c8dfebcddaf
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 06c28e078a09cfadda6cbb0565bcaf8564681efaae8f57817922afb07ff4e6b9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411316"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725429"
 ---
 # <a name="add-languages-to-your-site"></a>Talen toevoegen aan uw site
-
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u ondersteuning voor extra talen toevoegt aan een Microsoft Dynamics 365 Commerce-site.
-
-## <a name="overview"></a>Overzicht
 
 U kunt uw website lokaliseren in elke taal die door Commerce wordt ondersteund. (De lijst met ondersteunde talen wordt later in dit onderwerp weergegeven.) Als u een taal op uw website wilt toevoegen, moet u deze eerst toevoegen aan een online winkel die aan uw site is gekoppeld.
 
@@ -176,3 +170,6 @@ De taal die u hebt toegevoegd, is nu beschikbaar, zodat u de site kunt configure
 [Een auteursrechtmelding toevoegen](add-copyright-notice.md)
 
 [Scriptcode toevoegen aan sitepagina's voor ondersteuning van telemetrie](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

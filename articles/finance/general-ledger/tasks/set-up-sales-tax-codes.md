@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: TaxTable, TaxData
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3dad006b486f7cd6714c713a3bd83a95fdf0d2b5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 594e8f0595ecace748a70860c1ccacaf90b7d279
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441869"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222186"
 ---
 # <a name="set-up-sales-tax-codes"></a>Btw-codes instellen
 
@@ -46,3 +45,6 @@ Bij deze taak wordt het demobedrijf USMF gebruikt.
 12. Sluit de pagina.
 13. Selecteer **Opslaan**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

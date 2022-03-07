@@ -2,28 +2,25 @@
 title: Automatische vereffening en prioriteitstelling
 description: Dit onderwerp beschrijft hoe transacties worden vereffend als u Automatische vereffening op de pagina Parameters van module Klanten selecteert. Het legt ook uit hoe de automatische vereffening in combinatie met de betalingsprioriteit kan worden gebruikt.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 01/30/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14531
 ms.assetid: e7837cf6-ec69-44b4-8d47-eba38d5c7b1f
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b596557e80035e8d62d01f156a6678c75e4ae573
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8ba8a2f3b6a731e3371ca5245d5a9177b4cd0c226768c39c0cf7f6cb27526058
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441935"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724178"
 ---
 # <a name="automatic-settlement-and-prioritization"></a>Automatische vereffening en prioriteitstelling
 
@@ -83,3 +80,6 @@ Als er geen vereffeningsprioriteit voor de gebruiker gedefinieerd is, worden tra
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

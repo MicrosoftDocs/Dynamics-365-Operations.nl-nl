@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: AssetTable, AssetBook
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 481bdb55b813dad5366f382ae35d8345b0e67d9f
-ms.sourcegitcommit: a9efbd69f2670fd6ba0ad0babf304fc206d01249
+ms.openlocfilehash: bbbafb1732a9628cb90ad284fce224e3d8172afd
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "4442191"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227035"
 ---
 # <a name="create-a-fixed-asset"></a>Een vast activum maken
 
@@ -55,3 +54,6 @@ Als u het nummer van de vaste activa niet hebt gedefinieerd in de sjabloon van d
 
 > [!WARNING]
 > De vaste-activarecord wordt niet verwijderd als er transacties naar het gekoppelde boek worden geboekt of als het nieuwe vaste activum op een journaalregel wordt ingevoerd maar niet wordt geboekt. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

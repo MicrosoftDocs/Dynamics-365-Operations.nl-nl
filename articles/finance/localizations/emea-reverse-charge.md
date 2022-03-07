@@ -2,25 +2,22 @@
 title: Mechanisme voor omgekeerde toeslagen van btw/GST-schema
 description: In dit onderwerp wordt uitgelegd hoe u de omgekeerde toeslag instelt voor Europese landen, Saudi-Arabië en Singapore.
 author: epodkolz
-manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom, Singapore, Bahrain, Kuwait, Oman, Qatar
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 247bc64bf0b90a641ead8a21971a6043691762fa
-ms.sourcegitcommit: f12ce34cc08cf1fa205c67f48669ea9a6566b526
+ms.openlocfilehash: 326a74d0f962cf0455033b04950ded7ca26bfc77
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4515046"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594714"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>Mechanisme voor omgekeerde toeslagen van btw/GST-schema
 
@@ -48,7 +45,6 @@ Als u de omgekeerde toeslag wilt toepassen, moet u de volgende instellingen uitv
 Het wordt aangeraden afzonderlijke btw-codes voor verkoopbewerkingen en inkoopbewerkingen te gebruiken.
 
 <table>
-<body>
 <tr>
 <td><strong>Btw-code voor verkoop</strong></td>
 <td>Maak een btw-code voor verkoopbewerkingen waarop de omgekeerde toeslag van toepassing is (<strong>Belasting</strong> &gt; <strong>Indirecte belastingen</strong> &gt; <strong>Btw</strong> &gt; <strong>Btw-codes</strong>).
@@ -65,7 +61,6 @@ U moet deze negatieve btw-code toewijzen aan een btw-groep voor artikelen en dez
 <p>Zie het volgende gedeelte &quot;Btw-groepen en artikel-btw-groepen instellen&quot; voor meer informatie.</p>
 </td>
 </tr>
-</tbody>
 </table>
 
 ## <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><a name="sales-tax-item-sales-tax-groups"></a>Btw-groepen en artikel-btw-groepen instellen
@@ -124,7 +119,7 @@ Wanneer een inkoopfactuur met omgekeerde toeslag wordt geboekt, worden twee btw-
 
 In de volgende schermopname heeft één transactie de richting **Te ontvangen btw** en de andere transactie de richting **Te betalen btw**. 
 
-![Geboekte btw](media/apac-sau-posted-sales-tax.png)
+![Geboekte btw.](media/apac-sau-posted-sales-tax.png)
 
 ## <a name="enable-reverse-charge-mechanism-for-vatgst-scheme-feature"></a><a name="enable-reverse-charge"></a>De functie Mechanisme voor omgekeerde toeslagen voor btw/GST-schema inschakelen
 Zoek de functie in de werkruimte **Functiebeheer** en selecteer **Inschakelen**.
@@ -137,3 +132,6 @@ De volgende pagina's en menuopdrachten die betrekking hebben op de instellingen 
  - **Parameters voor buitenlandse handel** (**Belasting** > **Instellingen** > **Btw** > **Buitenlandse handel** > **Parameters voor buitenlandse handel**). Zie [Land-/regio-eigenschappen instellen](#Set-up-Country/region-properties).
 
 Het selectievakje **Omgekeerde toeslag** is beschikbaar op de pagina's **Btw-groep** en **Geboekte btw**. Zie [Btw-groepen en artikelgroepen voor btw instellen](#sales-tax-item-sales-tax-groups), [Omgekeerde toeslag op een verkoopfactuur](#reverse-charge-sale) en [Omgekeerde toeslag op een verkoopfactuur](#reverse-charge-purchase).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

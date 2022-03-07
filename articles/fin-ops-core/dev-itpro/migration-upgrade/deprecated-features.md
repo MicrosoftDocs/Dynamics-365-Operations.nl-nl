@@ -1,12 +1,10 @@
 ---
 title: Verwijderde of afgeschafte functies in eerdere releases
-description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die gepland zijn om te verwijderen uit Dynamics 365 for Finance and Operations en eerdere versies van dat product.
+description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die gepland zijn om te verwijderen uit Dynamics 365 for Finance and Operations en eerdere versies.
 author: sericks007
-manager: AnnBe
-ms.date: 09/21/2020
+ms.date: 02/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 11528560ecabb848f2703d11c0a705b2a25d7614
+ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679951"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6112616"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Verwijderde of afgeschafte functies in eerdere releases
 
@@ -39,7 +37,7 @@ In dit onderwerp worden de functies beschreven die zijn verwijderd of afgeschaft
 
 Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning rekening te houden met deze verwijderingen en afschaffingen. 
 
-Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
+Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 met Platformupdate 31
 
@@ -106,6 +104,39 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Implementatieoptie**              | Alle |
 | **Status**                         | Afgeschaft: op 1 oktober 2020 wordt het **Binnenlandse belastingaangifte – functieverwijzing IT-00003** niet meer ondersteund. |
 
+## <a name="october-2019-deprecation-announcement"></a>Aankondiging afschaffing oktober 2019
+
+### <a name="flowchart-diagrams-in-business-process-modeler"></a>Stroomdiagrammen in Modelleertool bedrijfsprocessen
+
+<table>
+<tbody>
+<tr>
+<td><strong>Reden voor afschaffing/verwijdering</strong></td>
+<td>We schaffen het onderdeel voor stroomdiagrammen in Modelleertool bedrijfsprocessen af omdat het verouderde ontwerp weinig werd gebruikt.</td>
+</tr>
+<tr>
+<td><strong>Vervangen door een andere functie?</strong></td>
+<td>Nee</td>
+</tr>
+<tr>
+<td><strong>Betrokken gebieden</strong></td>
+<td>Modelleertool bedrijfsprocessen</td>
+</tr>
+<tr>
+<td><strong>Status</strong></td>
+<td>Afgeschaft: naar verwachting wordt het onderdeel voor stroomdiagrammen in BPM in 2020 verwijderd. De volgende functionaliteit is niet beschikbaar:
+<ul>
+<li>Alle stroomdiagrammen zijn alleen-lezen en kunnen niet worden bewerkt. De shape-eigenschappen die aan stroomdiagramactiviteiten zijn gekoppeld, zijn eveneens niet beschikbaar. Deze stroomdiagrammen omvatten zowel standaardstroomdiagrammen die automatisch worden gegenereerd als aangepaste stroomdiagrammen die worden aangepast op basis van deze standaardstroomdiagrammen.</li>
+<li>De processtappen zijn alleen-lezen en kunnen niet worden bewerkt.</li>     
+<li>De verouderde functie voor geschiktheid/hiaatanalyse is niet beschikbaar. Daarom wordt er niet automatisch een hiaatlijst gemaakt of beschikbaar voor export.
+<p><strong>Opmerking:</strong> deze functie was eerder afgeschaft en vervangen door Microsoft Azure DevOps-integraties.</p>
+</li>
+<li>De versiegeschiedenis van het stroomdiagram is niet beschikbaar.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## <a name="finance-and-operations-1005-with-platform-update-29"></a>Finance and Operations 10.0.5 met platformupdate 29
 
@@ -149,7 +180,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Koptekst uitgelijnd met andere Dynamics- en Office-producten. Zie [Bijgewerkte navigatiebalk die is uitgelijnd met de Office-koptekst](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar)voor meer informatie.
+| **Reden voor afschaffing/verwijdering** | Koptekst uitgelijnd met andere Dynamics- en Office-producten. Zie [Bijgewerkte navigatiebalk die is uitgelijnd met de Office-koptekst](/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar)voor meer informatie.
 | **Vervangen door een andere functie?**   | Vanaf platformupdate 24 is een opnieuw vormgegeven navigatiebalk met zoekfunctie beschikbaar. |
 | **Betrokken productgebieden**         | Webclient |
 | **Implementatieoptie**              | Alle |
@@ -163,7 +194,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Het oude gedrag van standaardacties in rasters resulteert in een onverwachte kolom waarbij de standaardactiekoppeling na rasterkolommen opnieuw zijn geordend via aanpassing. Met de nieuwe standaardplakactiefunctie wordt dit gecorrigeerd. Zie voor meer informatie [Standaardplakacties in rasters](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
+| **Reden voor afschaffing/verwijdering** | Het oude gedrag van standaardacties in rasters resulteert in een onverwachte kolom waarbij de standaardactiekoppeling na rasterkolommen opnieuw zijn geordend via aanpassing. Met de nieuwe standaardplakactiefunctie wordt dit gecorrigeerd. Zie voor meer informatie [Standaardplakacties in rasters](/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
 | **Vervangen door een andere functie?**   | Vanaf platformupdate 21 is een functie voor 'standaardplakacties' geïntroduceerd. Deze functie kan worden ingeschakeld op de pagina **Prestatieopties van client**. |
 | **Betrokken productgebieden**         | Rasters in de webclient |
 | **Implementatieoptie**              | Alle |
@@ -174,7 +205,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 |&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Op de filterervaring "is één van" is een nieuw ontwerp in platformupdate 22 toegepast, met het plan dat dit ontwerp uiteindelijk de enige filterervaring "is één van" zou worden. |
-| **Vervangen door een andere functie?**   | Vanaf platformupdate 22 is een verbeterde filterervaring "is één van" beschikbaar geworden op de pagina **Prestatieopties van client**. Zie [Geoptimaliseerde filterervaring "is één van"](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering) voor meer informatie. |
+| **Vervangen door een andere functie?**   | Vanaf platformupdate 22 is een verbeterde filterervaring "is één van" beschikbaar geworden op de pagina **Prestatieopties van client**. Zie [Geoptimaliseerde filterervaring "is één van"](/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering) voor meer informatie. |
 | **Betrokken productgebieden**         | Webclient |
 | **Implementatieoptie**              | Alle |
 | **Status**                         | Afgeschaft: vanaf april 2020 wordt de verbeterde filterervaring "is één van" het standaardgedrag zonder een mechanisme om terug te keren naar het oude gedrag. |
@@ -970,7 +1001,7 @@ Deze tool is gebruikt om belangrijke gegevens van Microsoft Dynamics CRM te inte
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | De functionaliteit is vervangen door een andere functie. |
-| **Vervangen door een andere functie?**   | Common data service                                      |
+| **Vervangen door een andere functie?**   | Dataverse                                      |
 | **Betrokken productgebieden**         | Connector voor Dynamics                         |
 | **Status**                         | Verwijderd sinds Dynamics AX 7.0.                           |
 
@@ -1335,7 +1366,7 @@ Met Sites Services kunt u websites maken die uw bedrijfsprocessen naar internet 
 
 ### <a name="virtual-company-accounts"></a>Virtuele bedrijfsrekeningen
 
-De functie voor virtuele bedrijven wordt niet meer ondersteund in Dynamics AX. Met de functie Virtuele konden gebruikers tabellen instellen die konden worden gedeeld door een reeks bedrijven. Zie voor een omschrijving van de functie [Bedrijfsrekeningen en virtuele bedrijfsrekeningen](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). De functie werkt door tabellen in verzamelingen te groeperen die aan virtuele bedrijven zijn toegewezen, die groepen van bestaande "echte" bedrijven zijn. Query's worden gemaakt zodat alle bedrijven in het virtuele bedrijf toegang hebben tot de gegevens in de tabellen van de gekoppelde tabelverzamelingen.
+De functie voor virtuele bedrijven wordt niet meer ondersteund in Dynamics AX. Met de functie Virtuele konden gebruikers tabellen instellen die konden worden gedeeld door een reeks bedrijven. Zie voor een omschrijving van de functie [Bedrijfsrekeningen en virtuele bedrijfsrekeningen](../../fin-ops/get-started/ax4-content-retired.md). De functie werkt door tabellen in verzamelingen te groeperen die aan virtuele bedrijven zijn toegewezen, die groepen van bestaande "echte" bedrijven zijn. Query's worden gemaakt zodat alle bedrijven in het virtuele bedrijf toegang hebben tot de gegevens in de tabellen van de gekoppelde tabelverzamelingen.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -1373,3 +1404,6 @@ De Windows 8-tabletapp leverde functionaliteit voor het invoeren van onkosten en
 |     <strong>Betrokken productgebieden</strong>     |                                              Grootboek                                              |
 |             <strong>Status</strong>             |                                      Verwijderd sinds Dynamics AX 2012                                      |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

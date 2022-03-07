@@ -2,36 +2,30 @@
 title: Werken met sjablonen
 description: In dit onderwerp wordt beschreven hoe u werkt met sjablonen in Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a3fc4259a76f6edcfaa0b8f6e08292477c6c0835
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ab6ccfac96249b39cb007d9a9fce10475f0c7149
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411390"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090789"
 ---
 # <a name="work-with-templates"></a>Werken met sjablonen
-
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u werkt met sjablonen in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 Zoals wordt besproken in [Overzicht sjablonen en indelingen](templates-layouts-overview.md), wordt met sjablonen de set opties bepaald die beschikbaar zijn voor auteurs. Sjablonen zijn om verschillende redenen nuttig voor het webontwerpteam van een onderneming. Goed gestructureerde sjablonen helpen bij alle volgende doelstellingen:
 
@@ -55,7 +49,7 @@ Zoals wordt besproken in [Overzicht sjablonen en indelingen](templates-layouts-o
 
 Sjablonen worden gewijzigd met de sjablooneditor.
 
-Voer een van de volgende stappen uit om de sjablooneditor te openen:
+Voer een van de volgende stappen uit om de sjablooneditor in Commerce Site Builder te openen:
 
 - Selecteer in het navigatievenster van uw site de optie **Sjablonen** en selecteer vervolgens de sjabloon die u wilt wijzigen.
 - Selecteer in de pagina-editor voor een bestaande pagina het bovenste knooppunt in de overzichtsstructuur aan de linkerkant. Selecteer vervolgens in het eigenschappenvenster aan de rechterkant de optie **Sjabloon bewerken**.
@@ -72,7 +66,7 @@ In de overzichtsweergave links worden de moduleopties en structuren weergegeven 
 
 ## <a name="create-a-new-template"></a>Een nieuwe sjabloon maken
 
-Volg deze stappen om een nieuwe sjabloon te maken.
+Voer de volgende stappen uit om een nieuwe sjabloon te maken in Site Builder.
 
 1. Selecteer in het navigatievenster van uw site de optie **Sjablonen** om het sjablooncontrolevenster te openen.
 1. Selecteer **Nieuwe sjabloon**.
@@ -91,7 +85,7 @@ De sjabloon is nu geldig en kan worden opgeslagen, ingecheckt en gebruikt om nie
 
 ## <a name="add-a-header-and-a-footer"></a>Een kop- en voettekst toevoegen
 
-Als uw site al een koptekstfragment heeft, voert u de volgende stappen uit om een koptekst en een voettekst aan een sjabloon toe te voegen.
+Als uw site al een koptekstfragment heeft, voert u de volgende stappen in Site Builder uit om een koptekst en een voettekst aan een sjabloon toe te voegen.
 
 1. Vouw in de overzichtsstructuur het vak met de **hoofdtekst** en de onderliggende paginamodule uit.
 1. Selecteer het vak **Kop**.
@@ -104,7 +98,7 @@ Zie [Een fragment maken](work-with-fragments.md#create-a-fragment) voor informat
 
 ## <a name="change-the-template-theme"></a>Het sjabloonthema wijzigen
 
-Voer de volgende stappen uit om het standaardthema in te stellen voor alle pagina's met een sjabloon.
+Voer de volgende stappen in Site Builder uit om het standaardthema in te stellen voor alle pagina's die een sjabloon gebruiken.
 
 1. Vouw in de overzichtsstructuur aan de linkerkant het vak met de **hoofdtekst** uit.
 1. Selecteer in het vak met de **hoofdtekst** de paginacontainermodule (bijvoorbeeld **standaardpagina**).
@@ -116,7 +110,7 @@ Standaard wordt op alle nieuwe pagina's het geselecteerde thema gebruikt. Als u 
 
 U kunt HTML-**&lt;script&gt;**-elementen die JavaScript bevatten, aan uw sjabloon toevoegen. Op deze manier kunt u het standaardscriptgedrag bepalen voor de secties HTML-kop, begin en einde hoofdtekst van de pagina's.
 
-Om een script aan een sjabloon toe te voegen, volgt u deze stappen.
+Voer de volgende stappen uit om een script toe te voegen aan een sjabloon in Site builder.
 
 1. Selecteer in de overzichtsstructuur aan de linkerkant het vak waaraan u het **&lt;script&gt;**-element wilt toevoegen (bijvoorbeeld HTML-kop, begin of einde van hoofdtekst).
 1. Selecteer de knop met het weglatingsteken voor het vak en selecteer **Module toevoegen**.
@@ -129,7 +123,7 @@ Om een script aan een sjabloon toe te voegen, volgt u deze stappen.
 
 ## <a name="save-check-in-preview-and-publish-a-template"></a>Een sjabloon opslaan, inchecken, vooraf bekijken en publiceren
 
-Om een sjabloon op te slaan en in te checken, volgt u deze stappen.
+Voer de volgende stappen uit om een sjabloon in Site Builder op te slaan en in te checken.
 
 1. Selecteer de optie **Opslaan** boven aan de sjablooneditor. Opgeslagen wijzigingen zijn niet van invloed op vervolgpagina's totdat ze zijn ingecheckt.
 1. Selecteer **Bewerken voltooien**. Uw wijzigingen zijn nu detecteerbaar voor vervolgworkflows.
@@ -145,8 +139,23 @@ Nadat u een voorbeeld van de wijzigingen in de sjabloon hebt bekeken, volgt u ee
 > [!WARNING]
 > Wanneer een sjabloon of een ander CMS-item (Content Management System) wordt gepubliceerd, kan dit op internet worden gedetecteerd. Publiceer geen documenten of elementen totdat u klaar bent om deze openbaar te maken. Documentversies die zijn opgeslagen en ingecheckt maar nog niet zijn gepubliceerd, kunnen alleen worden gedetecteerd door geverifieerde systeemgebruikers.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="rename-a-template"></a>De naam van een sjabloon wijzigen
+
+Voer de volgende stappen uit om de naam van een bestaande sjabloon te wijzigen in Site Builder.
+
+1. Selecteer **Sjablonen** in het deelvenster voor navigatie aan de linkerkant.
+1. Selecteer de naam van de sjabloon waarvan u de naam wilt wijzigen.
+1. Selecteer **Bewerken** om de sjabloon te gaan bewerken. U kunt een sjabloon niet bewerken als iemand anders de sjabloon al aan het bewerken is.
+1. Selecteer in het deelvenster met eigenschappen voor sjablonen het pensymbool naast de naam van de sjabloon.
+1. Bewerk de naam van de sjabloon indien nodig.
+1. Selecteer het vinkje om de naamswijziging te bevestigen.
+1. Selecteer **Bewerken voltooien**.
+
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht sjablonen en indelingen](templates-layouts-overview.md)
 
 [Werken met vooraf ingestelde indelingen](work-with-layouts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

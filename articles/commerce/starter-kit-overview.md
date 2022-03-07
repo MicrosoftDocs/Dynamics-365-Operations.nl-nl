@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dfc52dd8e14bb2e9f2f9c026ee0e058aee4cedcb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fcb0c2317315308de51d8247d23a930f10c3de6f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411449"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234288"
 ---
 # <a name="module-library-overview"></a>Overzicht van modulebibliotheek
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp vindt u een overzicht van de modulebibliotheek voor Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 De modulebibliotheek voor Dynamics 365 Commerce is een verzameling modules die u kunt gebruiken voor het bouwen van een e-commerce-website. Modules bevatten zowel aspecten van de gebruikersinterface (UI) als functionaliteit.
 
@@ -66,3 +63,6 @@ De volgende typen modules zijn beschikbaar in de modulebibliotheek:
 [Koptekstmodule](author-header-module.md)
 
 [Voettekstmodule](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

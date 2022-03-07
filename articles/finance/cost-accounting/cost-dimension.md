@@ -2,28 +2,25 @@
 title: Dimensies maken en dimensieleden importeren
 description: Kostprijsboekhouding is een onafhankelijke module die hoofdgegevens uit andere modules nodig heeft.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 09/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d61358be79adc943572bb4a5d624cb7c80b52e6e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6febb8a48cf6496fb7f4c2ee9f5281d47aa1ccae1a8ecc51c908b3810302e11c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441990"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775117"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>Dimensies maken en dimensieleden importeren
 
@@ -39,7 +36,7 @@ Een **kostenelement** correspondeert met een kostenrelevant artikel in het reken
 
 De volgende afbeelding illustreert de dimensies die worden gebruikt in Kostprijsboekhouding.
 
-[![Dimensies van kostprijsboekhouding](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)
+[![Dimensies van kostprijsboekhouding.](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)
 
 Nadat de gegevens in Kostprijsboekhouding zijn geïmporteerd, kunt u hiermee verschillende perspectieven ontwikkelen die managers inzicht bieden in alle niveaus van de organisatie. De volgende onderwerpen bieden informatie over het maken van dimensies en het importeren van dimensieleden. 
 
@@ -55,3 +52,6 @@ Nadat de gegevens in Kostprijsboekhouding zijn geïmporteerd, kunt u hiermee ver
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

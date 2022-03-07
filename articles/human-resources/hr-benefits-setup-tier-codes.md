@@ -2,7 +2,7 @@
 title: Niveaucodes instellen
 description: Dynamics 365 Human Resources gebruikt laagcodes met tariefvergoedingen die worden betaald door werknemers en de werk gever.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3245b4265e51ad87419786c01fad578d743f2c06
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6e7df0dfb384fbefd0fc1b2722e2739076bcc196
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417970"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468342"
 ---
 # <a name="set-up-tier-codes"></a>Niveaucodes instellen
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources gebruikt laagcodes met tariefvergoedingen die worden betaald door werknemers en de werk gever. U kunt een onbeperkt aantal laagcodes definiëren en tariefberekeningen instellen om aan de behoeften van uw bedrijf te voldoen.
 
@@ -41,3 +43,6 @@ Dynamics 365 Human Resources gebruikt laagcodes met tariefvergoedingen die worde
    | **Beschrijving** | Een beschrijving van de code van een vergoedingslaag. |
 
 4. Selecteer **Opslaan**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

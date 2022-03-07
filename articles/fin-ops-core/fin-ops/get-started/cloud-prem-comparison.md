@@ -2,11 +2,9 @@
 title: Vergelijking van functies tussen cloud en on-premises
 description: In dit onderwerp ziet u welke functies worden ondersteund in de cloud en on-premises.
 author: sericks007
-manager: AnnBe
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 309131f0d7390288a46f84b1375bd87922407159
-ms.sourcegitcommit: a017fc0583a894382b959e22511231dd07d4254a
+ms.openlocfilehash: 68082ad0ae264b76a852d8d12412af8c4ad917703441c41e67743d1b499a8d73
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4959889"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736217"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Vergelijking van functies tussen cloud en on-premises
 
@@ -44,9 +42,9 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 |---------------------|-----------------------------|-----------|-----------------|
 | Conformiteit en certificaten        |                                                                                           | Ja       | Ja             |
 |                                      | SOC 1-certificering van type 1                                                                | Ja       | Nee              |
-| Gegevensbeheer en -integratie      |                                                                                           | Ja       | Ja             
+| Gegevensbeheer en -integratie      |                                                                                           | Ja       | Ja             |
 |                                      | Gegevens exporteren naar uw eigen datawarehouse                                                    | Ja       | Ja             |
-|                                      | De export van incrementele updates naar een gegevensentiteit inschakelen                                 | Ja       | Ja              |
+|                                      | De export van incrementele updates naar een gegevensentiteit inschakelen                                 | Ja       | Ja             |
 |                                      | Gegevensintegraties                                                                         | Ja       | Ja             |
 | Documentbeheer                  |                                                                                           | Ja       | Ja             |
 | Financieel beheer                 |                                                                                           | Ja       | Ja             |
@@ -57,13 +55,13 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 |                                      | ER: integratie met LCS                                                                  | Ja       | Nee              |
 |                                      | ER: integratie met SharePoint                                                           | Ja       | Nee              |
 |                                      | ER: integratie met Regulatory Configuration Services (RCS)                              | Ja       | Nee              |
-|                                      | ER: gebruikt het lokale bestandssysteem als de opslag van ER-configuraties die toegankelijk zijn via ER-opslaglocaties | No        | Ja             |
-|                                      | Integratie met PowerBI.com                                                              | Ja       | No              |
-|                                      | Integratie met PowerBI Desktop                                                          | No        | Ja             |
-|                                      | Analytische werkgebieden                                                                     | Ja       | No              |
+|                                      | ER: gebruikt het lokale bestandssysteem als de opslag van ER-configuraties die toegankelijk zijn via ER-opslaglocaties | Nee        | Ja             |
+|                                      | Integratie met PowerBI.com                                                              | Ja       | Nee              |
+|                                      | Integratie met PowerBI Desktop                                                          | Nee        | Ja             |
+|                                      | Analytische werkgebieden                                                                     | Ja       | Nee              |
 |                                      | Intelligent bedrijfsproces: Aanbevelingen                                             | Ja       | Nee              |
 |                                      | Power BI-rapporten met OData opstellen met Power BI Desktop- of Excel PowerQuery-hulpprogramma's    | Ja       | Nee              |
-|                                      | SSRS (SQL Server Reporting Services) ondersteunt uitschalen                                 | Ja       | Nee              |
+|                                      | SSRS (SQL Server Reporting Services) ondersteunt uitschalen                                 | Ja       | Ja             |
 |                                      | Telemetrie wordt overgebracht naar de cloud                                                   | Ja       | Nee              |
 | Lifecycle Services                   |                                                                                           | Ja       | Ja             |
 |                                      | Configureerbare bedrijfsprocessen                                                           | Ja       | Nee              |
@@ -86,7 +84,7 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 
 | **Gebied**                | **Functie**             | **Cloud** | **On-premises** |
 |-------------------------|-------------------|-----------|-----------------|
-| Activabeheer                     |                                                                                           | Ja       | No |
+| Activabeheer                     |                                                                                           | Ja       | Ja             |
 | Conformiteit en certificaten        |                                                                                           | Ja       | Ja             |
 |                                      | SOC 1-certificering van type 1                                                                | Ja       | Nee              |
 | Kostprijsboekhouding                      |                                                                                           | Ja       | Ja             |
@@ -97,7 +95,7 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 | Gegevensbeheer en -integratie      |                                                                                           | Ja       | Ja             |
 |                                      | Uitbreiding op configuratiebasis                                                            | Ja       | Nee              |
 |                                      | Gegevens exporteren naar uw eigen datawarehouse                                                    | Ja       | Ja             |
-|                                      | De export van incrementele updates naar een gegevensentiteit inschakelen                                 | Ja       | Ja              |
+|                                      | De export van incrementele updates naar een gegevensentiteit inschakelen                                 | Ja       | Ja             |
 |                                      | Gegevensintegraties                                                                         | Ja       | Ja             |
 | Documentbeheer                  |                                                                                           | Ja       | Ja             |
 | Help                                 |                                                                                           | Ja       | Nee              |
@@ -106,13 +104,13 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 |                                      | ER: integratie met LCS                                                                  | Ja       | Nee              |
 |                                      | ER: integratie met SharePoint                                                           | Ja       | Nee              |
 |                                      | ER: integratie met Regulatory Configuration Services (RCS)                              | Ja       | Nee              |
-|                                      | ER: gebruikt het lokale bestandssysteem als de opslag van ER-configuraties die toegankelijk zijn via ER-opslaglocaties | No        | Ja             |
-|                                      | Integratie met PowerBI.com                                                              | Ja       | No              |
-|                                      | Integratie met PowerBI Desktop                                                          | No        | Ja             |
-|                                      | Analytische werkgebieden                                                                     | Ja       | No              |
+|                                      | ER: gebruikt het lokale bestandssysteem als de opslag van ER-configuraties die toegankelijk zijn via ER-opslaglocaties | Nee        | Ja             |
+|                                      | Integratie met PowerBI.com                                                              | Ja       | Nee              |
+|                                      | Integratie met PowerBI Desktop                                                          | Nee        | Ja             |
+|                                      | Analytische werkgebieden                                                                     | Ja       | Nee              |
 |                                      | Intelligent bedrijfsproces: Aanbevelingen                                             | Ja       | Nee              |
 |                                      | Power BI-rapporten met OData opstellen met Power BI Desktop- of Excel PowerQuery-hulpprogramma's    | Ja       | Nee              |
-|                                      | SSRS (SQL Server Reporting Services) ondersteunt uitschalen                                 | Ja       | Nee              |
+|                                      | SSRS (SQL Server Reporting Services) ondersteunt uitschalen                                 | Ja       | Ja             |
 |                                      | Telemetrie wordt overgebracht naar de cloud                                                   | Ja       | Nee              |
 | Voorraadbeheer                 |                                                                                           | Ja       | Ja             |
 | Lifecycle Services                   |                                                                                           | Ja       | Ja             |
@@ -120,7 +118,7 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 | Lokalisaties                        |                                                                                           | Ja       | Ja             |
 | Productie                        |                                                                                           | Ja       | Ja             |
 | Hoofdplanning en prognoses      |                                                                                           | Ja       | Ja             |
-| Planningsoptimalisatie                |                                                                                           | Ja       | No              |
+| Planningsoptimalisatie                |                                                                                           | Ja       | Nee              |
 | Mobiele app, werkgebieden en platform |                                                                                           | Ja       | Ja             |
 | Office-integratie                   |                                                                                           | Ja       | Ja             |
 | Organisatiebeheer          |                                                                                           | Ja       | Ja             |
@@ -149,7 +147,7 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 
 ## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Voor een lijst van mogelijkheden die in on-premises implementaties beschikbaar zijn, raadpleegt u [Functies in Commerce voor on-premises implementaties](../../../retail/retail-onprem.md).
+Voor een lijst van mogelijkheden die in on-premises implementaties beschikbaar zijn, raadpleegt u [Functies in Commerce voor on-premises implementaties](../../../commerce/retail-onprem.md).
 
 ## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 
@@ -166,13 +164,16 @@ Voor een lijst van mogelijkheden die in on-premises implementaties beschikbaar z
 | Controle en telemetrie   |                                           | Ja       | Ja             |
 | Platformcompatibiliteit     |                                           | Ja       | Ja             |
 | Service                  |                                           | Ja       | Ja             |
-|                            | Service-omgevingen                    | Ja       | No              |
+|                            | Service-omgevingen                    | Ja       | Nee              |
 | Traceparser               |                                           | Ja       | Ja             |
 | PerfTimer                  |                                           | Ja       | Ja\*           |
 | Bijwerken                    |                                           | Ja       | Ja             |
-|                            | Bijwerken                                   | Ja       | No              |
-|                            | Upgrade en ondersteuning voor eerdere versies | Ja       | No              |
+|                            | Bijwerken                                   | Ja       | Nee              |
+|                            | Upgrade en ondersteuning voor eerdere versies | Ja       | Nee              |
 | Visual Studio-ontwikkeling  |                                           | Ja       | Ja             |
 
 \* In on-premises-omgevingen geeft PerfTimer alleen resultaten weer voor de client.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

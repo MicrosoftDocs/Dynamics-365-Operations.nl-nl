@@ -2,15 +2,12 @@
 title: Voorraadinstellingen toepassen
 description: In dit onderwerp worden voorraadinstellingen beschreven en wordt beschreven hoe u deze toepast in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dfa8b2bdc03e3698feda26932db757421097140d
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: 4ba3e67cf9c72b9a9606528c02f9e57d19a74c1f
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517059"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647579"
 ---
 # <a name="apply-inventory-settings"></a>Voorraadinstellingen toepassen
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp worden voorraadinstellingen beschreven en wordt beschreven hoe u deze toepast in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 Met voorraadinstellingen wordt opgegeven of voorraad moet worden gecontroleerd voordat producten aan de winkelwagen worden toegevoegd. Ze definiëren ook voorraadgerelateerde merchandisingberichten, zoals In voorraad en Slechts een paar over. Deze instellingen zorgen ervoor dat een product niet kan worden aangeschaft als het niet op voorraad is.
 
@@ -44,12 +39,22 @@ In Commerce Site Builder kunt u voorraaddrempels en -bereiken definiëren voor e
 
 ## <a name="inventory-settings"></a>Voorraadinstellingen
 
-In Commerce worden voorraadinstellingen gedefinieerd via **Site-instellingen \> Extensies \> Voorraadbeheer** in Site Builder. Er zijn vier voorraadinstellingen, waarvan er een is verouderd (afgeschaft):
+In Commerce worden voorraadinstellingen gedefinieerd via **Site-instellingen \> Extensies \> Voorraadbeheer** in Site Builder. Er zijn zes voorraadinstellingen, waarvan er een is verouderd (afgeschaft):
 
 - **Voorraadcontrole in app inschakelen**: met deze instelling wordt de voorraadcontrole van een product ingeschakeld. De modules voor koopvak, winkelwagen en ophalen in winkel comntroleren vervolgens de productvoorraad en zorgen ervoor dat een product alleen aan de winkelwagen kan worden toegevoegd als er voorraad beschikbaar is.
 - **Voorraadniveau gebaseerd op**: deze instelling bepaalt hoe voorraadniveaus worden berekend. De beschikbare waarden zijn **Totaal beschikbaar**, **Fysiek beschikbaar** en **Drempelwaarde voor niet op voorraad**. In Commerce kunt u drempelwaarden en bereiken definiëren voor elk product en elke categorie. De voorraad-API's geven productvoorraadinformatie als resultaat voor de eigenschappen **Totaal beschikbaar** en **Fysiek beschikbaar**. De detailhandelaar beslist of de waarde **Totaal beschikbaar** of **Fysiek beschikbaar** moet worden gebruikt om de voorraadtelling en de bijbehorende bereiken voor op voorraad en niet op voorraad te bepalen.
 
     De waarde **Drempelwaarde voor niet op voorraad** van de instelling **Voorraadniveau gebaseerd op** is een oude (verouderde) waarde. Wanneer deze wordt geselecteerd, wordt de voorraadtelling bepaald op basis van de resultaten van de waarde **Totaal beschikbaar**, de drempel wordt gedefinieerd door de numerieke instelling **Drempelwaarde voor niet op voorraad** die later wordt beschreven. Deze drempelwaarde-instelling is van toepassing op alle producten voor een e-commerce-site. Als voorraad lager is dan de drempelwaarde, wordt een product als niet op voorraad beschouwd. Anders wordt het beschouwd als op voorraad. De mogelijkheden van de waarde **Drempel waarde voor niet op voorraad** zijn beperkt en wij raden u aan om deze niet meer te gebruiken in versie 10.0.12 en hoger.
+
+- **Voorraadniveau voor meerdere magazijnen**: Met deze instelling kan het voorraadniveau worden berekend op basis van het standaardmagazijn of meerdere magazijnen. Met de optie **Op basis van afzonderlijk magazijn** worden voorraadniveaus berekend op basis van het standaardmagazijn. Een webwinkel kan ook naar meerdere magazijnen wijzen om de levering te vergemakkelijken. In dat geval wordt de optie **Gebaseerd op samenvoeging voor verzend- en afhaalmagazijnen** gebruikt om de beschikbaarheid van de voorraad aan te geven. Als een klant bijvoorbeeld een artikel inkoopt en 'verzending' selecteert als de leveringsmodus, kan het artikel worden verzonden vanuit elk magazijn in de vervullingsgroep dat over beschikbare voorraad beschikt. Op de pagina met productdetails wordt een bericht 'In voorraad' weergegeven voor zending als een beschikbaar magazijn in de vervullingsgroep voorraad heeft. 
+
+    > [!IMPORTANT] 
+    > De instelling **Voorraadniveau voor meerdere magazijnen** is beschikbaar vanaf Commerce-versie 10.0.19. Als u een oudere versie van Commerce bijwerkt, moet u het bestand appsettings.json handmatig bijwerken. Zie [Updates voor SDK's en modulebibliotheken](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file) voor meer instructies.
+
+- **Voorraadinstellingen voor productlijstpagina's** met deze instelling wordt bepaald hoe producten die niet op voorraad zijn, worden weergegeven in productlijsten die worden weergegeven door modules voor productverzameling en zoekresultaten. De beschikbare waarden zijn **In bestelling weergeven met andere producten**, **Uit voorraadproducten verbergen uit de lijst** en **Uit voorraadproducten weergeven aan het einde van de lijst**. Als u deze instelling wilt gebruiken, moet u eerst een aantal vereiste instellingen configureren in Commerce Headquarters. Zie [De voorraadbeschikbaarheid voor de module voor zoekresultaten inschakelen](search-result-module.md#enable-inventory-awareness-for-the-search-results-module) voor meer informatie.
+
+    > [!IMPORTANT] 
+    > De instelling **Voorraadinstellingen voor productlijstpagina's** is beschikbaar vanaf Commerce-versie 10.0.20. Als u een oudere versie van Commerce bijwerkt, moet u het bestand appsettings.json handmatig bijwerken. Zie [Updates voor SDK's en modulebibliotheken](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file) voor meer instructies.
 
 - **Voorraadbereiken**: met deze instelling definieert u de voorraadbereiken waarvoor berichten worden weergegeven in sitemodules. Deze is alleen van toepassing als de waarde **Totaal beschikbaar** of **Fysiek beschikbaar** is geselecteerd voor de instelling **Voorraadniveau gebaseerd op**. De beschikbare waarden zijn **Alle**, **Weinig en niet op voorraad** en **Niet op voorraad**.
 
@@ -66,17 +71,17 @@ In Commerce worden voorraadinstellingen gedefinieerd via **Site-instellingen \> 
 
 De modules voor koopvak, wensenlijst, winkelselectie en winkelwagen gebruiken voorraadinstellingen om de voorraadbereiken en berichten weer te geven.
 
-De volgende afbeelding toont een voorbeeld van een pagina met productgegevens (PDP) met een bericht over voorhanden voorraad (Beschikbaar).
+In het voorbeeld in de volgende afbeelding toont een productpagina een bericht In voorraad ('Beschikbaar').
 
-![Voorbeeld van een PDP-module met een bericht over voorhanden voorraad](./media/pdp-InStock.png)
+![Voorbeeld van een PDP-module met een bericht over voorhanden voorraad.](./media/pdp-InStock.png)
 
-De volgende afbeelding toont een voorbeeld van een PDP met het bericht Niet op voorraad.
+In het voorbeeld in de volgende afbeelding toont een productpagina een bericht Niet op voorraad.
 
-![Voorbeeld van een PDP-module met het bericht dat er geen voorraad beschikbaar is](./media/pdp-outofstock.png)
+![Voorbeeld van een PDP-module met het bericht dat er geen voorraad beschikbaar is.](./media/pdp-outofstock.png)
 
-De volgende afbeelding toont een voorbeeld van een winkelwagen met het bericht Beschikbaar.
+In het voorbeeld in de volgende afbeelding toont een winkelwagen een bericht In voorraad ('Beschikbaar').
 
-![Voorbeeld van een winkelwagenmodule met een bericht over voorhanden voorraad](./media/cart-instock.png)
+![Voorbeeld van een winkelwagenmodule met een bericht over voorhanden voorraad.](./media/cart-instock.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
@@ -93,3 +98,6 @@ De volgende afbeelding toont een voorbeeld van een winkelwagen met het bericht B
 [Winkelselectiemodule](store-selector.md)
 
 [Updates voor SDK's en modulebibliotheken](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

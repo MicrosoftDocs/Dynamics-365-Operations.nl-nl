@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: TaxReportExtraFieldsBE
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 273103
 ms.search.region: Belgium
 ms.author: roschlom
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: b331d5caec6b479088c7892ab9f85a1da05e2828
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 76625b6f2860dcae5fa6c04eab462cec87db8d9a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408334"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236324"
 ---
 # <a name="reconciliation-reports-for-belgium"></a>Afstemmingsrapporten voor België
 
@@ -127,3 +126,6 @@ De parameters voor dit rapport bieden u veel flexibiliteit. U kunt een zeer nauw
 Het rapport **btw-transacties voor inkoop** bevat transacties met een inkoopheffing. De inkoopheffing wordt berekend en geboekt samen met btw-betalingen. Inkoopheffingen en btw worden beide aangegeven voor de vereffeningsperiode. De vereffeningsperiode wordt gedefinieerd per btw-dienst op de pagina **Btw-vereffeningsperioden**. De informatie in het koptekstdeel van het rapport bevat relevante gegevens zoals btw-nummer, ondernemingsnummer en periode. De informatie in de detailsectie omvat journaal, boekstuk, datum, leveranciersrekening, naam, bedrag inclusief btw en btw-aangiftecodes. Dit rapport is een extern rapport. De boekhouder of accountingmanager genereert en dient dit periodiek in bij de desbetreffende instanties. Als u het rapport **Btw-transacties voor inkoop** wilt afdrukken, klikt u op **Btw** &gt; **Query's en rapporten** &gt; **Btw-aangiften** &gt;**Btw-transacties voor inkoop**.
 
 ![Gegenereerd rapport Btw-inkooptransacties](media/8_Purchase_sales_tax_transactions.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

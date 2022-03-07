@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 5132fd85fdf2c08ccded9db590328c394a2f984e
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: e2b652f11db62eb58ffc2ec2fc4322149e7d45d1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744688"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680067"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Organisatiehiërarchie in Dataverse
 
@@ -49,9 +49,9 @@ Productinformatie bevat alle informatie die betrekking heeft op het product en d
 
 Finance and Operations-apps | Andere Dynamics 365-apps | Omschrijving
 -----------------------|--------------------------------|---
-Organisatiehiërarchiedoelstellingen | msdyn_internalorganizationhierarchypurposes | Deze sjabloon biedt synchronisatie in één richting van de tabel Doel van organisatiehiërarchie.
-Type organisatiehiërarchie | msdyn_internalorganizationhierarchytypes | Deze sjabloon biedt synchronisatie in één richting van de tabel Type organisatiehiërarchie.
-Organisatiehiërarchie - gepubliceerd | msdyn_internalorganizationhierarchies | Deze sjabloon biedt synchronisatie in één richting van de tabel Gepubliceerde organisatiehiërarchie.
+Organisatiehiërarchiedoelstellingen | msdyn_internalorganizationhierarchypurposes | Deze sjabloon biedt synchronisatie in één richting van de entiteit Doel van organisatiehiërarchie.
+Type organisatiehiërarchie | msdyn_internalorganizationhierarchytypes | Deze sjabloon biedt synchronisatie in één richting van de entiteit Type organisatiehiërarchie.
+Organisatiehiërarchie - gepubliceerd | msdyn_internalorganizationhierarchies | Deze sjabloon biedt synchronisatie in één richting van de entiteit Gepubliceerde organisatiehiërarchie.
 Operationele eenheid | msdyn_internalorganizations |
 Rechtspersonen | msdyn_internalorganizations |
 Rechtspersonen | cdm_companies | Biedt bidirectionele synchronisatie van gegevens over rechtspersonen (bedrijven).

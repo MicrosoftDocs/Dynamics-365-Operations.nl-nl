@@ -1,29 +1,26 @@
 ---
 title: Afschrijvingsmethoden en conventies
 description: Dit artikel geeft een overzicht van de afschrijvingsconventies en afschrijvingsmethoden die door Microsoft Dynamics 365 Finance worden ondersteund.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 04/25/2017
+author: moaamer
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile, AssetGroupBookSetup, AssetGroupDepBookSetup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3441
 ms.assetid: 1d8267b1-86a8-44bf-8814-f56b5d45a0ae
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3370db28f551b5ce4a9b49342cb0c0b2f3945c0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3f0f3b8be86225fd68df9b099e5c8e13a220a213
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442070"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927424"
 ---
 # <a name="depreciation-methods-and-conventions"></a>Afschrijvingsmethoden en conventies
 
@@ -35,7 +32,7 @@ U kunt verscheidene afschrijvingsmethoden en -conventies selecteren. Het doel va
 
 Als u afschrijvingsconventies gebruikt en de uitvoeringsdatum van de laatste afschrijving voor een activum wijzigt, waardoor dan enkele afschrijvingen worden overgeslagen, kan de afschrijving voor het afgelopen jaar hoger of lager zijn dan verwacht. De afschrijving wordt aangepast met het aantal afschrijvingsperioden dat werd beïnvloed door de aanpassing van de uitvoeringsdatum van de laatste afschrijving.
 
-Als u bijvoorbeeld de afschrijvingsconventie Half jaar voor drie jaar gebruikt, vindt de afschrijving doorgaans in 3 1/2 jaar plaats. Als u de uitvoeringsdatum van de laatste afschrijving wijzigt tijdens die 3 1/2 jaar, wordt het aantal perioden dat wordt beïnvloed vergroot door het laatste jaar van de afschrijving. Als u de datum drie maanden verschuift, heeft het laatste jaar negen maanden afschrijving, terwijl er normaal gesproken zes maanden afschrijving zou zijn.
+Als u bijvoorbeeld de afschrijvingsconventie Half jaar voor drie jaar gebruikt, vindt de afschrijving doorgaans in drie en een half jaar plaats. Als u de uitvoeringsdatum van de laatste afschrijving wijzigt tijdens die drie en en half jaar, wordt het aantal perioden dat wordt beïnvloed vergroot door het laatste jaar van de afschrijving. Als u de datum drie maanden verschuift, heeft het laatste jaar negen maanden afschrijving, terwijl er normaal gesproken zes maanden afschrijving zou zijn.
 
 U kunt uit de volgende afschrijvingsconventies kiezen.
 
@@ -49,12 +46,12 @@ U kunt uit de volgende afschrijvingsconventies kiezen.
 -   Halfjaar (volgend jaar)
 
 U kunt uit de volgende afschrijvingsmethoden kiezen.
--   Levensduur lineaire
+-   Lineaire levensduur
 -   Degressief
 -   Handmatig
 -   Factor
 -   Verbruik
--   Resterende levensduur lineaire
+-   Lineaire resterende levensduur
 -   200% degressief
 -   175% degressief
 -   150% degressief
@@ -64,12 +61,11 @@ U kunt uit de volgende afschrijvingsmethoden kiezen.
 
 
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Afschrijving vaste activa](fixed-asset-depreciation.md)
 
-[Lineaire afschrijving van levensduur](Straight-line-service-life-depreciation.md)
+[Lineaire afschrijving levensduur](Straight-line-service-life-depreciation.md)
 
 [Degressieve afschrijving](reduce-balance-depreciation.md)
 
@@ -91,3 +87,6 @@ U kunt uit de volgende afschrijvingsmethoden kiezen.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

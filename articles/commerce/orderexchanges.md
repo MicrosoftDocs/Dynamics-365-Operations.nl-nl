@@ -2,9 +2,11 @@
 title: Een uitwisseling voor een retourorder configureren en verwerken
 description: In dit onderwerp wordt uitgelegd hoe u een uitwisseling voor een retour configureert in Dynamics 365 Commerce.
 author: josaw1
-ms.date: 07/28/2021
+manager: AnnBe
+ms.date: 11/12/2018
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 488f6fb5af6451bc462566a9714054b49eb1a80b8264528778797f6a39647764
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5419c18a510b0d35dabe5329a9557780cb7637b3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758331"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257118"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Een uitwisseling voor een retourorder configureren en verwerken
 
@@ -32,12 +34,9 @@ Er is echter functionaliteit toegevoegd om scenario's met uitwisselingen voor re
 
 ## <a name="configure-commerce-to-support-exchanges-on-return-orders"></a>Commerce configureren om uitwisseling te ondersteunen voor retourorders
 
-> [!NOTE]
-> In versie 10.0.20 en hoger van Commerce is een nieuwe functie beschikbaar met de naam Uniforme retourverwerkingservaring in POS. Als u deze functie inschakelt, zijn de onderstaande installatiestappen niet vereist. **Retouren verwerken als verkooporders** wordt een permanent geconfigureerde instelling en u kunt dit niet wijzigen.
+Ga als volgt te werk om het systeem zo te configureren dat uitwisseling wordt ondersteund voor retourorders.
 
-Volg deze stappen om het systeem te configureren voor het ondersteunen van uitwisselingen op retourorders, als u de functie **Uniforme retourverwerkingservaring in POS** niet hebt ingeschakeld.
-
-1. Ga naar **Retail en Commerce \> Instelling van hoofdkantoor \> Parameters \> Commerce-parameters**. Stel op het sneltabblad **Klantorders** de optie **Retourorders verwerken als verkooporders** in op **Ja**.
+1. Ga naar **Detailhandel en commerce \> Instelling van hoofdkantoor \> Parameters \> Commerce-parameters**. Stel op het sneltabblad **Klantorders** de optie **Retourorders verwerken als verkooporders** in op **Ja**.
 2. Voer de taak **Algemene configuratie distributieplanning** (**1110**) uit.
 
 ## <a name="make-an-exchange"></a>Uitwisselen

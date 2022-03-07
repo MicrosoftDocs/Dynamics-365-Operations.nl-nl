@@ -1,20 +1,20 @@
 ---
 title: Italiaanse Intrastat
 description: Dit onderwerp bevat informatie over Intrastat-aangifte in Italië.
-author: anasyash
-ms.date: 09/09/2021
+author: andosip
+ms.date: 7/9/2021
 ms.topic: article
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: kfender
 ms.search.region: Global
-ms.author: anasyash
+ms.author: v-aosipov
 ms.search.validFrom: ''
-ms.openlocfilehash: 3b676ba754cded03fdc6d566ffbfbb35c204b03a
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: f80a82f4c3c00ee263cc0bf31b0dc5fc69a05dea324fe96e3e0db9a13a488fac
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488254"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779363"
 ---
 # <a name="italian-intrastat"></a>Italiaanse Intrastat
 
@@ -598,8 +598,11 @@ U moet twee rapporten naar de instantie verzenden. Eén rapport is voor intracot
 - **Voorblad**
 
 - **Sectie 1. Goederen**: deze sectie bevat informatie over normale transacties en creditnota's die zijn gerelateerd aan facturen voor goederen in dezelfde aangifteperiode als de Intrastat-aangifteperiode.
+
 - **Sectie 2. Correcties voor goederen**: deze sectie bevat informatie over correcties en creditnota's die zijn gerelateerd aan facturen voor goederen in eerdere Intrastat-aangifteperioden.
+
 - **Sectie 3. Services**: deze sectie bevat informatie over normale transacties en creditnota's die zijn gerelateerd aan facturen voor services in dezelfde aangifteperiode als de Intrastat-aangifteperiode.
+
 - **Sectie 4. Correcties voor services**: deze sectie bevat informatie over correcties en creditnota's die zijn gerelateerd aan facturen voor services in eerdere Intrastat-aangifteperioden.
 
 ## <a name="set-up-intrastat"></a>Intrastat instellen
@@ -608,14 +611,21 @@ U moet twee rapporten naar de instantie verzenden. Eén rapport is voor intracot
 
 De volgende algemene informatie moet worden ingesteld voordat u met Intrastat gaat werken:
 
-   - Basisproductcodes. Voor services moet u zescijferige basisproductcodes definiëren.
-   - Transactiecodes. Italië gebruikt transactiecodes van één cijfer.
-   - Transportmethoden.
-   - Statistiekprocedures.
-   - Parameters buitenlandse handel.
-   - Magazijnbeheer.
-   - Vrijgegeven productdetails.
-   - Contactgegevens van medewerkers.
+-   Basisproductcodes. Voor services moet u zescijferige basisproductcodes definiëren.
+
+-   Transactiecodes. Italië gebruikt transactiecodes van één cijfer.
+
+-   Transportmethoden.
+
+-   Statistiekprocedures.
+
+-   Parameters buitenlandse handel.
+
+-   Magazijnbeheer.
+
+-   Vrijgegeven productdetails.
+
+-   Contactgegevens van medewerkers.
 
 Zie [Overzicht van Intrastat](emea-intrastat.md) voor meer informatie.
 
@@ -623,68 +633,97 @@ Zie [Overzicht van Intrastat](emea-intrastat.md) voor meer informatie.
 
 Volg deze stappen om specifiek Italiaanse opties in te stellen zodat u met Intrastat kunt werken.
 
-1. In [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/Logon/Index) kunt u in de bibliotheek met gedeelde activa de meest recente versie downloaden van de volgende ER-configuraties (elektronische aangifte) voor de Intrastat-aangifte:
+1.  In [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/Logon/Index) kunt u in de bibliotheek met gedeelde activa de meest recente versie downloaden van de volgende ER-configuraties (elektronische aangifte) voor de Intrastat-aangifte:
 
-    - Intrastat-model
-    - Intrastat-rapport
-    - Intrastat (IT)
+    -   Intrastat-model
 
-    Zie voor meer informatie [Elektronische rapportageconfiguraties downloaden vanuit Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+    -   Intrastat-rapport
 
-2. Ga in Dynamics 365 Finance naar **Belasting** > **Instellingen** > **Parameters buitenlandse handel**.
-3. Stel op het tabblad **Intrastat** op het sneltabblad **Algemeen** de volgende velden in:
+    -   Intrastat (IT)
+
+Zie voor meer informatie [Elektronische rapportageconfiguraties downloaden vanuit Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+
+2.  Ga in Dynamics 365 Finance naar **Belasting** &gt; **Instellingen** &gt; **Parameters buitenlandse handel**.
+
+3.  Stel op het tabblad **Intrastat** op het sneltabblad **Algemeen** de volgende velden in:
 
     - **Graafschap van oorsprong/bestemming**: selecteer het graafschap van uw bedrijf. Dit graafschap wordt gebruikt bij verzendingen.
+
+    <!-- -->
+
     - **transactiecode**: selecteer de transactiecode voor bezittingsoverdrachten. Deze code wordt gebruikt voor transacties die tot een werkelijke of geplande overdracht van een bezitting tegen vergoeding leiden en ook voor correcties.
 
-    - **Creditnota**: selecteer de transactiecode voor de retourzending van goederen.
-    - **Verkooprapportperiode:** selecteer de aangifteperiode voor de exportaangifte: **Maand** of **Kwartaal**. Kwartaalaangiften worden in vereenvoudigde indeling geëxporteerd.
-    - **Inkooprapportperiode**: selecteer de aangifteperiode voor de importaangifte: **Maand** of **Kwartaal**. Kwartaalaangiften worden in vereenvoudigde indeling geëxporteerd.
+    - **Creditnota**: selecteer de transactiecode voor de retourzending van goederen. Deze code wordt gebruikt voor de retourzending van goederen nadat de oorspronkelijke transactie is geregistreerd onder de transactiecode.
 
-4. Stel op het sneltabblad **Elektronische rapportage** de volgende velden in:
+    - **Verkooprapportperiode:** selecteer de aangifteperiode voor de exportaangifte: **Maand** of **Kwartaal**. Kwartaalaangiften worden in vereenvoudigde indeling geëxporteerd.
+
+    - **Inkooprapportperiode:** selecteer de aangifteperiode voor de importaangifte: **Maand** of **Kwartaal**. Kwartaalaangiften worden in vereenvoudigde indeling geëxporteerd.
+
+4.  Stel op het sneltabblad **Elektronische rapportage** de volgende velden in:
 
     - **Bestandsindelingtoewijzing**: selecteer **Intrastat (IT)**.
+
+    <!-- -->
+
     - **Rapportindelingstoewijzing**: selecteer **Intrastat-rapport**.
 
-5. Selecteer op het sneltabblad **Hiërarchie van basisproductcodes** in het veld **Categoriehiërarchie** de optie **Intrastat**.
-6. Stel op het sneltabblad **Statistische waarde** de optie **Statistische gegevens afdrukken en exporteren** in op **Ja**, indien nodig. Met deze instelling wordt de overdracht van de statistische sectie geactiveerd. De statistische sectie bestaat uit gegevens over gewichten, extra eenheden, statistische waarden, leveringsvoorwaarden, afleveringsschema's, transportmodi en regio's van oorsprong.
+5.  Selecteer op het sneltabblad **Hiërarchie van basisproductcodes** in het veld **Categoriehiërarchie** de optie **Intrastat**.
 
-    > [!NOTE]
-    > Voor een kwartaalaangifte bevat het Intrastat-rapport niet de statistische sectie of informatie over leveringsvoorwaarden en transportmodi. Zie de tabel in de sectie [Overzicht](#overview) van dit onderwerp voor meer informatie.
+6.  Stel op het sneltabblad **Statistische waarde** de optie **Statistische gegevens afdrukken en exporteren** in op **Ja**, indien nodig. Met deze instelling wordt de overdracht van de statistische sectie geactiveerd. De statistische sectie bestaat uit gegevens over gewichten, extra eenheden, statistische waarden, leveringsvoorwaarden, afleveringsschema's, transportmodi en regio's van oorsprong.
 
-7. Geef op het tabblad **Eigenschappen land/regio** een overzicht weer van alle landen of regio's met welk land of regio uw organisatie zaken doet. Stel voor elk land of elke regio de volgende velden in:
+>[!NOTE]
+>
+>Voor een kwartaalaangifte bevat het Intrastat-rapport niet de statistische sectie of informatie over leveringsvoorwaarden en transportmodi. Zie de tabel in de sectie [Overzicht](#overview) van dit onderwerp voor meer informatie.
 
-    - **Partij land/regio**: selecteer de land-/regiocode.
-    - **Intrastat-code**: voer de Intrastat-code van twee cijfers in.
-    - **Valuta**: geef de nationale valuta van het land of de regio op. Als de leverancier is gevestigd in een EU-land dat geen gebruikmaakt van de euro, worden factuurbedragen in zowel de valuta van de leverancier als in euro's gerapporteerd. Als de leverancier bijvoorbeeld in Denemarken is gevestigd, worden de gerapporteerde bedragen voor de importaangifte in zowel de Deense kroon (DKK) als in euro's (EUR) gebruikt.
-    - **Type land/regio**: selecteert het type van het land of de regio in relatie tot uw organisatie. Voor het Intrastat-journaal worden alleen landen of regio's van het type **EU** en **Speciaal binnenland** worden overgedragen.
+7.  Geef op het tabblad **Eigenschappen land/regio** een overzicht weer van alle landen of regio's met welk land of regio uw organisatie zaken doet. Stel voor elk land of elke regio de volgende velden in:
 
-    > [!NOTE]
-    > Voor landen of regio's van het type **Speciaal binnenland** worden de volgende velden weggelaten in het Intrastat-rapportbestand: **Gewicht**, **Extra eenheden**, **Statistische waarde**, **Leveringsvoorwaarden**, **Transportcode**, **Land/regio van oorsprong/bestemming** en **Graafschap van oorsprong/bestemming**. Selecteer bijvoorbeeld in het veld **Partijland/-regio** de optie **SMR (San Marino)** en selecteer vervolgens In het veld **Land-/regiotype** de optie **Speciaal binnenland**.
+- **Partij land/regio**: selecteer de land-/regiocode.
 
-8. Ga naar **Leveranciers** > **Instellingen** > **Leveringsvoorwaarden**.
-9. Selecteer de leveringsvoorwaarden in het raster.
+- **Intrastat-code**: voer de Intrastat-code van twee cijfers in.
+
+- **Valuta**: geef de nationale valuta van het land of de regio op. Als de leverancier is gevestigd in een EU-land dat geen gebruikmaakt van de euro, worden factuurbedragen in zowel de valuta van de leverancier als in euro's gerapporteerd. Als de leverancier bijvoorbeeld in Denemarken is gevestigd, worden de gerapporteerde bedragen voor de importaangifte in zowel de Deense kroon (DKK) als in euro's (EUR) gebruikt.
+
+- **Type land/regio**: selecteert het type van het land of de regio in relatie tot uw organisatie. Voor het Intrastat-journaal worden alleen landen of regio's van het type **EU** en **Speciaal binnenland** worden overgedragen.
+
+>[!NOTE]
+>
+>Voor landen of regio's van het type **Speciaal binnenland** worden de volgende velden weggelaten in het Intrastat-rapportbestand: **Gewicht**, **Extra eenheden**, **Statistische waarde**, **Leveringsvoorwaarden**, **Transportcode**, **Land/regio van oorsprong/bestemming** en **Graafschap van oorsprong/bestemming**. Selecteer bijvoorbeeld in het veld **Partijland/-regio** de optie **SMR (San Marino)** en selecteer vervolgens In het veld **Land-/regiotype** de optie **Speciaal binnenland**.
+
+8.  Ga naar **Leveranciers** &gt; **Instellingen** &gt; **Leveringsvoorwaarden**.
+
+9.  Selecteer de leveringsvoorwaarden in het raster.
+
 10. Voer in het veld **Intrastat-code** op het sneltabblad **Algemeen** de code van één cijfer in die wordt gebruikt in het Intrastat-rapport.
+
 11. Wijs btw-nummers aan klanten en leveranciers toe door de volgende stappen uit te voeren. Deze nummers worden weergegeven in het Intrastat-rapport.
-12. Ga naar **Belasting** > **Instellingen** > **Btw** > **Btw-vrijstellingsnummers** en vermeld alle btw-nummers voor uw klanten en leveranciers. Stel voor elke partner de volgende velden in:
+
+-   Ga naar **Belasting** &gt; **Instellingen** &gt; **Btw** &gt; **Btw-nummers** en vermeld alle btw-nummers voor uw klanten en leveranciers. Stel voor elke partner de volgende velden in:
 
     - **Land/regio**: selecteer het land of de regio van de partner.
+
     - **Btw-nummer**: voer het btw-nummer van de partner in.
+
     - **Bedrijfsnaam**: voer de naam van de partner in.
 
-13. Ga naar **Klanten** > **Klanten** > **Alle klanten** en voer deze stappen uit voor elke klant:
+<!-- -->
 
-    1. Selecteer een klant.
-    2. Selecteer op het Sneltabblad **Factuur en levering**, in de sectie **Btw** in het veld **Btw-nummer** de optie **Alle**.
-    3. Selecteer het btw-nummer van de klant.
+-   Ga naar **Klanten** &gt; **Klanten** &gt; **Alle klanten** en volg deze stappen voor elke klant:
 
-14. Ga naar **Leveranciers** > **Leveranciers** > **Alle leveranciers** en voer deze stappen uit voor elke leverancier:
+    1.  Selecteer een klant.
 
-    1. Selecteer een leverancier.
-    2. Selecteer op het Sneltabblad **Factuur en levering**, in de sectie **Btw** in het veld **Btw-nummer** de optie **Alle**.
-    3. Selecteer het btw-nummer van de leverancier.
+    2.  Selecteer op het Sneltabblad **Factuur en levering**, in de sectie **Btw** in het veld **Btw-nummer** de optie **Alle**.
 
-15. Ga naar **Belasting** > **Instellingen** > **Buitenlandse handel** > **Compressie van Intrastat** en selecteer de velden die moeten worden vergeleken tijdens het samenvatten van de Intrastat-informatie. Voor Italië selecteert u **Btw-nummer**, **Transactiecode**, **Basisproduct**, **Leveringsvoorwaarden**, **Transport**, **Land/regio**, **Land/regio van oorsprong**, **Graafschap van oorsprong**, **Graafschap van oorsprong/bestemming**, **Valuta**, **Maand**, **Kwartaal** en **Correctiejaar**.
+    3.  Selecteer het btw-nummer van de klant.
+
+-   Ga naar **Leveranciers** &gt; **Leveranciers** &gt; **Alle leveranciers** en volg deze stappen voor elke leverancier:
+
+    1.  Selecteer een leverancier.
+
+    2.  Selecteer op het Sneltabblad **Factuur en levering**, in de sectie **Btw** in het veld **Btw-nummer** de optie **Alle**.
+
+    3.  Selecteer het btw-nummer van de leverancier.
+
+12. Ga naar **Belasting** &gt; **Instellingen** &gt; **Buitenlandse handel** &gt; **Compressie van Intrastat** en selecteer de velden die moeten worden vergeleken bij het samenvatten van Intrastat-informatie. Voor Italië selecteert u **Btw-nummer**, **Transactiecode**, **Basisproduct**, **Leveringsvoorwaarden**, **Transport**, **Land/regio**, **Land/regio van oorsprong**, **Graafschap van oorsprong**, **Graafschap van oorsprong/bestemming**, **Valuta**, **Maand**, **Kwartaal** en **Correctiejaar**.
 
 ## <a name="italian-vendor-invoice-journal-for-foreign-trade"></a>Italiaans leveranciersfactuurjournaal voor buitenlandse handel
 
@@ -723,10 +762,10 @@ Als u het Intrastat-journaal wilt openen, gaat u naar **Belasting** &gt; **Aangi
 >
 >Als u een negatieve correctie (creditnota) ontvangt in dezelfde periode als de rapportperiode, moet u het Intrastat-journaal handmatig wijzigen door de volgende stappen uit te voeren.
 >
-> 1. Ga naar **Belasting** > **Aangiften** > **Buitenlandse handel** > **Intrastat**.
-> 2. Zoek en verwijder de transactie die als een correctie is gemarkeerd.
-> 3. Zoek de oorspronkelijke transactie en wijzig waar nodig de waarde van het veld **Factuurbedrag**.
-> U ontvangt bijvoorbeeld een factuur voor 10.000 en u ontvangt een creditnota voor -2000. In dit geval moet u het Intrastat-journaal openen en de transactie voor -2000 zoeken en verwijderen. Zoek vervolgens de oorspronkelijke transactie voor 10.000 en stel het factuurbedrag in op 8000 (= 10.000 - 2000).
+>1.  Ga naar **Belasting** &gt; **Aangiften** &gt; **Buitenlandse handel** &gt; **Intrastat**.
+>2.  Zoek en verwijder de transactie die als een correctie is gemarkeerd.
+>3.  Zoek de oorspronkelijke transactie en wijzig waar nodig de waarde van het veld **Factuurbedrag**.
+>U ontvangt bijvoorbeeld een factuur voor 10.000 en u ontvangt een creditnota voor -2000. In dit geval moet u het Intrastat-journaal openen en de transactie voor -2000 zoeken en verwijderen. Zoek vervolgens de oorspronkelijke transactie voor 10.000 en stel het factuurbedrag in op 8000 (= 10.000 - 2000).
 
 ### <a name="intrastat-transfer"></a>Intrastat-overboeking
 
@@ -734,30 +773,235 @@ In het actievenster kunt u **Overboeking** selecteren om de informatie over intr
 
 U kunt ook handmatig transacties invoeren door **Nieuw** te selecteren in het actievenster.
 
-Voor elke transactie kunt u verschillende specifieke parameters voor Italië instellen op het tabblad **Algemeen**. De volgende tabel bevat meer informatie over de velden.
+Voor elke transactie kunt u verschillende parameters die specifiek zijn voor Italië instellen op het tabblad **Algemeen**.
 
-| Veld | Beschrijving |
-|-------|-------------|
-| Artikeltype | Dit veld kan worden ingesteld op **Goederen** of **Services**.<br> Een transactie kan alleen als een service worden beschouwd als uw factuurregel op een van de volgende manieren wordt ingesteld:<br>- Er is geen basisproductcode<br>- Het heeft een zescijferige basisproductcode  |
-| Graafschap van oorsprong | Graafschap van oorsprong van het product of de service. Deze waarde wordt opgegeven op de pagina **Vrijgegeven producten**. |
-| Leveringsmethode | De leveringsmethode. <br>U kunt de leveringsmethode opgeven door naar **Verkoop en marketing** > **Instellingen** > **Verdeling** > **Leveringsmethoden** te gaan. |
-| Maand | De maand van de oorspronkelijke transactie. |
-| Kwartaal | Het kwartaal van de oorspronkelijke transactie. |
-| Correctiejaar | Het jaar van de oorspronkelijke transactie. |
-| Oorspronkelijke Intrastat-record | Voor servicecorrecties voert u het nummer van de oorspronkelijke Intrastat-record in. |
-| Valuta | De nationale valuta van de partner. |
-| Factuurbedrag in transactievaluta | Het factuurbedrag in de nationale valuta van de partner. |
-| Factuurbedrag voor toeslagen in transactievaluta | Het factuurbedrag voor toeslagen in de nationale valuta van de partner. |
-| Factuurwaarde in transactievaluta | De factuurwaarde in de nationale valuta van de partner. |
+<table>
+<tbody>
+<tr>
+<td>
+<p><strong>Veld</strong></p>
+</td>
+<td>
+<p><strong>Beschrijving</strong></p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p style="text-align: center;">Sectie <strong>Algemeen</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Artikeltype</p>
+</td>
+<td>
+<p>Dit veld kan worden ingesteld op <strong>Goederen</strong> of <strong>Services</strong>.</p>
+<p>Een transactie kan alleen als een service worden beschouwd als uw factuurregel op een van de volgende manieren wordt ingesteld:</p>
+<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Er is geen basisproductcode.</p>
+<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Het heeft een zescijferige basisproductcode</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p style="text-align: center;">Sectie <strong>Land/regio van oorsprong</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Graafschap van oorsprong</p>
+</td>
+<td>
+<p>Graafschap van oorsprong van het product of de service. Deze waarde wordt opgegeven op de pagina <strong>Vrijgegeven producten</strong>.</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p style="text-align: center;">Sectie <strong>Codes</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Leveringsmethode</p>
+</td>
+<td>
+<p>De leveringsmethode. U kunt de leveringsmethode opgeven door naar <strong>Verkoop en marketing</strong> &gt; <strong>Instellingen</strong> &gt; <strong>Verdeling</strong> &gt; <strong>Leveringsmethoden</strong> te gaan.</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p style="text-align: center;">Sectie <strong>Correcties</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Maand</p>
+</td>
+<td>
+<p>De maand van de oorspronkelijke transactie.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Kwartaal</p>
+</td>
+<td>
+<p>Het kwartaal van de oorspronkelijke transactie.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Correctiejaar</p>
+</td>
+<td>
+<p>Het jaar van de oorspronkelijke transactie.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Oorspronkelijke Intrastat-record</p>
+</td>
+<td>
+<p>Voor servicecorrecties voert u het nummer van de oorspronkelijke Intrastat-record in.</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p style="text-align: center;">Sectie <strong>Factuurwaarde</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Valuta</p>
+</td>
+<td>
+<p>De nationale valuta van de partner.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Factuurbedrag in transactievaluta</p>
+</td>
+<td>
+<p>Het factuurbedrag in de nationale valuta van de partner.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Factuurbedrag voor toeslagen in transactievaluta</p>
+</td>
+<td>
+<p>Het factuurbedrag voor toeslagen in de nationale valuta van de partner.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Factuurwaarde in transactievaluta</p>
+</td>
+<td>
+<p>De factuurwaarde in de nationale valuta van de partner.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 Zie [Intrastat-overzichtsvoorwaarden (diverse toeslagen)](emea-intrastat.md) voor meer informatie over de factuurkosten in de nationale valuta van de partner.
 
 ### <a name="generate-an-intrastat-report"></a>Een Intrastat-rapport genereren
 
-1. Als u het Intrastat-rapport wilt genereren, gaat u naar **Belasting** > **Aangiften** > **Buitenlandse handel** > **Intrastat**.
-2. Selecteer in het actievenster **Uitvoer** > **Rapport**.
-3. Selecteer in het dialoogvenster **Intrastat-rapport** de begin- en einddatum voor het rapport.
-4. Selecteer **Ja** in het veld **Bestand genereren** om een TXT-bestand te genereren en voer de naam van het bestand in.
-5. Selecteer **Ja** in het veld **Rapport genereren** om een .xlsx-bestand te genereren en voer de naam van het rapport in.
-6. Selecteer **Ontvangsten** of **Verzendingen** op basis van de inhoud van het rapport.
-7. Voer in het veld **Referentienummer** het documentnummer in. Deze waarde heeft invloed op de bestandsnummercode in het Intrastat-bestandsrapport. 
+1.  Als u het Intrastat-rapport wilt genereren, gaat u naar **Belasting** &gt; **Aangiften** &gt; **Buitenlandse handel** &gt; **Intrastat**.
+
+2.  Selecteer **Uitvoer** &gt; **Rapport** in het actievenster.
+
+3.  Stel in het dialoogvenster **Intrastat-rapport** de volgende velden in.
+
+<table>
+<tbody>
+<tr>
+<td>
+<p><strong>Veld</strong></p>
+</td>
+<td>
+<p><strong>Beschrijving</strong></p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Sectie <strong>Datum</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Begindatum</p>
+</td>
+<td>
+<p>Selecteer de begindatum voor het rapport.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Einddatum</p>
+</td>
+<td>
+<p>Selecteer de einddatum voor het rapport.</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Sectie <strong>Exportopties</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Bestand genereren</p>
+</td>
+<td>
+<p>Stel deze optie in op <strong>Ja</strong> om een TXT-bestand te genereren.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Bestandsnaam</p>
+</td>
+<td>
+<p>Voer de naam van het TXT-bestand in voor uw Intrastat-rapport.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Rapport genereren</p>
+</td>
+<td>
+<p>Stel deze optie in op <strong>Ja</strong> om een XLSX-bestand te genereren.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Rapportbestandsnaam</p>
+</td>
+<td>
+<p>Voer de naam van het XLSX-bestand in voor uw Intrastat-rapport.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Richting</p>
+</td>
+<td>
+<p>Selecteer <strong>Ontvangsten</strong> voor een rapport over intracommunautaire ontvangsten. Selecteer <strong>Verzendingen</strong> voor een rapport over intracommunautaire verzendingen.</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Sectie <strong>Bestandsindelingtoewijzing</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Verwijzingsnummer</p>
+</td>
+<td>
+<p>Voer het documentnummer in. Deze waarde heeft invloed op de <strong>bestandsnummercode</strong> in het Intrastat-bestandsrapport. Zie Bestandsindeling voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>

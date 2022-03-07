@@ -2,28 +2,25 @@
 title: Werkgebied voor afsluiten van financiële periode
 description: Dit artikel geeft een overzicht van het werkgebied Afgesloten financiële periode en de bijbehorende configuratie.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 11/29/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f96da7f7f5374fb34e317c416238a48c3fe7d05
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 388cf90221f04014ebced7b322fda14558769127
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4442188"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811332"
 ---
 # <a name="financial-period-close-workspace"></a>Werkgebied voor afsluiten van financiële periode
 
@@ -108,3 +105,6 @@ Nadat een afsluitingsplanning is voltooid, schakelt u de optie **Afgesloten** in
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

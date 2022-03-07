@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: BankParameters, VendPaymMode, CustPaymMode
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 22e67aa051b5ea8267df7efac40e007d0f11a83d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 84bb0f8250e68dd65aa87d126df59b7cea74b9ed
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442028"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225216"
 ---
 # <a name="set-up-postdated-checks"></a>Gepostdateerde cheques instellen
 
@@ -57,3 +56,6 @@ De rol van deze procedure is penningmeester. Bij deze procedure wordt het demobe
 18. Klik op Opslaan.
 19. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

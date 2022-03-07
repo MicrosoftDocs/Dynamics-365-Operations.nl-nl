@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: lbc
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b25050572662afebbeaa39fa5a96e70cef618ac671dceba189fab1315480ede2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9b5ba8dedb927ee049d7e53e9a666902f563f49
+ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755150"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938451"
 ---
 # <a name="you-cant-confirm-a-shipment-because-the-quantity-exceeds-the-overdelivery-percentage"></a>U kunt een zending niet bevestigen omdat de hoeveelheid groter is dan het percentage meerlevering
 

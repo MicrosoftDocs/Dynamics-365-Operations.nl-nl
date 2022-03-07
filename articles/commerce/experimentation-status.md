@@ -2,11 +2,9 @@
 title: De status van een experiment controleren
 description: In dit onderwerp wordt uitgelegd welke status een experiment heeft in de levenscyclus van het experiment in Dynamics 365 Commerce.
 author: sushma-rao
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 5ae29fe5ac49d92c261c59d115664b50e87880a0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bb9d0e96f8bbdb49408b232eb0405a22d6f478bb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965097"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349203"
 ---
 # <a name="review-the-status-of-an-experiment"></a>De status van een experiment controleren
 Er zijn diverse stappen betrokken bij het instellen en uitvoeren van een experiment in Dynamics 365 Commerce. Zie [Experimenten in Dynamics 365 Commerce](experimentation-overview.md) voor informatie over de levenscyclus van experimenten.
@@ -43,4 +41,7 @@ Zo ook kunnen in de kolom **Status van derden** de volgende waarden worden weerg
 
 In het onderstaande diagram ziet u beide sets statuswaarden en de relatie tussen deze twee sets.
 
-[ ![Statuswaarden van experimenten](./media/experimentation_statuses.svg) ](./media/experimentation_statuses.svg#lightbox)
+[ ![Statuswaarden van experimenten.](./media/experimentation_statuses.svg) ](./media/experimentation_statuses.svg#lightbox)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

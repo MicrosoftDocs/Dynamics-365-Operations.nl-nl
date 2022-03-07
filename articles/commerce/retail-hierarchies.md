@@ -2,16 +2,13 @@
 title: Commerce-hiërarchieën
 description: In dit artikel worden hiërarchieën in Dynamics 365 Commerce beschreven.
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: OMHierarchyManager, EcoResCategoryHierarchyFactbox
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 15851
 ms.assetid: dfa11d41-2a0c-4cde-99b6-058c49176c94
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8f7e4d01970f459f66934fe434ec7307104b39b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 60534536476cfbe7a4f254923785ab1eb0001a3eaf7630dec75f28f07dff30d8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411470"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716139"
 ---
 # <a name="commerce-hierarchies"></a>Commerce-hiërarchieën
 
@@ -45,3 +42,6 @@ In de volgende tabel worden de beschikbare typen categoriehiërarchieën en het 
 | Navigatiehiërarchie   | Gebruik dit hiërarchietype om producten te groeperen en organiseren in categorieën zodat u online of in POS in producten kunt bladeren. |
 
 U kunt gebruikmaken van een categoriehiërarchie voor het structureren van uw producten, zodat u productkenmerken en -eigenschappen kunt instellen en onderhouden op het categorieniveau. Deze kenmerken en eigenschappen omvatten instellingen voor productdimensies en POS-instellingen. Alle producten die u aan de categorieën toewijst, nemen de kenmerken en eigenschappen die u definieert automatisch over. Het is ook mogelijk om de eigenschapinstellingen van een product naar meerdere producten tegelijk in een geselecteerde categorie te kopiëren.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

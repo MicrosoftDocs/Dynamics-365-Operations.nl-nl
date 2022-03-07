@@ -2,11 +2,9 @@
 title: Een standaardstatus voor de productlevenscyclus maken
 description: Deze procedure laat zien hoe u een standaardstatus voor een productlevenscyclus maakt en hoe u de standaardstatus koppelt aan vrijgegeven producten.
 author: cvocph
-manager: tfehr
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 16f604d5e06859b15c6f610e7a5c822ef2089ea3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b62d47f52da7f9e18bce401578a5e2a629ac5eb8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966900"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818128"
 ---
 # <a name="create-a-default-product-lifecycle-state"></a>Een standaardstatus voor de productlevenscyclus maken
 
@@ -61,3 +59,6 @@ Deze procedure laat zien hoe u een standaardstatus voor een productlevenscyclus 
 > [!NOTE]
 > Stel dat u een actieve status hebt ingesteld, dan kunt u nu de actieve status selecteren om toe te staan dat het product wordt gebruikt in de Hoofdplanning en in de berekening op stuklijstniveau. Uiteraard is dit alleen zinvol als de productgegevens zijn opgegeven die vereist zijn voor een consistente planning.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

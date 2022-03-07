@@ -6,20 +6,18 @@ ms.topic: article
 ms.date: 07/27/2020
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 933f743b5b4fe9e97a80543478c1154ca290cbff
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 219380f2fe44caa56869da05317cbeb4377cc8be7336d01cd65dc5c7eda05442
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442016"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768742"
 ---
 # <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-finance"></a>Trainingscatalogus voor verkoop- en marketingrollen voor Microsoft-partners voor Dynamics 365 Finance
 
@@ -30,15 +28,18 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 ## <a name="get-started"></a>Aan de slag<a name="get-started"></a>
 
 | Inhoud  | Omschrijving  | Indeling  | Lengte    |
-|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
-| [De bedrijfswaarde van Microsoft Dynamics 365 en Power Platform leren kennen](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Wilt u graag meer weten over zakelijke toepassingen? Misschien weet u niet waar u moet beginnen de toepassingen Microsoft Dynamics 365 en Power Platform? Lees hoe de kracht van zakelijke toepassingen uw bedrijf kan helpen transformeren. | Gratis online leertraject voor zelfstudie | 7 uur |
-| [Grondbeginselen van Dynamics 365 en Power Platform](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Wilt u graag meer weten over zakelijke toepassingen? Begin met dit leertraject om te zien hoe Dynamics 365-apps worden gebruikt. Lees over cloudconcepten, Power Platform en hoe u aan de slag gaat met Dynamics 365-apps. | Gratis online leertraject voor zelfstudie | 5.5 uur |
-| [Aan de slag met Finance and Operations-apps](https://docs.microsoft.com/learn/paths/get-started-finance-operations/) | Leer hoe Finance and Operations-apps bedrijven ondersteunen om hun algemene financiële systemen, operationele bedrijfsprocessen en gestroomlijnde toeleveringsketens te beheren om mensen te helpen snelle en gefundeerde beslissingen te nemen. Als eerste stap bij het werken met Finance and Operations-apps moet u vertrouwd raken met de voorzieningen en de functionaliteit, ongeacht uw gewenste rol. | Gratis online leertraject voor zelfstudie | 2 uur |
-| [Aan de slag met Dynamics 365 Finance](https://docs.microsoft.com/learn/modules/get-started-financial-management-dyn365-finance/) | Dynamics 365 Finance stelt zakelijke gebruikers in staat zich aan te passen aan snel veranderende bedrijfsomgevingen. Het biedt bedrijven alles wat ze nodig hebben om op elk gewenst moment de financiën te beheren met nauwkeurige informatie voor financiële planning en prognoses en om up-to-date te blijven met analysetools. Aangezien financiën de kern vormen van een bedrijf, is het belangrijk om vertrouwd te raken met de mogelijkheden van Dynamics 365 Finance. | Gratis online leermodule voor zelfstudie | 1 uur |
+|-------------|-----------------|-------------|------------|
+| [De bedrijfswaarde van Microsoft Dynamics 365 en Power Platform leren kennen](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Wilt u graag meer weten over zakelijke toepassingen? Misschien weet u niet waar u moet beginnen de toepassingen Microsoft Dynamics 365 en Power Platform? Lees hoe de kracht van zakelijke toepassingen uw bedrijf kan helpen transformeren. | Gratis online leertraject voor zelfstudie | 7 uur |
+| [Grondbeginselen van Dynamics 365 en Power Platform](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Wilt u graag meer weten over zakelijke toepassingen? Begin met dit leertraject om te zien hoe Dynamics 365-apps worden gebruikt. Lees over cloudconcepten, Power Platform en hoe u aan de slag gaat met Dynamics 365-apps. | Gratis online leertraject voor zelfstudie | 5.5 uur |
+| [Aan de slag met Finance and Operations-apps](/learn/paths/get-started-finance-operations/) | Leer hoe Finance and Operations-apps bedrijven ondersteunen om hun algemene financiële systemen, operationele bedrijfsprocessen en gestroomlijnde toeleveringsketens te beheren om mensen te helpen snelle en gefundeerde beslissingen te nemen. Als eerste stap bij het werken met Finance and Operations-apps moet u vertrouwd raken met de voorzieningen en de functionaliteit, ongeacht uw gewenste rol. | Gratis online leertraject voor zelfstudie | 2 uur |
+| [Aan de slag met Dynamics 365 Finance](/learn/modules/get-started-financial-management-dyn365-finance/) | Dynamics 365 Finance stelt zakelijke gebruikers in staat zich aan te passen aan snel veranderende bedrijfsomgevingen. Het biedt bedrijven alles wat ze nodig hebben om op elk gewenst moment de financiën te beheren met nauwkeurige informatie voor financiële planning en prognoses en om up-to-date te blijven met analysetools. Aangezien financiën de kern vormen van een bedrijf, is het belangrijk om vertrouwd te raken met de mogelijkheden van Dynamics 365 Finance. | Gratis online leermodule voor zelfstudie | 1 uur |
 | [Cursus MB-900T01-A: Grondbeginselen van Dynamics 365](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | In deze cursus wordt de cursist vertrouwd gemaakt met de functionaliteit en de bedrijfswaarde van Dynamics 365. In de cursus komen Dynamics 365-toepassingen, het Power Platform, cloud concepten, het beveiligingsmodel en licentieoverwegingen aan de orde. | Geleid door een docent of online training; kosten variëren per regio en partner | 1 dag |
 
 ## <a name="exam"></a>Examen<a name="exam"></a>
 
 | Inhoud | Omschrijving  | Indeling  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| [Grondbeginselen van Dynamics 365](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Laat zien dat u bekend bent met Microsoft Dynamics 365, het Power Platform, cloudconcepten, licentieopties en implementatie- en releaseopties. | Examen, kosten verschillen per regio |
+| [Grondbeginselen van Dynamics 365](/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Laat zien dat u bekend bent met Microsoft Dynamics 365, het Power Platform, cloudconcepten, licentieopties en implementatie- en releaseopties. | Examen, kosten verschillen per regio |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

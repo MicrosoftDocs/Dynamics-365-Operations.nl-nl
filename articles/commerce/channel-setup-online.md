@@ -2,36 +2,30 @@
 title: Een online afzetkanaal instellen
 description: In dit onderwerp wordt beschreven hoe u een nieuw online afzetkanaal maakt in Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
-ms.date: 07/02/2020
+ms.date: 02/04/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 07225d97af76ea665fa28362cc205c6e8dc4fdf4
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: f32872fcc27e2e74300c4f18dfa08d666e4ad8a8
+ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4411528"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092107"
 ---
 # <a name="set-up-an-online-channel"></a>Een online afzetkanaal instellen
-
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u een nieuw online afzetkanaal maakt in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 Dynamics 365 Commerce ondersteunt meerdere detailhandelkanalen. Deze detailhandelskanalen zijn o.a. online winkels, call centers en winkels (ook fysieke winkels genoemd). Een online winkel biedt klanten de mogelijkheid om producten zowel in de online winkel als in de fysieke winkel van de detailhandelaar te kopen.
 
@@ -58,19 +52,23 @@ Voer de volgende stappen uit om een nieuw online afzetkanaal te maken en te conf
 
 De volgende afbeelding toont het maken van een nieuw online afzetkanaal.
 
-![Nieuw online afzetkanaal](media/channel-setup-online-1.png)
+![Nieuw online afzetkanaal.](media/channel-setup-online-1.png)
 
 In de volgende afbeelding ziet u een voorbeeld van een online afzetkanaal.
 
-![Voorbeeld van online afzetkanaal](media/channel-setup-online-2.png)
+![Voorbeeld van online afzetkanaal.](media/channel-setup-online-2.png)
+
+## <a name="assign-the-channel-to-a-commerce-scale-unit"></a>Het kanaal toewijzen aan een Commerce Scale Unit
+
+Uw nieuwe kanaal moet worden toegewezen aan een Commerce Scale Unit. Zie [Kanalen configureren om Commerce Scale Unit te gebruiken](../fin-ops-core/dev-itpro/deployment/initialize-retail-channels.md#configure-channels-to-use-commerce-scale-unit) voor instructies.
 
 ## <a name="set-up-languages"></a>Talen instellen
 
-Als uw e-Commerce site ondersteuning biedt voor meerdere talen, vouwt u de sectie **Talen** uit en voegt u de toepasselijke extra talen toe.
+Als uw e-Commerce-site ondersteuning biedt voor meerdere talen, vouwt u de sectie **Talen** uit en voegt u desgewenst extra talen toe.
 
 ## <a name="set-up-payment-account"></a>Betalingsrekening instellen
 
-In de sectie **Betalingsrekening** kunt u een externe betalingsverschaffer toevoegen. Zie [Dynamics 365-betalingsconnector voor Adyen](../retail/dev-itpro/adyen-connector.md) voor meer informatie over het instellen van een Adyen-betalingsconnector.
+In de sectie **Betalingsrekening** kunt u een externe betalingsverschaffer toevoegen. Zie [Dynamics 365-betalingsconnector voor Adyen](./dev-itpro/adyen-connector.md) voor meer informatie over het instellen van een Adyen-betalingsconnector.
 
 ## <a name="additional-channel-setup"></a>Aanvullende afzetkanaalinstellingen
 
@@ -78,7 +76,7 @@ Aanvullende taken die nodig zijn voor het instellen van online kanalen, zijn ond
 
 De volgende afbeelding toont de instellingsopties voor **Leveringsmethoden**, **Betalingsmethoden** en **Toewijzing van afhandelingsgroepen** op het tabblad **Instellingen**.
 
-![Aanvullende acties voor het instellen van een online kanaal](media/channel-setup-online-3.png)
+![Aanvullende acties voor het instellen van een online kanaal.](media/channel-setup-online-3.png)
 
 ### <a name="set-up-payment-methods"></a>Betalingsmethoden instellen
 
@@ -93,7 +91,7 @@ Volg deze stappen om betalingsmethoden in te stellen voor elk betalingstype dat 
 
 In de volgende afbeelding ziet u een voorbeeld van een contante betalingsgmethode.
 
-![Voorbeeldbetalingsmethoden](media/channel-setup-retail-5.png)
+![Voorbeeldbetalingsmethoden.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Leveringsmethoden instellen
 
@@ -107,7 +105,7 @@ Voer de volgende stappen uit als u een leveringsmethode wilt wijzigen of toevoeg
 
 In de volgende afbeelding ziet u een voorbeeld van een leveringsmethode.
 
-![Leveringsmethoden instellen](media/channel-setup-retail-7.png)
+![Leveringsmethoden instellen.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-a-fulfillment-group-assignment"></a>De toewijzing van een afhandelingsgroep instellen
 
@@ -121,9 +119,9 @@ Volg deze stappen als u de toewijzing van een afhandelingsgroep wilt instellen.
 
 De volgende afbeelding toont een voorbeeld van de instellingen voor de toewijzing van een afhandelingsgroep.
 
-![Toewijzing van een afhandelingsgroep instellen](media/channel-setup-retail-9.png)
+![Toewijzing van een afhandelingsgroep instellen.](media/channel-setup-retail-9.png)
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van kanalen](channels-overview.md)
 
@@ -133,4 +131,7 @@ De volgende afbeelding toont een voorbeeld van de instellingen voor de toewijzin
 
 [Een callcenterkanaal instellen](channel-setup-callcenter.md)
 
-[Dynamics 365-betalingsconnector voor Adyen](../retail/dev-itpro/adyen-connector.md)
+[Dynamics 365-betalingsconnector voor Adyen](./dev-itpro/adyen-connector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

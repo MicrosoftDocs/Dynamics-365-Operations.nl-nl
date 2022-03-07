@@ -1,28 +1,28 @@
 ---
 title: Overzicht van Organisaties en organisatiehiërarchieën
-description: Een organisatie is een groep mensen die samenwerkt om een bedrijfsproces uit te voeren of een doel te bereiken. Met organisatiehiërarchieën worden de relaties aangegeven tussen de organisaties waaruit het bedrijf bestaat.
+description: Met organisatiehiërarchieën worden de relaties aangegeven tussen de organisaties waaruit het bedrijf bestaat.
 author: sericks007
-manager: AnnBe
-ms.date: 07/25/2019
-ms.topic: article
+ms.date: 01/03/2022
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMOperatingUnit,
 audience: Application User
 ms.reviewer: sericks
-ms.custom: 17291
+ms.custom:
+- "17291"
+- intro-internal
 ms.assetid: 76b7ca45-93d4-45cc-b191-66ee63afa1fd
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 368569f2cdd389b6fc99ddcf05f35cc9a750ec9e
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: c8e8f2c2004582f42c3f464fedf9f3d049b5278f
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797040"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7992077"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Overzicht van Organisaties en organisatiehiërarchieën
 
@@ -54,7 +54,7 @@ De typen operationele eenheden omvatten kostenplaatsen, bedrijfseenheden, afdeli
 | Bedrijfseenheid       | Een semi-zelfstandige operationele eenheid die is gemaakt om strategische doelstellingen van de onderneming te behalen. | Deze optie wordt gebruikt voor financiële rapportages die zijn gebaseerd op industrieën of productlijnen van de organisatie, onafhankelijk van rechtspersonen. |
 | Waardestroom        | Een bewerkingseenheid waarmee één of meer productiestromen worden beheerd. | Deze optie wordt vaak gebruikt bij lean manufacturing om de activiteiten en stromen te beheren die zijn vereist voor de levering van een product of service aan klanten. |
 | Afdeling          | Een operationele eenheid waarmee een categorie of functioneel onderdeel van een organisatie wordt aangegeven voor het uitvoeren van een specifieke taak, zoals verkoop of boekhouding. | Deze optie wordt gebruikt voor de rapportage over functionele gebieden. Een afdeling kan verantwoordelijk zijn voor winst en verlies en kan bestaan uit een groep kostenplaatsen. |
-| Commerce-kanaal      | Een operationele eenheid die een fysieke winkel, een online winkel of een online handelsplaats vertegenwoordigt. | Gebruikt voor het beheer en de operationele controle van een of meer winkels binnen of tussen verschillende rechtspersonen. |
+| Detailhandelkanaal      | Een operationele eenheid die een fysieke winkel, een online winkel of een callcenter vertegenwoordigt. | Gebruikt voor het beheer en de operationele controle van een of meer winkels binnen of tussen verschillende rechtspersonen. |
 
 ### <a name="teams"></a>Teams
 
@@ -64,6 +64,19 @@ Een team is een organisatie waarin de leden een gemeenschappelijke verantwoordel
 
 Hiermee definieert u organisatiehiërarchieën waarmee u verschillende aspecten van uw bedrijf kunt bekijken en hierover kunt rapporteren. U kunt bijvoorbeeld een hiërarchie definiëren met rechtspersonen voor belastingaangifte. U kunt een hiërarchie instellen op basis van operationele eenheden voor het rapporteren over financiële gegevens die niet wettelijk vereist zijn, maar die voor interne controle worden gebruikt. U kunt bijvoorbeeld een inkoophiërarchie maken om inkoopbeleid, regels en bedrijfsprocessen te beheren.
 
+> [!NOTE]
+> Nadat een operationele eenheid aan een hiërarchie is toegevoegd, kan de operationele eenheid niet worden verwijderd. 
+
 Aan elke hiërarchie wordt een doel toegewezen. Het doel van een hiërarchie bepaalt welke organisatietypen kunnen worden opgenomen in de hiërarchie. Het doel bepaalt ook de aanvraagscenario's waarbinnen een hiërarchie kan worden gebruikt.
 
 In organisaties in een hiërarchie kunnen parameters, beleid en transacties worden gedeeld. Een organisatie kan de parameters van de bovenliggende organisatie overnemen of vervangen. Gedeelde hoofdgegevens, zoals producten en adresboeken, zijn echter van toepassing op de hele organisatie en kunnen niet worden vervangen voor afzonderlijke organisaties. Voor het maken van organisaties en hiërarchieën is een zorgvuldige planning vereist. Voor meer informatie raadpleegt u [Uw organisatiehiërarchie plannen](plan-organizational-hierarchy.md)
+
+## <a name="additional-resources"></a>Aanvullende bronnen
+- [Uw organisatiehiërarchie plannen](plan-organizational-hierarchy.md)
+- [Een organisatiehiërarchie maken](tasks/create-organization-hierarchy.md)
+- [Een rechtspersoon maken](tasks/create-legal-entity.md)
+- [Een operationele eenheid maken](tasks/create-operating-unit.md)
+
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
