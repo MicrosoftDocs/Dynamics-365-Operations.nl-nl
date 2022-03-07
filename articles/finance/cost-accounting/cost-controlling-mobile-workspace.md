@@ -2,28 +2,25 @@
 title: Mobiel werkgebied voor kostenbeheer
 description: Dit onderwerp bevat informatie over het mobiele werkgebied Kostenbeheer. Via dit werkgebied kunnen kostenplaatsmanagers altijd en overal informatie over de prestaties van hun kostenplaats bekijken.
 author: AndersGirke
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMMobileCostObjectOverviewDetailsCurrentPeriod, CAMMobileCostObjectList, CAMMobileCostObjectOverviewDetailsPreviousPeriod, CAMMobileCostObjectOverview, CAMMobileCostObjectOverviewDetailsYearToDate, CAMMobileCostControlWorkspaceConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 267114
 ms.assetid: 612f2988-b2b9-420d-9825-40b99dc0e204
 ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 4fc35feb4f3a67ba9c8c70c2d2f8c07cb944b0f6
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 6ab1edf6f3c1053f65c6d89786de5bfcc6c268e9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4442185"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822946"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>Mobiel werkgebied voor kostenbeheer
 
@@ -145,3 +142,6 @@ Download en installeer de mobiele Finance and Operations-app:
 11. Geef de prestaties van afzonderlijke kostenelementen weer.
 12. U kunt ook zoeken naar specifieke kostenelementen.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

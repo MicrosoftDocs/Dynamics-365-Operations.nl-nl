@@ -1,17 +1,14 @@
 ---
 title: Azure Data Lake Storage inschakelen in een Dynamics 365 Commerce-omgeving
-description: In dit onderwerp wordt uitgelegd hoe u Azure Data Lake Storage voor een Dynamics 365 Commerce-omgeving kunt inschakelen en testen. Dit is een vereiste voor het inschakelen van productaanbevelingen.
+description: Dit onderwerp geeft instructies voor het verbinden van een Azure Data Lake Storage Gen 2-oplossing met een Dynamics 365 Commerce-entiteitswinkel van een omgeving. Dit is een vereiste stap voordat productaanbevelingen worden ingeschakeld.
 author: bebeale
-manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,44 +16,41 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 27e4f1c751ee865b0df536f3c1912cb1d8946032
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c96c29a4d9639b02e6a60ad938b7e06f7d500c68
+ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411288"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7466287"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>Azure Data Lake Storage inschakelen in een Dynamics 365 Commerce-omgeving
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u Azure Data Lake Storage voor een Dynamics 365 Commerce-omgeving kunt inschakelen en testen. Dit is een vereiste voor het inschakelen van productaanbevelingen.
+Dit onderwerp geeft instructies voor het verbinden van een Azure Data Lake Storage Gen 2-oplossing met een Dynamics 365 Commerce-entiteitswinkel van een omgeving. Dit is een vereiste stap voordat productaanbevelingen worden ingeschakeld.
 
-## <a name="overview"></a>Overzicht
+In de Dynamics 365 Commerce-oplossing worden de gegevens die nodig zijn om aanbevelingen, producten en transacties te berekenen, samengevoegd in de entiteitswinkel van de omgeving. Om deze gegevens toegankelijk te maken voor andere Dynamics 365-services, zoals gegevensanalyse, Business Intelligence en persoonlijke aanbevelingen, is het noodzakelijk de omgeving te verbinden met een Azure Data Lake Storage Gen 2-oplossing van de klant.
 
-In de Dynamics 365 Commerce-oplossing worden alle product- en transactiegegevens bijgehouden in het entiteitsarchief van de omgeving. Als u deze gegevens toegankelijk wilt maken voor andere Dynamics 365-services, zoals gegevensanalyse, Business Intelligence en persoonlijke aanbevelingen, is het noodzakelijk de omgeving te verbinden met een Azure Data Lake Storage Gen 2-oplossing van de klant.
+Nadat de bovenstaande stappen zijn voltooid, worden alle klantgegevens in de entiteitswinkel van de omgeving automatisch weerspiegeld in de Azure Data Lake Storage Gen 2-oplossing van de klant. Wanneer aanbevelingenfuncties zijn ingeschakeld via het werkgebied voor functiebeheer in Commerce Headquarters, krijgt de aanbevelingenstapel toegang tot dezelfde Azure Data Lake Storage Gen 2-oplossing.
 
-Aangezien Azure Data Lake Storage in een omgeving is geconfigureerd, worden alle benodigde gegevens gespiegeld vanuit de entiteitsopslag en zijn deze nog steeds beveiligd en onder controle van de klant.
-
-Als er ook productaanbevelingen of persoonlijke aanbevelingen in de omgeving zijn ingeschakeld, wordt toegang verleend aan de productaanbevelingsstack tot de speciale map in Azure Data Lake Storage om de gegevens van de klant op basis hiervan op te halen en aanbevelingen te berekenen.
+De gegevens van klanten blijven gedurende het gehele proces beveiligd en onder hun controle.
 
 ## <a name="prerequisites"></a>Vereisten
 
-Klanten moeten Azure Data Lake Storage geconfigureerd hebben in een Azure-abonnement. Dit onderwerp geldt niet voor de aankoop van een Azure-abonnement of het instellen van een Azure Data Lake Storage-opslagaccount.
+De entiteitswinkel van een Dynamics 365 Commerce-omgeving moet zijn verbonden met een Azure Data Lake Gen Storage Gen2-account en bijbehorende services.
 
-Zie [Officiële Azure Data Lake Storage Gen2-documentatie](https://azure.microsoft.com/pricing/details/storage/data-lake) voor meer informatie over Azure Data Lake Storage.
+Raadpleeg de [Officiële documentatie Azure Data Lake Storage Gen 2](https://azure.microsoft.com/pricing/details/storage/data-lake) voor meer informatie over Azure Data Lake Storage Gen 2 en het instellen ervan.
   
 ## <a name="configuration-steps"></a>Configuratiestappen
 
-In deze sectie worden de configuratiestappen beschreven die nodig zijn om Azure Data Lake Storage in een omgeving in te schakelen vanwege de samenhang met productaanbevelingen.
-Zie [Entiteitopslag beschikbaar maken als een Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md) voor een uitgebreidere beschrijving van de stappen die nodig zijn om Azure Data Lake Storage in te schakelen.
+In dit gedeelte worden de configuratiestappen beschreven die nodig zijn om Azure Data Lake Storage Gen 2 in een omgeving in te schakelen vanwege de samenhang met productaanbevelingen.
+Raadpleeg [Entiteitopslag beschikbaar maken als een Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md) voor een uitgebreider beschrijving van de stappen die nodig zijn om Azure Data Lake Storage Gen 2 in te schakelen.
 
 ### <a name="enable-azure-data-lake-storage-in-the-environment"></a>Azure Data Lake Storage in de omgeving inschakelen
 
 1. Meld u aan bij de backoffice-portal van de omgeving.
 1. Zoek **Systeemparameters** en navigeer naar het tabblad **Gegevensverbindingen**. 
 1. Stel **Data Lake-integratie inschakelen** in op **Ja**.
-1. Stel **Data Lake in kleine delen bijwerken** in op **Ja**.
 1. Voer dan de volgende vereiste informatie in:
     1. **Toepassings-id** // **Toepassingsgeheim** // **DNS-naam**: vereist om verbinding te maken met KeyVault, waar het Azure Data Lake Storage-geheim is opgeslagen.
     1. **Geheime naam**: de geheime naam die in KeyVault is opgeslagen en die wordt gebruikt voor verificatie met Azure Data Lake Storage.
@@ -64,7 +58,7 @@ Zie [Entiteitopslag beschikbaar maken als een Data Lake](../fin-ops-core/dev-itp
 
 In de volgende afbeelding ziet u een voorbeeld van een Azure Data Lake Storage-configuratie.
 
-![Voorbeeld van Azure Data Lake Storage-configuratie](./media/exampleADLSConfig1.png)
+![Voorbeeld van Azure Data Lake Storage-configuratie.](./media/exampleADLSConfig1.png)
 
 ### <a name="test-the-azure-data-lake-storage-connection"></a>De Azure Data Lake Storage-verbinding testen
 
@@ -72,7 +66,7 @@ In de volgende afbeelding ziet u een voorbeeld van een Azure Data Lake Storage-c
 1. Test de verbinding met Azure Data Lake Storage via de koppeling **Azure-opslag testen**.
 
 > [!NOTE]
-> Als de tests mislukken, controleert u of alle bovenstaande informatie over KeyVault juist is en probeer het opnieuw.
+> Als een van de bovenstaande tests mislukt, bevestig dan dat alle bovenstaande informatie over KeyVault juist is en probeer het opnieuw.
 
 Nadat de verbindingstest is voltooid, moet u automatisch vernieuwen inschakelen voor de entiteitsopslag.
 
@@ -84,7 +78,7 @@ Voer de volgende stappen uit om het automatisch vernieuwen van de entiteitsopsla
 
 De volgende afbeelding toont een voorbeeld van een entiteitsopslag waarvoor automatisch vernieuwen is ingeschakeld.
 
-![Voorbeeld van entiteitsopslag met automatisch vernieuwen ingeschakeld](./media/exampleADLSConfig2.png)
+![Voorbeeld van entiteitsopslag met automatisch vernieuwen ingeschakeld.](./media/exampleADLSConfig2.png)
 
 Azure Data Lake Storage wordt nu geconfigureerd voor de omgeving. 
 
@@ -115,3 +109,6 @@ Als u nog niet klaar bent, voert u de stappen voor [productaanbevelingen en -aan
 [Aanbevelingen maken met voorbeeldgegevens](product-recommendations-demo-data.md)
 
 [Veelgestelde vragen over productaanbevelingen](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Voorraadjournalen
 description: In dit onderwerp wordt beschreven hoe u voorraadjournalen kunt gebruiken om diverse typen fysieke voorraadtransacties te boeken.
-author: yufeihuang
+author: perlynne
 ms.date: 04/05/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
 ms.search.region: Global
-ms.author: yufeihuang
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9370e495bf16ed638646843faaf0ff599fe1abc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a94c5371db10fa4f0090f2d177b1a01233ab0f30
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573964"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826030"
 ---
 # <a name="inventory-journals"></a>Voorraadjournalen
 
@@ -95,7 +95,7 @@ Gegevensentiteiten ondersteunen de volgende typen integratiescenario's:
 -    Synchrone service (OData)
 -  Asynchrone integratie
 
-Zie [Gegevensentiteiten](../../fin-ops-core/dev-itpro/data-entities/data-entities.md) voor meer informatie.
+Zie [Gegevensentiteiten](../../dev-itpro/data-entities/data-entities.md) voor meer informatie.
 
 > [!NOTE]
 > Niet alle voorraadjournalen ondersteunen OData, dus u kunt de Excel-gegevensconnector niet gebruiken om gegevens te publiceren, bij te werken en terug te importeren in Supply Chain Management. 
@@ -113,7 +113,7 @@ Deze twee voorraadjournalen ondersteunen alleen het scenario *Voorraad initialis
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-[Gegevensentiteiten](../../fin-ops-core/dev-itpro/data-entities/data-entities.md)
+[Gegevensentiteiten](../../dev-itpro/data-entities/data-entities.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

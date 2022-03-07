@@ -2,27 +2,24 @@
 title: Betalingsmodule
 description: In dit onderwerp wordt beschreven hoe u een betalingsmodule aan een pagina toevoegt en de vereiste eigenschappen instelt.
 author: anupamar-ms
-manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 28d58caba71ea98ccf163e756e879587aa254bb3
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: 031c70181e0dff9bc81450d2454f21e1dbaf1285d41b38ff6f7df6045923c27c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4411535"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715501"
 ---
 # <a name="checkout-module"></a>Betalingsmodule
 
@@ -30,15 +27,13 @@ ms.locfileid: "4411535"
 
 In dit onderwerp wordt beschreven hoe u een betalingsmodule aan een pagina toevoegt en de vereiste eigenschappen instelt.
 
-## <a name="overview"></a>Overzicht
-
 Een betalingsmodule is een speciale container die als host fungeert voor alle modules die nodig zijn om een order te maken. De module omvat een stapsgewijze stroom die een klant gebruikt om alle relevante informatie in te voeren voor een aankoop. Deze legt het verzendadres, de verzendmethode en de factureringsgegevens vast. Deze biedt ook een orderoverzicht en andere informatie die betrekking heeft op een klantorder.
 
 Een betalingsmodule geeft gegevens weer op basis van de winkelwagen-id. Deze winkelwagen-id wordt opgeslagen als een browsercookie. Een winkelwagen-id is vereist om informatie te genereren in de betalingsmodule, zoals de artikelen in de order, het totaalbedrag en kortingen. 
 
 De volgende afbeelding toont een voorbeeld van een Fabrikam-betalingsmodule op een kassapagina.
 
-![Voorbeeld van een betalingsmodule](./media/Checkout.PNG)
+![Voorbeeld van een betalingsmodule.](./media/Checkout.PNG)
 
 ## <a name="checkout-module-properties"></a>Eigenschappen van betalingsmodule
 
@@ -57,13 +52,13 @@ Een betalingsmodule toont een orderoverzicht en biedt de functionaliteit voor he
 
     De volgende afbeelding toont een voorbeeld van een verzendadresmodule op een betalingspagina.
 
-    ![Voorbeeld van een verzendadresmodule](./media/ecommerce-shippingaddress.PNG)
+    ![Voorbeeld van een verzendadresmodule.](./media/ecommerce-shippingaddress.PNG)
 
 - **Leveringsopties**: met deze module kan een klant een aflevermethode voor een order selecteren. Zie [Module voor leveringsopties](delivery-options-module.md) voor meer informatie over deze module.
 
     De volgende afbeelding toont een voorbeeld van een leveringsoptiemodule op een betalingspagina.
  
-    ![Voorbeeld van een leveringsoptiemodule](./media/ecommerce-deliveryoptions.PNG)
+    ![Voorbeeld van een leveringsoptiemodule.](./media/ecommerce-deliveryoptions.PNG)
 
 - **Container van uitchecksectie**: deze module is een container waarin u meerdere modules kunt plaatsen om een sectie binnen de uitcheckstroom te maken. U kunt bijvoorbeeld alle betalingsmodules in deze container plaatsen, zodat deze als één sectie worden weergegeven. Deze module is alleen van invloed op de indeling van de stroom.
 
@@ -75,7 +70,7 @@ Een betalingsmodule toont een orderoverzicht en biedt de functionaliteit voor he
 
     De volgende afbeelding toont een voorbeeld van de modules voor geschenkbon, loyaliteitspunten en betaling op een betalingspagina.
 
-    ![Voorbeeld van modules voor geschenkbonnen, loyaliteitspunten en betalingen op een uitcheckpagina](./media/ecommerce-payments.PNG)
+    ![Voorbeeld van modules voor geschenkbonnen, loyaliteitspunten en betalingen op een uitcheckpagina.](./media/ecommerce-payments.PNG)
 
 - **Contactgegevens**: met deze module kan een klant de contactinformatie (e-mailadres) voor een order toevoegen of wijzigen.
 
@@ -85,7 +80,7 @@ Een betalingsmodule toont een orderoverzicht en biedt de functionaliteit voor he
 
     De volgende afbeelding toont een voorbeeld van voorwaarden op een betalingspagina.
 
-    ![Voorbeeld van voorwaarden op een betalingspagina](./media/ecommerce-checkout-terms.PNG)
+    ![Voorbeeld van voorwaarden op een betalingspagina.](./media/ecommerce-checkout-terms.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interactie met Commerce Scale Unit
 
@@ -127,3 +122,6 @@ Voer de volgende stappen uit om een betalingsmodule aan een nieuwe pagina toe te
 [Module voor orderdetails](order-confirmation-module.md)
 
 [Geschenkbonmodule](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,27 +2,24 @@
 title: Mobiele factuurgoedkeuringen
 description: Dit onderwerp is bedoeld om een praktische aanpak te verschaffen voor het ontwerpen van mobiele scenario's door factuurgoedkeuringen van leveranciers voor mobiel gebruik als praktijkvoorbeeld te nemen.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 88ba96b1d9d2f722528a4a920eabe4ab64304a7a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 83d95ef6d9fcff060ac992b11ab5773af075fea5409e43430b4826dc097570c7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441916"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737350"
 ---
 # <a name="mobile-invoice-approvals"></a>Mobiele factuurgoedkeuringen
 
@@ -30,12 +27,11 @@ ms.locfileid: "4441916"
 
 Met de mobiele mogelijkheden kan een zakelijke gebruiker mobiele ervaringen ontwerpen. Voor geavanceerde scenario's kunnen ontwikkelaars met het platform de mogelijkheden desgewenst ook uitbreiden. De meest effectieve manier om een aantal van de nieuwe concepten over mobiele mogelijkheden te leren is het proces voor het ontwerpen van enkele scenario's te doorlopen. Dit onderwerp is bedoeld om een praktische aanpak te verschaffen voor het ontwerpen van mobiele scenario's door factuurgoedkeuringen van leveranciers voor mobiel gebruik als praktijkvoorbeeld te nemen. Aan de hand van dit onderwerp kunt u andere variaties van de scenario's ontwerpen en kunt u de informatie in dit onderwerp ook toepassen op andere scenario's die niet zijn gerelateerd aan facturen van leveranciers.
 
-<a name="prerequisites"></a>Vereisten
--------------
+## <a name="prerequisites"></a>Vereisten
 
 | Vereiste                                                                                            | Omschrijving                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Vooraf gelezen mobiel handboek                                                                                |[Mobiel platform](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
+| Vooraf gelezen mobiel handboek                                                                                |[Mobiel platform](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 Finance                                                                              | Een omgeving met versie 1611 en Platformupdate 3 (november 2016)                   |
 | Installeer hotfix KB 3204341.                                                                              | Taakrecorder kan onterecht twee Sluiten-opdrachten voor vervolgkeuzelijstdialoogvensters registreren. Dit is opgenomen in Platformupdate 3 (update van november 2016). |
 | Installeer hotfix KB 3207800.                                                                              | Met deze hotfix kunnen bijlagen worden weergegeven op de mobiele client. Dit is opgenomen in Platformupdate 3 (update van november 2016).           |
@@ -140,7 +136,7 @@ De eerste mobiele pagina die u moet ontwerpen, is de lijst met facturen die ter 
 
 1.  Vervang in de URL de naam van de menuoptie door **VendMobileInvoiceAssignedToMeListPage** om de mobiele versie van de lijstpagina **Aan mij toegewezen leveranciersfacturen in behandeling** in de module **Leveranciers** te openen. Afhankelijk van het aantal facturen dat in uw systeem aan u is toegewezen, worden op deze pagina deze facturen weergegeven. Als u op zoek bent naar een specifieke factuur, kunt u het filter aan de linkerkant gebruiken. Voor dit voorbeeld is echter geen specifieke factuur vereist. Er moet alleen een bepaalde factuur aan u zijn toegewezen op basis waarvan u de mobiele pagina kunt ontwerpen. De nieuwe pagina's die beschikbaar zijn, zijn specifiek ontworpen voor het ontwikkelen van mobiele scenario's voor leveranciersfacturen. Daarom moet u deze pagina's gebruiken. De URL moet lijken op de volgende URL en nadat u deze hebt ingevoerd, moet de pagina die wordt weergegeven in de afbeelding verschijnen: https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile 
 
-    [![Pagina Aan mij toegewezen leveranciersfacturen in behandeling](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+    [![Pagina Aan mij toegewezen leveranciersfacturen in behandeling.](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
     
 2.  Klik op de knop **Instellingen** (tandwiel) in de rechterbovenhoek van de pagina en klik op **Mobiele app**.
 3.  Selecteer uw werkgebied en klik op **Bewerken**
@@ -149,7 +145,7 @@ De eerste mobiele pagina die u moet ontwerpen, is de lijst met facturen die ter 
 6.  Klik op **Gereed**.
 7.  Klik in de mobiele ontwerper op het tabblad **Velden** op **Velden selecteren**. De kolommen op de lijstpagina moeten lijken op de volgende afbeelding. 
 
-    [![Kolommen op de pagina In behandeling zijnde leveranciersfacturen die aan mij zijn toegewezen](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
+    [![Kolommen op de pagina In behandeling zijnde leveranciersfacturen die aan mij zijn toegewezen.](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
     
 8.  Voeg de vereiste kolommen toe vanuit de lijstpagina die moet worden weergegeven voor de gebruikers op de mobiele pagina. De volgorde waarin u toevoegt, is de volgorde waarin de velden worden weergegeven voor de eindgebruiker. De enige manier om de volgorde van de velden te wijzigen is door alle velden opnieuw te selecteren. Op basis van de vereisten voor dit scenario zijn de volgende acht velden vereist. Sommige gebruikers vinden mogelijk dat acht velden te veel informatie is voor een mobiel apparaat. Daarom laten we alleen de belangrijkste velden in de mobiele lijstweergave zien. De resterende velden worden weergegeven in de detailweergave die wij later ontwerpen. Op dit moment voegen we de volgende velden toe. Klik op het plusteken (**+**) in deze kolommen om aan de mobiele pagina toe te voegen.
     - Leveranciernaam
@@ -179,7 +175,7 @@ De eerste mobiele pagina die u moet ontwerpen, is de lijst met facturen die ter 
 
 Als u de pagina met factuurdetails wilt inschakelen voor mobiele apparaten, gebruikt u de pagina **VendMobileInvoiceHeaderDetails**. Houd er rekening mee dat, afhankelijk van het aantal facturen dat u in uw systeem hebt, op deze pagina de oudste factuur (de factuur die het eerst is gemaakt) wordt weergegeven. Als u op zoek bent naar een specifieke factuur, kunt u het filter aan de linkerkant gebruiken. Voor dit voorbeeld is echter geen specifieke factuur vereist. We hebben slechts enkele factuurgegevens nodig zodat we de mobiele pagina kunnen ontwerpen. 
 
-[![Pagina Workflow](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
+[![Pagina Werkstroom.](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
 1. Vervang in de URL de naam van de menuoptie met **VendMobileInvoiceHeaderDetails** om het formulier te openen
 
@@ -216,7 +212,7 @@ Als u de pagina met factuurdetails wilt inschakelen voor mobiele apparaten, gebr
 
 11. Nadat alle velden uit de vorige twee stappen zijn toegevoegd, klikt u op **Gereed**. De pagina moet lijken op de volgende afbeelding.
     
-    [![Pagina nadat velden zijn toegevoegd.](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![Illustratie met extra toegevoegde velden.](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 
 12. Klik op **Gereed** om de bewerkingsmodus af te sluiten.
 
@@ -326,7 +322,7 @@ Voeg workflowacties toe met de pagina **VendMobileInvoiceHeaderDetails**. Als u 
 
 4. Stel de optie **Documentbeheer** in op **Ja** zoals hieronder wordt weergegeven. **Opmerking:** als er geen vereisten zijn om bijlagen weer te geven op het mobiele apparaat, kunt u deze optie ingesteld laten op **Nee**. Dit is de standaardinstelling.
    
-   ![Documentbeheer](./media/docmanagement-216x300.png)
+   ![Documentbeheer.](./media/docmanagement-216x300.png)
 
 5. Klik op **Gereed** om de bewerkingsmodus af te sluiten.
 
@@ -343,7 +339,7 @@ Met vereisten voor dit scenario wordt bevestigd dat er alleen verdelingen op reg
 
 1.  Vervang in de URL de naam van de menuoptie, zoals u eerder hebt gedaan. De pagina die verschijnt, moet lijken op de volgende afbeelding.
 
-    [![Pagina Alle verdelingen](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+    [![Pagina Alle verdelingen.](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
 
 2.  Open de mobiele ontwerper met de knop **Instellingen** (tandwiel).
 
@@ -535,3 +531,6 @@ De volgende variaties kunnen worden uitgevoerd voor scenario 1, op basis van de 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

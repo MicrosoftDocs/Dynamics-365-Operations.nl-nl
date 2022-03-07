@@ -2,7 +2,7 @@
 title: Hoe werknemers de uitvoeringsinterface voor de werkvloer gebruiken
 description: In dit onderwerp wordt beschreven hoe de uitvoeringsinterface van de werkvloer moet worden gebruikt vanuit het perspectief van een werknemer.
 author: johanhoffmann
-ms.date: 01/24/2022
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 086d05b4080015f6185a083ca20963539f76619f
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 72fe7f8a6b05bd7c6fa242ef599e506a1178d913
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075014"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678684"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hoe werknemers de uitvoeringsinterface voor de werkvloer gebruiken
 
@@ -111,6 +111,8 @@ Wanneer werknemers een taak voltooien of gedeeltelijk voltooien, kunnen ze goede
 
 ## <a name="reporting-good-quantities-on-batch-orders-that-have-co-products-and-by-products"></a>Goede hoeveelheden rapporteren voor batchorders met co- en bijproducten
 
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)] <!--KFM: GA with 10.0.23 -->
+
 Werknemers kunnen de uitvoeringsinterface voor de werkvloer gebruiken om de voortgang van batchorders te rapporteren. Deze rapportage omvat rapportage over co- en bijproducten.
 
 Sommige fabrikanten, met name die in procesindustrieën, gebruiken batchorders om hun productieprocessen te beheren. Batchorders worden gemaakt op basis van formules. U kunt deze formules zo definiëren dat deze co- en bijproducten als uitvoer hebben. Wanneer feedback over deze batchorders wordt gerapporteerd, moet de hoeveelheid uitvoer worden geregistreerd voor het formule-artikel en voor de co- en bijproducten.
@@ -138,65 +140,6 @@ In dit geval kan de werknemer het co-product en de hoeveelheid opgeven waarover 
 Wanneer werknemers een taak voltooien of gedeeltelijk voltooien, kunnen ze uitval rapporteren door een taak te selecteren op het tabblad **Actieve taken** en vervolgens **Uitval rapporteren** te selecteren. Vervolgens voert de werknemer in het dialoogvenster **Uitval rapporteren** de uitvalhoeveelheid in met het numerieke toetsenbord. De werknemer selecteert ook een reden (*Geen*, *Machine*, *Operator* of *Materiaal*).
 
 ![Dialoogvenster Uitval rapporteren.](media/pfei-report-scrap-dialog.png "Dialoogvenster Uitval rapporteren")
-
-## <a name="adjust-material-consumption-and-make-material-reservations"></a>Materiaalverbruik aanpassen en materiaalreserveringen maken
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
-
-Medewerkers kunnen materiaalverbruik voor elke productietaak aanpassen. Deze functionaliteit wordt gebruikt in gevallen waarin de werkelijke hoeveelheid materialen die door een productietaak is verbruikt, meer of minder was dan de geplande hoeveelheid. Daarom moet u deze aanpassen om de voorraadniveaus actueel te houden.
-
-Medewerkers kunnen ook reserveringen maken voor de batch- en serienummers van materialen. Deze functionaliteit wordt gebruikt in gevallen waarin een medewerker handmatig moet opgeven welke materiaalbatch- of serienummers zijn verbruikt om te voldoen aan de vereisten voor materiaaltraceerbaarheid.
-
-Medewerkers kunnen de hoeveelheid opgeven die moet worden aangepast door **Materiaal aanpassen** te selecteren. Deze knop is beschikbaar op de volgende plaatsen:
-
-- In het dialoogvenster **Uitval rapporteren**
-- In het dialoogvenster **Voortgang rapporteren**.
-- Op de werkbalk aan de rechterkant
-
-### <a name="adjust-material-consumption-from-the-report-scrap-and-report-progress-dialog-boxes"></a>Materiaalverbruik aanpassen vanuit de dialoogvensters Uitval rapporteren en Voortgang rapporteren
-
-Nadat een medewerker de hoeveelheid die moet worden gerapporteerd in het dialoogvenster **Voortgang rapporteren** of **Uitval rapporteren** heeft ingevoerd, is de knop **Materiaal aanpassen** beschikbaar. Als de gebruiker deze knop selecteert, verschijnt het dialoogvenster **Materiaal aanpassen**. In dit dialoogvenster worden de artikelen weergegeven die gepland staan voor verbruik wanneer de goede of uitgevallen hoeveelheid voor de taak wordt gerapporteerd.
-
-De lijst in het dialoogvenster toont de volgende informatie:
-
-- **Productnummer**: het productmodel en de productvariant.
-- **Productnaam** – De naam van het product.
-- **Voorstel**: de geschatte hoeveelheid materiaal die wordt verbruikt wanneer voortgang of uitval wordt gerapporteerd voor de opgegeven hoeveelheid voor de taak.
-- **Verbruik**: de werkelijke hoeveelheid materiaal die wordt verbruikt wanneer voortgang of uitval wordt gerapporteerd voor de opgegeven hoeveelheid voor de taak.
-- **Gereserveerd**: de hoeveelheid materiaal die fysiek in de voorraad is gereserveerd.
-- **Eenheid**: de eenheid van de stuklijst.
-
-Aan de rechterkant van het dialoogvenster wordt de volgende informatie weergegeven:
-
-- **Productnummer**: het productmodel en de productvariant.
-- **Geraamd**: de geraamde hoeveelheid om te verbruiken.
-- **Gestart**: de hoeveelheid die is gestart voor de productietaak.
-- **Resterende hoeveelheid**: van de geraamde hoeveelheid is dit de hoeveelheid die resteert om te verbruiken.
-- **Vrijgegeven hoeveelheid**: de hoeveelheid die is verbruikt.
-
-De volgende acties kunnen worden uitgevoerd:
-
-- Medewerkers kunnen de hoeveelheid opgeven die moet worden aangepast voor een materiaal door **Verbruik aanpassen** te selecteren. Nadat de hoeveelheid is bevestigd, wordt de hoeveelheid in de kolom **Verbruik** bijgewerkt met de aangepaste hoeveelheid.
-- Wanneer de medewerker **Materiaal aanpassen** selecteert, wordt een orderverzamellijstjournaal voor de productie gemaakt. Dit journaal bevat dezelfde artikelen en hoeveelheden als de lijst **Materiaal aanpassen**.
-- Als de medewerker een hoeveelheid aanpast in het dialoogvenster **Materiaal aanpassen**, wordt het veld **Voorstel** op de bijbehorende journaalregel bijgewerkt met dezelfde hoeveelheid. Als de medewerker **Annuleren** selecteert in het dialoogvenster **Materiaal aanpassen**, wordt de orderverzamellijst verwijderd.
-- Als de medewerker **OK** selecteert, wordt de orderverzamellijst niet verwijderd. Deze lijst wordt geboekt wanneer de taak wordt gerapporteerd in het dialoogvenster **Uitval rapporteren** of **Voortgang rapporteren**.
-- Als de medewerker **Annuleren** selecteert in het dialoogvenster **Voortgang rapporteren** of **Uitval rapporteren**, wordt de orderverzamellijst verwijderd.
-
-### <a name="adjust-material-from-the-toolbar-on-the-right"></a>Materiaal aanpassen via de werkbalk aan de rechterkant
-
-De knop **Materiaal aanpassen** kan worden geconfigureerd zodat deze op de werkbalk aan de rechterkant wordt weergegeven. (Zie voor meer informatie [De interface voor de uitvoering van de productievloer ontwerpen](production-floor-execution-tabs.md).) Een medewerker kan **Materiaal aanpassen** selecteren voor een productietaak die in uitvoering is. In dit geval wordt het dialoogvenster **Materiaal aanpassen** weergegeven, waarin de medewerker de gewenste wijzigingen kan aanbrengen. Wanneer het dialoogvenster wordt geopend, wordt een orderverzamellijst voor productie met regels voor de aangepaste hoeveelheden gemaakt voor de productieorder. Als de medewerker **Nu boeken** selecteert, wordt de correctie bevestigd en wordt de orderverzamellijst geboekt. Als de medewerker **Annuleren** selecteert, wordt de orderverzamellijst verwijderd en wordt geen correctie aangebracht.
-
-### <a name="reserve-materials"></a>Materialen reserveren
-
-In het dialoogvenster **Materiaal aanpassen** kan een medewerker materiaalreserveringen maken en aanpassen door **Materiaal reserveren** te selecteren. In het dialoogvenster **Materiaal reserveren** dat verschijnt, wordt de fysiek beschikbare voorraad voor het artikel weergegeven voor elke opslag- en traceringsdimensie.
-
-Als het materiaal is ingeschakeld voor de geavanceerde magazijnprocessen, bevat de lijst alleen de fysiek beschikbare voorraad voor de productie-invoerlocatie voor het materiaal. De productie-invoerlocatie wordt gedefinieerd voor de resource waar de productietaak is gepland. Als het artikelnummer een batch- of serienummer is, wordt de volledige lijst met fysiek beschikbare batch- en serienummers weergegeven. Als u een te reserveren hoeveelheid wilt opgeven, kan de medewerker **Materiaal reserveren** selecteren . Als u een bestaande reservering wilt verwijderen, kan de medewerker **Reservering verwijderen** selecteren .
-
-Zie voor meer informatie over het instellen van de productie-invoerlocatie het volgende blogbericht: [De productie-invoerlocatie instellen](/archive/blogs/axmfg/deliver-picked-materials-to-the-locations-where-the-materials-are-consumed-by-operations-in-production).
-
-> [!NOTE]
-> Reserveringen die een medewerker maakt in het dialoogvenster **Materiaal reserveren** blijven behouden wanneer de medewerker **Annuleren** selecteert in het dialoogvenster **Voortgang rapporteren** of **Uitval rapporteren**.
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Een taak voltooien en een nieuwe taak starten
 

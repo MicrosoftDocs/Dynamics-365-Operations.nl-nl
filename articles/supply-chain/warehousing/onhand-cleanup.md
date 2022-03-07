@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: b2bdfb7fa0c9c4d9e1f630a41357dc405f0082bc
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: d839ed861a24f6ef7267c85e942c275586b4a8c4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103858"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565091"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Taak voor het opruimen van voorhanden artikelen in magazijnbeheer
 
@@ -58,7 +58,10 @@ De prestatieverbetering die de opschoningstaak oplevert moet deze kleine verliez
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>De instelling voor maximale uitvoeringstijd beschikbaar maken
 
-De instelling **Maximale uitvoeringstijd** is alleen beschikbaar als de functie *Maximale uitvoeringstijd voor het opschonen van de vermeldingen van voorhanden voorraad voor magazijnbeheer* is ingeschakeld. Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Maximale uitvoeringstijd voor het opschonen van de vermeldingen van voorhanden voorraad voor magazijnbeheer* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+De instelling **Maximale uitvoeringstijd** is standaard niet beschikbaar. Als u deze functie wilt gebruiken, moet u [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de gerelateerde functie in uw systeem in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
+
+- **Module:** *Magazijnbeheer*
+- **Functienaam:** *Maximale uitvoeringstijd voor de taak voor het opruimen van voorhanden artikelen in magazijnbeheer*
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

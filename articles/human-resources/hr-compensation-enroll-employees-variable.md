@@ -1,43 +1,48 @@
 ---
-title: Een werknemer inschrijven voor een variabele honoreringsregeling
+title: Een werknemer inschrijven voor een variabel compensatieplan
 description: De manager Compensatie en emolumenten kan werknemers inschrijven op plannen voor variabele compensatie inschrijven om contante en niet-contante toekenningen voor werknemers te berekenen.
-author: andreabichsel
-manager: AnnBe
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMCompVarEnrollEmpl, HcmCompensationWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 361403d61be64cfc58b3c2296937109b13a2b244
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 49a64407778fba5669ad13f239363bffd4b0c7d6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417965"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071480"
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Een werknemer inschrijven voor een variabele honoreringsregeling
 
-De manager Compensatie en emolumenten kan werknemers inschrijven op plannen voor variabele compensatie inschrijven om contante en niet-contante toekenningen voor werknemers te berekenen. Bij deze procedure wordt aangenomen dat een plan voor variabele compensatie is gemaakt met het veld Inschrijving inschakelen ingesteld op Ja en dat beschikbaarheidregels zijn gemaakt voor dit plan voor variabele compensatie. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. U kunt beginnen met deze procedure door naar Human resources > Medewerkers > Werknemers > Compensatie > Inschrijving op variabel plan te gaan
 
-1. Klik op Nieuw.
-2. Klik in het veld Plan op de vervolgkeuzeknop om de zoekopdracht te openen.
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+De manager Compensatie en emolumenten kan werknemers inschrijven op plannen voor variabele compensatie inschrijven om contante en niet-contante toekenningen voor werknemers te berekenen. Bij deze procedure wordt aangenomen dat een plan voor variabele compensatie is aangemaakt waarbij het veld **Inschrijving inschakelen** is ingesteld op **Ja** en dat geschiktheidsregels zijn aangemaakt voor dit plan voor variabele compensatie. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. U kunt beginnen met deze procedure door naar **Human resources** > **Medewerkers** > **Werknemers** > **Compensatie** > **Inschrijving op variabel plan** te gaan.
+
+1. Klik op **Nieuw**.
+2. Klik in het veld **Plan** op de vervolgkeuzeknop om de zoekopdracht te openen.
     * De zoekopdracht voor het plannen wordt gefilterd zodat alleen de plannen voor variabele compensatie worden weergegeven waarvoor de werknemer in aanmerking komt op basis van de beschikbaarheidregels.  
 3. Klik in de lijst op de koppeling in de geselecteerde rij.
-4. Schakel de uitbreiding van de sectie Algemeen om.
-5. Voer een datum in het veld Begindatum in.
-6. Klik op Opslaan.
-7. Schakel de uitbreiding van de sectie Overschrijvingen om.
+4. Schakel de uitbreiding van de sectie **Algemeen** om.
+5. Voer een datum in het veld **Begindatum** in.
+6. Klik op **Opslaan**.
+7. Schakel de uitbreiding van het gedeelte **Overschrijvingen** om.
     * Desgewenst, kan een datum aanstellingsregel worden ingesteld om de aanstellingsdatum voor een werknemer te overschrijven wanneer de aanstellingsregel voor het geselecteerde variabele plan Percentage is.  
     * Als het variabele plan een percentage van het basisplan is, kan het toekenningspercentage voor de werknemer worden overschreven. Als het variabele compensatieplan een plan met een aantal eenheden is, kan het aantal eenheden voor de werknemer worden overschreven.  
     * Als aan de werknemer een vast bedrag voor hun toekenningen moet worden verstrekt, kan het bedrag hier worden ingesteld.  
-8. Schakel de uitbreiding van de sectie Organisatieoverschrijvingen om.
-    * Als rekening moeten worden gehouden met de prestaties van de werknemer kunnen de prestaties van verschillende afdelingen of een andere afdeling dan de afdeling die is toegewezen aan de functie van de werknemer worden overschreven. De kolom Percentage met 100 in totaal zijn.  
+8. Schakel de uitbreiding van het gedeelte **Organisatieoverschrijvingen** om.
+    * Als rekening moeten worden gehouden met de prestaties van de werknemer kunnen de prestaties van verschillende afdelingen of een andere afdeling dan de afdeling die is toegewezen aan de functie van de werknemer worden overschreven. De inhoud van kolom **Percentage** moet in totaal 100 bedragen.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

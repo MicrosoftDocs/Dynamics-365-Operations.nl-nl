@@ -1,8 +1,8 @@
 ---
-title: Functies beheren
+title: Functies in Human resources beheren
 description: Informatie over het in- of uitschakelen van nieuwe functies in Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 305ce398b0ec80647a95e69409da9b77ebf14b45
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418019"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466948"
 ---
-# <a name="manage-features"></a>Functies beheren
+# <a name="manage-features-in-human-resources"></a>Functies in Human resources beheren
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Als onderdeel van onze doorlopende implementatie van nieuwe mogelijkheden voor Microsoft Dynamics 365 Human Resources willen we klanten zo snel mogelijk laten kennismaken met nieuwe functies. We bieden previews-functies die bijna gereed zijn voor algemene beschikbaarheid en die uitgebreid zijn getest. Het enige wat we nog willen doen is een definitieve ronde van feedback van klanten en validatie voordat we de functies algemeen vrijgeven.
 
@@ -94,3 +96,5 @@ Let op: vermeld geen persoonlijke gegevens (gegevens die uw identiteit vrijgeven
 
 - [Nieuw in Human Resources](hr-admin-whats-new.md)
 - [Releaseplan voor Dynamics 365 en Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

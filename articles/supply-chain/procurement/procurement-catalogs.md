@@ -1,12 +1,10 @@
 ---
 title: Overzicht van aanschaffingscatalogi
 description: Dit artikel beschrijft op een hoog niveau hoe de inkoopprofessional aanschaffingscatalogi kan instellen en onderhouden. Aanschaffingscatalogi definiëren de artikelen en services die werknemers van het bedrijf kunnen gebruiken wanneer ze artikelen en services voor intern gebruik bestellen.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, CatDisplayProductRelationAdd
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fcbe55adfc834b6170ca4c2a242d6bff5264ac8a
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 6ac31634844ea5d82f795b2262d17a6be3a926c2
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019774"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190131"
 ---
 # <a name="procurement-catalogs-overview"></a>Overzicht van aanschaffingscatalogi
 
@@ -68,10 +66,12 @@ Updates worden automatisch of handmatig gepubliceerd, afhankelijk van de optie d
 -   **Beide** - als de catalogus productcategorieën bevat met een standaardupdatetype **Statisch** moet deze handmatig worden bijgewerkt wanneer die categorieën worden bijgewerkt. Als de catalogus productcategorieën bevat met een standaardupdatetype **Dynamisch** worden deze automatisch bijgewerkt wanneer een wijziging wordt aangebracht.
 
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Een hiërarchie van aanschaffingscategorieën instellen](tasks/set-up-procurement-category-hierarchy.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

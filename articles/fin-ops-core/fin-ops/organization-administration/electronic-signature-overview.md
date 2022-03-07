@@ -2,27 +2,27 @@
 title: Overzicht van Elektronische handtekeningen
 description: Dit artikel bevat een overzicht van elektronische handtekeningen en een beschrijving van het gebruik.
 author: maertenm
-manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SIGParameters, SIGProcSetup, SIGReasonCode
 audience: Application User
 ms.reviewer: sericks
-ms.custom: 13611
+ms.custom:
+- "13611"
+- intro-internal
 ms.assetid: 98dc6b79-1895-45d8-9dd1-2c8a351b58af
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 051bb023d3456dae0be30de3897b282c2d50c5af
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: e9f80ecef043a697d288fed99e3118e268d4f993
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797623"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983637"
 ---
 # <a name="electronic-signatures-overview"></a>Overzicht van Elektronische handtekeningen
 
@@ -109,3 +109,6 @@ Volg deze stappen om fiatteurs aan te wijzen.
 1. Klik op de pagina **Opties** op het tabblad **Rekeningen** op **Fiatteur aangeven**.
 2. Selecteer in het veld **Gebruikers-ID fiatteur** de ID van de gebruiker die moet ondertekenen voor de wijzigingen van een andere gebruiker.
 3. Selecteer in het veld **Ondertekenen voor gebruikers-ID** de gebruiker voor wie de wijzigingen moeten worden ondertekend.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

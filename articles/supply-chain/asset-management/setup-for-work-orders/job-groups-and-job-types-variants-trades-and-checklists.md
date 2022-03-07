@@ -1,12 +1,10 @@
 ---
-title: Categorieën van onderhoudstaaktypen en onderhoudstaaktypen, varianten van onderhoudstaaktypen, onderhoudstaakspecialismen en onderhoudscontrolelijsten
+title: Typen, categorieën, varianten, specialismen en controlelijsten voor onderhoudstaken
 description: Dit onderwerp beschrijft categorieën van onderhoudstaaktypen en onderhoudstaaktypen, varianten van onderhoudstaaktypen, onderhoudstaakspecialismen en onderhoudscontrolelijsten in Activabeheer.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetJobTypeDefaultForecast, EntAssetJobTrade, EntAssetJobTypeDefaultCopy, EntAssetChecklistVariableValueLookup, EntAssetChecklistTemplateCreate, EntAssetJobVariant, EntAssetJobTypeDefaultReference, EntAssetJobTypeDefaultChecklist, EntAssetJobTypeDefault, EntAssetJobType, EntAssetJobTypeDefaultChecklistCopy, EntAssetChecklistTemplate, EntAssetJobTypeDefaultDescription, EntAssetJobTypeLookup, EntAssetJobTypeDefaultToolCopy, EntAssetJobTypePreviewPart, EntAssetJobTypeDefaultTool, EntAssetJobTypeDefaultForecastCopy, EntAssetChecklistTemplateLookup, EntAssetJobGroup, EntAssetChecklistVariable
 audience: Application User
@@ -14,21 +12,19 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a335d642457fdd84ec42e285425fdc6212889cc0
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 54bd489a3c9be5be298ef75893b7acad38104a1379d20f853dd700635a3e058e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021268"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742795"
 ---
-# <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Categorieën van onderhoudstaaktypen en onderhoudstaaktypen, varianten van onderhoudstaaktypen, onderhoudstaakspecialismen en onderhoudscontrolelijsten
+# <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>Typen, categorieën, varianten, specialismen en controlelijsten voor onderhoudstaken
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 Aan elk activum wordt een activatype gekoppeld. Activatypen bepalen de typen onderhoudstaken (en dus ook de onderhoudstaken) die op activa kunnen worden uitgevoerd. Wanneer u een werkorder maakt, moet u een onderhoudstaak selecteren. Op een activum kunt u alleen de typen onderhoudstaken selecteren die zijn gedefinieerd voor het activumtype dat voor het activum is ingesteld.
 
@@ -58,7 +54,7 @@ Eerst stelt u de vereiste categorieën van onderhoudstaaktypen, varianten van on
 
     Nadat u de categorieën onderhoudstaaktypen hebt gekoppeld aan onderhoudstaaktypen, wordt in het veld **Taaktypen** het aantal typen onderhoudstaken weer gegeven die zijn gerelateerd aan deze categorie van het type onderhoudstaak.
 
-![Pagina met categorieën voor onderhoudstaaktypen](media/01-setup-for-work-orders.png)
+![Pagina met categorieën voor onderhoudstaaktypen.](media/01-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-type-variant"></a>Een variant onderhoudstaaktype maken
 
@@ -72,7 +68,7 @@ Eerst stelt u de vereiste categorieën van onderhoudstaaktypen, varianten van on
 
     Op het Sneltabblad **Details** toont het veld **Taaktypen** het aantal typen onderhoudstaken dat is toegevoegd aan de variant van het type onderhoudstaak.
 
-![Pagina met varianten voor onderhoudstaaktypen](media/02-setup-for-work-orders.png)
+![Pagina met varianten voor onderhoudstaaktypen.](media/02-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-trade"></a>Maak een specialisme onderhoudstaak aan
 
@@ -93,7 +89,7 @@ Eerst stelt u de vereiste categorieën van onderhoudstaaktypen, varianten van on
 
     In het Sneltabblad **Details** toont het veld **Certificaten** het aantal certificaten dat is toegevoegd aan dit onderhoudstaakspecialisme.
 
-![Pagina met specialisme onderhoudstaak](media/03-setup-for-work-orders.png)
+![Pagina met specialisme onderhoudstaak.](media/03-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-checklist-variable"></a>Een variabele onderhoudscontrolelijst maken
 
@@ -114,7 +110,7 @@ Wanneer u regels voor onderhoudscontrolelijsten maakt in het standaard onderhoud
 6. Voer een beschrijving voor de waarde in het veld **Waarde** in.
 7. Selecteer een resultaat voor de regel in het veld **Resultaat**.
 
-![Pagina met variabelen voor onderhoudscontrolelijst](media/04-setup-for-work-orders.png)
+![Pagina met variabelen voor onderhoudscontrolelijst.](media/04-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-checklist-template"></a>Een sjabloon voor een onderhoudscontrolelijst maken
 
@@ -132,8 +128,8 @@ Sjablonen voor onderhoudscontrolelijsten kunnen worden gebruikt als algemene set
 
 5. Typ een naam voor de regel voor de onderhoudscontrolelijst in het veld **Type**. Voor elk type onderhoudscontrolelijst worden de gerelateerde velden weergegeven op het Sneltabblad **Regeldetails**. De volgende waarden zijn beschikbaar:
 
-    - **Tekst** – de regel bevat tekst die beschrijft wat u moet doen. U kunt dit type onderhoudscontrolelijst gebruiken als u wilt dat een medewerker iets controleert of inspecteert, zonder een specifiek (meetbaar) resultaat te verwachten. Nadat u dit type hebt geselecteerd, voert u een naam of koptekst in het veld **Naam** in. Voer in het veld **Instructies** een omschrijving in voor wat moet worden gedaan. Als de stap verplicht is voor de onderhoudscontrolelijst, stelt u de optie **Verplicht** in op **Ja**.
-    - **Koptekst** - De regel wordt gebruikt als koptekst voor het groeperen van de onderhoudscontrolelijstregels die eronder worden weergegeven. Dit type is handig als u verschillende onderhoudscontrolelijstregels hebt die in specifieke gebieden kunnen worden onderverdeeld. Kopteksten bieden een overzicht voor de werknemer die een onderhoudscontrolelijst met veel regels voor onderhoudscontrole moet voltooien. Nadat u dit type hebt geselecteerd, voert u een beschrijvende naam in het veld **Naam** in.
+    - **Tekst** – de regel bevat tekst die beschrijft wat u moet doen. U kunt dit type onderhoudscontrolelijst gebruiken als u wilt dat een medewerker iets controleert of inspecteert, zonder een specifiek (meetbaar) resultaat te verwachten. Nadat u dit type hebt geselecteerd, voert u een naam of header in het veld **Naam** in. Voer in het veld **Instructies** een omschrijving in voor wat moet worden gedaan. Als de stap verplicht is voor de onderhoudscontrolelijst, stelt u de optie **Verplicht** in op **Ja**.
+    - **Header** - De regel wordt gebruikt als header voor het groeperen van de onderhoudscontrolelijstregels die eronder worden weergegeven. Dit type is handig als u verschillende onderhoudscontrolelijstregels hebt die in specifieke gebieden kunnen worden onderverdeeld. Headers bieden een overzicht voor de werknemer die een onderhoudscontrolelijst met veel regels voor onderhoudscontrole moet voltooien. Nadat u dit type hebt geselecteerd, voert u een beschrijvende naam in het veld **Naam** in.
     - **Sjabloon** - de regel wordt gebruikt om een verwijzing naar een bestaande sjabloon te maken. Nadat u dit type hebt geselecteerd, voert u een naam voor de sjabloon in het veld **Naam** in. Selecteer in het veld **Sjabloon** cd sjabloon.
     - **Variabele** – De regel wordt gebruikt om een mogelijk resultaat in een bereik te definiëren. Zie de sectie [Een variabele controlelijst voor onderhoud maken](#create-a-maintenance-checklist-variable) voor informatie over het instellen van variabelen voor onderhoudscontrolelijsten. Nadat u dit type hebt geselecteerd, voert u een beschrijvende naam voor de variabele in het veld **Naam** in. Selecteer de variabele in het veld **Variabele**. Voer in het veld **Instructies** een omschrijving in voor wat moet worden gedaan. Als de stap verplicht is voor de onderhoudscontrolelijst, stelt u de optie **Verplicht** in op **Ja**.
     - **Meting** - De regel wordt gebruikt om een specifieke meting vast te leggen. U kunt de meting instellen die moet worden gerelateerd aan een vooraf gedefinieerde teller. Nadat u dit type hebt geselecteerd, voert u een naam voor de sjabloon in het veld **Naam** in. Als deze stap verplicht is voor de onderhoudscontrolelijst, stelt u de optie **Verplicht** in op **Ja**. Als u de metingsregel wilt gebruiken als een tellerregistratie, selecteert u de teller in het veld **Teller**. Het gerelateerde veld **Eenheid** wordt automatisch bijgewerkt. Als u een teller hebt geselecteerd, selecteert u de bijwerkmethode in het veld **Waarde**. Voer in de velden **Min. waarde** en **Max. waarde** het toegestane waardebereik in. Voer in het veld **Instructies** een omschrijving in voor wat moet worden gedaan.
@@ -143,7 +139,7 @@ Sjablonen voor onderhoudscontrolelijsten kunnen worden gebruikt als algemene set
 
     Op het Sneltabblad **Details** wordt in veld **Controles** het totale aantal controleregels in de sjabloon weergegeven. Dit aantal bevat de geneste regels in een bestaande sjabloon waarnaar u in uw sjabloon verwijst.
 
-![Pagina met sjablonen voor onderhoudscontrolelijst](media/05-setup-for-work-orders.png)
+![Pagina met sjablonen voor onderhoudscontrolelijst.](media/05-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-type"></a>Een type onderhoudstaak aanmaken
 
@@ -166,7 +162,7 @@ Sjablonen voor onderhoudscontrolelijsten kunnen worden gebruikt als algemene set
 
 11. Op het Sneltabblad **Activatypen** kunt u activatypen toevoegen aan het type onderhoudstaak.
 
-![Pagina met typen onderhoudstaken](media/06-setup-for-work-orders.png)
+![Pagina met typen onderhoudstaken.](media/06-setup-for-work-orders.png)
 
 ## <a name="create-maintenance-job-type-default-lines-and-related-forecasts-maintenance-checklists-tools-description-and-attachments"></a>Maak standaardregels voor typen onderhoudstaken en gerelateerde prognoses, onderhoudscontrolelijsten , hulpmiddelen, beschrijving en bijlagen
 
@@ -235,7 +231,7 @@ Sjablonen voor onderhoudscontrolelijsten kunnen worden gebruikt als algemene set
 31. Als u een standaard type onderhoudstaak wilt kopiëren naar een ander standaard type onderhoudstaak, selecteert u het standaard type onderhoudstaak om een andere instelling naar te kopiëren, selecteert u **Instellingen** en selecteert u vervolgens het standaard type onderhoudstaak dat u wilt kopiëren.
 32. Als u een lijst wilt weergeven met de activa, onderhoudsplannen of onderhoudsbeurten die op dit moment een regel voor standaard type onderhoudstaak gebruiken, selecteert u de regel en selecteert u vervolgens **Gebruikt door**.
 
-![Pagina met standaardinstellingen voor onderhoudstaaktypen](media/07-setup-for-work-orders.png)
+![Pagina met standaardinstellingen voor onderhoudstaaktypen.](media/07-setup-for-work-orders.png)
 
 Wanneer het systeem het beschikbare standaard type onderhoudstaak selecteert dat moet worden gebruikt op een werkorderregel, wordt de selectie gebaseerd op de activa en de gerelateerde instellingen van het activumtype. Activabeheer gaat door alle standaard records voor onderhoudstaken die zijn gerelateerd aan het type onderhoudstaak dat is gerelateerd aan het activatype om te controleren of er een overeenkomst is. De meest specifieke combinatie wordt altijd als eerste gecontroleerd. Met andere woorden, als u de meest specifieke combinatie wilt zoeken, controleert Activabeheer eerst of er een mogelijke overeenkomst voor het veld **Specialisme** bestaat. Als er geen overeenkomst wordt gevonden, wordt er gecontroleerd op een overeenkomst voor het veld **Variant op type onderhoudstaak**. Als er geen overeenkomst wordt gevonden, wordt gecontroleerd op een overeenkomst voor het veld **Type onderhoudstaak**, enzovoort (**Specialisme**, vervolgens **Variant type onderhoudstaak**, dan **Type onderhoudstaak**, vervolgens **Activum**, vervolgens **Model**, **Fabrikant**, en vervolgens **Type Activum**). Als er geen overeenkomst wordt gevonden, wordt het standaardrecord gebruikt waarin alleen het type onderhoudstaak wordt geselecteerd.
 
@@ -256,7 +252,7 @@ Nadat u de vereiste combinaties hebt gemaakt voor het vereiste type onderhoudsta
 4. Selecteer een combinatie van typen onderhoudstaken om de gerelateerde instellingen voor onderhoudscontrolelijsten, prognoses en hulpmiddelen te zien. De sectie **Details** op het Sneltabblad **Standaard type onderhoudstaak** bevat het aantal verwante onderhoudscontrolelijsten, verwachte uren, artikelen, enzovoort, die zijn gerelateerd aan de geselecteerde combinatie van het type onderhoudstaken.
 5. U kunt de details van het geselecteerde type onderhoudstaak weergeven door **Typen onderhoudstaken** te selecteren.
 
-![Pagina met typen onderhoudstaken voor activa](media/08-setup-for-work-orders.png)
+![Pagina met typen onderhoudstaken voor activa.](media/08-setup-for-work-orders.png)
 
 ## <a name="automatic-update-of-maintenance-job-type-forecasts"></a>Prognoses van het type onderhoudstaak automatisch bijwerken
 
@@ -266,3 +262,6 @@ In Activabeheer kunt u eventuele wijzigingen in prognoses voor typen onderhoudst
 2. In het dialoogvenster **Prognose type onderhoudstaken bijwerken**, op het Sneltabblad **Records om op te nemen**, kunt u selecties voor specifieke typen onderhoudstaken toevoegen als u deze nodig hebt. Selecteer **Filter** en selecteer vervolgens **selecteren** om de selecties te maken.
 3. Indien nodig kunt u de automatische update op het Sneltabblad **Op de achtergrond uitvoeren** instellen als een batchtaak.
 4. Selecteer **OK** om de update van de prognose te starten.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

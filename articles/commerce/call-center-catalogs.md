@@ -2,16 +2,13 @@
 title: Callcentercatalogi
 description: In dit onderwerp wordt de callcenterspecifieke functionaliteit voor catalogi in Dynamics 365 Commerce beschreven.
 author: josaw1
-manager: AnnBe
 ms.date: 05/15/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, RetailCatalogDetails
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16231
 ms.assetid: f28a827c-3a50-4d5e-83eb-e5a768db70a1
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9abe493746719d2e229ef09c2eb5f436b91b2171
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: 6fae877b04fdbd84e1c2508f91bbf53b5412b350c5d2c8978aafb2d7f49783f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4411524"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742507"
 ---
 # <a name="call-center-catalogs"></a>Callcentercatalogi
 
@@ -42,7 +39,7 @@ Direct-to-consumer marketingbedrijven zijn zeer gericht op het bijhouden van het
 
 Ga naar **Retail en Commerce** \> **Catalogi en assortimenten** \> **Alle catalogussen** voor het configureren van uw catalogus.
 
-Wanneer u een nieuwe catalogus maakt, moet u eerst de catalogus koppelen aan een of meer kanalen. Dit gebeurt op het sneltabblad **Commerce-kanalen** op het formulier **Catalogusinstelling**. Klik op **Toevoegen** en selecteer een of meer kanalen. Alleen artikelen die zijn gekoppeld aan uw geselecteerde kanaal [assortimenten](https://docs.microsoft.com/dynamics365/unified-operations/retail/assortments) kunnen worden gebruikt bij het maken van de catalogus.
+Wanneer u een nieuwe catalogus maakt, moet u eerst de catalogus koppelen aan een of meer kanalen. Dit gebeurt op het sneltabblad **Commerce-kanalen** op het formulier **Catalogusinstelling**. Klik op **Toevoegen** en selecteer een of meer kanalen. Alleen artikelen die zijn gekoppeld aan uw geselecteerde kanaal [assortimenten](/dynamics365/unified-operations/retail/assortments) kunnen worden gebruikt bij het maken van de catalogus.
 
 Om producten toe te voegen aan een catalogus moet een navigatiehiërarchie worden gekozen. De navigatiehiërarchie ondersteunt de categoriestructuur van de catalogus. U moet kiezen uit een van de navigatiehiërarchieën die zijn gekoppeld aan de kanalen die zijn geselecteerd op het sneltabblad **Commerce-kanalen** van de pagina **Catalogus**. Als een navigatiekanaal niet eerder was gekoppeld aan een kanaal, gaat u naar **Retail en Commerce** \> **Afzetkanaalinstellingen** \> **Afzetkanaalcategorieën en productkenmerken** om een standaard navigatiehiërarchie te koppelen aan elk van uw kanalen.
 
@@ -101,3 +98,6 @@ Op het tabblad **Catalogi** zijn ook opties beschikbaar voor het configureren va
 ## <a name="additional-notes"></a>Verdere notities
 
 Momenteel, wanneer een broncode-ID wordt toegepast op een verkooporder in een callcenter, wordt deze gebruikt voor prijzen, promoties, scripts en upsells/cross-sells die catalogusspecifiek zijn. Het systeem verbiedt of voorkomt niet dat een product dat niet in de catalogus staat, wordt besteld op de verkooporder. Als een artikel wordt besteld dat geen deel uitmaakt van de catalogus, probeert het systeem eerst de **prijsgroep** te gebruiken die is gedefinieerd in het callcenterkanaal (**Retail en Commerce** \> **Afzetkanalen** \> **Callcenters** \> **Alle callcenters**) voor artikelprijs of promoties. Als er geen specifieke kanaalprijs wordt gevonden, wordt de basisverkoopprijs van het artikel gebruikt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

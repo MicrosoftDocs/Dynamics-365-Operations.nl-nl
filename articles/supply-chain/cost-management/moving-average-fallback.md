@@ -2,11 +2,9 @@
 title: Terugvalkostenreeks met zwevend gemiddelde
 description: Dit onderwerp bevat informatie over terugvalkostenreeksen voor berekeningen met zwevend gemiddelde in Microsoft Dynamics 365 Supply Chain Management.
 author: AndersGirke
-manager: tfehr
 ms.date: 03/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-03-25
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 541b7ecca5c1c36999f573d6d0f2dc0c9e901631
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0a9521d9be3c380795abf476646d2d0e1cd36e8e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967578"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354780"
 ---
 # <a name="moving-average-fallback-cost-sequence"></a>Terugvalkostenreeks met zwevend gemiddelde
 
@@ -44,4 +42,7 @@ Ga als volgt te werk om de terugvalkostenreeks voor de berekening van het zweven
     - **Actieve kosten - laatste uitgifte**
     - **Actieve kosten – Artikelprijs**: organisaties kunnen prestatieproblemen ondervinden als ze bedrijfsprocessen gebruiken waarbij de voorraadregel negatief wordt en tegelijkertijd het transactievolume hoog is. Met deze instelling beperken ze de prestatieproblemen.
 
-![Parameters voorraadboekhouding](media/inventory-accounting-parameters.png "Parameters voorraadboekhouding")
+![Parameters voorraadboekhouding.](media/inventory-accounting-parameters.png "Parameters voorraadboekhouding")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

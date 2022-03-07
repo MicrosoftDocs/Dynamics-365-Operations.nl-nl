@@ -6,20 +6,18 @@ ms.topic: article
 ms.date: 07/27/2020
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 504433fba95893bc0af651d74f43dd112238e8c1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f7a74acb3a04316140c602d670963ea38ef7d8ae
+ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411352"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "5634675"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-functional-consultants"></a>Trainingscatalogus voor functionele Dynamics 365 Commerce-consultants
 
@@ -55,3 +53,6 @@ Zie voor training over functies die worden gedeeld met andere Finance and Operat
 | Inhoud  | Omschrijving | Indeling  | Lengte    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
 | [e-Commerce configureren en gebruiken in Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/configure-work-e-commerce/) | Met de online kanalen en de e-Commerce site van Dynamics 365 Commerce kunnen detailhandelaren een online aanwezigheid van hun merk maken. | Gratis online leertraject voor zelfstudie | 4 uur   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

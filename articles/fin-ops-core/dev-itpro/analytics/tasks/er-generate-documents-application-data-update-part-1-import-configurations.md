@@ -2,11 +2,9 @@
 title: Configuraties importeren voor het genereren van documenten die toepassingsgegevens bevatten
 description: Als u de stappen in deze procedure wilt voltooien, moet u eerst de procedure "ER Een configuratieprovider maken en deze als actief markeren" voltooien.
 author: NickSelin
-manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f919d953c3aa0c8d16366167a12e52d35f32cdf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 96f636b19f9babc9a7893c12233d67fb2f044638
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684614"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751101"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Configuraties importeren voor het genereren van documenten die toepassingsgegevens bevatten
 
@@ -75,3 +73,6 @@ De stappen in deze procedure leggen uit hoe u ER-configuraties ontwerpt om een e
     * Controleer de structuur van de indeling die wordt gebruikt om het Intrastat-rapport te genereren. Houd er rekening mee dat het is ontworpen voor het genereren van een XML-bestand door gegevens in te vullen uit het gegevensmodel, dat is gebaseerd op het basisitem 'Voor uitgaand document'. Controleer of de naam voor het gegenereerde bestand is gedefinieerd in het gebruikersdialoogvenster (hiervoor wordt de 'fn'-gegevensbron gebruikt).   
 30. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

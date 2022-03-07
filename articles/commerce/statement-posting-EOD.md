@@ -2,26 +2,23 @@
 title: Verbeteringen van boekingsfunctionaliteit voor overzichten
 description: In dit onderwerp worden verbeteringen beschreven die zijn aangebracht in de functie voor het boeken van overzichten.
 author: josaw1
-manager: AnnBe
 ms.date: 05/14/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 68abef8f28c04a4f6f88e638c8abf944d06a32c4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7e9f41a65ca092606e79d5aaa4e3af0ec444604f
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411448"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795304"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Verbeteringen van boekingsfunctionaliteit voor overzichten
 
@@ -174,3 +171,6 @@ Andere back-endverbeteringen die gebruikers kunnen zien, zijn aangebracht in de 
 
     - Ga naar **Detailhandel en commerce** \> **Instelling van hoofdkantoor** \> **Parameters** \> **Commerce-parameters**. Selecteer op het tabblad **Boeken** op het sneltabblad **Voorraadbijwerking** in het veld **Detailniveau** **Overzicht**.
     - Ga naar **Detailhandel en commerce** \> **Instelling van hoofdkantoor** \> **Parameters** \> **Commerce-parameters**. Stel vervolgens op het tabblad **Boeken** op het sneltabblad **Samenvoeging** de optie **Boekstuktransacties** in op **Ja**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

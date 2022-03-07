@@ -1,21 +1,23 @@
 ---
 title: Inkoop integreren tussen Supply Chain Management en Field Service
 description: In dit onderwerp wordt beschreven hoe met integratie van twee keer wegschrijven het maken van inkooporders en updates van zowel Supply Chain Management als Field Service worden ondersteund.
-author: RamaKrishnamoorthy
+author: RichardLuan
 ms.date: 11/11/2020
 ms.topic: article
+ms.prod: ''
+ms.technology: ''
 audience: Application User
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
 ms.search.region: Global
-ms.author: tfehr
+ms.author: riluan
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ab251ee60bf3c831b0139beb9557c6b3faaf9f66
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: fcbede8b1a0a9a1dfcb9acbfd7cadb49eb48eecd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783278"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750685"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Inkoop integreren tussen Supply Chain Management en Field Service
 
@@ -29,7 +31,7 @@ Deze integratie ondersteunt het maken van inkooporders en in de meeste gevallen 
 
 De onderstaande afbeelding bevat de tabellen in beide systemen en laat zien hoe ze aan elkaar worden toegewezen. Inkooporders in Field Service verwijzen naar een *rekening*-rij, terwijl inkooporders in Supply Chain Management naar een *leverancier*-rij verwijzen. Voor de integratie wordt voor twee keer wegschrijven een verwijzing gebruikt om *leverancier*-rijen aan *rekening*-rijen te koppelen. Zie [Model voor geïntegreerde leveranciers](vendor-mapping.md) voor meer informatie.
 
-![Toewijzingen voor inkoop.](media/scm-field-service-tables.png)
+![Toewijzingen voor inkoop](media/scm-field-service-tables.png)
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -44,7 +46,7 @@ Als u Supply Chain Management wilt integreren met Field Service, moet u de volge
 ### <a name="prerequisites"></a>Vereisten
 
 - **Twee keer wegschrijven**: zie [de startpagina van Twee keer wegschrijven](dual-write-home-page.md#dual-write-setup) voor meer informatie.
-- **Dynamics 365 Field Service**: zie [Dynamics 365 Field Service installeren](/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service) voor meer informatie.
+- **Dynamics 365 Field Service**: zie [Dynamics 365 Field Service installeren](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service) voor meer informatie.
 
 Wanneer deze functies zijn ingeschakeld in Microsoft Dataverse, worden met Twee keer wegschrijven en Field Service verschillende oplossingslagen geïntroduceerd die de omgeving uitbreiden met nieuwe metagegevens, formulieren, weergaven en logica. Deze oplossingen kunnen in elke volgorde worden ingeschakeld, maar meestal installeert u ze in de hier opgegeven volgorde:
 
@@ -194,10 +196,23 @@ De volgende sjablonen zijn beschikbaar voor de integratie van inkoopgerelateerde
 
 | Supply Chain Management | Field Service | Beschrijving |
 |---|---|---|
-| [Inkooporderkoptekst V2](mapping-reference.md#183) | msdyn\_Purchaseorders | Deze tabel bevat de kolommen die de inkooporderkoptekst vertegenwoordigen. |
-| [Entiteit voor inkooporderregel](mapping-reference.md#181) | msdyn\_PurchaseOrderProducts | Deze tabel bevat de rijen die de regels op een inkooporder vertegenwoordigen. Het productnummer wordt gebruikt voor synchronisatie. Hiermee wordt het product geïdentificeerd als voorraadeenheid (SKU), inclusief productdimensies. Zie [Uniforme productervaring](product-mapping.md) voor meer informatie over productintegratie met Dataverse. |
-| [Koptekst productontvangstbon](mapping-reference.md#185) | msdyn\_purchaseorderreceipts | Deze tabel bevat de kopteksten van de productontvangstbonnen die worden gemaakt wanneer er een productontvangstbon in Supply Chain Management wordt geboekt. |
-| [Productontvangstbonregel](mapping-reference.md#184) | msdyn\_purchaseorderreceiptproducts | Deze tabel bevat de regels van de productontvangstbonnen die worden gemaakt wanneer er een productontvangstbon in Supply Chain Management wordt geboekt. |
-| [Zacht verwijderde entiteit voor inkooporderregel](mapping-reference.md#182) | msdyn\_purchaseorderproducts | Deze tabel bevat informatie over inkooporderregels die zacht worden verwijderd. Een inkooporderregel in Supply Chain Management kan alleen zacht worden verwijderd als de inkooporder is bevestigd of goedgekeurd als wijzigingsbeheer is ingeschakeld. De rij is aanwezig in de Supply Chain Management-database en is gemarkeerd als **IsDeleted**. Omdat er geen concept van zachte verwijdering bestaat in Dataverse, is het belangrijk dat deze informatie wordt gesynchroniseerd met Dataverse. Op deze manier kunnen regels die zacht worden verwijderd in Supply Chain Management, automatisch worden verwijderd uit Dataverse. In dit geval bevindt de logica voor het verwijderen van een regel in Dataverse zich in Supply Chain Management Extended. |
+| Inkooporderkoptekst V2 | msdyn\_Purchaseorders | Deze tabel bevat de kolommen die de inkooporderkoptekst vertegenwoordigen. |
+| Entiteit voor inkooporderregel | msdyn\_PurchaseOrderProducts | Deze tabel bevat de rijen die de regels op een inkooporder vertegenwoordigen. Het productnummer wordt gebruikt voor synchronisatie. Hiermee wordt het product geïdentificeerd als voorraadeenheid (SKU), inclusief productdimensies. Zie [Uniforme productervaring](product-mapping.md) voor meer informatie over productintegratie met Dataverse. |
+| Koptekst productontvangstbon | msdyn\_purchaseorderreceipts | Deze tabel bevat de kopteksten van de productontvangstbonnen die worden gemaakt wanneer er een productontvangstbon in Supply Chain Management wordt geboekt. |
+| Productontvangstbonregel | msdyn\_purchaseorderreceiptproducts | Deze tabel bevat de regels van de productontvangstbonnen die worden gemaakt wanneer er een productontvangstbon in Supply Chain Management wordt geboekt. |
+| Zacht verwijderde entiteit voor inkooporderregel | msdyn\_purchaseorderproducts | Deze tabel bevat informatie over inkooporderregels die zacht worden verwijderd. Een inkooporderregel in Supply Chain Management kan alleen zacht worden verwijderd als de inkooporder is bevestigd of goedgekeurd als wijzigingsbeheer is ingeschakeld. De rij is aanwezig in de Supply Chain Management-database en is gemarkeerd als **IsDeleted**. Omdat er geen concept van zachte verwijdering bestaat in Dataverse, is het belangrijk dat deze informatie wordt gesynchroniseerd met Dataverse. Op deze manier kunnen regels die zacht worden verwijderd in Supply Chain Management, automatisch worden verwijderd uit Dataverse. In dit geval bevindt de logica voor het verwijderen van een regel in Dataverse zich in Supply Chain Management Extended. |
+
+[!include [banner](../../includes/dual-write-symbols.md)]
+
+[!include [Currency](includes/productreceiptheader-msdyn-purchaseorderreceipts.md)]
+
+[!include [Currency](includes/productreceiptline-msdyn-purchaseorderreceiptproducts.md)]
+
+[!include [Currency](includes/purchaseorderheadersv2-msdyn-purchaseorders.md)]
+
+[!include [Currency](includes/purchaseorderlinesoftdeletedtable-msdyn-purchaseorderproducts.md)]
+
+[!include [Currency](includes/purchaseorderlinetable-msdyn-purchaseorderproducts.md)]
+
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

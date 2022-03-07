@@ -2,28 +2,25 @@
 title: Wissels instellen
 description: In dit onderwerp worden de stappen beschreven voor het instellen van wissels.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 09/17/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustBillOfExchangeJour
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 269964
 ms.assetid: f2077165-da90-4359-ab12-e05717728dc7
 ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7f5f62d33f6ffedb3fcefcdd9a83b922c1588df0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: efb90e5821b2bbb57396c85722f96a43b7ace0ff
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441865"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835239"
 ---
 # <a name="set-up-bills-of-exchange"></a>Wissels instellen
 
@@ -86,3 +83,6 @@ Op het tabblad **Standaardwaarden betalingen** op de pagina **Klanten** kunt u e
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

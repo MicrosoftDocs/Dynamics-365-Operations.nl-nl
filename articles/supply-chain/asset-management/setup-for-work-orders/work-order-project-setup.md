@@ -1,12 +1,10 @@
 ---
 title: Projectinstellingen werkorder
 description: In dit onderwerp wordt uitgelegd hoe u werkorderprojecten instelt in Activabeheer.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderProjectSetup
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 031e61549474745360ac00f9a66bef7a9dbaaf96
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 071c73f9295ad7911037cbd10a48b46b044eebda
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021549"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808227"
 ---
 # <a name="work-order-project-setup"></a>Projectinstellingen werkorder
 
@@ -85,3 +83,6 @@ Met de instellingen kunt u volledige integratie met de module **Projectmanagemen
 > Elke keer dat er een werkorderregel wordt gemaakt, zoekt Activabeheer naar een projectgroep die gerelateerd moet zijn aan het taakproject van de werkorder. De zoekopdracht is gebaseerd op de instellingen die in dit onderwerp worden beschreven. Elke projectgroep heeft een gerelateerd projecttype. Project groepen die het projecttype **Tijd en materiaal** of **Vaste prijs** hebben, zijn alleen geldig voor activa die betrekking hebben op een klantenrekening.
 >
 > Voor bovenliggende projecten en projectgroepen geldt dat wanneer het systeem het beschikbare werk orderproject of projectgroep selecteert, de selectie is gebaseerd op de records die u met behulp van de voorgaande procedure hebt gemaakt. Met Activabeheer gaat u via records die zijn gerelateerd aan het werkplaatsproject om een mogelijke overeenkomst te controleren. De meest specifieke combinatie wordt altijd als eerste gecontroleerd. Dat wil zeggen dat voor het bovenliggend project van de werkorder, Activabeheer eerst controleert op een mogelijke overeenkomst voor het veld **Activa**. Als er geen overeenkomst wordt gevonden, wordt er gecontroleerd op een overeenkomst voor het veld **Activatype**. Als er geen overeenkomst wordt gevonden, wordt er gecontroleerd op een overeenkomst voor het veld **Functionele locatie** enzovoort. Zoals u kunt zien in de indeling van de pagina **Instellingen voor werkorderprojecten**, betekent dit gedrag dat Activabeheer elke record van rechts naar links controleert op overeenkomst om de meest specifieke combinatie te vinden. Als er geen overeenkomst wordt gevonden, wordt het standaardrecord gebruikt waarin alleen een project-id wordt geselecteerd. Het proces voor het zoeken van de gerelateerde projectgroep is vergelijkbaar. Activabeheer controleert eerst of er mogelijke overeenkomsten zijn voor het veld **Activum**, vervolgens het veld **Activumtype** en dan het veld **Type werkorder**. Als er geen overeenkomst wordt gevonden, wordt het standaardrecord gebruikt waarin alleen een projectgroep wordt geselecteerd.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

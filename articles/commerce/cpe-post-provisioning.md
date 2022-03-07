@@ -2,35 +2,30 @@
 title: Een Dynamics 365 Commerce-evaluatieomgeving configureren
 description: In dit onderwerp wordt uitgelegd hoe u een evaluatieomgeving van Microsoft Dynamics 365 Commerce configureert na inrichting.
 author: psimolin
-manager: annbe
-ms.date: 07/16/2020
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6a1ae960f0f530104af7bdea9a8fcb78b01571f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411270"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913722"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Een Dynamics 365 Commerce-evaluatieomgeving configureren
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u een evaluatieomgeving van Microsoft Dynamics 365 Commerce configureert na inrichting.
-
-## <a name="overview"></a>Overzicht
 
 Voltooi de procedures in dit onderwerp pas nadat uw evaluatieomgeving van Commerce is ingericht. Zie [Een evaluatieomgeving van Commerce inrichten](provisioning-guide.md) voor meer informatie over hoe u uw evaluatieomgeving van Commerce inricht.
 
@@ -44,6 +39,7 @@ Nadat uw evaluatieomgeving van Commerce end-to-end is ingericht, moeten extra co
 1. Selecteer uw omgeving in de lijst.
 1. Klik op **Aanmelden bij omgeving** in de omgevingsgegevens rechts. U wordt doorgestuurd naar Commerce Headquarters.
 1. Zorg ervoor dat de rechtspersoon **USRT** is geselecteerd rechtsboven.
+2. Ga naar **Commerce-parameters > Configuratieparameters** en controleer of er een vermelding bestaat voor **ProductSearch.UseAzureSearch** die is ingesteld op **true**. Als de vermelding ontbreekt, kunt u deze toevoegen en **Kanaaldatabase > Volledige synchronisatie** uitvoeren voor de Commerce Scale Unit die is gekoppeld aan uw eCommerce-website.
 
 Controleer tijdens het activiteiten na het inrichting in Commerce Headquarters of de rechtspersoon **USRT** altijd is geselecteerd.
 
@@ -111,6 +107,12 @@ Ga als volgt te werk om taken in Commerce in te schakelen.
     1. Selecteer in het actievenster op het tabblad **Batchtaak** de optie **Status wijzigen**.
     1. Selecteer **Annuleren** en vervolgens **OK**.
 
+1. Als de status van de taak **Ingehouden** is, voert u de volgende stappen uit:
+
+    1. Selecteer de record.
+    1. Selecteer in het actievenster op het tabblad **Batchtaak** de optie **Status wijzigen**.
+    1. Selecteer **Wachten** en vervolgens **OK**.
+
 U kunt desgewenst ook het terugkeerinterval instellen op één (1) minuut voor de volgende taken:
 
 * E-mailmeldingtaak voor detailhandelorder verwerken
@@ -133,7 +135,7 @@ Voer de volgende stappen uit om een volledige gegevenssynchronisatie in Commerce
 Voor het uitvoeren van testtransacties op de site kunt u de volgende creditcardgegevens testen:
 
 - **Kaartnummer:** 4111-1111-1111-1111
-- **Verloopdatum:** 10/20
+- **Verloopdatum:** 10/30
 - **CVV-code:** 737
 
 > [!IMPORTANT]
@@ -144,6 +146,9 @@ Voor het uitvoeren van testtransacties op de site kunt u de volgende creditcardg
 Als de inrichtings- en configuratiestappen zijn voltooid, bent u klaar om uw evaluatieomgeving te gebruiken. Gebruik de site builder-URL voor de Commerce-site om naar de ontwerpomgeving te gaan. Gebruik de URL van de Commerce-site om naar de omgeving van de site van de detailhandelklant te gaan.
 
 Zie [Optionele functies voor een evaluatieomgeving van Commerce configureren](cpe-optional-features.md) voor meer informatie over hoe u optionele functies voor uw evaluatieomgeving van Commerce configureert.
+
+> [!NOTE]
+> Commerce-evaluatieomgevingen worden geleverd met een vooraf geladen Azure Active Directory (Azure AD) B2C-tenant voor demonstratiedoeleinden. Het configureren van uw eigen Azure AD B2C-tenant is niet vereist voor evaluatieomgevingen. Als u echter de evaluatieomgeving configureert om uw eigen Azure AD B2C-tenant te gebruiken, moet u ervoor zorgen dat u ``https://login.commerce.dynamics.com/_msdyn365/authresp`` als een antwoord-URL toevoegt in de Azure AD B2C-toepassing via de Azure Portal.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
@@ -157,10 +162,15 @@ Zie [Optionele functies voor een evaluatieomgeving van Commerce configureren](cp
 
 [Veelgestelde vragen over evaluatieomgeving voor Dynamics 365 Commerce](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure-portal](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce-website](https://aka.ms/Dynamics365CommerceWebsite)
+
+[Een B2C-tenant instellen in Commerce](set-up-B2C-tenant.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

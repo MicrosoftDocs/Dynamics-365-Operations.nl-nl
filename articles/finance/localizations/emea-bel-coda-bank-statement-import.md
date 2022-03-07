@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: BankAccountTable, BankCodaAccountStatement, BankCodaAccountStatementLines, BankCodaParameters, BankCodaTrans, BankCodaTransCategory, BankCodaTransDefTable, BankCodaTransFamily
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 262534
 ms.search.region: Belgium
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 76f7cbb7c016c27331801de40a89d31707e8bce6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ae014541bebc253d529665fcd841c571e142d783
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408320"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209873"
 ---
 # <a name="coda-bank-statement"></a>CODA-bankafschrift
 
@@ -60,3 +59,6 @@ Nadat bankafschrifttransacties zijn verwerkt, wordt een nieuw grootboekjournaal 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

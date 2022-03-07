@@ -2,16 +2,13 @@
 title: Toegangsrechten voor controllers voor kostenobjecten
 description: Dit onderwerp bevat informatie over toegangsrechten voor controllers voor kostenobjecten.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fd1ed875e5c6e3f8ada3b13ea8cc05f98526691d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c30a7c2765647aad17a475ba8705b8e688d166593adf242fcd15d90e49334189
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441996"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733024"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>Toegangsrechten voor controllers voor kostenobjecten
 
@@ -65,9 +62,8 @@ In het volgende voorbeeld ziet u hoe een dimensiehiërarchie eruit kan zien.
 
 U kunt het sneltabblad **Gebruikers** in de hiërarchieontwerper gebruiken om een of meer gebruikers-id's op elk knooppunt in te voegen.
 
-|                                   | Gebruikers            | Bereiken van dimensieleden   |                         |
+|             Knooppunten                 | Gebruikers            | Van dimensielid     |   Tot dimensielid   |
 |-----------------------------------|------------------|---------------------------|-------------------------|
-| **Knooppunten**                         | **Gebruikers-id**      | **Van dimensielid** | **Tot dimensielid** |
 | Organisatie                      | Benjamin, Claire |                           |                         |
 | &nbsp;&nbsp;Beheer                 | april            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Financiën   | Alicia           | CC002                     | CC003                   |
@@ -98,11 +94,14 @@ De instellingen voor de hiërarchie van toegangslijsten worden gebruikt voor het
     - Power BI-gegevensvisualisaties die zijn ingesloten in de Dynamics 365 Finance-client
 
 > [!IMPORTANT]
-> - Voordat de hiërarchie van toegangslijsten van invloed kan zijn op gegevens in Power BI, moeten de hiërarchie van toegangslijsten en beveiliging op rijniveau in Power BI worden gekoppeld. Zie [Beveiliging instellen voor het inhoudpakket Kostprijsboekhouding](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md) voor meer informatie.
+> - Voordat de hiërarchie van toegangslijsten van invloed kan zijn op gegevens in Power BI, moeten de hiërarchie van toegangslijsten en beveiliging op rijniveau in Power BI worden gekoppeld. Zie [Beveiliging instellen voor het inhoudpakket Kostprijsboekhouding](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md) voor meer informatie.
 > - Dit onderwerp bevat de vereisten waaraan moet worden voldaan voordat u het werkgebied **Kostenbeheer** kunt gebruiken.
 
 Aanvullende resources
 
 - [Werkgebied voor kostenbeheer](cost-control-workspace.md)
 - [Dimensiehiërarchie](dimension-hierarchy.md)
-- [Beveiliging instellen voor het inhoudpakket Kostprijsboekhouding](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+- [Beveiliging instellen voor het inhoudpakket Kostprijsboekhouding](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

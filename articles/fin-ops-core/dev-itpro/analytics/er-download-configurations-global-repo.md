@@ -2,11 +2,9 @@
 title: ER-configuraties downloaden uit de algemene opslagplaats van de configuratieservice
 description: In dit onderwerp wordt uitgelegd hoe u ER-configuraties kunt downloaden uit de algemene opslagplaats van de configuratieservice.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
 audience: Application User, IT Pro
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a96e78a64fe0559ae5f3bfddabf3fe1cad8a3dcb
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679553"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605326"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>ER-configuraties downloaden uit de algemene opslagplaats van de configuratieservice
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u [ER-configuraties](general-electronic-reporting.md#Configuration) kunt downloaden uit de algemene opslagplaats van de configuratieservice. Zie [Microsoft Dynamics 365 for Finance and Operations - Regulatory services, configuratieservice](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) voor meer informatie.
+In dit onderwerp wordt uitgelegd hoe u [ER-configuraties](general-electronic-reporting.md#Configuration) kunt downloaden uit de algemene opslagplaats van de configuratieservice. Zie [Microsoft Dynamics 365 for Finance and Operations - Regulatory services, configuratieservice](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) voor meer informatie.
 
 ## <a name="open-configurations-repository"></a>Opslagplaats met configuraties openen
 
@@ -42,7 +40,7 @@ In dit onderwerp wordt uitgelegd hoe u [ER-configuraties](general-electronic-rep
 3. Selecteer in de sectie **Configuratieproviders** de tegel **Microsoft**.
 3. Klik op de tegel **Microsoft** op **Opslagplaatsen**.
 
-    ![Werkgebied voor elektronische rapportage](./media/er-download-configurations-global-repo-er-workspace.png)
+    ![Werkgebied voor elektronische rapportage.](./media/er-download-configurations-global-repo-er-workspace.png)
 
 4. Selecteer in het raster op de pagina **Opslagplaatsen van configuraties** pagina de bestaande opslagplaats van het type **Algemeen**. Als deze opslagplaats niet wordt weergegeven in het raster, volgt u deze stappen:
 
@@ -54,7 +52,7 @@ In dit onderwerp wordt uitgelegd hoe u [ER-configuraties](general-electronic-rep
 
 5. Selecteer **Openen** om de lijst met ER-configuraties voor de geselecteerde opslagplaats weer te geven.
 
-    ![De pagina Opslagplaatsen van configuraties](./media/er-download-configurations-global-repo-repositories-list.png)
+    ![De pagina Opslagplaatsen van configuraties.](./media/er-download-configurations-global-repo-repositories-list.png)
 
 ## <a name="import-a-single-configuration"></a>Eén configuratie importeren
 
@@ -65,7 +63,7 @@ In dit onderwerp wordt uitgelegd hoe u [ER-configuraties](general-electronic-rep
     > [!NOTE]
     > De knop **Importeren** is niet beschikbaar voor ER-configuratieversies die al aanwezig zijn in het huidige Finance-exemplaar.
 
-    ![Configuratie archiefpagina](./media/er-download-configurations-global-repo-repository-content.png)
+    ![De pagina Opslagplaats configuratie, sneltabblad Configuraties.](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Gefilterde configuraties importeren
 
@@ -79,7 +77,7 @@ In dit onderwerp wordt uitgelegd hoe u [ER-configuraties](general-electronic-rep
 4. Selecteer op het sneltabblad **Configuraties** de optie **Importeren** om de gefilterde configuraties uit de algemene opslagplaats naar het huidige exemplaar te downloaden.
 5. Selecteer op het sneltabblad **Configuraties** de optie **Filter opnieuw instellen** om de opgegeven selectievoorwaarden op te schonen.
 
-    ![Configuratie archiefpagina](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Configuratie archiefpagina, sneltabblad Versies, knop Importeren.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > Afhankelijk van de ER-instellingen worden configuraties gevalideerd nadat ze zijn geïmporteerd. U krijgt mogelijk meldingen over inconsistentieproblemen die worden vastgesteld. U moet de problemen oplossen voordat u de geïmporteerde configuratieversie kunt gebruiken. Zie voor meer informatie de lijst met gerelateerde bronnen voor dit onderwerp.
@@ -90,3 +88,6 @@ In dit onderwerp wordt uitgelegd hoe u [ER-configuraties](general-electronic-rep
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

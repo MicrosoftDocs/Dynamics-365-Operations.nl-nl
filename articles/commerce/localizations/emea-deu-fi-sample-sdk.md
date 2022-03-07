@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 98641f9989322feb77ab683df66c2c1f9ad50a0d
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 51107731090b77e75a0e5a8c91b052d494b452e4
+ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077060"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7944910"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-germany-legacy"></a>Implementatierichtlijnen voor het voorbeeld van integratie van fiscale registratieservice voor Duitsland (verouderd)
 
@@ -156,13 +156,13 @@ In de vorige procedure hebt u de extensies ingeschakeld die onderdelen zijn van 
 
 ## <a name="design-of-extensions"></a>Ontwerp van extensies
 
-Het voorbeeld van integratie van fiscale registratieservice voor Duitsland is gebaseerd op de [functionaliteit voor fiscale integratie](fiscal-integration-for-retail-channel.md). Zie het [overzicht van het ontwerp van een voorbeeld voor fiscale integratie](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) voor meer informatie over het ontwerp van de oplossing voor fiscale integratie.
+Het voorbeeld van integratie van fiscale registratieservice voor Duitsland is gebaseerd op de [functionaliteit voor fiscale integratie](fiscal-integration-for-retail-channel.md). Zie het [overzicht van het ontwerp van een voorbeeld voor fiscale integratie](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) voor meer informatie over het ontwerp van de oplossing voor fiscale integratie.
 
 ### <a name="commerce-runtime-extension-design"></a>Ontwerp van Commerce runtime-extensie
 
 De extensie die een fiscale documentprovider is, heeft tot doel om servicespecifieke documenten te genereren en responsen van de fiscale registratieservice af te handelen.
 
-De CRT-extensie is **Runtime.Extensions.DocumentProvider.EFRSample**. Zie voor meer informatie over het ontwerp van de oplossing voor fiscale integratie [Overzicht van fiscale integratie voor Commerce-kanalen](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
+De CRT-extensie is **Runtime.Extensions.DocumentProvider.EFRSample**. Zie voor meer informatie over het ontwerp van de oplossing voor fiscale integratie [Overzicht van fiscale integratie voor Commerce-kanalen](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
 
 #### <a name="request-handler"></a>Aanvraaghandler
 

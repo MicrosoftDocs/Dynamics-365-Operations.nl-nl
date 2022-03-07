@@ -2,11 +2,9 @@
 title: Productaanbevelingen toevoegen op POS
 description: Dit onderwerp beschrijft het gebruik van productaanbevelingen op een POS-apparaat (Point of Sale).
 author: bebeale
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 08784385dd1fead13f538b4e856b4bac6651a560
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 29f502df7c158611df4eb2ddd5ac0e6bd6b4fe628113b2c544e33ba9c41cbcc7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969921"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763735"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Productaanbevelingen toevoegen op POS
 
@@ -41,7 +39,7 @@ Productaanbevelingen zijn ingeschakeld voor de volgende POS-scenario's. Ze zijn 
 
     - Als een winkelmedewerker een pagina met **productdetails** bezoekt wanneer hij eerdere transacties via verschillende kanalen bekijkt, worden door de aanbevelingsservice extra artikelen voorgesteld die veelal samen worden gekocht.
 
-    [![Aanbevelingen op de pagina Productgegevens](./media/proddetails.png)](./media/proddetails.png)
+    [![Aanbevelingen op de pagina Productgegevens.](./media/proddetails.png)](./media/proddetails.png)
 
 2. Op de pagina **Transactie**:
 
@@ -50,7 +48,7 @@ Productaanbevelingen zijn ingeschakeld voor de volgende POS-scenario's. Ze zijn 
     > [!NOTE]
     > Om aanbevelingen weer te geven op de pagina **Transactie**, moet de detailhandelaar de schermindeling in Dynamics 365 Commerce bijwerken. Het besturingselement **Aanbevelingen** moet aan de pagina **Transactie** worden toegevoegd.
 
-    [![Aanbevelingen op de pagina Transactie](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+    [![Aanbevelingen op de pagina Transactie.](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
 ## <a name="configure-commerce-to-enable-pos-recommendations"></a>Commerce configureren om aanbevelingen voor POS in te schakelen
 
@@ -91,3 +89,6 @@ Volg deze stappen om productaanbevelingen in te stellen:
 [Aanbevelingen maken met voorbeeldgegevens](product-recommendations-demo-data.md)
 
 [Veelgestelde vragen over productaanbevelingen](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

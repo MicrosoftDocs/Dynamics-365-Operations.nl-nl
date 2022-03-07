@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 459c8fce892d9437c7466458b7e53743c71da38f
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: ad0f8e2fa6b3767c6b5d5549a36d52990f871531
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102822"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808841"
 ---
 # <a name="cluster-position-full"></a>Clusterpositie vol
 
@@ -28,9 +28,12 @@ De functie *Clusterpositie vol* biedt een alternatief voor strengere handhaving 
 
 Deze functie introduceert de mogelijkheid om knop **Vol** uit te voeren voor een van de werkeenheden in een cluster. In oudere versies was deze optie alleen beschikbaar voor reguliere orderverzameling, niet voor clusterverzamelingen. Deze functie verschilt echter van de standaardknop **Vol** omdat het resterende werk wordt geannuleerd. Er wordt niet voorgesteld dat de gebruiker nog een bak aan hetzelfde cluster toevoegt en er wordt niet automatisch nieuw werk gemaakt.
 
-## <a name="turn-the-cluster-position-full-feature-on-or-off"></a>De functie Clusterpositie vol in- of uitschakelen
+## <a name="turn-on-the-cluster-position-full-feature"></a>De functie Clusterpositie vol inschakelen
 
-Als u de functionaliteit wilt gebruiken die in dit onderwerp wordt beschreven, moet de functie *Clusterpositie vol* zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Clusterpositie vol* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
+
+- **Module:** *Magazijnbeheer*
+- **Functienaam:** *Clusterpositie vol*
 
 ## <a name="setup"></a>Instelling
 

@@ -2,26 +2,26 @@
 title: Startpagina van Organisatiebeheer
 description: Dit onderwerp verwijst naar resources die u helpen in uw organisatie.
 author: sericks007
-manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: 20421
+ms.custom:
+- "20421"
+- intro-internal
 ms.assetid: 7aa24a03-d172-47e9-81f8-ebd39e80bc60
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b91963b9ccb5fb339b3c0fc41e8483628135c4c8
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 04d188b0bf7d7fc7064467e1e05199d0eb90b4d0276a3c0c01ad8f9be78e76e8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797017"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759891"
 ---
 # <a name="organization-administration-home-page"></a>Startpagina van Organisatiebeheer
 
@@ -101,3 +101,6 @@ Met recordsjablonen kunt u sneller records maken. U kunt een recordsjabloon make
 - [Documentbeheer configureren](configure-document-management.md)
 - [E-mail configureren en verzenden](configure-email.md)
 - [Datum-/tijdgegevens en tijdzones](date-time-zones.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

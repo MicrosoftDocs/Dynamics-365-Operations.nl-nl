@@ -1,26 +1,29 @@
 ---
 title: Handmatig serviceorders maken
 description: U kunt handmatig serviceorders maken door een serviceovereenkomst te gebruiken of door het formulier **Serviceorders** te gebruiken.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1fad4abcf39021f94db50c07a39803af31f85c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 51cfdb94a368df9e7082af3c768c79df44000342
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578843"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4425470"
 ---
 # <a name="create-service-orders-manually"></a>Handmatig serviceorders maken    
 
@@ -34,17 +37,17 @@ U kunt handmatig serviceorders maken door een serviceovereenkomst te gebruiken o
 
 ## <a name="create-a-service-order-manually-from-a-service-agreement"></a>Handmatig een serviceorder maken vanuit een serviceovereenkomst
 
-1.  Selecteer **Servicebeheer** \> **Algemeen** \> **Serviceovereenkomsten** \> **Serviceovereenkomsten**.
+1.  Klik op **Servicebeheer** \> **Algemeen** \> **Serviceovereenkomsten** \> **Serviceovereenkomsten**.
 
 2.  Selecteer een serviceovereenkomst of maak een nieuwe serviceovereenkomst.
 
-3.  Selecteer het tabblad **Leveren** en selecteer in de groep **Maken** de optie **Geplande serviceorders** om het formulier **Serviceorders maken** te openen.
+3.  Klik op het tabblad **Leveren** en in de groep **Maken** op **Geplande serviceorders** om het formulier **Serviceorders maken** te openen.
 
 ## <a name="create-a-service-order-manually-in-the-service-orders-form"></a>Handmatig een serviceorder maken in het formulier Serviceorders
 
-1.  Selecteer **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**.
+1.  Klik op **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**.
 
-2.  Selecteer **Nieuw** om een nieuwe serviceorder te maken.
+2.  Druk op Ctrl+N om een nieuwe serviceorder te maken.
 
 3.  Maak serviceorderregels voor de serviceorder.
 
@@ -53,9 +56,9 @@ U kunt handmatig serviceorders maken door een serviceovereenkomst te gebruiken o
 
 ## <a name="create-a-service-order-from-a-project"></a>Een serviceorder vanuit een project maken
 
-1.  Ga naar **Projectbeheer en boekhouding** \> **Algemeen** \> **Projecten** \> **Alle projecten**.
+1.  Klik op **Projectbeheer en boekhouding** \> **Algemeen** \> **Projecten** \> **Alle projecten**.
 
-2.  Selecteer in het formulier **Projecten** in het **actiedeelvenster** op het tabblad **Beheren** \> de optie **Service** \> **Serviceorders**.
+2.  Klik in het formulier **Projecten** in het **actievenster** op het tabblad **Beheren** \> op **Service** \> **Serviceorders**.
 
 3.  Volg de vorige procedure voor het handmatig maken van een serviceorder in het formulier **Serviceorders**. In het veld **Project-ID** wordt de projectverwijzing weergegeven.
 
@@ -66,19 +69,19 @@ U kunt handmatig serviceorders maken door een serviceovereenkomst te gebruiken o
 
 U kunt een serviceorder maken in het formulier **Verkooporders** met behulp van de wizard **Een nieuwe serviceorder maken op basis van de verkooporder**.
 
-1.  Ga naar **Verkoop en marketing** \> **Algemeen** \> **Verkooporders** \> **Alle verkooporders**.
+1.  Klik op **Verkoop en marketing** \> **Algemeen** \> **Verkooporders** \> **Alle verkooporders**.
 
 2.  Open de relevante verkooporder.
 
-3.  Selecteer op het tabblad **Verkooporder** de optie **Serviceorder** om de wizard **Een nieuwe serviceorder maken op basis van de verkooporder** te starten.
+3.  Klik op het tabblad **Verkooporder** op **Serviceorder** om de wizard **Een nieuwe serviceorder maken op basis van de verkooporder** te starten.
 
-4.  Selecteer **Volgende \>** en voltooi de volgende stappen op de pagina **Overeenkomst selecteren voor serviceorder**:
+4.  Klik op **Volgende \>** en voltooi de volgende stappen op de pagina **Overeenkomst selecteren voor serviceorder**:
     
       - Gebruik het veld **Serviceovereenkomst** om de serviceovereenkomst te selecteren waaraan de nieuwe serviceorder moet worden gekoppeld.
     
       - Optioneel: gebruik het veld **Project-ID** om deze serviceorder te koppelen aan een bepaald project.
 
-5.  Selecteer **Volgende \>** en voltooi de volgende stappen op de pagina **Serviceorder maken**:
+5.  Klik op **Volgende \>** en voltooi de volgende stappen op de pagina **Serviceorder maken**:
     
       - Geef in het veld **Voorkeurstijd service** een datum en een tijd op waarop u wilt dat het serviceverzoek begint.
     
@@ -88,7 +91,7 @@ U kunt een serviceorder maken in het formulier **Verkooporders** met behulp van 
     
       - Selecteer in het veld **Contact-ID** de persoon in het bedrijf van de klant met wie contact moet worden opgenomen over de serviceorder.
 
-6.  Selecteer **Volgende \>** en **Voltooien**.
+6.  Klik op **Volgende\>** en klik vervolgens op **Voltooien**.
 
 
 ## <a name="see-also"></a>Zie ook
@@ -99,6 +102,3 @@ U kunt een serviceorder maken in het formulier **Verkooporders** met behulp van 
 
 [Serviceorders maken (klasseformulier)](https://technet.microsoft.com/library/aa553901\(v=ax.60\)) 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

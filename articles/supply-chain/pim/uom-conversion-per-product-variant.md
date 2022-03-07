@@ -1,25 +1,27 @@
 ---
 title: Conversie van maateenheid per productvariant
 description: In dit onderwerp wordt uitgelegd hoe conversies van maateenheden kunnen worden ingesteld voor productvarianten. Het bevat een voorbeeld van de instellingen.
-author: t-benebo
+author: johanhoffmann
+manager: tfehr
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: benebotg
+ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c02252abcaf82cb2aab928949827e25ef7cce8c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ddb6c614ede98e46e46ff284a1a16669bbaaaf66
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579563"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258042"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Conversie van maateenheid per productvariant
 
@@ -56,7 +58,7 @@ Voer de volgende stappen uit om een productmodel te configureren voor ondersteun
     - **Product**: als u deze waarde selecteert, kunt u een eenheidconversie instellen voor het productmodel. Deze eenheidsomrekening wordt gebruikt als terugval voor alle productvarianten waarvoor geen eenheidsomrekening is gedefinieerd.
     - **Productvariant**: als u deze waarde selecteert, kunt u een eenheidconversie instellen voor een specifieke productvariant. Gebruik het veld **Productvariant** om de variant te selecteren.
 
-    ![Een nieuwe eenheidsomrekening toevoegen.](media/uom-new-conversion.png "Een nieuwe eenheidsomrekening toevoegen")
+    ![Een nieuwe eenheidsomrekening toevoegen](media/uom-new-conversion.png "Een nieuwe eenheidsomrekening toevoegen")
 
 1. Gebruik de andere velden die zijn opgegeven om de eenheidsomrekening in te stellen.
 1. Selecteer **OK** om de nieuwe eenheidsomrekening op te slaan.
@@ -103,7 +105,7 @@ Als u eenheidsomrekeningen naar Excel wilt exporteren, selecteert u op de pagina
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Maateenheden beheren](tasks/manage-unit-measure.md)
+[Maateenheid beheren](tasks/manage-unit-measure.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

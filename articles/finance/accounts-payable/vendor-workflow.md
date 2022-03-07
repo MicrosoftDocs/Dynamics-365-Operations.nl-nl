@@ -2,26 +2,23 @@
 title: Leverancierswerkstroom
 description: Wijzig leveranciergegevens en gebruik de werkstroom om deze goed te keuren.
 author: mikefalkner
-manager: annbe
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Vendor
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 00cdc657fa075e84e62682e33ed3c1bace3f4ad0
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 8f4fc24153842b2a108b13835e56e70177d7b53842cb15ea17f172da21ddc10d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4442189"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777163"
 ---
 # <a name="vendor-workflow"></a>Leverancierswerkstroom
 
@@ -61,3 +58,6 @@ Als u ten minste één voorgestelde wijziging hebt, worden twee extra tabbladen 
     De status op de pagina wordt gewijzigd in **Wijzigingen in afwachting van goedkeuring**.
 
 De werkstroom volgt het standaard werkstroomproces. De fiatteur wordt doorgestuurd naar de pagina **Leverancier**, waar de wijzigingen op de pagina **Voorgestelde wijzigingen** kunnen worden gecontroleerd en **Werkstroom \> Goedkeuren** kan worden geselecteerd om de werkstroom goed te keuren. Nadat alle goedkeuringen zijn voltooid, worden de velden bijgewerkt met de voorgestelde waarden.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

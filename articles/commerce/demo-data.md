@@ -2,16 +2,13 @@
 title: Schermindelingen met demonstratiegegevens in Modern POS (MPOS) en Cloud POS
 description: Dit onderwerp bevat informatie over de schermindelingen die zijn opgenomen in de voorbeeldgegevensset voor de POS-ervaringen (Point Of Sale) in Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 10/05/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 935e1a550160515e2c325c39eab86be3b9fa5394
-ms.sourcegitcommit: d82f319cf7dd26c93a3fd342de4fd537272fa8d2
+ms.openlocfilehash: c3670cc1f690e8b65b53beb9128554216b2a95f4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "4411533"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350421"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Schermindelingen met demonstratiegegevens in Modern POS (MPOS) en Cloud POS
 
@@ -36,13 +33,13 @@ Dit onderwerp bevat informatie over de schermindelingen die zijn opgenomen in de
 
 De voorbeeldschermindelingen die zijn opgenomen in de Commerce-demonstratiegegevens bieden inhoud die is geoptimaliseerd voor verschillende segmenten van de detailhandel, winkelmedewerkerrollen en apparaten. Eén indeling kan verschillende indelingsformaten en combinaties van knoppenrasters bevatten om in de behoefte te kunnen blijven voorzien wanneer werknemers tussen apparaten en stations schakelen. Dit onderwerp biedt meer informatie over de verschillen tussen deze indelingen, de mogelijkheden die ze bieden en de algehele ervaring die ze leveren.
 
-![Apparaatonafhankelijke demonstratiegegevensindelingen](../commerce/media/demo-screen-layouts-fig-1-1.png)
+![Apparaatonafhankelijke demonstratiegegevensindelingen.](../commerce/media/demo-screen-layouts-fig-1-1.png)
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Anatomie van een schermindelings-id
 
 Schermindelingen vindt u via **Retail en Commerce** \> **Kanaalinstellingen** \> **POS-instellingen** \> **POS** \> **Schermindelingen**.
 
-![Pagina Schermindelingen](../commerce/media/demo-screen-layouts-fig-2-1.png)
+![Pagina Schermindelingen.](../commerce/media/demo-screen-layouts-fig-2-1.png)
 
 Schermindeling-id's kunnen uit maximaal 10 tekens bestaan. De id is een tekenreeks die uit drie soorten informatie bestaat, in de volgende volgorde:
 
@@ -55,12 +52,12 @@ Schermindeling-id's kunnen uit maximaal 10 tekens bestaan. De id is een tekenree
 | Brief | Bedrijf         |
 |--------|-----------------|
 | V      | Adventure Works |
-| F      | Fabrikam        |
-| E      | Contoso         |
+| Vr      | Fabrikam        |
+| C      | Contoso         |
 
 ### <a name="layout-version"></a>Indelingsversie
 
-| Versienummer | Omschrijving                                                                                |
+| Versienummer | Beschrijving                                                                                |
 |----------------|--------------------------------------------------------------------------------------------|
 | 3              | De basisversie die ondersteuning biedt voor meerdere schermformaten voor verschillende apparaten en hoogte-breedteverhoudingen |
 | 3.1            | De basisversie met extra ondersteuning voor het deelvenster **Aanbevolen producten**        |
@@ -82,7 +79,7 @@ F4MGR
 
 In de volgende afbeelding wordt een voorbeeld van het welkomstscherm voor een winkelmanager van Fabrikam weergegeven.
 
-![Welkomstscherm voor de winkelmanager van Fabrikam](../commerce/media/demo-screen-layouts-fig-2-2.png)
+![Welkomstscherm voor de winkelmanager van Fabrikam.](../commerce/media/demo-screen-layouts-fig-2-2.png)
 
 ## <a name="layout-sizes"></a>Indelingsgrootten
 
@@ -111,7 +108,7 @@ In de volgende tabel worden de indelingsformaten weergegeven die beschikbaar zij
 > [!TIP]
 > POS selecteert automatisch indelingsformaten, gebaseerd op de dichtstbijzijnde grootte die voor de schermresolutie van het huidige appvenster beschikbaar is. U vindt de schermindelings-id en indelingsresolutie die momenteel worden gebruikt, door Modern POS (MPOS) of Retail Cloud POS (CPOS) te openen, de pagina **Instellingen** te openen en de sectie **Sessie-informatie** te bekijken. U kunt ook de werkelijke vensterresolutie voor uw huidige toepassing of browserframe bekijken. Als u deze gegevens hebt, kunt u de bron van de indelingsinhoud vinden door naar **Afzetkanaalinstellingen** \> **POS-instellingen** \> **POS** \> **Schermindelingen** te gaan.
 
-![Schermindelingen en indelingsresoluties/-formaten in Commerce en POS](../commerce/media/demo-screen-layouts-fig-3-1.png)
+![Schermindelingen en indelingsresoluties/-formaten in Commerce en POS.](../commerce/media/demo-screen-layouts-fig-3-1.png)
 
 ## <a name="companies-and-brands"></a>Bedrijven en merken
 
@@ -132,19 +129,19 @@ In de volgende afbeeldingen ziet u voorbeelden van de welkomstpagina en transact
 
 ### <a name="adventure-works"></a>Adventure Works
 
-![Welkomstpagina met demonstratiegegevens voor Adventure Works](../commerce/media/demo-screen-layouts-fig-4-1a.png)
+![Welkomstpagina met demonstratiegegevens voor Adventure Works.](../commerce/media/demo-screen-layouts-fig-4-1a.png)
 
-![Transactiepagina met demonstratiegegevens voor Adventure Works](../commerce/media/demo-screen-layouts-fig-4-1b.png)
+![Transactiepagina met demonstratiegegevens voor Adventure Works.](../commerce/media/demo-screen-layouts-fig-4-1b.png)
 
 ### <a name="fabrikam"></a>Fabrikam
 
-![Welkomstpagina met demonstratiegegevens voor Fabrikam](../commerce/media/demo-screen-layouts-fig-4-2a.png)
+![Welkomstpagina met demonstratiegegevens voor Fabrikam.](../commerce/media/demo-screen-layouts-fig-4-2a.png)
 
-![Transactiepagina met demonstratiegegevens voor Fabrikam](../commerce/media/demo-screen-layouts-fig-4-2b.png)
+![Transactiepagina met demonstratiegegevens voor Fabrikam.](../commerce/media/demo-screen-layouts-fig-4-2b.png)
 
 ### <a name="contoso"></a>Contoso
 
-![Indelingen met demonstratiegegevens voor Contoso](../commerce/media/demo-screen-layouts-fig-4-3.png)
+![Indelingen met demonstratiegegevens voor Contoso.](../commerce/media/demo-screen-layouts-fig-4-3.png)
 
 ## <a name="user-sign-in-matrix"></a>Matrix voor gebruikersaanmelding
 
@@ -171,8 +168,11 @@ Er zijn al gebruikers opgegeven voor de verschillende schermindelingen. Met behu
 
 <!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail and Commerce \> Channel setup \> POS setup \> POS \> Images**. -->
 
-<!-- ![Images in Dynamics 365 Commerce](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
+<!-- ![Images in Dynamics 365 Commerce.](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
 
 <!-- Use the [POS Icon and Image Mapping](../commerce/media/POS_Icon_and_Image_Mapping.xlsx) reference spreadsheet to locate operation icons, reference photos, swap logos, or provide new images of your own that can be referenced in custom designs. -->
 
 <!-- END HIDDEN CONTENT -->
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

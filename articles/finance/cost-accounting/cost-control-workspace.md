@@ -2,16 +2,13 @@
 title: Werkgebied voor kostenbeheer
 description: Dit onderwerp bevat informatie over het werkgebied Kostenbeheer. Dit werkgebied is een centraal punt waar managers die verantwoordelijk zijn voor het beheer van een kostenobject of een reeks kostenobjecten in een dimensie of meerdere dimensies toegang kunnen krijgen tot rapporten.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace, CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c54afd0d94a56f6306a11e03448cc66c168390c2
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 4c5528545e0215b3a3f92b7bd5b492f82274d35a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4442186"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833037"
 ---
 # <a name="cost-control-workspace"></a>Werkgebied voor kostenbeheer 
 
@@ -57,7 +54,7 @@ Op het sneltabblad **Gegevens filteren** definieert u de basis van de gegevens v
 | Grootboek van kostprijsboekhouding                                            | **Grootboek van kostprijsboekhouding** waarop het rapport is gebaseerd. De waarde wordt afgeleid van het veld **Kostenbeheereenheid**. |
 | Kostenbeheereenheid                                                 | De waarde die u selecteert bepaalt het grootboek voor kostprijsboekhouding en kostenobjecten waarop dit rapport wordt gebaseerd. |
 | Statistische dimensiehiërarchie, Dimensiehiërarchie van een kostenelement | Met een configuratierecord van het werkgebied **Kostenbeheer** kunnen niet-monetaire of monetaire waarden worden gerapporteerd, maar niet in dezelfde indeling. Selecteer een waarde in het veld **Dimensiehiërarchie van een kostenelement** om monetaire waarden te rapporteren. Selecteer een waarde in het veld **Statistische dimensiehiërarchie** om niet-monetaire waarden te rapporteren. De record van de dimensiehiërarchie die u selecteert, bepaalt de structuur van de rapportage- en samenvoegingsniveaus.<blockquote>[!NOTE]<br>Als u niet-monetaire en monetaire waarden naast elkaar wilt weergeven, kunt u gegevens exporteren naar Microsoft Excel voor het Microsoft Power BI-inhoudpakket.</blockquote> |
-| Dimensiehiërarchie van een kostenobject                                   | Selecteer de dimensiehiërarchie van de kostenobjectdimensie die aansluit bij het doel van de rapportage die u definieert. |
+| Dimensiehiërarchie van kostenobject                                   | Selecteer de dimensiehiërarchie van de kostenobjectdimensie die aansluit bij het doel van de rapportage die u definieert. |
 | Oorspronkelijk versie van budget                                           | Selecteer de budgetversie-id die fungeert als het oorspronkelijke budget in de context van dit rapport. |
 | Herziene versie van budget                                            | Selecteer de budgetversie-id die fungeert als het herziene budget in de context van dit rapport. |
 
@@ -158,3 +155,6 @@ Aanvullende resources
 [Toegangsrechten definiëren voor controllers voor kostenobjecten](access-rights-cost-object-controller.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

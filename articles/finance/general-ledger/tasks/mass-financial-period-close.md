@@ -2,11 +2,9 @@
 title: Massale sluiting van financiële periode
 description: In dit onderwerp procedure ziet u hoe u een periode in de wachtstand plaatst of definitief afsluit voor meer dan één rechtspersoon tegelijk.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/16/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerCalendar, LedgerPeriodModuleAccessControlUpdate, SysLookupPicklist, LedgerFiscalCalendarPeriodStatus
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 598c28c2fb3dd6a13f96df81189b46c4e228da7a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7dac267d2d4ce0824bc47b63b8d07913a8dd7f02bcccc025880701cb4d0bdd3d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968724"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751272"
 ---
 # <a name="mass-financial-period-close"></a>Massale sluiting van financiële periode
 
@@ -41,3 +39,6 @@ In dit onderwerp procedure ziet u hoe u een periode in de wachtstand plaatst of 
 11. Selecteer **Periodestatus bijwerken** en stel de status in op **In wachtstand**, **Open** of **Definitief afgesloten**. **Open** geeft aan dat er naar de periode kan worden geboekt, mits de gebruiker toegang heeft. Bij **In wachtstand** kan er niet worden geboekt naar de periode, maar kan de periode wel worden heropend. Bij **Definitief afgesloten** is de periode afgesloten en kan deze niet meer worden geopend. Aanpassingen kunnen niet worden geboekt. Het is raadzaam om een periode pas op **Definitief afgesloten** in te stellen wanneer alle correcties en audits zijn voltooid.  
 12. Selecteer **Bijwerken**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -3,8 +3,9 @@ title: De module Francoprijzen
 description: Met de module Francoprijzen kunnen bedrijven beter hun inkomende verzendbewerkingen stroomlijnen door gebruikers de volledige financiële en logistieke controle te geven over geïmporteerde vracht, van fabrikant tot magazijn.
 author: sherry-zheng
 ms.date: 12/07/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -12,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e4861c0e8b3680f3cd3229facf059b671a4fc765
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.dyn365.ops.version: Release 10.0.17
+ms.openlocfilehash: 524fcdbcf9ba607fe9bcec1f1e894beb45f265e6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983412"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823332"
 ---
 # <a name="landed-cost-module"></a>De module Francoprijzen
 

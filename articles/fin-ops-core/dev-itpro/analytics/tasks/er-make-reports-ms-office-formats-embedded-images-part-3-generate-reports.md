@@ -1,12 +1,10 @@
 ---
 title: Rapporten genereren in Office-indeling die ingesloten afbeeldingen bevatten
-description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van 'Systeembeheerder' of 'Elektronische ontwikkelaar' ER-configuraties (Electronic Reporting) kan ontwerpen om elektronische documenten te genereren in MS Office-indelingen (Excel en Word) die ingesloten afbeeldingen bevatten.
+description: Dit onderwerp laat zien hoe u elektronische rapportage (ER)-configuraties ontwerpt voor het genereren van elektronische documenten in Excel en Word met ingesloten afbeeldingen.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78dcdbd83dc717104d437662f7f451c9ecb714cf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 81b93c14fc4819fffd322a1b364feac3d25a0d24
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684374"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751553"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Rapporten genereren in Office-indeling die ingesloten afbeeldingen bevatten
 
@@ -119,3 +117,6 @@ In dit voorbeeld gebruikt u gemaakte ER-configuraties voor voorbeeldbedrijf 'Lit
 23. Klik op OK.
     * Controleer de gemaakte uitvoer. De uitvoer als MS Word-document is gegenereerd met ingesloten afbeeldingen die het bedrijfslogo, de handtekening van een bevoegd persoon en de geselecteerde tekst van het watermerk voorstellen.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

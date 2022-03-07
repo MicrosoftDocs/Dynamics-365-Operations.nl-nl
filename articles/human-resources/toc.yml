@@ -1,474 +1,491 @@
 - name: Dynamics 365 Human Resources
-  href: hr-welcome.md
   items:
-    - name: Nieuwe functies
+    - name: Dynamics 365 Human Resources
       items:
-        - name: Nieuwe of gewijzigde functies in Human Resources
-          href: hr-admin-whats-new.md
-        - name: 2 december 2020
-          href: hr-whats-new-2020-12-02.md
-        - name: 22 oktober 2020
-          href: hr-whats-new-2020-10-22.md
-        - name: 6 oktober 2020
-          href: hr-whats-new-2020-10-06.md
-        - name: 26 september 2020
-          href: hr-whats-new-2020-09-26.md
-        - name: 16 september 2020
-          href: hr-whats-new-2020-09-16.md
-        - name: 3 september 2020
-          href: hr-whats-new-2020-09-03.md
-        - name: 20 augustus 2020
-          href: hr-whats-new-2020-08-20.md
-        - name: 6 augustus 2020
-          href: hr-whats-new-2020-08-06.md
-        - name: 23 juli 2020
-          href: hr-whats-new-2020-07-23.md
-        - name: 8 juli 2020
-          href: hr-whats-new-2020-07-08.md
-        - name: 25 juni 2020
-          href: hr-whats-new-2020-06-23.md
-        - name: 11 juni 2020
-          href: hr-whats-new-2020-06-11.md
-        - name: 28 mei 2020
-          href: hr-whats-new-2020-05-28.md
-        - name: 14 mei 2020
-          href: hr-whats-new-2020-05-14.md
-        - name: 1 mei 2020
-          href: hr-whats-new-2020-05-01.md
-        - name: Nieuwe functies in archieven 2020
+        - name: Startpagina van Dynamics 365 Human Resources
+          href: index.md
+        - name: Infrastructuurrelease 10.0.25
+          href: hr-infrastructure.md
+        - name: Nieuwe of gewijzigde functies in samengevoegde Dynamics 365 Human Resources-infrastructuur
+          href: ./get-started/hr-whats-new-changed-10-0-25.md
+        - name: Aan de slag
           items:
-            - name: 13 april 2020
-              href: hr-whats-new-2020-04-13.md
-            - name: 3 april 2020
-              href: hr-whats-new-2020-04-03.md
-            - name: 24 maart 2020
-              href: hr-whats-new-2020-03-24.md
-            - name: 19 maart 2020
-              href: hr-whats-new-2020-03-19.md
-            - name: 10 maart 2020
-              href: hr-whats-new-2020-03-10.md
-            - name: 3 maart 2020
-              href: hr-whats-new-2020-03-03.md
-            - name: 25 februari 2020
-              href: hr-whats-new-2020-02-25.md
-            - name: 18 februari 2020
-              href: hr-whats-new-2020-02-18.md
-            - name: 12 februari 2020
-              href: hr-whats-new-2020-02-12.md
-            - name: 7 februari 2020
-              href: hr-whats-new-2020-02-07.md
-            - name: 3 februari 2020
-              href: hr-whats-new-2020-02-03.md
-    - name: Beheerdershandleiding
-      items:
-        - name: Overzicht
-          href: hr-admin-overview.md
-        - name: Systeemvereisten
-          href: hr-admin-system-requirements.md
-        - name: Exemplaren instellen en producten beheren
-          items:
-            - name: Human Resources inrichten
-              href: hr-admin-setup-provision.md
-            - name: Een exemplaar kopiëren
-              href: hr-admin-setup-copy-instance.md
-            - name: Een exemplaar verwijderen
-              href: hr-admin-setup-remove-instance.md
-            - name: Het updateproces
-              href: hr-admin-setup-update-process.md
-        - name: Gegevensintegratie instellen
-          items:
-            - name: Een technologie voor gegevensintegratie kiezen
-              href: hr-admin-integration-choose-technology.md
-            - name: Common Data Service-integratie configureren
-              href: hr-admin-integration-common-data-service.md
-            - name: Common Data Service-entiteiten
-              href: hr-developer-entities.md
-            - name: Virtuele Common Data Service-entiteiten configureren
-              href: hr-admin-integration-common-data-service-virtual-entities.md
-            - name: Integratie met Finance configureren
-              href: hr-admin-integration-finance.md
-            - name: Integratie met Dayforce configureren
-              href: hr-admin-integration-dayforce.md
-            - name: Een app voor het exporteren van terugkerende gegevens maken
-              href: hr-admin-integration-recurring-data-export.md
-            - name: Integreren met LinkedIn Talent Hub
-              href: hr-admin-integration-linkedin.md
-            - name: Integreren met Office
+            - name: Nieuwe functies
+              href: hr-admin-whats-new.md
+            - name: Nieuwe of gewijzigde functies in 2021
               items:
-                - name: Zelfstudie voor Office-integratie
-                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/human-resources/toc.json
-                - name: Entiteitsgegevens bijwerken in Excel
-                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/human-resources/toc.json
-                - name: Ervaringen met Openen in Excel maken
-                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/human-resources/toc.json
-                - name: Problemen met Office-integratie oplossen
-                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/human-resources/toc.json
-        - name: Gegevensbeheer configureren
-          items:
-            - name: Overzicht van Data Management Framework
-              href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/human-resources/toc.json
-            - name: Gegevensentiteiten
+                - name: 29 november 2021
+                  href: hr-whats-new-2021-11-29.md
+                - name: 5 oktober 2021
+                  href: hr-whats-new-2021-10-04.md
+                - name: 20 september 2021
+                  href: hr-whats-new-2021-09-20.md
+                - name: 6 september 2021
+                  href: hr-whats-new-2021-09-06.md
+                - name: 23 augustus 2021
+                  href: hr-whats-new-2021-08-23.md
+                - name: 9 augustus 2021
+                  href: hr-whats-new-2021-08-09.md
+                - name: 26 juli 2021
+                  href: hr-whats-new-2021-07-26.md
+                - name: 12 juli 2021
+                  href: hr-whats-new-2021-07-12.md
+                - name: 22 juni 2021
+                  href: hr-whats-new-2021-06-22.md
+                - name: 20 mei 2021
+                  href: hr-whats-new-2021-05-20.md
+                - name: 3 mei 2021
+                  href: hr-whats-new-2021-05-03.md
+                - name: 19 april 2021
+                  href: hr-whats-new-2021-04-19.md
+                - name: 5 april 2021
+                  href: hr-whats-new-2021-04-05.md
+                - name: 22 maart 2021
+                  href: hr-whats-new-2021-03-22.md
+                - name: 8 maart 2021
+                  href: hr-whats-new-2021-03-08.md
+                - name: 22 februari 2021
+                  href: hr-whats-new-2021-02-22.md
+                - name: 28 januari 2021
+                  href: hr-whats-new-2021-01-28.md
+                - name: 21 januari 2021
+                  href: hr-whats-new-2021-01-21.md
+            - name: Nieuwe functies in archieven 2020
               items:
-                - name: Overzicht van gegevensentiteiten
-                  href: ../dev-itpro/data-entities/data-entities.md?toc=/dynamics365/human-resources/toc.json
-                - name: Configuratiegegevensprojecten
-                  href: ../dev-itpro/data-entities/configuration-data-projects.md?toc=/dynamics365/human-resources/toc.json
-                - name: Configuratiegegevens kopiëren tussen bedrijven of rechtspersonen
+                - name: 2 december 2020
+                  href: hr-whats-new-2020-12-02.md
+                - name: 22 oktober 2020
+                  href: hr-whats-new-2020-10-22.md
+                - name: 6 oktober 2020
+                  href: hr-whats-new-2020-10-06.md
+                - name: 26 september 2020
+                  href: hr-whats-new-2020-09-26.md
+                - name: 16 september 2020
+                  href: hr-whats-new-2020-09-16.md
+                - name: 3 september 2020
+                  href: hr-whats-new-2020-09-03.md
+                - name: 20 augustus 2020
+                  href: hr-whats-new-2020-08-20.md
+                - name: 6 augustus 2020
+                  href: hr-whats-new-2020-08-06.md
+                - name: 23 juli 2020
+                  href: hr-whats-new-2020-07-23.md
+                - name: 8 juli 2020
+                  href: hr-whats-new-2020-07-08.md
+                - name: 25 juni 2020
+                  href: hr-whats-new-2020-06-23.md
+                - name: 11 juni 2020
+                  href: hr-whats-new-2020-06-11.md
+                - name: 28 mei 2020
+                  href: hr-whats-new-2020-05-28.md
+                - name: 14 mei 2020
+                  href: hr-whats-new-2020-05-14.md
+                - name: 1 mei 2020
+                  href: hr-whats-new-2020-05-01.md
+                - name: 13 april 2020
+                  href: hr-whats-new-2020-04-13.md
+                - name: 3 april 2020
+                  href: hr-whats-new-2020-04-03.md
+                - name: 24 maart 2020
+                  href: hr-whats-new-2020-03-24.md
+                - name: 19 maart 2020
+                  href: hr-whats-new-2020-03-19.md
+                - name: 10 maart 2020
+                  href: hr-whats-new-2020-03-10.md
+                - name: 3 maart 2020
+                  href: hr-whats-new-2020-03-03.md
+                - name: 25 februari 2020
+                  href: hr-whats-new-2020-02-25.md
+                - name: 18 februari 2020
+                  href: hr-whats-new-2020-02-18.md
+                - name: 12 februari 2020
+                  href: hr-whats-new-2020-02-12.md
+                - name: 7 februari 2020
+                  href: hr-whats-new-2020-02-07.md
+                - name: 3 februari 2020
+                  href: hr-whats-new-2020-02-03.md
+            - name: Overzicht
+              href: hr-admin-overview.md
+            - name: Systeemvereisten
+              href: hr-admin-system-requirements.md
+            - name: Exemplaren instellen en producten beheren
+              items:
+                - name: Human Resources inrichten
+                  href: hr-admin-setup-provision.md
+                - name: Een exemplaar kopiëren
+                  href: hr-admin-setup-copy-instance.md
+                - name: Een exemplaar verwijderen
+                  href: hr-admin-setup-remove-instance.md
+                - name: Het updateproces
+                  href: hr-admin-setup-update-process.md
+            - name: Gegevensintegratie instellen
+              items:
+                - name: Een technologie voor gegevensintegratie kiezen
+                  href: hr-admin-integration-choose-technology.md
+                - name: Veelgestelde vragen over aanvraagbeperking
+                  href: hr-admin-integration-throttling-faq.md
+                - name: Dataverse-integratie configureren
+                  href: hr-admin-integration-common-data-service.md
+                - name: Dataverse-tabellen
+                  href: hr-developer-entities.md
+                - name: Virtuele Dataverse-tabellen configureren
+                  href: hr-admin-integration-common-data-service-virtual-entities.md
+                - name: Veelgestelde vragen over virtuele tabellen in Human Resources
+                  href: hr-admin-virtual-entity-faq.md
+                - name: Integratie met Finance configureren
+                  href: hr-admin-integration-finance.md
+                - name: Integratie met Dayforce configureren
+                  href: hr-admin-integration-dayforce.md
+                - name: Een app voor het exporteren van terugkerende gegevens maken
+                  href: hr-admin-integration-recurring-data-export.md
+                - name: Integreren met LinkedIn Talent Hub
+                  href: hr-admin-integration-linkedin.md
+                - name: Integreren met Office
                   items:
-                    - name: Overzicht van Configuratiegegevens kopiëren
-                      href: ../dev-itpro/data-entities/copy-configuration.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Pakketten met configuratiegegevens
-                      href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Pakketten met configuratiegegevens (alleen voor de release van juli 2017)
-                      href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
-                - name: Sjablonen voor configuratiegegevens
-                  href: ../dev-itpro/data-entities/configuration-data-templates.md?toc=/dynamics365/human-resources/toc.json
-                - name: Wijzigingen in een entiteit bijhouden
-                  href: ../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/human-resources/toc.json
-                - name: Informatie zoeken over standaardgegevensentiteiten
-                  href: ../dev-itpro/data-entities/data-entities-report.md?toc=/dynamics365/human-resources/toc.json
-                - name: Sjablonen met meerdere werkbladen
-                  href: ../dev-itpro/data-entities/excel-template-multiple.md?toc=/dynamics365/human-resources/toc.json
-                - name: Wijzigingen bijhouden voor entiteiten inschakelen
-                  href: ../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/human-resources/toc.json
-                - name: Configuratiesleutels en gegevensentiteiten
-                  href: ../dev-itpro/data-entities/config-key-entities.md?toc=/dynamics365/human-resources/toc.json
-                - name: Pakketten met configuratiegegevens
-                  href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
-            - name: Gegevensimport- en exporttaken
-              items:
-                - name: Overzicht van Gegevensimport- en exporttaken
-                  href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/dynamics365/human-resources/toc.json
-                - name: Best practices voor het importeren van boekstukken met behulp van de entiteit Algemeen journaal
-                  href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/dynamics365/human-resources/toc.json
-            - name: Ontwikkeling van gegevensentiteiten
-              items:
-                - name: Richtlijnen en aanbevolen procedures voor gegevensentiteiten
-                  href: ../dev-itpro/dev-tools/design-best-practices.md?toc=/dynamics365/human-resources/toc.json
-                - name: Nieuwe gegevensentiteiten maken
-                  href: ../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/dynamics365/human-resources/toc.json
-                - name: Eigenschappen van gegevensentiteit
-                  href: ../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/human-resources/toc.json
-                - name: Berekende kolommen en virtuele velden maken
-                  href: ../dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=/dynamics365/human-resources/toc.json
-                - name: Gedrag voor meerdere bedrijven
-                  href: ../dev-itpro/data-entities/cross-company-behavior.md?toc=/dynamics365/human-resources/toc.json
-                - name: Land-/regiocodes verwerken
-                  href: ../dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=/dynamics365/human-resources/toc.json
-                - name: Overnamepatronen
-                  href: ../dev-itpro/data-entities/support-super-type-sub-type.md?toc=/dynamics365/human-resources/toc.json
-                - name: Regels voor wizard voor gegevensentiteiten
-                  href: ../dev-itpro/data-entities/data-entity-wizard-rules.md?toc=/dynamics365/human-resources/toc.json
-                - name: Eigenschappen van metagegevens
-                  href: ../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/human-resources/toc.json
-                - name: 'Validaties, standaardwaarden en niet-toegewezen velden'
-                  href: ../dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=/dynamics365/human-resources/toc.json
-                - name: Beveiliging en gegevensentiteiten
-                  href: ../dev-itpro/data-entities/security-data-entities.md?toc=/dynamics365/human-resources/toc.json
-                - name: Hulpprogramma's voor servicetests van derden gebruiken
-                  href: ../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/human-resources/toc.json
-                - name: Alleen-lezenentiteiten maken die toegang bieden tot financiële dimensies
-                  href: ../dev-itpro/financial/read-only-entity-financial.md?toc=/dynamics365/human-resources/toc.json
-            - name: Uw eigen database gebruiken
-              href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/human-resources/toc.json
-            - name: BYOD-batchtaken optimaliseren
-              href: hr-admin-integration-byod-batch-jobs.md
-            - name: Geautomatiseerd vernieuwen van entiteitopslag
-              href: ../dev-itpro/analytics/automated-entity-store-refresh.md?toc=/dynamics365/human-resources/toc.json
-            - name: Automatisering van gegevenstaak
-              href: ../dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/human-resources/toc.json
-            - name: Werkgebied Controlelijst voor gegevensvalidatie
-              href: ../dev-itpro/user-interface/data-validation-workspace.md?toc=/dynamics365/human-resources/toc.json
-            - name: Foutbeschrijvingen voor gegevensbeheer
-              href: ../dev-itpro/data-entities/dm-error-descriptions.md?toc=/dynamics365/human-resources/toc.json
-        - name: Functies beheren
-          href: hr-admin-manage-features.md
-        - name: Databaselogboeken configureren en beheren
-          href: hr-admin-database-logging.md
-        - name: De gebruikersinterface verkennen
-          items:
-            - name: Gebruikersinterface-elementen
-              href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json
-            - name: Toegankelijkheidsopties
-              href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json
-            - name: Overzicht van Functiebeheer
-              href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json
-            - name: FAQ client
-              href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json
-            - name: Actiezoekopdracht
-              href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json
-            - name: Geavanceerde filter- en querysyntaxis
-              href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/human-resources/toc.json
-            - name: Werkgebieden configureren en filteren
-              href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/financehuman-resources/toc.json
-            - name: Pagina's naast elkaar weergeven met de functie Openen in nieuw venster
-              href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/human-resources/toc.json
-            - name: Sneltoetsen
-              href: ../fin-ops-core/fin-ops/get-started/shortcut-keys.md?toc=/dynamics365/human-resources/toc.json
-            - name: De banners of logo's voor rechtspersonen wijzigen
-              href: ../fin-ops-core/fin-ops/get-started/tasks/change-banner-or-logo.md?toc=/dynamics365/human-resources/toc.json
-            - name: Navigatiezoekfunctie
-              href: ../fin-ops-core/fin-ops/get-started/navigation-search.md?toc=/dynamics365/human-resources/toc.json
-            - name: De gebruikerservaring aanpassen
-              href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/human-resources/toc.json
-            - name: Opgeslagen weergaven
-              href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
-            - name: Maken en werken met aangepaste velden
-              href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
-            - name: Canvas-apps uit Power Apps insluiten
-              href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
-            - name: Informatie vinden met zoekopdrachten
-              href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json
-            - name: De datum van een sessie wijzigen
-              href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json
-            - name: De voorkeurstijdzone van een gebruiker instellen
-              href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
-            - name: Lifecycle Services begrijpen
-              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
-        - name: Human Resources-app in Teams
-          href: hr-admin-teams-leave-app.md
-        - name: Voorbereiden voor go-live
-          href: hr-admin-go-live-prepare.md
-        - name: Veelgestelde vragen over go-live
-          href: hr-admin-go-live-faq.md
-        - name: Documentatiebronnen
-          items:
-            - name: Help-systeem
-              href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json
-            - name: Verbinding maken met het Help-systeem
-              href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json
-            - name: Overzicht van aangepaste Help
-              href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/human-resources/toc.json
-            - name: Veldomschrijvingen weergeven en exporteren
-              href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json
-            - name: Taakrecorder
-              href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json
-            - name: Documentatie of training maken met Taakrecorder
-              href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json
-        - name: Problemen met Human Resources oplossen
-          items:
-            - name: Ondersteuning
-              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/human-resources/toc.json
-            - name: Prestaties optimaliseren door batchtaken buiten werktijd te plannen
-              href: hr-admin-troubleshooting-batch-jobs.md
-            - name: Prestaties optimaliseren met automatische opschoningstaken
-              href: hr-admin-troubleshooting-batch-history.md
-            - name: Analytische rapporten worden niet bijgewerkt
-              href: hr-admin-troubleshooting-analytic-reports.md
-            - name: Kan geen omgeving maken in het Power Apps-beheercentrum
-              href: hr-admin-troubleshooting-power-apps.md
-            - name: De verbinding met de client wordt verbroken
-              href: hr-admin-troubleshooting-disconnect.md
-            - name: Tekstafbreking in de positiehiërarchie vermijden
-              href: hr-admin-troubleshooting-truncate.md
-            - name: Het compensatieproces uitvoeren
-              href: hr-admin-troubleshooting-compensation.md
-            - name: Taakbegeleiders opslaan in LCS
-              href: hr-admin-troubleshooting-task-guide.md
-            - name: Toegang tot privéadressen per beveiligingsrol
-              href: hr-admin-troubleshooting-private-addresses.md
-            - name: Human Resources wordt niet weergegeven bij de Dynamics 365-apps
-              href: hr-admin-troubleshooting-not-in-apps.md
-            - name: Rapportageopties
-              href: hr-admin-troubleshooting-reporting.md
-            - name: Veelgestelde vragen over integratie
-              href: hr-admin-troubleshooting-integration.md
-    - name: Ontwikkelaarshandleiding
-      items:
-        - name: Overzicht
-          href: hr-developer-overview.md
-        - name: Uitbreiden met Power Apps en Power Automate
-          href: hr-developer-power-apps.md
-        - name: Common Data Service-entiteiten
-          href: hr-developer-entities.md
-        - name: Aangepaste velden
-          href: hr-developer-custom-fields.md
-        - name: Gegevensintegratie instellen
-          items:
-            - name: Een technologie voor gegevensintegratie kiezen
-              href: hr-admin-integration-choose-technology.md
-            - name: Common Data Service-integratie configureren
-              href: hr-admin-integration-common-data-service.md
-            - name: Integratie met Finance configureren
-              href: hr-admin-integration-finance.md
-            - name: Integratie met Dayforce configureren
-              href: hr-admin-integration-dayforce.md
-            - name: Een app voor het exporteren van terugkerende gegevens maken
-              href: hr-admin-integration-recurring-data-export.md
-            - name: Integreren met Office
-              items:
-                - name: Zelfstudie voor Office-integratie
-                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Entiteitsgegevens bijwerken in Excel
-                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Ervaringen met Openen in Excel maken
-                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Problemen met Office-integratie oplossen
-                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Entiteit API-verwijzing
-          items:
-            - name: Verificatie
-              href: hr-developer-api-authentication.md
-            - name: Entiteiten
-              items:
-                - name: MyLeaveRequests
+                    - name: Zelfstudie voor Office-integratie
+                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: Entiteitsgegevens bijwerken in Excel
+                      href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: Veelgestelde vragen over ervaringen met Openen in Excel
+                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: Problemen met Office-integratie oplossen
+                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                - name: Gegevensbeheer configureren
                   items:
-                    - name: MyLeaveRequests-overzicht
-                      href: hr-developer-api-myleaverequests-overview.md
-                    - name: Een verlofverzoek indienen bij een werkstroom
-                      href: hr-developer-api-myleaverequests-submit.md
-    - name: Gebruikershandleiding
-      items:
-        - name: Overzicht
-          href: hr-hrpro-overview.md
-        - name: Human Resources instellen
-          items:
-            - name: Human Resources-parameters configureren
-              href: hr-setup-parameters.md
-            - name: Gedeelde Human Resources-parameters configureren
-              href: hr-setup-shared-parameters.md
-            - name: Datum- en tijdvelden begrijpen
-              href: hr-setup-date-time-fields.md
-        - name: Organisatie-instellingen configureren
-          items:
-            - name: Startpagina van Organisatiebeheer
-              href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json
-            - name: Nummerreeksen
+                    - name: Overzicht van Data Management Framework
+                      href: ../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: Gegevensentiteiten
+                      items:
+                        - name: Overzicht van gegevensentiteiten
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Configuratiegegevensprojecten
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-projects.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: Configuratiegegevens kopiëren tussen bedrijven of rechtspersonen
+                      items:
+                        - name: Overzicht van Configuratiegegevens kopiëren
+                          href: ../fin-ops-core/dev-itpro/data-entities/copy-configuration.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Pakketten met configuratiegegevens
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Pakketten met configuratiegegevens (alleen voor de release van juli 2017)
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Sjablonen voor configuratiegegevens
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Wijzigingen in een entiteit bijhouden
+                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Informatie zoeken over standaardgegevensentiteiten
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities-report.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Sjablonen met meerdere werkbladen
+                          href: ../fin-ops-core/dev-itpro/data-entities/excel-template-multiple.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Wijzigingen bijhouden voor entiteiten inschakelen
+                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Configuratiesleutels en gegevensentiteiten
+                          href: ../fin-ops-core/dev-itpro/data-entities/config-key-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Pakketten met configuratiegegevens
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: Gegevensimport- en exporttaken
+                      items:
+                        - name: Overzicht van Gegevensimport- en exporttaken
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Best practices voor het importeren van boekstukken met behulp van de entiteit Algemeen journaal
+                          href: ../fin-ops-core/dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: Ontwikkeling van gegevensentiteiten
+                      items:
+                        - name: Ontwerpprincipes en aanbevolen procedures voor gegevensentiteiten
+                          href: ../fin-ops-core/dev-itpro/dev-tools/design-best-practices.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Nieuwe gegevensentiteiten maken
+                          href: ../fin-ops-core/dev-itpro/data-entities/build-consuming-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Eigenschappen van gegevensentiteit
+                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Berekende kolommen en virtuele velden maken
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Gedrag voor meerdere bedrijven
+                          href: ../fin-ops-core/dev-itpro/data-entities/cross-company-behavior.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Land-/regiocodes verwerken
+                          href: ../fin-ops-core/dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Overnamepatronen
+                          href: ../fin-ops-core/dev-itpro/data-entities/support-super-type-sub-type.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Regels voor wizard voor gegevensentiteiten
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-wizard-rules.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Eigenschappen van metagegevens
+                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: 'Validaties, standaardwaarden en niet-toegewezen velden'
+                          href: ../fin-ops-core/dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Beveiliging en gegevensentiteiten
+                          href: ../fin-ops-core/dev-itpro/data-entities/security-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Hulpprogramma's voor servicetests van derden gebruiken
+                          href: ../fin-ops-core/dev-itpro/data-entities/third-party-service-test.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                        - name: Alleen-lezenentiteiten maken die toegang bieden tot financiële dimensies
+                          href: ../fin-ops-core/dev-itpro/financial/read-only-entity-financial.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: Uw eigen database gebruiken
+                      href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: BYOD-batchtaken optimaliseren
+                      href: hr-admin-integration-byod-batch-jobs.md
+                    - name: Geautomatiseerd vernieuwen van entiteitopslag
+                      href: ../fin-ops-core/dev-itpro/analytics/automated-entity-store-refresh.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: Automatisering van gegevenstaak
+                      href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: Werkgebied Controlelijst voor gegevensvalidatie
+                      href: ../fin-ops-core/dev-itpro/user-interface/data-validation-workspace.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: Foutbeschrijvingen voor gegevensbeheer
+                      href: ../fin-ops-core/dev-itpro/data-entities/dm-error-descriptions.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                    - name: Functies beheren
+                      href: hr-admin-manage-features.md
+                    - name: Databaselogboeken configureren en beheren
+                      href: hr-admin-database-logging.md
+            - name: De gebruikersinterface verkennen
               items:
-                - name: Overzicht van Nummerreeksen
-                  href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/human-resources/toc.json
-                - name: Nummerreeksen instellen op een individuele basis
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/human-resources/toc.json
-                - name: Nummerreeksen instellen met een wizard
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/human-resources/toc.json
-            - name: Organisaties en organisatiehiërarchieën
-              items:
-                - name: Overzicht van Organisaties en organisatiehiërarchieën
-                  href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/human-resources/toc.json
-                - name: Uw organisatiehiërarchie plannen
-                  href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/human-resources/toc.json
-                - name: Een organisatiehiërarchie maken
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/human-resources/toc.json
-                - name: Rechtspersonen maken
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/human-resources/toc.json
-                - name: Operationele eenheden maken
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/human-resources/toc.json
-            - name: Globaal adresboek
-              items:
-                - name: Overzicht van Globaal adresboek
-                  href: ../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/human-resources/toc.json
-                - name: Het globale adresboek en andere adresboeken plannen
-                  href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
-                - name: Het globale adresboek configureren
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
-                - name: Veelgestelde vragen over adresboeken
-                  href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
-                - name: Adresboeken configureren
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
-            - name: Werkstroomsysteem
-              items:
-                - name: Overzicht van Werkstroomsysteem
-                  href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
-                - name: Werkstroomsysteemarchitectuur
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
-                - name: Werkstroomelementen
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
-                - name: Werkstroomacties
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
-                - name: Werkstromen maken
+                - name: Gebruikersinterface-elementen
+                  href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json
+                - name: Toegankelijkheidsopties
+                  href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json
+                - name: Overzicht van Functiebeheer
+                  href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json
+                - name: FAQ client
+                  href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json
+                - name: Actiezoekopdracht
+                  href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json
+                - name: Geavanceerde filter- en querysyntaxis
+                  href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/human-resources/toc.json
+                - name: Werkgebieden configureren en filteren
+                  href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/financehuman-resources/toc.json
+                - name: Pagina's naast elkaar weergeven met de functie Openen in nieuw venster
+                  href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/human-resources/toc.json
+                - name: Sneltoetsen
+                  href: ../fin-ops-core/fin-ops/get-started/shortcut-keys.md?toc=/dynamics365/human-resources/toc.json
+                - name: De banners of logo's voor rechtspersonen wijzigen
+                  href: ../fin-ops-core/fin-ops/get-started/tasks/change-banner-or-logo.md?toc=/dynamics365/human-resources/toc.json
+                - name: Navigatiezoekfunctie
+                  href: ../fin-ops-core/fin-ops/get-started/navigation-search.md?toc=/dynamics365/human-resources/toc.json
+                - name: De gebruikerservaring aanpassen
+                  href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/human-resources/toc.json
+                - name: Opgeslagen weergaven
+                  href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
+                - name: Aangepaste velden maken en gebruiken
+                  href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
+                - name: Canvas-apps uit Power Apps insluiten
+                  href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
+                - name: Informatie vinden met zoekopdrachten
+                  href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json
+                - name: De datum van een sessie wijzigen
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json
+                - name: De voorkeurstijdzone van een gebruiker instellen
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
+                - name: Lifecycle Services begrijpen
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
+                - name: Voorbereiden voor go-live
+                  href: hr-admin-go-live-prepare.md
+                - name: Veelgestelde vragen over go-live
+                  href: hr-admin-go-live-faq.md
+                - name: Veelgestelde vragen over samenvoegen van Human Resources-infrastructuur
+                  href: hr-infrastructure-merge-faq.md
+                - name: Documentatiebronnen
                   items:
-                    - name: Overzicht van Werkstromen maken
-                      href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Werkstroomeigenschappen configureren
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Handmatige taken configureren
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Geautomatiseerde taken configureren
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Goedkeuringsprocessen configureren
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Goedkeuringsstappen configureren
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Handmatige beslissingen configureren
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Voorwaardelijke beslissingen configureren
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Parallelle activiteiten configureren
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Parallelle vertakkingen configureren
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Werkstromen voor regelitems configureren
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
-                - name: De batchtaak voor Werkstroomberichtverwerking configureren als kritiek
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
-                - name: Werkitems in een werkstroom delegeren
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
-                - name: Werkstroomhistorie bekijken
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
-                - name: Het systeem configureren om werkstroomberichten te verzenden naar gebruikers
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
-                - name: Werkstroomtypen
+                    - name: Help-systeem
+                      href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Verbinding maken met het Help-systeem
+                      href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Overzicht van aangepaste Help
+                      href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Veldomschrijvingen weergeven en exporteren
+                      href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Taakrecorder
+                      href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Documentatie of training maken met Taakrecorder
+                      href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json
+                - name: Problemen met Human Resources oplossen
                   items:
-                    - name: Een werkstroomtype maken
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Controlelijst voor werkstroomtype
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Een werkstroomcategorie maken
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Een query voor een werkstroomtype maken
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Een nieuw werkstroomtype maken
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Een werkstroomdocumentklasse maken
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Een SubmitToworkflow-klasse maken
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
-                    - name: Een werkstroomdocumentklasse koppelen aan een werkstroomtype
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
-                - name: Rapport over werkstroomtypen
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
-                - name: Veelgestelde vragen over werkstromen
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json
-            - name: Waarschuwingen
+                    - name: Ondersteuning
+                      href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Prestaties optimaliseren door batchtaken buiten werktijd te plannen
+                      href: hr-admin-troubleshooting-batch-jobs.md
+                    - name: Prestaties optimaliseren met automatische opschoningstaken
+                      href: hr-admin-troubleshooting-batch-history.md
+                    - name: Vastgelopen batchtaken opnieuw instellen
+                      href: hr-admin-troubleshooting-batch-execution.md
+                    - name: Dataverse-synchronisatie opnieuw instellen
+                      href: hr-admin-troubleshooting-dataverse-sync.md
+                    - name: Analytische rapporten worden niet bijgewerkt
+                      href: hr-admin-troubleshooting-analytic-reports.md
+                    - name: Kan geen omgeving maken in het Power Apps-beheercentrum
+                      href: hr-admin-troubleshooting-power-apps.md
+                    - name: De verbinding met de client wordt verbroken
+                      href: hr-admin-troubleshooting-disconnect.md
+                    - name: Tekstafbreking in de positiehiërarchie vermijden
+                      href: hr-admin-troubleshooting-truncate.md
+                    - name: Het compensatieproces uitvoeren
+                      href: hr-admin-troubleshooting-compensation.md
+                    - name: Taakbegeleiders opslaan in LCS
+                      href: hr-admin-troubleshooting-task-guide.md
+                    - name: Toegang tot privéadressen per beveiligingsrol
+                      href: hr-admin-troubleshooting-private-addresses.md
+                    - name: Human Resources wordt niet weergegeven bij de Dynamics 365-apps
+                      href: hr-admin-troubleshooting-not-in-apps.md
+                    - name: Rapportageopties
+                      href: hr-admin-troubleshooting-reporting.md
+                    - name: Veelgestelde vragen over integratie
+                      href: hr-admin-troubleshooting-integration.md
+            - name: Human Resources instellen
               items:
-                - name: Overzicht van Waarschuwingen
-                  href: ../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/human-resources/toc.json
-                - name: Waarschuwingsregels maken
-                  href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/human-resources/toc.json
-                - name: Batchverwerking van waarschuwingen
-                  href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
-                - name: Clientwaarschuwingen per e-mail
-                  href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
-            - name: Elektronische handtekeningen
+                - name: Human Resources-parameters configureren
+                  href: hr-setup-parameters.md
+                - name: Gedeelde Human Resources-parameters onderhouden
+                  href: hr-setup-shared-parameters.md
+                - name: Werkstromen voor Human Resources instellen
+                  href: hr-workflow-manage-employee-information.md
+                - name: Datum- en tijdvelden begrijpen
+                  href: hr-setup-date-time-fields.md
+            - name: Organisatie-instellingen configureren
               items:
-                - name: Overzicht van Elektronische handtekeningen
-                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/human-resources/toc.json
-                - name: Elektronische handtekeningen instellen
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/human-resources/toc.json
-            - name: Casebeheer
-              items:
-                - name: Overzicht van Casebeheer
-                  href: ../fin-ops-core/fin-ops/organization-administration/cases.md?toc=/dynamics365/human-resources/toc.json
-                - name: 'Casebeveiliging, -processen en -categorieën plannen'
-                  href: ../fin-ops-core/fin-ops/organization-administration/plan-case-management.md?toc=/dynamics365/human-resources/toc.json
-            - name: Recordsjablonen
-              items:
-                - name: Overzicht van Recordsjablonen
-                  href: ../fin-ops-core/fin-ops/organization-administration/record-templates.md?toc=/dynamics365/human-resources/toc.json
-                - name: Een recordsjabloon maken
-                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/human-resources/toc.json
-                - name: Een nieuwe record maken met een recordsjabloon
-                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/human-resources/toc.json
-            - name: Documentbeheer configureren
-              href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/human-resources/toc.json
-            - name: E-mail configureren en verzenden
-              href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/human-resources/toc.json
-            - name: Datum-/tijdgegevens en tijdzones
-              href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/human-resources/toc.json
+                - name: Startpagina van Organisatiebeheer
+                  href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json
+                - name: Nummerreeksen
+                  items:
+                    - name: Overzicht van Nummerreeksen
+                      href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Nummerreeksen instellen op een individuele basis
+                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Nummerreeksen instellen met een wizard
+                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/human-resources/toc.json
+                - name: Organisaties en organisatiehiërarchieën
+                  items:
+                    - name: Overzicht van Organisaties en organisatiehiërarchieën
+                      href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Uw organisatiehiërarchie plannen
+                      href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Een organisatiehiërarchie maken
+                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Rechtspersonen maken
+                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Operationele eenheden maken
+                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/human-resources/toc.json
+                - name: Globaal adresboek
+                  items:
+                    - name: Overzicht van Globaal adresboek
+                      href: ../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Het globale adresboek en andere adresboeken plannen
+                      href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Het globale adresboek configureren
+                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Adresinstelling
+                      href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Veelgestelde vragen over adresboeken
+                      href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Adresboeken configureren
+                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Locatie-eigenaars beheren
+                      href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-location-owner.md?toc=/dynamics365/human-resources/toc.json
+                - name: Werkstroomsysteem
+                  items:
+                    - name: Overzicht van het werkstroomsysteem
+                      href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Werkstroomsysteemarchitectuur
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Werkstroomelementen
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Werkstroomacties
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Werkstromen maken
+                      items:
+                        - name: Overzicht van Werkstromen maken
+                          href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Werkstroomeigenschappen configureren
+                          href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Handmatige taken configureren
+                          href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Geautomatiseerde taken configureren
+                          href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Goedkeuringsprocessen configureren
+                          href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Goedkeuringsstappen configureren
+                          href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Handmatige beslissingen configureren
+                          href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Voorwaardelijke beslissingen configureren
+                          href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Parallelle activiteiten configureren
+                          href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Parallelle vertakkingen configureren
+                          href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Werkstromen voor regelitems configureren
+                          href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: De batchtaak voor Werkstroomberichtverwerking configureren als kritiek
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Werkitems in een werkstroom delegeren
+                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Werkstroomhistorie bekijken
+                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Het systeem configureren om werkstroomberichten te verzenden naar gebruikers
+                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Werkstroomtypen
+                      items:
+                        - name: Een werkstroomtype maken
+                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Controlelijst voor werkstroomtype
+                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Een werkstroomcategorie maken
+                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Een query voor een werkstroomtype maken
+                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Een nieuw werkstroomtype maken
+                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Een werkstroomdocumentklasse maken
+                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Een SubmitToworkflow-klasse maken
+                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Een werkstroomdocumentklasse koppelen aan een werkstroomtype
+                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Rapport over werkstroomtypen
+                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
+                        - name: Veelgestelde vragen over werkstromen
+                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json
+                - name: Waarschuwingen
+                  items:
+                    - name: Overzicht van Waarschuwingen
+                      href: ../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Waarschuwingsregels maken
+                      href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Batchverwerking van waarschuwingen
+                      href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Clientwaarschuwingen per e-mail
+                      href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
+                - name: Casebeheer
+                  items:
+                    - name: Overzicht van casebeheer
+                      href: ../fin-ops-core/fin-ops/organization-administration/cases.md?toc=/dynamics365/human-resources/toc.json
+                    - name: 'Casebeveiliging, -processen en -categorieën plannen'
+                      href: ../fin-ops-core/fin-ops/organization-administration/plan-case-management.md?toc=/dynamics365/human-resources/toc.json
+                - name: Recordsjablonen
+                  items:
+                    - name: Overzicht van Recordsjablonen
+                      href: ../fin-ops-core/fin-ops/organization-administration/record-templates.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Een recordsjabloon maken
+                      href: ../fin-ops-core/dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Een nieuwe record maken met een recordsjabloon
+                      href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/human-resources/toc.json
+                - name: Documentbeheer configureren
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/human-resources/toc.json
+                - name: E-mail configureren en verzenden
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/human-resources/toc.json
+                - name: Datum-/tijdgegevens en tijdzones
+                  href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/human-resources/toc.json
+        - name: Selfservice werknemer
+          items:
+            - name: Overzicht van Selfservice werknemer en Selfservice manager
+              href: hr-employee-manager-self-service-overview.md
+            - name: Aangepaste koppelingen maken in Selfservice manager
+              href: hr-employee-manager-self-service-custom-links.md
+            - name: Naam van werkgebied Selfservice werknemer wijzigen
+              href: hr-employee-self-service-workspace-name.md
+            - name: Persoonlijke gegevens bewerken
+              href: hr-employee-manager-self-service-edit-personal-information.md
+            - name: Het bewerken van persoonlijke gegevens beperken
+              href: hr-employee-self-service-restrict-editing.md
         - name: Personeelsbeheer
           items:
             - name: Uw personeel organiseren
               href: hr-personnel-departments-jobs-positions.md
+            - name: Werkgebied voor personeelsbeheer
+              href: hr-personnel-personnel-management-workspace.md
             - name: De onderdelen van een taak instellen
               href: hr-personnel-jobs.md
             - name: Afdelingen definiëren
@@ -477,6 +494,8 @@
               href: hr-personnel-add-department-hierarchy.md
             - name: Taken definiëren
               href: hr-personnel-define-jobs.md
+            - name: Posities
+              href: hr-personnel-positions.md
             - name: Een werktijdenkalender maken
               href: hr-personnel-create-working-time-calendar.md
             - name: Kandidaten werven
@@ -489,8 +508,12 @@
               href: hr-personnel-view-address-changes.md
             - name: Rapporteringsrelaties voor een positie wijzigen
               href: hr-personnel-modify-reporting-relationships-position.md
+            - name: Gestroomlijnde werknemerinvoer
+              href: ../talent/streamlined-employee-entry.md?toc=/dynamics365/human-resources/toc.json
             - name: Gegevens medewerker invoeren
               href: hr-personnel-enter-worker-information.md
+            - name: Medewerkers zonder dienstverband
+              href: hr-personnel-workers-without-employment.md
             - name: Artikelen uitlenen aan medewerkers
               href: hr-personnel-loan-item-worker.md
             - name: Leenartikelen maken
@@ -499,6 +522,8 @@
               href: hr-personnel-loan-items.md
             - name: Een opvolgingsplan ontwikkelen
               href: hr-personnel-develop-succession-plan.md
+            - name: Project Timesheets invoeren
+              href: ../fin-ops-core/fin-ops/hr/tasks/hr-enter-project-timesheets.md?toc=/dynamics365/human-resources/toc.json
             - name: Projecten voor massaal aanstellen
               href: hr-personnel-mass-hire-projects.md
             - name: Een project voor massaal aanstellen maken
@@ -509,107 +534,29 @@
               href: hr-personnel-set-up-injury-illness-information.md
             - name: Informatie over letsel en ziekte bij werknemers bijhouden
               href: hr-personnel-maintain-employee-injury-illness-information.md
-        - name: Compensatieplannen instellen
-          items:
-            - name: Overzicht van compensatieplannen
-              href: hr-compensation-overview.md
-            - name: Compensatierasters instellen
-              href: hr-compensation-grids.md
-            - name: Een structuur en plan voor compensatie ontwikkelen
-              href: hr-compensation-structure.md
-            - name: Plannen voor vaste compensatie maken
-              href: hr-compensation-fixed-plans.md
-            - name: Plannen voor variabele compensatie maken
-              href: hr-compensation-variable-plans.md
-            - name: Werknemers inschrijven voor een vaste compensatieregeling
-              href: hr-compensation-enroll-employees-fixed.md
-            - name: Werknemers inschrijven voor een variabele compensatieregeling
-              href: hr-compensation-enroll-employees-variable.md
-            - name: Compensatieproces definiëren en resultaten berekenen
-              href: hr-compensation-define-process.md
-            - name: Compensatieplannen verwerken
-              href: hr-compensation-process.md
-        - name: Vergoedingen beheren
-          items:
-            - name: Vergoedingenbeheer
+            - name: Kandidaten werven
               items:
-                - name: Overzicht van Vergoedingenbeheer
-                  href: hr-benefits-management-overview.md
-                - name: Vergoedingenbeheer configureren
-                  items:
-                    - name: Parameters voor Vergoedingenbeheer per bedrijf configureren
-                      href: hr-benefits-setup-parameters-per-company.md
-                    - name: Vergoedingenbeheer en selfserviceparameters voor werknemers instellen voor alle bedrijven
-                      href: hr-benefits-setup-parameters.md
-                    - name: Regels en opties voor geschiktheid configureren
-                      href: hr-benefits-setup-eligibility-rules.md
-                    - name: Opties voor geschiktheid van persoonlijke contactpersonen configureren
-                      href: hr-benefits-setup-contact-eligibility-options.md
-                    - name: Opties voor dekking maken
-                      href: hr-benefits-setup-coverage-options.md
-                    - name: Betalingsfrequenties instellen
-                      href: hr-benefits-setup-payment-frequencies.md
-                    - name: Typen levensgebeurtenissen configureren
-                      href: hr-benefits-setup-life-event-types.md
-                    - name: Plantypen maken
-                      href: hr-benefits-setup-plan-types.md
-                    - name: Redencodes instellen
-                      href: hr-benefits-setup-reason-codes.md
-                    - name: Niveaucodes instellen
-                      href: hr-benefits-setup-tier-codes.md
-                    - name: Tarieven configureren
-                      href: hr-benefits-setup-rates.md
-                    - name: Inhoudingen configureren
-                      href: hr-benefits-setup-deductions.md
-                    - name: Wachtdagen configureren
-                      href: hr-benefits-setup-waiting-days.md
-                    - name: Wachtperioden configureren
-                      href: hr-benefits-setup-waiting-periods.md
-                    - name: Afrondingsregels instellen
-                      href: hr-benefits-setup-rounding-rules.md
-                    - name: Dienstverbandcategorieën maken
-                      href: hr-benefits-setup-employment-categories.md
-                    - name: Dienstverbandtypen instellen
-                      href: hr-benefits-setup-employment-types.md
-                    - name: Werknemerselfservice configureren
-                      href: hr-benefits-setup-employee-self-service.md
-                - name: Vergoedingsplannen maken
-                  items:
-                    - name: Vergoedingsplannen instellen
-                      href: hr-benefits-plans-setup.md
-                    - name: Programma's voor flexibel krediet instellen
-                      href: hr-benefits-plans-flex-credit-programs.md
-                - name: Vergoedingsplannen verwerken
-                  items:
-                    - name: Geschiktheid voor inschrijving verwerken
-                      href: hr-benefits-process-enrollment-eligibility.md
-                    - name: Levensgebeurtenissen verwerken
-                      href: hr-benefits-process-life-events.md
-                    - name: Wijzigingen in levensgebeurtenissen verwerken
-                      href: hr-benefits-process-life-event-changes.md
-                    - name: Geschiktheid voor levensgebeurtenissen verwerken
-                      href: hr-benefits-process-life-event-eligibility.md
-                    - name: Wijzigingen in tarieven verwerken
-                      href: hr-benefits-process-rate-changes.md
-            - name: Een vergoedingenprogramma definiëren en beheren
-              href: hr-benefits-manage-program.md
-            - name: Beleid betreffende geschiktheid voor vergoedingen
-              href: hr-benefits-eligibility-policies.md
-            - name: Proces voor geschiktheid voor vergoeding
-              href: hr-benefits-eligibility-process.md
-            - name: Regels en beleid van de vergoedingsgeschiktheid definiëren
-              href: hr-benefits-define-eligibility-rules.md
-            - name: Een vergoedingenprogramma voor werknemers maken
-              href: hr-benefits-deliver-employee-benefits-program.md
-            - name: Nieuwe vergoedingen maken
-              href: hr-benefits-create.md
-            - name: Medewerkers inschrijven voor vergoedingen
-              href: hr-benefits-enroll-workers.md
-            - name: Vervaldatums voor vergoeding beheren
-              href: hr-benefits-expiration-dates.md
-            - name: ACA-rapporten genereren
-              href: hr-benefits-aca-reports.md
-        - name: Verlof en verzuim beheren
+                - name: Wervingsprocessen beheren
+                  href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
+                - name: Projecten voor massaal aanstellen
+                  href: ../human-resources/hr-personnel-mass-hire-projects.md
+                - name: Projecten voor massaal aanstellen maken
+                  href: ../human-resources/hr-personnel-create-mass-hire-project.md
+                - name: Sollicitant- en sollicitatiegegevens handmatig invoeren
+                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
+                - name: Vacatures ontwikkelen en openen
+                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
+                - name: Posities instellen
+                  href: ../human-resources/hr-personnel-set-up-positions.md
+                - name: Kandidaten aannemen via werving
+                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
+                - name: Een bestaande werknemer aannemen via werving
+                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
+                - name: Middelen voor selectie van kandidaten identificeren en implementeren
+                  href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
+        - name: Taakbeheer
+          href: hr-task-mgmt.md
+        - name: Verlof en verzuim
           items:
             - name: Overzicht
               href: hr-leave-and-absence-overview.md
@@ -641,27 +588,145 @@
               href: hr-employee-self-service-request-time-off.md
             - name: Team- en bedrijfsagenda's weergeven
               href: hr-employee-self-service-calendar.md
+            - name: Rol van verzuimmanager configureren
+              href: hr-configure-absence-manager.md
             - name: Beleid voor verlof inkopen/verkopen beheren
               href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
             - name: Workflows voor inkopen en verkopen van verlof maken
               href: hr-leave-and-absence-buy-sell-workflow.md
             - name: Verlof inkopen en verkopen
               href: hr-employee-self-service-buy-sell-leave.md
-        - name: Verlofaanvragen beheren in Teams
-          href: hr-teams-leave-app.md
-        - name: Werknemers ontwikkelen
+        - name: Vergoedingen
+          items:
+            - name: Een vergoedingenprogramma definiëren en beheren
+              href: hr-benefits-manage-program.md
+            - name: Beleid voor geschiktheid vergoedingen
+              href: hr-benefits-eligibility-policies.md
+            - name: Proces voor geschiktheid voor vergoeding
+              href: hr-benefits-eligibility-process.md
+            - name: Regels en beleid van de vergoedingsgeschiktheid definiëren
+              href: hr-benefits-define-eligibility-rules.md
+            - name: Een vergoedingenprogramma voor werknemers maken
+              href: hr-benefits-deliver-employee-benefits-program.md
+            - name: Nieuwe vergoedingen maken
+              href: hr-benefits-create.md
+            - name: Medewerkers inschrijven voor vergoedingen
+              href: hr-benefits-enroll-workers.md
+            - name: Vervaldatums voor vergoeding beheren
+              href: hr-benefits-expiration-dates.md
+            - name: ACA-rapporten genereren
+              href: hr-benefits-aca-reports.md
+        - name: Vergoedingenbeheer
+          items:
+            - name: Overzicht van Vergoedingenbeheer
+              href: hr-benefits-management-overview.md
+            - name: Werkgebied voor vergoedingenbeheer
+              href: hr-benefits-management-workspace.md
+            - name: Vergoedingenbeheer configureren
+              items:
+                - name: Parameters voor Vergoedingenbeheer per bedrijf configureren
+                  href: hr-benefits-setup-parameters-per-company.md
+                - name: Vergoedingenbeheer en selfserviceparameters voor werknemers instellen voor alle bedrijven
+                  href: hr-benefits-setup-parameters.md
+                - name: Regels en opties voor geschiktheid configureren
+                  href: hr-benefits-setup-eligibility-rules.md
+                - name: Opties voor geschiktheid van persoonlijke contactpersonen configureren
+                  href: hr-benefits-setup-contact-eligibility-options.md
+                - name: Opties voor dekking maken
+                  href: hr-benefits-setup-coverage-options.md
+                - name: Betalingsfrequenties instellen
+                  href: hr-benefits-setup-payment-frequencies.md
+                - name: Typen levensgebeurtenissen configureren
+                  href: hr-benefits-setup-life-event-types.md
+                - name: Overzicht plantype
+                  href: hr-benefits-setup-plan-types.md
+                - name: Redencodes instellen
+                  href: hr-benefits-setup-reason-codes.md
+                - name: Niveaucodes instellen
+                  href: hr-benefits-setup-tier-codes.md
+                - name: Tarieven configureren
+                  href: hr-benefits-setup-rates.md
+                - name: Inhoudingen configureren
+                  href: hr-benefits-setup-deductions.md
+                - name: Wachtdagen configureren
+                  href: hr-benefits-setup-waiting-days.md
+                - name: Wachtperioden configureren
+                  href: hr-benefits-setup-waiting-periods.md
+                - name: Afrondingsregels instellen
+                  href: hr-benefits-setup-rounding-rules.md
+                - name: Dienstverbandcategorieën maken
+                  href: hr-benefits-setup-employment-categories.md
+                - name: Dienstverbandtypen instellen
+                  href: hr-benefits-setup-employment-types.md
+                - name: Werknemerselfservice configureren
+                  href: hr-benefits-setup-employee-self-service.md
+                - name: Vergoedingsplannen maken
+                  items:
+                    - name: Vergoedingsplannen instellen
+                      href: hr-benefits-plans-setup.md
+                    - name: Programma's voor flexibel krediet instellen
+                      href: hr-benefits-plans-flex-credit-programs.md
+                - name: Vergoedingsplannen verwerken
+                  items:
+                    - name: Geschiktheid voor inschrijving verwerken
+                      href: hr-benefits-process-enrollment-eligibility.md
+                    - name: Levensgebeurtenissen verwerken
+                      href: hr-benefits-process-life-events.md
+                    - name: Wijzigingen in levensgebeurtenissen verwerken
+                      href: hr-benefits-process-life-event-changes.md
+                    - name: Geschiktheid voor levensgebeurtenissen verwerken
+                      href: hr-benefits-process-life-event-eligibility.md
+                    - name: Wijzigingen in tarieven verwerken
+                      href: hr-benefits-process-rate-changes.md
+                - name: Selectie van werknemersvergoedingen
+                  href: employee-select-benefits-ess.md
+                - name: ACA-rapportage
+                  href: hr-benefits-management-aca-reports.md
+                - name: Vergoedingenoverzicht
+                  href: hr-benefits-statement.md
+        - name: Compensatiebeheer
+          items:
+            - name: Overzicht van compensatieplannen
+              href: hr-compensation-overview.md
+            - name: Compensatierasters instellen
+              href: hr-compensation-grids.md
+            - name: Een structuur en plan voor compensatie ontwikkelen
+              href: hr-compensation-structure.md
+            - name: Plannen voor vaste compensatie maken
+              href: hr-compensation-fixed-plans.md
+            - name: Plannen voor variabele compensatie maken
+              href: hr-compensation-variable-plans.md
+            - name: Werknemers inschrijven voor een vaste compensatieregeling
+              href: hr-compensation-enroll-employees-fixed.md
+            - name: Werknemers inschrijven voor een variabele compensatieregeling
+              href: hr-compensation-enroll-employees-variable.md
+            - name: Compensatieproces definiëren en resultaten berekenen
+              href: hr-compensation-define-process.md
+            - name: Compensatieplannen verwerken
+              href: hr-compensation-process.md
+            - name: Een werknemer markeren als gereed voor betaling
+              href: hr-compensation-payroll.md
+        - name: Werknemerontwikkeling
           items:
             - name: Overzicht van prestatiebeheer
               href: hr-develop-performance-management-overview.md
-            - name: Personeelsvaardigheden afstemmen
-              href: hr-develop-skills.md
+            - name: Vaardigheden
+              items:
+                - name: Vaardigheden configureren
+                  href: hr-develop-skills.md
+                - name: Vaardigheden invoeren
+                  href: hr-develop-enter-skills.md
+                - name: Vaardigheden toewijzen
+                  href: hr-develop-map-skills.md
+                - name: Personeelsvaardigheden afstemmen
+                  href: hr-develop-skills.md
             - name: Toevoegen aan uw prestatiejournaal
               href: hr-develop-add-performance-journal.md
             - name: Een doelstelling maken
               href: hr-develop-create-goal.md
             - name: Een prestatiebeoordeling maken
               href: hr-develop-create-performance-review.md
-        - name: Cursussen maken
+        - name: Leren
           items:
             - name: Trainingscursussen instellen
               href: hr-learning-courses.md
@@ -683,13 +748,283 @@
               href: hr-learning-create-closed-ended-question.md
             - name: Een afhankelijke vraag maken
               href: hr-learning-depending-question.md
-        - name: Selfservice werknemer en Selfservice manager instellen
+        - name: Het werkstroomsysteem gebruiken
           items:
-            - name: Overzicht van Selfservice werknemer en Selfservice manager
-              href: hr-employee-manager-self-service-overview.md
-            - name: Aangepaste koppelingen maken in Selfservice manager
-              href: hr-employee-manager-self-service-custom-links.md
-            - name: Naam van werkgebied Selfservice werknemer wijzigen
-              href: hr-employee-self-service-workspace-name.md
-            - name: Persoonlijke gegevens bewerken
-              href: hr-employee-manager-self-service-edit-personal-information.md
+            - name: Overzicht van het werkstroomsysteem
+              href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
+            - name: Werkstroomsysteemarchitectuur
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
+            - name: Werkstroomelementen
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
+            - name: Werkstroomacties
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
+            - name: Werkstromen maken
+              items:
+                - name: Overzicht van Werkstromen maken
+                  href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Werkstroomeigenschappen configureren
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
+                - name: Handmatige taken configureren
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Geautomatiseerde taken configureren
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Goedkeuringsprocessen configureren
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Goedkeuringsstappen configureren
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Uitgavencontroleurs configureren
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/human-resources/toc.json
+                - name: Handmatige beslissingen configureren
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Voorwaardelijke beslissingen configureren
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Parallelle activiteiten configureren
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Parallelle vertakkingen configureren
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Werkstromen voor regelitems configureren
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: De batchtaak voor Werkstroomberichtverwerking configureren als kritiek
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
+            - name: Werkitems in een werkstroom delegeren
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: Werkstroomhistorie bekijken
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
+            - name: Het systeem configureren om werkstroomberichten te verzenden naar gebruikers
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
+            - name: Werkstroomtypen
+              items:
+                - name: Een werkstroomtype maken
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: Controlelijst voor werkstroomtype
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
+                - name: Een werkstroomcategorie maken
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
+                - name: Een query voor een werkstroomtype maken
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
+                - name: Een nieuw werkstroomtype maken
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
+                - name: Een werkstroomdocumentklasse maken
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: Een SubmitToworkflow-klasse maken
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Een werkstroomdocumentklasse koppelen aan een werkstroomtype
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
+            - name: Rapport over werkstroomtypen
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
+            - name: Veelgestelde vragen over werkstromen
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json
+        - name: Veiligheid en conformiteit op de werkplek (Verenigde Staten)
+          items:
+            - name: Verificatie van formulier I-9
+              href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-form-i-9-verification.md
+            - name: Recht op werk verifiëren met formulier I-9
+              href: ../fin-ops-core/fin-ops/hr/localizations/tasks/employment-verification-i9-verification.md
+            - name: Documenttypen formulier I-9 instellen
+              href: ../fin-ops-core/fin-ops/hr/localizations/tasks/set-up-i9-document-types.md
+            - name: Naleving van de Disabilities Act (Amerikaanse gehandicaptenwetgeving)
+              href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
+            - name: Verblijven voor werknemers beheren
+              href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
+    - name: Personeelsontwikkeling
+      items:
+        - name: Overzicht
+          href: hr-developer-overview.md
+        - name: Uitbreiden met Power Apps en Power Automate
+          href: hr-developer-power-apps.md
+        - name: Dataverse-tabellen
+          href: hr-developer-entities.md
+        - name: Aangepaste velden
+          href: hr-developer-custom-fields.md
+        - name: Gegevensintegratie instellen
+          items:
+            - name: Een technologie voor gegevensintegratie kiezen
+              href: hr-admin-integration-choose-technology.md
+            - name: Dataverse-integratie configureren
+              href: hr-admin-integration-common-data-service.md
+            - name: Virtuele Dataverse-tabellen configureren
+              href: hr-admin-integration-common-data-service-virtual-entities.md
+            - name: Integratie met Finance configureren
+              href: hr-admin-integration-finance.md
+            - name: Integratie met Dayforce configureren
+              href: hr-admin-integration-dayforce.md
+            - name: Een app voor het exporteren van terugkerende gegevens maken
+              href: hr-admin-integration-recurring-data-export.md
+            - name: Integreren met Office
+              items:
+                - name: Zelfstudie voor Office-integratie
+                  href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
+                - name: Entiteitsgegevens bijwerken in Excel
+                  href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
+                - name: Ervaringen met Openen in Excel maken
+                  href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
+                - name: Problemen met Office-integratie oplossen
+                  href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
+        - name: Problemen met het ontwikkelen van virtuele Dataverse-tabellen oplossen
+          items:
+            - name: Virtuele Dataverse-tabelquery's optimaliseren
+              href: hr-developer-optimize-virtual-table-queries.md
+            - name: Veelgestelde vragen over virtuele tabellen in Human Resources
+              href: hr-admin-virtual-entity-faq.md
+        - name: Verwijzing entiteits-API's
+          items:
+            - name: Verificatie
+              href: hr-developer-api-authentication.md
+            - name: Entiteiten
+              items:
+                - name: MyLeaveRequests
+                  items:
+                    - name: MyLeaveRequests-overzicht
+                      href: hr-developer-api-myleaverequests-overview.md
+                    - name: Een verlofverzoek indienen bij een werkstroom
+                      href: hr-developer-api-myleaverequests-submit.md
+        - name: API voor ATS-integratie
+          items:
+            - name: Inleiding
+              href: hr-admin-integration-ats-api-introduction.md
+            - name: Server-naar-server-verificatie voor ATS-integraties
+              href: hr-admin-integration-ats-api-s2s-auth.md
+            - name: Wervingsaanvraag en gerelateerde entiteiten
+              items:
+                - name: Wervingsaanvraag
+                  href: hr-admin-integration-ats-api-recruiting-request.md
+                - name: Opleiding voor wervingsaanvraag
+                  href: hr-admin-integration-ats-api-recruiting-request-education.md
+                - name: Locatie van wervingsaanvraag
+                  href: hr-admin-integration-ats-api-recruiting-request-location.md
+                - name: Positie van wervingsaanvraag
+                  href: hr-admin-integration-ats-api-recruiting-request-position.md
+                - name: Vaardigheid voor wervingsaanvraag
+                  href: hr-admin-integration-ats-api-recruiting-request-skill.md
+                - name: Voorbeeldquery voor wervingsaanvraag
+                  href: hr-admin-integration-ats-api-recruiting-request-example-query.md
+            - name: Optiesets voor wervingsaanvraag
+              items:
+                - name: Vrijstellingsstatus taak
+                  href: hr-admin-integration-ats-api-job-exempt-status.md
+                - name: Positiestatus van wervingsaanvraag
+                  href: hr-admin-integration-ats-api-recruiting-request-position-status.md
+                - name: Status van wervingsaanvraag
+                  href: hr-admin-integration-ats-api-recruiting-request-status.md
+                - name: Categorie wettelijk voorgeschreven taken
+                  href: hr-admin-integration-ats-api-regulatory-job-category.md
+            - name: Kandidaat voor aanstelling en gerelateerde entiteiten
+              items:
+                - name: Kandidaat voor aanstelling
+                  href: hr-admin-integration-ats-api-candidate-to-hire.md
+                - name: Type certificaat
+                  href: hr-admin-integration-ats-api-certificate-type.md
+                - name: Contactpersoon van partij
+                  href: hr-admin-integration-ats-api-party-contact.md
+                - name: Persoon
+                  href: hr-admin-integration-ats-api-person.md
+                - name: Adres van persoon
+                  href: hr-admin-integration-ats-api-person-address.md
+                - name: Certificaat van persoon
+                  href: hr-admin-integration-ats-api-person-certificate.md
+                - name: Opleiding van persoon
+                  href: hr-admin-integration-ats-api-person-education.md
+                - name: Identificatienummer van persoon
+                  href: hr-admin-integration-ats-api-person-identification-number.md
+                - name: Beroepservaring van persoon
+                  href: hr-admin-integration-ats-api-person-professional-experience.md
+                - name: Persoonscreening
+                  href: hr-admin-integration-ats-api-person-screening.md
+                - name: Kwalificatie van persoon
+                  href: hr-admin-integration-ats-api-person-skill.md
+                - name: Beoordelingsniveau
+                  href: hr-admin-integration-ats-api-rating-level.md
+                - name: Screeningtypen
+                  href: hr-admin-integration-ats-api-screening-types.md
+                - name: Voorbeeldquery voor kandidaat voor aanstelling
+                  href: hr-admin-integration-ats-api-candidate-to-hire-example-query.md
+            - name: Optiesets voor kandidaten
+              items:
+                - name: Integratieresultaat van sollicitant
+                  href: hr-admin-integration-ats-api-applicant-integration-result.md
+                - name: Leeg Ja Nee
+                  href: hr-admin-integration-ats-api-blank-yes-no.md
+                - name: Status van voltooiing
+                  href: hr-admin-integration-ats-api-completion-status.md
+                - name: Type contact
+                  href: hr-admin-integration-ats-api-contact-type.md
+                - name: Creditbasis van opleiding
+                  href: hr-admin-integration-ats-api-education-credit-basis.md
+                - name: Geslacht
+                  href: hr-admin-integration-ats-api-gender.md
+                - name: Burgerlijke staat
+                  href: hr-admin-integration-ats-api-marital-status.md
+                - name: Maanden van het jaar
+                  href: hr-admin-integration-ats-api-months-of-year.md
+                - name: Nee Ja
+                  href: hr-admin-integration-ats-api-no-yes.md
+                - name: Periode-eenheid
+                  href: hr-admin-integration-ats-api-period-unit.md
+                - name: Screeningfrequentie
+                  href: hr-admin-integration-ats-api-screening-frequency.md
+                - name: Screeningfrequentie genereren op basis van
+                  href: hr-admin-integration-ats-api-screening-frequency-generate-from.md
+                - name: Type kwalificatieniveau
+                  href: hr-admin-integration-ats-api-skill-level-type.md
+        - name: API voor integratie van salarisadministratie
+          items:
+            - name: Inleiding
+              href: hr-admin-integration-payroll-api-introduction.md
+            - name: Salarisadministratie-entiteiten genereren en controleren
+              href: hr-admin-integration-payroll-api-generate-review-entities.md
+            - name: Parameters voor de integratie van de salarisadministratie
+              href: hr-admin-integration-payroll-api-parameters.md
+            - name: Salarisadministratie-entiteiten
+              items:
+                - name: Salarisadministratie - werknemer
+                  href: hr-admin-integration-payroll-api-payroll-employee.md
+                - name: Salarisadministratie - adres van medewerker
+                  href: hr-admin-integration-payroll-api-payroll-worker-address.md
+                - name: Salarisadministratie - plan voor vaste compensatie
+                  href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
+                - name: Salarisadministratie - plan voor variabele compensatie
+                  href: hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md
+                - name: Salarisadministratie - positie
+                  href: hr-admin-integration-payroll-api-payroll-position.md
+                - name: Salarisadministratie - positie en functie
+                  href: hr-admin-integration-payroll-api-payroll-position-job.md
+            - name: Aan verlof en verzuim gerelateerde entiteiten
+              items:
+                - name: Verlofsaldo
+                  href: hr-admin-integration-payroll-api-leave-balance.md
+                - name: Verloftype
+                  href: hr-admin-integration-payroll-api-leave-type.md
+                - name: Verlofaanvraag
+                  href: hr-admin-integration-payroll-api-leave-request.md
+            - name: Aan vergoedingen gerelateerde entiteiten
+              items:
+                - name: Vergoedingsplan voor medewerker in salarisadministratie
+                  href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
+            - name: Andere entiteiten
+              items:
+                - name: Naamsgeschiedenis van persoon
+                  href: hr-admin-integration-payroll-api-person-name-history.md
+                - name: Conversiepercentage
+                  href: hr-admin-integration-payroll-api-compensation-pay-frequency.md
+            - name: Optiesets
+              items:
+                - name: Geslacht
+                  href: hr-admin-integration-payroll-api-gender.md
+                - name: Nee Ja
+                  href: hr-admin-integration-payroll-api-no-yes.md
+                - name: Toekenningstype
+                  href: hr-admin-integration-payroll-api-award-type.md
+                - name: Procestype
+                  href: hr-admin-integration-payroll-api-process-type.md
+                - name: Dekking van het type vergoedingsplan
+                  href: hr-admin-integration-payroll-api-benefit-plan-type-cover.md
+                - name: Status van vergoedingsplan voor werknemer
+                  href: hr-admin-integration-payroll-api-benefit-employee-plan-status.md
+    - name: Ontwikkeling en beheer voor apps voor financiën en bedrijfsactiviteiten
+      href: ../fin-ops-core/dev-itpro/index.md
+    - name: Dynamics 365 Finance
+      href: ../finance/index.md
+    - name: Dynamics 365 Supply Chain Management
+      href: ../supply-chain/index.md
+    - name: Dynamics 365 Commerce
+      href: ../commerce/index.md

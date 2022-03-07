@@ -1,29 +1,26 @@
 ---
 title: Voorbeelden van boekingsdefinities
 description: Dit artikel bevat voorbeelden die laten zien hoe boekdefinities worden gebruikt voor vorderingen van inkooporders en budgettoewijzingen.
-author: ShylaThompson
-manager: AnnBe
+author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JournalizingDefinition, JournalizingDefinitionTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15772
 ms.assetid: 3864e4da-853f-403d-b906-79631d80b363
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 301f15f1d7d8f0e10bbaf2546fcf727aff284624
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1ae45058a55570a62baf43dc785453dad5aa7050
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441849"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726913"
 ---
 # <a name="posting-definition-examples"></a>voorbeelden van boekdefinities
 
@@ -128,3 +125,6 @@ In dit voorbeeld komt elke rekening die onderdeel is van de Rekeningstructuur - 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

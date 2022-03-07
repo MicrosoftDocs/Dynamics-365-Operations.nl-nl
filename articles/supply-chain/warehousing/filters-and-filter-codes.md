@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
-ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 021ce940a4ea6d59719d1c6bc79532832cc2f3ff
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.16
+ms.openlocfilehash: c3648a2d9df300ecd0c26a12db8093babb3db48f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567674"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838245"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Productfilters voor magazijntransacties configureren
 
@@ -46,11 +46,11 @@ Productfilters bieden maximaal 10 **Filtertitel**-eigenschappen. Dit zijn opsomm
 1. Selecteer een waarde in het veld **Filtertitel**.
 1. Voer een waarde in het veld **Filtercode** in.
 
-    ![Een productfilter instellen.](media/Product_Filters10.png "Een productfilter instellen")
+    ![Een productfilter instellen](media/Product_Filters10.png "Een productfilter instellen")
 
 1. Voer in het veld **Beschrijving** een naam voor de code in. *Code 2* kan bijvoorbeeld leveranciers vertegenwoordigen. U kunt vervolgens een productfilter maken voor een specifieke leverancier of groep leveranciers. Zie de sectie [Filtercodes van leveranciers instellen](#vendor-product-filters) verderop in dit onderwerp voor meer informatie.
 
-    ![Productfilters instellen.](media/Product_Filters.png "Productfilters instellen")
+    ![Productfilters instellen](media/Product_Filters.png "Productfilters instellen")
 
 ## <a name="set-up-product-filter-groups"></a>Productfiltergroepen instellen
 
@@ -69,7 +69,7 @@ Voer de onderstaande stappen uit om filtergroepen in te stellen.
 1. Selecteer in het veld **Artikelgroep** de artikelgroep waar het productfilter op moet worden toegepast.
 1. Selecteer in de velden **Code 1** tot en met **Code 10** de filtercodes die u in de groep wilt opnemen.
 
-    ![Artikelengroep.](media/ProdFilterGroup.png "Artikelengroep")
+    ![Artikelengroep](media/ProdFilterGroup.png "Artikelengroep")
 
 > [!NOTE]
 > Als u een foutbericht ontvangt wanneer u de pagina sluit, kan een code-installatie ontbreken. Op de pagina **Artikelgroepen** kunt u de codes verplicht maken voor een artikelgroep door de selectievakjes **Filtercode 1 voor artikelgroep toewijzen**, **Filtercode 2 voor artikelgroep toewijzen** enzovoort in te schakelen.
@@ -88,7 +88,7 @@ Voer de onderstaande stappen uit om filtercodes in te stellen op artikelgroepen.
 
     Als u een vrijgegeven product wilt bijwerken, opent u de pagina **Vrijgegeven productdetails** en selecteert u vervolgens **Bewerken** in het actievenster. De filters die aan codes zijn gekoppeld, worden vervolgens beschikbaar op het sneltabblad **Magazijn**.
 
-    ![Artikelengroepen.](media/ItemGroup10.png "Artikelengroepen")
+    ![Artikelengroepen](media/ItemGroup10.png "Artikelengroepen")
 
 1. Schakel in de sectie **Artikelgroepfilter** de selectievakjes in voor de filters die moeten overeenkomen om de filtergroep de standaardfiltergroep voor een artikel te maken.
 

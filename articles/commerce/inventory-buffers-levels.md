@@ -2,33 +2,28 @@
 title: Voorraadbuffers en voorraadniveaus configureren
 description: In dit onderwerp wordt uitgelegd hoe u voorraadbuffers en voorraadniveaus configureert waarmee berichten voor voorraadbeschikbaarheid op Microsoft Dynamics 365 Commerce-sites worden bepaald.
 author: boycezhu
-manager: annbe
 ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: ef58dbb756c7bed3924010cb33eff27af66cd0bd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ca6cea9e0e7f1fd3eba3082c5a33e8b2d6dec878
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411405"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798908"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>Voorraadbuffers en voorraadniveaus configureren
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u voorraadbuffers en voorraadniveaus configureert waarmee de berichten over voorraadbeschikbaarheid op Microsoft Dynamics 365 Commerce-sites worden bepaald.
-
-## <a name="overview"></a>Overzicht
 
 Dynamics 365 Commerce Headquarters omvat voorraadgegevens en diverse kanalen, zoals POS-toepassingen (Point of Sale), webwinkels en andere aangepaste geïntegreerde toepassingen die op asynchrone wijze voorraad verplaatsen. De waarden voor beschikbare voorraad die via de pagina voor voorhanden voorraad in Commerce Headquarters worden verkregen, via de POS-gebruikersinterface en de e-Commerce-API's voor voorraadbeschikbaarheid, zijn daarom niet altijd 100 procent nauwkeurig in realtime.
 
@@ -149,3 +144,6 @@ Voer de volgende stappen uit om de respons van de API's voor productbeschikbaarh
 [Voorraadinstellingen toepassen](inventory-settings.md)
 
 [Voorraadbeschikbaarheid voor detailhandelafzetkanalen berekenen](calculated-inventory-retail-channels.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

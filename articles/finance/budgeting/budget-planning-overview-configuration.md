@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 847ae83102345a8005a8b2a630805d22ccfd736d
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: f45def44a285dbc937a2a602aa873f8a04486902
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019223"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210284"
 ---
 # <a name="budget-planning-overview"></a>Overzicht van Budgetplanning
 
@@ -204,3 +204,6 @@ Via het menu **Acties** kunt u ook een nieuw proces maken door een bestaand proc
 Een andere nuttige opdracht in het menu **Acties** is **Budgetprocesstatus weergeven**. Met deze opdracht worden de budgetplannen in een proces grafisch weergegeven, samen met relevante gegevens, zoals de workflowstatus van de plannen, overzichten per bedrag en per eenheid en navigatie naar de budgetplannen zelf via één keer klikken.
 
 [![Status van budgetplanningproces](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

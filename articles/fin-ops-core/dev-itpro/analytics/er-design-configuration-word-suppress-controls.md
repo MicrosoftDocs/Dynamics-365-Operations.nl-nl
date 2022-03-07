@@ -2,6 +2,7 @@
 title: Besturingselementen voor Word-inhoud onderdrukken in gegenereerde rapporten
 description: In dit onderwerp wordt uitgelegd hoe u een ER-indeling (elektronische rapportage) configureert om rapporten te genereren als Microsoft Word-bestanden waarin inhoudsbesturingselementen worden onderdrukt.
 author: NickSelin
+manager: AnnBe
 ms.date: 02/11/2021
 ms.topic: business-process
 ms.prod: ''
@@ -13,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: f8e74902e939355aba9bbadd8e7f8f8aa46fe5c5
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 81ad25514154dd8982aa4f849f0b2bfeb85270f7
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323920"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562113"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Besturingselementen voor Word-inhoud onderdrukken in gegenereerde rapporten
 
 [!include [banner](../includes/banner.md)]
 
-Als u rapporten wilt genereren als Microsoft Word-documenten, moet u een sjabloon voor de rapporten ontwerpen als een Word-document. Deze sjabloon moet besturingselementen voor Word-inhoud bevatten als tijdelijke aanduidingen voor gegevens die tijdens runtime worden ingevuld. Als u het Word-document wilt gebruiken is gemaakt als sjabloon voor uw rapporten, kunt u een nieuwe [ER (elektronische rapportage)](general-electronic-reporting.md)-[oplossing](er-quick-start1-new-solution.md) [configureren](er-design-configuration-word.md). De oplossing moet een ER-[configuratie](general-electronic-reporting.md#Configuration) bevatten die een onderdeel voor ER-indeling bevat. Deze ER-indeling moet worden geconfigureerd om de ontworpen sjabloon te gebruiken voor het genereren van een rapport.
+Als u rapporten wilt genereren als Microsoft Word-documenten, moet u een sjabloon voor de rapporten ontwerpen als een Word-document. Deze sjabloon moet besturingselementen voor Word-inhoud bevatten als tijdelijke aanduidingen voor gegevens die tijdens runtime worden ingevuld. Als u het Word-document wilt gebruiken is gemaakt als sjabloon voor uw rapporten, kunt u een nieuwe [ER (elektronische rapportage)](general-electronic-reporting.md)-[oplossing](er-quick-start1-new-solution.md) [configureren](er-design-configuration-word.md). De oplossing moet een ER-[configuratie](general-electronic-reporting.md#Configuration) bevatten die een onderdeel voor [ER-indeling](general-electronic-reporting.md#FormatComponentOutbound) bevat. Deze ER-indeling moet worden geconfigureerd om de ontworpen sjabloon te gebruiken voor het genereren van een rapport.
 
 In versie 10.0.6 en hoger van Dynamics 365 Finance kunt u formules configureren in de ER-indeling om bepaalde besturingselementen voor Word-inhoud in gegenereerde documenten te onderdrukken.
 
@@ -63,7 +64,7 @@ U moet ook de volgende sjabloon downloaden en opslaan voor het voorbeeldrapport:
     > [!NOTE]
     > Het besturingselement voor terugkerende inhoud wordt gelabeld door de sleutel **SummaryLines** die overeenkomt met het veld van het aangepaste XML-onderdeel waaraan het is toegewezen.
 
-    ![Indeling van Word-sjabloon.](./media/er-design-configuration-word-suppress-controls-image1.gif)
+    ![Indeling van Word-sjabloon](./media/er-design-configuration-word-suppress-controls-image1.gif)
 
 ## <a name="select-the-existing-er-report-configuration"></a>De bestaande ER-rapportconfiguratie selecteren
 
@@ -98,7 +99,7 @@ Momenteel wordt het bestand SampleVendPaymDocReportBounded.docx gebruikt als sja
 7. Selecteer **OK**.
 8. Selecteer **OK** in het dialoogvenster **Parameters elektronisch rapport** en analyseer de gegenereerde uitvoer.
 
-    ![Betalingen voor verwerking op de pagina Leveranciersbetalingen.](./media/er-design-configuration-word-suppress-controls-image2.gif)
+    ![Betalingen voor verwerking op de pagina Leveranciersbetalingen](./media/er-design-configuration-word-suppress-controls-image2.gif)
 
     De uitvoer wordt weergegeven in Word-indeling en bevat de overzichtssectie.
 
@@ -149,7 +150,7 @@ Als u de overzichtssectie in een gegenereerd document wilt onderdrukken op basis
 
 9. Selecteer **Opslaan** om de wijzigingen in de bewerkbare indeling op te slaan.
 
-    ![De gegenereerde uitvoer in Word-indeling.](./media/er-design-configuration-word-suppress-controls-image3.gif)
+    ![De gegenereerde uitvoer in Word-indeling](./media/er-design-configuration-word-suppress-controls-image3.gif)
 
 ## <a name="run-the-modified-format-to-create-word-output"></a>De gewijzigde indeling uitvoeren om Word-uitvoer te maken
 
@@ -163,7 +164,7 @@ Als u de overzichtssectie in een gegenereerd document wilt onderdrukken op basis
 8. Ga naar het dialoogvenster **Parameters elektronisch rapport** en selecteer **Ja** in het veld **Overzichtssectie onderdrukken**.
 9. Selecteer **OK** en analyseer de gegenereerde uitvoer.
 
-    ![Gegenereerde uitvoer in Word-indeling.](./media/er-design-configuration-word-suppress-controls-image4.gif)
+    ![Gegenereerde uitvoer in Word-indeling](./media/er-design-configuration-word-suppress-controls-image4.gif)
 
     De uitvoer bevat niet de overzichtssectie omdat deze is onderdrukt.
 

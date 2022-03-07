@@ -2,28 +2,25 @@
 title: Dimensies van kostenelement
 description: Kostenelementdimensies zijn een van de kernpijlers in Kostprijsboekhouding en worden gebruikt om te categoriseren en te traceren waar kosten heen stromen.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 223204
 ms.assetid: 1eda0e62-760b-4737-9dfd-3c3c38d80c1a
 ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e67ce047d08af6d34090ee4e1dc379dd16ecce07
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 667fb81a2c1c8f564c09fe8fb7921c7aff75920bfa4326e82078583df61576e0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442056"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728764"
 ---
 # <a name="cost-element-dimensions"></a>Dimensies van kostenelement
 
@@ -66,7 +63,7 @@ Er zijn twee typen kostenelementen: primaire kostenelementen en secundaire koste
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>Dimensies van kostenelementen en dimensieleden van kostenelementen.
 Kostenelementen worden ook aangeduid als *kostenelementendimensies*. De individuele dimensiewaarden staan bekend als *kostenelementdimensieleden*. Stel dat u een rekeningschemastructuur hebt, die de basis voor de wettelijk voorgeschreven rapportage vormt. Deze structuur wordt gebruikt als de kostenelementendimensie. De rekeningen, die de primaire kostenelementen vormen, zijn vertegenwoordigd als de kostenelementendimensieleden in Kostprijsboekhouding. In de onderstaande schermopname ziet u een voorbeeld van Hoofdrekeningen als de kostenelementdimensie met de werkelijke hoofdrekeningen als kostenelementdimensieleden. 
 
-[![Schermopname van hoofdrekeningen als kostenelementdimensie](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+[![Schermopname van hoofdrekeningen als kostenelementdimensie.](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>Kostenelementdimensieleden importeren door middel van gegevensconnectors
 Om gemakkelijker leden van kostenelementdimensies te kunnen configureren in Kostenprijsboekhouding, kunt u met vooraf gemaakte gegevensconnectors of zelf samengestelde connectors de primaire kostenelementen ophalen vanuit een of meer bronsystemen.
@@ -76,3 +73,6 @@ Omdat kostenelementen het laagste niveau van kostendetails vertegenwoordigen, mo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

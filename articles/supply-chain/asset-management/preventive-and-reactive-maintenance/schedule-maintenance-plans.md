@@ -1,12 +1,10 @@
 ---
 title: Schema voor onderhoudsplannen
 description: In dit onderwerp wordt het plannen van onderhoudsplannen in Activabeheer uitgelegd.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9c215417eacb8a0e1ec0a8324fe35fc053089afb
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: bd5192f727c83c017148405fb1b3ee587c118542450d46b5822d86cd1676d8fd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016901"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731314"
 ---
 # <a name="schedule-maintenance-plans"></a>Schema voor onderhoudsplannen
 
@@ -54,14 +52,14 @@ Door preventief onderhoud te plannen, worden kalenderitems voor activa gegeneree
 
 5. Klik op **OK** om het genereren van onderhoudsschema-items voor activa te starten. De gegenereerde items worden weer op de lijstpagina **Hele onderhoudsschema**. In de volgende afbeelding ziet u een voorbeeld van de dialoog **Onderhoudsplanning**.
 
-![Figuur 1](media/09-preventive-maintenance.png)
+![Figuur 1.](media/09-preventive-maintenance.png)
 
 - In het dialoogvenster **Onderhoudsplannen plannen** kunt u batchtaken instellen op het sneltabblad **Op de achtergrond uitvoeren** als u kalenderitems automatisch met regelmatige intervallen wilt genereren.  
 - Als u preventief onderhoud plant, worden onderhoudsschemaregels waarvan de verwachte begindatum en -tijd vóór de systeemdatum en -tijd ligt, niet gemaakt.  
 
 In onderstaande afbeelding ziet u een grafische weergave van een onderhoudsplan op tijdbasis.  
 
-![Figuur 2](media/10-preventive-maintenance.jpg)
+![Figuur 2.](media/10-preventive-maintenance.jpg)
 
 Voor onderhoudsplannen op basis van een teller worden er twee verschillende tellerregistratiecycli weergegeven. Deze zijn gebaseerd op een onderhoudsplan dat is ingesteld voor activum 'V0001', waarbij het activum (een auto) naar verwachting maandelijks circa 2000 km rijdt.
 
@@ -71,7 +69,10 @@ In de volgende afbeelding wordt er maandelijks 2000 km of meer geregistreerd. Er
 
 De voorbeelden die hier worden beschreven, laten zien dat alle tellerregistraties voor een activum een trending slijtage voor het activum vertonen. Deze trend wordt gebruikt als rekenbasis op het moment van de planning van het onderhoudsplan.
 
-![Figuur 3](media/11-preventive-maintenance.png)
+![Figuur 3.](media/11-preventive-maintenance.png)
 
-![Figuur 4](media/12-preventive-maintenance.png)
+![Figuur 4.](media/12-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

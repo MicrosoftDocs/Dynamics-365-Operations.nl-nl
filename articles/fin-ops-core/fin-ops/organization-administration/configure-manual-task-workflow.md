@@ -2,11 +2,9 @@
 title: Handmatige taken configureren in een workflow
 description: In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een handmatige taak configureert.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f61e0f7ee16519767192fb379f20c1ed20b69caa
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: b4be7f0ee5e487185033b7ccb9a2b0a91eb4a36c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798800"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747850"
 ---
 # <a name="configure-manual-tasks-in-a-workflow"></a>Handmatige taken configureren in een workflow
 
@@ -381,3 +379,6 @@ Wanneer de handmatige taak is toegewezen aan een gebruiker, moet de gebruiker ac
 5. Schakel het selectievakje **Delegeren** in als u wilt dat de gebruiker deze taak aan een andere gebruiker kan toewijzen.
 6. Schakel het selectievakje **Opnieuw toewijzen** in als u wilt dat de gebruiker deze taak opnieuw aan een andere gebruiker in de wachtrij voor werkitems kan toewijzen.
 7. Schakel het selectievakje **Vrijgave** in als u wilt dat de gebruiker deze taak opnieuw aan een andere gebruiker in de wachtrij voor werkitems kan toewijzen. Een andere gebruiker kan de taak vervolgens voltooien.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

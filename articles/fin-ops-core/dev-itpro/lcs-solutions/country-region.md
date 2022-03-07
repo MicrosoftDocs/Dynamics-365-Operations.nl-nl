@@ -1,34 +1,32 @@
 ---
 title: Globalisatieresources
 description: Dit onderwerp bevat een lijst met resources met meer informatie over land- en regiospecifieke functies en aanbiedingen.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 10/02/2019
+author: kfend
+ms.date: 02/19/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
 ms.custom: 104173
 ms.search.region: Global
-ms.author: sericks
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ee422b2bdc8b94c2a465d0e48f5da983a410674
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 822f00c21715b928027a7656f299a693686bf5dfc01f1f5a1738d5eb8d4bf124
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685048"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747510"
 ---
 # <a name="globalization-resources"></a>Globalisatieresources
 
 ## <a name="local-and-regional-deployments"></a>Lokale en regionale implementaties
 Als uw overheidsvoorschriften vereisen dat gegevens anders worden opgeslagen of anders worden onderhouden dan is vereist voor andere landen/regio's, moet u mogelijk rekening houden met vereisten voor het land of de regio tijdens de implementatiefase. De volgende resources zijn mogelijk relevant voor u:
 
-[Finance and Operations-apps die worden geëxploiteerd door 21Vianet in China](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[Finance and Operations -apps die worden geëxploiteerd door 21Vianet in China](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>Lokalisatie en wettelijk voorgeschreven functies
 
@@ -55,7 +53,6 @@ De volgende resources bevatten informatie over geplande en nieuwe lokalisatiefun
 
 #### <a name="regulatory-updates"></a>Wettelijk voorgeschreven updates
 -   [Wettelijk voorgeschreven updates](../../../finance/localizations/regulatory-updates.md)
--   [Lokalisatie-portal](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (wekelijks bijgewerkt)
 -   [Problemen zoeken in Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (dagelijks bijgewerkt)
 
 #### <a name="communication-and-alerts"></a>Communicatie en waarschuwingen
@@ -63,7 +60,7 @@ De volgende resources bevatten informatie over geplande en nieuwe lokalisatiefun
 -   [Meldingen indienen over land-/regiospecifieke wettelijk voorgeschreven functies](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>Dynamics 365-releaseplannen
-De [Dynamics 365-releaseplannen](https://docs.microsoft.com/business-applications-release-notes/) bevatten beschrijvingen van nieuwe en verbeterde functies die zijn gepland voor de zakelijke toepassingen en toepassingsplatforms van Dynamics 365. 
+De [Dynamics 365-releaseplannen](/business-applications-release-notes/) bevatten beschrijvingen van nieuwe en verbeterde functies die zijn gepland voor de zakelijke toepassingen en toepassingsplatforms van Dynamics 365. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Nieuwe functies in Finance and Operations-apps
 Op de [startpagina Nieuwe of gewijzigde functies in Finance and Operations-apps](../../fin-ops/get-started/whats-new-changed.md) worden de functies vermeld die zijn opgenomen in specifieke releases van de Finance and Operations-apps.
@@ -133,3 +130,6 @@ Meer informatie vindt u in het [Help-systeem](../../fin-ops/get-started/help-ove
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

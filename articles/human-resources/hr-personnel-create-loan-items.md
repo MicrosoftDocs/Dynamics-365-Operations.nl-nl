@@ -2,28 +2,27 @@
 title: Leenartikelen maken
 description: Leenartikelen zijn records waarmee u fysieke artikelen, zoals telefoons of computers die uw bedrijf aan werknemers uitleent, bijhoudt.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmLoanType, DefaultDashboard, HcmLoanItem, HcmWorkerLookUp, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8317a2fbe9d857ed3824631241b99c333b6dc4e8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5fb303015c3616bd2d033517bc21fda0834e9135b92e16374df26a98188c75ea
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417975"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718078"
 ---
 # <a name="create-loan-items"></a>Leenartikelen maken
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -59,3 +58,6 @@ Leenartikelen zijn records waarmee u fysieke artikelen, zoals telefoons of compu
 14. Klik op OK.
 15. Vernieuw de pagina.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

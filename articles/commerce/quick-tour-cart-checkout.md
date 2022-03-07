@@ -2,35 +2,30 @@
 title: Overzicht van pagina's met winkelwagen en kassa
 description: In dit onderwerp vindt u een overzicht van de pagina's met winkelwagen en kassa in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e932be31a301ef5aacb68fa4e710d8a9137b7263
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3e450192025b29c655be49050aa3e61fc8acd898
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411483"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982963"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Overzicht van pagina's met winkelwagen en kassa
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp vindt u een overzicht van de pagina's met winkelwagen en kassa in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 Op de winkelwagenpagina van een e-commerce-website worden alle artikelen weergegeven die een klant aan de winkelwagen heeft toegevoegd. De winkelwagenpagina wordt gemaakt met de winkelwagenmodule. De winkelwagenmodule is een container die alle modules beheert die nodig zijn om artikelen in de winkelwagen te presenteren. De winkelwagenmodule kan ook andere modules gebruiken om het orderoverzicht en eventuele promotiecodes weer te geven die op de klantorder zijn toegepast.
 
@@ -42,7 +37,7 @@ De winkelwagenpagina fungeert als boodschappentas en bevat alle artikelen die aa
 
 In de volgende afbeelding ziet u een voorbeeld van een winkelwagenpagina die is gemaakt met de modulebibliotheek en het thema 'Fabrikam'.
 
-![Voorbeeld van een winkelwagenpagina](./media/cart2.PNG)
+![Voorbeeld van een winkelwagenpagina.](./media/cart2.PNG)
 
 Op de hoofdtekst van de winkelwagenpagina worden alle artikelen weergegeven die de klant aan de winkelwagen heeft toegevoegd. Alle toepasselijke kortingen worden getoond. Deze kortingen zijn onder andere complexe kortingen. Voorbeelden zijn "Koop 3 artikelen en ontvang 10% korting" of "Koop een fles en een rugzak om 10% korting te ontvangen". In de module met het orderoverzicht wordt het bedrag weergegeven dat moet worden betaald nadat kortingen, verzendingen, belastingen, enzovoort, zijn toegepast. Er is ook een promotiecodemodule waarmee de klant promotiecodes kan toepassen of verwijderen.
 
@@ -58,7 +53,7 @@ De kassapagina is de locatie waar klanten de informatie invoeren die nodig is om
 
 In de volgende afbeelding ziet u een voorbeeld van een kassapagina die is gemaakt met de modulebibliotheek.
 
-![Voorbeeld van een kassapagina](./media/Checkout.PNG)
+![Voorbeeld van een kassapagina.](./media/Checkout.PNG)
 
 De hoofdtekst van de kassapagina omvat alle ordergegevens. Deze informatie omvat het verzendadres, de leveringsopties en de betalingsgegevens. De afhandeling heeft een stap-voor-stap-overdracht, omdat de informatie moet worden ingevoerd in een specifieke order die moet worden verwerkt. Het verzendadres moet bijvoorbeeld worden ingevoerd voordat de verzendkosten kunnen worden berekend en de betaling kan worden geautoriseerd.
 
@@ -88,7 +83,7 @@ De klant kan het uitcheckproces voltooien als gastgebruiker of als een aangemeld
 
 ### <a name="order-summary"></a>Orderoverzicht
 
-De kassa laat een overzicht zien van de regelartikelen in de winkelwagen, zodat de klant de order kan controleren voordat hij of zij de order plaatst. De regelartikelen kunnen niet worden bewerkt tijdens de uitcheckstroom. Er wordt echter een koppeling naar de winkelwagen getoond als de gebruiker wil teruggaan om de regelartikelen te bewerken.
+De kassa laat een overzicht zien van de regelartikelen in de winkelwagen, zodat de klant de order kan controleren voordat de hij of zij de order plaatst. De regelartikelen kunnen niet worden bewerkt tijdens de uitcheckstroom. Er wordt echter een koppeling naar de winkelwagen getoond als de gebruiker wil teruggaan om de regelartikelen te bewerken.
 
 Nadat de klant verzend- en factuurgegevens heeft verstrekt, wordt in het orderoverzicht het bedrag weergegeven dat verschuldigd is nadat de loyaliteitspunten, geschenkbonnen en andere betalingen zijn toegepast.
 
@@ -107,3 +102,6 @@ Zie [Een kassamodule aan een pagina toevoegen](add-checkout-module.md) voor info
 [Overzicht van de pagina met productgegevens](quick-tour-pdp.md)
 
 [Overzicht van pagina's voor accountbeheer](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

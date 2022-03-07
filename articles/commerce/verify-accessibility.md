@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2019-12-19
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: fc3dca673510e1636f497bb7d5c295bebe025677
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: 186044fc7a360f227cecffb39bad0e225245dd4d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4411503"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210966"
 ---
 # <a name="verify-page-content-accessibility"></a>Toegankelijkheid van pagina-inhoud controleren
 
@@ -85,3 +84,8 @@ Ga als volgt te werk om de geïntegreerde service [Microsoft Accessibility Insig
 [Een productpagina verrijken](enrich-product-page.md)
 
 [Een landingspagina voor een categorie verrijken](enrich-category-page.md)
+
+[Dynamische e-commercepagina's maken op basis van URL-parameters](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

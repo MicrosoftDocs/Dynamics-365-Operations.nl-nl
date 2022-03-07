@@ -1,30 +1,28 @@
 ---
-title: Gebruikers van klantportal maken en beheren
+title: Gebruikers van klantportal maken en beheren (bevat video)
 description: In dit onderwerp wordt uitgelegd hoe u gebruikersaccounts voor de klantportal maakt en machtigingen hiervoor instelt.
-author: dasani-madipalli
-manager: tfehr
+author: Henrikan
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e2001d5c0b17ecadf4cb42529d9beb4b3b81805a
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 4615182e6c3341a376e8e55a1417480e3e3f5ea7
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528288"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062485"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Gebruikers van klantportal maken en beheren
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [banner](../includes/banner.md)]
+
 
 In de standaardimplementatie kunnen gebruikers zichzelf niet zelf registreren voor websites die zijn gemaakt met de klantportal. Om zich aan te melden en een website te gebruiken moeten gebruikers door de beheerder worden uitgenodigd. Microsoft heeft de mogelijkheid voor gebruikers om zichzelf te registreren, opzettelijk geblokkeerd.
 
@@ -39,34 +37,34 @@ De video [Klanten uitnodigen om uw klantenportal te registreren en te gebruiken]
 
 ## <a name="prerequisite-setup"></a>Instellingsvereisten
 
-Contactpersonen in Power Apps-portals worden als records opgeslagen in de entiteit **Contactpersonen** in Common Data Service. Met twee wegschrijven worden deze records vervolgens gesynchroniseerd in Microsoft Dynamics 365 Supply Chain Management, als dat nodig is.
+Contactpersonen in Power Apps-portals worden als records opgeslagen in de tabel **Contactpersonen** in Microsoft Dataverse. Met twee wegschrijven worden deze records vervolgens gesynchroniseerd in Microsoft Dynamics 365 Supply Chain Management, als dat nodig is.
 
-![Systeemdiagram voor contactpersonen van klantportal](media/customer-portal-contacts.png "Systeemdiagram voor contactpersonen van klantportal")
+![Systeemdiagram voor contactpersonen van klantportal.](media/customer-portal-contacts.png "Systeemdiagram voor contactpersonen van klantportal")
 
-Voordat u nieuwe klanten gaat uitnodigen, moet u controleren of u de entiteitstoewijzing **Contactpersoon** hebt ingeschakeld bij Twee keer wegschrijven.
+Voordat u nieuwe klanten gaat uitnodigen, moet u controleren of u de tabeltoewijzing **Contactpersoon** hebt ingeschakeld bij Twee keer wegschrijven.
 
 ## <a name="the-invitation-process"></a>Het uitnodigingsproces
 
-Als u een bestaande contactpersoon wilt uitnodigen voor de klantportal, volgt u de stappen in [Contactpersonen uitnodigen voor uw portals](https://docs.microsoft.com/powerapps/maker/portals/configure/invite-contacts) in de documentatie voor Power Apps-portals.
+Als u een bestaande contactpersoon wilt uitnodigen voor de klantportal, volgt u de stappen in [Contactpersonen uitnodigen voor uw portals](/powerapps/maker/portals/configure/invite-contacts) in de documentatie voor Power Apps-portals.
 
-Voordat u een klant kunt uitnodigen voor deelname aan de klantportal, controleert u of de [contactpersoonrecord van de klant](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) beschikbaar is en op de volgende manier is ingesteld:
+Voordat u een klant kunt uitnodigen voor deelname aan de klantportal, controleert u of de [contactpersoonrecord van de klant](/powerapps/maker/portals/configure/configure-contacts) beschikbaar is en op de volgende manier is ingesteld:
 
 1. Stel het veld **Bedrijf** in op de rechtspersoon in Supply Chain Management waaraan u de klant wilt toewijzen.
 2. Stel het veld **Accountnummer** in op het nummer van het klantaccount in Supply Chain Management waaraan u de klant wilt toewijzen.
 
 Nadat een contactpersoon is gemaakt, kunt u deze bekijken in Supply Chain Management.
 
-Zie [Een contactpersoon configureren voor gebruik in een portal](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) in de documentatie van Power Apps-portals voor meer informatie.
+Zie [Een contactpersoon configureren voor gebruik in een portal](/powerapps/maker/portals/configure/configure-contacts) in de documentatie van Power Apps-portals voor meer informatie.
 
-## <a name="out-of-box-web-roles-and-entity-permissions"></a>Standaard webrollen en entiteitsmachtigingen
+## <a name="out-of-box-web-roles-and-table-permissions"></a>Standaard webrollen en tabelmachtigingen
 
-Gebruikersrollen in Power Apps-portals worden gedefinieerd door [webrollen](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) en [entiteitsmachtigingen](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions). Een paar rollen zijn standaard gedefinieerd voor de klantportal. U kunt nieuwe rollen maken en bestaande rollen wijzigen of verwijderen.
+Gebruikersrollen in Power Apps-portals worden gedefinieerd door [webrollen](/powerapps/maker/portals/configure/create-web-roles) en [tabelmachtigingen](/powerapps/maker/portals/configure/assign-entity-permissions). Een paar rollen zijn standaard gedefinieerd voor de klantportal. U kunt nieuwe rollen maken en bestaande rollen wijzigen of verwijderen.
 
 ### <a name="out-of-box-web-roles"></a>Standaard webrollen
 
 In deze sectie worden de webrollen beschreven die bij de klantportal worden meegeleverd.
 
-Zie [Webrollen voor portals maken](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) en [Op records gebaseerde beveiliging toevoegen met behulp van entiteitsmachtigingen voor portals](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) in de documentatie van Power Apps-portals voor meer informatie over het wijzigen van de standaard gebruikersrollen.
+Zie [Webrollen voor portals maken](/powerapps/maker/portals/configure/create-web-roles) en [Op records gebaseerde beveiliging toevoegen met behulp van tabelmachtigingen voor portals](/powerapps/maker/portals/configure/assign-entity-permissions) in de documentatie van Power Apps-portals voor meer informatie over het wijzigen van de standaard gebruikersrollen.
 
 #### <a name="administrator"></a>Beheerder
 
@@ -90,9 +88,12 @@ In de volgende tabel ziet u welke verkooporders door de gebruikers van elke webr
 
 | Verkooporder | Beheerder | Klantmedewerkers voor klant&nbsp;X | Geautoriseerde gebruiker: Jane | Geautoriseerde gebruiker: Sam | Niet-geautoriseerde gebruikers: May |
 |---|---|---|---|---|---|
-| Besteller klant&nbsp;X:&nbsp;Jane | Ja | Ja | Ja | No | No |
-| Besteller klant&nbsp;X:&nbsp;Sam | Ja | Ja | No | Ja | No |
-| Besteller&nbsp;klant Y:&nbsp;May | Ja | No | No | No | No |
+| Besteller klant&nbsp;X:&nbsp;Jane | Ja | Ja | Ja | Nee | Nee |
+| Besteller klant&nbsp;X:&nbsp;Sam | Ja | Ja | Nee | Ja | Nee |
+| Besteller&nbsp;klant Y:&nbsp;May | Ja | Nee | Nee | Nee | Nee |
 
 > [!NOTE]
 > Hoewel zowel Sam als Rob contactpersonen zijn voor klant X, kunnen ze alleen de orders zien die ze zelf hebben geplaatst en niets anders. Hoewel May een order heeft geplaatst, kan ze die order niet zien in de klantportal omdat ze een niet-geautoriseerde gebruiker is. (Ze moet de order bovendien hebben geplaatst via een ander kanaal dan de klantportal.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

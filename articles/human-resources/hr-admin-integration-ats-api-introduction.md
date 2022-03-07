@@ -2,34 +2,34 @@
 title: Integratie-API voor sollicitantenvolgsysteem - Inleiding
 description: In dit onderwerp wordt de Dynamics 365 Human Resources integratie-API voor sollicitantenvolgsysteem (ATS) beschreven.
 author: andreabichsel
+manager: tfehr
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.custom: intro-internal
+ms.reviewer: anbichse
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e16c781a6e51c57db8ae76dcfe0d28ec709428eb
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 61d8502a8f420d387b5b7f48fca2f8a680f6f3f8
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069927"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464027"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>Integratie-API voor sollicitantenvolgsysteem - Inleiding
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 In dit onderwerp wordt de Dynamics 365 Human Resources integratie-API voor sollicitantenvolgsysteem (ATS) beschreven. De API is bedoeld om gestroomlijnde integraties tussen Dynamics 365 Human Resources en ATS-partners mogelijk te maken.
 
-![ATS-integratiestroom.](media/hr-admin-integration-ats-api-introduction-flow.png)
+![ATS integratiestroom](media/hr-admin-integration-ats-api-introduction-flow.png)
 
 De geïntegreerde ervaring begint in Human Resources wanneer een aanstellende manager een wervingsaanvraag maakt. Wanneer de aanvraag is geactiveerd, haalt de ATS de details op voor de aanvraag om een wervingsproject te maken. Daarna volgt het de wervingspijplijn om een kandidaat voor de functie(s) te selecteren en aan te stellen. Ten slotte rondt het ATS de integratie af door de record van de geselecteerde kandidaat naar Human Resources te sturen. De record van de kandidaat kan dan door meer onboarding validaties en werkstromen gaan om de werknemerrecord te maken.
 
@@ -47,21 +47,21 @@ Deze API is gebouwd op Microsoft Dataverse (voorheen Common Data Service). Alle 
 
 Voor meer algemene informatie over de Microsoft Dataverse web-API, zie:
 
-- [Wat is Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)
-- [De Microsoft Dataverse web-API gebruiken](/powerapps/developer/data-platform/webapi/overview)
-- [Microsoft Dataverse ontwikkelaarshandleiding](/powerapps/developer/data-platform)
+- [Wat is Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+- [De Microsoft Dataverse web-API gebruiken](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)
+- [Microsoft Dataverse ontwikkelaarshandleiding](https://docs.microsoft.com/powerapps/developer/data-platform)
 
-De bovenstaande documentatie bevat gedetailleerde informatie en richtlijnen voor ontwikkelaars voor het gebruik van de Dataverse web-API, zoals [verificatie beheren](/powerapps/developer/data-platform/webapi/authenticate-web-api), [bewerkingen uitvoeren](/powerapps/developer/data-platform/webapi/perform-operations-web-api), [Postman gebruiken met de API](/powerapps/developer/data-platform/webapi/use-postman-web-api) en [wijzigingen bijhouden of deltatokens gebruiken](/powerapps/developer/data-platform/use-change-tracking-synchronize-data-external-systems) met de API.
+De bovenstaande documentatie bevat gedetailleerde informatie en richtlijnen voor ontwikkelaars voor het gebruik van de Dataverse web-API, zoals [verificatie beheren](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/authenticate-web-api), [bewerkingen uitvoeren](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/perform-operations-web-api), [Postman gebruiken met de API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/use-postman-web-api) en [wijzigingen bijhouden of deltatokens gebruiken](https://docs.microsoft.com/powerapps/developer/data-platform/use-change-tracking-synchronize-data-external-systems) met de API.
 
 ### <a name="option-sets"></a>Optiesets
 
-Het gegevensmodel voor de API voor ATS-integratie die in dit document wordt beschreven, bevat optiesets die opgesomde waarden bevatten die aan entiteitseigenschappen zijn gekoppeld. Zie [Optiesets maken en bijwerken met de web-API](/powerapps/developer/data-platform/webapi/create-update-optionsets) voor gedetailleerde informatie over het werken met optiesets in de Dataverse web-API. Voor elke Dataverse-omgeving worden optiesets gedefinieerd.
+Het gegevensmodel voor de API voor ATS-integratie die in dit document wordt beschreven, bevat optiesets die opgesomde waarden bevatten die aan entiteitseigenschappen zijn gekoppeld. Zie [Optiesets maken en bijwerken met de web-API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets) voor gedetailleerde informatie over het werken met optiesets in de Dataverse web-API. Voor elke Dataverse-omgeving worden optiesets gedefinieerd.
 
 ### <a name="virtual-tables-for-human-resources-in-dataverse"></a>Virtuele tabellen in Dataverse voor Human Resources
 
 De eindpunten voor de API voor ATS-integratie maken gebruik van de mogelijkheden van het virtuele tabelplatform van Microsoft Dataverse. Standaard worden de virtuele tabellen en de bijbehorende API-eindpunten niet geïmplementeerd voor Human Resources-omgevingen, waardoor organisaties kunnen bepalen welke OData-eindpunten beschikbaar worden voor de omgeving. Als u de API wilt gebruiken, moeten de virtuele tabellen voor de Human Resources-entiteiten worden gegenereerd voor de omgeving. 
 
-Zie [Dataverse virtuele tabellen configureren](./hr-admin-integration-common-data-service-virtual-entities.md) voor informatie over het genereren van de virtuele tabellen voor de API.
+Zie [Dataverse virtuele tabellen configureren](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities) voor informatie over het genereren van de virtuele tabellen voor de API.
 
 ## <a name="data-model"></a>Gegevensmodel
 
@@ -72,7 +72,7 @@ Het gegevensmodel is gericht op twee hoofdentiteiten:
 
 In het volgende diagram worden de relaties binnen de API weergegeven. Verschillende typen hebben refererende sleutels voor andere, bestaande entiteiten in HumanResources die hier niet worden geïllustreerd. Dit document bevat informatie over entiteiten die specifiek zijn voor wervingsintegratiescenario's. De Dataverse web-API voor Dynamics 365 Human Resources bevat echter een groot aantal andere entiteiten die ook relevant kunnen zijn voor uw integratie. U hebt bijvoorbeeld ook details nodig voor werknemers, functies, posities of andere entiteiten die hier niet zijn gedefinieerd. Naar veel van deze entiteiten worden verwezen in refererende sleutelrelaties of navigatie-eigenschappen.
 
-![ATS-integratie API-gegevensmodel.](media/hr-admin-integration-ats-api-data-model.png)
+![ATS-integratie API-gegevensmodel](media/hr-admin-integration-ats-api-data-model.png)
 
 ## <a name="recruiting-request-and-related-entities-and-option-sets"></a>Wervingsaanvragen en gerelateerde entiteiten en optiesets
 
@@ -136,8 +136,8 @@ Optiesets:
 ## <a name="see-also"></a>Zie ook
 
 [Kandidaten werven](hr-personnel-recruit.md)<br>
-[Wat is Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)<br>
-[De Microsoft Dataverse web-API gebruiken](/powerapps/developer/data-platform/webapi/overview)<br>
-[Optiesets maken en bijwerken met de web-API](/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
+[Wat is Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
+[De Microsoft Dataverse web-API gebruiken](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)<br>
+[Optiesets maken en bijwerken met de web-API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

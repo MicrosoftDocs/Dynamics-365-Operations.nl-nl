@@ -2,27 +2,23 @@
 title: Overzicht van de standaard landingspagina voor categorieën en pagina met zoekresultaten
 description: In dit onderwerp vindt u een overzicht van de standaard landingspagina voor categorieën en pagina met zoekresultaten in Dynamics 365 Commerce.
 author: ashishmsft
-manager: annbe
 ms.date: 06/30/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e85449c10fa4a768a144ce423a77bd1fc2c94352
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6f61ee8ec212185e195e2cf1a9d6d25c31e4f672
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411343"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982429"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Overzicht van de standaard landingspagina voor categorieën en pagina met zoekresultaten
 
@@ -34,7 +30,7 @@ In dit onderwerp vindt u een overzicht van de standaard landingspagina voor cate
 
 De standaard landingspagina voor categorieën is de pagina waar websitegebruikers doorgaans naartoe worden geleid wanneer ze een categorie in de navigatiehiërarchie selecteren. Op de categoriepagina kunt u bladeren en de producten in de categorieën sorteren en verfijnen.
 
-![Standaard landingspagina voor categorieën](./media/SimpleCategoryLandingDressCategory.png)
+![Standaard landingspagina voor categorieën.](./media/SimpleCategoryLandingDressCategory.png)
 
 Boven aan de pagina staat een koptekst waarin alle productcategorieën en andere pagina's worden weergegeven die door de merchandisingmanager zijn ingedeeld. De configuratie wordt uitgevoerd als onderdeel van de configuratie van de navigatiehiërarchie voor afzetkanalen. Onder aan de pagina staat een voettekst die snelkoppelingen bevat naar verschillende onderwerpen waarin klanten mogelijk geïnteresseerd zijn.
 
@@ -58,7 +54,7 @@ De volgende onderdelen zijn essentieel voor een categorie:
 
 Als u een landingspagina wilt aanpassen voor een specifieke categorie, kunt u de categorielandingspagina "verrijken". U kunt bijvoorbeeld een marketingvideo en een bepaalde categorie toevoegen om de aandacht van de klant te vragen. Zie [Een landingspagina voor een categorie verrijken](enrich-category-page.md) voor meer informatie.
 
-![Verrijkte landingspagina voor categorie](./media/CategoryLandingPages.png)
+![Verrijkte landingspagina voor categorie.](./media/CategoryLandingPages.png)
 
 ## <a name="auto-suggest-and-search-results-pages"></a>Pagina's met automatische suggesties en zoekresultaten
 
@@ -72,11 +68,11 @@ Hieronder ziet u enkele voor beelden van suggesties die kunnen worden weergegeve
 - **Producten** bieden directe koppelingen naar de pagina met productgegevens.
 - **Zoeksuggesties voor categorieën in bereik** vermelden verschillende categorieën en laten gebruikers het trefwoord zoeken in een bepaalde categorie.
 
-![Automatische suggesties](./media/ImmersiveAutoSuggestUX.png)
+![Automatische suggesties.](./media/ImmersiveAutoSuggestUX.png)
 
 Wanneer gebruikers een suggestie selecteren voor trefwoorden of de voor zoekcategorieën, of als er geen suggesties zijn voor de zoekterm die ze invoeren, worden ze omgeleid naar een pagina met zoekresultaten. De gebruikers kunnen vervolgens door de lijst bladeren, sorteren en de lijst met zoekresultaten verfijnen om het gewenste artikel te vinden.
 
-![Landingspagina voor zoeken](./media/SearchLanding.png)
+![Landingspagina voor zoeken.](./media/SearchLanding.png)
 
 De volgende onderdelen zijn essentieel voor een pagina met zoekresultaten:
 
@@ -97,13 +93,13 @@ De volgende onderdelen zijn essentieel voor een pagina met zoekresultaten:
 
 >[!NOTE]
 >Deze zoekmogelijkheden via de cloud zijn beschikbaar vanaf versie 10.0.8. Zorg ervoor dat onder **Commerce-parameters > Configuratieparameters** een vermelding bestaat voor ProductSearch.UseAzureSearch die is ingesteld op true. 
-![Configuratieparameters voor zoekopdrachten via de cloud](./media/CloudPoweredSearchConfigurationParameters.png)
+![Configuratieparameters voor zoekopdrachten via de cloud.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van zoekopdrachten via cloud](cloud-powered-search-overview.md)
 
-[Overzicht van de startpagina](quick-tour-home-page.md)
+[Overzicht van startpagina](quick-tour-home-page.md)
 
 [Overzicht van de pagina met productgegevens](quick-tour-pdp.md)
 
@@ -111,3 +107,6 @@ De volgende onderdelen zijn essentieel voor een pagina met zoekresultaten:
 
 [Overzicht van pagina's voor accountbeheer](quick-tour-account-management.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,26 +2,24 @@
 title: Startpagina mobiele app
 description: In dit onderwerp wordt de mobiele app voor Finance and Operations (Dynamics 365) beschreven en worden koppelingen verstrekt naar bronnen die u kunnen helpen deze toe te passen in uw organisatie.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 01/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: 272853
+ms.custom: intro-internal
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: e4a9d6424e2d214624c148c0565c88ea4cf4ccf9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 8a91f603b4dd058341110c59039a6d3c782e06ee768fbf0e7f94e9527a6354ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683453"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729703"
 ---
 # <a name="mobile-app-home-page"></a>Startpagina mobiele app
 
@@ -29,8 +27,7 @@ ms.locfileid: "4683453"
 
 In dit onderwerp wordt de mobiele app voor **Finance and Operations (Dynamics 365)** beschreven en worden koppelingen verstrekt naar bronnen die u kunnen helpen deze toe te passen in uw organisatie.
 
-<a name="overview"></a>Overzicht
---------
+## <a name="overview"></a>Overzicht
 
 De mobiele app stelt uw organisatie in staat de eigen bedrijfsprocessen beschikbaar te maken op mobiele apparaten. Nadat uw IT-beheerder de mobiele werkgebieden voor uw organisatie heeft ingeschakeld, kunnen gebruikers zich aanmelden bij de app en direct beginnen met het uitvoeren van bedrijfsprocessen vanaf hun mobiele apparaten. De mobiele app omvat de volgende functies waarmee de productiviteit kan worden verhoogd:
 
@@ -42,7 +39,7 @@ De mobiele app stelt uw organisatie in staat de eigen bedrijfsprocessen beschikb
 ## <a name="elements-of-the-mobile-app"></a>Elementen van de mobiele app
 Navigeren in de mobiele app omvat vier basisconcepten: het dashboard, de werkgebieden, de pagina's en de acties. 
 
-[![Navigatieconcepten in de mobiele app](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
+[![Navigatieconcepten in de mobiele app.](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
 
 1. Wanneer u de app start, gaat u naar het **dashboard**.
 2. Op het dashboard ziet u een lijst met **werkgebieden** die zijn gepubliceerd.
@@ -56,7 +53,7 @@ Navigeren in de mobiele app omvat vier basisconcepten: het dashboard, de werkgeb
 ## <a name="implementation-process"></a>Implementatieproces
 In de volgende afbeelding ziet u het proces voor de implementatie van zowel mobiele werkgebieden die door Microsoft worden geleverd als ook aangepaste mobiele werkgebieden. 
 
-[![Implementatieproces voor mobiele apps](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
+[![Implementatieproces voor mobiele apps.](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 De volgende tabel bevat koppelingen naar resources die u kunnen helpen bij de implementatie van zowel mobiele werkgebieden die door Microsoft worden geleverd als ook aangepaste mobiele werkgebieden. De nummers in de eerste kolom komen overeen met de genummerde stappen in de bovenstaande afbeelding.
 
@@ -93,8 +90,8 @@ De volgende tabel bevat koppelingen naar resources die u kunnen helpen bij de im
 <li><a href="../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">Mobiel werkgebied voorhanden voorraad</a></li>
 <li><a href="../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">Mobiele werkbieden voor verkooporders</a></li>
 <li><a href="../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">Mobiel werkgebied voor leverancierssamenwerking</a></li>
-<li><a href="../../../finance/project-management/project-time-entry-mobile-workspace.md">Tijdinvoer voor project voor mobiel werkgebied</a></li>
-<li><a href="../../../finance/expense-management/expense-management-mobile-workspace.md">Mobiel werkgebied voor onkostenbeheer</a></li>
+<li><a href="/dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace">Tijdinvoer voor project voor mobiel werkgebied</a></li>
+<li><a href="/dynamics365/project-operations/prod-exp/expense-management-mobile-workspace">Mobiel werkgebied voor onkostenbeheer</a></li>
 
 </ul></td>
 </tr>
@@ -151,3 +148,6 @@ De volgende tabel bevat koppelingen naar resources die u kunnen helpen bij de im
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 [Resources voor mobiel platform](platform/mobile-platform-home-page.md#troubleshooting-the-app)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

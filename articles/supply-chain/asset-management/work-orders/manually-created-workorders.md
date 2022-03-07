@@ -1,12 +1,10 @@
 ---
 title: Handmatig gemaakte werkorders
 description: In dit onderwerp wordt uitgelegd hoe u werkorders handmatig maakt in Activabeheer.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderTableCreateRelated, EntAssetWorkOrderTableCreate, EntAssetWorkOrderTableCopy
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8c787dbc9889139df76b9b102deb18fce567e382
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: a755fa579d929056296c5512f976d15c4808c336b6688b891a4712051e15e9a1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017863"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750095"
 ---
 # <a name="manually-created-work-orders"></a>Handmatig gemaakte werkorders
 
@@ -73,7 +71,7 @@ Let op de volgende punten:
 
 - De kritieke eigenschappen van een werkorder worden telkens opnieuw berekend wanneer een werkordertaak wordt toegevoegd aan of verwijderd uit de werkorder.
 
-- In de detailweergave **Alle werkorders** > tabblad **Koptekst** > sneltabblad **Planning** kunt u een verantwoordelijke onderhoudsmedewerkersgroep of een verantwoordelijke onderhoudsmedewerker selecteren in het veld **Verantwoordelijke groep** of **Verantwoordelijke**. Deze instellingen kunnen worden gewijzigd terwijl de werkorder actief is. Ze kunnen bijvoorbeeld worden gewijzigd als de levenscyclusstatus van de werkorder verandert. De automatische selectie tijdens het maken van de werkorder is gebaseerd op de instellingen op de pagina **Verantwoordelijke onderhoudsmedewerkers**. Als u werkordertaken toevoegt of verwijdert nadat u een werkorder hebt gemaakt, en als de velden **Verantwoordelijke groep** en **Verantwoordelijke** leeg zijn wanneer u de werkorder bijwerkt, zoekt Activabeheer naar een mogelijke overeenkomst op de instellingenpagina voor een verantwoordelijke onderhoudsmedewerkersgroep of een verantwoordelijke onderhoudsmedewerker. Als het veld **Verantwoordelijke groep** of **Verantwoordelijke** al is ingesteld wanneer u de werkorder bijwerkt, worden er geen wijzigingen aangebracht. Zie [Verantwoordelijke onderhoudsmedewerkers](../setup-for-maintenance-requests/responsible-workers.md) voor meer informatie over verantwoordelijke onderhoudsmedewerkers en onderhoudsmedewerkersgroepen.
+- In de detailweergave **Alle werkorders** > tabblad **Header** > sneltabblad **Planning** kunt u een verantwoordelijke onderhoudsmedewerkersgroep of een verantwoordelijke onderhoudsmedewerker selecteren in het veld **Verantwoordelijke groep** of **Verantwoordelijke**. Deze instellingen kunnen worden gewijzigd terwijl de werkorder actief is. Ze kunnen bijvoorbeeld worden gewijzigd als de levenscyclusstatus van de werkorder verandert. De automatische selectie tijdens het maken van de werkorder is gebaseerd op de instellingen op de pagina **Verantwoordelijke onderhoudsmedewerkers**. Als u werkordertaken toevoegt of verwijdert nadat u een werkorder hebt gemaakt, en als de velden **Verantwoordelijke groep** en **Verantwoordelijke** leeg zijn wanneer u de werkorder bijwerkt, zoekt Activabeheer naar een mogelijke overeenkomst op de instellingenpagina voor een verantwoordelijke onderhoudsmedewerkersgroep of een verantwoordelijke onderhoudsmedewerker. Als het veld **Verantwoordelijke groep** of **Verantwoordelijke** al is ingesteld wanneer u de werkorder bijwerkt, worden er geen wijzigingen aangebracht. Zie [Verantwoordelijke onderhoudsmedewerkers](../setup-for-maintenance-requests/responsible-workers.md) voor meer informatie over verantwoordelijke onderhoudsmedewerkers en onderhoudsmedewerkersgroepen.
 
 - Op de pagina [Onderhoudsstatus](../controlling-and-reporting/maintenance-status.md) kunt u een berekening uitvoeren om een overzicht te krijgen van de werkbelasting voor inkomende en voltooide werkorders.  
 
@@ -113,7 +111,7 @@ U kunt een werkorder maken die betrekking heeft op een bestaande werkorder. Deze
 
 In de onderstaande afbeelding ziet u een voorbeeld van het dialoogvenster **Gerelateerde werkorder maken**.
 
-![Figuur 1](media/03-work-orders.png)
+![Figuur 1.](media/03-work-orders.png)
 
 >[!NOTE]
 >Als u een masker voor verwante werkorders hebt ingesteld in **Parameters voor activabeheer** > **tabblad Werkorders** > veld **Verwante-werkordermasker**, worden werkorder-id's gemaakt op basis van de maskerinstellingen. Als er geen verwante-werkordermasker is ingesteld, wordt de volgende beschikbare werkorder-id gebruikt voor gerelateerde werkorders.
@@ -139,7 +137,7 @@ U kunt snel een nieuwe werkorder maken op basis van een bestaande werkorder. Dez
 
 In de onderstaande afbeelding ziet u een voorbeeld van het dialoogvenster **Werkorder kopiëren**.
 
-![Figuur 2](media/04-work-orders.png)
+![Figuur 2.](media/04-work-orders.png)
 
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Een werkorder maken op basis van een onderhoudsverzoek
@@ -159,9 +157,12 @@ In de onderstaande afbeelding ziet u een voorbeeld van het dialoogvenster **Werk
 
 In de onderstaande afbeelding ziet u een voorbeeld van het dialoogvenster **Werkorder maken**.
 
-![Figuur 3](media/05-work-orders.png)
+![Figuur 3.](media/05-work-orders.png)
 
 
 >[!NOTE]
 >Als u automatisch werkorders wil maken kunt u onderhoudsplantaken plannen of 'automatisch maken' instellen voor [onderhoudsplannen](../preventive-and-reactive-maintenance/maintenance-plans.md) of [onderhoudsronden](../preventive-and-reactive-maintenance/maintenance-rounds.md) voor een activum. Werkorders die zijn gemaakt op basis van onderhoudsverzoeken in de lijstpagina **Alle onderhoudsschema's**, hebben de typen onderhoudstaken die in de onderhoudsverzoeken zijn geselecteerd.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

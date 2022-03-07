@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, RetailCategoryAndProductWorkspace, RetailCategoryAndProductAssortment, RetailAssortmentDetails, RetailOperatingUnitPicker, EcoResCategorySingleLookup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: caac7baa7841eea85c2c47f938f75663a7f9255a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 44d9058d6ebe0eca9564d2315c42677390b2c2ca
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411416"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205716"
 ---
 # <a name="manage-assortments-november-2016"></a>Assortimenten beheren (november 2016)
 
@@ -55,3 +54,6 @@ In deze procedure wordt getoond hoe u een nieuw productassortiment kunt maken en
 1. Klik op Publiceren.
 2. Klik op Ja.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

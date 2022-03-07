@@ -1,6 +1,6 @@
 ---
 title: Aanbevelingen voor vergelijkbare artikelen inschakelen
-description: In dit onderwerp wordt beschreven hoe u productaanbevelingen voor vergelijkbare artikelen kunt inschakelen in in Microsoft Dynamics 365 Commerce.
+description: In dit onderwerp wordt beschreven hoe u productaanbevelingen voor vergelijkbare artikelen kunt inschakelen in Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
 ms.date: 08/06/2020
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,20 +18,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: da957850072e233a41a042d5857f81ddbf178f7a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d0b3585ce326e47b119b3f6c41436b9e6494ec87
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411450"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478087"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>Aanbevelingen voor vergelijkbare artikelen inschakelen
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u productaanbevelingen voor vergelijkbare artikelen kunt inschakelen in in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
+In dit onderwerp wordt beschreven hoe u productaanbevelingen voor vergelijkbare artikelen kunt inschakelen in Microsoft Dynamics 365 Commerce.
 
 De aanbevelingen van de optie voor voor vergelijkbare artikelen in Dynamics 365 Commerce maakt gebruik van de kracht van kunstmatige intelligentie en machine learning (AI-ML) om aanbevelingen te geven voor vergelijkbare producten aan klanten. Door de aanbevelingen voor vergelijkbare artikelen beschikbaar te maken voor alle detailhandelkanalen in Commerce, kunnen detailhandelaren de klanttevredenheid verbeteren doordat klanten gemakkelijk vinden wat ze zoeken.
 
@@ -116,3 +113,6 @@ In de volgende afbeelding ziet u het selectievakje **Koppeling voor vergelijkbar
 [Aanbevelingen maken met voorbeeldgegevens](product-recommendations-demo-data.md)
 
 [Veelgestelde vragen over productaanbevelingen](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

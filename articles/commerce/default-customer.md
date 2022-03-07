@@ -2,36 +2,30 @@
 title: Een standaardklant maken
 description: In dit onderwerp wordt beschreven hoe u een standaardklant kunt maken die u kunt gebruiken wanneer u een kanaal maakt in Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ba1d10a897f349703737068d772423f7d0292944
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ff9e5665ffd82982e09f63e34b30ae6937666231855587ad2f27c5231ead8419
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411291"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720954"
 ---
 # <a name="create-a-default-customer"></a>Een standaardklant maken
-
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u een standaardklant kunt maken die u kunt gebruiken wanneer u een kanaal maakt in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 Wanneer u een kanaal maakt, moet u een standaardklant opgeven. U kunt eenvoudig een standaardklant maken nadat u eerst de klantgroep en het adresboek van de klant hebt gemaakt.
 
@@ -53,7 +47,7 @@ Volg deze stappen om een klantgroep te maken.
 
 De volgende afbeelding geeft een aantal geconfigureerde klantgroepen weer.
 
-![Klantengroepen](media/customer-groups.png)
+![Klantengroepen.](media/customer-groups.png)
 
 ## <a name="create-a-customer-address-book"></a>Een nieuw adresboek voor een klant maken
 
@@ -69,7 +63,7 @@ Volg deze stappen om een nieuw klantadresboek te maken.
 
 In de volgende afbeelding ziet u een voorbeeld van een adresboek.
 
-![Adresboek](media/address-book.png)
+![Adresboek.](media/address-book.png)
 
 ## <a name="create-a-default-customer"></a>Een standaardklant maken
 
@@ -92,11 +86,11 @@ Volg deze stappen om een standaardklant te maken.
 
 In de volgende afbeelding ziet u hoe een klant wordt gemaakt.
 
-![Een standaardklant maken](media/default-customer-creation.png)
+![Een standaardklant maken.](media/default-customer-creation.png)
 
 In de volgende afbeelding wordt de configuratie van een standaardklant weergegeven.
 
-![Voorbeeld van klantconfiguratie](media/default-customer-configuration1.png)
+![Voorbeeld van klantconfiguratie.](media/default-customer-configuration1.png)
 
 De meeste standaardwaarden in het detailscherm van de klant kunnen blijven staan, maar twee waarden moeten worden gewijzigd.
 
@@ -106,10 +100,13 @@ De meeste standaardwaarden in het detailscherm van de klant kunnen blijven staan
 
 In de volgende afbeelding ziet u hoe een klant wordt geconfigureerd.
 
-![Voorbeeld van klantconfiguratie](media/default-customer-configuration2.png)
+![Voorbeeld van klantconfiguratie.](media/default-customer-configuration2.png)
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van kanalen](channels-overview.md)
 
 [Vereisten voor het instellen van kanalen](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

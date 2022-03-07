@@ -3,19 +3,24 @@ title: Formuletaal in Elektronische rapportage
 description: Dit onderwerp biedt algemene informatie over het gebruik van de formuletaal in ER (Elektronische rapportage).
 author: NickSelin
 ms.date: 05/04/2020
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0ef0b9e411fabca1427b985eb51640bfd2a0d59318a456cb5b1ecdea1445fab5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 470b4fa1c8b15ae4a9e9ebef81af9e4ca107422d
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750619"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6223981"
 ---
 # <a name="electronic-reporting-formula-language"></a>Formuletaal in Elektronische rapportage
 
@@ -112,15 +117,15 @@ Wanneer een expressie naar een gestructureerde gegevensbron verwijst, kunt u de 
 
 Als het pad van een gestructureerde gegevensbron begint met een apenstaartje (@), is dit een relatief pad. Het apenstaartje wordt weergegeven in plaats van het resterende deel van het absolute pad van de hiërarchische boomstructuur die wordt gebruikt. In de volgende afbeelding ziet u een voorbeeld. Hier geeft het absolute pad `Ledger.'accountingCurrency()'` aan dat de waarde van de valuta voor boekhouding uit de gegevensbron **Grootboek** wordt ingevoerd in het veld **AccountingCurrency** van het gegevensmodel.
 
-![Voorbeeld van een absoluut pad op de pagina ER-modeltoewijzing ontwerpen.](./media/ER-FormulaLanguage-AbsolutePath.png)
+![Voorbeeld van een absoluut pad op de pagina ER-modeltoewijzing ontwerpen](./media/ER-FormulaLanguage-AbsolutePath.png)
 
 In het voorbeeld in de volgende afbeelding ziet u hoe een relatief pad wordt gebruikt. Het relatieve pad `@.AccountNum` geeft aan dat het veld **AccountNum** van de gegevensbron **Intrastat** (die één niveau boven het veld **AccountNum** in de hiërarchische structuur van het gegevensmodel wordt weergegeven) wordt gebruikt om het klant- of leverancierrekeningnummer in te voeren in het veld **AccountNum** van het gegevensmodel.
 
-![Voorbeeld van een relatief pad op de pagina ER-modeltoewijzing ontwerpen.](./media/ER-FormulaLanguage-RelativePath1.png)
+![Voorbeeld van een relatief pad op de pagina ER-modeltoewijzing ontwerpen](./media/ER-FormulaLanguage-RelativePath1.png)
 
 Het resterende gedeelte van het absolute pad wordt ook weergegeven in de [ER-formule-editor](general-electronic-reporting-formula-designer.md).
 
-![Resterend gedeelte van het absolute pad op de pagina ER-formuleontwerper.](./media/ER-FormulaLanguage-RelativePath2.png)
+![Resterend gedeelte van het absolute pad op de pagina ER-formuleontwerper](./media/ER-FormulaLanguage-RelativePath2.png)
 
 Zie [Een relatief pad gebruiken in gegevensbindingen van ER-modellen en -indelingen](relative-path-data-bindings-er-models-format.md) voor meer informatie.
 

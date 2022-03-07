@@ -1,33 +1,32 @@
 ---
 title: Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (19 maart 2020)
 description: In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 19 maart 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 902539a5abecba6ad99718afbb37613838450032
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 0bea115ed111d1309e19631c1cc08fdbab0dca3f
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526852"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062029"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-19-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (19 maart 2020)
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 In dit artikel worden de functies beschreven die in Dynamics 365 Human Resources nieuw of gewijzigd zijn. Wijzigingen die van toepassing zijn op buildnummer 8.1.3014. De getallen tussen haakjes in sommige koppen verwijzen ter referentie naar ondersteuningsnummers in Lifecycle Services (LCS).
 
@@ -53,7 +52,7 @@ U kunt nu saldi aanpassen voor verlofplannen die zijn gemaakt met de preview-fun
 
 Voor werknemers waarvoor het dienstverband wordt beëindigd, wordt in de entiteit de primaire positie weergegeven die actief was op het moment van beëindiging. Voor integraties wordt geen dubbele record meer gemaakt voor de werknemerspositietoewijzing van de werknemer. 
 
-## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>Common Data Service-oplossing is nu beschikbaar met de volgende wijzigingen:
+## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>Dataverse-oplossing is nu beschikbaar met de volgende wijzigingen:
 
 | Omschrijving | Wisselgeld |
 | --- | --- |
@@ -65,12 +64,12 @@ Voor werknemers waarvoor het dienstverband wordt beëindigd, wordt in de entitei
 | Entiteiten voor nieuwe instellingen voor variabele compensatie | <ul><li>**Type variabelecompensatieplan**</li><li>**Variabelecompensatieplan**</li><li>**Vestigingsregels**</li><li>**Niveau variabelecompensatieplan**</li></ul> |
 | Nieuwe entiteit **Medewerkerkalender aanstelling** | <ul><li>Entiteit **Werkkalender** toegevoegd</li></ul> |
 | Nieuwe entiteit **Salarispositiedetail** | <ul><li>**Salarispositiedetail** toegevoegd</li></ul> |
-| Nieuwe entiteit **Titel** | <ul><li>**Titel** toegevoegd</li></ul>De nieuwe entiteit **Titel** wordt opgenomen in Common Data Service maar er wordt nu niet naar verwezen in de entiteiten **Taakpositie** of **Functie**. |
+| Nieuwe entiteit **Titel** | <ul><li>**Titel** toegevoegd</li></ul>De nieuwe entiteit **Titel** wordt opgenomen in Dataverse maar er wordt nu niet naar verwezen in de entiteiten **Taakpositie** of **Functie**. |
 
 > [!NOTE]
-> Financiële dimensies voor zowel posities als aanstellingen zorgen voor integratie in één richting voor updates van Human Resources naar Common Data Service. Voor updates van financiële dimensies wordt Common Data Service momenteel niet gesynchroniseerd met Human Resources.
+> Financiële dimensies voor zowel posities als aanstellingen zorgen voor integratie in één richting voor updates van Human Resources naar Dataverse. Voor updates van financiële dimensies wordt Dataverse momenteel niet gesynchroniseerd met Human Resources.
 
-In de komende weken zijn deze entiteitswijzigingen beschikbaar in alle omgevingen. Handmatig de meest recente Common Data Service-oplossing voor Human Resources installeren:
+In de komende weken zijn deze entiteitswijzigingen beschikbaar in alle omgevingen. Handmatig de meest recente Dataverse-oplossing voor Human Resources installeren:
 
 1.  Ga naar het [Power Platform-beheercentrum](https://admin.powerplatform.microsoft.com).
 
@@ -127,6 +126,8 @@ De volgende voorbeeldfuncties zijn beschikbaar op 3 februari 2020:
 ## <a name="see-also"></a>Zie ook
 
 [Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)</br>
-[Overzicht van releasewave 2 van Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Overzicht van releasewave 2 van Dynamics 365 Human Resources](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Het updateproces](hr-admin-setup-update-process.md)</br>
 [Functies beheren](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

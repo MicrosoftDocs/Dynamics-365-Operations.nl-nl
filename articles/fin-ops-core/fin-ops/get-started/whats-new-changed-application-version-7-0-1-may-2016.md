@@ -2,11 +2,9 @@
 title: Wat is nieuw of gewijzigd in Dynamics AX-toepassingsversie 7.0.1 (mei 2016)
 description: In dit artikel worden de functies beschreven die in Microsoft Dynamics AX versie 7.0.1 nieuw of gewijzigd zijn. Deze versie werd uitgebracht in mei 2016 en heeft een buildnummer van 7.0.1265.23014.
 author: sericks007
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 17067ff534e0e3f4636d7a307563128db55cf2ba
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 9a455ffbc4396ea4bf0e3df12e7acdcbfeaa5f5269dbe772848341ac0d22a5e1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797159"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748259"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Wat is nieuw of gewijzigd in Dynamics AX-toepassingsversie 7.0.1 (mei 2016)
 
@@ -78,7 +76,7 @@ In dit artikel worden de functies beschreven die in Microsoft Dynamics AX versie
 </tr>
 <tr>
 <td>Ondersteun stuklijsten die artikelen met verschillende productafmetingen van hetzelfde artikel bevatten.</td>
-<td>Wanneer u een of meerdere van de productafmetingen in productie gebruikt, kunt u situaties hebben waarin u een artikel wilt produceren op basis van een andere variant van hetzelfde artikel. Zie <a href="https://blogs.msdn.microsoft.com/axmfg/2015/12/22/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item/">deze blog</a> voor meer informatie.</td>
+<td>Wanneer u een of meerdere van de productafmetingen in productie gebruikt, kunt u situaties hebben waarin u een artikel wilt produceren op basis van een andere variant van hetzelfde artikel. Zie <a href="/archive/blogs/axmfg/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item">deze blog</a> voor meer informatie.</td>
 </tr>
 <tr>
 <td>Productieorders met circulaire structuren op het eerste niveau van de stuklijsten zijn uitgesloten van berekening op stuklijstniveau voor de planning van materiaalresources.</td>
@@ -106,3 +104,6 @@ In dit artikel worden de functies beschreven die in Microsoft Dynamics AX versie
 [Nieuwe of gewijzigde functies op de startpagina van Finance and Operations](whats-new-changed.md)
 
 [Nieuwe of bijgewerkte taakbegeleidingen (mei 2016)](new-updated-task-guides-available-may-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

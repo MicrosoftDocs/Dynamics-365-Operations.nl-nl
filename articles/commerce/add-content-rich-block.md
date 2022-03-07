@@ -2,35 +2,30 @@
 title: Tekstblokmodule
 description: In dit onderwerp wordt beschreven wat tekstblokmodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c6527ad00e74fa105f3873036eb56557b98b05aa
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 20a2e0bc46e182172ccd96f556fd398e8bffc34b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411312"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347537"
 ---
-# <a name="text-block-module"></a>Tekstblokmodule
+# <a name="text-block-module"></a>Text Block-module
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven wat tekstblokmodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 Een tekstblokmodule is een module die wordt gebruikt om tekstuele inhoud toe te voegen. Deze inhoud kan informatief of promotioneel zijn.
 
@@ -47,11 +42,11 @@ Tekstblokmodules kunnen op de volgende manieren worden gebruikt:
 
 De volgende afbeelding toont een voorbeeld van een tekstblokmodule die wordt gebruikt op een introductiepagina.
 
-![Voorbeeld van een tekstblokmodule](./media/ecommerce-textblock.PNG)
+![Voorbeeld van een tekstblokmodule.](./media/ecommerce-textblock.PNG)
 
 ## <a name="text-block-module-properties"></a>Eigenschappen van tekstblokmodule
 
-| Naam van eigenschap.     | Waarde                                            | Omschrijving |
+| Naam van eigenschap.     | Waarde                                            | Beschrijving |
 |-------------------|--------------------------------------------------|-------------|
 | RTF         | RTF                                        | Alineatekst. Sommige basisfuncties voor tekstopmaak worden ondersteund, zoals vetgedrukte, onderstreepte en cursieve tekst. |
 | Naam van aangepaste klasse | Een naam voor een CSS-klasse (trapsgewijs opmaakmodel)        | De naam van een aangepaste CSS-klasse die een ontwikkelaar biedt om deze module te formatteren. De klassenaam moet worden gedefinieerd in het themapakket. |
@@ -89,3 +84,6 @@ Voer de volgende stappen uit om een tekstblokmodule aan een nieuwe pagina toe te
 
 [Videospelermodule](add-video-player.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

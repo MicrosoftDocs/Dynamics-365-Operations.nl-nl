@@ -2,28 +2,26 @@
 title: Startpagina Kostenbeheer
 description: Met Kostenbeheer kunt u de waardering en boekhouding van grondstoffen, halffabricaten, eindproducten en onderhanden werk afhandelen.
 author: AndersGirke
-manager: tfehr
 ms.date: 04/25/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc146f8a3707e830ff574964c5a8865271e69b50
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 83881e6b3bb588dad61fd14aa4db28aa76305925aab3ee08e2ebe7e001f2aff2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967678"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739102"
 ---
 # <a name="cost-management-home-page"></a>Startpagina Kostenbeheer
 
@@ -45,7 +43,7 @@ Voorraadboekhouding en Productieboekhouding zijn toegankelijk via de werkgebiede
 
 Via Productieboekhouding kunt u de [kostprijsberekening via taakorders](production-order-cost-analysis.md) in productie- en batchorders, en de [kostprijsberekening via terugwaarts afboeken](backflush-costing.md) in lean manufacturing afhandelen.
 
-De [Power BI-inhoud voor Kostenbeheer](../../dev-itpro/analytics/cost-management-content-pack.md) biedt het management inzicht in de voorraad en OHW-voorraad (onderhanden werk) en hoe de voortgang van de kosten hierin per categorie in de loop van de tijd verloopt. De informatie kan ook worden gebruikt als een uitgebreide aanvulling op het financiële overzicht.
+De [Power BI-inhoud voor Kostenbeheer](../../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md) biedt het management inzicht in de voorraad en OHW-voorraad (onderhanden werk) en hoe de voortgang van de kosten hierin per categorie in de loop van de tijd verloopt. De informatie kan ook worden gebruikt als een uitgebreide aanvulling op het financiële overzicht.
 
 ### <a name="additional-resources"></a>Aanvullende bronnen
 
@@ -59,8 +57,10 @@ In [Stuklijstberekening aan de hand van kostprijsberekening](https://www.microso
 
 #### <a name="blogs"></a>Weblogs
 
-U vindt meningen, nieuws en andere informatie over Kostenbeheer in de [blog van het R&D-team voor Dynamics AX Manufacturing](https://blogs.msdn.microsoft.com/axmfg) en de [blog van het R&D-team voor Supply Chain Management in Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). Hoewel sommige van deze berichten zijn geschreven voor de vorige versie van Kostenbeheer, zijn dezelfde concepten nog steeds van toepassing en komen ook de procedures overeen in de huidige versie.
+U vindt meningen, nieuws en andere informatie over Kostenbeheer in de [blog van het R&D-team voor Dynamics AX Manufacturing](/archive/blogs/axmfg/) en de [blog van het R&D-team voor Supply Chain Management in Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). Hoewel sommige van deze berichten zijn geschreven voor de vorige versie van Kostenbeheer, zijn dezelfde concepten nog steeds van toepassing en komen ook de procedures overeen in de huidige versie.
 
 #### <a name="task-guides"></a>Taakbegeleidingen
 
 Extra informatie is beschikbaar als taakbegeleidingen. Klik op elke pagina op de knop Help als u een taakbegeleiding wilt openen.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

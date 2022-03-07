@@ -2,11 +2,9 @@
 title: Power BI-inhoud - kostenbeheer
 description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud voor kostenbeheer.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd5558c89130b48595a9b889072a18a4416b5bd7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9fbdc6addc820aadc1f5469cb059a62724cfe905
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683890"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752635"
 ---
 # <a name="cost-management-power-bi-content"></a>Power BI-inhoud - kostenbeheer
 
@@ -31,12 +29,7 @@ ms.locfileid: "4683890"
 
 ## <a name="overview"></a>Overzicht
 
-De Microsoft Power BI-inhoud van **Kostenbeheer** is bedoeld voor voorraadboekhouders of personen in de organisatie die verantwoordelijk zijn voor of belang hebben bij de status van de voorraad of onderhanden werk (OHW), of die verantwoordelijk zijn voor of belang hebben bij het analyseren van afwijkingen voor standaardkosten.
-
-> [!NOTE]
-> De in dit onderwerp beschreven Power BI-inhoud voor **Kostenbeheer** is van toepassing op Dynamics 365 Finance and Operations 8.0.
-> 
-> Het Power BI-inhoudpakket voor **Kostenbeheer** dat beschikbaar is op de site AppSource, is afgeschaft. Zie [Verwijderde of afgeschafte functies voor Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource) voor meer informatie over die afschaffing.
+De Microsoft Power BI-inhoud **Kostenbeheer** is bedoeld voor voorraadboekhouders of personen in de organisatie die verantwoordelijk zijn voor of belang hebben bij de status van de voorraad of onderhanden werk (OHW), of die verantwoordelijk zijn voor of belang hebben bij het analyseren van afwijkingen voor standaardkosten.
 
 Deze Power BI-inhoud biedt een gecategoriseerde indeling waarmee u de prestaties van voorraden kunt controleren en kunt visualiseren hoe kostenstromen verlopen. U vindt de beheerinzichten zoals omloopsnelheid, aantal dagen dat de voorraad voorhanden is, nauwkeurigheid en 'ABC-classificatie' op het gewenste totalliseringsniveau (bedrijf, artikel, artikelgroep of locatie). De beschikbare informatie kan ook worden gebruikt als een uitgebreide aanvulling op het financiële overzicht.
 
@@ -207,3 +200,6 @@ De volgende belangrijke dimensies worden gebruikt als filters voor het segmenter
 | Rechtspersonen                                          | Namen rechtspersonen                              |
 | Fiscale kalenders                                        | Fiscale kalender, jaar, kwartaal, periode, maand   |
 | Site                                                    | Id, naam, adres, provincie/staat, land               |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

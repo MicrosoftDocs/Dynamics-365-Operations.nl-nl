@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3ab31b16c6ae07466d7655832701e71092064fe1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1538826f140393eec59be9ff4df5242d5ced9d8f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969498"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249744"
 ---
 # <a name="set-up-expense-types"></a>Onkostentypen instellen
 
@@ -58,3 +58,6 @@ Vervolgens koppelt u rekeningen aan de onkostentypen. Deze rekeningen worden ged
 7. Selecteer in de desbetreffende velden de hoofdrekening voor financiële leases en de hoofdrekening voor operationele leases.
 
 Wanneer u deze stappen hebt voltooid, kunt u onkosten toevoegen via de regels **Betalingsschema voor administratieve kosten** op de pagina **Leasedetails** van een geselecteerde lease. U kunt ook onkosten toevoegen wanneer u een nieuwe lease maakt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

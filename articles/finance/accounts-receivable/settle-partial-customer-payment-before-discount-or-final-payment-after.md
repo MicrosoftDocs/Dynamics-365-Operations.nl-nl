@@ -1,5 +1,5 @@
 ---
-title: Een gedeeltelijke klantenbetaling uitvoeren vóór de kortingsdatum met een definitieve betaling na de kortingsdatum
+title: Gedeeltelijke betaling uitvoeren vóór de kortingsdatum met definitieve betaling na de kortingsdatum
 description: Dit artikel bespreekt het effect van het vereffenen van betalingen aan facturen voor klanten. Het scenario richt zich op de gevolgen in de subadministratie, niet in het grootboek.
 author: ShivamPandey-msft
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14584
 ms.assetid: e54936f5-053b-4ed3-b778-42c7e9aeb7cf
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a71d0931445f3501f1b74f26c5eef583ab598b3c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 87408e864ab8e6101fc908e744231f10d0d2e664
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441860"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5250549"
 ---
-# <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Een gedeeltelijke klantenbetaling uitvoeren vóór de kortingsdatum met een definitieve betaling na de kortingsdatum
+# <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Gedeeltelijke betaling uitvoeren vóór de kortingsdatum met definitieve betaling na de kortingsdatum
 
 [!include [banner](../includes/banner.md)]
 
@@ -111,3 +110,6 @@ Arnie wijzigt de waarde in het veld **Contantkorting gebruiken** terug naar **No
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

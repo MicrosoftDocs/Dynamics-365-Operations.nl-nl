@@ -2,11 +2,9 @@
 title: Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.10 (mei 2020)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Supply Chain Management 10.0.10.
 author: kamaybac
-manager: tfehr
 ms.date: 04/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 63e8214608d5c8c4b1bcc805fdf1d307fc381db7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 882e9ba310930cd6a9c638c60d5be7edc6809335
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967200"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821196"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.10 (mei 2020)
 
@@ -75,3 +73,6 @@ In het onderwerp [Verwijderde of afgeschafte functies in Dynamics 365 Supply Cha
 Twaalf maanden voordat een functie uit het product wordt verwijderd, wordt de afschaffing aangekondigd in het onderwerp [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md).
 
 Voor ingrijpende wijzigingen die alleen van invloed zijn op de compilatietijd, maar binair compatibel zijn met sandbox- en productieomgevingen, is de afschaffingstijd korter dan 12 maanden. Meestal zijn dit functionele updates die moeten worden doorgevoerd in de compiler.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Gebruikersbeveiliging leveranciersportal
 description: In dit artikel wordt beschreven hoe u beveiliging instelt voor externe leveranciers die de leveranciersportal gebruiken. Deze informatie geldt alleen voor de versies van februari 2016 en mei 2016 van Dynamics AX.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 30231
 ms.assetid: 3574db17-81c7-4c5a-999b-0098aa0b9cda
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1be210728a6d5fa9a26daf9f13865ff08de03d2d
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 8539837adc5c5e775d073f142f00afc9f14de669
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018172"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5807843"
 ---
 # <a name="vendor-portal-user-security"></a>Gebruikersbeveiliging in leveranciersportal
 
@@ -49,3 +47,6 @@ Als dezelfde persoon toegang nodig heeft tot de Leveranciersportal voor meerdere
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

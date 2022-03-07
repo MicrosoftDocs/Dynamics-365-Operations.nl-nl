@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResCategoryAttribute, EcoResProductEntityAttributeTableFieldAssociation, EcoResCategorySearchList, EcoResAttribute, COODualUseCategories, EcoResAttributeType, EcoResAttributeValue, EcoResCategoryAttributeGroup, EcoResCategoryFriendlyName
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: b5d0e92196f98fb707b1c424a6ae237f4dc9545c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: db72e70f880dfd68cdd35762677c412fb810e4ec
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411358"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211467"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Kenmerken en kenmerkgroepen beheren
 
@@ -257,3 +256,6 @@ De standaardwaarden van kenmerken kunnen voor afzonderlijke producten worden ove
 
     > [!NOTE]
     > Als gedeelde productmedia en gedeelde productkenmerken zijn gemaakt, zijn ze van toepassing op alle producten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 1be07c754e563298d82f6ca54f09ae3aa9118602
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 834d90c8ec8515c6bced2d8a4fabc79b4e4e4c3e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411355"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211268"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Automatische toeslagen per kanaal inschakelen en configureren
 
@@ -77,7 +76,7 @@ Nadat u de functie **Automatische toeslagen per kanaal inschakelen** hebt ingesc
 
 Voer de volgende stappen uit om automatische toeslagen per kanaal te definiëren in Commerce.
 
-1. Ga naar  **Klanten \> Instelling van toeslagen \> Automatische toeslagen**.
+1. Ga naar **Klanten \> Instelling van toeslagen \> Automatische toeslagen**.
 1. Selecteer in het linkerdeelvenster in het veld **Niveau** de optie **Koptekst** of **Regel**, afhankelijk van uw zakelijke vereisten.
 1. Selecteer in het veld **Code detailhandelskanaal** de toepasselijke kanaalcode (bijvoorbeeld **Tabel** of **Groep**). Als de standaardinstelling **Alle** wordt gebruikt, worden toeslagregels op alle kanalen toegepast.
 
@@ -128,3 +127,6 @@ Selecteer **Transactieopties \> Toeslagen \> Toeslagen beheren** in de POS-toepa
 [Geavanceerde automatische toeslagen voor meerdere kanalen](omni-auto-charges.md)
 
 [Toeslagen voor koptekst naar rato verdelen voor overeenkomende verkoopregels](pro-rate-charges-matching-lines.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

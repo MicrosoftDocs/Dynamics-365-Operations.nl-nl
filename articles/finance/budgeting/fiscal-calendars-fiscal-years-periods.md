@@ -2,28 +2,25 @@
 title: Fiscale kalenders, boekjaren en boekperioden
 description: In dit artikel worden fiscale kalenders, boekjaren en perioden beschreven en wordt aangegeven hoe ze voor rechtspersonen, vaste activa en budgettering moeten worden gebruikt.
 author: aprilolson
-manager: AnnBe
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FiscalCalendars
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 25851
 ms.assetid: a968a5e5-585e-4389-aa4e-c885a7e23413
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b23b152ed6348b8f20b5deccf94394de6fbe85d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 87d06e9de2e4e360e92ed350dbad6350744e69ed79a30d2956ab598fdc8a9821
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442082"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734557"
 ---
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Fiscale kalenders, boekjaren en boekperioden
 
@@ -64,3 +61,6 @@ Met de pagina Grootboekkalender kunt u de details bekijken van de fiscale kalend
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

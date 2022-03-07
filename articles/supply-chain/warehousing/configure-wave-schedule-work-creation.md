@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
-ms.reviewer: kamaybac
+ms.reviewer: ''
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5b1e798ac0558e7c5b0bbe4b6a732cbdcf5729a1
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 2918d2cfa8792cc249e48990ccfa0dcf03e9b8c96f1264b48d3efd51f30cabd0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920108"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777642"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Het maken van werk plannen tijdens waves
 
@@ -33,7 +33,7 @@ Wanneer de functionaliteit is ingeschakeld, wordt automatisch gepland werk gemaa
 
 Als u de functies wilt gebruiken die in dit onderwerp worden beschreven, moeten deze zijn ingeschakeld voor uw systeem. Gebruik de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de volgende functies in deze volgende in te schakelen:
 
-1. **Werk blokkeren voor de hele organisatie**: vereist voor zowel handmatige als automatische configuratie van geplande werkcreatie. (Vanaf Supply Chain Management versie 10.0.21 is deze functie verplicht, waardoor deze standaard wordt ingeschakeld en niet meer kan worden uitgeschakeld.)
+1. **Werk blokkeren voor de hele organisatie**: vereist voor zowel handmatige als automatische configuratie van geplande werkcreatie.
 1. **Werk maken plannen**: vereist voor zowel handmatige als automatische configuratie van geplande werkcreatie.
 1. **Wavemethode "Werk maken plannen" voor de hele organisatie**: vereist voor automatische configuratie van geplande werkcreatie. U hebt deze functie niet nodig als u alleen handmatige configuratie gebruikt.
 
@@ -54,7 +54,7 @@ De bestaande taak- en waveverwerkingsconfiguraties worden ook bewaard voor alle 
 Indien nodig kunt u een of alle instellingen die automatisch zijn gemaakt handmatig terugzetten wanneer u de functie *Wavemethode "Werk maken plannen" voor de hele organisatie* hebt ingeschakeld door het volgende te doen:
 
 - Ga voor wavesjablonen naar **Magazijnbeheer \> Instellen \> Waves \> Wavesjablonen**. Vervang de methode *Werk maken plannen* door *Werk maken*.
-- Ga voor magazijnparameters naar **Magazijnbeheer \> Instellingen \> Parameters voor magazijnbeheer**. Pas op het tabblad **Golfverwerking** de gewenste waarden toe voor **Waves verwerken in batch** en **Wachten op vergrendeling (ms)**.
+- Ga voor magazijnparameters naar **Magazijnbeheer \> Instellen \> Parameters voor magazijnbeheer**. Pas op het tabblad **Golfverwerking** de gewenste waarden toe voor **Waves verwerken in batch** en **Wachten op vergrendeling (ms)**.
 - Ga voor de wavemethoden naar **Magazijnbeheer \> Instellen \> Waves \> Methoden voor verwerking van waves**. Selecteer `WHSScheduleWorkCreationWaveStepMethod` en selecteer **Taakconfiguratie** in het actievenster. Wijzig of verwijder het aantal batchtaken en de toegewezen wavegroep voor elk vermeld magazijn indien nodig.
 
 ## <a name="manually-configure-scheduled-work-creation"></a>Werkcreatie handmatig configureren
@@ -65,7 +65,7 @@ Als u de [functie *Wavemethode "Werk maken plannen" voor de hele organisatie*](#
 
 Als u wilt profiteren van een parallelle asynchrone methode voor het maken van magazijnwerk, moet uw waveproces worden uitgevoerd in batch. Dit instellen:
 
-1. Ga naar **Magazijnbeheer \> Instellingen \> Parameters voor magazijnbeheer**.
+1. Ga naar  **Magazijnbeheer \> Instellen \> Parameters voor magazijnbeheer**.
 1. Stel op het tabblad **Algemeen** de optie **Waves verwerken in batch** in op *Ja*. U kunt eventueel ook een specifieke **Batchgroep voor waveverwerking** selecteren om te voorkomen dat de batchwachtrijverwerking wordt uitgevoerd op hetzelfde moment als andere processen.
 1. Stel de **tijd Wachten op vergrendeling (ms)** in. Dit is van toepassing wanneer verschillende waves tegelijkertijd worden verwerkt. Voor de meeste grotere waveprocessen raden we een waarde van *60000* aan.
 
@@ -73,8 +73,8 @@ Als u wilt profiteren van een parallelle asynchrone methode voor het maken van m
 
 Begin met het maken van de nieuwe wave-stapmethode en het inschakelen van deze methode voor parallelle asynchrone taakverwerking.
 
-1. Ga naar **Magazijnbeheer \> Instellen \> Waves \> Methoden voor verwerking van waves**.
-1. Selecteer **Methoden opnieuw genereren** en merk op dat *WHSScheduleWorkCreationWaveStepMethod* is toegevoegd aan de lijst met waveprocesmethoden die u kunt gebruiken in uw verzendwavesjablonen.
+1. Ga naar  **Magazijnbeheer \> Instellen \> Waves \> Methoden voor verwerking van waves**.
+1. Selecteer  **Methoden opnieuw genereren** en merk op dat *WHSScheduleWorkCreationWaveStepMethod* is toegevoegd aan de lijst met waveprocesmethoden die u kunt gebruiken in uw verzendwavesjablonen.
 1. Selecteer de record met de **methodenaam** *WHSScheduleWorkCreationWaveStepMethod* en selecteer **Taakconfiguratie**.
 1. Selecteer in het actievenster **Nieuw** om een rij toe te voegen aan het raster en gebruik de volgende instellingen:
 
@@ -84,7 +84,7 @@ Begin met het maken van de nieuwe wave-stapmethode en het inschakelen van deze m
 
 U kunt nu een bestaande wavesjabloon bijwerken (of een nieuwe sjabloon maken) om de waveverwerkingsmethode *Werk maken plannen* te gebruiken.
 
-1. Ga naar **Magazijnbeheer \> Instellen \> Waves \> Wavesjablonen**.
+1. Ga naar  **Magazijnbeheer  \> Instellen \> Waves \> Wavesjablonen**.
 1. Selecteer **Bewerken** in het actievenster.
 1. Selecteer in het lijstdeelvenster de wavesjabloon die u wilt bijwerken (als u test met demonstratiegegevens, kunt u *24 Standaardverzending* gebruiken).
 1. Vouw het sneltabblad **Methoden** uit en selecteer de rij met de **naam** *Werk maken plannen* in het raster **Resterende methoden**.

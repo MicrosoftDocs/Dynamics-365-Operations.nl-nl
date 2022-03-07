@@ -2,33 +2,31 @@
 title: Cashflowprognose (preview)
 description: In dit onderwerp wordt de functie voor cashflowprognoses beschreven.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 05/19/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f97b8fc0896f0f7b95bf5609f94367b3a8230ca7
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 0ae8dc658cb0bc70cff569542a79196afd2bc1ef5c8ac93470f8233587e2d049
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645243"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713823"
 ---
 # <a name="cash-flow-forecast-preview"></a>Cashflowprognose (preview)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Cashflow is van groot belang voor alle bedrijven. Zelfs winstgevende bedrijven kunnen te maken krijgen met betalingsproblemen als de cashflow niet op peil is om onmiddellijke behoeften te voldoen. De prognosefunctie voor cashflow in Financiële inzichten kan bedrijven helpen hun contante saldi effectief te controleren en te beheren. Deze functie maakt gebruik van machine learning om bedrijven te helpen hun cashflowprognose nauwkeuriger te maken. Ook kunnen managers beslissingen nemen over het optimaliseren van verkoopkansen in de context van hun huidige financiële positie. 
 
@@ -66,5 +64,4 @@ Met een nieuw tabblad op de pagina **Cashflowprognose instellen** kunt u bepalen
 
 Kies op het tabblad **Dimensies** in de lijst de dimensies die u wilt gebruiken voor het filteren en verplaats deze naar de rechterkolom met de pijltoetsen. Er kunnen slechts twee dimensies worden geselecteerd voor het filteren van cashflowprognosegegevens. 
 
-#### <a name="privacy-notice"></a>Privacyverklaring
-Previews (1) bieden mogelijk minder privacy- en beveiligingsmaatregelen dan de service Dynamics 365 Finance and Operations, (2) worden niet opgenomen in de serviceovereenkomst voor deze service, (3) mogen niet worden gebruikt voor de verwerking van persoonsgegevens of andere gegevens die aan juridische of wettelijke nalevingvereisten zijn onderworpen en (4) worden slechts beperkt ondersteund.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

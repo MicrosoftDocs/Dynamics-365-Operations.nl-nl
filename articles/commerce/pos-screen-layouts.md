@@ -2,16 +2,13 @@
 title: Weergaveconfiguraties van POS-gebruikersinterface
 description: Dit onderwerp biedt informatie over schermindelingen voor Dynamics 365 Commerce.
 author: boycezhu
-manager: annbe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
-ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
+ms.openlocfilehash: b617ce4358a6b6aaacea9069d8db40c4aa82b7ed
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4411509"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798700"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Weergaveconfiguraties van POS-gebruikersinterface
 
@@ -117,6 +114,9 @@ In compacte POS-indelingen worden de knoppenrasters automatisch van boven naar b
 
 ![Knoppenrasters voor compacte indelingen](../commerce/media/Compact-View-Button-Grids.png)
 
+> [!NOTE]
+> De grootte van de knoppen in de ontwerper wordt aangepast aan de grootte van het venster en geven mogelijk niet de werkelijke knoppen aan die in POS worden weergegeven. U kunt de indeling van het knoppenraster het beste simuleren door de ontwerpvensters aan te passen tot dezelfde grootte als het POS.
+
 ### <a name="images"></a>Afbeeldingen
 
 Voor elke indelingsgrootte in een schermindeling kunt u afbeeldingen opgeven die moeten worden opgenomen in de POS-gebruikersinterface. Voor volledige POS-indelingen kan één afbeelding worden opgegeven voor het welkomstscherm. Deze afbeelding wordt links als het eerste element in de gebruikersinterface weergegeven. In het scherm **Transactie** kunnen afbeeldingen worden gebruikt als tabbladafbeeldingen of als logo. In compacte POS-indelingen worden deze afbeeldingen niet gebruikt.
@@ -205,3 +205,6 @@ In de ontwerper van het knoppenraster kunt u knoppenrasters configureren die kun
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [De indelingsontwerper voor Retail-verkooppunten (POS) installeren](install-pos-layout-designer.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

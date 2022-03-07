@@ -1,30 +1,32 @@
 ---
 title: De verbinding met de client wordt verbroken
-description: In dit artikel wordt uitgelegd wat u moet doen als de klant geen verbinding meer heeft met zijn of haar omgeving en niet weet waarom.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+description: In dit onderwerp wordt uitgelegd wat u moet doen als de klant geen verbinding meer heeft met de omgeving.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2088706baf8735fa371960955a2ffc3240ccac76
-ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
+ms.openlocfilehash: b15c5db19f1b07e3d469986ac700138ecb1d1525
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "4418065"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071130"
 ---
 # <a name="client-disconnects"></a>De verbinding met de client wordt verbroken
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Omgevingsdetails** 
 
@@ -32,7 +34,7 @@ Dit probleem kan optreden in alle omgevingen.
  
 **Symptoom** 
 
-De klant heeft geen verbinding meer met zijn of haar omgeving en weet niet waarom. Een van de volgende foutberichten wordt weergegeven:
+De klant heeft geen verbinding meer met de omgeving en weet niet waarom. Een van de volgende foutberichten wordt weergegeven:
 
 - De verbinding is verbroken. Klik op Sluiten om verder te gaan met werken.
 - Het lijkt erop dat de netwerkverbinding is verbroken. Klik op Opnieuw proberen om het opnieuw te proberen.
@@ -52,3 +54,6 @@ Microsoft Dynamics 365 Human Resources verbreekt de verbinding met gebruikers wa
 Zorg dat altijd slechts één omgeving tegelijk is geopend voor een bepaald browsertype. Gebruikers kunnen meerdere sessies naar dezelfde omgeving openen (meerdere tabbladen in dezelfde browser).
 
 Gebruikers die tegelijkertijd tussen twee omgevingen willen schakelen, moeten deze omgevingen in verschillende browsertypen openen. (Gebruiker A kan omgeving 1 bijvoorbeeld in Chrome en omgeving 2 in Microsoft Edge openen.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

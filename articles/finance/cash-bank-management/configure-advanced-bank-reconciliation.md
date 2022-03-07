@@ -2,28 +2,25 @@
 title: Instellingsproces van geavanceerde bankafstemming
 description: Met Geavanceerde bankafstemming kunt u elektronische bankafschriften importeren en deze automatisch afstemmen met banktransacties in Microsoft Dynamics 365 Finance. In dit artikel worden de instellingsregels voor afstemming uitgelegd.
 author: panolte
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 98303
 ms.assetid: ae071f04-f038-4b17-812d-0a241ed15521
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7103cb93ad0d9ea0f1b92e317bee7454eb08d1f2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 42c86a120403d8d87d62c76d56993decca7f6cdafaeb67c7afec29da0bf8f18f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442103"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757164"
 ---
 # <a name="advanced-bank-reconciliation-setup-process"></a>Instellingsproces van geavanceerde bankafstemming
 
@@ -61,3 +58,6 @@ Met de optie **Afstemmen na importeren** wordt automatisch het bankafschrift gev
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

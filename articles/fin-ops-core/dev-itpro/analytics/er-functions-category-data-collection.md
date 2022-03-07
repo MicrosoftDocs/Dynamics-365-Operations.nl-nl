@@ -2,8 +2,11 @@
 title: Lijst met ER-functies in de gegevensverzamelingscategorie
 description: Dit onderwerp biedt informatie over de gegevensverzamelingsfuncties die worden ondersteund in ER (Elektronische rapportage).
 author: NickSelin
+manager: kfend
 ms.date: 12/04/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2046931732f2d1c1ca040c1c84d4b182c2214f2f44a5a90fceda49298445b743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0ec6092f2992df91433bb8aaa4212fca2a0abf7c
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760069"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686288"
 ---
 # <a name="list-of-er-functions-in-the-data-collection-category"></a>Lijst met ER-functies in de gegevensverzamelingscategorie
 
@@ -45,6 +48,3 @@ Functies voor het verzamelen van gegevens in ER (Elektronische rapportage) worde
 [Formuleontwerper in elektronische aangifte](general-electronic-reporting-formula-designer.md)
 
 [Formuletaal in Elektronische rapportage](er-formula-language.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

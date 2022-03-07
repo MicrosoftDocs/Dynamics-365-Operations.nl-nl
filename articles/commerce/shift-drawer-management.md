@@ -2,29 +2,26 @@
 title: Ploeg- en kasladebeheer
 description: In dit onderwerp wordt uitgelegd hoe u ploegen gebruikt in verkooppunten (POS) in Commerce.
 author: jblucher
-manager: AnnBe
 ms.date: 05/10/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailHardwareProfile, RetailTerminalTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 105011
 ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 32b7be42509a2c857f1357eb64a6b488f9cd2269
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2ac42c92d38299c20bfcb293ac062aa9e4b1c628
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411451"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779739"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Ploeg- en kasladebeheer
 
@@ -48,7 +45,7 @@ Van oudsher werd dit scenario het meest gebruikt. En ook nu nog wordt het vaak g
 
 In een ploeg van het type Zwevende geldlade kunnen de ploeg en kassalade van de ene kassa naar de andere worden meegenomen. Hoewel voor een kassa slechts één actieve ploeg per kassalade kan bestaan, kunnen ploegen wel worden opgeschort en later op een andere kassa worden hervat.
 
-Stel dat een winkel twee kassa's heeft. Beide kassa's worden aan het begin van de dag geopend wanneer de kassamedewerker een nieuwe ploeg opent en het beginbedrag opgeeft. Wanneer een kassamedewerker pauze wil nemen, schort hij of zij zijn of haar ploeg op en neemt hij of zij de geldlade uit de kassa. Deze kassa wordt zo beschikbaar voor andere kassamedewerkers. Een andere kassamedewerker kan zich nu aanmelden en zijn of haar ploeg openen op de kassa. Als de pauze van de eerste kassamedewerker voorbij is, kan deze zijn of haar ploeg hervatten zodra een van de andere kassa's beschikbaar wordt. Ploegen van het type Zwevende geldlade vereisen geen speciale machtiging.
+Stel dat een winkel twee kassa's heeft. Beide kassa's worden aan het begin van de dag geopend wanneer de kassamedewerker een nieuwe ploeg opent en het beginbedrag opgeeft. Wanneer een kassamedewerker pauze wil nemen, onderbreekt deze de dienst op en neemt de geldlade uit de kassa. Deze kassa wordt zo beschikbaar voor andere kassamedewerkers. Een andere kassamedewerker kan zich nu aanmelden en met de eigen dienst beginnen op de kassa. Als de pauze van de eerste kassamedewerker voorbij is, kan deze de dienst hervatten zodra een van de andere kassa's beschikbaar wordt. Ploegen van het type Zwevende geldlade vereisen geen speciale machtiging.
 
 ### <a name="single-user"></a>Eén gebruiker
 
@@ -87,7 +84,7 @@ Deze bewerking is vaak de eerste bewerking voor een net geopende ploeg. Voor dez
 
 ### <a name="tender-removal"></a>Wisselgeld verwijderen
 
-*Wisselgeld verwijderen* is een niet-verkooptransactie die wordt uitgevoerd in een actieve ploeg. Hierdoor wordt het bedrag aan contant geld in de kassalade verlaagd. Deze bewerking wordt meestal gebruikt in combinatie met wisselgeldinvoer in een andere ploeg. Als kassa 1 weinig wisselgeld bevat, kan de gebruiker op kassa 2 bijvoorbeeld wisselgeld verwijderen om het bedrag in zijn of haar kassalade te verlagen. De gebruiker op de kassa 1 registreert nu een wisselgeldinvoer om het bedrag in zijn of haar kassalade te verhogen.
+*Wisselgeld verwijderen* is een niet-verkooptransactie die wordt uitgevoerd in een actieve ploeg. Hierdoor wordt het bedrag aan contant geld in de kassalade verlaagd. Deze bewerking wordt meestal gebruikt in combinatie met wisselgeldinvoer in een andere ploeg. Als kassa 1 weinig wisselgeld bevat, kan de gebruiker op kassa 2 bijvoorbeeld wisselgeld verwijderen om het bedrag in de kassalade te verlagen. De gebruiker op de kassa 1 registreert nu een wisselgeldinvoer om het bedrag in de eigen kassalade te verhogen.
 
 ### <a name="suspend-shift"></a>Ploeg uitstellen
 
@@ -157,4 +154,7 @@ Ga naar **Detailhandel en commerce \> Kanalen \> Winkels \> Alle winkels \> Over
 
 Met deze instelling zorgt u ervoor dat backoffice-overzichten dezelfde transacties als ploegen bevatten in het POS en dat de gegevens worden samengevat op basis van die ploegen.
 
-Zie [Winkelconfiguraties voor detailhandeloverzichten](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements) voor meer informatie over overzichten en afsluitingsmethoden.
+Zie [Winkelconfiguraties voor detailhandeloverzichten](/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements) voor meer informatie over overzichten en afsluitingsmethoden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

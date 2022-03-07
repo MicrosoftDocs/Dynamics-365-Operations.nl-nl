@@ -2,15 +2,12 @@
 title: Speciale betalingsterminals en -prompts voor een printer en kassalade
 description: Dit onderwerp biedt informatie over de mogelijkheid om een speciale betalingsterminal te hebben en de gebruiker te vragen om een kassalade en een kassabonprinter te selecteren.
 author: rubendel
-manager: AnnBe
 ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.custom: 141393
 ms.assetid: e23e944c-15de-459d-bcc5-ea03615ebf4c
 ms.search.region: Global
@@ -18,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 03cb68ede82668523e6970d33df676738e65fd83
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0611e90e47eabf0cb96208690acda22651d669ae812d2af2547a294c32ed0a1d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411403"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764532"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Speciale betalingsterminals en -prompts voor een printer en kassalade
 
@@ -53,13 +50,13 @@ De functionaliteit die in dit onderwerp wordt beschreven, wordt ondersteund door
 
 Deze functie ondersteunt netwerkbetalingsterminals en kassabonprinters. U kunt ondersteuning voor kassalades bieden door de kassalade via de d/k-poort aan de netwerkprinter voor kassabonnen te koppelen.
 
-Kant-en-klare ondersteuning voor deze functionaliteit wordt geboden door de [Dynamics 365-betalingsconnector voor Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). Andere betalingsconnectors kunnen worden ondersteund via de Commerce-SDK voor betalingen. Ondersteunde kassabonprinters zijn onder andere netwerkprinters voor kassabonnen van Star Micronics en Epson.
+Kant-en-klare ondersteuning voor deze functionaliteit wordt geboden door de [Dynamics 365-betalingsconnector voor Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3). Andere betalingsconnectors kunnen worden ondersteund via de Commerce-SDK voor betalingen. Ondersteunde kassabonprinters zijn onder andere netwerkprinters voor kassabonnen van Star Micronics en Epson.
 
 Als u kassabonprinters van Star Micronics wilt instellen, gebruikt u het Star Micronics-printerhulpprogramma om het apparaat zo te configureren dat het via het netwerk kan worden gebruikt. Dit hulpprogramma biedt ook het IP-adres van het apparaat.
 
 Als u Epson-kassabonprinters wilt instellen, gebruikt u het hulpprogramma Epson ePOS-Print om het apparaat in te stellen voor het gebruik van netwerkprotocollen.
 
-Zie [Overzicht van ondersteuning voor netwerkrandapparaten](https://go.microsoft.com/fwlink/?linkid=2129965) voor meer informatie over het instellen van netwerkrandapparatuur.
+Zie [Overzicht van ondersteuning voor netwerkrandapparaten](./dev-itpro/network-peripherals.md) voor meer informatie over het instellen van netwerkrandapparatuur.
 
 ## <a name="set-up-a-dedicated-payment-terminal-and-a-prompt-for-a-printer-and-cash-drawer"></a>Een speciale betalingsterminals en prompt voor een printer en kassalade instellen
 
@@ -78,9 +75,9 @@ Voer de volgende stappen uit om het hardwareprofiel in te stellen dat aan de kas
 
     | Apparaat | Type | Apparaatnaam | Extra gegevens |
     |---|---|---|---|
-    | Printer | Terugval | *Alle* | De apparaatnaam is hoofdlettergevoelig. De **id van het ontvangstbewijsprofiel** moet gelijk zijn aan de **id van het ontvangstbewijsprofiel** die is toegewezen aan de netwerkprinter die is ingesteld in het hardwareprofiel dat is toegewezen aan het hardwarestation op kanaalniveau. |
-    | Kassalade | Terugval | *Alle* | De apparaatnaam is hoofdlettergevoelig. Stel de optie **Gebruik van gedeelde ploeg toestaan** in op **Ja**. |
-    | EFT-service | Adyen | Niet van toepassing | Raadpleeg [Dynamics 365-betalingsconnector voor Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3) voor informatie over het configureren van de kant-en-klare Adyen-betalingsconnector. Andere betalingsconnectors kunnen worden ondersteund via de [Commerce-SDK voor betalingen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/end-to-end-payment-extension). |
+    | Printer | Netwerk | *Alle* | De apparaatnaam is hoofdlettergevoelig. De **id van het ontvangstbewijsprofiel** moet gelijk zijn aan de **id van het ontvangstbewijsprofiel** die is toegewezen aan de netwerkprinter die is ingesteld in het hardwareprofiel dat is toegewezen aan het hardwarestation op kanaalniveau. |
+    | Kassalade | Netwerk | *Alle* | De apparaatnaam is hoofdlettergevoelig. Stel de optie **Gebruik van gedeelde ploeg toestaan** in op **Ja**. |
+    | EFT-service | Adyen | Niet van toepassing | Raadpleeg [Dynamics 365-betalingsconnector voor Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3) voor informatie over het configureren van de kant-en-klare Adyen-betalingsconnector. Andere betalingsconnectors kunnen worden ondersteund via de [Commerce-SDK voor betalingen](./dev-itpro/end-to-end-payment-extension.md). |
     | Pinapparaat | Netwerk | **MicrosoftAdyenDeviceV001** | Geen. |
 
 5. Zoek in Dynamics 365 Commerce naar **Kassa's**.
@@ -88,7 +85,7 @@ Voer de volgende stappen uit om het hardwareprofiel in te stellen dat aan de kas
 7. Wijs het hardwareprofiel dat u zojuist hebt gemaakt aan de kassa toe die een specifieke betalingsterminal moet gebruiken. Het apparaat dat aan deze kassa wordt toegewezen, moet de toepassing Modern POS voor Windows of Modern POS voor Android gebruiken.
 8. Selecteer **Opslaan**.
 9. Selecteer in het actievenster op het tabblad **Kassa's** de optie **IP-adressen configureren**.
-10. Voer op het sneltabblad **Pinapparaat** het IP-adres van de betalingsterminal in. Zie [Dynamics 365-betalingsconnector voor Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3) voor meer informatie over het ophalen van het IP-adres van de betalingsterminal met de Adyen-connector.
+10. Voer op het sneltabblad **Pinapparaat** het IP-adres van de betalingsterminal in. Zie [Dynamics 365-betalingsconnector voor Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3) voor meer informatie over het ophalen van het IP-adres van de betalingsterminal met de Adyen-connector.
 11. Selecteer **Opslaan**.
 
 #### <a name="set-up-a-hardware-profile-for-the-receipt-printer-and-cash-drawer"></a>Een hardwareprofiel instellen voor de kassabonprinter en kassalade
@@ -103,7 +100,7 @@ Voer de volgende stappen uit om het hardwareprofiel in te stellen dat wordt gebr
     | Apparaat | Type | Omschrijving | Extra gegevens |
     |---|---|---|---|
     | Printer | Netwerk | **Epson** of **Star** | De apparaatnaam is hoofdlettergevoelig. De **id van het ontvangstbewijsprofiel** moet gelijk zijn aan de **id van het ontvangstbewijsprofiel** die is toegewezen aan de printer die is ingesteld in het hardwareprofiel dat is toegewezen aan de kassa. |
-    | Kassalade | Netwerk | **Epson** of **Star** | De apparaatnaam is hoofdlettergevoelig. Stel de optie **Gebruik van gedeelde ploeg toestaan** in op **Ja**. |
+    | Kassalade | Terugval | **Epson** of **Star** | De apparaatnaam is hoofdlettergevoelig. Stel de optie **Gebruik van gedeelde ploeg toestaan** in op **Ja**. |
 
 5. Selecteer **Opslaan**.
 
@@ -151,6 +148,9 @@ Winkelmedewerkers wordt gevraagd om een hardwarestation slechts één keer per t
 
 ## <a name="related-articles"></a>Gerelateerde artikelen
 
-- [POS Hybrid-app instellen in Android en iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
-- [Dynamics 365-betalingsconnector voor Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
-- [Overzicht van ondersteuning voor netwerkrandapparaten](https://go.microsoft.com/fwlink/?linkid=2129965)
+- [POS Hybrid-app instellen in Android en iOS](./dev-itpro/hybridapp.md)
+- [Dynamics 365-betalingsconnector voor Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3)
+- [Overzicht van ondersteuning voor netwerkrandapparaten](./dev-itpro/network-peripherals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

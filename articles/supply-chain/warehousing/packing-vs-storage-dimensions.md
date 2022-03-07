@@ -2,28 +2,30 @@
 title: Verschillende dimensies voor verpakking en opslag instellen
 description: In dit onderwerp wordt aangegeven voor welk proces (verpakking, opslag of geneste verpakking) elke opgegeven dimensie wordt gebruikt.
 author: mirzaab
+manager: tfehr
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResPhysicalProductDimensions, WHSPhysDimUOM
+ms.search.form: WHSPhysDimUOM
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0e8ce576f21f1f5ea5f3acb7d43bbe68826e6f39
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.17
+ms.openlocfilehash: 004d9b4522335b481b640ef0fe35f4db66e3c9f5
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580067"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5078250"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Verschillende dimensies voor verpakking en opslag instellen
 
-[!include [banner](../../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Sommige artikelen worden verpakt of opgeslagen op een manier die u mogelijk nodig hebt om fysieke dimensies op een andere manier bij te houden voor elk van de verschillende processen. Met de functie *Verpakkingsproductdimensie* kunt u voor elk product een of meer typen dimensies instellen. Elk dimensietype biedt een reeks fysieke afmetingen (gewicht, breedte, diepte en hoogte) en legt het proces vast waarin deze fysieke metingwaarden van toepassing zijn. Wanneer deze functie is ingeschakeld, ondersteunt het systeem de volgende typen dimensies:
 
@@ -131,6 +133,3 @@ In dit proces maakt u een zending op basis van de *verpakkings* dimensie van het
 1. Open het mobiele apparaat, meld u aan bij magazijn 63 en ga naar **Voorraad \> Aanpassen in**.
 1. Voer **Loc** = *SHORT-01* in. Maak een nieuwe nummerplaat met **Artikel** = *A0001* en **Hoeveelheid** = *1 st*.
 1. Selecteer **OK**. U ontvangt de fout "Locatie SHORT-01 is mislukt omdat artikel A0001 niet in de opgegeven dimensies van de locatie past". Dit komt omdat de dimensies van het type *Opslag* van het product groter zijn dan de dimensies die in het locatieprofiel zijn opgegeven.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

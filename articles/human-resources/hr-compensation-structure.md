@@ -2,28 +2,27 @@
 title: Een compensatiestructuur ontwikkelen
 description: Dit artikel begeleidt u bij het maken van een vastecompensatieplan en het registreren van werknemers voor het plan via geschiktheidsregels.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/10/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 124d0f7f83feebabf622f00732c25bfa0f6eccdd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: abdca618aa544e32b68f4bbf2578afb9ef1a5905
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418008"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6052884"
 ---
 # <a name="develop-a-compensation-structure"></a>Een compensatiestructuur ontwikkelen
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dit artikel begeleidt u bij het maken van een vastecompensatieplan en het registreren van werknemers voor het plan via geschiktheidsregels. In dit artikel, dat van toepassing is op managers voor compensatie en vergoedingen, worden de USMF-voorbeeldgegevens gebruikt.
 
@@ -113,3 +112,6 @@ U kunt een vastecompensatieplan toewijzen aan een werknemer totdat u geschikthei
 
 8. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,16 +11,18 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3c8ad7b0bd46c49fc989be091f44630a6a3eebc1
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 3dc36c8562f39a076bd4871524e2d132d1883d28
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985906"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860712"
 ---
-# <a name="sales-history-cleanup-performance-improvements"></a>Prestatieverbeteringen bij opschonen van verkoophistorie
+# <a name="saleshistorycleanupperformanceimprovements"></a>Prestatieverbeteringen bij opschonen van verkoophistorie
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] 
+<!-- KFM: Preview until GA with 10.0.24 -->
 
 De periodieke batchtaak **Opschoning van verkoophistorie** kan veel tijd kosten als deze niet vaak in omgevingen wordt uitgevoerd met veel verkoopupdates. In deze situaties kan de functie *Prestatieverbeteringen bij opschonen van verkoophistorie* de uitvoeringsduur verminderen en de betrouwbaarheid verbeteren.
 
@@ -32,7 +34,7 @@ Met deze functie kunt u de bestaande opschoonfunctie op de volgende manieren ver
 
 Nadat u de functie hebt ingeschakeld, wordt de batchtaak **Opschoning van verkoophistorie** (**Verkoop en marketing \> Periodieke taken \> Opschonen \> Opschoning van verkoophistorie**) uitgevoerd zoals eerder, maar met betere prestaties en maximaal twee uur. Dit betekent dat de taak mogelijk meerdere keren moet worden uitgevoerd om alle gegevens op te schonen voor een bepaalde periode.
 
-## <a name="turn-on-the-sales-history-cleanup-performance-improvements-feature"></a>De functie Prestatieverbeteringen bij opschonen van verkoophistorie inschakelen
+## <a name="turn-on-the-saleshistorycleanupperformanceimprovements-feature"></a>De functie Prestatieverbeteringen bij opschonen van verkoophistorie inschakelen
 
 Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in de werkruimte **Functiebeheer** de functie als volgt in:
 

@@ -1,31 +1,30 @@
 ---
 title: Verlof- en verzuimtypen configureren
 description: Typen verlof instellen die werknemers kunnen aanvragen in Dynamics 365 Human Resources.
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/01/2020
+author: twheeloc
+ms.date: 09/09/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6e6ca7d04b86232ba48474fcbe288a18995661ae
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b616d1f2c8b0bc8131045424b01dbfaa82f41f84
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417953"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485802"
 ---
 # <a name="configure-leave-and-absence-types"></a>Verlof- en verzuimtypen configureren
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Verloftypen in Dynamics 365 Human Resources geven de typen verlof aan die werknemers kunnen rapporteren. U kunt de typen verlof aanpassen op basis van de behoeften van uw organisatie. Voorbeelden van verloftypen zijn:
 
@@ -66,19 +65,53 @@ Verloftypen in Dynamics 365 Human Resources geven de typen verlof aan die werkne
 
 1. Stel afrondingsopties in voor het verloftype. De beschikbare opties zijn **Geen**, **Naar boven**, **Naar beneden** en **Dichtstbijzijnde**. U kunt ook een afrondingsprecisie instellen voor het verloftype.
 
-2. Stel **Feestdagcorrectie** in voor het verloftype. Wanneer u deze optie selecteert, gebruikt Human Resources het aantal feestdagen dat op een werkdag valt om te bepalen hoe het verlof moet worden opgebouwd voor het verloftype. Als kerstdag bijvoorbeeld op een maandag valt, trekt Human Resources een dag af van het verloftype bij het verwerken van toerekeningen.
+2. Stel **Feestdagcorrectie** in voor het verloftype. Wanneer u deze optie selecteert, wordt het aantal feestdagen dat op een werkdag valt, gebruikt om te bepalen hoe het verlof moet worden opgebouwd voor het verloftype. Als kerstdag bijvoorbeeld op een maandag valt, trekt Human Resources een dag af van het verloftype bij het verwerken van toerekeningen.
 
-   U kunt feestdage instellen in de werktijdkalender. Zie [Een werktijdenkalender maken](hr-leave-and-absence-working-time-calendar.md) voor meer informatie
+   U kunt feestdage instellen in de werktijdkalender. Zie [Een werktijdenkalender maken](hr-leave-and-absence-working-time-calendar.md) voor meer informatie.
    
  3. Stel **Verloftype voor transporteren** in voor het verloftype. Wanneer u deze optie selecteert, worden transportsaldi overgeboekt naar het opgegeven verloftype. Het verloftype voor transporteren moet ook worden opgenomen in het plan voor verlof en verzuim. 
  
- 4. Definieer **vervalregels** voor het verloftype. Wanneer u deze optie configureert, kunt u als eenheid voor dagen of maanden kiezen en de duur instellen voor de vervaldatum. U kunt ook de ingangsdatum van de verloopregel instellen. Alle verlofsaldi die aanwezig zijn op het tijdstip van de vervaldatum, worden afgetrokken van het verloftype en worden weergegeven in het verlofsaldo. 
+4. Definieer **vervalregels** voor het verloftype. Wanneer u deze optie configureert, kunt u als eenheid voor dagen of maanden kiezen en de duur instellen voor de vervaldatum. De ingangsdatum van de vervaldatumregel wordt gebruikt om te bepalen wanneer moet worden begonnen met het uitvoeren van de batchtaak die de verlofvervaldatum verwerkt, of de datum waarop de regel van kracht wordt. De vervaldatum zelf is altijd op de begindatum van de toerekeningsperiode. Als de begindatum van de toerekeningsperiode bijvoorbeeld 3 augustus 2021 is en de vervaldatumregel is ingesteld op 6 maanden, wordt de regel verwerkt op basis van de vervaldatumverschuiving vanaf de begindatum van de toerekeningsperiode, zodat deze wordt uitgevoerd op 3 februari 2022. Alle verlofsaldi die aanwezig zijn op het tijdstip van de vervaldatum, worden afgetrokken van het verloftype en worden weergegeven in het verlofsaldo.
  
- 
+## <a name="configure-the-required-attachment-per-leave-type"></a>De vereiste bijlage per verloftype configureren
+
+> [!NOTE]
+> Als u gebruik wilt maken van het veld **Bijlage vereist**, moet u eerst de functie **Vereiste bijlage voor verlofaanvragen configureren** in Functiebeheer uitvoeren. Zie [Functies beheren](hr-admin-manage-features.md) voor meer informatie over het inschakelen van functies.
+
+1. Selecteer **Verlof- en verzuimtypen** op de pagina **Verlof en verzuim** op het tabblad **Koppelingen** onder **Instellingen**.
+
+2. Selecteer een verlof- en verzuimtype in de lijst. Gebruik vervolgens in de sectie **Algemeen** het veld **Bijlage vereist** om op te geven of een bijlage moet worden geüpload wanneer een werknemer een nieuwe verlofaanvraag voor het geselecteerde verloftype indient. 
+
+Werknemers moeten een bijlage uploaden wanneer ze een nieuwe verlofaanvraag indienen met een verloftype waarop het veld **Bijlage vereist** is ingeschakeld. Als u de bijlage wilt weergeven die als onderdeel van een verlofaanvraag is geüpload, kunnen de goedkeurders van verlofaanvragen de optie **Bijlagen** gebruiken voor de werkitems die aan hen zijn toegewezen. Als een verlofaanvraag wordt toegankelijk gemaakt via de app Human Resources in Microsoft Teams, kunt u de optie **Details weergeven** voor de verlofaanvraag gebruiken om de details en eventuele bijlagen weer te geven.
+
+## <a name="configure-leave-units-hoursdays-per-leave-type"></a>Verlofeenheden (uren/dagen) per verloftype configureren
+
+> [!NOTE]
+> Als u de verlofeenheden per verloftypefunctionaliteit wilt gebruiken, moet u de functie **Verlofeenheden configureren per verloftype** in Functiebeheer inschakelen. Zie [Functies beheren](hr-admin-manage-features.md) voor meer informatie over het inschakelen van functies.
+
+> [!IMPORTANT]
+> De verloftypen in een rechtspersoon gebruiken standaard de verlofeenheden uit de configuratie van verlofparameters op het niveau van de rechtspersoon.
+> 
+> De verlofeenheid van het type verlof en verzuim kan alleen worden gewijzigd als er geen verloftransacties voor dat verloftype zijn.
+> 
+> De functie kan niet meer worden uitgeschakeld wanneer deze eenmaal is ingeschakeld.
+
+1. Selecteer **Verlof- en verzuimtypen** op de pagina **Verlof en verzuim** op het tabblad **Koppelingen** onder **Instellingen**.
+
+2. Selecteer een verlof- en verzuimtype in de lijst. Selecteer vervolgens de verlofeenheid in de sectie **Algemeen** in het veld **Eenheid**. U kunt **Uren** of **Dagen** selecteren.
+
+3. Optioneel: als u **Uren** hebt geselecteerd in het veld **Eenheid**, kunt u het veld **Halve dagdefinitie inschakelen** gebruiken om op te geven of werknemers de eerste halve dag of de tweede helft van de dag vrij kunnen nemen als ze een half dag verlof aanvragen.
+
+Werknemers die een nieuwe verlofaanvraag indienen, kunnen voor het maken van hun verlofaanvraag verschillende verloftypen selecteren. Alle verloftypen die zijn geselecteerd als onderdeel van een verlofaanvraag, moeten echter dezelfde verlofeenheid hebben. Werknemers kunnen de verlofeenheid voor elk verloftype weergeven via het formulier **Verlofaanvragen**.
+
 ## <a name="see-also"></a>Zie ook
 
 - [Overzicht van verlof en verzuim](hr-leave-and-absence-overview.md)
 - [Een plan voor verlof en verzuim maken](hr-leave-and-absence-plans.md)
 - [Een werktijdenkalender maken](hr-leave-and-absence-working-time-calendar.md)
 - [Verlof uitstellen](hr-leave-and-absence-suspend-leave.md)
+- [Een werkstroom maken voor het aanvragen voor het kopen en verkopen van verlof](hr-leave-and-absence-buy-sell-workflow.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

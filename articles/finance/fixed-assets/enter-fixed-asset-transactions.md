@@ -2,28 +2,25 @@
 title: Transactieopties voor vaste activa
 description: In dit onderwerp worden de beschikbare methoden voor het maken van vaste-activatransacties beschreven.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 02/07/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, PurchCreateOrder
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 23061
 ms.assetid: 338c495b-a4d8-461e-b85b-a83faf673730
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f08750c369475f9d8be3c723aaf4eb6cf36eb7c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3540cf17050a953a97c7291a1bcbe5ebf6fb670e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441900"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815711"
 ---
 # <a name="fixed-asset-transaction-options"></a>Transactieopties voor vaste activa
 
@@ -68,3 +65,6 @@ Elk type vaste-activatransactie kan worden geboekt op de Algemeen journaal. Ook 
 De resterende waarde van de afschrijvingsperioden van het vaste activum wordt niet bijgewerkt wanneer een regel van een journaal van het type afschrijvingstransactie handmatig wordt gemaakt of wordt geïmporteerd door middel van een gegevensentiteit. Deze waarde wordt bijgewerkt wanneer het afschrijvingsvoorstelproces wordt gebruikt om de journaalregel te maken.
 
 Zie [Integratie vaste activa](fixed-asset-integration.md) voor meer informatie.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

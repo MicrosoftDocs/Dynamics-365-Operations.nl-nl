@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3dacc755b3d4d3b5c7f51f6bac7c2e9c62773ba
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 37ab8a92af77151b7d0ce7fd9ff625064736ccd2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442015"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249042"
 ---
 # <a name="sales-tax-overview"></a>Btw-overzicht
 
@@ -97,3 +96,6 @@ Echter, als u een voorwaardelijke BTW gebruikt, hoeft u pas met de belastingdien
 Als u gepostdateerde cheques gebruikt als betalingsmethode, vindt geen afstemming met de bankrekening plaats wanneer de betaling wordt uitgevoerd. In sommige landen/regio's wordt de btw een 'gerealiseerde' schuld als de betaling wordt vereffend, wat betekent dat de gepostdateerde cheque is vereffend. U kunt deze optie inschakelen door **De voorwaardelijke belasting realiseren wanneer gepostdateerde cheques worden geïnd** in **Contanten en bankbeheer > Instellingen > Parameters voor Contanten en bankbeheer > Gepostdateerde cheques**.
 
 Zie [Bronbelasting instellen](tasks/set-up-withholding-tax.md) voor meer informatie.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

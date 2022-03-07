@@ -1,26 +1,24 @@
 ---
 title: Een inkoopovereenkomst maken
 description: Dit onderwerp begeleidt u door het maken van een inkoopovereenkomst.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchAgreement, PurchAgreementCreate, InventItemIdLookupSimple, AgreementConfirmRunForm, PurchAgreementHistory
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 92c9b429a05a2c25672cc14a0c9ee7adfef42631
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 19bfbe7bc78f08dbbc6f9924313749a46672e202
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016826"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812321"
 ---
 # <a name="create-a-purchase-agreement"></a>Een inkoopovereenkomst maken
 
@@ -71,3 +69,6 @@ Dit onderwerp begeleidt u door het maken van een inkoopovereenkomst. Dit wordt g
 5. Selecteer **Bevestigingen van inkoopovereenkomst**. Met de optie **Voorbeeld/afdrukken** kunt u een document voor de inkoopovereenkomst genereren dat u vervolgens kunt afdrukken of naar de leverancier kunt verzenden. Als u de overeenkomst later wilt bijwerken en opnieuw wilt bevestigen, worden hier beide versies weergegeven.  
 6. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

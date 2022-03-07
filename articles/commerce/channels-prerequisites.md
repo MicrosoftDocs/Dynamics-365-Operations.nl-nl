@@ -2,36 +2,30 @@
 title: Vereisten voor het instellen van kanalen
 description: Dit onderwerp geeft een overzicht van de vereisten voor het instellen van kanalen in Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 0da0457240cf12686fff2fa929c7fb510c11f242
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 33fcead6c0b08db17f24b638376a23b8b6024a5b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411336"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800514"
 ---
 # <a name="channel-setup-prerequisites"></a>Vereisten voor het instellen van kanalen
-
 
 [!include [banner](includes/banner.md)]
 
 Dit onderwerp geeft een overzicht van de vereisten voor het instellen van kanalen in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 Voordat een Dynamics 365 Commerce-kanaal kan worden gemaakt, moeten verscheidene vereiste taken worden voltooid. De volgende lijsten met vereiste taken zijn gerangschikt op kanaaltype.
 
@@ -86,3 +80,6 @@ Voordat een Dynamics 365 Commerce-kanaal kan worden gemaakt, moeten verscheidene
 [Een detailhandelafzetkanaal instellen](channel-setup-retail.md)
     
 [Een online afzetkanaal instellen](channel-setup-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

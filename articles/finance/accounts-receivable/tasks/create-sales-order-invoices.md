@@ -1,39 +1,36 @@
 ---
 title: Facturen van verkooporder maken
-description: Deze taakbegeleiding beschrijft het factureren van een verkooporder, waaronder samenvoegen van facturen en batchverwerking.
+description: In dit onderwerp wordt beschreven hoe u een verkooporder factureert, inclusief het samenvoegen van facturen en batchverwerking.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesEditLines,  SysQueryForm, SysRecurrence
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c504ef36f61613c7aa7db5a1e5ddba6e69cd7285
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b6712779ca64f5934edd37730597541679b86e43
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442091"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394605"
 ---
 # <a name="create-sales-order-invoices"></a>Facturen van verkooporder maken
 
 [!include [banner](../../includes/banner.md)]
 
-Deze taakbegeleiding beschrijft het factureren van een verkooporder, waaronder samenvoegen van facturen en batchverwerking. Bij deze procedure wordt het demobedrijf USMF gebruikt.
+In dit onderwerp wordt beschreven hoe u een verkooporder factureert, inclusief het samenvoegen van facturen en batchverwerking. Bij deze procedure wordt het demobedrijf USMF gebruikt.
 
 
 ## <a name="create-an-invoice-from-a-sales-order"></a>Maak een factuur van een verkooporder
 1. Ga naar het **Navigatiedeelvenster > Modules > Klanten > Orders > Verzonden maar nog niet gefactureerde verkooporders**.
 2. Selecteer een verkooporder in de lijst. 
-3. Klik in het **actievenster** op **Factuur > Genereren > Factuur**. Merk op dat aan deze verkooporder meerdere pakbonnen zijn gekoppeld. Het bevat alleen het woord <multiple> in plaats van het pakbonnummer.  
+3. Klik in het **actievenster** op **Factuur > Genereren > Factuur**. Merk op dat aan deze verkooporder meerdere pakbonnen zijn gekoppeld. In plaats van het pakbonnummer wordt alleen het woord *meerdere* weergegeven.  
 4. Vouw de sectie **Parameters** uit.
     - Het boeken moet worden ingesteld op Ja om de factuur te boeken. U kunt het boeken ook uitschakelen en de factuur alleen afdrukken. Echter, u kunt hetzelfde resultaat verwezenlijken door een pro-formafactuur in plaats van een factuur te maken.  
     - Deze optie wordt gebruikt voor batchtaken. De query wordt uitgevoerd wanneer de batchtaak wordt uitgevoerd.
@@ -68,3 +65,6 @@ Deze taakbegeleiding beschrijft het factureren van een verkooporder, waaronder s
 10. Klik op **Annuleren**.
 11. Klik op **Ja**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

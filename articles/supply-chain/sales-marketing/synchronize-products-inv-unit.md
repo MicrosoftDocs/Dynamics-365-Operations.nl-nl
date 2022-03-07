@@ -1,7 +1,7 @@
 ---
 title: Producten met voorraadeenheid uit Supply Chain Management synchroniseren met Field Service
 description: Dit onderwerp bespreekt de sjablonen en de onderliggende taak die worden gebruikt om producten met voorraadeenheid te synchroniseren van Dynamics 365 Supply Chain Management naar Dynamics 365 Field Service.
-author: Henrikan
+author: ChristianRytt
 ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 6ac346d735bc44e9f9660c60b23a73057e4b7306
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0ecb03d7d826fc6d79f1df800da22dc913177ee4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566330"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824865"
 ---
 # <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a>Producten met voorraadeenheid uit Supply Chain Management synchroniseren met Field Service
 
@@ -29,7 +29,7 @@ ms.locfileid: "7566330"
 
 Dit onderwerp bespreekt de sjablonen en de onderliggende taak die worden gebruikt om producten met voorraadeenheid te synchroniseren van Dynamics 365 Supply Chain Management naar Dynamics 365 Field Service.
 
-[![Synchronisatie van zakelijke processen tussen Supply Chain Management en Field Service.](./media/FSProductsOW.png)](./media/FSProductsOW.png)
+[![Synchronisatie van zakelijke processen tussen Supply Chain Management en Field Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)
 
 De gebruikte sjabloon **Field Service-producten met Voorraadeenheid (Supply Chain Management naar Field Service)** is gebaseerd op de sjabloon **Field Service-producten (Supply Chain Management naar Field Service)**. Zie voor meer informatie [Producten in Supply Chain Management synchroniseren met producten in Field Service](field-service-product.md).
 
@@ -59,7 +59,7 @@ In de volgende afbeeldingen ziet u de sjabloontoewijzing in Gegevensintegratie.
 
 ### <a name="field-service-products-with-inventory-unit-supply-chain-management-to-field-service-products"></a>Field Service-producten met Voorraadeenheid (Supply Chain Management naar Field Service): Products
 
-[![Sjabloontoewijzing in Gegevensintegratie.](./media/FSProduct1.png)](./media/FSProduct1.png)
+[![Sjabloontoewijzing in Gegevensintegratie](./media/FSProduct1.png)](./media/FSProduct1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

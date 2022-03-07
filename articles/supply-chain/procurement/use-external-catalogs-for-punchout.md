@@ -1,12 +1,10 @@
 ---
 title: Externe catalogi gebruiken voor PunchOut eProcurement
 description: In dit onderwerp wordt uitgelegd hoe u kunt externe catalogi maakt en inkoopopdrachten indient.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchVendorPortalRequests, CatExternalCatalogBasketWizard, CatExternalCatalogPunchoutDialog
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74b49e32684571f622b25dcdd179eeeed9b35365
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 7e360204bdb71dca35337e1b95bdf1837a16a25caa00e979f70876dd5ffd9139
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018748"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774049"
 ---
 # <a name="use-external-catalogs-for-punchout-e-procurement"></a>Externe catalogi gebruiken voor PunchOut eProcurement
 
@@ -54,3 +52,5 @@ Wanneer de inkoopopdracht klaar is, gebruikt u de actie **Workflow** > **Verzend
 
 - [Een externe catalogus instellen voor PunchOut eProcurement](set-up-external-catalog-for-punchout.md)
 - [Verbeteringen inkoop-cXML](purchasing-cxml-enhancements.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

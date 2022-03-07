@@ -2,30 +2,29 @@
 title: Compensatieplannen
 description: Managers Compensatie en emolumenten kunnen Compensatiebeheer gebruiken om plannen voor vaste en variabele compensatie voor de werknemers van de organisatie te beheren en te verwerken.
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCompensationLevel, HRCCompGrid, HRMCompFixedAction, HRMCompFixedBudget, HRMCompFixedPlanTable, HcmCompensationWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: b6dd163b0e956624eb57fa031b918a94609f9cfa
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b773b12b7eb3a8a59627d011f2469a98c5dde58a
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417938"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6058915"
 ---
 # <a name="compensation-plans"></a>Compensatieplannen
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Managers Compensatie en emolumenten kunnen Compensatiebeheer gebruiken om plannen voor vaste en variabele compensatie voor de werknemers van de organisatie te beheren en te verwerken.
 
@@ -132,3 +131,6 @@ Nadat u een procesgebeurtenis uitvoert, kunt u aanbevelingen doen voor aanpassin
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

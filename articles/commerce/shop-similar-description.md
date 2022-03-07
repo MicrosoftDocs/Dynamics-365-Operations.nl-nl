@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: ce7f249d496a8cf57ad60ac33506fba3cc3dcce40cd89a0cc663ead5263e441a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ce01ef1d4b916d955685b4d01dafd3d54d6fcebd
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755849"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795400"
 ---
 # <a name="enable-shop-similar-description-recommendations"></a>Aanbevelingen voor vergelijkbare omschrijvingen inschakelen
 
@@ -79,7 +79,7 @@ Voer deze stappen uit om een knop **Winkelen voor vergelijkbare omschrijvingen**
 
 In de volgende afbeelding ziet u het selectievakje **Koppeling voor vergelijkbare omschrijvingen inschakelen** en de knop **Winkelen voor vergelijkbare omschrijvingen** op een voorbeeldpagina met productgegevens in Site Builder.
 
-![Selectievakje Koppeling voor vergelijkbare omschrijvingen inschakelen en de knop Winkelen voor vergelijkbare omschrijvingen op een pagina met productgegevens in Site Builder.](./media/ter_site_builder_buybox_button.png)
+![Selectievakje Koppeling voor vergelijkbare omschrijvingen inschakelen en de knop Winkelen voor vergelijkbare omschrijvingen op een pagina met productgegevens in Site Builder](./media/ter_site_builder_buybox_button.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

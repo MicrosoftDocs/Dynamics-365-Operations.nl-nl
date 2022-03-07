@@ -2,28 +2,25 @@
 title: Maandelijkse journaalposten maken in een batch
 description: In dit onderwerp wordt uitgelegd hoe u journaalposten in een batch maakt om de efficiëntie te verhogen wanneer de maandelijkse leasekosten worden vastgelegd.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a2293f6bd3ce66832996652c3bfca0fc4bc73782
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 664001dd6e9da449dec65750da53d58bd27438b4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4442160"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816023"
 ---
 # <a name="create-monthly-journal-entries-in-a-batch"></a>Maandelijkse journaalposten maken in een batch
 
@@ -37,3 +34,6 @@ Als u een batchtaak wilt instellen of betalingsfacturen, afschrijving of rente v
 > Latere transacties, zoals het afschrijvingsschema verplichtingen, betalingen, afschrijving en onkosten, worden pas geboekt nadat de eerste toerekening voor bijbehorende leases is geboekt.
 >
 > De journaalposten worden gemaakt, maar ze worden pas geboekt wanneer u de opdracht **Uitvoeren** selecteert.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

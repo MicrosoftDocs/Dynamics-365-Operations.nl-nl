@@ -2,28 +2,25 @@
 title: Het voorspellingsmodel verbeteren (preview)
 description: In dit onderwerp worden de functies beschreven die u kunt gebruiken om de prestaties van voorspellingsmodellen te verbeteren.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 05/28/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 23c9062dcc13951792306c955b54cae6f656fec5
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 184a1cb5d3851e26b41340b711c51ef38e06eb53
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646074"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186637"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Het voorspellingsmodel verbeteren (preview)
 
@@ -42,19 +39,19 @@ Als uw organisatie slechts twee resultaten nodig heeft, wijzigt u de drempels **
 
 ## <a name="select-fields"></a>Velden selecteren
 
-Wanneer u velden selecteert die u in het model wilt opnemen, moet u er rekening mee houden dat de lijst alle beschikbare velden bevat in de Common Data Service-entiteit die is toegewezen aan de gegevens in de Azure data lake. Sommige van deze velden mogen **niet** zijn geselecteerd. De velden die niet mogen worden geselecteerd, vallen in een van de volgende drie categorieën:
+Wanneer u velden selecteert die u in het model wilt opnemen, moet u er rekening mee houden dat de lijst alle beschikbare velden bevat in de Microsoft Dataverse-tabel die is toegewezen aan de gegevens in de Azure data lake. Sommige van deze velden mogen **niet** zijn geselecteerd. De velden die niet mogen worden geselecteerd, vallen in een van de volgende drie categorieën:
 
-- Het veld is vereist voor de Common Data Service-entiteit, maar er zijn geen gegevens voor in de data lake.
+- Het veld is vereist voor de Dataverse-tabel, maar er zijn geen gegevens voor in de data lake.
 - Het veld is een ID en is daarom niet zinvol voor een machine learning-functie.
 - Het veld bevat informatie die niet beschikbaar is tijdens de voorspelling.
 
 In de volgende secties worden de velden weergegeven die beschikbaar zijn voor de factuur- en klantentiteiten, en worden de velden weergegeven die **niet** voor de training moeten worden geselecteerd. De categorie die voor elk van deze velden is opgegeven, verwijst naar de categorieën in de voorgaande lijst.
  
-### <a name="invoice-common-data-model-entity"></a>Factuur Common Data Model-entiteit
+### <a name="invoice-dataverse-table"></a>Dataverse-tabel Factuur
 
-In de volgende afbeelding ziet u de velden die beschikbaar zijn voor de factuurentiteit.
+In de volgende afbeelding ziet u de velden die beschikbaar zijn voor de tabel Factuur.
 
-[![Beschikbare velden voor de factuurentiteit](./media/available-fields.png)](./media/available-fields.png)
+[![Beschikbare velden voor de tabel Factuur](./media/available-fields.png)](./media/available-fields.png)
 
 De volgende velden moeten niet zijn geselecteerd voor training:
 
@@ -65,11 +62,11 @@ De volgende velden moeten niet zijn geselecteerd voor training:
 - **Bronrecord** (categorie 2)
 - **Brontabel** (categorie 2)
 
-### <a name="customer-common-data-model-entity"></a>Klant Common Data Model-entiteit
+### <a name="customer-dataverse-table"></a>Dataverse-tabel Klant
 
-In de volgende afbeelding ziet u de velden die beschikbaar zijn voor de klantentiteit.
+In de volgende afbeelding ziet u de velden die beschikbaar zijn voor de tabel Klant.
 
-[![Beschikbare velden voor de klantentiteit](./media/related-entities.png)](./media/related-entities.png)
+[![Beschikbare velden voor de tabel Klant](./media/related-entities.png)](./media/related-entities.png)
 
 Het volgende veld moet niet zijn geselecteerd voor training:
 
@@ -81,5 +78,4 @@ De filters ondersteunen momenteel het voorspellingsscenario voor klantbetalingen
 
 [![Focusmodel met filters](./media/focus-model-with-filters.png)](./media/focus-model-with-filters.png)
 
-#### <a name="privacy-notice"></a>Privacyverklaring
-Previews (1) bieden mogelijk minder privacy- en beveiligingsmaatregelen dan de service Dynamics 365 Finance and Operations, (2) worden niet opgenomen in de serviceovereenkomst voor deze service, (3) mogen niet worden gebruikt voor de verwerking van persoonsgegevens of andere gegevens die aan juridische of wettelijke nalevingvereisten zijn onderworpen en (4) worden slechts beperkt ondersteund.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

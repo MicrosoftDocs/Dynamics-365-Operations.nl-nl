@@ -1,46 +1,46 @@
 ---
-title: Startpagina Vaste activa
-description: Vaste activa zijn waardevolle zaken, bijvoorbeeld gebouwen, voertuigen, grond en apparatuur, die het eigendom zijn van een persoon of organisatie.
-author: ShylaThompson
-manager: AnnBe
+title: Startpagina van Vaste activa
+description: Dit onderwerp biedt toegang tot resources die u kunnen helpen om Vaste activa te gebruiken voor Microsoft Dynamics 365 Finance.
+author: moaamer
 ms.date: 08/31/2017
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 21481
+ms.custom:
+- "21481"
+- intro-internal
 ms.assetid: d6bb2f19-73b9-43fa-8042-b530c75896bf
 ms.search.region: Global
-ms.author: roschlom
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf6f0bc27121e6c1a0b4bba2ad1ca31909423c92
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c1a31273e16275750594ef8d9b99f9a4cd2222ef
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969067"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674846"
 ---
-# <a name="fixed-assets-home-page"></a>Startpagina Vaste activa
+# <a name="fixed-assets-home-page"></a>Startpagina van Vaste activa
 
 [!include [banner](../includes/banner.md)]
 
-Vaste activa zijn waardevolle zaken, bijvoorbeeld gebouwen, voertuigen, grond en apparatuur, die het eigendom zijn van een persoon of organisatie. 
+Dit onderwerp biedt toegang tot resources die u kunnen helpen om Vaste activa te gebruiken voor Microsoft Dynamics 365 Finance. Vaste activa zijn objecten van waarde die het eigendom zijn van een persoon of organisatie. De objecten zijn onder andere gebouwen, voertuigen, land en apparatuur. 
 
 U kunt aanschafgegevens voor vaste activa instellen en invoeren, en deze beheren door ze af te schrijven en een drempel voor kapitalisatie in te stellen om de afschrijving te bepalen. U kunt correcties berekenen voor de vaste activa of de vaste activa afstoten. Wanneer u Grootboek gebruikt samen met Vaste activa, kunt u de huidige waarde van alle vaste activa weergeven. De manier waarop vaste activa worden verwerkt, moet overeenstemmen met zowel internationale boekhoudregels als de boekhoudwetgeving van elk land of elke regio. Deze vereisten kunnen bijvoorbeeld regels zijn voor het vastleggen van aanschaf- en afstotingstransacties, afschrijving, levensduur en opwaarderingen en afwaarderingen van vaste activa. Veel van deze regels zijn geïntegreerd in de functionaliteit van Vaste activa.
 
-[![Bedrijfsproces](./media/FA-process.PNG)](./media/FA-process.PNG)
+[![Bedrijfsproces.](./media/FA-process.PNG)](./media/FA-process.PNG)
 
 
 
 ### <a name="additional-resources"></a>Aanvullende bronnen
 
-#### <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
+#### <a name="whats-new-and-in-development"></a>Nieuwe functies en functies in ontwikkeling
 
-Ga naar de [releaseplannen voor Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) om te zien welke nieuwe functies er zijn gepland. 
+Ga naar de [releaseplannen voor Microsoft Dynamics 365](/dynamics365/release-plans/) om te zien welke nieuwe functies er zijn gepland. 
 
 #### <a name="blogs"></a>Weblogs
 
@@ -60,3 +60,6 @@ Bekijk de procedurevideo's die nu beschikbaar zijn op het [Microsoft Dynamics 36
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,28 +2,25 @@
 title: Leaseboekingsrekeningen instellen
 description: Dit onderwerp bevat een overzicht van de boekingsrekeningen die nodig zijn voor de transacties voor activaleases en legt uit hoe u boekingsrekeningen kunt definiëren op de pagina Leaseboekingsparameters.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeasePostingAccounts
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8ca1c6eea854577e5aa34b1a9b9d1731b209527b
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: ac8dc59a19a489c6a7c4bf6621dd1a316de03ac3af4512d3ed7e55668af801b1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4442152"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770636"
 ---
 # <a name="set-up-lease-posting-accounts"></a>Leaseboekingsrekeningen instellen
 
@@ -84,3 +81,6 @@ Als u rekeningen wilt toewijzen aan de leaseboeken en groepen die zijn gemaakt, 
     > [!NOTE]
     > De geselecteerde financiële of operationele rekening wordt gedebiteerd wanneer de factuur voor de geplande onkosten wordt geboekt.
     > **Verschuiving leaseonkosten** wordt gebruikt als boekingstype voor transacties van administratieve kosten, maar boekt naar de gedefinieerde **Tegenrekening** in de **Betalingschemaregels voor administratieve kosten** in de leasedetails of het leaseboekformulier.   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

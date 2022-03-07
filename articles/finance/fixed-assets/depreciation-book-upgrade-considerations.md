@@ -2,27 +2,26 @@
 title: Upgradeoverzicht van afschrijvingsboeken
 description: In eerdere versies waren er twee waardevaststellingsconcepten voor vaste activa, waardemodellen en afschrijvingsboeken.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 221624
+ms.custom:
+- "221624"
+- intro-internal
 ms.assetid: cf434099-36f9-4b0f-a7c8-bed091e34f39
 ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: efa1b492fec085cc8bac5a786af4aaba854899e5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b1d14154cd2e9bd18a886ba490891a02afeb0b05
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441881"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344709"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Overzicht van upgrade van afschrijvingsboeken
 
@@ -34,7 +33,7 @@ Met het upgradeproces verplaatst u uw bestaande instellingen en alle bestaande t
 
 Voordat u de gegevensupgrade uitvoert, moet u de twee opties begrijpen die beschikbaar zijn om afschrijvingsboekjournaalregels naar transactieboekstukken bij te werken en moet u de nummerreeks begrijpen die voor de boekstuknummering wordt gebruikt. 
 
-Optie 1: **Door het systeem gedefinieerde nummerreeks** - Dit is de standaardoptie om upgradeprestaties te optimaliseren. Bij de upgrade wordt niet het raamwerk voor nummerreeksen gebruikt, maar in plaats daarvan worden boekstukken toegewezen op basis van sets. Na de upgrade wordt de nieuwe nummerreeks gemaakt waarbij **Volgende nummerset** op de juiste wijze wordt gebaseerd op de bijgewerkte transacties. Standaard is de nummerreeks die wordt gebruikt in de indeling FADBUpgr\#\#\#\#\#\#\#\#\#. Er zijn enkele parameters beschikbaar waarmee u de indeling kunt aanpassen met deze methode:
+Optie 1: **Door het systeem gedefinieerde nummerreeks**: dit is de standaardoptie om upgradeprestaties te optimaliseren. Bij de upgrade wordt niet het raamwerk voor nummerreeksen gebruikt, maar in plaats daarvan worden boekstukken toegewezen op basis van sets. Na de upgrade wordt de nieuwe nummerreeks gemaakt waarbij **Volgende nummerset** op de juiste wijze wordt gebaseerd op de bijgewerkte transacties. Standaard is de nummerreeks die wordt gebruikt in de indeling FADBUpgr\#\#\#\#\#\#\#\#\#. Er zijn enkele parameters beschikbaar waarmee u de indeling kunt aanpassen met deze methode:
 
 -   **Nummerreekscode**: de code ter identificatie van de nummerreeks. Deze nummerreekscode kan niet aanwezig zijn, omdat deze met de upgrade wordt gemaakt.
     -   Naam constante: **NumberSequenceDefaultCode**
@@ -83,3 +82,6 @@ Bij beide methoden wordt in het gegevensupgradescript ook de nummerreeks voor he
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

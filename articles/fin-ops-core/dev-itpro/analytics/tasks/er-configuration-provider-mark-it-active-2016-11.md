@@ -1,12 +1,10 @@
 ---
 title: Aanbieders van configuraties maken en deze als actief markeren
-description: In het volgende onderwerp wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een configuratieprovider voor elektronische rapportage (ER) kan maken.
+description: In het volgende onderwerp wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een configuratieprovider kan maken.
 author: NickSelin
-manager: AnnBe
 ms.date: 07/02/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERVendorTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7fb9f5be8571974237154ea704c93b8666c539a7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 27e1275199d098fffb56db61ed6bfd2fc3cdb790
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681992"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5755125"
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>Aanbieders van configuraties maken en deze als actief markeren
 
@@ -44,3 +42,6 @@ In het volgende onderwerp wordt uitgelegd hoe een gebruiker met de rol van syste
 2. Selecteer **Instellingen als actief**.
 
 ![Pagina met het werkgebied Elektronische rapportage](../media/GER-Task-ActiveProvider-1.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

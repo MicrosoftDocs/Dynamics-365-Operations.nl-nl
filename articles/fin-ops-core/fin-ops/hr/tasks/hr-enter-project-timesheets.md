@@ -1,61 +1,54 @@
 ---
 title: Projectroosters invoeren
 description: Met deze procedure kunt u een urenstaat maken met behulp van een leeg urenstaatformulier.
-author: twheeloc
-ms.date: 01/10/2022
+author: andreabichsel
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: anbichse
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c57ba991de366b4a0e1aa02971a107bed488f914
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: fec46c9d7dcc1804bbfbf599b7d87ff3f4ac743b40b674eaf09579b0c0da60a6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070470"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751443"
 ---
 # <a name="enter-project-timesheets"></a>Projectroosters invoeren
 
+Met deze procedure kunt u een urenstaat maken met behulp van een leeg urenstaatformulier. U kunt de nieuwe urenstaat baseren op gegevens uit een vorige urenstaat of uit project- en activiteitstoewijzingen op de pagina **Mijn favorieten**. Standaard geeft de lijstpagina **Alle urenstaten** al uw urenstaten weer voor de huidige periode. U kunt de vervolgkeuzelijst voor het veld **Weergeven** op de pagina **Mijn urenstaten** gebruiken om de lijst van urenstaten te filteren per periode of project, of om urenstaten weer te geven die namens andere medewerkers zijn gemaakt. Het demobedrijf dat wordt gebruikt om deze procedure te maken is USSI.  
 
-[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
-
-Met deze procedure kunt u een urenstaat maken met behulp van een lege urenstaatpagina. U kunt de nieuwe urenstaat baseren op gegevens uit een vorige urenstaat of uit project- en activiteitstoewijzingen op de pagina **Mijn favorieten**. Standaard geeft de lijstpagina **Alle urenstaten** al uw urenstaten weer voor de huidige periode. U kunt het veld **Weergeven** op de pagina **Mijn urenstaten** gebruiken om de lijst van urenstaten te filteren per periode of project, of om urenstaten weer te geven die namens andere medewerkers zijn gemaakt. Voor deze procedure is gebruikgemaakt van het demobedrijf **USSI**.
-
-1. Ga naar **Projectbeheer en boekhouding \> Urenstaten \> Mijn urenstaten**.
-2. Als u een nieuwe urenstaat wilt invoeren, selecteert u **Nieuw**.
-
-    Het veld **Resource** geeft standaard de medewerker weer die aan de huidige gebruiker is toegewezen.
-
-    Als de gebruiker als gemachtigde is aangewezen, worden de namen vermeld zodat een gebruiker een urenstaat in hun naam kan invoeren.
-
-3. Voer een datum in het veld **Datum** in. Als deze optie is geselecteerd, worden nieuwe urenstaatregels gemaakt door de instellingen voor urenstaat te gebruiken die als favorieten zijn geconfigureerd.
-4. Selecteer **OK**.
-5. Selecteer **Nieuwe regel**.
-6. Markeer in de lijst de geselecteerde rij. Het veld **Rechtspersoon** geeft standaard de huidige rechtspersoon weer.
-7. Selecteer in het veld **Project** de vervolgkeuzepijl om de zoekopdracht te openen.
-8. Zoek en selecteer de gewenste record in de lijst.
-9. Selecteer in de lijst de koppeling in de geselecteerde rij.
-10. Selecteer in het veld **Activiteitsnummer** de vervolgkeuzepijl om de zoekopdracht te openen.
+1. Ga in het **navigatievenster** naar **Modules > Projectbeheer en boekhouding > Urenstaten > Mijn urenstaten**.
+2. Als u een nieuwe urenstaat wilt invoeren, klikt u op **Nieuw**.
+    - De vervolgkeuzelijst Resource geeft standaard de medewerker weer die aan de huidige gebruiker is toegewezen.  
+    - Als de gebruiker als gemachtigde is aangewezen, worden de namen opgesomd zodat een gebruiker een urenstaat in hun naam kan invoeren.  
+3. Voer een datum in het veld **Datum** in. Als deze optie is geselecteerd, worden nieuwe urenstaatregels gemaakt door de instellingen voor urenstaat te gebruiken die als favorieten zijn geconfigureerd.  
+4. Klik op **OK**.
+5. Klik op **Nieuwe regel**.
+6. Markeer in de lijst de geselecteerde rij. Het veld **Rechtspersoon** geeft standaard de huidige rechtspersoon weer.   
+7. Klik in het veld **Project** op de vervolgkeuzeknop om de zoekopdracht te openen.
+8. Zoek en selecteer het gewenste record in de lijst.
+9. Klik in de lijst op de koppeling in de geselecteerde rij.
+10. Klik in het veld **Activiteitsnummer** op de vervolgkeuzeknop om de zoekopdracht te openen.
 11. Zoek en selecteer de gewenste record in de lijst.
-12. Selecteer in de lijst de koppeling in de geselecteerde rij.
-13. Selecteer in het veld **Categorie** de vervolgkeuzepijl om de zoekopdracht te openen.
-14. Zoek en selecteer de gewenste record in de lijst.
-15. Selecteer in de lijst de koppeling in de geselecteerde rij.
-16. Voer het aantal uren in dat elke dag is gewerkt. Voer de uren in een decimale notatie in. Als u bijvoorbeeld twee uur en vijftien minuten hebt gewerkt, voert u **2,25** in.
-
-    In de sectie **Regeldetails** zijn de volgende opties beschikbaar:
-
-    - Voeg informatie toe over belastingen en financiële dimensies op de tabbladen **Algemeen** en **Financiële dimensies**.
+12. Klik in de lijst op de koppeling in de geselecteerde rij.
+13. Klik in het veld **Categorie** op de vervolgkeuzeknop om de zoekopdracht te openen.
+14. Zoek en selecteer het gewenste record in de lijst.
+15. Klik in de lijst op de koppeling in de geselecteerde rij.
+16. Voer het aantal uren in dat elke dag is gewerkt. Voer de uren in een decimale notatie in. Als u bijvoorbeeld twee uur en vijftien minuten hebt gewerkt, voert u 2,25 in.   
+17. In **Regeldetails** zijn de volgende opties beschikbaar:
+    - Voeg informatie toe over belastingen en financiële dimensies op het tabblad **Algemeen** en het tabblad **Financiële dimensies**.
     - Voeg opmerkingen toe over de urenstaatregel toe op het tabblad **Opmerking**.
+20. Klik in het **actievenster** op **Workflow** om het dialoogvenster voor beëindigen te openen.
+21. Klik op **Aanbieden**.
+22. Klik op **Aanbieden**.
 
-17. Selecteer de knop **Werkstroom** in het actievenster om het vervolgdialoogvenster te openen.
-18. Selecteer **Indienen**.
-19. Selecteer **Indienen**.
+
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

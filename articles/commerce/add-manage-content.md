@@ -2,35 +2,30 @@
 title: Manieren om inhoud toe te voegen
 description: Dit onderwerp bevat een overzicht en specifieke koppelingen voor waar en hoe u kunt beginnen met het beheer van content met behulp van de webontwerpwerkset Microsoft Dynamics 365 Commerce Site Builder.
 author: phinneyridge
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 802a41b8c55e65eee58d26137c2f160b69847010
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f8a2dbb7bc7659e2e23b0ba6e2b5645dbe508ef9c9bda10df3bad8d04a6cfb32
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411324"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727673"
 ---
 # <a name="ways-to-add-content"></a>Manieren om inhoud toe te voegen
 
 [!include [banner](includes/banner.md)]
 
 Dit onderwerp bevat een overzicht en koppelingen naar documentatie over het beheer van content met behulp van de webontwerpwerkset Microsoft Dynamics 365 Commerce Site Builder.
-
-## <a name="overview"></a>Overzicht
 
 Er zijn vele manieren om het uiterlijk en de inhoud van uw site te wijzigen. Afhankelijk van het vereiste aanpassingsniveau kunnen veel van deze wijzigingen door niet-ontwikkelaars worden geïmplementeerd in Site Builder, de webontwerpwerkset van Dynamics 365 Commerce. Met Site Builder kunt u sjablonen maken, thema's selecteren en modules selecteren en configureren zonder code te schrijven. Ontwikkelvaardigheden zijn daarentegen wel vereist voor het maken van een nieuw thema of een nieuwe module, omdat daarvoor de e-commerce Software Development Kit (SDK) en de implementatiewerkstroom voor Microsoft Dynamics Lifecycle Services (LCS) moeten worden gebruikt.
 
@@ -57,3 +52,6 @@ Selecteer een van de volgende onderwerpen om aan de slag te gaan.
 [Statussen en levenscyclus van document](document-states-overview.md)
 
 [Het delen van inhoud door meerdere kanalen inschakelen en gebruiken](cross-channel-sharing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

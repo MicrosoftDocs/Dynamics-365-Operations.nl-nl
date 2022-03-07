@@ -2,11 +2,9 @@
 title: Problemen met live synchronisatie oplossen
 description: Dit onderwerp bevat informatie over het oplossen van problemen met live synchronisatie.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 59c8bd80b167cdfaa7a65e469f4dc7ebf8f50844
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744608"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350783"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Problemen met live synchronisatie oplossen
 
@@ -75,21 +73,21 @@ Voer de volgende stappen uit als er aan beide zijden gegevens voorkomen en u heb
 
 Wanneer u gegevens in een Finance and Operations-app maakt, wordt het foutbericht "Ongeldige aanvraag" weergegeven, zoals in het volgende voorbeeld.
 
-![Voorbeeld van foutbericht Ongeldige aanvraag](media/error_record_id_source.png)
+![Voorbeeld van foutbericht Ongeldige aanvraag.](media/error_record_id_source.png)
 
 Om het probleem op te lossen moet u de juiste beveiligingsrol toewijzen aan het team van de toegewezen Dynamics 365 Sales- of Dynamics 365 Customer Service-bedrijfseenheid om de ontbrekende bevoegdheid in te schakelen.
 
 1. Zoek in de Finance and Operations-app de bedrijfseenheid die is toegewezen in de verbindingsset Gegevensintegratie.
 
-    ![Organisatietoewijzing](media/mapped_business_unit.png)
+    ![Organisatietoewijzing.](media/mapped_business_unit.png)
 
 2. Meld u aan bij de omgeving in de modelgestuurde app in Dynamics 365, navigeer naar **Instelling \> Beveiliging** en zoek het team van de toegewezen bedrijfseenheid.
 
-    ![Team van de toegewezen bedrijfseenheid](media/setting_security_page.png)
+    ![Team van de toegewezen bedrijfseenheid.](media/setting_security_page.png)
 
 3. Open de pagina voor het team voor bewerking en selecteer **Rollen beheren** om het dialoogvenster **Teamrollen beheren** te openen.
 
-    ![De knop Rollen beheren](media/manage_team_roles.png)
+    ![De knop Rollen beheren.](media/manage_team_roles.png)
 
 4. Wijs de rol met de bevoegdheid voor lezen/schrijven toe voor de relevante tabellen en selecteer **OK**.
 
@@ -127,3 +125,6 @@ Volg deze stappen om het probleem op te lossen.
 
 3. Controleer of de kolom **externalenvironmentURL** de juiste URL voor Dataverse of de app heeft. Verwijder dubbele rijen die naar de verkeerde Dataverse-URL verwijzen. Verwijder de overeenkomstige rijen uit de tabellen DUALWRITEPROJECTFIELDCONFIGURATION en DUALWRITEPROJECTCONFIGURATION.
 4. De tabeltoewijzing stoppen en vervolgens opnieuw starten
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

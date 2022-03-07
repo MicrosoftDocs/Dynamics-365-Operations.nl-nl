@@ -1,26 +1,24 @@
 ---
 title: Overzicht van Magazijnbeheer
 description: Gebruik Magazijnbeheer om magazijnprocessen te controleren en te automatiseren.
-author: ShylaThompson
-manager: tfehr
+author: Mirzaab
 ms.date: 04/20/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters, WHSWorkPool
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 432004a7389434248ddde242b153dfb3cd955055
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: aa2b62a0bfda57879850771488e6576592fbb894
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970123"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982847"
 ---
 # <a name="warehouse-management-overview"></a>Overzicht van Magazijnbeheer
 
@@ -42,7 +40,7 @@ U moet onderdelen voor binnenkomende en uitgaande magazijnprocesworkflows config
 - [Een werksjabloon instellen voor inkooporders](./tasks/set-up-work-template-purchase-orders.md)
 
 ## <a name="warehouse-management-processes"></a>Magazijnbeheerprocessen
-- Geïntegreerde ondersteuning voor brondocumenten voor verkooporders, retouren, transferorders, productieorders en kanban  
+- Geïntegreerde ondersteuning voor brondocumenten voor verkooporders, retouren, overboekingsorders, productieorders en kanban  
 - Flexibele workflowondersteuning voor binnenkomend en uitgaand materiaal op basis van query's
 - Volledige integratie van het productie- en transportaanbod
 - Volledige controle over locatieopslaglimieten en de locatievolumemaatstaven
@@ -73,3 +71,6 @@ U kunt adviezen, nieuws en andere informatie over magazijnbeheer en andere oplos
 
  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

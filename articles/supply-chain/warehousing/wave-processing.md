@@ -13,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
-ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b89a13e72816bbf140986bd5450d037cf2510753
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.dyn365.ops.version: Release 10.0.18
+ms.openlocfilehash: 5d3e8038c4651bb75b3d36ed0d398be0d032b591dedda757d2fc3a6399e512c6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103508"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773052"
 ---
 # <a name="wave-creation-and-processing"></a>Waves maken en verwerken
 
@@ -190,9 +190,9 @@ Indien nodig, kunt u een wave annuleren die is verwerkt. Als u een wave en het g
 
 Gebruik de pagina **Details van batchtaak voor wave** om de batchtaken en gerelateerde taken te inspecteren die aan een wave zijn gekoppeld. Dit is vooral handig voor het oplossen van problemen met een wave die is mislukt. Zonder deze functie hebben alleen beheerders doorgaans toegang tot batchverwerkingsdetails. De pagina **Details van batchtaken voor wave** kan beschikbaar worden gesteld aan niet-beheerders en biedt een alleen-lezen weergave van batchtaken en gerelateerde taken.
 
-### <a name="turn-the-wave-batch-job-details-page-on-or-off"></a>De pagina Details van batchtaken voor wave in- of uitschakelen
+### <a name="enable-the-wave-batch-job-details-page"></a>De pagina Details van batchtaken voor wave inschakelen
 
-Vanaf Supply Chain Management versie 10.0.25 is de pagina **Details van batchtaken voor wave** standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Details van batchtaken voor wave* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Als uw systeem nog niet de pagina **Details van batchtaken voor wave** bevat, gaat u naar [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de functie *Details van batchtaken voor wave* in.
 
 ### <a name="use-the-wave-batch-job-details-page"></a>De pagina Details van batchtaken voor wave gebruiken
 

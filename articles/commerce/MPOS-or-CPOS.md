@@ -2,11 +2,9 @@
 title: Kiezen tussen Modern POS (MPOS) en Cloud POS
 description: In dit onderwerp worden de belangrijkste verschillen tussen Modern POS en Cloud POS uitgelegd. Hierin worden ook verschillende factoren beschreven waarmee detailhandelaren die Dynamics 365 Commerce implementeren rekening moeten houden bij het maken van de beste keuze voor hun vereisten.
 author: jblucher
-manager: AnnBe
 ms.date: 10/13/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 330646da075e3fc8c0c3f7fe54b790ed42615395
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3e2987351e327b5cca27a6ea992a0550cc21d028cecf4330d374768f13711829
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970098"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714754"
 ---
 # <a name="choose-between-modern-pos-mpos-and-cloud-pos"></a>Kiezen tussen Modern POS (MPOS) en Cloud POS
 
@@ -59,7 +57,7 @@ Hoewel MPOS en CPOS grotendeels identiek zijn, zijn er enkele belangrijke versch
 MPOS op een Windows-, iOS- of Android-apparaat is een toepassing die wordt verpakt voor en geïnstalleerd en onderhouden op dat apparaat.
 
 - **Windows**: de MPOS-toepassing voor Windows bevat alle toepassingscode en de ingesloten CRT (commerce runtime). 
-- **iOS/Android**: op deze platforms fungeert de toepassing als host voor de CPOS-toepassingscode. Met andere woorden, de toepassingscode wordt opgehaald van de CPOS-server op Microsoft Azure of de Commerce Scale Unit. Zie voor meer informatie [Overzicht van Commerce Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
+- **iOS/Android**: op deze platforms fungeert de toepassing als host voor de CPOS-toepassingscode. Met andere woorden, de toepassingscode wordt opgehaald van de CPOS-server op Microsoft Azure of de Commerce Scale Unit. Zie voor meer informatie [Overzicht van Commerce Scale Unit](dev-itpro/retail-store-system-begin.md).
 
 #### <a name="cpos"></a>CPOS
 
@@ -81,11 +79,11 @@ De Commerce Scale Unit is een onderdeel dat als host fungeert voor de CRT. De CR
 
 #### <a name="offline-mode"></a>Offlinemodus
 
-MPOS voor Windows ondersteunt de offlinemodus. In de offlinemodus kan de POS verkopen blijven verwerken, zelfs als er geen verbinding is met de Commerce Scale Unit. Vervolgens kan deze worden gesynchroniseerd met de kanaaldatabase wanneer de verbinding is hersteld. MPOS gebruikt een eigen ingesloten exemplaar van de CRT en maakt tijdelijk gebruik van de eigen lokale gegevensbron (offline SQL Server-database). Zie [Offline POS-functionaliteit](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-offline-functionality) voor meer informatie over offlinefunctionaliteit.
+MPOS voor Windows ondersteunt de offlinemodus. In de offlinemodus kan de POS verkopen blijven verwerken, zelfs als er geen verbinding is met de Commerce Scale Unit. Vervolgens kan deze worden gesynchroniseerd met de kanaaldatabase wanneer de verbinding is hersteld. MPOS gebruikt een eigen ingesloten exemplaar van de CRT en maakt tijdelijk gebruik van de eigen lokale gegevensbron (offline SQL Server-database). Zie [Offline POS-functionaliteit](pos-offline-functionality.md) voor meer informatie over offlinefunctionaliteit.
 
 ### <a name="pos-peripheralhardware-considerations"></a>Overwegingen met betrekking tot POS-randapparatuur/hardware
 
-Detailhandelaren moeten ook bepalen hoe de POS toegang moet krijgen tot apparaten en randapparatuur, zoals printers, kassalades en betalingsterminals. Alleen MPOS voor Windows biedt ondersteuning voor directe communicatie met deze apparaten. Voor MPOS voor Windows Phone, iOS of Android, en Cloud POS hebt u een hardwarestation nodig om toegang te krijgen tot deze apparaten. Hardwarestations kunnen worden gekoppeld aan een POS-kassa of worden gedeeld met de kassa's in een winkel. Zie voor meer informatie over hardwarestation het onderwerp [Een detailhandelhardwarestation configureren en installeren](https://docs.microsoft.com/dynamics365/unified-operations/retail/retail-hardware-station-configuration-installation).
+Detailhandelaren moeten ook bepalen hoe de POS toegang moet krijgen tot apparaten en randapparatuur, zoals printers, kassalades en betalingsterminals. Alleen MPOS voor Windows biedt ondersteuning voor directe communicatie met deze apparaten. Voor MPOS voor Windows Phone, iOS of Android, en Cloud POS hebt u een hardwarestation nodig om toegang te krijgen tot deze apparaten. Hardwarestations kunnen worden gekoppeld aan een POS-kassa of worden gedeeld met de kassa's in een winkel. Zie voor meer informatie over hardwarestation het onderwerp [Een detailhandelhardwarestation configureren en installeren](retail-hardware-station-configuration-installation.md).
 
 ## <a name="implementation-considerations"></a>Implementatieoverwegingen
 
@@ -102,5 +100,8 @@ Houd bij het plannen van de POS-implementatie in uw winkels rekening met het vol
     Deze twee opties sluiten elkaar niet uit. Voor de meest betrouwbare topologie kunnen detailhandelaren een lokale RSSU implementeren om de afhankelijk van de internetverbinding of beschikbaarheid van Azure te beperken. Daarnaast kunnen ze POS-kassa's implementeren waarop de offlinemodus wordt ingeschakeld als er een probleem met de lokale server of het netwerk is.
 
 - **Hardwareapparaten/randapparaten**: een belangrijk aspect van een Retail POS-systeem is de mogelijkheid om POS-randapparatuur, zoals printers, kassalades en betalingsterminals, te gebruiken. Hoewel met alle beschikbare POS-opties randapparatuur kan worden gebruikt, ondersteunt alleen MPOS voor Windows deze direct. Voor alle andere toepassingen zijn een of meer hardwarestations vereist. Hoewel deze benadering flexibiliteit toevoegt, moeten er aanvullende onderdelen worden geïmplementeerd, geconfigureerd en onderhouden.
-- **Systeemvereisten**: de systeemvereisten voor de POS-toepassing variëren. Zorg ervoor dat u over de meest recente informatie beschikt voordat u uw keuze maakt. Omdat CPOS wordt uitgevoerd in een browser, ondersteunt dit bijvoorbeeld een groter aantal besturingssystemen. Zie [Systeemvereisten voor cloudimplementaties](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/system-requirements) voor meer informatie over systeemvereisten.
+- **Systeemvereisten**: de systeemvereisten voor de POS-toepassing variëren. Zorg ervoor dat u over de meest recente informatie beschikt voordat u uw keuze maakt. Omdat CPOS wordt uitgevoerd in een browser, ondersteunt dit bijvoorbeeld een groter aantal besturingssystemen. Zie [Systeemvereisten voor cloudimplementaties](../fin-ops-core/fin-ops/get-started/system-requirements.md) voor meer informatie over systeemvereisten.
 - **Implementatie en onderhoud**: de complexiteit van de implementatie- en onderhoudsvereisten kan variëren, afhankelijk van de toepassing en implementatieopties. Voor een cloudgehoste CPOS-implementatie hoeft u bijvoorbeeld geen installaties en updates uit te voeren op elk apparaat. Deze benadering leidt dus tot een sterke verlaging van de complexiteit en kosten. Als u MPOS op elke kassa implementeert en de offlinemodus inschakelt, en u daarnaast gedeelde hardwarestations implementeert, vergroot u het aantal te beheren eindpunten aanzienlijk.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

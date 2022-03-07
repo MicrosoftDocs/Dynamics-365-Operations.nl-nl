@@ -2,26 +2,23 @@
 title: Verbeteringen op het verkooppunt (POS) voor geserialiseerde producten
 description: Dit onderwerp bevat een overzicht van verbeteringen die zijn aangebracht in geserialiseerde producten om u tijd te laten besparen en productiever te laten werken.
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bf3a6a2b713e5fe1fe22ae886080945e7a87c9b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fbd1d9c71ece77cbf4c6ecb741eb6d5e3e3455d9
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411494"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028150"
 ---
 # <a name="point-of-sale-pos-improvements-for-serialized-products"></a>Verbeteringen op het verkooppunt (POS) voor geserialiseerde producten
 
@@ -33,7 +30,7 @@ Op basis van de instellingen in Commerce Headquarters kunnen producten als geser
 
 ## <a name="pos-improvements"></a>POS-verbeteringen
 
-- **Serienummers zijn pas bij het uitchecken vereist** : voorheen moest een kassamedewerker bij het toevoegen van een geserialiseerd product aan de transactie een serienummer opgeven. Deze vereiste werd een probleem in clientelingscenario's als kassamedewerkers en verkoopmedewerkers mogelijkheden voor meerverkoop hadden. Tot de betalingsstap werden de producten vaak bijgewerkt in de winkelwagen. Elke keer dat een kassamedewerker een nieuw product toevoegde, werd hij of zij gevraagd om het serienummer. Het dialoogvenster voor serienummers bevat nu een knop **Later toevoegen**. Verkoopmedewerkers kunnen nu dus het artikel toevoegen aan de transactie en later het serienummer opgeven. Verkoopmedewerkers kunnen geserialiseerde artikelen snel toevoegen aan en vervangen in de winkelwagen en vervolgens vlak voor het uitchecken het serienummer opgeven. Als het serienummer niet wordt opgegeven voor een geserialiseerde product, ontvangt een kassamedewerker die de transactie probeert af te handelen een foutbericht. In dit bericht wordt aangegeven dat de kassamedewerker de ontbrekende serienummers moet opgeven voordat hij of zij kan doorgaan.
+- **Serienummers zijn pas bij het uitchecken vereist** : voorheen moest een kassamedewerker bij het toevoegen van een geserialiseerd product aan de transactie een serienummer opgeven. Deze vereiste werd een probleem in clientelingscenario's als kassamedewerkers en verkoopmedewerkers mogelijkheden voor meerverkoop hadden. Tot de betalingsstap werden de producten vaak bijgewerkt in de winkelwagen. Elke keer dat een kassamedewerker een nieuw product toevoegde, werd de kassamedewerker gevraagd om het serienummer. Het dialoogvenster voor serienummers bevat nu een knop **Later toevoegen**. Verkoopmedewerkers kunnen nu dus het artikel toevoegen aan de transactie en later het serienummer opgeven. Verkoopmedewerkers kunnen geserialiseerde artikelen snel toevoegen aan en vervangen in de winkelwagen en vervolgens vlak voor het uitchecken het serienummer opgeven. Als het serienummer niet wordt opgegeven voor een geserialiseerde product, ontvangt een kassamedewerker die de transactie probeert af te handelen een foutbericht. In dit bericht wordt aangegeven dat de kassamedewerker de ontbrekende serienummers moet opgeven voordat de kassamedewerker kan doorgaan.
 
     Voor elk geserialiseerd artikel waarvoor het serienummer is overgeslagen, verschijnt een opmerking onder de transactieregel. Dit commentaar geeft aan dat het serienummer voor het artikel nog niet is opgegeven. De kassamedewerker kan dus snel de artikelen vinden waarvoor een serienummer ontbreekt.
 
@@ -42,3 +39,6 @@ Op basis van de instellingen in Commerce Headquarters kunnen producten als geser
 - **Serienummers zijn niet vereist om klantorders plaatsen**: klantorders kunnen worden geplaatst in de ene winkel en worden afgehandeld in een andere winkel. Een kassamedewerker die een klantorder plaatst, hoeft het serienummer niet op te geven. Het serienummer wordt opgegeven tijdens de orderverzameling of het ophalen. Er moet echter een serienummer worden opgegeven voor alle regelartikelen waarvoor het leveringstype **Uitvoeren** is geselecteerd. Anders kan de transactie niet worden voltooid.
 - **Geserialiseerde producten worden niet samengevoegd in het transactiescherm**: via de instelling **Producten samenvoegen** in de veldgroep **Terminal** op de pagina **Functionaliteitsprofiel** kunt u dezelfde niet-geserialiseerde producten samenvoegen in het transactiescherm. Wanneer dezelfde producten worden samengevoegd, zijn ze gemakkelijker te zien in het transactieraster. Omdat serienummers doorgaans uniek zijn en verkoopmedewerkers pas serienummers hoeven in te voeren bij het uitchecken, is de instelling **Producten samenvoegen** niet van toepassing op geserialiseerde producten. Geserialiseerde producten worden dus niet samengevoegd in het transactiescherm als de instelling **Producten samenvoegen** is geselecteerd.
 - **Mogelijkheid om de journalen te doorzoeken op serienummer**: de journalen kunnen nu ook worden doorzocht op serienummers. Hiervoor opent u de bewerking Journalen en kiest u de knop Geavanceerd zoeken op de appbalk. Met de knop Filter toevoegen kunt u ook een filter toepassen om op de serienummers te zoeken.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

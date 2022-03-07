@@ -1,34 +1,34 @@
 ---
 title: Productiemedewerkers voorzien van mixed reality-guides
 description: In dit onderwerp wordt uitgelegd hoe u de productiebeheermodule in Microsoft Dynamics 365 Supply Chain Management integreert met Dynamics 365 Guides.
-author: cabeln
-manager: tfehr
+author: johanhoffmann
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkGuidesManufacturing
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 61943
+ms.custom:
+- "61943"
+- intro-internal
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: cabeln
+ms.author: johanho
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 727a3bc50ea55259c7260a9d060dac59473ee3c1
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 703f2cb9a1ea8691420765a8598d59f3e6cc6488
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645139"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062947"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Productiemedewerkers voorzien van mixed reality-guides
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [banner](../includes/banner.md)]
+
 
 Medewerkers in productieprocessen zullen gebruikmaken van relevante instructies die op het juiste moment in het context van hun werk worden geleverd. *Instructies* zijn van toepassing op verschillende domeinen van werkzaamheden, waaronder: assemblage, service, bewerkingen, certificering en veiligheid. In al deze belangrijke bedrijfsfuncties kunnen doorlopende trainingsinstructies worden gebruikt om medewerkers te helpen meer te bereiken en beter te werken.
 
@@ -60,7 +60,7 @@ In de volgende subsecties wordt een aantal geselecteerde scenario's beschreven w
 
 ### <a name="assembly"></a>Assembly
 
-![Guides gebruiken in assemblagetaken](media/instruction-guides-hero-assembly.png "Guides gebruiken in servicetaken")
+![Guides gebruiken in assemblagetaken.](media/instruction-guides-hero-assembly.png "Guides gebruiken in servicetaken")
 
 Guides voor assemblagebewerkingen tonen medewerkers de benodigde gereedschappen en onderdelen en geven aan hoe ze deze in concrete werksituaties moeten gebruiken.
 
@@ -68,7 +68,7 @@ Productiemanagers kunnen guides maken en toewijzen, bijvoorbeeld voor [productie
 
 ### <a name="service"></a>Service
 
-![Guides gebruiken in servicetaken](media/instruction-guides-hero-service.png "Guides gebruiken in servicetaken")
+![Guides gebruiken in servicetaken.](media/instruction-guides-hero-service.png "Guides gebruiken in servicetaken")
 
 Voorzie technici van begeleide instructies op de werkplek, zodat er geen extra bezoeken hoeven te worden gepland.
 
@@ -76,7 +76,7 @@ Servicemanagers kunnen bijvoorbeeld guides toewijzen aan specifieke [producten](
 
 ### <a name="quality"></a>Kwaliteit
 
-![Guides gebruiken in kwaliteitscontroletaken](media/instruction-guides-hero-quality.png "Guides gebruiken in kwaliteitscontroletaken")
+![Guides gebruiken in kwaliteitscontroletaken.](media/instruction-guides-hero-quality.png "Guides gebruiken in kwaliteitscontroletaken")
 
 Implementeer nieuwe processen en zorg voor een betere consistentie door de kennis van medewerkers in een herhaalbaar hulpmiddel te veranderen.
 
@@ -84,13 +84,13 @@ Managers voor kwaliteitscontrole kunnen bijvoorbeeld guides toewijzen aan specif
 
 ### <a name="certifications"></a>Certificaten
 
-![Guides gebruiken voor aan certificering gerelateerde taken](media/instruction-guides-hero-certification.png "Guides gebruiken voor aan certificering gerelateerde taken")
+![Guides gebruiken voor aan certificering gerelateerde taken.](media/instruction-guides-hero-certification.png "Guides gebruiken voor aan certificering gerelateerde taken")
 
 Zorg ervoor dat elke medewerker aan hoge normen voldoet door snel te identificeren wie hulp nodig heeft en waar.
 
 ### <a name="safety"></a>Veiligheid
 
-![Guides gebruiken in instructies voor veilig werken](media/instruction-guides-hero-safety.png "Guides gebruiken in instructies voor veilig werken")
+![Guides gebruiken in instructies voor veilig werken.](media/instruction-guides-hero-safety.png "Guides gebruiken in instructies voor veilig werken")
 
 Verstrek instructies die gevaarlijke procedures doorlopen, vrijwel voordat u deze probeert in de fysieke omgeving. Met een methode met mixed reality kunnen medewerkers virtueel gevaarlijke procedures uitvoeren.
 
@@ -105,8 +105,8 @@ Om instructies in productieprocessen in te schakelen, biedt Supply Chain Managem
 Als u deze functie wilt gebruiken, moet uw systeem het volgende bevatten:
 
 - Dynamics 365 Supply Chain Management versie 10.0.15 of hoger
-- [Twee keer wegschrijven](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/enable-dual-write) voor Supply Chain Management-apps.
-- [Dynamics 365 Guides](https://docs.microsoft.com/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) versie 400.0.1.48 of hoger
+- [Twee keer wegschrijven](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-dual-write.md) voor Supply Chain Management-apps.
+- [Dynamics 365 Guides](/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) versie 400.0.1.48 of hoger
 
 ### <a name="turn-on-the-feature"></a>De functie inschakelen
 
@@ -122,7 +122,7 @@ Als u de functie beschikbaar wilt maken op uw systeem, moet u de bijbehorende co
 
 Als u wilt configureren hoe guides worden weergegeven op de werkvloer, gaat u naar **Mixed reality \> Dynamics 365 Guides \> Integratie van Guides configureren**.
 
-![Integratie van guides configureren voor productie](media/instruction-guides-configure-integration.png "Integratie van guides configureren voor productie")
+![Integratie van guides configureren voor productie.](media/instruction-guides-configure-integration.png "Integratie van guides configureren voor productie")
 
 Stel de volgende velden in:
 
@@ -139,7 +139,7 @@ Stel de volgende velden in:
 
 Gebruik de pagina **Alle guides** om de lijst met alle beschikbare guides in uw organisatie en alle toewijzingen aan productieprocessen en resources weer te geven. Ga naar **Mixed reality \> Guides \> Alle guides** om deze te openen. In de lijst boven worden alle beschikbare guides weergegeven en kunt u het veld hier gebruiken om de lijst te filteren. In de lijst onderaan ziet u alle toewijzingen van guides en een werkbalk voor het beheren hiervan.
 
-![Guides beheren](media/instruction-guides-allguides.png "Guides beheren")
+![Guides beheren.](media/instruction-guides-allguides.png "Guides beheren")
 
 In de volgende secties worden de typen objecten beschreven waaraan u guides kunt toewijzen. Elke toegewezen guide bevat instructies die automatisch worden gekoppeld aan de respectieve productietaken en die beschikbaar zijn op de werkvloer.
 
@@ -160,7 +160,7 @@ Voeg als volgt een guide toe aan een resource:
 1. Vouw het sneltabblad **Gekoppelde guides** uit.
 1. Selecteer **Toevoegen** op de werkbalk **Gekoppelde guides**. Er wordt een nieuwe regel aan het raster toegevoegd.
 1. Voor de nieuwe regel gebruikt u de vervolgkeuzelijst in de kolom **Naam** om de guide te kiezen die u wilt toewijzen. Als u een groot aantal guides hebt, kunt u de lijst filteren om de gewenste te zoeken.
-    ![Guides beheren](media/instruction-guides-allguides.png "Guides beheren")
+    ![Guides beheren.](media/instruction-guides-allguides.png "Guides beheren")
 
 ## <a name="associate-a-guide-to-a-resource-group"></a><a name="resource-groups"></a>Een guide aan een resourcegroep koppelen
 
@@ -181,7 +181,7 @@ U kunt als volgt een guide toevoegen aan een resourcegroep:
 1. Vouw het sneltabblad **Gekoppelde guides** uit.
 1. Selecteer **Toevoegen** op de werkbalk **Gekoppelde guides**. Er wordt een nieuwe regel aan het raster toegevoegd.
 1. Voor de nieuwe regel gebruikt u de vervolgkeuzelijst in de kolom **Naam** om de guide te kiezen die u wilt toewijzen. Als u een groot aantal guides hebt, kunt u de lijst filteren om de gewenste te zoeken.
-    ![Een guide toevoegen aan een resourcegroep](media/instruction-guides-resourcegroup.png "Een guide toevoegen aan een resourcegroep")
+    ![Een guide toevoegen aan een resourcegroep.](media/instruction-guides-resourcegroup.png "Een guide toevoegen aan een resourcegroep")
 
 ## <a name="associate-a-guide-to-a-released-product"></a><a name="released-products"></a>Een guide aan een vrijgegeven product koppelen
 
@@ -201,7 +201,7 @@ U kunt als volgt een guide toevoegen aan een vrijgegeven product:
 1. De pagina **Gekoppelde guides** worden geopend voor uw geselecteerde product.
 1. Selecteer **Toevoegen** in het actievenster om nieuwe regel toe te voegen aan het raster. 
 1. Voor de nieuwe regel gebruikt u de vervolgkeuzelijst in de kolom **Naam** om de guide te kiezen die u wilt toewijzen.
-    ![Een guide toevoegen aan een vrijgegeven product](media/instruction-guides-ReleasedProduct-AddGuides.png "Een guide toevoegen aan een vrijgegeven product")
+    ![Een guide toevoegen aan een vrijgegeven product.](media/instruction-guides-ReleasedProduct-AddGuides.png "Een guide toevoegen aan een vrijgegeven product")
 
 ## <a name="associate-a-guide-to-a-formula"></a><a name="formulas"></a>Een guide aan een formule koppelen
 
@@ -226,7 +226,7 @@ U kunt als volgt een guide toevoegen aan een formule:
 1. Vouw het sneltabblad **Gekoppelde guides** uit.
 1. Selecteer **Toevoegen** op de werkbalk **Gekoppelde guides**. Er wordt een nieuwe regel aan het raster toegevoegd.
 1. Voor de nieuwe regel gebruikt u de vervolgkeuzelijst in de kolom **Naam** om de guide te kiezen die u wilt toewijzen.
-    ![Een guide toevoegen aan een formule](media/instruction-guides-Formula.png "Een guide toevoegen aan een formule")
+    ![Een guide toevoegen aan een formule.](media/instruction-guides-Formula.png "Een guide toevoegen aan een formule")
 
 ## <a name="associate-a-guide-to-a-formula-version"></a><a name="formula-versions"></a>Een guide aan een formuleversie koppelen
 
@@ -251,11 +251,11 @@ U kunt als volgt een guide toevoegen aan een formuleversie:
 1. Open het tabblad **Koptekst** boven het bovenste sneltabblad.
 1. Selecteer op het sneltabblad **Formuleversies** de versie waaraan u een guide wilt toewijzen.
 1. Selecteer op de werkbalk **Formuleversies** de optie **Gekoppelde guides**.
-    ![De guides openen die aan een geselecteerde formuleversie zijn gekoppeld](media/instruction-guides-FormulaVersion.png "De guides openen die aan een geselecteerde formuleversie zijn gekoppeld")
+    ![De guides openen die aan een geselecteerde formuleversie zijn gekoppeld.](media/instruction-guides-FormulaVersion.png "De guides openen die aan een geselecteerde formuleversie zijn gekoppeld")
 1. De pagina **Gekoppelde guides** worden geopend voor uw formuleversie.
 1. Selecteer **Toevoegen** in het actievenster om nieuwe regel toe te voegen aan het raster. 
 1. Voor de nieuwe regel gebruikt u de vervolgkeuzelijst in de kolom **Naam** om de guide te kiezen die u wilt toewijzen.
-    ![Een guide toevoegen aan een formuleversie](media/instruction-guides-FormulaVersionAddGuide.png "Een guide toevoegen aan een formuleversie")
+    ![Een guide toevoegen aan een formuleversie.](media/instruction-guides-FormulaVersionAddGuide.png "Een guide toevoegen aan een formuleversie")
 
 ## <a name="associate-a-guide-to-a-bill-of-materials"></a><a name="bom"></a>Een guide aan een stuklijst koppelen
 
@@ -278,7 +278,7 @@ U kunt als volgt een guide toevoegen aan een stuklijst:
 1. Vouw het sneltabblad **Gekoppelde guides** uit.
 1. Selecteer **Toevoegen** op de werkbalk **Gekoppelde guides**. Er wordt een nieuwe regel aan het raster toegevoegd.
 1. Voor de nieuwe regel gebruikt u de vervolgkeuzelijst in de kolom **Naam** om de guide te kiezen die u wilt toewijzen.
-    ![Een guide toevoegen aan een stuklijst](media/instruction-guides-BOM.png "Een guide toevoegen aan een stuklijst")
+    ![Een guide toevoegen aan een stuklijst.](media/instruction-guides-BOM.png "Een guide toevoegen aan een stuklijst")
 
 ## <a name="associate-a-guide-to-a-bill-of-materials-version"></a><a name="bom-versions"></a>Een guide aan een stuklijstversie koppelen
 
@@ -300,11 +300,11 @@ U kunt als volgt een guide toevoegen aan een stuklijstversie:
 1. Open het tabblad **Koptekst** boven het bovenste sneltabblad.
 1. Selecteer op het sneltabblad **Stuklijstversies** de versie waaraan u een guide wilt toewijzen.
 1. Selecteer op de werkbalk **Stuklijstversies** de optie **Gekoppelde guides**.
-    ![De guides openen die aan een geselecteerde stuklijstversie zijn gekoppeld](media/instruction-guides-BOMVersion.png "De guides openen die aan een geselecteerde stuklijstversie zijn gekoppeld")
+    ![De guides openen die aan een geselecteerde stuklijstversie zijn gekoppeld.](media/instruction-guides-BOMVersion.png "De guides openen die aan een geselecteerde stuklijstversie zijn gekoppeld")
 1. De pagina **Gekoppelde guides** worden geopend voor uw stuklijstversie.
 1. Selecteer **Toevoegen** in het actievenster om nieuwe regel toe te voegen aan het raster.
 1. Voor de nieuwe regel gebruikt u de vervolgkeuzelijst in de kolom **Naam** om de guide te kiezen die u wilt toewijzen.
-    ![Een guide toevoegen aan een stuklijstversie](media/instruction-guides-BOMVersionAddGuide.png "Een guide toevoegen aan een stuklijstversie")
+    ![Een guide toevoegen aan een stuklijstversie.](media/instruction-guides-BOMVersionAddGuide.png "Een guide toevoegen aan een stuklijstversie")
 
 ## <a name="associate-a-guide-to-a-route"></a><a name="routes"></a>Een guide aan een route koppelen
 
@@ -325,7 +325,7 @@ U kunt als volgt een guide toevoegen aan een route:
 1. Vouw het sneltabblad **Gekoppelde guides** uit.
 1. Selecteer **Toevoegen** op de werkbalk **Gekoppelde guides**. Er wordt een nieuwe regel aan het raster toegevoegd.
 1. Voor de nieuwe regel gebruikt u de vervolgkeuzelijst in de kolom **Naam** om de guide te kiezen die u wilt toewijzen.
-    ![Een guide toevoegen aan een route](media/instruction-guides-Route.png "Een guide toevoegen aan een route")
+    ![Een guide toevoegen aan een route.](media/instruction-guides-Route.png "Een guide toevoegen aan een route")
 
 ## <a name="associate-a-guide-to-a-route-version"></a><a name="route-versions"></a>Een guide aan een routeversie koppelen
 
@@ -343,11 +343,11 @@ U kunt als volgt een guide toevoegen aan een routeversie:
 1. Open de route waaraan u een guide wilt toewijzen.
 1. Selecteer op het sneltabblad **Versies** de versie waaraan u een guide wilt toewijzen.
 1. Selecteer op de werkbalk **Versies** de optie **Gekoppelde guides**.
-    ![De guides openen die aan een geselecteerde routeversie zijn gekoppeld](media/instruction-guides-RouteVersion.png "De guides openen die aan een geselecteerde routeversie zijn gekoppeld")
+    ![De guides openen die aan een geselecteerde routeversie zijn gekoppeld.](media/instruction-guides-RouteVersion.png "De guides openen die aan een geselecteerde routeversie zijn gekoppeld")
 1. De pagina **Gekoppelde guides** worden geopend voor uw stuklijstversie.
 1. Selecteer **Toevoegen** in het actievenster om nieuwe regel toe te voegen aan het raster.
 1. Voor de nieuwe regel gebruikt u de vervolgkeuzelijst in de kolom **Naam** om de guide te kiezen die u wilt toewijzen.
-    ![Een guide toevoegen aan een routeversie](media/instruction-guides-RouteVersionAddGuide.png "Een guide toevoegen aan een routeversie")
+    ![Een guide toevoegen aan een routeversie.](media/instruction-guides-RouteVersionAddGuide.png "Een guide toevoegen aan een routeversie")
 
 ## <a name="associate-a-guide-to-a-route-operation-relation"></a><a name="route-operation-relations"></a>Een guide aan een routebewerkingsrelatie koppelen
 
@@ -370,8 +370,8 @@ U kunt als volgt een guide toevoegen aan een routebewerkingsrelatie:
 1. De pagina **Routedetails** wordt geopend voor de geselecteerde route.
 1. Selecteer in het bovenste raster de bewerking waarvoor u richtlijnen wilt opgeven.
 1. Selecteer in het onderste raster een specifieke relatie (of de algemene relatie **Alle**).
-    ![Een bewerking en vervolgens een relatie selecteren](media/instruction-guides-RouteOperationRelation.png "Een bewerking en vervolgens een relatie selecteren")
-1. Open boven het onderste raster het tabblad **Gekoppelde guides**. ![Het tabblad Gekoppelde guides](media/instruction-guides-RouteOperationRelation-AddGuide.png "Het tabblad Gekoppelde guides")
+    ![Een bewerking en vervolgens een relatie selecteren.](media/instruction-guides-RouteOperationRelation.png "Een bewerking en vervolgens een relatie selecteren")
+1. Open boven het onderste raster het tabblad **Gekoppelde guides**. ![Het tabblad Gekoppelde guides.](media/instruction-guides-RouteOperationRelation-AddGuide.png "Het tabblad Gekoppelde guides")
 1. Selecteer **Toevoegen** in de werkbalk boven aan het onderste raster om een nieuwe regel aan het raster toe te voegen.
 1. Gebruik voor de nieuwe rij de vervolgkeuzelijst in de kolom **Naam** om de guide te kiezen die u wilt toewijzen. Schakel in de rest van de rij het selectievakje in voor elke context waarin de geselecteerde guide beschikbaar moet zijn.
 
@@ -382,11 +382,11 @@ U kunt als volgt een guide toevoegen aan een routebewerkingsrelatie:
 
 Wanneer een medewerker een takenlijst opent in de uitvoeringsinterface voor de werkvloer, worden in Supply Chain Management de relevante guides voor de weergegeven taken gevonden. Gebruik de knop **Guides** om de relevante guides weer te geven.
 
-![Knop Guides in de uitvoeringsinterface van de werkvloer](media/instruction-guides-Shopfloor1.png "Knop Guides in de uitvoeringsinterface van de werkvloer")
+![Knop Guides in de uitvoeringsinterface van de werkvloer.](media/instruction-guides-Shopfloor1.png "Knop Guides in de uitvoeringsinterface van de werkvloer")
 
 Zet vervolgens een HoloLens op en open de desbetreffende guide door naar de QR-code te kijken en de desbetreffende guide te activeren.
 
-![QR-code om toegang te krijgen tot guides via een HoloLens](media/instruction-guides-Shopfloor2.png "QR-code om toegang te krijgen tot guides via een HoloLens")
+![QR-code om toegang te krijgen tot guides via een HoloLens.](media/instruction-guides-Shopfloor2.png "QR-code om toegang te krijgen tot guides via een HoloLens")
 
 ## <a name="resolving-the-logic-for-selecting-guides"></a><a name="logic"></a>De logica voor het selecteren van guides oplossen
 
@@ -409,4 +409,7 @@ Wanneer Supply Chain Management de taken voor de productievloer genereert, worde
 - Als u een routeversie of formuleversie aan een productieorder koppelt, worden alle guides die aan deze versie zijn gekoppeld en ook de guides die aan de bovenliggende route van die versie zijn gekoppeld, weergegeven in de taak.
 - Als u verschillende routebewerkingsrelaties definieert die de relatie *Alle* bevatten en hieraan guides toewijst, worden alleen de guides van de meest specifieke relatie voor de taak weergegeven.  
 
-![Diagram voor het oplossen van de relevante guides](media/instruction-guides-Resolve.png "Diagram voor het oplossen van de relevante guides")
+![Diagram voor het oplossen van de relevante guides.](media/instruction-guides-Resolve.png "Diagram voor het oplossen van de relevante guides")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

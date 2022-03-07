@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: cbaeb120032bf2239fd9a5bce39fd7936229b308
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 4ceedd8b42383dc1334f472ba754ac3e18261b9d
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102933"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777810"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>overboekingsorders maken vanuit de magazijnapp
 
@@ -26,14 +26,19 @@ ms.locfileid: "8102933"
 
 Met deze functie kunnen magazijnmedewerkers overboekingsorders rechtstreeks vanuit de mobiele app Magazijnbeheer maken en verwerken. De medewerker begint met het selecteren van het doelmagazijn en kan vervolgens met de app een of meer nummerplaten scannen om de nummerplaten aan de overboekingsorder toe te voegen. Wanneer de magazijnmedewerker **Order voltooien** selecteert, worden met een batchtaak de vereiste overboekingsorder en orderregels gemaakt op basis van de voorhanden voorraad die voor deze nummerplaten is geregistreerd.
 
-## <a name="turn-this-feature-on-or-off"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Deze functie in- of uitschakelen
+## <a name="enable-the-create-transfer-orders-from-the-warehouse-app-feature"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>De functie voor het maken van overboekingsorders inschakelen via de functie van de app voor magazijnbeheer
 
 Voordat u deze functie kunt gebruiken, moet u deze functie en de bijbehorende vereisten in uw systeem inschakelen. Beheerders kunnen gebruikmaken van de pagina voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en deze zo nodig in te schakelen.
 
-1. Schakel de volgende twee functies (in deze volgorde) uit in het werkgebied [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Vanaf Supply Chain Management versie 10.0.25 zijn beide functies standaard ingeschakeld.
-    1. *Gebeurtenissen in magazijnapp verwerken*
-    1. *Transferorders maken en verwerken vanuit de magazijnapp*
-1. Als u de verwerking van uitgaande verzendingen wilt automatiseren, moet u ook de functie [Uitgaande verzendingen bevestigen op basis van batchtaken](confirm-outbound-shipments-from-batch-jobs.md) inschakelen.
+1. Schakel eerst de functie [Gebeurtenissen van de app voor magazijnbeheer verwerken](warehouse-app-events.md) in. Deze wordt in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) weergegeven als:
+    - **Module** - Magazijnbeheer
+    - **Functienaam**: gebeurtenissen van de app voor magazijnbeheer verwerken
+1. Schakel vervolgens de functie *Overboekingsorders maken via de app voor magazijnbeheer* in. Deze wordt weergegeven als:
+    - **Module** - Magazijnbeheer
+    - **Functienaam**: Overboekingsorders maken en verwerken via de app voor magazijnbeheer
+1. Als u de verwerking van uitgaande verzendingen wilt automatiseren, moet u ook de functie [Uitgaande verzendingen bevestigen op basis van batchtaken](confirm-outbound-shipments-from-batch-jobs.md) inschakelen. Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Beheerders kunnen gebruikmaken van de pagina [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en deze zo nodig in of uit te schakelen. Hier ziet u de functie als:
+    - **Module** - Magazijnbeheer
+    - **Functienaam**: Uitgaande verzendingen bevestigen op basis van batchtaken
 
 ## <a name="set-up-a-mobile-device-menu-item-to-create-transfer-orders"></a><a name="setup-warehouse-app-menu"></a>Een menuoptie voor een mobiel apparaat instellen om overboekingsorders te maken
 

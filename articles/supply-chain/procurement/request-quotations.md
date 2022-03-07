@@ -1,12 +1,10 @@
 ---
 title: Overzicht van Offerteaanvragen
 description: Dit onderwerp bevat een overzicht van offerteaanvragen. Organisaties geven offerteaanvragen uit wanneer ze concurrerende aanbiedingen van verschillende leveranciers willen ontvangen voor de artikelen of services die ze moeten kopen.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage, BOMExpandPurchRFQ, PurchRFQReplyFollowupItem, PurchRFQCaseVend, PurchRFQReplyFollowup, PurchRFQCaseAmendmentInfo, PurchRFQReplyFollowupCase, PurchRFQReplyStatus, PurchRFQCaseReplyFields, PurchRFQAddQuestionnaire, PurchRFQAmendmentWizard, PurchRFQReplyTableStatus, PurchRFQReplyTableListPage, PurchRFQCancelWizard
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2154
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b3338e1837496605ce94a54eb57a32b1b83145b
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: df430dada52ac1aa910a3d2007aacf65d8032383
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016926"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812542"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Overzicht van Offerteaanvragen
 
@@ -80,23 +78,23 @@ U selecteert de sjabloon voor de e-mailmelding die naar leveranciers wordt verzo
 - %Reden voor retour van bieding%
 - %Reden voor aanpassing%
 - %Aanpassing voorbereid door%
-- %Bedrijf%
+- %Company%
 - %Naam offerteaanvraagcase%
 - %Vervaldatum/-tijd%
-- %Datum%
+- %Date%
 
-De tokens %Reden voor retour van biedng% en %Reden voor aanpassing% worden vervangen door tekst die de inkoopmedewerker kan invoeren wanneer hij of zij de aanpassing voltooid in de wizard **Aanpassing**. De waarden voor de tokens %Aanpassing voorbereid door% en %Bedrijf% worden automatisch opgehaald uit de offerteaanvraag. De token %Datum% wordt vervangen door de huidige datum.
+De tokens %Reden voor retour van biedng% en %Reden voor aanpassing% worden vervangen door tekst die de inkoopmedewerker kan invoeren wanneer hij of zij de aanpassing voltooid in de wizard **Aanpassing**. De waarden voor de tokens %Aanpassing voorbereid door% en %Company% worden automatisch opgehaald uit de offerteaanvraag. De token %Date% wordt vervangen door de huidige datum.
 
 Als u een offerteaanvraag annuleren wilt nadat deze verzonden, kunt u dat doen vanuit de offerteaanvraagcase. Voor het annuleren moet de e-mailsjabloon de annuleringsmelding verzenden naar contactpersonen van de leverancier. De sjabloon moet zijn geselecteerd op de pagina **Parameters voor inkoopbeheer**. Als de sjabloon wordt gemaakt, kan deze de volgende vervangingstokens bevatten:
 
 - %Annuleringsreden%
 - %Offerteaanvraagcase%
 - %Offerteaanvraag geannuleerd door%
-- %Bedrijf%
+- %Company%
 - %Naam offerteaanvraagcase%
-- %Datum%
+- %Date%
 
-De token %Annuleringsreden% wordt vervangen door tekst die de inkoopmedewerker kan invoeren in de wizard **Annulering**. De token %Datum% wordt vervangen door de huidige datum.
+De token %Annuleringsreden% wordt vervangen door tekst die de inkoopmedewerker kan invoeren in de wizard **Annulering**. De token %Date% wordt vervangen door de huidige datum.
 
 Als u redencodes wilt gebruiken in een bieding om aan te geven waarom deze is afgewezen of geaccepteerd, moet u redencodes instellen op de pagina **Leveranciersredenen**.
 
@@ -246,3 +244,6 @@ In het voorbeeld hieronder ziet u de hoogste en laagste status op de offerteaanv
 | Accepteer een van de biedingen. (of ten minste één regel) |                          Ontvangen                           |                           Geaccepteerd                           |                    Ontvangen                    |                    Geaccepteerd                     |                   Ontvangen                   |                   Geaccepteerd                    |
 |           Wijs alle andere biedingen af.           |                          Afgewezen                           |                           Geaccepteerd                           |                    Afgewezen                    |                    Geaccepteerd                     |                   Afgewezen                   |                   Geaccepteerd                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

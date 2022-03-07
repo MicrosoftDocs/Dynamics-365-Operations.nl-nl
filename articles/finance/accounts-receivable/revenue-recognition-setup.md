@@ -2,7 +2,7 @@
 title: Instellingen opbrengsttoerekening
 description: In dit onderwerp worden de instellingsopties voor de toerekening van opbrengsten en de implicaties hiervan beschreven.
 author: kweekley
-ms.date: 11/24/2021
+ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e8e29ec1ca5a02db67bb4baf522da96ec23c740f
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 294ad788c97850880b479d3c3c44cc19d55e9a6e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867215"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837148"
 ---
 # <a name="revenue-recognition-setup"></a>Instellingen opbrengsttoerekening
 [!include [banner](../includes/banner.md)]
@@ -26,9 +26,9 @@ ms.locfileid: "7867215"
 Er is een nieuwe module **Opbrengsttoerekening** toegevoegd die menu-items bevat voor alle vereiste instellingen. In dit onderwerp worden de instellingsopties en de implicaties ervan beschreven.
 
 > [!NOTE]
-> De functie voor opbrengsttoerekening is nu standaard ingeschakeld via Functiebeheer. Als uw organisatie deze functie niet gebruikt, kunt u deze uitschakelen in de werkruimte van **Functiebeheer**.
->
-> Opbrengsttoerekening, inclusief bundelfunctionaliteit, wordt niet ondersteund in Commerce-kanalen (e-commerce, POS en callcenter). Artikelen die zijn geconfigureerd voor opbrengsttoerekening, mogen niet worden toegevoegd aan orders of transacties die zijn gemaakt in Commerce-kanalen.
+> De functie voor opbrengsttoerekening kan niet worden ingeschakeld via Functiebeheer. Momenteel moet u configuratiesleutels gebruiken om deze functie in te schakelen.
+
+> Opbrengsttoerekening, inclusief bundelfunctionaliteit, wordt niet ondersteund voor gebruik in Commerce-kanalen (e-commerce, POS, callcenter). Artikelen die zijn geconfigureerd met opbrengsttoerekening mogen niet worden toegevoegd aan orders of transacties die zijn gemaakt in Commerce-kanalen.
 
 De module **Opbrengsttoerekening** bevat de volgende configuratieopties:
 
@@ -40,16 +40,12 @@ De module **Opbrengsttoerekening** bevat de volgende configuratieopties:
     - Artikelgroepen en vrijgegeven producten
     - Opbrengstschema definiëren
     - Opbrengstprijs definiëren
-    - Voorraadinstellingen
 
-        - Opbrengstschema definiëren
-        - Opbrengstprijs definiëren
+        - Boekingsprofielen
+        - Bundels
 
-    - Boekingsprofielen
-    - Bundels
-
-        - Bundelcomponenten
-        - Bundelartikel
+    - Bundelonderdelen
+    - Bundelartikel
 
 - Projectinstellingen
 
@@ -61,11 +57,11 @@ Het eerste scenario doet zich voor nadat aan alle contractuele verplichtingen is
 
 Het tweede scenario doet zich voor als een journaal wordt gemaakt nadat hertoewijzing is uitgevoerd. Hertoewijzing vindt plaats wanneer een verkooporderregel aan een eerder gefactureerde verkooporder wordt toegevoegd of wanneer een nieuwe verkooporder wordt gemaakt die een regel bevat die deel uitmaakt van het oorspronkelijke contract. Als een factuur werd geboekt voordat de nieuwe verkooporderregel was toegevoegd, moet er een corrigerende journaalregel worden gemaakt voor de geboekte klantfactuur.
 
-Het journaal kan worden ingesteld op de pagina **Journaalnamen** (**Opbrengsttoerekening \> Instellingen \> Journaalnamen**). Het journaaltype moet worden ingesteld op **Opbrengsttoerekening**. 
+Het journaal kan worden ingesteld op de pagina **Journaalnamen** (**Opbrengsttoerekening \> Instellingen \> Journaalnamen**). Het journaaltype moet worden ingesteld op **Opbrengsttoerekening**. In het journaal voor opbrengsttoerekening kunt u de boekingslaag selecteren waarnaar u wilt boeken.
 
 ## <a name="parameters-for-revenue-recognition"></a>Parameters voor toerekening van opbrengsten
 
-De instellingen voor opbrengsttoerekening worden geconfigureerd op het tabblad **Opbrengsttoerekening** van de pagina **Grootboekparameters** (**Opbrengsttoerekening \> Instellingen \> Grootboekparameters**). De volgende instellingen zijn beschikbaar:
+De instellingen voor toerekening van opbrengst worden geconfigureerd op het tabblad **Opbrengsttoerekening** van de pagina **Grootboekparameters** (**Opbrengsttoerekening \> Instellingen \> Grootboekparameters**). De volgende instellingen zijn beschikbaar:
 
 - **Naam journaal voor opbrengsttoerekening**: selecteer het journaal dat is gemaakt voor de toerekening van opbrengst. Het journaal is vereist wanneer de opbrengst wordt toegerekend vanuit het opbrengstschema of wanneer u een hertoewijzing uitvoert voor een verkooporder die al is gefactureerd.
 - **Methode voor toewijzing van korting inschakelen**: stel deze optie in op **Ja** om de opbrengstprijs te bepalen door toewijzing van de billijke marktwaarde die voor elk vrijgegeven product is gedefinieerd bij de opbrengstprijs. Deze toewijzing omvat onder andere het toewijzen van eventuele regelkortingen voor de artikelen. Als deze optie is ingesteld op **Nee** gebruikt het systeem de gemiddelde prijs die voor elk vrijgegeven product is gedefinieerd in de opbrengstprijs. Als deze optie is ingesteld op **Nee** maar er geen gemiddelde prijs is ingesteld voor de vrijgegeven producten, wordt de toewijzing van de opbrengstprijs niet uitgevoerd.
@@ -76,7 +72,7 @@ De instellingen voor opbrengsttoerekening worden geconfigureerd op het tabblad *
     - Stel deze optie in op **Nee** om het boeken van de corrigerende transactie naar het grootboek te beperken. Als deze optie is ingesteld op **Nee** worden er geen extra documenten gemaakt in Klanten voor de interne boekhoudcorrectie. Wanneer de factuur is betaald, wordt tijdens het vereffeningsproces de oude journaalregel gebruikt om contantkortingen of gerealiseerde winsten of verliezen te boeken.
     - Stel deze optie in op **Ja** om voor de corrigerende transactie automatisch een terugboekingsdocument en een nieuwe factuur te maken in Klanten. Omdat deze correctie een interne boekhoudcorrectie is, worden de nieuwe documenten niet naar de klant verzonden of aan de klant gemeld. Het terugboekingsdocument wordt vereffend met de oorspronkelijke factuur en de nieuwe gecorrigeerde factuur wordt door de klant betaald. Zoals u zult zien, worden alle drie de documenten weergegeven in rapporten, zoals het klantoverzicht.
 
-[![Instellingsgegevens.](./media/revenue-recognition-setup-info.png)](./media/revenue-recognition-setup-info.png)
+[![Instellingsgegevens](./media/revenue-recognition-setup-info.png)](./media/revenue-recognition-setup-info.png)
 
 ## <a name="revenue-schedules"></a>Opbrengstschema's
 
@@ -86,7 +82,7 @@ Als u opbrengsten per mijlpaal toekent, kunt u het beste een schema voor de toer
 
 De opbrengstschema's worden gemaakt op de pagina **Opbrengstschema's** (**Opbrengsttoerekening \> Instellingen \> Opbrengstschema's**).
 
-[![Opbrengstschema's.](./media/revenue-recognition-revenue-schedules.png)](./media/revenue-recognition-revenue-schedules.png)
+[![Opbrengstschema's](./media/revenue-recognition-revenue-schedules.png)](./media/revenue-recognition-revenue-schedules.png)
 
 Geef beschrijvende waarden op in de velden **Opbrengstschema** en **Beschrijving**. De volgende aanvullende instellingen worden gebruikt om het opbrengstschema te maken als de factuur wordt geboekt.
 
@@ -95,27 +91,20 @@ Geef beschrijvende waarden op in de velden **Opbrengstschema** en **Beschrijving
 - **Automatische contractvoorwaarden**: schakel dit selectievakje in als de begin- en einddatum van het contract automatisch moeten worden ingesteld. Deze datums worden automatisch ingesteld voor vrijgegeven producten van het opbrengsttype **Contractondersteuning boeken**. De begindatum van het contract wordt automatisch ingesteld op de gewenste verzenddatum van de verkooporderregel, en de einddatum van het contract wordt automatisch ingesteld op de begindatum plus het aantal maanden of voorvallen dat is gedefinieerd bij de instellingen van het opbrengstschema. Het product op de verkooporderregel heeft bijvoorbeeld een garantieperiode van één jaar. Het standaard opbrengstschema is **12M** (12 maanden) en het selectievakje **Automatische contractvoorwaarden** is voor dit opbrengstschema ingeschakeld. Als de verkooporderregel een gewenste verzenddatum heeft van 16 december 2019, is de begindatum van het contract standaard 16 december 2019 en is de einddatum van het contract standaard 15 december 2020.
 - **Toerekeningsbasis**: de toerekeningsbasis bepaalt hoe de opbrengstprijs wordt toegewezen aan de diverse voorvallen.
 
-    - **Maandelijks op dagen**: het bedrag wordt toegewezen op basis van de werkelijke dagen in elke kalendermaand.
+    - **Maandelijks op datum**: het bedrag wordt toegewezen op basis van de werkelijke dagen in elke maand.
     - **Maandelijks**: het bedrag wordt gelijkmatig verspreid over het aantal maanden dat is gedefinieerd voor de voorvallen.
     - **Voorvallen**: het bedrag wordt gelijkmatig verdeeld over de voorvallen, maar kan een extra periode bevatten als u de **Werkelijke begindatum** als de toerekeningsconventie selecteert.
-    - **Boekperioden op dagen**: het bedrag wordt toegewezen op basis van de werkelijke dagen in elke boekperiode. 
 
-    De resultaten van **Maandelijks op dagen** en **Boekperiode op dagen** zijn gelijk wanneer de boekperioden de kalendermaanden volgen. De enige uitzondering is wanneer de toerekeningsconventie is ingesteld op **Einde maand/periode** en de velden **Begindatum** en **Einddatum** van het contract leeg zijn op een verkooporderregel.
-
-- **Toerekeningsconventie**: de toerekeningsconventie bepaalt de datums die zijn ingesteld voor het opbrengstschema voor de factuur.
+- **Toerekeningsconventie**: de toerekeningsconventie bepaalt de standaarddatums die zijn ingesteld voor het opbrengstschema voor de factuur.
 
     - **Werkelijke begindatum**: het schema wordt gemaakt met de begindatum van het contract (voor PCS-artikelen \[Contractondersteuning boeken\]) of met de factuurdatum (voor essentiële en niet-essentiële artikelen).
-    - **1e van maand/periode**: de datum op de eerste schemaregel is de begindatum van het contract (of de factuurdatum). Alle volgende schemaregels worden echter voor de eerste van de maand of boekperiode gemaakt.
+    - **1e van de maand**: de datum op de eerste schemaregel is de begindatum van het contract (of de factuurdatum). Alle volgende schemaregels worden echter voor de eerste van de maand gemaakt.
     - **Midden maand - gesplitst**: de datum op de eerste schemaregel hangt samen met de factuurdatum. Als de factuur wordt geboekt op een datum tussen de eerste en de vijftiende van de maand, wordt het opbrengstschema gemaakt op basis van de eerste dag van de maand. Als de factuur wordt geboekt op de zestiende van de maand of later, wordt het opbrengstschema gemaakt op basis van de eerste dag van de volgende maand.
+    - **1e van de volgende maand**: de datum op het schema is de eerste dag van de volgende maand.
 
-        **Midden maand - gesplitst** kan niet worden geselecteerd als de toerekeningsbasis is ingesteld op **Boekperiode op dagen**.
+Selecteer de knop **Details van het schema voor opbrengsttoerekening** om de algemene perioden en percentages weer te geven die in elke periode worden toegerekend. De waarde voor **Percentage toerekenen** wordt standaard verdeeld over het aantal perioden. Als de toerekeningsbasis is ingesteld op **Maandelijks** of **Voorvallen**, kan het toerekeningspercentage worden gewijzigd. Tijdens het wijzigen van het toerekeningspercentage, wordt er een waarschuwingsbericht weergegeven met de melding dat het totaal niet gelijk is aan 100 procent. Als u dit bericht ontvangt, kunt u doorgaan met het bewerken van regels. Het totale percentage moet echter gelijk zijn aan 100 voordat u de pagina sluit.
 
-    - **1e dag van de volgende maand/periode**: de datum waarop het schema begint, is de eerste dag van de volgende maand of boekperiode.
-    - **Einde van maand/periode**: de datum op de eerste schemaregel is de begindatum van het contract (of de factuurdatum). Alle volgende schemaregels worden echter voor de laatste dag van de maand of boekperiode gemaakt. 
-
-Selecteer de knop **Details van het schema voor opbrengsttoerekening** om de algemene perioden en percentages weer te geven die in elke periode worden toegerekend. De waarde voor **Percentage toerekenen** wordt standaard verdeeld over het aantal perioden. Als de toerekeningsbasis is ingesteld op **Maandelijks**, kan het toerekeningspercentage worden gewijzigd. Tijdens het wijzigen van het toerekeningspercentage, wordt er een waarschuwingsbericht weergegeven met de melding dat het totaal niet gelijk is aan 100 procent. Als u dit bericht ontvangt, kunt u doorgaan met het bewerken van regels. Het totale percentage moet echter gelijk zijn aan 100 voordat u de pagina sluit.
-
-[![Details van opbrengstschema.](./media/revenue-schedule-details-2nd-scrn.png)](./media/revenue-schedule-details-2nd-scrn.png)
+[![Details van opbrengstschema](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
 
 ## <a name="inventory-setup"></a>Voorraadinstellingen
 
@@ -148,9 +137,9 @@ Artikelgroepen en vrijgegeven producten kunnen worden ingesteld met behulp van d
     - **Maximumtolerantie**: voer het percentage boven de gemiddelde prijs in dat is toegestaan.
     - **Minimumtolerantie**: voer het percentage onder de gemiddelde prijs in dat is toegestaan.
 
-Nadat u de instellingen voor het vrijgegeven product hebt geconfigureerd, moet u de opbrengstprijs handmatig definiëren door de reële prijswaarde of de gemiddelde prijs in te voeren (als u de gemiddelde prijs-methode gebruikt) op de pagina **Opbrengstprijzen** (ga naar **Opbrengsttoerekening \> Instellingen \> Voorraadinstellingen \> Vrijgegeven producten** en selecteer vervolgens in het actiepaneel op het tabblad **Verkopen** in de groep **Opbrengsttoerekening** de optie **Opbrengstprijzen**).
+Nadat u de instellingen voor het vrijgegeven product hebt geconfigureerd, moet u de opbrengstprijs handmatig definiëren door de billijke prijswaarde of de gemiddelde prijs in te voeren (mits u de gemiddelde prijs-methode gebruikt) op de pagina **Opbrengstprijzen** (ga naar **Opbrengsttoerekening \> Instellingen \> Voorraadinstellingen \> Vrijgegeven producten** en selecteer vervolgens in het actievenster op het tabblad **Verkopen** in de groep **Opbrengsttoerekening** de optie **Opbrengstprijzen**).
 
-[![Opbrengstprijzen.](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
+[![Opbrengstprijzen](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
 
 De opbrengstprijs die op deze pagina handmatig wordt gedefinieerd, wordt gebruikt om de toewijzing van de opbrengstprijs voor elke verkooporder te bepalen op basis van de criteria die zijn gedefinieerd. Elk criterium wordt afgestemd op de verkooporderregel om de opbrengstprijs te bepalen die in het toewijzingsproces moet worden gebruikt.
 
@@ -161,9 +150,9 @@ De opbrengstprijs die op deze pagina handmatig wordt gedefinieerd, wordt gebruik
 - **Opbrengsttoewijzingsprijs**: afhankelijk van de waarde die u hebt geselecteerd in het veld **Bedrag of percentage van catalogusprijs**, voert u een bedrag of een percentage in voor de opbrengstprijs die wordt gebruikt om de opbrengst toe te wijzen aan alle elementen op de verkooporder.
 - **Begindatum** en **Einddatum**: voer het datumbereik in waarvoor de opbrengstprijs van toepassing is. Deze velden zijn optioneel.
 
-Als de optie **Methode voor toewijzing van korting inschakelen** op de pagina **Grootboekparameters** is ingesteld op **Ja** en als het veld **Opbrengsttype** voor uw vrijgegeven product is ingesteld op **Contractondersteuning boeken**, moet u ook de artikelen opgeven die door het vrijgegeven product worden ondersteund. Deze instellingen worden ingesteld op de pagina **Basis instellen** (ga naar **Opbrengsttoerekening \> Instellingen \> Voorraadinstellingen \> Vrijgegeven producten** en selecteer vervolgens in het actiepaneel op het tabblad **Verkopen** in de groep **Opbrengsttoerekening** de optie **Basis instellen**).
+Als de optie **Methode voor toewijzing van korting inschakelen** op de pagina **Grootboekparameters** is ingesteld op **Ja** en als het veld **Opbrengsttype** voor uw vrijgegeven product is ingesteld op **Contractondersteuning boeken**, moet u ook de artikelen opgeven die door het vrijgegeven product worden ondersteund. Deze instellingen worden ingesteld op de pagina **Basis instellen** (ga naar **Opbrengsttoerekening \> Instellingen \> Voorraadinstellingen \> Vrijgegeven producten** en selecteer vervolgens in het actievenster op het tabblad **Verkopen** in de groep **Opbrengsttoerekening** de optie **Basis instellen**).
 
-Voeg op de pagina **Basis instellen** een record toe voor elke artikelengroep waarvoor het artikel ondersteuning biedt. Wanneer de opbrengsten worden toegewezen, wordt de opbrengstprijs verdeeld over de essentiële en niet-essentiële componenten voor het PCS-artikel.
+Voeg op de pagina **Basis instellen** een record toe voor elke artikelengroep waarvoor het artikel ondersteuning biedt. Wanneer de opbrengsten worden toegewezen, wordt de opbrengstprijs verdeeld over de essentiële en niet-essentiële onderdelen voor het PCS-artikel.
 
 ### <a name="posting-profiles"></a>Boekingsprofielen
 
@@ -175,13 +164,13 @@ Er zijn drie aanvullende boekingstypen die de mogelijkheid ondersteunen om opbre
 
 ### <a name="bundles"></a>Bundels
 
-Bundelartikelen zijn unieke vrijgegeven producten die zo zijn ingesteld dat ze componenten bevatten. Deze instelling kan worden uitgevoerd met behulp van de stuklijstfunctionaliteit. Wanneer een bundelartikel op een verkooporder wordt ingevoerd, worden de afzonderlijke componenten gebruikt om de opbrengstprijzen en opbrengstschema's vast te stellen. Op afgedrukte documenten voor de klant, zoals de verkooporder en de factuur, wordt echter het bundelartikel weergegeven.
+Bundelartikelen zijn unieke vrijgegeven producten die zo zijn ingesteld dat ze onderdelen bevatten. Deze instelling kan worden uitgevoerd met behulp van de stuklijstfunctionaliteit. Wanneer een bundelartikel op een verkooporder wordt ingevoerd, worden de afzonderlijke onderdelen gebruikt om de opbrengstprijzen en opbrengstschema's vast te stellen. Op afgedrukte documenten voor de klant, zoals de verkooporder en de factuur, wordt echter het bundelartikel weergegeven.
 
-#### <a name="bundle-components"></a>Bundelcomponenten
+#### <a name="bundle-components"></a>Bundelonderdelen
 
-De componenten die deel uitmaken van de bundel, moeten worden ingesteld op de pagina **Vrijgegeven producten** (**Opbrengsttoerekening \> Instellingen \> Voorraad- en productinstellingen \> Vrijgegeven producten**). Deze componenten zijn vrijgegeven producten en moeten op dezelfde manier worden ingesteld als producten die zijn opgenomen in een stuklijst. Een vrijgegeven product kan bijvoorbeeld een artikel van het type **Artikel** of van het type **Service** zijn, maar het moet worden toegewezen aan een artikelmodelgroep waar de optie **Product in voorraad** is ingesteld op **Ja**. Zie de documentatie voor stuklijstartikelen voor meer informatie.
+De onderdelen die deel uitmaken van de bundel, moeten worden ingesteld op de pagina **Vrijgegeven producten** (**Opbrengsttoerekening \> Instellingen \> Voorraad- en productinstellingen \> Vrijgegeven producten**). Deze onderdelen zijn vrijgegeven producten en moeten op dezelfde manier worden ingesteld als producten die zijn opgenomen in een stuklijst. Een vrijgegeven product kan bijvoorbeeld een artikel van het type **Artikel** of van het type **Service** zijn, maar het moet worden toegewezen aan een artikelmodelgroep waar de optie **Product in voorraad** is ingesteld op **Ja**. Zie de documentatie voor stuklijstartikelen voor meer informatie.
 
-De componenten moeten ook worden ingesteld voor opbrengsttoerekening, net alsof het producten zijn die afzonderlijk via een verkooporder kunnen worden verkocht. Controleer bijvoorbeeld of de juiste opbrengstprijs is gedefinieerd voor elke component en of de prijsbasis is ingesteld voor PCS-artikelen.
+De onderdelen moeten ook worden ingesteld voor opbrengsttoerekening, net alsof het producten zijn die afzonderlijk via een verkooporder kunnen worden verkocht. Controleer bijvoorbeeld of de juiste opbrengstprijs is gedefinieerd voor elk onderdeel en of de prijsbasis is ingesteld voor PCS-artikelen.
 
 #### <a name="bundle-items"></a>Bundelartikelen
 
@@ -190,11 +179,11 @@ Als u een bundelartikel instelt, moet u twee velden instellen op de pagina **Vri
 - Op het sneltabblad **Technicus** in het veld **Productietype** moet het artikel worden ingesteld als een stuklijstartikel.
 - Op het sneltabblad **Algemeen** in het veld **Bundel** moet het artikel zijn gemarkeerd als een bundelartikel.
 
-De componenten moeten vervolgens worden toegewezen aan het hoofdartikel van de bundel/stuklijst op de pagina **Stuklijstversies** (ga naar **Opbrengsttoerekening \> Instellingen \> Voorraad- en productinstellingen \> Vrijgegeven producten** en selecteer vervolgens in het actiepaneel op het tabblad **Technicus** in de groep **Stuklijst** de optie **Stuklijstversies**). Zie de documentatie over het instellen van stuklijsten voor meer informatie.
+De onderdelen moeten vervolgens worden toegewezen aan het hoofdartikel van de bundel/stuklijst op de pagina **Stuklijstversies** (ga naar **Opbrengsttoerekening \> Instellingen \> Voorraad- en productinstellingen \> Vrijgegeven producten** en selecteer vervolgens in het actievenster op het tabblad **Technicus** in de groep **Stuklijst** de optie **Stuklijstversies**). Zie de documentatie over het instellen van stuklijsten voor meer informatie.
 
-[![Vrijgegeven producten, stuklijstschema's.](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
+[![Vrijgegeven producten, stuklijstschema's](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
 
-Als het hoofdartikel en de bundelcomponenten zijn ingesteld om te worden toegewezen, wordt de opbrengstprijs van de bundel gedistribueerd naar de componenten op basis van de percentages waarmee ze aan de opbrengst bijdragen.
+Als het hoofdartikel en de bundelonderdelen zijn ingesteld om te worden toegewezen, wordt de opbrengstprijs van de bundel gedistribueerd naar de onderdelen op basis van de percentages waarmee ze aan de opbrengst bijdragen.
 
 ## <a name="project-setup"></a>Projectinstellingen
 

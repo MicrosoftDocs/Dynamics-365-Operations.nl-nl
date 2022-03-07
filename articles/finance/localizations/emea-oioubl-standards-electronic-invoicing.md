@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 10274
 ms.search.region: Austria, Denmark, Italy, Norway, Spain, France, Belgium, Netherlands
 ms.search.industry: ''
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 3ed98c268af841b1625f547c79f271f3e3a81b74
-ms.sourcegitcommit: 3d16522c00ba2d30aa43befbf1b7b3eaad377325
+ms.openlocfilehash: b25dedca6d8d6726be60d1943ade0865eaf6b0ec
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4592464"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5262813"
 ---
 # <a name="supported-standards-for-electronic-invoicing-in-europe"></a>Ondersteunde standaarden voor elektronische facturering in Europa
 
@@ -116,3 +115,6 @@ Voor meer informatie over het instellen van elektronische facturen, kunt u de vo
 
 > [!NOTE] 
 > Hoewel deze taakbegeleidingen zijn gemaakt voor de specifieke Deense e-factuurindeling *OIOUBL*, zijn ze met kleine afwijkingen van toepassing op andere ondersteunde landen/regio's.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

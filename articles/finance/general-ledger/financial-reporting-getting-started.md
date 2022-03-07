@@ -2,28 +2,27 @@
 title: Overzicht van financiële rapportage
 description: In dit onderwerp wordt beschreven waar u toegang kunt krijgen tot financiële rapportage in Microsoft Dynamics 365 Finance en hoe u de financiële rapportagemogelijkheden kunt gebruiken.
 author: aprilolson
-manager: AnnBe
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 10444
+ms.custom:
+- "10444"
+- intro-internal
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88436b4a5d6be4172e15fa4a9dadc34696417fb9
-ms.sourcegitcommit: eec96c64f44d1b4877d49ee15665a774019d42d7
+ms.openlocfilehash: bf07b12d83221952aefb80ab6a5b651bb4ef3762
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672439"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338152"
 ---
 # <a name="get-started-with-financial-reporting"></a>Aan de slag met Financial Reporting 
 
@@ -31,8 +30,7 @@ ms.locfileid: "4672439"
 
 In dit onderwerp wordt beschreven waar u toegang kunt krijgen tot financiële rapportage en hoe u de financiële rapportagemogelijkheden kunt gebruiken. Het bevat ook een omschrijving van de financiële standaardrapporten die worden geleverd.
 
-<a name="accessing-financial-reporting"></a>Toegang verkrijgen tot financiële rapportage
------------------------------
+## <a name="accessing-financial-reporting"></a>Toegang verkrijgen tot financiële rapportage
 
 U vindt het menu **Financiële rapportage** op de volgende locaties:
 
@@ -48,6 +46,8 @@ Als u financiële rapporten voor een rechtspersoon wilt maken en genereren, moet
 -   Ledger
 -   Rekeningschema
 -   Valuta
+-   Een transactie naar ten minste één rekening boeken
+-   MainAccount wordt weergegeven in de kolom Geselecteerd in **Grootboek > Instellingen van grootboek > Instellingen financiële rapportage**
 
 ## <a name="granting-security-access-to-financial-reporting"></a>Beveiligingstoegang verlenen tot Financial Reporting
 De functies voor financiële rapportage zijn beschikbaar voor gebruikers aan wie de juiste bevoegdheden en functies zijn toegewezen via hun beveiligingsrollen. De volgende secties beschrijven bevoegdheden en functies, samen met de gekoppelde rollen.
@@ -149,7 +149,7 @@ Probleem 1: Report Designer start niet wanneer u **Nieuw** of **Bewerken** selec
 * Selecteer **Instellingen** in Internet Explorer en selecteer vervolgens **Internetopties**. Selecteer het tabblad **Beveiliging**. Selecteer Vertrouwde sites. Wijzig de optie in het gebied Beveiligingsniveau voor deze zone in **Normaal-laag**.
 * Schakel de pop-upblokkering uit in de browser.
 * Voor werkstations moet Microsoft .NET Framework 4.6.2 of hoger worden geïnstalleerd. Deze versie van Microsoft .NET Framework kan worden gedownload en geïnstalleerd via het [Microsoft Downloadcentrum](https://www.microsoft.com/download/details.aspx?id=53345).
-* Als u Chrome gebruikt, moet u een ClickOnce-extensie installeren om de Report Designer-client te downloaden. Als u in de incognito modus van Chrome werkt, moet u ervoor zorgen dat de ClickOnce-extensie voor de incognito modus is ingeschakeld. Zie [Systeemvereisten voor cloudimplementaties](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements) voor meer informatie over de ClickOnce-extensie van Chrome.
+* Als u Chrome gebruikt, moet u een ClickOnce-extensie installeren om de Report Designer-client te downloaden. Als u in de incognito modus van Chrome werkt, moet u ervoor zorgen dat de ClickOnce-extensie voor de incognito modus is ingeschakeld. Zie [Systeemvereisten voor cloudimplementaties](../../fin-ops-core/fin-ops/get-started/system-requirements.md) voor meer informatie over de ClickOnce-extensie van Chrome.
 * Als u Microsoft Edge met een Chrome-browser gebruikt, hoeft u geen ClickOnce-extensie te installeren voor Edge Chromium. U moet de optie ClickOnce echter inschakelen om de Report Designer-client te downloaden. Als u de incognitomodus gebruikt, moet u ervoor zorgen dat de ClickOnce-extensie voor de incognitomodus is ingeschakeld.
      1. Open een nieuwe browser in Microsoft Edge.
      2. Voer **edge://flags** in en selecteer **Enter**.
@@ -173,3 +173,6 @@ Probleem 3: u kunt doorgaan na de aanmeldingspagina voor ClickOnce Report Design
 ## <a name="additional-resources"></a>Aanvullende bronnen
 - [Financiële rapporten weergeven](view-financial-reports.md)
 - [Rapportagestructuurdefinities in financiële rapporten](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,36 +1,31 @@
 ---
-title: Werken met stijlvoorinstellingen
+title: Werken met vooraf ingestelde stijlen
 description: In dit onderwerp wordt beschreven hoe u werkt met stijlvoorinstellingen voor sites in Microsoft Dynamics 365 Commerce Site Builder.
 author: phinneyridge
-manager: annbe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 250f2386cefee8bef45df66c4eef31b4e7fc2686
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 63e11b718a2b5221c722a11de3a8df6d9d0e3d6b
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411445"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964848"
 ---
-# <a name="work-with-style-presets"></a>Werken met stijlvoorinstellingen
+# <a name="work-with-style-presets"></a>Werken met vooraf ingestelde stijlen
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u werkt met stijlvoorinstellingen voor sites in Microsoft Dynamics 365 Commerce Site Builder.
-
-## <a name="overview"></a>Overzicht
 
 Een stijlvoorinstelling is een opgeslagen verzameling van alle bewerkbare stijlwaarden voor het thema van een site. Deze kan worden gebruikt om het uiterlijk van een site direct te wijzigen vanuit Site Builder. Met stijlvoorinstellingen kunnen auteurs met Commerce Site Builder snel een set stijlwaarden voor de set wijzigen, bekijken en activeren zonder CSS (Cascading Style Sheets) te hoeven gebruiken of thema's te implementeren. Tekenstijlen, knopstijlen en sitekleuren zijn typische voorbeelden van stijlvariabelen die kunnen worden beheerd via stijlvoorinstellingen.
 
@@ -115,16 +110,17 @@ De stijlwaarden van de voorinstelling worden actief gemaakt op uw openbare websi
 
 [Een logo toevoegen](add-logo.md)
 
-[Selecteer een thema voor de site](select-site-theme.md)
+[Een thema voor de site selecteren](select-site-theme.md)
 
 [Werken met CSS-overschrijvingsbestanden](css-override-files.md)
 
 [Een favicon toevoegen](add-favicon.md)
-
-[Een welkomstbericht toevoegen](add-welcome-message.md)
 
 [Een auteursrechtmelding toevoegen](add-copyright-notice.md)
 
 [Talen toevoegen aan uw site](add-languages-to-site.md)
 
 [Scriptcode toevoegen aan sitepagina's voor ondersteuning van telemetrie](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,28 +2,27 @@
 title: Overzicht van geavanceerde bankafstemming
 description: In dit artikel wordt de stroom voor het geavanceerde bankafstemmingsproces beschreven. Met de geavanceerde bankafstemmingsfunctie kunt u bankafschriften importeren die automatisch kunnen worden afgestemd vanuit banktransacties.
 author: panolte
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankReconciliationMatchRule
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 22104
+ms.custom:
+- "22104"
+- intro-internal
 ms.assetid: b0705653-1fa6-4d94-9728-bcf9fb387ad1
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b26b6e1e50e5a9b53ca6b5315de760f5bcec4769
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 233e6b793df690297658e00dc3d821a196f75638962979205c7491a8df371ba4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442058"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751345"
 ---
 # <a name="advanced-bank-reconciliation-overview"></a>Overzicht van geavanceerde bankafstemming
 
@@ -51,3 +50,6 @@ Met de functie voor geavanceerde bankafstemming kunt u bankafschriften importere
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

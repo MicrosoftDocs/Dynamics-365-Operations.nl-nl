@@ -1,52 +1,152 @@
 ---
-title: Parameters voor Human Resources configureren
-description: De instellingen van bepaalde parameters van Human Resources worden in alle bedrijven gedeeld, terwijl de instellingen van andere parameters bedrijfsspecifiek zijn. In dit artikel wordt uitgelegd hoe u bedrijfsspecifieke HR-parameters instelt.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+title: Human Resources-parameters configureren
+description: In dit onderwerp wordt uitgelegd hoe u bedrijfsspecifieke parameters instelt in Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HRMParameters, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bac50c5f302797e28df2bc792893c8a682899a93
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fd9bb907f95ba4c368871a470ca9b2bc807646ee
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417923"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771430"
 ---
-# <a name="configure-human-resources-parameters"></a>Parameters voor Human Resources configureren
+# <a name="configure-human-resources-parameters"></a>Human Resources-parameters configureren
 
-De instellingen van bepaalde parameters van Human Resources (HR) worden in alle bedrijven gedeeld, terwijl de instellingen van andere parameters bedrijfsspecifiek zijn. In dit artikel wordt uitgelegd hoe u bedrijfsspecifieke HR-parameters instelt.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Twee pagina's worden gebruikt om de parameters voor Human resources (HR) in te stellen. Voor parameters die door bedrijven worden gedeeld, gebruikt u de pagina **Gedeelde Human resources-parameters**. Voor parameters die bedrijfsspecifiek zijn (met andere woorden, de instellingen gelden voor één bedrijf), gebruikt u de pagina **Parameters personeel**. Op de **Human resources-parameters** pagina, zijn de instellingen verdeeld over zes tabbladen:
+De instellingen van bepaalde parameters van Human Resources worden in alle bedrijven gedeeld, terwijl de instellingen van andere parameters bedrijfsspecifiek zijn. In dit onderwerp wordt uitgelegd hoe u bedrijfsspecifieke Human Resources-parameters instelt.
 
--   Algemeen
--   Werving - dit is niet opgenomen in Dynamics 365 Human Resources
--   Compensatie
--   Nummerreeksen
--   Family and Medical Leave Act (FMLA)
--   Selfservice werknemer
+Twee pagina's worden gebruikt om de parameters voor Human resources in te stellen. Voor parameters die door bedrijven worden gedeeld, gebruikt u de pagina **Gedeelde Human resources-parameters**. Voor parameters die bedrijfsspecifiek zijn (met andere woorden, de instellingen gelden voor één bedrijf), gebruikt u de pagina **Parameters personeel**.
 
-Elk tabblad bevat informatie over één bedrijf. De instellingen op het tabblad **Algemeen** bepalen het uiterlijk van informatie over verzuim, letsel en ziekte, en nieuwe werknemers. De instellingen op dit tabblad definieert tevens sommige standaardwaarden die worden weergegeven terwijl u werkt. In het bijzonder kunt u met dit tabblad de kleur selecteren die u op openstaande verzuimtransacties wilt toepassen, het gewenste opmaakmodel voor rapporten opgeven, definiëren of de integratie tussen cursussen en verzuimregistratie moet worden geactiveerd en de verzuimcode selecteren die wordt gebruikt voor het beheren van deze integratie. U kunt ook aangeven hoe een casus met letsel- of ziekte-incidenten moet worden bewaard, en het standaardidentificatienummer opgeven dat wordt weergegeven wanneer een nieuwe werknemer in dienst wordt genomen. 
+![Ga naar Human Resources-parameters.](./media/hr-employee-self-service-human-resources-parameters.png)
 
-De instellingen op het tabblad **Werving** definiëren de documenttypen die worden gebruikt voor correspondentie die automatisch naar sollicitanten worden verzonden en het wervingsproject dat worden gebruikt voor open sollicitaties (sollicitaties die niet specifiek voor een wervingsproject zijn). De periode die is gedefinieerd als ouderdomsperiode voor het wervingsproject bepaalt de wervingsprojecten die zijn opgenomen op de tegel **Verouderende projecten** in het werkgebied **Wervingsbeheer**. De periode die wordt ingesteld voor de sollicitatiedeadlinewaarschuwing wordt gebruikt om wervingsprojecten weer te geven die hun sollicitatiedeadline naderen op de tegel **Einde van sollicitatietermijn nadert** in het werkgebied **Werving**. 
+Op de **Human resources-parameters** pagina, zijn de instellingen verdeeld over zes tabbladen:
 
-De instellingen op het tabblad **Compensatie** definiëren of gebruikers moeten bevestigen dat ze informatie willen opslaan voor een vaste- of variabele-compensatieplan. Als u het selectievakje **Opslaan van validatie activeren** inschakelt, wordt een gebruiker wanneer hij of zij een compensatie-gerelateerde pagina afsluit, gevraagd of hij of zij de record wil opslaan. Op sommige pagina's in compensatiebeheer kunnen gebruikers geen gegevens verwijderen.. Door gebruikers te vragen of ze gegevens daadwerkelijk willen opslaan, worden er mogelijk minder gegevens opgeslagen die naderhand niet meer kunnen worden verwijderd. Als het selectievakje **Opslaan van validatie activeren** is uitgeschakeld, worden records altijd direct opgeslagen, misschien voordat de gebruiker klaar is. Als u prestatiebeheer gebruikt, kunt u met het tabblad **Compensatie** ook een beoordelingsmodel selecteren om te gebruiken in plaats van het model dat wordt toegewezen aan compensatieplannen wanneer prestaties worden beoordeeld. 
+- **Algemeen**
+- **Werving**: (dit tabblad is niet opgenomen in Dynamics 365 Human Resources)
+- **Compensatie**
+- **Nummerreeksen**
+- **FMLA**
+- **Selfservice werknemer**
+- **Selfservice manager**
+- **Vergoedingenbeheer**
+- **Verlof en verzuim**
+- **Betalingsmethoden**
 
-### <a name="previously-released-functionality"></a>Eerder uitgebrachte functionaliteit
+Elk tabblad bevat informatie over één bedrijf.
 
-De instellingen op het tabblad **Nummerreeks** bepalen de reeksen die worden gebruikt voor het automatisch toewijzen van id's aan items in Human resources, zoals sollicitaties, verzuimregistraties, resultaten van compensatieprocessen, casenummers, cursussen en cursusagenda's. Om nummerreeksverwijzingen en codes te onderhouden, gebruikt u de lijstpagina **Nummerreeksen**. Klik op **Organisatiebeheer** &gt; **Nummerreeksen** &gt; **Nummerreeksen**.
+## <a name="general"></a>Algemeen
+
+De instellingen op het tabblad **Algemeen** bepalen het uiterlijk van informatie over verzuim, letsel en ziekte, en nieuwe werknemers. De instellingen op dit tabblad definieert tevens sommige standaardwaarden die worden weergegeven terwijl u werkt. Op dit tabblad kunt u het volgende doen:
+
+- Een kleur selecteren om op openstaande verzuimtransacties toe te passen.
+- Het te gebruiken stijlblad voor rapporten opgeven.
+- Integratie tussen trainingscursussen en verzuimregistratie inschakelen.
+- De verzuimcode selecteren die wordt gebruikt om deze integratie te beheren.
+- Aangeven hoe lang een case met letsel- en ziekte-incidenten moet worden bewaard.
+- Het standaardidentificatienummer opgeven dat wordt weergegeven wanneer een nieuwe werknemer wordt aangenomen.
+- De datum opgeven die wordt gebruikt voor het berekenen van servicejaren. 
+
+![Tabblad Algemeen.](./media/hr-setup-parameters-general.png)
+
+## <a name="recruitment"></a>Werving
+
+De instellingen op het tabblad **Werving** definiëren de documenttypen die worden gebruikt voor correspondentie die automatisch naar sollicitanten wordt verzonden. U kunt ook het wervingsproject aangeven dat voor open sollicitaties wordt gebruikt.
+
+De periode die is gedefinieerd als **ouderdomsperiode voor het wervingsproject**, bepaalt welke wervingsprojecten worden opgenomen op de tegel **Verouderende projecten** in het werkgebied **Wervingsbeheer**. De periode die wordt ingesteld voor de sollicitatiedeadlinewaarschuwing wordt gebruikt om wervingsprojecten weer te geven die hun sollicitatiedeadline naderen op de tegel **Einde van sollicitatietermijn nadert** in het werkgebied **Werving**.
+
+Zie [Werving kandidaten voor functie](hr-personnel-recruit.md) voor meer informatie over werving.
+
+## <a name="compensation"></a>Compensatie
+
+In Dynamics 365 Finance definiëren de instellingen op het tabblad **Compensatie** of gebruikers moeten bevestigen dat ze informatie willen opslaan voor een vaste- of variabele-compensatieplan. Als u het selectievakje **Opslaan van validatie activeren** inschakelt, worden gebruikers wanneer zij een compensatie-gerelateerde pagina afsluiten, gevraagd of zij de record willen opslaan. Op sommige pagina's in Compensatiebeheer kunnen gebruikers geen gegevens verwijderen. Door gebruikers te vragen of ze gegevens daadwerkelijk willen opslaan, worden er mogelijk minder gegevens opgeslagen die naderhand niet meer kunnen worden verwijderd. Als u **Opslaan van validatie activeren** uitschakelt, worden records direct opgeslagen, misschien voordat de gebruiker klaar is. Als u Prestatiebeheer gebruikt, kunt u met het tabblad **Compensatie** ook een beoordelingsmodel selecteren om te gebruiken in plaats van het model dat wordt toegewezen aan compensatieplannen wanneer prestaties worden beoordeeld.
+
+In Human Resources kunt u op het tabblad **Compensatie** ervoor kiezen de toegang tot compensatieplannen te beperken en een standaardvaluta in te stellen.
+
+Zie [Overzicht van compensatieplannen](hr-compensation-overview.md) voor meer informatie over compensatieplannen.
+
+![Tabblad Compensatie.](./media/hr-setup-parameters-compensation.png)
+
+## <a name="number-sequences"></a>Nummerreeksen
+
+De instellingen op het tabblad **Nummerreeks** bepalen de reeksen die worden gebruikt om automatisch id's toe te wijzen aan items in Human Resources, zoals:
+
+- Aanvragen
+- Verzuimregistraties
+- Resultaten van compensatieproces
+- Casenummers
+- Cursussen
+- Cursusagenda's
+
+Om nummerreeksverwijzingen en codes te onderhouden, gebruikt u de lijstpagina **Nummerreeksen** (selecteer **Organisatiebeheer > Nummerreeksen > Nummerreeksen**).
+
+Zie [Overzicht van nummerreeksen](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json) voor meer informatie.
 
 > [!NOTE]
-> Het aantal uren dat is gewerkt, kan niet groter zijn dan 1250, en de lengte van het dienstverband kan niet langer dan 12 maanden zijn. Deze maximumwaarden zijn in overeenstemming met de federale wetgeving in de verenigde Staten. Tot slot bepalen de instellingen op het tabblad **Selfservice werknemer** welke informatie managers kunnen invoeren namens hun werknemers.
+> Het aantal uren dat is gewerkt, kan niet groter zijn dan 1250, en de lengte van het dienstverband kan niet langer dan 12 maanden zijn. Deze maximumwaarden zijn in overeenstemming met de federale wetgeving in de verenigde Staten.
+
+![Tabblad Nummerreeksen.](./media/hr-setup-parameters-number-sequences.png)
+
+## <a name="fmla"></a>FMLA
+
+Op het tabblad FMLA stelt u geschiktheidsvereisten voor FMLA en uren voor rechten van FMLA in. Zie [Verlof- en verzuimparameters configureren](hr-leave-and-absence-parameters.md) voor meer informatie.
+
+![Tabblad FMLA.](./media/hr-setup-parameters-fmla.png)
+
+## <a name="employee-self-service"></a>Werknemerselfservice
+
+De instellingen op het tabblad **Selfservice werknemer** beïnvloeden hoe deze **selfservice voor werknemers** wordt weergegeven. Op dit tabblad kunt de volgende taken uitvoeren:
+
+- Een naam invoeren voor het werkgebied **Selfservice werknemer**
+- Selecteren welke informatie een manager voor werknemers kan invoeren
+- Nuttige koppelingen toevoegen voor werknemers
+- Voorkomen dat werknemers zakelijke contactgegevens toevoegen of bewerken. Zie [Persoonlijke gegevens bewerken beperken](hr-employee-self-service-restrict-editing.md) voor meer informatie.
+
+Zie [Overzicht Selfservice voor werknemers en managers](hr-employee-manager-self-service-overview.md) voor meer informatie over het instellen van **Selfservice voor werknemers**.
+
+![Tabblad Selfservice werknemer.](./media/hr-setup-parameters-employee-self-service.png)
+
+## <a name="manager-self-service"></a>Selfservice manager
+
+De instellingen op het tabblad **Selfservice managers** beïnvloeden wat managers zien in **Selfservice managers**. Op dit tabblad kunt u de volgende opties configureren:
+
+- Het bereik voor verlopende records
+- Informatie die managers kunnen zien in verlopende records
+- Of managers openstaande functies voor indirecte ondergeschikten kunnen bekijken
+- Weergaven van vertrekkende werknemers
+- Nuttige koppelingen voor managers
+
+Zie [Overzicht Selfservice voor werknemers en managers](hr-employee-manager-self-service-overview.md) voor meer informatie over het instellen van **Selfservice voor managers**.
+
+![Tabblad Selfservice managers.](./media/hr-setup-parameters-manager-self-service.png)
+
+## <a name="benefits-management"></a>Vergoedingenbeheer
+
+Op het tabblad **Vergoedingenbeheer** kunt u e-mailopties voor Vergoedingenbeheer configureren. Zie [Overzicht van Vergoedingenbeheer](hr-benefits-management-overview.md) voor meer informatie over het instellen en het gebruik van Vergoedingenbeheer.
+
+![Tabblad Vergoedingenbeheer.](./media/hr-setup-parameters-benefits-management.png)
+
+## <a name="leave-and-absence"></a>Verlof en verzuim
+
+Zie [Overzicht van Verlof en verzuim](hr-leave-and-absence-overview.md) voor meer informatie over het instellen en gebruiken van Verlof en verzuim.
+
+## <a name="payment-methods"></a>Betalingsmethoden
+
+Op het tabblad **Betalingswijzen** kunt u de betalingswijzen selecteren die door uw organisatie worden ondersteund. Zie [Overzicht van compensatieplannen](hr-compensation-overview.md) voor meer informatie over de configuratie van compensatieplannen.
+
+![Tabblad Betalingswijzen.](./media/hr-setup-parameters-payment-methods.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,28 +2,27 @@
 title: Overzicht van positieve betalingen
 description: Dit artikel bevat info over positieve betalingen die worden gebruikt om een elektronische lijst met cheques te genereren die aan de bank wordt gegeven.
 author: panolte
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankPositivePaySummary
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 88463
+ms.custom:
+- "88463"
+- intro-internal
 ms.assetid: 1e3a39d3-f9b3-4073-9730-c96a607243e2
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: f64b2bc6c336ba833cbd95f83596fe516bce8b56
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f469cdbd74f228d235f9a84f52d9bd8656e97020
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441918"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6340272"
 ---
 # <a name="positive-pay-overview"></a>Overzicht van positieve betalingen
 
@@ -49,3 +48,6 @@ Zie voor meer informatie [Positieve betalingsbestanden instellen en genereren](s
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,27 +2,27 @@
 title: Overzicht van Workflows maken
 description: In dit onderwerp wordt uitgelegd hoe u een workflow maakt.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowSelectTemplateRnr, WorkflowTableListPageRnr
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: 195583
+ms.custom:
+- "195583"
+- intro-internal
 ms.assetid: 836ddd01-cc34-45c3-a4b0-20647357dbc6
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: d1402019dbaaa60827499fcb6b93ee31440cfc3d
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: fc08f17a6b3ea1198202c819ffae7d1bd48d2919
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797647"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984398"
 ---
 # <a name="create-workflows-overview"></a>Overzicht van Workflows maken
 
@@ -83,3 +83,6 @@ Wanneer u klaar bent om de workflow op te slaan en te activeren, volgt u deze st
 
     - Om deze versie van de workflow te activeren, klikt u op **De nieuwe versie activeren**. Wanneer een workflow actief is, kunnen gebruiker documenten ter verwerking bij de workflow aanbieden.
     - Als u deze versie niet wilt activeren, klikt op **De nieuwe versie niet activeren**. U kunt de workflow later activeren.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

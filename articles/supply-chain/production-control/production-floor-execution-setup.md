@@ -8,18 +8,19 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: JmgProductionFloorExecution, HcmWorker, JmgProductionFloorExecutionDeviceConfiguration
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d4529af21d9673512889b17aeb1e7fbd49969cdc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 641273dd3ae189853326bf7af7ceb06d48465b5c
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966269"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500545"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Een apparaat instellen om de uitvoeringsinterface voor de werkvloer uit te voeren
 
@@ -79,3 +80,6 @@ In het bovenste gedeelte van de volgende afbeelding ziet u hoe de interface er s
 Standaard wordt de uitvoeringsinterface van de werkvloer afgemeld als niemand deze gedurende 12 uur gebruikt. Een gebruiker van Supply Chain Management moet zich vervolgens opnieuw aanmelden. U kunt de time-outlimiet echter uitbreiden naar maximaal 90 dagen.
 
 Als u de time-outlimiet wilt uitbreiden, meldt u zich aan bij Supply Chain Management en gaat u naar **Systeembeheer \> Gebruikers \> Sessieverlengingen**. Geef de gebruikersaccount voor Supply Chain Management op die wordt gebruikt om u aan te melden bij het apparaat en het aantal uren dat de sessie actief moet blijven.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

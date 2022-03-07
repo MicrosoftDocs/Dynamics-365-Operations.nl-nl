@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd6de42dda650d42d703e905f8d48f73b9e4afd6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 670dd2ec15aa26791758ec4bea2b431482499436
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441910"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227155"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Factuurgegevens invoeren in het AP-systeem met behulp van de facturengroep
 
@@ -68,3 +67,6 @@ In dit onderwerp wordt beschreven hoe u het facturenregister gebruikt om facture
 13. Selecteer **Transacties**.
 14. Selecteer de factuur die u hebt gemaakt. De toerekening van het facturenregister is omgekeerd en geboekt naar de juiste onkostenrekening.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

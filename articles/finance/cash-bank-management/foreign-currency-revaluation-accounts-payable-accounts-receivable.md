@@ -1,5 +1,5 @@
 ---
-title: Herwaardering van vreemde valuta voor Leveranciers en Klanten
+title: Herwaardering van valuta voor Leveranciers en Klanten
 description: Schommelingen in wisselkoersen leiden ertoe dat de theoretische waarde (boekwaarde) van openstaande transacties in vreemde valuta in de loop van de tijd variëren. Dit artikel bevat informatie over de herwaardering van vreemde valuta die u kunt uitvoeren om de waarde van openstaande transacties in Leveranciers en Klanten bij te werken.
 author: kweekley
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: CustExchRateAdjustment, VendExchRateAdjustment
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14211
 ms.assetid: defb1ea5-1f3e-4859-87d8-3f9954d3f388
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb7a101fa9ef84ec3873bcd8054b8198db8d58c9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a95e446184b48be6d48347155ce14554602accbe
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442101"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254006"
 ---
-# <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Herwaardering van vreemde valuta voor Leveranciers en Klanten
+# <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Herwaardering van valuta voor Leveranciers en Klanten
 
 [!include [banner](../includes/banner.md)]
 
@@ -66,3 +65,6 @@ Telkens wanneer u een herwaardering van vreemde valuta uitvoert, wordt een regis
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

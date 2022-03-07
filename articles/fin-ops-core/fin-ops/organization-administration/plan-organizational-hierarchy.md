@@ -2,11 +2,9 @@
 title: Uw organisatiehiërarchie plannen
 description: Voordat u de installatieorganisaties en -hiërarchieën instelt, moet u begrijpen hoe u uw bedrijf het beste modelleert.
 author: sericks007
-manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 986d8986375aac9454483d89c46c1b2b6f52e68e
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: ef906c0d60639da763f2a9c1e1adf508b0849b8978dff17cd0e7b3936fc4779e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694684"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771867"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Uw organisatiehiërarchie plannen
 
@@ -166,7 +164,7 @@ De operationele eenheden gebruiken de context van het land van de hoofdrechtsper
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Als de organisatie als rechtspersoon is gemodelleerd
 
-Voor landen/regio's die ondersteund worden, kunnen de meeste wettelijke rapporten worden gemaakt. Zie de [Microsoft Dynamics Localization Portal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) voor informatie over welke rapporten voor elk land/regio beschikbaar zijn. (Een CustomerSource-aanmelding is een verplicht.)
+Voor landen/regio's die ondersteund worden, kunnen de meeste wettelijke rapporten worden gemaakt. 
 
 > [!NOTE]
 > Een boekingslaag in het grootboek stelt u in staat tot het aanpassingsvermeldingen in een overkoepelend bedrijf te maken dat een andere boekhoudingsnorm dan het onderliggende bedrijf gebruikt. Bijvoorbeeld, voor een bedrijf dat algemeen geaccepteerde boekhoudkundige praktijken in het Verenigd Koninkrijk (UK GAAP) gebruikt, kunt u aanpassingsvermeldingen maken in de boekingslaag. Deze boekingen kunnen in een moederbedrijf worden geconsolideerd dat algemeen geaccepteerde boekhoudprincipes (GAAP) in de Verenigde Staten gebruikt. De wijzigingsvermeldingen beïnvloeden Britse GAAP-rapportage niet.
@@ -241,3 +239,6 @@ Houd rekening met de volgende beste praktijken wanneer u een organisatiehiërarc
 - Voordat u belangrijke herstructureringsscenario´s modelleert, gebruikt u de ingangsdatums van de hiërarchie om een impactanalyse en een validatietest uit te voeren.
 - Gebruik conceptmodus om een hiërarchie te wijzigen voordat u een nieuwe versie in een productieomgeving publiceert.
 - Beperk het aantal mensen met machtigingen om organisaties toe te voegen of te verwijderen uit een hiërarchie in een productieomgeving. Een kleiner aantal beperkt de kans dat kostbare fouten optreden en correcties moeten worden uitgevoerd.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

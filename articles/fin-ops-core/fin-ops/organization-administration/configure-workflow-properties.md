@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bd3c9bea010099f83d16dad70261bc2d46a1dac
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: e3cb5dc59373b7af76fffa1b1c59728c84dfb5fb
+ms.sourcegitcommit: fd62ab3d399b0d6ea0d362f1d403a300e84a576d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693277"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5067618"
 ---
 # <a name="configure-workflow-properties"></a>Workfloweigenschappen configureren
 
@@ -73,6 +73,9 @@ Het is mogelijk om instructies op te geven voor gebruikers die documenten voor v
     4. Voer in het veld **Vertaalde tekst** de gewenste tekst in.
     5. Als u de tekst wilt personaliseren, kunt u tijdelijke aanduidingen invoegen. Zie de stap 3 voor instructies voor het invoeren van een tijdelijke aanduiding.
     6. Klik op **Sluiten**.
+
+> [!NOTE]
+> Tijdelijke aanduidingen kunnen niet worden toegevoegd met kopiëren en plakken, omdat de doelgegevens niet op de juiste manier worden geplakt. Gebruik de interface om tijdelijke aanduidingen toe te voegen.
 
 ## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>Geef op wanneer deze workflow wordt gebruikt via activeringsvoorwaarden
 

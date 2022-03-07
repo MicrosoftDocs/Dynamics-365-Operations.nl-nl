@@ -2,28 +2,25 @@
 title: Een gedeeltelijke leveranciersbetaling met meerdere kortingsperioden vereffenen
 description: Dit artikel begeleidt u door een scenario waarin meerdere gedeeltelijke betalingen worden gedaan aan een leverancier die meerdere contantkortingen aanbiedt.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14262
 ms.assetid: af95c48a-afd1-476c-978d-e34995100be4
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 659fb6c98b9ed0589932f8c4a67cb7b08264283c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a0538a522733a9df9ae3b8832959c68bb0c25056694786e4b1a46a2ee7d0fcfc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442117"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737084"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Een gedeeltelijke leveranciersbetaling met meerdere kortingsperioden vereffenen
 
@@ -57,9 +54,9 @@ Op 2 juli wil April 300,00 voor deze factuur betalen. Zij maakt een eenmalige b
 
 Informatie over korting wordt onder aan de pagina **Openstaande transacties vereffenen** weergegeven.
 
-|                              |           |
+| Veld                        | Waarde     |
 |------------------------------|-----------|
-| Datum van contantkorting           | 02-07-2015 |
+| Datum voor contantkorting           | 02-07-2015 |
 | Contantkortingsbedrag         | -20,00    |
 | Contantkorting gebruiken            | Normaal    |
 | Toegepaste contantkorting          | 0,00      |
@@ -73,9 +70,9 @@ Omdat een contantkorting beschikbaar is, wil April het betalingsbedrag wijzigen 
 
 Informatie over korting wordt onder aan de pagina **Openstaande transacties vereffenen** weergegeven.
 
-|                              |           |
+| Veld                        | Waarde     |
 |------------------------------|-----------|
-| Datum van contantkorting           | 02-07-2015 |
+| Datum voor contantkorting           | 02-07-2015 |
 | Contantkortingsbedrag         | -20,00    |
 | Contantkorting gebruiken            | Normaal    |
 | Toegepaste contantkorting          | 0,00      |
@@ -106,10 +103,10 @@ April besluit om 495,00 te betalen en de contantkorting van 5,00 toe te passen. 
 
 Informatie over korting wordt onder aan de pagina **Openstaande transacties vereffenen** weergegeven.
 
-|                              |           |
+| Veld                        | Waarde     |
 |------------------------------|-----------|
-| Datum van contantkorting           | 7/12/2015 |
-| Contantkortingsbedrag         | -10,00    |
+| Datum voor contantkorting           | 7/12/2015 |
+| Contantkortingsbedrag         | -10.00    |
 | Contantkorting gebruiken            | Normaal    |
 | Toegepaste contantkorting          | -6,00     |
 | Contantkortingsbedrag dat moet worden toegepast | -5,00     |
@@ -140,3 +137,6 @@ Op 20 juli voert April een laatste betaling van 200,00 uit. Er wordt geen kortin
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

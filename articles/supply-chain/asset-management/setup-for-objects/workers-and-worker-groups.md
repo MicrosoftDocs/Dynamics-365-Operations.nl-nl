@@ -1,12 +1,10 @@
 ---
 title: Onderhoudsmedewerkers en medewerkersgroepen
 description: In dit onderwerp worden onderhoudsmedewerkers en medewerkersgroepen in Activabeheer uitgelegd.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetWorkerGroupCopyFromResourceGroup, EntAssetWorkerGroup
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b81de02f144712786704a46d2096dfb510d5ce68
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 1e976a28349a4bc7a371d23eb4df724e0ffd36a0553aec2deeb2ff07d0a63579
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017387"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750119"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>Onderhoudsmedewerkers en medewerkersgroepen
 
@@ -63,3 +61,6 @@ U kunt ook groepen onderhoudsmedewerkers maken en hieraan onderhoudsmedewerkers 
 6. Als een resourcegroep moet worden gerelateerd aan de geselecteerde onderhoudsmedewerkersgroep, selecteert u **Kopiëren uit resourcegroep**. Selecteer in het veld **Groep** de resourcegroep waarvan u de kalenderinstellingen wilt kopiëren. Selecteer vervolgens in het veld **Medewerkersgroep** de medewerkersgroep waar u de kalenderinstellingen van de resourcegroep naartoe wilt kopiëren. Deze stap is alleen relevant als u wilt dat onderhoudsmedewerkers de kalender gebruiken die is gerelateerd aan een resource (werkplaats) tijdens de planning van de werkorder.
 
     Het veld op het sneltabblad **Details** toont het aantal groepen onderhoudsmedewerkers dat is ingesteld voor de geselecteerde groep onderhoudsmedewerkers.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

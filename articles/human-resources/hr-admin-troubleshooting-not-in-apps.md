@@ -2,14 +2,11 @@
 title: Human Resources wordt niet weergegeven in de Microsoft Dynamics 365-apps
 description: In dit artikel wordt uitgelegd wat u moet doen als de klant de app Microsoft Dynamics 365 Human Resources niet ziet tussen de Microsoft Dynamics 365-apps.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -17,14 +14,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cbf47b4673e1c97965bba7728e5669b7639c4d56
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f90af26483cf82de57cbe8dd4237b39b281786804557319d5f6a7fc407027523
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417958"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782115"
 ---
 # <a name="human-resources-doesnt-appear-in-microsoft-dynamics-365-apps"></a>Human Resources wordt niet weergegeven in de Microsoft Dynamics 365-apps
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Uitgifte**
 
@@ -40,11 +39,11 @@ De gebruiker moet worden toegevoegd aan de rol Maker omgeving voor de omgeving i
 
 3. Selecteer op het tabblad **Beveiliging** op het tabblad **Omgevingsrollen** de optie **Maker omgeving**.
 
-    ![Het tabblad Omgevingsrollen](media/environment-roles.png)
+    ![Het tabblad Omgevingsrollen.](media/environment-roles.png)
 
 4. Voeg op het tabblad **Gebruikers** de gebruiker of uw organisatie toe.
 
-    ![Het tabblad Gebruikers](media/environment-maker.png)
+    ![Het tabblad Gebruikers.](media/environment-maker.png)
 
 5. Selecteer **Opslaan**.
 
@@ -52,6 +51,9 @@ De gebruiker moet worden toegevoegd aan de rol Maker omgeving voor de omgeving i
 
 7. Selecteer **Synchroniseren** om de gebruikersapps bij te werken.
 
-    ![De knop Synchroniseren](media/get-more.png)
+    ![De knop Synchroniseren.](media/get-more.png)
 
     Als de synchronisatie is voltooid, wordt Human Resources weergegeven op de startpagina.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

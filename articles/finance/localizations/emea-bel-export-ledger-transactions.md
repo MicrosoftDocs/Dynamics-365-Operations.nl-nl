@@ -2,27 +2,24 @@
 title: Export grootboektransacties
 description: Dit onderwerp bevat informatie over het exporteren van grootboekrekeningsaldi naar een ASCII-bestand (tekst zonder opmaak) in CED-indeling voor België.
 author: anasyash
-manager: AnnBe
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxReportExtraFieldsBE
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 273103
 ms.search.region: Belgium
 ms.author: roschlom
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: 4820e343604f314291146a12aa5903a85d3fe533
-ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
+ms.openlocfilehash: a2865984236f3282ee05ddc875bf9a6925df4fa5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4668966"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839904"
 ---
 # <a name="export-ledger-transactions"></a>Grootboektransacties exporteren
 
@@ -101,3 +98,6 @@ Hier volgt een uitleg van de kolommen in dit bestand:
 
 > [!NOTE]
 > Als u grootboektransacties voor klantfacturen wilt boeken, gaat u naar **Klanten** \> **Facturen** \> **Alle vrije-tekstfacturen**. Voor leveranciersfacturen gaat u naar **Leveranciers** \> **Facturen** \> **Facturenjournaal**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: De toepassingsmetagegevens gebruiken met de ER‑configuratie
-description: In de stappen in dit onderwerp wordt uitgelegd hoe een gebruiker van de Regulatory Configuration Service (RCS) een nieuwe Elektronisch Rapportage modeltoewijzing kan ontwerpen met behulp van de metagegevens in Finance and Operations.
+description: In dit onderwerp wordt beschreven hoe een gebruiker van de Regulatory Configuration Service (RCS) een nieuwe Elektronisch Rapportage modeltoewijzing kan ontwerpen met behulp van de metagegevens.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/28/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fa8e9ac4940bbc1252819ebcc3de2e21c9e0933f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 261c208b5906e313293d837dda20b2fe6dd649d6
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682160"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749334"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>De toepassingsmetagegevens gebruiken met de ER‑configuratie
 
@@ -125,3 +123,6 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker van Regulatory Configur
 > [!NOTE]
 > Deze manier om informatie op te halen over de metagegevens van de toepassing is de enige die beschikbaar is voor lokaal geïmplementeerde toepassingen (wanneer een LBD (Local Business Data) of on-premises implementatiemodel wordt gebruikt).
         
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

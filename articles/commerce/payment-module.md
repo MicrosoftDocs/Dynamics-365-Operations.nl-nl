@@ -2,27 +2,24 @@
 title: Betalingsmodule
 description: In dit onderwerp wordt de betalingsmodule beschreven en uitgelegd hoe u deze configureert in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 27b73f7a05605e4e3ee8f8b72400172b7a8bfc33
-ms.sourcegitcommit: ec78608eb96478b7a57928b60aece129d6799c5b
+ms.openlocfilehash: 09c7504eda0d389738b9d13b73f33472dc8f5fe3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "4581907"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804474"
 ---
 # <a name="payment-module"></a>Betalingsmodule
 
@@ -118,3 +115,6 @@ Als zowel Adyen- als PayPal-betalingsconnectors nodig zijn, voegt u beide module
 [Dynamics 365-betalingsconnector voor PayPal](paypal.md)
 
 [SCA (sterke klantverificatie) met Adyen-connector](adyen_redirect.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,28 +2,25 @@
 title: Rentekosten kwijtschelden, opnieuw invoeren of omkeren
 description: In dit artikel wordt beschreven hoe toeslagen voor rente en bijzondere kosten kunnen worden kwijtgescholden, opnieuw ingevoerd en omgekeerd.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustInterestJourList
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 59461
 ms.assetid: 25ec29f3-e3ea-4abb-bf6b-f6240873b315
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b5c92d6f3bb0bdc3fbadc9708350b5107e6cf37
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b50b6ad0abd566fbcaf9cf8ad36af69fb4b3e551
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441980"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814171"
 ---
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Rentekosten kwijtschelden, opnieuw invoeren of omkeren
 
@@ -95,3 +92,6 @@ U kunt rentetransacties omkeren via de knop **Geschiedenis** op het tabblad **Ve
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

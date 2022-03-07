@@ -1,33 +1,29 @@
 ---
 title: Orderafhandeling voor winkels instellen
 description: Dit onderwerp bevat een overzicht van de wijze waarop u een winkelorderafhandeling instelt.
-author: rubencdelgado
-manager: AnnBe
+author: BrianShook
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d6cfa0d1eba4ccb0b24839b7cc632835b17107e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ed709c2a15a2d9e1675da55fc87284127e64ba39
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965305"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779591"
 ---
 # <a name="set-up-order-fulfillment-for-stores"></a>Orderafhandeling voor winkels instellen
 
 [!include [banner](includes/banner.md)]
-
-## <a name="overview"></a>Overzicht
 
 Veel detailhandelaren willen de afhandeling van orders optimaliseren door winkels in staat te stellen orders uit te voeren. Orderafhandeling op winkelniveau kan overbevoorradingsscenario's voor een bepaalde winkel voorkomen of vanuit logistiek oogpunt noodzakelijk zijn in gevallen waarin een winkel extra capaciteit heeft of zich dichter bij de klant bevindt. Om in deze behoefte te voorzien, is er een uniforme orderafhandelingsbewerking beschikbaar in het verkooppunt.
 
@@ -37,9 +33,9 @@ De orderafhandelingsbewerking in het verkooppunt biedt één werkgebied in het v
 
 ## <a name="set-up-the-order-fulfillment-operation"></a>De bewerking Orderafhandeling instellen
 
-Orderafhandeling, [bewerkings-id 928](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), kan worden gebruikt om toegang te krijgen tot het werkgebied voor winkelorderafhandeling in het verkooppunt.
+Orderafhandeling, [bewerkings-id 928](pos-operations.md), kan worden gebruikt om toegang te krijgen tot het werkgebied voor winkelorderafhandeling in het verkooppunt.
 
-Volg de stappen in [De bewerking toevoegen aan een knoppenraster](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) om op te geven welke parameter moet worden gebruikt bij het aanroepen van Orderafhandeling in het verkooppunt. Standaard is **Alle orders** geselecteerd als u de bewerkingen voor orderafhandeling hebt opgegeven. Indien geconfigureerd met deze parameter worden met de bewerking alle orderregels voor afhandeling in de huidige winkel weergegeven. Ook de parameter **Te verzenden orders** is beschikbaar. Deze kan worden toegewezen aan een knop en worden gebruikt als de gebruiker alleen de orders wil zien die vanuit de winkel worden verzonden. Er ten slotte is er **Orders voor afhalen**. Wanneer deze parameter wordt aangeroepen bij het verkooppunt, worden alleen orders weergegeven die moeten worden afgehaald in de winkel. De verschillende parameters kunnen aan verschillende knoppen worden toegewezen om de gebruiker verschillende manieren te bieden om orderafhandeling weer te geven.
+Volg de stappen in [De bewerking toevoegen aan een knoppenraster](pos-screen-layouts.md) om op te geven welke parameter moet worden gebruikt bij het aanroepen van Orderafhandeling in het verkooppunt. Standaard is **Alle orders** geselecteerd als u de bewerkingen voor orderafhandeling hebt opgegeven. Indien geconfigureerd met deze parameter worden met de bewerking alle orderregels voor afhandeling in de huidige winkel weergegeven. Ook de parameter **Te verzenden orders** is beschikbaar. Deze kan worden toegewezen aan een knop en worden gebruikt als de gebruiker alleen de orders wil zien die vanuit de winkel worden verzonden. Er ten slotte is er **Orders voor afhalen**. Wanneer deze parameter wordt aangeroepen bij het verkooppunt, worden alleen orders weergegeven die moeten worden afgehaald in de winkel. De verschillende parameters kunnen aan verschillende knoppen worden toegewezen om de gebruiker verschillende manieren te bieden om orderafhandeling weer te geven.
 
 ### <a name="enable-users-to-access-order-fulfillment-at-the-point-of-sale"></a>Gebruikers in staat stellen om in het verkooppunt toegang te krijgen tot orderafhandeling
 
@@ -108,9 +104,9 @@ Standaard hebben orders de status **Geaccepteerd**. De orderstatus kan worden we
 
 - **Bewerken**: als een orderstatus in behandeling is, kan de order worden bewerkt in het verkooppunt. Orders die al gedeeltelijk verzameld, verpakt of gefactureerd zijn, kunnen niet worden bewerkt vanuit de weergave voor orderafhandeling.
 - **Accepteren**: als **Handmatig accepteren** is geconfigureerd op kanaalniveau, moeten regels worden geaccepteerd voordat ze het orderafhandelingsproces kunnen doorlopen.
-- **Orderverzamelen**: deze actie ondersteunt verschillende acties. Met **Orderverzamelen** wordt de status van de orderregel bijgewerkt zodat anderen in de winkel niet proberen deze regel te verzamelen. Vervolgens wordt met **Orderverzamellijst afdrukken** een orderverzamellijst voor de geselecteerde regel of regels afgedrukt en wordt de status ervan bijgewerkt naar **Orderverzameling**. Orderverzamellijstindelingen worden beheerd als onderdeel van ontvangstbewijsindelingen. Zie voor meer informatie over het instellen van ontvangstbewijsindelingen [Ontvangstsjablonen en afdrukken](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing). Ten slotte wordt met **Markeren als opgenomen** aangegeven dat de regel is verzameld. **Markeren als opgenomen** initieert de bijbehorende voorraadtransacties in de backoffice. Verzamelacties kunnen tegelijkertijd voor meerdere orderregels in verschillende orders en voor alle leveringsmethoden worden uitgevoerd.
+- **Orderverzamelen**: deze actie ondersteunt verschillende acties. Met **Orderverzamelen** wordt de status van de orderregel bijgewerkt zodat anderen in de winkel niet proberen deze regel te verzamelen. Vervolgens wordt met **Orderverzamellijst afdrukken** een orderverzamellijst voor de geselecteerde regel of regels afgedrukt en wordt de status ervan bijgewerkt naar **Orderverzameling**. Orderverzamellijstindelingen worden beheerd als onderdeel van ontvangstbewijsindelingen. Zie voor meer informatie over het instellen van ontvangstbewijsindelingen [Ontvangstsjablonen en afdrukken](receipt-templates-printing.md). Ten slotte wordt met **Markeren als opgenomen** aangegeven dat de regel is verzameld. **Markeren als opgenomen** initieert de bijbehorende voorraadtransacties in de backoffice. Verzamelacties kunnen tegelijkertijd voor meerdere orderregels in verschillende orders en voor alle leveringsmethoden worden uitgevoerd.
 - **Afwijzen**: regels of gedeeltelijke regels kunnen worden afgewezen. Op deze manier kunnen ze vanuit de backoffice opnieuw worden toegewezen aan een andere winkel of een ander magazijn. Regels kunnen alleen worden afgewezen als ze nog niet zijn verzameld of verpakt. Voor een regel die al is verzameld of verpakt, moet de verzameling of verpakking ongedaan worden gemaakt vanuit de backoffice.
-- **Verpakking**: de verpakkingsoptie ondersteunt twee acties. Met **Pakbon afdrukken** wordt een pakbon voor de geselecteerde regels afgedrukt en met **Markeren als verpakt** worden de regels als verpakt gemarkeerd en worden de regels als geleverd gemarkeerd in de backoffice. Alleen orderregels die bij dezelfde order horen en dezelfde leveringsmethode hebben, kunnen op hetzelfde moment worden verpakt. Pakbonindelingen worden beheerd als onderdeel van ontvangstbewijsindelingen. Zie voor meer informatie over het instellen van ontvangstbewijsindelingen [Ontvangstsjablonen en afdrukken](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+- **Verpakking**: de verpakkingsoptie ondersteunt twee acties. Met **Pakbon afdrukken** wordt een pakbon voor de geselecteerde regels afgedrukt en met **Markeren als verpakt** worden de regels als verpakt gemarkeerd en worden de regels als geleverd gemarkeerd in de backoffice. Alleen orderregels die bij dezelfde order horen en dezelfde leveringsmethode hebben, kunnen op hetzelfde moment worden verpakt. Pakbonindelingen worden beheerd als onderdeel van ontvangstbewijsindelingen. Zie voor meer informatie over het instellen van ontvangstbewijsindelingen [Ontvangstsjablonen en afdrukken](receipt-templates-printing.md).
 - **Verzenden**: met de verzendactie worden geselecteerde regels als **Geleverd** gemarkeerd in de backoffice. Als een regel volledig is verzonden, wordt deze niet meer weergegeven in de weergave voor orderafhandeling.
 - **Afhalen**: met de afhaalactie worden de regels toegevoegd aan de transactieweergave voor afhalen. Als de order nog andere regels bevat die momenteel niet worden afgehaald, worden deze met de hoeveelheid nul toegevoegd aan de transactieweergave. Als een regel volledig is afgehaald, wordt deze niet meer weergegeven in de weergave voor orderafhandeling.
 
@@ -130,3 +126,6 @@ Orderafhandeling in het verkooppunt omvat allerlei filters, zodat gebruikers gem
 - Gemaakt op
 - Leveringsdatum
 - Ontvangstdatum
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: TaxAuthority, TaxReportCollection, TaxTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 266844
 ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, Latvia, Lithuania, Netherlands, Sweden
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 65ea2f40171a470cab0550aecff07567be4aaa78
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 444726e6295fb127316af9c8382ccb4d25d28ce3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408317"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232001"
 ---
 # <a name="vat-reporting-for-europe"></a>Btw-aangifte voor Europa
 
@@ -277,3 +276,6 @@ Het btw-overzicht voor elk land moet voldoen aan de vereisten van de wetgeving v
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

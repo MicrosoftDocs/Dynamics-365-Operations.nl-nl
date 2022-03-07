@@ -2,11 +2,9 @@
 title: Gebruikersinterface-elementen
 description: In dit onderwerp worden de elementen van de gebruikersinterface (UI) in de app beschreven.
 author: tlefor
-manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,14 +12,17 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 3e087a1abec9bf177bb831b9bbfa12895054ad07
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 60e85841ec940ed65d73dc052848168be70301d6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797928"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069318"
 ---
 # <a name="user-interface-elements"></a>Gebruikersinterface-elementen
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 In dit onderwerp worden de elementen van de gebruikersinterface (UI) beschreven die worden gebruikt in de app. Voordat gebruikers in de interface kunnen navigeren, is het belangrijk dat u de namen en functies kent van de elementen die de interface vormen.
 
@@ -86,3 +87,6 @@ Een *werkbalk* bevat hulpmiddelen, zoals de mogelijkheid om velden toe te voegen
 Een *lijst* is de naam voor een verzameling records waardoor u kunt bladeren. U kunt deze records naar de pagina overbrengen door ze te selecteren. Vaak wordt er een raster geopend.
 
 ![De volgende afbeelding laat voorbeelden van werkbalken, rasters en lijsten zien.](media/user-interface-08.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

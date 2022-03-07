@@ -1,25 +1,27 @@
 ---
 title: Een vervangende kanbanregel maken
 description: Deze procedure is gericht op het vervangen van een bestaande kanbanregel met een nieuwe kanbanregel op een specifieke datum.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2db44c1b43a6dc5e0ab37a7756c4eecaab468e15
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: d68087afd1a0c9b675e4ac1ef2118e6aab5213d9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570052"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998648"
 ---
 # <a name="create-a-replacement-kanban-rule"></a>Een vervangende kanbanregel maken
 
@@ -53,6 +55,3 @@ Deze procedure is gericht op het vervangen van een bestaande kanbanregel met een
 1. Stel Maximumhoeveelheid in op '100'.
     * Vouw het sneltabblad Hoeveelheden uit om het veld Maximumhoeveelheid te bekijken. Als u de maximale hoeveelheid wijzigt in 100, kunnen maximaal 100 kanbans worden verwerkt.    Dit is de laatste stap in deze taak.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

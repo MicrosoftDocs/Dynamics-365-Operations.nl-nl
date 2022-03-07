@@ -1,37 +1,39 @@
 ---
 title: Vragenlijsten plannen en distribueren
-description: Dit artikel beschrijft het distribueren van vragenlijsten die u ontwerpt, zodat ze beschikbaar zijn voor de persoon of groep mensen die hem gaan invullen.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/04/2017
+description: In dit onderwerp wordt uitgelegd hoe u de vragenlijsten die u ontwerpt kunt distribueren, zodat ze beschikbaar zijn voor de persoon of groep personen die de lijsten gaat invullen.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0329b80615eed6efcc22bb0b140970988f5c306a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dbb069110b46c38a994a7be6276137360b14397a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418041"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069524"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Vragenlijsten plannen en distribueren
 
-Dit artikel beschrijft het distribueren van vragenlijsten die u ontwerpt, zodat ze beschikbaar zijn voor de persoon of groep mensen die hem gaan invullen. 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+In dit onderwerp wordt uitgelegd hoe u de vragenlijsten die u ontwerpt kunt distribueren, zodat ze beschikbaar zijn voor de persoon of groep personen die de lijsten gaat invullen. 
 
 Er zijn meerdere manieren om een vragenlijst te verspreiden:
 
--   De vragenlijst als actief markeren. De vragenlijst is dan beschikbaar voor alle werknemers, tenzij een vragenlijstgroep is ingesteld om de toegang tot de vragenlijst te beperken.
+-   De vragenlijst als **Actief** markeren. De vragenlijst is dan beschikbaar voor alle werknemers, tenzij een vragenlijstgroep is ingesteld om de toegang tot de vragenlijst te beperken.
 -   Rechten aan een vragenlijstgroep toewijzen. De vragenlijst is dan beschikbaar voor alle leden van de geselecteerde groep.
 -   Geplande antwoordsessies maken. De vragenlijst is dan alleen voor één bepaalde persoon beschikbaar.
 -   Een planning maken. De vragenlijst kan dan voor meerdere mensen beschikbaar zijn.
@@ -131,3 +133,6 @@ Nadat u een vragenlijst hebt ontworpen en verspreid, kan de vragenlijst worden i
 Vragenlijsten kunnen beschikbaar worden gesteld aan alle personen in een netwerk of aan specifieke gebruikers of groepen gebruikers.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

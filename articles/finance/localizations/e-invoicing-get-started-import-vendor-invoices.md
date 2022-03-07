@@ -2,25 +2,27 @@
 title: De service voor Elektronische facturering gebruiken om leveranciersfacturen te importeren
 description: Dit onderwerp bevat informatie over het importeren van leveranciersfacturen met de service voor elektronische facturering.
 author: gionoder
-ms.date: 09/03/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f3b3a27436d32cf25d09f368e4a32018d7559bf6
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 434bf1f6a5a727a71592493b85ab166cbeff2f0980c2c968c99973a03f4dc660
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983818"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751247"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>De service voor Elektronische facturering gebruiken om leveranciersfacturen te importeren
 
@@ -43,21 +45,13 @@ Configureer een e-mailaccountkanaal als met de functie voor elektronische factur
 
 1. Selecteer in RCS de functie voor elektronische facturering die u hebt gemaakt. Selecteer de versie met de status **Concept**.
 2. Selecteer op het tabblad **Instellingen** in het raster een functie-instelling en selecteer vervolgens **Bewerken**.
-3. Voer op het tabblad **Gegevenskanaal** in de veldgroep **Parameters** in het veld **Gegevenskanaal** de naam van het kanaal in. De kanaalnaam mag niet langer zijn dan tien tekens.
-4. Voer in het veld **Serveradres** de provider van het e-mailaccount in. Het serveradres voor **https://outlook.live.com/** is bijvoorbeeld **imap-mail.outlook.com**.
-5. Voer in het veld **Serverpoort** de poort in die door de provider van het e-mailaccount wordt gebruikt. De serverpoort voor **https://outlook.live.com/** is bijvoorbeeld **993**.
-6. Voer in het veld **Geheim gebruikersnaam** de naam in van het KeyVault-geheim dat de ID van de e-mail van het gebruikersaccount bevat. Dit geheim moet worden aangemaakt in de Azure Key Vault en worden ingesteld in uw serviceomgeving. 
-7. Voer in het veld **Geheim gebruikerswachtwoord** de naam in van het KeyVault-geheim dat het wachtwoord van de e-mail van het gebruikersaccount bevat.
-8. Optioneel - voer waarden in de velden **Afzenderfilter**, **Onderwerpfilter** en **Datumfilter** in.
-9. Voer de namen in van de postvakmappen waarin e-mails worden weergegeven:
-
-    - Geïmporteerd uit: **Hoofdmap**
-    - Opgeslagen na een geslaagde verwerking: **Archiefmap**
-    - Opgeslagen nadat de verwerking niet is gelukt: **Foutmap** U hoeft deze mappen niet in het postvak aan te maken. De mappen worden automatisch aangemaakt na het importeren en de verwerking van de eerste e-factuur. 
-   
-10. Voeg in de veldgroep **Bijlagenfilter** de informatie voor het filteren van bestanden in. Alleen bijlagen die voldoen aan het gedefinieerde filter worden verwerkt. U kunt bijvoorbeeld '\*.xml' instellen voor bijlagen met een xml-extensie. De naam van de bijlage wordt in Dynamics 365 Finance of Dynamics 365 Supply Chain Management gebruikt tijdens het instellen. 
-11. Controleer de criteria en werk deze zo nodig bij op het tabblad **Toepasbaarheidsregels**. Het veld **Kanaal** moet gelijk zijn aan het eerder opgegeven **Gegevenskanaal**. Meer informatie over dit onderwerp vindt u in [Toepasbaarheidsregels](e-invoicing-configuration-rcs.md#applicability-rules).
-12. Selecteer **Opslaan** en sluit de pagina.
+3. Selecteer het **Serveradres** op het tabblad **Gegevenskanaal** in de veldgroep **Parameters** en voer de e-mailaccountprovider in.
+4. Selecteer **Serverpoort** en voer de poort in die door de e-mailaccountprovider wordt gebruikt.
+5. Selecteer **Geheim gebruikersnaam** en voer de naam in van het Key Vault-geheim dat de ID van de e-mailgebruikersaccount bevat.
+6. Selecteer **Geheim gebruikerswachtwoord** en voer de naam in van het Key Vault-geheim dat het wachtwoord van de e-mailgebruikersaccount bevat.
+7. Selecteer **Onderwerpfilter**. Controleer en werk de tekenreeks bij die het standaard-e-mailonderwerp bevat ter identificatie van de e-mail die de elektronische leveranciersfactuur bevat die moet worden geïmporteerd.
+8. Controleer de criteria en werk deze zo nodig bij op het tabblad **Toepasbaarheidsregels**. Meer informatie over dit onderwerp vindt u in [Toepasbaarheidsregels](e-invoicing-configuration-rcs.md#applicability-rules).
+9. Selecteer **Opslaan** en sluit de pagina.
 
 ### <a name="configure-a-microsoft-sharepoint-channel"></a>Een Microsoft SharePoint-kanaal configureren
 
@@ -77,10 +71,10 @@ Configureer een Microsoft SharePoint-kanaal als met de functie voor elektronisch
 
 Zie [De functie Elektronische facturering in de serviceomgeving implementeren](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-service-environment) voor de implementatie van de functie voor elektronische facturering.
 
-## <a name="set-up-vendor-invoice-import-in-finance-or-supply-chain-management"></a>Import van leveranciersfacturen instellen in Finance of Supply Chain Management
+## <a name="set-up-vendor-invoice-import-in-finance-and-supply-chain-management"></a>Import van leveranciersfacturen in Finance en Supply Chain Management instellen
 Voer de stappen in de volgende twee secties uit om verschillende typen import van leveranciersfacturen in te stellen.
 
-### <a name="import-brazilian-nf-e-from-email"></a>NF-e importeren uit e-mail (BR) (Brazilië)
+### <a name="import-vendor-invoices-from-email"></a>Leveranciersfacturen importeren vanuit e-mail
 
 1. Meld u aan bij uw Finance- of Supply Chain Management-omgeving en controleer of u bij de juiste rechtspersoon bent.
 2. Ga naar **Organisatiebeheer** > **Instellen** > **Parameters voor elektronische documenten**.
@@ -104,43 +98,30 @@ Voer de stappen in de volgende twee secties uit om verschillende typen import va
 ### <a name="import-peppol-electronic-vendor-invoices"></a>PEPPOL - elektronische leveranciersfacturen importeren
 
 1. Ga naar het werkgebied **Elektronische rapportage** en selecteer **Rapportageconfiguraties**.
-2. Selecteer **Contextmodel klantfactuur** en selecteer vervolgens **Configuratie aanmaken** > **Afleiden van naam: Contextmodel klantfactuurcontextmodel, Microsoft** om een afgeleide configuratie aan te maken.
-3. Selecteer in de **Concept**-versie **Ontwerper** en selecteer in de structuur **Gegevensmodel** **Model toewijzen aan gegevensbron**.
-4. Selecteer in de structuur **Definities** **Gegevenskanaal** en selecteer vervolgens **Ontwerper**.
-5. Vouw in de structuur **Gegevensbronnen** de container **$Context\_kanaal** uit. Selecteer in het veld **Waarde** **Bewerken** en voer de naam van het gegevenskanaal in. Dit is de naam van het kanaal dat is opgegeven in de configuratie van het gegevenskanaal voor de functie voor elektronische facturering in RCS. 
+2. Selecteer **Contextmodel klantfactuur** en maak een afgeleide configuratie.
+3. Selecteer **Ontwerper** in de versie **Concept**.
+4. Selecteer **Klantfactuur** in de structuur **Gegevensmodel** en selecteer vervolgens **Model toewijzen aan gegevensbron**.
+5. Selecteer in de structuur **Definities** **CustomerInvoice** en selecteer vervolgens **Ontwerper**.
+6. Selecteer in de structuur **Gegevensbronnen** **Context\_kanaal**. Selecteer in het veld **Waarde** **PEPPOL**. Dit is de naam van het kanaal dat is opgegeven in de configuratie van het gegevenskanaal voor de functie voor elektronische facturering in RCS. 
 7. Selecteer **Opslaan** en sluit de pagina.
 8. Sluit de pagina.
-9. Selecteer de afgeleide configuratie die u zojuist hebt aangemaakt op basis van het **Contextmodel klantfacturen** en selecteer op het sneltabblad **Versies** de optie **Status wijzigen** > **Voltooid**.
+9. Selecteer **Contextmodel klantfactuur** en selecteer op het sneltabblad **Versies** **Status wijzigen** > **Voltooid**.
 10. Ga naar **Organisatiebeheer** > **Instellen** > **Parameters elektronisch document** en zorg ervoor dat op het tabblad **Functies** **PEPPOL - algemene elektronische facturen** is geselecteerd. 
 11. Selecteer op het tabblad **Externe kanalen** in de veldgroep **Kanalen** de optie **Toevoegen**.
-12. Voer in het veld **Kanaal** de naam van het gegevenskanaal in en in het veld **Omschrijving** een omschrijving.
-13. Selecteer de rechtspersoon in het veld **Bedrijf**. 
-14. Selecteer in het veld **Documentcontext** de nieuwe afgeleide configuratie van het **Contextmodel klantfactuur**. De toewijzingsbeschrijving moet **Context gegevenskanaal** zijn.
-15. Selecteer **Toevoegen** in de veldgroep **Bronnen importeren**.
-16. Voer in het veld **Naam** de **Filternaam bijlagen** in en selecteer in het veld **Naam gegevensentiteit** de **Koptekst leveranciersfactuur**.
-17. Selecteer in het veld **Modeltoewijzing** **Leveranciersfactuur imprt - Leveranciersfactuur importeren**.
-18. Klik op **Opslaan** en sluit vervolgens de pagina.
+12. Voer in het veld **Kanaal** **PEPPOL** in. Voer in het veld **Beschrijving** een beschrijving in.
+13. Selecteer de rechtspersoon in het veld **Bedrijf**. Selecteer in het veld **Documentcontext** de optie **Context klantfactuur - contextmodel klantfactuur**.
+14. Selecteer **Opslaan** en sluit de pagina.
 
 
 ## <a name="receive-electronic-invoices"></a>Elektronische facturen ontvangen
-
-De elektronische factureringsservice voert twee stappen uit tijdens het importeren van facturen vanuit de gegevenskanalen:
-
-1. Geeft toegang tot het postvak en e-mail lezen.
-2. Verwerkt de e-mails. 
-    
-Als u deze twee stappen wilt uitvoeren, moet de client de service voor elke stap handmatig aanroepen. Het is echter raadzaam een batch in te stellen voor de ontvangst van elektronische documenten.
-
 Voer de volgende stappen uit om elektronische facturen te ontvangen:
 
 1. Ga naar **Organisatiebeheer** > **Periodiek** > **Elektronische documenten** > **Elektronische documenten ontvangen**.
 2. Selecteer **OK** en sluit de pagina.
 
-
 ## <a name="view-receive-logs-for-electronic-invoices"></a>Ontvangstlogboeken voor elektronische facturen weergeven
 
 Als u de ontvangstlogboeken voor elektronische facturen wilt weergeven, gaat u naar **Organisatiebeheer** > **Periodiek** > **Elektronische documenten** > **Ontvangstlogboek elektronische documenten**.
-Als u geen facturen verwerkt ziet worden, verwijdert u het tabelfilter.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

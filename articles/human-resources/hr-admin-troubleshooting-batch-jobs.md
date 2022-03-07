@@ -2,29 +2,29 @@
 title: Prestaties optimaliseren door batchtaken na werktijd te plannen
 description: In dit onderwerp wordt uitgelegd hoe u prestatieproblemen met Microsoft Dynamics 365 Human Resources kunt oplossen door de batchtaken met een lange uitvoeringsduur na werktijd in te plannen.
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Human Resources
+ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-23
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 452a87cf5ba6c1ac73636584d75b2ec2ac555e02
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 92dd281ed718be5c7ebd843d015c108ee121f30a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527760"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794920"
 ---
 # <a name="optimize-performance-by-scheduling-batch-jobs-after-hours"></a>Prestaties optimaliseren door batchtaken na werktijd te plannen
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -65,3 +65,6 @@ De volgende batchtaken kunnen beter 's nachts of na werktijd worden uitgevoerd. 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Prestaties optimaliseren met automatische opschoningstaken](hr-admin-troubleshooting-batch-history.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

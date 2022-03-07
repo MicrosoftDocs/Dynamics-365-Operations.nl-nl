@@ -1,27 +1,25 @@
 ---
 title: Informatie voor projectresource instellen
 description: Deze procedure laat zien hoe u een projectresource instelt.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ResResourcesListPage, ResAddResourceForm, ProjCostPriceHour, ProjSalesPriceHour
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0906b7c92f8288adf834ccd33f0ca0df40cd4f44
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: db89c0eb7a8420e8cbbfa4185cdc2980a7772319bbba61941f369cafa7680d27
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017262"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755222"
 ---
 # <a name="set-up-project-resource-information"></a>Informatie voor projectresource instellen
 
@@ -51,3 +49,6 @@ Deze procedure laat zien hoe u een projectresource instelt. In deze taak wordt d
 20. Klik op Opslaan.
 21. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

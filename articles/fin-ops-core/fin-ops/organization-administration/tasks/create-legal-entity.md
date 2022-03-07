@@ -2,11 +2,9 @@
 title: Een rechtspersoon maken
 description: Een rechtspersoon is een organisatie die wordt geïdentificeerd via registratie bij een wettelijke instantie.
 author: sericks007
-manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMLegalEntity, OMNewLegalEntity
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6dc74291977d999218ebc66f72ee5b01b12827ed
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: c4801480ea22dd0edcc0efb42c50055730acc13e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796749"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747436"
 ---
 # <a name="create-a-legal-entity"></a>Een rechtspersoon maken
 
@@ -45,3 +43,6 @@ Een rechtspersoon is een organisatie die wordt geïdentificeerd via registratie 
 15. Vouw de sectie **Belastingregistratie** uit. Voer in de sectie **Belastingregistratie** de registratienummers in die worden gebruikt om te rapporteren aan de belastingdienst.
 16. Vouw de sectie **1099-belasting** uit. Voer in de **1099-belasting** 1099-gegevens voor de rechtspersoon in.  
 17. Klik op **Opslaan**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

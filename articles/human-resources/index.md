@@ -2,7 +2,7 @@
 title: Startpagina Human Resources
 description: Dynamics 365 Human Resources biedt de personeelsinzichten die u nodig hebt voor het bouwen van op gegevens gebaseerde personeelservaringen in meerdere gebieden.
 author: twheeloc
-ms.date: 08/03/2021
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,42 +17,81 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8674c228a1e624a79ae210dc6ad5c0f80741570f
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 18c0ea18ff8ec79501d39a93ad68aa8a706ad1fc
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075041"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394383"
 ---
 # <a name="human-resources-home-page"></a>Startpagina Human Resources
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
+Dynamics 365 Human Resources biedt de personeelsinzichten die u nodig hebt voor het bouwen van op gegevens gebaseerde personeelservaringen in meerdere gebieden, waaronder:
 
-Dit onderwerp bevat een lijst met de Help-onderwerpen en andere informatiebronnen in Dynamics 365 Human resources. 
-
-Selecteer een functiegebied voor meer informatie hierover.
-
-- [Selfservice werknemer](hr-employee-manager-self-service-overview.md)
-- [Personeelsbeheer](hr-personnel-departments-jobs-positions.md)
-- [Taakbeheer](hr-task-mgmt.md)
-- [Verlof en verzuim](hr-leave-and-absence-overview.md)
-- [Vergoedingen](hr-benefits-manage-program.md)
-- [Vergoedingenbeheer](hr-benefits-management-overview.md)
-- [Compensatiebeheer](hr-compensation-overview.md)
-- [Werknemerontwikkeling](hr-develop-performance-management-overview.md)
-- [Leren](hr-learning-courses.md)
-- [Werkstroomsysteem]( ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json)
+- Compensatie
+- Vergoedingen
+- Verlof en verzuim
+- Conformiteit
+- Salarisintegratie
+- Feedback over prestaties
+- Training en certificering
+- Selfserviceprogramma's
 
 Human Resources verbindt mensen en bedrijfsgegevens met elkaar om u te helpen uw personeelskosten te optimaliseren en voor uw werknemers te zorgen.
 
-## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
+## <a name="whats-new"></a>Nieuwe functies
 
-Ga voor informatie over Dynamics 365 Finance naar [Startpagina van Finance](../finance/index.md).
+[Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)
+
+## <a name="administrator-guide"></a>Beheerdershandleiding
+
+- [Overzicht](hr-admin-overview.md)</br>
+- [Systeemvereisten](hr-admin-system-requirements.md)</br>
+- [Exemplaren instellen en producten beheren](hr-admin-setup-provision.md)</br>
+- [Gegevensintegratie instellen](hr-admin-integration-choose-technology.md)</br>
+- [Gegevensbeheer configureren](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/human-resources/toc.json)</br>
+- [Functies beheren](hr-admin-manage-features.md)</br>
+- [De gebruikersinterface verkennen](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)</br>
+- [Human Resources-app in Teams](hr-admin-teams-leave-app.md)</br>
+- [Voorbereiden voor go-live](hr-admin-go-live-prepare.md)</br>
+- [Veelgestelde vragen over go-live](hr-admin-go-live-faq.md)</br>
+- [Documentatiebronnen](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)</br>
+- [Problemen met Human Resources oplossen](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
+
+## <a name="developer-guide"></a>Ontwikkelaarshandleiding
+
+- [Overzicht](hr-developer-overview.md)</br>
+- [Uitbreiden met Power Apps en Power Automate](hr-developer-power-apps.md)</br>
+- [Human Resources-entiteiten in Dataverse](hr-developer-entities.md)</br>
+- [Aangepaste velden](hr-developer-custom-fields.md)</br>
+- [Dataverse-tabellen](hr-developer-entities.md)</br>
+- [Gegevensintegratie instellen](hr-admin-integration-choose-technology.md)</br>
+- [Problemen met het ontwikkelen van virtuele Dataverse-tabellen oplossen](hr-developer-optimize-virtual-table-queries.md)</br>
+- [Verwijzing entiteits-API's](hr-developer-api-authentication.md)</br>
+- [API voor ATS-integratie](hr-admin-integration-ats-api-introduction.md)</br>
+- [API voor integratie van salarisadministratie](hr-admin-integration-payroll-api-introduction.md)
+
+## <a name="user-guide"></a>Gebruikershandleiding
+
+- [Overzicht](hr-hrpro-overview.md)</br>
+- [De gebruikersinterface verkennen](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)</br>
+- [Human Resources instellen](hr-setup-parameters.md)</br>
+- [Organisatie-instellingen configureren](../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json)</br>
+- [Personeel beheren](hr-personnel-departments-jobs-positions.md)</br>
+- [Compensatieplannen instellen](hr-compensation-overview.md)</br>
+- [Vergoedingen beheren](hr-benefits-management-overview.md)</br>
+- [Verlof en verzuim beheren](hr-leave-and-absence-overview.md)</br>
+- [Verlofaanvragen beheren in Teams](hr-teams-leave-app.md)</br>
+- [Werknemers ontwikkelen](hr-develop-performance-management-overview.md)</br>
+- [Cursussen maken](hr-learning-courses.md)</br>
+- [Selfservice werknemer en Selfservice manager instellen](hr-employee-manager-self-service-overview.md)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 ### <a name="elearning-courses"></a>eLearning-cursussen
-Zie [Dynamics 365 Human Resources op Microsoft Learn](/learn/browse/?products=dynamics-human-resources&expanded=dynamics-365) voor informatie over online cursussen en training.
+Zie [Dynamics 365 Human Resources op Microsoft Learn](//learn/browse/?products=dynamics-human-resources&expanded=dynamics-365) voor informatie over online cursussen en training.
 
 ### <a name="videos"></a>Video's
 

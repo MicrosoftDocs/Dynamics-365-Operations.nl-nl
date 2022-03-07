@@ -2,28 +2,25 @@
 title: Kredietbrieven en importincasso´s
 description: Dit artikel geeft algemene informatie over kredietbrieven en importincasso's. Beide typen bankdocumenten worden vaak gebruikt voor de inkoop en verkoop van goederen in binnen- en buitenland.
 author: panolte
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 18321
 ms.assetid: 5c97ab81-632b-4043-a940-674bcb496c80
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c31b8af25ea231f23ac5f4968760257b3f5894f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2673ecb09cd479eb10182a4345fe89d8f6b8d404
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441978"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188459"
 ---
 # <a name="letters-of-credit-and-import-collections"></a>Kredietbrieven en importincasso´s
 
@@ -31,8 +28,7 @@ ms.locfileid: "4441978"
 
 Dit artikel geeft algemene informatie over kredietbrieven en importincasso's. Beide typen bankdocumenten worden vaak gebruikt voor de inkoop en verkoop van goederen in binnen- en buitenland.
 
-<a name="letters-of-credit"></a>Kredietbrieven
------------------
+## <a name="letters-of-credit"></a>Kredietbrieven
 
 Kredietbrieven worden voor internationale transacties gebruikt en helpen te garanderen dat betalingen worden uitgevoerd. Een kredietbrief is een overeenkomst die door een bank wordt uitgegeven, waarin de bank akkoord gaat om namens een koper de betaling te garanderen, mits aan de voorwaarden van de overeenkomst tussen de koper en verkoper is voldaan. Naar een kredietbrief wordt ook verwezen als een documentair krediet.
 
@@ -54,3 +50,6 @@ Een importincasso helpt te waarborgen dat de verkoper wordt betaald wanneer de k
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

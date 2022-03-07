@@ -15,16 +15,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2021-08-12
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 1a8eebb589372051272573895a0ae5b4203eef62
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 3134e10c096525ec2d82365a25eff16a3c5d5e11
+ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109776"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7472591"
 ---
 # <a name="countryregion-picker-module"></a>Module Land-/regioselectie
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Dit onderwerp gaat over de module voor land-/regioselectie en beschrijft hoe u deze configureert in Microsoft Dynamics 365 Commerce.
 
@@ -74,9 +75,5 @@ Volg deze stappen in Commerce Site Builder voor elke URL die u wilt weergegeven 
 [Overzicht van modulebibliotheek](starter-kit-overview.md)
 
 [Koptekstmodule](author-header-module.md)
-
-[Siteselectiemodule](site-selector.md)
-
-[Breadcrumb-module](add-breadcrumb.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

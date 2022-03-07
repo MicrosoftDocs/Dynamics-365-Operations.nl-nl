@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15761
 ms.assetid: 1362297b-7a51-4930-b822-2b204a2e3c37
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c3bca9d0a7c37716f2334b36d8a948908f52293
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f6e7aa7bde493a1527b3c953e0ff2c6ce61df4c9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442013"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249018"
 ---
 # <a name="intercompany-accounting-setup"></a>Intercompany-boekhouding instellen
 
@@ -50,3 +49,6 @@ Een wederkerige relatie kan eenvoudig worden ingesteld op de pagina **Intercompa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Lean tracering van de behoefte vanuit verkooporders
 description: Deze procedure is gericht op het valideren van de behoeftetraceringsstructuur van een verkoopregel waarin het artikel met kanbans wordt geproduceerd.
-author: johanhoffmann
+author: ChristianRytt
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8eca21f8bd988ca352c07e839295b3edd9669929
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ff57169ea58a90d1113bb7ef0a581f900e62a9b2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580619"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828557"
 ---
 # <a name="lean-pegging-from-sales-orders"></a>Lean tracering van de behoefte vanuit verkooporders
 

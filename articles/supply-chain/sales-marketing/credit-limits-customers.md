@@ -1,24 +1,26 @@
 ---
 title: Kredietlimieten voor klanten
 description: Dit artikel geeft een overzicht van de werking van kredietlimieten in Dynamics 365 Supply Chain Management.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 09/15/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e3476f1f25ac01d8740cce0442ac48ef25101a0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e93716742c3777d7e2164784aa0e5f91e2b80f16
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574300"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205317"
 ---
 # <a name="credit-limits-for-customers"></a>Kredietlimieten voor klanten
 
@@ -90,7 +92,7 @@ Gebruik het formulier **Parameters van module Klanten** om de vergelijkingsinfor
 
 **Waar vindt u informatie over het resterende krediet van een klant?**
 
-Informatie over het saldo en het resterende kredietbedrag van de klant wordt berekend en opgeslagen wanneer u een ouderdomsmomentopname maakt, en wordt weergegeven in het formulier **Aanmaningen**. De bedragen in het formulier **Aanmaningen** bevatten mogelijk niet alle transactieactiviteiten totdat een nieuwe ouderdomsmomentopname wordt gemaakt. Zie [Aanmaningen en crediteringen in Klanten](/dynamicsax-2012/appuser-itpro/collections-and-credit-in-accounts-receivable) voor meer informatie.
+Informatie over het saldo en het resterende kredietbedrag van de klant wordt berekend en opgeslagen wanneer u een ouderdomsmomentopname maakt, en wordt weergegeven in het formulier **Aanmaningen**. De bedragen in het formulier **Aanmaningen** bevatten mogelijk niet alle transactieactiviteiten totdat een nieuwe ouderdomsmomentopname wordt gemaakt. Zie [Aanmaningen en crediteringen in Klanten](https://technet.microsoft.com/library/hh209221.aspx) voor meer informatie.
 
 Informatie over het saldo en het resterende kredietbedrag van de klant wordt afhankelijk van de geselecteerde documenten berekend wanneer verkooporders, pakbonnen en klantfacturen worden bijgewerkt. Als het bedrag van het document waarin u werkt de kredietlimiet overschrijdt, wordt een bericht weergegeven.
 

@@ -1,24 +1,26 @@
 ---
 title: Producten voor tweeërlei gebruik
 description: In dit onderwerp wordt uitgelegd hoe u producten kunt bijhouden die zijn geïdentificeerd als producten voor tweeërlei gebruik. U kunt certificaatnummers opslaan voor elk relevant product en land van bestemming en geldige certificaatnummers afdrukken op relevante facturen, pakbonnen en/of verkooporders.
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: COODualUseCerts, COORules, COODualUseCountries
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 21910c61cc330e0c9292990b7b1914f56bac844c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: a6cc730f8d672d906072a9b97b737dbdea9faf2d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570748"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243196"
 ---
 # <a name="dual-use-goods"></a>Producten voor tweeërlei gebruik
 

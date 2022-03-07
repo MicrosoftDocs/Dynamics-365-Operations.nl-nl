@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3481
 ms.assetid: d4e73a3f-633b-48b2-b8db-7a4a59a4d7ec
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b07fdf6e5f4afa4f6df84138c809e402b7944dfb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3ccdcef6858c4b7badd48e8a90cef97c25824223
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441937"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257604"
 ---
 # <a name="acquire-assets-through-procurement"></a>Activa aanschaffen via inkoop
 
@@ -109,3 +108,6 @@ Zie [Integratie vaste activa](fixed-asset-integration.md) voor meer informatie.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

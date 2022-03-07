@@ -2,16 +2,13 @@
 title: Kortingen weergeven in POS
 description: In dit onderwerp wordt uitgelegd hoe Microsoft Dynamics 365 Commerce verkoopmedewerkers helpt met informatie over promoties en hoe deze kunnen worden gebruikt voor meerverkoop/bijverkoop.
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 07/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-Commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 7531e250580019a1e9892d22fc7761770227c61f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9e3fa5030cb684c01153d255ca2bd34d9be7dc9945f0c7ec26985cf74540b73d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411381"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731662"
 ---
 # <a name="show-discounts-in-pos"></a>Kortingen weergeven in POS
 
@@ -36,7 +33,7 @@ Promoties spelen een belangrijke rol bij het motiveren van klanten die inkoopbes
 
 Commerce bevat een bewerking met de naam "Alle kortingen weergeven". Met deze bewerking worden alle kortingen weergegeven die momenteel van toepassing zijn in een winkel. De bewerking Alle kortingen weergeven kan worden toegewezen aan een knop op het verkooppunt (POS). Deze knop kan worden toegevoegd aan de **Welkomstpagina** of de **Transactiepagina**. In de volgende afbeelding ziet u een voorbeeld van de geopende pagina **Alle kortingen**.
 
-![Pagina Alle kortingen](./media/View_all_discounts.png "Pagina Alle kortingen")
+![Pagina Alle kortingen.](./media/View_all_discounts.png "Pagina Alle kortingen")
 
 Voor het weergeven van kortingen wordt gezocht naar alle kortingen die overeenkomen met een of meer van de volgende voorwaarden:
 
@@ -64,8 +61,11 @@ De volgende illustraties tonen de logica die bepaalt welke kortingen worden weer
 
 In de volgende afbeelding wordt de logica weergegeven die wordt gebruikt wanneer het gelijktijdigheidsbeheer voor de korting is ingesteld op **Beste prijs en samengesteld binnen de prioriteit, altijd samengesteld voor alle prioriteiten**.
 
-![Logica voor de beste prijs en samengesteld binnen de prioriteit, nooit samengesteld voor alle prioriteiten](./media/Model_1.png "Logica voor de beste prijs en samengesteld binnen de prioriteit, nooit samengesteld voor alle prioriteiten").
+![Logica voor de beste prijs en samengesteld binnen de prioriteit, nooit samengesteld voor alle prioriteiten.](./media/Model_1.png "Logica voor de beste prijs en samengesteld binnen de prioriteit, nooit samengesteld voor alle prioriteiten").
 
 In de volgende afbeelding wordt de logica weergegeven die wordt gebruikt wanneer het gelijktijdigheidsbeheer voor de korting is ingesteld op **Beste prijs alleen binnen de prioriteit, altijd samengesteld op basis van prioriteit**.
 
-![Logica voor de beste prijs alleen binnen de prioriteit, altijd samengesteld op basis van prioriteit](./media/Model_2.png "Logica voor de beste prijs alleen binnen de prioriteit, altijd samengesteld op basis van prioriteit").
+![Logica voor de beste prijs alleen binnen de prioriteit, altijd samengesteld op basis van prioriteit.](./media/Model_2.png "Logica voor de beste prijs alleen binnen de prioriteit, altijd samengesteld op basis van prioriteit").
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

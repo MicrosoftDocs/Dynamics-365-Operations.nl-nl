@@ -1,25 +1,23 @@
 ---
 title: Een hiërarchie van aanschaffingscategorieën instellen
 description: Deze procedure laat zien hoe u nieuwe knooppunten in een hiërarchie van aanschaffingscategorieën maakt en hoe u een aanschaffingscategorie configureert die in een aanschaffingsproces moet worden gebruikt.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb37b2761708770b82f23cfbed86248d30a59410
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 44350272aa1cd9f80bf3a408c36cd627318fde0c3e1e8c148a6b6467ebb8d525
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017311"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751884"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Een hiërarchie van aanschaffingscategorieën instellen
 
@@ -44,3 +42,6 @@ Deze procedure laat zien hoe u nieuwe knooppunten in een hiërarchie van aanscha
 4. Selecteer de producten die u wilt toevoegen aan de aanschaffingscategorie.
 5. Selecteer de pijl om de producten aan de tabel **Geselecteerd** toe te voegen.
 6. Selecteer **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,9 +1,9 @@
 ---
-title: Virtuele Common Data Service-entiteiten configureren
-description: In dit onderwerp wordt beschreven hoe u virtuele entiteiten configureert voor Dynamics 365 Human Resources. Genereer bestaande virtuele entiteiten, werk ze bij en analyseer gegenereerde en beschikbare entiteiten.
+title: Virtuele Dataverse-tabellen configureren
+description: In dit onderwerp wordt beschreven hoe u virtuele tabellen configureert voor Dynamics 365 Human Resources. Genereer bestaande virtuele tabellen, werk ze bij en analyseer gegenereerde en beschikbare tabellen.
 author: andreabichsel
 manager: tfehr
-ms.date: 11/02/2020
+ms.date: 01/25/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,49 +18,54 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2b590faeab600d04c9d5303693ec1e9ac682250d
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: cd299b51e38cc30c3e18f3ef9de1f43fa817b840
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645596"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112123"
 ---
-# <a name="configure-common-data-service-virtual-entities"></a>Virtuele Common Data Service-entiteiten configureren
+# <a name="configure-dataverse-virtual-tables"></a>Virtuele Dataverse-tabellen configureren
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Human Resources is een virtuele gegevensbron in Common Data Service. De gegevensbron biedt volledige bewerkingen voor maken, lezen, bijwerken en verwijderen vanuit Common Data Service en Microsoft Power Platform. De gegevens voor virtuele entiteiten worden niet opgeslagen in Common Data Service, maar in de toepassingsdatabase. 
+Dynamics 365 Human Resources is een virtuele gegevensbron in Microsoft Dataverse. De gegevensbron biedt volledige bewerkingen voor maken, lezen, bijwerken en verwijderen vanuit Dataverse en Microsoft Power Platform. De gegevens voor virtuele tabellen worden niet opgeslagen in Dataverse, maar in de toepassingsdatabase.
 
-Als u bewerkingen voor maken, lezen, bijwerken en verwijderen voor entiteiten van Human Resources wilt inschakelen vanuit Common Data Service, moet u de entiteiten beschikbaar maken als virtuele entiteiten in Common Data Service. Op deze manier kunt u bewerkingen voor maken, lezen, bijwerken en verwijderen uitvoeren vanuit Common Data Service en Microsoft Power Platform op gegevens in Human Resources. De bewerkingen ondersteunen ook de validaties van de volledige bedrijfslogica van Human Resources om de gegevensintegriteit te waarborgen bij het schrijven van gegevens naar de entiteiten.
-
-## <a name="available-virtual-entities-for-human-resources"></a>Beschikbare virtuele entiteiten voor Human Resources
-
-Alle OData-entiteiten (Open Data Protocol) in Human Resources zijn beschikbaar als virtuele entiteiten in Common Data Service. Ze zijn ook beschikbaar in Power Platform. U kunt nu apps en ervaringen met gegevens rechtstreeks vanuit Human Resources maken met alle mogelijkheden voor maken, lezen, bijwerken en verwijderen, zonder dat u gegevens hoeft te kopiëren of synchroniseren naar Common Data Service. U kunt Power Apps-portals gebruiken om extern gerichte websites te maken die samenwerkingsscenario's mogelijk maken voor bedrijfsprocessen in Human Resources.
-
-U kunt de lijst met virtuele entiteiten die in de omgeving zijn ingeschakeld, weergeven en in [Power Apps](https://make.powerapps.com) met de entiteiten gaan werken in de oplossing **Dynamics 365 HR Virtual Entities**.
-
-![Dynamics 365 HR Virtual Entities in Power Apps](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
-
-## <a name="virtual-entities-versus-natural-entities"></a>Virtuele entiteiten versus natuurlijke entiteiten
-
-Virtuele entiteiten voor Human Resources zijn niet hetzelfde als de natuurlijke Common Data Service-entiteiten die voor Human Resources zijn gemaakt. De natuurlijke entiteiten voor Human Resources worden afzonderlijk gegenereerd en onderhouden in de HCM Common-oplossing in Common Data Service. Met natuurlijke entiteiten worden de gegevens opgeslagen in Common Data Service en is synchronisatie met de Human Resources-toepassingdatabase vereist.
+Als u bewerkingen voor maken, lezen, bijwerken en verwijderen voor entiteiten van Human Resources wilt inschakelen vanuit Dataverse, moet u de entiteiten beschikbaar maken als virtuele tabellen in Dataverse. Op deze manier kunt u bewerkingen voor maken, lezen, bijwerken en verwijderen uitvoeren vanuit Dataverse en Microsoft Power Platform op gegevens in Human Resources. De bewerkingen ondersteunen ook de validaties van de volledige bedrijfslogica van Human Resources om de gegevensintegriteit te waarborgen bij het schrijven van gegevens naar de entiteiten.
 
 > [!NOTE]
-> Zie [Common Data Service-entiteiten](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities) voor een lijst met de natuurlijke Common Data Service-entiteiten voor Human Resources.
+> Human Resources-entiteiten komen overeen met Dataverse-tabellen. Voor meer informatie over Dataverse (voorheen Common Data Service) en bijgewerkte terminologie, zie [Wat is Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+
+## <a name="available-virtual-tables-for-human-resources"></a>Beschikbare virtuele tabellen voor Human Resources
+
+Alle OData-entiteiten (Open Data Protocol) in Human Resources zijn beschikbaar als virtuele tabellen in Dataverse. Ze zijn ook beschikbaar in Power Platform. U kunt nu apps en ervaringen met gegevens rechtstreeks vanuit Human Resources maken met alle mogelijkheden voor maken, lezen, bijwerken en verwijderen, zonder dat u gegevens hoeft te kopiëren of synchroniseren naar Dataverse. U kunt Power Apps-portals gebruiken om extern gerichte websites te maken die samenwerkingsscenario's mogelijk maken voor bedrijfsprocessen in Human Resources.
+
+U kunt de lijst met virtuele tabellen die in de omgeving zijn ingeschakeld, weergeven en in [Power Apps](https://make.powerapps.com) met de tabellen gaan werken in de oplossing **Dynamics 365 HR Virtual Tables**.
+
+![Dynamics 365 HR Virtual Tables in Power Apps](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
+
+## <a name="virtual-tables-versus-native-tables"></a>Virtuele tabellen versus native tabellen
+
+Virtuele tabellen voor Human Resources zijn niet hetzelfde als de native Dataverse-tabellen die voor Human Resources zijn gemaakt. 
+
+De native tabellen voor Human Resources worden afzonderlijk gegenereerd en onderhouden in de HCM Common-oplossing in Dataverse. Met native tabellen worden de gegevens opgeslagen in Dataverse en is synchronisatie met de Human Resources-toepassingdatabase vereist.
+
+> [!NOTE]
+> Zie [Dataverse-tabellen](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities) voor een lijst met de native Dataverse-tabellen voor Human Resources.
 
 ## <a name="setup"></a>Instelling
 
-Volg deze instellingsstappen om virtuele entiteiten in uw omgeving in te schakelen.
+Volg deze instellingsstappen om virtuele tabellen in uw omgeving in te schakelen.
 
-### <a name="enable-virtual-entities-in-human-resources"></a>Virtuele entiteiten in Human Resources inschakelen
+### <a name="enable-virtual-tables-in-human-resources"></a>Virtuele tabellen in Human Resources inschakelen
 
-Eerst moet u virtuele entiteiten inschakelen in de werkruimte **Functiebeheer**.
+Eerst moet u virtuele tabellen inschakelen in de werkruimte **Functiebeheer**.
 
 1. Selecteer in Human Resources de optie **Systeembeheer**.
 
 2. Selecteer de tegel **Functiebeheer**.
 
-3. Selecteer **Ondersteuning van virtuele entiteit in HR/CDS** en selecteer **Inschakelen**.
+3. Selecteer **Ondersteuning van virtuele tabellen voor HR in Dataverse** en selecteer **Inschakelen**.
 
 Zie [Functies beheren](hr-admin-manage-features.md) voor meer informatie over het in- en uitschakelen van previewfuncties.
 
@@ -74,13 +79,13 @@ U moet uw Human Resources-exemplaar registreren in de Azure-portal, zodat het Mi
 
 3. Selecteer **Nieuwe registratie**.
 
-4. Voer in het veld **Naam** een beschrijvende naam voor de app in. Bijvoorbeeld, **Dynamics 365 Human Resources Virtuele entiteiten**.
+4. Voer in het veld **Naam** een beschrijvende naam voor de app in. Bijvoorbeeld, **Dynamics 365 Human Resources Virtuele tabellen**.
 
 5. Voer in het veld **URI omleiden** de naamruimte-URL in van uw instantie van Human Resources.
 
 6. Selecteer **Registreren**.
 
-7. Wanneer de registratie is voltooid, wordt in de Azure-portal het deelvenster **Overzicht** van de app-registratie weergegeven met de bijbehorende **Id van toepassing (client)**. Maak nu een notitie van de **Id van toepassing (client)**. U voert deze gegevens in wanneer u [de gegevensbron van de virtuele entiteit configureert](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source).
+7. Wanneer de registratie is voltooid, wordt in de Azure-portal het deelvenster **Overzicht** van de app-registratie weergegeven met de bijbehorende **Id van toepassing (client)**. Maak nu een notitie van de **Id van toepassing (client)**. U voert deze gegevens in wanneer u [de gegevensbron van de virtuele tabel configureert](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
 
 8. Selecteer in het linkernavigatievenster de optie **Certificaten en geheimen**.
 
@@ -88,14 +93,14 @@ U moet uw Human Resources-exemplaar registreren in de Azure-portal, zodat het Mi
 
 10. Geef een omschrijving op, selecteer een duur en selecteer **Toevoegen**.
 
-11. Leg de waarde van het geheim vast. U voert deze gegevens in wanneer u [de gegevensbron van de virtuele entiteit configureert](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source).
+11. Leg de waarde van het geheim vast. U voert deze gegevens in wanneer u [de gegevensbron van de virtuele tabel configureert](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
 
     > [!IMPORTANT]
     > Maak nu een notitie van de waarde van het geheim. Het geheim wordt nooit meer weergegeven nadat u deze pagina hebt verlaten.
 
-### <a name="install-the-dynamics-365-hr-virtual-entity-app"></a>De Dynamics 365 HR Virtual Entity-app installeren
+### <a name="install-the-dynamics-365-hr-virtual-table-app"></a>De Dynamics 365 HR Virtual Table-app installeren
 
-Installeer de Dynamics 365 HR Virtual Entity-app in uw Power Apps-omgeving om het pakket van de virtuele entiteit te implementeren naar Common Data Service.
+Installeer de Dynamics 365 HR Virtual Table-app in uw Power Apps-omgeving om het pakket van de virtuele tabel te implementeren naar Dataverse.
 
 1. Open het [Power Platform-beheercentrum](https://admin.powerplatform.microsoft.com).
 
@@ -105,7 +110,7 @@ Installeer de Dynamics 365 HR Virtual Entity-app in uw Power Apps-omgeving om he
 
 4. Selecteer de actie **App installeren**.
 
-5. Selecteer **Dynamics 365 HR Virtual Entity** en selecteer **Volgende**.
+5. Selecteer **Dynamics 365 HR Virtual Table** en selecteer **Volgende**.
 
 6. Controleer en markeer om de servicevoorwaarden te accepteren.
 
@@ -113,11 +118,11 @@ Installeer de Dynamics 365 HR Virtual Entity-app in uw Power Apps-omgeving om he
 
 De installatie duurt een paar minuten. Wanneer de installatie is voltooid, gaat u door naar de volgende stappen.
 
-![De Dynamics 365 HR Virtual Entity-app installeren vanuit het Power Platform-beheercentrum](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
+![De Dynamics 365 HR Virtual Table-app installeren vanuit het Power Platform-beheercentrum](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
 
-### <a name="configure-the-virtual-entity-data-source"></a>De gegevensbron van de virtuele entiteit configureren 
+### <a name="configure-the-virtual-table-data-source"></a>De gegevensbron van de virtuele tabel configureren 
 
-In de volgende stap configureert u de gegevensbron van de virtuele entiteit in de Power Apps-omgeving. 
+In de volgende stap configureert u de gegevensbron van de virtuele tabel in de Power Apps-omgeving. 
 
 1. Open het [Power Platform-beheercentrum](https://admin.powerplatform.microsoft.com).
 
@@ -161,7 +166,7 @@ In de volgende stap configureert u de gegevensbron van de virtuele entiteit in d
 Verleen als volgt machtigingen voor de twee Azure AD-toepassingen in Human Resources:
 
 - De app die is gemaakt voor uw tenant in de Microsoft Azure-portal
-- De Dynamics 365 HR Virtual Entity-app die is geïnstalleerd in de Power Apps-omgeving 
+- De Dynamics 365 HR Virtual Table-app die is geïnstalleerd in de Power Apps-omgeving 
 
 1. Open in Human Resources de pagina **Azure Active Directory-toepassingen**.
 
@@ -174,45 +179,45 @@ Verleen als volgt machtigingen voor de twee Azure AD-toepassingen in Human Resou
 3. Selecteer **Nieuw** om een tweede toepassingsrecord te maken.
 
     - **Client-id**: f9be0c49-aa22-4ec6-911a-c5da515226ff
-    - **Naam**: Dynamics 365 HR Virtual Entity
+    - **Naam**: Dynamics 365 HR Virtual Table
     - Selecteer in het veld **Gebruikers-id** de gebruikers-id van een gebruiker met beheerdersmachtigingen in Human Resources en de Power Apps-omgeving.
 
-## <a name="generate-virtual-entities"></a>Virtuele entiteiten genereren
+## <a name="generate-virtual-tables"></a>Virtuele tabellen genereren
 
-Wanneer het instellen is voltooid, kunt u de virtuele entiteiten selecteren die u in uw Common Data Service-exemplaar wilt genereren en inschakelen.
+Wanneer het instellen is voltooid, kunt u de virtuele tabellen selecteren die u in uw Dataverse-exemplaar wilt genereren en inschakelen.
 
-1. Open in Human Resources de pagina **Integratie met Common Data Service (CDS)**.
+1. Open in Human Resources de pagina **Integratie met Dataverse**.
 
-2. Selecteer het tabblad **Virtuele entiteiten**.
+2. Selecteer het tabblad **Virtuele tabellen**.
 
 > [!NOTE]
-> De wisselknop **De virtuele entiteit inschakelen** wordt automatisch ingesteld op **Ja** als alle vereiste instellingen zijn voltooid. Als de wisselknop is ingesteld op **Nee**, controleert u de stappen in vorige secties van dit document om ervoor te zorgen dat alle vereiste instellingen worden voltooid.
+> De wisselknop **Virtuele tabellen inschakelen** wordt automatisch ingesteld op **Ja** als alle vereiste instellingen zijn voltooid. Als de wisselknop is ingesteld op **Nee**, controleert u de stappen in vorige secties van dit document om ervoor te zorgen dat alle vereiste instellingen worden voltooid.
 
-3. Selecteer de entiteit of entiteiten die u wilt genereren in Common Data Service.
+3. Selecteer de tabel of tabellen die u wilt genereren in Dataverse.
 
 4. Selecteer **Genereren/vernieuwen**.
 
-![Integratie met Common Data Service](./media/hr-admin-integration-common-data-service-integration.jpg)
+![Integratie met Dataverse](./media/hr-admin-integration-common-data-service-integration.jpg)
 
-## <a name="check-entity-generation-status"></a>Status van het genereren van entiteiten controleren
+## <a name="check-table-generation-status"></a>Status van het genereren van tabellen controleren
 
-Virtuele entiteiten worden gegenereerd in Common Data Service via een asynchroon achtergrondproces. Updates in de procesweergave in het actiecentrum. Details over het proces, waaronder foutlogboeken, worden weergegeven op de pagina **Procesautomatiseringen**.
+Virtuele tabellen worden gegenereerd in Dataverse via een asynchroon achtergrondproces. Updates in de procesweergave in het actiecentrum. Details over het proces, waaronder foutlogboeken, worden weergegeven op de pagina **Procesautomatiseringen**.
 
 1. Open in Human Resources de pagina **Procesautomatiseringen**.
 
 2. Selecteer het tabblad **Achtergrondprocessen**.
 
-3. Selecteer **Achtergrondproces voor asynchrone bewerking van controle van virtuele entiteit**.
+3. Selecteer **Achtergrondproces voor asynchrone bewerking van controle van virtuele tabel**.
 
 4. Selecteer **Meest recente resultaten weergeven**.
 
-In het uitschuifvenster worden de meest recente uitvoeringsresultaten voor het proces weergegeven. U kunt het logboek voor het proces weergeven, inclusief eventuele fouten die worden geretourneerd van Common Data Service.
+In het uitschuifvenster worden de meest recente uitvoeringsresultaten voor het proces weergegeven. U kunt het logboek voor het proces weergeven, inclusief eventuele fouten die worden geretourneerd van Dataverse.
 
 ## <a name="see-also"></a>Zie ook
 
-[Wat is Common Data Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
-[Overzicht van entiteiten](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
-[Overzicht van entiteitsrelaties](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
-[Virtuele entiteiten maken en bewerken die gegevens uit een externe gegevensbron bevatten](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
+[Wat is Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
+[Tabellen in Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
+[Overzicht van tabelrelaties](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
+[Virtuele tabellen maken en bewerken die gegevens uit een externe gegevensbron bevatten](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
 [Wat zijn Power Apps-portals?](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
 [Overzicht van het maken van apps in Power Apps](https://docs.microsoft.com/powerapps/maker/)

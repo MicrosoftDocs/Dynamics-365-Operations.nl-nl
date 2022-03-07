@@ -2,8 +2,11 @@
 title: De ER-functie INDEX
 description: Dit onderwerp biedt informatie over het gebruik van de ER-functie (Elektronische rapportage) INDEX.
 author: NickSelin
-ms.date: 05/20/2021
+manager: kfend
+ms.date: 12/12/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e68f1690d6f852b0db560ef67a36fbde9e099715942a4b8a6e486d759af46682
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a49def8aaa5398fbc7e0f06cc26df8a745207c93
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755774"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687986"
 ---
 # <a name="index-er-function"></a>De ER-functie INDEX
 
@@ -43,9 +46,6 @@ Het geldige pad van een gegevensbron van het gegevenstype *Recordlijst*.
 
 Een numerieke index die de positie van de gewenste record in de opgegeven lijst aangeeft.
 
-> [!NOTE]
-> Omdat nummering op basis van één wordt gebruikt voor deze functie, geeft u de waarde **1** op om de eerste record in de opgegeven lijst te retourneren.
-
 ## <a name="return-values"></a>Retourwaarden
 
 *Container (record)*
@@ -63,6 +63,3 @@ Als u de gegevensbron **DS** van het type *Berekend veld* invoert en deze de exp
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Lijstfuncties](er-functions-category-list.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

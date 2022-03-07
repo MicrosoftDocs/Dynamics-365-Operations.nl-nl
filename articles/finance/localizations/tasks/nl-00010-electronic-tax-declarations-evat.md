@@ -2,11 +2,9 @@
 title: NL-00010 Elektronische belastingaangiften (EVAT)
 description: Deze procedure begeleidt u door het instellen van een elektronische belastingaangifte voor Nederland.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxEvatParameters_NL
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Netherlands
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 011019689e7a9daf6e91c3e81bb69cb9e911c7dd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 662a365f1cb2ec79f12409f1dccaf85b8ad30b9df0aa99d9f6c968b57f236be0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968307"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779343"
 ---
 # <a name="nl-00010-electronic-tax-declarations-evat"></a>NL-00010 Elektronische belastingaangiften (EVAT)
 
@@ -53,3 +51,6 @@ Deze functionaliteit is beschikbaar voor rechtspersonen waarvan het primaire adr
 16. Zoek en selecteer de gewenste record in de lijst.
 17. Typ of selecteer een waarde in het veld Nummerreekscode.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

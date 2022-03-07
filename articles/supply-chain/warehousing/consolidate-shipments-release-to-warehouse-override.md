@@ -1,28 +1,26 @@
 ---
-title: Zendingen consolideren wanneer het consolidatiebeleid voor zendingen wordt overschreven via de pagina Vrijgave naar magazijn
+title: Zendingen consolideren wanneer het consolidatiebeleid voor zendingen wordt overschreven
 description: In dit onderwerp wordt een scenario weergegeven waarbij een of meer verkoopregels handmatig naar het magazijn moeten worden vrijgegeven via de pagina Vrijgave naar magazijn. Het door het systeem gedefinieerde consolidatiebeleid voor zendingen moet worden overschreven vóór de vrijgave.
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, WHSShipConsolidationSetShipment, WHSShipmentConsolidation, WHSFilterGenerallyAvail, WHSReleaseToWarehouse
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 4aaaa7949d988607b38dd6e38a3c3497f227b8af
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 606f370277b67a65612d81916f4fcc93ca47224e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963330"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574180"
 ---
-# <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden-from-the-release-to-warehouse-page"></a>Zendingen consolideren wanneer het consolidatiebeleid voor zendingen wordt overschreven via de pagina Vrijgave naar magazijn
+# <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden"></a>Zendingen consolideren wanneer het consolidatiebeleid voor zendingen wordt overschreven
 
 [!include [banner](../includes/banner.md)]
 
@@ -83,3 +81,6 @@ Volg deze stappen om de gemaakte zendingen te controleren.
 
 - [Beleidsregels voor consolidatie van zendingen](about-shipment-consolidation-policies.md)
 - [Consolidatiebeleid voor zendingen configureren](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

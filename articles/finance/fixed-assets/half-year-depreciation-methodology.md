@@ -2,28 +2,25 @@
 title: Methodologie van afschrijvingsconventie van een half jaar
 description: In dit onderwerp wordt beschreven welke methode voor vaste activa wordt gebruikt om de afschrijving te berekenen op basis van de conventie van een half jaar, waarmee zes maanden van afschrijving wordt berekend tijdens het eerste en laatste jaar van gebruik van het activum.
 author: moaamer
-manager: Ann Beebe
 ms.date: 08/17/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 55fb03cf08d8ec042aa8fb37fd1fb858d98279b1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d0e33128c37e970ebf5af87bd601ae30aef96952
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441824"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818578"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>Methodologie van afschrijvingsconventie van een half jaar
 
@@ -42,3 +39,6 @@ Het eerste jaar wordt afgesloten in december 2020, wat betekent dat het einde va
    [![Afschrijvingsschema voor afschrijvingsconventie van half jaar](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 De uitgebreide afschrijvingsperioden die door de conventie van een half jaar worden toegevoegd, bieden een meer nauwkeurige toewijzing van afschrijving. De conventie van zes maanden resulteert in gelijkmatigere afschrijvingskosten, wat handig is voor rapportage over winst- en verliesrekening.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,13 @@
 title: Opdrachten tot inkoop
 description: In dit onderwerp wordt beschreven hoe opdrachten tot inkoop worden ondersteund in Planningsoptimalisatie.
 author: ChristianRytt
+manager: tfehr
 ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ReqPlanSched, ReqGroup
+ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -16,18 +18,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 1d6fd4be0ee1913264c4a565234cfdf711365792
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8075f8d7c3868c6d6012edbce17dbbb4749209ab
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570859"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992339"
 ---
 # <a name="purchase-requisitions"></a>Opdrachten tot inkoop
 
-[!include [banner](../../includes/banner.md)]
-
-Via de hoofdplanning kunnen goedgekeurde opdrachten tot inkoop worden aangevuld. Daarom hoeven gebruikers voor het uitvoeren van opdrachten tot inkoop geen werkstroom te gebruiken om inkooporders te maken. In plaats daarvan kunnen opdrachten tot inkoop worden uitgevoerd door de hoofdplanning. Dankzij deze functionaliteit kan een opdracht tot inkoop een inkooporder, een overboekingsorder of een productieorder produceren, afhankelijk van de waarde van het **Geplande ordertype** die is ingesteld voor het gerelateerde product.
+Via de hoofdplanning kunnen goedgekeurde opdrachten tot inkoop worden aangevuld. Daarom hoeven gebruikers voor het uitvoeren van opdrachten tot inkoop geen werkstroom te gebruiken om inkooporders te maken. In plaats daarvan kunnen opdrachten tot inkoop worden uitgevoerd door de hoofdplanning. Dankzij deze functionaliteit kan een opdracht tot inkoop een inkooporder, een transferorder of een productieorder produceren, afhankelijk van de waarde van het **Geplande ordertype** die is ingesteld voor het gerelateerde product.
 
 ## <a name="enable-master-plans-to-include-requisitions"></a>Hoofdplannen inschakelen om opdrachten tot inkoop op te nemen
 
@@ -44,7 +44,7 @@ Met de *time fence goedgekeurde bestelaanvragen* legt u vast hoe ver terug (in d
 
 ### <a name="set-the-approved-requisitions-time-fence-for-a-coverage-group"></a>De time fence voor goedgekeurde bestelaanvragen voor een behoefteplanningsgroep instellen
 
-1. Ga naar **Hoofdplanning** \> **Instellen** \> **Behoefteplanning** \> **Behoefteplanningsgroepen**.
+1. Ga naar **Hoofdplanning** \> **Instellingen** \> **Behoefteplanning** \> **Behoefteplanningsgroep**.
 1. Maak of selecteer een behoefteplanningsgroep.
 1. Stel in het veld **Time fence goedgekeurde bestelaanvragen (dagen)** op het sneltabblad **Overig** het aantal dagen in dat in de time fence moet worden opgenomen.
 1. Herhaal stap 2 en 3 voor elke aanvullende behoefteplanningsgroep waarin u een time fence voor goedgekeurde bestelaanvragen wilt instellen.
@@ -101,6 +101,3 @@ Bij het uitvoeren van de hoofdplanning worden twee geplande orders gemaakt: een 
 > Nadat een geplande order die is vastgelegd voor een opdracht tot inkoop is gefiatteerd, bewaart de planningsengine de behoeftetracering voor de opdracht tot inkoop. Als later wordt geconstateerd dat in de gefiatteerde order een bepaalde hoeveelheid ontbreekt die nodig is om aan de opdracht tot inkoop te voldoen, wordt een nieuwe geplande order gemaakt voor het verschil.
 
 Zie [Overzicht van opdrachten tot inkoop](../../procurement/purchase-requisitions-overview.md) voor meer informatie over opdrachten tot inkoop.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

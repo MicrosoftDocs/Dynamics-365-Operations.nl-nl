@@ -2,11 +2,9 @@
 title: Gedeeltelijke verzending van een transportlading
 description: In dit onderwerp wordt uitgelegd hoe u gedeeltelijk een lading verzendt en de planning van capaciteit voor de lading uitstelt.
 author: Mirzaab
-manager: tfehr
 ms.date: 03/15/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSTransportLoad
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 68a3d175e89e89d0909b140863b1aa61a184fce6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 179a784f1f02ed0840ba5219c350e274272b59eb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963280"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818939"
 ---
 # <a name="partial-shipment-of-a-transport-load"></a>Gedeeltelijke verzending van een transportlading
 
@@ -65,3 +63,6 @@ Met deze instelling kunt u een transportlading bevestigen die een volledige of e
 
 1. Selecteer **Magazijnbeheer** \> **Ladingen** \> **Transportladingen**.
 2. Selecteer in het actievenster op het tabblad **Verzenden en ontvangen** in de groep **Bevestigen** de optie **Transport**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

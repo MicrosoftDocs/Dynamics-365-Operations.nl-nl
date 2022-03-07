@@ -1,26 +1,29 @@
 ---
 title: Redencodes voor retouren instellen
 description: Stel redencodegroepen in voor retouren.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReturnReasonCodeGroup, ReturnReasonCode
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc857f7c2e8bbcf396e6bd7eaa7478f12b26ac12
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c55e7dc087870ac414c5cf6ce3a3d10215ac4e8e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573172"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4425120"
 ---
 # <a name="set-up-return-reason-codes"></a>Redencodes voor retouren instellen   
 
@@ -29,9 +32,9 @@ ms.locfileid: "7573172"
 
 ## <a name="set-up-return-reason-code-groups"></a>Redencodegroepen instellen voor retouren 
 
-1.  Ga naar **Verkoop en marketing** \> **Instellen** \> **Verkooporders** \> **Retouren** \> **Groepen redencode retour**.
+1.  Klik op **Verkoop en marketing** \> **Instellen** \> **Verkooporders** \> **Retouren** \> **Groepen redencode retour**.
 
-2.  Selecteer **Nieiw** om een regel voor een nieuwe retourredencodegroep te maken.
+2.  Druk op CTRL + N om een regel voor een nieuwe retourredencodegoep te maken.
 
 3.  Typ een ID voor deze groep in het veld **Groep redencode retour**.
 
@@ -41,7 +44,7 @@ ms.locfileid: "7573172"
 
 Deze procedure helpt u bij het instellen van retourredencodes die u kunt gebruiken om aan te geven waarom een product door de klant is geretourneerd.
 
-1.  Ga naar **Verkoop en marketing** \> **Instellen** \> **Verkooporders** \> **Retouren** \> **Redencodes retour**.
+1.  Klik op **Verkoop en marketing** \> **Instellen** \> **Verkooporders** \> **Retouren** \> **Redencodes retour**.
 
 2.  Druk op CTRL+N om een nieuwe retourredencoderegel te maken.
 
@@ -60,6 +63,3 @@ Deze procedure helpt u bij het instellen van retourredencodes die u kunt gebruik
  
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

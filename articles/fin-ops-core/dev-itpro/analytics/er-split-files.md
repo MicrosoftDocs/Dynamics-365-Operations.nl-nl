@@ -2,11 +2,9 @@
 title: Gegenereerde XML-bestanden splitsen op basis van bestandsgrootte en hoeveelheid inhoud
 description: Dit onderwerp bevat informatie over het splitsen van gegenereerde bestanden op basis van de bestandsgrootte en de hoeveelheid inhoudsitems.
 author: NickSelin
-manager: AnnBe
-ms.date: 05/25/2018
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: d60266aba42f502e7707bdace921cfee4526b6ae
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9b0c8d215d1932a4c897488cb9c6ed7fa2127d82
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682866"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944336"
 ---
 # <a name="split-generated-xml-files-based-on-file-size-and-content-quantity"></a>Gegenereerde XML-bestanden splitsen op basis van bestandsgrootte en hoeveelheid inhoud
 
@@ -40,10 +38,13 @@ Als u bestandsbestemmingen hebt geconfigureerd voor een FILE-indelingselement da
 
 Voor meer informatie over deze functie speelt u de taakbegeleiding **ER gesplitste XML-bestanden op basis van bestandsgrootte en hoeveelheid inhoudsitems** af, die deel uitmaakt van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** en kan worden gedownload uit het [Microsoft Downloadcentrum](https://go.microsoft.com/fwlink/?linkid=874684). Deze taakbegeleiding helpt u bij het proces van het configureren van een ER-indeling als u gegenereerde bestanden wilt splitsen op basis van beperkingen op de bestandsgrootte en de hoeveelheid inhoudsitems. Als u de taakbegeleiding wilt voltooien, moet u de volgende bestanden downloaden:
 
-- [ER-modelconfiguratie - XmlFilesSplittingModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
-- [ER-indelingsconfiguratie - XmlFilesSplittingFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
+- [ER-modelconfiguratie - XmlFilesSplittingModel.xml](https://download.microsoft.com/download/e/a/f/eaffe96a-22ec-4a32-898a-f4328c91c387/XmlFilesSplittingModel.xml)
+- [ER-indelingsconfiguratie - XmlFilesSplittingFormat.xml](https://download.microsoft.com/download/e/9/c/e9c5849b-8254-4cdf-bb00-4c2ebc72ddec/XmlFilesSplittingFormat.xml)
 
 ## <a name="additional-resources"></a>Aanvullende resources
 [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md)
 
 [Formuleontwerper in elektronische rapportage (ER)](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

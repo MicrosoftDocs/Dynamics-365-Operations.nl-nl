@@ -2,27 +2,24 @@
 title: INTERVAT-belastingaangifte
 description: Dit onderwerp biedt land-/regiospecifieke informatie over het instellen en maken van de INTERVAT-belastingaangifte voor rechtspersonen in alleen België.
 author: anasyash
-manager: AnnBe
-ms.date: 07/27/2020
+ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxIntervat
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 273023
 ms.search.region: Belgium
 ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: 7c95a3f84ac95b51bc329d92150d6a7bf3796256
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c2efd656b2c76a9d545aa899d424f0ab4f39ece3779b48c1367699eb9e6dd90e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408343"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742864"
 ---
 # <a name="intervat-tax-declaration"></a>INTERVAT-belastingaangifte
 
@@ -116,9 +113,9 @@ Zie [Btw-aangifte voor Europa](https://github.com/MicrosoftDocs/Dynamics-365-Ope
 
 ### <a name="set-up-intervat"></a>INTERVAT instellen
 
-Maak regels op de pagina **INTERVAT-instellingen** (**Belasting \> Instellen \> Btw \> INTERVAT-instellingen**). De informatie die u op deze pagina invoert wordt gebruikt wanneer u **Website openen** selecteert op de pagina **INTERVAT-belastingaangifte**. U moet voor elke taal een element maken. Stel de volgende velden in: **Taal**, **Beschrijving** en **URL**.
+Maak regels op de pagina **INTERVAT-instellingen** (**Belasting \> Instellen \> Btw \> INTERVAT-instellingen**). De informatie die u op deze pagina invoert wordt gebruikt wanneer u **Website openen** selecteert op de pagina **INTERVAT-belastingaangifte**. Maak voor elke taal een element. Stel de volgende velden in: **Taal**, **Beschrijving** en **URL**.
 
-![Pagina Intervat-instellingen](media/1_Intervat_setup.png)
+![Pagina Intervat-instellingen.](media/1_Intervat_setup.png)
 
 ### <a name="set-up-sales-tax-reporting-codes"></a>Btw-aangiftecodes instellen
 
@@ -269,7 +266,7 @@ Als gebruikers een aangiftecode handmatig kunnen corrigeren, schakelt u het sele
 <p>81</p>
 </td>
 <td width="71%">
-<p>Het bedrag van alle aankopen van goederen, grondstoffen en verbruiksartikelen, plus gerelateerde verwervingskosten.</p>
+<p>Het bedrag van alle aankopen van goederen, grondstoffen en verbruiksartikelen, plus gerelateerde verwervingskosten, exclusief btw-aftrek.</p>
 </td>
 <td width="10%">
 <p>Basis</p>
@@ -280,7 +277,7 @@ Als gebruikers een aangiftecode handmatig kunnen corrigeren, schakelt u het sele
 <p>82</p>
 </td>
 <td width="71%">
-<p>Het bedrag van diverse goederen en services, ongeacht of hierop btw van toepassing is.</p>
+<p>Het bedrag van diverse goederen en services, ongeacht of hierop btw van toepassing is, exclusief btw-aftrek.</p>
 </td>
 <td width="10%">
 <p>Basis</p>
@@ -291,7 +288,7 @@ Als gebruikers een aangiftecode handmatig kunnen corrigeren, schakelt u het sele
 <p>83</p>
 </td>
 <td width="71%">
-<p>Het bedrag van aankopen van kapitaalgoederen en services, ongeacht of hierop btw van toepassing is.</p>
+<p>Het bedrag van de aankoop van kapitaalgoederen, ongeacht of hierop btw van toepassing is, exclusief btw-aftrek.</p>
 </td>
 <td width="10%">
 <p>Basis</p>
@@ -335,7 +332,7 @@ Als gebruikers een aangiftecode handmatig kunnen corrigeren, schakelt u het sele
 <p>85</p>
 </td>
 <td width="71%">
-<p>Het bedrag van ontvangen kredieten en negatieve correcties die verband houden met vakken van sectie III, "Invoer".</p>
+<p>Bedrag van ontvangen creditbedragen en negatieve correcties die betrekking hebben op andere vakken uit sectie III, "Invoer", exclusief btw-bedrag (aftrekbaar en niet aftrekbaar)</p>
 </td>
 <td width="10%">
 <p>Basis</p>
@@ -596,7 +593,7 @@ In [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/V2) ku
 
 -   INTERVAT-indeling (BE)
 
-Zie voor meer informatie [Elektronische rapportageconfiguraties downloaden vanuit Lifecycle Services](https://docs.microsoft.com/dynamics365/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+Zie voor meer informatie [Elektronische rapportageconfiguraties downloaden vanuit Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 ## <a name="additional-sales-tax-report-boxes"></a>Aanvullende btw-rapportvakken
 
@@ -668,7 +665,7 @@ U kunt de belastingperiode ook afsluiten door een btw-betaling te genereren (**B
 4.  Selecteer **OK**. Het systeem genereert de INTERVAT-belastingaangifteregel en een INTERVAT XML-bestand.
 5.  Bekijk de gegevens in de aangifte.
 
-![Pagina INTERVAT-belastingaangifte](media/2_Intervat_tax%20declaration.png)
+![Pagina INTERVAT-belastingaangifte.](media/2_Intervat_tax%20declaration.png)
 
 6.  Controleer de volgende velden op het tabblad **Algemeen**: **INTERVAT-id**, **Datum**, **Periode**, **Begindatum**, **Einddatum**, **Periodefrequentie**, **Status** en **Bestandsnaam**.
 7.  Controleer de volgende velden op het tabblad **Frame I: Algemene informatie**. U kunt deze velden bewerken, zelfs als de periode is afgesloten. De uitzonderingen zijn de velden in de sectie **Omslagpercentages**. Deze velden zijn alleen-lezen.
@@ -702,7 +699,7 @@ Als u een INTERVAT-belastingaangifte wilt afdrukken voor verschillende belasting
 1.  Ga naar **Belasting** \> **Query's en rapporten** \> **Btw-aangiften** \> **INTERVAT-belastingaangifte**.
 2.  Gebruik de filters om criteria op te geven voor het selecteren van gegevens en bekijk vervolgens de informatie in het rapport.
 
-![Gegenereerd rapport voor overzicht INTERVAT-belastingaangiften](media/3_Intervat_summary_tax_declarations.png)
+![Gegenereerd rapport voor overzicht INTERVAT-belastingaangiften.](media/3_Intervat_summary_tax_declarations.png)
 
 ## <a name="example"></a>Voorbeeld
 In het volgende voorbeeld ziet u hoe u btw-codes en btw-aangiftecodes kunt instellen, transacties kunt boeken en de INTERVAT-belastingaangifte kunt genereren.
@@ -768,7 +765,7 @@ In plaats van de codes **55** en **59** kunt u correctiecodes **63** en **64** g
 9.  Selecteer in het dialoogvenster **Btw rapporteren voor vereffeningsperiode** in het veld **Versie van btw-betaling** de optie **Origineel**.
 10.  Selecteer **OK** en bekijk de gegevens.
 
-![Gegenereerde pagina INTERVAT-btw-aangifte](media/4_Intervat_tax_declaration.png)
+![Gegenereerde pagina INTERVAT-btw-aangifte.](media/4_Intervat_tax_declaration.png)
 
 U ziet dat het bedrag van de creditnota wordt weergegeven in code **84**.
 
@@ -776,7 +773,7 @@ U ziet dat het bedrag van de creditnota wordt weergegeven in code **84**.
 12.  Selecteer **Nieuw** om een regel voor februari 2020 te maken.
 13.  Selecteer **Btw-correcties \> Correcties** en maak een regel.
 
-![Pagina Correcties](media/5_Adjustments.png)
+![Pagina Correcties.](media/5_Adjustments.png)
 
 14.  Ga naar **Belasting** \> **Aangiften** \> **Btw** \> **Btw vereffenen en boeken**.
 15.  Selecteer in het dialoogvenster **Btw vereffenen en boeken** in het veld **Versie van btw-betaling** de optie **Origineel**.
@@ -789,15 +786,15 @@ U ziet dat het bedrag van de creditnota wordt weergegeven in code **84**.
    -   **Update:** Nee
    -   **Indelingstoewijzing:** INTERVAT-indeling (BE)
 
-![Pagina INTERVAT-belastingaangifte](media/6_Intervat.png)
+![Pagina Nieuwe INTERVAT-belastingaangifte.](media/6_Intervat.png)
 
 18.  Selecteer **OK**, open het bestand en bekijk het rapport.
 
-![xml-rapport met INTERVAT-belastingaangifte](media/7_Intervat_XML.png)
+![xml-rapport met INTERVAT-belastingaangifte.](media/7_Intervat_XML.png)
 
 19.  Selecteer **Details** en bekijk de gegevens.
 
-![Pagina INTERVAT-gegevens](media/8_Intervat_details.png)
+![Pagina INTERVAT-gegevens.](media/8_Intervat_details.png)
 
 Zoals u ziet, is het bedrag in code **62** gelijk aan **200**.
     
@@ -808,3 +805,6 @@ Zie voor informatie over afstemmingsrapporten voor België [Afstemmingsrapporten
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

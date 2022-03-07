@@ -2,11 +2,9 @@
 title: Deadline voor uitgeven van facturen
 description: In dit artikel wordt uitgelegd hoe u parameters voor de berekening van de vervaldatums voor het uitgeven van klantfacturen en leveranciersfacturen in de Europese Unie (EU) instelt.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters, LedgerInvoiceIssueDueDateSetup_W
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 261b831806a7912b270fd3ae098e1b758ef4f521
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 95505808bd7df29de97ff204a95fe294f293bb0c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962686"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814974"
 ---
 # <a name="invoice-issue-deadline"></a>Deadline voor uitgeven van facturen
 
@@ -121,3 +119,6 @@ Als u geen toegang hebt tot de pagina's waarmee de in dit artikel vermelde taken
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

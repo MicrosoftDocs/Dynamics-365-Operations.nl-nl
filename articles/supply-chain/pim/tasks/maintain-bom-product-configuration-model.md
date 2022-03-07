@@ -1,26 +1,24 @@
 ---
 title: Stuklijst voor een productconfiguratiemodel onderhouden
 description: Het uitvoeren van deze procedure vereist een bestaand productconfiguratiemodel.
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, PCBOMLineDetails, InventItemIdLookupSimple
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 267ac5447d36f63094fdb57c0d450e4d79cf138b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bd78b06f10d0c9b1df57dacdd824b06ebe414b3b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966850"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577283"
 ---
 # <a name="maintain-bom-for-a-product-configuration-model"></a>Stuklijst voor een productconfiguratiemodel onderhouden
 
@@ -28,32 +26,34 @@ ms.locfileid: "4966850"
 
 Het uitvoeren van deze procedure vereist een bestaand productconfiguratiemodel. Het model Geavanceerde luidspreker in het demobedrijf USMF wordt gebruikt voor het maken van deze procedure.
 
-
 ## <a name="add-a-bom-line"></a>Een stuklijstregel toevoegen
-1. Klik op Definitie van productvariantmodel.
-2. Klik op Productconfiguratiemodellen.
-3. Zoek en selecteer de gewenste record in de lijst.
+
+1. Ga naar **Productgegevensbeheer \> Producten \> Productconfiguratiemodellen**.
+1. Zoek en selecteer de gewenste record in de lijst.
     * Selecteer de Geavanceerde luidspreker voor deze procedure.  
-4. Klik in de lijst op de koppeling in de geselecteerde rij.
-5. Vouw de sectie Stuklijstregels uit.
-6. Klik op Toevoegen.
-7. Typ een waarde in het veld Naam.
-8. Typ een waarde in het veld Omschrijving.
-9. Klik op Opslaan.
+1. Selecteer in de lijst de koppeling in de geselecteerde rij.
+1. Vouw de sectie **Stuklijstregels** uit.
+1. Selecteer **Toevoegen**.
+1. Typ een waarde in het veld **Naam**.
+1. Typ een waarde in het veld **Beschrijving**.
+1. Selecteer **Opslaan**.
 
 ## <a name="add-bom-line-details"></a>Regeldetails van stuklijst toevoegen
-1. Klik op Regeldetails van stuklijst.
-2. Typ of selecteer een waarde in het veld Artikelnummer.
+
+1. Selecteer **Details van stuklijstregel**.
+2. Typ of selecteer een waarde in het veld **Artikelnummer**.
     * Zo kunt u bijvoorbeeld het artikel M0055 selecteren.  
     * Voor elke regeleigenschap van de stuklijst kunt u selecteren of deze een vaste waarde heeft of aan een kenmerk is toegewezen.  
-3. Schakel het selectievakje Instellen in.
-4. Selecteer Ja in het veld Berekening.
-    * Het instellen van de eigenschap Berekening op Ja zorgt ervoor dat de stuklijstregel in kostenberekeningen wordt opgenomen.  
-5. Klik op het tabblad Instellingen.
-6. Schakel het selectievakje Instellen in.
-7. Voer in het veld Hoeveelheid een getal in.
+3. Schakel het selectievakje **Instellen** in.
+4. Selecteer *Ja* in het veld **Berekening**.
+    * Als u de eigenschap **Berekening** instelt op *Ja*, wordt de stuklijstregel in kostenberekeningen opgenomen.  
+5. Selecteer het tabblad **Instellingen**.
+6. Schakel het selectievakje **Instellen** in.
+7. Voer een getal in het veld **Hoeveelheid** in.
     * Het hoeveelheidsveld bepaalt hoeveel van het artikel in de stuklijst wordt opgenomen. Dit moet een duidelijke kandidaat zijn voor een kenmerktoewijzing.  
-8. Klik op het tabblad Dimensies.
+8. Selecteer het tabblad **Dimensie**.
     * Controleer of een van de productdimensies actief is en daardoor een waarde of kenmerk moeten toegewezen krijgen.  
-9. Klik op OK.
+9. Selecteer **OK**.
 
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

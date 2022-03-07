@@ -2,8 +2,11 @@
 title: De ER-functie OR
 description: Dit onderwerp biedt informatie over het gebruik van de ER-functie (Elektronische rapportage) OR.
 author: NickSelin
+manager: kfend
 ms.date: 12/17/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6751c70599b5e3c05b9d1c69a95e82673b230210170cfead1e6a87c57d59c7f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 107241dbf9a5127d61343fc1cf42c3bab577adb3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747564"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686973"
 ---
 # <a name="or-er-function"></a>De ER-functie OR
 
@@ -56,6 +59,3 @@ De resulterende *Booleaanse* waarde.
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Logische functies](er-functions-category-logical.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Gebruikers toestaan om e-mailberichten te ontvangen die betrekking hebben op de werkstroom
 description: U kunt het systeem configureren voor het verzenden van e-mailberichten aan werknemers als er werkstroom-gerelateerde zaken optreden.
 author: jasongre
-manager: AnnBe
 ms.date: 06/01/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement, SysUserSetup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 221e38cbe31e2ad24a56cb2e71206a1ebcdd619e
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 3207727c8deba97eebfd7516e9600238e5e79b3d
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798999"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747244"
 ---
 # <a name="enable-users-to-receive-workflow-related-email-messages"></a>Gebruikers toestaan om e-mailberichten te ontvangen die betrekking hebben op de werkstroom
 
@@ -41,3 +39,6 @@ U kunt het systeem configureren voor het verzenden van e-mailberichten aan werkn
 
 > [!NOTE]
 > De e-mailsjablonen voor workflows zijn e-mailsjablonen van het systeem of de organisatie, afhankelijk van of de workflow van systeemniveau (bedrijfsspecifiek) of organisatieniveau (bedrijfsspecifieke) is.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,26 +1,23 @@
 ---
 title: Basisbegrippen voor incassobeheer
 description: In de onderwerpen worden belangrijke basisbegrippen voor incassobeheer gedefinieerd.
-author: mikefalkner
-manager: AnnBe
+author: JodiChristiansen
 ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8bee320beb411a5ee0829a0e3170de0c7f293172
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ba64910498732855303e14d3884618597d21510d
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441929"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753941"
 ---
 # <a name="collections-management-key-concepts"></a>Basisbegrippen voor incassobeheer
 
@@ -122,3 +119,6 @@ U kunt betalingen met ontoereikend saldo verwerken door **Betaling met ontoereik
 [Kredietblokkeringen voor verkooporders](./cm-sales-order-credit-holds.md)
 
 [Periodieke taken voor klantkredietbeheer](./cm-periodic-tasks.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

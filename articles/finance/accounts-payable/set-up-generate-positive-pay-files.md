@@ -2,28 +2,25 @@
 title: Positieve betalingsbestanden instellen en genereren
 description: In dit onderwerp wordt uitgelegd hoe u positieve betalingsbestanden instelt en genereert.
 author: panolte
-manager: AnnBe
 ms.date: 03/06/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankPositivePayFormat
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 88433
 ms.assetid: 73f3dcf6-040a-44ad-9512-7b3e0d17a571
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 82f7c8947bcc2dab394ea24e28a3631cc8682e5a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 992c73b1ba1f461542873a7df97f1539b99fc015c3e6ef090993e90212993851
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441911"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737180"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>Positieve betalingsbestanden instellen en genereren
 
@@ -72,7 +69,7 @@ Positieve betalingsbestanden kunnen vertrouwelijke informatie over begunstigden 
 </tr>
 <tr class="odd">
 <td>Trek een positief betalingsbestand voor de bank in op de pagina <strong>Samenvatting van positief betalingsbestand</strong>.</td>
-<td><strong>Positief betalingsbestand terugroepen</strong> (BankPositivePayRecall)</td>
+<td><strong>Positief betalingsbestand intrekken</strong> (BankPositivePayRecall)</td>
 </tr>
 </tbody>
 </table>
@@ -142,6 +139,9 @@ Positieve betalingsbestanden worden gemaakt door gegevensentiteiten te gebruiken
 </xsl:stylesheet>
 ```
 
+> [!NOTE]
+> Voor XML-namen in de XSLT moet het hoofdlettergebruik overeenkomen met dat van de knooppunten in de XML. Zowel de XSLT- als XML-bestanden zijn hoofdlettergevoelig. 
+
 ## <a name="assign-the-positive-pay-format-to-a-bank-account"></a>Een positieve betalingsindeling toewijzen aan bankrekeningen
 Wijs voor elke bankrekening waarvoor u positieve betalingsinformatie wilt genereren, de positieve betalingsindeling toe die in de vorige sectie is opgegeven. Op de pagina **Bankrekeningen** selecteert u de positieve betalingsindeling die overeenkomt met de bankrekening. In het veld **Begindatum positieve betaling** voert u de eerste datum voor het genereren van positieve betalingsbestanden in. Het is belangrijk dat u een datum invoert in dit veld. Anders neemt het eerste positieve betalingsbestand dat u genereert alle cheques op die u ooit voor deze bankrekening hebt gemaakt.
 
@@ -165,3 +165,6 @@ Als u een positief betalingsbestand moet wijzigen, kunt u het intrekken. Selecte
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

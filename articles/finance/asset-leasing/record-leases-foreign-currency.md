@@ -2,28 +2,25 @@
 title: Leases in vreemde valuta registreren
 description: In dit onderwerp wordt uitgelegd hoe u leases in andere valuta's kunt vastleggen dan de boekhoudings- of aangiftevaluta.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseDetail
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 92177d4f808bfec88dabe9277c3d584ed02e401e
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 91bf3f91614f0dd4835c253456128c9ced046749c0e13383590e01dfd436c921
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4442157"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766332"
 ---
 # <a name="record-leases-in-foreign-currencies"></a>Leases in vreemde valuta registreren
 
@@ -53,3 +50,6 @@ Wanneer u de journaalboekingen voor afschrijvingsonkosten maakt op basis van een
 Het laatste afschrijvingsonkostenbedrag kan worden berekend met behulp van een iets andere wisselkoers, zodat het RoU-activum volledig is afgeschreven in zowel de valuta voor boekhouding als de aangiftevaluta.
 
 Als de lease opnieuw is geclassificeerd als **Uitgestelde gebruiksvergoeding**, worden de wisselkoersen van de boekhoudingvaluta en de aangiftevaluta automatisch gewist door het systeem, indien deze reeds zijn gedefinieerd.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

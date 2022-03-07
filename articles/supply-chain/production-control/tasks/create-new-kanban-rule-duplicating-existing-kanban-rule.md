@@ -1,25 +1,27 @@
 ---
 title: Een nieuwe kanbanregel maken door een bestaande kanbanregel te dupliceren
 description: Deze procedure is gericht op het maken van een kopie van een bestaande kanbanregel.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate, InventItemIdLookupSimple
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 578ce8bfd5a9ede85670ac0e345f428d705f7914
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3b89fca4e55aa852bd127eb9b1bda07c0e5bcdc0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575022"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5255128"
 ---
 # <a name="create-a-new-kanban-rule-by-duplicating-an-existing-kanban-rule"></a>Een nieuwe kanbanregel maken door een bestaande kanbanregel te dupliceren
 

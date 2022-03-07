@@ -2,28 +2,25 @@
 title: Lineaire afschrijving van levensduur
 description: Dit artikel geeft een overzicht van de afschrijvingsmethode Lineaire levensduur.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3341
 ms.assetid: ae5ceaeb-aeb7-45cd-b835-23cf9c5cf95a
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7b7b9b240156263b4dc1bc308a7f4457380a27f3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 39366716463eda03aa3f9c0ed802eb3f6099b48c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441995"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818483"
 ---
 # <a name="straight-line-service-life-depreciation"></a>Lineaire afschrijving van levensduur
 
@@ -108,3 +105,6 @@ De levensduur van de bijboekingscorrectie is gelijk aan die van het vaste activu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

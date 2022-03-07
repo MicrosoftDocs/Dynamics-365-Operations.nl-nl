@@ -2,36 +2,30 @@
 title: Werken met vooraf ingestelde indelingen
 description: In dit onderwerp wordt beschreven hoe u werkt met vooraf ingestelde indelingen in Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f31dfa1fdbb3732610748abe4a9de851033f2b89
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 56ad992b6a9fd6fce09cadad70b8098acdc74ac0
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411395"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090840"
 ---
 # <a name="work-with-preset-layouts"></a>Werken met vooraf ingestelde indelingen
-
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u werkt met vooraf ingestelde indelingen in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 Lees voordat u de procedures in dit onderwerp uitvoert, eerst [Vooraf ingestelde en aangepaste indelingen](templates-layouts-overview.md#preset-and-custom-layouts). Zie [Overzicht sjablonen en indelingen](templates-layouts-overview.md) voor een algemeen overzicht.
 
@@ -97,15 +91,30 @@ Als u de wijzigingen wilt bekijken, opent u een bestaande pagina die de vooraf i
 
 Nadat u een voorbeeld van de wijzigingen in de vooraf ingestelde indeling hebt bekeken, volgt u een van deze stappen om de indeling naar uw live site te publiceren:
 
-* Ga naar **Indelingen**, selecteer de indeling en selecteer **Publiceren.**
-* Selecteer de indelingsnaam om de indelingseditor te openen en selecteer vervolgens **Publiceren**.
-* Publiceer een pagina die verwijst naar de niet-gepubliceerde indeling. De indeling wordt automatisch gepubliceerd.
+1. Ga naar **Indelingen**, selecteer de indeling en selecteer **Publiceren.**
+1. Selecteer de indelingsnaam om de indelingseditor te openen en selecteer vervolgens **Publiceren**.
+1. Publiceer een pagina die verwijst naar de niet-gepubliceerde indeling. De indeling wordt automatisch gepubliceerd.
 
 > [!WARNING]
 > Op meerdere pagina's kan naar een vooraf ingestelde indeling worden verwezen. Wanneer u een vooraf ingestelde indeling publiceert, kan dit van invloed zijn op de indeling van meerdere pagina's.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="rename-a-preset-layout"></a>De naam van een vooraf gedefinieerde indeling wijzigen
+
+Voer de volgende stappen uit om de naam van een vooraf gedefinieerde indeling in Site Builder te wijzigen.
+
+1. Selecteer **Indelingen** in het navigatievenster aan de linkerkant.
+1. Selecteer de naam van de indeling die u wilt wijzigen.
+1. Selecteer **Bewerken** om de indeling te gaan bewerken.
+1. Selecteer in het deelvenster met eigenschappen voor indelingen het pensymbool naast de naam van de indeling.
+1. Bewerk de naam van de indeling indien nodig.
+1. Selecteer het vinkje om de naamswijziging te bevestigen.
+1. Selecteer **Bewerken voltooien**.
+
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht sjablonen en indelingen](templates-layouts-overview.md)
 
 [Werken met sjablonen](work-with-templates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

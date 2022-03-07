@@ -1,12 +1,10 @@
 ---
 title: Overzicht van inkooporders
 description: Dit artikel bevat algemene informatie over inkooporders (IO's) en koppelingen naar aanvullende artikelen die zijn gerelateerd aan de verschillende fasen die een IO doorloopt.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder, PurchConfirmationRequestJournal
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 93083
 ms.assetid: e9b7bc5b-1d7e-4ec2-97be-d655274b0613
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fef4eaa9563647b8878e0d0fb0bc185fdc4ed319
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 0b173f856c79973eec6ce884e7b8e44420c93fc7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022226"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909126"
 ---
 # <a name="purchase-order-overview"></a>Overzicht van inkooporders
 
@@ -43,7 +41,7 @@ De volgende artikelen bieden een overzicht van de verschillende fasen die een in
 -   [Inkooporders maken](purchase-order-creation.md)
 -   [Inkooporders goedkeuren en bevestigen](purchase-order-approval-confirmation.md)
 -   [Productontvangst tegen inkooporders](product-receipt-against-purchase-orders.md)
--   [Overzicht van leveranciersfacturen](../../financials/accounts-payable/vendor-invoices-overview.md)
+-   [Overzicht van leveranciersfacturen](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>Typen inkooporders
 Er zijn drie typen inkooporders. Wanneer u een inkooporder maakt, moet u het type opgeven. U kunt een standaardordertype voor nieuwe orders instellen op de pagina **Parameters voor inkoop en sourcing**.
@@ -87,7 +85,10 @@ Het veld **Goedkeuringsstatus** wordt gebruikt wanneer een inkooporder een contr
 
 [Productontvangst tegen inkooporders](product-receipt-against-purchase-orders.md)
 
-[Overzicht van leveranciersfacturen](../../financials/accounts-payable/vendor-invoices-overview.md)
+[Overzicht van leveranciersfacturen](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

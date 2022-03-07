@@ -2,16 +2,13 @@
 title: Overheadberekening
 description: In dit onderwerp worden de kenmerkende processen voor het berekenen en toewijzen van overheadkosten beschreven.
 author: AndersGirke
-manager: AnnBe
 ms.date: 10/04/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation, CAMOverheadRateCalculationJournalEntry, CAMFormulaAllocationBase
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 272163
 ms.assetid: 93119afb-47ed-4786-ba44-ba93576d3e28
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 923e6e38a664e17ec3349d839c4b77ec903c5dc2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 98fd0b4a18b02ed58034ec6e22763ed7c66f567f5c9eeeed124996757470c419
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442073"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766284"
 ---
 # <a name="overhead-calculation"></a>Overheadberekening
 
@@ -32,8 +29,7 @@ ms.locfileid: "4442073"
 
 In dit onderwerp worden de kenmerkende processen voor het berekenen en toewijzen van overheadkosten beschreven.
 
-<a name="term-definition"></a>Definitie van term
----------------
+## <a name="term-definition"></a>Definitie van term
 
 Overheadkosten zijn de kosten die normaal verbonden zijn aan de bedrijfsvoering van een onderneming, maar die niet rechtstreeks aan bepaalde bedrijfsactiviteiten, producten of services kunnen worden toegeschreven. Overheadkosten bieden kritieke ondersteuning voor het genereren van winstgevende activiteiten. Hieronder staan enkele voorbeelden van overheadkosten:
 
@@ -52,7 +48,7 @@ Bij overheadberekening wordt het beleid voor kostprijsboekhouding in de juiste v
 
 De overheadberekening wordt onafhankelijk van de versie uitgevoerd. Daarom kunt u de budgetversie vóór de huidige versie berekenen. De berekening van de overheadkosten bestaat uit vier stappen, zoals in de volgende afbeelding wordt weergegeven. In elke stap wordt een journaalkop gemaakt met journaalposten. Deze journaalkop bevat de ingevoerde gegevens voor elke berekeningsstap. Er worden beleid en regels toegepast op elke journaalregel en er worden kostenposten gegenereerd als uitvoer. Daarom beschikt u altijd over volledige traceerbaarheid. 
 
-[![Overheadberekening](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+[![Overheadberekening.](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>De overheadkosten voor elektriciteit berekenen en toewijzen
 In de financiële boekhouding worden sommige kosten, zoals elektriciteit, geregistreerd als een vast bedrag. Daarom worden geen managementinzichten verstrekt voor kostprijsboekhouding. Als u in de kostprijsboekhouding het juiste leidinggevende inzicht wilt bieden voor alle organisatie-eenheden en niveaus, moeten kosten door de organisatie-eenheden stromen. Deze stroom moet zijn gebaseerd op een nauwkeurig overzicht van het verbruik of op een reële beoordeling. In het grootboek kunnen kosten voor elektriciteit worden geboekt, zoals weergegeven in de volgende tabel.
@@ -622,7 +618,7 @@ Zie [Overheadberekening uitvoeren](cost-rollup.md#perform-overhead-calculation) 
 
 Toewijzing wordt gebruikt om het saldo van een kostenobject toe te wijzen aan andere kostenobjecten door een toewijzingsgrondslag toe te passen. Finance ondersteunt de wederzijdse toewijzingsmethode. Bij de wederzijdse toewijzingsmethode worden de onderlinge services die bijkomende kostenobjecten uitwisselen volledig erkend. Het systeem bepaalt automatisch de juiste volgorde voor het uitvoeren van de toewijzingen. Het saldo van een kostenobject wordt toegewezen door een enkele toewijzingsgrondslag. Toewijzingen over dimensies voor kostenobjecten en hun respectievelijke leden heen worden ondersteund. De toewijzingsvolgorde wordt bepaald door de kostenbeheereenheid. 
 
-[![Wederzijdse methode](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+[![Wederzijdse methode.](./media/reciprocal-method.png)](./media/reciprocal-method.png)
 
 #### <a name="define-the-cost-allocation"></a>De kostentoewijzing definiëren
 
@@ -1415,3 +1411,6 @@ In het financiële boekhouding worden kosten van 10.000,00 voor elektriciteit ge
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

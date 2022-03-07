@@ -1,25 +1,23 @@
 ---
 title: Een bestelaanvraag voor verbruik maken
 description: In dit onderwerp wordt het proces van het maken van een bestelaanvraag beschreven.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c76a24999eef16f239578dd6c8cf9e2e5a8ca634
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 3c35ff67d90860bef82130f61eeec0af94fe0f2e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018916"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812105"
 ---
 # <a name="create-a-requisition-for-consumption"></a>Een bestelaanvraag voor verbruik maken
 
@@ -91,3 +89,6 @@ In dit onderwerp wordt het proces van het maken van een bestelaanvraag beschreve
 6. Sluit de pagina.
 7. Vernieuw de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

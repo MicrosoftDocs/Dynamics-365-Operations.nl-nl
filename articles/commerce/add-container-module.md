@@ -1,36 +1,31 @@
 ---
 title: Module Container
-description: In dit onderwerp wordt beschreven wat containermodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
+description: In dit onderwerp worden containermodules voor functies beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9bb2c7d56184d009492b4aa839a3546160ad342f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 752d0ddc6f666a5d96a2593c8c246a82dc7e1de2fd4bd2356a275222d7abec29
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411313"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715435"
 ---
-# <a name="container-module"></a>Module Container
+# <a name="container-module"></a>Containermodule
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven wat containermodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
+In dit onderwerp worden containermodules voor functies beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 
 Een container module is een module waarin andere modules worden gehost. Het primaire doel van een containermodule is het definiëren van de indeling van de modules die de container bevat, door de ingestelde eigenschappen. Deze modules kunnen bijvoorbeeld naast elkaar worden weergegeven in een indeling met twee kolommen, drie kolommen, vier kolommen of zes kolommen. Ze kunnen ook worden beperkt tot de breedte van de container of ze kunnen het scherm vullen. Er kan een koptekst aan elke containermodule worden toegevoegd.
 
@@ -47,11 +42,11 @@ Drie containermodules worden ondersteund: container, container met 2 vakken en c
 
 De volgende afbeelding toont een voorbeeld van een containermodule die een carrouselmodule bevat in Commerce Site Builder. In dit voor beeld wordt de eigenschap **Breedte** van de containermodule ingesteld op **Scherm vullen**.
 
-![Voorbeeld van een containermodule](./media/ecommerce-container.PNG)
+![Voorbeeld van een containermodule.](./media/ecommerce-container.PNG)
 
 ## <a name="container-module-properties"></a>Eigenschappen van containermodule
 
-| Naam van eigenschap.     | Waarden | Omschrijving |
+| Naam van eigenschap.     | Waarden | Beschrijving |
 |-------------------|--------|-------------|
 | Koptekst           | Koptekst en tag voor koptekst (**H1**, **H2**, **H3**, **H4**, **H5** of **H6**) | Er kan een optionele koptekst voor de container worden opgegeven. Standaard wordt de kopteksttag **H2** gebruikt voor de koptekst. De tag kan echter worden gewijzigd om aan de toegankelijkheidsvereisten te voldoen. |
 | Breedte             | **Passen in container** of **Scherm vullen** | Als de waarde wordt ingesteld op **Passen in container** (de standaardwaarde), zijn de modules in de container beperkt tot de breedte van de container. Als de waarde is ingesteld op **Scherm vullen**, zijn de modules niet beperkt tot de breedte van de container maar kunnen ze het scherm vullen. |
@@ -142,3 +137,6 @@ Voer de volgende stappen uit om een containerspelermodule aan een nieuwe pagina 
 [Koptekstmodule](author-header-module.md)
 
 [Voettekstmodule](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Onderhoudsmedewerkers van voorkeur instellen
 description: In dit onderwerp wordt uitgelegd hoe u onderhoudsmedewerkers van voorkeur instelt in Activabeheer.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkerPreferred
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ab36d9fde0cc6e864f21f9ebd09834f5098c1913
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 511d875baed029df9083da36baf6c48ca4b7abf866ae569038b554bf594473c8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021399"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734422"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>Onderhoudsmedewerkers van voorkeur instellen
 
@@ -61,9 +59,12 @@ Hoe meer selecties u voor dezelfde record maakt, hoe specifieker uw instellingen
 
     [!NOTE] Wanneer er een onderhoudsmedewerker van voorkeur wordt geselecteerd tijdens de planning van de werkorder, doorloopt Activabeheer alle records met **onderhoudsmedewerkers van voorkeur** om deze op een mogelijke overeenkomst te controleren, waarbij altijd de meest specifieke combinatie eerst wordt gecontroleerd. Als er geen overeenkomst wordt gevonden, wordt de standaardrecord met een selectie in het veld **Onderhoudsmedewerkergroep van voorkeur** of **Onderhoudsmedewerkers van voorkeur** gebruikt.
 
-![Figuur 1](media/02-work-order-scheduling.png)
+![Figuur 1.](media/02-work-order-scheduling.png)
 
 U kunt ook *verantwoordelijke* onderhoudswerkers instellen; deze kunnen worden geselecteerd wanneer een onderhoudsverzoek of werkorder wordt gemaakt. U kunt de selectie in **Alle werkorders** en **Alle onderhoudsverzoeken** zo nodig bewerken. Zie [Verantwoordelijke onderhoudsmedewerkers](../setup-for-maintenance-requests/responsible-workers.md) voor meer informatie.
 
 Tijdens de planning van werkorders worden verschillende scores berekend om te bepalen welke medewerkers de taken met betrekking tot een werkorder moeten voltooien (deze scores worden ingesteld via **Parameters voor activabeheer** > **Planning werkorder**). Als twee of meer onderhoudsmedewerkers of verantwoordelijke onderhoudsmedewerkers dezelfde score krijgen tijdens de werkorderplanning, wordt een willekeurige medewerker geselecteerd. Anders is het altijd de medewerker met de hoogste score die wordt toegewezen om een werkorder te voltooien.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

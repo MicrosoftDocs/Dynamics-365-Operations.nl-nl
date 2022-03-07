@@ -1,12 +1,10 @@
 ---
 title: Samenwerken met leveranciers met behulp van de leveranciersportal
 description: In dit onderwerp wordt uitgelegd hoe inkoopmedewerkers de leveranciersportal kunnen gebruiken om tijdens het inkooporderbevestigingsproces samen te werken met externe leveranciers. Deze informatie geldt alleen voor de versies van februari 2016 en mei 2016 van Dynamics AX.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4aece4fd621be803abe5011e40785f6a3301924f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 6e691d0e2e4260e75b70e22d94486afdb779871f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019098"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568059"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Samenwerken met leveranciers met behulp van de leveranciersportal
 
@@ -94,12 +92,14 @@ De volgende tabel bevat een voorbeeld van de status- en versiewijzigingen die ee
 |                           U verzendt de nieuwe versie van de inkooporder naar de leveranciersportal.                            |                                                                                                                                                                    De nieuwe versie wordt geregistreerd in de leveranciersportal en de status wordt gewijzigd in <strong>Externe controle</strong>.                                                                                                                                                                     |
 |                                De leverancier keurt de nieuwe versie van de inkooporder goed                                 |                                                                                                                                                     De status wordt gewijzigd in <strong>Bevestigd</strong>. Dit gebeurt automatisch of wanneer u het antwoord van de leverancier ontvangt en vervolgens de inkooporder bevestigt.                                                                                                                                                     |
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Gebruikersbeveiliging leveranciersportal](configure-security-vendor-portal-users.md)
 
-[Werkgebied voor samenwerkingsfacturering van leveranciers](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
+[Werkgebied voor samenwerkingsfacturering van leveranciers](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

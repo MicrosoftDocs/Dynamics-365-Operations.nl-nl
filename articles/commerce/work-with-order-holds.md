@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MCRHoldCodeTable, MCRSalesTableOrderHistory, MCRHoldCodeTrans, MCROrderEventSetup, MCROrderEventTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 79132
 ms.assetid: 7c00dc35-73e5-400a-8587-22f37ddfc0e0
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b11dd48ac629910a82b4d5bfdf9889809b0d829d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cd7ad1bdb9d2421a4b5ad96755867d2a389464a6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411393"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210846"
 ---
 # <a name="configure-and-work-with-call-center-order-holds"></a>Configureren en werken met orderwachtstanden voor callcenters
 
@@ -103,3 +102,6 @@ Als gebruikers een wachtstand willen wissen maar aanvullende wijzigingen in de o
 ## <a name="reporting-options"></a>Rapportageopties
 
 Ga naar **Detailhandel en commerce** \> **Query's en rapporten** \> **Callcenterrapporten** \> **Rapport Orderwachtstanden** als u een rapport wilt uitvoeren over orderwachtstanden op datumbereik, wachtstandcode of andere gerelateerde criteria.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

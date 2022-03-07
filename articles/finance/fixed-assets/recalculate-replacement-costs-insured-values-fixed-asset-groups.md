@@ -1,34 +1,31 @@
 ---
 title: Vervangingskosten en verzekerde waarden voor vaste-activagroepen herberekenen
-description: In dit artikel wordt het proces toegelicht voor het bijwerken van de vervangingskosten en verzekerde waarden van vaste activa.
-author: ShylaThompson
-manager: AnnBe
+description: In dit onderwerp wordt het proces toegelicht voor het bijwerken van de vervangingskosten en verzekerde waarden van vaste activa.
+author: moaamer
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3261
 ms.assetid: b8876f83-8772-4f2a-b277-12724e2a0c44
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9dd04072b4845fe5df2a918b64ba1835ea584dd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 33d3dba59e459193798d790e64d2493c244d49a3
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442021"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674871"
 ---
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Vervangingskosten en verzekerde waarden voor vaste-activagroepen herberekenen
 
 [!include [banner](../includes/banner.md)]
 
-In dit artikel wordt het proces toegelicht voor het bijwerken van de vervangingskosten en verzekerde waarden van vaste activa.
+In dit onderwerp wordt het proces toegelicht voor het bijwerken van de vervangingskosten en verzekerde waarden van vaste activa.
 
 Mogelijk wordt u er periodiek van op de hoogte gesteld dat de kosten om bepaalde vaste activa te vervangen of te verzekeren zijn gewijzigd. Uw manager vertelt u bijvoorbeeld dat de inflatie vorig jaar 3 procent bedroeg, zodat u de vervangingskosten voor alle vaste activa moet verhogen met 3 procent. 
 
@@ -78,3 +75,6 @@ De volgende dag vertelt uw manager u dat de computers zijn verlaagd met 8 procen
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

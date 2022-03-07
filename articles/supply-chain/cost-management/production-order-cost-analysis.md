@@ -2,11 +2,9 @@
 title: Analyse van productieorderkosten
 description: Dit artikel bevat informatie over de kostprijsanalyse die u voor voltooide en huidige productieorders kunt uitvoeren. U kunt de geraamde en werkelijke kosten analyseren met de pagina Prijsberekening of het rapport Geraamde kosten en kostprijsberekeningen. U kunt informatie weergeven over de geraamde en werkelijke kosten (en hoeveelheid) voor alle onderdeelartikelen, de routebewerkingen en de indirecte kosten.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostTrans, ProdCalcTrans, ProdTableJour, ProdTableListPage, ProdSetupHistoricalCost
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0858e0e9ed0f09a47954274a05f6da1a2537c4a3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1b0690a683cdefaeb5e441d3e2ea467a680a8fc1dd0905b6a94fd72bcbf36e1e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967278"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734254"
 ---
 # <a name="production-order-cost-analysis"></a>Analyse van productieorderkosten
 
@@ -43,7 +41,7 @@ De afwijkingen weerspiegelen een vergelijking tussen de gemelde productieactivit
 
 In het volgende diagram worden de vier afwijkingen getoond die voor het verschil tussen de werkelijke kosten van een productieorder en de berekende kosten zorgen binnen het kostenrecord van het artikel wanneer de productieorder wordt beëindigd. 
 
-![Afwijkingen waarbij rekening wordt gehouden met verschillen in een voltooide productieorder](./media/control.jpg) 
+![Afwijkingen waarbij rekening wordt gehouden met verschillen in een voltooide productieorder.](./media/control.jpg) 
 
 U kunt de productieafwijkingen analyseren met behulp van de pagina **Afwijking** of het rapport **Productieafwijking**. Gebruik de weergaveopties om gedetailleerde afwijkingen volgens artikel- en bewerkingsresource of per kostengroep weer te geven. Het beleid voor de verdeling van de kosten in de voorraadparameters bepaalt of de afwijkingen per kostengroep worden bijgehouden. U kunt ook de weergaveopties **enkel**, **meerdere** en **totaal** gebruiken om samengevatte afwijkingen weer te geven. De informatie over gedetailleerde afwijkingen helpt u van de bron van elke afwijking te begrijpen. Als u vóór het beëindigen van een productieorder afwijkingen wilt voorspellen, moet u de gedetailleerde gegevens uit het rapport **Geraamde kosten en kostprijsberekeningen** analyseren.
 
@@ -57,10 +55,12 @@ Er zijn afzonderlijke rapporten beschikbaar met informatie over elk transactiety
 -   **Gerede artikelen in bewerking**: dit rapport geeft huidige productieorders weer, evenals de gereedgemelde transacties vanaf een bepaalde transactiedatum.
 
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Veelvoorkomende oorzaken voor productieafwijkingen analyseren](common-sources-of-production-variances.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

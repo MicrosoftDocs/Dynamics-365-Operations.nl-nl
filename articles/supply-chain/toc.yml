@@ -4,45 +4,17 @@
       items:
         - name: Startpagina van Dynamics 365 Supply Chain Management
           href: index.md
-        - name: Nieuwe of gewijzigde functies
-          items:
-            - name: Nieuw of gewijzigd in Finance and Operations-apps
-              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Nieuwe of gewijzigde functies in Supply Chain Management
-              items:
-                - name: Startpagina voor nieuwe of gewijzigde functies in Supply Chain Management
-                  href: get-started/whats-new-home-page.md
-                - name: Supply Chain Management 10.0.25 (april 2022)
-                  href: get-started/whats-new-scm-10-0-25.md
-                - name: Supply Chain Management 10.0.24 (februari 2022)
-                  href: get-started/whats-new-scm-10-0-24.md
-                - name: Supply Chain Management 10.0.23 (januari 2022)
-                  href: get-started/whats-new-scm-10-0-23.md
-            - name: Verwijderde of afgeschafte functies
-              items:
-                - name: Startpagina voor verwijderde of afgeschafte functies
-                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management
-                  href: get-started/removed-deprecated-features-scm-updates.md
-                - name: Verwijderde of afgeschafte functies in eerdere releases
-                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
-            - name: AX 2012-functies die zijn uitgesteld
-              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Einde van basisondersteuning voor Microsoft Dynamics AX 2009 en 2012
-              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
         - name: Aan de slag
           items:
-            - name: Beschrijving van service
-              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/supply-chain/toc.json
             - name: Voordat u gaat kopen
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/supply-chain/toc.json
             - name: Aanmelden voor preview-abonnementen
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/supply-chain/toc.json
-            - name: One Version-service-updates
+            - name: Updates van One Version-service
               items:
-                - name: Overzicht van One Version-service-updates
+                - name: Overzicht van updates van One Version-service
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Veelgestelde vragen over One Version-service-updates
+                - name: Veelgestelde vragen over updates van service met één versie
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 'Updates en de levenscyclus van aangepaste code beheren, waaronder Dynamics 365 Commerce'
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/update-guide.md?toc=/dynamics365/supply-chain/toc.json
@@ -56,11 +28,11 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Updates toepassen op on-premises implementaties
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Service-updates configureren
+                - name: Serviceupdates configureren
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Service-updates onderbreken
+                - name: Serviceupdates onderbreken
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Bericht ontvangen over service-updates
+                - name: Bericht ontvangen over serviceupdates
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Automatisering van gegevenstaak
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/supply-chain/toc.json
@@ -88,6 +60,36 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Magazijnbeheer configureren voor on-premises implementaties
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Finance and Operations-apps die worden geëxploiteerd door 21Vianet in China
+                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Finance and Operations-apps in Frankrijk
+                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Nieuwe of gewijzigde functies
+              items:
+                - name: Nieuwe of gewijzigde functies in Finance and Operations-apps
+                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Nieuwe of gewijzigde functies in Supply Chain Management
+                  items:
+                    - name: Startpagina voor nieuwe of gewijzigde functies in Supply Chain Management
+                      href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.18 (mei 2021)
+                      href: get-started/whats-new-scm-10-0-18.md
+                    - name: Supply Chain Management 10.0.17 (april 2021)
+                      href: get-started/whats-new-scm-10-0-17.md
+                    - name: Supply Chain Management 10.0.16 (februari 2021)
+                      href: get-started/whats-new-scm-10-0-16.md
+                - name: Verwijderde of afgeschafte functies
+                  items:
+                    - name: Startpagina voor verwijderde of afgeschafte functies
+                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management
+                      href: get-started/removed-deprecated-features-scm-updates.md
+                    - name: Verwijderde of afgeschafte functies in eerdere releases
+                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
+                - name: AX 2012-functies die zijn uitgesteld
+                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Einde van basisondersteuning voor Microsoft Dynamics AX 2009 en 2012
+                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
             - name: Documentatiebronnen
               items:
                 - name: Help-systeem
@@ -104,6 +106,8 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Video's
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Woordenlijst
+                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/supply-chain/toc.json
             - name: Trainingscatalogus
               items:
                 - name: Startpagina trainingscatalogus
@@ -160,8 +164,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Canvas-apps uit Power Apps insluiten
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Apps van derden insluiten
-                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Informatie vinden met zoekopdrachten
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
                 - name: De datum van een sessie wijzigen
@@ -177,7 +179,7 @@
                 - name: Architectuur voor Finance and Operations-apps
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Microsoft FastTrack
-                  href: /dynamics365/fasttrack/
+                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
                 - name: Een implementatieproject onboarden
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Omgevingsplanning
@@ -204,86 +206,6 @@
           items:
             - name: Globalisatieresources
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Globalisatieservices
-              items:
-                - name: Overzicht van globalisatieservices
-                  href: ../finance/localizations/globalization-services-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Regulatory Configuration Service (RCS)
-                  items:
-                    - name: Overzicht van Regulatory Configuration Service (RCS)
-                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Regulatory Configuration Service (RCS) - globalisatiefuncties
-                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ER-configuraties maken in Regulatory Configuration Service (RCS) en deze uploaden naar de algemene opslagplaats
-                      href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Regulatory Configuration Service (RCS) - Afschaffing van Lifecycle Services-opslag
-                      href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ER-configuraties downloaden naar Supply Chain Management
-                      items:
-                        - name: Configuraties downloaden uit RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Configuraties importeren uit RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Algemene opslagplaats (GR)
-                      items:
-                        - name: Configuraties importeren uit GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Bijgewerkte versies van ER-configuraties importeren
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Uitgebreid filteren om configuraties te vinden in GR
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Configuraties uploaden naar GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/fsupply-chain/toc.json
-                        - name: Configuraties delen in GR
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Configuraties stopzetten in de algemene opslagplaats van RCS
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Elektronische facturering
-                  items:
-                    - name: Overzicht van Elektronische facturering
-                      href: ../finance/localizations/e-invoicing-service-overview.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Beheeronderdelen voor Elektronische facturering
-                      href: ../finance/localizations/e-invoicing-service-administration.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Elektronische facturering in Regulatory Configuration Services (RCS) configureren
-                      href: ../finance/localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Elektronische facturen uitgeven in Finance en Supply Chain Management
-                      href: ../finance/localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Een Azure-opslagaccount en een Key Vault maken
-                      href: ../finance/localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Dashboard voor gebruiksbeheer
-                      href: ../finance/localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Aan de slag
-                      items:
-                        - name: Aan de slag met servicebeheer voor Elektronische facturering
-                          href: ../finance/localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Aan de slag met Elektronische facturering
-                          href: ../finance/localizations/e-invoicing-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Aan de slag met Elektronische facturering voor Brazilië
-                          href: ../finance/localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Aan de slag met Elektronische facturering voor Egypte
-                          href: ../finance/localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Aan de slag met Elektronische facturering voor Mexico
-                          href: ../finance/localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Elektronische facturering instellen
-                          href: ../finance/localizations/e-invoicing-setup.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Veelgestelde vragen over Elektronische facturering
-                      href: ../finance/localizations/e-invoicing-faq.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Belastingberekening
-                  items:
-                    - name: Overzicht van belastingberekening
-                      href: ../finance/localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Aan de slag met belastingberekening
-                      href: ../finance/localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Ondersteuning voor belastingfunctie voor transferorders
-                      href: ../finance/localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Gegevensvelden toevoegen in belastingconfiguraties
-                      href: ../finance/localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Gegevensvelden in de belastingintegratie toevoegen met extensies
-                      href: ../finance/localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Meerdere btw-registratienummers
-                      href: ../finance/localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Een omgeving instellen voor het opzoeken van hoofdgegevens
-                      href: ../finance/localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/supply-chain/toc.json
             - name: Wettelijk voorgeschreven updates
               href: ../finance/localizations/regulatory-updates.md?toc=/dynamics365/supply-chain/toc.json
             - name: India
@@ -298,24 +220,16 @@
                   items:
                     - name: Goederen in transit vanaf leverancier
                       href: ../finance/localizations/rus-goods-transit-vendor.md?toc=/dynamics365/supply-chain/toc.json
-        - name: Gedistribueerde hybride topologie
+        - name: Cloud en rand
           items:
-            - name: Schaaleenheden in een gedistribueerde hybride topologie
+            - name: Cloud- en randschaaleenheden voor werkbelasting van productie- en magazijnbeheer
               href: cloud-edge/cloud-edge-landing-page.md
-            - name: Randschaaleenheden implementeren op aangepaste hardware met LBD
-              href: cloud-edge/cloud-edge-edge-scale-units-lbd.md
             - name: Werkbelasting voor productie-uitvoering voor cloud- en randschaaleenheden
               href: cloud-edge/cloud-edge-workload-manufacturing.md
             - name: Werkbelasting van magazijnbeheer voor cloud- en randschaaleenheden
               href: cloud-edge/cloud-edge-workload-warehousing.md
-            - name: De mobiele Warehouse Management-app configureren voor cloud- en randschaaleenheden
-              href: cloud-edge/cloud-edge-workload-setup-warehouse-app.md
             - name: Magazijnorders voor cloud- en randschaaleenheden
               href: cloud-edge/cloud-edge-warehouse-order.md
-            - name: Magazijnvoorraadcorrectie
-              href: cloud-edge/cloud-edge-warehouse-inventory-adjustment.md
-            - name: Berichten van berichtenverwerker
-              href: cloud-edge/cloud-edge-message-processor-messages.md
         - name: Activabeheer
           items:
             - name: Overzicht van activabeheer
@@ -385,7 +299,9 @@
                   href: asset-management/objects/object-specification-overview.md
             - name: Instellingen voor onderhoudsaanvragen
               items:
-                - name: Levenscyclusstatussen van onderhoudsverzoek
+                - name: Onderhoudsaanvragen
+                  href: asset-management/setup-for-maintenance-requests/requests.md
+                - name: Statussen van levenscyclus voor onderhoudsaanvragen
                   href: asset-management/setup-for-maintenance-requests/request-stages.md
                 - name: Typen onderhoudsaanvragen
                   href: asset-management/setup-for-maintenance-requests/request-types.md
@@ -407,7 +323,7 @@
                   href: asset-management/manage-maintenance-requests/maintenance-request-reports.md
             - name: Instellingen voor werkorders
               items:
-                - name: 'Typen onderhoudstaken, categorieën, varianten, specialismen en controlelijsten voor onderhoudswerkzaamheden'
+                - name: 'Categorieën van onderhoudstaaktypen en onderhoudstaaktypen, varianten van onderhoudstaaktypen, onderhoudstaakspecialismen en onderhoudscontrolelijsten'
                   href: asset-management/setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md
                 - name: Levenscyclusstatussen van werkorder
                   href: asset-management/setup-for-work-orders/work-order-lifecycle-states.md
@@ -617,20 +533,6 @@
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/supply-chain/toc.json
             - name: Werkgebied voor kostenbeheer voor mobiele toepassing Finance and Operations gebruiken
               href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
-        - name: Algemene voorraadboekhouding
-          items:
-            - name: Startpagina Algemene voorraadboekhouding
-              href: global-inventory-accounting/global-inventory-accounting-home.md
-            - name: Aan de slag met Algemene voorraadboekhouding
-              href: global-inventory-accounting/get-started-with-gia.md
-            - name: Bedrijfsdocumenten die worden ondersteund door Algemene voorraadboekhouding
-              href: global-inventory-accounting/business-documents-supported.md
-            - name: Power BI inschakelen voor Algemene voorraadboekhouding
-              href: global-inventory-accounting/enable-power-bi-for-gia.md
-            - name: Conventies
-              href: global-inventory-accounting/conventions.md
-            - name: Grootboek voor Algemene voorraadboekhouding
-              href: global-inventory-accounting/global-inventory-accounting-ledger.md
         - name: Kostenbeheer
           items:
             - name: Startpagina van Kostenbeheer
@@ -707,15 +609,13 @@
                   href: cost-management/weighted-average-physical-value-marking.md
                 - name: Voorraad sluiten
                   href: cost-management/inventory-close.md
-                - name: Kostenwaarden van beschikbare voorraad aanpassen
+                - name: Kostenwaarden voor voorhanden voorraad corrigeren
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: Voorraadwaarderapporten
+                - name: Rapport opslag van voorraadwaarden
                   href: cost-management/inventory-value-report-storage.md
-                - name: Voorbeelden en logica voorraadwaarderapporten
-                  href: cost-management/inventory-value-report-examples.md
-                - name: Opslag van voorraadverouderingsrapporten
+                - name: Opslag naar ouderdom gerangschikt voorraadrapport
                   href: cost-management/inventory-aging-report-storage.md
-                - name: Voorbeelden en logica voorraadverouderingsrapporten
+                - name: Voorbeelden en logica voor naar ouderdom gerangschikt voorraadrapport
                   href: cost-management/inventory-aging-report.md
             - name: Productieboekhouding
               items:
@@ -753,6 +653,8 @@
                   href: cost-management/amortize-constant-costs-manufactured-item.md
             - name: Power BI-inhoudpakket voor kostenbeheer
               href: ../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Problemen met kostenbeheer oplossen
+              href: cost-management/troubleshoot-costmanagement.md
         - name: Rapportage en Power BI-integratie
           items:
             - name: Rapportage en analyse met Power BI
@@ -835,7 +737,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Financiële dimensies toevoegen aan samengevoegde metingen
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Analytische rapporten maken met PowerBI Desktop
+                - name: Analytische rapporten maken met Power BI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Analyses aan werkgebieden toevoegen met Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/supply-chain/toc.json
@@ -861,19 +763,17 @@
               items:
                 - name: Configuraties maken
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=/dynamics365/supply-chain/toc.json
-                - name: De afhankelijkheid van ER-configuraties voor andere onderdelen definiëren
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Onderdelen van de oplossing voor elektronische rapportage voorbereiden
                   items:
                     - name: Domeinspecifiek gegevensmodel ontwerpen
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Toepassingsspecifieke metagegevens voorbereiden
                       items:
-                        - name: Toepassingsmetagegevens in ER voorbereiden voor gebruik in RCS
+                        - name: (ER) Toepassingsmetagegevens voor gebruik in RCS voorbereiden
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Toepassingsmetagegevens in RCS openen door gebruik van ER-configuratie
+                        - name: (RCS) Toepassingsmetagegevens openen door gebruik van ER-configuratie
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Toepassingsmetagegevens in RCS openen door gebruik van verbonden toepassingen
+                        - name: (RCS) Toepassingsmetagegevens openen door gebruik van verbonden toepassingen
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Modeltoewijzingen definiëren en gegevensbronnen selecteren
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/dynamics365/supply-chain/toc.json
@@ -885,13 +785,13 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: De voorbereide ER-oplossing testen in de doeltoepassing
                       items:
-                        - name: Configuraties importeren uit RCS
+                        - name: (ER) Configuraties importeren uit RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Elektronische documenten genereren voor betalingen met een indelingsconfiguratie
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Uw indeling upgraden door een nieuwe basisversie van die indeling aan te nemen
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Formuleontwerpers in ER
+            - name: Formuleontwerpers in elektronische rapportage
               items:
                 - name: Formuleontwerper
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/supply-chain/toc.json
@@ -901,20 +801,8 @@
               items:
                 - name: Formuletaal
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Ondersteunde gegevenstypen voor ER-formules
-                  items:
-                    - name: Primitieve gegevenstypen
-                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Samengestelde gegevenstypen
-                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Functies
                   items:
-                    - name: Container
-                      items:
-                        - name: Containerfuncties
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-container.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Base64StringToContainer
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Datum en tijd
                       items:
                         - name: Datum- en tijdfuncties
@@ -945,11 +833,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/supply-chain/toc.json
                         - name: SessionToday
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Today
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: WeekNum
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: List
+                    - name: Lijst
                       items:
                         - name: Lijstfuncties
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/supply-chain/toc.json
@@ -961,11 +845,11 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-count.md?toc=/dynamics365/supply-chain/toc.json
                         - name: EmptyList
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-emptylist.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Enumerate
+                        - name: Opsommen
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-enumerate.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Filter
+                        - name: Filteren
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-filter.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: First
+                        - name: Eerste
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-first.md?toc=/dynamics365/supply-chain/toc.json
                         - name: FirstOrNull
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-firstornull.md?toc=/dynamics365/supply-chain/toc.json
@@ -973,10 +857,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-index.md?toc=/dynamics365/supply-chain/toc.json
                         - name: IsEmpty
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: List
+                        - name: Lijst
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: ListDistinct
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listdistinct.md?toc=/dynamics365/supply-chain/toc.json
                         - name: ListJoin
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?toc=/dynamics365/supply-chain/toc.json
                         - name: ListOfFields
@@ -985,7 +867,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?toc=/dynamics365/supply-chain/toc.json
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Reverse
+                        - name: Terugboeken
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Split
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/supply-chain/toc.json
@@ -1005,22 +887,14 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-and.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Case
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-case.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Contains
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-contains.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: EndsWith
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-endswith.md?toc=/dynamics365/supply-chain/toc.json
                         - name: If
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-if.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Not
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-not.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Or
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: StartsWith
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-startswith.md?toc=/dynamics365/supply-chain/toc.json
                         - name: ValueIn
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valuein.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: ValueInLarge
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valueinlarge.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Wiskundig
                       items:
                         - name: Wiskundige functies
@@ -1116,7 +990,7 @@
                         - name: CurCredRef
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-curcredref.md?toc=/dynamics365/supply-chain/toc.json
                         - name: FA_Balance
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fabalance.md?toc=/dynamics365supply-chain/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fabalance.md?toc=/dynamics365/supply-chain/toc.json
                         - name: FA_Sum
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fasum.md?toc=/dynamics365/supply-chain/toc.json
                         - name: GetCurrentCompany
@@ -1145,8 +1019,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'Type: Value'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 'Container: Base64StringToContainer'
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'Datum en tijd: DateTimeValue'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'Datum en tijd: DateToDateTime'
@@ -1171,49 +1043,79 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'Tekst: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ER-indelingen ontwerpen voor het genereren van uitgaande documenten in verschillende indelingen
+            - name: ER-modeltoewijzing in afzonderlijke ER-configuraties beheren
+              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Definities voor gegevensmodel selecteren tijdens het maken van indelingen
+              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Verbeterde filteropties voor het zoeken van configuraties in de algemene opslagplaats
+              href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Rapporten genereren door inhoud toe te voegen als onbewerkte XML
+              href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/supply-chain/toc.json
+            - name: (ER) Gegevensbronnen voor het hele bedrijf in de elektronische aangifte
+              href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+            - name: ER-indelingen ontwerpen voor het genereren van uitgaande elektronische documenten in verschillende indelingen
               items:
-                - name: Ontwerpconfiguraties om uitgaande documenten te genereren in Excel-indeling
-                  items:
-                    - name: Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
-                      href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Voorbeeld van het genereren van rapporten in OPENXML-indeling
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ER-indelingen wijzigen door Excel-sjablonen opnieuw toe te passen
-                      href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Kolommen dynamisch toevoegen aan Excel-rapporten als horizontaal uitbreidbare bereiken
-                      items:
-                        - name: Indelingen ontwerpen om kolommen dynamisch toe te voegen aan Excel-rapporten
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Indelingen uitvoeren om kolommen dynamisch toe te voegen aan Excel-rapporten
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Configuraties ontwerpen om rapporten in Word-indeling te genereren
-                  items:
-                    - name: Een nieuwe ER-configuratie ontwerpen om rapporten in Word-indeling te genereren
-                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ER-configuraties opnieuw gebruiken met Excel-sjablonen om rapporten te genereren in Word-indeling
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Besturingselementen voor Word-inhoud onderdrukken in gegenereerde rapporten
-                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word-suppress-controls.md?toc=/dynamics365/supply-chain/toc.json
+                - name: (ER) Een configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/supply-chain/toc.json
+                - name: (ER) Configuraties ontwerpen om rapporten in Word-indeling te genereren
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configuraties ontwerpen om PDF-sjablonen in te vullen
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Afbeeldingen en vormen insluiten
+            - name: Afbeeldingen en vormen insluiten
+              items:
+                - name: (ER) Afbeeldingen en vormen insluiten in documenten die u genereert
+                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Voorbeeld van het insluiten van afbeeldingen en vormen
                   items:
-                    - name: Afbeeldingen en vormen insluiten in documenten die u genereert
-                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Voorbeeld van het insluiten van afbeeldingen en vormen
-                      items:
-                        - name: Configuraties ontwerpen voor het genereren van rapporten in Office-indelingen met ingesloten afbeeldingen
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Configuraties beoordelen voor het genereren van rapporten in Office-indelingen met ingesloten afbeeldingen
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Rapporten genereren in Office-indelingen met ingesloten afbeeldingen
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Gegenereerde XML-bestanden splitsen op basis van bestandsgrootte en hoeveelheid inhoud
-                  href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Stuklijsttekens onderdrukken in gegenereerde bestanden
-                  href: ../fin-ops-core/dev-itpro/analytics/er-suppress-bom-characters.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Toepassingsgegevens bijwerken met ER
+                    - name: Configuraties ontwerpen voor het genereren van rapporten in Office-indelingen met ingesloten afbeeldingen
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Configuraties beoordelen voor het genereren van rapporten in Office-indelingen met ingesloten afbeeldingen
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Rapporten genereren in Office-indelingen met ingesloten afbeeldingen
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Indelingen voor elektronische rapportage wijzigen door Excel-sjablonen opnieuw toe te passen
+              href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/supply-chain/toc.json
+            - name: De afhankelijkheid van ER-configuraties voor andere onderdelen definiëren
+              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Een ER-oplossing ontwerpen voor het gebruik van financiële dimensies
+              items:
+                - name: Gegevensmodellen ontwerpen voor gebruik van financiële dimensies als gegevensbronnen
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Modellen toewijzen voor gebruik van financiële dimensies als gegevensbronnen
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Rapporten ontwerpen voor gebruik van financiële dimensies als gegevensbronnen
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Rapporten uitvoeren die financiële dimensies gebruiken als gegevensbronnen
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/supply-chain/toc.json
+            - name: ER-indelingen ontwerpen voor tellen en totaliseren van gegevens uit gegenereerde uitvoer
+              items:
+                - name: Indelingen maken voor tellen en totaliseren
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Indeling configureren voor tellen en totaliseren
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Berekeningen gebruiken voor het generen van de uitvoer voor tellen en totaliseren
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Indelingen uitvoeren voor tellen en totaliseren
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Kolommen dynamisch toevoegen aan Excel-rapporten als horizontaal uitbreidbare bereiken
+              items:
+                - name: Indelingen ontwerpen voor het dynamisch toevoegen van kolommen aan Excel-rapporten als horizontaal uitbreidbare bereiken
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Indelingen uitvoeren voor het dynamisch toevoegen van kolommen aan Excel-rapporten als horizontaal uitbreidbare bereiken
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Documentbeheerbestanden gebruiken in uitvoer van indelingen
+              items:
+                - name: Gegevensmodellen voorbereiden voor het gebruik van documentbeheerbestanden in ER-uitvoer
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Gegevensmodellen uitbreiden voor het gebruik van documentbeheerbestanden in ER-uitvoer
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Indelingen maken voor gebruik van documentbeheerbestanden in ER-uitvoer
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Indelingen uitvoeren voor gebruik van documentbeheerbestanden in ER-uitvoer
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Indelingen wijzigen en uitvoeren voor gebruik van documentbeheerbestanden in ER-uitvoer
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Toepassingsgegevens bijwerken met behulp van elektronische rapportage
               items:
                 - name: Elektronische documenten genereren en toepassingsgegevens bijwerken
                   href: ../fin-ops-core/dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/dynamics365/supply-chain/toc.json
@@ -1235,8 +1137,6 @@
                   items:
                     - name: Configuraties maken om gegevens te importeren uit een extern XML-bestand
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: In batchmodus gegevens importeren vanuit handmatig geselecteerde bestanden
-                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Gegevensimport configureren in batchmodus op basis van in SharePoint gevonden bestanden
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Bestanden importeren in XML-indeling
@@ -1245,150 +1145,52 @@
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ER-indelingen configureren voor het importeren van XML-bestanden met optionele kenmerken
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Gegenereerde XML-bestanden splitsen op basis van bestandsgrootte en hoeveelheid inhoud
+              href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Ondersteuning bieden voor parameteraanroepen van ER-gegevensbronnen van een Berekende veld-type
+              href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/supply-chain/toc.json
             - name: Levenscyclus van configuratie
               items:
                 - name: Levenscyclus van configuratie beheren
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Lifecycle Services (LCS)
+                - name: Configuraties uploaden naar Lifecycle Services
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Configuraties importeren uit Lifecycle Services
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Configuraties downloaden uit Lifecycle Services
+                  href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Configuraties importeren
+                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ER-configuraties downloaden uit de RCS-opslagplaats
                   items:
-                    - name: Configuraties uploaden naar LCS
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Configuraties importeren uit LCS
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Configuraties downloaden uit LCS
-                      href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Configuraties importeren (LBD)
-                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Regulatory Configuration Service (RCS)
-                  items:
-                    - name: Overzicht van Regulatory Configuration Service (RCS)
-                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ER-configuraties downloaden naar Supply Chain Management
-                      items:
-                        - name: Configuraties downloaden uit RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Configuraties importeren uit RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Algemene opslagplaats (GR)
-                      items:
-                        - name: Configuraties importeren uit GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Bijgewerkte versies van ER-configuraties importeren
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Uitgebreid filteren om configuraties te vinden in GR
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Configuraties uploaden naar GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Configuraties delen in GR
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Configuraties stopzetten in de algemene opslagplaats van RCS
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Snelstarthandleidingen
-              items:
-                - name: Een ER-indeling aanpassen om een aangepast elektronisch document te genereren
-                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Een nieuwe ER-oplossing ontwerpen om een aangepast rapport af te drukken
-                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start1-new-solution.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Een ER-oplossing aanpassen om een aangepast elektronisch document te genereren
-                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start3-customize-report.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ER-configuraties downloaden uit de ER-opslagplaats voor het RCS-type
+                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Configuraties importeren uit RCS
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
             - name: Zelfstudies
               items:
-                - name: Informatie over het gebruik van gegevensbronnen
+                - name: JOIN-gegevensbronnen gebruiken om gegevens uit meerdere toepassingstabellen op te halen
+                  href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ER-modeltoewijzingen configureren afhankelijk van landencontext
+                  href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ER-indelingen configureren om parameters te gebruiken die per rechtspersoon worden opgegeven
+                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/supply-chain/toc.json
+                - name: De parameters van een ER-indeling per rechtspersoon instellen
+                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/supply-chain/toc.json
+                - name: De uitvoering van ER-opmaakelementen uitstellen
                   items:
-                    - name: JOIN gebruiken om gegevens uit meerdere tabellen op te halen
-                      href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: RAW XML gebruiken om inhoud toe te voegen
-                      href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Ondersteuning bieden voor parameteraanroepen van BEREKEND VELD-gegevensbronnen
-                      items:
-                        - name: De gebruikerservaring en het onderhoud van de gebruiksvriendelijkheid verbeteren
-                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Prestaties van gegevenstoegang verbeteren
-                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-ds-performance.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ER-gegevensbronnen voor meerdere bedrijven
-                      href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Gegevensbronnen met DETAILS VAN FINANCIËLE DIMENSIES gebruiken
-                      items:
-                        - name: Gegevensmodellen ontwerpen
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Modellen toewijzen voor het gebruik van financiële dimensies
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Rapporten ontwerpen
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Rapporten uitvoeren
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: De gegenereerde uitvoer gebruiken als gegevensbron voor tellen en totaliseren
-                      items:
-                        - name: Indelingen maken
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Indeling configureren voor tellen en totaliseren
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: De uitvoer genereren voor tellen en totaliseren
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Indelingen uitvoeren voor tellen en totaliseren
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: De DOCUMENTEN-relaties gebruiken om documentbeheerbestanden te openen
-                      items:
-                        - name: Gegevensmodellen voorbereiden
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Gegevensmodellen uitbreiden voor het gebruik van documentbeheerbestanden
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Indelingen maken
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Indelingen uitvoeren voor het gebruik van documentbeheerbestanden
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Indelingen wijzigen en uitvoeren voor het gebruik van documentbeheerbestanden
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Streepjescode gebruiken om afbeeldingen met streepjescode te genereren
-                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Gegevensbronnen voor opzoeken configureren om ER-toepassingsspecifieke parameters te gebruiken
-                      href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Gegevensbronnen voor GEGEVENSVERZAMELING in ER-indelingen gebruiken
-                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Foutopsporing in gegevensbronnen
-                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Modeltoewijzingen configureren
-                  items:
-                    - name: ER-modeltoewijzingen configureren afhankelijk van landencontext
-                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ER-modeltoewijzing in afzonderlijke ER-configuraties beheren
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Verschillende afgeleide toewijzingen voor één modelbasis beheren
-                      href: ../fin-ops-core/dev-itpro/analytics/er-multiple-model-mappings.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Indelingen configureren
-                  items:
-                    - name: Modeldefinities selecteren tijdens het maken van indelingen
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ER-indelingen configureren om parameters te gebruiken die per rechtspersoon worden opgegeven
-                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: De parameters van een ER-indeling per rechtspersoon instellen
-                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: De uitvoering van ER-opmaakelementen uitstellen
-                      items:
-                        - name: De uitvoering van een volgorde-element uitstellen
-                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: De uitvoering van een XML-element uitstellen
-                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Meertalige rapporten ontwerpen
-                      href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Grote uitgaande documenten comprimeren
-                      href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/supply-chain/toc.json
-                - name: De geconfigureerde ER-onderdelen controleren
-                  href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Relatief pad in gegevensbindingen
-                  href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ER-oplossingen gebruiken in Supply Chain Management
+                    - name: De uitvoering van een volgorde-element uitstellen
+                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: De uitvoering van een XML-element uitstellen
+                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Oplossingen voor elektronische rapportage gebruiken in Finance and Operations
               items:
                 - name: Het raamwerk configureren
                   items:
                     - name: Raamwerk elektronische rapportage configureren
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Back-ups van ER-sjablonen maken en deze herstellen
-                      items:
-                        - name: Back-upopslag van ER-sjablonen
-                          href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: ER-migratie opschonen
-                          href: ../fin-ops-core/dev-itpro/analytics/er-migration-cleanup.md?toc=/dynamics365/supply-chain/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Aanbieders van configuraties maken en deze als actief markeren
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Bestemmingen
@@ -1411,76 +1213,40 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Bestemmingen configureren
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Actieafhankelijke bestemmingen configureren
-                      href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Recordspecifieke ER-bestemmingen voor afdrukbeheer configureren
-                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Een verwijzing naar een ER-indeling instellen
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Gegenereerde rapporten automatisch valideren
                   items:
                     - name: Gegenereerde rapportresultaten volgen en vergelijken met de basislijnwaarden
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: De tracering van de resultaten van gegenereerde ER-rapporten voor vergelijking met basislijnwaarden verbeteren
+                    - name: Verbeteringen in de traceringsresultaten van gegenereerde ER-rapporten en vergelijkingen met basislijnwaarden
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Testen automatiseren met ER
+                    - name: Testen automatiseren met elektronische rapportage
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Bedrijfsprocessen automatiseren met behulp van configuraties voor elektronische rapportage
                   items:
-                    - name: ER configureren om gegevens op te halen in Power BI
+                    - name: Elektronische rapportage configureren om gegevens op te halen in Power BI
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Formulieren genereren voor afdrukbare vrije-tekstfacturen (FTI)
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Efficiënte ER-oplossingen ontwerpen
+                - name: Uitvoering van ER-indelingen traceren om prestatieproblemen op te lossen
+                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Beheer van bedrijfsdocumenten
                   items:
-                    - name: Uitvoering van ER-indelingen traceren om prestatieproblemen op te lossen
-                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Prestatieproblemen in ER-configuraties oplossen
-                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Beheer van bedrijfsdocumenten (BDM)
-                  items:
-                    - name: BDM-overzicht
+                    - name: Overzicht van Beheer van bedrijfsdocumenten
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Nieuwe gebruikersinterface voor documenten in BDM
+                    - name: Nieuwe gebruikersinterface voor documenten in beheer van bedrijfsdocumenten
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Bedrijfsdocumentsjablonen in BDM bewerken
-                      items:
-                        - name: Nieuwe velden toevoegen aan een sjabloon voor bedrijfsdocumenten in Microsoft Excel
-                          href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: De structuur van een bedrijfsdocumentsjabloon bijwerken
-                          href: ../fin-ops-core/dev-itpro/analytics/er-bdm-update-structure.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Nieuwe velden toevoegen aan een sjabloon voor bedrijfsdocumenten in Microsoft Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/supply-chain/toc.json
             - name: API ER-raamwerk
               items:
-                - name: De lijst met ingebouwde functies uitbreiden
+                - name: De lijst met functies voor elektronische rapportage uitbreiden
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/supply-chain/toc.json
-                - name: API-wijzigingen
-                  items:
-                    - name: Toepassingsupdate 7.3
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Toepassingsupdate 10.0.11
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Toepassingsupdate 10.0.17
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Toepassingsupdate 10.0.19
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Toepassingsupdate 10.0.21
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Toepassingsupdate 10.0.23
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Toepassingsupdate 10.0.25
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Wijzigingen in API voor raamwerk voor elektronische rapportage in Application update 7.3
+                  href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Een aangepaste opslaglocatie opgeven voor gegenereerde documenten
-                  items:
-                    - name: Abonneren op een gebeurtenis om een reactie te vragen van een abonneehandler
-                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Het maken van een ER-bestemming delegeren aan een aangepaste bestemmingsfabriek
-                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Een aangepaste bestemming implementeren voor gegenereerde documenten
-                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Gegevensbronwaarden van het type USER INPUT PARAMETER starten vanuit broncode
-                  href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Code wijzigen om gebruikers in staat te stellen de benoemde ER-bestemmingen te configureren en te gebruiken
-                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/supply-chain/toc.json
         - name: Voorraadbeheer
           items:
             - name: Overzicht van Voorraadbeheer
@@ -1493,46 +1259,24 @@
                   href: inventory/tasks/set-up-item-arrival-overview-profile.md
             - name: Kwaliteitsbeheer
               items:
-                - name: Overzicht van beheer voor kwaliteit en niet-conformering
+                - name: Overzicht van kwaliteitsbeheer
+                  href: inventory/enable-quality-management.md
+                - name: Processen voor kwaliteitsbeheer
                   href: inventory/quality-management-processes.md
-                - name: Beheer voor kwaliteit en niet-conformering inschakelen en configureren
-                  items:
-                    - name: Beheer voor kwaliteit en niet-conformering inschakelen
-                      href: inventory/enable-quality-management.md
-                    - name: Testinstrumenten voor kwaliteitsbeheer
-                      href: inventory/quality-test-instruments.md
-                    - name: Testen voor kwaliteitsbeheer
-                      href: inventory/quality-tests.md
-                    - name: Testvariabelen voor kwaliteitsbeheer
-                      href: inventory/quality-test-variables.md
-                    - name: Testgroepen voor kwaliteitsbeheer
-                      href: inventory/quality-test-groups.md
-                    - name: Artikelgroepen voor kwaliteitsbeheer
-                      href: inventory/quality-groups.md
-                    - name: Artikelbemonstering voor kwaliteitsbeheer
-                      href: inventory/quality-item-sampling.md
-                    - name: Kwaliteitskoppelingen
-                      href: inventory/quality-associations.md
-                    - name: Werknemers verantwoordelijk voor het goedkeuren van non-conformeringen
-                      href: inventory/quality-responsible-workers.md
-                    - name: Probleemtypen voor niet-conformering
-                      href: inventory/quality-problem-types.md
-                    - name: Quarantainezones voor niet-conformering
-                      href: inventory/quality-quarantine-zones.md
-                    - name: Diagnosetypen voor niet-conformering
-                      href: inventory/quality-diagnostic-types.md
-                    - name: Niet-conformeringsbewerkingen
-                      href: inventory/quality-operations.md
-                    - name: Kosten voor niet-conformeringsbewerkingen
-                      href: inventory/quality-charges.md
-                - name: Werken met kwaliteitsorders
-                  href: inventory/quality-orders.md
+                - name: Kwaliteitsbeheer voor magazijnprocessen
+                  href: inventory/quality-management-for-warehouses-processes.md
+                - name: Beheer van niet-conformering
+                  href: inventory/enable-nonconformance-management.md
+                - name: Vereisten voor beheer instellen
+                  href: inventory/tasks/set-up-prerequisites-nonconformance-management.md
+                - name: Een conformiteit maken en verwerken
+                  href: inventory/tasks/create-process-non-conformance.md
+                - name: Quarantaineorders
+                  href: inventory/quarantine-orders.md
+                - name: Kwaliteitsorders instellen
+                  href: inventory/tasks/set-up-quality-orders.md
                 - name: De kwaliteit van goederen inspecteren
                   href: inventory/tasks/inspect-quality-goods.md
-                - name: Een niet-conformering maken en verwerken
-                  href: inventory/tasks/create-process-non-conformance.md
-                - name: Werken met quarantaine-orders
-                  href: inventory/quarantine-orders.md
                 - name: Voorraadblokkering
                   href: inventory/inventory-blocking.md
                 - name: Voorraadblokkering maken en beheren
@@ -1587,9 +1331,11 @@
                   href: sales-marketing/register-serial-numbers-sales-process.md
                 - name: Mobiel werkgebied voorhanden voorraad
                   href: inventory/inventory-on-hand-mobile-workspace.md
+                - name: Problemen met voorraadbewerkingen oplossen
+                  href: inventory/troubleshoot-inventory-operations.md
             - name: Uitgaand proces
               items:
-                - name: Overzicht van Uitgaand proces
+                - name: Overzicht van uitgaand proces
                   href: inventory/outbound-process.md
                 - name: Voorraadhoeveelheden reserveren
                   href: inventory/reserve-inventory-quantities.md
@@ -1607,22 +1353,8 @@
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
             - name: Voorraadtransacties archiveren
               href: inventory/archive-inventory-transactions.md
-            - name: Invoegtoepassing Voorraadzichtbaarheid
-              items:
-                - name: Overzicht van invoegtoepassing Voorraadzichtbaarheid
-                  href: inventory/inventory-visibility.md
-                - name: Voorraadzichtbaarheid installeren en instellen
-                  href: inventory/inventory-visibility-setup.md
-                - name: Voorraadzichtbaarheid configureren
-                  href: inventory/inventory-visibility-configuration.md
-                - name: De app Voorraadzichtbaarheid gebruiken
-                  href: inventory/inventory-visibility-power-platform.md
-                - name: Reserveringen voor Voorraadzichtbaarheid
-                  href: inventory/inventory-visibility-reservations.md
-                - name: Openbare API's voor Voorraadzichtbaarheid
-                  href: inventory/inventory-visibility-api.md
-                - name: Tips voor Voorraadzichtbaarheid
-                  href: inventory/inventory-visibility-tips.md
+            - name: Invoegtoepassing voorraadzichtbaarheid
+              href: inventory/inventory-visibility.md
         - name: IoT-intelligentie
           items:
             - name: Startpagina van IoT-intelligentie
@@ -1651,64 +1383,38 @@
                   href: master-planning/planning-optimization/planning-optimization-overview.md
                 - name: Aan de slag met Planningsoptimalisatie
                   href: master-planning/planning-optimization/get-started.md
-                - name: Vrijgaveproces en vrijgavegeschiedenis van Planningsoptimalisatie
-                  href: master-planning/planning-optimization/release-process.md
                 - name: Analyse aanpassen aan Planningsoptimalisatie
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
-                - name: Verschillen tussen ingebouwde hoofdplanning en Planningsoptimalisatie
-                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
-                - name: Parameters die niet worden gebruikt door Planningsoptimalisatie
-                  href: master-planning/planning-optimization/not-used-parameters.md
-                - name: Voorraadplanning
-                  href: master-planning/supply-schedule.md
                 - name: Filters op een plan toepassen
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Hoofdplanning met vraagprognose
                   href: master-planning/planning-optimization/demand-forecast.md
                 - name: Hoofdplanning met inkoophandelsovereenkomsten
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
-                - name: Datum- en tijdparameters die niet worden gebruikt door Planningsoptimalisatie
-                  href: master-planning/planning-optimization/date-time-used.md
                 - name: Veiligheidsmarges
                   href: master-planning/planning-optimization/safety-margins.md
-                - name: Vertragingstolerantie (negatieve dagen)
-                  href: master-planning/planning-optimization/delay-tolerance.md
                 - name: Opdrachten tot inkoop
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Productieplanning
                   href: master-planning/planning-optimization/production-planning.md
-                - name: Plannen met oneindige capaciteit
-                  href: master-planning/planning-optimization/infinite-capacity-planning.md
-                - name: Plannen met resourceselectie op basis van capaciteit
-                  href: master-planning/planning-optimization/capability-based-scheduling.md
-                - name: Planning op basis van prioriteit
-                  href: master-planning/planning-optimization/priority-based-planning.md
-                - name: Voorraadmarkering met Planningsoptimalisatie
+                - name: Voorraadmarkering met planningsoptimalisatie
                   href: master-planning/planning-optimization/marking.md
-                - name: Intercompany planning
+                - name: Intercompany-planning
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: Producten uitsluiten met bepaalde productlevenscyclusstatussen
                   href: master-planning/planning-optimization/product-lifecycle-state.md
-                - name: Aanvullingsmethoden en gewijzigde hoeveelheden
-                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: Time fences voor behoefteplanning
                   href: master-planning/planning-optimization/coverage-time-fence.md
-                - name: Nettovereisten en informatie over tracering van de behoefte met Planningsoptimalisatie
-                  href: master-planning/planning-optimization/net-requirements.md
                 - name: Geplande orders goedkeuren
                   href: master-planning/planning-optimization/approved-planned-order.md
-                - name: Vast geplande orders
-                  href: master-planning/planning-optimization/planned-order-firming.md
-                - name: Geplande orders vereenvoudigd
-                  href: master-planning/planning-optimization/planned-orders-simplified.md
+                - name: Automatische fiattering met Planningsoptimalisatie
+                  href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Planning met negatieve voorhanden hoeveelheden
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Planhistorie en planningslogboeken weergeven
                   href: master-planning/planning-optimization/plan-history-logs.md
                 - name: Een planningstaak annuleren
                   href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: Actieberichten
-                  href: master-planning/action-messages.md
                 - name: Problemen met Planningsoptimalisatie oplossen
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
                 - name: Uitbreidbaarheid van Planningsoptimalisatie
@@ -1731,16 +1437,16 @@
                   href: master-planning/tasks/create-material-plan-co-products.md
                 - name: Geplande orders onderhouden
                   href: master-planning/maintain-planned-orders.md
-                - name: Veiligheidsvoorraadafhandeling voor items
+                - name: Afhandeling van veiligheidsvoorraad voor artikelen
                   href: master-planning/safety-stock-replenishment.md
-                - name: Het journaal van de veiligheidsvoorraad gebruiken om minimale dekking voor items bij te werken
-                  href: master-planning/safety-stock-journal.md
                 - name: Vertragingen
                   href: master-planning/delays.md
                 - name: Een hoofdplanningstaak annuleren
                   href: master-planning/cancel-master-planning-job.md
                 - name: Tracering gebruiken voor explosie
                   href: master-planning/trace-explosion.md
+                - name: Actieberichten
+                  href: master-planning/action-messages.md
                 - name: Een hoofdplanningsuitvoering controleren
                   href: master-planning/tasks/monitor-master-planning-run.md
                 - name: Een planning voor een vestiging maken
@@ -1749,8 +1455,6 @@
                   href: master-planning/tasks/create-plan-site.md
                 - name: Kalenders en hoofdplanning
                   href: master-planning/supply-chain-calendars-master-planning.md
-                - name: Fout 'Onvoldoende capaciteit gevonden' in planningsengine oplossen
-                  href: master-planning/not-enough-capacity-error-resolution.md
                 - name: Prestaties van hoofdplanning verbeteren
                   href: master-planning/master-planning-performance.md
                 - name: Prestaties van planningsengine verbeteren
@@ -1777,40 +1481,34 @@
                   href: master-planning/tasks/create-intercompany-plan.md
                 - name: Uitgaande geplande intercompany-vraag weergeven
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: Nettovereisten en informatie over tracering van de behoefte met ingebouwde hoofdplanning
-                  href: master-planning/net-requirements-built-in-master-planning.md
-            - name: Prognose maken
+                - name: Samenwerken met interne klanten van toeleveringsketen
+                  href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
+            - name: Vraagprognose
               items:
-                - name: Prognoses voor vraag en aanbod
-                  items:
-                    - name: Voorraadprognoses
-                      href: master-planning/inventory-forecast.md
-                    - name: 'Handleiding: Handmatig een vraagprognose wijzigen'
-                      href: master-planning/tasks/modify-demand-forecast-manually.md
-                - name: Vraagprognose
-                  items:
-                    - name: Overzicht van Vraagprognose
-                      href: master-planning/introduction-demand-forecasting.md
-                    - name: Instelling van Vraagprognose
-                      href: master-planning/demand-forecasting-setup.md
-                    - name: Een statistische basislijnprognose genereren
-                      href: master-planning/generate-statistical-baseline-forecast.md
-                    - name: Handmatige correctie uitvoeren in de basislijnprognose
-                      href: master-planning/manual-adjustments-baseline-forecast.md
-                    - name: Een gecorrigeerde vraagprognose autoriseren
-                      href: master-planning/authorize-adjusted-forecast.md
-                    - name: Historische gegevens voor vraagprognoses importeren
-                      href: master-planning/import-historical-data.md
-                    - name: Uitschieters verwijderen uit historische transactiegegevens bij het berekenen van een vraagprognose
-                      href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
-                    - name: Prognosenauwkeurigheid controleren
-                      href: master-planning/monitor-forecast-accuracy.md
-                    - name: 'Handleiding: Een basislijnprognose maken'
-                      href: master-planning/tasks/create-baseline-forecast.md
-                - name: Hoofdplanning met prognose
-                  items:
-                    - name: Reductiesleutels van prognose
-                      href: master-planning/reduction-keys.md
+                - name: Overzicht van Vraagprognose
+                  href: master-planning/introduction-demand-forecasting.md
+                - name: Instelling van Vraagprognose
+                  href: master-planning/demand-forecasting-setup.md
+                - name: Historische gegevens voor vraagprognoses importeren
+                  href: master-planning/import-historical-data.md
+                - name: Een statistische basislijnprognose genereren
+                  href: master-planning/generate-statistical-baseline-forecast.md
+                - name: Handmatige correctie uitvoeren in de basislijnprognose
+                  href: master-planning/manual-adjustments-baseline-forecast.md
+                - name: Een gecorrigeerde vraagprognose autoriseren
+                  href: master-planning/authorize-adjusted-forecast.md
+                - name: Prognosenauwkeurigheid controleren
+                  href: master-planning/monitor-forecast-accuracy.md
+                - name: Uitschieters verwijderen uit historische transactiegegevens bij het berekenen van een vraagprognose
+                  href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
+                - name: Reductiesleutels
+                  href: master-planning/reduction-keys.md
+                - name: Een basislijnprognose maken
+                  href: master-planning/tasks/create-baseline-forecast.md
+                - name: Handmatig een vraagprognose wijzigen
+                  href: master-planning/tasks/modify-demand-forecast-manually.md
+            - name: Problemen met hoofdplanning oplossen
+              href: master-planning/troubleshoot-masterplanning.md
         - name: Mobiele app
           items:
             - name: Startpagina mobiele app
@@ -1826,7 +1524,7 @@
                 - name: Kostenbeheer
                   href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Onkostenbeheer
-                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: ../finance/expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Voorhanden voorraad
                   href: inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Factuurgoedkeuringen
@@ -1834,11 +1532,11 @@
                 - name: Mijn team
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Overzicht van Mobiele Project-toepassingen
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: ../finance/project-management/project-mobile-application-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Projecttijdinvoer
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: ../finance/project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Project Timesheet
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: ../finance/project-management/project-timesheet.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Goedkeuring van inkooporder
                   href: procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Verkooporders
@@ -1855,7 +1553,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/supply-chain/toc.json
             - name: Entiteitsgegevens in Excel openen en bijwerken met de Excel-invoegtoepassing
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Veelgestelde vragen over ervaringen met Openen in Excel
+            - name: Ervaringen met Openen in Excel maken
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/supply-chain/toc.json
             - name: Sjablonen toevoegen aan het menu Regels openen in Excel
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/supply-chain/toc.json
@@ -1901,15 +1599,13 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Het globale adresboek configureren
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Adresinstelling
-                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Veelgestelde vragen over adresboeken
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Adresboeken configureren
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/supply-chain/toc.json
             - name: Werkstroomsysteem
               items:
-                - name: Overzicht van het werkstroomsysteem
+                - name: Overzicht van Werkstroomsysteem
                   href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Werkstroomsysteemarchitectuur
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/supply-chain/toc.json
@@ -1931,8 +1627,6 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Goedkeuringsstappen configureren
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Uitgavencontroleurs configureren
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Handmatige beslissingen configureren
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Voorwaardelijke beslissingen configureren
@@ -2015,6 +1709,8 @@
               href: procurement/procurement-sourcing-overview.md
             - name: Werkstroom voor Inkoopbeheer
               href: procurement/procurement-sourcing-workflows.md
+            - name: Problemen oplossen met werkstromen voor inkoopbeheer
+              href: procurement/troubleshoot-procurementworkflows.md
             - name: Aanschaffingscatalogi
               items:
                 - name: Overzicht van Aanschaffingscatalogi
@@ -2031,12 +1727,10 @@
                   href: procurement/purchase-requisitions-workflow.md
             - name: Offerteaanvragen
               items:
-                - name: Overzicht van offerteaanvragen
+                - name: Overzicht van Offerteaanvragen
                   href: procurement/request-quotations.md
                 - name: Een offerteaanvraag maken
                   href: procurement/tasks/create-request-quotation.md
-                - name: Verzegelde biedingen voor offerteaanvragen
-                  href: procurement/sealed-bidding.md
                 - name: Een bestelopdracht maken die een offerteaanvraag gebruikt
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: Een scoringsmethode maken voor offerteaanvragen
@@ -2055,12 +1749,10 @@
                   href: procurement/purchase-order-approval-confirmation.md
                 - name: Mobiel werkgebied voor goedkeuring van inkooporders
                   href: procurement/purchase-order-mobile-workspace.md
-                - name: Een intercompany-inkooporder voor intern gebruik maken en factureren
-                  href: sales-marketing/intercompany-purchase-order-for-internal-use.md
-                - name: Prijsverschillen in intercompany-orders controleren
-                  href: sales-marketing/intercompany-check-price-discrepancies.md
                 - name: De ontvangst van goederen registreren voor de inkooporder
-                  href: procurement/tasks/record-receipt-goods-purchase-order.md
+                  href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                - name: Problemen oplossen met inkooporders
+                  href: procurement/troubleshoot-purchaseorders.md
             - name: Inkooporder maken
               items:
                 - name: Inkooporders handmatig maken
@@ -2071,7 +1763,9 @@
                   href: procurement/tasks/create-purchase-order-delivery-schedule.md
                 - name: Een inkooporder maken voor een eenmalige leverancier
                   href: procurement/tasks/create-purchase-order-one-time-supplier.md
-                - name: Een inkoopovereenkomst toepassen bij het maken van een inkooporder
+                - name: Een vrijgaveorder voor inkoop maken wanneer de inkooporder wordt gemaakt
+                  href: procurement/tasks/create-purchase-release-order-creating-purchase-order.md
+                - name: Een vrijgaveorder maken voor inkoop van een inkoopovereenkomst
                   href: procurement/tasks/create-purchase-release-order-purchase-agreement.md
                 - name: Een inkoopretourorder maken
                   href: procurement/tasks/create-purchase-return-order.md
@@ -2091,11 +1785,13 @@
                   href: procurement/automatic-charges-allocation.md
                 - name: Leverancierskortingen
                   href: procurement/vendor-rebates.md
-            - name: Inkoopbeleid
+                - name: 'Problemen met prijzen, kortingen en overeenkomsten oplossen'
+                  href: procurement/troubleshooting-pricediscountagreements.md
+            - name: Aanschafbeleid
               items:
-                - name: Overzicht van inkoopbeleid
+                - name: Overzicht van Aanschafbeleid
                   href: procurement/purchase-policies.md
-                - name: Een inkoopbeleid maken
+                - name: Een aanschafbeleid maken
                   href: procurement/tasks/create-purchasing-policies.md
                 - name: Beleid instellen voor categoriehiërarchieën voor aanschaffing
                   href: procurement/tasks/set-up-policies-procurement-category-hierarchies.md
@@ -2105,7 +1801,9 @@
                   href: procurement/product-receipt-against-purchase-orders.md
                 - name: Overzicht van leveranciersfacturen
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Leveranciersbeheer en samenwerking
+                - name: Problemen oplossen met productontvangsten en -facturering
+                  href: procurement/troubleshooting-productreceiptinvoicing.md
+            - name: Leveranciersbeheer en -samenwerking
               items:
                 - name: Samenwerking met leveranciers instellen en onderhouden
                   href: procurement/set-up-maintain-vendor-collaboration.md
@@ -2125,14 +1823,8 @@
                   href: procurement/vendor-onboarding.md
                 - name: Leverancierssamenwerking met externe leveranciers
                   href: procurement/vendor-collaboration-work-external-vendors.md
-                - name: Leverancierscertificering onderhouden
-                  href: ../finance/public-sector/manage-vendor-certification.md
-                - name: Categorieaanvragen van leveranciers
-                  href: procurement/category-requests-from-vendors.md
                 - name: Leverancierssamenwerking met klanten
                   href: procurement/vendor-collaboration-work-customers-dynamics-365-operations.md
-                - name: Bankrekeninggegevens van leverancier onderhouden
-                  href: ../finance/accounts-payable/maintain-vendor-bank-info.md
                 - name: Leverancierscatalogi importeren
                   href: procurement/vendor-catalogs-import.md
                 - name: Externe catalogus instellen voor PunchOut eProcurement
@@ -2155,12 +1847,10 @@
               items:
                 - name: Informatie voor projectresource instellen
                   href: procurement/tasks/set-up-project-resource-information.md
-                - name: Een projectbudgetwerkstroom maken en indienen
+                - name: Projectbudgetten indienen en goedkeuren
                   href: procurement/tasks/submit-approve-project-budget.md
                 - name: Revisies van projectbudget indienen en goedkeuren
                   href: procurement/tasks/submit-approve-project-budget-revision.md
-            - name: Veelgestelde vragen over inkoop
-              href: procurement/procurement-faq.md
         - name: Productgegevensbeheer
           items:
             - name: Overzicht van Productgegevens
@@ -2185,8 +1875,6 @@
                   href: pim/tasks/create-product-master.md
                 - name: Vooraf gedefinieerde productvarianten maken
                   href: pim/tasks/create-predefined-product-variants.md
-                - name: Maateenheden beheren
-                  href: pim/tasks/manage-unit-measure.md
                 - name: Conversie van maateenheid per productvariant
                   href: pim/uom-conversion-per-product-variant.md
                 - name: Een vrijgegeven product maken voor een enkel bedrijf
@@ -2255,6 +1943,8 @@
                   href: pim/tasks/set-up-attribute-based-pricing-configurable-products.md
                 - name: Stuklijstberekeningen
                   href: cost-management/bom-calculations.md
+                - name: Problemen met productinformatie oplossen
+                  href: pim/troubleshooting-productinformation.md
             - name: Productconfiguratie
               items:
                 - name: Overzicht van Productconfiguratie
@@ -2285,8 +1975,6 @@
                   items:
                     - name: Een productconfiguratiemodel instellen
                       href: pim/set-up-maintain-product-configuration-model.md
-                    - name: Berekeningen van productconfiguratiemodel
-                      href: pim/config-model-calculations.md
                     - name: Veelgestelde vragen over berekening van productconfiguratiemodel
                       href: pim/calculate-product-configuration-models.md
                     - name: Configuratieregel
@@ -2317,8 +2005,8 @@
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: Gegevens overbrengen voor productmodellen
                       href: pim/tasks/transfer-data-product-models.md
-            - name: Veelgestelde vragen over productgegevensbeheer
-              href: pim/product-information-faq.md
+                - name: Problemen met de productconfiguratie oplossen
+                  href: pim/troubleshooting-productconfigurator.md
         - name: Beheer voor technische wijzigingen
           items:
             - name: Overzicht van technisch wijzigingsbeheer
@@ -2337,8 +2025,6 @@
               href: engineering-change-management/engineering-attributes-and-search.md
             - name: Technische versies en technische productcategorieën
               href: engineering-change-management/engineering-versions-product-category.md
-            - name: Wijzigingen in formules en hun ingrediënten beheren
-              href: engineering-change-management/manage-formula-changes.md
             - name: Wijzigingsbeheer voor bestaande producten inschakelen
               href: engineering-change-management/change-management-existing-products.md
             - name: Productlevenscyclusstatus en transacties
@@ -2349,10 +2035,6 @@
               href: engineering-change-management/product-readiness.md
             - name: Productstructuur vrijgeven
               href: engineering-change-management/release-product-structure.md
-            - name: Varianten genereren voor technische producten
-              href: engineering-change-management/engineering-variants.md
-            - name: Veelgestelde vragen over beheer voor technische wijzigingen
-              href: engineering-change-management/change-management-faq.md
         - name: Productiebeheer
           items:
             - name: Overzicht van Productieproces
@@ -2361,13 +2043,7 @@
               href: production-control/mixed-mode-plan.md
             - name: Het uitbesteden van werk in de productie beheren
               href: production-control/manage-subcontract-work-production.md
-            - name: Uniforme getallenreeks voor taak-id's
-              href: production-control/unified-job-ids.md
-            - name: Procesautomatiseringsstromen aanroepen om kwaliteitsorders te maken
-              href: production-control/process-automation-quality-orders.md
-            - name: Integreren met productie-uitvoeringssystemen van derden
-              href: production-control/mes-integration.md
-            - name: Maakindustrie
+            - name: Discrete productie
               items:
                 - name: Hoofdgegevens productie onderhouden
                   items:
@@ -2383,6 +2059,8 @@
                       href: production-control/phantom-items.md
                     - name: Stuklijstberekeningen
                       href: cost-management/bom-calculations.md
+                    - name: Maateenheid beheren
+                      href: pim/tasks/manage-unit-measure.md
                     - name: Productieparameters in Productieregistratie
                       href: production-control/production-parameters-manufacturing-execution.md
                     - name: Bronnen voor bedrijfsactiviteiten
@@ -2445,8 +2123,20 @@
                           href: production-control/tasks/end-production-order.md
                     - name: Productieorders vrijgeven
                       href: production-control/release-production-orders.md
-                    - name: Productieorders als voltooid melden
+                    - name: Productieorders gereedmelden
                       href: production-control/report-production-orders-as-finished.md
+                    - name: De uitvoeringsinterface voor de werkvloer instellen en gebruiken
+                      items:
+                        - name: De uitvoeringsinterface voor de werkvloer configureren
+                          href: production-control/production-floor-execution-configure.md
+                        - name: De uitvoeringsinterface voor de werkvloer ontwerpen
+                          href: production-control/production-floor-execution-tabs.md
+                        - name: Een apparaat instellen om de uitvoeringsinterface voor de werkvloer uit te voeren
+                          href: production-control/production-floor-execution-setup.md
+                        - name: Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken
+                          href: production-control/production-floor-execution-use.md
+                        - name: Besturingselementstijlen van gebruikersinterface voor uitvoering op werkvloer
+                          href: production-control/production-floor-execution-styles.md
                     - name: Taakkaart configureren voor apparaten
                       href: production-control/config-job-card-device.md
                     - name: Gereedmelden vanaf het taakkaartapparaat
@@ -2501,6 +2191,8 @@
                       href: production-control/absence-registration-in-time-and-attendance.md
                     - name: Flexgroepen
                       href: production-control/time-attendance-flex-groups.md
+                - name: Problemen met afzonderlijke productie oplossen
+                  href: production-control/troubleshoot-discretemanufacturing.md
             - name: Lean manufacturing
               items:
                 - name: Overzicht van lean manufacturing
@@ -2653,46 +2345,8 @@
                       href: production-control/consumption.md
                     - name: Productieboeking
                       href: cost-management/production-posting.md
-            - name: De uitvoeringsinterface voor de werkvloer instellen en gebruiken
-              items:
-                - name: De uitvoeringsinterface voor de werkvloer configureren
-                  href: production-control/production-floor-execution-configure.md
-                - name: De uitvoeringsinterface voor de werkvloer ontwerpen
-                  href: production-control/production-floor-execution-tabs.md
-                - name: Een apparaat instellen om de uitvoeringsinterface voor de werkvloer uit te voeren
-                  href: production-control/production-floor-execution-setup.md
-                - name: Hoe medewerkers de interface voor de uitvoering van de productievloer gebruiken
-                  href: production-control/production-floor-execution-use.md
-                - name: De interface voor de uitvoering van de productievloer ontwerpen
-                  href: production-control/production-floor-execution-styles.md
-                - name: De interface voor de uitvoering van de productievloer aanpassen
-                  href: production-control/production-floor-execution-customize.md
-        - name: Kortingsbeheer
-          items:
-            - name: Overzicht van module Kortingsbeheer
-              href: rebate-management/rebate-management-overview.md
-            - name: De module Kortingsbeheer instellen en configureren
-              items:
-                - name: De module Kortingsbeheer voor uw systeem inschakelen
-                  href: rebate-management/rebate-management-enable.md
-                - name: Parameters voor kortingsbeheer
-                  href: rebate-management/rebate-management-parameters.md
-                - name: Werkstromen voor kortingsbeheerdeals
-                  href: rebate-management/rebate-management-workflows.md
-                - name: Beginselen voor kortingsreductie
-                  href: rebate-management/rebate-reduction-principle.md
-                - name: Kortingsstatussen
-                  href: rebate-management/rebate-statuses.md
-                - name: Groepen voor kortingsbeheer
-                  href: rebate-management/rebate-management-groups.md
-                - name: Boekingsinstellingen voor kortingsbeheer
-                  href: rebate-management/rebate-management-posting.md
-            - name: Deals voor kortingsbeheer
-              href: rebate-management/rebate-management-deals.md
-            - name: 'Kortingen verwerken, controleren en posten'
-              href: rebate-management/process-review-post.md
-            - name: Inhoudingen beheren met de inhoudingsworkbench
-              href: rebate-management/deduction-workbench.md
+                - name: Problemen met procesfabricage oplossen
+                  href: production-control/troubleshoot-processmanufacturing.md
         - name: Verkoop en marketing
           items:
             - name: Overzicht van Verkoop en marketing
@@ -2731,8 +2385,8 @@
                   href: sales-marketing/tasks/manage-order-holds.md
                 - name: Verkooporders bevestigen
                   href: sales-marketing/tasks/confirm-sales-orders.md
-                - name: Veelgestelde vragen over verkooporders
-                  href: sales-marketing/sales-orders-faq.md
+                - name: Problemen oplossen met verkooporders
+                  href: sales-marketing/troubleshooting-sales.md
             - name: Verkoopovereenkomsten
               items:
                 - name: Overzicht van verkoopovereenkomsten
@@ -2755,62 +2409,8 @@
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Verkoopoffertes maken en bewerken
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
-            - name: Intercompany-handel
-              items:
-                - name: Intercompany-handel instellen
-                  items:
-                    - name: Intercompany-handel instellen
-                      href: sales-marketing/intercompany-trade-set-up.md
-                    - name: Intercompany-parameters
-                      href: sales-marketing/intercompany-parameters.md
-                    - name: 'Leveranciers, klanten en artikelen voor intercompany-handel instellen'
-                      href: sales-marketing/intercompany-set-up-vendors-customers-items.md
-                    - name: Toeslagen op intercompany-orders instellen
-                      href: sales-marketing/intercompany-set-up-charges.md
-                    - name: Parameters instellen om een intercompany-order te boeken
-                      href: sales-marketing/intercompany-set-up-parameters-to-post-order.md
-                - name: Intercompany-gegevens synchroniseren
-                  items:
-                    - name: Intercompany-prijzen en -kortingen synchroniseren
-                      href: sales-marketing/intercompany-sync-prices-discounts.md
-                    - name: Intercompany-toeslagen synchroniseren
-                      href: sales-marketing/intercompany-sync-charges.md
-                    - name: Intercompany-klantgegevens synchroniseren
-                      href: sales-marketing/intercompany-synch-customer-information.md
-                    - name: Intercompany-beschikkingscodes synchroniseren
-                      href: sales-marketing/intercompany-synchronize-disposition-codes.md
-                - name: Intercompany-verkooporders en -facturen
-                  items:
-                    - name: Het maken van intercompany-inkooporders en -verkooporders in diverse bedrijven
-                      href: sales-marketing/intercompany-orders-in-several-companies.md
-                    - name: Intercompany-orders en -retourorders
-                      href: sales-marketing/intercompany-orders-and-return-orders.md
-                    - name: Een intercompany-verkooporder voor intern gebruik maken
-                      href: sales-marketing/intercompany-sales-order-for-internal-use.md
-                    - name: Een intercompany-verkooporder voor een externe klant maken en factureren
-                      href: sales-marketing/intercompany-sales-order-for-external-customer.md
-                    - name: Intercompany-reserveringen
-                      href: sales-marketing/intercompany-reservations.md
-                    - name: Een originele intercompany-verkooporder wijzigen of verwijderen
-                      href: sales-marketing/intercompany-change-delete-original-sales-order.md
-                    - name: Intercompany-orders wijzigen
-                      href: sales-marketing/intercompany-change-orders.md
-                    - name: Intercompany-batch- en serienummers
-                      href: sales-marketing/intercompany-batch-serial-numbers.md
-                    - name: Intercompany-pakbonnen
-                      href: sales-marketing/intercompany-packing-slips.md
-                    - name: Betalingen automatisch registreren voor intercompany-klantfacturen
-                      href: sales-marketing/intercompany-register-customer-payments-automatically.md
-                - name: Intercompany-inkooporders
-                  items:
-                    - name: Een intercompany-inkooporder voor intern gebruik maken en factureren
-                      href: sales-marketing/intercompany-purchase-order-for-internal-use.md
-                    - name: Prijsverschillen in intercompany-orders controleren
-                      href: sales-marketing/intercompany-check-price-discrepancies.md
-                - name: Intercompany-valutaconversies
-                  href: sales-marketing/intercompany-currency-conversions.md
-                - name: Intercompany-hoofdplanning
-                  href: sales-marketing/intercompany-master-scheduling.md
+                - name: Problemen oplossen met verkoopoffertes
+                  href: sales-marketing/troubleshooting-salesquotation.md
             - name: Retouren
               items:
                 - name: Verkoopretouren
@@ -2835,8 +2435,6 @@
               href: sales-marketing/trade-allowance.md
             - name: Een nieuwe handelsovereenkomst maken
               href: sales-marketing/tasks/create-new-trade-agreement.md
-            - name: Prestatieverbeteringen bij opschonen van verkoophistorie
-              href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
         - name: Servicebeheer
           items:
             - name: Overzicht van Servicebeheer
@@ -3121,10 +2719,6 @@
               href: transportation/tasks/load-template.md
             - name: Classificatieprofielen
               href: transportation/tasks/setup-a-rating-profile.md
-            - name: LTL-klassen
-              href: transportation/ltl-class.md
-            - name: NMFC-codes
-              href: transportation/nmfc-codes.md
             - name: Brandstofindex van een vervoerder instellen
               href: transportation/tasks/set-up-carrier-fuel-index.md
             - name: Een transportbetalingsmethode instellen
@@ -3151,8 +2745,6 @@
               href: landed-cost/landed-cost-vs-tms.md
             - name: De module Francoprijzen instellen en configureren
               items:
-                - name: De module Francoprijzen voor uw systeem inschakelen
-                  href: landed-cost/landed-cost-enable.md
                 - name: Parameters van francoprijzen
                   href: landed-cost/landed-cost-parameters.md
                 - name: Parameters van francoprijzen voor inkoop en sourcing
@@ -3189,8 +2781,6 @@
               href: landed-cost/in-transit-processing.md
             - name: Over-/ondertransacties verwerken
               href: landed-cost/over-under-transactions.md
-            - name: Bijhouden van updates voor wegzetten
-              href: landed-cost/update-tracking-putaway.md
             - name: Vragen over francoprijzen
               href: landed-cost/landed-cost-inquiries.md
             - name: Rapporten over francoprijzen
@@ -3207,8 +2797,6 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: Artikelen registreren voor een artikel waarvoor basaal magazijnbeheer mogelijk is met een artikelontvangstjournaal
                   href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: Inkomende ASN's importeren via de V2-gegevensentiteit
-                  href: warehousing/import-asn-v2-data-entity.md
                 - name: Producten cross-docken vanuit ontvangend magazijn naar winkels
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: Een locatie-instructie instellen voor wegzetten van inkooporders
@@ -3219,22 +2807,26 @@
                   href: warehousing/location-product-dimension-mixing.md
                 - name: Wegzetclusters
                   href: warehousing/putaway-clusters.md
-                - name: Kwaliteitsbeheer voor magazijnprocessen
-                  href: inventory/quality-management-for-warehouses-processes.md
                 - name: Kwaliteitscontrole
                   href: warehousing/quality-check.md
+                - name: Problemen met inkomende magazijnbewerkingen oplossen
+                  href: warehousing/troubleshoot-warehouse-inbound.md
             - name: Uitgaande magazijnbewerkingen
               items:
-                - name: Flexibel reserveringsbeleid voor dimensies op magazijnniveau
-                  href: warehousing/flexible-warehouse-level-dimension-reservation.md
-                - name: Vrijgeven aan magazijn
-                  href: warehousing/release-to-warehouse-process.md
+                - name: Reserveringen in magazijnbeheer
+                  items:
+                    - name: Flexibel reseveringsbeleid voor dimensies op magazijnniveau
+                      href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                    - name: Problemen met reserveringen in magazijnbeheer oplossen
+                      href: warehousing/troubleshoot-warehouse-reservations.md
                 - name: Gedeeltelijke vrijgave en gedeeltelijke verzending
                   items:
                     - name: Gedeeltelijke verzending van een transportlading
                       href: warehousing/partial-shipping-of-transport-loads.md
                     - name: Batchvrijgave van gedeeltelijk gereserveerde transferorders
                       href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
+                    - name: Problemen met gedeeltelijke vrijgaven en gedeeltelijke verzendingen oplossen
+                      href: warehousing/troubleshoot-warehouse-partial-release-shipment.md
                 - name: Verzamelen en verpakken
                   items:
                     - name: Clusterverzameling instellen
@@ -3243,10 +2835,10 @@
                       href: warehousing/cluster-position-full.md
                     - name: Door systeem gestuurde clusterverzameling
                       href: warehousing/system-directed-cluster-pick.md
-                    - name: Oververzamelen voor verkooporders en transferorders
-                      href: warehousing/over-picking-for-sales-and-transfer-orders.md
                     - name: Verschillende dimensies voor verpakking en opslag instellen
                       href: warehousing/packing-vs-storage-dimensions.md
+                    - name: Containervorming instellen
+                      href: warehousing/tasks/set-up-containerization.md
                     - name: Bevestiging van batch en nummerplaat
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: Afdrukken van nummerplaatlabel inschakelen
@@ -3271,14 +2863,14 @@
                       href: warehousing/warehouse-slotting.md
                     - name: Locatie-instructie voor naar ouderdom gerangschikte voorraadorderverzameling
                       href: warehousing/location-directive-inventory-picking-aging.md
-                    - name: Verankering
-                      href: warehousing/anchoring.md
                     - name: Uitgaand sorteren
                       href: warehousing/outbound-sorting.md
                     - name: Put to wall - put to store
                       href: warehousing/put-to-wall-put-to-store.md
                     - name: Visualisatie van uitgaande workload
                       href: warehousing/outbound-workload-visualization.md
+                    - name: Problemen met verzamelen en verpakken oplossen
+                      href: warehousing/troubleshoot-warehouse-picking-packing.md
                 - name: Aanvulling
                   items:
                     - name: Overzicht van Aanvulling
@@ -3295,6 +2887,8 @@
                       href: warehousing/replenishment-strategies.md
                     - name: Aanvulling boven locatiecapaciteit
                       href: warehousing/replenishment-over-location-capacity.md
+                    - name: Problemen met magazijnaanvulling oplossen
+                      href: warehousing/troubleshoot-warehouse-replenishment.md
                 - name: Ladingopbouw en zendingen
                   items:
                     - name: Bevestigen en overboeken
@@ -3305,28 +2899,32 @@
                       href: warehousing/advanced-load-building-during-wave.md
                     - name: Vrijgeven aan magazijnregel
                       href: warehousing/release-to-warehouse-rule.md
+                    - name: Wave-sjabloongroepering
+                      href: warehousing/wave-template-grouping.md
+                    - name: Wavelabels opnieuw afdrukken en ongeldig maken
+                      href: warehousing/reprint-and-void-wave-labels.md
                     - name: Kleine pakketten verzenden
                       href: warehousing/small-parcel-shipping.md
+                    - name: Problemen met ladingopbouw en zendingen oplossen
+                      href: warehousing/troubleshoot-warehouse-loads-shipments.md
                 - name: Beleidsregels voor consolidatie van zendingen
                   items:
                     - name: Beleidsregels voor consolidatie van zendingen
                       href: warehousing/about-shipment-consolidation-policies.md
                     - name: Beleidsregels voor samenvoegen van zendingen configureren
                       href: warehousing/configure-shipment-consolidation-policies.md
-                    - name: 'Scenario 1: Zendingen samenvoegen die aan het magazijn zijn vrijgegeven via automatische vrijgave van verkooporders'
+                    - name: 'Scenario 1: Zendingen samenvoegen wanneer deze aan het magazijn worden vrijgegeven met Automatische vrijgave van verkooporders'
                       href: warehousing/consolidate-shipments-automatic.md
-                    - name: 'Scenario 2: Zendingen samenvoegen wanneer het beleid voor consolidatie van de zending wordt overschreven'
+                    - name: 'Scenario 2: Zendingen samenvoegen wanneer het beleid voor consolidatie van de zending wordt overschreven vanaf de pagina Vrijgeven aan magazijn'
                       href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                    - name: 'Scenario 3: Zendingen samenvoegen via vrijgave aan magazijn vanuit de workbench voor ladingplanning'
+                    - name: 'Scenario 3: Zendingen samenvoegen met Vrijgeven aan magazijn vanuit de workbench voor ladingplanning'
                       href: warehousing/consolidate-shipments-load-planning-workbench.md
                     - name: 'Scenario 4: Zendingen samenvoegen met behulp van de workbench voor zendingen samenvoegen'
                       href: warehousing/consolidate-shipments-manual-workbench.md
                     - name: 'Scenario 5: Zendingen handmatig samenvoegen met de pagina Zendingen samenvoegen'
                       href: warehousing/consolidate-shipments-manual-form.md
-                - name: Wave maken en verwerken
-                  href: warehousing/wave-processing.md
-                - name: Wavelabels opnieuw afdrukken en ongeldig maken
-                  href: warehousing/reprint-and-void-wave-labels.md
+                - name: Problemen met uitgaande magazijnbewerkingen oplossen
+                  href: warehousing/troubleshoot-warehouse-outbound.md
             - name: Binnen magazijnbewerkingen
               items:
                 - name: Werkbeleid magazijn
@@ -3341,8 +2939,6 @@
                       href: warehousing/manage-warehouse-workers.md
                     - name: Uitgestelde verwerking van magazijnwerk
                       href: warehousing/deferred-put.md
-                    - name: Uitgestelde verwerking van handmatige bewerking voor voorraadmutatie
-                      href: warehousing/deferred-processing-manual-inventory-movement.md
                 - name: Cross-docken
                   items:
                     - name: Cross-docken van productieorders naar outbound docks
@@ -3365,8 +2961,6 @@
                       href: warehousing/partial-location-cycle-counting.md
                     - name: Gedeeltelijk locatieproces voor cyclustelling definiëren
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
-                    - name: Voorbeeldscenario's voor cyclustelling
-                      href: warehousing/cycle-counting-scenarios.md
                     - name: Opschoningstaak van voorhanden voorraadgegevens voor magazijnbeheer
                       href: warehousing/onhand-cleanup.md
                     - name: Voorraadjournalen
@@ -3391,62 +2985,8 @@
                       href: warehousing/work-split.md
                     - name: Interface voor materiaalverwerkingsapparatuur (MHAX)
                       href: warehousing/mhax.md
-            - name: De app voor magazijnbeheer
-              items:
-                - name: 'Mobiele apparaten installeren, instellen en gebruiken'
-                  items:
-                    - name: Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
-                      href: warehousing/whats-new-wma.md
-                    - name: De mobiele app Warehouse Management installeren en verbinden
-                      href: warehousing/install-configure-warehouse-management-app.md
-                    - name: De app voor magazijnbeheer installeren en verbinden
-                      href: warehousing/install-configure-warehousing-app.md
-                    - name: Ondersteuning mobiele streepjescodelezer
-                      href: warehousing/mobile-barcode-support.md
-                    - name: Streepjescodes scannen met een camera in de mobiele app Warehouse Management
-                      href: warehousing/scan-bar-codes-using-a-camera.md
-                - name: Velden en menu's instellen voor mobiele apparaten
-                  items:
-                    - name: Velden configureren voor de mobiele app Warehouse Management
-                      href: warehousing/configure-app-field-names-priorities-warehouse.md
-                    - name: Mobiele apparaten instellen voor magazijnwerk
-                      href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Staptitels en instructies aanpassen voor de mobiele app Warehouse Management
-                      href: warehousing/mobile-app-titles-instructions.md
-                    - name: Gepromoveerde velden configureren voor stappen in het mobiele apparaat
-                      href: warehousing/warehouse-app-promoted-fields.md
-                    - name: Omleidingen configureren voor stappen in menu-items van mobiele apparaten
-                      href: warehousing/warehouse-app-detours.md
-                    - name: Nummerplaat ontvangen via de mobiele app Warehouse Management
-                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                    - name: Een menuopdracht voor een mobiel apparaat instellen voor het voltooien van werk in een inkooporder
-                      href: warehousing/tasks/set-up-mobile-device-menu.md
-                    - name: Een menuopdracht voor een mobiel apparaat instellen om de ontvangen artikelen te registreren
-                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                    - name: Een menuopdracht voor een mobiel apparaat instellen om een overzicht van een orderverzamelregel te geven
-                      href: warehousing/pick-line-overview.md
-                    - name: Een menuopdracht voor een mobiel apparaat maken ten behoeve van nummerplaatconsolidatie
-                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                    - name: Gecombineerde nummerplaat ontvangen op een mobiel apparaat
-                      href: warehousing/mixed-license-plate-receiving.md
-                    - name: Oudere batches binnen magazijn weergeven op een mobiel apparaat configureren
-                      href: warehousing/display-older-batches-within-warehouses.md
-                    - name: Oudste batch verzamelen op een mobiel apparaat
-                      href: warehousing/pick-oldest-batch.md
-                - name: Algemene parameters voor mobiele apparaten
-                  href: warehousing/mobile-device-parameters.md
-                - name: Gebruikersaccounts mobiel apparaat
-                  href: warehousing/mobile-device-work-users.md
-                - name: Gebruikersinstellingen mobiel apparaat
-                  href: warehousing/mobile-device-user-settings.md
-                - name: Verwerking van gebeurtenissen in de app voor magazijnbeheer
-                  href: warehousing/warehouse-app-events.md
-                - name: Mobiele processen voor magazijnen uitbreiden
-                  items:
-                    - name: Raamwerk voor verwerkingsinstructies
-                      href: warehousing/process-guide-framework.md
-                    - name: Stappictogrammen en titels toewijzen
-                      href: warehousing/step-icons-titles.md
+                    - name: Problemen met magazijnwerk oplossen
+                      href: warehousing/troubleshoot-warehouse-work.md
             - name: Magazijninstellingen
               items:
                 - name: Magazijnconfiguratie
@@ -3463,32 +3003,14 @@
                       href: warehousing/filters-and-filter-codes.md
                     - name: Opslaglimieten van locatie
                       href: warehousing/location-stocking-limits.md
-                    - name: Wave genereren en verwerken
-                      items:
-                        - name: Voorbeeld van waveverwerking configureren
-                          href: warehousing/tasks/configure-wave-processing.md
-                        - name: Magazijnparameters voor waveverwerking
-                          href: warehousing/wave-warehouse-parameters.md
-                        - name: Wavesjablonen
-                          href: warehousing/wave-templates.md
-                        - name: Wave-stapcodes
-                          href: warehousing/wave-step-codes.md
-                        - name: Wave-sjabloongroepering
-                          href: warehousing/wave-template-grouping.md
-                        - name: Wavetoewijzing
-                          href: warehousing/wave-allocation-method.md
-                        - name: Het maken van werk tijdens wave plannen
-                          href: warehousing/configure-wave-schedule-work-creation.md
-                        - name: Meldingen voor uitvoering van wave
-                          href: warehousing/wave-execution-notifications.md
-                        - name: Wavelabels afdrukken
-                          href: warehousing/configure-wave-label-printing.md
-                        - name: Afdrukken van wavelabels plannen tijdens wave
-                          href: warehousing/configure-task-based-wave-label-printing.md
-                        - name: Containervorming
-                          href: warehousing/wave-containerization.md
-                        - name: Verpakkingsstrategieën voor containers
-                          href: warehousing/container-packing-strategy-overview.md
+                    - name: Wave-stapcodes
+                      href: warehousing/wave-step-codes.md
+                    - name: Waveverwerking configureren
+                      href: warehousing/tasks/configure-wave-processing.md
+                    - name: Het maken van werk tijdens wave plannen
+                      href: warehousing/configure-wave-schedule-work-creation.md
+                    - name: Het afdrukken van wavelabels instellen en gebruiken
+                      href: warehousing/configure-wave-label-printing.md
                     - name: Zendingen automatisch bijwerken
                       href: warehousing/auto-update-shipment.md
                     - name: Een locatieprofiel maken
@@ -3513,14 +3035,56 @@
                       href: warehousing/system-group-on-open-work-list.md
                     - name: Indeling van documentroutering voor nummerplaatlabels
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: GS1-streepjescodes en QR-codes
-                      href: warehousing/gs1-barcodes.md
+                    - name: Ondersteuning mobiele streepjescodelezer
+                      href: warehousing/mobile-barcode-support.md
                     - name: Magazijn voor overboekingsorders instellen
                       href: warehousing/transfer-orders-warehouse.md
+                    - name: Problemen met magazijnconfiguratie oplossen
+                      href: warehousing/troubleshoot-warehouse-configuration.md
+                - name: De app voor magazijnbeheer installeren en configureren
+                  items:
+                    - name: De mobiele app Magazijnbeheer installeren en verbinden
+                      href: warehousing/install-configure-warehouse-management-app.md
+                    - name: Gebruikersinstellingen mobiel apparaat
+                      href: warehousing/mobile-device-user-settings.md
+                    - name: De app voor magazijnbeheer installeren en verbinden
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: Streepjescodes scannen met een camera in de magazijnapp
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Veldnamen in magazijnapp configureren
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: Mobiele apparaten instellen voor magazijnwerk
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Verwerking van gebeurtenissen in magazijnapp
+                      href: warehousing/warehouse-app-events.md
+                    - name: Nummerplaat ontvangen met de magazijnapp
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: Een menuopdracht voor een mobiel apparaat instellen voor het voltooien van werk in een inkooporder
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: Een menuopdracht voor een mobiel apparaat instellen om de ontvangen artikelen te registreren
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: Een menuopdracht voor een mobiel apparaat instellen om een overzicht van een orderverzamelregel te geven
+                      href: warehousing/pick-line-overview.md
+                    - name: Een menuopdracht voor een mobiel apparaat maken ten behoeve van nummerplaatconsolidatie
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: Gecombineerde nummerplaat ontvangen op een mobiel apparaat
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: Oudere batches binnen magazijn weergeven op een mobiel apparaat configureren
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: Oudste batch verzamelen op een mobiel apparaat
+                      href: warehousing/pick-oldest-batch.md
+                    - name: Raamwerk voor verwerkingsinstructies
+                      href: warehousing/process-guide-framework.md
+                    - name: Verbindingsproblemen in de magazijnapp oplossen
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Upgrade en migratie
                   items:
                     - name: Een upgrade van magazijnbeheerprocessen uitvoeren vanuit Microsoft Dynamics AX 2012 naar Finance and Operations
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
+                    - name: Problemen met upgrade en migratie naar geavanceerd magazijnbeheer oplossen
+                      href: warehousing/troubleshoot-warehouse-upgrade-migration.md
+                - name: Problemen met magazijninstellingen oplossen
+                  href: warehousing/troubleshoot-warehouse-setup.md
         - name: Ontwikkeling Supply Chain Management
           items:
             - name: Handleiding voor ontwikkeling van Gantt-besturingselement
@@ -3529,397 +3093,9 @@
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
             - name: Gegevensentiteiten voor voorhanden voorraad uitbreiden
               href: inventory/extend-on-hand-entities.md
-        - name: Problemen oplossen
-          items:
-            - name: Kostenbeheer
-              items:
-                - name: Verschillen in naar ouderdom gerangschikt voorraadrapport
-                  href: troubleshooting/costing/aging-report-discrepancies.md
-                - name: Waarschuwingen of fouten bij het wijzigen van de status van de grootboekperiode zonder voorraad af te sluiten
-                  href: troubleshooting/costing/change-ledger-period-without-closing.md
-                - name: Functionele hiaten tussen voorraadwaarderapporten/naar ouderdom gerangschikte voorraadrapporten en de opslagversies hiervan
-                  href: troubleshooting/costing/function-gaps-storage-reports.md
-                - name: Updateconflict opgetreden wanneer de voorraadwaarderingsmethode standaardkosten of zwevend gemiddelde is
-                  href: troubleshooting/costing/update-conflict-standard-moving.md
-                - name: Ontbrekende veldinstellingen voor het kopiëren van artikelmodelgroepen naar een andere rechtspersoon
-                  href: troubleshooting/costing/copying-item-model-groups.md
-                - name: Het rapport Indirecte kosten in verwerking bevat verwijderde productieorders
-                  href: troubleshooting/costing/indirect-costs-in-pr.md
-                - name: Inkooptoerekening met een bedrag van nul geboekt voor productontvangstbon met nulwaarde
-                  href: troubleshooting/costing/posting-to-purchase.md
-                - name: Fysiek ontvangen inkooporders worden niet weergegeven in het voorraadafsluitingsrapport
-                  href: troubleshooting/costing/purchase-orders-rece.md
-                - name: Geen begindatum weergegeven op het tabblad Actieve prijzen op de pagina Artikelprijs
-                  href: troubleshooting/costing/there-is-no-from-dat.md
-            - name: Voorraadbeheer
-              items:
-                - name: Het dialoogvenster met vervolgkeuzemenu Werkstroom niet gevonden voor voorraadjournalen
-                  href: troubleshooting/inventory/cant-find-workflow-dropdown.md
-                - name: De voorraadjournaalwerkstroom is nooit voltooid en het journaal kan niet worden verwerkt
-                  href: troubleshooting/inventory/cant-post-inventory-journal.md
-                - name: Het voorraadjournaal is vergrendeld en de werkstroombatchtaak werkt niet
-                  href: troubleshooting/inventory/inventory-journal-locked-workflow.md
-                - name: De eenheid en hoeveelheid per eenheid werken niet goed in het voorraadjournaal
-                  href: troubleshooting/inventory/journal-unit-quantity-incorrect.md
-                - name: 'Werkstroomvoorwaarden voor voorraadjournaal zijn van toepassing op journaalniveau, niet op regelniveau'
-                  href: troubleshooting/inventory/journal-workflow-conditions.md
-                - name: Het filterdeelvenster op de lijstpagina In voorraad werkt niet zoals verwacht
-                  href: troubleshooting/inventory/on-hand-filter-unexpected.md
-                - name: Het maximum aantal decimalen voor de voorraadeenheid is 0
-                  href: troubleshooting/inventory/sku-max-decimals-zero.md
-                - name: Meerdere voorraadtransacties voor batchnummers zonder Bij fysieke update
-                  href: troubleshooting/inventory/multiple-inventory-t.md
-                - name: 'Als u een gereedgemeld rapport omkeert, wordt een onverwachte openstaande transactie gemaakt'
-                  href: troubleshooting/inventory/reverse-report-as-fi.md
-                - name: In het rapport Orderverzamellijst worden geen nieuwe notities weergegeven die aan een journaal zijn gekoppeld
-                  href: troubleshooting/inventory/unable-to-print-the.md
-                - name: De hoeveelheid op een gestarte quarantaineorder wordt niet bijgewerkt wanneer de order wordt gesplitst
-                  href: troubleshooting/inventory/quantity-on-a-start.md
-                - name: Het veld Datum laatst getest wordt niet bijgewerkt wanneer er meerdere kwaliteitsorders worden gemaakt
-                  href: troubleshooting/inventory/the-field-last-test.md
-                - name: Bij het splitsen van een catch weight-hoeveelheid wordt een minimumhoeveelheid gebruikt in plaats van een nominale hoeveelheid
-                  href: troubleshooting/inventory/while-splitting-the.md
-            - name: Hoofdplanning
-              items:
-                - name: Er kan geen geplande order worden gevonden wanneer er met meerdere orders wordt gewerkt
-                  href: troubleshooting/planning/planned-order-not-exist.md
-                - name: Stuklijstexplosie gedraagt zich anders voor gefiatteerde en geraamde productieorders
-                  href: troubleshooting/planning/bom-explosion-works-differently.md
-                - name: De vertragingswaarde wordt niet bijgewerkt wanneer u een geplande order opnieuw plant
-                  href: troubleshooting/planning/delay-value-not-updated.md
-                - name: Het bijwerken van geplande orders duurt erg lang
-                  href: troubleshooting/planning/planned-order-long-update.md
-                - name: Geplande orders worden gegenereerd voor productieorders in voorraad
-                  href: troubleshooting/planning/planned-orders-in-stock-items.md
-                - name: Voor de productieplanning wordt geen rekening gehouden met de veiligheidsmarges
-                  href: troubleshooting/planning/prod-schedule-safety-margins.md
-                - name: In Hoofdplanning is meer gepland dan de beschikbare capaciteit
-                  href: troubleshooting/planning/respect-capacity-limitations.md
-                - name: Onvoldoende capaciteit is gevonden
-                  href: troubleshooting/planning/not-enough-capacity-error.md
-                - name: Er wordt een foutbericht weergegeven wanneer u de ingebouwde hoofdplanningsengine gebruikt
-                  href: troubleshooting/planning/deprecated-master-planning-error.md
-                - name: Een artikel kan geen stuklijst of formule hebben
-                  href: troubleshooting/planning/item-cannot-have-bom-formula.md
-                - name: Parameters voor hoofdplan bestaan niet
-                  href: troubleshooting/planning/no-parameters-for-master-plan.md
-                - name: De geplande productieorder moet worden gepland voordat deze kan worden gefiatteerd
-                  href: troubleshooting/planning/planned-order-must-be-scheduled.md
-                - name: Product staat in wachtstand voor transacties
-                  href: troubleshooting/planning/product-is-on-hold.md
-                - name: Het geselecteerde formulenummer is niet goedgekeurd voor een batchorder.
-                  href: troubleshooting/planning/selected-formula-not-approved.md
-                - name: Leverancierscode is niet geautoriseerd voor een specifiek product en specifieke datum
-                  href: troubleshooting/planning/vendor-code-not-authorized.md
-                - name: Leverancier wordt niet opgegeven bij het fiatteren van geplande orders
-                  href: troubleshooting/planning/vendor-not-specified.md
-                - name: Rechtsreeks afgeleide gefiatteerde orders worden verwerkt door een in-review werkstroom
-                  href: troubleshooting/planning/firmed-directly-deri.md
-                - name: U kunt hoofdplanningsartikelen niet filteren op de gerelateerde waarden van de behoefteplanningsgroep
-                  href: troubleshooting/planning/master-planning-batc.md
-                - name: Hoofdplanning genereert geplande orders voor phantom-producten
-                  href: troubleshooting/planning/planned-orders-are-g.md
-                - name: Geplande inkooporder die wordt gemaakt wanneer een aankoop binnen negatieve dagen bestaat
-                  href: troubleshooting/planning/planning-optimisatio.md
-                - name: De voorspelde eenheidskosten kunnen niet worden bijgewerkt wanneer u vraagprognoserecords importeert
-                  href: troubleshooting/planning/unable-to-upload-the.md
-                - name: Kan de prognosedimensie voor magazijnvraag niet verwijderen van prognoseregels
-                  href: troubleshooting/planning/warehouse-removal-fr.md
-                - name: 'U wordt gevraagd de instellingen voor artikelbehoefteplanning op te slaan, ook als u geen wijzigingen hebt aangebracht'
-                  href: troubleshooting/planning/when-importing-to-th.md
-            - name: Inkoop
-              items:
-                - name: Gegevensverschillen op inkooporderregels
-                  href: troubleshooting/procurement/purchase-order-line-data-issues.md
-                - name: Een of meer boekhoudingsverdelingen zijn over- of onderverdeeld
-                  href: troubleshooting/procurement/accounting-over-under-distributed.md
-                - name: U kunt een inkooporderactie alleen voltooien voor volledig verdeelde regelnummers
-                  href: troubleshooting/procurement/action-requires-full-distribution.md
-                - name: De ingangsdatum voor een goedgekeurde leverancier kan niet worden gewijzigd
-                  href: troubleshooting/procurement/approved-vendor-effective-date.md
-                - name: Geannuleerde inkooporders worden in de conceptlijst in het werkgebied weergegeven
-                  href: troubleshooting/procurement/canceled-po-in-draft-list.md
-                - name: Transacties kunnen worden geboekt naar een uitgestelde grootboekrekening
-                  href: troubleshooting/procurement/canceled-receipts-posted.md
-                - name: 'Als het restant van de levering wordt geannuleerd, wordt de status van de inkooporder bevestigd'
-                  href: troubleshooting/procurement/change-management-canceled-remainder.md
-                - name: U kunt niet meerdere productontvangstbonnen in één inkooporder consolideren
-                  href: troubleshooting/procurement/consolidate-multiple-receipts.md
-                - name: Standaardbelastinggroep en contantkorting worden niet ingevuld vanuit de factuurrekening
-                  href: troubleshooting/procurement/default-tax-group-and-discount.md
-                - name: De leveringsnaam wordt niet gesynchroniseerd nadat het afleveradres van een inkooporder is veranderd
-                  href: troubleshooting/procurement/delivery-name-isnt-synced.md
-                - name: Een uitzondering treedt op tijdens het boeken van leveranciersfactuur
-                  href: troubleshooting/procurement/invocation-target-exception.md
-                - name: Geïmporteerde inkooporders geven onjuiste regelnummers weer
-                  href: troubleshooting/procurement/line-number-increments.md
-                - name: De maximale limiet van de inkoopovereenkomst is niet van kracht voor een opdracht tot inkoop
-                  href: troubleshooting/procurement/max-limit-on-requisition.md
-                - name: Fout 'Objectverwijzing niet ingesteld' treedt op tijdens inkooporderbevestiging
-                  href: troubleshooting/procurement/object-reference-not-set.md
-                - name: Boekhoudingsverdelingen zijn over- of onderverdeeld
-                  href: troubleshooting/procurement/over-under-distribution.md
-                - name: U kunt het veld Prijseenheid niet toevoegen aan de pagina Inkoopovereenkomst
-                  href: troubleshooting/procurement/personalize-purchase-agreement-price.md
-                - name: Inkooporders reflecteren niet de taalinstellingen van de rechtspersoon
-                  href: troubleshooting/procurement/po-language.md
-                - name: Een inkooporderontvangst bevat niet alle toeslagen
-                  href: troubleshooting/procurement/po-receipt-missing-charges.md
-                - name: Eenheidsprijzen op inkooporders worden niet berekend op basis van de eenheidsomrekening
-                  href: troubleshooting/procurement/po-unit-prices-not-calculated.md
-                - name: De instelling Boeken op toeslagrekening in grootboek is niet ingeschakeld
-                  href: troubleshooting/procurement/post-setting-turned-off.md
-                - name: Fout bij het opnieuw aan een werkstroom toevoegen van een inkooporder na een wijziging
-                  href: troubleshooting/procurement/resubmit-po-after-change.md
-                - name: Problemen met valutaomrekening in handelsovereenkomst
-                  href: troubleshooting/procurement/trade-agreement-currencies.md
-                - name: Voorwaarden van handelsovereenkomst worden niet toegepast op geïmporteerde orderregels
-                  href: troubleshooting/procurement/trade-agreement-not-applied.md
-                - name: Er kunnen geen handelsovereenkomsten worden gemaakt vanuit afgewezen offerteaanvragen
-                  href: troubleshooting/procurement/trade-agreements-from-rejected-rfq.md
-                - name: Een leverancierskorting wordt niet gecumuleerd op basis van facturen
-                  href: troubleshooting/procurement/vendor-rebate-not-cumulated.md
-                - name: 'Een boekstuknummer van een productontvangstbon wordt verbruikt, zelfs wanneer er geen boekstuk wordt gegenereerd'
-                  href: troubleshooting/procurement/voucher-number-consumed.md
-                - name: U kunt een klantgerichte verkooporder niet factureren
-                  href: troubleshooting/procurement/not-able-to-invoice-.md
-                - name: Kan geen regel aan een opdracht tot inkoop toevoegen na het aanvragen van een wijziging
-                  href: troubleshooting/procurement/purchase-requisition.md
-            - name: Productgegevensbeheer
-              items:
-                - name: U kunt een vrijgegeven product niet verwijderen
-                  href: troubleshooting/products/cant-delete-released-prod.md
-                - name: Gehele getallen incorrect afgerond bij de berekening van productconfiguratiemodellen
-                  href: troubleshooting/products/integers-incorrectly-rounded.md
-                - name: Artikeltekst wordt overschreven wanneer een product wordt geconfigureerd in een verkooporderregel
-                  href: troubleshooting/products/text-overwritten-configured-item.md
-                - name: U kunt geen sjabloon toepassen om een vrijgegeven product te maken
-                  href: troubleshooting/products/apply-template-in-re.md
-                - name: U kunt een artikel niet importeren met de entiteit Vrijgegeven producten V2
-                  href: troubleshooting/products/cannot-import-with-r.md
-                - name: In inkooporders wordt geen vertaalde producttekst weergegeven
-                  href: troubleshooting/products/when-the-customer-ad.md
-            - name: Productiebeheer
-              items:
-                - name: Fout in kostenberekening terugwaarts afboeken tijdens voorraadsluiting
-                  href: troubleshooting/production/backflush-costing-calculation-error.md
-                - name: Kan een productieorder niet beëindigen vanwege een fout in de stuklijstwaarde consumptionCost
-                  href: troubleshooting/production/bom-consumption-cost-error.md
-                - name: Kan geen stuklijst en route invoegen bij het maken van een nieuwe productieorder
-                  href: troubleshooting/production/cant-insert-bom-route-number.md
-                - name: 'Eerdere taken die al in uitvoering zijn, worden beëindigd bij het rapporteren van een gedeeltelijke hoeveelheid voor de laatste taak'
-                  href: troubleshooting/production/in-progress-jobs-ended.md
-                - name: Retourmateriaal voor artikel kan niet volledig worden gereserveerd wanneer een productieorder wordt vrijgegeven
-                  href: troubleshooting/production/item-rm-not-reserved.md
-                - name: De update voor gereedmelden is mislukt vanwege een fout met ontbrekende hoeveelheid
-                  href: troubleshooting/production/missing-report-finished-quantity.md
-                - name: Fout wanneer het Gereedmeldingsjournaal wordt geboekt
-                  href: troubleshooting/production/posting-report-as-.md
-                - name: Fout bij het wijzigen van de status van de productieorder van Gereedmelding in Einde
-                  href: troubleshooting/production/production-order-status-error.md
-                - name: Productieorders worden niet weergegeven op de pagina Markering
-                  href: troubleshooting/production/production-orders-marking-page.md
-                - name: Resourcenaam wordt niet bijgewerkt nadat de naam van een werknemer in het adresboek is veranderd
-                  href: troubleshooting/production/resource-name-not-updated.md
-                - name: Fout in totale goede hoeveelheid bij het beëindigen van een productieorder
-                  href: troubleshooting/production/total-good-quantity-order-error.md
-                - name: Kan serienummers van eindproducten niet traceren op basis van verbruikte goederen
-                  href: troubleshooting/production/trace-finished-goods-consumed-goods.md
-                - name: Kan geen werk reserveren of vrijgeven omdat processen momenteel worden gebruikt
-                  href: troubleshooting/production/warehouse-management-processes-used.md
-                - name: Instellingen voor wisprincipe op stuklijstregels worden niet gerespecteerd
-                  href: troubleshooting/production/flushing-principle-n.md
-                - name: Batchnummer wordt gewist bij het selecteren van een nieuwe partij-id
-                  href: troubleshooting/production/when-customer-is-try.md
-                - name: Later selecteren wordt niet gerespecteerd bij het opnieuw instellen van productieorders via een batchtaak
-                  href: troubleshooting/production/late-selection-is-no.md
-                - name: Gebruikers kunnen de verzameling van materiaalregels ongedaan maken voor producten die zijn gereedgemeld
-                  href: troubleshooting/production/raw-material-lines-a.md
-                - name: Fout wanneer het Gereedmeldingsjournaal wordt geboekt
-                  href: troubleshooting/production/posting-report-as-.md
-                - name: Het magazijn in het orderverzamellijstjournaal wordt niet bijgewerkt op een stuklijstregel
-                  href: troubleshooting/production/the-warehouse-in-pic.md
-            - name: Kortingsbeheer
-              items:
-                - name: Het cumuleren van klantkortingen met artikelkortingsgroepen mislukt
-                  href: troubleshooting/rebates/cumulating-customer-.md
-            - name: Verkoop en marketing
-              items:
-                - name: Opschoningstaak voor verkoophistorie voor update mislukt of werkt niet goed
-                  href: troubleshooting/sales/sales-update-history-cleanup-job-performance-issues.md
-                - name: Een bundelartikel wordt niet ondersteund in een intercompany-proces
-                  href: troubleshooting/sales/bundle-item-intercompany-process.md
-                - name: 'Kan een intercompany-inkooporder die aan een verkooporder is gekoppeld, niet annuleren'
-                  href: troubleshooting/sales/cancel-intercompany-purchase-order.md
-                - name: Reserveringen kunnen niet worden verwijderd wanneer een order wordt geannuleerd
-                  href: troubleshooting/sales/cancel-order-reservations-not-removed.md
-                - name: 'Als er twee handelsovereenkomsten bestaan voor overlappende datums, wordt altijd dezelfde overeenkomst geselecteerd'
-                  href: troubleshooting/sales/same-trade-agreement-selected.md
-                - name: Kan de verkoophoeveelheid van een serviceartikel op een verkoopofferteregel niet wijzigen
-                  href: troubleshooting/sales/service-item-sales-quantity.md
-                - name: De belastinggegevens worden niet bijgewerkt als de locatie in de verkooporderkoptekst wordt gewijzigd
-                  href: troubleshooting/sales/tax-information-not-updated.md
-                - name: De hoeveelheid kan niet worden verlaagd wanneer de verkooporder wordt geannuleerd
-                  href: troubleshooting/sales/quantity-cannot-be-reduced.md
-                - name: Systeembeheerders kunnen orderwachtstanden niet wissen omdat ze niet zijn geautoriseerd
-                  href: troubleshooting/sales/system-administrator.md
-            - name: Transportbeheer
-              items:
-                - name: Kan alleen de hoofdrekening als kredietrekening toevoegen om afstemmingsredenen
-                  href: troubleshooting/transportation/reconciliation-reaso.md
-            - name: Magazijnbeheer
-              items:
-                - name: Warehouse mobile app
-                  items:
-                    - name: Vertrouwensrelatie voor certificeringspad niet gevonden bij het instellen van een app-verbinding
-                      href: troubleshooting/warehousing/certification-path-app-connection-error.md
-                    - name: Vertrouwensrelatie voor certificaatpad niet gevonden bij bijwerken en migreren naar WMS
-                      href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
-                - name: Verwerkingsproblemen treden op na installatie van de werkbelasting voor een magazijn voor een schaaleenheid
-                  href: troubleshooting/warehousing/Scale-unit-warehouse-workload-installation-issues.md
-                - name: Ook bij beschikbare voorraad wordt de instructie voor automatische reservering voor een batchnummer weergegeven
-                  href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
-                - name: Order verzamelen kan niet worden geblokkeerd vanwege onvoltooide aanvullingswerkzaamheden
-                  href: troubleshooting/warehousing/blocked-unfinished-replenishment-work.md
-                - name: Kan een pakbon niet annuleren nadat deze is geboekt vanuit een verkooporder
-                  href: troubleshooting/warehousing/cancel-posted-packing-slip.md
-                - name: Kan nummerplaat niet verplaatsen als voor het serienummer lege uitgifte en lege ontvangst zijn toegestaan
-                  href: troubleshooting/warehousing/cant-move-license-plate.md
-                - name: Kan geen voorraad verplaatsen naar een locatie die is door nummerplaten wordt beheerd
-                  href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
-                - name: Clusterprofiel kan niet worden gevonden
-                  href: troubleshooting/warehousing/cluster-profile-not-found-error.md
-                - name: Correctie van afleveringsbewijs kan niet worden verwerkt
-                  href: troubleshooting/warehousing/delivery-note-correction.md
-                - name: Fout bij het bevestigen van de zending nadat er een transferorder voor een serienummer is gemaakt
-                  href: troubleshooting/warehousing/dimension-location-left-blank.md
-                - name: Directe levering kan niet worden verwerkt voor magazijn dat is ingeschakeld voor WMS
-                  href: troubleshooting/warehousing/direct-delivery-wms-enabled-warehouse.md
-                - name: Voorraadtypen worden gemengd wanneer een dockbeheerprofiel wordt gebruikt
-                  href: troubleshooting/warehousing/dock-management-inventory-mixing.md
-                - name: Bij optie Meerdere SKU's worden geen richtlijnacties voor meerdere locaties geëvalueerd
-                  href: troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md
-                - name: Verzamelwerk wordt niet direct gegenereerd wanneer uitgaande lading wordt vrijgegeven
-                  href: troubleshooting/warehousing/generate-work-immediately-load-release.md
-                - name: Ongeldige nummerplaatfout bij het scannen van nummerplaat-id in de mobiele app
-                  href: troubleshooting/warehousing/invalid-license-plate.md
-                - name: Eigenaar van voorraad niet toegestaan bij het verwerken van verplaatsingen in de magazijn-app
-                  href: troubleshooting/warehousing/inventory-owner-not-allowed.md
-                - name: Het systeem kan de voorraadhoeveelheid niet bijwerken vanwege onvoldoende transacties
-                  href: troubleshooting/warehousing/inventory-quantity-insufficient-transactions.md
-                - name: Kan geen wijziging in de voorraadstatus selecteren in de kolom Werktype
-                  href: troubleshooting/warehousing/inventory-status-change-work-type.md
-                - name: Ongeldige nummerplaat of locatiefout bij het scannen van nummerplaat-id in de mobiele app
-                  href: troubleshooting/warehousing/license-plate-location-invalid.md
-                - name: Nummerplaathoeveelheid is niet geldig bij het registreren van inkomende orders
-                  href: troubleshooting/warehousing/license-plate-quantity-not-valid.md
-                - name: Specificatiefout van nummerplaat bij bevestiging van zending voor transferorder
-                  href: troubleshooting/warehousing/license-plate-specified-location.md
-                - name: Een van de regels is al in gebruik in een lading
-                  href: troubleshooting/warehousing/line-already-on-load.md
-                - name: Fout voor laadgewicht en update geannuleerd bij de verwerking van werk tussen locaties
-                  href: troubleshooting/warehousing/load-weight-positive-numbers.md
-                - name: Gecombineerde nummerplaat ontvangen werkt niet voor beschikkingscodes behalve Credit
-                  href: troubleshooting/warehousing/mixed-license-plate-receiving.md
-                - name: Kan alleen de beheerdersrol gebruiken voor toegang tot de app-emulator voor mobiele apparaten
-                  href: troubleshooting/warehousing/mobile-app-emulator-administrator.md
-                - name: Problemen bij verplaatsen van basismagazijn naar geavanceerd magazijn
-                  href: troubleshooting/warehousing/move-basic-to-advanced-warehousing.md
-                - name: Onvoldoende werk voor cluster gevonden bij Door systeem gestuurde clusterverzameling
-                  href: troubleshooting/warehousing/not-enough-work-for-cluster.md
-                - name: 'De orderstatus blijft Gedeeltelijk vrijgegeven, zelfs nadat de verkooporder is gefactureerd'
-                  href: troubleshooting/warehousing/order-status-partially-released.md
-                - name: Kan de mobiele app Warehouse Management niet gebruiken om gedeeltelijke orderverzameling uit te voeren
-                  href: troubleshooting/warehousing/partial-picking-warehouse-app.md
-                - name: Voorraadstatuswijziging inschakelen voor werk met gedeeltelijke hoeveelheid
-                  href: troubleshooting/warehousing/partial-quantity-inventory-status.md
-                - name: Afleveringsbewijs of verpakkingsinhoud afdrukken per magazijn of locatie
-                  href: troubleshooting/warehousing/print-documents-by-warehouse.md
-                - name: Hoeveelheid is niet geldig als orderverzamelen met meerdere nummerplaten op één locatie werkt
-                  href: troubleshooting/warehousing/quantity-invalid-multiple-license-plates.md
-                - name: Hoeveelheid is niet geldig bij het uitvoeren van een gesplitste verzameling over meerdere batches
-                  href: troubleshooting/warehousing/quantity-invalid-split-pick.md
-                - name: Een gedeeltelijk verzonden lading kan niet worden vrijgegeven aan het magazijn
-                  href: troubleshooting/warehousing/rerelease-partially-shipped-load.md
-                - name: 'Er kunnen geen reserveringen worden gemaakt omdat 0,00 beschikbaar is in de voorraad'
-                  href: troubleshooting/warehousing/reservations-0-inventory-available.md
-                - name: Kan geen laadregel voor retourverkooporder maken vanwege ongeldige voorraaddimensies
-                  href: troubleshooting/warehousing/return-order-invalid-dimensions.md
-                - name: Verkooporder kan niet worden vrijgegeven met uitgaande magazijnbewerkingen
-                  href: troubleshooting/warehousing/sales-order-not-released.md
-                - name: 'Zending voor lading is bevestigd, maar er zijn geen regels geboekt'
-                  href: troubleshooting/warehousing/shipment-confirmed-no-posting.md
-                - name: Bij vakkensjablonen wordt geen rekening met de beschikbare voorraad voor artikelen boven batch
-                  href: troubleshooting/warehousing/slotting-templates-inventory-batch-above.md
-                - name: Een lading voor een gedeeltelijke hoeveelheid kan niet worden vrijgegeven met een reserveringshiërarchie boven batch
-                  href: troubleshooting/warehousing/specify-dimensions-above-location.md
-                - name: Niet-bevestigde inkooporders worden bevestigd nadat productontvangsten zijn bijgewerkt
-                  href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
-                - name: Kan voorraadreservering op een verkooporderregel niet opheffen
-                  href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
-                - name: U kunt een zending niet bevestigen omdat de klant is geblokkeerd
-                  href: troubleshooting/warehousing/customer-is-on-hold.md
-                - name: U kunt een zending niet bevestigen omdat laadregels een hoeveelheid van nul hebben
-                  href: troubleshooting/warehousing/load-line-quantity-is-zero.md
-                - name: Kan een laadregel niet bijwerken omdat de vrijgegeven hoeveelheid dan negatief wordt
-                  href: troubleshooting/warehousing/released-qty-cannot-be-negative.md
-                - name: Transactiestatus van geannuleerde productontvangsten wordt niet bijgewerkt naar geregistreerd
-                  href: troubleshooting/warehousing/canceled-product-receipts.md
-                - name: De decimale afronding van de fysieke bijwerkhoeveelheid is onjuist
-                  href: troubleshooting/warehousing/decimal-rounding-of-quantity.md
-                - name: Resterende fysieke hoeveelheid in de eenheid mag niet gelijk zijn aan nul
-                  href: troubleshooting/warehousing/physical-remaining-q.md
-                - name: De verzamelde hoeveelheid is onvoldoende tijdens het genereren van de pakbon
-                  href: troubleshooting/warehousing/picked-quantity-is-n.md
-                - name: De hoeveelheid overschrijdt meerleveringspercentage tijdens genereren van pakbon
-                  href: troubleshooting/warehousing/quantity-exceeds-over-pack-slip.md
-                - name: 'De hoeveelheid die u probeert bij te werken, is groter dan de ontvangen/geleverde hoeveelheid'
-                  href: troubleshooting/warehousing/quantity-exceeds-rec-del.md
-                - name: De hoeveelheid overschrijdt minderleveringspercentage tijdens genereren van pakbon
-                  href: troubleshooting/warehousing/quantity-exceeds-under-pack-slip.md
-                - name: Er treedt een fout op bij het kiezen van de locatie tijdens de registratie van de orderverzamellijst
-                  href: troubleshooting/warehousing/error-cannot-update.md
-                - name: In het verpakkingsstation worden geen productnotities weergegeven
-                  href: troubleshooting/warehousing/packing-station-not-.md
-                - name: 'Locatieprofiel staat negatieve voorraad niet toe, maar negatieve voorhanden voorraad is toegestaan'
-                  href: troubleshooting/warehousing/location-profile-set.md
-                - name: Er wordt slechts één label voor meerdere werkkoppen afgedrukt op één ontvangstbewijs
-                  href: troubleshooting/warehousing/when-receipting-prod.md
-                - name: U kunt een zending niet bevestigen vanwege een probleem met de kalender
-                  href: troubleshooting/warehousing/load-has-active-appo.md
-                - name: U kunt een zending niet bevestigen vanwege onvolledig of ontbrekend werk
-                  href: troubleshooting/warehousing/open-or-no-work-exis.md
-                - name: U kunt een zending niet bevestigen omdat er nog geen artikelen zijn verzameld
-                  href: troubleshooting/warehousing/picked-quantity-is-not-on-final.md
-                - name: U kunt een zending niet bevestigen omdat er nul hoeveelheid is
-                  href: troubleshooting/warehousing/picked-quantity-is-zero.md
-                - name: U kunt een zending niet bevestigen omdat de hoeveelheid hoger is dan het meerleveringspercentage
-                  href: troubleshooting/warehousing/quantity-exceeds-ove.md
-                - name: U kunt een zending niet bevestigen omdat de hoeveelheid hoger is dan het minderleveringspercentage
-                  href: troubleshooting/warehousing/quantity-exceeds-und.md
-                - name: De laatst gesloten werkregel moet een wegzetregel zijn
-                  href: troubleshooting/warehousing/the-last-closed-work.md
-                - name: De gewichtvelden op laadregels komen niet overeen met de gewichtvelden voor de lading
-                  href: troubleshooting/warehousing/the-weight-fields-on.md
-                - name: Wave komt niet in aanmerking voor opschonen
-                  href: troubleshooting/warehousing/wave-is-not-eligible.md
-                - name: Gewicht moet positief zijn
-                  href: troubleshooting/warehousing/weight-must-be-posit.md
-                - name: Werk kan niet worden geannuleerd omdat het is geblokkeerd
-                  href: troubleshooting/warehousing/work-cannot-be-canceled-blocked.md
-                - name: Werk kan niet worden geannuleerd vanwege de status
-                  href: troubleshooting/warehousing/work-cannot-be-canceled-status.md
-                - name: Werk wordt niet geblokkeerd
-                  href: troubleshooting/warehousing/work-is-not-blocked.md
-                - name: Werk blijft geblokkeerd
-                  href: troubleshooting/warehousing/work-remains-blocked.md
-                - name: Het is niet mogelijk om werk van een gebruiker te annuleren
-                  href: troubleshooting/warehousing/you-cannot-cancel-wo.md
-    - name: Ontwikkeling en beheer voor apps voor financiën en bedrijfsactiviteiten
+    - name: Ontwikkeling en beheer voor Finance and Operations-apps
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md
     - name: Dynamics 365 Commerce
       href: ../commerce/index.md
-    - name: Dynamics 365 Human Resources
-      href: ../human-resources/index.md

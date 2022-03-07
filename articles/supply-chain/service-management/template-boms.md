@@ -2,11 +2,9 @@
 title: Sjabloonstuklijsten
 description: Met een sjabloonstuklijst beschikt u over een gestandaardiseerde lijst onderdelen voor serviceobjecten die regelmatig worden onderhouden.
 author: ShylaThompson
-manager: tfehr
 ms.date: 09/19/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMATemplateBOMTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01cd4cf03fb0ac1a3399673097895513f7180cf1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ab8586f81dc4a897d243b9d289109f039c390fcbf90c5c205125cf49eb5e8e39
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965774"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724743"
 ---
 # <a name="template-boms"></a>Sjabloonstuklijsten    
 
@@ -133,3 +131,6 @@ Om sjabloonstuklijsten te gebruiken, moet u twee nummerreeksen instellen. Stel Ã
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

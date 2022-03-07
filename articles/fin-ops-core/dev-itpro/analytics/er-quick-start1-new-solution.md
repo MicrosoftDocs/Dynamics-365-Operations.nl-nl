@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 36998d299e166709778bfaa7bfd0d8980890d4fe
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: af610ae86e751ec4425f4c555cdf59c042fabcdb46e6a3a018b0d94a8926d92e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323837"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770063"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Een nieuwe ER-oplossing ontwerpen om een aangepast rapport af te drukken
 
@@ -181,7 +181,7 @@ Meer informatie over ER-configuratieproviders vindt u in [Configuratieproviders 
 
 ## <a name="design-a-domain-specific-data-model"></a><a name="DesignModel"></a>Domeinspecifiek gegevensmodel ontwerpen
 
-U moet een nieuwe ER-configuratie maken die een onderdeel met een gegevensmodel bevat voor het bedrijfsdomein **Vragenlijst**. Dit gegevensmodel wordt later gebruikt als gegevensbron wanneer u een ER-indeling ontwerpt om het rapport **Vragenlijst** te genereren.
+U moet een nieuwe ER-configuratie maken die een onderdeel met een [gegevensmodel](general-electronic-reporting.md#data-model-and-model-mapping-components) bevat voor het bedrijfsdomein **Vragenlijst**. Dit gegevensmodel wordt later gebruikt als gegevensbron wanneer u een ER-indeling ontwerpt om het rapport **Vragenlijst** te genereren.
 
 Door de stappen in de sectie [Een nieuwe gegevensmodelconfiguratie importeren](#ImportDataModel) te voltooien, kunt u het vereiste gegevensmodel importeren uit het opgegeven XML-bestand. U kunt de stappen in de sectie [Een nieuwe gegevensmodelconfiguratie maken](#DesignDataModel) ook uitvoeren als u een helemaal nieuw gegevensmodel wilt ontwerpen.
 
@@ -296,7 +296,7 @@ Zie [Overzicht van Elektronische rapporten (ER)](general-electronic-reporting.md
 
 ## <a name="design-a-model-mapping-for-the-configured-data-model"></a><a name="DesignMapping"></a>Een modeltoewijzing voor het geconfigureerde gegevensmodel ontwerpen
 
-Als gebruiker in de rol van ER-ontwikkelaar moet u een nieuwe ER-configuratie maken die een modeltoewijzingsonderdeel bevat voor het gegevensmodel **Vragenlijst**. Omdat dit onderdeel het geconfigureerde gegevensmodel implementeert voor Finance, is het Finance-specifiek. U moet het modeltoewijzingsonderdeel configureren om de toepassingsobjecten op te geven die moeten worden gebruikt voor het invullen met toepassingsgegevens van het geconfigureerde gegevensmodel tijdens runtime. Als u deze taak wilt voltooien, moet u zich bewust zijn van de implementatiedetails van de gegevensstructuur van het bedrijfsdomein van de **Vragenlijst** in Finance.
+Als gebruiker in de rol van ER-ontwikkelaar moet u een nieuwe ER-configuratie maken die een [modeltoewijzings](general-electronic-reporting.md#data-model-and-model-mapping-components)onderdeel bevat voor het gegevensmodel **Vragenlijst**. Omdat dit onderdeel het geconfigureerde gegevensmodel implementeert voor Finance, is het Finance-specifiek. U moet het modeltoewijzingsonderdeel configureren om de toepassingsobjecten op te geven die moeten worden gebruikt voor het invullen met toepassingsgegevens van het geconfigureerde gegevensmodel tijdens runtime. Als u deze taak wilt voltooien, moet u zich bewust zijn van de implementatiedetails van de gegevensstructuur van het bedrijfsdomein van de **Vragenlijst** in Finance.
 
 Door de stappen in de sectie [Een nieuwe modeltoewijzingsconfiguratie importeren](#ImportModelMapping) te voltooien, kunt u de vereiste modeltoewijzingsconfiguratie importeren uit het opgegeven XML-bestand. U kunt de stappen in de sectie [Een nieuwe modeltoewijzingsconfiguratie maken](#CreateModelMapping) ook uitvoeren als u een helemaal nieuwe modeltoewijzing wilt ontwerpen.
 
@@ -568,7 +568,7 @@ Zoals u in de volgende afbeelding kunt zien, is de aangepaste rapportkoptekst op
 
 ## <a name="design-a-format"></a><a name="DesignFormat"></a>Een indeling ontwerpen
 
-Als gebruiker in de rol van ER-functieconsultant moet u een nieuwe configuratie maken die een indelingsonderdeel bevat. U moet het indelingsonderdeel configureren om op te geven hoe een rapportsjabloon tijdens runtime met vereiste gegevens wordt ingevuld.
+Als gebruiker in de rol van ER-functieconsultant moet u een nieuwe configuratie maken die een [indeling](general-electronic-reporting.md#FormatComponentOutbound)sonderdeel bevat. U moet het indelingsonderdeel configureren om op te geven hoe een rapportsjabloon tijdens runtime met vereiste gegevens wordt ingevuld.
 
 Door de stappen in de sectie [Een ontworpen indelingsconfiguratie importeren](#FormatImport) te voltooien, kunt u de vereiste indeling importeren uit het opgegeven XML-bestand. U kunt de stappen in de sectie [Een nieuwe indelingsconfiguratie maken](#FormatCreate) ook uitvoeren als u een helemaal nieuwe indeling wilt ontwerpen.
 

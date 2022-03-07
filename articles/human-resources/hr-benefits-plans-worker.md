@@ -2,15 +2,12 @@
 title: Vergoedingsplannen voor medewerkers maken
 description: U kunt vergoedingsplannen voor medewerkers maken in Microsoft Dynamics 365 Human Resources om vergoedingsplannen voor werknemers te selecteren en om selecties van vergoedingsplannen te bevestigen.
 author: andreabichsel
-manager: AnnBe
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitPlanEmployee, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0ebd19cba8dd7cac8ccf6d17d4206731be87a225
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 27ef56efc39b6cfc605122e499bc249963322ac6
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417931"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6059035"
 ---
 # <a name="create-worker-benefit-plans"></a>Vergoedingsplannen voor medewerkers maken
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 U kunt vergoedingsplannen voor medewerkers maken in Microsoft Dynamics 365 Human Resources om vergoedingsplannen voor werknemers te selecteren en om selecties van vergoedingsplannen te bevestigen. Meestal selecteren werknemers vergoedingsplannen zelf via Werknemerselfservice en vervolgens bevestigt een vergoedingsplanbeheerder de selecties. 
 
@@ -49,3 +48,6 @@ U kunt vergoedingsplannen voor medewerkers maken in Microsoft Dynamics 365 Human
    | Plannen | Het tabblad Plannen bevat de plannen die voldoen aan de filtercriteria die u hebt opgegeven. De relevante configuratieopties die zijn ingesteld door HR-personeel en de inschrijvingsselecties die door werknemers zijn gekozen, worden op elke regel opgenomen. Het veld Gekwalificeerd geeft aan of er een validatieconflict is met de planselectie. |
 
 4. Selecteer **Opslaan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

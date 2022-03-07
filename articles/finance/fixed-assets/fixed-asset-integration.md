@@ -1,29 +1,26 @@
 ---
 title: Integratie vaste activa
 description: Vaste activa kunnen worden gebruikt in Grootboek, Voorraadbeheer, Klanten en Leveranciers. U kunt vaste activa ook integreren met inkooporders.
-author: ShylaThompson
-manager: AnnBe
+author: moaamer
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3501
 ms.assetid: f0639053-d99c-432a-8ead-5c26e0d4eaec
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fb1348a3a3c47e5fd7df46d9ce4af3725d8896b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3e53d171ba0b9be7bbfffa25c27bd21fe036acee
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441946"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674770"
 ---
 # <a name="fixed-assets-integration"></a>Integratie vaste activa
 
@@ -31,8 +28,7 @@ ms.locfileid: "4441946"
 
 Vaste activa kunnen worden gebruikt in Grootboek, Voorraadbeheer, Klanten en Leveranciers. U kunt vaste activa ook integreren met inkooporders.
 
-<a name="general-ledger"></a>Grootboek
---------------
+## <a name="general-ledger"></a>Grootboek
 
 In de module Grootboek wordt de waarde van alle vaste activa doorgaans samengevat op meerdere hoofdrekeningen die nodig zijn voor de financiële rapportage. Op de pagina **Vaste activa** kunt u echter veel records van vaste activa maken. Deze records kunnen gegevens bevatten zoals de aanschafprijs, afschrijving en waardering. Telkens wanneer u een transactie voor vaste activa boekt, worden de betreffende hoofdrekeningen bijgewerkt. Op de hoofdrekeningen voor vaste activa staat altijd de bijgewerkte waarde van de vaste activa.
 
@@ -95,3 +91,6 @@ Zie voor meer informatie [Verwerving van activa via inkoop](acquire-assets-procu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

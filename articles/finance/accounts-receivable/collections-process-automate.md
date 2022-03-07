@@ -1,12 +1,10 @@
 ---
 title: Automatisering van incassoproces
-description: In dit onderwerp wordt beschreven hoe u strategieën voor het incassoproces instelt waarmee automatisch klantfacturen worden geïdentificeerd waarvoor een e-mailherinnering of incasso-activiteit (zoals een telefoongesprek) vereist is of een aanmaningsbrief naar de klant moet worden verzonden.
+description: In dit onderwerp wordt beschreven hoe u strategieën voor het incassoproces instelt waarmee automatisch klantfacturen worden geïdentificeerd waarvoor een e-mailherinnering of incasso-activiteit vereist is of een aanmaningsbrief naar de klant moet worden verzonden.
 author: panolte
-manager: AnnBe
-ms.date: 08/26/2020
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: a63058904df72a7fda5a67ed1e6a846eed393ce0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0afc56ecea72e281d689930cc91cf6048426d3127ab10c8c284b2eea0f3933d6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969696"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723890"
 ---
 # <a name="collections-process-automation"></a>Automatisering van incassoproces
 
@@ -32,6 +30,8 @@ Organisaties besteden veel tijd aan het doorzoeken van verouderde balansrapporte
 
 ## <a name="collections-process-setup"></a>Instelling van incassoproces
 U kunt de pagina **Instelling van incassoproces** (**Crediteringen en aanmaningen > Instellingen > Instelling van incassoproces**) gebruiken om een automatisch incassoproces te maken waarmee activiteiten worden gepland, e-mailberichten worden verzonden en klantaanmaningen worden gemaakt en geboekt. De processtappen zijn gebaseerd op de leidende of oudste openstaande factuur. In elke stap wordt deze factuur gebruikt om te bepalen welke communicatie of activiteit voor een bepaalde klant moet plaatsvinden.  
+
+Incassoteams verzenden doorgaans een vroege kennisgeving met betrekking tot elke openstaande factuur, zodat een klant op de hoogte wordt gebracht van het moment waarop de factuur moet worden betaald. U kunt de selectie **Voor de aanmaning** instellen om één stap in elke proceshiërarchie toe te staan voor elke factuur wanneer de timing van de factuur die stap bereikt.
 
 ### <a name="process-hierarchy"></a>Proceshiërarchie
 Elke klantverzameling kan slechts aan één proceshiërarchie worden toegewezen. De hiërarchiepositie van deze stap geeft aan welk proces prioriteit krijgt als een klant is opgenomen in meerdere verzamelingen waaraan een proceshiërarchie is toegewezen. De verzameling-id bepaalt welke klanten worden toegewezen aan het proces. 
@@ -82,6 +82,7 @@ In de volgende tabellen worden de pagina's en velden weergegeven waar de opgegev
 |                                                           |     Bedrijfsdocument                           |     De activiteit of e-mailsjabloon die tijdens de processtap wordt gebruikt.                                                                        |
 |                                                           |     Wanneer                                          |     Definieert of de processtap vóór of na de vervaldatum van de leidende factuur plaatsvindt, in combinatie met het veld **Dagen in relatie tot vervaldatum factuur**.        |
 |                                                           |     Dagen in relatie tot vervaldatum factuur        |     In combinatie met het veld **Wanneer** wordt hiermee de timing van de processtap aangegeven.                                                                          |
+|                                                           |     Vóór aanmaning                                   |     Met deze selectie kan één stap per proceshiërarchie worden ingesteld en uitgevoerd voor elke factuur wanneer de timingcriteria worden bereikt.                                                |
 |                                                           |     Ontvanger                                     |     Geeft aan of een e-mailbericht wordt verzonden naar een contactpersoon voor een klant, verkoopgroep of incassomedewerker.                                                   |
 |                                                           |     Contactpersoon voor zakelijke doel                    |     Bepaalt welk e-mailadres van de geadresseerde wordt gebruikt bij e-mailcommunicatie.                                                                                 |
 
@@ -100,16 +101,21 @@ In de volgende tabellen worden de pagina's en velden weergegeven waar de opgegev
 ### <a name="collections-history"></a>Aanmaningshistorie 
 |     Pagina                              |     Veld     |      Beschrijving                                                          |
 |------------------------------------   |-------------- |---------------------------------------------------------------------  |
-|     Instelling van incassoproces       |               |     De recente historie van de geselecteerde proceshiërarchie.     |
+|     Instelling van incassoproces       |               |     Geef de recente historie van de geselecteerde proceshiërarchie weer.       |
 
 ### <a name="collection-process-assignment"></a>Toewijzing van incassoproces
 |     Pagina                              |     Veld     |      Beschrijving                                                  |
 |------------------------------------   |-------------- |-----------------------------------------------------------    |
-|     Instelling van incassoproces       |               |     Klanten weergeven die aan een incassoproces zijn toegewezen.  
+|     Instelling van incassoproces       |               |     Geef klanten weer die aan een incassoproces zijn toegewezen.  
 |     Handmatige toewijzing               |               |     Klanten weergeven die handmatig aan een proces zijn toegewezen of klanten selecteren die aan een proces moeten worden toegewezen. |
 |     Preview procestoewijzing      |               |     Een voorbeeld weergeven van de klanten die aan een strategie worden toegewezen wanneer deze wordt uitgevoerd.   |
 |     Preview van klanttoewijzing     |               |     De strategie weergeven waaraan een bepaalde klant is toegewezen.    |
  
+ ### <a name="process-simulation"></a>Processimulatie
+|     Pagina                              |     Veld     |      Beschrijving                                                  |
+|------------------------------------   |-------------- |-----------------------------------------------------------    |
+|    Processimulatie                 |               |     Geef een voorbeeld weer van de acties die worden gemaakt als de geselecteerde procesautomatisering op dit moment wordt uitgevoerd. |
+
 ### <a name="parameters"></a>Parameters
 |     Pagina                                                                  |     Veld                                             |      Beschrijving                              |
 |-------------------------------------------------------------------------- |------------------------------------------------------ |-------------------------------------  |
@@ -117,3 +123,7 @@ In de volgende tabellen worden de pagina's en velden weergegeven waar de opgegev
 |     Parameters van module Klanten > Automatisering van incassoproces     |     Aanmaningen automatisch boeken           |     Actietypen voor aanmaningen boeken de brief tijdens het automatiseren.                                      |
 |     Parameters van module Klanten > Automatisering van incassoproces     |     Activiteiten maken voor automatisering                |     Activiteiten maken en sluiten voor actietypen voor niet-activiteiten om alle geautomatiseerde stappen voor een rekening weer te geven.        |
 |     Parameters van module Klanten > Automatisering van incassoproces     |     Aantal dagen om automatisering van incassoproces te behouden     |     Het aantal dagen dat de incassogeschiedenis wordt opgeslagen.                                                       |
+|     Parameters van module Klanten > Automatisering van incassoproces     |     Factuur uitsluiten na activeren van laatste processtap    |     Een factuur die de laatste stap van het incassoproces heeft doorlopen, wordt niet gebruikt om toekomstige actietypen voor procesautomatisering te maken. De volgende oudste factuur bepaalt de volgende stap voor procesautomatisering om ervoor te zorgen dat procesautomatiseringsacties voor incasso worden voortgezet.                                                        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

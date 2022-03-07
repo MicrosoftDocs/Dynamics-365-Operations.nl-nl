@@ -2,11 +2,9 @@
 title: ER-functie Base64StringToContainer
 description: Dit onderwerp biedt informatie over het gebruik van de ER-functie (Elektronische rapportage) Base64StringToContainer.
 author: NickSelin
-manager: kfend
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0e92ae41a3e0f03cb14d4791ab768f096f2a0523
-ms.sourcegitcommit: e8a46e127d70986539c138b27a641bff6f6874d0
+ms.openlocfilehash: 6fd08d9a2522bdf497b1926c884a4583065d9f19
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "4739068"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754369"
 ---
 # <a name="base64stringtocontainer-er-function"></a>ER-functie Base64StringToContainer
 
@@ -80,3 +78,6 @@ In dit voorbeeld codeert de **\#MediaAsBase64String**-gegevensbron de binaire in
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Containerfuncties](er-functions-category-container.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

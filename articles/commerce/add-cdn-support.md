@@ -2,36 +2,30 @@
 title: Ondersteuning voor een CDN (contentleveringsnetwerk) toevoegen
 description: In dit onderwerp wordt beschreven hoe u een CDN (Content Delivery Network) toevoegt aan uw Microsoft Dynamics 365 Commerce-omgeving.
 author: brianshook
-manager: annbe
-ms.date: 07/31/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0e888fca4a5401f1df6e61b10358489846ad4b0e
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: caed13c37c9043a2acea751c8a8b15261f26ecb2e10b6e64c0ce50f6ce9a68de
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517203"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722049"
 ---
-# <a name="add-support-for-a-content-delivery-network-cdn"></a>Ondersteuning voor een CDN (contentleveringsnetwerk) toevoegen
-
+# <a name="add-support-for-a-content-delivery-network-cdn"></a>Ondersteuning voor een CDN (netwerk voor contentlevering) toevoegen
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u een CDN (Content Delivery Network) toevoegt aan uw Microsoft Dynamics 365 Commerce-omgeving.
-
-## <a name="overview"></a>Overzicht
 
 Wanneer u een e-commerce-omgeving instelt in Dynamics 365 Commerce, kunt u deze configureren om met uw CDN-service te werken. 
 
@@ -45,11 +39,7 @@ Bovendien worden de *statische* onderdelen (Javascript- of \[CSS\]-bestanden (Ca
 
 ## <a name="set-up-ssl"></a>SSL instellen
 
-Om ervoor te zorgen dat de SSL-configuratie wordt ingesteld en dat de statische onderdelen in de cache worden opgeslagen, moet u uw CDN zo configureren dat dit is gekoppeld aan de hostnaam die door Commerce wordt gegenereerd voor uw omgeving. U moet ook het volgende patroon in cache opslaan, alleen voor statische onderdelen: 
-
-/\_msdyn365/\_scnr/\*
-
-Nadat u uw Commerce-omgeving hebt ingericht met het aangepaste domein dat is opgegeven of nadat u het aangepaste domein voor uw omgeving hebt opgegeven met behulp van een serviceaanvraag, wijst u uw aangepaste domein toe aan de hostnaam of het eindpunt dat door Commerce is gegenereerd.
+Nadat u uw Commerce-omgeving hebt ingericht met het aangepaste domein dat is opgegeven of nadat u het aangepaste domein voor uw omgeving hebt opgegeven met behulp van een serviceaanvraag, moet u de DNS-wijzigingen samen met het onboardingteam voor Commerce plannen.
 
 Zoals eerder is vermeld, ondersteunt de gegenereerde hostnaam of het eindpunt alleen een SSL-certificaat voor \*.commerce.dynamics.com. SSL wordt niet ondersteund voor aangepaste domeinen.
 
@@ -57,7 +47,7 @@ Zoals eerder is vermeld, ondersteunt de gegenereerde hostnaam of het eindpunt al
 
 Een CDN-service kan met een Commerce-omgeving worden gebruikt. Hieronder vindt u twee voorbeelden:
 
-- **Microsoft Azure Front Door Service**: de Azure CDN-oplossing. Meer informatie over de Azure Front Door Service vindt u in [Documentatie bij Azure Front Door Service](https://docs.microsoft.com/azure/frontdoor/).
+- **Microsoft Azure Front Door Service**: de Azure CDN-oplossing. Meer informatie over de Azure Front Door Service vindt u in [Documentatie bij Azure Front Door Service](/azure/frontdoor/).
 - **Akamai Dynamic Site Accelerator**: zie voor meer informatie [Dynamic Site Accelerator](https://www.akamai.com/us/en/products/performance/dynamic-site-accelerator.jsp).
 
 ## <a name="cdn-setup"></a>CDN-instellingen
@@ -65,63 +55,50 @@ Een CDN-service kan met een Commerce-omgeving worden gebruikt. Hieronder vindt u
 Het CDN-installatieproces bestaat uit de volgende algemene stappen:
 
 1. Een front-endhost toevoegen.
-1. Een back-endpool configureren.
-1. Regels voor routering en caching instellen.
+1. Een back-endgroep configureren.
+1. Stel regels voor doorsturen in.
 
 ### <a name="add-a-front-end-host"></a>Een front-endhost toevoegen
 
 U kunt elke CDN-service gebruiken, maar voor het voorbeeld in dit onderwerp wordt de Azure Front Door Service gebruikt. 
 
-Voor informatie over het instellen van de Azure Front Door Service raadpleegt u [Beknopte gids voor Front Door Service voor een algemene webtoepassing met hoge beschikbaarheid](https://docs.microsoft.com/azure/frontdoor/quickstart-create-front-door).
+Voor informatie over het instellen van de Azure Front Door Service raadpleegt u [Beknopte gids voor Front Door Service voor een algemene webtoepassing met hoge beschikbaarheid](/azure/frontdoor/quickstart-create-front-door).
 
 ### <a name="configure-a-backend-pool-in-azure-front-door-service"></a>Een back-endpool configureren in Azure Front Door Service
 
 Volg deze stappen om een back-endpool te configureren in Azure Front Door Service.
 
-1. Voeg **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** toe aan een back-endpool als een aangepaste host met een lege koptekst voor de back-endhost.
+1. Voeg **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** toe aan een back-endgroep als een aangepaste host met een koptekst voor de back-endhost die hetzelfde is als **&lt;ecom-tenant-name&gt;.commerce.dynamics.com**.
 1. Laat de standaardwaarden staan onder **Taakverdeling**.
+1. Schakel statuscontroles voor de back-endgroep uit.
 
-In de volgende afbeelding ziet u het dialoogvenster **Een backend toevoegen** in de Azure Front Door Service met de naam van de back-endhost ingevuld.
+In de volgende afbeelding ziet u het dialoogvenster **Een back-end toevoegen** in de Azure Front Door Service met de naam van de back-endhost ingevuld.
 
-![Het dialoogvenster Een backend-groep toevoegen](./media/CDN_BackendPool.png)
+![Het dialoogvenster Een backend-groep toevoegen.](./media/CDN_BackendPool.png)
 
-In de volgende afbeelding ziet u het dialoogvenster **Een back-endpool toevoegen** in de Azure Front Door Service met de standaardwaarden voor taakverdeling.
+In de volgende afbeelding ziet u het dialoogvenster **Een back-endgroep toevoegen** in de Azure Front Door Service met de standaardwaarden voor taakverdeling.
 
-![Dialoogvenster Een back-endpool toevoegen (vervolg)](./media/CDN_BackendPool_2.png)
+![Dialoogvenster Een back-endgroep toevoegen (vervolg).](./media/CDN_BackendPool_2.png)
+
+> [!NOTE]
+> Zorg ervoor dat u **Statusprobes** uitschakelt bij het instellen van uw eigen Azure Front Door Service voor Commerce.
+
 
 ### <a name="set-up-rules-in-azure-front-door-service"></a>Regels in de Azure Front Door Service instellen
 
-Voer de volgende stappen uit om een routeringsregel in te stellen in de Azure Front Door Service.
+Voer de volgende stappen uit om een regel voor doorsturen in te stellen in de Azure Front Door Service.
 
-1. Voeg een routeringregel toe.
+1. Voeg een regel voor doorsturen toe.
 1. Voer in het veld **Naam** de tekst **standaard** in.
 1. Selecteer **HTTP en HTTPS** in het veld **Geaccepteerd protocol**.
 1. Voer in het veld **Frontend hosts** **dynamics-ecom-tenant-name.azurefd.net** in.
-1. Voer onder **Af te stemmen patronen** in het bovenste veld **/\** _ in.
-1. Stel onder _*Routedetails** de optie **Routetype** in op **Doorsturen**.
+1. Voer onder **Af te stemmen patronen** in het bovenste veld **/\*** in.
+1. Stel onder **Routedetails** de optie **Routetype** in op **Doorsturen**.
 1. Selecteer in het veld **Back-endgroep** de optie **ecom-backend**.
 1. Selecteer in de veldgroep **Protocol voor doorsturen** de optie **Afstemmen op aanvraag**. 
 1. Stel de optie **URL herschrijven** in op **Uitgeschakeld**.
 1. Stel de optie **Caching** in op **Uitgeschakeld**.
 
-Voer de volgende stappen uit om een cachingregel in te stellen in de Azure Front Door Service.
-
-1. Voeg een cachingregel toe.
-1. Voer in het veld **Naam** de tekst **statics** in.
-1. Selecteer **HTTP en HTTPS** in het veld **Geaccepteerd protocol**.
-1. Voer in het veld **Frontend hosts** **dynamics-ecom-tenant-name.azurefd.net** in.
-1. Voer onder **Af te stemmen patronen** in het bovenste veld **/\_msdyn365/\_scnr/\** _ in.
-1. Stel onder _*Routedetails** de optie **Routetype** in op **Doorsturen**.
-1. Selecteer in het veld **Back-endgroep** de optie **ecom-backend**.
-1. Selecteer in de veldgroep **Protocol voor doorsturen** de optie **Afstemmen op aanvraag**.
-1. Stel de optie **URL herschrijven** in op **Uitgeschakeld**.
-1. Stel de optie **Caching** in op **Uitgeschakeld**.
-1. Selecteer in het veld **Cachegedrag queryreeks** de optie **Elke unieke URL in cache plaatsen**.
-1. Selecteer de optie **Ingeschakeld** in de veldgroep **Dynamische compressie**.
-
-In de volgende afbeelding ziet u het dialoogvenster **Een regel toevoegen** in de Azure Front Door Service.
-
-![Het dialoogvenster Regel toevoegen](./media/CDN_CachingRule.png)
 
 > [!WARNING]
 > Als het domein dat u gaat gebruiken al actief en live is, maakt u een ondersteuningsticket vanuit de tegel **Ondersteuning** in [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) om hulp te krijgen bij uw volgende stappen. Zie [Ondersteuning voor Finance and Operations-apps of Lifecycle Services (LCS) krijgen voor meer informatie](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
@@ -130,36 +107,21 @@ Als uw domein nieuw is en geen reeds bestaand live domein is, kunt u uw aangepas
 
 In de volgende afbeelding ziet u het dialoogvenster **CNAME-configuratie** in de Azure Front Door Service.
 
-![Dialoogvenster CNAME-configuratie](./media/CNAME_Configuration.png)
+![Dialoogvenster CNAME-configuratie.](./media/CNAME_Configuration.png)
 
 U kunt de Azure Front Door Service gebruiken om het certificaat te beheren of u kunt uw eigen certificaat voor het aangepaste domein gebruiken.
 
 In de volgende afbeelding ziet u het dialoogvenster **Aangepast domein HTTPS** in de Azure Front Door Service.
 
-![Dialoogvenster Aangepast domein HTTPS](./media/Custom_Domain_HTTPS.png)
+![Dialoogvenster Aangepast domein HTTPS.](./media/Custom_Domain_HTTPS.png)
 
-Zie voor gedetailleerde instructies voor het toevoegen van een aangepast domein aan uw Azure Front Door [Een aangepast domein toevoegen aan uw Front Door](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain).
+Zie voor gedetailleerde instructies voor het toevoegen van een aangepast domein aan uw Azure Front Door [Een aangepast domein toevoegen aan uw Front Door](/azure/frontdoor/front-door-custom-domain).
 
 Uw CDN is nu correct geconfigureerd voor gebruik met uw Commerce-site.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Uw domeinnaam configureren](configure-your-domain-name.md)
+[Implementatieopties voor netwerk voor contentlevering](cdn-options.md)
 
-[Een nieuwe e-commerce-tenant implementeren](deploy-ecommerce-site.md)
 
-[Een e-commerce-site maken](create-ecommerce-site.md)
-
-[Een Dynamics 365 Commerce-site koppelen aan een online kanaal](associate-site-online-store.md)
-
-[robots.txt-bestanden beheren](manage-robots-txt-files.md)
-
-[URL-omleidingen in bulk uploaden](upload-bulk-redirects.md)
-
-[Een B2C-tenant instellen in Commerce](set-up-B2C-tenant.md)
-
-[Aangepaste pagina's voor gebruikersaanmeldingen instellen](custom-pages-user-logins.md)
-
-[Meerdere B2C-tenants configureren in een Commerce-omgeving](configure-multi-B2C-tenants.md)
-
-[Detectie van winkels op basis van de locatie inschakelen](enable-store-detection.md)
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Gegevensbronnen voor het hele bedrijf in de elektronische aangifte (ER)
 description: In dit onderwerp wordt uitgelegd hoe u gegevensbronnen voor meerdere bedrijven kunt gebruiken in elektronische rapportage (ER).
 author: NickSelin
-manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERModelMappingDesigner, ERFormatMappingLegalEntityFilterTable
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 1a5c05b65c9022220056947471e95b703d923dc5
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7528a84bae388dd8b159405043570b647d6e2cb4
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680825"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753739"
 ---
 # <a name="cross-company-data-sources-in-electronic-reporting-er"></a>Gegevensbronnen voor het hele bedrijf in de elektronische aangifte (ER)
 
@@ -76,3 +74,6 @@ Download de volgende bestanden om de taakbegeleiding te voltooien:
 
 - [ER-modelconfiguratie - CrossCompanyDataAccessModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
 - [ER-indelingsconfiguratie - CrossCompanyDataAccessFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

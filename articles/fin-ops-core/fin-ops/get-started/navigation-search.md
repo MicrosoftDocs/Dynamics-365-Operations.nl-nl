@@ -2,11 +2,9 @@
 title: Navigatiezoekfunctie
 description: In dit onderwerp wordt uitgelegd hoe u met de zoekfunctionaliteit naar pagina's navigeert.
 author: aneesmsft
-manager: AnnBe
-ms.date: 04/27/2017
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43fa263bcbb6f5a6465af59ffb744aa865d66239
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 9e689bef43930dbe364baefaa9f4d0231394ff4f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4799091"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069979"
 ---
 # <a name="navigation-search"></a>Navigatiezoekfunctie
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 In dit onderwerp wordt uitgelegd hoe u met de zoekfunctionaliteit naar pagina's navigeert.
 
@@ -36,7 +37,7 @@ Als u deze functie wilt gebruiken, klikt op het pictogram **Zoeken** om het vak 
 > [!NOTE]
 > Het vak **Zoeken** help u te zoeken naar pagina's en deze te openen. De functie helpt u niet om bepaalde gegevens of acties te vinden.
 
-[![zoekvak](media/navigation-search.png "Zoekvak")
+![zoekvak.](media/navigation-search.png "Zoekvak")
 
 ## <a name="quickly-navigate-to-a-particular-page"></a>Snel naar een bepaalde pagina navigeren
 
@@ -62,3 +63,6 @@ De lijst van de zoekresultaten is beperkt tot 10 items. Als in de resultaten nie
 ## <a name="development"></a>Ontwikkeling
 
 Vanuit ontwikkelingsperspectief is de navigatiezoekfunctionaliteit heel handig te leveren omdat er vrijwel geen vertraging is tussen de levering van menuopdrachten en het vermogen te verschijnen in de zoekresultaten. Zolang de menu-items aan het navigatievenster of het dashboard zijn gekoppeld, worden ze automatisch doorzoekbaar.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

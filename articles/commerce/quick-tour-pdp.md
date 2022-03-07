@@ -2,41 +2,36 @@
 title: Overzicht van de pagina met productgegevens
 description: In dit onderwerp vindt u een overzicht van de pagina's met productgegevens (PDP's) in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 01/23/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c53e74204fad2960dfba972a38c511df7d6672d8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 48b4e5d66b86e0b1198bd6ff7ce1e7de33f8fde0
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411482"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986196"
 ---
-# <a name="product-details-pages-overview"></a>Overzicht van de pagina met productgegevens
+# <a name="product-details-pages-overview"></a>Overzicht van pagina's met productgegevens
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp vindt u een overzicht van de pagina's met productgegevens (PDP's) in Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Overzicht
-
 Een PDP biedt gedetailleerde informatie over een product, en laat klanten productopties selecteren zoals grootte, stijl en kleur. Een PDP moet alle productinformatie presenteren die een klant nodig heeft om een inkoopbeslissing te nemen.
 
 In de volgende afbeelding ziet u een voorbeeld van een PDP.
 
-![Voorbeeld van een pagina met productgegevens](./media/pdp.PNG)
+![Voorbeeld van een pagina met productgegevens.](./media/pdp.PNG)
 
 ## <a name="header-and-footer-modules"></a>Koptekst- en voettekstmodules
 
@@ -88,3 +83,6 @@ Als marketinginhoud uniek is voor een specifiek product, kan elke marketingmodul
 [Overzicht van pagina's voor accountbeheer](quick-tour-account-management.md)
 
 [Een pagina met productgegevens verrijken](enrich-product-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

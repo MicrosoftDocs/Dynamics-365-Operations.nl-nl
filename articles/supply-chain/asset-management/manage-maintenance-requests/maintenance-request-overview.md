@@ -1,34 +1,30 @@
 ---
 title: Onderhoudsverzoeken
 description: Dit onderwerp bevat een overzicht van het beheer van onderhoudsverzoeken in Activabeheer.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1e0071ae745987a1217525b2841e3320933a9242
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 536f512abc2b7ce74ebc35dfdaf48e812a85cc2b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019624"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344239"
 ---
 # <a name="maintenance-requests"></a>Onderhoudsaanvragen
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 Onderhoudsverzoeken zijn notities of verklaringen die zijn gemaakt om een manager of planner te informeren dat een activum mogelijk onderhoud of reparatie nodig heeft, maar zonder dat een werkorder wordt gemaakt. Als de inhoud van een onderhoudsverzoek als geldig wordt beschouwd, kan een werkorder worden gemaakt op basis van het onderhoudsverzoek.
 
@@ -44,7 +40,7 @@ Onderhoudsverzoeken kunnen worden gemaakt voor elk activum in Activabeheer. Er k
 
 Als u onderhoudsaanvragen wilt weergeven, selecteert u **Activabeheer** \> **Algemeen** \> **Onderhoudsverzoeken** \> **Alle onderhoudsverzoeken**, **Actieve onderhoudsverzoeken** of **De onderhoudsverzoeken van mijn functionele locatie**. Elke lijstpagina bevat een deel van de informatie die is gerelateerd aan een onderhoudsverzoek.
 
-![Onderhoudsverzoeken weergeven](media/01-manage-maintenance-requests.png)
+![Onderhoudsverzoeken weergeven.](media/01-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Gebruik de pagina met de lijst **De onderhoudsverzoeken van mijn functionele locatie** om een lijst met onderhoudsverzoeken weer te geven die functionele locaties bevatten waaraan u bent gerelateerd als werknemer of activa die zijn geïnstalleerd op functionele locaties waaraan u bent gerelateerd als werknemer. (Zie [Onderhoudsmedewerkers en -medewerkersgroepen](../setup-for-objects/workers-and-worker-groups.md) voor informatie over het instellen van onderhoudsmedewerkers en functionele locaties.)
@@ -53,7 +49,7 @@ Als u onderhoudsaanvragen wilt weergeven, selecteert u **Activabeheer** \> **Alg
 
 Als u de detailweergave van een record wilt openen, selecteert u op de pagina met de lijst **Alle onderhoudsverzoeken** in rasterweergave een koppeling in kolom **Onderhoudsverzoek**.
 
-![Details van onderhoudsverzoek weergeven](media/02-manage-maintenance-requests.png)
+![Details van onderhoudsverzoek weergeven.](media/02-manage-maintenance-requests.png)
 
 De knoppen in het actievenster zijn geordend op tabbladen. In de volgende tabel worden kort de knoppen beschreven die betrekking hebben op Activabeheer.
 
@@ -72,3 +68,6 @@ De knoppen in het actievenster zijn geordend op tabbladen. In de volgende tabel 
 | Geleend activum verzenden                  | Selecteer een geleend activum dat een tijdelijke vervanging moet zijn voor het activum dat is geselecteerd op het geselecteerde onderhoudsverzoek. |
 | Een geleend activum retourneren                | Registreer het geleende activum als geretourneerd. |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

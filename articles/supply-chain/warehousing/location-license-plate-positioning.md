@@ -2,9 +2,11 @@
 title: Positionering van locatie nummerplaat
 description: Met positionering van de nummerplaatlocatie kunt u zien waar een nummerplaat zich bevindt in een locatie met meerdere pallets, zoals een locatie waar pallets dubbeldiep worden weggezet.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLicensePlate, WHSLocationProfile, WHSLocDirTable
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f87723ebd6684efba8464a7d64c7e1ea99f194eb
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: cfab8c36adb08f799305a153589926bfc1ae31fe
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102784"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5217096"
 ---
 # <a name="location-license-plate-positioning"></a>Positionering van locatie nummerplaat
 
@@ -30,9 +32,12 @@ De functie voegt een volgnummer toe aan elke nummerplaat die op een opslaglocati
 
 Dit onderwerp bespreekt een scenario waarin wordt uitgelegd hoe u de functie instelt en gebruikt.
 
-## <a name="turn-the-location-license-plate-positioning-feature-on-or-off"></a>De functie Positionering van locatie nummerplaat in- of uitschakelen
+## <a name="turn-on-the-location-license-plate-positioning-feature"></a>De functie Positionering van locatie nummerplaat inschakelen
 
-Als u de functionaliteit wilt gebruiken die in dit onderwerp wordt beschreven, moet de functie *Positionering van locatie nummerplaat* zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Positionering van locatie nummerplaat* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Voordat u de functie Positionering van locatie nummerplaat kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen het werkgebied [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
+
+- **Module:** *Magazijnbeheer*
+- **Functienaam:** *Positionering van locatie nummerplaat*
 
 ## <a name="example-scenario"></a>Voorbeeldscenario
 
@@ -85,7 +90,7 @@ De functie moet worden ingeschakeld in het locatieprofiel voor elke locatie waar
 1. Terwijl **Nummerplaat** nog is geselecteerd, selecteert u **Tabeljoin toevoegen**.
 1. Selecteer in de lijst met tabellen die wordt geopend in de kolom **Relatie** de waarde **Positionering van locatie nummerplaat (nummerplaat)**. Selecteer vervolgens **Selecteren** om **Positionering van locatie nummerplaat** toe te voegen aan de tabeljoin **Voorraaddimensies**.
 
-    ![Tabeljoins.](media/LpTableJoin.png "Tabeljoins")
+    ![Tabeljoins](media/LpTableJoin.png "Tabeljoins")
 
 1. Klik op **OK** om de bijgewerkte gekoppelde tabellen te bevestigen en de query-editor te sluiten.
 1. Selecteer op het sneltabblad **Locatie-instructieacties** opnieuw de optie **Query bewerken** om de query-editor te openen.
@@ -97,7 +102,7 @@ De functie moet worden ingeschakeld in het locatieprofiel voor elke locatie waar
     - **Veld:** *Positie NP*
     - **Criteria:** *1*
 
-    ![Nieuw bereik.](media/LpPositionCriteria.png "Nieuw bereik")
+    ![Nieuw bereik](media/LpPositionCriteria.png "Nieuw bereik")
 
 1. Selecteer **OK** om de wijzigingen te bevestigen en de query-editor te sluiten.
 
@@ -272,7 +277,7 @@ Nu de functie *Positionering van locatie nummerplaat* is ingesteld en de voorraa
 1. Selecteer op de pagina **Een werk-id/nummerplaat-id scannen** het veld **Id** en voer vervolgens de werk-id van de verkoopregel in.
 1. U ziet dat het verzamelwerk u artikel *A0002* laat ophalen vanuit locatie *01A01R1S2B*. U ontvangt deze instructie omdat artikel *A0002* op een nummerplaat staat die zich bevindt op positie *1* op die locatie.
 
-    ![Locatie positie 1.](media/LocationLicensePlatePositioning.png "Locatie positie 1")
+    ![Locatie positie 1](media/LocationLicensePlatePositioning.png "Locatie positie 1")
 
 1. Voer de nummerplaat-id in die u voor de locatie hebt gemaakt en volg de aanwijzingen om de verkooporder te verzamelen.
 

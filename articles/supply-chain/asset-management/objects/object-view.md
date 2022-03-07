@@ -1,12 +1,10 @@
 ---
 title: Activaweergave
 description: In dit onderwerp wordt de activaweergave in Activabeheer beschreven.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectTree, EntAssetFunctionalLocationTree
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0256cc86dc306c8addb37d2c8f335470b19177a
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 4a7bf1cf07178f570f32e3fa4c4c1e5a2106b10d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019399"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837844"
 ---
 # <a name="asset-view"></a>Activaweergave
 
@@ -47,3 +45,6 @@ Id functionele locatie/id functionele locatie (als er meer dan één functionele
 Als u een activum hebt geselecteerd in de structuurweergave, kunt u **Actieve aanvragen** of **Actieve werkorders** selecteren om de onderhoudsaanvragen of werkorders weer te geven die zijn gerelateerd aan het activum. U kunt ook **Openen** \> **Functionele locatie**, **Activum** of **Activumstuklijst** selecteren om de gerelateerde weergave te openen.
 
 De optie **Functionele locaties van activa** die u kunt selecteren in het veld **Weergeven**, is ook beschikbaar in elke zoekopdracht voor activa waar u een activum kunt selecteren. De structuurweergave wordt bijvoorbeeld weergegeven op een tabblad **Activaweergave**, waar u [een activum maakt](../objects/create-an-object.md), een onderhoudsaanvraag maakt of een werkorder maakt.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

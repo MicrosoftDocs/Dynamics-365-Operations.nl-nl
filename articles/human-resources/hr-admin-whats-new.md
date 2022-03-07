@@ -1,45 +1,39 @@
 ---
 title: Nieuwe of gewijzigde functies in Human Resources
-description: Elke week brengen we een nieuwe release uit voor Microsoft Dynamics 365 Human Resources. De onderwerpen die hier worden vermeld, beschrijven de wijzigingen die elke week worden aangebracht.
-author: andreabichsel
-manager: AnnBe
-ms.date: 09/01/2020
+description: Elke twee weken brengen we een nieuwe release uit voor Microsoft Dynamics 365 Human Resources. De onderwerpen die hier worden vermeld, beschrijven de wijzigingen die elke week worden aangebracht.
+author: twheeloc
+ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm, FeatureManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 675a3f0faed0ce8be4ce2633585ce8e0cf1c9be7
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: 86322fdf14bdefb5c9d4793a69e95ca913843e53
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669079"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087519"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Nieuwe of gewijzigde functies in Human Resources
 
-Elke twee weken brengen we een nieuwe release uit voor Microsoft Dynamics 365 Human Resources. De onderwerpen die hier worden vermeld, beschrijven de wijzigingen in elke versie.
+> [!IMPORTANT]
+> De functionaliteit die in dit onderwerp wordt vermeld, is momenteel beschikbaar voor klanten van de zelfstandige versie van Dynamics 365 Human Resources. Sommige of alle functionaliteit is beschikbaar als onderdeel van een toekomstige versie van de Finance-infrastructuur na versie 10.0.25 van Finance.  
 
->[!NOTE]
->Om rekening te houden met feestdagen, is de releaseplanning voor november en december 2020 als volgt:
->
->- Release van november: 2 november - 13 november
->- Release van december: 30 november - 11 december
-> 
->Her releasetempo van een keer per twee weken wordt op de gebruikelijke manier hervat op 11 januari 2021.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Elke twee weken brengen we een nieuwe release uit voor Microsoft Dynamics 365 Human Resources. De onderwerpen die hier worden vermeld, beschrijven de wijzigingen in elke versie.
 
 Zie het volgende artikel voor meer informatie over geplande nieuwe functies of het updateproces voor Human Resources: 
 
-- [Overzicht van releasewave 2 van Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
+- [Overzicht van Dynamics 365 Human Resources 2021 release wave 2](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/)
 
 - [Het updateproces](hr-admin-setup-update-process.md)
 
@@ -47,35 +41,34 @@ Zie het volgende artikel voor meer informatie over geplande nieuwe functies of h
 
 ## <a name="human-resources-weekly-releases"></a>Wekelijkse releases van Human Resources
 
-Zie de volgende artikelen voor wat er nieuw of gewijzigd is in elke tweewekelijkse versies van Human Resources:
+Zie de volgende onderwerpen voor wat er nieuw of gewijzigd is in elke tweewekelijkse versies van Human Resources:
 
-[02 december 2020](hr-whats-new-2020-12-02.md)</br>
-[22 oktober 2020](hr-whats-new-2020-10-22.md)</br>
-[16 september 2020](hr-whats-new-2020-09-16.md)</br>
-[3 september 2020](hr-whats-new-2020-09-03.md)</br>
-[20 augustus 2020](hr-whats-new-2020-08-20.md)</br>
-[6 augustus 2020](hr-whats-new-2020-08-06.md)</br>
-[23 juli 2020](hr-whats-new-2020-07-23.md)</br>
-[8 juli 2020](hr-whats-new-2020-07-08.md)</br>
-[23 juni 2020](hr-whats-new-2020-06-23.md)</br>
-[11 juni 2020](hr-whats-new-2020-06-11.md)</br>
-[28 mei 2020](hr-whats-new-2020-05-28.md)</br>
-[14 mei 2020](hr-whats-new-2020-05-14.md)</br>
-[1 mei 2020](hr-whats-new-2020-05-01.md)</br>
-[13 april 2020](hr-whats-new-2020-04-13.md)</br>
-[3 april 2020](hr-whats-new-2020-04-03.md)</br>
-[24 maart 2020](hr-whats-new-2020-03-24.md)</br>
-[19 maart 2020](hr-whats-new-2020-03-19.md)</br>
-[10 maart 2020](hr-whats-new-2020-03-10.md)</br>
-[3 maart 2020](hr-whats-new-2020-03-03.md)</br>
-[25 februari 2020](hr-whats-new-2020-02-25.md)</br>
-[18 februari 2020](hr-whats-new-2020-02-18.md)</br>
-[12 februari 2020](hr-whats-new-2020-02-12.md)</br>
-[7 februari 2020](hr-whats-new-2020-02-07.md)</br>
-[3 februari 2020](hr-whats-new-2020-02-03.md)
+[29 november 2021](hr-whats-new-2021-11-29.md)<br>
+[5 oktober 2021](hr-whats-new-2021-10-04.md)</br>
+[20 september 2021](hr-whats-new-2021-09-20.md)</br>
+[6 september 2021](hr-whats-new-2021-09-06.md)</br>
+[23 augustus 2021](hr-whats-new-2021-08-23.md)</br>
+[9 augustus 2021](hr-whats-new-2021-08-09.md)</br>
+[26 juli 2021](hr-whats-new-2021-07-26.md)</br>
+[12 juli 2021](hr-whats-new-2021-07-12.md)</br>
+[22 juni 2021](hr-whats-new-2021-06-22.md)</br>
+[20 mei 2021](hr-whats-new-2021-05-20.md)</br>
+[3 mei 2021](hr-whats-new-2021-05-03.md)</br>
+[19 april 2021](hr-whats-new-2021-04-19.md)</br>
+[5 april 2021](hr-whats-new-2021-04-05.md)</br>
+[22 maart 2021](hr-whats-new-2021-03-22.md)</br>
+[8 maart 2021](hr-whats-new-2021-03-08.md)</br>
+[22 februari 2021](hr-whats-new-2021-02-22.md)</br>
+[28 januari 2021](hr-whats-new-2021-01-28.md)</br>
+[21 januari 2021](hr-whats-new-2021-01-21.md)</br>
+
+
 
 ## <a name="see-also"></a>Zie ook
 
-[Overzicht van Dynamics 365 Human Resources 2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
+[Overzicht van Dynamics 365 Human Resources 2021 release wave 2](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/)</br>
 [Het updateproces](hr-admin-setup-update-process.md)</br>
 [Functies beheren](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,27 +2,24 @@
 title: Enkel boekstuk met meerdere klant- of leveranciersrecords
 description: Dit onderwerp geeft een overzicht van wat er gebeurt wanneer u één enkel boekstuk boekt met meerdere klant- of leverancierrecords. Deze functionaliteit gaat verdwijnen in toekomstige versies van Microsoft Dynamics 365 Finance. Het wordt daarom afgeraden om deze boekingsmethode te gebruiken, vanwege het boekhoudingseffect op de verwerking van vereffeningen.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 222534
 ms.assetid: d4df11ce-4d36-4c66-8230-f5fc58e021bc
 ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7cbc638b684ad6eb59b852e599cf36cbd0b66faf
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: 8677eba2c38c6273555e1189c0153272a8ff9e005655f3846c0d7605b872ff94
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4442126"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737036"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Enkel boekstuk met meerdere klant- of leveranciersrecords
 
@@ -211,8 +208,6 @@ Op het gerelateerde boekstuk voor contantkorting worden de financiële dimensies
 | ARP-00001   | 403300-002-023- | Contantkorting van klant | 2.00      |            |
 | ARP-00001   | 130100-002-     | Klantsaldo       |           | 2.00       |
 
-### 
-
 ## <a name="one-voucher-with-a-netting-for-multiple-customers-and-vendors"></a>Eén boekstuk met een verrekening voor meerdere klanten en leveranciers
 Verrekenen kan nuttig zijn wanneer een organisatie aan hetzelfde bedrijf verkoopt en ervan koopt. In plaats van leveranciersfacturen te betalen en wachten op ontvangst van betaling voor klantfacturen, worden de leveranciers- en klantfacturen verrekend. De verrekenende transactie wordt vereffend met de openstaande saldi. 
 
@@ -233,3 +228,6 @@ Om ongewenste problemen met toekomstige vereffeningen voor deze transactie te ve
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

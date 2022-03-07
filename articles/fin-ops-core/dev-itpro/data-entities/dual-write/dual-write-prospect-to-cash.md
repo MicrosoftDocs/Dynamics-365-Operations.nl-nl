@@ -2,40 +2,29 @@
 title: Prospect naar contant geld in twee keer wegschrijven
 description: Dit onderwerp biedt informatie over Prospect naar contant geld in twee keer wegschrijven.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 01/07/2021
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 3f88d7249af515670c0a3e73a5ef890f04133d19
-ms.sourcegitcommit: 6af7b37b1c8950ad706e684cc13a79e662985b34
+ms.openlocfilehash: 7c53bcd1084d89b59d0f6b2674a85d7c3481a9bf
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4959596"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781786"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect naar contant geld in twee keer wegschrijven
 
 [!include [banner](../../includes/banner.md)]
 
-
-
 Een belangrijk doel van de meeste bedrijven is het converteren van prospects naar klanten en vervolgens een langdurige zakelijke relatie met deze klanten te onderhouden. In Microsoft Dynamics 365-apps vindt het proces Prospect naar contant geld plaats via offertes of orderverwerkingswerkstromen en worden de financiële gegevens afgestemd en verantwoord. Dankzij de integratie van prospect-naar-contact met twee keer wegschrijven wordt er een workflow gemaakt die een offerte en een order combineert die afkomstig zijn uit Dynamics 365 Sales of Dynamics 365 Supply Chain Management, en worden de offerte en de order beschikbaar gemaakt in beide apps.
 
 In de app-interfaces hebt u toegang tot de verwerkingsstatus en factuurgegevens in real-time. Hierdoor kunt u functies zoals productvoorraad, voorraadverwerking en uitvoering van Supply Chain Management eenvoudiger beheren, zonder dat u de offertes en orders opnieuw hoeft te maken.
 
-![Gegevensstroom voor Twee keer wegschrijven in Prospect naar contant geld](../dual-write/media/dual-write-prospect-to-cash[1].png)
+![Gegevensstroom voor Twee keer wegschrijven in Prospect naar contant geld.](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
 Zie [Geïntegreerd klantmodel](customer-mapping.md) voor informatie over klant- en contactintegratie. Zie [Uniforme productervaring](product-mapping.md) voor informatie over productintegratie.
 
@@ -72,6 +61,7 @@ Verkoopoffertes kunnen worden gemaakt in Sales of Supply Chain Management. Als u
 + De kolommen **Leveringscondities**, **Leveringsvoorwaarden**, **Verzendmethode** en **Leveringsmethode** maken geen deel uit van de standaardtoewijzingen. Als u deze kolommen wilt toewijzen, moet u een waardetoewijzing instellen die specifiek is voor de gegevens in de organisaties waartussen de tabel wordt gesynchroniseerd.
 
 Als u ook de Field Service-oplossing gebruikt, moet u de parameter **Snel offerteregel maken** opnieuw inschakelen. Als u de parameter opnieuw inschakelt, kunt u doorgaan met het maken van offerteregels met de functie Snel maken.
+
 1. Ga naar uw Dynamics 365 Sales-toepassing.
 2. Selecteer het pictogram Instellingen op de navigatiebalk bovenaan.
 3. Selecteer **Geavanceerde instellingen**.
@@ -123,40 +113,25 @@ Prospect naar contact geld omvat een verzameling basistabeltoewijzingen die same
 
 | Finance and Operations-apps | Customer Engagement-apps | Beschrijving |
 |-----------------------------|-----------------------------------|-------------|
-| Kopteksten van verkoopfacturen V2    | facturen                          | De tabel Kopteksten van verkoopfacturen V2 in de Finance and Operations-app bevat facturen voor verkooporders en vrije-tekstfacturen. Er wordt een filter toegepast in Dataverse voor twee keer wegschrijven waarmee alle vrije-tekstfactuurdocumenten worden uitgefilterd. |
-| Verkoopfactuurregels V2      | factuurdetails                    |             |
-| CDS-verkooporderkopteksten     | salesorders                       |             |
-| CDS-verkooporderregels       | salesorderdetails                 |             |
-| Oorsprongcodes van verkooporder    | msdyn\_salesorderorigins          |             |
-| CDS-verkoopoffertekoptekst  | offertes                            |             |
-| Regels van CDS-verkoopofferte   | quotedetails                      |             |
+[Alle producten](mapping-reference.md#138) | msdyn_globalproducts | |
+[Klanten V3](mapping-reference.md#101) | rekeningen | |
+[Klanten V3](mapping-reference.md#116) | contacten | |
+[Contactpersonen V2](mapping-reference.md#221) | msdyn_contactforparties | |
+[CDS-verkooporderkopteksten](mapping-reference.md#217) | salesorders | |
+[CDS-verkooporderregels](mapping-reference.md#216) | salesorderdetails | |
+[CDS-verkoopoffertekoptekst](mapping-reference.md#215) | offertes | |
+[Regels van CDS-verkoopofferte](mapping-reference.md#214) | quotedetails | |
+[Vrijgegeven producten V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
+[Kopteksten van verkoopfacturen V2](mapping-reference.md#118) | facturen | De tabel Kopteksten van verkoopfacturen V2 in de Finance and Operations-app bevat facturen voor verkooporders en vrije-tekstfacturen. Er wordt een filter toegepast in Dataverse voor twee keer wegschrijven waarmee alle vrije-tekstfactuurdocumenten worden uitgefilterd. |
+[Verkoopfactuurregels V2](mapping-reference.md#117) | factuurdetails | |
+[Oorsprongcodes van verkooporder](mapping-reference.md#186) | msdyn_salesorderorigins | |
 
-Dit zijn de gerelateerde kerntabeltoewijzingen voor prospect naar contant geld:
-
-+ [Klanten V3 naar accounts](customer-mapping.md#customers-v3-to-accounts)
-+ [CDS-contactpersonen V2 naar contactpersonen](customer-mapping.md#cds-contacts-v2-to-contacts)
-+ [Klanten V3 naar contacts](customer-mapping.md#customers-v3-to-contacts)
-+ [Vrijgegeven producten V2 naar msdynsharedproductdetails](product-mapping.md#released-products-v2-to-msdyn_sharedproductdetails)
-+ [Alle producten naar msdyn_globalproducts](product-mapping.md#all-products-to-msdyn_globalproducts)
-+ [Prijslijst](product-mapping.md)
+Zie [Geharmoniseerde productervaring](product-mapping.md) voor informatie over prijslijsten.
 
 ## <a name="limitations"></a>Beperkingen
+
 - Retourorders worden niet ondersteund.
 - Creditnota's worden niet ondersteund.
-- Financiële dimensies moeten worden ingesteld voor de hoofdgegevens, bijvoorbeeld klant en leverancier. Wanneer een klant wordt toegevoegd aan een offerte of verkooporder, worden de financiële dimensies die aan de klantrecordstroom zijn gekoppeld, automatisch aan de order toegevoegd. Op dit moment bevat twee keer wegschrijven geen financiële dimensiegegevens voor hoofdgegevens. 
+- Financiële dimensies moeten worden ingesteld voor de hoofdgegevens, bijvoorbeeld klant en leverancier. Wanneer een klant wordt toegevoegd aan een offerte of verkooporder, worden de financiële dimensies die aan de klantrecordstroom zijn gekoppeld, automatisch aan de order toegevoegd. Op dit moment bevat twee keer wegschrijven geen financiële dimensiegegevens voor hoofdgegevens.
 
-[!include [symbols](../../includes/dual-write-symbols.md)]
-
-[!include [sales invoice](includes/SalesInvoiceHeaderV2Entity-invoice.md)]
-
-[!include [sales invoice line](includes/SalesInvoiceLineV2Entity-invoicedetail.md)]
-
-[!include [sales order header](includes/SalesOrderHeaderCDSEntity-salesorder.md)]
-
-[!include [sales order line](includes/SalesOrderLineCDSEntity-salesorderdetails.md)]
-
-[!include [sales order origin](includes/SalesOrderOriginEntity-msdyn-salesorderorigin.md)]
-
-[!include [sales quotation header](includes/SalesQuotationHeaderCDSEntity-quote.md)]
-
-[!include [sales quotation line](includes/SalesQuotationLineCDSEntity-QuoteDetails.md)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Geavanceerde filter- en querysyntaxis
-description: In dit onderwerp worden de filter- en queryopties beschreven die beschikbaar zijn wanneer u het dialoogvenster Geavanceerd filteren/sorteren of de operator komt overeen in het filtervenster of de filters in de rasterkolomkoppen gebruikt.
+description: In dit onderwerp worden de filter- en queryopties voor het dialoogvenster Geavanceerd filteren/sorteren beschreven en vindt u uitleg over de operator voor overeenkomsten in het filtervenster of de filters in de rasterkolomkoppen.
 author: jasongre
-manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysQueryForm
 audience: Application User
@@ -17,16 +15,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 650f1c209b1797973634c788645a4659bff28f13
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798665"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070004"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Geavanceerde filter- en querysyntaxis
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 In dit onderwerp worden de filter- en queryopties beschreven die beschikbaar zijn wanneer u het dialoogvenster Geavanceerd filteren/sorteren of de operator **komt overeen** in het filtervenster of de filters in de rasterkolomkoppen gebruikt.
 
@@ -242,3 +243,6 @@ Raadpleeg de tabel in het volgende onderdeel voor meer informatie over datummeth
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

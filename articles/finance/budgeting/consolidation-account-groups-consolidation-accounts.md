@@ -1,42 +1,38 @@
 ---
 title: Groepen met consolidatierekeningen en aanvullende consolidatierekeningen
-description: In dit onderwerp wordt informatie gegeven over groepen met consolidatierekeningen en aanvullende consolidatierekeningen en wordt uitgelegd hoe deze worden gebruikt in Microsoft Dynamics 365 Finance.
-author: aprilolson
-manager: AnnBe
+description: In dit onderwerp wordt informatie gegeven over groepen met consolidatierekeningen en aanvullende consolidatierekeningen en wordt uitgelegd hoe deze worden gebruikt.
+author: panolte
 ms.date: 01/11/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerConsolidateAccountGroup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 265544
 ms.assetid: 71c31df7-b655-46a8-8844-4f92a8bd71b0
 ms.search.region: Global
-ms.author: aolson
+ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8db7a60656434aafd8114b08c2c0e9493140f27b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 489f5417b6044e02d4711a03a17d6c19031cc2ee
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442085"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883382"
 ---
-# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Groepen met consolidatierekeningen en aanvullende consolidatierekeningen
+# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Groep met consolidatierekeningen en extra consolidatierekeningen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt informatie gegeven over groepen met consolidatierekeningen en aanvullende consolidatierekeningen en wordt uitgelegd hoe deze worden gebruikt in Microsoft Dynamics 365 Finance.
+In dit onderwerp wordt informatie gegeven over groepen met consolidatierekeningen en aanvullende consolidatierekeningen en wordt uitgelegd hoe deze worden gebruikt.
 
-<a name="consolidation-account-groups"></a>Groepen met consolidatierekeningen
-----------------------------
+## <a name="consolidation-account-groups"></a>Consolidatierekeninggroepen
 
-Met groepen consolidatierekeningen kunt u groepen maken van de rekeningen die u wilt gebruiken om gegevens te consolideren. Meestal wordt met een groep consolidatierekeningen een door de overheid voorgeschreven rekeningschema vertegenwoordigd of worden rekeningen aan een groep toegewezen die door het hoofdkantoor van het bedrijf is gedefinieerd. U vindt groepen consolidatierekeningen in het gebied **Instellen** van de module **Consolidaties**. Wanneer u een nieuwe groep toevoegt, voert u een unieke ID en een naam in voor de rekeninggroep.
+Met groepen consolidatierekeningen kunt u groepen maken van de rekeningen die u wilt gebruiken om gegevens te consolideren. Doorgaans vertegenwoordigt een groep consolidatierekeningen een door de overheid voorgeschreven rekeningschema. Een groep consolidatierekeningen kan ook rekeningen aan een groep koppelen die door het hoofdkantoor van het bedrijf is gedefinieerd. U vindt groepen consolidatierekeningen in het gebied **Instellen** van de module **Consolidaties**. Wanneer u een nieuwe groep toevoegt, voert u een unieke id en een naam in voor de rekeninggroep.
 
-## <a name="additional-consolidation-accounts"></a>Aanvullende consolidatiebedragen
+## <a name="additional-consolidation-accounts"></a>Aanvullende consolidatierekeningen
 Met aanvullende consolidatierekeningen kunt u een rekening vanuit een bestaand rekeningschema toewijzen aan een groep consolidatierekeningen. U kunt vervolgens een waarde en naam voor de consolidatierekening opgeven. 
 
 U vindt aanvullende consolidatierekeningen in het gebied **Instellen** van de module **Consolidaties**. Wanneer u een nieuwe consolidatierekening maakt, moet u de volgende gegevens opgeven:
@@ -54,3 +50,6 @@ Zie [Consolidatiegroepen en extra consolidatierekeningen maken](../general-ledge
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

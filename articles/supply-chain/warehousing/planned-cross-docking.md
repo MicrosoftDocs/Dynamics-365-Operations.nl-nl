@@ -2,11 +2,9 @@
 title: Gepland cross-docken
 description: In dit onderwerp wordt geavanceerd gepland cross-docking beschreven, waarbij de voorraadhoeveelheid die nodig is voor een order rechtstreeks van ontvangst of maken naar het juiste outbound dock of klaarzetlocatie wordt gestuurd. Alle resterende voorraad uit de inkomende bron wordt via het normale wegzetproces naar de juiste opslaglocatie gestuurd.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate, WHSLoadPostMethod, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSPlannedCrossDocking
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: fb598b3ac7dd72e8c500f0c2eaf07462009c67f7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: c28639a4a575f5f356bf947ba8e0aee6bcd256b4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970301"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573028"
 ---
 # <a name="planned-cross-docking"></a>Gepland cross-docken
 
@@ -30,21 +28,23 @@ In dit onderwerp wordt geavanceerd gepland cross-docking beschreven. Cross-docki
 
 Bij cross-docken kunnen de werknemers het wegzetten van inkomende artikelen en het verzamelen voor uitgaande artikelen overslaan voor voorraat die al voor een uitgaande order is gemarkeerd. Zo wordt het aantal aanrakingsmomenten voor voorraad waar mogelijk zo klein mogelijk gehouden. Omdat er minder interactie is met het systeem, kan worden bespaard op tijd en ruimte op de magazijnvloer.
 
-Voordat cross-docken kan worden uitgevoerd, moet de gebruiker een nieuwe sjabloon voor cross-docken configureren, waarin de voorraadbron en andere reeksen vereisten voor cross-docken worden opgegeven. Wanneer de uitgaande order wordt gemaakt, moet de regel worden gemarkeerd voor een inkomende order die hetzelfde artikel bevat.
+Voordat u cross-docken kunt uitvoeren, moet u een nieuwe sjabloon voor cross-docken configureren, waarin de voorraadbron en andere reeksen vereisten voor cross-docken worden opgegeven. Wanneer de uitgaande order wordt gemaakt, moet de regel worden gemarkeerd voor een inkomende order die hetzelfde artikel bevat. U kunt het veld met de richtlijncode selecteren in de sjabloon voor cross-docken, vergelijkbaar met de manier waarop u aanvullings- en inkooporders instelt.
 
 Bij ontvangst van inkomende orders identificeert de cross-dockingconfiguratie automatisch dat cross-docken vereist is, en maakt het werk aan voor verplaatsing van de vereiste hoeveelheid op basis van de configuratie van de locatie-instructie.
 
 > [!NOTE]
-> Registratie van voorraadtransacties wordt **niet** ongedaan gemaakt wanneer het cross-dockingwerk wordt geannuleerd, zelfs als de instelling voor deze mogelijkheid is ingeschakeld in de parameters van magazijnbeheer.
+> Registratie van voorraadtransacties wordt *niet* ongedaan gemaakt wanneer het cross-dockingwerk wordt geannuleerd, zelfs als de instelling voor deze mogelijkheid is ingeschakeld in de parameters van magazijnbeheer.
 
-## <a name="turn-on-the-planned-cross-docking-feature"></a>De functie Gepland cross-docken inschakelen
+## <a name="turn-on-the-planned-cross-docking-features"></a>De functies voor gepland cross-docken inschakelen
 
-Voordat u geavanceerd gepland cross-docken kunt gebruiken, moet de functie zijn ingeschakeld in uw systeem. Beheerders kunnen het werkgebied [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
+Als de functies die in dit onderwerp worden beschreven, nog niet in het systeem aanwezig zijn, gaat u naar [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de volgende functies in de volgende volgorde in:
 
-- **Module:** *Magazijnbeheer*
-- **Functienaam:** *Gepland cross-docken*
+1. *Gepland cross-docken*
+1. *Sjablonen met locatie-instructies voor cross-docken*
+    > [!NOTE]
+    > Met deze functie kunt u het veld **Richtlijncode** opgeven in de sjabloon voor cross-docken, vergelijkbaar met de manier waarop u aanvullingssjablonen instelt. Als u deze functie inschakelt, kunt u geen richtlijncode toevoegen aan de regels van de werksjabloon voor cross-docken voor de laatste regel *Wegzetten*. Zo zorgt u ervoor dat de uiteindelijke plaats kan worden bepaald tijdens het maken van het werk voordat er werksjablonen worden gebruikt.
 
-## <a name="setup"></a>Instellen
+## <a name="setup"></a>Instelling
 
 ### <a name="regenerate-load-posting-methods"></a>Boekingsmethoden voor lading opnieuw genereren
 
@@ -90,6 +90,10 @@ Gepland cross-docken wordt geïmplementeerd als een boekingsmethode voor lading.
 
         Met deze optie wordt bepaald of de levering opnieuw moet worden gevalideerd tijdens de ontvangst. Als deze optie is ingesteld op *Ja*, worden zowel het maximumtijdvenster als het bereik voor vervaldagen gecontroleerd.
 
+    - **Instructiecode:** laat dit veld leeg
+
+        Deze optie wordt ingeschakeld door de functie *Sjablonen voor cross-docken met locatierichtlijnen*. Het systeem gebruikt locatierichtlijnen om de beste locatie te bepalen waar de voorraad voor cross-docken naartoe kan worden verplaatst. U kunt de optie instellen door een instructiecode toe te wijzen aan elke relevante sjabloon voor cross-docken. Als er instructiecode is ingesteld, worden de locatie-instructies niet op volgorde doorzocht, maar wordt er op instructiecode gezocht wanneer werk wordt gegenereerd. Op deze manier kunt u locatierichtlijnen beperken die voor een bepaalde sjabloon voor cross-docken worden gebruikt.
+
     - **Tijdvenster valideren:** *Ja*
 
         Met deze optie wordt bepaald of het maximumtijdvenster moet worden geëvalueerd wanneer een voorraadbron wordt geselecteerd. Als deze optie is ingesteld op *Ja*, worden de velden die zijn gerelateerd aan de maximum- en minimumtijdvensters beschikbaar.
@@ -112,6 +116,9 @@ Gepland cross-docken wordt geïmplementeerd als een boekingsmethode voor lading.
 
     - **Volgnummer:** *1*
     - **Leveringsbron:** *Inkooporder*
+
+> [!NOTE]
+> U kunt een query instellen om te bepalen wanneer een bepaalde sjabloon voor cross-docken wordt gebruikt. De query voor sjablonen voor cross-docken bevat alleen de tabel *InventTable* (artikelen) en de met elkaar verbonden *WHSInventTable* (WHS-artikelen)-tabel. Als u andere tabellen aan de query wilt toevoegen, kunt u deze toevoegen door alleen *bestaande joins* of *niet-bestaande joins* te gebruiken. Wanneer u filtert op de verbonden tabellen, wordt een record uit de hoofdtabel opgehaald voor elke overeenkomende record in de verbonden tabel. Als het jointype *bestaande join* is, eindigt de zoekactie nadat de eerste match is gevonden. Als u bijvoorbeeld de tabel verkooporderregel met de artikelentabel samenvoegt, valideert en retourneert het systeem artikelen waarvoor minimaal één verkooporderregel de gedefinieerde voorwaarde heeft. In wezen worden de gegevens opgehaald uit de bovenliggende tabel (artikelen) en niet uit de tabel onderliggende tabel (verkooporderregel). U kunt daarom niet zomaar filteren op brondocumenten, zoals verkooporderregels of klanten.
 
 ### <a name="create-a-work-class"></a>Een werkklasse maken
 
@@ -147,6 +154,9 @@ Gepland cross-docken wordt geïmplementeerd als een boekingsmethode voor lading.
     - **Werkklasse-id:** *CrossDock*
 
 1. Selecteer **Opslaan** en bevestig dat het selectievakje **Geldig** is ingeschakeld voor de sjabloon *51 Cross-docken*.
+1. Optioneel: selecteer **Query bewerken** als u criteria wilt instellen om te bepalen wanneer en waar de werksjabloon wordt gebruikt.
+
+    U kunt een query instellen om te bepalen wanneer een bepaalde werksjabloon wordt gebruikt. U kunt bijvoorbeeld opgeven dat een sjabloon alleen voor werk op een specifieke locatie kan worden gebruikt. Als u wilt dat de werksjabloon voor cross-docken op een specifieke locatie wordt toegepast, moet u filteren op het veld **Beginlocatie**, niet op het veld **Locatie**, omdat het maken van werk voor de inkomende processen (inkoop, cross-docken en aanvulling) begint vanaf de plaatsregel. Wanneer het werk wordt gemaakt, wordt het veld **Locatie** op de plaats gebracht door de locatierichtlijn. De op te halen locatie wordt echter opgeslagen in het veld **Beginlocatie**.
 
 > [!NOTE]
 > De werkklasse-id's voor de werktypen *Verzamelen* en *Wegzetten* moeten hetzelfde zijn.
@@ -314,4 +324,7 @@ Momenteel hebben beide werk-id's dezelfde doelnummerplaat. Om de volgende stappe
 
 In de volgende afbeelding wordt weergegeven hoe het voltooide cross-dockingwerk kan worden weergegeven in Microsoft Dynamics 365 Supply Chain Management.
 
-![Cross-dockingwerk voltooid](media/PlannedCrossDockingWork.png "Cross-dockingwerk voltooid")
+![Cross-dockingwerk voltooid.](media/PlannedCrossDockingWork.png "Cross-dockingwerk voltooid")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

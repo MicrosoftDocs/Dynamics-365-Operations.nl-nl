@@ -2,29 +2,25 @@
 title: Overzicht productaanbevelingen
 description: Dit onderwerp biedt algemene informatie over het productaanbevelingen. Met productaanbevelingen kunnen klanten gemakkelijk en snel producten vinden die ze willen en zelfs producten die ze oorspronkelijk niet willen kopen.
 author: Moonma
-manager: AnnBe
 ms.date: 05/26/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Retail, Core, Operations
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5aa7db8e53906f9e1416b912fe2c3b70d5430258
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7824de50a65370ef4f2f23b9c8e926f9bec2fcc3
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411250"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982114"
 ---
 # <a name="product-recommendations-overview"></a>Overzicht productaanbevelingen
 
@@ -35,6 +31,9 @@ Microsoft Dynamics 365 Commerce kan worden gebruikt om productaanbevelingen weer
 Met productaanbevelingen kunnen klanten gemakkelijk en snel producten vinden die ze willen, terwijl ze een goede bediening ervaren. Door middel van meerverkoop/bijverkoop kunnen klanten extra producten zoeken die ze oorspronkelijk niet wilden kopen. Wanneer aanbevelingen worden gebruikt om productdetectie te verbeteren, kunnen ze meer conversiemogelijkheden creëren, de verkoopopbrengsten verhogen en zelfs de klanttevredenheid en -retentie verbeteren.
 
 In e-Commerce worden productaanbevelingen op grote schaal aangestuurd door machine learning-technologie voor Microsoft-aanbevelingen.
+
+Deze service is een invoegtoepassing voor Dynamics 365 Commerce. Download de meest recente [Microsoft Dynamics 365-licentiehandleiding](https://go.microsoft.com/fwlink/?LinkId=866544) voor meer informatie.
+
 
 ## <a name="recommendation-service"></a>Aanbevelingsservice
 
@@ -88,3 +87,6 @@ In de volgende tabel worden verschillende typen automatische productaanbevelinge
 [Aanbevelingen maken met voorbeeldgegevens](product-recommendations-demo-data.md)
 
 [Veelgestelde vragen over productaanbevelingen](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: f37d161bf3d27e15eaaf1230c05270f3769f9901
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 6c99b9f2c6c3ab598eb792ee7b17d2a3873d4cff
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778276"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813598"
 ---
 # <a name="work-line-details"></a>Details werkregel
 
@@ -28,9 +28,9 @@ De pagina **Details werkregel** geeft een uitgebreide, sorteerbare en filterbare
 
 ## <a name="turn-on-the-work-line-details-feature"></a>De functie Details werkregel inschakelen
 
-Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Beheerders kunnen gebruikmaken van de pagina [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en deze zo nodig in of uit te schakelen. Hier ziet u de functie als:
+Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en desgewenst in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
 
-- **Module:** *Warehouse Management*
+- **Module:** *Magazijnbeheer*
 - **Functienaam:** *Details werkregel*
 
 ## <a name="open-and-use-the-work-line-details-page"></a>De pagina Details werkregel openen en gebruiken

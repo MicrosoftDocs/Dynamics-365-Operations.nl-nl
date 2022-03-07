@@ -2,29 +2,28 @@
 title: Vervoerdersgroepen
 description: In dit onderwerp wordt beschreven hoe u de gegevens voor vervoerdersgroepen instelt.
 author: Henrikan
-manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSCarrierGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2570479edac9bc8cc7aa998a8b69f54ffc10cd61
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 10a30d8fae52a25b7d65b5a9cc991677df33a2a7
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646378"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574876"
 ---
 # <a name="carrier-groups"></a>Vervoerdersgroepen
+
+[!include [banner](../../includes/banner.md)]
 
 Een vervoerdersgroep is een verzameling vervoerders en vervoerdersservices. Elke vervoerdersgroep geeft de voorkeursvolgorde aan voor de vervoerders en vervoerdersservices die hiervan deel uitmaken.
 
@@ -38,3 +37,6 @@ Wanneer er meerdere vervoerders en vervoerdersservices zijn voor hetzelfde route
 1. Voer in het veld **Naam** een beschrijvende naam voor de groep in.
 1. Voeg op sneltabblad **Details** een rij toe en selecteer een vervoerder en een vervoerdersservice ervoor. Herhaal deze stap totdat u net zoveel vervoerders hebt toegevoegd als u nodig hebt voor de groep.
 1. Sluit de pagina.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,25 +2,22 @@
 title: Overzicht van Crediteringen en aanmaningen
 description: In dit onderwerp wordt een overzicht gegeven van de functionaliteit voor Crediteringen en aanmaningen.
 author: mikefalkner
-manager: AnnBe
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 67e0b3d1058e5fc085f51577ccf0b79e51546de0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7929150cd9f6c28620f4c4d4cb7b57b02d27a104
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441931"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835407"
 ---
 # <a name="credit-and-collections-overview"></a>Overzicht van Crediteringen en aanmaningen
 
@@ -77,3 +74,6 @@ Zie [Basisbegrippen voor incassobeheer](./cm-collections-concepts.md) voor besch
 [Kredietblokkeringen voor verkooporders](./cm-sales-order-credit-holds.md)
 
 [Periodieke taken voor klantkredietbeheer](./cm-periodic-tasks.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

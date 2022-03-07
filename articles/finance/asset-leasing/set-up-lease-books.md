@@ -2,28 +2,25 @@
 title: Leaseboeken instellen
 description: In dit onderwerp wordt de informatie beschreven die in leaseboeken wordt bijgehouden. Leaseboeken bevatten de boekhoudbeleidsregels die bepalen hoe een lease wordt verwerkt in het systeem.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TaxTable
+ms.search.form: AssetLeaseBookMaster
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 28518341544327f1983e563b719b0f455b6e1c43
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 5894fc96e9b80be61fa57417e083780f617ee06bcdca29aceaf164308d17dcda
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4442161"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728812"
 ---
 # <a name="set-up-lease-books"></a>Leaseboeken instellen
 
@@ -53,3 +50,7 @@ Volg deze stappen om een nieuw leaseboek te maken.
     | Drempel voor de korte termijn                     | Voer het aantal maanden in dat moet worden gebruikt als drempel voor leases op korte termijn. Als de leaseperiode kleiner is dan of gelijk is aan het aantal maanden dat u hier invoert, wordt de lease door het systeem geclassificeerd als een lease op korte termijn en wordt de behandeling uitgestelde gebruiksvergoeding toegepast. |
     | Drempel voor geringe waarde                      | Voer een bedrag in dat u wilt gebruiken als drempelwaarde voor leases met geringe waarde. Als de reële waarde van het activum kleiner is dan of gelijk is aan de waarde die u hier invoert, wordt de lease door het systeem geclassificeerd als een lease met geringe waarde en wordt de behandeling uitgestelde gebruiksvergoeding toegepast. |
     | Betalen aan leverancier                            | Stel deze optie in op **Ja** als u wilt toestaan dat leasebetalingen als een factuur worden geboekt naar de leveranciersrekening die op elke lease is opgegeven. Wanneer een leasebetaling wordt geboekt, wordt de leveranciersrekening gecrediteerd. Als deze optie is ingesteld op **Nee**, wordt de rekening die is opgegeven voor het boekingstype **Leasebetaling** op de pagina **Leaseboekingsparameters** in plaats daarvan gecrediteerd. |
+    | Leaseconventie                       | De conventie voor de begindatum van de lease selecteren:<ul><li><b>Geen</b>: de begindatum van de lease gebruiken als de aanvangsdatum.</li><li><b>Volledige maand</b>, de eerste dag van de maand waarin de begindatum van de lease valt, gebruiken als aanvangsdatum.</li></ul><p>Als u <b>Geen</b> selecteert, bestaat het risico dat met de aflossingsschema's voor verplichtingen en afschrijvingsschema's voor activa onkosten halverwege de maand in plaats van aan het einde van de maand worden toegerekend en geboekt. Als u <b>Volledige maand</b> selecteert, zorgt u ervoor dat de lease vanaf de eerste dag van de maand door het systeem wordt verantwoord en dat de onkosten van de hele maand worden toegerekend en geboekt op de laatste dag van de maand.</p><p><strong>Opmerking:</strong> de functie voor leasingconventies moet worden ingeschakeld via Functiebeheer. Zoek in de werkruimte <b>Functiebeheer</b> de functie <b>Leasingconventie voor activaleasing</b> en selecteer <b>Nu inschakelen</b>.</p> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

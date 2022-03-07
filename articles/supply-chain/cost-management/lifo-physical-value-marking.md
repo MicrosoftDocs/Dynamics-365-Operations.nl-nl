@@ -2,11 +2,9 @@
 title: LIFO met fysieke waarde en markering
 description: LIFO (Last in, First out) is een voorraadmodel waarin de laatste (nieuwste) ontvangsten het eerst worden uitgegeven. Uitgiften uit de voorraad worden vereffend met de laatste ontvangsten in de voorraad op basis van de datum van de voorraadtransactie.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35650dc02ec923994026a3ab7f66dea5a81ed20d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 294c7bbb328c31c6c3fdc16a72267224d7c71b27
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967603"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809729"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO met fysieke waarde en markering
 
@@ -150,3 +148,6 @@ In het volgende afbeelding worden de effecten van het LIFO-voorraadmodel op deze
 - Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label *Voorraadafsluiting*.
 - Vereffeningen die door voorraadafsluitingen worden uitgevoerd, worden weergegeven met rode diagonale stippelpijlen die van een ontvangst naar een uitgifte lopen.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Problemen met analytische rapporten oplossen
 description: In dit artikel wordt uitgelegd wat u moet doen als de gegevenswijzigingen van een klant niet in een van de werkgebieden van de klant worden weergegeven.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -17,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 99d9eb3a16e6470820a2eb0a19c1d50e89bd3d36
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b500d519d61edfd20456355376e3fc81f16517a0
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418011"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794968"
 ---
 # <a name="troubleshoot-analytic-reports"></a>Problemen met analytische rapporten oplossen
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Uitgifte**
 
@@ -43,3 +43,6 @@ Dit probleem kan ook een kwestie van timing zijn. Volg deze stappen om de batcht
 1. Selecteer **Bewerken** boven aan de pagina en stel de geplande begindatum/-tijd in waarmee de analyses dichter bij de huidige tijd worden vernieuwd.
 
 ![Batchtaken](media/batch-jobs.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

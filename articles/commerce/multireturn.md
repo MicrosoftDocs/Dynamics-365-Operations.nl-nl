@@ -15,27 +15,43 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 410a78dca29f1d723a5b5ef43836d07ec5502a567ec81098241fafeb6354373b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4a64794a0e04516441fab628d441640e4d154b8d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770976"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796883"
 ---
 # <a name="return-items-across-multiple-customer-orders-and-invoices"></a>Artikelen voor meerdere klantorders en facturen retourneren
 
 [!include [banner](includes/banner.md)]
 
 
-Er kunnen retouren worden gemaakt voor meerdere orders en facturen. 
+In dit artikel worden twee functies beschreven die het retourneren van klantorders voor meerdere facturen optimaliseren. 
 
-## <a name="configure-commerce-to-support-returns-across-multiple-customer-order-and-invoices"></a>Commerce configureren om retouren voor meerdere klantorders en facturen te ondersteunen
+## <a name="enable-refunds-over-multiple-captures"></a>Restituties via meerdere registraties inschakelen
 
-1. Ga naar **Commerce-parameters \> Klantorders**.
-1. Schakel de parameter **Retouren voor meerdere orders inschakelen** in. 
+Met deze functie worden meerdere gekoppelde terugbetalingen mogelijk voor dezelfde klantorder. 
+
+1. Ga naar het werkgebied **Functiebeheer** en zoek naar **Restituties via meerdere registraties inschakelen**.
+2. Selecteer **Restituties via meerdere orders inschakelen** en klik vervolgens op **Inschakelen**. 
+
+## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>De correcte belastingberekening voor retouren met gedeeltelijke hoeveelheid inschakelen
+
+Deze functie zorgt ervoor dat wanneer een order wordt geretourneerd met meerdere facturen, de btw uiteindelijk gelijk is aan het oorspronkelijke aangerekende btw-bedrag. 
+
+1. Ga naar het werkgebied **Functiebeheer** en zoek naar **De correcte belastingberekening voor retouren met gedeeltelijke hoeveelheid inschakelen**.
+2. Selecteer **De correcte belastingberekening voor retouren met gedeeltelijke hoeveelheid inschakelen** en klik vervolgens op **Inschakelen**. 
+
 
 ## <a name="process-returns"></a>Retouren verwerken
 
-Wanneer de parameter is ingeschakeld en de wijzigingen zijn gesynchroniseerd met de winkels, kan de kassamedewerker in de winkel meerdere verkooporders voor een klant selecteren voor retour.
+Wanneer deze functies zijn ingeschakeld en de wijzigingen zijn gesynchroniseerd met de winkels, kan de kassamedewerker in de winkel meerdere verkooporders voor een klant selecteren voor retour.
 
 Wanneer de orders zijn geselecteerd, wordt een lijst met alle retourneerbare producten voor alle facturen voor de orders weergegeven. De kassamedewerker kan vervolgens de te retourneren producten selecteren. Er wordt één retourorder gemaakt voor de geselecteerde producten.
+
+Als de order volledig is geretourneerd, is het btw-bedrag dat aan de klant is geretourneerd, gelijk aan het oorspronkelijk aangerekende btw-bedrag.
+
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

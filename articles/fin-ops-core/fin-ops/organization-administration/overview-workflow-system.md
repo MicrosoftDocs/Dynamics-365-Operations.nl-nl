@@ -2,30 +2,33 @@
 title: Overzicht van Workflowsysteem
 description: In dit onderwerp wordt het werkstroomsysteem beschreven.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: 56381
+ms.custom:
+- "56381"
+- intro-internal
 ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 660e01618eea66bc611dd51818694d36993ba9ea
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 70776ba0a0461998d2c1f62ba05b55cd4307a0f7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796991"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067928"
 ---
 # <a name="workflow-system-overview"></a>Overzicht van Workflowsysteem
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 In dit onderwerp wordt het werkstroomsysteem beschreven.
 
@@ -41,7 +44,7 @@ Workflow is een systeem dat wordt uitgevoerd op de Application Object Server (AO
 
 Een workflow vertegenwoordigt een bedrijfsproces. Een workflow definieert hoe een document zich door het systeem begeeft of stroomt door aan te geven wie een taak moet voltooien, een beslissing moet nemen of een document moet goedkeuren. De volgende illustratie toont bijvoorbeeld een workflow voor onkostennota's.
 
-![Een workflow met elementen die zijn toegewezen aan gebruikers](./media/workflow_user.gif)
+![Een workflow met elementen die zijn toegewezen aan gebruikers.](./media/workflow_user.gif)
 
 Voor een beter begrip van deze workflow wordt aangenomen dat Sam een onkostenrapport voor 7.000 EUR indient. In dit scenario moet Ivan de bonnen beoordelen die Sam naar hem heeft doorstuurt. Vervolgens moeten Frank en Sue het onkostenrapport goedkeuren. Stel nu dat Sam een onkostennota van EUR 11.000 heeft ingediend. In dit scenario moet Ivan de bonnen beoordelen en moeten Frank, Suzan en Anne het onkostenrapport goedkeuren.
 
@@ -71,3 +74,6 @@ Als uw organisatie werkt met het werkstroomsysteem, levert dat tal van voordelen
 + [Parallelle vertakkingen in een workflow configureren](configure-parallel-branch-workflow.md)
 + [Workflows voor regelitems configureren](configure-line-item-workflow.md)
 + [Veelgestelde vragen over werkstromen](workflow-FAQ.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

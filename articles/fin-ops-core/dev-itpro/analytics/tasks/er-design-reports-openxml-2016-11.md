@@ -1,12 +1,11 @@
 ---
 title: 'ER: een configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling (november 2016)'
-description: In de volgende stappen wordt uitgelegd hoe een gebruiker in de rol van Systeembeheerder of Ontwikkelaar voor Elektronische rapportage een nieuwe configuratie voor Elektronische rapportage (ER) kan maken die een sjabloon bevat voor het genereren van elektronische documenten in OPENXML-indeling.
+description: In dit onderwerp wordt beschreven hoe u een nieuwe ER-configuratie (Electronic Reporting) maakt die een sjabloon voor het genereren van elektronische documenten in OPENXML-indeling bevat.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERModelGroupByFunctionEditor, VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bf909efbac5dce8e22d9713ad2e694ce624ffeb0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3fac102f760de9c3e99bd69863570e6503620567
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681896"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5567781"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER: een configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling (november 2016)
 
@@ -150,3 +149,6 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedure "Een 
 17. Typ in het veld **Bankrekening** `GBSI OPER`.
 18. Selecteer **OK** en vervolgens weer **OK**. Controleer het gemaakte werkblad, inclusief details van betalingsregels en totalen voor elke valutacode die in dit betalingsbericht wordt gebruikt.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

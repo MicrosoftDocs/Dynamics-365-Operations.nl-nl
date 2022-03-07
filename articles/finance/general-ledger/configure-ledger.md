@@ -2,26 +2,23 @@
 title: Grootboeken configureren
 description: Dit onderwerp bevat informatie over het configureren van grootboeken voor elke rechtspersoon. Het bevat informatie over het selecteren van valuta's, fiscale kalenders, het rekeningschema en de rekeningstructuren die bij elke rechtspersoon moeten worden gebruikt.
 author: kweekley
-manager: ''
 ms.date: 09/24/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Ledger
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 929ab7ae66a217de836ce49373faed76325c4d3a
-ms.sourcegitcommit: ac0a676c91e3053ad7f9432d576c9af3ff98a99a
+ms.openlocfilehash: 3e6c4d966f2720339941fb848ff9ac79e4593868ce10d3712efbb1ad18a9ceea
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4442180"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712214"
 ---
 # <a name="configure-ledgers"></a>Grootboeken configureren
 
@@ -82,3 +79,6 @@ Als u twee valuta's gebruikt of als u één valuta gebruikt maar transacties wor
 Gerealiseerde winsten en verliezen zijn winsten en verliezen die zijn gemaakt op basis van voltooide transacties. Deze worden vastgelegd in de winst- en verliesrekening. Niet-gerealiseerde winsten en verliezen zijn winsten en verliezen die zijn gerealiseerd, maar waarvoor de transactie niet is voltooid. Met andere woorden: u hebt bijvoorbeeld een factuur geboekt, maar de factuur is nog niet vereffend en betaald. Niet-gerealiseerde winsten en verliezen worden op de balans geregistreerd.
 
 Raadpleeg [Twee valuta's](dual-currency.md) voor meer informatie over het werken met twee valuta's.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

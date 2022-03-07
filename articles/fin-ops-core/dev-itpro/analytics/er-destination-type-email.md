@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2248b8a35b076eb778a50bbbc67d083380ceee62
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324003"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343855"
 ---
 # <a name="email-er-destination-type"></a>ER-bestemmingstype voor e-mail
 
@@ -75,7 +75,7 @@ U kunt de afzender en e-mailontvangers configureren. Standaard wordt een e-mailb
 >
 > Wanneer een e-mailbestemming wordt aangeboden voor aanpassen bij [runtime](electronic-reporting-destinations.md#security-considerations) is het veld **Van** alleen zichtbaar voor gebruikers met de `ERFormatDestinationSenderEmailMaintain`-beveiligingsmachtiging **E-mailadres afzender onderhouden voor bestemming voor ER-indelingen**.
 >
-> Wanneer het veld **Van** is geconfigureerd voor het gebruik van een ander e-mailadres dan het adres van de huidige gebruiker, moet de machtiging voor **Verzenden als** of **Verzenden namens** van tevoren correct zijn [ingesteld](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group). Anders doet zich de volgende uitzondering voor bij runtime: 'Kan e-mail niet verzenden als \<from email account\> vanaf het account \<current user account\>; controleer dan de machtigingen voor 'Verzenden als' voor \<from email account\>.
+> Wanneer het veld **Van** is geconfigureerd voor het gebruik van een ander e-mailadres dan het adres van de huidige gebruiker, moet de machtiging voor **Verzenden als** of **Verzenden namens** van tevoren correct zijn [ingesteld](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide). Anders doet zich de volgende uitzondering voor bij runtime: 'Kan e-mail niet verzenden als \<from email account\> vanaf het account \<current user account\>; controleer dan de machtigingen voor 'Verzenden als' voor \<from email account\>.
 
 U kunt het veld **Van** configureren om meerdere e-mailadressen terug te geven. In dit geval wordt het eerste adres in de lijst gebruikt als e-mailadres van de afzender.
 
@@ -140,7 +140,7 @@ Als u het type e-mailadres wilt opgeven dat tijdens runtime moet worden gebruikt
 
 ### <a name="configuration-email"></a>Configuratie-e-mail
 
-Selecteer **Configuratie-e-mail** als het type e-mailadres als de configuratie die u gebruikt een knooppunt heeft in de gegevensbronnen die een enkel e-mailadres of meerdere e-mailadressen gescheiden door puntkomma's (;) retourneren. U kunt gegevensbronnen en [functies](er-formula-language.md#Functions) in de formuleontwerper gebruiken om een e-mailadres met juiste indeling te krijgen of meerdere e-mailadressen met een juiste indeling die door puntkomma's worden gescheiden. Als u bijvoorbeeld de configuratie **ISO 20022 Kredietoverdracht** gebruikt, is `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email` het knooppunt dat het primaire e-mailadres van een leverancier vertegenwoordigt in de contactgegevens van de leverancier waarnaar de begeleidende brief moet worden verzonden.
+Selecteer **Configuratie-e-mail** als het type e-mailadres als de configuratie die u gebruikt een knooppunt heeft in de gegevensbronnen die een enkel e-mailadres of meerdere e-mailadressen gescheiden door puntkomma's (;) retourneren. U kunt [gegevensbronnen](general-electronic-reporting.md#FormatComponentOutbound) en [functies](er-formula-language.md#Functions) in de formuleontwerper gebruiken om een e-mailadres met juiste indeling te krijgen of meerdere e-mailadressen met een juiste indeling die door puntkomma's worden gescheiden. Als u bijvoorbeeld de configuratie **ISO 20022 Kredietoverdracht** gebruikt, is `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email` het knooppunt dat het primaire e-mailadres van een leverancier vertegenwoordigt in de contactgegevens van de leverancier waarnaar de begeleidende brief moet worden verzonden.
 
 [![Een e-mailadresbron configureren.](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
 

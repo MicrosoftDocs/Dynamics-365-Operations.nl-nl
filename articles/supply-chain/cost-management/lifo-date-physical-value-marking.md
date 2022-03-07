@@ -2,11 +2,9 @@
 title: LIFO-datum met fysieke waarde en markering
 description: LIFO-datum (Last In, First Out Date) is een voorraadmodel dat gebaseerd is op het LIFO-principe. Uitgiften uit de voorraad worden vereffend met de recentste ontvangsten in de voorraad op basis van de datum van de voorraadtransactie. Als er op de LIFO-datum geen artikel vóór de uitgifte wordt ontvangen, wordt de uitgifte vereffend met de ontvangsten die na de datum van de artikeluitgifte plaatsvinden. Meerdere uitgiften op dezelfde datum kunnen in de volgende 'laatste uitgifte - laatste ontvangst' worden vereffend.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2c06443532519ad5d6c36a6f4ed1f1c4d136664
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f033dee70f3423ec560885d59e2db1bc61cb6009e9c9c151c15c0ecd8d697862
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967628"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748004"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>LIFO-datum met fysieke waarde en markering
 
@@ -57,7 +55,7 @@ In dit voorbeeld is de artikelmodelgroep niet gemarkeerd voor het opnemen van de
 
 De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel bijgewerkte transacties met USD 15,00. 
 
-In de volgende afbeelding worden de effecten van het voorraadmodel LIFO-datum weergegeven wanneer de optie **Fysieke waarde opnemen** niet wordt gebruikt. ![LIFO-datum met fysieke waarde opnemen](./media/lifodatewithoutincludephysicalvalue.gif) 
+In de volgende afbeelding worden de effecten van het voorraadmodel LIFO-datum weergegeven wanneer de optie **Fysieke waarde opnemen** niet wordt gebruikt. ![LIFO-datum met fysieke waarde opnemen.](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **Uitleg bij het diagram**
 
@@ -92,7 +90,7 @@ De volgende afbeelding geeft deze transacties weer:
 
 De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel bijgewerkte transacties met USD 20,00. 
 
-In de volgende afbeelding worden de effecten van het voorraadmodel LIFO-datum weergegeven wanneer de optie **Fysieke waarde opnemen** wel wordt gebruikt. ![LIFO-datum met fysieke waarde opnemen](./media/lifodatewithincludephysicalvalue.gif) 
+In de volgende afbeelding worden de effecten van het voorraadmodel LIFO-datum weergegeven wanneer de optie **Fysieke waarde opnemen** wel wordt gebruikt. ![LIFO-datum met fysieke waarde opnemen.](./media/lifodatewithincludephysicalvalue.gif) 
 
 **Uitleg bij het diagram**
 
@@ -138,7 +136,7 @@ De volgende afbeelding geeft deze transacties weer:
 
 De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en fysiek bijgewerkte transacties met USD 27,50. 
 
-De volgende afbeelding illustreert de gevolgen van het LIFO-voorraadmodel bij gebruik van markering tussen uitgiften en ontvangsten. ![LIFO-datum met markering](./media/lifodatewithmarking.gif) 
+De volgende afbeelding illustreert de gevolgen van het LIFO-voorraadmodel bij gebruik van markering tussen uitgiften en ontvangsten. ![LIFO-datum met markering.](./media/lifodatewithmarking.gif) 
 
 **Uitleg bij het diagram**
 
@@ -156,3 +154,6 @@ De volgende afbeelding illustreert de gevolgen van het LIFO-voorraadmodel bij ge
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

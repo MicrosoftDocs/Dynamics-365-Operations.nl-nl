@@ -2,11 +2,9 @@
 title: Aangepaste opslaglocaties opgeven voor gegenereerde documenten
 description: In dit onderwerp wordt uitgelegd hoe u de lijst met opslaglocaties uitbreidt voor documenten die zijn gegenereerd door indelingen voor elektronische rapportage (ER).
 author: NickSelin
-manager: AnnBe
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 362ac7f10cc61e26be89dfbae0e84745d42588a3
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680753"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594904"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Aangepaste opslaglocaties opgeven voor gegenereerde documenten
 
@@ -29,7 +27,7 @@ Met de API (Application Programming Interface) van het ER-raamwerk kunt u de lij
 
 ## <a name="prerequisites"></a>Vereisten
 
-Implementeer een topologie die ondersteuning biedt voor continuous build. Zie [Topologieën implementeren die ondersteuning bieden voor continue bouw- en testautomatisering](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation) voor meer informatie. U moet ook toegang hebben tot deze topologie voor een van de volgende rollen:
+Implementeer een topologie die ondersteuning biedt voor continuous build. Zie [Topologieën implementeren die ondersteuning bieden voor continue bouw- en testautomatisering](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation) voor meer informatie. U moet ook toegang hebben tot deze topologie voor een van de volgende rollen:
 
 - Ontwikkelaar elektronische rapportage
 - Functioneel consultant elektronische rapportage
@@ -43,7 +41,7 @@ Alle taken in dit onderwerp kunnen in het bedrijf **USMF** worden uitgevoerd.
 
 Als u de documenten wilt genereren waarvoor u een aangepaste opslaglocatie wilt toevoegen, [importeert](er-download-configurations-global-repo.md) u de configuratie van de ER-indeling **Voortschrijdende prognose voor vaste activa** in de huidige topologie.
 
-![Configuratie archiefpagina](./media/er-custom-storage-generated-files-import-format.png)
+![Configuratie archiefpagina.](./media/er-custom-storage-generated-files-import-format.png)
 
 ## <a name="run-the-fixed-asset-roll-forward-report"></a>Het rapport voor voortschrijdende prognose voor vaste activa uitvoeren
 
@@ -54,7 +52,7 @@ Als u de documenten wilt genereren waarvoor u een aangepaste opslaglocatie wilt 
 5. Selecteer in het veld **Indelingstoewijzing** de optie **Voortschrijdende prognose voor vaste activa**.
 6. Selecteer **OK**.
 
-![Het runtime-dialoogvenster voor het rapport Voortschrijdende prognose voor vaste activa](./media/er-custom-storage-generated-files-runtime-dialog.png)
+![Het runtime-dialoogvenster voor het rapport Voortschrijdende prognose voor vaste activa.](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
 Controleer in Microsoft Excel het uitgaande document dat is gegenereerd en beschikbaar is voor downloaden. Dit gedrag is het [standaardgedrag](electronic-reporting-destinations.md#default-behavior) voor een ER-indeling waarvoor geen [bestemmingen](electronic-reporting-destinations.md) zijn geconfigureerd en die in de interactieve modus wordt uitgevoerd.
 
@@ -257,7 +255,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Wijzig de bestaande klasse `AssetRollForwardService` en schrijf code om een aangepaste bestemmingsfabriek in te stellen voor de rapportuitvoeringsfunctie. Wanneer een aangepaste bestemmingsfabriek is opgebouwd, wordt de toepassingsgestuurde parameter die een bestemmingsmap opgeeft doorgegeven. Op deze manier wordt de bestemmingsmap gebruikt om gegenereerde bestanden op te slaan.
 
     > [!NOTE] 
-    > Controleer of de opgegeven map (**c:\\0** in dit voorbeeld) aanwezig is in het lokale bestandssysteem van de server waarop de AOS-service wordt uitgevoerd. Anders wordt een uitzondering [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) gegenereerd tijdens runtime.
+    > Controleer of de opgegeven map (**c:\\0** in dit voorbeeld) aanwezig is in het lokale bestandssysteem van de server waarop de AOS-service wordt uitgevoerd. Anders wordt een uitzondering [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception) gegenereerd tijdens runtime.
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;
@@ -341,3 +339,6 @@ class AssetRollForwardService extends SysOperationServiceBase
 
 - [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md)
 - [Startpagina voor Uitbreidbaarheid](../extensibility/extensibility-home-page.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

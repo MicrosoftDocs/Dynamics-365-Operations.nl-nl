@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35ade352edf31fe895a9b9118a8ad7d5fe6c0bde
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: bf77e488b60cc4c526398db494104c31b0f210b1
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798398"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5570940"
 ---
 # <a name="show-pages-side-by-side-using-the-open-in-new-window-feature"></a>Pagina's naast elkaar weergeven met de functie Openen in nieuw venster
 
@@ -48,3 +47,6 @@ Voordat u de functie **Openen in nieuw venster** kunt gebruiken, moet u de pop-u
 De functie **Openen in nieuw venster** is alleen beschikbaar wanneer er meer dan een pagina is geopend in het venster. Het pop-upvenster wordt ook automatisch gesloten wanneer er geen pagina's meer open zijn (dat wil zeggen wanneer u de laatste pagina in dat venster sluit). Het systeem sluit ook open pagina´s wanneer u navigeert naar een ander gedeelte in de toepassing. Als u dus open pop-upvensters hebt en naar een ander gedeelte in de toepassing navigeert, worden de pop-upvensters automatisch afgesloten omdat de pagina's in die vensters door het systeem werden gesloten.
 
 De bovenste balk in de pop-upvensters tonen informatie over het bedrijf waarin de pagina is geopend en is alleen-lezen. De pop-upvensters zijn ook afhankelijk van het hoofdbrowservenster. Als het hoofdvenster wordt gesloten of vernieuwd, worden alle openstaande pop-upvensters alleen-lezen. Als deze situatie zich voordoet, kunt u de informatie in deze vensters nog steeds bekijken, maar is er geen interactie mogelijk.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,28 +2,25 @@
 title: Leaserapporten voor activa
 description: In dit onderwerp vindt u een beknopt overzicht van de rapporten die beschikbaar zijn voor de leasing van activa.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: bab2b0b2b021266e50d6f4a1fad1cc4a1c1ae56e
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 085027c5cc823beec99779791ff471dceb4ec8fe
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4442166"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814099"
 ---
 # <a name="asset-leasing-reports"></a>Leaserapporten voor activa
 
@@ -165,3 +162,6 @@ Het rapport Gewogen gemiddelde kortingspercentage voldoet aan de Amerikaanse GAA
 |     Valuta                          |     De afkorting voor de gebruikte transactievaluta. Alle rapporten converteren de transactievaluta naar de aangiftevaluta.  |
 |     Resterende leasebetalingen          |     Het totale bedrag aan onbetaalde leasebetalingen uit het betalingsschema dat resteert vanaf de **Begindatum**.            |
 |     Gewogen resterende betalingen       |     De resterende leasebetalingen vermenigvuldigd met het gebruikte kortingspercentage.   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

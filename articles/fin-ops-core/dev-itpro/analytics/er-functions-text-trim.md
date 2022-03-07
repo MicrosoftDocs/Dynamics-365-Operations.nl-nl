@@ -2,8 +2,11 @@
 title: De ER-functie TRIM
 description: Dit onderwerp biedt informatie over het gebruik van de ER-functie (Elektronische rapportage) TRIM.
 author: NickSelin
+manager: kfend
 ms.date: 12/05/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba47df2b5f06b979436339e414e9e0cf7d9fd0358d8c9055c1591923b5d9c517
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 908da840ffcb94f4a60bb41ce041f5f263c921eb
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734739"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688360"
 ---
 # <a name="trim-er-function"></a>De ER-functie TRIM
 
@@ -52,6 +55,3 @@ De resulterende tekstwaarde.
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Tekstfuncties](er-functions-category-text.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

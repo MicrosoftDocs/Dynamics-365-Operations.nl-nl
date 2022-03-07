@@ -2,11 +2,9 @@
 title: Overtredingen van controlebeleid en aanvragen
 description: In dit artikel wordt beschreven hoe controleaanvragen worden gegenereerd voor overtredingen van controlebeleidsregels. Het bevat ook informatie over de verschillende manieren waarop door controlebeleid wordt gebruikgemaakt van het datumbereik voor documentselectie.
 author: panolte
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ddd403bfe82b1a7d3c0c5999f89bde19f1bba5e8
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 057cb8afe0da5e0810a2d1c87f7cdbe73bc88b9819ca81631d889bfa1cc55e6c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022100"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758096"
 ---
 # <a name="audit-policy-violations-and-cases"></a>Overtredingen van controlebeleid en aanvragen
 
@@ -30,8 +28,7 @@ ms.locfileid: "5022100"
 
 In dit artikel wordt beschreven hoe controleaanvragen worden gegenereerd voor overtredingen van controlebeleidsregels. Het bevat ook informatie over de verschillende manieren waarop door controlebeleid wordt gebruikgemaakt van het datumbereik voor documentselectie.
 
-<a name="how-audit-cases-are-generated"></a>De controleaanvragen worden gegenereerd.
------------------------------
+## <a name="how-audit-cases-are-generated"></a>De controleaanvragen worden gegenereerd.
 
 Controlebeleidsregels worden gebruikt voor het identificeren van onkostennota's, inkooporders en leveranciersfacturen die niet aan de bedrijfsregels voldoen die u definieert en configureert als controlebeleidsregels. 
 
@@ -60,3 +57,6 @@ Zie [Controlebeleidsregels](audit-policy-rules.md) voor meer informatie.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

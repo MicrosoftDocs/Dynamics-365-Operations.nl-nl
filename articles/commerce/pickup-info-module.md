@@ -11,20 +11,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 61b97d72b6a397737c10476cd6c02764e60f10b1
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: 222e8ad79b30e5197f7140958309d442b284f286
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665343"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5263175"
 ---
-# <a name="pickup-information-module"></a>Module ophaalinformatie
+# <a name="pickup-information-module"></a>Module met afhaalinformatie
 
 [!include [banner](includes/banner.md)]
 
@@ -70,3 +69,6 @@ In de volgende afbeelding ziet u een voorbeeld van een e-commerce uitcheckpagina
 [Orderbevestigingsmodule](order-confirmation-module.md)
 
 [Module voor orderdetails](account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

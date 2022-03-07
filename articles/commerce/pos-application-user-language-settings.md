@@ -2,16 +2,13 @@
 title: Taalinstellingen voor verkooppunttoepassing (POS) en gebruiker
 description: In dit onderwerp wordt beschreven hoe u taalinstellingen wijzigt in Modern POS (MPOS) en Cloud POS.
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: HcmWorker, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 78891
 ms.assetid: 0030940c-e0a5-4345-9511-8c3bd1f487ad
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 49bfcaa4c05ea8e6cc6bf0a8f855f2474cea35bc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 099d16f63e03ecbc8bf911fe4385b35fac7c67f763c17379cdc6b6229abdea16
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411489"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774528"
 ---
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>Taalinstellingen voor verkooppunttoepassing (POS) en gebruiker
 
@@ -60,8 +57,11 @@ De taalinstellingen van de gebruiker van het POS bepalen welke vertalingen worde
 
 De taalinstellingen van de gebruiker van het POS kunnen worden ingesteld via **Alle werknemers** op de pagina **Werknemer** onder **Retail en Commerce &gt; Taal**. Deze instelling wordt niet ingesteld op het hoofdtabblad Profiel. Deze instelling wordt niet gebruikt door POS. Als de taal van de gebruiker niet is ingesteld of is ingesteld op een taal waarvoor geen vertalingen beschikbaar zijn, stapt het POS weer over op de taal van de winkel.
 
-|             | Taal van gebruikersinterface                   | Gegevenstaal (producten, ontvangstindelingen, regelweergave, enzovoort.) |
+| &nbsp;      | Taal van gebruikersinterface                   | Gegevenstaal (producten, ontvangstindelingen, regelweergave, enzovoort.) |
 |-------------|----------------------------|---------------------------------------------------------------|
 | **Bedrijf** | Standaard                    | Standaard                                                       |
 | **Winkel**   | Overschrijft bedrijf          | Overschrijft bedrijf                                             |
 | **Gebruiker**    | Overschrijft opslag of bedrijf | Nooit                                                         |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

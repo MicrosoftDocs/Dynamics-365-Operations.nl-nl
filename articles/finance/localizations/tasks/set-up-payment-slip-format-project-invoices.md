@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: OMLegalEntity, CustFormletterParameters
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c843f3b504d8390b26fdc94dd747a73de75df6a9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b2bcbf19ef78c521a426573ea4317c5a0e9e2cb3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442006"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214439"
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a>Indeling voor betalingsbonnen voor projectfacturen instellen
 
@@ -66,3 +65,6 @@ Deze functionaliteit is alleen beschikbaar voor rechtspersonen waarvan het prima
 16. Klik op Opslaan.
 17. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f68dcfc0c1454ee5b095e186c52faa6c83bf8dc6
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 69e61e1c04dd72efbe1d2f028c078100e07176f6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103910"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838437"
 ---
 # <a name="confirm-outbound-shipments-from-batch-jobs"></a>Uitgaande zendingen vanuit batchtaken bevestigen
 
@@ -25,9 +25,12 @@ ms.locfileid: "8103910"
 
 In dit onderwerp wordt beschreven hoe u een batchtaak instelt waarmee automatisch uitgaande overboekingsorderzendingen worden bevestigd voor ladingen die gereed zijn om te verzenden. De batchtaak die hier wordt beschreven, is alleen van toepassing op overboekingsorders, niet op verkooporders.
 
-## <a name="turn-the-confirm-outbound-shipments-from-batch-jobs-feature-on-or-off"></a>De functie Uitgaande zendingen vanuit batchtaken bevestigen in- of uitschakelen
+## <a name="enable-the-confirm-outbound-shipments-from-batch-jobs-feature"></a>Schakel de functie Uitgaande zendingen vanuit batchtaken bevestigen in
 
-Als u de functionaliteit wilt gebruiken die in dit onderwerp wordt beschreven, moet de functie *Uitgaande zendingen vanuit batchtaken bevestigen* zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Uitgaande zendingen vanuit batchtaken bevestigen* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Voordat u deze functie kunt gebruiken, moet u deze inschakelen op uw systeem. Beheerders kunnen gebruikmaken van de pagina [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en deze zo nodig in te schakelen. U ziet de functie als:
+
+- **Module** - *Magazijnbeheer*
+- **Functienaam** - *Uitgaande zendingen vanuit batchtaken bevestigen*
 
 ## <a name="process-outbound-shipments"></a>Uitgaande zendingen verwerken
 

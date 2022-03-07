@@ -2,35 +2,30 @@
 title: Takenlijsten maken en taken toevoegen
 description: In dit onderwerp wordt beschreven hoe u takenlijsten maakt en hieraan taken toewijst in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 1cab31784db9f3242dce20e98762088436a5a8f8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2e6bd69435ee8fe58dbbf66eb0c5eee3d2ec09ee1998ef0218cdef643522c5bf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411440"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756520"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Takenlijsten maken en taken toevoegen
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u takenlijsten maakt en hieraan taken toewijst in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 Een *taak* definieert een specifiek werkstuk of een actie die door iemand moet worden voltooid op of voor een bepaalde vervaldatum. In Dynamics 365 Commerce kan een taak gedetailleerde instructies en informatie over een contactpersoon bevatten. Het kan ook koppelingen bevatten naar bewerkingen in de back-office, bewerkingen op het verkooppunt (POS) of sitepagina's, om de productiviteit te helpen verbeteren en de context te bieden die de eigenaar van de taak nodig heeft om de taak efficiënt te kunnen uitvoeren.
 
@@ -54,7 +49,7 @@ Volg deze stappen om taken toe te voegen aan een takenlijst.
 1. Voer in het dialoogvenster **Een nieuwe taak maken**, in het veld **Naam** een naam in voor de taak.
 1. Voer in het veld **Verschuiving van vervaldatum vanaf doeldatum** een positief of negatief geheel getal in. Voer bijvoorbeeld **-2** in als de taak twee dagen vóór de vervaldatum van de takenlijst moet zijn voltooid.
 1. Voer in het veld **Notities** gedetailleerde instructies in.
-1. Voer in het veld **Contactpersoon** de naam in van een deskundige die contact kan opnemen met de eigenaar van de taak als hij of zij hulp nodig heeft.
+1. Voer in het veld **Contactpersoon** de naam in van een deskundige die contact kan opnemen met de eigenaar van de taak als deze hulp nodig heeft.
 1. Voer in het veld **Taakkoppeling** een koppeling in op basis van de aard van de taak.
 
 > [!TIP]
@@ -75,7 +70,7 @@ Voer de volgende stappen uit om taakkoppelingen toe te voegen tijdens het maken 
 
 In de volgende afbeelding ziet u de selectie van taakkoppelingen in het dialoogvenster **Taak bewerken**.
 
-![Taakkoppelingen selecteren in het dialoogvenster Taak bewerken](media/HQ-POS-Tasks-Linking.png)
+![Taakkoppelingen selecteren in het dialoogvenster Taak bewerken.](media/HQ-POS-Tasks-Linking.png)
 
 ### <a name="configure-a-pos-operation-so-that-it-can-be-linked-to-a-task"></a>Een POS-bewerking zo configureren dat deze aan een taak kan worden gekoppeld
 
@@ -93,3 +88,6 @@ Ga als volgt te werk om een POS-bewerking zodanig te configureren dat deze aan e
 [Takenlijsten toewijzen aan winkels of werknemers](task-mgmt-assign-lists.md)
 
 [Taakbeheer in POS](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

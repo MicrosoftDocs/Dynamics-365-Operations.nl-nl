@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 4a0d5efe043d72f936a15ec9a8ead9987fdb22b891a5a3ae94f95aa5ea7a6e67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 496c4fe5230a599acf60fac39e51c43db372f92c
+ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715525"
+ms.lasthandoff: 06/01/2021
+ms.locfileid: "6129802"
 ---
 # <a name="create-returns-in-pos"></a>Retouren maken in POS
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp wordt beschreven hoe u retouren voor contante transacties of klantorders start in de app Microsoft Dynamics 365 Commerce POS (Point of Sale).
 
@@ -47,7 +48,7 @@ Als een transactie of order wordt gevonden die overeenkomt met de zoekcriteria, 
 
 Voor elke orderregel in de lijst met retourneerbare producten wordt in POS informatie weergegeven over de oorspronkelijke inkoophoeveelheid en de hoeveelheden van eventuele retouren die eerder zijn verwerkt. De retourhoeveelheid die een gebruiker invoert voor een orderregel, moet kleiner zijn dan of gelijk zijn aan de waarde van het veld **Beschikbaar voor retour**.
 
-![Pagina Retourneerbare producten.](media/returnslist.png)
+![Pagina Retourneerbare producten](media/returnslist.png)
 
 Als een gebruiker tijdens de retourverwerking het fysieke product heeft en dat product heeft een streepjescode, kan de gebruiker de streepjescode scannen om de retour te registreren. Elke scan van de streepjescode verhoogt de retourhoeveelheid met één artikel. Als het streepjescodelabel echter een ingesloten hoeveelheid heeft, wordt die hoeveelheid ingevoerd in het veld **Nu retourneren**.
 
@@ -96,13 +97,6 @@ Als de informatie aan de kanaalzijde om de een of andere reden niet is bijgewerk
 
 > [!NOTE]
 > Wanneer de functie **Uniforme retourverwerkingservaring in POS** is ingeschakeld, zijn nieuwe optionele functies beschikbaar die ondersteuning bieden voor de validatie van geserialiseerde productretouren. Zie [Producten met serienummers retourneren in POS (Point of Sale)](POS-serial-returns.md) voor meer informatie.
-
-## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>De correcte belastingberekening voor retouren met gedeeltelijke hoeveelheid inschakelen
-
-Deze functie zorgt ervoor dat wanneer een order wordt geretourneerd met meerdere facturen, de btw uiteindelijk gelijk is aan het oorspronkelijke aangerekende btw-bedrag.
-1.  Ga naar het werkgebied **Functiebeheer** en zoek naar **De correcte belastingberekening voor retouren met gedeeltelijke hoeveelheid inschakelen**.
-2.  Selecteer **De correcte belastingberekening voor retouren met gedeeltelijke hoeveelheid inschakelen** en klik vervolgens op **Inschakelen**.
-
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

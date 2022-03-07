@@ -2,16 +2,13 @@
 title: Terminologie voor kostprijsboekhouding
 description: In dit onderwerp worden de belangrijkste termen gedefinieerd die in Kostprijsboekhouding worden gebruikt.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 948beb7baa19c69530dca52b5d4c119b69f8f011
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f61ae7a6657eaad3510833c17f342b7266be247aec2a9bfe80b97172f662ae0a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442093"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774372"
 ---
 # <a name="cost-accounting-terminology"></a>Terminologie voor kostprijsboekhouding
 
@@ -205,3 +202,6 @@ Overzichten zijn weergaven voor managers die verantwoordelijk zijn voor kostenbe
 Versies worden gebruikt om verschillende resultaten te simuleren, weer te geven en te vergelijken. Standaard worden alle werkelijke kosten weergegeven in een basisversie die wordt aangeduid als *werkelijk*. Voor budgetten en berekeningen kunt u werken met zoveel versies als nodig is. U kunt bijvoorbeeld budgetgegevens importeren in een oorspronkelijke versie en het budget vervolgens bewerken in een herziene versie. Voor berekeningen kunt u meerdere versies maken. In deze verschillende versies kunt u vervolgens berekeningen maken door middel van verschillende berekeningsregels die voor kostentoewijzing worden toegepast.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
