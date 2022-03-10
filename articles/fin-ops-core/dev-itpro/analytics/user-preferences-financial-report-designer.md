@@ -1,12 +1,10 @@
 ---
 title: Gebruikersvoorkeuren in Ontwerper financiële rapporten
-description: In dit artikel wordt uitgelegd hoe u uw gebruikersvoorkeuren instelt voor het aanpassen van uw gebruikersinteracties in Ontwerper financiële rapporten en de ervaring bij eerste aanmelding bepaalt. U kunt ook bepalen hoe afzonderlijke rapporten, de rapportbibliotheek en de standaardbestandslocaties worden weergegeven.
+description: In dit onderwerp wordt beschreven hoe u uw gebruikersvoorkeuren instelt voor het aanpassen van uw gebruikersinteracties in Ontwerper financiële rapporten en de ervaring bij eerste aanmelding bepaalt.
 author: aprilolson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a7d7124da3d0e9596f364c17065c95610384a8ca
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1f4c9bdde367044cfbf736c1aecbe0387031309318a7bf929f1b9ba2fd9368be
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687372"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724364"
 ---
 # <a name="user-preferences-in-financial-report-designer"></a>Gebruikersvoorkeuren in Ontwerper financiële rapporten
 
@@ -72,3 +70,6 @@ In dit artikel wordt uitgelegd hoe u uw gebruikersvoorkeuren instelt voor het aa
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Financiële rapportage](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 882e9ba310930cd6a9c638c60d5be7edc6809335
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a1454e3d9045810f20460610124c04cfff92171960e3b01962a1332b78191d71
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821196"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720367"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.10 (mei 2020)
 
@@ -33,19 +33,19 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Mi
 
 ## <a name="features-included-in-this-release"></a>Functies in deze versie
 
-Deze versie bevat de volgende functies. De functietitels verwijzen naar extra informatie op de site [Release plans](https://docs.microsoft.com/dynamics365/release-plans/). Extra koppelingen verwijzen naar extra documentatie of video's die momenteel beschikbaar zijn voor die functie. De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken.
+Deze versie bevat de volgende functies. De functietitels verwijzen naar extra informatie op de site [Release plans](/dynamics365/release-plans/). Extra koppelingen verwijzen naar extra documentatie of video's die momenteel beschikbaar zijn voor die functie. De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken.
 
-- [Verbetering in het gebruik van catch weight-labels met magazijnbeheer](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
+- [Verbetering in het gebruik van catch weight-labels met magazijnbeheer](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
 
-- [Verbeteringen in het beheer van binnenkomende ladingen voor magazijnbeheer](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Zie voor meer informatie [Magazijnverwerking van inkomende ladingen voor inkooporders](../warehousing/inbound-load-handling.md).
+- [Verbeteringen in het beheer van binnenkomende ladingen voor magazijnbeheer](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Zie voor meer informatie [Magazijnverwerking van inkomende ladingen voor inkooporders](../warehousing/inbound-load-handling.md).
 
-- [Verbeteringen in etiketten afdrukken voor magazijnbeheer](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Zie voor meer informatie [Indeling van documentroutering voor nummerplaatlabels](../warehousing/document-routing-layout-for-license-plates.md).
+- [Verbeteringen in etiketten afdrukken voor magazijnbeheer](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Zie voor meer informatie [Indeling van documentroutering voor nummerplaatlabels](../warehousing/document-routing-layout-for-license-plates.md).
 
-- [Hoofdplanning bevat artikelen met voorhanden voorraad wanneer voorverwerkingsfilters zijn ingeschakeld](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
+- [Hoofdplanning bevat artikelen met voorhanden voorraad wanneer voorverwerkingsfilters zijn ingeschakeld](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 
-- [Nieuwe gegevensentiteiten voor het productiegebied](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
+- [Nieuwe gegevensentiteiten voor het productiegebied](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 
-- [Kwaliteitsbeheer voor magazijnprocessen](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - Zie voor meer informatie [Kwaliteitsbeheer voor magazijnprocessen](../inventory/quality-management-for-warehouses-processes.md).
+- [Kwaliteitsbeheer voor magazijnprocessen](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - Zie voor meer informatie [Kwaliteitsbeheer voor magazijnprocessen](../inventory/quality-management-for-warehouses-processes.md).
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
@@ -61,7 +61,7 @@ Voor informatie over de correcties die zijn opgenomen in deze update, meldt u zi
 
 Bent u benieuwd naar de komende en onlangs uitgebrachte voorzieningen in een van onze bedrijfsapps of platforms?
 
-Bekijk [Dynamics 365: releasewave 1-plan van 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index). We hebben alle details in één document verzameld die u kunt gebruiken voor uw planning.
+Bekijk [Dynamics 365: releasewave 1-plan van 2020](/dynamics365-release-plan/2020wave1/index). We hebben alle details in één document verzameld die u kunt gebruiken voor uw planning.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Verwijderde en afgeschafte functies voor Supply Chain Management
 

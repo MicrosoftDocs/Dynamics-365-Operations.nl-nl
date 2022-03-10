@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
-ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 5bf8ce93d2c804325305672d79b633210a790cf0
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.dyn365.ops.version: 10.0.16
+ms.openlocfilehash: 6207627c1e901ce969e39d960adb5ab50f13e17d
+ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347657"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7790861"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>De uitvoeringsinterface voor de werkvloer ontwerpen
 
@@ -54,12 +54,12 @@ Voer de volgende stappen uit om een nieuw tabblad te maken en te configureren:
 1. Geef de koptekst van de pagina de volgende instellingen:
 
     - **Tabbladnaam**: geef een naam op voor het tabblad.
-    - **Hoofdweergave**: maak een selectie uit de vooraf gedefinieerde takenlijsten (*Actieve taken*, *Alle taken* of *Mijn machine*).
-    - **Detailweergave**: selecteer uit een lege waarde of **Taakdetails**. Als u de lege waarde selecteert, wordt op het tabblad geen gedetailleerde weergave weergegeven. Als u **Taakdetails selecteert**, bevat de gedetailleerde weergave een gedetailleerde omschrijving van de taak die in de takenlijst in de hoofdweergave is geselecteerd.
+    - **Hoofdweergave**: maak een selectie uit de vooraf gedefinieerde takenlijsten (*Actieve taken*, *Alle taken* en *Mijn machine*).
+    - **Detailweergave**: selecteer een lege waarde of **Taakdetails**. Als u de lege waarde selecteert, wordt op het tabblad geen gedetailleerde weergave weergegeven. Als u **Taakdetails selecteert**, bevat de gedetailleerde weergave een gedetailleerde omschrijving van de taak die in de takenlijst in de hoofdweergave is geselecteerd.
 
 1. Kies in de sectie **Primaire werkbalk** welke knoppen beschikbaar moeten zijn op de primaire werkbalk. De kolom **Beschikbare acties** geeft een lijst weer met alle knoppen die kunnen worden toegevoegd. De kolommen **Geselecteerde acties** geeft een lijst weer met alle knoppen die in de huidige configuratie zijn opgenomen. Gebruik de knoppen tussen de kolommen om geselecteerde artikelen naar wens tussen de kolommen te verplaatsen. Gebruik de knoppen omhoog en omlaag naast de kolom **Geselecteerde acties** om de volgorde te bepalen waarin de knoppen in de gebruikersinterface worden weergegeven.
 
-1. Kies in de sectie **Secundaire** **werkbalk** welke knoppen beschikbaar moeten zijn op de secundaire werkbalk. De kolom **Beschikbare acties** geeft een lijst weer met alle knoppen die kunnen worden toegevoegd. De kolommen **Geselecteerde acties** geeft een lijst weer met alle knoppen die in de huidige configuratie zijn opgenomen. Gebruik de knoppen tussen de kolommen om geselecteerde artikelen naar wens tussen de kolommen te verplaatsen. Gebruik de knoppen omhoog en omlaag naast de kolom **Geselecteerde acties** om de volgorde te bepalen waarin de knoppen in de gebruikersinterface worden weergegeven.
+1. Kies in de sectie **Secundaire werkbalk** welke knoppen beschikbaar moeten zijn op de secundaire werkbalk. De kolom **Beschikbare acties** geeft een lijst weer met alle knoppen die kunnen worden toegevoegd. De kolommen **Geselecteerde acties** geeft een lijst weer met alle knoppen die in de huidige configuratie zijn opgenomen. Gebruik de knoppen tussen de kolommen om geselecteerde artikelen naar wens tussen de kolommen te verplaatsen. Gebruik de knoppen omhoog en omlaag naast de kolom **Geselecteerde acties** om de volgorde te bepalen waarin de knoppen in de gebruikersinterface worden weergegeven.
 
 ## <a name="associate-a-tab-with-a-configuration"></a>Een tabblad aan een configuratie koppelen
 

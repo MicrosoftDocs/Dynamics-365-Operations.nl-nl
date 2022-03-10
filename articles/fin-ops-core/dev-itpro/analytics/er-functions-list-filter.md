@@ -2,8 +2,7 @@
 title: De ER-functie FILTER
 description: Dit onderwerp biedt informatie over het gebruik van de ER-functie (Elektronische rapportage) FILTER.
 author: NickSelin
-ms.date: 12/12/2019
-ms.topic: article
+ms.date: 12/14/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa8c0b4601db625d442dd545151968f38bd58cf1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e857306574dda7bad5dd25fc7708514997d8e86f
+ms.sourcegitcommit: b1c758ec4abfcf3bf9e50f18c1102d4a9c1316d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5746598"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922418"
 ---
 # <a name="filter-er-function"></a>De ER-functie FILTER
 
@@ -50,11 +49,17 @@ Een geldige voorwaardelijke expressie die wordt gebruikt om records van de opgeg
 
 De resulterende lijst met records.
 
-## <a name="usage-notes"></a>Gebruiksaanwijzingen
+## <a name="usage-notes"></a><a name="usage-notes"></a>Gebruiksaanwijzingen
 
 Deze functie verschilt van de functie [WHERE](er-functions-list-where.md) omdat de opgegeven voorwaarde wordt toegepast op een ER-gegevensbron (Elektronische rapportage) van het type *Tabelrecords* op het databaseniveau. De lijst en de voorwaarde kunnen worden gedefinieerd met behulp van tabellen en relaties.
 
 Als een of beide argumenten die zijn geconfigureerd voor deze functie (`list` en `condition`) niet toestaan dat deze aanvraag wordt omgezet in de directe SQL-aanroep, wordt een uitzondering gegenereerd tijdens het ontwerpen. Deze uitzondering informeert de gebruiker dat `list` of `condition` niet kan worden gebruikt om een query op de database uit te voeren.
+
+> [!NOTE]
+> De functie `FILTER` zal zich anders gedragen dan de functie `WHERE` wanneer de functie [`VALUEIN`](er-functions-logical-valuein.md) wordt gebruikt om de selectiecriteria op te geven.
+> 
+> - Als de functie `VALUEIN` wordt gebruikt in het bereik van de functie `WHERE` en het tweede argument van `VALUEIN` verwijst naar een gegevensbron die geen records retourneert, wordt rekening gehouden met de Booleaanse waarde *[onwaar](er-formula-supported-data-types-primitive.md#boolean)* die `VALUEIN` retourneert. Daarom retourneert de expressie `WHERE(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` geen leverancierrecords als degegevensbron **VendGroups** geen records van leveranciersgroepen retourneert.
+> - Als de functie `VALUEIN` wordt gebruikt in het bereik van de functie `FILTER` en het tweede argument van `VALUEIN` verwijst naar een gegevensbron die geen records retourneert, wordt de Booleaanse waarde *[onwaar](er-formula-supported-data-types-primitive.md#boolean)* die `VALUEIN` retourneert, genegeerd. Daarom retourneert de expressie `FILTER(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` alle leverancierrecords van de gegevensbron **Vendors**, zelfs als de gegevensbron **VendGroups** geen records van leveranciersgroepen retourneert.
 
 ## <a name="example-1"></a>Voorbeeld 1
 

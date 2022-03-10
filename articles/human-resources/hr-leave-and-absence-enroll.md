@@ -2,15 +2,12 @@
 title: Medewerkers toewijzen aan een verlofplan
 description: Werknemers en contractanten toewijzen aan verlofplannen in Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0447096548a4cb6caacf146f9c9a8e968c989acf
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 8e0253c6122d736e311ea65d6228cbaabecff8dc
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5468102"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070622"
 ---
 # <a name="assign-workers-to-a-leave-plan"></a>Medewerkers toewijzen aan een verlofplan
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

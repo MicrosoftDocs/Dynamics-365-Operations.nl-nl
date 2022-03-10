@@ -1,12 +1,10 @@
 ---
 title: Informatie over ouderdom van klanten instellen en genereren
 description: Deze guide helpt u bij de instelling van een ouderdomsperiodedefinitie, ouderdom van klantsaldi te berekenen en saldi weer te geven in de lijst Ouderdomssaldi en de pagina Aanmaningen.
-author: mikefalkner
-manager: AnnBe
+author: abruer
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustVendReportInterval, CustAgingSnapshot, CustCollectionsPoolsListPage, CustCollections
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b21fe217aacd11821ff8d5cf7c7682b2181e36c8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 996fb289c32a1819103fd67ffddc940dfd2870fb
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220078"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753532"
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>Informatie over ouderdom van klanten instellen en genereren
 

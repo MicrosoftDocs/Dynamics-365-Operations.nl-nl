@@ -2,16 +2,13 @@
 title: Een hoofdplanningstaak annuleren
 description: In dit onderwerp wordt uitgelegd hoe u een actieve planningstaak kunt annuleren die gebruikmaakt van ingebouwde planningsfunctionaliteit.
 author: ChristianRytt
-manager: tfehr
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace, ReqProcessList
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-12-16
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6f5ce460cc2915d1d4d9b5699723a62ed7f94599
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 27a48473a934e0db9986d6e588fc769ba9d2f605d72b2465976cb20a1ad93d16
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425692"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718006"
 ---
 # <a name="cancel-a-master-planning-job"></a>Een hoofdplanningstaak annuleren
 
@@ -53,3 +50,6 @@ Deze moeten alleen worden gebruikt als het annuleren van de hoofdplanningstaak v
 4. Selecteer bij **Batchtaken** de taken die u wilt beëindigen.
 5. Klik op **Status wijzigen**, kies **Annuleren** en klik op **OK**.
 6. Klik op het sneltabblad **Batchtaken** op **Afbreken**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

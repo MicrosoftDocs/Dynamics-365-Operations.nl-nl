@@ -1,28 +1,28 @@
 ---
 title: Overzicht productconfiguratiemodellen
 description: In dit artikel worden de termen en concepten gedefinieerd die relevant voor productconfiguratiemodellen zijn. Met productconfiguratiemodellen kunt u een generieke productstructuur maken, waarmee u veel productvarianten voor één product kunt configureren.
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails, PCProductConfigurationModelListPage, PCModalWaitDialog, PCTemplateConfigurationManager, PCConfigurationUIGrouping
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 4031
+ms.custom:
+- "4031"
+- intro-internal
 ms.assetid: 70b968e8-e550-4731-823d-d713b8910f7b
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e82eb3fcfe4347b7faa4c775e9909a792e2b9baf
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fddad1fffd61ef0cf78977721bdf2da51aa4c682
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983311"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984641"
 ---
 # <a name="product-configuration-models-overview"></a>Overzicht productconfiguratiemodellen
 
@@ -152,3 +152,6 @@ U kunt bekijken of een vrijgegeven product kan worden gebruikt als een onderdeel
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

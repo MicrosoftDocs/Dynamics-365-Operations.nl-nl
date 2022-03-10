@@ -2,11 +2,9 @@
 title: Btw-codes instellen
 description: In dit onderwerp wordt uitgelegd hoe u btw-codes instelt in Dynamics 365 Finance.
 author: twheeloc
-manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 09/27/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable, TaxData
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 594e8f0595ecace748a70860c1ccacaf90b7d279
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2539d701dda4ef5e1484d095b2d86d1f68a0dc98
+ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222186"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7562097"
 ---
 # <a name="set-up-sales-tax-codes"></a>Btw-codes instellen
 
@@ -40,11 +38,19 @@ Bij deze taak wordt het demobedrijf USMF gebruikt.
 8. Selecteer in het **actievenster**, bovenaan de interface, de optie **Btw-code**.
 9. Selecteer **Waarden**.
 10. Voer de waarde voor deze btw-code in de kolom **Waarde** in.
-    - Als op het sneltabblad **Berekening** Bedrag per eenheid is geselecteerd, wordt in het veld Oorsprong de waarde vermenigvuldigd met de hoeveelheid op de transactie om het btw-bedrag te berekenen.  Als de btw-code geen eenheidgebaseerde belasting is, is de waarde een percentage dat wordt toegepast op de oorsprong voor deze btw-code om het btw-bedrag te berekenen.     
+
+    Als op het sneltabblad **Berekening** in het veld **Oorsprong** de optie **Bedrag per eenheid** is geselecteerd, wordt de waarde vermenigvuldigd met de hoeveelheid op de transactie om het btw-bedrag te berekenen.  Als de btw-code geen belasting is die op een eenheid is gebaseerd, is de waarde een percentage dat wordt toegepast op de oorsprong voor deze btw-code om het btw-bedrag te berekenen.     
+
 11. Selecteer **Opslaan**.
 12. Sluit de pagina.
 13. Selecteer **Opslaan**.
 
+Als u vanaf Microsoft Dynamics 365 Finance versie 10.0.22 de functie [Belastingservice](../../localizations/global-tax-calcuation-service-overview.md) gebruikt en [**Meerdere btw-registratienummers ondersteunen**](../../localizations/emea-multiple-vat-registration-numbers.md) is ingeschakeld in de werkruimte **Functiebeheer**, kunt u het veld **Type belasting** gebruiken om het type belastingcode op te geven. De volgende waarden zijn beschikbaar:
 
+- Standaard-btw
+- Gereduceerde btw
+- Btw 0%
+- Accijns
+- Anders
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

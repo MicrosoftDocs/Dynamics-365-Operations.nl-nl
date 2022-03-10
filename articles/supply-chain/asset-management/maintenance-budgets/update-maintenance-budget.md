@@ -1,29 +1,26 @@
 ---
 title: Onderhoudsbudgetten bijwerken
 description: In dit onderwerp wordt uitgelegd hoe u een onderhoudsbudget bijwerkt in Activabeheer.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e43abd4644eec8c91606ec48bbecf30f12600856
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 87c054cb96d56e40e35ee44142396f59d61395263ff41232423f6c7911478b0d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425506"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724935"
 ---
 # <a name="update-maintenance-budgets"></a>Onderhoudsbudgetten bijwerken
 
@@ -75,3 +72,6 @@ Op de pagina **Onderhoudsbudgetregels** kunt u handmatig een nieuwe budgetregel 
 
 - U weet dat de revisie van bepaalde activa momenteel in de planningsfase is, maar gerelateerde taken zijn nog niet in het Activabeheer opgenomen. Budgetkosten voor deze taken moeten echter worden opgenomen in het onderhoudsbudget.
 - Nieuwe activa of activatypen zijn gemaakt nadat u het onderhoudsbudget hebt gemaakt, maar er zijn nog geen onderhoudsplannen voor de activa of activatypen ingesteld. Budgetkosten voor deze activatypen moeten echter worden opgenomen in het onderhoudsbudget.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
-title: Voorspellingen voor klantbetalingen gebruiken (preview)
+title: Voorspellingen voor klantbetalingen gebruiken
 description: In dit onderwerp worden de vereisten en algemene stappen doorlopen die nodig zijn om een proefversie van de Financiële inzichten te gebruiken.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 11/16/2020
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,36 +15,30 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: e0445046d8016dfa2c02c1ff1a05bdd148f9409a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ed70e133b93c783542d4669b679fc5b6d2d20240
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969248"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968907"
 ---
-# <a name="use-customer-payment-predictions-preview"></a>Voorspellingen voor klantbetalingen gebruiken (preview)
+# <a name="use-customer-payment-predictions"></a>Voorspellingen voor klantbetalingen gebruiken
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u de Voorspellingen voor klantbetalingen kunt gebruiken. Voordat u deze functie gebruikt, moet u ervoor zorgen dat u de juiste installatiestappen hebt uitgevoerd. Zie [Voorspellingen voor klantbetalingen inschakelen](enable-cust-paymnt-prediction.md) voor meer informatie.
 
-U kunt voorspellingen voor klantbetalingen weergeven in het werkgebied **Klantcreditering en -aanmaning beheren** en op twee nieuwe lijstpagina's: **Betalingsvoorspellingen per transactie** en **Betalingsvoorspelling per klant**.
+U kunt voorspellingen voor klantbetalingen weergeven in het werkgebied **Klantcreditering en -aanmaning beheren** en op twee nieuwe lijstpagina's: **Voorspellingen voor transactiebetalingen** en **Voorspellingen voor klantbetalingen**.
 
 ### <a name="manage-customer-credit-and-collections-workspace"></a>Werkgebied Klantcreditering en -aanmaning beheren
 
-Het werkgebied **Klantcreditering en -aanmaning beheren** bevat twee nieuwe tegels: **Betalingsvoorspelling per transactie** en **Klanten met voorspelde hoge late saldi**.
+Het werkgebied **Klantcreditering en -aanmaning beheren** bevat twee nieuwe tegels: **Voorspellingen voor transactiebetalingen** en **Voorspellingen voor klantbetalingen**.
 
-- De tegel **Betalingsvoorspelling per transactie** geeft het aantal openstaande klanttransacties weer die een betalingswaarschijnlijkheid hebben die kleiner is dan 50 procent in de bucket **Op tijd**. U kunt deze tegel selecteren om de lijstpagina **Betalingsvoorspellingen per transactie** te openen.
-- De tegel **Klanten met voorspelde hoge late saldi** geeft het aantal klanten waarvoor meer dan de helft (50 procent) van het totaalsaldo wordt voorspeld om te laat en/of zeer laat betaald te worden. U kunt deze tegel selecteren om de lijstpagina **Betalingsvoorspelling per klant** te openen.
+### <a name="transaction-payment-predictions-list-page"></a>Lijstpagina Voorspellingen voor transactiebetalingen
 
-[![Werkgebied Klantcreditering en -aanmaning beheren](./media/manage-customer-credit-collections.png)](./media/manage-customer-credit-collections.png)
+Op de lijstpagina **Voorspellingen voor transactiebetalingen** kunt u de betalingswaarschijnlijkheid voor openstaande transacties zien in de buckets **Op tijd**, **Te laat** en **Zeer laat**. Voor elke transactie in het raster wordt in de kolom **Waarschijnlijkheid Op tijd** de waarschijnlijkheid weergegeven dat de factuur op of vóór de vervaldatum wordt betaald. Als de waarschijnlijkheid van betaling op tijd kleiner is dan 50 procent, wordt er een rode cirkel weergegeven naast het percentage in de kolom **Waarschijnlijkheid Op tijd** om het risico van late betaling aan te geven.
 
-### <a name="payment-predictions-per-transaction-list-page"></a>Lijstpagina Betalingsvoorspellingen per transactie
-
-Op de lijstpagina **Betalingsvoorspellingen per transactie** kunt u de betalingswaarschijnlijkheid voor openstaande transacties zien in de buckets **Op tijd**, **Te laat** en **Zeer laat**. Voor elke transactie in het raster wordt in de kolom **Waarschijnlijkheid Op tijd** de waarschijnlijkheid weergegeven dat de factuur op of vóór de vervaldatum wordt betaald. Als de waarschijnlijkheid van betaling op tijd kleiner is dan 50 procent, wordt er een rode cirkel weergegeven naast het percentage in de kolom **Waarschijnlijkheid Op tijd** om het risico van late betaling aan te geven.
-
-[![Pagina Betalingsvoorspelling per transactie](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
+[![Pagina Betalingsvoorspelling per transactie.](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
 
 Het venster **Gerelateerde informatie** aan de rechterkant van de pagina bevat meer details over de voorspellingen:
 
@@ -56,13 +48,13 @@ Het venster **Gerelateerde informatie** aan de rechterkant van de pagina bevat m
 
 De gegevens in het gedeelte **Belangrijkste factoren** en op de sneltabbladen **Klantinzichten** en **Klanthistorie** helpen u de betalingsvoorspellingen te begrijpen. Dit kan helpen uw vertrouwen in de effectiviteit van de voorspellingen te vergroten.
 
-[![Grafische indicatoren voor betalingsvoorspellingenin het venster Gerelateerde informatie](./media/payment-prediction-gauges.png)](./media/payment-prediction-gauges.png)
+[![Grafische indicatoren voor betalingsvoorspellingenin het venster Gerelateerde informatie.](./media/payment-prediction-gauges.png)](./media/payment-prediction-gauges.png)
 
-### <a name="payment-prediction-per-customer-list-page"></a>Lijstpagina Betalingsvoorspelling per klant
+### <a name="customer-payment-predictions-list-page"></a>Lijstpagina Voorspellingen voor klantbetalingen
 
-Op de lijstpagina **Betalingsvoorspelling per klant** wordt het totale openstaande saldo weergegeven en het bedrag dat wordt voorspeld om te worden betaald in de buckets **Op tijd**, **Te laat** en **Zeer laat**.
+Op de lijstpagina **Voorspellingen voor klantbetalingen** wordt het totale openstaande saldo weergegeven en het bedrag dat wordt voorspeld om te worden betaald in de buckets **Op tijd**, **Te laat** en **Zeer laat**.
 
-[![Pagina Betalingsvoorspellingen per klant](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
+[![Pagina Betalingsvoorspellingen per klant.](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
 
 Het betalingsbedrag in elke bucket wordt berekend als de som van het gewogen gemiddelde van het transactiesaldo. Dit bedrag wordt berekend op basis van de betalingskansen in elke bucket.
 
@@ -84,28 +76,20 @@ In dit geval worden betalingen voor elke bucket op de volgende manier voorspeld.
 
 Het gedeelte **Gerelateerde informatie** aan de rechterkant van de pagina bevat meer details over de voorspellingen:
 
-- Voor de transactie die is geselecteerd in het raster, wordt in het sneltabblad **Betalingsvoorspellingen** de details weergegeven van de betalingsvoorspellingen in de buckets **Op tijd**, **Te laat** en **Zeer laat**. In het gedeelte **Belangrijkste factoren** worden de belangrijkste factoren weergegeven die invloed hebben gehad op de betalingen. De belangrijkste factoren zijn kenmerken van de geselecteerde transactie en/of de klant voor die transactie.
+- Voor de transactie die is geselecteerd in het raster, wordt in het sneltabblad **Betalingsvoorspellingen** de details weergegeven van de betalingsvoorspellingen in de buckets **Op tijd**, **Te laat** en **Zeer laat**.
 - Het sneltabblad **Klantinzichten** bevat de huidige statistieken voor factuur, betaling en incasso voor de klant voor de geselecteerde transactie.
 - Op het sneltabblad **Klanthistorie** wordt de betalingshistorie van de klant weergegeven in de buckets **Op tijd**, **Te laat** en **Zeer laat**.
 
-De gegevens in het gedeelte **Belangrijkste factoren** en op de sneltabbladen **Klantinzichten** en **Klanthistorie** helpen u de betalingsvoorspellingen te begrijpen. Dit kan helpen uw vertrouwen in de effectiviteit van de voorspellingen te vergroten.
+De gegevens op de sneltabbladen **Klantinzichten** en **Klanthistorie** helpen u de betalingsvoorspellingen te begrijpen. Dit kan helpen uw vertrouwen in de effectiviteit van de voorspellingen te vergroten.
 
 ## <a name="improving-the-accuracy-of-payment-predictions"></a>De nauwkeurigheid van betalingsvoorspellingen verbeteren
 
 U kunt de nauwkeurigheid van betalingsvoorspellingen bekijken door naar **Crediteringen en aanmaningen \> Instellingen \> Financiële inzichten \> Parameters voor financiële inzichten** te gaan. Op het tabblad **Inzichten in klantbetalingen** geeft het gedeelte **Voorspellingsmodel** de nauwkeurigheid van het prognosemodel als een percentage weer.
 
-[![Nauwkeurigheid van betalingsvoorspellingen](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
+[![Nauwkeurigheid van betalingsvoorspellingen.](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
 
-Als u niet tevreden bent met de nauwkeurigheid, selecteert u de koppeling **Modelnauwkeurigheid verbeteren** om de extensie van AI Builder te openen. In de extensie AI Builder kunt u velden selecteren of de selectie van velden annuleren totdat u de velden hebt geselecteerd waarvan u denkt dat ze het belangrijkst zijn voor het nauwkeurig voorspellen van betalingskansen. Wanneer u klaar bent, kunt u het voorspellingsmodel eenvoudig opnieuw trainen en uw wijzigingen publiceren. Het nieuwe getrainde voorspellingsmodel wordt automatisch opgehaald voor voorspellingen in Dynamics 365 Finance.
+Als u niet tevreden bent met de nauwkeurigheid, selecteert u de koppeling **Modelnauwkeurigheid** verbeteren om de extensie van AI Builder te openen. In de extensie AI Builder kunt u velden selecteren of de selectie van velden annuleren totdat u de velden hebt geselecteerd waarvan u denkt dat ze het belangrijkst zijn voor het nauwkeurig voorspellen van betalingskansen. Wanneer u klaar bent, kunt u het voorspellingsmodel eenvoudig opnieuw trainen en uw wijzigingen publiceren. Het nieuwe getrainde voorspellingsmodel wordt automatisch opgehaald voor voorspellingen in Dynamics 365 Finance.
 
-[![Extensie AI Builder](./media/ai-builder.png)](./media/ai-builder.png)
+[Ervaring met ![AI Builder-uitbreiding.](./media/ai-builder.png)](./media/ai-builder.png)
 
-## <a name="release-details"></a>Releasegegevens
-
-De openbare preview van Financiële inzichten is beschikbaar voor proefimplementaties in de Verenigde Staten van Amerika, Europa en het Verenigd Koninkrijk. Microsoft voegt incrementeel ondersteuning toe voor meer regio's.
-
-Functies van de openbare preview kunnen en zouden alleen moeten worden ingeschakeld in Tier-2 sandbox-omgevingen. Setup-modellen en AI-modellen die in een sandbox-omgeving zijn gemaakt, kunnen niet naar een productieomgeving worden gemigreerd. Zie voor meer informatie [Aanvullende gebruiksrechtovereenkomst voor Microsoft Dynamics 365 Previews](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms).
-
-## <a name="privacy-notice"></a>Privacyverklaring
-
-Previews (1) bieden mogelijk minder privacy- en beveiligingsmaatregelen dan de service Dynamics 365 Finance and Operations, (2) worden niet opgenomen in de serviceovereenkomst voor deze service, (3) mogen niet worden gebruikt voor de verwerking van persoonsgegevens of andere gegevens die aan juridische of wettelijke nalevingvereisten zijn onderworpen en (4) worden slechts beperkt ondersteund.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

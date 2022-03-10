@@ -3,7 +3,7 @@ title: Overzicht van positieve betalingen
 description: Dit artikel bevat info over positieve betalingen die worden gebruikt om een elektronische lijst met cheques te genereren die aan de bank wordt gegeven.
 author: panolte
 ms.date: 08/22/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankPositivePaySummary
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: f469cdbd74f228d235f9a84f52d9bd8656e97020
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 5f36230b68986cffc985353a7130ba429dabd10e
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6340272"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984047"
 ---
 # <a name="positive-pay-overview"></a>Overzicht van positieve betalingen
 

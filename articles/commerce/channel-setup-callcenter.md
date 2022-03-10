@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e89c63c90aa8d46fd23900897a54165e14fb635d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3b21d5e57058fee5bb77beb6731c18967ed11cacc1925e44d2f7d8cdb26d7bcb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800658"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744529"
 ---
 # <a name="set-up-a-call-center-channel"></a>Een callcenterkanaal instellen
 
@@ -54,11 +54,11 @@ Voer de volgende stappen uit om een nieuw callcenterafzetkanaal te maken en te c
 
 De volgende afbeelding toont het maken van een nieuw callcenterafzetkanaal.
 
-![Nieuw callcenterafzetkanaal](media/channel-setup-callcenter-1.png)
+![Nieuw callcenterafzetkanaal.](media/channel-setup-callcenter-1.png)
 
 In de volgende afbeelding ziet u een voorbeeld van een callcenterafzetkanaal.
 
-![Voorbeeld van callcenterafzetkanaal](media/channel-setup-callcenter-2.png)
+![Voorbeeld van callcenterafzetkanaal.](media/channel-setup-callcenter-2.png)
 
 ## <a name="additional-channel-setup"></a>Aanvullende afzetkanaalinstellingen
 
@@ -66,7 +66,7 @@ Aanvullende taken die nodig zijn voor het instellen van callcenterkanalen, zijn 
 
 De volgende afbeelding toont de instellingsopties voor **Leveringsmethoden** en **Betalingsmethoden** op het tabblad **Instellingen**.
 
-![Aanvullende acties voor het instellen van een callcenterkanaal](media/channel-setup-callcenter-3.png)
+![Aanvullende acties voor het instellen van een callcenterkanaal.](media/channel-setup-callcenter-3.png)
 
 ### <a name="set-up-payment-methods"></a>Betalingsmethoden instellen
 
@@ -81,7 +81,7 @@ Volg deze stappen om betalingsmethoden in te stellen voor elk betalingstype dat 
 
 In de volgende afbeelding ziet u een voorbeeld van een contante betalingsgmethode.
 
-![Voorbeeldbetalingsmethoden](media/channel-setup-callcenter-payments.png)
+![Voorbeeldbetalingsmethoden.](media/channel-setup-callcenter-payments.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Leveringsmethoden instellen
 
@@ -97,7 +97,7 @@ Voer de volgende stappen uit om een leveringsmethode te wijzigen of toe te voege
 
 In de volgende afbeelding ziet u een voorbeeld van een leveringsmethode.
 
-![Leveringsmethoden instellen](media/channel-setup-retail-7.png)
+![Leveringsmethoden instellen.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-channel-users"></a>Kanaalgebruikers instellen
 

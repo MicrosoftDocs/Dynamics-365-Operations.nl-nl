@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1ab19358857440e46d3df2323fbcea19a476903
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3a9893ad497bbe442d74f5212153fa466d2c85eb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837748"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360965"
 ---
 # <a name="functional-location-lifecycle-states"></a>Levenscyclusstatussen van functionele locatie
 
@@ -56,9 +56,9 @@ Wanneer u de levenscyclusstatussen hebt gemaakt die zijn vereist voor uw functio
 1. Selecteer **Activabeheer** > **Instellingen** > **Functionele locaties** > **Levenscyclusmodellen**.
 2. Selecteer **Nieuw** om een nieuw levenscyclusmodel te maken.
 3. Voeg de levenscyclusmodel-id in het veld **Levenscyclusmodel** in en geef een naam op voor het levenscyclusmodel in het veld **Naam**. In de velden **Typen functionele locatie** en **Levenscyclusstatussen** kunt u het aantal typen functionele locatie zien dat gebruikmaakt van het levenscyclusmodel en het aantal statussen dat is geselecteerd in het levenscyclusmodel.
-4. Selecteer op het sneltabblad **Levenscyclusstatussen** de statussen die in het model moeten worden opgenomen. Dit wordt gedaan door op een status te klikken in de sectie **Resterende levenscyclusstatussen** en op de knop ![pijl naar voren](media/02-setup-for-functional-locations.png) te klikken.
-5. Als u alle beschikbare statussen voor een model wilt selecteren, klikt u op de knop ![Alle beschikbare fasen selecteren](media/03-setup-for-functional-locations.png). Alle statussen worden overgebracht naar de sectie **Geselecteerde levenscyclusstatussen**.
-6. Als u een geselecteerde status uit het model wilt verwijderen, selecteert u de status in de sectie **Geselecteerde levenscyclusstatussen** en selecteert u vervolgens de knop ![pijl terug](media/04-setup-for-functional-locations.png).
+4. Selecteer op het sneltabblad **Levenscyclusstatussen** de statussen die in het model moeten worden opgenomen. Dit wordt gedaan door op een status te klikken in de sectie **Resterende levenscyclusstatussen** en op de knop ![pijl naar voren.](media/02-setup-for-functional-locations.png) te klikken.
+5. Als u alle beschikbare statussen voor een model wilt selecteren, klikt u op de knop ![Alle beschikbare fasen selecteren.](media/03-setup-for-functional-locations.png) . Alle statussen worden overgebracht naar de sectie **Geselecteerde levenscyclusstatussen**.
+6. Als u een geselecteerde status uit het model wilt verwijderen, selecteert u de status in de sectie **Geselecteerde levenscyclusstatussen** en selecteert u vervolgens de knop ![pijl terug.](media/04-setup-for-functional-locations.png) .
 7. Selecteer **Updates van levenscyclusstatussen** om te definiëren welke levenscyclusstatussen een geselecteerde status kunnen volgen.
 
 

@@ -1,28 +1,28 @@
 ---
 title: Btw-overzicht
 description: In dit onderwerp vindt u een overzicht van het btw-systeem. Daarnaast worden de verschillende elementen van de btw-instellingen uitgelegd en wordt aangegeven hoe deze samenwerken.
-author: ShylaThompson
-manager: AnnBe
+author: kailiang
 ms.date: 10/28/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 13111
+ms.custom:
+- "13111"
+- intro-internal
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37ab8a92af77151b7d0ce7fd9ff625064736ccd2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 021692e0b599731db1d991405fcb4632080582bf
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249042"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983923"
 ---
 # <a name="sales-tax-overview"></a>Btw-overzicht
 
@@ -30,14 +30,13 @@ ms.locfileid: "5249042"
 
 In dit onderwerp vindt u een overzicht van het btw-systeem. Daarnaast worden de verschillende elementen van de btw-instellingen uitgelegd en wordt aangegeven hoe deze samenwerken.
 
-<a name="overview"></a>Overzicht
---------
+## <a name="overview"></a>Overzicht
 
 Het btw-raamwerk ondersteunt veel typen indirecte belastingen zoals btw, belasting toegevoegde waarde (btw), belasting voor goederen en services (GST), kosten op basis van eenheden en bronbelasting. Deze belastingen worden berekend en gedocumenteerd tijdens transacties voor inkoop en verkoop. Periodiek moeten deze belastingen worden aangegeven bij en betaald aan de belastingdienst. 
 
 In het volgende diagram worden de verschillende rechtspersonen in de btw-structuur en hun onderlinge relaties beschreven.
 
-[![Diagram met overzicht van entiteiten voor btw-instellingen](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
+[![Diagram met overzicht van entiteiten voor btw-instellingen.](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
 Voor elk type btw waarvoor een bedrijf zich moet verantwoorden, moet een btw-code worden gedefinieerd. In een btw-code worden de btw-tarieven en berekeningsregels voor de btw opgeslagen. 
 

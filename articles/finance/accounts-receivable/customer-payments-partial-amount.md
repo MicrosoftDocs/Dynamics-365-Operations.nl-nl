@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f89b3d94fd16aa9cf27931d11fd8fff22048d40
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2b4a930f7bb070d3105eff3978774bfd8a3ffbfd2b8eb77097028411da619c64
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824023"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769030"
 ---
 # <a name="customer-payments-for-a-partial-amount"></a>Klantbetalingen voor een gedeeltelijk bedrag
 
@@ -28,8 +28,7 @@ ms.locfileid: "5824023"
 
 Soms voeren klanten een betaling uit die minder is dan het bedrag van een factuur. In dit artikel worden de verschillende opties beschreven om deze situatie te dekken. Over welke opties u beschikt, is afhankelijk van de behoeften en de configuratie van uw bedrijf.
 
-<a name="partial-payment-with-no-discount"></a>Gedeeltelijke betaling zonder korting
---------------------------------
+## <a name="partial-payment-with-no-discount"></a>Gedeeltelijke betaling zonder korting
 
 Klanten kan een gedeeltelijke betaling doen omdat ze niet genoeg contant geld bij hebben om de factuur volledig te betalen of omdat er een geschil is over een artikel op de factuur. In deze situatie kan de factuur gedeeltelijk met de betaling worden vereffend. De factuur blijft open en er wordt een saldo weergeven.
 

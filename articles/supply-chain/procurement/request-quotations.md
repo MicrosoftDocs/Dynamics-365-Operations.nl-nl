@@ -1,26 +1,28 @@
 ---
 title: Overzicht van Offerteaanvragen
 description: Dit onderwerp bevat een overzicht van offerteaanvragen. Organisaties geven offerteaanvragen uit wanneer ze concurrerende aanbiedingen van verschillende leveranciers willen ontvangen voor de artikelen of services die ze moeten kopen.
-author: kamaybac
+author: Henrikan
 ms.date: 10/05/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage, BOMExpandPurchRFQ, PurchRFQReplyFollowupItem, PurchRFQCaseVend, PurchRFQReplyFollowup, PurchRFQCaseAmendmentInfo, PurchRFQReplyFollowupCase, PurchRFQReplyStatus, PurchRFQCaseReplyFields, PurchRFQAddQuestionnaire, PurchRFQAmendmentWizard, PurchRFQReplyTableStatus, PurchRFQReplyTableListPage, PurchRFQCancelWizard
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2154
+ms.custom:
+- "2154"
+- intro-internal
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df430dada52ac1aa910a3d2007aacf65d8032383
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7338897feb2c3a28350d366f26eecc56f8eeb3fb
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812542"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983387"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Overzicht van Offerteaanvragen
 
@@ -37,13 +39,13 @@ Het proces voor offerteaanvragen bestaat uit de volgende taken:
 
 De volgende afbeelding biedt een overzicht van het proces voor offerteaanvragen.
 
-[![RFQ-proces](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
+[![RFQ-proces.](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
 
 U kunt een offerteaanvraagcase maken op basis van geplande orders, een opdracht tot inkoop of handmatige invoer. De offerteaanvraagcase is het basisdocument waarmee u een offerteaanvraag uitgeeft aan elke leverancier.
 
 Nadat u de offerteaanvraagcase hebt voorbereid en leveranciers hebt toegevoegd, selecteert u **Verzenden** (**Verzenden en publiceren** voor de openbare sector) op de offerteaanvraagcase. Er wordt een offerteaanvraagjournaal gemaakt voor elke leverancier waarnaar u een offerteaanvraag verzendt. U kunt afdrukopties configureren voor de actie Verzenden om een rapport voor elke leverancier af te drukken naar een archief of om een rapport te verzenden naar het e-mailadres van elke leverancier. Bovendien kunt u het offerteaanvraagjournaal voor elke leverancier gebruiken om een rapport te genereren dat u later kunt verzenden of opnieuw kunt verzenden naar een leverancier. U kunt de actie Verzenden ook zo configureren dat een antwoordblad wordt gegenereerd dat de leverancier kan invullen.
 
-Dit onderwerp behandelt het proces voor het afhandelen van offerteaanvragen wanneer geen gebruik wordt gemaakt van leverancierssamenwerking. Als uw systeem is ingesteld voor leverancierssamenwerking, kunnen leveranciers rechtstreeks biedingen invoeren in Supply Chain Management. Meer informatie vindt u in [Leverancierssamenwerking met klanten](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) en [Leverancierssamenwerking met externe leveranciers](vendor-collaboration-work-external-vendors.md).
+Dit onderwerp behandelt het proces voor het afhandelen van offerteaanvragen wanneer geen gebruik wordt gemaakt van leverancierssamenwerking. Als uw systeem is ingesteld voor leverancierssamenwerking, kunnen leveranciers rechtstreeks biedingen invoeren in Supply Chain Management. Meer informatie vindt u in [Leverancierssamenwerking met klanten](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) en [Leverancierssamenwerking met externe leveranciers](vendor-collaboration-work-external-vendors.md).
 
 Als u een offerteaanvraag moet wijzigen nadat u deze hebt verzonden, kunt u de offerteaanvraag na voltooiing opnieuw verzenden naar leveranciers met de twee aanpassingsacties: Maken en Voltooien.
 
@@ -70,7 +72,7 @@ Voordat u een offerteaanvraagcase kunt maken, moet u offerteaanvraaggegevens ins
 
 U kunt deze waarden negeren voor een specifieke offerteaanvraagcase.
 
-Configureer tevens het aanpassingsproces. Als onderdeel van deze configuratie, kunt u veldvergrendeling inschakelen. Wanneer veldvergrendeling is ingeschakeld, moet een inkoopmedewerker die een offerteaanvraag wil aanpassen, eerst **Maken** selecteren in de sectie **Aanpassing** van het tabblad **Offerte** van de offerteaanvraagcase. Nadat de offerteaanvraagcase is bijgewerkt met de wijziging, beëindigt de inkoper het proces door **Voltooien**  te selecteren. Door de actie Voltooien wordt een e-mail gegenereerd waarin aan de leveranciers de gewijzigde offerteaanvraag wordt gemeld.
+Configureer tevens het aanpassingsproces. Als onderdeel van deze configuratie, kunt u veldvergrendeling inschakelen. Wanneer veldvergrendeling is ingeschakeld, moet een inkoopmedewerker die een offerteaanvraag wil aanpassen, eerst **Maken** selecteren in de sectie **Aanpassing** van het tabblad **Offerte** van de offerteaanvraagcase. Nadat de offerteaanvraagcase is bijgewerkt met de wijziging, beëindigt de inkoper het proces door **Voltooien** te selecteren. Door de actie Voltooien wordt een e-mail gegenereerd waarin aan de leveranciers de gewijzigde offerteaanvraag wordt gemeld.
 
 U selecteert de sjabloon voor de e-mailmelding die naar leveranciers wordt verzonden op de pagina **Parameters voor inkoop en sourcing**. Als een sjabloon wordt gemaakt in **E-mailsjablonen**, kan deze de volgende vervangingstokens bevatten:
 
@@ -83,7 +85,7 @@ U selecteert de sjabloon voor de e-mailmelding die naar leveranciers wordt verzo
 - %Vervaldatum/-tijd%
 - %Date%
 
-De tokens %Reden voor retour van biedng% en %Reden voor aanpassing% worden vervangen door tekst die de inkoopmedewerker kan invoeren wanneer hij of zij de aanpassing voltooid in de wizard **Aanpassing**. De waarden voor de tokens %Aanpassing voorbereid door% en %Company% worden automatisch opgehaald uit de offerteaanvraag. De token %Date% wordt vervangen door de huidige datum.
+De tokens %Reden voor retour van biedng% en %Reden voor aanpassing% worden vervangen door tekst die inkoopmedewerkers kunnen invoeren wanneer zij de aanpassing voltooien in de wizard **Aanpassing**. De waarden voor de tokens %Aanpassing voorbereid door% en %Company% worden automatisch opgehaald uit de offerteaanvraag. De token %Date% wordt vervangen door de huidige datum.
 
 Als u een offerteaanvraag annuleren wilt nadat deze verzonden, kunt u dat doen vanuit de offerteaanvraagcase. Voor het annuleren moet de e-mailsjabloon de annuleringsmelding verzenden naar contactpersonen van de leverancier. De sjabloon moet zijn geselecteerd op de pagina **Parameters voor inkoopbeheer**. Als de sjabloon wordt gemaakt, kan deze de volgende vervangingstokens bevatten:
 
@@ -165,7 +167,7 @@ Als u het aanpassingsproces zo wilt configureren dat het meer beperkend is, moet
 
 Als u het minder beperkende aanpassingsproces wilt gebruiken, hoeft u **Maken** niet te selecteren voordat u de velden kunt wijzigen in een offerteaanvraagcase die al is verzonden. U moet wel handmatig een aanpassingsnotitie toevoegen aan de offerteaanvraag en de case opnieuw verzenden. Deze benadering kan alleen worden gebruikt als geen van de antwoorden (biedingen) is bewerkt. Als u een antwoord hebt ingevoerd en dit de status **Ontvangen** heeft, is de knop **Verzenden** niet beschikbaar. In dit geval moet u **Maken** en vervolgens **Voltooien** selecteren, zoals in het meer beperkende proces. Het antwoord wordt vervolgens opnieuw ingesteld op basis van de wijzigingen in de offerteaanvraagcase.
 
-Als leveranciers de interface voor leverancierssamenwerking gebruiken om biedingen in te voeren, moet u het aanpassingsproces altijd gebruiken om leveranciers op de hoogte brengen van wijzigingen in de offerteaanvraagcase. Dit proces voorkomt een situatie waarin leveranciers bieden op een verouderde offerteaanvraagcase terwijl hun bod wordt uitgevoerd. Meer informatie over de nieuwe functionaliteit voor leverancierssamenwerking vindt u in [Leverancierssamenwerking met externe leveranciers](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
+Als leveranciers de interface voor leverancierssamenwerking gebruiken om biedingen in te voeren, moet u het aanpassingsproces altijd gebruiken om leveranciers op de hoogte brengen van wijzigingen in de offerteaanvraagcase. Dit proces voorkomt een situatie waarin leveranciers bieden op een verouderde offerteaanvraagcase terwijl hun bod wordt uitgevoerd. Meer informatie over de nieuwe functionaliteit voor leverancierssamenwerking vindt u in [Leverancierssamenwerking met externe leveranciers](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
 Als u extra leveranciers wilt uitnodigen om te bieden en er geen wijzigingen zijn aangebracht in de offerteaanvraagcase, kunt u de knop **Verzenden** gebruiken. De leveranciers die u hebt toegevoegd, worden weergegeven op de pagina **Verzenden** en ontvangen de e-mailuitnodiging.
 

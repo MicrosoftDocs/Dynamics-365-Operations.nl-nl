@@ -1,12 +1,10 @@
 ---
 title: Power BI-inhoud onkostenbeheer
 description: In dit onderwerp wordt beschreven wat is opgenomen in het Power BI-inhoudpakket voor onkostenbeheer.
-author: RyanSand
-manager: AnnBe
+author: panolte
 ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace, ExpenseWorkspace
 audience: Application User, IT Pro
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9391676beea6aac831648d5fa55eae5eba3f6397
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 178a65c44abd0c9c068d4da1f2684a60062da595247560de4cb81d97ab7b6521
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682792"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769893"
 ---
 # <a name="expense-management-power-bi-content"></a>Power BI-inhoud onkostenbeheer
 
@@ -43,7 +41,7 @@ Twee Power BI-inhoudpakketten zijn beschikbaar voor gebruik met onkostenbeheer i
 Alle bedragen worden weergegeven in de bedrijfsvaluta. Gegevens voor alle bedrijven worden weergegeven, maar indien nodig kunt u een bedrijfsfilter toevoegen. 
 
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud
-U vindt de Power BI-inhoud Admin Dashboard.pbix en Expense Personal Dashboard.pbix in de bibliotheek met gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS). Zie voor meer informatie over hoe u de inhoud downloadt en in uw organisatie implementeert [Power BI-inhoud in LCS van Microsoft en uw partners](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+U vindt de Power BI-inhoud Admin Dashboard.pbix en Expense Personal Dashboard.pbix in de bibliotheek met gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS). Zie voor meer informatie over hoe u de inhoud downloadt en in uw organisatie implementeert [Power BI-inhoud in LCS van Microsoft en uw partners](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 De inhoud is beschikbaar via de werkruimte voor onkostenbeheer als ingesloten Power Bi-inhoud. Elke onkosteneigenaar kan toegang verkrijgen tot persoonlijke onkosten van zichzelf, terwijl alleen medewerkers en managers van de afdeling Crediteuren toegang hebben tot de beheerinhoud om onkostengegevens van alle gebruikers te bekijken.
 
 ## <a name="refreshing-the-power-bi-content"></a>De Power BI-inhoud vernieuwen
@@ -93,3 +91,6 @@ De inhoud bevat een reeks rapportpagina's. Elke pagina bestaat uit een set metri
 | Werknemersstatistieken | Onkostennota´s per kostentype            |
 |                     | Persoonlijke onkosten                       |
 |                     | Onkostennota´s per statistiekengroep     |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

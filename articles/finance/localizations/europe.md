@@ -1,23 +1,23 @@
 ---
 title: Overzicht Europa
 description: Dit onderwerp bevat koppelingen naar Microsoft Dynamics 365 Finance-documentatiebronnen voor Europa.
-author: ShylaThompson
-ms.date: 02/24/2021
-ms.topic: article
+author: kfend
+ms.date: 01/15/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 382cfc3eaacd0610491646f32e8c7684e0451d7f
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: f2d8a2e44713607ff2a4df91271c70d96c4d71d9
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892368"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982089"
 ---
 # <a name="europe-overview"></a>Overzicht Europa
 
@@ -93,8 +93,10 @@ Dit onderwerp bevat informatie en koppelingen naar bronnen die u kunnen helpen b
   - [Btw-rapport maken en indienen](tasks/create-submit-vat-report.md)
   - [Transacties voor vereffening weergeven voor Oost-Europa](emea-transactions-settlement-form.md)
   - [Btw-puntdatum (datum van btw-register)](emea-tax-point-date.md)
+  - [Datum van btw-register leverancier](emea-date-vendor-VAT-register.md)
+- [Uitbreiding van financiële redenfunctie](emea-financial-reason.md)
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 - [Overzicht van elektronische rapportage](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
 - [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)

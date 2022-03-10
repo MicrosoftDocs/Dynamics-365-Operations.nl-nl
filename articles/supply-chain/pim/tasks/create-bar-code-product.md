@@ -1,7 +1,7 @@
 ---
 title: Een streepjescode voor een product maken
 description: In dit onderwerp ziet u hoe u handmatig een streepjescode maakt met als voorbeeld het artikelnummer M0001.
-author: ShylaThompson
+author: t-benebo
 ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductO
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7449f4874bf5c280218a2771e0af35e4b2b62a0b
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: dcdf062ed14cc4cf395de006d55aba3dc2a94bae
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921054"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577355"
 ---
 # <a name="create-a-bar-code-for-a-product"></a>Een streepjescode voor een product maken
 

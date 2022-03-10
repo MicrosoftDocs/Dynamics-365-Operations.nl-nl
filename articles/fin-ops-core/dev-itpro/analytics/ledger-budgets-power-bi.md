@@ -2,11 +2,9 @@
 title: Werkelijk vs. budget Power BI-inhoud
 description: In dit onderwerp wordt de Power BI-inhoud Werkelijk vs. budget besproken. Er wordt uitgelegd hoe u de rapporten kunt openen en u vindt informatie over het gegevensmodel.
 author: panolte
-manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetTrackingWorkspace
 audience: Application user, IT Pro
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 908b96af5b3d67f265953648edd6aa7ec31556a4
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 7a5628dc67c721bf616803d6a31047cee09d8a434d43c0175dd8639815b7c9a6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093843"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737898"
 ---
 # <a name="actual-vs-budget-power-bi-content"></a>Werkelijk vs. budget Power BI-inhoud
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt de Power BI-inhoud **Werkelijk vs. budget** besproken. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+In dit onderwerp wordt de Microsoft Power BI-inhoud **Werkelijk vs. budget** besproken. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 
 ## <a name="overview"></a>Overzicht
 
@@ -57,3 +55,6 @@ De volgende tabel bevat informatie over de metrische gegevens op elke rapportpag
 | Grootboeken                   | Grootboeken die kunnen worden gebruikt om het rapport te filteren naar het huidige grootboek              |
 | Budgetcodes              | Budgetcodes om rapporten op te filteren                                                |
 | Rechtspersonen            | Rechtspersonen die kunnen worden gebruikt om het rapport te filteren naar de huidige rechtspersoon |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

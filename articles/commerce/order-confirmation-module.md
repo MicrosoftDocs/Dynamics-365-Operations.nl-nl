@@ -2,11 +2,9 @@
 title: Orderbevestigingsmodule
 description: In dit onderwerp wordt beschreven wat orderbevestigingsmodules zijn en hoe u ze gebruikt in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,20 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9d916d2687777403f2b0df7c35171948ad2fb7db
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6914f8c968b03c05a2311a31a4f391c828db5b8b35bc864504dad78f43b3623f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972733"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733841"
 ---
 # <a name="order-confirmation-module"></a>Orderbevestigingsmodule
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven wat orderbevestigingsmodules zijn en hoe u ze gebruikt in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 De module voor orderbevestiging wordt gebruikt om orderbevestigingsdetails weer te geven nadat een order is geplaatst. De id van de orderbevestiging, de contactgegevens van de order en andere ordergegevens worden weergegeven, zoals de gekochte artikelen, betalingsgegevens, ophaalopties en de verzendmethode.
 
@@ -86,3 +82,6 @@ Voer de volgende stappen uit om een module voor orderbevestiging aan een nieuwe 
 [Module ophaalinformatie](pickup-info-module.md)
 
 [Geschenkbonmodule](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

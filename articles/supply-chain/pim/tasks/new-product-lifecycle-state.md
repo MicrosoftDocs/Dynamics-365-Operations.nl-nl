@@ -1,25 +1,23 @@
 ---
 title: Een nieuwe status voor de productlevenscyclus maken
 description: Deze procedure laat zien hoe u een nieuwe status voor een productlevenscyclus maakt.
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c7616f78f7f7d2015d1a82771ed2f5f60ddf6692
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8c8087bcf6697407cabcd1a35437f222b500dec3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213301"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568346"
 ---
 # <a name="create-a-new-product-lifecycle-state"></a>Een nieuwe status voor de productlevenscyclus maken
 

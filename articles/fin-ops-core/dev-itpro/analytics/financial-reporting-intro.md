@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: FinanicalReportingSetup
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 68813
+ms.custom:
+- "68813"
+- intro-internal
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0dbe9621760fbb56eb8123d58f72e2fb0080c4f4
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 20e2b4cb2b68500eeee06f1be5d95fc2cbab246f43b5e4a0e83eca7a8be53005
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743398"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769869"
 ---
 # <a name="financial-reporting"></a>Financiële rapportage
 

@@ -2,15 +2,12 @@
 title: Promospandoekmodule
 description: In dit onderwerp wordt beschreven wat promobannermodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d9debd16b18300d090bde1862a16920d8e9185eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f781ed22852cb2108850e7dc6762aa6a9ba0db97574cb0dcc7959f8926e47a08
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411292"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718775"
 ---
-# <a name="promo-banner-module"></a>Promospandoekmodule
+# <a name="promo-banner-module"></a>Promotiebanner-module
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven wat promobannermodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 Promobannermodules worden gebruikt om inline informatie op een pagina weer te geven. Ze kunnen worden gebruikt om promoties op alle pagina's van een e-commerce-site weer te geven. 
 
@@ -39,7 +34,7 @@ Promobannermodules ondersteunen een tekstbericht en een koppeling. Als er meerde
 
 Promobannermodules worden aangestuurd door gegevens van het Content Management System (CMS) en kunnen op elke willekeurige pagina worden geplaatst.
 
-## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>Gebruiksvoorbeelden van promotiebanners in e-Commerce
+## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>Gebruiksvoorbeelden van promotiebanners in e-commerce
 
 Promobanners kunnen in de koptekst van een site worden gebruikt om promoties of berichten voor de hele site weer te geven, zoals in de volgende voorbeelden.
 
@@ -51,11 +46,11 @@ Promobanners kunnen in de koptekst van een site worden gebruikt om promoties of 
 
 In de volgende afbeelding ziet u een voorbeeld van een promobanner.
 
-![Voorbeeld van een promotiebannermodule](./media/ecommerce-Promobanner.PNG)
+![Voorbeeld van een promotiebannermodule.](./media/ecommerce-Promobanner.PNG)
 
 ## <a name="promo-banner-module-properties"></a>Eigenschappen van promobannermodules
 
-| Naam van eigenschap.             | Waarde                              | Omschrijving |
+| Naam van eigenschap.             | Waarde                              | Beschrijving |
 |---------------------------|------------------------------------|-------------|
 | Bannerberichten           | Tekst en koppelingen                     | Een matrix met tekst en koppelingen. |
 | Automatisch afspelen                  | **True** of **False**              | Een waarde die aangeeft of berichten automatisch worden doorlopen als er meerdere berichten zijn geconfigureerd. |
@@ -63,7 +58,11 @@ In de volgende afbeelding ziet u een voorbeeld van een promobanner.
 | Negeren toestaan             | **True** of **False**              | Als de waarde is ingesteld op **True**, kunnen klanten de waarschuwing sluiten. |
 | Carrouselflipper weergeven     | **True** of **False**              | Een waarde die aangeeft of de carrouselflippers moeten worden weergegeven, zodat klanten handmatig meerdere banneritems kunnen doorlopen. |
 | Tekstuitlijning            | **Rechts**, **Links** of **Midden** | De tekstuitlijning in de promobannermodule. |
-| Koppeling                      | Een URL                              | Een URL voor een optionele koppeling. |
+| Koppelen                      | Een URL                              | Een URL voor een optionele koppeling. |
+|Tekstuitlijning             | **Rechts**, **Links** of **Midden** | Deze eigenschap is beschikbaar als thema-extensie in het Adventure Works-thema. Hiermee kan een gebruiker de tekstuitlijning instellen in de promobanner. |
+
+> [!IMPORTANT]
+> Het Adventure Works-thema is beschikbaar vanaf Dynamics 365 Commerce versie 10.0.20.
 
 ## <a name="add-a-promo-banner-module-to-a-page"></a>Een promobannermodule toevoegen aan een pagina 
 
@@ -84,7 +83,6 @@ Voer de volgende stappen uit om een promobannermodule aan een nieuwe pagina toe 
 > [!NOTE]
 > Een promobanner wordt meestal gebruikt in de sleuf van een paginakoptekst of een sleuf van een subkoptekst.
 
-
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van modulebibliotheek](starter-kit-overview.md)
@@ -96,3 +94,6 @@ Voer de volgende stappen uit om een promobannermodule aan een nieuwe pagina toe 
 [Inhoudsblokkenmodule](add-hero-module.md)
 
 [Videospelermodule](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

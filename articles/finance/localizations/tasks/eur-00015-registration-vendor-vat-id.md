@@ -2,11 +2,9 @@
 title: EUR-00015 Registratie van het btw-id van een leverancier
 description: Deze procedure laat zien hoe u btw-registratie-id's en een btw-nummer toevoegt aan een leveranciersrekening.
 author: v-oloski
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, LogisticsPostalAddress, RegNumTaxIdLookup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eb8e5ea8a7a8360155c9eb30eaa85004483950e2
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f53cde5a8e976a1a01a5f6688c8a4f986d5317ab5acba98a47abb724982b6e8b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4984758"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735423"
 ---
 # <a name="eur-00015-registration-of-vendor-vat-id"></a>EUR-00015 Registratie van het btw-id van een leverancier
 
@@ -63,3 +61,6 @@ Voordat u deze procedure kunt uitvoeren, moet u btw-id's instellen. Deze procedu
 25. Typ of selecteer een waarde in het veld Nummer van belastingvrijstelling.
 26. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

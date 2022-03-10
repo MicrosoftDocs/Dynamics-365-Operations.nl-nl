@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: fb71d941a5cd58701f723e56a07c6b6cca6689bb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 93f5c3e4951784a6c4925b8f9026816bfaf551ee
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830023"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102905"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Wijzigingen in technische producten beheren
 
@@ -92,9 +92,13 @@ Deze lijst is alleen bedoeld voor informatieve doeleinden. Daarom kunt u zoveel 
 
 Op het sneltabblad **Bron** kunt u het beginpunt van de wijzigingsaanvraag bijhouden. Dit is handig als u bijvoorbeeld wilt zien of de wijzigingsaanvraag is gemaakt op basis van een verkooporder, wie deze heeft gemaakt en in welk bedrijf deze is gemaakt.
 
-### <a name="evaluate-the-business-impact-of-a-change-request"></a>De bedrijfsimpact van een wijzigingsaanvraag evalueren
+### <a name="evaluate-the-business-impact-of-a-change-request-and-send-notifications"></a>De bedrijfsimpact van een wijzigingsaanvraag evalueren en meldingen verzenden
 
-Wanneer u een wijzigingsaanvraag bekijkt, kunt u naar afhankelijkheden zoeken. Op deze manier kunt u het effect beoordelen van de aangevraagde wijziging op openstaande transacties, zoals verkooporders, productieorders en voorhanden voorraad.
+Wanneer u een wijzigingsaanvraag bekijkt, kunt u naar afhankelijkheden zoeken. Op deze manier kunt u het effect beoordelen van de aangevraagde wijziging op openstaande transacties, zoals verkooporders, productieorders en voorhanden voorraad. Tijdens het controleren van wijzigingsaanvragen kunt u meldingen verzenden naar de personen die verantwoordelijk zijn voor het uitvoeren van de verschillende typen gerelateerde orders.
+
+#### <a name="review-affected-transactions-block-selected-transactions-and-send-notifications"></a>Beïnvloede transacties controleren, geselecteerde transacties blokkeren en meldingen verzenden
+
+Als u beïnvloede transacties wilt controleren, geselecteerde transacties wilt blokkeren en gerelateerde meldingen wilt verzenden, gaat u als volgt te werk.
 
 1. Ga naar **Technisch wijzigingsbeheer \> Algemeen \> Technisch wijzigingsbeheer \> Aanvragen van technische wijzigingen**.
 1. Open een bestaande wijzigingsaanvraag of selecteer **Nieuw** in het actievenster om een nieuwe wijzigingsaanvraag te maken.
@@ -103,7 +107,36 @@ Wanneer u een wijzigingsaanvraag bekijkt, kunt u naar afhankelijkheden zoeken. O
     - **Zoeken**: alle openstaande transacties scannen en vervolgens het dialoogvenster **Bedrijfsimpact op openstaande transacties** openen met alle transacties die door de wijziging worden beïnvloed.
     - **Vorige zoekopdracht weergeven**: het dialoogvenster **Bedrijfsimpact op openstaande transacties** met de resultaten van de vorige zoekopdracht openen. (Een nieuwe zoekopdracht wordt niet uitgevoerd.)
 
-1. Als het probleem dat een wijziging noodzakelijk maakt een kritiek probleem blijkt te zijn, kunt u de openstaande transacties blokkeren of de verantwoordelijke gebruiker op de hoogte stellen met behulp van de knoppen op de werkbalk in het dialoogvenster **Bedrijfsimpact op openstaande transacties**.
+1. Het dialoogvenster **Bedrijfsimpact op openstaande transacties** bevat een set tabbladen waarbij elk tabblad een lijst met beïnvloede transacties van een bepaald type bevat (**Verkooporders**, **Inkooporders**, **Productieorders**, **Voorraad** enzovoort). Op elk tabblad wordt ook een nummer weergegeven dat het aantal beïnvloede transacties van dat type aangeeft. Selecteer een tabblad om de relevante lijst weer te geven.
+1. Als u met een transactie in de lijst wilt werken, selecteert u deze en selecteert u vervolgens een van de volgende knoppen op de werkbalk:
+
+    - **Transactie weergeven**: de geselecteerde transactierecord openen.
+    - **Order blokkeren**: deze knop is alleen beschikbaar op het tabblad **Verkooporders**. Selecteer deze optie om de geselecteerde verkooporder te blokkeren.
+    - **Regel blokkeren**: deze knop is alleen beschikbaar op het tabblad **Inkooporders**. Selecteer deze optie om de geselecteerde inkooporderregel te blokkeren.
+    - **Verantwoordelijke persoon waarschuwen**: deze knop is alleen beschikbaar op het tabblad **Verkooporders**. Selecteer deze knop om een melding over de wijziging te verzenden naar de gebruiker die is ingesteld als verantwoordelijke voor de geselecteerde verkooporder. Zie [Wijzigingsmeldingen voor transacties bekijken en verwerken](#review-notifications) voor meer informatie over hoe en wie de meldingen kan zien.
+    - **Besteller waarschuwen**: deze knop is alleen beschikbaar op het tabblad **Inkooporders**. Selecteer deze knop om een melding over de wijziging te verzenden naar de gebruiker die is ingesteld als de besteller voor de geselecteerde inkooporder. Zie [Wijzigingsmeldingen voor transacties bekijken en verwerken](#review-notifications) voor meer informatie over hoe en wie de meldingen kan zien.
+    - **Productie waarschuwen**: deze knop is alleen beschikbaar op het tabblad **Productieorders**. In tegenstelling tot verkoop- en inkooporders hebben productieorders geen enkele gebruiker die van begin tot eind is ingesteld als verantwoordelijke voor deze orders. In plaats daarvan nemen verschillende supervisors of planners meestal de verantwoordelijkheid voor een bepaalde locatie of voor een bepaald deel van de productie (bijvoorbeeld voor specifieke resources of resourcegroepen). Wanneer u deze knop selecteert, ontvangen alle gebruikers die verantwoordelijk zijn voor een resource die is gerelateerd aan de geselecteerde productieorder daarom een wijzigingsmelding. Zie [Wijzigingsmeldingen voor transacties bekijken en verwerken](#review-notifications) voor meer informatie over hoe en wie de meldingen kan zien.
+    - **Voorbereider waarschuwen**: deze knop is alleen beschikbaar op het tabblad **Opdracht tot inkoop**. Selecteer deze knop om een melding over de wijziging te verzenden naar de gebruiker die is ingesteld als de voorbereider van de geselecteerde opdracht tot inkoop. Zie [Wijzigingsmeldingen voor transacties bekijken en verwerken](#review-notifications) voor meer informatie over hoe en wie de meldingen kan zien.
+    - **Verantwoordelijke verkoper waarschuwen**: deze knop is alleen beschikbaar op het tabblad **Offertes**. Selecteer deze knop om een melding over de wijziging te verzenden naar de gebruiker die is ingesteld als verantwoordelijke voor de geselecteerde offerte. Zie [Wijzigingsmeldingen voor transacties bekijken en verwerken](#review-notifications) voor meer informatie over hoe en wie de meldingen kan zien.
+    - **Uitval**: deze knop is alleen beschikbaar op het tabblad **Voorraad**. Selecteer deze knop om de geselecteerde voorraad voor uitval te selecteren.
+    - **Historie weergeven**: open een historie van acties die zijn ondernomen voor de geselecteerde transactie met behulp van het dialoogvenster **Bedrijfsimpact op openstaande transacties**. (De historie geeft bijvoorbeeld aan of meldingen zijn verzonden of transacties zijn geblokkeerd.) 
+    - **Alle transacties weergeven**: open de volledige lijst met alle transacties, niet alleen de openstaande transacties.
+
+> [!IMPORTANT]
+> De knop **Productie waarschuwen** is alleen beschikbaar als de functie *Technische meldingen voor productie* is ingeschakeld voor het systeem. Zie [Overzicht van technisch wijzigingsbeheer](product-engineering-overview.md) voor instructies voor het in- of uitschakelen van deze functie en de vereisten ervan.
+
+#### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Meldingen over wijzigingen voor transacties controleren en verwerken
+
+U kunt de wijzigingsmeldingen die u ontvangt op de volgende manieren lezen en verwerken:
+
+- Behalve voor productieorders worden wijzigingsmeldingen voor de transacties waarvoor u verantwoordelijk bent in het actiecentrum weergegeven. De knop **Berichten weergeven** (belsymbool) aan de rechterkant van de navigatiebalk geeft aan wanneer een bericht voor u beschikbaar is in het actiecentrum. Selecteer de knop **Berichten weergeven** om het actiecentrum te openen en de berichten te bekijken.
+- Als u alle productieorders wilt weergeven waarvoor een technische melding is verzonden, gaat u naar **Productieorders \> Productieorders \> Alle productieorders**. Selecteer in het actievenster op het tabblad **Productieorder** in de groep **Technische-wijzigingsaanvraag** de optie **Technische meldingen** om de pagina **Technische meldingen** te openen.
+- Voor productieorders kunt u ervoor kiezen alleen de meldingen over de wijziging te bekijken die van toepassing zijn op de productiebronnen die u beheert. Selecteer in het werkgebied **Productiebeheer** in het actievenster **Mijn werkgebied configureren** om de pagina te filteren zodat alleen informatie wordt weergegeven over de productie-eenheden, groepen en/of resources die u beheert. In de sectie **Overzicht** wordt op een tegel met de naam **Productieorders met gewijzigde producten** een aantal meldingen weergegeven die overeenkomen met uw filterinstellingen. Selecteer deze tegel om de pagina **Technische meldingen** te openen, die de volledige lijst met transacties bevat die voldoen aan de criteria van uw filter.
+
+Wanneer u productieordermeldingen controleert op de pagina **Technische meldingen**, kunt u koppelingen naar gerelateerde wijzigingsorders of productieorders volgen door kolomwaarden te selecteren of door de bijbehorende opdrachten in het actievenster te gebruiken. Wanneer u klaar bent met het evalueren van een wijziging en wanneer u productieorders hebt geannuleerd of indien nodig gewijzigd, kunt u een melding markeren als opgelost. Selecteer de melding en selecteer vervolgens **Oplossen** in het actievenster. De melding wordt uit alle weergaven van gebruikers verwijderd.
+
+> [!IMPORTANT]
+> Voor de mogelijkheid om meldingen voor productieorders te verzenden, moet de functie *Technische meldingen voor productie* voor het systeem zijn ingeschakeld. Zie [Overzicht van technisch wijzigingsbeheer](product-engineering-overview.md) voor instructies voor het in- of uitschakelen van deze functie en de vereisten ervan.
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Een wijzigingsorder maken op basis van een wijzigingsaanvraag
 
@@ -139,13 +172,14 @@ Terwijl u een aanvraag voor een wijziging bekijkt, selecteert u in het actievens
 
 Zoals wordt beschreven in [Technische bedrijven en regels voor gegevenseigendom](engineering-org-data-ownership-rules.md), zijn de productgegevens die u kunt bewerken, afhankelijk van het type rechtspersoon waarin u werkt (een technisch bedrijf of een operationeel bedrijf). Regels voor gegevenseigendom worden ook toegepast op orders voor technische wijzigingen. Daarom kunnen verschillende typen wijzigingen worden aangebracht, afhankelijk van de rechtspersoon waar u een order voor technische wijzigingen maakt. Hieronder volgen een aantal voorbeelden:
 
-- Voor orders voor technische wijzigingen in een **technisch bedrijf** kunt u fundamentele wijzigingen aanbrengen in de technische gegevens. U kunt bijvoorbeeld nieuwe versies van een product maken, de structuur van een product wijzigen via de stuklijst en waarden van technische kenmerken wijzigen. Selecteer voor elk betrokken product selecteert u een van de volgende waarden in het veld **Impact**:
+- Voor orders voor technische wijzigingen in een *technisch bedrijf* kunt u fundamentele wijzigingen aanbrengen in de technische gegevens. U kunt bijvoorbeeld nieuwe versies van een product maken, de structuur van een product wijzigen via de stuklijst en waarden van technische kenmerken wijzigen. Selecteer voor elk betrokken product selecteert u een van de volgende waarden in het veld **Impact**:
 
     - **Geen**: werk de bestaande productversie bij (update in versie).
     - **Nieuwe versie**: maak een nieuwe versie op basis van de geselecteerde productversie.
-    - **Nieuw product**: maak een volledig nieuw product of een productvariant die is gebaseerd op de geselecteerde productversie.
+    - **Nieuw product**: maak een volledig nieuw product dat is gebaseerd op de geselecteerde productversie.
+    - **Nieuwe variant**: maak een nieuwe variant op basis van de geselecteerde productversie. De stuklijst- en routegegevens worden gekopieerd.
 
-- Voor orders voor technische wijzigingen in een **operationeel bedrijf** kunt u de logistieke gegevens van het product wijzigen. U kunt bijvoorbeeld de bestaande stuklijst verrijken met instellingen voor sourcing, lokale routes of lokale stuklijsten toevoegen en zelfs een stuklijst verrijken door nieuwe stuklijst regels toe te voegen voor lokaal verpakkingsmateriaal, smeervloeistoffen of instructies in de lokale taal. Verrijkingen die gebruikers in het operationele bedrijf maken, blijven behouden wanneer nieuwe updates worden verzonden vanuit het technische bedrijf. Zie [Technische bedrijven en regels voor gegevenseigendom](engineering-org-data-ownership-rules.md) voor meer informatie.
+- Voor orders voor technische wijzigingen in een *operationeel bedrijf* kunt u de logistieke gegevens van het product wijzigen. U kunt bijvoorbeeld de bestaande stuklijst verrijken met instellingen voor sourcing, lokale routes of lokale stuklijsten toevoegen en zelfs een stuklijst verrijken door nieuwe stuklijst regels toe te voegen voor lokaal verpakkingsmateriaal, smeervloeistoffen of instructies in de lokale taal. Verrijkingen die gebruikers in het operationele bedrijf maken, blijven behouden wanneer nieuwe updates worden verzonden vanuit het technische bedrijf. Zie [Technische bedrijven en regels voor gegevenseigendom](engineering-org-data-ownership-rules.md) voor meer informatie.
 
     Wanneer orders voor technische wijzigingen in het technische bedrijf worden verwerkt, worden de producten alleen gemaakt en/of bijgewerkt in het technische bedrijf. Als de productmodelgegevens ook moeten worden bijgewerkt, moet u de producten dus ook vrijgeven aan de operationele bedrijven.
 

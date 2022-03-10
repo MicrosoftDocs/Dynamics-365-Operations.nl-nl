@@ -2,11 +2,9 @@
 title: Financiële rapporten balans
 description: In dit artikel worden de standaardrapporten voor balansen beschreven. Hierin worden ook de bouwstenen beschreven die aan deze rapporten zijn gekoppeld.
 author: jcart1106
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinanicalReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d249172c2bc4241a47502b57f2ac20b29111eeba
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b0fae7ccb216ced0cbcbdb69980b3bae754a4980ecaf9314893368ae89459fa0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985007"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734509"
 ---
 # <a name="balance-sheet-financial-reports"></a>Financiële rapporten balans
 
@@ -30,8 +28,7 @@ ms.locfileid: "4985007"
 
 In dit artikel worden de standaardrapporten voor balansen beschreven. Hierin worden ook de bouwstenen beschreven die aan deze rapporten zijn gekoppeld. 
 
-<a name="default-balance-sheet-reports"></a>Standaardbalansrapporten
------------------------------
+## <a name="default-balance-sheet-reports"></a>Standaardbalansrapporten
 
 Er zijn twee standaardbalansrapporten. In één rapport zijn de secties gestapeld. In het andere rapport worden de secties naast elkaar weergegeven.
 
@@ -70,8 +67,7 @@ De kolomdefinities bevatten verschillende typen kolommen om verschillende detail
 
 
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Overzicht van Financiële rapportage](financial-reporting-getting-started.md)
 
@@ -81,3 +77,6 @@ De kolomdefinities bevatten verschillende typen kolommen om verschillende detail
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

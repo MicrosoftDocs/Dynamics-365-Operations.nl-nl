@@ -2,14 +2,11 @@
 title: Rapporten maken voor Affordable Care Act (Amerikaanse wet inzake betaalbare zorg)
 description: Rapportage voor de Affordable Care Act (ACA) genereert de formulieren 1095-B en 1095-C ter ondersteuning van het deel **Werkgeversmandaag** van de ACA.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
@@ -17,14 +14,19 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 56ff879603a31956db877b45aec11b15371b69f5
-ms.sourcegitcommit: 5c1b5ef40ce7359b3f1955535a250718d863badb
+ms.openlocfilehash: c8f336e31e77391ef7e2bc2dca901e6a78fbb914
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5142151"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066996"
 ---
 # <a name="generate-aca-reports"></a>ACA-rapporten genereren
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Rapportage voor de Affordable Care Act (ACA) genereert de formulieren 1095-B en 1095-C ter ondersteuning van het deel **Werkgeversmandaag** van de ACA.
 
@@ -87,3 +89,6 @@ Als u gedekte personen moet rapporteren omdat u interne verzekering aanbiedt, ku
 
 > [!NOTE]
 > Alleen vergoedingsplannen die zijn gemarkeerd als **Aan te geven onder ACA** worden getoond in het informatievenster.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

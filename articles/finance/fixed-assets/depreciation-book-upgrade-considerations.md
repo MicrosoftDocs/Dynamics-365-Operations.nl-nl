@@ -1,9 +1,9 @@
 ---
-title: Upgradeoverzicht van afschrijvingsboeken
-description: In eerdere versies waren er twee waardevaststellingsconcepten voor vaste activa, waardemodellen en afschrijvingsboeken.
-author: ShylaThompson
+title: Overzicht van upgrade van afschrijvingsboeken
+description: In dit onderwerp wordt de huidige boekfunctionaliteit in vaste activa beschreven. Deze nieuwe functionaliteit is gebaseerd de functionaliteit voor waardemodellen, die beschikbaar was in eerdere versies, maar omvat ook alle functionaliteit die voorheen alleen in afschrijvingsboeken beschikbaar was.
+author: moaamer
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer
@@ -13,25 +13,25 @@ ms.custom:
 - intro-internal
 ms.assetid: cf434099-36f9-4b0f-a7c8-bed091e34f39
 ms.search.region: global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b1d14154cd2e9bd18a886ba490891a02afeb0b05
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: eaa47b47a93deda24a6c76572881d1e5bba29c52
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344709"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985078"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Overzicht van upgrade van afschrijvingsboeken
 
 [!include [banner](../includes/banner.md)]
 
-In eerdere versies waren er twee waardevaststellingsconcepten voor vaste activa: waardemodellen en afschrijvingsboeken. In Microsoft Dynamics 365 for Operations (1611) zijn functionaliteiten van waardemodellen en afschrijvingsboeken samengevoegd in één concept dat de naam boek draagt. Dit onderwerp bevat enkele overwegingen voor de upgrade. 
+In dit onderwerp wordt de huidige boekfunctionaliteit in vaste activa beschreven. Deze nieuwe functionaliteit is gebaseerd de functionaliteit voor waardemodellen, die beschikbaar was in eerdere versies, maar omvat ook alle functionaliteit die voorheen alleen in afschrijvingsboeken beschikbaar was. De functionaliteit voor waardemodellen en afschrijvingsboeken zijn samengevoegd tot één concept dat bekend is als een boek. Met de boekfunctionaliteit kunt u één set pagina's, vragen en rapporten gebruiken voor alle vaste-activaprocessen van uw organisatie. In dit onderwerp komen aan paar onderwerpen aan de orde waar u rekening mee moet houden voordat u de upgrade uitvoert. 
 
-Met het upgradeproces verplaatst u uw bestaande instellingen en alle bestaande transacties naar de nieuwe boekstructuur. De waardemodellen worden in de huidige vorm behouden, in de vorm van een boek dat boekt naar het grootboek. Afschrijvingsboeken worden naar een boek verplaatst waarvoor de optie **Boeken naar grootboek** is ingesteld op **Nee**. De journaalnamen van afschrijvingsboeken worden verplaatst naar een grootboekjournaalnaam, waarbij de boekingslaag is ingesteld op **Geen**. Afschrijvingsboektransacties worden verplaatst naar Vaste-activatransacties. 
+Met het upgradeproces verplaatst u uw bestaande instellingen en alle bestaande transacties naar de nieuwe boekstructuur. De waardemodellen worden in de huidige vorm behouden, in de vorm van een boek dat boekt naar het grootboek. Afschrijvingsboeken worden naar een boek verplaatst waarvoor de optie Boeken naar grootboek is ingesteld op Nee. De journaalnamen van afschrijvingsboeken worden verplaatst naar een grootboekjournaalnaam, waarbij de boekingslaag is ingesteld op Geen. Afschrijvingsboektransacties worden verplaatst naar Vaste-activatransacties.
 
-Voordat u de gegevensupgrade uitvoert, moet u de twee opties begrijpen die beschikbaar zijn om afschrijvingsboekjournaalregels naar transactieboekstukken bij te werken en moet u de nummerreeks begrijpen die voor de boekstuknummering wordt gebruikt. 
+Voordat u de gegevensupgrade uitvoert, moet u de twee opties begrijpen die beschikbaar zijn om afschrijvingsboekjournaalregels naar transactieboekstukken bij te werken en moet u de nummerreeks begrijpen die voor de boekstuknummering wordt gebruikt.
 
 Optie 1: **Door het systeem gedefinieerde nummerreeks**: dit is de standaardoptie om upgradeprestaties te optimaliseren. Bij de upgrade wordt niet het raamwerk voor nummerreeksen gebruikt, maar in plaats daarvan worden boekstukken toegewezen op basis van sets. Na de upgrade wordt de nieuwe nummerreeks gemaakt waarbij **Volgende nummerset** op de juiste wijze wordt gebaseerd op de bijgewerkte transacties. Standaard is de nummerreeks die wordt gebruikt in de indeling FADBUpgr\#\#\#\#\#\#\#\#\#. Er zijn enkele parameters beschikbaar waarmee u de indeling kunt aanpassen met deze methode:
 

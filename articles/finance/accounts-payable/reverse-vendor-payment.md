@@ -2,11 +2,9 @@
 title: Een leveranciersbetaling omkeren
 description: Dit artikel bevat de verschillen tussen het omkeren, verwijderen, ongeldig maken en afwijzen van een betaling. Bovendien worden de twee manieren om een leverancierscheque om te keren uitgelegd.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankChequeTable, LedgerJournalTransBankChequeReversal, LedgerJournalTransVendPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65aefa75de772fa39b45fc376349b75a3662cd73
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2303bf5908137a72b53c7d1aab6343e98a4dad0bb7d315c52611f1356e46c5df
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227421"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762182"
 ---
 # <a name="reverse-a-vendor-payment"></a>Een leveranciersbetaling omkeren
 

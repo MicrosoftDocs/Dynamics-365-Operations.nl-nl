@@ -1,26 +1,24 @@
 ---
 title: Magazijnwerk voor afhandeling van uitzonderingen annuleren
 description: In dit onderwerp wordt de functie Werk annuleren beschreven waarmee magazijnsupervisors geblokkeerd werk kunnen verwerken.
-author: omulvad
-manager: tfehr
+author: Mirzaab
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSTroubIeshootingSeIfService, WHSTroubleshootingSelfService
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 21cfa03ed52ffce32267ec0497ae3443937c1018
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: af0c147eefbfe22cb6b6d531f514e6f293d66689
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233098"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572404"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>Magazijnwerk voor afhandeling van uitzonderingen annuleren
 

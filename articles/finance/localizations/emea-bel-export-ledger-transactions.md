@@ -14,12 +14,12 @@ ms.search.region: Belgium
 ms.author: roschlom
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: a2865984236f3282ee05ddc875bf9a6925df4fa5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 93c4dcb0288423d6787a07db3cf41a2670c88458f06eba5bf39b03a26c1bd1af
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839904"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781692"
 ---
 # <a name="export-ledger-transactions"></a>Grootboektransacties exporteren
 
@@ -47,7 +47,7 @@ Deze functionaliteit is beschikbaar voor rechtspersonen die hun primaire adres i
     | Vóór 10.0.16                            | **Exportindeling van grootboektransacties (BE)** onder **Grootboekrekeningrapporten** > **Exporteren van grootboektransacties**-modle. |
     | Vanaf 10.0.16                     | **Exporteren van grootboekgegevens (BE)** onder model **Standaard auditfile (SAF-T)**.                                  |
 
-    > ![ER-configuraties](media/be-audit-er-configs.png)
+    > ![ER-configuraties.](media/be-audit-er-configs.png)
 
 2. Na het importeren moeten de volgende of latere versies van de nieuwe configuraties zijn geïnstalleerd.
 
@@ -60,13 +60,13 @@ Deze functionaliteit is beschikbaar voor rechtspersonen die hun primaire adres i
     > [!NOTE]
     > Nadat alle ER-configuraties uit de voorgaande tabel zijn geïmporteerd, stelt u de optie **Standaard voor modeltoewijzing** in op **Ja** voor de configuratie van **Modeltoewijzing van grootboekgegevens** op de pagina **Configuraties**.
 
-    > ![Optie Standaard voor modeltoewijzing](media/be-audit-default-mm.png)
+    > ![Optie Standaard voor modeltoewijzing.](media/be-audit-default-mm.png)
 
 3. Vanaf versie 10.0.16: om de indeling **Exporteren van grootboekgegevens (BE)** te gebruiken, definieert u de naam van de ER-configuratie in een nieuwe grootboekparameter. Ga naar **Grootboek** > **Grootboek instellen** > **Grootboekparameters**. 
 4. Vouw het sneltabblad **Elektronische rapportage** uit en selecteer het tabblad **Grootboek**. 
 5. Selecteer in de groep **Grootboektransacties exporteren** in het veld **Grootboektransacties exporteren** de indeling **Exporteren van grootboekgegevens (BE)** en sla de nieuwe instelling op.
 
-    ![Grootboekparameter](media/be-audit-gl-parameter.png)
+    ![Grootboekparameter.](media/be-audit-gl-parameter.png)
 
 ### <a name="generate-the-export-ledger-transactions-report"></a>Het rapport Grootboektransacties exporteren genereren
 
@@ -87,7 +87,7 @@ Deze functionaliteit is beschikbaar voor rechtspersonen die hun primaire adres i
 
 In dit geval bevat het gegenereerde bestand de volgende gegevens.
 
-![Grootboektransactiegegevens](media/1_Export_ledger_transactions.png)
+![Grootboektransactiegegevens.](media/1_Export_ledger_transactions.png)
 
 Hier volgt een uitleg van de kolommen in dit bestand:
 

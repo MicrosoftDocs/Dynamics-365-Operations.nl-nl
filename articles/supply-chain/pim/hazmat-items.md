@@ -1,30 +1,27 @@
 ---
 title: Gevaarlijke stoffen in producten, orders, zendingen en ladingen
 description: In dit onderwerp wordt uitgelegd hoe u eigenschappen voor gevaarlijke stoffen kunt instellen voor vrijgegeven producten, hoe u voorraadlimieten voor gevaarlijke stoffen kunt instellen en hoe u gevaarlijke stoffen kunt opnemen in een verkooporder, zending of lading.
-author: dasani-madipalli
-manager: tfehr
+author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 3836273b1c782fe80172443f4d4c29001ccea83a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 64d31cd86045ff28aa007666a3877271eecf0106
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007661"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570700"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>Gevaarlijke stoffen in producten, orders, zendingen en ladingen
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u eigenschappen voor gevaarlijke stoffen kunt instellen voor vrijgegeven producten, hoe u voorraadlimieten voor gevaarlijke stoffen kunt instellen en hoe u gevaarlijke stoffen kunt opnemen in een verkooporder, zending of lading.
 
@@ -220,3 +217,6 @@ Voer deze stappen uit om de compatibiliteitscontrole uit te voeren.
 1. Selecteer in het Actievenster op het tabblad **Ladingen** in de groep **Acties** de optie **Compatibiliteitscontrole**.
 
 U ontvangt een bericht waarin u wordt geïnformeerd over de resultaten van de controle.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

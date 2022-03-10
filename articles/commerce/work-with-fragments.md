@@ -2,7 +2,7 @@
 title: Werken met fragmenten
 description: In dit onderwerp wordt beschreven waarom, wanneer en hoe u fragmenten gebruikt in Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 10/16/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1fa55ab83562983273768895db61032ec7199fa6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 98cb1fba158ea99427d2068ca49b257cb5290de3
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793940"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090739"
 ---
 # <a name="work-with-fragments"></a>Werken met fragmenten 
 
@@ -62,7 +62,7 @@ Voer de volgende stappen uit om een eerder geconfigureerde module te converteren
 1. Voer in het dialoogvenster **Fragment opslaan als** een naam voor het fragment in.
 1. Selecteer **OK** om de moduleconfiguratie op te slaan als een fragment dat aan andere pagina's kan worden toegevoegd.
 <!-- The following image shows how to save a module configuration as a fragment.-->
-<!--![A screen capture of how to save a module configuration as a fragment](./media/save-as-fragment.png)-->
+<!--![A screen capture of how to save a module configuration as a fragment.](./media/save-as-fragment.png)-->
 
 ### <a name="create-a-new-fragment"></a>Een nieuw fragment maken
 
@@ -73,7 +73,7 @@ Voer de volgende stappen uit om een nieuw fragment te maken in Commerce Site Bui
 1. Selecteer een moduletype voor het fragment.
 
 <!-- The following image shows where to create a new fragment.-->
-<!-- ![A screen capture of where to create a new fragment](./media/fragment-nav-menu.png)-->
+<!-- ![A screen capture of where to create a new fragment.](./media/fragment-nav-menu.png)-->
 > [!TIP]
 > Selecteer een algemeen containermoduletype voor de meeste flexibiliteit wanneer u het fragment later moet bijwerken en configureren.
 
@@ -88,14 +88,14 @@ Voer de volgende stappen uit om een fragment aan een pagina toe te voegen in Com
 1. Selecteer in het overzichtsvenster links of rechtstreeks in visuele paginabouwer een container of vak waaraan onderliggende modules kunnen worden toegevoegd.
 1. Selecteer het weglatingsteken (**...**) naast de naam van de container of het vak.  Als alternatief kunt u, als u visuele paginabouwer gebruikt, het plusteken (**+**) selecteren.  
 1. Selecteer **Fragment toevoegen**.
-    <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
+    <!-- ![A screen capture of how to add an existing fragment to a slot or container.](./media/add-fragment.png)-->
  
     > [!NOTE]
     > Als nieuwe onderliggende modules niet door de container of het vak worden ondersteund, is de optie **Fragment toevoegen** niet beschikbaar.
     
 1. Zoek in het dialoogvenster **Fragment selecteren** een fragment dat u wilt toevoegen en selecteer het. Als er geen beschikbare fragmenten worden weergegeven, moet u mogelijk eerst een fragment maken van een moduletype dat door de geselecteerde container of of het geselecteerde vak wordt ondersteund.
 1. Selecteer het gewenste fragment en voeg het toe aan de container of het vak op uw pagina.
-<!--    ![A screen capture of the fragment picker modal window](./media/fragment-picker.png)-->
+<!--    ![A screen capture of the fragment picker modal window.](./media/fragment-picker.png)-->
 
 > [!NOTE]
 > De modules die in een container of vak zijn toegestaan, worden gedefinieerd door de paginasjabloon of de eigen definities van de modules.
@@ -122,7 +122,21 @@ Voer de volgende stappen uit om een fragment te bewerken in Commerce Site Builde
 
 U kunt een fragment ook bewerken door het te selecteren op een pagina, in een sjabloon of in een bovenliggend fragment en vervolgens **Fragment bewerken** te selecteren in het deelvenster Eigenschappen aan de rechterkant.
 
-## <a name="additional-resources"></a>Aanvullende resources
+### <a name="rename-a-fragment"></a>De naam van een fragment wijzigen
+
+Voer de volgende stappen uit om de naam van een bestaand fragment te wijzigen in Site Builder.
+
+1. Selecteer **Fragmenten** in het deelvenster voor navigatie aan de linkerkant.
+1. Selecteer de naam van het fragment waarvan u de naam wilt wijzigen.
+1. Selecteer **Bewerken** om het fragment te gaan bewerken. U kunt een fragment niet bewerken als iemand anders het fragment al aan het bewerken is.
+1. Selecteer in het deelvenster met eigenschappen voor fragmenten het pensymbool naast de naam van het fragment.
+1. Bewerk de naam van het fragment indien nodig.
+1. Selecteer het vinkje om de naamswijziging te bevestigen.
+1. Selecteer **Bewerken voltooien**.
+
+U kunt de naam van een fragment wijzigen nadat het is gemaakt door het te bewerken en vervolgens het pensymbool naast de naam van het fragment in het eigenschappenvenster te selecteren.
+
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht sjablonen en indelingen](templates-layouts-overview.md)
 

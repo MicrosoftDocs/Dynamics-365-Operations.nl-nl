@@ -2,11 +2,9 @@
 title: Een experiment verbinden en variaties bewerken
 description: In dit onderwerp wordt beschreven hoe u een experiment in een service van derden verbindt met Dynamics 365 Commerce en hoe u variaties voor het experiment bewerkt.
 author: sushma-rao
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2a33897d01dd98d446c2fb49e417abd9db9f403a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d3b1a099e29073e82e2118f9e43441a9068a4d10f0ea9f79123b97d2b7d5c419
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010019"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773028"
 ---
 # <a name="connect-an-experiment-and-edit-variations"></a>Een experiment verbinden en variaties bewerken
 
@@ -30,7 +28,7 @@ In dit onderwerp wordt beschreven hoe u uw experiment in Commerce verbindt en ho
 
 In het volgende diagram ziet u alle stappen voor het instellen en uitvoeren van een experiment op een e-Commerce-website in Dynamics 365 Commerce. Extra stappen worden in afzonderlijke onderwerpen behandeld.
 
-[ ![Traject van gebruiker voor experimenten - verbinden en bewerken](./media/experimentation_connect_edit.svg) ](./media/experimentation_connect_edit.svg#lightbox)
+[ ![Traject van gebruiker voor experimenten - verbinden en bewerken.](./media/experimentation_connect_edit.svg) ](./media/experimentation_connect_edit.svg#lightbox)
 
 Nadat u [uw experiment hebt ingesteld](experimentation-setup.md) in een service van derden, verbindt u het experiment in Dynamics 365 Commerce en bewerkt u de experimentvariaties.
 
@@ -94,3 +92,6 @@ Als u het bereik van uw experiment als **volledig** hebt gedefinieerd in de wiza
 
 ## <a name="next-step"></a>Volgende stap
 [Preview van een experiment weergeven en een experiment publiceren](experimentation-preview-publish.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

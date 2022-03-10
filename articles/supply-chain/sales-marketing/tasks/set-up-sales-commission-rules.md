@@ -1,26 +1,24 @@
 ---
 title: Regels voor verkoopprovisie instellen
 description: Deze procedure toont u hoe u het berekenen en bijhouden van verkoopprovisie instelt en inschakelt.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CommissionCustomerGroup, CommissionItemGroup, CommissionSalesGroup, CommissionSalesMember, DirPartyLookup, CommissionCalc, InventPosting, CustTable, EcoResProductDetailsExtended, CommissionEmplSalesGroup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab352e1174dbee65f676c5b9bae45f2947dbcd6f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8f42f2fbe22124dbaaf2c4bd2f4394f734d166d5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232249"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578891"
 ---
 # <a name="set-up-sales-commission-rules"></a>Regels voor verkoopprovisie instellen
 

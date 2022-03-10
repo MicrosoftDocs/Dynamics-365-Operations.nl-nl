@@ -1,29 +1,26 @@
 ---
 title: Onderhoudsrondes
 description: In dit onderwerp wordt uitgelegd wat onderhoudsronden zijn in Activabeheer.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRoundTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 63cb2614b2037fac1129c7d2f82a26dac41a3490
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dc0d8ec546e7455187a87ac124c5e56a93f5bafd2270bf275af950991fc4b87e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425477"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740714"
 ---
 # <a name="maintenance-rounds"></a>Onderhoudsrondes
 
@@ -79,11 +76,11 @@ In **Activabeheer** kunt u onderhoudsronden maken voor verschillende activa. Daa
 20. Sla de instellingen op.
 
 >[!NOTE]
->In de velden **Activa** en **Regels** in de groep **Details** van het sneltabblad **Koptekst** ziet u het totaal aantal activa en regels voor de geselecteerde onderhoudsronde.
+>In de velden **Activa** en **Regels** in de groep **Details** van het sneltabblad **Header** ziet u het totaal aantal activa en regels voor de geselecteerde onderhoudsronde.
 
 In de onderstaande afbeelding ziet u een voorbeeld van een onderhoudsronde die drie activa bevat.
 
-![Figuur 1](media/13-preventive-maintenance.png)
+![Figuur 1.](media/13-preventive-maintenance.png)
 
 
 ## <a name="schedule-maintenance-rounds"></a>Onderhoudsrondes plannen
@@ -109,11 +106,14 @@ Wanneer u een onderhoudsronde hebt ingesteld, voert u een planningstaak uit om a
 
 In de twee illustraties hieronder ziet u een planningstaak in het dialoogvenster **Onderhoudsronden plannen** en de onderhoudsplanningsregels die op basis van die planningstaak zijn gemaakt in **Alle onderhoudsschema's**.
 
-![Figuur 2](media/14-preventive-maintenance.png)
+![Figuur 2.](media/14-preventive-maintenance.png)
 
-![Figuur 3](media/15-preventive-maintenance.png)
+![Figuur 3.](media/15-preventive-maintenance.png)
 
 - Wanneer werkorders handmatig worden gemaakt voor activa die onder een leveranciersgarantie vallen, wordt er een dialoogvenster weergegeven om de gebruiker te informeren over de garantie. Het maken van de werkorder kan dan worden geannuleerd. De controle op een garantierelatie wordt achterwege gelaten voor werkorders die automatisch worden gemaakt.  
 - U kunt een batchtaak instellen op het sneltabblad **Op de achtergrond uitvoeren** als u de ronden met vaste intervallen wilt plannen.  
 - Als een ronde is opgenomen in verschillende werkordergroepen (zie [Werkordergroepen](../work-orders/work-order-pools.md)), wordt één record voor elke groep weergegeven in **Openstaande onderhoudsschemagroepen**. Dit wordt gedaan om de filteropties voor werkordergroepen te optimaliseren.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

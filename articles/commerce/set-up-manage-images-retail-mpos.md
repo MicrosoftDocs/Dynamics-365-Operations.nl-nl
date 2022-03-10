@@ -2,11 +2,9 @@
 title: Instellen en beheren van afbeeldingen voor Modern POS (MPOS)
 description: In dit artikel worden de stappen uitgelegd voor het instellen en beheren van afbeeldingen voor verschillende entiteiten die in Modern POS (MPOS) worden weergegeven.
 author: athinesh99
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailChannelProfile, RetailMediaGallery, RetailImages,
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 1139d4c826b6c35f1a6660d3880449e495473441
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 71b90b1bc93c756731960871a0cb7b1e5f416a825399cd135dfbcc7656d6bf65
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264499"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755026"
 ---
 # <a name="set-up-and-manage-images-for-modern-pos-mpos"></a>Instellen en beheren van afbeeldingen voor Modern POS (MPOS)
 
@@ -48,11 +46,11 @@ In de volgende procedures zijn afbeeldingen ingesteld voor de catalogusentiteit 
 1. Open de Commerce HQ-portal.
 2. Klik op **Detailhandel en commerce** &gt; **Kanaalinstellingen** &gt; **Kanaalprofielen**.
 
-    [![Navigatie](./media/channel-profile1.png)](./media/channel-profile1.png)
+    [![Navigatie.](./media/channel-profile1.png)](./media/channel-profile1.png)
 
 3. Werk in het kanaalprofiel dat uw winkel voor MPOS gebruikt, het veld **Basis-URL voor media** bij met de basis-URL van uw mediaserver of CDN. De basis-URL is het eerste deel van URL, dat door alle afbeeldingmappen van verschillende entiteiten wordt gedeeld.
 
-    [![De pagina Kanaalprofielen](./media/channel-profile2.png)](./media/channel-profile2.png)
+    [![De pagina Kanaalprofielen.](./media/channel-profile2.png)](./media/channel-profile2.png)
 
 ### <a name="define-the-media-template-for-an-entity"></a>De mediajabloon definiëren voor een entiteit
 
@@ -70,7 +68,7 @@ In de volgende procedures zijn afbeeldingen ingesteld voor de catalogusentiteit 
 8. Voer de synchronisatietaken uit om de nieuwe sjabloon naar de te kanaaldatabase te zenden, zodat MPOS de sjabloon kan gebruiken om afbeeldingen te openen.
 9. Om de mediasjabloon voor catalogusafbeeldingen aan de kanaalkant bij te werken, zorgt ervoor dat u **Catalogustaak 1150** uitvoert vanuit **IT detailhandel en commerce** &gt; **Distributieplanning**.
 
-    [![Het dialoogvenster Mediasjabloon definiëren](./media/catalog1.png)](./media/catalog1.png)
+    [![Het dialoogvenster Mediasjabloon definiëren.](./media/catalog1.png)](./media/catalog1.png)
 
 ## <a name="previewing-an-image-from-the-entity-level"></a>Een voorbeeld van een afbeelding weergeven vanaf het entiteitniveau
 
@@ -79,7 +77,7 @@ In de volgende procedures zijn afbeeldingen ingesteld voor de catalogusentiteit 
 3. U kunt de knoppen **Toevoegen** en **Verwijderen** gebruiken om handmatig het pad te wijzigen dat is gebaseerd op de impliciete sjabloon en wordt gebruikt voor een specifieke afbeelding. Zie het gedeelte [De mediasjabloon overschrijven voor entiteitartikelen](#overwriting-the-media-template-for-entity-items) later in dit artikel voor meer informatie.
 4. Als u klaar bent met het bekijken van een voorbeeld van een afbeelding en het aanbrengen van de gewenste wijzigingen, start u het MPOS-exemplaar voor de betreffende winkel en kijkt u of de catalogusafbeeldingen worden weergegeven.
 
-    [![Het dialoogvenster Afbeeldingen](./media/catalog4.png)](./media/catalog4.png)
+    [![Het dialoogvenster Afbeeldingen.](./media/catalog4.png)](./media/catalog4.png)
 
 > [!NOTE]
 > U kunt dezelfde procedure gebruiken voor alle vijf de rechtspersonen die worden ondersteund: Werknemer, Klant, Catalogus, Categorie en Producten. 'Catalogusproducten' (producten die zijn ingesteld op catalogusniveau) en 'kanaalproducten' (producten die zijn ingesteld op kanaalniveau) gebruiken de mediasjabloon die is ingesteld voor de productentiteit. Voor de productmediasjabloon kunt u het aantal productafbeeldingen selecteren dat per product moet worden weergegeven. U kunt ook de standaardafbeelding voor een bepaald product instellen. Op deze manier kunt u lege afbeeldingen in MPOS voorkomen en helpen te regelen welke afbeelding als standaardafbeelding voor een productartikel wordt gebruikt. In het volgende voorbeeld heeft elk product vijf afbeeldingen en de eerste afbeelding is ingesteld als de standaardafbeelding. Productvarianten worden op dezelfde manier verwerkt als hoofdproducten. De bestandsnaam van het afbeeldingsbestand moet op het productnummer moeten worden gebaseerd. Sommige tekens zijn ook voor wisseltekens terwijl de bestandsnaam wordt gegenereerd. Daarom is het goed om de bestandsnaam te verifiëren door de sectie **Afbeeldings-URL's voor Excel genereren** te gebruiken. Zie de sectie [Wijzigingen overschrijven met Bewerken in Excel](#overwrite-by-using-edit-in-excel) verderop in dit artikel.
@@ -110,7 +108,7 @@ Zoals u in de vorige sectie hebt geleerd, ondersteunt de mediasjabloon voor een 
 
     U ziet nu een voorbeeld van de afbeeldings-URL's die zijn gegenereerd op basis van de laatst opgeslagen mediasjabloon.
 
-    [![Het sneltabblad Afbeeldings-URL's voor Excel genereren als Genereren is geselecteerd](./media/excel2.png)](./media/excel2.png)
+    [![Het sneltabblad Afbeeldings-URL's voor Excel genereren als Genereren is geselecteerd.](./media/excel2.png)](./media/excel2.png)
 
     > [!NOTE]
     > De URL's die worden gegenereerd voor Excel gebruiken het pad en de conventies van de gedefinieerde mediasjabloon. Deze conventies omvatten de conventies voor bestandsnamen. De verwachting is dat u de fysieke afbeeldingen buiten Commerce hebt ingesteld en dat de afbeeldingen kunnen worden opgehaald van URL's die zijn afgeleid van de mediasjabloon die u eerder hebt gedefinieerd. U kunt deze afgeleide URL's overschrijven via Bewerken in de Excel-functie.
@@ -119,17 +117,17 @@ Zoals u in de vorige sectie hebt geleerd, ondersteunt de mediasjabloon voor een 
 6. Nadat het Microsoft Excel-werkblad is geopend, klikt u op **Bewerken inschakelen** wanneer u daarom wordt gevraagd.
 7. Wanneer u hierom wordt gevraagd, klikt u in het rechter deelvenster op **Deze invoegtoepassing vertrouwen** en wacht u tot de invoegtoepassing de installatie heeft voltooid.
 
-    [![Deze invoegtoepassing vertrouwen](./media/excel4.jpg)](./media/excel4.jpg)
+    [![Deze invoegtoepassing vertrouwen.](./media/excel4.jpg)](./media/excel4.jpg)
 
 8. Als u wordt gevraagd u aan te melden, voert u de referenties in die u hebt gebruikt om u aan te melden bij het hoofdkantoor.
 
-    [![Aanmeldingsprompt](./media/excel5.png)](./media/excel5.png)
+    [![Aanmeldingsprompt.](./media/excel5.png)](./media/excel5.png)
 
 9. Wanneer u zich aanmeldt, zou u de lijst met afbeeldings-URL's moeten kunnen zien voor de verschillende catalogusvermeldingen.
 10. U kunt de afbeeldings-URL's voor diverse entiteitsartikelen bewerken, toevoegen en verwijderen.
 11. Voor alle entiteiten behalve Producten kunt u de afbeelding-URL's overschrijven. Wijzig de bestaande afbeeldings-URL's, zodat de nieuwe bestemmings-URL van de afbeelding wordt gebruikt, en werk de bestandsnaam met de nieuwe bestandsnaam voor het afbeeldingsbestand. De bestandsnaam moet uniek zijn om te helpen waarborgen dat de record is uniek.
 
-    [![Afbeeldings-URL's in Excel overschrijven](./media/excel6.jpg)](./media/excel6.jpg)
+    [![Afbeeldings-URL's in Excel overschrijven.](./media/excel6.jpg)](./media/excel6.jpg)
 
     > [!NOTE]
     > Wanneer u afbeeldings-URL's voor productentiteiten overschrijft met de functionaliteit Bewerken in Excel of de entiteitartikelpagina, geeft MPOS altijd alle mediasjabloonafbeeldings-URL's weer met de overschreven afbeeldings-URL's.
@@ -155,11 +153,11 @@ Voor alle entiteiten behalve Producten kunt u de afbeeldings-URL voor een bepaal
 3. Als u wilt dat deze afbeelding wordt weergegeven in MPOS voor de catalogus, kunt u deze als standaardafbeelding instellen.
 4. Klik tot slot op **OK**. De afbeeldings-URL wordt bijgewerkt voor deze catalogusafbeelding, en een voorbeeld wordt weergegeven.
 
-    [![URL bijgewerkt in het dialoogvenster Nieuwe afbeelding](./media/preview3.png)](./media/preview3.png)
+    [![URL bijgewerkt in het dialoogvenster Nieuwe afbeelding.](./media/preview3.png)](./media/preview3.png)
 
 5. U kunt ook het afbeeldingvoorbeeld voor alle overschreven afbeeldings-URL's weergeven op de galeriepagina **Catalogusafbeeldingen**.
 
-    [![Galeriepagina Catalogusafbeeldingen](./media/preview-4.png)](./media/preview-4.png)
+    [![Galeriepagina Catalogusafbeeldingen.](./media/preview-4.png)](./media/preview-4.png)
 
 > [!NOTE]
 > Momenteel geeft de galerie geen afbeeldingsvoorbeelden weer voor URL's van mediasjabloonafbeeldingen. Voor de entiteiten Catalogus, Werknemer, Klant en Categorie, als de gebruiker expliciet een URL opgeeft via deze pagina, bevelen we aan dat u aangeeft welke afbeelding de standaardafbeelding is, omdat Commerce Scale Unit-clients slechts één afbeelding weergeven per catalogus, werknemer en categorie. Als de gebruiker geen standaardafbeelding opgeeft, bepaalt het systeem de standaardafbeelding en stuurt deze naar de aanroeper van de Commerce-service (MPOS of Ecommerce).
@@ -174,7 +172,7 @@ Als u afbeeldings-URL's voor de catalogusproductafbeeldingen wilt overschrijven,
 4. Klik op **Toevoegen** en overschrijf de afbeeldings-URL met een nieuwe URL.
 5. Klik tot slot op **OK**. U ziet nu het voorbeeld van de nieuwe afbeelding en kunt deze instellen als standaardafbeelding.
 
-    [![Voorbeeld van afbeelding in het dialoogvenster Nieuwe afbeelding](./media/cat3.png)](./media/cat3.png)
+    [![Voorbeeld van afbeelding in het dialoogvenster Nieuwe afbeelding.](./media/cat3.png)](./media/cat3.png)
 
 > [!NOTE]
 > Na de koppeling van de categorieafbeelding moet u het kanaal publiceren en de kanaaltaak uitvoeren om ervoor te zorgen dat de wijzigingen in de kanaaldatabase worden gepubliceerd.
@@ -195,7 +193,7 @@ De productafbeeldingen die in offlinemodus moeten worden gebruikt, kunnen worden
 6. Terwijl MPOS in modus Online is, moet de Catalogustaak in HQ uitvoeren om ervoor te zorgen dat de gegevens ten minste eenmaal aan de offlinedatabase worden verzonden.
 7. Zet MPOS in offlinemodus. U moet de afbeelding zien die u hebt geüpload voor het specifieke product in HQ.
 
-    [![Productafbeelding in offlinemodus](./media/offline1.png)](./media/offline1.png)
+    [![Productafbeelding in offlinemodus.](./media/offline1.png)](./media/offline1.png)
 
 ### <a name="set-up-catalog-category-employee-and-customer-images-to-appear-in-offline-mode-for-mpos"></a>Catalogus, categorie, werknemer, en klantafbeeldingen instellen die in de offlinemodus van MPOS worden weergegeven
 
@@ -207,7 +205,7 @@ De catalogus, de categorie, werknemer en de afbeeldingen van klanten die in offl
 4. Voer de catalogustaak uit. Deze afbeelding wordt nu gebruikt als Offline afbeelding voor die catalogus in MPOS.
 5. Volg een vergelijkbaar proces voor andere entiteiten, zoals Categorie, Werknemer en Klant.
 
-    [![Offlineafbeelding](./media/offline2.png)](./media/offline2.png)
+    [![Offlineafbeelding.](./media/offline2.png)](./media/offline2.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

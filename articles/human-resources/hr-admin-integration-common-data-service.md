@@ -1,8 +1,8 @@
 ---
 title: Dataverse-integratie configureren
-description: U kunt de integratie tussen Microsoft Dataverse en Dynamics 365 Human Resources in- of uitschakelen. U kunt ook synchronisatiegegevens weergeven, traceringsgegevens wissen en een tabel opnieuw synchroniseren als hulp bij het oplossen van problemen tussen de twee omgevingen.
-author: andreabichsel
-ms.date: 01/25/2021
+description: In dit onderwerp wordt de integratie tussen Microsoft Dataverse en Dynamics 365 Human Resources beschreven.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,20 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1a1ee5345e2d6b3736d45e233a59ac4009a9f1c8
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: c4e68142045b72b139bdda8be707a73e21e568fd
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344683"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065446"
 ---
 # <a name="configure-dataverse-integration"></a>Dataverse-integratie configureren
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

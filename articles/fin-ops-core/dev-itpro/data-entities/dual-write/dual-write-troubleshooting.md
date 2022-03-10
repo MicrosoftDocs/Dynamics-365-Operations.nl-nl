@@ -1,61 +1,31 @@
 ---
 title: Algemene problemen oplossen
-description: Dit onderwerp bevat informatie voor het oplossen van algemene problemen voor de integratie van twee keer wegschrijven tussen Finance and Operations-apps en Dataverse.
+description: Dit onderwerp bevat algemene informatie voor het oplossen van problemen voor de integratie van twee keer wegschrijven tussen apps voor financiële en bedrijfsactiviteiten en Dataverse.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 6356ec6850667f32f9e9e4133686c40f0b6d76d7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f6f5b9f26990e2f4db9bf69040a6c4be31400b40
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688254"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062333"
 ---
 # <a name="general-troubleshooting"></a>Algemene problemen oplossen
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-
-Dit onderwerp bevat informatie voor het oplossen van algemene problemen voor de integratie van twee keer wegschrijven tussen Finance and Operations-apps en Dataverse.
+Dit onderwerp bevat algemene informatie voor het oplossen van problemen voor de integratie van twee keer wegschrijven tussen apps voor financiële en bedrijfsactiviteiten en Dataverse.
 
 > [!IMPORTANT]
 > In sommige problemen die in dit onderwerp worden beschreven, is mogelijk de rol van systeembeheerder vereist of de referenties van de Microsoft Azure Active Directory-tenantbeheerder (Azure AD). In de sectie voor elk probleem wordt uitgelegd of een specifieke rol of referenties vereist zijn.
-
-## <a name="when-you-try-to-install-the-dual-write-package-by-using-the-package-deployer-tool-no-available-solutions-are-shown"></a>Wanneer u het pakket voor twee keer wegschrijven probeert te installeren met het hulpprogramma Package Deployer, worden er geen beschikbare oplossingen weergegeven
-
-Sommige versies van het hulpprogramma Package Deployer zijn niet compatibel met het oplossingspakket voor twee keer wegschrijven. Als u het pakket wilt installeren, moet u [versie 9.1.0.20](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.PackageDeployment.Wpf/9.1.0.20) of hoger van het hulpprogramma Package Deployer gebruiken.
-
-Nadat u het hulpprogramma Package Deployer hebt geïnstalleerd, installeert u het oplossingspakket door de volgende stappen uit te voeren.
-
-1. Download het meest recente bestand met het oplossingspakket van Yammer.com. Nadat het zipbestand met het pakket is gedownload, klikt u erop met de rechtermuisknop en selecteert u **Eigenschappen**. Schakel het selectievakje **Deblokkeren** in en selecteer vervolgens **Toepassen**. Als het selectievakje **Deblokkeren** niet wordt weergeven, is het zipbestand al gedeblokkeerd en kunt u deze stap overslaan.
-
-    ![Dialoogvenster Eigenschappen](media/unblock_option.png)
-
-2. Pak het zipbestand uit en kopieer alle bestanden in de map **Dynamics365FinanceAndOperationsCommon. PackageDeployer.2.0.438**.
-
-    ![Inhoud van de map Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438](media/extract_package.png)
-
-3. Plak alle gekopieerde bestanden in de map **Tools** van het hulpprogramma Package Deployer. 
-4. Voer **PackageDeployer.exe** uit om de Dataverse-omgeving te selecteren en de oplossingen te installeren.
-
-    ![Inhoud van de map Tools](media/paste_copied_files.png)
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Het traceerlogboek voor de invoegtoepassing inschakelen en weergeven in Dataverse om foutdetails weer te geven
 
@@ -63,49 +33,48 @@ Nadat u het hulpprogramma Package Deployer hebt geïnstalleerd, installeert u he
 
 Voer de volgende stappen uit om het traceerlogboek in te schakelen.
 
-1. Meld u aan bij de modelgestuurde-app in Dynamics 365, open de pagina **Instellingen** en selecteer vervolgens onder **Systeem** de optie **Beheer**.
+1. Meld u aan bij de app voor klantbetrokkenheid, open de pagina **Instellignen** en selecteer vervolgens onder **Systeem** de optie **Beheer**.
 2. Selecteer op de pagina **Beheer** de optie **Systeeminstellingen**.
-3. Ga naar het tabblad **Aanpassen** en selecteer in het veld **Traceren van invoegtoepassing en aangepaste werkstroomactiviteit** **Alle** om het traceerlogboek voor invoegtoepassingen in te schakelen. Als u traceerlogboeken alleen wilt vastleggen wanneer er uitzonderingen optreden, kunt u in plaats daarvan **Uitzondering** selecteren.
+3. Ga naar het tabblad **Aanpassen** en selecteer in de kolom **Traceren van invoegtoepassing en aangepaste werkstroomactiviteit** **Alle** om het traceerlogboek voor invoegtoepassingen in te schakelen. Als u traceerlogboeken alleen wilt vastleggen wanneer er uitzonderingen optreden, kunt u in plaats daarvan **Uitzondering** selecteren.
 
 
 Voer de volgende stappen uit om het traceerlogboek weer te geven.
 
-1. Meld u aan bij de modelgestuurde-app in Dynamics 365, open de pagina **Instellingen** en selecteer vervolgens onder **Systeem** de optie **Traceerlogboek invoegtoepassing**.
-2. Zoek de traceerlogboeken waarvoor het veld **Type naam** is ingesteld op **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
+1. Meld u aan bij de app voor klantbetrokkenheid, open de pagina **Instellingen** en selecteer vervolgens onder **Aanpassing** de optie **Traceerlogboek invoegtoepassing**.
+2. Zoek de traceerlogboeken waarvoor de kolom **Type naam** is ingesteld op **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Dubbelklik op een item om het volledige logboek weer te geven en controleer vervolgens op het sneltabblad **Uitvoering** de tekst **Bericht blokkeren**.
 
-## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>De modus Foutopsporing inschakelen om live synchronisatieproblemen in Finance and Operations-apps op te lossen
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>De modus Foutopsporing inschakelen om live synchronisatieproblemen in apps voor financiële en bedrijfsactiviteiten op te lossen
 
-**Vereiste rol om de fouten weer te geven**: fouten van systeembeheerder met Twee keer wegschrijven die zijn ontstaan in Dataverse, kunnen worden weergegeven in de Finance and Operations-app. In sommige gevallen is de volledige tekst van het foutbericht niet beschikbaar omdat het bericht te lang is of persoonlijke identificatie gegevens (PII) bevat. U kunt uitgebreide logboekregistratie voor fouten inschakelen door de volgende stappen uit te voeren.
+**Vereiste rol om de fouten weer te geven:** systeembeheerder
 
-1. Alle projectconfiguraties in Finance and Operations-apps hebben een eigenschap **IsDebugMode** in de entiteit **DualWriteprojectConfiguration**. Open de entiteit **DualWriteProjectConfiguration** met de Excel-invoegtoepassing.
+Fouten met twee keer wegschrijven die afkomstig zijn Dataverse, kunnen worden weergegeven in de app voor financiële en bedrijfsactiviteiten. Neem de volgende stappen om uitgebreide logboekregistratie van de fouten in te schakelen:
 
-    > [!TIP]
-    > Een eenvoudige manier om de entiteit te openen is om de **ontwerp** modus in de Excel-invoegtoepassing in te schakelen en vervolgens **DualWriteprojectConfigurationEntity** toe te voegen aan het werkblad. zie [Entiteitsgegevens in Excel openen en bijwerken via de Excel-invoegtoepassing](../../office-integration/use-excel-add-in.md) voor meer informatie.
+1. Voor alle projectconfiguraties in app voor financiële en bedrijfsactiviteiten is er de flag **IsDebugMode** in de tabel **DualWriteProjectConfiguration**.
+2. Open de tabel **DualWriteProjectConfiguration** met de Excel-invoegtoepassing. Als u de invoegtoepassing wilt gebruiken, moet u de ontwerpmodus in de Excel-invoegtoepassing van Finance and Operations inschakelen en **DualWriteProjectConfiguration** aan het werkblad toevoegen. Zie [Entiteitsgegevens weergeven en bijwerken met Excel](../../office-integration/use-excel-add-in.md) voor meer informatie.
+3. Stel **IsDebugMode** in op **Ja** in het project.
+4. Voer het scenario uit dat fouten genereert.
+5. De uitgebreide logboeken worden opgeslagen in de tabel **DualWriteErrorLog**.
+6. Als u gegevens wilt opzoeken in de tabelbrowser, gebruikt u de volgende koppeling: `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog` en vervangt u indien nodig `999`.
+7. Voer de update opnieuw na [KB-4595434](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe), die beschikbaar is voor platformupdates 37 en later. Als u deze oplossing hebt geïnstalleerd, worden in de foutopsporingsmodus meer logboeken vastgelegd.  
 
-2. Stel de eigenschap **IsDebugMode** in op **Ja** voor het project.
-3. Voer het scenario uit dat fouten genereert.
-4. De uitgebreide logboeken zijn beschikbaar in de tabel DualWriteErrorLog. Als u gegevens wilt opzoeken in de tabelbrowser, gebruikt u de volgende URL (vervang **XXX** waar van toepassing):
-
-    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`
-
-## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Synchronisatiefouten controleren op de virtuele machine voor de Finance and Operations-app
+## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Synchronisatiefouten controleren op de virtuele machine voor de app voor financiële en bedrijfsactiviteiten
 
 **Vereiste rol om de fouten weer te geven:** systeembeheerder
 
 1. Meld u aan bij Microsoft Dynamics LCS (LifeCycle Services).
 2. Open het LCS-project dat u hebt gekozen voor tests met twee keer wegschrijven.
 3. Selecteer de tegel **Cloudomgevingen**.
-4. Gebruik extern bureaublad om u aan te melden bij de virtuele machine (VM) voor de Finance and Operations-app. Gebruik het lokale account dat wordt weergegeven in LCS.
+4. Gebruik Extern bureaublad om u aan te melden bij de virtuele machine (VM) voor de app voor financiële en bedrijfsactiviteiten. Gebruik het lokale account dat wordt weergegeven in LCS.
 5. Open Logboeken.
 6. Selecteer **Logboeken Toepassingen en Services \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operationeel**.
 7. Bekijk de lijst met recente fouten.
 
-## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Een Dataverse-omgeving ontkoppelen en een andere omgeving uit een Finance and Operations-app koppelen
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Een andere Dataverse-omgeving (los)koppelen vanuit een app voor financiële en bedrijfsactiviteiten
 
-**De vereiste rol om de omgeving te ontkoppelen:** systeembeheerder voor de Finance and Operations-app of Dataverse.
+**De vereiste rol om de omgeving te ontkoppelen**: systeembeheerder voor de app voor financiële en bedrijfsactiviteiten of Dataverse.
 
-1. Meld u aan bij de Finance and Operations-app.
+1. Meld u aan bij de app voor financiële en bedrijfsactiviteiten.
 2. Ga naar **Werkruimten \> Gegevensbeheer** en selecteer de tegel **Twee keer wegschrijven**.
 3. Selecteer alle actieve toewijzingen en vervolgens **Stoppen**.
 4. Selecteer **Koppeling met omgeving verbreken**.
@@ -118,7 +87,28 @@ U kunt nu een nieuwe omgeving koppelen.
 Wanneer u een verkooporder maakt in Dynamics 365 Sales, kunt u door te klikken op **+ Producten toevoegen** worden omgeleid naar het formulier Dynamics 365 Project Operations-orderregel. U kunt vanuit dat formulier niet het **informatieformulier** over de verkooporderregel weergeven. De optie voor **informatie** wordt niet weergegeven in de vervolgkeuzelijst onder **Nieuwe orderregel**. Dit gebeurt omdat Project Operations in uw omgeving is geïnstalleerd.
 
 Ga als volgt te werk om de optie voor het formulier **Informatie** opnieuw in te schakelen:
-1. Ga naar de entiteit **Orderregel**.
-2. Zoek het formulier **Informatie** onder het knooppunt met formulieren. 
-3. Selecteer het formulier **Informatie** en klik op **Beveiligingsrollen inschakelen**. 
+
+1. Ga naar de tabel **Orderregel**.
+2. Zoek het formulier **Informatie** onder het knooppunt met formulieren.
+3. Selecteer het formulier **Informatie** en klik op **Beveiligingsrollen inschakelen**.
 4. Wijzig de beveiligingsinstelling in **Weergeven aan iedereen**.
+
+## <a name="how-to-enable-and-save-network-trace-so-that-traces-can-be-attached-to-support-tickets"></a>Netwerktracering inschakelen en opslaan, zodat traceringen kunnen worden gekoppeld aan ondersteuningstickets
+
+Het ondersteuningsteam moet mogelijk netwerktraceringen controleren om bepaalde problemen op te lossen. Voer de volgende stappen uit om een netwerktracering te maken:
+
+### <a name="chrome"></a>Chrome
+
+1. Druk op het geopende tabblad op **F12** of selecteer **Ontwikkelhulpprogramma's** om de ontwikkelhulpprogramma's te openen.
+2. Open het tabblad **Netwerk** en typ **integ** in het filtertekstvak.
+3. Voer uw scenario uit en bekijk de aanvragen die worden vastgelegd.
+4. Klik met de rechtermuisknop op de vermeldingen en selecteer **Alles opslaan als een HAR-bestand met inhoud**.
+
+### <a name="microsoft-edge"></a>Microsoft Edge
+
+1. Druk op het geopende tabblad op **F12** of selecteer **Ontwikkelhulpprogramma's** om de ontwikkelhulpprogramma's te openen.
+2. Open het tabblad **Netwerk**.
+3. Voer uw scenario uit.
+4. Selecteer **Opslaan** om de resultaten als HAR-bestand te exporteren.
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

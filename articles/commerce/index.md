@@ -10,19 +10,21 @@ ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: ''
-ms.custom: 260624
+ms.custom:
+- "260624"
+- intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 51fd8ca2ef7cdc43967ced8251b8377f3eaaf753
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 2fc5746d3a05eb85afbcb73079146fee899cebc7
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193667"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595355"
 ---
 # <a name="commerce-home-page"></a>Startpagina Commerce
 
@@ -57,4 +59,4 @@ Selecteer een functiegebied voor meer informatie hierover.
 
 ## <a name="elearning-courses"></a>eLearning-cursussen
 
-Zie [Dynamics 365 Commerce op Microsoft Learn](https://docs.microsoft.com/learn/browse/?expanded=dynamics-365&products=dynamics-commerce&resource_type=learning%20path) voor informatie over online cursussen en training.
+Zie [Dynamics 365 Commerce op Microsoft Learn](/learn/browse/?expanded=dynamics-365&products=dynamics-commerce&resource_type=learning%20path) voor informatie over online cursussen en training.

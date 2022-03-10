@@ -1,8 +1,7 @@
 ---
 title: Beginsaldi voor salarisadministratie invoeren
-description: In dit onderwerp worden de stappen beschreven voor het invoeren van de beginsaldi voor inkomstencodes, inhoudingen, vergoedingen en belastingen. Deze informatie is nuttig wanneer partners gegevens voor een nieuwe salarisadministratie-implementatie willen migreren of overbrengen vanuit een ander systeem.
+description: In dit onderwerp worden de stappen beschreven voor het invoeren van de beginsaldi voor inkomstencodes, inhoudingen, vergoedingen en belastingen.
 author: andreabichsel
-manager: AnnBe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 209636d6416a784d298bcfb134f5486c1f5cf202
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 0a5529e3268727dce022daebb853e50710e5bde84811014febe30e80afee9ed6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568540"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721871"
 ---
 # <a name="enter-payroll-beginning-balances"></a>Beginsaldi voor salarisadministratie invoeren
 

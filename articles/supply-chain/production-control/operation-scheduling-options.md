@@ -1,12 +1,10 @@
 ---
 title: Opties voor het plannen van bewerkingen
 description: Dit onderwerp beschrijft de opties voor het plannen van bewerkingen. U kunt het plannen van bewerkingen gebruiken om een algemene schatting te geven voor de duur van het productieproces.
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 198123
 ms.assetid: d680d7be-da64-4132-89fe-ad2fa59afb77
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c95e23b070cd0234917ba14ecd6d8f37cfc8c40
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1bb0ee3020c5cfd17e82282e8fddb8f9c6dcdfee
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260474"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566738"
 ---
 # <a name="operations-scheduling-options"></a>Opties voor het plannen van bewerkingen
 
@@ -126,8 +124,7 @@ U kunt de huidige waarden als standaardwaarden opslaan. Hiervoor zijn er twee op
 -   Als standaard instellen voor iedereen
 
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Bewerkingsplanning](operations-scheduling.md)
 

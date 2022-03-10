@@ -1,12 +1,10 @@
 ---
 title: Operations-resources
 description: Bronnen voor bedrijfsactiviteiten voeren de activiteiten van een project of een productieproces uit. Ze kunnen van verschillende typen zijn en kunnen verschillende capaciteiten hebben.
-author: sorenva
-manager: tfehr
+author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OpResLifecycleManagementWorkspace, WrkCtrCapability, WrkCtrResourceGroup, WrkCtrResourceAbilityMap, OpResCapacityPlanningWorkspace, WrkCtrCapResGraph, WrkCtrResourceRequirementPart, WrkCtrCapResGraphDialog, WrkCtrResourceCopy, WrkCtrCapResStatistic
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 61943
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: sorenand
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 890645e28830d9d53296c4a2530ed1072f9d47e3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9296ea874acece9af6be58ccfe777f8713a4d279
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260426"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566714"
 ---
 # <a name="operations-resources"></a>Operations-resources
 
@@ -31,8 +29,7 @@ ms.locfileid: "5260426"
 
 Bronnen voor bedrijfsactiviteiten voeren de activiteiten van een project of een productieproces uit. Ze kunnen van verschillende typen zijn en kunnen verschillende capaciteiten hebben. 
 
-<a name="operations-resources"></a>Operations-resources
---------------------
+## <a name="operations-resources"></a>Operations-resources
 
 Bronnen voor bedrijfsactiviteiten zijn de machines, de hulpmiddelen, werknemers, faciliteiten, fysieke gebieden of leveranciers die de activiteiten van een project of een productieproces uitvoeren. Ze kunnen van verschillende typen zijn en kunnen verschillende capaciteiten hebben.
 

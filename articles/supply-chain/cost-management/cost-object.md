@@ -2,11 +2,9 @@
 title: Kostenobjecten
 description: Dit artikel biedt informatie over kostenobjecten en uitleg over hoe kosten en hoeveelheden worden samengevoegd. Een kostenopject is een entiteit waarvoor kosten en hoeveelheden worden samengevoegd. Een kostenobjectentiteit kan een product of productvarianten, zoals varianten voor stijl en kleur, zijn.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostOnhandItem
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 19451
 ms.assetid: ec776b98-813a-490d-848f-468452d98fac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65a0f72f8d97bda36bacd691d545807c413f8825
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d27e2dcfd8f70c8d4b0f2ae1254f3c4fce63bb4d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967653"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572164"
 ---
 # <a name="cost-objects"></a>Kostenobjecten
 
@@ -66,18 +64,20 @@ De volgende tabel toont wat een kostenobject is en wat een voorraadobject is.
 
 **Opmerking:** de parameter **Fysieke waarde opnemen** is niet van invloed op de eerdere berekeningen.
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
-[Productdimensiegroep](https://technet.microsoft.com/library/aa499382.aspx)
+[Productdimensiegroep](/dynamicsax-2012/appuser-itpro/about-product-dimensions)
 
-[Opslagdimensiegroep](https://technet.microsoft.com/library/hh209317.aspx)
+[Opslagdimensiegroep](/dynamicsax-2012//storage-dimension-groups-form)
 
-[Traceringsdimensiegroep](https://technet.microsoft.com/library/hh209465.aspx)
+[Traceringsdimensiegroep](/dynamicsax-2012//tracking-dimension-groups-form)
 
-[Wat is nieuw of gewijzigd](../../fin-and-ops/get-started/whats-new-changed.md)
+[Wat is nieuw of gewijzigd](../../fin-ops-core/fin-ops/get-started/whats-new-changed.md)
 
 [Kosteninvoer](cost-entries.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

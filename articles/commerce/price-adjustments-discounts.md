@@ -2,11 +2,9 @@
 title: Acties en kortingen
 description: Dit artikel bevat informatie over prijscorrecties en kortingen in Dynamics 365 Commerce.
 author: scott-tucker
-manager: AnnBe
-ms.date: 11/16/2020
+ms.date: 06/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f29e90e1c61792c70d4d6eaeee7758676bf193b2
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 96a695df250cda514b7bd8b9716c0f03fb2bfd28d3af4daedaf1335c3099fbb6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972475"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748493"
 ---
 # <a name="price-adjustments-and-discounts"></a>Acties en kortingen
 
@@ -50,3 +48,13 @@ Er zijn veel typen korting:
 - **Korting op verzendkosten** : een korting die wordt toegepast wanneer het transactietotaal meer is dan een opgegeven bedrag en een specifieke leveringsmethode (bijvoorbeeld een verzending van twee dagen of een nachtverzending) wordt gebruikt voor de order.
 
 Zowel prijscorrecties als kortingen kunnen aan prijsgroepen worden gekoppeld. De prijsgroepen kunnen vervolgens aan kanalen, catalogi, aansluitingen en loyaliteitsprogramma's worden gekoppeld.
+
+> [!NOTE]
+> De combinatiekorting en de drempelkorting hebben de eigenschappen 'Niet-kortingsproducten tellen' en 'Niet-kortingsproducten tellen naar drempel'. Als deze eigenschappen zijn ingeschakeld, kan een artikel dat niet voor korting in aanmerking komt nog steeds een transactie kwalificeren voor de korting, maar krijgt het artikel dat niet in aanmerking komt de korting niet. 
+> 
+> Als u bijvoorbeeld een combinatiekorting met twee regels maakt, A en B, waarbij een klant 10% korting krijgt voor beide artikelen maar voor artikel A de configuratie 'Alle kortingen voorkomen' is ingeschakeld, wordt hierdoor meestal artikel A niet in de korting opgenomen. Als de eigenschap 'Niet-kortingsproducten tellen' echter is ingeschakeld, kan artikel A worden gebruikt voor kwalificatie voor de combinatiekorting. De korting van 10% wordt echter alleen toegepast op artikel B. Op de drempelkorting is vergelijkbare logica van toepassing. 
+>
+> De eigenschap 'Niet-kortingsproducten tellen naar drempel' heeft echter een extra mogelijkheid in vergelijking met de eigenschap 'Niet-kortingsproducten tellen' van de combinatiekortingen. Als de drempelkorting is ingeschakeld en als er een artikel met een bestaande korting is waarmee een artikel geen andere kortingen zou kunnen krijgen, kan de betaalde prijs voor dit artikel voldoen aan de drempel, maar krijgt dit artikel niet de aanvullende korting.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

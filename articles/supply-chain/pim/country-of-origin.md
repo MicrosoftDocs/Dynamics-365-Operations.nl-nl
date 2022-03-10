@@ -1,7 +1,7 @@
 ---
 title: Land van oorsprong
 description: Veel organisaties verlenen certificaten aan leveranciers om ervoor te zorgen dat producten voldoen aan specifieke certificeringsnormen. Deze certificaten zijn vaak afhankelijk van het land van oorsprong. Dit onderwerp biedt informatie over de functie voor het land van oorsprong, waarmee u een product kunt koppelen aan het land van oorsprong en de bijbehorende productcertificaten kunt bijhouden.
-author: dasani-madipalli
+author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: COOVendorCerts
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: fde4211e4449c28eda8ac7a23ddfc346d2c7e8359d9e473821bdefe76db65616
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: a2740f6b1ccb52073b013e613d8ab779cc088180
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739773"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777616"
 ---
 # <a name="country-of-origin"></a>Land van oorsprong
 
@@ -28,7 +28,7 @@ Veel organisaties verlenen certificaten aan leveranciers om ervoor te zorgen dat
 
 ## <a name="turn-on-the-country-of-origin-feature"></a>De functie voor land van oorsprong inschakelen
 
-Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
+Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Beheerders kunnen gebruikmaken van de pagina [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en deze zo nodig in of uit te schakelen. Hier ziet u de functie als:
 
 - **Module:** *Productgegevensbeheer*
 - **Functienaam:** *beheerfunctie Land van oorsprong*

@@ -2,11 +2,9 @@
 title: Een groep vaste activa wijzigen
 description: Vaste activa moeten aan de juiste vaste-activagroep worden toegewezen.
 author: saraschi2
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetChangeGroup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8aa5a30083259c364a1eddda6a3fc5834d7afebc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 133998905dd2e7b4d5bfe39333e159757e908bc5aaea609fbf4b465a7f04c7bc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209970"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762086"
 ---
 # <a name="change-a-fixed-asset-group"></a>Een groep vaste activa wijzigen
 

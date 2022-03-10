@@ -1,12 +1,10 @@
 ---
 title: Workflows voor inkoopbeheer
 description: Bepaalde organisaties vereisen dat opdrachten tot inkoop en inkooporders worden goedgekeurd door een andere gebruiker dan de persoon die de transactie heeft ingevoerd. U kunt een budgetteringsworkflow maken om een workflow in te stellen.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowTableListPageRnr
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2074
 ms.assetid: e54a1d59-b9fb-421b-821d-01f32878aa9b
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e591007a1330fe11b3f586185f9daca845798908
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a819093d9ee6f999e637281e54905968fe361566
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218460"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575531"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Workflows voor inkoopbeheer
 
@@ -49,7 +47,7 @@ De volgende workflowtypen zijn beschikbaar voor Inkoop en sourcing.
 | Workflow voor toepassing voor het toevoegen van leveranciers | Controle- en goedkeuringsworkflows maken voor het toevoegen van nieuwe leveranciers via leverancieraanvragen. |
 
 > [!IMPORTANT]
-> Wanneer u een nieuwe werkstroom toevoegt, worden mogelijk ook de volgende verouderde werkstromen weergegeven in het dialoogvenster **Werkstroom maken**. Deze zijn gerelateerd aan de functionaliteit *bevestiging van ontvangst* die beschikbaar was in [Dynamics AX 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), maar die nu is afgeschaft. Deze werkstromen worden momenteel niet ondersteund.
+> Wanneer u een nieuwe werkstroom toevoegt, worden mogelijk ook de volgende verouderde werkstromen weergegeven in het dialoogvenster **Werkstroom maken**. Deze zijn gerelateerd aan de functionaliteit *bevestiging van ontvangst* die beschikbaar was in [Dynamics AX 2012](/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), maar die nu is afgeschaft. Deze werkstromen worden momenteel niet ondersteund.
 > 
 > - Workflow voor melding van vervaldatum levering
 > - Workflow voor melding van ontvangen factuur

@@ -1,9 +1,9 @@
 ---
-title: Overzicht van momentopnamen (preview)
+title: Overzicht van momentopnamen
 description: In dit onderwerp wordt de functie Momentopnamen beschreven. Hiermee kunt u een cashflowprognose maken voor latere analyse of vergelijking met werkelijke waarden. Wanneer u een cashflow prognose genereert, kunt u die prognose opslaan als een 'momentopname'. U kunt deze momentopnamen vervolgens gebruiken om de rekeningen te bewerken die in de prognose zijn opgenomen of om de prognose in de momentopname te vergelijken met de werkelijke waarden.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
-ms.topic: article
+ms.date: 11/03/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: cf39e5233b2ef4d50d6c5ace57ba2574ed5fe6fe
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: f9b6d44b7381817a40b86c17ee4eaf3dbfc46b67
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638339"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983512"
 ---
-# <a name="snapshots-overview-preview"></a>Overzicht van momentopnamen (preview)
+# <a name="snapshots-overview"></a>Overzicht van momentopnamen
 
 [!include [banner](../includes/banner.md)]
 
@@ -40,8 +40,6 @@ U kunt een momentopname maken door **Nieuwe momentopname** te selecteren op het 
 
 De kasinkomsten en kasuitgaven in momentopnamen kunnen op elk moment worden bewerkt. Wanneer een inkomstenbedrag of een uitgavenbedrag wordt bewerkt, wordt het bijgewerkte bedrag evenredig verdeeld over de liquiditeitsrekeningen die het oorspronkelijke saldo hebben gemaakt. Wanneer u klaar bent met het bewerken van een momentopname, selecteert u **Opslaan** om uw wijzigingen op te slaan.
 
-Als u meerdere momentopnamen wilt opslaan, selecteert u **Momentopnamen vergelijken**. U kunt twee momentopnamen tegelijk vergelijken. Selecteer de twee momentopnamen die u wilt vergelijken en selecteer vervolgens **OK**. Op de pagina **Momentopname vergelijken** wordt een vergelijking van de geselecteerde momentopnamen weergegeven. De grafiek in het bovenste gedeelte van de pagina toont een vergelijking van de kasinkomsten, kasuitgaven en banksaldi in de overlappende perioden tussen de twee momentopnamen. In het raster in het onderste gedeelte ziet u een gedetailleerde vergelijking van de twee prognoses voor elk liquiditeitsbedrag. In de kolom **Afwijking** in het raster ziet u het verschil tussen de saldi in een periode.
-
-Selecteer **Vergelijken met werkelijke waarden** om de financiële resultaten te vergelijken met een prognose die is opgeslagen als een momentopname . Op de pagina **Momentopname vergelijken** wordt een vergelijking van de werkelijke bedragen en de prognose weergegeven. De grafiek in het bovenste gedeelte van de pagina toont een vergelijking van de kasinkomsten, kasuitgaven en banksaldi in de overlappende perioden tussen de twee momentopnamen. In het raster in het onderste gedeelte ziet u een gedetailleerde vergelijking van de werkelijke saldi per periode en de balansprognose voor elk liquiditeitsbedrag. In de kolom **Afwijking** in het raster ziet u het verschil tussen het werkelijke saldo in een periode en de balansprognose.
+Selecteer **Vergelijken met werkelijke waarden** om de financiële resultaten te vergelijken met een prognose die is opgeslagen als een momentopname . Op de pagina **Vergelijken met werkelijke waarden** wordt een vergelijking van de werkelijke bedragen en de prognose weergegeven. De grafiek in het bovenste gedeelte van de pagina toont een vergelijking van de kasinkomsten, kasuitgaven en banksaldi in de overlappende perioden tussen de twee momentopnamen. In het raster in het onderste gedeelte ziet u een gedetailleerde vergelijking van de werkelijke saldi per periode en de balansprognose voor elk liquiditeitsbedrag. In de kolom **Afwijking** in het raster ziet u het verschil tussen het werkelijke saldo in een periode en de balansprognose.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

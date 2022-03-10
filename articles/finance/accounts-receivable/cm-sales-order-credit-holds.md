@@ -1,8 +1,8 @@
 ---
 title: Kredietblokkeringen voor verkooporders
 description: In dit onderwerp wordt beschreven hoe u regels instelt om een kredietblokkering voor een verkooporder op te geven.
-author: mikefalkner
-ms.date: 01/25/2019
+author: JodiChristiansen
+ms.date: 07/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,16 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d94b19061838f9bb2552c3c91c6b3591040ccf52
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 14cafa69e75d7e8a0f08fb385a8c364c0162da1ec609a4e0b3cad6178ec3f716
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827645"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723962"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Kredietblokkeringen voor verkooporders
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 In dit onderwerp wordt beschreven hoe u regels instelt om een kredietblokkering voor een verkooporder op te geven. De blokkeringsregels voor kredietbeheer kunnen van toepassing zijn op een individuele klant of op een groep klanten. Blokkeringsregels definiëren reacties op de volgende omstandigheden:
 
@@ -41,6 +42,11 @@ Bovendien zijn er twee parameters waarmee u extra scenario's voor het blokkeren 
 
 Wanneer een klant een verkooptransactie initieert, wordt de informatie op de verkooporder gecontroleerd aan de hand van een set blokkeringsregels waarmee wordt bepaald of krediet aan de klant moet worden verleend en of de verkoop doorgang kan vinden. U kunt ook uitsluitingen definiëren die de blokkeringsregels vervangen en toestaan dat een verkooporder wordt verwerkt. U kunt blokkeringsregels en uitsluitingsregels instellen op de pagina **Kredietbeheer > Instellen > Kredietbeheer instellen > Blokkeringsregels**.
 
+Vanaf versie 10.0.21 zijn de blokkeringsregels in Kredietbeheer opnieuw op de volgende manieren opnieuw ontworpen om meer flexibiliteit te bieden:
+
+- Uitbreidbaarheidsaanvragen zijn ingeschakeld, zodat u uw eigen blokkeringsregels kunt maken.
+- Het selectievakje **Verkooporder vrijgeven** is nu beschikbaar voor alle blokkeringsregels. Eerder was dit alleen beschikbaar voor de blokkeringsregel voor verkooporders. Wanneer dit selectievakje is ingeschakeld, geeft de uitsluitingsregel de verkooporder vrij zonder rekening te houden mt andere regels die verkooporders kunnen blokkeren. Dit selectievakje is alleen beschikbaar voor het regeltype **Uitsluiting**.
+
 ### <a name="days-overdue"></a>Dagen achterstallig
 
 Open het tabblad **Dagen achterstallig** als de blokkeringsregel van toepassing is op de klant met een of meer facturen die gedurende een bepaald aantal dagen achterstallig zijn.
@@ -57,7 +63,7 @@ Open het tabblad **Dagen achterstallig** als de blokkeringsregel van toepassing 
 5. Selecteer een **Waardetype**. De standaardwaarde is een vast aantal dagen. Als u een uitsluiting maakt, kunt u in plaats daarvan een vast aantal dagen of een bedrag opgeven. 
 6. Voer het aantal dagen **Achterstallig** in dat wordt toegestaan voor de geselecteerde blokkeringsregel voordat een order een kredietbeheerblokkering krijgt ter beoordeling. Het aantal dagen achterstallig staat voor een extra aantal respijtdagen dat wordt opgeteld bij het aantal dagen na de vervaldatum die op een factuur kan staan voordat deze als achterstallig wordt beschouwd. Als u het **Waardetype** als een bedrag voor een uitsluiting hebt opgegeven, voert u een bedrag en een valuta voor dat bedrag in.
 
-### <a name="accounts-status"></a>Status van rekening
+### <a name="account-status"></a>Rekeningstatus
 
 Open het tabblad **Rekeningstatus** als de blokkeringsregel van toepassing is op een klant met de geselecteerde rekeningstatus.
 1. Selecteer het type regel dat u instelt.  Met **Blokkering** maakt u een regel waarmee een order wordt geblokkeerd. Met **Uitsluiting** maakt u een regel waarmee een regel wordt uitgesloten van het blokkeren van een order. 
@@ -102,7 +108,7 @@ Open het tabblad **Achterstallig bedrag** als de blokkeringsregel van toepassing
    - Selecteer **Blokkering** om een regel te maken waarmee een order wordt geblokkeerd. 
    - Selecteer **Uitsluiting** om een regel te maken waarmee een andere regel wordt uitgesloten van het blokkeren van een order. 
 5. Voer **Achterstallig bedrag** in voor de geselecteerde blokkeringsregel voordat een order een kredietbeheerblokkering krijgt ter beoordeling. 
-6. Selecteer het **Waardetype** waarmee wordt bepaald welk type waarde wordt gebruikt om ook te testen hoeveel van de kredietlimiet is gebruikt. Voor blokkeringsregels is een percentage vereist, maar een uitsluiting kan een vast bedrag of een percentage hebben. De drempel heeft betrekking op de kredietlimiet.
+6. Selecteer het **Waardetype** waarmee wordt bepaald welk type waarde wordt gebruikt om ook te testen hoeveel van de kredietlimiet is gebruikt. Blokkeringsregels en uitsluitingsregels staan alleen een percentage toe voor **Achterstallig bedrag**. De drempel heeft betrekking op de kredietlimiet.
 7. Voer de waarde voor **Drempel kredietlimiet** voor de geselecteerde regel in voordat voor een klant een kredietblokkering wordt ingesteld. Dit kan een bedrag zijn of een percentage dat is gebaseerd op het waardetype.
 8. De regel controleert of het **Achterstallig bedrag** en de **Drempel voor kredietlimiet** zijn overschreden. 
 
@@ -122,8 +128,6 @@ Selecteer **Verkooporder** als de blokkeringsregel van toepassing is op de waard
    - Selecteer **Blokkering** om een regel te maken waarmee een order wordt geblokkeerd. 
    - Selecteer **Uitsluiting** om een regel te maken waarmee een andere regel wordt uitgesloten van het blokkeren van een order. 
 5. Voer **Verkooporderbedrag** in voor de geselecteerde blokkeringsregel voordat een order een kredietbeheerblokkering krijgt. 
-
-De verkooporderregel bevat een extra instelling waarmee alle andere regels worden vervangen. Als u een uitsluiting wilt maken waarmee de verkooporder wordt vrijgegeven zonder dat rekening wordt gehouden met andere regels, schakelt u het selectievakje **Verkooporder vrijgeven** op de uitsluitingsregel in.
 
 ### <a name="credit-limit-used"></a>Kredietlimiet gebruikt
 

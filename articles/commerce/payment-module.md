@@ -2,7 +2,7 @@
 title: Betalingsmodule
 description: In dit onderwerp wordt de betalingsmodule beschreven en uitgelegd hoe u deze configureert in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 11/18/2020
+ms.date: 01/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 09c7504eda0d389738b9d13b73f33472dc8f5fe3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: de92e137815cb79944a2793fc4841c949ed43346
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804474"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952464"
 ---
 # <a name="payment-module"></a>Betalingsmodule
 
@@ -46,23 +46,23 @@ De Adyen-betalingsconnector ondersteunt ook sterke klantverificatie (SCA). Als o
 
 De volgende afbeelding toont een voorbeeld van de modules voor geschenkbon, loyaliteitspunten en Adyen-betaling op een uitcheckpagina.
 
-![Voorbeeld van modules voor geschenkbonnen, loyaliteitspunten en Adyen-betalingen op een uitcheckpagina](./media/ecommerce-payments.PNG)
+![Voorbeeld van modules voor geschenkbonnen, loyaliteitspunten en Adyen-betalingen op een uitcheckpagina.](./media/ecommerce-payments.PNG)
 
-## <a name="dynamics-365-payment-connector-for-paypal"></a>Dynamics 365-betalingsconnector voor PayPal
+## <a name="dynamics-365-payment-connector-for-paypal"></a>Dynamics 365 Payment Connector voor PayPal
 
 Vanaf Commerce-versie 10.0.14 is de betalingsmodule ook geïntegreerd met de Dynamics 365-betalingsconnector voor PayPal. Raadpleeg [Dynamics 365-betalingsconnector voor PayPal](paypal.md) voor meer informatie over het instellen en configureren van deze betalingsconnector.
  
-Op de pagina uitchecken kunt u zowel de Adyen als de PayPal-connectors configureren. De betalingsmodule is uitgebreid met aanvullende eigenschappen om te helpen bij het identificeren van de connector waarmee deze moet werken. Zie de module-eigenschappen in **Ondersteunde betalingsmethoden** en **Is primaire betaling** in de volgende tabel voor meer informatie.
+Op de pagina uitchecken kunt u zowel de Adyen als de PayPal-connectors configureren. De betalingsmodule is uitgebreid met aanvullende eigenschappen om te helpen bij het identificeren van de connector waarmee deze moet werken. Zie de module-eigenschappen **Ondersteunde betalingsmethoden** en **Is primaire betaling** in de volgende tabel voor meer informatie.
   
 Wanneer de betalingsmodule is geconfigureerd voor gebruik van de PayPal-betalingsconnector, wordt op de betalingspagina een PayPal-knop weergegeven. Wanneer de betalingsmodule door de klant wordt opgeroepen, wordt een IFRAME met PayPal-informatie gegenereerd. De klant kan zich aanmelden en hun PayPal-informatie in dit iframe ingeven om hun transactie te voltooien. Wanneer een klant betaalt voor betaling met PayPal, wordt het resterende saldo van de order in rekening gebracht via PayPal.
 
 Voor de PayPal-betalingsconnector is geen factureringsadresmodule nodig, omdat alle informatie die met de facturering verband houdt, door PayPal wordt afgehandeld binnen het iFrame. De modules verzendadres en leveringsopties zijn echter wel verplicht.
 
 In de volgende afbeelding ziet u een voorbeeld van twee betalingsmodules op een uitcheckpagina, één die is geconfigureerd met de Adyen-betalingsconnector en de andere met de betalingsconnector van PayPal.
-![Voorbeeld van Adyen- en PayPal-modules op een uitcheckpagina](./media/ecommerce-paypal.png)
+![Voorbeeld van Adyen- en PayPal-modules op een uitcheckpagina.](./media/ecommerce-paypal.png)
 
 In de volgende afbeelding ziet u een voorbeeld van het PayPal-iFrame dat is opgeroepen via de PayPal-knop. 
-![Voorbeeld van Paypal-iFrame op een uitcheckpagina](./media/ecommerce-paypal-iframe.png)
+![Voorbeeld van Paypal-iFrame op een uitcheckpagina.](./media/ecommerce-paypal-iframe.png)
 
 ## <a name="payment-module-properties"></a>Eigenschappen van betalingsmodule
 
@@ -76,7 +76,7 @@ In de volgende afbeelding ziet u een voorbeeld van het PayPal-iFrame dat is opge
 |Is primaire betaling|  **True** of **False** | Indien **Waar**, worden eventuele foutberichten gegenereerd door de primaire betalingsconnector op de uitcheckpagina. Als zowel Adyen- als PayPal-betalingsconnectors zijn geconfigureerd, stelt u Adyen in op **Waar**, die is toegevoegd in Commerce-versie 10.0.14.|
 
 In de volgende afbeelding ziet u een voorbeeld van de **Ondersteunde betalingsmethoden** die zijn ingesteld op "PayPal" in de configuratie van betalingsconnector in Commerce Headquarters.
-![Voorbeeld van ondersteunde betalingsmethoden in Commerce Headquarters](./media/ecommerce-paymenttendertypes.png)
+![Voorbeeld van ondersteunde betalingsmethoden in Commerce Headquarters.](./media/ecommerce-paymenttendertypes.png)
 
 ## <a name="billing-address"></a>Factuuradres
 
@@ -90,15 +90,32 @@ Net als bij betalingsmodules, is een eigenschap **Ondersteunde betalingsmethoden
 
 Een betalingsmodule kan alleen aan een uitcheckmodule worden toegevoegd. Zie [Kassamodule](add-checkout-module.md) voor meer informatie over het configureren van een betalingsmodule voor een kassapagina.
 
-Als zowel Adyen- als PayPal-betalingsconnectors nodig zijn, voegt u beide modules aan de sectie betaling toe. Zorg ervoor dat de eigenschapswaarde **Ondersteunde betalingsmethoden** is geconfigureerd voor PayPal en laat het veld leeg voor Adyen. Stel ook de eigenschap **Is primaire betaling** in op **Waar** voor Adyen.
+## <a name="configure-the-adyen-and-paypal-payment-connectors-when-both-are-used"></a>De connectoren voor Adyen- en PayPal-betalingen configureren wanneer beide worden gebruikt
+
+Als zowel de Adyen- als de PayPal-betalingsconnectoren voor uw site worden gebruikt, volgt u deze stappen in Commerce Site Builder om betalingsmodules voor elke connector aan de uitcheckmodule toe te voegen en vervolgens de eigenschappen voor elke module te configureren.
+
+1. Volg deze stappen in het eigenschappendeelvenster voor de betalingsmodule PayPal:
+
+    1. Voer in het veld voor de eigenschap **Ondersteunde betalingsmethoden** de optie **PayPal** in.
+    1. Schakel het selectievakje uit voor de eigenschap **Is primaire betaling**.
+    1. Schakel het selectievakje in voor de eigenschap **Connector-ID gebruiken**.
+
+1. Volg deze stappen in het eigenschappendeelvenster voor de betalingsmodule Adyen:
+
+    1. Laat het veld voor de eigenschap **Ondersteunde betalingsmethoden** leeg.
+    1. Schakel het selectievakje in voor de eigenschap **Is primaire betaling**.
+    1. Schakel het selectievakje in voor de eigenschap **Connector-ID gebruiken**.
+
+> [!NOTE]
+> Wanneer u de Adyen- en PayPal-connectoren configureert om samen te gebruiken, moet de **Dynamics 365 Payment Connector voor Adyen**-configuratie op de eerste positie in de connectorconfiguratie voor **betalingsrekeningen** van het online kanaal in Commerce Headquarters worden geplaatst. Als u de connectororder wilt bevestigen of wijzigen, gaat u naar **Online winkels** en selecteert u het kanaal voor de site. Zorg vervolgens op het tabblad **Instellen** op het sneltabblad **Betalingsrekeningen** onder **Connector** of de **Dynamics 365 Payment Connector voor Adyen**-configuratie zich op de eerste positie (op de bovenste regel) en of de **Dynamics 365 Payment Connector voor PayPal**-configuratie zich op de tweede regel bevindt. U kunt connectoren toevoegen of verwijderen als u deze opnieuw wilt ordenen.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Winkelwagenmodule](add-cart-module.md)
+[Module Winkelwagen](add-cart-module.md)
 
 [Module voor winkelwagenpictogram](cart-icon-module.md)
 
-[Kassamodule](add-checkout-module.md)
+[Betalingsmodule](add-checkout-module.md)
 
 [Module voor verzendadressen](ship-address-module.md)
 

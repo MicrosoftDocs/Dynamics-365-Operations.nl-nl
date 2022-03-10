@@ -1,36 +1,37 @@
 ---
 title: Trainingen instellen
 description: Personeelsmedewerkers en managers kunnen de cursussenfuncties gebruiken om informatie te onderhouden over de cursus die aan werknemers wordt aangeboden.
-author: andreabichsel
-manager: tfehr
-ms.date: 06/24/2019
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7532
 ms.assetid: a6950c29-8b3e-45b2-9084-ddfb1317ffaa
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 8557416cee8ae23bb0e9d837677bf8140ecd8a3e
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: c66459a044419535d66875cddac7eb73af744ca7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115145"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066745"
 ---
 # <a name="set-up-training-courses"></a>Trainingen instellen
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
 Personeelsmedewerkers en managers kunnen de cursussenfuncties gebruiken om informatie te onderhouden over de cursus die aan werknemers wordt aangeboden.
 
- <a name="set-up-prerequisites"></a>Instellingsvereisten
----------------------
+##  <a name="set-up-prerequisites"></a>Instellingsvereisten
 
 De volgende informatie is vereist en moet worden ingesteld voordat u cursussen maakt.
 -   **Cursustypen**
@@ -82,7 +83,7 @@ Voor elke cursus kunt de volgende taken uitvoeren:
 - Het minimale en maximale aantal deelnemers definiëren.
 - Een cursuslocatie en een leslokaal toewijzen.
 - Hotels aanraden aan deelnemers.
-- Een cursusomschrijving maken, die u kunt weergeven in de werknemersselfservice.
+- Een cursusomschrijving aanmaken, die dan kan worden weergegeven in de **Selfservice werknemer**
 
   >**Opmerking:** u kunt een cursus alleen verwijderen als niemand zich ervoor heeft aangemeld. 
 
@@ -128,8 +129,7 @@ In de volgende tabel worden de mogelijke cursusstatussen weergegeven en de actie
 ## <a name="course-participants"></a>Deelnemers
 Cursusdeelnemers zijn werknemers die deelnemen aan een trainingscursus of -gebeurtenis. U kunt alleen deelnemers registreren voor open cursussen. Het minimum- en maximumaantal deelnemers dat u kunt registreren voor een cursus, wordt gedefinieerd op het sneltabblad **Algemeen** van de pagina **Cursussen**.
 
-<a name="workflow"></a>Workflow
---------
+## <a name="workflow"></a>Workflow
 
 Werknemers die zich voor een cursus via registreren de pagina **Selfservice werknemer** kunnen hun inschrijving laten routeren via de workflow voor goedkeuring. U kunt een workflow toewijzen aan een cursus op het sneltabblad **Algemeen** van de pagina **Cursussen**.
 
@@ -137,3 +137,6 @@ Werknemers die zich voor een cursus via registreren de pagina **Selfservice werk
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

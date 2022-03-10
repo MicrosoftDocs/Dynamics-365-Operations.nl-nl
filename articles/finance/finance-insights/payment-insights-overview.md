@@ -3,7 +3,7 @@ title: Voorspellingen voor klantbetalingen
 description: In dit onderwerp wordt beschreven hoe u betalingsvoorspellingen kunt gebruiken om de gebruikelijke betalingsmethoden van klanten beter te begrijpen. De functie kan helpen om omstandigheden te identificeren die kunnen rechtvaardigen dat incassoprocessen eerder worden begonnen dan normaal gesproken.
 author: ShivamPandey-msft
 ms.date: 11/03/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 300c835c835a5c653b75b9e151462337dfbe49a5
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 04897e3a7765264ab2e664422caa928c49b9cc61
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752731"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982032"
 ---
 # <a name="customer-payment-predictions"></a>Voorspellingen voor klantbetalingen
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 In dit onderwerp wordt beschreven hoe u betalingsvoorspellingen kunt gebruiken om de gebruikelijke betalingsmethoden van klanten beter te begrijpen. De functie kan helpen om omstandigheden te identificeren die kunnen rechtvaardigen dat incassoprocessen eerder worden begonnen dan normaal gesproken.
 
@@ -39,7 +38,7 @@ Organisaties vinden het vaak lastig om te voorspellen wanneer klanten hun factur
 - Incassoprocessen die te laat beginnen
 - Orders die worden vrijgegeven aan klanten die mogelijk verzuimen te betalen
 
-Voorspellingen van klantbetalingen (preview) helpt organisaties te voorspellen wanneer een klantfactuur wordt betaald. Daarom kunnen zij incassostrategieën maken die helpen de kans te vergroten dat ze op tijd worden betaald.
+Voorspellingen van klantbetalingen helpt organisaties te voorspellen wanneer een klantfactuur wordt betaald. Daarom kunnen zij incassostrategieën maken die helpen de kans te vergroten dat ze op tijd worden betaald.
 
 ## <a name="predictions"></a>Voorspellingen
 
@@ -67,6 +66,6 @@ In veel bedrijven is het incassoproces een reactieve activiteit. Met andere woor
 
 ## <a name="methodology"></a>Methodologie
 
-In het verleden was het doorgaans moeilijk om een oplossing met kunstmatige intelligentie te ontwikkelen en te implementeren. Voor het proces was een team vereist met gegevenswetenschappers, deskundigen en ingenieurs, die gedurende langere tijd samenwerken om een bruikbare AI-oplossing te formuleren, te ontwikkelen, te implementeren en te onderhouden. Met Voorspellingen van klantbetalingen kunt u eenvoudig een AI-oplossing implementeren en gebruiken in Microsoft Dynamics 365 Finance. Microsoft neemt AI-oplossingenop die zijn gebouwd op basis van Microsoft AI Builder. Daarom kunnen gebruikers de AI-oplossing met één muisklik implementeren om voordeel te halen uit intelligente voorspellingen. Als u niet tevreden bent over de nauwkeurigheid van voorspellingen, kan een hoofdgebruiker (met één klik op de muisknop) opnieuw het AI Builder hulpprogramma openen en vervolgens de velden voor het genereren van voorspellingen selecteren of wissen. Wanneer u klaar bent, kunt u het model 'trainen' en de wijzigingen publiceren. Het nieuwe getrainde model wordt automatisch opgehaald om voorspellingen te genereren in Dynamics 365 Finance.
+In het verleden was het doorgaans moeilijk om een oplossing met kunstmatige intelligentie te ontwikkelen en te implementeren. Voor het proces was een team vereist met gegevenswetenschappers, deskundigen en ingenieurs, die gedurende langere tijd samenwerken om een bruikbare AI-oplossing te formuleren, te ontwikkelen, te implementeren en te onderhouden. Met Voorspellingen van klantbetalingen kunt u eenvoudig een AI-oplossing implementeren en gebruiken in Microsoft Dynamics 365 Finance. Microsoft neemt AI-oplossingen op die zijn gebouwd op basis van Microsoft AI Builder. Daarom kunnen gebruikers de AI-oplossing met één muisklik implementeren om voordeel te halen uit intelligente voorspellingen. Als u niet tevreden bent over de nauwkeurigheid van voorspellingen, kan een hoofdgebruiker (met één klik op de muisknop) opnieuw het AI Builder-hulpprogramma openen en vervolgens de velden voor het genereren van voorspellingen selecteren of wissen. Wanneer u klaar bent, kunt u het model 'trainen' en de wijzigingen publiceren. Het nieuwe getrainde model wordt automatisch opgehaald om voorspellingen te genereren in Dynamics 365 Finance.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

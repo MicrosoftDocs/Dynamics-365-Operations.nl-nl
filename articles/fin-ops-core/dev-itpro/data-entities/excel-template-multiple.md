@@ -14,16 +14,19 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 343767d056eb164a7da70fb983fe37569a12986c
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: cf3c423bdf06685a3c4025551927123773ae818a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403995"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070056"
 ---
 # <a name="data-templates-with-multiple-worksheets"></a>Sjablonen met meerdere werkbladen
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Gegevensbeheer in de toepassing ondersteunt Microsoft Excel-sjablonen voor gegevensentiteiten. Deze sjablonen kunnen een of meer werkbladen bevatten. Sjablonen met meerdere werkbladen worden vaak gebruikt wanneer het handig is om gegevens in één bestand te beheren en in verschillende gegevensentiteiten te importeren. Een voorbeeld hiervan zijn locaties en magazijnen.
 

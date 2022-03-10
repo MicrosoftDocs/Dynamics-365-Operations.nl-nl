@@ -2,11 +2,9 @@
 title: Gepostdateerde cheques instellen
 description: In dit onderwerp wordt uitgelegd hoe u kunt opgeven of journaalposten voor gepostdateerde cheques moeten worden geboekt en welke boekingsjournalen moeten worden gebruikt om transacties en leveranciersbetalingen te wissen.
 author: kweekley
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankParameters, VendPaymMode, CustPaymMode
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 84bb0f8250e68dd65aa87d126df59b7cea74b9ed
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fc1798836d9b905d991adb4c87d55ddce41d260bdbfdad6bf0c4b4feb846ee57
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225216"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743068"
 ---
 # <a name="set-up-postdated-checks"></a>Gepostdateerde cheques instellen
 
@@ -55,7 +53,12 @@ De rol van deze procedure is penningmeester. Bij deze procedure wordt het demobe
     * Selecteer de bankrekening die wordt gebruikt om het factuurbedrag af te trekken.  
 18. Klik op Opslaan.
 19. Sluit de pagina.
-
-
+> [!NOTE]
+> Als u een gepostdateerde cheque wilt boeken naar een bankrekening wanneer de sessiedatum later is dan of gelijk is aan de vervaldatum, moet u de functie **Vervaldatumvalidatie van boeking betalingsjournaal met gepostdateerde cheques naar een bankrekening** inschakelen. Met deze functie kunt u betalingsjournalen boeken voor leveranciers of klanten met gepostdateerde cheques, wanneer de sessiedatum later is dan of gelijk is aan de vervaldatum.
+> 
+> Bij het instellen van de **Betalingsmethode** (**Crediteuren > Betalingsinstellingen > Betalingsmethoden**) moet u de **Overbruggingsrekening** niet invullen. In dit geval wordt de tegenrekening gevuld met de bankrekening, die is ingesteld in **Betalingsmethode**.
+>  
+> Wanneer de functie is ingeschakeld en de sessiedatum eerder is dan de vervaldatum, wordt het volgende foutbericht weergegeven bij het boeken van een betalingsjournaal: 'Vervaldatum moet eerder zijn dan of gelijk zijn aan de sessiedatum als het type tegenrekening Bank is'. Als de functie niet is ingeschakeld, kunt u een betalingsjournaal met een gepostdateerde cheque maken wanneer de sessiedatum eerder is dan de vervaldatum.
+> Deze functie is beschikbaar in versie 10.0.21 of hoger.    
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

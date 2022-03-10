@@ -1,12 +1,10 @@
 ---
 title: Afschrijving vaste activa
-description: Dit onderwerp bevat een overzicht van de afschrijving van vaste activa.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 10/30/2017
+description: Dit onderwerp bevat een overzicht van de afschrijving in vaste activa.
+author: moaamer
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBonus, AssetBookTable
 audience: Application User
@@ -14,23 +12,26 @@ ms.reviewer: roschlom
 ms.custom: 3121
 ms.assetid: 98ff891f-e0e2-4184-b618-28107a50851f
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87317eedad06e93625212df3cc6e017b9475c932
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2442830766ef1dccc109db5569bfbbbc8182f027
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240989"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890975"
 ---
 # <a name="fixed-asset-depreciation"></a>Afschrijving vaste activa
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Dit onderwerp bevat een overzicht van de afschrijving van vaste activa.
+Dit onderwerp bevat een overzicht van de afschrijving in vaste activa.
 
 Afschrijving is een periodieke transactie die doorgaans de waarde van het vaste activum in de balans verlaagt en als uitgave in een winst-en-verliesrekening wordt geboekt. Daarom wordt een hoofdrekening gewoonlijk gebruikt voor de creditering van de periodieke afschrijving op de balans. Een tegenrekening is een rekening in het winst-en verliesgedeelte van het rekeningschema.
+
+Vanaf versie 10.0.24 kan de configuratieoptie **Positieve afschrijving berekenen** voor acivumboeken op de pagina **Boeken** worden gebruikt om vaste activa af te schrijven die zijn verworven met een negatieve boekwaarde (credit).
 
 ## <a name="depreciation-adjustment"></a>Afschrijvingscorrectie
 Doorgaans wordt alleen een correctie op een geboekte afschrijvingstransactie geboekt als een afschrijvingsaanpassing. Daarom worden zowel de hoofdrekening als de tegenrekening ingesteld als de rekeningen voor de afschrijving. Een afschrijvingscorrectie kan een positief of negatief bedrag zijn, maar de functies van de hoofdrekening (als balansrekening) en van de tegenrekening (meestal als een winst-en-verliesrekening) blijven hetzelfde.

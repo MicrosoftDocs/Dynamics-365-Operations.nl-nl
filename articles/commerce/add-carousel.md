@@ -2,15 +2,12 @@
 title: Carrouselmodule
 description: In dit onderwerp worden carrouselmodules voor functies beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f09f3f98d174f965a75e27ee6a5c2ed8599042fc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cfbe254d225366f89779ffeef410bb0b1a29056e51a4719106e9bc495b898161
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411304"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721050"
 ---
 # <a name="carousel-module"></a>Carrouselmodule
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp worden carrouselmodules voor functies beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 Een carrouselmodule wordt gebruikt voor het plaatsen van meerdere promotieartikelen (met afbeeldingen) in een draaiende carrouselbanner waar klanten doorheen kunnen bladeren. Een detailhandelaar kan bijvoorbeeld een carrouselmodule op een startpagina gebruiken om meerdere nieuwe producten of promoties te presenteren.
 
@@ -45,11 +40,11 @@ U kunt inhoudsblokmodules in een carrouselmodule toevoegen. De eigenschappen van
 
 De volgende afbeelding toont een voorbeeld van een carrouselmodule die wordt gebruikt op een introductiepagina. Deze carrouselmodule bevat meerdere inhoudsblokitems.
 
-![Voorbeeld van een carrouselmodule](./media/Hero.PNG)
+![Voorbeeld van een carrouselmodule.](./media/Hero.PNG)
 
 ## <a name="carousel-module-properties"></a>Eigenschappen van carrouselmodules
 
-| Naam van eigenschap.             | Waarde                 | Omschrijving |
+| Naam van eigenschap.             | Waarde                 | Beschrijving |
 |---------------------------|-----------------------|-------------|
 | Automatisch afspelen                  | **True** of **False** | Als de waarde is ingesteld op **True**, vindt de overgang tussen items binnen de carrousel automatisch plaats. Als de waarde is ingesteld op **False**, vindt er geen overgang plaats tenzij de klant het toetsenbord of de muis gebruikt om van het ene naar het volgende item te gaan. |
 | Interval voor diaovergang | Een waarde in seconden    | Het interval voor overgangen tussen items. |
@@ -86,3 +81,6 @@ Voer de volgende stappen uit om een carrouselmodule aan een nieuwe pagina toe te
 [Inhoudsblokkenmodule](add-hero-module.md)
 
 [Videospelermodule](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

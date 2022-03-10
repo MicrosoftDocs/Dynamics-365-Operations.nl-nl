@@ -1,26 +1,24 @@
 ---
 title: Verkoopovereenkomsten afhandelen
 description: Deze procedure toont hoe u een verkoopovereenkomst vervult door er verkooporders aan te koppelen.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesAgreementListPage, SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesTableListPage, SalesTable, AgreementLine, SalesCreateOrder,  SalesEditLines, SalesAgreementHistory
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 31c86ae556789ecf04dc303ddd9510458c1f6d01
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fe26d528e42da61d47fd2448e071bf9025c08f5d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260378"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573388"
 ---
 # <a name="fulfill-sales-agreements"></a>Verkoopovereenkomsten afhandelen
 

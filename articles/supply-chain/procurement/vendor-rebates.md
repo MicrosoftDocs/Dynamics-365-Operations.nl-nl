@@ -1,26 +1,24 @@
 ---
 title: Leverancierskortingen
 description: Dit onderwerp biedt een overzicht van de meest voorkomende taken die u kunt uitvoeren wanneer u met leverancierskortingen werkt. Met leverancierskortingen kunnen bedrijven hun kortingsprogramma's voor leveranciers beter beheren door taken te automatiseren die vereist zijn om verdiende kortingen te beheren, bij te houden en te claimen.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TAMVendRebateAgreement
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: b0bbb97625b9746f8332eb75cac0ab0b904ca7e1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ec8d054d023b7e3f6611199e60f661c480d44d57
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246592"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566858"
 ---
 # <a name="vendor-rebates"></a>Leverancierskortingen
 
@@ -55,7 +53,7 @@ Een kortingsovereenkomst voor een leverancier is een record van een contract met
 
 U opent de pagina **Kortingsovereenkomsten van leverancier** door **Inkoopbeheer** &gt; **Leverancierskortingen** &gt; **Kortingsovereenkomsten** te selecteren.
 
-![Inkoopovereenkomst](media/purchase-agreement.PNG)
+![Inkoopovereenkomst.](media/purchase-agreement.PNG)
 
 Op de pagina **Kortingsovereenkomsten van leverancier** kunt u details over de afgesproken voorwaarden van de leveranciersovereenkomst weergeven.
 
@@ -131,7 +129,7 @@ Wanneer claims zijn goedgekeurd, kunnen ze worden verwerkt door Leveranciers. Ee
 
     Er wordt een kortingstoenamejournaal voor het bedrag van de claim geboekt. Met deze boeking wordt de rekening voor te ontvangen verzamelde leverancierskortingen gedebiteerd voor het verwachte leverancierskrediet en wordt de tussentijdse rekening voor ontvangen verzamelde leverancierskortingen gecrediteerd voor de verwachte winst.
 
-    ![Bericht](media/message.png)
+    ![Bericht.](media/message.png)
 
 5. Selecteer de regel in de lijst met kortingen en selecteer in het actievenster de optie **Kortingstransacties** om naar het journaalbatchnummer voor deze kortingstoenameboeking te gaan.
 

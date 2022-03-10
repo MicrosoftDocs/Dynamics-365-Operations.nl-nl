@@ -2,34 +2,33 @@
 title: Overzicht voor ontwikkeling
 description: Deze ontwikkelaarsgids bevat een API en een verwijzing naar aangepaste velden. Ook vindt u hier informatie over integratie met andere apps.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
-ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8e390592b000c8f6006aa489fd3823c4f15cb2cb
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 78fc1afc596ca5a847d15a0da2db841aa303bad7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467790"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066795"
 ---
 # <a name="development-overview"></a>Overzicht voor ontwikkeling
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Deze ontwikkelaarsgids bevat een API en een verwijzing naar aangepaste velden. Ook vindt u hier informatie over integratie met andere apps.
 
@@ -48,10 +47,10 @@ Deze ontwikkelaarsgids bevat een API en een verwijzing naar aangepaste velden. O
   - [Integratie met Dayforce configureren](hr-admin-integration-dayforce.md)
   - [Een app voor het exporteren van terugkerende gegevens maken](hr-admin-integration-recurring-data-export.md)
   - Integreren met Office
-    - [Zelfstudie voor Office-integratie](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Entiteitsgegevens bijwerken in Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Ervaringen met Openen in Excel maken](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Problemen met Office-integratie oplossen](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Zelfstudie voor Office-integratie](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Entiteitsgegevens bijwerken in Excel](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Ervaringen met Openen in Excel maken](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Problemen met Office-integratie oplossen](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
 
 - Entiteit API-verwijzing
   - [Verificatie](hr-developer-api-authentication.md)

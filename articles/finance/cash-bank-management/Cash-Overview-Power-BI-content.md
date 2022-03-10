@@ -2,11 +2,9 @@
 title: Power BI-inhoud - overzicht van contant geld
 description: In dit onderwerp wordt Power BI-inhoud - overzicht van contant geld besproken. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot rapporten die zijn opgenomen in de inhoud en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld.
 author: saraschi2
-manager: AnnBe
 ms.date: 07/16/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0f10022ae4906972d08e08e3e5476630213468d6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3f7e0c792df8519f3bcb2ade2e29cc4c5c8e4730
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985456"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986403"
 ---
-# <a name="cash-overview-power-bi-content"></a>Power BI-inhoud - overzicht van contant geld
+# <a name="cash-overview-power-bi-content"></a>Power BI-inhoud: overzicht van contant geld
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt Microsoft Power BI-inhoud - **Overzicht van contant geld** besproken. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot rapporten die zijn opgenomen in de inhoud en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld.
+In dit onderwerp wordt de Microsoft Power BI-inhoud **Overzicht van contant geld** besproken. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot rapporten die zijn opgenomen in de inhoud en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld.
 
 ## <a name="overview"></a>Overzicht
 
@@ -40,7 +38,7 @@ De volgende instellingen moeten worden geconfigureerd om gegevens te kunnen weer
 2. Ga naar **Grootboek > Kalenders > Fiscale kalenders** om de boekjaarkalenderdatums te valideren die aan de actieve tijdsperiode zijn toegewezen.
 3. Ga naar **Grootboek > Instellen > Grootboek** en stel **Valuta voor boekhouding** en **Wisselkoerstype** in.
 4. Definieer wisselkoersen tussen transactievaluta's en valuta voor boekhouding, valuta voor boekhouding en systeemvaluta, en valuta voor boekhouding en bankvaluta's. Ga hiervoor naar **Grootboek > Valuta's > Valutawisselkoersen**.
-5. Configureer Cashflowprognose en voer dit uit. Zie [Cashflowprognose](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting) voor meer informatie over het instellen van Cashflowprognose. 
+5. Configureer Cashflowprognose en voer dit uit. Zie [Cashflowprognose](./cash-flow-forecasting.md) voor meer informatie over het instellen van Cashflowprognose. 
 6. Ga naar **Systeembeheer > Instellen > Entiteitopslag** > om de samengevoegde meting **LedgerCovLiquidityMeasurement** te vernieuwen.
 
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud
@@ -78,3 +76,6 @@ In de volgende tabel vindt u de entiteiten waarop de Power BI-inhoud - **Overzic
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | Samengevatte kasinkomsten, kasuitgaven en saldo met behulp van de valuta voor boekhouding van elk bedrijf |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Samengevatte kasinkomsten, kasuitgaven en saldo met behulp van de systeemvaluta voor alle bedrijven |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Samengevat nettotransactiebedrag en saldo van valuta´s op basis van de transactievaluta |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,8 +1,7 @@
 ---
 title: Configuratiesleutels en gegevensentiteiten
 description: In dit onderwerp wordt de relatie tussen configuratiesleutels en gegevensentiteiten beschreven.
-author: Sunil-Garg
-manager: AnnBe
+author: peakerbl
 ms.date: 05/10/2019
 ms.topic: article
 ms.prod: ''
@@ -12,19 +11,22 @@ ms.reviewer: sericks
 ms.custom: 25341
 ms.assetid: 8e214c95-616b-4ee1-b5a4-fa5ce5147f2c
 ms.search.region: Global
-ms.author: sunilg
+ms.author: peakerbl
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 383b8664b7e8cc063b980c52997ddf273d363033
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: e9cc92563c426136b2543511ad943fd64b335b70
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569168"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065734"
 ---
 # <a name="configuration-keys-and-data-entities"></a>Configuratiesleutels en gegevensentiteiten
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Voordat u gegevensentiteiten gebruikt om gegevens te importeren of exporteren, is het raadzaam dat u eerst bepaalt wat het effect van configuratiesleutels is op de gegevensentiteiten die u van plan bent te gebruiken.
 
@@ -53,24 +55,24 @@ In de volgende tabel ziet u hoe configuratiesleutelwaarden op de verschillende a
 ### <a name="entity-list-refresh"></a>Entiteitslijst vernieuwen
 Wanneer de entiteitslijst wordt vernieuwd, maakt het gegevensbeheerframework de configuratiesleutelmetagegevens voor runtimegebruik. Deze metagegevens worden gebouwd met behulp van de hierboven beschreven logica. Het wordt ten zeerste aanbevolen te wachten tot de entiteitslijst is vernieuwd voordat u taken en entiteiten in het gegevensbeheerframework gebruikt. Als u niet wacht, zijn de configuratiesleutelmetagegevens mogelijk niet up-to-date en dat kan leiden tot onverwachte resultaten. Wanneer de entiteitslijst wordt vernieuwd, wordt het volgende bericht weergegeven op de entiteitslijstpagina.
 
-![Entiteitslijst vernieuwen](./media/Entity_refresh_list.png)
+![Entiteitslijst vernieuwen.](./media/Entity_refresh_list.png)
 
 ### <a name="data-entity-list-page"></a>Pagina met gegevensentiteitlijst
 De gegevensentiteitslijstpagina in de werkruimte Gegevensbeheer toont de instellingen van de configuratiesleutel voor de entiteiten. Begin vanaf deze pagina om de invloed te begrijpen van configuratiesleutels op de gegevensentiteit.
 
 Deze informatie wordt weergegeven met de metagegevens die tijdens het vernieuwen van de entiteit worden samengesteld. De configuratiesleutelkolom bevat de naam van de configuratiesleutel die is gekoppeld aan de gegevensentiteit. Als deze kolom leeg is, betekent dit dat er geen configuratiesleutel is gekoppeld aan de gegevensentiteit. De configuratiesleutelstatuskolom bevat de status van de configuratiesleutel. Als er een vinkje staat, betekent dit dat de sleutel is ingeschakeld. Als dit veld leeg is, betekent dit dat de sleutel is uitgeschakeld of dat er geen sleutel is gekoppeld.
 
-![Pagina met entiteitlijst](./media/Data_entity_list_page.png)
+![Pagina met entiteitlijst.](./media/Data_entity_list_page.png)
 
 ### <a name="target-fields"></a>Doelvelden
 De volgende stap is in te zoomen op de gegevensentiteit om de impact te zien van configuratiesleutels op tabellen en velden. Het doelveldenformulier voor een gegevensentiteit toont informatie over configuratiesleutels en de sleutelstatus voor de gerelateerde tabellen en velden in de gegevensentiteit. Als de gegevensentiteit zelf de bijbehorende configuratiesleutel uitgeschakeld heeft, wordt een waarschuwingsbericht weergegeven waarin wordt gemeld dat de tabellen en velden in het doelveldenformulier voor deze entiteit helemaal niet beschikbaar zullen zijn, ongeacht de status van de configuratiesleutel.
 
-![Doelvelden](./media/Target_fields_1.png)
+![Doelvelden.](./media/Target_fields_1.png)
 
 ### <a name="child-entities"></a>Onderliggende entiteiten 
 Bepaalde entiteiten hebben andere entiteiten als gegevensbronnen of zijn samengestelde gegevensentiteiten: configuratiesleutelgegevens voor deze entiteiten worden weergegeven in het formulier Onderliggende entiteiten. Gebruik dit formulier op vergelijkbare manier als de entiteitslijstpagina die hierboven is beschreven. Het doelveldenformulier voor de onderliggende entiteit werkt ook zoals hierboven beschreven.
 
-![Doelvelden](./media/Target_fields_2.png)
+![Doelvelden.](./media/Target_fields_2.png)
 
 ### <a name="using-data-entities"></a>Gegevensentiteiten gebruiken
 Als u het volledige effect, als dat er is, begrijpt van configuratiesleutels op de gegevensentiteiten die u wilt gebruiken, kunt u nu doorgaan met het gebruik van de gegevensentiteiten door ze toe te voegen aan gegevensprojecten. 
@@ -92,7 +94,7 @@ Met de configuratiesleutelmetagegevens die worden gemaakt tijdens het vernieuwen
 ### <a name="managing-configuration-key-changes"></a>Belangrijke configuratiesleutelwijzigingen
 Elke keer dat u configuratiesleutels bijwerkt op entiteit-, tabel- of veldniveau, moet de entiteitslijst in het gegevensbeheerframework worden vernieuwd. Dit proces zorgt ervoor dat het framework de meest recente configuratiesleutelinstellingen gebruikt. Totdat de entiteitslijst is vernieuwd, wordt de volgende waarschuwing weergegeven op de entiteitslijstpagina. De bijgewerkte configuratiesleutelwijzigingen gaan direct in nadat de entiteitslijst is vernieuwd. Het wordt aangeraden om bestaande gegevensprojecten en taken te valideren om zeker te weten dat ze werken zoals verwacht nadat de configuratiesleutelwijzigingen zijn ingegaan.
 
-![Doelvelden](./media/Target_fields_3.png)
+![Doelvelden.](./media/Target_fields_3.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

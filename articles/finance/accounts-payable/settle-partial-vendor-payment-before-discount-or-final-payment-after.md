@@ -1,31 +1,28 @@
 ---
-title: Een gedeeltelijke leveranciersbetaling vereffenen vóór de kortingsdatum met een definitieve betaling na de kortingsdatum
+title: Gedeeltelijke betaling uitvoeren vóór de kortingsdatum en definitieve betaling na de kortingsdatum
 description: Dit artikel begeleidt u door een scenario waarbij meerdere gedeeltelijke betalingen worden gedaan, waarvan enkele binnen de periode van de contantkorting en andere buiten deze periode.
 author: abruer
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14411
 ms.assetid: 302ad6ae-28ee-4899-9f6b-f74424a5f50c
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 731d0a1ad0af47d98455ba2e609a48e092a67d3f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 693339929bbdbc960afc2a5e63b3a3864bfd3ca19cd2dbc992de776836b17e50
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441808"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737132"
 ---
-# <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Een gedeeltelijke leveranciersbetaling vereffenen vóór de kortingsdatum met een definitieve betaling na de kortingsdatum
+# <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>Gedeeltelijke betaling uitvoeren vóór de kortingsdatum en definitieve betaling na de kortingsdatum
 
 [!include [banner](../includes/banner.md)]
 
@@ -49,10 +46,10 @@ Op 2 Juli wil April 300,00 van deze factuur vereffenen. De betaling komt in aanm
 
 Informatie over korting wordt onder aan de pagina **Openstaande transacties vereffenen** weergegeven.
 
-|                              |           |
+| Veld                        | Waarde     |
 |------------------------------|-----------|
-| Datum van contantkorting           | 09-07-2015 |
-| Contantkortingsbedrag         | -10,00    |
+| Datum voor contantkorting           | 7/09/2015 |
+| Contantkortingsbedrag         | -10.00    |
 | Contantkorting gebruiken            | Normaal    |
 | Toegepaste contantkorting          | 0,00      |
 | Contantkortingsbedrag dat moet worden toegepast | -3,00     |
@@ -74,9 +71,9 @@ April betaalt de rest van deze factuur op 15 juli, wat na de kortingsperiode val
 
 Informatie over korting wordt onder aan de pagina **Transacties vereffenen** weergegeven. April ziet dat ze al een korting van 3,00 heeft genomen.
 
-|                              |           |
+| Veld                        | Waarde     |
 |------------------------------|-----------|
-| Datum van contantkorting           | 09-07-2015 |
+| Datum voor contantkorting           | 7/09/2015 |
 | Contantkortingsbedrag         | 0,00      |
 | Contantkorting gebruiken            | Normaal    |
 | Toegepaste contantkorting          | -3,00     |
@@ -100,10 +97,10 @@ Als de leverancier April een korting geeft, hoewel zij na de kortingsdatum betaa
 
 Informatie over korting wordt onder aan de pagina **Transacties vereffenen** weergegeven.
 
-|                              |           |
+| Veld                        | Waarde     |
 |------------------------------|-----------|
-| Datum van contantkorting           | 09-07-2015 |
-| Contantkortingsbedrag         | 7,00      |
+| Datum voor contantkorting           | 7/09/2015 |
+| Contantkortingsbedrag         | 7.00      |
 | Contantkorting gebruiken            | Altijd    |
 | Toegepaste contantkorting          | -3,00     |
 | Contantkortingsbedrag dat moet worden toegepast | -7,00     |
@@ -122,3 +119,6 @@ Vervolgens boekt April de betaling. Wanneer ze de pagina **Leverancierstransacti
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

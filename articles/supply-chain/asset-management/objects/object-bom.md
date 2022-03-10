@@ -1,29 +1,26 @@
 ---
 title: Activumstuklijsten
 description: Dit onderwerp beschrijft activumstuklijsten in Activabeheer.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetStandardSparePartsItemGroup, EntAssetObjectBOM
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f42646ae865cd530203c997fd10c8ccd59e7fa2b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0430891607ac4558c91b86318aee318d0076007daf59a32eda65cb411d274b3a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425580"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751980"
 ---
 # <a name="asset-boms"></a>Activumstuklijsten
 
@@ -84,3 +81,6 @@ U kunt handmatig artikelregels voor activa maken.
 5. Als het artikel vervalt, geeft u een einddatum op in het veld **Vervaldatum**.
 6. Selecteer het artikel in het veld **Artikelnummer**. De naam wordt automatisch in het veld **Productnaam** ingevoerd.
 7. Voer in het veld **Hoeveelheid** de gebruikte hoeveelheid in. Het veld **Eenheid** wordt automatisch bijgewerkt.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

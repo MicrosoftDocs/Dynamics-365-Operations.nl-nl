@@ -2,11 +2,9 @@
 title: Module ophaalinformatie
 description: In dit onderwerp wordt beschreven wat de ophaalinformatiemodule is en hoe u deze toevoegt aan uitcheckpagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 222e8ad79b30e5197f7140958309d442b284f286
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 52015fb973642bfc6f45901e7c1a265f0ccfc415b1324bc62ef77a5fc72550bb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263175"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764556"
 ---
 # <a name="pickup-information-module"></a>Module met afhaalinformatie
 
@@ -42,7 +40,7 @@ Als er meerdere artikelen zijn geselecteerd om te worden opgehaald in meerdere w
 
 In de volgende afbeelding ziet u een voorbeeld van een tijdvakselectie via de ophaalinformatiemodule op een uitcheckpagina.
 
-![Voorbeeld van een ophaalinformatiemodule voor verzendadressen op een betalingspagina](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Voorbeeld van een ophaalinformatiemodule voor verzendadressen op een betalingspagina.](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="module-properties"></a>Module-eigenschappen
 
@@ -58,11 +56,11 @@ Zie [Kassamodule](add-checkout-module.md) voor instructies over het toevoegen va
 
 In de volgende afbeelding ziet u een voorbeeld van een e-commerce uitcheckpagina met tijdvakken voor het ophalen van artikelen.
 
-![Voorbeeld van een e-commerce uitcheckpagina met tijdvakken voor het ophalen van artikelen](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![Voorbeeld van een e-commerce uitcheckpagina met tijdvakken voor het ophalen van artikelen.](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Tijdvakken voor het ophalen door klanten maken en bijwerken](dev-itpro/pickup-timeslots.md)
+[Tijdvakken voor afhalen door klant maken en bijwerken](dev-itpro/pickup-timeslots.md)
 
 [Kassamodule](add-checkout-module.md)
 

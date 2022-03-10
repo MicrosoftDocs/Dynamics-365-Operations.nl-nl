@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a46ebb841b4abe6aa5bd8b06966f4197b27aeaee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dd7b7092e0d0baf48a805bbb0cefb0eb77e49946c6dbc44c9f954781ca1259e0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841208"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777235"
 ---
 # <a name="vendor-payments-for-a-partial-amount"></a>Leveranciersbetalingen voor een gedeeltelijk bedrag
 
@@ -28,8 +28,7 @@ ms.locfileid: "5841208"
 
 Soms wilt u een leverancier minder betalen dan het bedrag van een factuur. In dit artikel worden de verschillende opties beschreven om deze situatie te dekken. Over welke opties u beschikt, is afhankelijk van de behoeften en de configuratie van uw bedrijf. 
 
-<a name="cash-discount-amounts"></a>Contantkortingsbedragen
----------------------
+## <a name="cash-discount-amounts"></a>Contantkortingsbedragen
 
 Een leverancier kan u een contantkorting geven als u een factuur vóór de vervaldatum betaalt. U voert bijvoorbeeld een factuur in voor 100,00 die een contantkorting van 2% biedt als de factuur binnen 10 dagen wordt betaald. De betalingstermijn is 30 dagen. Als een betalingsvoorstel de contantkorting gebruikt als criterium voor het selecteren van een factuur en als het voorstel op of vóór de datum voor de contantkorting wordt uitgevoerd, wordt de factuur geselecteerd voor betaling en wordt de betaling gemaakt voor 98,00. Een contantkorting kan ook worden uitgevoerd voor een eenmalige betaling die handmatig is gemaakt.
 

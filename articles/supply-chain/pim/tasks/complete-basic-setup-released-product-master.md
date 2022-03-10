@@ -1,7 +1,7 @@
 ---
 title: Basisinstellingen voor een vrijgegeven productmodel voltooien
 description: In dit onderwerp ziet u hoe u de minimuminstelling voltooit die is vereist voordat het productmodel in stuklijstversies kan worden gebruikt.
-author: ShylaThompson
+author: t-benebo
 ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: EcoResProductDetailsExtended, InventTableInventoryDimensionGroup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c41e9e3267f72a2452eddfeb15f8f5cba79b0b98
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a1ec567892c09968fe80c3a075d656185aceb4e5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820149"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568490"
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>Basisinstellingen voor een vrijgegeven productmodel voltooien
 

@@ -2,7 +2,7 @@
 title: Aan de slag met Elektronische facturering voor Mexico
 description: Dit onderwerp bevat informatie waarmee u aan de slag kunt met Elektronische facturering voor Mexico.
 author: gionoder
-ms.date: 09/22/2020
+ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 26091a068ed15ec9ff14c9194c3e0e0ad0779351
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
+ms.sourcegitcommit: 385fc4e9c641b43734ddb030893904489361af7d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344777"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "7881586"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Aan de slag met Elektronische facturering voor Mexico
 
@@ -35,7 +35,15 @@ Dit onderwerp bevat informatie waarmee u aan de slag kunt met Elektronische fact
 
 ## <a name="prerequisites"></a>Vereisten
 
-Voordat u de stappen in dit onderwerp uitvoert, moet u de stappen uitvoeren in [Aan de slag met Elektronische facturering](e-invoicing-get-started.md).
+Voordat u de stappen in dit onderwerp uitvoert, moet u de stappen uitvoeren in [Aan de slag met servicebeheer voor Elektronische facturering](e-invoicing-get-started-service-administration.md) en [Aan de slag met Elektronische facturering](e-invoicing-get-started.md).
+
+## <a name="set-up-the-cadena-xslt"></a>De Cadena XSLT instellen
+
+Als u het Cadena XSLT-schema wilt toevoegen aan de globalisatiefunctie voor CFDI-verwerking, gaat u als volgt te werk.
+
+1. Download het schema van de [SAT-website](http://www.sat.gob.mx/sitio_internet/cfd/3/cadenaoriginal_3_3/cadenaoriginal_3_3.xslt).
+2. Comprimeren het schema tot een zipbestand.
+3. Sla het XSLT-bestand op in uw Azure Storage-account die in uw serviceomgeving is ingesteld voor de nieuwe container.
 
 ## <a name="rcs-setup"></a>RCS-instellingen
 
@@ -127,6 +135,17 @@ Voor het indienen van een annulering van een CFDI-factuur, moet u de functie **A
 
 > [!NOTE]
 > Gebruik dezelfde stappen om de URL voor de actie **Mexicaanse PAC-service aanroepen** bij te werken voor de functie-instellingen van **Annuleren** en **Annuleringsverzoek**.
+
+### <a name="set-up-the-path-for-the-cadena-xlst-schema"></a>Het pad voor het Cadena XLST-schema instellen
+
+1. Selecteer op de pagina **Instellingen functieversie** op het tabblad **Variabelen** de variabelenaam **DigitalSignatureXSLT**.
+2. Voer in het veld **Waarden** het volgende in: {"containerUrl":"https://&lt;AccountStorageName&gt;.blob.core.windows.net/&lt;ContainerName&gt;","pad":"&lt;RelativePath&gt;"}
+   
+    waarbij: <RelativePath> = map\\map\\bestandsnaam met dubbele backslashes en ContainerName de container moet aanduiden die voor de service wordt gebruikt.
+   
+    Een voorbeeld van de variabele is:
+    
+    {"pad":"xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\\dev\\cadena_xslt","containerUrl":https://yyyyyyyyyy.blob.core.windows.net/containername}
 
 ## <a name="assign-the-draft-version-to-an-e-invoicing-environment"></a>De conceptversie toewijzen aan een e-Factureringsomgeving
 

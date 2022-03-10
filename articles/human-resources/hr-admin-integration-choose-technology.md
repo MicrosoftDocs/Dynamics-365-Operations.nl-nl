@@ -1,14 +1,13 @@
 ---
 title: Een technologie voor gegevensintegratie kiezen
-description: Dit artikel bevat informatie over het integreren met gegevens die worden beheerd door Human Resources. Er worden verschillende integratietechnologieën beschreven zodat u kunt bepalen welke technologie het meest geschikt is voor uw behoeften.
-author: andreabichsel
-ms.date: 02/28/2020
+description: Dit onderwerp bevat informatie over het integreren met gegevens die worden beheerd door Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,27 +15,29 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0d2978d680efa59b1ba9cfcd7f58655da0ff4107
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 24ddd242185d736287f61ec250c631ab65e08c95
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890095"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065036"
 ---
 # <a name="choose-a-data-integration-technology"></a>Een technologie voor gegevensintegratie kiezen
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dit artikel bevat informatie over het integreren met gegevens die worden beheerd door Dynamics 365 Human Resources. Er worden verschillende integratietechnologieën beschreven zodat u kunt bepalen welke technologie het meest geschikt is voor uw behoeften.
+
+Dit onderwerp bevat informatie over het integreren met gegevens die worden beheerd door Dynamics 365 Human Resources. Er worden verschillende integratietechnologieën beschreven zodat u kunt bepalen welke technologie het meest geschikt is voor uw behoeften.
 
 ## <a name="data-integration-background"></a>Achtergrond gegevensintegratie
 
 Bedrijfsgegevens zijn een belangrijk element die uw bedrijf uniek maken. De gegevens van uw bedrijf zijn zeer waardevol. U kunt de relaties tussen de gegevens die in uw bedrijf zijn verzameld, gebruiken om bedrijfsprocessen en Business Intelligence binnen uw organisatie te verbeteren. Wij streven ernaar om eenvoudig, veilig en stabiel toegang te bieden tot uw bedrijfsgegevens, ongeacht het systeem waaruit ze worden geleverd.
 
-Het integreren van gegevens tussen meerdere systemen is historisch gezien moeilijk.
-Microsoft voert stappen uit om de gegevensintegratie te vereenvoudigen en een grote stap naar dat doel wordt gerealiseerd met [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
+Het integreren van gegevens tussen meerdere systemen is historisch gezien moeilijk. Microsoft voert stappen uit om de gegevensintegratie te vereenvoudigen en een grote stap naar dat doel wordt gerealiseerd met [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
 
 Human Resources maakt van Dataverse de geprefereerde openbare interface voor Human Resources-gegevens. In de loop van de tijd verwachten we dat alle belangrijke gegevens die door Human Resources worden beheerd, zichtbaar zijn in Dataverse. Wij raden Dataverse aan als de beste technologie voor de meeste integratietoepassingen.
 
@@ -70,7 +71,7 @@ De Dataverse-tabellen en hun bijbehorende API's zijn de beste optie voor toegang
 
 ### <a name="dmfdixf-entities"></a>DMF/DIXF-entiteiten
 
-Human Resources, dat hoofdzakelijk op hetzelfde platform als Finance and Operations-toepassingen gebouwd is, biedt een [DMF (Data Management Framework)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). DMF staat ook bekend als Data Import Export Framework (DIXF). Human Resources bevat een set gegevensentiteiten die u kunt gebruiken voor het importeren en exporteren van Human Resources-gegevens. Hoewel Dataverse-tabellen de geprefereerde openbare interface voor gegevensintegratie voor Human Resources zijn, zijn de DMF-entiteiten nog steeds handig in bepaalde omstandigheden, zoals:
+Human Resources, dat hoofdzakelijk op hetzelfde platform als toepassingen voor financiële en bedrijfsactiviteiten gebouwd is, biedt een [DMF (Data Management Framework)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). DMF staat ook bekend als Data Import Export Framework (DIXF). Human Resources bevat een set gegevensentiteiten die u kunt gebruiken voor het importeren en exporteren van Human Resources-gegevens. Hoewel Dataverse-tabellen de geprefereerde openbare interface voor gegevensintegratie voor Human Resources zijn, zijn de DMF-entiteiten nog steeds handig in bepaalde omstandigheden, zoals:
 
 - Dataverse-tabellen zijn nog niet beschikbaar.
 
@@ -113,7 +114,7 @@ BYOD is geschikt voor het melden van oplossingen, gegevensintegraties, gegevensm
 
 ### <a name="odata-enabled-entities"></a>Voor OData ingeschakelde entiteiten
 
-De meeste DMF-entiteiten zijn ook ingeschakeld voor toegang via de Human Resources-gegevensservice (OData). De documentatie die voor de [Finance and Operations OData-service](/dynamics365/unified-operations/dev-itpro/data-entities/odata) wordt geleverd, is van toepassing op Human Resources, behalve voor het maken van uw eigen in OData weergegeven entiteiten.
+De meeste DMF-entiteiten zijn ook ingeschakeld voor toegang via de Human Resources-gegevensservice (OData). De documentatie die voor de [OData-service van Finance and Operations](/dynamics365/unified-operations/dev-itpro/data-entities/odata) wordt geleverd, is van toepassing op Human Resources, behalve voor het maken van uw eigen in OData weergegeven entiteiten.
 
 Hoewel Dataverse en de OData-implementatie die wordt verschaft door Dataverse (via de [Dynamics 365 Web API](/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))), de voorkeur heeft boven de Human Resources-gegevensservice, heeft de Human Resources-gegevensservice momenteel een meer volledige entiteitsdekking voor de Human Resources-gegevens.
 
@@ -131,7 +132,7 @@ Gegevensintegratorprojecten zijn geschikt voor integratie van Dataverse-batches.
 
 ### <a name="power-query"></a>Power Query
 
-Gegevensintegrator ondersteunt ook [Power Query](/power-query/power-query-what-is-power-query) via de [geavanceerde queryfunctie](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). Met Power Query beschikt u over krachtige, flexibele gegevensfiltering en transformatie, waaronder de rijke M-formuletaal. Het is mogelijk dat Power Query bekend is als u Power BI-rapporten hebt ontwikkeld.
+Gegevensintegrator ondersteunt [Power Query](/power-query/power-query-what-is-power-query) via de [geavanceerde queryfunctie](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). Met Power Query beschikt u over krachtige, flexibele gegevensfiltering en transformatie, waaronder de rijke M-formuletaal. Het is mogelijk dat Power Query bekend is als u Power BI-rapporten hebt ontwikkeld.
 
 ## <a name="deciding-on-an-integration-technology"></a>Beslissen over een integratietechnologie
 
@@ -145,7 +146,7 @@ Met zoveel verschillende beschikbare integratietechnologieën kan het moeilijk z
 | BYOD                   | Ja, gepland door beheerder in Human Resources        | Async, batch                                | Nee<sup>3</sup>                                    | Hoog (honderden duizenden records)                    | Ondersteunt alle DMF-entiteiten           |
 | Voor OData ingeschakelde entiteiten | Ja, met middleware                    | Synchroniseren                                        | Ja, via Human Resources Data Service (OData)  | Afhankelijk van use case (ondersteunt paginering voor interactief gebruik) | Hoog                                |
 | Excel-invoegtoepassing           | Nee                                       | Synchroniseren                                        | Nee                                        | Gemiddeld (tientallen duizenden records)                      | Ondersteunt alle voor OData ingeschakelde entiteiten |
-| Gegevensintegrator        | Ja, gepland in Gegevensintegrator        | Async, batch                                | No                                        | Afhankelijk van use case                                       | Ondersteunt alle Dataverse-tabellen           |
+| Gegevensintegrator        | Ja, gepland in Gegevensintegrator        | Async, batch                                | Nee                                        | Afhankelijk van use case                                       | Ondersteunt alle Dataverse-tabellen           |
 
 <sup>2</sup>Microsoft doet grote investeringen in grotere gegevensdekking voor Dataverse-tabellen. We raden u aan om Dataverse te gebruiken wanneer dekking beschikbaar is. Op dit moment is de Dataverse-gegevensdekking laag, vergeleken met DMF en voor OData ingeschakelde entiteiten.
 

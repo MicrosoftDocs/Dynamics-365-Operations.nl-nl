@@ -1,28 +1,25 @@
 ---
 title: Overzicht van Servicelevelovereenkomsten
-description: Serviceovereenkomstgroepen zijn handig voor het sorteren en filteren van serviceovereenkomsten.
-author: ShylaThompson
-manager: tfehr
+description: In dit onderwerp wordt beschreven hoe serviceovereenkomsten werken.
+author: kamaybac
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37c046d6007c79cbe7cb30ae80485552523c265e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: abc82cab3543ab64379207443654e1a57cde964a
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219192"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983714"
 ---
 # <a name="service-agreements-overview"></a>Overzicht van Servicelevelovereenkomsten
 
@@ -34,9 +31,9 @@ In het veld **Serviceovereenkomstgroep** op de pagina **Parameters voor serviceb
 
 ## <a name="example"></a>Voorbeeld:
 
--  U kunt uw serviceovereenkomsten groeperen op het geboden serviceniveau. 
--  De drie overeenkomstgroepen die u hebt ingesteld in het bedrijf zijn Goud, Zilver en Brons.
--  Een nieuwe serviceaccountmanager is aangesteld in uw bedrijf. De servicemanager is verantwoordelijk voor het omgaan met alle clients in de overeenkomstgroep Gold. U kunt overeenkomstrecords filteren op de overeenkomstgroep Gold om alle overeenkomsten te vinden waarvoor u de nieuwe servicemanager moet opgeven als de verantwoordelijke persoon.
+- U kunt uw serviceovereenkomsten groeperen op het geboden serviceniveau.
+- De drie overeenkomstgroepen die u hebt ingesteld in het bedrijf zijn Goud, Zilver en Brons.
+- Een nieuwe serviceaccountmanager is aangesteld in uw bedrijf. De servicemanager is verantwoordelijk voor het omgaan met alle clients in de overeenkomstgroep Gold. U kunt overeenkomstrecords filteren op de overeenkomstgroep Gold om alle overeenkomsten te vinden waarvoor u de nieuwe servicemanager moet opgeven als de verantwoordelijke persoon.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

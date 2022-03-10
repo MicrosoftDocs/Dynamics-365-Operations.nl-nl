@@ -13,15 +13,17 @@ ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d359394ee0086edc5c8b9a3a0c48cf5933963ceb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: af9051c6bbaed311f1f841a82dfd145633acab2c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828437"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574804"
 ---
 # <a name="rating-profiles"></a>Classificatieprofielen
+
+[!include [banner](../../includes/banner.md)]
 
 Een beoordelingsprofiel lijkt op een logistiek contract (maar niet een wettelijk contract). Het wordt gebruikt om de transporttarieven voor ladingen te bepalen. 
 

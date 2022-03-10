@@ -1,28 +1,25 @@
 ---
 title: Bankafschriften en betalingsafstemming voor de EU
 description: Dit onderwerp bevat een overzicht van de functionaliteit die u kunt gebruiken om betalingsgegevens van banken af te stemmen in indelingen die door Europese landen worden gebruikt.
-author: neserovleo
-manager: AnnBe
+author: anasyash
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankAccountTable, CustPaymMode, VendPaymMode
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 267994
 ms.search.region: Belgium, Norway, Sweden, Switzerland
-ms.author: v-lenest
+ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3fbdefce85fbd7aee228cdcb58f29007478c1485
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: afad3639836d8473ab420f68164c68772ca62db6
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408321"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592506"
 ---
 # <a name="bank-statement-and-payment-reconciliation-for-the-eu"></a>Bankafschriften en betalingsafstemming voor de EU
 
@@ -59,3 +56,6 @@ Naast een bankafschrift kunnen banken specifieke berichten verschaffen met infor
 -   (SWE) BankGirot-retour: retourindeling leveranciersbetalingen. Dit komt overeen met de Bankgirot-exportindeling
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

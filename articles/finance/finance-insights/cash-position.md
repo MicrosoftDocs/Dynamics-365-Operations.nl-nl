@@ -1,8 +1,8 @@
 ---
-title: Kaspositie (preview)
+title: Kaspositie
 description: In dit onderwerp wordt beschreven hoe u met de functie voor cashflowprognoses de kaspositie van een organisatie voor bepaalde tijdstippen kunt voorspellen. Ook worden de opties beschreven die beschikbaar zijn voor het weergeven van prognoses voor verschillende perioden.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 12/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 1935be3b2d52e19b764e6afdf00a8bc546f801df
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: 7d43657573ea8092f047615fc50a1a50ab97f094
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638747"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968982"
 ---
-# <a name="cash-position-preview"></a>Kaspositie (preview)
+# <a name="cash-position"></a>Kaspositie
 
 [!include [banner](../includes/banner.md)]
 
@@ -45,7 +45,16 @@ In het onderste gedeelte van het tabblad **Kaspositie** worden details weergegev
 
 Maak een momentopname om de contante positie op te slaan en te bewerken. Zie voor meer informatie over hoe u werkt met momentopnamen [Overzicht van momentopnamen](payment-snapshots.md).
 
-#### <a name="privacy-notice"></a>Privacyverklaring
-Previews (1) bieden mogelijk minder privacy- en beveiligingsmaatregelen dan de service Dynamics 365 Finance and Operations, (2) worden niet opgenomen in de serviceovereenkomst voor deze service, (3) mogen niet worden gebruikt voor de verwerking van persoonsgegevens of andere gegevens die aan juridische of wettelijke nalevingvereisten zijn onderworpen en (4) worden slechts beperkt ondersteund.
+## <a name="details-of-the-cash-position-capability"></a>Details van de functie Kaspositie 
+
+De functie Kaspositie bevat de volgende voorzieningen. 
+
+- Met de functie Kaspositie wordt de cashflow weergegeven op basis van bestaande documenten in het systeem en aan de hand van kasinkomsten- en kasuitgavenregels die vanuit externe systemen zijn geïmporteerd.
+- U kunt de cashflowgegevens van externe systemen eenvoudig integreren in Dynamics 365 Finance. Kaspositie kunnen ook gebruikmaken van het raamwerk voor importeren/exporteren van gegevens. Met dit raamwerk is integratie in Excel OData eenvoudig. U kunt ook gegevens uit meerdere bronnen combineren om een allesomvattende oplossing voor de kaspositie te creëren.
+- Introduceert een intelligente kaspositie. De kaspositie wordt opgesteld op basis van het betalingsgedrag van de klant om te voorspellen wanneer een bedrijf kan verwachten dat contant geld op hun rekening beschikbaar is.
+- Voor klantorders en facturen wordt de AI-functionaliteit voor de voorspelling van klantbetalingen gebruikt om het historische betalingsgedrag van klanten vast te stellen wanneer een order of factuur wordt betaald.
+- Voor leveranciersorders en facturen gebruiken we de gemiddelde tijd tussen verzending en factuur en het betalen van een factuur per leverancier om te bepalen wanneer een leveranciersorder of factuur wordt betaald waardoor de kasuitgavenstromen nauwkeuriger worden.
+
+Hierdoor wordt een nauwkeurigere weergave van de cashflow gemaakt op basis van het historische betalingsgedrag voor de financieel beheerder. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

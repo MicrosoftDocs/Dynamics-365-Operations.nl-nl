@@ -2,26 +2,23 @@
 title: Kwaliteitscontrole
 description: Dit onderwerp bevat informatie over de functie voor kwaliteitscontrole. Met deze functie kunnen magazijnmedewerkers snel controleren op kwaliteit terwijl zij artikelen ontvangen naar het inkomend docking-gebied.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSQualityCheckTemplate, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSQualityCheckResult
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: dfb71f74732d65409003c4f6f74145442a1efa3f
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 0848eeb2ad073915ad90d2fd2a4a91f0f420c0ab
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4425841"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103283"
 ---
 # <a name="quality-check"></a>Kwaliteitscontrole
 
@@ -42,12 +39,9 @@ Wanneer u deze functie gebruikt, worden de ontvangst en de kwaliteitscontrole op
 
 Dit proces kan ook zo worden ingesteld dat alle gescande nummerplaten direct naar de locatie van de kwaliteitscontrole worden gebracht.
 
-## <a name="turn-on-the-quality-check-feature"></a>De functie Kwaliteitscontrole inschakelen
+## <a name="turn-the-quality-check-feature-on-or-off"></a>De functie Kwaliteitscontrole in- of uitschakelen
 
-Voordat u de functie *Kwaliteitscontrole* kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en desgewenst in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
-
-- **Module:** *Magazijnbeheer*
-- **Functienaam:** *Kwaliteitscontrole*
+Als u de functionaliteit wilt gebruiken die in dit onderwerp wordt beschreven, moet de functie *Kwaliteitscontrole* zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Kwaliteitscontrole* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>De functie instellen voor het voorbeeldscenario
 
@@ -302,7 +296,7 @@ Nadat de inkooporder is gemaakt, kunt u deze ontvangen met de menuopdracht **IO-
 
 #### <a name="receive-pallet-1"></a>Pallet 1 ontvangen
 
-1. Meld u aan bij de magazijnapp als een gebruiker voor magazijn *51*. (Geef *51* op als gebruikers-id en *1* als wachtwoord.)
+1. Meld u aan bij de mobiele app Magazijnbeheer als een gebruiker voor magazijn *51*. (Geef *51* op als gebruikers-id en *1* als wachtwoord.)
 1. Ga naar **Inkomend \> IO-regel ontvangst**.
 1. Voer in het veld **Inkoopordernummer** het inkoopordernummer in.
 1. Bevestig het inkoopordernummer.
@@ -313,7 +307,7 @@ Nadat de inkooporder is gemaakt, kunt u deze ontvangen met de menuopdracht **IO-
 
     De pagina **Kwaliteitscontrole** die wordt weergegeven, bevat geen invoervelden. De pagina bevat alleen de bevestigingsknop (vinkje) onderaan en de menuknop (**≡**) bovenaan. (De menuknop wordt ook wel de hamburger of de hamburgerknop genoemd.) Om het proces voor de kwaliteitscontrole te versnellen, bevestigt de gebruiker alleen de pagina **Kwaliteitscontrole** wanneer de pallet langs de kwaliteitscontrole komt.
 
-    ![Pagina Kwaliteitscontrole](media/quality-check.png "Pagina Kwaliteitscontrole")
+    ![Pagina Kwaliteitscontrole.](media/quality-check.png "Pagina Kwaliteitscontrole")
 
 1. Selecteer de bevestigingsknop om de kwaliteitscontrole door te geven voor pallet 1 van regel 1.
 
@@ -397,3 +391,6 @@ Voor dit scenario wordt pallet 3 geaccepteerd.
 1. Selecteer de menuknop (**≡**) boven aan de pagina en selecteer vervolgens in het menu de optie **Annuleren** om terug te keren naar het menu.
 
 U kunt nu de mobiele app sluiten.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

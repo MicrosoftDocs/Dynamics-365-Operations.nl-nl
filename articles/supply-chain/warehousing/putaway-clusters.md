@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: b3a7d1b7109b83b26c8187a7f0d271f1c82f6d63
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: d5aa579394a0e3bd4c27cd44c9ff98951b3bfe1c
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840360"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103658"
 ---
 # <a name="putaway-clusters"></a>Wegzetclusters
 
@@ -25,12 +25,9 @@ ms.locfileid: "5840360"
 
 Wegzetclusters bieden u de mogelijkheid om meerdere nummerplaten tegelijk te verzamelen en ze vervolgens mee te nemen om op verschillende locaties weg te zetten. Naar dit proces wordt vaak verwezen als een *milk run*. Wegzetclusters kunnen zeer nuttig zijn voor handelsbedrijven, waarbij de nummerplaten doorgaans geen volledige pallets met voorraad zijn. 
 
-## <a name="turn-on-the-cluster-putaway-feature"></a>De functie Cluster wegzetten inschakelen
+## <a name="turn-the-cluster-putaway-feature-on-or-off"></a>De functie Cluster wegzetten in- of uitschakelen
 
-Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen het werkgebied [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
-
-- **Module:** *Magazijnbeheer*
-- **Functie naam:** *functie Cluster wegzetten*
+Als u de functionaliteit wilt gebruiken die in dit onderwerp wordt beschreven, moet de functie *Cluster wegzetten* zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Cluster wegzetten* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup-for-the-example-scenario"></a>Instellingen voor het voorbeeldscenario
 
@@ -284,7 +281,7 @@ Voordat de artikelen in het cluster kunnen worden weggezet, moet het cluster wor
 
     U hebt de standaardopties om deze stap te overschrijven of te negeren.
 
-    ![De pagina Cluster wegzetten: plaatsen](media/Cluster_putaway-Put.png "De pagina Cluster wegzetten: plaatsen")
+    ![De pagina Cluster wegzetten: plaatsen.](media/Cluster_putaway-Put.png "De pagina Cluster wegzetten: plaatsen")
 
 1. Selecteer **OK** om het wegzetten van het cluster te bevestigen.
 

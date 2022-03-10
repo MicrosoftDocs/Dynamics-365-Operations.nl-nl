@@ -2,11 +2,9 @@
 title: Scheiding van taken instellen
 description: U kunt regels instellen om taken te scheiden die door verschillende gebruikers moeten worden uitgevoerd.
 author: peakerbl
-manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysSecSegregationOfDutiesRule
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bcbd32131f9980a4f55e91b9d7ad48171069f72e
-ms.sourcegitcommit: 316200579dd5b04ad76f276a2ed6b0f55fa8c812
+ms.openlocfilehash: 1c06ce9325d7b0894ba53d6b9782f495a48280d45e538b048d883ab86f05dabf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "4826389"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755743"
 ---
 # <a name="set-up-segregation-of-duties"></a>Scheiding van taken instellen
 
@@ -42,3 +40,6 @@ U kunt regels instellen om taken te scheiden die door verschillende gebruikers m
 
 > [!IMPORTANT] 
 > Wanneer u een regel maakt, wordt niet gecontroleerd of de regels voor de scheiding van taken worden nageleefd. U kunt een regel maken die een conflict veroorzaakt voor bestaande rollen. Bestaande gebruikersroltoewijzingen kunnen ook in conflict zijn met de nieuwe regel. U moet de conformiteit valideren nadat u een regel hebt gemaakt of gewijzigd. Zie [Conflicten bij scheiding van taken identificeren en oplossen](identify-resolve-conflicts-segregation-duties.md) voor meer informatie.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

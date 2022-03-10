@@ -2,16 +2,13 @@
 title: Gedeeltelijke cyclustelling van locatie
 description: Cyclustellingsplannen sturen de werkelijke telbewerkingen aan. U kunt verzoeken dat alleen specifieke producten en productvarianten worden geteld, in plaats van alle voorhanden voorraad op een locatie.
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a541818a72f5c24db8784071f447c83a2aa4edfd
-ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
+ms.openlocfilehash: 9f06b39f3c2d2f5a0bdfef1da9395c71686ed46968a1143305b5a10787f7e85f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4666741"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778429"
 ---
 # <a name="partial-location-cycle-counting"></a>Gedeeltelijke cyclustelling van locatie
 
@@ -49,7 +46,7 @@ Voordat gedeeltelijk cyclustellingswerk kan worden verwerkt, moet u ten minste *
 Voor het gedeeltelijke cyclustellingsproces wordt de datum/tijd **Laatste cyclustelling** voor de locatie niet bijgewerkt, ook niet als alle voorhanden artikelen op een bepaalde locatie worden geteld. De gedeeltelijke cyclustelling houdt geen rekening met de parameter **Dagen tussen cyclustellingen** op de pagina **Cyclustelplannen**. Gedeeltelijke cyclustelling biedt geen ondersteuning voor gelijktijdige telling van meerdere artikelen op dezelfde locatie. De functionaliteit voor gedeeltelijke cyclustellingen kan ertoe leiden dat dezelfde locatie meerdere keren wordt geteld voor een artikel wanneer **Cyclustellingsplan verwerken** wordt uitgevoerd. Geef filters op in het veld **Locaties selecteren** om dat scenario te vermijden.
 
 > [!NOTE]
-> De magazijn-app beschikt niet over de knop **LP of artikel toevoegen** wanneer u het gedeeltelijke cyclustellingsproces gebruikt.
+> De mobiele app Magazijnbeheer beschikt niet over de knop **LP of artikel toevoegen** wanneer u het gedeeltelijke cyclustellingsproces gebruikt.
 
 ## <a name="example"></a>Voorbeeld
 
@@ -62,3 +59,6 @@ In dit voorbeeld moet alleen artikelnummer A0001 in magazijn 61 worden geteld.
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Cyclustelling](cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

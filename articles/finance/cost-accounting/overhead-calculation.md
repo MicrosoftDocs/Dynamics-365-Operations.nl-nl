@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 98fd0b4a18b02ed58034ec6e22763ed7c66f567f5c9eeeed124996757470c419
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 60bce611ae1f6ed5d63860793cd5d1da3c421a9e
+ms.sourcegitcommit: e3290eb58ae569a59d6ae2e6922e7d8be8f1980f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766284"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "7551799"
 ---
 # <a name="overhead-calculation"></a>Overheadberekening
 
@@ -1328,83 +1328,12 @@ In de volgende tabel ziet u het resultaat wanneer de verpakkingsservices worden 
 ## <a name="conclusion"></a>Conclusie
 In het financiële boekhouding worden kosten van 10.000,00 voor elektriciteit geboekt naar een dummy kostenplaats-id. Hierdoor weten kostenaccountants dat deze kosten moeten worden toegewezen. In de kostprijsboekhouding stromen de kosten door de organisatie-eenheden en niveaus, op basis van het beleid en de regels die worden toegepast. Elke kostenpost is gekoppeld aan een toewijzingsgrondslag die de beste beoordeling biedt voor de toewijzing van kosten.
 
-<table>
-<thead>
-<tr>
-<th colspan="2" rowspan="2">Kostenelement</th>
-<th colspan="9">Kostenobject</th>
-<th rowspan="2">Totaal</th>
-</tr>
-<tr>
-<th>CC099</th>
-<th>CC001</th>
-<th>CC002</th>
-<th>CC003</th>
-<th>CC004</th>
-<th>Proj 1</th>
-<th>Proj 2</th>
-<th>Prod 1</th>
-<th>Prod 2</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td colspan="2">10001 Elektriciteit</td>
-<td style="text-align: right;"><strong>0.00</strong></td>
-<td style="text-align: right;"><strong>0.00</strong></td>
-<td style="text-align: right;"><strong>0.00</strong></td>
-<td style="text-align: right;"><strong>0.00</strong></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"><strong>30.00</strong></td>
-<td style="text-align: right;"><strong>10.00</strong></td>
-<td style="text-align: right;"><strong>7,770.57</strong></td>
-<td style="text-align: right;"><strong>2,189.43</strong></td>
-<td style="text-align: right;"><strong>10,000.00</strong></td>
-</tr>
-<tr>
-<td></td>
-<td style="text-align: left;">Ongeclassificeerd</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-</tr>
-<tr>
-<td style="text-align: right;"></td>
-<td style="text-align: left;">Vaste kosten</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;">776.36</td>
-<td style="text-align: right;">223.64</td>
-<td style="text-align: right;"><strong>1,000.00</strong></td>
-</tr>
-<tr>
-<td style="text-align: right;"></td>
-<td style="text-align: left;">Variabele kosten</td>
-<td style="text-align: right;">000</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">30,00</td>
-<td style="text-align: right;">10,00</td>
-<td style="text-align: right;">6,994.21</td>
-<td style="text-align: right;">1,965.79</td>
-<td style="text-align: right;"><strong>9,000.00</strong></td>
-</tr>
-</tbody>
-</table>
+Kostenelement | Kostenobject<br>CC099 | Kostenobject<br>CC001 | Kostenobject<br>CC002 | Kostenobject<br>CC003 | Kostenobject<br>CC004 | Kostenobject<br>Proj 1 | Kostenobject<br>Proj 2 | Kostenobject<br>Prod 1 | Kostenobject<br>Prod 2 | Totaal
+---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:
+10001 Elektriciteit | 0,00 | 0,00 | 0,00 | 0,00 |  | 30.00 | 10.00 | 7,770.57 | 2,189.43 | 10,000.00 |
+Ongeclassificeerd | 0,00 |  |  |  |  |  |  |  |  |  |
+Vaste kosten | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |  |  | 776.36 | 223.64 | 1,000.00 |
+Variabele kosten | 000 | 0,00 | 0,00 | 0,00 | 0,00 | 30,00 | 10,00 | 6,994.21 | 1,965.79 | 9,000.00 |
 
 > [!NOTE]
 > Dit onderwerp laat zien beschreven hoe een primair kostenelement, 10001 Elektriciciteit, door de kostenobjecten stroomt. Daarom worden deze overheadkosten toegewezen aan het laagste niveau in de organisatie. Met andere woorden, de kostenobjecten op het laagste niveau dragen de kosten. Als u een visuele stroom van de kosten tussen de kostenobjecten nodig hebt, kunt u de beleidsregels voor kostenaggregatie gebruiken om de stroom van de kosten zichtbaar te maken. Zie [Beleid voor totalisering van kosten en overheadberekening](cost-rollup.md) voor meer informatie.

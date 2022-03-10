@@ -1,26 +1,28 @@
 ---
 title: Overzicht van aanschaffingscatalogi
 description: Dit artikel beschrijft op een hoog niveau hoe de inkoopprofessional aanschaffingscatalogi kan instellen en onderhouden. Aanschaffingscatalogi definiëren de artikelen en services die werknemers van het bedrijf kunnen gebruiken wanneer ze artikelen en services voor intern gebruik bestellen.
-author: kamaybac
+author: Henrikan
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, CatDisplayProductRelationAdd
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2214
+ms.custom:
+- "2214"
+- intro-internal
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ac31634844ea5d82f795b2262d17a6be3a926c2
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: efe0541859822b4c6404f2833ae38e07b79dd634
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6190131"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984290"
 ---
 # <a name="procurement-catalogs-overview"></a>Overzicht van aanschaffingscatalogi
 

@@ -1,29 +1,26 @@
 ---
 title: Garanties op activa en activatypen
 description: In dit onderwerp wordt uitgelegd hoe u garanties op activa en activatypen kunt instellen in Activabeheer.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/30/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 75de9a51560dcd8fea7998425fee14a27e891972
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bcfbd56f5fa1491f13ea65c5fb3d70659c3b945276813d7c1c922c849bf8e3a3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425582"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751165"
 ---
 # <a name="warranties-on-assets-and-asset-types"></a>Garanties op activa en activatypen
 
@@ -50,7 +47,10 @@ In dit onderwerp wordt uitgelegd hoe u garanties op activa en activatypen kunt i
     > [!IMPORTANT]
     > Als een datum is geselecteerd in het veld **Begindatum garantie** voor een werkorder, wordt de garantie geldig voor de werkorder op die datum. Wanneer u een werkorder maakt, wordt het veld **Begindatum garantie** automatisch ingesteld op de datum van aanmaak. U kunt de datum echter wijzigen, zodat deze overeenkomt met bijvoorbeeld de begindatum van een garantieovereenkomst.
     >
-    > ![Pagina Werkorder](media/02-warranty.png)
+    > ![Pagina Werkorder.](media/02-warranty.png)
 
 > [!NOTE]
 > Wanneer u een werkorder maakt voor een activum dat wordt gedekt door een garantie van een leverancier, ontvangt u een melding over de garantieovereenkomst als de werkorder een verwachte begindatum heeft gedurende de garantieperiode. U kunt de werkorder vervolgens desgewenst annuleren.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

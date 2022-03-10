@@ -2,11 +2,9 @@
 title: ER-bestemmingstype voor Power BI
 description: Dit onderwerp biedt informatie over de configuratie van het type Power BI ER-bestemming voor uitgaande documenten.
 author: NickSelin
-manager: AnnBe
 ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 10.0.09
-ms.openlocfilehash: 3355c3bced950f65964b124fee553d8c5b53c6b0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 499447b05ef6360cde95049e592d7c9ffe2da1c4ff26937482033b9f705c3acd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679577"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777423"
 ---
 # <a name="power-bi-destination"></a>Bestemming voor Power BI
 
@@ -32,9 +30,12 @@ U kunt een Microsoft Power BI-bestemming configureren voor elke map- of bestandc
 
 Stel **Ingeschakeld** in op **Ja** als u uw ER-configuratie wilt gebruiken om gegevens van uw Dynamics 365 Finance-exemplaar over te dragen aan Microsoft Power BI-services. De overgebrachte bestanden worden opgeslagen op een Microsoft SharePoint Server-exemplaar dat voor dit doel moet worden geconfigureerd. Zie [Elektronische rapportage (ER) configureren om gegevens op te halen in Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md) voor meer informatie.
 
-[![Pagina Bestemmingsinstelling](./media/ER_Destinations-EnablePowerBIDestination.png)](./media/ER_Destinations-EnablePowerBIDestination.png)
+[![Pagina Bestemmingsinstelling.](./media/ER_Destinations-EnablePowerBIDestination.png)](./media/ER_Destinations-EnablePowerBIDestination.png)
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 - [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 - [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

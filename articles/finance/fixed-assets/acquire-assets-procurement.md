@@ -1,12 +1,10 @@
 ---
 title: Activa aanschaffen via inkoop
 description: In dit onderwerp wordt beschreven hoe u de integratie instelt tussen Vaste activa en Leveranciers om automatisch vaste activa van inkooporders of leveranciersfacturen te maken of om automatisch verwervings- en verwervingscorrectietransacties voor vaste activa te boeken.
-author: ShylaThompson
-manager: AnnBe
+author: moaamer
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetParameters
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 3481
 ms.assetid: d4e73a3f-633b-48b2-b8db-7a4a59a4d7ec
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ccdcef6858c4b7badd48e8a90cef97c25824223
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1c51abd3ce380f0cb1ad688ffab16b239460bc45
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5257604"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674742"
 ---
 # <a name="acquire-assets-through-procurement"></a>Activa aanschaffen via inkoop
 

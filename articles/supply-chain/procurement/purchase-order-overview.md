@@ -1,26 +1,28 @@
 ---
 title: Overzicht van inkooporders
 description: Dit artikel bevat algemene informatie over inkooporders (IO's) en koppelingen naar aanvullende artikelen die zijn gerelateerd aan de verschillende fasen die een IO doorloopt.
-author: kamaybac
+author: Henrikan
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder, PurchConfirmationRequestJournal
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 93083
+ms.custom:
+- "93083"
+- intro-internal
 ms.assetid: e9b7bc5b-1d7e-4ec2-97be-d655274b0613
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b173f856c79973eec6ce884e7b8e44420c93fc7
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: b2e01f73aa78c0fabf0f5a1e0acd3bbc4f69cfc4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909126"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982299"
 ---
 # <a name="purchase-order-overview"></a>Overzicht van inkooporders
 
@@ -76,8 +78,7 @@ Het veld **Goedkeuringsstatus** wordt gebruikt wanneer een inkooporder een contr
 -   **Bevestigd** – Deze status wordt toegekend nadat de order is bevestigd. Deze status is meestal de laatste goedkeuringsstatus die wordt toegewezen aan een order.
 
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Inkooporders maken](purchase-order-creation.md)
 

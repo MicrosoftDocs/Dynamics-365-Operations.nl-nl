@@ -2,26 +2,23 @@
 title: Geavanceerde regelstructuren maken en toewijzen
 description: In dit onderwerp wordt uitgelegd hoe u een geavanceerde regelstructuur maakt en toewijst aan een rekeningstructuur.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountRuleStructure, DimensionCreateAccountRuleStructure, DimensionHierarchyAddLevel, DimensionHierarchyConstraintActivate, DimensionConfigureAccountStructure, DimensionConfigureAccountRule, DimensionCreateAccountRule, DimensionSelectAccountRuleStructure
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb18b96d6d7db84262f8fcfadb15afa80e2fa3d8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 769f3cb44830a4bc9ef48e5bcfda5a47b87954c20f65d1d3eef5d02af9ed5bd1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441845"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750407"
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>Geavanceerde regelstructuren maken en toewijzen
 
@@ -59,3 +56,6 @@ In dit onderwerp wordt uitgelegd hoe u een geavanceerde regelstructuur maakt en 
 17. Sluit de pagina.
 18. Selecteer **Activeren**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

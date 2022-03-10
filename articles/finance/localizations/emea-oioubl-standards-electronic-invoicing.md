@@ -2,11 +2,9 @@
 title: Ondersteunde standaarden voor elektronische facturering in Europa
 description: In dit onderwerp wordt het dekkingsniveau toegelicht voor elektronisch factureren in Europa.
 author: mrolecki
-manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.industry: ''
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: b25dedca6d8d6726be60d1943ade0865eaf6b0ec
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3d41b00a6762c9985cf86b54d92b58a3e4ccdf19
+ms.sourcegitcommit: d13ea8b6baf73601a8b57548232aac84ffaba717
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262813"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7941226"
 ---
 # <a name="supported-standards-for-electronic-invoicing-in-europe"></a>Ondersteunde standaarden voor elektronische facturering in Europa
 
@@ -46,7 +44,7 @@ De volgende landspecifieke indelingen van elektronische facturen zijn beschikbaa
 -   Specifieke Estse indelingsversie 1.2
 -   Finvoice 3.0 voor Finland
 
-Elektronische facturering is gebaseerd op [ER (Elektronische rapportage)](../../dev-itpro/analytics/general-electronic-reporting.md). Een gegevensmodel **Factuurmodel**, factuurmodeltoewijzing en verschillende land-/regiospecifieke ER-indelingsconfiguraties zijn gemaakt voor de volgende landen/regio's: 
+Elektronische facturering is gebaseerd op [ER (Elektronische rapportage)](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md). Een gegevensmodel **Factuurmodel**, factuurmodeltoewijzing en verschillende land-/regiospecifieke ER-indelingsconfiguraties zijn gemaakt voor de volgende landen/regio's: 
 
 - Oostenrijk (AT)
 - Denemarken (DK)
@@ -101,13 +99,14 @@ De instellingen en details van elektronische facturen zijn afhankelijk van het l
 
 - [Italië](emea-ita-e-invoices.md)
 - [Noorwegen](emea-nor-e-invoices.md)
+- [Denemarken](emea-dnk-e-invoices.md)
 - [Duitsland](emea-deu-e-invoices.md)
 - [Finland](https://support.microsoft.com/help/4559937)
 - [Estland](https://support.microsoft.com/help/4552679)
 - [PEPPOL](https://support.microsoft.com/help/4490320)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
-Voor meer informatie over het instellen van elektronische facturen, kunt u de volgende [Taakbegeleidingen](../../fin-and-ops/get-started/help-overview.md#task-guides) afspelen in het Help-venster:
+Voor meer informatie over het instellen van elektronische facturen, kunt u de volgende [Taakbegeleidingen](../../fin-ops-core/fin-ops/get-started/help-overview.md#task-guides) afspelen in het Help-venster:
 
  - OIOUBL elektronische facturen instellen
  - OIOUBL elektronische factureringsconfiguraties importeren

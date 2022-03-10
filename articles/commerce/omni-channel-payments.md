@@ -1,9 +1,9 @@
 ---
 title: Overzicht van betalingen voor meerdere kanalen
 description: Dit onderwerp biedt een overzicht van betalingen voor meerdere kanalen in Dynamics 365 Commerce.
-author: rubendel
+author: BrianShook
 ms.date: 09/17/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
@@ -14,15 +14,15 @@ ms.custom:
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: adab650451a4ff22fcba82b0aa053c923f5dc5ef
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 593a647caeaf7d06aa1f2067954466db7dac6a1d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339426"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984161"
 ---
 # <a name="omni-channel-payments-overview"></a>Overzicht van betalingen voor meerdere kanalen
 

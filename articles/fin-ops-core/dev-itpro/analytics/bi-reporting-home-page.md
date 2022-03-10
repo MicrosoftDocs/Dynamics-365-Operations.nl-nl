@@ -2,25 +2,26 @@
 title: Rapportage en analyse met Power BI-startpagina
 description: In dit onderwerp wordt verwezen naar resources die u kunt gebruiken om meer te weten te komen over de BI- en rapportagehulpmiddelen die beschikbaar zijn.
 author: sericks007
-manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 27681
+ms.custom:
+- "27681"
+- intro-internal
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 644cf8ea39da872962e44a38294af88d1dfa809e
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 1a1c0ee254a5300cfc84eb434e4785b6eceacf0375b983b33991445443957a33
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559864"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712731"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Rapportage en analyse met Power BI-startpagina
 
@@ -38,7 +39,7 @@ In werkgebieden kan worden gebruikgemaakt van uitgebreide infographics en visual
 
 Gebruikers kunnen interacties aangaan met gegevens door te klikken of visuele elementen op de pagina aan te raken. Ze zien oorzaak en gevolg en voeren eenvoudige wat-als-bewerkingen uit zonder het werkgebied te verlaten. Dankzij verbluffende, interactieve visuele elementen beleven uw gebruikers plezier aan het verkennen van gegevens en het ontdekken van verborgen trends.
 
-![Voorbeeld van Power BI in een werkgebied](./media/Power-BI-in-D365-Workspace.png)
+![Voorbeeld van Power BI in een werkgebied.](./media/Power-BI-in-D365-Workspace.png)
 
 Zie de volgende onderwerpen voor meer informatie:
 
@@ -51,7 +52,7 @@ Zie de volgende onderwerpen voor meer informatie:
 ## <a name="business-documents-and-printing"></a>Bedrijfsdocumenten en afdrukken
 Rapportage-oplossingen worden vaak gebruikt voor het vastleggen en communiceren van de details van zakelijke transacties. Daarom moet een rapportage-oplossing in staat zijn fysieke uitingen van zakelijke gegevens te produceren met behulp van bestaande apparaten, zoals netwerkprinters. Voorbeelden van bedrijfsdocumenten zijn verkoopfacturen, klantoverzichten en cheques.
 
-[![Voorbeeld van bedrijfsdocumenten](./media/image-of-business-documents-1024x632.png)](./media/image-of-business-documents.png)
+[![Voorbeeld van bedrijfsdocumenten.](./media/image-of-business-documents-1024x632.png)](./media/image-of-business-documents.png)
 
 Zie de volgende onderwerpen voor meer informatie:
 
@@ -60,9 +61,9 @@ Zie de volgende onderwerpen voor meer informatie:
 - [De documentrouteringsagent installeren om afdrukken via het netwerk in te schakelen](install-document-routing-agent.md)
 
 ## <a name="electronic-reporting"></a>Elektronische rapportage
-Elektronische rapportage (ER) is het hulpmiddel waarmee u indelingen voor elektronische documenten kunt configureren die voldoen aan de wettelijke voorschriften van verschillende landen of regio's. De toepassingen van elektronische rapportage omvatten financiële controle, btw-aangifte en elektronische facturering.
+Elektronische rapportage (ER) is het hulpmiddel waarmee u indelingen voor elektronische documenten kunt configureren die voldoen aan de wettelijke voorschriften van verschillende landen of regio's. U kunt elektronische rapportage onder andere gebruiken voor financiële controles, belastingaangiften en elektronische facturering.
 
-[![Voorbeeld van elektronische rapportage](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
+[![Voorbeeld van elektronische rapportage.](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
 
 Zie de volgende onderwerpen voor meer informatie:
 
@@ -71,9 +72,9 @@ Zie de volgende onderwerpen voor meer informatie:
 - [Configuraties voor elektronische rapportage (ER) maken](electronic-reporting-configuration.md)
 
 ## <a name="financial-reporting"></a>Financiële rapportage
-Er worden standaard financiële rapporten geleverd die gebruikmaken van de standaard hoofdrekeningcategorieën. U kunt de rapportontwerpfunctie gebruiken voor het maken of wijzigen van traditionele financiële overzichten, zoals inkomensoverzichten en balansen. U kunt vervolgens de resultaten delen met andere leden van uw organisatie. Voorbeelden van financiële rapportage omvatten balansen, cashflow- en proefbalansoverzicht jaar over jaar.
+Er worden standaard financiële rapporten geleverd die gebruikmaken van de standaard hoofdrekeningcategorieën. U kunt de rapportontwerpfunctie gebruiken voor het maken of wijzigen van traditionele financiële overzichten, zoals inkomensoverzichten en balansen. U kunt vervolgens de resultaten delen met andere leden van uw organisatie. Voorbeelden van financiële rapportage zijn balansen, cashflowrapporten en jaar-op-jaar-proefbalansoverzichten.
 
-[![Voorbeeld van financiële rapportage](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
+[![Voorbeeld van financiële rapportage.](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
 
 Zie de volgende onderwerpen voor meer informatie:
 

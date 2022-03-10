@@ -1,29 +1,26 @@
 ---
 title: Werkorders maken van onderhoudsverzoeken
 description: In dit onderwerp wordt uitgelegd hoe u een werkorder van een onderhoudsverzoek maakt in Activabeheer.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b6bd98796140ab7aa3e7813ff1526413504554c5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1c69ad91e931475dd4c8e5a126190e867bd193f881ad58525c1d2ac8997c972a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425504"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726916"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Werkorders maken van onderhoudsverzoeken
 
@@ -53,5 +50,8 @@ Wanneer u onderhoudsverzoeken hebt gemaakt, kunt u deze eenvoudig omzetten in we
 
 6. Selecteer **Activabeheer** \> **Algemeen** \> **Werkorders** \> **Alle werkorders** en open de nieuwe werkorder.
 
-    ![Nieuwe werkorder openen](media/05-manage-maintenance-requests.png)
+    ![Nieuwe werkorder openen.](media/05-manage-maintenance-requests.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

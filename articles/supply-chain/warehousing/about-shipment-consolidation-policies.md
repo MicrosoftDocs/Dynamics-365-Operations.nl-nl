@@ -10,17 +10,19 @@ ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSSh
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: b39bcf316d7779765b588d75d8057da285b47de2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 11ee4beefed02425d4650de3e896e608d3d00ef5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831453"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577955"
 ---
 # <a name="shipment-consolidation-policies"></a>Beleidsregels voor consolidatie van zendingen
+
+[!include [banner](../includes/banner.md)]
 
 In het consolidatieproces voor zendingen waarbij wordt gebruikgemaakt van consolidatiebeleid voor zendingen kunnen zendingen automatisch worden geconsolideerd en handmatig worden vrijgegeven aan het magazijn. De automatische consolidatie die beschikbaar was voordat deze functie werd geïntroduceerd, had hard gecodeerde velden en was gebaseerd op het veld **Zending bij vrijgave naar magazijn consolideren** dat voor een magazijn was ingesteld.
 

@@ -2,7 +2,6 @@
 title: ER-bestemmingstype voor printer
 description: In dit onderwerp wordt uitgelegd hoe u een printerbestemming kunt configureren voor elke MAP- of BESTAND-component van een ER-indeling (Electronic Reporting).
 author: NickSelin
-manager: AnnBe
 ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 19613d9dfba21d591d96a2df45bedb80c043b3a7
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 672b1d70607a32d30c703ce39573d7480462fec45739b6e1e49ef27166a50e2c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561945"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712707"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Bestemming voor printers
 
@@ -31,7 +30,7 @@ U kunt een gegenereerd document rechtstreeks naar een netwerkprinter sturen om d
 
 ## <a name="prerequisites"></a>Vereisten
 
-Voordat u begint, moet u de documentrouteringsagent installeren en configureren en vervolgens de netwerkprinters registreren. Zie voor meer informatie [De documentrouteringsagent installeren om afdrukken via het netwerk in te schakelen](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/install-document-routing-agent).
+Voordat u begint, moet u de documentrouteringsagent installeren en configureren en vervolgens de netwerkprinters registreren. Zie voor meer informatie [De documentrouteringsagent installeren om afdrukken via het netwerk in te schakelen](./install-document-routing-agent.md).
 
 ## <a name="make-the-printer-destination-available"></a>De printerbestemming beschikbaar maken
 
@@ -40,7 +39,7 @@ Als u de bestemming **Printer** beschikbaar wilt maken in de huidige instantie v
 1. Voor elektronische rapportage uitgaande documenten met Microsoft Office-indelingen converteren naar PDF.
 2. Documentrouteringsagent als bestemming voor elektronische rapportage voor uitgaande documenten
 
-[![De bestemmingsfunctie ER-printer in Functiebeheer inschakelen](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
+[![De bestemmingsfunctie ER-printer in Functiebeheer inschakelen.](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
 
 ### <a name="applicability"></a>Toepasbaarheid
 
@@ -56,7 +55,7 @@ De bestemming **Printer** is alleen geïmplementeerd voor cloudimplementaties.
 2. Selecteer in het veld **Printernaam** de gewenste netwerkprinter.
 3. Stel de optie **Opslaan in afdrukarchief?** in op **Ja** om de gegenereerde uitvoer in het afdrukarchief op te slaan, zodat deze beschikbaar is voor verder afdrukken. Als u de gearchiveerde uitvoer later wilt openen, gaat u naar **Organisatiebeheer** \> **Query's en rapporten** \> **Rapportarchief**.
 
-[![De printerbestemming gebruiken](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
+[![De printerbestemming gebruiken.](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
 
 > [!NOTE]
 > De optie **Converteren naar PDF** hoeft niet ingeschakeld te zijn wanneer u de bestemming **Printer** configureert. De PDF-conversie wordt voor afdrukdoeleinden uitgevoerd, zelfs als de optie is uitgeschakeld.

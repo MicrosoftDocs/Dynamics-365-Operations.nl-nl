@@ -1,32 +1,34 @@
 ---
 title: Vereffeningsoverzicht
 description: Dit onderwerp biedt algemene informatie over het vereffeningsproces. Het beschrijft welke transactietypen kunnen worden vereffend en de timing en het proces om deze te vereffenen. Ook worden de resultaten van het vereffeningsproces beschreven.
-author: kweekley
-manager: AnnBe
-ms.date: 04/10/2020
-ms.topic: article
+author: panolte
+ms.date: 07/30/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14551
+ms.custom:
+- "14551"
+- intro-internal
 ms.assetid: 0968fa71-5984-415b-8689-759a0136d5d1
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a4ad8a124b2de2d364e11b6a32f8845ef438e1d1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 57f2b209a852bb9513218fab3df118c7d7a2a1e7
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989158"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986378"
 ---
 # <a name="settlement-overview"></a>Vereffeningsoverzicht
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Dit onderwerp biedt algemene informatie over het vereffeningsproces. Het beschrijft welke transactietypen kunnen worden vereffend en de timing en het proces om deze te vereffenen. Ook worden de resultaten van het vereffeningsproces beschreven.
 
@@ -74,6 +76,25 @@ Vereffeningen kunnen ook transacties genereren. Bijvoorbeeld, de vereffening van
 
 Wanneer u een transactie probeert te vereffenen, ziet u mogelijk een symbool dat aangeeft dat de transactie is gemarkeerd op een andere locatie. In dat geval kunt u de transactie selecteren op de pagina **Transacties vereffenen** en vervolgens **Query \> Vereffening** selecteren in het venster Vereffening. De weergave voor deze query toont journalen, verkooporders, facturen, betalingsvoorstellen en klantlocaties die mogelijk de transactie vanuit de vereffening blokkeren. Om het probleem op te lossen, kunt u de koppeling selecteren om rechtstreeks van de query naar de geblokkeerde locatie te gaan. U kunt het document vervolgens bijwerken met de correcties die nodig zijn om het document te vereffenen. U kunt ook de indicator **Gemarkeerd** gebruiken om andere documenten aan te duiden die op dezelfde blokkeerlocatie zijn opgenomen.
 
+## <a name="resolve-issues-with-transactions-that-cant-be-settled"></a>Problemen oplossen met transacties die niet vereffend kunnen worden
+
+Soms kunt u geen transacties vereffenen, omdat het document momenteel voor een andere activiteit wordt gebruikt. Als u de transacties probeert te vereffenen, treedt er een fout op, omdat die transacties worden gebruikt. Om dit probleem te verhelpen, kunt u de pagina **Gemarkeerde transactiedetails** gebruiken om transacties te zoeken die voor vereffening gemarkeerd zijn en om andere processen te identificeren die deze geopend hebben.
+
+Transacties worden voor vereffening gemarkeerd wanneer leveranciersfacturen worden betaald of wanneer klanten hun openstaande facturen betalen. Soms zijn deze facturen al gemarkeerd voor vereffening. Daarom kunnen gebruikers ze niet voor betaling selecteren. De facturen kunnen worden gemarkeerd door een ander(e) klantbetalingsjournaal, verkooporder, leverancierbetalingsjournaal of inkooporder in de huidige rechtspersoon of een andere rechtspersoon.
+
+Als een transactie geblokkeerd is voor vereffening wanneer u een klantbetaling wilt uitvoeren, opent u de pagina **Klant gemarkeerde transactiedetails** (**Debiteuren \> Periodieke taken \> Klant gemarkeerde transactiedetails**). Om snel vast te kunnen stellen waar een transactie geblokkeerd is, kunt u een van de volgende selectieparameters instellen: **Klantaccount**, **Voucher**, **Datum** of **Factuur**. Als u geen selectieparameters instelt, toont het systeem alle geblokkeerde documenten van het huidige bedrijf of van een ander bedrijf dat u selecteert. Na identificatie van de transactie die voor vereffening geblokkeerd is, kunt u deze selecteren en vervolgens **Markering geselecteerde transacties ongedaan maken** selecteren. De geselecteerde transactie wordt vervolgens verwijderd uit elk journaal dat deze bevat. Het document wordt echter niet uit de andere locatie verwijderd. Alleen de markeringsgegevens worden uit het journaal verwijderd.
+
+Als een transactie geblokkeerd is voor vereffening wanneer u een leveranciersbetaling wilt uitvoeren, opent u de pagina **Leverancier gemarkeerde transactiedetails** (**Krediteuren \> Periodieke taken \> Leverancier gemarkeerde transactiedetails**). Om snel vast te kunnen stellen waar een transactie geblokkeerd is, kunt u een van de volgende selectieparameters instellen: **Leverancieraccount**, **Voucher**, **Datum** of **Factuur**. Als u geen selectieparameters instelt, toont het systeem alle geblokkeerde documenten van het huidige bedrijf of van een ander bedrijf dat u selecteert. Na identificatie van de transactie die voor vereffening geblokkeerd is, kunt u deze selecteren en vervolgens **Markering geselecteerde transacties ongedaan maken** selecteren om het blokkeringsprobleem op te lossen. De geselecteerde transactie wordt vervolgens verwijderd uit elk ander journaal waar het geselecteerd is. Het document wordt echter niet uit de andere locatie verwijderd. Alleen de markeringsgegevens worden uit het journaal verwijderd.
+
+Als u alle geblokkeerde documenten wilt identificeren, opent u de pagina **Alle gemarkeerde transactiedetails** (**Debiteuren \> Periodieke taken \> Alle gemarkeerde transactiedetails** of **Krediteuren \> Periodieke taken \> Alle gemarkeerde transactiedetails**). Om snel vast te kunnen stellen waar een transactie geblokkeerd is, kunt u een van de volgende selectieparameters instellen: **Klantaccount**, **Leveranciersaccount**, **Voucher**, **Datum** of **Factuur**. Als u geen selectieparameters instelt, toont het systeem alle geblokkeerde documenten van het huidige bedrijf of van een ander bedrijf dat u selecteert. Na identificatie van de transactie die voor vereffening geblokkeerd is, kunt u deze selecteren en vervolgens **Markering geselecteerde transacties ongedaan maken** selecteren om het blokkeringsprobleem op te lossen. De geselecteerde transactie wordt vervolgens verwijderd uit elk ander journaal waar het geselecteerd is. Het document wordt echter niet uit de andere locatie verwijderd. Alleen de markeringsgegevens worden uit het journaal verwijderd.
+
+Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen het werkgebied **Functiebeheer** gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
+
+- **Module:** Contanten en bankbeheer
+- **Functienaam:** Formulier met gemarkeerd transactiedetail
+
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 - [Restbedrag vereffenen](settle-remainder.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

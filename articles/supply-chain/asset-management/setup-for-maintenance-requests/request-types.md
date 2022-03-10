@@ -1,29 +1,26 @@
 ---
 title: Typen onderhoudsverzoeken
 description: In dit onderwerp wordt uitgelegd hoe u typen onderhoudsverzoeken instelt in Activabeheer.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 07/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d353f084e0d3e056f1b5ff5af6437ba211def8ec
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f51c90f72120d236ae9acf3fbcb8ac98fdc8cdf3d3bd032b3a3a3d317483b070
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425555"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721482"
 ---
 # <a name="maintenance-request-types"></a>Typen onderhoudsverzoeken
 
@@ -44,4 +41,7 @@ Een type onderhoudsverzoek definieert de aansluiting met een levenscyclusstatusg
 
 In de volgende afbeelding ziet u een voorbeeld van de pagina **Typen onderhoudsverzoeken**.
 
-![Pagina Typen onderhoudsverzoeken](media/07-setup-for-requests.png)
+![Pagina Typen onderhoudsverzoeken.](media/07-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Workfloweigenschappen configureren
 description: In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een workflow configureert.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3cb5dc59373b7af76fffa1b1c59728c84dfb5fb
-ms.sourcegitcommit: fd62ab3d399b0d6ea0d362f1d403a300e84a576d
+ms.openlocfilehash: 81f73f187f75e40297f1f8462e9fff58a309f7f0
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "5067618"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069243"
 ---
 # <a name="configure-workflow-properties"></a>Workfloweigenschappen configureren
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een workflow configureert.
 
@@ -182,3 +183,6 @@ Voer de volgende stappen uit om opmerkingen in te voeren over de wijzigingen die
 2. Voer in het veld **Opmerkingen over de workflow invoeren** uw opmerkingen in.
 3. Uw opmerkingen controleren. Nadat u opmerkingen hebt toegevoegd, kunt u deze niet meer wijzigen.
 4. Klik op **Toevoegen** om uw opmerkingen aan het gebied **Opmerkingshistorie** toe te voegen.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

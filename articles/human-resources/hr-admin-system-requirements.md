@@ -1,8 +1,8 @@
 ---
 title: Systeemvereisten
-description: In dit artikel worden de vereisten voor Microsoft Dynamics 365 Human Resources beschreven.
-author: andreabichsel
-ms.date: 02/03/2020
+description: In dit onderwerp worden de systeemvereisten voor Microsoft Dynamics 365 Human Resources weergegeven.
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 52ef0176926fd6c5c5d2bc852080dde5273d05d0f2edd20e091d97c71e503dce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 15770595a0639c03df1138ec25010ca8168bd9a8
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761087"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393468"
 ---
 # <a name="system-requirements"></a>Systeemvereisten
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit artikel worden de vereisten voor Microsoft Dynamics 365 Human Resources beschreven. Het artikel bevat ook een overzicht van de landen en regio's waarin Human Resources beschikbaar is, plus informatie over talen en lokalisatie voor Human Resources-gegevens.
+In dit onderwerp worden de systeemvereisten voor Microsoft Dynamics 365 Human Resources weergegeven. Het artikel bevat ook een overzicht van de landen en regio's waarin Human Resources beschikbaar is, plus informatie over talen en lokalisatie voor Human Resources-gegevens.
 
 ## <a name="supported-web-browsers"></a>Ondersteunde webbrowsers
 
-Human Resources kan worden uitgevoerd in alle onderstaande webbrowsers die op de opgegeven besturingssystemen draaien: 
+Gebruikers kunnen Microsoft Dynamics 365 Human Resources uitvoeren in alle onderstaande webbrowsers die op de opgegeven besturingssystemen draaien: 
 
 *   Microsoft Edge (meest recente openbaar beschikbare release) op Windows 10
 *   Internet Explorer 11 op Windows 10, Windows 8.1 of Windows 7
@@ -39,14 +39,17 @@ Human Resources kan worden uitgevoerd in alle onderstaande webbrowsers die op de
 
 Als u de laatste versie van elke webbrowser wilt opzoeken, gaat u naar de website van de softwarefabrikant. 
 
-> [!NOTE]
-> * Om schermopnamen vast te leggen die door Taakrecorder zijn gegenereerd en deze op te nemen in Microsoft Word-documenten, moet u een Chrome-invoegtoepassing hebben geïnstalleerd. 
-> * De workfloweditor wordt als ClickOnce-toepassing gestart. Alleen Microsoft Edge en Internet Explorer (op een ondersteunde versie van Microsoft Windows) ondersteunen ClickOnce-toepassingen. De ClickOnce-toepassing Workfloweditor vereist een compatibel 64-bits besturingssysteem.
-> * Als u PDF-bestanden wilt bekijken, raden wij u aan moderne browsers te gebruiken, zoals Microsoft Edge (meest recente openbaar beschikbare versie) op Windows 10 of Google Chrome (meest recente openbaar beschikbare versie) op Windows 10, Windows 8.1, Windows 8, Windows 7 of Google Nexus 10 tablet.
->   Netwerkvereisten
-> * Human Resources is ontworpen voor netwerken met een latentie van 250-300 milliseconden (ms) of minder. Dit is de latentie van een browserclient naar het Microsoft Azure-datacentrum waar Human Resources wordt gehost. Het wordt aangeraden om uw netwerklatentie te testen op [www.azurespeed.com](https://www.azurespeed.com "Azure Latency Test").
-> * Bandbreedtevereisten voor Human Resources zijn afhankelijk van uw scenario. De meest voorkomende scenario's vereisen een bandbreedte van meer dan 50 kilobytes per seconde (kbps).
-> 
+## <a name="special-considerations"></a>Speciale overwegingen
+
+* Installeer een voorlopige versie van een Chrome-invoegtoepassing om Taakrecorder in te schakelen voor het vastleggen van schermopnamen en om deze te laten opnemen in gegenereerde Microsoft Word-documenten
+* De workfloweditor wordt als ClickOnce-toepassing gestart. Alleen Microsoft Edge en Internet Explorer (op een ondersteunde versie van Microsoft Windows) ondersteunen ClickOnce-toepassingen. De ClickOnce-toepassing Workfloweditor vereist een compatibel 64-bits besturingssysteem.
+* Als u PDF-bestanden wilt bekijken, raden wij u aan moderne browsers te gebruiken, zoals Microsoft Edge (meest recente openbaar beschikbare versie) op Windows 10 of Google Chrome (meest recente openbaar beschikbare versie) op Windows 10, Windows 8.1, Windows 8, Windows 7 of Google Nexus 10 tablet.
+
+## <a name="network-requirements"></a>Netwerkvereisten
+
+* Human Resources is ontworpen voor netwerken met een latentie van 250-300 milliseconden (ms) of minder. Dit is de latentie van een browserclient naar het Microsoft Azure-datacentrum waar Human Resources wordt gehost. Het wordt aangeraden om uw netwerklatentie te testen op [www.azurespeed.com](https://www.azurespeed.com "Azure Latency Test").
+* Bandbreedtevereisten voor Human Resources zijn afhankelijk van uw scenario. De meest voorkomende scenario's vereisen een bandbreedte van meer dan 50 kilobytes per seconde (kbps).
+ 
 > [!WARNING]
 > Bereken bandbreedtevereisten vanaf een clientlocatie niet door het aantal gebruikers te vermenigvuldigen met de minimale bandbreedte-vereisten. Het gelijktijdige gebruik van een bepaalde locatie is zeer lastig te berekenen. Gebruik voor klanten die zich zorgen maken over de bandbreedtevereisten, een evaluatieversie van Human Resources.
 
@@ -63,6 +66,5 @@ U kunt een PDF-bestand downloaden met de landen, regio's en talen die door Human
 > Terwijl de gebruikersinterface wordt gelokaliseerd in andere talen, worden alle gebruikersgegevens opgeslagen in de taal waarin deze zijn ingevoerd. U kunt e-mails en sjablonen in andere talen maken, maar gegevens zoals planningsgegevens zijn op dit moment alleen in het Engels beschikbaar.
 
 Zie [Globalisatie](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region) als u een ontwikkelaar bent die geïnteresseerd is in het maken van land- of regiospecifieke aanpassingen of in het maken van een oplossing voor een land dat of regio die momenteel niet door Microsoft wordt ondersteund.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

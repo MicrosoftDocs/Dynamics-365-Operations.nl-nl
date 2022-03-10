@@ -3,7 +3,7 @@ title: Overzicht van pagina's voor accountbeheer
 description: In dit onderwerp wordt een overzicht gegeven van de pagina's voor accountbeheer in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c61686615495ac64efccf84c697e0e1d594dcaf9
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: b21ae257ce84034f05fa22a93a2c622ee14c0a2b
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027958"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984514"
 ---
 # <a name="account-management-pages-overview"></a>Overzicht van pagina's voor rekeningbeheer
 
@@ -35,7 +35,7 @@ Wanneer een klant zich aanmeldt en **Mijn account** selecteert, wordt de landing
 
 In de volgende afbeelding ziet u een voorbeeld van de landingspagina voor accountbeheer.
 
-![Voorbeeld van een landingspagina voor accountbeheer](./media/Account-Management.PNG)
+![Voorbeeld van een landingspagina voor accountbeheer.](./media/Account-Management.PNG)
 
 ### <a name="my-profile-page"></a>Mijn profielpagina
 
@@ -43,7 +43,7 @@ Op de pagina **Mijn profiel** worden de accountgegevens van de klant weergegeven
 
 In de volgende afbeelding ziet u een voorbeeld van een pagina **Mijn profiel** die is gemaakt met de modulebibliotheek.
 
-![Voorbeeld van een pagina Mijn profiel](./media/Account-Management-MyProfile.PNG)
+![Voorbeeld van een pagina Mijn profiel.](./media/Account-Management-MyProfile.PNG)
 
 ### <a name="addresses-page"></a>Pagina Adressen
 
@@ -51,7 +51,7 @@ Op de pagina **Adressen** kan de klant adressen aan de account toevoegen. Ook wo
 
 In de volgende afbeelding ziet u een voorbeeld van de pagina **Adressen**.
 
-![Voorbeeld van een pagina Adressen](./media/Account-Management-Address.png)
+![Voorbeeld van een pagina Adressen.](./media/Account-Management-Address.png)
 
 ### <a name="order-history-and-order-details-pages"></a>Pagina's Orderhistorie en Orderdetails
 
@@ -59,11 +59,11 @@ Op de pagina **Orderhistorie** wordt een overzicht weergegeven van alle orders d
 
 In de volgende afbeelding ziet u een voorbeeld van de pagina **Orderhistorie**.
 
-![Voorbeeld van de pagina Orderhistorie](./media/Account-Management-OrderHistory.PNG)
+![Voorbeeld van de pagina Orderhistorie.](./media/Account-Management-OrderHistory.PNG)
 
 In de volgende afbeelding ziet u een voorbeeld van de pagina **Orderdetails**.
 
-![Voorbeeld van de pagina Orderdetails](./media/Account-Management-OrderDetails.PNG)
+![Voorbeeld van de pagina Orderdetails.](./media/Account-Management-OrderDetails.PNG)
 
 ### <a name="loyalty-program-page"></a>Pagina Loyaliteitsprogramma
 
@@ -71,7 +71,7 @@ Op de pagina **Loyaliteitsprogramma** kan de klant lid worden van een loyaliteit
 
 In de volgende afbeelding ziet u een voorbeeld van een pagina **Loyaliteitsprogramma**.
 
-![Voorbeeld van een pagina Loyaliteitsprogramma](./media/Account-Management-Loyalty.PNG)
+![Voorbeeld van een pagina Loyaliteitsprogramma.](./media/Account-Management-Loyalty.PNG)
 
 ### <a name="wishlist-page"></a>Wensenlijstpagina
 
@@ -79,7 +79,7 @@ Op de pagina **Verlanglijst** wordt een lijst weergegeven met de artikelen die d
 
 In de volgende afbeelding ziet u een voorbeeld van een pagina **Verlanglijst**.
 
-![Voorbeeld van een pagina Verlanglijst](./media/Account-Management-Wishlist.PNG)
+![Voorbeeld van een pagina Verlanglijst.](./media/Account-Management-Wishlist.PNG)
 
 Zie [Accountbeheer](account-management.md) voor meer informatie over accountbeheermodules en hoe u deze kunt ontwerpen.
 

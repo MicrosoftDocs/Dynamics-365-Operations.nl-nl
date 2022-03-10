@@ -1,29 +1,26 @@
 ---
 title: Rapporten over onderhoudsverzoeken
 description: In dit onderwerp wordt uitgelegd hoe u rapporten over onderhoudsverzoeken maakt in Activabeheer.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5abb62e7f92f62d4635309625d765e1c081052eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cd0d50bacd43fe66628fec94aead3a2406e8d4e62c1e2e6c3d31afa9073baa6a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425501"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773604"
 ---
 # <a name="maintenance-request-reports"></a>Rapporten over onderhoudsaanvragen
 
@@ -44,7 +41,7 @@ Het rapport **Details van het onderhoudsverzoek** bevat informatie die is gerela
 
 In de volgende afbeelding ziet u een voorbeeld van het rapport **Details onderhoudsverzoek**.
 
-![Rapport met Gegevens over onderhoudsaanvragen](media/09-manage-maintenance-requests.png)
+![Rapport met Gegevens over onderhoudsaanvragen.](media/09-manage-maintenance-requests.png)
 
 ## <a name="create-a-maintenance-request-list-report"></a>Een lijstrapport over een onderhoudsverzoek maken
 
@@ -57,4 +54,7 @@ Het rapport **Lijst onderhoudsverzoeken** bevat een lijst met alle onderhoudsver
 
 In de volgende afbeelding ziet u een voorbeeld van het rapport **Lijst onderhoudsverzoeken** voor alle actieve onderhoudsverzoeken.
 
-![Rapport met lijst van onderhoudsaanvragen](media/10-manage-maintenance-requests.png)
+![Rapport met lijst van onderhoudsaanvragen.](media/10-manage-maintenance-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

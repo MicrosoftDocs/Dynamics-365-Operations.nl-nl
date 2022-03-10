@@ -1,8 +1,8 @@
 ---
-title: Geschiktheidsopties voor persoonlijke contactpersonen configureren
-description: Configureer geschiktheidsopties voor persoonlijke contactpersonen in Microsoft Dynamics 365 Human Resources. Persoonlijke contactpersonen kunnen begunstigden of gezinsleden zijn.
-author: andreabichsel
-ms.date: 06/25/2021
+title: Opties voor geschiktheid van persoonlijke contactpersonen configureren
+description: In dit onderwerp wordt uitgelegd hoe u geschiktheidsopties voor persoonlijke contactpersonen in Microsoft Dynamics 365 Human Resources configureert.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,20 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 071523e2a1e9de6f0ed2b77e4ad6802efb0073f7
-ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
+ms.openlocfilehash: ad9dc9d12bcc419c3925b0f78566d9f3eb0a1e35
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6558244"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070345"
 ---
 # <a name="configure-personal-contact-eligibility-options"></a>Opties voor geschiktheid van persoonlijke contactpersonen configureren
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

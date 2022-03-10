@@ -1,12 +1,10 @@
 ---
 title: Coupons voor detailhandelverkoop instellen
-description: In dit onderwerp vindt u een overzicht van coupons en uitleg over hoe u deze instelt.
-author: scott-tucker
-manager: AnnBe
-ms.date: 06/04/2020
+description: In dit onderwerp vindt u een overzicht van coupons en uitleg over hoe u deze instelt in Dynamics 365 Commerce.
+author: josaw1
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: josaw
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: scotttuc
+ms.author: josaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: eb3b505af826b1881aa8245fff66e6f05ad7486a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
+ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979670"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "7603118"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Coupons voor detailhandelverkoop instellen
 
@@ -40,6 +38,10 @@ Om een coupon te maken, maakt u de korting en de coupon afzonderlijk. U koppelt 
 
 > [!NOTE]
 > Nadat een coupon is gekoppeld aan een korting, worden verschillende velden op de kortingspagina in Commerce alleen-lezen, omdat deze worden beheerd door de instellingen van de coupon. Deze velden zijn de velden voor de status en de standaarddatumbereiken.
+> 
+> Wanneer u de coupon in het callcenterkanaal gebruikt, moet u de knop **Opnieuw berekenen** selecteren **(tabblad Verkopen > Berekenen > Herberekenen)** om de korting die aan het coupon is gekoppeld, toe te staan. Deze extra stap wordt in een toekomstige versie verwijderd.
+
+Als u een coupon wilt toepassen op een verkooptransactie in POS, kunt u **Couponcode** of **Streepjescode van coupon** gebruiken. Als u de **couponcode** wilt gebruiken, moet de bewerking **Couponcode toevoegen** worden geconfigureerd in de [schermindeling](pos-screen-layouts.md) **Transactie** van POS. Selecteer **Couponcode toevoegen** en voer de couponcode in. Als u **Streepjescode van coupon** wilt gebruiken, scant u de streepjescode of voert u de streepjescode in met het numerieke toetsenbord in het scherm **Transactie**.
 
 ### <a name="limited-use-coupons"></a>Coupons met gebruiksbeperkingen
 
@@ -81,3 +83,6 @@ De couponfunctionaliteit omvat meerdere afzonderlijke functies. Commerce Headqua
 - **HQ wordt gedeeltelijk bijgewerkt, maar Commerce Scale Unit en POS worden niet bijgewerkt.** In een HQ-update worden de pagina's Coupon en Korting bijgewerkt en de Commerce-prijsengine wordt ook bijgewerkt. Als slechts een van deze twee onderdelen wordt bijgewerkt, komen sommige pagina's in Commerce niet overeen met de gegevens voor prijsberekening. Daardoor kunnen onverwachte kortingsberekeningen of -fouten optreden tijdens het berekenen van kortingen.
 - **HQ wordt bijgewerkt, maar Commerce Scale Unit en POS worden niet bijgewerkt (N-1).** Omdat niet alle winkels tegelijkertijd kunnen worden bijgewerkt, wordt aangeraden om HQ bij te werken voordat u de winkels bijwerkt. In het scenario N-1 is nieuwe functionaliteit die is gerelateerd aan coupons niet beschikbaar in winkels die nog niet zijn bijgewerkt. De couponfunctionaliteit kan bijvoorbeeld uitsluitingsregels introduceren. Als u uitsluitingsregels gebruikt bij een korting, worden deze niet toegepast in een winkel die een oudere versie uitvoert.
 - **HQ wordt niet bijgewerkt, maar Commerce Scale Unit en POS worden wel bijgewerkt (N+1).** Omdat de bijgewerkte prijsengine in Commerce Scale Unit oudere kortingscodes kan verwerken tijdens prijsberekeningen, zou de update geen functionele invloed moeten hebben in dit scenario.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

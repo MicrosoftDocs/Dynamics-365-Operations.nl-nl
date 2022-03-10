@@ -14,12 +14,12 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: c2efd656b2c76a9d545aa899d424f0ab4f39ece3779b48c1367699eb9e6dd90e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ecd35a1629091b3e699ca443f0380d95b312bff6
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742864"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595407"
 ---
 # <a name="intervat-tax-declaration"></a>INTERVAT-belastingaangifte
 
@@ -140,7 +140,7 @@ Als gebruikers een aangiftecode handmatig kunnen corrigeren, schakelt u het sele
 <tbody>
 <tr>
 <td colspan="3" width="100%">
-<p style="text-align: center;"><strong>Sectie II. Uitvoer</strong></p>
+<p><strong>Sectie II. Uitvoer</strong></p>
 </td>
 </tr>
 <tr>
@@ -258,7 +258,7 @@ Als gebruikers een aangiftecode handmatig kunnen corrigeren, schakelt u het sele
 </tr>
 <tr>
 <td colspan="3" width="100%">
-<p style="text-align: center;"><strong>Sectie III. Invoer</strong></p>
+<p><strong>Sectie III. Invoer</strong></p>
 </td>
 </tr>
 <tr>
@@ -417,7 +417,7 @@ Als gebruikers een aangiftecode handmatig kunnen corrigeren, schakelt u het sele
 </tr>
 <tr>
 <td colspan="3" width="100%">
-<p style="text-align: center;"><strong>Sectie IV. Te betalen belasting</strong></p>
+<p><strong>Sectie IV. Te betalen belasting</strong></p>
 </td>
 </tr>
 <tr>
@@ -488,7 +488,7 @@ Als gebruikers een aangiftecode handmatig kunnen corrigeren, schakelt u het sele
 </tr>
 <tr>
 <td colspan="3" width="100%">
-<p style="text-align: center;"><strong>Sectie V. Aftrekbare belastingen</strong></p>
+<p><strong>Sectie V. Aftrekbare belastingen</strong></p>
 </td>
 </tr>
 <tr>
@@ -526,7 +526,7 @@ Als gebruikers een aangiftecode handmatig kunnen corrigeren, schakelt u het sele
 </tr>
 <tr>
 <td colspan="3" width="100%">
-<p style="text-align: center;"><strong>Sectie VI. Saldo</strong></p>
+<p><strong>Sectie VI. Saldo</strong></p>
 </td>
 </tr>
 <tr>
@@ -553,7 +553,7 @@ Als gebruikers een aangiftecode handmatig kunnen corrigeren, schakelt u het sele
 </tr>
 <tr>
 <td colspan="3" width="100%">
-<p style="text-align: center;"><strong>Sectie VII. Deposito</strong></p>
+<p><strong>Sectie VII. Deposito</strong></p>
 </td>
 </tr>
 <tr>

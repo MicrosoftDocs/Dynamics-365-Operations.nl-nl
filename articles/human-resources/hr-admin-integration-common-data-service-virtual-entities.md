@@ -1,40 +1,42 @@
 ---
 title: Virtuele Dataverse-tabellen configureren
-description: In dit onderwerp wordt beschreven hoe u virtuele tabellen configureert voor Dynamics 365 Human Resources. Genereer bestaande virtuele tabellen, werk ze bij en analyseer gegenereerde en beschikbare tabellen.
-author: andreabichsel
-manager: tfehr
-ms.date: 01/25/2021
+description: In dit onderwerp wordt uitgelegd hoe u bestaande virtuele tabellen kunt configureren, genereren en bijwerken en gegenereerde en beschikbare tabellen voor Dynamics 365 Human Resources kunt analyseren.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: CDSIntegrationAdministration
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cd299b51e38cc30c3e18f3ef9de1f43fa817b840
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: f7ffe522f0f17a21280e53728c6efc2823743733
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112123"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069141"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Virtuele Dataverse-tabellen configureren
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 Dynamics 365 Human Resources is een virtuele gegevensbron in Microsoft Dataverse. De gegevensbron biedt volledige bewerkingen voor maken, lezen, bijwerken en verwijderen vanuit Dataverse en Microsoft Power Platform. De gegevens voor virtuele tabellen worden niet opgeslagen in Dataverse, maar in de toepassingsdatabase.
 
 Als u bewerkingen voor maken, lezen, bijwerken en verwijderen voor entiteiten van Human Resources wilt inschakelen vanuit Dataverse, moet u de entiteiten beschikbaar maken als virtuele tabellen in Dataverse. Op deze manier kunt u bewerkingen voor maken, lezen, bijwerken en verwijderen uitvoeren vanuit Dataverse en Microsoft Power Platform op gegevens in Human Resources. De bewerkingen ondersteunen ook de validaties van de volledige bedrijfslogica van Human Resources om de gegevensintegriteit te waarborgen bij het schrijven van gegevens naar de entiteiten.
 
 > [!NOTE]
-> Human Resources-entiteiten komen overeen met Dataverse-tabellen. Voor meer informatie over Dataverse (voorheen Common Data Service) en bijgewerkte terminologie, zie [Wat is Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Human Resources-entiteiten komen overeen met Dataverse-tabellen. Voor meer informatie over Dataverse (voorheen Common Data Service) en bijgewerkte terminologie, zie [Wat is Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)
 
 ## <a name="available-virtual-tables-for-human-resources"></a>Beschikbare virtuele tabellen voor Human Resources
 
@@ -42,7 +44,7 @@ Alle OData-entiteiten (Open Data Protocol) in Human Resources zijn beschikbaar a
 
 U kunt de lijst met virtuele tabellen die in de omgeving zijn ingeschakeld, weergeven en in [Power Apps](https://make.powerapps.com) met de tabellen gaan werken in de oplossing **Dynamics 365 HR Virtual Tables**.
 
-![Dynamics 365 HR Virtual Tables in Power Apps](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
+![Dynamics 365 HR Virtual Tables in Power Apps.](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
 
 ## <a name="virtual-tables-versus-native-tables"></a>Virtuele tabellen versus native tabellen
 
@@ -51,7 +53,7 @@ Virtuele tabellen voor Human Resources zijn niet hetzelfde als de native Dataver
 De native tabellen voor Human Resources worden afzonderlijk gegenereerd en onderhouden in de HCM Common-oplossing in Dataverse. Met native tabellen worden de gegevens opgeslagen in Dataverse en is synchronisatie met de Human Resources-toepassingdatabase vereist.
 
 > [!NOTE]
-> Zie [Dataverse-tabellen](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities) voor een lijst met de native Dataverse-tabellen voor Human Resources.
+> Zie [Dataverse-tabellen](./hr-developer-entities.md) voor een lijst met de native Dataverse-tabellen voor Human Resources.
 
 ## <a name="setup"></a>Instelling
 
@@ -71,7 +73,7 @@ Zie [Functies beheren](hr-admin-manage-features.md) voor meer informatie over he
 
 ### <a name="register-the-app-in-microsoft-azure"></a>De app registreren in Microsoft Azure
 
-U moet uw Human Resources-exemplaar registreren in de Azure-portal, zodat het Microsoft-identiteitsplatform verificatie- en machtigingsservices kan bieden voor de app en de gebruikers. Ga voor meer informatie over het registreren van apps in Azure naar [Snelstart: Een toepassing registreren bij het Microsoft-identiteitsplatform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+U moet uw Human Resources-exemplaar registreren in de Azure-portal, zodat het Microsoft-identiteitsplatform verificatie- en machtigingsservices kan bieden voor de app en de gebruikers. Ga voor meer informatie over het registreren van apps in Azure naar [Snelstart: Een toepassing registreren bij het Microsoft-identiteitsplatform](/azure/active-directory/develop/quickstart-register-app).
 
 1. Open de [Microsoft Azure-portal](https://portal.azure.com).
 
@@ -93,7 +95,7 @@ U moet uw Human Resources-exemplaar registreren in de Azure-portal, zodat het Mi
 
 10. Geef een omschrijving op, selecteer een duur en selecteer **Toevoegen**.
 
-11. Leg de waarde van het geheim vast. U voert deze gegevens in wanneer u [de gegevensbron van de virtuele tabel configureert](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
+11. Registreer de waarde van het geheim uit de eigenschap **Waarde** van de tabel. U voert deze gegevens in wanneer u [de gegevensbron van de virtuele tabel configureert](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
 
     > [!IMPORTANT]
     > Maak nu een notitie van de waarde van het geheim. Het geheim wordt nooit meer weergegeven nadat u deze pagina hebt verlaten.
@@ -102,27 +104,15 @@ U moet uw Human Resources-exemplaar registreren in de Azure-portal, zodat het Mi
 
 Installeer de Dynamics 365 HR Virtual Table-app in uw Power Apps-omgeving om het pakket van de virtuele tabel te implementeren naar Dataverse.
 
-1. Open het [Power Platform-beheercentrum](https://admin.powerplatform.microsoft.com).
+1. Open in Human Resources de pagina **Integratie met Microsoft Dataverse**.
 
-2. Selecteer in de lijst **Omgevingen** de Power Apps-omgeving die aan uw Human Resources-exemplaar is gekoppeld.
+2. Selecteer het tabblad **Virtuele tabellen**.
 
-3. Selecteer in het gedeelte **Resources** van de pagina de optie **Dynamics 365-apps**.
+3. Selecteer **Virtual Table-app installeren**.
 
-4. Selecteer de actie **App installeren**.
+### <a name="configure-the-virtual-table-data-source"></a>De gegevensbron van de virtuele tabel configureren
 
-5. Selecteer **Dynamics 365 HR Virtual Table** en selecteer **Volgende**.
-
-6. Controleer en markeer om de servicevoorwaarden te accepteren.
-
-7. Selecteer **Installeren**.
-
-De installatie duurt een paar minuten. Wanneer de installatie is voltooid, gaat u door naar de volgende stappen.
-
-![De Dynamics 365 HR Virtual Table-app installeren vanuit het Power Platform-beheercentrum](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
-
-### <a name="configure-the-virtual-table-data-source"></a>De gegevensbron van de virtuele tabel configureren 
-
-In de volgende stap configureert u de gegevensbron van de virtuele tabel in de Power Apps-omgeving. 
+In de volgende stap configureert u de gegevensbron van de virtuele tabel in de Power Apps-omgeving.
 
 1. Open het [Power Platform-beheercentrum](https://admin.powerplatform.microsoft.com).
 
@@ -132,7 +122,10 @@ In de volgende stap configureert u de gegevensbron van de virtuele tabel in de P
 
 4. Selecteer op de **Oplossingsstatushub** het pictogram **Geavanceerd zoeken** in de rechtsbovenhoek van de toepassingspagina.
 
-5. Selecteer op de pagina **Geavanceerd zoeken** in de vervolgkeuzelijst **Zoeken naar** de optie **Finance and Operations Virtual Data Source Configurations**.
+5. Selecteer op de pagina **Geavanceerd zoeken** in de vervolgkeuzelijst **Zoeken naar** de optie **Configuraties voor virtuele Finance and Operations-gegevensbronnen**.
+
+   > [!NOTE]
+   > De installatie van de Virtual Table-app uit de vorige instellingsstap kan enkele minuten duren. Als **Configuraties voor virtuele Finance and Operations-gegevensbronnen** niet beschikbaar is in de lijst, moet u even wachten en de lijst vernieuwen.
 
 6. Selecteer **Resultaten**.
 
@@ -151,13 +144,16 @@ In de volgende stap configureert u de gegevensbron van de virtuele tabel in de P
      >[!NOTE]
      >Vergeet niet het "**/**"-teken aan het einde van de URL toe te voegen om te voorkomen dat er een fout optreedt.
 
+     >[!NOTE]
+     >De doel-URL bepaalt de Human Resources-omgeving waarnaar virtuele tabellen zullen wijzen voor gegevens. Als u een sandboxomgeving maakt door een kopie van uw productieomgeving te maken, moet u deze waarde bijwerken naar de naamruimte-URL van uw nieuwe sandboxomgeving. Hierdoor worden de virtuele tabellen worden verbonden met de gegevens van de sandboxomgeving in plaats van door te blijven verwijzen naar de productieomgeving.
+
    - **Tenant-id**: de tenant-id van Azure Active Directory (Azure AD).
 
    - **AAD-toepassings-id** : de toepassings-id (client) die is gemaakt voor de toepassing die in de Microsoft Azure-portal is geregistreerd. U hebt deze gegevens eerder ontvangen tijdens de stap [De app registreren in Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
 
    - **AAD-toepassingsgeheim**: het clientgeheim dat is gemaakt voor de toepassing die in de Microsoft Azure-portal is geregistreerd. U hebt deze gegevens eerder ontvangen tijdens de stap [De app registreren in Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
 
-   ![Microsoft HR-gegevensbron](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
+   ![Microsoft HR-gegevensbron.](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
 
 9. Selecteer **Opslaan en sluiten**.
 
@@ -186,7 +182,7 @@ Verleen als volgt machtigingen voor de twee Azure AD-toepassingen in Human Resou
 
 Wanneer het instellen is voltooid, kunt u de virtuele tabellen selecteren die u in uw Dataverse-exemplaar wilt genereren en inschakelen.
 
-1. Open in Human Resources de pagina **Integratie met Dataverse**.
+1. Open in Human Resources de pagina **Integratie met Microsoft Dataverse**.
 
 2. Selecteer het tabblad **Virtuele tabellen**.
 
@@ -197,7 +193,7 @@ Wanneer het instellen is voltooid, kunt u de virtuele tabellen selecteren die u 
 
 4. Selecteer **Genereren/vernieuwen**.
 
-![Integratie met Dataverse](./media/hr-admin-integration-common-data-service-integration.jpg)
+![Integratie met Dataverse.](./media/hr-admin-integration-dataverse-integration.png)
 
 ## <a name="check-table-generation-status"></a>Status van het genereren van tabellen controleren
 
@@ -215,9 +211,11 @@ In het uitschuifvenster worden de meest recente uitvoeringsresultaten voor het p
 
 ## <a name="see-also"></a>Zie ook
 
-[Wat is Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
-[Tabellen in Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
-[Overzicht van tabelrelaties](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
-[Virtuele tabellen maken en bewerken die gegevens uit een externe gegevensbron bevatten](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
-[Wat zijn Power Apps-portals?](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
-[Overzicht van het maken van apps in Power Apps](https://docs.microsoft.com/powerapps/maker/)
+[Wat is Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)<br>
+[Tabellen in Dataverse](/powerapps/maker/common-data-service/entity-overview)<br>
+[Overzicht van tabelrelaties](/powerapps/maker/common-data-service/relationships-overview)<br>
+[Virtuele tabellen maken en bewerken die gegevens uit een externe gegevensbron bevatten](/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
+[Wat zijn Power Apps-portals?](/powerapps/maker/portals/overview)<br>
+[Overzicht van het maken van apps in Power Apps](/powerapps/maker/)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

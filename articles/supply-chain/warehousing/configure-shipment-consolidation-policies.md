@@ -10,15 +10,15 @@ ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFi
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 03150ccdaeaf48754f04a4329cb1bc14ea2b6895
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f2705300925ae475f00861327b9cea9a97416011
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840408"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578675"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Consolidatiebeleid voor zendingen configureren
 
@@ -179,7 +179,7 @@ Voer de volgende stappen uit om het beleid voor consolidatie van de zending te m
 1. Laat de optie **Consolideren met openstaande zendingen** ingesteld op *Nee*.
 1. Selecteer **Opslaan** in het actievenster.
 1. Selecteer op het sneltabblad **Consolidatievelden** in de lijst **Resterende velden** de rij waarin het veld **Veldnaam** is ingesteld op *Leveringsmethode*.
-1. Selecteer de knop **Toevoegen** ![Pijl-rechts](media/forward-button.png) om het veld te verplaatsen naar de lijst **Geselecteerde velden**.
+1. Selecteer de knop **Toevoegen** ![pijl naar rechts.](media/forward-button.png) om het veld naar de lijst **Geselecteerde velden** te verplaatsen.
 1. Selecteer **Query bewerken** in het actievenster.
 1. Zoek in het dialoogvenster van de query-editor op het tabblad **Bereik** in het raster de rij waar het veld **Veld** is ingesteld op *Klantrekening* en stel het veld **Criteria** voor die rij in op *US-001*.
 1. Selecteer **Toevoegen** om een rij met de volgende instellingen aan het raster toe te voegen:
@@ -214,7 +214,7 @@ Voer de volgende stappen uit om het beleid voor consolidatie van de zending te m
 1. Stel de optie **Consolideren met openstaande zendingen** in op *Ja*.
 1. Selecteer **Opslaan** in het actievenster.
 1. Selecteer op het sneltabblad **Consolidatievelden** in de lijst **Resterende velden** de rij waarin het veld **Veldnaam** is ingesteld op *Leveringsmethode*.
-1. Selecteer de knop **Toevoegen** ![Pijl-rechts](media/forward-button.png) om het veld te verplaatsen naar de lijst **Geselecteerde velden**.
+1. Selecteer de knop **Toevoegen** ![pijl naar rechts.](media/forward-button.png) om het veld naar de lijst **Geselecteerde velden** te verplaatsen.
 1. Selecteer **Query bewerken** in het actievenster.
 1. Vouw in het dialoogvenster van de query-editor op het tabblad **Joins** de structuur uit en selecteer **Tabellen \> Details laden**.
 1. Selecteer **Tabeljoin toevoegen**.
@@ -251,9 +251,9 @@ Voer de volgende stappen uit om het beleid voor consolidatie van de zending te m
 1. Stel de optie **Consolideren met openstaande zendingen** in op *Ja*.
 1. Selecteer **Opslaan** in het actievenster.
 1. Selecteer op het sneltabblad **Consolidatievelden** in de lijst **Resterende velden** de rij waarin het veld **Veldnaam** is ingesteld op *Bestelopdracht van klant*.
-1. Selecteer de knop **Toevoegen** ![Pijl-rechts](media/forward-button.png) om het veld te verplaatsen naar de lijst **Geselecteerde velden**.
+1. Selecteer de knop **Toevoegen** ![pijl naar rechts.](media/forward-button.png) om het veld naar de lijst **Geselecteerde velden** te verplaatsen.
 1. Selecteer in de lijst **Resterende velden** de rij waarin het veld **Veldnaam** is ingesteld op *Leveringsmethode*.
-1. Selecteer de knop **Toevoegen** ![Pijl-rechts](media/forward-button.png) om het veld te verplaatsen naar de lijst **Geselecteerde velden**.
+1. Selecteer de knop **Toevoegen** ![pijl naar rechts.](media/forward-button.png) om het veld naar de lijst **Geselecteerde velden** te verplaatsen.
 1. Selecteer **Query bewerken** in het actievenster.
 1. Zoek in het dialoogvenster van de query-editor op het tabblad **Bereik** de rij waar het veld **Veld** is ingesteld op *Klantrekening* en stel het veld **Criteria** voor die rij in op *US-001*.
 1. Selecteer **OK** om het dialoogvenster te sluiten.
@@ -283,7 +283,7 @@ Voer de volgende stappen uit om het beleid voor consolidatie van de zending te m
 1. Laat de optie **Consolideren met openstaande zendingen** ingesteld op *Nee*.
 1. Selecteer **Opslaan** in het actievenster.
 1. Selecteer op het sneltabblad **Consolidatievelden** in de lijst **Resterende velden** de rij waarin het veld **Veldnaam** is ingesteld op *Leveringsmethode*.
-1. Selecteer de knop **Toevoegen** ![Pijl-rechts](media/forward-button.png) om het veld te verplaatsen naar de lijst **Geselecteerde velden**.
+1. Selecteer de knop **Toevoegen** ![pijl naar rechts.](media/forward-button.png) om het veld naar de lijst **Geselecteerde velden** te verplaatsen.
 1. Selecteer **Query bewerken** in het actievenster.
 1. Selecteer in de het dialoogvenster van de query-editor op het tabblad **Bereik** de optie **Toevoegen** om een rij met de volgende instellingen aan het raster toe te voegen:
 
@@ -317,7 +317,7 @@ Normaal gesproken kan voor dit bedrijfsscenario het standaardbeleid worden gebru
 1. Laat de optie **Consolideren met openstaande zendingen** ingesteld op *Nee*.
 1. Selecteer **Opslaan** in het actievenster.
 1. Selecteer op het sneltabblad **Consolidatievelden** in het veld **Resterende velden** de rij waarin het veld **Veldnaam** is ingesteld op *Leveringsmethode*.
-1. Selecteer de knop **Toevoegen** ![Pijl-rechts](media/forward-button.png) om het veld te verplaatsen naar de lijst **Geselecteerde velden**.
+1. Selecteer de knop **Toevoegen** ![pijl naar rechts.](media/forward-button.png) om het veld naar de lijst **Geselecteerde velden** te verplaatsen.
 1. Selecteer **Query bewerken** in het actievenster.
 1. Zoek in het dialoogvenster van de query-editor op het tabblad **Bereik** de rij waar het veld **Veld** is ingesteld op *Magazijn* en stel het veld **Criteria** voor die rij in op *61, 63*.
 1. Selecteer **OK** om het dialoogvenster te sluiten.

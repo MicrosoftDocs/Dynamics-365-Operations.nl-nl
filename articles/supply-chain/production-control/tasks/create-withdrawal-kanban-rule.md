@@ -1,27 +1,25 @@
 ---
 title: Een opnamekanbanregel maken
 description: Deze procedure toont de instellingen die nodig zijn om een kanbanregel voor opname te maken om materiaal in een lean-omgeving over te boeken.
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, UnitOfMeasureLookup, KanbanCreate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1694472e20c28a0b0f94c1ced8544b7258c22b40
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ba30e9d09e9eeb0cd7428aafc1195d6b7e7caaa4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007086"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574468"
 ---
 # <a name="create-a-withdrawal-kanban-rule"></a>Een opnamekanbanregel maken
 
@@ -63,3 +61,6 @@ Deze procedure toont de instellingen die nodig zijn om een kanbanregel voor opna
     * Hierdoor worden twee kanbans gemaakt.  
     * Voor deze opnamekanbanregel werden er 2 kanbans gemaakt, voor elk 5.  Dit is de laatste stap in deze procedure.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

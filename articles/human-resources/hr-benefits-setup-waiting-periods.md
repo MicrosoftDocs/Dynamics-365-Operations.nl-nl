@@ -1,8 +1,8 @@
 ---
-title: Wachtperioden configureren
+title: Wachttijden configureren
 description: In Microsoft Dynamics 365 Human Resources vormen wachtdagen een mijlpaal voor gebruik voor vergoedingsplannen.
-author: andreabichsel
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,20 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8e928987a8e25de9c0c5429af1a305ad20b9892d9d3617482ea209af181e3227
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3df65a89ca4b18de2c823ca02fd8daa3da1e9ea6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732580"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066870"
 ---
 # <a name="configure-waiting-periods"></a>Wachtperioden configureren
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -38,7 +41,7 @@ In Microsoft Dynamics 365 Human Resources vormen wachtdagen een mijlpaal voor ge
    | --- | --- |
    | **Wachtcode** | Een unieke id voor de wachtperiode. |
    | **Beschrijving** | Een beschrijving van de wachtperiode. |
-   | **Wachtmethode** | Selecteer de desbetreffende wachtmethode in de vervolgkeuzelijst met waarden. De opties zijn Netto, Huidige maand, Huidig kwartaal, Huidig jaar en Huidige week. |
+   | **Wachtmethode** | Selecteer de desbetreffende wachtmethode in de vervolgkeuzelijst met waarden. De opties zijn **Netto**, **Huidige maand**, **Huidig kwartaal**, **Huidig jaar** en **Huidige week**. |
    | **Maanden** | Het aantal maanden invoeren dat aan de wachtmethode moet worden toegevoegd om de wachtdatum te berekenen. |
    | **Dagen** | Het aantal dagen invoeren dat aan de wachtmethode moet worden toegevoegd om de wachtdatum te berekenen. |
    | **Wachtdag** | Selecteer de wachtdag die moet worden gebruikt voor de berekening van de wachtdatum. |

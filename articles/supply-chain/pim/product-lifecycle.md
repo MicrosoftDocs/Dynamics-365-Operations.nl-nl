@@ -1,29 +1,26 @@
 ---
 title: Overzicht van Levenscyclusstatus van producten
 description: Een levenscyclusstatus documenteert de levenscyclusstatus van een vrijgegeven product of productvariant.
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 01/06/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductLifecycleState, EcoResReleasedProductLifecycleStateChanges
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: cff4ee39d4c27e9a0dfc891e0f95278040ede877
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f71ce701adbe60b69b25e41810dda7adeec1d390
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4999776"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983789"
 ---
 # <a name="product-lifecycle-state-overview"></a>Overzicht van Levenscyclusstatus van producten
 
@@ -108,3 +105,6 @@ Gebruik de volgende criteria voor het selecteren en bijwerken van de vrijgegeven
 - [De status van een productlevenscyclus toewijzen aan een vrijgegeven product](tasks/product-lifecycle-state-released-product.md)
 - [Verouderde productvarianten zoeken en een status voor de productlevenscyclus toewijzen](tasks/obsolete-product-variants.md)
 - [Een status voor de productlevenscyclus maken om producten uit te sluiten van Hoofdplanning](tasks/exclude-products-master-planning.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

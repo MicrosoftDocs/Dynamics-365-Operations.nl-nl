@@ -2,11 +2,9 @@
 title: Aanbevelingen toevoegen aan het transactiescherm
 description: In dit onderwerp wordt beschreven hoe u een besturingselement voor aanbevelingen kunt toevoegen aan het transactiescherm op een POS-apparaat (Point of Sale) met behulp van de schermindelingsontwerper in Microsoft Dynamics 365 Commerce.
 author: bebeale
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6085a69132a4687455282a908d613aa98d2e7a8d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: af76169455cef16467b1faa9eda92a969aa923e85750cf245b0a6bd071a092e8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209246"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731002"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Aanbevelingen toevoegen aan het transactiescherm
 
@@ -45,7 +43,7 @@ U kunt productaanbevelingen op uw POS-apparaat weergeven wanneer u Commerce gebr
 6. Wanneer u zich aanmeldt, wordt er een pagina weergegeven die vergelijkbaar is met de onderstaande pagina. De indeling zal afwijken, afhankelijk van de aanpassingen die voor uw winkel zijn gemaakt.
 
 
-    [![Ontwerper van indeling](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![Ontwerper van indeling.](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>Een weergaveoptie kiezen
 
@@ -60,11 +58,11 @@ Er zijn twee configuratieopties beschikbaar. Kies de optie die het meest geschik
 1. Verklein de hoogte van het detailgebied van de transactieregels zodat het even hoog is als het deelvenster van de klant aan de linkerkant.
 
 
-    [![Hoogte van het detailgebied van de transactieregels verlaagd](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![Hoogte van het detailgebied van de transactieregels verlaagd.](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. Sleep in het menu aan de linkerkant het besturingselement voor aanbevelingen en zet het neer tussen het detailgebied van de transactieregels en het knoppenraster onderaan in het midden van het transactiescherm. Pas de grootte van het besturingselement aan zodat het in die ruimte past.
 
-    [![Het besturings Aanbevelingen is toegevoegd aan de indeling](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![Het besturings Aanbevelingen is toegevoegd aan de indeling.](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 
 3. Klik op **OK** om de indelingsontwerper op te slaan en af te sluiten.
@@ -79,13 +77,13 @@ Er zijn twee configuratieopties beschikbaar. Kies de optie die het meest geschik
 
 2. Klik op **Aanpassen**.
 
-    [![Het dialoogvenster Aanpassing - Tabblad](./media/pic-5.png)](./media/pic-5.png)
+    [![Het dialoogvenster Aanpassing - Tabblad.](./media/pic-5.png)](./media/pic-5.png)
 
 3. Klik op **Nieuw tabblad**.
 4. Zoek naar het nieuwe tabblad dat u zojuist hebt toegevoegd. Wellicht moet u omlaag bladeren.
 5. Selecteer in de vervolgkeuzelijst **Inhoud** **Aanbevolen producten**.
 
-    [![Aanbevolen producten in het veld Inhoud](./media/pic-6.png)](./media/pic-6.png)
+    [![Aanbevolen producten in het veld Inhoud.](./media/pic-6.png)](./media/pic-6.png)
 
 6. Typ in het veld **Label** een naam voor het tabblad Aanbevelingen. Typ bijvoorbeeld Aanbevolen producten.
 7. Selecteer in het veld **Afbeelding** de afbeelding die op het tabblad moet worden weergegeven.

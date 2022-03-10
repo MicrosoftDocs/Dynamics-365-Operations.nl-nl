@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4c5528545e0215b3a3f92b7bd5b492f82274d35a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: db587f5526e0541fc81964d510000a42a671a9bd65224e7167b9d869475c3601
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833037"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763185"
 ---
 # <a name="cost-control-workspace"></a>Werkgebied voor kostenbeheer 
 
@@ -116,7 +116,7 @@ Het werkgebied **Kostenbeheer** is ontworpen als een webrapport. Daarom kan aan 
 
 De lijst met rapporten die beschikbaar zijn voor gebruikers, zoals managers, wordt bepaald door de instelling van de optie **Gepubliceerd** op de pagina **Configuraties van werkgebied voor kostenbeheer**.
 
-![Een rapport dat gebruikers in het werkgebied Kostenbeheer kunnen zien](./media/report-cost-control.png)
+![Een rapport dat gebruikers in het werkgebied Kostenbeheer kunnen zien.](./media/report-cost-control.png)
 
 Een manager kan de fiscale kalenderperiode selecteren om weer te geven. De huidige standaardperiode wordt bepaald door de sessiedatum.
 
@@ -140,7 +140,7 @@ Twee grafieken bevatten een overzicht van werkelijke versus gebudgetteerde waard
 
 Gebruikers kunnen klikken op **Kosteninvoer** om indien nodig in te zoomen op de invoergegevens.
 
-![Kosteninvoer](./media/cost-entries.png)
+![Kosteninvoer.](./media/cost-entries.png)
 
 Huur is bijvoorbeeld een uitgave die naar kostenplaatsen wordt gedistribueerd. Een gebruiker die inzicht wil krijgen in de huurkosten die zijn/haar kostenplaats moet dragen, kan inzoomen om te zien hoe huur wordt berekend.
 
@@ -148,9 +148,9 @@ Als gebruikers klikken op **Toewijzingsgrondslag** op de pagina **Kosteninvoer**
 
 In het volgende voorbeeld is de toewijzingsgrondslag van het type **Toewijzingsgrondslag van formule** en wordt de formule weergegeven. De factoren waarmee de formule wordt gedefinieerd, worden weergegeven. Bovendien wordt in een raster de berekening weergegeven die per kostenplaats wordt uitgevoerd.
 
-![Berekeningen per kostenobject](./media/cost-entries-allocation-base.png)
+![Berekeningen per kostenobject.](./media/cost-entries-allocation-base.png)
 
-Aanvullende resources 
+Aanvullende bronnen 
 
 [Toegangsrechten definiëren voor controllers voor kostenobjecten](access-rights-cost-object-controller.md)
 

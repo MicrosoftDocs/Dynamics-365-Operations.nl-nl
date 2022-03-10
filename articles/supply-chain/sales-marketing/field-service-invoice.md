@@ -1,7 +1,7 @@
 ---
 title: Overeenkomstfacturen in Field Service synchroniseren met vrije-tekstfacturen in Supply Chain Management
 description: Dit onderwerp bespreekt de sjablonen en onderliggende taken die worden gebruikt voor het synchroniseren van overeenkomstfacturen in Dynamics 365 Field Service voor vrije-tekstfacturen in Dynamics 365 Supply Chain Management.
-author: ChristianRytt
+author: Henrikan
 ms.date: 04/10/2018
 ms.topic: article
 ms.prod: ''
@@ -13,21 +13,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: f3066741781bd9058e09d7f577a35df4c9b453d4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 70f1c072c3a2a1b201aac1f1d2beea9979a3b792
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819203"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060759"
 ---
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>Overeenkomstfacturen in Field Service synchroniseren met vrije-tekstfacturen in Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dit onderwerp bespreekt de sjablonen en onderliggende taken die worden gebruikt voor het synchroniseren van facturen in Dynamics 365 Field Service voor vrije-tekstfacturen in Dynamics 365 Supply Chain Management.
 
@@ -68,7 +68,7 @@ De kolom **Heeft oorsprong overeenkomst** is toegevoegd aan de tabel **Factuurre
 **Factuurdatum** is een verplicht veld in Supply Chain Management. De kolom moet daarom een waarde in Field Service hebben voordat de synchronisatie wordt uitgevoerd. Om te voldoen aan deze vereiste wordt de volgende logica toegevoegd:
 
 - Als de kolom **Factuurdatum** leeg is in de tabel **Factuur** (dat wil zeggen er is geen waarde), wordt deze ingesteld op de huidige datum wanneer een factuurregel afkomstig uit een overeenkomst wordt toegevoegd.
-- De gebruiker kan de kolom **Factuurdatum** wijzigen. Wanneer de gebruiker een factuur wil opslaan die afkomstig is uit een overeenkomst, verschijnt een bedrijfsprocesfout als de kolom **Factuurdatum** leeg is op de factuur.
+- De gebruiker kan de kolom **Factuurdatum** wijzigen. Wanneer gebruikers een factuur willen opslaan die afkomstig is uit een overeenkomst, verschijnt een bedrijfsprocesfout als de kolom **Factuurdatum** leeg is op de factuur.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Vereisten en instellingen voor toewijzing
 
@@ -100,11 +100,11 @@ In de volgende afbeeldingen ziet u de sjabloontoewijzing in Gegevensintegratie.
 
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-headers"></a>Overeenkomstfacturen (Field Service naar Supply Chain Management): Factuurkopteksten
 
-[![Sjabloontoewijzing in Gegevensintegratie](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
+[![Sjabloontoewijzing in gegevensintegratie voor factuurkopteksten.](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
 
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Overeenkomstfacturen (Field Service naar Supply Chain Management): Factuurregels
 
-[![Sjabloontoewijzing in Gegevensintegratie](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
+[![Sjabloontoewijzing in gegevensintegratie voor factuurregels.](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

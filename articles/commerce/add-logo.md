@@ -2,16 +2,13 @@
 title: Een logo toevoegen
 description: In dit onderwerp wordt beschreven hoe u een logo aan uw site toevoegt in Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-manager: AnnBe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,20 +16,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f15680deb0eab763ba68f2897139c915d1f8a6a3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 583462755838e51b4c988b8da057dbeeee773e0b
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411325"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964574"
 ---
 # <a name="add-a-logo"></a>Een logo toevoegen
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u een logo aan uw site toevoegt in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 Wanneer u uw site bouwt, is het toevoegen van uw bedrijfs- of merklogo aan de koptekst van de site waarschijnlijk een van de eerste dingen die u doet. De online modulebibliotheek van Dynamics 365 Commerce bevat een module die deze taak gemakkelijk maakt.
 
@@ -60,13 +55,11 @@ Als u het bijgewerkte koptekstfragment publiceert, wordt uw logo weergegeven op 
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-[Selecteer een thema voor de site](select-site-theme.md)
+[Een thema voor de site selecteren](select-site-theme.md)
 
 [Werken met CSS-overschrijvingsbestanden](css-override-files.md)
 
 [Een favicon toevoegen](add-favicon.md)
-
-[Een welkomstbericht toevoegen](add-welcome-message.md)
 
 [Een auteursrechtmelding toevoegen](add-copyright-notice.md)
 
@@ -74,3 +67,6 @@ Als u het bijgewerkte koptekstfragment publiceert, wordt uw logo weergegeven op 
 
 [Scriptcode toevoegen aan sitepagina's voor ondersteuning van telemetrie](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

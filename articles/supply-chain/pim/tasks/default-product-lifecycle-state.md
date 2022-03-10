@@ -1,7 +1,7 @@
 ---
 title: Een standaardstatus voor de productlevenscyclus maken
 description: Deze procedure laat zien hoe u een standaardstatus voor een productlevenscyclus maakt en hoe u de standaardstatus koppelt aan vrijgegeven producten.
-author: cvocph
+author: t-benebo
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b62d47f52da7f9e18bce401578a5e2a629ac5eb8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a628ed2b609f48c22076f409889c212e4d9463ac
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818128"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578195"
 ---
 # <a name="create-a-default-product-lifecycle-state"></a>Een standaardstatus voor de productlevenscyclus maken
 

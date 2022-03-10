@@ -2,11 +2,9 @@
 title: Gewogen gemiddelde met fysieke waarde en markering
 description: Het gewogen gemiddelde is een voorraadmodel dat is gebaseerd op het gewogen-gemiddeldeprincipe, waarbij uitgiften vanuit de voorraad worden gewaardeerd op de gemiddelde waarde van de artikelen die in de voorraad worden ontvangen gedurende de voorraadafsluitingsperiode, plus eventuele voorhanden voorraad van de vorige periode.
 author: AndersGirke
-manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 65501
 ms.assetid: 25041ff0-bafe-484d-a94a-e1772ad43204
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8d62dbcd0e9aee55486f6e46a30a3cc0d3bf327
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d94e61384ad2d0880a6d62b963e9a99518a41db1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262400"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571996"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>Gewogen gemiddelde met fysieke waarde en markering
 
@@ -67,7 +65,7 @@ In het scenario in de volgende secties zijn een financieel bijgewerkte ontvangst
 
 In het volgende diagram wordt voor deze reeks transacties geïllustreerd wat het effect is van het kiezen van het gewogen gemiddelde voorraadmodel en het principe van directe vereffening zonder de optie Fysieke waarde opnemen. 
 
-![Gewogen gemiddelde DS zonder de optie fysieke waarde opnemen](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
+![Gewogen gemiddelde DS zonder de optie fysieke waarde opnemen.](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Uitleg bij diagram**
 - Voorraadtransacties worden aangegeven met verticale pijlen.
@@ -101,7 +99,7 @@ De volgende transacties worden in de onderstaande afbeelding geïllustreerd:
 
 In het volgende diagram wordt voor deze reeks transacties geïllustreerd wat het effect is van het kiezen van het gewogen gemiddelde voorraadmodel en het principe van samengevatte vereffening zonder de optie Fysieke waarde opnemen. 
 
-![Gewogen gemiddelde SS zonder de optie fysieke waarde opnemen](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Gewogen gemiddelde SS zonder de optie fysieke waarde opnemen.](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Uitleg bij diagram**
 - Voorraadtransacties worden aangegeven met verticale pijlen.
@@ -130,7 +128,7 @@ In de onderstaande afbeelding worden de volgende transacties geïllustreerd:
 
 In het volgende diagram wordt voor deze reeks transacties geïllustreerd wat het effect is van het kiezen van het gewogen gemiddelde voorraadmodel en het principe van directe vereffening met de optie Fysieke waarde opnemen. 
 
-![Gewogen gemiddelde DS met fysieke waarde opnemen](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
+![Gewogen gemiddelde DS met fysieke waarde opnemen.](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **Uitleg bij diagram**
 - Voorraadtransacties worden aangegeven met verticale pijlen.
@@ -163,7 +161,7 @@ De volgende transacties worden in de onderstaande afbeelding geïllustreerd:
 
 In het volgende diagram wordt voor deze reeks transacties geïllustreerd wat het effect is van het kiezen van het gewogen gemiddelde voorraadmodel en het principe van samengevatte vereffening zonder de optie Fysieke waarde opnemen. 
 
-![Gewogen gemiddelde SS met de optie fysieke waarde](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
+![Gewogen gemiddelde SS met de optie fysieke waarde.](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **Uitleg bij diagram**
 - Voorraadtransacties worden aangegeven met verticale pijlen.
@@ -211,7 +209,7 @@ De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en 
 
 In het volgende diagram wordt voor deze reeks transacties het effect geïllustreerd van het kiezen van het gewogen gemiddelde voorraadmodel met markering. 
 
-![Gewogen gemiddelde met markering](./media/weightedaveragewithmarking.gif) 
+![Gewogen gemiddelde met markering.](./media/weightedaveragewithmarking.gif) 
 
 **Uitleg bij diagram**
 - Voorraadtransacties worden aangegeven met verticale pijlen.

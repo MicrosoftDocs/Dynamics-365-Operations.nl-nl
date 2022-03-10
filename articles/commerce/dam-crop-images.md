@@ -2,15 +2,12 @@
 title: Afbeeldingen bijsnijden
 description: In dit onderwerp wordt beschreven hoe u afbeeldingen bijsnijdt in Microsoft Dynamics 365 Commerce Site Builder.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a8f52c22a57d465ce1c2bedac6e8f13db3e856c0
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: cb6049a1d98b7286658403b15a071f6f1389f725a9a7a146aab55d43796be60b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594473"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744505"
 ---
 # <a name="crop-images"></a>Afbeeldingen bijsnijden
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u afbeeldingen bijsnijdt in Microsoft Dynamics 365 Commerce Site Builder.
-
-## <a name="overview"></a>Overzicht
 
 Met de mediabibliotheek van Commerce Site Builder kunt u afbeeldingen bijsnijden om deze te optimaliseren voor verschillende moduletypen en viewports.
 
@@ -66,3 +61,6 @@ Nadat de afbeelding is bijgesneden, worden de wijzigingen in de afbeelding vrijw
 [Focuspunten van afbeelding aanpassen](dam-custom-focal-point.md)
 
 [Statische bestanden uploaden en verwerken](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

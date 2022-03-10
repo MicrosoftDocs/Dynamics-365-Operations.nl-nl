@@ -1,27 +1,25 @@
 ---
 title: Werkcellen voor lean manufacturing definiëren
 description: Een werkcel is een specifiek formulier van resourcegroepen die kan worden gebruikt in de activiteiten van het lean manufacturingproces.
-author: cvocph
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WrkCtrResourceGroup, InventLocationIdLookup, UnitOfMeasureLookup, DimensionLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 96c65690b7d67bffc2cf09c4ea34c84755f8530a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5f1144bd9f99fef44210c2a01f71a39488354ccf
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001544"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576779"
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>Werkcellen voor lean manufacturing definiëren
 
@@ -99,3 +97,6 @@ Een werkcel is een specifiek formulier van resourcegroepen die kan worden gebrui
 ## <a name="save"></a>Opslaan
 1. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

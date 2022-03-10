@@ -1,7 +1,7 @@
 ---
 title: Velden configureren voor de mobiele app Magazijnbeheer
 description: In dit onderwerp wordt beschreven hoe u veldnamen en prioriteiten van velden die worden weergegeven in de mobiele app Magazijnbeheer kunt definiëren en configureren.
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 269434
 ms.assetid: 6cf3d7da-29bb-4d3d-aaf5-544ca9cc2980
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 31b1d9e26a5c21a6be5fd89992316e1d6e657c183a71d5155d8d76e83362c845
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c9c1d921f68538d5b84db16b1e88e28147e6b41
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721146"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902291"
 ---
 # <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Velden configureren voor de mobiele app Magazijnbeheer
 
@@ -50,7 +50,7 @@ Wanneer u Magazijnbeheer op uw mobiele apparaat gebruikt, kunt u configureren ho
 <tbody>
 <tr class="odd">
 <td>Geprefereerde invoermethode</td>
-<td>Met deze optie wordt bepaald of het veld Scannen of een invoerveld voor handmatige invoer moet worden weergegeven voor de geselecteerde veldnaam. Dit is handig om velden te onderscheiden, afhankelijk van de vraag of er streepjescodes voor het veld worden gebruikt. <strong>Opmerking:</strong> voor veldnamen waarvan de gewenste invoermodus is ingesteld op <strong>Scannen</strong>, kunt u gegevens handmatig invoeren als de streepjescode onleesbaar of is beschadigd is.</td>
+<td>Met deze optie wordt bepaald of het veld Scannen of een invoerveld voor handmatige invoer moet worden weergegeven voor de geselecteerde veldnaam. Dit is handig om velden te onderscheiden, afhankelijk van de vraag of er streepjescodes voor het veld worden gebruikt. <strong>Opmerking:</strong> voor veldnamen waarvan de gewenste invoermodus is ingesteld op <strong>Scannen</strong>, kunt u gegevens handmatig invoeren als de streepjescode onleesbaar of beschadigd is.</td>
 </tr>
 <tr class="even">
 <td>Invoertype</td>

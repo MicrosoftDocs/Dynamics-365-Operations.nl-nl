@@ -1,27 +1,25 @@
 ---
 title: Het in- en uitchecken van een chauffeur voor een afspraak registreren
 description: Deze procedure laat zien hoe u een in-/uitcheckstatus van de chauffeur registreert.
-author: ShylaThompson
-manager: tfehr
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSDriverLogListPage, TMSDriverCheckIn
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9de0609db95e5b76d04ae78202762cfdf2159f04
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d1e7e383d72f45b9b3ea69dcff7b3534a2a3d22f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5004972"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567722"
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>Het in- en uitchecken van een chauffeur voor een afspraak registreren
 
@@ -45,3 +43,6 @@ Deze procedure laat zien hoe u het in- en uitchecken van een chauffeur registree
 1. Klik op Uitchecken chauffeur
 2. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

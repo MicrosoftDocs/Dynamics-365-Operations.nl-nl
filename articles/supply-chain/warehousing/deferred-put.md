@@ -1,26 +1,24 @@
 ---
 title: Uitgestelde verwerking van magazijnwerk
 description: In dit onderwerp wordt de functionaliteit beschreven die uitgestelde verwerking van wegzetbewerkingen in magazijnwerk beschikbaar maakt in Dynamics 365 Supply Chain Management.
-author: josaw1
-manager: tfehr
+author: Mirzaab
 ms.date: 11/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: perlynne
+ms.author: mirzaab
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c85dd895e18805da2d1daf5f90f64db82bdc0116
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f99e960ffe7ca383563cc49c2e0825592ef5de57
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973780"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577859"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Uitgestelde verwerking van magazijnwerk
 
@@ -30,7 +28,7 @@ In dit onderwerp wordt de functionaliteit beschreven die uitgestelde verwerking 
 
 Met de functionaliteit voor uitgestelde verwerking kunnen magazijnmedewerkers doorgaan met ander werk terwijl de wegzetbewerking op de achtergrond wordt verwerkt. Uitgestelde verwerking is nuttig wanneer veel werkregels moeten worden verwerkt en de werknemer dat werk asynchroon kan laten verwerken. Het is ook handig wanneer de server ad-hoc of niet-geplande verhogingen in verwerkingstijd kan hebben, en de toegenomen verwerkingstijd kan invloed hebben op de productiviteit van de gebruiker.
 
-Verwerking in de achtergrond wordt bereikt met het SysOperation-Framework. Zie [Overzicht SysOperation Framework](https://docs.microsoft.com/dynamicsax-2012/developer/sysoperation-framework-overview) voor meer informatie.
+Verwerking in de achtergrond wordt bereikt met het SysOperation-Framework. Zie [Overzicht SysOperation Framework](/dynamicsax-2012/developer/sysoperation-framework-overview) voor meer informatie.
 
 ## <a name="configuring-the-work-processing-policies"></a>Het beleid voor werkverwerking configureren
 
@@ -109,3 +107,9 @@ De werkruimte **Uitgaand werk bewaken** bevat twee tegels waarmee u uitgestelde 
 ## <a name="deleting-completed-tasks"></a>Voltooide taken verwijderen
 
 U kunt uitgestelde wegzetverwerkingstaken die zijn voltooid verwijderen door ze op de pagina te selecteren en te verwijderen.
+
+## <a name="additional-resources"></a>Aanvullende bronnen
+
+- [Uitgestelde verwerking van handmatige bewerking voor voorraadmutatie](deferred-processing-manual-inventory-movement.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

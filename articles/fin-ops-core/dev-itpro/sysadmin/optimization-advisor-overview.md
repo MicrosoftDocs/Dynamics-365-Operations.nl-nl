@@ -3,25 +3,24 @@ title: Overzicht van Optimalisatie-advies
 description: In dit onderwerp wordt beschreven hoe u Optimization advisor kunt gebruiken om een optimale configuratie van Finance and Operations te garanderen.
 author: roxanadiaconu
 ms.date: 07/23/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 37cc903c97fc4838a8017419ba392256f37fe019
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8039ff51dfb07bbdf5d6a102de1ff4ddbfd907a5
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745950"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984097"
 ---
 # <a name="optimization-advisor-overview"></a>Overzicht van Optimalisatie-advies
 

@@ -2,8 +2,7 @@
 title: Lijst met ER-functies in de datum- en tijdcategorie
 description: Dit onderwerp biedt informatie over de datum- en tijdfuncties die worden ondersteund in ER (Elektronische rapportage).
 author: NickSelin
-ms.date: 12/05/2019
-ms.topic: article
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dd8524c9cd368f0fe64347e3212b419bb0902b4
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0a0322e5490474e21ad91076ecc486f38a776e32
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744556"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890772"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>Lijst met ER-functies in de datum- en tijdcategorie
 
@@ -32,13 +31,14 @@ Datum- en tijdfuncties in ER kunnen worden gebruikt om informatie te extraheren 
 
 | Functie | Beschrijving |
 |----------|-------------|
-| [AddDays](er-functions-datetime-adddays.md) | Deze functie retourneert een waarde van het type *DateTime* voor het opgegeven aantal dagen vóór of na een opgegeven begindatum. |
-| [DateFormat](er-functions-datetime-dateformat.md) | Deze functie retourneert een waarde van het type *Tekenreeks* voor een bepaalde datumwaarde als tekst in de opgegeven indeling en in een optioneel opgegeven cultuur. |
+| [AddDays](er-functions-datetime-adddays.md) | Deze functie retourneert een waarde van het type *[DateTime](er-formula-supported-data-types-primitive.md#datetime)* voor het opgegeven aantal dagen vóór of na een opgegeven begindatum. |
+| [ChangeTimeZone](er-functions-datetime-changetimezone.md) | Deze functie retourneert een waarde van het type *DateTime* die wordt geconverteerd van een bepaalde datum-/tijdwaarde naar een datum-/tijdwaarde in een andere tijdzone. |
+| [DateFormat](er-functions-datetime-dateformat.md) | Deze functie retourneert een waarde van het type *[Tekenreeks](er-formula-supported-data-types-primitive.md#string)* voor een bepaalde datumwaarde als tekst in de opgegeven indeling en in een optioneel opgegeven cultuur. |
 | [DateTimeFormat](er-functions-datetime-datetimeformat.md) | Deze functie retourneert een waarde van het type *Tekenreeks* voor een bepaalde datum-/tijdwaarde als tekst in de opgegeven indeling en in een optioneel opgegeven cultuur. |
 | [DateTimeValue](er-functions-datetime-datetimevalue.md) | Deze functie retourneert een waarde van het type *DateTime* die van een bepaalde tekstwaarde in de opgegeven indeling en in een optioneel opgegeven cultuur wordt geconverteerd naar een datum-/tijdwaarde. |
 | [DateToDateTime](er-functions-datetime-datetodatetime.md) | Deze functie retourneert een waarde van het type *DateTime* die wordt geconverteerd van een bepaalde datumwaarde naar een datum-/tijdwaarde in Coordinated Universal Time (Greenwich Mean Time \[GMT\]). |
-| [DateValue](er-functions-datetime-datevalue.md) | Deze functie retourneert een *datumwaarde* die van een bepaalde tekstwaarde in de opgegeven indeling en in een optioneel opgegeven cultuur wordt geconverteerd naar een datumwaarde. |
-| [DayOfYear](er-functions-datetime-dayofyear.md) | Deze functie retourneert een *geheel getal* dat staat voor het aantal dagen tussen 1 januari en de opgegeven datum. |
+| [DateValue](er-functions-datetime-datevalue.md) | Deze functie retourneert een waarde voor *[Datum](er-formula-supported-data-types-primitive.md#date)* die van een bepaalde tekstwaarde in de opgegeven indeling en in een optioneel opgegeven cultuur wordt geconverteerd naar een datumwaarde. |
+| [DayOfYear](er-functions-datetime-dayofyear.md) | Deze functie retourneert een *[geheel getal](er-formula-supported-data-types-primitive.md#integer)* dat staat voor het aantal dagen tussen 1 januari en de opgegeven datum. |
 | [Dagen](er-functions-datetime-days.md) | Deze functie retourneert een *geheel getal* dat staat voor het aantal dagen tussen de ene en een andere opgegeven datum. |
 | [Now](er-functions-datetime-now.md) | Deze functie retourneert een waarde van het type *DateTime* die voor de huidige datum en tijd van de toepassingsserver staat. |
 | [NullDate](er-functions-datetime-nulldate.md) | Deze functie retourneert een *datumwaarde* die voor de **nuldatum** staat (1 januari 1900). |
@@ -46,8 +46,9 @@ Datum- en tijdfuncties in ER kunnen worden gebruikt om informatie te extraheren 
 | [SessionNow](er-functions-datetime-sessionnow.md) | Deze functie retourneert een waarde van het type *DateTime* die voor de huidige sessiedatum en -tijd van de toepassingsserver staat. |
 | [SessionToday](er-functions-datetime-sessiontoday.md) | Deze functie retourneert een *datumwaarde* die voor de huidige sessiedatum van de toepassingsserver staat. |
 | [Vandaag](er-functions-datetime-today.md) | Deze functie retourneert een *datumwaarde* die voor de huidige datum van de toepassingsserver staat. |
+| [WeekNum](er-functions-datetime-weeknum.md) | Deze functie retourneert een waarde van het type *Geheel getal* die de week van het jaar vertegenwoordigt. |
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van elektronische rapportage](general-electronic-reporting.md)
 

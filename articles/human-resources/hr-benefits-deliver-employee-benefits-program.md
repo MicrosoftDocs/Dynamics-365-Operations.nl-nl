@@ -1,31 +1,33 @@
 ---
 title: Vergoedingenprogramma voor werknemers maken
-description: In dit artikel leest u hoe u vergoedingselementen maakt die worden gebruikt bij het maken van een nieuwe vergoeding.
-author: andreabichsel
-ms.date: 02/03/2020
+description: In dit onderwerp wordt uitgelegd hoe u vergoedingselementen maakt die worden gebruikt bij het maken van een nieuwe vergoeding.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBenefitPlanLookup, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: f55301c1fe7807860e9e9e1e881f3456d734f9f0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 868ddb9b372b90ec75a5f35ebf3c987f2d39bd74
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805917"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066063"
 ---
 # <a name="deliver-employee-benefits-program"></a>Vergoedingenprogramma voor werknemers maken
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit artikel leest u hoe u vergoedingselementen maakt die worden gebruikt bij het maken van een nieuwe vergoeding. Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF. Deze taak is bedoeld voor een Manager compensatie en vergoedingen.
+In dit onderwerp wordt uitgelegd hoe u vergoedingselementen maakt die worden gebruikt bij het maken van een nieuwe vergoeding. Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF. Deze taak is bedoeld voor een Manager compensatie en vergoedingen.
 
 
 ## <a name="create-benefit-elements"></a>Vergoedingselementen maken

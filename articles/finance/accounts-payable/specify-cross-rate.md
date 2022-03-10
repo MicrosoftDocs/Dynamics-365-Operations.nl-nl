@@ -2,11 +2,9 @@
 title: De indirecte wisselkoers opgeven
 description: Dit onderwerp biedt informatie over indirecte wisselkoersen in Microsoft Dynamics 365 Finance.
 author: abruer
-manager: AnnBe
 ms.date: 05/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 317cad877cec4d9f02f53762af65f0b226d0aad6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c46ac3324a985810ede61072190014538d0b7ed36f7eedfc387468619cc88cb2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979383"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737012"
 ---
 # <a name="specify-the-cross-rate"></a>De indirecte wisselkoers opgeven
 
@@ -43,3 +41,6 @@ De boekhoudvaluta is bijvoorbeeld USD, de factuurvaluta is CAD en de betalingsva
 3.  Ga voor een klant op de lijstpagina **Alle klanten** naar **Verzamelen > Openstaande transacties vereffenen**. Ga voor een leverancier op de lijstpagina **Alle leveranciers** naar **Factuur > Openstaande transacties vereffenen**. 
 4.  Selecteer de transactie die de primaire betaling vormt en klik vervolgens op **Betaling markeren**. Het selectievakje in de kolom **Markeren** is ingeschakeld en er wordt een informatiepictogram weergegeven in de kolom **Primaire betaling**. 
 5.  Voer in het veld **Indirecte wisselkoers** de wisselkoers in tussen de factuurvaluta en de betalingsvaluta die geldt op de vereffeningsdatum. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

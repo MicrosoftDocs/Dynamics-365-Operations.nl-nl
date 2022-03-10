@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0a79986e3b477865bc1816a1d28c1b7094ae3974
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1090d95d381a047e77bca3e18ef7b99151ea3d5f941f2d6c9e4877a339f1385e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809801"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761063"
 ---
 # <a name="add-fault-to-work-order"></a>Fout aan werkorder toevoegen
 
@@ -50,7 +50,7 @@ Aan een werkorder kunt u fouten toevoegen die in de foutontwerper zijn ingesteld
 
 In de onderstaande afbeelding ziet u een voorbeeld van een foutregistratie.
 
-![Figuur 1](media/19-work-orders.png)
+![Figuur 1.](media/19-work-orders.png)
 
 
 ## <a name="view-asset-faults"></a>Activafouten weergeven

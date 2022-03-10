@@ -1,30 +1,27 @@
 ---
 title: Veelgestelde vragen (FAQ) over productgerelateerde vertalingen
 description: Dit onderwerp beschrijft hoe u vertalingen voor producten, productdimensiewaarden en productkenmerken kunt beheren.
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysTranslationDetail, SysTranslationLanguage, SysTranslationList, EcoResProductListPage, EcoResProductVariants, EcoResProductDetailsExtended, EcoResProductCreate, EcoResProductDetails, RetailSizeGroupTable, RetailStyleGroupTable, RetailColorGroupTable, PCTranslationLanguageLookup, EcoResProductCategory
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 201853
 ms.assetid: c0286bba-f54b-42de-904c-81fd796bdd1d
 ms.search.region: global
 ms.search.industry: Product information
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08cdf168ab64a34e781c85db2990f483ce7f7463
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 24a341973b8648b1a697c8c07b6ecbc808e0e504
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425290"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570479"
 ---
 # <a name="product-related-translations-faq"></a>Veelgestelde vragen (FAQ) over productgerelateerde vertalingen
 
@@ -32,8 +29,7 @@ ms.locfileid: "4425290"
 
 Dit onderwerp beschrijft hoe u vertalingen voor producten, productdimensiewaarden en productkenmerken kunt beheren. 
 
-<a name="what-product-related-data-can-be-translated"></a>Welke productgerelateerde gegevens kunnen worden vertaald?
---------------------------------------------
+## <a name="what-product-related-data-can-be-translated"></a>Welke productgerelateerde gegevens kunnen worden vertaald?
 
 U kunt vertalingen voor de volgende productgerelateerde informatie maken:
 -   Namen en omschrijvingen van producten.
@@ -113,9 +109,9 @@ Uw bedrijf maakt T-shirts in verschillende stijlen en elke stijl is beschikbaar 
 Een dimensiewaarde die aan een product is gekoppeld door een dimensievariantgroep moet worden beheerd vanaf de productvariantgroep.   
 Volg deze stappen om een dimensiewaardegroep te maken:
 1.  Klik op **Productgegevensbeheer** &gt; **Instellen** &gt; **Variantgroepen**.
-2.  Selecteer **Groottegroepen**, **Kleurgroepen** of **Stijlgroepen**.
+2.  Selecteer **Grootte** **groepen**, **Kleurgroepen** of **Stijlgroepen**.
 3.  Klik op **Nieuw**, en typ vervolgens een naam voor de groep in het veld **Grootte** **groep**, **Kleurgroep** of **Stijlgroep**. Klik op **Afmetingen**, **Kleuren** of **Stijlen** om regels voor de groepen te maken.
-4.  Klik op de pagina **Groottegroepregels**,**Kleurgroepregels** of **Stijlgroepregels** op **Nieuw**, en maak de grootte, de kleuren en de stijlen voor de groepen.
+4.  Klik op de pagina **Groottegroep** regels, **Kleurgroepregels** of **Stijlgroepregels** op **Nieuw** en maak vervolgens de grootten, de kleuren en de stijlen voor de groepen.
 
 Om vertalingen voor waarden in een dimensiewaardegroep te beheren, volgt u deze stappen:
 1.  Volg de stappen in de vorige procedure om een dimensiewaardegroep te maken om de pagina **Groottegroepregels**, **Kleurgroepregels** of **Stijlgroepregels** te openen.
@@ -128,3 +124,6 @@ Vertalingen van productgerelateerde informatie kunnen op elk moment worden behee
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

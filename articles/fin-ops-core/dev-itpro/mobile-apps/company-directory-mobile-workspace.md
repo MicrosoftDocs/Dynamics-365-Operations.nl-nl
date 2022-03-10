@@ -2,7 +2,6 @@
 title: Mobiel werkgebied Adresboek van bedrijf
 description: Dit onderwerp bevat informatie over het mobiele werkgebied Adresboek van bedrijf, waarmee gebruikers andere werknemers in hun organisatie kunnen bekijken en contact met hen kunnen opnemen.
 author: jcart1106
-manager: AnnBe
 ms.date: 09/17/2019
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6f48d369d5cd9d5ee0b234ce924ec0b80388c792
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 2152d89e7d60a74e8d7561ea888e60cff42dd1ffd0ec697fac371aad9b85383c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570111"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720643"
 ---
 # <a name="company-directory-mobile-workspace"></a>Mobiel werkgebied Adresboek van bedrijf
 
@@ -78,7 +77,7 @@ Download en installeer de mobiele Finance and Operations-app:
 3.  De eerste keer dat u zich aanmeldt, wordt u gevraagd uw gebruikersnaam en wachtwoord in te voeren. Voer uw referenties in.
 4.  Nadat u zich hebt aangemeld, worden de beschikbare werkgebieden voor uw bedrijf weergegeven. Houd er rekening mee dat als uw systeembeheerder later een nieuw werkgebied publiceert, u de lijst met mobiele werkgebieden moet vernieuwen.
 
-[![Opvragen om te vernieuwen](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Opvragen om te vernieuwen.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-company-directory-by-using-the-mobile-workspace"></a>Het adresboek van het bedrijf weergeven met het mobiele werkgebied
 1.  Selecteer in de mobiele app het werkgebied **Adresboek van bedrijf**. Er wordt een lijst met werknemers weergegeven.

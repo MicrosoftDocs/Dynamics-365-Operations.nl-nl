@@ -2,11 +2,9 @@
 title: Aanvulling boven locatiecapaciteit
 description: Dit onderwerp biedt informatie over de functie Aanvulling boven locatiecapaciteit. Deze functie schakelt alle aanvullingswerk in dat nodig is voor de dag om te worden gemaakt en beheert de beschikbaarheid van dat aanvullingswerk om ervoor te zorgen dat de verzamellocatie niet door voorraad heen raakt en ook niet boven de capaciteit komt.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSLocationLimit
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 1e4acfea3484acaafd982d0f22c2303f921f909f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: 6ff9f133010ec4370a99c585259aece4e279f801
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228388"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778202"
 ---
 # <a name="replenishment-over-location-capacity"></a>Aanvulling boven locatiecapaciteit
 
@@ -34,7 +32,7 @@ Met de functie kan meer aanvullingswerk worden gemaakt dan op een locatie past e
 
 Als u deze functie beschikbaar wilt maken, schakelt u de volgende functies in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in (in deze volgorde):
 
-1. Werk blokkeren voor de hele organisatie
+1. Werk blokkeren voor de hele organisatie (vanaf Supply Chain Management versie 10.0.21 is deze functie verplicht, waardoor deze standaard wordt ingeschakeld en niet meer kan worden uitgeschakeld.)
 1. Aanvulling boven locatiecapaciteit
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>De functie instellen voor het voorbeeldscenario
@@ -241,7 +239,7 @@ Afhankelijk van de voorhanden hoeveelheden kunnen de hoeveelheden werk die worde
 
 #### <a name="on-hand-inventory-license-plate-id"></a>Nummerplaat-id van voorhanden voorraad
 
-Verderop in dit scenario gebruikt u de magazijn-app (of een emulator), waarin u de licentieplaat moet identificeren om de scenario's voor verzameling en aanvulling te voltooien.
+Verderop in dit scenario gebruikt u de mobiele app Magazijnbeheer (of een emulator), waarin u de nummerplaat moet identificeren om de scenario's voor verzameling en aanvulling te voltooien.
 
 Voer de volgende stappen uit om de nummerplaat-id's te vinden die u later nodig hebt.
 
@@ -266,7 +264,7 @@ U voert de magazijnlocatieaanvulling uit voor de eerste twee werk-Id's. Werk aan
 
 #### <a name="replenishment"></a>Aanvulling
 
-1. Meld u aan bij de magazijnapp als een gebruiker in magazijn *61*. (Geef *61* op als gebruikers-id en *1* als wachtwoord.)
+1. Meld u aan bij de mobiele app Magazijnbeheer als een gebruiker in magazijn *61*. (Geef *61* op als gebruikers-id en *1* als wachtwoord.)
 1. Ga naar **Voorraad \> Aanvulling**.
 
     U wordt gevraagd om het eerste aanvullingswerk te voltooien. Het artikelnummer, de hoeveelheid en de locatie waar moet worden verzameld, worden weergegeven.
@@ -296,7 +294,7 @@ Dit aanvullingswerk blijft geblokkeerd tot er voldoende voorraad is verzameld va
 
 Voordat de resterende aanvullingswerktaak kan worden voltooid, moet de voorraad op de verzamellocatie worden verminderd tot een niveau waarop het resterende aanvullingswerk kan worden gedeblokkeerd. Met andere woorden, de som van de hoeveelheid voorhanden voorraad op de locatie en de aanvullingshoeveelheid mogen de waarde **Overschrijdingshoeveelheid** niet overschrijden. Wanneer deze som kleiner is dan de overschrijdingshoeveelheid, wordt het resterende aanvullingswerk gedeblokkeerd.
 
-1. Meld u aan bij de magazijnapp als een gebruiker in magazijn *61*. (Geef *61* op als gebruikers-id en *1* als wachtwoord.)
+1. Meld u aan bij de mobiele app Magazijnbeheer als een gebruiker in magazijn *61*. (Geef *61* op als gebruikers-id en *1* als wachtwoord.)
 1. Ga naar **Uitgaand \> Orderverzamelen**.
 1. Voer de eerste werk-id voor verkooporder 1 in.
 

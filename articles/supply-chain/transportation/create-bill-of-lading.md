@@ -1,12 +1,10 @@
 ---
 title: Een vrachtbrief maken
 description: In dit onderwerp wordt uitgelegd hoe u een vrachtbrief maakt wanneer u gebruik maakt van de processen voor magazijnbeheer.
-author: MarkusFogelberg
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSBillOfLading, WHSLoadPlanningWorkbench, WHSBillOfLadingCarrier, WHSBillOfLadingOrder
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 193583
 ms.assetid: 1ad0c1cb-4346-4042-a59b-923115fac03e
 ms.search.region: Global
-ms.author: mafoge
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7b001ef8936e7e35db89163683c023211f79b24c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b79408e21e9acda12617cf35464007e58ae1b5fe
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996456"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573124"
 ---
 # <a name="create-a-bill-of-lading"></a>Een vrachtbrief maken
 
@@ -42,3 +40,6 @@ Als de lading meer dan een zending bevat, kunt u een hoofdvrachtbrief maken. Dez
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

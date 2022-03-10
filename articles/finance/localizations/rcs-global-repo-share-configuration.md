@@ -2,11 +2,9 @@
 title: ER-configuraties in RCS/de algemene opslagplaats delen met externe organisaties
 description: In dit onderwerp wordt uitgelegd hoe u ER-configuraties (elektronische rapportage) in Microsoft Regulatory Configuration Services (RCS)/de algemene opslagplaats rechtstreeks met externe organisaties kunt delen.
 author: JaneA07
-manager: AnnBe
 ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace, RCS
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 0973d36a8fddd16d02776ac6567d424ac6ebc3ae
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ee7feef83ffa458e7cbd238d37a0f343d1a202f48002da67823df024bb609d02
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994297"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719168"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>ER-configuraties (elektronische rapportage) in Microsoft Regulatory Configuration Services (RCS) algemene opslagplaats met externe organisaties delen
 
@@ -49,7 +47,7 @@ Voer de volgende stappen uit om te controleren of de configuratie die u wilt del
 
 1. Selecteer in het werkgebied **Elektronische rapportage** de optie **Opslagplaatsen** voor uw configuratieprovider.
 
-    ![Configuratieproviders](media/1_RCS_Repo_for_config_provider.JPG)
+    ![Configuratieproviders.](media/1_RCS_Repo_for_config_provider.JPG)
 
 2. Selecteer **Algemene opslagplaats** \> **Openen**.
 3. Zoek naar de configuratie die u wilt delen. U kunt het filterveld gebruiken om de zoekopdracht te verfijnen. Als u de configuratie niet kunt vinden in de algemene opslagplaats, volgt u de stappen in [Een nieuwe versie van een ER-configuratie (elektronische rapportage) maken en uploaden](rcs-global-repo-upload.md).
@@ -63,12 +61,15 @@ Nadat u een configuratie hebt gemaakt onder uw configuratieprovider, kunt u deze
 3. Selecteer de configuratie die u wilt delen.
 4. Selecteer op het sneltabblad **Gedeeld met** de optie **Organisatie**.
 
-    ![Sneltabblad Gedeeld met](media/1_RCS_Repo_for_Share_with_org.JPG)
+    ![Sneltabblad Gedeeld met.](media/1_RCS_Repo_for_Share_with_org.JPG)
 
 5. Voer in het dialoogvenster de domeinnaam in voor de externe organisatie en selecteer vervolgens **OK**.
 
-    ![Dialoogvenster Configuratieversie delen met externe organisatie](media/1_RCS_Repo_for_Share_with_form.JPG)
+    ![Dialoogvenster Configuratieversie delen met externe organisatie.](media/1_RCS_Repo_for_Share_with_form.JPG)
 
 De configuratie wordt gedeeld met de externe organisatie en is beschikbaar voor die organisatie in de algemene opslagplaats. Hier vandaan kan het worden geïmporteerd in het exemplaar van RCS of in de exemplaren van Finance and Operations-apps van de organisatie.
 
 6. Als u het delen van een configuratie die eerder met een externe organisatie is gedeeld ongedaan wilt maken, selecteert u de configuratie en klikt u op **Delen ongedaan maken**. Selecteer vervolgens **OK**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

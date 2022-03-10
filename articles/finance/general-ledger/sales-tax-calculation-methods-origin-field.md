@@ -2,11 +2,9 @@
 title: Btw-berekeningsmethoden in het veld Oorsprong
 description: Dit artikel beschrijft de opties in het veld Oorsprong op de btw-codespagina en hoe de btw op basis van de geselecteerde optie voor een btw-code wordt berekend.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9ad362b4befac4a8da14fff0bc6bc8b938d30bc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9ac37858c68996c6c8140303327003d93bd357b512f9c634650b7e9df1284496
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978555"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769741"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Btw-berekeningsmethoden in het veld Oorsprong
 
@@ -54,8 +52,7 @@ Is het nettobedrag 10,00, dan HEFFING 1 = 1,00 (10,00 x 10%) en HEFFING 2 = 2,00
 | Slechts één btw-code met Oorsprong = Percentage van brutobedrag kan voor een transactie worden gebruikt. Als meerdere dergelijke btw-codes voor een transactie worden gedefinieerd wordt een fout weergegeven dat de btw niet kan worden berekend. |
 
 
-<a name="percentage-of-sales-tax"></a>Btw-percentage
------------------------
+## <a name="percentage-of-sales-tax"></a>Btw-percentage
 
 Als u Btw-percentage selecteert in het veld Oorsprong, wordt de btw berekend als het percentage van de btw dat is geselecteerd in het veld Btw op btw. De btw die in het veld Btw op btw is geselecteerd, wordt eerst berekend. De tweede btw wordt berekend op basis van het eerste btw-bedrag.
 ### <a name="example"></a>Voorbeeld
@@ -121,8 +118,7 @@ Document / journaal is ingesteld op Bedragen inclusief BTW = Nee Transactieregel
 
 
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Btw-tarieven op basis van Marginale basis en Berekeningsmethoden](marginal-base-field.md)
 
@@ -130,3 +126,6 @@ Document / journaal is ingesteld op Bedragen inclusief BTW = Nee Transactieregel
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Een werktijdkalender maken
 description: Definieer een werktijdkalender, feestdagen en vrije tijd in Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 04/01/2020
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,20 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8ea55ad7f86e0c7d5ccc6e6de0af475299b05639
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 54aa85acb43c1e9a474bea9996c72c7e7017c245
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052428"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068914"
 ---
 # <a name="create-a-working-time-calendar"></a>Een werktijdkalender maken
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -64,7 +67,7 @@ U kunt vrije dagen en sluitingen apart van een werktijdkalender toevoegen of wij
 
 U kunt vrije tijd apart van een werktijdkalender toevoegen of wijzigen.
 
-1. Selecteer op de pagina **Organisatiebeheer** de optie **Vrije tijd**.
+1. Selecteer op de pagina **Organisatiebeheer** de optie **VRIJE TIJD**.
 
 2. Selecteer **Nieuw** en voer een naam en tijdbereik in voor de vrije tijd.
 

@@ -2,11 +2,9 @@
 title: Assortimenten beheren (november 2016)
 description: In deze procedure wordt getoond hoe u een nieuw productassortiment kunt maken en publiceren. Dit voorbeeld maakt gebruik van het demogegevensmodel USRT.
 author: jashanno
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, RetailCategoryAndProductWorkspace, RetailCategoryAndProductAssortment, RetailAssortmentDetails, RetailOperatingUnitPicker, EcoResCategorySingleLookup
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 44d9058d6ebe0eca9564d2315c42677390b2c2ca
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 91d5b7077b033514f699c0393ec151d82dae5bf2551546c7371cb934273310e9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205716"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769290"
 ---
 # <a name="manage-assortments-november-2016"></a>Assortimenten beheren (november 2016)
 

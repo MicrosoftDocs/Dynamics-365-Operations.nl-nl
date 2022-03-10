@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-09-16
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0fe3ac2393e66a00e070d8cb6862c29625d39b53
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: cd3424db6bf918b4041f6d12e5d840bc3a8dfef7
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057159"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061568"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-16-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (16 september 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Human Resources. Wijzigingen die van toepassing zijn op buildnummer 8.1.3557. De getallen tussen haakjes naast sommige functies verwijzen ter referentie naar ondersteuningsnummers in Lifecycle Services (LCS).
 
@@ -99,9 +99,9 @@ Deze functie bevordert ook de werkstroomopties die worden weergegeven in de form
 
 - [Verbeteringen in de werkstroom voor organisatie- en personeelsbeheer](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) in het Dynamics 365 2020 releasewave 2-abonnement
 
-![Aan mij toegewezen werkitems](./media/hr-workflow-work-items-assigned-to-me.png)
+![Aan mij toegewezen werkitems.](./media/hr-workflow-work-items-assigned-to-me.png)
 
-![Snelle toegang tot werkstroomitems](./media/hr-workflow-quick-access.png)
+![Snelle toegang tot werkstroomitems.](./media/hr-workflow-quick-access.png)
 
 ### <a name="leave-and-absence-calendar"></a>Verlof- en verzuimkalender
 

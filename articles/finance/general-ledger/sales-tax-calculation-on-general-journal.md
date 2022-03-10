@@ -1,28 +1,26 @@
 ---
 title: Btw-berekening voor algemene journaalregels
 description: In dit onderwerp wordt uitgelegd hoe btw wordt berekend voor verschillende typen rekeningen (leverancier, klant, grootboek en project) op algemene journaalregels.
-author: EricWang
-manager: Ann Beebe
-ms.date: 08/14/2019
+author: EricWangChen
+ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
-ms.author: roschlom
+ms.author: wangchen
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: e420632c248b5b43d4983c5eb483cac580e67f20
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 684b38a4940ff00978201334d1db0cef87b79b35
+ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975553"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8311949"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Btw-berekening voor algemene journaalregels
 [!include [banner](../includes/banner.md)]
@@ -57,7 +55,7 @@ Anders is de btw-richting Te Ontvangen Btw.
 
 In het volgende diagram wordt de regel grafisch weergeven.
 
-![Mogelijke belastingrichtingen voor projectrekeningen](media/Sales-Tax-Direction-Vendor.jpg)
+![Mogelijke belastingrichtingen voor projectrekeningen.](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-vendor"></a>Het rekeningtype is Leverancier
 
@@ -75,23 +73,13 @@ Anders is de btw-richting Te Ontvangen Btw.
 
 In het volgende diagram wordt de regel grafisch weergeven.
 
-![Mogelijke belastingrichtingen voor leveranciersrekeningen](media/Sales-Tax-Direction-Vendor.jpg)
+![Mogelijke belastingrichtingen voor leveranciersrekeningen.](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-customer"></a>Het rekeningtype is Klant
 
-Als een boekstuk een journaalregel heeft waarvoor het rekeningtype **Klant** is, gebruiken alle journaalregels in het boekstuk dezelfde belastingrichting. De volgende punten tonen de mogelijke belastingrichtingen voor klantentrekeningen.
+Als een boekstuk een journaalregel heeft waarvoor het rekeningtype **Klant** is, gebruiken alle journaalregels in het boekstuk dezelfde belastingrichting. 
 
-• Als de btw-code vrijgesteld van belasting is, is de btw-richting Belastingvrije Aankoop.
-
-• Als de btw-code intracommunautaire btw is, is de btw-richting Te Ontvangen Btw.
-
-• Als de btw-code verlegd is, is de btw-richting Te Ontvangen Btw.
-
-Anders is de btw-richting Verschuldigde Btw.
-
-In het volgende diagram wordt de regel grafisch weergeven.
-
-![Mogelijke belastingrichtingen voor klantenrekeningen](media/Sales-Tax-Direction-Customer.jpg)
+Als de btw-code vrijgesteld van belasting is, is de btw-richting Verkoop zonder btw. Anders is de btw-richting Verschuldigde Btw.
 
 ### <a name="account-type-is-ledger"></a>Het rekeningtype is Grootboek
 
@@ -105,7 +93,7 @@ Als het bedrag van het journaal debet (positief) is, is de btw-richting Te Ontva
 
 In het volgende diagram wordt de regel grafisch weergeven.
 
-![Mogelijke belastingrichtingen voor grootboekrekeningen](media/Sales-Tax-Direction-Ledger.jpg)
+![Mogelijke belastingrichtingen voor grootboekrekeningen.](media/Sales-Tax-Direction-Ledger.jpg)
 
 #### <a name="override-the-sales-tax-direction"></a>De btw-richting negeren
 
@@ -117,9 +105,9 @@ Ga naar **Grootboek \> Rekeningschema \> Rekeningen \> Hoofdrekeningen** en sele
 
 In deze sectie wordt beschreven hoe het teken voor het btw-bedrag wordt berekend.
 
-![Pagina Btw-transacties](media/sales-tax-amount-sign.jpg)
+![Pagina Btw-transacties.](media/sales-tax-amount-sign.jpg)
 
-In de volgende tabel wordt de algemene regel weergegeven voor het bepalen van het teken van btw-bedragen in de tijdelijke btw-tabel.
+In de volgende tabel wordt de algemene regel weergegeven voor het bepalen van de btw-richting en het teken van btw-bedragen in de tijdelijke btw-tabel.
 
 | Bedrag journaalregel: | Btw-richting  | Teken btw-bedrag |
 |---------------------|----------------------|-----------------------|
@@ -128,7 +116,7 @@ In de volgende tabel wordt de algemene regel weergegeven voor het bepalen van he
 | Negatief            | Te Ontvangen Btw | Negatief              |
 | Negatief            | Verschuldigde Btw    | Positief              |
 
-Er is een speciale regel voor boekstukken die alleen **Project-** of **Grootboek** regels hebben, wanneer een btw-groep of artikel-btw-groep wordt geselecteerd op de **Grootboek** regel. Deze regel wordt bepaald door onafhankelijke btw-berekeningsfunctie in te schakelen voor algemene journalen. Wanneer deze functie is uitgeschakeld, gebruikt het btw-bedrag van de **Grootboek** regel de debet/credit-richting van de **Project** regel. Wanneer de functie is ingeschakeld, gebruikt het btw-bedrag van de **Grootboek** regel zijn eigen debet/credit-richting. In de volgende tabellen wordt de regel voor elk scenario weer gegeven. 
+Er is een speciale regel voor boekstukken die alleen **Project-** of **Grootboek** regels hebben, wanneer een btw-groep of artikel-btw-groep wordt geselecteerd op de **Grootboek** regel. Deze regel wordt beheerd door de functie, **Onafhankelijke btw-berekeningsfunctie inschakelen voor algemene journalen**. Wanneer deze functie is uitgeschakeld, gebruikt het btw-bedrag van de **Grootboek** regel de debet/credit-richting van de **Project** regel. Wanneer de functie is ingeschakeld, gebruikt het btw-bedrag van de **Grootboek** regel zijn eigen debet/credit-richting. In de volgende tabellen wordt de regel voor elk scenario weer gegeven. 
 
 **Regel wanneer de functie is ingeschakeld.**
 
@@ -156,3 +144,6 @@ De volgende tabel laat de generieke regel zien.
 | Te Ontvangen Btw | Negatief              | Rekening voor Te Ontvangen Btw | Negatief (Credit)  |
 | Verschuldigde Btw    | Positief              | Rekening voor Verschuldigde Btw    | Negatief (Credit)  |
 | Verschuldigde Btw    | Negatief              | Rekening voor Verschuldigde Btw    | Positief (Debet)  |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

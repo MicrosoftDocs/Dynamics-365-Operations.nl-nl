@@ -1,28 +1,25 @@
 ---
 title: Overzicht van Servicetaken
 description: Met servicetaken kunt de taken omschrijven die voor een serviceorder moeten worden voltooid. Zowel technici als klanten kunnen deze informatie bekijken.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceTask
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14145020572add7fd9f49cf6a6dc2fb3c1f19b03
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a789c435bfba6948895f6d00c6a350c03b2e9d63
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991785"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982479"
 ---
 # <a name="service-tasks-overview"></a>Overzicht van Servicetaken
 
@@ -89,3 +86,6 @@ Automatisch gemaakte serviceorders kunt u met behulp van servicetaken groeperen.
 2. Op het tabblad **Instellen** selecteert u **Per servicetaak** in het veld **Serviceorders combineren**.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

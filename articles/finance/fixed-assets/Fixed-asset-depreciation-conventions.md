@@ -1,7 +1,7 @@
 ---
 title: Afschrijvingsconventies voor vaste activa
 description: In dit onderwerp worden afschrijvingsconventies voor vaste activa beschreven.
-author: saraschi2
+author: moaamer
 ms.date: 09/04/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 684e81354559401cfb0095a6455fd9def44d5a6a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 823f8826e297a01c3658ceb8e82e6f9902d7a359
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827117"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883407"
 ---
 # <a name="fixed-asset-depreciation-conventions"></a>Afschrijvingsconventies voor vaste activa
 

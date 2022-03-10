@@ -2,11 +2,9 @@
 title: Incassogegevens controleren
 description: In dit onderwerp wordt uitgelegd hoe u incassogegevens controleert en wat de verschillende instellingsopties en incassotransacties zijn.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustCollectionsPool, SysQueryForm, CustCollectionsAgent, OMTeamSelectMemberDialog, CustVendReportInterval, CustParameters, CustAgingSnapshot, CustVendAgingBucketLookUp, CustCollectionsPoolsListPage, CustCollectionsContactPart, CustCollections
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9bbfb6537118a9936c127018427b0516e7ea002a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 59fcaef39460761dbe68273aecb5cbff8850ef031d43393277a17d07dd92db3b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971523"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778381"
 ---
 # <a name="review-collections-information"></a>Incassogegevens controleren
 
@@ -142,3 +140,6 @@ In dit onderwerp wordt uitgelegd hoe u incassogegevens controleert en wat de ver
 5. Selecteer **Lijst weergeven**.
 - Een klantrekening selecteren of de standaardinvoer accepteren. Standaard is dit de geselecteerde klantrekening op de lijstpagina of in het formulier van waaruit u dit formulier hebt geopend. Als u het formulier vanuit een lijstpagina hebt geopend, zijn de klanten in de lijst de klanten die in de incassoverzameling zijn opgenomen die op de lijstpagina wordt gebruikt.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

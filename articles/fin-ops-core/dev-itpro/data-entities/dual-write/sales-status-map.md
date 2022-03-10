@@ -2,28 +2,19 @@
 title: De toewijzing instellen voor de verkooporderstatuskolommen
 description: In dit onderwerp wordt uitgelegd hoe u de statuskolommen voor verkooporders instelt voor twee keer wegschrijven.
 author: dasani-madipalli
-manager: tonyafehr
 ms.date: 06/25/2020
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: damadipa
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: cc70501d231390ea15104d508a36300a1b2cd44c
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: 53d824ca2fb1eadf34e62bf9c08b837db3efaf42
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744294"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782279"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>De toewijzing instellen voor de verkooporderstatuskolommen
 
@@ -102,7 +93,7 @@ Volg deze stappen als u het kenmerk **IsSOPIntegrationEnabled** wilt inschakelen
 1. Ga in een browser naar `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`. Vervang **\<test-name\>** door de koppeling van uw bedrijf met Verkoop.
 2. Zoek **organizationid** op de pagina die is geopend en noteer de waarde.
 
-    ![Organizationid zoeken](media/sales-map-orgid.png)
+    ![Organizationid zoeken.](media/sales-map-orgid.png)
 
 3. Open de browserconsole in Verkoop en voer het volgende script uit. Gebruik de waarde van **organizationid** uit stap 2.
 
@@ -121,32 +112,35 @@ Volg deze stappen als u het kenmerk **IsSOPIntegrationEnabled** wilt inschakelen
     );
     ```
 
-    ![JavaScript-code in de browserconsole](media/sales-map-script.png)
+    ![JavaScript-code in de browserconsole.](media/sales-map-script.png)
 
 4. Controleer of **IsSOPIntegrationEnabled** is ingesteld op **true**. Gebruik de URL uit stap 1 om de waarde te controleren.
 
-    ![IsSOPIntegrationEnabled ingesteld op true](media/sales-map-integration-enabled.png)
+    ![IsSOPIntegrationEnabled ingesteld op true.](media/sales-map-integration-enabled.png)
 
 Volg deze stappen als u het kenmerk **isIntegrationUser** wilt inschakelen.
 
 1. Ga in Sales naar **Instelling \> Aanpassing \> Het systeem aanpassen**. Selecteer **Gebruikerstabel** en open **Formulier \> Gebruiker**.
 
-    ![Het gebruikersformulier openen](media/sales-map-user.png)
+    ![Het gebruikersformulier openen.](media/sales-map-user.png)
 
 2. Zoek in Veldverkenner **Integratiegebruikersmodus** en dubbelklik erop om deze toe te voegen aan het formulier. Sla de wijziging op.
 
-    ![De kolom Integratiegebruikersmodus toevoegen aan het formulier](media/sales-map-field-explorer.png)
+    ![De kolom Integratiegebruikersmodus toevoegen aan het formulier.](media/sales-map-field-explorer.png)
 
 3. Ga in Verkoop naar **Instelling \> Beveiliging \> Gebruikers** en wijzig de weergave van **Ingeschakelde gebruikers** in **Toepassingsgebruikers**.
 
-    ![De weergave wijzigen van Ingeschakelde gebruikers in Toepassingsgebruikers](media/sales-map-enabled-users.png)
+    ![De weergave wijzigen van Ingeschakelde gebruikers in Toepassingsgebruikers.](media/sales-map-enabled-users.png)
 
 4. Selecteer de twee items voor **DualWrite IntegrationUser**.
 
-    ![Lijst met toepassingsgebruikers](media/sales-map-user-mode.png)
+    ![Lijst met toepassingsgebruikers.](media/sales-map-user-mode.png)
 
 5. Wijzig de waarde van de kolom **Integratiegebruikersmodus** in **Ja**.
 
-    ![De waarde van de kolom Integratiegebruikersmodus wijzigen in Ja](media/sales-map-user-mode-yes.png)
+    ![De waarde van de kolom Integratiegebruikersmodus wijzigen in Ja.](media/sales-map-user-mode-yes.png)
 
 Uw verkooporders zijn nu toegewezen.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

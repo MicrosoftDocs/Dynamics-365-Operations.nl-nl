@@ -1,26 +1,24 @@
 ---
 title: Een nieuwe handelsovereenkomst maken
 description: Deze procedure laat zien hoe u een handelsovereenkomst maakt waarin u een nieuwe productverkoopprijs registreert die u met een specifieke klant bent overeengekomen.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TradeNonStockedConversion, TradeNonStockedConversionChangeWizard, TradeNonStockedConversionCheckWorksheet, TradeNonStockedConversionWizard, TradeNonStockedRegister
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c4ac436b57b6010a5d5b3759d2ccf1c4af95446
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a16a39d95605900be0fa1e339b8cd0755ba85189
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208130"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573412"
 ---
 # <a name="create-a-new-trade-agreement"></a>Een nieuwe handelsovereenkomst maken
 
@@ -28,8 +26,8 @@ ms.locfileid: "5208130"
 
 Deze procedure laat zien hoe u een handelsovereenkomst maakt waarin u een nieuwe productverkoopprijs registreert die u met een specifieke klant bent overeengekomen. U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens. Als u uw eigen gegevens gebruikt, moet u voordat u deze guide start ervoor zorgen dat er een handelsovereenkomstjournaal bestaat met de naam Standaard, waarvan de relatie is ingesteld op "Prijs (verkoop)".
 
-
 ## <a name="create-and-post-a-new-trade-agreement-journal"></a>Een nieuw handelsovereenkomstjournaal maken en boeken
+
 1. Ga naar **Navigatievenster > Modules > Verkoop en marketing > Prijzen en kortingen > Handelsovereenkomstjournalen**.
 2. Klik op **Nieuw**.
 3. Klik in het veld **Naam** op de vervolgkeuzeknop om de zoekopdracht te openen.
@@ -39,7 +37,7 @@ Deze procedure laat zien hoe u een handelsovereenkomst maakt waarin u een nieuwe
     
     In dit voorbeeld werkt u de prijs voor een specifieke klant bij, wat betekent dat u mogelijk Tabel moet kiezen. Als u de catalogusprijs van het product zou bijwerken, zou u Alle selecteren, zodat de nieuwe prijs voor alle klanten geldt. Als u onderscheid zou maken tussen verschillende prijzen uit verschillende klantsegmenten, zou u Groep selecteren. Als u Groep wilt selecteren, moet u klantprijsgroepen hebben ingesteld.  
 
-7. Klik in het veld **Rekening selecteren** op de vervolgkeuzeknop om de zoekopdracht te openen.
+7. Klik in het veld **Account selecteren** op de vervolgkeuzeknop om de zoekopdracht te openen.
 8. Zoek en selecteer de gewenste record in de lijst.
 9. Selecteer Tabel in het veld **Artikelcode**.
     
@@ -60,22 +58,26 @@ Deze procedure laat zien hoe u een handelsovereenkomst maakt waarin u een nieuwe
 20. Klik op **OK**.
 
 ## <a name="view-trade-agreements-for-a-product"></a>Handelsovereenkomsten voor een product weergeven
+
 1. Ga naar **Navigatievenster > Modules > Productgegevensbeheer > Producten > Vrijgegeven producten**.
 2. Zoek en selecteer in de lijst het product waarvan u de prijs zojuist hebt bijgewerkt.
 3. Klik in het **actievenster** op **Verkopen**.
 4. Klik op **Handelsovereenkomsten weergeven**.
     
-    Controleer de gegevens van de prijshandelsovereenkomst die u zojuist hebt gemaakt.    
+    Controleer de gegevens van de prijshandelsovereenkomst die u zojuist hebt gemaakt.
 
 5. Sluit de pagina.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 ### <a name="whitepaper"></a>Whitepaper
+
 Download de volgende whitepaper (geschreven ter ondersteuning van AX2012, maar is nog steeds van toepassing op Dynamics 365 Supply Chain Management) voor meer informatie.
-- [Handelsovereenkomsten](https://mbs.microsoft.com/files/public/CS/AX2012R3/TradeagreementsinAX.pdf)
+
+- [Handelsovereenkomsten](https://download.microsoft.com/download/0/2/9/02972c8b-0159-4936-a3ef-1e64252b2d2f/TradeAgreementsInAX.pdf)
 
 ### <a name="community-blogs"></a>Community-blogs
+
 - [Verkoopprijzen in Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
 
 

@@ -1,39 +1,40 @@
 ---
-title: Beheer - overzicht
-description: Deze beheerdershandleiding helpt u bij het instellen en beheren van Dynamics 365 Human Resources en het oplossen van problemen.
-author: andreabichsel
-ms.date: 02/03/2020
-ms.topic: article
+title: Overzicht van beheer
+description: Dit onderwerp bevat een lijst met de Help-onderwerpen en andere informatiebronnen om Dynamics 365 Human Resources in te stellen, te beheren en problemen op te lossen.
+author: twheeloc
+ms.date: 08/11/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
-ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3eb5d686ff6edf11cdbde6c4799a99815719da71
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a403390132443f29f12e11914b7a0f08faffa973
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801138"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068404"
 ---
-# <a name="administration-overview"></a>Beheer - overzicht
+# <a name="administration-overview"></a>Overzicht van beheer
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Deze beheerdershandleiding helpt u bij het instellen en beheren van Dynamics 365 Human Resources en het oplossen van problemen.
+
+Dit onderwerp bevat een lijst met de Help-onderwerpen en andere informatiebronnen om Dynamics 365 Human Resources in te stellen, te beheren en problemen op te lossen.
 
 - [Systeemvereisten](hr-admin-system-requirements.md)
 
-- Exemplaren instellen en beheren
+- Exemplaren instellen en producten beheren
   - [Human Resources inrichten](hr-admin-setup-provision.md)
   - [Een exemplaar kopiëren](hr-admin-setup-copy-instance.md)
   - [Een exemplaar verwijderen](hr-admin-setup-remove-instance.md)
@@ -46,10 +47,10 @@ Deze beheerdershandleiding helpt u bij het instellen en beheren van Dynamics 365
   - [Integratie met Dayforce configureren](hr-admin-integration-dayforce.md)
   - [Een app voor het exporteren van terugkerende gegevens maken](hr-admin-integration-recurring-data-export.md)
   - Integreren met Office
-    - [Zelfstudie voor Office-integratie](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Entiteitsgegevens bijwerken in Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Ervaringen met Openen in Excel maken](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Problemen met Office-integratie oplossen](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Zelfstudie voor Office-integratie](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Entiteitsgegevens bijwerken in Excel](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Ervaringen met Openen in Excel maken](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Problemen met Office-integratie oplossen](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
 
 - [Functies beheren](hr-admin-manage-features.md)
 
@@ -84,7 +85,7 @@ Deze beheerdershandleiding helpt u bij het instellen en beheren van Dynamics 365
   - [Documentatie of training maken met Taakrecorder](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
 - Problemen met Human Resources oplossen
-  - [Ondersteuning](hr-admin-troubleshooting-support.md)
+  - [Ondersteuning](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
   - [Prestaties optimaliseren met automatische opschoningstaken](hr-admin-troubleshooting-batch-history.md)
   - [Analytische rapporten worden niet bijgewerkt](hr-admin-troubleshooting-analytic-reports.md)
   - [Kan geen omgeving maken in het Power Apps-beheercentrum](hr-admin-troubleshooting-power-apps.md)
@@ -93,14 +94,23 @@ Deze beheerdershandleiding helpt u bij het instellen en beheren van Dynamics 365
   - [Het compensatieproces uitvoeren](hr-admin-troubleshooting-compensation.md)
   - [Taakbegeleiders opslaan in LCS](hr-admin-troubleshooting-task-guide.md)
   - [Toegang tot privéadressen per beveiligingsrol](hr-admin-troubleshooting-private-addresses.md)
-  - [Human Resources wordt niet weergegeven in Dynamics 365-apps](hr-admin-troubleshooting-not-in-apps.md)
+  - [Human Resources wordt niet weergegeven bij de Dynamics 365-apps](hr-admin-troubleshooting-not-in-apps.md)
   - [Rapportageopties](hr-admin-troubleshooting-reporting.md)
   - [Veelgestelde vragen over integratie](hr-admin-troubleshooting-integration.md)
+
+## <a name="additional-resources"></a>Aanvullende bronnen
+
+### <a name="elearning-courses"></a>eLearning-cursussen
+Zie [Dynamics 365 Human Resources op Microsoft Learn](//learn/browse/?products=dynamics-human-resources&resource_type=learning%20path) voor informatie over online cursussen en training.
+
+### <a name="videos"></a>Video's
+
+Bekijk de procedurevideo's die nu beschikbaar zijn op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 ## <a name="see-also"></a>Zie ook
 
 - [Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)
-- [Handleiding voor ontwikkelaars](hr-developer-overview.md)
+- [Ontwikkelaarshandleiding](hr-developer-overview.md)
 - [Gebruikershandleiding](hr-hrpro-overview.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

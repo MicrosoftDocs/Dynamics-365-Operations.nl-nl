@@ -1,26 +1,24 @@
 ---
 title: Afschrijvingsboeken instellen
 description: In deze procedure doorloopt u het proces voor het maken van een nieuw afschrijvingsboek en leest u hoe u dit koppelt aan een vaste-activagroep.
-author: saraschi2
-manager: AnnBe
+author: moaamer
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepBookTable, AssetGroupDepBookSetup
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1e1d934bffd0a5daacf27fcd5a2e00043fe3daf8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 42b8a15ac60fd2620c600d78b84a25e3caf6d2bf
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009213"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883615"
 ---
 # <a name="set-up-depreciation-books"></a>Afschrijvingsboeken instellen 
 
@@ -54,3 +52,6 @@ In deze procedure doorloopt u het proces voor het maken van een nieuw afschrijvi
 6. Voer een getal in het veld Levensduur in.
     * Merk op dat de waarde van het veld Afschrijvingsperioden wordt berekend nadat de levensduur is ingesteld.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

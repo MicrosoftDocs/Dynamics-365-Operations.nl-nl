@@ -2,13 +2,11 @@
 title: Dubbele rapportage
 description: In dit onderwerp wordt u begeleid door een voorbeeld dat u toont hoe u de vereisten kunt vervullen voor zowel International Financial Reporting Standard (IFRS)-rapportage als wettelijke rapportage in Activa leasen.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseBookMaster
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d6daa43178625316a40427728e7e4186691cc13c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 406fbb53fc4cd17a7c257b5f5463227118c9051f44d81db000fbe87dca142efe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229545"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767051"
 ---
 # <a name="dual-reporting"></a>Dubbele rapportage
 
@@ -49,7 +47,7 @@ Het IFRS 16 boek is zo ingesteld dat het voldoet aan de IFRS 16-boekhoudnorm. Al
 | Huidige waarde/reële waarde van activum instellen | 0,00           |
 | Drempel voor de korte termijn                    | 12             |
 | Drempel voor geringe waarde                     | 5.000,00       |
-| Betalen aan leverancier                           | No             |
+| Betalen aan leverancier                           | Nee             |
 
 **Wettelijk boek**
 
@@ -66,7 +64,7 @@ Het wettelijke boek is een cash-basis-boek waar het bedrijf de leasekosten zal v
 | Huidige waarde/reële waarde van activum instellen | 0,00        |
 | Drempel voor de korte termijn                    | 0           |
 | Drempel voor geringe waarde                     | 0           |
-| Betalen aan leverancier                           | No          |
+| Betalen aan leverancier                           | Nee          |
 
 **Wettelijk terugboekingsboek**
 
@@ -83,7 +81,7 @@ Het wettelijke terugboekingsboek wordt op dezelfde manier ingesteld als het wett
 | Huidige waarde/reële waarde van activum instellen | 0,00                           |
 | Drempel voor de korte termijn                    | 0                              |
 | Drempel voor geringe waarde                     | 0                              |
-| Betalen aan leverancier                           | No                             |
+| Betalen aan leverancier                           | Nee                             |
 
 Voor dit voorbeeld is er een lease gemaakt met de volgende instellingen op de tabbladen **Algemeen** en **Betalingsschemaregels**.
 
