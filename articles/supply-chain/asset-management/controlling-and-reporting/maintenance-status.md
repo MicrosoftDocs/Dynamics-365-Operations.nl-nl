@@ -1,29 +1,26 @@
 ---
 title: Onderhoudsstatus
 description: In dit onderwerp wordt uitgelegd hoe u de onderhoudsstatus berekent in Activabeheer.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetStatusCalculate, EntAssetStatus
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 43389db93032ec29adb805f86ae04a686803176f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 138e2e72fbf761d209d288c2bd778c08519b9c69b0715f4466d4838255a2a31e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425339"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752004"
 ---
 # <a name="maintenance-status"></a>Onderhoudsstatus
 
@@ -60,11 +57,14 @@ In Activabeheer kunt u een berekening uitvoeren om een overzicht weer te geven v
 
 In de volgende afbeelding zijn de knoppen **Jaar** en **Maand** geactiveerd. Als deze opties voor **Groeperen op** zijn geselecteerd, krijgt u een algemeen overzicht op maandelijkse basis van de werkbelasting en doorvoer met betrekking tot onderhoudsverzoeken en werkorders. 
 
-![Voorbeeld van maandelijkse werkbelasting](media/13-controlling-and-reporting.png)
+![Voorbeeld van maandelijkse werkbelasting.](media/13-controlling-and-reporting.png)
 
 ## <a name="example-2"></a>Voorbeeld 2
 
 In de volgende afbeelding is informatie over functionele locaties toegevoegd. Nu is het mogelijk om de werkbelasting en doorvoer te vergelijken tussen verschillende functionele locaties, die geografische locaties, fabrieken of werkgebieden kunnen voorstellen. 
 
-![Voorbeeld van maandelijkse werkbelasting met functionele locaties](media/14-controlling-and-reporting.png)
+![Voorbeeld van maandelijkse werkbelasting met functionele locaties.](media/14-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

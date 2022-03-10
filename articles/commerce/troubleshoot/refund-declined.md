@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 99fd4b816b1a3a1fe3c2d1579be45b43fdc3d385
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8880d72d702758d611755bce48a331e3f2e28ca1b7abf485e8b4f7301317c875
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020751"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738619"
 ---
 # <a name="refund-on-a-return-order-is-declined"></a>Restitutie voor een retourorder wordt geweigerd
 
@@ -34,7 +34,7 @@ Een restitutie wordt afgewzen wanneer de creditcard die wordt gebruikt voor het 
 
 In de details van de betalingsautorisatie wordt het volgende foutbericht weergegeven: 'SendRequest() van Adyen-gateway is mislukt met de status 'InternalServerError'.22144; Leeg antwoord van Adyen.(22001);'
 
-![Fout waardoor restitutie voor een retourorder wordt geweigerd](media/refund-order-decline.jpg)
+![Fout waardoor restitutie voor een retourorder wordt geweigerd.](media/refund-order-decline.jpg)
 
 ## <a name="resolution"></a>Oplossing
 

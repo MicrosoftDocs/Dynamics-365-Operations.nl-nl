@@ -2,7 +2,7 @@
 title: Taakbeheer synchroniseren tussen Microsoft Teams en Dynamics 365 Commerce POS
 description: In dit onderwerp wordt beschreven hoe u taakbeheer synchroniseert tussen Microsoft Teams en Dynamics 365 Commerce POS (verkooppunt).
 author: gvrmohanreddy
-ms.date: 03/31/2021
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 74d53a850113c83979fba6baa4ff3c3e5d9ca02d
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c07ca28b45335de5e327305b7426d1b6de8ce5c7
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020622"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323492"
 ---
 # <a name="synchronize-task-management-between-microsoft-teams-and-dynamics-365-commerce-pos"></a>Taakbeheer synchroniseren tussen Microsoft Teams en Dynamics 365 Commerce POS
 
@@ -54,6 +54,9 @@ Zie [Takenlijsten publiceren om werk in uw organisatie te maken en te volgen](ht
 ## <a name="link-pos-and-teams-for-task-management"></a>POS en Teams koppelen voor taakbeheer
 
 Volg deze stappen om de toepassingen POS en Microsoft Teams te koppelen voor taakbeheer in Commerce Headquarters.
+
+> [!NOTE]
+> Voordat u Taakbeheer met Microsoft Teams probeert te integreren, moet u de integratie van [Dynamics 365 Commerce en Microsoft Teams inschakelen](enable-teams-integration.md). 
 
 1. Ga naar **Retail en commerce \> Taakbeheer \> Takenintegratie met Microsoft Teams**.
 1. Selecteer **Bewerken** in het actievenster.

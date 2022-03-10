@@ -1,13 +1,13 @@
 ---
 title: Routes en bewerkingen
 description: In dit onderwerp vindt u informatie over routes en bewerkingen.
-author: sorenva
+author: johanhoffmann
 ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BOMDesigner, BOMDesignerRouteVersion, Route, RouteInventProd, RouteOpr, RouteOprTable, ProdRouteJob, ProdRouteTrans, ProdRouteOverview, ProdRouteJobOverview, ProdRouteJobListPagePreviewPane, RouteTable, RouteVersionFeasibility, ProdRouteJobCurrent, RouteGroup, RouteProductionOrder, EngChgCaseRouteTablePart, EcoResProductProdTypeFormulaNoActiveRouteFormPart,
-ms.author: sorenand
+ms.author: johanho
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 268124
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6be472336ce8ea58973e897c42f6ee9ae92c0761
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ab825227e7cd8848dbad58c58f5c6d7afc338f9c
+ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819275"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7891948"
 ---
 # <a name="routes-and-operations"></a>Routes en bewerkingen
 
@@ -29,8 +29,7 @@ ms.locfileid: "5819275"
 
 In dit onderwerp vindt u informatie over routes en bewerkingen. Een route definieert het proces voor het produceren van een product of de productvariant. Hierin wordt elke stap (bewerking) in het productieproces beschreven, plus de volgorde waarin deze stappen moeten worden uitgevoerd. Voor elke stap definieert de route ook de vereiste bronnen voor bedrijfsactiviteiten, de vereiste insteltijd en uitvoeringstijd en hoe de kosten moet worden berekend.
 
-<a name="overview"></a>Overzicht
---------
+## <a name="overview"></a>Overzicht
 
 Met een route wordt de volgorde van bewerkingen beschreven die nodig is om een product of de productvariant te produceren. Voor elke bewerking definieert de route ook de bronnen voor bedrijfsactiviteiten die vereist zijn, de tijd die nodig is om de bewerking in te stellen en uit te voeren en hoe de kosten moet worden berekend. U kunt met één en dezelfde route meerdere producten produceren of kunt u een unieke route definiëren voor elk product of productvariant. U kunt zelfs meerdere routes voor hetzelfde product hebben. In dit geval kunnen verschillende routes worden gebruikt, afhankelijk van factoren zoals de hoeveelheid die moet worden geproduceerd. De definitie van een route in Supply Chain Management bestaat uit vier afzonderlijke elementen die samen het productieproces beschrijven:
 
@@ -46,7 +45,7 @@ Met een route wordt de volgorde van bewerkingen beschreven die gebruikt wordt om
 
 Een eenvoudige route is sequentieel en heeft slechts één beginpunt.  
 
-[![Eenvoudige routes](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
+[![Eenvoudige route.](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
 Als u in de parameters van Productiebeheer alleen eenvoudige routes hebt ingeschakeld, genereert Supply Chain Management automatisch de bewerkingsnummers (10, 20, 30, enzovoort) wanneer u de route definieert.
 
@@ -54,7 +53,7 @@ Als u in de parameters van Productiebeheer alleen eenvoudige routes hebt ingesch
 
 Als u de meer complexe routenetwerken in de parameters van productiebeheer inschakelt, kunt u routes definiëren met meerdere beginpunten en bewerkingen, die parallel kunnen worden uitgevoerd.  
 
-[![Routenetwerk](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Routenetwerk.](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
 > - Elke bewerking mag slechts één opvolgende bewerking hebben en de gehele route moet eindigen met één bewerking.
@@ -65,7 +64,7 @@ Als u de meer complexe routenetwerken in de parameters van productiebeheer insch
 
 Soms is een combinatie van meerdere bronnen voor bedrijfsactiviteiten met verschillende kenmerken vereist om een bewerking uit te voeren. Voor een montagebewerking kan bijvoorbeeld een machine en een stuk gereedschap vereist zijn, plus één medewerker voor elke twee machines om toezicht te houden op de bewerking. Dit voorbeeld kan worden gemodelleerd met behulp van parallelle bewerkingen, waarbij één bewerking is aangewezen als de primaire bewerking en de andere secundair zijn.  
 
-[![Route met primaire en secundaire bewerkingen](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
+[![Route met primaire en secundaire bewerkingen.](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
 
 Doorgaans vertegenwoordigt de primaire bewerking de bottleneck resource en bepaalt de uitvoeringstijd voor de secundaire bewerkingen. Tijdens planning waarbij eindige capaciteit meespeelt, moeten echter de bronnen die zijn gepland voor zowel de primaire bewerking als de secundaire bewerkingen tegelijk beschikbaar zijn en vrije capaciteit hebben.  
 
@@ -79,7 +78,7 @@ Voordat een route in de planning of het productieproces kan worden gebruikt, moe
 
 Elke route kan afzonderlijk worden goedgekeurd of afgekeurd. Houd er rekening mee dat wanneer de goedkeuring van een route wordt ingetrokken, dit ook gebeurt voor alle gerelateerde routeversies. In de parameters van productiebeheer kunt u opgeven of de goedkeuring van routes kan vervallen en of de goedgekeurde routes kunnen worden gewijzigd.  
 
-Als u een logboek moet bijhouden waarin wordt geregistreerd wie de routes goedkeurt, kunt u elektronische handtekeningen vereisen voor routegoedkeuring. Gebruikers moeten dan hun identiteit bevestigen door middel van een [elektronische handtekening](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Als u een logboek moet bijhouden waarin wordt geregistreerd wie de routes goedkeurt, kunt u elektronische handtekeningen vereisen voor routegoedkeuring. Gebruikers moeten dan hun identiteit bevestigen door middel van een [elektronische handtekening](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ## <a name="operations"></a>Operations
 Een bewerking is een stap in het productieproces. Elke bewerking heeft een ID en een eenvoudige beschrijving. In de volgende tabellen staan gangbare voorbeelden van bewerkingen in een machinewerkplaats.
@@ -185,7 +184,7 @@ Wanneer u een routeversie activeert, wijst u deze aan als de standaardversie van
 
 ### <a name="electronic-signatures"></a>Elektronische handtekeningen
 
-Als u een logboek moet bijhouden waarin wordt geregistreerd wie de routeversies goedkeurt en activeert, kunt u elektronische handtekeningen voor deze taken vereisen. Gebruikers die routeversies goedkeuren en activeren, moeten dan hun identiteit bevestigen door middel van een [elektronische handtekening](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Als u een logboek moet bijhouden waarin wordt geregistreerd wie de routeversies goedkeurt en activeert, kunt u elektronische handtekeningen voor deze taken vereisen. Gebruikers die routeversies goedkeuren en activeren, moeten dan hun identiteit bevestigen door middel van een [elektronische handtekening](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ### <a name="product-change-that-uses-case-management"></a>Productwijziging door middel van casebeheer
 
@@ -224,7 +223,7 @@ Wanneer u deze methode gebruikt, wordt de pagina **Bewerkingsrelaties** uw prima
 Als u geen bron voor bedrijfsactiviteiten of resourcegroep opgeeft als onderdeel van de resourcevereisten voor een bewerking, kunnen de toepasselijke resources werken met verschillende snelheden. De tijd die nodig is voor het verwerken van een bewerking kan daardoor variëren. Om dit probleem op te lossen, kunt u met het veld **Formule** in de bewerkingsrelatie opgeven hoe de verwerkingstijd wordt berekend. De volgende opties zijn beschikbaar:
 
 - **Standaard:** De standaardoptie. De berekening gebruikt alleen de velden uit de bewerkingsrelatie en vermenigvuldigt de opgegeven uitvoeringstijd met de orderhoeveelheid.
-- **Capaciteit:** De berekening omvat het veld **Capaciteit** uit de bron voor bedrijfsactiviteiten. De tijd is daarmee afhankelijk van de resource. De waarde die is opgegeven voor de bron voor bedrijfsactiviteiten is de capaciteit per uur. De **Verwerkingstijd** wordt berekend als de **Orderhoeveelheid** gedeeld door **Capaciteit**.
+- **Capaciteit:** De berekening omvat het veld **Capaciteit** uit de bron voor bedrijfsactiviteiten. De tijd is daarmee afhankelijk van de resource. De waarde die is opgegeven voor de bron voor bedrijfsactiviteiten is de capaciteit per uur. De **Verwerkingstijd** wordt berekend als de **Orderhoeveelheid** gedeeld door **Capaciteit**. De capaciteitswaarde geldt niet specifiek voor een bepaalde maateenheid en wordt daarom niet geconverteerd op basis van het veld **Capaciteitseenheid**. Dit is slechts een beschrijvend veld dat niet in berekeningen wordt gebruikt.
 - **Batch:** Een batchcapaciteit wordt berekend met behulp van gegevens uit de bewerkingsrelatie. Het aantal batches en daarmee de verwerkingstijd kan vervolgens worden berekend op basis van de orderhoeveelheid.
 - **Resourcebatch:** Deze optie is eigenlijk hetzelfde als de optie **Batch**. De berekening omvat hierin echter het veld **Batchcapaciteit** uit de bron voor bedrijfsactiviteiten. De tijd is daarmee afhankelijk van de resource.
 
@@ -253,7 +252,7 @@ Daarom is als Activering is geselecteerd voor Overlapping, de rest van de instel
 
 - [Bronmogelijkheden](resource-capabilities.md)
 
-- [Overzicht van elektronische handtekeningen](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+- [Overzicht van elektronische handtekeningen](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)
 
 
 

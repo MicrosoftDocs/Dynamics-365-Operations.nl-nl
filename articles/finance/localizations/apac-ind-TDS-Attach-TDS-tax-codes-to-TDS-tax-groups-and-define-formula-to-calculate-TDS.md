@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: ec0d683153bd5ab731035159d32881fbdb352d70
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 98d6ceb794716f39c6ae47b300bdb7618a8e688b
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023157"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345223"
 ---
 # <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>TDS-belastingcodes koppelen aan TDS-belastinggroepen en de formule voor het berekenen van TDS definiëren
 
@@ -33,7 +33,7 @@ Volg deze stappen om een TDS-belastinggroep in te stellen, hier TDS-belastingcod
 
 1. Ga naar **Belasting \> Indirecte belastingen \> Bronbelasting \> Bronbelastinggroepen**.
 
-    [![Pagina Bronbelastinggroepen](./media/apac-ind-TDS-29.png)](./media/apac-ind-TDS-29.png)
+    [![Pagina Bronbelastinggroepen.](./media/apac-ind-TDS-29.png)](./media/apac-ind-TDS-29.png)
 
 2. Selecteer in het actievenster **Nieuw** om een bronbelastinggroep voor TDS te maken en voer de vereiste gegevens in.
 3. Selecteer in het veld **Belastingtype** de optie **TDS**.
@@ -43,7 +43,7 @@ Volg deze stappen om een TDS-belastinggroep in te stellen, hier TDS-belastingcod
 7. Schakel het selectievakje **Vrijstelling** in om te voorkomen dat de belastinggroep wordt berekend in transacties.
 8. Selecteer in het actievenster **Ontwerper** om de formuleontwerper te openen, zodat u de formule kunt definiëren voor het berekenen van TDS voor de TDS-belastinggroep. Op de pagina **Ontwerper** worden op het tabblad **Belastingen** de TDS-belastingcodes weergegeven die zijn geselecteerd voor de TDS-belastinggroep.
 
-    [![Pagina Ontwerper](./media/apac-ind-TDS-30.png)](./media/apac-ind-TDS-30.png)
+    [![Pagina Ontwerper.](./media/apac-ind-TDS-30.png)](./media/apac-ind-TDS-30.png)
 
 9. Selecteer **Alt+N** op het tabblad **Berekening** om een regel te maken. Het veld **Id** geeft de automatisch gegenereerde prioriteits-id weer voor de TDS-berekening.
 10. Selecteer in het veld **Belastingcode** de TDS-belastingcode waarvoor u de formule wilt definiëren. Alle TDS-belastingcodes die zijn geselecteerd voor de TDS-belastinggroep kunnen in dit veld worden geselecteerd.
@@ -55,7 +55,7 @@ Volg deze stappen om een TDS-belastinggroep in te stellen, hier TDS-belastingcod
     > [!NOTE]
     > Het veld **Belastbare basis** kan niet worden ingesteld op **Excl. brutobedrag** voor de TDS-belastingcode met prioriteits-id **1**.
 
-12. De TDS-berekening is gebaseerd op de formule die is gedefinieerd in het veld **Berekeningsexpressie** voor elke belastingcode die is gekoppeld aan de TDS-belastinggroep. Selecteer de knop met het plusteken (**+**), minteken (**-**), vermenigvuldigingsteken (**\**_) of deelteken (_*/**) om de berekeningsexpressie in te voeren voor de geselecteerde belastingcode in het veld **Berekeningsexpressie**.
+12. De TDS-berekening is gebaseerd op de formule die is gedefinieerd in het veld **Berekeningsexpressie** voor elke belastingcode die is gekoppeld aan de TDS-belastinggroep. Selecteer de knop met het plusteken (+), minteken (-), vermenigvuldigingsteken (\*) of deelteken (/) om de berekeningsexpressie in te voeren voor de geselecteerde belastingcode in het veld **Berekeningsexpressie**.
 
     > [!NOTE]
     > Er kan geen berekeningsexpressie worden gedefinieerd voor de TDS-belastingcode met prioriteits-id **1**.

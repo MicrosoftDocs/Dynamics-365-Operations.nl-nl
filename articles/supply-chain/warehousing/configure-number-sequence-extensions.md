@@ -2,25 +2,23 @@
 title: Nummerreeksen voor magazijnstromen configureren
 description: In dit onderwerp komt aan de orde welke functies nummerreeksuitbreidingen bieden voor nummerplaat-id's, wavelabel-id's, container-id's en vrachtbrief-id's.
 author: GarmMSFT
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSNumberSequenceExt
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: fa4074c23baa74983f4922d2d09d7da81c943bfe
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e9ba06908b9e82763557e98715e495cfaf649753
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973830"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574708"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Nummerreeksen voor magazijnstromen configureren
 
@@ -91,3 +89,6 @@ Voer de volgende stappen uit om nummerreeksen te maken en te bewerken.
     | Controlecijfer | Dit segmenttype voegt een controlecijfer toe. Dit is een modulo 10-berekening. (Dit komt overeen met de bestaande logica voor nummerplaat-id's.) Voor dit segmenttype wordt het veld **Waarde** altijd ingesteld op een caret (*^*) en wordt het veld **Lengte** altijd ingesteld op *1*. |
 
 1. Als u een voorbeeld wilt weergeven van de uiteindelijke getalnotatie, bekijkt u het veld **Indeling** onderaan het sneltabblad **Segmenten**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

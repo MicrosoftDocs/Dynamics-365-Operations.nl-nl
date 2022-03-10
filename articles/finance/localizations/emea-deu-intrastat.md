@@ -1,24 +1,26 @@
 ---
 title: Duitse Intrastat
 description: Dit onderwerp bevat informatie over Intrastat-aangifte in Duitsland.
-author: andosip
-ms.date: 08/2/2021
+author: anasyash
+ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: v-aosipov
+ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: e1dbf0997417f9f1ad313e6a7b3c2c9cfae41efc6b1cfda60a5500ae0af94709
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 50c412fdfd7118843d285cbb70e8e44847c9d4a5
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759838"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487920"
 ---
 # <a name="german-intrastat"></a>Duitse Intrastat
 
-De pagina **Intrastat** wordt gebruikt om informatie te genereren en rapporteren over handel tussen landen van de EU. De Duitse Intrastat-aangifte bevat informatie over de handel in goederen voor rapportage.
+[!include [banner](../includes/banner.md)]
+
+De pagina **Intrastat** wordt gebruikt om informatie te genereren en rapporteren over handel tussen landen van de EU. De Duitse Intrastat-aangifte bevat informatie over de handel in goederen voor rapportage. Het rapport wordt opgemaakt volgens de richtlijnen van de Duitse autoriteiten die worden weergegeven op de pagina [6.2 Bestandsaangiften in de indelingspagina INSTAT/XML](https://www-idev.destatis.de/idev/doc/intra_en/hilfe6_2.html).
 
 In de volgende tabel worden de velden weergegeven die worden weergegeven op de Duitse Intrastat-aangifte.
 
@@ -70,16 +72,17 @@ In de volgende tabel worden de velden weergegeven die worden weergegeven op de D
     2. Selecteer op op het tabblad **Intrastat** in het sneltabblad **Elektronische rapportage** in het veld **Toewijzing bestandsindeling** de waarde **Intrastat XML (DE)**.
     3. Selecteer in het veld **Rapportindelingstoewijzing** de optie **Intrastat-rapport**.
     4. Selecteer op het sneltabblad **Hiërarchie van basisproductcodes** in het veld **Categoriehiërarchie** de optie **Intrastat**.
-    5. Selecteer in het veld **Transactiecode** de transactiecode voor eigendomsoverdrachten. Deze code wordt gebruikt voor transacties die tot een werkelijke of geplande overdracht van eigendom tegen vergoeding (financieel of anders) leiden. De code kan ook worden gebruikt voor correcties.
-    6. Selecteer in het veld **Creditnota** de transactiecode voor de retourzending van goederen. Deze code wordt gebruikt voor de retourzending van goederen nadat de transactie die oorspronkelijk is geregistreerd onder de transactiecode.
-    7. Selecteer in het veld **Instantie** de Intrastat-instantie.
-    8. Ga naar **Belasting** > **indirecte belastingen** > **Btw** > **Btw-instantie** en voer de volgende gegevens in voor de Intrastat-instantie die u in de vorige stap geselecteerd:
+    5. Selecteer in het veld **Transactiecode** de transactiecode voor eigenschapsoverdrachten. Deze code wordt gebruikt voor transacties die tot een werkelijke of geplande overdracht van eigendom tegen vergoeding (financieel of anders) leiden. De code kan ook worden gebruikt voor correcties.
+    6. Selecteer in het veld **Creditnota** de transactiecode voor de retourzending van goederen.
+    7. Selecteer in het veld **Werknemer** de contactpersoon voor het Intrastat-rapport. U kunt ook waarden invoeren op het tabblad **Contactpersoon** of waarden selecteren in de velden **Naam**, **Telefoon**, **Fax**, **E-mail** en **Internetadres**. Deze velden worden in het rapport opgenomen.
+    8. Selecteer in het veld **Instantie** de Intrastat-instantie.
+    9. Ga naar **Belasting** > **indirecte belastingen** > **Btw** > **Btw-instantie** en voer de volgende gegevens in voor de Intrastat-instantie die u in de vorige stap geselecteerd:
 
        - Identificatie van autoriteit
        - Adres
        - Gegevens contactpersoon
 
-    9. Geef op het tabblad **Eigenschappen land/regio** in het veld **Land/regio** een overzicht weer van alle landen of regio's waarmee uw organisatie zaken doet. Selecteer voor elk land of elke regio in het veld **Land-/regiotype** de waarde **EU**, zodat het land of de regio wordt weergegeven in het Intrastat-rapport.
+    10. Geef op het tabblad **Eigenschappen land/regio** in het veld **Land/regio** een overzicht weer van alle landen of regio's waarmee uw organisatie zaken doet. Selecteer voor elk land of elke regio in het veld **Land-/regiotype** de waarde **EU**, zodat het land of de regio wordt weergegeven in het Intrastat-rapport.
 
 4. Regiocodes instellen.
 
@@ -119,7 +122,7 @@ U kunt ook handmatig transacties invoeren door **Nieuw** te selecteren in het ac
 ### <a name="generate-an-intrastat-report"></a>Een Intrastat-rapport genereren
 
 1. Ga naar **Belasting** > **Aangiften** > **Buitenlandse handel** > **Intrastat**.
-2. Selecteer in het deelvenster Actie **Uitvoer** > **Rapport**.
+2. Selecteer in het actievenster **Uitvoer** > **Rapport**.
 3. Stel in het dialoogvenster **Intrastat-rapport** de volgende velden in.
 
     | Veld | Beschrijving |
@@ -172,7 +175,7 @@ Dit voorbeeld laat zien hoe u ontvangsten en verzendingen voor Intrastat kunt bo
     4. Selecteer in het veld **Instantie** de waarde **TA**.
     5. Selecteer op het sneltabblad **Elektronische rapportage** in het veld **Toewijzing bestandsindeling** de waarde **Intrastat XML (DE)**.
     6. Selecteer in het veld **Toewijzing rapportindeling** de waarde **Intrastat-rapport**.
-    7. Zorg ervoor dat op het sneltabblad **Hiërarchie basisproductcodes** in het veld **Categoriehiërarchie** de waarde **Intrastat** is geselecteerd.
+    7. Zorg ervoor dat in het sneltabblad **Hiërarchie basisproductcodes** in het veld **Categoriehiërarchie** de waarde **Intrastat** geselecteerd is.
     8. Selecteer op het tabblad **Land-/regio-eigenschappen** de waarde **Nieuw**.
     9. Selecteer in het veld **Land/regio partij** de waarde **FRA**.
     10. Selecteer in het veld **Land-/regiotype** de waarde **EU**.
@@ -205,7 +208,7 @@ Dit voorbeeld laat zien hoe u ontvangsten en verzendingen voor Intrastat kunt bo
     9.  Selecteer op het tabblad **Regels** in het sneltabblad **Verkooporderregels** in het veld **Artikelnummer** de waarde **D0001**. Voer daarna in het veld **Hoeveelheid** de waarde **10** in.
     10. Zorg ervoor dat op het sneltabblad **Regelinformatie** op het tabblad **Buitenlandse handel** de velden **Transactiecode**, **Transport**, **Basisproduct** en **Land/regio van oorsprong** automatisch worden ingesteld.
     11. Selecteer **Opslaan** in het actievenster.
-    12. Selecteer in het deelvenster Actie op het tabblad **Factuur** in het gedeelte **Genereren** de waarde **Factuur**.
+    12. Selecteer in het actievenster in het tabblad **Factuur** in het gedeelte **Genereren** de waarde **Factuur**.
     13. Selecteer in het dialoogvenster **Factuur boeken** op het sneltabblad **Parameters** in de sectie **Parameters** in het veld **Hoeveelheid** de optie **Alle**.
     14. Selecteer **OK** om de factuur te boeken.
 
@@ -215,7 +218,7 @@ Dit voorbeeld laat zien hoe u ontvangsten en verzendingen voor Intrastat kunt bo
     2. Selecteer in het deelvenster Actie de optie **Overboeken**.
     3. Stel in het dialoogvenster **Intrastat (overboeking)** in de sectie **Parameters** de optie **Klantfactuur** in op **Ja**.
     4. Selecteer **Filter**.
-    5. Selecteer in het dialoogvenster **Intrastat-filter** op het tabblad **Bereik** de eerste regel en zorg ervoor dat het veld **Veld** is ingesteld op **Datum**.
+    5. Selecteer in het dialoogvenster **Intrastat-filter** in het tabblad **Bereik** de eerste regel en zorg ervoor dat het veld **Veld** is ingesteld op **Datum**.
     6. Selecteer in het veld **Criteria** de huidige datum.
     7. Selecteer **OK** om het dialoogvenster **Intrastat-filter** te sluiten.
     8. Selecteer **OK** om het dialoogvenster **Intrastat (overboeken)** te sluiten en het resultaat te controleren. De regel staat voor de verkooporder die u eerder hebt aangemaakt.
@@ -239,7 +242,7 @@ Dit voorbeeld laat zien hoe u ontvangsten en verzendingen voor Intrastat kunt bo
     9. Selecteer op het sneltabblad **Regeldetails** op het tabblad **Buitenlandse handel** in het veld **Transactiecode** de waarde **21**.
     10. Zorg ervoor dat de velden **Transport**, **Basisproduct** en **Land/regio van oorsprong** automatisch worden ingesteld.
     11. Selecteer **Opslaan** in het actievenster.
-    12. Selecteer in het deelvenster Actie op het tabblad **Factuur** in het gedeelte **Genereren** de waarde **Factuur**.
+    12. Selecteer in het actievenster in het tabblad **Factuur** in het gedeelte **Genereren** de waarde **Factuur**.
     13. Selecteer in het dialoogvenster **Factuur boeken** op het sneltabblad **Parameters** in de sectie **Parameters** in het veld **Hoeveelheid** de optie **Alle**.
     14. Selecteer **OK** om de factuur te boeken.
 

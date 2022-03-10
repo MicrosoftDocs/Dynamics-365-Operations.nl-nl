@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c87bfa057fd2808551674f2acb9d654ad47e9a42
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 149d4fc8026a2a1878155d2b708cf3a79dd0e5af966db4e7f9339d8ca582da70
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825657"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6711948"
 ---
 # <a name="fault-management"></a>Foutbeheer
 
@@ -106,7 +106,7 @@ In de foutontwerper stelt u foutgegevens in voor typen activa.
 
 7. Klik op **Opslaan** om uw wijzigingen op te slaan.
 
-![Pagina Foutontwerper](media/21-setup-for-work-orders.png)
+![Pagina Foutontwerper.](media/21-setup-for-work-orders.png)
 
 ## <a name="create-fault-causes"></a>Foutoorzaken maken
 

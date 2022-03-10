@@ -7,7 +7,6 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -15,18 +14,21 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-23
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 92dd281ed718be5c7ebd843d015c108ee121f30a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 14354ba9454b8837246b75cd413497553423511e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794920"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065421"
 ---
 # <a name="optimize-performance-by-scheduling-batch-jobs-after-hours"></a>Prestaties optimaliseren door batchtaken na werktijd te plannen
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="issue"></a>Uitgeven
 
@@ -52,11 +54,11 @@ De volgende batchtaken kunnen beter 's nachts of na werktijd worden uitgevoerd. 
 
 3. Selecteer **Uitvoeren op de achtergrond** en selecteer **Terugkeerpatroon**.
 
-   ![Stel terugkeerpatroon in](media/talent-batch-history-cleanup-recurrence.png)
+   ![Stel terugkeerpatroon in.](media/talent-batch-history-cleanup-recurrence.png)
 
 4. Geef onder **Terugkeerpatroon definiëren** de **Begindatum** en **Begintijd** op die buiten werktijd of in het weekend vallen. Selecteer **Geen einddatum**. 
 
-   ![Definieer begindatum en -tijd van het terugkeerpatroon](media/talent-batch-history-cleanup-define-recurrence.png)
+   ![Definieer begindatum en -tijd van het terugkeerpatroon.](media/talent-batch-history-cleanup-define-recurrence.png)
 
 5. Selecteer **OK**.
 

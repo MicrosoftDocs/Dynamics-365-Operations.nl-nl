@@ -2,29 +2,26 @@
 title: Kostengroepen
 description: Kostengroepen vormen de basis voor het segmenteren en analyseren van kostenbijdragen in de berekende kosten van een gefabriceerd artikel, zoals de kostenbijdragen voor materiaal, arbeid en overhead. Voor segmentatie van kostengroepen worden in de productieomgeving verschillende synoniemen gehanteerd, zoals kostenanalyse, kostenontleding of kostenclassificatie.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCostGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 50871
 ms.assetid: 1855f744-f73f-4fa8-8290-a7ee126d368b
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9dee8e40de43480cd010b5acc41a3d87611c2ab6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3b60c8a353a4c545cf5c1f1b1e5565d0d7e2a5bb
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425586"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572141"
 ---
 # <a name="cost-groups"></a>Kostengroepen
 
@@ -54,3 +51,6 @@ Aan een kostengroep kunnen een kostengroeptype en gedrag voor extra segmentatie 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
-ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 5093e42b0b5247c24c271ad50c80889516586d58
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: 86350acfd056be2b43fc856e3b76b1632989a804
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020882"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579683"
 ---
 # <a name="shipping-information-setup"></a>Instellingen van verzendgegevens
 

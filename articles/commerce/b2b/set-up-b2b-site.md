@@ -2,7 +2,7 @@
 title: Een e-commercesite voor B2B instellen
 description: In dit onderwerp wordt beschreven hoe u een e-commercesite voor B2B (business-to-business) in Microsoft Dynamics 365 Commerce instelt.
 author: josaw1
-ms.date: 04/23/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d77e1f3b5f8d558643b078dbe8e829e62f85120e4931d60224116a33f171fab3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e012b88465e98e788f65697d95fc141d453888e3
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721002"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983312"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Een e-commercesite voor B2B instellen
 
@@ -37,7 +37,7 @@ E-commercesites voor B2B bieden belangrijke mogelijkheden om de workflow te opti
 
 U hebt toegang tot siteniveau-instellingen in Site Builder via **Site-instellingen \> Extensies**. De volgende twee siteniveau-instellingen zijn van toepassing op B2B-scenario's:
 
-- **Betalingen van klantaccounts inschakelen**: met deze eigenschap kunnen gebruikers orders betalen via klantaccounts. De beschikbare waarden zijn **Ingeschakeld voor B2B-klanten**, **Ingeschakeld voor B2C-klanten**, **Ingeschakeld voor alle klanten** en **Uitgeschakeld voor alle klanten**. Als uw B2B-site klantaccounts ondersteunt, moet u **Ingeschakeld voor B2C-klanten** selecteren.
+- **Betalingen van klantaccounts inschakelen**: met deze eigenschap kunnen gebruikers orders betalen via klantaccounts. De beschikbare waarden zijn **Ingeschakeld voor B2B-klanten**, **Ingeschakeld voor B2C-klanten**, **Ingeschakeld voor alle klanten** en **Uitgeschakeld voor alle klanten**. Als uw B2B-site klantaccounts ondersteunt, moet u **Ingeschakeld voor B2B-klanten** selecteren.
 - **Limieten voor orderhoeveelheid inschakelen**: met deze eigenschap kunt u beperkingen instellen voor het aantal artikelen dat voor elk product of elke categorie kan worden besteld. De beschikbare waarden zijn **Ingeschakeld voor B2B-klanten**, **Ingeschakeld voor B2C-klanten**, **Ingeschakeld voor alle klanten** en **Uitgeschakeld voor alle klanten**.
 
 > [!NOTE]
@@ -306,6 +306,30 @@ Voer de volgende stappen uit om een module voor snel toevoegen toe te voegen aan
 
 > [!NOTE] 
 > De module voor snel toevoegen is beschikbaar vanaf Commerce versie 10.0.17. Als u een oudere versie van Commerce bijwerkt, moet u het bestand appsettings.json handmatig bijwerken. Zie [Updates voor SDK's en modulebibliotheken](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file) voor meer instructies.
+
+## <a name="add-a-bulk-purchase-module-to-a-product-details-page"></a>Een module voor bulkaankopen toevoegen aan een pagina met productgegevens
+
+De module voor bulkaankopen op een pagina met productgegevens biedt een op een matrix gebaseerde ervaring waarmee een inkoper snel meerdere varianten van een product aan de winkelwagen kan toevoegen. Als een sitegebruiker meerdere varianten van hetzelfde product moet bestellen, hoeft deze gebruiker nu niet meer de combinatie van productdimensies te selecteren, de hoeveelheid te definiëren, de variant aan de winkelwagen toe te voegen en het proces voor andere vervolgens combinaties van productdimensies te herhalen.
+
+Voer de volgende stappen uit om de module voor bulkaankopen aan een pagina met productgegevens toe te voegen in Commerce Site Builder.
+
+1. Ga naar **Sjablonen** en selecteer de pagina met productgegevens van uw site.
+1. Selecteer **Bewerken**.
+1. Selecteer in het vak **Hoofd** van de module **Standaardpagina** het weglatingsteken (**...**) en vervolgens **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de module **Container** en selecteer vervolgens **OK**.
+1. Selecteer het weglatingsteken (**...**) in het vak **Container** en selecteer **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de module **Bulkaankoop** en selecteer vervolgens **OK**.
+1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren.
+1. Ga naar **Pagina's** en selecteer de pagina met productgegevens van uw site.
+1. Selecteer in het vak **Hoofd** van de module **Standaardpagina** het weglatingsteken (**...**) en vervolgens **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de module **Container** en selecteer vervolgens **OK**.
+1. Stel in het eigenschappendeelvenster voor de module **Container** de eigenschap **Breedte** in op **Container vullen**.
+1. Selecteer het weglatingsteken (**...**) in het vak **Container** en selecteer **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de module **Bulkaankoop** en selecteer vervolgens **OK**.
+1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de pagina in te checken en selecteer **Publiceren** om te publiceren.
+
+> [!NOTE] 
+> De module voor bulkaankopen is beschikbaar vanaf Commerce 10.0.24. Als u een oudere versie van Commerce bijwerkt, moet u het bestand appsettings.json handmatig bijwerken. Zie [Updates voor SDK's en modulebibliotheken](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file) voor meer instructies.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

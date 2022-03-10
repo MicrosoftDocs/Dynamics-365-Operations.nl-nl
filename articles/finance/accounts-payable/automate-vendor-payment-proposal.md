@@ -2,11 +2,9 @@
 title: Leveranciersbetalingsvoorstellen automatiseren
 description: In dit onderwerp wordt uitgelegd hoe organisaties die leveranciers periodiek betalen het proces van het genereren van betalingsvoorstellen voor leveranciers kunnen automatiseren.
 author: kweekley
-manager: AnnBe
 ms.date: 04/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 63f2d3dc55799efefaedb10134edb219fa8588e0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1c5012fdc4f3bfab3f91adfee1eab758dd9c1a0f
+ms.sourcegitcommit: 5aecb04178e45e1fdea032b3ef3ce338332005dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5003573"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7966710"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Leveranciersbetalingsvoorstellen automatiseren
 
@@ -34,6 +32,9 @@ Organisaties die leveranciers periodiek betalen, kunnen nu het proces van het ge
 - In welk leveranciersbetalingsjournaal de resulterende betalingen worden opgeslagen
 
 Bij de automatische betalingsvoorstellen worden de betalingen niet automatisch geboekt. Daarom kunt u alle validatie- en werkstroomprocessen gebruiken die u momenteel gebruikt om de gemaakte betalingen goed te keuren.
+
+> [!NOTE]
+> De functie **Automatisering van leveranciersbetalingsvoorstellen** moet zijn ingeschakeld in Functiebeheer om deze functionaliteit te kunnen gebruiken. 
 
 ## <a name="define-the-occurrence-of-vendor-payment-proposals"></a>Het exemplaar van de betalingsvoorstellen voor leveranciers definiëren
 
@@ -99,11 +100,11 @@ We raden u aan om te beoordelen of de automatisering voor uw organisatie nuttig 
 
 Nadat de automatsering voor het leveranciersbetalingsvoorstel is gemaakt, worden de herhalingen voor elke betaling weergegeven in de weekweergave van de procesautomatisering. Voor leveranciersbetalingen is de weekweergave voor procesautomatisering toegevoegd aan het werkgebied **Leveranciersbetalingen** en de pagina **Procesautomatisering**.
 
-[![De weekweergave van procesautomatisering in het werkgebied Leveranciersbetalingen](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
+[![De weekweergave van procesautomatisering in het werkgebied Leveranciersbetalingen.](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
 
 De weekweergave van de procesautomatisering in het werkgebied **Leveranciersbetalingen** laat alleen automatiseringen van leveranciersbetalingsvoorstellen zien. Het geeft alle exemplaren van betalingen voor de huidige week weer, voor alle rechtspersonen waarvoor de aangemelde gebruiker beveiligingsmachtigingen heeft. Als de betalingsmedewerker bijvoorbeeld verantwoordelijk is voor betalingen in de bedrijven USMF en USSI, ziet hij de exemplaren voor de automatisering van de leveranciersbetalingsvoorstellen voor die twee bedrijven, maar niet voor andere bedrijven.
 
-[![De weekweergave van procesautomatisering voor de bedrijven USMF en USSI](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
+[![De weekweergave van procesautomatisering voor de bedrijven USMF en USSI.](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
 
 Elk exemplaar geeft het bedrijf weer waarin het betalingsjournaal is of wordt gemaakt. Als betalingen worden gemaakt met behulp van gecentraliseerde betalingen, is het bedrijf dat wordt weergegeven het bedrijf waarin betalingen worden gemaakt. Het wordt niet noodzakelijkerwijs getoond welke facturen van de bedrijven worden betaald.
 
@@ -143,3 +144,6 @@ De volgende functies en bevoegdheden zijn toegevoegd voor de automatisering van 
 | Informatie opvragen over geplande exemplaren | Betalingsmedewerker leveranciers, centrale betalingsmedewerker leveranciers | Deze functie verleent de rechten om de automatiseringsreeks voor betalingsvoorstellen en exemplaren weer te geven via de volgende bevoegdheden:<ul><li>Planningsexemplaren weergeven</li><li>De weekweergave met exemplaren bekijken</li></ul> |
 | Informatie opvragen over planningsreeks      | None                                                                       | Deze functie verleent de rechten om de instellingen voor de reeks en exemplaren weer te geven via de volgende bevoegdheden:<ul><li>Planningsexemplaren weergeven</li><li>De lijstpagina met exemplaren weergeven</li><li>De weekweergave met exemplaren bekijken</li></ul>|
 | Planningsexemplaren onderhouden     | None                                                                       | Deze functie geeft de rechten voor het maken en onderhouden van een exemplaar via de volgende bevoegdheden:<ul><li>Planningsexemplaren onderhouden</li><li>De weekweergave met exemplaren bekijken</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

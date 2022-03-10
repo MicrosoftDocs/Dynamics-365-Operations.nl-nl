@@ -5,39 +5,34 @@ author: mirzaab
 ms.date: 04/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WhsWaveNotificationPolicy, WHSParameters, WHSWaveTemplateTable, BusinessEventsWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2022-04-01
+ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 0a61aff10234f40f14d603852be30fec3ba83647
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: af3983db1a96116a88914411a26f1ac5d4857ae9
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838077"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103234"
 ---
 # <a name="wave-execution-notifications"></a>Meldingen voor uitvoering van wave
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 De functie *Wave-uitvoeringsmeldingen* maakt gebruik van zakelijke gebeurtenissen en het Actiecentrum om meldingen te leveren die verband houden met de uitvoering van een wave. U kunt hiermee de typen gebeurtenissen opgeven die meldingen genereren, de magazijnen die ze genereren en de gebruikers die ze ontvangen.
 
 De knop **Berichten weergeven** (belsymbool) aan de rechterkant van de navigatiebalk geeft aan wanneer een bericht uit het Actiecentrum beschikbaar is voor de huidige gebruiker. De gebruiker kan de knop **Berichten weergeven** selecteren om het Actiecentrum te openen en de berichten te bekijken.
 
-Zakelijke gebeurtenissen vinden plaats wanneer bedrijfsprocessen worden uitgevoerd. Bedrijfsprocessen bestaan uit taken. Tijdens een bedrijfsproces voeren de gebruikers die eraan deelnemen zakelijke acties uit om die taken te voltooien. Zakelijke gebeurtenissen bieden een mechanisme waarmee externe systemen meldingen vanuit Finance and Operations-toepassingen kunnen ontvangen. Op deze manier kunnen de systemen zakelijke acties uitvoeren als reactie op de zakelijke gebeurtenissen. Zie [Overzicht van zakelijke gebeurtenissen](../../fin-ops-core/dev-itpro/business-events/home-page.md) voor meer informatie.
+Zakelijke gebeurtenissen vinden plaats wanneer bedrijfsprocessen worden uitgevoerd. Bedrijfsprocessen bestaan uit taken. Tijdens een bedrijfsproces voeren de gebruikers die eraan deelnemen zakelijke acties uit om die taken te voltooien. Zakelijke gebeurtenissen bieden een mechanisme waarmee externe systemen meldingen vanuit toepassingen voor financiën en bedrijfsactiviteiten kunnen ontvangen. Op deze manier kunnen de systemen zakelijke acties uitvoeren als reactie op de zakelijke gebeurtenissen. Zie [Overzicht van zakelijke gebeurtenissen](../../fin-ops-core/dev-itpro/business-events/home-page.md) voor meer informatie.
 
-## <a name="turn-on-the-wave-execution-notifications-feature"></a>De functie Meldingen voor uitvoering van wave inschakelen
+## <a name="turn-the-wave-execution-notifications-feature-on-or-off"></a>De functie Meldingen voor uitvoering van wave in- of uitschakelen
 
-Voordat u de functie *Meldingen voor uitvoering van wave* kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen het werkgebied [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
-
-- **Module:** *Magazijnbeheer*
-- **Functienaam:** *Meldingen voor uitvoering van wave*
+Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Meldingen voor uitvoering van wave* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="scenario-send-wave-batch-execution-notifications-to-the-action-center"></a>Scenario: meldingen voor batchuitvoeringen van waves naar het Actiecentrum verzenden
 

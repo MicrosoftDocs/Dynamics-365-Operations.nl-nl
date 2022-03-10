@@ -1,12 +1,10 @@
 ---
-title: De invoegtoepassing voor elektronische facturering configureren in Regulatory Configuration Services (RCS)
-description: In dit onderwerp wordt uitgelegd hoe u de invoegtoepassing voor elektronisch factureren configureert in Dynamics 365 Regulatory Configuration Services (RCS).
+title: Elektronische facturering in Regulatory Configuration Services (RCS) configureren
+description: In dit onderwerp wordt uitgelegd hoe u Elektronische facturering configureert in Dynamics 365 Regulatory Configuration Services (RCS).
 author: gionoder
-manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,46 +15,44 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 99fac9a42dc2b180c220612c66fe753d43e5bd7f
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: 640244612a2a553ec09661635787cb7f8694283b
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592617"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779665"
 ---
-# <a name="configure-the-electronic-invoicing-add-on-in-regulatory-configuration-services-rcs"></a>De invoegtoepassing voor elektronische facturering configureren in Regulatory Configuration Services (RCS)
+# <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Elektronische facturering in Regulatory Configuration Services (RCS) configureren
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/banner.md)]
+Dit onderwerp biedt informatie over de configuratiemogelijkheden van Elektronische facturering in Dynamics 365 Regulatory Configuration Services (RCS).
 
-Dit onderwerp biedt informatie over de configuratiemogelijkheden van de invoegtoepassing voor elektronisch factureren in Dynamics 365 Regulatory Configuration Services (RCS).
-
-Via de configuratiemogelijkheden van de invoegtoepassing voor elektronisch factureren kunt u voldoen aan zakelijke en wettelijke vereisten voor elektronische facturen zonder dat u code hoeft uit te schrijven. En in de scenario's waarin elektronische facturen elektronisch moeten worden goedgekeurd door een webservice, helpen de configuratiemogelijkheden u ook om te voldoen aan de vereisten voor het uitwisselen van berichten met een webservice, zonder code te hoeven schrijven.
+Via de configuratiemogelijkheden van Elektronische facturering kunt u voldoen aan zakelijke en wettelijke vereisten voor elektronische facturen zonder dat u code hoeft uit te schrijven. En in de scenario's waarin elektronische facturen elektronisch moeten worden goedgekeurd door een webservice, helpen de configuratiemogelijkheden u ook om te voldoen aan de vereisten voor het uitwisselen van berichten met een webservice, zonder code te hoeven schrijven.
 
 ## <a name="electronic-reporting"></a>Elektronische rapportage
 
-De invoegtoepassing voor elektronische facturering is gebaseerd op ER (Elektronische rapportage).
+Elektronische rapportage (ER) biedt ondersteuning voor Elektronische facturering.
 
-De gegevensmodeltoewijzing en -indelingen zijn configureerbare onderdelen die worden gemaakt en bijgehouden via ER en worden gebruikt in de invoegtoepassing voor elektronische facturering. De ER-indelingsontwerper is een hulpmiddel voor het maken en onderhouden van bestandsindelingen. Deze wordt gebruikt om de functies voor elektronische facturering te configureren.
+De gegevensmodeltoewijzing en -indelingen zijn configureerbare onderdelen die worden gemaakt en bijgehouden via ER en worden gebruikt in Elektronische facturering. De ER-indelingsontwerper is een hulpmiddel voor het maken en onderhouden van bestandsindelingen. Deze wordt gebruikt om de functies voor elektronische facturering te configureren.
 
 Zie [Overzicht van elektronische rapportage (ER)](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md) voor meer informatie.
 
 ## <a name="electronic-invoicing-features"></a>Functies voor elektronische facturering
 
-De functies voor elektronische facturering zijn verantwoordelijk voor het genereren van elektronische facturen via de invoegtoepassing voor elektronische facturering. Deze bevatten de configuratieregels en gebruiken deze voor de verwerking van de gegevens die Microsoft Dynamics 365 Finance en Dynamics 365 Supply Chain Management naar de invoegtoepassing voor elektronische facturering en naar elektronische facturen verzenden.
+De functies voor elektronische facturering zijn verantwoordelijk voor het genereren van elektronische facturen via Elektronische facturering. Deze bevatten de configuratieregels en gebruiken deze voor de verwerking van de gegevens die Microsoft Dynamics 365 Finance en Dynamics 365 Supply Chain Management naar Elektronische facturering en elektronische facturen verzenden.
 
 De functies ondersteunen ook scenario's waarbij naleving met de bestandsindelingsspecificaties vereist is en de uitvoer zelfstandig elektronisch bestand is. In de meeste gevallen worden de specificaties van de bestandsindeling door de belastingdienst gepubliceerd.
 
 De functies ondersteunen ten slotte de uitwisseling van berichten met externe webservices die worden gehost door de belastingdienst of door een geaccrediteerde partij, en autorisatie- of goedkeuringsaanvragen in de elektronische factuur.
 
-### <a name="availability-of-electronic-invoicing-features"></a>Beschikbaarheid van elektronische factureringsfuncties
+## <a name="availability-of-electronic-invoicing-features"></a>Beschikbaarheid van elektronische factureringsfuncties
 
 De beschikbaarheid van de functies voor elektronische facturering is afhankelijk van het land of de regio. Sommige functies zijn algemeen beschikbaar, maar andere functies zijn nog in preview.
 
-#### <a name="preview-features"></a>Voorbeeldfuncties
+### <a name="generally-available-features"></a>Functies voor algemene beschikbaarheid
 
-In de volgende tabel worden de functies voor elektronische facturering weergegeven die momenteel in preview zijn.
+In de volgende tabel worden de functies voor elektronische facturering weergegeven die algemeen beschikbaar zijn.
 
 | Land/regio | Functienaam                         | Bedrijfsdocument |
 |----------------|--------------------------------------|-------------------|
@@ -64,30 +60,40 @@ In de volgende tabel worden de functies voor elektronische facturering weergegev
 | België        | Elektronische factuur België (BE)      | Verkoopfacturen en projectfacturen |
 | Brazilië         | Braziliaans NF-e (BR)                  | Fiscaal documentmodel 55, correcties, annuleringen en afkeuringen |
 | Brazilië         | Braziliaans NFS-e ABRASF Curitiba (BR) | Service belastingdocumenten |
+| Brazilië         | NF-e-import uit e-mail (BR) (Brazilië) | Fiscaal model 55-document |
 | Denemarken        | Elektronische factuur Denemarken (DK)       | Verkoopfacturen en projectfacturen |
-| Egypte          | Elektronische factuur Egypte (EG) | Verkoopfacturen en projectfacturen |
+| Egypte          | Elektronische factuur Egypte (EG)     | Verkoopfacturen en projectfacturen |
 | Estland        | Elektronische factuur Estland (EE)     | Verkoopfacturen en projectfacturen |
 | Finland        | Elektronische factuur Finland (FI)      | Verkoopfacturen en projectfacturen |
 | Frankrijk         | Elektronische factuur Frankrijk (FR)       | Verkoopfacturen en projectfacturen |
 | Duitsland        | Elektronische factuur Duitsland (DE)       | Verkoopfacturen en projectfacturen |
 | Italië          | FatturaPA (IT)                       | Verkoopfacturen en projectfacturen |
-| Mexico         | Mexicaans CFDI (ERP)                    | Verkoopfacturen, pakbonnen, voorraadoverboekingen, betalingscomplementen en annuleringen |
 | Nederland    | Elektronische factuur Nederland (NL)        | Verkoopfacturen en projectfacturen |
 | Noorwegen         | Elektronische factuur Noorwegen (NO)    | Verkoopfacturen en projectfacturen |
 | Spanje          | Elektronische factuur Spanje (ES)      | Verkoopfacturen en projectfacturen |
 | Europa         | PEPPOL Elektronische factuur            | PEPPOL verkoopfacturen en projectfacturen |
+| Europa         | PEPPOL - leveranciersfactuur                | PEPPOL - leveranciersfacturen importeren |
+| Saoedi-Arabië   | Elektronische factuur voor Saoedi-Arabië (SA)| Verkoopfacturen en projectfacturen |
+
+### <a name="preview-features"></a>Voorbeeldfuncties
+
+In de volgende tabel worden de functies voor elektronische facturering weergegeven die momenteel in preview zijn.
+
+| Land/regio | Functienaam                         | Bedrijfsdocument |
+|----------------|--------------------------------------|-------------------|
+| Mexico         | Mexicaans CFDI (ERP)                    | Verkoopfacturen, pakbonnen, voorraadoverboekingen, betalingscomplementen en annuleringen |
 
 ### <a name="configurable-components-of-electronic-invoicing-features"></a>Configureerbare onderdelen van elektronische factureringsfuncties
 
 De elektronische factureringsfuncties bestaan uit de volgende groepen configureerbare onderdelen:
 
-- **Indelingen**: met indelingen kunt u configureren wat de invoegtoepassing voor elektronische facturering moet genereren wanneer een elektronisch document een elektronische factuur wordt. Indelingen omvatten de indelingsconfiguratie voor de elektronische factuur en voor bestanden en berichten die worden gebruikt om aanvragen in te dienen en antwoorden te ontvangen wanneer communicatie met een externe webservice vereist is.
-- **Acties**: met acties kunt u configureren hoe de invoegtoepassing voor elektronische facturering de transformatie genereert van een elektronisch document dat Finance en Supply Chain Management heeft ingediend naar een elektronische factuur.
-- **Toepasbaarheidsregels**: met regels voor toepasbaarheid kunt u de context configureren waarmee in de invoegtoepassing voor elektronische facturering rekening moet worden gehouden om een elektronische factureringsfunctie te verwerken.
-- **Variabelen**: met variabelen kunt u de ondersteuning configureren voor de constructie van de configuratielogica. Variabelen kunnen werken als de invoer van waarden om een specifieke actie uit te voeren. Ze kunnen ook werken als een uitwisseling van waarden tussen Finance en Supply Chain Management en de invoegtoepassing voor elektronische facturering.
-- **Elektronische documentmodeltoewijzing**: met de toewijzing van het elektronische documentmodel kunt u de ER-modeltoewijzing configureren. De modeltoewijzing definieert de gegevenstoewijzing van de abstracte factuur die in de invoegtoepassing voor elektronische facturering is geïntegreerd wanneer elektronische documenten worden ingediend.
-- **Factuurcontextmodel**: met het factuurcontextmodel kunt u het ER-factuurcontextmodel configureren en de context van een elektronische factureringsfunctie definiëren.
-- **Antwoordtypen**: met antwoordtypen kunt u configureren wat de invoegtoepassing voor elektronische facturering moet bijwerken in Finance en Supply Chain Management als gevolg van de verwerking van elektronische facturen.
+- **Indelingen**: met indelingen kunt u configureren wat met Elektronische facturering moet worden gegenereerd als een elektronisch document een elektronische factuur wordt. Indelingen omvatten de indelingsconfiguratie voor de elektronische factuur en voor bestanden en berichten die worden gebruikt om aanvragen in te dienen en antwoorden te ontvangen wanneer communicatie met een externe webservice vereist is.
+- **Acties**: met acties kunt u configureren hoe met Elektronische facturering de transformatie van een elektronisch document dat met Finance en Supply Chain Management is ingediend, naar een elektronische factuur wordt gegenereerd.
+- **Toepasbaarheidsregels**: met regels voor toepasbaarheid kunt u de context configureren waarmee in Elektronische facturering rekening moet worden gehouden om een functie voor elektronische facturering te verwerken.
+- **Variabelen**: met variabelen kunt u de ondersteuning configureren voor de constructie van de configuratielogica. Variabelen kunnen werken als de invoer van waarden om een specifieke actie uit te voeren. Ze kunnen ook werken als een uitwisseling van waarden tussen Finance en Supply Chain Management en Elektronische facturering.
+- **Elektronische documentmodeltoewijzing**: met de toewijzing van het elektronische documentmodel kunt u de ER-modeltoewijzing configureren. De modeltoewijzing definieert de gegevenstoewijzing van de abstracte factuur die in Elektronische facturering is geïntegreerd wanneer elektronische documenten worden ingediend.
+- **Factuurcontextmodel**: met het factuurcontextmodel kunt u het ER-factuurcontextmodel configureren en de context van een functie voor elektronische facturering definiëren.
+- **Antwoordtypen**: met antwoordtypen kunt u configureren wat met Elektronische facturering moet worden bijgewerkt in Finance en Supply Chain Management als gevolg van de verwerking van elektronische facturen.
 
 ### <a name="formats"></a>Indelingen
 
@@ -192,6 +198,13 @@ In de volgende lijsten worden de configuraties van de ER-indelingen vermeld die 
 - Verkoopfactuur (ES)
 - Projectfactuur (ES)
 
+#### <a name="saudi-arabian-sa-electronic-invoice-sales-and-project-invoices-for-saudi-arabia"></a>Saoedische (SA) elektronische factuur: verkoop- en projectfacturen voor Saoedi-Arabië
+
+- Elektronische verkoopfactuur (SA)
+- Elektronische projectfactuur (SA)
+
+Behalve de configuraties van de ER-indeling die buiten het vak beschikbaar zijn voor gebruik met de elektronische factureringsservice, kunt u ook uw eigen ER-indelingsconfiguraties maken. De indelingsconfiguraties die worden gemaakt voor gebruik met elektronische factureringsfuncties, bieden echter geen ondersteuning voor directe verwijzing naar tabellen van Financiën of Supply Chain Management of naar de bijbehorende metagegevens. Alleen verwijzingen naar de ER-modeltoewijzing worden ondersteund.
+
 ### <a name="actions"></a>Acties
 
 In de volgende tabel staan de beschikbare acties en of deze momenteel in het algemeen beschikbaar zijn of nog in preview zijn.
@@ -199,13 +212,98 @@ In de volgende tabel staan de beschikbare acties en of deze momenteel in het alg
 | Actie                                        | Beschrijving                                                                  | Beschikbaarheid         |
 |-----------------------------------------------|------------------------------------------------------------------------------|----------------------|
 | Document transformeren                            | De indeling voor elektronische rapportage uitvoeren om het document te transformeren.                   | Algemeen beschikbaar  |
-| Xml-document ondertekenen                             | Xml-documenten ondertekenen met een digitale handtekening.                                   | Preview           |
-| Json-document ondertekenen voor Belastingdienst | Json-documenten ondertekenen met een digitale handtekening voor de Egyptische belastingdienst.       | Algemeen beschikbaar  |
+| Xml-document ondertekenen                             | Xml-documenten ondertekenen met een digitale handtekening.                                   | Algemeen beschikbaar  |
+| JSON-document ondertekenen voor Egyptische belastingdienst | Json-documenten ondertekenen met een digitale handtekening voor de Egyptische belastingdienst.       | Algemeen beschikbaar  |
 | Integreren met de Egyptische ETA-service           | Communiceren met de Egyptische belastingdienst.                                     | Algemeen beschikbaar  |
-| Braziliaanse SEFAZ-service aanroepen                  | Integreren met Braziliaanse SEFAZ-service voor het indienen van belastingdocument.       | Preview           |
+| Braziliaanse SEFAZ-service aanroepen                  | Integreren met Braziliaanse SEFAZ-service voor het indienen van belastingdocument.       | Algemeen beschikbaar  |
 | Mexicaanse PAC-service aanroepen                      | Integreren met Mexicaanse VS-service voor CFDI-indiening.                      | Preview           |
 | Reactie verwerken                              | Het antwoord analyseren dat u van het webserviceoproep hebt ontvangen.                     | Algemeen beschikbaar  |
 | MS Power Automate gebruiken                         | Integreer met stroom die is ingebouwd in Microsoft Power Automate.                       | Preview           |
+
+### <a name="applicability-rules"></a>Toepasbaarheidsregels
+
+Toepasselijkheidsregels zijn configureerbare clausules die zijn gedefinieerd op het niveau van de functie Elektronische facturering. De regels zijn geconfigureerd om een context te bieden voor de uitvoering van functies voor elektronische facturering via de set met mogelijkheden voor Elektronische facturering.
+
+Wanneer een bedrijfsdocument van Finance of Supply Chain Management wordt ingediend bij elektronische facturering, bevat het bedrijfsdocument geen expliciete verwijzing waarmee de mogelijkhedenset voor Elektronische facturering een bepaalde elektronische factureringsfunctie kan aanroepen om de indiening te verwerken.
+
+Wanneer het bedrijfsdocument echter correct is geconfigureerd, bevat het de nodige elementen waarmee kan worden opgelost welke functie voor elektronische facturering moet worden geselecteerd en vervolgens de elektronische factuur kan genereren.
+
+Met de toepasselijkheidsregels kan de mogelijkheid voor Elektronische facturering worden ingesteld om de exacte elektronische factureringsfuncties te vinden die moeten worden gebruikt om de indiening te verwerken. Dit gebeurt door de inhoud van het ingediende bedrijfsdocument af te stemmen met de clausules uit de Toepasselijkheidsregels.
+
+Twee functies voor elektronische facturering met gerelateerde toepasselijkheidsregels worden bijvoorbeeld geïmplementeerd in de mogelijkhedenset Elektronische facturering.
+
+| Functie voor elektronische facturering | Toepasbaarheidsregels        |
+|------------------------------|--------------------------- |
+| V                            | <p>Land = BR</p><p>en</p><p>Rechtspersoon = BRMF</p>  |
+| B                            | <p>Land = MX</p><p>en</p><p>Rechtspersoon = MXMF</p>  |
+
+Als een bedrijfsdocument van Finance of Supply Chain Management wordt ingediend bij de mogelijkhedenset voor Elektronische facturering, bevat het bedrijfsdocument de volgende ingevulde kenmerken:
+
+- Land = BR
+- Rechtspersoon = BRMF
+
+De mogelijkhedenset voor Elektronische facturering selecteert de elektronische factureringsfunctie **A** om de indiening te verwerken en de elektronische factuur te genereren.
+
+Dit gebeurt op dezelfde manier als het bedrijfsdocument het volgende bevat:
+
+- Land = MX
+- Rechtspersoon = MXMF
+
+Elektronische factureringsfunctie **B** wordt is geselecteerd om de elektronische factuur te genereren.
+
+De configuratie van toepasselijkheidsregels kan niet dubbelzinnig zijn. Dit betekent dat twee of meer elektronische factureringsfuncties niet dezelfde clausules kunnen hebben, anders leidt dit tot geen selectie. Als er sprake is van een duplicatie van elektronische factureringsfuncties, gebruikt u om dubbelzinnigheid te voorkomen aanvullende clausules zodat de mogelijkhedenset voor elektronische facturering onderscheid kan maken tussen de twee elektronische factureringsfuncties.
+
+De elektronische factureringsfunctie **C** is bijvoorbeeld een kopie van de elektronische factureringsfunctie **A**.
+
+| Functie voor elektronische facturering | Toepasbaarheidsregels        |
+|------------------------------|--------------------------- |
+| V                            | <p>Land = BR</p><p>en</p><p>Rechtspersoon = BRMF</p>  |
+| C                            | <p>Land = BR</p><p>en</p><p>Rechtspersoon = BRMF</p>  |
+
+In dit voorbeeld staat functie **C** voor een zakelijke documentinzending die het volgende bevat:
+
+- Land = BR
+- Rechtspersoon = BRMF
+
+De mogelijkheid voor elektronische facturering kan niet onderscheiden welke functie voor elektronische facturering moet worden gebruikt om de indiening te verwerken, omdat de inzendingen exact dezelfde clausules bevatten.
+
+Om onderscheid te maken tussen de twee functies via toepasselijkheidsregels, moet een nieuwe clausule worden toegevoegd aan een van de functies zodat de mogelijkhedenset voor elektronische facturering de juiste functie voor elektronische facturering kan selecteren.
+
+| Functie voor elektronische facturering | Toepasbaarheidsregels        |
+|------------------------------|--------------------------- |
+| V                            | <p>Land = BR</p><p>en</p><p>Rechtspersoon = BRMF</p>  |
+| C                            | <p>Land = BR</p><p>en</p><p>Rechtspersoon = BRMF</p><p>en</p><p>Model=55</p>  |
+
+Om het maken van complexere clausules te ondersteunen zijn de volgende bronnen beschikbaar:
+
+Logische operators:
+- En
+- Of
+
+Operatortypen:
+- Equal
+- Not equal
+- Greater than
+- Less than
+- Groter dan of gelijk aan
+- Kleiner dan of gelijk aan
+- Contains
+- Begint met
+
+Gegevenstypen:
+- Tekenreeks
+- Nummer
+- Booleaans
+- Datum
+- UUID
+
+Mogelijkheid om clausules te groeperen en de groep op te heffen.
+Het voorbeeld ziet er zo uit.
+
+| Functie voor elektronische facturering | Toepasbaarheidsregels        |
+|------------------------------|--------------------------- |
+| C                            | <p>Land = BR</p><p>en</p><p>(Rechtspersoon = BRMF</p><p>of</p><p>Model=55)</p>  |
+
 
 ## <a name="configuration-providers"></a>Configuratieproviders
 
@@ -237,7 +335,7 @@ Versies van elektronische factureringsfuncties volgen een levenscyclus met maxim
 
 - **Concept**: als een functieversie deze status heeft, kunt u de configuratiekenmerken en alle andere onderdelen hiervan bewerken (bijvoorbeeld bestandsindelingsconfiguraties).
 - **Voltooid**: als een functieversie deze status heeft, is deze gepubliceerd in de algemene opslagplaats die aan uw organisatie is gekoppeld. U kunt de functieversie of een van de ER-onderdelen niet meer bewerken.
-- **Gepubliceerd**: als een functieversie deze status heeft, is deze gepubliceerd in de invoegtoepassing voor elektronische facturering. U kunt de functieversie of een van de ER-onderdelen niet meer bewerken.
+- **Gepubliceerd**: als een functieversie deze status heeft, is deze gepubliceerd in Elektronische facturering. U kunt de functieversie of een van de ER-onderdelen niet meer bewerken.
 
 ### <a name="feature-configurations"></a>Functieconfiguraties
 
@@ -266,14 +364,14 @@ Via de toepassingsinstellingen kunt u het onderdeel van een elektronische factur
 
 In RCS gebruikt u de opdracht **Implementeren** om een versie van een elektronische factureringsfunctie te publiceren. Selecteer **Implementeren** en selecteer vervolgens een van de volgende opties om het doel van de implementatie te definiëren: 
 
-- **Serviceomgeving**: als het doel van de implementatie de serviceomgeving is, wordt de versie van de elektronische factureringsfunctie naar de serviceomgeving gepubliceerd. De invoegtoepassing voor elektronische facturering is dan klaar om elektronische documenten te ontvangen en te verwerken die door Finance en Supply Chain Management worden verzonden.
+- **Serviceomgeving**: als het doel van de implementatie de serviceomgeving is, wordt de versie van de elektronische factureringsfunctie naar de serviceomgeving gepubliceerd. Elektronische facturering is dan klaar om elektronische documenten te ontvangen en te verwerken die door Finance en Supply Chain Management worden verzonden.
 - **Verbonden toepassing**: wanneer het doel van de implementatie de verbonden toepassing is, wordt de configuratie die wordt geleverd door de toepassingsinstellingen geschreven in het Finance en Supply Chain Management-exemplaar dat eerder aan de toepassing is verbonden.
 
 Alleen versies van elektronische factureringsfunctie met de status **Voltooid** kunnen worden geïmplementeerd in een serviceomgeving of een verbonden toepassing.
 
 ### <a name="removing-feature-versions"></a>Functieversies verwijderen
 
-In RCS gebruikt u de opdracht **Implementatie verwijderen** om een specifieke versie van een elektronische factureringsfunctie te verwijderen uit een serviceomgeving in de invoegtoepassing voor elektronische facturering.
+In RCS gebruikt u de opdracht **Implementatie verwijderen** om een specifieke versie van een elektronische factureringsfunctie te verwijderen uit een serviceomgeving in Elektronische facturering.
 
 > [!IMPORTANT]
 > De opdracht **Implementatie verwijderen** werkt alleen in serviceomgevingen. Deze functie verwijdert geen versies van elektronische factureringsfuncties uit verbonden toepassingen.

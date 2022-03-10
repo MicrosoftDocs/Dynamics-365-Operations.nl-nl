@@ -1,7 +1,7 @@
 ---
 title: Een inkoopovereenkomst maken
 description: Dit onderwerp begeleidt u door het maken van een inkoopovereenkomst.
-author: kamaybac
+author: Henrikan
 ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: PurchAgreement, PurchAgreementCreate, InventItemIdLookupSimple, 
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 19bfbe7bc78f08dbbc6f9924313749a46672e202
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ee2cf437446f2e4c2cdd3cc0cd3be863bbafa132
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812321"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565442"
 ---
 # <a name="create-a-purchase-agreement"></a>Een inkoopovereenkomst maken
 

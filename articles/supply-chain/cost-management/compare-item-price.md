@@ -2,11 +2,9 @@
 title: Rapport Opslag artikelprijzen vergelijken
 description: Informatie over het genereren van een opslagrapport voor het vergelijken van artikelprijzen en vervolgens het doorbladeren en/of exporteren van het resultaat.
 author: AndersGirke
-manager: tfehr
 ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, InventItemPriceCompareStorage, InventItemPriceCompareStorageDetailsChart, InventItemPriceCompareStorageDetails
 audience: Application User
@@ -17,13 +15,13 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2020-03-01
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: f40faa7919e6fb5ce0de2594b3d2f264fe42fa1a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 76a4ba07d191f79b4033fc78acff62d4909c7d32
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222916"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565994"
 ---
 # <a name="compare-item-prices-storage-report"></a>Rapport Opslag artikelprijzen vergelijken
 

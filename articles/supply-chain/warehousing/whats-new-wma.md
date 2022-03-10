@@ -1,21 +1,21 @@
 ---
 title: Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
 description: In dit onderwerp worden de nieuwe en gewijzigde functies genoemd voor elke vrijgegeven versie van de mobiele app Warehouse Management voor Microsoft Dynamics 365 Supply Chain Management.
-author: ivanv-microsoft
-ms.date: 07/30/2021
+author: Mirzaab
+ms.date: 01/18/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: ivanv
+ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 43d1381e73d5659bfd6ae6c6d944b7e6918b681a4f89df7ad23abbed5b4a0d3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ceb327599bb2651a37ac51c3e0fdffc39d20c7f6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720079"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067246"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
 
@@ -23,25 +23,106 @@ ms.locfileid: "6720079"
 
 In dit onderwerp worden de nieuwe functies, oplossingen, verbeteringen en bekende problemen genoemd voor elke vrijgegeven versie van de mobiele app Warehouse Management voor Microsoft Dynamics 365 Supply Chain Management.
 
-## <a name="2070"></a>2.0.7.0
+## <a name="version-20150"></a>Versie 2.0.15.0
+
+Deze versie bevat de volgende nieuwe functies, verbeteringen en oplossingen voor fouten:
+
+- Verbeterde prestaties door een geheugenlekprobleem op te lossen.
+- Een probleem is opgelost waarbij sommige veldwaarden niet juist werden bijgewerkt als ze werden geselecteerd op de detailpagina.
+
+## <a name="version-20140"></a>Versie 2.0.14.0
+
+Deze versie bevat de volgende nieuwe functies, verbeteringen en oplossingen voor fouten:
+
+- Het probleem opgelost dat de standaardknop Indienen werd uitgeschakeld.
+
+## <a name="version-20130"></a>Versie 2.0.13.0
+
+Deze versie bevat de volgende nieuwe functies, verbeteringen en oplossingen voor fouten:
+ 
+- Verbeterd bladeren tussen pagina's met soepelere animatie.
+- Niet-intuïtieve reacties bij swipen en vastlopen van scherm opgelost.
+- Verbeterde kleurencombinaties van tekst in de donkere modus en achtergrond voor een betere leesbaarheid.
+- Een probleem opgelost waarbij een bepaalde tekst erg klein werd bij het wijzigen van het formaat van het appvenster.
+- Een probleem opgelost waarbij de app soms vastloopt bij het scannen van streepjescodes.
+- De mogelijkheid toegevoegd om een schuifregelaar door een knop te vervangen.
+- Een probleem opgelost dat dit foutbericht in de app wordt weergegeven: "AADSTS7000215: ongeldig clientgeheim opgegeven."
+- Animatie voor hint aangepast voor het weergeven hoe u een pagina sluit door naar beneden te vegen.
+- De mogelijkheid toegevoegd om een pagina af te sluiten met een gebaar voor naar beneden vegen.
+- Een probleem opgelost waarbij de vervolgkeuzelijsttitels niet werden weergegeven op de pagina **Gebruikersinstellingen**.
+- Een lokalisatieprobleem opgelost waarbij de app geen komma's (,) als decimaal scheidingsteken herkent.
+- Verbeterde toegankelijkheid.
+- De navigatie opgelost op de pagina **Nieuwe verbinding** om de toegankelijkheid te verbeteren.
+- Een probleem opgelost waarbij het schermtoetsenbord niet werd weergegeven bij het selecteren van een invoerveld.
+- Een probleem opgelost waarbij de app vastliep als gebruikers de vensterafmetingen snel wijzigen.
+- Een probleem opgelost waarbij een korte druk op een toets soms werd geïnterpreteerd als een lange druk.
+- Een probleem opgelost waarbij de app-indeling beschadigd kon raken als gevolg van veldaanpassingen in Supply Chain Management.
+- Een probleem opgelost waarbij artikellocaties niet juist werden weergegeven.
+- Een probleem opgelost met betrekking tot het verzamelen voor de werkstroom voor productvarianten.
+- Onnodige validatie van velden met vooraf ingestelde standaardwaarden verwijderd.
+- Prestaties verbeterd.
+- Een nieuwe instelling toegevoegd waarmee gebruikers kunnen kiezen hoe velden worden gefilterd en besteld op de kaartpagina.
+
+## <a name="version-20110"></a>Versie 2.0.11.0
+
+Deze versie bevat de volgende nieuwe functies, verbeteringen en oplossingen voor fouten:
+
+- Extra ondersteuning voor gepropageerde velden.
+- Extra ondersteuning voor hardwaretoetsenbordnavigatie.
+- Verbeterde toegankelijkheid.
+- Verbeterde detailkaarten.
+- Verbeterde omleidingen voor menu-itemstappen.
+- Kleine verbeteringen in de gebruikersinterface.
+- Een probleem opgelost dat ertoe kan leiden dat de app vast loopt bij het scannen van streepjescodes.
+- Er zijn verschillende problemen opgelost die konden veroorzaken dat het systeem niet meer reageerde.
+
+## <a name="version-20100"></a>Versie 2.0.10.0
+
+Deze versie bevat de volgende nieuwe functies, verbeteringen en oplossingen voor fouten:
+
+- Animatie toegevoegd bij het swipen door lijsten en pagina's.
+- Teksterugloop is nu correct op pagina over verbindingsfout.
+- Invoervakjes zonder standaardwaarden worden nu juist weergegeven.
+- Informatie in het subkopgebied wordt nu alleen weergegeven op de pagina met volledige details.
+- Lege invoervelden worden niet meer weergegeven op de detailkaart.
+- Bevestigingswaarden worden niet meer gedupliceerd op de detailkaart.
+- Er zijn verschillende problemen opgelost die veroorzaakten dat het systeem niet meer reageerde.
+
+## <a name="version-2090"></a>Versie 2.0.9.0
+
+Met deze versie wordt een probleem opgelost waarbij de app niet meer reageert als gebruikers vanaf bovenaan een lijst naar bovenaan de pagina willen gaan.
+
+## <a name="version-2080"></a>Versie 2.0.8.0
+
+Deze versie bevat de volgende nieuwe functies, verbeteringen en oplossingen voor fouten:
+
+- Extra ondersteuning voor de [functie stapsgewijs-instructies](mobile-app-titles-instructions.md) die is geïntroduceerd in Supply Chain Management versie 10.0.21.
+- Extra hint-animatie om gebruikers te laten zien dat ze overlays kunnen sluiten door omlaag te swipen.
+- Extra ondersteuning voor functietoetsen in actielijsten en menu's. Gebruikers kunnen elke functietoets drie seconden ingedrukt houden om een lijst met beschikbare opdrachten weer te geven.
+- Een probleem opgelost waardoor het volgende foutbericht op sommige apparaten werd weergegeven: 'Kan geen geschikte weergave vinden voor de opgegeven grootte'.
+- Een probleem opgelost waarbij de modus voor volledig scherm niet altijd werkte wanneer het toetsenbord op het scherm wordt gebruikt.
+- Een probleem opgelost waarbij het swipen van pagina's niet werkte op Windows-apparaten.
+- Er zijn verschillende problemen opgelost die veroorzaakten dat het systeem niet meer reageerde.
+
+## <a name="version-2070"></a>Versie 2.0.7.0
 
 ### <a name="new-features-fixes-and-improvements-in-version-2070"></a>Nieuwe functies, oplossingen en verbeteringen in 2.0.7.0
 
-- Er is een sectie aan de pagina **Over** toegevoegd waarmee wordt gecontroleerd of er een nieuwe versie van de app beschikbaar is.
-- Het is eenvoudiger om tussen de pagina's te bladeren.
+- Er is een gedeelte toegevoegd aan de pagina **Over** waarmee wordt gecontroleerd wat de nieuwste uitgegeven versie van de app is.
+- Het is eenvoudiger om tussen de pagina's te bladeren met vegen en swipen.
 - Het pictogram voor de knop oplopend/aflopend op de werklijst is gewijzigd.
-- De marges op de kaart **Details** zijn verkleind, zodat er meer informatie op de kaart past.
+- De marges op de kaart **Informatie** zijn verkleind, zodat er meer informatie op de kaart past.
 - Er zijn verschillende prestatieverbeteringen toegepast om te helpen voorkomen dat de app na verloop van tijd trager wordt.
-- Als er meer besturingselementen zijn dan op het scherm passen, wat resulteert in paginering, kan met het kringveld niet langer op dezelfde manier worden geschoven als met de pagina.
+- Als er meer besturingselementen zijn dan op het scherm passen, wat resulteert in paginering, kan met het ringveld niet langer op dezelfde manier worden geschoven als de pagina.
 - Er is prioriteit gegeven aan de weergave van de laatst gescande waarde boven de weergave van de taaktitel, dus als ze elkaar overlappen, wordt de taaktitel afgekapt.
 - Er zijn verschillende problemen opgelost die veroorzaakten dat het systeem niet meer reageerde.
 - Tekst op verschillende plaatsen wordt in bepaalde talen niet meer afgesneden.
-- De app wordt nu standaard uitgevoerd in de modus voor volledige scherm.
+- De app wordt nu standaard uitgevoerd in de modus voor volledig scherm.
 - Er is een probleem opgelost dat er zo nu en dan toe leidde dat scans op de hoofdpagina met bepaalde apparaten werden genegeerd.
 
 ### <a name="known-issues-in-version-2070"></a>Bekende problemen in 2.0.7.0
 
-- Op sommige apparaten wordt het volgende foutbericht weergegeven wanneer u de app start of een taak start: 'Kan geen geschikte weergave vinden voor de opgegeven grootte.' Als u dit foutbericht op een van uw apparaten ziet, moet u de mobiele app Magazijnbeheer downgraden naar versie 2.0.6.0 maken op dat apparaat en wachten met het upgraden totdat de volgende versie van de app is vrijgegeven.
+- Op sommige apparaten wordt het volgende foutbericht weergegeven wanneer u de app start of een taak start: 'Kan geen geschikte weergave vinden voor de opgegeven grootte.' Als u dit foutbericht op een van uw apparaten ziet, moet u de mobiele app Warehouse Management downgraden naar versie 2.0.6.0 op dat apparaat en wachten met weer upgraden totdat de volgende versie van de app is vrijgegeven.
 
 ## <a name="version-2060"></a>Versie 2.0.6.0
 
@@ -108,7 +189,7 @@ Deze versie bevat de volgende nieuwe functies, correcties en verbeteringen die n
 - Bij time-out-uitzonderingen gaat u nu naar de verbindingspagina in plaats van dat een inlinefout wordt weergegeven.
 - Als er geen verzendactie beschikbaar is (zoals **OK**, **Ja**, **Accepteren**, **Gereed** of **Voltooid**), wordt de verzendknop uitgeschakeld.
 - De app-stabiliteit is verbeterd.
-- Er is een oplossing voor beveiligingsprobleem [CVE-2021-26701](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-26701).
+- Er is een oplossing voor beveiligingsprobleem [CVE-2021-26701](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-26701)
 - **Windows-versie:** er is een probleem opgelost in Windows, waarbij menu's niet reageerden nadat het formaat van het venster was gewijzigd.
 
 ### <a name="known-issue-in-version-2040"></a>Bekend probleem in versie 2.0.4.0

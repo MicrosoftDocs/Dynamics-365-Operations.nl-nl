@@ -15,18 +15,19 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80bba5446eb7a87d96a7da4ae856cb5ca114ce52
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: 825aa327cc1530675fad57be6fc1b4313f0cf998
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483777"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068965"
 ---
 # <a name="ready-to-pay"></a>Gereed voor betaling
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [preview feature](./includes/preview-feature.md)]
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 > [!NOTE]
 > Als u een werknemer als gereed voor betaling wilt markeren, moet u eerst de functionaliteit **(Preview) Integratie van salarisadministratie** in functiebeheer inschakelen. Meer informatie over het inschakelen van de previewfuncties vindt u in [Functies beheren](hr-admin-manage-features.md).
@@ -72,10 +73,9 @@ Als een van deze validaties mislukt, kunt u de werknemer niet als gereed voor be
 
 Als het veld **Gereed voor betaling** de waarde **Nee** heeft, geeft dit aan dat u een actie moet uitvoeren om ervoor te zorgen dat het werknemerprofiel is voltooid. Hiermee wordt niet voorkomen dat de gegevens beschikbaar worden gemaakt in een gegevensentiteit. 
 
-## <a name="known-issues"></a>Bekende problemen
+## <a name="process-automation"></a>Procesautomatisering
 
-- U moet de functie **Gestroomlijnde invoer voor werknemers** in functiebeheer uitschakelen. De tegels in de werkruimte voor compensatiebeheer werken niet goed als u deze functie gebruikt.
-- Op de pagina **Werknemer** op het tabblad **Salaris** is de groep **Gereed voor betaling** beschikbaar voor elke gebruikersrol. 
+U kunt de validatie van alle werknemers automatiseren door [Procesautomatisering](/dynamics365/fin-ops-core/dev-itpro/sysadmin/process-automation) te gebruiken. Ga in de werkruimte **Compensatiebeheer** naar **Koppelingen** \> **Parameters** \> **Procesautomatiseringen**.
 
 ## <a name="see-also"></a>Zie ook
 

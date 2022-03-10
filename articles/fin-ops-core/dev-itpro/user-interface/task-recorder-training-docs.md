@@ -8,31 +8,33 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SysHelpSetup
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: 25391
 ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0be27fc759c525dcc1ffe4f2717b2e2378c52a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 448c2b302136e595852c423d53e49adfcc40d12d
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744158"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070521"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Documentatie of training maken met Taakrecorder
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 In dit onderwerp wordt uitgelegd wat de Taakrecorder en taakbegeleidingen zijn, hoe u taakregistraties maakt en hoe u Microsoft-taakbegeleidingen aanpast en opneemt in uw Help.
 
 > [!IMPORTANT]
 > U kunt uw eigen taakbegeleiders voor Dynamics 365 Human Resources opnemen, maar u kunt deze nu niet opslaan in een BPM-bibliotheek (Business Process Modeler) of openen vanuit het deelvenster Help. U kunt de taakbegeleidingen lokaal of op een netwerklocatie opslaan en vervolgens openen en afspelen met Taakrecorder. 
 
-<a name="learn-about-task-recorder"></a>Meer informatie over Taakregistratie
--------------------------
+## <a name="learn-about-task-recorder"></a>Meer informatie over Taakregistratie
 
 Taakrecorder is een hulpmiddel waarmee u de acties vast kunt leggen die u uitvoert in de gebruikersinterface (UI) van het product. Wanneer u Taakregistratie gebruikt, worden alle gebeurtenissen die u in de UI uitvoert die voor de server worden uitgevoerd, inclusief het toevoegen van waarden, wijzigen van instellingen, verwijderen van gegevens, vastgelegd. De stappen die u registreert worden samen een *taakregistratie* genoemd. Taakregistraties kunnen op verschillende manieren worden gebruikt:
 
@@ -63,21 +65,21 @@ Of u nou een nieuwe taakregistratie maakt of uw registratie baseert op een Micro
 
 Dit is het bewerkingsdeelvenster dat u ziet wanneer u een aantekening toevoegt als u de registratie maakt. Typ een titelaantekening in het vak **Titel**. 
 
-[![Bewerkingsvenster met titelaantekening](./media/screen1.png)](./media/screen1.png) 
+[![Bewerkingsvenster met titelaantekening.](./media/screen1.png)](./media/screen1.png) 
 
 Zo ziet de titelaantekening eruit in de "ballon" in de taakbegeleiding. 
 
-[![Weergave van titelaantekening in taakbegeleider](./media/screen2.png)](./media/screen2.png)
+[![Weergave van titelaantekening in taakbegeleider.](./media/screen2.png)](./media/screen2.png)
 
 -   **Opmerkingen:** een notitiesaantekening wordt weergegeven na de staptekst die taakregistratie automatisch genereert. In de taakbegeleiding wordt deze alleen zichtbaar als de gebruiker op de koppeling **Meer weergeven** in de ballon van de taakbegeleiding klikt. Gebruik dit type aantekening om alles te beschrijven wat een gebruiker moet weten om de stap te voltooien.
 
 Dit is het bewerkingsdeelvenster dat u ziet wanneer u een aantekening toevoegt als u de registratie maakt. Typ een aantekening voor notities in het vak **Notities**. 
 
-[![Bewerkingsdeelvenster met aantekening in het vak Notities](./media/screen3.png)](./media/screen3.png) 
+[![Bewerkingsdeelvenster met aantekening in het vak Notities.](./media/screen3.png)](./media/screen3.png) 
 
 Zo ziet de notitieaantekening eruit in de 'ballon' in de taakbegeleiding.
 
-[![Weergave van notities in taakbegeleider](./media/screen4.png)](./media/screen4.png)
+[![Weergave van notities in taakbegeleider.](./media/screen4.png)](./media/screen4.png)
 
 -   **Infostap**: deze aantekeningen worden gemaakt door met de rechtermuisknop op een besturingselement of ergens in een formulier &lt; **Taakrecorder** &lt; **Infostap toevoegen** te klikken. Infostappen verschijnen als genummerde stap bij het punt waar u ze invoegt, zelfs als geen actie in de UI is geregistreerd. U kunt een infostap op formulierniveau toevoegen of een infostap toevoegen die aan een besturingselement is gekoppeld. Wanneer een infostap met een formulier is gekoppeld, wordt de taakbegeleidingballon ergens op het formulier weergegeven, zonder aanwijzer, wanneer de taakbegeleiding wordt afgespeeld. Wanneer een infostap aan een besturingselement is gekoppeld, wijst de taakbegeleidingballon naar het besturingselement wanneer de taakbegeleiding wordt afgespeeld. In het Help-deelvenster wordt een infostapaantekening als een genummerde stap weergegeven met de tekst u hebt ingevoerd. De stappen van de gebruiksinfo om de gebruiker voor de volgende stappen voor te bereiden, beschrijven stappen die buiten de toepassing moeten worden uitgevoerd of naar andere registraties (hoewel u geen hyperlinks in aantekeningen kunt maken.) moeten verwijzen.
 
@@ -111,8 +113,7 @@ U kunt de taakregistraties van Microsoft downloaden en bewerken om ze voor uw ei
 
 
 
-<a name="additional-resources"></a>Aanvullende bronnen
---------
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Help-systeem](../../fin-ops/get-started/help-overview.md)
 

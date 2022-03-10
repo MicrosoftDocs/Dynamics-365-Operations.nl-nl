@@ -16,14 +16,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 86ca63b1703faa6f57ed2e5591c89a5e84363481
-ms.sourcegitcommit: 318e406b84d43381d450272eb83c5eea9c5cf1c0
+ms.openlocfilehash: a5f3ae95d0670369ac63e5a5d521885fe55ce8af
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6059468"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070647"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Verlof- en verzuimplannen toerekenen
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -104,11 +107,9 @@ Opbouwrecords voor een specifiek plan en datumbereik verwijderen. Toerekeningsda
 
 2. Selecteer onder **Verlof beheren** de optie **Controle van toerekening van verlof verwijderen**.
 
-## <a name="preview-leave-accrual-transaction-auditing"></a>(Preview) Controleren van toerekeningstransacties voor verlof
+## <a name="leave-accrual-transaction-auditing"></a>Controleren van toerekeningstransacties voor verlof
 
-[!include [Preview feature](includes/preview-feature.md)]
-
-Met deze preview-functie begrijpen verzuim- en verlofmanagers de toerekeningstransacties voor verlof en verzuim die betrekking hebben op de verlofsaldi van een werknemer voor een bepaald verloftype.
+Met deze functie begrijpen verzuim- en verlofmanagers de toerekeningstransacties voor verlof en verzuim die betrekking hebben op de verlofsaldi van een werknemer voor een bepaald verloftype.
 
 Transactiedetails weergeven:
 
@@ -125,7 +126,7 @@ Als u de transactiedetails voor een specifiek toerekeningsbedrag wilt weergeven,
 - Details over de toerekeningsperiode en -tarieven
 - Eventuele wijzigingen in de verlofplanconfiguraties
 
-![Controle van toerekeningstransacties voor verlof weergeven](media/hr-leave-and-absence-accrue-audit.png)
+![Controle van toerekeningstransacties voor verlof weergeven.](media/hr-leave-and-absence-accrue-audit.png)
 
 ## <a name="see-also"></a>Zie ook
 

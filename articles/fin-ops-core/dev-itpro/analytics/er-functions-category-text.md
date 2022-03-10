@@ -2,9 +2,7 @@
 title: Lijst met ER-functies van de tekstcategorie
 description: Dit onderwerp biedt informatie over de tekstfuncties die worden ondersteund in ER (Elektronische rapportage).
 author: NickSelin
-manager: kfend
-ms.date: 04/02/2020
-ms.topic: article
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eac084cf47b69d21f435dc6fe386693717af7cc
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: afe45bf1ff5c641346997aa4f32f3241dce2f0a2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561561"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075495"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Lijst met ER-functies van de tekstcategorie
 
@@ -37,12 +35,14 @@ ER-tekstfuncties kunnen worden gebruikt om bewerkingen uit te voeren op gegevens
 | [Samenvoegen](er-functions-text-concatenate.md) | Deze functie retourneert alle opgegeven tekenreeksen als een waarde van het type *Tekenreeks* nadat ze zijn samengevoegd in één tekenreeks. |
 | [Indeling](er-functions-text-format.md) | Met deze functie retourneert de opgegeven tekenreeks een waarde van het type *Tekenreeks* nadat deze is ingedeeld door elk exemplaar van **%N** te vervangen door het *N* e argument. |
 | [GetEnumValueByName](er-functions-text-getenumvaluebyname.md) | Deze functie zoekt naar een specifieke waarde van het type *Opsomming* in de opgegeven gegevensbron voor opsommingen met behulp van de opsommingsnaam die is opgegeven als waarde van het type *Tekenreeks*. Als de waarde van het type *Opsomming* wordt gevonden, wordt deze geretourneerd. |
+| [GetLabelText](er-functions-text-getlabeltext.md) | Met deze functie wordt naar een specifiek label gezocht om een *[Tekenreeks](er-formula-supported-data-types-primitive.md#string)*-waarde te retourneren die de vertaling van het opgegeven label in de opgegeven taal vertegenwoordigt. |
 | [GuidValue](er-functions-text-guidvalue.md) | Deze functie converteert de opgegeven invoer van het gegevenstype *Tekenreeks* naar een gegevensitem van het gegevenstype *GUID*. |
 | [JsonValue](er-functions-text-jsonvalue.md) | Deze functie parseert gegevens in de indeling JavaScript Object Notation (JSON), die kan worden geopend op het opgegeven pad, en er wordt een scalaire waarde geëxtraheerd die is gebaseerd op de opgegeven id. Vervolgens wordt de geëxtraheerde scalaire waarde als een *tekenreekswaarde* geretourneerd. |
 | [Links](er-functions-text-left.md) | Deze functie retourneert een waarde van het type *Tekenreeks* die het opgegeven aantal tekens vanaf het begin van de opgegeven tekenreeks bevat. |
 | [Len](er-functions-text-len.md) | Deze functie retourneert een waarde van het type *Geheel getal* die het opgegeven aantal tekens in de opgegeven tekenreeks bevat. |
 | [Lower](er-functions-text-lower.md) | Deze functie retourneert de opgegeven tekstreeks als een waarde van het type *Tekenreeks* nadat deze is geconverteerd naar kleine letters. |
-| [Mid](er-functions-text-mid.md) | Deze functie retourneert een waarde van het type *Tekenreeks* die het opgegeven aantal tekens vanaf de opgegeven positie van de opgegeven tekenreeks bevat. |
+| [Mid](er-functions-text-mid.md) | Deze functie retourneert een waarde van het type *[Tekenreeks](er-formula-supported-data-types-primitive.md#string)* die het opgegeven aantal tekens vanaf de opgegeven positie van de opgegeven tekenreeks bevat. |
+| [NewGUID](er-functions-text-newguid.md) | Deze functie retourneert een nieuw gegenereerde *[GUID](er-formula-supported-data-types-primitive.md#guid)*-waarde. |
 | [NumberFormat](er-functions-text-numberformat.md) | Deze functie retourneert een waarde van het type *Tekenreeks* die de opgegeven numerieke waarde in de opgegeven indeling en in een optioneel opgegeven cultuur bevat. |
 | [NumeralsToText](er-functions-text-numeralstotext.md) | Deze functie retourneert de opgegeven numerieke waarde als een waarde van het type *Tekenreeks* nadat deze is gespeld (geconverteerd naar tekstreeksen) in de opgegeven taal. |
 | [PadLeft](er-functions-text-padleft.md) | Deze functie retourneert een waarde van het type *Tekenreeks* met de opgegeven lengte, waarbij het begin van de opgegeven tekenreeks wordt aangevuld met een of meer van de opgegeven tekens. |

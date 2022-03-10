@@ -1,32 +1,34 @@
 ---
 title: ACA-rapporten genereren in Vergoedingenbeheer
-description: In dit onderwerp wordt beschreven hoe Vergoedingenbeheer u helpt gegevens bij te houden die worden gerapporteerd met formulier 1095-B en formulier 1095-C voor het werkgeversmandaat van de Affordable Care Act (ACA).
-author: andreabichsel
-ms.date: 12/28/2020
+description: In dit onderwerp wordt beschreven hoe Vergoedingenbeheer gegevens bijhoudt die worden gerapporteerd met formulier 1095-B en formulier 1095-C voor het werkgeversmandaat van de Affordable Care Act (ACA).
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: a41195ea3b52a707ce9deae38f12eb90de2ff5aa
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 79bd8e02aeac1be94e735373740cf9508f494a06
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805797"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065988"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>ACA-rapporten genereren in Vergoedingenbeheer
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Vergoedingenbeheer helpt u gegevens bij te houden die worden gerapporteerd met formulier 1095-B en formulier 1095-C voor het werkgeversmandaat van de Affordable Care Act (ACA). Net zoals de ACA-rapportagefunctionaliteit in het oude werkgebied **Vergoedingen**, is deze functionaliteit alleen van toepassing op rechtspersonen in de Verenigde Staten.
+Vergoedingenbeheer houdt gegevens bij die worden gerapporteerd met formulier 1095-B en formulier 1095-C voor het werkgeversmandaat van de Affordable Care Act (ACA). Net zoals de ACA-rapportagefunctionaliteit in het oude werkgebied **Vergoedingen**, is deze functionaliteit alleen van toepassing op rechtspersonen in de Verenigde Staten.
 
 Als u deze functionaliteit wilt gebruiken, moet u eerst **Geavanceerd vergoedingenbeheer** inschakelen. Meer informatie, inclusief belangrijke voorbehouden voor Vergoedingenbeheer, vindt u in [Vergoedingenbeheer in- of uitschakelen](hr-admin-manage-features.md#enable-or-disable-benefits-management).
 
@@ -49,11 +51,11 @@ Met ACA-dekkingsgroepen kunt u deze informatie beheren voor meerdere werknemersr
 
 1. Selecteer in het werkgebied **Vergoedingenbeheer** de optie **ACA-dekkingsgroep**.
 
-    ![Een ACA-dekkingsgroep selecteren](./media/hr-benefits-management-aca-coverage-group.png)
+    ![Een ACA-dekkingsgroep selecteren.](./media/hr-benefits-management-aca-coverage-group.png)
 
 2. Selecteer **Nieuw** om een nieuwe ACA-dekkingsgroep te maken of **Bewerken** om een bestaande groep te wijzigen.
 
-    ![Nieuw of Bewerken selecteren](./media/hr-benefits-management-aca-new.png)
+    ![Nieuw of Bewerken selecteren.](./media/hr-benefits-management-aca-new.png)
 
 3. Stel de volgende velden in.
 
@@ -68,7 +70,7 @@ Met ACA-dekkingsgroepen kunt u deze informatie beheren voor meerdere werknemersr
     | Groep geldig vanaf | De eerste datum waarop deze record geldig is. |
     | Groep geldig tot | De laatste datum waarop deze record geldig is. Voer **Nooit** in als er geen vervaldatum is. |
 
-    ![Een dekkingsgroep maken](./media/hr-benefits-management-aca-new-group.png)
+    ![Een dekkingsgroep maken.](./media/hr-benefits-management-aca-new-group.png)
 
 4. Selecteer **Opslaan**.
 
@@ -78,11 +80,11 @@ Met ACA-dekkingsgroepen kunt u deze informatie beheren voor meerdere werknemersr
 2. Selecteer de groep waaraan u werknemers wilt toewijzen.
 3. Selecteer **Groepsgewijze toewijzing**.
 
-    ![Groepsgewijze toewijzing selecteren](./media/hr-benefits-management-aca-mass-assignment.png)
+    ![Groepsgewijze toewijzing selecteren.](./media/hr-benefits-management-aca-mass-assignment.png)
 
 4. Selecteer werknemers in de lijst en selecteer vervolgens **Toewijzen**.
 
-    ![Geselecteerde werknemers toewijzen aan een groep](./media/hr-benefits-management-aca-assign-coverage-group.png)
+    ![Geselecteerde werknemers toewijzen aan een groep.](./media/hr-benefits-management-aca-assign-coverage-group.png)
 
 ## <a name="maintain-multiple-versions-of-coverage-options"></a>Meerdere versies van dekkingsopties onderhouden
 
@@ -112,12 +114,12 @@ Voer de volgende stappen uit om uitzonderingen in te voeren voor alle waarden va
 2. Selecteer de werknemer in de lijst.
 3. Selecteer op het tabblad **Dienstverband**, in de sectie **Meer informatie**, de optie **ACA-dekking**.
 
-    ![Opties voor één werknemer wijzigen](./media/hr-benefits-management-aca-change-single-employee.png)
+    ![Opties voor één werknemer wijzigen.](./media/hr-benefits-management-aca-change-single-employee.png)
 
 4. Selecteer **Bewerken**.
 5. Schakel het selectievakje **Standaardwaarden overschrijven** in voor elke maand die moet worden gewijzigd en wijzig vervolgens de andere waarden waar nodig.
 
-    ![Standaardwaarden overschrijven](./media/hr-benefits-management-aca-override-default.png)
+    ![Standaardwaarden overschrijven.](./media/hr-benefits-management-aca-override-default.png)
 
 6. Selecteer **Opslaan**.
 
@@ -132,7 +134,7 @@ Volg deze stappen om aan te geven of een vergoedingsplan moet worden gerapportee
 3. Selecteer **Bewerken**.
 4. Stel de optie **Aangegeven onder de Affordable Care Act** in op **Ja**.
 
-    ![Gezondheidszorgdekking rapporteren](./media/hr-benefits-management-aca-report-coverage.png)
+    ![Gezondheidszorgdekking rapporteren.](./media/hr-benefits-management-aca-report-coverage.png)
 
 5. Selecteer **Opslaan**.
 
@@ -146,25 +148,25 @@ U kunt ook de ACA-formulieren 1095-B en 1095-C genereren in het product en distr
 2. Wijzig waar nodig de parameters en selecteer **OK**.
 
     > [!NOTE]
-    > Als u 1095-C-formulieren voor meer dan 500 werknemers afdrukt, ontvangt u meer dan één PDF-bestand. U wordt aangeraden de waarde van het veld **Maximumbestandsgrootte in megabytes** op de pagina **Parameters voor documentbeheer** te verhogen naar **150**. (Als u die pagina snel wilt openen, kunt u het zoekveld op de navigatiebalk gebruiken.)
+    > Als u 1095-C-formulieren voor meer dan 500 werknemers afdrukt, ontvangt u meer dan één PDF-bestand. U wordt aangeraden de waarde van het veld **Maximumbestandsgrootte in megabytes** op de pagina **Parameters voor documentbeheer** te verhogen naar **150**. (Als u die pagina snel wilt openen, gebruikt u het zoekveld op de navigatiebalk.)
     >
-    > ![De maximumbestandsgrootte wijzigen](./media/hr-benefits-management-aca-maximum-file-size.png)
+    > ![De maximumbestandsgrootte wijzigen.](./media/hr-benefits-management-aca-maximum-file-size.png)
 
 3. Als u de status van uw rapporten wilt controleren en weergeven, gebruikt u het zoekveld op de navigatiebalk om de pagina **Elektronische rapportagetaken** te openen.
 
-    ![De pagina Elektronische rapportagetaken zoeken](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
+    ![De pagina Elektronische rapportagetaken zoeken.](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
 
 4. Selecteer het rapport dat u wilt weergeven en selecteer vervolgens **Bestanden weergeven**.
 
-    ![Bestanden weergeven](./media/hr-benefits-management-aca-show-files.png)
+    ![Bestanden weergeven.](./media/hr-benefits-management-aca-show-files.png)
 
 5. Selecteer **Openen**.
 
-    ![Een bestand openen](./media/hr-benefits-management-aca-open-file.png)
+    ![Een bestand openen.](./media/hr-benefits-management-aca-open-file.png)
 
 6. Open vanuit de Meldingsbalk die onderin het browservenster wordt weergegeven het zip-bestand en selecteer het rapport. U kunt het PDF-bestand weergeven of afdrukken.
 
-    ![Voorbeeldformulier 1095-C](./media/hr-benefits-management-aca-1095-c-form.png)
+    ![Voorbeeldformulier 1095-C.](./media/hr-benefits-management-aca-1095-c-form.png)
 
 ## <a name="view-aca-coverage-information"></a>Informatie over ACA-dekking weergeven
 
@@ -179,7 +181,7 @@ Voer de volgende stappen uit om deze informatie weer te geven.
 1. Selecteer in het werkgebied **Vergoedingenbeheer** de optie **Dekking betaalbare zorg werknemer**.
 2. Selecteer een groep in het veld **Groepsnaam**.
 
-    ![ACA-dekking weergeven](./media/hr-benefits-management-aca-view-coverage.png)
+    ![ACA-dekking weergeven.](./media/hr-benefits-management-aca-view-coverage.png)
 
 Als een van de standaardwaarden van de ACA-dekkingsgroep is overschreven, wordt dit aangegeven met een asterisk naast de gewijzigde waarde. Als de waarden voor alle twaalf maanden hetzelfde zijn en niet zijn overschreven, wordt de waarde weergegeven in de kolom **Alle 12 maanden**.
 
@@ -199,11 +201,11 @@ Als u een van de lijsten wilt exporteren naar Microsoft Excel, gaat u als volgt 
 
 Als u gedekte personen moet rapporteren omdat u interne verzekering aanbiedt, kunt u alle afhankelijken weergeven die zijn gedekt door vergoedingsplannen die zijn gemarkeerd als **Aan te geven onder ACA**. Selecteer in het actievenster de optie **Gezinsdekking weergeven**.
 
-![Gezinsdekking weergeven](./media/hr-benefits-management-aca-view-dependent-coverage.png)
+![Gezinsdekking weergeven.](./media/hr-benefits-management-aca-view-dependent-coverage.png)
 
 De dekkingsinformatie voor de afhankelijken van de werknemer wordt weergegeven.
 
-![Gezinsdekking](./media/hr-benefits-management-aca-dependents.png)
+![Gezinsdekking.](./media/hr-benefits-management-aca-dependents.png)
 
 > [!NOTE]
 > Op de pagina worden alleen vergoedingsplannen weergegeven die zijn gemarkeerd als **Aan te geven onder ACA**.

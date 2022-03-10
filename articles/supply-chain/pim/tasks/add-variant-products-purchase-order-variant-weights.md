@@ -1,27 +1,24 @@
 ---
 title: Productvarianten toevoegen aan inkooporder met verschillende gewichten
 description: Deze procedure doorloopt de stappen voor het gebruik van variantgewichten om inkooporderregels automatisch te vullen voor elke variant van een product.
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27ff3784074a36d073930ba68c8dec8b1121356e
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 4f9523410447c102481dd2c709b1fa3dd69d03e8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4425847"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565637"
 ---
 # <a name="add-variant-products-to-purchase-orders-using-variant-weights"></a>Productvarianten toevoegen aan inkooporder met verschillende gewichten
 
@@ -48,3 +45,6 @@ Deze procedure doorloopt de stappen voor het gebruik van variantgewichten om ink
 17. Stel Hoeveelheid in op '1000'.
 18. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

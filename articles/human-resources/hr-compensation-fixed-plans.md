@@ -1,8 +1,8 @@
 ---
-title: Vastecompensatieplannen maken
-description: Vaste compensatie verwijst naar het normale brutosalaris of -loon van een werknemer. In dit artikel worden de onderdelen beschreven die u moet instellen voordat u een plan voor vaste compensatie kunt maken en werknemers kunt inschrijven.
-author: andreabichsel
-ms.date: 06/20/2017
+title: Plannen voor vaste compensatie maken
+description: In dit onderwerp worden de onderdelen beschreven die u moet instellen voordat u een plan voor vaste compensatie kunt maken en werknemers kunt inschrijven.
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,28 +12,31 @@ ms.search.scope: Human Resources
 ms.custom: 15991
 ms.assetid: ef8cf992-176c-4c98-9dff-6510e1eb9f1c
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: a3bc3c1030192ceaa4924dccee7b448a8ca32680
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 46dbc167a76782cfa8a72da8ce8bed2ce29e4dc6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054159"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070320"
 ---
 # <a name="create-a-fixed-compensation-plans"></a>Plannen voor vaste compensatie maken
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Vaste compensatie verwijst naar het normale brutosalaris of -loon van een werknemer. In dit artikel worden de onderdelen beschreven die u moet instellen voordat u een plan voor vaste compensatie kunt maken en werknemers kunt inschrijven.
+Vaste compensatie verwijst naar het normale brutosalaris of -loon van een werknemer. In dit onderwerp worden de onderdelen beschreven die u moet instellen voordat u een plan voor vaste compensatie kunt maken en werknemers kunt inschrijven.
 
 Bedragen van vaste compensaties kunnen voor uw werknemers worden berekend op basis van factoren, zoals prestaties, regio en budgetverhogingen. Dynamics 365 Human Resources ondersteunt de compensatietypen van stap, schaal en schijf.
 
 ## <a name="fixed-compensation-components"></a>Onderdelen van vaste compensatie
 ### <a name="compensation-levels"></a>Compensatieniveaus
 
-U kunt **compensatieniveaus** gebruiken om de compensatie voor verschillende functies in te stellen. Hiermee wordt ervoor gezorgd dat de werknemers die deze functies bekleden, eerlijk worden betaald. Op de pagina **Compensatieniveaus** kunt u de compensatieniveaus instellen die vereist zijn voor elk stap-, schaal- en schijfplan. Gebruik de knoppen **Omhoog** en **Omlaag** om de niveaus in de juiste volgorde te plaatsen in overeenstemming met het bijbehorende type. Door compensatieniveaus voor een functie in te stellen zorgt u ervoor dat alle werknemers die een positie voor die functie bekleden, op hetzelfde niveau worden betaald.
+U kunt **Compensatieniveaus** gebruiken om de compensatie voor verschillende functies in te stellen. Hiermee wordt ervoor gezorgd dat de werknemers die deze functies bekleden, eerlijk worden betaald. Op de pagina **Compensatieniveaus** kunt u de compensatieniveaus instellen die vereist zijn voor elk stap-, schaal- en schijfplan. Gebruik de knoppen **Omhoog** en **Omlaag** om de niveaus in de juiste volgorde te plaatsen in overeenstemming met het bijbehorende type. Door compensatieniveaus voor een functie in te stellen zorgt u ervoor dat alle werknemers die een positie voor die functie bekleden, op hetzelfde niveau worden betaald.
 
 ### <a name="reference-points"></a>Referentiepunten
 
@@ -41,7 +44,7 @@ U kunt **compensatieniveaus** gebruiken om de compensatie voor verschillende fun
 
 ### <a name="compensation-grids"></a>Compensatierasters
 
-Nadat u de niveaus en de referentiepunten hebt ingesteld, kunnen deze worden gecombineerd om een **compensatieraster** te maken. Op de pagina **Compensatierasters** definieert u gegevens over het raster. Geef bijvoorbeeld op waarvoor het raster is ontworpen, voor welk type plan het wordt gebruikt en welke referentiepunten of kolommen in het raster zijn vereist. Wanneer u klaar bent met het invoeren van die gegevens, klikt u op **Compensatiestructuur** om niveaus en bedragen aan uw raster toe te voegen. 
+Nadat u de niveaus en de referentiepunten hebt ingesteld, kunnen deze worden gecombineerd om een **Compensatieraster** te maken. Op de pagina **Compensatierasters** definieert u gegevens over het raster. Geef bijvoorbeeld op waarvoor het raster is ontworpen, voor welk type plan het wordt gebruikt en welke referentiepunten of kolommen in het raster zijn vereist. Wanneer u klaar bent met het invoeren van die gegevens, klikt u op **Compensatiestructuur** om niveaus en bedragen aan uw raster toe te voegen. 
 
 **Tip:** gebruik de functie **Groepsgewijze wijzigingen** in de compensatiestructuur om oorspronkelijke bedragen in te stellen en deze vervolgens met percentages of bedragen verspreid over uw niveaus of referentiepunten te verhogen.
 
@@ -56,13 +59,13 @@ Met de instelling **Tolerantie voor buiten bereik** kunt u opgeven hoe strikt u 
 
 Met de instelling **Aanstellingsregel** kunt u opgeven of alle werknemers dezelfde verhoging moeten krijgen, ongeacht de datum waarop ze in dienst zijn gekomen (**Aanstellingsregel** = **Geen**) of dat werknemers een percentage moeten krijgen van de toekenning die wordt gebaseerd op de duur van het dienstverband gedurende de cyclus (**Aanstellingsregel** = **Percentage**). 
 
-Een **matrix voor bereikgebruik** is handig als u de tijd wilt inkorten gedurende welke werknemers het middelpunt van hun bereik moeten bereiken of als u de tijd gedurende welke werknemers het maximale referentiepunt in het bereik moeten bereiken, wilt verlengen. U wilt bijvoorbeeld werknemers die zich in de onderste 25 procent van hun bereik bevinden, 110 procent van hun doeltoekenning geven, maar u wilt werknemers die zich in de bovenste 25 procent van hun bereik bevinden, slechts 80 procent van hun doeltoekenning geven. Dit om te voorkomen dat ze het maximum heel snel bereiken. 
+Een **Matrix voor bereikgebruik** is handig als u de tijd wilt inkorten gedurende welke werknemers het middelpunt van hun bereik moeten bereiken of als u de tijd gedurende welke werknemers het maximale referentiepunt in het bereik moeten bereiken, wilt verlengen. U wilt bijvoorbeeld werknemers die zich in de onderste 25 procent van hun bereik bevinden, 110 procent van hun doeltoekenning geven, maar u wilt werknemers die zich in de bovenste 25 procent van hun bereik bevinden, slechts 80 procent van hun doeltoekenning geven. Dit om te voorkomen dat ze het maximum heel snel bereiken. 
 
 Nadat u de basisprincipes van het vastecompensatieplan hebt gedefinieerd, kunt u de compensatiestructuur voor het plan instellen. Klik op **Compensatie instellen**. Er wordt een schuifregelaar van een dialoogvenster geopend waarin u drie opties hebt:
 
--   Een nieuw compensatieraster maken door een referentiepuntinstelling te selecteren en het raster een naam te geven.
--   Een nieuw compensatieraster maken door een kopie van een bestaand raster te maken dat u kunt gebruiken als uitgangspunt.
--   Een bestaand compensatieraster gebruiken dat al is gedefinieerd. Alle compensatieplannen die hetzelfde raster gebruiken, ontvangen updates als dat raster wordt gewijzigd.
+-   **Een nieuw compensatieraster maken** door een referentiepuntinstelling te selecteren en het raster een naam te geven.
+-   **Een nieuwe compensatiematrix** maken door een kopie van een bestaand raster te maken dat u kunt gebruiken als uitgangspunt.
+-   **Een bestaande compensatiematrix** gebruiken die al is gedefinieerd. Alle compensatieplannen die hetzelfde raster gebruiken, ontvangen updates als dat raster wordt gewijzigd.
 
 Nadat u een optie hebt geselecteerd, wordt de pagina **Compensatiestructuur** geopend en kunt u wijzigingen in het nieuwe compensatieraster of het bestaande compensatieraster aanbrengen.
 
@@ -73,7 +76,7 @@ De eerste stap bij het inschrijven van werknemers voor een vastecompensatieplan 
 
 **Opmerking:** met geschiktheidsregels wordt de geschiktheid bepaald voor zowel vastecompensatieplannen als variabelecompensatieplannen. 
 
-Voor de geschiktheidsregel wordt rekening gehouden met de waarde van specifieke velden in de records Functie, Positie en Werknemer om te bepalen of een werknemer voor een compensatieplan aanmerking komt.
+Voor de geschiktheidsregel wordt rekening gehouden met de waarde van specifieke velden in de records **Functie**, **Positie** en **Werknemer** om te bepalen of een werknemer voor een compensatieplan aanmerking komt.
 
 -   Op de pagina **Functie** wordt voor de geschiktheidsregel rekening gehouden met de volgende velden:
     -   Het veld **Functie**
@@ -85,7 +88,7 @@ Voor de geschiktheidsregel wordt ook rekening gehouden met vakbonden die zijn ge
 
 ### <a name="define-fixed-compensation-actions"></a>Acties voor vaste compensatie definiëren
 
-**Acties voor vaste compensatie** worden gebruikt wanneer u wijzigingen instelt of toepast op de vaste compensatie van een werknemer. Met acties voor vaste compensatie kunt u de beschrijvende namen voor de typen acties bevatten die een manager voor compensatie en vergoedingen kan uitvoeren. Achter verschillende actietypen zit een speciale logica, zodat deze op specifieke tijden kunnen worden gebruikt. 
+**Acties voor vaste compensatie** worden gebruikt wanneer u wijzigingen instelt of toepast op de vaste compensatie van een werknemer. Met acties voor vaste compensatie kunt u de beschrijvende namen opgeven voor de typen acties die een manager voor compensatie en vergoedingen kan uitvoeren. Achter verschillende actietypen zit een speciale logica, zodat deze op specifieke tijden kunnen worden gebruikt. 
 
 Als de vaste compensatie bijvoorbeeld is ingesteld voor een werknemer, kunnen alleen acties met het type **Aanstellen/Opnieuw aanstellen** worden gebruikt. In dit geval kunt u drie verschillende acties van het type **Aanstellen/Opnieuw aanstellen** maken en deze **Aanstellen**, **Opnieuw aanstellen** en **Overplaatsen** noemen. U hebt dan een meer beschrijvende uitleg van de reden waarom de vaste compensatie is gegeven aan een werknemer of waarom deze is gewijzigd.
 
@@ -93,9 +96,9 @@ Als de vaste compensatie bijvoorbeeld is ingesteld voor een werknemer, kunnen al
 
 U kunt een werknemer nu toewijzen aan een vastecompensatieplan. Open de pagina **Werknemers** en selecteer de werknemer voor inschrijving in het compensatieplan. Klik in het actievenster op **Compensatie** &gt; **Vast plan**. U kunt nu een nieuwe vastecompensatieactie maken voor deze werknemer. 
 
-**Opmerking:** in het veld voor het compensatieplan worden alleen de plannen weergegeven waarvoor een werknemer in aanmerking komt op basis van de geschiktheidsregels die voor elk plan zijn in gesteld. Als geen geschiktheidsregel voor een plan is ingesteld, komen er geen werknemers in aanmerking voor dat plan. 
+**Opmerking:** in het veld **Compensatieplan** worden alleen de plannen weergegeven waarvoor een werknemer in aanmerking komt op basis van de geschiktheidsregels die voor elk plan zijn ingesteld. Als geen geschiktheidsregel voor een plan is ingesteld, komen er geen werknemers in aanmerking voor dat plan. 
 
-Het systeem controleert of het compensatiebedrag dat voor een compensatieplan is opgegeven van het type schaal of schijf, binnen de minimale en maximale referentiepunten van het opgegeven compensatieniveau voor de functie van de werknemer valt. Als het compensatiebedrag buiten het toegestane bereik valt, wordt een waarschuwing of foutbericht weergegeven, afhankelijk van het tolerantieniveau dat voor het vastecompensatieplan is ingesteld.
+Er wordt gecontroleerd of het compensatiebedrag dat voor een compensatieplan is opgegeven van het type schaal of schijf, binnen de minimale en maximale referentiepunten van het opgegeven compensatieniveau voor de functie van de werknemer valt. Als het compensatiebedrag buiten het toegestane bereik valt, wordt een waarschuwing of foutbericht weergegeven, afhankelijk van het tolerantieniveau dat voor het vastecompensatieplan is ingesteld.
 
 
 

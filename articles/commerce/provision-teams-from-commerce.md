@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1cb28fb50bdc972d1dae6d03a45f70a2f3a63357
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 715b18acb10edebafe60805393cbc16c5be513ef3605cf7a575ff98362443bb6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022441"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766428"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>Microsoft Teams inrichten vanuit Dynamics 365 Commerce
 
@@ -49,7 +49,7 @@ Voer de volgende stappen uit om Teams in te richten in Commerce Headquarters.
 > [!TIP]
 > Als geen van uw regiomanagers, winkelmanagers en winkelmedewerkers aan een Teams-licentie is gekoppeld, ontvangt u mogelijk het volgende foutbericht: 'Het ophalen van toepasselijke Sku-categorieën voor de gebruiker is mislukt'. U kunt dit probleem oplossen door **Teams en leden synchroniseren** te selecteren in het actievenster.
 
-<!-- ![Dynamics 365 Commerce - Teams integration configuration](media/D365-Commerce-Microsoft-Teams-Configuration_with_disclaimer.png)-->
+<!-- ![Dynamics 365 Commerce - Teams integration configuration.](media/D365-Commerce-Microsoft-Teams-Configuration_with_disclaimer.png)-->
 
 ## <a name="validate-teams-provisioning-in-the-teams-admin-center"></a>Inrichting van Teams valideren in het Teams-beheercentrum
 
@@ -63,7 +63,7 @@ Volg deze stappen om de inrichting van Microsoft Teams in het Microsoft Teams-be
 
 In de volgende afbeelding ziet u een voorbeeld van de pagina **Teams beheren** in het Teams-beheercentrum.
 
-![Voorbeeld van de pagina Teams beheren in het Teams-beheercentrum](media/Teams-FLW-Admin-Teams.png)
+![Voorbeeld van de pagina Teams beheren in het Teams-beheercentrum.](media/Teams-FLW-Admin-Teams.png)
 
 ## <a name="upload-a-commerce-organizational-hierarchy-to-teams"></a>Een Commerce-organisatiehiërarchie uploaden naar Teams
     
@@ -86,7 +86,7 @@ Volg deze stappen om te controleren of de organisatiehiërarchie is geüpload na
 1. Maak op het tabblad **Gepubliceerde lijsten** een nieuwe lijst met een dummy taak.
 1. Selecteer **Publiceren**. De organisatiehiërarchie moet worden weergegeven in het dialoogvenster **Selecteren wie moet worden gepubliceerd**, zoals in het voorbeeld in de volgende afbeelding is weergegeven.
 
-![Voorbeeld van een organisatiehiërarchie in het dialoogvenster Selecteren wie moet worden gepubliceerd](media/Microsoft-teams-verify-org-hierarchy.png)
+![Voorbeeld van een organisatiehiërarchie in het dialoogvenster Selecteren wie moet worden gepubliceerd.](media/Microsoft-teams-verify-org-hierarchy.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

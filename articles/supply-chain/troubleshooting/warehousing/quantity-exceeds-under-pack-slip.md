@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ecdd377d12faf40f64736e93671dcf42ff132403
-ms.sourcegitcommit: e6437d994c3be0c5bb4a9263af3aa8351020d83a
+ms.openlocfilehash: 7cdc22eeabda6cf9f08484d698e5096f66af4a12
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6249080"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920693"
 ---
 # <a name="quantity-exceeds-under-delivery-percentage-during-packing-slip-generation"></a>Hoeveelheid overschrijdt minderleveringspercentage tijdens genereren pakbon
 
@@ -49,8 +49,8 @@ Met de volgende procedure kunt u het minderleveringspercentage aanpassen.
 
 1. Ga naar **Klanten \> Orders \> Alle orders**.
 1. Selecteer de verkooporder waarvoor u geen pakbon voor de lading kunt boeken.
-1. Selecteer op het tabblad  **Verkooporderregels** de verkooporderregel voor het artikel dat het percentage voor minderleveringen overschrijdt.
-1. Selecteer op het tabblad  **Regeldetails** de optie **Levering**.
+1. Selecteer op het tabblad **Verkooporderregels** de verkooporderregel voor het artikel dat het percentage voor minderleveringen overschrijdt.
+1. Selecteer op het tabblad **Regeldetails** de optie **Levering**.
 1. Stel in het veld **Minderlevering** de waarde in op een groter percentage dat geschikt is voor de hoeveelheid die voor de ladinghoeveelheid was verzameld, zodat het genereren van de pakbon doorgang kan vinden.
 
 ### <a name="reverse-and-make-adjustments"></a>Omkeren en correcties aanbrengen
@@ -60,14 +60,14 @@ Keer alles om dat voor de lading is geboekt (bijvoorbeeld de pakbon, bevestiging
 Gebruik de volgende procedure om een pakbon te annuleren.
 
 1. Ga naar **Magazijnbeheer \> Ladingen \> Alle ladingen**.
-1. Selecteer in het actievenster, op het tabblad  **Verzenden en ontvangen**, in de groep  **Omkeren** de optie  **Pakbonnen annuleren**.
+1. Selecteer in het actievenster, op het tabblad **Verzenden en ontvangen**, in de groep **Omkeren** de optie **Pakbonnen annuleren**.
 
 Gebruik de volgende procedure om een verzendingsbevestiging om te keren.
 
 1. Ga naar **Magazijnbeheer \> Ladingen \> Alle ladingen**.
-1. Selecteer in het actievenster, op het tabblad  **Verzenden en ontvangen**, in de groep  **Omkeren** de optie  **Verzendbevestiging omkeren**.
+1. Selecteer in het actievenster, op het tabblad **Verzenden en ontvangen**, in de groep **Omkeren** de optie **Verzendbevestiging omkeren**.
 
 Gebruik de volgende procedure om werk om te keren.
 
 1. Ga naar **Magazijnbeheer \> Ladingen \> Alle ladingen**.
-1. Selecteer in het actievenster op het tabblad  **Ladingen** in de groep  **Werk** de optie  **Werk omkeren**.
+1. Selecteer in het actievenster op het tabblad **Ladingen** in de groep **Werk** de optie **Werk omkeren**.

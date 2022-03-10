@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dcec7963bdf70f848249bb2ca5e2208e09f49548
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: ff7d689129a4015b6085685f4b19ae61bdd549d2
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054783"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066388"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Voorbereiden op go-live van Human Resources
 
@@ -28,11 +28,14 @@ ms.locfileid: "6054783"
 
 [!include [banner](../includes/banner.md)]
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 In dit onderwerp wordt beschreven hoe u voorbereidingen treft om live te gaan met een Dynamics 365 Human Resources-project met behulp van Microsoft Dynamics Lifecycle Services (LCS). 
 
 In deze afbeelding worden de fasen van het go-live-proces weergegeven. 
 
-![Go-live-proces](./media/hr-admin-go-live-prepare-process.png)
+![Go-live-proces.](./media/hr-admin-go-live-prepare-process.png)
 
 In de volgende tabel worden alle stappen in het proces weergegeven, de verwachte duur en degene die verantwoordelijk is voor de actie.
 

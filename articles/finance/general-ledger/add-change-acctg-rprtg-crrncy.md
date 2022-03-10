@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 38b2cdb618d92dca7909a145e7fc07ddfc5f4d45
-ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
+ms.openlocfilehash: 1fd641d4f60d8ff9710c89f43777f7fd8f378dbc6c73d773ac103f9d9f68e60e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017050"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770588"
 ---
 # <a name="change-the-accounting-or-reporting-currency"></a>De boekhoudings- of aangiftevaluta wijzigen
 
@@ -31,12 +31,12 @@ In dit onderwerp wordt uitgelegd hoe u de boekhoudings- of aangiftevaluta wijzig
 U wilt de boekhoudings- of aangiftevaluta wijzigen of een aangiftevaluta toevoegen aan de grootboekinstellingen. Dit gebeurt doorgaans in de volgende scenario's:
 
 - Bij het instellen van een rechtspersoon is niet de juiste boekhoudings- of aangiftevaluta opgegeven. U wilt die valuta nu wijzigen.
-- Bij het instellen van een rechtspersoon is geen aangiftevaluta opgegeven (een aangiftevaluta is optioneel). U wilt nu een aangiftevaluta toevoegen.
+- Er is een aangiftevaluta opgegeven toen een rechtspersoon werd ingesteld, maar de organisatie wil de aangiftevaluta nu verwijderen.
+- De organisatie is aan het upgraden of migreren naar Microsoft Dynamics 365 Finance en wil de boekhoudings- of aangiftevaluta wijzigen.
 
 Een organisatie die de functie voor twee valuta's eerder niet gebruikte, wil hier nu mee beginnen. Dit probleem doet zich doorgaans voor in de volgende scenario's.
 
-- Er is een aangiftevaluta opgegeven toen een rechtspersoon werd ingesteld, maar de organisatie wil de aangiftevaluta nu verwijderen.
-- De organisatie is aan het upgraden of migreren naar Microsoft Dynamics 365 Finance en wil de boekhoudings- of aangiftevaluta wijzigen.
+- Bij het instellen van een rechtspersoon is geen aangiftevaluta opgegeven. (een aangiftevaluta is optioneel). U wilt nu een aangiftevaluta toevoegen.
 
 ## <a name="resolution"></a>Oplossing
 

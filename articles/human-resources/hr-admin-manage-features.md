@@ -1,39 +1,39 @@
 ---
 title: Functies in Human resources beheren
-description: Informatie over het in- of uitschakelen van nieuwe functies in Dynamics 365 Human Resources.
-author: andreabichsel
-manager: tfehr
-ms.date: 04/06/2020
+description: Dit onderwerp bevat een beschrijving van de functie Functiebeheer en de manier waarop u deze kunt gebruiken.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 305ce398b0ec80647a95e69409da9b77ebf14b45
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 2d5a27c02df841dfbb17a9375aaf75f93d05cd8e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466948"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069702"
 ---
 # <a name="manage-features-in-human-resources"></a>Functies in Human resources beheren
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Als onderdeel van onze doorlopende implementatie van nieuwe mogelijkheden voor Microsoft Dynamics 365 Human Resources willen we klanten zo snel mogelijk laten kennismaken met nieuwe functies. We bieden previews-functies die bijna gereed zijn voor algemene beschikbaarheid en die uitgebreid zijn getest. Het enige wat we nog willen doen is een definitieve ronde van feedback van klanten en validatie voordat we de functies algemeen vrijgeven.
 
-Ga voor meer informatie over nieuwe functies in Human Resources naar [Nieuw in Human Resources](hr-admin-whats-new.md) en [Releaseplan voor Dynamics 365 en Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1).
+Ga voor meer informatie over nieuwe functies in Human Resources naar [Nieuw in Human Resources](hr-admin-whats-new.md) en [Releaseplan voor Dynamics 365 en Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products).
 
-Het werkgebied **Functiebeheer** bevat een lijst met functies die in elke versie worden geleverd. Nieuwe functies zijn standaard uitgeschakeld. U kunt het werkgebied gebruiken om deze in te schakelen en de bijbehorende documenten weer te geven. Zie [Overzicht Functiebeheer](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)voor meer informatie over Functiebeheer.
+Het werkgebied **Functiebeheer** bevat een lijst met functies die in elke versie worden geleverd. Nieuwe functies zijn standaard uitgeschakeld. U kunt het werkgebied gebruiken om deze in te schakelen en de bijbehorende documenten weer te geven. Zie [Overzicht Functiebeheer](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)voor meer informatie over Functiebeheer.
 
 Alle nieuwe functies behouden gedurende minimaal 30 dagen en doorgaans 30-60 dagen de previewstatus. De belangrijkste functies zijn over het algemeen beschikbaar in oktober en april van elk jaar na de previewperiode. Zodra u nieuwe functies in het werkgebied **Functiebeheer** ziet, kunt u deze inschakelen. Sommige functies zijn mogelijk standaard ingeschakeld.
 
@@ -72,7 +72,7 @@ Vergoedingenbeheer vervangt functionaliteit in het werkgebied **Vergoedingen**. 
 - **Beleid inzake geschiktheid voor vergoedingen**
 - **Geschiktheidsgebeurtenissen**
 
-U kunt de informatie in deze formulieren in de alleen-lezenmodus weergeven. Als u de gegevens wilt bewerken, moet u eerst de functie voor Vergoedingenbeheer uitschakelen (alleen van toepassing op **sandbox**-omgevingen).
+U kunt de informatie op dee pagina's in de alleen-lezenmodus weergeven. Als u de gegevens wilt bewerken, moet u eerst de functie voor Vergoedingenbeheer uitschakelen (alleen van toepassing op **sandbox**-omgevingen).
 
 ## <a name="enable-or-disable-leave-and-absence"></a>Verlof en verzuim in- of uitschakelen
 
@@ -95,6 +95,6 @@ Let op: vermeld geen persoonlijke gegevens (gegevens die uw identiteit vrijgeven
 ## <a name="see-also"></a>Zie ook
 
 - [Nieuw in Human Resources](hr-admin-whats-new.md)
-- [Releaseplan voor Dynamics 365 en Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+- [Releaseplan voor Dynamics 365 en Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

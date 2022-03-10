@@ -1,26 +1,24 @@
 ---
-title: Overzicht van Waarschuwingen
+title: Overzicht van waarschuwingen (bevat video)
 description: Dit onderwerp biedt algemene informatie over waarschuwingen. U kunt waarschuwingen gebruiken om op de hoogte te blijven over de gebeurtenissen die u wilt bijhouden tijdens de werkdag.
-author: tjvass
-manager: AnnBe
+author: RichdiMSFT
 ms.date: 09/04/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 473f53d230d7272ba0fcf78bd05d7020635a870f
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: c3332bdf7f2edb693c95a4d5a6f95906e14c0a42
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798572"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984963"
 ---
 # <a name="alerts-overview"></a>Overzicht van waarschuwingen
 
@@ -79,7 +77,7 @@ Een waarschuwingsregel heeft vijf onderdelen:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3DWZ3]
 
-De video [Waarschuwingen gebruiken om gefilterde gegevens te controleren](https://youtu.be/ZYKMcv6kl9s) (zie hierboven) is opgenomen in de speellijst voor [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) die beschikbaar is op YouTube.
+De video [Waarschuwingen gebruiken om gefilterde gegevens te controleren](https://youtu.be/ZYKMcv6kl9s) (zie hierboven) is opgenomen in de [speellijst voor Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) die beschikbaar is op YouTube.
 
 ### <a name="alert-rule-options"></a>Opties voor waarschuwingsregels
 
@@ -88,3 +86,6 @@ De video [Waarschuwingen gebruiken om gefilterde gegevens te controleren](https:
 De video [Opties voor waarschuwingsregels](https://youtu.be/cpzimwOjicM) (zie hierboven) is opgenomen in de [Finance and Operations-afspeellijst](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) die beschikbaar is op YouTube.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

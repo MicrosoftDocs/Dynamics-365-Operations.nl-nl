@@ -13,20 +13,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 10363371713bd5a882b41900249e7061afc577ba6473fdb3356a822c8e48f8f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d71b05b3f2eda93a93f728926e675c040371781e
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743282"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8324107"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Verschillende afgeleide toewijzingen voor één modelbasis beheren
 
 [!include [banner](../includes/banner.md)]
 
-Een component [Electronic reporting (ER)](general-electronic-reporting.md) gegevens[model](general-electronic-reporting.md#data-model-and-model-mapping-components) wordt gebruikt in elke geconfigureerde component ER [indeling](general-electronic-reporting.md#FormatComponentOutbound) als gegevensbron voor het genereren van uitgaande documenten. Als u één bedrijfsdomein wilt beschrijven, configureert u een gegevensmodelcomponent die veel basisdefinities heeft. 
+Een component [ER-gegevensmodel](general-electronic-reporting.md) wordt gebruikt in elke geconfigureerde ER-indelingscomponent indeling als gegevensbron voor het genereren van uitgaande documenten. Als u één bedrijfsdomein wilt beschrijven, configureert u een gegevensmodelcomponent die veel basisdefinities heeft. 
 
-Met elke basisdefinitie kunt u gegevens van dat domein vertegenwoordigen op de manier die het meest geschikt is voor specifieke rapportagedoeleinden. Voor elke basisdefinitie kunt u een component [ER-modeltoewijzing](general-electronic-reporting.md#data-model-and-model-mapping-components) configureren als de Microsoft Dynamics 365 Finance-specifieke implementatie van uw gegevensmodel. Op deze manier beschrijft u hoe uw gegevensmodel wordt ingevuld tijdens runtime.
+Met elke basisdefinitie kunt u gegevens van dat domein vertegenwoordigen op de manier die het meest geschikt is voor specifieke rapportagedoeleinden. Voor elke basisdefinitie kunt u een component ER-modeltoewijzing configureren als de Microsoft Dynamics 365 Finance-specifieke implementatie van uw gegevensmodel. Op deze manier beschrijft u hoe uw gegevensmodel wordt ingevuld tijdens runtime.
 
 ER-modeltoewijzingscomponenten kunnen zich in ER-gegevensmodel[configuraties](general-electronic-reporting.md#Configuration) en ER-modeltoewijzingsconfiguraties bevinden. Een enkele ER-configuratie kan een groot aantal toewijzingscomponenten bevatten, die elk voor één basisdefinitie zijn geconfigureerd. Ook kan een enkele ER-configuratie slechts één toewijzingscomponent bevatten, die voor één basisdefinitie is geconfigureerd.
 

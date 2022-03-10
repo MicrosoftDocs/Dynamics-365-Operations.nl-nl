@@ -2,11 +2,9 @@
 title: Workbench voor ladingopbouw
 description: In dit onderwerp wordt beschreven hoe u werkt met de workbench voor ladingopbouw.
 author: Henrikan
-manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSLoadBuildWorkbench,TMSLoadBuildTemplateCreate,TMSLoadBuildStrategy,TMSLoadBuildTemplateApply
 audience: Application User
@@ -16,14 +14,16 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d1ed91adba5c7accf9a18d7a754d33b2b35b848f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 306ca4f77d9c1d4879d750992e51c8b83917839e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974217"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574852"
 ---
 # <a name="load-building-workbench"></a>Workbench voor ladingopbouw
+
+[!include [banner](../../includes/banner.md)]
 
 Met de workbench voor ladingopbouw kunt u strategieën voor ladingopbouw toepassen wanneer u ladingen maakt.
 
@@ -66,3 +66,6 @@ U kunt nu de ladingopbouwstrategie toewijzen aan een sjabloon voor ladingopbouw.
 1. Controleer de voorgestelde ladingen en de voorgestelde ladingsregels.
 1. Selecteer in het actievenster de optie **Ladingen maken** om ladingen te maken die zijn gebaseerd op de brondocumentregels op het sneltabblad **Voorgestelde ladingregels**.
 1. Sluit de pagina **Workbench voor ladingopbouw**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

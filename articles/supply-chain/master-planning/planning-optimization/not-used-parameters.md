@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: eb7e1b4e6df2c514b55ec101c0edf22590041628
-ms.sourcegitcommit: fcb1aa39e933216dea9e586b552bce6057f416a6
+ms.openlocfilehash: 01edccbf1a50264b3867e303cbca44eb1b1d7dd9
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "7645753"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087494"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Parameters die niet worden gebruikt door Planningsoptimalisatie
 
@@ -60,7 +60,7 @@ Bij Planningsoptimalisatie worden de volgende parameters of opties op de pagina 
 
 - Sneltabblad **Algemeen**:
 
-  - **Positieve dagen**: in afwachting van ondersteuning voor *Positieve dagen*.
+  - **Positieve dagen**: de waarde voor *Positieve dagen* wordt niet gebruikt. Bij Planningsoptimalisatie worden positieve dagen als onbeperkt beschouwd.
   - **Voorhanden voorraad verbruiken**: in afwachting van ondersteuning voor *Verbruik van voorhanden voorraad*.
   - **De opgegeven stuklijst- of formuleversie gebruiken**: in afwachting van ondersteuning voor *Formuleversies met co-/bijproducten*.
   - **De opgegeven routeversie gebruiken**: in afwachting van ondersteuning voor *Vraag waarvoor specifieke stuklijst- of routevereisten zijn gedefinieerd*.
@@ -160,6 +160,10 @@ Bij Planningsoptimalisatie worden de volgende parameters of opties op de pagina 
   - **De berekende vertraging optellen bij de behoeftedatum** (in de sectie **Geplande productieorders**): in afwachting van ondersteuning voor *Berekende vertragingen*.
   - **De berekende vertraging optellen bij de behoeftedatum** (in de sectie **Geplande overboekingsorders**): in afwachting van ondersteuning voor *Berekende vertragingen*.
   - **De berekende vertraging optellen bij de behoeftedatum** (in de sectie **Geplande kanban**): in afwachting van ondersteuning voor *Berekende vertragingen*.
+
+- Sneltabblad **Actiebericht**:
+
+  - **Uitsteldatum als behoeftedatum bijwerken:** deze parameter wordt niet langer gebruikt voor Planningsoptimalisatie.
 
 - Sneltabab **Sequentiëren**:
 
