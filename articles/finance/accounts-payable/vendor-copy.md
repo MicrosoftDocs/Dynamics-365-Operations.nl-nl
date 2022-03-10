@@ -1,24 +1,24 @@
 ---
 title: Leveranciers kopiëren met behulp van gedeelde nummerreeksen
 description: In dit onderwerp wordt uitgelegd hoe u gedeelde nummerreeksen kunt gebruiken om een leverancier te kopiëren naar een andere rechtspersoon, maar met behoud van dezelfde leverancier-id.
-author: mikefalkner
+author: sunfzam
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5b4aeb189fa0e609834d46961be0ff953c2779a05ff1857636199e5448f15396
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4cea8269082b39e2374ffb3c3dc82def8ce35679
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722810"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358460"
 ---
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>Leveranciers kopiëren met behulp van gedeelde nummerreeksen
 
@@ -36,9 +36,9 @@ U kunt ook leveranciers kopiëren tussen rechtspersonen als u handmatige leveran
 
 ## <a name="copy-a-vendor"></a>Een leverancier kopiëren
 
-Als u een leverancier wilt kopiëren, selecteert u **Nieuw** op de lijstpagina **Alle leveranciers** om de pagina **Alle leveranciers, nieuwe record** te openen. U ziet dat de nieuwe leverancier-id niet onmiddellijk wordt toegewezen. Dit gedrag wijkt af van het gedrag in eerdere versies. Omdat u de leveranciersgroep nog niet hebt geselecteerd, kan het systeem niet de juiste nummerreeks bepalen die moet worden gebruikt. Het kan bovendien niet bepalen of u een nieuwe leverancier wilt maken of een leverancier kopieert. Daarom wordt de leverancier-id pas toegewezen als u **Opslaan** selecteert onderaan op de pagina.
+Als u een leverancier wilt kopiëren, selecteert u **Nieuw** op de lijstpagina **Alle leveranciers** om de pagina **Alle leveranciers, nieuwe record** te openen. De nieuwe leverancier-id wordt niet onmiddellijk toegewezen. Dit gedrag wijkt af van het gedrag in eerdere versies. Omdat u de leveranciersgroep nog niet hebt geselecteerd, kan niet de juiste nummerreeks worden bepaald die moet worden gebruikt. Het kan bovendien niet bepalen of u een nieuwe leverancier wilt maken of een leverancier kopieert. Daarom wordt de leverancier-id pas toegewezen als u **Opslaan** selecteert onderaan op de pagina.
 
-Als u een nieuwe leverancier maakt, kunt u zoals gebruikelijk verdergaan met het invullen van de velden. Wanneer u klaar bent en **opslaan** selecteert, ziet u dat de leverancier-id automatisch is toegewezen. Bij handmatige nummerreeksen ziet u dat de handmatige leverancier-id is gebruikt.
+Als u een nieuwe leverancier maakt, kunt u zoals gebruikelijk verdergaan met het invullen van de velden. Wanneer u klaar bent en **Opslaan** selecteert, wordt de leverancier-id automatisch toegewezen. Bij handmatige nummerreeksen ziet u dat de handmatige leverancier-id is gebruikt.
 
 Als u een leverancier wilt kopiëren, voert u in het veld **Naam** een of meer tekens in die de leverancier aangeven die u zoekt. In het dialoogvenster Zoeken ziet u een overzicht van de partijen die mogelijk de gezochte leverancier aangeven. Wanneer u een van de partijen selecteert, wordt aanvullende informatie aan de rechterkant van het dialoogvenster weergegeven:
 
@@ -54,11 +54,11 @@ U kunt een partij alleen kopiëren als deze een leverancierrol heeft in een rech
 
 ## <a name="validation"></a>Validatie
 
-Wanneer u een leverancier kopieert, probeert het systeem de gegevens van de nieuwe leverancier op te slaan. Er worden validaties uitgevoerd om te controleren of de gekopieerde gegevens correct zijn. U ontvangt een foutbericht voor elke mislukte validatie. In het foutbericht wordt uitgelegd welke gegevens moeten worden bijgewerkt. De kopie van de leverancier kan pas worden opgeslagen als u alle validatiefouten hebt opgelost.
+Wanneer u een leverancier kopieert, wordt geprobeerd de gegevens van de nieuwe leverancier op te slaan. Er worden validaties uitgevoerd om te controleren of de gekopieerde gegevens correct zijn. U ontvangt een foutbericht voor elke mislukte validatie. In het foutbericht wordt uitgelegd welke gegevens moeten worden bijgewerkt. De kopie van de leverancier kan pas worden opgeslagen als u alle validatiefouten hebt opgelost.
 
 ## <a name="copy-a-vendor-by-using-the-tax-exempt-number-search-feature"></a>Een leverancier kopiëren met de functie Btw-nummer zoeken
 
-U kunt leveranciers ook kopiëren met de functie Btw-nummer zoeken die u vindt in de groep **Registratie** op het tabblad **Leverancier** in het actievenster van de pagina **Alle leveranciers**. In het dialoogvenster **Btw-nummer zoeken** dat wordt weergegeven, ziet u btw-nummers, de leverancier-id, de naam van de leverancier en de rechtspersoon waarin de btw-id wordt gebruikt. U kunt een leverancier alleen kopiëren als deze bij een rechtspersoon hoort die niet de huidige rechtspersoon is. Nadat u een leverancier hebt geselecteerd die aan dit criterium voldoet, volgt u deze stappen.
+U kunt leveranciers ook kopiëren met de functie **Btw-nummer zoeken** die u vindt in de groep **Registratie** op het tabblad **Leverancier** in het actievenster van de pagina **Alle leveranciers**. In het dialoogvenster **Btw-nummer zoeken** dat wordt weergegeven, ziet u btw-nummers, de leverancier-id, de naam van de leverancier en de rechtspersoon waarin de btw-id wordt gebruikt. U kunt een leverancier alleen kopiëren als deze bij een rechtspersoon hoort die niet de huidige rechtspersoon is. Nadat u een leverancier hebt geselecteerd die aan dit criterium voldoet, volgt u deze stappen.
 
 1. De optie **Leverancier kopiëren** wordt weergegeven. Standaard is deze optie ingesteld op **Nee**. Als u de leverancier naar de huidige rechtspersoon wilt kopiëren, zet u de optie op **Ja**.
 2. Selecteer **Selecteren**. De leverancier wordt gemaakt.

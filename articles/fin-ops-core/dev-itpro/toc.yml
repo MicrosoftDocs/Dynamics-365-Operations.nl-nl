@@ -1,27 +1,27 @@
-- name: Ontwikkeling en beheer voor Finance and Operations-apps
+- name: Ontwikkeling en beheer voor  apps voor financiën en bedrijfsactiviteiten
   items:
-    - name: Ontwikkeling en beheer voor Finance and Operations-apps
+    - name: Ontwikkeling en beheer voor  apps voor financiën en bedrijfsactiviteiten
       items:
-        - name: Documentatie voor Finance and Operations-apps
+        - name: Documentatie over apps voor financiën en bedrijfsactiviteiten
           href: ../fin-ops/index.md
-        - name: Ontwikkeling en beheer voor Finance and Operations-apps
+        - name: Ontwikkeling en beheer voor  apps voor financiën en bedrijfsactiviteiten
           href: index.md
         - name: Nieuwe of gewijzigde functies
           items:
-            - name: Nieuwe of gewijzigde functies in Finance and Operations-apps
+            - name: Nieuw of gewijzigd in apps voor financiën en bedrijfsactiviteiten
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Nieuwe of gewijzigde functies in Platform updates
               items:
-                - name: Startpagina voor nieuwe of gewijzigde functies in Platform updates
+                - name: Startpagina voor nieuwe of gewijzigde functies in Platform-updates
                   href: get-started/whats-new-home-page.md
-                - name: Platform updates voor versie 10.0.22 (november 2021)
-                  href: get-started/whats-new-platform-updates-10-0-22.md
-                - name: Platform updates voor versie 10.0.21 (oktober 2021)
-                  href: get-started/whats-new-platform-updates-10-0-21.md
-                - name: Platform updates voor versie 10.0.20 (augustus 2021)
-                  href: get-started/whats-new-platform-updates-10-0-20.md
-                - name: Platform updates voor 10.0.19 (juni 2021)
-                  href: get-started/whats-new-platform-updates-10-0-19.md
+                - name: Platform-updates voor versie 10.0.26 (mei 2022)
+                  href: get-started/whats-new-platform-updates-10-0-26.md
+                - name: Platform-updates voor versie 10.0.25 (april 2022)
+                  href: get-started/whats-new-platform-updates-10-0-25.md
+                - name: Platform-updates voor versie 10.0.24 (februari 2022)
+                  href: get-started/whats-new-platform-updates-10-0-24.md
+                - name: Platform-updates voor versie 10.0.23 (januari 2022)
+                  href: get-started/whats-new-platform-updates-10-0-23.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -34,42 +34,6 @@
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Einde van basisondersteuning voor Microsoft Dynamics AX 2009 en 2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-        - name: Zakelijke gebeurtenissen
-          items:
-            - name: Overzicht van Zakelijke gebeurtenissen
-              href: business-events/home-page.md
-            - name: Zakelijke gebeurtenissen voor toepassingen
-              href: business-events/app-business-events.md
-            - name: Zakelijke gebeurtenissen voor werkstromen
-              href: business-events/business-events-workflow.md
-            - name: Zakelijke gebeurtenissen in batch
-              href: business-events/system-business-events.md
-            - name: Waarschuwingen als zakelijke gebeurtenissen
-              href: business-events/alerts-business-events.md
-            - name: Zakelijke gebeurtenissen in Microsoft Flow
-              href: business-events/business-events-flow.md
-            - name: Documentatie voor ontwikkelaars van zakelijke gebeurtenissen
-              href: business-events/business-events-dev-doc.md
-            - name: Problemen met zakelijke gebeurtenissen oplossen
-              href: business-events/troubleshooting.md
-            - name: Cases voor zakelijke gebeurtenissen gebruiken
-              href: business-events/potential-use-cases.md
-            - name: Zelfstudies
-              items:
-                - name: Zakelijke gebeurtenissen en Microsoft Flow
-                  href: business-events/how-to/how-to-flow.md
-                - name: Zakelijke gebeurtenissen en Azure Event Grid
-                  href: business-events/how-to/how-to-eventgrid.md
-                - name: Zakelijke gebeurtenissen en Azure Service Bus
-                  href: business-events/how-to/how-to-servicebus.md
-                - name: Zakelijke gebeurtenissen en werkstroomgoedkeuringen
-                  href: business-events/how-to/how-to-workflow.md
-                - name: Zakelijke gebeurtenissen en Microsoft Forms Pro
-                  href: business-events/how-to/FormsPro.md
-                - name: Zakelijke gebeurtenissen en Azure Event Hubs
-                  href: business-events/how-to/event-hub.md
-                - name: Zakelijke gebeurtenissen bij afsluiten van financiële periode
-                  href: business-events/how-to/period-close.md
         - name: Continue levering
           items:
             - name: Startpagina van Continue levering
@@ -86,7 +50,7 @@
               href: dev-tools/version-models-build.md
         - name: Gegevensintegratie
           items:
-            - name: Integratie tussen Finance and Operations-apps en services van derden
+            - name: Integratie tussen apps voor financiën en bedrijfsactiviteiten en services van derden
               href: data-entities/integration-overview.md
             - name: Op prioriteit gebaseerde aanvraagbeperking
               hreF: data-entities/priority-based-throttling.md
@@ -110,7 +74,7 @@
                   href: data-entities/recurring-integrations.md
                 - name: Services testen met hulpprogramma's van derden
                   href: data-entities/third-party-service-test.md
-            - name: Finance and Operations-connector
+            - name: Connector Finance and Operations
               href: data-entities/fin-ops-connector.md
             - name: Ontwikkeling voor integratie
               items:
@@ -134,9 +98,9 @@
                       items:
                         - name: Van prospect tot contant geld
                           href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                        - name: Rekeningen in Sales rechtstreeks synchroniseren met klanten in Finance and Operations
+                        - name: Accounts in Sales rechtstreeks synchroniseren met klanten in Finance and Operations
                           href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                        - name: Producten in Finance and Operations rechtstreeks synchroniseren met producten in Sales
+                        - name: Producten van Finance and Operations rechtstreeks synchroniseren met producten in Sales
                           href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
                         - name: Contactpersonen in Sales rechtstreeks synchroniseren met contactpersonen of klanten in Finance and Operations
                           href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
@@ -150,7 +114,7 @@
                       items:
                         - name: Overzicht van Integratie met Field Service configureren
                           href: ../../supply-chain/sales-marketing/field-service.md
-                        - name: Producten in Finance and Operations synchroniseren met producten in Field Service
+                        - name: Producten van Finance and Operations synchroniseren met producten in Field Service
                           href: ../../supply-chain/sales-marketing/field-service-product.md
                         - name: Werkorders in Field Service synchroniseren met verkooporders in Finance and Operations
                           href: ../../supply-chain/sales-marketing/field-service-work-order.md
@@ -166,7 +130,7 @@
                           href: ../../supply-chain/sales-marketing/synchronize-project-list.md
                         - name: Magazijnen van Finance and Operations synchroniseren met Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                        - name: Werkorders met projecten synchroniseren vanuit Field Service naar Finance and Operations
+                        - name: Werkorders synchroniseren met project van Field Service naar Finance and Operations
                           href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
                     - name: Project Service Automation-integratie configureren
                       items:
@@ -228,7 +192,7 @@
                   href: data-entities/data-synchronize-date-and-time.md
                 - name: Boekstukken importeren met de entiteit Algemeen journaal
                   href: data-entities/tips-tricks-import-general-journal-entity.md
-                - name: Gegevensmigratie optimaliseren voor Finance and Operations-apps
+                - name: Gegevensmigratie optimaliseren voor apps voor financiën en bedrijfsactiviteiten
                   href: sysadmin/optimize-data-migration.md
             - name: Ontwikkeling van gegevensentiteiten
               items:
@@ -270,9 +234,9 @@
               href: data-entities/dm-error-descriptions.md
         - name: Azure Data Lake
           items:
-            - name: Overzicht van Azure Data Lake
-              href: data-entities/azure-data-lake-overview.md
-            - name: Export naar Azure Data Lake configureren
+            - name: Overzicht van exporteren naar Azure Data Lake
+              href: data-entities/Azure-Data-Lake-GA-version-overview.md
+            - name: Invoegtoepassing voor exporteren naar Azure Data Lake installeren
               href: data-entities/configure-export-data-lake.md
             - name: Finance and Operations-apps in Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
@@ -374,7 +338,7 @@
                   href: deployment/arm-onbarding-us-goverment.md
                 - name: Azure ExpressRoute en Finance and Operations
                   href: deployment/expressroute.md
-                - name: Finance and Operations-architectuur
+                - name: Architectuur voor Finance and Operations
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Updates toepassen op cloudomgevingen
                   href: deployment/apply-deployable-package-system.md
@@ -398,7 +362,7 @@
                       href: deployment/on-premises-overview.md
                     - name: On-premises implementaties plannen en voorbereiden
                       href: deployment/plan-onprem-deployment.md
-                    - name: Door Microsoft Dynamics 365 Finance + Operations (on-premises) ondersteunde software
+                    - name: Voor Microsoft Dynamics 365 Finance + Operations (on-premises) ondersteunde software
                       href: deployment/onprem-compatibility.md
                     - name: Vereisten voor omvang hardware
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
@@ -440,10 +404,12 @@
                       href: lifecycle-services/reconfigure-environment.md
                     - name: On-premises implementaties opnieuw implementeren
                       href: deployment/redeploy-on-prem.md
-                    - name: 'Een AOS-knooppunt verwijderen en opnieuw installeren, of toevoegen'
+                    - name: Een AOS-knooppunt verwijderen en opnieuw installeren of toevoegen
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Hetzelfde AD FS-exemplaar hergebruiken voor meerdere omgevingen
                       href: deployment/onprem-reuseadfs.md
+                    - name: Het SQL Server-exemplaar van Microsoft Dynamics 365 Finance + Operations (on-premises)-omgevingen upgraden
+                      href: deployment/onprem-upgrade-sqlserver.md
                 - name: Lokale agent
                   items:
                     - name: AD FS Microsoft 365-compatibiliteit
@@ -468,6 +434,8 @@
                   href: deployment/install-deployable-package.md
                 - name: Een pakket verwijderen
                   href: deployment/uninstall-deployable-package.md
+                - name: Aangepaste X++-scripts uitvoeren met nul downtime
+                  href: deployment/run-custom-scripts.md
                 - name: Problemen met pakkettoepassingen oplossen
                   href: deployment/deployable-package-troubleshooting.md
             - name: Aangepaste Help implementeren
@@ -496,6 +464,16 @@
                   href: help/language-locale.md
                 - name: 'De Help uitbreiden, aanpassen en samenwerken'
                   href: help/contributor-guide.md
+            - name: Overwegingen bij de implementatie
+              items:
+                - name: Soevereine en lokale implementatieopties voor de lokale cloud voor Dynamics 365 Finance en Dynamics 365 Supply Chain Management
+                  href: deployment/deployment-options-geo.md
+                - name: Finance en Supply Chain Management in de Amerikaanse Government Community Cloud (GCC)
+                  href: deployment/us-gcc-deployment.md
+                - name: Finance en Supply Chain Management geëxploiteerd door 21Vianet in China
+                  href: deployment/china-local-deployment.md
+                - name: Finance and Operations-apps in Frankrijk
+                  href: deployment/france-local-deployment.md
         - name: Ontwikkelen en aanpassen
           items:
             - name: Startpagina van Ontwikkelen en aanpassen
@@ -538,6 +516,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: Een LCS-connector (Lifecycle Services) maken in Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: Taken voor LCS-verbindingsverificatie bijwerken naar MSAL in Azure Pipelines
+                  href: dev-tools/pipeline-lcs-connection-update.md
                 - name: De gehoste Azure Pipeline voor nieuwe NuGet-pakketten bijwerken
                   href: dev-tools/pipeline-nuget-split.md
                 - name: Een oudere pijplijn bijwerken in Azure Pipelines
@@ -594,7 +574,7 @@
               items:
                 - name: Ondersteuning voor X++-taal
                   items:
-                    - name: Vereisten in Visual Studio 2017 voor X++
+                    - name: Vereisten in Visual Studio voor X++
                       href: dev-tools/developer-tools-vs2017.md
                     - name: Foutopsporing in X++-code
                       href: dev-tools/debug-xpp.md
@@ -608,6 +588,8 @@
                       href: dev-tools/author-best-practice-rules.md
                     - name: Eigenschappen van Toepassingsverkenner
                       href: dev-ref/application-explorer-aot-properties.md
+                    - name: Kenmerk SysSetupConfigAttribute
+                      href: dev-tools/syssetupconfigattribute.md
                 - name: X++-taalreferentie
                   items:
                     - name: Overzicht van X++-taalreferentie
@@ -878,6 +860,8 @@
                   href: perf-test/continuous-build-test-automation.md
                 - name: SysTest-filtering met klasse- en methodekenmerken
                   href: perf-test/systest-filtering.md
+                - name: SysTestRow-kenmerk voor het testen van meerdere waarden
+                  href: perf-test/systest-row.md
                 - name: Acceptatietestbibliotheek
                   items:
                     - name: Resources acceptatietestbibliotheek
@@ -1036,10 +1020,16 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Bestanden van vertaalgeheugen
                   href: lifecycle-services/use-translation-service-tm.md
+                - name: Azure DevOps-extensie (openbare preview)
+                  href: lifecycle-services/dts-devops-extension.md
         - name: Integratie met Microsoft Power Platform
           items:
-            - name: Integratie van Microsoft Power Platform met Finance and Operations
+            - name: Overzicht
               href: power-platform/overview.md
+            - name: De integratie met Power Platform inschakelen
+              href: power-platform/enable-power-platform-integration.md
+            - name: Verificatie en autorisatie
+              href: power-platform/authentication-and-authorization.md
             - name: Twee keer wegschrijven
               items:
                 - name: Startpagina voor Twee keer wegschrijven
@@ -1060,9 +1050,9 @@
                       href: data-entities/dual-write/sync-limits.md
                     - name: Instellingen voor twee keer wegschrijven van Lifecycle Services
                       href: data-entities/dual-write/lcs-setup.md
-                    - name: Twee keer wegschrijven voor bestaande Finance and Operations-apps inschakelen
+                    - name: Twee keer wegschrijven voor bestaande apps voor financiën en bedrijfsactiviteiten inschakelen
                       items:
-                        - name: Twee keer wegschrijven voor bestaande Finance and Operations-apps inschakelen
+                        - name: Twee keer wegschrijven voor bestaande apps voor financiën en bedrijfsactiviteiten inschakelen
                           href: data-entities/dual-write/enable-dual-write.md
                         - name: Systeemvereisten en vereisten vooraf
                           href: data-entities/dual-write/requirements-and-prerequisites.md
@@ -1070,6 +1060,8 @@
                           href: data-entities/dual-write/link-your-environment.md
                         - name: Entiteitstoewijzing voor twee keer wegschrijven inschakelen
                           href: data-entities/dual-write/enable-entity-map.md
+                    - name: Afzonderlijk Application Orchestration-pakket voor twee keer wegschrijven
+                      href: data-entities/dual-write/separated-solutions.md
                     - name: Migratie van valutagegevenstype voor twee keer wegschrijven
                       href: data-entities/dual-write/currrency-decimal-places.md
                     - name: De toewijzing instellen voor de verkooporderstatusvelden
@@ -1080,10 +1072,14 @@
                   items:
                     - name: Entiteits- en veldtoewijzingen aanpassen
                       href: data-entities/dual-write/customizing-mappings.md
+                    - name: Aanpassing richtlijnen voor twee keer wegschrijven
+                      href: data-entities/dual-write/custom-best-practices.md
                     - name: Meerdere entiteitstoewijzingen verwerken
                       href: data-entities/dual-write/multiple-entity-maps.md
-                    - name: Een rechtspersoon bewerken na instelling van twee keer wegschrijven
+                    - name: Een rechtspersoon bewerken na instellen van Twee keer wegschrijven
                       href: data-entities/dual-write/edit-legal-entity.md
+                    - name: Onderbreking van Twee keer wegschrijven voor onderhoud
+                      href: data-entities/dual-write/pause-for-maintenance.md
                     - name: Foutbeheer en waarschuwingsmeldingen
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: Levenscyclusbeheer voor toepassing
@@ -1146,6 +1142,8 @@
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: Bijwerken naar het model voor partij en globaal adresboek
                       href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: Partijgegevens weergeven
+                      href: data-entities/dual-write/view-party.md
                     - name: Integratie met notitie
                       href: data-entities/dual-write/notes-integration.md
                     - name: Toewijzingsverwijzing
@@ -1166,16 +1164,18 @@
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
                         - name: Problemen met live synchronisatie oplossen
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                        - name: Problemen met twee keer wegschrijven in Finance and Operations-apps oplossen
+                        - name: Problemen met twee keer wegschrijven oplossen in de toepassingen Finance and Operations
                           href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                         - name: Problemen met partij en globaal adresboek oplossen
                           href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
                         - name: Problemen met betrekking tot inzicht in de oplossing oplossen
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                        - name: Problemen met upgrades van Finance and Operations-apps oplossen
+                        - name: Problemen met upgrades van apps voor financiën en bedrijfsactiviteiten oplossen
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: Configuratie van twee keer wegschrijven in Finance and Operations-apps en Dataverse verifiëren
+                        - name: Configuratie voor twee keer wegschrijven verifiëren in apps voor financiën en bedrijfsactiviteiten en Dataverse
                           href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Foutcodes voor de statuscontrole van de tabeltoewijzing
+                          href: data-entities/dual-write/table-map-health-check.md
                 - name: Veelgestelde vragen over Twee keer wegschrijven
                   href: data-entities/dual-write/dual-write-faq.md
             - name: Virtuele entiteiten
@@ -1186,12 +1186,58 @@
                   href: power-platform/entity-modeling.md
                 - name: Levenscyclusbeheer voor toepassing
                   href: power-platform/application-lifecycle-management.md
-                - name: Beheerdersreferentie voor Finance and Operations en Dataverse
+                - name: Virtuele Dataverse-entiteiten configureren
                   href: power-platform/admin-reference.md
+                - name: Virtuele Dataverse-entiteiten inschakelen
+                  href: power-platform/enable-virtual-entities.md
                 - name: Power Apps-portals met Finance and Operations
                   href: power-platform/power-portal-reference.md
-                - name: Veelgestelde vragen over virtuele Finance and Operations-entiteiten
+                - name: Veelgestelde vragen over virtuele entiteiten van Finance and Operations
                   href: power-platform/faq.md
+            - name: Zakelijke gebeurtenissen
+              items:
+                - name: Overzicht van zakelijke gebeurtenissen
+                  href: business-events/home-page.md
+                - name: Eindpunten van zakelijke gebeurtenissen beheren
+                  href: business-events/managing-business-event-endpoints.md
+                - name: Toepassing zakelijke gebeurtenissen
+                  href: business-events/app-business-events.md
+                - name: Werkstroom zakelijke gebeurtenissen
+                  href: business-events/business-events-workflow.md
+                - name: Batch zakelijke gebeurtenissen
+                  href: business-events/system-business-events.md
+                - name: Waarschuwingen als zakelijke gebeurtenissen
+                  href: business-events/alerts-business-events.md
+                - name: Gegevensgebeurtenissen
+                  href: business-events/data-events.md
+                - name: Zakelijke gebeurtenissen in Power Automate
+                  href: business-events/business-events-flow.md
+                - name: Documentatie voor ontwikkelaars van zakelijke gebeurtenissen
+                  href: business-events/business-events-dev-doc.md
+                - name: Problemen met zakelijke gebeurtenissen oplossen
+                  href: business-events/troubleshooting.md
+                - name: Cases voor zakelijke gebeurtenissen gebruiken
+                  href: business-events/potential-use-cases.md
+                - name: Zelfstudies
+                  items:
+                    - name: Zakelijke gebeurtenissen en Power Automate
+                      href: business-events/how-to/how-to-flow.md
+                    - name: Zakelijke gebeurtenissen en Azure Event Grid
+                      href: business-events/how-to/how-to-eventgrid.md
+                    - name: Zakelijke gebeurtenissen en Azure Service Bus
+                      href: business-events/how-to/how-to-servicebus.md
+                    - name: Zakelijke gebeurtenissen en Azure Service Bus-wachtrij
+                      href: business-events/how-to/how-to-servicebus-queue.md
+                    - name: Zakelijke gebeurtenissen en werkstroomgoedkeuringen
+                      href: business-events/how-to/how-to-workflow.md
+                    - name: Zakelijke gebeurtenissen en Microsoft Forms Pro
+                      href: business-events/how-to/FormsPro.md
+                    - name: Zakelijke gebeurtenissen en Azure Event Hubs
+                      href: business-events/how-to/event-hub.md
+                    - name: Abonneren op gebeurtenissen in Dataverse
+                      href: business-events/how-to/how-to-dataverse-events.md
+                    - name: Zakelijke gebeurtenissen in afsluiting financiële periode
+                      href: business-events/how-to/period-close.md
             - name: Invoegtoepassingen
               items:
                 - name: Overzicht van invoegtoepassingen
@@ -1444,10 +1490,12 @@
               href: perf-test/rsat/rsat-tutorial.md
             - name: Niet-beheerders configureren
               href: perf-test/rsat/rsat-configure-nonadmin.md
-            - name: Best practices
+            - name: Aanbevolen procedures
               href: perf-test/rsat/rsat-best-practices.md
             - name: Gegevensonafhankelijk testen met Regression Suite Automation Tool
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
+            - name: RSAT (Regression Suite Automation Tool) uitvoeren met parallelle uitvoering
+              href: perf-test/rsat/rsat-parallel-execution.md
             - name: Problemen oplossen
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Oplossingen vrijgeven via Lifecycle Services
@@ -1490,11 +1538,11 @@
               href: lifecycle-services/lcs-support.md
             - name: Overzicht van Dynamics 365-ondersteuning
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: Ondersteuning krijgen voor Finance and Operations geëxploiteerd door 21Vianet in China
+            - name: Ondersteuning verkrijgen voor Finance and Operations geëxploiteerd door 21Vianet in China
               href: lifecycle-services/21vianet-support.md
-            - name: Technische ondersteuning instellen voor Finance and Operations-apps
+            - name: Technische ondersteuning instellen voor apps voor financiën en bedrijfsactiviteiten
               href: lifecycle-services/support-experience.md
-            - name: Ervaringen met ondersteuning voor Finance and Operations-apps beheren
+            - name: Ondersteuningservaringen met apps voor financiën en bedrijfsactiviteiten beheren
               href: lifecycle-services/cloud-powered-support-lcs.md
             - name: Productieondersteuning en -controle
               href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
@@ -1522,7 +1570,7 @@
                   href: sysadmin/role-based-security.md
                 - name: Beveiligingsarchitectuur
                   href: sysadmin/security-architecture.md
-                - name: Versleuteling in Finance and Operations-apps
+                - name: Versleuteling in apps voor financiën en bedrijfsactiviteiten
                   href: sysadmin/encryption.md
                 - name: De time-out voor inactieve sessies instellen
                   href: sysadmin/session-idle-timeout.md
@@ -1564,10 +1612,12 @@
                   href: sysadmin/batch-server-overview.md
                 - name: Batchtaken maken
                   href: sysadmin/tasks/create-batch-job.md
-                - name: Automatisch opnieuw proberen inschakelen voor batchtaken
+                - name: Nieuwe batchpogingen inschakelen
                   href: sysadmin/retryable-batch.md
                 - name: Een batchtaak kopiëren
                   href: sysadmin/copy-batch-job.md
+                - name: Batchplanning op basis van prioriteit
+                  href: sysadmin/priority-based-batch-scheduling.md
                 - name: Actieve batchperioden
                   href: sysadmin/activeperiod.md
                 - name: Ondersteuning voor zomertijd voor actieve batchperioden
@@ -1582,6 +1632,8 @@
                   href: sysadmin/batch-history-cleanup.md
                 - name: Een uitvoerende batchtaak annuleren
                   href: sysadmin/batch-abort.md
+                - name: OData-API batch
+                  href: sysadmin/batch-odata-api.md
             - name: Optimalisatie-advies
               items:
                 - name: Overzicht van Optimalisatie-advies
@@ -1616,8 +1668,6 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: Upgrade van AX 2012 - Controlelijst voor gegevensupgrade vóór upgrade
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: Upgrade van AX 2012 - SQL-transactiereplicatie
-                  href: database/replication-setup.md
                 - name: Upgrade van AX 2012 - Gegevensupgrade in selfserviceomgevingen
                   href: migration-upgrade/data-upgrade-self-service.md
                 - name: Upgrade van AX 2012 - On-premises omgevingen
@@ -1634,15 +1684,13 @@
                   href: migration-upgrade/2012-upgrade-cutover.md
                 - name: Upgrade van AX 2012 - Veelgestelde vragen over gegevensupgrade
                   href: migration-upgrade/upgrade-faq.md
-                - name: Wijzigingen hebben gevolgen voor de upgrade van AX 2012
+                - name: Wijzigingen die van invloed zijn op de upgrade van AX 2012
                   items:
-                    - name: Het scheidingsteken in het rekeningschema uniek maken
+                    - name: Scheidingsteken van rekeningschema uniek maken
                       href: migration-upgrade/chart-accounts-delimiter-unique.md
-                    - name: Journalen met enkel boekstuk en herwaarderingen van valuta's upgraden
-                      href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
-                    - name: Gegevensmodel voor projectresourceplanning
+                    - name: Datamodel voor projectresourceplanning
                       href: migration-upgrade/data-model-changes-resource-management.md
-                    - name: Wijzigingen werkstroomsubsysteem
+                    - name: Wijzigingen in werkstroomsubsysteem
                       href: migration-upgrade/workflow-subsystem.md
                     - name: Samengevoegde modellen gebruikt in plaats van cubes voor analyses
                       href: migration-upgrade/in-memory-real-time-aggregate-models.md
