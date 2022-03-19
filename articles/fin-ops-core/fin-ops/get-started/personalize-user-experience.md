@@ -2,7 +2,7 @@
 title: De gebruikerservaring personaliseren
 description: In dit onderwerp wordt uitgelegd hoe u de app kunt aanpassen.
 author: jasongre
-ms.date: 01/28/2022
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 840a68d506664043c9affb67e801429e0594f0bd
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 4bdce3cd12358112e40a783c73795bd6f35545c8
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075417"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384638"
 ---
 # <a name="personalize-the-user-experience"></a>De gebruikerservaring aanpassen
 
@@ -158,6 +158,7 @@ Voor sommige pagina's die lijsten bevatten, is de aanpassingsfunctie **Toevoegen
 
 - Als u een lijst aan een werkgebied wilt toevoegen, sorteert of filtert u de lijst op de pagina eerst, zodat deze de informatie bevat zoals u deze wilt weergeven in het werkgebied. (Als de functie **Opgeslagen weergaven** is ingeschakeld, kunt u pas doorgaan nadat u een weergave met deze voorwaarden hebt opgeslagen.) Selecteer vervolgens **Toevoegen aan werkruimte**. Selecteer een werkgebied en selecteer in het veld **Presentatie** de optie **Lijst**. Nadat u **Configureren** hebt geselecteerd, verschijnt een dialoogvenster waarin u de kolommen kunt selecteren die moeten worden weergegeven in de lijst in het werkgebied. Ook kunt u het label opgeven dat wordt gebruikt voor de lijst in het werkgebied.
 - Als u een tegel aan een werkgebied wilt toevoegen, filtert u eerst de lijst op de pagina om de gegevens weer te geven waarvan u een overzicht wilt of waartoe u snel toegang wilt. (Als de functie **Opgeslagen weergaven** is ingeschakeld, kunt u pas doorgaan nadat u een weergave met deze voorwaarden hebt opgeslagen.) Selecteer vervolgens **Toevoegen aan werkruimte**. Selecteer een werkgebied en selecteer in het veld **Presentatie** de optie **Tegel**. Nadat u **Configureren** hebt geselecteerd, verschijnt een dialoogvenster waarin u het label kunt opgeven dat moet worden gebruikt voor de tegel in het werkgebied. U kunt ook opgeven of de tegel een telling moet weergeven. Nadat de tegel is toegevoegd aan het werkgebied, kunt u deze selecteren om de huidige pagina te openen vanuit het werkgebied. Vervolgens kunt u de gefilterde lijst bekijken die aan de tegel is gekoppeld.
+    - Als u in versie 10.0.26 begint, kunt u als de functie **Toestaan dat gebruikers tegelformaten selecteren en wijzigen** is ingeschakeld, een van de vier beschikbare **tegelformaten** selecteren voor uw nieuwe tegel in het dialoogvenster **Tegel configureren**. Met deze functie kunt u de tegelafmetingen aanpassen nadat deze rechtstreeks vanuit de werkruimte is gemaakt.   
 - Als u een koppeling aan een werkgebied wilt toevoegen, filtert u de lijst op de pagina eerst zodat hier de gegevens worden weergegeven waarin u geïnteresseerd bent. (Als de functie **Opgeslagen weergaven** is ingeschakeld, kunt u pas doorgaan nadat u een weergave met deze voorwaarden hebt opgeslagen.) Selecteer vervolgens **Toevoegen aan werkruimte**. Selecteer een werkgebied en selecteer in het veld **Presentatie** de optie **Koppeling**. Nadat u **Configureren** hebt geselecteerd, verschijnt een dialoogvenster waarin u het label kunt opgeven dat moet worden gebruikt voor de koppeling. U kunt desgewenst ook een label opgeven voor de sectie waarin deze koppeling kan worden geplaatst. Als die sectie niet bestaat, wordt een nieuwe sectie gemaakt.
 
 > [!NOTE]
@@ -168,6 +169,9 @@ Nadat een lijst, tegel of koppeling is toegevoegd aan een werkgebied, kunt u dit
 ### <a name="adding-a-summary-from-a-workspace-to-a-dashboard"></a>Een overzicht toevoegen aan een werkgebied of dashboard
 
 Sommige werkgebieden bevatten tellingstegels (tegels met getallen erop) en u wilt deze mogelijk ook in uw dashboard laten weergeven. Klik in een werkgebied met de rechtermuisknop op een teltegel, selecteer **Aanpassen** en selecteer vervolgens **Vastmaken op dashboard** in het eigenschappenvenster van de tegel. De volgende keer dat u het geselecteerde dashboard opent en vernieuwt, wordt de telling weergegeven onder de navigatietegel van dat werkgebied. U kunt selecteren dat de telling rechtstreeks naar de gegevens gaat die erdoor worden voorgesteld.
+
+### <a name="changing-the-size-of-a-tile"></a>Het tegelformaat wijzigen
+Vanaf versie 10.0.26 kunnen gebruikers met de functie **Toestaan dat gebruikers tegelformaten selecteren en wijzigen** de grootte van alle niet-KPI-tegels aanpassen. Klik in een werkgebied met de rechtermuisknop op een tegel en selecteer **Aanpassen**. Selecteer de gewenste grootte in de opties voor **Tegelgrootte** in het venster met tegeleigenschappen. De afmetingen worden onmiddellijk aangepast. Als de functie **(preview) Ondersteuning van opgeslagen weergaven voor werkgebieden** is ingeschakeld, kunt u deze aanpassing opslaan in een werkruimteweergave.  
 
 ### <a name="personalizing-your-dashboard"></a>Het dashboard aanpassen
 

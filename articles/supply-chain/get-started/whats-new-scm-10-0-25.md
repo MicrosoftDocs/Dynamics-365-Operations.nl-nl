@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 8a9b873b7b4bba43b7b3e6e83c389ac35b4e223e
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 068e65d0bd76d7a9af36c6c3539d0c813efd528a
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102991"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384533"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10025-april-2022"></a>Preview van Dynamics 365 Supply Chain Management 10.0.25 (april 2022)
 
@@ -34,10 +34,10 @@ De volgende tabel vermeldt de functies die deze versie bevat. Mogelijk wordt dit
 
 | Functiegebied | Functie | Meer informatie | Ingeschakeld door   |
 |---|---|---|---|
-| Voorraad en logistiek | Verbeteringen gevaarlijke materialen | Deze verbeteringen zijn gebaseerd op bestaande functionaliteit voor gevaarlijke materialen om bedrijven te helpen bij het voldoen aan lokale regelgeving bij het transport van gevaarlijke materialen in verschillende regio's. <!-- KFM: Update to 2022w1 link when published -->| Functiebeheer:<br>*Verbeteringen gevaarlijke materialen* |
-| Voorraad en logistiek | Inpakwerk voor inpakstations | Met deze functie worden de flexibiliteit en functionaliteit van uw verpakkings- en verzendbewerkingen verbeterd. Magazijnmedewerkers kunnen nu tijdens het verpakkingsproces afzonderlijke pakketten inpakken en verzenden die zijn gerelateerd aan dezelfde zending en lading. Orderregels die deel uitmaken van dezelfde zending hoeven niet samen te worden verzonden als sommige artikelen meteen klaar zijn voor verzending. Eén order kan in meerdere pakketten op verschillende verzendtijden worden verpakt en verzonden, waardoor de wachttijden worden verkort en de flexibiliteit wordt verbeterd.<!-- KFM: Update to 2022w1 link when published --> | Functiebeheer:<br>*Inpakwerk voor inpakstations* |
-| Voorraad en logistiek | [Streepjescodes scannen in het magazijn met behulp van GS1-indelingsstandaarden](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) <!-- KFM: Update to 2022w1 link when published --> | [GS1-streepjescodes en QR-codes](../warehousing/gs1-barcodes.md) | Functiebeheer:<br>*GS1-streepjescode scannen* |
-| Productie | [Materiaalverbruik en reserveringen in de uitvoeringsinterface van de productievloer](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken](../production-control/production-floor-execution-use.md) | Functiebeheer:<br>*(Preview) Materiaalverbruik registreren in de uitvoeringsinterface van de productievloer (WMS ingeschakeld)* |
+| Voorraad en logistiek | [Verbeteringen gevaarlijke materialen](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/hazardous-materials-enhancements) | Binnenkort beschikbaar | Functiebeheer:<br>*Verbeteringen gevaarlijke materialen* |
+| Voorraad en logistiek | [Inpakwerk voor inpakstations](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | Binnenkort beschikbaar | Functiebeheer:<br>*Inpakwerk voor inpakstations* |
+| Voorraad en logistiek | [Streepjescodes scannen in het magazijn met behulp van GS1-indelingsstandaarden](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1-streepjescodes en QR-codes](../warehousing/gs1-barcodes.md) | Functiebeheer:<br>*GS1-streepjescode scannen* |
+| Productie | [Materiaalverbruik en reserveringen in de uitvoeringsinterface van de productievloer](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken](../production-control/production-floor-execution-use.md) | Functiebeheer:<br>*(Preview) Materiaalverbruik registreren op de uitvoeringsinterface van de werkvloer (niet-WMS)*<br><br>En/of:<br><br>Functiebeheer:<br>*(Preview) Materiaalverbruik registreren in de uitvoeringsinterface van de productievloer (WMS ingeschakeld)* |
 | Productie | [Materiaalverbruik voor schaaleenheden registreren](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [Werkbelasting voor productie-uitvoering voor cloud- en randschaaleenheden](../cloud-edge/cloud-edge-workload-manufacturing.md) | Functiebeheer:<br>*Materiaalverbruik op de mobiele app op een schaaleenheid registreren* |
 | Planning | [Suggesties voor Planningsoptimalisatie om bestaande voorraad te optimaliseren](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [Actieberichten](../master-planning/action-messages.md) | Standaard ingeschakeld |
 | Planning | Geplande orders vereenvoudigd | [Geplande orders vereenvoudigd](../master-planning/planning-optimization/planned-orders-simplified.md ) | Functiebeheer:<br>*Geplande orders vereenvoudigd* |

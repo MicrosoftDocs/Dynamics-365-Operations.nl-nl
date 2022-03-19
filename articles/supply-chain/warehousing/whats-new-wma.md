@@ -2,7 +2,7 @@
 title: Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
 description: In dit onderwerp worden de nieuwe en gewijzigde functies genoemd voor elke vrijgegeven versie van de mobiele app Warehouse Management voor Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 01/18/2022
+ms.date: 02/21/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,51 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ceb327599bb2651a37ac51c3e0fdffc39d20c7f6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b146fb12f89559efcb3b0973b0dd1ce9b98ffe2a
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067246"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384361"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 In dit onderwerp worden de nieuwe functies, oplossingen, verbeteringen en bekende problemen genoemd voor elke vrijgegeven versie van de mobiele app Warehouse Management voor Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20170"></a>Versie 2.0.17.0
+
+Deze versie bevat de volgende nieuwe functies, verbeteringen en oplossingen voor fouten:
+
+- Een probleem opgelost waarbij streepjescodes onjuist worden gescand.
+- Het GS1-scanprobleem opgelost voor de camerascanner.
+- Het GS1-scanprobleem opgelost voor de streepjescodescanner op Zebra-apparaten.
+- Het verbeteren van de omleidingsonderzoeksstroom, zodat het selecteren van een kaart in een omleiding nu terugkomt in de hoofdstroom.
+- Extra ondersteuning voor een algemene gegevensonderzoeksstroom.
+- Een bericht toegevoegd om gebruikers te informeren over wijzigingen in de status van de netwerkconnectiviteit.
+- Opslagmachtigingen afgestemd met het opslagprivacybeleid in Android 10.
+- Voor stromen die dit nodig hebben, bevat de hoeveelheidsspinner nu een positie waarmee gebruikers een lege numerieke waarde kunnen indienen.
+- Problemen opgelost met de richting van de hoeveelheidspinner.
+- Een probleem opgelost waarbij de hoeveelheidspinner naar de verkeerde waarde zou gaan.
+- Een probleem opgelost waarbij invoer op de primaire pagina verloren gaat wanneer deze wordt ingevuld vanuit de detailpagina.
+- Een probleem opgelost waarbij tijdelijke tekst wordt behandeld als de oorspronkelijk geselecteerde waarde in selectielijsten.
+- De knop Verzenden in bevestigingsstappen is nu automatisch ingeschakeld als er vooraf gekozen waarden zijn.
+- De detailkaart aangepast om zo veel mogelijk regels weer te geven voor tekstvelden met meerdere regels.
+- De hoogte van de knoppen Indienen en Meer acties aangepast, zodat ze nu minder ruimte op het scherm in beslag nemen.
+- Ontbrekende titels toegevoegd aan selectielijst.
+- Een probleem opgelost waarbij de knop Terug niet werkte.
+- Verschillende oplossingen en verbeteringen voor toetsenbordnavigatie toegevoegd, waaronder op de volgende pagina's:
+  - Gebruikersaanmelding
+  - Verbinding selecteren
+  - Verbinding bewerken
+- Probleem met scrollen opgelost bij het gebruik van toetsenbordnavigatie.
+- Toegankelijkheid verbeterd, inclusief de volgende verbeteringen:
+  - Zichtbaarheid en contrast van kleuren verbeterd.
+  - Voorkomen dat toetsenbordfocus verloren gaat wanneer pop-uppagina's worden gesloten.
+  - Foutberichten toegevoegd aan de tekst.
+  - De grootte van tijdelijke aanduidingswaarden in de stapbanner is aangepast.
+- Probleem opgelost met voorbeeld van aangepaste oude pagina in de demomodus.
 
 ## <a name="version-20150"></a>Versie 2.0.15.0
 
@@ -39,7 +72,7 @@ Deze versie bevat de volgende nieuwe functies, verbeteringen en oplossingen voor
 ## <a name="version-20130"></a>Versie 2.0.13.0
 
 Deze versie bevat de volgende nieuwe functies, verbeteringen en oplossingen voor fouten:
- 
+
 - Verbeterd bladeren tussen pagina's met soepelere animatie.
 - Niet-intuïtieve reacties bij swipen en vastlopen van scherm opgelost.
 - Verbeterde kleurencombinaties van tekst in de donkere modus en achtergrond voor een betere leesbaarheid.

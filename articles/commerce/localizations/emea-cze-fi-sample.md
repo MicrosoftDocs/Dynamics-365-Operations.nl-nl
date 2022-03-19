@@ -2,7 +2,7 @@
 title: Voorbeeld van integratie van fiscale registratieservice voor Tsjechië
 description: Dit onderwerp biedt een overzicht van het fiscale integratievoorbeeld voor Tsjechië in Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
@@ -10,16 +10,17 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-4-1
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 990de96f57f4a22b4d58da5f970b1b96f5fc21f5
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: cb9679bd02c5400fc015c6807407b01e9bf55343
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077085"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388231"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-the-czech-republic"></a>Voorbeeld van integratie van fiscale registratieservice voor Tsjechië
 
 [!include[banner](../includes/banner.md)]
+[!include[banner](../includes/preview-banner.md)]
 
 Dit onderwerp biedt een overzicht van het fiscale integratievoorbeeld voor Tsjechië in Microsoft Dynamics 365 Commerce.
 
@@ -68,7 +69,7 @@ Met de voorbeeld van de integratie van fiscale registratieservice worden de volg
 - Een transactie die is gerelateerd aan een klantaccountstorting of een klantorderstorting, wordt in de fiscale registratieservice geregistreerd als één regeltransactie en is gemarkeerd met een speciaal kenmerk. De btw-groep voor storting wordt opgegeven op deze regel.
 - Wanneer een hybride klantorder wordt gemaakt, dat wil zeggen een klantorder die producten bevat die door de klant uit de winkel kunnen worden uitgevoerd, naast producten die later worden opgehaald of verzonden, bevat de transactie die is geregistreerd in de fiscale registratieservice regels voor de producten die worden uitgevoerd, plus een regel voor de orderstorting.
 - Een betaling van een klantaccount wordt als een normale betaling beschouwd en is gemarkeerd met een speciaal kenmerk wanneer de transactie wordt geregistreerd in de fiscale registratieservice.
-- Het stortingsbedrag van de klantorder dat wordt toegepast op een bewerking *Ophalen* voor een klantorder, wordt als een normale betaling beschouwd en is gemarkeerd met een speciaal kenmerk wanneer de transactie wordt geregistreerd in de fiscale registratieservice.
+- Het stortingsbedrag van de klantorder dat wordt toegepast op een bewerking Ophalen voor een klantorder, wordt als een normale betaling beschouwd en is gemarkeerd met een speciaal kenmerk wanneer de transactie wordt geregistreerd in de fiscale registratieservice.
 
 ### <a name="offline-registration"></a>Offlineregistratie
 
@@ -291,14 +292,28 @@ Voer de volgende stappen uit om een ontwikkelingsomgeving in te stellen zodat u 
             ModernPOS.EFR.Installer.exe install --verbosity 0
             ```
 
-1. Installeer extensies van Hardware Station:
+1. Uitbreidingen voor Fiscale connector installeren:
 
-    1. Zoek in de map **Efr\\HardwareStation\\HardwareStation.EFR.Installer\\bin\\Debug\\net461** het installatieprogramma **HardwareStation.EFR.Installer**.
-    1. Start het installatieprogramma voor extensies vanaf de opdrachtregel:
+    U kunt uitbreidingen voor de fiscale connector installeren op het [hardwarestation](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station) of de [POS-kassa](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-or-service-in-the-local-network).
 
-        ```Console
-        HardwareStation.EFR.Installer.exe install --verbosity 0
-        ```
+    1. Installeer extensies van Hardware Station:
+
+        1. Zoek in de map **Efr\\HardwareStation\\HardwareStation.EFR.Installer\\bin\\Debug\\net461** het installatieprogramma **HardwareStation.EFR.Installer**.
+        1. Start het installatieprogramma voor extensies vanaf de opdrachtregel door de volgende opdracht uit te voeren.
+
+            ```Console
+            HardwareStation.EFR.Installer.exe install --verbosity 0
+            ```
+
+    1. Installeer POS-extensies:
+
+        1. Open de voorbeeldoplossing voor de POS fiscale connector op **Dynamics365Commerce.Solutions\\FiscalIntegration\\PosFiscalConnectorSample\\Contoso.PosFiscalConnectorSample.sln** en bouw deze.
+        1. Zoek in de mpa **PosFiscalConnectorSample\\StoreCommerce.Installer\\bin\\Debug\\net461** het installatieprogramma **Contoso.PosFiscalConnectorSample.StoreCommerce.Installer**.
+        1. Start het installatieprogramma voor extensies vanaf de opdrachtregel door de volgende opdracht uit te voeren.
+
+            ```Console
+            Contoso.PosFiscalConnectorSample.StoreCommerce.Installer.exe install --verbosity 0
+            ```
 
 #### <a name="production-environment"></a>Productieomgeving
 
@@ -350,5 +365,28 @@ De connector ondersteunt de volgende aanvragen.
 #### <a name="configuration"></a>Configuratie
 
 Het configuratiebestand voor de fiscale connector bevindt zich op **src\\FiscalIntegration\\Efr\\Configurations\\Connectors\\ConnectorEFRSample.xml** in de opslagplaats voor [Dynamics 365 Commerce-oplossingen](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Het doel van het bestand is het inschakelen van instellingen van de fiscale connector die moet worden geconfigureerd vanuit Commerce Headquarters. De bestandsindeling is afgestemd op de vereisten voor de configuratie van fiscale integratie.
+
+### <a name="pos-fiscal-connector-extension-design"></a>Uitbreidingsontwerp voor POS fiscale connector
+
+Het doel van de fiscale POS-connectorextensie communiceren met de fiscale registratieservice vanuit POS. Het gebruikt het HTTPS-protocol voor communicatie.
+
+#### <a name="fiscal-connector-factory"></a>Fiscale connectorfactory
+
+De fiscale connectorfactory wordt gekoppeld aan de implementatie van Fiscal Connector en bevindt zich in het bestand **Pos.Extension\\Connectors\\FiscalConnectorFactory.ts**. De connectornaam moet overeenkomen met de naam van de fiscale connector die is opgegeven in Commerce Headquarters.
+
+#### <a name="efr-fiscal-connector"></a>EFR fiscale connector
+
+De EFR-fiscale connector bevindt zich in het bestand **Pos.Extension\\Connectors\\Efr\\EfrFiscalConnector.ts**. Deze implementeert de interface **IFiscalConnector** die de volgende aanvragen ondersteunt:
+
+- **FiscalRegisterSubmitDocumentClientRequest**: met deze aanvraag worden documenten naar de fiscale registratieservice verzonden en wordt hierop een respons geretourneerd.
+- **FiscalRegisterIsReadyClientRequest**: deze aanvraag wordt gebruikt voor een statuscontrole van de fiscale registratieservice.
+- **FiscalRegisterInitializeClientRequest**: deze aanvraag wordt gebruikt om de fiscale registratieservice te initialiseren.
+
+#### <a name="configuration"></a>Configuratie
+
+Het configuratiebestand bevindt zich in de map **src\\FiscalIntegration\\Efr\\Configurations\\Connectors** van de opslagplaats [Dynamics 365 Commerce Solutions](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Het doel van het bestand is het inschakelen van instellingen voor de fiscale connector die moet worden geconfigureerd vanuit Commerce Headquarters. De bestandsindeling is afgestemd op de vereisten voor de configuratie van fiscale integratie. De volgende instellingen worden toegevoegd:
+
+- **Eindpuntadres**: de URL van de fiscale registratieservice.
+- **Time-out**: de hoeveelheid tijd in milliseconden dat de connector wacht op een respons van de fiscale registratieservice.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

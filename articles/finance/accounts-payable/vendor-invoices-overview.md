@@ -2,13 +2,13 @@
 title: Overzicht van leveranciersfacturen
 description: Dit onderwerp biedt algemene informatie over leveranciersfacturen.
 author: abruer
-ms.date: 06/03/2021
+ms.date: 02/25/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "13971"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22535f4bc320bde096214e2044cfeb00d4e9fbbc
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: b54a60ac3b1868ea7cc5ed88d5a31203b4bd29d3
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985332"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358412"
 ---
 # <a name="vendor-invoices-overview"></a>Overzicht van Leveranciersfacturen
 
@@ -51,10 +51,10 @@ De volgende discussie biedt meer informatie over het gebruik van de pagina **Ope
 
 Wanneer u een leveranciersfactuur opent vanuit een gerelateerde inkooporder, worden factuurregels gemaakt op basis van de inkooporder. Standaard worden de hoeveelheden gebaseerd op de hoeveelheid van de productontvangstbon. U kunt echter de volgende standaardgedragingen gebruiken:
 
-- **Hoeveelheid nu ontvangen** - Gebruik deze optie voor gedeeltelijke zendingen. De standaardwaarde in het veld **Hoeveelheid** wordt overgenomen uit het veld **Nu ontvangen** in de inkooporder.
-- **Bestelde hoeveelheid** - Gebruik deze optie voor volledige zendingen. De standaardwaarde in het veld **Hoeveelheid** wordt overgenomen uit het veld **Besteld** in de inkooporder.
+- **Hoeveelheid nu ontvangen** - Gebruik deze optie voor gedeeltelijke zendingen. De standaardwaarde in het veld **Hoeveelheid** wordt ingesteld op de hoeveelheid uit het veld **Nu ontvangen** in de inkooporder.
+- **Bestelde hoeveelheid** - Gebruik deze optie voor volledige zendingen. De standaardwaarde in het veld **Hoeveelheid** wordt ingesteld op de hoeveelheid in het veld **Besteld** in de inkooporder.
 - **Geregistreerde hoeveelheid** - Gebruik deze optie als het artikel moet worden geregistreerd, zoals opgegeven op de pagina **Artikelmodelgroepen**. De standaardwaarde in het veld **Hoeveelheid** is de fysieke updatehoeveelheid die is geregistreerd.
-- **Hoeveelheid productontvangstbon** – Gebruik deze optie als al een productontvangstbon voor de order is ontvangen. De standaardwaarde in het veld **Hoeveelheid** wordt afgeleid van de totale hoeveelheid aan beschikbare productontvangstbonnen.
+- **Hoeveelheid productontvangstbon** – Gebruik deze optie als al een productontvangstbon voor de order is ontvangen. De standaardwaarde in het veld **Hoeveelheid** is de totale hoeveelheid aan beschikbare productontvangstbonnen.
 - **Geregistreerde hoeveelheid en services** – Gebruik deze optie als hoeveelheden in aankomstjournalen zijn geregistreerd voor artikelen in voorraad of artikelen die niet in voorraad zijn opgeslagen. Deze optie omvat ook al dan niet geregistreerde services.
 
 Als uw rechtspersoon factuurvereffening gebruikt, kunt u de resultaten van de hoeveelheidsvereffening in de kolom **Overeenkomst van hoeveelheid van productontvangstbon** bekijken. U kunt ook de knop **Overeenkomende gegevens** op het tabblad **Controleren** van het actievenster gebruiken om de resultaten van de hoeveelheidsvereffening te bekijken.
@@ -65,7 +65,7 @@ U kunt aan de leveranciersfactuur een regel toevoegen die niet in de inkooporder
 
 ## <a name="submitting-a-vendor-invoice-for-review"></a>Een leveranciersfactuur ter beoordeling indienen
 
-Uw organisatie gebruikt mogelijke workflows om het controleproces voor leveranciersfacturen te beheren. Workflowcontrole kan vereist zijn voor de factuurkoptekst, de factuurregel of voor beide. De besturingselementen voor de workflow zijn van toepassing op de koptekst of op de regel, afhankelijk van waar de focus zich bevindt als u het besturingselement selecteert. In plaats van de knop **Boeken** wordt een knop **Verzenden** weergegeven waarmee u de leveranciersfactuur door het controleproces kunt verzenden.
+Uw organisatie gebruikt mogelijke workflows om het controleproces voor leveranciersfacturen te beheren. Workflowcontrole kan vereist zijn voor de factuurkoptekst, de factuurregel of voor beide. De besturingselementen voor de workflow zijn van toepassing op de koptekst of op de regel, afhankelijk van waar de focus zich bevindt als u het besturingselement selecteert. In plaats van de knop **Boeken** wordt met de knop **Verzenden** de leveranciersfactuur door het controleproces verzonden.
 
 ### <a name="preventing-invoice-from-being-submitted-to-workflow"></a>Voorkomen dat een factuur wordt ingediend bij de workflow 
 
@@ -102,7 +102,7 @@ U kunt het aantal facturen opgeven dat in de batch moet worden opgenomen en het 
 
 ## <a name="working-with-multiple-invoices"></a>Werken met meerdere facturen
 
-U kunt met meerdere facturen tegelijkertijd werken en ze allemaal op hetzelfde moment boeken. Als u meerdere facturen moet maken, gebruikt u de pagina **Leveranciersfacturen in behandeling**. Als u meerdere leveranciersfacturen moet boeken en afdrukken, gebruikt u het factuurgoedkeuringsjournaal. Als u het factuurgoedkeuringsjournaal gebruikt, moet er minimaal één productontvangstbon worden geboekt voor de inkooporder en moet er een factuur voor de inkooporder worden geboekt in een facturenregister. De financiële gegevens voor de factuur komen uit de factuur die is geboekt in het register.
+U kunt met meerdere facturen tegelijkertijd werken en ze allemaal op hetzelfde moment boeken. Als u meerdere facturen moet maken, gebruikt u de pagina **Leveranciersfacturen in behandeling**. Als u meerdere leveranciersfacturen moet boeken en afdrukken, gebruikt u het **Factuurgoedkeuringsjournaal**. Als u het **Factuurgoedkeuringsjournaal** gebruikt, moet er minimaal één productontvangstbon worden geboekt voor de inkooporder en moet er een factuur voor de inkooporder worden geboekt in een facturenregister. De financiële gegevens voor de factuur komen uit de factuur die is geboekt in het register.
 
 ## <a name="recovering-vendor-invoices-that-are-being-used"></a>Leveranciersfacturen herstellen die worden gebruikt
 

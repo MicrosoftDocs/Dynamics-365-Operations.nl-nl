@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "27361"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7ffcd731b127b9a51551d4fe966dcfd69a34e54
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 2959df58dbde71ba516c1a230e64d38b885c23f5
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984072"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358259"
 ---
 # <a name="accounts-payable-invoice-matching-overview"></a>Overzicht van Factuurvereffening voor leveranciers
 
@@ -36,24 +36,24 @@ U voert bijvoorbeeld een inkooporder in met één regelartikel voor 1000 batteri
 
 Er komt een factuur binnen voor 1000 batterijen tegen een prijs van 1,10 per stuk. Volgens het rechtspersoonbeleid is een prijstolerantie per netto eenheid van 5 procent toegestaan voor deze artikelcategorie. Een prijs van 1,05 is dus acceptabel, maar een prijs van 1,10 niet. Wanneer u de factuurgegevens invoert, wordt er een prijsverschil geconstateerd en kunt u de factuur opslaan totdat het verschil is opgelost.
 
-U kunt de volgende typen Factuurvergelijking voor leveranciers gebruiken:
+U kunt de volgende typen **Factuurvereffening voor leveranciers gebruiken**:
 
--   Vergelijking factuurtotalen – Vergelijk de totaalbedragen op de factuur met de totaalbedragen op de inkooporder. Dit type factuurvergelijking bevat de minste gegevens, dus kunt u deze optie gebruiken voor het instellen van besturingselementen die de werktijd minimaliseren die vereist is voor het controleren van factuurvergelijkingsinformatie.
--   Vergelijking op twee manieren – Vergelijk de prijsgegevens op de factuur met de prijsgegevens op de inkooporder.
--   Vergelijking op drie manieren – Vergelijk de prijsgegevens op de factuur met de prijsgegevens op de inkooporder. Vergelijk ook de informatie over de hoeveelheid op de factuur met de informatie over de hoeveelheid op de productontvangstbonnen die voor de factuur zijn geselecteerd.
--   Toeslagen vergelijken – Vergelijk de informatie over toeslagen (bedragen) op de factuur met de informatie over toeslagen (bedragen) op de inkooporder.
+-   **Vereffening van factuurtotalen**: vereffen de totaalbedragen op de factuur met de totaalbedragen op de inkooporder. Dit type factuurvergelijking bevat de minste gegevens, dus kunt u deze optie gebruiken voor het instellen van besturingselementen die de werktijd minimaliseren die vereist is voor het controleren van factuurvergelijkingsinformatie.
+-   **Afstemming op twee manieren**: vergelijk de prijsgegevens op de factuur met de prijsgegevens op de inkooporder.
+-   **Afstemming op drie manieren**: vergelijk de prijsgegevens op de factuur met de prijsgegevens op de inkooporder. Vergelijk ook de informatie over de hoeveelheid op de factuur met de informatie over de hoeveelheid op de productontvangstbonnen die voor de factuur zijn geselecteerd.
+-   **Vereffening van toeslagen**: vereffen de informatie over toeslagen (bedragen) op de factuur met de informatie over toeslagen (bedragen) op de inkooporder.
 
 > [!NOTE]
 > Andere vormen van factuurvalidatie kunnen worden uitgevoerd door beleidsregels voor leveranciersfacturen te gebruiken. 
 
 Vergelijkingen op twee en drie manieren vergelijken altijd prijsgegevens met de prijs per eenheid. U kunt dit overeenstemmingsbeleid tevens dusdanig configureren dat prijsgegevens met de totaalprijs worden vergeleken.
--   Netto prijs per eenheid vergelijken – Vergelijk prijsgegevens voor vergelijken op drie manieren door de netto prijs per eenheid voor iedere regel op de factuur te vergelijken met de betreffende netto prijs per eenheid op de inkooporder. De netto prijs per eenheid wordt bepaald met behulp van de volgende formule: netto bedrag van de regel / hoeveelheid van de regel.
--   Prijstotalen vergelijken – Vergelijk prijsgegevens voor vergelijken op drie manieren door het netto bedrag (totaalprijs) voor iedere regel op de factuur te vergelijken met het betreffende netto bedrag op de inkooporder. Het nettobedrag wordt bepaald met behulp van de volgende formule: *(prijs per eenheid \* regelkwaliteit) + regelkosten - regelkortingen*. Bij het vergelijken van prijstotalen op basis van percentage, worden waarden met behulp van de transactievaluta vergeleken. Bij het vergelijken van prijstotalen op basis van bedrag, worden de waarden met behulp van de valuta voor boekhouding vergeleken. Wanneer u een inkooporderregel gedeeltelijk factureert, vindt de validatie van totaalprijs plaats op de laatste factuur voor die regel. 
+-   **Netto prijs per eenheid vergelijken**: vergelijk prijsgegevens voor vergelijken op drie manieren door de netto prijs per eenheid voor iedere regel op de factuur te vergelijken met de betreffende netto prijs per eenheid op de inkooporder. De netto prijs per eenheid wordt bepaald met behulp van de volgende formule: netto bedrag van de regel / hoeveelheid van de regel.
+-   **Prijstotalen vergelijken**: vergelijk prijsgegevens voor vergelijken op drie manieren door het netto bedrag (totaalprijs) voor iedere regel op de factuur te vergelijken met het betreffende netto bedrag op de inkooporder. Het nettobedrag wordt bepaald met behulp van de volgende formule: *(prijs per eenheid \* regelkwaliteit) + regelkosten - regelkortingen*. Bij het vergelijken van prijstotalen op basis van percentage, worden waarden met behulp van de transactievaluta vergeleken. Bij het vergelijken van prijstotalen op basis van bedrag, worden de waarden met behulp van de valuta voor boekhouding vergeleken. Wanneer u een inkooporderregel gedeeltelijk factureert, vindt de validatie van totaalprijs plaats op de laatste factuur voor die regel. 
 
-Berekeningen van de factuurvergelijking worden automatisch uitgevoerd wanneer u leveranciersfacturen bewerkt op de pagina Leveranciersfactuur. Factuurvergelijking kan eventueel ook worden uitgevoerd op aanvraag, wanneer vereist. Factuurvergelijking op aanvraag wordt geregeld voor de rechtspersoon door de status Status factuurkoptekst automatisch bijwerken ´Aan´ op de pagina Parameters van module Leveranciers, in het tabblad Factuurvalidatie. Factuurvergelijking kan tevens worden uitgevoerd als onderdeel van een beoordelingsproces van een factuur. U kunt de resultaten van factuurvergelijking op de pagina Leverancierfactuur en gerelateerde factuurvergelijkingsformulieren bekijken.
+Berekeningen van de factuurvergelijking worden automatisch uitgevoerd wanneer u leveranciersfacturen bewerkt op de pagina **Leveranciersfactuur**. Factuurvergelijking kan eventueel ook worden uitgevoerd op aanvraag, wanneer vereist. Factuurvergelijking op aanvraag wordt geregeld voor de rechtspersoon door de koptekststatus **Factuur automatisch bijwerken** op de pagina **Parameters van module Leveranciers**, in het tabblad **Factuurvalidatie**. Factuurvereffening kan tevens worden uitgevoerd als onderdeel van een beoordelingsproces van een factuur. U kunt de resultaten van factuurvereffening op de pagina **Leveranciersfactuur** en gerelateerde factuurvergelijkingsformulieren bekijken.
 
 ## <a name="invoice-totals-matching"></a>Vereffening van factuurtotalen
-U kunt factuurtotaalvergelijking gebruiken om ervoor te zorgen dat totaalfactuurbedragen niet afwijken van verwachte bedragen met meer dan een acceptabel verschil. Er worden zes totalen vergeleken op de pagina Vergelijkingsgegevens factuurtotalen, zoals getoond in de volgende tabel. Als de toegestane tolerantie voor factuurtotaalvergelijking 20% is, wordt het afwijkingspercentage van 100% voor het totale kortingsbedrag als matchingverschil beschouwd.
+U kunt factuurtotaalvergelijking gebruiken om ervoor te zorgen dat totaalfactuurbedragen niet afwijken van verwachte bedragen met meer dan een acceptabel verschil. Er worden zes totalen vergeleken op de pagina **Totale factuurvereffeningsgegevens**, zoals getoond in de volgende tabel. Als de toegestane tolerantie voor factuurtotaalvergelijking 20% is, wordt het afwijkingspercentage van 100% voor het totale kortingsbedrag als matchingverschil beschouwd.
 
 | Totaal veld    | Werkelijk factuurtotaal | Verwacht factuurtotaal | Afwijkingspercentage | Vereffeningsstatus |
 |----------------|----------------------|------------------------|---------------------|--------------|
@@ -64,7 +64,7 @@ U kunt factuurtotaalvergelijking gebruiken om ervoor te zorgen dat totaalfactuur
 | Afronden      | 0,00                 | 0,00                   | 0%                  | Geslaagd       |
 | Factuurbedrag | 699,88               | 687,50                 | 2%                  | Geslaagd       |
 
-Factuurtotalen vergelijken wordt geregeld voor de rechtspersoon door de wisselknop voor Factuurtotalen vereffenen op de pagina Parameters van module Leveranciers. Verwachte factuurtotalen en de werkelijke factuurtotalen worden vergeleken. De verwachte factuurtotalen worden berekend op basis van de prijzen, toeslagen en btw-gegevens uit de inkooporder en de hoeveelheden uit de factuur.
+Factuurtotalen vereffenen wordt geregeld voor de rechtspersoon door de wisselknop voor **Factuurtotalen vereffenen** op de pagina **Parameters van module Leveranciers**. Verwachte factuurtotalen en de werkelijke factuurtotalen worden vergeleken. De verwachte factuurtotalen worden berekend op basis van de prijzen, toeslagen en btw-gegevens uit de inkooporder en de hoeveelheden uit de factuur.
 
 ## <a name="two-way-price-totals-matching"></a>Prijstotalen vergelijken op twee manieren
 Gebruik vergelijken op twee manieren om ervoor te zorgen dat het verschil tussen de prijsgegevens op de inkooporder en de factuur acceptabel is. U kunt prijsgegevens vergelijken voor het netto bedrag op iedere regel van de factuur, en alle in behandeling zijnde en eerder geboekte factuurregels, met het netto bedrag van de betreffende inkooporderregel. Dit noemen we prijstotalen vergelijken. 
@@ -74,33 +74,33 @@ Prijstotalen vergelijken kan gebaseerd zijn op een percentage, een bedrag, of ee
 Als een tolerantiepercentage van een inkoopprijstotaal is gespecificeerd, worden er vijf velden vergeleken, zoals in de volgende tabel wordt weergegeven. Omdat het tolerantiepercentage van het inkoopprijstotaal 10% is, vertegenwoordigt het afwijkingspercentage van het prijstotaal van 50% een matchingverschil.
 
 | Vereffeningsstatus | Nettobedrag van factuur | Verwacht nettobedrag | Afwijkingspercentage totaalinkoopsprijs (afwijkingsbedrag) | Afwijkingspercentage totaalinkoopsprijs (afwijkingspercentage) | Tolerantiepercentage totale inkoopprijs |
-|--------------|--------------------|---------------------|--------------------------------------------------|-----------------------------------------------------------------|----------------------------------------|
-| Geslaagd       | 105,00             | 100,00              | 5,00                                             | 5%                                                              | 10%                                    |
-| Mislukt       | 150,00             | 100,00              | 50,00                                            | 50%                                                             | 10%                                    |
+|--------------|--------------------|---------------------|--------------------------------------------------|--------------------------------|---------------------------|
+| Geslaagd       | 105,00             | 100,00              | 5,00                                             | 5%                             | 10%                 |
+| Mislukt       | 150,00             | 100,00              | 50,00                                            | 50%                            | 10%                     |
 
 Als er een tolerantiebedrag van een inkoopprijstotaal is gespecificeerd, worden er vijf velden vergeleken, zoals in de volgende tabel wordt weergegeven. Omdat het tolerantiebedrag van het inkoopprijstotaal 100 is, vertegenwoordigt het afwijkingsbedrag van het prijstotaal van 105 een matchingverschil.
 
 | Vereffeningsstatus | Nettobedrag van factuur | Verwacht nettobedrag | Afwijkingspercentage totaalinkoopsprijs (afwijkingsbedrag) | Afwijking van totaalinkoopsprijs, uitgedrukt in valuta voor boekhouding (afwijkingsbedrag) | Tolerantie totale inkoopprijs |
-|--------------|--------------------|---------------------|--------------------------------------------------|-------------------------------------------------------------------------|--------------------------------|
-| Geslaagd       | 150,00             | 100,00              | 50,00                                            | 50,00                                                                   | 100,00                         |
-| Mislukt       | 205,00             | 100,00              | 105,00                                           | 105,00                                                                  | 100,00                         |
+|--------------|--------------------|---------------------|-----------------------------------------------|-------------------------------|--------------------------------|
+| Geslaagd       | 150,00             | 100,00              | 50,00                                            | 50,00                    | 100,00                         |
+| Mislukt       | 205,00             | 100,00              | 105,00                                           | 105,00                  | 100,00                         |
 
 Als prijstotalen vergelijken is ingesteld met een percentagetolerantie en een tolerantiebedrag, ook wel 'een bedrag dat niet mag worden overschreden' genoemd, wordt er met beide rekening gehouden bij het bepalen of een regel een matchingverschil heeft. Als het percentage of het bedrag de tolerantie overschrijdt, zoals in de regels 150 en 205 in de volgende tabel wordt weergegeven, heeft de regel een matchingverschil.
 
 | Vereffeningsstatus | Nettobedrag van factuur | Verwacht nettobedrag | Afwijkingspercentage totaalinkoopsprijs (afwijkingspercentage) | Tolerantiepercentage totale inkoopprijs | Afwijking van totaalinkoopsprijs, uitgedrukt in valuta voor boekhouding (afwijkingsbedrag) | Tolerantie totale inkoopprijs |
-|--------------|--------------------|---------------------|-----------------------------------------------------------------|----------------------------------------|-------------------------------------------------------------------------|--------------------------------|
-| Geslaagd       | 105,00             | 100,00              | 5%                                                              | 10%                                    | 5,00                                                                    | 100,00                         |
-| Mislukt       | 150,00             | 100,00              | 50%                                                             | 10%                                    | 50,00                                                                   | 100,00                         |
-| Mislukt       | 205,00             | 100,00              | 105%                                                            | 10%                                    | 105,00                                                                  | 100,00                         |
+|--------------|--------------------|---------------------|-----------------------------|------------------|----------------------------------|--------------------------------|
+| Geslaagd       | 105,00             | 100,00              | 5%                     | 10%                         | 5,00           | 100,00                         |
+| Mislukt       | 150,00             | 100,00              | 50%                   | 10%                     | 50,00            | 100,00                         |
+| Mislukt       | 205,00             | 100,00              | 105%                 | 10%                      | 105,00                                  | 100,00                         |
 
-Op twee manieren vergelijken wordt geregeld voor de rechtspersoon in het veld Regelovereenstemmingsbeleid op de pagina Parameters van module Leveranciers. Afhankelijk van de selectie in het veld Overschrijven van overeenstemmingsbeleid toestaan kunt u vergelijken op twee manieren selecteren voor een bepaald leveranciersartikel, of een combinatie van artikel en leverancier op de pagina Overeenstemmingbeleid en voor een bepaalde inkooporder op de pagina Inkooporder.
+Op twee manieren vergelijken wordt geregeld voor de rechtspersoon in het veld **Regelovereenstemmingsbeleid** op de pagina **Parameters van module Leveranciers**. Afhankelijk van de selectie in het veld **Overschrijven van overeenstemmingsbeleid toestaan** kunt u vergelijken op twee manieren selecteren voor een bepaald leveranciersartikel, of een combinatie van artikel en leverancier op de pagina **Overeenstemmingbeleid** en voor een bepaalde inkooporder op de pagina **Inkooporder**.
 
-Prijstotalen vergelijken wordt geregeld voor de rechtspersoon in het veld Totaalprijzen vereffenen op de pagina Parameters van module Leveranciers. Het tolerantiepercentage en tolerantiebedrag van het inkoopprijstotaal (bedrag dat niet mag worden overschreden) worden ook op die pagina gespecificeerd.
+Prijstotalen vergelijken wordt geregeld voor de rechtspersoon in het veld **Totaalprijzen vereffenen** op de pagina **Parameters van module Leveranciers**. Het tolerantiepercentage en tolerantiebedrag van het inkoopprijstotaal (bedrag dat niet mag worden overschreden) worden ook op die pagina gespecificeerd.
 
 ## <a name="two-way-net-unit-price-matching"></a>Prijsmatching van netto eenheid op twee manieren
 Gebruik vergelijken op twee manieren om ervoor te zorgen dat het verschil tussen de prijsgegevens op de inkooporder en de factuur acceptabel is. U kunt prijsgegevens vergelijken voor de netto prijs per eenheid van ieder artikel op de factuur. Dit noemen we de netto prijs per eenheid vergelijken. 
 
-Er worden negen regelbedragen vergeleken op de pagina Vergelijkingsgegevens factuurtotalen, zoals getoond in de volgende tabel. Als de toegestane prijstolerantie voor prijsmatching van de netto eenheid 10% is, wordt de afwijking van 22,61% voor de prijs per eenheid beschouwd als een matchingverschil.
+Er worden negen regelbedragen vergeleken op de pagina **Vergelijkingsgegevens factuurtotalen**, zoals getoond in de volgende tabel. Als de toegestane prijstolerantie voor prijsmatching van de netto eenheid 10% is, wordt de afwijking van 22,61% voor de prijs per eenheid beschouwd als een matchingverschil.
 
 | Regelveld                    | Factuurwaarde | Waarde inkooporder | Afwijkingspercentage | Vereffeningsstatus |
 |-------------------------------|---------------|----------------------|---------------------|--------------|
@@ -114,9 +114,9 @@ Er worden negen regelbedragen vergeleken op de pagina Vergelijkingsgegevens fact
 | Nettobedrag                    | 271,60        | 221,52               | 22,61%              | Mislukt       |
 | Netto eenheidsprijs                | 67,9000       | 55,3800              | 22,61%              | Mislukt       |
 
-Op twee manieren vergelijken wordt geregeld voor de rechtspersoon in het veld Regelovereenstemmingsbeleid op de pagina Parameters van module Leveranciers. Afhankelijk van de selectie in het veld Overschrijven van overeenstemmingsbeleid toestaan kunt u vergelijken op twee manieren selecteren voor een bepaald leveranciersartikel, of een combinatie van artikel en leverancier op de pagina Overeenstemmingbeleid en voor een bepaalde inkooporder op de pagina Inkooporder. 
+Op twee manieren vergelijken wordt geregeld voor de rechtspersoon in het veld **Regelovereenstemmingsbeleid** op de pagina **Parameters van module Leveranciers**. Afhankelijk van de selectie in het veld **Overschrijven van overeenstemmingsbeleid toestaan** kunt u vergelijken op twee manieren selecteren voor een bepaald leveranciersartikel, of een combinatie van artikel en leverancier op de pagina **Overeenstemmingbeleid** en voor een bepaalde inkooporder op de pagina **Inkooporder**. 
 
-Netto-eenheidsprijzen vergelijken wordt geregeld voor de rechtspersoon in het veld Factuurvereffeningsvalidatie inschakelen op de pagina Parameters van module Leveranciers. De tolerantiepercentages voor de netto prijs per eenheid kan worden geconfigureerd voor artikelen, artikelgroepen, leveranciersgroepen, combinaties van artikel en leverancier, of rechtspersoon door de pagina Prijstoleranties te gebruiken.
+Netto-eenheidsprijzen vergelijken wordt geregeld voor de rechtspersoon in het veld **Factuurvereffeningsvalidatie inschakelen** op de pagina **Parameters van module Leveranciers**. De tolerantiepercentages voor de netto prijs per eenheid kan worden geconfigureerd voor artikelen, artikelgroepen, leveranciersgroepen, combinaties van artikel en leverancier, of rechtspersoon door de pagina **Prijstoleranties** te gebruiken.
 
 ## <a name="two-way-price-totals-matching-and-net-unit-price-matching"></a>Vergelijken van prijstotalen op twee manieren en prijsmatching van netto eenheid
 U kunt vergelijken van prijstotalen en prijsmatching van netto eenheid samen gebruiken. Dit voorbeeld gaat uit van de volgende configuratie:
@@ -162,10 +162,10 @@ Dezelfde regelbedragen worden vergeleken op de pagina Factuurvergelijkingsgegeve
 | Gefactureerde hoeveelheid               | 4,00          |              |
 | Totaal gematchte productontvangstbonnen | 0,00          | Mislukt       |
 
-Op drie manieren vergelijken wordt geregeld voor de rechtspersoon in het veld Regelovereenstemmingsbeleid op de pagina Parameters van module Leveranciers. Afhankelijk van de selectie in het veld Overschrijven van overeenstemmingsbeleid toestaan kunt u vergelijken op drie manieren selecteren voor een bepaald leveranciersartikel, of een combinatie van artikel en leverancier op de pagina Overeenstemmingbeleid en voor een bepaalde inkooporder op de pagina Inkooporder.
+Op drie manieren vergelijken wordt geregeld voor de rechtspersoon in het veld **Regelovereenstemmingsbeleid** op de pagina **Parameters van module Leveranciers**. Afhankelijk van de selectie in het veld **Overschrijven van overeenstemmingsbeleid toestaan** kunt u vergelijken op drie manieren selecteren voor een bepaald leveranciersartikel, of een combinatie van artikel en leverancier op de pagina **Overeenstemmingbeleid** en voor een bepaalde inkooporder op de pagina **Inkooporder**.
 
 ## <a name="charges-matching"></a>Vereffening van toeslagen
-U kunt het vergelijken van toeslagen gebruiken om ervoor te zorgen dat bedragen van toeslagen niet afwijken van verwachte bedragen met meer dan een acceptabel verschil. De totale bedragen voor iedere toeslagcode met betrekking tot de factuur en inkooporder worden vergeleken op de pagina Toeslagwaarden vergelijken - factuur: pagina, zoals in de volgende tabel wordt weergegeven. Als de toegestane tolerantie voor de toeslagcode 25% is, wordt het afwijkingspercentage van 99,999,999,999.99% voor de Licentie toeslagcode als matchingverschil beschouwd.
+U kunt het vergelijken van toeslagen gebruiken om ervoor te zorgen dat bedragen van toeslagen niet afwijken van verwachte bedragen met meer dan een acceptabel verschil. De totale bedragen voor iedere toeslagcode met betrekking tot de factuur en inkooporder worden vergeleken op de pagina **Toeslagwaarden vergelijken - factuur:** pagina, zoals in de volgende tabel wordt weergegeven. Als de toegestane tolerantie voor de toeslagcode 25% is, wordt het afwijkingspercentage van 99,999,999,999.99% voor de **Licentie toeslagcode** als matchingverschil beschouwd.
 
 > [!NOTE] 
 > Een afwijkingspercentage van 99,999,999,999.99% betekent dat het verwachte bedrag op de inkooporder nul is en het werkelijke bedrag op de factuur een positieve waarde is. 
@@ -176,10 +176,10 @@ U kunt het vergelijken van toeslagen gebruiken om ervoor te zorgen dat bedragen 
 | Geslaagd               | Vracht              | 200                           | 200                             | 0               | 0%                  | 25%                  |
 | Mislukt               | Spoed             | 4                             | 2                               | 2               | 100%                | 25%                  |
 
-Toeslagen vergelijken wordt geregeld voor de rechtspersoon door de wisselknop Toeslagen vereffenen op de pagina Parameters van module Leveranciers. U kunt tolerantiepercentages van het verschil instellen voor toeslagen op de pagina Toleranties voor toeslagen.
+Toeslagen vergelijken wordt geregeld voor de rechtspersoon door de wisselknop **Toeslagen vereffenen** op de pagina **Parameters van module Leveranciers**. U kunt tolerantiepercentages van het verschil instellen voor toeslagen op de pagina **Toleranties voor toeslagen**.
 
 > [!NOTE]
-> Vergelijken van toeslagen wordt uitsluitend uitgevoerd op toeslagcodes waarvoor de wisselknop Inkooporder en factuurwaarden vergelijken op de pagina Toeslagencode is geselecteerd.
+> Vergelijken van toeslagen wordt uitsluitend uitgevoerd op toeslagcodes waarvoor de wisselknop **Inkooporder en factuurwaarden vergelijken** op de pagina **Toeslagencode** is geselecteerd.
 
 ## <a name="related-functionality"></a>Gerelateerde functionaliteit
 Leverancierfacturen zijn vaak gebaseerd op productontvangstbonnen die staan voor werkelijke zendingen, in plaats van op inkooporders. Soms komen de gefactureerde bedragen niet overeen met de inkooporderbedragen, en soms komen de verzonden hoeveelheden niet overeen met de gefactureerde hoeveelheden. U kunt deze gegevens op de volgende manieren helpen beheren:

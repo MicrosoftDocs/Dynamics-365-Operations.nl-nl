@@ -1,22 +1,22 @@
 ---
-title: Overzicht van fiscale integratie voor Commerce-kanalen
+title: Overzicht fiscale integratie voor Commerce-afzetkanalen
 description: Dit onderwerp biedt een overzicht van de fiscale integratiefuncties die beschikbaar zijn in Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 01/31/2022
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 82913eaca1d56a5b0609480d8825717278eca132
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 46e0afd5a8cb692da56a7d5f261ca30d9b3aaa80
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077187"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388308"
 ---
-# <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Overzicht van fiscale integratie voor Commerce-kanalen
+# <a name="fiscal-integration-overview-for-commerce-channels"></a>Overzicht fiscale integratie voor Commerce-afzetkanalen
 
 [!include [banner](../includes/banner.md)]
 [!include[banner](../includes/preview-banner.md)]
@@ -46,6 +46,9 @@ Een voorbeeld van een fiscale integratie kan de extensies Commerce runtime (CRT)
 - **Configuratie van fiscale connector**: deze configuratie bepaalt de fysieke communicatie met het specifieke fiscale apparaat of de specifieke fiscale service.
 
 Een fiscaal registratieproces voor een bepaalde POS-kassa wordt gedefinieerd door een bijbehorende instelling in het POS-functionaliteitsprofiel. Zie voor meer informatie over het configureren van een fiscaal registratieproces, het uploaden van configuraties voor de fiscale documentprovider en fiscale connector en het wijzigen van configuratieparameters [Een fiscaal registratieproces instellen](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
+
+> [!NOTE]
+> Als u apparaten nodig hebt voor niet-fiscale bewerkingen, zoals zoeken naar productcatalogi, zoeken naar klanten of het maken van concepttransacties, kunt u deze als kassa's selecteren met beperkte fiscale registratie. Zie [Kassa's met fiscale registratiebeperkingen instellen](setting-up-fiscal-integration-for-retail-channel.md#set-up-registers-with-fiscal-registration-restrictions) voor meer informatie.
 
 De volgende typische fiscale registratiestroom begint met een gebeurtenis in het POS (bijvoorbeeld de voltooien van een verkooptransactie) en implementeert een vooraf gedefinieerde stappenvolgorde die andere Commerce-onderdelen betreft (zoals CRT en Hardwarestation).
 

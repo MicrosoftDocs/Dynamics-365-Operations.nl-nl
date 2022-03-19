@@ -2,7 +2,7 @@
 title: Retouren maken in POS
 description: In dit onderwerp wordt beschreven hoe u retouren voor contante transacties of klantorders start in de toepassing Microsoft Dynamics 365 Commerce POS (Point of Sale).
 author: hhainesms
-ms.date: 06/01/2021
+ms.date: 02/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 4a0d5efe043d72f936a15ec9a8ead9987fdb22b891a5a3ae94f95aa5ea7a6e67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3250f702f033fb8b00763542fd8342c089b47b2e
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715525"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349686"
 ---
 # <a name="create-returns-in-pos"></a>Retouren maken in POS
 
@@ -96,6 +96,13 @@ Als de informatie aan de kanaalzijde om de een of andere reden niet is bijgewerk
 
 > [!NOTE]
 > Wanneer de functie **Uniforme retourverwerkingservaring in POS** is ingeschakeld, zijn nieuwe optionele functies beschikbaar die ondersteuning bieden voor de validatie van geserialiseerde productretouren. Zie [Producten met serienummers retourneren in POS (Point of Sale)](POS-serial-returns.md) voor meer informatie.
+
+## <a name="version-details"></a>Versiegegevens
+
+De volgende lijst bevat de minimale versievereisten voor de verschillende componenten.
+- Commerce Headquarters: versie 10.0.20
+- Commerce Scale Unit (CSU): versie 9.30
+- Point of sale (POS): versie 9.30
 
 ## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>De correcte belastingberekening voor retouren met gedeeltelijke hoeveelheid inschakelen
 

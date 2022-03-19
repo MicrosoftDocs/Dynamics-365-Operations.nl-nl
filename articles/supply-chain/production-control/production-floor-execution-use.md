@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 086d05b4080015f6185a083ca20963539f76619f
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: a677eb71f97a953c625a1f667b055e5b7696fbe6
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075014"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384414"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hoe werknemers de uitvoeringsinterface voor de werkvloer gebruiken
 
@@ -71,6 +71,18 @@ De lijst met actieve taken heeft de volgende kolommen:
 - **Voltooid**: deze kolom bevat de hoeveelheid die al is voltooid voor een taak.
 - **Buiten gebruik gesteld**: deze kolom bevat de hoeveelheid die al buiten gebruik is gesteld voor een taak.
 - **Resterend**: in deze kolom wordt de hoeveelheid weergegeven die nog moet worden voltooid voor een taak.
+
+## <a name="my-jobs-tab"></a>Tabblad Mijn taken
+
+Op het tabblad **Mijn taken** kunnen werknemers eenvoudig alle niet-gestarte en onvoltooide taken bekijken die specifiek aan hen zijn toegewezen. Dit is handig in bedrijven waarin taken soms of altijd aan bepaalde werknemers (Human Resources) worden toegewezen in plaats van aan andere typen resources (zoals machines). 
+
+Het planningssysteem wijst elke productie taakautomatisch toe aan een specifieke resourcerecord en elke resourcerecord heeft een type (zoals machine of persoon). Wanneer u een werknemer in dienst stelt als productiewerker, kunt u het werknemersaccount koppelen aan een unieke registratie voor Human Resources. 
+
+Het tabblad **Mijn taken** bevat alle niet-gestarte en onvoltooide taken die zijn toegewezen aan de human resource-record van de aangemelde werknemer, als een werknemer is aangemeld. Taken die zijn toegewezen aan een machine of een ander type resource worden nooit vermeld, zelfs als de aangemelde werknemer aan deze taken is begonnen.
+
+Als u alle taken wilt weergeven die zijn gestart door de aangemelde werknemer, ongeacht het type resource dat aan elke taak is toegewezen, gebruikt u het tabblad **Actieve taken**. Gebruik het tabblad **Alle taken** als u alle onvoltooide taken wilt weergeven die overeenkomen met de configuratie van het lokale taakfilter, ongeacht de werknemer of de beginstatus.
+
+![Tabblad Mijn taken.](media/pfei-my-jobs-tab.png "Tabblad Mijn taken")
 
 ## <a name="my-machine-tab"></a>Tabblad Mijn machine
 
@@ -133,6 +145,13 @@ Als een batchorder is gemaakt op basis van een formuleversie waarbij de optie **
 
 In dit geval kan de werknemer het co-product en de hoeveelheid opgeven waarover deze wil rapporteren door **Co-productvariaties** te selecteren in het dialoogvenster voor voortgangsrapportage. De werknemer kan vervolgens kiezen uit alle vrijgegeven producten die als co-producten zijn gedefinieerd.
 
+### <a name="reporting-catch-weight-items"></a>Catch weight-artikelen rapporteren
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+Werknemers kunnen de uitvoeringsinterface voor de werkvloer gebruiken om de voortgang van batchorders die zijn gemaakt voor catch weight-artikelen te rapporteren. Batchorders worden gemaakt op basis van formules die u kunt definiëren zodat ze catch weight-artikelen als formule-artikelen, co- en bijproducten als uitvoer hebben. U kunt ook formuleregels definiëren voor ingrediënten die zijn gedefinieerd voor catch weight. Catch weight-artikelen gebruiken twee maateenheden om de voorraad te volgen: de hoeveelheid catch weight en de voorraadhoeveelheid. In de voedselindustrie kan verplakt vlees bijvoorbeeld worden gedefinieerd als catch weight-artikel, waarbij de catch weight-hoeveelheid wordt gebruikt om het aantal dozen bij te houden en de voorraadhoeveelheid wordt gebruikt om het gewicht van de dozen bij te houden.
+
 ## <a name="reporting-scrap"></a>Uitval rapporteren
 
 Wanneer werknemers een taak voltooien of gedeeltelijk voltooien, kunnen ze uitval rapporteren door een taak te selecteren op het tabblad **Actieve taken** en vervolgens **Uitval rapporteren** te selecteren. Vervolgens voert de werknemer in het dialoogvenster **Uitval rapporteren** de uitvalhoeveelheid in met het numerieke toetsenbord. De werknemer selecteert ook een reden (*Geen*, *Machine*, *Operator* of *Materiaal*).
@@ -187,6 +206,13 @@ De volgende acties kunnen worden uitgevoerd:
 
 De knop **Materiaal aanpassen** kan worden geconfigureerd zodat deze op de werkbalk aan de rechterkant wordt weergegeven. (Zie voor meer informatie [De interface voor de uitvoering van de productievloer ontwerpen](production-floor-execution-tabs.md).) Een medewerker kan **Materiaal aanpassen** selecteren voor een productietaak die in uitvoering is. In dit geval wordt het dialoogvenster **Materiaal aanpassen** weergegeven, waarin de medewerker de gewenste wijzigingen kan aanbrengen. Wanneer het dialoogvenster wordt geopend, wordt een orderverzamellijst voor productie met regels voor de aangepaste hoeveelheden gemaakt voor de productieorder. Als de medewerker **Nu boeken** selecteert, wordt de correctie bevestigd en wordt de orderverzamellijst geboekt. Als de medewerker **Annuleren** selecteert, wordt de orderverzamellijst verwijderd en wordt geen correctie aangebracht.
 
+### <a name="adjust-material-consumption-for-catch-weight-items"></a>Materiaalverbruik voor artikelen met een catch weight aanpassen
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+Werknemers kunnen het materiaalverbruik voor artikelen met een catch weight aanpassen. Deze functionaliteit wordt gebruikt in gevallen waarin de werkelijke hoeveelheid van een catch weight-materiaal dat door een productietaak is verbruikt, meer of minder was dan de geplande hoeveelheid. Daarom moet u deze aanpassen om de voorraadniveaus actueel te houden. Wanneer een werknemer het verbruik van een catch weight-artikel per product aanpast, kunnen ze zowel de catch weight-hoeveelheid als de voorraadhoeveelheid aanpassen. Als een productietaak bijvoorbeeld is gepland voor het verbruik van vijf dozen met een geraamd gewicht van 2 kilogram per doos, kan de werknemer zowel het aantal dozen dat moet worden verbruikt als het gewicht van de dozen aanpassen. Het systeem valideert of het opgegeven gewicht van de dozen binnen de gedefinieerde minimum- en maximumdrempel valt die voor het vrijgegeven product is gedefinieerd.
+
 ### <a name="reserve-materials"></a>Materialen reserveren
 
 In het dialoogvenster **Materiaal aanpassen** kan een medewerker materiaalreserveringen maken en aanpassen door **Materiaal reserveren** te selecteren. In het dialoogvenster **Materiaal reserveren** dat verschijnt, wordt de fysiek beschikbare voorraad voor het artikel weergegeven voor elke opslag- en traceringsdimensie.
@@ -197,6 +223,8 @@ Zie voor meer informatie over het instellen van de productie-invoerlocatie het v
 
 > [!NOTE]
 > Reserveringen die een medewerker maakt in het dialoogvenster **Materiaal reserveren** blijven behouden wanneer de medewerker **Annuleren** selecteert in het dialoogvenster **Voortgang rapporteren** of **Uitval rapporteren**.
+>
+> Het is niet mogelijk reserveringen voor artikelen met een catch weight aan te passen.
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Een taak voltooien en een nieuwe taak starten
 

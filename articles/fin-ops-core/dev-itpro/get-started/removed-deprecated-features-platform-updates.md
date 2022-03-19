@@ -1,8 +1,8 @@
 ---
 title: Verwijderde of afgeschafte Platform-functies
-description: In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van Finance and Operations-apps.
+description: In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van apps voor financiën en bedrijfsactiviteiten.
 author: sericks007
-ms.date: 12/16/2021
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,25 +12,25 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 4ac68cfdd8f8b2c65993fbd91587e52cce56a437
-ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.openlocfilehash: 6b4c514d34e4afbaac4afabed6865496747c0411
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7927474"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384715"
 ---
-# <a name="removed-or-deprecated-platform-features"></a>Verwijderde of afgeschafte Platform-functies
+# <a name="removed-or-deprecated-platform-features"></a>Verwijderde of afgeschafte platform-functies
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van Finance and Operations-apps.
+In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van apps voor financiën en bedrijfsactiviteiten.
 
 - Een *verwijderde* functie is niet langer beschikbaar in het product.
 - Een *afgeschafte* functie wordt niet meer actief ontwikkeld en kan in een toekomstige update worden verwijderd.
 
 Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning rekening te houden met deze verwijderingen en afschaffingen. 
 
-Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
+Gedetailleerde informatie over objecten in apps voor financiële en bedrijfsactiviteiten is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van apps voor financiële en bedrijfsactiviteiten.
 
 ## <a name="feature-removal-effective-october-2021"></a>Functie is verwijderd in oktober 2021
 
@@ -67,7 +67,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Implementatieoptie**              | Alle |
 | **Status**                         | Afgeschaft  |
 
-## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.23 van Finance and Operations-apps
+## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Platformupdates voor versie 10.0.23 van apps voor financiën en bedrijfsactiviteiten
 
 ### <a name="ondbsynchronize-event"></a>Gebeurtenis OnDBSynchronize
 
@@ -90,7 +90,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Implementatieoptie**              | Alle |
 | **Status**                         | Afgeschaft. De geplande verwijderingsdatum is in april 2023. |
 
-## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.21 van Finance and Operations-apps
+## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Platformupdates voor versie 10.0.21 van apps voor financiën en bedrijfsactiviteiten
 
 ### <a name="skype-for-business-online-support"></a>Online ondersteuning voor Skype voor Bedrijven
 
@@ -145,12 +145,12 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Deze functie is verwijderd om de overhead van het bedienen, controleren en onderhouden van het indexbeheer door klanten te verminderen. |
 | **Vervangen door een andere functie?**   | In de toekomst wordt het indexonderhoud uitgevoerd door Microsoft-services. Dit proces vindt doorlopend plaats zonder dat dit van invloed is op de werkbelasting van de gebruiker. |
-| **Betrokken productgebieden**         | Finance and Operations-apps|
+| **Betrokken productgebieden**         | Apps voor financiële en bedrijfsactiviteiten|
 | **Implementatieoptie**              | Cloudimplementatie: heeft gevolgen voor door Microsoft beheerde productieomgevingen en Tier 2 tot en met Tier 5-sandboxomgevingen. |
 | **Status**                         | Deze functie wordt verwijderd. |
 
 
-## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.17 van Finance and Operations-apps
+## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Platformupdates voor versie 10.0.17 van apps voor financiën en bedrijfsactiviteiten
 
 
 ### <a name="visual-studio-2015"></a>Visual Studio2015
@@ -177,24 +177,25 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | De metagegevensartefacten die aan Dynamics AX 2012 Enterprise Portal (EP) zijn gekoppeld, zijn afgeschaft, omdat EP nooit in de Finance and Operations-apps werd ondersteund. |
-| **Vervangen door een andere functie?**   | Nee |
+| **Reden voor afschaffing/verwijdering** | De metagegevensartefacten die aan Dynamics AX 2012 Enterprise Portal (EP) zijn gekoppeld, zijn afgeschaft, omdat EP nooit in de apps voor financiën en bedrijfsactiviteiten werd ondersteund. |
+| **Vervangen door een andere functie?**   | Nr. |
 | **Betrokken productgebieden**         | Webclient |
 | **Implementatieoptie**              | Alles |
 | **Status**                         | Afgeschaft: alle EP-code moet worden verwijderd in de versie van oktober 2021. |
 
-## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.15 van Finance and Operations-apps
+## <a name="deprecation-effective-december-2020"></a>Afschaffing met ingang van december 2020
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Internet Explorer 11-ondersteuning voor Dynamics 365 is afgeschaft
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Met ingang van december 2020 wordt Microsoft Internet Explorer 11-ondersteuning voor alle Dynamics 365-producten afgeschaft en wordt Internet Explorer 11 na augustus 2021 niet meer ondersteund.<br><br>Dit heeft invloed op klanten die Dynamics 365-producten gebruiken die zijn ontworpen om via een Internet Explorer 11-interface te worden gebruikt. Na augustus 2021 wordt Internet Explorer 11 niet ondersteund voor dergelijke Dynamics 365-producten. |
+| **Reden voor afschaffing/verwijdering** | Met ingang van december 2020 wordt Microsoft Internet Explorer 11-ondersteuning voor alle Dynamics 365-producten en Dynamics Lifecycle Services (LCS) afgeschaft en wordt Internet Explorer 11 na augustus 2021 niet meer ondersteund.<br><br>Dit heeft invloed op klanten die Dynamics 365-producten en LCS gebruiken die zijn ontworpen om via een Internet Explorer 11-interface te worden gebruikt. Na augustus 2021 wordt Internet Explorer 11 niet ondersteund voor dergelijke Dynamics 365-producten en LCS. |
 | **Vervangen door een andere functie?**   | Wij raden klanten aan om overstappen op Microsoft Edge.|
-| **Betrokken productgebieden**         | Alle Dynamics 365-producten |
-| **Implementatieoptie**              | Alles|
+| **Betrokken productgebieden**         | Alle Dynamics 365-producten en LCS |
+| **Implementatieoptie**              | Alle|
 | **Status**                         | Afgeschaft: Internet Explorer 11 wordt na augustus 2021 niet ondersteund.|
 
+## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Platformupdates voor versie 10.0.15 van apps voor financiën en bedrijfsactiviteiten
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Visual Studio-invoegtoepassing voor het toepassen van hotfixes voor metagegevens
 
@@ -207,7 +208,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Status**                         | Met versie 10.0.15 wordt de invoegtoepassing niet meer in de Visual Studio-hulpprogramma's opgenomen. |
 
 
-## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.14 van Finance and Operations-apps
+## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Platformupdates voor versie 10.0.14 van apps voor financiën en bedrijfsactiviteiten
 
 ### <a name="online-users-page"></a>Online gebruikers (pagina) 
 
@@ -220,7 +221,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Status**                         | In oktober 2021 wordt dit formulier verwijderd.   |
 
 
-## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.13 van Finance and Operations-apps
+## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Platformupdates voor versie 10.0.13 van apps voor financiën en bedrijfsactiviteiten
 
 
 ### <a name="custom-code-defined-in-ssrs-report-properties"></a>Aangepaste code gedefinieerd in SSRS-rapporteigenschappen 
@@ -264,19 +265,19 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Status**                         | In versie 10.0.13/platformupdate 37 is de functie Opgeslagen weergaven algemeen beschikbaar en kunnen klanten deze functie desgewenst inschakelen. De functie Opgeslagen weergaven wordt verplicht in de release van oktober 2021. |
 
 
-## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.12 van Finance and Operations-apps
+## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Platformupdates voor versie 10.0.12 van apps voor financiën en bedrijfsactiviteiten
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Formulieruitbreidingen voor raster- of groepsbesturingselementen met ongeldige veldverwijzingen
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | De gegevensgroepeigenschap voor raster- of groepsbesturingselementen wordt gebruikt om automatisch alle velden van een veldgroep weer te geven. Een raster- of groepsbesturingselement dat door een uitbreiding wordt toegevoegd, kan velden bevatten die niet meer in de veldgroep zijn gedefinieerd of er kunnen velden ontbreken die zijn gedefinieerd voor de veldgroep. Dit kan inconsistent gedrag veroorzaken tijdens runtime. Platformupdates voor versie 10.0.12 van Finance and Operations-apps categoriseren dit probleem nu als een *waarschuwing*. U kunt dit probleem oplossen door de formulierextensie te openen en op te slaan.
+| **Reden voor afschaffing/verwijdering** | De gegevensgroepeigenschap voor raster- of groepsbesturingselementen wordt gebruikt om automatisch alle velden van een veldgroep weer te geven. Een raster- of groepsbesturingselement dat door een uitbreiding wordt toegevoegd, kan velden bevatten die niet meer in de veldgroep zijn gedefinieerd of er kunnen velden ontbreken die zijn gedefinieerd voor de veldgroep. Dit kan inconsistent gedrag veroorzaken tijdens runtime. Platformupdates voor versie 10.0.12 van apps voor financiën en bedrijfsactiviteiten categoriseren dit probleem nu als een *waarschuwing*. U kunt dit probleem oplossen door de formulierextensie te openen en op te slaan.
 | **Vervangen door een andere functie?**   | Deze compilerwaarschuwing wordt vervangen door een compilerfout in een toekomstige update. |
 | **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's |
 | **Implementatieoptie**              | Alle |
-| **Status**                         | Een compilerwaarschuwing wordt geïntroduceerd in platformupdates voor versie 10.0.12 van Finance and Operations-apps. |
+| **Status**                         | Een compilerwaarschuwing wordt geïntroduceerd in platformupdates voor versie 10.0.12 van apps voor financiën en bedrijfsactiviteiten. |
 
-## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.11 van Finance and Operations-apps
+## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Platformupdates voor versie 10.0.11 van apps voor financiën en bedrijfsactiviteiten
 
 ### <a name="explicit-safe-lists-for-self-service-environments"></a>Expliciete veilige lijsten voor selfservice-omgevingen
 
@@ -302,11 +303,11 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Veldgroepen in metagegevensdefinities van tabellen kunnen veldverwijzingen bevatten die niet geldig zijn. Als deze veldgroepen worden geïmplementeerd, kan dit runtime-fouten veroorzaken in Financial Reporting en Microsoft SQL Server Reporting Services (SSRS). Platform update 23 heeft een *compilerwaarschuwing* geïntroduceerd waardoor dit metagegevensprobleem wordt opgelost. Platform updates voor versie 10.0.11 van Finance and Operations-apps categoriseren dit probleem als een *compilerfout*.<p>Volg deze stappen om dit probleem op te lossen.</p><ol><li>Verwijder de ongeldige veldverwijzing uit de groepsdefinitie van het tabelveld.</li><li>Compileer opnieuw.</li><li>Controleer of er fouten zijn opgelost.</li></ol> |
+| **Reden voor afschaffing/verwijdering** | Veldgroepen in metagegevensdefinities van tabellen kunnen veldverwijzingen bevatten die niet geldig zijn. Als deze veldgroepen worden geïmplementeerd, kan dit runtime-fouten veroorzaken in Financial Reporting en Microsoft SQL Server Reporting Services (SSRS). Platform update 23 heeft een *compilerwaarschuwing* geïntroduceerd waardoor dit metagegevensprobleem wordt opgelost. Platformupdates voor versie 10.0.11 van apps voor financiën en bedrijfsactiviteiten categoriseren dit probleem nu als een *fout*.<p>Volg deze stappen om dit probleem op te lossen.</p><ol><li>Verwijder de ongeldige veldverwijzing uit de groepsdefinitie van het tabelveld.</li><li>Compileer opnieuw.</li><li>Controleer of er fouten zijn opgelost.</li></ol> |
 | **Vervangen door een andere functie?**   | Deze compilerfout vervangt permanent de compilerwaarschuwing.  |
 | **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's |
 | **Implementatieoptie**              | Alle |
-| **Status**                         | Afgeschaft: de compilerwaarschuwing is een compilatiefout in platformupdates voor versie 10.0.11 van Finance and Operations-apps. |
+| **Status**                         | Afgeschaft: de compilerwaarschuwing is een compilatiefout in platformupdates voor versie 10.0.11 van apps voor financiën en bedrijfsactiviteiten. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>ISV-licenties die zijn gemaakt met het SHA1-hashalgoritme
 

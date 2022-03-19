@@ -2,7 +2,7 @@
 title: Veelgestelde vragen workflow
 description: In dit onderwerp worden antwoorden op veelgestelde vragen over het workflowsysteem gegeven.
 author: ChrisGarty
-ms.date: 09/21/2020
+ms.date: 03/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe11942ca41dd8c0ca23d94006569c50a4501a52
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 0e9e2000684081035f35ea55e1c773a4f6976d74
+ms.sourcegitcommit: 967b93bb42413b5b38b817f924015468312a93a0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065575"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8370875"
 ---
 # <a name="workflow-faq"></a>Veelgestelde vragen over werkstromen
 
@@ -34,7 +34,7 @@ Wanneer een werkitem wordt afgewezen, wordt dat werkitem als afgewezen voltooid.
 Elke melding is voor een ander werkitem, maar doordat de meldingen op elkaar lijken kan er verwarring ontstaan. We proberen dit in een toekomstige versie te verbeteren.
 
 ## <a name="why-are-my-workflow-exports-failing"></a>Waarom mislukt het exporteren van mijn werkstromen?
-Er geldt momenteel een beperking in de functie voor het exporteren van werkstromen waardoor namen van werkstromen niet langer kunnen zijn dan 48 tekens. Als u een naam gebruikt die langer is dan 48 tekens, kan het foutbericht 'Server kon de aanvraag niet verifiëren' worden weergegeven en/of kan worden voorkomen dat een bestand wordt geëxporteerd zonder bestandstype. Het volgende blogbericht bevat nadere details: [Problemen bij het exporteren van werkstromen oplossen](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting).
+Er geldt momenteel een beperking in de functie voor het exporteren van werkstromen waardoor namen van werkstromen niet langer kunnen zijn dan 48 tekens. Als u een naam gebruikt die langer is dan 48 tekens, kan het foutbericht 'Server kon de aanvraag niet verifiëren' worden weergegeven en/of kan worden voorkomen dat een bestand wordt geëxporteerd zonder bestandstype. Het volgende blogbericht bevat nadere details: [Problemen bij het exporteren van werkstromen oplossen](https://community.dynamics.com/365/financeandoperations/b/elandaxdynamicsaxupgradesanddevelopment/posts/workflow-export-troubleshooting).
 
 ## <a name="can-the-submitter-of-a-workflow-also-approve-the-workflow"></a>Kan de indiener van een workflow de workflow ook goedkeuren?
 Ja, een indiener van een workflow kan de workflow ook goedkeuren als deze op die manier is geconfigureerd. Als u dit gedrag wilt voorkomen, stelt u **Systeembeheer > Workflow > Workflowparameters > Algemeen > Fiatteur > Goedkeuring door indiener niet toestaan** in op **Ja**.

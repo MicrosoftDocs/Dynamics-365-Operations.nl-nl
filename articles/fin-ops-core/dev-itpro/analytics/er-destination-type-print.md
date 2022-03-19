@@ -2,7 +2,7 @@
 title: ER-bestemmingstype voor printer
 description: In dit onderwerp wordt uitgelegd hoe u een printerbestemming kunt configureren voor elke MAP- of BESTAND-component van een ER-indeling (Electronic Reporting).
 author: NickSelin
-ms.date: 02/24/2021
+ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 672b1d70607a32d30c703ce39573d7480462fec45739b6e1e49ef27166a50e2c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2513fc4f86519c71602089cd46e9757813b1a708
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712707"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388283"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Bestemming voor printers
 
@@ -43,7 +43,24 @@ Als u de bestemming **Printer** beschikbaar wilt maken in de huidige instantie v
 
 ### <a name="applicability"></a>Toepasbaarheid
 
-De bestemming **Printer** kan alleen worden geconfigureerd voor bestandsonderdelen die worden gebruikt voor het genereren van uitvoer in afdrukbare PDF-indeling (PDF Merger of PDF-bestandsindelingselementen) of Microsoft Office Excel/Word-indeling (Excel-bestand). Wanneer de uitvoer wordt gegenereerd in PDF-indeling, wordt deze naar een printer verzonden. Wanneer de uitvoer in Microsoft Office-indeling wordt gegenereerd, wordt deze automatisch geconverteerd naar de PDF-indeling en vervolgens naar een printer verzonden.
+#### <a name="pdf-printing"></a>PDF afdrukken
+
+In Finance-versie van vóór versie 10.0.18 kan de bestemming **Printer** kan alleen worden geconfigureerd voor bestandsonderdelen die worden gebruikt voor het genereren van uitvoer in afdrukbare PDF-indeling (**PDF Merger** of **PDF-bestandsindelingselementen**) of Microsoft Office Excel- en Word-indeling (**Excel-bestandsindelingselement**). Wanneer de uitvoer wordt gegenereerd in PDF-indeling, wordt deze naar een printer verzonden. Wanneer de uitvoer in Office-indeling wordt gegenereerd met het **Excel-bestandsindelingselement**, wordt deze automatisch geconverteerd naar de PDF-indeling en vervolgens naar een printer verzonden.
+
+Vanaf versie 10.0.18 kunt u echter de **printerbestemming** configureren voor het indelingselement **Algemeen bestand**. Dit indelingselement wordt meestal gebruikt om uitvoer te genereren in TXT- of XML-indeling. U kunt een ER-indeling met het element **Algemene bestandsindeling** configureren als het element voor de hoofdindeling en het indelingselement **Binaire inhoud** als het enige geneste element er onder. In dit geval produceert het element **Algemene bestandsindeling** uitvoer in de indeling die is opgegeven door de binding die u configureert voor het element voor de **binaire inhoudsindeling**. U kunt deze binding bijvoorbeeld configureren om dit element [in te vullen](tasks/er-document-management-files-5.md#modify-the-format-to-populate-attachments-into-generating-messages-in-binary-format) met de inhoud van een [documentbeheerbijlage](../../fin-ops/organization-administration/configure-document-management.md) in PDF- of Office-indeling (Excel of Word). U kunt de uitvoer afdrukken met de geconfigureerde **printerbestemming**. 
+
+> [!NOTE]
+> Als u het indelingselement **Common\\File** selecteert om de **printerbestemming** te configureren, kunt u er op het moment van het ontwerp niet voor zorgen dat het geselecteerde element uitvoer zal produceren in PDF-indeling of uitvoer die kan worden geconverteerd naar PDF-indeling. Daarom ontvangt u het volgende waarschuwingsbericht: "Zorg ervoor dat de uitvoer die door het geselecteerde indelingsonderdeel wordt gegenereerd, kan worden geconverteerd naar PDF. Als u dit niet doet, moet u de optie 'Converteren naar PDF' niet selecteren.' U moet stappen ondernemen om runtimeproblemen te voorkomen wanneer uitvoer die niet in PDF's of niet-PDF-converteerbaar is, wordt geleverd voor afdrukken tijdens runtime. Als u uitvoer verwacht in de indeling Office (Excel of Word), moet u de optie **Converteren naar PDF** selecteren.
+>
+> Als u in versie 10.0.26 of hoger de optie **Converteren naar PDF** wilt gebruiken, moet u **PDF** selecteren voor de parameter **Documentrouteringstype** van de geconfigureerde **printerbestemming**.
+
+#### <a name="zpl-printing"></a>ZPL afdrukken
+
+In versie 10.0.26 en hoger kunt u de **printerbestemming** configureren voor het indelingselement **Common\\File** door **ZPL** te selecteren voor de parameter **Documentrouteringstype**. In dit geval wordt de optie **Converteren naar PDF** genegeerd tijdens runtime en wordt de TXT- of XML-uitvoer rechtstreeks naar een geselecteerde printer verzonden met behulp van het ZPL-contract (Xml Programming Language) van de [documentrouteringsagent (XML)](install-document-routing-agent.md). Gebruik deze functie voor een ER-indeling die een ZPL II-labelindeling vertegenwoordigt om verschillende etiketten af te drukken.
+
+[![De parameter documentrouteringstype instellen in het dialoogvenster Doelinstellingen.](./media/ER_Destinations-SetDocumentRoutingType.png)](./media/ER_Destinations-SetDocumentRoutingType.png)
+
+Zie [Een nieuwe ER-oplossing ontwerpen om ZPL-labels af te drukken](er-design-zpl-labels.md) voor meer informatie over deze functie .
 
 ### <a name="limitations"></a>Beperkingen
 

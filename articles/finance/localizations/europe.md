@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2d8a2e44713607ff2a4df91271c70d96c4d71d9
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1b7a3dd75f526a076b6fe696f71ec623e20abb24
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982089"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367843"
 ---
 # <a name="europe-overview"></a>Overzicht Europa
 
@@ -36,13 +36,13 @@ Dit onderwerp bevat informatie en koppelingen naar bronnen die u kunnen helpen b
 - [Factuur-id's op verkooporders bewerken voor Oost-Europa](emea-edit-invoice-id-sales-orders.md)
 - [EU-invoercertificaten](emea-entry-certificates.md)
 - [EU-verkooplijst](emea-eu-sales-list.md)
+  - [Voorbeeld van generieke EU-verkooplijst ](emea-eu-sales-list-example.md)
 - [Aanpassingen wisselkoers](emea-exchange-rate-adjustments.md)
 - [Bestandsindelingen voor betalingsmethoden](emea-select-file-formats-for-the-method-of-payments.md)
 - [Richtlijnen Finance (globalisatie) over impact van Brexit](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [Integratie van fiscale service (ESR)](emea-fiscal-service-integration.md)
 - [Afstoting van vaste activa voor Estland en Litouwen](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Een overboekingsdocument genereren voor een interne voorraadoverboeking](tasks/transfer-document-internal-inventory-transfer.md)
-- [Het rapport van de EU-verkooplijst genereren](tasks/eur-00011-eu-sales-list-report.md)
 - ISO20022-bestanden
   - [ISO20022-bestanden importeren](emea-ISO20022-file-formats.md)
   - [Configuratie van ISO20022 automatische afschrijving importeren](tasks/import-iso20022-direct-debit-configuration.md)
@@ -77,7 +77,6 @@ Dit onderwerp bevat informatie en koppelingen naar bronnen die u kunnen helpen b
 - [Overzicht SEPA-kredietoverdracht](../accounts-payable/sepa-credit-transfer.md)
 - [Overzicht SEPA-incasso](../accounts-receivable/sepa-direct-debit-overview.md)
 - [Compensatie voor klanten en leveranciers instellen](emea-compensation-customer-vendor-transactions.md)
-- [EU-rapport van ICL-lijst instellen](tasks/eur-00011-eu-sales-list-reporting.md)
 - [Indeling voor betalingsbonnen voor projectfacturen instellen](tasks/set-up-payment-slip-format-project-invoices.md)
 - [Ondertekenaars voor afdrukbare formulieren instellen](emea-set-up-signers-for-printing-forms.md)
 - [Stornoboekhouding](emea-storno.md)

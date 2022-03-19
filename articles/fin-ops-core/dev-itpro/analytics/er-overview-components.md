@@ -15,12 +15,12 @@ ms.topic: overview
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a24aa52c805722c20045b6227ceac0103cfbe6b
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: aca1b9bbca490a8a9551ed97d6e100c9115a0d41
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324030"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367819"
 ---
 # <a name="electronic-reporting-components"></a>Onderdelen van elektronische rapportage
 
@@ -91,9 +91,23 @@ Een indelingscomponent biedt de mogelijkheid om specifieke bestanden toe te voeg
 
 In de volgende afbeelding ziet u hoe de gegevensstroomm voor deze indelingen verloopt.
 
-[![Gegevensstroom voor inkomende-indelingscomponenten.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+[![Gegevensstroom voor uitgaande-indelingscomponenten](./media/ER-overview-02.png)](./media/ER-overview-02.png)
+
+Voor het uitvoeren van een enkele ER-indelingsconfiguratie en het genereren van een uitgaand elektronisch document moet u de toewijzing van de indelingsconfiguratie bepalen.
+
+#### <a name="format-components-for-incoming-electronic-documents"></a>Indelingscomponent voor inkomende elektronische documenten
+Een indelingscomponent is het schema van het inkomende document dat tijdens de uitvoering wordt geïmporteerd. Een schema bestaat uit de volgende elementen:
+
+- Een indeling die de structuur en de inhoud definieert van het inkomende elektronische document dat gegevens bevat die tijdens de uitvoering worden geïmporteerd. Een indelingscomponent wordt gebruikt om een inkomend document te parseren in verschillende indelingen, zoals tekst en XML.
+- Een indelingstoewijzing die afzonderlijke elementen bindt aan elementen van een domeinspecifiek gegevensmodel. Tijdens de uitvoering specificeren de elementen in het gegevensmodel de gegevensstroom en de regels voor het importeren van gegevens uit een inkomend document en slaan daarna de gegevens op in een gegevensmodel.
+- Een indelingsvalidatie, als een reeks configureerbare regels die de het importeren van gegevens tijdens runtime controleren, afhankelijk van de uitvoeringscontext. Zo kan er bijvoorbeeld een regel zijn die het de import van gegevens van een bankafschrift met leveranciersbetalingen onderbreekt en een uitzondering genereert, wanneer specifieke kenmerken van een leverancier ontbreken, zoals de leveranciers-id.
+
+In de volgende afbeelding ziet u hoe de gegevensstroomm voor deze indelingen verloopt.
+
+[![Gegevensstroom voor inkomende-indelingscomponenten](./media/ER-overview-03.png)](./media/ER-overview-03.png)
 
 Als u een enkele ER-indelingsconfiguratie wilt uitvoeren om gegevens te importeren uit een inkomend elektronisch document, moet u de gewenste toewijzing van een indelingsconfiguratie bepalen en ook het integratiepunt van een modeltoewijzing. U kunt dezelfde modeltoewijzing en bestemmingen samen gebruiken met verschillende indelingen voor verschillende typen inkomende documenten.
+
 
 ## <a name="component-versioning"></a>Componentversiebeheer
 

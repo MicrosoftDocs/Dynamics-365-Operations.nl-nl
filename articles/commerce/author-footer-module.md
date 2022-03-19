@@ -2,7 +2,7 @@
 title: Voettekstmodule
 description: In dit onderwerp wordt beschreven wat voettekstmodules zijn en hoe u ze ontwerpt in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 03/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fdf183afe0df71e43a05b65fba06126f75f85b981b78afc4a543fb9310c6906
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 81db5cf32f23b7ee1ca8325eeec2e6ceafda55e0
+ms.sourcegitcommit: 90a553e271e7cd471fed2e4f006d753fdb67b47d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719981"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8374826"
 ---
 # <a name="footer-module"></a>Voettekstmodule  
 
@@ -39,7 +39,7 @@ Net als de meeste containers ondersteunt een voettekstmodule de eigenschappen vo
 
 ## <a name="modules-available-in-a-footer-module"></a>Modules die beschikbaar zijn in een voettekstmodule
 
-**Voettekstitems**: een voettekstitemmodule kan een koptekst, een afbeelding en een koppeling bevatten. De koptekst kan zelfstandig of in combinatie met een afbeelding en een koppeling worden gebruikt. Elke koppeling in de voettekst kan zo worden geconfigureerd dat deze alleen tekst bevat (bijvoorbeeld koppelingen naar 'Contact opnemen' en 'Privacy'), of dat deze zowel tekst als een afbeelding bevat (bijvoorbeeld koppelingen voor sociale media).
+**Voettekstitem**: een voettekstitemmodule kan een koptekst of een koppeling bevatten. De koptekst wordt meestal gebruikt als titel voor een voettekstsectie.  Elke koppeling in de voettekst kan zo worden geconfigureerd dat deze alleen tekst bevat (bijvoorbeeld koppelingen naar 'Contact opnemen' en 'Privacy'), of dat deze zowel tekst als een afbeelding bevat (bijvoorbeeld koppelingen voor sociale media). Als zowel een koptekst als een koppeling is opgegeven, heeft de kopteksteigenschap voorrang op de koppeling. 
 
 **Terug naar boven**: een terug naar boven-module bevat een koppeling voor een snelle navigatie naar de bovenkant van de pagina. Er is een bestemming vereist. De standaard bestemmingswaarde is \#, waarmee de gebruiker naar bovenkant van de pagina gaat.
 

@@ -2,7 +2,7 @@
 title: Algemene journaalverwerking
 description: Dit onderwerp beschrijft capaciteiten in Microsoft Dynamics 365 Finance die kunnen helpen algemene journaalverwerking eenvoudiger te maken en dat ook kan helpen waarborgen dat de juiste gegevens worden vastgelegd en dat geen inbreuk wordt gemaakt op de interne controle.
 author: kweekley
-ms.date: 08/09/2019
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f9f4019618891909e674c6b936f79778ac84744
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 7096d8576cf124e5e1d814c360d96639f66a742a
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726772"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367875"
 ---
 # <a name="general-journal-processing"></a>Algemene journaalverwerking
 
@@ -101,7 +101,7 @@ Op de journaalpagina is een knop beschikbaar om een journaal te ontgrendelen waa
 De mogelijkheid om een journaal in een werkstroom met de status 'Onherstelbaar' terug te roepen, wordt ingeschakeld via de knop **Workflow** in een journaal en op de pagina **Workflowhistorie**. Deze wordt ingeschakeld door de functie **De werkstroomstatus voor journalen opnieuw instellen** op de pagina **Functiebeheer**.
 
 ## <a name="delete-journal-lines"></a>Journaalregels verwijderen
-De mogelijkheid om alle journaalregels snel te verwijderen, is in een journaal ingeschakeld onder **Functies** > **Journaalregels verwijderen**. Als u deze functie wilt inschakelen, selecteert u op de pagina **Functiebeheer** de optie **Prestatie-optimalisaties van journaal verwijderen**.
+De mogelijkheid om alle journaalregels snel te verwijderen, is in een journaal ingeschakeld onder **Functies** > **Journaalregels verwijderen**. Als u deze functie wilt inschakelen, selecteert u op de pagina **Functiebeheer** de optie **Prestatie-optimalisaties van journaal verwijderen**. Deze functie is van invloed op uitbreidingen voor de tabel **LedgerJournalTrans** en de methode **Verwijderen**, omdat de set regels wordt verwijderd zonder dat de methode **Verwijderen** van elke regel wordt aanroepen. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

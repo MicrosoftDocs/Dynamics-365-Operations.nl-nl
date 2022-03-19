@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6c8aa0338ab30e6366601e3759141c7e41bf99fb
-ms.sourcegitcommit: ab1455c67f6ee6ca36bec148bea0dbb0f7704eda
+ms.openlocfilehash: 3269bf3f8a5475fb85e6b51514db29006be9aab1
+ms.sourcegitcommit: b52ff5dfd32580121f74a5f262e5c2495e39d578
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7428920"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8376203"
 ---
 # <a name="release-to-warehouse"></a>Vrijgeven naar magazijn
 
@@ -125,6 +125,7 @@ Als u een batchtaak wilt instellen om verkooporders vrij te geven, volgt u deze 
     - **Hoeveelheid voor vrijgave**: selecteer of de gehele hoeveelheid of slecht de fysiek gereserveerde hoeveelheid moet worden vrijgegeven naar het magazijn.
     - **Vrijgave van gedeeltelijk vrijgegeven orders toestaan**: geef op of resterende hoeveelheden voor gedeeltelijk vrijgegeven orders naar het magazijn moeten worden vrijgegeven.
     - **Reserveringen behouden bij mislukte vrijgave**: geef op of hoeveelheden die automatisch zijn gereserveerd voor een verkooporder, gereserveerd moeten blijven als het proces voor vrijgave naar magazijn mislukt.
+    - **Groepsvrijgaven per klant**: geef op of het systeem de vrijgave van magazijnbewerkingen afzonderlijk voor elke klant moet verwerken of dat alle verkooporders tegelijk moeten worden vrijgeven. Als deze optie is ingesteld op *Ja*, worden alle verkooporderregels voor een geselecteerde klant verzameld, worden deze orders aan het magazijn vrijgegeven en wordt vervolgens de volgende klant verwerkt. Als deze optie is ingesteld op *Nee*, worden alle beschikbare verkooporderregels in één Vrijgave naar magazijn-bewerking vrijgegeven. Als u deze optie inschakelt, worden de prestaties en tolerantie van het Vrijgave naar magazijn-proces verbeterd. U moet echter voorzichtig zijn als u deze optie gebruikt in combinatie met wavesjablonen die zijn geconfigureerd voor het verwerken van waves bij vrijgave naar het magazijn omdat deze combinatie veel waves voor afzonderlijke klanten kan genereren, waarbij voor elke wave werk alleen voor die klant wordt gegenereerd. Als u werk wilt genereren waarin zendingen voor meerdere klanten worden gecombineerd, moet u de optie *Groepsvrijgaven per klant* uitschakelen of uw wavesjablonen configureren voor het gebruik van uitgestelde verwerking.
     - **Verwerking van vergrendelde orders**: selecteer hoe het systeem verkooporders moet verwerken die momenteel zijn vergrendeld omdat ze worden bewerkt door andere gebruikers of processen:
 
         - *Wachten tot orders zijn ontgrendeld*: het systeem moet wachten tot de orders zijn ontgrendeld voordat ze naar het magazijn worden vrijgegeven. In dit geval kan het proces van het vrijgeven naar het magazijn meer tijd in beslag nemen.

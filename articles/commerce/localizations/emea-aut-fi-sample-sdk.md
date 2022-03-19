@@ -2,23 +2,24 @@
 title: Implementatierichtlijnen voor het voorbeeld van integratie van fiscale registratieservice voor Oostenrijk (verouderd)
 description: Dit onderwerp bevat richtlijnen voor de implementatie van het voorbeeld voor fiscale integratie voor Oostenrijk vanuit de Retail SDK (Software Development Kit) voor Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 6238b67a35a303a03c51bbd261dd24d1b2acf041
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 65e2a64ed288fb0dcc05ec1ff2db8ed298ed3a76
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077110"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388410"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>Implementatierichtlijnen voor het voorbeeld van integratie van fiscale registratieservice voor Oostenrijk (verouderd)
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Dit onderwerp bevat richtlijnen voor de implementatie van het voorbeeld voor integratie van de fiscale registratieservice voor Oostenrijk vanuit de Retail Software Development Kit (SDK) van Microsoft Dynamics 365 Commerce op een virtuele machine (VM) voor een developer in Microsoft Dynamics Lifecycle Services (LCS). Zie [Voorbeeld van integratie van fiscale registratieservice voor Oostenrijk](emea-aut-fi-sample.md) voor meer informatie over dit voorbeeld van fiscale integratie. 
 
@@ -87,11 +88,15 @@ De CRT-extensieonderdelen zijn opgenomen in de CRT-voorbeelden. Als u de volgend
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.XZReportsAustria" />
     ```
 
-### <a name="enable-hardware-station-extensions"></a>Extensies van hardwarestation inschakelen
+### <a name="enable-fiscal-connector-extensions"></a>Uitbreidingen voor Fiscale connector inschakelen
+
+U kunt uitbreidingen voor de fiscale connector inschakelen op het [hardwarestation](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station) of de [POS-kassa](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-or-service-in-the-local-network).
+
+#### <a name="enable-hardware-station-extensions"></a>Extensies van hardwarestation inschakelen
 
 De onderdelen van de hardwarestationextensie zijn opgenomen in de voorbeelden voor hardwarestation. Als u de volgende procedures wilt uitvoeren, opent u de oplossing **HardwareStationSamples.sln** onder **RetailSdk\\SampleExtensions\\HardwareStation**.
 
-#### <a name="efrsample-component"></a>Onderdeel EFRSample
+##### <a name="efrsample-component"></a>Onderdeel EFRSample
 
 1. Zoek het project **HardwareStation.Extension.EFRSample** en bouw het.
 2. Zoek de volgende assemblagebestanden in de map **Extension.EFRSample\\bin\\Debug**:
@@ -114,6 +119,30 @@ De onderdelen van de hardwarestationextensie zijn opgenomen in de voorbeelden vo
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.EFRSample.dll" />
     ```
+
+#### <a name="enable-pos-extensions"></a>POS-extensies inschakelen
+
+Het voorbeeld voor de POS-extensie bevindt zich in de map **src\\FiscalIntegration\\PosFiscalConnectorSample** van de opslagplaats [Dynamics 365 Commerce Solutions](https://github.com/microsoft/Dynamics365Commerce.Solutions/).
+
+Voer de volgende stappen uit om het POS-extensievoorbeeld uit de oude SDK te gebruiken.
+
+1. Kopieer de map **Pos.Extension** naar de map POS **Extensies** van de verouderde SDK (bijvoorbeeld `C:\RetailSDK\src\POS\Extensions`)
+1. Wijzig de naam van de kopie van de map **Pos.Extension** **PosFiscalConnector**.
+1. Verwijder de volgende mappen en bestanden uit de map **PosFiscalConnector**:
+
+    - bin
+    - DataService
+    - devDependencies
+    - Bibliotheken
+    - obj
+    - Contoso.PosFiscalConnectorSample.Pos.csproj
+    - RetailServerEdmxModel.g.xml
+    - tsconfig.json
+
+1. Open de oplossing **CloudPos.sln** of **ModernPos.sln**.
+1. Neem in het project **Pos.Extensions** de map **PosFiscalConnector** op.
+1. Open het bestand **extensions.json** en voeg de extensie **PosFiscalConnector** toe.
+1. Maak de SDK.
 
 ### <a name="enable-modern-pos-extension-components"></a>Onderdelen van Modern POS-extensies inschakelen
 
@@ -243,9 +272,7 @@ Het doel van deze bestanden is het inschakelen van instellingen die moeten worde
 
 ### <a name="hardware-station-extension-design"></a>Ontwerp van extensies voor hardwarestation
 
-De extensie die een fiscale connector is, heeft tot doel om te communiceren met de fiscale registratieservice.
-
-De extensie voor hardwarestations is **HardwareStation.Extension.EFRSample**. Het gebruikt het HTTP-protocol om documenten die de CRT-extensie genereert in te dienen bij de fiscale registratieservice. Het verwerkt ook de responsen die van de fiscale registratieservice worden ontvangen.
+De fiscale connectorextensie heeft tot doel om te communiceren met de fiscale registratieservice. De extensienaam voor hardwarestations is **HardwareStation.Extension.EFRSample**. Het gebruikt het HTTPS-protocol om documenten die de CRT-extensie genereert in te dienen bij de fiscale registratieservice. Het verwerkt ook de responsen die van de fiscale registratieservice worden ontvangen.
 
 #### <a name="request-handler"></a>Aanvraaghandler
 
@@ -265,3 +292,26 @@ Het configuratiebestand bevindt zich in de map **Configuration** van het extensi
 
 - **Eindpuntadres**: de URL van de fiscale registratieservice.
 - **Time-out**: de hoeveelheid tijd in milliseconden dat het stuurprogramma wacht op een respons van de fiscale registratieservice.
+
+### <a name="pos-fiscal-connector-extension-design"></a>Uitbreidingsontwerp voor POS fiscale connector
+
+Het doel van de fiscale POS-connectorextensie communiceren met de fiscale registratieservice vanuit POS. Het gebruikt het HTTPS-protocol voor communicatie.
+
+#### <a name="fiscal-connector-factory"></a>Fiscale connectorfactory
+
+De fiscale connectorfactory wordt gekoppeld aan de implementatie van Fiscal Connector en bevindt zich in het bestand **Pos.Extension\\Connectors\\FiscalConnectorFactory.ts**. De connectornaam moet overeenkomen met de naam van de fiscale connector die is opgegeven in Commerce Headquarters.
+
+#### <a name="efr-fiscal-connector"></a>EFR fiscale connector
+
+De EFR-fiscale connector bevindt zich in het bestand **Pos.Extension\\Connectors\\Efr\\EfrFiscalConnector.ts**. Deze implementeert de interface **IFiscalConnector** die de volgende aanvragen ondersteunt:
+
+- **FiscalRegisterSubmitDocumentClientRequest**: met deze aanvraag worden documenten naar de fiscale registratieservice verzonden en wordt hierop een respons geretourneerd.
+- **FiscalRegisterIsReadyClientRequest**: deze aanvraag wordt gebruikt voor een statuscontrole van de fiscale registratieservice.
+- **FiscalRegisterInitializeClientRequest**: deze aanvraag wordt gebruikt om de fiscale registratieservice te initialiseren.
+
+#### <a name="configuration"></a>Configuratie
+
+Het configuratiebestand bevindt zich in de map **src\\FiscalIntegration\\Efr\\Configurations\\Connectors** van de opslagplaats [Dynamics 365 Commerce Solutions](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Het doel van het bestand is het inschakelen van instellingen voor de fiscale connector die moet worden geconfigureerd vanuit Commerce Headquarters. De bestandsindeling is afgestemd op de vereisten voor de configuratie van fiscale integratie. De volgende instellingen worden toegevoegd:
+
+- **Eindpuntadres**: de URL van de fiscale registratieservice.
+- **Time-out**: de hoeveelheid tijd in milliseconden dat de connector wacht op een respons van de fiscale registratieservice.

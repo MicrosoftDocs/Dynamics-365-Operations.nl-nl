@@ -2,7 +2,7 @@
 title: Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
 description: Dit onderwerp bevat informatie over het ontwerpen van een ER-indeling (Elektronische rapportage) voor het invullen van een Excel-sjabloon en het genereren van uitgaande Excel-documenten.
 author: NickSelin
-ms.date: 01/05/2022
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9b1c83894d93789a270ed4521ba7f80da70285ac
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 1b2f38aa9e5eff9366697afd57ceefd06f026096
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952647"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388258"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
 
@@ -83,31 +83,48 @@ Op het tabblad **Toewijzing** van de ER Operations-ontwerper kunt u de eigenscha
 
 ## <a name="range-component"></a>Het onderdeel Bereik
 
-Het onderdeel **Bereik** geeft een Excel-bereik aan dat moet worden beheerd door dit ER-onderdeel. De naam van het bereik wordt gedefinieerd in het eigenschap **Excel-bereik** van dit onderdeel.
-
-### <a name="replication"></a>Replicatie
-
-De eigenschap **Replicatierichting** geeft aan of en hoe het bereik wordt herhaald in een gegenereerd document:
-
-- Als de eigenschap **Replicatierichting** is ingesteld op **Geen replicatie**, wordt het betreffende Excel-bereik niet herhaald in het gegenereerde document.
-- Als de eigenschap **Replicatierichting** is ingesteld op **Verticaal**, wordt het betreffende Excel-bereik herhaald in het gegenereerde document. Elk gerepliceerd bereik wordt onder het oorspronkelijke bereik in een Excel-sjabloon geplaatst. Het aantal herhalingen wordt gedefinieerd door het aantal records in een gegevensbron van het type **Recordlijst** dat is gekoppeld aan dit ER-onderdeel.
-- Als de eigenschap **Replicatierichting** is ingesteld op **Horizontaal**, wordt het betreffende Excel-bereik herhaald in het gegenereerde document. Elk gerepliceerd bereik wordt rechts van het oorspronkelijke bereik in een Excel-sjabloon geplaatst. Het aantal herhalingen wordt gedefinieerd door het aantal records in een gegevensbron van het type **Recordlijst** dat is gekoppeld aan dit ER-onderdeel.
-
-Als u meer wilt weten over horizontale replicatie, volgt u de stappen in [Horizontaal uitvouwbare bereiken gebruiken om kolommen in Excel-rapporten dynamisch toe te voegen](tasks/er-horizontal-1.md).
-
 ### <a name="nested-components"></a>Geneste onderdelen
 
-Het onderdeel **Bereik** kan andere geneste ER-onderdelen bevatten die worden gebruikt om waarden op te geven in de toepasselijke benoemde Excel-bereiken.
+#### <a name="data-typing"></a>Gegevenstypen
+
+Het onderdeel **Bereik** kan andere geneste ER-onderdelen bevatten die worden gebruikt om waarden op te geven in de toepasselijke benoemde bereiken.
 
 - Als een deel van de groep **Tekst** wordt gebruikt om waarden in te voeren, wordt de waarde in een Excel-bereik ingevoerd als tekstwaarde.
 
     > [!NOTE]
     > Gebruik dit patroon om ingevoerde waarden op te maken op basis van de landinstelling die in de toepassing is gedefinieerd.
 
-- Als het onderdeel **Cel** van de groep **Excel** wordt gebruikt om waarden in te voeren, wordt de waarde in een Excel-bereik ingevoerd als een waarde van het gegevens type dat wordt gedefinieerd door de binding van dat onderdeel **Cel** (bijvoorbeeld **Tekenreeks**, **Werkelijk** of **Geheel getal**).
+- Als het onderdeel **Cel** van de groep **Excel** wordt gebruikt om waarden in te voeren, wordt de waarde in een Excel-bereik ingevoerd als een waarde van het gegevens type dat wordt gedefinieerd door de binding van dat onderdeel **Cel**. Het gegevenstype kan bijvoorbeeld **Tekenreeks**, **Werkelijk** of **Geheel getal** zijn.
 
     > [!NOTE]
     > Gebruik dit patroon om de ingevoerde waarden in de Excel-toepassing op te maken op basis van de landinstelling van de lokale computer waarop het uitgaande document wordt geopend.
+
+#### <a name="row-handling"></a>Verwerking van rijen
+
+Het onderdeel **Bereik** kan worden geconfigureerd als verticaal gerepliceerd, zodat meerdere rijen worden gegenereerd in een Excel-werkblad. De rijen kunnen worden gegenereerd door het bovenliggende onderdeel **Bereik** of door de geneste **bereikonderdelen**.
+
+In versie 10.0.26 en hoger kunt u vereisen dat de gegenereerde rijen op dezelfde pagina blijven staan. Stel in de ontwerper van de ER-indeling de optie **Rijen bij elkaar houden** in op **Ja** voor het bovenliggende onderdeel **Bereik** in de bewerkbare ER-indeling. ER probeert vervolgens alle inhoud die door dit bereik is gegenereerd op dezelfde pagina te bewaren. Als de hoogte van de inhoud de resterende ruimte op de huidige pagina overschrijdt, wordt een pagina-einde toegevoegd en begint de inhoud boven aan de volgende nieuwe pagina.
+
+> [!NOTE]
+> Het is raadzaam de optie **Rijen bij elkaar houden** alleen te configureren voor bereiken over de gehele breedte van een gegenereerd document.
+>
+> De optie **Rijen bij elkaar houden** is alleen van toepassing op **Excel \> Bestandsonderdelen** die zijn geconfigureerd voor het gebruik van een Excel-werkmapsjabloon.
+>
+> De optie **Rijen bij elkaar houden** werkt alleen als de functie **Gebruik van EPPlus-bibliotheek inschakelen in het ER-raamwerk** is ingeschakeld.
+>
+> Deze functie kan worden gebruikt voor **bereikonderdelen** die zich onder het onderdeel **Pagina** bevinden. Er is echter geen garantie dat de [totalen in de paginavoettekst](er-paginate-excel-reports.md#add-data-sources-to-calculate-page-footer-totals) correct worden berekend door gegevensbronnen met [gegevensverzameling](er-data-collection-data-sources.md) te gebruiken.
+
+Volg de voorbeeldstappen in [Een ER-indeling ontwerpen om rijen samen te houden op dezelfde Excel-pagina](er-keep-excel-rows-together.md) om te weten te komen hoe u deze optie moet gebruiken.
+
+### <a name="replication"></a>Replicatie
+
+De eigenschap **Replicatierichting** geeft aan of en hoe een bereik wordt herhaald in een gegenereerd document:
+
+- **Geen replicatie**: het juiste Excel-bereik wordt niet herhaald in het gegenereerde document.
+- **Verticaal**: het juiste Excel-bereik wordt wordt verticaal herhaald in het gegenereerde document. Elk gerepliceerd bereik wordt onder het oorspronkelijke bereik in een Excel-sjabloon geplaatst. Het aantal herhalingen wordt gedefinieerd door het aantal records in een gegevensbron van het type **Recordlijst** dat is gekoppeld aan dit ER-onderdeel.
+- **Horizontaal**: het juiste Excel-bereik wordt wordt horizontaal herhaald in het gegenereerde document. Elk gerepliceerd bereik wordt rechts van het oorspronkelijke bereik in een Excel-sjabloon geplaatst. Het aantal herhalingen wordt gedefinieerd door het aantal records in een gegevensbron van het type **Recordlijst** dat is gekoppeld aan dit ER-onderdeel.
+
+    Als u meer wilt weten over horizontale replicatie, volgt u de stappen in [Horizontaal uitvouwbare bereiken gebruiken om kolommen in Excel-rapporten dynamisch toe te voegen](tasks/er-horizontal-1.md).
 
 ### <a name="enabling"></a>Inschakelen
 
@@ -280,12 +297,12 @@ Wanneer een uitgaand document in een Microsoft Excel-werkmapindeling wordt gegen
 
 - Selecteer **Automatisch** als u alle afhankelijke formules telkens opnieuw wilt berekenen wanneer een gegenereerd document wordt toegevoegd door nieuwe bereiken, cellen enzovoort.
 
-    >[!NOTE]
+    > [!NOTE]
     > Dit kan leiden tot een prestatieprobleem voor Excel-sjablonen die meerdere gerelateerde formules bevatten.
 
 - Selecteer **Handmatig** om te voorkomen dat formuleherberekening wordt uitgevoerd wanneer een document wordt gegenereerd.
 
-    >[!NOTE]
+    > [!NOTE]
     > Herberekening van formules wordt handmatig uitgevoerd wanneer een gegenereerd document wordt geopend voor preview met Excel.
     > Gebruik deze optie niet als u een ER-bestemming configureert die uitgaat van het gebruik van een gegenereerd document zonder de preview in Excel (PDF-conversie, e-mailing enz.) omdat het gegenereerde document mogelijk geen waarden bevat in cellen die formules bevatten.
 

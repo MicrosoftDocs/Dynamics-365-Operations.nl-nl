@@ -2,19 +2,19 @@
 title: Fiscale integratie voor Commerce-kanalen instellen
 description: Dit onderwerp bevat richtlijnen voor het instellen van de functionaliteit voor fiscale integratie voor Commerce-kanalen.
 author: EvgenyPopovMBS
-ms.date: 01/31/2022
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: fd37934e1ebd103d66c5181e0bfb75047f4cb6a3
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: c15104e0f34c1f6cb6a599d506dad741be3e5e9e
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076958"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388385"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Fiscale integratie voor Commerce-kanalen instellen
 
@@ -46,6 +46,7 @@ Het instelproces van de fiscale integratie bevat de volgende taken:
 - Het fiscale registratieproces configureren dat een reeks fiscale registratiestappen definieert en de fiscale connectors en fiscale documentproviders die voor elke stap worden gebruikt.
 - Het fiscale registratieproces toewijzen aan POS-functionaliteitsprofielen (Point Of Sale).
 - Technische connectorprofielen toewijzen aan hardwareprofielen.
+- Wijs technische connectorprofielen toe aan POS-hardware of functionaliteitsprofielen.
 
 ### <a name="upload-configurations-of-fiscal-document-providers"></a>Configuraties van fiscale documentproviders uploaden
 
@@ -161,10 +162,12 @@ Voer de volgende stappen uit om entiteiten van het fiscale registratieproces aan
 1. Ga in Commerce Headquarters naar de pagina **POS-functionaliteitsprofielen** (**Retail en commerce \> Kanaalinstellingen \> POS-instellingen \> POS-profielen \> Functionaliteitsprofielen**). 
 1. Wijs het fiscale registratieproces aan een POS-functionaliteitsprofiel toe.
 1. Selecteer **Bewerken** en selecteer vervolgens op het tabblad **Fiscaal registratieproces** in het veld **Procesnummer** een proces.
+1. Selecteer op het tabblad **Fiscale services** de technische connectorprofielen met de connectorlocatie **Register**.
 1. Ga naar de pagina **POS-hardwareprofiel** (**Retail en commerce \> Kanaalinstellingen \> POS-instellingen \> POS-profielen \> Hardwareprofielen**).
 1. Wijs technische connectorprofielen aan een hardwareprofiel toe. 
 1. Selecteer **Bewerken** en voeg vervolgens een regel toe op het tabblad **Fiscale randapparatuur**. 
 1. Selecteer een technisch connectorprofiel in het veld **Profielnummer**.
+1. Selecteer op het tabblad **Fiscale randapparatuur** de technische connectorprofielen met de connectorlocatie **Hardwarestation**.
 
 > [!NOTE]
 > U kunt verschillende technische profielen toevoegen aan hetzelfde hardwareprofiel. Een hardwareprofiel of POS-functionaliteitsprofiel moet achter slechts één intersectie met een fiscale connectorgroep hebben.
@@ -175,6 +178,17 @@ De fiscale registratiestroom wordt gedefinieerd door het fiscale registratieproc
 - De fiscale documentprovider is ook verantwoordelijk voor het identificeren van de fiscale connector die wordt gebruikt voor fiscale registratie. Het komt overeen met de functionele connectorprofielen die zijn opgenomen in de fiscale connectorgroep die is opgegeven voor de huidige stap van het fiscale registratieproces met het technische connectorprofiel dat is toegewezen aan het hardwareprofiel van het Hardware-station waaraan het POS is gekoppeld.
 - De fiscale documentprovider gebruikt de instellingen voor gegevenstoewijzing van de configuratie van de fiscale documentprovider om transactie-/gebeurtenisgegevens, zoals belasting en betalingen, te transformeren terwijl een fiscaal document wordt gemaakt.
 - Wanneer de fiscale documentprovider een fiscaal document genereert, kan de fiscale connector het zoals het is verzenden naar het fiscale apparaat of het ontleden en transformeren tot een reeks opdrachten van de apparaat-API (Application Programming Interface), afhankelijk van hoe de communicatie wordt verwerkt.
+
+### <a name="set-up-registers-with-fiscal-registration-restrictions"></a>Kassa's met fiscale registratiebeperkingen instellen
+
+U kunt kassa's selecteren waarbij fiscale registratie is verboden, bijvoorbeeld wanneer u alleen niet-fiscale bewerkingen hoeft op te geven zoals zoeken naar productcatalogi, zoeken naar klanten of het maken van concepttransacties.
+
+Voer deze stappen uit om kassa's met fiscale registratiebeperkingen in te stellen.
+
+1. Ga in Commerce headquarters naar **Retail en Commerce \> Afzetkanaalinstellingen \> Fiscale integratie \> Fiscale registratieprocessen**.
+1. Selecteer het vereiste proces.
+1. Selecteer het tabblad **POS-kassa's met beperkingen van het belastingproces**.
+1. Voeg kassa's met beperkingen van het belastingproces toe, indien nodig.
 
 ### <a name="validate-the-fiscal-registration-process"></a>Het fiscale registratieproces valideren
 

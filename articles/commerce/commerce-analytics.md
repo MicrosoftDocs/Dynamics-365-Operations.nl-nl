@@ -2,18 +2,18 @@
 title: Commerce-analyses (preview)
 description: In dit onderwerp wordt uitgelegd hoe u de analysemogelijkheden installeert en gebruikt in Microsoft Dynamics 365 Commerce.
 author: AamirAllaq
-ms.date: 11/23/2021
+ms.date: 02/24/2022
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2021-11-12
-ms.openlocfilehash: 8cfe2af756315b5be3eb22d99376a96166fffc52
-ms.sourcegitcommit: f9fca3d55b47e615e5ef64669dab184e057ec234
+ms.openlocfilehash: 7e3721421e15bc3e5937691cdbaee51e4d3cdd17
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7862768"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349738"
 ---
 # <a name="commerce-analytics-preview"></a>Commerce-analyses (preview)
 
@@ -28,7 +28,6 @@ U kunt een [live demo van Commerce-analyses (preview)](https://aka.ms/CommerceAn
 ![Overzicht van Commerce-analyses (preview)](media/CommerceAnalytics_Summary.png)
 ![Betalingen in Commerce-analyses (preview)](media/CommerceAnalytics_Payments.png)
 ![Webactiviteit in Commerce-analyses (preview)](media/CommerceAnalytics_WebActivity.png)
-
 
 ## <a name="commerce-analytics-preview-system-architecture"></a>Systeemarchitectuur van Commerce-analyses (preview)
 
@@ -98,7 +97,7 @@ De sjabloon voor de app Commerce-analyses bevat de volgende hoofdrapportpagina's
 12. [Webactiviteit](#WebActivityPage)
 13. [Webactiviteit - Filter op het hoogste niveau](#WebActivityTopLevelFilters)
 
-####  <a name="top-level-filters"></a><a name="TopLevelFilters"></a> Filters op het hoogste niveau
+#### <a name="top-level-filters"></a><a name="TopLevelFilters"></a> Filters op het hoogste niveau
 
 - Gegevensinstellingen
 
@@ -122,13 +121,13 @@ De sjabloon voor de app Commerce-analyses bevat de volgende hoofdrapportpagina's
     - Categoriehiërarchie
     - Categorie
 
-####  <a name="products"></a><a name="ProductsPage"></a> Producten
+#### <a name="products"></a><a name="ProductsPage"></a> Producten
 
 - Verkoop
 - Marge
 - Retouren
 
-####  <a name="customers"></a><a name="CustomersPage"></a> Klanten
+#### <a name="customers"></a><a name="CustomersPage"></a> Klanten
 
 - Verkoop
 - Marge
@@ -313,7 +312,7 @@ Als bezoekers grasduinen op uw e-commercesite terwijl ze zijn aangemeld, kan Com
 
 #### <a name="impressions"></a>Impressies
 
-Een impressie is een enkele weergave van een productvisual door een e-commercebezoeker. Een e-commercebezoeker gaat bijvoorbeeld naar de startpagina van uw e-commercewebsite en bekijkt een yogamat als product in een lijstmodule **Best verkocht**. De bezoeker bekijkt vervolgens dezelfde yogamat in een lijstmodule **Selectie voor u**. In dit geval zijn er twee productimpressies. 
+Een impressie is een enkele weergave van een productvisual door een e-commercebezoeker. Een e-commercebezoeker gaat bijvoorbeeld naar de startpagina van uw e-commercewebsite en bekijkt een yogamat als product in een lijstmodule **Best verkocht**. De bezoeker bekijkt vervolgens dezelfde yogamat in een lijstmodule **Selectie voor u**. In dit geval zijn er twee productimpressies.
 
 Momenteel worden impressies bijgehouden in de volgende onderdelen:
 
@@ -349,32 +348,60 @@ De pagina **Impressierapport** bevat de volgende metrische gegevens:
 ## <a name="commerce-analytics-preview-installation"></a>Installatie van Commerce-analyses (preview)
 
 > [!NOTE]
-> Commerce-analyses (preview) is in preview beschikbaar in de regio's Verenigde Staten, Canada, Verenigd Koninkrijk, Europa, Azië - Zuidoost, Azië - Oost, Australië en Japan. Als uw Finance and Operations-omgeving zich in een van deze regio's bevindt, kunt u deze functie in uw omgeving inschakelen met behulp van Microsoft Dynamics Lifecycle Services (LCS). Voordat u deze functie kunt gebruiken, raadpleegt u [Export naar Azure Data Lake configureren](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md).
+> Commerce-analyses (preview) is in preview beschikbaar in de regio's Verenigde Staten, Canada, Verenigd Koninkrijk, Europa, Azië - Zuidoost, Azië - Oost, Australië en Japan. Als uw omgeving voor financiën en bedrijfsactiviteiten zich in een van deze regio's bevindt, kunt u deze functie in uw omgeving inschakelen met behulp van Microsoft Dynamics Lifecycle Services (LCS). Voordat u deze functie kunt gebruiken, raadpleegt u [Export naar Azure Data Lake configureren](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md).
 
 ### <a name="enable-and-configure-commerce-analytics-preview"></a><a name="enableCommerceAnalytics"></a>Commerce-analyses (preview) inschakelen en configureren
 
-Als u Commerce-analyses (preview) wilt installeren, moet u machtigingen hebben om resources te maken in een Azure-abonnement. U moet tevens machtigingen voor het installeren van invoegtoepassingen in LCS hebben. Hier volgt een overzicht van de stappen:
+Als u Commerce-analyses (preview) wilt installeren, moet u machtigingen hebben om resources te maken in een Azure-abonnement. U moet tevens machtigingen voor het installeren van invoegtoepassingen in LCS hebben. 
 
-1. [Het voorbeeld van het ontvangstformulier voor Commerce-analyses (preview) indienen](#joinPreview).
-2. [Exporteren naar Data Lake inschakelen en configureren](#enableExportToDataLake).
-3. [De invoegtoepassing Commerce-analyses (preview) inschakelen en configureren](#enableCommerceAnalyticsAddin).
-4. [Een SAS-token (Shared Access Signature) genereren voor uw opslagaccount](#getSASToken).
-5. [De implementatiescripts downloaden voor Azure Synapse-weergaven](#downloadSynapseDeploymentScripts).
-6. [Een Azure Synapse workspace installeren en configureren](#configureAzureSynapse).
-7. [De Power BI-sjabloonapp installeren](#powerbi).
+Als u Commerce-analyses (preview) wilt inschakelen en configureren, voert u de volgende stappen uit.
 
-### <a name="submit-the-preview-intake-form-for-commerce-analytics-preview"></a><a name="joinPreview"></a>Het voorbeeld van het ontvangstformulier voor Commerce-analyses (preview) indienen
+1. [Selecteer en configureer de invoegtoepassing Exporteren naar Data Lake](#enableExportToDataLake).
+1. [Een Azure Synapse workspace installeren en configureren](#configureAzureSynapse).
+1. [Voeg geheimen toe aan de sleutelkluis](#addSecrets).
+1. [De invoegtoepassing Commerce-analyses (preview) inschakelen en configureren](#enableCommerceAnalyticsAddin).
+1. [De Power BI-sjabloonapp installeren](#powerbi).
 
-Dien het [voorbeeld van het ontvangstformulier voor Commerce-analyses (preview)](https://forms.office.com/r/vW5VLJGXZ2) in. Het kan tot drie werkdagen duren voordat het formulier is verwerkt. Nadat het is verwerkt, wordt een bevestigingsbericht per e-mail verzonden naar het e-mailadres dat u hebt opgegeven in het formulier.
+### <a name="enable-and-configure-the-export-to-data-lake-add-in"></a><a name="enableExportToDataLake"></a>De invoegtoepassing Exporteren naar Data Lake inschakelen en configureren
 
-### <a name="enable-and-configure-export-to-data-lake"></a><a name="enableExportToDataLake"></a>Exporteren naar Data Lake inschakelen en configureren
+> [!IMPORTANT]
+> Wanneer u de invoegtoepassing Exporteren naar Data Lake configureert, wordt het selectievakje **Real-time gegevenswijzigingen** op de instellingspagina voor de invoegtoepassing Exporteren naar Data Lake ingeschakeld om te voorkomen dat wijzigingen in real-time gegevens mogelijk zijn. De functie **Real-time gegevenswijzigingen** is een preview-functie en wordt momenteel niet ondersteund door Commerce-analyses. Als u de functie inschakelt, kan Commerce-analyses uw gegevens niet verwerken in het data lake en zullen de meeste Power BI-rapporten geen gegevens bevatten.
 
-Commerce-analyses (preview) is afhankelijk van de functie Exporteren naar Data Lake voor het exporteren van Commerce HQ-gegevens naar Data Lake en ervoor te zorgen dat de gegevens bijgewerkt blijven. Voordat u Commerce-analyses (preview) configureert, moet u Exporteren naar Data Lake inschakelen en configureren door de stappen in [Exporteren naar Azure Data Lake configureren](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) uit te voeren.
+Commerce-analyses (preview) is afhankelijk van de functie Exporteren naar Data Lake voor het exporteren van Commerce Headquarters-gegevens naar Data Lake en ervoor te zorgen dat de gegevens bijgewerkt blijven. Voordat u Commerce-analyses (preview) configureert, moet u Exporteren naar Data Lake inschakelen en configureren door de stappen in [Exporteren naar Azure Data Lake configureren](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) uit te voeren.
 
-Maak tijdens het configureren van Exporteren naar Data Lake een notitie over de volgende informatie, omdat u deze later moet invoeren:
+Maak tijdens het configureren van de invoegtoepassing Exporteren naar Data Lake een notitie over de volgende informatie, omdat u deze later moet invoeren:
 
-- <a name="keyVault"></a>De DNS-naam (Domain Name System) van de sleutelkluis en de geheime namen waarin de toepassings-id en het toepassingsgeheim worden opgeslagen. Zie [Geheimen toevoegen aan de sleutelkluis](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#addsecrets) voor meer informatie.
-- <a name="storageAccount"></a>De naam van het opslagaccount voor het Data Lake-exemplaar. Zie [Een Data Lake Storage (Gen2)-account maken in uw abonnement](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#createsubscription) voor meer informatie.
+- <a name="keyVault"></a>De DNS-naam (Domain Name System) van de sleutelkluis die u hebt opgegeven.
+- De door u opgegeven geheime namen die de toepassings-ID en het toepassingsgeheim bevatten. Zie [Geheimen toevoegen aan de sleutelkluis](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#addsecrets) voor meer informatie.
+
+### <a name="install-and-configure-an-azure-synapse-workspace"></a><a name="configureAzureSynapse"></a>Een Azure Synapse workspace installeren en configureren
+
+Voor Commerce-analyses (preview) moet Synapse SQL on-demand in uw Azure Synapse workspace worden ingericht. Om een Azure Synapse workspace te installeren en configureren voer u de volgende stappen uit.
+
+1. Installeer een Azure Synapse workspace in uw Azure-abonnement. Zie [Snelstart: Een Synapse workspace maken](/azure/synapse-analytics/quickstart-create-workspace) voor meer informatie.
+1. <a name="serverlessep"></a>Nadat de werkruimte is ingericht, opent u de pagina met het resourceoverzicht en noteert u de waarde bij **Serverless SQL-eindpunt**. U moet deze waarde opslaan in de sleutelkluis van het volgende onderdeel.
+1. Selecteer op de overzichtspagina de koppeling **Synapse Studio openen** om de Azure Synapse Studio voor uw werkruimte te openen.
+1. Selecteer in het linkervenster de optie **Beheren**. Als u de menunamen wilt weergeven, moet u mogelijk de vouwkoppeling selecteren in het linkermenu.
+1. Selecteer **Toegangsbeheer** onder **Beveiligingsgroep**. 
+1. Selecteer **Toevoegen**.
+1. Stel in het deelvenster **Roltoewijzing toevoegen** de opties in zoals in de volgende tabel wordt beschreven.
+
+    | Optie | Waarde |
+    |--------|-------|
+    | Bereik | Selecteer **Werkruimte**. |
+    | Rol | Selecteer **Synapse SQL-beheerder**.|
+    | Gebruiker selecteren | Zoek de naam van de toepassing die u hebt [gemaakt tijdens de installatie van de invoegtoepassing Exporteren naar Data Lake](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#createapplication). Selecteer de toepassing wanneer deze in de zoekresultaten wordt weergegeven. De toepassing wordt nu weergegeven in de sectie **Geselecteerde gebruiker(s), groep(en) of serviceprincipal(s)**. |
+
+1. Selecteer **Toepassen** om de roltoewijzing te voltooien. Aan de toepassing worden Synapse SQL-beheerdersbevoegdheden toegekend. Zo kunnen de vereiste weergaven worden gemaakt tijdens de configuratie van de LCS-invoegtoepassing Commerce-analyses (Preview).
+
+### <a name="add-secrets-to-the-key-vault"></a><a name="addSecrets"></a>Geheimen toevoegen aan de sleutelkluis
+
+Voeg in dezelfde [sleutelkluis](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#createkeyvault) die u hebt gebruikt bij het configureren van de invoegtoepassing Exporteren naar Data Lake, de geheimen toe die in de volgende tabel worden weergegeven. Voor elke geheim moet u een naam en de opgegeven waarde opgegeven.
+
+| Voorgestelde geheime naam | Geheime waarde | Voorbeeld van geheime waarde |
+|---------|---------|---------|
+| synapse-sql-server | De Serverless SQL-eindpuntwaarde die u hebt genoteerd tijdens het [configureren van de Azure Synapse workspace](#serverlessep). | `test-ondemand.sql.azuresynapse.net` |
+| <a name="roUser"></a>readonly-sql-pwd | Het wachtwoord dat moet worden ingesteld voor de alleen-lezen SQL-gebruiker. Het Power BI-rapport gebruikt dit wachtwoord om verbinding te maken met de serverless SQL. Volg het wachtwoordbeleid van uw organisatie om het wachtwoord in te stellen. | |
 
 ### <a name="enable-and-configure-the-commerce-analytics-preview-add-in"></a><a name="enableCommerceAnalyticsAddin"></a>De invoegtoepassing Commerce-analyses (preview) inschakelen en configureren
 
@@ -385,147 +412,55 @@ Als u de invoegtoepassing Commerce-analyses (preview) wilt installeren en config
 1. Meld u aan bij [LCS](https://lcs.dynamics.com/) en ga naar uw omgeving.
 2. Selecteer op de pagina **Omgeving** op het tabblad **Invoegtoepassingen voor omgeving** de optie **Een nieuwe invoegtoepassing installeren**.
 3. Selecteer **Commerce-analyses (preview)** in het dialoogvenster.
-
-    Als **Commerce-analyses (preview)** niet vermeld staat, moet u nagaan of u deelneemt aan het Insider Program.
-
 4. Voer in het dialoogvenster **Invoegtoepassingen instellen** de volgende informatie in.
 
     | Gegevens | Bron | Voorbeeldwaarde |
     |---|---|---|
-    | Azure AD-tenant-id voor uw omgeving | Meld u aan bij de [Azure-portal](https://portal.azure.com/) en open de **Azure Active Directory**-service. Open vervolgens de pagina **Eigenschappen** en kopieer de waarde in het veld **Map-id**. | 72f988bf-0000-0000-00000-2d7cd011db47 |
-    | DNS-naam van uw sleutelkluis | Voer de [DNS-naam](#keyVault) van uw sleutelkluis in. U zou een notitie van deze waarde moeten hebben gemaakt in de vorige sectie. | `https://contosod365datafeedpoc.vault.azure.net/` |
-    | Geheim dat de toepassings-id bevat | Voer de [naam van het geheim dat de toepassings-id opslaat](#keyVault) in. U zou een notitie van deze waarde moeten hebben gemaakt in de vorige sectie. | app-id |
-    | Geheim dat het toepassingsgeheim bevat | Voer de [naam van het geheim dat de toepassingsgeheim opslaat](#keyVault) in. U zou een notitie van deze waarde moeten hebben gemaakt in de vorige sectie. | app-secret |
+    | Azure Active Directory (Azure AD) tenant-id | Meld u aan bij de [Azure-portal](https://portal.azure.com/) en open de **Azure Active Directory**-service. Open vervolgens de pagina **Eigenschappen** en kopieer de waarde in het veld **Tenant-id**. | `72f988bf-0000-0000-00000-2d7cd011db47` |
+    | DNS-naam van uw Azure Key Vault | Voer de DNS-naam van uw sleutelkluis in. U hebt deze waarde genoteerd tijdens het [configureren van de invoegtoepassing Exporteren naar Data Lake](#keyVault). | `https://contosod365datafeedpoc.vault.azure.net/` |
+    | Naam van het geheim dat de toepassings-id bevat | Voer de naam van het geheim dat de toepassings-id opslaat in. U hebt deze waarde genoteerd tijdens het [configureren van de invoegtoepassing Exporteren naar Data Lake](#keyVault). | `app-id` |
+    | Naam van het geheim dat het toepassingsgeheim bevat | Voer de naam van het geheim dat de toepassingsgeheim opslaat in. U hebt deze waarde genoteerd tijdens het [configureren van de invoegtoepassing Exporteren naar Data Lake](#keyVault). | `app-secret` |
+    | Naam van het geheim dat het serverless SQL-eindpunt bevat voor Azure Synapse | Voer de naam van het geheim in waarin het serverless SQL-eindpunt is opgeslagen. U hebt dit geheim gemaakt tijdens het [toevoegen van de geheimen aan de sleutelwaarde](#addSecrets). | `synapse-sql-server` |
+    | Naam van het geheim met het wachtwoord dat u kunt instellen voor alleen-lezen SQL-gebruikers in Azure Synapse | Voer de naam in van het geheim met het wachtwoord dat u wilt instellen voor de alleen-lezen serverless SQL-gebruiker. Deze gebruiker wordt voor u gemaakt en moet in het Power BI-rapport worden gebruikt om verbinding te maken met de serverless SQL-server. U hebt dit geheim gemaakt tijdens het [toevoegen van de geheimen aan de sleutelwaarde](#addSecrets). | `readonly-sql-pwd` |
 
-5. Accepteer de voorwaarden van de aanbieding door het selectievakje in te schakelen en vervolgens **Installeren** te selecteren.
+1. Accepteer de voorwaarden van de aanbieding door het selectievakje in te schakelen en vervolgens **Installeren** te selecteren.
 
     Het systeem installeert en configureert de invoegtoepassing Commerce-analyses (preview) voor de omgeving. Dit proces kan mogelijk enkele minuten in beslag nemen. Nadat het is voltooid, zou **Commerce-analyses (preview)** moeten worden weergegeven op de pagina **Omgeving** en zou de status **Geïnstalleerd** moeten worden.
-
-### <a name="generate-a-sas-token-for-your-storage-account"></a><a name="getSASToken"></a>Een SAS-token genereren voor uw opslagaccount
-
-Met een SAS-token kunnen externe entiteiten toegang krijgen tot uw opslagaccount en gedurende een eindige hoeveelheid tijd over een specifieke set bevoegdheden beschikken. Azure Synapse gebruikt het SAS-token voor het openen van de onderliggende gegevens in Data Lake.
-
-> [!NOTE]
-> Vanwege een bekende beperking van Commerce-analyses (preview) verliest het Azure Synapse-exemplaar toegang tot de data lake bij het verlopen van het SAS-token. Wanneer u het SAS-token genereert, moet u daarom de maximale vervaldatum instellen die is toegestaan in het beveiligingsbeleid van uw organisatie.
-
-Volg deze stappen om een SAS-token te genereren:
-
-1. Ga in de Azure-portal naar de [opslagaccount](#storageAccount) die u hebt gemaakt tijdens het configureren van Exporteren naar Data Lake.
-2. Selecteer in het linkerdeelvenster onder de opslagaccount de optie **Handtekening voor gedeelde toegang**.
-3. Stel op de pagina **SAS-opties** de volgende velden in.
-
-    | Veld | Waarde |
-    |---|---|
-    | Toegestane services | Selecteer **Blob**. |
-    | Toegestane resourcetypen | Selecteer **Service**, **Container** en **Object**. |
-    | Toegestane machtigingen | Selecteer **Lezen**, **Schrijven**, **Verwijderen**, **Lijst**, **Toevoegen** en **Maken**. |
-    | Machtigingen voor blob-versiebeheer | Selecteer **Schakelt het verwijderen van versies in**. |
-    | Begin- en vervaldatum/-tijd | Stel waar nodig een begin- en einddatum en -tijd in voor het SAS-token. |
-    | Toegestane IP-adressen | Laat dit veld leeg. |
-    | Toegestane protocollen | Selecteer **Alleen HTTPS**. |
-    | Voorkeursrouteringslaag | Selecteer **Basis (standaard)**. |
-    | Ondertekeningssleutel | Selecteer naar wens **key1** of **key2**. |
-
-4. Selecteer **SAS en verbindingsreeks genereren**.
-5. Kopieer de waarde in het veld **SAS-token** en plak deze in een teksteditor zoals Kladblok.
-
-### <a name="download-the-deployment-scripts-for-azure-synapse-views"></a><a name="downloadSynapseDeploymentScripts"></a>De implementatiescripts downloaden voor Azure Synapse-weergaven
-
-Voor het maken en publiceren van de vereiste weergaven in een Azure Synapse workspace, moet u een set scripts uitvoeren. Voer de volgende stappen om de scripts te downloaden.
-
-1. Ga in GitHub naar de opslagplaats (repo) [Microsoft/Dynamics365Commerce.Solutions](https://github.com/microsoft/Dynamics365Commerce.Solutions).
-2. Download de scripts naar uw lokale computer door de repo te klonen of als een zip-bestand te downloaden.
-
-### <a name="install-and-configure-an-azure-synapse-workspace"></a><a name="configureAzureSynapse"></a>Een Azure Synapse workspace installeren en configureren
-
-Om een Azure Synapse workspace te installeren en configureren voer u de volgende stappen uit.
-
-1. Installeer een Azure Synapse workspace in uw Azure-abonnement. Zie [Snelstart: Een Synapse workspace maken](/azure/synapse-analytics/quickstart-create-workspace) voor meer informatie.
-2. Open in Kladblok of een andere teksteditor het scriptbestand **SetupSynapse.sql** vanuit de map op uw lokale computer waarnaar u de repo Dynamics365Commerce.Solutions hebt gekloond of gedownload in de vorige sectie. Het scriptbestand staat in de map /Pipeline/CommerceAnalyticsSynapse/. Vervang in het script tijdelijke tekst door waarden zoals weergegeven in de volgende tabel.
-
-    | Tekst van tijdelijke aanduiding | Vervangingswaarde |
-    |---|---|
-    | placeholder_storageaccount | De naam van de [opslagaccount](#storageAccount) die u hebt gemaakt tijdens het configureren van Exporteren naar Data Lake. |
-    | <a name="phContainer"></a>placeholder_container | De naam van de opslagcontainer die in uw Data Lake-exemplaar is gemaakt nadat u de invoegtoepassing Exporteren naar Data Lake hebt geïnstalleerd in LCS. Voor de containernaam moet u Opslagverkenner gebruiken in de Azure-portal om door uw opslagaccount te bladeren. |
-    | placeholder_sastoken | Het [SAS-token](#getSASToken) dat u hebt gegenereerd. Zorg ervoor dat u het vraagteken (**?**) verwijdert vanaf het begin van de waarde van het SAS-token. |
-    | <a name="phUserPwd"></a>placeholder_password | Een sterk wachtwoord van uw keuze. Maak een notitie van dit wachtwoord. Dit wordt ingesteld als het wachtwoord voor de nieuwe account **reportreadonlyuseraccount** die het script maakt. Voer **niet** het wachtwoord van de account **sqladminuser** in. |
-
-3. Kopieer de bijgewerkte inhoud van het scriptbestand.
-4. Ga in de Azure-portal naar de nieuwe Azure Synapse workspace. Selecteer op de pagina **Overzicht** de optie **Synapse Studio openen**.
-5. Selecteer in Synapse Studio de optie **Nieuw \> SQL-script** en plak de inhoud van het scriptbestand in de SQL-scripteditor.
-6. Zorg ervoor dat het veld **Database gebruiken** is ingesteld op **hoofd**.
-7. Selecteer **Uitvoeren** en wacht tot het script is uitgevoerd. Als het script is uitgevoerd, worden de database for Commerce-analyses, de referenties voor het openen van de data lake en een alleen-lezen gebruikersaccount voor gebruik door Power BI bij het maken van verbinding met het Azure Synapse-exemplaar gemaakt.
-8. Open Windows PowerShell op uw lokale computer in de beheermodus en ga naar de map/Pipeline/CommerceAnalyticsSynapse/ in de map waarin u de repo Dynamics365Commerce.Solutions hebt gekloond of gedownload.
-9. Stel het uitvoeringsbeleid voor Windows PowerShell in door de volgende opdracht uit te voeren.
-
-    ```powershell
-    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-    ```
-
-10. Als de SQL Server PowerShell-module niet al is geïnstalleerd, installeert u deze door de volgende opdracht uit te voeren.
-
-    ```powershell
-    Install-Module sqlserver
-    ```
-
-    > [!NOTE]
-    > Tijdens de installatie van de module wordt u mogelijk gevraagd om de NuGet-provider te installeren. Selecteer in dit geval **Y** om de NuGet-provider te installeren. U kunt ook gevraagd worden om te bevestigen dat u modules opnieuw installeert vanuit een onvertrouwde opslagplaats. In dit geval selecteert u **Y** om door te gaan met de installatie. U kunt optioneel de cmdlet **Set-PSRepository** uitvoeren om de opslagplaats **PSGallery** te vertrouwen.
-
-11. Publiceer de Azure Synapse-weergaven door de volgende opdracht uit te voeren.
-
-    ```powershell
-    .\PublishSynapseViews.ps1 -serverName SERVER_NAME -password PASSWORD -storageAccount STORAGE_ACCOUNT -containerName CONTAINER_NAME -datarootpath DATA_ROOT_PATH
-    ```
-
-    Als u deze opdracht uitvoert, vervangt u de tijdelijke aanduiding door waarden zoals weergegeven in de volgende tabel.
-
-    | Waarde van tijdelijke aanduiding | Vervangingswaarde |
-    |---|---|
-    | SERVER_NAME | De naam van het Azure Synapse Serverless SQL-eindpunt. U kunt deze waarde ophalen van de pagina **Overzicht** voor de Azure Synapse workspace in de Azure-portal. |
-    | PASSWORD | Het wachtwoord voor de **sqladminuser**-account. |
-    | STORAGE_ACCOUNT | De naam van de opslagaccount voor Data Lake. |
-    | CONTAINER_NAME | De naam van de container die is gemaakt door de functie Exporteren naar Data Lake. Deze container is dezelfde container als u hebt opgegeven als waarde voor [placeholder_container](#phContainer) in stap 2. |
-    | DATA_ROOT_PATH | De mapnaam onder de container die alle gegevens bevat. |
-
-    > [!NOTE]
-    > U kunt de naam van de opslagaccount, de containernaam en het hoofdpad van de gegevens vinden door de Azure Storage-browser en uw Data Lake-opslagaccount te gebruiken in de Azure-portal.
-
-12. Wacht tot de uitvoering van het script is voltooid. Bij een geslaagde uitvoering van het script worden SQL-weergaven gemaakt in het Azure Synapse Serverless SQL-exemplaar.
 
 ### <a name="install-the-power-bi-template-app"></a><a name="powerbi"></a>De Power BI-sjabloonapp installeren
 
 Als u de Power BI-sjabloonapp voor Commerce-analyses (preview) wilt installeren, voert u de volgende stappen uit.
 
 1. Meld u aan bij de [Power BI-portal](https://powerbi.microsoft.com/) met uw organisatie-id.
-2. Installeer de Power BI-sjabloonapp voor Commerce-analyses (preview) door naar [https://aka.ms/cdireport-installapp](https://aka.ms/cdireport-installapp) te gaan. Mogelijk ontvangt u een waarschuwing waarin wordt vermeld dat de app niet in AppSource wordt vermeld. Selecteer **Installeren**.
-3. Als u de app voor het eerst installeert, gaat u verder met stap 5. Als u deze app al eerder hebt geïnstalleerd, worden de volgende opties voor het bijwerken van de app weergegeven:
+1. Installeer de Power BI-sjabloonapp voor Commerce-analyses (preview) door naar [https://aka.ms/cdireport-installapp](https://aka.ms/cdireport-installapp) te gaan. U kunt ook naar de [AppSource-pagina voor Dynamics 365 Commerce-analyses](https://appsource.microsoft.com/product/power-bi/dynamics-365-commerce.dydnamics-365-commerce-analytics) gaan en **Nu ophalen** selecteren.
+1. Als u de app voor het eerst installeert, gaat u verder met stap 5. Als u deze al eerder hebt geïnstalleerd, worden de volgende opties voor het bijwerken van de app weergegeven:
 
     - **De werkruimte en de app bijwerken**: werk de bestaande sjabloonapp bij en overschrijf de bestaande app-instellingen, zoals de naam van het app-exemplaar en de machtigingsconfiguraties.
     - **Alleen inhoud van werkruimte bijwerken zonder de app bij te werken**: werk de bestaande sjabloonapp bij, maar houd uw bestaande app-instellingen. *Deze optie is de aanbevolen optie voor app-updates.*
     - **Een andere kopie van de app installeren in een nieuwe werkruimte**: maak een nieuwe werkruimte en maak vervolgens een kopie van de bestaande sjabloonapp in de werkruimte. De bestaande werkruimte blijft intact.
 
-4. Selecteer een van de opties voor bijwerken en selecteer vervolgens **Installeren**.
-5. Open de geïnstalleerde app door **Apps** te selecteren in het linkerdeelvenster en vervolgens de app te selecteren.
-6. Koppel de app aan uw gegevensbron door **Verbinden** te selecteren. Als u de app al eerder hebt geïnstalleerd, selecteert u de koppeling **Uw gegevens verbinden** op de gele berichtenbalk.
-7. Stel de volgende velden in.
+1. Selecteer een van de opties voor bijwerken en selecteer vervolgens **Installeren**.
+1. Open de geïnstalleerde app door **Apps** te selecteren in het linkerdeelvenster en vervolgens de app te selecteren.
+1. Koppel de app aan uw gegevensbron door **Verbinden** te selecteren. Als u de app al eerder hebt geïnstalleerd, selecteert u de koppeling **Uw gegevens verbinden** op de gele berichtenbalk.
+1. Stel de volgende velden in.
 
     | Veld | Waarde |
     |---|---|
-    | Server | Voer de naam in van het Azure Synapse Serverless SQL-eindpunt dat u hebt gemaakt in de vorige sectie. U kunt deze waarde ophalen van de pagina **Overzicht** voor de Azure Synapse workspace in de Azure-portal. |
+    | Server | Voer het serverless SQL-eindpunt in dat u hebt genoteerd nadat u de [Azure Synapse workspace hebt gemaakt](#serverlessep). |
     | Database | Voer **CommerceAnalytics** in. |
     | Taal | Selecteer een waarde in de lijst. Dit veld wordt gebruikt voor gelokaliseerde product- en categorienamen. De waarde is hoofdlettergevoelig. |
     | Datumbereik | Selecteer een waarde in de lijst. Gegevens voor het geselecteerde aantal maanden worden in de Power BI-gegevensset geïmporteerd. De waarde die u selecteert, is van invloed op de grootte van de gegevensset en de tijd die nodig is voor synchronisatie. |
 
-8. Selecteer **Volgende**. U wordt gevraagd de referenties in te voeren voor verbinding met de Azure Synapse SQL-database. Stel de velden in aan de hand van de volgende tabel.
+1. Selecteer **Volgende**. Wanneer u wordt gevraagd de referenties in te voeren voor de verbinding met de Azure Synapse SQL-database, stelt u de veldwaarden in zoals wordt weergegeven in de volgende tabel.
 
     | Veld | Waarde |
     |---|---|
     | Verificatiemethode | Selecteer **Basis**. |
     | Gebruikersnaam | Voer **reportreadonlyuser** in. |
-    | Wachtwoord | Voer de waarde in die u hebt gebruikt voor de tijdelijke aanduiding [placeholder_password](#phUserPwd) in het script SetupSynapse.sql. Dit wachtwoord is het wachtwoord voor de account **reportreadonlyuser**. |
+    | Wachtwoord | Voer het wachtwoord in dat u hebt [opgeslagen voor de alleen-lezen SQL-gebruiker in de sleutelkluis](#roUser). |
 
-9. Selecteer **Aanmelden en verbinden**.
-10. Wacht tot de gegevensset is bijgewerkt. Selecteer vervolgens de knop **App bewerken** om de werkruimte voor de app te openen, waar u de updatestatus van gegevensset kunt bekijken. In de werkruimte voor de app kunt u desgewenst ook automatische updateschema's voor uw gegevensset instellen, machtigingen beheren en de naam van het app-exemplaar wijzigen.
+1. Selecteer **Aanmelden en verbinden**.
+1. Wacht tot de gegevensset is bijgewerkt. Selecteer vervolgens **App bewerken** om de werkruimte voor de app te openen, waar u de updatestatus van gegevensset kunt bekijken. In de werkruimte voor de app kunt u desgewenst ook automatische updateschema's voor uw gegevensset instellen, machtigingen beheren en de naam van het app-exemplaar wijzigen.
 
 ### <a name="privacy"></a><a name="privacy"></a>Privacy
 

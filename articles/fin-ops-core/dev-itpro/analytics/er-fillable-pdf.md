@@ -2,7 +2,7 @@
 title: ER-configuraties ontwerpen om in te vullen in PDF-sjablonen
 description: Dit onderwerp bevat informatie over het ontwerpen van een indeling voor elektronische rapportage (ER) voor het invullen van een PDF-sjabloon.
 author: NickSelin
-ms.date: 03/24/2021
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 81da1b4f9ca5d2884122266312b2f7cb298572eef3a5c6151daba2f9b17326f2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a568ddd93bfbc7d536e951a13470b3dedb796e1b
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758283"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367851"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>ER-configuraties ontwerpen om in te vullen in PDF-sjablonen
 
@@ -294,6 +294,20 @@ In de volgende afbeelding ziet u een voorbeeld van de eerste pagina van het gege
 In de volgende afbeelding ziet u een voorbeeld van een andere pagina van het gegenereerde rapport.
 
 ![Andere pagina van het gegenereerde rapport.](media/rcs-ger-filloutpdf-generatedreport2.png)
+
+## <a name="limitations"></a>Beperkingen
+
+De namen van invulbare velden moeten uniek zijn in het PDF-formulier dat u wilt gebruiken als rapportsjabloon. Voor elk veld wordt een afzonderlijk indelingselement met de bijbehorende naam in de bewerkbare ER-indeling gemaakt bij het importeren van een PDF-formulier. Als een PDF-formulier verschillende velden met dezelfde naam bevat, wordt één indelingselement gemaakt voor de velden die niet afzonderlijk kunnen worden ingevuld tijdens runtime.
+
+## <a name="frequently-asked-questions"></a>Veelgestelde vragen
+
+### <a name="when-i-run-the-er-format-to-generate-a-report-in-pdf-format-why-do-i-get-the-following-errors--cannot-handle-iref-streams-the-current-implementation-of-pdfsharp-cannot-handle-this-pdf-feature-introduced-with-acrobat-6-and-a-pdf-name-must-start-with-a-slash-"></a>Waarom ontvang ik de volgende fouten wanneer ik de ER-indeling uit voer om een rapport in PDF-indeling te genereren: **kan iref-stromen niet verwerken. De huidige implementatie van PDFSharp kan deze PDF-functie uit  Acrobat 6 niet verwerken.** En **een PDF-naam moet beginnen met een slash (/).**
+
+Voor het ER-raamwerk wordt versie 1.5 van de PDFSharp-bibliotheek gebruikt om deze PDF-rapporten te genereren. Een aantal functies van PDF 1.5 (Adobe Reader 6.0) is nog niet geïmplementeerd in deze bibliotheek. Daarom kan PDFSharp nog geen bestanden openen die zijn gemarkeerd **voor PDF 1.5 of hoger**, waardoor de fouten kunnen optreden. Gebruik een van de volgende oplossingen om het probleem op te lossen:
+
+-   Wanneer u uw eigen PDF-sjabloon gebruikt: downgrade de sjabloon naar een eerdere Adobe-versie en start met een nieuwe sjabloon in uw ER-indeling.
+-   Wanneer u een ER-indelingsjabloon gebruikt die met u als onderdeel van een ER-oplossing door een andere configuratieprovider werd gedeeld: neem contact op met de eigenaar van deze ER-oplossing en geef een omschrijving van het probleem op.
+-   Wanneer u de ISV-oplossing gebruikt die een eerdere versie van de PDFSharp-bibliotheek bevat, neemt u contact op met de eigenaar van de oplossing en stelt u een upgrade voor naar de nieuwere PDFSharp-versie.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

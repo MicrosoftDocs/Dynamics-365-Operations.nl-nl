@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: banluo
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3da92c384d3074335067433120eccc97d11b6b81
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: d78cde26d238d18744adde9a576552588736e619
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103935"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384690"
 ---
 # <a name="inventory-value-reports"></a>Voorraadwaardenrapporten
 
@@ -102,7 +102,7 @@ Gebruik de pagina **Voorraadwaardenrapporten** om de inhoud in te stellen die in
         - Ontvangen en nog niet gefactureerde artikelen wanneer de optie **Fysieke voorraad boeken** is uitgeschakeld voor de relevante artikelmodelgroep.
         - Ontvangen en nog niet gefactureerde artikelen wanneer de optie **Productontvangstbon in grootboek boeken** is uitgeschakeld op het sneltabblad **Productontvangstbon** op het tabblad **Algemeen** van de pagina **Leveranciersparameters** (**Leveranciers \> Instellingen \> Leveranciersparameters**).
 
-    - **Gemiddelde eenheidskosten** berekenen: stel deze optie in op *Ja* als u een kolom met de gemiddelde eenheidskosten wilt weergeven. De gemiddelde eenheidskosten zijn de totale hoeveelheid gedeeld door het totaalbedrag.
+    - **Gemiddelde eenheidskosten** berekenen: stel deze optie in op *Ja* als u een kolom met de gemiddelde eenheidskosten wilt weergeven. De gemiddelde eenheidskosten is het totale bedrag gedeeld door de totale hoeveelheid.
     - **Totale hoeveelheid en waarde**: stel deze optie in op *Ja* om kolommen weer te geven met de totale hoeveelheid fysieke voorraad (en financiële hoeveelheden) en de totale hoeveelheid fysieke voorraad (en financiële bedragen). U kunt deze optie alleen op *Ja* instellen als de optie **Fysieke en financiële waarden samenvatten** is ingesteld op *Nee*.
     - **Voorraaddimensies**: schakel in dit raster het selectievakje **Weergeven** in voor elke dimensie die u in het rapport wilt weergeven. Alleen dimensies waarin de optie **Financiële voorraad** is ingeschakeld, geven waarden weer in het rapport. Andere dimensies geven alleen lege kolommen weer. Voor de dimensies die u selecteert om weer te geven, kunt u het selectievakje **Totaal** inschakelen om ook totalen op te nemen.
     - **Resource-id**: stel de optie **Weergeven** in op *Ja* om een kolom weer te geven waarin het artikel voor elke rij wordt aangegeven. Stel de optie **Totaal** in op *Ja* als u ook totalen wilt opnemen. Afhankelijk van het type artikel dat in elke rij wordt vermeld, bevat de kolom een van de volgende typen informatie:

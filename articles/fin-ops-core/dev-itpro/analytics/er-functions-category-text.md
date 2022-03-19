@@ -2,7 +2,7 @@
 title: Lijst met ER-functies van de tekstcategorie
 description: Dit onderwerp biedt informatie over de tekstfuncties die worden ondersteund in ER (Elektronische rapportage).
 author: NickSelin
-ms.date: 09/09/2021
+ms.date: 02/28/2022
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afe45bf1ff5c641346997aa4f32f3241dce2f0a2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 5d185c128de1120e93d1779db04a7666ba557707
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075495"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367762"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Lijst met ER-functies van de tekstcategorie
 
@@ -51,7 +51,7 @@ ER-tekstfuncties kunnen worden gebruikt om bewerkingen uit te voeren op gegevens
 | [Rechts](er-functions-text-right.md) | Deze functie retourneert een waarde van het type *Tekenreeks* die het opgegeven aantal tekens vanaf het einde van de opgegeven tekenreeks bevat. |
 | [Tekst](er-functions-text-text.md) | Deze functie retourneert de opgegeven numerieke waarde als een waarde van het type *Tekenreeks* nadat deze is geconverteerd naar een tekenreeks die wordt opgemaakt volgens de lokale instellingen van de server van het huidige exemplaar. |
 | [Vertalen](er-functions-text-translate.md) | Deze functie retourneert een waarde voor een *Tekenreeks* die het resultaat bevat van de vervanging van de opgegeven tekst in tekens met een andere opgegeven set met tekens. |
-| [Trim](er-functions-text-trim.md) | Deze functie retourneert de opgegeven tekenreeks als een waarde van het type *Tekenreeks* nadat voorloop- en volgspaties zijn afgekapt en nadat meerdere spaties tussen woorden zijn verwijderd. |
+| [Trim](er-functions-text-trim.md) | Deze functie retourneert de opgegeven tekenreeks als *tekenreekswaarde* nadat tekens voor tabblad, regelterugloop, regeldoorvoer en formulierfeed zijn vervangen door één spatieteken, nadat voor- en navolgende spaties zijn ingekort en nadat meerdere spaties tussen woorden zijn verwijderd. |
 | [Upper](er-functions-text-upper.md) | Deze functie retourneert de opgegeven tekstreeks als een waarde van het type *Tekenreeks* nadat deze is geconverteerd naar hoofdletters. |
 
 ## <a name="additional-resources"></a>Aanvullende resources

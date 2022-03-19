@@ -2,27 +2,22 @@
 title: Randapparaten
 description: In dit onderwerp worden de concepten beschreven die verband houden met Commerce-randapparaten.
 author: BrianShook
-ms.date: 02/04/2022
-ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
+ms.date: 03/01/2022
+ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.custom:
 - "268444"
 - intro-internal
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e60b369feff5bf17f58d6a3b4c9e9b290343b1ae
-ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
+ms.openlocfilehash: fa9b8c79d1b3b5ed04a7d277bf09cd05dbd332d2
+ms.sourcegitcommit: 116898def829c0f78bda8a117242aa308793465d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092479"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8370971"
 ---
 # <a name="peripherals"></a>Randapparaten
 
@@ -45,7 +40,7 @@ Apparaten kunnen worden toegewezen aan de volgende toepassingstypen: Retail Mode
 
 ### <a name="modern-pos"></a>Modern POS
 
-Modern POS is het POS-programma voor Microsoft Windows. Het kan worden geïmplementeerd op de besturingssystemen Windows 10.
+Modern POS is het POS-programma voor Microsoft Windows. Het kan worden geïmplementeerd op de besturingssystemen Windows 10 en 11.
 
 ### <a name="cloud-pos"></a>Cloud-POS
 
@@ -108,7 +103,7 @@ Pinapparaten (P.I.N. = persoonlijk identificatienummer) worden ondersteund via O
 
 ### <a name="secondary-display"></a>Tweede display
 
-Wanneer een secundaire display is geconfigureerd, wordt de Windows-display nr. 2 gebruikt om algemene informatie weer te geven. De tweede display is bedoeld om uitbreidingen van ISV's (Independent Software Vendors) te ondersteunen. Dit is om dat de tweede display standaard niet configureerbaar is en slechts beperkt inhoud weergeeft.
+Wanneer een secundaire display is geconfigureerd, wordt de Windows-display nr. 2 gebruikt om algemene informatie weer te geven. De secundaire weergave kan standaard niet worden geconfigureerd en bevat beperkte inhoud. Het doel van de secundaire weergave is het ondersteunen van een onafhankelijke softwareleverancier (ISV)-extensie. 
 
 ### <a name="payment-device"></a>Betalingsapparaat
 
@@ -132,7 +127,7 @@ Om te garanderen dat het grootste aantal apparaten kan worden gebruikt met Comme
 Het afdrukken van kassabonnen op het POS is geoptimaliseerd voor OPOS. Het afdrukken werkt met OPOS vaak veel sneller dan afdrukken via Windows. Daarom is het een goed idee om OPOS te gebruiken, vooral in omgevingen waar kassabonnen met 40 kolommen worden afgedrukt en de transactietijden kort moeten zijn. Voor de meeste apparaten gebruikt u OPOS-besturingselementen. Sommige OPOS-kassabonprinters ondersteunen echter ook Windows-stuurprogramma's. Als u een Windows-stuurprogramma gebruikt, hebt u toegang tot de nieuwste lettertypen en kunt één printer via het netwerk bereikbaar maken voor meerdere kassa's. Windows-stuurprogramma's hebben echter nadelen. Dit zijn enkele van veel voorkomende nadelen:
 
 -   Met Windows-stuurprogramma's worden afbeeldingen gerenderd vóór het afdrukken. Daarom gaat het afdrukken vaan trager dan op printers die gebruikmaken van OPOS-besturingselementen.
--   Apparaten die zijn verbonden via de printer ('daisy-chained' ofwel in serie) werken mogelijk niet correct met Windows-stuurprogramma's. Bijvoorbeeld gaat de kassalade niet open of de bonprinter functioneert niet zoals u verwacht.
+-   Apparaten die zijn verbonden via de printer ('daisy-chained' ofwel in serie) werken mogelijk niet correct met Windows-stuurprogramma's. Bijvoorbeeld gaat de kassalade niet open of de printer voor het ontvangstbewijs functioneert niet zoals u verwacht.
 -   OPOS ondersteunt ook een uitgebreidere reeks variabelen die specifiek zijn voor kassabonprinters, zoals papiersnijden of bon afdrukken.
 -   Windows-printers worden niet ondersteund via het IIS-hardwarestation. 
 
@@ -176,15 +171,15 @@ Voer de volgende stappen uit om het specifieke hardwarestation te gebruiken.
 1. Open Modern POS in niet-lademodus en gebruik de bewerking **Hardwarestations beheren** om de mogelijkheden van hardwarestations in te schakelen. Het specifieke hardwarestation is standaard actief. 
 1. Meld u af bij Modern POS. Meld u dan weer aan en open een ploeg. De randapparatuur die in het hardwareprofiel is geconfigureerd, kan nu worden gebruikt. 
 
-### <a name="shared"></a>Gedeeld 
+### <a name="shared"></a>Gedeeld
 
 Dit wordt ook wel het 'IIS'-hardwarestation genoemd. 'IIS' geeft hierbij aan dat de POS-toepassing via Microsoft Internet Information Services verbinding maakt met het hardwarestation. De POS-toepassing maakt verbinding met het IIS-hardwarestation via webservices die worden uitgevoerd op een computer waarop de apparaten zijn aangesloten. Wanneer het gedeelde hardwarestation wordt gebruikt, kunnen de randapparaten die zijn aangesloten op een hardwarestation worden gebruikt door iedere POS-kassa in hetzelfde netwerk als het IIS-hardwarestation. Omdat alleen Modern POS voor Windows en Android ingebouwde ondersteuning heeft voor randapparaten, moeten alle andere Modern POS-toepassingen voor communicatie met POS-randapparaten die zijn geconfigureerd in het hardwareprofiel, gebruik maken van het IIS-hardwarestation. Daarom vereist elk exemplaar van de IIS-hardwarestation een computer waarop de webservice wordt uitgevoerd en de toepassing die met de apparaten communiceert. 
 
-Het gedeelde hardwarestation kan worden gebruikt om meerdere verkooppunten van verkoopclients toe te staan om randapparatuur te delen of om een vastgelegde set of randapparatuur voor een enkel verkooppunt te beheren. 
+Het gedeelde hardwarestation kan worden gebruikt om meerdere verkooppunten van verkoopclients toe te staan om randapparatuur te delen of om een vastgelegde set met randapparatuur voor een enkel verkooppunt te beheren. 
 
 Wanneer een hardwarestation wordt gebruikt om het delen van randapparatuur tussen meerdere POS-clients te ondersteunen, mogen alleen kassaladen, kassabonprinters en betalingsterminals worden gebruikt. U kunt niet rechtstreeks andere apparaten aansluiten zoals zelfstandige streepjescodescanners, MSR's, regelweergaven, weegschalen en dergelijke. Als u dit wel doet, zullen conflicten optreden wanneer meerdere POS-apparaten die randapparatuur op hetzelfde moment proberen aan te spreken. Hier ziet u hoe conflicten voor ondersteunde apparaten worden beheerd:
 
--   **Kassalade:** De kassalade wordt geopend door middel van een gebeurtenis die wordt verzonden naar het apparaat. Het enige probleem dat kan optreden bij het aanroepen van een kassalade, is wanneer de kassalade al is geopend. Bij gedeelde hardwarestations moet de kassalade in het hardwareprofiel worden ingesteld op **Gedeeld**. Deze instelling voorkomt dat het POS controleert of de kassalade al geopend is bij het verzenden van opdrachten voor openen.
+-   **Kassalade:** De kassalade wordt geopend door middel van een gebeurtenis die wordt verzonden naar het apparaat. Er kunnen problemen optreden bij het aanroepen van een kassalade, wanneer de kassalade al is geopend. Een kassalade die wordt gebruikt in een configuratie met een gedeeld hardwarestation moet worden ingesteld op **Gedeeld** in het hardwareprofiel. Deze instelling voorkomt dat het POS controleert of de kassalade al geopend is bij het verzenden van opdrachten voor openen.
 -   **Kassabonprinter:** Als twee opdrachten voor het afdrukken van kassabonnen tegelijk naar het hardwarestation worden verzonden, kan, afhankelijk van het apparaat, één van de opdrachten verloren gaan Sommige apparaten hebben intern geheugen of pooling waarmee dit probleem kan worden voorkomen. Als een printopdracht mislukt, ontvangt de kassamedewerker een foutbericht. Vanaf het POS kan de printopdracht opnieuw worden verzonden.
 -   **Betalingsterminal:** Als een kassamedewerker een transactie wil laten betalen op een betalingsterminal die al wordt gebruikt, komt een bericht terug dat de terminal in gebruik is. De kassamedewerker wordt gevraag het later opnieuw te proberen. Meestal ziet de kassamedewerker dat een terminal in gebruik is en wacht totdat de andere transactie is voltooid voordat de transactie opnieuw wordt aangeboden.
 
@@ -205,7 +200,7 @@ De logica die fysiek aangesloten randapparaten en randapparaten in een netwerk a
 ## <a name="setup-and-configuration"></a>Instellingen en configuratie
 ### <a name="hardware-station-installation"></a>Het hardwarestation installeren
 
-Zie [Hardwarestation configureren en installeren](retail-hardware-station-configuration-installation.md) voor meer informatie.
+Zie voor instructies over het installeren van een ISS-hardwarestation het onderwerp [Retail Hardware Station configureren en installeren](retail-hardware-station-configuration-installation.md).
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Modern POS voor Windows installeren en configureren
 
@@ -431,7 +426,7 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 </tbody>
 </table>
 
-### <a name="all-modern-pos-clients-shared-an-iis-hardware-station"></a>Alle Modern POS-clients delen een ISS-hardwarestation
+### <a name="all-modern-pos-clients-that-share-an-iis-hardware-station"></a>Alle Modern POS-clients die een ISS-hardwarestation delen
 
 > [!NOTE]
 > Als het IIS-hardwarestation 'gedeeld' is, kunnen meerdere apparaten tegelijk gebruik maken van het hardwarestation. Gebruik in dit scenario alleen de apparaten die worden vermeld in de onderstaande tabel. Als u apparaten probeert te delen die hier niet worden vermeld, zoals streepjescodescanners en MSR's, treden fouten op wanneer meerdere apparaten het zelfde randapparaat willen aanspreken. In de toekomst worden dergelijke configuraties expliciet voorkomen.
@@ -487,7 +482,7 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 </table>
 
 ## <a name="configuration-for-supported-scenarios"></a>Configuratie voor ondersteunde scenario's
-Zie voor meer informatie over het maken van hardwareprofielen het onderwerp [Kanaalclients, waaronder kassa's en hardwarestations, definiëren en onderhouden](define-maintain-channel-clients-registers-hw-stations.md). 
+Zie [Randapparaten aansluiten op het verkooppunt (POS)](define-maintain-channel-clients-registers-hw-stations.md) voor meer informatie over het maken van hardwareprofielen. 
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS voor Windows met een IPC-hardwarestation (geïntegreerd)
 
@@ -623,9 +618,8 @@ De volgende randapparaten zijn getest met het IPC-hardwarestation dat is geïnte
 | Producent | Model    | Interface | Opmerkingen                |
 | ------------ | -------- | --------- | ----------------------- |
 | Epson        | TM-T88V  | OPOS      |                         |
-| Epson        | TM-T88VI | OPOS      |                         |
-| Epson        | TM-T88   | Aangepast    | Aangesloten via netwerk   |
-| HP           | F7M67AA  | OPOS      | USB met voeding             |
+| Epson        | TM-T88IV | OPOS      |                         |
+| HP           | H300     | OPOS      | USB met voeding             |
 | Star         | TSP650II | Aangepast    | Aangesloten via netwerk   |
 | Star         | mPOP     | OPOS      | Aangesloten via Bluetooth |
 | Toshiba      | HSP100   | OPOS      |                         |
@@ -637,30 +631,21 @@ De volgende randapparaten zijn getest met het IPC-hardwarestation dat is geïnte
 #### <a name="bar-code-scanner"></a>Streepjescodelezer
 
 | Producent  | Model         | Interface | Opmerkingen |
-|---------------|---------------|-----------|----------|
-| Motorola      | DS9208        | OPOS      |          |
-| Honeywell     | 1900          | UWP       |          |
-| Symbool        | LS2208        | OPOS      |          |
-| HP geïntegreerd | E1L07AA       | OPOS      |          |
+| ------------- | ------------- | --------- | -------- |
 | Datalogic     | Magellan 8400 | OPOS      |          |
+| Honeywell     | 1900          | UWP       |          |
+| HP geïntegreerd | E1L07AA       | OPOS      |          |
+| Symbool        | LS2208        | OPOS      |          |
 
-#### <a name="pin-pad"></a>Pinapparaat
+#### <a name="payment-terminals-and-pin-pads"></a>Betalingsterminals en pinapparaten
 
-| Fabrikant | Model  | Interface | Opmerkingen                                        |
-|--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPOS      | Aanpassing van de betalingsconnector vereist |
+Dynamics 365 Commerce biedt een standaardoplossing voor integratie met Adyen voor betaalservices. De [Dynamics 365 Payment Connector voor Adyen](dev-itpro/adyen-connector.md) gebruikt de apparaatonafhankelijke [Adyen Payment Terminal-API](https://www.adyen.com/blog/introducing-the-terminal-api) en kan werken met alle betalingsterminals die door deze API worden ondersteund. Zie [Adyen POS-terminals](https://www.adyen.com/pos-payments/terminals) voor een volledige lijst met ondersteunde betalingsterminals .
 
-#### <a name="payment-terminal"></a>Betalingsterminal
-
-| Fabrikant | Model | Interface | Opmerkingen                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Aangepast    | Aanpassing van de betalingsconnector vereist                                |
-| VeriFone     | MX925 | Aangepast    | Vereist aanpassing van de betalingsconnector; aangesloten via een netwerk en USB |
-| VeriFone     | MX915 | Aangepast    | Vereist aanpassing van de betalingsconnector; aangesloten via een netwerk en USB |
+U kunt ook andere betalingsproviders gebruiken met Dynamics 365 Commerce door een aangepaste connector te maken. Elke betalingsterminal die door de betalingsprovider wordt ondersteund, kan worden gebruikt met Dynamics 365 Commerce. In Dynamics 365 Commerce zijn ook integratiemodellen toegestaan voor betalingsapparaten die door de betalingsprovider worden ondersteund, zoals lokale IP, cloud-API of directe verbinding (bijvoorbeeld via USB) met het POS. Zie [Complete betalingsintegratie maken voor een betalingsterminal](dev-itpro/end-to-end-payment-extension.md) voor meer informatie.
 
 #### <a name="cash-drawer"></a>Kassalade
 
-| Fabrikant | Model     | Interface | Opmerkingen                |
+| Producent | Model     | Interface | Opmerkingen                |
 |--------------|-----------|-----------|-------------------------|
 | Star         | mPOP      | OPOS      | Aangesloten via Bluetooth |
 | APG          | Atwood    | Aangepast    | Aangesloten via netwerk   |
@@ -670,14 +655,14 @@ De volgende randapparaten zijn getest met het IPC-hardwarestation dat is geïnte
 
 #### <a name="line-display"></a>Regelweergave
 
-| Fabrikant  | Model   | Interface | Opmerkingen |
-|---------------|---------|-----------|----------|
-| HP geïntegreerd | G6U79AA | OPOS      |          |
-| Epson         | M58DC   | OPOS      |          |
+| Producent | Model    | Interface | Opmerkingen |
+| ------------ | -------- | --------- | -------- |
+| Epson        | DM-D110  | OPOS      |          |
+| HP           | T-reeks | OPOS      |          |
 
 #### <a name="signature-capture"></a>Handtekeningregistratie
 
-| Fabrikant | Model  | Interface | Opmerkingen |
+| Producent | Model  | Interface | Opmerkingen |
 |--------------|--------|-----------|----------|
 | Scriptel     | ST1550 | OPOS      |          |
 
@@ -701,43 +686,33 @@ De volgende randapparaten zijn getest met een specifiek (niet-gedeeld) IIS-hardw
 
 #### <a name="printer"></a>Printer
 
-| Producent | Model    | Interface | Opmerkingen              |
-| ------------ | -------- | --------- | --------------------- |
-| Epson        | TM-T88V  | OPOS      |                       |
-| Epson        | TM-T88VI | OPOS      |                       |
-| Epson        | TM-T88V  | Aangepast    | Aangesloten via netwerk |
-| HP           | F7M67AA  | OPOS      | USB met voeding           |
-| Star         | TSP650II | Aangepast    | Aangesloten via netwerk |
-| Toshiba      | HSP100   | OPOS      |                       |
-| Toshiba      | HSP150   | OPOS      |                       |
-
-
+| Producent | Model    | Interface | Opmerkingen                |
+| ------------ | -------- | --------- | ----------------------- |
+| Epson        | TM-T88V  | OPOS      |                         |
+| Epson        | TM-T88IV | OPOS      |                         |
+| HP           | H300     | OPOS      | USB met voeding             |
+| Star         | TSP650II | Aangepast    | Aangesloten via netwerk   |
+| Star         | mPOP     | OPOS      | Aangesloten via Bluetooth |
+| Toshiba      | HSP100   | OPOS      |                         |
+| Toshiba      | HSP150   | OPOS      |                         |
 
 #### <a name="bar-code-scanner"></a>Streepjescodelezer
 
-| Producent  | Model   | Interface | Opmerkingen |
-|---------------|---------|-----------|----------|
-| Motorola      | DS9208  | OPOS      |          |
-| Symbool        | LS2208  | OPOS      |          |
-| HP geïntegreerd | E1L07AA | OPOS      |          |
+| Producent  | Model         | Interface | Opmerkingen |
+| ------------- | ------------- | --------- | -------- |
+| Datalogic     | Magellan 8400 | OPOS      |          |
+| HP geïntegreerd | E1L07AA       | OPOS      |          |
+| Symbool        | LS2208        | OPOS      |          |
 
-#### <a name="pin-pad"></a>Pinapparaat
+#### <a name="payment-terminals-and-pin-pads"></a>Betalingsterminals en pinapparaten
 
-| Fabrikant | Model  | Interface | Opmerkingen                                        |
-|--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPOS      | Aanpassing van de betalingsconnector vereist |
+Dynamics 365 Commerce biedt een standaardoplossing voor integratie met Adyen voor betaalservices. De [Dynamics 365 Payment Connector voor Adyen](dev-itpro/adyen-connector.md) gebruikt de apparaatonafhankelijke [Adyen Payment Terminal-API](https://www.adyen.com/blog/introducing-the-terminal-api) en kan werken met alle betalingsterminals die door deze API worden ondersteund. Zie [Adyen POS-terminals](https://www.adyen.com/pos-payments/terminals) voor een volledige lijst met ondersteunde betalingsterminals .
 
-#### <a name="payment-terminal"></a>Betalingsterminal
-
-| Fabrikant | Model | Interface | Opmerkingen                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Aangepast    | Aanpassing van de betalingsconnector vereist                                |
-| VeriFone     | MX925 | Aangepast    | Vereist aanpassing van de betalingsconnector; aangesloten via een netwerk en USB |
-| VeriFone     | MX915 | Aangepast    | Vereist aanpassing van de betalingsconnector; aangesloten via een netwerk en USB |
+U kunt ook andere betalingsproviders gebruiken met Dynamics 365 Commerce door een aangepaste connector te maken. Elke betalingsterminal die door de betalingsprovider wordt ondersteund, kan worden gebruikt met Dynamics 365 Commerce. In Dynamics 365 Commerce zijn ook integratiemodellen toegestaan voor betalingsapparaten die door de betalingsprovider worden ondersteund, zoals lokale IP, cloud-API of directe verbinding (bijvoorbeeld via USB) met het POS. Zie [Complete betalingsintegratie maken voor een betalingsterminal](dev-itpro/end-to-end-payment-extension.md) voor meer informatie.
 
 #### <a name="cash-drawer"></a>Kassalade
 
-| Fabrikant | Model     | Interface | Opmerkingen              |
+| Producent | Model     | Interface | Opmerkingen              |
 |--------------|-----------|-----------|-----------------------|
 | APG          | Atwood    | Aangepast    | Aangesloten via netwerk |
 | Star         | SMD2-1317 | OPOS      |                       |
@@ -780,26 +755,24 @@ De volgende randapparaten zijn getest met een gedeeld IIS-hardwarestation, samen
 
 #### <a name="printer"></a>Printer
 
-| Producent | Model    | Interface | Opmerkingen              |
-| ------------ | -------- | --------- | --------------------- |
-| Epson        | TM-T88V  | OPOS      |                       |
-| Epson        | TM-T88VI | OPOS      |                       |
-| Epson        | TM-T88   | Aangepast    | Aangesloten via netwerk |
-| HP           | F7M67AA  | OPOS      | USB met voeding           |
-| Star         | TSP650II | Aangepast    | Aangesloten via netwerk |
-| Toshiba      | HSP100   | OPOS      |                       |
-| Toshiba      | HSP150   | OPOS      |                       |
+| Producent | Model    | Interface | Opmerkingen                |
+| ------------ | -------- | --------- | ----------------------- |
+| Epson        | TM-T88V  | OPOS      |                         |
+| Epson        | TM-T88IV | OPOS      |                         |
+| HP           | H300     | OPOS      | USB met voeding             |
+| Star         | mPOP     | OPOS      | Aangesloten via Bluetooth |
+| Toshiba      | HSP100   | OPOS      |                         |
+| Toshiba      | HSP150   | OPOS      |                         |
 
 #### <a name="payment-terminal"></a>Betalingsterminal
 
-| Producent | Model | Interface | Opmerkingen                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| VeriFone     | MX925 | Aangepast    | Vereist aanpassing van de betalingsconnector; aangesloten via een netwerk en USB |
-| VeriFone     | MX915 | Aangepast    | Vereist aanpassing van de betalingsconnector; aangesloten via een netwerk en USB |
+Dynamics 365 Commerce biedt een standaardoplossing voor integratie met Adyen voor betaalservices. De [Dynamics 365 Payment Connector voor Adyen](dev-itpro/adyen-connector.md) gebruikt de apparaatonafhankelijke [Adyen Payment Terminal-API](https://www.adyen.com/blog/introducing-the-terminal-api) en kan werken met alle betalingsterminals die door deze API worden ondersteund. Zie [Adyen POS-terminals](https://www.adyen.com/pos-payments/terminals) voor een volledige lijst met ondersteunde betalingsterminals .
+
+U kunt ook andere betalingsproviders gebruiken met Dynamics 365 Commerce door een aangepaste connector te maken. Elke betalingsterminal die door de betalingsprovider wordt ondersteund, kan worden gebruikt met Dynamics 365 Commerce. In Dynamics 365 Commerce zijn ook integratiemodellen toegestaan voor betalingsapparaten die door de betalingsprovider worden ondersteund, zoals lokale IP, cloud-API of directe verbinding (bijvoorbeeld via USB) met het POS. Zie [Complete betalingsintegratie maken voor een betalingsterminal](dev-itpro/end-to-end-payment-extension.md) voor meer informatie.
 
 #### <a name="cash-drawer"></a>Kassalade
 
-| Fabrikant | Model     | Interface | Opmerkingen              |
+| Producent | Model     | Interface | Opmerkingen              |
 |--------------|-----------|-----------|-----------------------|
 | APG          | Atwood    | Aangepast    | Aangesloten via netwerk |
 | Star         | SMD2-1317 | OPOS      |                       |
@@ -822,7 +795,7 @@ De volgende randapparaten zijn getest met een gedeeld IIS-hardwarestation, samen
 
 **Oplossing:** Dit kan worden veroorzaakt door één van de volgende:
 
--   Het hardwarestation is niet correct ingesteld in het hoofdkantoor. Verifieer met de stappen eerder in dit onderwerp of het hardwarestationprofiel en het hardwarestation correct zijn ingevoerd.
+-   Het hardwarestation is niet correct ingesteld in het hoofdkantoor. Zie voor informatie het onderwerp [Retail Hardware Station configureren en installeren](retail-hardware-station-configuration-installation.md#troubleshooting). 
 -   De taken voor het bijwerken van de afzetkanaalconfiguratie zijn nog niet uitgevoerd. Voer in dit geval taak 1070 voor afzetkanaalconfiguratie uit.
 
 ### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a>In Modern POS zijn de nieuwe instellingen voor de kassalade niet zichtbaar.

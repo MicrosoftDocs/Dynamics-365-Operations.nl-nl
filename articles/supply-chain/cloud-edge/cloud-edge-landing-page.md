@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ef81ef7ad726ebe0cc6a0acd58cb68d07e222a42
-ms.sourcegitcommit: 0d14c4a1e6cf533dd20463f1a84eae8f6d88f71b
+ms.openlocfilehash: 30f455f37b5161878cf9c864b92966aa74da051f
+ms.sourcegitcommit: b52ff5dfd32580121f74a5f262e5c2495e39d578
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119182"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8376177"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Schaaleenheden in een gedistribueerde hybride topologie
 
@@ -40,7 +40,7 @@ Workloadcapaciteiten worden doorlopend vrijgegeven door middel van incrementele 
 
 ## <a name="scale-units-and-dedicated-workloads"></a>Schaaleenheden en toegewezen workloads
 
-Schaaleenheden bereiden uw centrale Supply Chain Management-hubomgeving uit met extra toegewezen verwerkingscapaciteit. Schaaleenheden kunnen in de cloud worden uitgevoerd. U kunt ze ook aan de edge, on-premises bij uw lokale faciliteit gebruiken.
+Schaaleenheden bereiden uw centrale Supply Chain Management-hubomgeving uit met extra toegewezen verwerkingscapaciteit. Schaaleenheden kunnen in de cloud worden uitgevoerd. U kunt ze ook aan de [edge](cloud-edge-edge-scale-units-lbd.md), on-premises bij uw lokale faciliteit gebruiken.
 
 :::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 met schaaleenheden.":::
 
@@ -65,9 +65,9 @@ De productie-workload biedt de volgende mogelijkheden:
 
 Zie [Werkbelasting voor productie-uitvoering voor cloud- en edgeschaaleenheden](cloud-edge-workload-manufacturing.md) voor meer informatie.
 
-## <a name="considerations-before-you-enable-the-distributed-hybrid-topology-for-supply-chain-management"></a>Overwegingen voordat u de gedistribueerde, hybride topologie voor Supply Chain Management inschakelt
+## <a name="considerations-before-you-enable-the-distributed-hybrid-topology-for-supply-chain-management"></a>Overwegingen voordat u de gedistribueerde hybride topologie voor Supply Chain Management inschakelt
 
-Door de gedistribueerde, hybride topologie in te schakelen zorgt u ervoor dat de Supply Chain Management-cloudomgeving functioneert als een hub. U kunt ook extra omgevingen koppelen die als schaaleenheden in de cloud of aan de edge zijn geconfigureerd.
+Door de gedistribueerde hybride topologie in te schakelen zorgt u ervoor dat de Supply Chain Management-cloudomgeving functioneert als een hub. U kunt ook extra omgevingen koppelen die als schaaleenheden in de cloud of aan de edge zijn geconfigureerd.
 
 ### <a name="prerequisites-and-limitations-for-cloud-scale-units"></a><a name="cloud-scale-unit-prerequisites"></a>Vereisten en beperkingen voor cloudschaaleenheden
 
@@ -116,7 +116,7 @@ Metrische gegevens en maateenheden die u kunnen helpen de beste toepassing voor 
 
 ### <a name="data-processing-during-management-of-scale-units"></a><a name="data-processing-management"></a>Gegevensverwerking tijdens het beheer van schaaleenheden
 
-Wanneer u uw Dynamics 365-omgeving in staat stelt om de gedistribueerde, hybride topologie voor cloud- en edgeschaaleenheden te ondersteunen, worden sommige beheerservices alleen in de Verenigde Staten gehost, zoals voor LCS. Dit gedrag heeft invloed op de overdracht en opslag van bepaalde beheer- en configuratiegegevens die worden gebruikt door de [portal voor schaaleenhedenbeheer](https://sum.dynamics.com). Hieronder volgen een aantal voorbeelden:
+Wanneer u uw Dynamics 365-omgeving in staat stelt om de gedistribueerde hybride topologie voor cloud- en edgeschaaleenheden te ondersteunen, worden sommige beheerservices alleen in de Verenigde Staten gehost, zoals voor LCS. Dit gedrag heeft invloed op de overdracht en opslag van bepaalde beheer- en configuratiegegevens die worden gebruikt door de [portal voor schaaleenhedenbeheer](https://sum.dynamics.com). Hieronder volgen een aantal voorbeelden:
 
 - Uw tenant-namen en -id's
 - Uw LCS project-id's
@@ -127,31 +127,25 @@ Wanneer u uw Dynamics 365-omgeving in staat stelt om de gedistribueerde, hybride
 
 Gegevens die worden overgebracht naar en opgeslagen in de Amerikaanse datacentra, worden verwijderd volgens het bewaarbeleid van Microsoft. Uw privacy is belangrijk voor Microsoft. Lees onze [Privacyverklaring](https://go.microsoft.com/fwlink/?LinkId=521839) voor meer informatie.
 
-## <a name="onboarding-in-two-stages"></a>Onboarding in twee fasen
+## <a name="onboard-to-the-distributed-hybrid-topology-for-supply-chain-management"></a>Onboarden bij de gedistribueerde hybride topologie voor Supply Chain Management
 
-Het onboardingsproces voor de gedistribueerde, hybride topologie heeft twee fasen. Tijdens de eerste fase moet u aanpassingen valideren om ervoor te zorgen dat ze werken in de gedistribueerde topologie met schaaleenheden. Sandbox- en productieomgevingen worden alleen tijdens de tweede fase verplaatst.
+### <a name="try-out-the-distributed-hybrid-topology"></a>De gedistribueerde hybride topologie uitproberen
 
-### <a name="stage-1-evaluate-customizations-in-one-box-development-environments"></a>Fase 1: Aanpassingen in ontwikkelomgevingen met één vak evalueren
+Het onboardingsproces voor de gedistribueerde hybride topologie heeft twee fasen. Tijdens de eerste fase moet u de oplossing [proberen](cloud-edge-try-out.md) en uw aanpassingen valideren om te zorgen dat ze werken in een gedistribueerde topologie met schaaleenheden. (U kunt bestaande ontwikkelomgevingen gebruiken om de validatie uit te voeren.) U kunt vervolgens doorgaan naar de tweede fase, waar u productieomgevingen verwerft.
 
-Voordat u uw sandbox- of productieomgevingen gaat opnemen, is het raadzaam om schaaleenheden te onderzoeken in een ontwikkelopstelling, zoals een omgeving met één vak (ook wel een tier-1-omgeving genoemd), zodat u processen, aanpassingen en oplossingen kunt valideren. In deze fase worden gegevens en aanpassingen toegepast op de omgevingen met één vak. Eén omgeving krijgt de rol van de heb en de andere de rol van een schaaleenheid. Deze opzet biedt de beste manier om problemen op te lossen. U kunt ook de nieuwste build voor vroege toegang (PEAP) gebruiken om deze fase te voltooien.
-
-Voor fase 1 moet u de [implementatieprogramma's voor schaaleenheden gebruiken voor ontwikkelomgevingen met één vak](https://github.com/microsoft/SCMScaleUnitDevTools). Met deze hulpprogramma's kunt u hub- en schaaleenheden configureren in een of twee afzonderlijke omgevingen met één vak. De hulpprogramma's worden geleverd als binaire versie en in broncode op GitHub. Bestudeer de project-wiki die een [stapsgewijze gebruikshandleiding](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide) bevat hoe u de hulpmiddelen gebruikt.
-
-### <a name="stage-2-acquire-add-ins-and-deploy-in-your-sandbox-and-production-environments"></a>Fase 2: invoegvoegingen verkrijgen en implementeren in uw sandbox- en productieomgevingen
-
-Als u een van uw sandbox- of productieomgevingen aan de nieuwe topologie wilt toevoegen, moet u invoegtoepassingen voor een of meer cloudschaaleenheden (en in de toekomst voor edgeschaaleenheden) verkrijgen. Via de invoegingtoepassingen worden overeenkomstige project- en omgevingseenheden in [LCS](https://lcs.dynamics.com/) toegekend, zodat de omgevingen van schaaleenheden kunnen worden geïmplementeerd.
-
-> [!NOTE]
-> De invoegtoepassingen voor schaaleenheden zijn niet gekoppeld aan een beperkt aantal gebruikers, maar kunnen door elke gebruiker in het bestaande abonnement worden gebruikt, op basis van de rollen die de beheerder toewijst.
+## <a name="select-your-lcs-project-tenant-and-the-detailed-onboarding-process"></a>Uw LCS-projecttenant selecteren en het gedetailleerde onboardingsproces
 
 Schaaleenheden worden in meerdere voorraadeenheden (SKU's) en prijsopties aangeboden. Daarom kunt u de optie kiezen die het beste voldoet aan uw geplande maandelijkse transactievolume- en prestatievereisten.
+
+> [!TIP]
+> Werk samen met uw implementatiepartner en Microsoft om inzicht te krijgen in de grootte van de maandelijkse transacties die u nodig hebt en die het beste passen bij uw vereisten.
 
 De SKU op invoerniveau staat bekend als *Basic* en de beter presterende SKU wordt *Standard* genoemd. Elke SKU wordt vooraf geladen met een bepaald aantal maandelijkse transacties. U kunt het maandelijkse transactiebudget echter verhogen door invoegingen voor overschrijding toe te voegen voor elke SKU.
 
 :::image type="content" source="media/SKUs-highlevel.png" alt-text="Invoegtoepassingen voor cloudschaaleenheden.":::
 
-> [!TIP]
-> Werk samen met uw partner en Microsoft om inzicht te krijgen in de grootte van de maandelijkse transacties die u nodig hebt en die het beste passen bij uw vereisten.
+> [!NOTE]
+> Invoegtoepassingen voor schaaleenheden zijn niet gekoppeld aan een beperkt aantal gebruikers. Deze zijn beschikbaar voor elke gebruiker in uw bestaande abonnement (als de beheerder de vereiste gebruikersrollen aan hen heeft toegewezen).
 
 De aankoop van elke invoegtoepassing voor schaaleenheden geeft u niet alleen een maandelijks volume aan transacties, maar zorgt ook voor een specifiek aantal omgevingsslots in LCS. Voor elke invoegtoepassing voor cloudschaaleenheden hebt u recht op één nieuw productieslot en één nieuw sandboxslot. Tijdens de onboarding wordt een nieuw LCS-project toegevoegd met deze slots. De gebruiksrechten voor de de slots zijn zo gebonden dat ze moeten worden gebruikt als schaaleenheden met een cloudhub.
 
@@ -159,11 +153,8 @@ Bij invoegtoepassingen voor overschrijding hebt u geen recht op nieuwe omgevings
 
 Als u nog meer sandbox-omgevingen wilt aanschaffen, kunt u extra normale sandboxslots aanschaffen. Microsoft kan u dan helpen om deze slots als sandbox-schaaleenheden voor de hybride topologie in te schakelen.
 
-## <a name="onboard-to-the-distributed-hybrid-topology-for-supply-chain-management"></a>Onboarden bij de gedistribueerde hybride topologie voor Supply Chain Management
 
-### <a name="select-your-lcs-project-tenant-and-the-detailed-onboarding-process"></a>Uw LCS-projecttenant selecteren en het gedetailleerde onboardingsproces
-
-Nadat u de onboardingsplanning hebt voltooid voor de gedistribueerde, hybride topologie voor Supply Chain Management, gebruikt u de [portal voor schaaleenhedenbeheer](https://aka.ms/SCMSUM) om het onboardingsproces te starten. In de portal selecteert u het tabblad **Dynamics 365 Tenants**. Dit tabblad toont de lijst met tenants waarvan uw account deel uitmaakt en waar u eigenaar of een omgevingsbeheerder voor een LCS-project bent.
+Nadat u de onboardingsplanning hebt voltooid voor de gedistribueerde hybride topologie voor Supply Chain Management, gebruikt u de [portal voor schaaleenhedenbeheer](https://aka.ms/SCMSUM) om het onboardingsproces te starten. In de portal selecteert u het tabblad **Dynamics 365 Tenants**. Dit tabblad toont de lijst met tenants waarvan uw account deel uitmaakt en waar u eigenaar of een omgevingsbeheerder voor een LCS-project bent.
 
 Als de tenant die u zoekt niet in de lijst voorkomt, gaat u naar [LCS](https://lcs.dynamics.com/v2) en controleert u of u een omgevingsbeheerder of een projecteigenaar bent van het LCS-project voor die tenant. Alleen Azure Active Directory (Azure AD)-accounts van de geselecteerde tenant zijn geautoriseerd om de aanmeldingservaring te voltooien.
 

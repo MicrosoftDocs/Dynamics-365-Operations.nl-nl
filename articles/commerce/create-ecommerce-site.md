@@ -2,7 +2,7 @@
 title: Een e-commerce-site maken
 description: In dit onderwerp worden de stappen en informatie beschreven die nodig zijn om een nieuwe e-Commerce-site in Dynamics 365 Commerce site builder te maken.
 author: bicyclingfool
-ms.date: 02/03/2022
+ms.date: 03/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 01f22772fd8c8984a2f92c516972d6659325a18c
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 5e451b1c95c3e26d1292e7b8300b62af43c81f2f
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090764"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388206"
 ---
 # <a name="create-an-e-commerce-site"></a>Een e-commerce-site maken
 
@@ -30,6 +30,19 @@ ms.locfileid: "8090764"
 In dit onderwerp worden de stappen en informatie beschreven die nodig zijn om een nieuwe e-Commerce-site in Dynamics 365 Commerce site builder te maken.
 
 Wanneer u een licentie neemt voor de functies voor Dynamics 365 Commerce, wordt site builder ingericht met een startsite die u kunt gebruiken als basis voor uw eigen site. Als u echter zelf wilt beginnen of als u een tweede site wilt maken, moet u een nieuwe site maken in de site-ontwerpomgeving. 
+
+## <a name="site-creation-prerequisites"></a>Vereisten voor het maken van een site
+
+Een site builder-gebruiker moet een gebruikersaccount voor Microsoft Azure Active Directory (Azure AD) hebben in de Azure AD-beveiligingsgroep die is toegewezen aan de beheerders van het e-commercesysteem. Zie [Een nieuwe e-commercetenant implementeren](deploy-ecommerce-site.md) voor meer informatie.
+
+> [!NOTE]
+> Azure AD-gastgebruikers hebben mogelijk verschillende toegangsrechten in uw Azure AD-tenant. Zelfs als deze is opgenomen in de Azure AD-beveiligingsgroep die is toegewezen aan de e-commercesysteembeheerders, zijn voor een gastgebruiker in Azure AD mogelijk de machtigingsinstellingen **Externe gebruikers** nodig om een e-commercesite in Commerce te maken. 
+
+Volg deze stappen om Azure AD-instellingen van **externe gebruikers** aan te passen.
+
+1. Navigeer in de Azure-portal naar uw Azure AD-tenant.
+1. Ga naar **Gebruikersinstellingen \> Externe gebruikers** en selecteer de koppeling **Externe samenwerkingsinstellingen beheren**. Hiermee opent u de pagina **Externe samenwerkingsinstellingen** waar toegang voor gastgebruikers, instellingen voor gastuitnodigingen en beperkingen voor samenwerking kunnen worden ingesteld. 
+1. Pas de instellingen voor externe samenwerking aan conform het beveiligingsbeleid van uw bedrijf. 
 
 ## <a name="set-up-your-site"></a>Uw site instellen
 

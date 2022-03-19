@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: f5b3c013996253de75cd85c4bcfc52ed159e8f9d
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 88f1e9ef8c8b2aa494c44ea3b33713adc470eb96
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860503"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384792"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Aan de slag met Algemene voorraadboekhouding (Global Inventory Accounting)
 
@@ -121,7 +121,7 @@ Volg deze stappen om de integratie in te stellen tussen Global Inventory Account
 1. Meld u aan bij Supply Chain Management.
 1. Ga naar **Systeembeheer \> Functiebeheer**.
 1. Selecteer **Controleren op updates**.
-1. Zoek op het tabblad **Alle** naar de functie genaamd *Algemene voorraadboekhouding*.
+1. Zoek op het tabblad **Alle** naar de functie genaamd *(Preview) Algemene voorraadboekhouding*.
 1. Selecteer **Nu inschakelen**.
 1. Ga naar voor **Algemene voorraadboekhouding \> Instellen \> Parameters algemene voorraadboekhouding \> Integratieparameters**.
 1. In de velden **Dataservice-eindpunt** en **Eindpunt voor algemene voorraadboekhouding** voert u de URL's in uit de e-mail die het team van Global Inventory Accounting heeft verzonden toen u zich hebt geregistreerd voor de preview.

@@ -2,7 +2,7 @@
 title: Overzicht van belastingberekening
 description: In dit onderwerp worden het algehele bereik en de functies voor belastingberekening uitgelegd.
 author: wangchen
-ms.date: 11/17/2021
+ms.date: 03/02/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1dff1767b8e19215a2b27f87c45325e6abd1266e
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: a02767e4a90fa6b7414c796d66e758afe0501cf5
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105432"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388490"
 ---
 # <a name="tax-calculation-overview"></a>Overzicht van belastingberekening
 
@@ -58,6 +58,7 @@ Belastingberekening wordt geïmplementeerd in de volgende geografische regio's v
 - Canada
 - Europa
 - Japan
+- Zwitserland
 - Verenigd Koninkrijk
 - Verenigde Staten
 
@@ -77,6 +78,7 @@ Het is raadzaam om uw btw-berekeningsconfiguratie te importeren en in te stellen
 | 10.0.23         | Belastingberekeningsconfiguratie 40.50.221 |
 | 10.0.24         | Belastingberekeningsconfiguratie 40.50.225 |
 | 10.0.25         | Belastingberekeningsconfiguratie 40.50.225 |
+| 10.0.26         | Belastingberekeningsconfiguratie 40.54.234 |
 
 
 ## <a name="data-flow"></a>Gegevensstroom
@@ -136,6 +138,11 @@ De volgende transacties worden ondersteund in versie 10.0.23:
 
 - Vrije-tekstfactuur
 
+De volgende transacties worden ondersteund in versie 10.0.26: 
+
+- Algemene journalen
+- Leveranciersfacturenjournaal
+
 ## <a name="supported-countriesregions"></a>Ondersteunde landen/regio's
 
 Belastingberekening kan per rechtspersoon worden ingeschakeld. 
@@ -187,6 +194,12 @@ De volgende landen/regio's voor het primaire adres van een rechtspersoon worden 
 De volgende landen/regio's voor het primaire adres van een rechtspersoon worden ondersteund in versie 10.0.24:
 
 - Mexico
+
+De volgende landen/regio's voor het primaire adres van een rechtspersoon worden ondersteund in versie 10.0.26:
+
+- China
+- Tsjechische Republiek
+- Spanje
 
 ## <a name="related-resources"></a>Gerelateerde bronnen
 

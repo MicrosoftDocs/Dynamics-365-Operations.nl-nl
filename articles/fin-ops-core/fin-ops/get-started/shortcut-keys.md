@@ -2,7 +2,7 @@
 title: Sneltoetsen
 description: Dit onderwerp biedt een overzicht van de sneltoetscombinaties die u kunt gebruiken wanneer u met apps voor financiële en bedrijfsactiviteiten werkt.
 author: jasongre
-ms.date: 02/11/2022
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5243ea35138aa37d9fc54821e0923d0fa47c95de
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: 7d66c1fd08c29b85ca14bf1ae5d08c603e4a1945
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119547"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384558"
 ---
 # <a name="keyboard-shortcuts"></a>Sneltoetsen
 
 [!include [banner](../includes/banner.md)]
-
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
@@ -199,9 +199,12 @@ Gebruikers kunnen momenteel beschikbaar snelkoppelingen rechtstreeks vanuit de g
 | Naar de hoofdpaginainhoud gaan (met de focus in een ander deelvenster)                    | Alt+M, M                    |
 | Naar het feitenvak gaan (of dit venster openen, indien van toepassing)                       | Alt+M, B of Ctrl+F2         |
 
+> [!NOTE]
+> Met de functie **Tabbladen stroomlijnen in formulieren met volledige pagina's**, die in versie 10.0.26 wordt geïntroduceerd, kunnen gebruikers met tabs door alle gebieden van een pagina gaan, zonder dat de muis of een specifieke snelkoppeling tussen gebieden nodig is. Met de bestaande sneltoetsen (zoals alt+M-toetstoetsen) kunt u nog wel snel tussen de gebieden op een pagina schakelen.
+
 ## <a name="personalization-shortcuts"></a>Sneltoetsen voor [aanpassing](personalize-user-experience.md) 
 
-| Gewenste bewerking                                                                                                             | Druk op                               |
+| Gewenste bewerking                                                                                                             | Druk op                                |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | De pagina overzetten naar de aanpassingsmodus                                                                          | Ctrl+Shift+P                        |
 | Het hulpmiddel Selecteren gebruiken (in de aanpassingsmodus)                                                                     | S                                   |

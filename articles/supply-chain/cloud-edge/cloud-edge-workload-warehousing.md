@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0d8b0f5a4878a924943f6f8876575d5247875811
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 67f78441b0914d18c2a7853bab54c6b8817be3ac
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068104"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384479"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Werkbelasting van magazijnbeheer voor cloud- en randschaaleenheden
 
@@ -210,9 +210,9 @@ De volgende magazijnbeheerfunctionaliteit wordt momenteel niet ondersteund voor 
 - Verwerking met artikelen alleen ingeschakeld voor Transportbeheer (TMS).
 - Verwerking met negatieve voorhanden voorraad.
 - Delen van gegevens tussen meerdere bedrijven voor producten. <!-- Planned -->
-- Magazijnwerkverwerking met verzendingsnotities.
-- Magazijnwerkverwerking met materiaalverwerking/warehouse automation.
+- Magazijnverwerking met verzendingsnotities (bijvoorbeeld paknotities op het verpakkingsstation).
 - Installatiekopieën met productmodelgegevens (bijvoorbeeld in de mobiele Warehouse Management-app).
+- Magazijnwerkverwerking met materiaalverwerking/warehouse automation.
 
 > [!WARNING]
 > Een aantal magazijnfuncties is niet beschikbaar voor magazijnen met de werkbelasting van magazijnbeheer voor een schaaleenheid en wordt ook niet ondersteund voor de werkbelasting van de hub of schaaleenheid.
@@ -235,10 +235,9 @@ In de volgende tabel ziet u welke uitgaande functies worden ondersteund en waar 
 | Verzendingswaves verwerken                                     | Nee  |Ja, behalve **Ladingopbouw en sorteren** |
 | Zendingen onderhouden voor wave                                  | Nee  | Ja|
 | Magazijnwerk verwerken (inclusief nummerplaat afdrukken)        | Nee  | Ja, maar alleen voor de eerdergenoemde ondersteunde mogelijkheden |
-| Orderverzamelen van cluster                                              | Nee  | Ja|
-| Handmatige verpakkingsverwerking, incl. verwerking van werk 'Orderverzameling voor ingepakte container' | Nr. <P>Bepaalde verwerking kan worden uitgevoerd nadat een oorspronkelijk orderverzamelproces is verwerkt door een schaaleenheid. Dit wordt echter afgeraden vanwege volgende geblokkeerde bewerkingen.</p>  | Nee |
-| Container verwijderen uit groep                                  | Nee  | Nee |
-| Uitgaande sorteringen verwerken                                  | Nee  | Nee |
+| Orderverzamelen van cluster                                              | Nr.  | Ja|
+| Handmatige verwerking van verpakkingsstation  | Nr.  | Nr. |
+| Uitgaande sorteringen verwerken                                  | Nr.  | Nr. |
 | Lading-gerelateerde documenten afdrukken                           | Ja | Ja|
 | Vrachtbrief en ASN-generatie                            | Nee  | Ja|
 | Verzendbevestiging                                             | Nee  | Ja|
@@ -258,6 +257,7 @@ In de volgende tabel ziet u welke uitgaande functies worden ondersteund en waar 
 | Verzendbevestiging omkeren                                | Nr.  | Ja|
 | Aanvraag van annulering van magazijnorderregels                      | Ja | Nee, maar de aanvraag wordt goedgekeurd of afgewezen |
 | <p>Transferorders vrijgeven voor ontvangst</p><p>Dit proces wordt automatisch uitgevoerd als onderdeel van het verzendproces voor transferorders. Het kan echter handmatig worden gebruikt om de ontvangst van nummerplaten op een schaaleenheid in te schakelen als inkomende magazijnorderregels zijn geannuleerd of als onderdeel van een nieuw workloadimplementatieproces.</p> | Ja | Nr.|
+<!--| Handmatige verpakkingsverwerking, incl. 'Orderverzameling voor ingepakte container'  | Nr.  | Ja, maar zonder zendings- en verkooppakbonboekingen en zonder verpakkingsnotities en productafbeeldingen |-->
 
 ### <a name="inbound"></a>Inkomend
 
@@ -359,6 +359,7 @@ In de hubimplementatie kunt u de volgende batchtaken handmatig onderhouden:
     - Berichtverwerking van schaaleenheid naar hub
     - Ontvangsten van bronorders registreren
     - Magazijnorders voltooien
+    - Ontbrekende uitgaande magazijnorders genereren
 
 - Beheer de volgende batchtaken via **Magazijnbeheer \> Periodieke taken \> Workloadbeheer**:
 

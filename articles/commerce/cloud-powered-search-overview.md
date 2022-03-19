@@ -2,7 +2,7 @@
 title: Overzicht van zoekopdrachten via cloud
 description: Dit onderwerp geeft een overzicht van de zoekfunctie via de cloud in Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-ms.date: 06/29/2020
+ms.date: 02/28/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb34780d5bdd41a128fff543fe0f1ef73cfead8b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9116dd415d44a56fbe8c7852382c413b0a75872c
+ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983664"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8371424"
 ---
 # <a name="cloud-powered-search-overview"></a>Overzicht van zoekopdrachten via cloud
 
@@ -26,13 +26,13 @@ ms.locfileid: "7983664"
 
 Dit onderwerp geeft een overzicht van de zoekfunctie via de cloud in Microsoft Dynamics 365 Commerce.
 
-Met behulp van productdetectie kunnen klanten snel en eenvoudig producten vinden door te bladeren in categorieën, en door te zoeken en te filteren. Voor detailhandelaren is het kunnen vinden van producten een primair hulpmiddel voor de interactie met klanten in alle kanalen.
+Met behulp van productdetectie kunnen klanten snel en eenvoudig producten vinden door te bladeren in categorieën, en door te zoeken en te filteren. Detailhandelaren beschouwen productdetectie als primaire functie voor klantinteractie tussen kanalen die worden aangestuurd door CSU (cloud Scale Unit), zoals e-commerce en POS (point-of-sale).
 
-Klanten zijn gewend aan de bijna directe responstijden van zoekmachines, geavanceerde e-commerce-websites, sociale apps, automatische suggesties die worden weergegeven tijdens het typen van zoektermen, facetnavigatie en markeren. Als klanten het gewenste product niet snel genoeg kunnen vinden in de ene e-commerce-winkel, zullen ze al snel naar een ander e-commerce-winkel gaan.
+Klanten zijn gewend aan de bijna directe responstijden van zoekmachines, geavanceerde e-commerce-websites, sociale apps, automatische suggesties die worden weergegeven tijdens het typen van zoektermen, facetnavigatie en markeren. Als klanten het gewenste product niet snel kunnen vinden in de ene e-commercewinkel, zullen ze al snel naar een ander e-commercewinkel gaan.
 
-Door de detecteerbaarheid van producten in de cloud in Dynamics 365 Commerce kunnen winkeliers klanten langer vasthouden en de conversiesnelheid in alle afzetkanalen verbeteren, zowel in e-commerce-kanalen als point of sale-kanalen (POS).
+Door de detecteerbaarheid van producten in Commerce kunnen winkeliers klanten langer vasthouden en de conversiesnelheid verbeteren in alle afzetkanalen die werken met CSU.
 
-De zoekervaring in Dynamics 365 Commerce heeft verbeterde mogelijkheden om detailhandelaren te helpen betere productdetectie te realiseren. Tegelijkertijd bieden deze mogelijkheden de schaalbaarheid en prestaties die vereist zijn voor e-commerce-verkeer.
+De zoekervaring in Commerce heeft verbeterde mogelijkheden om detailhandelaren te helpen betere productdetectie te realiseren. Tegelijkertijd bieden deze mogelijkheden de schaalbaarheid en prestaties die vereist zijn voor e-commerceverkeer.
 
 ## <a name="browse-and-search"></a>Bladeren en zoeken
 
@@ -54,9 +54,9 @@ In de volgende afbeelding ziet u een voorbeeld waarin facetnavigatie wordt gebru
 
 ## <a name="immersive-autosuggest"></a>Automatische suggesties
 
-Met de huidige functie voor automatische suggesties worden alleen trefwoorden weergegeven die een zoekopdracht naar het overeenkomende trefwoord starten. Vanwege nieuwe verbeteringen in Dynamics 365 Commerce kunnen klanten vaak koppelingen naar producten vinden voordat ze klaar zijn met typen.
+Met de huidige functie voor automatische suggesties worden trefwoorden weergegeven die een zoekopdracht naar het overeenkomende trefwoord starten. Vanwege nieuwe verbeteringen in Commerce kunnen klanten vaak koppelingen naar producten vinden voordat ze klaar zijn met typen.
 
-Dynamics 365 Commerce ondersteunt ook functionaliteit voor trefwoordovereenkomsten in verschillende categorieën. Met deze functionaliteit kunnen klanten het aantal overeenkomende trefwoorden binnen categorieën bekijken en een zoekactie naar een trefwoord in andere categorieën starten.
+Commerce ondersteunt ook functionaliteit voor trefwoordovereenkomsten in verschillende categorieën. Met deze functionaliteit kunnen klanten het aantal overeenkomende trefwoorden binnen categorieën bekijken en een zoekactie naar een trefwoord in andere categorieën starten.
 
 In de volgende afbeelding ziet u een voorbeeld waarin automatische suggesties wordt gebruikt.
 
@@ -64,10 +64,10 @@ In de volgende afbeelding ziet u een voorbeeld waarin automatische suggesties wo
 
 ## <a name="sort"></a>Sorteren
 
-Dankzij de verbeterde sorteermogelijkheden in Dynamics 365 Commerce kunnen klanten de zoekresultaten sorteren, zoeken en bekijken, en deze verfijnen aan de hand van criteria zoals prijs, productnaam en productnummer. Klanten kunnen de resultaten ook sorteren op basis van het feit of een product nieuw is, best verkocht of onlangs is toegevoegd.
+Dankzij de verbeterde sorteermogelijkheden in Commerce kunnen klanten de zoekresultaten sorteren, zoeken en bekijken, en deze verfijnen aan de hand van criteria zoals prijs, productnaam en productnummer. Klanten kunnen de resultaten ook sorteren op basis van het feit of een product nieuw is, best verkocht of onlangs is toegevoegd.
 
->[!NOTE]
->Deze zoekmogelijkheden via de cloud zijn beschikbaar vanaf versie 10.0.8. Zorg ervoor dat onder **Commerce-parameters > Configuratieparameters** een vermelding bestaat voor ProductSearch.UseAzureSearch die is ingesteld op true. 
+> [!NOTE]
+> Deze zoekmogelijkheden via de cloud zijn beschikbaar vanaf versie 10.0.8. Zorg ervoor dat onder **Commerce-parameters > Configuratieparameters** een vermelding bestaat voor 'ProductSearch.UseAzureSearch' die is ingesteld op 'true'. 
 ![Configuratieparameters voor zoekopdrachten via de cloud.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
@@ -77,4 +77,4 @@ Dankzij de verbeterde sorteermogelijkheden in Dynamics 365 Commerce kunnen klant
 [Metagegevens SEO beheren](manage-seo-metadata.md)
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE [footer-include](../includes/footer-banner.md)]

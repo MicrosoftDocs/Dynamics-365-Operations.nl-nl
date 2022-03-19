@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: afc1b5996667835c460f467526493380aa2d6403
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 9174612743c68595d12dd223f0932ace1857c0fb
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062081"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358359"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Organisatiehiërarchie in Dataverse
 
@@ -36,11 +36,11 @@ Tabeltoewijzingen voor organisatiehiërarchie zijn beschikbaar voor eenrichtings
 
 ## <a name="templates"></a>Sjablonen
 
-Productinformatie bevat alle informatie die betrekking heeft op het product en de definitie ervan, zoals de productdimensies of de tracerings- en opslagdimensies. Zoals in de volgende tabel wordt weergegeven, wordt er een verzameling tabeltoewijzingen gemaakt om producten en verwante informatie te synchroniseren.
+Een organisatie is een groep mensen die samenwerkt om een bedrijfsproces uit te voeren of een doel te bereiken. Met organisatiehiërarchieën worden de relaties aangegeven tussen de organisaties waaruit het bedrijf bestaat. U kunt de volgende typen interne organisaties definiëren: rechtspersonen, operationele eenheden en teams. Zoals de volgende tabel laat zien, wordt een verzameling tabeltoewijzingen gemaakt om rechtspersonen, operationele eenheden en gerelateerde organigramgegevens te synchroniseren.
 
-Apps voor financiële en bedrijfsactiviteiten | Customer Engagement-apps     | Beschrijving
+Apps voor financiële en bedrijfsactiviteiten | Customer Engagement-apps     | Description
 -----------------------|--------------------------------|---
-[Rechtspersonen](mapping-reference.md#102) | cdm_companies | Biedt bidirectionele synchronisatie van gegevens over rechtspersonen (bedrijven).
+[Rechtspersonen](mapping-reference.md#102) | cdm_companies | 
 [Rechtspersonen](mapping-reference.md#142) | msdyn_internalorganizations |
 [Operationele eenheid](mapping-reference.md#143) | msdyn_internalorganizations |
 [Organisatiehiërarchie - gepubliceerd](mapping-reference.md#139) | msdyn_internalorganizationhierarchies | Deze sjabloon biedt synchronisatie in één richting van de tabel Gepubliceerde organisatiehiërarchie.

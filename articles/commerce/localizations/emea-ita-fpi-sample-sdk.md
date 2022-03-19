@@ -2,23 +2,24 @@
 title: Implementatierichtlijnen voor het voorbeeld van integratie van fiscale printers voor Italië (verouderd)
 description: Dit onderwerp bevat richtlijnen voor de implementatie van het voorbeeld voor fiscale printerintegratie voor Italië vanuit de Retail SDK (Software Development Kit) voor Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 93aca34239affb41998f4309d7c03f29f7b5f003
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: c820c320410c43cafaae43c59cad04efdee24ab2
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076881"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388439"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>Implementatierichtlijnen voor het voorbeeld van integratie van fiscale printers voor Italië (verouderd)
 
 [!include[banner](../includes/banner.md)]
+[!include[banner](../includes/preview-banner.md)]
 
 Dit onderwerp bevat richtlijnen voor de implementatie van het voorbeeld voor integratie van fiscale printer voor Italië vanuit de Microsoft Dynamics 365 Commerce Retail Software Development Kit (SDK) op een virtuele machine (VM) voor een developer in Microsoft Dynamics Lifecycle Services (LCS). Zie [Voorbeeld van integratie van fiscale printer voor Italië](emea-ita-fpi-sample.md) voor meer informatie over dit voorbeeld van fiscale integratie. 
 
@@ -89,13 +90,13 @@ Volg deze stappen om implementeerbare pakketten te maken die Commerce-onderdelen
 1. Voltooi de stappen die zijn beschreven in de sectie [Ontwikkelomgeving](#development-environment) eerder in dit onderwerp.
 2. Breng de volgende wijzigingen aan in de pakketconfiguratiebestanden onder de map **RetailSdk\\Assets**:
 
-    - Voeg in de configuratiebestanden **commerceruntime.ext.config** en **CommerceRuntime.MPOSOffline.Ext.config** de volgende regel toe aan de sectie **Samenstelling**.
+    1. Voeg in de configuratiebestanden **commerceruntime.ext.config** en **CommerceRuntime.MPOSOffline.Ext.config** de volgende regel toe aan de sectie **Samenstelling**.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample" />
         ```
 
-    - Voeg de volgende regel toe aan de sectie **Samenstelling** van het configuratiebestand **HardwareStation.Extension.config**.
+    1. Voeg de volgende regel toe aan de sectie **Samenstelling** van het configuratiebestand **HardwareStation.Extension.config**.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample" />
@@ -103,20 +104,56 @@ Volg deze stappen om implementeerbare pakketten te maken die Commerce-onderdelen
 
 3. Breng de volgende wijzigingen aan in het configuratiebestand voor pakketaanpassing **Customization.settings** onder de map **BuildTools**:
 
-    - Voeg de volgende regel toe om de CRT-extensie op te nemen in de implementeerbare pakketten.
+    1. Voeg de volgende regel toe om de CRT-extensie op te nemen in de implementeerbare pakketten.
 
         ``` xml
         <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.dll"/>
         ```
 
-    - Voeg de volgende regel toe om de extensie voor hardwarestations op te nemen in de implementeerbare pakketten.
+    1. Voeg de volgende regel toe om de extensie voor hardwarestations op te nemen in de implementeerbare pakketten.
 
         ``` xml
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample.dll"/>
         ```
 
-4. Start de MSBuild-opdrachtprompt voor het hulpprogramma Visual Studio en voer vervolgens **msbuild** uit onder de map Retail SDK om implementeerbare pakketten te maken.
-5. Pas de pakketten toe via LCS of handmatig. Zie [Implementeerbare pakketten maken](../dev-itpro/retail-sdk/retail-sdk-packaging.md) voor meer informatie.
+4. Maak de volgende wijzigingen in het bestand **Sdk.ModernPos.Shared.csproj** onder de map **Packages\_SharedPackagingprojectComponents** om de resourcebestanden voor Italië op te nemen in implementeerbare pakketten:
+
+    1. Voeg een sectie **ItemGroup** toe met knooppunten die naar de resourcebestanden voor de gewenste vertalingen wijzen. Zorg ervoor dat u de juiste naamruimten en voorbeeldnamen opgeeft. In het volgende voorbeeld worden er resourceknooppunten voor de landinstellingen **it** **IT-CH** toegevoegd.
+
+        ```xml
+        <ItemGroup>
+            <ResourcesIt Include="$(SdkReferencesPath)\it\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+            <ResourcesItCh Include="$(SdkReferencesPath)\it-CH\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+        </ItemGroup>
+        ```
+
+    1. In de sectie **Doelnaam="CopyPackageFiles"** voegt u één regel toe voor elke landnaam, zoals in het volgende voorbeeld wordt weergegeven.
+
+        ```xml
+        <Copy SourceFiles="@(ResourcesIt)" DestinationFolder="$(OutputPath)content.folder\CustomizedFiles\ClientBroker\ext\it" SkipUnchangedFiles="true" />
+        <Copy SourceFiles="@(ResourcesItCh)" DestinationFolder="$(OutputPath)content.folder\CustomizedFiles\ClientBroker\ext\it-CH" SkipUnchangedFiles="true" />
+        ```
+
+5. Maak de volgende wijzigingen in het bestand **Sdk.RetailServerSetup.proj** onder de map **Packages\_SharedPackagingprojectComponents** om de resourcebestanden voor Italië op te nemen in implementeerbare pakketten:
+
+    1. Voeg een sectie **ItemGroup** toe met knooppunten die naar de resourcebestanden voor de gewenste vertalingen wijzen. Zorg ervoor dat u de juiste naamruimten en voorbeeldnamen opgeeft. In het volgende voorbeeld worden er resourceknooppunten voor de landinstellingen **it** **IT-CH** toegevoegd.
+
+        ```xml
+        <ItemGroup>
+            <ResourcesIt Include="$(SdkReferencesPath)\it\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+            <ResourcesItCh Include="$(SdkReferencesPath)\it-CH\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+        </ItemGroup>
+        ```
+
+    1. In de sectie **Doelnaam="CopyPackageFiles"** voegt u één regel toe voor elke landnaam, zoals in het volgende voorbeeld wordt weergegeven.
+
+        ``` xml
+        <Copy SourceFiles="@(ResourcesIt)" DestinationFolder="$(OutputPath)content.folder\RetailServer\Code\bin\ext\it" SkipUnchangedFiles="true" />
+        <Copy SourceFiles="@(ResourcesItCh)" DestinationFolder="$(OutputPath)content.folder\RetailServer\Code\bin\ext\it-CH" SkipUnchangedFiles="true" />
+        ```
+
+6. Start de MSBuild-opdrachtprompt voor het hulpprogramma Visual Studio en voer vervolgens **msbuild** uit onder de map Retail SDK om implementeerbare pakketten te maken.
+7. Pas de pakketten toe via LCS of handmatig. Zie [Implementeerbare pakketten maken](../dev-itpro/retail-sdk/retail-sdk-packaging.md) voor meer informatie.
 
 ## <a name="design-of-extensions"></a>Ontwerp van extensies
 

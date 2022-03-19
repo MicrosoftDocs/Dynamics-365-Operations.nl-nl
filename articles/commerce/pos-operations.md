@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5e139b7b12b8f2e549fb9c2c8e39125e190c7396
-ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.openlocfilehash: 0c62e11cc6d39c351321419bb862a5169b162fb7
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311974"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349712"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Online en offline verkooppuntbewerkingen (POS)
 
@@ -158,8 +158,8 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 | 504 | Transactie intrekken | Een eerder uitgestelde transactie voor de huidige winkel intrekken. | Ja | Ja | Nee | Ja‡ | Nee |
 | 305 | Loyaliteitspunten inwisselen | Deze bewerking wordt niet ondersteund. | Niet van toepassing | Niet van toepassing | Niet van toepassing | Niet van toepassing | Ja |
 | 635 | Verzendkosten terugbetalen | Verzendkosten voor een geannuleerde order terugbetalen. | Nee | Nee | Nee | Nee | Nee |
-| 644 | Couponcode verwijderen | De gebruiker vragen om coupons te verwijderen door ze te selecteren in een lijst met coupons die aan de transactie zijn gekoppeld. | Ja | Ja | Nee | Ja | Nee |
-| 1057 | Z opnieuw afdrukken | Het Z-rapport voor de vorige ploeg of een geselecteerde ploeg opnieuw afdrukken. | Ja | Ja | Ja | Nee | Nee |
+| 644 | Couponcode verwijderen | De gebruiker vragen om coupons te verwijderen door ze te selecteren in een lijst met coupons die aan de transactie zijn gekoppeld. | Ja | Ja | Nee | Ja | Nr. |
+| 1057 | Z opnieuw afdrukken | Het Z-rapport voor de vorige ploeg opnieuw afdrukken. | Ja | Ja | Ja | Nr. | Nr. |
 | 1216 | Voer een nieuw wachtwoord in | Met deze bewerking kan een gebruiker met de machtiging voor het opnieuw instellen van wachtwoorden het wachtwoord van een andere werknemer opnieuw instellen met behulp van een tijdelijk wachtwoord. | Ja | Ja | Ja | Nee | Nee |
 | 1219 | URL openen in POS | In POS een URL openen die is geconfigureerd door een beheerder. | Ja | Ja | Ja | Ja | Nee |
 | 109 | Product retourneren | Afzonderlijke producten retourneren. Het volgende gescande product wordt weergegeven als een geretourneerd product met een negatieve hoeveelheid en prijs. | Ja | Ja | Nee | Ja | Nee |
