@@ -1020,6 +1020,8 @@
                   href: unit-of-measure.md
                 - name: Weergave-instellingen toepassen voor productdimensies
                   href: dimension-settings.md
+                - name: Onderhoudsmodus voor e-commerce inschakelen en activeren
+                  href: enable-maintenance-mode.md
             - name: Uw site-inhoud beheren
               items:
                 - name: Manieren om inhoud toe te voegen
@@ -2100,6 +2102,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Foutopsporing in gegevensbronnen
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
+                - name: Gegevensmodellen configureren
+                  items:
+                    - name: Parameteraanroepen van ER-gegevensmodellen ondersteunen
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/commerce/toc.json
                 - name: Modeltoewijzingen configureren
                   items:
                     - name: ER-modeltoewijzingen configureren afhankelijk van landencontext
@@ -2760,6 +2766,8 @@
                           href: e-commerce-extensibility/clone-starter-module.md
                         - name: Een moduledefinitie uitbreiden
                           href: e-commerce-extensibility/extend-module-definition.md
+                        - name: Statische tekenreeksen in de modulebibliotheek wijzigen
+                          href: e-commerce-extensibility/change-module-library-strings.md
                     - name: Gegevensacties
                       items:
                         - name: Overschrijvingen van gegevensacties
@@ -2772,8 +2780,10 @@
                           href: e-commerce-extensibility/theme-module-extensions.md
                         - name: Een modulebibliotheekonderdeel in een thema overschrijven
                           href: e-commerce-extensibility/override-theme-component.md
-                        - name: Een thema uitbreiden op basis van een basisthema
+                        - name: Een thema uitbreiden vanaf een basisthema
                           href: e-commerce-extensibility/extend-theme.md
+                        - name: Tekenreeksen van themamodules wijzigen
+                          href: e-commerce-extensibility/change-theme-module-strings.md
                 - name: Verpakking en implementatie
                   items:
                     - name: Configuraties verpakken en implementeren in een online omgeving
@@ -2798,6 +2808,8 @@
                           href: e-commerce-extensibility/page-caching.md
                         - name: Cache voor exemplaren van gegevensacties
                           href: e-commerce-extensibility/instance-cache.md
+                        - name: Optimalisatie van CSS-module
+                          href: e-commerce-extensibility/module-css-optimization.md
                     - name: Telemetrie en analyse
                       items:
                         - name: Logboekregistratie telemetrie

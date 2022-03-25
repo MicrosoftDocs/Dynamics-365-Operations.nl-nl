@@ -747,8 +747,32 @@
                   href: cost-management/simulate-cost-changes-costing-version-planned-costs.md
                 - name: Opslagrapport artikelprijzen vergelijken
                   href: cost-management/compare-item-price.md
+            - name: Methoden voor kostprijsberekening
+              items:
+                - name: Gemiddelde kostprijs gebruiken
+                  href: cost-management/running-average-cost-price.md
+                - name: Lopende gemiddelde kosten per voorraaddimensie traceren
+                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
+                - name: FIFO met fysieke waarde en markering
+                  href: cost-management/fifo-physical-value-marking.md
+                - name: LIFO-datum met fysieke waarde en markering
+                  href: cost-management/lifo-date-physical-value-marking.md
+                - name: LIFO met fysieke waarde en markering
+                  href: cost-management/lifo-physical-value-marking.md
+                - name: Gewogen gemiddelde met fysieke waarde en markering
+                  href: cost-management/weighted-average-physical-value-marking.md
+                - name: Gewogen gemiddelde datum met fysieke waarde en markering
+                  href: cost-management/weighted-average-date.md
+                - name: Zwevend gemiddelde
+                  href: cost-management/moving-average.md
+                - name: Zwevend gemiddelde terugvalkostenreeks
+                  href: cost-management/moving-average-fallback.md
             - name: Voorraadboekhouding
               items:
+                - name: Fysieke en financiële updates
+                  href: cost-management/physical-financial-updates.md
+                - name: Fysieke waarde opnemen
+                  href: cost-management/include-physical-value.md
                 - name: Kostenobjecten
                   href: cost-management/cost-object.md
                 - name: Saldo van kostenobject weergeven
@@ -761,30 +785,8 @@
                   href: cost-management/tasks/view-cost-entries-cost-object.md
                 - name: Kostengroepen
                   href: cost-management/cost-groups.md
-                - name: FIFO met fysieke waarde en markering
-                  href: cost-management/fifo-physical-value-marking.md
-                - name: Fysieke waarde opnemen
-                  href: cost-management/include-physical-value.md
                 - name: Waarden van voorraadobjecten
                   href: cost-management/physical-quantity.md
-                - name: LIFO-datum met fysieke waarde en markering
-                  href: cost-management/lifo-date-physical-value-marking.md
-                - name: LIFO met fysieke waarde en markering
-                  href: cost-management/lifo-physical-value-marking.md
-                - name: Zwevend gemiddelde
-                  href: cost-management/moving-average.md
-                - name: Zwevend gemiddelde terugvalkostenreeks
-                  href: cost-management/moving-average-fallback.md
-                - name: Fysieke en financiële updates
-                  href: cost-management/physical-financial-updates.md
-                - name: Gemiddelde kostprijs gebruiken
-                  href: cost-management/running-average-cost-price.md
-                - name: Lopende gemiddelde kosten per voorraaddimensie traceren
-                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
-                - name: Datum gewogen gemiddelde
-                  href: cost-management/weighted-average-date.md
-                - name: Gewogen gemiddelde met fysieke waarde en markering
-                  href: cost-management/weighted-average-physical-value-marking.md
                 - name: Voorraad sluiten
                   href: cost-management/inventory-close.md
                 - name: Kostenwaarden van beschikbare voorraad aanpassen
@@ -1431,6 +1433,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Foutopsporing in gegevensbronnen
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Gegevensmodellen configureren
+                  items:
+                    - name: Parameteraanroepen van ER-gegevensmodellen ondersteunen
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Modeltoewijzingen configureren
                   items:
                     - name: ER-modeltoewijzingen configureren afhankelijk van landencontext
@@ -3855,6 +3861,8 @@
               items:
                 - name: Warehouse mobile app
                   items:
+                    - name: Onverwachte verschillen tussen aanvraag- en sessiegegevens tijdens het testen
+                      href: troubleshooting/warehousing/request-session-data-difference.md
                     - name: Vertrouwensrelatie voor certificeringspad niet gevonden bij het instellen van een app-verbinding
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
                     - name: Vertrouwensrelatie voor certificaatpad niet gevonden bij bijwerken en migreren naar WMS
