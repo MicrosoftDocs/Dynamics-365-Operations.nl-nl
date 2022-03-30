@@ -1,23 +1,23 @@
 ---
 title: Een vrije-tekstfactuur invoeren
 description: In dit onderwerp wordt uitgelegd hoe u vrije-tekstfacturen maakt.
-author: mikefalkner
-ms.date: 08/24/2018
+author: abruer
+ms.date: 02/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e5ca9e00ec881707248d966470288fd3ddba4e785127f30bd0e6dd4e7186c7e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6e9578d9b2d61f241ab5e92fc9740b88b80969f6
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763281"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392880"
 ---
 # <a name="create-a-free-text-invoice"></a>Een vrije-tekstfactuur invoeren
 
@@ -68,6 +68,7 @@ In dit onderwerp wordt uitgelegd hoe u vrije-tekstfacturen maakt. Gebruik voor d
 
     * U kunt de timing van het afdrukken van facturen wijzigen. Selecteer **Huidige** om elke factuur af te drukken wanneer deze wordt bijgewerkt. Selecteer **Na** om af te drukken nadat alle facturen zijn bijgewerkt.
     * Als u wilt wijzigen hoe de kredietlimiet van de klant wordt gecontroleerd voordat de factuur wordt geboekt, wijzigt u de waarde in het veld **Kredietlimiettype**.
+    * U kunt instellen dat het boeken van vrije-tekstfacturen wordt gestopt wanneer er een fout optreedt op het tabblad **Updates** op de pagina **Parameters van klanten** (**Klanten > Instellingen > Parameters van klanten**). Selecteer **Ja** voor de parameter **Boeken van vrije-tekstfacturen stoppen bij eerste fout** om het boeken van vrije-tekstfacturen te stoppen wanneer er een fout optreedt. Als er in een batch wordt geboekt, stopt een fout het boekingsproces en wordt de batchstatus ingesteld op **Fout**. Als deze optie niet is geselecteerd, slaat het boekingsproces een factuur met een boekingsfout over en blijft het extra facturen boeken. Als er in een batch wordt geboekt, kunnen er door een boekingsfout geen andere facturen worden geboekt. De batchstatus wordt **Beëindigd**. Er is een gedetailleerd boekingsprocesrapport beschikbaar voor evaluatie van de batchtaakhistorie.
     * Als u de factuur wilt afdrukken, stelt u de optie in op **Ja**.
     * Als u de factuur wilt boeken, stelt u de optie in op **Ja**. U kunt de factuur afdrukken zonder deze te boeken.
 
@@ -82,6 +83,12 @@ Nadat u de regels hebt gekopieerd, kunt u de gegevens zo nodig bewerken.
 U kunt een vrije-tekstfactuur maken op basis van een sjabloon. Wanneer u **Nieuw van sjabloon** op het tabblad **Factuur** selecteert, kunt u een sjabloonnaam en de klantrekening voor de nieuwe vrije-tekstfactuur selecteren. Standaardwaarden, zoals de betalingsvoorwaarden en betalingsmethode, kunnen automatisch van de klant worden overgenomen, of u kunt de waarden gebruiken die zijn opgeslagen in de sjabloon.
 
 Er wordt een nieuwe vrije-tekstfactuur gemaakt en u kunt de waarden indien nodig bewerken.
+
+## <a name="resetting-the-workflow-status-for-free-text-invoices-from-unrecoverable-to-draft"></a>De werkstroomstatus van vrije-tekstfacturen wordt opnieuw ingesteld van Onherstelbaar op Concept
+Een workflowexemplaar dat is gestopt vanwege een onherstelbare fout, heeft een workflowstatus **Onherstelbaar**. Wanneer de status van een werkstroom voor vrije-tekstfacturen van klanten **Onherstelbaar** is, kunt u deze weer instellen op **Concept** door **Intrekken** te selecteren in de werkstroomacties. U kunt vervolgens de vrije-tekstfactuur van de klant bewerken. Deze functie is beschikbaar als de parameter **De workflowstatus voor vrije-tekstfacturen van Onherstelbaar wijzigen in Concept** op de pagina **Functiebeheer** is ingeschakeld.
+
+U kunt de pagina **Workflowhistorie** voor leveranciersfacturen gebruiken om de workflowstatus in te stellen op **Concept**. U kunt deze pagina openen vanuit **Vrije-tekstfactuur** of via **Algemeen > Query's > Werkstroom**. Als u de workflowstatus terug wilt zetten op **Concept**, selecteert u **Intrekken**. U kunt de werkstroomstatus ook terugzetten op **Concept** door de actie **Intrekken** te selecteren op de pagina **Vrije-tekstfactuur** of **Alle vrije-tekstfacturen**. Als de workflowstatus is ingesteld op **Concept**, wordt deze beschikbaar voor bewerking op de pagina **Vrije-tekstfactuur**.
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

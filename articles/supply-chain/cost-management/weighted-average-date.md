@@ -1,198 +1,303 @@
 ---
-title: Datum gewogen gemiddelde
+title: Gewogen gemiddelde datum inclusief fysieke waarde en markering
 description: Datum gewogen gemiddelde is een voorraadmodel dat is gebaseerd op het principe van het gewogen gemiddelde, waarbij uitgiften worden berekend tegen de gemiddelde waarde van de artikelen die worden ontvangen in voorraad voor elke afzonderlijke dag in de afsluitingsperiode van de voorraad.
 author: AndersGirke
-ms.date: 10/25/2017
+ms.date: 03/04/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 28991
-ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
-ms.search.industry: Retail
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce056a661130d30426ccfa4c288a0ce5b62ff959
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3cf2206863d891eceb9c65ff879da3f9f72032b1
+ms.sourcegitcommit: fcded93fc6c27768a24a3d3dc5cc35e1b4eff22b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572020"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8391996"
 ---
-# <a name="weighted-average-date"></a>Datum gewogen gemiddelde
+# <a name="weighted-average-date-with-include-physical-value-and-marking"></a>Gewogen gemiddelde datum inclusief fysieke waarde en markering
 
 [!include [banner](../includes/banner.md)]
 
-Datum gewogen gemiddelde is een voorraadmodel dat is gebaseerd op het beginsel van gewogen gemiddelden. Voor het principe van gewogen gemiddelden, worden uitgiften uit de voorraad gewaardeerd tegen de gemiddelde waarde van de artikelen die zijn ontvangen in de voorraad voor elke dag in de periode van de eindvoorraad. 
+*De gewogen gemiddelde datum* is een voorraadmodel dat is gebaseerd op een gemiddelde dat wordt berekend door elke component (artikeltransactie) te vermenigvuldigen met een factor (kostprijs) die het belang (hoeveelheid) weerspiegelt op elke dag van de periode. Met andere woorden wordt met dit voorraadmodel de kosten van uitgiftetransacties toegewezen op basis van de gemiddelde waarde van alle voorraad die elke dag word ontvangen, plus eventuele beschikbare voorraad van de vorige dag.
 
-Wanneer u een voorraad afsluit met een datum gewogen gemiddelde, worden alle dagelijkse ontvangsten vereffend met een virtuele uitgifte. Deze virtuele uitgifte omvat de totale hoeveelheid die is ontvangen en de waarde voor die dag. De virtuele uitgifte heeft een bijbehorende virtuele ontvangst waarmee de uitgiften worden vereffend. Daarom hebben alle uitgiften dezelfde gemiddelde kosten. De virtuele uitgifte en virtuele ontvangst kunnen worden gezien als virtuele overboeking, die ook wel een *overboeking van gewogen gemiddelde eindvoorraad* wordt genoemd. 
+Wanneer u een voorraad afsluit met het voorraadmodel voor gewogen gemiddelde datum, kan een vereffening op twee manieren worden gemaakt. Gewoonlijk worden alle ontvangsten vereffend met een virtuele uitgifte, die de totaal ontvangen hoeveelheid en waarde bevat. Deze virtuele uitgifte heeft een bijbehorende virtuele ontvangst, waaruit de uitgiften worden vereffend. Op deze manier hebben alle uitgiften elke dag dezelfde gemiddelde kosten. De virtuele uitgifte en de virtuele ontvangst kunnen worden beschouwd als virtuele overboeking. Deze virtuele overboeking wordt ook wel *overboeking van gewogen gemiddelde eindvoorraad* genoemd. Deze vereffeningsmethode wordt daarom een *samengevatte vereffening van een gewogen gemiddelde* genoemd. Als er slechts één ontvangst is, kunnen alle uitgiften hiermee worden vereffend en wordt er geen virtuele overboeking gemaakt. Deze vereffeningsmethode wordt *directe vereffening* genoemd. Alle voorraad die na de voorraadafsluiting wordt uitgevoerd, wordt gewaardeerd op basis van het gewogen gemiddelde van de laatste dag van de vorige periode en opgenomen in de berekening van het gewogen gemiddelde datum in de volgende periode.
 
-Als er slechts één ontvangst heeft plaatsgevonden op of vóór de datum, hoeft u het gemiddelde niet te waarderen. Aangezien alle uitgiften met deze ontvangst worden vereffend, wordt er geen virtuele overboeking gemaakt. Tevens geldt dat, als er alleen uitgiften plaatsvinden op de desbetreffende datum, er geen ontvangsten beschikbaar zijn om het gemiddelde te berekenen en wordt er geen virtuele overboeking gemaakt. Wanneer u een datum gewogen gemiddelde gebruikt, kunt u voorraadtransacties markeren zodat een bepaalde artikelontvangst wordt vereffend met een bepaalde uitgifte. In daqt geval maakt u geen gebruik van de regel voor datum gewogen gemiddelde. U wordt aangeraden maandelijks een voorraadafsluiting uit te voeren wanneer u het voorraadmodel Datum gewogen gemiddelde gebruikt. 
+U kunt het principe van het gewogen gemiddelde datum overschrijven door voorraadtransacties te markeren zodat een specifieke artikelontvangst wordt vereffend met een specifieke uitgifte. Er is een periodieke voorraadafsluiting vereist wanneer u met het voorraadmodel voor gewogen gemiddelde datum vereffeningen maakt en de waarde van uitgiften aanpast volgens het principe van het gewogen gemiddelde datum. Totdat u de voorraadafsluiting hebt uitgevoerd, worden uitgiftetransacties gewaardeerd op basis van het lopende gemiddelde wanneer de fysieke en financiële updates hebben plaatsgevonden. Tenzij u markering gebruikt, wordt het lopende gemiddelde berekend wanneer de fysieke of financiële update wordt uitgevoerd.
 
-De kostprijsberekeningsmethode datum gewogen gemiddelde wordt berekend met behulp van de volgende formule: 
+De kostprijsberekeningsmethode voor gewogen gemiddelde datum wordt elke dag berekend met behulp van de volgende formule:
 
-Gewogen gemiddelde = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q2 + Q *n*) 
+*Kosten* = \[(*Q*<sub>*b*</sub> × *P*<sub>*b*</sub>) + &#x2211;<sub>*n*</sub>(*Q*<sub>*n*</sub> × *P*<sub>*n*</sub>)\] ÷ (*Q*<sub>*b*</sub> + &#x2211;<sub>*n*</sub>*Q*<sub>*n*</sub>)
 
-Tijdens de voorraadafsluiting wordt de berekening elke dag via de afsluitperiode uitgevoerd, zoals in de volgende afbeelding wordt weergegeven. 
+- *Q* = hoeveelheid van de transactie
+- *P* = prijs van de transactie
 
-![Dagelijks rekenmodel datum gewogen gemiddelde.](./media/weightedaveragedatedailycalculationmodel.gif) 
+Met andere woorden, de gewogen gemiddelde kostprijs is gelijk aan de beginhoeveelheid maal de beginprijs, plus de som van elke ontvangsthoeveelheid maal de ontvangstprijs, alle gedeeld door de beginhoeveelheid plus de som van de ontvangsthoeveelheden.
 
-Voorraadtransacties die de voorraad verlaten, zoals verkooporders, voorraadjournalen en productieorders, vinden plaats tegen een geraamde kostprijs op de boekingsdatum. De geraamde kostprijs wordt ook wel de lopende gemiddelde kostprijs genoemd. Op de datum van de voorraadafsluiting worden de voorraadtransacties voor vorige perioden, vorige dagen en de huidige dag geanalyseerd. Deze analyse wordt gebruikt om te bepalen welke van de volgende afsluitingsprincipes er moeten worden gebruikt:
+Tijdens de voorraadafsluiting wordt de berekening elke dag gedurende de afsluitperiode uitgevoerd.
 
--   Directe vereffening
--   Samengevatte vereffening
+> [!NOTE]
+> Zie voor meer informatie over vereffeningen [Voorraad sluiten](inventory-close.md).
 
-Vereffeningen zijn voorraadafsluitingsboekingen die de uitgiften vanaf de sluitingsdatum bijwerken met het juiste gewogen gemiddelde. 
+De volgende voorbeelden laten het effect zien van het gebruik van gewogen gemiddelde datum bij vijf configuraties:
 
-**Opmerking:** zie het artikel over voorraadafsluiting voor meer informatie over voorraadafsluitingen. De volgende voorbeelden laten het effect zien van het gebruik van gewogen gemiddelden bij vijf configuraties:
-
--   Datum gewogen gemiddelde directe vereffening zonder dat de optie **Fysieke waarde opnemen** wordt gebruikt
--   Samengevatte vereffening op basis van een gewogen gemiddelde als de optie **Fysieke waarde opnemen** niet wordt gebruikt
--   Datum gewogen gemiddelde directe vereffening waarbij de optie **Fysieke waarde opnemen** wel wordt gebruikt
--   Datum gewogen gemiddelde samengevatte vereffening waarbij de optie **Fysieke waarde opnemen** wel wordt gebruikt
--   Datum gewogen gemiddelde met gebruik van markering
+- Datum gewogen gemiddelde directe vereffening zonder dat de optie **Fysieke waarde opnemen** wordt gebruikt
+- Samengevatte vereffening op basis van een gewogen gemiddelde als de optie **Fysieke waarde opnemen** niet wordt gebruikt
+- Datum gewogen gemiddelde directe vereffening waarbij de optie **Fysieke waarde opnemen** wel wordt gebruikt
+- Datum gewogen gemiddelde samengevatte vereffening waarbij de optie **Fysieke waarde opnemen** wel wordt gebruikt
+- Datum gewogen gemiddelde met gebruik van markering
 
 ## <a name="weighted-average-date-direct-settlement-when-the-include-physical-value-option-isnt-used"></a>Datum gewogen gemiddelde directe vereffening zonder dat de optie Fysieke waarde opnemen wordt gebruikt
-In de huidige versie wordt hetzelfde directe-vereffeningsprincipe gebruikt dat werd toegepast in eerdere versies voor gewogen gemiddelden. Er wordt direct vereffend tussen ontvangsten en uitgiften. Het principe voor directe vereffening wordt in bepaalde situaties gebruikt:
 
--   Eén ontvangst en een of meer uitgiften zijn in de periode geboekt.
--   Er zijn alleen uitgiften in de periode geboekt en de voorraad bevat voorhanden artikelen uit een vorige afsluiting.
+Met het directe-vereffeningsprincipe worden vereffeningen rechtstreeks tussen ontvangsten en uitgiften gemaakt zonder dat er extra voorraadtransacties worden gemaakt. Het principe voor directe vereffening wordt in de volgende situaties gebruikt:
 
-In het volgende scenario zijn een financieel bijgewerkte ontvangst en uitgifte geboekt. Tijdens de voorraadafsluiting wordt de ontvangst direct met de uitgifte vereffend en hoeft de kostprijs bij de uitgifte niet te worden gecorrigeerd. 
+- Eén ontvangst en een of meer uitgiften zijn in de periode geboekt.
+- Er zijn alleen uitgiften in de periode geboekt en de voorraad bevat voorhanden artikelen uit een vorige afsluiting.
 
-De volgende afbeelding geeft deze transacties weer:
-
--   1a. Fysieke voorraadontvangst wordt bijgewerkt voor een hoeveelheid van 5 tegen een kostprijs van EUR 10,00 per stuk.
--   1b. Financiële voorraadontvangst wordt bijgewerkt voor een hoeveelheid van 5 tegen een kostprijs van EUR 10,00 per stuk.
--   2a. Fysieke voorraaduitgifte wordt bijgewerkt voor een hoeveelheid van 2 tegen een prijs van EUR 10,00 per stuk.
--   2b. Financiële voorraaduitgifte wordt bijgewerkt voor een hoeveelheid van 2 tegen een prijs van EUR 10,00 per stuk.
--   3. Voorraadafsluiting wordt uitgevoerd met behulp van de directe-vereffeningsmethode om de financiële ontvangst van de voorraad te vereffenen met de financiële uitgifte van de voorraad.
-
-![Datum gewogen gemiddelde directe vereffening zonder de optie Fysieke waarde opnemen.](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
-
-**Sleutel voor de afbeelding:**
-
--   Voorraadtransacties worden aangegeven met verticale pijlen.
--   Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
--   Uitgiften uit voorraad worden weergegeven met verticale pijlen onder de tijdlijn.
--   Boven (of onder) elke verticale pijl ziet u de waarde van de voorraadtransactie met de notatie *Hoeveelheid*@*Eenheidsprijs*.
--   Als een voorraadtransactiewaarde tussen haakjes staat, wordt de voorraadtransactie fysiek naar de voorraad geboekt.
--   Als een voorraadtransactiewaarde niet tussen haakjes staat, wordt de voorraadtransactie financieel naar de voorraad geboekt.
--   Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
--   Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De ID's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
--   Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label *Voorraadafsluiting*.
--   Vereffeningen door voorraadafsluitingen worden weergegeven met rode stippelpijlen die diagonaal van een ontvangst naar een uitgifte lopen.
-
-## <a name="weighted-average-date-summarized-settlement-when-the-include-physical-value-option-isnt-used"></a>Datum gewogen gemiddelde samengevatte vereffening zonder dat de optie Fysieke waarde opnemen wordt gebruikt
-Gewogen gemiddelde is gebaseerd op het principe dat alle ontvangsten in een afsluitingsperiode worden samengevat in een nieuwe voorraadoverboekingstransactie. Deze transactie wordt *gewogen gemiddelde eindvoorraad* genoemd. Alle ontvangsten voor de dag worden vereffend met de uitgifte van deze nieuwe voorraadoverboekingstransactie. Alle uitgiften voor de dag worden vereffend met de ontvangst van de nieuwe voorraadoverboekingstransactie. Als de voorhanden voorraad na de voorraadafsluiting positief is, worden de voorhanden voorraad en de waarde van de voorraad samengevat in de nieuwe voorraadoverboekingstransactieontvangst. Is de voorhanden voorraad na de voorraadafsluiting negatief, dan zijn de voorhanden voorraad en de waarde van de voorraad de som van de afzonderlijke uitgiften die nog niet volledig zijn vereffend. 
-
-In het volgende scenario zijn diverse financieel bijgewerkte ontvangsten en uitgiften tijdens de periode geboekt. Tijdens de voorraadafsluiting wordt elke dag bepaald hoe elke dag door de afsluitingen moeten worden afgehandeld. 
-
-De volgende afbeelding geeft deze transacties weer: 
+In dit voorbeeld is het selectievakje **Fysieke waarde opnemen** uitgeschakeld op de pagina **Artikelmodelgroep** voor het vrijgegeven product. Het volgende diagram geeft deze transacties weer:
 
 **Dag 1:**
 
--   1a. Fysieke voorraadontvangst wordt bijgewerkt voor een hoeveelheid van 3 tegen een prijs van EUR 15,00 per stuk.
--   1b. Financiële voorraadontvangst wordt bijgewerkt voor een hoeveelheid van 3 tegen een prijs van EUR 15,00 per stuk.
--   2a. Fysieke voorraadontvangst voor een hoeveelheid 1 tegen een lopende gemiddelde kostprijs van USD 15,00.
--   2b. Financiële voorraadontvangst voor een hoeveelheid 1 tegen een lopende gemiddelde kostprijs van USD 15,00.
-
-Voor dag 1 wordt de aanpak met de directe vereffening gebruikt. 
+- 1a. Fysieke voorraadontvangst voor de hoeveelheid 10 met een waarde van USD 10,00 per stuk.
+- 1b. Financiële voorraadontvangst voor de hoeveelheid 10 met een waarde van USD 10,00 per stuk.
+- 2a. Fysieke voorraadontvangst voor de hoeveelheid 10 met een waarde van USD 20,00 per stuk.
+- 3a. Fysieke voorraaduitgifte voor een hoeveelheid van 1 met een kostprijs van USD 10,00 (lopend gemiddelde van financieel geboekte transacties).
+- 3b. Financiële voorraaduitgifte voor een hoeveelheid van 1 met een kostprijs van USD 10,00 (lopend gemiddelde van financieel geboekte transacties).
 
 **Dag 2:**
 
--   3a. Fysieke voorraadontvangst voor een hoeveelheid van 1 tegen een lopende gemiddelde kostprijs van EUR 15,00
--   3b. financiële voorraaduitgifte voor een hoeveelheid van 1 tegen een gemiddelde kostprijs van EUR 15,00
-
-Voor dag 2 wordt de aanpak met de directe vereffening gebruikt. 
+- 4a. Fysieke voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 25,00 per stuk.
+- 5a. Fysieke voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 30,00 per stuk.
+- 5b. Financiële voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 30,00 per stuk.
+- 6a. Financiële voorraaduitgifte voor een hoeveelheid van 1 met een kostprijs van USD 20,00 per stuk (lopend gemiddelde van financieel geboekte transacties).
 
 **Dag 3:**
 
--   4a. Fysieke voorraadontvangst voor een hoeveelheid van 1 tegen een lopende gemiddelde kostprijs van EUR 15,00
--   4b. financiële voorraaduitgifte voor een hoeveelheid van 1 tegen een gemiddelde kostprijs van EUR 15,00
--   5a. Fysieke voorraadontvangst voor een hoeveelheid van 1 tegen een prijs van EUR 17,00 per stuk
--   5b. Financiële voorraadontvangst voor een hoeveelheid van 1 tegen een prijs van EUR 17,00 per stuk
+- 7\. Voorraadafsluiting is uitgevoerd. Op basis van de methode gewogen gemiddelde datum wordt de directe-vereffeningsmethode gebruikt voor 30 december (30/12), omdat slechts één ontvangst financieel wordt bijgewerkt op 30/12. In dit voorbeeld wordt één vereffening gemaakt tussen de transacties 1b en 3b. Er wordt een correctie van USD 10,00 aangebracht om de waarde van transactie 3b op 20,00 te brengen. Er wordt geen correctie of vereffening gedaan op 31 december (31/12) omdat er geen financieel bijgewerkte uitgiften zijn op 31/12.
 
-Voorraadafsluiting is uitgevoerd. De directe vereffening moet worden gebruikt omdat er meerdere ontvangsten zijn die meerdere dagen omvatten.
+In het volgende diagram wordt deze reeks transacties geïllustreerd en ziet u de effecten van het kiezen van het gewogen gemiddelde voorraadmodel en het principe van directe vereffening zonder de optie **Fysieke waarde opnemen**.
 
--   7a. Er wordt een gewogen gemiddelde voor een financiële uitgifte voorraadafsluitingstransactie gemaakt voor een hoeveelheid van 2 tegen een prijs van EUR 32,00 om de vereffeningen van alle financiële voorraadontvangsten die niet zijn afgesloten, tot aan de huidige datum samen te vatten.
--   7b. Er wordt een gewogen gemiddelde voor een financiële ontvangst voorraadafsluitingstransactie als tegenrekening voor 7a gemaakt.
+![Datum gewogen gemiddelde directe vereffening zonder de optie Fysieke waarde opnemen.](media/weighted-average-date-direct-settlement-without-include-physical-value.png)
 
-De samengevatte voorraadoverboekingstransactie worden gegenereerd en geboekt. Ook worden alle ontvangsten voor de dag en voorhanden voorraad voor vorige dagen vereffend met de samengevatte voorraadoverboekingsuitgiftetransactie. Alle uitgiften voor de dag worden vereffend met de samengevatte voorraadoverboekingsontvangsttransactie. De gewogen gemiddelde kostprijs wordt berekend als EUR 16,00. De uitgifte wordt gecorrigeerd met EUR 1,00 en wordt zo gelijkgetrokken met de gewogen gemiddelde kostprijs. De nieuwe, lopende gemiddelde kostprijs wordt USD 16,00. 
+**Uitleg bij het diagram:**
 
-In de volgende afbeelding wordt deze reeks transacties getoond en wordt aangegeven wat het effect is van het gebruik van het voorraadmodel van het gewogen gemiddelde en het samengevatte-vereffeningsprincipe zonder dat de optie **Fysieke waarde opnemen** wordt gebruikt. 
+- Voorraadtransacties worden aangegeven met verticale pijlen.
+- Fysieke transacties worden weergegeven met kortere, lichtgrijze pijlen.
+- Financiële transacties worden weergegeven met langere zwarte pijlen.
+- Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de as.
+- Uitgiften uit voorraad worden weergegeven met verticale pijlen onder de as.
+- Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
+- Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De id's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
+- Datums worden gescheiden door dunne zwarte verticale lijnen. De datums worden onderaan het diagram aangegeven.
+- Voorraadafsluitingen worden aangegeven met verticale rode streepjeslijnen.
+- Vereffeningen die door voorraadafsluitingen worden uitgevoerd, worden weergegeven met rode diagonale stippelpijlen die van een ontvangst naar een uitgifte lopen.
 
-![Datum gewogen gemiddelde samengevatte vereffening zonder de optie Fysieke waarde opnemen.](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
+## <a name="weighted-average-date-summarized-settlement-when-the-include-physical-value-option-isnt-used"></a>Datum gewogen gemiddelde samengevatte vereffening zonder dat de optie Fysieke waarde opnemen wordt gebruikt
 
-**Sleutel voor de afbeelding**
+Als er meerdere ontvangsten zijn in een periode, wordt voor gewogen gemiddelde datums gebruikgemaakt van het principe met samengevatte vereffening waarbij alle ontvangsten van één dag worden samengevat in een transactie met de naam *Gewogen gemiddelde eindvoorraad*. Alle ontvangsten voor de dag worden vereffend met de uitgifte van deze nieuwe voorraadtransactie. Alle uitgiften voor de dag worden vereffend met de ontvangst van de nieuwe voorraadtransactie. Als er resterende voorhanden voorraad is na de voorraadafsluiting, wordt de waarde van de voorhanden voorraad opgenomen in de ontvangsttransactie van de gewogen gemiddelde eindvoorraad.
 
--   Voorraadtransacties worden aangegeven met verticale pijlen.
--   Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
--   Uitgiften uit voorraad worden weergegeven met verticale pijlen onder de tijdlijn.
--   Boven (of onder) elke verticale pijl ziet u de waarde van de voorraadtransactie met de notatie *Hoeveelheid*@*Eenheidsprijs*.
--   Als een voorraadtransactiewaarde tussen haakjes staat, wordt de voorraadtransactie fysiek naar de voorraad geboekt.
--   Als een voorraadtransactiewaarde niet tussen haakjes staat, wordt de voorraadtransactie financieel naar de voorraad geboekt.
--   Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
--   Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De ID's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
--   Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label *Voorraadafsluiting*.
--   Vereffeningen door voorraadafsluitingen worden weergegeven met rode stippelpijlen die diagonaal van een ontvangst naar een uitgifte lopen.
--   Rode diagonale pijlen geven de ontvangsttransacties aan die zijn vereffend met de uitgiftetransactie die door het systeem is gemaakt.
--   De groene diagonale pijlen geven de tegengerekende, door het systeem gegeneerde ontvangsttransactie aan waarnaar de oorspronkelijke geboekte uitgiftetransactie wordt vereffend.
+Het volgende diagram geeft deze transacties weer:
+
+**Dag 1:**
+
+- 1a. Fysieke voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 10,00 per stuk.
+- 1b. Financiële voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 10,00 per stuk.
+- 2a. Fysieke voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 20,00 per stuk.
+- 2b. Financiële voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 22,00 per stuk.
+- 3a. Fysieke voorraaduitgifte voor een hoeveelheid van 1 met een kostprijs van USD 16,00 (lopend gemiddelde van financieel geboekte transacties).
+- 3b. Financiële voorraaduitgifte voor een hoeveelheid van 1 met een kostprijs van USD 16,00 (lopend gemiddelde van financieel geboekte transacties).
+
+**Dag 2:**
+
+- 4a. Fysieke voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 25,00 per stuk.
+- 5a. Fysieke voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 30,00 per stuk.
+- 5b. Financiële voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 30,00 per stuk.
+- 6a. Fysieke voorraaduitgifte voor een hoeveelheid van 1 met een kostprijs van USD 23,00 (lopend gemiddelde van financieel geboekte transacties).
+
+**Dag 3:**
+
+- 7\. Voorraadafsluiting is uitgevoerd.
+- 7a. Financiële uitgifte 'gewogen gemiddelde voorraadafsluitingstransactie' wordt gemaakt om de vereffeningen van alle financiële ontvangsten in voorraad bij elkaar op te tellen.
+
+    - Transactie 1b wordt vereffend voor een hoeveelheid van 1 met een vereffend bedrag van USD 10,00.
+    - Transactie 2b wordt vereffend voor een hoeveelheid van 1 met een vereffend bedrag van USD 22,00.
+    - Transactie 7a wordt gemaakt voor een hoeveelheid van 2 met een vereffend bedrag van USD 32,00. Deze transactie compenseert het totaal van de twee ontvangsttransacties die financieel zijn bijgewerkt in de periode.
+
+- 7b. Er wordt een gewogen gemiddelde voor een financiële ontvangst voorraadafsluitingstransactie het verschil voor financieel geboekte uitgiften gemaakt.
+
+    - Transactie 3b wordt vereffend voor een hoeveelheid van 1 met een vereffend bedrag van USD 16,00. Deze transactie is niet gecorrigeerd omdat dit het gewogen gemiddelde is van financieel geboekte transacties op 1 december (1/12).
+    - Transactie 7b wordt gemaakt voor een hoeveelheid van 2 met een financieel bedrag van USD 32,00 en een vereffend bedrag van USD 16,00 voor tegentransactie 3b. Deze transactie compenseert het totaal van één uitgiftetransacties die financieel wordt bijgewerkt in de periode. De transactie blijft open omdat er nog één beschikbaar is.
+
+In het volgende diagram wordt deze reeks transacties getoond en wordt aangegeven wat het effect is van het gebruik van het voorraadmodel van het gewogen gemiddelde en het samengevatte-vereffeningsprincipe zonder dat de optie **Fysieke waarde opnemen** wordt gebruikt.
+
+![Datum gewogen gemiddelde samengevatte vereffening zonder de optie Fysieke waarde opnemen.](media/weighted-average-date-summarized-settlement-without-include-physical-value.png)
+
+**Uitleg bij het diagram:**
+
+- Voorraadtransacties worden aangegeven met verticale pijlen.
+- Fysieke transacties worden weergegeven met kortere, lichtgrijze pijlen.
+- Financiële transacties worden weergegeven met langere zwarte pijlen.
+- Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de as.
+- Uitgiften uit voorraad worden weergegeven met verticale pijlen onder de as.
+- Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
+- Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De id's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
+- Datums worden gescheiden door dunne zwarte verticale lijnen. De datums worden onderaan het diagram aangegeven.
+- Voorraadafsluitingen worden aangegeven met verticale rode streepjeslijnen.
+- Vereffeningen die door voorraadafsluitingen worden uitgevoerd, worden weergegeven met rode diagonale stippelpijlen die van een ontvangst naar een uitgifte lopen.
 
 ## <a name="weighted-average-date-direct-settlement-when-the-include-physical-value-option-is-used"></a>Datum gewogen gemiddelde directe vereffening waarbij de optie Fysieke waarde opnemen wel wordt gebruikt
-In de huidge versie wordt hetzelfde principe voor directe vereffening voor de datum gewogen gemiddelde gebruikt als in eerdere versies. Er wordt direct vereffend tussen ontvangsten en uitgiften. Het principe voor directe vereffening wordt in bepaalde situaties gebruikt:
 
--   Eén ontvangst en een of meer uitgiften zijn in de periode geboekt.
--   Er zijn alleen uitgiften in de periode geboekt en de voorraad bevat voorhanden voorraad uit een vorige afsluiting.
+In de huidige versie van het product werkt de optie **Fysieke waarde opnemen** anders in combinatie met het voorraadmodel van de gewogen gemiddelde datum dan in eerdere versies van het product. Als u het selectievakje **Fysieke waarde opnemen** inschakelt voor een artikel op de pagina **Artikelmodelgroep** selecteert, worden fysiek bijgewerkte ontvangsten gebruikt bij het berekenen van de geraamde kostprijs van de uitgifte of het lopende gemiddelde. Uitgiften worden geboekt op basis van deze geraamde kostprijs tijdens de periode. Tijdens de voorraadafsluiting worden alleen de financieel bijgewerkte ontvangsten meegenomen in de berekening voor het gewogen gemiddelde.
 
-Als u het selectievakje **Fysieke waarde opnemen** inschakelt voor een artikel op de pagina **Artikelmodelgroep** selecteert, worden fysiek bijgewerkte ontvangsten gebruikt bij het berekenen van de geraamde kostprijs of het lopende gemiddelde. Uitgiften worden geboekt op basis van deze geraamde kostprijs tijdens de periode. Tijdens de voorraadafsluiting worden alleen de financieel bijgewerkte ontvangsten meegenomen in de berekening voor het gewogen gemiddelde.
+Het volgende diagram geeft deze transacties weer:
+
+**Dag 1:**
+
+- 1a. Fysieke voorraadontvangst voor de hoeveelheid 10 met een waarde van USD 10,00 per stuk.
+- 1b. Financiële voorraadontvangst voor de hoeveelheid 10 met een waarde van USD 10,00 per stuk.
+- 2a. Fysieke voorraadontvangst voor de hoeveelheid 10 met een waarde van USD 20,00 per stuk.
+- 3a. Fysieke voorraaduitgifte voor een hoeveelheid van 1 met een kostprijs van USD 15,00 (lopend gemiddelde van fysiek en financieel geboekte transacties).
+- 3b. Financiële voorraaduitgifte voor een hoeveelheid van 1 met een kostprijs van USD 15,00 (lopend gemiddelde van fysiek en financieel geboekte transacties).
+
+**Dag 2:**
+
+- 4a. Fysieke voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 25,00 per stuk.
+- 5a. Fysieke voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 30,00 per stuk.
+- 5b. Financiële voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 30,00 per stuk.
+- 6a. Fysieke voorraaduitgifte voor een hoeveelheid van 1 met een kostprijs van USD 21,25 per stuk (lopend gemiddelde van fysiek en financieel geboekte transacties).
+
+**Dag 3:**
+
+- 7\. Voorraadafsluiting is uitgevoerd. Op basis van de methode gewogen gemiddelde datum wordt de directe-vereffeningsmethode gebruikt voor 30 december (30/12), omdat slechts één ontvangst financieel wordt bijgewerkt op 30/12. In dit voorbeeld wordt één vereffening gemaakt tussen de transacties 1b en 3b. Er wordt geen correctie in de uitgifte aangebracht op 30-12. Er wordt ook geen correctie of vereffening gedaan op 31 december (31/12) omdat er geen financieel bijgewerkte uitgiften zijn op 31/12.
+
+In het volgende diagram wordt deze reeks transacties geïllustreerd en ziet u de effecten van het kiezen van het gewogen gemiddelde voorraadmodel en het principe van directe vereffening met de optie **Fysieke waarde opnemen**.
+
+![Directe vereffening op basis van een gewogen gemiddelde met Fysieke waarde opnemen.](media/weighted-average-date-direct-settlement-with-include-physical-value.png)
+
+**Uitleg bij het diagram:**
+
+- Voorraadtransacties worden aangegeven met verticale pijlen.
+- Fysieke transacties worden weergegeven met kortere, lichtgrijze pijlen.
+- Financiële transacties worden weergegeven met langere zwarte pijlen.
+- Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de as.
+- Uitgiften uit voorraad worden weergegeven met verticale pijlen onder de as.
+- Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
+- Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De id's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
+- Datums worden gescheiden door dunne zwarte verticale lijnen. De datums worden onderaan het diagram aangegeven.
+- Voorraadafsluitingen worden aangegeven met verticale rode streepjeslijnen.
+- Vereffeningen die door voorraadafsluitingen worden uitgevoerd, worden weergegeven met rode diagonale stippelpijlen die van een ontvangst naar een uitgifte lopen.
 
 ## <a name="weighted-average-date-summarized-settlement-when-the-include-physical-value-option-is-used"></a>Datum gewogen gemiddelde samengevatte vereffening waarbij de optie Fysieke waarde opnemen wel wordt gebruikt
-Als u het selectievakje **Fysieke waarde opnemen** inschakelt voor een artikel op de pagina **Artikelmodelgroep** selecteert, worden fysiek bijgewerkte ontvangsten gebruikt bij het berekenen van de geraamde kostprijs of het lopende gemiddelde. Uitgiften worden geboekt op basis van deze geraamde kostprijs tijdens de periode. Tijdens de voorraadafsluiting worden alleen de financieel bijgewerkte ontvangsten meegenomen in de berekening voor het gewogen gemiddelde. Vereffening op basis van een gewogen gemiddelde gebaseerd op het principe dat alle ontvangsten binnen een afsluitingsperiode worden samengevat in een nieuwe voorraadoverboekingstransactie, die *gewogen gemiddelde eindvoorraad* wordt genoemd. Alle ontvangsten voor de dag worden vereffend met de uitgifte van deze nieuwe voorraadoverboekingstransactie. Alle uitgiften voor de dag worden vereffend met de ontvangst van de nieuwe voorraadoverboekingstransactie. Als de voorhanden voorraad na de voorraadafsluiting positief is, worden deze voorhanden voorraad en de waarde van de voorraad samengevat in de nieuwe voorraadoverboekingstransactie (ontvangst). Is de voorhanden voorraad na de voorraadafsluiting negatief, dan zijn de voorhanden voorraad en de waarde van de voorraad de som van de afzonderlijke uitgiften die nog niet volledig zijn vereffend.
+
+In de huidige versie van het product werkt de optie **Fysieke waarde opnemen** anders met het gewogen gemiddelde dan in eerdere versies van het product. Als u het selectievakje **Fysieke waarde opnemen** inschakelt voor een artikel op de pagina **Artikelmodelgroep** selecteert, worden fysiek bijgewerkte ontvangsten gebruikt bij het berekenen van de geraamde kostprijs of het lopende gemiddelde. Uitgiften worden geboekt op basis van deze geraamde kostprijs tijdens de periode. Tijdens de voorraadafsluiting worden alleen de financieel bijgewerkte ontvangsten meegenomen in de berekening voor het gewogen gemiddelde. We raden u aan een maandelijkse voorraadafsluiting uit te voeren wanneer u het voorraadmodel van het gewogen gemiddelde gebruikt. In dit voorbeeld van een samengevatte vereffening op basis van een gewogen gemiddelde datum is het voorraadmodel gemarkeerd voor het opnemen van de fysieke waarde.
+
+Het volgende diagram geeft deze transacties weer:
+
+**Dag 1:**
+
+- 1a. Fysieke voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 10,00 per stuk.
+- 1b. Financiële voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 10,00 per stuk.
+- 2a. Fysieke voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 20,00 per stuk.
+- 2b. Financiële voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 22,00 per stuk.
+- 3a. Fysieke voorraaduitgifte voor een hoeveelheid van 1 met een kostprijs van USD 16,00 (lopend gemiddelde van fysiek en financieel geboekte transacties).
+- 3b. Financiële voorraaduitgifte voor een hoeveelheid van 1 met een kostprijs van USD 16,00 (lopend gemiddelde van fysiek en financieel geboekte transacties).
+
+**Dag 2:**
+
+- 4a. Fysieke voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 25,00 per stuk.
+- 5a. Fysieke voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 30,00 per stuk.
+- 5b. Financiële voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 30,00 per stuk.
+- 6a. Fysieke voorraaduitgifte voor een hoeveelheid van 1 met een kostprijs van USD 23,67 (lopend gemiddelde van fysiek en financieel geboekte transacties).
+
+**Dag 3:**
+
+- 7\. Voorraadafsluiting is uitgevoerd.
+- 7a. Financiële uitgifte 'gewogen gemiddelde voorraadafsluitingstransactie' wordt gemaakt om de vereffeningen van alle financiële ontvangsten in voorraad bij elkaar op te tellen.
+
+    - Transactie 1b wordt vereffend voor een hoeveelheid van 1 met een vereffend bedrag van USD 10,00.
+    - Transactie 2b wordt vereffend voor een hoeveelheid van 1 met een vereffend bedrag van USD 22,00.
+    - Transactie 7a wordt gemaakt voor een hoeveelheid van 2 met een vereffend bedrag van USD 32,00. Deze transactie compenseert het totaal van de twee ontvangsttransacties die financieel zijn bijgewerkt in de periode.
+
+- 7b. Er wordt een gewogen gemiddelde voor een financiële ontvangst voorraadafsluitingstransactie het verschil voor financieel geboekte uitgiften gemaakt.
+
+    - Transactie 3b wordt vereffend voor een hoeveelheid van 1 met een vereffend bedrag van USD 16,00. Deze transactie is niet gecorrigeerd omdat dit het gewogen gemiddelde is van financieel geboekte transacties op 1 december (1/12).
+    - Transactie 7b wordt gemaakt voor een hoeveelheid van 2 met een financieel bedrag van USD 32,00 en een vereffend bedrag van USD 16,00 voor tegentransactie 3b. Deze transactie compenseert het totaal van één uitgiftetransacties die financieel wordt bijgewerkt in de periode. De transactie blijft open omdat er nog één beschikbaar is.
+
+In het volgende diagram wordt deze reeks transacties geïllustreerd en ziet u de effecten van het kiezen van het gewogen gemiddelde voorraadmodel en het principe van samengevatte vereffening zonder de optie **Fysieke waarde opnemen**.
+
+![Samengevatte vereffening op basis van een gewogen gemiddelde met Fysieke waarde opnemen,](media/weighted-average-date-summarized-settlement-with-include-physical-value.png)
+
+**Uitleg bij het diagram:**
+
+- Voorraadtransacties worden aangegeven met verticale pijlen.
+- Fysieke transacties worden weergegeven met kortere, lichtgrijze pijlen.
+- Financiële transacties worden weergegeven met langere zwarte pijlen.
+- Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de as.
+- Uitgiften uit voorraad worden weergegeven met verticale pijlen onder de as.
+- Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
+- Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De id's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
+- Datums worden gescheiden door dunne zwarte verticale lijnen. De datums worden onderaan het diagram aangegeven.
+- Voorraadafsluitingen worden aangegeven met verticale rode streepjeslijnen.
+- Vereffeningen die door voorraadafsluitingen worden uitgevoerd, worden weergegeven met rode diagonale stippelpijlen die van een ontvangst naar een uitgifte lopen.
 
 ## <a name="weighted-average-date-when-marking-is-used"></a>Datum gewogen gemiddelde met gebruik van markering
-Markeren is een proces waarmee u een uitgiftetransactie aan een ontvangsttransactie kunt koppelen (of markeren). Markering kan plaatsvinden voor- of nadat een transactie is geboekt. U kunt markeren als u de exacte kosten van de voorraad wilt weten wanneer de transactie wordt geboekt of wanneer de voorraad wordt afgesloten. 
 
-De afdeling Klantenservice heeft een spoedorder van een belangrijke klant aangenomen. Omdat dit een spoedorder is, moet u meer voor dit artikel betalen om aan de vraag van de klant te voldoen. U moet er zeker van zijn dat de kosten van dit voorraadartikel worden weerspiegeld in de marge, of kosten van verkochte goederen, voor deze verkooporderfactuur. Wanneer de inkooporder wordt geboekt, wordt de voorraad ontvangen voor het bedrag van USD 120,00. Het verkooporderdocument is aan de inkooporder gekoppeld voordat de pakbon of factuur wordt geboekt. De kosten van de verkochte goederen bedragen dan EUR 120,00 in plaats van de huidige gemiddelde kosten voor het artikel. Als de pakbon of de factuur van de verkooporder wordt geboekt voordat er wordt gemarkeerd, wordt de COGS geboekt tegen de lopende, gemiddelde kostprijs. Voordat de voorraad wordt afgesloten, worden deze twee transacties naar elkaar gemarkeerd. Wanneer een ontvangsttransactie is gemarkeerd met een uitgiftetransactie, wordt de waarderingsmethode die in de artikelmodelgroep van het artikel is gedefinieerd, genegeerd. In plaats daarvan worden deze transacties met elkaar vereffend. 
+Markeren is een proces waarmee u een uitgiftetransactie aan een ontvangsttransactie kunt koppelen (of markeren). Markering kan plaatsvinden voor- of nadat een transactie is geboekt. U kunt markeren als u de exacte kosten van de voorraad wilt weten wanneer de transactie wordt geboekt of de voorraad wordt afgesloten.
 
-U kunt een uitgiftetransactie aan een ontvangst koppelen voordat de transactie wordt geboekt. U kunt dit doen vanaf een verkooporderregel op de pagina **Details verkooporder**. U kunt de openstaande ontvangsttransacties bekijken op de pagina **Markering**. U kunt een uitgiftetransactie aan een ontvangst koppelen nadat de transactie is geboekt. U kunt een uitgiftetransactie voor een openstaande ontvangsttransactie voor een geïnventariseerd artikel afstemmen of markeren vanuit een geboekt voorraadcorrectiejournaal. De volgende afbeelding geeft deze transacties weer:
+De afdeling Klantenservice heeft een spoedorder van een belangrijke klant aangenomen. Omdat dit een spoedorder is, moet u meer voor dit artikel betalen om aan de vraag van de klant te voldoen. U moet zeker weten dat de kosten van dit voorraadartikel worden weerspiegeld in de marge, of kosten van verkochte goederen, voor deze verkooporderfactuur.
 
--   1a. Fysieke voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 10,00 per stuk.
--   1b. Financiële voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 10,00 per stuk.
--   2a. Fysieke voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 20,00 per stuk.
--   2b. Financiële voorraadontvangst voor een hoeveelheid 1 tegen een prijs van USD 20,00 per stuk.
--   3a. Fysieke voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 25,00 per stuk.
--   4a. Fysieke voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 30,00 per stuk.
--   4b. Financiële voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 30,00 per stuk.
--   5a. Fysieke voorraaduitgifte voor een hoeveelheid 1 tegen een kostprijs van USD 21,25 (lopend gemiddelde van financieel en fysiek bijgewerkte transacties).
--   5b. De financiële voorraaduitgifte voor een hoeveelheid 1 wordt gemarkeerd voor de voorraadontvangst 2b voordat de transactie wordt geboekt. De transactie wordt geboekt tegen een kostprijs van USD 20,00.
--   6a. Fysieke voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 21,25.
--   7. Voorraadafsluiting is uitgevoerd. Omdat de financieel bijgewerkte transactie is gemarkeerd voor een bestaande ontvangst, worden deze transacties met elkaar vereffend en wordt er niet gecorrigeerd.
+Wanneer de inkooporder wordt geboekt, wordt de voorraad ontvangen voor het bedrag van EUR 120,00. Als het verkooporderdocument voor de inkooporder wordt gemarkeerd voordat de pakbon of factuur wordt geboekt, bedragen de kosten van de verkochte goederen USD 120,00 in plaats van de huidige lopende gemiddelde kosten voor het artikel. Als de markering plaatsvindt nadat de pakbon of de factuur van de verkooporder wordt geboekt, wordt de COGS geboekt tegen de lopende, gemiddelde kostprijs.
 
-De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en fysiek bijgewerkte transacties met USD 27,50. In de volgende afbeelding worden voor deze reeks transacties de effecten weergegeven van het gebruik van het voorraadmodel voor datum gewogen gemiddelde en markering.
+Voordat de voorraad wordt afgesloten, worden deze twee transacties naar elkaar gemarkeerd.
 
-![Datum gewogen gemiddelde met markering.](./media/weightedaveragedatewithmarking.gif) 
+Als een ontvangsttransactie wordt gemarkeerd voor een uitgiftetransactie, wordt de waarderingsmethode die in de artikelmodelgroep voor het artikel is geselecteerd, genegeerd en worden deze transacties met elkaar vereffend.
 
-**Sleutel voor de afbeelding:**
+U kunt een uitgiftetransactie aan een ontvangst koppelen voordat de transactie wordt geboekt. U kunt deze markering aanbrengen vanuit een verkooporderregel op de pagina **Details verkooporder**. De openstaande ontvangsttransacties kunnen worden bekeken op de pagina **Markering**.
 
--   Voorraadtransacties worden aangegeven met verticale pijlen.
--   Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
--   Uitgiften uit voorraad worden weergegeven met verticale pijlen onder de tijdlijn.
--   Boven (of onder) elke verticale pijl ziet u de waarde van de voorraadtransactie met de notatie *Hoeveelheid*@*Eenheidsprijs*.
--   Als een voorraadtransactiewaarde tussen haakjes staat, wordt de voorraadtransactie fysiek naar de voorraad geboekt.
--   Als een voorraadtransactiewaarde niet tussen haakjes staat, wordt de voorraadtransactie financieel naar de voorraad geboekt.
--   Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
--   Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De ID's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
--   Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label *Voorraadafsluiting*.
--   Vereffeningen door voorraadafsluitingen worden weergegeven met rode stippelpijlen die diagonaal van een ontvangst naar een uitgifte lopen.
+U kunt ook een uitgiftetransactie aan een ontvangst koppelen nadat de transactie is geboekt. U kunt een uitgiftetransactie voor een openstaande ontvangsttransactie voor een geïnventariseerd artikel afstemmen of markeren vanuit een geboekt voorraadcorrectiejournaal.
 
+Het volgende diagram geeft deze transacties weer:
 
+**Dag 1:**
 
+- 1a. Fysieke voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 10,00 per stuk.
+- 1b. Financiële voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 10,00 per stuk.
+- 2a. Fysieke voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 20,00 per stuk.
+- 2b. Financiële voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 22,00 per stuk.
+- 3a. Fysieke voorraaduitgifte voor een hoeveelheid van 1 met een kostprijs van USD 16,00 (lopend gemiddelde van financieel geboekte transacties).
+- 3b. Financiële voorraaduitgifte voor een hoeveelheid van 1 met een kostprijs van USD 16,00 (lopend gemiddelde van financieel geboekte transacties).
+- 3c. Financiële voorraaduitgifte voor transactie 3b wordt gemarkeerd voor financiële voorraaduitgifte voor transactie 2b.
 
+**Dag 2:**
 
+- 4a. Fysieke voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 25,00 per stuk.
+- 5a. Fysieke voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 30,00 per stuk.
+- 5b. Financiële voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 30,00 per stuk.
+- 6a. Fysieke voorraaduitgifte voor een hoeveelheid van 1 met een kostprijs van USD 23,00 (lopend gemiddelde van financieel geboekte transacties).
+
+**Dag 3:**
+
+- 7\. Voorraadafsluiting is uitgevoerd. Op basis van het markeringsprincipe waarin de methode voor gewogen gemiddelde wordt gebruikt, worden de gemarkeerde transacties met elkaar vereffend. In dit voorbeeld wordt transactie 3b vereffend met transactie 2b en wordt een correctie voor USD 6,00 geboekt naar transactie 3b om de waarde op USD 22,00 te brengen. In dit voorbeeld worden er geen extra vereffeningen gemaakt, omdat door de afsluiting alleen vereffeningen worden gemaakt voor financieel bijgewerkte transacties.
+
+In het volgende diagram worden voor deze reeks transacties de effecten weergegeven van het gebruik van het voorraadmodel voor datum gewogen gemiddelde met markering.
+
+![Gewogen gemiddelde met markering.](media/weighted-average-date-with-marking.png)
+
+**Uitleg bij het diagram:**
+
+- Voorraadtransacties worden aangegeven met verticale pijlen.
+- Fysieke transacties worden weergegeven met kortere, lichtgrijze pijlen.
+- Financiële transacties worden weergegeven met langere zwarte pijlen.
+- Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de as.
+- Uitgiften uit voorraad worden weergegeven met verticale pijlen onder de as.
+- Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
+- Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De id's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
+- Datums worden gescheiden door dunne zwarte verticale lijnen. De datums worden onderaan het diagram aangegeven.
+- Voorraadafsluitingen worden aangegeven met verticale rode streepjeslijnen.
+- Vereffeningen die door voorraadafsluitingen worden uitgevoerd, worden weergegeven met rode diagonale stippelpijlen die van een ontvangst naar een uitgifte lopen.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

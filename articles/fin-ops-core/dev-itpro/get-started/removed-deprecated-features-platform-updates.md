@@ -2,7 +2,7 @@
 title: Verwijderde of afgeschafte Platform-functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van apps voor financiën en bedrijfsactiviteiten.
 author: sericks007
-ms.date: 03/03/2022
+ms.date: 03/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6b4c514d34e4afbaac4afabed6865496747c0411
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 27be0e720b7eca5883c5d73dfe312c09fcd22c65
+ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384715"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "8396544"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Verwijderde of afgeschafte platform-functies
 
@@ -31,6 +31,18 @@ In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de v
 Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning rekening te houden met deze verwijderingen en afschaffingen. 
 
 Gedetailleerde informatie over objecten in apps voor financiële en bedrijfsactiviteiten is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van apps voor financiële en bedrijfsactiviteiten.
+
+## <a name="feature-removal-effective-march-14-2022"></a>Functie is verwijderd vanaf 14 maart 2022
+
+### <a name="xslt-scripting-in-data-management"></a>XSLT-scripting in Gegevensbeheer
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | De ondersteuning van XSLT-scripting in Gegevensbeheer is afgeschaft om de beveiliging en gegevensbeveiliging binnen de apps voor financiën en bedrijfsactiviteiten te verbeteren.  |
+| **Vervangen door een andere functie?**   | Nummer Klanten en ISV's moeten overwegen hun oplossingen opnieuw te implementeren op basis van de X++-taal in plaats van XSLT-scripting. |
+| **Betrokken productgebieden**         | Apps voor financiën en bedrijfsactiviteiten. |
+| **Implementatieoptie**              | Alle. |
+| **Status**                         | Afgeschaft: de geplande verwijderingsdatum is 14 maart 2022.<br><br>Uitzondering: klanten die momenteel XLST-scripting gebruiken. Ze kunnen dit blijven gebruiken totdat ze updaten naar versie 10.0.30 of hoger. Klanten met deze uitzondering hebben een melding ontvangen in de Berichtencentrum in het Microsoft 365-beheercentrum. |
 
 ## <a name="feature-removal-effective-october-2021"></a>Functie is verwijderd in oktober 2021
 

@@ -2,19 +2,19 @@
 title: Partij en globaal adresboek
 description: In dit onderwerp wordt de functionaliteit Partij en globaal adresboek van Twee keer wegschrijven beschreven.
 author: RamaKrishnamoorthy
-ms.date: 08/11/2021
+ms.date: 03/10/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 601c49e21c3a97d2da225705ddbb386e491d4d25
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 2e0d16b29a71da23acc925c09c87f0bb4776759c
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060327"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407760"
 ---
 # <a name="party-and-global-address-book"></a>Partij en globaal adresboek
 
@@ -156,7 +156,7 @@ Elektronische adressen zijn alleen beschikbaar in dit raster. In toekomstige rel
 
 5. Pas beide oplossingen toe die in stap 2 en 3 zijn geïnstalleerd met behulp van de functie [Oplossing toepassen](link-your-environment.md).
 
-6. Stop de volgende kaarten, omdat ze niet meer nodig zijn. Voer in plaats daarvan de kaart `Contacts V2 (msdyn_contactforparties)` uit.
+6. Stop de volgende toewijzingen, omdat ze niet meer nodig zijn. Voer in plaats daarvan de toewijzing `Contacts V2 (msdyn_contactforparties)` uit.
 
     + CDS-contactpersonen V2 en Contactpersonen (verwijst naar klantcontactpersonen)
     + CDS-contactpersonen V2 en Contactpersonen (verwijst naar leverancierscontactpersonen)
@@ -185,7 +185,7 @@ Elektronische adressen zijn alleen beschikbaar in dit raster. In toekomstige rel
     `Salutations (msdyn_salutations)` | 1.0.0.0 | Dit is een nieuwe toewijzing die is toegevoegd als onderdeel van deze release.
     `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | Dit is een nieuwe toewijzing die is toegevoegd als onderdeel van deze release.
 
-8. Voordat u de bovenstaande kaarten gaat uitvoeren, moet u de integratiesleutels handmatig bijwerken zoals beschreven in de volgende stappen. Selecteer **Save**.
+8. Voordat u de bovenstaande toewijzingen gaat uitvoeren, moet u de integratiesleutels handmatig bijwerken zoals beschreven in de volgende stappen. Selecteer **Save**.
 
     | Toewijzing | Sleutels |
     |-----|------|
@@ -226,9 +226,9 @@ Elektronische adressen zijn alleen beschikbaar in dit raster. In toekomstige rel
 
     ![Duplicatenregel voor Contactpersonen.](media/duplicate-rule-2.PNG)
 
-11. Als u een bestaande gebruiker van Twee keer wegschrijven bent, volgt u de instructies in [Bijwerken naar het model voor partij en globaal adresboek](upgrade-party-gab.md) om uw gegevens te upgraden.
+11. Als u een bestaande gebruiker van Twee keer wegschrijven bent, volgt u de instructies in [Bijwerken naar het model voor partij en globaal adresboek](upgrade-party-gab.md) om uw gegevens te upgraden. **Ga niet door naar stap 12 zonder deze stap te voltooien.** Als u een nieuwe gebruiker van twee keer wegschrijven bent, gaat u verder met stap 12.
 
-12. Voer de kaarten uit in de volgende volgorde. Als u een fout krijgt met de tekst "Projectvalidatie mislukt. Doelveld ontbreekt...", open dan de kaart en selecteer **Tabellen vernieuwen**. Voer vervolgens de kaart uit.
+12. Als u een bestaande gebruiker van twee keer wegschrijven bent, voltooit u stap 11. Vervolgens kunt u de toewijzingen in de volgende volgorde uitvoeren. Als u een nieuwe klant van twee keer wegschrijven bent, kunt u rechtstreeks doorgaan. Als u een fout krijgt met het bericht "Projectvalidatie mislukt. Doelveld ontbreekt...", open dan de toewijzing, selecteer **Tabellen vernieuwen** en voer de toewijzing uit.
 
     App voor financiële en bedrijfsactiviteiten | Customer Engagement-app  
     ----------------------------|------------------------
@@ -253,7 +253,7 @@ Elektronische adressen zijn alleen beschikbaar in dit raster. In toekomstige rel
     [Kopteksten van verkoopfacturen V2](mapping-reference.md#118) | facturen
 
 > [!NOTE]
-> De kaart `CDS Contacts V2 (contacts)` is de kaart die u hebt gestopt in stap 1. Als u andere kaarten probeert uit te voeren, worden deze twee kaarten mogelijk weergegeven in de lijst met afhankelijke kaarten. Voer deze kaarten niet uit.
+> De toewijzing `CDS Contacts V2 (contacts)` is de toewijzing die u hebt gestopt in stap 1. Als u andere toewijzingen probeert uit te voeren, worden deze twee toewijzingen mogelijk weergegeven in de lijst met afhankelijke toewijzingen. Voer deze toewijzingen niet uit.
 >
 > Als de oplossing voor partij en globaal adresboek is geïnstalleerd, moet u de invoegtoepassing `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead` uitschakelen. Als u de oplossing voor partij en globaal adresboek verwijdert, moet u de invoegtoepassing opnieuw inschakelen.
 >

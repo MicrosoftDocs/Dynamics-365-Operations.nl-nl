@@ -2,7 +2,7 @@
 title: Financiële-dimensiesets
 description: In dit onderwerp worden financiële dimensiesets beschreven en vindt u enkele tips voor optimalisatie van het gebruik.
 author: yukonpeegs
-ms.date: 03/23/2021
+ms.date: 03/07/2022
 ms.topic: article
 ems.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: epegors
 ms.search.validFrom: 2021-03-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 415a41100cc5be740f064d52598cd256c0aa2ae1d45473c8039bdc6e22381b3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9274e7f85005ab27d9f2b35fbb0be42e216941c9
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739973"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392931"
 ---
 # <a name="financial-dimension-sets"></a>Financiële-dimensiesets
 
@@ -61,6 +61,11 @@ Gebruik de knop **Saldi opnieuw maken** om de saldi weer helemaal opnieuw te mak
 ## <a name="clear-balances"></a>Saldi wissen
 
 Gebruik de knop **Saldi wissen** maken om de saldi te verwijderen en verdere updates te stoppen. De dimensieset heeft dan geen invloed meer op boekingsactiviteiten in het grootboek.
+
+## <a name="delete-a-dimension-set"></a>Een dimensiegroep verwijderen
+
+U kunt dimensiesets niet **verwijderen en opnieuw maken** als een oplossing voor mogelijke problemen met de saldogegevens voor een bepaalde dimensieset. Het opnieuw maken van een dimensieset is duur. Neem voor meer hulp bij problemen contact op met de klantenservice. 
+
 
 Zie voor meer informatie het onderwerp [Financiële dimensies](financial-dimensions.md).
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fd0fdd677824db823f9bc42f0ad1bdd90cf3b16d
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 440cddca11df8d705757c6f6adf01e08626c5158
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344973"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8408010"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analyse aanpassen aan Planningsoptimalisatie
 
@@ -58,7 +58,7 @@ In de volgende tabel worden de verschillende resultaten weergegeven die kunnen w
 | Functie | Vermeld probleem | Uitleg | Verwachte beschikbaarheid |
 | --- | --- | --- | --- |
 | Acties | Behoefteplanningsgroepen met Actieberekening ingeschakeld: _\#_ | Deze functie wordt verwerkt. Momenteel worden er geen acties gegenereerd tijdens de hoofdplanning wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. Het belangrijkste doel van acties is het voorstellen van wijzigingen in bestaande orders. Ga na of acties actief worden toegepast als onderdeel van uw bedrijfsprocessen en of de vertragingsinformatie die betrekking heeft op de orders voldoende is. | 2022 april |
-| Basiskalenders | Kalenders die de basiskalender gebruiken: _\#_ | Deze functie wordt verwerkt. Op dit moment wordt de basiskalender genegeerd wanneer Planningsoptimalisatie is ingeschakeld. Ga na of de basiskalender nodig is voor uw bedrijfsprocessen en of directe instellingen in kalenders voldoende zijn. | 2022 april | 
+| Basiskalenders | Kalenders die de basiskalender gebruiken: _\#_ | Deze functie wordt nu ondersteund. | 2022 maart | 
 | Batchbeschikkingscodes | Batchbeschikkingsmodellen met niet-nettobehoefte: _\#_ | Deze functie wordt verwerkt. Op dit moment worden batchbeschikkingscodes genegeerd wanneer Planningsoptimalisatie is ingeschakeld. | Oktober 2022 of later |
 | Capable To Promise (CTP) | Standaardorderinstellingen met leveringsdatumcontrole ingesteld op CTP: _\#_ | Deze functie wordt verwerkt. Momenteel wordt CTP genegeerd wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | 2022 oktober |
 | Statisch plan kopiëren naar dynamisch plan | Kopie van statisch naar dynamisch plan wordt ingeschakeld in de parameters voor de hoofdplanning. | Met Planningsoptimalisatie wordt het statische plan niet naar het dynamische plan gekopieerd, ongeacht deze instelling. In het algemeen is dit concept minder relevant vanwege de snelheid en de volledige regeneratie die door Planningsoptimalisatie wordt geleverd. Als er twee of meer plannen worden gebruikt, moet de hoofdplanning worden geactiveerd voor elk plan. | 2022 oktober |

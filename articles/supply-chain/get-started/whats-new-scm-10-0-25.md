@@ -2,7 +2,7 @@
 title: Preview van Dynamics 365 Supply Chain Management 10.0.25 (april 2022)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management 10.0.25.
 author: kamaybac
-ms.date: 02/01/2022
+ms.date: 03/14/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 068e65d0bd76d7a9af36c6c3539d0c813efd528a
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 26f67be72948e33738cf805b541d3c7e701f8dba
+ms.sourcegitcommit: a8f4d7d21d9af17d80b1213e5e1a81f42fb8b928
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384533"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8414115"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10025-april-2022"></a>Preview van Dynamics 365 Supply Chain Management 10.0.25 (april 2022)
 
@@ -39,6 +39,7 @@ De volgende tabel vermeldt de functies die deze versie bevat. Mogelijk wordt dit
 | Voorraad en logistiek | [Streepjescodes scannen in het magazijn met behulp van GS1-indelingsstandaarden](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1-streepjescodes en QR-codes](../warehousing/gs1-barcodes.md) | Functiebeheer:<br>*GS1-streepjescode scannen* |
 | Productie | [Materiaalverbruik en reserveringen in de uitvoeringsinterface van de productievloer](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken](../production-control/production-floor-execution-use.md) | Functiebeheer:<br>*(Preview) Materiaalverbruik registreren op de uitvoeringsinterface van de werkvloer (niet-WMS)*<br><br>En/of:<br><br>Functiebeheer:<br>*(Preview) Materiaalverbruik registreren in de uitvoeringsinterface van de productievloer (WMS ingeschakeld)* |
 | Productie | [Materiaalverbruik voor schaaleenheden registreren](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [Werkbelasting voor productie-uitvoering voor cloud- en randschaaleenheden](../cloud-edge/cloud-edge-workload-manufacturing.md) | Functiebeheer:<br>*Materiaalverbruik op de mobiele app op een schaaleenheid registreren* |
+| Planning | [Gecentraliseerd onderhoud van kalenders voor Planningsoptimalisatie](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-centralized-calendar-maintenance) | [Kalenders en hoofdplanning](../master-planning/supply-chain-calendars-master-planning.md) | Standaard ingeschakeld |
 | Planning | [Suggesties voor Planningsoptimalisatie om bestaande voorraad te optimaliseren](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [Actieberichten](../master-planning/action-messages.md) | Standaard ingeschakeld |
 | Planning | Geplande orders vereenvoudigd | [Geplande orders vereenvoudigd](../master-planning/planning-optimization/planned-orders-simplified.md ) | Functiebeheer:<br>*Geplande orders vereenvoudigd* |
 

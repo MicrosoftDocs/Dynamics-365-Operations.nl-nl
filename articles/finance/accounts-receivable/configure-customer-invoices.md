@@ -2,7 +2,7 @@
 title: Een klantfactuur maken
 description: Een klantfactuur voor een verkooporder is een rekening die door een organisatie aan een klant wordt verstrekt in verband met een verkoop.
 author: ShivamPandey-msft
-ms.date: 02/01/2022
+ms.date: 03/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d408ca5265802cf17a53dd5cb004f707f6f7855b
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 9ffb2c42748678ae265a706a00db327a160cc9f5
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087418"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392906"
 ---
 # <a name="create-a-customer-invoice"></a>Een klantfactuur maken
 
@@ -82,6 +82,9 @@ Op de lijstpagina **Alle verkooporders** kunt u de status van de verkooporders b
 Gebruik deze procedure als een of meer verkooporders kunnen worden gefactureerd en u deze in één factuur wilt consolideren. 
 
 U kunt meerdere facturen op de lijstpagina **Verkooporder** selecteren en vervolgens **Facturen genereren** gebruiken om deze te consolideren. Op de pagina **Factuur wordt geboekt** kunt u de instelling voor **Overzichtsorder** wijzigen om een overzicht op basis van ordernummer (met meerdere pakbonnen voor één verkooporder) of factuurrekening (met meerdere verkooporders voor één factuurrekening) weer te geven. Gebruik de knop **Schikken** om verkooporders in afzonderlijke facturen te consolideren, op basis van de instellingen voor **Overzichtsorder**.
+
+## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>Naar opbrengstrekening boeken voor verkooporderfactuurregels die geen prijs bevatten
+U hebt de mogelijkheid om de **opbrengstrekening** in het **Grootboek** bij te werken voor verkooporderregels zonder prijs. Als u deze informatie wilt instellen of weergeven, gaat u naar de parameter **Naar opbrengstrekening boeken voor verkooporderfactuurregels met nulprijs** op het tabblad **Grootboek en btw** van de pagina **Parameters van klanten**. (**Klanten > Instellingen > Parameters van Klanten**). Selecteer **Ja** om de **opbrengstrekening** voor verkooporderfactuurregels zonder prijs bij te werken. Een opbrengstrekening wordt gedefinieerd op de parameterpagina **Voorraadboeking** op het tabblad **Verkooporder** voor de rekeningdefinitie. Als deze optie niet is geselecteerd, worden regels zonder prijsgegevens niet naar de **opbrengstrekening**.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Aanvullende instellingen die het boekingsgedrag wijzigen
 De volgende velden wijzigen het gedrag van het boekingsproces.

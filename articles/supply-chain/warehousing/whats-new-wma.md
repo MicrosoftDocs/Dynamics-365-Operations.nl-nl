@@ -2,7 +2,7 @@
 title: Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
 description: In dit onderwerp worden de nieuwe en gewijzigde functies genoemd voor elke vrijgegeven versie van de mobiele app Warehouse Management voor Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 02/21/2022
+ms.date: 03/11/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b146fb12f89559efcb3b0973b0dd1ce9b98ffe2a
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: c4731c5f0b0a1553deb53753d82d29a34e5525df
+ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384361"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "8418635"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 In dit onderwerp worden de nieuwe functies, oplossingen, verbeteringen en bekende problemen genoemd voor elke vrijgegeven versie van de mobiele app Warehouse Management voor Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20190"></a>Versie 2.0.19.0
+
+Deze versie bevat de volgende nieuwe functies, verbeteringen en oplossingen voor fouten:
+
+- De algemene stroom voor gegevensonderzoek verbeterd.
+- Het probleem met jittering verbeterd op de pagina's **Werklijst** en **Artikelonderzoek**.
+- Verminderd batterijverbruik.
+- De limiet voor het aantal velden voor werkkaarten verwijderd.
+- De hoogte van werkkaarten aangepast zodat deze allemaal dezelfde grootte hebben, ongeacht het aantal velden op de kaarten.
+- Een probleem opgelost waarbij spatietekens in streepjescodes worden verwijderd.
+- Toegevoegd aan de instelling **Knopstijl**, waarmee u kunt wisselen tussen de weergave voor schuifregelaars en de knopweergave op alle typen apparaten.
+- Er zijn verschillende problemen opgelost waardoor de app crashte.
+- De focus automatisch ingesteld op het eerste tekstvak op aangepaste pagina's.
+- Toegankelijkheidsverbeteringen op het gebied van licht, contrast, voorlezen en ontbrekende teksten voor tijdelijke aanduidingen.
 
 ## <a name="version-20170"></a>Versie 2.0.17.0
 

@@ -2,19 +2,19 @@
 title: Bijwerken naar het model voor partij en globaal adresboek
 description: In dit onderwerp wordt beschreven hoe u gegevens voor twee keer wegschrijven kunt upgraden naar het partij- en globale adresboekmodel.
 author: RamaKrishnamoorthy
-ms.date: 03/31/2021
+ms.date: 03/10/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 579a7d19ee7196d3242c78bd9915df24ec479c31
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 95d272d9076f1ab25230e4efa98e321bdd618062
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060474"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407789"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Bijwerken naar het model voor partij en globaal adresboek
 
@@ -151,13 +151,19 @@ In deze sectie worden de instellingen beschreven die vereist zijn voordat u de D
 
 ## <a name="run-the-templates"></a>De sjablonen uitvoeren
 
-1. Stop de volgende toewijzingen voor twee keer wegschrijven voor **Account**, **Contactpersoon** en **Leverancier** die gebruikmaken van de app voor financiële en bedrijfsactiviteiten:
+1. Stop de volgende toewijzingen voor twee keer wegschrijven voor **Partij**, **Account**, **Contactpersoon** en **Leverancier** die gebruikmaken van de apps voor financiën en bedrijfsactiviteiten:
 
+    + CDS-partijen (msdyn_parties) 
     + Klanten V3 (rekeningen)
     + Klanten V3(contacts)
     + CDS-contactpersonen V2(contacts)
     + CDS-contactpersonen V2(contacts)
     + Leverancier V2 (msdyn_vendor)
+    + Contactpersonen V2 (msdyn_contactforparties)
+    + CDS-postadreslocaties partij (msdyn_partypostaladdresses)
+    + Historie van CDS-postadres V2 (msdyn_postaladdresses)
+    + CDS-postadreslocaties (msdyn_postaladdresscollections)
+    + Partijcontacten V3 (msdyn_partyelectronicaddresses)
 
 2. Zorg ervoor dat de kaarten worden verwijderd uit de tabel **msdy_dualwriteruntimeconfig** in Dataverse.
 3. Installeer [de oplossingen voor twee keer wegschrijven naar Partij en Globaal adresboek](https://aka.ms/dual-write-gab) uit AppSource.

@@ -2,19 +2,19 @@
 title: Btw-aangifte (Duitsland)
 description: In dit onderwerp wordt beschreven hoe u een voorschot-btw-aangifte voor Duitsland kunt instellen en genereren in de officiële XML-indeling.
 author: anasyash
-ms.date: 11/22/2021
+ms.date: 03/10/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 29c04e1034c05b4672f3657ce0b7bc9d5f6d7c9c
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: a761a145a876584728098a92b3f3e93ac718a164
+ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860878"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "8402798"
 ---
 # <a name="vat-declaration-germany"></a>Btw-aangifte (Duitsland)
 
@@ -163,6 +163,9 @@ Open de werkruimte **Elektronische rapportage** en mporteer de volgende versies 
 ### <a name="set-up-application-specific-parameters-for-vat-declaration-fields"></a><a name="set-up-application-specific-parameters-for-vat-declaration-fields"></a>Toepassingsspecifieke parameters instellen voor btw-aangiftevelden
 
 Als u automatisch een btw-aangifte wilt genereren, koppelt u btw-codes aan de toepassing en zoekresultaten in de ER-configuratie.
+
+> [!NOTE]
+> U kunt het beste de functie **Toepassingsspecifieke parameters van vorige versies van ER-indelingen** inschakelen in de werkruimte **Functiebeheer**. Wanneer deze functie is ingeschakeld, worden parameters die zijn geconfigureerd voor de eerdere versie van een ER-indeling automatisch van toepassing op de latere versie van dezelfde indeling. Als deze functie niet is ingeschakeld, moet u toepassingsspecifieke parameters expliciet voor elke indelingsversie configureren. De functie **Toepassingsspecifieke parameters van vorige versies van ER-indelingen** is beschikbaar in de werkruimte **Functiebeheer** vanaf Finance-versie 10.0.23. Zie [De parameters voor een ER-indeling per rechtspersoon instellen](../../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md) voor meer informatie over het instellen van de parameters van een ER-indeling voor elke rechtspersoon.
 
 Volg deze stappen om te definiëren door welke btw-codes welke vakken worden gegenereerd in de btw-aangifte.
 

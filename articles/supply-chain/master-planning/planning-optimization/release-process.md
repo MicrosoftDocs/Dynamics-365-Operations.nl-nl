@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: f9674bb68d7f577a6efdef3416d1731d743d0555
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: fd6ecb0b7bc1fcf85feab2588622a96cf43b6155
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087161"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407839"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Vrijgaveproces en vrijgavegeschiedenis van Planningsoptimalisatie
 
@@ -33,6 +33,7 @@ Omdat meldingen niet worden weergegeven wanneer Planningsoptimalisatie in uw omg
 
 | Wijzigingen | Informatie over Functiebeheer | Vrijgavedatum |
 |---|---|---|
+| <p>Verbeteringen in de algemene prestaties, kwaliteit en stabiliteit.<p>Gecentraliseerd onderhoud van kalenders voor Planningsoptimalisatie<p>Suggesties voor Planningsoptimalisatie om bestaande voorraad te optimaliseren | Functiebeheer is niet vereist. | 7-11 maart 2022 |
 | <p>Extra planningsprioriteitsondersteuning voor productieorders. | Beschikbaar in versie 10.0.25 als onderdeel van de functie met de naam *Prioriteitsgestuurde MRP-ondersteuning voor planningsoptimalisatie*. | 12-18 november 2021 |
 | <p>Verbeteringen in de algemene prestaties, kwaliteit en stabiliteit. | Functiebeheer is niet vereist. | 12-18 november 2021 |
 | <p>Extra ondersteuning voor formules voor de berekening van procestijd, productieroute met overlapping en productiebewerkingsnummer van behoeftetransacties.</p><p>Verbeterde foutberichten voor productieplanning met betrekking tot time-out, capaciteit kan niet worden gevonden en cyclische route.</p><p>Verbeterde consistentie bij het berekenen van ontvangst- en uitgiftedatums op zowel geplande orders als gefiatteerde orders.</p><p>Verbeteringen in de algemene prestaties, kwaliteit en stabiliteit. | Functienaam: *Onbeperkte capaciteitsplanning voor Planningsoptimalisatie* | 22-27 oktober 2021 |

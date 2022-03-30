@@ -2,7 +2,7 @@
 title: Conformiteit van cookie
 description: In dit onderwerp worden overwegingen voor compliance op het gebied van cookies en het standaardbeleid in Microsoft Dynamics 365 Commerce beschreven.
 author: BrianShook
-ms.date: 07/30/2021
+ms.date: 03/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 509ae998b4d0fa8ab6dd5e3d242dfb4abc492952cd66addc04050fbaff949326
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2efb866d513ba90630b0397c1ca144c92d40719c
+ms.sourcegitcommit: 4645278a4b4a38dcb18fdfb49ce2e276eabb59de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747692"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "8403142"
 ---
 # <a name="cookie-compliance"></a>Conformiteit van cookie
 
@@ -58,6 +58,7 @@ In de volgende tabel wordt de huidige verwijzingslijst van cookies weergegeven d
 | \_msdyn365___aud_0                          | Hiermee worden segmentwaarden opgeslagen die worden gebruikt voor geolocaties en deze worden alleen gebruikt als geolocaties zijn geconfigureerd voor een pagina die of fragment dat is aangevraagd door een sitegebruiker. Het koekje wordt alleen geplaatst wanneer de segmentwaarden afkomstig zijn van een externe segmentatieprovider.      | 7 dagen |
 | \_msdyn365___aud_1                           | Hiermee worden segmentwaarden opgeslagen die worden gebruikt voor geolocaties en deze worden alleen gebruikt als geolocaties zijn geconfigureerd voor een pagina die of fragment dat is aangevraagd door een sitegebruiker. Het koekje wordt alleen geplaatst wanneer de segmentwaarden afkomstig zijn van een externe segmentatieprovider.      | 7 dagen |
 | \_msdyn365___aud_2                           | Hiermee worden segmentwaarden opgeslagen die worden gebruikt voor geolocaties en deze worden alleen gebruikt als geolocaties zijn geconfigureerd voor een pagina die of fragment dat is aangevraagd door een sitegebruiker. Het koekje wordt alleen geplaatst wanneer de segmentwaarden afkomstig zijn van een externe segmentatieprovider.      | 7 dagen |
+| d365gi                                       | In deze cookie worden gegevens over de geografische locatie opgeslagen wanneer er een Geolocation-service van een derde partij wordt gebruikt.      | 1 dag |
 
 Als een sitegebruiker een koppeling voor social media op een site selecteert, worden de cookies in de volgende tabel ook in de browser bijgehouden.
 
@@ -65,17 +66,17 @@ Als een sitegebruiker een koppeling voor social media op een site selecteert, wo
 | Domein                      | Cookie               | Beschrijving                                                  | Bron                                          |
 | --------------------------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | .linkedin.com                | UserMatchHistory         | Id-synchronisatie van LinkedIn-advertenties                                      | LinkedIn-feed en Insight-label                                |
-| .linkedin.com               | li_sugr                  | Browser-id                                           | LinkedIn Insight-label als IP-adres niet in een opgegeven land/regio is |
+| .linkedin.com               | li_sugr                  | Browser-id                                           | LinkedIn Insight Tag als IP-adres niet in een opgegeven land/regio is |
 | .linkedin.com               | BizographicsOptOut       | Bepaalt de afmeldstatus voor tracering van derden.              | Besturingselementen voor LinkedIn-gast en pagina's voor afmelden bedrijfstak           |
 | .linkedin.com               | \_guid                    | Browser-id voor Google Ads.                            | LinkedIn-feed                                                |
 | .linkedin.com               | li_oatml                 | Indirecte lid-id voor conversietracering, retargeting en analyses. | LinkedIn Ads en Insight-labels                                |
 | Verschillende first-party domeinen | li_fat_id                | Indirecte lid-id voor conversietracering, retargeting en analyses. | LinkedIn Ads en Insight-labels                                |
-| .adsymptotic.com            | U                        | Browser-id                                           | LinkedIn Insight-label als IP-adres niet in een opgegeven land/regio is |
+| .adsymptotic.com            | U                        | Browser-id                                           | LinkedIn Insight Tag als IP-adres niet in een opgegeven land/regio is |
 | .linkedin.com                | bcookie                  | Cookie browser-id                                            | Aanvragen voor LinkedIn                                         |
 | .linkedin.com                | bscookie                 | Veilige browsercookie                                        | Aanvragen voor LinkedIn                                         |
 | .linkedin.com               | lang                     | Hiermee stelt u standaard landinstelling en taal in.                                 | Aanvragen voor LinkedIn                                         |
 | .linkedin.com                | lidc                     | Gebruikt voor routering.                                             | Aanvragen voor LinkedIn                                         |
-| .linkedin.com               | aam_uuid                 | Adobe-cookie voor doelgroepbeheer                                                     | Instellen voor synchronisatie van id                                              |
+| .linkedin.com               | aam_uuid                 | Cookie voor Adobe Audience Manager                                                     | Instellen voor synchronisatie van id                                              |
 | .linkedin.com               | \_ga                      | Google Analytics-cookie                                            | Google Analytics                                             |
 | .linkedin.com               | \_gat                     | Google Analytics-cookie                                             | Google Analytics                                             |
 | .linkedin.com               | liap                     | Google Analytics-cookie                                             | Google Analytics                                             |
@@ -106,9 +107,9 @@ Als een sitegebruiker een koppeling voor social media op een site selecteert, wo
 | .pinterest.com              | Servicemedewerkers          |                                                              |  Pinterest                                                            |
 
 
-## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>Cookietoestemming van sitegebruiker op een e-Commerce-site 
+## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>Cookietoestemming van sitegebruiker op een e-commerce-site 
 
-Als een functie of module van een e-Commerce-site een niet-essentiële cookie gebruikt, moet de toestemming van de sitegebruiker worden verkregen voordat de cookie wordt gevolgd. Als u wilt dat sitegebruikers cookietoestemming op de e-Commerce-site, moet een auteur van een site een cookietoestemmingsmodule toevoegen en configureren in de koptekstmodule van de pagina om ervoor te zorgen dat de toestemming wordt gevraagd en ontvangen. Toestemming van de sitegebruiker moet worden verleend voordat een functie of module met een niet-essentiële cookie kan worden weergegeven op een sitepagina.
+Als een functie of module van een e-commerce-site een niet-essentiële cookie gebruikt, moet de toestemming van de sitegebruiker worden verkregen voordat de cookie wordt gevolgd. Als u wilt dat sitegebruikers cookietoestemming op de e-commerce-site, moet een auteur van een site een cookietoestemmingsmodule toevoegen en configureren in de koptekstmodule van de pagina om ervoor te zorgen dat de toestemming wordt gevraagd en ontvangen. Toestemming van de sitegebruiker moet worden verleend voordat een functie of module met een niet-essentiële cookie kan worden weergegeven op een sitepagina.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

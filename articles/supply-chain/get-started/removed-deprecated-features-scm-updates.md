@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 43e57b75933a67c1ee3fb0a59400b0d1bdab931cec5826346247cc361a0206df
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e7350e697beec42b349082df06b77a89d526c27c
+ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720415"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "8396519"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management
 
@@ -31,7 +31,7 @@ Dit onderwerp wordt bijgewerkt zodra er nieuwe verwijderde of verouderde functie
 Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning rekening te houden met deze verwijderingen en afschaffingen.
 
 > [!NOTE]
-> Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
+> Gedetailleerde informatie over objecten in apps voor financiële en bedrijfsactiviteiten is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van apps voor financiële en bedrijfsactiviteiten.
 
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Verwijderde of verouderde functies in versie 10.0.19 van Supply Chain Management
@@ -52,7 +52,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Met ingang van april 2021 wordt *Dynamics 365 for Finance and Operations - Magazijnbeheer* (de magazijn-app) afgeschaft en wordt na april 2022 niet meer ondersteund. Het is nu vervangen door de *mobiele app Magazijnbeheer*, die werd uitgebracht met versie 10.0.17 van Supply Chain Management. De nieuwe app is een complete vervanging, maar maakt gebruik van hetzelfde onderliggende framework, waardoor migratie eenvoudig is. Indien nodig kunnen de twee apps naast elkaar worden gebruikt om gebruikers te helpen zich geleidelijk aan te passen terwijl ze de nieuwe app leren gebruiken.<br><br>Zie [Mobiele toepassing Magazijnbeheer](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) en [De mobiele app Magazijnbeheer installeren en verbinden](../warehousing/install-configure-warehouse-management-app.md) voor meer informatie over de mobiele app Magazijnbeheer. |
+| **Reden voor afschaffing/verwijdering** | Met ingang van april 2021 wordt *Dynamics 365 for Finance and Operations - Warehousing* (de magazijn-app) afgeschaft en wordt na april 2022 niet meer ondersteund. Het is nu vervangen door de *mobiele app Magazijnbeheer*, die werd uitgebracht met versie 10.0.17 van Supply Chain Management. De nieuwe app is een complete vervanging, maar maakt gebruik van hetzelfde onderliggende framework, waardoor migratie eenvoudig is. Indien nodig kunnen de twee apps naast elkaar worden gebruikt om gebruikers te helpen zich geleidelijk aan te passen terwijl ze de nieuwe app leren gebruiken.<br><br>Zie [Mobiele toepassing Magazijnbeheer](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) en [De mobiele app Magazijnbeheer installeren en verbinden](../warehousing/install-configure-warehouse-management-app.md) voor meer informatie over de mobiele app Magazijnbeheer. |
 | **Vervangen door een andere functie?**   | Ja, vervangen door de nieuwe mobiele app Magazijnbeheer. |
 | **Betrokken productgebieden**         | Supply Chain Management - magazijn-app |
 | **Implementatieoptie**              | Cloud en on-premises |
@@ -78,7 +78,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 | **Vervangen door een andere functie?**   | Ja, Planningsoptimalisatie vervangt de bestaande ingebouwde Supply Chain Management-hoofdplanningsengine. |
 | **Betrokken productgebieden**         | Supply Chain Management - hoofdplanning |
 | **Implementatieoptie**              | Alleen Cloud. Planningsoptimalisatie wordt niet ondersteund voor on-premises implementaties. |
-| **Status**                         | Afgeschaft. Per 1 april 2022 zullen productiescenario's niet langer worden ondersteund met de ingebouwde Dynamics 365 Supply Chain Management-hoofdplanningsengine. Voor productiescenario's moeten klanten Planningsoptimalisatie gebruiken voor het berekenen van hoofdplanningen. Zie [documentatie voor Planningsoptimalisatie](../master-planning/planning-optimization/planning-optimization-overview.md) voor meer informatie. Klanten met on-premises implementaties van Dynamics 365 Supply Chain Management kunnen de hoofdplanningsengine van Supply Chain Management blijven gebruiken voor productiescenario's na april 2022. Er zullen echter geen functieuitbreidingen meer worden aangeboden. |
+| **Status**                         | Afgeschaft. Per 1 april 2022 zullen productiescenario's niet langer worden ondersteund voor de ingebouwde hoofdplanningsengine van Supply Chain Management. Vanaf die datum zal Microsoft alle actieve ontwikkeling van productiescenario's voor de ingebouwde planningsengine stoppen, geen nieuwe functies meer vrijgeven en alleen kritieke fouten herstellen. Na die datum moeten alle bedrijven die ondersteuning nodig hebben voor productiescenario's, Planningsoptimalisatie gebruiken voor de berekening van de hoofdplanning. Planningsoptimalisatie zal naar verwachting productiescenario's volledig ondersteunen vanaf oktober 2022. Zie [documentatie voor Planningsoptimalisatie](../master-planning/planning-optimization/planning-optimization-overview.md) voor meer informatie.<br><br>Bedrijven met on-premises implementaties van Supply Chain Management kunnen de ingebouwde hoofdplanningsengine van blijven gebruiken voor productiescenario's na april 2022. Er zullen echter geen functieuitbreidingen meer worden aangeboden. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Verwijderde of verouderde functies in versie 10.0.11 van Supply Chain Management
 

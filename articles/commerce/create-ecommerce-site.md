@@ -2,7 +2,7 @@
 title: Een e-commerce-site maken
 description: In dit onderwerp worden de stappen en informatie beschreven die nodig zijn om een nieuwe e-Commerce-site in Dynamics 365 Commerce site builder te maken.
 author: bicyclingfool
-ms.date: 03/04/2022
+ms.date: 03/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5e451b1c95c3e26d1292e7b8300b62af43c81f2f
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 37734e2ceea3a50c70a2f7945329d4a9cf660cc6
+ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388206"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "8402770"
 ---
 # <a name="create-an-e-commerce-site"></a>Een e-commerce-site maken
 
@@ -70,6 +70,14 @@ Voer de volgende stappen uit om de naam van uw site te wijzigen in Site Builder.
 1. Als u de lijstweergave met sites wilt openen, selecteert u **Sites wisselen** in de rechterbovenhoek en selecteert u vervolgens **Sites beheren**. 
 1. Schakel het selectievakje in naast de site waarvan u de naam wilt wijzigen en selecteer vervolgens **Naam wijzigen** op de opdrachtbalk.
 1. Voer in het dialoogvenster **Nieuwe sitenaam** de nieuwe sitenaam in en selecteer vervolgens **OK**. De sitelijst wordt bijgewerkt om de nieuwe naam van de site weer te geven.
+
+## <a name="delete-a-site"></a>Een site verwijderen
+
+Voer de volgende stappen uit om een site te verwijderen in Site Builder.
+
+1. Als u de lijstweergave met sites wilt openen, selecteert u **Sites wisselen** in de rechterbovenhoek en selecteert u vervolgens **Sites beheren**.
+1. Selecteer de site die u wilt verwijderen en selecteer **Verwijderen** op de opdrachtbalk.
+1. Voer in het dialoogvenster **\<site name\> verwijderen** de sitenaam in en selecteer **Verwijderen**.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
