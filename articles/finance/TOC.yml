@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-25.md
                 - name: Finance 10.0.24 (februari)
                   href: get-started/whats-new-changed-10-0-24.md
-                - name: Finance 10.0.23 (januari)
-                  href: get-started/whats-new-changed-10-0-23.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -414,13 +412,25 @@
               items:
                 - name: Overzicht van facturering van abonnementen
                   href: accounts-receivable/subscription-billing-summary.md
-                - name: Factureringsschema's instellen
-                  href: accounts-receivable/sb-billing-schedules.md
+                - name: Terugkerende contractfacturering
+                  items:
+                    - name: Factureringsschema's maken
+                      href: accounts-receivable/sb-billing-schedules.md
+                    - name: Een factureringsschema kopiëren
+                      href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: Facturering van mijlpalen
+                      href: accounts-receivable/sb-milestonebilling.md
+                    - name: Factureringsschema's beëindigen
+                      href: accounts-receivable/terminate-billing-schedule.md
+                - name: Uitgestelde opbrengsten en onkosten
+                  items: null
+                - name: Toewijzing van opbrengsten uit meerdere elementen
+                  items: null
             - name: Betalingen en vereffeningen
               items:
                 - name: Overzicht van klantbetalingen
                   href: cash-bank-management/tasks/customer-payment-overview.md
-                - name: Gecentraliseerde betalingen voor Klanten
+                - name: Centrale betalingen voor Klanten
                   href: accounts-receivable/centralized-payments-accounts-receivable.md
                 - name: Klantbetalingen storten
                   href: accounts-receivable/tasks/deposit-customer-payments.md
@@ -1443,11 +1453,11 @@
                             - name: Een SharePoint-kanaal configureren
                               href: localizations/e-invoicing-configure-sharepoint-channel.md
                         - name: Elektronische facturering instellen en gebruiken met Finance en Supply Chain Management
-                          items: null
-                        - name: Integratie activeren en instellen met Elektronische facturering
-                          href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
-                        - name: Parameters voor Elektronische facturering instellen
-                          href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
+                          items:
+                            - name: Integratie activeren en instellen met Elektronische facturering
+                              href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
+                            - name: Parameters voor Elektronische facturering instellen
+                              href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
                         - name: Werken met Elektronische facturering
                           items:
                             - name: Elektronische documenten indienen bij Elektronische facturering
@@ -1524,39 +1534,47 @@
                           href: localizations/emea-multiple-vat-registration-numbers.md
                         - name: Aangifte van meerdere btw-registraties
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
-                        - name: Rapportage voor Oostenrijk
+                        - name: Aangifte voor Oostenrijk
                           items:
                             - name: Btw-aangifte
                               href: localizations/emea-aut-vat-declaration-austria.md
-                        - name: Rapportage voor Denemarken
+                        - name: Aangifte voor Denemarken
                           items:
                             - name: Btw-aangifte
                               href: localizations/emea-dnk-vat-declaration-denmark.md
-                        - name: Rapportage voor Frankrijk
+                        - name: Aangifte voor Finland
+                          items:
+                            - name: Btw-aangifte
+                              href: localizations/emea-fin-vat-declaration-mult-tax-id.md
+                        - name: Aangifte voor Frankrijk
                           items:
                             - name: Btw-aangifte
                               href: localizations/emea-fra-VAT-declaration-preview-France.md
-                        - name: Rapportage voor Duitsland
+                        - name: Aangifte voor Duitsland
                           items:
                             - name: Btw-aangifte
                               href: localizations/emea-deu-vat-declaration-germany.md
-                        - name: Rapportage voor Nederland
+                        - name: Aangifte voor Nederland
                           items:
                             - name: Btw-aangifte
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: ICL-lijst
                               href: localizations/emea-nl-eu-sales-list.md
-                        - name: Rapportage voor Spanje
+                        - name: Aangifte voor Noorwegen
+                          items:
+                            - name: Btw-aangifte
+                              href: localizations/emea-nor-vat-declaration.md
+                        - name: Aangifte voor Spanje
                           items:
                             - name: 'Directe levering van informatie over btw (Suministro Inmediato de Información del IVA, SII)'
                               href: localizations/emea-esp-sii-spain.md
                             - name: Btw-aangifte
                               href: localizations/emea-esp-vat-declaration-spain.md
-                        - name: Rapportage voor Zweden
+                        - name: Aangifte voor Zweden
                           items:
                             - name: Btw-aangifte
                               href: localizations/emea-swe-VAT-declaration-Sweden.md
-                        - name: Rapportage voor Zwitserland
+                        - name: Aangifte voor Zwitserland
                           items:
                             - name: Btw-aangifte
                               href: localizations/emea-che-vat-declaration-switzerland.md
@@ -1564,10 +1582,6 @@
                           items:
                             - name: Btw-aangifte
                               href: localizations/emea-gbr-vat-declaration.md
-                        - name: Aangifte voor Noorwegen
-                          items:
-                            - name: Btw-aangifte
-                              href: localizations/emea-nor-vat-declaration.md
                     - name: Belastingberekening voor transferorder inschakelen
                       items:
                         - name: Ondersteuning voor belastingfunctie voor transferorders
@@ -1694,9 +1708,7 @@
                   href: localizations/emea-aut-half-year-depreciation.md
                 - name: Verpakkingsmateriaalkosten
                   href: localizations/emea-aut-packing-material-fee-calculation.md
-                - name: Btw-overzicht
-                  href: localizations/emea-aut-vat-statement-details.md
-                - name: Rapportage voor internationale dienstverlening
+                - name: Aangifte voor internationale dienstverlening
                   href: localizations/emea-aut-cross-border-services-report.md
                 - name: Oostenrijkse intrastat
                   href: localizations/emea-aut-intrastat.md
@@ -2020,9 +2032,7 @@
                   href: localizations/emea-create-post-periodic-journals.md
                 - name: Bijwerken hoe bedragen worden weergegeven in rapporten en documenten
                   href: localizations/emea-amount-printing-forms.md
-                - name: Btw-overzicht
-                  href: localizations/emea-cze-vat-statement-details.md
-                - name: Btw-aangifte (Tsjechische Republiek)
+                - name: Btw-aangifte
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
                 - name: Tsjechische Intrastat
                   href: localizations/emea-cze-intrastat.md
@@ -2060,6 +2070,8 @@
                   href: localizations/tasks/set-up-payment-slip-format.md
                 - name: Deense Intrastat
                   href: localizations/emea-dnk-intrastat.md
+                - name: Btw-aangifte
+                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: Egypte
               items:
                 - name: Overzicht Egypte
@@ -2238,10 +2250,12 @@
               items:
                 - name: Overzicht Finland
                   href: localizations/finland.md
-                - name: Btw-betalingsrapport voor FInland
+                - name: Aangifte btw-betalingen voor FInland
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
                 - name: Finse Intrastat
                   href: localizations/emea-fin-intrastat.md
+                - name: Btw-aangifte
+                  href: localizations/emea-fin-vat-declaration.md
             - name: Frankrijk
               items:
                 - name: Overzicht Frankrijk
@@ -2332,12 +2346,8 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: Btw-aangifte
                   href: localizations/emea-deu-vat-declaration-germany.md
-                - name: Elektronische transmissie van btw-aangifte (ELSTER)
-                  href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Duitse Intrastat
                   href: localizations/emea-deu-intrastat.md
-                - name: Btw-overzicht
-                  href: localizations/emea-de-vat-declaration.md
                 - name: Rapport met elektronische klantfacturen
                   href: localizations/emea-deu-e-invoices.md
                 - name: Journaallijstrapport
@@ -2348,8 +2358,6 @@
                   href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
                 - name: ICL-lijst
                   href: localizations/emea-deu-eu-sales-list.md
-                - name: Btw-aangifte
-                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: Hongarije
               items:
                 - name: Overzicht Hongarije
@@ -2562,9 +2570,11 @@
                                   href: localizations/apac-ind-GST-import-goods-gst.md
                                 - name: Services met GST importeren
                                   href: localizations/apac-ind-import-services-gst.md
+                                - name: Toewijzing van toeslagen op pagina Douaneverklaring voor importorders
+                                  href: localizations/apac-ind-charge-allocation-boe-page-import-orders.md
                                 - name: Van btw vrijgestelde goederen exporteren
                                   href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
-                                - name: Van belasting vrijgestelde services exporteren
+                                - name: Van btw vrijgestelde diensten exporteren
                                   href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
                                 - name: Credit- of debetnota voor een exportorder
                                   href: localizations/apac-ind-GST-credit-debit-note-against-export-order.md
@@ -3116,17 +3126,13 @@
               items:
                 - name: Overzicht Nederland
                   href: localizations/netherlands.md
-                - name: Btw-aangifte
-                  href: localizations/emea-nl-VAT-declaration.md
-                - name: Elektronische belastingaangiften (EVAT)
-                  href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL-integratie
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: Auditfile (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
                 - name: Btw-aangifte (Nederland)
                   href: localizations/emea-nl-vat-declaration-netherlands.md
-                - name: Intrastat Nederland
+                - name: Intrastat
                   href: localizations/emea-nl-intrastat.md
                 - name: ICL-lijst
                   href: localizations/emea-nl-EU-sales-list.md
@@ -3538,9 +3544,9 @@
                   href: localizations/emea-swe-sie-standard-report.md
                 - name: Betalingsindelingen voor import
                   href: localizations/emea-swe-payment-formats-import.md
-                - name: Btw-betalingsrapport voor Zweden
+                - name: Aangifte btw-betalingen voor Zweden
                   href: localizations/emea-swe-sales-tax-payment-report-sweden.md
-                - name: Btw-aangifte voor Zweden
+                - name: Btw-aangifte
                   href: localizations/emea-swe-VAT-declaration-Sweden.md
                 - name: Zweedse Intrastat
                   href: localizations/emea-swe-intrastat.md
@@ -4751,7 +4757,7 @@
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-8.md
             - name: 'Transacties vereffenen met CustTrans::settleTransaction'
               href: ../fin-ops-core/dev-itpro/financial/settletransact-obsolete.md
-    - name: Ontwikkeling en beheer voor  apps voor financiën en bedrijfsactiviteiten
+    - name: Ontwikkeling en beheer voor apps voor financiën en bedrijfsactiviteiten
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Supply Chain Management
       href: ../supply-chain/index.md

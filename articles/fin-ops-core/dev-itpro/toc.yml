@@ -1,10 +1,10 @@
-- name: Ontwikkeling en beheer voor  apps voor financiën en bedrijfsactiviteiten
+- name: Ontwikkeling en beheer voor apps voor financiën en bedrijfsactiviteiten
   items:
-    - name: Ontwikkeling en beheer voor  apps voor financiën en bedrijfsactiviteiten
+    - name: Ontwikkeling en beheer voor apps voor financiën en bedrijfsactiviteiten
       items:
-        - name: Documentatie over apps voor financiën en bedrijfsactiviteiten
+        - name: Documentatie over Finance and Operations-apps
           href: ../fin-ops/index.md
-        - name: Ontwikkeling en beheer voor  apps voor financiën en bedrijfsactiviteiten
+        - name: Ontwikkeling en beheer voor apps voor financiën en bedrijfsactiviteiten
           href: index.md
         - name: Nieuwe of gewijzigde functies
           items:
@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-25.md
                 - name: Platform-updates voor versie 10.0.24 (februari 2022)
                   href: get-started/whats-new-platform-updates-10-0-24.md
-                - name: Platform-updates voor versie 10.0.23 (januari 2022)
-                  href: get-started/whats-new-platform-updates-10-0-23.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -240,6 +238,8 @@
               href: data-entities/configure-export-data-lake.md
             - name: Apps voor financiën en bedrijfsactiviteiten in Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
+            - name: Gegevens en metagegevens die zijn opgeslagen in Azure Data Lake
+              href: data-entities/Azure-Data-Lake-Enhanced-Metadata.md
             - name: Entiteitopslag beschikbaar maken als een Data Lake
               href: data-entities/entity-store-data-lake.md
             - name: Zakelijke gebeurtenissen gegenereerd door Exporteren naar Azure Data Lake-service (preview)
@@ -410,6 +410,8 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Hetzelfde AD FS-exemplaar hergebruiken voor meerdere omgevingen
                       href: deployment/onprem-reuseadfs.md
+                    - name: Upgrade van Windows Server in uw Microsoft Dynamics 365 Finance + Operations (on-premises)-omgevingen
+                      href: deployment/onprem-upgrade-os.md
                     - name: Het SQL Server-exemplaar van Microsoft Dynamics 365 Finance + Operations (on-premises)-omgevingen upgraden
                       href: deployment/onprem-upgrade-sqlserver.md
                 - name: Lokale agent
@@ -474,7 +476,7 @@
                   href: deployment/us-gcc-deployment.md
                 - name: Finance en Supply Chain Management geëxploiteerd door 21Vianet in China
                   href: deployment/china-local-deployment.md
-                - name: Finance and Operations-apps in Frankrijk
+                - name: Apps voor financiën en bedrijfsactiviteiten in Frankrijk
                   href: deployment/france-local-deployment.md
         - name: Ontwikkelen en aanpassen
           items:
@@ -932,6 +934,8 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS voor partners
                   href: lifecycle-services/getting-started-lcs.md
+                - name: Ondersteunde webbrowsers
+                  href: lifecycle-services/web-browsers.md
                 - name: RESTful API's
                   items:
                     - name: Omgevingen starten en stoppen
@@ -1168,7 +1172,7 @@
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
                         - name: Problemen met live synchronisatie oplossen
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                        - name: Problemen met twee keer wegschrijven oplossen in de toepassingen Finance and Operations
+                        - name: Problemen met twee keer wegschrijven oplossen in de apps voor financiën en bedrijfsactiviteiten
                           href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                         - name: Problemen met partij en globaal adresboek oplossen
                           href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
@@ -1484,12 +1488,14 @@
               href: perf-test/rsat/rsat-maintain-test-cases.md
             - name: Verwachte waarden valideren
               href: perf-test/rsat/rsat-validate-expected.md
-            - name: Testcases keten
+            - name: Een keten met testcases maken
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Afgeleide testcases
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: De parameterbestanden bijwerken
               href: perf-test/rsat/rsat-upgrade-parameter-files.md
+            - name: Proefmodus zonder Azure DevOps
+              href: perf-test/rsat/rsat-trial-without-devops.md
             - name: Zelfstudie voor Regression Suite Automation Tool
               href: perf-test/rsat/rsat-tutorial.md
             - name: Niet-beheerders configureren
