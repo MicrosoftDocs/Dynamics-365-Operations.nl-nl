@@ -2,7 +2,7 @@
 title: Veelgestelde vragen over opnieuw instellen van een datamart
 description: Dit onderwerp biedt antwoorden op een aantal veelgestelde vragen over het opnieuw instellen (reset) van een datamart.
 author: jinniew
-ms.date: 02/14/2022
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 53f45f469c39f9e389763aa0daed658e5a62d377
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: ab6417a739e9a7b67b9e67d93f3bef654e55e5e4
+ms.sourcegitcommit: 2c2ef3e312e7221006a9e230c9378bb4c1b4cd33
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119507"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8466406"
 ---
 # <a name="data-mart-resets-faq"></a>Veelgestelde vragen over opnieuw instellen van een datamart
 
@@ -47,10 +47,14 @@ Als er een of meer van de volgende uitspraken van toepassing zijn op uw situatie
 Hierna volgen enkele omstandigheden waarin het niet raadzaam is om een datamart opnieuw in te stellen:
 
 - U ondervindt prestatieproblemen met betrekking tot gegevensintegraties.
+- Uw integratie met Financial Reporter is niet ingeschakeld. 
+
+    - Dit betekent dat grootboekgegevens niet meer worden gesynchroniseerd met uw datamart voor Financial Reporting. Uw Financial Reporter ontvangt mogelijk geen actuele cijfers voor uw financiële rapporten. Dit gebeurt meestal als u Financial Reporter lange tijd niet hebt gebruikt.
+    - U wordt gevraagd om integratie in te schakelen door de datamart-functie opnieuw in te stellen. U kunt doorgaan door **Ja** te selecteren. U kunt de datamart ook later opnieuw instellen. Nadat integratie is ingeschakeld, worden uw grootboekgegevens opnieuw gesynchroniseerd in Financial Reporter. 
 - Er is sprake van een terugkerend resetpatroon om een van de volgende redenen:
 
     - **Ontbrekende of onverwachte gegevens in het rapport**: als u ziet dat er gegevens ontbreken, opent u een ondersteuningticket bij Microsoft om de rapportindeling en mogelijke problemen met gegevenssynchronisatie te bekijken.
-    - **Vastgelopen integratie**
+    - **Vastgelopen integratie**: als u ziet dat de integratiestatus is vastgelopen, kan dit te wijten zijn aan een groot transactievolume in het systeem. Deze status lost zichzelf op. Als u echter ziet dat de integratiestatus meer dan vier uur vastloopt, opent u een ondersteuningsticket bij Microsoft. 
    
 ## <a name="if-i-reset-the-data-mart-will-i-lose-reports-that-ive-already-designed"></a>Als ik de datamart opnieuw instel, raak ik dan rapporten kwijt die ik al heb ontworpen?
 

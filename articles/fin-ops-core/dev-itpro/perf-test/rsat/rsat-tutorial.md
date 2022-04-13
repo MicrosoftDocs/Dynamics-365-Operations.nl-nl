@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 2f31009424629221a8e4f130b0ec1879c6c6e3d4
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: e2273aefb98880a1ae746ef7ec65b4f2262f3560
+ms.sourcegitcommit: 49c97b0c94e916db5efca5672d85df70c3450755
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781958"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "8492915"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Zelfstudie voor Regression Suite Automation Tool
 
@@ -43,7 +43,7 @@ In het volgende voorbeeld ziet u hoe u deze functie kunt gebruiken om te valider
     5. Markeer in de lijst de geselecteerde rij.
     6. Valideer of het veld **Totaal beschikbaar** de waarde **411,0000000000000000** bevat.
 
-2. Sla de taakregistratie op als een **ontwikkelaarsregistratie** en koppel deze aan uw testcase in de Azure Devops.
+2. Sla de taakregistratie op als een **ontwikkelaarsregistratie** en koppel deze aan uw testcase in Azure DevOps.
 3. Voeg de testcase toe aan het testplan en laad de testcase in RSAT.
 4. Open het Excel-parameterbestand en ga naar het tabblad **TestCaseSteps**.
 5. Als u wilt valideren of de voorhanden voorraad altijd meer dan **0** is, gaat u naar de stap **Totaal beschikbaar valideren** en wijzigt u de waarde van **411** in **0**. Wijzig de waarde van het veld **Operator** van een is gelijk-teken (**=**) naar een groter dan-teken (**\>**).
@@ -91,7 +91,7 @@ Met deze functie maakt u schermafbeeldingen van de stappen die zijn uitgevoerd t
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-Wanneer u testcases uitvoert, genereert RSAT momentopnamen (afbeeldingen) van de stappen en slaat deze op in de afspeelmap van de testcases in de werkdirectory. In de afspeelmap wordt een afzonderlijke submap met de naam **StepSnapshots** gemaakt. Deze map bevat momentopnamen voor de testcases die zijn uitgevoerd.
+Wanneer u testcases uitvoert, genereert RSAT momentopnamen (afbeeldingen) van de stappen en slaat deze op in de afspeelmap van de testcases in de werkmap. In de afspeelmap wordt een afzonderlijke submap met de naam **StepSnapshots** gemaakt. Deze map bevat momentopnamen voor de testcases die zijn uitgevoerd.
 
 ## <a name="assignment"></a>Toewijzing
 
@@ -172,6 +172,7 @@ RSAT kan worden aangeroepen vanuit een **opdrachtprompt**- of **PowerShell**-ven
         about
         cls
         download
+        downloadsuite
         edit
         generate
         generatederived
@@ -181,11 +182,13 @@ RSAT kan worden aangeroepen vanuit een **opdrachtprompt**- of **PowerShell**-ven
         list
         listtestplans
         listtestsuite
+        listtestsuitebyid
         listtestsuitenames
         playback
         playbackbyid
         playbackmany
         playbacksuite
+        playbacksuitebyid
         quit
         upload
         uploadrecording
@@ -194,17 +197,17 @@ RSAT kan worden aangeroepen vanuit een **opdrachtprompt**- of **PowerShell**-ven
 
 #### <a name=""></a>?
 
-Hiermee wordt Help weergegeven over alle beschikbare opdrachten en de bijbehorende parameters.
+Hiermee wordt een overzicht van alle opdrachten weergegeven of informatie geboden over een bepaalde opdracht samen met de beschikbare parameters.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``?``**``[command]``
 
 ##### <a name="-optional-parameters"></a>?: optionele parameters
 
-`command`: waarbij ``[command]`` een van de hieronder opgegeven opdrachten is.
+`command`: waarbij ``[command]`` een van de opdrachten in de voorgaande lijst is.
 
 #### <a name="about"></a>informatie
 
-Hiermee wordt de huidige versie weergegeven.
+Hiermee wordt de versie van de geïnstalleerde RSAT opgegeven.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``about``**
 
@@ -214,23 +217,59 @@ Hiermee wordt het scherm leeggemaakt.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``cls``**
 
-#### <a name="download"></a>download
+#### <a name="download"></a>downloaden
 
-Hiermee worden bijlagen voor de opgegeven testaanvraag gedownload naar de uitvoermap.
-U kunt de opdracht ``list`` gebruiken om alle beschikbare testcases op te halen. Gebruik een willekeurige waarde uit de eerste kolom als parameter voor **test_case_id**.
+Hiermee worden bijlagen (opname-, uitvoerings- en parameterbestanden) voor de opgegeven testcase vanuit Azure DevOps naar de uitvoermap gedownload. U kunt de opdracht ``list`` gebruiken om alle beschikbare testcases op te halen en elke waarde uit de eerste kolom gebruiken als parameter **test_case_id**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[/retry[=<seconds>]] [test_case_id] [output_dir]``
+
+##### <a name="download-optional-switches"></a>download: optionele schakelopties
+
++ `/retry[=seconds]`- Als deze schakeloptie is opgegeven en case-testcases worden geblokkeerd door andere RSAT-exemplaren, wacht het proces download het opgegeven aantal seconden en doet vervolgens nog één poging. De standaardwaarde voor \[seconden\] is 120 seconden. Zonder deze schakeloptie wordt het proces onmiddellijk geannuleerd als testcases worden geblokkeerd.
 
 ##### <a name="download-required-parameters"></a>download: vereiste parameters
 
 + `test_case_id`: vertegenwoordigt de id van de testcase.
-+ `output_dir`: vertegenwoordigt de uitvoermap. De map moet bestaan.
+
+##### <a name="download-optional-parameters"></a>download: optionele parameters
+
++ `output_dir`: vertegenwoordigt de uitvoerwerkmap. De map moet bestaan. De werkmap uit de instellingen wordt gebruikt als deze parameter niet is opgegeven.
 
 ##### <a name="download-examples"></a>download: voorbeelden
 
 `download 123 c:\temp\rsat`
 
-`download 765 c:\rsat\last`
+`download /retry=240 765`
+
+#### <a name="downloadsuite"></a>downloadsuite
+
+Hiermee worden bijlagen (opname-, uitvoerings- en parameterbestanden) voor alle testcases in de opgegeven testsuite vanuit Azure DevOps naar de uitvoermap gedownload. U kunt de opdracht ``listtestsuitenames`` gebruiken om alle beschikbare testsuites op te halen en elke waarde gebruiken als parameter **test_suite_name**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``downloadsuite``**``[/retry[=<seconds>]] ([test_suite_name] | [/byid] [test_suite_id]) [output_dir]``
+
+##### <a name="downloadsuite-optional-switches"></a>downloadsuite: optionele schakelopties
+
++ `/retry[=seconds]`- Als deze schakeloptie is opgegeven en case-testcases worden geblokkeerd door andere RSAT-exemplaren, wacht het proces download het opgegeven aantal seconden en doet vervolgens nog één poging. De standaardwaarde voor \[seconden\] is 120 seconden. Zonder deze schakeloptie wordt het proces onmiddellijk geannuleerd als testcases worden geblokkeerd.
++ `/byid`: deze schakeloptie geeft aan dat de gewenste testsuite wordt geïdentificeerd op basis van de Azure DevOps-id in plaats van de naam van de testsuite.
+
+##### <a name="downloadsuite-required-parameters"></a>downloadsuite: vereiste parameters
+
++ `test_suite_name`: vertegenwoordigt de naam van de testsuite. Deze parameter is vereist als de schakeloptie /byid **niet** is opgegeven. Deze naam is de naam van de Azure DevOps-testsuite.
++ `test_suite_id`: vertegenwoordigt de id van de testsuite. Deze parameter is vereist als de schakeloptie /byid **wel** is opgegeven. Deze id is testsuite Azure DevOps-id.
+
+##### <a name="downloadsuite-optional-parameters"></a>downloadsuite: optionele parameters
+
++ `output_dir`: vertegenwoordigt de uitvoerwerkmap. De map moet bestaan. De werkmap uit de instellingen wordt gebruikt als deze parameter niet is opgegeven.
+
+##### <a name="downloadsuite-examples"></a>downloadsuite: voorbeelden
+
+`downloadsuite NameOfTheSuite c:\temp\rsat`
+
+`downloadsuite /byid 123 c:\temp\rsat`
+
+`downloadsuite /retry=240 /byid 765`
+
+`downloadsuite /retry=240 /byid 765 c:\temp\rsat`
 
 #### <a name="edit"></a>bewerken
 
@@ -244,7 +283,7 @@ Hiermee kunt u het parameterbestand openen in Excel en het bewerken.
 
 ##### <a name="edit-examples"></a>edit: voorbeelden
 
-`edit c:\RSAT\TestCase_123_Base.xlsx`
+`edit c:\RSAT\123\TestCase_123_Base.xlsx`
 
 `edit e:\temp\TestCase_456_Base.xlsx`
 
@@ -252,24 +291,41 @@ Hiermee kunt u het parameterbestand openen in Excel en het bewerken.
 
 Hiermee worden testuitvoerings- en parameterbestanden gegenereerd voor de opgegeven testcase in de uitvoermap. U kunt de opdracht ``list`` gebruiken om alle beschikbare testcases op te halen. Gebruik een willekeurige waarde uit de eerste kolom als parameter voor **test_case_id**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[/retry[=<seconds>]] [/dllonly] [/keepcustomexcel] [test_case_id] [output_dir]``
+
+##### <a name="generate-optional-switches"></a>generate: optionele schakelopties
+
++ `/retry[=seconds]`: als deze schakeloptie is opgegeven en case-testcases worden geblokkeerd door andere RSAT-exemplaren, wacht het proces generate het opgegeven aantal seconden en doet vervolgens nog één poging. De standaardwaarde voor \[seconden\] is 120 seconden. Zonder deze schakeloptie wordt het proces onmiddellijk geannuleerd als testcases worden geblokkeerd.
++ `/dllonly`: uitsluitend testuitvoeringsbestanden voor generate. Genereer het Excel-parameterbestand niet opnieuw.
++ `/keepcustomexcel`: voer een upgrade van het bestaande parametersbestand uit. Genereer ook uitvoeringsbestanden opnieuw.
 
 ##### <a name="generate-required-parameters"></a>generate: vereiste parameters
 
 + `test_case_id`: vertegenwoordigt de id van de testcase.
-+ `output_dir`: vertegenwoordigt de uitvoermap. De map moet bestaan.
+
+##### <a name="generate-optional-parameters"></a>generate: optionele parameters
+
++ `output_dir`: vertegenwoordigt de uitvoerwerkmap. De map moet bestaan. De werkmap uit de instellingen wordt gebruikt als deze parameter niet is opgegeven.
 
 ##### <a name="generate-examples"></a>generate: voorbeelden
 
 `generate 123 c:\temp\rsat`
 
-`generate 765 c:\rsat\last`
+`generate /retry=240 765 c:\rsat\last`
+
+`generate /retry=240 /dllonly 765`
+
+`generate /retry=240 /keepcustomexcel 765`
 
 #### <a name="generatederived"></a>generatederived
 
-Hiermee wordt een nieuwe testcase gegenereerd die is afgeleid van de geleverde testcase. U kunt de opdracht ``list`` gebruiken om alle beschikbare testcases op te halen. Gebruik een willekeurige waarde uit de eerste kolom als parameter voor **test_case_id**.
+Hiermee wordt een nieuwe afgeleide testcase (onderliggende testcase) gegenereerd van de geleverde testcase. De nieuwe testcase wordt eveneens toegevoegd aan de opgegeven testsuite. U kunt de opdracht ``list`` gebruiken om alle beschikbare testcases op te halen en elke waarde uit de eerste kolom gebruiken als parameter **test_case_id**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[parent_test_case_id] [test_plan_id] [test_suite_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[/retry[=<seconds>]] [parent_test_case_id] [test_plan_id] [test_suite_id]``
+
+##### <a name="generatederived-optional-switches"></a>generatederived: optionele schakelopties
+
++ `/retry[=seconds]`: als deze schakeloptie is opgegeven en case-testcases worden geblokkeerd door andere RSAT-exemplaren, wacht het proces generate het opgegeven aantal seconden en doet vervolgens nog één poging. De standaardwaarde voor \[seconden\] is 120 seconden. Zonder deze schakeloptie wordt het proces onmiddellijk geannuleerd als testcases worden geblokkeerd.
 
 ##### <a name="generatederived-required-parameters"></a>generatederived: vereiste parameters
 
@@ -281,39 +337,63 @@ Hiermee wordt een nieuwe testcase gegenereerd die is afgeleid van de geleverde t
 
 `generatederived 123 8901 678`
 
+`generatederived /retry 123 8901 678`
+
 #### <a name="generatetestonly"></a>generatetestonly
 
-Hiermee wordt alleen een testuitvoeringsbestand voor de opgegeven testcase gegenereerd in de uitvoermap. U kunt de opdracht ``list`` gebruiken om alle beschikbare testcases op te halen. Gebruik een willekeurige waarde uit de eerste kolom als parameter voor **test_case_id**.
+Hiermee worden uitsluitend testuitvoeringsbestanden voor de opgegeven testcase gegenereerd. Het Excel-parameterbestand wordt niet gegenereerd. De bestanden worden gegenereerd in de opgegeven uitvoermap. U kunt de opdracht ``list`` gebruiken om alle beschikbare testcases op te halen en elke waarde uit de eerste kolom gebruiken als parameter **test_case_id**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[/retry[=<seconds>]] [test_case_id] [output_dir]``
+
+##### <a name="generatetestonly-optional-switches"></a>generatetestonly: optionele schakelopties
+
++ `/retry[=seconds]`: als deze schakeloptie is opgegeven en case-testcases worden geblokkeerd door andere RSAT-exemplaren, wacht het proces generate het opgegeven aantal seconden en doet vervolgens nog één poging. De standaardwaarde voor \[seconden\] is 120 seconden. Zonder deze schakeloptie wordt het proces onmiddellijk geannuleerd als testcases worden geblokkeerd.
 
 ##### <a name="generatetestonly-required-parameters"></a>generatetestonly: vereiste parameters
 
 + `test_case_id`: vertegenwoordigt de id van de testcase.
-+ `output_dir`: vertegenwoordigt de uitvoermap. De map moet bestaan.
+
+##### <a name="generatetestonly-optional-parameters"></a>generatetestonly: optionele parameters
+
++ `output_dir`: vertegenwoordigt de uitvoerwerkmap. De map moet bestaan. De werkmap uit de instellingen wordt gebruikt als deze parameter niet is opgegeven.
 
 ##### <a name="generatetestonly-examples"></a>generatetestonly: voorbeelden
 
 `generatetestonly 123 c:\temp\rsat`
 
-`generatetestonly 765 c:\rsat\last`
+`generatetestonly /retry=240 765`
 
 #### <a name="generatetestsuite"></a>generatetestsuite
 
-Hiermee worden alle testcases voor de opgegeven suite gegenereerd in de uitvoermap. U kunt de opdracht ``listtestsuitenames`` gebruiken om alle beschikbare testsuites op te halen. Gebruik een willekeurige waarde uit de kolom als parameter voor **test_suite_name**.
+Hiermee worden testautomatiseringsbestanden voor alle testcases in de opgegeven suite gegenereerd. U kunt de opdracht ``listtestsuitenames`` gebruiken om alle beschikbare testsuites op te halen en elke waarde gebruiken als parameter **test_suite_name**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[test_suite_name] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[/retry[=<seconds>]] [/dllonly] [/keepcustomexcel] ([test_suite_name] | [/byid] [test_suite_id]) [output_dir]``
+
+##### <a name="generatetestsuite-optional-switches"></a>generatetestsuite: optionele schakelopties
+
++ `/retry[=seconds]`: als deze schakeloptie is opgegeven en case-testcases worden geblokkeerd door andere RSAT-exemplaren, wacht het proces generate het opgegeven aantal seconden en doet vervolgens nog één poging. De standaardwaarde voor \[seconden\] is 120 seconden. Zonder deze schakeloptie wordt het proces onmiddellijk geannuleerd als testcases worden geblokkeerd.
++ `/dllonly`: uitsluitend testuitvoeringsbestanden voor generate. Genereer het Excel-parameterbestand niet opnieuw.
++ `/keepcustomexcel`: voer een upgrade van het bestaande parametersbestand uit. Genereer ook uitvoeringsbestanden opnieuw.
++ `/byid`: deze schakeloptie geeft aan dat de gewenste testsuite wordt geïdentificeerd op basis van de Azure DevOps-id in plaats van de naam van de testsuite.
 
 ##### <a name="generatetestsuite-required-parameters"></a>generatetestsuite: vereiste parameters
 
-+ `test_suite_name`: vertegenwoordigt de naam van de testsuite.
-+ `output_dir`: vertegenwoordigt de uitvoermap. De map moet bestaan.
++ `test_suite_name`: vertegenwoordigt de naam van de testsuite. Deze parameter is vereist als de schakeloptie /byid **niet** is opgegeven. Deze naam is de naam van de Azure DevOps-testsuite.
++ `test_suite_id`: vertegenwoordigt de id van de testsuite. Deze parameter is vereist als de schakeloptie /byid **wel** is opgegeven. Deze id is testsuite Azure DevOps-id.
+
+##### <a name="generatetestsuite-optional-parameters"></a>generatetestsuite: optionele parameters
+
++ `output_dir`: vertegenwoordigt de uitvoerwerkmap. De map moet bestaan. De werkmap uit de instellingen wordt gebruikt als deze parameter niet is opgegeven.
 
 ##### <a name="generatetestsuite-examples"></a>generatetestsuite: voorbeelden
 
 `generatetestsuite Tests c:\temp\rsat`
 
-`generatetestsuite Purchase c:\rsat\last`
+`generatetestsuite /retry Purchase c:\rsat\last`
+
+`generatetestsuite /dllonly /byid 121`
+
+`generatetestsuite /keepcustomexcel /byid 121`
 
 #### <a name="help"></a>help
 
@@ -321,7 +401,7 @@ Identiek aan de [?](#section) command.
 
 #### <a name="list"></a>lijst
 
-Hiermee worden alle beschikbare testcases weergegeven.
+Geeft een overzicht van alle beschikbare testcases in het huidige testplan.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``list``**
 
@@ -333,13 +413,13 @@ Hiermee worden alle beschikbare testplannen weergegeven.
 
 #### <a name="listtestsuite"></a>listtestsuite
 
-Hiermee worden de testcases voor de opgegeven testsuite weergegeven. U kunt de opdracht ``listtestsuitenames`` gebruiken om alle beschikbare testsuites op te halen. Gebruik een willekeurige waarde uit de eerste kolom als parameter voor **suite_name**.
+Hiermee worden de testcases voor de opgegeven testsuite weergegeven. U kunt de opdracht ``listtestsuitenames`` gebruiken om alle beschikbare testsuites op te halen en elke waarde uit de lijst gebruiken als parameter **suite_name**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[suite_name]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[test_suite_name]``
 
 ##### <a name="listtestsuite-required-parameters"></a>listtestsuite: vereiste parameters
 
-+ `suite_name`: naam van de gewenste suite.
++ `test_suite_name`: de naam van de gewenste suite.
 
 ##### <a name="listtestsuite-examples"></a>listtestsuite: voorbeelden
 
@@ -347,39 +427,67 @@ Hiermee worden de testcases voor de opgegeven testsuite weergegeven. U kunt de o
 
 `listtestsuite NameOfTheSuite`
 
+#### <a name="listtestsuitebyid"></a>listtestsuitebyid
+
+Hiermee worden de testcases voor de opgegeven testsuite weergegeven.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitebyid``**``[test_suite_id]``
+
+##### <a name="listtestsuitebyid-required-parameters"></a>listtestsuitebyid: vereiste parameters
+
++ `test_suite_id`: de id van de gewenste suite.
+
+##### <a name="listtestsuitebyid-examples"></a>listtestsuitebyid: voorbeelden
+
+`listtestsuitebyid 12345`
+
 #### <a name="listtestsuitenames"></a>listtestsuitenames
 
-Hiermee worden alle beschikbare testsuites weergegeven.
+Geeft een overzicht van alle beschikbare testsuites in het huidige testplan.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitenames``**
 
 #### <a name="playback"></a>playback
 
-Hiermee wordt een testcase afgespeeld met een Excel-bestand.
+Hiermee wordt de testcase afgespeeld die aan het opgegeven Excel-parameterbestand is gekoppeld. Deze opdracht maakt gebruik van bestaande lokale geautomatiseerde bestanden en downloadt geen bestanden vanuit Azure DevOps. Deze opdracht wordt niet ondersteund voor POS-commerce-testcases.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[excel_file]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[/retry[=<seconds>]] [/comments[="comment"]] [excel_parameter_file]``
+
+##### <a name="playback-optional-switches"></a>playback: optionele schakelopties
+
++ `/retry[=seconds]`: als deze schakeloptie is opgegeven en case-testcases worden geblokkeerd door andere RSAT-exemplaren, wacht het proces playback het opgegeven aantal seconden en doet vervolgens nog één poging. De standaardwaarde voor \[seconden\] is 120 seconden. Zonder deze schakeloptie wordt het proces onmiddellijk geannuleerd als testcases worden geblokkeerd.
++ `/comments[="comment"]`: geef een aangepaste tekenreeks op die wordt opgenomen in het veld **Opmerkingen** op de overzichts- en testresultaatpagina's voor uitvoeringen van Azure DevOps-testcases.
 
 ##### <a name="playback-required-parameters"></a>playback: vereiste parameters
 
-+ `excel_file`: een volledig pad naar het Excel-bestand. Bestand moet bestaan.
++ `excel_parameter_file`: het volledige pad van een Excel-parameterbestand. Het bestand moet bestaan.
 
 ##### <a name="playback-examples"></a>playback: voorbeelden
 
-`playback c:\RSAT\TestCaseParameters\sample1.xlsx`
+`playback c:\RSAT\2745\attachments\Create_Purchase_Order_2745_Base.xlsx`
 
-`playback e:\temp\test.xlsx`
+`playback /retry e:\temp\test.xlsx`
+
+`playback /retry=300 e:\temp\test.xlsx`
+
+`playback /comments="Payroll solution 10.0.0" e:\temp\test.xlsx`
 
 #### <a name="playbackbyid"></a>playbackbyid
 
-Hiermee worden meerdere testcases tegelijk afgespeeld. U kunt de opdracht ``list`` gebruiken om alle beschikbare testcases op te halen. Gebruik een willekeurige waarde uit de eerste kolom als parameter voor **test_case_id**.
+Hiermee worden meerdere testcases tegelijk afgespeeld. De testcases worden aangeduid met hun id. Met deze opdracht worden bestanden gedownload vanuit Azure DevOps. U kunt de opdracht ``list`` gebruiken om alle beschikbare testcases op te halen en elk van de waarden uit de eerste kolom gebruiken als parameter **test_case_id**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[test_case_id1] [test_case_id2] ... [test_case_idN]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[/retry[=<seconds>]] [/comments[="comment"]] [test_case_id1] [test_case_id2] ... [test_case_idN]``
+
+##### <a name="playbackbyid-optional-switches"></a>playbackbyid: optionele schakelopties
+
++ `/retry[=seconds]`: als deze schakeloptie is opgegeven en case-testcases worden geblokkeerd door andere RSAT-exemplaren, wacht het proces playback het opgegeven aantal seconden en doet vervolgens nog één poging. De standaardwaarde voor \[seconden\] is 120 seconden. Zonder deze schakeloptie wordt het proces onmiddellijk geannuleerd als testcases worden geblokkeerd.
++ `/comments[="comment"]`: geef een aangepaste tekenreeks op die wordt opgenomen in het veld **Opmerkingen** op de overzichts- en testresultaatpagina's voor uitvoeringen van Azure DevOps-testcases.
 
 ##### <a name="playbackbyid-required-parameters"></a>playbackbyid: vereiste parameters
 
-+ `test_case_id1`: id van bestaande testcase.
-+ `test_case_id2`: id van bestaande testcase.
-+ `test_case_idN`: id van bestaande testcase.
++ `test_case_id1`: de id van een bestaande testcase.
++ `test_case_id2`: de id van een bestaande testcase.
++ `test_case_idN`: de id van een bestaande testcase.
 
 ##### <a name="playbackbyid-examples"></a>playbackbyid: voorbeelden
 
@@ -387,75 +495,132 @@ Hiermee worden meerdere testcases tegelijk afgespeeld. U kunt de opdracht ``list
 
 `playbackbyid 2345 667 135`
 
+`playbackbyid /comments="Payroll solution 10.0.0" 2345 667 135`
+
+`playbackbyid /retry /comments="Payroll solution 10.0.0" 2345 667 135`
+
 #### <a name="playbackmany"></a>playbackmany
 
-Hiermee wordt een groot aantal testcases tegelijk afgespeeld met Excel-bestanden.
+Hiermee worden vele testcases tegelijk afgespeeld. De testcases worden geïdentificeerd door de Excel-parameterbestanden. Deze opdracht maakt gebruik van bestaande lokale geautomatiseerde bestanden en downloadt geen bestanden vanuit Azure DevOps.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[excel_file1] [excel_file2] ... [excel_fileN]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[/retry[=<seconds>]] [/comments[="comment"]] [excel_parameter_file1] [excel_parameter_file2] ... [excel_parameter_fileN]``
+
+##### <a name="playbackmany-optional-switches"></a>playbackmany: optionele schakelopties
+
++ `/retry[=seconds]`: als deze schakeloptie is opgegeven en case-testcases worden geblokkeerd door andere RSAT-exemplaren, wacht het proces playback het opgegeven aantal seconden en doet vervolgens nog één poging. De standaardwaarde voor \[seconden\] is 120 seconden. Zonder deze schakeloptie wordt het proces onmiddellijk geannuleerd als testcases worden geblokkeerd.
++ `/comments[="comment"]`: geef een aangepaste tekenreeks op die wordt opgenomen in het veld **Opmerkingen** op de overzichts- en testresultaatpagina's voor uitvoeringen van Azure DevOps-testcases.
 
 ##### <a name="playbackmany-required-parameters"></a>playbackmany: vereiste parameters
 
-+ `excel_file1`: volledig pad naar het Excel-bestand. Bestand moet bestaan.
-+ `excel_file2`: volledig pad naar het Excel-bestand. Bestand moet bestaan.
-+ `excel_fileN`: volledig pad naar het Excel-bestand. Bestand moet bestaan.
++ `excel_parameter_file1`: het volledige pad van het Excel-parameterbestand. Het bestand moet bestaan.
++ `excel_parameter_file2`: het volledige pad van het Excel-parameterbestand. Het bestand moet bestaan.
++ `excel_parameter_fileN`: het volledige pad van het Excel-parameterbestand. Het bestand moet bestaan.
 
 ##### <a name="playbackmany-examples"></a>playbackmany: voorbeelden
 
-`playbackmany c:\RSAT\TestCaseParameters\param1.xlsx`
+`playbackmany c:\RSAT\2745\attachments\Create_Purchase_Order_2745_Base.xlsx`
 
-`playbackmany e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx`
+`playbackmany e:\temp\test.xlsx f:\RSAT\sample1.xlsx c:\RSAT\sample2.xlsx`
+
+`playbackmany /retry=180 /comments="Payroll solution 10.0.0" e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx`
 
 #### <a name="playbacksuite"></a>playbacksuite
 
-Hiermee worden alle testcases uit de opgegeven testsuite afgespeeld.
-U kunt de opdracht ``listtestsuitenames`` gebruiken om alle beschikbare testsuites op te halen. Gebruik een willekeurige waarde uit de eerste kolom als parameter voor **suite_name**.
+Hiermee worden alle testcases uit een of meer opgegeven testsuites afgespeeld. Als de schakeloptie /local is opgegeven, worden lokale bijlagen gebruikt om af te spelen. Anders worden bijlagen gedownload vanuit Azure DevOps. U kunt de opdracht ``listtestsuitenames`` gebruiken om alle beschikbare testsuites op te halen en elke waarde uit de eerste kolom gebruiken als parameter **suite_name**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[suite_name]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[/updatedriver] [/local] [/retry[=<seconds>]] [/comments[="comment"]] ([test_suite_name1] .. [test_suite_nameN] | [/byid] [test_suite_id1] .. [test_suite_idN])``
+
+##### <a name="playbacksuite-optional-switches"></a>playbacksuite: optionele schakelopties
+
++ `/updatedriver`: als deze switch is opgegeven, wordt de webdriver van de internetbrowser zo nodig bijgewerkt voordat het proces playback wordt uitgevoerd.
++ `/local`: deze schakeloptie geeft aan dat lokale bijlagen moeten worden gebruikt voor deze bestanden in plaats van dat er bestanden worden gedownload vanuit Azure DevOps.
++ `/retry[=seconds]`: als deze schakeloptie is opgegeven en case-testcases worden geblokkeerd door andere RSAT-exemplaren, wacht het proces playback het opgegeven aantal seconden en doet vervolgens nog één poging. De standaardwaarde voor \[seconden\] is 120 seconden. Zonder deze schakeloptie wordt het proces onmiddellijk geannuleerd als testcases worden geblokkeerd.
++ `/comments[="comment"]`: geef een aangepaste tekenreeks op die wordt opgenomen in het veld **Opmerkingen** op de overzichts- en testresultaatpagina's voor uitvoeringen van Azure DevOps-testcases.
++ `/byid`: deze schakeloptie geeft aan dat de gewenste testsuite wordt geïdentificeerd op basis van de Azure DevOps-id in plaats van de naam van de testsuite.
 
 ##### <a name="playbacksuite-required-parameters"></a>playbacksuite: vereiste parameters
 
-+ `suite_name`: naam van de gewenste suite.
++ `test_suite_name1`: vertegenwoordigt de naam van de testsuite. Deze parameter is vereist als de schakeloptie /byid **niet** is opgegeven. Deze naam is de naam van de Azure DevOps-testsuite.
++ `test_suite_nameN`: vertegenwoordigt de naam van de testsuite. Deze parameter is vereist als de schakeloptie /byid **niet** is opgegeven. Deze naam is de naam van de Azure DevOps-testsuite.
++ `test_suite_id1`: vertegenwoordigt de id van de testsuite. Deze parameter is vereist als de schakeloptie /byid **wel** is opgegeven. Deze id is de testsuite Azure DevOps-id.
++ `test_suite_idN`: vertegenwoordigt de id van de testsuite. Deze parameter is vereist als de schakeloptie /byid **wel** is opgegeven. Deze id is de testsuite Azure DevOps-id.
 
 ##### <a name="playbacksuite-examples"></a>playbacksuite: voorbeelden
 
 `playbacksuite suiteName`
 
-`playbacksuite sample_suite`
+`playbacksuite suiteName suiteNameToo`
+
+`playbacksuite /updatedriver /local /retry=180 /byid 151 156`
+
+`playbacksuite /updatedriver /local /comments="Payroll solution 10.0.0" /byid 150`
+
+#### <a name="playbacksuitebyid"></a>playbacksuitebyid
+
+Hiermee worden alle testcases in de opgegeven Azure DevOps-testsuite uitgevoerd.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuitebyid``**``[/updatedriver] [/local] [/retry[=<seconds>]] [/comments[="comment"]] [test_suite_id]``
+
+##### <a name="playbacksuitebyid-optional-switches"></a>playbacksuitebyid: optionele schakelopties
+
++ `/retry[=seconds]`: als deze schakeloptie is opgegeven en case-testcases worden geblokkeerd door andere RSAT-exemplaren, wacht het proces playback het opgegeven aantal seconden en doet vervolgens nog één poging. De standaardwaarde voor \[seconden\] is 120 seconden. Zonder deze schakeloptie wordt het proces onmiddellijk geannuleerd als testcases worden geblokkeerd.
++ `/comments[="comment"]`: geef een aangepaste tekenreeks op die wordt opgenomen in het veld **Opmerkingen** op de overzichts- en testresultaatpagina's voor uitvoeringen van Azure DevOps-testcases.
++ `/byid`: deze schakeloptie geeft aan dat de gewenste testsuite wordt geïdentificeerd op basis van de Azure DevOps-id in plaats van de naam van de testsuite.
+
+##### <a name="playbacksuitebyid-required-parameters"></a>playbacksuitebyid: vereiste parameters
+
++ `test_suite_id`: geeft de testsuite-id weer zoals deze bestaat in Azure DevOps.
+
+##### <a name="playbacksuitebyid-examples"></a>playbacksuitebyid: voorbeelden
+
+`playbacksuitebyid 2900`
+
+`playbacksuitebyid /retry 2099`
+
+`playbacksuitebyid /retry=200 2099`
+
+`playbacksuitebyid /retry=200 /comments="some comment" 2099`
 
 #### <a name="quit"></a>quit
 
-Hiermee wordt de toepassing gesloten.
+Hiermee wordt de toepassing gesloten. Deze opdracht is alleen nuttig wanneer de toepassingen worden uitgevoerd in de interactieve modus.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``quit``**
 
+##### <a name="quit-examples"></a>quit: voorbeelden
+
+`quit`
+
 #### <a name="upload"></a>upload
 
-Hiermee worden alle bestanden geüpload die bij de opgegeven testsuite of testcases horen.
+Hiermee worden bijlagebestanden (opname-, uitvoerings- en parameterbestanden) die tot een opgegeven testsuite of testcases behoren, geüpload naar Azure DevOps.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``[suite_name] [testcase_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``([test_suite_name] | [test_case_id1] .. [test_case_idN])``
 
-#### <a name="upload-required-parameters"></a>upload: vereiste parameters
+##### <a name="upload-required-parameters"></a>upload: vereiste parameters
 
-+ `suite_name`: alle bestanden die bij de opgegeven testsuite of testcases horen, worden geüpload.
-+ `testcase_id`: alle bestanden die bij de opgegeven testcase(s) horen, worden geüpload.
++ `test_suite_name`: alle bestanden die bij de opgegeven testsuite of testcases horen, worden geüpload.
++ `test_case_id1`: geeft de eerste testcase-id aan die moet worden geüpload. Gebruik deze parameter alleen als er geen naam voor de testsuite is opgegeven.
++ `test_case_idN`: geeft de laatste testcase-id aan die moet worden geüpload. Gebruik deze parameter alleen als er geen naam voor de testsuite is opgegeven.
 
 ##### <a name="upload-examples"></a>upload: voorbeelden
 
 `upload sample_suite`
 
-`upload 123`
+`upload 2900`
 
 `upload 123 456`
 
 #### <a name="uploadrecording"></a>uploadrecording
 
-Hiermee worden alleen opnamebestanden geüpload die bij de opgegeven testcases horen.
+Hiermee wordt alleen het opnamebestand dat bij een of meer van de opgegeven testcases hoort geüpload naar Azure DevOps.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[testcase_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[test_case_id1] .. [test_case_idN]``
 
 ##### <a name="uploadrecording-required-parameters"></a>uploadrecording: vereiste parameters
 
-+ `testcase_id`: opnamebestand dat bij de opgegeven testcases hoort, wordt geüpload.
++ `test_case_id1`: geeft de eerste testcase-id aan voor de opname die naar Azure DevOps moet worden geüpload.
++ `test_case_idN`: geeft de laatste testcase-id aan voor de opname die naar Azure DevOps moet worden geüpload.
 
 ##### <a name="uploadrecording-examples"></a>uploadrecording: voorbeelden
 
@@ -465,9 +630,21 @@ Hiermee worden alleen opnamebestanden geüpload die bij de opgegeven testcases h
 
 #### <a name="usage"></a>usage
 
-Hiermee worden twee manieren weergegeven om deze toepassing aan te roepen: een waarbij gebruik wordt gemaakt van een standaard instellingsbestand en een andere waarbij een instellingsbestand wordt geleverd.
+Geeft de drie gebruiksmodi van deze toepassing weer.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``usage``**
+
+De toepassing interactief uitvoeren:
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``
+
+De toepassing uitvoeren door een opdracht op te geven:
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp ``**``[command]``**
+
+De toepassing uitvoeren door een instellingenbestand op te geven:
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``/settings [drive:\Path to\file.settings] [command]``**
 
 ### <a name="windows-powershell-examples"></a>Windows PowerShell-voorbeelden
 

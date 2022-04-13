@@ -2,25 +2,27 @@
 title: Overzicht financiële rapportage
 description: In dit onderwerp wordt beschreven waar u toegang kunt krijgen tot financiële rapportage in Microsoft Dynamics 365 Finance en hoe u de financiële rapportagemogelijkheden kunt gebruiken.
 author: aprilolson
-ms.date: 07/27/2021
+ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.custom:
+- "10444"
+- intro-internal
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fbdab1f4f81bbdb8b0b5cb3e6a5237196d7dc76
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e1db676024f5ec0f254500bd2ceee85ab2150502
+ms.sourcegitcommit: 777f9581dccc0f963c6a04c95b85e00e68573db5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983972"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8527308"
 ---
 # <a name="get-started-with-financial-reporting"></a>Aan de slag met financiële rapportage 
 
@@ -174,7 +176,7 @@ Probleem 1: Report Designer start niet wanneer u **Nieuw** of **Bewerken** selec
 * Selecteer **Instellingen** in Internet Explorer en selecteer vervolgens **Internetopties**. Selecteer het tabblad **Beveiliging**. Selecteer Vertrouwde sites en vervolgens **Locaties**. Voer bij **Deze website aan de zone toevoegen** "\*\.dynamics.com" in (zonder de aanhalingstekens) en selecteer vervolgens **Toevoegen**. 
 * Selecteer **Instellingen** in Internet Explorer en selecteer vervolgens **Internetopties**. Selecteer het tabblad **Beveiliging**. Selecteer Vertrouwde sites. Wijzig de optie in het gebied Beveiligingsniveau voor deze zone in **Normaal-laag**.
 * Schakel de pop-upblokkering uit in de browser.
-* Voor werkstations moet Microsoft .NET Framework 4.6.2 of hoger worden geïnstalleerd. Deze versie van Microsoft .NET Framework kan worden gedownload en geïnstalleerd via het [Microsoft Downloadcentrum](https://www.microsoft.com/download/details.aspx?id=53345).
+* Voor werkstations moet Microsoft .NET Framework 4.7.2 of hoger worden geïnstalleerd. Deze versie van Microsoft .NET Framework kan worden gedownload en geïnstalleerd via het [Microsoft Downloadcentrum](https://dotnet.microsoft.com/download/dotnet-framework/net472).
 * Als u Chrome gebruikt, moet u een ClickOnce-extensie installeren om de Report Designer-client te downloaden. Als u in de incognito modus van Chrome werkt, moet u ervoor zorgen dat de ClickOnce-extensie voor de incognito modus is ingeschakeld. Zie [Systeemvereisten voor cloudimplementaties](../../fin-ops-core/fin-ops/get-started/system-requirements.md) voor meer informatie over de ClickOnce-extensie van Chrome.
 * Als u Microsoft Edge met een Chrome-browser gebruikt, hoeft u geen ClickOnce-extensie te installeren voor Edge Chromium. U moet de optie ClickOnce echter inschakelen om de Report Designer-client te downloaden. Als u de incognitomodus gebruikt, moet u ervoor zorgen dat de ClickOnce-extensie voor de incognitomodus is ingeschakeld.
 

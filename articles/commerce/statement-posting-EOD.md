@@ -9,17 +9,16 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: 6ee0cea76be05634aa21643acef5b341f19d75ef
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: d7c7c330695cbcd18a44db5b3f4e28411d8de4f3
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087598"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462545"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Verbeteringen van boekingsfunctionaliteit voor overzichten
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp wordt de eerste set verbeteringen beschreven die zijn aangebracht in de functie voor het boeken van overzichten. Deze verbeteringen zijn beschikbaar in Microsoft Dynamics 365 for Finance and Operations 7.3.2.
 

@@ -15,17 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 707b986c41cde2d4e26bdb4c5218b87b27702cee
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b23dbf6a1923030abfadc6d82d57d5ea226b1e42
+ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065171"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8509242"
 ---
 # <a name="create-a-leave-request-workflow"></a>Een workflow voor verlofaanvragen maken
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+> [!Important]
+> De functionaliteit die in dit onderwerp wordt vermeld, is momenteel beschikbaar voor klanten van de zelfstandige versie van Dynamics 365 Human Resources. Sommige of alle functionaliteit is beschikbaar als onderdeel van een toekomstige versie van de Finance-infrastructuur na versie 10.0.26 van Finance.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

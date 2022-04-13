@@ -2,7 +2,7 @@
 title: Btw-aangifte voor Nederland
 description: In dit onderwerp wordt uitgelegd hoe u de btw-aangifte voor rechtspersonen kunt instellen en genereren in Nederland.
 author: anasyash
-ms.date: 07/19/2021
+ms.date: 03/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,19 +12,20 @@ ms.search.region: Netherlands
 ms.author: anasyash
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 82d0f0d65ced5ff7b7f59680c26850f96c7ce93b
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: 3978bd0ad4fe217d65664dacf0b012440b5a1d9b
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592526"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487810"
 ---
 # <a name="vat-declaration-for-the-netherlands"></a>Btw-aangifte voor Nederland
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Er is een nieuwe functie voor btw-aangifte in Nederland beschikbaar. Zie [Btw-aangifte (Nederland)](emea-nl-vat-declaration-netherlands.md) voor meer informatie.
+  > Deze functie wordt afgeschaft. Zie [Verwijderde en verouderde functies](../get-started/removed-deprecated-features-finance.md#ob-declaration-for-netherlands-design-based-on-reporting-codes) voor meer informatie.
+  > Zie [Btw-aangifte (Nederland)](emea-nl-vat-declaration-netherlands.md) voor meer informatie over btw-aangifte
 
 In dit onderwerp wordt uitgelegd hoe u de btw-aangifte voor rechtspersonen kunt instellen en genereren in Nederland. Zie [Btw-aangifte voor Europa](emea-vat-reporting.md) voor algemene informatie over het opstellen van het btw-overzicht.
 

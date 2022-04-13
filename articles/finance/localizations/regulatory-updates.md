@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 663b7d3162af6d385bc9c445b1e98cf5f74a1471
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: 19aadf844f239ef06ca4d9dbe60b597228d72e52
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105559"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8470088"
 ---
 # <a name="regulatory-updates"></a>Wettelijk voorgeschreven updates
 
@@ -39,36 +39,26 @@ Raadpleeg de volgende tabel voor de meest recente plannen voor wettelijke update
 
 |Land/regio|Datum vrijgeven|Versie van release|Wettelijke update|
 |--------------------|---------------|-------|-------| 
-|      Oostenrijk         |   Augustus 2021      | 10.0.22      |   Btw-aangifte in XML en voorbeeld in Excel   |
-|      Oostenrijk         |   2021 september      | 10.0.22HF      |   Intrastat-indeling wordt bijgewerkt vanaf 2022- Land van oorsprong en btw-id van partner worden verplicht voor verzendingen   |
-|      België        |   2021 oktober      | 10.0.22HF     |   Intrastat-transactiecodes worden vanaf 2022 gewijzigd in twee cijfers  |
-|      Brazilië         |   Augustus 2021      | 10.0.22      |   NF-e NT2020.006 - Identificatie van de intermediair van het digitale platform (updates van indelings- en validatieregels)   |
-|      Brazilië         |   2021 december         | 10.0.22, 10.0.23, 10.0.24         |    SPED Fiscal-indeling 2022  |
-|      Tsjechische Republiek         |   2021 oktober         | 10.0.23HF         |     Intrastat-indeling wordt bijgewerkt vanaf 2022- Land van oorsprong en btw-id van partner worden verplicht voor verzendingen  |
-|      Denemarken         |   2021 december         | 10.0.22HF         |    Intrastat-indeling wordt bijgewerkt vanaf 2022  |
-|      Estland         |   2021 december      | 10.0.22HF      |   Intrastat-indeling wordt bijgewerkt vanaf 2022- Land van oorsprong en btw-id van partner worden verplicht voor verzendingen  |
-|      Finland         |   november 2021         | 10.0.22HF         |    Intrastat-indeling wordt bijgewerkt vanaf 2022.  |
-|      Duitsland        |   Augustus 2021       | 10.0.22HF      |   Intrastat-indeling INSTAT XML wordt bijgewerkt vanaf 2022. Intrastat-indeling TXT is niet van toepassing vanaf 07-01-2021  |
-|      Duitsland        |   2021 oktober       | 10.0.23      |   Btw-aangifte in XML en voorbeeld in Excel (nieuw ontwerp met bedragen in valuta van btw-code, direct gebruiksklaar met de functie voor terugboeking, kan worden uitgevoerd in niet-DE-rechtspersonen en belastingtransacties van verschillende rechtspersonen verzamelen)  |
-|      Italië         |   november 2021         | 10.0.22HF, 10.0.23HF, 10.0.24         |    Elektronische facturering voor internationale transacties  |
-|      Mexico         |   november 2021      | 10.0.22      |   Aanvulling op Carta de Porte in CFDI-documenten   |
+|      Brazilië         |   2021 december         | 10.0.24, 10.0.25         |    SPED Fiscal-indeling 2022  |
+|      Brazilië         |   2022 maart    | 10.0.24HF, 10.0.25HF         |    ICMS-DIFAL-incasso in bewerkingen die gericht zijn op niet-btw-belastingbetalers (aanvullende wet nr. 190/22)  |
+|      Denemarken         |   2022 januari  | 10.0.25HF         |    Voorbeeld van de btw-aangifte in Excel |
+|      Frankrijk   |   november 2021 | 10.0.25         |    Franse gegevensarchiveringsexport (FEC) - Bijlage 'Verantwoording van ontbrekende getallen' |
+|      Italië         |   november 2021         | 10.0.24         |    Elektronische facturering voor internationale transacties  |
+|      Italië         |   2022 februari | 10.0.24HF, 10.0.25HF| Unieke certificering - 2022 in Dynamics 365 Finance  |
+|      Litouwen|   2022 februari | 10.0.24HF, 10.0.25HF | I.SAF-wijzigingen van 2022-01-01 in Dynamics 365 Finance  |
 |      Mexico         |   2021 december      | 10.0.24      |   Versie 2.0 van Carta de Porte-aanvulling  |
-|      Nederland        |   2021 oktober      | 10.0.22HF      |   2-cijferige transactiecodes in Intrastat-bestandsindeling vanaf 2022  |
-|      Nieuw-Zeeland         |   Augustus 2021      | 10.0.22    |   GST-aangifteformulier GST101A  |
 |      Noorwegen        |   november 2021      | 10.0.24      |   Indeling van btw-aangifte 2022 met directe verzending - Dynamics 365 Finance |
-|      Oman         |   Augustus 2021      | 10.0.22      |   Btw-aangifte - Versie 1 |
-|      Polen          |   2021 oktober     | 10.0.23, 10.0.24     |   JPK_V7M - nieuw schemaversie vanaf januari 2022 |
+|      Polen          |   2021 oktober     | 10.0.24     |   JPK_V7M - nieuw schemaversie vanaf januari 2022 |
 |      Polen          |   november 2021     | 10.0.24HF     |   Jaarlijkse aangifte op de betalingsdatums in commerciële transacties |
 |      Polen          |   2021 oktober     | 10.0.24     |   Elektronische indeling van EU-verkooplijst (VAT-UE) |
-|      Rusland          |   2021 oktober     | 10.0.22HF, 10.0.23, 10.0.24    |   Wijzigingen in verkopen, inkoopboeken en factuurjournalen|
+|      Rusland          |   2021 oktober     | 10.0.24    |   Wijzigingen in verkopen, inkoopboeken en factuurjournalen|
 |      Rusland          |   2021 oktober     | 10.0.24HF    |   Wijziging in indelingen van btw-aangifte met bijlages|
 |      Rusland          |   november 2021     | 10.0.24    |   Federale boekhoudwetgeving 6/2020 (vaste activa)|
-|      Saoedi-Arabië          |   november 2021     | 10.0.22HF, 10.0.23    |   Genereren van elektronische facturen in Saoedi-Arabië - Fase 1|
-|      Saoedi-Arabië          |   november 2021     | 10.0.22HF, 10.0.23HF, 10.0.24    |   Retail - Genereren van elektronische facturen in Saoedi-Arabië - Fase 1|
-|      Spanje          |   2021 oktober     | 10.0.23    |    Btw-aangiftemodel 303 in tekstindeling en voorbeeld in Excel|
-|      Spanje          |   2021 september     | 10.0.22    |    Intrastat-indeling wordt bijgewerkt voor 2022-aangifte - Btw-id van partner en land van oorsprong worden verplicht voor verzendingen|
-|      Zweden          |   2021 oktober     | 10.0.22HF    |    Intrastat-indeling wordt bijgewerkt vanaf 2022- Land van oorsprong en btw-id van partner worden verplicht voor verzendingen. Er worden 2-cijferige transactiecodes gebruikt.|
-|      Verenigd Koninkrijk          |   Augustus 2021     | 10.0.22    |    VK - MTD-fraudepreventie 2021|
+|      Rusland          |   2022 januari     | 10.0.24HF, 10.0.25    |   Een bestemming voor elektronische rapportage (ER) inschakelen voor de opslag van Russische boekhoudingsdocumenten (primaire documenten en boekhoudrapporten)|
+|      Rusland          |   2021 december     | 10.0.25    |   Module voor integratie van vaste activa (Rusland) met module Activabeheer|
+|      Rusland          |   2022 februari     | 10.0.24HF, 10.0.25    |  Nieuwe indeling van transportfactuur (overheidsbesluit N 2116 30.11.2021)|
+|      Saoedi-Arabië          |   november 2021     | 10.0.24    |   Retail - Genereren van elektronische facturen in Saoedi-Arabië - Fase 1|
+|      Spanje      |   2022 maart| 10.0.24HF, 10.0.25HF | Spanje: model 303 voor btw-aangifte verandert op 1 januari 2022 in Dynamics 365 Finance|
 
 
 

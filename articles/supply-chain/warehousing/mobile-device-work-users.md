@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-09-15
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3a930814a1fb98e3b1611adf309c10e66b49b9d
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: c4cb36160e692cc12140b57037d2c9739f7b2ebd
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902092"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462665"
 ---
 # <a name="mobile-device-user-accounts"></a>Gebruikersaccounts voor mobiele apparaten
 
@@ -90,8 +90,8 @@ Wanneer een medewerker zich aanmeldt bij de mobiele app Warehouse Management, wo
 1. Selecteer **Gebruikersopties** in het actievenster.
 1. Stel op het tabblad **Voorkeuren** de volgende velden in:
 
-    - **Taal**: selecteer de voorkeurstaal van de medewerker. Dit veld bepaalt ook de datumnotatie die wordt weergegeven in de magazijnapp.
-    - **Datum, tijd en getalnotatie**: selecteer de taal die de getalnotaties bepaalt die worden weergegeven in de magazijnapp. De datum- en tijdnotaties die worden weergegeven in de magazijnapp, worden feitelijk bepaald door het veld **Taal** en niet door dit veld.
+    - **Taal**: selecteer de voorkeurstaal van de medewerker. Dit veld bepaalt ook de getalnotatie die wordt weergegeven in de magazijnapp.
+    - **Datum-, tijd- en getalnotatie**: selecteer de datum- en tijdnotatie waaraan de werknemer de voorkeur geeft. In de magazijnapp wordt in plaats van deze instelling de getalnotatie gebruikt die is gekoppeld aan het veld **Taal**.
     - **Tijdzone**: selecteer de tijdzone waarin de medewerker werkt. Dit veld is van invloed op het tijdstempel voor alle registraties die de medewerker maakt met de app.
 
 > [!NOTE]

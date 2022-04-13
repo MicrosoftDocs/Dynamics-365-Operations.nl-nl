@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8917c9b265bc3df19517f052e28fb7644057cb46
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.openlocfilehash: 9ec0bedcf1a3a2888a91158ea0353283660d3266
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "8330696"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487576"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Integratie met productie-uitvoeringssystemen van derden
 
@@ -65,6 +65,8 @@ U kunt een of meer van de volgende processen voor integratie inschakelen.
 ## <a name="monitor-incoming-messages"></a>Binnenkomende berichten controleren
 
 Open de pagina **Integratie met productie-uitvoeringssystemen** om de binnenkomende berichten voor het systeem te controleren. Hier kunt u problemen weergeven, verwerken en oplossen.
+
+Alle berichten voor een specifieke productieorder worden verwerkt in de volgorde waarin ze zijn ontvangen. Berichten voor verschillende productieorders kunnen echter niet in de ontvangen volgorde worden verwerkt, omdat batchtaken parallel worden verwerkt. In geval van een fout, wordt geprobeerd elk bericht drie keer te verwerken voordat de status ervan wordt ingesteld op *Mislukt*.
 
 ## <a name="call-the-api"></a>De API aanroepen
 
@@ -119,13 +121,13 @@ In de volgende tabel worden de velden weergegeven die door elke regel in de sect
 | `ReportedGoodQuantity` | Optioneel | Real-modus|
 | `ReportedErrorCatchWeightQuantity` | Optioneel | Real-modus |
 | `ReportedGoodCatchWeightQuantity` | Optioneel | Real-modus |
-| `AcceptError` | Optioneel |Booleaans |
+| `AcceptError` | Optioneel | Opsomming (Ja \| Nee) |
 | `ErrorCause` | Optioneel | Enum (None \| Material \| Machine \| OperatingStaff), extensible |
 | `ExecutedDateTime` | Optioneel | DateTime |
 | `ReportAsFinishedDate` | Optioneel | Datum |
 | `AutomaticBOMConsumptionRule` | Optioneel | Enum (FlushingPrincip \| Always \| Never) |
 | `AutomaticRouteConsumptionRule` | Optioneel |Enum (RouteDependent \| Always \| Never) |
-| `RespectFlushingPrincipleDuringOverproduction` | Optioneel | Booleaans |
+| `RespectFlushingPrincipleDuringOverproduction` | Optioneel | Opsomming (Ja \| Nee) |
 | `ProductionJournalNameId` | Optioneel | Tekenreeks |
 | `PickingListProductionJournalNameId` | Optioneel | Tekenreeks|
 | `RouteCardProductionJournalNameId` | Optioneel | Tekenreeks |
@@ -133,11 +135,11 @@ In de volgende tabel worden de velden weergegeven die door elke regel in de sect
 | `ToOperationNumber` | Optioneel | Geheel getal|
 | `InventoryLotId` | Optioneel | Tekenreeks |
 | `BaseValue` | Optioneel | Tekenreeks |
-| `EndJob` | Optioneel | Booleaans |
-| `EndPickingList` | Optioneel | Booleaans |
-| `EndRouteCard` | Optioneel | Booleaans |
-| `PostNow` | Optioneel | Booleaans |
-| `AutoUpdate` | Optioneel | Booleaans |
+| `EndJob` | Optioneel | Opsomming (Ja \| Nee) |
+| `EndPickingList` | Optioneel | Opsomming (Ja \| Nee) |
+| `EndRouteCard` | Optioneel | Opsomming (Ja \| Nee) |
+| `PostNow` | Optioneel | Opsomming (Ja \| Nee) |
+| `AutoUpdate` | Optioneel | Opsomming (Ja \| Nee) |
 | `ProductColorId` | Optioneel | Tekenreeks|
 | `ProductConfigurationId` | Optioneel | Tekenreeks |
 | `ProductSizeId` | Optioneel | Tekenreeks |
@@ -181,7 +183,7 @@ In de volgende tabel worden de velden weergegeven die door elke regel in de sect
 | `OperationNumber` | Optioneel | Geheel getal |
 | `LineNumber` | Optioneel | Real-modus |
 | `PositionNumber` | Optioneel | Tekenreeks |
-| `IsConsumptionEnded` | Optioneel | Booleaans |
+| `IsConsumptionEnded` | Optioneel | Opsomming (Ja \| Nee) |
 | `ErrorCause` | Optioneel | Enum (None \| Material \| Machine \| OperatingStaff), extensible |
 | `InventoryLotId` | Optioneel | Tekenreeks |
 
@@ -217,9 +219,9 @@ In de volgende tabel worden de velden weergegeven die door elke regel in de sect
 | `ConsumptionDate` | Optioneel | Datum |
 | `TaskType` | Optioneel | Enum (QueueBefore \| Setup \| Process \| Overlap \| Transport \| QueueAfter \| Burden) |
 | `ErrorCause` | Optioneel | Enum (None \| Material \| Machine \| OperatingStaff), extensible |
-| `OperationCompleted` | Optioneel | Booleaans |
-| `BOMConsumption` | Optioneel | Booleaans |
-| `ReportAsFinished` | Optioneel | Booleaans |
+| `OperationCompleted` | Optioneel | Opsomming (Ja \| Nee) |
+| `BOMConsumption` | Optioneel | Opsomming (Ja \| Nee) |
+| `ReportAsFinished` | Optioneel | Opsomming (Ja \| Nee) |
 
 ### <a name="end-production-order-message"></a>Bericht productieorderbericht beëindigen
 
@@ -230,9 +232,13 @@ Voor het bericht *productieorder beëindigen* is de waarde van `_messageType` `P
 | `ProductionOrderNumber` | Verplicht | Tekenreeks |
 | `ExecutedDateTime` | Optioneel | DateTime |
 | `EndedDate` | Optioneel | Datum |
-| `UseTimeAndAttendanceCost` | Optioneel | Booleaans |
-| `AutoReportAsFinished` | Optioneel | Booleaans |
-| `AutoUpdate` | Optioneel | Booleaans |
+| `UseTimeAndAttendanceCost` | Optioneel | Opsomming (Ja \| Nee) |
+| `AutoReportAsFinished` | Optioneel | Opsomming (Ja \| Nee) |
+| `AutoUpdate` | Optioneel | Opsomming (Ja \| Nee) |
+
+## <a name="other-production-information"></a>Overige productiegegevens
+
+De berichten ondersteunen acties of gebeurtenissen die op de werkvloer plaatsvinden. Deze worden verwerkt met behulp van het MES-integratieraamwerk dat in dit onderwerp is beschreven. In het ontwerp wordt ervan uitgegaan dat andere verwijzingsinformatie die met het MES moet worden gedeeld (zoals productgerelateerde informatie, of de stuklijst of route (met de specifieke instellings- en configuratietijden) die in een bepaalde productieorder wordt gebruikt), vanuit het systeem wordt opgehaald met behulp van [gegevensentiteiten](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) via bestandsoverdracht of OData.
 
 ## <a name="receive-feedback-about-the-state-of-a-message"></a>Feedback ontvangen over de status van een bericht
 

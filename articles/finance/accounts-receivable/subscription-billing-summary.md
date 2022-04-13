@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2022-02-09
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: b94ac36e49d55ad42909877d77903cd40cb22cbe
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 2796e25ec783941de381fb5ae96145eeba870bde
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182678"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462464"
 ---
 # <a name="subscription-billing-overview"></a>Overzicht van facturering van abonnementen
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Met abonnementsfacturering kunnen organisaties verkoopkansen voor abonnementsopbrengsten en terugkerende facturering beheren via factureringsschema's. Complexe prijs- en factureringsmodellen en opbrengsttoewijzing kunnen eenvoudig worden beheerd en worden gefactureerd en herkend op regelniveau. Dankzij de opbrengsttoewijzing met meerdere elementen voldoet de toewijzing van opbrengsten aan internationale boekhoudstandaarden (International Financial Reporting Standard 15 \[IFRS 15\]) en algemeen geaccepteerde boekhoudprincipes in de Verenigde Staten (VS GAAP) (Accounting Standards Codification Topic 606 \[ASC 606\]).
+Met abonnementsfacturering kunnen organisaties verkoopkansen voor abonnementsopbrengsten en terugkerende facturering beheren via factureringsplanningen. Complexe prijs- en factureringsmodellen en opbrengsttoewijzing kunnen eenvoudig worden beheerd en worden gefactureerd en herkend op regelniveau. Dankzij de opbrengsttoewijzing met meerdere elementen voldoet de toewijzing van opbrengsten aan internationale boekhoudstandaarden (International Financial Reporting Standard 15 \[IFRS 15\]) en algemeen geaccepteerde boekhoudprincipes in de Verenigde Staten (VS GAAP) (Accounting Standards Codification Topic 606 \[ASC 606\]).
 
 De oplossing omvat drie modules die onafhankelijk kunnen worden gebruikt. U kunt ook alle drie de modules samen gebruiken.
 

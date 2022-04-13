@@ -2,7 +2,7 @@
 title: Het scheidingsteken in het rekeningschema uniek maken
 description: In dit onderwerp wordt toegelicht waarom het niet mogelijk is om hetzelfde scheidingsteken te gebruiken voor het rekenschema en dimensiewaarden. Na de upgrade moet u het scheidingsteken wijzigen.
 author: panolte
-ms.date: 09/17/2021
+ms.date: 03/23/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: a19dc8926df0efeac242e2e42ac37fdad91df9f8
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 433e9f8a7b0a9f476c74096a4bd7fef03c87dee1
+ms.sourcegitcommit: 0d5ee97670bdeb1986aaea880f32962b5e374751
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500498"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468043"
 ---
 # <a name="make-the-chart-of-accounts-delimiter-unique"></a>Het scheidingsteken in het rekeningschema uniek maken
 
@@ -32,8 +32,10 @@ Als er een conflict is met het rekeningschema, kan het scheidingsteken voor het 
 - U kunt het scheidingsteken voor het rekeningschema wijzigen na de upgrade in **Grootboekparameters** > **Rekeningschema en dimensies** > **Scheidingsteken wijzigen**. 
 - Als het enige conflict betrekking heeft op de indeling van de project/subproject-ID, kunt u die waarde wijzigen in **Projectbeheer- en boekhoudingsparameters** > **Algemeen** > **Indeling subproject wijzigen**. 
 
+### <a name="other-considerations"></a>Andere overwegingen
+Net als bij project-/subproject-id mogen andere hoofdgegevensrecords die worden gebruikt als financiële dimensies, zoals leveranciers of klanten, geen rekening-id-waarden hebben die hetzelfde teken gebruiken als het scheidingsteken voor het rekeningschema. 
+
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>Bepalen of uw omgeving bijgewerkte scheidingstekens vereist 
 Als scheidingstekens in uw bijgewerkte omgeving conflicten veroorzaken, kan het instabiel zijn wanneer u waarden invoert in een besturingselement voor het invoeren van segmenten of dimensies. Dit houdt in dat u altijd zoekopdrachten of een flyout-menu moet gebruiken voor het invoeren van combinaties van rekeningen en dimensies.
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1593206e8e22aed518ebca9bee0772c6620bec9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3b97c585009b50c6623036d10f54e78a65a89cea
+ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068787"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8464932"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Entiteitsgegevens weergeven en bijwerken met Excel 
 
@@ -48,7 +48,7 @@ Voor meer informatie over het gebruik van de Excel-invoegtoepassing, bekijkt u d
 2. Selecteer de optie **Openen in Excel** en open de werkmap die wordt gegenereerd. Deze werkmap heeft bindingsgegevens voor de entiteit, een verwijzing naar uw omgeving en een verwijzing naar de Excel-invoegtoepassing.
 3. Selecteer in Excel de optie **Bewerken inschakelen** zodat de Excel-invoegtoepassing kan worden uitgevoerd. De Excel-invoegtoepassing wordt uitgevoerd in een deelvenster aan de rechterkant van het Excel-venster.
 4. Als u de Excel-invoegtoepassing voor het eerst uitvoert, selecteert u **Deze invoegtoepassing vertrouwen**.
-5. Als u wordt gevraagd om u aan te melden, selecteert u **Aanmelden**. Vervolgens meldt u zich aan met de referenties waarmee u zich ook hebt aangemeld bij de app voor financiële en bedrijfsactiviteiten. Als dat mogelijk is, gebruikt de Excel-invoegtoepassing een vorige aanmeldingscontext van de browser om u automatisch aan te melden. (Zie voor informatie over de browser die op basis van het besturingssysteem wordt gebruikt [Browsers die worden gebruikt door Office-invoegtoepassingen](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.). Om ervoor te zorgen dat de aanmelding is geslaagd, controleert u de gebruikersnaam in de rechterbovenhoek van de Excel-invoegtoepassing. 
+5. Als u wordt gevraagd om u aan te melden, selecteert u **Aanmelden**. Vervolgens meldt u zich aan met de referenties waarmee u zich ook hebt aangemeld bij de app voor financiële en bedrijfsactiviteiten. Als dat mogelijk is, gebruikt de Excel-invoegtoepassing een vorige aanmeldingscontext van de browser om u automatisch aan te melden. (Zie voor informatie over de browser die op basis van het besturingssysteem wordt gebruikt [Browsers die worden gebruikt door Office-invoegtoepassingen](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins). Om ervoor te zorgen dat de aanmelding is geslaagd, controleert u de gebruikersnaam in de rechterbovenhoek van de Excel-invoegtoepassing. 
 
 De Excel-invoegtoepassing leest automatisch de gegevens voor de entiteit die u hebt geselecteerd. Houd er rekening mee dat de werkmap geen gegevens bevat, totdat de Excel-invoegtoepassing deze inleest.
 

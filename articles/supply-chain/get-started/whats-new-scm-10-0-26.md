@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: fae25eb1cb9dd4059b9d49e47cbb0060e717c9bc
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 2b39eef816aaa383f0f8cbf1b2c308a6eafebd8f
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8386994"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524432"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10026-may-2022"></a>Preview van Dynamics 365 Supply Chain Management 10.0.26 (mei 2022)
 
@@ -35,7 +35,7 @@ De volgende tabel vermeldt de functies die deze versie bevat. Mogelijk wordt dit
 | Functiegebied | Functie | Meer informatie | Ingeschakeld door   |
 |---|---|---|---|
 | Voorraad en logistiek | [Query voor Voorraadzichtbaarheid om geavanceerde magazijnbeheerartikelen te ondersteunen](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | Binnenkort beschikbaar | Functiebeheer:<br>*Magazijnartikelen inschakelen voor Voorraadzichtbaarheid* |
-| Voorraad en logistiek | [Available to promise voor de invoegvoeging Voorraadzichtbaarheid](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | Binnenkort beschikbaar | Ingeschakeld door serviceconfiguratie |
+| Voorraad en logistiek | [Available to promise voor de invoegvoeging Voorraadzichtbaarheid](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [Planningen van wijzigingen in voorhanden hoeveelheid en available to promise in Voorraadzichtbaarheid](../inventory/inventory-visibility-available-to-promise.md) | Ingeschakeld door serviceconfiguratie |
 | Productie | [Catch weight-artikelen voor de uitvoeringsinterface voor de werkvloer](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken](../production-control/production-floor-execution-use.md) | Functiebeheer:<br>*(Preview) Rapport over catch weight-artikelen uit de uitvoeringsinterface van de productievloer* |
 | Productie | Het tabblad Mijn taken in de uitvoeringsinterface voor de werkvloer <!-- KFM: Add link to release plan when available --> | [Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken](../production-control/production-floor-execution-use.md) | Functiebeheer:<br>*Het tabblad Mijn taken in de uitvoeringsinterface voor de werkvloer* |
 

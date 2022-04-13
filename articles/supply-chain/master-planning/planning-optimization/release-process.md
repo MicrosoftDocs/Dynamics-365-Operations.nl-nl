@@ -1,21 +1,21 @@
 ---
 title: Vrijgaveproces en vrijgavegeschiedenis van Planningsoptimalisatie
 description: Dit onderwerp geeft informatie over het vrijgaveproces en de vrijgavegeschiedenis voor Planningsoptimalisatie.
-author: ChristianRytt
+author: t-benebo
 ms.date: 09/21/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fd6ecb0b7bc1fcf85feab2588622a96cf43b6155
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 673543ff2c9abefbca0529f35ce20bb26156acc4
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407839"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469696"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Vrijgaveproces en vrijgavegeschiedenis van Planningsoptimalisatie
 
@@ -33,7 +33,7 @@ Omdat meldingen niet worden weergegeven wanneer Planningsoptimalisatie in uw omg
 
 | Wijzigingen | Informatie over Functiebeheer | Vrijgavedatum |
 |---|---|---|
-| <p>Verbeteringen in de algemene prestaties, kwaliteit en stabiliteit.<p>Gecentraliseerd onderhoud van kalenders voor Planningsoptimalisatie<p>Suggesties voor Planningsoptimalisatie om bestaande voorraad te optimaliseren | Functiebeheer is niet vereist. | 7-11 maart 2022 |
+| <p>Verbeteringen in de algemene prestaties, kwaliteit en stabiliteit.<p>[Gecentraliseerd onderhoud van kalenders voor Planningsoptimalisatie](../supply-chain-calendars-master-planning.md)<p>[Suggesties voor Planningsoptimalisatie om bestaande voorraad te optimaliseren](../action-messages.md)<p>[Planningsoptimalisatie-ondersteuning voor uitbesteding](../../production-control/manage-subcontract-work-production.md) | Functiebeheer is niet vereist. | 7-11 maart 2022 |
 | <p>Extra planningsprioriteitsondersteuning voor productieorders. | Beschikbaar in versie 10.0.25 als onderdeel van de functie met de naam *Prioriteitsgestuurde MRP-ondersteuning voor planningsoptimalisatie*. | 12-18 november 2021 |
 | <p>Verbeteringen in de algemene prestaties, kwaliteit en stabiliteit. | Functiebeheer is niet vereist. | 12-18 november 2021 |
 | <p>Extra ondersteuning voor formules voor de berekening van procestijd, productieroute met overlapping en productiebewerkingsnummer van behoeftetransacties.</p><p>Verbeterde foutberichten voor productieplanning met betrekking tot time-out, capaciteit kan niet worden gevonden en cyclische route.</p><p>Verbeterde consistentie bij het berekenen van ontvangst- en uitgiftedatums op zowel geplande orders als gefiatteerde orders.</p><p>Verbeteringen in de algemene prestaties, kwaliteit en stabiliteit. | Functienaam: *Onbeperkte capaciteitsplanning voor Planningsoptimalisatie* | 22-27 oktober 2021 |

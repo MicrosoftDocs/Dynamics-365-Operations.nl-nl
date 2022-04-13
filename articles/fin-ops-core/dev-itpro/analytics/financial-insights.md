@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4dc6cb7c0d6c04371ada611626415d87e9f149f0
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 304cf3f6c913586e08e0a3771ebfe40bc5d2b102
+ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416300"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8464904"
 ---
 # <a name="financial-analysis"></a>Financiële analyse
 
@@ -38,7 +38,7 @@ ms.locfileid: "7416300"
 
 De werkruimte **Financiële analyse** is gericht op het bekijken en filteren van de gegevens in bestaande rapporten. Het is mogelijk om nieuwe visuele elementen toe te voegen aan de werkruimte **Financiële analyse**. De werkruimte **Financiële analyse** is beschikbaar voor het huidige bedrijf en alle bedrijven om gegevens voor alle rechtspersonen weer te geven, ongeacht de rechtspersonen tot wie de rol toegang heeft.
 
-- [Power BI-visualisaties op uw dashboard toevoegen of bewerken](/powerapps-docs/user/add-powerbi-dashboards.md)
+- [Power BI-visualisaties op uw dashboard toevoegen of bewerken](/powerapps/user/add-powerbi-dashboards)
 
 ## <a name="dynamics-365-finance-setup"></a>Dynamics 365 Finance-setup
 **Grootboek**

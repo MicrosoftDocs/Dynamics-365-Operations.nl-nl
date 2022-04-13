@@ -1,23 +1,23 @@
 ---
 title: IBAN-rekeningvalidatie (International Bank Account Number) account beheren
 description: In dit onderwerp wordt uitgelegd hoe u IBAN-rekeningvalidatie (International Bank Account Number) kunt beheren.
-author: roschlom
+author: twheeloc
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 210d2f57e21ec5ac38ba8ca07195e40ff507e2b9
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 89d6c38088e43f0f24fa41accecaa262a64006cf
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860814"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462759"
 ---
 # <a name="manage-international-bank-account-number-iban-account-validation"></a>IBAN-rekeningvalidatie (International Bank Account Number) account beheren
 
@@ -25,13 +25,13 @@ ms.locfileid: "7860814"
 
 Met IBAN-validatie (International Bank Account Number) wordt meer validatie uitgevoerd wanneer u een IBAN aan een bankrekening toevoegt.
 
-Informatie over de structuur van het IBAN wordt opgeslagen in Microsoft Dynamics 365 Finance. Deze informatie wordt automatisch geladen wanneer u voor het eerst het IBAN voor bankrekeningen gebruikt. Het bevat de lengte van het IBAN, de beginposities van het bankrekeningnummer en het routenummer en de lengte van het bankrekeningnummer en het routenummer.
+Informatie over de structuur van de IBAN wordt opgeslagen in Microsoft Dynamics 365 Finance en wordt automatisch geladen wanneer u de IBAN voor het eerst gebruikt op bankrekeningen. Het bevat de lengte van het IBAN, de beginposities van het bankrekeningnummer en het routenummer en de lengte van het bankrekeningnummer en het routenummer.
 
 ## <a name="set-up-iban-structures"></a>IBAN-structuren instellen
 
 1. Ga naar **Contanten en bankbeheer \> Instellen \> IBAN-structuren**.
 2. U ziet dat de IBAN-structuren voor elk land of elke regio automatisch zijn ingesteld.
-3. Als u de structuren voor een bepaald land of bepaalde regio wilt aanpassen, kunt u ze bewerken.
+3. Selecteer de knop **Bewerken** als de structuur moet worden bijgewerkt voor een bepaald land of een bepaalde regio.
 4. De structuurdefinities maken deel uit van elke nieuwe release. U kunt het menu **Structuren opnieuw instellen** gebruiken om de nieuwste definities na elke update te laden.
 
 ## <a name="validate-the-iban-structure-in-a-bank-account"></a>De IBAN-structuur in een bankrekening valideren

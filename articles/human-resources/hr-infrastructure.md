@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a80bedd0224f1e31dfec4e9f4c39ad1ed75d7f2f
-ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
+ms.openlocfilehash: 9d574f760960241e4d79a988b1b671f224cb345f
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "8024562"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487789"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>Samenvoeging van Dynamics 365 Human Resources-infrastructuur - update van release 10.0.25
 
@@ -34,7 +34,7 @@ De samenvoeging zorgt voor consistentie voor gebruikers van Human Resources op d
     - Er is één codebasis, waarbij de nieuwe functionaliteit voor Human Resources wordt vrijgegeven als onderdeel van het normale updateproces van One Version.
     - De manier waarop upgrades, updates en hotfixes op omgevingen worden toegepast, is consistent.
 
-- [De uitbreidbaarheidsopties worden verbeterd.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/improve-extensibility-options.md)
+- [De uitbreidbaarheidsopties worden verbeterd.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/improve-extensibility-options)
 
     - U kunt indien nodig Microsoft Power Platform-hulpmiddelen blijven gebruiken om uit te breiden.
     - U kunt functionaliteit uitbreiden via formulieren, tabellen, methoden en Application Programming Interfaces (API's).
@@ -42,7 +42,7 @@ De samenvoeging zorgt voor consistentie voor gebruikers van Human Resources op d
 
     Zie [Overzicht van uitbreidbaarheid in Dynamics 365](../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) voor meer informatie over de beschikbare uitbreidingsopties.
 
-- [Eén set Human Resources-mogelijkheden maken in Dynamics 365.](/dynamics365-release-plan/2021wave2/human-resources/create-one-set-human-resources-capabilities-within-dynamics-365.md)
+- [Eén set Human Resources-mogelijkheden maken in Dynamics 365.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/create-one-set-human-resources-capabilities-within-dynamics-365)
 
     In de versie 10.0.25 zijn functionele mogelijkheden die alleen in Human Resources bestonden, beschikbaar gemaakt in de infrastructuur voor Finance and Operations. Als klanten kunnen profiteren van deze mogelijkheden in een client voor financiële en bedrijfsactiviteiten, moeten de volgende Human Resources-functies zijn ingeschakeld in Functiebeheer.
 

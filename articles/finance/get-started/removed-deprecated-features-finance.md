@@ -1,23 +1,23 @@
 ---
 title: Verwijderde of afgeschafte functies in Dynamics 365 Finance
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering uit Dynamics 365 Finance.
-author: roschlom
-ms.date: 12/03/2021
+author: kfend
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ad3df2ee9c10972dac8258b6ee41ae0a6eabfbea
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 6df84e5c2d530e708560495bceaeb23e2ee0dd4b
+ms.sourcegitcommit: acac5e59be7c8f4e9a7ae9be58c636c70342e784
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890948"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8466829"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Verwijderde of afgeschafte functies in Dynamics 365 Finance
 
@@ -31,7 +31,21 @@ In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn g
 Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning rekening te houden met deze verwijderingen en afschaffingen. 
 
 > [!NOTE]
-> Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
+> Gedetailleerde informatie over objecten in apps voor financiële en bedrijfsactiviteiten is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van apps voor financiële en bedrijfsactiviteiten.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Verwijderde of verouderde functies in versie 10.0.26 van Finance
+
+### <a name="sales-tax-report-for-finland-design-based-on-reporting-codes"></a>Btw-rapport voor Finland (ontwerp op basis van aangiftecodes)
+
+[Btw-rapport voor Finland](../localizations/emea-fin-sales-tax-payment-report-finland.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Vervangen door een nieuw ontwerp voor btw-aangifte [Btw-aangifte voor Finland](../localizations/emea-fin-vat-declaration.md). |
+| **Vervangen door een andere functie?**   | Ja |
+| **Betrokken productgebieden**         | Toepassing |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft: vanaf 1 maart 2023 willen we geen ondersteuning meer bieden voor het btw-rapport voor Finland (Finse rapportindeling). In plaats daarvan worden onder het model **Belastingaangifte** de nieuwe ER-indelingen **TXT voor btw-aangifte (FI)** en **Btw-aangifte Excel (FI)** beschikbaar gesteld. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10024-release"></a>Verwijderde of verouderde functies in versie 10.0.24 van Finance
 

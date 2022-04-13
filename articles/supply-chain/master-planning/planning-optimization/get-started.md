@@ -1,7 +1,7 @@
 ---
 title: Aan de slag met Planningsoptimalisatie
 description: In dit onderwerp wordt uitgelegd hoe u aan de slag gaat met de functionaliteit Planningsoptimalisatie.
-author: ChristianRytt
+author: t-benebo
 ms.date: 05/20/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 8e6328902cec840b98b401fe8dd46c2a6f18cb54
-ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
+ms.openlocfilehash: faaa2aa921457a3d26c2a921a856a61296192a04
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902554"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469808"
 ---
 # <a name="get-started-with-planning-optimization"></a>Aan de slag met Planningsoptimalisatie
 
@@ -58,7 +58,7 @@ Voordat u de invoegtoepassing Planningsoptimalisatie installeert, moet aan de vo
 
 - U moet Supply Chain Management uitvoeren in een omgeving met grote beschikbaarheid voor LCS, tier 2 of hoger (geen OneBox-omgeving), met Dynamics 365 Supply Chain Management versie 10.0.7 of hoger. Als u de invoegtoepassing in een OneBox-omgeving probeert te installeren, wordt de installatie niet voltooid en moet u de installatie annuleren.
 
-- Uw systeem moet zijn ingesteld voor Power Platform-integratie. Zie voor meer informatie [Microsoft Power Platform-integratie met Finance and Operations-apps](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
+- Uw systeem moet zijn ingesteld voor Power Platform-integratie. Zie [Microsoft Power Platform-integratie met apps voor financiën en bedrijfsactiviteiten](../../../fin-ops-core/dev-itpro/power-platform/overview.md) voor meer informatie.
 
 ### <a name="enable-the-planning-optimization-license"></a>De Planningsoptimalisatie-licentie inschakelen
 

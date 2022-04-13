@@ -2,7 +2,7 @@
 title: Btw-aangifte voor Europa
 description: Dit onderwerp bevat algemene informatie over het instellen en genereren van het btw-overzicht (belasting toegevoegde waarde) voor een aantal Europese landen.
 author: ShylaThompson
-ms.date: 06/20/2017
+ms.date: 03/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b028c5a185b4e7626dd9258630cc469c4439fc37d1c9d1cd7d42007b0ec85736
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a1f7611dcf713e80f637a4b3f5542763050ac4a6
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741484"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487748"
 ---
 # <a name="vat-reporting-for-europe"></a>Btw-aangifte voor Europa
 
@@ -39,6 +39,25 @@ Dit onderwerp biedt een algemene aanpak voor het instellen en genereren van de b
 -   Litouwen
 -   Nederland
 -   Zweden
+
+> [!IMPORTANT]
+> Functies die in dit onderwerp worden beschreven voor Oostenrijk, Tsjechische Republiek, Duitsland, Nederland en Zweden worden afgeschaft. Zie [Verwijderde en verouderde functies](../get-started/removed-deprecated-features-finance.md) voor meer informatie.
+> Gebruik de koppelingen in de volgende tabel voor meer informatie over het nieuwe ontwerp van btw-aangiften in de overeenkomstige landen.
+> 
+>
+> | Land/regio        | Aanvullende gegevens                                                          |
+> |----------------|---------------------------------------------------------------------------------|
+> | Oostenrijk        | [Btw-aangifte (Oostenrijk)](emea-aut-vat-declaration-austria.md)       |                                                                           
+> | Tsjechische Republiek | [Btw-aangifte (Tsjechische Republiek)](emea-cze-vat-declaration-tax-declaration-model.md) |
+> | Denemarken        | [Btw-aangifte (Denemarken)](emea-dnk-vat-declaration-denmark.md)         |
+> | Frankrijk         | [Btw-aangifte (Frankrijk)](emea-fra-vat-declaration-preview-france.md)       |
+> | Duitsland        | [Btw-aangifte (Duitsland)](emea-deu-vat-declaration-germany.md)           |
+> | Nederland    | [Btw-aangifte (Nederland)](emea-nl-vat-declaration-netherlands.md)    |
+> | Noorwegen         | [Btw-retouren met directe verzending naar Altinn](emea-nor-vat-return.md) |
+> | Spanje          | [Btw-aangifte (Spanje)](emea-esp-vat-declaration-spain.md)              |
+> | Zweden         | [Btw-aangifte (Zweden)](emea-swe-vat-declaration-sweden.md)          |
+> | Zwitserland    | [Btw-aangifte (Zwitserland)](emea-che-vat-declaration-switzerland.md) |
+> | VK             | [Voorbereiden op integratie met MRD voor btw](emea-gbr-mtd-vat-integration.md) |
 
 ## <a name="vat-statement-overview"></a>Overzicht btw-overzichten
 Het btw-overzicht is gebaseerd op bedragen van belastingtransacties. Het proces voor het genereren van een btw-aangifte is onderdeel van het btw-betalingsproces dat is geïmplementeerd via de functie Btw vereffenen en boeken. Met deze functie wordt de btw berekend die verschuldigd is voor een bepaalde periode. De berekening van de vereffening omvat de geboekte btw voor de geselecteerde vereffeningsperiode voor de belastingtransacties. Het proces voor het berekenen van gegevens voor een btw-overzicht is gebaseerd op de relatie tussen btw-codes en btw-aangiftecodes, waarbij btw-aangiftecodes overeenkomen met de btw-overzichtvakken (of labels in XML). Voor elke btw-code moeten er btw-aangiftecodes worden ingesteld voor elk type transactie, zoals belastbare verkoop, belastbare inkopen, belastbare import. Dit transactietype wordt beschreven in het gedeelte Btw-codes voor btw-aangifte verderop in dit onderwerp.
@@ -62,7 +81,7 @@ Btw-aangiftecodes zijn vakcodes in het btw-overzicht of labelnamen in XML-indeli
 
 ### <a name="sales-tax-codes-for-vat-reporting"></a>Btw-codes voor btw-aangifte
 
-<!---For general information about setting up sales tax codes, see [Set up sales tax codes](../general-ledger/tasks/set-up-sales-tax-codes.md).-->  Basisbedragen en belastingbedragen van btw-transacties kunnen worden samengevoegd in aangiftecodes in het btw-overzicht (XML-labels of aangiftevakken). U kunt dit instellen door btw-aangiftecodes voor verschillende transactietypen te koppelen voor btw-codes op de pagina <strong>Btw-codes</strong>. In de volgende tabel worden de transactietypen beschreven in de rapportinstelling voor btw-codes. De berekening omvat de transacties voor alle typen bronnen met uitzondering van btw.
+<!---For general information about setting up sales tax codes, see [Set up sales tax codes](../general-ledger/tasks/set-up-sales-tax-codes.md).--> Basisbedragen en belastingbedragen van btw-transacties kunnen worden samengevoegd in aangiftecodes in het btw-overzicht (XML-labels of aangiftevakken). U kunt dit instellen door btw-aangiftecodes voor verschillende transactietypen te koppelen voor btw-codes op de pagina <strong>Btw-codes</strong>. In de volgende tabel worden de transactietypen beschreven in de rapportinstelling voor btw-codes. De berekening omvat de transacties voor alle typen bronnen met uitzondering van btw.
 
 <table>
 <colgroup>
@@ -258,10 +277,10 @@ Het btw-overzicht voor elk land moet voldoen aan de vereisten van de wetgeving v
 
 | Land/regio        | Aanvullende gegevens                                                          |
 |----------------|---------------------------------------------------------------------------------|
-| Oostenrijk        |  [Details btw-overzicht voor Oostenrijk](emea-aut-vat-statement-details.md)         |
+| Oostenrijk        | [Details btw-overzicht voor Oostenrijk](emea-aut-vat-statement-details.md)         |
 | België        |                                                                                 |
-| Tsjechische Republiek |  [Btw-overzicht voor Tsjechië](emea-cze-vat-statement-details.md)   |
-| Estland        |  [Details btw-overzicht voor Estland](emea-est-vat-statement-details.md) |
+| Tsjechische Republiek | [Btw-overzicht voor Tsjechië](emea-cze-vat-statement-details.md)   |
+| Estland        | [Details btw-overzicht voor Estland](emea-est-vat-statement-details.md) |
 | Finland        | [Btw-rapport voor Finland](emea-fin-sales-tax-payment-report-finland.md)          |
 | Duitsland        | [Btw-aangifte voor Duitsland](emea-de-vat-declaration.md)                       |
 | Italië          | [Details btw-overzichten voor Italië](emea-ita-vat-statements-details.md)            |

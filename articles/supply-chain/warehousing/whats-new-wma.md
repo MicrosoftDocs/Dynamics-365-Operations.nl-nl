@@ -10,18 +10,27 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c4731c5f0b0a1553deb53753d82d29a34e5525df
-ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
+ms.openlocfilehash: 2544c30afe18f290b681efed1705f7cef0cb7620
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8418635"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487831"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 In dit onderwerp worden de nieuwe functies, oplossingen, verbeteringen en bekende problemen genoemd voor elke vrijgegeven versie van de mobiele app Warehouse Management voor Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20200"></a>Versie 2.0.20.0
+
+Deze versie bevat de volgende nieuwe functies, verbeteringen en oplossingen voor fouten:
+
+- Diverse problemen met vastloper opgelost.
+- Er is een probleem opgelost waarbij onjuiste waarden werden weergegeven op kaarten op de pagina **Werklijst**.
+- De bladerervaring is verbeterd en jittering bij het bladeren op de pagina's **Werklijst** en **Artikelonderzoek** in Android is opgelost.
+- Er is een knop voor het afsluiten van de aanmeldingspagina toegevoegd, waarmee de toepassing wordt afgesloten.
 
 ## <a name="version-20190"></a>Versie 2.0.19.0
 

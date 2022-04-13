@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 33aab6f0a482ce3d90a7e9828015a8e7bebb7827
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 6aed74656ceb8edd0e88adf53b61fcae81241f54
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371589"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8470159"
 ---
 # <a name="set-up-regulatory-configuration-service-rcs"></a>Regulatory Configuration Service (RCS) instellen
 
@@ -50,6 +50,13 @@ Er moet een tegel voor het werkgebied **Globalisatiefuncties** worden weergegeve
     | Verenigd Koninkrijk             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Azië                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Japan                      | <p>`https://gw.jp-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Zwitserland                | <p>`https://gw.ch-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Brazilië                     | <p>`https://gw.br-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.br-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Verenigde Arabische Emiraten       | <p>`https://gw.ae-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Australië                  | <p>`https://gw.au-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.au-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Canada                     | <p>`https://gw.ca-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.ca-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Frankrijk                     | <p>`https://gw.fr-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | India                      | <p>`https://gw.in-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
 3. Controleer of het veld **Toepassings-ID** is ingesteld op **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Dit is een vaste waarde. Zorg ervoor dat alleen een GUID-identificatie (Globally Unique Identifier) is ingevoerd en dat de waarde geen andere symbolen bevat, zoals spaties, komma's, perioden of aanhalingstekens.
 4. Voer in het veld **LCS-omgevings-id** de id van uw Microsoft Dynamics Lifecycle Services-omgeving (LCS) in. Deze waarde is de verwijzing naar de Finance- of Supply Chain Management-omgeving die u met de elektronische factureringsservice gaat gebruiken. U krijgt de id door u aan te melden bij [LCS](https://lcs.dynamics.com/), het projec te openen en vervolgens op het tabblad **Omgeving beheren** in de sectie **Omgevingsdetails** te zoeken in het veld **Omgevings-id**.

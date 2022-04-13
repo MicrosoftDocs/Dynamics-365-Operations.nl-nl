@@ -1,7 +1,7 @@
 ---
 title: Analyse voor passende Planningsoptimalisatie
 description: In dit onderwerp wordt uitgelegd hoe u uw huidige instellingen en gegevens kunt controleren op basis van de mogelijkheden van de functionaliteit Optimalisatieplanning.
-author: ChristianRytt
+author: t-benebo
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 440cddca11df8d705757c6f6adf01e08626c5158
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: dccc955492d33e9e0156f2a5feb6b33387d80af3
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8408010"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487637"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analyse aanpassen aan Planningsoptimalisatie
 
@@ -84,7 +84,7 @@ In de volgende tabel worden de verschillende resultaten weergegeven die kunnen w
 | Productie | Stuklijst-/formuleregels met resourceverbruik: _\#_ | Deze functie wordt verwerkt. Momenteel worden stuklijst- en formuleregels met resourceverbruik genegeerd wanneer Planningsoptimalisatie is ingeschakeld. Als deze functie wordt ondersteund, wordt de materiaalbehoefte ingesteld op de begindatum van de productie. Totdat deze functie wordt ondersteund, worden er geen behoeften gegenereerd voor materialen die zijn gemarkeerd met een vlag voor resourceverbruik. | 2022 oktober |
 | Productie | Stuklijst-/formuleregels met stapverbruik: _\#_ | Deze functie wordt verwerkt. Momenteel wordt stapverbruik genegeerd wanneer Planningsoptimalisatie is ingeschakeld. | 2022 oktober |
 | Productie | Stuklijsten met gedefinieerde constante of variabele uitval: _\#_ | Deze functie wordt verwerkt. Momenteel worden constante en variabele uitval die op stuklijsten zijn gedefinieerd, genegeerd wanneer Planningsoptimalisatie is ingeschakeld. | 2022 oktober |
-| Productie | Stuklijsten met uitbesteding: _\#_ | Deze functie wordt verwerkt. Momenteel wordt de instelling voor uitbesteding op stuklijsten genegeerd wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | 2022 april |
+| Productie | Stuklijsten met uitbesteding: _\#_ | Deze functie wordt nu ondersteund. | Ondersteund |
 | Productie | Stuklijsten zonder een vestiging: _\#_ | Deze functie wordt nu ondersteund. Zie [Productieplanning](production-planning.md) voor meer informatie | Ondersteund |
 | Productie | Vraag waarvoor specifieke stuklijst- of routevereisten zijn gedefinieerd: _\#_ | Deze functie wordt verwerkt. Momenteel worden de specifieke stuklijst- of routevereisten die zijn gedefinieerd op de vraag (zoals een substuklijst of een subroute op een verkooporder) genegeerd wanneer Planningsoptimalisatie is ingeschakeld. De standaard stuklijst of route wordt gebruikt, ongeacht deze instelling. | 2022 oktober |
 | Productie | Formuleversies met co-/bijproducten: _\#_ | Deze functie wordt verwerkt. Momenteel worden co- en bijproducten die aan de formuleversie zijn gekoppeld, genegeerd wanneer Planningsoptimalisatie is ingeschakeld. | 2022 oktober |

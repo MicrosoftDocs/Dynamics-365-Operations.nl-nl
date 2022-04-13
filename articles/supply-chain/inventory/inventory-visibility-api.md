@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f74bb4bd4ed66520c04261bd9f82faad7775817e
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: cbd33b16a4b21e8e1931bc61cb55e376e7d73179
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062106"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524460"
 ---
 # <a name="inventory-visibility-public-apis"></a>Openbare API's voor Voorraadzichtbaarheid
 
@@ -41,15 +41,17 @@ De volgende tabel bevat de API's die momenteel beschikbaar zijn:
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Plaatsen | [Voorhanden hoeveelheden instellen/overschrijven](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Plaatsen | [Eén reserveringsgebeurtenis maken](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Plaatsen | [Meerdere reserveringsgebeurtenissen maken](#create-multiple-reservation-events) |
-| /api/environment/{environmentId}/onhand/indexquery | Plaatsen | [Een query uitvoeren met de post-methode](#query-with-post-method) |
+| /api/environment/{environmentId}/on-hand/changeschedule | Boeken | [Eén geplande wijziging in de voorhanden hoeveelheid maken](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/on-hand/changeschedule/bulk | Boeken | [Meerdere geplande wijzigingen in de voorhanden hoeveelheid maken](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/onhand/indexquery | Boeken | [Een query uitvoeren met de post-methode](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | Ophalen | [Een query uitvoeren met de get-methode](#query-with-get-method) |
-
-Microsoft heeft een gebruiksklare *Postman*-aanvraagverzameling geleverd. U kunt deze verzameling in uw *Postman*-software importeren via de volgende gedeelde koppeling: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>
 
 > [!NOTE]
 > Het deel {environmentId} van het pad is de omgevings-id in Microsoft Dynamics Lifecycle Services (LCS).
 > 
 > De bulk-API kan maximaal 512 records voor elke aanvraag retourneren.
+
+Microsoft heeft een gebruiksklare *Postman*-aanvraagverzameling geleverd. U kunt deze verzameling in uw *Postman*-software importeren via de volgende gedeelde koppeling: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Het eindpunt vinden volgens uw Lifecycle Services-omgeving
 
@@ -517,6 +519,9 @@ De parameter `groupByValues` moet uw configuratie volgen voor indexering. Zie [C
 
 De parameter `returnNegative` bepaalt of de resultaten negatieve vermeldingen bevatten.
 
+> [!NOTE]
+> Als u de functies voor planning van wijzigingen in voorhanden voorraad en available to promise (ATP) hebt ingeschakeld, kan uw query ook de booleaanse parameter `QueryATP` bevatten, waarmee wordt bepaald of de queryresultaten ATP-informatie bevatten. Zie [Planningen van wijzigingen in voorhanden hoeveelheid en available to promise in Voorraadzichtbaarheid](inventory-visibility-available-to-promise.md) voor meer informatie en voorbeelden.
+
 In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst weergegeven.
 
 ```json
@@ -572,5 +577,9 @@ Hier is een voorbeeld van een get-URL. Deze get-aanvraag is exact hetzelfde als 
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
+
+## <a name="available-to-promise"></a>Available to promise
+
+U kunt Voorraadzichtbaarheid zo instellen dat u toekomstige wijzigingen in de voorhanden voorraad kunt plannen en ATP-hoeveelheden kunt berekenen. ATP is de hoeveelheid van een artikel, die beschikbaar is en die aan een klant kan worden beloofd in de volgende periode. Het gebruik van de ATP-berekening kan uw capaciteit voor het afhandelen van orders veel groter maken. Zie [Planningen van wijzigingen in voorhanden hoeveelheid en available to promise in Voorraadzichtbaarheid](inventory-visibility-available-to-promise.md) voor informatie over hoe u deze functie kunt inschakelen en hoe u kunt communiceren met Voorraadzichtbaarheid via de bijbehorende API nadat de functie is ingeschakeld.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Geavanceerde automatische toeslagen voor meerdere kanalen
 description: Dit onderwerp beschrijft de mogelijkheden voor het beheren van andere toeslagen voor Commerce-kanaalorders met behulp van de geavanceerde functie voor automatische toeslagen.
 author: hhaines
-ms.date: 03/30/2020
+ms.date: 03/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ef6396ec66a0f96ba97b176c46bf70d83a080883cf496312398f14dce3ad9758
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 69432e13424b08b75e8ce7c88eaf6be66db59e65
+ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743426"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "8489613"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Geavanceerde automatische toeslagen voor meerdere kanalen
 
@@ -187,6 +187,9 @@ Als er redencodes zijn vastgelegd voor overschreven toeslagen, is er ook een nie
 ### <a name="refunding-charges-on-a-pos-return-transaction"></a>Toeslagen terugbetalen op een POS-retourtransactie
 
 Als de parameter **Geavanceerde automatische toeslagen gebruiken** is ingesteld op **Ja**, is de bestaande Commerce-parameter voor **Verzendkosten terugbetalen** niet langer van toepassing. Om aan te geven welke toeslagen systematisch moeten worden terugbetaald aan een klant bij het gebruik van geavanceerde automatische toeslagen, moet u ervoor zorgen dat de gerelateerde toeslagcode is geconfigureerd als **Terug te betalen** op de instellingspagina **Toeslagcode**. Zorg ervoor dat de instellingen zijn gesynchroniseerd met de databases van uw Commerce-kanaal via de verwerking van de distributieplanning.
+
+> [!TIP]
+> Zie [Terug te betalen kosten worden onjuist berekend op basis van de geretourneerde hoeveelheid](/troubleshoot/Refund-charges-miscalculated-for-partial-quantity-returned.md) voor richtlijnen die u helpen om ervoor te zorgen dat terug te betalen kosten op regelniveau worden berekend op basis van de geretourneerde hoeveelheid.
 
 ### <a name="refunding-charges-on-a-return-order-transaction"></a>Toeslagen terugbetalen op een retourordertransactie
 

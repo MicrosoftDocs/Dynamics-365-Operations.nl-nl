@@ -1,7 +1,7 @@
 ---
 title: Flex-kredietprogramma's instellen
 description: U kunt flex-kredietprogramma's in Microsoft Dynamics 365 Human Resources gebruiken om werknemers in te schrijven voor vergoedingen op basis van een vooraf bepaald aantal flex-kredieten.
-author: andreabichsel
+author: twheeloc
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8f28e3fb603fde2c19669e9936ea0bdcfc866d0e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e1808d703983fd11e29f83c13f6181fb3068bc49
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065913"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8533763"
 ---
 # <a name="set-up-flex-credit-programs"></a>Flex-kredietprogramma's instellen
 

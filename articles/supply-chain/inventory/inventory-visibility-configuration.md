@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8ba478fef424a6c4688191ed4e5375bbce52de0c
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: adab5ee3f626390355f4bab1227efd5fe58c2fcf
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060996"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524516"
 ---
 # <a name="configure-inventory-visibility"></a>Voorraadzichtbaarheid configureren
 
@@ -39,22 +39,25 @@ Voordat u met Voorraadzichtbaarheid begint te werken, moet u de volgende configu
 
 Installeer voordat u begint eerst de invoegtoepassing Voorraadzichtbaarheid en stel de app in zoals beschreven in [Voorraadzichtbaarheid installeren en instellen](inventory-visibility-setup.md).
 
-## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Functies voor Voorraadzichtbaarheid inschakelen in Power Apps-functiebeheer
-
-Met de invoegingtoepassing Voorraadzichtbaarheid worden meerdere nieuwe functies aan uw Power Apps-installatie toegevoegd. Deze functies zijn standaard uitgeschakeld. Als u deze functies wilt gebruiken, opent u de pagina **Configuratie** in Power Apps en schakelt u ze vervolgens in op het tabblad **Functiebeheer**.
-
-- *OnHandReservation*
-- *OnHandMostSpecificBackgroundService*
-
-## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Het service-eindpunt zoeken
-
-Als u het juiste eindpunt van de service Voorraadzichtbaarheid niet weet, opent u de pagina **Configuratie** in Power Apps en selecteert u vervolgens **Service-eindpunt weergeven** in de rechterbovenhoek. Op deze pagina wordt het juiste service-eindpunt weergegeven.
-
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>De configuratiepagina van de app Voorraadzichtbaarheid
 
 In Power Apps kunt u op de pagina **Configuratie** van de [app Voorraadzichtbaarheid](inventory-visibility-power-platform.md) de configuratie van voorhanden voorraad en zachte reservering instellen. Als de invoegtoepassing is geïnstalleerd, bevat de standaardconfiguratie de waarde van Microsoft Dynamics 365 Supply Chain Management (de `fno`-gegevensbron). U kunt de standaardinstellingen controleren. Daarnaast kunt u op basis van uw bedrijfsbehoeften en de voorraadboekingsvereisten van uw externe systeem de configuratie wijzigen om de manier te standaardiseren waarop voorraadwijzigingen kunnen worden geboekt, geordend en opgevraagd in de verschillende systemen. In de resterende secties van dit onderwerp wordt uitgelegd hoe u elk deel van de pagina **Configuratie** gebruikt.
 
 Nadat de configuratie is voltooid, moet u **Configuratie bijwerken** selecteren in de app.
+
+## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Functies voor Voorraadzichtbaarheid inschakelen in Power Apps-functiebeheer
+
+Met de invoegingtoepassing Voorraadzichtbaarheid worden meerdere nieuwe functies aan uw Power Apps-installatie toegevoegd. Deze functies zijn standaard uitgeschakeld. Als u deze functies wilt gebruiken, opent u de pagina **Configuratie** en schakelt u ze vervolgens naar behoefte in op het tabblad **Functiebeheer**.
+
+| Naam Functiebeheer | Description |
+|---|---|
+| OnHandReservation | Met deze functie kunt u reserveringen maken, reserveringen opnemen en/of de reservering van gespecificeerde voorraadhoeveelheden ongedaan maken met behulp van Voorraadzichtbaarheid. Zie [Voorraadzichtbaarheid reserveringen](inventory-visibility-reservations.md) voor meer informatie. |
+| OnHandMostSpecificBackgroundService | De functie biedt een voorraadoverzicht voor producten samen met alle dimensies. De overzichtsgegevens van de voorraad worden periodiek gesynchroniseerd vanuit Voorraadzichtbaarheid. Zie [Voorraadoverzicht](inventory-visibility-power-platform.md#inventory-summary) voor meer informatie. |
+| OnhandChangeSchedule | Met deze functie worden de functies voor planning van wijzigingen in voorhanden hoeveelheden en ATP (Available To Promise) ingeschakeld (optioneel). Zie [Planningen van wijzigingen in voorhanden hoeveelheid en available to promise in Voorraadzichtbaarheid](inventory-visibility-available-to-promise.md) voor meer informatie. |
+
+## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Het service-eindpunt zoeken
+
+Als u het juiste eindpunt van de service Voorraadzichtbaarheid niet weet, opent u de pagina **Configuratie** in Power Apps en selecteert u vervolgens **Service-eindpunt weergeven** in de rechterbovenhoek. Op deze pagina wordt het juiste service-eindpunt weergegeven.
 
 ## <a name="data-source-configuration"></a>Configuratie van de gegevensbron
 
@@ -178,15 +181,21 @@ Als u een aangepast berekende meting wilt instellen, gaat u als volgt te werk.
 
 1. Meld u aan bij uw Power Apps-omgeving en open **Voorraadzichtbaarheid**.
 1. Open de pagina **Configuratie**.
-1. Selecteer op het tabblad **Berekende meting** de optie **Nieuwe berekende meting** om een berekende maat toe te voegen. Stel vervolgens de velden in aan de hand van de beschrijving in de volgende tabel.
+1. Selecteer op het tabblad **Berekende meting** de optie **Nieuwe berekende meting** om een berekende maat toe te voegen.
+1. Stel de volgende velden in voor de nieuwe berekende meting:
 
-    | Veld | Waarde |
-    |---|---|
-    | Naam van nieuwe berekende meting | Voer de naam van de berekende meting in. |
-    | Gegevensbron | Het querysysteem is een gegevensbron. |
-    | Gegevensbron van modificator | Voer de gegevensbron van de modificator in. |
-    | Modificator | Voer de naam van de modificator in. |
-    | Modificatortype | Selecteer het modificatortype (*Optellen* of *Aftrekken*). |
+    - **Naam van nieuwe berekende meting** : voer de naam van de berekende meting in.
+    - **Gegevensbron**: selecteer de gegevensbron die aan de nieuwe modificator is gekoppeld. Het querysysteem is een gegevensbron.
+
+1. Selecteer **Toevoegen** om een nieuwe modificator toe te voegen aan de nieuw berekende meting.
+1. Stel de volgende velden in voor de nieuwe modificator:
+
+    - **Modificator**: selecteer het modificatortype (*Optellen* of *Aftrekken*).
+    - **Gegevensbron**: selecteer de gegevensbron waar de meting die de modificatorwaarde levert te vinden is.
+    - **Meting**: selecteer de naam van de meting (vanuit de geselecteerde gegevensbron) die de waarde voor de modificator levert.
+
+1. Herhaal stap 5 tot en met 6 totdat u alle vereiste modificatoren hebt toegevoegd.
+1. Selecteer **Opslaan**.
 
 U hebt bijvoorbeeld het volgende queryresultaat.
 
@@ -465,6 +474,10 @@ In dit voorbeeld kunt u reserveringen maken in de volgende dimensiereeksen. U mo
 - `(SiteId, LocationId, ColorId, SizeId, StyleId)`
 
 Een geldige dimensievolgorde moet strikt de reserveringshiërarchie, dimensie per dimensie, volgen. De hiërarchievolgorde `(SiteId, LocationId, SizeId)` is bijvoorbeeld niet geldig omdat `ColorId` ontbreekt.
+
+## <a name="available-to-promise-configuration-optional"></a>Configuratie voor available to promise (optioneel)
+
+U kunt Voorraadzichtbaarheid zo instellen dat u toekomstige wijzigingen in de voorhanden voorraad kunt plannen en ATP-hoeveelheden (Available-To-Promise) kunt berekenen. ATP is de hoeveelheid van een artikel, die beschikbaar is en die aan een klant kan worden beloofd in de volgende periode. Het gebruik van deze berekening kan uw capaciteit voor het afhandelen van orders veel groter maken. Als u deze functie wilt gebruiken, moet u deze inschakelen op het tabblad **Functiebeheer** en deze vervolgens instellen op het tabblad **ATP-instelling**. Zie [Planningen van wijzigingen in voorhanden hoeveelheid en available to promise in Voorraadzichtbaarheid](inventory-visibility-available-to-promise.md) voor meer informatie.
 
 ## <a name="complete-and-update-the-configuration"></a>De configuratie voltooien en bijwerken
 
