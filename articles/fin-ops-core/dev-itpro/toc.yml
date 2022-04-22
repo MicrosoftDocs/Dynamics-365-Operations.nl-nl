@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-26.md
                 - name: Platform-updates voor versie 10.0.25 (april 2022)
                   href: get-started/whats-new-platform-updates-10-0-25.md
-                - name: Platform-updates voor versie 10.0.24 (februari 2022)
-                  href: get-started/whats-new-platform-updates-10-0-24.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -396,6 +394,8 @@
                       href: deployment/onprem-SSRSHA.md
                     - name: Proxy's voor on-premises omgevingen configureren
                       href: deployment/onprem-reverseproxy.md
+                    - name: Netwerkprinterapparaten installeren in on-premises omgevingen
+                      href: analytics/install-network-printer-onprem.md
                     - name: On-premises diagnoses
                       href: deployment/on-premises-diagnostics.md
                     - name: Configuratie van on-premises herstel na noodgeval
@@ -494,8 +494,10 @@
                   href: dev-tools/access-instances.md
                 - name: Ontwikkelomgevingen met één apparaat configureren
                   href: dev-tools/configure-developer-vm.md
-                - name: Veelgestelde vragen over ontwikkelen en bouwen van VM's waarin beheerdertoegang niet is toegestaan
+                - name: Veelgestelde vragen over ontwikkelen en bouwen van VM's waarin beheerderstoegang niet is toegestaan
                   href: sysadmin/VMs-no-admin-access.md
+                - name: De downloadbare VHD instellen voor eerste gebruik
+                  href: dev-tools/vhd-setup.md
                 - name: De naam van lokale omgevingen wijzigen voor toegang tot Azure DevOps
                   href: migration-upgrade/vso-machine-renaming.md
                 - name: Systeemvereisten voor ontwikkeling
@@ -1028,7 +1030,9 @@
                   href: lifecycle-services/use-translation-service-tm.md
                 - name: Azure DevOps-extensie (openbare preview)
                   href: lifecycle-services/dts-devops-extension.md
-        - name: Integratie met Microsoft Power Platform
+                - name: Zelfstudie over Azure DevOps-extensie (openbare preview)
+                  href: lifecycle-services/dts-ado-tutorial.md
+        - name: Integratie van Microsoft Power Platform
           items:
             - name: Overzicht
               href: power-platform/overview.md
@@ -1506,6 +1510,8 @@
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: RSAT (Regression Suite Automation Tool) uitvoeren met parallelle uitvoering
               href: perf-test/rsat/rsat-parallel-execution.md
+            - name: RSAT integreren met Azure DevOps-pijplijnen
+              href: perf-test/rsat/rsat-devops-extension.md
             - name: Problemen oplossen
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Oplossingen vrijgeven via Lifecycle Services

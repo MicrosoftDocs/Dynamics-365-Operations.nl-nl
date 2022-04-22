@@ -16,8 +16,6 @@
                   href: get-started/whats-new-changed-10-0-26.md
                 - name: Finance 10.0.25 (april)
                   href: get-started/whats-new-changed-10-0-25.md
-                - name: Finance 10.0.24 (februari)
-                  href: get-started/whats-new-changed-10-0-24.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -418,14 +416,30 @@
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: Een factureringsschema kopiëren
                       href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: Functies voor factureringsschema's
+                      href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Facturering van mijlpalen
                       href: accounts-receivable/sb-milestonebilling.md
+                    - name: Ondersteunings- en verlengingsproces
+                      href: accounts-receivable/sb-support-renewals.md
+                    - name: Schema's voor consumentenprijsindex
+                      href: accounts-receivable/cpischedules.md
                     - name: Factureringsschema's beëindigen
                       href: accounts-receivable/terminate-billing-schedule.md
                 - name: Uitgestelde opbrengsten en onkosten
-                  items: null
+                  items:
+                    - name: Uitstel van opbrengsten en onkosten instellen
+                      href: accounts-receivable/sb-deferrals.md
+                    - name: Uitstelplanningen
+                      items:
+                        - name: Uitstelplanningen maken
+                          href: accounts-receivable/sb-deferrals-schedules.md
+                        - name: Standaardtransacties voor uitstel
+                          href: accounts-receivable/sb-deferral-transactions.md
                 - name: Toewijzing van opbrengsten uit meerdere elementen
-                  items: null
+                  items:
+                    - name: Toewijzing van opbrengsten uit meerdere elementen instellen
+                      href: accounts-receivable/sb-rev-alloc-setup.md
             - name: Betalingen en vereffeningen
               items:
                 - name: Overzicht van klantbetalingen
@@ -922,6 +936,8 @@
               items:
                 - name: Uw rekeningschema plannen
                   href: general-ledger/plan-chart-of-accounts.md
+                - name: Uw lokale rekeningschema plannen
+                  href: general-ledger/plan-local-chart-of-accounts.md
                 - name: Hoofdrekeningen
                   items:
                     - name: Hoofdrekeningtypen
@@ -3092,6 +3108,8 @@
                   href: localizations/tasks/mx-00010-cancel-electronic-invoice.md
                 - name: CFDI-versie 3.3
                   href: localizations/latam-mex-cfdi-3-3.md
+                - name: CFDI-versie 4.0
+                  href: localizations/latam-mex-cfdi-4-0.md
                 - name: Klantregistratie-id's en andere informatie
                   href: localizations/tasks/mx-00007-customer-registration-ids-other-information.md
                 - name: DIOT-aangifteoverzicht
