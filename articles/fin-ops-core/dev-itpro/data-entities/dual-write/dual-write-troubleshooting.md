@@ -2,19 +2,19 @@
 title: Algemene problemen oplossen
 description: Dit onderwerp bevat algemene informatie voor het oplossen van problemen voor de integratie van twee keer wegschrijven tussen apps voor financiële en bedrijfsactiviteiten en Dataverse.
 author: RamaKrishnamoorthy
-ms.date: 03/16/2020
+ms.date: 04/07/2020
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f6f5b9f26990e2f4db9bf69040a6c4be31400b40
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 8b5951f9f40179ca0bf31f5cccf1f05a0f968213
+ms.sourcegitcommit: 1843235766b6f8cf950a13a310e9f4f2f53c59a4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062333"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8554594"
 ---
 # <a name="general-troubleshooting"></a>Algemene problemen oplossen
 
@@ -29,20 +29,31 @@ Dit onderwerp bevat algemene informatie voor het oplossen van problemen voor de 
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Het traceerlogboek voor de invoegtoepassing inschakelen en weergeven in Dataverse om foutdetails weer te geven
 
+Traceerlogboeken kunnen nuttig zijn bij het oplossen van problemen met live synchronisatie van twee keer wegschrijven tussen Finance and Operations en Dataverse. De logboeken kunnen specifieke informatie bieden voor de teams die technische ondersteuning bieden voor Dynamics 365. In dit artikel wordt beschreven hoe traceerlogboeken kunnen worden ingeschakeld en hoe u deze kunt weergeven. Traceerlogboeken worden beheerd op de Dynamics 365-pagina instellingen en vereisen beheerdersrechten om te wijzigen en weer te geven. 
+
 **Vereiste rol om het traceerlogboek in te schakelen en fouten weer te geven:** systeembeheerder
 
+### <a name="turn-on-the-trace-log"></a>Het traceerlogboek inschakelen
 Voer de volgende stappen uit om het traceerlogboek in te schakelen.
 
-1. Meld u aan bij de app voor klantbetrokkenheid, open de pagina **Instellignen** en selecteer vervolgens onder **Systeem** de optie **Beheer**.
-2. Selecteer op de pagina **Beheer** de optie **Systeeminstellingen**.
-3. Ga naar het tabblad **Aanpassen** en selecteer in de kolom **Traceren van invoegtoepassing en aangepaste werkstroomactiviteit** **Alle** om het traceerlogboek voor invoegtoepassingen in te schakelen. Als u traceerlogboeken alleen wilt vastleggen wanneer er uitzonderingen optreden, kunt u in plaats daarvan **Uitzondering** selecteren.
+1.  Meld u aan bij Dynamics 365 en selecteer **Instellingen** op de navigatiebalk bovenaan. Klik op de pagina **Beheer** op Systemen.
+2.  Klik op de pagina Beheer op de optie **Systeeminstellingen**.
+3.  Ga naar het tabblad **Aanpassing** en selecteer in het gedeelte voor het traceren van invoegtoepassing en aangepaste werkstroomactiviteit de optie **Alle** in de vervolgkeuzelijst. In dat geval worden alle activiteiten getraceerd en wordt een uitgebreide verzameling gegevens geboden voor de teams die mogelijke problemen moeten controleren.
 
+> [!NOTE]
+> Als u de vervolgkeuze instelt op **Uitzondering**, levert dit alleen traceerinformatie op wanneer uitzonderingen (fouten) optreden.
 
+Wanneer deze functie is ingeschakeld, worden de traceerlogboeken voor deze invoegtoepassing verzameld totdat ze handmatig worden uitgeschakeld door terug te keren naar deze locatie en ze **uit** te schakelen.
+
+### <a name="view-the-trace-log"></a>Het traceerlogboek weergeven
 Voer de volgende stappen uit om het traceerlogboek weer te geven.
 
-1. Meld u aan bij de app voor klantbetrokkenheid, open de pagina **Instellingen** en selecteer vervolgens onder **Aanpassing** de optie **Traceerlogboek invoegtoepassing**.
-2. Zoek de traceerlogboeken waarvoor de kolom **Type naam** is ingesteld op **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
-3. Dubbelklik op een item om het volledige logboek weer te geven en controleer vervolgens op het sneltabblad **Uitvoering** de tekst **Bericht blokkeren**.
+1. Selecteer op de Dynamics 365-pagina de optie **Instellingen** op de navigatiebalk bovenaan. 
+2. Selecteer **Traceerlogboek invoegtoepassing** in de sectie **Aanpassingen** van de pagina.
+3. U kunt vermeldingen vinden in de lijst met traceerlogboeken, gebaseerd op typenaam en/of berichtnaam.
+4. Open de gewenste vermelding om het volledige logboek weer te geven. Het berichtenblok in de sectie Uitvoering biedt beschikbare informatie voor de invoegtoepassing. Indien beschikbaar worden ook uitzonderingsdetails verstrekt. 
+
+U kunt de inhoud van de traceerlogboeken kopiëren en deze in een andere toepassing plakken, zoals Kladblok of andere hulpmiddelen om logboeken of tekstbestanden weer te geven, zodat u gemakkelijker alle inhoud kunt zien. 
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>De modus Foutopsporing inschakelen om live synchronisatieproblemen in apps voor financiële en bedrijfsactiviteiten op te lossen
 
@@ -69,6 +80,34 @@ Fouten met twee keer wegschrijven die afkomstig zijn Dataverse, kunnen worden we
 5. Open Logboeken.
 6. Selecteer **Logboeken Toepassingen en Services \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operationeel**.
 7. Bekijk de lijst met recente fouten.
+
+## <a name="dual-write-ui-landing-page-showing-blank"></a>Landingspagina voor twee keer wegschrijven wordt leeg weergegeven
+Bij het openen van de pagina voor twee keer wegschrijven in Microsoft Edge of Google Chrome, wordt de startpagina niet geladen en ziet u een lege pagina of een foutmelding, zoals Er is een fout opgetreden.
+In Devtools ziet u een fout in de logboeken van de console:
+
+>bundle.eed39124e62c58ef34d2.js:37 DOMException: Failed to read the 'sessionStorage' property from 'Window': Access is denied for this document. at t.storeInSessionStorage (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:16:136860 ) at new t (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:69:20103 ) at ci (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:44115 ) at Eo (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:58728 ) at jo (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:65191 ) at Nr (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:84692 ) at Or (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:85076 ) at Ss (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:91750 ) at vs (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:91130 ) at hs (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:90151 )
+
+De gebruikersinterface gebruikt sessieopslag van de browser om bepaalde eigenschapswaarden voor het laden van de startpagina op te slaan. Hiervoor moeten cookies van derden zijn toegestaan in de browser voor de site. De fout wijst erop dat de gebruikersinterface geen toegang heeft tot de sessieopslag. Er kunnen twee scenario's zijn waarin dit probleem zich voordoet:
+
+1.  U opent de gebruikersinterface in de incognitomodus van Edge/Chrome en cookies van derden worden geblokkeerd in deze modus.
+2.  U hebt cookies van derden geheel geblokkeerd in Edge/Chrome.
+
+### <a name="mitigation"></a>Risicobeperking
+Cookies van derden moeten zijn toegestaan in de browserinstellingen.
+
+### <a name="google-chrome-browser"></a>Google Chrome-browser
+Eerste optie:
+1.  Ga naar instellingen door chrome://settings/ op de adresbalk in te voeren en ga naar Privacy en beveiliging -> Cookies en andere sitegegevens.
+2.  Selecteer Alle cookies toestaan. Als u dit niet wilt doen, gaat u naar de tweede optie.
+
+Tweede optie:
+1.  Ga naar instellingen door chrome://settings/ op de adresbalk in te voeren en ga naar Privacy en beveiliging -> Cookies en andere sitegegevens.
+2.  Als Cookies van derden blokkeren in incognitomodus of Cookies van derden blokkeren is geselecteerd, gaat u naar Sites die altijd cookies mogen gebruiken en klikt u op **Toevoegen**. 
+3.  Voeg de sitenaam van uw Finance + Operations-apps toe (https://<uw_FinOp_exemplaar>.cloudax.dynamics.com). Schakel het selectievakje Alle cookies, alleen op deze site in. 
+
+### <a name="microsoft-edge-browser"></a>Microsoft Edge-browser
+1.  Ga naar Instellingen -> Sitemachtigingen -> Cookies en sitegegevens.
+2.  Schakel Cookies van derden blokkeren uit.  
 
 ## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Een andere Dataverse-omgeving (los)koppelen vanuit een app voor financiële en bedrijfsactiviteiten
 
@@ -97,14 +136,14 @@ Ga als volgt te werk om de optie voor het formulier **Informatie** opnieuw in te
 
 Het ondersteuningsteam moet mogelijk netwerktraceringen controleren om bepaalde problemen op te lossen. Voer de volgende stappen uit om een netwerktracering te maken:
 
-### <a name="chrome"></a>Chrome
+### <a name="google-chrome-browser"></a>Google Chrome-browser
 
 1. Druk op het geopende tabblad op **F12** of selecteer **Ontwikkelhulpprogramma's** om de ontwikkelhulpprogramma's te openen.
 2. Open het tabblad **Netwerk** en typ **integ** in het filtertekstvak.
 3. Voer uw scenario uit en bekijk de aanvragen die worden vastgelegd.
 4. Klik met de rechtermuisknop op de vermeldingen en selecteer **Alles opslaan als een HAR-bestand met inhoud**.
 
-### <a name="microsoft-edge"></a>Microsoft Edge
+### <a name="microsoft-edge-browser"></a>Microsoft Edge-browser
 
 1. Druk op het geopende tabblad op **F12** of selecteer **Ontwikkelhulpprogramma's** om de ontwikkelhulpprogramma's te openen.
 2. Open het tabblad **Netwerk**.

@@ -8,12 +8,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2021-11-12
-ms.openlocfilehash: 7e3721421e15bc3e5937691cdbaee51e4d3cdd17
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: 63d6e5ef7e883578106495d5ec778bbd686ee92d
+ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349738"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8550002"
 ---
 # <a name="commerce-analytics-preview"></a>Commerce-analyses (preview)
 
@@ -352,15 +352,20 @@ De pagina **Impressierapport** bevat de volgende metrische gegevens:
 
 ### <a name="enable-and-configure-commerce-analytics-preview"></a><a name="enableCommerceAnalytics"></a>Commerce-analyses (preview) inschakelen en configureren
 
-Als u Commerce-analyses (preview) wilt installeren, moet u machtigingen hebben om resources te maken in een Azure-abonnement. U moet tevens machtigingen voor het installeren van invoegtoepassingen in LCS hebben. 
+Als u Commerce-analyses (preview) wilt installeren, moet u machtigingen hebben om resources te maken in een Azure-abonnement. U moet tevens machtigingen voor het installeren van invoegtoepassingen in LCS hebben.
 
 Als u Commerce-analyses (preview) wilt inschakelen en configureren, voert u de volgende stappen uit.
 
-1. [Selecteer en configureer de invoegtoepassing Exporteren naar Data Lake](#enableExportToDataLake).
-1. [Een Azure Synapse workspace installeren en configureren](#configureAzureSynapse).
-1. [Voeg geheimen toe aan de sleutelkluis](#addSecrets).
-1. [De invoegtoepassing Commerce-analyses (preview) inschakelen en configureren](#enableCommerceAnalyticsAddin).
-1. [De Power BI-sjabloonapp installeren](#powerbi).
+1. [Het voorbeeld van het ontvangstformulier voor Commerce-analyses (preview) indienen](#joinPreview)
+2. [Selecteer en configureer de invoegtoepassing Exporteren naar Data Lake](#enableExportToDataLake).
+3. [Een Azure Synapse workspace installeren en configureren](#configureAzureSynapse).
+4. [Voeg geheimen toe aan de sleutelkluis](#addSecrets).
+5. [De invoegtoepassing Commerce-analyses (preview) inschakelen en configureren](#enableCommerceAnalyticsAddin).
+6. [De Power BI-sjabloonapp installeren](#powerbi).
+
+### <a name="submit-the-preview-intake-form-for-commerce-analytics-preview"></a><a name="joinPreview"></a>Het voorbeeld van het ontvangstformulier voor Commerce-analyses (preview) indienen
+
+Dien het [voorbeeld van het ontvangstformulier voor Commerce-analyses (preview)](https://forms.office.com/r/vW5VLJGXZ2) in. Nadat uw aanvraag is verwerkt, wordt een bevestigingsbericht per e-mail verzonden naar het e-mailadres dat u hebt opgegeven in het formulier.
 
 ### <a name="enable-and-configure-the-export-to-data-lake-add-in"></a><a name="enableExportToDataLake"></a>De invoegtoepassing Exporteren naar Data Lake inschakelen en configureren
 

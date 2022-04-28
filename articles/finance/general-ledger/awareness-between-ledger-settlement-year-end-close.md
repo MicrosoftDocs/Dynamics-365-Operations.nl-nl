@@ -2,7 +2,7 @@
 title: Bewustzijn tussen grootboekvereffening en jaarafsluiting
 description: Dit onderwerp bevat informatie over verbeteringen die van invloed zijn op grootboekvereffeningen en de jaarafsluiting van het grootboek.
 author: kweekley
-ms.date: 03/18/2022
+ms.date: 04/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: e18f77d73239de23000b5310d9342c6db95bc524
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 13d0a0a11a8f31e4ba647ccc23906f6b137051c2
+ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462347"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8553327"
 ---
 # <a name="awareness-between-ledger-settlement-and-year-end-close"></a>Bewustzijn tussen grootboekvereffening en jaarafsluiting
 
@@ -48,12 +48,16 @@ Ter ondersteuning van de nieuwe verbeteringen zijn wijzigingen aangebracht in gr
 
 Vanwege de wijzigingen in functionaliteit en het gegevensmodel is het belangrijk dat u rekening houdt met de volgende punten voordat u de functie inschakelt:
 
+- Aangezien alleen vereffende transacties in het openingssaldo worden opgenomen, moet u transacties uit het huidige fiscale jaar die worden vereffend met transacties in het vorige fiscale jaar, niet meenemen in de vereffening. De transacties moeten opnieuw worden vereffend voor transacties in het huidige fiscale jaar. Dit kan worden gedaan via een correctiepost in het huidige fiscale jaar. De correctie keert de samengevatte beginsaldi om en compenseert met de gedetailleerde transactie die nodig is om de grootboekposten in het huidige jaar te vereffenen. 
+
+  > [!IMPORTANT]
+  > Als dit niet gebeurt, krijgt u een foutmelding over **onvoldoende saldo** wanneer u de jaarafsluiting voor het huidige fiscale jaar uitvoert. Als het niet mogelijk is om de vereffeningen van de grootboektransacties met hetzelfde fiscale jaar ongedaan te maken en opnieuw te vereffenen, moet u deze functie pas inschakelen als jaarafsluiting is voltooid. Schakel de functie onmiddellijk na voltooiing van de jaarafsluiting in, voordat nieuwe grootboektransacties worden vereffend in het volgende fiscale jaar. 
+  
 - Van alle transacties die zijn gemarkeerd voor vereffening maar nog niet zijn vereffend, wordt de markering automatisch ongedaan gemaakt als de functie wordt ingeschakeld. Om te voorkomen dat werk verloren gaat, vereffent u alle gemarkeerde transacties voordat u de functie inschakelt.
 - In sommige organisaties wordt de jaarafsluiting meerdere keren voor hetzelfde fiscale jaar uitgevoerd. Schakel deze functie niet in als de jaarafsluiting al een keer is uitgevoerd en opnieuw wordt uitgevoerd voor hetzelfde fiscale jaar. De functie moet zijn ingeschakeld voordat u de eerste jaarafsluiting verwerkt of nadat u de laatste jaarafsluiting voor het fiscale jaar hebt verwerkt.
 
   Als u de functie wilt inschakelen, maar de jaarafsluiting al een keer uitgevoerd, moet u de jaarafsluiting terugboeken voordat u de functie kunt inschakelen.
 
-- Aangezien vereffening in meerdere fiscale jaren niet langer is toegestaan, is het raadzaam de functie in te schakelen voordat u met het jaarafsluitingsproces begint. Om vervolgens te zorgen dat de openingssaldi van het volgende fiscale jaar niet worden beïnvloed door eerdere vereffeningen voor meerdere fiscale jaren, moet de openingssaldotransactie worden vereffend voor het fiscale jaar dat wordt afgesloten.
 - Aangezien vereffening voor meerdere hoofdrekeningen niet langer is toegestaan, moet u het rekeningschema of de processen zo nodig aanpassen om ervoor te zorgen dat de grootboekvereffening voor dezelfde hoofdrekening kan worden uitgevoerd.
 - De functie kan niet worden ingeschakeld als de jaarafsluiting voor de openbare sector wordt gebruikt.
 

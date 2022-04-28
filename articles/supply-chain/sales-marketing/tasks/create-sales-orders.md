@@ -2,7 +2,7 @@
 title: Verkooporders maken
 description: Deze procedure laat zien hoe u een verkooporder maakt.
 author: Henrikan
-ms.date: 06/25/2019
+ms.date: 04/06/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5746fa0ab9fd7ef3e288adc88a755324309a27c0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 462f47ab5d85665ed8132e5bfb6dd945c537c1ef
+ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566306"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8551719"
 ---
 # <a name="create-sales-orders"></a>Verkooporders maken
 
@@ -66,5 +66,7 @@ De producten die door uw organisatie worden verkocht, kunnen variëren qua dimen
     
 3. Selecteer **OK**.
 
+## <a name="sales-order-creation-performance-enhancement"></a>Verbetering van prestaties bij maken van verkooporders
+Door de nieuwe functie in toepassing 10.0.26 worden minder extra records gemaakt voor de tabellen **SourcedocumentHeader** en **SourcedocumentLine**. De prestaties worden verbeterd en de opslaggrootte wordt verkleind omdat deze records niet zijn gemaakt. Deze onderliggende tabellen van het brondocumentraamwerk worden op dit moment niet gebruikt voor verkooporders in het product en er zijn geen plannen om ze te gebruiken. Het inschakelen van deze functie wordt beschouwd als een veilige wijziging voor betere prestaties. 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

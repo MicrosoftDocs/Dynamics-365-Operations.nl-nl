@@ -4,7 +4,8 @@ description: Dit onderwerp bevat informatie en koppelingen naar inhoud over on-p
 author: sericks007
 ms.date: 07/01/2021
 ms.topic: article
-ms.prod: ''
+ms.prod: dynamics-365
+ms.service: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,24 +17,24 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 93ed4e81db18cd02c097ff188003569e7bb391c511fd93fcab0961c14029dc96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b57183a0c06f4735757c3c0c8d9e355879585e7a
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712563"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8566034"
 ---
 # <a name="on-premises-deployment-home-page"></a>Startpagina van On-premises implementatie
 
 [!include [banner](../includes/banner.md)]
 
-U kunt Dynamics 365 Finance and Operations (on-premises) implementeren. Wanneer u een on-premises implementatietype kiest, zullen de systeemvereisten, de grootte van de hardware en de functionaliteit verschillen van een cloudimplementatie. Dit onderwerp bevat koppelingen naar inhoud met specifieke informatie over on-premises implementaties.
+U kunt Dynamics 365 Finance + Operations (on-premises) implementeren. Wanneer u een on-premises implementatietype kiest, zullen de systeemvereisten, de grootte van de hardware en de functionaliteit verschillen van een cloudimplementatie. Dit onderwerp bevat koppelingen naar inhoud met specifieke informatie over on-premises implementaties.
 
 ## <a name="get-started"></a>Aan de slag
 - [Overzicht van On-premises implementatie](on-premises-overview.md)
 - [On-premises implementaties plannen en voorbereiden](plan-onprem-deployment.md)
 - [Systeemvereisten voor on-premises implementaties](../../fin-ops/get-started/system-requirements-on-prem.md)
-- [Door Microsoft Dynamics 365 Finance + Operations (on-premises) ondersteunde software](onprem-compatibility.md)
+- [Voor Microsoft Dynamics 365 Finance + Operations (on-premises) ondersteunde software](onprem-compatibility.md)
 - [Vereisten vaststellen voor grootte van de hardware voor on-premises omgevingen](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Finance + Operations (on-premises) aanschaffen](../../fin-ops/get-started/purchase-on-premises.md)
 - [Vergelijking van functies tussen cloud en on-premises](../../fin-ops/get-started/cloud-prem-comparison.md)
@@ -52,7 +53,7 @@ U kunt Dynamics 365 Finance and Operations (on-premises) implementeren. Wanneer 
 - [Configuraties van elektronische aangifte (ER) importeren](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Mogelijkheden voor het genereren, publiceren en afdrukken van documenten in on-premises implementaties](../analytics/printing-capabilities-on-premises.md)
 - [Proxy's voor on-premises omgevingen configureren](onprem-reverseproxy.md)
-- [Technische ondersteuning instellen voor Finance and Operations apps](../lifecycle-services/support-experience.md)
+- [Technische ondersteuning instellen voor Finance and Operations-apps](../lifecycle-services/support-experience.md)
 - [Internetverbinding voor client](../user-interface/client-disconnected.md)
 - [Updates toepassen op on-premises implementaties](apply-updates-on-premises.md)
 - [On-premises omgevingen opnieuw implementeren](redeploy-on-prem.md)
@@ -72,7 +73,7 @@ U kunt Dynamics 365 Finance and Operations (on-premises) implementeren. Wanneer 
 - [Scripts voor het oplossen van problemen in on-premises omgevingen](onprem-tsg-implementations.md)
 - [Certificaatrotatie](certificate-rotation-on-prem.md)
 - [On-premises diagnoses](on-premises-diagnostics.md)
-- [Verwijderde of verouderde functies voor Finance and Operations](../migration-upgrade/deprecated-features.md)
+- [Verwijderde of afgeschafte functies voor Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Lifecycle-beleid voor software en on-premises versies](../migration-upgrade/on-prem-version-update-policy.md)
  
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 50b6f306da1d32b1fd98da68bd997de1f1c23ffb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 996a8b62b59dd27691a1eaa5ed619f94e899e8cf
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570941"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570417"
 ---
 # <a name="manage-voyages"></a>Reizen beheren
 
@@ -66,9 +66,9 @@ In de volgende tabel worden de acties beschreven die op het tabblad **Beheren** 
 | In transit | Werk het veld **Reisstatus** bij naar de status in transit die is ingesteld op de pagina **[Parameters voor Francoprijzen](landed-cost-parameters.md)**. Er is geen verdere logica voor dit proces. Een reis kan ook automatisch worden bijgewerkt naar de status in transit op basis van de instellingen in het [Traceringsbeheercentrum](delivery-information-setup.md).
 | Gereed voor kostprijsberekening | Werk het veld **Reisstatus** bij naar de status Gereed voor kostprijsberekening die is ingesteld op de pagina **[Parameters voor francoprijzen](landed-cost-parameters.md)**. Er kan een kostprijs worden berekend wanneer alle facturen zijn verwerkt (zowel voorraadfacturen als reiskostenfacturen) en de goederen zijn ontvangen. Als de geschatte kosten die aan een reis zijn gekoppeld, niet zijn berekend, treedt er een fout op wanneer u probeert de kostprijsberekening van een reis te verwerken. |
 | Kostprijs berekend | Alle onregelmatigheden in de kostprijsberekening opschonen nadat er een factuur bestaat voor alle inkooporders en reiskosten. Wanneer u deze knop selecteert, wordt het dialoogvenster **Reisupdate - kostprijs berekend** weergegeven. Hier kunt u selecteren of u wilt boeken op de standaard financiële datum of een boekingsdatum wilt opgeven en vervolgens de actie uitvoeren. U kunt de actie zo vaak uitvoeren als u wilt. U kunt ook het dialoogvenster **Reisupdate - kostprijs berekend** gebruiken om een planning in te stellen waarmee de actie als periodieke taak (batchtaak) wordt uitgevoerd. We raden u aan om de actie regelmatig uit te voeren door de actie in te stellen als batchtaak. |
-| Ontvangstlijst boeken | Boek een ontvangstlijst voor alle inkooporderregels in de reis. Als er reizen naar meerdere bedrijven worden gebruikt, wordt er een nieuw dialoogvenster voor het boeken van ontvangstlijsten geopend voor elk bedrijf die moet worden verwerkt in elke rechtspersoon. |
-| Productontvangstbon boeken | Boek een productontvangstbon voor alle inkooporderregels in de reis. Het proces van de productontvangstbon voor de inkooporderregels die aan een reis zijn gekoppeld, wordt alleen gebruikt als de goederen **niet** worden verwerkt via de verwerking van goederen in transit. Als de goederen worden verwerkt via de verwerking van goederen in transit, ontvangt u een foutmelding wanneer u probeert de productontvangstbon voor een inkooporderregel te boeken. Als er reizen naar meerdere bedrijven worden gebruikt, wordt er een nieuw dialoogvenster voor het boeken van afleveringsbewijzen geopend voor elk bedrijf. |
-| Factuur boeken | Boek een factuur voor alle inkooporderregels in de reis. Als de goederen van de reis via de verwerking van goederen in transit worden verwerkt, worden de inkooporderregels gefactureerd voordat het ontvangstproces is uitgevoerd. Wanneer de oorspronkelijke inkooporder wordt gefactureerd, worden de orders voor goederen in transit gemaakt die aan de oorspronkelijke inkooporderregels zijn gekoppeld. Die orders kunnen vervolgens door het magazijn worden ontvangen. Als er zendingen naar meerdere bedrijven worden gebruikt, wordt er een nieuw dialoogvenster voor het boeken van facturen geopend voor elk bedrijf. |
+| Ontvangstlijst boeken | Boek een ontvangstlijst voor alle inkooporderregels in de reis.  |
+| Productontvangstbon boeken | Boek een productontvangstbon voor alle inkooporderregels in de reis. Het proces van de productontvangstbon voor de inkooporderregels die aan een reis zijn gekoppeld, wordt alleen gebruikt als de goederen **niet** worden verwerkt via de verwerking van goederen in transit. Als de goederen worden verwerkt via de verwerking van goederen in transit, ontvangt u een foutmelding wanneer u probeert de productontvangstbon voor een inkooporderregel te boeken.  |
+| Factuur boeken | Boek een factuur voor alle inkooporderregels in de reis. Als de goederen van de reis via de verwerking van goederen in transit worden verwerkt, worden de inkooporderregels gefactureerd voordat het ontvangstproces is uitgevoerd. Wanneer de oorspronkelijke inkooporder wordt gefactureerd, worden de orders voor goederen in transit gemaakt die aan de oorspronkelijke inkooporderregels zijn gekoppeld. Die orders kunnen vervolgens door het magazijn worden ontvangen.  |
 | Verzenden overboekingsorders | Boek een overboekingsorderreis voor alle overboekingsorderregels in de reis. Wanneer deze knop is geselecteerd, zijn er alleen overboekingsorders beschikbaar voor bijwerken. |
 | overboekingsorder ontvangen | Boek een overboekingsorderontvangst voor alle overboekingsorderregels in de reis. |
 | Goederen in transit ontvangen | Ontvang alle orderregels die in transit zijn in de reis. Deze knop is een van de drie opties die beschikbaar zijn voor het ontvangen van goederen in transit op een reis. (De andere twee opties zijn de knop **Ontvangstjournaal maken** die verderop in deze tabel wordt beschreven, en de mobiele app Magazijnbeheer.) Deze optie is de eenvoudigste optie waarmee de goederen in transit in het transitmagazijn en in het definitieve bestemmingsmagazijn worden verwerkt. Als u meer controle wilt hebben over het proces, gebruikt u het ontvangstjournaal of een mobiel apparaat om de ontvangst van goederen te verwerken. |
@@ -84,7 +84,7 @@ In de volgende tabel worden de knoppen beschreven die op het tabblad **Algemeen*
 
 | Knop | Beschrijving |
 |---|---|
-| Ontvangstlijst | Open een lijst met productontvangstbonnen voor alle inkooporderregels in de reis. Als er reizen naar meerdere bedrijven worden gebruikt, wordt er een nieuw dialoogvenster voor het boeken van ontvangstlijsten geopend voor elk bedrijf. Als er geen lijsten met productontvangstbonnen zijn verwerkt, is deze knop niet beschikbaar. |
+| Ontvangstlijst | Open een lijst met productontvangstbonnen voor alle inkooporderregels in de reis.  Als er geen lijsten met productontvangstbonnen zijn verwerkt, is deze knop niet beschikbaar. |
 | Ontvangst van producten | Open de record van de productontvangstbon voor de inkooporderregels die aan de reis zijn gekoppeld, als die record wordt gebruikt. Als er geen productontvangstbonnen zijn verwerkt, is deze knop niet beschikbaar. Het proces van de productontvangstbon wordt niet gebruikt als u de verwerking voor goederen in transit gebruikt. |
 | Artikelontvangst | Open het artikelontvangstjournaal, als het is gebruikt. |
 | Tracering | Open de pagina **Inkomende tracering**, waar u de verwachte aankomstdatum van goederen in een container en een reis kunt bijwerken en vervolgens verwachte leveringsdatums van inkooporderregels kunt bijwerken. |

@@ -2,19 +2,19 @@
 title: Problemen met twee keer wegschrijven oplossen in de toepassingen Finance and Operations
 description: Dit onderwerp bevat informatie over het oplossen van problemen met betrekking tot de module Twee keer wegschrijven in apps voor financiële en bedrijfsactiviteiten.
 author: RamaKrishnamoorthy
-ms.date: 08/10/2021
+ms.date: 04/12/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: db49c6a4555f39800362a5b248f9757b07ee5481
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 58b20e38269922203b54173509e31c5e6f30c25b
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061803"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565961"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Problemen met twee keer wegschrijven oplossen in de toepassingen Finance and Operations
 
@@ -70,6 +70,21 @@ Mogelijk wordt het volgende foutbericht weergegeven wanneer u tabeltoewijzingen 
 Deze fout treedt op wanneer de gekoppelde Dataverse-omgeving niet beschikbaar is.
 
 Maak een ticket voor het gegevensintegratieteam om het probleem op te lossen. Koppel de netwerktracering zodat het gegevensintegratieteam de toewijzingen kan markeren als **Wordt niet uitgevoerd** in de backend.
+
+## <a name="enable-parallel-processing-in-finance-and-operations-apps-to-improve-performance"></a>Parallelle verwerking in apps voor financiën en bedrijfsactiviteiten inschakelen om de prestaties te verbeteren
+
+Het inschakelen van parallelle verwerking kan de tijd beperken die nodig is om gegevens vanuit apps voor financiën en bedrijfsactiviteiten te importeren in apps voor klantbetrokkenheid en Microsoft Dataverse. 
+
+Ga als volgt te werk om parallelle verwerking in apps voor financiën en bedrijfsactiviteiten in te schakelen.
+
+1. Log in bij uw omgeving voor financiën en bedrijfsactiviteiten.
+2. Ga naar **Gegevensbeheer > Raamwerkparameters**.
+3. Selecteer **Entiteitsinstellingen** en **Uitvoeringsparameters voor entiteiten configureren**.
+4. Voeg de parameters voor parallelle verwerking toe:
+    - **Aantal records van importdrempel**: het aantal records dat moet worden uitgevoerd voordat parallelle verwerking wordt ingeschakeld.
+    - **Aantal importtaken**: het aantal threads (taken) dat parallel moet worden uitgevoerd.
+5. Selecteer **Opslaan**.
+
 
 ## <a name="errors-while-trying-to-start-a-table-mapping"></a>Fouten tijdens het starten van een tabeltoewijzing
 

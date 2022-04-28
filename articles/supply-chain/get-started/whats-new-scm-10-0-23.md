@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 83d19f92984c9f67242946aa8faf445d9d2bd881
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 876f5a5f8ebf77a65ba3aa6271a2957b7dc2cb96
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920195"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570473"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.23 (januari 2022)
 
@@ -57,7 +57,7 @@ Als u een van deze functies wilt in- of uitschakelen, moet u dit doen in [functi
 | Inkoopbeheer | Inkooporderhistorie voor update opschonen | Met deze functie kunt u tijdelijke historische records opschonen die zijn gerelateerd aan updates van inkooporders. Hiermee wordt een nieuwe knop met de naam **Inkooporderhistorie voor update opschonen** aan het actievenster toegevoegd op de pagina **Alle inkooporders**. Deze functie is standaard ingeschakeld. |
 | Productiebeheer | (Preview) Automatisch verzamelen van materialen waarvoor magazijn is ingeschakeld voor automatisch geboekte orderverzamellijsten | Met deze functie kunt u voorraaddimensies automatisch verzamelen en oplossen voor automatisch geboekte en terugwaarts afgeboekte orderverzamellijstjournalen. |
 | Productiebeheer | Vervaldatum van grondstoffen valideren tegen geplande verbruiksdatum | Door deze functie wordt de validatie van batchverloopdatums gewijzigd bij het reserveren van een batch grondstoffen die tijdens de productie moet worden gebruikt. Wanneer deze functie is ingeschakeld, wordt de vervaldatum van de batch gevalideerd tegen de geplande verbruiksdatum (de grondstofdatum), zoals is vastgesteld op de productiestuklijstregel of batchorderformuleregel. Als deze functie is uitgeschakeld, wordt de batchvervaldatum gevalideerd tegen de geplande leveringsdatum van de productie- of batchorder (zoals eerder). |
-| Verkoopbeheer en marketing | Verkoophistorie voor update opschonen op basis van ouderdom | Met deze functie kunt u de maximale ouderdom instellen van records die u wilt behouden wanneer de periodieke taak **Opschoning van verkoophistorie voor update** wordt uitgevoerd. Oudere records worden verwijderd. Dit is handig wanneer u de taak zo in stelt dat deze periodiek wordt uitgevoerd, omdat de ouderdom altijd wordt berekend in relatie tot de datum waarop de taak wordt uitgevoerd. Zonder deze functie kunt u alleen een specifieke datum instellen voor de oudste records die u kunt bewaren. |
+| Verkoopbeheer en marketing | Verkoophistorie voor update opschonen op basis van ouderdom | Met deze functie kunt u de maximale ouderdom instellen van records die u wilt behouden wanneer de periodieke taak **Opschoning van verkoophistorie voor update** wordt uitgevoerd. Oudere records worden verwijderd. Dit is handig wanneer u de taak zo in stelt dat deze periodiek wordt uitgevoerd, omdat de ouderdom altijd wordt berekend in relatie tot de datum waarop de taak wordt uitgevoerd. Zonder deze functie kunt u alleen een specifieke datum instellen voor de oudste records die u kunt bewaren. Zie [Opschonen van verkoophistoriegegevens plannen](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) voor meer informatie. |
 | Verkoopbeheer en marketing | Prestaties van rapport 'Top 100 van klanten' verbeteren | Deze functie verbetert de prestaties van het rapport **Top 100**-klanten door altijd het rapport uit te voeren voor alle klanten (wat het bedoelde gebruik is) in plaats van aangepaste query's toe te staan. Wanneer deze functie is ingeschakeld, worden alle **Op te nemen records**-instellingen uitgeschakeld in het rapportdialoogvenster **Top 100**. |
 | Magazijnbeheer | Ondersteuning van de eenheidseenheid voor het vrijgeven naar magazijn van uitgaande orders | Wanneer deze functie is ingeschakeld, kunnen uitgaande orders vanaf de hub direct worden vrijgegeven naar de schaaleenheid, waar de orders zullen worden uitgevoerd. |
 
@@ -79,7 +79,7 @@ De volgende Help-onderwerpen zijn onlangs toegevoegd of ingrijpend bijgewerkt. D
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform updates voor Finance and Operations-apps
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformupdates voor apps voor financiële en bedrijfsactiviteiten
 
 Microsoft Dynamics 365 Supply Chain Management 10.0.23 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.23 van Finance and Operations-apps (november 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
 

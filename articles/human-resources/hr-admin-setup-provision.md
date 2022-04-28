@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0c856bca32c3dee44469c098961d85b4d8cb70a6
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 65891e380f740f4a1fa404d57789a6f50506d3b5
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060409"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565623"
 ---
 # <a name="provision-human-resources"></a>Human Resources inrichten
 
@@ -40,6 +40,10 @@ Voordat u een nieuwe productieomgeving inricht, moet aan de volgende voorwaarden
 
 ## <a name="provision-a-human-resources-trial-environment"></a>Een Human Resources-proefomgeving inrichten
 
+>[!NOTE]
+> Vanaf april 2022 zijn de Human Resources-testomgevingen niet meer beschikbaar in de zelfstandige toepassing. Potentiële klanten die geïnteresseerd zijn in het evalueren van de HR-mogelijkheden in apps voor financiën en bedrijfsactiviteiten, kunnen dit doen met behulp van de gratis proefversie van 30 dagen en de demonstratiegegevens. Dynamics 365 Finance omvat de HR-mogelijkheden van de Finance-infrastructuur dankzij de samenvoeging van de zelfstandige toepassing. Raadpleeg [Merging of HR offerings brings capabilities together for customers](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) voor meer informatie. Raadpleeg de stapsgewijze [handleiding](/fin-ops/get-started/before-you-buy) voor meer informatie over Dynamics 365 Finance-proefversies. 
+
+
 Voordat u uw eerste sandbox- of productieomgeving inricht, kunt u een [Human Resources-proefomgeving](https://go.microsoft.com/fwlink/p/?LinkId=2115962) inrichten om de Human Resources-functionaliteit te valideren. Proefomgevingen bevatten fictieve gegevens die kunnen worden gebruikt om het programma op een veilige manier te verkennen. Hoewel een proefomgeving eigendom is van de gebruiker die hierom heeft verzocht, kunnen andere gebruikers worden uitgenodigd via de systeembeheerervaring voor Human Resources. 
 
 Testomgevingen bieden de mogelijkheid om de functionaliteit Human Resources te beoordelen voor personen die nog geen toegang hebben tot een Human Resources-omgeving. Als u een proefomgeving inricht en de geverifieerde gebruiker al toegang heeft tot een of meer bestaande Human Resources-omgevingen, wordt de gebruiker omgeleid naar de bestaande omgeving of een lijst met omgevingen.
@@ -58,7 +62,7 @@ Voordat u uw eerste Human Resources-omgeving maakt, moet u de omgevingsbehoeften
 Overwegingen voor extra omgevingen:
 
 - **Gegevensmigratie**: mogelijk moet u rekening houden met een extra omgeving voor gegevensmigratieactiviteiten, zodat uw omgeving kan worden gebruikt voor testdoeleinden tijdens het project. Als u een extra omgeving hebt, kunnen activiteiten voor gegevensmigratie worden voortgezet terwijl de test- en configuratieactiviteiten gelijktijdig plaatsvinden in een andere omgeving.
-- **Integratie**: mogelijk moet u rekening houden met een extra omgeving voor het configureren en testen van integraties. Dit kan native integraties omvatten, zoals de Ceridian Dayforce LinkedIn Talent Hub-integraties, of aangepaste integraties, zoals die voor salarisadministratie, volgsystemen voor sollicitanten of vergoedingssystemen en leveranciers.
+- **Integratie**: mogelijk moet u rekening houden met een extra omgeving voor het configureren en testen van integraties. Dit kan native integraties omvatten, zoals de Ceridian Dayforce- of LinkedIn Talent Hub-integraties, of aangepaste integraties, zoals die voor salarisadministratie, volgsystemen voor sollicitanten of vergoedingssystemen en leveranciers.
 - **Training**: u hebt mogelijk een afzonderlijke omgeving nodig die is geconfigureerd met een set trainingsgegevens om uw werknemers te trainen het nieuwe systeem te gebruiken. 
 - **Project met meerdere fasen**: u hebt mogelijk een extra omgeving nodig voor configuratie, gegevensmigratie, testen of andere activiteiten in een projectfase die is gepland na de eerste keer live gaan van het project.
 

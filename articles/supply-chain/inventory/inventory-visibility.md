@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9ee6229937ea27adf231dcd1c9921878e53bd981
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: 9eb8a135d2415c867c746a1c40a80cdb84819c0e
+ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524488"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8547896"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Overzicht van invoegtoepassing Voorraadzichtbaarheid
 
@@ -63,7 +63,7 @@ De ATP-functie is eenvoudig aan te passen aan uw dagelijkse afhandelingsproces v
 
 ### <a name="compatibility-with-advanced-warehouse-management-items"></a>Compatibiliteit met geavanceerde magazijnbeheerartikelen
 
-Microsoft wil kant-en-klare integratie bieden met Advanced Warehouse Management (WHS), zodat WHS-klanten kunnen profiteren van de voordelen van de service voor voorraadzichtbaarheid. Vanaf releasewave 1 voor 2022 (openbare preview in maart) ondersteunt de voorraadservice query's voor voorhanden WHS-voorraadartikelen en ATP. De functie voor zachte reservering en toewijzing wordt in de volgende wave ondersteund voor WHS-klanten. <!-- KFM: Add this link when target is published: For more information, see [Inventory Visibility support for WHS items](inventory-visibility-whs-support.md). -->
+Microsoft wil kant-en-klare integratie bieden met Advanced Warehouse Management (WHS), zodat WHS-klanten kunnen profiteren van de voordelen van de service voor voorraadzichtbaarheid. Vanaf releasewave 1 voor 2022 (openbare preview in maart) ondersteunt de voorraadservice query's voor voorhanden WHS-voorraadartikelen en ATP. De functie voor zachte reservering en toewijzing wordt in de volgende wave ondersteund voor WHS-klanten. Zie [Ondersteuning voor Inventory Visibility voor WHS-artikelen](inventory-visibility-whs-support.md) voor meer informatie.
 
 ## <a name="licensing"></a>Licenties
 

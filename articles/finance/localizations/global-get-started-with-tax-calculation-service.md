@@ -2,7 +2,7 @@
 title: Aan de slag met belastingberekening
 description: In dit onderwerp wordt uitgelegd hoe u belastingberekening instelt.
 author: wangchen
-ms.date: 01/05/2022
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae2c20fe79c2f8fd8d102740441230ae443f16a3
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 61ee15901a091ee733b83c8cbaa5b84801fa8e5d
+ms.sourcegitcommit: 4afd1e0b325d27cd7c4e0d9a198400b038262ac7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952516"
+ms.lasthandoff: 04/09/2022
+ms.locfileid: "8558308"
 ---
 # <a name="get-started-with-tax-calculation"></a>Aan de slag met belastingberekening
 
@@ -36,7 +36,7 @@ De configuratie omvat drie hoofdstappen.
 
 ## <a name="high-level-design"></a>Basisontwerp
 
-### <a name="runtime-design"></a>Runtime-ontwerp
+### <a name="runtime-design"></a><a name="runtime"></a> Runtime-ontwerp
 
 De volgende afbeelding toont het basis-runtime-ontwerp van Belastingberekening. Aangezien Belastingberekening met meerdere Dynamics 365-toepassingen kan worden geïntegreerd, wordt in de afbeelding de integratie met Financiën als voorbeeld gebruikt.
 
@@ -95,6 +95,14 @@ Voordat u de resterende procedures in dit onderwerp kunt voltooien, moet aan de 
 - De volgende functies moeten zijn ingeschakeld in de werkruimte **Functiebeheer** van uw geïmplementeerde RCS-omgeving.
 
     - Globalisatiefuncties
+
+- De volgende rollen moeten naar wens worden toegewezen aan de gebruikers in uw RCS-omgeving:
+
+    - Ontwikkelaar elektronische rapportage
+    - Ontwikkelaar van globaliseringsfunctie
+    - Ontwikkelaar van belastingberekenfunctie
+    - Functioneel consultant belastingberekenfunctie
+    - Ontwikkelaar voor belastingservice
 
 ## <a name="set-up-tax-calculation-in-lcs"></a>Belastingberekening instellen in LCS
 
@@ -201,17 +209,23 @@ De stappen in deze sectie zijn niet gerelateerd aan een specifieke rechtspersoon
     | ---------------- | --------- | ------- | ------------ |
     | Verkopen            | DEU       | DEU     | DEU_Domestic |
     | Verkopen            | DEU       | FRA     | DEU_EU       |
-    | Verkopen            | BEL       | BEL     | BEL_Domestic |
-    | Verkopen            | BEL       | FRA     | BEL_EU       |
+    | Sales            | BEL       | BEL     | BEL_Domestic |
+    | Sales            | BEL       | FRA     | BEL_EU       |
+    
+    > [!NOTE]
+    > Als de standaard btw-groep op uw belastbare documentregels correct is, laat u deze matrix leeg. Zie de sectie [Runtime-ontwerp](#runtime), eerder in dit onderwerp, voor meer informatie.
 
 22. Selecteer op het tabblad **Toepasbaarheid van artikelbelastinggroep** de kolommen die vereist zijn om de juiste belastingcode te bepalen en selecteer vervolgens **Toevoegen**. Voer waarden voor elke kolom in of selecteer deze. Het veld **Artikelbelastinggroep** is de uiteindelijke uitvoer van deze matrix. Als dit tabblad niet is geconfigureerd, wordt de artikel-btw-groep op de transactieregel gebruikt.
 
     Hier volgt een voorbeeld.
 
-    | Artikelcode | Artikelbelastinggroep |
+    | Artikelcode | Belastinggroep voor artikel |
     | --------- | -------------- |
     | D0001     | Vol           |
     | D0003     | Gereduceerd        |
+
+    > [!NOTE]
+    > Als de standaard btw-groep voor artikelen op uw belastbare documentregels correct is, laat u deze matrix leeg. Zie de sectie [Runtime-ontwerp](#runtime), eerder in dit onderwerp, voor meer informatie.
 
     Zie [Logica voor bepaling van btw-groepen en item-btw-groepen](global-sales-tax-group-determination.md) voor meer informatie over de manier waarop belastingcodes worden bepaald in Belastingberekening.
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: abc827139c71f7942335cd2b7e2c7502f7fc1cfe
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 1446928c2f5fe606d1d0732764a2a4460643afcf
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469365"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8548162"
 ---
 # <a name="inventory-forecasts"></a>Voorraadprognoses
 
@@ -39,7 +39,7 @@ Er zijn ook andere manieren om prognoseregels te maken:
 - [Een statistische basislijnprognose genereren](generate-statistical-baseline-forecast.md).
 - [Historische gegevens voor vraagprognoses importeren](import-historical-data.md).
 - [De prognose genereren met behulp van een Microsoft Azure Machine Learning-webservice](demand-forecasting-setup.md).
-- [Vraag- of aanbodprognoseregels importeren met behulp van het gegevensbeheerraamwerk (gegevensentiteiten ForecastDemandForecastEntryStaging en ForecastSupplyForecastEntryStaging)](../../dev-itpro/data-entities/data-entities-data-packages.md).
+- [Vraag- of aanbodprognoseregels importeren met behulp van het gegevensbeheerraamwerk (gegevensentiteiten ForecastDemandForecastEntryStaging en ForecastSupplyForecastEntryStaging)](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).
 
 Zoals de tabel in stap 1 aangeeft, zijn er verschillende manieren om de gebruikte pagina's te openen.
 

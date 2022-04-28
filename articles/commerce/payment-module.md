@@ -2,7 +2,7 @@
 title: Betalingsmodule
 description: In dit onderwerp wordt de betalingsmodule beschreven en uitgelegd hoe u deze configureert in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 01/07/2022
+ms.date: 04/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: de92e137815cb79944a2793fc4841c949ed43346
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: ba95386143ca830aeb1b50b31b4bbd2b54f53a40
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952464"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565724"
 ---
 # <a name="payment-module"></a>Betalingsmodule
 
@@ -74,6 +74,8 @@ In de volgende afbeelding ziet u een voorbeeld van het PayPal-iFrame dat is opge
 | Betalingsstijl overschrijven | Cascading Style Sheets-code (CSS) | Omdat de betalingsmodule wordt gehost in een iFrame, zijn er beperkte opmaakmogelijkheden. U kunt opmaak aanbrengen met behulp van deze eigenschap. Als u sitestijlen wilt overschrijven, plakt u de CSS-code als waarde voor deze eigenschap. Overschrijvingen en stijlen van site builder-CSS zijn niet van toepassing op deze module. |
 |Ondersteunde betalingsmethoden| Tekenreeks| Als er meerdere betalingsconnectors zijn geconfigureerd, moet u de ondersteunde reeks betalingstypes opgeven zoals gedefinieerd in de betalingsconnectorconfiguratie van Commerce Headquarters (zie de volgende afbeelding). Als deze leeg is, wordt standaard de Adyen-betalingsconnector gebruikt. Toegevoegd in Commerce-release 10.0.14.|
 |Is primaire betaling|  **True** of **False** | Indien **Waar**, worden eventuele foutberichten gegenereerd door de primaire betalingsconnector op de uitcheckpagina. Als zowel Adyen- als PayPal-betalingsconnectors zijn geconfigureerd, stelt u Adyen in op **Waar**, die is toegevoegd in Commerce-versie 10.0.14.|
+|Connector-id gebruiken| **True** of **False** | Gebruik deze eigenschap als er meerdere betalingsconnectors zijn geconfigureerd voor de site. Bij **True** moeten de connectors de connector-id voor betalingscorrelatie gebruiken.|
+|De voor de browser ingestelde taalcode voor iFrame gebruiken|  **True** of **False** | (alleen Adyen) Bij **True** wordt in Adyen iFrame de taal weergegeven op basis van de browsercontext van de sitegebruiker in plaats van dat de geconfigureerde taalcode van het Commerce-kanaal voor de site wordt gebruikt. Toegevoegd in Commerce-release 10.0.27.|
 
 In de volgende afbeelding ziet u een voorbeeld van de **Ondersteunde betalingsmethoden** die zijn ingesteld op "PayPal" in de configuratie van betalingsconnector in Commerce Headquarters.
 ![Voorbeeld van ondersteunde betalingsmethoden in Commerce Headquarters.](./media/ecommerce-paymenttendertypes.png)

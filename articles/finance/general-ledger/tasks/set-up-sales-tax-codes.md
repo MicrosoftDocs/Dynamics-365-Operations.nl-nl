@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxTable, TaxData
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2539d701dda4ef5e1484d095b2d86d1f68a0dc98
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 69e2cf9a16fe0e694154cccf9b49944b49c79b90
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562097"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565848"
 ---
 # <a name="set-up-sales-tax-codes"></a>Btw-codes instellen
 
@@ -45,7 +45,7 @@ Bij deze taak wordt het demobedrijf USMF gebruikt.
 12. Sluit de pagina.
 13. Selecteer **Opslaan**.
 
-Als u vanaf Microsoft Dynamics 365 Finance versie 10.0.22 de functie [Belastingservice](../../localizations/global-tax-calcuation-service-overview.md) gebruikt en [**Meerdere btw-registratienummers ondersteunen**](../../localizations/emea-multiple-vat-registration-numbers.md) is ingeschakeld in de werkruimte **Functiebeheer**, kunt u het veld **Type belasting** gebruiken om het type belastingcode op te geven. De volgende waarden zijn beschikbaar:
+Als u vanaf Microsoft Dynamics 365 Finance 10.0.22 de functie [Belastingservice](../../localizations/global-tax-calcuation-service-overview.md) gebruikt en [**Meerdere btw-registratienummers ondersteunen**](../../localizations/emea-multiple-vat-registration-numbers.md) is ingeschakeld in de werkruimte **Functiebeheer**, kunt u het veld **Type belasting** gebruiken om het type belastingcode op te geven. De volgende waarden zijn beschikbaar:
 
 - Standaard-btw
 - Gereduceerde btw

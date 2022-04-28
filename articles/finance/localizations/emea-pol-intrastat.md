@@ -5,16 +5,16 @@ author: andosip
 ms.date: 11/09/2021
 ms.topic: article
 audience: Application User
-ms.reviewer: kfender
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: v-aosipov
+ms.author: kfend
 ms.search.validFrom: ''
-ms.openlocfilehash: 9564892f768adb8f48208fe10b31c7c6392a4567
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: fbacc204208e536291035c6f9bb2ef4fa4038f58
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779902"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8566086"
 ---
 # <a name="polish-intrastat"></a>Poolse Intrastat
 
@@ -269,7 +269,7 @@ Importeer de laatste versie van de volgende ER-configuraties (Elektronische Rapp
 ### <a name="set-up-foreign-trade-parameters"></a>Parameters voor buitenlandse handel instellen
 
 1. Ga naar **Belasting** > **Instellingen** > **Buitenlandse handel** > **Parameters buitenlandse handel**.
-2. Selecteer in het tabblad **Intrastat** in het sneltabblad **Algemeen** in het veld **Transactiecode** de waarde **11**.
+2. Selecteer op het tabblad **Intrastat** op het sneltabblad **Algemeen** in het veld **Transactiecode** de waarde **11**.
 3. Selecteer op het sneltabblad **Elektronische rapportage** in het veld **Toewijzing bestandsindeling** de waarde **Intrastat (PL)**.
 4. Selecteer in het veld **Toewijzing rapportindeling** de waarde **Intrastat-rapport**.
 5. Controleer of op het sneltabblad **Hiërarchie basisproductcodes** in het veld **Categoriehiërarchie** de waarde **Intrastat** is ingesteld.
@@ -394,7 +394,7 @@ Importeer de laatste versie van de volgende ER-configuraties (Elektronische Rapp
 
 10. Selecteer in het actievenster **Uitvoer** > **Rapport**.
 11. Selecteer in het dialoogvenster **Intrastat-rapport** op het sneltabblad **Parameters** in de sectie **Datum** in het veld **Begindatum** de eerste dag van de huidige maand.
-12. Stel in het gedeelte **Exportopties** de optie **Bestand genereren** in op **Ja**. Voer in het veld **Bestandsnaam** vervolgens de vereiste naam in.
+12. Stel in het gedeelte **Exportopties** de optie **Bestand** **genereren** in op **Ja**. Voer in het veld **Bestandsnaam** vervolgens de vereiste naam in.
 13. Stel de optie **Rapport genereren** in op **Ja**. Voer in het veld **Bestandsnaam rapport** vervolgens de vereiste naam in.
 14. Selecteer **Verzendingen** in het veld **Richting**.
 15. Controleer in de sectie **Bestandsindeling toewijzen** of het veld **Aangiftetype** is ingesteld op **Aangifte**.
@@ -866,7 +866,7 @@ Importeer de laatste versie van de volgende ER-configuraties (Elektronische Rapp
     </tr>
     <tr>
     <td colspan="3">
-    <p style="text-align: center;"><strong>Informatie over het document</strong></p>
+    <p align=center><strong>Informatie over het document</strong></p>
     </td>
     </tr>
     <tr>
@@ -1014,7 +1014,7 @@ Importeer de laatste versie van de volgende ER-configuraties (Elektronische Rapp
     </tr>
     <tr>
     <td colspan="3">
-    <p style="text-align: center;"><strong>Informatie over het bedrijf</strong></p>
+    <p align=center><strong>Informatie over het bedrijf</strong></p>
     </td>
     </tr>
     <tr>
@@ -1085,7 +1085,7 @@ Importeer de laatste versie van de volgende ER-configuraties (Elektronische Rapp
     </tr>
     <tr>
     <td colspan="3">
-    <p style="text-align: center;"><strong>Informatie over het goed</strong></p>
+    <p align=center><strong>Informatie over het goed</strong></p>
     </td>
     </tr>
     <tr>
@@ -1211,7 +1211,7 @@ Importeer de laatste versie van de volgende ER-configuraties (Elektronische Rapp
     </tr>
     <tr>
     <td colspan="3">
-    <p style="text-align: center;"><strong>Gegevens contactpersoon</strong></p>
+    <p align=center><strong>Gegevens contactpersoon</strong></p>
     </td>
     </tr>
     <tr>

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 03ed2d52f44bd38910b01ffbd3767f750da2cbf8
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: f0f1830c9f667d617b8aae28e61a8e541b17c77f
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920568"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570320"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management versie 10.0.19 (juni 2021)
 
@@ -50,7 +50,7 @@ In de volgende tabel worden de functieverbeteringen weergegeven die deze versie 
 
 | Module | Functie&nbsp;naam&nbsp;in Functie&nbsp;beheer | Meer informatie |
 |---|---|---|
-| Verkoopbeheer en marketing | Prestatieverbeteringen voor de opschoning van verkoophistorie | Opschoning van verkoophistorie kan veel tijd kosten als dit niet vaak in omgevingen wordt uitgevoerd met veel verkoopupdates. Om de duur te beperken en de betrouwbaarheid te verbeteren, wordt de opschoning opgesplitst in batches die maar een beperkte tijd worden uitgevoerd. Waar mogelijk wordt gebruik gemaakt van databasemogelijkheden om vergrendeling tot een minimum te beperken en samenvoeging van transactietabellen tijdens opschonen te voorkomen. Zie [Prestatieverbeteringen voor de opschoning van verkoophistorie](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) voor meer informatie. |
+| Verkoopbeheer en marketing | Prestatieverbeteringen voor de opschoning van verkoophistorie | Opschoning van verkoophistorie kan veel tijd kosten als dit niet vaak in omgevingen wordt uitgevoerd met veel verkoopupdates. Om de duur te beperken en de betrouwbaarheid te verbeteren, wordt de opschoning opgesplitst in batches die maar een beperkte tijd worden uitgevoerd. Waar mogelijk wordt gebruik gemaakt van databasemogelijkheden om vergrendeling tot een minimum te beperken en samenvoeging van transactietabellen tijdens opschonen te voorkomen. Zie [Opschonen van verkoophistoriegegevens plannen](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) voor meer informatie. |
 | Verkoopbeheer en marketing | Aangevraagde ontvangstdatum bijwerken met bevestigde datum voor intercompany-orders | Met deze functie kunt u bepalen wat er gebeurt met de veldwaarden voor verkoop- en inkoopdatums bij het gebruik van directe intercompany-leveringen. U kunt kiezen of de aangevraagde datums worden bijgewerkt of dat u deze wilt overslaan. Als u de update overslaat, geven de gevraagde datums aan waar de klant om heeft gevraagd. Als u bijwerken inschakelt, geven de aangevraagde datums (wanneer de leveringsdatumcontrole wordt gebruikt) alleen aan wat de klant heeft aangevraagd. Met de leveringsdatumcontrole wordt, wanneer deze verschilt van *Geen*, wat oorspronkelijk is aangevraagd vervangen. U kunt deze optie instellen met de nieuwe instelling **Gevraagde ontvangstdatum bijwerken met bevestigde datum** in de instellingen van de intercompany-leverancier of -klant.<br><br>Als de functie is uitgeschakeld, wordt de aangevraagde ontvangstdatum op de oorspronkelijke verkooporders overschreven op basis van de controleregel voor de leveringsdatum, maar blijft de aangevraagde verzenddatum ongewijzigd. |
 | Magazijnbeheer | Hoeveelheden afronden naar dichtstbijzijnde verkoopeenheid bij vrijgave aan magazijn | Met deze functie wordt een optie toegevoegd waarmee u orderhoeveelheden bij vrijgave aan het magazijn kunt beperken. Wanneer deze functie is ingeschakeld, worden orderhoeveelheden naar beneden afgerond naar de dichtstbijzijnde hele verkoopeenheid en worden orders met hoeveelheden van minder dan één verkoopeenheid afgewezen voor vrijgave. |
 | Magazijnbeheer | Wavemethode Werk maken plannen in de hele organisatie | Bij inschakeling van deze functie wordt de wavemethode *Werk maken plannen* geconfigureerd om parallel te worden uitgevoerd voor alle rechtspersonen. Er wordt ook een aantal extra instellingen beïnvloed. Zie [Het maken van werk plannen tijdens wave](../warehousing/configure-wave-schedule-work-creation.md) voor de volledige details. |
@@ -70,9 +70,9 @@ De volgende Help-onderwerpen zijn onlangs toegevoegd of ingrijpend bijgewerkt. Z
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform updates voor Finance and Operations-apps
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformupdates voor apps voor financiële en bedrijfsactiviteiten
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.19 bevat platform updates. Zie [Platformupdates voor versie 10.0.19 van Finance and Operations-apps (juni 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md) voor meer informatie.
+Microsoft Dynamics 365 Supply Chain Management 10.0.19 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.19 van apps voor financiële en bedrijfsactiviteiten (juni 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
 
 ### <a name="bug-fixes"></a>Correcties
 

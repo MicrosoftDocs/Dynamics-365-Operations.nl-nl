@@ -2,25 +2,25 @@
 title: Leaserapporten voor activa
 description: In dit onderwerp vindt u een beknopt overzicht van de rapporten die beschikbaar zijn voor de leasing van activa.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 04/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7044378a66ed9ff952f4579d375d59576fe09294fc158c000ab28a93f4173421
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb1c994fee6efff82dd1cba1e71c6af49b384208
+ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739402"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8550034"
 ---
 # <a name="asset-leasing-reports"></a>Leaserapporten voor activa
 
@@ -37,7 +37,7 @@ Het rapport Activamutaties dient als voortschrijdend prognoserapport voor de sal
 |     Rapportvelden                  |     Beschrijving                                                                |
 |------------------------------------|--------------------------------------------------------------------------------|
 |     Begindatum              |     De begindatum van de oudste versie van de lease.                     |   
-|     Leasetermijn                     |     De leasetermijn van de oudste versie van de lease.                            |
+|     Leasetermijn                     |     De huidige versie van de leasetermijn.                            |
 |     Kortlopende lease               |     Als de lease is geclassificeerd als een lease voor een korte termijn, wordt dit weergegeven als **Ja**.         |
 |     Lease met geringe waarde                |     Als de lease is geclassificeerd als een lease met geringe waarde, wordt dit weergegeven als **Ja**.          |
 |     Initieel activum met gebruiksrecht     |     De oorspronkelijke waarde van het activum met gebruiksrecht uit de eerste journaalpost voor toerekening.      |

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 2b39eef816aaa383f0f8cbf1b2c308a6eafebd8f
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: 996988b1a4d59ae9ad7b4031e492824c0a6abc95
+ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524432"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8547868"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10026-may-2022"></a>Preview van Dynamics 365 Supply Chain Management 10.0.26 (mei 2022)
 
@@ -34,7 +34,7 @@ De volgende tabel vermeldt de functies die deze versie bevat. Mogelijk wordt dit
 
 | Functiegebied | Functie | Meer informatie | Ingeschakeld door   |
 |---|---|---|---|
-| Voorraad en logistiek | [Query voor Voorraadzichtbaarheid om geavanceerde magazijnbeheerartikelen te ondersteunen](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | Binnenkort beschikbaar | Functiebeheer:<br>*Magazijnartikelen inschakelen voor Voorraadzichtbaarheid* |
+| Voorraad en logistiek | [Query voor Voorraadzichtbaarheid om geavanceerde magazijnbeheerartikelen te ondersteunen](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [Ondersteuning voor Inventory Visibility voor WHS-artikelen](../inventory/inventory-visibility-whs-support.md) | Functiebeheer:<br>*Magazijnartikelen inschakelen voor Voorraadzichtbaarheid* |
 | Voorraad en logistiek | [Available to promise voor de invoegvoeging Voorraadzichtbaarheid](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [Planningen van wijzigingen in voorhanden hoeveelheid en available to promise in Voorraadzichtbaarheid](../inventory/inventory-visibility-available-to-promise.md) | Ingeschakeld door serviceconfiguratie |
 | Productie | [Catch weight-artikelen voor de uitvoeringsinterface voor de werkvloer](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken](../production-control/production-floor-execution-use.md) | Functiebeheer:<br>*(Preview) Rapport over catch weight-artikelen uit de uitvoeringsinterface van de productievloer* |
 | Productie | Het tabblad Mijn taken in de uitvoeringsinterface voor de werkvloer <!-- KFM: Add link to release plan when available --> | [Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken](../production-control/production-floor-execution-use.md) | Functiebeheer:<br>*Het tabblad Mijn taken in de uitvoeringsinterface voor de werkvloer* |
@@ -51,7 +51,7 @@ Als u een van deze functies wilt in- of uitschakelen, moet u dat doen in [Functi
 | Inkoopbeheer | Traceringsdimensies synchroniseren op intercompany-verkoop- en inkooporderregels | Met deze functie kunt u bepalen of de traceringsdimensies voor serie- en batchnummers worden gesynchroniseerd tussen intercompany-verkooporderregels en -inkooporderregels. Er worden nieuwe instellingen toegevoegd aan zowel het **inkooporderbeleid** als het tabblad **Verkooporderbeleid** van de pagina **Intercompany-instelling** voor klanten en leveranciers. Ook worden de namen van enkele verwante, dichtbijliggende instellingen voor de duidelijkheid bijgewerkt.<br><br>Als u geavanceerd magazijnbeheer (WMS) gebruikt, moet u er rekening mee houden dat alleen batch- en serienummers worden gesynchroniseerd wanneer deze dimensies zich boven de locatie in de reserveringshiërarchie van de doelbestemming bevinden. |
 | Productgegevensbeheer | Waarden van productkenmerk opschonen | Met deze functie wordt een periodieke taak toegevoegd met de naam **Productkenmerkwaarden opschonen**, waarmee waarderecords worden opgeschoond van productkenmerken die niet meer aan een product zijn gekoppeld via een productcategorie. |
 | Voorraad- en magazijnbeheer | (Rusland) Afwijkingen voorkomen bij het uitgeven van GTD's voor inkooporders die artikelen bevatten die zijn ingeschakeld voor WMS | Deze functie is alleen beschikbaar voor Russische lokalisatie. Hiermee worden discrepanties voorkomen die optreden bij het uitgeven van Russische GTD's (douaneaangiftenummers) voor inkooporders voor import die artikelen bevatten die zijn ingeschakeld voor geavanceerde magazijnen (WMS). Door het GTD-uitgifteproces worden sommige voorraaddimensiewaarden in de gerelateerde voorraadtransacties gewijzigd voor facturen in het aangepaste journaal, wat resulteert in verschillen tussen de werkrecords voor de inkooporder en de voorraadtransacties voor de inkoop. Wanneer deze functie is ingeschakeld, genereert het GTD-uitgifteproces correctiewerk waardoor dergelijke verschillen worden verwijderd. |
-| Magazijnbeheer | Verbeterde parser voor GS1-streepjescodes | Deze functie voegt een verbeterde parser toe voor GS1-symboolgegevens. De nieuwe parser implementeert het GS1 General Specification-algoritme voor het parseren van GS1-symbolen en zorgt voor een betere gegevensvalidatie. |
+| Magazijnbeheer | Verbeterde parser voor GS1-streepjescodes | Deze functie voegt een verbeterde parser toe voor GS1-symboolgegevens. De nieuwe parser implementeert het GS1 General Specification-algoritme voor het parseren van GS1-symbolen en zorgt voor een betere gegevensvalidatie. Zie [GS1-streepjescodes scannen](../warehousing/gs1-barcodes.md) voor meer informatie. |
 | Magazijnbeheer | Nieuwe workbenchpagina's voor ladingplanning | Hiermee worden twee nieuwe workbenchpagina's voor ladingplanning toegevoegd: **Workbench voor binnenkomende ladingplanning** en **Workbench voor uitgaande ladingplanning**. |
 | Magazijnbeheer | Magazijnbeheertoepassing - lege GTD | Deze functie is alleen beschikbaar voor Russische lokalisatie. Met deze functie kunnen werknemers die de mobiele app Warehouse Management gebruiken, de Russische GTD's (douaneaangiftenummers) zo nodig leeg laten. Als de GTD-traceringsdimensie zo is ingesteld dat lege waarden zijn toegestaan, accepteert het systeem lege waarden voor GTD voor voorraadbewerkingen als voorhanden voorraad beschikbaar is. |
 
@@ -68,7 +68,7 @@ De volgende Help-onderwerpen zijn onlangs toegevoegd of ingrijpend bijgewerkt. D
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformupdates voor apps voor financiële en bedrijfsactiviteiten
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.26 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.26 van apps voor financiële en bedrijfsactiviteiten (mei 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-26.md).<!-- KFM Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.26 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.26 van apps voor financiële en bedrijfsactiviteiten (mei 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-26.md).
 
 ### <a name="bug-fixes"></a>Correcties
 

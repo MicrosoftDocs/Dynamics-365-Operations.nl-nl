@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a254e20dd7fcc29ca520282b4bf9fcd903e4de58
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: a8f0dc5c7498d04230e5e7356979e08ee3a86052
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087545"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570277"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.24 (februari 2022)
 
@@ -63,7 +63,7 @@ De volgende Help-onderwerpen zijn onlangs toegevoegd of ingrijpend bijgewerkt. D
 | Hoofdplanning | [Het veiligheidsvoorraadjournaal gebruiken om de minimumbehoefteplanning voor artikelen bij te werken](../master-planning/safety-stock-journal.md) |
 | Productiebeheer | [De uitvoeringsinterface voor de productievloer aanpassen](../production-control/production-floor-execution-customize.md) |
 | Productiebeheer | [De uitvoeringsinterface voor de werkvloer ontwerpen](../production-control/production-floor-execution-styles.md) |
-| Verkoopbeheer en marketing | [Prestatieverbeteringen bij opschonen van verkoophistorie](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
+| Verkoopbeheer en marketing | [Opschonen van verkoophistoriegegevens plannen](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
 | Magazijnbeheer | [Gebruikersaccounts voor mobiele apparaten](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>Aanvullende bronnen

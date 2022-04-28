@@ -2,7 +2,7 @@
 title: Technische versies van en categorieën voor technische producten
 description: Dit onderwerp bevat informatie over het concept van technische versies. Technische versies zorgen ervoor dat de verschillende statussen van een product en de bijbehorende gegevens actueel en duidelijk blijven en dat ze in het systeem kunnen worden gevisualiseerd.
 author: t-benebo
-ms.date: 09/28/2020
+ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 42faa9e5f073d718c18422e37212c2ae8a28b28d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a4d057c603e6592e491af7597e50fce2497860ec
+ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572884"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8553357"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Technische versies van en categorieën voor technische producten
 
@@ -137,7 +137,7 @@ Stel de volgende velden in voor elke rij die u toevoegt aan het raster.
 |---|---|
 | Naam | Het kenmerk selecteren om toe te voegen. |
 | Waarde | De standaardwaarde voor het kenmerk selecteren. |
-| Verplicht | Voor kenmerken van het type *Booleaans* moeten gebruikers het kenmerk instellen op *Ja* als deze optie is ingesteld op *Ja*. Als deze optie is ingesteld op *Nee*, kunnen gebruikers het kenmerk instellen op *Ja* of *Nee*. Voor andere gegevenstypen is de instelling van deze optie alleen informatief. |
+| Verplicht | Geef op of het kenmerk verplicht is. Dit betekent dat gebruikers een geldige waarde voor het kenmerk moeten opgeven voordat ze een product kunnen opslaan. Het effect van deze instelling kan enigszins verschillen, afhankelijk van het gegevenstype van het geselecteerde kenmerk, zoals gedefinieerd in de volgende lijst.<ul><li>**Booleaans**: stel dit in op *Ja* als u wilt dat het kenmerk de waarde *Ja* heeft (het systeem weigert een product op te slaan waarvoor het kenmerk is ingesteld op *Nee*). Stel *Nee* in als u zowel *Ja* als *Nee* wilt accepteren. (Kenmerken van het type *Booleaans* kunnen geen lege waarde hebben.)</li><li>**Geheel getal of decimaal**: stel deze waarde in op *Ja* als gebruikers een niet-nulwaarde moeten invoeren voor dit kenmerk. Stel *Nee* in als u wilt toestaan dat gebruikers met een waarde van nul kunnen opslaan.  (Kenmerken van deze typen kunnen geen lege waarde hebben.)</li><li>**Lijst**: lijsten hebben het gegevenstype *Tekst*, maar bevatten ook een vooraf gedefinieerde lijst met mogelijke waarden. Het is daarom niet mogelijk om een lege waarde in te voeren voor kenmerken van dit type, waardoor deze instelling geen effect heeft en alleen informatief is.</li><li>**Alle andere gegevenstypen**: stel dit in op *Ja* om het kenmerk verplicht te maken. Stel dit in op *Nee* om het gebruikers toe te staan een product op te slaan zonder een waarde op te geven voor dit kenmerk.</li></ul> |
 | Batchkenmerk | Selecteren of het kenmerk moet worden doorgegeven via de batchfunctie. |
 
 ### <a name="readiness-policy-fasttab"></a>Het sneltabblad Gereedheidsbeleid

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 197a5b983b307758425b1acc1f354d0a8bfbf8a1
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 94038b0eb412632c348081bbf467f44310d9e955
+ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371582"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "8603020"
 ---
 # <a name="create-a-globalization-feature"></a>Een globaliseringsfunctie maken
 
@@ -47,7 +47,7 @@ Voer de volgende stappen uit om een functie voor elektronische facturering te ma
 8. Blader in het raster **Configuraties** naar de indelingsconfiguraties die nodig zijn voor de verwerkingspijplijn (bijvoorbeeld om elektronische factuurbestanden of procesreacties van externe webservices) te genereren.
 9. Selecteer **OK**. U kunt de configuraties nu gebruiken in acties van de verwerkingspijplijn. Raadpleeg [Werken met configuraties](e-invoicing-work-configurations.md) voor meer informatie.
 10. Als u instellingen voor een elektronische factureringsfunctie wilt toevoegen, maakt u deze op het tabblad **Instellingen** van de pagina **Nieuwe functie**. Raadpleeg [Werken met functie-instellingen](e-invoicing-feature-setup.md) voor meer informatie.
-11. Voltooi het instellen en implementeer de functie voor elektronische facturering in de serviceomgeving. Zie [Een globaliseringsfunctie voltooien, publiceren en implementeren](e-invoicing-complete-publish-deploy-globalization-feature) voor meer informatie.
+11. Voltooi het instellen en implementeer de functie voor elektronische facturering in de serviceomgeving. Zie [Een globaliseringsfunctie voltooien, publiceren en implementeren](e-invoicing-complete-publish-deploy-globalization-feature.md) voor meer informatie.
 
 ### <a name="create-file-format-configurations-that-are-derived-from-the-existing-invoice-model"></a>Bestandsindelingsconfiguraties maken die zijn afgeleid van het bestaande factuurmodel
 
@@ -91,4 +91,4 @@ De nieuwe configuraties van de bestandsindeling moeten worden gedeeld met het Mi
     - Bekijk de configuraties voor het geval u de ER-indelingen (Elektronische rapportage) en hun binding met indelingstoewijzingen voor de functieversie moet aanpassen.
     - Controleer de instellingen voor het geval u het tabblad **Acties**, **Toepasbaarheidregels** of **Variabelen** voor de functieversie moet aanpassen.
 
-9. Voltooi het instellen en implementeer de functie voor elektronische facturering in de serviceomgeving. Zie [Een globaliseringsfunctie voltooien, publiceren en implementeren](e-invoicing-complete-publish-deploy-globalization-feature) voor meer informatie.
+9. Voltooi het instellen en implementeer de functie voor elektronische facturering in de serviceomgeving. Zie [Een globaliseringsfunctie voltooien, publiceren en implementeren](e-invoicing-complete-publish-deploy-globalization-feature.md) voor meer informatie.

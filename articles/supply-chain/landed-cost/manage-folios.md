@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5b84237844ec1d8f6c0716a0a13b05c83b358901
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d414ed7ac55afbbc58b8f5542c713f56392f9bc7
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575771"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570431"
 ---
 # <a name="manage-folios"></a>Folio's beheren
 
 [!include [banner](../../includes/banner.md)]
 
-Een folio wordt vaak bepaald door douanevoorschriften. De folio kan bestaan uit goederen van één leverancier voor één entiteit of bedrijf per zending. De goederen in een folio kunnen zich in één container bevinden of zijn verdeeld over meerdere containers.
+Een folio wordt vaak bepaald door douanevoorschriften. De folio kan bestaan uit goederen van één leverancier voor één entiteit of bedrijf per zending. De goederen in een folio worden beheerd in één container.
 
 U opent de pagina **Alle folio's** door naar **Francoprijzen \> Folio's \> Alle folio's** te gaan. Op deze pagina wordt een lijst met alle huidige folio's weergegeven. U kunt de knoppen in het actievenster gebruiken om folio's te maken, te verwijderen en met folio's te werken. Selecteer een folio in de lijst om de details weer te geven op de pagina **Folio's**.
 

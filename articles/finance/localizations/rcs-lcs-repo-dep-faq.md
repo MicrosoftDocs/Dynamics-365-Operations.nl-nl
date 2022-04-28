@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 68f1ed6a6d6bb0d15a81539da7f483ad71a4d696
-ms.sourcegitcommit: 477efa4cb138f41d4f68bcd82552af3473bcc3d9
+ms.openlocfilehash: 8862f42f3ceaed7e1413c49cf9b91f0449fab67b
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7715225"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8547977"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Afschaffing van Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) Storage
 
@@ -29,8 +29,8 @@ ms.locfileid: "7715225"
 Het gebruik van Microsoft Dynamics Lifecycle Services (LCS) als een opslagplaats voor ER-configuraties (Electronic Reporting) wordt afgeschaft. Bij deze afschaffing worden de volgende wijzigingen aangebracht:
 
 - Door Microsoft geproduceerde configuraties die in Microsoft Dynamics 365-toepassingen worden gebruikt, worden niet meer gepubliceerd naar de bibliotheek voor gedeelde activa in LCS. In plaats daarvan worden ze alleen gepubliceerd via de algemene opslagplaats voor RCS. Configuraties voor Dynamics AX 2012 worden echter wel gepubliceerd in de bibliotheek voor gedeelde activa in LCS totdat de ondersteuningslevenscyclus voor AX 2012 eindigt.
-- De functionaliteit waarmee u configuraties kunt uploaden naar de projectactivabibliotheek in LCS vanuit Finance and Operations-apps en vanuit RCS, wordt gedeactiveerd. U kunt echter wel de browser in LCS blijven gebruiken om configuraties naar de projectactivabibliotheek te uploaden. Het is dus nog steeds mogelijk om configuraties aan LCS toe te voegen, zodat deze in oplossingspakketten kunnen worden opgenomen.
-- Het importeren van configuraties vanuit LCS blijft beschikbaar en wordt enige tijd ondersteund in Finance and Operations-apps en in RCS. De functionaliteit wordt uiteindelijk echter afgeschaft. (De exacte afschaffingsdatum wordt later bekendgemaakt.)
+- De functionaliteit waarmee u configuraties kunt uploaden naar de projectactivabibliotheek in LCS vanuit apps voor financiën en bedrijfsactiviteiten en vanuit RCS, wordt gedeactiveerd. U kunt echter wel de browser in LCS blijven gebruiken om configuraties naar de projectactivabibliotheek te uploaden. Het is dus nog steeds mogelijk om configuraties aan LCS toe te voegen, zodat deze in oplossingspakketten kunnen worden opgenomen.
+- Het importeren van configuraties vanuit LCS blijft beschikbaar en wordt enige tijd ondersteund in apps voor financiën en bedrijfsactiviteiten en in RCS. De functionaliteit wordt uiteindelijk echter afgeschaft. (De exacte afschaffingsdatum wordt later bekendgemaakt.)
 
 ## <a name="deprecation-notice"></a>Bericht over afschaffing
 
@@ -52,7 +52,7 @@ Importeer alle vereiste configuraties van LCS naar RCS en publiceer deze vervolg
 
 1. Als er nog geen RFS-exemplaar beschikbaar is, richt u er een in. Zie [RCS-overzicht](rcs-overview.md) voor meer informatie.
 2. Registreer in het ingerichte RCS-exemplaar voor elk LCS-project in de activabibliotheek met afgeleide ER-configuraties, de juiste LCS-opslagplaats.
-3. Importeer de ER-configuraties vanuit de LCS-opslagplaatsen naar RCS. Zie [Configuraties importeren vanuit LCS](../../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md) voor meer informatie.
+3. Importeer de ER-configuraties vanuit de LCS-opslagplaatsen naar RCS. Zie [Configuraties importeren vanuit LCS](/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services) voor meer informatie.
 4. Als de algemene opslagplaats niet automatisch is opgegeven, registreert u deze in RCS.
 5. Upload alle afgeleide configuraties van het huidige RCS-exemplaar naar de algemene opslagplaats. Gebruik de functie **Configuratiepakketten** om te helpen bij het uploaden. Zie [Algemene RCS-opslagplaats uploaden](rcs-global-repo-upload.md) voor meer informatie.
 
@@ -73,7 +73,7 @@ Gebruik de algemene opslagplaats voor de volgende doeleinden:
 
 ### <a name="does-this-change-mean-that-lcs-cant-be-used-as-central-storage-for-configurations"></a>Betekent deze wijziging dat LCS niet kan worden gebruikt als centrale opslag voor configuraties?
 
-Ja. De functionaliteit waarmee u configuraties kunt uploaden naar de projectactivabibliotheek in LCS vanuit Finance and Operations-apps, wordt gedeactiveerd. U kunt echter desgewenst de browser in LCS blijven gebruiken om configuraties naar de projectactivabibliotheek te uploaden.
+Ja. De functionaliteit waarmee u configuraties kunt uploaden naar de projectactivabibliotheek in LCS vanuit apps voor financiën en bedrijfsactiviteiten, wordt gedeactiveerd. U kunt echter desgewenst de browser in LCS blijven gebruiken om configuraties naar de projectactivabibliotheek te uploaden.
 
 ### <a name="i-thought-that-rcs-was-a-replacement-repository-for-importing-global-template-files-i-didnt-think-that-its-used-to-store-configurations-which-is-correct"></a>Ik had het idee dat RFS een vervangingsopslagplaats was voor het importeren van algemene sjabloonbestanden. En niet dat RFS wordt gebruikt om configuraties op te slaan. Wat is juist?
 
@@ -81,7 +81,7 @@ RCS is een ontwerpservice voor het maken en bewerken van ER-configuraties. RCS h
 
 ### <a name="without-lcs-what-is-the-suggested-way-to-store-configurations-so-that-test-and-production-configurations-can-easily-be-managed-and-transferred"></a>Wat is zonder LCS de voorgestelde manier om configuraties op te slaan zodat configuraties voor "test" en "productie" eenvoudig kunnen worden beheerd en overgedragen?
 
-Voor RCS wordt het concept van een *verbonden toepassing* gebruikt. Een verbonden toepassing vormt een verbinding tussen RCS en elk exemplaar van Finance and Operations-apps. Omdat RCS kan worden gebruikt voor het bewerken van configuraties, kan de verbonden toepassing worden gebruikt om de configuraties rechtstreeks van de ontwerper naar omgevingen voor Finance and Operations-apps te pushen. Hierdoor kunt u de configuraties snel wijzigen en testen in plaats van dat u de LCS-opslag op projectniveau moet doorlopen.
+Voor RCS wordt het concept van een *verbonden toepassing* gebruikt. Een verbonden toepassing vormt een verbinding tussen RCS en elk exemplaar van apps voor financiën en bedrijfsactiviteiten. Omdat RCS kan worden gebruikt voor het bewerken van configuraties, kan de verbonden toepassing worden gebruikt om de configuraties rechtstreeks van de ontwerper naar omgevingen voor apps voor financiën en bedrijfsactiviteiten te pushen. Hierdoor kunt u de configuraties snel wijzigen en testen in plaats van dat u de LCS-opslag op projectniveau moet doorlopen.
 
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>Zijn er voorbeelden waarin de instellingen en het beheer worden getoond?
 
@@ -104,4 +104,4 @@ Zie [Overzicht van Dynamics-globalisatieservices](globalization-services-overvie
 
 ### <a name="whats-the-cost-of-using-rcs"></a>Wat zijn de kosten voor het gebruik van RCS?
 
-RCS en de algemene opslagplaats worden gratis geleverd als onderdeel van bestaande Finance and Operations-applicenties. Er zijn geen aparte kosten verbonden aan het gebruik van de ontwerpservice van RCS of het opslaan van configuraties in de algemene opslagplaats. Er is momenteel geen limiet voor het aantal configuraties of gekoppelde toepassingen.
+RCS en de algemene opslagplaats worden gratis geleverd als onderdeel van bestaande licenties voor apps voor financiën en bedrijfsactiviteiten. Er zijn geen aparte kosten verbonden aan het gebruik van de ontwerpservice van RCS of het opslaan van configuraties in de algemene opslagplaats. Er is momenteel geen limiet voor het aantal configuraties of gekoppelde toepassingen.

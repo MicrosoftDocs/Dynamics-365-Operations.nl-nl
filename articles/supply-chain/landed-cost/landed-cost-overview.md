@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e4861c0e8b3680f3cd3229facf059b671a4fc765
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 90410585f314aa9f17f2c132afb6568307fb28ab
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983412"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570376"
 ---
 # <a name="landed-cost-module"></a>De module Francoprijzen
 
@@ -39,7 +39,7 @@ Francoprijzen biedt nauwkeurige en tijdige kostenramingen voor overhead van fran
 
 ### <a name="voyages"></a>Reizen
 
-In Francoprijzen is een reis een afzonderlijke verplaatsing van een uitgaande locatie, via een specifieke reeks bestemmingen gedurende een bepaalde periode, naar een opgegeven locatie van een magazijn voor inkomende goederen. Inkooporders en orderregels kunnen voor een reis worden toegevoegd aan één container of aan meerdere containers en de kosten worden weer correct toegewezen aan de artikelregel. Orders en orderregels kunnen ook worden toegevoegd aan rechtspersonen voor één reis.
+In Francoprijzen is een reis een afzonderlijke verplaatsing van een uitgaande locatie, via een specifieke reeks bestemmingen gedurende een bepaalde periode, naar een opgegeven locatie van een magazijn voor inkomende goederen. Inkooporders en orderregels kunnen voor een reis worden toegevoegd aan één container of aan meerdere containers en de kosten worden weer correct toegewezen aan de artikelregel. 
 
 ### <a name="item-ownership"></a>Artikeleigendom
 

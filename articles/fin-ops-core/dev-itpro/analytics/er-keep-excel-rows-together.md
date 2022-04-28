@@ -15,18 +15,17 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-03-01
 ms.dyn365.ops.version: Version 10.0.26
-ms.openlocfilehash: 711681ab38fb24b57a83f008f86a8261176aa5a5
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 06782a4933fb5c3e86ad436b853f207fd3d5cddb
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388585"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612342"
 ---
 # <a name="design-an-er-format-to-keep-rows-together-on-the-same-excel-page"></a>Een ER-indeling ontwerpen om rijen bij elkaar te houden op dezelfde Excel-pagina
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe een gebruiker in de rol Systeembeheerder of Functioneel consultant een [ER](general-electronic-reporting.md)-[indeling](er-overview-components.md#format-component) (Electronic Reporting) kan configureren om uitgaande documenten te genereren in Microsoft Excel en paginering van documenten te beheren zodat de rijen op dezelfde pagina blijven.
 

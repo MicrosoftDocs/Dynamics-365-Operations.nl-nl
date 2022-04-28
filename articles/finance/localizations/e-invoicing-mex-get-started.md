@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
-ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
+ms.openlocfilehash: 6fc8a9eaf6c6e4c82719e7c1ebccd4272548e73f
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "7986353"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565994"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Aan de slag met Elektronische facturering voor Mexico
 
@@ -141,7 +141,7 @@ Voor het indienen van een annulering van een CFDI-factuur, moet u de functie **A
 1. Selecteer op de pagina **Instellingen functieversie** op het tabblad **Variabelen** de variabelenaam **DigitalSignatureXSLT**.
 2. Voer in het veld **Waarden** het volgende in: {"containerUrl":"https://&lt;AccountStorageName&gt;.blob.core.windows.net/&lt;ContainerName&gt;","pad":"&lt;RelativePath&gt;"}
    
-    waarbij: <RelativePath> = map\\map\\bestandsnaam met dubbele backslashes en ContainerName de container moet aanduiden die voor de service wordt gebruikt.
+    waarbij: \<RelativePath\> = map\\map\\bestandsnaam met dubbele backslashes en ContainerName de container moet aanduiden die voor de service wordt gebruikt.
    
     Een voorbeeld van de variabele is:
     

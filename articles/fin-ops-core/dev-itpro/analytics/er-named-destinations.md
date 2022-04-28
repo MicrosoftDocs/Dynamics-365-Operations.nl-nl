@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1e06fafe8d8bbe92ddf4fcd94d7271a1fbb6362a
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
+ms.openlocfilehash: 4cd99b1d2c0dbbf48e7eee7e1233e3b078d14ba3
+ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413587"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "8603049"
 ---
 # <a name="configure-print-management-record-specific-er-destinations"></a>Recordspecifieke ER-bestemmingen voor afdrukbeheer configureren
 
@@ -35,7 +35,7 @@ De procedures kunnen in het USMF-bedrijf worden uitgevoerd. U hoeft hiervoor gee
 
 ## <a name="introduction"></a>Inleiding
 
-U kunt [bestemmingen](electronic-reporting-destinations.md) configureren voor elke map in de bestandsuitvoercomponent van een ER[-indelings](general-electronic-reporting.md#FormatComponentOutbound)[configuratie](general-electronic-reporting.md#Configuration) die wordt gebruikt voor het genereren van uitgaande documenten. Indien u een ER-indeling van dit type uitvoert en als u over de juiste toegangsrechten beschikt, kunt u ook de geconfigureerde bestemmingsinstellingen wijzigen tijdens runtime.
+U kunt [bestemmingen](electronic-reporting-destinations.md) configureren voor elke map in de bestandsuitvoercomponent van een ER[-indelings](general-electronic-reporting.md)[configuratie](general-electronic-reporting.md#Configuration) die wordt gebruikt voor het genereren van uitgaande documenten. Indien u een ER-indeling van dit type uitvoert en als u over de juiste toegangsrechten beschikt, kunt u ook de geconfigureerde bestemmingsinstellingen wijzigen tijdens runtime.
 
 In Microsoft Dynamics 365 Finance **versie 10.0.17 en hoger** kan een actiecode worden [ingesteld](er-apis-app10-0-17.md) voor een ER-indeling waarin een actie is vastgelegd die gebruikers uitvoeren door die ER-indeling uit te voeren. In de module **Debiteuren** kunt u bijvoorbeeld in de afdrukbeheerinstellingen een ER-indeling selecteren om een specifiek bedrijfsdocument te genereren, zoals een factuur met vrije tekst. U kunt vervolgens **Weergeven** selecteren om een voorbeeld van de factuur weer te geven of **Afdrukken** om deze naar een printer te sturen. Als een actie tijdens runtime voor de lopende ER-indeling wordt doorgegeven, kunt u [verschillende ER-bestemmingen voor verschillende gebruikersacties configureren](er-action-dependent-destinations.md).
 

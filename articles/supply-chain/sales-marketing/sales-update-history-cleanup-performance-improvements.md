@@ -1,8 +1,8 @@
 ---
-title: Prestatieverbeteringen bij opschonen van verkoophistorie
-description: In dit onderwerp wordt de functie voor prestatieverbeteringen bij het opschonen van de verkoophistorie beschreven en wordt beschreven hoe u deze functie kunt inschakelen.
+title: Opschonen van verkoophistoriegegevens plannen
+description: In dit onderwerp wordt beschreven hoe u de systeemprestaties kunt verbeteren door te plannen dat de periodieke taak Opschoning van verkoophistorie voor update regelmatig wordt uitgevoerd.
 author: myvakalo
-ms.date: 10/05/2021
+ms.date: 03/21/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,16 +11,26 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3c8ad7b0bd46c49fc989be091f44630a6a3eebc1
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 6c6c1e08d45f2a7d1e1267010b286111bad01a6c
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985906"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570361"
 ---
-# <a name="sales-history-cleanup-performance-improvements"></a>Prestatieverbeteringen bij opschonen van verkoophistorie
+# <a name="schedule-sales-history-data-cleanup"></a>Opschonen van verkoophistoriegegevens plannen
 
 [!include [banner](../includes/banner.md)]
+
+Als onderdeel van de standaardbewerking worden in Microsoft Dynamics 365 Supply Chain Management doorlopend updategegevens voor de verkoophistorie gegenereerd en opgeslagen. Na een bepaalde periode kan een groot aantal verouderde verkoophistoriegegevens in het systeem worden verzameld. Deze verzamelde gegevens kunnen leiden tot prestatie- en functionele problemen wanneer documenten met betrekking tot verkooporders worden geboekt. (Deze documenten bevatten verkooporderbevestigingen, verkooppakbonnen, verkooporderverzamellijsten en facturen). Daarom moet u instellen dat de periodieke taak *Opschoning van verkoophistorie voor update* regelmatig wordt uitgevoerd. Met deze taak worden alle updategegevens voor de verkoophistorie verwijderd die niet meer nodig zijn.
+
+Als u de periodieke taak *Opschoning van verkoophistorie voor update* gebruikt, raden we u aan om de functie *Prestatieverbeteringen bij opschonen van verkoophistorie* in te schakelen om de taak effectiever uit te voeren. (U kunt de taak echter ook uitvoeren zonder deze functie in te schakelen.)
+
+## <a name="turn-on-the-sales-history-cleanup-features"></a>De functies voor het opschonen van de verkoophistorie inschakelen
+
+Als u de periodieke taak *Opschoning van verkoophistorie voor update* wilt instellen en gebruiken met alle functies die in dit onderwerp worden beschreven, moet u de functies *Prestatieverbeteringen bij opschonen van verkoophistorie* en *Verkoophistorie voor update opschonen op basis van ouderdom* in Functiebeheer inschakelen, zoals wordt beschreven in de volgende subsecties.
+
+### <a name="sales-history-cleanup-performance-improvements"></a>Prestatieverbeteringen bij opschonen van verkoophistorie
 
 De periodieke batchtaak **Opschoning van verkoophistorie** kan veel tijd kosten als deze niet vaak in omgevingen wordt uitgevoerd met veel verkoopupdates. In deze situaties kan de functie *Prestatieverbeteringen bij opschonen van verkoophistorie* de uitvoeringsduur verminderen en de betrouwbaarheid verbeteren.
 
@@ -32,9 +42,41 @@ Met deze functie kunt u de bestaande opschoonfunctie op de volgende manieren ver
 
 Nadat u de functie hebt ingeschakeld, wordt de batchtaak **Opschoning van verkoophistorie** (**Verkoop en marketing \> Periodieke taken \> Opschonen \> Opschoning van verkoophistorie**) uitgevoerd zoals eerder, maar met betere prestaties en maximaal twee uur. Dit betekent dat de taak mogelijk meerdere keren moet worden uitgevoerd om alle gegevens op te schonen voor een bepaalde periode.
 
-## <a name="turn-on-the-sales-history-cleanup-performance-improvements-feature"></a>De functie Prestatieverbeteringen bij opschonen van verkoophistorie inschakelen
-
-Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in de werkruimte **Functiebeheer** de functie als volgt in:
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in de werkruimte **Functiebeheer** de functie als volgt in:
 
 - **Module:** *Verkoop en marketing*
 - **Functienaam:** *Prestatieverbeteringen bij opschonen van verkoophistorie*
+
+### <a name="clean-up-sales-update-history-based-on-age"></a>Verkoophistorie voor update opschonen op basis van ouderdom
+
+Met de functie *Verkoophistorie voor update opschonen op basis van ouderdom* kunt u de maximale ouderdom instellen van records die u wilt behouden wanneer de periodieke taak *Opschoning van verkoophistorie voor update* wordt uitgevoerd. Oudere records worden verwijderd. Deze functie is handig wanneer u de taak zo instelt dat deze periodiek wordt uitgevoerd, omdat de ouderdom altijd wordt berekend in relatie tot de datum waarop de taak wordt uitgevoerd. Als u deze functie niet gebruikt, kunt u alleen een specifieke datum instellen voor de oudste records die u kunt bewaren.
+
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in de werkruimte **Functiebeheer** de functie als volgt in:
+
+- **Module:** *Verkoop en marketing*
+- **Functienaam:** *Verkoophistorie voor update opschonen op basis van ouderdom*
+
+## <a name="set-up-and-schedule-the-sales-history-cleanup-periodic-task"></a>De periodieke taak voor het opschonen van de verkoophistorie instellen en plannen
+
+Als u de periodieke taak *Opschonen van verkoophistorie* wilt instellen en plannen, gaat u als volgt te werk.
+
+1. Analyseer de behoeften van uw bedrijf om te bepalen hoeveel dagen aan historische boekingsgegevens voor verkooporders u moet bewaren. Het is meestal raadzaam om de opschoontaak elke drie maanden en uiterlijk elke zes maanden uit te voeren.
+1. Ga naar **Verkoop en marketing \> Periodieke taken \> Opschonen \> Opschoning van verkoophistorie**.
+1. Stel in het dialoogvenster **Verkoophistorie voor update opschonen** op het sneltabblad **Parameters** de volgende velden in:
+
+    - **Opschonen**: selecteer een van de volgende waarden om op te geven welk type records u wilt opschonen:
+
+        - **Uitgevoerd**: verwijder alleen records die volledig zijn verwerkt. Aangezien u waarschijnlijk nog vaker gebruik wilt maken van deze records, is deze optie het veiligst.
+        - **Uitgevoerd en foutief**: zowel volledig verwerkte records als records met een fout worden verwijderd. Deze optie wordt het meest gebruikt. Misschien wilt u foutieve records controleren en zelfs herstellen in plaats van ze automatisch te laten opschonen. Veel bedrijven kiezen er echter ook voor om deze records na ongeveer een maand op te schonen, omdat ze op dat moment waarschijnlijk niet meer relevant zijn.
+        - **Alle**: Uitgevoerde, foutieve en wachtende records worden verwijderd. Wachtende records zijn geldig, maar zijn nog niet volledig verwerkt. In de meeste gevallen wilt u deze waarschijnlijk niet automatisch verwijderen. In bepaalde situaties kunt u er echter voor kiezen deze automatisch te verwijderen nadat een bepaalde tijd is verstreken.
+
+    - **Records behouden op basis van ouderdom**: geef op of u records wilt opschonen op basis van hun leeftijd op de dag waarop de taak wordt uitgevoerd of records wilt verwijderen die vóór een vaste datum zijn gemaakt. Als u het opschonen wilt plannen als een terugkerende taak, moet u deze optie instellen op *Ja* omdat de ouderdom altijd wordt berekend in relatie tot de datum waarop de taak wordt uitgevoerd.
+
+        - Stel deze optie in op *Ja* om het veld **Maximale ouderdom** in te schakelen. U gebruikt dit veld om de maximale ouderdom op te geven van de records die moeten worden behouden wanneer de taak wordt uitgevoerd. Het veld **Gemaakt tot** wordt genegeerd.
+        - Stel deze optie in op *Nee* om het veld **Gemaakt tot** in te schakelen. U gebruikt dit veld om de oudste aanmaakdatum op te geven van de records die moeten worden behouden wanneer de taak wordt uitgevoerd. Het veld **Maximale ouderdom** wordt genegeerd.
+
+    - **Gemaakt tot**: deze instelling is alleen van toepassing als de optie **Records behouden op basis van ouderdom** op *Nee* is ingesteld. Geef de oudste aanmaakdatum op van de records die moeten worden behouden wanneer de taak wordt uitgevoerd. Records die voor deze datum zijn gemaakt, worden verwijderd.
+    - **Maximale ouderdom**: deze instelling is alleen van toepassing als de optie **Records behouden op basis van ouderdom** op *Ja* is ingesteld. Geef de maximale ouderdom (in dagen) op van de records die moeten worden behouden wanneer de taak wordt uitgevoerd. Oudere records worden verwijderd.
+
+1. Geef op het sneltabblad **Uitvoeren op de achtergrond** op hoe, wanneer en hoe vaak het taak wordt uitgevoerd. Gebruik deze instellingen om de planning te implementeren die u hebt vastgesteld in stap 1. De velden werken op dezelfde manier als bij andere typen [batchtaken](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) in Supply Chain Management.
+1. Selecteer **OK** om de instellingen toe te passen en het dialoogvenster te sluiten.

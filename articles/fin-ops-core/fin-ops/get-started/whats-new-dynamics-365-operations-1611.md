@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0625010143b7df9c3c897bf7f43ef25993303240
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 43a53d5940b2595abb305a08e6f52661bee8ca62
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752803"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8548075"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Operations versie 1611 (november 2016)
 
@@ -816,7 +816,7 @@ Momenteel is Retail Modern POS alleen beschikbaar als een Windows 8.1-toepassing
 | Als leverancier: informatie ophalen over de hoeveelheid geconsigeerde voorraadartikelen die naar de klant wordt overgeboekt. | Om een klant te kunnen factureren, moet de leverancier informatie hebben over de grondstoffen die van de consignatievoorraad zijn gekocht en de datum van inkoop. De leverancier kan ook de voorhanden voorraad op de klantlocatie bewaken via de interface voor leverancierssamenwerking. |
 | Voorraad in eigendom van de leverancier verplaatsen door middel van een overboekingsjournaal. | Als u de fysieke positie van de voorraad in eigendom van de leverancier wilt bijhouden, moet u de positie in het systeem kunnen registreren. Als u gebruik maakt van een overboekingsjournaal, kunt u de fysieke verplaatsing van voorraad registreren, zoals een verplaatsing van de ene plek in een magazijn naar een andere locatie in dat magazijn. |
 | Voorraad in eigendom van de leverancier aanpassen door middel van een tellijst. | Het is belangrijk om de in het systeem geregistreerde voorhanden voorraad synchroon te houden met de daadwerkelijke fysieke voorraad. De voorraad in eigendom van de leverancier kan voor in- en uitgaande mutaties worden gecorrigeerd door middel van telprocessen zoals hoeveelheidscorrecties en tellijstprocessen. |
-| Meer informatie over ondersteuning voor consignatie in Dynamics 365 for Operations | Voor meer informatie over de ondersteuning voor consignatieprocessen zie [Consignatie](../../../supply-chain/inventory/consignment.md), [Consignatie instellen](../../../supply-chain/inventory/set-up-consignment.md), [Een nieuwe consignatieaanvullingsorder maken (taakbegeleiding)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) en [Het eigendom van consignatievoorraad wijzigen op basis van de productievraag (taakbegeleiding)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
+| Meer informatie over ondersteuning voor consignatie in Dynamics 365 for Operations | Voor meer informatie over de ondersteuning voor consignatieprocessen zie [Consignatie](../../../supply-chain/inventory/consignment.md), [Consignatie instellen](/d365F-O/fin-ops-core/fin-ops/get-started/consignment), [Een nieuwe consignatieaanvullingsorder maken (taakbegeleiding)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) en [Het eigendom van consignatievoorraad wijzigen op basis van de productievraag (taakbegeleiding)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
 
 ### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>Leverancierssamenwerking (voorheen bekend als de Leveranciersportal)
 
@@ -940,9 +940,9 @@ Momenteel is Retail Modern POS alleen beschikbaar als een Windows 8.1-toepassing
 </tbody>
 </table>
 
-## <a name="additional-resources"></a>Aanvullende bronnen
+## <a name="additional-resources"></a>Aanvullende resources
 
-[Nieuwe of gewijzigde functies op de startpagina van Finance and Operations](whats-new-changed.md)
+[Startpagina Nieuw of gewijzigd in Finance and Operations](whats-new-changed.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

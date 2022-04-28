@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1db676024f5ec0f254500bd2ceee85ab2150502
-ms.sourcegitcommit: 777f9581dccc0f963c6a04c95b85e00e68573db5
+ms.openlocfilehash: fcdb5a934818468e00be960f9afe541966e5eabf
+ms.sourcegitcommit: e8a2a1e34fa48a42afac9724828f4ec72b6d7085
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8527308"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8573645"
 ---
 # <a name="get-started-with-financial-reporting"></a>Aan de slag met financiële rapportage 
 
@@ -150,7 +150,7 @@ U kunt een onbeperkt aantal rapportagestructuren maken om de gegevens van uw org
 
 Finance and Operations-apps worden elke maand bijgewerkt. Maar Financial reporting wordt niet per se in dit ritme bijgewerkt. Bovendien hebben klanten meer opties voor het tijdstip waarop ze updates voor Finance and Operations-apps implementeren. Updates van Financial reporting worden automatisch geïnstalleerd. Financial reporting heeft een bepaalde versie die in een klantenomgeving wordt verbruikt wanneer een service-update wordt geïmplementeerd, wanneer downtime wordt gestart of wanneer de omgeving van een klant in de onderhoudsmodus is. Dit proces wordt *slipstreaming* of *true-up* genoemd, omdat alle klantimplementaties worden ingesteld op dezelfde versie van Financial reporting.
 
-U vindt de wijzigingen die in elke versie worden vrijgegeven, in [Nieuwe of gewijzigde functies in Dynamics 365 Finance](../../finance/get-started/whats-new-home-page.md). Platformupdates en bug fixes vindt u in de sectie "Aanvullende resources" onder aan de pagina voor elke release.
+U vindt de wijzigingen die in elke versie worden vrijgegeven in [Nieuwe of gewijzigde functies in Dynamics 365 Finance](../../finance/get-started/whats-new-home-page.md). Platformupdates en bug fixes vindt u in de sectie "Aanvullende resources" onder aan de pagina voor elke release.
 
 De geselecteerde geslipstreamde versie is een beoordeelde en gevalideerde versie van Financial reporting die gereed is voor productie. Deze versie is compatibel met elke eerdere of toekomstige versie van Dynamics 365 Finance. Financial reporting kan bijvoorbeeld de laatste build 10.0.19 hebben, terwijl de klant nog werkt met versie 10.0.16.
 
@@ -212,7 +212,7 @@ Hieronder staan enkele stappen die u kunt ondernemen om uw gesprek met Microsoft
 De volgende stappen doorlopen het proces voor het in- of uitschakelen van berichten in de Logboeken voor Financial reporting. In de logboeken die met de functie Logboeken worden gegenereerd, kunnen medewerkers van de afdeling Ondersteuning de bron van het verbindingsprobleem snel vinden. Dien kopieën van deze logboeken samen met het ticket in wanneer u contact opneemt met de afdeling Ondersteuning.
 
 
-1. Kopieer het bestand RegisterETW.zip naar het client-werkstation (bij voorkeur het bureaublad) en haal [RegisterETW.zip](https://dev.azure.com/msdyneng/e6f12261-a46a-4af1-ac0c-e22bc2c5a478/_apis/git/repositories/ff923027-67f0-43fb-b63c-6d6b6423840f/Items?path=%2F.attachments%2FRegisterETW-c1a35291-6aa6-4462-a2bc-4ba117fd5f8e.zip&download=false&resolveLfs=true&%24format=octetStream&api-version=5.0-preview.1&sanitize=true&versionDescriptor.version=wikiMaster) op.
+1. Kopieer het bestand RegisterETW.zip naar het client-werkstation (bij voorkeur het bureaublad) en haal [RegisterETW.zip](https://mbs2.microsoft.com/fileexchange/?fileID=60b1106b-d5f8-4e0f-8041-039102505122) op.
 2. Zorg ervoor dat Windows Logboeken is afgesloten.
 3. Open een Opdrachtprompt voor Administrator PowerShell en ga naar de map waar RegisterETW.ps1 zich bevindt.
 4. Voer de volgende opdracht uit: .\RegisterETW.ps1
@@ -242,7 +242,7 @@ Probleem: u ontvangt de foutmelding "Kan geen verbinding maken met de server waa
 * Wanneer u het foutbericht voor de verbinding ziet, selecteer dan **Testen** om de verbinding te testen om te zien welk bericht wordt weergegeven. 
 * Het probleem kan het resultaat zijn van een andere gebruiker die geen toegang heeft tot Financial reporting. Als een gebruiker geen toegang heeft, ontvangt hij of zij een bericht waarin wordt aangegeven dat hij of zij niet over de juiste bevoegdheden beschikt.
 * Als het probleem zich voordoet op meerdere browsers, moet u ervoor zorgen dat de klok op het werkstation is ingesteld op Automatisch.
-* Werk met een gebruiker die beschikt over de bevoegdheid beveiligingsbeheerder in Dynamics 365 Finance en beheerdersrechten voor het netwerkdomein om u aan te melden op uw werkstation om te zien of deze verbinding kan maken. Als deze verbinding kan maken, is het probleem mogelijk gerelateerd aan netwerkbevoegdheden.
+* Werk met een gebruiker die beschikt over bevoegdheden als beveiligingsbeheerder in Dynamics 365 Finance en beheerdersrechten voor het netwerkdomein om u aan te melden op uw werkstation om te zien of deze verbinding kan maken. Als deze verbinding kan maken, is het probleem mogelijk gerelateerd aan netwerkbevoegdheden.
 * Schakel de firewall tijdelijk uit op het werkstation. Als u vervolgens verbinding kunt maken met Report Designer is het een probleem met uw firewall. Werk samen met de IT-afdeling van uw organisatie om het probleem op te lossen.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
