@@ -6,10 +6,12 @@
           href: index.md
         - name: Nieuwe of gewijzigde functies
           items:
-            - name: Nieuw of gewijzigd in apps voor financiën en bedrijfsactiviteiten
+            - name: Nieuwe of gewijzigde functies in apps voor financiën en bedrijfsactiviteiten
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Nieuwe of gewijzigde functies in Human Resources
               items:
+                - name: Human Resources 10.0.27 (samengevoegde infrastructuur)
+                  href: ./get-started/hr-whats-new-changed-10-0-27.md
                 - name: Human Resources 10.0.26 (samengevoegde infrastructuur)
                   href: ./get-started/hr-whats-new-changed-10-0-26.md
                 - name: Human Resources 10.0.25 (samengevoegde infrastructuur)

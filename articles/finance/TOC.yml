@@ -6,12 +6,14 @@
           href: index.md
         - name: Nieuwe of gewijzigde functies
           items:
-            - name: Nieuw of gewijzigd in apps voor financiën en bedrijfsactiviteiten
+            - name: Nieuwe of gewijzigde functies in apps voor financiën en bedrijfsactiviteiten
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Nieuwe of gewijzigde functies in Finance
               items:
                 - name: Startpagina voor nieuwe of gewijzigde functies in Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.27 (juli)
+                  href: get-started/whats-new-changed-10-0-27.md
                 - name: Finance 10.0.26 (mei)
                   href: get-started/whats-new-changed-10-0-26.md
                 - name: Finance 10.0.25 (april)
@@ -412,30 +414,36 @@
                   href: accounts-receivable/subscription-billing-summary.md
                 - name: Terugkerende contractfacturering
                   items:
-                    - name: Factureringsschema's maken
+                    - name: Terugkerende contractfacturering instellen
+                      href: accounts-receivable/sb-recur-bill-parameters.md
+                    - name: Factureringsplanningen maken
                       href: accounts-receivable/sb-billing-schedules.md
-                    - name: Een factureringsschema kopiëren
+                    - name: Een factureringsplanning kopiëren
                       href: accounts-receivable/sb-copy-schedules-items.md
-                    - name: Functies voor factureringsschema's
+                    - name: Functies voor factureringsplanningen
                       href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Facturering van mijlpalen
                       href: accounts-receivable/sb-milestonebilling.md
+                    - name: Opbrengsttoewijzing
+                      href: accounts-receivable/sb-rev-allocation.md
                     - name: Ondersteunings- en verlengingsproces
                       href: accounts-receivable/sb-support-renewals.md
+                    - name: Niet-gefactureerde opbrengst
+                      href: accounts-receivable/sb-unbilled-revenue.md
                     - name: Schema's voor consumentenprijsindex
                       href: accounts-receivable/cpischedules.md
-                    - name: Factureringsschema's beëindigen
+                    - name: Factureringsplanningen beëindigen
                       href: accounts-receivable/terminate-billing-schedule.md
-                - name: Uitgestelde opbrengsten en onkosten
+                    - name: Scenario's voor afstemmingsdatums
+                      href: accounts-receivable/sb-alignment-date-examples.md
+                - name: Uitstel van opbrengsten en onkosten
                   items:
                     - name: Uitstel van opbrengsten en onkosten instellen
                       href: accounts-receivable/sb-deferrals.md
-                    - name: Uitstelplanningen
-                      items:
-                        - name: Uitstelplanningen maken
-                          href: accounts-receivable/sb-deferrals-schedules.md
-                        - name: Standaardtransacties voor uitstel
-                          href: accounts-receivable/sb-deferral-transactions.md
+                    - name: Uitstelplanningen maken
+                      href: accounts-receivable/sb-deferrals-schedules.md
+                    - name: Standaardtransacties voor uitstel
+                      href: accounts-receivable/sb-deferral-transactions.md
                 - name: Toewijzing van opbrengsten uit meerdere elementen
                   items:
                     - name: Toewijzing van opbrengsten uit meerdere elementen instellen
@@ -1429,7 +1437,7 @@
                             - name: Azure-resources instellen voor Elektronische facturering
                               href: localizations/e-invoicing-set-up-azure-resources.md?toc=/dynamics365/finance/toc.json
                             - name: Een Azure Key Vault maken in de Azure-portal
-                              href: localizations/e-invoicing-create-azure-storage-account-azure-portal.md?toc=/dynamics365/finance/toc.json
+                              href: localizations/e-invoicing-create-azure-key-vault-azure-portal.md?toc=/dynamics365/finance/toc.json
                             - name: Een Azure-opslagaccount maken in de Azure-portal
                               href: localizations/e-invoicing-create-azure-storage-account-azure-portal.md
                             - name: Een SharePoint-verbinding configureren
@@ -1460,20 +1468,22 @@
                           href: localizations/e-invoicing-complete-publish-deploy-globalization-feature.md?toc=/dynamics365/finance/toc.json
                         - name: Delen met andere organisaties
                           href: localizations/e-invoicing-share-other-organizations.md?toc=/dynamics365/finance/toc.json
+                        - name: Dashboard voor gebruiksbeheer
+                          href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
                         - name: Binnenkomende elektronische documenten verwerken
                           items:
-                            - name: Binnenkomende elektronische documenten worden verwerkt
+                            - name: Verwerking van binnenkomende elektronische documenten
                               href: localizations/e-invoicing-process-incoming-electronic-documents.md
                             - name: Een e-mailkanaal configureren
                               href: localizations/e-invoicing-configure-email.md?toc=/dynamics365/finance/toc.json
                             - name: Een SharePoint-kanaal configureren
                               href: localizations/e-invoicing-configure-sharepoint-channel.md
-                        - name: Elektronische facturering instellen en gebruiken met Finance en Supply Chain Management
-                          items:
-                            - name: Integratie activeren en instellen met Elektronische facturering
-                              href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
-                            - name: Parameters voor Elektronische facturering instellen
-                              href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
+                    - name: Elektronische facturering instellen en gebruiken met Finance en Supply Chain Management
+                      items:
+                        - name: Integratie activeren en instellen met Elektronische facturering
+                          href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
+                        - name: Parameters voor Elektronische facturering instellen
+                          href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
                         - name: Werken met Elektronische facturering
                           items:
                             - name: Elektronische documenten indienen bij Elektronische facturering
@@ -1484,14 +1494,8 @@
                               href: localizations/e-invoicing-electronic-documents-receiving-log.md?toc=/dynamics365/finance/toc.json
                     - name: Landspecifieke scenario's
                       items:
-                        - name: Beschikbaarheid van functies voor Elektronische facturering
+                        - name: Beschikbaarheid van functies van Elektronische facturering
                           href: localizations/e-invoicing-country-specific-availability.md?toc=/dynamics365/finance/toc.json
-                        - name: Aan de slag met servicebeheer voor Elektronische facturering
-                          href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
-                        - name: Aan de slag met Elektronische facturering
-                          href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
-                        - name: Een nieuwe functie voor Elektronische facturering maken
-                          href: localizations/e-invoicing-create-new-e-invoicing-feature.md
                         - name: Aan de slag met Elektronische facturering voor Brazilië
                           href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Aan de slag met Elektronische facturering voor Egypte
@@ -1502,12 +1506,8 @@
                           href: localizations/e-invoicing-sa-get-started.md
                         - name: Directe integratie van Italiaanse FatturaPA met SDI instellen
                           href: localizations/e-invoicing-ita-fatturapa-get-started.md
-                        - name: De service voor Elektronische facturering gebruiken om leveranciersfacturen te importeren
+                        - name: De service voor elektronische facturering gebruiken om leveranciersfacturen te importeren
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
-                        - name: Elektronische facturering instellen
-                          href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
-                        - name: Beheerdersreferentie voor Power Platform-invoegtoepassing
-                          href: localizations/e-invoicing-power-platform-plug-in.md
                     - name: Veelgestelde vragen over Elektronische facturering
                       href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Belastingberekening
@@ -1616,11 +1616,17 @@
                       items:
                         - name: Kan geen toegang krijgen tot de belastingservice
                           href: localizations/tcs-troubleshooting-failed-access-tax-service.md
-                        - name: Lege lijst met btw-functies in parameters voor belastingberekening
+                        - name: Lege lijst met belastingfuncties in parameters voor belastingberekening
                           href: localizations/tcs-troubleshooting-tax-feature-list-empty-tax-calculation-parameter.md
+                        - name: Belastingcode kan niet worden bepaald
+                          href: localizations/tcs-troubleshooting-tax-code-cannot-be-determined.md
+                        - name: Er is geen overeenkomend resultaat gevonden
+                          href: localizations/tcs-troubleshooting-no-matching-result.md
+                        - name: Foutopsporingsmodus inschakelen in de service voor belastingberekening
+                          href: localizations/tcs-troubleshooting-enable-debug-mode.md
                     - name: Veelgestelde vragen over belastingberekening
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
-            - name: Belastingen
+            - name: Belasting
               items:
                 - name: Btw
                   items:
@@ -3725,6 +3731,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
                 - name: Verkoop- en winstgevendheidsprestaties
                   href: ../fin-ops-core/dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/dynamics365/finance/toc.json
+                - name: Power BI-inhoud voor facturering van abonnementen
+                  href: accounts-receivable/sub-bill-power-bi.md
                 - name: Leveranciersbetalingen
                   href: accounts-payable/Vendor-payments-workspace.md
                 - name: Metrische gegevens personeel

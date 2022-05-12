@@ -6,20 +6,18 @@
           href: index.md
         - name: Nieuwe of gewijzigde functies
           items:
-            - name: Nieuw of gewijzigd in apps voor financiën en bedrijfsactiviteiten
+            - name: Nieuwe of gewijzigde functies in apps voor financiën en bedrijfsactiviteiten
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
             - name: Nieuwe of gewijzigde functies in Commerce
               items:
                 - name: Startpagina voor nieuwe of gewijzigde functies in Commerce
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.27 (juli 2022)
+                  href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26 (mei 2022)
                   href: get-started/whats-new-commerce-10-0-26.md
                 - name: Commerce 10.0.25 (april 2022)
                   href: get-started/whats-new-commerce-10-0-25.md
-                - name: Commerce 10.0.24 (februari 2022)
-                  href: get-started/whats-new-commerce-10-0-24.md
-                - name: Commerce 10.0.23 (januari 2022)
-                  href: get-started/whats-new-commerce-10-0-23.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -352,15 +350,17 @@
                           href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=/dynamics365/commerce/toc.json
                         - name: Berekeningsopties Volledige bedrag en interval voor btw-codes
                           href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/commerce/toc.json
-                        - name: Berekening van btw-vrijstelling
+                        - name: Berekening van belastingvrijstelling
                           href: tax-exempt-price-inclusive.md
                         - name: Btw voor online orders configureren
                           href: sales-tax-config.md
+                        - name: Btw-opsplitsing verbergen in orderoverzichten
+                          href: hide-taxes-breakup.md
                     - name: Een profiel voor e-mailmeldingen instellen
                       href: email-notification-profiles.md
                     - name: Nummerreeksen
                       items:
-                        - name: Overzicht van Nummerreeksen
+                        - name: Overzicht van nummerreeksen
                           href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/retail/toc.json
                         - name: Nummerreeksen instellen op een individuele basis
                           href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/retail/toc.json
@@ -394,7 +394,7 @@
                       href: dev-itpro/store-commerce.md
                     - name: Implementatierichtlijnen voor apparaatbeheer
                       href: implementation-considerations-devices.md
-                    - name: Kiezen tussen MPOS en Cloud POS
+                    - name: Kiezen tussen Store Commerce en Cloud POS
                       href: MPOS-or-CPOS.md
                     - name: Online en offline POS-bewerkingen
                       href: pos-operations.md
@@ -496,6 +496,8 @@
                   href: tasks/configure-functionality-profile-sales-representative.md
                 - name: Financiële dimensies maken voor Retail-kanalen en waarden configureren voor winkels
                   href: tasks/create-financial-dimensions-retail-channels.md
+                - name: Nummerreeksen voor detailhandeloverzichten instellen
+                  href: retail-statements-number-sequences.md
                 - name: Consistente afhandeling van afleveringsmodus in e-commercekanalen inschakelen
                   href: consistent-delivery-mode-handling.md
             - name: Een online kanaal instellen
@@ -884,6 +886,8 @@
           items:
             - name: Overzicht van overzichten
               href: retail-statements.md
+            - name: Parameters voor boekingen in Commerce
+              href: commerce-posting-parameters.md
             - name: Winkeltransacties valideren voor de berekening van overzichten
               href: valid-checker.md
             - name: Regels in consistentiecontrole voor detailhandelstransacties uitschakelen
@@ -1098,8 +1102,10 @@
                   items:
                     - name: Overzicht van Adventure Works-thema
                       href: adventure-works-theme.md
-                    - name: Het thema Adventure Works installeren
+                    - name: Het Adventure Works-thema installeren
                       href: install-adventure-works.md
+                - name: Handleiding voor lokalisatie van Commerce
+                  href: e-commerce-localization-guide.md
             - name: Digitale activa beheren
               items:
                 - name: Overzicht van digitaal activabeheer
@@ -1312,6 +1318,14 @@
               href: b2b/payment-method.md
             - name: Limieten voor producthoeveelheden instellen voor e-commercesites voor B2B
               href: b2b/quantity-limits.md
+            - name: Commerce-catalogi voor B2B-sites
+              items:
+                - name: Commerce-catalogi voor B2B-sites maken
+                  href: catalogs-b2b-sites.md
+                - name: Impact van uitbreidbaarheid van Commerce-catalogi voor B2B-aanpassingen
+                  href: catalogs-b2b-sites-dev.md
+                - name: Veelgestelde vragen over Commerce-catalogi voor B2B-sites
+                  href: catalogs-b2b-sites-FAQ.md
         - name: Bewaking en analyse
           items:
             - name: Verkoop- en margeprestaties bewaken
@@ -2470,17 +2484,21 @@
                       href: dev-itpro/incremental-capture.md
                 - name: Lokalisatie
                   items:
-                    - name: Resources voor Commerce-extensies en labelbestanden aanpassen
+                    - name: Resources voor Commerce-uitbreidingen en labelbestanden aanpassen
                       href: dev-itpro/extension-resource-localization.md
             - name: Headless commerce
               items:
+                - name: Overzicht
+                  items:
+                    - name: Inleiding tot Commerce Scale Unit (CSU) Core
+                      href: dev-itpro/CSU-core.md
                 - name: API's en referentie
                   items:
                     - name: Klanten- en consumenten-API's voor Commerce Scale Unit
                       href: dev-itpro/retail-server-customer-consumer-api.md
                     - name: Retail Server-API's gebruiken in externe toepassingen
                       href: dev-itpro/consume-retail-server-api.md
-                    - name: Typescript en C#-proxy's voor Retail POS
+                    - name: TypeScript en C#-proxy's voor Retail POS
                       href: dev-itpro/typescript-proxy-retail-pos.md
                     - name: Architectuur en configuratie van Commerce Runtime (CRT)
                       href: dev-itpro/commerce-runtime-overview.md
@@ -2528,7 +2546,9 @@
                       href: dev-itpro/extensions-shipping-carrier-integration.md
                 - name: Verpakking en implementatie
                   items:
-                    - name: Uitbreidingen voor cloudschaaleenheden verwijderen
+                    - name: Een Cloud Scale Unit-uitbreidingspakket maken
+                      href: dev-itpro/CSU-packaging.md
+                    - name: Cloud Scale Unit-uitbreidingen verwijderen
                       href: dev-itpro/retail-sdk/remove-csu-package.md
             - name: Store Commerce
               items:
@@ -2538,8 +2558,10 @@
                       href: dev-itpro/pos-extension/pos-extension-overview.md
                     - name: Concepten en terminologie voor POS-uitbreidingen
                       href: dev-itpro/pos-extension/pos-extension-basics.md
-                    - name: POS-uitbreidingen migreren naar de Commerce SDK
+                    - name: POS-uitbreidingen migreren naar de Commerce-SDK
                       href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: Fouten in Store Commerce-uitbreidingen opsporen met VS Code
+                      href: dev-itpro/sc-debug.md
                 - name: Omgeving instellen
                   items:
                     - name: Lokale ontwikkelomgeving
@@ -2614,6 +2636,8 @@
                       href: dev-itpro/pos-extension/mpos-extension-signing.md
                     - name: Een Cloud POS-uitbreidingspakket maken
                       href: dev-itpro/pos-extension/cpos-extension-package.md
+                    - name: Een installatiepakket voor een Store Commerce-uitbreiding maken
+                      href: dev-itpro/store-comm-extension-installer.md
             - name: E-commerce
               items:
                 - name: Overzicht
@@ -2814,8 +2838,12 @@
                       items:
                         - name: Logboekregistratie telemetrie
                           href: e-commerce-extensibility/telemetry-logger.md
-            - name: Commerce HQ
+            - name: Commerce Headquarters
               items:
+                - name: CDX-pakketuitbreidingen
+                  items:
+                    - name: CDX-pakketten voor klanten uitbreiden om aangepaste gegevens toe te voegen
+                      href: dev-itpro/extend-customer-CDX-package.md
                 - name: Verpakking en implementatie
                   items:
                     - name: Commerce-betalingspakket maken voor implementatie van financiële en bedrijfsactiviteiten

@@ -8,12 +8,14 @@
           href: index.md
         - name: Nieuwe of gewijzigde functies
           items:
-            - name: Nieuw of gewijzigd in apps voor financiën en bedrijfsactiviteiten
+            - name: Nieuwe of gewijzigde functies in apps voor financiën en bedrijfsactiviteiten
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Nieuwe of gewijzigde functies in Platform updates
               items:
                 - name: Startpagina voor nieuwe of gewijzigde functies in Platform-updates
                   href: get-started/whats-new-home-page.md
+                - name: Platform-updates voor versie 10.0.27 (juli 2022)
+                  href: get-started/whats-new-platform-updates-10-0-27.md
                 - name: Platform-updates voor versie 10.0.26 (mei 2022)
                   href: get-started/whats-new-platform-updates-10-0-26.md
                 - name: Platform-updates voor versie 10.0.25 (april 2022)
@@ -60,12 +62,14 @@
                   items:
                     - name: Overzicht van Service-eindpunten
                       href: data-entities/services-home-page.md
-                    - name: Problemen oplossen met serviceverificatie
+                    - name: Problemen met serviceverificatie oplossen
                       href: data-entities/troubleshoot-service-authentication.md
                 - name: OData
                   href: data-entities/odata.md
-                - name: Aangepaste service-ontwikkeling
+                - name: Ontwikkeling van aangepaste services
                   href: data-entities/custom-services.md
+                - name: Tracering van serviceaanvragen
+                  href: data-entities/service-request-tracing.md
                 - name: Terugkerende integraties
                   href: data-entities/recurring-integrations.md
                 - name: Services testen met hulpprogramma's van derden
@@ -1714,7 +1718,23 @@
                       href: migration-upgrade/migrate-upgraded-cube-entity-store.md
                     - name: Budgetplanning bijwerken
                       href: migration-upgrade/upgrade-budget-planning.md
-            - name: Gegevens migreren van AX 2009
+                - name: Problemen met de upgrade oplossen
+                  items:
+                    - name: Problemen met ontwikkelomgevingen oplossen tijdens de upgrade
+                      href: migration-upgrade/troubleshoot-dev-env.md
+                    - name: Problemen met upgrades naar selfserviceomgevingen oplossen
+                      href: migration-upgrade/troubleshoot-self-service-env.md
+                    - name: Problemen met PreSync- en PostSync-upgradescripts oplossen
+                      href: migration-upgrade/pre-post-upgrade-scripts.md
+                - name: Omgevingsbewerkingen
+                  items:
+                    - name: Documentbijlagen migreren
+                      href: migration-upgrade/migrate-doc-attachments-ax-2012.md
+                    - name: Brongegevens voor upgrade opschonen
+                      href: migration-upgrade/clean-up-source-data-upgrade.md
+                    - name: Tabellen comprimeren in Dynamics AX 2012-omgevingen
+                      href: migration-upgrade/compress-tables-ax-2012.md
+            - name: Gegevens migreren vanuit AX 2009
               items:
                 - name: Gegevens migreren van AX 2009 naar Finance and Operations
                   href: migration-upgrade/data-migration-tool.md
@@ -2000,3 +2020,5 @@
       href: ../../finance/index.md
     - name: Dynamics 365 Commerce
       href: ../../commerce/index.md
+    - name: Dynamics 365 Human Resources
+      href: ../../human-resources/index.md

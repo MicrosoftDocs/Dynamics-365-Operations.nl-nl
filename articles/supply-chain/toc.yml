@@ -6,20 +6,18 @@
           href: index.md
         - name: Nieuwe of gewijzigde functies
           items:
-            - name: Nieuw of gewijzigd in apps voor financiën en bedrijfsactiviteiten
+            - name: Nieuwe of gewijzigde functies in apps voor financiën en bedrijfsactiviteiten
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
             - name: Nieuwe of gewijzigde functies in Supply Chain Management
               items:
                 - name: Startpagina voor nieuwe of gewijzigde functies in Supply Chain Management
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.27 (juli 2022)
+                  href: get-started/whats-new-scm-10-0-27.md
                 - name: Supply Chain Management 10.0.26 (mei 2022)
                   href: get-started/whats-new-scm-10-0-26.md
                 - name: Supply Chain Management 10.0.25 (april 2022)
                   href: get-started/whats-new-scm-10-0-25.md
-                - name: Supply Chain Management 10.0.24 (februari 2022)
-                  href: get-started/whats-new-scm-10-0-24.md
-                - name: Supply Chain Management 10.0.23 (januari 2022)
-                  href: get-started/whats-new-scm-10-0-23.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -298,7 +296,7 @@
                           href: ../finance/localizations/e-invoicing-share-other-organizations.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Binnenkomende elektronische documenten verwerken
                           items:
-                            - name: Binnenkomende elektronische documenten worden verwerkt
+                            - name: Verwerking van binnenkomende elektronische documenten
                               href: ../finance/localizations/e-invoicing-process-incoming-electronic-documents.md?toc=/dynamics365/supply-chain/toc.json
                             - name: Een e-mailkanaal configureren
                               href: ../finance/localizations/e-invoicing-configure-email.md?toc=/dynamics365/supply-chain/toc.json
@@ -320,7 +318,7 @@
                                   href: ../finance/localizations/e-invoicing-electronic-documents-receiving-log.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Landspecifieke scenario's
                       items:
-                        - name: Beschikbaarheid van functies voor Elektronische facturering
+                        - name: Beschikbaarheid van functies van Elektronische facturering
                           href: ../finance/localizations/e-invoicing-country-specific-availability.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Aan de slag met servicebeheer voor Elektronische facturering
                           href: ../finance/localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/supply-chain/toc.json
@@ -1725,8 +1723,6 @@
               href: iot/iot-azure-setup.md
             - name: Berichtschema-indelingen voor IoT-hub
               href: iot/iot-schema-format.md
-            - name: De invoegtoepassing in LCS installeren
-              href: iot/iot-lcs-setup.md
             - name: Metrische gegevens instellen
               href: iot/iot-metrics-setup.md
             - name: Scenario instellen
@@ -2757,7 +2753,9 @@
                   href: production-control/production-floor-execution-setup.md
                 - name: Hoe medewerkers de interface voor de uitvoering van de productievloer gebruiken
                   href: production-control/production-floor-execution-use.md
-                - name: De interface voor de uitvoering van de productievloer ontwerpen
+                - name: Verlofsaldi weergeven in de uitvoeringsinterface voor de werkvloer
+                  href: production-control/production-floor-execution-payroll-stats.md
+                - name: De uitvoeringsinterface voor de werkvloer ontwerpen
                   href: production-control/production-floor-execution-styles.md
                 - name: De interface voor de uitvoering van de productievloer aanpassen
                   href: production-control/production-floor-execution-customize.md

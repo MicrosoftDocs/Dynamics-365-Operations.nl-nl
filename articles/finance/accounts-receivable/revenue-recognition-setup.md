@@ -2,7 +2,7 @@
 title: Instellingen opbrengsttoerekening
 description: In dit onderwerp worden de instellingsopties voor de toerekening van opbrengsten en de implicaties hiervan beschreven.
 author: kweekley
-ms.date: 11/24/2021
+ms.date: 04/28/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e8e29ec1ca5a02db67bb4baf522da96ec23c740f
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 5f72ebd743763db7c68340a833c2501d47d27081
+ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867215"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8656716"
 ---
 # <a name="revenue-recognition-setup"></a>Instellingen opbrengsttoerekening
 [!include [banner](../includes/banner.md)]
@@ -100,7 +100,7 @@ Geef beschrijvende waarden op in de velden **Opbrengstschema** en **Beschrijving
     - **Voorvallen**: het bedrag wordt gelijkmatig verdeeld over de voorvallen, maar kan een extra periode bevatten als u de **Werkelijke begindatum** als de toerekeningsconventie selecteert.
     - **Boekperioden op dagen**: het bedrag wordt toegewezen op basis van de werkelijke dagen in elke boekperiode. 
 
-    De resultaten van **Maandelijks op dagen** en **Boekperiode op dagen** zijn gelijk wanneer de boekperioden de kalendermaanden volgen. De enige uitzondering is wanneer de toerekeningsconventie is ingesteld op **Einde maand/periode** en de velden **Begindatum** en **Einddatum** van het contract leeg zijn op een verkooporderregel.
+         - De resultaten van **Maandelijks op dagen** en **Boekperiode op dagen** zijn gelijk wanneer de boekperioden de kalendermaanden volgen. De enige uitzondering is wanneer de toerekeningsconventie is ingesteld op **Einde maand/periode** en de velden **Begindatum** en **Einddatum** van het contract leeg zijn op een verkooporderregel.
 
 - **Toerekeningsconventie**: de toerekeningsconventie bepaalt de datums die zijn ingesteld voor het opbrengstschema voor de factuur.
 
@@ -108,7 +108,7 @@ Geef beschrijvende waarden op in de velden **Opbrengstschema** en **Beschrijving
     - **1e van maand/periode**: de datum op de eerste schemaregel is de begindatum van het contract (of de factuurdatum). Alle volgende schemaregels worden echter voor de eerste van de maand of boekperiode gemaakt.
     - **Midden maand - gesplitst**: de datum op de eerste schemaregel hangt samen met de factuurdatum. Als de factuur wordt geboekt op een datum tussen de eerste en de vijftiende van de maand, wordt het opbrengstschema gemaakt op basis van de eerste dag van de maand. Als de factuur wordt geboekt op de zestiende van de maand of later, wordt het opbrengstschema gemaakt op basis van de eerste dag van de volgende maand.
 
-        **Midden maand - gesplitst** kan niet worden geselecteerd als de toerekeningsbasis is ingesteld op **Boekperiode op dagen**.
+        - **Midden maand - gesplitst** kan niet worden geselecteerd als de toerekeningsbasis is ingesteld op **Boekperiode op dagen**.
 
     - **1e dag van de volgende maand/periode**: de datum waarop het schema begint, is de eerste dag van de volgende maand of boekperiode.
     - **Einde van maand/periode**: de datum op de eerste schemaregel is de begindatum van het contract (of de factuurdatum). Alle volgende schemaregels worden echter voor de laatste dag van de maand of boekperiode gemaakt. 
