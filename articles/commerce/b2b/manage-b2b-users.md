@@ -2,7 +2,7 @@
 title: Gebruikers van zakenpartners op B2B-e-commercewebsite beheren
 description: In dit onderwerp wordt beschreven hoe u gebruikers van zakenpartners op B2B-e-commercewebsites (business-to-business) met Microsoft Dynamics 365 Commerce en in Commerce Headquarters kunt toevoegen, bewerken en verwijderen.
 author: josaw1
-ms.date: 02/17/2022
+ms.date: 04/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: def8d4de082ceb4be77ed7e8898cbef82d52b749
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: c2fb4846a8457296a2ce758198ade5f4b0df8124
+ms.sourcegitcommit: 96e2fb26efd2cd07bbf97518b5c115e17b77a0a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323450"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8616852"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Gebruikers van zakenpartners op B2B-e-commercewebsite beheren
 
@@ -28,7 +28,8 @@ ms.locfileid: "8323450"
 In dit onderwerp wordt beschreven hoe u gebruikers van zakenpartners op B2B-e-commercewebsites (business-to-business) met Microsoft Dynamics 365 Commerce en in Commerce Headquarters kunt toevoegen, bewerken en verwijderen.
 
 > [!NOTE]
-> Het onderwerp [B2B-zakenpartners beheren met behulp van klanthiërarchieën](partners-customer-hierarchies.md) is een vereiste voor dit document. 
+> - Het onderwerp [B2B-zakenpartners beheren met behulp van klanthiërarchieën](partners-customer-hierarchies.md) is een vereiste voor dit document.
+> - Zorg ervoor dat u de entiteit Documenttypen in Commerce Headquarters initialiseert door het formulier **Documenttypen** te openen op **Organisatiebeheer \> Documentbeheer \> Documenttypen**.
 
 B2B-e-commercewebsites vereisen dat organisaties zich registreren om zakenpartners te worden. Nadat een organisatie registratiegegevens heeft ingediend bij een B2B-e-commercewebsite, doorloopt de aanvraag voor registratie een kwalificatieproces. Als de organisatie is gekwalificeerd, wordt deze geregistreerd als zakenpartner.
 

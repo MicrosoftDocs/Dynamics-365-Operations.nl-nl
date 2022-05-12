@@ -2,7 +2,7 @@
 title: Rastermogelijkheden
 description: Dit onderwerp beschrijft diverse krachtige functies van het rasterbesturingselement. U moet de nieuwe rasterfunctie inschakelen als u toegang tot deze mogelijkheden wilt hebben.
 author: jasongre
-ms.date: 03/21/2022
+ms.date: 04/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 08348185a424d20b6da1563189496b7dd51944d9
-ms.sourcegitcommit: edc887e0526c415466e9691e642028ecd97cdbe7
+ms.openlocfilehash: 57133a853d1700b2d8ebb938f93af475410b82cb
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8602957"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644352"
 ---
 # <a name="grid-capabilities"></a>Rastermogelijkheden
 
@@ -106,7 +106,7 @@ Als u deze functie wilt gebruiken, klikt u met de rechtermuisknop op de kolom wa
 - Aantal gegevensrijen in deze groep
 - Subtotalen voor alle kolommen die zijn geconfigureerd voor weergave van totalen
 
-Als [Opgeslagen weergaven](saved-views.md) is ingeschakeld, kan deze groepering worden opgeslagen als onderdeel van een weergave voor snelle toegang, de volgende keer dat u de pagina bezoekt.
+Als [Opgeslagen weergaven](saved-views.md) is ingeschakeld, kunt u groeperingen opslaan als onderdeel van een weergave op pagina's waarmee query's in weergaven kunnen worden opgeslagen. Bijvoorbeeld voor grote weergave-selectors. Zie [Schakelen tussen weergaven](saved-views.md#switching-between-views) voor meer informatie. 
 
 ### <a name="multiple-levels-of-grouping"></a>Meerdere groeperingsniveaus
 Nadat u gegevens hebt gegroepeerd op een enkele kolom, kunt u de gegevens groeperen op een andere kolom door **Groeperen op deze kolom** te selecteren in de gewenste kolom. Dit proces kan worden herhaald totdat u 5 geneste groeperingsniveaus hebt. Dit is de maximale diepte die wordt ondersteund. Op dit punt kunt u niet meer op extra kolommen groeperen.

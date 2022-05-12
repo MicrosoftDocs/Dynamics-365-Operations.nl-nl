@@ -2,7 +2,7 @@
 title: Financiële dimensies
 description: In dit onderwerp worden de verschillende typen financiële dimensies beschreven en hoe ze worden ingesteld.
 author: aprilolson
-ms.date: 01/03/2019
+ms.date: 03/07/2022
 ms.topic: article
 ems.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9d5de5b58f0d498c4766659671d43fdb216cd6a870345509505b5a6bc19bdd4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 36e667e8dd1282e788eb40cd392baa9db824cec2
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754189"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644334"
 ---
 # <a name="financial-dimensions"></a>Financiële dimensies
 
@@ -79,8 +79,12 @@ Om de referentiële integriteit van de gegevens te helpen waarborgen, kunnen fin
 - Wordt de financiële dimensie gebruikt in een actieve rekeningstructuur, geavanceerde regelstructuur of set met financiële dimensies?
 - Maakt de financiële dimensie deel uit van een standaardindeling voor de integratie van financiële dimensies?
 - Is de financiële dimensie ingesteld als een standaarddimensie?
+- Is de financiële dimensie niet geselecteerd in de instellingen voor Financial Reporting? 
 
 Als aan een van de criteria wordt voldaan, kunt u de financiële dimensie niet verwijderen.
+
+> [!NOTE]
+> Vanaf Finance versie 10.0.27 worden financiële dimensies niet meer automatisch geselecteerd voor de instellingen van de financiële rapportage wanneer ze worden gemaakt. 
 
 ## <a name="default-dimension-values"></a>Waarden standaarddimensie
 

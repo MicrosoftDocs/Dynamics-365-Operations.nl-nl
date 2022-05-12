@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2c8cf4866b6a8c239359d726d8cd4f03a9eb4137
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: a7353d7d8149ff1316fbc0adc55b7e1050f443a8
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324082"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661653"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Configuraties voor elektronische rapportage aanpassen om een elektronisch document te genereren
 
 [!include[banner](../includes/banner.md)]
 
-Met het [Raamwerk voor elektronische rapportage (ER)](general-electronic-reporting.md) kunt u de [configuraties](general-electronic-reporting.md#Configuration) voor elektronische rapportage uploaden die Microsoft in uw Microsoft Dynamics 365 Finance aanbiedt. Op deze manier kunnen de door Microsoft geleverde configuraties fungeren als de oplossing voor elektronische rapportage die wordt gebruikt om elektronische klantfacturen (e-facturen) te genereren. U kunt deze ER-oplossing gebruiken om uw aangepaste ER-oplossing te configureren om toegang te krijgen tot uw aangepaste databasevelden en om e-facturen te genereren die voldoen aan uw specifieke behoeften, zonder dat u de broncode hoeft te bewerken.
+Met het [Raamwerk voor elektronische rapportage (ER)](general-electronic-reporting.md) kunt u de [configuraties](general-electronic-reporting.md#Configuration) voor elektronische rapportage uploaden die Microsoft in uw Microsoft Dynamics 365 Finance-exemplaar aanbiedt. Op deze manier kunnen de door Microsoft geleverde configuraties fungeren als de oplossing voor elektronische rapportage die wordt gebruikt om elektronische klantfacturen (e-facturen) te genereren. U kunt deze ER-oplossing gebruiken om uw aangepaste ER-oplossing te configureren om toegang te krijgen tot uw aangepaste databasevelden en om e-facturen te genereren die voldoen aan uw specifieke behoeften, zonder dat u de broncode hoeft te bewerken.
 
 ## <a name="overview"></a>Overzicht
 
@@ -61,7 +61,7 @@ Als gebruiker met de rol Functioneel consultant voor elektronische rapportage of
 ### <a name="configure-er-parameters"></a>ER-parameters configureren
 
 1. Ga naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
-2. Selecteer op de pagina **Lokalisatieconfiguraties** in de sectie **Verwante koppelingen** de tegel **Parameters van elektronische rapportage**.
+2. Selecteer op de pagina **Blauwdruk voor lokalisatie** in de sectie **Verwante koppelingen** de tegel **Parameters van elektronische rapportage**.
 3. Stel op de pagina **Parameters van elektronische rapportage** op het tabblad **Algemeen** de optie **Ontwerpmodus inschakelen** in op **Ja**.
 4. Selecteer op het tabblad **Bijlagen** in het veld **Configuraties** de optie **Bestand**.
 5. Selecteer in de velden **Taakarchief**, **Tijdelijk**, **Basislijn** en **Overige** het type **Bestand**.
@@ -78,13 +78,13 @@ Elke ER-configuratie die wordt toegevoegd, wordt gemarkeerd als het eigendom van
 #### <a name="review-the-list-of-er-configuration-providers"></a>De lijst met ER-configuratie providers bekijken
 
 1. Ga naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
-2. Selecteer op de pagina **Lokalisatieconfiguraties** in de sectie **Verwante koppelingen** de tegel **Configuratieproviders**.
+2. Selecteer op de pagina **Blauwdruk voor lokalisatie** in de sectie **Verwante koppelingen** de tegel **Configuratieproviders**.
 3. Op de tabelpagina **Configuratieproviders** heeft elke providerrecord een unieke naam en een unieke URL. Bekijk de inhoud van deze pagina. Als er al een record bestaat voor **Litware, Inc.** (`https://www.litware.com`), kunt u de volgende procedure, [Een nieuwe ER-configuratieprovider toevoegen](#AddProvider), overslaan.
 
 #### <a name="add-a-new-er-configuration-provider"></a><a id="AddProvider"></a>Een nieuwe ER-configuratieprovider toevoegen
 
 1. Ga naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
-2. Selecteer op de pagina **Lokalisatieconfiguraties** in de sectie **Verwante koppelingen** de tegel **Configuratieproviders**.
+2. Selecteer op de pagina **Blauwdruk voor lokalisatie** in de sectie **Verwante koppelingen** de tegel **Configuratieproviders**.
 3. Selecteer **Nieuw** op de pagina **Configuratieproviders**.
 4. Voer in het veld **Naam** de tekst **Litware, Inc.** in.
 5. Voer in het veld **Internetadres** de tekst `https://www.litware.com` in.
@@ -93,7 +93,7 @@ Elke ER-configuratie die wordt toegevoegd, wordt gemarkeerd als het eigendom van
 #### <a name="activate-an-er-configuration-provider"></a>Een ER-configuratieprovider activeren
 
 1. Ga naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
-2. Selecteer op de pagina **Lokalisatieconfiguraties** in de sectie **Configuratieproviders** de tegel **Litware, Inc.** en selecteer **Instellen als actief**.
+2. Selecteer op de pagina **Blauwdruk voor lokalisatie** in de sectie **Configuratieproviders** de tegel **Litware, Inc.** en selecteer **Instellen als actief**.
 
 Meer informatie over ER-configuratieproviders vindt u in [Configuratieproviders maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
@@ -102,7 +102,7 @@ Meer informatie over ER-configuratieproviders vindt u in [Configuratieproviders 
 Als u de ER-standaardconfiguraties wilt toevoegen aan uw huidige Finance-exemplaar, moet u deze importeren vanuit de ER-[opslagplaats](general-electronic-reporting.md#Repository) die voor dat exemplaar is geconfigureerd.
 
 1. Ga naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
-2. Selecteer op de pagina **Lokalisatieconfiguraties** in de sectie **Configuratieproviders** de tegel **Microsoft** en selecteer vervolgens **Opslagplaatsen** om de lijst met opslagplaatsen voor de provider Microsoft weer te geven.
+2. Selecteer op de pagina **Blauwdruk voor lokalisatie** in de sectie **Configuratieproviders** de tegel **Microsoft** en selecteer vervolgens **Opslagplaatsen** om de lijst met opslagplaatsen voor de provider Microsoft weer te geven.
 3. Selecteer op de pagina **Opslagplaats van configuraties** de opslagplaats van het type **Algemeen** en selecteer vervolgens **Openen**. Als u wordt gevraagd om toestemming te geven om verbinding te maken met de Regulatory Configuration Service, volgt u de instructies voor autorisatie.
 4. Selecteer op de pagina **Opslagplaats van configuratie** in de configuratiestructuur in het linkerdeelvenster de indelingsconfiguratie **Peppol-verkoopfactuur**.
 5. Selecteer op het sneltabblad **Versies** de versie **11.2.2**.
@@ -116,7 +116,7 @@ Als u de ER-standaardconfiguraties wilt toevoegen aan uw huidige Finance-exempla
 ### <a name="review-the-imported-er-configurations"></a>De geïmporteerde ER-configuraties bekijken
 
 1. Ga naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
-2. Selecteer op de pagina **Lokalisatieconfiguraties** in de sectie **Configuraties** de tegel **Rapportconfiguraties**.
+2. Selecteer op de pagina **Blauwdruk voor lokalisatie** in de sectie **Configuraties** de tegel **Rapportconfiguraties**.
 3. Vouw op de pagina **Configuraties** het sneltabblad **Configuratieonderdelen** uit.
 4. Vouw in de configuratiestructuur in het linkerdeelvenster **Factuurmodel** uit en vouw vervolgens **UBL-verkoopfactuur** uit.
 

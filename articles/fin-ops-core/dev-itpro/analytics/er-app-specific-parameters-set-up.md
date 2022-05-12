@@ -2,7 +2,7 @@
 title: De parameters van een ER-indeling per rechtspersoon instellen
 description: In dit onderwerp wordt uitgelegd hoe u de para meters van een ER-indeling (Elektronische rapportage) per rechts persoon kunt instellen.
 author: NickSelin
-ms.date: 10/22/2021
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: cb600c55cb2d40129d1b29ab989bc8f7cf3f4686
-ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.openlocfilehash: f72ce72e9cbd268efc6ab09dbec7009794d69613
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7927449"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644494"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>De parameters van een ER-indeling per rechtspersoon instellen
 
@@ -226,7 +226,7 @@ Als u toepassingsspecifieke parameters configureert voor één versie van een ER
 Wanneer u een bestand selecteert dat u wilt importeren, wordt de structuur van de toepassingsspecifieke parameters in dat bestand vergeleken met de structuur van de bijbehorende gegevensbronnen van het type **Zoekopdracht** in de ER-indeling die voor het importeren is geselecteerd. Standaard wordt de importbewerking alleen voltooid als de structuur van elke toepassingsspecifieke parameter overeenkomt met de structuur van de bijbehorende gegevensbron in de ER-indeling die voor het importeren is geselecteerd. Als de structuren niet overeenkomen, krijgt u de waarschuwingsbericht dat de importbewerking niet kan worden uitgevoerd. Als u de importbewerking afdwingt, worden de bestaande toepassingsspecifieke parameters voor de geselecteerde ER-indeling verwijderd en moet u deze opnieuw instellen.
 
 
-Vanaf versie 10.0.24 van Dynamics 365 Finance kunt u het standaardgedrag wijzigen en voorkomen dat u een waarschuwingsbericht ontvangt door de functie **Specifieke parameters voor de ER-toepassing afstemmen tijdens het importeren** in de werkruimte **Functiebeheer**. Wanneer deze functie is ingeschakeld en als de structuur van de toepassingsspecifieke parameters in dat bestand verschilt van de structuur van de bijbehorende gegevensbronnen in de doel-ER-indeling die voor het importeren is geselecteerd, wordt het importeren in de volgende gevallen uitgevoerd:
+Vanaf Finance versie 10.0.24 kunt u het standaardgedrag wijzigen en voorkomen dat u een waarschuwingsbericht ontvangt door de functie **Specifieke parameters voor de ER-toepassing afstemmen tijdens het importeren** in de werkruimte **Functiebeheer**. Wanneer deze functie is ingeschakeld en als de structuur van de toepassingsspecifieke parameters in dat bestand verschilt van de structuur van de bijbehorende gegevensbronnen in de doel-ER-indeling die voor het importeren is geselecteerd, wordt het importeren in de volgende gevallen uitgevoerd:
 
 - De structuur van de doel-ER-indeling is gewijzigd door nieuwe voorwaardekolommen toe te voegen aan bestaande gegevensbronnen van het type **Zoeken**. Wanneer het importeren is voltooid, worden de toepassingsspecifieke parameters bijgewerkt. In alle geïmporteerde records met toepassingsspecifieke parameters worden de waarden in elke toegevoegde voorwaardekolom geïnitialiseerd met de standaardwaarde voor het [gegevenstype](er-formula-supported-data-types-primitive.md) van die kolom.
 - De structuur van de doel-ER-indeling is gewijzigd door nieuwe voorwaardekolommen te verwijderen uit bestaande gegevensbronnen van het type **Zoeken**. Wanneer het importeren is voltooid, worden de toepassingsspecifieke parameters bijgewerkt. In alle geïmporteerde records met toepassingsspecifieke parameters worden de waarden in elke verwijderde voorwaardekolom verwijderd.
@@ -235,9 +235,33 @@ Vanaf versie 10.0.24 van Dynamics 365 Finance kunt u het standaardgedrag wijzige
 
 Wanneer het importeren is voltooid, wordt naast de zojuist beschreven wijzigingen, de status van de geïmporteerde toepassingsspecifieke parameters gewijzigd in **In uitvoering**. U krijgt een waarschuwingsbericht dat de automatisch gecorrigeerde toepassingsspecifieke parameters handmatig moeten worden bewerkt.
 
+#### <a name="replicate-parameters"></a>Parameters repliceren
+
+Vanaf Finance versie 10.0.27 kunt u de parameters die u in het ene bedrijf hebt geconfigureerd, tegelijkertijd naar andere bedrijven kopiëren.
+
+Voer de volgende stappen uit om parameters te kopiëren.
+
+1. Ga naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
+2. Selecteer **Rapportageconfiguraties**.
+3. Selecteer de indeling **Indeling voor het opzoeken van LE-gegevens** in de configuratiestructuur.
+4. Selecteer in het actievenster op het tabblad **Configuraties** in de groep **Specifieke toepassingsparameters** de optie **Instellen**.
+5. Selecteer versie **1.1.1** van de ER-indeling.
+6. Selecteer in het actievenster de optie **Repliceren**.
+7. Selecteer op het tabblad **Bedrijven** in het dialoogvenster **Repliceren** de bedrijven waarnaar u parameters wilt kopiëren.
+
+    > [!NOTE]
+    > De lijst met doelbedrijven wordt alleen aangeboden aan gebruikers aan wie een [beveiligingsrol](../sysadmin/role-based-security.md#security-roles) is toegewezen die is geconfigureerd om toegang te verlenen tot alle organisaties.
+
+8. Selecteer **OK**.
+
+    > [!NOTE]
+    > In het bevestigingsdialoogvenster wordt vermeld of bepaalde doelbedrijven eerder geconfigureerde parameters bevatten voor de geselecteerde versie van een ER-indeling. Selecteer **Ja** als u de parameters wilt overschrijven door deze te kopiëren uit het huidige bedrijf.
+
+    De geconfigureerde set toepassingsspecifieke parameters wordt nu gekopieerd naar de geselecteerde bedrijven.
+
 ### <a name="reuse-existing-parameters"></a>Bestaande parameters opnieuw gebruiken
 
-Vanaf versie 10.0.23 van Dynamics 365 Finance kunt u toepassingsspecifieke parameters die zijn geconfigureerd voor één versie van een ER-indeling, opnieuw gebruiken wanneer u een hogere versie van dezelfde indeling gebruikt. Hiervoor moet u de functie **Toepassingsspecifieke parameters van vorige versies van ER-indelingen** inschakelen in de werkruimte **Functiebeheer**. Wanneer deze functie is ingeschakeld en u één versie van een ER-indeling uitvoert die probeert toepassingsspecifieke parameters te lezen, probeert ER toepassingsspecifieke parameters te vinden die geconfigureerd zijn voor de lopende versie van deze indeling. Of, wanneer deze niet beschikbaar zijn, voor de dichtstbijzijnde lagere versie van deze indeling.
+Vanaf Finance versie 10.0.23 kunt u toepassingsspecifieke parameters die zijn geconfigureerd voor één versie van een ER-indeling, opnieuw gebruiken wanneer u een hogere versie van dezelfde indeling gebruikt. Als u bestaande parameters wilt hergebruiken, moet u de functie **Toepassingsspecifieke parameters van vorige versies van ER-indelingen** inschakelen in de werkruimte **Functiebeheer**. Wanneer deze functie is ingeschakeld en u één versie van een ER-indeling uitvoert die probeert toepassingsspecifieke parameters te lezen, probeert ER toepassingsspecifieke parameters te vinden die geconfigureerd zijn voor de lopende versie van de indeling. Wanneer deze niet beschikbaar zijn, probeert ER ze te vinden voor de dichtstbijzijnde lagere versie van de indeling.
 
 > [!NOTE]
 > U kunt toepassingsspecifieke parameters alleen opnieuw gebruiken van de huidige rechtspersoon.

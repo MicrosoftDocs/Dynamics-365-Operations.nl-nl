@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c022bb15975a1411230d28067a2225c95c0573bf
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e43aaad2f5b80996eb0fc10f550f073aec67fe5d
+ms.sourcegitcommit: 26c726bd0b00935e3d2c31fdc5a3b2ae03a8a2b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062720"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661453"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>Veelgestelde vragen over infrastructuursamenvoeging voor Dynamics 365 Human Resources
 
@@ -32,7 +32,7 @@ In dit onderwerp worden veelgestelde vragen beantwoord over het samenvoegen van 
 
 ## <a name="what-is-the-dynamics-365-human-resources-infrastructure-merge"></a>Wat is de infrastructuursamenvoeging voor Dynamics 365 Human Resources?
 
-Dynamics 365 Human Resources is een zelfstandige toepassing die een andere infrastructuur gebruikt dan andere apps voor financiële en bedrijfsactiviteiten, zoals Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce en Dynamics 365 Project Operations. Door de infrastructuursamenvoeging krijgt Dynamics 365 Human Resources dezelfde infrastructuur als andere apps voor financiële en bedrijfsactiviteiten.
+Dynamics 365 Human Resources is een zelfstandige toepassing die een andere infrastructuur gebruikt dan andere apps voor financiën en bedrijfsactiviteiten, zoals Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce en Dynamics 365 Project Operations. Door de infrastructuursamenvoeging krijgt Dynamics 365 Human Resources dezelfde infrastructuur als andere apps voor financiële en bedrijfsactiviteiten.
 
 ## <a name="value-and-benefits-of-the-infrastructure-merge"></a>Toegevoegde waarde en voordelen van de infrastructuursamenvoeging
 
@@ -231,6 +231,3 @@ Bestaande gebruikers van Dynamics 365-toepassingen en gebruikers van zelfstandig
 
 Er zijn geen extra omgevingen vereist voor het ondersteunen van de infrastructuurwijziging.
 
-### <a name="where-should-i-go-if-i-have-additional-questions-about-product-licensing"></a>Waar moet ik naartoe als ik extra vragen heb over productlicenties?
-
-Als u licentievragen hebt, kunt u meer informatie vinden op [Biz Apps Hub – Prijzen en licenties voor D365](https://businessapplications.transform.microsoft.com/resources/pricing-and-licensing?tab=grandfathering). Open een aanvraag bij LicenseQ als deze informatie niet helpt bij uw probleem.

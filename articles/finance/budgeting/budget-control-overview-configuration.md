@@ -2,7 +2,7 @@
 title: Overzicht van Budgetbeheer
 description: Dit onderwerp introduceert de functie voor budgetbeheer en biedt u informatie bij het configureren van budgetbeheer om het beheer van de financiële middelen van uw organisatie te optimaliseren.
 author: panolte
-ms.date: 11/08/2021
+ms.date: 03/28/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14b852bb4aeca927adeeb2665b9887e467b71158
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7019b3546b83047e91fa129d8d92f209f131c993
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986051"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644842"
 ---
 # <a name="budget-control-overview"></a>Overzicht van Budgetbeheer
 
@@ -80,7 +80,9 @@ Vervolgens kunt u op het tabblad **Beschikbare budgetfondsen** de formule defini
 > [!NOTE]
 > Als deze berekening tijdens een budgetcyclus wordt gewijzigd, zijn de wijzigingen niet van invloed op documenten die eerder door budgetbeheercontroles heen zijn gekomen en zijn geboekt of voltooid. Met de functie **Alleen bedragen bijhouden in de berekeningsfunctie voor beschikbare budgetfondsen** kunt u wijzigen welke gegevens in de BudgetSourceTracking-tabellen worden bijgehouden. Wanneer deze functie is ingeschakeld, worden bedragen alleen opgeslagen als deze zijn geselecteerd voor gebruik in de beschikbare berekening van budgetfondsen. Zie [Beschikbare budgetfondsen](budget-funds-available.md) voor meer informatie.
 
-Vervolgens kunt u op het tabblad **Documenten en journalen** selecteren welke brondocumenten en journalen aan budgetbeheercontroles worden onderworpen en of de controles zullen plaatsvinden op het niveau van de regelinvoer of voor het document in zijn geheel. 
+### <a name="documents-and-journals"></a>Documenten en journalen
+
+U kunt op het tabblad **Documenten en journalen** selecteren welke brondocumenten en journalen aan budgetbeheercontroles worden onderworpen en of de controles zullen plaatsvinden op het niveau van de regelinvoer of voor het document in zijn geheel. Daarnaast biedt de nieuwe functie **Filteruitbreiding voor budgetbeheerdocumenten** die beschikbaar is vanaf Microsoft Dynamics 365 Finance versie 10.0.27 een op query gebaseerde filteroptie voor elk document dat in budgetbeheer is opgenomen. Daarom kunt u opgeven voor welke budgetbeheerdocumenten budgetcontrole is uitgevoerd. Op deze manier wordt met de functie alleen het budget gecontroleerd van een subset van een documenttype. U kunt bijvoorbeeld alleen inkooporders controleren waarbij het veld **Pool** is ingesteld op **01**. Een nieuwe kolom die aan het tabblad **Documenten en journalen** wordt toegevoegd, geeft aan of een query voor het geselecteerde documenttype is gedefinieerd. Bovendien kunt u met twee nieuwe knoppen die aan de werkbalk boven het documentraster zijn toegevoegd, filters toevoegen, bewerken of verwijderen. 
 
 U moet de brondocumenten die zijn geselecteerd vergelijken met de selectievakjes voor saldi die zijn opgenomen in de berekening van beschikbare budgetfondsen. Als u bijvoorbeeld **Budgetreserveringen voor vorderingen** hebt geselecteerd, moet u de optie **Inkooporders** selecteren. Wanneer een budgetcontrole wordt uitgevoerd voor de bedragen en rekeningen op een inkoopregels, dan is de budgetbeheercategorie die aan de reservering wordt toegekend **Vordering**. Wanneer een budgetcontrole wordt uitgevoerd voor de bedragen en rekeningen op een opdracht tot inkoop, is de budgetbeheercategorie die aan de reservering wordt toegekend **Voorvordering**. 
 

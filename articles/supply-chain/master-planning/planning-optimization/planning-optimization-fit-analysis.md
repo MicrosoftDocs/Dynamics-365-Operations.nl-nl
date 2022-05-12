@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: dccc955492d33e9e0156f2a5feb6b33387d80af3
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: bf63069c5f18fe67c7d7f538311853d79c0f4fe8
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487637"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649152"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analyse aanpassen aan Planningsoptimalisatie
 
@@ -57,7 +57,7 @@ In de volgende tabel worden de verschillende resultaten weergegeven die kunnen w
 
 | Functie | Vermeld probleem | Uitleg | Verwachte beschikbaarheid |
 | --- | --- | --- | --- |
-| Acties | Behoefteplanningsgroepen met Actieberekening ingeschakeld: _\#_ | Deze functie wordt verwerkt. Momenteel worden er geen acties gegenereerd tijdens de hoofdplanning wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. Het belangrijkste doel van acties is het voorstellen van wijzigingen in bestaande orders. Ga na of acties actief worden toegepast als onderdeel van uw bedrijfsprocessen en of de vertragingsinformatie die betrekking heeft op de orders voldoende is. | 2022 april |
+| Acties | Behoefteplanningsgroepen met Actieberekening ingeschakeld: _\#_ | Deze functie wordt verwerkt. Momenteel worden er geen acties gegenereerd tijdens de hoofdplanning wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. Het belangrijkste doel van acties is het voorstellen van wijzigingen in bestaande orders. Ga na of acties actief worden toegepast als onderdeel van uw bedrijfsprocessen en of de vertragingsinformatie die betrekking heeft op de orders voldoende is. | Ondersteund |
 | Basiskalenders | Kalenders die de basiskalender gebruiken: _\#_ | Deze functie wordt nu ondersteund. | 2022 maart | 
 | Batchbeschikkingscodes | Batchbeschikkingsmodellen met niet-nettobehoefte: _\#_ | Deze functie wordt verwerkt. Op dit moment worden batchbeschikkingscodes genegeerd wanneer Planningsoptimalisatie is ingeschakeld. | Oktober 2022 of later |
 | Capable To Promise (CTP) | Standaardorderinstellingen met leveringsdatumcontrole ingesteld op CTP: _\#_ | Deze functie wordt verwerkt. Momenteel wordt CTP genegeerd wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | 2022 oktober |

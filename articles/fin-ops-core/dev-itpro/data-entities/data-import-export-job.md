@@ -2,7 +2,7 @@
 title: Overzicht van gegevensimport- en exporttaken
 description: Gebruik de werkruimte Gegevensbeheer om taken voor het importeren en exporteren van gegevens te maken en te beheren.
 author: peakerbl
-ms.date: 10/21/2021
+ms.date: 04/25/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e63daad6f206500bfa21c28635648c717f5bbdde
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 74430aadc661a49e330960135ce7b0912079f79b
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071080"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644454"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Overzicht van Gegevensimport- en exporttaken
 
@@ -74,8 +74,11 @@ Wanneer u een entiteit selecteert, moet u de indeling selecteren van de gegevens
 > [!NOTE]
 > Het is belangrijk dat u de juiste waarde selecteert voor **Rijscheidingsteken**, **Kolomscheidingsteken** en **Tekstkwalificatie** als de optie **Bestandsindeling** is ingesteld op **Gescheiden**. Zorg ervoor dat uw gegevens niet het teken bevatten dat als scheidingsteken of kwalificatie wordt gebruikt , omdat dit kan leiden tot fouten tijdens het importeren en exporteren.
 
+> [!NOTE]
+> Zorg ervoor dat u alleen wettelijke tekens gebruikt voor bestandsindelingen op basis van XML. Zie [Geldige tekens in XML 1.0](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/) voor meer informatie over geldige tekens . In XML 1.0 zijn geen controletekens toegestaan, behalve tabs, regelteruglopen en nieuwe regels. Voorbeelden van ongeldige tekens zijn vierkante haakjes, accolades en backslashes. 
+
 ### <a name="sequence-the-entities"></a>De volgorde van de entiteiten bepalen
-Entiteiten kunnen worden geordend in een gegevenssjabloon of in import- en exporttaken. Wanneer u een taak met meer dan één gegevensentiteit uitvoert, moet u ervoor zorgen dat de gegevensentiteiten correct zijn geordend. U stelt voornamelijk een volgorde voor entiteiten in als er functionele afhankelijkheden tussen entiteiten bestaan. Als entiteiten geen functionele afhankelijkheden hebben, kunnen ze worden gepland voor parallel importeren of exporteren.
+Entiteiten kunnen worden geordend in een gegevenssjabloon of in import- en exporttaken. Wanneer u een taak met meer dan één gegevensentiteit uitvoert, moet u ervoor zorgen dat de gegevensentiteiten correct zijn geordend. U stelt voornamelijk een volgorde voor entiteiten in als er functionele afhankelijkheden tussen entiteiten bestaan. Als entiteiten geen functionele afhankelijkheden hebben, kunnen ze worden gepland voor parallel importeren of exporteren. 
 
 #### <a name="execution-units-levels-and-sequences"></a>Uitvoeringseenheden, -niveaus en -volgordes
 De uitvoeringseenheid, het niveau in de uitvoeringseenheid en de volgorde van entiteiten bepalen in welke volgorde de gegevens worden geëxporteerd of geïmporteerd.

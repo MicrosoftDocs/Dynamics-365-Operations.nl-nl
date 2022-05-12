@@ -2,19 +2,19 @@
 title: Algemene problemen oplossen
 description: Dit onderwerp bevat algemene informatie voor het oplossen van problemen voor de integratie van twee keer wegschrijven tussen apps voor financiële en bedrijfsactiviteiten en Dataverse.
 author: RamaKrishnamoorthy
-ms.date: 04/07/2020
+ms.date: 04/18/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8b5951f9f40179ca0bf31f5cccf1f05a0f968213
-ms.sourcegitcommit: 1843235766b6f8cf950a13a310e9f4f2f53c59a4
+ms.openlocfilehash: 5896b031229c7fe7e02c8ccf038dd2b1a4f2de05
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "8554594"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8614090"
 ---
 # <a name="general-troubleshooting"></a>Algemene problemen oplossen
 
@@ -131,6 +131,29 @@ Ga als volgt te werk om de optie voor het formulier **Informatie** opnieuw in te
 2. Zoek het formulier **Informatie** onder het knooppunt met formulieren.
 3. Selecteer het formulier **Informatie** en klik op **Beveiligingsrollen inschakelen**.
 4. Wijzig de beveiligingsinstelling in **Weergeven aan iedereen**.
+
+## <a name="how-to-ensure-data-integration-is-using-the-most-current-finance-and-operations-schema"></a>Zorgen dat voor gegevensintegratie gebruik wordt gemaakt van het meest actuele schema voor financiën en bedrijfsactiviteiten
+
+Mogelijk ontstaan gegevensproblemen in de gegevensintegratie als niet het meest recente schema wordt gebruikt. Met de volgende stappen kunt u de lijst met entiteiten in de apps voor financiën en bedrijfsactiviteiten en de entiteiten in de gegevensintegrator vernieuwen.
+
+### <a name="refresh-entity-list-in-finance-and-operations-environment"></a>Vernieuw de lijst met entiteiten in de omgeving voor financiën en bedrijfsactiviteiten
+1.  Log in bij uw omgeving voor financiën en bedrijfsactiviteiten.
+2.  Selecteer **Gegevensbeheer**.
+3.  Selecteer in Gegevensbeheer **Raamwerkparameters**.
+4.  Selecteer op de pagina **Parameters van raamwerk voor gegevensimport/-export** het tabblad **Entiteitsinstellingen** en selecteer vervolgens **Entiteitslijst vernieuwen**. Dit kan meer dan 30 minuten duren, afhankelijk van het aantal betrokken entiteiten.
+5.  Navigeer naar **Gegevensbeheer** en selecteer **Gegevensentiteiten** om te valideren of de verwachte entiteiten worden weergegeven. Als de verwachte entiteiten niet worden weergegeven, valideert u of de entiteiten in de omgeving voor financiën en bedrijfsactiviteiten worden weergegeven en herstelt u de ontbrekende entiteiten waar nodig.
+
+#### <a name="if-the-refresh-fails-to-resolve-the-issue-delete-and-re-add-the-entities"></a>Als het vernieuwen het probleem niet oplost, verwijdert u de entiteiten en voegt u deze opnieuw toe.
+
+> [!NOTE]
+> Mogelijk moet u verwerkingsgroepen stoppen die worden gebruikt door de entiteiten voordat u deze kunt verwijderen.
+
+1.  Selecteer **Gegevensbeheer** in de omgeving voor financiën en bedrijfsactiviteiten en selecteer **Gegevensentiteiten**.
+2.  Zoek naar entiteiten met problemen, noteer de doelentiteit, de faseringstabel, de naam van de entiteit en andere instellingen. Verwijder de entiteit of entiteiten uit de lijst.
+3.  Selecteer **Nieuw** en voeg de entiteit of entiteiten opnieuw toe met de gegevens uit stap 2. 
+
+#### <a name="refresh-entities-in-data-integrator"></a>Entiteiten vernieuwen in data integrator
+Meld u aan bij het Power Platform-beheercentrum en selecteer **Gegevensintegratie**. Open het project waar de problemen optreden en selecteer **Entiteiten vernieuwen**.
 
 ## <a name="how-to-enable-and-save-network-trace-so-that-traces-can-be-attached-to-support-tickets"></a>Netwerktracering inschakelen en opslaan, zodat traceringen kunnen worden gekoppeld aan ondersteuningstickets
 

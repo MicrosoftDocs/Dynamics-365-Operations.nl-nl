@@ -2,7 +2,7 @@
 title: Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
 description: Dit onderwerp bevat informatie over het ontwerpen van een ER-indeling (Elektronische rapportage) voor het invullen van een Excel-sjabloon en het genereren van uitgaande Excel-documenten.
 author: NickSelin
-ms.date: 02/28/2022
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b2f38aa9e5eff9366697afd57ceefd06f026096
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: ec25065f2e3cc3b5dd3c9004d5330447f7b2ac61
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388258"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645130"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
 
@@ -141,7 +141,12 @@ U kunt de Excel-sjabloon configureren, zodat cellen worden gebruikt om tekstgege
 > [!NOTE]
 > Wegens een bekende [beperking van Excel](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353) is het mogelijk dat, zelfs als u cellen configureert om tekst terug te laten lopen, en u de rijen die deze cellen bevatten configureert om de hoogte ervan automatisch aan te passen aan de teruglopende tekst, u de Excel-functies **AutoAanpassen** en **Tekstterugloop** niet kunt gebruiken voor samengevoegde cellen en de rijen die deze cellen bevatten. 
 
-Vanaf versie 10.0.23 van Dynamics 365 Finance kunt u ER dwingen om in een gegenereerd document de hoogte van elke rij te berekenen die zo is geconfigureerd dat de hoogte ervan automatisch wordt aangepast aan de inhoud van geneste cellen wanneer die rij minimaal één samengevoegde cel bevat die is geconfigureerd om de tekst binnen de rij terug te laten lopen. De berekende hoogte wordt vervolgens gebruikt om de grootte van de rij te wijzigen, zodat alle cellen in de rij zichtbaar zijn in het gegenereerde document. Volg deze stappen om deze functionaliteit te gaan gebruiken wanneer u een ER-indeling uitvoert die geconfigureerd was om Excel-sjablonen te gebruiken om uitgaande documenten te genereren.
+Vanaf Dynamics 365 Finance versie 10.0.23 kunt u ER dwingen om bij het werken in een gegenereerd document de hoogte van elke rij te berekenen die zo is geconfigureerd dat de hoogte ervan automatisch wordt aangepast aan de inhoud van geneste cellen wanneer die rij minimaal één samengevoegde cel bevat die is geconfigureerd om de tekst binnen de rij terug te laten lopen. De berekende hoogte wordt vervolgens gebruikt om de grootte van de rij te wijzigen, zodat alle cellen in de rij zichtbaar zijn in het gegenereerde document.
+
+> [!NOTE]
+> Deze functionaliteit werkt mogelijk niet zoals u verwacht wanneer een aangepast lettertype wordt gebruikt voor het opmaken van een samengevoegde cel. Omdat aangepaste lettertypen niet in Excel worden ingesloten, biedt Excel geen informatie over aangepaste tekengrootte. Daarom kan de grootte van de samengevoegde cel onjuist worden geraamd.
+
+Volg deze stappen om deze functionaliteit te gaan gebruiken wanneer u een ER-indeling uitvoert die geconfigureerd was om Excel-sjablonen te gebruiken om uitgaande documenten te genereren.
 
 1. Ga naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
 2. Selecteer op de pagina **Lokalisatieconfiguraties** in de sectie **Verwante koppelingen** de tegel **Parameters van elektronische rapportage**.

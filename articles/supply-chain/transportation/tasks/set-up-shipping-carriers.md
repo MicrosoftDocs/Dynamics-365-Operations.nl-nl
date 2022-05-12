@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e9bc4fefb6aabc0b93d4d96f5930590ef99235b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 38bf1f9f201e7f34e6a7ea76fbef399ba94caafa
+ms.sourcegitcommit: 367e323bfcfe41976e5d8aa5f5e24a279909d8ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567651"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8660374"
 ---
 # <a name="set-up-shipping-carriers"></a>Vervoerders instellen
 
@@ -27,8 +27,8 @@ ms.locfileid: "7567651"
 
 In dit onderwerp wordt beschreven hoe u een vervoerder instelt en details bepaalt zoals service, modus van zending, transportaanbesteding, transportbeperkingen en verzendtarief. Een transportcoördinator kan vervolgens een vervoerder toewijzen aan een inkomende of uitgaande lading.
 
-
 ## <a name="create-a-new-shipping-carrier"></a>Een nieuwe vervoerder maken
+
 1. Ga naar **Navigatievenster > Modules > Transportbeheer > Instellingen > Vervoerders > Vervoerders**.
 2. Selecteer **Nieuw** in het actievenster.
 3. Typ een waarde in het veld **Vervoerder**.
@@ -36,6 +36,7 @@ In dit onderwerp wordt beschreven hoe u een vervoerder instelt en details bepaal
 5. Selecteer in het veld **Modus** een optie in het vervolgkeuzemenu.
 
 ## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a>De algemene informatie voor de vervoerder invullen
+
 1. Schakel de uitbreiding van de sectie **Overzicht** om.
 2. Schakel het selectievakje **Vervoerder activeren** in of uit.
 3. Selecteer in het veld **Leveranciersrekening** een optie in het vervolgkeuzemenu. Selecteer de leverancierrekening waaraan de vervoerder moet worden toegewezen.  
@@ -43,13 +44,16 @@ In dit onderwerp wordt beschreven hoe u een vervoerder instelt en details bepaal
 5. Schakel het selectievakje **Vervoerdersbeoordeling** activeren in of uit.
 
 ## <a name="create-the-necessary-services-for-the-shipping-carrier"></a>De nodige services voor de vervoerder maken
+
 1. Schakel de uitbreiding van de sectie **Services** om.
 2. Selecteer **Nieuw**.
 3. Typ een waarde in het veld **Vervoerdersservice**.
 4. Typ een waarde in het veld **Naam**.
-5. Selecteer in het veld **Transportmethode** een optie in het vervolgkeuzemenu.
+5. Selecteer in het veld **Ladingsjabloon-id** een laadsjabloon die u aan de service wilt koppelen. De laadsjabloon definieert maximummetingen voor gewicht en volume van een volledige lading. Zo kan de laadsjabloon bijvoorbeeld de grootte van een container of een vrachtwagen vertegenwoordigen. Laadsjabloon-ID's worden ook opgegeven in ladingopbouwsjablonen. Wanneer u de [workbench voor ladingopbouw](load-building-workbench.md) gebruikt, kunt u ladingopbouwstrategieën toepassen om ladingen te maken. Hierdoor kan elke nieuwe lading worden afgestemd op een geschikte vervoerdersservice door de opgegeven laadsjabloon-ID's met elkaar te vergelijken.
+6. Selecteer in het veld **Transportmethode** een optie in het vervolgkeuzemenu.
 
 ## <a name="set-up-the-address-for-the-carrier-optional"></a>Het adres voor de vervoerder instellen (optioneel)
+
 1. Schakel de uitbreiding van de sectie **Adressen** om.
 2. Selecteer **Nieuw**.
 3. Typ een waarde in het veld **Naam of omschrijving**.
@@ -59,6 +63,7 @@ In dit onderwerp wordt beschreven hoe u een vervoerder instelt en details bepaal
 7. Selecteer **OK**.
 
 ## <a name="set-up-the-rating-profile-for-the-shipping-carrier"></a>Het tariefprofiel voor de vervoerder instellen
+
 1. Schakel de uitbreiding van de sectie **Beoordelingsprofielen** om.
 2. Selecteer **Nieuw**.
 3. Typ een waarde in het veld **Beoordelingsprofiel**.

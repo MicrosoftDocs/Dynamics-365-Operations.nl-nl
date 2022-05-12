@@ -2,7 +2,7 @@
 title: ER-configuraties ontwerpen om in te vullen in PDF-sjablonen
 description: Dit onderwerp bevat informatie over het ontwerpen van een indeling voor elektronische rapportage (ER) voor het invullen van een PDF-sjabloon.
 author: NickSelin
-ms.date: 02/28/2022
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: a568ddd93bfbc7d536e951a13470b3dedb796e1b
-ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.openlocfilehash: 706256300cf0b64bc5b5e1e7adb77c1da500d16f
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367851"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645102"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>ER-configuraties ontwerpen om in te vullen in PDF-sjablonen
 
@@ -252,10 +252,14 @@ Omdat beide eigenschappen optioneel zijn voor een opmaakelement **Veld**, worden
 - Als het kenmerk **Naam** is gedefinieerd en de expressie **Naam** is geconfigureerd, wordt het PDF-veld met dezelfde naam de waarde die wordt geretourneerd door de expressie **Naam** van het opmaakelement ingevuld.
 
 > [!NOTE]
-> Een PDF-selectievakje kan op de volgende manieren worden geselecteerd:
+> Wanneer een selectievakje in de PDF-sjabloon geen onderdeel is van een groep selectievakjes, wordt dit in de bewerkbare ER-indeling weergegeven als een **veld** element dat is genest onder het **PDF-bestandselement**. Dit type PDF-selectievakje kan op de volgende manieren worden ingesteld:
 >
-> - Wanneer het overeenkomstige opmaakelement **Veld** is gekoppeld aan een gegevensbronveld van het gegevenstype **Booleaans** met de waarde **Waar**
-> - Wanneer het bijbehorende opmaakelement **Veld** een genest opmaakelement **Tekenreeks** bevat dat is gekoppeld aan een gegevensbronveld met een tekstwaarde van **1**, **Waar** of **Ja**
+> - Het overeenkomstige opmaakelement **Veld** is gekoppeld aan een gegevensbronveld van het gegevenstype *[Booleaans](er-formula-supported-data-types-primitive.md#boolean)* met de waarde **Waar**.
+> - Het bijbehorende opmaakelement **Veld** bevat een genest opmaakelement **Tekenreeks** dat is gekoppeld aan een gegevensbronveld met een tekstwaarde van **1**, **Waar** of **Ja**.
+>
+> Uw sjabloon kan een groep selectievakjes bevatten waarbij slechts één selectievakje tegelijk kan worden ingeschakeld. Deze selectievakjes worden in een PDF-sjabloon weergegeven als meerdere formuliervelden van het type *SELECTIEVAKJE*. Elk veld heeft dezelfde naam maar een andere exportwaarde. Wanneer u de sjabloon in de bewerkbare ER-indeling importeert, wordt elk selectievakje in de indelingshiërarchiestructuur weergegeven als een element **Item van groep selectievakjes** dat is genest onder hetzelfde element **Groep selectievakjes**. De naam van het element **Groep selectievakjes** komt overeen met de naam van de selectievakjes in de PDF-sjabloon. De naam van elk element **Item van groep selectievakjes** komt overeen met de exportwaarde naam van het overeenkomstige selectievakjeveld in de PDF-sjabloon.
+>
+> U kunt een element **Item van groep selectievakjes** alleen aan een gegevensbronveld van het *Booleaanse* gegevenstype binden.
 
 ## <a name="run-the-format-configuration"></a>De indelingsconfiguratie uitvoeren
 

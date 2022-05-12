@@ -2,24 +2,20 @@
 title: Retouren maken in POS
 description: In dit onderwerp wordt beschreven hoe u retouren voor contante transacties of klantorders start in de toepassing Microsoft Dynamics 365 Commerce POS (Point of Sale).
 author: hhainesms
-ms.date: 02/24/2022
+ms.date: 04/27/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+audience: Application User, Developer, IT Pro
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 3250f702f033fb8b00763542fd8342c089b47b2e
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: c8e06c0d83e3bc2f5efea1e3a8124c700706aa2e
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349686"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8648983"
 ---
 # <a name="create-returns-in-pos"></a>Retouren maken in POS
 
@@ -107,9 +103,64 @@ De volgende lijst bevat de minimale versievereisten voor de verschillende compon
 ## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>De correcte belastingberekening voor retouren met gedeeltelijke hoeveelheid inschakelen
 
 Deze functie zorgt ervoor dat wanneer een order wordt geretourneerd met meerdere facturen, de btw uiteindelijk gelijk is aan het oorspronkelijke aangerekende btw-bedrag.
-1.  Ga naar het werkgebied **Functiebeheer** en zoek naar **De correcte belastingberekening voor retouren met gedeeltelijke hoeveelheid inschakelen**.
-2.  Selecteer **De correcte belastingberekening voor retouren met gedeeltelijke hoeveelheid inschakelen** en klik vervolgens op **Inschakelen**.
 
+1. Zoek in het werkgebied **Functiebeheer** naar **De correcte belastingberekening voor retouren met gedeeltelijke hoeveelheid inschakelen**.
+1. Selecteer de optie **De correcte belastingberekening voor retouren met gedeeltelijke hoeveelheid inschakelen** en selecteer vervolgens **Inschakelen**.
+
+## <a name="set-up-return-locations-for-retail-stores"></a>Retourlocaties voor detailhandelwinkels instellen
+
+In Commerce kunt u retourlocaties instellen die op detailhandelsinfocodes en verkoop- en marketingredencodes zijn gebaseerd. Wanneer een klant een aankoop retourneert, geeft de kassier vaak de reden voor de retour aan. U kunt opgeven dat geretourneerde producten aan verschillende retourlocaties in voorraad worden toegewezen, gebaseerd op de informatie- en redencodes die de kassier selecteert op de POS-kassa.
+
+Stel dat een klant een defect product retourneert en de kassamedewerker de retourtransactie verwerkt. Wanneer in Retail POS de informatiecode voor retouren wordt toont, selecteert de kassier de subcode voor een retour wegens defect. Het geretourneerde product wordt vervolgens automatisch toegewezen aan een specifieke retourlocatie.
+
+Een retourlocatie kan een winkel, een magazijn, een locatie in een magazijn of zelfs een bepaalde pallet zijn, afhankelijk van de voorraadlocaties die uw organisatie heeft ingesteld. U kunt elke retourlocatie koppelen aan een of meer infocodes voor detailhandel en redencodes voor sales en marketing.
+
+### <a name="prerequisites"></a>Vereisten
+
+Voordat u retourlocaties kunt instellen, moet u de volgende elementen instellen:
+
+- **Infocodes detailhandel**: Prompts op de POS-kassa die worden ingesteld in de module **Detailhandel**. Meer informatie over dit onderwerp vindt u in [Infocodes instellen](/dynamicsax-2012/appuser-itpro/setting-up-info-codes).
+- **Verkoop- en marketingredencodes**: Prompts op de POS-kassa die worden ingesteld in de module **Verkoop en marketing**. Meer informatie over dit onderwerp vindt u in [Redencodes instellen](/dynamicsax-2012/appuser-itpro/set-up-return-reason-codes).
+- **Voorraadlocaties**: De plaatsen waar de voorraad wordt bewaard. Meer informatie over dit onderwerp vindt u in [Voorraadlocaties instellen](/dynamicsax-2012/appuser-itpro/about-locations).
+    
+### <a name="set-up-return-locations"></a>Retourlocaties instellen
+
+Voer de onderstaande stappen uit om retourlocaties in te stellen.
+
+1. Ga naar **Retail en handel \> Afzetkanaalinstellingen \> Magazijnen** en selecteer een magazijn
+1. Selecteer op het sneltabblad **Retail** in het veld **Standaardlocatie voor retournering** de voorraadlocatie die u wilt gebruiken voor retouren waarvoor de infocodes of redencodes niet zijn toegewezen aan retourlocaties.
+1. Selecteer in het veld **Standaardretourpallet** de pallet die u wilt gebruiken voor retouren waarvoor de infocodes of redencodes niet zijn toegewezen aan retourlocaties.
+1. Ga naar **Retail en Commerce \> Voorraadbeheer \> Retourlocaties**.
+1. Selecteer **Nieuw** om een nieuwe beleidsregel voor retourlocaties te maken.
+1. Geef een unieke naam en een omschrijving op voor de retourlocatie.
+
+    > [!NOTE]
+    > De naam wordt automatisch ingevuld als een nummerreeks voor retourlocaties is ingesteld.
+
+1. Ga naar het sneltabblad **Algemeen** en stel de optie **Etiketten afdrukken** in op **Ja** als u etiketten wilt laten afdrukken voor alle producten die worden toegewezen aan retourlocaties.
+1. Stel de optie **Voorraad blokkeren** in op **Ja** om de geretourneerde producten in de standaardretourlocatie uit voorraad te nemen en te voorkomen dat ze worden verkocht.
+1. U stelt als volgt specifieke retailinfocodes en -subcodes in voor retourlocaties:
+
+    1. Selecteer op het sneltabblad **Infocodes detailhandel** de optie **Toevoegen**.
+    1. Selecteer een infocode voor retouren in het veld **Infocode**.
+    1. Selecteer in het veld **Subcode** de subcode voor de reden van retour. In het veld **Beschrijving** wordt de beschrijving voor de geselecteerde subcode getoond.
+    1. Selecteer in het veld **Winkel** de winkel waar de infocode wordt gebruikt.
+    1. In de velden **Magazijn**, **Locatie** en **Pallet-id** kunt u een retourlocatie opgeven. Om bijvoorbeeld een bepaalde locatie in een winkel op te geven, selecteert u de winkel in het veld **Winkel** en een locatie in het veld **Locatie**.
+    1. Schakel het selectievakje **Voorraad blokkeren** in om geretourneerde producten uit voorraad te nemen en te voorkomen dat ze worden verkocht.
+
+1. U stelt als volgt specifieke verkoop- en marketingcodes in voor retourlocaties:
+
+    1. Selecteer op het sneltabblad **Redencodes verkoop en marketing** de optie **Toevoegen**.
+    1. Selecteer vervolgens in het veld **Redencode** een redencode voor retouren. In het veld **Beschrijving** wordt de beschrijving voor de geselecteerde redencode getoond.
+    1. Selecteer in het veld **Winkel** de winkel waar de redencode wordt gebruikt.
+    1. In de velden **Magazijn**, **Locatie** en **Pallet-id** kunt u een retourlocatie opgeven. Om bijvoorbeeld een pallet op een locatie in een magazijn op te geven, selecteert u een magazijn in het veld **Magazijn**, een locatie in het veld **Locatie** en een pallet in het veld **Pallet-id**.
+    1. Schakel het selectievakje **Voorraad blokkeren** in om geretourneerde producten uit voorraad te nemen en te voorkomen dat ze worden verkocht.
+
+    > [!NOTE]
+    > Als een retourlocatiebeleid wordt gebruikt voor een artikel maar de retourreden die een kassier selecteert niet overeenkomt met een code die is opgegeven in het sneltabblad **Informatiecodes detailhandel** of **Redencodes verkoop en marketing**, wordt het artikel naar de standaard retourlocatie gezonden die is gedefinieerd op de pagina **Magazijn**. Daarnaast bepaalt de instelling van het selectievakje **Voorraad blokkeren** op het sneltabblad **Algemeen** van de pagina **Retourlocaties** of voorraad van het geretourneerde artikel moet worden geblokkeerd.
+
+1. Ga naar **Retail en handel \> Handelproducthiërarchie**.
+1. Selecteer op het sneltabblad **Eigenschappen voorraadcategorie beheren** een retourlocatie in het veld **Retourlocatie**. Aangezien voor dezelfde winkel meerdere beleidsregels voor retourlocaties kunnen worden gedefinieerd, bepaalt de waarde die u hier selecteert welke beleidsregel voor retourlocaties wordt gebruikt.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

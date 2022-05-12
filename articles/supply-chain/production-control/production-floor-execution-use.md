@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a677eb71f97a953c625a1f667b055e5b7696fbe6
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: f163b8feb906470f31a648bf09abf5647c5f1bab
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384414"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644985"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hoe werknemers de uitvoeringsinterface voor de werkvloer gebruiken
 
@@ -74,9 +74,9 @@ De lijst met actieve taken heeft de volgende kolommen:
 
 ## <a name="my-jobs-tab"></a>Tabblad Mijn taken
 
-Op het tabblad **Mijn taken** kunnen werknemers eenvoudig alle niet-gestarte en onvoltooide taken bekijken die specifiek aan hen zijn toegewezen. Dit is handig in bedrijven waarin taken soms of altijd aan bepaalde werknemers (Human Resources) worden toegewezen in plaats van aan andere typen resources (zoals machines). 
+Op het tabblad **Mijn taken** kunnen werknemers eenvoudig alle niet-gestarte en onvoltooide taken bekijken die specifiek aan hen zijn toegewezen. Dit is handig in bedrijven waarin taken soms of altijd aan bepaalde werknemers (Human Resources) worden toegewezen in plaats van aan andere typen resources (zoals machines).
 
-Het planningssysteem wijst elke productie taakautomatisch toe aan een specifieke resourcerecord en elke resourcerecord heeft een type (zoals machine of persoon). Wanneer u een werknemer in dienst stelt als productiewerker, kunt u het werknemersaccount koppelen aan een unieke registratie voor Human Resources. 
+Het planningssysteem wijst elke productie taakautomatisch toe aan een specifieke resourcerecord en elke resourcerecord heeft een type (zoals machine of persoon). Wanneer u een werknemer in dienst stelt als productiewerker, kunt u het werknemersaccount koppelen aan een unieke registratie voor Human Resources.
 
 Het tabblad **Mijn taken** bevat alle niet-gestarte en onvoltooide taken die zijn toegewezen aan de human resource-record van de aangemelde werknemer, als een werknemer is aangemeld. Taken die zijn toegewezen aan een machine of een ander type resource worden nooit vermeld, zelfs als de aangemelde werknemer aan deze taken is begonnen.
 
@@ -87,7 +87,7 @@ Als u alle taken wilt weergeven die zijn gestart door de aangemelde werknemer, o
 ## <a name="my-machine-tab"></a>Tabblad Mijn machine
 
 Op het tabblad **Mijn machine** kunnen werknemers een activum selecteren dat is gekoppeld aan een machineresource in de filterset op het tabblad **Alle taken**. De werknemer kan vervolgens de status en gesteldheid van het geselecteerde activum weergeven door waarden te lezen voor maximaal vier geselecteerde tellers en lijsten met recente onderhoudsverzoeken en geregistreerde uitvaltijden. De werknemer kan ook onderhoud voor het geselecteerde activum aanvragen en uitvaltijd van de machine registreren en bewerken. (Deze tabbladnaam is aanpasbaar en kan anders zijn voor uw systeem.)
- 
+
 ![Het tabblad Mijn machine.](media/pfei-my-machine-tab.png "Het tabblad Mijn machine")
 
 Het tabblad **Mijn machine** heeft de volgende kolommen. De nummers komen overeen met de nummers in de vorige afbeelding.
@@ -202,9 +202,9 @@ De volgende acties kunnen worden uitgevoerd:
 - Als de medewerker **OK** selecteert, wordt de orderverzamellijst niet verwijderd. Deze lijst wordt geboekt wanneer de taak wordt gerapporteerd in het dialoogvenster **Uitval rapporteren** of **Voortgang rapporteren**.
 - Als de medewerker **Annuleren** selecteert in het dialoogvenster **Voortgang rapporteren** of **Uitval rapporteren**, wordt de orderverzamellijst verwijderd.
 
-### <a name="adjust-material-from-the-toolbar-on-the-right"></a>Materiaal aanpassen via de werkbalk aan de rechterkant
+### <a name="adjust-material-from-the-primary-or-secondary-toolbar"></a>Materiaal aanpassen via de primaire of secundaire werkbalk
 
-De knop **Materiaal aanpassen** kan worden geconfigureerd zodat deze op de werkbalk aan de rechterkant wordt weergegeven. (Zie voor meer informatie [De interface voor de uitvoering van de productievloer ontwerpen](production-floor-execution-tabs.md).) Een medewerker kan **Materiaal aanpassen** selecteren voor een productietaak die in uitvoering is. In dit geval wordt het dialoogvenster **Materiaal aanpassen** weergegeven, waarin de medewerker de gewenste wijzigingen kan aanbrengen. Wanneer het dialoogvenster wordt geopend, wordt een orderverzamellijst voor productie met regels voor de aangepaste hoeveelheden gemaakt voor de productieorder. Als de medewerker **Nu boeken** selecteert, wordt de correctie bevestigd en wordt de orderverzamellijst geboekt. Als de medewerker **Annuleren** selecteert, wordt de orderverzamellijst verwijderd en wordt geen correctie aangebracht.
+De knop **Materiaal aanpassen** kan worden geconfigureerd zodat deze op de primaire of secundaire werkbalk wordt getoond. (Zie voor meer informatie [De interface voor de uitvoering van de productievloer ontwerpen](production-floor-execution-tabs.md).) Een medewerker kan **Materiaal aanpassen** selecteren voor een productietaak die in uitvoering is. In dit geval wordt het dialoogvenster **Materiaal aanpassen** weergegeven, waarin de medewerker de gewenste wijzigingen kan aanbrengen. Wanneer het dialoogvenster wordt geopend, wordt een orderverzamellijst voor productie met regels voor de aangepaste hoeveelheden gemaakt voor de productieorder. Als de medewerker **Nu boeken** selecteert, wordt de correctie bevestigd en wordt de orderverzamellijst geboekt. Als de medewerker **Annuleren** selecteert, wordt de orderverzamellijst verwijderd en wordt geen correctie aangebracht.
 
 ### <a name="adjust-material-consumption-for-catch-weight-items"></a>Materiaalverbruik voor artikelen met een catch weight aanpassen
 
@@ -260,6 +260,42 @@ In beide scenario's gaat Shannon nadat ze de selectie heeft bevestigd, naar de a
 Werknemers kunnen pauzes registreren. Pauzes kunnen flexibel worden gedefinieerd, zoals wordt beschreven in [Salaris op basis van registraties](pay-based-on-registrations.md).
 
 Een werknemer registreert een pauze door **Pauze** te selecteren en vervolgens de kaart te selecteren waarmee het type pauze (bijvoorbeeld lunch) wordt vertegenwoordigd. Nadat de werknemer de selectie heeft bevestigd, wordt op het apparaat de aanmeldingspagina weergegeven of een pagina die wacht op bevestiging van de werknemer dat hij/zij van de pauze is teruggekeerd. De pagina die wordt weergegeven, is afhankelijk van de configuratie van de uitvoeringsinterface van de werkvloer. (Zie [Uitvoeringsinterface van de werkvloer configureren](production-floor-execution-configure.md) voor meer informatie.)
+
+## <a name="view-the-my-day-dialog"></a>Het dialoogvenster Mijn dag weergeven
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Het dialoogvenster **Mijn dag** biedt werknemers een overzicht van hun registraties en saldi. Het dialoogvenster bestaat uit de volgende drie secties:
+
+- In de hoofdsectie staan de registraties die de huidige werknemer op een geselecteerde datum heeft gedaan. Het wordt geopend met registraties voor de huidige dag en bevat een datumkiezer waarmee de werknemer andere dagen kan weergeven.
+- In de sectie **Laatst berekend dagelijks saldo** worden de huidige saldi van de werknemer getoond voor betaalde tijd, betaalde overuren, verzuim en betaald verzuim. Deze waarden zijn gebaseerd op de registraties die zijn berekend tijdens het goedkeuringsproces.
+- De sectie **Saldi** geeft een overzicht van de saldi binnen een gedefinieerde periode voor geselecteerde categorieën registraties (zoals verlof, standaardtijd en overuren). Deze saldi zijn gebaseerd op de manier waarop statistische saldi zijn geconfigureer in de module **Tijd en aanwezigheid**. Meer informatie over het configureren van deze opties vindt u in [Verlofsaldi tonen in de uitvoeringsinterface voor de werkvloer](production-floor-execution-payroll-stats.md).
+
+Beheerders kunnen deze functie toevoegen aan de interface door de knop **Mijn dag** op een werkbalk te plaatsen voor elk relevant tabblad, zoals beschreven in [De uitvoeringsinterface voor de werkvloer ontwerpen](production-floor-execution-tabs.md).
+
+## <a name="working-in-teams"></a>Werken in teams
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Wanneer meerdere werknemers aan dezelfde productietaak zijn toegewezen, kunnen ze een team vormen. Het team kan één werknemer aanwijzen als leider. De overige werknemers worden automatisch assistenten van die leider. Voor het team dat hierdoor ontstaat, moet alleen de leider de taakstatus registreren. Tijdregistraties gelden voor alle teamleden.
+
+### <a name="prerequisites"></a>Vereisten
+
+Als u teams wilt gebruiken, moet een beheerder de actie **Assistent** inschakelen voor de primaire werkbalk op het tabblad **Alle taken** van de uitvoeringsinterface voor de werkvloer. Zie [Uitvoeringsinterface voor de productievloer ontwerpen](production-floor-execution-tabs.md) voor instructies.
+
+### <a name="form-a-new-team-that-has-a-pilot-and-an-assistant"></a>Een nieuw team vormen met een leider en een assistent
+
+Een werknemer kan zich registreren als assistent door **Assistent** te selecteren op het tabblad **Alle taken**. Als dan het dialoogvenster **Selecteer een werknemer om te assisteren** wordt geopend, kan de werknemer een leider selecteren in een lijst met werknemers die actief aan een taak werken. Nadat de werknemer de selectie heeft bevestigd, wordt hij of zij assistent van de geselecteerde werknemer en wordt deze de leider van het nieuwe team.
+
+### <a name="assign-a-new-pilot-to-an-existing-team"></a>Een nieuwe leider toewijzen aan een bestaand team
+
+Als een team een nieuwe leider wil selecteren, moet de huidige leider een andere werknemer in het team voordragen als de nieuwe leider. Om een nieuwe leider te nomineren, selecteert de huidige leider de waarde **Assistent** op het tabblad **Alle taken**. Als dan het dialoogvenster **Leider wijzigen** wordt geopend, kan de leider een nieuwe leider selecteren in een lijst met werknemers die al lid zijn van het team. Nadat de huidige leider de selectie heeft bevestigd, wordt hij of zij helemaal uit het team verwijderd. De voormalige leider kan zich daarna wel weer bij het team aanmelden, als dat nodig is.
+
+### <a name="assistant-clocks-out"></a>Assistent klokt uit
+
+Als een werknemer die werkt als assistent uitklokt, verlaat hij of zij het team. Als de opties **Vaste teams** en **Herstarten bij inklokken** zijn ingesteld op *Ja*, wordt een werknemer die uitklokt automatisch weer aan het team toegevoegd wanneer hij of zij weer inklokt. U vindt deze opties op het tabblad **Algemeen** op de pagina **Parameters voor tijd en aanwezigheid**.
 
 ## <a name="opening-instructions"></a>Instructies voor openen
 

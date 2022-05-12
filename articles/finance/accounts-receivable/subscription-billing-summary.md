@@ -2,7 +2,7 @@
 title: Overzicht van facturering van abonnementen
 description: In dit onderwerp wordt de facturering van abonnementen in Microsoft Dynamics 365 Finance beschreven.
 author: JodiChristiansen
-ms.date: 02/09/2022
+ms.date: 04/13/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2022-02-09
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 2796e25ec783941de381fb5ae96145eeba870bde
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 9d46492cca3cc435048fa497f6b1f3a28b77140a
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462464"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644522"
 ---
 # <a name="subscription-billing-overview"></a>Overzicht van facturering van abonnementen
 
@@ -33,6 +33,8 @@ De oplossing omvat drie modules die onafhankelijk kunnen worden gebruikt. U kunt
 - **Terugkerende contractfacturering**: deze module maakt terugkerende facturering en prijsbeheer mogelijk om de prijs- en factureringsparameters, contractverlenging en geconsolideerde facturering te beheren.
 - **Uitgestelde opbrengsten en onkosten**: met deze module worden handmatige processen en de afhankelijkheid van externe systemen geëlimineerd door opbrengst te beheren en realtime inzicht te krijgen in maandelijkse terugkerende opbrengsten.
 - **Opbrengsttoewijzing met meerdere elementen**: deze module komt de conformiteit van opbrengsten ten goede door de prijs- en opbrengsttoewijzing voor meerdere artikelen te verwerken.
+
+Meer informatie over facturering van abonnementen vindt u in [Power BI-content voor facturering van abonnementen](sub-bill-power-bi.md).
 
 Facturering van abonnementen wordt ingeschakeld via **Functiebeheer**. Deze functie kan echter niet worden gebruikt met de functie **Opbrengsttoerekening**. U moet deze functie daarom uitschakelen voordat u facturering van abonnementen inschakelt.
 

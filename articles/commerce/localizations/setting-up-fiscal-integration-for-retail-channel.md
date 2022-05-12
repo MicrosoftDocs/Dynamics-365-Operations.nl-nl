@@ -2,27 +2,42 @@
 title: Fiscale integratie voor Commerce-kanalen instellen
 description: Dit onderwerp bevat richtlijnen voor het instellen van de functionaliteit voor fiscale integratie voor Commerce-kanalen.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 04/28/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: e4b0b9f7eb4fb0ffab3237459d85ea92c83dd206
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 51a75ce03b0ae6b744ec56df35bd3fdb1f40cf3a
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462152"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661744"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Fiscale integratie voor Commerce-kanalen instellen
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Dit onderwerp bevat richtlijnen voor het instellen van de functionaliteit voor fiscale integratie voor Commerce-kanalen. Zie voor meer informatie over de fiscale integratie [Overzicht van fiscale integratie voor Commerce-kanalen](fiscal-integration-for-retail-channel.md).
 
+## <a name="enable-features-in-commerce-headquarters"></a>Functies inschakelen in Commerce Headquarters
+
+Volg deze stappen om functies in te schakelen die zijn gerelateerd aan de functionaliteit voor fiscale integratie voor Commerce-kanalen.
+
+1. Ga in Commerce Headquarters naar **Systeembeheer \> Werkgebieden \> Functiebeheer**.
+1. Zoek de volgende functies en schakel deze in:
+
+    - **Directe fiscale integratie vanuit POS-kassa's**: Deze functie breidt het raamwerk voor fiscale integratie uit door de mogelijkheid toe te voegen om fiscale connectors te maken die worden uitgevoerd in het POS (Point of Sale). Dit type connector communiceert met een fiscaal randapparaat of fiscale service dat of die een HTTP-API (Application Programming Interface) levert en vereist niet een specifieke fysieke machine in de winkel. Met deze functionaliteit is fiscale integratie voor mobiele apparaten bijvoorbeeld mogelijk zonder dat er een gedeeld hardwarestation nodig is.
+    - **Overschrijvingen technische profielen fiscale integratie**: Met deze functie kunt u de configuratie van fiscale integratie uitbreiden en kunt u de verbindingsparameters controleren op de instellingenpagina van een POS-kassa. Wanneer deze functie is ingeschakeld, kunt u de parameters van een technisch profiel overschrijven.
+    - **Fiscale registratiestatus van POS-kassa's**: wanneer deze functie is ingeschakeld, kunt u het proces voor fiscale registratie voor specifieke POS-kassa's uitschakelen. Als de fiscale registratie voor een POS-kassa is uitgeschakeld, kunnen er op die kassa geen verkooptransacties worden uitgevoerd.
+    - **Back-up lokale opslag voor fiscale integratie**: Deze functie breidt de mogelijkheden uit voor verwerking van fouten van het fiscale-integratieraamwerk. Hiermee wordt ook automatische back-up van fiscale-registratiegegevens ingeschakeld bij gegevensverlies, zodat de gegevens in de lokale opslag kunnen worden hersteld terwijl een apparaat wordt geactiveerd.
+
 ## <a name="set-up-commerce-parameters"></a>Commerce-parameters instellen
+
+Voer de onderstaande stappen uit om Commerce-parameters in te stellen.
 
 1. Stel op de pagina **Gedeelde Commerce-parameters** op het tabblad **Algemeen** de optie **Fiscale integratie inschakelen** in op **Ja**.
 1. Definieer op het tabblad **Nummerreeksen** de nummerreeksen voor de volgende referenties:
@@ -33,8 +48,8 @@ Dit onderwerp bevat richtlijnen voor het instellen van de functionaliteit voor f
 
 1. Definieer op de pagina **Commerce-parameters** de nummerreeks voor het fiscale profielnummer.
 
-    > [!NOTE]
-    > Nummerreeksen zijn optioneel. Nummers voor alle fiscale integratie-entiteiten kunnen worden gegenereerd uit nummerreeksen of handmatig.
+> [!NOTE]
+> Nummerreeksen zijn optioneel. Nummers voor alle fiscale integratie-entiteiten kunnen worden gegenereerd uit nummerreeksen of handmatig.
 
 ## <a name="set-up-a-fiscal-registration-process"></a>Een fiscaal registratieproces instellen
 
@@ -43,7 +58,7 @@ Het instelproces van de fiscale integratie bevat de volgende taken:
 - Fiscale connectors configureren die fiscale apparaten of services vertegenwoordigen die worden gebruikt voor fiscale registratiedoeleinden, zoals fiscale printers.
 - Documentproviders configureren die fiscale documenten genereren die worden geregistreerd in fiscale apparaten of services door fiscale connectors.
 - Het fiscale registratieproces configureren dat een reeks fiscale registratiestappen definieert en de fiscale connectors en fiscale documentproviders die voor elke stap worden gebruikt.
-- Het fiscale registratieproces toewijzen aan POS-functionaliteitsprofielen (Point Of Sale).
+- Wijs het fiscale registratieproces aan POS-functionaliteitsprofielen toe.
 - Technische connectorprofielen toewijzen aan hardwareprofielen.
 - Wijs technische connectorprofielen toe aan POS-hardware of functionaliteitsprofielen.
 
@@ -176,7 +191,7 @@ De fiscale registratiestroom wordt gedefinieerd door het fiscale registratieproc
 - Het abonnement van gebeurtenissen en transacties op fiscale registratie wordt vooraf gedefinieerd in de fiscale documentprovider.
 - De fiscale documentprovider is ook verantwoordelijk voor het identificeren van de fiscale connector die wordt gebruikt voor fiscale registratie. Het komt overeen met de functionele connectorprofielen die zijn opgenomen in de fiscale connectorgroep die is opgegeven voor de huidige stap van het fiscale registratieproces met het technische connectorprofiel dat is toegewezen aan het hardwareprofiel van het Hardware-station waaraan het POS is gekoppeld.
 - De fiscale documentprovider gebruikt de instellingen voor gegevenstoewijzing van de configuratie van de fiscale documentprovider om transactie-/gebeurtenisgegevens, zoals belasting en betalingen, te transformeren terwijl een fiscaal document wordt gemaakt.
-- Wanneer de fiscale documentprovider een fiscaal document genereert, kan de fiscale connector het zoals het is verzenden naar het fiscale apparaat of het ontleden en transformeren tot een reeks opdrachten van de apparaat-API (Application Programming Interface), afhankelijk van hoe de communicatie wordt verwerkt.
+- Wanneer de fiscale documentprovider een fiscaal document genereert, kan de fiscale connector het zoals het is verzenden naar het fiscale apparaat of het parseren en transformeren tot een reeks opdrachten van de apparaat-API, afhankelijk van hoe de communicatie wordt verwerkt.
 
 ### <a name="set-up-registers-with-fiscal-registration-restrictions"></a>Kassa's met fiscale registratiebeperkingen instellen
 
@@ -283,4 +298,21 @@ Als u een handmatige uitvoering van een uitgestelde fiscale registratie wilt ins
     1. Voer op de pagina **Distributieplanning** de taak **1090** uit om uw wijzigingen over te brengen naar de kanaaldatabase.
 
 
+## <a name="view-connection-parameters-and-other-information-in-pos"></a>Verbindingsparameters en andere informatie in POS weergeven
+
+Volg deze stappen om verbindingsparameters en andere informatie in POS weer te geven.
+
+1. Open Modern POS (MPOS) of Cloud-POS (CPOS).
+1. Selecteer **Instellingen**. Als fiscale integratie is ingeschakeld, wordt in de sectie **Fiscale integratie** aan de rechterkant de volgende informatie getoond:
+
+    - De status van de fiscale integratie
+    - De status van de laatste fiscale transactie
+    - Het aantal uitstaande controlegebeurtenissen
+
+1. Selecteer **Details** om de volgende informatie weer te geven:
+
+    - Stappen in het registratieproces
+    - Verbindingsparameters
+    - Details van controlegebeurtenissen
+ 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

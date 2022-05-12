@@ -2,7 +2,7 @@
 title: Opgeslagen weergaven
 description: In dit onderwerp wordt beschreven hoe u de functies voor opgeslagen weergaven gebruikt.
 author: jasongre
-ms.date: 09/13/2021
+ms.date: 04/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: bd1b034ebb66b996e20173c2ad4f958e643f9c2e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e10137ff5d11ed06c32613e601e2fa7423e270ac
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065701"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644782"
 ---
 # <a name="saved-views"></a>Opgeslagen weergaven
 
@@ -45,7 +45,7 @@ Als weergaven beschikbaar zijn gemaakt voor een omgeving, bevat de bovenzijde va
 
 Er zijn twee groottes voor deze weergavekiezer: 
 
-- **Grote weergavekiezers**: pagina's met een aanzienlijke lijst krijgen om enkele redenen een grotere weergavekiezer. In de grotere weergavekiezer worden de pagina's aangegeven waar de weergave door de gebruiker gedefinieerde filters kan bevatten. Aangezien filters in de weergaven zijn opgenomen, is het grotere kiezerformaat ook gerechtvaardigd omdat de weergavenamen vaak de beste beschrijving zijn van de gegevens die op het scherm worden weergegeven en de verwachting is dat gebruikers vaker tussen weergaven schakelen op deze typen pagina's.
+- **Grote weergavekiezers**: pagina's met een aanzienlijke lijst krijgen om enkele redenen een grotere weergavekiezer. In de grotere weergavekiezer worden de pagina's aangegeven waar de weergave door de gebruiker gedefinieerde filters en sorteringen kan bevatten. Aangezien filters en sorteringen in de weergaven zijn opgenomen, is het grotere kiezerformaat ook gerechtvaardigd omdat de weergavenamen vaak de beste beschrijving zijn van de gegevens die op het scherm worden weergegeven en de verwachting is dat gebruikers vaker tussen weergaven schakelen op deze typen pagina's. Groeperingen in een raster kunnen ook worden opgeslagen in weergaven op een pagina met grote weergavekiezers. 
 - **Kleine weergavekiezers**: alle andere schermen van volledige paginagrootte (met uitzondering van werkruimten en het dashboard) hebben een kleinere weergavekiezer die naast het paginabijschrift wordt weergegeven. Weergaven op deze pagina's omvatten alleen persoonlijke instellingen en geen door de gebruiker gedefinieerde filters. Op deze pagina's is het formulierbijschrift of de recordtitel vaak de belangrijkste informatie boven aan de pagina. Het kleinere formaat van de weergaveselectie weerspiegelt ook de lagere frequentie van weergavewisseling die op deze pagina's wordt verwacht. 
  
 Als u de naam van de weergave selecteert, wordt de weergavekiezer geopend en wordt de lijst met beschikbare weergaven voor de pagina weergegeven.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1bcce7af0a15add63f1d9c3b32563de0ab6698bd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 335bed49b05bf64547d7ded885f365a30487484f
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577643"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644633"
 ---
 # <a name="costing-parameter-values-setup"></a>Instelling van parameterwaarden voor kostprijsberekening
 
@@ -123,9 +123,9 @@ In de volgende tabel worden de instellingen beschreven die beschikbaar zijn voor
 
 ## <a name="volumetric-divisors"></a>Volumetrische delers
 
-Volumedelers worden gebruikt om het volumegewicht te berekenen. Elk expeditie-/vrachtvervoerbedrijf formuleert zijn eigen volumedeler. Bovendien verschillen de verdelers van een bedrijf meestal, afhankelijk van de leveringsmodus. Lucht en zee hebben bijvoorbeeld heel andere delers. Een bedrijf kan de regels ook ingewikkelder maken, afhankelijk van de plaats vanwaar het verzendt.
+Volumedelers worden gebruikt om het volumegewicht te berekenen. Elk expeditie-/vrachtvervoerbedrijf formuleert zijn eigen volumedeler. Bovendien verschillen de verdelers van een bedrijf meestal, afhankelijk van de leveringsmodus. Lucht en zee hebben bijvoorbeeld heel andere delers. Een bedrijf kan de regels ook ingewikkelder maken, afhankelijk van de plaats vanwaar het verzendt. De volgende formule wordt gebruikt om het volumegewicht te vinden: VolumetricWeight = Volume ÷ VolumetricDivisor.
 
-Een pakket dat per vliegtuig wordt verzonden, heeft bijvoorbeeld een volume van 3 kubieke meter (m³). Het bedrijf berekent de kosten op volumegewicht en past een volumedeler van 6 toe. Deze deler wordt vermenigvuldigd met het volume om het volumegewicht te bepalen. Daarom is het volumegewicht voor dit voorbeeld 3 × 6 = 18 kilogram (kg).
+Een pakket dat per vliegtuig wordt verzonden, heeft bijvoorbeeld een volume van 3 kubieke meter (m³). Het bedrijf berekent de kosten op volumegewicht en past een volumedeler van 6 toe. Deze deler wordt gedeeld door het volume om het volumegewicht te bepalen. Daarom is het volumegewicht voor dit voorbeeld 3 ÷ 6 = 0,5 kilogram (kg).
 
 Als u volumedelers wilt instellen, gaat u naar **Francoprijzen \> Kostprijsberekening instellen \> Volumedelers**. De pagina **Volumedelers** biedt een raster met alle bestaande volumedelers. U kunt de knoppen in het actiedeelvenster gebruiken om rijen in het raster toe te voegen, te verwijderen en te bewerken.
 
@@ -136,4 +136,7 @@ In de volgende tabel worden de velden beschreven die op elke rij in het raster b
 | Verzendbedrijf | Selecteer de leveranciersrekening van het expeditiebedrijf dat is gekoppeld aan de volumedelers. |
 | Code voor kostentype | Selecteer de kostentypecode die aan de volumedeler is gekoppeld. Gebruik dit veld om kostentypen in rapportage-buckets te zetten. Rapporten kunnen worden afgedrukt op rapportagecategorieën of op kostentype. |
 | Vertrekhaven | Selecteer de poort "van" waarop de volumedeler van toepassing is. |
-| Volumetrische deler | Voer de waarde van de volumedeler in die op de rij van toepassing is. De waarde die u invoert, wordt *vermenigvuldigd* met het volume van elk pakket om het volumegewicht van het pakket te bepalen. |
+| Volumetrische deler | Voer de waarde van de volumedeler in die op de rij van toepassing is. Het volume van elk pakket wordt gedeeld door de waarde die hier u invoert, om het volumegewicht van het pakket te bepalen. |
+
+> [!NOTE]
+> De maximumwaarde tussen het **werkelijke gewicht** en het **volumegewicht** wordt door het systeem gebruikt.

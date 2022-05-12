@@ -2,7 +2,7 @@
 title: Metagegevens SEO beheren
 description: In dit onderwerp wordt beschreven hoe u SEO-metagegevens (Search Engine Optimization) in Microsoft Dynamics 365 Commerce kunt beheren.
 author: psimolin
-ms.date: 04/14/2020
+ms.date: 04/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 06d2da60695be499971904451fd56fb8a64dfd64c9192d93f87ababb349e9378
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3d6f56968e9adfe90142955cba8e6c7ecc50fc92
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751562"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644754"
 ---
 # <a name="manage-seo-metadata"></a>Metagegevens SEO beheren
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp wordt beschreven hoe u SEO-metagegevens (Search Engine Optimization) in Microsoft Dynamics 365 Commerce kunt beheren.
 
@@ -62,19 +63,23 @@ In Dynamics 365 Commerce kunt u SEO-metagegevens voor afzonderlijke pagina's beh
 ### <a name="modify-page-metadata"></a>Metagegevens van de pagina wijzigen
 
 Volg deze stappen om metagegevens te wijzigen.
-
 1. Selecteer onder **Sites** de naam **Fabrikam** (of de naam van uw site).
 1. Selecteer **Pagina's** in het navigatievenster aan de linkerkant.
 1. Selecteer de startpagina om deze te openen in de pagina-editor.
 1. Selecteer **Bewerken** op de opdrachtbalk.
-1. Vouw **Standaard metatags** uit in het eigenschappenvenster aan de rechterkant.
-1. Als u een nieuwe metatag wilt toevoegen, selecteert u **Toevoegen** en geeft u de tag op in het veld. Als u een bestaande metatag wilt verwijderen, selecteert u het prullenbaksymbool rechts ervan.
+1. Selecteer in de pagina-editor, bovenaan het besturingselement Paginaoverzicht aan de linkerkant, de **optie Overzichtsmodus** (tandwielsymbool) en selecteer vervolgens **Geavanceerde overzichtsweergave**.
+1. Vouw in de overzichtsweergave de structuurbesturingselementen uit om de inhoud van het vak **HTML-kop** weer te geven.
+1. Selecteer in het vak **HTML-kop** de gewenste SEO-modules (bijvoorbeeld **Paginaoverzicht**, **Samenvatting productpagina**, **Overzicht categoriepagina** of **Metategs**).
+1. Bewerk in het deelvenster Eigenschappen aan de rechterkant de gewenste SEO-gegevens voor de geselecteerde SEO-module (bijvoorbeeld **Titel**, **Beschrijving** of **Afbeelding voor delen**).
 1. Selecteer **Opslaan** en vervolgens **Bewerken voltooien**.
-1. Voer in het veld **Opmerkingen** **Metatags bijgewerkt** in en selecteer vervolgens **OK**.
+1. Voer in het veld **Opmerkingen** **SEO-gegevens bijgewerkt** in en selecteer vervolgens **OK**.
 1. Selecteer **Voorbeeld** om uw pagina te bekijken. Wanneer u klaar bent, sluit u het tabblad Voorbeeld om terug te keren naar het ontwerpgereedschap.
 1. Selecteer **Publiceren**.
 
-## <a name="additional-resources"></a>Aanvullende resources
+> [!TIP]
+> Auteurs kunnen door middel van de **optie Overzichtsmodus** (tandwielsymbool) links bovenaan het linker overzichtsbesturingselement in de pagina-editor schakelen tussen **Basisoverzichtsweergave** en **Geavanceerde overzichtsweergave.** **Basisoverzichtweergave** is de standaardinstelling. Hierin wordt het overzicht gefilterd, zodat alleen modules worden weergegeven in het HTML-vak **Hoofdtekst** voor een pagina. In de **Geavanceerde overzichtsweergave** wordt de hele paginamodule weergegeven, inclusief de vakken **HTML-kop**, **Begin hoofdtekst** en **Einde hoofdtekst**. Deze weergave is nuttig wanneer auteurs specifieke SEO- of scriptmodule-instellingen voor een pagina moeten bewerken.
+
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Een bestaande sitepagina wijzigen](modify-existing-page.md)
 

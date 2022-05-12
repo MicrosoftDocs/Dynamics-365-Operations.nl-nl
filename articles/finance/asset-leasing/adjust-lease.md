@@ -2,7 +2,7 @@
 title: Leases aanpassen
 description: In dit onderwerp wordt uitgelegd hoe u een lease kunt aanpassen. Aanpassingen kunnen nodig zijn als de leasetermijnen worden gewijzigd, de lease wordt verlengd of andere omstandigheden veranderen.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1016b69fd59bbe90924996f5c931cb5d0f779253de66f5f3821a8c3001d3313b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7d7151c28d124420638dc4e69a8ab5359ecf443c
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729649"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644550"
 ---
 # <a name="adjust-leases"></a>Leases aanpassen
 
@@ -134,5 +134,19 @@ Als een lease is gecorrigeerd, kunt u de verschillende versies ervan weergeven. 
 2. Als u historische planningen wilt weergeven, opent u de gewijzigde lease op de pagina **Leaseoverzicht**, selecteert u het gewenste boek en vervolgens in het actievenster **Historie van boekversie**.
 3. Selecteer op de pagina **Boekversie** een versie en een schema om weer te geven.
 
+## <a name="adjust-a-lease-book"></a>Een leaseboek aanpassen
+
+Volg deze stappen om alleen een leaseboek aan te passen.
+
+1. Ga naar **Activa leasen** \> **Leases** \> **Leaseoverzicht**.
+2. Selecteer en open een lease.
+3. Selecteer op de pagina **Leasegegevens** de optie **Boeken**.
+4. Selecteer op de pagina **Boekdetails** in het Actievenster in de groep **Onderhouden** de optie **Boek aanpassen**. 
+5. Verwijder de betalingsschemaregels.
+6. Geef de wijzigingsdatum op in het veld **Leasewijzigingsdatum**. Overweeg vervolgens om alle aanvullende overwegingen voor activa/passiva (initiële directe kosten, leasebonussen, leasevooruitbetaling, ontmantelingskosten en resterende waardegarantie) te verwijderen, indien van toepassing. 
+7. Om onnauwkeurige berekeningen voor de leasecorrectie te voorkomen, voegt u nieuwe betalingsschemaregels toe voor de nieuwe betalingsdatums die overeenkomen met de wijzigingsdatum. 
+
+> [!NOTE] 
+> U wordt aangeraden de wizard **Leasecorrectie** te gebruiken om een lease te aanpassen. De wizard vermindert het aantal handmatige stappen, geeft een voorbeeld van de saldi na de correctie en u kunt de bedragen wijzigen voordat u deze gaat boeken.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Verwijderde of afgeschafte Platform-functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van apps voor financiën en bedrijfsactiviteiten.
 author: sericks007
-ms.date: 03/08/2022
+ms.date: 04/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 27be0e720b7eca5883c5d73dfe312c09fcd22c65
-ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
+ms.openlocfilehash: 0cf0d4b3ff108645c8542ce10a0be58d29cc68ed
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "8396544"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644602"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Verwijderde of afgeschafte platform-functies
 
@@ -32,17 +32,29 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 Gedetailleerde informatie over objecten in apps voor financiële en bedrijfsactiviteiten is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van apps voor financiële en bedrijfsactiviteiten.
 
-## <a name="feature-removal-effective-march-14-2022"></a>Functie is verwijderd vanaf 14 maart 2022
+## <a name="feature-deprecation-effective-april-2022"></a>Kennisgeving van afschaffing van functie met ingang van april 2022
+
+### <a name="xml-url-resolution-in-data-management"></a>XML-URL-omzetting in Gegevensbeheer 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Wij verwijderen de ondersteuning voor het omzetten van XML-URL's, omdat dit is geïdentificeerd als een mogelijke beveiligingsprobleem. Dit betekent dat externe bronnen die aan XML-bestanden zijn gekoppeld, niet meer kunnen worden omgezet.  |
+| **Vervangen door een andere functie?**   | Nummer |
+| **Betrokken productgebieden**         | Apps voor financiële en bedrijfsactiviteiten |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft. |
+
+## <a name="feature-deprecation-effective-march-14-2022"></a>Kennisgeving van afschaffing van functie met ingang van 14 maart 2022
 
 ### <a name="xslt-scripting-in-data-management"></a>XSLT-scripting in Gegevensbeheer
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | De ondersteuning van XSLT-scripting in Gegevensbeheer is afgeschaft om de beveiliging en gegevensbeveiliging binnen de apps voor financiën en bedrijfsactiviteiten te verbeteren.  |
+| **Reden voor afschaffing/verwijdering** | De ondersteuning van XSLT-scripting in Gegevensbeheer is afgeschaft om de beveiliging en gegevensbeveiliging binnen apps voor financiën en bedrijfsactiviteiten te verbeteren.  |
 | **Vervangen door een andere functie?**   | Nummer Klanten en ISV's moeten overwegen hun oplossingen opnieuw te implementeren op basis van de X++-taal in plaats van XSLT-scripting. |
-| **Betrokken productgebieden**         | Apps voor financiën en bedrijfsactiviteiten. |
-| **Implementatieoptie**              | Alle. |
-| **Status**                         | Afgeschaft: de geplande verwijderingsdatum is 14 maart 2022.<br><br>Uitzondering: klanten die momenteel XLST-scripting gebruiken. Ze kunnen dit blijven gebruiken totdat ze updaten naar versie 10.0.30 of hoger. Klanten met deze uitzondering hebben een melding ontvangen in de Berichtencentrum in het Microsoft 365-beheercentrum. |
+| **Betrokken productgebieden**         | Apps voor financiële en bedrijfsactiviteiten |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft <br><br>**Uitzondering:** klanten die momenteel XLST-scripting gebruiken. Ze kunnen dit blijven gebruiken totdat ze updaten naar versie 10.0.30 of hoger. Voor eerdere versies verloopt de uitzondering per 31 januari 2023. Klanten met deze uitzondering hebben een melding ontvangen in de Berichtencentrum in het Microsoft 365-beheercentrum. |
 
 ## <a name="feature-removal-effective-october-2021"></a>Functie is verwijderd in oktober 2021
 
@@ -165,7 +177,7 @@ Gedetailleerde informatie over objecten in apps voor financiële en bedrijfsacti
 ## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Platformupdates voor versie 10.0.17 van apps voor financiën en bedrijfsactiviteiten
 
 
-### <a name="visual-studio-2015"></a>Visual Studio2015
+### <a name="visual-studio-2015"></a>Visual Studio 2015
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|

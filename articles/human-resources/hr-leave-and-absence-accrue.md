@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7f765e7cfd97170bd144dfff12c18ced96e3332a
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 3c9b9602e5c219be5756f5987b0497f2ce5c269d
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533707"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644297"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Verlof- en verzuimplannen toerekenen
 
@@ -105,8 +105,10 @@ Opbouwrecords voor een specifiek plan en datumbereik verwijderen. Toerekeningsda
 **Controle van toerekening van verlof** wordt steeds weergegeven als u een toerekening uitvoert of verwijdert voor een of alle werk nemers. De datum en de persoon die de actie heeft uitgevoerd, worden ook weer gegeven.
 
 1. Selecteer op de pagina **Verlof en verzuim** het tabblad **Koppelingen**.
-
 2. Selecteer onder **Verlof beheren** de optie **Controle van toerekening van verlof verwijderen**.
+
+## <a name="leave-accrual-rounding"></a>Afronding voor verloftoerekening
+Wanneer een werknemer wordt geregistreerd of uitgeschreven, wordt de afronding van de verloftoerekening omgeslagen. Eerder was afronding alleen toegestaan wanneer een verlofplan werd ingesteld op verdeling naar rato, en een werknemer tijdens een periode werd in- of uitgeschreven. Verloftoerekeningen worden nu afgerond, ongeacht de in-/uitschrijving die in het midden of aan het begin van een periode plaatsvindt.
 
 ## <a name="leave-accrual-transaction-auditing"></a>Controleren van toerekeningstransacties voor verlof
 

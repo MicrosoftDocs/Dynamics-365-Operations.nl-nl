@@ -2,7 +2,7 @@
 title: Module voor zoekresultaten
 description: In dit onderwerp worden modules voor zoekresultaten beschreven en wordt aangegeven hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/15/2021
+ms.date: 04/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bae825ed7093494c48abac119c480be0dba4f951
-ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
+ms.openlocfilehash: 15b3bb50eb0b75fa19ac8e136da83cb362b4cec6
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7919469"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644921"
 ---
 # <a name="search-results-module"></a>Module voor zoekresultaten
 
 [!include [banner](includes/banner.md)]
-
+[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp worden modules voor zoekresultaten beschreven en wordt aangegeven hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 
@@ -86,53 +86,44 @@ Voer deze stappen uit om een module voor zoekresultaten aan een categoriepagina 
 
 ## <a name="enable-inventory-awareness-for-the-search-results-module"></a>Inzicht in de voorraad voor de module voor zoekresultaten inschakelen
 
-Klanten verwachten doorgaans dat een e-commercesite tijdens het browsen inzicht biedt in de voorraad, zodat ze kunnen beslissen wat ze moeten doen als een product niet op voorraad is. De module voor zoekresultaten kan worden verbeterd door er voorraadgegevens in op te nemen, zodat de module de volgende mogelijkheden kan bieden:
+Klanten verwachten doorgaans dat de e-commercesite tijdens het browsen inzicht biedt in de voorraad, zodat ze kunnen beslissen wat ze moeten doen als een product niet op voorraad is. De module voor zoekresultaten kan worden geconfigureerd om er voorraadgegevens in op te nemen, zodat de module de volgende mogelijkheden kan bieden:
 
-- Een voorraadbeschikbaarheidslabel weergeven bij de producten.
-- Producten die niet op voorraad zijn, verbergen.
-- Producten die niet op voorraad zijn, aan het einde van de lijst met zoekresultaten weergeven.
-    
-Om deze mogelijkheden beschikbaar te maken, moet u de volgende vereiste instellingen configureren in Commerce Headquarters.
+- Een voorraadbeschikbaarheidslabel weergeven bij het product.
+- Producten die niet op voorraad zijn, niet tonen in de productlijst.
+- Producten die niet op voorraad zijn, onderin de productlijst weergeven.
+- Producten in zoekresultaten filteren op voorraadniveau.
 
-### <a name="enable-the-enhanced-e-commerce-product-discovery-to-be-inventory-aware-feature"></a>De functie Uitgebreide productdetectie in e-Commerce voor inzicht in voorraad inschakelen
+Als u deze ervaring wilt inschakelen, moet u eerst de functie **Uitgebreide productdetectie in e-Commerce voor inzicht in voorraad** inschakelen in de werkruimte **Functiebeheer**.
 
 > [!NOTE]
-> De functie **Uitgebreide productdetectie in e-Commerce voor inzicht in voorraad** is beschikbaar vanaf versie 10.0.20 van Commerce.
+> De functie **Uitgebreide productdetectie in e-Commerce voor inzicht in voorraad** is beschikbaar in Commerce vanaf versie 10.0.20.
 
-Als u in Commerce Headquarters de functie **Uitgebreide productdetectie in e-Commerce voor inzicht in voorraad** wilt inschakelen, neemt u deze stappen.
+De voorraadbewuste zoekfunctie voor producten gebruikt productkenmerken om informatie over de voorraadbeschikbaarheid te verkrijgen. Voor de functie is het vereist dat u specifieke productkenmerken maakt, er voorraadgegevens voor invoert en deze gegevens toevoegt aan het online kanaal. 
 
-1. Ga naar **Werkruimten \> Functiebeheer**.
-1. Ga op zoek naar de functie **Uitgebreide productdetectie in e-Commerce voor inzicht in voorraad** en schakel deze in.
-
-### <a name="configure-the-populate-product-attributes-with-inventory-level-job"></a>De taak Productkenmerken vullen met voorraadniveau configureren
-
-Met de taak **Productkenmerken vullen met voorraadniveau** wordt een nieuw productkenmerk gemaakt om de beschikbaarheid van de voorraad vast te leggen en wordt dat kenmerk ingesteld op de meest recente voorraadniveauwaarde voor elk hoofdproduct. Omdat de voorraadbeschikbaarheid van een product of assortiment dat wordt verkocht, constant verandert, raden we u sterk aan om de taak als batchproces te plannen.
-
-Als u in Commerce Headquarters de taak **Productkenmerken vullen met voorraadniveau** wilt inschakelen, neemt u deze stappen.
+Volg deze stappen om specifieke productkenmerken te maken voor de module voorraadbewuste zoekresultaten.
 
 1. Ga naar **Retail en Commerce \> IT Retail en Commerce \> Producten en voorraad**.
-1. Selecteer **Productkenmerken vullen met voorraadniveau**.
-1. Volg deze stappen in het dialoogvenster **Productkenmerken vullen met voorraadniveau**:
+1. Selecteer en open **Productkenmerken vullen met voorraadniveau**.
+1. Voer in het dialoogvenster de volgende informatie in:
 
-    1. Geef onder **Parameters** in het veld **Naam van productkenmerk en -type** een naam op voor het specifieke productkenmerk dat wordt gemaakt om de beschikbaarheid van de voorraad vast te leggen.
-    1. Selecteer onder **Parameters** in het veld **Voorraadbeschikbaarheid gebaseerd op** de hoeveelheid waar de berekening van het voorraadniveau op moet worden gebaseerd (bijvoorbeeld **Fysiek beschikbaar**).
-    1. Configureer onder **Op de achtergrond uitvoeren** de taak die u wilt uitvoeren op de achtergrond en schakel desgewenst de optie **Batchverwerking** in. 
+    1. Geef in het veld **Naam van productkenmerk en -type** een naam op voor het specifieke productkenmerk dat wordt gemaakt om de beschikbaarheidsgegevens voor de voorraad vast te leggen.
+    1. Selecteer in het veld **Voorraadbeschikbaarheid gebaseerd op** het hoeveelheidtype waar de berekening van het voorraadniveau op moet worden gebaseerd (bijvoorbeeld **Fysiek beschikbaar**). 
 
-> [!NOTE]
-> Voor een consistente berekening van het voorraadniveau op PDP's en productlijstpagina's op uw e-commercesite moet u ervoor zorgen dat u dezelfde hoeveelheidsoptie selecteert voor zowel de instelling **Voorraadbeschikbaarheid gebaseerd op** in Commerce Headquarters als de instelling **Voorraadniveau gebaseerd op** in Commerce Site Builder. Zie [Voorraadinstellingen toepassen](inventory-settings.md) voor meer informatie over voorraadinstellingen in Site Builder.
-
-### <a name="configure-the-new-product-attribute"></a>Het nieuwe productkenmerk configureren
-
-Nadat de taak **Productkenmerken vullen met voorraadniveau** is uitgevoerd, moet u het pas gemaakte productkenmerk configureren op de e-commercesite waar u inzicht in de voorraad voor de module voor zoekresultaten wilt inschakelen.
-
-Als u het nieuwe productkenmerk wilt configureren in Commerce Headquarters, neemt u de volgende stappen.
-
-1. Ga naar **Retail en Commerce \> Kanaalinstellingen \> Kanaalcategorieën en productkenmerken** en selecteer de e-commercesite.
-1. Selecteer en open een gekoppelde kenmerkgroep, voeg het nieuwe productkenmerk hieraan toe en sluit vervolgens de pagina.
-1. Selecteer **Metagegevens van kenmerken instellen**, selecteer het zojuist toegevoegde productkenmerk en schakel vervolgens de opties **Kenmerk in kanaal weergeven**, **Ophaalbaar**, **Kan worden verfijnd** en **Kan worden opgezocht** in.
+1. Voer de taak uit in de achtergrond. Omdat de productvoorraad in een omnichannel-omgeving continu wijzigt, raden we u sterk aan om deze taak als batchproces te plannen.
 
 > [!NOTE]
-> Voor producten die in de module voor zoekresultaten worden weergegeven, wordt het voorraadniveau ingevoerd op het niveau van het hoofdproduct in plaats van het niveau van de afzonderlijke variant. Er zijn slechts twee mogelijke waarden: 'beschikbaar' en 'niet voorradig'. De werkelijke tekst voor de waarden wordt opgehaald uit de definitie van het [voorraadniveauprofiel](inventory-buffers-levels.md). Een hoofdproduct wordt alleen als 'niet voorradig' beschouwd als alle varianten niet op voorraad zijn. Het voorraadniveau van een variant wordt bepaald op basis van de definitie van het voorraadniveauprofiel van het product. 
+> Voor een consistente berekening van het voorraadniveau in pagina's en modules op uw e-commercesite moet u ervoor zorgen dat u hetzelfde hoeveelheidstype selecteert voor zowel de instelling **Voorraadbeschikbaarheid gebaseerd op** in Commerce Headquarters als de instelling **Voorraadniveau gebaseerd op** in Commerce Site Builder. Zie [Voorraadinstellingen toepassen](inventory-settings.md) voor meer informatie over voorraadinstellingen in Site Builder.
+
+Volg deze stappen om de productkenmerken voor een online kanaal te configureren. 
+
+1. Ga naar **Retail en Commerce \> Kanaalinstellingen \> Kanaalcategorieën en productkenmerken**.
+2. Selecteer een online kanaal waarvoor u de moduel voor voorraadbewuste zoekresultaten wilt inschakelen.
+3. Selecteer en open een gekoppelde kenmerkgroep en voeg vervolgens het nieuwe productkenmerk hieraan toe.
+4. Selecteer in Commerce-versies vóór 10.0.27 de optie **Metagegevens van kenmerken instellen**, selecteer het zojuist toegevoegde productkenmerk en schakel vervolgens de opties **Kenmerk in kanaal weergeven**, **Ophaalbaar**, **Kan worden verfijnd** en **Kan worden opgezocht** in.
+5. Ga naar **Retail en commerce \> Retail en commerce IT \> Distributieplanning** en voer taak **1150 (Catalogus)** uit. Als u de taak **Productkenmerken invullen met voorraadniveau** inplant als een batchproces, bevelen wij aan dat u ook de 1150-taak inplant als een batchproces en deze met dezelfde frequentie laat uitvoeren.
+
+> [!NOTE]
+> Voor producten die in de module voor zoekresultaten worden weergegeven, wordt het voorraadniveau getoond op het niveau van het hoofdproduct in plaats van het niveau van de afzonderlijke variant. Er zijn slechts twee mogelijke waarden: 'beschikbaar' en 'niet voorradig'. Het werkelijke label voor de waarde wordt opgehaald uit de definitie van het [voorraadniveauprofiel](inventory-buffers-levels.md). Een hoofdproduct wordt alleen als 'niet voorradig' beschouwd als alle varianten niet op voorraad zijn.
 
 Nadat alle voorgaande configuratiestappen zijn voltooid, tonen de verfijningen op de pagina's met zoekresultaten een voorraadfilter en haalt de module voor zoekresultaten achter de schermen voorraadgegevens op. U kunt vervolgens de instelling **Voorraadinstellingen voor productlijstpagina's** configureren in Commerce Site Builder om te bepalen hoe in de module voor zoekresultaten niet voorradige producten worden weergegeven. Zie [Voorraadinstellingen toepassen](inventory-settings.md) voor meer informatie.
 

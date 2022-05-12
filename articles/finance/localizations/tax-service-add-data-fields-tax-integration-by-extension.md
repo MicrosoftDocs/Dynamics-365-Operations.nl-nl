@@ -2,7 +2,7 @@
 title: Gegevensvelden in de belastingintegratie toevoegen met extensies
 description: In dit onderwerp wordt uitgelegd hoe u X++-extensies gebruikt om gegevensvelden toe te voegen in de belastingintegratie.
 author: qire
-ms.date: 02/17/2022
+ms.date: 04/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: acbe8070424febf24883362448ea56857d9d72d9
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: 79b51812eac354072ebf2a0ef6fe8d39610c6385
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323518"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649096"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Gegevensvelden in de belastingintegratie toevoegen met extensies
 
@@ -334,9 +334,10 @@ Breid de `copyToTaxableDocumentHeaderWrapperFromTaxIntegrationDocumentObject`- o
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
+    // private const str IOEnumExample = 'Enum Example';
 
     /// <summary>
     /// Copies to <c>TaxableDocumentLineWrapper</c> from <c>TaxIntegrationLineObject</c> by line.
@@ -349,20 +350,24 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
         // Set the field we need to integrated for tax service
         _destination.SetField(IOCostCenter, _source.getCostCenter());
         _destination.SetField(IOProject, _source.getProjectId());
+
+        // If the field to be extended is an enum type, use enum2Symbol to convert an enum variable exampleEnum of ExampleEnumType to a string
+        // _destination.SetField(IOEnumExample, enum2Symbol(enumNum(ExampleEnumType), _source.getExampleEnum()));
     }
 }
 ```
 
-In deze code is `_destination` het wrapper-object dat wordt gebruikt om de boekingsaanvraag te genereren en is `_source` het `TaxIntegrationLineObject`-object.
+In deze code is `_destination` het wrapper-object dat wordt gebruikt om de aanvraag te genereren en is `_source` het `TaxIntegrationLineObject`-object.
 
 > [!NOTE]
-> Definieer de sleutel die in het aanvraagformulier wordt gebruikt als **private const str**. De tekenreeks moet exact gelijk zijn aan de naam van de meting die is toegevoegd in het onderwerp [Gegevensvelden toevoegen in belastingconfiguraties](tax-service-add-data-fields-tax-configurations.md).
-> Stel het veld in de methode **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** in op basis van de methode **SetField**. Het gegevenstype van de tweede parameter moet **string** zijn. Als het gegevenstype niet **string** is, converteert u het.
-> Als een **type opsomming** X++ wordt uitgebreid, moet u op het verschil tussen de waarde, het label en de naam letten.
+> Definieer de veldnaam die in de aanvraag wordt gebruikt als **private const str**. De tekenreeks moet exact gelijk zijn aan de knooppuntnaam (niet het label) die is toegevoegd in het onderwerp [Gegevensvelden toevoegen in belastingconfiguraties](tax-service-add-data-fields-tax-configurations.md).
 > 
+> Stel het veld in de methode **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** in op basis van de methode **SetField**. Het gegevenstype van de tweede parameter moet **string** zijn. Als het gegevenstype niet **string** is, converteert u het naar een tekenreeks.
+> Als het gegevenstype X++ **enumtype** is, raden we u aan om de methode **enum2Symbol** te gebruiken om de enumwaarde naar een tekenreeks te converteren. De opsommingswaarde die in de belastingconfiguratie is toegevoegd, moet exact gelijk zijn aan opsommingsnaam. Hieronder volgt een lijst met verschillen tussen de opsommingswaarde, het label en de naam.
+> 
+>   - De naam van de opsomming is een symbolische naam in code. **enum2Symbol()** kan de opsommingswaarde converteren naar de naam.
 >   - De waarde van de opsomming is een geheel getal.
->   - Het label van de opsomming kan in verschillende voorkeurstalen verschillend zijn. Gebruik niet **enum2Str** om het opsommingstype te converteren naar string.
->   - De naam van de opsomming wordt aanbevolen omdat het een vaste naam is. **enum2Symbol** kan worden gebruikt om de opsomming te converteren naar de naam. De opsommingswaarde die in de belastingconfiguratie is toegevoegd, moet exact gelijk zijn aan opsommingsnaam.
+>   - Het label van de opsomming kan in verschillende voorkeurstalen verschillend zijn. **enum2Str()** kan de opsommingswaarde converteren naar het label.
 
 ## <a name="model-dependency"></a>Modelafhankelijkheid
 
@@ -526,7 +531,7 @@ final class TaxIntegrationPurchTableDataRetrieval_Extension
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
 

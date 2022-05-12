@@ -2,7 +2,7 @@
 title: De betalingsmethode voor de klantrekening configureren voor B2B-e-commercesites
 description: In dit onderwerp wordt beschreven hoe u de betalingsmethode voor de klantrekening configureert in Microsoft Dynamics 365 Commerce. Hierin wordt ook beschreven hoe kredietlimieten van invloed zijn op het vastleggen van a conto-betalingen op e-commercesites voor B2B (business-to-business).
 author: josaw1
-ms.date: 02/16/2022
+ms.date: 04/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0366f7b51ac138cc7305f98d5607c554440e6d34
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: a8fdeb109204557f0e44457e23a60224e662474f
+ms.sourcegitcommit: 96e2fb26efd2cd07bbf97518b5c115e17b77a0a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323350"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8616827"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>De betalingsmethode voor de klantrekening configureren voor B2B-e-commercesites
 
@@ -80,9 +80,9 @@ De waarden die door de eigenschap **Kredietlimiettype** worden ondersteund, zijn
 > [!NOTE]
 > We raden u aan om de eigenschap **Kredietlimiettype** in te stellen op **Saldo + verpakkingsbon of productbon**, zodat openstaande verkooporders niet bijdragen aan de saldoberekening. Als uw klanten toekomstige orders plaatsen, hoeven ze niet te vrezen dat deze orders invloed hebben op hun huidige saldo.
 
-Een andere eigenschap die invloed heeft op a conto-orders is de eigenschap **Verplichte kredietlimiet**. Deze bevindt zich op het sneltabblad **Crediteringen en aanmaningen** van de klantrecord. Door deze eigenschap in te stellen op **Ja** voor specifieke klanten, kunt u het systeem dwingen om hun kredietlimiet te controleren, zelfs als de eigenschap **Kredietlimiettype** is ingesteld op **Geen** om op te geven dat de kredietlimiet niet moet worden gecontroleerd voor een klant.
+Een andere eigenschap die invloed heeft op a conto-orders is de eigenschap **Verplichte kredietlimiet**. Deze bevindt zich op het sneltabblad **Crediteringen en aanmaningen** van de klantrecord. Als u deze eigenschap instelt op **Ja** voor specifieke klanten, kunt u het systeem dwingen om hun kredietlimiet te controleren, zelfs als de eigenschap **Kredietlimiettype** is ingesteld op **Geen** om op te geven dat de kredietlimiet niet moet worden gecontroleerd voor een klant.
 
-Op dit moment hebben B2B-locaties waarvoor de eigenschap **Verplichte kredietlimiet** is ingeschakeld extra functionaliteit. Als de eigenschap is ingeschakeld voor een klantrecord en de klant een order plaatst, verhindert de B2B-site dat de a conto-betalingswijze wordt gebruikt om meer te betalen dan het resterende creditsaldo. Als het resterende creditsaldo van de klant $ 1000 is en de order een waarde van $ 1200 heeft, kan de klant maar $ 1000 betalen via de a conto-methode. In dat geval moet de klant een andere betalingswijze gebruiken om het saldo te betalen. Als de eigenschap **Verplichte kredietlimiet** is uitgeschakeld voor een klantrecord, kan de klant elk bedrag betalen met de a conto-betalingswijze. Hoewel een klant wel orders kan plaatsen, staat het systeem niet toe dat deze orders worden afgehandeld als ze de kredietlimiet overschrijden. Als u de kredietlimiet moet controleren voor alle klanten die in aanmerking komen voor a conto-betalingen, raden we u aan om de eigenschap **Kredietlimiettype** op **Saldo + verpakkingsbon of productbon** en **Verplichte kredietlimiet** op **Nee** in te stellen.
+Op dit moment kan een klant met de a conto-betalingsmethode niet meer betalen dan het resterende kredietsaldo voor een order. Als het resterende creditsaldo van een klant $ 1000 is en de order een waarde van $ 1200 heeft, kan de klant maar $ 1000 betalen via de a conto-methode. De klant moet dan het resterende bedrag betalen met een andere methode. In een toekomstige versie kunnen gebruikers via een Commerce-configuratie de kredietlimiet overschrijden wanneer ze orders plaatsen.
 
 De module **Crediteringen en aanmaningen** biedt nieuwe mogelijkheden voor kredietbeheer. Als u deze mogelijkheden wilt inschakelen, moet u de functie **Kredietbeheer** in de werkruimte **Functiebeheer** inschakelen. Met een van de nieuwe mogelijkheden kunnen verkooporders in de wachtstand worden gezet op basis van blokkeringsregels. De persona kredietbeheerder kan de orders vervolgens na een nadere analyse vrijgeven of afwijzen. De mogelijkheid om verkooporders in de wachtstand te plaatsen is echter niet van toepassing op Commerce-orders, omdat verkooporders vaak een vooruitbetaling hebben en de functie **Creditbeheer** vooruitbetalingsscenario's niet volledig ondersteunt. 
 
@@ -95,7 +95,7 @@ De mogelijkheid om Commerce-verkooporders in de wacht zetten op basis van blokke
 - RetailCreateCustomerOrderExtensions_CredMan_Extension.xml
 - RetailCallCenterOrderExtensions_CredMan_Extension.xml
 
-Als de markering **CredManExcludeSalesOrder** wordt ingesteld op **Nee** en een B2B-klant bij winkels kan inkopen via de POS-toepassing, kan het boeken van contante transacties mislukken. Er is bijvoorbeeld een blokkeringsregel voor het type contantbetaling en de B2B-klant koopt bepaalde artikelen contact in de winkel. In dit geval kan de resulterende verkooporder niet worden gefactureerd omdat deze in de wachtstand wordt gezet. Daarom mislukt de boeking. Daarom is het raadzaam om end-to-end tests uit te voeren nadat u deze aanpassing hebt geïmplementeerd.
+Als de vlag **CredManExcludeSalesOrder** wordt ingesteld op **Nee** en een B2B-klant bij winkels kan inkopen via de POS-toepassing, kan het boeken van contante transacties mislukken. Er is bijvoorbeeld een blokkeringsregel voor het type contantbetaling en de B2B-klant koopt bepaalde artikelen contact in de winkel. In dit geval kan de resulterende verkooporder niet worden gefactureerd omdat deze in de wachtstand wordt gezet. Daarom mislukt de boeking. Daarom is het raadzaam om end-to-end tests uit te voeren nadat u deze aanpassing hebt geïmplementeerd.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

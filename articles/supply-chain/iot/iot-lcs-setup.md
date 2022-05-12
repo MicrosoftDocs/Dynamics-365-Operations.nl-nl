@@ -14,18 +14,27 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ebf11b55f1034b9a84dda9ada77c2f1b7f587a58
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 89d2f53a761085949885c987d664654c3423524b
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781584"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645072"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>De invoegtoepassing IoT-intelligentie installeren in LCS
 
 [!include [banner](../../includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u de invoegtoepassing IoT-intelligentie kunt installeren in Microsoft Dynamics Lifecycle Services (LCS). Invoegtoepassingen kunnen niet worden geïnstalleerd in een demo-/proefomgeving. Voordat u de invoeg toepassing kunt installeren, moet u [de Azure-resources maken](iot-azure-setup.md).
+
+U kunt IoT-intelligentie instellen en configureren zonder code te schrijven. Hier volgen de basisstappen.
+
+1. [Azure-bronnen instellen](iot-azure-setup.md): maak een IoT-hub, een Redis-cache en een sleutelkluis die toegankelijk is vanuit Supply Chain Management.
+2. [Indelingen voor berichtschema's voor IoT-hub](iot-schema-format.md): configureer uw apparaten om berichten naar IoT-hub te verzenden en om de JSON-berichtenindeling (JavaScript Object Notation) te definiëren.
+3. Schakel in Functiebeheer de functie IoT-intelligentie in.
+4. Installeer de invoegtoepassing IoT-intelligentie in Microsoft Dynamics Lifecycle Services (LCS): installeer de invoegtoepassing in LCS en configureer de Azure-geheimen (zoals beschreven in dit onderwerp).
+5. [Metrische gegevens instellen](iot-metrics-setup.md): stel metrische gegevens in Supply Chain Management in.
+6. [Scenario-instellingen](iot-scenario-setup.md): stel de scenario's in Supply Chain Management in.
 
 ## <a name="set-up-the-lcs-environment"></a>De LCS-omgeving instellen
 

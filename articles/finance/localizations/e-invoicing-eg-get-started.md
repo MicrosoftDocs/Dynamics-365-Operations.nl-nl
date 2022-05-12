@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6fe1dd4254db8b390c17558320a6eaff2b0dcd19
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: e21c4ce4d676c3194665672a078dc1e3d0492799
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371351"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661717"
 ---
 # <a name="electronic-invoicing-for-egypt"></a>Elektronische facturering voor Egypte
 
@@ -42,7 +42,7 @@ Voordat u de procedures in dit onderwerp start, moet aan de volgende vereisten z
     - [De invoegtoepassing voor microservices in Lifecycle Services installeren](e-invoicing-install-add-in-microservices-lcs.md)
     
 - De integratie activeren tussen Microsoft Dynamics 365 Finance of Dynamics 365 Supply Chain Management en de elektronische factureringsservice zoals beschreven in [De integratie met Elektronische facturering activeren en instellen](e-invoicing-activate-setup-integration.md).
-- Maak een digitaal certificaatgeheim in de Azure Key Vault en stel dit in zoals wordt beschreven in [Klantcertificaten en geheimen](e-invoicing-customer-certificates-secrets.md). Voor testdoeleinden levert de Egyptische belastingdienst specifieke digitale testcertificaten die alleen tijdens de test- en oplossingvalidatiefasen mogen worden gebruikt. Ga naar de website van de Egyptische belastingdienst via de koppeling die is verstrekt in de [Egyptische SDK voor e-facturering](https://sdk.sit.invoicing.eta.gov.eg/faq/) voor meer informatie.
+- Maak een digitaal certificaatgeheim in de Azure Key Vault en stel dit in zoals wordt beschreven in [Klantcertificaten en geheimen](e-invoicing-customer-certificates-secrets.md). Voor testdoeleinden levert de Egyptische belastingdienst specifieke digitale testcertificaten die alleen tijdens de test- en oplossingvalidatiefasen mogen worden gebruikt. Ga naar de website van de Egyptische belastingdienst via de koppeling die is verstrekt in de [Egyptische SDK voor e-facturering](https://sdk.invoicing.eta.gov.eg/faq/) voor meer informatie.
 
 ## <a name="country-specific-configuration-for-the-egyptian-electronic-invoice-eg-feature"></a>Landspecifieke configuratie voor de functie Egyptische elektronische factuur (EG)
 
@@ -56,7 +56,7 @@ Sommige parameters van de elektronische factureringsfunctie **Egyptische elektro
 6. Selecteer op het tabblad **Verwerkingspijplijn** in de veldgroep **Verwerkingspijplijn** de optie **Json-document ondertekenen voor Egyptische belastingdienst**.
 7. Selecteer in de sectie **Parameters** **Certificaatnaam** en selecteer vervolgens de naam van het digitale certificaat dat u hebt gemaakt.
 8. Selecteer in de sectie **Verwerkingspijplijn** de optie **Integreren met de Egyptische ETA-service**. Herhaal deze stap voor de twee voorvallen van deze actie.
-9. Selecteer in de sectie **Parameters** de **URL van de webservice** en de **URL van de aanmeldingsservice**. Controleer vervolgens de URL-parameters. Voor het ophalen van de test- en productie-URL gaat u naar de website van de Egyptische belastingdienst via de koppeling die is verstrekt in de [Egyptische SDK voor e-facturering](https://sdk.sit.invoicing.eta.gov.eg/faq/).
+9. Selecteer in de sectie **Parameters** de **URL van de webservice** en de **URL van de aanmeldingsservice**. Controleer vervolgens de URL-parameters. Voor het ophalen van de test- en productie-URL gaat u naar de website van de Egyptische belastingdienst via de koppeling die is verstrekt in de [Egyptische SDK voor e-facturering](https://sdk.invoicing.eta.gov.eg/faq/).
 10. Selecteer **Opslaan** en sluit de pagina.
 11. Herhaal stap 4 tot en met 10 voor de instelling van de functie **Afgeleide projectfactuur**.
 

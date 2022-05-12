@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8138c63e9eff1d2ca934f9d4467e4e3b73dae941
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 42e617e26e7658fae9ee54cb8a4dee45314fddaa
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371558"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661687"
 ---
 # <a name="electronic-invoicing-setup"></a>Elektronische facturering instellen
 
@@ -35,7 +35,5 @@ Stel vervolgens de Azure-resources in die nodig zijn voor Elektronische facturer
 Nadat de hoofdonderdelen zijn geconfigureerd, werkt u samen met RCS om de belangrijkste logische onderdelen van elektronische facturering in te stellen. Definieer eerst het aantal serviceomgevingen dat u wilt onderhouden. Op deze manier definieert u de logische gegevens- en configuratie-partities, zodat u een grens hebt tussen een ontwikkel- of testomgeving en de productieomgevingen. Als u het ontwikkelingsproces flexibel wilt instellen, hebt u mogelijk verschillende afzonderlijke ontwikkel- en testomgevingen nodig. Definieer niet alleen serviceomgevingen, maar stel ook direct vanuit RCS een koppeling naar uw bedrijfstoepassingen, zoals Finance of Supply Chain Management, in om de parameters in te stellen die vereist zijn voor een juiste bewerking met elektronische facturering. Zie [Serviceomgevingen](e-invoicing-service-environments.md) voor meer informatie over omgevingen.
 
 Nadat alles is ingesteld, kunt u uw eigen globalisatiefuncties maken die verschillende scenario's definiëren voor de verwerking van elektronische documenten en het omzetten van gegevens, of voor het importeren van de documenten vanuit de algemene opslagplaats. Zie [Werken met Globalisatiefuncties](e-invoicing-working-globalization-features.md) voor meer informatie over het werken met Globalisatiefuncties.
-
-Zie **Documentverwerkingsacties** voor informatie over de acties in de verwerkingspijplijnen die het proces opbouwen voor globalisatiefuncties.
 
 Als uw scenario's integratie met e-mail of SharePoint vereisen om inkomende elektronische documenten te verwerken, gaat u naar [De verwerking van binnenkomende elektronische documenten](e-invoicing-process-incoming-electronic-documents.md) voor informatie over het instellen en gebruiken van deze kanalen.

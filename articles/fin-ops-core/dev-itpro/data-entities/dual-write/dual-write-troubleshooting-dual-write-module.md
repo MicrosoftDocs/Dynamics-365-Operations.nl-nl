@@ -2,19 +2,19 @@
 title: Problemen met twee keer wegschrijven oplossen in de toepassingen Finance and Operations
 description: Dit onderwerp bevat informatie over het oplossen van problemen met betrekking tot de module Twee keer wegschrijven in apps voor financiële en bedrijfsactiviteiten.
 author: RamaKrishnamoorthy
-ms.date: 04/12/2022
+ms.date: 04/18/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 58b20e38269922203b54173509e31c5e6f30c25b
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 0696d525e985f1cfcac1998d4c0bd8a380ca9551
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565961"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8613877"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Problemen met twee keer wegschrijven oplossen in de toepassingen Finance and Operations
 
@@ -73,7 +73,7 @@ Maak een ticket voor het gegevensintegratieteam om het probleem op te lossen. Ko
 
 ## <a name="enable-parallel-processing-in-finance-and-operations-apps-to-improve-performance"></a>Parallelle verwerking in apps voor financiën en bedrijfsactiviteiten inschakelen om de prestaties te verbeteren
 
-Het inschakelen van parallelle verwerking kan de tijd beperken die nodig is om gegevens vanuit apps voor financiën en bedrijfsactiviteiten te importeren in apps voor klantbetrokkenheid en Microsoft Dataverse. 
+Het inschakelen van parallelle verwerking kan de tijd beperken die nodig is om gegevens vanuit Dynamics 365 Customer Engagement en Microsoft Dataverse in apps voor financiën en bedrijfsactiviteiten. 
 
 Ga als volgt te werk om parallelle verwerking in apps voor financiën en bedrijfsactiviteiten in te schakelen.
 

@@ -2,7 +2,7 @@
 title: Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
 description: In dit onderwerp worden de nieuwe en gewijzigde functies genoemd voor elke vrijgegeven versie van de mobiele app Warehouse Management voor Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 03/11/2022
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2544c30afe18f290b681efed1705f7cef0cb7620
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: 679222005fe12009004921fa75a56145ae94c3ba
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487831"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644727"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 In dit onderwerp worden de nieuwe functies, oplossingen, verbeteringen en bekende problemen genoemd voor elke vrijgegeven versie van de mobiele app Warehouse Management voor Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20210"></a>Versie 2.0.21.0
+
+Deze versie bevat de volgende nieuwe functies, verbeteringen en oplossingen voor fouten:
+
+- Diverse problemen met vastloper opgelost.
+- Een probleem opgelost waarbij sommige tekens niet worden herkend bij het scannen of typen op de standaardpagina.
+- Een probleem opgelost waarbij door het typen van een backspace op de standaardpagina twee tekens tegelijk worden verwijderd.
+- Een probleem opgelost waarbij met het veld **Sorteren op** op de pagina **Werklijst** een onjuiste waarde wordt weergegeven die niet overeenkomt met de werkelijke sorteervolgorde van de kaarten.
+- Een probleem opgelost waarbij in Microsoft Windows een onjuiste indeling wordt getoond nadat het formaat van het app-venster is aangepast.
+- Een probleem opgelost waarbij bladeren in een pop-uplijst ertoe kan leiden dat een aantal lijstitems verborgen blijft of vervormd raakt.
+- De aanmeldingspagina opnieuw ontworpen, zodat de velden Gebruikersnaam en Wachtwoord op dezelfde pagina worden weergegeven wanneer de app op grotere displays wordt uitgevoerd.
+- De manier verbeterd waarop besturingselementen reageren op snel tikken.
+- Een weergave voor het foutenlogboek in de app zelf toegevoegd.
+- Diverse verbeteringen op het gebied van toegankelijkheid toegevoegd (voorlezen verbeterd, ontbrekende tijdelijke aanduidingen in Android gecorrigeerd, toetsenbordinvoer voor schuifregelaars ingeschakeld en meer).
 
 ## <a name="version-20200"></a>Versie 2.0.20.0
 

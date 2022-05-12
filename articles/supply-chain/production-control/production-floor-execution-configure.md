@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 5a0ead85eaeb6b96b80716614990af8c8e5e70f7
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 083f5a30323cdc813116af7462563c3b8dd5e4f5
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384742"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644327"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>De uitvoeringsinterface voor de werkvloer configureren
 
@@ -111,17 +111,67 @@ Als u deze functionaliteit wilt gebruiken, schakelt u in [Functiebeheer](../../f
 
 - *(Preview) Rapport over catch weight-artikelen uit de uitvoeringsinterface van de productievloer*
 
+### <a name="enable-the-my-day-dialog"></a>Het dialoogvenster Mijn dag inschakelen
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Het dialoogvenster **Mijn dag** biedt werknemers een overzicht van hun dagelijkse registraties en actuele saldi voor betaalde tijd, betaalde overuren, verzuim en betaald verzuim.
+
+Als u deze functionaliteit wilt gebruiken, schakelt u in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) de volgende functie in:
+
+- *De weergave Mijn dag voor de uitvoeringsinterface voor de werkvloer*
+
+### <a name="enable-teams"></a>Teams inschakelen
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Wanneer meerdere werknemers aan dezelfde productietaak zijn toegewezen, kunnen ze een team vormen. Het team kan één werknemer aanwijzen als leider. De overige werknemers worden automatisch assistenten van die leider. Voor het team dat hierdoor ontstaat, moet alleen de leider de taakstatus registreren. Tijdregistraties gelden voor alle teamleden.
+
+Als u deze functionaliteit wilt gebruiken, schakelt u in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) de volgende functie in:
+
+- *Productieteams in de uitvoeringsinterface voor de werkvloer*
+
+### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>Aanvullende configuratie in de uitvoeringsinterface voor de werkvloer inschakelen
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Met deze functie kunt u instellingen voor de volgende functionaliteit toevoegen aan de pagina **Uitvoering productievloer configureren**:
+
+- Automatisch het dialoogvenster **Taak beginnen** openen wanneer een zoekopdracht is voltooid.
+- Automatisch het dialoogvenster **Voortgang melden** openen wanneer een zoekopdracht is voltooid.
+- De resterende hoeveelheid vooraf invullen in het dialoogvenster **Voortgang melden**.
+- Aanpassingen voor materiaalverbruik toestaan vanuit de dialoogvensters **Voortgang melden**. Voor deze functionaliteit is ook de functie *Materiaalverbruik registreren op de uitvoeringsinterface van de werkvloer (niet-WMS)* vereist.
+- Zoekopdrachten op project-id mogelijk maken.
+
+Informatie over het gebruik van de instellingen vindt u verderop in dit onderwerp.
+
+Als u deze functionaliteit wilt gebruiken, schakelt u in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) de volgende functie in:
+
+- *Aanvullende configuratie in de uitvoeringsinterface voor de werkvloer*
+
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Werken met uitvoeringsconfiguraties voor de werkvloer
 
 Als u uitvoeringsconfiguraties voor de werkvloer wilt maken en beheren, gaat u naar **Productiebeheer \> Instellen \> Productie-uitvoering \> Uitvoering werkvloer configureren**. Op de pagina **Uitvoering werkvloer configureren** wordt een lijst met bestaande configuraties weergegeven. Op deze pagina kunt u de volgende acties uitvoeren:
 
 - Selecteer een configuratie voor de werkvloer die in de linkerkolom staat om deze weer te geven en te bewerken.
-- Selecteer **Nieuw** in het actievenster om een nieuwe configuratie aan de lijst toe te voegen. Voer vervolgens een naam in het veld **Configuratie** in waarmee de nieuwe configuratie wordt geïdentificeerd. De naam die u invoert, moet uniek zijn voor alle configuraties en u kunt deze later niet bewerken.
+- Selecteer in het actievenster de optie **Nieuw** om een nieuwe configuratie aan de lijst toe te voegen. Voer vervolgens een naam in het veld **Configuratie** in waarmee de nieuwe configuratie wordt geïdentificeerd. De naam die u invoert, moet uniek zijn voor alle configuraties en u kunt deze later niet bewerken. Voer in het veld **Beschrijving** optioneel een beschrijving van de configuratie in.
 
-Configureer vervolgens de verschillende instellingen voor de geselecteerde configuratie. De volgende velden zijn beschikbaar:
+Configureer vervolgens de verschillende instellingen van de geselecteerde configuratie, zoals beschreven in de volgende subsecties.
 
-- **Alleen in- en uitklokken**: stel deze optie in op *Ja* om een vereenvoudigde interface te maken die alleen inklok- en uitklokfunctionaliteit biedt. Hierdoor worden de meeste andere opties op deze pagina uitgeschakeld. U moet eerst alle regels verwijderen uit het sneltabblad **Tabselectie** voordat u deze optie kunt inschakelen.
-- **Zoeken inschakelen**: stel deze optie in op *Ja* om een zoekveld in de takenlijst op te nemen. Werknemers kunnen een specifieke taak vinden door de taak-ID in te voeren of alle taken voor een specifieke order zoeken door de order-ID in te voeren. Werknemers kunnen de ID invoeren met behulp van een toetsenblok of door een streepjescode te scannen.
+### <a name="the-general-fasttab"></a>Het sneltabblad Algemeen
+
+Op het sneltabblad **Algemeen** vindt u de volgende instellingen:
+
+- **Alleen in- en uitklokken**: stel deze optie in op *Ja* om een vereenvoudigde interface te maken die alleen functionaliteit voor in- en uitklokken biedt. Met deze instelling worden de meeste andere opties op deze pagina uitgeschakeld. U moet eerst alle regels verwijderen uit het sneltabblad **Tabselectie** voordat u deze optie kunt inschakelen.
+- **Zoeken inschakelen**: stel deze optie in op *Ja* om een zoekveld op te nemen in de takenlijst. Werknemers kunnen een specifieke taak vinden door de taak-id in te voeren, of alle taken voor een specifieke order zoeken door de order-id in te voeren. Werknemers kunnen de id invoeren met behulp van een toetsenblok of door een streepjescode te scannen.
+- **Zoeken op project-id inschakelen**: stel deze optie in op *Ja* om werknemers in staat te stellen te zoeken op project-id (naast taak-id en order-id) in het zoekveld van de uitvoeringsinterface voor de werkvloer. U kunt deze optie alleen op *Ja* instellen als de optie **Zoeken inschakelen** ook is ingesteld op *Ja*.
+- **Dialoogvenster voor starten automatisch openen**: Als deze optie in ingesteld op *Ja*, wordt het dialoogvenster **Taak beginnen** automatisch geopend wanneer medewerkers een taak zoekt met behulp van de zoekbalk.
+- **Dialoogvenster Voortgang melden automatisch openen**: Als deze optie in ingesteld op *Ja*, wordt het dialoogvenster **Voortgang melden** automatisch geopend wanneer medewerkers een taak zoekt met behulp van de zoekbalk.
+- **Materiaal aanpassen inschakelen**: Stel deze optie in op *Ja* als u de knop **Materiaal aanpassen** wilt inschakelen in het dialoogvenster **Voortgang melden**. Medewerkers kunnen op deze knop klikken om materiaalverbruik voor de taak aan te passen.
 - **Hoeveelheid rapporteren bij uitklokken**: stel deze optie in op *Ja* om werknemers te vragen om bij het uitklokken feedback te rapporteren over taken die in uitvoering zijn. Als deze optie wordt ingesteld op *Nee*, wordt dit niet aan werknemers gevraagd.
 - **Werknemer vergrendelen**: wanneer deze optie is ingesteld op *Nee*, worden werknemers onmiddellijk afgemeld nadat ze een registratie hebben gemaakt (zoals een nieuwe taak). De interface keert dan terug naar de aanmeldingspagina. Als deze optie is ingesteld op *Ja*, blijven werknemers aangemeld bij de uitvoeringsinterface voor de werkvloer. Een werknemer kan zich echter handmatig afmelden, zodat een andere werknemer zich kan aanmelden terwijl de uitvoeringsinterface voor de werkvloer actief blijft onder dezelfde systeemgebruikersaccount. Meer informatie over deze typen accounts vindt u in [Toegewezen gebruikers](config-job-card-device.md#assigned-users).
 - **De werkelijke registratietijd gebruiken**: stel deze optie in op *Ja* om de tijd in te stellen voor elke nieuwe registratie die gelijk is aan de exacte tijd waarop de registratie is ingediend door de werknemer. Als deze optie is ingesteld op *Nee*, wordt in plaats daarvan de aanmeldingstijd gebruikt. U stelt deze optie meestal in op *Ja* als u de opties **Werknemer vergrendelen** en/of **Eén werknemer** hebt ingesteld op *Ja*, waarbij werknemers vaak aangemeld blijven gedurende langere perioden.
@@ -130,7 +180,17 @@ Configureer vervolgens de verschillende instellingen voor de geselecteerde confi
 - **Duur schermvergrendeling**: wanneer de optie **Vergrendeling van het aanraakscherm toestaan** is ingesteld op *Ja*, gebruikt u deze optie om het aantal seconden op te geven dat het aanraakscherm moet worden vergrendeld voor schoonmaken. De duur moet tussen 5 en 120 seconden liggen.
 - **Nummerplaat genereren**: stel deze optie in op *Ja* om voor elke gereedmelding op de uitvoeringsinterface voor de werkvloer een nieuwe nummerplaat te genereren. Het nummerplaatnummer wordt gegenereerd op basis van een nummerreeks die is ingesteld op de pagina **Parameters voor magazijnbeheer**. Als deze optie is ingesteld op *Nee*, moeten werknemers een bestaande nummerplaat opgeven bij het gereedmelden.
 - **Label afdrukken**: stel deze optie in op *Ja* om een nummerplaatlabel af te drukken wanneer de werknemer de uitvoeringsinterface voor de werkvloer gebruikt voor de gereedmelding. De configuratie van het label wordt ingesteld in de documentroutering, zoals wordt beschreven in de [Indeling van documentroutering voor nummerplaatlabels](../warehousing/document-routing-layout-for-license-plates.md).
-- **Tabbladselectie**: gebruik de instellingen in deze sectie om te kiezen welke tabbladen moeten worden weergegeven door de uitvoeringsinterface voor de werkvloer wanneer de huidige configuratie actief is. U kunt zo veel tabbladen ontwerpen als u nodig hebt en deze vervolgens hier toevoegen en rangschikken. Zie [De uitvoeringsinterface voor de werkvloer ontwerpen](production-floor-execution-tabs.md) voor meer informatie over het ontwerpen van tabbladen en het werken met de instellingen.
+
+### <a name="the-tab-selection-fasttab"></a>Het sneltabblad Tabbladselectie
+
+Met de instellingen op het sneltabblad **Tabbladselectie** kunt u kiezen welke tabbladen moeten worden weergegeven in de uitvoeringsinterface voor de werkvloer wanneer de huidige configuratie actief is. U kunt zoveel tabbladen ontwerpen als u nodig hebt en deze vervolgens toevoegen en rangschikken zoals u wilt, door middel van de knoppen op de werkbalk van het sneltabblad. Meer informatie over het ontwerpen van tabbladen en het werken met de instellingen vindt u in [De uitvoeringsinterface voor de werkvloer ontwerpen](production-floor-execution-tabs.md).
+
+### <a name="the-report-progress-fasttab"></a>Het sneltabblad Voortgang melden
+
+Op het sneltabblad **Voortgang melden** vindt u de volgende instellingen:
+
+- **Materiaal aanpassen inschakelen**: Stel deze optie in op *Ja* als u de knop **Materiaal aanpassen** wilt toevoegen aan het dialoogvenster **Voortgang melden**. Medewerkers kunnen op deze knop klikken om materiaalverbruik voor de taak aan te passen.
+- **Standaard resterende hoeveelheid**: Stel deze optie in op *Ja* als u de verwachte resterende hoeveelheid voor een productietaak vooraf wilt invullen in het dialoogvenster **Voortgang melden**.
 
 ## <a name="clean-up-job-configurations"></a>Taakconfiguraties opschonen
 

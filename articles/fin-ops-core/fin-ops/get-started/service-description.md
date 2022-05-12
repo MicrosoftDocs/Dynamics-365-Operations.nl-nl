@@ -1,26 +1,26 @@
 ---
-title: Beschrijving van service voor Finance and Operations-toepassingen
-description: In dit onderwerp vindt u de serviceomschrijving voor Finance and Operations-toepassingen.
+title: Serviceomschrijving voor apps voor financiën en bedrijfsactiviteiten
+description: In dit onderwerp vindt u de serviceomschrijving voor apps voor financiën en bedrijfsactiviteiten
 author: tomhig
-ms.date: 01/05/2022
+ms.date: 04/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 85f82a863f0bde4c0414760fa2477651242538f2
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: cd033cfc3df21ddac5572aa70c18db5ffe26f54e
+ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952361"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8656798"
 ---
-# <a name="service-description-for-finance-and-operations-apps"></a>Beschrijving van service voor Finance and Operations-toepassingen
+# <a name="service-description-for-finance-and-operations-apps"></a>Serviceomschrijving voor apps voor financiën en bedrijfsactiviteiten
 
 [!include[banner](../includes/banner.md)]
 
-Finance and Operations-toepassingen zijn ERP-software (Enterprise Resource Planning) als serviceaanbiedingen (Ers) die zijn gebaseerd op en voor [Microsoft Azure](https://azure.microsoft.com/overview/what-is-azure/). De service biedt organisaties een ERP-functionaliteit die ondersteuning biedt voor hun unieke behoeften en die ze helpt bij het aanpassen aan het veranderen van bedrijfsomgevingen zonder dat zij de Finance and Operations-infrastructuur moeten beheren. Finance and Operations-toepassingen kunnen een of meer van de volgende oplossingsgebieden bevatten:
+Apps voor financiën en bedrijfsactiviteiten zijn ERP-software (Enterprise Resource Planning) als SaaS-aanbiedingen (Software-as-a-Service) die zijn gebaseerd op en voor [Microsoft Azure](https://azure.microsoft.com/overview/what-is-azure/). De service voor financiën en bedrijfsactiviteiten biedt organisaties een ERP-functionaliteit die ondersteuning biedt voor hun unieke behoeften en die ze helpt bij het aanpassen aan het veranderen van bedrijfsomgevingen zonder dat zij infrastructuur hoeven te beheren. Apps voor financiën en bedrijfsactiviteiten kunnen een of meer van de volgende oplossingsgebieden bevatten:
 
 - [Dynamics 365 Finance](/dynamics365/finance/)
 - [Dynamics 365 Human Resources](/dynamics365/human-resources/)
@@ -32,21 +32,21 @@ Samen met [business intelligence](/power-bi/fundamentals/power-bi-service-overvi
 
 - Ingebouwde [personalisatie-ervaring](personalize-user-experience.md)
 - [Microsoft Power Platform](../../dev-itpro/power-platform/overview.md)-hulpmiddelen
-- [Visual Studio](https://visualstudio.microsoft.com)–gebaseerde [Finance and Operations software development kit (SDK)](../../dev-itpro/dev-tools/developer-home-page.md) en [Azure DevOps build automation](../../dev-itpro/dev-tools/developer-home-page.md#build-automation-using-azure)
+- Op [Visual Studio](https://visualstudio.microsoft.com) gebaseerde [softwareontwikkelingskit voor financiën en bedrijfsactiviteiten (SDK)](../../dev-itpro/dev-tools/developer-home-page.md) en [Azure DevOps build automation](../../dev-itpro/dev-tools/developer-home-page.md#build-automation-using-azure)
 - Oplossingen voor onafhankelijke softwareleveranciers (ISV) van [AppSource](https://appsource.microsoft.com/partners)
 
 Klanten kiezen op basis van behoeften hun oplossingsbenadering. Zij werken samen met hun implementatiepartner om hun oplossing te definiëren, te ontwikkelen en te testen met behulp van de hulpprogramma's en best practices die worden geleverd in [Microsoft Dynamics Lifecycle Services (LCS)](../../dev-itpro/lifecycle-services/lcs.md). Er zijn vier veelvoorkomende scenario's:
 
-- Standaard Finance and Operations toepassingen met 'out of the box' configuratie (geen uitbreidingen)
-- Finance and Operations-toepasingsconfiguratie met een of meer ISV-oplossingen
-- Finance and Operations-toepassingsconfiguratie met een of meer klantspecifieke uitbreidingen
-- Finance and Operations-toepassingsconfiguratie met een combinatie van klantspecifieke uitbreidingen en één of meer ISV-oplossingen
+- Standaard met apps voor financiën en bedrijfsactiviteiten geleverde configuratie (geen uitbreidingen)
+- Configuratie van apps voor financiën en bedrijfsactiviteiten met één of meer ISV-oplossingen
+- Configuratie van apps voor financiën en bedrijfsactiviteiten met één of meer klantspecifieke uitbreidingen
+- Configuratie van apps voor financiën en bedrijfsactiviteiten met een combinatie van klantspecifieke uitbreidingen en één of meer ISV-oplossingen
 
 U kunt organisaties laten meegroeien met hun bedrijfsgroei door eenvoudig gebruikers en bedrijfsprocessen toe te voegen via een eenvoudig, transparant abonnementsmodel. Zie [Dynamics 365-licentiehandleiding](https://www.microsoft.com/licensing/docs/view/Microsoft-Dynamics-365) voor meer informatie.
 
 ## <a name="operating-model"></a>Gebruiksmodel
 
-Het gebruiksmodel van toepassingen definieert specifieke rollen en verantwoordelijkheden voor de klant, implementatiepartner en Microsoft tijdens de Finance and Operations-levenscyclus van de service. Zie [cloudbewerkingen en service in de cloud](../../dev-itpro/lifecycle-services/cloud-operations-servicing.md) voor meer informatie.
+Het gebruiksmodel van apps voor financiën en bedrijfsactiviteiten definieert specifieke rollen en verantwoordelijkheden voor de klant, implementatiepartner en Microsoft tijdens de -levenscyclus van de service. Zie [cloudbewerkingen en service in de cloud](../../dev-itpro/lifecycle-services/cloud-operations-servicing.md) voor meer informatie.
 
 ### <a name="customer-activities"></a>Klantenactiviteiten
 
@@ -61,7 +61,7 @@ Klanten werken samen met hun partner en [Microsoft FastTrack](/dynamics365/fastt
 
 ### <a name="microsoft-responsibilities"></a>Verantwoordelijkheden van Microsoft
 
-Microsoft beheert de service door klant- en productieomgevingen te implementeren, te controleren en af Finance and Operations te werken in het Microsoft SaaS-abonnement. Dit beheer omvat het toewijzen van de vereiste systeeminfrastructuur om de service uit te voeren en proactief te communiceren met klanten over de gezondheid van de service. Verantwoordelijkheden zijn onder meer:
+Microsoft beheert de service voor financiën en bedrijfsactiviteiten door klant-, sandbox- en productieomgevingen te implementeren, actief te bewaken en te onderhouden in het Microsoft SaaS-abonnement. Dit beheer omvat het toewijzen van de vereiste systeeminfrastructuur om de service uit te voeren en proactief te communiceren met klanten over de gezondheid van de service. Verantwoordelijkheden zijn onder meer:
 
 **Infrastructuurbeheer**
 - Beveiliging en isolatie
@@ -79,7 +79,7 @@ Microsoft beheert de service door klant- en productieomgevingen te implementeren
 
 ## <a name="system-configuration"></a>Systeemconfiguratie
 
-Finance and Operations-toepassingen schalen op basis van het transactievolume en de gebruikersbelasting. Door elke klantuitvoering wordt een unieke oplossing geproduceerd die uit de volgende elementen bestaat:
+Apps voor financiën en bedrijfsactiviteiten schalen op basis van het transactievolume en de gebruikersbelasting. Door elke klantuitvoering wordt een unieke oplossing geproduceerd die uit de volgende elementen bestaat:
 
 - **Gegevenscompositie**: een unieke set parameters die de gedragscontrole bepalen, de indeling van de organisatie, de structuur van hoofdgegevens (zoals financiële en voorraaddimensies) en de gedetailleerdheid van transactievolgbaarheid.
 - **Uitbreiding en configuratie** – Uitbreidingsmechanismen die code-uitbreidingen, ISV-oplossingen en unieke configuraties gebruiken met workflows, integraties en rapportconfiguraties.
@@ -89,11 +89,11 @@ Microsoft configureert klantproductieomgevingen die zijn aangepast aan de transa
 
 - De resources van productieomgevingen correct toewijzen op basis van de profileringsgegevens van de klant in de [LCS-abonnementsschatter](../../dev-itpro/lifecycle-services/subscription-estimator.md)
 - De servicebeschikbaarheid van productieomgevingen continu controleren en diagnosticeren
-- Problemen met systeemprestaties analyseren en oplossen met Finance and Operations-toepassingen
+- Problemen met systeemprestaties analyseren en oplossen met apps voor financiën en bedrijfsactiviteiten
 
 Om ervoor te zorgen dat een implementatie is geconfigureerd voor hoge prestaties, moeten klanten de volgende taken uitvoeren:
 
-- Geef nauwkeurige gebruiksinformatie over de Finance and Operations-implementatie in de [LCS-abonnementschatter](../../dev-itpro/lifecycle-services/subscription-estimator.md).
+- Geef nauwkeurige gebruiksinformatie over de implementatie van apps voor financiën en bedrijfsactiviteiten in de [LCS-abonnementschatter](../../dev-itpro/lifecycle-services/subscription-estimator.md).
 - Uitbreidingen bouwen en testen op prestaties en schaalbaarheid.
 - De gegevensconfiguraties op de juiste manier testen op de prestaties.
 - Schaalbaarheid controleren door [prestatietests](https://community.dynamics.com/365/b/techtalks/posts/performance-testing-approach-april-30-2018) uit te voeren voordat u live gaat.
@@ -112,7 +112,7 @@ Zie [Onboarding van een implementatieproject](../imp-lifecycle/onboard.md) voor 
 
 ## <a name="globalization"></a>Globalisatie
 
-Finance and Operations-toepassingen worden vanuit verschillende Azure-regio's over de hele wereld gebruikt. Finance and Operations-toepassingen bieden functionaliteit ter ondersteuning van verschillende landen/regio's en moedertalen. Zie [Localisatie en wettelijke functies](../../dev-itpro/lcs-solutions/country-region.md#localization-and-regulatory-features) voor meer informatie.
+Apps voor financiën en bedrijfsactiviteiten worden vanuit verschillende Azure-regio's over de hele wereld gebruikt. Apps voor financiën en bedrijfsactiviteiten bieden functionaliteit ter ondersteuning van verschillende landen/regio's en moedertalen. Zie [Localisatie en wettelijke functies](../../dev-itpro/lcs-solutions/country-region.md#localization-and-regulatory-features) voor meer informatie.
 
 ### <a name="countryregion-specific-considerations"></a>Land-/regiospecifieke overwegingen
 
@@ -122,7 +122,7 @@ Finance and Operations-toepassingen worden vanuit verschillende Azure-regio's ov
 
 ### <a name="general-data-protection-regulation-gdpr"></a>Algemene verordening gegevensbescherming (AVG)
 
-Voor Finance and Operations-toepassingen fungeert Microsoft als gegevensverwerker. Als gegevensverwerker biedt Finance and Operations processen en functies die klanten helpen te voldoen aan de AVG-verplichtingen als gegevensbeheerder. Zie [AVG](../../dev-itpro/gdpr/gdpr-guide.md) voor meer informatie.
+Bij de apps voor financiën en bedrijfsactiviteiten fungeert Microsoft als gegevensverwerker. Als gegevensverwerker biedt de service voor financiën en bedrijfsactiviteiten processen en functies die klanten helpen te voldoen aan de AVG-verplichtingen als gegevensbeheerder. Zie [AVG](../../dev-itpro/gdpr/gdpr-guide.md) voor meer informatie.
 
 ## <a name="environment-and-data-management"></a>Omevings - en gegevensbeheer
 
@@ -228,13 +228,13 @@ De volgende tabel beschrijft een aantal gebruikelijke scenario's en activiteiten
 
 ## <a name="service-update-strategy"></a>Strategie van service-update
 
-In overeenstemming met het [softwarelevenscyclusbeleid](../../dev-itpro/migration-upgrade/versions-update-policy.md), volgen Finance and Operations -apps fhet Microsoft [Modern levenscyclusbeleid](../../dev-itpro/migration-upgrade/versions-update-policy.md#modern-lifecycle-policy), dat producten dekt die continu worden onderhouden en ondersteund. 
+In overeenstemming met het [softwarelevenscyclusbeleid](../../dev-itpro/migration-upgrade/versions-update-policy.md), volgen apps voor financiën en bedrijfsactiviteiten het [Modern levenscyclusbeleid](../../dev-itpro/migration-upgrade/versions-update-policy.md#modern-lifecycle-policy) van Microsoft, dat producten dekt die continu worden onderhouden en ondersteund. 
 
-Microsoft brengt in de volgende maanden elk jaar acht service-updates uit voor Finance and Operations-apps:
+Microsoft brengt in de volgende maanden elk jaar acht service-updates uit voor apps voor financiën en bedrijfsactiviteiten:
 
-- Januari
-- Februari
-- April
+- januari
+- februari
+- april
 - Mei
 - Juli
 - Augustus
@@ -255,7 +255,7 @@ Raadpleeg de volgende onderwerpen voor meer informatie:
 
 ## <a name="security-and-administrative-access"></a>Beveiliging en beheerderstoegang
 
-De beheertoegang tot Finance and Operations-productieomgeving wordt streng geregeld en bijgehouden. Klantgegevens worden verwerkt in overeenstemming met de voorwaarden van [Microsoft Online Services](https://www.microsoft.com/licensing/terms/productoffering). 
+De beheertoegang tot de productieomgeving voor financiën en bedrijfsactiviteiten wordt streng geregeld en bijgehouden. Klantgegevens worden verwerkt in overeenstemming met de voorwaarden van [Microsoft Online Services](https://www.microsoft.com/licensing/terms/productoffering). 
 
 ### <a name="customer-administrative-access"></a>Beheerdertoegang voor klanten
 
@@ -264,7 +264,7 @@ De tenantbeheerder van de klant heeft toegang tot productie-exemplaren of niet-p
 | Omgevingstype | Doel | Niveau van klanttoegang |
 |---|---|---|
 | **Niet-productie**<br>Sandbox van niveau 1 | Een niet-productieomgeving die door klanten wordt geïmplementeerd voor ontwikkelings-, demonstratie- of trainingsdoeleinden. | Een sandbox van niveau 1 (ook wel een cloud-hostomgeving genoemd) is een door de klant beheerde VM die wordt geïmplementeerd in het Azure-abonnement van de klant vanuit LCS. Omdat het een VM is in het Abonnement op Azure van de klant, heeft de klant volledige beheertoegang tot de omgeving via Extern bureaublad. |
-| **Niet-productie**<br>Tier 2 (of hoger) sandbox | Een niet-productieomgeving die door klanten wordt geïmplementeerd voor acceptatietests voor gebruikers, integratietests, training, fasering of andere scenario's vóór de productie. | Tier 2 en hogere sandboxes worden geïmplementeerd in het Finance and Operations-SaaS-abonnement. Toegang tot Azure SQL-databases die aan de niet-productieomgeving zijn gekoppeld, wordt verleend via [just-in-time toegang](../../dev-itpro/database/database-just-in-time-jit-access.md). Toegang tot extern bureaublad is niet beschikbaar. |
+| **Niet-productie**<br>Tier 2 (of hoger) sandbox | Een niet-productieomgeving die door klanten wordt geïmplementeerd voor acceptatietests voor gebruikers, integratietests, training, fasering of andere scenario's vóór de productie. | Tier 2 en hogere sandboxes worden geïmplementeerd in het SaaS-abonnement voor Finance and Operations. Toegang tot Azure SQL-databases die aan de niet-productieomgeving zijn gekoppeld, wordt verleend via [just-in-time toegang](../../dev-itpro/database/database-just-in-time-jit-access.md). Toegang tot extern bureaublad is niet beschikbaar. |
 | **Productie** | Een productieomgeving wordt geïmplementeerd wanneer het project gereed is [voor eerste go-live](/imp-lifecycle/environment-planning.md#production-system-readiness). | Productieomgevingen worden geïmplementeerd in het SaaS-abonnement. Alle toegang is via de browser, service-eindpunten of LCS. |
 
 ### <a name="microsoft-administrative-access"></a>Microsoft-beheerderstoegang
@@ -296,7 +296,7 @@ Zie deze [ernsttabel](/power-platform/admin/support-overview#what-is-initial-res
 
 ## <a name="business-continuity-through-high-availability-and-disaster-recovery"></a>Bedrijfscontinuïteit door hoge beschikbaarheid en noodherstel 
 
-Microsoft biedt bedrijfscontinuïteit en noodherstel voor productie-instanties van Finance and Operations-apps in het geval van storingen in de hele Azure-regio. Zie [Bedrijfscontiteit en herstel](../../dev-itpro/sysadmin/business-continuity-disaster-recovery.md) voor meer informatie.
+Microsoft biedt bedrijfscontinuïteit en noodherstel voor productie-instanties van apps voor financiën en bedrijfsactiviteiten in het geval van storingen in de hele Azure-regio. Meer informatie over dit onderwerp, waaronder ook over Recovery Time Objective (RTO) en Recovery Point Objective (RPO) voor de service vindt u in [Bedrijfscontinuïteit en herstel na noodgeval](../../dev-itpro/sysadmin/business-continuity-disaster-recovery.md).
 
 - **Hoge beschikbaarheid**: De HA-functionaliteit biedt manieren om uitvaltijd te voorkomen die wordt veroorzaakt door het mislukken van één knooppunt in een Azure-systeem. De cloudarchitectuur van elke service maakt gebruik van Azure-beschikbaarheidssets voor de rekenlaag om single-point-of-failure-gebeurtenissen te voorkomen. HA voor databases wordt geleverd via [Azure SQL HA-functies](/azure/azure-sql/database/high-availability-sla).
 - **Noodherstel** – [Azure-functies voor noodherstel](/azure/best-practices-availability-paired-regions) beschermen elke service tegen storingen die een heel Azure-datacenter in grote lijnen treffen. Dit zijn enkele van deze functies:
@@ -305,25 +305,16 @@ Microsoft biedt bedrijfscontinuïteit en noodherstel voor productie-instanties v
     - Geo-redundante kopieën van Azure Blob Storage (die documentbijlagen bevat) in andere Azure-regio's.
     - Secundaire regio voor de Azure SQL- en Azure Blob Storage-replicaties.
 
-De primaire gegevensarchieven zijn ondersteund voor replicatie. Daarom gebruiken onderdelen voor elke service, zoals Management Reporter en entiteitsopslag, transformatiegegevens uit de primaire database. Deze gegevens moeten worden gegenereerd nadat de herstelsite is ingesteld en de service is gestart. Klantcode-artefacten en herstelde gegevensarchieven worden gebruikt om de site opnieuw te implementeren. Met de nieuweployment kunnen de status van de berekende knooppunten samen met deze en andere onderdelen worden gebruikt om de herstelde gegevensopslagpunten te gebruiken om de secundaire site in te stellen. Als noodherstel wordt gebruikt om het productie-exemplaar van de klant te herstellen, voldoen Microsoft en de klant aan hun [verantwoordelijkheden bij](service-description.md#incident-management) incidentbeheer.
+Als noodherstel wordt gebruikt om het productie-exemplaar van de klant te herstellen, voldoen Microsoft en de klant aan hun [verantwoordelijkheden bij](service-description.md#incident-management) incidentbeheer.
 
-De plannen en procedures voor noodherstel van Microsoft worden regelmatig onderzocht door middel van System and Organization Controls (SOC)-audits. Deze compliance-audits getuigen van het technische en procedurele proces van Microsoft's DR, inclusief Dynamics 365 Finance and Operations-toepassingen. [SoC-conformiteitscontrolerapporten](/compliance/regulatory/offering-soc-2) en alle andere conformiteitsrapporten zijn beschikbaar op het [nalevingsaanbod van het Microsoft Trust Center](/compliance/regulatory/offering-home).
+De plannen en procedures voor noodherstel van Microsoft worden regelmatig onderzocht door middel van System and Organization Controls (SOC)-audits. Deze compliance-audits getuigen van het technische en procedurele proces van Microsoft's DR, inclusief Dynamics 365-apps voor financiën en bedrijfsactiviteiten. [SoC-conformiteitscontrolerapporten](/compliance/regulatory/offering-soc-2) en alle andere conformiteitsrapporten zijn beschikbaar op het [nalevingsaanbod van het Microsoft Trust Center](/compliance/regulatory/offering-home).
 
-| Verantwoordelijkheden van Microsoft | Verantwoordelijkheden van klant |
-|---|---|
-| Microsoft biedt een secundaire omgeving in het aan Azure gekoppelde exemplaar wanneer het primaire productie-exemplaar wordt geïmplementeerd. Zie [Bedrijfscontinuïteit en herstel na noodgeval (BCDR of Business Continuity and Disaster Recovery): gekoppelde Azure-regio's](/azure/best-practices-availability-paired-regions) voor meer informatie. | None |
-| Microsoft schakelt de geografische opslag van SQL SQL en Azure cloud in wanneer het primaire productie-exemplaar wordt geïmplementeerd. | None |
-| Microsoft schakelt automatische back-up van de SQL-databases in Azure in. | None |
-| <p>Bij een storing bepaalt Microsoft of een failover moet worden uitgevoerd voor de klant en of er gegevens verloren gaan. Klanten kunnen een gegevensverlies van maximaal 15 minuten ervaren, afhankelijk van de aard en timing van de uitval. | In het geval van gegevensverlies, moet de klant mogelijk een schriftelijke ondertekening aanleveren om de failover te activeren. |
-| Wanneer een failover optreedt, werkt de toepasselijke service in beperkte modus. Updateonderhoud kan niet worden geactiveerd in de failovermodus. | De klant kan geen pakketimplementaties of andere regelmatige onderhoudsaanvragen aanvragen in de failovermodus. |
-| Wanneer het datacenter operationeel wordt, valt Microsoft terug op het productie-exemplaar in de primaire Azure-regio. Normale bewerkingen worden hervat. | De klant moet mogelijk tekenen voor failback naar het productie-exemplaar in de primaire Azure-regio. |
+## <a name="finance-and-operations-support-offerings"></a>Ondersteuningsaanbiedingen voor Finance and Operations
 
-## <a name="finance-and-operations-support-offerings"></a>Finance and Operations-ondersteuningsaanbiedingen
-
-Technische ondersteuning is beschikbaar in markten waar Finance and Operations-services worden aangeboden. [Ondersteuningservaringen](../../dev-itpro/lifecycle-services/lcs-support.md) worden geleverd in LCS of Finance and Operations-apps. Hieronder volgen een aantal voorbeelden:
+Technische ondersteuning is beschikbaar in markten waar services voor financiën en bedrijfsactiviteiten worden aangeboden. [Ondersteuningservaringen](../../dev-itpro/lifecycle-services/lcs-support.md) worden aangeboden in LCS of apps voor financiën en bedrijfsactiviteiten. Hieronder volgen een aantal voorbeelden:
 
 - [Problemen zoeken](../../dev-itpro/lifecycle-services/issue-search-lcs.md) in LCS
-- [Geïntegreerde technische ondersteuning](../../dev-itpro/lifecycle-services/support-experience.md) in Finance and Operations-toepassingen
+- [Geïntegreerde technische ondersteuning](../../dev-itpro/lifecycle-services/support-experience.md) in apps voor financiën en bedrijfsactiviteiten
 - [Cloudondersteuning](../../dev-itpro/lifecycle-services/cloud-powered-support-lcs.md) in LCS
 
 Microsoft biedt Finance and Operations-klanten drie ondersteuningsplannen: Premier, Professional Direct en de ondersteuning die is opgenomen in het abonnement. Het ondersteuningsniveau per plan verschilt. De volgende tabel toont een vergelijking van de drie plannen.
@@ -341,7 +332,7 @@ Zie [Overzicht van ondersteuning](/power-platform/admin/support-overview) voor m
 
 ### <a name="process-to-engage-support"></a>Proces om ondersteuning te krijgen
 
-Bij incidenten waarbij zijn Finance and Operations-toepassingen betrokken zijn, dienen klanten via LCS ondersteuningstickets in bij Microsoft. CSS verwerkt de incidenten op basis van het ondersteuningsplan van de klant en de ernst van het incident zoals aangegeven door CSS.
+Bij incidenten waarbij apps voor financiën en bedrijfsactiviteiten betrokken zijn, dienen klanten via LCS ondersteuningstickets in bij Microsoft. CSS verwerkt de incidenten op basis van het ondersteuningsplan van de klant en de ernst van het incident zoals aangegeven door CSS.
 
 ### <a name="service-level-agreement"></a>Servicelevelovereenkomst
 
@@ -349,7 +340,7 @@ Microsoft heeft een beschikbaarheidspercentage van 99,9 procent per maand van de
 
 ## <a name="important-resources"></a>Belangrijke resources
 
-- **[Vertrouwenscentrum](https://www.microsoft.com/trust-center)** – Krijg informatie over waar uw Finance and Operations-gegevens zijn opgeslagen, plus aanvullende informatie over privacy-, compliance- en beveiligingsprocedures.
+- **[Vertrouwenscentrum](https://www.microsoft.com/trust-center)**: krijg informatie over waar uw Finance and Operations-gegevens zijn opgeslagen, plus aanvullende informatie over privacy-, compliance- en beveiligingsprocedures.
 - **[Licentievoorwaarden en -documentatie](https://www.microsoftvolumelicensing.com/)** – Krijg snel toegang tot licentievoorwaarden, -voorwaarden en aanvullende informatie die relevant is voor het gebruik van producten en services die zijn gelicentieerd via Microsoft-volumelicentieprogramma's.
 - **[Licentievoorwaarden](https://www.microsoft.com/licensing/product-licensing/)**- De resources op deze pagina definiëren de algemene voorwaarden voor de software en onlineserviceproducten die u aanschaft via commerciële licentieprogramma's van Microsoft.
 - **[Microsoft-levenscyclusbeleid](/lifecycle/)** – deze pagina biedt consistente en voorspelbaare richtlijnen voor de beschikbaarheid van ondersteuning gedurende de levensduur van een product.
@@ -366,7 +357,7 @@ Een geografische regio waar een of meer Azure-datacenters bestaan. Voorbeelden z
 
 ### <a name="business-process-modeler-bpm"></a>[Modelleertool bedrijfsprocessen (BPM)](../../dev-itpro/lifecycle-services/bpm-overview.md)
 
-Een tool in LCS die helpt bij het voltooien van een fit-gap-analyse voor een bepaalde implementatie door gebruik te maken van bedrijfsprocesdefinities van het American Productivity & Quality Center (APQC) die worden ondersteund in Finance and Operations-toepassingen.
+Een tool in LCS die helpt bij het voltooien van een fit-gap-analyse voor een bepaalde implementatie door gebruik te maken van bedrijfsprocesdefinities van het American Productivity & Quality Center (APQC) die worden ondersteund in apps voor financiën en bedrijfsactiviteiten.
 
 ### <a name="cloud-solution-provider"></a>Cloudoplossingsprovider
 
@@ -374,9 +365,9 @@ Een partner die deel uitmaakt van het Microsoft Cloud Solution Provider (CSP)-pr
 
 ### <a name="customer"></a>Klant
 
-Een bedrijfsentiteit die Finance and Operations-toepassingen gebruikt en door een tenant wordt vertegenwoordigd in Office 365.
+Een bedrijfsentiteit die apps voor financiën en bedrijfsactiviteiten gebruikt en door een tenant wordt vertegenwoordigd in Office 365.
 
-### <a name="development-environment"></a>Ontwikkelingsomgeving
+### <a name="development-environment"></a>Ontwikkelomgeving
 
 Een niet-productieomgeving die wordt gebruikt om uitbreidingen te ontwikkelen. Klanten implementeren deze omgeving in hun eigen Azure-abonnement vanuit LCS. Deze omgeving kan ook worden gebruikt voor demonstratie, training of andere testtaken. Ditwordt ook een [Sandbox van niveau 1](../imp-lifecycle/environment-planning.md#tier-1-vs-tier-2-and-higher) genoemd.
 
@@ -392,13 +383,13 @@ De partner die de klant selecteert om de Finance and Operations-oplossingen aan 
 
 Een probleem dat klanten tegenkomen terwijl ze de Finance and Operations-service gebruiken en waarvoor ze een ticket indienen via LCS.
 
-### <a name="microsoft-customer-support-services-css"></a>Microsoft Customer Support Services (CSS)
+### <a name="microsoft-customer-support-services-css"></a>Microsoft klantondersteuning (Customer Support Services, CSS)
 
-Het Microsoft-globale ondersteuningsteam dat zich richt op het leveren van kwaliteitsservice voor Finance and Operations-toepassingen.
+Het globale ondersteuningsteam van Microsoft dat zich richt op het leveren van kwaliteitsservice voor apps voor financiën en bedrijfsactiviteiten.
 
 ### <a name="microsoft-dynamics-lifecycle-services-lcs"></a>Microsoft Dynamics Lifecycle Services (LCS)
 
-De administratieve portal voor levenscyclusbeheer van Finance and Operations-apps, van proef tot implementatie, tot postproductiebeheer en ondersteuning. Zie voor meer informatie [Lifecycle Services-resources](../../dev-itpro/lifecycle-services/lcs.md).
+De administratieve portal voor levenscyclusbeheer van apps voor financiën en bedrijfsactiviteiten, van proef tot implementatie, tot postproductiebeheer en ondersteuning. Zie voor meer informatie [Lifecycle Services-resources](../../dev-itpro/lifecycle-services/lcs.md).
 
 ### <a name="non-production-instance"></a>Niet-productie-exemplaar
 
@@ -420,7 +411,7 @@ Een niet-productieomgeving die door de klant wordt gebruikt voor demonstratie, t
 
 ### <a name="service"></a>Service
 
-Alle kernservices die zijn opgenomen in Finance and Operations-toepassingen.
+Alle kernservices die zijn opgenomen in apps voor financiën en bedrijfsactiviteiten.
 
 ### <a name="service-level-agreement-sla-for-microsoft-online-services"></a>Serviceovereenkomst (SLA) voor onlineservices van Microsoft
 

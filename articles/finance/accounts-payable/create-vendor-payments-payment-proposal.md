@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71e87b1102e21e035c25af4c63245eaaa59e4babb82bcf59c5cfba48f7d114f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 101cbcc77b2e1eab9fb4b6724fc5e3e8925a54c5
+ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749047"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8629433"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Leveranciersbetalingen maken met behulp van een betalingsvoorstel
 
@@ -48,7 +48,7 @@ De voorstelquery voor klantbetalingen bevat verschillende tabbladen, die elk ver
 - **Leveranciersfacturen van andere rechtspersonen opnemen** – Als uw organisatie een gecentraliseerd proces voor betaling heeft en in het betalingsvoorstel facturen van andere rechtspersonen moeten worden opgenomen die aan de zoekcriteria voldoen, stelt u deze optie in op **Ja**.
 - **Afzonderlijke leveranciersbetaling per rechtspersoon voorstellen** – Als deze optie is ingesteld op **Ja**, wordt een aparte betaling gemaakt voor elke rechtspersoon per leverancier. De leverancier op de betaling is de leverancier van de factuur van elke rechtspersoon. Als deze optie is ingesteld op **No** en dezelfde leverancier heeft facturen in meerdere rechtspersonen, wordt er één betaling gemaakt voor het totale bedrag van de geselecteerde facturen. De leverancier op de betaling is de leverancier in de huidige rechtspersoon. Als de leverancierrekening niet bestaat in de huidige rechtspersoon, wordt de leverancierrekening gebruikt van de eerste factuur die moet worden betaald.
 - **Betalingsvaluta** : dit veld geeft de valuta op waarin alle betalingen worden gemaakt. Als een valuta niet is gedefinieerd, wordt elke factuur betaald in de valuta van de factuur.
-- **Betalingsweekdag** – Voer hier de dag van de week in waarop de betaling moet worden uitgevoerd. Dit veld wordt alleen gebruikt als de betalingsmethode is ingesteld om facturen bij elkaar op te tellen voor betaling op een bepaalde dag van de week.
+- **Betalingsweekdag**: voer de dag van de week in waarop de betaling moet worden gedaan. Dit veld wordt alleen gebruikt als de betalingsmethode is ingesteld op **Week**. Het bedrag van de facturen voor betaling wordt getotaliseerd op de opgegeven dag van de week voor betaling.
 - **Type tegenrekening** en **Tegenrekening** : stel deze velden in om een specifiek rekeningtype (zoals **Grootboek** of **Bank**) en een tegenrekening (zoals een specifieke bankrekening) te definiëren. De betalingsmethode voor de factuur bepaalt het standaardtegenrekeningtype en de tegenrekening, maar u kunt deze velden gebruiken om de standaardwaarden te overschrijven.
 - **Samengevatte betalingsdatum**: dit wordt alleen gebruikt als het veld **Periode** voor de betalingsmethode is ingesteld op **Totaal**. Als een datum wordt gedefinieerd, worden alle betalingen op deze datum uitgevoerd. Het veld **Datum minimumbetaling** wordt overschreven.
 - **Extra filters**: op het sneltabblad **Op te nemen records** kunt u aanvullende bereiken criteria definiëren. Als u slechts een bepaald bereik leveranciers wilt betalen, kunt u bijvoorbeeld een filter voor het bereik leveranciers definiëren. Deze functionaliteit wordt vaak gebruikt om facturen voor een specifieke betalingsmethode te selecteren. Bijvoorbeeld: als u een filter definieert waarbij **Betalingsmethode** = **Cheque**, worden alleen facturen met die betalingsmethode geselecteerd voor betaling, mits zij ook voldoen aan andere criteria die zijn opgegeven in de query.

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 4eb8f6aee50d74127ecc816af691a96bb1d8966b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: bb837a38485bad2b9b76a5e4f20d311c0281e192
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469137"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625381"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Planning met negatieve voorhanden hoeveelheden
 
@@ -75,7 +75,7 @@ Het resultaat is een geplande order van 25 st. (= 25 st. &minus; 0 st.) om magaz
 
 ## <a name="planning-when-there-is-a-reservation-against-negative-on-hand-inventory"></a>Planning bij reservering tegen negatieve voorhanden voorraad
 
-Als u de voorraad aanpast terwijl er fysieke reserveringen bestaan, kunt u een situatie veroorzaken waarin een order fysiek wordt gereserveerd tegen negatieve voorraad. Omdat er in dit geval sprake is van een fysieke reservering, wordt er bij Planningsoptimalisatie van uitgegaan dat deze wordt ondersteund door de beschikbare voorraad, zelfs als ontvangst van voorhanden voorraad nog niet in het systeem is geregistreerd. Er wordt daarom aangenomen dat aanvulling niet is vereist en er wordt geen geplande order gemaakt voor het aanvullen van de orderhoeveelheid.
+Als u de voorraad aanpast terwijl er fysieke reserveringen bestaan, kunt u een situatie veroorzaken waarin een order fysiek wordt gereserveerd tegen negatieve voorraad. Omdat er in dit geval sprake is van een fysieke reservering, moet u voorraad aangeleverd krijgen om de gereserveerde hoeveelheid te kunnen dekken. Dat vereist dus aanvulling. Er wordt dus een geplande order gemaakt om de hoeveelheid aan te vullen die niet kon worden gedekt door de bestaande voorraad of het wordt gedekt met een bestaande order voor het artikel.
 
 Dit wordt geïllustreerd in het volgende voorbeeldscenario.
 
@@ -88,11 +88,11 @@ Het systeem wordt als volgt geconfigureerd:
 - Er bestaat een verkooporder voor een hoeveelheid *van 10* st. van product *FG*.
 - De verkooporderhoeveelheid wordt fysiek gereserveerd tegen de bestaande voorraad.
 
-Vervolgens past u de hoeveelheid van product *FG* aan, zodat de voorhanden voorraad 0 (nul) wordt. Aangezien de voorhanden voorraad van het product nul is, wordt de verkooporderhoeveelheid nu gereserveerd tegen negatieve voorraad. Als u nu de hoofdplanning maakt, wordt er echter geen geplande order gemaakt om de verkooporder te leveren, omdat er bij Planningsoptimalisatie wordt aangenomen dat de benodigde voorvoorraad beschikbaar is voor de fysieke reservering.
+Vervolgens past u de hoeveelheid van product *FG* aan, zodat de voorhanden voorraad 5 wordt. Aangezien de voorhanden productvoorraad 5 is, wordt de hoeveelheid op de verkooporder nu gereserveerd op de hoeveelheid die niet voorhanden is (dit zou vergelijkbaar zijn als voorhanden voorraad 0 zou zijn, waarbij de verkooporder gereserveerd wordt op negatieve voorraad). Als u nu de hoofdplanning uitvoert, wordt er echter geen geplande order van 5 voor *FG* gemaakt om de verkooporder te leveren. Dit komt doordat bij Planningsoptimalisatie altijd bestaande levering wordt gebruikt of een nieuwe geplande order wordt gemaakt om de fysieke reservering te leveren.
 
 ## <a name="related-resources"></a>Gerelateerde bronnen
 
-- [Overzicht van Planningsoptimalisatie](planning-optimization-overview.md)
+- [Overzicht van Optimalisatie van planning](planning-optimization-overview.md)
 - [Aan de slag met Planningsoptimalisatie](get-started.md)
 - [Analyse voor passende Planningsoptimalisatie](planning-optimization-fit-analysis.md)
 - [Planhistorie en planningslogboeken weergeven](plan-history-logs.md)
