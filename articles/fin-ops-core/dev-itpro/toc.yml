@@ -50,10 +50,6 @@
           items:
             - name: Integratie tussen apps voor financiën en bedrijfsactiviteiten en services van derden
               href: data-entities/integration-overview.md
-            - name: Op prioriteit gebaseerde aanvraagbeperking
-              hreF: data-entities/priority-based-throttling.md
-            - name: Veelgestelde vragen over op prioriteit gebaseerde aanvraagbeperking
-              href: data-entities/throttling-faq.md
             - name: Gegevensintegratie-API's
               items:
                 - name: REST API voor gegevensbeheerpakket
@@ -74,6 +70,18 @@
                   href: data-entities/recurring-integrations.md
                 - name: Services testen met hulpprogramma's van derden
                   href: data-entities/third-party-service-test.md
+            - name: Limieten voor servicebeveiliging
+              items:
+                - name: API-limieten voor servicebeveiliging
+                  href: data-entities/service-protection-api-limits.md
+                - name: Prioriteiten voor beperking
+                  href: data-entities/priority-based-throttling.md
+                - name: Bewerkingen opnieuw proberen
+                  href: data-entities/service-protection-retry-operations.md
+                - name: API-beperking controleren
+                  href: data-entities/service-protection-monitoring.md
+                - name: API-doorvoercapaciteit maximaliseren
+                  href: data-entities/service-protection-maximizing-api-throughput.md
             - name: Connector Finance and Operations
               href: data-entities/fin-ops-connector.md
             - name: Ontwikkeling voor integratie
@@ -398,6 +406,8 @@
                       href: deployment/onprem-SSRSHA.md
                     - name: Proxy's voor on-premises omgevingen configureren
                       href: deployment/onprem-reverseproxy.md
+                    - name: De Magazijnbeheer-app configureren voor on-premises implementaties
+                      href: deployment/warehousing-for-on-premise-deployments.md
                     - name: Netwerkprinterapparaten installeren in on-premises omgevingen
                       href: analytics/install-network-printer-onprem.md
                     - name: On-premises diagnoses
@@ -472,16 +482,14 @@
                   href: help/language-locale.md
                 - name: 'De Help uitbreiden, aanpassen en samenwerken'
                   href: help/contributor-guide.md
-            - name: Overwegingen bij de implementatie
+            - name: Regionale services voor apps voor financiën en bedrijfsactiviteiten
               items:
-                - name: Soevereine en lokale implementatieopties voor de lokale cloud voor Dynamics 365 Finance en Dynamics 365 Supply Chain Management
+                - name: Lokale regio's
                   href: deployment/deployment-options-geo.md
-                - name: Finance en Supply Chain Management in de Amerikaanse Government Community Cloud (GCC)
+                - name: Amerikaanse Government Community Cloud (GCC)
                   href: deployment/us-gcc-deployment.md
-                - name: Finance en Supply Chain Management geëxploiteerd door 21Vianet in China
+                - name: Geëxploiteerd door 21Vianet in China
                   href: deployment/china-local-deployment.md
-                - name: Apps voor financiën en bedrijfsactiviteiten in Frankrijk
-                  href: deployment/france-local-deployment.md
         - name: Ontwikkelen en aanpassen
           items:
             - name: Startpagina van Ontwikkelen en aanpassen
@@ -559,7 +567,7 @@
                     - name: Overzicht van Modellen en gegevensmodelelementen maken
                       href: dev-tools/create-data-model-elements.md
                     - name: Richtlijnen voor namen van uitbreidingen
-                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
+                      href: /dynamics365/fin-ops-core/dev-itpro/extensibility/naming-guidelines-extensions
                     - name: Modelaanpassingen uitschakelen en functionaliteit afschaffen
                       href: dev-tools/lock-models.md
                 - name: Rapport Aanpassingsanalyse

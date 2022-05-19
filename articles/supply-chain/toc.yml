@@ -86,8 +86,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Finance + Operations (on-premises) aanschaffen
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Magazijnbeheer configureren voor on-premises implementaties
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
             - name: Documentatiebronnen
               items:
                 - name: Help-systeem
@@ -3299,8 +3297,8 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: Artikelen registreren voor een artikel waarvoor basaal magazijnbeheer mogelijk is met een artikelontvangstjournaal
                   href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: Inkomende ASN's importeren via de V2-gegevensentiteit
-                  href: warehousing/import-asn-v2-data-entity.md
+                - name: Inkomende ASN's importeren via de V3-gegevensentiteit
+                  href: warehousing/import-asn-data-entity.md
                 - name: Producten cross-docken vanuit ontvangend magazijn naar winkels
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: Een locatie-instructie instellen voor wegzetten van inkooporders

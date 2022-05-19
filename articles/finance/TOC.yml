@@ -86,8 +86,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/finance/toc.json
                 - name: Finance + Operations (on-premises) aanschaffen
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
-                - name: Magazijnbeheer configureren voor on-premises implementaties
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
             - name: Documentatiebronnen
               items:
                 - name: Help-systeem
@@ -272,6 +270,8 @@
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: Boekingsprofielen van leverancier
               href: accounts-payable/vendor-posting-profiles.md
+            - name: Toeslagcodes maken
+              href: accounts-receivable/create-charges-codes.md
             - name: Datums leveranciersfacturen
               href: accounts-payable/vendor-invoice-dates.md
             - name: Herwaardering van vreemde valuta voor Leveranciers en Klanten
@@ -292,6 +292,8 @@
               items:
                 - name: Gecentraliseerde betalingen voor Leveranciers
                   href: accounts-payable/centralized-payments-accounts-payable.md
+                - name: Overbruggingsbetalingen instellen en verwerken
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: Vereffening configureren
                   href: cash-bank-management/configure-settlement.md
                 - name: Restbedrag vereffenen
@@ -354,9 +356,13 @@
               href: accounts-receivable/set-up-process-recurring-invoices.md
             - name: Boekhoudingsverdelingen en journaals in de subadministratie voor vrije-tekstfacturen
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
+            - name: Boeken in Klanten
+              href: general-ledger/accts-recvble-posting.md
             - name: Boekingsprofielen van klant
               href: accounts-receivable/customer-posting-profiles.md
-            - name: Overzicht SEPA-incasso
+            - name: Toeslagcodes maken
+              href: accounts-receivable/create-charges-codes.md
+            - name: Overzicht van automatische afschrijving voor SEPA
               href: accounts-receivable/sepa-direct-debit-overview.md
             - name: Mandaat voor automatische afschrijving instellen voor SEPA
               href: accounts-receivable/sepa-direct-debit-mandate.md
@@ -436,6 +442,8 @@
                       href: accounts-receivable/terminate-billing-schedule.md
                     - name: Scenario's voor afstemmingsdatums
                       href: accounts-receivable/sb-alignment-date-examples.md
+                    - name: Gesplitste opbrengst
+                      href: accounts-receivable/sb-revenue-split.md
                 - name: Uitstel van opbrengsten en onkosten
                   items:
                     - name: Uitstel van opbrengsten en onkosten instellen
@@ -452,11 +460,13 @@
               items:
                 - name: Overzicht van klantbetalingen
                   href: cash-bank-management/tasks/customer-payment-overview.md
+                - name: Overbruggingsbetalingen instellen en verwerken
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: Centrale betalingen voor Klanten
                   href: accounts-receivable/centralized-payments-accounts-receivable.md
                 - name: Klantbetalingen storten
                   href: accounts-receivable/tasks/deposit-customer-payments.md
-                - name: Overzicht SEPA-incasso
+                - name: Overzicht van automatische afschrijving voor SEPA
                   href: accounts-receivable/sepa-direct-debit-overview.md
                 - name: SEPA-mandaat voor automatische afschrijving
                   href: accounts-receivable/sepa-direct-debit-mandate.md
@@ -1016,9 +1026,9 @@
                       href: general-ledger/tasks/create-advanced-rules-journals.md
                     - name: Zoekwaarden voor financiële dimensies toevoegen aan Excel-sjablonen
                       href: ../fin-ops-core/dev-itpro/financial/add-dimensions-excel-templates.md
-                    - name: Boekdefinities
+                    - name: Boekingsdefinities
                       href: general-ledger/posting-definitions.md
-                    - name: Voorbeelden van boekdefinities
+                    - name: Voorbeelden van boekingsdefinities
                       href: general-ledger/example-posting-definitions.md
                 - name: Valuta
                   items:
@@ -1026,6 +1036,14 @@
                       href: general-ledger/import-currency-exchange-rates.md
                     - name: Twee valuta's
                       href: general-ledger/dual-currency.md
+                - name: Boekingsprofielen
+                  items:
+                    - name: Overzicht van boekingsprofielen
+                      href: general-ledger/pstg-prfles-ovrvw.md
+                    - name: Aanbevolen praktijken voor boekingsprofielen
+                      href: general-ledger/recommended-practices-pstg-prfles.md
+                    - name: Rekeningen voor automatische transacties
+                      href: general-ledger/accounts-for-auto-transactions.md
                 - name: Toewijzingsregels
                   items:
                     - name: Grootboektoewijzingsregels
@@ -2224,7 +2242,7 @@
                   href: localizations/emea-reverse-charge.md
                 - name: Overzicht SEPA-kredietoverdracht
                   href: accounts-payable/sepa-credit-transfer.md
-                - name: Overzicht SEPA-incasso
+                - name: Overzicht van automatische afschrijving voor SEPA
                   href: accounts-receivable/sepa-direct-debit-overview.md
                 - name: Compensatie voor klanten en leveranciers instellen
                   href: localizations/emea-compensation-customer-vendor-transactions.md
