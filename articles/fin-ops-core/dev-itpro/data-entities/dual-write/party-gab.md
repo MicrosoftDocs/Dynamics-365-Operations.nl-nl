@@ -2,19 +2,19 @@
 title: Partij en globaal adresboek
 description: In dit onderwerp wordt de functionaliteit Partij en globaal adresboek van Twee keer wegschrijven beschreven.
 author: RamaKrishnamoorthy
-ms.date: 03/10/2022
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 2e0d16b29a71da23acc925c09c87f0bb4776759c
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 1e2dcfa69308f6691e787a1ff1893f9080dcaef1
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407760"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717441"
 ---
 # <a name="party-and-global-address-book"></a>Partij en globaal adresboek
 
@@ -139,7 +139,7 @@ Het raster bevat de volgende kolommen:
 
 Met de knop **Nieuw elektronisch adres** boven het raster kunt u zoveel postadressen maken als u wilt.
 
-Elektronische adressen zijn alleen beschikbaar in dit raster. In toekomstige releases worden alle velden voor elektronische en postadressen verwijderd van andere tabbladen, zoals de tabbladen **Overzicht** en **Informatie**. Contactgegevens die worden weergegeven op het tabblad **Informatie** zijn alleen-lezen-kopieën van het primaire elektronische adres, zoals primair telefoonnr., primair e-mailadres, primair telefoonnr., primaire fax en primaire Twitter-ID. Tijdens het kwalificatieproces voor de lead kunt u zowel een bedrijfstelefoonnummer als een mobiel telefoonnummer opgeven. Het zakelijke telefoonnummer wordt beschouwd als de primair telefoonnr. als **IsMobile=Nee** en het mobiele telefoonnummer wordt beschouwd als secundair telefoonnr. als **IsMobile=Ja**.
+Tijdens het kwalificatieproces voor de lead kunt u zowel een bedrijfstelefoonnummer als een mobiel telefoonnummer opgeven. Het zakelijke telefoonnummer wordt beschouwd als de primair telefoonnummer als **IsMobile=Nee** en het mobiele telefoonnummer wordt beschouwd als secundair telefoonnummer als **IsMobile=Ja**.
 
 > [!TIP]
 > Gebruik de tabbladen **Adressen** en **Elektronische adressen** in de formulieren **Account** en **Contactpersoon** om post- en elektronische adressen te beheren. Hiermee wordt ervoor gezorgd dat adresgegevens met apps voor financiële en bedrijfsactiviteiten worden gesynchroniseerd.
@@ -148,7 +148,7 @@ Elektronische adressen zijn alleen beschikbaar in dit raster. In toekomstige rel
 
 1. Omgeving van de Customer Engagement-app openen.
 
-2. Installeer de meest recente versie (2.2.2.60 of hoger) van [orkestratieversie van de oplossing Twee keer wegschrijven](https://aka.ms/dual-write-app).
+2. Installeer alle vereiste oplossingen, zoals wordt beschreven in [Afzonderlijk Application Orchestration-pakket voor twee keer wegschrijven](separated-solutions.md).
 
 3. Installeer [de oplossingen voor twee keer wegschrijven voor Partij en Globaal adresboek](https://aka.ms/dual-write-gab).
 
@@ -163,10 +163,10 @@ Elektronische adressen zijn alleen beschikbaar in dit raster. In toekomstige rel
 
 7. De volgende entiteitstoewijzingen worden bijgewerkt voor partijfunctionaliteit, dus de nieuwste versie moet op deze toewijzingen worden toegepast.
 
-    Toewijzing | Update naar deze versie | Wijzigingen
+    Toewijzen | Update naar deze versie | Wijzigingen
     ---|---|---
-    `CDS Parties (msdyn_parties)`| 1.0.0.0 | Dit is een nieuwe toewijzing die is toegevoegd als onderdeel van deze release.
-    `Contacts V2 (msdyn_contactforparties)`| 1.0.0.5 | Dit is een nieuwe toewijzing die is toegevoegd als onderdeel van deze release.
+    `CDS Parties (msdyn_parties)`| 1.0.0.2 | Dit is een nieuwe toewijzing die is toegevoegd als onderdeel van deze release.
+    `Contacts V2 (msdyn_contactforparties)`| 1.0.0.6 | Dit is een nieuwe toewijzing die is toegevoegd als onderdeel van deze release.
     `Customers V3 (accounts)` | 1.0.0.5 |`PartyNumber` en andere partijgerelateerde velden, bijvoorbeeld voor de naam, persoonlijke gegevens, postadressen, elektronische contactadressen en dergelijke zijn verwijderd.
     `Customer V3 (contacts)` | 1.0.0.5 | `PartyNumber` en andere partijgerelateerde velden, bijvoorbeeld voor de naam, persoonlijke gegevens, postadressen, elektronische contactadressen en dergelijke zijn verwijderd.
     `Vendors V2 (msdyn_vendors)` | 1.0.0.6 | `PartyNumber` en andere partijgerelateerde velden, bijvoorbeeld voor de naam, persoonlijke gegevens, postadressen, elektronische contactadressen en dergelijke zijn verwijderd.
@@ -174,16 +174,17 @@ Elektronische adressen zijn alleen beschikbaar in dit raster. In toekomstige rel
     `Sales invoice headers V2 (invoices)` | 1.0.0.4 | De contactpersoon is vervangen door de verwijzing `ContactforParty`.
     `CDS Sales order headers (salesorders)` | 1.0.0.5 | De contactpersoon is vervangen door de verwijzing `ContactforParty`.
     `CDS Party postal address locations (msdyn_partypostaladdresses)` | 1.0.0.1  | Dit is een nieuwe toewijzing die is toegevoegd als onderdeel van deze release.
-    `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.1 | Dit is een nieuwe toewijzing die is toegevoegd als onderdeel van deze release.
+    `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.2 | Dit is een nieuwe toewijzing die is toegevoegd als onderdeel van deze release.
     `CDS postal address locations (msdyn_postaladdresscollections)` | 1.0.0.0 | Dit is een nieuwe toewijzing die is toegevoegd als onderdeel van deze release.
     `Party Contacts V3 (msdyn_partyelectronicaddresses)` | 1.0.0.0 | Dit is een nieuwe toewijzing die is toegevoegd als onderdeel van deze release.
-    `Complimentary Closings ( msdyn_compliemntaryclosings)` | 1.0.0.0 | Dit is een nieuwe toewijzing die is toegevoegd als onderdeel van deze release.
+    `Complimentary Closings (msdyn_compliemntaryclosings)` | 1.0.0.0 | Dit is een nieuwe toewijzing die is toegevoegd als onderdeel van deze release.
     `Decision making roles (msdyn_decisionmakingroles)` | 1.0.0.0 | Dit is een nieuwe toewijzing die is toegevoegd als onderdeel van deze release.
     `Loyalty levels (msdyn_loyaltylevels)` | 1.0.0.0 | Dit is een nieuwe toewijzing die is toegevoegd als onderdeel van deze release.
     `Contact person titles (msdyn_salescontactpersontitles)` | 1.0.0.0 | Dit is een nieuwe toewijzing die is toegevoegd als onderdeel van deze release.
     `Personal character types (msdyn_personalcharactertypes)` | 1.0.0.0 | Dit is een nieuwe toewijzing die is toegevoegd als onderdeel van deze release.
     `Salutations (msdyn_salutations)` | 1.0.0.0 | Dit is een nieuwe toewijzing die is toegevoegd als onderdeel van deze release.
     `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | Dit is een nieuwe toewijzing die is toegevoegd als onderdeel van deze release.
+    `CDS Address roles (msdyn_addressroles)` | 1.0.0.0 | Dit is een nieuwe toewijzing die is toegevoegd als onderdeel van deze release.
 
 8. Voordat u de bovenstaande toewijzingen gaat uitvoeren, moet u de integratiesleutels handmatig bijwerken zoals beschreven in de volgende stappen. Selecteer **Save**.
 
@@ -251,6 +252,7 @@ Elektronische adressen zijn alleen beschikbaar in dit raster. In toekomstige rel
     [CDS-verkoopoffertekoptekst](mapping-reference.md#215) | offertes
     [CDS-verkooporderkopteksten](mapping-reference.md#217) | salesorders
     [Kopteksten van verkoopfacturen V2](mapping-reference.md#118) | facturen
+    [CDS-adresrollen](mapping-reference.md#301) | msdyn_addressroles
 
 > [!NOTE]
 > De toewijzing `CDS Contacts V2 (contacts)` is de toewijzing die u hebt gestopt in stap 1. Als u andere toewijzingen probeert uit te voeren, worden deze twee toewijzingen mogelijk weergegeven in de lijst met afhankelijke toewijzingen. Voer deze toewijzingen niet uit.
@@ -258,7 +260,7 @@ Elektronische adressen zijn alleen beschikbaar in dit raster. In toekomstige rel
 > Als de oplossing voor partij en globaal adresboek is geïnstalleerd, moet u de invoegtoepassing `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead` uitschakelen. Als u de oplossing voor partij en globaal adresboek verwijdert, moet u de invoegtoepassing opnieuw inschakelen.
 >
 > Het veld `msdyn_*partynumber` (een tekstveld van één regel) in de tabellen **Account**, **Contactpersoon** en **Leverancier** moet u in de toekomst niet meer gebruiken. Voor de duidelijkheid heeft de labelnaam het voorvoegsel **(Afgeschaft)** gekregen. Gebruik in plaats daarvan het veld **msdyn_partyid**. Dit veld is een opzoekveld voor de tabel **msdyn_party**.
-
+>
 > Tabelnaam | Oud veld | Nieuw veld
 > --------|-------|--------
 > Account | `msdyn_partynumber` | `msdyn_partyid`
@@ -290,21 +292,22 @@ Een verzameling tabeltoewijzingen werkt samen voor de interactie tussen partij e
 | [Kopteksten van verkoopfacturen V2](mapping-reference.md#118) | facturen |
 | [Aanhef](mapping-reference.md#228) | msdyn\_salutations |
 | [Leveranciers V2](mapping-reference.md#202) | msdyn\_vendors |
+| [CDS-adresrollen](mapping-reference.md#301) |msdyn\_addressroles|
 
 Zie [Toewijzingsverwijzing voor twee keer wegschrijven](mapping-reference.md) voor meer informatie.
+
+## <a name="address-roles-as-a-multi-select-drop-down-list"></a>Adresrollen als een vervolgkeuzelijst met meerdere selecties
+Een postadres of elektronisch adres kan meer dan één doel dienen. Een postadres kan bijvoorbeeld fungeren als factuuradres en afleveradres. In deze gevallen kan een gebruiker zowel **Factuur** als **Levering** selecteren in de vervolgkeuzelijst, zoals in de onderstaande afbeelding wordt weergegeven. 
+
+![De vervolgkeuzelijst Doel/rol.](media/purpose.png)
 
 ## <a name="known-issues-and-limitations"></a>Bekende problemen en beperkingen
 
 + Wanneer u in apps voor financiële en bedrijfsactiviteiten een klant maakt met een adres en deze opslaat, wordt het adres mogelijk niet gesynchroniseerd met de tabel **Adres**. Dit komt door een probleem in de volgordeverwerking op het platform voor Twee keer wegschrijven. Een tijdelijke oplossing is om eerst de klant aan te maken en deze op te slaan. Voeg daarna pas het adres toe.
 + Wanneer in apps voor financiële en bedrijfsactiviteiten een klantrecord een primair adres heeft en u een nieuwe contactpersoon voor die klant maakt, neemt de contactpersoonrecord een primair adres over van de bijbehorende klantrecord. Dit gebeurt ook bij contactpersoon van een leverancier. Dataverse ondersteunt dit gedrag momenteel niet. Als Twee keer wegschrijven is ingeschakeld, wordt een contactpersoon van een klant die is overgenomen met een primair adres uit de app voor financiële en bedrijfsactiviteiten samen met het adres gesynchroniseerd naar Dataverse.
-+ Elektronische adressen die zijn ingesteld op het tabblad Elektronische adressen van de formulieren **Account**, **Contactpersoon** en **Leverancier** komen uit de tabel `msdyn_partyelectronicaddress`. Deze informatie stroomt niet naar de gekoppelde transacties zoals verkooporder, offerte en inkooporder. Dit probleem wordt opgelost in een incrementele release. De bestaande gegevens in de velden met elektronische adressen van de account- en contactpersoonrecords blijven werken voor transacties zoals verkooporder, offerte en inkooporder.
 + In apps voor financiële en bedrijfsactiviteiten kunt u een contactpersoonrecord maken vanuit het formulier **Contactpersoon toevoegen**. Wanneer u een nieuwe contactpersoon probeert te maken vanuit het formulier **Contactpersonen weergeven**, mislukt de actie. Dit is een bekend probleem.
 
     ![Bekend probleem met Contactpersoon toevoegen.](media/party-gab-contact-issue.png)
 
-+ **Initiële synchronisatie** ondersteunt niet de tijdvelden **Beschikbaar vanaf** en **Beschikbaar tot** op **ContactForParty**, omdat DIXF de waarde converteert naar een tekenreeks (string) in plaats van een geheel getal (integer). De conversie activeert de fout `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`.
-+ Wanneer een postadres voor meerdere redenen wordt gebruikt, bijvoorbeeld zowel voor zakelijke communicatie als ook het factuuradres, moet dit worden weergegeven als `Business;Invoice` zoals in de volgende afbeelding. Als u een spatie tussen de waarden invoegt, wordt er een foutbericht weergegeven.
-
-    ![Bekend probleem met Adres.](media/party-gab-address-issue.png)
-
++ **Initiële synchronisatie** ondersteunt niet de tijdvelden **Beschikbaar vanaf** en **Beschikbaar tot** op **ContactForParty**, omdat DIXF de waarde converteert naar een tekenreeks (string) in plaats van een geheel getal (integer). De conversie activeert de fout `Cannot convert the literal '<say 08:00:00>' to the expected type edm.int32`.
 + U kunt geen vooruitgedateerd postadres invoeren met een app voor financiële en bedrijfsactiviteiten met twee keer wegschrijven, omdat Dataverse niet de ingangsdatum ondersteunt. Als u een vooruitgedateerd postadres invoert via een app voor financiële en bedrijfsactiviteiten, wordt dit volledig met Dataverse gesynchroniseerd en wordt het adres direct in de gebruikersinterface gebruikt. Updates van deze record resulteren in een fout, aangezien dit adres in de toekomst wordt gebruikt en nog niet wordt gebruikt in de app voor financiële en bedrijfsactiviteiten.

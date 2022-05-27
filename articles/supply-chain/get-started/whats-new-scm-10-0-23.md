@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 876f5a5f8ebf77a65ba3aa6271a2957b7dc2cb96
-ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
+ms.openlocfilehash: 86e33296fd8631082e47bf6814d8e5e716d9fa1b
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8570473"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691465"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.23 (januari 2022)
 
@@ -75,7 +75,9 @@ De volgende Help-onderwerpen zijn onlangs toegevoegd of ingrijpend bijgewerkt. D
 | Magazijnbeheer | [Algemene parameters voor mobiele apparaten](../warehousing/mobile-device-parameters.md) |
 | Magazijnbeheer | [Verankering](../warehousing/anchoring.md) |
 | Verkoopbeheer en marketing | Intercompany-handel wordt nu uitgebreid beschreven, te beginnen bij [Het instellen van intercompany-handel](../sales-marketing/intercompany-trade-set-up.md) en de gerelateerde onderwerpen. |
+| Verkoopbeheer en marketing | [Prestatieverbeteringen bij opschonen van verkoophistorie](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
 | Voorraadbeheer | De documentatie voor Voorraadzichtbaarheid is uitgebreid en bijgewerkt, te beginnen met [het overzicht van de invoegtoepassing Voorraadzichtbaarheid](../inventory/inventory-visibility.md) en de gerelateerde onderwerpen. |
+| Magazijnbeheer | [Gebruikersaccounts voor mobiele apparaten](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

@@ -13,19 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eaf48306607b27c70359e0d0faee4c92f4b82cac
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: a9ee95621f184b882ead1750d61626d184174cef
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182599"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716463"
 ---
 # <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a>Consolidatiegroepen en extra consolidatierekeningen maken
 
 [!include [banner](../../includes/banner.md)]
 
 Deze procedure toont hoe u een groep met consolidatierekeningen kunt maken en vervolgens rekeningen aan de groep kunt toevoegen. Bij deze procedure wordt het demobedrijf USMF gebruikt.
-
 
 ## <a name="create-a-consolidation-account-group"></a>Een groepen consolidatierekeningen maken
 1. Ga naar **Grootboek > Rekeningschema > Rekeningen > Groepen met consolidatierekeningen**.
@@ -34,14 +33,12 @@ Deze procedure toont hoe u een groep met consolidatierekeningen kunt maken en ve
 4. Typ een waarde in het veld **Naam**.
 
 ## <a name="add-accounts-to-consolidation-account-group"></a>Rekeningen toevoegen aan een groep met consolidatierekeningen
-1. Ga naar Grootboek > Rekeningschema > Rekeningen > Aanvullende consolidatierekeningen.
-2. Klik op Nieuw.
-3. Klik in het veld Hoofdrekening op de vervolgkeuzeknop om de zoekopdracht te openen.
-4. Klik in de lijst op de hoofdrekening die u wilt toewijzen.
-5. Klik in het veld Groep met consolidatierekeningen op de vervolgkeuzeknop om de zoekopdracht te openen.
-6. Klik in de lijst op de groep met consolidatierekeningen.
-7. Typ een waarde in het veld Consolidatierekening.
-8. Typ een waarde in het veld Naam van consolidatierekening.
+1. Ga naar **Grootboek > Rekeningschema > Rekeningen > Aanvullende consolidatierekeningen**.
+2. Klik op **Nieuw**.
+3. Selecteer in het veld **Hoofdrekening** in de lijst de hoofdrekening die u wilt toewijzen.
+4. Klik in het veld **Groep met consolidatierekeningen** in de lijst op de groep met consolidatierekeningen.
+5. Typ een waarde in het veld **Consolidatierekening**.
+6. Typ een waarde in het veld **Naam van consolidatierekening**.
 
 
 

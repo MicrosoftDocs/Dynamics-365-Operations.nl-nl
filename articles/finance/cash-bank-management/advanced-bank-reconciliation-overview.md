@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BankReconciliationMatchRule
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "22104"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ebddf6c77df227f896e6f275f741ea69fb68474
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: d6dadc5fd49a7103df8e1cacfd3be09c24a06e67
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983587"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711403"
 ---
 # <a name="advanced-bank-reconciliation-overview"></a>Overzicht van geavanceerde bankafstemming
 
@@ -38,7 +38,7 @@ Met de functie voor geavanceerde bankafstemming kunt u bankafschriften importere
     -   De functionaliteit kan naar iedere indeling worden uitgebreid.
 
 2.  Stel een nummerreeks in die moet worden gebruikt voor geavanceerde bankafstemming en definieer de afstemmingsregels voor bankafstemming.
-    -   Een afstemmingsregels is een reeks criteria die worden gebruikt om regels van bankafschriften en Microsoft Dynamics 365 Finance-banktransactieregels te filteren tijdens het afstemmingsproces. Afhankelijk van uw bedrijfspraktijk kunt u meerdere afstemmingsregels instellen om uw afstemmingsproces te automatiseren en te optimaliseren.
+    -   Een afstemmingsregel is een reeks criteria die worden gebruikt om regels van bankafschriften en Microsoft Dynamics 365 Finance-banktransactieregels te filteren tijdens het afstemmingsproces. Afhankelijk van uw bedrijfspraktijk kunt u meerdere afstemmingsregels instellen om uw afstemmingsproces te automatiseren en te optimaliseren.
 
 3.  Stem bankafschriften af met de banktransacties van Finance.
     -   Voer automatische afstemming en het maken van afstemmingsjournalen uit.

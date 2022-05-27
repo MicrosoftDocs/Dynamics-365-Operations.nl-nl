@@ -2,20 +2,20 @@
 title: Dual-write Application Orchestration-pakket is opgesplitst
 description: Het Dual-write Application Orchestration-pakket is niet langer één pakket, maar is opgesplitst in kleinere pakketten. In dit onderwerp worden de oplossingen en kaarten besproken die elk pakket bevat en hun afhankelijkheid van andere pakketten.
 author: RamaKrishnamoorthy
-ms.date: 11/29/2021
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: e2f870368dc662032a3e7ca7ddca902feb23a713
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: f6950ec3e6ded49a71f119c21be67f538c8e1c69
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063257"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716547"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Dual-write Application Orchestration-pakket is opgesplitst
 
@@ -27,18 +27,18 @@ Voorheen was het Dual-write Application Orchestration-pakket een enkel pakket da
 
 - Dynamics 365 Notes
 - Algemeen anker voor Dynamics 365 Finance and Operations
-- Entiteitstoewijzingen voor Dynamics 365 Finance and Operations Dual Write
+- Entiteitstoewijzingen voor Twee keer wegschrijven in Dynamics 365 Finance and Operations
 - Dynamics 365-app voor activabeheer
 - Dynamics 365 Activabeheer
 - HCM - Algemeen
 - Dynamics 365 Supply Chain Extended
 - Dynamics 365 Finance Extended
-- Dynamics 365 Finance and Operations Common
+- Algemeen voor Dynamics 365 Finance and Operations
 - Dynamics 365 Company
 - Currency Exchange Rates
 - Field Service Common
 
-Omdat het één pakket was, heeft dit pakket voor een 'alles of niets'-situatie voor klanten gezorgd. Microsoft heeft de software echter nu opgesplitst in kleinere pakketten. Daarom kan de klant alleen de pakketten selecteren voor de oplossingen die zij nodig hebben. Als u bijvoorbeeld een Microsoft Dynamics 365 Supply Chain Management-klant bent en u geen integratie nodig hebt met Dynamics 365 Human Resources, notities en activabeheer, kunt u deze oplossingen uitsluiten van de geïnstalleerde oplossingen. Omdat de onderliggende oplossingsnamen, uitgever- en kaartversies blijven hetzelfde, is dit geen ingrijpende wijziging. Bestaande installaties worden bijgewerkt.
+Omdat het één pakket was, heeft dit pakket voor een 'alles of niets'-situatie voor klanten gezorgd. Microsoft heeft de software echter nu opgesplitst in kleinere pakketten. Daarom kunnen klanten alleen de pakketten selecteren voor de oplossingen die zij nodig hebben. Als u bijvoorbeeld een Microsoft Dynamics 365 Supply Chain Management-klant bent en u geen integratie nodig hebt met Dynamics 365 Human Resources, notities en activabeheer, kunt u deze oplossingen uitsluiten van de geïnstalleerde oplossingen. Omdat de onderliggende oplossingsnamen, uitgever- en kaartversies blijven hetzelfde, is dit geen ingrijpende wijziging. Bestaande installaties worden bijgewerkt.
 
 ![Opgesplitst pakket.](media/separated-package-1.png)
 
@@ -51,7 +51,7 @@ Met het Dual-write Application Core-pakket kunnen gebruikers twee keer wegschrij
 | Unieke naam                           | Weergavenaam                               |
 |---------------------------------------|--------------------------------------------|
 | Dynamics365Company                    | Dynamics 365 Company                       |
-| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance and Operations Common |
+| Dynamics365FinanceAndOperationsCommon | Algemeen voor Dynamics 365 Finance and Operations |
 | CurrencyExchangeRates                 | Currency Exchange Rates                    |
 | msdyn_DualWriteAppCoreMaps            | Entiteitstoewijzingen voor Dual-write applications core   |
 | msdyn_DualWriteAppCoreAnchor          | Basisanker voor Dual-write-toepassingen        |
@@ -191,9 +191,9 @@ Het Dual-write Finance-pakket bevat de oplossingen en kaarten die nodig zijn om 
 | Unieke naam                            | Weergavenaam                               |
 |----------------------------------------|-------------------------------------------|
 | Dynamics365FinanceExtended             | Dynamics 365 Finance Extended             |
-| msdyn_Dynamics365FinanceExtendedMaps   | Uitgebreide entiteitstoewijzingen voor Dynamics 365 Finance |
+| msdyn_Dynamics365FinanceExtendedMaps   | Entiteitstoewijzingen voor Dynamics 365 Finance Extended |
 | FieldServiceCommon                     | Field Service Common                      |
-| msdyn_Dynamics365FinanceExtendedAnchor | Uitgebreid anker voor Dynamics 365 Finance      |
+| msdyn_Dynamics365FinanceExtendedAnchor | Anker voor Dynamics 365 Finance Extended      |
 
 De volgende kaarten zijn beschikbaar in dit pakket.
 
@@ -300,3 +300,47 @@ Project Operations is afhankelijk van de volgende pakketten. Daarom moet u deze 
 - Dual-write Supply Chain-pakket
 - Dual-write Activabeheer-pakket
 - Dual-write Human Resources-pakket
+
+## <a name="dual-write-party-and-global-address-book-solutions"></a>Installeer de oplossingen voor twee keer wegschrijven voor partij en globaal adresboek
+
+Het pakket voor twee keer wegschrijven voor partij en globaal adresboek bevat de volgende oplossingen en toewijzingen die vereist zijn om partij- en globaal adresboekgegevens te synchroniseren. 
+
+| Unieke naam                       | Weergavenaam                            |
+|-----------------------------------|-----------------------------------------|
+| Partij                             | Partij                                   |
+| Dynamics365GABExtended            | Dynamics 365 GAB Extended               |
+| Dynamics365GABDualWriteEntityMaps | Entiteitstoewijzingen voor Dynamics 365 GAB Dual Write |
+| Dynamics365GABParty_Anchor        | Dynamics 365 GAB en Partij              |
+
+De volgende kaarten zijn beschikbaar in dit pakket.
+
+| Apps voor financiële en bedrijfsactiviteiten | Customer Engagement-apps | 
+|-----------------------------|--------------------------|
+| CDS-partijen | msdyn_parties | 
+| CDS-locaties van postadres | msdyn_postaladdresscollections | 
+| Historie van CDS-postadres V2 | msdyn_postaladdresses | 
+| CDS-locaties van postadres van partij | msdyn_partypostaladdresses | 
+| Contactpersonen partij V3 | msdyn_partyelectronicaddresses | 
+| Klanten V3 | rekeningen | 
+| Klanten V3 | contacten | 
+| Leveranciers V2 | msdyn_vendors | 
+| Titels contactpersoon | msdyn_salescontactpersontitles | 
+| Afsluitingen | msdyn_complimentaryclosings | 
+| Aanhef | msdyn_salutations | 
+| Besluitvormingsrollen | msdyn_decisionmakingroles | 
+| Taakfuncties dienstverband | msdyn_employmentjobfunctions | 
+| Loyaliteitsniveaus | msdyn_loyaltylevels | 
+| Persoonlijke karaktertypen | msdyn_personalcharactertypes | 
+| Contactpersonen V2 | msdyn_contactforparties | 
+| CDS-verkoopoffertekoptekst | offertes | 
+| CDS-verkooporderkopteksten | salesorders | 
+| Kopteksten van verkoopfacturen V2 | facturen | 
+| CDS-adresrollen | msdyn_addressroles |
+
+**Afhankelijkheidsgegevens**
+
+De Twee keer wegschrijven-oplossingen voor partij en globaal adresboek zijn afhankelijk van de volgende drie pakketten. Daarom moet u deze pakketten installeren voordat u het pakket met Twee keer wegschrijven-oplossingen voor partij en globaal adresboek installeert.
+
+- Dual-write Application Core-pakket
+- Dual-write Finance-pakket
+- Dual-write Supply Chain-pakket

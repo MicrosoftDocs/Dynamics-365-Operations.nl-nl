@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bcc69cbf418131d0b1747f1c904de3188d7ba84216cb3145607b45553263244c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d81d20045c7b06de01a023d1a34ee653dd696ff1
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757214"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711315"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Wat is nieuw of gewijzigd in Dynamics AX 7.0 (februari 2016)
 
@@ -969,7 +969,7 @@ Er is een betere 'low-touch' installatie van clientcomponenten via selfservice-i
 </tr>
 <tr>
 <td>De status van het systeem controleren en fouten en problemen diagnostiseren.</td>
-<td>Deze functionaliteit vereist <a href="https://www.microsoft.com/download/details.aspx?id=42636">System Center 2012 Management Pack voor Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
+<td>Deze functionaliteit vereist <a href="https://www.microsoft.com/en-us/download/details.aspx?id=58205">System Center 2012 Management Pack voor Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
 <td>Monitoring en diagnostiek voor Retail-componenten is nu beschikbaar via het dashboard <strong>Operationeel Inzicht</strong> in LCS.</td>
 <td>Het dashboard <strong>Operationeel Inzicht</strong> is een op cloud gebaseerde monitoringportal, dat installatie van de System Center Operations Manager-infrastructuur (SCOM) overbodig maakt.</td>
 </tr>
@@ -1026,9 +1026,9 @@ Geen nieuwe functies zijn toegevoegd.
 |------------------|------------------|-----------------|------------------------|
 | Download, installeer en configureer de Magazijn-portal voor mobiele apparaten. | U kunt de portal downloaden, installeren en configureren tijdens het installatieproces van Microsoft Dynamics AX, door een standaardsetup. Het is ontworpen voor zelfgestuurde implementatie en configuratie on-premises. | U kunt een zelfstandig installatieprogramma downloaden via een menu-item in Magazijnbeheer. Het is ontworpen voor zelfgestuurde implementatie en configuratie on-premises. | Wanneer u de functionaliteit voor gebruik van mobiele apparaten opzet, moet u de magazijnportal voor mobiele apparaten lokaal installeren en configureren en een verbinding opzetten met het Dynamics AX-programma in de cloud. |
 
-## <a name="additional-resources"></a>Aanvullende bronnen
+## <a name="additional-resources"></a>Aanvullende resources
 
-[Nieuwe of gewijzigde functies op de startpagina van Finance and Operations](whats-new-changed.md)
+[Startpagina Nieuw of gewijzigd in Finance and Operations](whats-new-changed.md)
 
 [Nieuwe taakbegeleidingen (februari 2016)](new-task-guides-available-february-2016.md)
 

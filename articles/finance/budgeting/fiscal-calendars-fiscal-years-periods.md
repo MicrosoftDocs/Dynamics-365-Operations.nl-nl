@@ -1,6 +1,6 @@
 ---
 title: Fiscale kalenders, boekjaren en boekperioden
-description: In dit artikel worden fiscale kalenders, boekjaren en perioden beschreven en wordt aangegeven hoe ze voor rechtspersonen, vaste activa en budgettering moeten worden gebruikt.
+description: In dit onderwerp worden fiscale kalenders, boekjaren en perioden beschreven en wordt aangegeven hoe ze voor rechtspersonen, vaste activa en budgettering moeten worden gebruikt.
 author: aprilolson
 ms.date: 03/05/2019
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: FiscalCalendars
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 25851
 ms.assetid: a968a5e5-585e-4389-aa4e-c885a7e23413
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87d06e9de2e4e360e92ed350dbad6350744e69ed79a30d2956ab598fdc8a9821
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d50db3a96d6267f59dd5a99c039dd8fc8b44079a
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734557"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717385"
 ---
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Fiscale kalenders, boekjaren en boekperioden
 
 [!include [banner](../includes/banner.md)]
 
-In dit artikel worden fiscale kalenders, boekjaren en perioden beschreven en wordt aangegeven hoe ze voor rechtspersonen, vaste activa en budgettering moeten worden gebruikt.
+In dit onderwerp worden fiscale kalenders, boekjaren en perioden beschreven en wordt aangegeven hoe ze voor rechtspersonen, vaste activa en budgettering moeten worden gebruikt.
 
 Fiscale kalenders vormen een raamwerk voor de financiële activiteiten van een organisatie. Elke fiscale kalender bevat een of meer boekjaren, en elk boekjaar bevat meerdere perioden. Fiscale kalenders kunnen zijn gebaseerd op een kalenderjaar van 1 januari tot 31 december op elke andere datum die u selecteert. Sommige organisaties kiezen bijvoorbeeld een fiscale kalender die op 1 juli van het ene jaar begint en op 30 juni van het volgende jaar eindigt. 
 

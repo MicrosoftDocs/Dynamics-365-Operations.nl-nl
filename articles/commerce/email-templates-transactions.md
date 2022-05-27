@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4fd46ea161fb4441d94a9e7c7f7ffbfb245eb873
-ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
+ms.openlocfilehash: 08e247bac577dc0bb8a4635d61f0082793380da9
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7919496"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722514"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>E-mailsjablonen maken voor transactiegebeurtenissen
 
@@ -64,8 +64,8 @@ Het meldingstype Verpakken is voltooid ondersteunt de volgende extra tijdelijke 
 | ------------------- | ------- |
 | `pickupstorename`     | De naam van de winkel waar de order kan worden opgehaald. |
 | `pickupstoreaddress`  | Het adres van de winkel waar de order kan worden opgehaald. |
-| `pickupstorehourfrom` | De openingstijd van de winkel waar de order kan worden opgehaald. |
-| `pickupstorehourto`   | De sluitingstijd van de winkel waar de order kan worden opgehaald. |
+| `pickupstoreopenfrom` | De openingstijd van de winkel waar de order kan worden opgehaald. |
+| `pickupstoreopento` | De sluitingstijd van de winkel waar de order kan worden opgehaald. |
 | `pickupchannelid`     | De winkelkanaal-id van de winkel waar de order kan worden opgehaald. |
 | `packingslipid`      | De id van de pakbon voor de order die wordt opgehaald. |
 | `confirmationid`      | De orderbevestigings-id van de order die wordt opgehaald. (Deze id wordt ook wel de kanaalverwijzings-id genoemd.) |
@@ -102,7 +102,7 @@ Het meldingstype Geschenkbon uitgeven ondersteunt de volgende extra tijdelijke a
 | Naam van tijdelijke aanduiding      | Doel |
 | --------------------- | ------- |
 | `giftcardnumber`        | Het nummer van de geschenkbon, voor producten van het geschenkbontype. |
-| `giftcardbalance`       | Het saldo van de geschenkbon, voor producten van het geschenkbontype. |
+| `availablebalance` | Het resterende saldo op de geschenkbon. |
 | `giftcardmessage`       | Het bericht van de geschenkbon, voor producten van het geschenkbontype. |
 | `giftcardpin`         | De pincode van de geschenkbon, voor producten van het geschenkbontype. (Deze tijdelijke aanduiding is specifiek voor externe geschenkbonnen.) |
 | `giftcardexpiration`    | De vervaldatum van de geschenkbon, voor producten van het geschenkbontype. (Deze tijdelijke aanduiding is specifiek voor externe geschenkbonnen.) |

@@ -2,7 +2,7 @@
 title: Een gegevensintegratieproject maken
 description: In dit onderwerp wordt uitgelegd hoe u een gegevensintegratieproject maakt.
 author: ShivamPandey-msft
-ms.date: 02/09/2022
+ms.date: 05/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 50f435f9d461667a1908baa529d73766085c183a
-ms.sourcegitcommit: 6526acd0300d9c5800d3d7675d54e23090d031df
+ms.openlocfilehash: 4d69ffcb6ccfcc7bae2891f2539941f7b6bbf86e
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "8107282"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722878"
 ---
 # <a name="create-a-data-integration-project"></a>Een gegevensintegratieproject maken
 
@@ -55,11 +55,14 @@ In dit onderwerp wordt uitgelegd hoe u een gegevensintegratieproject maakt.
 
 5. Open de [Power Apps omgevingen](https://admin.powerapps.com/environments) en voer de volgende stappen uit:  
 
-    1. Maak gegevensintegratieprojecten voor de volgende sjablonen met de verbindingsset die u zojuist hebt gemaakt:
+    1. Maak één gegevensintegratieproject voor elk van de volgende sjablonen met de verbindingsset die u zojuist hebt gemaakt:
 
         - Resultaat van inzichten voor klantbetalingen (CDS naar Fin and Ops 10.0.17+)
         - Resultaten van cashflowtijdreeksen (CDS naar Fin and Ops)
         - Resultaten van budgettijdreeksen (CDS naar Fin and OPS)
+
+      > [!NOTE]
+      > Het maken van meerdere gegevensintegratieprojecten voor elke sjabloon kan leiden tot fouten die de updates blokkeren.
 
     2. Stel de juiste planning in voor elk project.
 

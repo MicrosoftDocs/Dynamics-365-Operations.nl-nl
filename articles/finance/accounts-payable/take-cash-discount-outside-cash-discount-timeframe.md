@@ -1,6 +1,6 @@
 ---
 title: Een contantkorting buiten de periode van contantkorting nemen
-description: Dit artikel biedt twee scenario's die laten zien hoe een contantkorting kan worden verkregen, zelfs als de betaling buiten de contantkortingsperiode wordt gedaan.
+description: Dit onderwerp biedt twee scenario's die laten zien hoe een contantkorting kan worden verkregen, zelfs als de betaling buiten de contantkortingsperiode wordt gedaan.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14301
 ms.assetid: bad10b7f-e550-4742-9261-8a094c9c624d
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9ba9c8176571a8b97b43565c89f8614bd828b3d9e1498a248fd896069d5d5c2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: daafa71dcbe46302fd7b9e8ab068d98e4925fc04
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736983"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716574"
 ---
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Een contantkorting buiten de periode van contantkorting nemen
 
 [!include [banner](../includes/banner.md)]
 
-Dit artikel biedt twee scenario's die laten zien hoe een contantkorting kan worden verkregen, zelfs als de betaling buiten de contantkortingsperiode wordt gedaan.
+Dit onderwerp biedt twee scenario's die laten zien hoe een contantkorting kan worden verkregen, zelfs als de betaling buiten de contantkortingsperiode wordt gedaan.
 
 Op 28 juni maakt April een factuur voor 2.000,00 voor leverancier 3052. De factuur biedt een contantkorting van 1 procent als de factuur binnen 14 dagen wordt betaald.
 

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 15631
 ms.assetid: 81613b31-bc3c-43a0-8474-e01c9a482c40
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 253da3d5cf894820e516b6b4f8d2a4fce40c92db
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 3e49d101bbbe576e0fcf2e9b243f4f29124fbd85
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7727012"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722264"
 ---
 # <a name="ledger-journal-types"></a>Grootboekjournaaltypen
 
@@ -28,7 +28,7 @@ ms.locfileid: "7727012"
 
 Dit onderwerp beschrijft de journaaltypes die u kunt instellen voor financiële journalen. Gebruik de pagina **Journaalnamen** voor het instellen van journalen die u in heel Dynamics 365 Finance kunt gebruiken.
 
-| Type journaal                      | Doel                       | Transacties invoeren op deze pagina                                |
+| Journaaltype                      | Doel                       | Transacties invoeren op deze pagina                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
 | Toewijzing                        | Toewijzingstransacties maken in een toewijzingsjournaal. Voordat u een toewijzingsjournaal kunt maken, moet u een toewijzingsregel maken op de pagina **Grootboektoewijzingsregel**.      | Toewijzingsaanvraag verwerken             |
 | Goedkeuring                          | Goedgekeurde leveranciersfacturen boeken op de betreffende grootboekrekeningen.  | Factuurgoedkeuringsjournaal                                       |

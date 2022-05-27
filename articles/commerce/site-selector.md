@@ -2,7 +2,7 @@
 title: Siteselectiemodule
 description: In dit onderwerp wordt beschreven wat de siteselectiemodule is en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/06/2022
+ms.date: 05/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ad4d4d5f950d0631059d8f509e9e808a9106eb98
-ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
+ms.openlocfilehash: a1954f6b2fea35d5138218e6a2a23ab1fd04c8fc
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8551689"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710298"
 ---
 # <a name="site-picker-module"></a>Siteselectiemodule
 
@@ -43,7 +43,23 @@ De siteselectiemodule moet worden geconfigureerd met de lijst met sites (markten
 
 ## <a name="add-a-site-picker-module-to-a-page"></a>Een siteselectiemodule toevoegen aan een pagina
 
-De siteselectiemodule kan in het vak **Siteselectie** van de [koptekstmodule](author-header-module.md) worden toegevoegd. Nadat een siteselectiemodule is toegevoegd, kunt u de modulekop en de siteopties definiëren. Over het algemeen is een koptekstmodule opgenomen in een koptekstfragment dat op e-commercepagina's voor een site kan worden gedeeld. In het volgende voorbeeld is de siteselectiemodule toegevoegd aan het vak **Siteselectie** van een koptekstmodule die is opgenomen in een koptekstfragment met de naam **HeaderContainer**.
+De siteselectiemodule kan in het vak **Siteselectie** van de [koptekstmodule](author-header-module.md) worden toegevoegd. Nadat een siteselectiemodule is toegevoegd, kunt u de modulekop en de siteopties definiëren. Over het algemeen is een koptekstmodule opgenomen in een koptekstfragment dat op e-commercepagina's voor een site kan worden gedeeld. 
+
+Volg deze stappen om een siteselectiemodule toe te voegen aan een koptekstmodule voor uw site.
+
+1. Selecteer in het vak **Siteselectie** van de koptekstmodule van het koptekstfragment het weglatingsteken (**...**) en selecteer vervolgens **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Modules selecteren** een module **Siteselectie** en selecteer vervolgens **OK.**
+1. Selecteer **Optielijst voor sites toevoegen** in het eigenschappendeelvenster voor de **Siteselectie**. Er wordt een bewerkbare optie voor **Optielijst voor sites** weergegeven.
+1. Selecteer **Optielijst voor sites**. Het dialoogvenster **Optielijst voor sites** wordt weergegeven.
+1. Voer onder **Sitemnaam** de tekst van de sitenaam in die wordt weergegeven in de vervolgkeuzelijst voor de siteselectie.
+1. Selecteer onder **Site-omleidings-URL** **Een koppeling toevoegen**. Het flyoutdeelvenster **Een koppeling toevoegen** wordt geopend.
+1. Selecteer in het flyoutdeelvenster **Een koppeling toevoegen** de optie **Aangepaste pagina** en **Volgende**.
+1. Selecteer in de lijst met site-URL's de URL met het pad dat u hebt gemaakt bij het toevoegen van het kanaal aan de site ( bijvoorbeeld `www.adventure-works.com/fr-ca`) en selecteer **Toepassen**.
+1. Selecteer **OK**.
+1. Selecteer **Opslaan** en vervolgens **Bewerken voltooien**.
+1. Selecteer **Publiceren** om de pagina te publiceren.
+
+In het volgende voorbeeld is de siteselectiemodule toegevoegd aan het vak **Siteselectie** van een koptekstmodule die is opgenomen in een koptekstfragment met de naam **HeaderContainer**.
 
 ![Voorbeeld van een siteselectiemodule in een koptekstfragment.](./media/ecommerce-sitepicker-2.png)
 

@@ -1,7 +1,7 @@
 ---
 title: Instellingen van automatische kosten
 description: In dit onderwerp wordt beschreven hoe u kostenregels in kunt stellen voor verschillende inkomende reisniveaus. Op basis van deze regels worden de kosten berekend en automatisch toegevoegd. Daarom hoeven gebruikers de kosten niet handmatig toe te voegen.
-author: sherry-zheng
+author: Weijiesa
 ms.date: 01/21/2021
 ms.topic: article
 ms.prod: ''
@@ -9,17 +9,16 @@ ms.technology: ''
 ms.search.form: ITMCostAutoSetup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: weijiesa
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0fe795127300ac99c3f5ee65cb1f6e0841ad4d95
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ea788ea8d21c4cb6511188e937166bc3df3cd45a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575795"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695327"
 ---
 # <a name="auto-costs-setup"></a>Instellingen van automatische kosten
 

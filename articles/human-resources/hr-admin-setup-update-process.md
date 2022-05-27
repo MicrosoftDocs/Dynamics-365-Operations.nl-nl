@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9552e518855711781c905514cae1cc25d33718c6
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 1b9ab27b443e5ec675ea03e13aa7be4ea84bfb45
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533565"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722236"
 ---
 # <a name="update-process"></a>Het updateproces
 
@@ -38,7 +37,7 @@ Er worden regelmatig updates uitgebracht voor alle omgevingen. Human Resources w
 
 Human Resources-updates worden automatisch op alle omgevingen toegepast. Human Resources biedt twee typen releases:
 
-- **Service-updates**: tweewekelijkse updates die correcties en nieuwe functies bevatten. Service-updates bevatten ook toepasselijke platformupdates wanneer ze worden uitgebracht. Zie [Tabel 3: platform-releases](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md#table-3-platform-releases) om na te gaan wanneer platform-updates gewoonlijk worden uitgebracht. Tweewekelijkse updates bieden een gefaseerde globale implementatie tussen regio's. Zie [Nieuwe of gewijzigde functies in Dynamics 365 Human Resources](hr-admin-whats-new.md) voor meer informatie over tweewekelijkse updates.
+- **Service-updates**: tweewekelijkse updates die correcties en nieuwe functies bevatten. Service-updates bevatten ook toepasselijke platformupdates wanneer ze worden uitgebracht. Zie [Nieuwe of gewijzigde functies in Platformupdates](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md) voor meer informatie over platformreleases. Tweewekelijkse updates bieden een gefaseerde globale implementatie tussen regio's. Zie [Nieuwe of gewijzigde functies in Dynamics 365 Human Resources](hr-admin-whats-new.md) voor meer informatie over tweewekelijkse updates.
 
     Alle ondersteunde gegevenscentra worden tweewekelijks bijgewerkt, tenzij anders aangegeven. In de volgende regio's worden tweewekelijkse updates uitgebracht: Verenigde Staten, Australië, Europa, Groot-Brittannië, Azië en Canada. 
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5cfcfd165b5f7b97d1ee88175b3f6c9d418c30c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 672f24a720f48c420916c197722eb2d9599744fa
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565274"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695558"
 ---
 # <a name="sales-returns"></a>Verkoopretouren
 
@@ -76,7 +76,6 @@ Wanneer u een retourorder maakt, moeten de gegevens uit de volgende tabel worden
 | RMA-nummer         | De ID die is toegewezen aan de retourorder              | Het RMA-nummer wordt gebruikt als een alternatieve sleutel in het retourorderproces. Het RMA-nummer dat wordt toegewezen, is gebaseerd op de RMA-nummerreeks die is ingesteld op de pagina **Parameters van module Klanten**.                                                                                                                              |
 | Uiterste datum           | De laatste datum waarop een artikel kan worden geretourneerd.               | De standaardwaarde wordt berekend als de huidige datum plus de geldigheidsperiode. Als bijvoorbeeld een retour geldig is voor 90 dagen vanaf de datum waarop de retourorder wordt gemaakt, en de retourorder is gemaakt op 1 mei, is de waarde in het veld **30 juli**. De geldigheidsperiode wordt ingesteld op de pagina **Parameters van module Klanten**. |
 | Redencode retour | De reden van de klant voor het retourneren van het product          | De redencode wordt geselecteerd in de lijst met door de gebruiker gedefinieerde redencodes. U kunt dit veld op elk gewenst moment bijwerken.                                                                                                                                                                                                                                    |
-
 ### <a name="create-return-order-lines"></a>Retourorderregels maken
 
 Nadat u de retourorderkoptekst hebt voltooid, kunt u retourregels kunt maken met een van de volgende methoden:
@@ -84,7 +83,8 @@ Nadat u de retourorderkoptekst hebt voltooid, kunt u retourregels kunt maken met
 -   U voert handmatig de artikelgegevens, hoeveelheden en overige gegevens voor elke retourregel in.
 -   U maakt een retourregel met behulp van de functie **Verkooporder zoeken**. Het wordt aangeraden om deze functie te gebruiken wanneer u een retourorder maakt. De functie **Verkooporder zoeken** maakt een verwijzing van de retourregel naar de regel in de gefactureerde verkooporder en haalt regelgegevens op uit de verkoopregel, zoals de waarden voor artikelnummer, hoeveelheid, prijs, korting en kosten. De verwijzing zorgt ervoor dat, als het product wordt geretourneerd naar het bedrijf, het wordt gewaardeerd tegen dezelfde kostprijs waarvoor het werd verkocht. De verwijzing valideert ook dat geen retourorder worden gemaakt voor een hoeveelheid die groter is dan de hoeveelheid die op de factuur is verkocht.
 
->[Opmerking!] Retourregels die naar een verkooporder verwijzen, worden verwerkt als correcties of omkering van de verkoop. Zie voor meer informatie de sectie 'Boeken naar het grootboek' verderop in dit onderwerp.
+>[!NOTE] 
+>Retourregels die naar een verkooporder verwijzen, worden verwerkt als correcties of omkering van de verkoop. Zie voor meer informatie de sectie 'Boeken naar het grootboek' verderop in dit onderwerp.
 
 ### <a name="charges"></a>Toeslagen
 
@@ -189,8 +189,10 @@ Tijdens het ontvangstproces worden retouren geïntegreerd met het algemene proce
 
 ### <a name="identify-products-in-the-arrival-overview-list"></a>Producten identificeren in de lijst Overzicht aankomst
 
-De pagina **Overzicht aankomst** biedt een overzicht van alle geplande inkomende ontvangsten. 
->[Opmerking!] Aankomsten van retourorders moeten afzonderlijk van andere soorten aankomsttransacties worden verwerkt. Nadat u hebt een binnenkomend pakket hebt aangegeven op de pagina **Overzicht aankomst** (bijvoorbeeld met behulp van het begeleidende RMA-document), klikt u in het actievenster op **Begin aankomst** en maakt en initialiseert u een ontvangstjournaal dat overeenkomt met de aankomst.
+De pagina **Overzicht aankomst** biedt een overzicht van alle geplande inkomende ontvangsten.
+
+>[!NOTE] 
+>Aankomsten van retourorders moeten afzonderlijk van andere soorten aankomsttransacties worden verwerkt. Nadat u hebt een binnenkomend pakket hebt aangegeven op de pagina **Overzicht aankomst** (bijvoorbeeld met behulp van het begeleidende RMA-document), klikt u in het actievenster op **Begin aankomst** en maakt en initialiseert u een ontvangstjournaal dat overeenkomt met de aankomst.
 
 ### <a name="edit-the-arrival-journal"></a>Het aankomstjournaal bewerken.
 
@@ -232,7 +234,8 @@ Als u een vervangend artikel naar de klant verzendt en op de retourorder gebruik
 
 Het vervangende artikel wordt geleverd door middel van een onafhankelijke verkooporder, de vervangende verkooporder. Deze verkooporder wordt gemaakt wanneer de pakbon voor de retourorder wordt gegenereerd. De orderkoptekst gebruikt gegevens van de klant, waarnaar wordt verwezen in de retourorderkoptekst. De regelgegevens worden verzameld van de informatie die is ingevoerd op de pagina **Vervangingsartikel**. De pagina **Vervangingsartikel** moet worden ingevuld voor regels met beschikkingsacties die beginnen met het woord 'vervangen'. Zowel de hoeveelheid als de identiteit van het vervangingsartikel worden echter niet gevalideerd of beperkt. Dankzij dit gedrag kan de klant hetzelfde artikel toegezonden krijgen maar in een andere configuratie of maat, of zelfs een geheel ander artikel. Standaard wordt een identiek artikel ingevoerd op de pagina **Vervangingsartikel**. U kunt echter een ander item selecteren op voorwaarde dat de functie is geconfigureerd. 
 
->[Opmerking!] U kunt de vervangende verkooporder bewerken en verwijderen nadat deze is gemaakt.
+>[!NOTE] 
+>U kunt de vervangende verkooporder bewerken en verwijderen nadat deze is gemaakt.
 
 ## <a name="generate-a-packing-slip"></a>Een pakbon genereren
 Voordat geretourneerde artikelen weer in de voorraad kunnen worden opgenomen, moet u de pakbon bijwerken voor de order waartoe deze artikelen behoren. Net zoals u met het factuurbijwerkproces de financiële transactie bijwerkt, werkt u met het pakbonbijwerkproces fysiek de voorraadrecord bij. Dit betekent dat u met dit proces wijzigingen in de voorraad doorvoert. In het geval van geretourneerde artikelen worden de stappen die zijn toegewezen aan de beschikkingsactie, geïmplementeerd tijdens het bijwerken van de pakbon. Wanneer u de pakbon genereert, vinden de volgende gebeurtenissen plaats:
@@ -253,8 +256,10 @@ Alhoewel de pagina **Retourorder** de informatie en acties bevat die nodig zijn 
 
 ### <a name="credit-correction"></a>Creditcorrectie
 
-Als onderdeel van het factureringsproces moet u controleren of diverse toeslagen correct zijn. Als u wilt dat de boekingen in grootboek correcties worden (storno), kunt u overwegen de optie **Creditcorrectie** op het tabblad **Andere** van de pagina **Factuur wordt geboekt** te gebruiken, wanneer u de factuur/creditnota boekt. 
->[Opmerking!] Standaard wordt de optie **Creditcorrectie** ingeschakeld als de optie **Creditnota als correctie** op de pagina **Parameters van module Klanten** is ingeschakeld. Het wordt echter afgeraden om retouren te boeken met storno.
+Als onderdeel van het factureringsproces moet u controleren of diverse toeslagen correct zijn. Als u wilt dat de boekingen in grootboek correcties worden (storno), kunt u overwegen de optie **Creditcorrectie** op het tabblad **Andere** van de pagina **Factuur wordt geboekt** te gebruiken, wanneer u de factuur/creditnota boekt.
+
+> [!NOTE]
+> Standaard wordt de optie **Creditcorrectie** ingeschakeld als de optie **Creditnota als correctie** op de pagina **Parameters van module Klanten** is ingeschakeld. Het wordt echter afgeraden om retouren te boeken met storno.
 
 ## <a name="create-intercompany-return-orders"></a>Intercompany-retourorders maken
 Retourorders kunnen worden uitgevoerd tussen twee bedrijven binnen uw organisatie. De volgende scenario's worden ondersteund:
@@ -308,7 +313,8 @@ De retourorder verwijst niet naar een klantfactuur. Het geretourneerde artikel w
 
 ![De retourorder verwijst niet naar een klantfactuur.](./media/SalesReturn09.png)  
 
->[Opmerking!] De hoofdrecordprijs wordt gebruikt als de standaardwaarde voor de parameter **Retourkostprijs**. De standaardprijs wijkt af van de kostprijs op het moment van voorraaduitgifte. Daarom is de implicatie dat een verlies van 3 is gemaakt. De retourorder omvat bovendien niet de korting die op de verkooporder aan de klant is gegeven. Daarom wordt een te hoge creditering uitgevoerd.
+> [!NOTE]
+> De hoofdrecordprijs wordt gebruikt als de standaardwaarde voor de parameter **Retourkostprijs**. De standaardprijs wijkt af van de kostprijs op het moment van voorraaduitgifte. Daarom is de implicatie dat een verlies van 3 is gemaakt. De retourorder omvat bovendien niet de korting die op de verkooporder aan de klant is gegeven. Daarom wordt een te hoge creditering uitgevoerd.
 
 ### <a name="example-2-credit-correction-is-selected-for-the-return-order"></a>Voorbeeld 2: Creditcorrectie is ingeschakeld voor de retourorder
 
@@ -316,7 +322,8 @@ Voorbeeld 2 is hetzelfde als voorbeeld 1, maar de parameter **Creditcorrectie** 
 
 ![Retourorder waarbij creditcorrectie is ingeschakeld.](./media/SalesReturn10.png)  
 
->[Opmerking!] De grootboekboekingen worden ingevoerd als negatieve correcties.
+>[!NOTE] 
+>De grootboekboekingen worden ingevoerd als negatieve correcties.
 
 ### <a name="example-3-the-return-order-line-is-created-by-using-the-find-sales-order-function"></a>Voorbeeld 3: De retourorderregel wordt gemaakt door middel van de functie Verkooporder zoeken
 
@@ -324,7 +331,8 @@ In dit voorbeeld wordt de retourorderregel gemaakt door middel van de functie **
 
 ![Een retourorderregel die is gemaakt door middel van de functie Verkooporder zoeken.](./media/SalesReturn11.png)  
 
->[Opmerking!] **Korting** en **Kostprijs retour** zijn correct ingesteld. Daarom wordt precies het bedrag van de klantfactuur teruggeboekt.
+> [!NOTE]
+> **Korting** en **Kostprijs retour** zijn correct ingesteld. Daarom wordt precies het bedrag van de klantfactuur teruggeboekt.
 
 
 

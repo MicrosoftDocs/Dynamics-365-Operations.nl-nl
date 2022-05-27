@@ -2,7 +2,7 @@
 title: Schaaleenheden in een gedistribueerde hybride topologie uitproberen
 description: Dit onderwerp geeft informatie over het werken met schaaleenheden voor Cloud en Edge voor workloads voor productie en magazijnbeheer.
 author: perlynne
-ms.date: 03/03/2022
+ms.date: 05/02/2022
 ms.topic: article
 ms.search.form: ScaleUnitWorkloadsWorkspace
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-03-03
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 04fd79f3c582ae9ac51882f73410477efaa35496
-ms.sourcegitcommit: b52ff5dfd32580121f74a5f262e5c2495e39d578
+ms.openlocfilehash: 658948d94cd012b95812a786433967f5cadc3a15
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "8376241"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711881"
 ---
 # <a name="try-out-scale-units-in-a-distributed-hybrid-topology"></a>Schaaleenheden in een gedistribueerde hybride topologie uitproberen
 
@@ -26,7 +26,7 @@ Het proces voor de gedistribueerde, hybride topologie is eenvoudig. Tijdens de e
 
 ## <a name="option-1-evaluate-customizations-in-development-environments"></a>Optie 1: Aanpassingen in ontwikkelomgevingen evalueren
 
-Voordat u uw sandbox-omgevingen gaat opnemen, is het raadzaam om schaaleenheden te onderzoeken in een ontwikkelopstelling, zoals een omgeving met één vak (ook wel een tier-1-omgeving genoemd), zodat u processen, aanpassingen en oplossingen kunt valideren. In deze fase worden gegevens en aanpassingen toegepast op de omgevingen met één vak. U kunt in één omgeving werken met de rol van ondernemingsknooppunt en schaaleenheid. U kunt ook twee ontwikkelomgevingen hebben, waarvan de ene de rol van knooppunt heeft en de andere de rol van een schaaleenheid. Deze opzet biedt de beste manier om problemen op te lossen. U kunt ook de nieuwste build voor [vroege toegang (PEAP)](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxURUFWTjQzTzg0UUk5RkJHMDFEMVlSSDFEQy4u) gebruiken om deze fase te voltooien.
+Voordat u uw sandbox-omgevingen gaat opnemen, is het raadzaam om schaaleenheden te onderzoeken in een ontwikkelopstelling, zoals een omgeving met één vak (ook wel een tier-1-omgeving genoemd), zodat u processen, aanpassingen en oplossingen kunt valideren. In deze fase worden gegevens en aanpassingen toegepast op de omgevingen met één vak. U kunt in één omgeving werken met de rol van ondernemingsknooppunt en schaaleenheid. U kunt ook twee ontwikkelomgevingen hebben, waarvan de ene de rol van knooppunt heeft en de andere de rol van een schaaleenheid. Deze opzet biedt de beste manier om problemen op te lossen. U kunt ook de nieuwste [preview-build](../../fin-ops-core/fin-ops/get-started/one-version.md#how-can-i-get-early-access-to-non-released-platform-updates) gebruiken om deze fase te voltooien.
 
 U moet de [implementatieprogramma's voor schaaleenheden gebruiken voor ontwikkelomgevingen met één vak](https://github.com/microsoft/SCMScaleUnitDevTools) om de omgevingen te installeren en te onderhouden. Met deze hulpprogramma's kunt u hub- en schaaleenheden configureren in een of twee omgevingen met één vak. De hulpprogramma's worden geleverd als binaire versie en in broncode op GitHub. Bestudeer de project-wiki die een [stapsgewijze gebruikshandleiding](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide) bevat hoe u de hulpmiddelen gebruikt. Als u [edge-schaaleenheden implementeert op aangepaste hardware via lokale bedrijfsgegevens (LBD)](cloud-edge-edge-scale-units-lbd.md), moet u een ander proces volgen.
 

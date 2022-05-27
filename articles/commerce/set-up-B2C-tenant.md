@@ -2,7 +2,7 @@
 title: Een B2C-tenant instellen in Commerce
 description: In dit onderwerp wordt beschreven hoe u uw B2C-tenants (business-to-consumers) in Azure Active Directory (Azure AD) instelt voor de verificatie van sitegebruikers in Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 02/11/2022
+ms.date: 05/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d4cbb117e47940491266134fb1e2dbe87374d4a3
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 086128091b23ce6ab46dd2dfc0803af38de6bac7
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109881"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8714307"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Een B2C-tenant instellen in Commerce
 
@@ -332,9 +332,9 @@ Ga als volgt te werk om uw toepassingsgegevens voor Azure AD B2C-tenants toe te 
 
 1. Meld u aan als beheerder van Commerce Site Builder voor uw omgeving.
 1. Selecteer in het linkernavigatievenster de optie **Tenantinstellingen** om deze uit te vouwen.
-1. Selecteer **B2C-instellingen** onder **Tenantinstellingen**. 
-1. Selecteer **Beheren** in het hoofdvenster naast **B2C-toepassingen**. (Als uw tenant wordt weergegeven in de lijst met B2C-toepassingen, was deze al toegevoegd door een beheerder. Controleer of de items in stap 6 hieronder overeenkomen met de B2C-toepassing.)
-1. Selecteer **B2C-toepassing toevoegen**.
+1. Selecteer onder **Tenantinstellingen** **Instellingen voor siteverificatie**. 
+1. Selecteer **Beheren** in het hoofdvenster naast **Profielen voor siteverificatie**. (Als uw tenant wordt weergegeven in de lijst met siteverificatieprofielen, was deze al toegevoegd door een beheerder. Controleer of de items in stap 6 hieronder overeenkomen met de bedoelde B2C-instellingen. Er kan ook een nieuw profiel worden gemaakt met vergelijkbare Azure AD B2C-tenants of toepassingen om kleine verschillen te verantwoorden, zoals verschillende gebruikersbeleids-id's).
+1. Selecteer **Siteverificatieprofiel toevoegen**.
 1. Voer de volgende vereiste items in het weergegeven formulier in met waarden uit uw B2C-tenant en -toepassing. Velden die niet vereist zijn (zonder sterretje) kunnen leeg worden gelaten.
 
     - **Toepassingsnaam**: de naam voor uw B2C-toepassing, bijvoorbeeld Fabrikam B2C.
@@ -347,12 +347,13 @@ Ga als volgt te werk om uw toepassingsgegevens voor Azure AD B2C-tenants toe te 
 1. Selecteer **OK**. De naam van de B2C-toepassing wordt nu weergegeven in de lijst.
 1. Klik op **Opslaan** om uw wijzigingen op te slaan.
 
+Het optionele veld **Aangepast domein voor aanmelding** mag alleen worden gebruikt als u een aangepast domein instelt voor de Azure AD B2C-tenant. Zie [Aanvullende B2C-informatie](#additional-b2c-information) voor meer informatie en overwegingen over het gebruik van het veld **Aangepast domein voor aanmelding**.
+
 ### <a name="associate-the-b2c-application-to-your-site-and-channel"></a>De B2C-toepassing koppelen aan uw site en kanaal
 
 > [!WARNING]
-> Als uw site al is gekoppeld aan een B2C-toepassing, worden bij het overschakelen naar een andere B2C-toepassing de huidige referenties verwijderd voor gebruikers die zich al hebben aangemeld in deze omgeving. Na wijziging zijn de referenties die aan de momenteel toegewezen B2C-toepassing zijn gekoppeld niet beschikbaar voor gebruikers. 
-> 
-> Werk de B2C-toepassing alleen bij als u de B2C-toepassing voor het kanaal voor de eerste keer instelt of als u wilt dat gebruikers zich opnieuw moeten aanmelden met nieuwe referenties voor dit kanaal met de nieuwe B2C-toepassing. Wees voorzichtig bij het koppelen van kanalen aan B2C-toepassingen en benoem toepassingen duidelijk. Als een kanaal niet is gekoppeld aan een B2C-toepassing in de onderstaande stappen, worden gebruikers die zich bij dat kanaal voor uw site aanmelden, in de B2C-toepassing ingevoerd als **standaard** in de lijst met B2C-toepassingen onder **Tenantinstellingen \> B2C-instellingen**.
+> - Als uw site al is gekoppeld aan een B2C-toepassing, worden bij het overschakelen naar een andere B2C-toepassing de huidige referenties verwijderd voor gebruikers die zich al hebben aangemeld in deze omgeving. Na wijziging zijn de referenties die aan de momenteel toegewezen B2C-toepassing zijn gekoppeld niet beschikbaar voor gebruikers. 
+> - Werk de B2C-toepassing alleen bij als u de B2C-toepassing voor het kanaal voor de eerste keer instelt of als u wilt dat gebruikers zich opnieuw moeten aanmelden met nieuwe referenties voor dit kanaal met de nieuwe B2C-toepassing. Wees voorzichtig bij het koppelen van kanalen aan B2C-toepassingen en benoem toepassingen duidelijk. Als een kanaal niet is gekoppeld aan een B2C-toepassing in de onderstaande stappen, worden gebruikers die zich bij dat kanaal voor uw site aanmelden, in de B2C-toepassing ingevoerd als **standaard** in de lijst met B2C-toepassingen onder **Tenantinstellingen \> B2C-instellingen**.
 
 Ga als volgt te werk om de B2C-toepassing te koppelen aan uw site en kanaal.
 
@@ -378,6 +379,23 @@ Zie voor aanvullende informatie over het aanpassen van Azure AD B2C-interacties 
 ### <a name="secondary-admin"></a>Secundaire beheerder
 
 U kunt een optionele, secundaire beheerdersaccount toevoegen in de sectie **Gebruikers** van uw B2C-tenant. Dit kan een directe account of een algemene account zijn. Als u een account wilt delen tussen teamresources, kan ook een algemene account worden gemaakt. Vanwege de gevoeligheid van de gegevens die zijn opgeslagen in Azure AD B2C, moet een gemeenschappelijke account nauwkeurig worden gemonitord volgens de beveiligingsprocedures van uw bedrijf.
+
+### <a name="set-up-a-custom-sign-in-domain"></a>Een aangepast aanmeldingsdomein instellen
+
+Met Azure AD B2C kunt u een aangepast aanmeldingsdomein instellen voor de Azure AD B2C-tenant. Zie [Aangepaste domeinen voor Azure Active Directory B2C inschakelen](/azure/active-directory-b2c/custom-domain) voor instructies. 
+
+Als u een aangepast aanmeldingsdomein gebruikt, moet het domein worden ingevoerd in Commerce Site Builder.
+
+Voer de volgende stappen uit om een aangepast domein voor aanmelding in Site Builder in te voeren.
+
+1. Selecteer Sites wisselen in de rechterbovenhoek van de Site Builder en vervolgens **Sites beheren**.
+1. Selecteer in het linkernavigatievenster de optie **Tenantinstellingen \> Instellingen voor siteverificatie**.
+1. Selecteer **Beheren** in de sectie **Profielen voor siteverificatie**.
+1. Selecteer in het flyoutmenu aan de rechterkant de knop **Bewerken** (potloodsymbool) naast het siteverificatieprofiel voor wie u een aangepast domein wilt invoeren.
+1. Voer in het dialoogvenster **Siteverificatieprofiel bewerken** onder **Aangepast domein voor aanmelding** uw aangepaste aanmeldingsdomein in (bijvoorbeeld 'login.fabrikam.com').
+
+> [!WARNING]
+> Wanneer u een aangepast domein voor de Azure AD B2C-tenant bijwerkt, heeft de wijziging invloed op de uitgeverdetails van de tenant voor het gegenereerde token. De uitgeverdetails omvatten vervolgens het aangepaste domein in plaats van het standaarddomein dat door Azure AD B2C wordt geleverd. Een andere **Uitgeverconfiguratie** in Commerce Headquarters (**Retail en Commerce \> Instelling van hoofdkantoor \> Parameters \> Gedeelde handelparameters \> Identiteitsproviders**) wijzigt de interactie van het systeem met sitegebruikers, waardoor mogelijk een nieuwe klantrecord wordt gemaakt als een gebruiker wordt geverifieerd met de nieuwe uitgever. Eventuele wijzigingen in het aangepaste domein moeten grondig worden getest voordat u overschakelt naar het aangepaste domein in een live Azure AD B2C-omgeving.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

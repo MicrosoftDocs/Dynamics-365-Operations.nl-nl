@@ -1,6 +1,6 @@
 ---
 title: Aanmaningen in Klanten
-description: De gegevens van klantaanmaningen worden in één centrale weergave beheerd, namelijk de pagina Microsoft Dynamics 365 Finance Aanmaningen. Credit- en incassomanagers kunnen deze centrale weergave gebruiken om aanmaningen te beheren. Incassomedewerkers kunnen het incassoproces starten vanuit klantlijsten die worden gegenereerd met de vooraf gedefinieerde incassocriteria, of vanuit de pagina Klanten.
+description: De gegevens van klantaanmaningen worden in één centrale weergave beheerd, namelijk de pagina Microsoft Dynamics 365 Finance-pagina Aanmaningen. Credit- en incassomanagers kunnen deze centrale weergave gebruiken om aanmaningen te beheren. Incassomedewerkers kunnen het incassoproces starten vanuit klantlijsten die worden gegenereerd met de vooraf gedefinieerde incassocriteria, of vanuit de pagina Klanten.
 author: ShivamPandey-msft
 ms.date: 10/26/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b143ebead89804af57e7d2dbfa6f7d366c1ae664573776d78bff44763ddeb819
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 03d1304c39628323c6d6e15181263a73ba965930
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723914"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710352"
 ---
 # <a name="collections-in-accounts-receivable"></a>Aanmaningen in Klanten
 
 [!include [banner](../includes/banner.md)]
 
-De gegevens van klantaanmaningen worden in één centrale weergave beheerd, namelijk de pagina Microsoft Dynamics 365 Finance Aanmaningen. Credit- en incassomanagers kunnen deze centrale weergave gebruiken om aanmaningen te beheren. Incassomedewerkers kunnen het incassoproces starten vanuit klantlijsten die worden gegenereerd met de vooraf gedefinieerde incassocriteria, of vanuit het formulier Klanten.
+De gegevens van klantaanmaningen worden in één centrale weergave beheerd, namelijk de pagina Microsoft Dynamics 365 Finance-pagina Aanmaningen. Credit- en incassomanagers kunnen deze centrale weergave gebruiken om aanmaningen te beheren. Incassomedewerkers kunnen het incassoproces starten vanuit klantlijsten die worden gegenereerd met de vooraf gedefinieerde incassocriteria, of vanuit het formulier Klanten.
 
 Voordat u aanmaningen gaat instellen of hiermee gaat werken, moet u vertrouwd zijn met de volgende concepten:
 -   Ouderdomsmomentopnamen voor klanten bevatten saldogegevens die zijn gerangschikt naar ouderdom

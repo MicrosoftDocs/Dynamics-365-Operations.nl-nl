@@ -1,6 +1,6 @@
 ---
 title: Mobiel werkgebied voor activabeheer instellen
-description: In dit onderwerp wordt beschreven hoe u Microsoft Dynamics 365 Supply Chain Management en de mobiele app Finance and Operations (Dynamics 365) kunt instellen voor het uitvoeren van een mobiel werkgebied voor activabeheer waarmee medewerkers taken voor activabeheer kunnen uitvoeren.
+description: In dit onderwerp wordt beschreven hoe u Microsoft Dynamics 365 Supply Chain Management en de mobiele app Finance + Operations (Dynamics 365) kunt instellen voor het uitvoeren van het mobiele werkgebied Activabeheer waarmee medewerkers taken voor activabeheer kunnen uitvoeren.
 author: johanhoffmann
 ms.date: 01/15/2021
 ms.topic: article
@@ -8,23 +8,22 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5d628f99d4fc6788ddb38590c65decb871d49f93
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a056be417d266fd400ce1572312f327dc070cb6a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572188"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693495"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Mobiel werkgebied voor activabeheer instellen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u Microsoft Dynamics 365 Supply Chain Management en de mobiele app Finance and Operations (Dynamics 365) kunt instellen voor het uitvoeren van het mobiele werkgebied **Activabeheer** waarmee medewerkers taken voor activabeheer kunnen uitvoeren.
+In dit onderwerp wordt beschreven hoe u Microsoft Dynamics 365 Supply Chain Management en de mobiele app Finance + Operations (Dynamics 365) kunt instellen voor het uitvoeren van het mobiele werkgebied **Activabeheer** waarmee medewerkers taken voor activabeheer kunnen uitvoeren.
 
 ## <a name="set-up-maintenance-worker-users-in-supply-chain-management"></a>Onderhoudsmedewerkers instellen in Supply Chain Management
 
@@ -42,7 +41,7 @@ Voer de volgende stappen uit voor elke gebruiker die toegang nodig heeft tot het
 
 ## <a name="publish-the-asset-management-mobile-workspace"></a>Het mobiele werkgebied Activabeheer publiceren
 
-Als u activabeheerfuncties beschikbaar wilt maken in de mobiele app Finance and Operations (Dynamics 365), moet u het mobiele werkgebied **Activabeheer** publiceren.
+Als u activabeheerfuncties beschikbaar wilt maken in de mobiele app Finance + Operations (Dynamics 365), moet u het mobiele werkgebied **Activabeheer** publiceren.
 
 1. Selecteer in Supply Chain Management de knop **Instellingen** (het tandwielsymbool in de rechterbovenhoek) en selecteer vervolgens **Mobiele app** in het menu.
 1. Zoek in het dialoogvenster **Mobiele app beheren** de tegel **Activabeheer**. Als het de tekst "In metagegevens - niet gepubliceerd" bevat, is het werkgebied nog niet gepubliceerd. Als het de tekst "In metagegevens - gepubliceerd" bevat, is het werkgebied al gepubliceerd en kunt u de rest van deze procedure overslaan.
@@ -51,14 +50,14 @@ Als u activabeheerfuncties beschikbaar wilt maken in de mobiele app Finance and 
 
 1. Selecteer de tegel **Activabeheer** en selecteer **Publiceren** op de werkbalk. Na enkele seconden ontvangt u een melding dat het werkgebied met succes is gepubliceerd. Daarnaast moet de tekst op de tegel veranderen in 'In metagegevens - gepubliceerd'.
 
-## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>De mobiele app Finance and Operations (Dynamics 365) installeren en instellen
+## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>Installeer en configureer de mobiele app Finance + Operations (Dynamics 365):
 
-1. Ga naar een van de volgende app-stores om de app **Microsoft Finance and Operations (Dynamics 365)** op uw mobiele apparaat te installeren:
+1. Ga naar een van de volgende app-stores om de app **Microsoft Finance + Operations (Dynamics 365)** op uw mobiele apparaat te installeren:
 
     - [Voor Google Android-apparaten](https://go.microsoft.com/fwlink/?linkid=850662)
     - [Voor Apple iOS-apparaten](https://go.microsoft.com/fwlink/?linkid=850663)
 
-1. Open de app Finance and Operations (Dynamics 365). De aanmeldingspagina moet worden weergegeven. Voer in het veld **Aanmelden** uw Supply Chain Management-URL in of selecteer een recente URL in de lijst **Recente omgevingen** en tik op **Verbinden**.
+1. Open de app Finance + Operations (Dynamics 365). De aanmeldingspagina moet worden weergegeven. Voer in het veld **Aanmelden** uw Supply Chain Management-URL in of selecteer een recente URL in de lijst **Recente omgevingen** en tik op **Verbinden**.
 
     ![Aanmeldingspagina.](media/mobile-app-sign-in.png "Aanmeldingspagina")
 
@@ -81,7 +80,7 @@ Als u activabeheerfuncties beschikbaar wilt maken in de mobiele app Finance and 
 
 Zie [Het mobiele werkgebied Activabeheer gebruiken](asset-management-mobile-workspace.md) voor meer informatie over het werken met het mobiele werkgebied **Activabeheer**.
 
-Zie de [Startpagina van mobiele app](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md) voor meer informatie over de mobiele app Finance and Operations (Dynamics 365).
+Zie de [Startpagina van mobiele app](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md) voor meer informatie over de mobiele app Finance + Operations (Dynamics 365).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

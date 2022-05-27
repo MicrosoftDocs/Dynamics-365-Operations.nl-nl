@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 897c25df96017c5be1ae789027d178ca6b3ccc0410b4f65c7d2557b39e840134
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1d2ccf1083f34aefbe87354f03dbebd6cb5be7e
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735346"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694419"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>Nieuwe of gewijzigde functies in Dynamics 365 Human Resources 22 juni 2021
 
@@ -83,7 +82,7 @@ Van de volgende nieuwe functies kan een voorbeeld worden bekeken. Zie [Functies 
 
 | Functie | Gegevens |
 | --- | --- |
-| Platformupdate 10.0.19 (43) | Platformupdate 10.0.19 is gepland voor de uitrol met de volgende servicerelease op 28 juni 2021. Zie [Platformupdates voor versie 10.0.19 van Finance and Operations-apps (juni 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19) voor meer informatie. |
+| Platformupdate 10.0.19 (43) | Platformupdate 10.0.19 is gepland voor de uitrol met de volgende servicerelease op 28 juni 2021. Zie voor meer informatie [Platformupdates voor versie 10.0.19 van apps voor financiële en bedrijfsactiviteiten (juni 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19). |
 |  Dienstjarenweergave in-/uitschakelen | Met deze functie kunt u verschillende datums gebruiken om de dienstjaren te berekenen die worden weergegeven in het formulier **Gestroomlijnde invoer werknemer** en in het formulier **Personen**.  Dit is beschikbaar in de parameters van Human Resources. |
 |  Verlof laten beheren door een verzuimmanager | [Verlof laten beheren door een verzuimmanager](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-absence-manager-manage-leave) |
 |  Mandaatbijlagen voor specifieke verloftypen | Met deze functie kunnen beheerders vereisen dat bijlagen moeten worden toegevoegd bij het indienen van verlofaanvragen voor specifieke verloftypen. |
