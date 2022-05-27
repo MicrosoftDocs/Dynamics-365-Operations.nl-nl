@@ -2,7 +2,7 @@
 title: INTERVAT-belastingaangifte
 description: Dit onderwerp biedt land-/regiospecifieke informatie over het instellen en maken van de INTERVAT-belastingaangifte voor rechtspersonen in alleen België.
 author: anasyash
-ms.date: 01/04/2021
+ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.custom: 273023
 ms.search.region: Belgium
-ms.author: v-oloski
+ms.author: anasyash
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: ecd35a1629091b3e699ca443f0380d95b312bff6
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 68f65b759c6004700a3a5216e92af6b8e4dbf516
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595407"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674182"
 ---
 # <a name="intervat-tax-declaration"></a>INTERVAT-belastingaangifte
 
@@ -107,7 +107,7 @@ Voorbeelden van btw-aangiftecodes worden gegeven in het gedeelte [Btw-aangifteco
     -   Voer in het veld **Btw-vrijstellingsnummer** het btw-vrijstellingsnummer van de andere partij in.
     -   Voer in het veld **Bedrijfsnaam** de naam van de andere partij in.
 
-Zie [Btw-aangifte voor Europa](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/finance/localizations/emea-vat-reporting.md) voor meer informatie over het opstellen van het btw-overzicht.
+Zie [Btw-aangifte voor Europa](emea-vat-reporting.md) voor meer informatie over het opstellen van het btw-overzicht.
 
 ## <a name="settings"></a>Instellingen
 
@@ -119,7 +119,7 @@ Maak regels op de pagina **INTERVAT-instellingen** (**Belasting \> Instellen \> 
 
 ### <a name="set-up-sales-tax-reporting-codes"></a>Btw-aangiftecodes instellen
 
-Zie voor meer informatie over het instellen van btw-aangiftecodes [Btw-aangiftecodes instellen](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/finance/general-ledger/tasks/set-up-sales-tax-reporting-codes.md).
+Zie voor meer informatie over het instellen van btw-aangiftecodes [Btw-aangiftecodes instellen](../general-ledger/tasks/set-up-sales-tax-reporting-codes.md).
 
 Als gebruikers een aangiftecode handmatig kunnen corrigeren, schakelt u het selectievakje **Btw-correcties** in. De volgende tabel bevat een voorbeeld van btw-aangiftecodes voor België.
 
@@ -800,7 +800,7 @@ Zoals u ziet, is het bedrag in code **62** gelijk aan **200**.
     
 ## <a name="reconciliation-reports-for-belgium"></a>Afstemmingsrapporten voor België
 
-Zie voor informatie over afstemmingsrapporten voor België [Afstemmingsrapporten voor België](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/finance/localizations/emea-bel-reconciliation-reports.md).
+Zie voor informatie over afstemmingsrapporten voor België [Afstemmingsrapporten voor België](emea-bel-reconciliation-reports.md).
 
 
 

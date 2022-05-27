@@ -1,21 +1,21 @@
 ---
 title: Bedrijfsdocumenten die worden ondersteund door Algemene voorraadboekhouding
 description: Dit onderwerp geeft een overzicht van de bedrijfsdocumenten die worden ondersteund door Algemene voorraadboekhouding. Het bevat ook een gedetailleerd voorbeeld van inkooporderdocumenten.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 47251a7167a00346aed26b9e9535f1b12301e5a6
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 44081be35c6737aa0d16b6e11a5fc8f94b41e872
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860581"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674444"
 ---
 # <a name="business-documents-supported-by-global-inventory-accounting"></a>Bedrijfsdocumenten die worden ondersteund door Algemene voorraadboekhouding
 

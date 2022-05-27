@@ -1,7 +1,7 @@
 ---
 title: Analyse van productieorderkosten
 description: Dit artikel bevat informatie over de kostprijsanalyse die u voor voltooide en huidige productieorders kunt uitvoeren. U kunt de geraamde en werkelijke kosten analyseren met de pagina Prijsberekening of het rapport Geraamde kosten en kostprijsberekeningen. U kunt informatie weergeven over de geraamde en werkelijke kosten (en hoeveelheid) voor alle onderdeelartikelen, de routebewerkingen en de indirecte kosten.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 79634
 ms.assetid: ded5da04-f787-49f7-b5e5-75c2a2b92930
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: mguada
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b0690a683cdefaeb5e441d3e2ea467a680a8fc1dd0905b6a94fd72bcbf36e1e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cd303efb5aee53eec36fac7ec6329d28aacf96a1
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734254"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672285"
 ---
 # <a name="production-order-cost-analysis"></a>Analyse van productieorderkosten
 

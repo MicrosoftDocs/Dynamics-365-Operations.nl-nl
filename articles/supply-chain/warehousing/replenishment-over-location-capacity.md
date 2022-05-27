@@ -1,7 +1,7 @@
 ---
 title: Aanvulling boven locatiecapaciteit
 description: Dit onderwerp biedt informatie over de functie Aanvulling boven locatiecapaciteit. Deze functie schakelt alle aanvullingswerk in dat nodig is voor de dag om te worden gemaakt en beheert de beschikbaarheid van dat aanvullingswerk om ervoor te zorgen dat de verzamellocatie niet door voorraad heen raakt en ook niet boven de capaciteit komt.
-author: mirzaab
+author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 6ff9f133010ec4370a99c585259aece4e279f801
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 0c3dedc47558e98f63fb5883e4731bf021b9602b
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778202"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677921"
 ---
 # <a name="replenishment-over-location-capacity"></a>Aanvulling boven locatiecapaciteit
 

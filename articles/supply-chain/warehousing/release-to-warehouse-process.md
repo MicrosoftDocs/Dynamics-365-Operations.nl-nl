@@ -1,7 +1,7 @@
 ---
 title: Vrijgeven naar magazijn
 description: Dit onderwerp biedt informatie over het proces van het vrijgeven aan het magazijn. In het onderwerp worden entiteiten beschreven die worden gemaakt wanneer u een order vrijgeeft aan het magazijn en worden opties beschreven die u kunt gebruiken om het proces te starten.
-author: mirzaab
+author: Mirzaab
 ms.date: 8/13/2021
 ms.topic: article
 ms.search.form: WHSReleaseToWarehouse, WHSReleaseToWarehouseSalesOrder, WHSReleaseToWarehouseTransferOrder, WHSLoadPlanningWorkbench, WHSWaveTemplateTable, WHSWorkTemplateTable, WHSLocDirTable
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3269bf3f8a5475fb85e6b51514db29006be9aab1
-ms.sourcegitcommit: b52ff5dfd32580121f74a5f262e5c2495e39d578
+ms.openlocfilehash: 8624db42e9d0f3d08ed3b582224ed7937d52f85d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "8376203"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8678346"
 ---
 # <a name="release-to-warehouse"></a>Vrijgeven naar magazijn
 

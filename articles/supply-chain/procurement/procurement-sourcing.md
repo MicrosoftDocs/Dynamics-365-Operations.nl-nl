@@ -1,7 +1,7 @@
 ---
 title: Startpagina Inkoopbeheer
 description: Dit onderwerp biedt een overzicht van de Help-onderwerpen en andere resources die beschikbaar zijn voor Inkoop en sourcing.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 09/27/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom:
 - intro-internal
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54ddaee1fd820435c245f3946ae1cc91209b12d4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fdf56084147edcdf8951d4a267611c10dc7eb6dd
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565490"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673013"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Startpagina Inkoopbeheer
 
@@ -57,7 +57,7 @@ Inkoopbeheer omvat alle stappen van het identificeren van een behoefte aan produ
 -   [Demoscript Inkomende consignatievoorraad voor Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(whitepaper)
 -   [Consignmentvoorraad bewaken door middel van leverancierssamenwerking](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Samenwerken met leveranciers via de portal Leveranciers](collaborate-vendors-vendor-portal.md) (alleen versies van Dynamics AX van februari 2016 en mei 2016)
--   [Gebruikersbeveiliging in leveranciersportal](configure-security-vendor-portal-users.md) (alleen versies van Finance and Operations van 2016 en mei 2016)
+-   [Gebruikersbeveiliging in leveranciersportal](configure-security-vendor-portal-users.md) (alleen versies van Finance and Operations van februari 2016 en mei 2016)
 -   [Mobiel werkgebied voor leverancierssamenwerking](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Beheer inkoopproducten

@@ -2,7 +2,7 @@
 title: Btw-aangifte voor Nederland
 description: In dit onderwerp wordt uitgelegd hoe u de btw-aangifte voor rechtspersonen kunt instellen en genereren in Nederland.
 author: anasyash
-ms.date: 03/24/2022
+ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Netherlands
 ms.author: anasyash
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3978bd0ad4fe217d65664dacf0b012440b5a1d9b
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: 5e595476291d58585c75fa0f7ff15c59175a5759
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487810"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8679576"
 ---
 # <a name="vat-declaration-for-the-netherlands"></a>Btw-aangifte voor Nederland
 
@@ -31,7 +31,7 @@ In dit onderwerp wordt uitgelegd hoe u de btw-aangifte voor rechtspersonen kunt 
 
 ## <a name="set-up-sales-tax-reporting-codes-for-vat-reporting"></a>Btw-codes instellen voor btw-aangifte
 
-Stel btw-aangiftecodes in door de instructies te volgen in [Btw-aangiftecodes instellen](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/SE-VAT-declaration/articles/finance/general-ledger/tasks/set-up-sales-tax-reporting-codes.md). De volgende tabel bevat een voorbeeld van btw-aangiftecodes voor Nederland.
+Stel btw-aangiftecodes in door de instructies te volgen in [Btw-aangiftecodes instellen](../general-ledger/tasks/set-up-sales-tax-reporting-codes.md). De volgende tabel bevat een voorbeeld van btw-aangiftecodes voor Nederland.
 
 | **Btw-rapportcode** | **Beschrijving**                                                                                                                                                                                                 | **Overeenkomstig vak in de aangifte** | **Element in XML**                                           |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|--------------------------------------------------------------|
@@ -69,12 +69,12 @@ Stel btw-aangiftecodes in door de instructies te volgen in [Btw-codes voor btw-a
 
 1. Ga naar **Organisatiebeheer \> Organisaties \> Rechtspersonen**.
 2. Voer op de pagina **Rechtspersonen**, in het sneltabblad **Belastingregistratie**, in het veld **Btw-registratienummer** het btw-registratienummer van uw bedrijf in.
-3. Selecteer **Registratie-id's** en voer hetzelfde btw-registratienummer in. Zie [Registratie-id's](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/NL-VAT-declaration/articles/finance/localizations/emea-registration-ids.md) voor meer informatie over het instellen van registratie-id's.
+3. Selecteer **Registratie-id's** en voer hetzelfde btw-registratienummer in. Zie [Registratie-id's](emea-registration-ids.md) voor meer informatie over het instellen van registratie-id's.
 4. In [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/Logon/Index) kunt u in de bibliotheek met gedeelde activa de meest recente versies downloaden van ER-configuraties (elektronische aangifte) voor de volgende indeling van de btw-aangifte:
 
 -   OB-aangifte (NL)
 
-   Zie voor meer informatie [Elektronische rapportageconfiguraties downloaden vanuit Lifecycle Services](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/NL-VAT-declaration/articles/fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+   Zie voor meer informatie [Elektronische rapportageconfiguraties downloaden vanuit Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 5. Ga naar **Belasting** \> **Btw** \> **Parameters voor elektronische btw-aangifte**.
 6. Selecteer op het tabblad **Algemeen** in het veld **Btw-contacttype** de **belastingplichtige** of **intermediair**.

@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 95d272d9076f1ab25230e4efa98e321bdd618062
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 22b31b46b247ca5f2d6b8b93f58c090b03a2b38c
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407789"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688369"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Bijwerken naar het model voor partij en globaal adresboek
 
@@ -281,7 +281,7 @@ In deze sectie worden de instellingen beschreven die vereist zijn voordat u de D
 
     ![De sjablonen voor het postadres van de partij en het elektronische adres van de partij uitvoeren.](media/ADF-7.png)
 
-10. Als u de app voor financiële en bedrijfsactiviteiten met deze gegevens wilt bijwerken, moet u de CSV-bestanden converteren naar een Excel-werkmap en deze [importeren in de app voor financiële en bedrijfsactiviteiten](/data-entities/data-import-export-job). Als de CSV-import voor u werkt, kunt u ook de CSV-bestanden rechtstreeks importeren. Het kan enkele uren duren voordat deze stap is voltooid, afhankelijk van het volume.
+10. Als u de app voor financiële en bedrijfsactiviteiten met deze gegevens wilt bijwerken, moet u de CSV-bestanden converteren naar een Excel-werkmap en deze [importeren in de app voor financiële en bedrijfsactiviteiten](../data-import-export-job.md). Als de CSV-import voor u werkt, kunt u ook de CSV-bestanden rechtstreeks importeren. Het kan enkele uren duren voordat deze stap is voltooid, afhankelijk van het volume.
 
     ![Geslaagde import.](media/ADF-8.png)
 

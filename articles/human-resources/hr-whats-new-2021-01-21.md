@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 02f0b0664dcb78d20c2719b4377dcc6047f2bf3392225f1cf9c166a1073ecd59
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: be50596cd64839ba82b847b2fabb0f46dc749a3f
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772611"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686850"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-21-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources, 21 januari 2021
 
@@ -43,7 +42,7 @@ De volgende functie zijn algemeen beschikbaar in deze release.
 
 | Functie | Vrijgaveplan | Documentatie |
 | --- | --- | --- |
-| Platformupdate 10.0.16(40) | -- | [Platformupdates voor versie 10.0.16 van Finance and Operations-apps (februari 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md) |
+| Platformupdate 10.0.16(40) | -- | [Platformupdates voor versie 10.0.16 van apps voor financiële en bedrijfsactiviteiten (februari 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md) |
 | Uitgebreide aanvragen en goedkeuringen voor werkstromen | [Verbeteringen in de ervaring van werkstromen voor organisatie en personeelsbeheer](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Configuratieoptie om de lijst Aan mij toegewezen werkitems te positioneren](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
 | Wijzigingen voor compliance met de Affordable Care Act (ACA) voor formulier 1095-C, formulier 1095-B en elektronische rapportage in oudere vergoedingen | -- | -- | 
 | Vergoedingenbeheer ondersteunt nu rapportage conform de ACA voor in de VS gevestigde rechtspersonen | -- | [ACA-rapporten genereren in Vergoedingenbeheer](hr-benefits-management-aca-reports.md) |
