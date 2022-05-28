@@ -2,7 +2,7 @@
 title: De uitvoeringsinterface voor de productievloer aanpassen
 description: In dit onderwerp wordt uitgelegd hoe u huidige formulieren kunt uitbreiden of nieuwe formulieren en knoppen kunt maken voor de uitvoeringsinterface voor de productievloer.
 author: johanhoffmann
-ms.date: 11/08/2021
+ms.date: 05/04/2022
 ms.topic: article
 ms.search.form: ''
 ms.technology: ''
@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-11-08
-ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 67fb381cbef6f1673afcaa834666b4a859bdf4e6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.dyn365.ops.version: 10.0.25
+ms.openlocfilehash: ad5037442f27a5068b38613655591f1298808eac
+ms.sourcegitcommit: 28537b32dbcdefb1359a90adc6781b73a2fd195e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066541"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712938"
 ---
 # <a name="customize-the-production-floor-execution-interface"></a>De uitvoeringsinterface voor de productievloer aanpassen
 
@@ -60,7 +60,7 @@ Wanneer u klaar bent, wordt de nieuwe knop (actie) automatisch weergegeven op de
 1. Maak een extensie met de naam `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>_Extension`, waarbij de methode `getMainMenuItemsList` wordt uitgebreid door de nieuwe menuopdracht aan de lijst toe te voegen. De volgende code laat een voorbeeld zien.
 
     ```xpp
-    [ExtensionOf(classStr(JmgProductionFloorExecutionForm))]
+    [ExtensionOf(classStr(JmgProductionFloorExecutionMenuItemProvider))]
     public final class <ExtensionPrefix>_JmgProductionFloorExecutionForm<FormName>_Extension{
         static public List getMainMenuItemsList()
         {
@@ -142,6 +142,79 @@ formRun.setNumpadController(numpadController);
 numpadController.setValueToNumpad(333.56);
 formRun.run();
 ```
+
+## <a name="add-a-date-and-time-controls-to-a-form-or-dialog"></a>Datum- en tijdbesturingselementen toevoegen aan een formulier of dialoogvenster
+
+In deze sectie wordt aangegeven hoe u datum- en tijdbesturingselementen aan een formulier of dialoogvenster toevoegt. Met de datum- en tijdbesturingselementen met aanraakfunctie kunnen werknemers eenvoudig datums en tijden opgeven. In de volgende schermopnamen wordt weergegeven hoe de besturingselementen meestal op de pagina worden weergegeven. Het tijdbesturingselement is beschikbaar voor 12 uur en 24 uur. In de weergegeven versie wordt de ingestelde voorkeur voor het gebruikersaccount toegepast waaronder de interface wordt uitgevoerd.
+
+![Voorbeeld van datumbesturingselement.](media/pfe-customize-date-control.png "Voorbeeld van datumbesturingselement")
+
+![Voorbeeld van tijdbesturingselement met 12-uursklok.](media/pfe-customize-time-control-12h.png "Voorbeeld van tijdbesturingselement met 12-uursklok")
+
+![Voorbeeld van tijdbesturingselement met 24-uursklok.](media/pfe-customize-time-control-24h.png "Voorbeeld van tijdbesturingselement met 24-uursklok")
+
+In de volgende procedure wordt een voorbeeld gegeven voor het toevoegen van datum- en tijdbesturingselementen aan een formulier.
+
+1. Voeg een controller toe aan het formulier voor elk datum- en tijdbesturingselement dat het formulier moet bevatten. (Het aantal controllers moet gelijk zijn aan het aantal datum- en tijdbesturingselementen in het formulier.)
+
+    ```xpp
+    private JmgProductionFloorExecutionDateTimeController  dateFromController; 
+    private JmgProductionFloorExecutionDateTimeController  dateToController; 
+    private JmgProductionFloorExecutionDateTimeController  timeFromController; 
+    private JmgProductionFloorExecutionDateTimeController  timeToController;
+    ```
+
+1. Declareer de vereiste variabelen (van het type `utcdatetime`).
+
+    ```xpp
+    private utcdatetime fromDateTime;
+    private utcdatetime toDateTime;
+    ```
+
+1. Maak methoden waar de datum/tijd wordt bijgewerkt door de datetime-controllers. In het volgende voorbeeld ziet u deze methode.
+
+    ```xpp
+    private void setFromDateTime(utcdatetime _value)
+        {
+            fromDateTime = _value;
+        }
+    ```
+
+1. Stel het gedrag in van elke datum/tijd-controller en koppel elke controller aan een formuliergedeelte. In het volgende voorbeeld ziet u hoe gegevens voor besturingselementen voor begindatum en begintijd worden ingesteld. U kunt vergelijkbare code toevoegen voor besturingselementen voor datum en tijd (niet weergegeven).
+
+    ```xpp
+    /// <summary>
+    /// Initializes all date and time controllers, defines their behavior, and connects them with the form parts.
+    /// </summary>
+    private void initializeDateControlControllers()
+    {
+        dateFromController = new JmgProductionFloorExecutionDateTimeController();
+        dateFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        dateFromController.parmDateTimeValue(fromDateTime);
+    
+        timeFromController = new JmgProductionFloorExecutionDateTimeController();
+        timeFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        timeFromController.parmDateTimeValue(fromDateTime);
+        
+        DateFromFormPart.getPartFormRun().setDateControlController(dateFromController, timeFromController);
+        TimeFromFormPart.getPartFormRun().setTimeControlController(timeFromController, dateFromController);
+        
+        ...
+
+    }
+    ```
+
+    Als u alleen een datumbesturingselement nodig hebt, kunt u de instellingen voor het tijdbesturingselement overslaan en in plaats daarvan het datumbesturingselement instellen zoals in het volgende voorbeeld:
+
+    ```xpp
+    {
+        dateFromController = new JmgProductionFloorExecutionDateTimeController();
+        dateFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        dateFromController.parmDateTimeValue(fromDateTime);
+    
+        DateFromFormPart.getPartFormRun().setDateControlController(dateFromController, null);
+    }
+    ```
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

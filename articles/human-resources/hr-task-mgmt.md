@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 727e1eb75f807d84f088cf3dd139eb094aa76618
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: ae453bd57217f272038decc7e40ed373f618ae03
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087212"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710216"
 ---
 # <a name="task-management"></a>Taakbeheer
 
@@ -57,18 +56,14 @@ Het tabblad **Dienstverband beëindigen** bevat een lijst met werknemers die het
 Het tabblad **Overplaatsen** bevat een lijst **Alle taken** met alle taken voor alle werknemers die een andere functie krijgen of onlangs hebben gekregen. Ook is er een lijst met achterstallige taken en een lijst met taken die aan de huidige gebruiker zijn toegewezen.
 
 Op alle drie de tabbladen kunnen HR-medewerkers en managers de volgende activiteiten uitvoeren:
-
-- Een controlelijst toepassen op een werknemer.
-- De status van een taak bijwerken.
-- Een taak opnieuw toewijzen.
-- De vervaldatum van een taak bijwerken.
+- Een controlelijst toepassen op een werknemer
+- De status van een taak bijwerken
+- Een taak opnieuw toewijzen
+- De vervaldatum van een taak bijwerken
 
 > [!NOTE]
 > Het tabblad **Aannemen** bevat standaard medewerkers die in de afgelopen zeven dagen in dienst zijn genomen. Als u deze instelling wilt wijzigen, voert u op de pagina **Human Resources-parameters** op het tabblad **Algemeen** in het veld **Recent aangenomen werknemers** een tijdsbestek in. De gegevens in de lijst **Recent aangenomen werknemers** kunnen worden weergegeven voor een bepaald aantal dagen, maanden of jaren. Als u bijvoorbeeld de lijst wilt weergeven met medewerkers die in de afgelopen 14 dagen zijn aangenomen, stelt u het veld **Periode** in op **14** en stelt u het veld **Eenheid** in op **Dagen**.
->
-> Op de pagina **Human resources-parameters** kunt u ook het datumbereik bijwerken voor de lijsten met vertrekkende en vertrokken werknemers die worden weergegeven op het tabblad **Dienstverband beëindigen**.
->
-> Deze instellingen zijn ook van toepassing op de werkruimte **Personeelsbeheer**.
+> Op de pagina **Human resources-parameters** kunt u ook het datumbereik bijwerken voor de lijsten met vertrekkende en vertrokken werknemers die worden weergegeven op het tabblad **Dienstverband beëindigen**. Deze instellingen zijn ook van toepassing op de werkruimte **Personeelsbeheer**.
 
 ## <a name="setting-up-tasks"></a>Taken instellen
 
@@ -188,6 +183,13 @@ U kunt een controlelijst ook toepassen op een werknemer door de pagina **Werknem
 ## <a name="completing-tasks"></a>Taken voltooien
 
 Op de pagina **Self-service medewerkers** kan een werknemer alle taken bekijken die aan hen zijn toegewezen. Voor elke toegewezen taak worden de waarden **Taak**, **Omschrijving**, **Instructies** en **Contactpersoon** weergegeven. Daarnaast kan de werknemer voor elke taak de bijbehorende externe webpagina of de bijbehorende pagina in de app Dynamics 365 openen.
+
+Taken kunnen ook in het standaarddashboard worden weergegeven. Taken op het standaarddashboard weergeven:
+1. Ga naar **Gebruikersopties – Voorkeuren – Taakbeheer** 
+2. Stel **Taken op het standaarddashboard weergeven** in op **Aan**.  
+
+>[!Note] 
+>De functie **Taakbeheer** moet zijn ingeschakeld in **Functiebeheer** om de optie weer te geven in **Gebruikersopties**.
 
 Taken kunnen worden gemarkeerd als **In uitvoering**, **Geannuleerd** of **Voltooid**. Als een taak is toegewezen aan een groep, wordt de taak gemarkeerd als **Voltooid** wanneer een persoon in de groep deze voltooit.
 

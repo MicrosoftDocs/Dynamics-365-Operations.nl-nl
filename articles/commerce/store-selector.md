@@ -3,7 +3,7 @@ title: Winkelselectiemodule
 description: In dit onderwerp wordt beschreven wat de winkelselectiemodule is en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/08/2021
+ms.date: 05/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0ee9d3cec9c524f73472929052d46d87f8270ba67568314eceb462b1803cf149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7276f25daada8286490ad7e1af2b350e4a2805bb
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772151"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710775"
 ---
 # <a name="store-selector-module"></a>Winkelselectiemodule
 
@@ -59,6 +59,16 @@ Voer deze stappen uit om de waarden voor lengtegraad en breedtegraad voor een wi
     ![Voorbeeld van de instelling voor breedte- en lengtegraad voor een winkel in Headquarters.](./media/Store-latitude-longitude.png)
 
 1. Selecteer **Opslaan** in het actievenster. 
+
+### <a name="hide-a-store-from-the-store-selector-module"></a>Een winkel verbergen vanuit de winkelselectiemodule
+
+Sommige winkels in een afhandelingsgroep zijn mogelijk geen geldige ophaallocaties. Volg deze stappen in Commerce Headquarters om ervoor te zorgen dat alleen geldige ophaallocaties als opties in de winkelselectiemodule worden weergegeven.
+
+1. Ga naar **Retail en Commerce \> Commerce-instellingen \> Afhandelingsgroepen \> Alle winkels**.
+1. Selecteer **Bewerken** in het actievenster.
+1. Wis onder **Instellingen** het selectievakje **Is ophaallocatie** voor elke winkel die geen geldige ophaallocatie is.
+1. Selecteer **Opslaan** in het actievenster.
+1. Voer de distributieplanningstaak 1070 **Kanaalconfiguratie** uit.
 
 ## <a name="bing-maps-integration"></a>Bing Kaarten-integratie
 

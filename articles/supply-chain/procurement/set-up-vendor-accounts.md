@@ -1,7 +1,7 @@
 ---
 title: Leveranciersaccounts instellen
 description: In dit onderwerp worden de soorten gegevens beschreven, die u moet opgeven wanneer u een nieuwe leverancieraccount maakt.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9cbfd3a3c1afd794814bbbae07e1dc31eb9f181
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5d524ff99cba733fdd607d9708abba440248d6cc
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565466"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676969"
 ---
 # <a name="set-up-vendor-accounts"></a>Leveranciersaccounts instellen
 
@@ -63,7 +63,7 @@ U kunt leverancierscontactpersonen helemaal nieuw aanmaken. Maar u kunt ook deta
 
 U kunt een contactpersoon niet verwijderen als in een document naar deze contactpersoon wordt verwezen. In plaats daarvan kunt u de contactpersoon inactief maken.  
 
-U kunt contactpersonen van leveranciers aan uw persoonlijke contacten in Microsoft 365 toevoegen. U moet echter eerst de synchronisatie instellen tussen Supply Chain Management en Microsoft 365, zowel in de Microsoft Exchange Server-synchronisatie als in de Microsoft Outlook-installatiewizard.
+U kunt contactpersonen aan uw persoonlijke contacten in Microsoft 365 toevoegen. U moet echter eerst de synchronisatie instellen tussen Supply Chain Management en Microsoft 365, zowel in de Microsoft Exchange Server-synchronisatie als in de Microsoft Outlook-installatiewizard.
 
 ## <a name="vendors-in-different-legal-entities"></a>Leveranciers in verschillende rechtspersonen
 Als een leverancier voor slechts één rechtspersoon in uw organisatie is geregistreerd en andere rechtspersonen dezelfde leverancier moeten registreren, kunt u op de pagina **Leverancier toevoegen aan andere rechtspersoon** de leverancier configureren om zaken te doen met een andere rechtspersoon. U moet een leveranciersgroep, valuta en wachtstand voor de leverancier selecteren in de geselecteerde rechtspersoon.  

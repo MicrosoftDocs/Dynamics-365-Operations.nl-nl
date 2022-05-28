@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 206c7f590b495278b7899271db0e83b3a4da3edc
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.openlocfilehash: 3cf83421d5385e3c95dfda6db35edfb8eb4b9336
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641425"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695755"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-5-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources 5 oktober 2021
 
@@ -42,7 +41,7 @@ De volgende functie zijn algemeen beschikbaar in deze release.
 
 | Functie | Vrijgaveplan | Documentatie |
 |---|---|---|
-| Platformupdate 10.0.21 (45) | -- | [Platformupdates voor versie 10.0.21 van Finance and Operations-apps (oktober 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21) |
+| Platformupdate 10.0.21 (45) | -- | [Platformupdates voor versie 10.0.21 van apps voor financiële en bedrijfsactiviteiten (oktober 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21) |
 
 
 ### <a name="bug-fixes"></a>Correcties
@@ -87,7 +86,7 @@ Zie [Overzicht van Dynamics 365 Human Resources 2021 release wave 2](/dynamics36
 
 | Functie | Gegevens |
 |---|---|
-| Platformupdate 10.0.22 (46) | Implementatie van platformupdate 10.0.22 is gepland voor de volgende servicerelease op 1 november 2021. Zie [Platformupdates voor versie 10.0.22 van Finance and Operations-apps (november 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22) voor meer informatie. |
+| Platformupdate 10.0.22 (46) | Implementatie van platformupdate 10.0.22 is gepland voor de volgende servicerelease op 1 november 2021. Zie voor meer informatie [Platformupdates voor versie 10.0.22 van apps voor financiële en bedrijfsactiviteiten (november 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22). |
 
 
 

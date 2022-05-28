@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerPeriodCloseWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14111
 ms.assetid: cec9e039-c1a2-482c-bea6-e11d896eea9d
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f83ea7a870c52884030125736809ead02b264aef1dcd654f6ff94dab0fbb2004
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 359e177e4ac2218c28ddd7c5ac3b71ee69e652e8
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739997"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717525"
 ---
 # <a name="close-the-general-ledger-at-period-end"></a>Het grootboek aan het einde van de periode afsluiten
 
@@ -41,7 +41,7 @@ In het grootboek kunt u afsluitingsprocedures voor een periode of een jaar uitvo
 -   Genereer financiële overzichten van het periode-einde met behulp van financiële rapportage.
 -   Stel grootboekperioden in op **In wachtstand**, zodat geen verdere boeking plaatsvindt. Voor een beter beheer kunt u een periode ook beperken tot een specifieke gebruikersgroep terwijl periode-eindeactiviteiten plaatsvinden. Het is geen goed idee om perioden in te stellen op **Definitief afgesloten**, omdat u een periode die is afgesloten niet kunt heropenen.
 
-De werkruimte Afgesloten financiële periode kan worden gebruikt om de taken die nodig zijn voor verschillende periodeafsluitingsprocessen te organiseren en bij te houden. 
+De werkruimte **Afgesloten financiële periode** kan worden gebruikt om de taken die nodig zijn voor verschillende periodeafsluitingsprocessen te organiseren en bij te houden. 
 
 
 Zie de volgende onderwerpen voor meer informatie.

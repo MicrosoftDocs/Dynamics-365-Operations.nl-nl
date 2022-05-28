@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMDimension, CAMDimensionMember, CAMDimensionMapping
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 223234
 ms.assetid: 4c66a231-aed2-48b5-9727-b3eb4fe6e6aa
 ms.search.region: global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b9ac59f305afd55edfcfb3b47bf38ddd44d92a706904f55a069a6a9fc9050825
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7654f748fb0cfc70d76718f03a235c5d4d13a908
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728026"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735459"
 ---
 # <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Dimensieleden van kostenelement toewijzen aan een gemeenschappelijke set van dimensieleden
 
@@ -33,12 +33,12 @@ Als uw bedrijf wereldwijd actief is en de wettelijke boekhoudvereisten naleeft, 
 ## <a name="map-cost-element-dimension-members-to-a-common-format"></a>Kostenelementdimensieleden toewijzen aan een gemeenschappelijke indeling
 In het volgende voorbeeld wordt getoond hoe u als kostencontroller een nieuwe kostenelementendimensie aanmaakt in Kostprijsboekhouding. Deze dimensie wijst kostenelementendimensieleden van het Amerikaanse rekeningschemastructuur en de Franse rekeningschemastructuur toe aan een gemeenschappelijke set kostenelementdimensieleden. U kunt vervolgens met de gemeenschappelijke set kostenelementendimensieleden kostengegevens van de twee rechtspersonen analyseren in een kostprijsboekhoudinggrootboek.
 
-| Bron: Amerikaans rekeningschema                                          | Bron: Frans rekeningschema                                          | Nieuwe gemeenschappelijke set kostenelementendimensieleden                        |
-|-----------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| Bron: Amerikaans rekeningschema          | Bron: Frans rekeningschema           | Nieuwe gemeenschappelijke set kostenelementendimensieleden                        |
+|------------------------------------|----------------------------------------------|-------------------------------------------------------------------------|
 | Geïmporteerde kostenelementendimensieleden van het Amerikaanse rekeningschema. | Geïmporteerde kostenelementendimensieleden van het Franse rekeningschema. | Toewijzing van de Franse en Amerikaanse kostenelementendimensieleden aan een gemeenschappelijke set |
-| 5001: Verkoop                                                           | 5001: Verkoop en advertenties                                               | 5000: Verkoop en advertenties                                             |
-| 5030: Advertenties                                                     | 6390: Voorraadinkoop\*                                                    | 7000: Schoonmaakkosten                                                 |
-| 7001: Schoonmaakkosten                                               | 7001: Reiskosten                                                      | 7001: Reiskosten                                                   |
+| 5001: Verkoop                   | 5001: Verkoop en advertenties                      | 5000: Verkoop en advertenties                               |
+| 5030: Advertenties             | 6390: Voorraadinkoop\*                          | 7000: Schoonmaakkosten                                   |
+| 7001: Schoonmaakkosten              | 7001: Reiskosten                     | 7001: Reiskosten                                                   |
 
 \*Het Franse kostenelementdimensielid Voorraadinkoop is niet toegewezen.
 

@@ -2,7 +2,7 @@
 title: Een Dynamics 365 Commerce-evaluatieomgeving configureren
 description: In dit onderwerp wordt uitgelegd hoe u een evaluatieomgeving van Microsoft Dynamics 365 Commerce configureert na inrichting.
 author: psimolin
-ms.date: 12/10/2021
+ms.date: 05/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: d9738700ca495d54c91ad91aa9c5a3d32c95a5a5
+ms.sourcegitcommit: 4a973ac0e7af0176270a8070a96a52293567dfbf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913722"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "8747632"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Een Dynamics 365 Commerce-evaluatieomgeving configureren
 
@@ -39,7 +39,9 @@ Nadat uw evaluatieomgeving van Commerce end-to-end is ingericht, moeten extra co
 1. Selecteer uw omgeving in de lijst.
 1. Klik op **Aanmelden bij omgeving** in de omgevingsgegevens rechts. U wordt doorgestuurd naar Commerce Headquarters.
 1. Zorg ervoor dat de rechtspersoon **USRT** is geselecteerd rechtsboven.
-2. Ga naar **Commerce-parameters > Configuratieparameters** en controleer of er een vermelding bestaat voor **ProductSearch.UseAzureSearch** die is ingesteld op **true**. Als de vermelding ontbreekt, kunt u deze toevoegen en **Kanaaldatabase > Volledige synchronisatie** uitvoeren voor de Commerce Scale Unit die is gekoppeld aan uw eCommerce-website.
+1. Ga naar **Commerce-parameters \> Configuratieparameters** en controleer of er een vermelding bestaat voor **ProductSearch.UseAzureSearch** die is ingesteld op **true**. Als de vermelding ontbreekt, kunt u deze toevoegen, de waarde instellen op **true** en **Kanaaldatabase \> Volledige synchronisatie** selecteren voor de Commerce Scale Unit die is gekoppeld aan uw e-commercewebsite.
+1. Ga naar **Detailhandel en commerce \> Instellingen van hoofdkantoor \> Commerce-planner \> Commerce-planner initialiseren**. Controleer in het fly-outmenu **Commerce-planner initialiseren** of de optie **Bestaande configuratie verwijderen** is ingesteld op **Ja** en selecteer vervolgens **OK**.
+1. Als u kanalen wilt toevoegen aan Commerce Scale Unit, gaat u naar **Detailhandel en commerce \> Instellingen van hoofdkantoor \> Commerce-planner \> Afzetkanaaldatabase** en selecteert u vervolgens in het linkerdeelvenster Commerce Scale Unit. Voeg op het sneltabblad **Detailhandelafzetkanaal** de afzetkanalen **AW online store**, **AW Business online store** en **Fabrikam extended online store** toe. U kunt ook detailhandels toevoegen als u POS gebruikt ( bijvoorbeeld **Seattle**, **San Francisco** en **San Jose**).
 
 Controleer tijdens het activiteiten na het inrichting in Commerce Headquarters of de rechtspersoon **USRT** altijd is geselecteerd.
 
@@ -85,6 +87,7 @@ Ga als volgt te werk om te beginnen met het instellen van uw evaluatiesite in Co
 1. Als standaardtaal selecteert u **en-us**.
 1. Laat de waarde van het veld **Pad** ongewijzigd.
 1. Selecteer **OK**. De lijst met pagina's op de site wordt weergegeven.
+1. Herhaal stap 2 en 7 voor de site **AdventureWorks** (die is toegewezen aan het afzetkanaal **AW online store**) en de site **AdventureWorks-bedrijf** (die is toegewezen aan het afzetkanaal **AW Business online store**). Als het veld **Pad** voor de Fabrikam-site leeg is, moet u paden voor de twee AdventureWorks-sites toevoegen (bijvoorbeeld aw en awbusiness).
 
 ## <a name="enable-jobs"></a>Taken inschakelen
 
@@ -149,6 +152,28 @@ Zie [Optionele functies voor een evaluatieomgeving van Commerce configureren](cp
 
 > [!NOTE]
 > Commerce-evaluatieomgevingen worden geleverd met een vooraf geladen Azure Active Directory (Azure AD) B2C-tenant voor demonstratiedoeleinden. Het configureren van uw eigen Azure AD B2C-tenant is niet vereist voor evaluatieomgevingen. Als u echter de evaluatieomgeving configureert om uw eigen Azure AD B2C-tenant te gebruiken, moet u ervoor zorgen dat u ``https://login.commerce.dynamics.com/_msdyn365/authresp`` als een antwoord-URL toevoegt in de Azure AD B2C-toepassing via de Azure Portal.
+
+## <a name="troubleshooting"></a>Problemen oplossen
+
+### <a name="site-builder-channel-list-is-empty-when-configuring-site"></a>Kanaallijst van Site Builder is leeg bij configureren van site
+
+Als er door Site Builder geen online winkelkanalen worden weergegeven, moet u er in Headquarters voor zorgen dat de kanalen zijn toegevoegd aan Commerce Scale Unit, zoals beschreven in de sectie [Voordat u begint](#before-you-start) hierboven. Voer ook **Commerce-planner initialiseren** uit met de waarde **Bestaande configuratiewaarde** ingesteld op **Ja**.  Nadat deze stappen zijn voltooid, voert u op de pagina **Kanaaldatabase** (**Retail en Commerce \> Instelling van hoofdkantoor \> Commerce-planner \> Kanaaldatabase**) de taak **9999-taak** uit voor Commerce Scale Unit.
+
+### <a name="color-swatches-are-not-rendering-on-the-category-page-but-are-rendering-on-the-product-details-page-pdp-page"></a>Kleurstalen worden niet op de categoriepagina weergegeven, maar op de pagina met productdetails
+
+Volg deze stappen om ervoor te zorgen dat de kleur- en formaatstalen opnieuw kunnen worden gedefinieerd.
+
+1. Ga in Headquarters naar **Retail en Commerce \> Kanaalinstellingen \> Kanaalcategorieën en productkenmerken**.
+1. Selecteer in het linkerdeelvenster het online winkelkanaal en selecteer vervolgens **Metagegevens van kenmerken instellen**.
+1. Stel de optie **Kenmerk in kanaal weergeven** in op **Ja**, stel de optie **Kan worden verfijnd** in op **Ja** en selecteer **Opslaan**. 
+1. Keer terug naar de pagina voor het online winkelkanaal en selecteer **Kanaalupdates publiceren**.
+1. Ga naar **Detailhandel en commerce \> Instelling van hoofdkantoor \> Commerce-planner \> Kanaaldatabase** en voer de taak **9999** voor Commerce Scale Unit uit.
+
+### <a name="business-features-dont-appear-to-be-turned-on-for-the-adventureworks-business-site"></a>Bedrijfsfuncties lijken niet te zijn ingeschakeld voor de bedrijfssite AdventureWorks
+
+Controleer in Headquarters of het online winkelkanaal is geconfigureerd met **Klanttype** ingesteld op **B2B**. Als **Klanttype** is ingesteld op **B2C**, moet er een nieuw kanaal worden gemaakt omdat het bestaande kanaal niet kan worden bewerkt. 
+
+Demonstratiegegevens in Commerce versie 10.0.26 en eerder bevatten een fout waarbij het kanaal **AW Business online store** onjuist was geconfigureerd. Als oplossing moet een nieuw kanaal met dezelfde instellingen en configuraties worden gemaakt, behalve voor **Klanttype**, dat moet worden ingesteld op **B2B**.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

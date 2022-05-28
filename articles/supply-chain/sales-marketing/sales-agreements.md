@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14f76e06f7265a4dc1837a66171d3db13bc2e580
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c36ace4fe61d4f3add7750c66594c0f1060f8127
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982504"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694363"
 ---
 # <a name="sales-agreements-overview"></a>Overzicht van Verkoopovereenkomsten
 
@@ -36,7 +36,8 @@ De geldigheidsperiode van een verkoopovereenkomst wordt bepaald door de velden *
 
 U kunt een verkooporder direct van een verkoopovereenkomst maken door de actie **Vrijgaveorder** te gebruiken. Als alternatief kunt u een geldige verkoopovereenkomst selecteren wanneer u orders aanneemt (zie de sectie "Verkoopovereenkomsten toepassen in het bestelproces" van dit artikel).  
 
-> [Opmerking!] In eerdere versies werden verkoopovereenkomsten afroeporders genoemd.
+> [!NOTE] 
+> In eerdere versies werden verkoopovereenkomsten afroeporders genoemd.
 
 ## <a name="commitment-types"></a>Toezeggingstypen
 Elke regel in een verkoopovereenkomst staat voor een toezegging om iets te verkopen. In het algemeen zijn er twee soorten toezegging:

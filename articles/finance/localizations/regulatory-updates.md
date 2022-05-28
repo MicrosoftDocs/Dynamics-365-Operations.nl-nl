@@ -2,7 +2,7 @@
 title: Wettelijk voorgeschreven updates
 description: Dit onderwerp bevat een lijst van geplande updates en vrijgegeven reglementaire updates voor Microsoft Microsoft Dynamics 365 Finance.
 author: VStamberg
-ms.date: 01/20/2022
+ms.date: 04/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 734a4abf4559d05b1f96bcfbde151b49bba8e827
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 4e9a74f814e6ae93fd5c12b05c4fbd00ad503fca
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649124"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711909"
 ---
 # <a name="regulatory-updates"></a>Wettelijk voorgeschreven updates
 
@@ -29,11 +29,11 @@ Wettelijk voorgeschreven updates zijn functies die worden geïmplementeerd ter o
 
 Microsoft streeft ernaar nieuwe wettelijke eisen zo vroeg mogelijk te implementeren. De werkelijke leveringsdatum is afhankelijk van de aankondigingsdatum van de wet, de beschikbaarheid van de vereistedetails van de lokale autoriteiten, de beschikbaarheid van de validatiehulpprogramma's en de grootte en complexiteit van de wijziging.
 
-We willen wettelijke updates leveren in service-updates met één versie die op tijd aan klanten worden vrijgegeven zodat ze de bijwerking kunnen uitvoeren en klaar zijn voor de uitvoeringsdatum (voor transactionele wettelijke updates) of voor de eerste verplichte rapportagedeadline (voor wettelijke updates met betrekking tot rapportage). Klanten en partners kunnen de nieuwe wettelijke updates bekijken in het Preview Early Adoption Program (PEAP).
+We willen wettelijke updates leveren in service-updates met één versie die op tijd aan klanten worden vrijgegeven zodat ze de bijwerking kunnen uitvoeren en klaar zijn voor de uitvoeringsdatum (voor transactionele wettelijke updates) of voor de eerste verplichte rapportagedeadline (voor wettelijke updates met betrekking tot rapportage). Klanten en partners kunnen de nieuwe wettelijke updates bekijken in het preview-pakket dat voor elke serviceupdate wordt meegeleverd.
 
 In geval van late aankondigingsdatums, late beschikbaarheid van vereistedetails van validatiehulpprogramma's of uitzonderlijk grote en complexe wijzigingen, is het misschien niet mogelijk om een wettelijke update beschikbaar te maken op de algemene beschikbaarheidsdatum van een maandelijkse update. In deze gevallen wordt de reglementaire update verzonden als hotfixes voor relevante beschikbare maandelijkse updates.
 
-Reglementaire updates die worden uitgebracht als onderdeel van de maandelijkse updates, worden alleen aangegeven door de releaseversie. Reglementaire updates die worden geleverd als hotfixes of als onderdeel van een release-preview, kunnen worden geïdentificeerd door respectievelijk de afkorting HF en PEAP. 
+Reglementaire updates die worden uitgebracht als onderdeel van de maandelijkse updates, worden alleen aangegeven door de releaseversie. Reglementaire updates die worden geleverd als hotfixes of als onderdeel van een release-preview, kunnen worden geïdentificeerd door respectievelijk de afkorting HF en Preview. 
 
 Raadpleeg de volgende tabel voor de meest recente plannen voor wettelijke updates.   
 

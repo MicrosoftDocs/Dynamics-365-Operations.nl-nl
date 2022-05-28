@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: PaymDay, PaymTerm, CashDisc
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 12c26cfedca3f3b0eec1a3b068184522f87ff8d103a41b81a0775bf5a35d0e03
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16d861294a80ddb44c78760b329e544bc4665130
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766952"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716966"
 ---
 # <a name="establish-customer-payment-terms"></a>Voorwaarden voor klantbetalingen vaststellen
 
@@ -26,7 +26,7 @@ ms.locfileid: "6766952"
 
 Deze procedure definieert een contantkorting en een instelling voor vervaldatum. Bij deze taakbegeleiding wordt het demobedrijf USMF gebruikt.
 
-1. Ga naar het **Navigatiedeelvenster > Modules > Klanten > Betalingsinstelling > Betalingsdagen**. De instelling voor de **Betalingstermijnen** wordt gedeeld voor **Klanten** en **Leveranciers**. Als u deze in de ene module definieert, komen zij tevens beschikbaar in de andere module. Voor deze taakhandleiding worden alle betalingstermijnen ingesteld onder **Klanten**.
+1. Ga naar het **Navigatiedeelvenster > Modules > Klanten > Betalingsinstelling > Betalingsdagen**. De instelling voor de **Betalingstermijnen** wordt gedeeld voor **Klanten** en **Leveranciers**. Als u deze in de ene module definieert, komen zij tevens beschikbaar in de andere module. Voor deze taakhandleiding worden alle betalingstermijnen onder **Klanten** ingesteld.
 2. Klik op **Nieuw**. Maak een betalingsdag als uw betalingstermijnen een bepaalde dag van de week vereisen (Maandag, Dinsdag enzovoort) of een specifieke datum van de maand (vijfde, tiende enzovoort). 
 3. Typ een id in het veld **Betalingsdag**.
 4. Voer in het veld **Beschrijving** een omschrijving van de betalingsdag in.

@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7ce30b64bc7c3889347bec94186614bd6cc337f4
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: 79747d0c5c4265315d1757352dfecef09c469dd8
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625357"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710858"
 ---
 # <a name="provision-human-resources"></a>Human Resources inrichten
 
@@ -144,7 +143,7 @@ Gebruik de volgende richtlijnen bij het bepalen in welke Power Apps-omgeving u H
 6. Functionaliteit voor twee keer wegschrijven voor het integreren van Human Resources-data met de Power Apps-omgeving kan alleen worden gebruikt als de optie **Dynamics 365-apps inschakelen** is ingeschakeld voor de omgeving. Zie de [startpagina van Twee keer wegschrijven](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md) voor meer informatie over twee keer wegschrijven.
 
     > [!NOTE]
-    > De optie **Dynamics 365-apps inschakelen** moet worden geselecteerd op het moment dat de Power Apps-omgeving wordt gemaakt. Als de optie niet wordt geselecteerd tijdens de inrichting, kunt u geen twee keer wegschrijven gebruiken om data te integreren tussen Dynamics 365 Human Resources en de Power Apps-omgeving of kunt u geen Dynamics 365-apps installeren in de omgeving zoals Dynamics 365 Sales en Field Service. Deze optie is niet omkeerbaar. Voor meer informatie zie [Enkele belangrijke overwegingen bij het maken van een nieuwe omgeving](//power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) op de documentatiesite van Power Platform.
+    > De optie **Dynamics 365-apps inschakelen** moet worden geselecteerd op het moment dat de Power Apps-omgeving wordt gemaakt. Als de optie niet wordt geselecteerd tijdens de inrichting, kunt u geen twee keer wegschrijven gebruiken om data te integreren tussen Dynamics 365 Human Resources en de Power Apps-omgeving of kunt u geen Dynamics 365-apps installeren in de omgeving zoals Dynamics 365 Sales en Field Service. Deze optie is niet omkeerbaar. Voor meer informatie zie [Enkele belangrijke overwegingen bij het maken van een nieuwe omgeving](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) op de documentatiesite van Power Platform.
 
 7. Nadat u hebt vastgesteld welke omgeving de juiste is om te gebruiken, kunt u doorgaan met het inrichtingsproces. 
 

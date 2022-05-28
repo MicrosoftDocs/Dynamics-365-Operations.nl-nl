@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c46ac3324a985810ede61072190014538d0b7ed36f7eedfc387468619cc88cb2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ed1db707cf6aed7c9def76ebbbdef7032b8776b6
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737012"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735285"
 ---
 # <a name="specify-the-cross-rate"></a>De indirecte wisselkoers opgeven
 
 [!include [banner](../includes/banner.md)]
 
-In dit hoofdstuk wordt het doel van een breed tarief uitgelegd en hoe dit brede tarief ingesteld kan worden bij het doen van een betaling via een factuur. Gebruik een breed tarief als alle van de volgende criteria van toepassing zijn: 
+In dit hoofdstuk wordt het doel van een breed tarief uitgelegd en hoe dit brede tarief ingesteld kan worden bij het doen van een betaling via een factuur. Gebruik een breed tarief als de volgende criteria van toepassing zijn: 
 -   U vereffent een betaling met een factuur. 
 -   De valuta´s van de betalingsregel en de factuurregel zijn verschillend. 
 -   Geen van beide valuta´s is de valuta voor de boekhouding. 

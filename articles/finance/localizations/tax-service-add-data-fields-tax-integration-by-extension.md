@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 79b51812eac354072ebf2a0ef6fe8d39610c6385
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 64c68ef6804297f86b5d9dc1933b0c16a0d42aae
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649096"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695383"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Gegevensvelden in de belastingintegratie toevoegen met extensies
 
@@ -383,7 +382,7 @@ Om het project te bouwen, voegt u de volgende referentiemodellen toe aan de mode
 
 Nadat u de vorige stappen hebt voltooid, kunt u de wijzigingen valideren.
 
-1. Ga in Finance naar **Leveranciers** en voeg **&debug=vs%2CconfirmExit&** toe aan de URL. Bijvoorbeeld https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&. De laatste **&** is essentieel.
+1. Ga in Finance naar **Leveranciers** en voeg **&debug=vs%2CconfirmExit&** toe aan de URL. Bijvoorbeeld `https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&`. De laatste **&** is essentieel.
 2. Open de pagina **Inkooporder** en selecteer **Nieuw** om een inkooporder te maken.
 3. Stel de waarde voor het aangepaste veld in en selecteer vervolgens **Btw**. Een probleemoplossingsbestand met het voorvoegsel **TaxServiceTroubleshootingLog** wordt automatisch gedownload. Dit bestand bevat de transactiegegevens die zijn geboekt naar de btw-berekeningsservice. 
 4. Controleer of het toegevoegde aangepaste veld aanwezig is in de sectie **JSON voor invoer voor berekening van btw-service** en of de waarde juist is. Als de waarde niet correct is, controleert u de stappen in dit document nogmaals.
