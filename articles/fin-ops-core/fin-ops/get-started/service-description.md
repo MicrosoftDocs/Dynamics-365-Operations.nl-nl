@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: cd033cfc3df21ddac5572aa70c18db5ffe26f54e
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: 26b2821f33ea23dde1fda1d461baa5de1b4f9efc
+ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656798"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740647"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Serviceomschrijving voor apps voor financiën en bedrijfsactiviteiten
 
@@ -265,7 +265,7 @@ De tenantbeheerder van de klant heeft toegang tot productie-exemplaren of niet-p
 |---|---|---|
 | **Niet-productie**<br>Sandbox van niveau 1 | Een niet-productieomgeving die door klanten wordt geïmplementeerd voor ontwikkelings-, demonstratie- of trainingsdoeleinden. | Een sandbox van niveau 1 (ook wel een cloud-hostomgeving genoemd) is een door de klant beheerde VM die wordt geïmplementeerd in het Azure-abonnement van de klant vanuit LCS. Omdat het een VM is in het Abonnement op Azure van de klant, heeft de klant volledige beheertoegang tot de omgeving via Extern bureaublad. |
 | **Niet-productie**<br>Tier 2 (of hoger) sandbox | Een niet-productieomgeving die door klanten wordt geïmplementeerd voor acceptatietests voor gebruikers, integratietests, training, fasering of andere scenario's vóór de productie. | Tier 2 en hogere sandboxes worden geïmplementeerd in het SaaS-abonnement voor Finance and Operations. Toegang tot Azure SQL-databases die aan de niet-productieomgeving zijn gekoppeld, wordt verleend via [just-in-time toegang](../../dev-itpro/database/database-just-in-time-jit-access.md). Toegang tot extern bureaublad is niet beschikbaar. |
-| **Productie** | Een productieomgeving wordt geïmplementeerd wanneer het project gereed is [voor eerste go-live](/imp-lifecycle/environment-planning.md#production-system-readiness). | Productieomgevingen worden geïmplementeerd in het SaaS-abonnement. Alle toegang is via de browser, service-eindpunten of LCS. |
+| **Productie** | Een productieomgeving wordt geïmplementeerd wanneer het project gereed is [voor eerste go-live](../imp-lifecycle/environment-planning.md#production-system-readiness). | Productieomgevingen worden geïmplementeerd in het SaaS-abonnement. Alle toegang is via de browser, service-eindpunten of LCS. |
 
 ### <a name="microsoft-administrative-access"></a>Microsoft-beheerderstoegang
 
@@ -286,7 +286,7 @@ Microsoft heeft geïnvesteerd in een uitgebreide toolset om de productie-exempla
 |---|---|
 | <ul><li>De beschikbaarheid van de service controleren.</li><li>Voortdurend bewaken en waarschuwen via gezondheidsstatistieken en waakhonden voor kritieke componenten zoals Application Object Server (AOS), Batch, Data Import/Export Framework (DIXF), Commerce en Management Reporter.</li><li>Controleren op prestatieverbetering die wordt veroorzaakt door infrastructuurservices (zoals Azure Active Directory \[Azure AD\] en Azure SQL).</li><li>Als Microsoft vaststelt dat een enkel proces of batchtaak afwijkingen veroorzaakt, wordt dat proces of die taak beëindigd na communicatie met de klant.</li></ul> | <ul><li>Wijzigingen in toepassingsconfiguraties en extensies controleren die kunnen leiden tot functionele problemen en prestatieproblemen.</li><li>Toepassingsfouten moeten worden gecontroleerd door gebruik te maken van de controleprogramma's. Gebruik deze functies om een diagnose te maken van door de gebruiker gerapporteerde prestatieafwijkingen.</li><li>Microsoft informeren als er wordt verwacht dat er belasting op het systeem wordt geladen boven het verwachte piekgebruik.</li><li>Als de toepasselijke service niet beschikbaar is in het productie-exemplaar, kan de klant LCS gebruiken om een [productie-uitval](../../dev-itpro/lifecycle-services/report-production-outage.md) te rapporteren.</li></ul> |
 
-Door online ondersteuningsverzoeken in te dienen, via LCS, stellen klanten Microsoft in staat om snelle en diepgaande technische expertise op de meest effectieve en efficiënte manier te leveren. Hoewel er een telefoonoptie beschikbaar is, moet u deze alleen gebruiken als de online optie niet beschikbaar is. Zie [Ondersteuning via telefoon](/power-platform/admin/support-overview.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json#is-there-a-phone-number-i-can-call-to-contact-support) voor meer informatie.
+Door online ondersteuningsverzoeken in te dienen, via LCS, stellen klanten Microsoft in staat om snelle en diepgaande technische expertise op de meest effectieve en efficiënte manier te leveren. Hoewel er een telefoonoptie beschikbaar is, moet u deze alleen gebruiken als de online optie niet beschikbaar is. Zie [Ondersteuning via telefoon](/power-platform/admin/support-overview?toc=%2Fdynamics365%2Ffin-ops-core%2Fdev-itpro%2Ftoc.json&bc=%2Fdynamics365%2Fbreadcrumb%2Ftoc.json#is-there-a-phone-number-i-can-call-to-contact-support) voor meer informatie.
 
 ## <a name="incident-management"></a>Incidenten beheren
 

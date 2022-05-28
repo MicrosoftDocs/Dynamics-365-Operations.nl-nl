@@ -1,7 +1,7 @@
 ---
 title: Samenwerking met leveranciers instellen en onderhouden
 description: In dit onderwerp wordt uitgelegd hoe u leverancierssamenwerking instelt voor Dynamics 365 Supply Chain Management. Daarnaast wordt uitgelegd hoe u nieuwe gebruikers voor leverancierssamenwerking kunt inrichten en de beveiligingsrollen voor deze gebruikers kunt beheren.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 12/03/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 220774
 ms.assetid: 69d05e8b-7dc2-48ea-bc24-bea9ac963579
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b635255fffa6fd3c6612cd248dc692df204aa76d
-ms.sourcegitcommit: 614d79cba238e466d445767a7d0a012e785a9861
+ms.openlocfilehash: 4b59513d86426d3c1bfd759b9aabc331e58d5423
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7651969"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677557"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>Samenwerking met leveranciers instellen en onderhouden
 
@@ -31,7 +31,7 @@ De interface voor leverancierssamenwerking biedt gebruikers die externe leveranc
 In dit onderwerp wordt uitgelegd hoe u leverancierssamenwerking instelt voor Dynamics 365 Supply Chain Management. Daarnaast wordt uitgelegd hoe u een werkstroom kunt instellen om nieuwe gebruikers voor leverancierssamenwerking in te richten en hoe u de beveiligingsrollen voor deze gebruikers kunt beheren.
 
 > [!NOTE]
-> De informatie over het instellen van beveiligingsrollen voor leverancierssamenwerking is alleen van toepassing op de huidige versie van Finance and Operations. In Microsoft Dynamics AX 7.0 (februari 2016) en Microsoft Dynamics AX toepassingsversie 7.0.1 (mei 2016) werkt u met leveranciers samen via de module **Leveranciersportal**. Informatie over gebruikersmachtigingen voor de leveranciersportal in Microsoft Dynamics AX vindt u in [Gebruikersbeveiliging leveranciersportal](configure-security-vendor-portal-users.md).
+> De informatie over het instellen van beveiligingsrollen voor leverancierssamenwerking is alleen van toepassing op de huidige versie van Finance + Operations. In Microsoft Dynamics AX 7.0 (februari 2016) en Microsoft Dynamics AX toepassingsversie 7.0.1 (mei 2016) werkt u met leveranciers samen via de module **Leveranciersportal**. Informatie over gebruikersmachtigingen voor de leveranciersportal in Microsoft Dynamics AX vindt u in [Gebruikersbeveiliging leveranciersportal](configure-security-vendor-portal-users.md).
 
 ## <a name="set-up-vendor-collaboration-security-roles"></a>Beveiligingsrollen voor leverancierssamenwerking instellen
 

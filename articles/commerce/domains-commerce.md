@@ -2,7 +2,7 @@
 title: Domeinen in Dynamics 365 Commerce
 description: In dit onderwerp wordt beschreven hoe domeinen worden verwerkt in Microsoft Dynamics 365 Commerce.
 author: BrShoo
-ms.date: 03/17/2021
+ms.date: 05/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bf96c47b8f5e940ffdd9241c3bdda4162a3101c42004c58c431f135f11c39d14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aab5e983b42aea7d8eb4f198f033634d4663f278
+ms.sourcegitcommit: 7181a022739d6107a75d84546c3379c23f722034
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733986"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737341"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domeinen in Dynamics 365 Commerce
 
@@ -28,6 +28,9 @@ ms.locfileid: "6733986"
 In dit onderwerp wordt beschreven hoe domeinen worden verwerkt in Microsoft Dynamics 365 Commerce.
 
 Domeinen zijn webadressen die worden gebruikt om te navigeren naar Dynamics 365 Commerce-sites in een webbrowser. U beheert het beheer van uw domein met een gekozen DNS-provider (Domain Name Server). In Dynamics 365 Commerce Site Builder wordt naar domeinen verwezen om te coördineren hoe een site wordt geopend wanneer deze wordt gepubliceerd. In dit onderwerp wordt beschreven hoe domeinen worden verwerkt en gebruikt in de levenscyclus van de ontwikkeling en lancering van de Commerce-site.
+
+> [!NOTE]
+> Vanaf 6 mei 2022 worden alle omgevingen gemaakt in Dynamics 365 Commerce ingericht met het domein `.dynamics365commerce.ms`, dat het eerdere patroon vervangt van `.commerce.dynamics.com` vervangt. Bestaande omgevingen ingericht met het domein `.commerce.dynamics.com` blijven werken.
 
 ## <a name="provisioning-and-supported-host-names"></a>Inrichten en ondersteunde hostnamen
 
@@ -44,7 +47,7 @@ U kunt een serviceverzoek maken om extra domeinen aan een omgeving toe te voegen
 
 ## <a name="commerce-generated-urls"></a>Door Commerce gegenereerde URL's
 
-Bij het inrichten van een Dynamics 365 Commerce e-Commerce-omgeving genereert Commerce een URL die het werkadres van de omgeving is. Naar deze URL wordt verwezen in de koppeling naar de e-Commerce-site die wordt weergegeven in LCS nadat de omgeving is ingericht. Een door Commerce gegenereerde URL heeft de indeling `https://<e-commerce tenant name>.commerce.dynamics.com`, waarbij de tenantnaam van e-Commerce de naam is die is ingevoerd in LCS voor de Commerce-omgeving.
+Bij het inrichten van een Dynamics 365 Commerce e-Commerce-omgeving genereert Commerce een URL die het werkadres van de omgeving is. Naar deze URL wordt verwezen in de koppeling naar de e-Commerce-site die wordt weergegeven in LCS nadat de omgeving is ingericht. Een door Commerce gegenereerde URL heeft de indeling `https://<e-commerce tenant name>.dynamics365commerce.ms`, waarbij de tenantnaam van e-Commerce de naam is die is ingevoerd in LCS voor de Commerce-omgeving.
 
 U kunt ook hostnamen van productiesites in een sandbox-omgeving gebruiken. Deze optie is ideaal wanneer u een site van een sandbox-omgeving naar productie wilt kopiëren.
 
@@ -67,11 +70,11 @@ U kunt het vak **Pad** leeg laten of u kunt een extra padreeks toevoegen die wor
 
 Als u bijvoorbeeld in Site Builder een site met de naam fabrikam in een e-Commerce-tenant met de naam xyz hebt en als u de site instelt met een leeg pad, kunt u de gepubliceerde site-inhoud in een webbrowser openen door rechtstreeks naar de door Commerce gegenereerde basis-URL te gaan:
 
-`https://xyz.commerce.dynamics.com`
+`https://xyz.dynamics365commerce.ms`
 
 Als u tijdens de installatie van dezelfde site een pad naar fabrikam hebt toegevoegd, kunt u de gepubliceerde site-inhoud ook in een webbrowser openen met behulp van de volgende URL:
 
-`https://xyz.commerce.dynamics.com/fabrikam`
+`https://xyz.dynamics365commerce.ms/fabrikam`
 
 ## <a name="pages-and-urls"></a>Pagina's en URL's
 
@@ -92,16 +95,16 @@ De ondersteunde waarden voor hostnamen zijn beschikbaar om te worden gekoppeld a
 Wanneer u met sites werkt in Site Builder en u twee locaties met twee verschillende domeinen hebt ingesteld, kunt u het kenmerk **?domain=** toevoegen aan uw werkende URL om toegang te krijgen tot de gepubliceerde site-inhoud in een browser.
 
 Stel dat de omgeving xyz is ingericht en er twee sites zijn gemaakt en gekoppeld in Site Builder: een met het domein `www.fabrikam.com` en de andere met het domein `www.constoso.com`. Elke site is ingesteld met een leeg pad. Deze twee sites kunnen dan als volgt worden geopend in een webbrowser met behulp van het kenmerk **?domain=**
-- `https://xyz.commerce.dynamics.com?domain=www.fabrikam.com`
-- `https://xyz.commerce.dynamics.com?domain=www.contoso.com`
+- `https://xyz.dynamics365commerce.ms?domain=www.fabrikam.com`
+- `https://xyz.dynamics365commerce.ms?domain=www.contoso.com`
 
-Wanneer geen domeinquerytekenreeks is opgegeven in een omgeving met meerdere domeinen, gebruikt Commerce het eerste domein dat u hebt opgegeven. Als het pad fabrikam bijvoorbeeld als eerste is opgegeven tijdens het instellen van de site, kan `https://xyz.commerce.dynamics.com` worden gebruikt om toegang te krijgen tot de gepubliceerde site-inhoudssite voor `www.fabrikam.com`.
+Wanneer geen domeinquerytekenreeks is opgegeven in een omgeving met meerdere domeinen, gebruikt Commerce het eerste domein dat u hebt opgegeven. Als het pad fabrikam bijvoorbeeld als eerste is opgegeven tijdens het instellen van de site, kan `https://xyz.dynamics365commerce.ms` worden gebruikt om toegang te krijgen tot de gepubliceerde site-inhoudssite voor `www.fabrikam.com`.
 
 ## <a name="traffic-forwarding-in-production"></a>Verkeer doorsturen in productie
 
-U kunt meerdere domeinen simuleren met behulp van parameters voor domeinquerytekenreeksen op het eindpunt commerce.dynamics.com zelf. Wanneer u live moet gaan in productie, moet u het verkeer voor uw aangepaste domein echter doorsturen naar het eindpunt `<e-commerce tenant name>.commerce.dynamics.com`.
+U kunt meerdere domeinen simuleren met behulp van parameters voor domeinquerytekenreeksen op het eindpunt commerce.dynamics.com zelf. Wanneer u live moet gaan in productie, moet u het verkeer voor uw aangepaste domein echter doorsturen naar het eindpunt `<e-commerce tenant name>.dynamics365commerce.ms`.
 
-Het eindpunt `<e-commerce tenant name>.commerce.dynamics.com` ondersteunt geen aangepaste SSL's (Secure Sockets Layers), dus u moet aangepaste domeinen instellen met behulp van een Front Door Service of een CDN (Content Delivery Network). 
+Het eindpunt `<e-commerce tenant name>.dynamics365commerce.ms` ondersteunt geen aangepaste SSL's (Secure Sockets Layers), dus u moet aangepaste domeinen instellen met behulp van een Front Door Service of een CDN (Content Delivery Network). 
 
 Als u aangepaste domeinen wilt instellen met een Front Door Service of CDN, hebt u twee mogelijkheden:
 

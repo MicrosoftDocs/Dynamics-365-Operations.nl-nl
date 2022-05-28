@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 511d875baed029df9083da36baf6c48ca4b7abf866ae569038b554bf594473c8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 38b7371ab668eb76801fbe7f15894609a846bbd8
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734422"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687664"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>Onderhoudsmedewerkers van voorkeur instellen
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 Tijdens de planning van werkorders kunt u een voorkeur instellen met betrekking tot welke onderhoudsmedewerker of mederwerkersgroep u wilt toewijzen om de werkorder te voltooien. Het gebruik van deze functionaliteit is optioneel, maar het kan u helpen om een keuze te maken voor de meest gekwalificeerde onderhoudsmedewerker om een taak te voltooien, op basis van vaardigheden en competenties van medewerkers. Er worden alleen onderhoudsmedewerkers gepland die beschikbaar zijn op de planningstijd. Als een voorkeursinstelling voor een onderhoudsmedewerker tijdens de planning overeenkomt met een werkorder, maar de onderhoudsmedewerker al is toegewezen aan andere taken, wordt de werkorder gepland voor een andere, beschikbare onderhoudsmedewerker.
 
@@ -51,13 +49,15 @@ Hoe meer selecties u voor dezelfde record maakt, hoe specifieker uw instellingen
 
 3. Maak eerst een 'standaard'onderhoudsmedewerker of -medewerkersgroep. Dit betekent dat u alleen een selectie maakt in het veld **Onderhoudsmedewerkergroep van voorkeur** of **Onderhoudsmedewerkers van voorkeur**. In onderstaande schermafbeelding ziet u een voorbeeld in de eerste record waarin Aanvragen is geselecteerd als de **Voorkeursonderhoudsmedewerkersgroep**.
 
-    [!NOTE] De standaardinstellingen worden gebruikt tijdens de planning van de werkorder als er geen andere, specifiekere combinatie overeenkomt met de inhoud van de werkorder.
+    > [!NOTE]
+    > De standaardinstellingen worden gebruikt tijdens de planning van de werkorder als er geen andere, specifiekere combinatie overeenkomt met de inhoud van de werkorder.
 
 4. Herhaal stap 2 om een nieuwe record te maken. Maak de vereiste selecties, afhankelijk van het detailniveau voor de medewerker of medewerkersgroep van voorkeur. 
 
     *Voorbeeld*: in onderstaande schermafbeelding is in de zesde record de onderhoudsmedewerker Shawn Richardson geselecteerd als voorkeursmedewerker. Hij wordt tijdens de planning van een werkorder met het activum CH-BP1-03-02 en het onderhoudstaaktype Beoordeling van faciliteit automatisch geselecteerd als hij op de geplande tijd beschikbaar is.
 
-    [!NOTE] Wanneer er een onderhoudsmedewerker van voorkeur wordt geselecteerd tijdens de planning van de werkorder, doorloopt Activabeheer alle records met **onderhoudsmedewerkers van voorkeur** om deze op een mogelijke overeenkomst te controleren, waarbij altijd de meest specifieke combinatie eerst wordt gecontroleerd. Als er geen overeenkomst wordt gevonden, wordt de standaardrecord met een selectie in het veld **Onderhoudsmedewerkergroep van voorkeur** of **Onderhoudsmedewerkers van voorkeur** gebruikt.
+    > [!NOTE]
+    > Wanneer er een onderhoudsmedewerker van voorkeur wordt geselecteerd tijdens de planning van de werkorder, doorloopt Activabeheer alle records met **onderhoudsmedewerkers van voorkeur** om deze op een mogelijke overeenkomst te controleren, waarbij altijd de meest specifieke combinatie eerst wordt gecontroleerd. Als er geen overeenkomst wordt gevonden, wordt de standaardrecord met een selectie in het veld **Onderhoudsmedewerkergroep van voorkeur** of **Onderhoudsmedewerkers van voorkeur** gebruikt.
 
 ![Figuur 1.](media/02-work-order-scheduling.png)
 

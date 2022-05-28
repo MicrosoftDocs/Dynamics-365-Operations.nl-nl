@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMMobileCostObjectOverviewDetailsCurrentPeriod, CAMMobileCostObjectList, CAMMobileCostObjectOverviewDetailsPreviousPeriod, CAMMobileCostObjectOverview, CAMMobileCostObjectOverviewDetailsYearToDate, CAMMobileCostControlWorkspaceConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 267114
 ms.assetid: 612f2988-b2b9-420d-9825-40b99dc0e204
 ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: cd86fdf640e59885e5e8aea841dc1c1c9604825b0f18d3b741c5a2777f8e9ff8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1f5e0314678758849a787e6b3f7a67391c701046
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728788"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734046"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>Mobiel werkgebied voor kostenbeheer
 
@@ -75,7 +75,7 @@ Het mobiele werkgebied **Kostenbeheer** bevat de volgende acties, weergaven en k
 ## <a name="prerequisites"></a>Vereisten
 De vereisten verschillen, afhankelijk van de versie van Microsoft Dynamics 365 die voor uw organisatie is geïmplementeerd.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-finance"></a>Vereisten als u Microsoft Dynamics 365 Finance gebruikt
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-finance"></a>Vereisten als u Microsoft Microsoft Dynamics 365 Finance gebruikt
 Als Finance is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Kostenbeheer** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Vereisten als u versie 1611 met platformupdate 3 of hoger gebruikt
@@ -96,7 +96,7 @@ Als versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmpleme
 
 <td>KB 4013633 is een X++-update of metagegevenshotfix die het mobiele werkgebied <strong>Kostenbeheer</strong> bevat. Uw systeembeheerder moet de volgende stappen uitvoeren voor het implementeren van KB 4013633.
 <ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Metagegevens-hotfix downloaden uit  Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Metagegevens-hotfix downloaden uit Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
 <li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">De metagegevenshotfix installeren</a>.</li>
 <li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Een implementeerbaar pakket maken</a> dat de ApplicationSuite en <strong>SCMMobile</strong>-modellen bevat en het implementeerbare pakket vervolgens uploaden naar LCS.</li>
 <li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Het implementeerbare pakket toepassen</a></li>
@@ -113,7 +113,7 @@ Als versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmpleme
 
 
 ## <a name="download-and-install-the-mobile-app"></a>De mobiele app downloaden en installeren
-Download en installeer de mobiele Finance and Operations-app:
+Download en installeer de mobiele app van Finance and Operations:
 
 -   [Voor Android-telefoons](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Voor iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

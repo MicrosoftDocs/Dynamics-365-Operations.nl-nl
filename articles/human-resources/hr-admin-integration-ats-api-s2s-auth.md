@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-06-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d221e1a47dca85880fd683177ca95dd1b7766fb9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 350fb5a00b85f28fa8aef2ca50cf1f277b8f635e
+ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064917"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "8743536"
 ---
 # <a name="server-to-server-authentication-for-the-ats-integration-api"></a>Server-naar-server-verificatie voor de API voor ATS-integratie
 
@@ -89,7 +89,7 @@ Voor de nieuwe rol moet in elk geval de juiste toegang worden toegewezen aan de 
 
 De tweede stap is ervoor zorgen dat de toepassing de juiste machtigingen krijgt voor de gegevens in Human resources door deze te koppelen aan een gebruiker in de Human resources-toepassing. Voor een toepassingsgebruiker worden de oproepen van server naar server via virtuele Dataverse-tabellen uitgevoerd in de context van de identiteit van de gebruiker (app) in Dataverse die de actie aanroept. De virtuele tabeladapterservice zoekt vervolgens de gekoppelde gebruiker in Human resources en voert de query uit in de context van die gebruiker. Dit betekent dat een gebruiker moet worden gemaakt in Human resources met de juiste rollen die zijn toegewezen, zodat deze toegang heeft tot de gegevens die de integratietoepassing nodig heeft.
 
-Tevens moeten aan de Human resources-gebruiker de juiste machtigingen worden toegewezen voor de gegevens in Human resources. De rol **Wervingstoepassing** (HcmRecruitingIntegrator) is beschikbaar met bevoegdheden voor de primaire entiteiten die vereist zijn voor integratie met wervingsgegevens. Deze rol kan worden toegewezen aan de toepassingsgebruiker op de pagina **Gebruikers** om de juiste toegang tot de gegevens te verlenen. Zie [Beveiliging op basis van rollen](/fin-ops-core/dev-itpro/sysadmin/role-based-security) voor meer informatie over de beveiligingsrollen van Human resources.
+Tevens moeten aan de Human resources-gebruiker de juiste machtigingen worden toegewezen voor de gegevens in Human resources. De rol **Wervingstoepassing** (HcmRecruitingIntegrator) is beschikbaar met bevoegdheden voor de primaire entiteiten die vereist zijn voor integratie met wervingsgegevens. Deze rol kan worden toegewezen aan de toepassingsgebruiker op de pagina **Gebruikers** om de juiste toegang tot de gegevens te verlenen. Zie [Beveiliging op basis van rollen](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security) voor meer informatie over de beveiligingsrollen van Human resources.
 
 ### <a name="set-up-the-new-user-with-appropriate-permissions"></a>De nieuwe gebruiker instellen met de juiste machtigingen
 

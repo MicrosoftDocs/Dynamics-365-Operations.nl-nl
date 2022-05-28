@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschloma
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3c8584c33b4f77b6d1f5a4dc0d62208b76b3ffa3
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: d5ced2f2bc419f18431663273236d21546c5541b
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753965"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734452"
 ---
 # <a name="add-credit-management-information-for-customers"></a>Informatie over kredietbeheer voor klanten toevoegen
 
@@ -32,7 +32,7 @@ U kunt de klantgegevens toevoegen op het sneltabblad **Krediet en incasso's** va
 1. Stel de optie **Onbeperkte kredietlimiet** in op **Ja** als de klant niet moet worden beperkt door eventuele kredietlimiettests.
 2. Stel de optie **Uitsluiten van kredietbeheer** in op **Ja** als u de klant wilt uitsluiten van acties die normaal gesproken optreden tijdens kredietbeheerprocessen.
 3. Selecteer de klantkredietbeheergroep voor de klant.
-4. Als u de kredietlimiet in de valuta van de klant wilt berekenen, voert u in het veld **Kredietlimiet in valuta van de klant** de kredietlimiet van de klant in. De kredietlimiet in de bedrijfsvaluta wordt omgerekend met behulp van de wisselkoersen die zijn gedefinieerd door het wisselkoerstype voor de kredietlimiet, geselecteerd in de parameters voor kredietbeheer.
+4. Als u de kredietlimiet in de valuta van de klant wilt berekenen, voert u in het veld **Kredietlimiet in valuta van de klant** de kredietlimiet van de klant in. De kredietlimiet in de bedrijfsvaluta wordt omgerekend met behulp van de wisselkoersen die zijn gedefinieerd door het wisselkoerstype voor de kredietlimiet, geselecteerd in de **parameters voor kredietbeheer**.
 5. Voer in het veld **Laatste revisiedatum** de datum in waarop de kredietlimiet van de klant voor het laatst is gecontroleerd door een creditmanager.
 6. Voer in het veld **Volgende geplande revisiedatum** de datum in waarop een kredietcontrole en -update voor de klant is gepland.
 7. Voer in het veld **In aanmerking komende kredietlimiet** de hoogste kredietlimiet in die aan de klant kan worden toegewezen op basis van uw beoordeling van de kredietgeschiedenis van die klant. De in aanmerking komende kredietlimiet kan verschillen van de kredietlimiet die wordt weergegeven op het sneltabblad **Crediteringen en aanmaningen**.
@@ -46,7 +46,8 @@ U kunt de klantgegevens toevoegen op het sneltabblad **Krediet en incasso's** va
 15. Voer in het veld **Klant sinds** de datum in waarop de eerste transacties voor de klant zijn verwerkt. Deze informatie wordt gebruikt wanneer risicoscores worden gemaakt.
 16. Voer notities in die het kredietteam kan gebruiken om de kredietwaardigheid van de klant verder te evalueren.
 
-Een deel van de informatie die op de pagina **Klant** wordt weergegeven, wordt gemaakt door een ander proces:
+> [!Note] 
+> Een deel van de informatie die op de pagina **Klant** wordt weergegeven, wordt gemaakt door een ander proces:
 
 - Het veld **Vervaldatum kredietlimiet** toont de datum waarop de kredietlimiet vervalt. Als u dit veld niet instelt, vervalt de kredietlimiet van de klant niet.
 - Het veld **Datum kredietlimiet** toont de datum waarop de kredietlimiet is gemaakt. Dit veld wordt bijgewerkt wanneer de kredietlimiet wordt aangepast.

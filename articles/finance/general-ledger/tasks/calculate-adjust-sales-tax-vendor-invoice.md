@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendInvoice, VendTableLookup, TaxTmpWorkTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 648d94e895a4941f5f3148134130b3ffa693a9d57e0bb4e236f5d5fb33aca48f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7d4d6a23f6f58906730c5ce00c5fe06885aaa6da
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779807"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734684"
 ---
 # <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a>Btw op een leveranciersfactuur berekenen en corrigeren
 
@@ -26,7 +26,7 @@ ms.locfileid: "6779807"
 
 In dit onderwerp wordt uitgelegd hoe u de btw op een leveranciersfactuur aanpast. Als het oorspronkelijke brondocument verschillende btw-bedragen bevat, zoals berekend, kunt u die bedragen aanpassen voor het boeken. Bij deze taak wordt het demobedrijf DEMF gebruikt.
 
-1. Ga in het navigatiedeelvenster naar **Modules > Leveranciers > Facturen > Factuurjournaal**.
+1. Ga naar **Leveranciers > Facturen > Factuurjournaal**.
 2. Selecteer **Nieuw**.
 3. Selecteer in het veld **Naam** van de nieuwe rij een optie in het vervolgkeuzemenu.
 4. Selecteer **Regels** in het actievenster.

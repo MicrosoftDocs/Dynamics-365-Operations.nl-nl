@@ -1,6 +1,6 @@
 ---
 title: Een gedeeltelijke leverancierbetaling vereffenen en de definitieve betaling volledig vereffenen vóór de kortingsdatum
-description: Dit artikel begeleidt u door een scenario waarin meerdere gedeeltelijke betalingen worden gedaan voor een leveranciersfactuur en een contantkorting wordt genomen.
+description: Dit onderwerp begeleidt u door een scenario waarin meerdere gedeeltelijke betalingen worden gedaan voor een leveranciersfactuur en een contantkorting wordt genomen.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14431
 ms.assetid: 6b8e3420-b4c9-4e02-9588-598fe6d3df0d
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46d5025af229c9002967973a0d897708cd3d67dd7d22d887cc611c5c8213d2bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04b00c8407ea2fd7d1e4b58db47c392989a20577
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737060"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716238"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Een gedeeltelijke leverancierbetaling vereffenen en de definitieve betaling volledig vereffenen vóór de kortingsdatum
 
 [!include [banner](../includes/banner.md)]
 
-Dit artikel begeleidt u door een scenario waarin meerdere gedeeltelijke betalingen worden gedaan voor een leveranciersfactuur en een contantkorting wordt genomen.
+Dit onderwerp begeleidt u door een scenario waarin meerdere gedeeltelijke betalingen worden gedaan voor een leveranciersfactuur en een contantkorting wordt genomen.
 
 Fabrikam koopt goederen aan bij leverancier 3064. De leverancier geeft Fabrikam een contantkorting van 1 procent als de factuur wordt betaald binnen 14 dagen. Facturen moeten worden betaald binnen 30 dagen. De leverancier laat Fabrikam ook contantkortingen nemen op gedeeltelijke betalingen. De vereffeningparameters bevinden zich op de pagina **Parameters van module Leveranciers**. Op 25 juni voert April een factuur voor leverancier 3064 in van 1000,00.
 

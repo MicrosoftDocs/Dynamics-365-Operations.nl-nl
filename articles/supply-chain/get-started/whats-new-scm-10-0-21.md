@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ec7fcb97bd46551846ccee13b369a1b02a589688
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: cf38717ab3768249e3c9b988ee3893c5e539bcd0
+ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075294"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8739382"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.21 (oktober 2021)
 
@@ -130,7 +130,7 @@ De volgende Help-onderwerpen zijn onlangs toegevoegd of ingrijpend bijgewerkt. Z
 | Hoofdplanning | [Planhistorie en planningslogboeken weergeven](../master-planning/planning-optimization/plan-history-logs.md) |
 | Magazijnbeheer | [Verpakkingsstrategieën voor containers](../warehousing/container-packing-strategy-overview.md) |
 | Magazijnbeheer | [Voorbeeldscenario's voor cyclustelling](../warehousing/cycle-counting-scenarios.md) |
-| Magazijnbeheer | [Inkomende ASN's importeren via de V2-gegevensentiteit](../warehousing/import-asn-v2-data-entity.md) |
+| Magazijnbeheer | [Inkomende ASN's importeren via de V3-gegevensentiteit](../warehousing/import-asn-data-entity.md) |
 | Magazijnbeheer | [Oververzamelen voor verkooporders en overboekingsorders](../warehousing/over-picking-for-sales-and-transfer-orders.md) |
 | Magazijnbeheer | [Afdrukken van wavelabels plannen tijdens wave](../warehousing/configure-task-based-wave-label-printing.md) |
 | Magazijnbeheer | [Nieuwe of gewijzigde functies in de mobiele app Warehouse Management](../warehousing/whats-new-wma.md) |

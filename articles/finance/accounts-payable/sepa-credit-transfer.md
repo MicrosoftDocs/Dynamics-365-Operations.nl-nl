@@ -1,6 +1,6 @@
 ---
 title: Overzicht SEPA-kredietoverdracht
-description: Dit artikel geeft algemene informatie over ISO 20022-overschrijvingen, waaronder SEPA-overschrijvingen (Single euro Payments Area) en andere elektronische betalingen voor leveranciers. Een SEPA-kredietoverdracht is een specifiek type betaling in euro's van een persoon of bedrijf aan een andere persoon of bedrijf. In dit onderwerp wordt ook beschreven hoe u een kredietoverdrachtbetalingsbestand kunt instellen en verzenden.
+description: Dit onderwerp geeft algemene informatie over ISO 20022-overschrijvingen, waaronder SEPA-overschrijvingen (Single euro Payments Area) en andere elektronische betalingen voor leveranciers.
 author: sunfzam
 ms.date: 06/20/2017
 ms.topic: overview
@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "11124"
 - intro-internal
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc37dde8829abdd26a224adbd788538834f4d320
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f43c45aa4f22f5044e7c10329dafa76226970b3d
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984022"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734511"
 ---
 # <a name="sepa-credit-transfer-overview"></a>Overzicht SEPA-kredietoverdracht
 
 [!include [banner](../includes/banner.md)]
 
-Dit artikel geeft algemene informatie over ISO 20022-overschrijvingen, waaronder SEPA-overschrijvingen (Single euro Payments Area) en andere elektronische betalingen voor leveranciers. Een SEPA-kredietoverdracht is een specifiek type betaling in euro's van een persoon of bedrijf aan een andere persoon of bedrijf. In dit onderwerp wordt ook beschreven hoe u een kredietoverdrachtbetalingsbestand kunt instellen en verzenden.
+Dit onderwerp geeft algemene informatie over ISO 20022-overschrijvingen, waaronder SEPA-overschrijvingen (Single euro Payments Area) en andere elektronische betalingen voor leveranciers. Een SEPA-kredietoverdracht is een specifiek type betaling in euro's van een persoon of bedrijf aan een andere persoon of bedrijf. In dit onderwerp wordt ook beschreven hoe u een kredietoverdrachtbetalingsbestand kunt instellen en verzenden.
 
 ## <a name="what-is-a-credit-transfer-message"></a>Wat is een kredietoverdrachtsbericht?
 Het kredietoverdrachtbericht is een aanvraag die een initiërende partij (uw bedrijf) verzendt om fondsen van een eigen rekening naar een crediteur over te maken. Er zijn veel land- of regio-specifieke en bank-specifieke implementaties van kredietoverdrachtberichten. Enkele daarvan worden gebruikt in een bepaald land/regio en sommige worden standaarden. Een algemeen aanvaarde internationale standaard is ISO 20022 en het initiatiebericht, zoals kredietoverdracht. In de volgende afbeelding ziet u de relaties en dekking voor geselecteerde kredietoverdrachtberichten 
@@ -50,7 +50,7 @@ De EPC, die bestaat uit Europese banken, ontwikkelt commerciële en technische r
 Een SEPA-kredietoverdracht is een betaling van een persoon of bedrijf aan een andere persoon of bedrijf. De betalingen moeten in euro's zijn en moeten het Internationale Bankrekeningnummer (IBAN) en de BIC (Bank Identifier Code) voor beide partijen bevatten De BIC wordt ook wel SWIFT-code genoemd \[Society for Worldwide Interbank Financial Telecommunication SWIFT\]. Bovendien moeten transactiekosten worden gedeeld door de beide partijen. Voor kredietoverdrachten tussen partijen moeten XML-bestanden worden gebruikt die voldoen aan de ISO 20022 betalingsverwerkingsstandaarden en de XML-indeling voldoen, zoals opgegeven door de EPC.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>Hoe wordt een kredietoverdracht uitgevoerd?
-De indeling voor kredietoverdrachtbetaling voor Europese landen wordt uitgevoerd met behulp van de functionaliteit voor Elektronische Rapportage en Betalingsmethoden in Microsoft Dynamics 365 Finance. Enkele kredietoverdrachtindelingen die in andere regio's worden gebruikt, gebruiken nog het oude framework voor betalingen. Er zijn vele andere indelingen beschikbaar, waaronder twaalf ISO 20022-bestandsindelingen voor kredietoverdracht. Deze exportindelingen voldoen aan de XML-standaard ISO 20022 voor SEPA. Zij zijn bedoeld om betalingsoverschrijvingen in andere valuta dan euro te genereren, voor de landen/regio's waar ze worden gebruikt, en betalingen in euro zoals opgegeven in versie 8.2 van het SEPA Credit Transfer Scheme Rulebook dat de EPC uitgeeft. Voordat u kredietoverdrachten kunt uitvoeren, moet u contact opnemen met uw bank om software te krijgen die vereist is voor het uploaden van bestanden voor elektronisch bankieren. U kunt die software gebruiken om de XML-bestanden met betalingsopdrachten naar uw bank over te zetten.
+De kredietoverdrachtbetalingsindeling voor Europese landen/regio's wordt uitgevoerd met behulp van de functionaliteit voor Elektronische Rapportage en Betalingsmethoden in Microsoft Dynamics 365 Finance. Enkele kredietoverdrachtindelingen die in andere regio's worden gebruikt, gebruiken nog het oude framework voor betalingen. Er zijn vele andere indelingen beschikbaar, waaronder twaalf ISO 20022-bestandsindelingen voor kredietoverdracht. Deze exportindelingen voldoen aan de XML-standaard ISO 20022 voor SEPA. Zij zijn bedoeld om betalingsoverschrijvingen in andere valuta dan euro te genereren, voor de landen/regio's waar ze worden gebruikt, en betalingen in euro zoals opgegeven in versie 8.2 van het SEPA Credit Transfer Scheme Rulebook dat de EPC uitgeeft. Voordat u kredietoverdrachten kunt uitvoeren, moet u contact opnemen met uw bank om software te krijgen die vereist is voor het uploaden van bestanden voor elektronisch bankieren. U kunt die software gebruiken om de XML-bestanden met betalingsopdrachten naar uw bank over te zetten.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported"></a>Welke kredietoverdracht-indelingen worden momenteel ondersteund?
 U moet altijd naar de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS) gaan en de meest recente lijst weergeven met beschikbare bestanden die het activumtype **GER-configuratie** hebben. In de volgende sectie, 'Wat moet ik instellen?' vindt u een koppeling naar het onderwerp met informatie over het maken van een LCS-opslagplaats voor het controleren van de beschikbare configuraties en het importeren van geselecteerde configuraties.

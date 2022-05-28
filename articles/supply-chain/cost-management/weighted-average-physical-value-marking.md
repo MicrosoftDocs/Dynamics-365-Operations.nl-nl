@@ -1,7 +1,7 @@
 ---
 title: Gewogen gemiddelde met fysieke waarde en markering
 description: Het gewogen gemiddelde is een voorraadmodel dat is gebaseerd op het gewogen-gemiddeldeprincipe, waarbij uitgiften vanuit de voorraad worden gewaardeerd op de gemiddelde waarde van de artikelen die in de voorraad worden ontvangen gedurende de voorraadafsluitingsperiode, plus eventuele voorhanden voorraad van de vorige periode.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 02/21/2022
 ms.topic: article
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
@@ -9,15 +9,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 65501
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c124716b70be837573506a738ef2034397f2bda
-ms.sourcegitcommit: addae271ddfc5a8b0721c23337f69916153db4cd
+ms.openlocfilehash: 41c80dcdc08432bb68478827c8763735e644aa4a
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/21/2022
-ms.locfileid: "8330221"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675258"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>Gewogen gemiddelde met fysieke waarde en markering
 

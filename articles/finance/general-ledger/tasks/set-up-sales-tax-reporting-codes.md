@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxReportCollection
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b7d12ffa90bde30518780d750e74d20db89f007044f8622480b8bd6e629e00dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ff5a5622fa63b6058b9e768f1fd1bc776a48962
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728740"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734834"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Btw-aangiftecodes instellen
 
 [!include [banner](../../includes/banner.md)]
 
-De btw-aangiftecodes verwijzen naar een veldnummer dat wordt vermeld in een btw-rapport. Deze worden gebruikt voor landspecifieke rapportindelingen. Ze worden ook gebruikt op het rapport met btw-betaling per code. In dat rapport worden btw-bedragen weergegeven voor een vereffeningsperiode die voor elke rapportagecode wordt samengevat. Nadat u de btw-aangiftecodes hebt gemaakt, kunt u naar deze codes verwijzen op de sneltabbladen Rapport instellen, die u kunt vinden op de pagina **Btw-code**. 
+De **btw-aangiftecodes** verwijzen naar een veldnummer dat wordt vermeld in een btw-rapport. Deze worden gebruikt voor landspecifieke rapportindelingen. Ze worden ook gebruikt op het rapport met btw-betaling per code. In dat rapport worden btw-bedragen weergegeven voor een vereffeningsperiode die voor elke rapportagecode wordt samengevat. Nadat u de **btw-aangiftecodes** hebt gemaakt, kunt u naar deze codes verwijzen op de sneltabbladen **Rapport instellen**, die u kunt vinden op de pagina **Btw-code**. 
 
 Bij deze registratie wordt het demobedrijf DEMF gebruikt.
 

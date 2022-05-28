@@ -1,7 +1,7 @@
 ---
 title: Voordat u koopt
 description: Stapsgewijze instructies om te gebruiken wanneer u het kopen van Dynamics 365 Finance, Dynamics 365 Supply Chain Management of Dynamics 365 Commerce overweegt.
-author: ShellyBakke
+author: sericks007
 ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
@@ -10,29 +10,29 @@ audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.custom: 21761
 ms.search.region: Global
-ms.author: smiller
+ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f994acfb85e5bb7ccb9cbd3e6c0a0f3c4eec318a
-ms.sourcegitcommit: 34113bd588d53b9aed481da060a1c6738fca0eaf
+ms.openlocfilehash: 9c2f658fbf7fd4db38d572ff80e9d500b5548e0a
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "7874579"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713271"
 ---
-# <a name="before-you-buy"></a>Voordat u gaat kopen
+# <a name="before-you-buy"></a>Voordat u koopt
 
 [!include [banner](../includes/banner.md)]
 
-Nieuw bij Dynamics 365 Finance, Dynamics 365 Supply Chain Management of Dynamics 365 Commerce? We hebben stapsgewijze instructies opgesteld voor als u nog aan het evalueren bent of al klaar bent om tot aanschaf over te gaan.
+Onbekend met Dynamics 365 Finance, Dynamics 365 Supply Chain Management of Dynamics 365 Commerce? We hebben stapsgewijze instructies opgesteld voor als u nog aan het evalueren bent of al klaar bent om tot aanschaf over te gaan.
 
-## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Stap 1: Finance and Operations gratis uitproberen gedurende 30 dagen
+## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Stap één: probeer Finance and Operations gratis 30 dagen uit
 
-U kunt Dynamics 365 for Finance, Dynamics 365 Supply Chain Management of Dynamics 365 Commerce 30 dagen lang uitproberen via een eenvoudige e-aanmelding. De evaluatieversie van Finance and Operations-toepassingen bevat de taakhandleiding Aan de slag met stapsgewijze instructies waarmee u specifieke scenario's in actie kunt weergeven. Het product is beschikbaar voor het verkennen en uitvoeren van scenario's, maar kan niet worden aangepast. Demonstratiegegevens zijn opgenomen om het gebruik van het product te vereenvoudigen en de ervaring duidelijker te maken. Per e-mail ontvangt u 3 dagen vóór de afloop van de evaluatie een herinnering. Meer informatie vindt u op [Aanmelden voor preview-abonnementen](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
+U kunt Dynamics 365 for Finance, Dynamics 365 Supply Chain Management of Dynamics 365 Commerce 30 dagen lang uitproberen via een eenvoudige e-aanmelding. De evaluatieversie van apps voor financiën en bedrijfsactiviteiten bevat de taakhandleiding Aan de slag met stapsgewijze instructies waarmee u specifieke scenario's in actie kunt weergeven. Het product is beschikbaar voor het verkennen en uitvoeren van scenario's, maar kan niet worden aangepast. Demonstratiegegevens zijn opgenomen om het gebruik van het product te vereenvoudigen en de ervaring duidelijker te maken. Per e-mail ontvangt u 3 dagen vóór de afloop van de evaluatie een herinnering. Meer informatie vindt u op [Aanmelden voor preview-abonnementen](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Stap twee: Kies een optie voor implementatie
 
-U kunt nu Finance and Operations-toepassingen implementeren in de cloud of on-premises. Cloudimplementaties omvatten een ERP-service die volledig wordt beheerd door Microsoft, terwijl implementaties on-premises lokaal zijn geïmplementeerd in datacenter van een klant.
+U kunt nu apps voor financiën en bedrijfsactiviteiten implementeren in de cloud of on-premises. Cloudimplementaties omvatten een ERP-service die volledig wordt beheerd door Microsoft, terwijl implementaties on-premises lokaal zijn geïmplementeerd in datacenter van een klant.
 
 De volgende overwegingen moeten in acht worden genomen wanneer u on-premises kiest als implementatieoptie:
 
@@ -68,7 +68,7 @@ Werk samen met een partner om Finance and Operations on-premises aan te schaffen
 
 Als uw organisatie 250 of meer gebruikers van Dynamics 365 heeft, is een [volumelicentieovereenkomst](https://www.microsoft.com/Licensing/product-licensing/dynamics365) misschien interessant voor u.
 
-In volumelicenties zijn Finance and Operations-toepassingen beschikbaar via:
+Volumelicenties voor apps voor financiën en bedrijfsactiviteiten zijn beschikbaar via:
 
 - Enterprise-overeenkomst
 - Abonnement met Enterprise-overeenkomst

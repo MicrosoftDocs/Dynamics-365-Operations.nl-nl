@@ -1,6 +1,6 @@
 ---
-title: Overzicht van transitorische posten
-description: In dit artikel worden toerekeningen beschreven en wordt aangegeven hoe u deze instelt en transacties maakt.
+title: Overzicht van Transitorische posten
+description: In dit onderwerp worden toerekeningen beschreven en wordt aangegeven hoe u deze instelt en transacties maakt.
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: overview
@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerAccuralTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "14131"
 - intro-internal
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc3234c1a64155e1d0ad53cb7008d91847f7af7d
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 62b56e698d3d9eeec08824eb799d74a8c6792ea7
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985282"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735227"
 ---
-# <a name="accruals-overview"></a>Overzicht van transitorische posten
+# <a name="accruals-overview"></a>Overzicht van Transitorische posten
 
 [!include [banner](../includes/banner.md)]
 
-In dit artikel worden toerekeningen beschreven en wordt aangegeven hoe u deze instelt en transacties maakt.
+In dit onderwerp worden toerekeningen beschreven en wordt aangegeven hoe u deze instelt en transacties maakt.
 
 Transitorische posten worden gebruikt in periodetoerekeningsboekhouding om opbrengst bij te houden die wordt verantwoord in de periode waarin deze wordt verdiend en niet wanneer de betaling wordt ontvangen, en om onkosten (kosten) bij te houden die worden verantwoord wanneer ze worden gemaakt en niet wanneer de betaling wordt uitgevoerd.
 

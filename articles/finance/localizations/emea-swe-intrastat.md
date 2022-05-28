@@ -1,20 +1,20 @@
 ---
 title: Zweedse Intrastat
 description: Dit onderwerp bevat informatie over Intrastat-aangifte in Zweden.
-author: andosip
+author: anasyash
 ms.date: 8/24/2021
 ms.topic: article
 audience: Application User
-ms.reviewer: kfender
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: v-aosipov
+ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 152bfd24843867685b1d303484ed61ad98ec652a
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 1031b93950e44fe3b1b6254bf1503b4c09d6fd10
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486941"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727393"
 ---
 # <a name="swedish-intrastat"></a>Zweedse Intrastat
 
@@ -43,7 +43,7 @@ Meer informatie is te vinden in [ER-configuraties downloaden uit de Algemene ops
 
 ## <a name="set-up-foreign-trade-parameters"></a>Parameters voor buitenlandse handel instellen
 
-1. Ga in Microsoft Dynamics 365 Finance naar **Belasting** > **Instellingen** > **Parameters buitenlandse handel**.
+1. Ga in Microsoft Microsoft Dynamics 365 Finance naar **Belasting** > **Instellingen** > **Parameters buitenlandse handel**.
 2. Selecteer in het tabblad **Intrastat** in het sneltabblad **Elektronische rapportage** in het veld **Toewijzing bestandsindeling** de waarde **Intrastat (SE)**.
 3. Selecteer in het veld **Rapportindelingstoewijzing** de optie **Intrastat-rapport**.
 4. Selecteer op het sneltabblad **Hiërarchie van basisproductcodes** in het veld **Categoriehiërarchie** de optie **Intrastat**.

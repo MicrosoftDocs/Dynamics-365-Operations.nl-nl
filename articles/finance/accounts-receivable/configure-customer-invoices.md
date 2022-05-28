@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ffb2c42748678ae265a706a00db327a160cc9f5
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: 069ada071fe6a7d3e22ad6aa45e3c2f06a9f4b31
+ms.sourcegitcommit: 5a4b8ce4a7ae82c0ef22d2223c11c6b55f048cdd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392906"
+ms.lasthandoff: 05/14/2022
+ms.locfileid: "8756958"
 ---
 # <a name="create-a-customer-invoice"></a>Een klantfactuur maken
 
@@ -30,7 +30,7 @@ Een **klantfactuur voor een verkooporder** is een rekening die door een organisa
 
 Een **vrije-tekstfactuur** is niet gerelateerd aan een verkooporder. Deze factuur bevat orderregels met grootboekrekeningen, vrije-tekstomschrijvingen en verkoopbedragen die u invoert. U kunt geen artikelnummer invoeren op dit type factuur. U moet de betreffende btw-gegevens invullen. Op een vrije-tekstfactuur wordt een hoofdrekening voor de verkoop vermeld die u over meerdere grootboekrekeningen kunt verdelen door te klikken op **Bedragen verdelen** op de pagina **Vrije-tekstfactuur**. Tevens wordt het klantsaldo naar de totaalrekening van het boekingsprofiel geboekt dat gebruikt wordt voor de vrije-tekstfactuur.
 
-Zie voor meer informatie.
+Ga voor meer informatie naar:
 
 [Vrije-tekstfacturen maken](../accounts-receivable/create-free-text-invoice-new.md)
 
@@ -41,7 +41,10 @@ Zie voor meer informatie.
 [Terugkerende vrije-tekstfacturen genereren en boeken](tasks/post-recurring-free-text-invoices.md)
 
 
-Een **pro forma-factuur** is een factuur die wordt gemaakt als raming van de werkelijke factuurbedragen voordat de factuur wordt geboekt. Een pro forma-factuur kunt u zowel voor een klantfactuur als voor een verkooporder of een vrije-tekstfactuur afdrukken.
+Een **pro forma-factuur** is een factuur die wordt gemaakt als raming van de werkelijke factuurbedragen voordat de factuur wordt geboekt. Een **pro forma-factuur** kunt u zowel voor een klantfactuur als voor een verkooporder of een vrije-tekstfactuur afdrukken. 
+
+>[!NOTE]
+> Bij een systeemonderbreking tijdens het pro forma-factuurproces voor verkopen kan een pro forma-factuur zwevend worden. Een zwevende pro forma-factuur kan worden verwijderd met de periodieke taak **Pro-formafacturen handmatig verwijderen**. Ga naar **Verkoop en marketing > Periodieke taken > Opschonen > Pro-formafacturen handmatig verwijderen**.
 
 ## <a name="using-sales-order-customer-invoice-data-entities"></a>Gegevensentiteiten voor klantfacturen van verkooporders gebruiken
 U kunt gegevensentiteiten gebruiken om informatie over een klantfactuur voor een verkooporder te importeren en exporteren. De informatie in de verkoopfactuurkoptekst en de verkoopfactuurregels kan op verschillende entiteiten worden vermeld.
@@ -83,8 +86,13 @@ Gebruik deze procedure als een of meer verkooporders kunnen worden gefactureerd 
 
 U kunt meerdere facturen op de lijstpagina **Verkooporder** selecteren en vervolgens **Facturen genereren** gebruiken om deze te consolideren. Op de pagina **Factuur wordt geboekt** kunt u de instelling voor **Overzichtsorder** wijzigen om een overzicht op basis van ordernummer (met meerdere pakbonnen voor één verkooporder) of factuurrekening (met meerdere verkooporders voor één factuurrekening) weer te geven. Gebruik de knop **Schikken** om verkooporders in afzonderlijke facturen te consolideren, op basis van de instellingen voor **Overzichtsorder**.
 
+## <a name="split-sales-order-invoices-by-site-and-delivery-information"></a>Verkooporderfacturen op locatie en leveringsgegevens splitsen
+U kunt de splitsing van klantfacturen voor verkooporders configureren op site of op afleveradres splitsen op het tabblad **Overzicht bijwerken** van de pagina **Parameters van module Klanten**. 
+ - Selecteer de optie **Splitsen op basis van factuurlocatie** om één factuur per site te maken. 
+ - Selecteer de optie **Splitsen op basis van factuurleveringsgegevens** om één factuur per afleveradres voor verkooporderregels te maken. 
+
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>Naar opbrengstrekening boeken voor verkooporderfactuurregels die geen prijs bevatten
-U hebt de mogelijkheid om de **opbrengstrekening** in het **Grootboek** bij te werken voor verkooporderregels zonder prijs. Als u deze informatie wilt instellen of weergeven, gaat u naar de parameter **Naar opbrengstrekening boeken voor verkooporderfactuurregels met nulprijs** op het tabblad **Grootboek en btw** van de pagina **Parameters van klanten**. (**Klanten > Instellingen > Parameters van Klanten**). Selecteer **Ja** om de **opbrengstrekening** voor verkooporderfactuurregels zonder prijs bij te werken. Een opbrengstrekening wordt gedefinieerd op de parameterpagina **Voorraadboeking** op het tabblad **Verkooporder** voor de rekeningdefinitie. Als deze optie niet is geselecteerd, worden regels zonder prijsgegevens niet naar de **opbrengstrekening**.
+U hebt de mogelijkheid om de **opbrengstrekening** in het **grootboek** bij te werken voor verkooporderregels zonder prijs. Als u deze informatie wilt instellen of weergeven, gaat u naar de parameter **Naar opbrengstrekening boeken voor verkooporderfactuurregels met nulprijs** op het tabblad **Grootboek en btw** van de pagina **Parameters van klanten**. (**Klanten > Instellingen > Parameters van Klanten**). Selecteer **Ja** om de **opbrengstrekening** voor verkooporderfactuurregels zonder prijs bij te werken. Een opbrengstrekening wordt gedefinieerd op de parameterpagina **Voorraadboeking** op het tabblad **Verkooporder** voor de rekeningdefinitie. Als deze optie niet is geselecteerd, worden regels zonder prijsgegevens niet naar de **opbrengstrekening** geboekt.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Aanvullende instellingen die het boekingsgedrag wijzigen
 De volgende velden wijzigen het gedrag van het boekingsproces.

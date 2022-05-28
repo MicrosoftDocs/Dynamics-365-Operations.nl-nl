@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 77d37cba84fcd6fb8f93da79b10db2db91d91db0
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ef2f2c82708fd48055faa7546e7e0c4da51e7b6c
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066595"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733980"
 ---
 # <a name="recruit-job-candidates"></a>Kandidaten werven
 
@@ -29,7 +28,7 @@ ms.locfileid: "8066595"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Met Dynamics 365 Human Resources kunt u wervingsaanvragen te beheren. Ook kunt u met dit programma sollicitanten naadloos omzetten in werknemers. Als uw organisatie gebruikmaakt van een afzonderlijke wervingsapplicatie, kan uw wervingsproces de volgende stappen bevatten:
+Met Dynamics 365 Human Resources kunt u wervingsaanvragen te beheren. Ook kunt u met dit programma sollicitanten naadloos omzetten in werknemers. Als uw organisatie gebruikmaakt van een afzonderlijke wervingsapplicatie, kan uw wervingsproces de volgende stappen bevatten:<!--note from editor: Should this be a numbered list? These steps do seem to follow a particular order.-->
 
 - Uw wervingsaanvraag invoeren in Human Resources.
 - Kandidaat-verwijzingen ontvangen in Human Resources vanuit de wervingsapplicatie.
@@ -38,17 +37,22 @@ Met Dynamics 365 Human Resources kunt u wervingsaanvragen te beheren. Ook kunt u
 Als u geen afzonderlijke wervingsapplicatie gebruikt, kunt u de kandidaten ook handmatig beheren in Human Resources.
 
 > [!NOTE]
-> Zie [Dataverse-integratie configureren](hr-admin-integration-common-data-service.md) en [Virtuele Dataverse-tabellen configureren](hr-admin-integration-common-data-service-virtual-entities.md) als u een beheerder of ontwikkelaar bent en u Human Resources wilt integreren met een wervingsapplicatie van derden.
+> Ga naar [Dataverse-integratie configureren](hr-admin-integration-common-data-service.md) en [Virtuele Dataverse-tabellen configureren](hr-admin-integration-common-data-service-virtual-entities.md) als u een beheerder of ontwikkelaar bent en u Human Resources wilt integreren met een wervingsapplicatie van derden.
 >
 > U kunt ook apps voor wervingsintegratie vinden op [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics).
 >
-## <a name="enable-recruiting-requests"></a>Wervingsaanvragen inschakelen
+## <a name="enable-recruiting-requests-on-the-merged-infrastructure"></a>Wervingsaanvragen voor de samengevoegde infrastructuur inschakelen
 
-Als u wervingsaanvragen in Human Resources wilt verzenden, moet u eerst de functionaliteit **Gedeelde Human Resources-parameters** inschakelen.
+Als u wervingsaanvragen wilt indienen in HR-werving, moet u eerst de functies **HR-gebruikerservaring** en **Wervingsproces beheren** inschakelen.
 
-1. In de werkruimte **Personeelsbeheer** selecteert u **Koppelingen**.
-2. Selecteer onder **Instellen** de optie **Gedeelde Human Resources-parameters**.
-3. Op het tabblad **Werving** onder **Werving**, stelt u **Wervingsaanvragen inschakelen** in op **Ja**.
+Zodra de functies zijn ingeschakeld, selecteert u de functionaliteit met de volgende stappen: 
+1. Ga naar **Human resources** > **Instellingen** > **Human resources-parameters**.
+2. Stel op het tabblad  **Werving**  het veld **Werving uitgeschakeld** in op **Nee**.
+3. Selecteer **HR-werving** in de vervolgkeuzelijst **Wervingservaring**.   
+
+> [!Note] 
+> Als **HR-werving** is geselecteerd, wordt **Wervingsprojecten** (verouderd) alleen-lezen. 
+
 
 ## <a name="add-a-recruiting-request-location"></a>De locatie van een wervingsaanvraag toevoegen
 
@@ -60,8 +64,8 @@ Als uw organisatie meerdere locaties heeft, kunt u deze toevoegen zodat aanvrage
 
     ![De locatie van een wervingsaanvraag toevoegen.](./media/hr-recruit-0a-add-location.png)
 
-4. Voer in het veld **Omschrijving** een omschrijving voor de locatie in.
-5. Selecteer **Locatie** onder **Producten**. Als het dialoogvenster **Nieuw adres** verschijnt, voert u het adres voor de locatie in.
+4. Voer bij **Omschrijving** een omschrijving voor de locatie in.
+5. Selecteer **Locatie** onder **Producten**. Als het dialoogvenster **Nieuw adres** verschijnt, voert u het adres voor de locatie in.<!--note from editor: Please make the address in this image less plausible. Via the fictitious guidelines on CELAweb: For street addresses, you should use sequential numbers, common street names, and incorrect zip codes (e.g., 4567 Main St Buffalo, NY 98052). (See https://microsoft.sharepoint.com/sites/CELAWeb-Copyrights-Trademarks-And-Patents/SitePages/trademarks-fictitious-names.aspx)-->
 
     ![Adres invoeren.](./media/hr-recruit-0b-address.png)
 
@@ -83,7 +87,7 @@ Managers kunnen wervingsverzoeken indienen in Human Resources. Als u een afzonde
     ![De wervingsaanvraag voltooien.](./media/hr-recruit-2-request-to-recruit.png)
 
 5. Selecteer **Continue**. De wervingsaanvraag voor uw functie wordt weergegeven.
-6. Selecteer onder **Algemeen** een werver uit de keuzelijst **Werver** en selecteer een locatie in de **Locatie voor wervingsaanvraag**.
+6. Selecteer onder **Algemeen** een werver in de vervolgkeuzelijst **Werver** en selecteer een locatie in de vervolgkeuzelijst **Locatie voor wervingsaanvraag**.
 7. Wijzig onder **Vacature** de benodigde informatie en selecteer **Details uit vacature aanmaken**.
 
     ![Details van taak maken.](./media/hr-recruit-3-create-details-from-job.png)
@@ -91,7 +95,7 @@ Managers kunnen wervingsverzoeken indienen in Human Resources. Als u een afzonde
     De rest van het wervingsverzoek wordt gevuld met de standaardinformatie over de vacature die u hebt ingevoerd.
 
 8. Voer onder **Externe omschrijving** een externe vacatureomschrijving in.
-9. Selecteer onder **Functies** de optie **Toevoegen** en selecteer vervolgens een functie voor deze wervingsaanvraag.
+9. Selecteer onder **Functies** de optie **Toevoegen** en selecteer vervolgens een functie voor deze wervingsaanvraag.<!--note from editor: In all of these images, are they approved fictitious names, or do they come from sample data included with the app?-->
 
     ![Een functie toevoegen.](./media/hr-recruit-4-select-position.png)
 
@@ -101,7 +105,7 @@ Managers kunnen wervingsverzoeken indienen in Human Resources. Als u een afzonde
     ![Opleidingseisen toevoegen.](./media/hr-recruit-5-select-educational-requirements.png)
 
 12. Voeg onder **Opmerkingen** opmerkingen toe indien nodig.
-13. Selecteer onder **Compensatie** een niveau in de vervolgkeuzelijst **Niveau** en wijzig vervolgens de **Lage drempelwaarde**, het **Controlepunt** en **Hoge drempelwaarde** indien nodig.
+13. Selecteer onder **Compensatie** een niveau in de vervolgkeuzelijst **Niveau** en wijzig vervolgens **Lage drempelwaarde**, **Controlepunt** en **Hoge drempelwaarde** indien nodig.
 14. Wanneer uw wervingsaanvraag is voltooid en u klaar bent om het wervingsproces te starten, selecteert u **Activeren** in de menubalk.
 
     ![Wervingsaanvraag activeren.](./media/hr-recruit-6-activate-recruit-request.png)
@@ -141,7 +145,7 @@ Als uw organisatie is geïntegreerd met een andere toepassing om wervingsaanvrag
 
 4. Selecteer **Nieuw** om een kandidaat toe te voegen. Om een bestaande kandidaat te bewerken, selecteert u de kandidaat uit de lijst en vervolgens **Bewerken**. Het kandidaatprofiel wordt weergegeven.
 5. Voer onder **Kandidaatoverzicht** de kandidaatgegevens van de kandidaat in of bewerk deze indien nodig.
-6. Selecteer onder **Wervingsaanvraag** een wervingsaanvraag om de kandidaat aan te koppelen. Vul vervolgens de **Geschatte begindatum**, **Aanstellend manager**, **Functie**  en **Omschrijving** in.
+6. Selecteer onder **Wervingsaanvraag** een wervingsaanvraag om de kandidaat aan te koppelen. Vul vervolgens de velden **Geschatte begindatum**, **Aanstellend manager**, **Functie**  en **Omschrijving** in.
 
     ![Een wervingsaanvraag koppelen.](./media/hr-recruit-10-link-to-recruiting-request.png)
 

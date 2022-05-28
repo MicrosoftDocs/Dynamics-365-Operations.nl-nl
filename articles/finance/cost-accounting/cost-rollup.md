@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy, CAMOverheadRatePolicy
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f86529359f548bf48fdef8817bd2e2260235561cce57cac28158739687ade2c1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9c36587294ff157266e354e06d107000f198061
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779951"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734424"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Beleid voor totalisering van kosten en overheadberekening 
 
@@ -30,9 +30,7 @@ ms.locfileid: "6779951"
 Met Kostprijsboekhouding kunt u inzicht verkrijgen in hoe de kostenstroom in relatie staat tot de producten en services die worden geleverd binnen een organisatie. Als u de transparantie van de kosten wilt zien, is het van groot belang om kostentoewijzing te bereiken tussen kostenobjecten op basis van een juiste toewijzingsgrondslag. Standaard wordt de kostentoewijzing bereikt voor het primaire kostenelement. Dit is in bepaalde situaties wenselijk. Het heeft echter een paar gevolgen die in aanmerking moeten worden genomen.
 
 -   Bijkomende kostenobjecten eindigen met een nulsaldo voor het primaire kostenelement na overheadberekening.
-
 -   Het volume van kosteninvoer gegenereerd door overheadberekening kan zeer hoog zijn.
-
 -   Het is niet mogelijk om de kostenstroom tussen kostenobjecten bij te houden.
 
 Om deze gevolgen te voorkomen, kunt u met Kostprijsboekhouding kostentoewijzing configureren zodat deze past binnen de vereisten voor managementrapporten in uw organisatie. In dit onderwerp wordt besproken hoe u het juiste niveau van secundaire kostenelementen kunt bepalen en regels voor kostentotalisering kunt maken die passen in de organisatierapportage en de traceerbaarheid van kosten.

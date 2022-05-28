@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxGroup,  TaxItemGroup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7c3bf881f0f11d6d21d5f2e9d3132c2bea00b982411c9c5d76ae617b00a69fda
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c461c3d3e9b073b186e68ff1b0453fafe5da80e7
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739330"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734862"
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>Btw-groepen en artikel-btw-groepen instellen
 
 [!include [banner](../../includes/banner.md)]
 
-Deze taakregistratie doorloopt de instelling van btw-groepen en btw-groepen voor artikelen. Btw-groepen zijn groepen met btw-codes die worden gekoppeld klanten en leveranciers. Deze worden ook gekoppeld aan grootboekrekeningen voor transacties die niet worden geboekt naar een specifieke leverancier of klant.  Btw-groepen voor artikelen zijn groepen met btw-codes die worden gekoppeld aan bronnen zoals producten.  De btw die van toepassing is op een bepaalde transactie, wordt bepaald door de btw-codes die zijn opgenomen in zowel de btw-groep als de btw-groep voor artikel van de transactie.  Btw kan alleen worden berekend als een btw-groep en een btw-groep voor artikelen zijn geselecteerd voor elke transactie waarvoor u de btw wilt berekenen of vastleggen.  
+Deze taakregistratie doorloopt de instelling van btw-groepen en btw-groepen voor artikelen. Btw-groepen zijn groepen met btw-codes die worden gekoppeld klanten en leveranciers. Deze worden ook gekoppeld aan grootboekrekeningen voor transacties die niet worden geboekt naar een specifieke leverancier of klant. Btw-groepen voor artikelen zijn groepen met btw-codes die worden gekoppeld aan bronnen zoals producten. De btw die van toepassing is op een bepaalde transactie, wordt bepaald door de btw-codes die zijn opgenomen in zowel de btw-groep als de btw-groep voor artikel van de transactie. Btw kan alleen worden berekend als een btw-groep en een btw-groep voor artikelen zijn geselecteerd voor elke transactie waarvoor u de btw wilt berekenen of vastleggen.  
 
 1. Ga naar **Navigatievenster > Modules > Belasting > Indirecte belastingen > Btw > Btw-groepen**.
 2. Klik op **Nieuw**.

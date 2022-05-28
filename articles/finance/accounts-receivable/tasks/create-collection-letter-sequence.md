@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CollectionLetterCourse
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: adeae6e20a799165e086df28b92a1357e8f2f0d3
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: af5d0a001fbe705834e116516933be67f2de8826
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921194"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734153"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Een aanmaningsreeks maken
 
@@ -26,10 +26,10 @@ ms.locfileid: "7921194"
 
 Gebruik deze procedure om een aanmaningsreeks te maken. Bij deze taak wordt het demobedrijf USMF gebruikt.
 
-1. Ga in het navigatievenster naar **Modules > Crediteringen en aanmaningen > Instellen > Aanmaningsreeks instellen**.
+1. Ga naar **Crediteren en aanmaningen > Instellingen > Aanmaningsreeks instellen**.
 2. Klik op **Nieuw**.
 3. Voer in het veld **Aanmaningsreeks** een volgorde-id in die de volgorde aangeeft. Deze wordt gebruikt bij het instellen van een boekingsprofiel.
-4. Typ een waarde in het veld **Beschrijving**.  De betalingsvoorwaarden zijn optioneel. Als u hier een waarde invoert, gebruikt de factuur voor de aanmaningskosten deze betalingsvoorwaarden in plaats van de betalingsvoorwaarden die zijn opgeslagen met de klant.  
+4. Typ een waarde in het veld **Beschrijving**. De betalingsvoorwaarden zijn optioneel. Als u hier een waarde invoert, gebruikt de factuur voor de aanmaningskosten deze betalingsvoorwaarden in plaats van de betalingsvoorwaarden die zijn opgeslagen met de klant.  
 5. Selecteer in het veld **Aanmaningscode** de code voor de eerste aanmaning die u wilt verzenden. De eerste aanmaning wordt gemaakt aan de hand van de vervaldatum op de factuur, die waarde die u invoert voor de respijtperiode in het veld Dagen op deze regel en andere gegevens die u in deze regel invoert.  
 6. Typ een waarde in het veld **Beschrijving**. 
 7. De standaardvaluta voor de bijzondere kosten is de valuta van de rechtspersoon. Deze valutacode kan verschillen van de factuurvaluta.   
@@ -52,9 +52,9 @@ Gebruik deze procedure om een aanmaningsreeks te maken. Bij deze taak wordt het 
 22. Klik in de lijst op de koppeling in de geselecteerde rij.
 23. Voer in het veld **Minimum achterstallig saldo** een getal in.
 24. Voer in het veld **Dagen** een getal in.
-25. Schakel het selectievakje **Blokkeren** in om ervoor te zorgen dat de klant geen leveringen en facturen meer ontvangt. Als u de rekening wilt deblokkeren, selecteert u **Nee** in het 'In wachtstand'-veld van Geblokkeerde facturering en levering op de pagina Klanten.  
+25. Schakel het selectievakje **Blokkeren** in om ervoor te zorgen dat de klant geen leveringen en facturen meer ontvangt. Als u de rekening wilt deblokkeren, selecteert u **Nee** in het veld **Geblokkeerde facturering en levering** van de pagina **Klanten**.  
 26. Vouw het sneltabblad **Notitie** uit.
-27. Voer de tekst in die op de aanmaning moet worden weergegeven voor de geselecteerde aanmaningscode. Deze tekst kunt u in meerdere talen vertalen via het menu Vertalingen boven het notitievakje.  
+27. Voer de tekst in die op de aanmaning moet worden weergegeven voor de geselecteerde aanmaningscode. Deze tekst kunt u in meerdere talen vertalen via het menu **Vertalingen** boven het notitievakje.  
 
 
 

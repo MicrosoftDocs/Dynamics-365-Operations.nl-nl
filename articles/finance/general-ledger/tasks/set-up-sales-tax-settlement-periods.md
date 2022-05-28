@@ -1,6 +1,6 @@
 ---
 title: Btw-vereffeningsperioden instellen
-description: In dit onderwerp wordt uitgelegd hoe u vereffeningsperioden voor btw instelt in Dynamics 365 Finance.
+description: In dit onderwerp wordt uitgelegd hoe u btw-vereffeningsperioden instelt in Dynamics 365 Finance.
 author: twheeloc
 ms.date: 08/05/2019
 ms.topic: business-process
@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f57cd2b5b0f8f86d67500086403c5f484a263f76601453c00f59ede901b01a8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 197b85fb88f966b0a13fc061e2e780dd84e74acb
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732952"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735809"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Btw-vereffeningsperioden instellen
 
@@ -28,7 +28,7 @@ In dit onderwerp wordt uitgelegd hoe u vereffeningsperioden voor btw instelt. Bt
 
 Bij deze taak wordt het demobedrijf USMF gebruikt.
 
-1. Ga in het navigatievenster naar **Modules > Belasting > Indirecte belastingen > Btw > Btw-vereffeningsperioden**.
+1. Ga naar **Belasting > Indirecte belastingen > Btw > Btw-vereffeningsperioden**.
 2. Selecteer **Nieuw**.
 3. Typ in het veld **Vereffeningsperiode** een waarde.
 4. Typ een waarde in het veld **Beschrijving**.

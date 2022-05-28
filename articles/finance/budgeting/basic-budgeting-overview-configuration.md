@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetParameters
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "60113"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e881a878265062dc5ce8cec68a45237711f385d
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 48fcfec7126b4835b7d05e431bbc6ad7b9176bbe
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986505"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710408"
 ---
 # <a name="budgeting-overview"></a>Budgetteringsoverzicht
 
@@ -68,7 +68,7 @@ Met budgetcodes kunt u een audittrail krijgen van goedgekeurde budgetwijzigingen
 
 U kunt desgewenst ook *budgetoverboekingsregels* instellen. Als u budgetoverboekingsregels wilt gebruiken, schakelt u **Regels voor budgetoverboekingen gebruiken** op de pagina **Budgetparameters** in. Wanneer de budgetoverboekingsregels worden gebruikt, als een gebruiker een document maakt door een budgetcode van het type **Overboeking** te gebruiken, worden de budgetsaldi niet worden bijgewerkt als de budgetoverboekingsregels wordt geschonden. U kunt bijvoorbeeld budgetoverdrachtdocumenten toestaan waar het onkostenbudget wordt overgebracht tussen de hoofdrekeningen voor de afdeling Verkoop en marketing, maar kunt verbieden dat budget van of naar die afdeling wordt overgebracht, tenzij workflowgoedkeuring is verleend voor dat type budgetrekeningpost.
 
-Functionaliteit die in Microsoft Dynamics 365 Finance versie 10.0.7 (januari 2020) werd geïntroduceerd voegde mogelijkheden en flexibiliteit toe voor budgetregistervermeldingen. Als u deze uitbreidingen wilt inschakelen, gaat u naar de werkruimte **Functiebeheer** en selecteert u de **Budgetregistervermeldingen voor alleen hoeveelheid** en/of **Budgetregistervermeldingen standaard van bedragtype**.
+Functionaliteit die in Microsoft Dynamics 365 Finance versie 10.0.7 (januari 2020) is geïntroduceerd, voegde mogelijkheden en flexibiliteit toe voor budgetregistervermeldingen. Als u deze uitbreidingen wilt inschakelen, gaat u naar de werkruimte **Functiebeheer** en selecteert u de **Budgetregistervermeldingen voor alleen hoeveelheid** en/of **Budgetregistervermeldingen standaard van bedragtype**.
 
 Met de functie **Budgetregistervermeldingen voor alleen hoeveelheid** kunt u een budgetregistervermelding met alleen hoeveelheden boeken. U kunt bijvoorbeeld een budgetregel boeken met een hoeveelheid van 32 en een prijs van nul, wat resulteert in een bedrag van nul. U kunt deze hoeveelheid vervolgens binnen de context van een financieel rapport gebruiken om een prijs per hoeveelheid te bepalen. U ziet dat er geen query's of rapporten zijn bijgewerkt als onderdeel van deze functie. Met deze functie kunt u alleen een bedrag van nul boeken.
 

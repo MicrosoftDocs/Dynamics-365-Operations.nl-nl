@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 68f236ad000adea91e746309564baf84a270a0e5
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: a00e20569f05730296ef611938a94b73ebb7f6f5
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075445"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735313"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Sollicitant- en sollicitatiegegevens handmatig invoeren
 
-> [!IMPORTANT]
-> De functionaliteit die in dit onderwerp wordt vermeld, is momenteel beschikbaar voor Human Resources-klanten in de Finance-infrastructuur.  
+> [!NOTE]
+> Naar de wervingsfunctie in dit onderwerp wordt verwezen als Wervingsprojecten genoemd en deze is gericht op sollicitanten, sollicitaties en wervingsprojecten.  
 
 
 Deze procedure laat zien hoe u handmatig informatie over sollicitanten en hun sollicitatie kunt onderhouden. U kunt persoonlijke gegevens, gespreksdatums en -tijden, verwijzingen, vaardigheden en accommodatieaanvragen voor sollicitanten invoeren en onderhouden. U kunt ook de status van de sollicitaties van sollicitanten naar vacatures bijwerken en brieven of e-mailberichten opstellen om met sollicitanten te communiceren. Wanneer u sollicitatieregistratie maakt, wordt er een persoonlijke registratie voor die sollicitant in het globale adresboek gemaakt. Voor deze procedure is gebruikgemaakt van het demobedrijf **USMF**.

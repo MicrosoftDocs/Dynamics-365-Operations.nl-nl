@@ -7,7 +7,6 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom:
 - "221024"
 - intro-internal
@@ -16,18 +15,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fa4d90d568697526adeef52443a01c3251696bf4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c1ef722eabc3c3bc740f9ff5d959cfa005862a9b
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984741"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735718"
 ---
 # <a name="performance-management"></a>Prestatiebeheer
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Met het prestatiebeheerproces kunnen werknemers hun prestaties met hun manager documenteren en bespreken. Managers kunnen op hun beurt feedback en ondersteuning geven aan de werknemers.  
+Met het prestatiebeheerproces kunnen werknemers hun prestaties met hun manager documenteren en bespreken. Managers kunnen op hun beurt feedback en ondersteuning geven aan de werknemers.
 
 Zoals u in het volgende diagram ziet, zijn er drie pagina's die worden gebruikt om het proces te beheren:
 
@@ -35,7 +34,7 @@ Zoals u in het volgende diagram ziet, zijn er drie pagina's die worden gebruikt 
 -   Doelstellingen
 -   Prestatieoverzicht
 
-Het volgende diagram laat zien hoe de primaire onderdelen van prestatiebeheer met elkaar samenhangen. [![Overzicht Prestatiebeheer.](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
+Het volgende diagram laat zien hoe de primaire onderdelen van prestatiebeheer met elkaar samenhangen. <!--note from editor: This alt text should describe the relationship among the boxes so a reader with low vision will understand. This will require using the :::image type="complex"::: tag and a long description. -->[![Overzicht Prestatiebeheer.](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
 
 ## <a name="performance-journal"></a>Prestatiejournaal
 
@@ -57,7 +56,7 @@ U kunt het prestatiejournaal ook koppelen aan een externe website door de URL va
 
 ### <a name="send-feedback"></a>Feedback verzenden
 
-Het prestatiejournaal bevat een extra functie **Feedback verzenden**. Wanneer u op **Feedback verzenden** klikt, kunt u een werknemer selecteren en via e-mail feedback aan de werknemer geven. Het bericht wordt verzonden aan de werknemer die de feedback ontvangt, de manager van de werknemer, de werknemer die u de feedback verzendt en de manager van die werknemer. Er wordt in het prestatiejournaal een post gemaakt voor elke persoon die het bericht met de feedback ontvangt.
+Het prestatiejournaal bevat een extra functie: **Feedback verzenden**. Wanneer u **Feedback verzenden** selecteert, kunt u een werknemer kiezen en via e-mail feedback over die werknemer geven. Het bericht wordt verzonden naar de werknemer over wie de feedback gaat<!--note from editor: Suggested-->, de manager van de werknemer, de werknemer die u de feedback verzendt en de manager van die werknemer. Er wordt in het prestatiejournaal een post gemaakt voor elke persoon die het bericht met de feedback ontvangt.
 
 ## <a name="goals"></a>Doelstellingen
 
@@ -72,11 +71,11 @@ Een algemene doelstelling moet de volgende gegevens bevatten:
 
 U kunt ook een doelstellingencategorie opgeven om uw doelstellingen in te delen. Managers zien de naam van de persoon aan wie de doelstelling is toegewezen. 
 
-Als u meer gedetailleerde instructies voor een doelstelling hebt, kunt u onderwerpen voor de doelstelling maken. Deze onderwerpen omvatten een titel en een omschrijving. U kunt zo veel onderwerpen opnemen als u nodig hebt om te garanderen dat de details van de doelstelling duidelijk zijn voor de manager en de werknemer. Zowel werknemers en managers kunnen ook opmerkingen invoeren over de voortgang van de doelstellingen. 
+Als u meer gedetailleerde instructies voor een doelstelling hebt, kunt u onderwerpen voor de doelstelling maken. Deze onderwerpen omvatten een titel en een omschrijving. U kunt zo veel onderwerpen opnemen als u nodig hebt om te garanderen dat de details van de doelstelling duidelijk zijn voor de manager en de werknemer. Zowel de werknemer en manager kan ook opmerkingen invoeren over de voortgang van de doelstellingen. 
 
 Doelstellingen hebben vaak meetbare resultaten. U kunt metingen toevoegen om de gewenste resultaten van de doelstelling en de werkelijke resultaten bij te houden. Als de meting een ambitieuze doelstelling betreft, kunt u de meting markeren met de optie **Scherpe doelstelling**. 
 
-Uw prestatiejournaal bevat activiteiten die uw manager meer informatie geven over hoe u uw doelstelling hebt behaald. Als u een prestatiejournaal hebt gekoppeld aan de doelstelling, wordt deze weergegeven in het gedeelte **Activiteiten** van die doelstelling. U kunt ook een nieuw prestatiejournaal toevoegen van de pagina **Prestatiedoelstellingen**. Dat prestatiejournaal wordt automatisch gekoppeld aan de doelstelling. 
+Uw prestatiejournaal bevat<!--note from editor: Suggested.--> activiteiten die uw manager meer informatie geven over hoe u uw doelstelling hebt behaald. Als u een prestatiejournaal hebt gekoppeld aan de doelstelling, wordt deze weergegeven in het gedeelte **Activiteiten** van die doelstelling. U kunt ook een nieuw prestatiejournaal toevoegen van de pagina **Prestatiedoelstellingen**. Dat prestatiejournaal wordt automatisch gekoppeld aan de doelstelling. 
 
 Als u een document wilt koppelen aan de doelstelling, zoals een certificaat bij voltooiing, kunt u dit bijvoegen in het gedeelte **Bijlagen** van de pagina **Prestatiedoelstellingen**. Er is een documentviewer waarmee u snel de inhoud van alle gekoppelde documenten kunt weergeven. 
 
@@ -84,7 +83,7 @@ U kunt een sjabloon maken van een doelstelling en vervolgens de sjabloon gebruik
 
 ## <a name="performance-reviews"></a>Prestatiebeoordelingen
 
-Prestatiebeoordelingen worden formeel discussies genoemd. Ze zijn nu flexibel genoeg om continue feedback, ontwikkelingsplannen en meer formele beoordelingen te ondersteunen. U kunt snel kleine bijeenkomsten voor twee personen opzetten, zoals een één-op-één bespreking of kunt u een complexere beoordeling opstellen die overeenkomt met het beoordelingsproces van uw bedrijf. 
+Prestatiebeoordelingen worden formeel discussies genoemd. Ze zijn nu flexibel genoeg om continue feedback, ontwikkelingsplannen en meer formele beoordelingen te ondersteunen. U kunt snel kleine vergaderingen voor twee personen maken<!--note from editor: I think "one-on-one meeting" is implied by "two people."--> of kunt u een complexere beoordeling opstellen die overeenkomt met het beoordelingsproces van uw bedrijf. 
 
 Een één-op-één bespreking is een eenvoudige beoordeling waarvoor een korte naam, een langere omschrijving van de inhoud van de vergadering, de datum van de vergadering en de beoordelingsperiode die wordt besproken, vereist zijn. Managers zien de naam van de persoon voor wie de beoordeling is gemaakt. 
 
@@ -105,7 +104,7 @@ U kunt verschillende soorten informatie opnemen in de prestatiebeoordelingen. Ze
 
 ### <a name="review-detail"></a>Beoordelingsdetails
 
-U kunt uw doelstellingen opnemen in de beoordelingsdetails en daarover opmerkingen maken. U kunt ook competenties instellen en opmerkingen daarover maken.
+U kunt uw doelstellingen opnemen in de beoordelingsdetails en daarover opmerkingen maken. U kunt ook competenties instellen en opmerkingen daarover maken.<!--note from editor: Suggested, in the spirit of using the fewest words to say the same thing.-->
 
 ### <a name="measurements"></a>Metingen
 
@@ -115,13 +114,13 @@ U kunt de metingen weergeven die samenhangen met een doelstelling of beoordeling
 
 U kunt items uit het prestatiejournaal weergeven die samenhangen met de beoordeling. U kunt ook een prestatiejournaal toevoegen dat automatisch wordt gekoppeld aan de beoordeling.
 
-### <a name="ratings"></a>Beoordelingen
+### <a name="ratings"></a>Classificeringen
 
 U kunt een waardering toepassen op elke doelstelling of competentie in de beoordeling. U kunt de waarderingsmodellen voor elke beoordeling definiëren. De standaardwaarden voor waarderingen worden vermeld op de pagina **Gedeelde Human resources-parameters** onder **Prestaties**.
 
 ### <a name="sign-offs"></a>Afmeldingen
 
-De werknemer en/of de manager worden vermeld op de beoordeling op basis van de ingestelde beoordelingsparameters. De beoordelingen kunnen verplicht of optioneel zijn. Zodra alle vereiste afmeldingen zijn gerealiseerd, wordt de beoordeling gemarkeerd met de status **Voltooid**.
+De werknemer en/of de manager worden vermeld op de beoordeling op basis van de ingestelde beoordelingsparameters. De beoordelingen kunnen verplicht of optioneel zijn. Zodra<!--note from editor: Via Writing Style Guide.--> alle vereiste afmeldingen zijn gerealiseerd, wordt de beoordeling gemarkeerd met de status **Voltooid**.
 
 ### <a name="attachments"></a>Bijlagen
 
@@ -129,33 +128,33 @@ U kunt in het gedeelte **Bijlagen** van de pagina **Beoordelingen** een document
 
 ## <a name="workflow-for-performance-management"></a>Werkstroom voor prestatiebeheer
 
-Gebruik de werkstroom voor werknemerbeoordeling om de goedkeuring van een beoordeling te bepalen. U kunt ook de geautomatiseerde werkstroom overslaan en de status van de beoordeling handmatig wijzigen, zodat u eenvoudiger documenten voor bijvoorbeeld één-op-één gesprekken kunt maken buiten het werkstroomproces om. Toegang tot een beoordeling wordt bepaald door de status van de beoordeling.
+Gebruik de werkstroom voor werknemerbeoordeling om de goedkeuring van een beoordeling te bepalen. U kunt ook de geautomatiseerde werkstroom overslaan en de status van de beoordeling handmatig wijzigen, zodat u eenvoudiger documenten voor bijvoorbeeld één-op-één gesprekken kunt maken buiten het werkstroomproces om. Toegang tot een beoordeling wordt bepaald door de status van de beoordeling, als volgt:<!--note from editor: Suggested as an intro to the list.-->
 
-1.  Wanneer de beoordeling wordt gemaakt, wordt deze ingesteld op de status **Niet gestart**. De beoordeling kan door iedereen worden bewerkt.
+1.  Wanneer de beoordeling wordt gemaakt, wordt deze ingesteld op **Niet gestart**. De beoordeling kan door iedereen worden bewerkt.
 
-2.  Als de werknemer op de knop **Beoordeling starten** drukt, worden de beoordeling ingesteld op de status **In uitvoering**. De werknemer begint vervolgens inhoud toe te voegen. De manager kunt op dit moment het beoordelingsdocument niet meer bekijken.
+2.  Als de werknemer **Beoordeling starten** selecteert, wordt de beoordeling ingesteld op **In uitvoering**. De werknemer begint vervolgens inhoud toe te voegen. De manager kunt op dit moment het beoordelingsdocument niet meer bekijken.
 
 3.  De werknemer wijzigt de status in **Gereed voor beoordeling**.
 
 4.  De manager kan opmerkingen en waarderingen toevoegen. Op dit moment ziet alleen de manager de beoordeling.
 
-5.  De manager wijzigt de status in **Eindbeoordeling**, zodat zowel de manager als de werknemer de beoordeling kan zien en bespreken. U kunt in de parameters opgeven of de beoordeling al dan niet op dit moment kan worden bewerkt. Deze stap is ook optioneel als de manager gewoon de beoordeling wil delen met de werknemer en deze als **Volledig** markeert wanneer ze klaar zijn.
+5.  De manager wijzigt de status in **Eindbeoordeling**, zodat zowel de manager als de werknemer de beoordeling kan zien en bespreken. U kunt in de parameters opgeven of de beoordeling op dit moment kan worden bewerkt. Deze stap is ook optioneel als de manager gewoon de beoordeling wil delen met de werknemer en deze als **Volledig** markeert wanneer ze klaar zijn.
 
-6.  Nadat de afmeldingen zijn voltooid, wordt de status gewijzigd in **Voltooid**. Op dit punt kan de beoordeling niet meer worden gewijzigd.
+6.  Nadat de afmeldingen zijn voltooid, wordt de status gewijzigd in **Volledig**. Op dit punt kan de beoordeling niet meer worden gewijzigd.
 
 De beoordeling van de werknemer bestaat uit twee elementen:
 
-1.  Beoordeling goedkeuren. Voeg dit element toe om de statuswijziging van **In uitvoering** naar **Gereed voor beoordeling** te verwerken. Wijzig de toewijzing voor het gebruiken van de organisatiehiërarchie waar het managerniveau van Employee.line = 1.
+1.  Beoordeling goedkeuren. Voeg dit element toe om de statuswijziging van **In uitvoering** naar **Gereed voor beoordeling** te verwerken. Wijzig de toewijzing voor het gebruiken van de organisatiehiërarchie waar het **managerniveau van Employee.line = 1**.<!--note from editor: Edit assumes that this is a UI string. -->
 
-2.  Eindbeoordeling. Voeg dit element toe om de statuswijziging van **In uitvoering** naar **Laatste beoordeling** te controleren. Wijzig de toewijzing voor het gebruiken van de organisatiehiërarchie waar het managerniveau van Employee.line = 1 als u wilt dat de manager de eindbeoordeling goedkeurt. Wijzig de toewijzing naar Werkstroomgebruiker als u wilt dat de werknemer dit goedkeurt. Als u wilt dat zowel de manager als werknemer hun goedkeuring geven, voegt u twee stappen toe aan de werkstroom en kiest u de juiste toewijzing voor elke stap in de volgorde waarin u de goedkeuringen wilt laten plaatsvinden.
+2.  Eindbeoordeling. Voeg dit element toe om de statuswijziging van **In uitvoering** naar **Laatste beoordeling** te controleren. Wijzig de toewijzing voor het gebruiken van de organisatiehiërarchie waar het **managerniveau van Employee.line = 1** als u wilt dat de manager de eindbeoordeling goedkeurt. Wijzig de toewijzing in **Werkstroomgebruiker** als u wilt dat de werknemer dit goedkeurt. Als u wilt dat zowel de manager als werknemer hun goedkeuring geven, voegt u twee stappen toe aan de werkstroom en kiest u de juiste toewijzing voor elke stap in de volgorde waarin u de goedkeuringen wilt laten plaatsvinden.<!--note from editor: I like this, so succinct.-->
 
 ## <a name="setup"></a>Instelling
 
-Er zijn drie pagina's die helpen bij het instellen van de informatie die vereist is om het prestatieproces te voltooien: **Metingen**, **Brontypen prestatiejournaal** en **Controletypen**.
+Drie pagina's<!--note from editor: Suggested, to avoid "there are" (via Writing Style Guide).--> helpen bij het instellen van de informatie die vereist is om het prestatieproces te voltooien: **Metingen**, **Brontypen prestatiejournaal** en **Controletypen**.
 
 ### <a name="measurements"></a>Metingen
 
-Op de pagina **Metingen** kunt u standaardmetingen aanmaken die worden gebruikt op de pagina's **Prestatiedoelstellingen** en **Beoordelingen**. U kunt metingen maken voor datums, bedragen, hoeveelheden of percentages of metingen die zijn gebaseerd op een waarderingsmodel.
+Op de pagina **Metingen** kunt u<!--note from editor: Via Writing Style Guide, https://styleguides.azurewebsites.net/Styleguide/Read?id=2700&topicid=35221--> standaardmetingen maken die worden gebruikt op de pagina's **Prestatiedoelstellingen** en **Beoordelingen**. U kunt metingen maken voor datums, bedragen, hoeveelheden of percentages of metingen die zijn gebaseerd op een waarderingsmodel.
 
 ### <a name="performance-journal-source-types"></a>Brontypen prestatiejournaal
 

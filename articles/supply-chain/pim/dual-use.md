@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 21910c61cc330e0c9292990b7b1914f56bac844c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 787d0c4ebcf83d6bfec05943f2bb0ddc5961a93a
+ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570748"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8736028"
 ---
 # <a name="dual-use-goods"></a>Producten voor tweeërlei gebruik
 
@@ -34,7 +34,7 @@ Hier volgt een aantal scenario:
 2. De pagina **Vrijgegeven productdetails** voor product X-100 geeft aan dat het een product voor tweeërlei gebruik is. Samen geven de code, categorie, groep en regime de exportcontroleclassificatie aan waartoe het product behoort.
 3. Op de pagina met **Certificaten voor tweeërlei gebruik** vindt u een certificaat voor product X-100 wanneer het naar Frankrijk wordt verzonden. Dit certificaat is verlopen op 1 januari 2020.
 4. Op 17 juni 2020 maakt u een verkooporder voor een klantbedrijf dat in Frankrijk is gevestigd. De order bevat product X-100.
-5. Wanneer u de verkooporder opslaat, ziet u de volgende systeemmelding:
+5. Wanneer u de verkooporder bevestigt, bepaalt het systeem het volgende:
 
     1. Bevat de order producten voor tweeërlei gebruik?
     2. Als de order producten voor tweeërlei gebruik bevat, zijn er dan voor het land van bestemming certificaten voor tweeërlei gebruik nodig?
