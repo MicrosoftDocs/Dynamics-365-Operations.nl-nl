@@ -2,7 +2,7 @@
 title: Meertalige rapporten ontwerpen in Elektronische rapportage
 description: In dit onderwerp wordt uitgelegd hoe u labels voor elektronische rapporten (ER) kunt gebruiken om meertalige rapporten te ontwerpen en genereren.
 author: NickSelin
-ms.date: 11/30/2021
+ms.date: 04/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eab17635494657740fe46364bde0773dae5b9e4b
-ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.openlocfilehash: aa8297d4f5c56a7a20561b1a90c5852e65dbff31
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8313686"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811602"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Meertalige rapporten ontwerpen in Elektronische rapportage
 
@@ -217,6 +217,11 @@ Vertaalde labels worden geïmporteerd in de geselecteerde ER-configuratie. Verta
 Labels van een ER-onderdeel die kunnen worden bewerkt, worden samen met andere inhoud voor het onderdeel bewaard in de desbetreffende versie van een ER-configuratie.
 
 Als u een afgeleide versie van het ER-onderdeel maakt, kunt u naar labels van een ER-basisonderdeel verwijzen om uw wijzigingen te introduceren.
+
+> [!TIP]
+> Wanneer u een ER-oplossing ontwerpt, kunt u uw eigen onderdeel voor ER-[gegevensmodellen](er-overview-components.md#data-model-component) afleiden van het onderdeel dat wordt geleverd. In dit afgeleide gegevensmodel kunt u uw eigen ER-labels introduceren en in alle ER-indelingen gebruiken die het gegevensmodel als gegevensbron gebruiken. U kunt vervolgens uw eigen onderdeel voor [ER-indelingen](er-overview-components.md#format-component)afleiden worden van het onderdeel dat wordt geleverd door uw afgeleide ER-gegevensmodel te selecteren in plaats van het geleverde model. In versie 10.0.28 en hoger kunt u de functie **Verbeterde toegang tot labels van het oplopende ER-gegevensmodel** gebruiken om toegang te krijgen tot labels van een oplopend ER-gegevensmodel in afgeleide ER-indelingscomponenten, zelfs wanneer u voor het afgeleide ER-gegevensmodel een ER-gegevensmodel hebt geselecteerd dat verschilt van het gegevensmodel dat is gebruikt in de ER-basiscomponent.
+>
+> Wanneer dezelfde labelnaam wordt gebruikt in uw afgeleide onderdeel en de oplopende onderdelen, wordt uw vertaling van dat label als het meest relevante label gebruikt.
 
 Door versiebeheer wordt de labeltoewijzing aan elk kenmerk in een ER-onderdeel beheerd. Wijzigingen in de labeltoewijzing worden vastgelegd in de lijst met wijzigingen (delta) van een bewerkbaar ER-onderdeel dat is gemaakt als afgeleide versie van het opgegeven ER-onderdeel. Deze wijzigingen worden gevalideerd wanneer een afgeleide versie wordt gebaseerd op een nieuwe basisversie.
 

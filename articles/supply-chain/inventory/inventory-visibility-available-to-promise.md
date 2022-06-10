@@ -2,7 +2,7 @@
 title: Planningen van wijzigingen in voorhanden hoeveelheid en available to promise in Voorraadzichtbaarheid
 description: In dit onderwerp wordt beschreven hoe u toekomstige wijzigingen in de voorhanden hoeveelheid kunt plannen en ATP-hoeveelheden (Available-To-Promise) kunt berekenen.
 author: yufeihuang
-ms.date: 03/04/2022
+ms.date: 05/11/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 7ce868871f093fd734a466bb8a06c5782bf83302
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: 7456f87bede7bd0073223fa4762f96f919799e06
+ms.sourcegitcommit: 38d97efafb66de298c3f504b83a5c9b822f5a62a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525880"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "8763248"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>Planningen van wijzigingen in voorhanden hoeveelheid en available to promise in Voorraadzichtbaarheid
 
@@ -24,7 +24,7 @@ ms.locfileid: "8525880"
 
 In dit onderwerp wordt beschreven hoe u de functie *Planning van wijzigingen in voorhanden hoeveelheid* instelt om toekomstige wijzigingen in de voorhanden hoeveelheid te plannen en ATP-hoeveelheden (available-to-promise) te berekenen. ATP is de hoeveelheid van een artikel, die beschikbaar is en die aan een klant kan worden beloofd in de volgende periode. Het gebruik van deze berekening kan uw capaciteit voor het afhandelen van orders veel groter maken.
 
-Voor veel producenten, detailhandelaars of verkopers is dit niet voldoende om alleen te weten wat er op dat moment voorhanden is. Zij moeten volledig zicht hebben op de toekomstige beschikbaarheid. Bij deze toekomstige beschikbaarheid moet rekening worden houden met toekomstig aanbod, toekomstige vraag en ATP.
+Voor veel fabrikanten, detailhandelaars of verkopers is het niet voldoende om alleen te weten wat er op dat moment voorhanden is. Zij moeten volledig zicht hebben op de toekomstige beschikbaarheid. Bij deze toekomstige beschikbaarheid moet rekening worden houden met toekomstig aanbod, toekomstige vraag en ATP.
 
 ## <a name="enable-and-set-up-the-features"></a><a name="setup"></a>De functies inschakelen en instellen
 
@@ -32,9 +32,12 @@ Voordat u de ATP-hoeveelheid kunt gebruiken, moet u een of meer berekende meting
 
 ### <a name="set-up-calculated-measures-for-atp-quantities"></a>Berekende metingen instellen voor ATP-hoeveelheden
 
-De *berekende meting ATP* is een vooraf gedefinieerde berekende meting die gewoonlijk wordt gebruikt om te zoeken naar de voorhanden hoeveelheid die momenteel beschikbaar is. De som van de hoeveelheden van het modificatortype Optellen is de aanbodhoeveelheid en de som van de hoeveelheden van het modificatortype Aftrekken is de vraaghoeveelheid.
+De *berekende meting ATP* is een vooraf gedefinieerde berekende meting die gewoonlijk wordt gebruikt om te zoeken naar de voorhanden hoeveelheid die momenteel beschikbaar is. De *aanbodhoeveelheid* is de som van hoeveelheden voor die fysieke metingen die een modificatortype van *optelling* hebben, en de *vraaghoeveelheid* is de som van hoeveelheden voor die fysieke metingen die een modificatortype van *aftrekking* hebben.
 
-U kunt meerdere berekende metingen toevoegen om ATP-hoeveelheden te berekenen. Het totale aantal modificatoren voor alle berekende ATP-metingen moet echter minder zijn dan negen.
+U kunt meerdere berekende metingen toevoegen om meerdere ATP-hoeveelheden te berekenen. Het totale aantal verschillende fysieke metingen voor alle berekende ATP-metingen moet echter minder zijn dan negen.
+
+> [!IMPORTANT]
+> Een berekende meting is een samenstelling van fysieke metingen. De bijbehorende formule kan alleen fysieke metingen zonder dubbele waarden en niet berekende metingen bevatten.
 
 U kunt bijvoorbeeld de volgende berekende meting instellen:
 
@@ -43,6 +46,12 @@ U kunt bijvoorbeeld de volgende berekende meting instellen:
 De som (*PhysicalInvent* + *OnHand* + *Unrestricted* + *QualityInspection* + *Inbound*) vertegenwoordigt het aanbod en de som (*ReservPhysical* + *SoftReservePhysical* + *Outbound*) vetegenwoordigt de vraag. Daarom kan de berekende meting als volgt worden gelezen:
 
 **Voorhanden beschikbaar** = *Aanbod* – *Vraag*
+
+U kunt nog een berekende meting toevoegen om de **fysieke voorhanden** ATP-hoeveelheid te berekenen.
+
+**Voorhanden beschikbaar** = (*PhysicalInvent* + *OnHand* + *Unrestricted* + *QualityInspection* + *Inbound*) – (*Outbound*)
+
+Er zijn acht verschillende fysieke metingen in deze twee berekende ATP-metingen: *PhysicalInvent*, *OnHand*, *Unrestricted*, *QualityInspection*, *Inbound*, *ReservPhysical*, *SoftReservePhysical* en *Outbound*.
 
 Zie [Berekende metingen](inventory-visibility-configuration.md#calculated-measures). voor meer informatie over berekende metingen.
 
@@ -80,7 +89,7 @@ U plaatst bijvoorbeeld een order voor 10 uur en verwacht dat deze morgen arrivee
 
 Wanneer u een query uitvoert op Voorraadzichtbaarheid voor voorhanden en ATP-hoeveelheden, worden de volgende gegevens voor elke dag in de planningsperiode geretourneerd:
 
-- **Datum**: de datum waarop het resultaat van toepassing is.
+- **Datum**: de datum waarop het resultaat van toepassing is. De tijdzone is UTC (Coordinated Universal Time).
 - **Voorhanden hoeveelheid**: de werkelijke voorhanden hoeveelheid voor de opgegeven datum. Deze berekening wordt gemaakt volgens de door de ATP berekende meting die is geconfigureerd voor Voorraadzichtbaarheid.
 - **Gepland aanbod**: de som van alle geplande inkomende hoeveelheden die nog niet fysiek beschikbaar zijn voor direct verbruik of zending vanaf de opgegeven datum.
 - **Geplande vraag**: de som van alle geplande uitgaande hoeveelheden die niet zijn verbruikt of verzonden vanaf de opgegeven datum.
@@ -132,7 +141,7 @@ De resultaten in dit voorbeeld geven een waarde voor *geprojecteerde voorhanden 
 
     - Vraaghoeveelheid van 15 voor 4 februari 2022
     - Aanbodhoeveelheid van 1 voor 5 februari 2022
-    - Vraaghoeveelheid van 3 voor 6 februari 2022
+    - Aanbodhoeveelheid van 3 voor 6 februari 2022
 
     De volgende tabel geeft het resultaat weer.
 
@@ -190,8 +199,8 @@ U kunt de volgende API-URL's (Application Programming Interface) gebruiken om wi
 
 | Pad | methode | Description |
 | --- | --- | --- |
-| `/api/environment/{environmentId}/on-hand/changeschedule` | `POST` | Maak één geplande wijziging in de voorhanden hoeveelheid. |
-| `/api/environment/{environmentId}/on-hand/changeschedule/bulk` | `POST` | Maak meerdere geplande wijzigingen in de voorhanden hoeveelheid. |
+| `/api/environment/{environmentId}/onhand/changeschedule` | `POST` | Maak één geplande wijziging in de voorhanden hoeveelheid. |
+| `/api/environment/{environmentId}/onhand/changeschedule/bulk` | `POST` | Maak meerdere geplande wijzigingen in de voorhanden hoeveelheid. |
 | `/api/environment/{environmentId}/onhand` | `POST` | Maak één wijzigingsgebeurtenis voor de voorhanden hoeveelheid. |
 | `/api/environment/{environmentId}/onhand/bulk` | `POST` | Maak meerdere wijzigingsgebeurtenissen. |
 | `/api/environment/{environmentId}/onhand/indexquery` | `POST` | Voer query uit met de `POST`-methode. |
@@ -199,31 +208,46 @@ U kunt de volgende API-URL's (Application Programming Interface) gebruiken om wi
 
 Zie [Openbare API's voor Voorraadzichtbaarheid](inventory-visibility-api.md) voor meer informatie.
 
-### <a name="submit-on-hand-change-schedules"></a>Planningen voor wijziging voor voorhanden hoeveelheid indienen
+### <a name="create-one-on-hand-change-schedule"></a>Eén planning van wijziging in voorhanden hoeveelheid maken
 
-U kunt planningen voor wijziging van de voorhanden hoeveelheid opstellen door een `POST`-aanvraag in te dienen bij de relevante URL van de service voor voorraadzichtbaarheid (zie de sectie [Wijzigingsplanningen, wijzigingsgebeurtenissen en ATP-query's indienen via de API](#api-urls)). U kunt ook bulkaanvragen indienen.
+Er wordt een planning van wijziging van de voorhanden hoeveelheid gemaakt door een `POST`-aanvraag in te dienen bij de relevante URL van de service voor voorraadzichtbaarheid (zie de sectie [Wijzigingsplanningen, wijzigingsgebeurtenissen en ATP-query's indienen via de API](#api-urls)). U kunt ook bulkaanvragen indienen.
 
-Als u een planning voor wijziging van de voorhanden hoeveelheid wilt indienen, moet de aanvraagbody een organisatie-id, een product-id, een geplande datum en hoeveelheden per datum bevatten. De geplande datum moet tussen de huidige datum en het einde van de huidige planningsperiode eindigen.
+Een planning van wijziging in de voorhanden hoeveelheid kan alleen worden gemaakt als de geplande datum tussen de huidige datum en het einde van de huidige planningsperiode valt. De notatie voor datum/tijd moet *dag-maand-jaar* zijn ( **bijvoorbeeld 01-02-2022**). De tijdnotatie moet alleen tot op de dag nauwkeurig zijn.
 
-#### <a name="example-request-body-that-contains-a-single-update"></a>Voorbeeld van een aanvraag body die een enkele update bevat
+Met deze API wordt één wijzigingsplanning voor voorhanden voorraad gemaakt.
 
-In het volgende voorbeeld wordt een aanvraagbody weergegeven die een enkele update bevat.
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/changeschedule
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        id: string,
+        organizationId: string,
+        productId: string,
+        dimensionDataSource: string, # optional
+        dimensions: {
+            [key:string]: string,
+        },
+        quantitiesByDate: {
+            [datetime:datetime]: {
+                [dataSourceName:string]: {
+                    [key:string]: number,
+                },
+            },
+        },
+    }
+```
+
+In het volgende voorbeeld wordt een voorbeeld gegeven van de inhoud van de hoofdtekst zonder `dimensionDataSource`.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/changeschedule
-
-# Method
-Post
-
-# Header
-# Replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "id": "id-bike-0001",
     "organizationId": "usmf",
@@ -232,38 +256,60 @@ Authorization: "Bearer {access_token}"
         "SiteId": "1",
         "LocationId": "11",
         "ColorId": "Red",
-        "SizeId": "Small"
+        "SizeId&quot;: &quot;Small"
     },
     "quantitiesByDate":
     {
-        "2022/02/01": // today
+        "2022-02-01": // today
         {
             "pos":{
-                "inbound": 10,
-            },
-        },
-    },
+                "inbound": 10
+            }
+        }
+    }
 }
 ```
 
-#### <a name="example-request-body-that-contains-multiple-bulk-updates"></a>Voorbeeld van een aanvraagbody die meerdere updates (bulk) bevat
+### <a name="create-multiple-on-hand-change-schedules"></a>Meerdere planningen van wijziging in voorhanden hoeveelheid maken
 
-In het volgende voorbeeld wordt een aanvraagbody weergegeven die meerdere updates (bulk) bevat.
+Met deze API kunnen meerdere records tegelijkertijd worden gemaakt. De enige verschillen tussen deze API en de API met één gebeurtenis zijn de waarden `Path` en `Body`. Voor deze API biedt `Body` een matrix van records. Het maximum aantal records is 512. Daarom kan de bulk-API voor planning van wijziging in voorhanden hoeveelheid maximaal 512 geplande wijzigingen per keer ondersteunen.
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/changeschedule/bulk
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    [
+        {
+            id: string,
+            organizationId: string,
+            productId: string,
+            dimensionDataSource: string,
+            dimensions: {
+                [key:string]: string,
+            },
+            quantityDataSource: string, # optional
+            quantitiesByDate: {
+                [datetime:datetime]: {
+                    [dataSourceName:string]: {
+                        [key:string]: number,
+                    },
+                },
+            },
+        },
+        ...
+    ]
+```
+
+In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst weergegeven.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/changeschedule/bulk
-
-# Method
-Post
-
-# Header
-# replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
 [
     {
         "id": "id-bike-0001",
@@ -273,67 +319,51 @@ Authorization: "Bearer {access_token}"
             "SiteId": "1",
             "LocationId": "11",
             "ColorId": "Red",
-            "SizeId": "Small"
+            "SizeId&quot;: &quot;Small"
         },
         "quantitiesByDate":
         {
-            "2022/02/01": // today
+            "2022-02-01": // today
             {
                 "pos":{
-                    "inbound": 10,
-                },
-            },
-        },
+                    "inbound": 10
+                }
+            }
+        }
     },
     {
-        "id": "id-bike-0002",
+        "id": "id-car-0002",
         "organizationId": "usmf",
         "productId": "Car",
         "dimensions": {
             "SiteId": "1",
             "LocationId": "11",
             "ColorId": "Red",
-            "SizeId": "Small"
+            "SizeId&quot;: &quot;Small"
         },
         "quantitiesByDate":
         {
-            "2022/02/05":
+            "2022-02-05":
             {
                 "pos":{
-                    "outbound": 10,
-                },
-            },
-        },
+                    "outbound": 10
+                }
+            }
+        }
     }
 ]
 ```
 
-### <a name="submit-on-hand-change-events"></a>Wijzigingsgebeurtenissen indienen voor voorhanden hoeveelheid
+### <a name="create-on-hand-change-events"></a>Wijzigingsgebeurtenissen maken voor voorhanden voorraad
 
 U kunt gebeurtenissen voor wijziging van de voorhanden hoeveelheid opstellen door een `POST`-aanvraag in te dienen bij de relevante URL van de service voor voorraadzichtbaarheid (zie de sectie [Wijzigingsplanningen, wijzigingsgebeurtenissen en ATP-query's indienen via de API](#api-urls)). U kunt ook bulkaanvragen indienen.
 
 > [!NOTE]
-> Gebeurtenissen voor het wijzigen van de voorhanden hoeveelheid zijn niet uniek voor de ATP-functionaliteit, maar maken deel uit van de standaard API voor Voorraadzichtbaarheid. Dit voorbeeld is opgenomen omdat gebeurtenissen relevant zijn wanneer u met ATP werkt. Gebeurtenissen voor wijziging van de voorhanden hoeveelheid lijken op reserveringen voor wijzigingen van de voorhanden hoeveelheid, maar gebeurtenisberichten moeten naar een andere API-URL worden verzonden en gebeurtenissen maken gebruik van `quantities` in plaats van `quantityByDate` in de hoofdtekst van het bericht. Zie [Openbare API's voor Voorraadzichtbaarheid](inventory-visibility-api.md) voor meer informatie over de gebeurtenissen voor het wijzigen van de voorhanden hoeveelheid en en andere functies van de API voor Voorraadzichtbaarheid.
-
-Als u een planning voor een wijzigingsgebeurtenis voor de voorhanden hoeveelheid wilt indienen, moet de aanvraagbody een organisatie-id, een product-id, een geplande datum en hoeveelheden per datum bevatten. De geplande datum moet tussen de huidige datum en het einde van de huidige planningsperiode eindigen.
+> Gebeurtenissen voor het wijzigen van de voorhanden hoeveelheid zijn niet uniek voor de ATP-functionaliteit, maar maken deel uit van de standaard API voor Voorraadzichtbaarheid. Dit voorbeeld is opgenomen omdat gebeurtenissen relevant zijn wanneer u met ATP werkt. Gebeurtenissen voor wijziging van de voorhanden hoeveelheid lijken op reserveringen voor wijzigingen van de voorhanden hoeveelheid, maar gebeurtenisberichten moeten naar een andere API-URL worden verzonden en gebeurtenissen maken gebruik van `quantities` in plaats van `quantityByDate` in de hoofdtekst van het bericht. Zie [Openbare API's voor Voorraadzichtbaarheid](inventory-visibility-api.md#create-one-onhand-change-event) voor meer informatie over de gebeurtenissen voor het wijzigen van de voorhanden hoeveelheid en en andere functies van de API voor Voorraadzichtbaarheid.
 
 In het volgende voorbeeld wordt een aanvraagbody weergegeven die een enkele gebeurtenis voor wijziging van de voorhanden hoeveelheid bevat.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand
-
-# Method
-Post
-
-# Header
-# Replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "id": "id-bike-0001",
     "organizationId": "usmf",
@@ -342,7 +372,7 @@ Authorization: "Bearer {access_token}"
         "SiteId": "1",
         "LocationId": "11",
         "SizeId": "Big",
-        "ColorId": "Red",
+        "ColorId": "Red"
     },
     "quantities": {
         "pos": {
@@ -362,46 +392,71 @@ Stel in uw aanvraag `QueryATP` in op *true* als u een query wilt uitvoeren op de
 - Als u de aanvraag indient via de `POST`-methode, stelt u deze parameter in de aanvraagbody in.
 
 > [!NOTE]
-> Ongeacht of de parameter `returnNegative` is ingesteld op *true* of *false* in de aanvraagbody, het resultaat bevat negatieve waarden wanneer u een query uitvoert op geplande wijzigingen in de voorhanden hoeveelheid en ATP-resultaten. Deze negatieve waarden worden opgenomen omdat de geplande wijzigingen in de voorhanden hoeveelheid negatief zijn als er alleen vraagorders zijn gepland of als de aanbodhoeveelheden kleiner zijn dan de vraaghoeveelheden. Als negatieve waarden niet werden opgenomen, zouden de resultaten tot verwarring leiden. Zie [Openbare API's voor Voorraadzichtbaarheid](inventory-visibility-api.md) voor meer informatie over deze optie en de manier waarop deze werkt voor andere typen query's.
+> Ongeacht of de parameter `returnNegative` is ingesteld op *true* of *false* in de aanvraagbody, het resultaat bevat negatieve waarden wanneer u een query uitvoert op geplande wijzigingen in de voorhanden hoeveelheid en ATP-resultaten. Deze negatieve waarden worden opgenomen omdat de geplande wijzigingen in de voorhanden hoeveelheid negatief zijn als er alleen vraagorders zijn gepland of als de aanbodhoeveelheden kleiner zijn dan de vraaghoeveelheden. Als negatieve waarden niet werden opgenomen, zouden de resultaten tot verwarring leiden. Zie [Openbare API's voor Voorraadzichtbaarheid](inventory-visibility-api.md#query-with-post-method) voor meer informatie over deze optie en de manier waarop deze werkt voor andere typen query's.
 
-### <a name="post-method-example"></a>Voorbeeld van POST-methode
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/indexquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            siteId: string[],
+            locationId: string[],
+            [dimensionKey:string]: string[],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
 
 Het volgende voorbeeld laat zien hoe u een aanvraagbody maakt die met behulp van de `POST`-methode bij Voorraadzichtbaarheid kan worden ingediend.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/indexquery
-
-# Method
-Post
-
-# Header
-# replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["Bike"],
         "siteId": ["1"],
-        "LocationId": ["11"],
+        "LocationId": ["11"]
     },
     "groupByValues": ["ColorId", "SizeId"],
     "returnNegative": true,
-    "QueryATP":true,
+    "QueryATP":true
 }
 ```
 
 ### <a name="get-method-example"></a>Voorbeeld van GET-methode
 
+```txt
+Path:
+    /api/environment/{environmentId}/onhand
+Method:
+    Get
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Query(Url Parameters):
+    groupBy
+    returnNegative
+    [Filters]
+```
+
 In het volgende voorbeeld wordt weergegeven hoe u een aanvraag-URL maakt als `GET`-aanvraag.
 
 ```txt
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
+https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&LocationId=11&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
 ```
 
 Het resultaat van deze `GET`-aanvraag is exact hetzelfde als het resultaat van de `POST`-aanvraag in het vorige voorbeeld.

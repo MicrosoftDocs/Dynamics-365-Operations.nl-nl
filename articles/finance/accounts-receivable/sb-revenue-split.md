@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 5c2eb6c8e18770eb149c445f662ab7a90aad81a7
-ms.sourcegitcommit: 367e323bfcfe41976e5d8aa5f5e24a279909d8ac
+ms.openlocfilehash: 73dbc2242639a54d687506e7c325fec4b9a95d12
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8660451"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770149"
 ---
 # <a name="revenue-split-templates-in-subscription-billing"></a>Sjabloon voor gesplitste opbrengst in facturering van abonnementen
 
@@ -99,3 +99,54 @@ Volg deze stappen om een factureringsplanning te maken met een artikel dat is in
 > - De onderliggende artikelen worden automatisch ingevoerd op de regel van de verkooporder of de factureringsplanning.
 >
 > Als de optie **Opbrengstsplitsing automatisch maken** splitsen is ingesteld op **Nee**, volgt het gedrag de eerdere uitleg.
+
+## <a name="additional-revenue-split-information"></a>Aanvullende gegevens over opbrengstsplitsing
+
+Wanneer u een artikel toevoegt dat onderdeel is van een opbrengstsplitsing, houd dan rekening met de volgende punten: 
+
+- Het bovenliggende bedrag kan niet worden uitgesteld.
+- De waarden voor begindatum, einddatum, hoeveelheid, eenheid, locatie en magazijn van onderliggende artikelen worden gebaseerd op het bovenliggende artikel. Deze waarden kunnen niet worden gewijzigd voor de onderliggende artikelen. Alle wijzigingen moeten in het bovenliggende artikel worden aangebracht. 
+- De prijsmethode is **Vast** en kan niet worden gewijzigd.
+- Onderliggende artikelen kunnen worden toegevoegd of verwijderd.
+- Bovenliggende en onderliggende artikelen moeten dezelfde artikelengroep gebruiken. 
+- Onderliggende artikelen kunnen een van de volgende instellingen hebben:
+
+    - De velden **Factureringsfrequentie** en **Factureringsintervallen** worden ingesteld op dezelfde waarde als het bovenliggende artikel. 
+    - Het veld **Factureringsfrequentie** wordt ingesteld op **Eenmalig**. In dit geval wordt het veld **Factureringsintervallen** automatisch ingesteld op **1**. 
+
+- De som van de nettobedragen van de onderliggende artikelen is gelijk aan het bovenliggende bedrag. Als de toewijzingsmethode **Nulbedragen** is, zijn de som van de bedragen van de onderliggende artikelen en de som van het bovenliggende bedrag 0 (nul). 
+
+    > [!NOTE]
+    > Als de toewijzingsmethode **Nulbedrag bovenliggend** is, is de som (niet-nul) van de onderliggende artikelen niet gelijk aan het bovenliggende bedrag dat 0 (nul) is. Deze toewijzingsmethode wordt gebruikt voor interne doeleinden, zodat werknemers de onderliggende artikelen kunnen zien. Klanten kunnen echter alleen het bovenliggende artikel zien.
+
+- Als het MEA-type (Multiple Element Arrangement) van de verkooporder **Enkel** is, wordt de bijbehorende transactieregel voor opbrengsttoewijzing met meerdere elementen gemaakt wanneer de bovenliggende en onderliggende artikelen worden toegevoegd. 
+- Als de toewijzingsmethode voor een opbrengstsplitsing **Gelijke bedragen** is en het bovenliggende bedrag wordt gewijzigd, worden de bedragen opnieuw berekend voor alle onderliggende regels. 
+- Voor een opbrengstsplitsing waarbij de toewijzingsmethode **Variabel bedrag** is, gebeurt het volgende:
+
+    - Het nettobedrag van het bovenliggende artikel wordt weergegeven in de kolom **Bovenliggend bedrag**. Deze waarde kan worden bewerkt. De eenheidsprijs, het nettobedrag en de korting zijn echter 0 (nul) en kunnen niet worden bewerkt.
+    - De eenheidsprijs van onderliggende artikelen is 0 (nul). U kunt de eenheidsprijs of het nettobedrag bewerken. Wanneer u één waarde bewerkt, wordt de andere waarde automatisch bijgewerkt.
+
+- Voor een opbrengstsplitsing waarbij de toewijzingsmethode **Percentage** is, gebeurt het volgende:
+
+    - Het nettobedrag van het bovenliggende artikel wordt weergegeven in de kolom **Bovenliggend bedrag**. Deze waarde kan worden bewerkt. De eenheidsprijs, het nettobedrag en de korting zijn echter 0 (nul) en kunnen niet worden bewerkt. 
+    - Het nettobedrag van onderliggende artikelen wordt berekend als *Percentage* &times; *Bovenliggend bedrag*.
+
+- Voor een opbrengstsplitsing waarbij de toewijzingsmethode **Gelijk bedrag** is, gebeurt het volgende:
+
+    - Het nettobedrag van het bovenliggende artikel wordt weergegeven in de kolom **Bovenliggend bedrag**. Deze waarde kan worden bewerkt. De eenheidsprijs, het nettobedrag en de korting zijn echter 0 (nul) en kunnen niet worden bewerkt. 
+    - Het nettobedrag van de onderliggende artikelen wordt berekend door het bovenliggende bedrag gelijkelijk te verdelen over alle onderliggende artikelen. 
+    - Als onderliggende artikelen worden verwijderd of toegevoegd, worden het nettobedrag en de eenheidsprijzen opnieuw berekend, zodat alle onderliggende regels gelijke bedragen hebben. 
+    - Als het bovenliggende bedrag niet gelijkelijk kan worden verdeeld, kan het nettobedrag en de eenheidsprijs van het laatste onderliggende artikel iets meer of minder zijn dan het nettobedrag en de eenheidsprijs van de andere onderliggende artikelen. 
+
+- Voor een opbrengstsplitsing waarbij de toewijzingsmethode **Nulbedrag** is, gebeurt het volgende:
+
+    - De eenheidsprijs, het nettobedrag en de korting kunnen worden bewerkt. Het bovenliggende bedrag is 0 (nul) en kan niet worden bewerkt. 
+    - De waarden voor hoeveelheid, eenheid, locatie en magazijn van onderliggende artikelen worden gebaseerd op het bovenliggende artikel. U kunt deze waarden niet wijzigen voor de onderliggende artikelen. Alle wijzigingen moeten in het bovenliggende artikel worden aangebracht. 
+    - De eenheidsprijs en nettoprijs van onderliggende artikelen is 0 (nul) en kan niet worden bewerkt. 
+
+- Voor een opbrengstsplitsing waarbij de toewijzingsmethode **Nulbedrag bovenliggend** is, gebeurt het volgende:
+
+    - De eenheidsprijs, het bovenliggende bedrag en het nettobedrag van het bovenliggende artikel zijn 0 (nul).
+    - In een factureringsschema worden de onderliggende regels weergegeven alsof ze handmatig zijn toegevoegd, en worden alle waarden bijgewerkt op basis van de geselecteerde factureringsschemagroep. Deze waarden kunnen worden bewerkt. Voor onderliggende artikelen hebt u toegang tot de opties **Escalatie en korting** en **Geavanceerde prijscalculatie** door de velden **Hoeveelheid ingevoerd**, **Eenheidsprijs**, **Korting** en **Nettobedrag** te gebruiken in **Factureringsdetails weergeven**. 
+    - Op een verkooporder hebben de onderliggende regels een korting en kortingspercentage van 0 (nul). 
+    - De factureringsfrequentie van de bovenliggende en de onderliggende artikelen kan worden gewijzigd, en elke regel kan een andere frequentie hebben. Het bovenliggende artikel wordt echter automatisch bijgewerkt zodat het de kortste frequentie van de onderliggende regels gebruikt. Een opbrengstsplitsing heeft bijvoorbeeld twee onderliggende artikelen, waarvan er één de **Maandelijkse** factureringsfrequentie gebruikt en de andere de **Jaarlijkse** factureringsfrequentie. In dit geval wordt de factureringsfrequentie van het bovenliggende artikel gewijzigd in **Maandelijks**.

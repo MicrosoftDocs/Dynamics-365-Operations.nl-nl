@@ -2,19 +2,19 @@
 title: Informatie over btw-opsplitsing verbergen in orderoverzichten
 description: In dit onderwerp wordt beschreven hoe u informatie over btw-opsplitsing kunt verbergen in overzichten voor winkelwagens, uitchecken, orderbevestiging en orderdetailpagina's in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 04/21/2022
+ms.date: 05/17/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-03-28
-ms.openlocfilehash: 9890b5cd92f8c07e6feabb26f4fdd076cb7a02bc
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 9a0bff7afaa10e49ec05f18e2b0fae7a19b5e8af
+ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645215"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8767809"
 ---
 # <a name="hide-tax-breakup-information-in-order-summaries"></a>Informatie over btw-opsplitsing verbergen in orderoverzichten
 
@@ -46,6 +46,9 @@ Als u informatie over btw-opsplitsing in orderoverzichten wilt bekijken, schakel
 In de volgende afbeelding ziet u een voorbeeld van het selectievakje **Btw-opsplitsing weergeven in orderoverzicht** dat is gemarkeerd en is ingeschakeld in Site Builder.
 
 ![De optie Btw-opsplitsing weergeven in orderoverzicht in Site Builder.](media/prices-include-sales-tax-e-Commerce-site-settings.png)
+
+> [!NOTE]
+> Zie [Subtotaal van orderoverzicht bevat geen belastingen op toeslagen bij gebruik van aangepaste orderoverzichtmodules](troubleshoot/summary-taxes-custom-modules-10.0.27.md#resolution) als u aangepaste modules voor orderoverzichten hebt en u de functionaliteit voor het verbergen van de de informatie over btw-opsplitsing in orderoverzichten in Commerce versie 10.0.27 of hoger niet wilt overnemen.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

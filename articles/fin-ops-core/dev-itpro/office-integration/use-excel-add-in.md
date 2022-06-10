@@ -2,7 +2,7 @@
 title: Entiteitsgegevens weergeven en bijwerken met Excel
 description: In dit onderwerp wordt uitgelegd hoe u entiteitsgegevens in Microsoft Excel kunt openen en deze vervolgens kunt bekijken, bijwerken en bewerken met behulp van de Excel-invoegtoepassing van Microsoft Dynamics.
 author: jasongre
-ms.date: 10/01/2021
+ms.date: 05/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b97c585009b50c6623036d10f54e78a65a89cea
-ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
+ms.openlocfilehash: f5090674fc4f7c49c55a8a12aea8c567545d519f
+ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8464932"
+ms.lasthandoff: 05/16/2022
+ms.locfileid: "8762620"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Entiteitsgegevens weergeven en bijwerken met Excel 
 
@@ -110,7 +110,7 @@ Met de ontwerper kunt u de kolommen aanpassen die automatisch worden toegevoegd 
 5. Als u een veld (kolom) hebt toegevoegd, selecteert u **Vernieuwen** om een bijgewerkte set gegevens op te halen.
 
 ## <a name="change-the-publish-batch-size"></a>De batchgrootte voor publicatie wijzigen
-Wanneer gebruikers wijzigingen in gegevensrecords publiceren met de Excel-invoegtoepassing, worden de updates in batches verzonden. De standaardbatchgrootte voor publicatie is 100 rijen. In versie 10.0.17 en hoger geeft de functie **Configuratie van de batchgrootte voor publicatie in de Excel-invoegtoepassing toestaan** flexibele controle over de batchgrootte voor publicatie.
+Wanneer gebruikers wijzigingen in gegevensrecords publiceren met de Excel-invoegtoepassing, worden de updates in batches verzonden. De standaard (en maximale) omvang voor publicatiebatch is 100 rijen. De functie **Configuratie van omvang van publicatiebatch toestaan in de Excel-invoegtoepassing** geeft u echter flexibiliteit bij het verkleinen van de omvang van de publicatiebatch, vooral als u time-outs ziet wanneer u updates wilt publiceren vanuit Excel.
 
 Systeembeheerders kunnen een limiet die voor het hele systeem geldt, opgeven voor de batchgrootte voor publicatie voor "Openen in Excel"-werkmappen door het veld **Batchlimiet publiceren** in de sectie **App-parameters** van de pagina **Parameters voor Office-app** in te stellen.
 

@@ -2,7 +2,7 @@
 title: Productverzamelingsmodules
 description: In dit onderwerp vindt u een overzicht van de productverzamelingmodules in Microsoft Dynamics 365 Commerce.
 author: v-chgri
-ms.date: 01/28/2021
+ms.date: 05/18/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7bc76aa8d5728005711ee8f9758532a989e3568c
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 4ff891eef79835fb4a65535ce8152e5b17023b9c
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984539"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780404"
 ---
 # <a name="product-collection-modules"></a>Productverzamelingsmodules
 
@@ -70,11 +70,14 @@ De productverzamelingsmodule ondersteunt de [module voor snelle weergave](quick-
 Voer deze stappen uit om een productverzamelingsmodule aan een categoriepagina toe te voegen.
 
 1. Ga naar **Pagina's** en selecteer **Nieuw** om een nieuwe pagina te maken.
-1. Selecteer in het dialoogvenster **Een sjabloon kiezen** dezelfde sjabloon als die van de standaardpagina voor categorieën. Voer onder **Paginanaam** een naam in en selecteer vervolgens **OK**.
-1. Selecteer het weglatingsteken (**...**) in het vak **Sub-voettekst** en selecteer **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de module **Container** en selecteer vervolgens **OK**.
+1. Voer in het dialoogvenster **Een nieuwe pagina maken** onder **Paginanaam** een geschikte paginanaam in en selecteer vervolgens **Volgende**.
+1. Selecteer onder **Een sjabloon kiezen** dezelfde sjabloon als die van de standaardpagina voor categorieën en selecteer vervolgens **Volgende**.
+1. Selecteer onder **Een indeling kiezen** een pagina-indeling (bijvoorbeeld **Flexibele indeling**) en selecteer vervolgens **Volgende**.
+1. Controleer de paginaconfiguratie onder **Controle en voltooien**. Selecteer **Terug** als u de pagina-informatie wilt bewerken. Als de paginagegevens juist zijn, selecteert u **Pagina maken**. 
+1. Selecteer het beletselteken (**...**) in het vak **Subvoettekst** en selecteer **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Modules selecteren** de module **Container** en selecteer vervolgens **OK**.
 1. Selecteer het weglatingsteken (**...**) in het vak **Container** en selecteer **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de **Productverzamelingsmodule** en selecteer vervolgens **OK**.  
+1. Selecteer in het dialoogvenster **Modules selecteren** de module **Productverzameling** en selecteer vervolgens **OK**.  
 1. Selecteer **Een productlijst toevoegen** in het deelvenster met eigenschappen voor de productverzamelingsmodule.
 1. Selecteer in het dialoogvenster **Productlijstconfiguratie selecteren** het type lijst en de lijstbron, voer het aantal artikelen in en selecteer eventuele andere opties die beschikbaar zijn voor het lijsttype. Configureer andere opties die beschikbaar zijn voor het lijsttype. Meer informatie over lijsttypen vindt u in de tabel hieronder. 
 1. Selecteer **OK**.

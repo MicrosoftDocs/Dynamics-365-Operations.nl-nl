@@ -2,7 +2,7 @@
 title: Verwijderde of afgeschafte Platform-functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van apps voor financiën en bedrijfsactiviteiten.
 author: sericks007
-ms.date: 04/26/2022
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0cf0d4b3ff108645c8542ce10a0be58d29cc68ed
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 3de9b9ea0bd20d1346a7cdfd2f919f50374b164c
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644602"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811241"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Verwijderde of afgeschafte platform-functies
 
@@ -31,6 +31,33 @@ In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de v
 Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning rekening te houden met deze verwijderingen en afschaffingen. 
 
 Gedetailleerde informatie over objecten in apps voor financiële en bedrijfsactiviteiten is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van apps voor financiële en bedrijfsactiviteiten.
+
+
+## <a name="feature-deprecation-effective-june-2022"></a>Afschaffing van functie met ingang van juni 2022
+
+### <a name="finance-and-operations-dynamics-365-mobile-application-and-mobile-platform"></a>Mobiele toepassing en mobiel platform van Finance and Operations (Dynamics 365) 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | We schaffen de mobiele toepassing en het mobiele platform van Finance en Operations (Dynamics 365) af voor samenvoeging tot één mobiel platform, namelijk Power Apps. |
+| **Vervangen door een andere functie?**   | Ja, mobiele ervaringen via de gegevens van de app Finance and Operations kunnen met integratie van Power Platform worden ontwikkeld. Zie [Mobiele ervaringen maken](../power-platform/build-mobile-experiences.md) voor meer details. |
+| **Betrokken productgebieden**         | Apps voor financiële en bedrijfsactiviteiten |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft. De datum van de beëindiging van de ondersteuning is naar verwachting oktober 2024. |
+
+
+## <a name="platform-updates-for-version-10029-of-finance-and-operations-apps"></a>Platformupdates voor versie 10.0.29 van apps voor financiën en bedrijfsactiviteiten
+
+### <a name="panorama-tab-style"></a>Panorama-tabbladstijl
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Horizontaal schuivende pagina´s zijn uitgelijnd op verouderde indelingspatronen waarvan bekend is dat er problemen zijn met de bruikbaarheid en toegankelijkheid.  |
+| **Vervangen door een andere functie?**   | Nee, maar andere tabbladstijlen zijn wel beschikbaar. |
+| **Betrokken productgebieden**         | Webclient |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft. |
+
 
 ## <a name="feature-deprecation-effective-april-2022"></a>Kennisgeving van afschaffing van functie met ingang van april 2022
 

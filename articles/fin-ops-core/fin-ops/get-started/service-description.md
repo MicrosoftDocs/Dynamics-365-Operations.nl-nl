@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 26b2821f33ea23dde1fda1d461baa5de1b4f9efc
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 3385edf8961d04cf8bfc4ca06299f1911b76a4f5
+ms.sourcegitcommit: 2b119aec0e6f49bfd36125d9660f49cde5394446
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740647"
+ms.lasthandoff: 05/16/2022
+ms.locfileid: "8758764"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Serviceomschrijving voor apps voor financiën en bedrijfsactiviteiten
 
@@ -132,9 +132,9 @@ In deze sectie worden enkele gang van zaken beschreven voor de omgevings- en geg
 
 LCS biedt [self-service tools](../../dev-itpro/deployment/infrastructure-stack.md) en [gegevensverplaatsingsbewerkingen](../../dev-itpro/database/dbmovement-operations.md) die gebruikt worden voor het uitvoeren van omgevings- en gegevensbeheertaken. Hieronder volgen een aantal voorbeelden:
 
-**Gebeurtenis:** [een productie-exemplaar aanvragen](../imp-lifecycle/prepare-go-live.md#requesting-the-production-environment)
+**Gebeurtenis:** [een productie-exemplaar aanvragen](../imp-lifecycle/go-live-faq.md#when-can-i-configure-and-request-my-production-environment)
 
-- Voltooi de [Go-live controlelijst](../imp-lifecycle/prepare-go-live.md) en verzend deze naar het [Microsoft FastTrack](/dynamics365/fasttrack/)-team.
+- Vul de [Controlelijst voor go-live gereedheid](../imp-lifecycle/prepare-go-live.md) in en verzend deze naar het [Microsoft FastTrack](/dynamics365/fasttrack/)-team.
 - Voltooi de [LCS-abonnementsschatter](../../dev-itpro/lifecycle-services/subscription-estimator.md) voordat u een productie-exemplaar aanvraagt.
 - Voltooi alle implementatietaken die zijn opgegeven in de [LCS-methodologie](../../dev-itpro/lifecycle-services/create-methodology.md).
 

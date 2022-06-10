@@ -2,7 +2,7 @@
 title: Bestemmingen van elektronische rapportage (ER)
 description: Dit onderwerp biedt informatie over het beheer van ER-bestemmingen (elektronische rapportage), de ondersteunde typen bestemmingen en beveiligingsoverwegingen.
 author: nselin
-ms.date: 09/16/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e8e176b8d4e14eee2050b3c66f7547ff878b5174
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: e3154cb62531bf956365b420b454c98ead7f7335
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647088"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780455"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Bestemmingen van elektronische rapportage (ER)
 
@@ -45,7 +45,7 @@ U kunt ook een van de volgende vereisten installeren. Houd er echter rekening me
 - Microsoft Dynamics AX-toepassingsversie 7.0.1 (mei 2016)
 - [Hotfix voor bestemmingsbeheer van toepassing voor elektronische rapportage](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
-Er is ook een bestemmingstype [Afdrukken](er-destination-type-print.md). Als u deze wilt gebruiken, moet u Microsoft Dynamics 365 Finance versie 10.0.9 (april 2020) installeren.
+Er is ook een bestemmingstype [Afdrukken](er-destination-type-print.md). Als u deze wilt gebruiken, moet u Microsoft Microsoft Dynamics 365 Finance versie 10.0.9 (april 2020) installeren.
 
 ## <a name="overview"></a>Overzicht
 
@@ -173,11 +173,11 @@ In versies van Finance **vóór versie 10.0.18** kunt u de optie voor PDF-conver
 
 ### <a name="limitations"></a>Beperkingen
 
-De optie PDF-conversie is alleen beschikbaar voor cloudimplementaties.
+Vanaf Finance **10.0.9** is de optie PDF-conversie alleen beschikbaar voor cloudimplementaties. Vanaf versie **10.0.27** van Finance is de optie PDF-conversie alleen beschikbaar voor on-premises implementaties waarvoor [internetconnectiviteit](../user-interface/client-disconnected.md) is ingeschakeld.
 
 De geproduceerde PDF is beperkt tot een maximumlengte van 300 pagina's.
 
-In Finance **versie 10.0.9** wordt alleen de liggende afdrukstand ondersteund in het PDF-document dat wordt gegenereerd uit een Excel-uitvoer. In Finance **versie 10.0.10 (mei 2020) en hoger** kunt u [de afdrukstand opgeven](#SelectPdfPageOrientation) in het PDF-document dat wordt gemaakt op basis van de Excel-uitvoer als u de ER-bestemming configureert.
+Vanaf Finance **versie 10.0.9** wordt alleen de liggende afdrukstand ondersteund in het PDF-document dat wordt gegenereerd uit een Excel-uitvoer. Vanaf Finance **versie 10.0.10** kunt u [de afdrukstand opgeven](#SelectPdfPageOrientation) in het PDF-document dat wordt gemaakt op basis van de Excel-uitvoer als u de ER-bestemming configureert.
 
 Alleen de algemene systeemlettertypen van het Windows-besturingssysteem worden gebruikt om uitvoer te converteren die geen ingesloten lettertypen bevat.
 

@@ -2,35 +2,32 @@
 title: Dynamische e-commercepagina's maken op basis van URL-parameters
 description: In dit onderwerp wordt beschreven hoe u een Microsoft Dynamics 365 Commerce-e-commercepagina kunt instellen die dynamische inhoud kan aanbieden op basis van URL-parameters.
 author: StuHarg
-ms.date: 01/28/2021
+ms.date: 05/27/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ROBOTS: ''
-audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+audience: Application User, Developer, IT Pro
+ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 348fdb30f4d0104e80bea5235c1e337b9f977311
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3443dad9ead40b59da994c56e22fe2599f4bac82
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694335"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811026"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>Dynamische e-commercepagina's maken op basis van URL-parameters
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp wordt beschreven hoe u een Microsoft Dynamics 365 Commerce-e-commercepagina kunt instellen die dynamische inhoud kan aanbieden op basis van URL-parameters.
 
-Een e-commercepagina kan worden geconfigureerd voor verschillende soorten inhoud, gebaseerd op een segment in het URL-pad. Daarom staat de pagina bekend als een dynamische pagina. Het segment wordt gebruikt als parameter om de pagina-inhoud op te halen. Een pagina met de naam **blog\_viewer** wordt bijvoorbeeld gemaakt en aan de URL `https://fabrikam.com/blog` gekoppeld. Deze pagina kan vervolgens worden gebruikt om andere inhoud weer te geven, gebaseerd op het laatste segment in het URL-pad. Het laatste segment in de URL `https://fabrikam.com/blog/article-1` is bijvoorbeeld **artikel-1**.
+Een e-commercepagina kan worden geconfigureerd voor verschillende soorten inhoud, gebaseerd op een segment in het URL-pad. Daarom staat de pagina bekend als een dynamische pagina. Het segment wordt gebruikt als parameter om de pagina-inhoud op te halen. Een pagina gemaakt in Site Builder met de naam **blog\_viewer** wordt bijvoorbeeld toegewezen aan de URL `https://fabrikam.com/blog`. Deze pagina kan vervolgens worden gebruikt om andere inhoud weer te geven, gebaseerd op het laatste segment in het URL-pad. Het laatste segment in de URL `https://fabrikam.com/blog/article-1` is bijvoorbeeld **artikel-1**.
 
-Aparte aangepaste pagina's die de dynamische pagina overschrijven, kunnen ook aan segmenten in het URL-pad worden gekoppeld. Een pagina met de naam **blog\_overzicht** wordt bijvoorbeeld gemaakt en aan de URL `https://fabrikam.com/blog/about-this-blog` gekoppeld. Wanneer deze URL wordt aangevraagd, wordt de pagina **blog\_overzicht** die is gekoppeld aan de parameter **/over-dit-blog** geretourneerd in plaats van de pagina **blog\_viewer**.
+U kunt een parameter-URL-segment ook overschrijven met een Site Builder-pagina. Een pagina gemaakt in Site Builder met de naam **blog\_summary** kan bijvoorbeeld worden toegewezen aan de URL `https://fabrikam.com/blog/about-this-blog`. Wanneer de URL `https://fabrikam.com/blog` wordt aangevraagd met het segment `/about-this-blog` aan het einde, wordt de inhoud van de pagina **blog\_summary** geretourneerd in plaats van dat het segment `/about-this-blog` wordt geïnterpreteerd als parameter die door de pagina `https://fabrikam.com/blog` moet worden gebruikt. 
+
+Wanneer u de namen selecteert voor de parameters die moeten worden doorgegeven aan de dynamische pagina, kan de naam van de dynamische pagina zoals deze in de URL (`/blog` in het bovenstaande voorbeeld) wordt weergegeven, niet worden gebruikt als parameternaam of als subtekenreeks van een parameternaam. 
 
 > [!NOTE]
 > De functionaliteit voor het hosten, ophalen en weergeven van dynamische pagina-inhoud is geïmplementeerd met een aangepaste module. Zie [Uitbreidbaarheid van online kanalen](e-commerce-extensibility/overview.md) voor meer informatie.
@@ -60,7 +57,7 @@ Volg deze stappen om de route naar de dynamische pagina in Commerce Site Builder
 1. Selecteer onder **Parameter-URL-paden** de optie **Toevoegen** en voer het URL-pad in dat u hebt ingevoerd toen u de URL hebt gemaakt (in dit voorbeeld **/blog**).
 1. Selecteer **Opslaan en publiceren**.
 
-Nadat de route is geconfigureerd, retourneren alle aanvragen naar het pad met de parameter-URL de pagina die aan die URL is gekoppeld. Als er aanvragen zijn die een extra segment bevatten, wordt de bijbehorende pagina geretourneerd en wordt de pagina-inhoud opgehaald door het segment als parameter te gebruiken. `https://fabrikam.com/blog/article-1` retourneert bijvoorbeeld de pagina **blog\_overzicht**, waarna de pagina-inhoud wordt opgehaald met de parameter **/artikel-1**.
+Nadat de route is geconfigureerd, retourneren alle aanvragen naar het pad met de parameter-URL de pagina die aan die URL is gekoppeld. Als er aanvragen zijn die een extra segment bevatten, wordt de bijbehorende pagina geretourneerd en wordt de pagina-inhoud opgehaald door het segment als parameter te gebruiken. `https://fabrikam.com/blog/article-1` retourneert bijvoorbeeld de pagina `https://fabrikam.com/blog`, waarbij de inhoud wordt weergegeven die is opgehaald met de parameter **/article-1**.
 
 ## <a name="override-a-parameterized-url-with-a-custom-page"></a>Een parameter-URL met een aangepaste pagina overschrijven
 

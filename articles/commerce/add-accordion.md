@@ -2,7 +2,7 @@
 title: Accordeonmodule
 description: In dit onderwerp worden accordeonmodules voor functies beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fa2515a0cbc5b69a1a69e15ec9e1ba2739fa2fbeffb5b0eb22b49fd8cab18e6f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e17476d745da6f498b4f3ed90d55b0d13a0264b6
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719522"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780684"
 ---
 # <a name="accordion-module"></a>Accordeonmodule
 
@@ -57,17 +57,17 @@ Voer de volgende stappen uit om een accordeonmodule aan een pagina met veelgeste
 
 1. Ga naar **Pagina's** en gebruik de sjabloon Fabrikam-marketing (of een sjabloon zonder beperkingen) om een nieuwe pagina te maken met de naam **Veelgestelde vragen over winkel**.
 1. Selecteer in het vak **Hoofd** van de **Standaardpagina** het weglatingsteken (**...**) en vervolgens **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de module **Container** en selecteer vervolgens **OK**.
+1. Selecteer in het dialoogvenster **Modules selecteren** de module **Container** en selecteer vervolgens **OK**.
 1. Selecteer het weglatingsteken (**...**) in het vak **Container** en selecteer **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de **Accordeonmodule** en selecteer vervolgens **OK**.
+1. Selecteer in het dialoogvenster **Modules selecteren** de module **Accordeon** en selecteer vervolgens **OK**.
 1. Selecteer in het eigenschappen venster van de accordeonmodule de optie **Kop** naast het potloodsymbool.
 1. Voer in het dialoogvenster **Kop** onder **Koptekst** **Veelgestelde vragen** in. Selecteer vervolgens **OK**.
 1. Schakel in het eigenschappenvenster van de accordeonmodule het selectievakje **Alles uitvouwen weergeven** in en selecteer vervolgens in het veld **Stijl van interactie** de optie **Onafhankelijk**.
 1. Selecteer het weglatingsteken (**...**) in het vak **Accordeon** en selecteer **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de **Accordeonitemmodule** en selecteer vervolgens **OK**.
+1. Selecteer in het dialoogvenster **Modules selecteren** de module **Accordeonitem** en selecteer vervolgens **OK**.
 1. Voer in het eigenschappenvenster van de accordeonitemmodule onder **Titel** de titeltekst in (bijvoorbeeld **Hoe werkt retourneren?**).
 1. Selecteer het weglatingsteken (**...**) in het vak **Accordeonitem** en selecteer **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de module **Tekstblok** en selecteer vervolgens **OK**.
+1. Selecteer in het dialoogvenster **Modules selecteren** de module **Tekstblok** en selecteer vervolgens **OK**.
 1. Voer in het eigenschappenvenster van de tekstblokmodule een alinea tekst in (bijvoorbeeld **Retouren worden verwerkt via het callcenter. Neem contact op met 1-800-FABRIKAM voor retouren. Producten hebben een teruggavebeleid van 30 dagen. Retouren moeten worden gestart binnen deze tijdsperiode.**).
 1. Voeg in het vak **Accordeon** nog een paar accordeonitemmodules toe. Voeg in elke accordeonitemmodule een tekstblokmodule toe die inhoud bevat.
 1. Selecteer **Opslaan** en vervolgens **Preview** om de pagina te bekijken. Op de pagina wordt een accordeonmodule weergegeven die de inhoud bevat die u hebt toegevoegd.

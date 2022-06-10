@@ -2,19 +2,19 @@
 title: Verbeteringen van boekingsfunctionaliteit voor overzichten
 description: In dit onderwerp worden verbeteringen beschreven die zijn aangebracht in de functie voor het boeken van overzichten.
 author: analpert
-ms.date: 04/27/2022
+ms.date: 05/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: be9aa68aec1fd7deff315234a6dbf41edc3d6819
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: f3937ee7b34b7204c31d922900029ae3a2c59e18
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649014"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770135"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Verbeteringen van boekingsfunctionaliteit voor overzichten
 
@@ -151,6 +151,9 @@ De weergave met samengevoegde transacties biedt de volgende voordelen:
 - De gebruiker heeft zicht op de wijze waarop transacties worden samengevoegd.
 - De gebruiker heeft een volledige audittrail, van transacties tot verkooporders, tot verkoopfacturen. Deze audittrail was niet beschikbaar in de verouderde functie voor het boeken van overzichten.
 - Samengevoegde XML-bestanden maken het eenvoudiger om problemen te identificeren tijdens het maken van verkooporders en tijdens facturering.
+
+> [!NOTE]
+> Wanneer transacties worden samengevoegd, is het personeelslid dat aan de transactie is toegewezen, niet meer beschikbaar in het **Rapport verkoop van beste personeelsleden**. Dit betekent dat niet alle transacties in het **Rapport verkoop van beste personeelsleden** worden weergegeven. U wordt aangeraden het **Rapport verkoop van beste personeelsleden** niet te gebruiken met samengevoegde transacties.
 
 ### <a name="journal-vouchers"></a>Journaalboekstukken
 

@@ -2,24 +2,19 @@
 title: Overwegingen bij SEO (Search Engine Optimization) voor uw site
 description: In dit onderwerp komen overwegingen aan de orde voor uw site over SEO (Search Engine Optimization), van ontwikkeling tot productie.
 author: psimolin
-ms.date: 10/01/2019
+ms.date: 05/25/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application user
+audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
-ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: df92aeae967bbf248b90dffc6bc2239a8d2959183acb9e9181bc344b9e3eff8d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2f90581766dba3d3a671df52ec08339a1a0fd7dc
+ms.sourcegitcommit: 9dd2d32fc303023a509d58ec7b5935f89d1e9c6d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716852"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "8806400"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>Overwegingen bij SEO (Search Engine Optimization) voor uw site
 
@@ -30,11 +25,15 @@ In dit onderwerp komen overwegingen aan de orde voor uw site over SEO (Search En
 
 ## <a name="a-site-that-is-under-development"></a>Een site die wordt ontwikkeld
 
-Terwijl een site in ontwikkeling is, moeten alle site pagina's de metatags **NOINDEX** en **NOFOLLOW** hebben, zodat zoekmachines de pagina's niet indexeren en ontwikkelingsversies van uw site in hun cache opslaan. Als u deze configuratie wilt uitvoeren, moet u de standaardmodule met metatags aan de paginasjabloon voor de site toevoegen. De standaardeigenschappen voor metatags zijn dan beschikbaar in het gedeelte SEO-eigenschappen van de pagina-editor. U kunt deze eigenschappen gebruiken om de metatags te beheren.
+Om ervoor te zorgen dat zoekmachines een site in ontwikkeling niet indexeren, moeten alle sitepagina's de metatags **noindex** en **nofollow** hebben. Een aanbevolen procedure is om een fragment te maken op basis van de [module MetaTags](metatags-module.md) die de volgende metatag-vermelding bevat en ervoor te zorgen dat het fragment wordt toegevoegd aan de HTML-sectie \<head\> van alle sjablonen die op uw site worden gebruikt.
+
+```html
+<meta name="robots" content="noindex,nofollow" /> 
+```
 
 ## <a name="soft-launch-of-a-site"></a>Een zachte start voor een site
 
-Tijdens een "zachte start" wordt een website beschikbaar gemaakt voor een beperkt publiek of een beperkte markt voordat de volledige start wordt uitgevoerd. Als u uw website zacht wilt starten, moet u overwegen om de metatags **NOINDEX** te laten staan. Op deze manier zorgt u ervoor dat de zachte start beperkt blijft tot de beperkte doelgroep die u wilt bereiken.
+Tijdens een "zachte start" wordt een website beschikbaar gemaakt voor een beperkt publiek of een beperkte markt voordat de volledige start wordt uitgevoerd. Als u uw website zacht wilt starten, moet u overwegen om de **noindex**-metatags te laten staan. Op deze manier zorgt u ervoor dat de zachte start beperkt blijft tot de beperkte doelgroep die u wilt bereiken.
 
 ## <a name="a-site-that-is-in-production"></a>Een site in productie
 
@@ -44,9 +43,9 @@ Om de indexering van zoekmachines te optimaliseren, wordt bij de weergave zowel 
 
 ### <a name="page-seo-settings-for-internal-preview-limited-audiences-and-all-audiences"></a>SEO-instellingen voor een interne voorvertoning, beperkte doelgroepen en alle doelgroepen
 
-Omdat Dynamics 365 Commerce ondersteuning biedt voor WYSIWYG-voorbeelden in visuele paginabouwer, kunnen ontwerpers de pagina-inhoud voorbereiden zonder dat de informatie zichtbaar wordt voor bezoekers van de site. Als een pagina moet worden gepubliceerd voor een beperkte doelgroep, moet deze de metatag **NOINDEX** hebben, zodat de pagina niet door zoekmachines wordt geïndexeerd. Wanneer de pagina vervolgens gereed is voor alle doelgroepen, moeten alle basis SEO-metagegevens aanwezig zijn om de efficiëntie van de indexering van de zoekmachine te optimaliseren. Bovendien moet de metatag **NOLIMIT** worden verwijderd.
+Omdat Dynamics 365 Commerce ondersteuning biedt voor WYSIWYG-voorbeelden in visuele paginabouwer, kunnen ontwerpers de pagina-inhoud voorbereiden zonder dat de informatie zichtbaar wordt voor bezoekers van de site. Als een pagina moet worden gepubliceerd voor een beperkte doelgroep, moet deze de metatag **noindex** hebben, zodat de pagina niet door zoekmachines wordt geïndexeerd. Wanneer de pagina vervolgens gereed is voor alle doelgroepen, moeten alle basis SEO-metagegevens aanwezig zijn om de efficiëntie van de indexering van de zoekmachine te optimaliseren. Bovendien moet de metatag **nolimit** worden verwijderd.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [e-Commerce-gebruikers en -rollen beheren](manage-ecommerce-users-roles.md)
 

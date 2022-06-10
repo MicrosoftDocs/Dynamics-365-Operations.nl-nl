@@ -2,7 +2,7 @@
 title: Online en offline verkooppuntbewerkingen (POS)
 description: Dit onderwerp bevat meer informatie over POS-bewerkingen (Point Of Sale) in Dynamics 365 Commerce. Hier wordt aangegeven waar in de toepassing de bewerkingen kunnen worden aangeroepen en of deze beschikbaar zijn in de offlinemodus.
 author: jblucher
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dc281a691b34731fb0b5986222b41b436912c782
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 7e4556ad11cbea0cb8fb3c5447116a1b54576e17
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740677"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811197"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Online en offline verkooppuntbewerkingen (POS)
 
@@ -44,7 +44,7 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 > [!NOTE]
 > De onderstaande bewerkingen gelden voor de meest recente versie van Commerce. Sommige bewerkingen zijn mogelijk gewijzigd of mogelijk niet beschikbaar in eerdere versies.
 
-| Id   | Bewerking                                         | Description                                                                                                                                                                                                    | Gebruikersbewerking?    | Transactiescherm | Welkomstscherm | Offline beschikbaar? | Landspecifiek |
+| Id   | Bewerking                                         | Description                                                                                                                                                                                                    | Gebruikersbewerkingen    | Transactiescherm | Welkomstscherm | Offline beschikbaar? | Landspecifiek |
 | ---- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------ | -------------- | ----------------- | --------------- |
 | 100  | Productverkoop                                      | Een opgegeven product toevoegen aan de transactie.                                                                                                                                                                    | Ja            | Ja                | Ja            | Ja               | Nr.              |
 | 101  | Prijscontrole                                       | Zoek de prijs voor een opgegeven product op.                                                                                                                                        | Ja            | Ja                | Ja            | Ja               | Nr.              |
@@ -273,11 +273,11 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 | 1219 | URL openen in POS                                   | In POS een URL openen die is geconfigureerd door een beheerder.                                                                                                                                                                           | Ja            | Ja                | Ja            | Ja               | Nr.              |
 | 1220 | Kluis beheren                                       | De kluis voor verschillende kassa's beheren.                                                                                                                                                                       | Ja            | Ja                | Ja            | Ja               | Nr.              |
 | 1221 | Uitgestelde transacties ongeldig maken                       | Uitgestelde transacties ongeldig maken                                                                                                                                                                               | Ja            | Ja                | Ja            | Ja               | Nr.              |
-| 1300 | Fiscale registratie overslaan                          | Fiscale registratie overslaan.                                                                                                                                                                                       | Ja            | Ja                | Ja            | Ja               | Ja             |
-| 1301 | Fiscale gebeurtenis markeren als geregistreerd                      |  Fiscale gebeurtenis markeren als geregistreerd.                                                                                                                                                                                  | Ja            | Ja                | Ja            | Ja               | Ja             |
-| 1302 | Fiscaal registratieproces voltooien              | Het fiscale registratieproces voltooien.                                                                                                                                                                           | Ja            | Ja                | Ja            | Ja               | Ja             |
-| 1303 | Overslaan van fout in statuscontrole                           | Overslaan van fout in statuscontrole.                                                                                                                                                                                        | Ja            | Ja                | Ja            | Ja               | Ja             |
-| 1304 |  Fiscale registratie uitstellen                     | Fiscale registratie uitstellen.                                                                                                                                                                                  | Ja            | Ja                | Ja            | Ja               | Ja             |
+| 1300 | Fiscale registratie overslaan                          | Fiscale registratie overslaan.                                                                                                                                                                                       | Nr.            | Nr.                | Nr.            | Ja               | Nr.             |
+| 1301 | Fiscale gebeurtenis markeren als geregistreerd                      |  Fiscale gebeurtenis markeren als geregistreerd.                                                                                                                                                                                  | Nr.            | Nr.                | Nr.            | Ja               | Nr.             |
+| 1302 | Fiscaal registratieproces voltooien              | Het fiscale registratieproces voltooien.                                                                                                                                                                           | Nr.            | Nr.                | Ja            | Ja               | Ja             |
+| 1303 | Overslaan van fout in statuscontrole                           | Overslaan van fout in statuscontrole.                                                                                                                                                                                        | Ja            | Ja                | Ja            | Ja               | Nr.             |
+| 1304 |  Fiscale registratie uitstellen                     | Fiscale registratie uitstellen.                                                                                                                                                                                  | Nr.            | Nr.                | Nr.            | Ja               | Nr.             |
 | 1400 | Controlelijsten en taken beheren                       | De controlelijst en taken van de werknemer beheren.                                                                                                                                                                        | Nr.             | Nr.                 | Ja            | Nr.                | Nr.              |
 | 2000 | Beheer plannen                               | Deze bewerking wordt nog niet ondersteund.                                                                                                                                                                           | Ja            | Ja                | Ja            | Nee                | Nee              |
 | 2001 | Aanvragen plannen                                 | Deze bewerking wordt nog niet ondersteund.                                                                                                                                                                           | Ja            | Ja                | Ja            | Nr.                | Nr.              |

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 20e48fee237615c7b1acdb564e5e524d393f8eba
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 598e29ead50e1ecb249a7338c7f0952a912b4f69
+ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469892"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809090"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migratie naar Planningsoptimalisatie voor hoofdplanning
 
@@ -63,7 +63,7 @@ Uitzonderingen voor de migratie naar Planningsoptimalisatie zijn momenteel allee
 
 Nadat de vereiste functies beschikbaar zijn, geeft Microsoft een respijtperiode totdat de uitzondering is verlopen. De omgevingsbeheerder wordt geïnformeerd wanneer de vereiste functies beschikbaar zijn geworden en de respijtperiode is gestart.
 
-In het volgende stroomdiagram worden de gegevens in dit onderwerp samengevat, zodat u snel kunt zien of u een uitzondering moet aanvragen. Als u een uitzondering moet aanvragen, vult u de [Plannings- en uitzonderingsvragenlijst voor optimalisatie](https://go.microsoft.com/fwlink/?linkid=2144962) in en dient u deze in.
+In het volgende stroomdiagram worden de gegevens in dit onderwerp samengevat, zodat u snel kunt zien of u een uitzondering moet aanvragen. Als u een uitzondering moet aanvragen, vult u de [Plannings- en uitzonderingsvragenlijst voor optimalisatie](https://go.microsoft.com/fwlink/?linkid=2144962) in en dient u deze in. De productgroep is verantwoordelijk voor het evalueren en goedkeuren van elke uitzonderingsaanvraag. Dien daarom uw aanvraag rechtstreeks bij de productgroep in via de koppeling en maak geen ondersteuningskaart voor de productgroep. Als uw aanvraag wordt afgewezen, moet u geen ondersteuningsbewijs maken, omdat Microsoft Support niet opnieuw uitzonderingen kan beoordelen of verlenen.
 
 ![Stroomdiagram uitzonderingen.](media/exception-diagram.png "Stroomdiagram uitzonderingen")
 

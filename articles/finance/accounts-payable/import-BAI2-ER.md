@@ -1,6 +1,6 @@
 ---
 title: Importeren van geavanceerde bankafstemming instellen via Elektronische rapportage
-description: In dit onderwerp wordt uitgelegd hoe u Elektronische rapportage moet gebruiken om het proces voor het importeren van geavanceerde bankafstemming voor BAI2-afschriften in te stellen.
+description: In dit onderwerp wordt uitgelegd hoe u Elektronische rapportage moet gebruiken om het proces voor het importeren van geavanceerde bankafstemming in te stellen.
 author: panolte
 ms.date: 03/30/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 39f1d8ba561ab0e36346f1dfb4f70df318c92a37
-ms.sourcegitcommit: cf7d4af11bf85638ee831a28ea5ee1a1e041a675
+ms.openlocfilehash: 30530a9870ba2ff0546237d2698d1675afa78104
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/04/2022
-ms.locfileid: "8544478"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770189"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Importeren van geavanceerde bankafstemming instellen via Elektronische rapportage
 
 [!include [banner](../includes/banner.md)]
 
-Met de functie Geavanceerde bankafstemming kunt u elektronische bankafschriften importeren en deze automatisch afstemmen met banktransacties in Microsoft Dynamics 365 Finance. In dit onderwerp wordt uitgelegd hoe u de importfunctionaliteit voor uw BAI2-bankafschriften kunt instellen.
+Met de functie Geavanceerde bankafstemming kunt u elektronische bankafschriften importeren en deze automatisch afstemmen met banktransacties in Microsoft Dynamics 365 Finance. In dit onderwerp wordt uitgelegd hoe u de importfunctionaliteit voor uw bankafschriften kunt instellen. De instelling voor de importeren van bankafschriften varieert, afhankelijk van de indeling van uw elektronische bankafschrift. Microsoft Dynamics 365 Finance ondersteunt drie indelingen voor bankafschriften: ISO20022, MT940 en BAI2. 
 
 ## <a name="set-up-the-electronic-reporting-configuration"></a>De configuratie van Elektronische rapportage instellen
 
@@ -62,3 +62,14 @@ Met de functie Geavanceerde bankafstemming kunt u elektronische bankafschriften 
 5. Selecteer **Bladeren** en selecteer het bestand **BAI**.
 6. Selecteer **Uploaden**.
 7. Selecteer **OK** om het geselecteerde bestand te importeren.
+
+
+## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Voorbeelden van bankafschriftindelingen en technische indelingen
+Hieronder ziet u voorbeelden van de technische indelingsdefinities van geavanceerde bankafstemmingsimportbestanden en drie gerelateerde voorbeeldbestanden voor bankafschriften: [Voorbeelden van importbestanden](//download.microsoft.com/download/8/e/c/8ec8d2d0-eb8c-41fb-ad8c-f01a4d670a44/Dynamics365FinanceAdvancedBankStatementLayouts.xlsx)  
+
+| Technische indelingsdefinitie                             | Voorbeeldbestand van bankafschrift          |
+|---------------------------------------------------------|--------------------------------------|
+| DynamicsAXMT940Layout | [MT940StatementExample](//download.microsoft.com/download/2/d/c/2dcc4e55-ddc8-4a74-b79c-250fae201c3c/mt940StatementExample.txt)     |
+| DynamicsAXISO20022Layout | [ISO20022StatementExample](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdownload.microsoft.com%2Fdownload%2F1%2F5%2F5%2F155d84ed-c250-48f3-b0b1-c5a431e7855b%2FISO20022-MultipleStatements.xml&data=04%7C01%7CRobert.Schlomann%40microsoft.com%7C30d0c233cb6546547d0a08d8f4965edc%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637528273956712775%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=3VzvLZK%2BO8PjuI7XVdC6rD2j3nUJfteo7zFp%2B1s9BwM%3D&reserved=0)             |
+| DynamicsAXBAI2Layout    | [BAI2StatementExample](//download.microsoft.com/download/1/1/6/11693f57-bfc1-4993-a274-5fb978be70fa/BAI2StatementExample.txt)     |
+

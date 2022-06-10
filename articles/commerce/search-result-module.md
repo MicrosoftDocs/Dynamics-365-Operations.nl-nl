@@ -2,7 +2,7 @@
 title: Module voor zoekresultaten
 description: In dit onderwerp worden modules voor zoekresultaten beschreven en wordt aangegeven hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/21/2022
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 15b3bb50eb0b75fa19ac8e136da83cb362b4cec6
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: dcf3dedbb7c499135bbae45b917153854ecd4a28
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644921"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780913"
 ---
 # <a name="search-results-module"></a>Module voor zoekresultaten
 
@@ -65,23 +65,26 @@ De module voor zoekresultaten ondersteunt de [module voor snelle weergave](quick
 
 ## <a name="add-a-search-results-module-to-a-category-page"></a>Een module voor zoekresultaten aan een categoriepagina toevoegen
 
-Voer deze stappen uit om een module voor zoekresultaten aan een categoriepagina toe te voegen.
+Voer de volgende stappen uit om een module voor zoekresultaten toe te voegen aan een categoriepagina in Site Builder.
 
 1. Ga naar **Sjablonen** en selecteer **Nieuw** om een nieuwe sjabloon te maken.
 1. Voer in het dialoogvenster **Nieuwe sjabloon** de naam **Zoekresultaten** in en selecteer vervolgens **OK**.
-1. Selecteer het weglatingsteken (...) in het vak **Hoofdtekst** en selecteer **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de module **Standaardpagina** en selecteer vervolgens **OK**.
-1. Selecteer in het vak **Hoofd** van de module **Standaardpagina** het weglatingsteken (...) en vervolgens **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de module **Container** en selecteer vervolgens **OK**.
-1. Selecteer het weglatingsteken (...) in het vak **Container** en selecteer **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de module **Breadcrumb** en selecteer vervolgens **OK**.
+1. Selecteer in het vak **Hoofdtekst** het beletselteken (...) en selecteer vervolgens **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Modules selecteren** de module **Standaardpagina** en selecteer vervolgens **OK**.
+1. Selecteer in het vak **Hoofd** van de module **Standaardpagina** het beletselteken (...) en selecteer vervolgens **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Modules selecteren** de module **Container** en selecteer vervolgens **OK**.
+1. Selecteer in het vak **Container** het beletselteken (...) en selecteer vervolgens **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Modules selecteren** de module **Breadcrumb** en selecteer vervolgens **OK**.
 1. Voer in het eigenschappenvenster **Breadcrumb** de waarde **1** in voor **Min. voorvallen**.
-1. Selecteer het weglatingsteken (...) in het vak **Container** en selecteer **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de module **Zoekresultaten** en selecteer vervolgens **OK**.
+1. Selecteer in het vak **Container** het beletselteken (...) en selecteer vervolgens **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Modules selecteren** de module **Zoekresultaten** en selecteer vervolgens **OK**.
 1. Voer in het eigenschappenvenster **Zoekresultaten** de waarde **1** voor **Min. voorvallen** in en stel vervolgens andere vereiste eigenschappen in voor de module voor zoekresultaten. Door deze eigenschappen in de sjabloon in te stellen, zorgt u ervoor dat de aanpassingen voor een specifieke categoriepagina automatisch deze instellingen bevatten.
 1. Selecteer **Bewerken voltooien** en **Publiceren** om de sjabloon te publiceren.
 1. Ga naar **Pagina's** en selecteer **Nieuw** om een nieuwe pagina te maken.
-1. Selecteer in het dialoogvenster **Een sjabloon kiezen** de sjabloon **Zoekresultaten** die u hebt gemaakt, voer **Categoriepagina** voor **Paginanaam** in en selecteer **OK**. Aangezien alle waarden in de sjabloon zijn ingesteld, kan de pagina worden gepubliceerd.
+1. Voer in het dialoogvenster **Een nieuwe pagina maken** onder **Paginanaam** **Categoriepagina** in en selecteer vervolgens **Volgende**.
+1. Selecteer onder **Een sjabloon kiezen** de sjabloon **Zoekresultaten** die u hebt gemaakt en selecteer vervolgens **Volgende**.
+1. Selecteer onder **Een indeling kiezen** een pagina-indeling (bijvoorbeeld **Flexibele indeling**) en selecteer vervolgens **Volgende**.
+1. Controleer de paginaconfiguratie onder **Controle en voltooien**. Selecteer **Terug** als u de pagina-informatie wilt bewerken. Als de paginagegevens juist zijn, selecteert u **Pagina maken**.
 1. Selecteer **Bewerken voltooien** om de pagina in te checken en selecteer **Publiceren** om te publiceren.
 
 ## <a name="enable-inventory-awareness-for-the-search-results-module"></a>Inzicht in de voorraad voor de module voor zoekresultaten inschakelen
@@ -102,7 +105,7 @@ De voorraadbewuste zoekfunctie voor producten gebruikt productkenmerken om infor
 
 Volg deze stappen om specifieke productkenmerken te maken voor de module voorraadbewuste zoekresultaten.
 
-1. Ga naar **Retail en Commerce \> IT Retail en Commerce \> Producten en voorraad**.
+1. Ga in Headquarters naar **Detailhandel en commerce \> IT detailhandel en commerce \> Producten en voorraad**.
 1. Selecteer en open **Productkenmerken vullen met voorraadniveau**.
 1. Voer in het dialoogvenster de volgende informatie in:
 
@@ -116,11 +119,11 @@ Volg deze stappen om specifieke productkenmerken te maken voor de module voorraa
 
 Volg deze stappen om de productkenmerken voor een online kanaal te configureren. 
 
-1. Ga naar **Retail en Commerce \> Kanaalinstellingen \> Kanaalcategorieën en productkenmerken**.
-2. Selecteer een online kanaal waarvoor u de moduel voor voorraadbewuste zoekresultaten wilt inschakelen.
-3. Selecteer en open een gekoppelde kenmerkgroep en voeg vervolgens het nieuwe productkenmerk hieraan toe.
-4. Selecteer in Commerce-versies vóór 10.0.27 de optie **Metagegevens van kenmerken instellen**, selecteer het zojuist toegevoegde productkenmerk en schakel vervolgens de opties **Kenmerk in kanaal weergeven**, **Ophaalbaar**, **Kan worden verfijnd** en **Kan worden opgezocht** in.
-5. Ga naar **Retail en commerce \> Retail en commerce IT \> Distributieplanning** en voer taak **1150 (Catalogus)** uit. Als u de taak **Productkenmerken invullen met voorraadniveau** inplant als een batchproces, bevelen wij aan dat u ook de 1150-taak inplant als een batchproces en deze met dezelfde frequentie laat uitvoeren.
+1. Ga in Headquarters naar **Retail en Commerce \> Kanaalinstellingen \> Kanaalcategorieën en productkenmerken**.
+1. Selecteer een online kanaal waarvoor u de moduel voor voorraadbewuste zoekresultaten wilt inschakelen.
+1. Selecteer en open een gekoppelde kenmerkgroep en voeg vervolgens het nieuwe productkenmerk hieraan toe.
+1. Selecteer in Commerce-versies vóór 10.0.27 de optie **Metagegevens van kenmerken instellen**, selecteer het zojuist toegevoegde productkenmerk en schakel vervolgens de opties **Kenmerk in kanaal weergeven**, **Ophaalbaar**, **Kan worden verfijnd** en **Kan worden opgezocht** in.
+1. Ga naar **Retail en commerce \> Retail en commerce IT \> Distributieplanning** en voer taak **1150 (Catalogus)** uit. Als u de taak **Productkenmerken invullen met voorraadniveau** inplant als een batchproces, bevelen wij aan dat u ook de 1150-taak inplant als een batchproces en deze met dezelfde frequentie laat uitvoeren.
 
 > [!NOTE]
 > Voor producten die in de module voor zoekresultaten worden weergegeven, wordt het voorraadniveau getoond op het niveau van het hoofdproduct in plaats van het niveau van de afzonderlijke variant. Er zijn slechts twee mogelijke waarden: 'beschikbaar' en 'niet voorradig'. Het werkelijke label voor de waarde wordt opgehaald uit de definitie van het [voorraadniveauprofiel](inventory-buffers-levels.md). Een hoofdproduct wordt alleen als 'niet voorradig' beschouwd als alle varianten niet op voorraad zijn.

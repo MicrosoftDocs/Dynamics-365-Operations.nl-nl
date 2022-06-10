@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a2f7929026f41e921b71bc5a899810695c859902
-ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.openlocfilehash: 7e42c0b49a4083edd0e64551f4840bd74d412fc1
+ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547783"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8786833"
 ---
 # <a name="configure-inventory-visibility"></a>Voorraadzichtbaarheid configureren
 
@@ -60,7 +60,7 @@ Met de invoegingtoepassing Voorraadzichtbaarheid worden meerdere nieuwe functies
 
 Als u het juiste eindpunt van de service Voorraadzichtbaarheid niet weet, opent u de pagina **Configuratie** in Power Apps en selecteert u vervolgens **Service-eindpunt weergeven** in de rechterbovenhoek. Op deze pagina wordt het juiste service-eindpunt weergegeven.
 
-## <a name="data-source-configuration"></a>Configuratie van de gegevensbron
+## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>Configuratie van de gegevensbron
 
 Elke gegevensbron vertegenwoordigt een systeem waaruit uw gegevens afkomstig zijn. Voorbeelden van namen van gegevensbronnen zijn `fno` (wat voor Dynamics 365-apps voor financiën en bedrijfsactiviteiten staat) en `pos` (wat verkooppunt betekent). Standaard is Supply Chain Management ingesteld als een standaardgegevensbron (`fno`) in Voorraadzichtbaarheid.
 
@@ -141,7 +141,7 @@ Ga als volgt te werk om dimensietoewijzingen toe te voegen.
 
 Als uw gegevensbron bijvoorbeeld een productkleurdimensie bevat, kunt u deze aan de basisdimensie `ColorId` toevoegen om een aangepaste dimensie `ProductColor` aan de gegevensbron `exterchannel` toe te voegen. Deze wordt vervolgens aan de basisdimensie `ColorId` toegevoegd.
 
-### <a name="physical-measures"></a>Fysieke metingen
+### <a name="physical-measures"></a><a name="data-source-configuration-physical-measures"></a>Fysieke metingen
 
 Wanneer vanuit een gegevensbron een voorraadwijziging naar Voorraadzichtbaarheid wordt geboekt, wordt die wijziging met behulp van *fysieke metingen* geboekt. Met fysieke metingen wordt de hoeveelheid aangepast en de voorraadstatus weergegeven. U kunt uw eigen fysieke metingen definiëren op basis van uw behoeften. Query's kunnen worden gebaseerd op de fysieke metingen.
 
@@ -175,6 +175,9 @@ Als de gegevensbron Supply Chain Management is, hoeft u de standaard fysieke met
 ### <a name="calculated-measures"></a>Berekende metingen
 
 U kunt Voorraadzichtbaarheid gebruiken om een query uit te voeren op zowel fysieke metingen van de voorraad als op *aangepaste berekende metingen*. Berekende metingen bieden een aangepaste berekeningsformule die uit een combinatie van fysieke metingen bestaat. Met deze functie kunt u een set fysieke metingen definiëren die wordt toegevoegd, en/of een set fysieke metingen definiëren die wordt afgetrokken om de aangepaste meting te vormen.
+
+> [!IMPORTANT]
+> Een berekende meting is een samenstelling van fysieke metingen. De bijbehorende formule kan alleen fysieke metingen zonder dubbele waarden en niet berekende metingen bevatten.
 
 Met de configuratie kunt u een set modificators definiëren die worden opgeteld of afgetrokken om het totale samengevoegde uitvoeraantal te krijgen.
 

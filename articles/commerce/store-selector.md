@@ -3,7 +3,7 @@ title: Winkelselectiemodule
 description: In dit onderwerp wordt beschreven wat de winkelselectiemodule is en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/04/2022
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7276f25daada8286490ad7e1af2b350e4a2805bb
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 76682f26f62fe4686f5102e3099f038a50005f5e
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710775"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780634"
 ---
 # <a name="store-selector-module"></a>Winkelselectiemodule
 
@@ -138,23 +138,26 @@ Voer de volgende stappen uit om de winkelselectiemodule te configureren voor de 
 1. Voer in het dialoogvenster **Nieuwe sjabloon** onder **Sjabloonnaam** **Marketingsjabloon** in en selecteer vervolgens **OK**.
 1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren.
 1. Ga naar **Pagina's** en selecteer **Nieuw** om een nieuwe pagina te maken.
-1. Selecteer in het dialoogvenster **Een sjabloon kiezen** de sjabloon **Marketingsjabloon**. Voer onder **Paginanaam** **Winkellocaties** in en selecteer vervolgens **OK**.
+1. Voer in het dialoogvenster **Een nieuwe pagina maken** onder **Paginanaam** **Winkellocaties** in en selecteer vervolgens **Volgende**.
+1. Selecteer onder **Een sjabloon kiezen** de **Marketingsjabloon** die u hebt gemaakt en selecteer vervolgens **Volgende**.
+1. Selecteer onder **Een indeling kiezen** een pagina-indeling (bijvoorbeeld **Flexibele indeling**) en selecteer vervolgens **Volgende**.
+1. Controleer de paginaconfiguratie onder **Controle en voltooien**. Selecteer **Terug** als u de pagina-informatie wilt bewerken. Als de paginagegevens juist zijn, selecteert u **Pagina maken**. 
 1. Selecteer in het vak **Hoofd** van de nieuwe pagina het weglatingsteken (**...**) en vervolgens **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de module **Container** en selecteer vervolgens **OK**.
+1. Selecteer in het dialoogvenster **Modules selecteren** de module **Container** en selecteer vervolgens **OK**.
 1. Selecteer het weglatingsteken (**...**) in het vak **Container** en selecteer **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de module **Container met 2 kolommen** en selecteer vervolgens **OK**.
+1. Selecteer in het dialoogvenster **Modules selecteren** de module **Container met 2 kolommen** en selecteer vervolgens **OK**.
 1. Stel in het eigenschappenvenster van de module de **Breedte** in op **Container vullen**.
 1. Stel de waarde **Configuratie voor extra kleine viewport** in op **100%**.
 1. Stel de waarde **Configuratie voor kleine viewport** in op **100%**.
 1. Stel de waarde **Configuratie voor middelgrote viewport** in op **33% 67%**.
 1. Stel de waarde **Configuratie voor grote viewport** in op **33% 67%**.
-1. Selecteer in het vak **Container met 2 kolommen** het weglatingsteken (**...**) en selecteer **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de **Winkelselectiemodule** en selecteer vervolgens **OK**.
+1. Selecteer in het vak **Container met 2 kolommen** het beletselteken (**...**) en selecteer vervolgens **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Modules selecteren** de module **Winkelselectie** en selecteer vervolgens **OK**.
 1. Stel in het eigenschappenvenster van de module de **Modus** in op **Winkels zoeken**.
 1. Stel de **zoekstraal** in op mijlen.
 1. Stel andere eigenschappen in, zoals **Instellen als voorkeurswinkel**, **Alle winkels weergeven** en **Automatische suggestie inschakelen** in zoals nodig.
-1. Selecteer in het vak **Container met 2 kolommen** het weglatingsteken (**...**) en selecteer **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de module **Kaart** en selecteer vervolgens **OK**.
+1. Selecteer in het vak **Container met 2 kolommen** het beletselteken (**...**) en selecteer vervolgens **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Modules selecteren** de module **Kaart** en selecteer vervolgens **OK**.
 1. Stel in het eigenschappenvenster van de module eventuele extra eigenschappen in die nodig zijn.
 1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de pagina in te checken en selecteer **Publiceren** om te publiceren.
  

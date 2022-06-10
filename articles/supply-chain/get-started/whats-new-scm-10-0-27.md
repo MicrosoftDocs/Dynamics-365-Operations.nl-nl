@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: e8ec20c361f76a6012a7c8e1f03296007f5a05aa
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 77c79c88b08844bf7e399a762bb9eb9746ffb71a
+ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645340"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8812939"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10027-july-2022"></a>Preview van Dynamics 365 Supply Chain Management 10.0.27 (juli 2022)
 
@@ -34,7 +34,7 @@ De volgende tabel vermeldt de functies die deze versie bevat. Mogelijk wordt dit
 
 | Functiegebied | Functie | Meer informatie | Ingeschakeld door |
 |---|---|---|---|
-| Voorraad en logistiek | [Voorraadtoewijzing voor de invoegtoepassing Voorraadzichtbaarheid](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-allocation-inventory-visibility-add-in) | Binnenkort beschikbaar | Standaard ingeschakeld |
+| Voorraad en logistiek | [Voorraadtoewijzing voor de invoegtoepassing Voorraadzichtbaarheid](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-allocation-inventory-visibility-add-in) | [Voorraadtoewijzing voor voorraadzichtbaarheid](../inventory/inventory-visibility-allocation.md) | Standaard ingeschakeld |
 | Productie | De weergave Mijn dag voor de uitvoeringsinterface voor de werkvloer | [Hoe medewerkers de interface voor de uitvoering van de productievloer gebruiken](../production-control/production-floor-execution-use.md) en [Verlofsaldi tonen in de uitvoeringsinterface voor de werkvloer](../production-control/production-floor-execution-payroll-stats.md) | Functiebeheer:<br>*De weergave Mijn dag voor de uitvoeringsinterface voor de werkvloer* |
 | Planning | [Planningsoptimalisatie-ondersteuning voor uitbesteding](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-subcontracting) | [Uitbesteed werk in productie beheren](../production-control/manage-subcontract-work-production.md) | Standaard ingeschakeld |
 
@@ -69,7 +69,7 @@ De volgende Help-onderwerpen zijn onlangs toegevoegd of ingrijpend bijgewerkt. D
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformupdates voor apps voor financiële en bedrijfsactiviteiten
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.27 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.27 van apps voor financiële en bedrijfsactiviteiten (juni 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-27.md).<!-- KFM Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.27 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.27 van apps voor financiële en bedrijfsactiviteiten (juni 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-27.md).
 
 ### <a name="bug-fixes"></a>Correcties
 

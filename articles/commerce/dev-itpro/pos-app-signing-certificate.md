@@ -1,8 +1,8 @@
 ---
-title: MPOS ondertekenen met een certificaat voor ondertekening van programmacode
+title: Het appx-bestand voor MPOS ondertekenen met een certificaat voor ondertekening van programmacode
 description: In dit onderwerp wordt uitgelegd hoe u MPOS kunt ondertekenen met een certificaat voor ondertekening van programmacode.
 author: mugunthanm
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
@@ -10,16 +10,17 @@ ms.custom: 28021
 ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2019-09-2019
-ms.openlocfilehash: e45961cf1ddb385d914b700d03bc95d07de47b68
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 38c094de6f94381a809fdb68d2e76d410e406934
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8741540"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811080"
 ---
-# <a name="sign-mpos-appx-with-a-code-signing-certificate"></a>APPX-bestand voor MPOS ondertekenen met een certificaat voor ondertekening van programmacode
+# <a name="sign-the-mpos-appx-file-with-a-code-signing-certificate"></a>Het appx-bestand voor MPOS ondertekenen met een certificaat voor ondertekening van programmacode
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Als u Modern POS (MPOS) wilt installeren, moet u de MPOS-app ondertekenen met een certificaat voor code-ondertekening van een betrouwbare provider en hetzelfde certificaat installeren op alle computers waarop MPOS is geïnstalleerd onder de vertrouwde hoofdmap voor de huidige gebruiker.
 
@@ -51,21 +52,22 @@ Het gebruik van een beveiligde bestandstaak is de aanbevolen methode voor het on
 Download de [taak DownloadFile](/visualstudio/msbuild/downloadfile-task) en voeg deze toe als eerste stap in het buildproces. Het voordeel van het gebruik van de taak Veilig bestand is dat het bestand wordt gecodeerd en op de schijf wordt geplaatst tijdens de build, ongeacht of de build-pipeline slaagt, mislukt of wordt geannuleerd. Het bestand wordt verwijderd van de downloadlocatie nadat het buildproces is voltooid.
 
 1. Download de taak Veilig bestand en voeg deze toe als eerste stap in de Azure build-pipeline. U kunt de taak Veilig bestand downloaden via [DownloadFile](https://marketplace.visualstudio.com/items?itemName=automagically.DownloadFile).
-2. Upload het certificaat naar de taak Veilig bestand en stel de verwijzingsnaam in onder Uitvoervariabelen, zoals in de volgende afbeelding wordt weergegeven.
+1. Upload het certificaat naar de taak Veilig bestand en stel de verwijzingsnaam in onder Uitvoervariabelen, zoals in de volgende afbeelding wordt weergegeven.
     > [!div class="mx-imgBorder"]
     > ![Taak Veilig bestand](media/SecureFile.png)
-3. Maak een nieuwe variabele in Azure Pipelines door **Nieuwe variabele** te selecteren op het tabblad **Variabelen**.
-4. Geef in het waardeveld een naam voor de variabele op, bijvoorbeeld **MySigningCert**.
-5. Sla de variabele op.
-6. Open het bestand **Customization.settings** vanuit **RetailSDK\\BuildTools** en werk **ModernPOSPackageCertificateKeyFile** bij met de variabelenaam die is gemaakt in de pijplijn (stap 3). Bijvoorbeeld:
+1. Maak een nieuwe variabele in Azure Pipelines door **Nieuwe variabele** te selecteren op het tabblad **Variabelen**.
+1. Geef in het waardeveld een naam voor de variabele op, bijvoorbeeld **MySigningCert**.
+1. Sla de variabele op.
+1. Open het bestand **Customization.settings** vanuit **RetailSDK\\BuildTools** en werk **ModernPOSPackageCertificateKeyFile** bij met de variabelenaam die is gemaakt in de pijplijn (stap 3). Bijvoorbeeld:
 
     ```Xml
     <ModernPOSPackageCertificateKeyFile Condition="'$(ModernPOSPackageCertificateKeyFile)' ==''">$(MySigningCert)</ModernPOSPackageCertificateKeyFile>
     ```
     Deze stap is vereist als het certificaat niet is beveiligd met een wachtwoord. Als het certificaat is beveiligd met een wachtwoord, gaat u verder met de volgende stappen.
- 
-7. Voeg een nieuwe beveiligde-tekstvariabele toe op het tabblad **Variabelen** van de pijplijn. Stel de naam in op **MySigningCert.tokens** en stel de waarde in van het wachtwoord voor het certificaat. Selecteer het vergrendelingspictogram om de variabele te beveiligen.
-8. Voeg een taak **Powershell Script** aan de pijplijn toe (na Veilig bestand downloaden en vóór de stap Build). Geef de **weergavenaam** op en stel het type in als **Inline**. Kopieer en plak het volgende in de scriptsectie.
+    
+1. Als u een tijdstempel wilt toevoegen aan het appx-bestand het voor MPOS wanneer u het met een certificaat ondertekent, opent u het bestand **Retail SDK\\Build tool\\Customization.settings** en werkt u de variabele **ModernPOSPackageCertificateTimestamp** bij met de tijdstempelprovider (bijvoorbeeld `http://timestamp.digicert.com`).
+1. Voeg een nieuwe beveiligde-tekstvariabele toe op het tabblad **Variabelen** van de pijplijn. Stel de naam in op **MySigningCert.tokens** en stel de waarde in van het wachtwoord voor het certificaat. Selecteer het vergrendelingspictogram om de variabele te beveiligen.
+1. Voeg een taak **Powershell Script** aan de pijplijn toe (na Veilig bestand downloaden en vóór de stap Build). Geef de **weergavenaam** op en stel het type in als **Inline**. Kopieer en plak het volgende in de scriptsectie.
 
     ```powershell
     Write-Host "Start adding the PFX file to the certificate store."
@@ -74,7 +76,7 @@ Download de [taak DownloadFile](/visualstudio/msbuild/downloadfile-task) en voeg
     Import-PfxCertificate -FilePath $pfxpath -CertStoreLocation Cert:\CurrentUser\My -Password $secureString
     ```
 
-9. Open het bestand **Customization.settings** vanuit **RetailSDK\\BuildTools** en werk **ModernPOSPackageCertificateThumbprint** bij met de waarde van de certificaatvingerafdruk.
+1. Open het bestand **Customization.settings** vanuit **RetailSDK\\BuildTools** en werk **ModernPOSPackageCertificateThumbprint** bij met de waarde van de certificaatvingerafdruk.
 
     ```Xml
        <ModernPOSPackageCertificateThumbprint Condition="'$(ModernPOSPackageCertificateThumbprint)' == ''"></ModernPOSPackageCertificateThumbprint>
@@ -82,7 +84,6 @@ Download de [taak DownloadFile](/visualstudio/msbuild/downloadfile-task) en voeg
  
 Zie [Vingerafdruk voor certificaat ophalen](/dotnet/framework/wcf/feature-details/how-to-retrieve-the-thumbprint-of-a-certificate#to-retrieve-a-certificates-thumbprint) voor meer informatie over het ophalen van de vingerafdruk van een certificaat. 
 
- 
 ## <a name="download-or-generate-a-certificate-to-sign-the-mpos-app-manually-using-msbuild-in-sdk"></a>Een certificaat downloaden of genereren om de MPOS-app handmatig te ondertekenen met msbuild in SDK
 
 Als een gedownload of gegenereerd certificaat wordt gebruikt om de MPOS-app te ondertekenen, dan wordt het knooppunt **ModernPOSPackageCertificateKeyFile** in het bestand **BuildTools\\Customization.settings** bijgewerkt om te verwijzen naar de locatie van het pfx-bestand (**$(SdkReferencesPath)\\appxsignkey.pfx**). Bijvoorbeeld:

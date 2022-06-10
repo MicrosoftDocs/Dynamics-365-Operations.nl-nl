@@ -2,7 +2,7 @@
 title: Orderbevestigingsmodule
 description: In dit onderwerp wordt beschreven wat orderbevestigingsmodules zijn en hoe u ze gebruikt in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 11/06/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6914f8c968b03c05a2311a31a4f391c828db5b8b35bc864504dad78f43b3623f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e74ffbdfe57f9220cc9ed85edae4270409165b41
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733841"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780379"
 ---
 # <a name="order-confirmation-module"></a>Orderbevestigingsmodule
 
@@ -50,16 +50,19 @@ Voer de volgende stappen uit om een module voor orderbevestiging aan een nieuwe 
 
 1. Ga naar **Sjablonen** en selecteer **Nieuw** om een nieuwe sjabloon te maken.
 1. Voer in het dialoogvenster **Nieuwe sjabloon** onder **Sjabloonnaam** de naam in voor **Sjabloon voor orderbevestiging** en selecteer **OK**.
-1. Selecteer het weglatingsteken (**...**) in het vak **Hoofdtekst** en selecteer **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de module **Standaardpagina** en selecteer vervolgens **OK**.
-1. Selecteer in het vak **Hoofd** van de module **Standaardpagina** het weglatingsteken (**...**) en vervolgens **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de **Module voor orderbevestiging** en selecteer vervolgens **OK**.
+1. Selecteer het beletselteken (**...**) in het vak **Hoofdtekst** en selecteer vervolgens **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Modules selecteren** de module **Standaardpagina** en selecteer vervolgens **OK**.
+1. Selecteer in het vak **Hoofd** van de module **Standaardpagina** het beletselteken (**...**) en vervolgens **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Modules selecteren** de module **Orderbevestiging** en selecteer vervolgens **OK**.
 1. Selecteer **Opslaan** en vervolgens **Preview** om de sjabloon te bekijken. De orderbevestigingsmodule wordt niet weergegeven omdat hiervoor de context van het bevestigingsnummer is vereist.
 1. Selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren.
 1. Ga naar **Pagina's** en selecteer **Nieuw** om een nieuwe pagina te maken.
-1. Selecteer in het dialoogvenster **Een sjabloon kiezen** de **Sjabloon voor orderbevestiging**. Voer onder **Paginanaam** **Pagina voor orderbevestiging** in en selecteer vervolgens **OK**.
-1. Selecteer in het vak **Hoofd** van de module **Standaardpagina** het weglatingsteken (**...**) en vervolgens **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de **Module voor orderbevestiging** en selecteer vervolgens **OK**.
+1. Voer in het dialoogvenster **Een nieuwe pagina maken** onder **Paginanaam** **Orderbevestigingspagina** in en selecteer vervolgens **Volgende**.
+1. Selecteer onder **Een sjabloon kiezen** **Sjabloon voor orderbevestiging** en selecteer vervolgens **Volgende**.
+1. Selecteer onder **Een indeling kiezen** een pagina-indeling (bijvoorbeeld **Flexibele indeling**) en selecteer vervolgens **Volgende**.
+1. Controleer de paginaconfiguratie onder **Controle en voltooien**. Selecteer **Terug** als u de pagina-informatie wilt bewerken. Als de paginagegevens juist zijn, selecteert u **Pagina maken**. 
+1. Selecteer in het vak **Hoofd** van de module **Standaardpagina** het beletselteken (**...**) en vervolgens **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Modules selecteren** de module **Orderbevestiging** en selecteer vervolgens **OK**.
 1. Selecteer in het eigenschappenvenster van de module voor orderbevestiging de optie **Kop** naast het potloodsymbool.
 1. Voer in het veld **Koptekst** van het dialoogvenster **Koptekst** de koptekst **Orderbevestiging** in en selecteer **OK**.
 1. Selecteer **Opslaan** en vervolgens **Preview** om de pagina te bekijken.

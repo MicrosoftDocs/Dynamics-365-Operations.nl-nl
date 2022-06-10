@@ -2,7 +2,7 @@
 title: Zoekfunctie voor producten en klanten op het verkooppunt (POS)
 description: Dit onderwerp biedt een overzicht van verbeteringen die zijn aangebracht in de functies voor het zoeken van producten en klanten in Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-ms.date: 10/26/2021
+ms.date: 05/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 022dcaca9bb3c9e7e749ee143702325367e5149b
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: 460c7d3b00421ba43414f7343887edf9b8adad9c
+ms.sourcegitcommit: 9dd2d32fc303023a509d58ec7b5935f89d1e9c6d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700084"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "8806422"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Zoekfunctie voor producten en klanten op het verkooppunt (POS)
 
@@ -106,6 +106,8 @@ Voor het instellen van zoekcriteria als snelkoppelingen moet de beheerder de pag
 > Als u te veel snelkoppelingen toevoegt, wordt de vervolgkeuzelijst op de zoekbalk in POS onoverzichtelijk wat een negatieve invloed heeft op de zoekodprachten van werknemers. Het is raadzaam alleen snelkoppelingen toe te voegen die u nodig hebt.
 
 Het veld **Weergavevolgorde** bepaalt de volgorde waarin de snelkoppelingen worden weergegeven op het POS. De getoonde criteria zijn standaardeigenschappen die het klantzoekalgoritme gebruikt om klanten te zoeken. Partners kunnen echter aangepaste eigenschappen toevoegen als snelkoppelingen. Als u aangepaste eigenschappen als snelkoppelingen wilt toevoegen, moet de systeembeheerder de uitbreidbare opsomming (enum) die wordt gebruikt voor de klantzoekcriteria uitbreiden en de aangepaste eigenschappen van de partner als snelkoppelingen opgeven. Partners zijn verantwoordelijk voor het schrijven van de code voor het zoeken van resultaten wanneer aangepaste sneltoetsen worden gebruikt voor zoekopdrachten.
+
+Vertalingen voor sneltoetsen zijn vereist als u wilt dat sneltoetsen in het POS worden weergegeven. Als uw kanaaltaal verschilt van de standaardtaal van het systeem, moet u de vertaling voor elke sneltoets in de verwachte taal definiëren. U kunt vertalingen definiëren door voor elke sneltoets **Vertalen** te selecteren. 
 
 > [!NOTE]
 > Een aangepaste eigenschap die wordt toegevoegd aan de enum heeft geen invloed op het standaardzoekalgoritme voor klanten. Het klantzoekalgoritme zoekt dus niet in de aangepaste eigenschap. Gebruikers kunnen alleen een aangepaste eigenschap gebruiken voor zoekopdrachten als die aangepaste eigenschap is toegevoegd als een snelkoppeling of als het standaardzoekalgoritme is overschreven.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: f8e74902e939355aba9bbadd8e7f8f8aa46fe5c5
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 2c2d79c9ea36c42cfc0f6ba0d3c81d063d8d9446
+ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323920"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782171"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Besturingselementen voor Word-inhoud onderdrukken in gegenereerde rapporten
 
@@ -47,7 +47,7 @@ Wanneer u de stappen van deze taakhandleidingen voltooit, worden de volgende ite
 
 U moet ook de volgende sjabloon downloaden en opslaan voor het voorbeeldrapport:
 
-- [Gebonden sjabloon 2 van betalingsrapport (SampleVendPaymDocReportBounded2.docx)](https://download.microsoft.com/download/a/1/2/a126cb43-6281-4f7b-bde0-25e03ff9bc1e/SampleVendPaymDocReportBounded2.docx)
+- [Gebonden sjabloon 2 van betalingsrapport (SampleVendPaymDocReportBounded2.docx)](https://download.microsoft.com/download/1/9/b/19b36e39-861a-414e-9150-9880d9d2487c/SampleVendPaymDocReportBounded2.docx)
 
 ## <a name="review-the-downloaded-word-template"></a><a id="tag-control"></a>De gedownloade Word-sjabloon controleren
 

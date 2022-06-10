@@ -2,19 +2,19 @@
 title: Commercecatalogi maken voor B2B-sites
 description: In dit onderwerp wordt beschreven hoe u Commercecatalogi maakt voor B2B-sites (business-to-business) in Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-ms.date: 04/28/2022
+ms.date: 05/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 868f6bbeefeb1698bb136d52c09cebf293c95731
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: 7382062706c2de01c499ee05aeb0b45ff6fb37cb
+ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656845"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782832"
 ---
 # <a name="create-commerce-catalogs-for-b2b-sites"></a>Commercecatalogi maken voor B2B-sites
 
@@ -24,7 +24,7 @@ ms.locfileid: "8656845"
 In dit onderwerp wordt beschreven hoe u Commerceproductcatalogi maakt voor B2B-sites (business-to-business) in Microsoft Dynamics 365 Commerce. Zie [Veelgestelde vragen over Commercecatalogi voor B2B-sites](catalogs-b2b-sites-FAQ.md) voor antwoorden op veelgestelde vragen over commercecatalogi voor B2B-sites.
 
 > [!NOTE]
-> Dit onderwerp is van toepassing op Dynamics 365 Commerce versie 10.0.26 en hoger.
+> Dit onderwerp is van toepassing op Dynamics 365 Commerce versie 10.0.27 en hoger.
 
 U kunt detailhandel Commercecatalogi gebruiken voor de identificatie van de producten die u in uw online B2B-winkels wilt aanbieden. Wanneer u een catalogus maakt, identificeert u de online winkels waarin de producten worden aangeboden, voegt u de producten toe die u wilt opnemen en verbetert u het productaanbod door productdetails toe te voegen. U kunt meerdere catalogi maken voor elke online B2B-winkel.
 
@@ -42,7 +42,7 @@ Met commerceproductcatalogi kunt u de volgende gegevens definiëren:
 - **Prijsgroepen**: u kunt prijzen en promoties configureren die specifiek zijn voor een bepaalde catalogus. Deze mogelijkheid is de kernreden voor het definiëren van een catalogus voor een B2B-kanaal. Met prijsgroepen voor catalogi kunnen organisaties producten beschikbaar maken voor de gewenste B2B-organisaties en hun voorkeursprijzen en -kortingen toepassen. B2B-klanten die bestellen uit een geconfigureerde catalogus, kunnen profiteren van speciale prijzen en promoties nadat ze zich hebben aangemeld op een Commerce B2B-site. Als u specifieke catalogusprijzen wilt configureren, selecteert u **Prijsgroepen** op het tabblad **Catalogi** om een of meer prijsgroepen te koppelen aan de catalogus. Alle handelsovereenkomsten, prijscorrectiejournalen en geavanceerde kortingen die zijn gekoppeld aan dezelfde prijsgroep worden toegepast wanneer klanten uit die catalogus bestellen. (Geavanceerde kortingen zijn drempel-, hoeveelheids- en combinatiekortingen.) Zie [Prijsgroepen](price-management.md#price-groups) voor meer informatie over prijsgroepen.
 
 > [!NOTE]
-> Deze functie is beschikbaar vanaf Dynamics 365 Commerce versie 10.0.26. Als u catalogusspecifieke configuraties zoals de navigatiehiërarchie en klanthiërarchie wilt configureren, opent u in Commerce Headquarters de werkruimte **Functiebeheer** (**Systeembeheer \> Werkruimtes \> Functiebeheer**), schakelt u de functie **Gebruik van meerdere catalogi in detailhandelkanalen inschakelen** in en voert u de taak **1110 CDX** uit.
+> Deze functie is beschikbaar vanaf Dynamics 365 Commerce versie 10.0.27. Als u catalogusspecifieke configuraties zoals de navigatiehiërarchie en klanthiërarchie wilt configureren, opent u in Commerce Headquarters de werkruimte **Functiebeheer** (**Systeembeheer \> Werkruimtes \> Functiebeheer**), schakelt u de functie **Gebruik van meerdere catalogi in detailhandelkanalen inschakelen** in en voert u de taak **1110 CDX** uit.
 
 ## <a name="catalog-process-flow"></a>Processtroom catalogus
 

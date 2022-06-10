@@ -2,7 +2,7 @@
 title: Prestatieproblemen in ER-configuraties oplossen
 description: In dit onderwerp wordt uitgelegd hoe u prestatieproblemen in ER-configuraties (Elektronische rapportage) kunt vinden en oplossen.
 author: NickSelin
-ms.date: 06/08/2021
+ms.date: 05/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: maximbel
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: b5f5308f171b6cd4224debec897dbde133e6d8424673aabfab51e6b83b9014e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e727e06c73ff445bf4219ac5a9eee7bec25740d9
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744381"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811675"
 ---
 # <a name="troubleshooting-performance-issues-in-er-configurations"></a>Prestatieproblemen in ER-configuraties oplossen
 
@@ -55,7 +55,7 @@ Soms worden prestatieproblemen niet veroorzaakt door een ER-indelingsconfigurati
 
 Bereid een klein voorbeeld voor of verzamel verschillende traces tijdens willekeurige onderdelen van de rapportgeneratie.
 
-Vervolgens voert u in [Trace parser](#trace-parser) een standaard bottom-to-up analyse uit en beantwoordt u de volgende vragen:
+Vervolgens voert u in [Trace parser](#trace-parser) een standaard bottom-up analyse uit en beantwoordt u de volgende vragen:
 
 - Wat zijn de belangrijkste methoden in termen van tijdverbruik?
 - Welk deel van de algehele tijd wordt door deze methoden gebruikt?
@@ -82,7 +82,7 @@ Open vervolgens de trace in de ontwerper van de ER-modeltoewijzing en kijk onder
 
 - Komt het aantal query's en opgehaalde records overeen met de algehele hoeveelheid gegevens? Als een document bijvoorbeeld 10 regels bevat, geven de statistieken dan aan dat het rapport 10 regels of 1000 regels extraheert? Als u een groot aantal opgehaalde records hebt, overweeg dan een van de volgden oplossingen:
 
-    - [Gebruik de functie **FILTER** in plaats van de functie **WHERE**](#filter) om gegevens aan de SQL Server-zijde te verwerken.
+    - [Gebruik de functie **FILTER** in plaats van de functie **WHERE**](#filter) om gegevens aan de Microsoft SQL Server-zijde te verwerken.
     - Gebruik caching om te voorkomen dat dezelfde gegevens worden opgehaald.
     - [Gebruik functies voor verzamelde gegevens](#collected-data) om te voorkomen dat dezelfde gegevens worden opgehaald voor een samenvatting.
 
@@ -190,6 +190,10 @@ Deze benadering kent enkele beperkingen. U moet beheertoegang tot de computer he
 #### <a name="use-caching"></a><a name="use-caching"></a>Caching gebruiken
 
 Hoewel het met caching minder tijd kost om gegevens opnieuw op te halen, kost het geheugen. Gebruik caching in gevallen waarin de hoeveelheid opgehaalde gegevens niet erg groot is. Zie [De modeltoewijzing verbeteren op basis van informatie uit de uitvoeringstrace](trace-execution-er-troubleshoot-perf.md#improve-the-model-mapping-based-on-information-from-the-execution-trace) voor meer informatie en een voorbeeld over het gebruik van caching.
+
+#### <a name="reduce-volume-of-data-fetched"></a><a name="reduce-fetched-data"></a>Het volume beperken van opgehaalde gegevens
+
+U kunt het geheugenverbruik voor caching verminderen door het aantal velden in de records van een toepassingstabel te beperken dat u ophaalt tijdens runtime. In dit geval haalt u alleen de veldwaarden van een toepassingstabel op die u nodig hebt in uw ER-modeltoewijzing. Andere velden in de tabel worden niet opgehaald. Hierdoor wordt het geheugenvolume beperkt dat nodig is om in de cache opgeslagen records op te halen. Zie [De prestaties van ER-oplossingen verbeteren door het aantal tabelvelden te beperken dat wordt opgehaald tijdens runtime](er-reduce-fetched-fields-number.md).
 
 #### <a name="use-a-cached-parameterized-calculated-field"></a><a name="cached-parameterized"></a>Een berekend veld met parameters in de cache gebruiken
 

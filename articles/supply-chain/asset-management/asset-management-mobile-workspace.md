@@ -2,7 +2,7 @@
 title: Mobiele werkruimte voor activabeheer gebruiken
 description: Dit onderwerp bevat informatie over het mobiele werkgebied voor activabeheer.
 author: johanhoffmann
-ms.date: 01/15/2021
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 62bb178e714611367c825c87044a31275f5540accc9363137c7cecbcec1bec65
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b874237721d9252e7102c2611414a2cc74026c3
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771534"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811499"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>Mobiele werkruimte voor activabeheer gebruiken
 
 [!include [banner](../../includes/banner.md)]
+[!include [mobile app deprecated](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 Dit onderwerp bevat informatie over de mobiele werkruimte **Activabeheer**. Met dit werkgebied kunnen gebruikers onderhoudsaanvragen en werkorders weergeven en maken. Gebruikers kunnen de toegewezen werkordertaken ook weergeven in een kalender- of een lijstweergave. Activa en functionele locaties kunnen ook worden weergegeven en gezocht.
 
@@ -45,7 +46,7 @@ Voordat u de mobiele werkruimte **Activabeheer** kunt gebruiken, moet uw beheerd
 
 ## <a name="download-and-install-the-mobile-app"></a>De mobiele app downloaden en installeren
 
-Download en installeer de mobiele app Dynamics 365 for Unified Operations:
+Download en installeer de mobiele app Finance and Operations (Dynamics 365):
 
 - [Voor Android-telefoons](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Voor iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

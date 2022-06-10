@@ -2,7 +2,7 @@
 title: Iframe-module
 description: In dit onderwerp wordt beschreven wat de iframe-module is en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 11/04/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: eeb9d76367be6b2d2153578f6358594b807382ac
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7754009"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780229"
 ---
 # <a name="iframe-module"></a>Iframe-module
 
@@ -56,12 +56,15 @@ Voer de volgende stappen uit om een iframe-module aan een pagina toe te voegen o
 1. Voer in het dialoogvenster **Nieuwe sjabloon** onder **Sjabloonnaam** **Marketingsjabloon** in en selecteer vervolgens **OK**.
 1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren.
 1. Ga naar **Pagina's** en selecteer **Nieuw** om een nieuwe pagina te maken.
-1. Selecteer in het dialoogvenster **Een sjabloon kiezen** de sjabloon **Marketingsjabloon**. Voer onder **Paginanaam** **Marketingpagina** in en selecteer vervolgens **OK**.
+1. Voer in het dialoogvenster **Een nieuwe pagina maken** onder **Paginanaam** **Marketingpagina** in en selecteer vervolgens **Volgende**.
+1. Selecteer onder **Een sjabloon kiezen** de **marketingsjabloon** die u hebt gemaakt en selecteer vervolgens **Volgende**.
+1. Selecteer onder **Een indeling kiezen** een pagina-indeling (bijvoorbeeld **Flexibele indeling**) en selecteer vervolgens **Volgende**.
+1. Controleer de paginaconfiguratie onder **Controle en voltooien**. Selecteer **Terug** als u de pagina-informatie wilt bewerken. Als de paginagegevens juist zijn, selecteert u **Pagina maken**. 
 1. Selecteer in het vak **Hoofd** van de nieuwe pagina het weglatingsteken (**...**) en vervolgens **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de module **Container** en selecteer vervolgens **OK**.
+1. Selecteer in het dialoogvenster **Modules selecteren** de module **Container** en selecteer vervolgens **OK**.
 1. Stel in het eigenschappenvenster van de module de **Breedte** in op **Container vullen**.
 1. Selecteer het weglatingsteken (**...**) in het vak **Container** en selecteer **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de **iframe**-module en selecteer vervolgens **OK**.
+1. Selecteer in het dialoogvenster **Modules selecteren** de module **iframe** en selecteer vervolgens **OK**.
 1. Stel in het eigenschappenvenster van de module de waarde van de **Doel-URL** in op een externe URL voor een video.
 1. Stel zo nodig andere eigenschappen, zoals **koptekst** en **Hoogte** in.
 1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de pagina in te checken en selecteer **Publiceren** om te publiceren.

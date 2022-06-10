@@ -2,7 +2,7 @@
 title: Betalingsmodule
 description: In dit onderwerp wordt beschreven hoe u een betalingsmodule aan een pagina toevoegt en de vereiste eigenschappen instelt.
 author: anupamar-ms
-ms.date: 08/31/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 031c70181e0dff9bc81450d2454f21e1dbaf1285d41b38ff6f7df6045923c27c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0d022ad98603b489a133a5b9f2326677e9ebb307
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715501"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780509"
 ---
 # <a name="checkout-module"></a>Betalingsmodule
 
@@ -91,14 +91,14 @@ De meeste uitcheckgegevens, zoals het verzendadres en de verzendmethode, worden 
 Voer de volgende stappen uit om een betalingsmodule aan een nieuwe pagina toe te voegen en de vereiste eigenschappen in te stellen.
 
 1. Ga naar **Fragmenten** en selecteer **Nieuw** om een nieuw paginafragment te maken.
-1. Selecteer in het dialoogvenster **Nieuw paginafragment** de module **Kassa**.
+1. Selecteer in het dialoogvenster **Fragment selecteren** de module **Kassa**.
 1. Voer onder **Naam fragment** de naam **Uitcheckfragment** in en selecteer **OK**.
 1. Selecteer het vak **Betalingsmodule**.
 1. Selecteer in het venster Eigenschappen rechts het potloodsymbool, voer de koptekst in het veld in en selecteer vervolgens het symbool voor het selectievinkje.
 1. Selecteer het weglatingsteken (**...**) in het vak **Betalingsgegevens** en selecteer **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de modules **Verzendadres**, **Leveringsopties**, **Container voor uitchecksectie** en **Contactgegevens** en selecteer vervolgens **OK**.
+1. Selecteer in het dialoogvenster **Modules selecteren** de modules **Verzendadres**, **Leveringsopties**, **Container voor uitchecksectie** en **Contactgegevens** en selecteer vervolgens **OK**.
 1. Selecteer het weglatingsteken (**...**) in het vak **Container voor uitchecksectie** en selecteer **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de modules **Geschenkbon**, **Loyaliteit** en **Betaling** en selecteer vervolgens **OK**. Op deze manier zorgt u ervoor dat alle betalingsmethoden samen worden weergegeven in een sectie.
+1. Selecteer in het dialoogvenster **Modules selecteren** de modules **Geschenkbon**, **Loyaliteit** en **Betaling** en selecteer vervolgens **OK**. Op deze manier zorgt u ervoor dat alle betalingsmethoden samen worden weergegeven in een sectie.
 1. Voeg in het vak **Voorwaarden** desgewenst een module **Betalingsvoorwaarden** toe. Configureer in het eigenschappenvenster van de module de tekst van de voorwaarden waar dat van toepassing is.
 1. Selecteer **Opslaan** en vervolgens **Preview** om het fragment te bekijken. Sommige modules die geen winkelwagencontext hebben, worden mogelijk niet weergegeven in de preview.
 1. Selecteer **Bewerken voltooien** om het fragment in te checken en selecteer **Publiceren** om te publiceren.

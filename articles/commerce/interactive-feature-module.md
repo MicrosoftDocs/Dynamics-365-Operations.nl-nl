@@ -2,7 +2,7 @@
 title: Module voor interactieve functies
 description: In dit onderwerp worden modules voor interactieve functies beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5b18a29ce43e69ec0578602535f21e52388fe3d04ac14673bbdefed9ec8ea161
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ab325189812289390740e31fd673ee9892f9759
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749845"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780734"
 ---
 # <a name="interactive-feature-module"></a>Module voor interactieve functies
 
@@ -65,15 +65,15 @@ Voer de volgende stappen uit om een module voor interactieve functies toe te voe
 
 1. Ga naar **Sjablonen** en open de marketingsjabloon voor de startpagina van uw site (of maak een nieuwe marketingsjabloon).
 1. Selecteer in het vak **Hoofdonderdeel** van de standaardpagina het weglatingsteken (**...**) en vervolgens **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de module **Interactieve functie** en selecteer vervolgens **OK**.
+1. Selecteer in het dialoogvenster **Modules selecteren** de module **Interactieve functie** en selecteer vervolgens **OK**.
 1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren.
 1. Ga naar **Pagina's** en open de startpagina van de site (of maak een nieuwe startpagina met de marketingsjabloon).
 1. Selecteer in het vak **Hoofd** van de standaardpagina de knop met het weglatingsteken (**...**) en vervolgens **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** onder **Modules selecteren** de module **Interactieve functie** en selecteer vervolgens **OK**.
+1. Selecteer in het dialoogvenster **Modules selecteren** onder **Modules selecteren** de module **Interactieve functie** en selecteer vervolgens **OK**.
 1. Voeg een koptekst toe in het eigenschappenvenster van de module voor interactieve functies.
 1. Selecteer in het vak **Interactieve functies** de knop met het weglatingsteken (**...**) en selecteer vervolgens **Module toevoegen**.
-1. Selecteer in het dialoogvenster **Module toevoegen** de module **Interactief functie-item** en selecteer vervolgens **OK**.
-1. Voeg een afbeelding, een koptekst, een alineatekst en een URL toe in het eigenschappenvenster van de module voor Interactieve functie-items.
+1. Selecteer in het dialoogvenster **Modules selecteren** de module **Interactief functie-item** en selecteer vervolgens **OK**.
+1. Voeg een afbeelding, een koptekst, een alineatekst en een URL toe in het eigenschappenvenster van de module voor interactieve functie-items.
 1. Voeg waar nodig extra modules voor interactieve functie-items toe en configureer deze.
 1. Selecteer **Opslaan** en vervolgens **Preview** om de pagina te bekijken.
 1. Selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren.

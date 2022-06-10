@@ -2,7 +2,7 @@
 title: Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
 description: Dit onderwerp bevat informatie over het ontwerpen van een ER-indeling (Elektronische rapportage) voor het invullen van een Excel-sjabloon en het genereren van uitgaande Excel-documenten.
 author: NickSelin
-ms.date: 03/25/2022
+ms.date: 05/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec25065f2e3cc3b5dd3c9004d5330447f7b2ac61
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 4a34f990c865aa8c82213a60c23d5a44ad75aee4
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645130"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811415"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
 
@@ -288,6 +288,16 @@ U kunt **Bijwerken vanuit Excel** selecteren op het tabblad **Importeren** van h
 
 ![De optie Indelingselement Excel-werkblad maken in het dialoogvenster Bijwerken vanuit Excel.](./media/er-excel-format-update-template.png)
 
+In versie 10.0.28 en hoger kunt u de optie **Indelingselementen van Excel-kopteksten en Excel-voetteksten bijwerken** gebruiken.
+
+- Wanneer u deze optie op **Nee** instelt, blijven de indelingselementen van de Excel-kopteksten en -voetteksten ongewijzigd, zelfs als de bijbehorende kop- of voetteksten in de werkbladen van de geïmporteerde sjabloon zijn bijgewerkt in de Excel-werkmapindeling.
+- Wanneer u deze optie op **Ja** instelt, worden de indelingselementen van de Excel-kopteksten en -voetteksten gewijzigd als de bijbehorende kop- of voetteksten in werkbladen van de geïmporteerde sjabloon worden bijgewerkt in de Excel-werkmapindeling.
+
+    - Als de structuur van een kop- of voettekst van een werkblad niet is gewijzigd of als deze alleen is toegevoegd, wordt de structuur van het bijbehorende indelingselement in de Excel-koptekst of -voettekst bijgewerkt. Bindingen van indelingselementen die zijn genest onder dit indelingselement in de Excel-koptekst of -voettekst blijven behouden.
+    - Als de structuur van een kop- of voettekst van een werkblad is gewijzigd, wordt het bijbehorende indelingselement in de Excel-koptekst of -voettekst opnieuw gemaakt. Bindingen van indelingselementen die zijn genest onder dit indelingselement in de Excel-koptekst of -voettekst worden verwijderd.
+
+![De optie Indelingselementen van Excel-kopteksten en Excel-voetteksten bijwerken in het dialoogvenster Bijwerken vanuit Excel.](./media/er-excel-format-update-template2.png)
+
 Volg de stappen in de [Indelingen voor elektronische rapportage wijzigen door Excel-sjablonen opnieuw toe te passen](modify-electronic-reporting-format-reapply-excel-template.md) voor meer informatie over deze functie.
 
 ## <a name="validate-an-er-format"></a>Een ER-indeling valideren
@@ -355,7 +365,7 @@ Wanneer een uitgaand document in een Microsoft Excel-werkmapindeling wordt gegen
 
 ## <a name="example-2-fixing-the-merged-cells-epplus-issue"></a><a name="example-2"></a>Voorbeeld 2: Het oplossen van het EPPlus-probleem met samengevoegde cellen
 
-U kunt een ER-indeling uitvoeren om een uitgaand document in een Excel-werkmapindeling te genereren. Wanneer de functie **Gebruik van EPPlus-bibliotheek inschakelen in het ER-raamwerk** is ingeschakeld in de werkruimte **Functiebeheer**, wordt de [EPPlus-bibliotheek](https://www.nuget.org/packages/epplus/4.5.2.1) gebruikt om Excel-uitvoer te maken. Mogelijk kan echter vanwege bekend [Excel-gedrag](https://answers.microsoft.com/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) en een beperking van de EPPlus-bibliotheek de volgende uitzondering optreden: "Samengevoegde cellen kunnen niet worden verwijderd/overschreven. Een bereik wordt gedeeltelijk samengevoegd met het andere samengevoegde bereik." Als u wilt weten welke Excel-sjablonen deze uitzondering kunnen veroorzaken en hoe u het probleem kunt oplossen, gaat u in het volgende voorbeeld te werk.
+U kunt een ER-indeling uitvoeren om een uitgaand document in een Excel-werkmapindeling te genereren. Wanneer de functie **Gebruik van EPPlus-bibliotheek inschakelen in het ER-raamwerk** is ingeschakeld in de werkruimte **Functiebeheer**, wordt de [EPPlus-bibliotheek](https://www.nuget.org/packages/epplus/4.5.2.1) gebruikt om Excel-uitvoer te maken. Mogelijk kan echter vanwege bekend [Excel-gedrag](https://answers.microsoft.com/en-us/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) en een beperking van de EPPlus-bibliotheek de volgende uitzondering optreden: "Samengevoegde cellen kunnen niet worden verwijderd/overschreven. Een bereik wordt gedeeltelijk samengevoegd met het andere samengevoegde bereik." Als u wilt weten welke Excel-sjablonen deze uitzondering kunnen veroorzaken en hoe u het probleem kunt oplossen, gaat u in het volgende voorbeeld te werk.
 
 1. Maak in de Excel-bureaubladtoepassing een nieuwe Excel-werkmap.
 2. Voeg in het werkblad **Blad1** de naam **ReportTitle** toe voor cel **A2**.
