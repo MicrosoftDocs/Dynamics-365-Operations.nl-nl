@@ -12,6 +12,8 @@
               items:
                 - name: Startpagina voor nieuwe of gewijzigde functies in Commerce
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.28 (juli 2022)
+                  href: get-started/whats-new-commerce-10-0-28.md
                 - name: Commerce 10.0.27 (juli 2022)
                   href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26 (mei 2022)
@@ -1300,6 +1302,10 @@
               items:
                 - name: Aangepaste antwoordpagina's bouwen voor fouten met de statuscode 4xx/5xx
                   href: build-pages-400-500-errors.md
+            - name: Service-integratie
+              items:
+                - name: Customer Voice integreren in e-commercesitepagina's
+                  href: customer-voice-integration.md
         - name: Fraud Protection
           items:
             - name: Integratie van Dynamics 365 Fraud Protection met Dynamics 365 Commerce
@@ -2114,10 +2120,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/commerce/toc.json
                     - name: Streepjescode gebruiken om afbeeldingen met streepjescode te genereren
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/commerce/toc.json
-                    - name: Gegevensbronnen voor opzoeken configureren om ER-toepassingsspecifieke parameters te gebruiken
+                    - name: Gegevensbronnen voor OPZOEKEN configureren om ER-toepassingsspecifieke parameters te gebruiken
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Gegevensbronnen voor GEGEVENSVERZAMELING in ER-indelingen gebruiken
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: Gegevensbronnen voor USER INPUT PARAMETER gebruiken om parameters op te geven voor een rapport dat u wilt genereren
+                      href: ../fin-ops-core/dev-itpro/analytics/er-user-input-parameter-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Foutopsporing in gegevensbronnen
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Gegevensmodellen configureren
@@ -2728,6 +2736,8 @@
                               href: e-commerce-extensibility/interactive-components.md
                             - name: De aangemelde status imiteren tijdens lokale ontwikkeling
                               href: e-commerce-extensibility/mock-sign-in.md
+                            - name: Overboeking van web-API-verificatie instellen met Azure Active Directory B2C
+                              href: e-commerce-extensibility/web-api-auth-trans-aad-b2c.md
                             - name: Module-eigenschappen configureren die moeten worden weergegeven op basis van context
                               href: e-commerce-extensibility/configure-properties-context.md
                             - name: Modules globaliseren met de klasse CultureInfoFormatter
@@ -2944,9 +2954,11 @@
                   href: troubleshoot/items-without-inventory-checked-out.md
                 - name: Waarderingsdetails worden weergegeven in zoekresultaten en categoriepagina's wanneer de beoordelingen en recensies van de oplossing niet zijn ingeschakeld
                   href: troubleshoot/hide-ratings-refiner.md
+                - name: Subtotaal van orderoverzicht bevat geen btw voor toeslagen bij het gebruik van modules voor aangepaste orderoverzichten
+                  href: troubleshoot/summary-taxes-custom-modules-10.0.27.md
             - name: Klantbeheer
               items:
-                - name: Welkomste-mail wordt niet verzonden bij maken van nieuwe klanten
+                - name: Welkomst-e-mail wordt niet verzonden bij maken van nieuwe klanten
                   href: troubleshoot/email-not-sent-when-new-customer-created.md
             - name: Problemen met SDK oplossen
               items:

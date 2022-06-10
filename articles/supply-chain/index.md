@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4ea45b238200d4d9d43d563e160e8574271a8ce7
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 9ae75f33d96261691eee52c963a1f1f00c75b0de
+ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487858"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "8789207"
 ---
 # <a name="supply-chain-management-home-page"></a>Startpagina Supply Chain Management
 
@@ -52,11 +52,11 @@ Selecteer een functiegebied voor meer informatie hierover.
 
 ## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
 
-Ga voor meer informatie over Dynamics 365 Finance naar de [Startpagina van Finance](../finance/index.md).
+Ga voor meer informatie over Dynamics 365 Finance naar de [startpagina van Finance](../finance/index.md).
 
 ## <a name="videos"></a>Video's
 
-Deze korte video geeft een overzicht van de nieuwe functies voor Supply Chain Management die zijn toegevoegd aan Microsoft Dynamics 365 for Finance and Operations versie 8.0 (april 2018).
+Deze korte video biedt een overzicht van de nieuwe functies voor Supply Chain Management die zijn toegevoegd aan Microsoft Dynamics 365 for Finance and Operations versie 8.0 (april 2018).
 
 - [Een werkorder in Field Service synchroniseren met Finance and Operations](https://youtu.be/hAB4TDVMjxU)
 
@@ -98,7 +98,7 @@ Er zijn veel onderwerpen over productie en Supply Chain Management beschikbaar i
 ## <a name="white-papers"></a>Technische documenten
 
 - [Lean Manufacturing: Capable to Promise en planning van kanbantaken](/dynamics/s-e/)
-- [Stuklijstberekening aan de hand van kostprijsberekening](https://www.microsoft.com/download/details.aspx?id=101937/)
+- [Stuklijstberekening aan de hand van kostprijsberekening](https://www.microsoft.com/download/details.aspx?id=101937)
 
 ## <a name="elearning-courses"></a>eLearning-cursussen
 

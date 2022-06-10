@@ -12,13 +12,15 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Nieuwe of gewijzigde functies in Platform updates
               items:
-                - name: Startpagina voor nieuwe of gewijzigde functies in Platform-updates
+                - name: Startpagina voor nieuwe of gewijzigde functies in Platform updates
                   href: get-started/whats-new-home-page.md
-                - name: Platform-updates voor versie 10.0.27 (juli 2022)
+                - name: Platform updates voor versie 10.0.28 (augustus 2022)
+                  href: get-started/whats-new-platform-updates-10-0-28.md
+                - name: Platform updates voor versie 10.0.27 (juli 2022)
                   href: get-started/whats-new-platform-updates-10-0-27.md
-                - name: Platform-updates voor versie 10.0.26 (mei 2022)
+                - name: Platform updates voor versie 10.0.26 (mei 2022)
                   href: get-started/whats-new-platform-updates-10-0-26.md
-                - name: Platform-updates voor versie 10.0.25 (april 2022)
+                - name: Platform updates voor versie 10.0.25 (april 2022)
                   href: get-started/whats-new-platform-updates-10-0-25.md
             - name: Verwijderde of afgeschafte functies
               items:
@@ -1018,6 +1020,8 @@
                   href: lifecycle-services/azure-data-explorer.md
             - name: Omgevingsservices opnieuw starten
               href: lifecycle-services/restart-environment-services.md
+            - name: Omgevingsbeheerder bijwerken
+              href: lifecycle-services/update-environment-admin.md
             - name: Een storing in de productie rapporteren
               href: lifecycle-services/report-production-outage.md
             - name: Gebruikeraanmeldingen bijhouden
@@ -1266,6 +1270,8 @@
               items:
                 - name: Overzicht van invoegtoepassingen
                   href: power-platform/add-ins-overview.md
+            - name: Mobiele ervaringen bouwen
+              href: power-platform/build-mobile-experiences.md
             - name: Beleid en communicatie
               href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: Mobiel platform
