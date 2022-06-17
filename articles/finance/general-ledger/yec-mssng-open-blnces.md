@@ -1,6 +1,6 @@
 ---
 title: Ontbrekende openingssaldi in jaarafsluiting
-description: In dit onderwerp wordt uitgelegd waarom openingssaldi kunnen ontbreken wanneer u een jaar afsluit en hoe u deze saldi opnieuw kunt opbouwen als ze ontbreken.
+description: In dit artikel wordt uitgelegd waarom openingssaldi kunnen ontbreken wanneer u een jaar afsluit en hoe u deze saldi opnieuw kunt opbouwen als ze ontbreken.
 author: kweekley
 ms.date: 05/12/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 582363ba6c5f6e63e695d41e73ee2f0b382cf26e
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9b64118fc3ff368e21ea8935c1e706f2161c620f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727167"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894843"
 ---
 # <a name="year-end-close-missing-opening-balances"></a>Ontbrekende openingssaldi in jaarafsluiting
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd waarom openingssaldi kunnen ontbreken wanneer u een jaar afsluit en hoe u deze saldi opnieuw kunt opbouwen als ze ontbreken.
+In dit artikel wordt uitgelegd waarom openingssaldi kunnen ontbreken wanneer u een jaar afsluit en hoe u deze saldi opnieuw kunt opbouwen als ze ontbreken.
 
 ### <a name="symptom"></a>Symptoom
 
@@ -36,7 +36,7 @@ Controleer het volgende als u een jaar in het grootboek hebt afgesloten en vervo
 
 Als het veld **Vorige afsluiting ongedaan maken** is ingesteld op **Ja**, wordt de vorige jaarafsluiting voor hetzelfde boekjaar ongedaan gemaakt. Wanneer u een proces uitvoert om de jaarafsluiting ongedaan te maken, worden alle boekingen voor eind- en openingssaldi verwijderd, alsof het jaar nooit is afgesloten. De boekstukken worden ook verwijderd. Het jaarafsluitingsproces wordt niet automatisch opnieuw uitgevoerd. U moet het proces opnieuw starten en deze keer de optie **Vorige afsluiting ongedaan maken** bijwerken naar **Nee**.
 
-Dit scenario wordt behandeld in het onderwerp over jaarafsluiting in de veelgestelde vragen. Zie [Veelgestelde vragen over jaarafsluitingsactiviteiten](faq-year-end-activities.md) voor meer informatie.
+Dit scenario wordt behandeld in het artikel over jaarafsluiting in de veelgestelde vragen. Zie [Veelgestelde vragen over jaarafsluitingsactiviteiten](faq-year-end-activities.md) voor meer informatie.
 
 ### <a name="symptom"></a>Symptoom
 

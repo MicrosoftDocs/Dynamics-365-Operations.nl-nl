@@ -1,6 +1,6 @@
 ---
 title: Hertoewijzing van opbrengsttoerekening - Scenario 4
-description: In dit onderwerp wordt een hertoewijzingsscenario besproken waarin een regel wordt verwijderd uit een bestaande, gedeeltelijk gefactureerde verkooporder. In dit scenario wordt hetzelfde resultaat geproduceerd, ongeacht of de regel uit de verkooporder wordt verwijderd of wordt ingesteld op de status Geannuleerd.
+description: In dit artikel wordt een hertoewijzingsscenario besproken waarin een regel wordt verwijderd uit een bestaande, gedeeltelijk gefactureerde verkooporder. In dit scenario wordt hetzelfde resultaat geproduceerd, ongeacht of de regel uit de verkooporder wordt verwijderd of wordt ingesteld op de status Geannuleerd.
 author: kweekley
 ms.date: 12/21/2020
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7d37877e914856baf5e5e38871f5b0b1c1eff526
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 06e6322ff55259b5c59d570b73199591ab46c767
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725730"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891661"
 ---
 # <a name="revenue-recognition-reallocation--scenario-4"></a>Hertoewijzing van opbrengsttoerekening - Scenario 4
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt een hertoewijzingsscenario besproken waarin een regel wordt verwijderd uit een bestaande, gedeeltelijk gefactureerde verkooporder. In dit scenario wordt hetzelfde resultaat geproduceerd, ongeacht of de regel uit de verkooporder wordt verwijderd of wordt ingesteld op de status Geannuleerd.
+In dit artikel wordt een hertoewijzingsscenario besproken waarin een regel wordt verwijderd uit een bestaande, gedeeltelijk gefactureerde verkooporder. In dit scenario wordt hetzelfde resultaat geproduceerd, ongeacht of de regel uit de verkooporder wordt verwijderd of wordt ingesteld op de status Geannuleerd.
 
 Voor dit scenario is de optie **Factuurcorrecties boeken naar Klanten** ingesteld op **Nee** op het tabblad **Opbrengsttoerekening** van de pagina **Grootboekparameters** (**Opbrengsttoerekening \> Instellen \> Grootboekparameters**).
 

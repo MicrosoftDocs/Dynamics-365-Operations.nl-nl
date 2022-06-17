@@ -1,6 +1,6 @@
 ---
 title: Veelgestelde vragen over jaarafsluitingsactiviteiten
-description: Dit onderwerp bevat vragen over de jaarafsluiting en antwoorden die kunnen helpen bij de jaarsluitingsactiviteiten.
+description: Dit artikel bevat vragen over de jaarafsluiting en antwoorden die kunnen helpen bij de jaarsluitingsactiviteiten.
 author: moaamer
 ms.date: 12/21/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 19d23c2c5a8fabd6799c6240c25f3ede4064c001
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 1c5aca6180821dfc9fd1d475d4726c82acdf4d78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725591"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865735"
 ---
 # <a name="year-end-activities-faq"></a>Veelgestelde vragen over jaarafsluitingsactiviteiten 
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat vragen over de jaarafsluiting en antwoorden die kunnen helpen bij de jaarsluitingsactiviteiten. De informatie in dit onderwerp heeft hoofdzakelijk betrekking op vragen over jaarafsluitingsactiviteiten voor Grootboek en Leveranciers.
+Dit artikel bevat vragen over de jaarafsluiting en antwoorden die kunnen helpen bij de jaarsluitingsactiviteiten. De informatie in dit artikel heeft hoofdzakelijk betrekking op vragen over jaarafsluitingsactiviteiten voor Grootboek en Leveranciers.
 
 ## <a name="general-ledger-year-end-enhancements"></a>Verbeteringen bij jaarafsluiting grootboek 
 In versie 10.0.20 is een verbetering voor de jaarafsluiting geïntroduceerd, die standaard wordt ingeschakeld vanaf versie 10.0.25. Als uw organisatie een versie gebruikt van vóór 10.0.25, raden we u aan deze functie in te schakelen voordat u met het jaarafsluitingsproces begint. Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen de werkruimte Functiebeheer gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
@@ -75,7 +75,7 @@ De overbodige dimensiesets zijn ook van invloed op de batchtaak **BudgetDimensio
 [![Financiële-dimensiesets.](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
 
 ### <a name="year-end-close-template-configuration"></a>Configuratie van de jaarafsluitingssjabloon
-Met de jaarafsluitingssjabloon kunnen de organisaties het financiële-dimensieniveau selecteren dat moet worden aangehouden wanneer winst- en verliessaldi worden overgeboekt naar ingehouden winst. Met de instellingen kan een organisatie de gedetailleerde financiële dimensies (**Alles sluiten**) aanhouden wanneer de saldi worden verplaatst naar ingehouden winst. De organisatie kan er ook voor kiezen de bedragen samen te voegen in één dimensiewaarde (**Eén sluiten**). Dit kan voor elke financiële dimensie worden gedefinieerd. Zie het onderwerp [Jaarafsluiting](year-end-close.md) voor meer informatie over deze instellingen.
+Met de jaarafsluitingssjabloon kunnen de organisaties het financiële-dimensieniveau selecteren dat moet worden aangehouden wanneer winst- en verliessaldi worden overgeboekt naar ingehouden winst. Met de instellingen kan een organisatie de gedetailleerde financiële dimensies (**Alles sluiten**) aanhouden wanneer de saldi worden verplaatst naar ingehouden winst. De organisatie kan er ook voor kiezen de bedragen samen te voegen in één dimensiewaarde (**Eén sluiten**). Dit kan voor elke financiële dimensie worden gedefinieerd. Zie het artikel [Jaarafsluiting](year-end-close.md) voor meer informatie over deze instellingen.
 
 Het is raadzaam om de vereisten van uw organisatie te evalueren en, indien mogelijk, zo veel mogelijk dimensies te sluiten met de jaarafsluitingsoptie **Eén sluiten** om de prestaties te verbeteren. Wanneer u afsluit op één dimensiewaarde (wat ook een lege waarde kan zijn), worden er minder details berekend bij het bepalen van de saldi voor journaalregels voor ingehouden winst.
 

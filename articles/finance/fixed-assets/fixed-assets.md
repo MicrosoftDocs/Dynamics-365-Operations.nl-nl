@@ -1,6 +1,6 @@
 ---
 title: Startpagina van Vaste activa
-description: Dit onderwerp biedt toegang tot resources die u kunnen helpen om Vaste activa te gebruiken voor Microsoft Dynamics 365 Finance.
+description: Dit artikel biedt toegang tot resources waarmee u Vaste activa kunt gebruiken voor Microsoft Dynamics 365 Finance.
 author: moaamer
 ms.date: 08/31/2017
 ms.topic: index-page
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cee27143ca005f2fa42899365933ec3014aa13f6
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 57e81aaefd61eb9e695d8fe0d1c7cac4091bece7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720441"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880811"
 ---
 # <a name="fixed-assets-home-page"></a>Startpagina van Vaste activa
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp biedt toegang tot resources die u kunnen helpen om Vaste activa te gebruiken voor Microsoft Dynamics 365 Finance. Vaste activa zijn objecten van waarde die het eigendom zijn van een persoon of organisatie. De objecten zijn onder andere gebouwen, voertuigen, land en apparatuur. 
+Dit artikel biedt toegang tot resources waarmee u Vaste activa kunt gebruiken voor Microsoft Dynamics 365 Finance. Vaste activa zijn objecten van waarde die het eigendom zijn van een persoon of organisatie. De objecten zijn onder andere gebouwen, voertuigen, land en apparatuur. 
 
 U kunt aanschafgegevens voor vaste activa instellen en invoeren, en deze beheren door ze af te schrijven en een drempel voor kapitalisatie in te stellen om de afschrijving te bepalen. U kunt correcties berekenen voor de vaste activa of de vaste activa afstoten. Wanneer u Grootboek gebruikt samen met Vaste activa, kunt u de huidige waarde van alle vaste activa weergeven. De manier waarop vaste activa worden verwerkt, moet overeenstemmen met zowel internationale boekhoudregels als de boekhoudwetgeving van elk land of elke regio. Deze vereisten kunnen bijvoorbeeld regels zijn voor het vastleggen van aanschaf- en afstotingstransacties, afschrijving, levensduur en opwaarderingen en afwaarderingen van vaste activa. Veel van deze regels zijn geïntegreerd in de functionaliteit van Vaste activa.
 

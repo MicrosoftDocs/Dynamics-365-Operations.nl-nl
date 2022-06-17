@@ -1,6 +1,6 @@
 ---
 title: Standaard financiële dimensies in financiële journalen
-description: In dit onderwerp worden de regels beschreven die bepalen hoe waarden van financiële dimensies worden ingesteld in transacties die worden ingevoerd via financiële journalen. Het bevat ook details voor scenario's waarin vaste dimensies worden gebruikt.
+description: In dit artikel worden de regels beschreven die bepalen hoe waarden van financiële dimensies worden ingesteld in transacties die worden ingevoerd via financiële journalen. Het bevat ook details voor scenario's waarin vaste dimensies worden gebruikt.
 author: kweekley
 ms.date: 09/04/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 51235b8a5dac50aad5031456760c970e50506d66
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 8d0fcf836e22207baae562801fb082d735df0f96
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713101"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907917"
 ---
 # <a name="default-financial-dimensions-on-financial-journals"></a>Standaard financiële dimensies in financiële journalen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de regels beschreven die bepalen hoe waarden van financiële dimensies worden ingesteld in transacties die worden ingevoerd via financiële journalen (niet via voorraadjournalen of projectjournalen). Het bevat ook details voor scenario's waarin vaste dimensies worden gebruikt.
+In dit artikel worden de regels beschreven die bepalen hoe waarden van financiële dimensies worden ingesteld in transacties die worden ingevoerd via financiële journalen (niet via voorraadjournalen of projectjournalen). Het bevat ook details voor scenario's waarin vaste dimensies worden gebruikt.
 
 ## <a name="symptom"></a>Symptoom
 

@@ -1,6 +1,6 @@
 ---
 title: Opbrengsttoerekening op verkooporders
-description: In dit onderwerp wordt de basisfunctionaliteit beschreven voor het toerekenen van opbrengst op verkooporders en facturen. Opbrengsttoerekening is beschikbaar op de verkooporder en op de bijbehorende factuur die op basis van de verkooporder wordt gemaakt.
+description: In dit artikel wordt de basisfunctionaliteit beschreven voor het toerekenen van opbrengst op verkooporders en facturen. Opbrengsttoerekening is beschikbaar op de verkooporder en op de bijbehorende factuur die op basis van de verkooporder wordt gemaakt.
 author: kweekley
 ms.date: 08/24/2018
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 7aaa5e7c3b568400c72a1a84b5f29082579aeeae
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 5df7341160940f5c5db0dd4c5d86e4d9698d22e2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725479"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899952"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Opbrengsttoerekening op verkooporders
 
@@ -27,10 +27,10 @@ ms.locfileid: "8725479"
 > [!NOTE]
 > De functie voor opbrengsttoerekening kan niet worden ingeschakeld via Functiebeheer. Momenteel moet u configuratiesleutels gebruiken om deze functie in te schakelen.
 
-In dit onderwerp wordt de basisfunctionaliteit beschreven voor het toerekenen van opbrengst op verkooporders en facturen. Opbrengsttoerekening is beschikbaar op een verkooporder en op de bijbehorende factuur die op basis van de verkooporder wordt gemaakt. De verkooporder kan ook worden gemaakt via een tijd- en materiaal project.
+In dit artikel wordt de basisfunctionaliteit beschreven voor het toerekenen van opbrengst op verkooporders en facturen. Opbrengsttoerekening is beschikbaar op een verkooporder en op de bijbehorende factuur die op basis van de verkooporder wordt gemaakt. De verkooporder kan ook worden gemaakt via een tijd- en materiaalproject.
 
 > [!NOTE]
-> In de afbeeldingen in dit onderwerp zijn kolommen in rasters verborgen of er aan toegevoegd om de concepten beter weer te kunnen geven. Daarom kunnen de pagina's en gegevens in de afbeeldingen afwijken van wat u in het product ziet.
+> In de afbeeldingen in dit artikel zijn kolommen in rasters verborgen of eraan toegevoegd om de concepten beter te kunnen weergeven. Daarom kunnen de pagina's en gegevens in de afbeeldingen afwijken van wat u in het product ziet.
 
 ## <a name="enter-a-sales-order"></a>Een verkooporder invoeren
 

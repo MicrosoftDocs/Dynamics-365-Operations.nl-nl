@@ -1,6 +1,6 @@
 ---
 title: Gedistribueerd orderbeheer (DOM)
-description: In dit onderwerp wordt de functionaliteit voor gedistribueerd orderbeheer (DOM) in Dynamics 365 Commerce beschreven.
+description: In dit artikel wordt de functionaliteit voor gedistribueerd orderbeheer (DOM) in Dynamics 365 Commerce beschreven.
 author: josaw1
 ms.date: 02/08/2022
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f19fbe2a9f768a91c495a6a4bcb0e475adb867ae
-ms.sourcegitcommit: 8bea5a0c232ac31dcafddfcc0d715c496d8dd445
+ms.openlocfilehash: 26817321753c8e39d61957b4ea2004f20daf1b2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102004"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878507"
 ---
 # <a name="distributed-order-management-dom"></a>Gedistribueerd orderbeheer (DOM)
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt de functionaliteit voor gedistribueerd orderbeheer (DOM) in Microsoft Dynamics 365 Commerce beschreven.
+In dit artikel wordt de functionaliteit voor gedistribueerd orderbeheer (DOM) in Microsoft Dynamics 365 Commerce beschreven.
 
 DOM is een optimalisatieoplossing voor de afhandeling van orders via meerdere kanalen die u kunt gebruiken om de orderafhandeling in een toeleveringsketennetwerk te optimaliseren. Met DOM zorgt u ervoor dat producten in de juiste hoeveelheden, vanuit de juiste bronnen en op de juiste tijden aan uw klanten worden geleverd. Daarnaast kunt u hiermee de winst maximaliseren, de kosten minimaliseren en aan servicevereisten voldoen.
 

@@ -1,6 +1,6 @@
 ---
 title: Uitgestelde opbrengst toerekenen
-description: Dit onderwerp bevat informatie over de functie voor opbrengsttoerekening.
+description: Dit artikel bevat informatie over de functie voor opbrengsttoerekening.
 author: kweekley
 ms.date: 08/24/2018
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 42e9aa20eb6f4a1c14f83c5a18a4699489a932a3
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 638e56c9bbbe0b377e804aa2ff55ffe4eded21f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725927"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902539"
 ---
 # <a name="recognize-deferred-revenue"></a>Uitgestelde opbrengst toerekenen
 
@@ -27,7 +27,7 @@ ms.locfileid: "8725927"
 > [!NOTE]
 > De functie voor opbrengsttoerekening kan niet worden ingeschakeld via Functiebeheer. Momenteel moet u configuratiesleutels gebruiken om deze functie in te schakelen.
 
-In dit onderwerp wordt het proces beschreven voor het toerekenen van de opbrengst in het schema voor opbrengsttoerekening. Nadat een factuur voor een verkooporder is geboekt, wordt een schema voor opbrengsttoerekening gemaakt voor elke verkooporderregel waarvoor een opbrengstschema bestaat. Het opbrengstschema op een regel wordt gebruikt om te bepalen of voor de regel de opbrengst moet worden uitgesteld.
+In dit artikel wordt het proces beschreven voor het toerekenen van de opbrengst in het schema voor opbrengsttoerekening. Nadat een factuur voor een verkooporder is geboekt, wordt een schema voor opbrengsttoerekening gemaakt voor elke verkooporderregel waarvoor een opbrengstschema bestaat. Het opbrengstschema op een regel wordt gebruikt om te bepalen of voor de regel de opbrengst moet worden uitgesteld.
 
 ## <a name="view-revenue-recognition-schedule-details"></a>Details van het schema voor opbrengsttoerekening weergeven
 

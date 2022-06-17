@@ -410,6 +410,8 @@
                       href: deployment/onprem-reverseproxy.md
                     - name: De Magazijnbeheer-app configureren voor on-premises implementaties
                       href: deployment/warehousing-for-on-premise-deployments.md
+                    - name: RSAT inschakelen in omgevingen met Finance + Operations (on-premises)
+                      href: deployment/onprem-rsat-configuration.md
                     - name: Netwerkprinterapparaten installeren in on-premises omgevingen
                       href: analytics/install-network-printer-onprem.md
                     - name: On-premises diagnoses
@@ -1048,6 +1050,8 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: Zelfstudie over Azure DevOps-extensie (openbare preview)
                   href: lifecycle-services/dts-ado-tutorial.md
+                - name: Visual Studio Code-extensie voor Dynamics 365 Translation Service (openbare preview)
+                  href: lifecycle-services/dts-vscode-doc.md
         - name: Integratie van Microsoft Power Platform
           items:
             - name: Overzicht

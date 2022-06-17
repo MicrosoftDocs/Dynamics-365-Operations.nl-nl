@@ -1,6 +1,6 @@
 ---
 title: Verbeterde afhandeling van artikelen met batchtracering
-description: In dit onderwerp wordt de verbeterde afhandeling van artikelen met batchtracering tijdens het proces voor boeken van overzichten in Microsoft Dynamics 365 Commerce beschreven.
+description: In dit artikel wordt de verbeterde afhandeling van artikelen met batchtracering tijdens het proces voor boeken van overzichten in Microsoft Dynamics 365 Commerce beschreven.
 author: josaw1
 ms.date: 09/09/2021
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 513b6ca84fa71e851a5a3e4275e0b6572789e1eb
-ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
+ms.openlocfilehash: 736ab8dd21f04d7119cca6d53bfeb5e408b8cbd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485778"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881873"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>Verbeterde afhandeling van artikelen met batchtracering
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt de verbeterde afhandeling van artikelen met batchtracering tijdens het proces voor boeken van overzichten in Microsoft Dynamics 365 Commerce beschreven.
+In dit artikel wordt de verbeterde afhandeling van artikelen met batchtracering tijdens het proces voor boeken van overzichten in Microsoft Dynamics 365 Commerce beschreven.
 
 In Dynamics 365 Commerce POS (Point of Sale) kunnen op het moment van verkoop geen batchnummers worden vastgelegd voor artikelen met batchtracering. Voor specifieke configuraties wanneer de verkoop wordt geboekt in Commerce Headquarters via klantorders of het boeken van overzichten, verwacht Commerce dat er geldige batchnummers bestaan voor artikelen met batchtracering en dat deze worden gebruikt bij de facturering.
 

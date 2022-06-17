@@ -1,6 +1,6 @@
 ---
 title: Hertoewijzing van opbrengsttoerekening - Scenario 1
-description: In dit onderwerp wordt een hertoewijzingsscenario besproken waarin twee verkooporders worden ingevoerd, maar alleen worden bevestigd. Hetzelfde scenario levert vergelijkbare resultaten op als meer dan twee verkooporders zijn bevestigd.
+description: In dit artikel wordt een hertoewijzingsscenario besproken waarin twee verkooporders worden ingevoerd, maar alleen worden bevestigd. Hetzelfde scenario levert vergelijkbare resultaten op als meer dan twee verkooporders zijn bevestigd.
 author: kweekley
 ms.date: 12/21/2020
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cd094840e16a0ab19e234148e4ef40c454315d96
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 597c83388937cff689748889eff29d6be1b8341a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725787"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876263"
 ---
 # <a name="revenue-recognition-reallocation--scenario-1"></a>Hertoewijzing van opbrengsttoerekening - Scenario 1
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt een hertoewijzingsscenario besproken waarin twee verkooporders worden ingevoerd, maar alleen worden bevestigd. Hetzelfde scenario levert vergelijkbare resultaten op als meer dan twee verkooporders zijn bevestigd.
+In dit artikel wordt een hertoewijzingsscenario besproken waarin twee verkooporders worden ingevoerd, maar alleen worden bevestigd. Hetzelfde scenario levert vergelijkbare resultaten op als meer dan twee verkooporders zijn bevestigd.
 
 Voor dit scenario is de optie **Factuurcorrecties boeken naar Klanten** ingesteld op **Nee** op het tabblad **Opbrengsttoerekening** van de pagina **Grootboekparameters** (**Opbrengsttoerekening \> Instellen \> Grootboekparameters**).
 

@@ -1,6 +1,6 @@
 ---
 title: De boekhoudings- of aangiftevaluta wijzigen
-description: In dit onderwerp wordt uitgelegd hoe u de boekhoudings- of aangiftevaluta wijzigt of een aangiftevaluta toevoegt aan de instellingen van een grootboek.
+description: In dit artikel wordt uitgelegd hoe u de boekhoudings- of aangiftevaluta wijzigt of een aangiftevaluta toevoegt aan de instellingen van een grootboek.
 author: kweekley
 ms.date: 05/05/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ff5c38193e8469cb806c525b77809844847d6c92
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: b02432c8e0bdf52c2a588f67a581b78e682b1bf8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710885"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904609"
 ---
 # <a name="change-the-accounting-or-reporting-currency"></a>De boekhoudings- of aangiftevaluta wijzigen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u de boekhoudings- of aangiftevaluta wijzigt of een aangiftevaluta toevoegt aan de instellingen van een grootboek.
+In dit artikel wordt uitgelegd hoe u de boekhoudings- of aangiftevaluta wijzigt of een aangiftevaluta toevoegt aan de instellingen van een grootboek.
 
 ## <a name="symptom"></a>Symptoom
 

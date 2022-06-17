@@ -1,6 +1,6 @@
 ---
 title: Hertoewijzing van opbrengsttoerekening
-description: Dit onderwerp biedt informatie over hertoewijzing, waarmee organisaties opbrengstprijzen opnieuw kunnen berekenen wanneer de voorwaarden van een contractuele verkoop worden gewijzigd. Het bevat koppelingen naar andere onderwerpen waarin wordt beschreven hoe opbrengst in meerdere scenario's moet worden toegerekend.
+description: Dit artikel biedt informatie over hertoewijzing, waarmee organisaties opbrengstprijzen opnieuw kunnen berekenen wanneer de voorwaarden van een contractuele verkoop worden gewijzigd. Het bevat koppelingen naar andere onderwerpen waarin wordt beschreven hoe opbrengst in meerdere scenario's moet worden toegerekend.
 author: kweekley
 ms.date: 09/09/2021
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7528202ed140dc2c0a7fc8c595178f155c3c1f75
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: a79288fd69a2e7780ff03952b05b99db2ed88e41
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726122"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903415"
 ---
 # <a name="revenue-recognition-reallocation"></a>Hertoewijzing van opbrengsttoerekening
 
@@ -58,7 +58,7 @@ Eén parameter heeft invloed op het hertoewijzingsproces.
 
 Omdat hertoewijzing kan worden uitgevoerd voor een verkooporder die gedeeltelijk of volledig is gefactureerd, moeten alle eerdere journaalregels voor de factuur worden gecorrigeerd op basis van de nieuwe, opnieuw toegewezen opbrengstprijzen. U kunt deze correctie uitvoeren door de journaalregel van de oorspronkelijke factuur om te keren en een nieuwe journaalregel te boeken die is gebaseerd op de opnieuw toegewezen opbrengstprijzen.
 
-Elke organisatie moet bepalen of met de correctie alleen Grootboek of ook Klanten moet worden bijgewerkt. De uiteindelijke beslissing van de organisatie bepaalt de juiste instelling van de optie **Factuurcorrecties boeken naar Klanten** op het tabblad **Opbrengsttoerekening** van de pagina **Grootboekparameters** (**Opbrengsttoerekening \> Instellen \> Grootboekparameters**). De juiste instelling is afhankelijk van het specifieke scenario. Gebruik de koppelingen in de sectie [Scenario's voor hertoewijzing](#scenarios-for-reallocation) later in dit onderwerp voor meer informatie over mogelijke scenario's.
+Elke organisatie moet bepalen of met de correctie alleen Grootboek of ook Klanten moet worden bijgewerkt. De uiteindelijke beslissing van de organisatie bepaalt de juiste instelling van de optie **Factuurcorrecties boeken naar Klanten** op het tabblad **Opbrengsttoerekening** van de pagina **Grootboekparameters** (**Opbrengsttoerekening \> Instellen \> Grootboekparameters**). De juiste instelling is afhankelijk van het specifieke scenario. Gebruik de koppelingen in de sectie [Scenario's voor hertoewijzing](#scenarios-for-reallocation) later in dit artikel voor meer informatie over mogelijke scenario's.
 
 [![Het tabblad Opbrengsttoerekening op de pagina Grootboekparameters.](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
 
@@ -90,7 +90,7 @@ U start het hertoewijzingsproces door **Prijs opnieuw toewijzen met nieuwe order
 
 [![De pagina Prijs opnieuw toewijzen met nieuwe orderregels.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
-Het bovenste raster op de pagina **Prijs opnieuw toewijzen met nieuwe orderregels** heeft de naam **Verkoop**. Hier worden de verkooporders voor de klant weergegeven. Selecteer de verkooporders die opnieuw moeten worden toegewezen. Als een verkooporder een hertoewijzings-id heeft, is deze al voor hertoewijzing gemarkeerd door een andere gebruiker. Als een of meer verkooporders eerder opnieuw zijn toegewezen en in een andere hertoewijzing moeten worden opgenomen, moet de hertoewijzing van die verkooporders eerst ongedaan worden gemaakt. Vervolgens kunnen die verkooporders worden opgenomen in een nieuwe hertoewijzing. Zie de secties [Een hertoewijzing ongedaan maken](#undo-a-reallocation) en [Meerdere keren opnieuw toewijzen](#reallocate-multiple-times) verderop in dit onderwerp voor meer gedetailleerde informatie.
+Het bovenste raster op de pagina **Prijs opnieuw toewijzen met nieuwe orderregels** heeft de naam **Verkoop**. Hier worden de verkooporders voor de klant weergegeven. Selecteer de verkooporders die opnieuw moeten worden toegewezen. Als een verkooporder een hertoewijzings-id heeft, is deze al voor hertoewijzing gemarkeerd door een andere gebruiker. Als een of meer verkooporders eerder opnieuw zijn toegewezen en in een andere hertoewijzing moeten worden opgenomen, moet de hertoewijzing van die verkooporders eerst ongedaan worden gemaakt. Vervolgens kunnen die verkooporders worden opgenomen in een nieuwe hertoewijzing. Zie de secties [Een hertoewijzing ongedaan maken](#undo-a-reallocation) en [Meerdere keren opnieuw toewijzen](#reallocate-multiple-times) verderop in dit artikel voor meer gedetailleerde informatie.
 
 Het onderste raster op de pagina heeft de naam **Regels**. Als u een of meer verkooporders in het raster **Verkoop** selecteert, worden de verkooporderregels weergegeven in het raster **Regels**. Selecteer de verkooporderregels die opnieuw moeten worden toegewezen. Als u slechts één verkooporder hebt geselecteerd, moeten regels in dezelfde verkooporder opnieuw worden toegewezen. Deze situatie kan zich voordoen wanneer een van de verkooporderregels eerder is gefactureerd en er vervolgens een nieuwe regel is toegevoegd of een bestaande regel is verwijderd of geannuleerd. Als een regel is verwijderd, wordt deze niet weergegeven in het raster. De regel kan dan dus ook niet worden geselecteerd. Er wordt echter nog wel rekening mee gehouden wanneer het toewijzingsproces wordt uitgevoerd.
 

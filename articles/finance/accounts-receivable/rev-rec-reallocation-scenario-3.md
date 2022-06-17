@@ -1,6 +1,6 @@
 ---
 title: Hertoewijzing van opbrengsttoerekening - Scenario 3
-description: In dit onderwerp wordt een hertoewijzingsscenario besproken waarin een nieuwe regel wordt toegevoegd aan een bestaande gefactureerde verkooporder. Wanneer een nieuw artikel aan een contract wordt toegevoegd, kan het worden toegevoegd aan een nieuwe verkooporder of aan de bestaande verkooporder.
+description: In dit artikel wordt een hertoewijzingsscenario besproken waarin een nieuwe regel wordt toegevoegd aan een bestaande gefactureerde verkooporder. Wanneer een nieuw artikel aan een contract wordt toegevoegd, kan het worden toegevoegd aan een nieuwe verkooporder of aan de bestaande verkooporder.
 author: kweekley
 ms.date: 12/21/2020
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3b3b41b09cc9f4c56fdb04f6a2c4156bc1637699
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 7aa62406a80eb3381206172caaae457ec71b7bf8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726572"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904811"
 ---
 # <a name="revenue-recognition-reallocation--scenario-3"></a>Hertoewijzing van opbrengsttoerekening - Scenario 3
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt een hertoewijzingsscenario besproken waarin een nieuwe regel wordt toegevoegd aan een bestaande gefactureerde verkooporder. Wanneer een nieuw artikel aan een contract wordt toegevoegd, kan het worden toegevoegd aan een nieuwe verkooporder of aan de bestaande verkooporder. Dit scenario laat ook zien wat er gebeurt wanneer Klanten wordt bijgewerkt vanwege de hertoewijzing.
+In dit artikel wordt een hertoewijzingsscenario besproken waarin een nieuwe regel wordt toegevoegd aan een bestaande gefactureerde verkooporder. Wanneer een nieuw artikel aan een contract wordt toegevoegd, kan het worden toegevoegd aan een nieuwe verkooporder of aan de bestaande verkooporder. Dit scenario laat ook zien wat er gebeurt wanneer Klanten wordt bijgewerkt vanwege de hertoewijzing.
 
 Voor dit scenario is de optie **Factuurcorrecties boeken naar Klanten** ingesteld op **Ja** op het tabblad **Opbrengsttoerekening** van de pagina **Grootboekparameters** (**Opbrengsttoerekening \> Instellen \> Grootboekparameters**).
 

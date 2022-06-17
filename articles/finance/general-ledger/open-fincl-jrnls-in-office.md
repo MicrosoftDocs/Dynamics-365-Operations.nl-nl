@@ -1,6 +1,6 @@
 ---
 title: Sjablonen voor financiële journalen openen in Office
-description: In dit onderwerp worden problemen beschreven die kunnen optreden wanneer u aangepaste financiële journalen maakt met behulp van een Microsoft Excel-sjabloon.
+description: In dit artikel worden problemen beschreven die kunnen optreden wanneer u aangepaste financiële journalen maakt met behulp van een Microsoft Excel-sjabloon.
 author: kweekley
 ms.date: 05/14/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 099d3c0074a86913b79b732a4c2a34b6e6488672
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: a29ab1cb2980ebfed6c6fa6409538bc802849156
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723073"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896342"
 ---
 # <a name="open-financial-journal-templates-in-office"></a>Sjablonen voor financiële journalen openen in Office
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden problemen beschreven die kunnen optreden wanneer u aangepaste financiële journalen maakt met behulp van een Microsoft Excel-sjabloon.
+In dit artikel worden problemen beschreven die kunnen optreden wanneer u aangepaste financiële journalen maakt met behulp van een Microsoft Excel-sjabloon.
 
 ## <a name="symptom"></a>Symptoom
 

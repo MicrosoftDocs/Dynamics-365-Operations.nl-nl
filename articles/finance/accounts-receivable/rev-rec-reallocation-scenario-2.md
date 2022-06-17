@@ -1,6 +1,6 @@
 ---
 title: Hertoewijzing van opbrengsttoerekening - Scenario 2
-description: In dit onderwerp wordt een hertoewijzingsscenario besproken waarin twee verkooporders worden ingevoerd en de klant vervolgens een artikel aan het contract toevoegt nadat de eerste verkooporder is gefactureerd. Wanneer een nieuw artikel aan een contract wordt toegevoegd, kan het worden toegevoegd aan een nieuwe verkooporder of aan de bestaande verkooporder.
+description: In dit artikel wordt een hertoewijzingsscenario besproken waarin twee verkooporders worden ingevoerd en de klant vervolgens een artikel aan het contract toevoegt nadat de eerste verkooporder is gefactureerd. Wanneer een nieuw artikel aan een contract wordt toegevoegd, kan het worden toegevoegd aan een nieuwe verkooporder of aan de bestaande verkooporder.
 author: kweekley
 ms.date: 12/21/2020
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4026b8c69e51cb33c64bcf71a62a13b28b86bd49
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: dec8dba9848b77e5c0a1007102789c8f88185fbc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726149"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904839"
 ---
 # <a name="revenue-recognition-reallocation--scenario-2"></a>Hertoewijzing van opbrengsttoerekening - Scenario 2
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt een hertoewijzingsscenario besproken waarin twee verkooporders worden ingevoerd en de klant vervolgens een artikel aan het contract toevoegt nadat de eerste verkooporder is gefactureerd. Wanneer een nieuw artikel aan een contract wordt toegevoegd, kan het worden toegevoegd aan een nieuwe verkooporder of aan de bestaande verkooporder.
+In dit artikel wordt een hertoewijzingsscenario besproken waarin twee verkooporders worden ingevoerd en de klant vervolgens een artikel aan het contract toevoegt nadat de eerste verkooporder is gefactureerd. Wanneer een nieuw artikel aan een contract wordt toegevoegd, kan het worden toegevoegd aan een nieuwe verkooporder of aan de bestaande verkooporder.
 
 Voor dit scenario is de optie **Factuurcorrecties boeken naar Klanten** ingesteld op **Nee** op het tabblad **Opbrengsttoerekening** van de pagina **Grootboekparameters** (**Opbrengsttoerekening \> Instellen \> Grootboekparameters**).
 

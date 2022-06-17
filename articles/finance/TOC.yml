@@ -60,6 +60,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Service-updates configureren
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/finance/toc.json
+                - name: Vóór service en na service
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/finance/toc.json
                 - name: Service-updates onderbreken
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: Bericht ontvangen over service-updates
@@ -1684,6 +1686,8 @@
                       href: general-ledger/sales-tax-calculation-methods-origin-field.md
                     - name: Berekeningsopties Volledige bedrag en interval voor btw-codes
                       href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                    - name: Berekening en afronding van btw
+                      href: general-ledger/sales-tax-calculation-rounding.md
                     - name: Btw-berekening voor algemene journaalregels
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: Btw op een leveranciersfactuur berekenen en corrigeren
@@ -2162,12 +2166,14 @@
               items:
                 - name: Overzicht Estland
                   href: localizations/estonia.md
-                - name: Verzoeken voor persoonlijke informatie
+                - name: Verzoeken om persoonlijke informatie
                   href: localizations/emea-est-personal-info.md
                 - name: Btw-overzicht
                   href: localizations/emea-est-vat-statement-details.md
                 - name: Estische Intrastat
                   href: localizations/emea-est-intrastat.md
+                - name: ICL-lijst
+                  href: localizations/emea-est-eu-sales-list.md
             - name: Europa
               items:
                 - name: Overzicht Europa
@@ -2452,6 +2458,8 @@
                   href: localizations/emea-hun-online-invoicing.md
                 - name: Btw-aangiften voor Hongarije
                   href: localizations/emea-hun-sales-tax-reports.md
+                - name: Hongaarse intrastat
+                  href: localizations/emea-hun-intrastat.md
                 - name: Uitgestelde btw-berekeningen
                   href: localizations/emea-hun-deferred-vat.md
             - name: IJsland
@@ -3112,6 +3120,8 @@
                   href: localizations/emea-lva-vat-statement-details.md
                 - name: Letse Intrastat
                   href: localizations/emea-lva-intrastat.md
+                - name: ICL-lijst
+                  href: localizations/emea-lva-eu-sales-list.md
             - name: Litouwen
               items:
                 - name: Overzicht Litouwen
@@ -3130,6 +3140,8 @@
                   href: localizations/emea-ltu-saf-t.md
                 - name: De overboekingsdocumenten instellen voor goederenverplaatsing in een bedrijf
                   href: localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
+                - name: ICL-lijst
+                  href: localizations/emea-ltu-eu-sales-list.md
             - name: Maleisië
               items:
                 - name: Overzicht Maleisië
@@ -4483,6 +4495,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: Prestatieproblemen in ER-configuraties oplossen
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/finance/toc.json
+                    - name: Het aantal tabelvelden beperken dat wordt opgehaald tijdens runtime
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/finance/toc.json
                 - name: Beheer van bedrijfsdocumenten (BDM)
                   items:
                     - name: BDM-overzicht

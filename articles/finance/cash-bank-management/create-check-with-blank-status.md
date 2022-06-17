@@ -1,6 +1,6 @@
 ---
 title: Cheques met een status Blanco maken
-description: In dit onderwerp wordt uitgelegd hoe u blanco cheques maakt voor een bankrekening.
+description: In dit artikel wordt uitgelegd hoe u blanco cheques maakt voor een bankrekening.
 author: abruer
 ms.date: 10/26/2017
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b3a0fbb26f135e567bf6af7b2f10b39a28be4c9e
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 834e11e0e359521c674e2b6fd78c93dcb23961a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717211"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861439"
 ---
 # <a name="create-checks-that-have-blank-status"></a>Cheques met een status Blanco maken
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u blanco cheques maakt. U kunt bijvoorbeeld een blanco cheque maken om een cheque te registreren die beschadigd is en die niet kan worden gebruikt om een betaling mee te verrichten.
+In dit artikel wordt uitgelegd hoe u blanco cheques maakt. U kunt bijvoorbeeld een blanco cheque maken om een cheque te registreren die beschadigd is en die niet kan worden gebruikt om een betaling mee te verrichten.
 
 Op de pagina **Cheques** voert u onderhoudstaken uit voor cheques. U kunt bijvoorbeeld nieuwe chequenummers maken en cheques verwijderen. U kunt ook cheques maken met de status **Blanco**. Blanco cheques die zijn gemaakt, kunnen niet meer worden verwijderd of opnieuw worden gebruikt in het systeem.
 

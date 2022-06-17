@@ -58,6 +58,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Service-updates configureren
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/commerce/toc.json
+                - name: Vóór service en na service
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/commerce/toc.json
                 - name: Service-updates onderbreken
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: Bericht ontvangen over service-updates
@@ -394,6 +396,8 @@
                   items:
                     - name: Store Commerce-app
                       href: dev-itpro/store-commerce.md
+                    - name: Modern POS migreren naar Store Commerce
+                      href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Implementatierichtlijnen voor apparaatbeheer
                       href: implementation-considerations-devices.md
                     - name: Kiezen tussen Store Commerce en Cloud POS
@@ -2222,6 +2226,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
                     - name: Prestatieproblemen in ER-configuraties oplossen
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Het aantal tabelvelden beperken dat wordt opgehaald tijdens runtime
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/commerce/toc.json
                 - name: Beheer van bedrijfsdocumenten (BDM)
                   items:
                     - name: BDM-overzicht
@@ -2476,6 +2482,8 @@
                       href: dev-itpro/retail-sdk/sdk-github.md
                     - name: Migratie verouderde Retail SDK
                       href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
+                    - name: 'Verouderde en verwijderde API''s, klassen en methoden'
+                      href: dev-itpro/obsolete-apis-classes-methods.md
                     - name: De Commerce-technologiestack binnen de winkel moderniseren (whitepaper)
                       href: 'https://www.microsoft.com/download/details.aspx?id=103896'
                 - name: Omgeving instellen
@@ -2560,6 +2568,8 @@
                   items:
                     - name: Een Cloud Scale Unit-uitbreidingspakket maken
                       href: dev-itpro/CSU-packaging.md
+                    - name: Cloud Scale Unit-uitbreidingspakketten samenvoegen voor implementatie
+                      href: dev-itpro/merge-csu-extensions.md
                     - name: Cloud Scale Unit-uitbreidingen verwijderen
                       href: dev-itpro/retail-sdk/remove-csu-package.md
             - name: Store Commerce
@@ -2908,11 +2918,19 @@
                       href: dev-itpro/create-retail-experience-app.md
         - name: Problemen oplossen
           items:
+            - name: Store Commerce
+              items:
+                - name: Instellings- en installatieproblemen
+                  href: troubleshoot/store-commerce-setup-installation.md
+                - name: Prestatiesproblemen
+                  href: troubleshoot/store-commerce-performance.md
+                - name: Uitbreidingsproblemen
+                  href: troubleshoot/store-commerce-extensions.md
             - name: Orderverwerking
               items:
                 - name: Betalingstype moet creditcardfout zijn
                   href: troubleshoot/payment-type-credit-card-error.md
-                - name: Belasting voor onlineorders wordt onjuist berekend
+                - name: Belasting voor online orders wordt onjuist berekend
                   href: troubleshoot/tax-miscalculated-online-order.md
                 - name: Fout bij ordersynchronisatie die samenhangt met standaardbetalingsservice
                   href: troubleshoot/synchronization-error.md

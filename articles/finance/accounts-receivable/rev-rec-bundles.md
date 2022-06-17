@@ -1,6 +1,6 @@
 ---
 title: Bundels voor opbrengsttoerekening
-description: In dit onderwerp wordt de bundelfunctie beschreven die is opgenomen in de functie voor opbrengsttoerekening in Klanten. Een bundel bestaat uit een hoofdartikel en meerdere componentartikelen.
+description: In dit artikel wordt de bundelfunctie beschreven die is opgenomen in de functie voor opbrengsttoerekening in Klanten. Een bundel bestaat uit een hoofdartikel en meerdere componentartikelen.
 author: kweekley
 ms.date: 01/04/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 62a4d7f36ad0b36edeaec75e9b670e2aad143703
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 478fdfc69514fba829deb63b4e2904ff3fe1e199
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725814"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876291"
 ---
 # <a name="revenue-recognition-bundles"></a>Bundels voor opbrengsttoerekening
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt de bundelfunctie beschreven die is opgenomen in de functie voor opbrengsttoerekening in Klanten. Een bundel bestaat uit een hoofdartikel en meerdere componentartikelen. Het hoofdartikel wordt in een verkooporder ingevoerd, zodat de orderinvoer efficiënter wordt. Het wordt vervolgens echter geëxplodeerd naar de componentartikelen. Interne documenten, zoals de pakbon, bevatten een lijst met de componentartikelen. In externe documenten wordt echter alleen het hoofdartikel weergegeven.
+In dit artikel wordt de bundelfunctie beschreven die is opgenomen in de functie voor opbrengsttoerekening in Klanten. Een bundel bestaat uit een hoofdartikel en meerdere componentartikelen. Het hoofdartikel wordt in een verkooporder ingevoerd, zodat de orderinvoer efficiënter wordt. Het wordt vervolgens echter geëxplodeerd naar de componentartikelen. Interne documenten, zoals de pakbon, bevatten een lijst met de componentartikelen. In externe documenten wordt echter alleen het hoofdartikel weergegeven.
 
 > [!NOTE]
 > Microsoft Dynamics 365 Commerce-kanalen, zoals online, POS (Point of Sale) en callcenters, bieden geen ondersteuning voor opbrengsttoerekening (inclusief de bundelfunctionaliteit). Dit geldt ook voor de oplossing Prospect naar contant geld voor Dynamics 365 Supply Chain Management en Dynamics 365 Sales. Artikelen die zijn geconfigureerd voor het gebruik van opbrengsttoerekening mogen niet worden toegevoegd aan orders of transacties die zijn gemaakt in Commerce-kanalen of in de oplossing Prospect naar contant geld.

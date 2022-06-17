@@ -1,6 +1,6 @@
 ---
 title: Rapportage en analyse met Power BI-startpagina
-description: In dit onderwerp wordt verwezen naar resources die u kunt gebruiken om meer te weten te komen over de BI- en rapportagehulpmiddelen die beschikbaar zijn.
+description: In dit artikel wordt verwezen naar resources die u kunt gebruiken om meer te weten te komen over de BI- en rapportagehulpmiddelen die beschikbaar zijn.
 author: sericks007
 ms.date: 10/02/2019
 ms.topic: index-page
@@ -16,23 +16,23 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a1c0ee254a5300cfc84eb434e4785b6eceacf0375b983b33991445443957a33
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4be3c576cd0fac1239113efcdd7e97810b193a88
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712731"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906628"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Rapportage en analyse met Power BI-startpagina
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt verwezen naar resources die u kunt gebruiken om meer te weten te komen over de BI- (business intelligence) en rapportagehulpmiddelen die beschikbaar zijn.
+In dit artikel wordt verwezen naar resources die u kunt gebruiken om meer te weten te komen over de BI- (business intelligence) en rapportagehulpmiddelen die beschikbaar zijn.
 
 ## <a name="get-started"></a>Aan de slag
-- [Toegang tot informatie en rapportage](information-access-reporting.md)
+- [Informatietoegang en -rapportage](information-access-reporting.md)
 - [Tech Talk: Rapportageopties](https://www.youtube.com/watch?v=NzZONjKs5xA) (video)
-- [Finance and Operations: Blog over Power BI-analyse en rapportageservices](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blog)
+- [Finance and Operations: Blog met Power BI-analyses en Reporting Services](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blog)
 
 ## <a name="analytical-workspaces"></a>Analytische werkgebieden
 In werkgebieden kan worden gebruikgemaakt van uitgebreide infographics en visuals die worden ondersteund door Microsoft Power BI. Deze infographics en visuals bevatten veel besturingselementen die worden geleverd door derden. Werkgebieden kunnen daarom een zeer visuele, interactieve ervaring bieden voor gebruikers.
@@ -88,7 +88,7 @@ De volgende rapporten bevatten Naslag informatie over de objecten:
 - [Informatie zoeken over standaardgegevensentiteiten](../data-entities/data-entities-report.md)
 - [Rapport Licentiecodes en configuratiesleutels](../sysadmin/license-codes-configuration-keys-report.md)
 - [Beschikbare SQL Server Reporting Services-rapporten (SSRS)](SSRS-report.md)
-- [Rapport over workflowtypen](../../fin-ops/organization-administration/workflow-types-report.md)
+- [Rapport over werkstroomtypen](../../fin-ops/organization-administration/workflow-types-report.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

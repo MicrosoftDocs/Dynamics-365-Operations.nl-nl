@@ -1,6 +1,6 @@
 ---
 title: Startpagina van Leveranciers
-description: Dit onderwerp bevat een overzicht van Leveranciers.
+description: Dit artikel bevat een overzicht van Leveranciers.
 author: sunfzam
 ms.date: 02/15/2019
 ms.topic: index-page
@@ -8,27 +8,27 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "21901"
 - intro-internal
 ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce768ecaa668f2c69d6753401eaa145b6fddc5ec
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 5ed6aacb94de14bdb72185cd528f62e74cd3cc15
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595282"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946096"
 ---
 # <a name="accounts-payable-home-page"></a>Startpagina van Leveranciers
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat een overzicht van Leveranciers. 
+Dit artikel bevat een overzicht van Leveranciers. 
 
 U kunt leveranciersfacturen handmatig invoeren of elektronisch ontvangen via een gegevensentiteit. Nadat de facturen zijn ingevoerd of ontvangen, kunt u de facturen controleren en goedkeuren met behulp van een factuurgoedkeuringsjournaal of de pagina **Leveranciersfactuur**. U kunt gebruikmaken van factuurvereffening, beleid voor leveranciersfacturen en werkstromen om het controleproces te automatiseren, zodat facturen die aan bepaalde criteria voldoen, automatisch worden goedgekeurd en de resterende facturen worden gemarkeerd voor controle door een gemachtigde gebruiker.
 
@@ -126,7 +126,7 @@ Ga naar de [releaseplannen voor Microsoft Dynamics 365](/dynamics365/release-pla
 
 #### <a name="blogs"></a>Weblogs
 
-U kunt adviezen, nieuws en andere informatie over Leveranciers en andere oplossingen vinden op de [Microsoft Dynamics 365-blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)en de [Microsoft Dynamics 365 Finance - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).
+U kunt adviezen, nieuws en andere informatie over Leveranciers en andere oplossingen vinden in de [blog over Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) en de [blog over Microsoft Dynamics 365 Finance - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 De [Microsoft Dynamics Operations-blog van de partnercommunity](https://community.dynamics.com/partner/b/operationspartnercommunityblog) biedt Microsoft Dynamics-partners één bron met informatie over wat nieuw is en welke trends er zijn in Dynamics 365.
 

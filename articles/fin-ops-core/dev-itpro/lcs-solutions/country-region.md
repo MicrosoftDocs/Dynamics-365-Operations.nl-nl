@@ -1,6 +1,6 @@
 ---
 title: Globalisatieresources
-description: Dit onderwerp bevat een lijst met resources met meer informatie over land- en regiospecifieke functies en aanbiedingen.
+description: Dit artikel bevat een lijst met resources met meer informatie over land- en regiospecifieke functies en aanbiedingen.
 author: kfend
 ms.date: 02/19/2021
 ms.topic: index-page
@@ -14,27 +14,27 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 822f00c21715b928027a7656f299a693686bf5dfc01f1f5a1738d5eb8d4bf124
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4935d54a911701fda4740e3a1116c139730ceb08
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747510"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866532"
 ---
 # <a name="globalization-resources"></a>Globalisatieresources
 
 ## <a name="local-and-regional-deployments"></a>Lokale en regionale implementaties
 Als uw overheidsvoorschriften vereisen dat gegevens anders worden opgeslagen of anders worden onderhouden dan is vereist voor andere landen/regio's, moet u mogelijk rekening houden met vereisten voor het land of de regio tijdens de implementatiefase. De volgende resources zijn mogelijk relevant voor u:
 
-[Finance and Operations -apps die worden geëxploiteerd door 21Vianet in China](../deployment/china-local-deployment.md)
+[Apps voor financiën en bedrijfsactiviteiten geëxploiteerd door 21Vianet in China](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>Lokalisatie en wettelijk voorgeschreven functies
 
 [!include [banner](../includes/banner.md)]
 
-Finance and Operations-apps bevatten functionaliteit voor de landen/regio's die worden beschreven in de [internationale handleiding voor productbeschikbaarheid](https://aka.ms/dynamics_365_international_availability_deck). Deze functionaliteit wordt ingeschakeld op basis van het primaire adres van de actieve rechtspersoon. 
+Apps voor financiën en bedrijfsactiviteiten bevatten functionaliteit voor de landen/regio's die worden beschreven in de [internationale handleiding voor productbeschikbaarheid](https://aka.ms/dynamics_365_international_availability_deck). Deze functionaliteit wordt ingeschakeld op basis van het primaire adres van de actieve rechtspersoon. 
 
-Dit onderwerp bevat een lijst met resources waarmee u het volgende kunt doen: 
+Dit artikel bevat een lijst met resources waarmee u het volgende kunt doen: 
 - Meer informatie krijgen over het ontwikkelen van land-/regiospecifieke oplossingen.
 - Land-/regiospecifieke updates ophalen.
 - Wettelijke waarschuwingen indienen en bekijken.
@@ -62,8 +62,8 @@ De volgende resources bevatten informatie over geplande en nieuwe lokalisatiefun
 #### <a name="dynamics-365-release-plans"></a>Dynamics 365-releaseplannen
 De [Dynamics 365-releaseplannen](/business-applications-release-notes/) bevatten beschrijvingen van nieuwe en verbeterde functies die zijn gepland voor de zakelijke toepassingen en toepassingsplatforms van Dynamics 365. 
 
-#### <a name="finance-and-operations-apps-whats-new"></a>Nieuwe functies in Finance and Operations-apps
-Op de [startpagina Nieuwe of gewijzigde functies in Finance and Operations-apps](../../fin-ops/get-started/whats-new-changed.md) worden de functies vermeld die zijn opgenomen in specifieke releases van de Finance and Operations-apps.
+#### <a name="finance-and-operations-apps-whats-new"></a>Nieuw in Finance and Operations-apps
+Op de [startpagina Nieuw of gewijzigd in Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) worden de functies vermeld die zijn opgenomen in specifieke releases van de Finance and Operations-apps.
 
 ### <a name="electronic-reporting"></a>Elektronische rapportage
 Met het hulpmiddel voor elektronische rapportage (ER) kunt u indelingen voor elektronische documenten configureren in overeenstemming met de wettelijke voorschriften van verschillende landen/regio's. Met ER kunt u deze indelingen beheren gedurende hun hele levenscyclus. Raadpleeg een van de volgende onderwerpen voor meer informatie:
@@ -77,10 +77,10 @@ Met het hulpmiddel voor elektronische rapportage (ER) kunt u indelingen voor ele
 -   [Elektronische aangifte (ER) configureren om gegevens op te halen in Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
 -   [Elektronische documenten genereren en toepassingsgegevens bijwerken met ER](../analytics/generate-electronic-documents-update-application-data.md)
 
-### <a name="task-guides"></a>Taakbegeleidingen
-Taakbegeleidingen zijn beschikbaar vanuit het Help-venster van het product en bieden een begeleid overzicht van belangrijke bedrijfsprocessen. U kunt een taakbegeleiding openen om de stappen van een bedrijfsproces te lezen of u kunt een taakbegeleiding afspelen om een bedrijfsproces te doorlopen en gegevens in te voeren.
+### <a name="task-guides"></a>Taakbegeleiders
+Taakbegeleiders zijn beschikbaar vanuit het Help-venster van het product en bieden een begeleid overzicht van belangrijke bedrijfsprocessen. U kunt een taakbegeleider openen om de stappen van een bedrijfsproces te lezen of u kunt een taakbegeleider afspelen om een bedrijfsproces te doorlopen en gegevens in te voeren.
 
-U kunt taakbegeleidingen zoeken door naar een pagina in de toepassing te gaan en op Help te klikken. Taakbegeleidingen die gebruikmaken van de pagina worden weergegeven in het Help-venster. U kunt het Help-venster ook gebruiken om op titel naar taakbegeleidingen te zoeken.
+U kunt taakbegeleiders zoeken door naar een pagina in de toepassing te gaan en op Help te klikken. Taakbegeleiders die gebruikmaken van de pagina worden weergegeven in het Help-venster. U kunt het Help-venster ook gebruiken om op titel naar taakbegeleiders te zoeken.
 
 Meer informatie vindt u in het [Help-systeem](../../fin-ops/get-started/help-overview.md#task-guides).
 

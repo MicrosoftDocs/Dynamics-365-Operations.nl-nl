@@ -1,6 +1,6 @@
 ---
 title: Startpagina Supply Chain Management
-description: Deze pagina bevat een lijst met de Help-onderwerpen en andere informatiebronnen voor de functies van Supply Chain Management.
+description: Deze pagina bevat een lijst met de Help-artikelen en andere informatiebronnen voor de functies van Supply Chain Management.
 author: kamaybac
 ms.date: 09/15/2021
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9ae75f33d96261691eee52c963a1f1f00c75b0de
-ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
+ms.openlocfilehash: 189239ad6142af200e41cfe9cfcdbb56be65b0b7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "8789207"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879071"
 ---
 # <a name="supply-chain-management-home-page"></a>Startpagina Supply Chain Management
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp bevat een lijst met de Help-onderwerpen en andere informatiebronnen voor de functies van Dynamics 365 Supply Chain Management.
+Dit artikel bevat een lijst met de Help-artikelen en andere informatiebronnen voor de functies van Dynamics 365 Supply Chain Management.
 
 ## <a name="whats-new-and-in-development"></a>Nieuwe functies en functies in ontwikkeling
 
@@ -93,7 +93,7 @@ In de volgende opnamen van technische conferenties worden de functies voor Suppl
 
 ## <a name="blogs"></a>Weblogs
 
-Er zijn veel onderwerpen over productie en Supply Chain Management beschikbaar in de blog van het [R&D-team voor Dynamics AX Manufacturing](/archive/blogs/axmfg/) en de [blog van het R&D-team voor Supply Chain Management in Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/). De meeste hiervan zijn geschreven voor de vorige versie, maar dezelfde concepten zijn nog steeds van toepassing en de procedures komen overeen in de huidige versie.
+Er zijn veel artikelen over productie en Supply Chain Management beschikbaar in de blog van het [R&D-team voor Dynamics AX Manufacturing](/archive/blogs/axmfg/) en de [blog van het R&D-team voor Supply Chain Management in Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/). De meeste hiervan zijn geschreven voor de vorige versie, maar dezelfde concepten zijn nog steeds van toepassing en de procedures komen overeen in de huidige versie.
 
 ## <a name="white-papers"></a>Technische documenten
 
