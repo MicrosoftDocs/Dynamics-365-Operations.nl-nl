@@ -1,6 +1,6 @@
 ---
-title: Sjablonen voor budgetplanning in Excel
-description: In dit onderwerp wordt beschreven hoe u Microsoft Excel-sjablonen kunt maken die voor budgetplannen kunnen worden gebruikt.
+title: Excel-sjablonen voor budgetplanning
+description: In dit artikel wordt beschreven hoe u Microsoft Excel-sjablonen kunt maken die voor budgetplannen kunnen worden gebruikt.
 author: panolte
 ms.date: 01/12/2018
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 90691aec0ffad8d33a19a09e7bc521cd6d6a09a9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 6bc190a48d0212e24c5bd72255ed6b6b3caf942c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711971"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872494"
 ---
-# <a name="budget-planning-templates-for-excel"></a>Sjablonen voor budgetplanning in Excel
+# <a name="budget-planning-templates-for-excel"></a>Excel-sjablonen voor budgetplanning
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u Microsoft Excel-sjablonen kunt maken die voor budgetplannen kunnen worden gebruikt.
+In dit artikel wordt beschreven hoe u Microsoft Excel-sjablonen kunt maken die voor budgetplannen kunnen worden gebruikt.
 
-In dit onderwerp wordt beschreven hoe u Excel-sjablonen kunt maken die worden gebruikt voor budgetplannen met behulp van de standaard-demogegevensset en de beheerdersaanmelding. Zie [Overzicht van budgetplanning](budget-planning-overview-configuration.md) voor meer informatie over budgetplanning. U kunt ook de zelfstudie [Budgetplanning](budget-plan.md) volgen om de basismoduleconfiguratie en gebruiksbeginselen te leren.
+In dit artikel wordt beschreven hoe u Excel-sjablonen kunt maken die worden gebruikt voor budgetplannen met behulp van de standaard-demogegevensset en de beheerdersaanmelding. Zie [Overzicht van budgetplanning](budget-planning-overview-configuration.md) voor meer informatie over budgetplanning. U kunt ook de zelfstudie [Budgetplanning](budget-plan.md) volgen om de basismoduleconfiguratie en gebruiksbeginselen te leren.
 
 ## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>Een werkblad genereren met de indeling voor het budgetplandocument
 
-Budgetplandocumenten kunnen worden weergegeven en bewerkt met behulp van een of meer indelingen. Aan elke indeling kan een documentsjabloon voor het budgetplan worden gekoppeld om de budgetplangegevens in een Excel-werkblad weer te geven en te bewerken. In dit onderwerp wordt een documentsjabloon voor het budgetplan gegenereerd met behulp van een bestaande indelingsconfiguratie. 
+Budgetplandocumenten kunnen worden weergegeven en bewerkt met behulp van een of meer indelingen. Aan elke indeling kan een documentsjabloon voor het budgetplan worden gekoppeld om de budgetplangegevens in een Excel-werkblad weer te geven en te bewerken. In dit artikel wordt een documentsjabloon voor het budgetplan gegenereerd met behulp van een bestaande indelingsconfiguratie. 
 
 1. Open de **Lijst met budgetplannen** (**Budgettering** &gt; **Budgetplannen**). 
 2. Klik op **Nieuw** om een nieuw budgetplandocument te maken. 

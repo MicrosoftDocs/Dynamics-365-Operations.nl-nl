@@ -1,6 +1,6 @@
 ---
 title: Aangepaste opslaglocaties opgeven voor gegenereerde documenten
-description: In dit onderwerp wordt uitgelegd hoe u de lijst met opslaglocaties uitbreidt voor documenten die zijn gegenereerd door indelingen voor elektronische rapportage (ER).
+description: In dit artikel wordt uitgelegd hoe u de lijst met opslaglocaties uitbreidt voor documenten die zijn gegenereerd door indelingen voor elektronische rapportage (ER).
 author: NickSelin
 ms.date: 10/29/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 103a7e51fc6042e19b1db3b3d6b00436df15fd89
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594904"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898851"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Aangepaste opslaglocaties opgeven voor gegenereerde documenten
 
 [!include[banner](../includes/banner.md)]
 
-Met de API (Application Programming Interface) van het ER-raamwerk kunt u de lijst met opslaglocaties uitbreiden voor documenten waarmee ER-indelingen worden gegenereerd. In dit onderwerp wordt uitgelegd hoe u een aangepaste opslaglocatie voor gegenereerde documenten kunt toevoegen door de taak voor het maken van ER-bestemmingen te delegeren aan de standaard bestemmingsfabriek en vervolgens een aangepaste klasse te implementeren die een eigen bestemmingslogica heeft.
+Met de API (Application Programming Interface) van het ER-raamwerk kunt u de lijst met opslaglocaties uitbreiden voor documenten waarmee ER-indelingen worden gegenereerd. In dit artikel wordt uitgelegd hoe u een aangepaste opslaglocatie voor gegenereerde documenten kunt toevoegen door de taak voor het maken van ER-bestemmingen te delegeren aan de standaard bestemmingsfabriek en vervolgens een aangepaste klasse te implementeren die een eigen bestemmingslogica heeft.
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -35,7 +35,7 @@ Implementeer een topologie die ondersteuning biedt voor continuous build. Zie [T
 
 U moet ook toegang hebben tot de ontwikkelomgeving voor deze topologie.
 
-Alle taken in dit onderwerp kunnen in het bedrijf **USMF** worden uitgevoerd.
+Alle taken in dit artikel kunnen in het bedrijf **USMF** worden uitgevoerd.
 
 ## <a name="import-the-fixed-asset-roll-forward-er-format"></a>De ER-indeling voor Voortschrijdende prognose voor vaste activa importeren
 

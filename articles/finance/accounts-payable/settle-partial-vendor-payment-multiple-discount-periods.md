@@ -1,6 +1,6 @@
 ---
 title: Een gedeeltelijke leveranciersbetaling met meerdere kortingsperioden vereffenen
-description: Dit onderwerp begeleidt u door een scenario waarin meerdere gedeeltelijke betalingen worden gedaan aan een leverancier die meerdere contantkortingen aanbiedt.
+description: Dit artikel begeleidt u door een scenario waarin meerdere gedeeltelijke betalingen worden gedaan aan een leverancier die meerdere contantkortingen aanbiedt.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d805ce2de866d0073b4bb797eb7ddae0736e8948
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: f0599c25d1cd5e07ca5a955ecc96fed2e31383ec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716274"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861642"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Een gedeeltelijke leveranciersbetaling met meerdere kortingsperioden vereffenen
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp begeleidt u door een scenario waarin meerdere gedeeltelijke betalingen worden gedaan aan een leverancier die meerdere contantkortingen aanbiedt. 
+Dit artikel begeleidt u door een scenario waarin meerdere gedeeltelijke betalingen worden gedaan aan een leverancier die meerdere contantkortingen aanbiedt. 
 
 Leverancier 3054 biedt Fabrikam een contantkorting van 2 procent als een factuur binnen vijf dagen wordt betaald en een contantkorting van 1 procent als de factuur binnen 14 dagen wordt betaald.
 

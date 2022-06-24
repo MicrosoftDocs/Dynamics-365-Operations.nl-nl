@@ -1,6 +1,6 @@
 ---
 title: Gebruikersinterface in Microsoft Office-stijl voor beheer van bedrijfsdocumenten (bevat video)
-description: Dit onderwerp biedt uitleg over het gebruik van de nieuwe documentgebruikersinterface in de functie voor bedrijfsdocumentbeheer van het ER-raamwerk.
+description: Dit artikel biedt uitleg over het gebruik van de nieuwe documentgebruikersinterface in de functie voor bedrijfsdocumentbeheer van het ER-raamwerk.
 author: v-anamir
 ms.date: 01/05/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e33830e2147d92ad5ee53ad11da55a50613b8ef9
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: bcc464a17e27393c5904c59b8439de6ca000d57a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074736"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892220"
 ---
 # <a name="microsoft-office-style-user-interface-in-business-document-management"></a>Gebruikersinterface in Microsoft Office-stijl voor beheer van bedrijfsdocumenten
 
@@ -32,7 +32,7 @@ De nieuwe gebruikersinterface (UI) is duidelijker en gemakkelijker te gebruiken.
 
 Met de knop **Nieuw document** in het werkgebied **Bedrijfsdocumentbeheer** kunt u een sjabloon in een [configuratie](general-electronic-reporting.md#Configuration) in [ER-indeling (Electronic Reporting)](general-electronic-reporting.md) maken en bewerken die wordt geleverd door een andere provider en die zich in het huidige Finance-exemplaar bevindt, of u kunt een nieuwe sjabloon uploaden vanuit een Excel-werkmap. Daarnaast kunt u in versie 10.0.25 en hoger de knop **Nieuw document** gebruiken om een sjabloon te maken en te bewerken in een ER-indelingsconfiguratie die is opgeslagen in de [Algemene opslagplaats](general-electronic-reporting.md#Repository).
 
-In de voorbeelden in dit onderwerp is de actieve provider Contoso en u gebruikt deze om een sjabloon te maken die is gebaseerd op een sjabloon die door Microsoft is verschaft. U kunt ook een sjabloon maken door uw eigen sjabloon te uploaden naar de Excel-indeling.
+In de voorbeelden in dit artikel is de actieve provider Contoso en u gebruikt deze om een sjabloon te maken die is gebaseerd op een sjabloon die door Microsoft is verschaft. U kunt ook een sjabloon maken door uw eigen sjabloon te uploaden naar de Excel-indeling.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWAVQg]
 

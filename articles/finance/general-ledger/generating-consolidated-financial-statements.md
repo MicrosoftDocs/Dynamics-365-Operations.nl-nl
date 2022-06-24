@@ -1,6 +1,6 @@
 ---
 title: Geconsolideerde financiële overzichten genereren
-description: Dit onderwerp beschrijft de verschillende scenario's waarin u geconsolideerde financiële overzichten kunt genereren.
+description: Dit artikel beschrijft de verschillende scenario's waarin u geconsolideerde financiële overzichten kunt genereren.
 author: aprilolson
 ms.date: 07/09/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 092123d6f5f74d2ff160f2ebffdc2c049ccc3f65
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: c6a132b742414a3dab635634c7bb5ba0dbea527d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716518"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846794"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Geconsolideerde financiële overzichten genereren
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp beschrijft de verschillende scenario's waarin u geconsolideerde financiële overzichten kunt genereren.
+Dit artikel beschrijft de verschillende scenario's waarin u geconsolideerde financiële overzichten kunt genereren.
 
 ## <a name="single-level-and-multilevel-consolidations-across-legal-entities"></a>Consolidaties op één niveau en meerdere niveaus voor rechtspersonen
 De eenvoudigste methode voor consolidatie met behulp van Financiële rapportage is het gebruik van rapporteringsstructuren om gegevens te aggregeren voor bedrijven met hetzelfde rekeningschema en dezelfde boekperioden. Hier vindt u de hoofdstappen om te consolideren met behulp van een rapporteringsstructuur.
@@ -153,7 +153,7 @@ In de volgende afbeelding ziet u de opties in de rapportdefinitie waarmee u kunt
 ![Opties voor periodenummer rapportdefinitie.](./media/options-report-definition-period-number.png "Opties voor periodenummer rapportdefinitie")
 
 ## <a name="business-unit-consolidations"></a>Bedrijfseenheidsconsolidaties
-Dit onderwerp is gericht op het gebruik van rapporteringsstructuurdefinities en organisatiehiërarchieën in Financiële rapportage voor consolidatiedoeleinden. U kunt ook de rapporteringsstructuur gebruiken om de bedrijfseenheidsconsolidatierapporten te maken, zoals rapporten over wereldwijde verkoop of activiteiten. Deze rapporten zijn een algemeen vereiste. Als u de rapporten wilt maken, selecteert u een bedrijf en een dimensie voor elke eenheid waarvoor u een consolidatie wilt uitvoeren. In de volgende afbeelding wordt bijvoorbeeld de bedrijfseenheidstotalisatie uitgevoerd door elk bedrijf in de kolom **Bedrijf** (kolom A) te herhalen en een groep van Afdeling-dimensiewaarden per bedrijf in de kolom **Dimensies** (kolom D) te identificeren.
+Dit artikel is gericht op het gebruik van rapporteringsstructuurdefinities en organisatiehiërarchieën in Financiële rapportage voor consolidatiedoeleinden. U kunt ook de rapporteringsstructuur gebruiken om de bedrijfseenheidsconsolidatierapporten te maken, zoals rapporten over wereldwijde verkoop of activiteiten. Deze rapporten zijn een algemeen vereiste. Als u de rapporten wilt maken, selecteert u een bedrijf en een dimensie voor elke eenheid waarvoor u een consolidatie wilt uitvoeren. In de volgende afbeelding wordt bijvoorbeeld de bedrijfseenheidstotalisatie uitgevoerd door elk bedrijf in de kolom **Bedrijf** (kolom A) te herhalen en een groep van Afdeling-dimensiewaarden per bedrijf in de kolom **Dimensies** (kolom D) te identificeren.
 
 ![Rapporten voor bedrijfseenheidsconsolidatie.](./media/business-unit-consolidation-reports.png "Rapporten voor bedrijfseenheidsconsolidatie")
 
@@ -218,7 +218,7 @@ Om correct omgerekende bedragen te verkrijgen als valuta's worden gebruikt, word
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-Zie het bovenliggende onderwerp van dit onderwerp [Overzicht van Financiële consolidaties en valutaomzetting](./financial-consolidations-currency-translation.md) voor meer informatie over consolidatie en valutaomrekeningen.
+Zie het bovenliggende artikel van dit artikel [Overzicht van Financiële consolidaties en valutaomzetting](./financial-consolidations-currency-translation.md) voor meer informatie over consolidatie en valutaomrekeningen.
 
 Zie voor informatie over het invoeren van details van online consolidaties [Online financiële consolidaties](./consolidate-online.md).
 

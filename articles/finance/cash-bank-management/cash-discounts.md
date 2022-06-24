@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37698133a959792338abcc2abd75b6fa654177f6
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: b684cf16b172432fc3bdb485be98a5c3476c8ed0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710665"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846950"
 ---
 # <a name="cash-discounts"></a>Contantkortingen
 
@@ -30,7 +30,7 @@ Contantkortingen worden ingesteld en gedeeld voor Leveranciers en Klanten.  De b
 
 ## <a name="cash-discounts"></a>Contantkortingen
 
-Contantkortingen voor zowel klanten als leveranciers kunnen op de pagina Contantkortingen worden gemaakt. Ook kunt u met behulp van het veld Volgende kortingscode een reeks contantkortingen maken die elkaar opvolgen, telkens wanneer de datum van de vorige contantkorting verloopt. Zie “Voorbeeld: reeks contantkortingen” verderop in dit onderwerp voor meer informatie. Als de factuur, credittransactie (een betaling of creditnota) of beide worden ingevoerd in een andere valuta dan de valuta voor boekhouding van de rechtspersoon, wordt de contantkorting berekend aan de hand van de wisselkoers op basis van de datum van de betaling of de creditnota. Als de factuur en het creditdocument worden ingevoerd in verschillende rechtspersonen en de valuta's voor boekhouding van de rechtspersonen verschillend zijn, wordt de wisselkoers gebruikt van de rechtspersoon van de factuur op de datum van het creditdocument. Zie “Voorbeeld: wisselkoersen voor contantkortingen” verderop in dit onderwerp voor meer informatie.
+Contantkortingen voor zowel klanten als leveranciers kunnen op de pagina Contantkortingen worden gemaakt. Ook kunt u met behulp van het veld Volgende kortingscode een reeks contantkortingen maken die elkaar opvolgen, telkens wanneer de datum van de vorige contantkorting verloopt. Zie “Voorbeeld: reeks contantkortingen” verderop in dit artikel voor meer informatie. Als de factuur, credittransactie (een betaling of creditnota) of beide worden ingevoerd in een andere valuta dan de valuta voor boekhouding van de rechtspersoon, wordt de contantkorting berekend aan de hand van de wisselkoers op basis van de datum van de betaling of de creditnota. Als de factuur en het creditdocument worden ingevoerd in verschillende rechtspersonen en de valuta's voor boekhouding van de rechtspersonen verschillend zijn, wordt de wisselkoers gebruikt van de rechtspersoon van de factuur op de datum van het creditdocument. Zie “Voorbeeld: wisselkoersen voor contantkortingen” verderop in dit artikel voor meer informatie.
 
 ## <a name="defaulting-order-of-cash-discount-main-account"></a>Standaardvolgorde van de hoofdrekening voor contantkortingen
 

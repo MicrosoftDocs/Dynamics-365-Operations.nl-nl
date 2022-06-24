@@ -1,6 +1,6 @@
 ---
 title: Vaste activa instellen
-description: Dit onderwerp bevat een overzicht van de instellingen van de module Vaste activa.
+description: Dit artikel bevat een overzicht van de instellingen van de module Vaste activa.
 author: moaamer
 ms.date: 06/08/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 164f19d4b346a51d4f5d43064cb33bf0c01378dd
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 3baa842dadddd0f763f803528d322b9561b3141e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726233"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910137"
 ---
 # <a name="set-up-fixed-assets"></a>Vaste activa instellen
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat een overzicht van de instellingen van de module **Vaste activa**. 
+Dit artikel bevat een overzicht van de instellingen van de module **Vaste activa**. 
 
 Parameters bepalen het algemeen gedrag in Vaste activa. Met vaste-activagroepen kunt u uw activa groeperen en standaardkenmerken voor elk activum opgeven die aan een groep is toegewezen. Er worden boeken toegewezen aan vaste-activagroepen. De boeken volgen de financiële waarde van vaste activa in de loop der tijd met de afschrijvingsconfiguratie die in het afschrijvingsprofiel is gedefinieerd.
 

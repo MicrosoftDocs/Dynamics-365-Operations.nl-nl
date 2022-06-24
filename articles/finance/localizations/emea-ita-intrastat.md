@@ -1,6 +1,6 @@
 ---
 title: Italiaanse Intrastat
-description: Dit onderwerp bevat informatie over Intrastat-aangifte in Italië.
+description: Dit artikel bevat informatie over Intrastat-aangifte in Italië.
 author: anasyash
 ms.date: 09/09/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 3b676ba754cded03fdc6d566ffbfbb35c204b03a
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: a4531baf29759607c877c815b849067f718851b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488254"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874358"
 ---
 # <a name="italian-intrastat"></a>Italiaanse Intrastat
 
@@ -650,7 +650,7 @@ Volg deze stappen om specifiek Italiaanse opties in te stellen zodat u met Intra
 6. Stel op het sneltabblad **Statistische waarde** de optie **Statistische gegevens afdrukken en exporteren** in op **Ja**, indien nodig. Met deze instelling wordt de overdracht van de statistische sectie geactiveerd. De statistische sectie bestaat uit gegevens over gewichten, extra eenheden, statistische waarden, leveringsvoorwaarden, afleveringsschema's, transportmodi en regio's van oorsprong.
 
     > [!NOTE]
-    > Voor een kwartaalaangifte bevat het Intrastat-rapport niet de statistische sectie of informatie over leveringsvoorwaarden en transportmodi. Zie de tabel in de sectie [Overzicht](#overview) van dit onderwerp voor meer informatie.
+    > Voor een kwartaalaangifte bevat het Intrastat-rapport niet de statistische sectie of informatie over leveringsvoorwaarden en transportmodi. Zie de tabel in de sectie [Overzicht](#overview) van dit artikel voor meer informatie.
 
 7. Geef op het tabblad **Eigenschappen land/regio** een overzicht weer van alle landen of regio's met welk land of regio uw organisatie zaken doet. Stel voor elk land of elke regio de volgende velden in:
 

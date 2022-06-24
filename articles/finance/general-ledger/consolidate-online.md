@@ -1,6 +1,6 @@
 ---
 title: Online financiële consolidaties
-description: Dit onderwerp beschrijft online financiële consolidaties in het grootboek.
+description: Dit artikel beschrijft online financiële consolidaties in het grootboek.
 author: aprilolson
 ms.date: 07/09/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: d5848960ec5e30c1356a93ca4cb6545cec9e39de
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: f6c489156ca869e02ba6387c3464cc1e1a248d9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716714"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848544"
 ---
 # <a name="online-financial-consolidations"></a>Online financiële consolidaties
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp beschrijft online financiële consolidaties in het grootboek. Voordat u dit onderwerp leest, moet u eerst het onderwerp [Overzicht van Financiële consolidaties en valutaomzetting](financial-consolidations-currency-translation.md) lezen.
+Dit artikel beschrijft online financiële consolidaties in het grootboek. Voordat u dit artikel leest, moet u eerst het artikel [Overzicht van Financiële consolidaties en valutaomzetting](financial-consolidations-currency-translation.md) lezen.
 
 Nadat u uw instellingen hebt voltooid, voert u de details van de consolidatie in op de pagina **Consolideren [online]**. Wanneer u klaar bent, kunt u klikken op **OK** of **Batch** om de consolidatie te verwerken.
 
@@ -90,7 +90,7 @@ Op het tabblad **Valutaomrekening** definieert u de rechtspersoon, de rekening, 
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-Zie het bovenliggende onderwerp van dit onderwerp [Overzicht van Financiële consolidaties en valutaomzetting](./financial-consolidations-currency-translation.md) voor meer informatie over consolidatie en valutaomrekeningen.
+Zie het bovenliggende artikel van dit artikel [Overzicht van Financiële consolidaties en valutaomzetting](./financial-consolidations-currency-translation.md) voor meer informatie over consolidatie en valutaomrekeningen.
 
 Zie voor informatie over scenario's waarin u mogelijk geconsolideerde financiële overzichten genereert [Geconsolideerde financiële overzichten genereren](./generating-consolidated-financial-statements.md).
 

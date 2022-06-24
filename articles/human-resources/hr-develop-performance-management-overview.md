@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c1ef722eabc3c3bc740f9ff5d959cfa005862a9b
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 28caacaafa5ef20a3d8e1ce93851c48bd4af89a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735718"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848189"
 ---
 # <a name="performance-management"></a>Prestatiebeheer
 
@@ -79,9 +79,9 @@ Uw prestatiejournaal bevat<!--note from editor: Suggested.--> activiteiten die u
 
 Als u een document wilt koppelen aan de doelstelling, zoals een certificaat bij voltooiing, kunt u dit bijvoegen in het gedeelte **Bijlagen** van de pagina **Prestatiedoelstellingen**. Er is een documentviewer waarmee u snel de inhoud van alle gekoppelde documenten kunt weergeven. 
 
-U kunt een sjabloon maken van een doelstelling en vervolgens de sjabloon gebruiken voor het maken van nieuwe doelstellingen die zijn gebaseerd op de sjabloon. Wanneer u een sjabloon van een doelstelling maakt, worden de omschrijving, onderwerpen en doelmetingen opgeslagen. Alle werkelijke metingen, voltooiingsdatums en opmerkingen worden verwijderd.
+U kunt een sjabloon maken van een doelstelling en vervolgens de sjabloon gebruiken voor het maken van nieuwe doelstellingen die zijn gebaseerd op de sjabloon. Wanneer u een sjabloon van een doelstelling maakt, worden de omschrijving, onderwerpen en doelmetingen opgeslagen. Alle werkelijke metingen, voltooiingsdatums en artikelopmerkingen worden verwijderd.
 
-## <a name="performance-reviews"></a>Prestatiebeoordelingen
+## <a name="performance-reviews"></a>Beoordelingsgesprekken
 
 Prestatiebeoordelingen worden formeel discussies genoemd. Ze zijn nu flexibel genoeg om continue feedback, ontwikkelingsplannen en meer formele beoordelingen te ondersteunen. U kunt snel kleine vergaderingen voor twee personen maken<!--note from editor: I think "one-on-one meeting" is implied by "two people."--> of kunt u een complexere beoordeling opstellen die overeenkomt met het beoordelingsproces van uw bedrijf. 
 

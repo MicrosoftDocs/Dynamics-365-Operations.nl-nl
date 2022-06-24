@@ -1,6 +1,6 @@
 ---
 title: Overzicht Europa
-description: Dit onderwerp bevat koppelingen naar Microsoft Dynamics 365 Finance-documentatiebronnen voor Europa.
+description: Dit artikel bevat koppelingen naar Microsoft Dynamics 365 Finance-documentatiebronnen voor Europa.
 author: kfend
 ms.date: 01/15/2022
 ms.topic: overview
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b7a3dd75f526a076b6fe696f71ec623e20abb24
-ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.openlocfilehash: 9a9fd88bde02d8ea4f6eeda5e8785366ec0d8e85
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367843"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856513"
 ---
 # <a name="europe-overview"></a>Overzicht Europa
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat informatie en koppelingen naar bronnen die u kunnen helpen bij het instellen van rechtspersonen met een primair adres in Europa. 
+Dit artikel bevat informatie en koppelingen naar bronnen die u kunnen helpen bij het instellen van rechtspersonen met een primair adres in Europa. 
 
 - [Overzicht van Voorschothouders](emea-advance-holders.md)
  - [Voorschothoudertransacties](emea-advance-holders-transactions.md)

@@ -1,6 +1,6 @@
 ---
 title: De resultaten van vragenlijsten bekijken en evalueren
-description: In dit onderwerp wordt uitgelegd hoe u de resultaten van vragenlijsten die respondenten invullen, kunt weergeven en beoordelen.
+description: In dit artikel wordt beschreven hoe u de resultaten van vragenlijsten die respondenten invullen, kunt weergeven en beoordelen.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: d783664da957192575bbd2b1f0286243be190715
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 45be2fb7761a3022795a196b140987fcbd732a33
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688059"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855136"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>De resultaten van vragenlijsten bekijken en evalueren
 
@@ -28,7 +28,7 @@ ms.locfileid: "8688059"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp wordt uitgelegd hoe u de resultaten van vragenlijsten die respondenten invullen, kunt weergeven en beoordelen. 
+In dit artikel wordt beschreven hoe u de resultaten van vragenlijsten die respondenten invullen, kunt weergeven en beoordelen. 
 
 Nadat de respondenten een vragenlijst hebben ingevuld, kunt u de resultaten van de vragenlijst op de volgende manieren bekijken en beoordelen:
 

@@ -1,6 +1,6 @@
 ---
 title: Hoe stel ik financiële dimensies salderen in?
-description: In dit onderwerp worden de opties beschreven voor het instellen en gebruiken van de functie Financiële dimensies salderen.
+description: In dit artikel worden de opties beschreven voor het instellen en gebruiken van de functie Financiële dimensies salderen.
 author: kweekley
 ms.date: 08/25/2021
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-08-17
 ms.dyn365.ops.version: 10.0.210
-ms.openlocfilehash: cb3033a615200a358c1b28b0991bae4b84470ae0
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: dd859629b0eb9f14fa4907699613382f3897d21d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720106"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878007"
 ---
 # <a name="how-do-i-set-up-balancing-financial-dimensions"></a>Hoe stel ik financiële dimensies salderen in?
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de opties beschreven voor het instellen en gebruiken van de functie Financiële dimensies salderen.
+In dit artikel worden de opties beschreven voor het instellen en gebruiken van de functie Financiële dimensies salderen.
 
 ## <a name="symptom"></a>Symptoom
 
-Er zijn twee opties voor het instellen van de saldering van financiële dimensies. De eerste optie is het gebruik van het veld **Financiële dimensie salderen**  op de pagina **grootboekinstelling**  (**Grootboek \> Instelling grootboek \> Grootboek**). De tweede optie is om het veld **Vereisen dat de dimensie gesaldeerd is** te gebruiken op de pagina **Financiële dimensies** (**Grootboek > Rekeningschema \> Dimensies \> Financiële dimensiesets**). In dit onderwerp wordt het verschil tussen deze twee opties uitgelegd.
+Er zijn twee opties voor het instellen van de saldering van financiële dimensies. De eerste optie is het gebruik van het veld **Financiële dimensie salderen**  op de pagina **grootboekinstelling**  (**Grootboek \> Instelling grootboek \> Grootboek**). De tweede optie is om het veld **Vereisen dat de dimensie gesaldeerd is** te gebruiken op de pagina **Financiële dimensies** (**Grootboek > Rekeningschema \> Dimensies \> Financiële dimensiesets**). In dit artikel wordt het verschil tussen deze twee opties uitgelegd.
 
 ## <a name="resolution"></a>Oplossing
 

@@ -1,6 +1,6 @@
 ---
 title: Externe gegevens in cashflowprognoses
-description: In dit onderwerp worden de installatiestappen beschreven die u moet voltooien, zodat externe gegevens kunnen worden ingevoerd of geïmporteerd in cashflowprognoses.
+description: In dit artikel worden de installatiestappen beschreven die u moet voltooien, zodat externe gegevens kunnen worden ingevoerd of geïmporteerd in cashflowprognoses.
 author: RyanCCarlson2
 ms.date: 02/16/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f7fac80b7ad0fde273fbd33aa5df146e569be46e
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: f0cb05770dc2fbd4e13af261b5f0a0e117a2f6d7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713721"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846939"
 ---
 # <a name="external-data-in-cash-flow-forecasts"></a>Externe gegevens in cashflowprognoses
 
 [!include [banner](../includes/banner.md)]
 
-Externe gegevens kunnen worden ingevoerd of geïmporteerd in cashflowprognoses. Dit onderwerp beschrijft de instellingsstappen die specifiek zijn voor het gebruik van externe gegevens en waarmee de externe gegevens in een cashflowprognose kunnen worden opgenomen.
+Externe gegevens kunnen worden ingevoerd of geïmporteerd in cashflowprognoses. Dit artikel beschrijft de instellingsstappen die specifiek zijn voor het gebruik van externe gegevens en waarmee de externe gegevens in een cashflowprognose kunnen worden opgenomen.
 
 ## <a name="external-data-setup"></a>Externe gegevens instellen
 

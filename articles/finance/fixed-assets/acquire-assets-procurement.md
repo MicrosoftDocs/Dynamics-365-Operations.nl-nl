@@ -1,6 +1,6 @@
 ---
 title: Activa aanschaffen via inkoop
-description: In dit onderwerp wordt beschreven hoe u de integratie instelt tussen Vaste activa en Leveranciers om automatisch vaste activa van inkooporders of leveranciersfacturen te maken of om automatisch verwervings- en verwervingscorrectietransacties voor vaste activa te boeken.
+description: In dit artikel wordt beschreven hoe u de integratie instelt tussen Vaste activa en Leveranciers om automatisch vaste activa van inkooporders of leveranciersfacturen te maken of om automatisch verwervings- en verwervingscorrectietransacties voor vaste activa te boeken.
 author: moaamer
 ms.date: 03/05/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b654dbf97f8d91e0a3233803ee182b1383ad317d
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ac25114fe8036a474d637e9ad9ede5e46b50d92e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712085"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891575"
 ---
 # <a name="acquire-assets-through-procurement"></a>Activa aanschaffen via inkoop
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u de integratie instelt tussen Vaste activa en Leveranciers om automatisch vaste activa van inkooporders of leveranciersfacturen te maken of om automatisch verwervings- en verwervingscorrectietransacties voor vaste activa te boeken. Met één inkoopregel wordt één activum gemaakt, ongeacht de hoeveelheid op de inkoopregel. Als u meerdere vaste activa moet maken, moet u meerdere inkoopregels maken.
+In dit artikel wordt beschreven hoe u de integratie instelt tussen Vaste activa en Leveranciers om automatisch vaste activa van inkooporders of leveranciersfacturen te maken of om automatisch verwervings- en verwervingscorrectietransacties voor vaste activa te boeken. Met één inkoopregel wordt één activum gemaakt, ongeacht de hoeveelheid op de inkoopregel. Als u meerdere vaste activa moet maken, moet u meerdere inkoopregels maken.
 
  De volgende methoden zijn beschikbaar voor het integreren van Vaste activa en Leveranciers, en u moet dezelfde methode gebruiken voor alle vaste activa:
 -   U maakt handmatig een vast activum voordat u het vast-activumnummer toevoegt aan de regel op de inkooporder of leveranciersfactuur. Er wordt automatisch een verwervingstransactie geboekt voor het activum wanneer u de leveranciersfactuur boekt. Dit is de standaardmethode.
@@ -38,7 +38,7 @@ Kies een van de eerste twee methoden als u vaste activa liever handmatig maakt e
 
 Of u nu handmatig vaste activa maakt of de meer flexibele aanpak kiest, u moet eveneens beslissen of een verwervingstransactie alleen in Vaste activa kan worden geboekt of dat deze kan worden geboekt wanneer u een leveranciersfactuur boekt. In sommige organisaties wil men dat verwervingen en verwervingstransacties met behulp van handmatige boekingen in journaal of voorstellen handmatig in Vaste activa worden gemaakt. 
 
-In dit onderwerp wordt elke methode uitgelegd.
+In dit artikel wordt elke methode uitgelegd.
 
 ## <a name="methods-for-manually-creating-fixed-assets"></a>Methoden voor handmatig vaste activa maken
 Wanneer u een leveranciersfactuur boekt waarvoor het nummer van een vast activum in de regels is ingevoerd, en de optie Bijboekingen van activa vanuit Inkoop toestaan is geselecteerd op de pagina Parameters voor vaste activa, wordt de verwerving automatisch geboekt en verandert de status van het activum in Openstaand. 

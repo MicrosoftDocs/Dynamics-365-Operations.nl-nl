@@ -1,6 +1,6 @@
 ---
 title: PRODCOM instellen en onderhouden
-description: In dit onderwerp wordt uitgelegd hoe u PRODCOM instelt en onderhoudt in Microsoft Dynamics 365 Finance.
+description: In dit artikel wordt uitgelegd hoe u PRODCOM instelt en onderhoudt in Microsoft Dynamics 365 Finance.
 author: EvgenyPopovMBS
 ms.date: 07/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Belgium
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4c90879fed62316142bc51196479c8014cd5ad608ba0346c9a325434deaefd6d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83d5d813d3195ecf53e0e4a57feaa42bf2bec57f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723753"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883094"
 ---
 # <a name="set-up-and-maintain-prodcom"></a>PRODCOM instellen en onderhouden
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u PRODCOM instelt en onderhoudt. Fabrikanten van industriële producten zijn wettelijk verplicht de hoeveelheden en waarden van verkochte producten en bepaalde werknemersgegevens door te geven aan het Nationaal Instituut voor de Statistiek (NIS) in reactie op het routinematige PRODCOM-onderzoek. De meeste producenten dienen maandelijks een gespecificeerd PRODCOM-rapport bij het NIS in middels een van de zes standaardrapportindelingen. Het NIS bepaalt de rapportindeling, afhankelijk van de aard van de geproduceerde materialen. Het PRODCOM-rapport bevat productiestatistieken voor industriële producten die worden vervaardigd door productiebedrijven die in België gevestigd zijn. Dit rapport wordt meestal gebruikt door accountants en boekhoudmanagers.
+In dit artikel wordt uitgelegd hoe u PRODCOM instelt en onderhoudt. Fabrikanten van industriële producten zijn wettelijk verplicht de hoeveelheden en waarden van verkochte producten en bepaalde werknemersgegevens door te geven aan het Nationaal Instituut voor de Statistiek (NIS) in reactie op het routinematige PRODCOM-onderzoek. De meeste producenten dienen maandelijks een gespecificeerd PRODCOM-rapport bij het NIS in middels een van de zes standaardrapportindelingen. Het NIS bepaalt de rapportindeling, afhankelijk van de aard van de geproduceerde materialen. Het PRODCOM-rapport bevat productiestatistieken voor industriële producten die worden vervaardigd door productiebedrijven die in België gevestigd zijn. Dit rapport wordt meestal gebruikt door accountants en boekhoudmanagers.
 
 ## <a name="set-up-prodcom-reporting"></a>PRODCOM-rapportage instellen
 

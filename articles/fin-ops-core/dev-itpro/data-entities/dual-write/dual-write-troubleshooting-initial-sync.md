@@ -1,6 +1,6 @@
 ---
 title: Problemen tijdens eerste synchronisatie oplossen
-description: Dit onderwerp bevat informatie over het oplossen van problemen die kunnen optreden bij de eerste synchronisatie.
+description: Dit artikel bevat informatie over het oplossen van problemen die kunnen optreden bij de eerste synchronisatie.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 030e565ffff561f6c1efbdd0de9928f70c7c46c0
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: bb3db4c651aaac521974d92753be5a8219bfe1ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063053"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892352"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Problemen tijdens eerste synchronisatie oplossen
 
@@ -22,10 +22,10 @@ ms.locfileid: "8063053"
 
 
 
-Dit onderwerp bevat informatie voor het oplossen van problemen met de integratie van Twee keer wegschrijven tussen apps voor financiële en bedrijfsactiviteiten en Dataverse. Dit onderwerp bevat specifieke informatie over het oplossen van problemen die kunnen optreden bij de eerste synchronisatie.
+Dit artikel bevat informatie voor het oplossen van problemen met de integratie van Twee keer wegschrijven tussen apps voor financiële en bedrijfsactiviteiten en Dataverse. Dit onderwerp bevat specifieke informatie over het oplossen van problemen die kunnen optreden bij de eerste synchronisatie.
 
 > [!IMPORTANT]
-> In sommige problemen die in dit onderwerp worden beschreven, is mogelijk de rol van systeembeheerder vereist of de referenties van de Microsoft Azure Active Directory-tenantbeheerder (Azure AD). In de sectie voor elk probleem wordt uitgelegd of een specifieke rol of referenties vereist zijn.
+> In sommige problemen die in dit artikel worden beschreven, is mogelijk de rol van systeembeheerder vereist of de referenties van de Microsoft Azure Active Directory-tenantbeheerder (Azure AD). In de sectie voor elk probleem wordt uitgelegd of een specifieke rol of referenties vereist zijn.
 
 ## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Controleren op initiële synchronisatiefouten in een app voor financiële en bedrijfsactiviteiten
 

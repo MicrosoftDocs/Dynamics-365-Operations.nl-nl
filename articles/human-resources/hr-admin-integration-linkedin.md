@@ -1,6 +1,6 @@
 ---
 title: Integreren met LinkedIn Talent Hub
-description: In dit onderwerp wordt uitgelegd hoe u integratie instelt tussen Microsoft Dynamics 365 Human Resources en LinkedIn Talent Hub.
+description: In dit artikel wordt uitgelegd hoe u integratie instelt tussen Microsoft Dynamics 365 Human Resources en LinkedIn Talent Hub.
 author: jaredha
 ms.date: 10/20/2020
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d14a8cb1973e0ed55ef10ddb43415eba80eb5c1b
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: df4a0a4dec078392ba835318450f5983a6e95c97
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717106"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887742"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Integreren met LinkedIn Talent Hub
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 > [!IMPORTANT]
-> De in dit onderwerp beschreven integratie tussen Dynamics 365 Human Resources en LinkedIn Talent Hub is op 31 december 2021 beëindigd. De integratieservice zal na deze datum niet meer beschikbaar zijn. Organisaties die de integratieservice nog niet gebruiken, kunnen de service niet implementeren voordat deze wordt beëindigd.
+> De in dit artikel beschreven integratie tussen Dynamics 365 Human Resources en LinkedIn Talent Hub is op 31 december 2021 beëindigd. De integratieservice zal na deze datum niet meer beschikbaar zijn. Organisaties die de integratieservice nog niet gebruiken, kunnen de service niet implementeren voordat deze wordt beëindigd.
 
 [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) is een ATS-platform (Applicant Tracking System). Hier zijn sourcing, beheer en aanstelling van werknemers op één plaats mogelijk. Door Microsoft Dynamics 365 Human Resources te integreren met LinkedIn Talent Hub kunt u eenvoudig werknemersrecords in Human Resources maken voor sollicitanten die voor een functie zijn aangesteld.
 

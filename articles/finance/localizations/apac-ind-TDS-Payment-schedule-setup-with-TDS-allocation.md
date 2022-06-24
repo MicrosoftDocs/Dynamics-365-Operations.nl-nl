@@ -1,6 +1,6 @@
 ---
 title: Betalingsschema's met TDS-toewijzing instellen
-description: In dit onderwerp wordt uitgelegd hoe u betalingsschema's moet instellen met toewijzing van TDS (belasting ingehouden op bron).
+description: In dit artikel wordt uitgelegd hoe u betalingsschema's moet instellen met toewijzing van TDS (belasting ingehouden op bron).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 63628e84da4e430df236f3afa89110b652110fcb
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 48891c32f39b743ce26e265c5682dab28ecb4b27
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726600"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868307"
 ---
 # <a name="set-up-payment-schedules-with-tds-allocation"></a>Betalingsschema's met TDS-toewijzing instellen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u betalingsschema's moet instellen met toewijzing van TDS (belasting ingehouden op bron).
+In dit artikel wordt uitgelegd hoe u betalingsschema's moet instellen met toewijzing van TDS (belasting ingehouden op bron).
 
 1. Ga naar **Leveranciers \> Betalingsinstelling \> Betalingsschema's**.
 

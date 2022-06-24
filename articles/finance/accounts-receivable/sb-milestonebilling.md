@@ -1,6 +1,6 @@
 ---
 title: Mijlpaalsjablonen
-description: In dit onderwerp wordt uitgelegd hoe u de functionaliteit voor facturering van mijlpalen instelt in Facturering van abonnementen.
+description: In dit artikel wordt uitgelegd hoe u de functionaliteit voor facturering van mijlpalen instelt in Facturering van abonnementen.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: ecc4ddbb4d22eefac36f8cf8205d3b6084bd7d9d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d3c2cf751e4998c73bc3816e5b81e8d5963c8e53
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686486"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856765"
 ---
 # <a name="milestone-billing"></a>Facturering van mijlpalen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u sjablonen definieert voor de functionaliteit voor facturering van mijlpalen instelt in Facturering van abonnementen. Voor elke regel in de mijlpaalsjabloon kunt u het toewijzingspercentage of -bedrag definiëren. Vervolgens kunt u de mijlpaalsjabloon toewijzen aan factureringsplanningsartikelen die gebruikmaken van de functie voor facturering van mijlpalen.
+In dit artikel wordt uitgelegd hoe u sjablonen definieert voor de functionaliteit voor facturering van mijlpalen instelt in Facturering van abonnementen. Voor elke regel in de mijlpaalsjabloon kunt u het toewijzingspercentage of -bedrag definiëren. Vervolgens kunt u de mijlpaalsjabloon toewijzen aan factureringsplanningsartikelen die gebruikmaken van de functie voor facturering van mijlpalen.
 
 ## <a name="add-a-template"></a>Een sjabloon toevoegen
 

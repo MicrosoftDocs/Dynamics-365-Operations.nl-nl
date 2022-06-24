@@ -12,12 +12,12 @@ ms.reviewer: tfehr
 ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: fef3130f06cbb1d8afdbae93bdc55b47be3480b3
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 626b3bbaf88f905bd167ad9eea4683ed1855eb92
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070822"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860034"
 ---
 # <a name="data-validation-checklist-workspace"></a>Werkgebied Controlelijst voor gegevensvalidatie
 
@@ -26,7 +26,7 @@ ms.locfileid: "8070822"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Dit onderwerp biedt een overzicht van het werkgebied **Controlelijst voor gegevensvalidatie** en de bijbehorende configuratie.
+Dit artikel biedt een overzicht van het werkgebied **Controlelijst voor gegevensvalidatie** en de bijbehorende configuratie.
 
 Met het werkgebied **Controlelijst voor gegevensvalidatie** kunt u processen voor validatie van gegevens over bedrijven, gebieden en mensen volgen. De controlelijst kan worden gebruikt tijdens een nieuwe implementatie, na een upgrade of na een migratie. Afhankelijk van uw weergave van het werkgebied **Controlelijst voor gegevensvalidatie** ziet u alle taken en statussen voor een gegevensvalidatieproject, of alleen de taken die aan u zijn toegewezen.
 

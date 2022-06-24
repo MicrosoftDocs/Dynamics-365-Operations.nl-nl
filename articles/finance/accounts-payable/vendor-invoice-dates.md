@@ -1,6 +1,6 @@
 ---
 title: Datums leveranciersfactuur
-description: In dit onderwerp worden de datums beschreven die op leveranciersfacturen staan. Verder wordt uitgelegd hoe u het systeem in moet stellen zodat de boekingsdatum automatisch wordt aangepast.
+description: In dit artikel worden de datums beschreven die op leveranciersfacturen staan. Verder wordt uitgelegd hoe u het systeem in moet stellen zodat de boekingsdatum automatisch wordt aangepast.
 author: sunfzam
 ms.date: 2/09/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 064a125d448ebb3511db2d9b1f4228380805dc44
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: 943a84407d022c2c05bc534a35a2b5d44a94653e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105458"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876407"
 ---
 # <a name="vendor-invoice-dates"></a>Datums leveranciersfactuur
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de datums beschreven die op leveranciersfacturen staan. Verder wordt uitgelegd hoe u het systeem in moet stellen zodat de boekingsdatum automatisch wordt aangepast.
+In dit artikel worden de datums beschreven die op leveranciersfacturen staan. Verder wordt uitgelegd hoe u het systeem in moet stellen zodat de boekingsdatum automatisch wordt aangepast.
 
 De factuurkoptekst op de pagina **Details leveranciersfactuur in behandeling** bevat vier datums: de ontvangstdatum van de factuur, de factuurdatum, de boekingsdatum en de vervaldatum. Wanneer u een leveranciersfactuur maakt, worden de volgende datums standaard ingevoerd:
 
@@ -37,7 +37,7 @@ De factuurkoptekst op de pagina **Details leveranciersfactuur in behandeling** b
 
 Soms is de status van een leveranciersfactuur lange tijd In behandeling na het sluiten van de periode. Wanneer deze gereed is voor boeken, wordt nog steeds de oude boekingsdatum van de afgelopen boekingsperiode gebruikt. Deze periode is echter nu afgesloten. Daarom moet een leveranciersmedewerker handmatig alle boekingsdatums wijzigen in de nieuwe boekingsperiode voor alle eerder gemaakte facturen in behandeling.
 
-Met de functie die in dit onderwerp wordt beschreven, kunt u het systeem zo instellen dat de boekingsdatum automatisch wordt aangepast aan de behoeften van het bedrijf.
+Met de functie die in dit artikel wordt beschreven, kunt u het systeem zo instellen dat de boekingsdatum automatisch wordt aangepast aan de behoeften van het bedrijf.
 
 ## <a name="parameter-for-automatically-adjusting-the-vendor-invoice-posting-date"></a>Parameter voor het automatisch aanpassen van de boekingsdatum van de leveranciersfactuur
 

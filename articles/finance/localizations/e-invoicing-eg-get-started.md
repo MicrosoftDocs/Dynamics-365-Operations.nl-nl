@@ -1,6 +1,6 @@
 ---
 title: Elektronische facturering voor Egypte
-description: Dit onderwerp bevat informatie waarmee u aan de slag kunt met Elektronische facturering voor Egypte in Microsoft Dynamics 365 Finance en Dynamics 365 Supply Chain Management.
+description: Dit artikel bevat informatie waarmee u aan de slag kunt met Elektronische facturering voor Egypte in Microsoft Dynamics 365 Finance en Dynamics 365 Supply Chain Management.
 author: gionoder
 ms.date: 02/09/2022
 ms.topic: article
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: e21c4ce4d676c3194665672a078dc1e3d0492799
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: c2a46ef938c5dee62c0d0acd1648584df344c81a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661717"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904407"
 ---
 # <a name="electronic-invoicing-for-egypt"></a>Elektronische facturering voor Egypte
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat informatie waarmee u aan de slag kunt met Elektronische facturering voor Egypte. U wordt door de configuratiestappen geleid die land-/regioafhankelijk zijn in de Regulatory Configuration Service (RCS). Hiermee vult u de stappen aan die worden beschreven in [Elektronische facturering instellen](e-invoicing-set-up-overview.md).
+Dit artikel bevat informatie waarmee u aan de slag kunt met Elektronische facturering voor Egypte. U wordt door de configuratiestappen geleid die land-/regioafhankelijk zijn in de Regulatory Configuration Service (RCS). Hiermee vult u de stappen aan die worden beschreven in [Elektronische facturering instellen](e-invoicing-set-up-overview.md).
 
 ## <a name="prerequisites"></a>Vereisten
 
-Voordat u de procedures in dit onderwerp start, moet aan de volgende vereisten zijn voldaan:
+Voordat u de procedures in dit artikel start, moet aan de volgende vereisten zijn voldaan:
 
 - Zorg dat u weet hoe elektronische facturering werkt zoals beschreven in [Overzicht van Elektronische facturering](e-invoicing-service-overview.md).
 - Meld u aan bij RCS en stel Elektronische facturering in. Zie de volgende onderwerpen voor meer informatie:

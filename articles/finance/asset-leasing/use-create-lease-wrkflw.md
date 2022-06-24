@@ -1,6 +1,6 @@
 ---
 title: Goedkeuringswerkstromen voor lease gebruiken
-description: In dit onderwerp wordt uitgelegd hoe u werkstromen gebruikt om activaleases goed te keuren en hoe u de status en historie van de werkstromen bijhoudt.
+description: In dit artikel wordt uitgelegd hoe u werkstromen gebruikt om activaleases goed te keuren en hoe u de status en historie van de werkstromen bijhoudt.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0b35dfa599895cb39cdd6a0a95fdcdcc54c45044
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 4205b83919f0b3c30a4b5d8e3290af230f538f39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724920"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906437"
 ---
 # <a name="use-lease-approval-workflows"></a>Goedkeuringswerkstromen voor lease gebruiken
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u werkstromen gebruikt om activaleases goed te keuren en hoe u de status en historie van de werkstromen bijhoudt. Met behulp van werkstromen kunt u het beheer van leasegoedkeuringen consistent maken door een standaardset goedkeuringsstappen te bieden en specifieke gebruikers toe te wijzen die elke stap van het proces goedkeuren. Een fiatteur kan een lease goedkeuren, deze weigeren, een wijziging aanvragen of deze toewijzen aan een andere gebruiker voor goedkeuring. Door werkstromen kan het goedkeuringsproces beter zichtbaar worden, doordat u de status en historie kunt bijhouden. Daarnaast kunt u een gecentraliseerde werklijst bekijken waarin de taken en goedkeuringen worden vermeld die aan specifieke fiatteurs zijn toegewezen.
+In dit artikel wordt uitgelegd hoe u werkstromen gebruikt om activaleases goed te keuren en hoe u de status en historie van de werkstromen bijhoudt. Met behulp van werkstromen kunt u het beheer van leasegoedkeuringen consistent maken door een standaardset goedkeuringsstappen te bieden en specifieke gebruikers toe te wijzen die elke stap van het proces goedkeuren. Een fiatteur kan een lease goedkeuren, deze weigeren, een wijziging aanvragen of deze toewijzen aan een andere gebruiker voor goedkeuring. Door werkstromen kan het goedkeuringsproces beter zichtbaar worden, doordat u de status en historie kunt bijhouden. Daarnaast kunt u een gecentraliseerde werklijst bekijken waarin de taken en goedkeuringen worden vermeld die aan specifieke fiatteurs zijn toegewezen.
 
 Voordat u deze procedure gaat gebruiken, moet u ervoor zorgen dat ten minste één werkstroom voor het goedkeuren van leases is gemaakt. Als er geen werkstroom bestaat, maakt u er een. Zie [Goedkeuringswerkstromen voor lease instellen](set-up-lease-wrkflw.md) voor meer informatie over hoe u een werkstroom kunt instellen.
 

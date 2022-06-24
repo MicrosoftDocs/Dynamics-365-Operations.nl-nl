@@ -1,6 +1,6 @@
 ---
 title: De ER-functie GETLABELTEXT
-description: Dit onderwerp biedt informatie over het gebruik van de ER-functie (Elektronische rapportage) GETLABELTEXT.
+description: Dit artikel biedt informatie over het gebruik van de ER-functie (Elektronische rapportage) GETLABELTEXT.
 author: NickSelin
 ms.date: 03/18/2022
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-01-01
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 2ce66c9410abeee16bbd074204262edf79bf6d68
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: cb3af10d4725e87190f901aa99378e10bdf05bee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462406"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877062"
 ---
 # <a name="getlabeltext-er-function"></a>De ER-functie GETLABELTEXT
 
@@ -42,7 +42,7 @@ GETLABELTEXT (label id, language)
 De geldige id van een van de volgende labeltypen:
 
 - Label van [ER (Elektronische rapportage)](general-electronic-reporting.md)
-- Label van Microsoft Dynamics 365 Finance
+- Microsoft Dynamics 365 Finance-label
 
 #### <a name="usage-notes"></a>Gebruiksaanwijzingen
 

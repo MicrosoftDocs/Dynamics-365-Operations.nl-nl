@@ -1,6 +1,6 @@
 ---
 title: Nee Ja
-description: In dit onderwerp wordt de optieset voor Nee Ja voor Dynamics 365 Human Resources beschreven.
+description: In dit artikel wordt de optieset voor Nee Ja voor Dynamics 365 Human Resources beschreven.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 62e707cf954f90c8bb571417fb08d01452110568
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 5e1dfc456a5931299f762efab6fb123abd32f565
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069191"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909899"
 ---
 # <a name="no-yes"></a>Nee Ja
 
@@ -27,7 +27,7 @@ ms.locfileid: "8069191"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp wordt de optieset voor Nee Ja voor Dynamics 365 Human Resources beschreven.
+In dit artikel wordt de optieset voor Nee Ja voor Dynamics 365 Human Resources beschreven.
 
 ## <a name="option-set-no-yes"></a>Optieset: Nee Ja
 

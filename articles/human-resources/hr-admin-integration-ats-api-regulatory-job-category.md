@@ -1,6 +1,6 @@
 ---
-title: Wettelijke taakcategorie
-description: In dit onderwerp wordt de optieset voor Wettelijke taakcategorie voor Dynamics 365 Human Resources beschreven.
+title: Categorie wettelijk voorgeschreven taken
+description: In dit artikel wordt de optieset voor Wettelijke taakcategorie voor Dynamics 365 Human Resources beschreven.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b182e109220238a33d3af73cb859bee89e59dda6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 4ca1376b35701b4e08da1969d3785706dbeb3e22
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066213"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870982"
 ---
-# <a name="regulatory-job-category"></a>Wettelijke taakcategorie
+# <a name="regulatory-job-category"></a>Categorie wettelijk voorgeschreven taken
 
 
 [!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp wordt de optieset voor Wettelijke taakcategorie voor Dynamics 365 Human Resources beschreven.
+In dit artikel wordt de optieset voor Wettelijke taakcategorie voor Dynamics 365 Human Resources beschreven.
 
 Fysieke naam: mshr_hcmregulatoryjobcategory
 

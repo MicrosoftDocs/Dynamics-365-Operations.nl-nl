@@ -1,6 +1,6 @@
 ---
 title: Scenario's voor afstemmingsdatums
-description: In dit onderwerp vindt u voorbeelden die laten zien hoe afstemmingsdatums werken bij facturering van abonnementen.
+description: In dit artikel vindt u voorbeelden die laten zien hoe afstemmingsdatums werken bij facturering van abonnementen.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 91480fecd16cf8417722df73c28bbd81d029fb07
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 102e3a104be5be287f914172160e95aff65d0b18
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690468"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872610"
 ---
 # <a name="alignment-date-scenarios"></a>Scenario's voor afstemmingsdatums
 
-In dit onderwerp vindt u voorbeelden die laten zien hoe afstemmingsdatums werken bij facturering van abonnementen.
+In dit artikel vindt u voorbeelden die laten zien hoe afstemmingsdatums werken bij facturering van abonnementen.
 
 Voor deze voorbeelden heeft een factureringsdetail voor een factureringsschema de afstemmingsdatum 31 oktober 2019. Het eerste factureringsdetail voor de regel eindigt op 31 oktober 2019 en wordt overeenkomstig omgeslagen. De regel wordt automatisch vernieuwd met 11 november als begindatum voor verlenging.
 

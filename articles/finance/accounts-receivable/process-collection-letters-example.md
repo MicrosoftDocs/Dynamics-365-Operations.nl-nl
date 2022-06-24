@@ -1,6 +1,6 @@
 ---
 title: Voorbeeld van de verwerking van aanmaningen
-description: In dit onderwerp wordt een voorbeeld bekeken van het proces van het maken, afdrukken en boeken van aanmaningen.
+description: In dit artikel wordt een voorbeeld bekeken van het proces van het maken, afdrukken en boeken van aanmaningen.
 author: JodiChristiansen
 ms.date: 02/03/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 1bb1889e9450685f7b6a5000e2ef81d1a65f1b51
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 502a026f2070e92a017733ce2c37bf357eaa10ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721810"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908149"
 ---
 # <a name="process-collection-letters-example"></a>Voorbeeld van de verwerking van aanmaningen
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt een voorbeeld bekeken van het proces van het maken, afdrukken en boeken van aanmaningen. Het voorbeeld is gebaseerd op de optie **Betalingen en creditnota's negeren bij het berekenen van de aanmaningscode** in Crediteringen en aanmaningen. Het gebruikt gegevens in het demobedrijf USMF en een nieuwe klant, US-045.
+In dit artikel wordt een voorbeeld bekeken van het proces van het maken, afdrukken en boeken van aanmaningen. Het voorbeeld is gebaseerd op de optie **Betalingen en creditnota's negeren bij het berekenen van de aanmaningscode** in Crediteringen en aanmaningen. Het gebruikt gegevens in het demobedrijf USMF en een nieuwe klant, US-045.
 
 Om te beginnen gaat u naar **Klanten \> Klanten \> Alle klanten**. Vervolgens selecteert u **Nieuw** en voert u vervolgens de vereiste informatie in om klant US-045 te maken.
 

@@ -1,6 +1,6 @@
 ---
 title: Werkgebied voor automatisering van leveranciersfacturen
-description: In dit onderwerp wordt uitgelegd hoe u het werkgebied instelt dat is gerelateerd aan leveranciersfacturen en waar de gegevens worden weergegeven die beschikbaar zijn via Microsoft Power BI.
+description: In dit artikel wordt uitgelegd hoe u het werkgebied instelt dat is gerelateerd aan leveranciersfacturen en waar de gegevens worden weergegeven die beschikbaar zijn via Microsoft Power BI.
 author: abruer
 ms.date: 02/14/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f28cc5f63df2f0d8a4c8cae407f7166aa4fa03db
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 2b74731a3283badad941e567e85f8a1644f6ad18
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182574"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865796"
 ---
 # <a name="vendor-invoice-automation-workspace"></a>Werkgebied voor automatisering van leveranciersfacturen
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u het werkgebied instelt dat is gerelateerd aan leveranciersfacturen en waar de gegevens worden weergegeven die beschikbaar zijn via Microsoft Power BI. De gegevens van de leveranciersfactuur in dit werkgebied worden gefilterd voor specifieke gebruikers en worden weergegeven in een grafische indeling.
+In dit artikel wordt uitgelegd hoe u het werkgebied instelt dat is gerelateerd aan leveranciersfacturen en waar de gegevens worden weergegeven die beschikbaar zijn via Microsoft Power BI. De gegevens van de leveranciersfactuur in dit werkgebied worden gefilterd voor specifieke gebruikers en worden weergegeven in een grafische indeling.
 
 ## <a name="overview"></a>Overzicht
 

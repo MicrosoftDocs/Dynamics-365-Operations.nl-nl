@@ -1,6 +1,6 @@
 ---
-title: Veelgestelde vragen workflow
-description: In dit onderwerp worden antwoorden op veelgestelde vragen over het workflowsysteem gegeven.
+title: Veelgestelde vragen over werkstromen
+description: In dit artikel worden antwoorden op veelgestelde vragen over het werkstroomsysteem gegeven.
 author: ChrisGarty
 ms.date: 03/01/2022
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e9e2000684081035f35ea55e1c773a4f6976d74
-ms.sourcegitcommit: 967b93bb42413b5b38b817f924015468312a93a0
+ms.openlocfilehash: a72fd141bb1178a3a83385c512d1a655064d5b00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8370875"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896574"
 ---
 # <a name="workflow-faq"></a>Veelgestelde vragen over werkstromen
 
@@ -26,7 +26,7 @@ ms.locfileid: "8370875"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-In dit onderwerp worden antwoorden op veelgestelde vragen over het workflowsysteem gegeven.
+In dit artikel worden antwoorden op veelgestelde vragen over het werkstroomsysteem gegeven.
 
 ## <a name="why-are-multiple-notifications-received-when-a-work-item-is-rejected"></a>Waarom worden er meerdere meldingen ontvangen wanneer een werkitem wordt afgewezen?
 Wanneer een werkitem wordt afgewezen, wordt dat werkitem als afgewezen voltooid. Een andere werkitem wordt gemaakt en toegewezen aan de aanvrager. Dit betekent dat er een melding naar de aanvrager voor het afgewezen werkitem gaat en een aparte melding naar de gebruiker die is toegewezen aan het nieuwe werkitem waarvoor 'wijziging is aangevraagd'. 

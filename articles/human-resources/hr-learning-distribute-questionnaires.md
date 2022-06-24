@@ -1,6 +1,6 @@
 ---
 title: Vragenlijsten plannen en distribueren
-description: In dit onderwerp wordt uitgelegd hoe u de vragenlijsten die u ontwerpt kunt distribueren, zodat ze beschikbaar zijn voor de persoon of groep personen die de lijsten gaat invullen.
+description: Dit artikel beschrijft het distribueren van vragenlijsten die u ontwerpt, zodat ze beschikbaar zijn voor de persoon of groep mensen die hem gaan invullen.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a543d9b85edd493f9b5d5a0449302769c3592f7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 91b2c94c74fd51765a2545424504149fff1f4bfd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695895"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908856"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Vragenlijsten plannen en distribueren
 
@@ -28,7 +28,7 @@ ms.locfileid: "8695895"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp wordt uitgelegd hoe u de vragenlijsten die u ontwerpt kunt distribueren, zodat ze beschikbaar zijn voor de persoon of groep personen die de lijsten gaat invullen. 
+Dit artikel beschrijft het distribueren van vragenlijsten die u ontwerpt, zodat ze beschikbaar zijn voor de persoon of groep mensen die hem gaan invullen. 
 
 Er zijn meerdere manieren om een vragenlijst te verspreiden:
 

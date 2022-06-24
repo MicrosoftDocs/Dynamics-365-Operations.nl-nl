@@ -1,6 +1,6 @@
 ---
-title: Regels maken voor Optimization advisor
-description: In dit onderwerp wordt uitgelegd hoe u nieuwe regels toevoegt aan Optimization advisor.
+title: Regels maken voor Optimalisatie-advies
+description: In dit artikel wordt uitgelegd hoe u nieuwe regels toevoegt aan Optimization advisor.
 author: roxanadiaconu
 ms.date: 02/04/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a65a71da066d70cafc641aafe21538830a9ebe56b607316570ea2435398cda1c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b1d9b14cb67b1dd0a961f6f8618de37147a2c52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734659"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850900"
 ---
-# <a name="create-rules-for-optimization-advisor"></a>Regels maken voor Optimization advisor
+# <a name="create-rules-for-optimization-advisor"></a>Regels maken voor Optimalisatie-advies
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u nieuwe regels maakt voor **Optimization advisor**. U kunt bijvoorbeeld een nieuwe regel maken die aangeeft welke offerteaanvragen een lege titel hebben. Met behulp van titels op aanvragen worden ze gemakkelijk herkenbaar en zoekbaar. Dit voorbeeld is heel eenvoudig maar toont wat met regels voor optimalisatie kan worden bereikt. 
+In dit artikel wordt uitgelegd hoe u nieuwe regels maakt voor **Optimization advisor**. U kunt bijvoorbeeld een nieuwe regel maken die aangeeft welke offerteaanvragen een lege titel hebben. Met behulp van titels op aanvragen worden ze gemakkelijk herkenbaar en zoekbaar. Dit voorbeeld is heel eenvoudig maar toont wat met regels voor optimalisatie kan worden bereikt. 
 
 Een *regel* is een controle van toepassingsgegevens. Als aan de voorwaarde die door de regel wordt geëvalueerd, wordt voldaan, worden verkoopkansen gecreëerd om processen te optimaliseren of gegevens te verbeteren. De verkoopkansen kunnen worden gebruikt en optioneel kan het effect van de acties worden gemeten. 
 

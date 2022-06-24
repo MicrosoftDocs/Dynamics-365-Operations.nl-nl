@@ -1,6 +1,6 @@
 ---
 title: De ER-functie ISEMPTY
-description: Dit onderwerp biedt informatie over het gebruik van de ER-functie (Elektronische rapportage) ISEMPTY.
+description: Dit artikel biedt informatie over het gebruik van de ER-functie (Elektronische rapportage) ISEMPTY.
 author: NickSelin
 ms.date: 12/12/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41d1f773e3fc2f076dbe3d826d14a364548d6656c95c03e54eb36345c004fecd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1d8c9a2195afbc76bc00f31778d087268b98279f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740961"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845520"
 ---
 # <a name="isempty-er-function"></a>De ER-functie ISEMPTY
 

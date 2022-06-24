@@ -1,6 +1,6 @@
 ---
 title: Levenscyclus van modelbeheer
-description: In dit onderwerp worden manieren beschreven om de machine learning-modellen van uw organisatie te onderhouden en zo de voorspelling te optimaliseren die ze genereren.
+description: In dit artikel worden manieren beschreven om de machine learning-modellen van uw organisatie te onderhouden en zo de voorspelling te optimaliseren die ze genereren.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: a7b57bc0322e0f9a78dddfb924e379ac05ffca32
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 526916929e4bc079f9cea82d8ea9f80813e89b83
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722089"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880869"
 ---
 # <a name="model-management-lifecycle"></a>Levenscyclus van modelbeheer
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden manieren beschreven om de machine learning-modellen van uw organisatie te onderhouden en zo de voorspelling te optimaliseren die ze genereren.
+In dit artikel worden manieren beschreven om de machine learning-modellen van uw organisatie te onderhouden en zo de voorspelling te optimaliseren die ze genereren.
 
 Het is raadzaam om het AI-model te trainen in een sandbox-omgeving en vervolgens beheerde oplossingen te gebruiken om deze te implementeren in een productieomgeving. Door deze benadering zorgt u ervoor dat de juiste besturingselementen zijn gebruikt voor het beheer van de levenscyclus van het model.
 

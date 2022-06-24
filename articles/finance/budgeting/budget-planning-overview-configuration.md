@@ -1,6 +1,6 @@
 ---
 title: Overzicht van Budgetplanning
-description: In dit onderwerp wordt budgetplanning beschreven. Het bevat informatie waarmee u budgetplanning kunt configureren en budgetplanningprocessen kunt instellen.
+description: In dit artikel wordt budgetplanning beschreven. Het bevat informatie waarmee u budgetplanning kunt configureren en budgetplanningprocessen kunt instellen.
 author: panolte
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d69d3d1620616bd7a136645d6f28f638e8bcf199
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 1f1ecf830953362636c8b0369586d8b76499ebb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711738"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853549"
 ---
 # <a name="budget-planning-overview"></a>Overzicht van Budgetplanning
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt budgetplanning beschreven. Het bevat informatie waarmee u budgetplanning kunt configureren en budgetplanningprocessen kunt instellen.
+In dit artikel wordt budgetplanning beschreven. Het bevat informatie waarmee u budgetplanning kunt configureren en budgetplanningprocessen kunt instellen.
 
 ## <a name="overview-of-budget-planning"></a>Overzicht van budgetplanning
 
@@ -91,7 +91,7 @@ Een budgetplanningwerkstroom bestaat uit een geordende reeks fasen die een budge
 
 U maakt een budgetplanningsworkflow in de sectie **Workflowfasen** van de pagina **Budgetplanningsconfiguratie**. Daar kunt u de fasen en de budgetteringsworkflow selecteren die worden gebruikt en kunt u extra instellingen configureren.
 
-Het is een goed idee om een budgetplanningsworkflow voor elk niveau van een budgetteringshiërarchie maken. U wijst vervolgens een budgetteringsworkflow toe die elementen bevat die overeenkomen met de fasen in de budgetplanningsworkflow. In het voorbeeldschema eerder in dit onderwerp wordt een budgetplanningsworkflow gemaakt voor de verkoopafdelingen, wordt een andere budgetplanningsworkflow gemaakt voor het hoofdkantoor. Met een budgetteringsworkflow worden de budgetplannen door de fasen verplaatst.
+Het is een goed idee om een budgetplanningsworkflow voor elk niveau van een budgetteringshiërarchie maken. U wijst vervolgens een budgetteringsworkflow toe die elementen bevat die overeenkomen met de fasen in de budgetplanningsworkflow. In het voorbeeldschema eerder in dit artikel wordt een budgetplanningsworkflow gemaakt voor de verkoopafdelingen, wordt een andere budgetplanningsworkflow gemaakt voor het hoofdkantoor. Met een budgetteringsworkflow worden de budgetplannen door de fasen verplaatst.
 
 U maakt de budgetteringsworkflow voor budgetplanning op de pagina **Budgetteringsworkflows**. Het proces lijkt op het proces voor het maken van andere workflows. In de volgende afbeelding ziet u een voorbeeld van een workflow voor het hoofdkantoor.
 
@@ -141,7 +141,7 @@ Fasetoewijzingen worden gebruikt om budgetplanregels automatisch toe te wijzen t
 
 Wanneer u een fasetoewijzing instelt, koppelt u de budgetplanningswerkstroom en de fase met de toewijzingsplanning. De budgetplanningsworkflow moet worden gekoppeld aan een budgetteringsworkflow waarin de geautomatiseerde workflowtaak **Toewijzing budgetplanningsfase** wordt gebruikt. Wanneer de workflow de opgegeven fase bereikt, wordt de toewijzing automatisch uitgevoerd. Deze geautomatiseerde taak kan worden gebruikt om budgetregels te maken in een nieuw scenario.
 
-In het voorbeeldschema eerder in dit onderwerp, wordt een toewijzing gedaan om bedragen van een budgetplan en scenario's in de hoofdkantoorbasisfase over te boeken naar een ander budgetplan en scenario's en in de ramingsfase van de verkoopafdelingen. In de volgende afbeelding ziet u de relevante sectie van het voorbeeldschema.
+In het voorbeeldschema eerder in dit artikel, wordt een toewijzing gedaan om bedragen van een budgetplan en scenario's in de hoofdkantoorbasisfase over te boeken naar een ander budgetplan en scenario's en in de ramingsfase van de verkoopafdelingen. In de volgende afbeelding ziet u de relevante sectie van het voorbeeldschema.
 
 [![Fasetoewijzing.](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 

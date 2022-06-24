@@ -1,6 +1,6 @@
 ---
 title: Wat is nieuw of gewijzigd in Dynamics 365 Human Resources 8 maart 2021
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 8 maart 2021.
+description: In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 8 maart 2021.
 author: marcelbf
 ms.date: 03/08/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7b1e616f9bc72ab1f30f69671c673241096f3276
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9280e85f9701573717c4115b4d752ed11be4862e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687863"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868049"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-08-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources 08 maart 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn of die binnenkort worden vrijgegeven in Dynamics 365 Human Resources.
+In dit artikel worden de functies beschreven die in Dynamics 365 Human Resources nieuw, gewijzigd of binnenkort beschikbaar zijn.
 
 Zie [Updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces en de planning.
 
@@ -48,9 +48,9 @@ De volgende functie zijn algemeen beschikbaar in deze release.
 Deze versie bevat de volgende correcties.
 
 > [!NOTE]
-> Ons doel is om deze informatie zo snel mogelijk bij u te krijgen. Mogelijk wordt dit onderwerp gewijzigd om correcties op te nemen die in de build zijn gemaakt nadat dit onderwerp oorspronkelijk werd gepubliceerd.
+> Ons doel is om deze informatie zo snel mogelijk bij u te krijgen. Mogelijk wordt dit artikel gewijzigd om correcties op te nemen die in de build zijn gemaakt nadat dit artikel oorspronkelijk werd gepubliceerd.
 
-| Probleemnummer | Uitgeven |  Beschrijving |
+| Probleemnummer | Probleem |  Description |
 | --- | --- | --- |
 | 486611 | Verlof wordt weergegeven op verlofkalender wanneer **Verlof voor alle kalenders uitschakelen** is ingeschakeld | Als **Verlof voor alle kalenders uitschakelen** is ingeschakeld, wordt er geen verlofinformatie meer weergegeven wanneer de functie voor het verbeteren van verlof- en verzuimkalenders is ingeschakeld.|
 | 508972 | Validatie van inschrijving ontbreekt bij verlof en verzuim van banktransactie-entiteit | Wanneer u de banktransactie-entiteit voor verlof en verzuim gebruikt, kunnen werknemers die niet zijn ingeschreven voor een plan niet meer worden geïmporteerd. |

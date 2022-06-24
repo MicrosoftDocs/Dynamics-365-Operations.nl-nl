@@ -1,6 +1,6 @@
 ---
 title: Variabel compensatieplan in salarisadministratie
-description: Dit onderwerp bevat details en een voorbeeldquery voor de entiteit Variabel compensatieplan in salarisadministratie in Dynamics 365 Human Resources.
+description: Dit artikel bevat details en een voorbeeldquery voor de entiteit Variabel compensatieplan in salarisadministratie in Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 06/15/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-06-15
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c5cc9e02ff2dd49e2eb0c8131fcff2eca4b9c3b1
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 5c6190084c3f1ce15d6a4ab8f13843a5da801dd3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533642"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868125"
 ---
 # <a name="payroll-variable-compensation-plan"></a>Variabel compensatieplan in salarisadministratie
 
@@ -27,7 +27,7 @@ ms.locfileid: "8533642"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp wordt de entiteit Variabel compensatieplan in salarisadministratie voor Dynamics 365 Human Resources beschreven.
+In dit artikel wordt de entiteit Variabel compensatieplan in salarisadministratie voor Dynamics 365 Human Resources beschreven.
 
 ### <a name="description"></a>Beschrijving
 

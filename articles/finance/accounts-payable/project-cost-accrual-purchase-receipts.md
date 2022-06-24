@@ -1,6 +1,6 @@
 ---
-title: Toevoegen van projectkosten op inkoopontvangsten
-description: In dit onderwerp wordt beschreven hoe toegerekende projectkosten van inkoopontvangsten in Microsoft Dynamics 365 Finance kunnen worden getraceerd.
+title: Toerekening van inkoopontvangsten aan projectkosten
+description: In dit artikel wordt beschreven hoe toegerekende projectkosten van inkoopontvangsten in Microsoft Dynamics 365 Finance kunnen worden getraceerd.
 author: sunfzam
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7e435002bca8fd4deb58c16c50db55237a3e9053
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: a138fd41269fad2e9ac489664ca81c3ee12f830d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735105"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856852"
 ---
 # <a name="project-cost-accrual-on-purchase-receipts"></a>Toerekening van inkoopontvangsten aan projectkosten
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe toegerekende projectkosten van inkoopontvangsten in Microsoft Dynamics 365 Finance kunnen worden getraceerd. 
+In dit artikel wordt beschreven hoe toegerekende projectkosten van inkoopontvangsten in Microsoft Dynamics 365 Finance kunnen worden getraceerd. 
 
 Facturen voor een project komen vaak later aan dan de geleverde goederen en diensten, wat een aanzienlijke impact kan hebben op prestatie-indicatoren (KPI's) voor projecten. Het is belangrijk dat deze transacties zowel in financiële als ook in projectrapporten kunnen worden gevolgd.
 

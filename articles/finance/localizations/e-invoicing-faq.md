@@ -1,6 +1,6 @@
 ---
 title: Veelgestelde vragen over Elektronische facturering
-description: Dit onderwerp bevat informatie over veelgestelde vragen over Elektronische facturering.
+description: Dit artikel bevat informatie over veelgestelde vragen over Elektronische facturering.
 author: gionoder
 ms.date: 04/21/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 2d4e7c79c83b9d60469c2b87a7b9120e0d4c13a695badfb2254a85cee629c933
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fbb43438a9da567460eb744afb64dae5274f04a9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770507"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904349"
 ---
 # <a name="electronic-invoicing-faq"></a>Veelgestelde vragen over Elektronische facturering
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat antwoorden op veelgestelde vragen over de service Elektronische facturering. Elektronische facturering vergroot de mogelijkheden voor elektronische facturering die bestaan in Dynamics 365 Finance, Dynamics 365 Supply Chain Management en Dynamics 365 Project Operations. 
+Dit artikel bevat antwoorden op veelgestelde vragen over de service Elektronische facturering. Elektronische facturering vergroot de mogelijkheden voor elektronische facturering die bestaan in Dynamics 365 Finance, Dynamics 365 Supply Chain Management en Dynamics 365 Project Operations. 
 
 ## <a name="what-is-important-about-electronic-invoicing-and-why-should-it-matter-to-my-organization"></a>Wat is belangrijk over elektronische facturering en waarom doet het ertoe voor mijn organisatie?
 

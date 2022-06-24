@@ -1,6 +1,6 @@
 ---
 title: Wat is nieuw of gewijzigd in Dynamics 365 Human Resources 2 december 2020
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 2 december 2020.
+description: In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 2 december 2020.
 author: marcelbf
 ms.date: 12/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6e02586ad3e6b4428f2ba826851db6ebc3172bdf1760b483032f5159e7864a81
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cecef6d2e73b42126b1be100dca52ebd8d9270fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782654"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848102"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources 2 december 2020
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn of die binnenkort worden vrijgegeven in Dynamics 365 Human Resources.
+In dit artikel worden de functies beschreven die in Dynamics 365 Human Resources nieuw, gewijzigd of binnenkort beschikbaar zijn.
 
 Zie [Updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces en de planning.
 
@@ -52,9 +52,9 @@ De volgende functie zijn algemeen beschikbaar in deze release.
 Deze versie bevat de volgende correcties.
 
 > [!NOTE]
-> Ons doel is om deze informatie zo snel mogelijk bij u te krijgen. Mogelijk wordt dit onderwerp gewijzigd om correcties op te nemen die in de build zijn gemaakt nadat dit onderwerp oorspronkelijk werd gepubliceerd.
+> Ons doel is om deze informatie zo snel mogelijk bij u te krijgen. Mogelijk wordt dit artikel gewijzigd om correcties op te nemen die in de build zijn gemaakt nadat dit artikel oorspronkelijk werd gepubliceerd.
 
-| Probleemnummer | Uitgeven | Beschrijving |
+| Probleemnummer | Probleem | Description |
 | --- | --- | --- |
 | 514087 | BenefitEligibilityProcessResult moet de datum/tijd bevatten die bij de verwerking is gebruikt. | BenefitEligibity-verwerkingsresultaat bevat nu de datum/tijd voor de laatste verwerking, die eerder ontbrak. |
 | 526903 | De inschrijving van vergoedingen is mislukt voor programma's met afhankelijken wanneer **Begunstigden automatisch selecteren** is ingeschakeld in **Gedeelde Human Resources-parameters**. | Het probleem is opgelost waarbij de inschrijving van vergoedingen is mislukt voor programma's met afhankelijken wanneer de optie **Begunstigden automatisch selecteren** is ingeschakeld voor standaard begunstigden. |

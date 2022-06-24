@@ -1,6 +1,6 @@
 ---
 title: ER-expressies ontwerpen om methoden voor toepassingsklassen aan te roepen
-description: Dit onderwerp bevat informatie over het opnieuw gebruiken van de bestaande toepassingslogica in ER-configuraties (elektronische rapportage) door vereiste methoden van toepassingsklassen aan te roepen.
+description: Dit artikel bevat informatie over het opnieuw gebruiken van de bestaande toepassingslogica in ER-configuraties (elektronische rapportage) door vereiste methoden van toepassingsklassen aan te roepen.
 author: NickSelin
 ms.date: 11/02/2021
 ms.topic: business-process
@@ -12,30 +12,30 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 81fae8d3603677afd7dd4b09b9073805f73582b4
-ms.sourcegitcommit: e6b4844a71fbb9faa826852196197c65c5a0396f
+ms.openlocfilehash: 0fb0a9725d882fdc330d7adbb49bd3dcadf7805f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7751701"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883620"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>ER-expressies ontwerpen om methoden voor toepassingsklassen aan te roepen
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt behandeld hoe u de bestaande toepassingslogica hergebruikt in [Elektronische rapportage (ER)](../general-electronic-reporting.md)-configuraties door vereiste methoden van toepassingsklassen aan te roepen in ER-expressies. Waarden van argumenten voor het aanroepen van klassen kunnen dynamisch bepaald worden tijdens runtime. De waarden kunnen bijvoorbeeld gebaseerd worden op informatie in het parseerdocument, om de juistheid ervan te waarborgen.
+In dit artikel wordt behandeld hoe u de bestaande toepassingslogica hergebruikt in [Elektronische rapportage (ER)](../general-electronic-reporting.md)-configuraties door vereiste methoden van toepassingsklassen aan te roepen in ER-expressies. Waarden van argumenten voor het aanroepen van klassen kunnen dynamisch bepaald worden tijdens runtime. De waarden kunnen bijvoorbeeld gebaseerd worden op informatie in het parseerdocument, om de juistheid ervan te waarborgen.
 
-In dit onderwerp ontwerpt u bijvoorbeeld een proces ontwerpt voor het parseren van inkomende bankafschriften voor het bijwerken van toepassingsgegevens. U ontvangt de binnenkomende bankafschriften als tekstbestanden (.txt)-bestanden met IBAN-codes (International Bank Account Number). Als onderdeel van het importproces van de bankafschriften moet u de juistheid van de IBAN-code valideren met behulp van de logica die al beschikbaar is.
+In dit artikel ontwerpt u bijvoorbeeld een proces ontwerpt voor het parseren van inkomende bankafschriften voor het bijwerken van toepassingsgegevens. U ontvangt de binnenkomende bankafschriften als tekstbestanden (.txt)-bestanden met IBAN-codes (International Bank Account Number). Als onderdeel van het importproces van de bankafschriften moet u de juistheid van de IBAN-code valideren met behulp van de logica die al beschikbaar is.
 
 ## <a name="prerequisites"></a>Vereisten
 
-De procedures in dit onderwerp zijn bedoeld voor gebruikers met de rol **Systeembeheerder** of **Elektronische rapportageontwikkelaar**.
+De procedures in dit artikel zijn bedoeld voor gebruikers met de rol **Systeembeheerder** of **Elektronische rapportageontwikkelaar**.
 
 De procedures kunnen worden voltooid met elke gegevensset.
 
 Om ze te voltooien, moet u het volgende bestand downloaden en opslaan: [SampleIncomingMessage.txt](https://download.microsoft.com/download/8/0/a/80adbc89-f23c-46d9-9241-e0f19125c04b/SampleIncomingMessage.txt).
 
-In dit onderwerp maakt u de vereiste ER-configuraties voor het voorbeeldbedrijf, Litware, Inc. Voordat u de procedures in dit onderwerp uitvoert, moet u daarom de volgende stappen uitvoeren.
+In dit artikel maakt u de vereiste ER-configuraties voor het voorbeeldbedrijf, Litware, Inc. Voordat u de procedures in dit artikel uitvoert, moet u daarom de volgende stappen uitvoeren.
 
 1. Ga naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
 2. Controleer op de pagina **Lokalisatieconfiguraties** of de configuratieprovider voor het voorbeeldbedrijf **Litware, Inc.** beschikbaar is en gemarkeerd is als actief. Als u deze configuratieprovider niet ziet, moet u eerst de stappen in de procedure [Configuratieproviders maken en deze als actief markeren](er-configuration-provider-mark-it-active-2016-11.md) uitvoeren.

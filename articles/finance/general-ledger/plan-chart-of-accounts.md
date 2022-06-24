@@ -1,6 +1,6 @@
 ---
 title: Uw rekeningschema plannen
-description: Dit onderwerp bevat informatie waarmee u het rekeningschema voor uw organisatie kunt plannen.
+description: Dit artikel bevat informatie waarmee u het rekeningschema voor uw organisatie beter kunt plannen.
 author: aprilolson
 ms.date: 04/02/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0734276a736cfdb91ec3a129c83dae1c0a6d3955
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 6e797117199ff57cb4d3beae187ae7649579d33b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722459"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853343"
 ---
 # <a name="plan-your-chart-of-accounts"></a>Uw rekeningschema plannen
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat informatie waarmee u het rekeningschema voor uw organisatie kunt plannen.
+Dit artikel bevat informatie waarmee u het rekeningschema voor uw organisatie beter kunt plannen.
 
 Als u financiële gegevens in een organisatie wilt bijhouden en onderhouden, kunt u een rekeningschema instellen. Een rekeningschema is een verzameling van rekeningen waarmee een financieel raamwerk wordt gedefinieerd. Als u de transacties in deze rekeningen wilt bijhouden, kunt u segmenten toevoegen. Deze segmenten worden financiële dimensies genoemd. Een onkostenrekening kan bijvoorbeeld financiële dimensies bevatten met de naam Afdeling, Kostenplaats en Doel. Met door de gebruiker gedefinieerde regels wordt bepaald hoe financiële dimensies worden gekoppeld aan de hoofdrekeningen en andere financiële dimensies, en ook hoe transacties worden ingevoerd. Deze door de gebruiker gedefinieerde regels worden rekeningstructuren en geavanceerde regels genoemd.
 

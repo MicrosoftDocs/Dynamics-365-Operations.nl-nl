@@ -12,16 +12,16 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4b0a96307109674321ebc81aab7d77502a434dd994163232d012627f52d7b409
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7aca911feab04a3b4203811b5d967bc1db43e992
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758022"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903065"
 ---
-# <a name="dynamics-365-finance-learning-catalog"></a>Dynamics 365 Finance-trainingscatalogus
+# <a name="dynamics-365-finance-learning-catalog"></a>Trainingscatalogus voor Dynamics 365 Finance
 
-Zoek de juiste online training, persoonlijk workshops en evenementen voor uw rol als gebruiker van de Dynamics 365 Finance-toepassing.
+Vind de juiste online training in persoonlijke workshops en gebeurtenissen voor uw rol als gebruiker van de Dynamics 365 Finance-toepassing.
 
 <!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
 

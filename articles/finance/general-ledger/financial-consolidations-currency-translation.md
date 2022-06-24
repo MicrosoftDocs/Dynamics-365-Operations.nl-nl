@@ -1,6 +1,6 @@
 ---
-title: Overzicht van Financiële consolidaties en valutaomzetting
-description: Dit onderwerp beschrijft financiële consolidaties en valutaomrekening in het grootboek.
+title: Overzicht van financiële consolidaties en valutaomzetting
+description: Dit artikel beschrijft financiële consolidaties en valutaomrekening in het grootboek.
 author: jinniew
 ms.date: 10/07/2021
 ms.topic: overview
@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: f6f0094ac3307164e1c715a71e16b0766247e275
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 56e445dcf471fd20695824d5e47cd15f39c022ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713863"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846852"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Overzicht van financiële consolidaties en valutaomzetting
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp maakt u kennis met de benadering die Microsoft Microsoft Dynamics 365 Finance en Financial Reporting gebruiken voor consolidaties. Het beschrijft scenario's voor het rapporteren van meerdere bedrijven, aggregatie, schrapping en minderheidsbelang. Ook wordt uitgelegd hoe u speciale situaties kunt afhandelen, zoals scenario's waarin rechtspersonen verschillende fiscale perioden of verschillende rekeningschema's hebben.
+In dit artikel maakt u kennis met de benadering die Microsoft Microsoft Dynamics 365 Finance en Financial Reporting gebruiken voor consolidaties. Het beschrijft scenario's voor het rapporteren van meerdere bedrijven, aggregatie, schrapping en minderheidsbelang. Ook wordt uitgelegd hoe u speciale situaties kunt afhandelen, zoals scenario's waarin rechtspersonen verschillende fiscale perioden of verschillende rekeningschema's hebben.
 
-Dit onderwerp is geschreven voor gebruikers en functionele consultants en er wordt vanuit gegaan dat lezers een algemeen begrip van Finance en Financiële rapportage hebben. Basisinstellingen worden niet behandeld.
+Dit artikel is geschreven voor gebruikers en functionele consultants en er wordt vanuit gegaan dat lezers een algemeen begrip van Finance en Financiële rapportage hebben. Basisinstellingen worden niet behandeld.
 
 > [!NOTE]
-> De term *rechtspersoon* wordt gebruikt in Finance en de term *bedrijf* wordt gebruikt in financiële rapportage. Beide termen worden gebruikt in dit onderwerp. Echter met betrekking tot dit onderwerp is de betekenis ervan hetzelfde.
+> De term *rechtspersoon* wordt gebruikt in Finance en de term *bedrijf* wordt gebruikt in financiële rapportage. Beide termen worden gebruikt in dit artikel. Echter met betrekking tot dit artikel is de betekenis ervan hetzelfde.
 
 ## <a name="audience"></a>Doelgroep
-Dit onderwerp is bedoeld voor gebruikers en toepassingsconsultants die zich bezighouden met financiën en boekhouding, die Finance and Reporting en Financiële rapportage willen gebruiken voor het consolideren van gegevens voor meerdere bedrijven en meerdere valuta´s.
+Dit artikel is bedoeld voor gebruikers en toepassingsconsultants die zich bezighouden met financiën en boekhouding, die Finance and Reporting en Financiële rapportage willen gebruiken voor het consolideren van gegevens voor meerdere bedrijven en meerdere valuta´s.
 
 ## <a name="approach"></a>Methode
 In Finance wordt een aparte rechtspersoon gebruikt voor de verwerking van een consolidatie. Hiermee is consolidatie van één instantie mogelijk, maar bestaat er ook de mogelijkheid om gegevens uit andere bronnen te halen. Het consolidatieproces moet elke keer worden uitgevoerd wanneer er wijzigingen worden aangebracht in de bronrechtspersonen.

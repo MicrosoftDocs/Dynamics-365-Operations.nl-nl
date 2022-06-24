@@ -1,6 +1,6 @@
 ---
 title: Leases in vreemde valuta registreren
-description: In dit onderwerp wordt uitgelegd hoe u leases in andere valuta's kunt vastleggen dan de boekhoudings- of aangiftevaluta.
+description: In dit artikel wordt uitgelegd hoe u leases in andere valuta's kunt vastleggen dan de boekhoudings- of aangiftevaluta.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7da4ddb5939d4f950eb7f8c39a9c56edb2ec4db9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 56c15e648d6aa515192a6f41ba06df6405ca79f2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727505"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878097"
 ---
 # <a name="record-leases-in-foreign-currencies"></a>Leases in vreemde valuta registreren
 
 [!include [banner](../includes/banner.md)]
 
-Activaleaserekeningen voor leases in andere valuta's dan de boekhoudingsvaluta of de aangiftevaluta worden ingesteld op de pagina **Grootboek instellen**. Alle leases moeten in de transactievaluta worden ingevoerd. Met andere woorden, ze moeten worden ingevoerd in de valuta die is opgegeven in het leasecontract. In dit onderwerp wordt uitgelegd hoe u leases in andere valuta's kunt vastleggen dan de boekhoudings- of aangiftevaluta.
+Activaleaserekeningen voor leases in andere valuta's dan de boekhoudingsvaluta of de aangiftevaluta worden ingesteld op de pagina **Grootboek instellen**. Alle leases moeten in de transactievaluta worden ingevoerd. Met andere woorden, ze moeten worden ingevoerd in de valuta die is opgegeven in het leasecontract. In dit artikel wordt uitgelegd hoe u leases in andere valuta's kunt vastleggen dan de boekhoudings- of aangiftevaluta.
 
 Als u een lease invoert in een vreemde valuta, wordt de activa met gebruiksrecht afgeschreven in zowel de boekhoudvaluta als de aangiftevaluta. Deze valuta's worden geconfigureerd op de pagins **Grootboek instellen**. Dit gedrag wordt ook gebruikt voor vaste activa. Wanneer u een lease maakt in een vreemde valuta, selecteert u de transactievaluta in het veld **Valuta**.
 

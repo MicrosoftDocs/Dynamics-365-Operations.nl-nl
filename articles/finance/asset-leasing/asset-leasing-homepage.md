@@ -1,6 +1,6 @@
 ---
 title: Introductiepagina Activa leasen
-description: Dit onderwerp bevat een overzicht van de documentatie voor Activa leasen en koppelingen naar specifieke onderwerpen.
+description: Dit artikel bevat een overzicht van de documentatie voor Activa leasen en koppelingen naar specifieke onderwerpen.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,27 +17,27 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c82c54b08a7d4c603d1246c598abacc51eb88839
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 014c34791f280ca1d3d9154cd0870a73cc43d26b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710380"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889144"
 ---
 # <a name="asset-leasing-home-page"></a>Introductiepagina Activa leasen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp vindt u een overzicht van de Help-onderwerpen die beschikbaar zijn voor Activa leasen en koppelingen naar specifieke onderwerpen. 
+In dit artikel vindt u een overzicht van de Help-onderwerpen die beschikbaar zijn voor Activa leasen en koppelingen naar specifieke onderwerpen. 
 
 Activalease is een geavanceerde functie voor het beheren, bijhouden en automatiseren van financiële transacties voor geleasde activa in Microsoft Dynamics 365 Finance. Activalease voldoet aan de internationale boekhoudstandaarden (IFRS 16) en de US GAAP-normen (ASC 842). In Activalease worden de gegevens over de leases vastgelegd en verwerkt en worden journaalboekingen gegenereerd voor de gehele levenscyclus van de lease, vanaf de eerste toerekening, maandelijkse journaalboekingen, tot en met waardevermindering en beëindiging van de lease.
 
 Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen het werkgebied **Functiebeheer** gebruiken om de status van de functie te controleren en desgewenst in te schakelen. Zoek in het werkgebied **Functiebeheer** de functie **Activaleasing** en klik op de knop **Nu inschakelen**.
 
 ## <a name="asset-leasing-topics"></a>Onderwerpen voor Activa leasen
-Het volgende onderwerp is beschikbaar voor het configureren en gebruiken van Activa leasen. 
+Het volgende artikel is beschikbaar voor het configureren en gebruiken van Activa leasen. 
 
- - [Aan de slag met Activa leasen](asset-leasing-quick-start.md): dit onderwerp beschrijft de algemene mogelijkheden van Activa leasen en de termen die worden gebruikt in de software en in de documentatie.
+ - [Aan de slag met Activa leasen](asset-leasing-quick-start.md): dit artikel beschrijft de algemene mogelijkheden van Activa leasen en de termen die worden gebruikt in de software en in de documentatie.
  
  ### <a name="set-up-asset-leasing"></a>Activa leasen instellen
  Met deze groep onderwerpen kunt u Activa leasen zo configureren dat dit optimaal is voor de bedrijfssituatie van uw organisatie.  
@@ -77,7 +77,7 @@ In deze groep onderwerpen wordt het proces beschreven voor het toevoegen van lea
  - [Lease beheren via het raamwerk voor het importeren van leases](manage-leases-thru-imprt-framewrk.md)
  
 ### <a name="asset-leasing-reporting"></a>Leaserapporten voor activa
-In dit onderwerp vindt u een beknopt overzicht van de rapporten die beschikbaar zijn voor de leasing van activa. 
+In dit artikel vindt u een beknopt overzicht van de rapporten die beschikbaar zijn voor de leasing van activa. 
 
  - [Leaserapporten voor activa](asset-leasing-rprts.md)
  

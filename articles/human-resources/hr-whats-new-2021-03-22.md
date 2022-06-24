@@ -1,6 +1,6 @@
 ---
 title: Wat is nieuw of gewijzigd in Dynamics 365 Human Resources 22 maart 2021
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 22 maart 2021.
+description: In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 22 maart 2021.
 author: marcelbf
 ms.date: 03/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-03-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 13520ca55c98fb1acb6185af393550b12fbc2072
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2cfdd0fc1ca7ba206b0f447ecabd801a5a4e8c57
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693523"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859483"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-22-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources 22 maart 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn of die binnenkort worden vrijgegeven in Dynamics 365 Human Resources.
+In dit artikel worden de functies beschreven die in Dynamics 365 Human Resources nieuw, gewijzigd of binnenkort beschikbaar zijn.
 
 Zie [Updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces en de planning.
 
@@ -49,9 +49,9 @@ De volgende functie zijn algemeen beschikbaar in deze release.
 Deze versie bevat de volgende correcties.
 
 > [!NOTE]
-> Ons doel is om deze informatie zo snel mogelijk bij u te krijgen. Mogelijk wordt dit onderwerp gewijzigd om correcties op te nemen die in de build zijn gemaakt nadat dit onderwerp oorspronkelijk werd gepubliceerd.
+> Ons doel is om deze informatie zo snel mogelijk bij u te krijgen. Mogelijk wordt dit artikel gewijzigd om correcties op te nemen die in de build zijn gemaakt nadat dit artikel oorspronkelijk werd gepubliceerd.
 
-| Probleemnummer | Uitgeven |  Beschrijving |
+| Probleemnummer | Probleem |  Description |
 | --- | --- | --- |
 | 554239 | Prestatieverbeteringen voor entiteiten gerelateerd aan de tabel **BusinessProcessTaskAssignment** | Verbeter de prestaties van entiteiten die zijn gerelateerd aan de tabel **BusinessProcessTaskAssignment** door voorgestelde indexen aan de tabel toe te voegen. |
 | 566061 | V2-terugvalcode voor entiteiten verwijderen uit nachtelijke synchronisatie | Verwijder de V2-terugvalcode voor nachtelijke Dataverse-synchronisaties. De terugvalmogelijkheid is niet langer nodig en voorkomt dat gefilterde synchronisatie werkt zoals verwacht. De wijziging verbetert de consistentie van de Dataverse-gegevenssynchronisatie. |

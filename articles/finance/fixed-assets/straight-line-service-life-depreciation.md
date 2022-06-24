@@ -1,6 +1,6 @@
 ---
 title: Lineaire afschrijving van levensduur
-description: Dit onderwerp geeft een overzicht van de afschrijvingsmethode ´Lineaire afschrijving van levensduur´.
+description: Dit artikel geeft een overzicht van de afschrijvingsmethode Lineaire levensduur.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d39bfea3f222d83d3b3d47e4ba931521b8e1aed0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 8766d38958ccb17142132fb78d04368f1b73af71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726664"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896458"
 ---
 # <a name="straight-line-service-life-depreciation"></a>Lineaire afschrijving van levensduur
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp geeft een overzicht van de afschrijvingsmethode ´Lineaire afschrijving van levensduur´.
+Dit artikel geeft een overzicht van de afschrijvingsmethode Lineaire levensduur.
 
 Wanneer u een afschrijvingsprofiel voor vaste activa instelt en Lineaire levensduur selecteert in het veld Methode van de pagina Afschrijvingsprofielen, worden de activa waaraan dit afschrijvingsprofiel is toegewezen, afgeschreven op basis van de totale levensduur van het activum. Dit is over het algemeen in elke afschrijvingsperiode hetzelfde afschrijvingsbedrag. 
 
@@ -41,7 +41,7 @@ U kunt Kalender of Fiscaal selecteren in het veld Afschrijvingsjaar op de pagina
 
 Als u Kalender selecteert, wordt uitgegaan van een jaar van 1 januari t/m 31 december, zelfs als u de fiscale kalender anders hebt ingesteld. 
 
-Met de optie Kalender wordt de afschrijvingsbasis (doorgaans de nettoboekwaarde min de restwaarde) bijgewerkt op 1 januari van elk jaar. In de voorbeelden verderop in dit onderwerp is de afschrijvingsbasis de teller in de eerste expressie in de berekeningenkolom. 
+Met de optie Kalender wordt de afschrijvingsbasis (doorgaans de nettoboekwaarde min de restwaarde) bijgewerkt op 1 januari van elk jaar. In de voorbeelden verderop in dit artikel is de afschrijvingsbasis de teller in de eerste expressie in de berekeningenkolom. 
 
 Als u Kalender selecteert, zijn de volgende opties beschikbaar in het veld Periodefrequentie. Dit veld bepaalt voor het gehele kalenderjaar de boekdatums en bedragen voor de toerekening van de afschrijving:
 - Met Jaarlijks wordt een bedrag geboekt op 31 december.

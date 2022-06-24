@@ -1,6 +1,6 @@
 ---
 title: Financiële dimensies en boeken
-description: Wanneer u een rekeningschema plant en instelt, moet u overwegen hoe de verschillende onderdelen samenwerken bij het boeken van een document of journaal. Deze onderdelen omvatten rekeningstructuren, geavanceerde regels, en salderende en vaste dimensies. In dit onderwerp wordt uitgelegd wat elk onderdeel is en hoe de onderdelen samenwerken.
+description: Wanneer u een rekeningschema plant en instelt, moet u overwegen hoe de verschillende onderdelen samenwerken bij het boeken van een document of journaal. Deze onderdelen omvatten rekeningstructuren, geavanceerde regels, en salderende en vaste dimensies. In dit artikel wordt uitgelegd wat elk onderdeel is en hoe de onderdelen samenwerken.
 author: aprilolson
 ms.date: 08/04/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a612f3b703349e1cffe300b75afd44e72ae63b2c
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: a165c4084a9f2075a54c99a7e4913a4e3c3dfe55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722794"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910108"
 ---
 # <a name="financial-dimensions-and-posting"></a>Financiële dimensies en boeken 
 
 [!include [banner](../includes/banner.md)]
 
-Wanneer u een rekeningschema plant en instelt, moet u overwegen hoe de verschillende onderdelen samenwerken bij het boeken van een document of journaal. Deze onderdelen omvatten rekeningstructuren, geavanceerde regels, en salderende en vaste dimensies. In dit onderwerp wordt uitgelegd wat elk onderdeel is en hoe de onderdelen samenwerken.
+Wanneer u een rekeningschema plant en instelt, moet u overwegen hoe de verschillende onderdelen samenwerken bij het boeken van een document of journaal. Deze onderdelen omvatten rekeningstructuren, geavanceerde regels, en salderende en vaste dimensies. In dit artikel wordt uitgelegd wat elk onderdeel is en hoe de onderdelen samenwerken.
 
 ## <a name="chart-of-accounts-and-financial-dimension-components"></a>Rekeningschema en onderdelen van financiële dimensie
 
@@ -46,7 +46,7 @@ U kunt desgewenst een salderende financiële dimensie definiëren. Op de pagina 
 
 ### <a name="defaultfixed-financial-dimensions-on-the-main-account"></a>Standaard/vaste financiële dimensies voor de hoofdrekening
 
-Standaarddimensies zijn afkomstig uit verschillende locaties, zoals stamrecords (bijvoorbeeld klant- of leverancierrecords), kopteksten in documenten en de hoofdrekening. In dit onderwerp komen standaarddimensies voor de hoofdrekening per rechtspersoon aan de orde. U kunt definiëren of een hoofdrekening heeft de waarde **Niet vast** of **Vast** heeft voor elke financiële dimensie die wordt gebruikt in alle rekeningstructuren voor het grootboek. Als een financiële dimensie **Niet vast** is, wordt een standaardwaarde gebruikt die kan worden overschreven. Dit probleem geldt voor alle standaardwaarden in het systeem, zelfs standaardwaarden die afkomstig zijn uit stamrecords. Als een financiële dimensie is ingesteld op de waarde **Vast**, wordt die waarde altijd toegepast, ongeacht of deze afkomstig is uit een standaardwaarde of is opgegeven door de gebruiker.
+Standaarddimensies zijn afkomstig uit verschillende locaties, zoals stamrecords (bijvoorbeeld klant- of leverancierrecords), kopteksten in documenten en de hoofdrekening. In dit artikel komen standaarddimensies voor de hoofdrekening per rechtspersoon aan de orde. U kunt definiëren of een hoofdrekening heeft de waarde **Niet vast** of **Vast** heeft voor elke financiële dimensie die wordt gebruikt in alle rekeningstructuren voor het grootboek. Als een financiële dimensie **Niet vast** is, wordt een standaardwaarde gebruikt die kan worden overschreven. Dit probleem geldt voor alle standaardwaarden in het systeem, zelfs standaardwaarden die afkomstig zijn uit stamrecords. Als een financiële dimensie is ingesteld op de waarde **Vast**, wordt die waarde altijd toegepast, ongeacht of deze afkomstig is uit een standaardwaarde of is opgegeven door de gebruiker.
 
 ## <a name="order-in-which-default-dimensions-are-applied-during-posting"></a>Volgorde waarin standaarddimensies worden toegepast tijdens het boeken
 

@@ -1,6 +1,6 @@
 ---
-title: Problemen met twee keer wegschrijven oplossen in de toepassingen Finance and Operations
-description: Dit onderwerp bevat informatie over het oplossen van problemen met betrekking tot de module Twee keer wegschrijven in apps voor financiële en bedrijfsactiviteiten.
+title: Problemen met twee keer wegschrijven oplossen in de apps voor financiën en bedrijfsactiviteiten
+description: Dit artikel bevat informatie over het oplossen van problemen met betrekking tot de module Twee keer wegschrijven in apps voor financiële en bedrijfsactiviteiten.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
@@ -9,23 +9,23 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 0696d525e985f1cfcac1998d4c0bd8a380ca9551
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 36f7969eb0bdbc64ade14a5bb97b4b708486d226
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8613877"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864567"
 ---
-# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Problemen met twee keer wegschrijven oplossen in de toepassingen Finance and Operations
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Problemen met twee keer wegschrijven oplossen in de apps voor financiën en bedrijfsactiviteiten
 
 [!include [banner](../../includes/banner.md)]
 
 
 
-Dit onderwerp bevat informatie voor het oplossen van problemen met de integratie van Twee keer wegschrijven tussen apps voor financiële en bedrijfsactiviteiten en Dataverse. Dit onderwerp bevat met name informatie over het oplossen van problemen met betrekking tot de module **Twee keer wegschrijven** in apps voor financiële en bedrijfsactiviteiten.
+Dit artikel bevat informatie voor het oplossen van problemen met de integratie van Twee keer wegschrijven tussen apps voor financiële en bedrijfsactiviteiten en Dataverse. Dit onderwerp bevat met name informatie over het oplossen van problemen met betrekking tot de module **Twee keer wegschrijven** in apps voor financiële en bedrijfsactiviteiten.
 
 > [!IMPORTANT]
-> In sommige problemen die in dit onderwerp worden beschreven, is mogelijk de rol van systeembeheerder vereist of de referenties van de Microsoft Azure Active Directory-tenantbeheerder (Azure AD). In de sectie voor elk probleem wordt uitgelegd of een specifieke rol of referenties vereist zijn.
+> In sommige problemen die in dit artikel worden beschreven, is mogelijk de rol van systeembeheerder vereist of de referenties van de Microsoft Azure Active Directory-tenantbeheerder (Azure AD). In de sectie voor elk probleem wordt uitgelegd of een specifieke rol of referenties vereist zijn.
 
 ## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>U kunt de module voor Twee keer wegschrijven niet laden in een app voor financiële en bedrijfsactiviteiten
 

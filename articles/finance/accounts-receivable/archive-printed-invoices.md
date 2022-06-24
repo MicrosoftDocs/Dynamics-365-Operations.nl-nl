@@ -1,6 +1,6 @@
 ---
 title: Afgedrukte klantfacturen met hashnummers archiveren
-description: In dit onderwerp wordt uitgelegd hoe u archivering kunt inschakelen om afgedrukte klantfacturen met hekjes op te slaan.
+description: In dit artikel wordt uitgelegd hoe u archivering kunt inschakelen om afgedrukte klantfacturen met hekjes op te slaan.
 author: ilkond
 ms.date: 09/15/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 44caf44097a433b8848b17688430ca88a4b3f51b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3f19968b4f4cf76a48ac5485e915785e9be5c7db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695269"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909180"
 ---
 # <a name="archive-printed-customer-invoices-with-hash-numbers"></a>Afgedrukte klantfacturen met hashnummers archiveren
 
@@ -27,7 +27,7 @@ ms.locfileid: "8695269"
 
 In sommige landen is het wettelijk verplicht om berekende hekjes in het systeem op te slaan, samen met afdrukken van bepaalde documenten. Hekjes kunnen worden gebruikt voor rapportage aan instanties en tijdens audits.
 
-In dit onderwerp wordt uitgelegd hoe u archivering kunt configureren om afgedrukte klantfacturen met hekjes op te slaan.
+In dit artikel wordt uitgelegd hoe u archivering kunt configureren om afgedrukte klantfacturen met hekjes op te slaan.
 
 ## <a name="prerequisites"></a>Vereisten
 

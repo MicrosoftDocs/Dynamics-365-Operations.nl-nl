@@ -1,8 +1,8 @@
 ---
 title: Commerce Scale Unit initialiseren (cloud)
-description: In dit onderwerp wordt uitgelegd hoe u Commerce Scale Unit (cloud) initialiseert in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt uitgelegd hoe u Commerce Scale Unit (cloud) initialiseert in Microsoft Dynamics 365 Commerce.
 author: AamirAllaq
-ms.date: 02/04/2022
+ms.date: 06/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,18 +11,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2018-4-30
-ms.openlocfilehash: 84e70515accde161e7efa36755edec68d26be952
-ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.openlocfilehash: 969dd220a7b73a676b9cf5ac26223ebd9b3f2296
+ms.sourcegitcommit: ddcb62bb5fbf26a1178c2bb1aec45a3d2362339e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092208"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "8942847"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>Commerce Scale Unit initialiseren (cloud)
 
 [!include[banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u Commerce Scale Unit (cloud) initialiseert in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt uitgelegd hoe u Commerce Scale Unit (cloud) initialiseert in Microsoft Dynamics 365 Commerce.
 
 Als u een Tier-2-productieomgeving gebruikt of een productieomgeving met toepassing versie 8.1.2.x of hoger, moet u Commerce Scale Unit (cloud) initialiseren voordat u de functionaliteit voor detailhandelkanalen kunt gebruiken voor POS-bewerkingen (Point of Sale) of voor e-commercebewerkingen die Retail Server in de cloud gebruiken. Bij de initialisatie wordt een Commerce Scale Unit (cloud) geïmplementeerd.
 
@@ -49,32 +49,34 @@ Als u een Tier-2-productieomgeving gebruikt of een productieomgeving met toepass
 ## <a name="region-availability"></a>Regiobeschikbaarheid
 Commerce Scale Unit is beschikbaar voor implementatie in de volgende regio's.
 
-| Globale locatie | Regio              | Beschikbaarheid        |
-|-----------------|---------------------|---------------------|
-| AMERIKA        | VS - oost             | Algemeen beschikbaar |
-| AMERIKA        | VS - oost 2           | Algemeen beschikbaar |
-| AMERIKA        | Noord-centraal VS    | Algemeen beschikbaar |
-| AMERIKA        | Zuid-centraal VS    | Algemeen beschikbaar |
-| AMERIKA        | VS - midden          | Algemeen beschikbaar |
-| AMERIKA        | VS - west             | Algemeen beschikbaar |
-| AMERIKA        | US - west 2           | Algemeen beschikbaar |
-| AMERIKA        | Canada - centraal      | Beperkte capaciteit    |
-| AMERIKA        | Canada - oost         | Beperkte capaciteit    |
-| AMERIKA        | VS - west-centraal     | Beperkte capaciteit    |
-| APAC            | Australië - oost      | Algemeen beschikbaar |
-| APAC            | Zuidoost-Azië      | Algemeen beschikbaar |
-| APAC            | Japan - oost          | Algemeen beschikbaar |
-| APAC            | Japan - west          | Algemeen beschikbaar |
-| APAC            | Australië - zuidoost | Beperkte capaciteit    |
-| APAC            | Oost-Azië           | Beperkte capaciteit    |
-| APAC            | India - zuid         | Beperkte capaciteit    |
-| APAC            | India - centraal       | Beperkte capaciteit    |
-| EMEA            | West-Europa         | Algemeen beschikbaar |
-| EMEA            | Noord-Europa        | Algemeen beschikbaar |
-| EMEA            | VK -zuid            | Beperkte capaciteit    |
-| EMEA            | VK - west             | Beperkte capaciteit    |
+| Globale locatie | Regio              | Beschikbaarheid        | Opmerkingen                  |
+|-----------------|---------------------|---------------------|---------------------------|
+| AMERIKA        | VS - oost             | Algemeen beschikbaar |                           |
+| AMERIKA        | VS - oost 2           | Algemeen beschikbaar |                           |
+| AMERIKA        | Noord-centraal VS    | Beperkte capaciteit    |                           |
+| AMERIKA        | Zuid-centraal VS    | Beperkte capaciteit    |                           |
+| AMERIKA        | VS - midden          | Algemeen beschikbaar |                           |
+| AMERIKA        | VS - west             | Algemeen beschikbaar |                           |
+| AMERIKA        | US - west 2           | Algemeen beschikbaar |                           |
+| AMERIKA        | Canada - centraal      | Beperkte capaciteit    |                           |
+| AMERIKA        | Canada - oost         | Beperkte capaciteit    |                           |
+| AMERIKA        | VS - west-centraal     | Beperkte capaciteit    |                           |
+| APAC            | Australië - oost      | Algemeen beschikbaar |                           |
+| APAC            | Zuidoost-Azië      | Beperkte capaciteit | Implementaties zijn niet toegestaan    |
+| APAC            | Japan - oost          | Algemeen beschikbaar |                           |
+| APAC            | Japan - west          | Algemeen beschikbaar |                           |
+| APAC            | Australië - zuidoost | Algemeen beschikbaar |                           |
+| APAC            | Oost-Azië           | Beperkte capaciteit    |                           |
+| APAC            | India - zuid         | Beperkte capaciteit | Implementaties zijn niet toegestaan    |
+| APAC            | India - centraal       | Beperkte capaciteit    | Vereist goedkeuringsproces |
+| EMEA            | West-Europa         | Algemeen beschikbaar |                           |
+| EMEA            | Noord-Europa        | Algemeen beschikbaar |                           |
+| EMEA            | VK -zuid            | Beperkte capaciteit    |                           |
+| EMEA            | VK - west             | Beperkte capaciteit    |                           |
+| Zwitserland     | Zwitserland - noord   | Beperkte capaciteit    | Vereist goedkeuringsproces |
+| VAE             | VAE - noord           | Beperkte capaciteit    | Vereist goedkeuringsproces |
 
-De implementatiecapaciteit in regio's met beperkte capaciteit is bijzonder beperkt. Aanvragen voor implementatie worden per geval in aanmerking genomen. Als u een dringende zakelijke behoefte hebt voor implementatie in regio's met beperkte capaciteit kunt u een ondersteuningsaanvraag indienen om aan de wachtlijst te worden toegevoegd.
+De implementatiecapaciteit in regio's met beperkte capaciteit is bijzonder beperkt. Aanvragen voor implementatie worden per geval in aanmerking genomen. Als u een dringende zakelijke behoefte hebt voor implementatie in regio's met beperkte capaciteit kunt u een ondersteuningsaanvraag indienen om aan de wachtlijst te worden toegevoegd. In gebieden met een beperkte capaciteit is op dit moment de implementatie van Commerce Scale Unit niet toegestaan. 
 
 ![Kaart met beschikbaarheid van regio's](media/Commerce-Scale-Unit-Region-Availability.png "Kaart met beschikbaarheid van regio's")
 

@@ -1,6 +1,6 @@
 ---
 title: Integratie van notities
-description: In dit onderwerp wordt de integratie van notitiesgegevens bij twee keer wegschrijven beschreven.
+description: In dit artikel wordt de integratie van notitiegegevens bij twee keer wegschrijven beschreven.
 author: RamaKrishnamoorthy
 ms.date: 02/22/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c73da804d724ea75ae6ccd479d1b7f3cf02d48c4
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 8e1444aa311bb2dc74705a3791e58c3187ecd8ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062770"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876710"
 ---
 # <a name="note-integration"></a>Integratie van notities
 
@@ -22,7 +22,7 @@ ms.locfileid: "8062770"
 
 
 
-Tijdens bedrijfsprocessen verzamelen Microsoft Dynamics 365-gebruikers vaak informatie over hun klanten. Deze informatie wordt geregistreerd als activiteiten en notities. In dit onderwerp wordt de integratie van notitiesgegevens bij twee keer wegschrijven beschreven.
+Tijdens bedrijfsprocessen verzamelen Microsoft Dynamics 365-gebruikers vaak informatie over hun klanten. Deze informatie wordt geregistreerd als activiteiten en notities. In dit artikel wordt de integratie van notitiegegevens bij twee keer wegschrijven beschreven.
 
 Klantgegevens kunnen op de volgende manieren worden geclassificeerd:
 

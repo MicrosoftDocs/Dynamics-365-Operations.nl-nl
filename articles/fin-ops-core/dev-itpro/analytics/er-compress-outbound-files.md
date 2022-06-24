@@ -1,6 +1,6 @@
 ---
 title: Grote documenten comprimeren die worden gegenereerd in elektronische rapportage
-description: In dit onderwerp wordt uitgelegd hoe u grote documenten kunt comprimeren die worden gegenereerd door een ER-indeling (elektronische rapportage).
+description: In dit artikel wordt uitgelegd hoe u grote documenten kunt comprimeren die worden gegenereerd door een ER-indeling (elektronische rapportage).
 author: NickSelin
 ms.date: 09/11/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7ef8f730f2e207a8fd28c2bf5167d14f57d6c607314bfc48d4358a59d3ef5c43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9a4995879717e715f8ebadb6a80e00949df7545c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718594"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864802"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Grote documenten comprimeren die worden gegenereerd in elektronische rapportage 
 
@@ -33,7 +33,7 @@ Als u een oplossing configureert, kunt u uw ER-indeling in de Operations-ontwerp
 > [!NOTE]
 > Bestandscompressie neemt een extra percentage van CPU-gebruik in beslag.
 
-Voer het voorbeeld in dit onderwerp uit voor meer informatie over deze methode.
+Voer het voorbeeld in dit artikel uit voor meer informatie over deze methode.
 
 ## <a name="example-compress-an-outbound-document"></a>Voorbeeld: een uitgaand document comprimeren
 
@@ -41,7 +41,7 @@ In dit voorbeeld wordt aangegeven hoe een gebruiker die is toegewezen aan de rol
 
 ### <a name="prerequisites"></a>Vereisten
 
-Voordat u de procedures in dit onderwerp uitvoert, moet u de volgende stappen uitvoeren.
+Voordat u de procedures in dit artikel uitvoert, moet u de volgende stappen uitvoeren.
 
 1. [Een configuratieprovider activeren](er-defer-xml-element.md#activate-a-configuration-provider).
 2. [De ER-voorbeeldconfiguraties importeren](er-defer-xml-element.md#import-the-sample-er-configurations).

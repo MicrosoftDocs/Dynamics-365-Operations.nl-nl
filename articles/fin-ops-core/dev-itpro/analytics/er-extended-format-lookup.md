@@ -1,6 +1,6 @@
 ---
 title: Uitgebreide indelingszoekactie voor elektronische rapportering (ER)
-description: In dit onderwerp wordt beschreven hoe een ER-indelingsverwijzing kan worden ingesteld in de ER-indelingszoekactie wanneer de vereiste indeling is opgeslagen in de algemene opslagplaats.
+description: In dit artikel wordt beschreven hoe een ER-indelingsverwijzing kan worden ingesteld in de ER-indelingszoekactie wanneer de vereiste indeling is opgeslagen in de algemene opslagplaats.
 author: NickSelin
 ms.date: 03/17/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 2b69ba1b3b27f447b58cf98b1140a481b01b735a
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: ae544b8ed4e280ffcaf58d893056a4bf5169e379
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324133"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901643"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Gebruikers toestaan om een ER-indelingsverwijzing in te stellen die informatie opvraagt uit de algemene opslagplaats
 

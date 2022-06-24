@@ -1,6 +1,6 @@
 ---
 title: Richtlijnen voor het instellen van twee keer wegschrijven
-description: In dit onderwerp worden de scenario's beschreven die worden ondersteund voor instellingen voor twee keer wegschrijven.
+description: In dit artikel worden de scenario's beschreven die worden ondersteund voor instellingen voor twee keer wegschrijven.
 author: RamaKrishnamoorthy
 ms.date: 10/12/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 6de449b14bcdd82336e3e255bf62ad069d3daaf5
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a0d1b4e1f093874a8fd37cf7aadb331cd1e7adc4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061599"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873144"
 ---
 # <a name="guidance-for-dual-write-setup"></a>Richtlijnen voor het instellen van twee keer wegschrijven
 
@@ -78,11 +78,11 @@ Voer de volgende stappen uit om de bestaande Dataverse-gegevens te synchronisere
 3. [Laad](bootstrap-company-data.md) de Dataverse-gegevens automatisch met de ISO-bedrijfscode (International Organization for Standardization) van drie letters.
 4. Voer de functie **Initiële synchronisatie** uit voor de tabellen waarvoor u gegevens wilt synchroniseren.
 
-Zie de sectie [Voorbeeld](#example) verderop in dit onderwerp voor koppelingen naar een voorbeeld en een alternatieve aanpak.
+Zie de sectie [Voorbeeld](#example) verderop in dit artikel voor koppelingen naar een voorbeeld en een alternatieve aanpak.
 
 ## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-a-new-customer-engagement-app-instance"></a><a id="new-data-new"></a>Een nieuw exemplaar van de app voor financiële en bedrijfsactiviteiten met gegevens en een nieuw exemplaar van de Customer Engagement-app
 
-Als u een verbinding voor twee keer wegschrijven wilt instellen tussen een nieuw exemplaar van een app voor financiële en bedrijfsactiviteiten met gegevens en een nieuw exemplaar van een Customer Engagement-app, voert u de stappen uit in de sectie [Een nieuw exemplaar van de app voor financiële en bedrijfsactiviteiten en een nieuw exemplaar van de Customer Engagement-app](#new-new) eerder in dit onderwerp. Wanneer de verbinding is voltooid en u de gegevens wilt synchroniseren met de Customer Engagement-app, voert u de volgende stappen uit.
+Als u een verbinding voor twee keer wegschrijven wilt instellen tussen een nieuw exemplaar van een app voor financiële en bedrijfsactiviteiten met gegevens en een nieuw exemplaar van een Customer Engagement-app, voert u de stappen uit in de sectie [Een nieuw exemplaar van de app voor financiële en bedrijfsactiviteiten en een nieuw exemplaar van de Customer Engagement-app](#new-new) eerder in dit artikel. Wanneer de verbinding is voltooid en u de gegevens wilt synchroniseren met de Customer Engagement-app, voert u de volgende stappen uit.
 
 1. Open de app voor financiële en bedrijfsactiviteiten via de LCS-pagina, meld u aan en ga naar **Gegevensbeheer \> Twee keer wegschrijven**.
 2. Voer de functie **Initiële synchronisatie** uit voor de tabellen waarvoor u gegevens wilt synchroniseren.
@@ -91,7 +91,7 @@ Zie de sectie [Voorbeeld](#example) voor koppelingen naar een voorbeeld en een a
 
 ## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-an-existing-customer-engagement-app-instance"></a><a id="new-data-existing"></a>Een nieuw exemplaar van de app voor financiële en bedrijfsactiviteiten met gegevens en een bestaand exemplaar van de Customer Engagement-app
 
-Als u een verbinding voor twee keer wegschrijven wilt instellen tussen een nieuw exemplaar van een app voor financiële en bedrijfsactiviteiten met gegevens en een bestaand exemplaar van een Customer Engagement-app, voert u de stappen uit in de sectie [Een nieuw exemplaar van de app voor financiële en bedrijfsactiviteiten en een bestaand exemplaar van de Customer Engagement-app](#new-existing) eerder in dit onderwerp. Wanneer de verbinding is voltooid en u de gegevens wilt synchroniseren met de Customer Engagement-app, voert u de volgende stappen uit.
+Als u een verbinding voor twee keer wegschrijven wilt instellen tussen een nieuw exemplaar van een app voor financiële en bedrijfsactiviteiten met gegevens en een bestaand exemplaar van een Customer Engagement-app, voert u de stappen uit in de sectie [Een nieuw exemplaar van de app voor financiële en bedrijfsactiviteiten en een bestaand exemplaar van de Customer Engagement-app](#new-existing) eerder in dit artikel. Wanneer de verbinding is voltooid en u de gegevens wilt synchroniseren met de Customer Engagement-app, voert u de volgende stappen uit.
 
 1. Open de app voor financiële en bedrijfsactiviteiten via de LCS-pagina, meld u aan en ga naar **Gegevensbeheer \> Twee keer wegschrijven**.
 2. Voer de functie **Initiële synchronisatie** uit voor de tabellen waarvoor u gegevens wilt synchroniseren.

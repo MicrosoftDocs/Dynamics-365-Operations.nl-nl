@@ -1,6 +1,6 @@
 ---
 title: Cashflowprognose inschakelen
-description: In dit onderwerp wordt uitgelegd hoe u de functie Cashflowprognoses kunt inschakelen in Financiële inzichten.
+description: In dit artikel wordt uitgelegd hoe u de functie Cashflowprognoses kunt inschakelen in Finance Insights.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8dba56af53090d5d78632da4d414143b136f8a8d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 253e3ea9c1c44573b37503f167b4cb3860683c10
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713749"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859852"
 ---
 # <a name="enable-cash-flow-forecasting"></a>Cashflowprognose inschakelen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u de functie Cashflowprognoses kunt inschakelen in Finance Insights.
+In dit artikel wordt uitgelegd hoe u de functie Cashflowprognoses kunt inschakelen in Finance Insights.
 
 > [!NOTE]
 > Als u betalingsvoorspellingen in de cashflow wilt gebruiken, moet u de functie Voorspellingen klantbetalingen instellen, zoals wordt beschreven in [Voorspellingen klantbetalingen inschakelen](enable-cust-paymnt-prediction.md).

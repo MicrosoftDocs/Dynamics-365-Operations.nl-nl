@@ -1,6 +1,6 @@
 ---
 title: Resultaten van machine learning-modellen
-description: In dit onderwerp worden verwarringsmatrixen, classificatieproblemen en nauwkeurigheid in modellen voor machine learning (ML) besproken. Het doel is om uw begrip van de nauwkeurigheid in ML-voorspellingsresultaten te vergroten.
+description: In dit artikel worden verwarringsmatrixen, classificatieproblemen en nauwkeurigheid in modellen voor machine learning (ML) besproken. Het doel is om uw begrip van de nauwkeurigheid in ML-voorspellingsresultaten te vergroten.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c57a023995e0bb58d4fba0a4fd2f147d07e51348
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 23df5979231fbd6908b6f1e7c3aca5dd3e0e733d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725955"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910166"
 ---
 # <a name="results-of-machine-learning-models"></a>Resultaten van machine learning-modellen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden verwarringsmatrixen, classificatieproblemen en nauwkeurigheid in modellen voor machine learning (ML) besproken. Het doel is om uw begrip van de nauwkeurigheid in ML-voorspellingsresultaten te vergroten. De doelgroep omvat technici, analisten en managers die hun kennis en vaardigheden in gegevenswetenschappen willen ontwikkelen.
+In dit artikel worden verwarringsmatrixen, classificatieproblemen en nauwkeurigheid in modellen voor machine learning (ML) besproken. Het doel is om uw begrip van de nauwkeurigheid in ML-voorspellingsresultaten te vergroten. De doelgroep omvat technici, analisten en managers die hun kennis en vaardigheden in gegevenswetenschappen willen ontwikkelen.
 
 ## <a name="confusion-matrix"></a>Verwarringsmatrix
 Nadat een probleem met ML met toezicht is getraind op een reeks historische gegevens, wordt het getest met behulp van gegevens die zijn bewaard van het trainingsproces. Op deze manier kunt u de voorspellingen van het getrainde model vergelijken met de werkelijke waarden. De verwarringsmatrix biedt een manier om te evalueren hoe succesvol een classificatieprobleem is en waar het fouten oplevert (dat wil zeggen dat het tot verwarring leidt).
@@ -73,7 +73,7 @@ Nauwkeurigheid is een belangrijk hulpmiddel voor de communicatie met domeinexper
 
 Voor het betalingsvoorspellingsscenario kunt u een doel stellen voor het ML-model dat factoren in verschillende betalingsgedragingen bevat. Het doel is dat het model bij een naïeve inschatting moet worden verbeterd door het aantal onjuiste antwoorden met ten minste 50 procent te verminderen. Met andere woorden, u richt zich op een nauwkeurigheid die het verschil tussen de nauwkeurigheid van een naïeve inschatting en 100 procent splitst.
 
-De volgende tabel geeft een overzicht van dit principe voor de verwarringsmatrixen in dit onderwerp.
+De volgende tabel geeft een overzicht van dit principe voor de verwarringsmatrixen in dit artikel.
 
 | Model   | Naïeve inschatting | Doel | Modelnauwkeurigheid | Is het doel bereikt?                                          |
 |---------|-------------|--------|----------------|-----------------------------------------------------------|
@@ -82,7 +82,7 @@ De volgende tabel geeft een overzicht van dit principe voor de verwarringsmatrix
 
 ## <a name="classification-f1-accuracy"></a>F1-nauwkeurigheid classificatie
 
-De laatste overweging in dit onderwerp is een meer geavanceerde maatstaf van ML-prestaties voor classificatie, bekend als F1-nauwkeurigheid.
+De laatste overweging in dit artikel is een meer geavanceerde maatstaf van ML-prestaties voor classificatie, bekend als F1-nauwkeurigheid.
 
 Voordat de F1-nauwkeurigheid kan worden gedefinieerd, moeten er twee extra metrieken worden geïntroduceerd: precisie en relevante overeenkomsten. Precisie geeft aan hoeveel van het totale aantal voorspellingen dat als positief is opgegeven, correct is toegewezen. Deze metriek wordt ook wel de positieve voorspellende waarde genoemd. Relevante overeenkomsten is het totaal aantal werkelijke positieve gevallen dat correct is voorspeld. Deze metriek wordt ook wel de gevoeligheid genoemd.
 
@@ -97,7 +97,7 @@ Bij de F1-meting worden precisie en relevante overeenkomsten gecombineerd. Het r
 
 - F1 = 2 × (precisie x relevante overeenkomsten) ÷ (precisie + relevante overeenkomsten)
 
-We kijken naar een concreet voorbeeld. Eerder in dit onderwerp is er een voorbeeld van een model waarin werd voorspeld of een dier een hond of een kat was. De afbeelding wordt hier herhaald.
+We kijken naar een concreet voorbeeld. Eerder in dit artikel is er een voorbeeld van een model waarin werd voorspeld of een dier een hond of een kat was. De afbeelding wordt hier herhaald.
 
 [![Voorbeeld van voorspelling van soort (herhaald).](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
 
@@ -111,7 +111,7 @@ Zoals u ziet, ligt de F1-waarde tussen de waarden voor precisie en relevante ove
 
 Hoewel F1-nauwkeurigheid niet zo eenvoudig te begrijpen is, wordt hiermee nuance aan het basisnauwkeurigheidsaantal toegevoegd. Het kan ook helpen met gegevenssets die niet in evenwicht zijn, zoals in de volgende discussie wordt weergegeven.
 
-In de sectie [Modelnauwkeurigheid](#model-accuracy) van dit onderwerp werden de volgende twee verwarringsmatrixen vergeleken. Hoewel het eerste model minder nauwkeurig is, was het een nuttiger model omdat het beter is dan de standaardinschatting van een 'op tijd'-betaling.
+In de sectie [Modelnauwkeurigheid](#model-accuracy) van dit artikel werden de volgende twee verwarringsmatrixen vergeleken. Hoewel het eerste model minder nauwkeurig is, was het een nuttiger model omdat het beter is dan de standaardinschatting van een 'op tijd'-betaling.
 
 ![Voorbeeld van betalingsvoorspelling versus werkelijk.](media/payment-prediction-matrix.png)
 

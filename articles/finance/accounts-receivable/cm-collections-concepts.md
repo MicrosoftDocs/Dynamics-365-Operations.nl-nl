@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 508723752ec7ae5f48e52c728b6ef526ec49e4e2
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: f1e6932740c33ae418ac633623680eda6af7a592
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723018"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858519"
 ---
 # <a name="collections-management-key-concepts"></a>Basisbegrippen voor incassobeheer
 
@@ -34,7 +34,7 @@ Voordat u incasso's gaat configureren of gebruiken, moet u vertrouwd zijn met de
 - Afschrijvingstransacties kunnen in één stap worden gemaakt.
 - Betalingen met onvoldoende fondsen kunnen in één stap worden verwerkt.
 
-In dit onderwerp wordt elk concept beschreven.
+In dit artikel wordt elk concept beschreven.
 
 ## <a name="customer-aging-snapshots"></a>Ouderdomsmomentopnamen voor klanten 
 
@@ -86,7 +86,7 @@ Het actievenster bevat knoppen waarmee u verwante informatie voor de geselecteer
 
 U kunt rentenota's, of de kosten en de transactierente die deel uitmaken van rentenota's, kwijtschelden, opnieuw invoeren of terugdraaien. Ga naar het tabblad **Incasso** in het actievenster van de lijstpagina **Alle klanten** en selecteer **Rentenota**, **Transactierente** of **Bijzondere kosten**.
 
-Deze correcties zijn alleen van invloed op rentenota's en de bijbehorende rente en kosten. Zie de sectie [Afschrijvingstransacties maken](#creating-write-off-transactions) van dit onderwerp voor informatie over het afschrijven van alle kosten die een klant verschuldigd is.
+Deze correcties zijn alleen van invloed op rentenota's en de bijbehorende rente en kosten. Zie de sectie [Afschrijvingstransacties maken](#creating-write-off-transactions) van dit artikel voor informatie over het afschrijven van alle kosten die een klant verschuldigd is.
 
 Zie voor meer informatie Een rentecode met een bereik maken en Rente verwerken.
 

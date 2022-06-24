@@ -1,6 +1,6 @@
 ---
-title: Voorbeeldleverancierscheques voor elektronische rapportage
-description: Dit onderwerp biedt algemene informatie over het gebruik van de voorbeeldcheque-indelingen voor elektronische rapportage.
+title: Elektronische aangifte van voorbeeldcheques voor leveranciers
+description: Dit artikel biedt algemene informatie over het gebruik van de voorbeeldcheque-indelingen voor elektronische rapportage.
 author: sunfzam
 ms.date: 06/14/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 38a037903a994f6212f4ccce10e10c795eb7364d
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d2b26a083540924d2368a298632aea90ecf95e9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734539"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908178"
 ---
 # <a name="electronic-reporting-sample-vendor-checks"></a>Voorbeeldleverancierscheques voor elektronische rapportage
 
@@ -28,7 +28,7 @@ U kunt elektronische rapportage (ER) gebruiken voor het opmaken van cheques voor
 
 ## <a name="what-check-formats-are-currently-supported"></a>Welke cheque-indelingen worden momenteel ondersteund?
 
-U moet altijd naar de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS) gaan en de huidige lijst weergeven met beschikbare bestanden die het activumtype **GER-configuratie** hebben. In het volgende gedeelte, 'Wat moet ik instellen?', vindt u een koppeling naar een onderwerp waarin wordt uitgelegd hoe u een LCS-opslagplaats maakt zodat u beschikbare configuraties kunt bekijken en geselecteerde configuraties kunt importeren.
+U moet altijd naar de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS) gaan en de huidige lijst weergeven met beschikbare bestanden die het activumtype **GER-configuratie** hebben. In het volgende gedeelte, 'Wat moet ik instellen?', vindt u een koppeling naar een artikel waarin wordt uitgelegd hoe u een LCS-opslagplaats maakt zodat u beschikbare configuraties kunt bekijken en geselecteerde configuraties kunt importeren.
 
 Microsoft Dynamics 365 Finance bevat bovendien een voorbeeldindeling waarin de cheque bovenaan staat, gevolgd door twee remisesecties. Het bevat bovendien een voorbeeldindeling waarin de cheque in het midden staat, tussen twee remisesecties. Deze voorbeeldindelingen komen overeen met Deluxe-bedrijfscheque-indelingen.
 

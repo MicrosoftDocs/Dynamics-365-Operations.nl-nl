@@ -1,6 +1,6 @@
 ---
-title: Verwijderde of afgeschafte Platform-functies
-description: In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van apps voor financiën en bedrijfsactiviteiten.
+title: Verwijderde of afgeschafte platform-functies
+description: In dit artikel worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van apps voor financiën en bedrijfsactiviteiten.
 author: sericks007
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 3de9b9ea0bd20d1346a7cdfd2f919f50374b164c
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 51165db8d15f0a57fd9bc1649dc6e3ca72875236
+ms.sourcegitcommit: 1fa1ac1fa25e977e98bc02ed5d9d39bd3a7a28d7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811241"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945799"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Verwijderde of afgeschafte platform-functies
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van apps voor financiën en bedrijfsactiviteiten.
+In dit artikel worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van apps voor financiën en bedrijfsactiviteiten.
 
 - Een *verwijderde* functie is niet langer beschikbaar in het product.
 - Een *afgeschafte* functie wordt niet meer actief ontwikkeld en kan in een toekomstige update worden verwijderd.
@@ -40,7 +40,7 @@ Gedetailleerde informatie over objecten in apps voor financiële en bedrijfsacti
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | We schaffen de mobiele toepassing en het mobiele platform van Finance en Operations (Dynamics 365) af voor samenvoeging tot één mobiel platform, namelijk Power Apps. |
-| **Vervangen door een andere functie?**   | Ja, mobiele ervaringen via de gegevens van de app Finance and Operations kunnen met integratie van Power Platform worden ontwikkeld. Zie [Mobiele ervaringen maken](../power-platform/build-mobile-experiences.md) voor meer details. |
+| **Vervangen door een andere functie?**   | Ja, mobiele ervaringen via de gegevens van de app Finance and Operations kunnen met integratie van Power Platform worden ontwikkeld. Zie het [blogbericht](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/) en [Mobiele ervaringen maken](../power-platform/build-mobile-experiences.md) voor meer details. |
 | **Betrokken productgebieden**         | Apps voor financiële en bedrijfsactiviteiten |
 | **Implementatieoptie**              | Alle |
 | **Status**                         | Afgeschaft. De datum van de beëindiging van de ondersteuning is naar verwachting oktober 2024. |

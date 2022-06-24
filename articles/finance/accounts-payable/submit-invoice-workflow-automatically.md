@@ -1,6 +1,6 @@
 ---
 title: Facturen indienen bij het werkstroomsysteem en productontvangstbonregels koppelen
-description: In dit onderwerp wordt het proces uitgelegd van het indienen van leveranciersfacturen bij het werkstroomsysteem en het automatisch vereffenen van geboekte productontvangstbonregels met leveranciersfacturen.
+description: In dit artikel wordt het proces uitgelegd van het indienen van leveranciersfacturen bij het werkstroomsysteem en het automatisch vereffenen van geboekte productontvangstbonregels met leveranciersfacturen.
 author: abruer
 ms.date: 02/11/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0962ea2bfa28deb3e86620c364feffd209cfc38e
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 960a08eb5e98cac034bbd41335b616ff41bf6fd4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109938"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861613"
 ---
 # <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Facturen indienen bij het werkstroomsysteem en productontvangstbonregels koppelen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt het proces uitgelegd van het indienen van leveranciersfacturen bij het werkstroomsysteem en het automatisch vereffenen van geboekte productontvangstbonregels met leveranciersfacturen.
+In dit artikel wordt het proces uitgelegd van het indienen van leveranciersfacturen bij het werkstroomsysteem en het automatisch vereffenen van geboekte productontvangstbonregels met leveranciersfacturen.
 
 ## <a name="submitting-imported-vendor-invoices-to-the-workflow-system-and-matching-posted-product-receipt-lines-to-pending-vendor-invoice-lines"></a>Ggeïmporteerde leveranciersfacturen indienen bij het werkstroomsysteem en geboekte productontvangstbonregels vereffenen met leveranciersfactuurregels die in behandeling zijn
 

@@ -1,6 +1,6 @@
 ---
 title: Lijst met ER-functies in de gegevensverzamelingscategorie
-description: Dit onderwerp biedt informatie over de gegevensverzamelingsfuncties die worden ondersteund in ER (Elektronische rapportage).
+description: Dit artikel biedt informatie over de gegevensverzamelingsfuncties die worden ondersteund in ER (Elektronische rapportage).
 author: NickSelin
 ms.date: 12/04/2019
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2046931732f2d1c1ca040c1c84d4b182c2214f2f44a5a90fceda49298445b743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a8d4f5068bedcf1f15ae5257e29004a4773ef84c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760069"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908556"
 ---
 # <a name="list-of-er-functions-in-the-data-collection-category"></a>Lijst met ER-functies in de gegevensverzamelingscategorie
 
 [!include [banner](../includes/banner.md)]
 
-Functies voor het verzamelen van gegevens in ER (Elektronische rapportage) worden gebruikt voor het tellen en optellen van een ER-indeling die wordt uitgevoerd, op basis van gegevens van de uitvoer die al is gegenereerd in **tekst-** of **XML**-indeling. Deze benadering wordt gebruikt om de prestaties te verbeteren van een ER-indeling die wordt uitgevoerd, om waarden in te voeren van lopende totalen in gegenereerde documenten en voor andere doeleinden. In dit onderwerp vindt u een overzicht van deze functies.
+Functies voor het verzamelen van gegevens in ER (Elektronische rapportage) worden gebruikt voor het tellen en optellen van een ER-indeling die wordt uitgevoerd, op basis van gegevens van de uitvoer die al is gegenereerd in **tekst-** of **XML**-indeling. Deze benadering wordt gebruikt om de prestaties te verbeteren van een ER-indeling die wordt uitgevoerd, om waarden in te voeren van lopende totalen in gegenereerde documenten en voor andere doeleinden. In dit artikel vindt u een overzicht van deze functies.
 
 ## <a name="list-of-supported-functions"></a>Lijst met ondersteunde functies
 

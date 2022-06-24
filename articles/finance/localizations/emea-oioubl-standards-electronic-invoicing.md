@@ -1,6 +1,6 @@
 ---
 title: Ondersteunde standaarden voor elektronische facturering in Europa
-description: In dit onderwerp wordt het dekkingsniveau toegelicht voor elektronisch factureren in Europa.
+description: In dit artikel wordt het dekkingsniveau toegelicht voor elektronisch factureren in Europa.
 author: mrolecki
 ms.date: 11/19/2020
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.industry: ''
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 3d41b00a6762c9985cf86b54d92b58a3e4ccdf19
-ms.sourcegitcommit: d13ea8b6baf73601a8b57548232aac84ffaba717
+ms.openlocfilehash: 6bbd2acc879447bd7a5883abffdfe0582f6f7554
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7941226"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906254"
 ---
 # <a name="supported-standards-for-electronic-invoicing-in-europe"></a>Ondersteunde standaarden voor elektronische facturering in Europa
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt het dekkingsniveau toegelicht voor elektronisch factureren in Europa. 
+In dit artikel wordt het dekkingsniveau toegelicht voor elektronisch factureren in Europa. 
 
 Implementatie en goedkeuring van elektronische facturering binnen de Europese Unie is gereguleerd in [Richtlijn 2010/45/EU van de Raad](https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2010:189:0001:0008:EN:PDF), die geldt in alle EU-lidstaten. Bedrijven die elektronisch factureren willen gebruiken, moeten verkooporderfacturen, vrije-tekstfacturen, projectfacturen, verkooporder-creditnota's en projectfactuur-creditnota's indienen als een .XML-bestand aan de overheid of andere handelspartijen die elektronische facturering toestaan. Deze .XML-bestanden moeten voldoen aan bepaalde standaarden. De landspecifieke vereisten en hun implementatie kunnen verschillen binnen EU-lidstaten, maar gebruiken gewoonlijk Universal Business Language ([UBL](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ubl)) in verschillende versies met aanpassingen, en [PEPPOL](https://www.peppol.eu)- specificaties en toegangspunten voor validatie en vervoer. Het belangrijkste voordeel van UBL is dat zakelijke documenten kunnen worden gestandaardiseerd voor verschillende doeleinden. Omdat UBL een flexibele, internationale standaard is die ondersteuning biedt voor veel zakelijke vereisten, kunnen deze zakelijke documenten worden uitgewisseld over de landsgrenzen.
 
-## <a name="electronic-invoice-formats-currently-available-in-dynamics-365-finance"></a>Elektronische factuurindelingen die momenteel beschikbaar zijn in Dynamics 365 Finance
+## <a name="electronic-invoice-formats-currently-available-in-dynamics-365-finance"></a>Elektronische factuurindelingen momenteel beschikbaar in Dynamics 365 Finance
 
 De volgende landspecifieke indelingen van elektronische facturen zijn beschikbaar:
 

@@ -1,6 +1,6 @@
 ---
 title: Gegevens van de dochtermaatschappij exporteren naar bestanden
-description: In dit onderwerp wordt uitgelegd hoe u de exportgegevens van Microsoft Microsoft Dynamics 365 Finance voorbereidt en deze vervolgens in een geconsolideerde rechtspersoon importeert.
+description: In dit artikel wordt uitgelegd hoe u de exportgegevens van Microsoft Microsoft Dynamics 365 Finance voorbereidt en deze vervolgens in een geconsolideerde rechtspersoon importeert.
 author: jinniew
 ms.date: 10/09/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 4df59938def317ad6ebc837104e20c4efa05005f
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 7c5334e206d28a5ae1c8097db5356cd1057b7180
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876148"
 ---
 # <a name="export-subsidiary-data-to-files"></a>Gegevens van de dochtermaatschappij exporteren naar bestanden
 

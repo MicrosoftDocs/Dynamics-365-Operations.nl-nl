@@ -1,6 +1,6 @@
 ---
 title: Lijst met ER-functies in de datum- en tijdcategorie
-description: Dit onderwerp biedt informatie over de datum- en tijdfuncties die worden ondersteund in ER (Elektronische rapportage).
+description: Dit artikel biedt informatie over de datum- en tijdfuncties die worden ondersteund in ER (Elektronische rapportage).
 author: NickSelin
 ms.date: 09/09/2021
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a0322e5490474e21ad91076ecc486f38a776e32
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: e6e15d143bad016883f03ecf0125ce9429215a71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890772"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880232"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>Lijst met ER-functies in de datum- en tijdcategorie
 
 [!include [banner](../includes/banner.md)]
 
-Datum- en tijdfuncties in ER kunnen worden gebruikt om informatie te extraheren uit datum- en tijdwaarden en om hierop bewerkingen uit te voeren. In dit onderwerp vindt u een overzicht van deze functies.
+Datum- en tijdfuncties in ER kunnen worden gebruikt om informatie te extraheren uit datum- en tijdwaarden en om hierop bewerkingen uit te voeren. In dit artikel vindt u een overzicht van deze functies.
 
 ## <a name="list-of-supported-functions"></a>Lijst met ondersteunde functies
 

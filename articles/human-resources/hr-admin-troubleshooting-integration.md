@@ -1,6 +1,6 @@
 ---
 title: Veelgestelde vragen over integratie met Finance
-description: In dit onderwerp wordt uitgelegd welke gegevens in een integratie van Human Resources en Finance worden gesynchroniseerd.
+description: In dit artikel wordt uitgelegd welke gegevens in een integratie van Human Resources en Finance worden gesynchroniseerd.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9b83250bdb54ea6e78709dd3a3ea434a994f6211
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f150c87b6d4e6575bc61a8f36bdf344ebba9c571
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693999"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879274"
 ---
 # <a name="integration-with-finance-faq"></a>Veelgestelde vragen over integratie met Finance
 
@@ -29,7 +29,7 @@ ms.locfileid: "8693999"
 
 
 
-In dit onderwerp wordt antwoord gegeven op veelgestelde vragen over welke gegevens worden gesynchroniseerd wanneer Dynamics 365 Human Resources wordt geïntegreerd met Dynamics 365 Finance.
+In dit artikel wordt antwoord gegeven op veelgestelde vragen over welke gegevens worden gesynchroniseerd wanneer Dynamics 365 Human Resources wordt geïntegreerd met Dynamics 365 Finance.
 
 ## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>Kan ik de Dynamics 365 Talent-toepassingsgebruiker bewerken in Power Apps?
 
@@ -88,7 +88,7 @@ Er is geen speciale instelling vereist voor het afhandelen van uitzonderingen. M
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Kan ik integratie in twee richtingen instellen?
 
-Nee, integratie verloopt momenteel in één richting (Human Resources naar Finance and Operations). Er is echter een standaardsjabloon beschikbaar voor het verzenden van gegevens van Human Resources naar Finance.
+Nee, integratie verloopt momenteel in één richting (Human Resources naar apps voor financiën en bedrijfsactiviteiten). Er is echter een standaardsjabloon beschikbaar voor het verzenden van gegevens van Human Resources naar Finance.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Kan ik recordverwijdering toestaan als onderdeel van mijn integratie?
 

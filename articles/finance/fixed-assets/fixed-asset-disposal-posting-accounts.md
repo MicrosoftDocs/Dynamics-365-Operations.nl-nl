@@ -1,6 +1,6 @@
 ---
 title: Boekingsrekeningen voor afboeking van vaste activa
-description: In dit onderwerp wordt beschreven hoe u grootboekboekingsrekeningen instelt voor het afboeken van activa.
+description: In dit artikel wordt beschreven hoe u Grootboekboekingsrekeningen instelt voor het afboeken van activa.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8501bbb0fc47fb52e100d9086054db4831dae178
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1272cdb16396d24b5495f023e7b9fe3dee341507
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720246"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871328"
 ---
 # <a name="fixed-asset-disposal-posting-accounts"></a>Boekingsrekeningen voor afboeking van vaste activa
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u grootboekboekingsrekeningen als u activa afboekt.
+In dit artikel wordt beschreven hoe u grootboekboekingsrekeningen als u activa afboekt.
 
 Als u grootboekboekingsrekeningen wilt instellen die moeten worden gebruikt wanneer u een activum afboekt, selecteert u **Verkoop -afstoting** en **Afstoting - uitval** op het sneltabblad **Grootboekrekeningen** op de pagina **Boekingsprofielen vaste activa**.
 

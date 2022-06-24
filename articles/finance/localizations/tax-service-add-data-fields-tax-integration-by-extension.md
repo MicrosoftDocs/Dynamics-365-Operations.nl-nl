@@ -1,6 +1,6 @@
 ---
 title: Gegevensvelden in de belastingintegratie toevoegen met extensies
-description: In dit onderwerp wordt uitgelegd hoe u X++-extensies gebruikt om gegevensvelden toe te voegen in de belastingintegratie.
+description: In dit artikel wordt uitgelegd hoe u X++-extensies gebruikt om gegevensvelden toe te voegen in de belastingintegratie.
 author: qire
 ms.date: 04/27/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 64c68ef6804297f86b5d9dc1933b0c16a0d42aae
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 184012dcc0b68e017bb28d8d73caa9e8415bdbfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695383"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871044"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Gegevensvelden in de belastingintegratie toevoegen met extensies
 
 [!include [banner](../includes/banner.md)]
 
 
-In dit onderwerp wordt uitgelegd hoe u X++-extensies gebruikt om gegevensvelden toe te voegen in de belastingintegratie. Deze velden kunnen worden uitgebreid tot het belastinggegevensmodel van de belastingservice en worden gebruikt om belastingcodes te bepalen. Zie [Gegevensvelden toevoegen in belastingconfiguraties](tax-service-add-data-fields-tax-configurations.md) voor meer informatie.
+In dit artikel wordt uitgelegd hoe u X++-extensies gebruikt om gegevensvelden toe te voegen in de belastingintegratie. Deze velden kunnen worden uitgebreid tot het belastinggegevensmodel van de belastingservice en worden gebruikt om belastingcodes te bepalen. Zie [Gegevensvelden toevoegen in belastingconfiguraties](tax-service-add-data-fields-tax-configurations.md) voor meer informatie.
 
 ## <a name="data-model"></a>Gegevensmodel
 
@@ -359,7 +359,7 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
 In deze code is `_destination` het wrapper-object dat wordt gebruikt om de aanvraag te genereren en is `_source` het `TaxIntegrationLineObject`-object.
 
 > [!NOTE]
-> Definieer de veldnaam die in de aanvraag wordt gebruikt als **private const str**. De tekenreeks moet exact gelijk zijn aan de knooppuntnaam (niet het label) die is toegevoegd in het onderwerp [Gegevensvelden toevoegen in belastingconfiguraties](tax-service-add-data-fields-tax-configurations.md).
+> Definieer de veldnaam die in de aanvraag wordt gebruikt als **private const str**. De tekenreeks moet exact gelijk zijn aan de knooppuntnaam (niet het label) die is toegevoegd in het artikel [Gegevensvelden toevoegen in belastingconfiguraties](tax-service-add-data-fields-tax-configurations.md).
 > 
 > Stel het veld in de methode **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** in op basis van de methode **SetField**. Het gegevenstype van de tweede parameter moet **string** zijn. Als het gegevenstype niet **string** is, converteert u het naar een tekenreeks.
 > Als het gegevenstype X++ **enumtype** is, raden we u aan om de methode **enum2Symbol** te gebruiken om de enumwaarde naar een tekenreeks te converteren. De opsommingswaarde die in de belastingconfiguratie is toegevoegd, moet exact gelijk zijn aan opsommingsnaam. Hieronder volgt een lijst met verschillen tussen de opsommingswaarde, het label en de naam.

@@ -1,6 +1,6 @@
 ---
 title: Uniforme productervaring
-description: In dit onderwerp wordt de integratie van productgegevens tussen apps voor financiële en bedrijfsactiviteiten en Dataverse beschreven.
+description: In dit artikel wordt de integratie van productgegevens tussen apps voor financiële en bedrijfsactiviteiten en Dataverse beschreven.
 author: t-benebo
 ms.date: 12/12/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 1b3dc1d16fc34992df0c9478b8b4d163c310b67b
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a8071887678f16a0b8ee075d2aa24a07e4df5319
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062593"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884993"
 ---
 # <a name="unified-product-experience"></a>Geïntegreerde productervaring
 
@@ -126,7 +126,7 @@ Apps voor financiële en bedrijfsactiviteiten | Customer Engagement-apps |
 
 ## <a name="default-order-settings-and-product-specific-default-order-settings"></a>Standaardorderinstellingen en productspecifieke standaardorderinstellingen
 
-Standaardorderinstellingen definiëren de locatie en het magazijn waaruit de artikelen worden geleverd of waarin ze worden opgeslagen, de minimum-, maximum-, meervoud- en standaardhoeveelheden die voor handel of voorraadbeheer worden gebruikt, de levertijden, de eindevlag, en de methode voor orderbelofte. Deze informatie is beschikbaar in Dataverse met behulp van de standaardorderinstellingen en de entiteit voor productspecifieke standaardorderinstellingen. Meer informatie over de functionaliteit vindt u in het onderwerp [Standaardorderinstellingen](../../../../supply-chain/production-control/default-order-settings.md).
+Standaardorderinstellingen definiëren de locatie en het magazijn waaruit de artikelen worden geleverd of waarin ze worden opgeslagen, de minimum-, maximum-, meervoud- en standaardhoeveelheden die voor handel of voorraadbeheer worden gebruikt, de levertijden, de eindevlag, en de methode voor orderbelofte. Deze informatie is beschikbaar in Dataverse met behulp van de standaardorderinstellingen en de entiteit voor productspecifieke standaardorderinstellingen. Meer informatie over de functionaliteit vindt u in het artikel [Standaardorderinstellingen](../../../../supply-chain/production-control/default-order-settings.md).
 
 Apps voor financiële en bedrijfsactiviteiten | Customer Engagement-apps |
 ---|---
@@ -147,7 +147,7 @@ Apps voor financiële en bedrijfsactiviteiten | Customer Engagement-apps |
 [Eenheden](mapping-reference.md#219) | uoms
 [Eenheidsomrekeningen](mapping-reference.md#199) | msdyn_ unitofmeasureconversions
 
-## <a name="initial-synchronization-of-units-data-matching-between-finance-and-operations-and-dataverse"></a>Initiële synchronisatie van eenheden bij gegevensafstemming tussen Finance and Operations en Dataverse
+## <a name="initial-synchronization-of-units-data-matching-between-finance-and-operations-and-dataverse"></a>Initiële synchronisatie van eenheden bij gegevensafstemming tussen apps voor financiën en bedrijfsactiviteiten en Dataverse
 
 ### <a name="initial-synchronization-of-units"></a>Initiële synchronisatie van eenheden
 
@@ -197,7 +197,7 @@ Voor gebruikers van andere Dynamics 365-apps wordt het product in de gebruikersi
 
 Als u apps bouwt op Dataverse, moet u aandacht besteden aan het gebruik van **productnumber** (de unieke product-id) als integratiesleutel. Maak geen gebruik van **msdyn_productnumber**, omdat dit niet uniek is.
 
-## <a name="initial-synchronization-of-products-and-migration-of-data-from-dataverse-to-finance-and-operations"></a>Initiële synchronisatie van producten en migratie van gegevens van Dataverse naar Finance and Operations
+## <a name="initial-synchronization-of-products-and-migration-of-data-from-dataverse-to-finance-and-operations"></a>Initiële synchronisatie van producten en migratie van gegevens van Dataverse naar apps voor financiën en bedrijfsactiviteiten
 
 ### <a name="initial-synchronization-of-products"></a>Initiële synchronisatie van producten
 
@@ -210,7 +210,7 @@ Als andere Dynamics 365-apps producten hebben die overlappen/overeenkomen met Fi
 
 Wanneer de synchronisatie is ingeschakeld en wordt uitgevoerd, worden de producten van Finance and Operations vervolgens gesynchroniseerd met de overeenkomende producten in Dataverse en andere Dynamics 365-apps. Dit geld voor zowel verschillende producten als productvarianten.
 
-### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>Migratie van productgegevens vanuit andere Dynamics 365-apps naar Finance and Operations
+### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>Migratie van productgegevens vanuit andere Dynamics 365-apps naar apps voor financiën en bedrijfsactiviteiten
 
 Als andere Dynamics 365-apps producten hebben die niet aanwezig zijn in Finance and Operations, kan de beheerder eerst **EcoResReleasedproductCreationV2Entity** gebruiken voor het importeren van die producten in Finance and Operations. Vervolgens kunnen de productgegevens uit Finance and Operations en andere Dynamics 365-apps dan worden afgestemd zoals hierboven beschreven.
 

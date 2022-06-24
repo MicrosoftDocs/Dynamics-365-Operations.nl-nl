@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e884e96e1275f9162b642bbe48c2d891c6434002
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: d4be32a7158561bdf00a996831dca7395ce6f331
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109963"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879735"
 ---
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Factuurvereffening en intercompany-inkooporders
 
@@ -28,7 +28,7 @@ ms.locfileid: "8109963"
 
 De aankopende rechtspersoon die bij een intercompany-transactie betrokken is, kan worden ingesteld om factuurvereffening voor leveranciers te gebruiken. Als het veld **Factuur met verschillen boeken** op de pagina **Parameters van module Leveranciers **is ingesteld op** Goedkeuring vereisen**, wordt factuurvereffeningsvalidatie uitgevoerd. In dit geval moet aan de boekingsvereisten worden voldaan voor zowel intercompany-handel en factuurvereffening voor leveranciers voordat IC-leveranciersfacturen kunnen worden geboekt.
 
-Het voorbeeld in dit onderwerp gebruikt de volgende instellingen IC-handel:
+De voorbeelden in dit artikel gebruiken de volgende instellingen voor intercompany-handel:
 -   Fabrikam Inkoop is de aankopende rechtspersoon.
 -   Fabrikam Verkoop is de verkopende rechtspersoon.
 -   Fabrikam Sales bevat klant 4020.

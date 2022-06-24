@@ -1,6 +1,6 @@
 ---
 title: Beleid voor totalisering van kosten en overheadberekening
-description: Dit onderwerp bevat informatie over het bepalen van het juiste niveau van secundaire kostenelementen en het maken van regels voor kostentotalisering die passen in de organisatierapportage en de traceerbaarheid van kosten.
+description: Dit artikel bevat informatie over het bepalen van het juiste niveau van secundaire kostenelementen en het maken van regels voor kostentotalisering die passen in de organisatierapportage en de traceerbaarheid van kosten.
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c9c36587294ff157266e354e06d107000f198061
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: f35bf3e900b8dd9c1864be8668f7ff7296924c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734424"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874604"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Beleid voor totalisering van kosten en overheadberekening 
 
@@ -33,7 +33,7 @@ Met Kostprijsboekhouding kunt u inzicht verkrijgen in hoe de kostenstroom in rel
 -   Het volume van kosteninvoer gegenereerd door overheadberekening kan zeer hoog zijn.
 -   Het is niet mogelijk om de kostenstroom tussen kostenobjecten bij te houden.
 
-Om deze gevolgen te voorkomen, kunt u met Kostprijsboekhouding kostentoewijzing configureren zodat deze past binnen de vereisten voor managementrapporten in uw organisatie. In dit onderwerp wordt besproken hoe u het juiste niveau van secundaire kostenelementen kunt bepalen en regels voor kostentotalisering kunt maken die passen in de organisatierapportage en de traceerbaarheid van kosten.
+Om deze gevolgen te voorkomen, kunt u met Kostprijsboekhouding kostentoewijzing configureren zodat deze past binnen de vereisten voor managementrapporten in uw organisatie. In dit artikel wordt besproken hoe u het juiste niveau van secundaire kostenelementen kunt bepalen en regels voor kostentotalisering kunt maken die passen in de organisatierapportage en de traceerbaarheid van kosten.
 
 > [!NOTE]
 > U kunt configuraties wijzigen als rapportagevereisten veranderen.

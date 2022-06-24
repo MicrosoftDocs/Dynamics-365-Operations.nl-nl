@@ -1,6 +1,6 @@
 ---
 title: Het overgeboekte budget bijwerken na kortingen in inkooporders en facturen
-description: In dit onderwerp wordt beschreven hoe u kunt bepalen wat er gebeurt met het overgeboekte budget wanneer inkooporders worden geannuleerd of verlaagd en wanneer facturen worden verlaagd.
+description: In dit artikel wordt beschreven hoe u kunt bepalen wat er gebeurt met het overgeboekte budget wanneer inkooporders worden geannuleerd of verlaagd en wanneer facturen worden verlaagd.
 author: TaylorVH
 ms.date: 02/11/2022
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2022-02-01
-ms.openlocfilehash: 3b0f06b8d5a38252fc8ff6662f3d454adffffe60
-ms.sourcegitcommit: 5b55f2913e736d12e40c227bf3ce3a9abec815bd
+ms.openlocfilehash: 7f0ef0ffdf697609e811f754b4378b1f7a81c494
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8802988"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897953"
 ---
 # <a name="update-the-carry-forward-budget-after-reductions-in-purchase-orders-and-invoices"></a>Het overgeboekte budget bijwerken na kortingen in inkooporders en facturen
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-In dit onderwerp wordt beschreven hoe u kunt bepalen wat er gebeurt met het overgeboekte budget wanneer inkooporders worden geannuleerd of verlaagd en wanneer facturen worden verlaagd.
+In dit artikel wordt beschreven hoe u kunt bepalen wat er gebeurt met het overgeboekte budget wanneer inkooporders worden geannuleerd of verlaagd en wanneer facturen worden verlaagd.
 
 Zie [Inkooporders aan het einde van het jaar verwerken](/dynamicsax-2012/appuser-itpro/process-purchase-orders-at-year-end) voor informatie over de manier waarop inkooporders aan het einde van het jaar worden verwerkt.
 

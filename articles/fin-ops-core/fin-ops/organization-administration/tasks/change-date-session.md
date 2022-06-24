@@ -1,6 +1,6 @@
 ---
 title: De datum van een sessie wijzigen
-description: In dit onderwerp wordt uitgelegd hoe u de datum kunt wijzigen voor een sessie.
+description: In dit artikel wordt uitgelegd hoe u de datum kunt wijzigen voor een sessie.
 author: pvillads
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fb8f896645df7c7c9a8afa3d9dc9106a7162959d
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 22d014cdcf384253250590cf2c229da16b327495
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065625"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880956"
 ---
 # <a name="change-the-date-for-a-session"></a>De datum van een sessie wijzigen
 
@@ -27,7 +27,7 @@ ms.locfileid: "8065625"
 
 [!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
-In dit onderwerp wordt uitgelegd hoe u de datum kunt wijzigen voor een sessie. Standaard wordt de huidige datum gebruikt bij het invoeren en boeken van journaalposten of brondocumenten. Het is mogelijk om de datum te wijzigen die voor de huidige sessie wordt gebruikt. Met deze functie kunt u journaalposten of brondocumenten desgewenst antedateren.
+In dit artikel wordt uitgelegd hoe u de datum kunt wijzigen voor een sessie. Standaard wordt de huidige datum gebruikt bij het invoeren en boeken van journaalposten of brondocumenten. Het is mogelijk om de datum te wijzigen die voor de huidige sessie wordt gebruikt. Met deze functie kunt u journaalposten of brondocumenten desgewenst antedateren.
 
 1. Ga in het navigatievenster naar **Modules > Algemeen > Algemeen > Sessiedatum en -tijd**.
 2. Voer een datum in het veld **Datum** in.

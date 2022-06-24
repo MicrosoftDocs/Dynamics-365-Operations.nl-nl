@@ -1,8 +1,8 @@
 ---
 title: Btw-aangifte (België)
-description: Dit onderwerp bevat informatie over de btw-aangifte voor België.
+description: Dit artikel bevat informatie over de btw-aangifte voor België.
 author: anasyash
-ms.date: 05/27/2022
+ms.date: 06/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,19 +13,19 @@ ms.search.region: Belgium
 ms.author: anasyash
 ms.search.validFrom: 2019-01-04
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 051aa0bdfee435a4d8ccdd79f7c62a22c1100ab8
-ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
+ms.openlocfilehash: 5a16493e56c306e1abd3880b73a336da536249ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809762"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904307"
 ---
 # <a name="vat-declaration-belgium"></a>Btw-aangifte (België)
 
 [!include [banner](../includes/banner.md)]
 
 
-In dit onderwerp wordt beschreven hoe u de btw-aangifte voor België in XML-indeling kunt instellen en hoe u een voorbeeld kunt bekijken van de btw-aangifte en verkoop- en inkooptransacties in Microsoft Excel.
+In dit artikel wordt beschreven hoe u de btw-aangifte voor België in XML-indeling kunt instellen en hoe u een voorbeeld kunt bekijken van de btw-aangifte en verkoop- en inkooptransacties in Microsoft Excel.
 
 Als u de aangiftes automatisch wilt genereren, maakt u eerst voldoende btw-codes om een afzonderlijke btw-boekhouding bij te houden voor elk vak in de btw-aangifte. In de toepassingsspecifieke parameters van de ER-indeling (elektronische aangifte) voor de btw-aangifte koppelt u bovendien btw-codes aan het zoekresultaat van de zoekopdrachten voor de vakken in de btw-aangifte.
 
@@ -35,7 +35,7 @@ Voor België moet u de volgende elementen configureren:
 - Aard
 - Voorschotten die zijn gerelateerd aan intracommunautaire verwervingen
 
-Zie de sectie [Toepassingsspecifieke parameters instellen voor btw-aangiftevelden](#set-up-application-specific-parameters-for-vat-declaration-fields) verderop in dit onderwerp voor meer informatie over het instellen van toepassingsspecifieke parameters.
+Zie de sectie [Toepassingsspecifieke parameters instellen voor btw-aangiftevelden](#set-up-application-specific-parameters-for-vat-declaration-fields) verderop in dit artikel voor meer informatie over het instellen van toepassingsspecifieke parameters.
 
 In de volgende tabel ziet u in de kolom 'Opzoekresultaat' het opzoekresultaat dat vooraf is geconfigureerd voor een specifieke btw-aangifterij in de indeling voor de btw-aangifte. Gebruik deze informatie om btw-codes correct aan het opzoekresultaat en vervolgens aan de rij van de btw-aangifte te koppelen.
 
@@ -124,7 +124,7 @@ U kunt de volgende tabel gebruiken om te bepalen hoe een opzoekresultaat dat voo
 |--------------|-----|---------------|
 | Werkelijke btw verschuldigd voor de periode van 1 tot 20 december in de maandelijkse aangifte of voor de periode van 1 oktober tot en met 20 december in de kwartaalaangifte | 91  | De invoerparameter **91 Depositobedrag dat in december moet worden betaald** in het dialoogvenster voor gebruikers |
 
-### <a name="purchase-reverse-charge-vat"></a>Omgekeerde toeslag van te vorderen btw
+## <a name="purchase-reverse-charge-vat"></a>Omgekeerde toeslag van te vorderen btw
 
 Als u btw-codes configureert om inkomende omgekeerde toeslagen te boeken via gebruiksbelasting, koppelt u uw btw-codes aan het opzoekresultaat van **Rapportveld zoeken** dat "UseTax" in de naam heeft.
 
@@ -146,7 +146,7 @@ In dit geval worden bedragen die gebruikmaken van btw-code **VAT_S_EU** weergege
 
 Zie [Terugboekingen](emea-reverse-charge.md) voor meer informatie over het configureren van omgekeerde toeslagen.
 
-### <a name="credit-notes-and-negative-corrections"></a>Creditnota's en negatieve correcties
+## <a name="credit-notes-and-negative-corrections"></a>Creditnota's en negatieve correcties
 
 In België worden bedragen van creditnota's en negatieve correcties weergegeven in afzonderlijke vakken op de btw-aangifte. Daarom zijn in de voorgaande tabellen specifieke opzoekresultaten voor **Zoekopdracht voor rapportveld** toegewezen aan creditnota's en negatieve correcties.
 
@@ -195,7 +195,9 @@ In de volgende voorbeelden ziet u hoe deze rapporten er voor de voorbeelden uit 
 | Factuur 2       | 1,000.00 | 210.00 | 00,00  | 00,00  |
 | Creditnota 2   | \-400.00 | 00,00  | 400.00 | 84.00  |
 
-## <a name="configure-system-parameters"></a>Systeemparameters configureren
+## <a name="set-up-a-vat-declaration-for-belgium"></a>Een btw-aangifte instellen voor België
+
+### <a name="configure-system-parameters"></a>Systeemparameters configureren
 
 Voor het genereren van een btw-aangifte moet u het fiscale ondernemingsnummer configureren.
 
@@ -207,8 +209,6 @@ Voor het genereren van een btw-aangifte moet u het fiscale ondernemingsnummer co
 6. Voer op het tabblad **Algemeen** in het veld **Geldig vanaf** de datum in waarop het nummer van kracht wordt.
 
 Zie [Registratie-id's](emea-registration-ids.md) voor meer informatie over het instellen van registratiecategorieën en registratietypen.
-
-## <a name="set-up-a-vat-declaration-for-belgium"></a>Een btw-aangifte instellen voor België
 
 ### <a name="import-er-configurations"></a>ER-configuraties importeren
 
@@ -236,7 +236,7 @@ Volg deze stappen om te definiëren door welke btw-codes welke vakken worden geg
 
     | Veld     | Description   |
     |-----------|---------------|
-    | Zoekresultaat  | Selecteer de waarde van het rapportveld. Zie de sectie eerder in dit onderwerp [Overzicht van btw-aangifte](#vat-declaration-overview) voor meer informatie over de waarden en hun toewijzing aan rijen voor btw-aangifte.  |
+    | Zoekresultaat  | Selecteer de waarde van het rapportveld. Zie de sectie eerder in dit artikel [Overzicht van btw-aangifte](#vat-declaration-overview) voor meer informatie over de waarden en hun toewijzing aan rijen voor btw-aangifte.  |
     | Belastingcode   | Selecteer de btw-code die u aan het rapportveld wilt koppelen. Geboekte btw-transacties die de geselecteerde btw-code gebruiken, worden in het desbetreffende aangiftevak verzameld. Het is raadzaam om btw-codes zo te scheiden, dat één btw-code bedragen in slechts één aangiftevak genereert. |
     | Transactieclassificatie | Selecteer een transactieclassificatie. De volgende transactieclassificaties zijn beschikbaar: </br> - **Inkoop** (te ontvangen btw) </br> - **PurchaseExempt** (inkoop met belastingvrijstelling)  </br>- **PurchaseReverseCharge** (terug te ontvangen btw van een omgekeerde toeslag op een inkoopfactuur)  </br> - **Verkoop** (te betalen btw) </br> -  **SalesExempt** (verkoop met btw-vrijstelling) </br>- **SalesReverseCharge** (te betalen btw van een omgekeerde toeslag op een inkoopfactuur) </br>- **Gebruiksbelasting** (gebruiksbelasting) </br> Voor elke transactieclassificatie is er ook een classificatie voor de creditnota beschikbaar. Een van deze classificaties is bijvoorbeeld **PurchaseCreditNote** (creditnota voor inkoop). Zorg ervoor dat u twee regels maakt voor elke btw-code: een met de waarde van de transactieclassificatie en een met de transactieclassificatie voor de waarde van de creditnota.  |
 
@@ -432,7 +432,7 @@ Het gegevenspakket bevat elektronische berichtinstellingen die worden gebruikt o
 
 ## <a name="generate-a-vat-declaration-incoming-operations-and-outgoing-operations-from-electronic-messages"></a>Een btw-aangifte, binnenkomende activiteiten en uitgaande activiteiten genereren vanuit elektronische berichten
 
-Wanneer u elektronische berichten gebruikt om het rapport te genereren, kunt u belastinggegevens verzamelen van meerdere rechtspersonen. Zie de sectie [Btw-aangifte uitvoeren voor meerdere rechtspersonen](#run-a-vat-declaration-for-multiple-legal-entities) verderop in dit onderwerp voor meer informatie.
+Wanneer u elektronische berichten gebruikt om het rapport te genereren, kunt u belastinggegevens verzamelen van meerdere rechtspersonen. Zie de sectie [Btw-aangifte uitvoeren voor meerdere rechtspersonen](#run-a-vat-declaration-for-multiple-legal-entities) verderop in dit artikel voor meer informatie.
 
 De volgende procedure is van toepassing op het voorbeeld van de verwerking van elektronische berichten die u eerder hebt geïmporteerd uit de bibliotheek met gedeelde activa van LCS.
 
@@ -444,12 +444,12 @@ De volgende procedure is van toepassing op het voorbeeld van de verwerking van e
 > [!NOTE]
 > Stappen 5 tot en met 7 zijn optioneel.
 
-5. Optioneel: selecteer op het sneltabblad **Berichten** de optie **Gegevens verzamelen** en selecteer vervolgens **OK**. De btw-betalingen die eerder zijn gegenereerd, worden toegevoegd aan het bericht. Zie de sectie [Btw vereffenen en boeken](#settle-and-post-sales-tax) eerder in dit onderwerp voor meer informatie. Als u deze stap overslaat, kunt u nog steeds een btw-aangifte genereren via het veld **Versie btw-aangifte** in het dialoogvenster **Aangifte**.
+5. Optioneel: selecteer op het sneltabblad **Berichten** de optie **Gegevens verzamelen** en selecteer vervolgens **OK**. De btw-betalingen die eerder zijn gegenereerd, worden toegevoegd aan het bericht. Zie de sectie [Btw vereffenen en boeken](#settle-and-post-sales-tax) eerder in dit artikel voor meer informatie. Als u deze stap overslaat, kunt u nog steeds een btw-aangifte genereren via het veld **Versie btw-aangifte** in het dialoogvenster **Aangifte**.
 6. Optioneel: controleer op het sneltabblad **Berichtitems** de btw-betalingen die zijn overgeboekt voor verwerking. Standaard worden alle btw-betalingen opgenomen van de geselecteerde periode die niet in een ander bericht van dezelfde verwerking zijn opgenomen.
 7. Optioneel: selecteer **Oorspronkelijk document** om de btw-betalingen te controleren of selecteer **Verwijderen** om de verwerking van btw-betalingen uit te sluiten. Als u deze stap overslaat, kunt u nog steeds een btw-aangifte genereren via het veld **Versie btw-aangifte** in het dialoogvenster **Aangifte**.
 8. Selecteer op het sneltabblad **Berichten** de optie **Status bijwerken**. Selecteer in het dialoogvenster **Status bijwerken** de optie **Gereed om te genereren** en selecteer vervolgens **OK**. Controleer of de berichtstatus is gewijzigd in **Gereed om te genereren**.
 9. Selecteer **Rapport genereren**. Als u een voorbeeld wilt weergeven van de btw-aangiftebedragen, selecteert u in het dialoogvenster **Verwerking uitvoeren** de optie **Voorbeeldrapport** en selecteert u vervolgens **OK**.
-10. Stel in het dialoogvenster **Parameters elektronische rapportage** de velden in zoals beschreven in [Een voorbeeld weergeven van de btw-aangifte in Excel vanuit de periodieke taak Btw rapporteren voor vereffeningsperiode](#preview-the-vat-declaration-in-excel-from-the-report-sales-tax-for-settlement-period-periodic-task) eerder in dit onderwerp en selecteer vervolgens **OK**.
+10. Stel in het dialoogvenster **Parameters elektronische rapportage** de velden in zoals beschreven in [Een voorbeeld weergeven van de btw-aangifte in Excel vanuit de periodieke taak Btw rapporteren voor vereffeningsperiode](#preview-the-vat-declaration-in-excel-from-the-report-sales-tax-for-settlement-period-periodic-task) eerder in dit artikel en selecteer vervolgens **OK**.
 11. Selecteer de knop **Bijlagen** (paperclipsymbool) in de rechterbovenhoek van de pagina en vervolgens **Openen** om het bestand te openen. Controleer de bedragen in de Excel-documenten.
 12. Selecteer **Rapport genereren**.
 13. Als u een aangifte in XML-indeling wilt genereren, selecteert u in het dialoogvenster **Verwerking uitvoeren** de optie **Rapport genereren** en selecteert u vervolgens **OK**.
@@ -508,7 +508,7 @@ Deze sectie bevat aanbevelingen voor het migreren van uw configuratie van de INT
 > [!NOTE]
 > In de volgende voorbeelden wordt dezelfde btw-code gebruikt voor verschillende typen transacties: binnenlandse verkoop, intracommunautaire verkoop, binnenlandse inkopen, intracommunautaire inkopen, intracommunautaire inkopen, enzovoort. Deze benadering is alleen ter illustratie gebruikt. Voor een eenvoudiger gebruik wanneer u uw belastingen afstemt, is het raadzaam om zo veel mogelijk btw-codes te maken, zodat elke btw-code een uniek transactietype kan identificeren. Vervolgens kunt u tijdens een belastingcontrole de bron van elke transactie op basis van de btw-code verklaren en hoeft u alleen standaardaangiftes voor btw-afstemming te gebruiken.
 > 
-> In de voorbeelden worden alle negatieve btw-transacties bovendien zo geconfigureerd dat ze als creditnota's worden beschouwd. Deze benadering is ook alleen ter illustratie gebruikt. Als u de juiste instellingen wilt configureren, moet u rekening houden met de informatie in de sectie [Creditnota's en negatieve correcties](#credit-notes-and-negative-corrections-1) eerder in dit onderwerp.
+> In de voorbeelden worden alle negatieve btw-transacties bovendien zo geconfigureerd dat ze als creditnota's worden beschouwd. Deze benadering is ook alleen ter illustratie gebruikt. Als u de juiste instellingen wilt configureren, moet u rekening houden met de informatie in de sectie [Creditnota's en negatieve correcties](#credit-notes-and-negative-corrections-1) eerder in dit artikel.
 
 In de tabellen in deze sectie worden de volgende afkortingen gebruikt:
 
@@ -685,7 +685,7 @@ In dit geval kunt u de volgende instellingen voor toepassingsspecifieke paramete
 
 ## <a name="examples-of-posting-and-reporting"></a>Voorbeelden van boeken en aangeven
 
-De voorbeelden in deze sectie zijn bedoeld voor het configureren van toepassingsspecifieke parameters voor de sectie [Commerciële goederen en diensten tegen een standaardtarief](#commercial-goods-and-services-at-a-standard-rate) eerder in dit onderwerp.
+De voorbeelden in deze sectie zijn bedoeld voor het configureren van toepassingsspecifieke parameters voor de sectie [Commerciële goederen en diensten tegen een standaardtarief](#commercial-goods-and-services-at-a-standard-rate) eerder in dit artikel.
 
 ### <a name="example-1-sale-in-belgium"></a>Voorbeeld 1: Verkoop in België
 

@@ -1,6 +1,6 @@
 ---
 title: Een recordsjabloon maken om de invoer van gegevens te vergemakkelijken
-description: In dit onderwerp wordt voorgedaan hoe u een recordsjabloon kunt maken, zodat vaak gebruikte veldwaarden niet expliciet moeten worden ingevoerd voor elke nieuwe record.
+description: In dit artikel wordt voorgedaan hoe u een recordsjabloon kunt maken, zodat vaak gebruikte veldwaarden niet expliciet moeten worden ingevoerd voor elke nieuwe record.
 author: margoc
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72ffb6458ca3b10415d75fc835677ed2fa03e4197978ab648f2b244248f45058
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 43bbc790d0e3145ffc9d7cb9dda7b8b3f7048e23
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767720"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880191"
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>Een recordsjabloon maken om de invoer van gegevens te vergemakkelijken
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt voorgedaan hoe u een recordsjabloon kunt maken, zodat vaak gebruikte veldwaarden niet expliciet moeten worden ingevoerd voor elke nieuwe record. In deze procedure maakt u een nieuwe record voor nieuwe laptops die u wilt laten toevoegen aan uw vaste activa. In deze procedure wordt het voorbeeldbedrijf USMF gebruikt.
+In dit artikel wordt voorgedaan hoe u een recordsjabloon kunt maken, zodat vaak gebruikte veldwaarden niet expliciet moeten worden ingevoerd voor elke nieuwe record. In deze procedure maakt u een nieuwe record voor nieuwe laptops die u wilt laten toevoegen aan uw vaste activa. In deze procedure wordt het voorbeeldbedrijf USMF gebruikt.
 
 1. Ga in het navigatievenster naar **Modules > Vaste activa > Vaste activa > Vaste activa**.
 2. Selecteer **Nieuw**.

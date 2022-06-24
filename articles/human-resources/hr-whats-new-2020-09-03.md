@@ -1,6 +1,6 @@
 ---
 title: Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (03 september 2020)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 3 september 2020.
+description: In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 3 september 2020.
 author: andreabichsel
 ms.date: 09/03/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 693c3d770f671edd3f52b22fa9240c641405dbed
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7d558f4b0ddb3e8fe3479567483e2c2349a40774
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687891"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891345"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-3-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (3 september 2020)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8687891"
 
 
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Human Resources. Wijzigingen die van toepassing zijn op buildnummer 8.1.3504. De getallen tussen haakjes in sommige koppen verwijzen ter referentie naar ondersteuningsnummers in Lifecycle Services (LCS).
+In dit artikel worden de functies beschreven die in Dynamics 365 Human Resources nieuw of gewijzigd zijn. Wijzigingen die van toepassing zijn op buildnummer 8.1.3504. De getallen tussen haakjes in sommige koppen verwijzen ter referentie naar ondersteuningsnummers in Lifecycle Services (LCS).
 
 Zie [overzicht van Dynamics 365 Human Resources 2019 releasewave 2 voor meer informatie over geplande functies in HRM](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/). Zie [Het updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces voor Human Resources.
 

@@ -1,6 +1,6 @@
 ---
 title: Degressieve afschrijving na een splitsing
-description: In dit onderwerp wordt de methode beschreven die wordt gebruikt in vaste activa om de afschrijving te berekenen nadat een activum is gesplitst met de methode degressieve afschrijving.
+description: In dit artikel wordt de methode beschreven die wordt gebruikt in vaste activa om de afschrijving te berekenen nadat een activum is gesplitst met de methode degressieve afschrijving.
 author: moaamer
 ms.date: 11/17/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 35637ac1484121232c3571d1a26132a86d69e366
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 539967a9a73da91f6b49c1bb89f404267ae0a804
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726748"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883295"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Degressieve afschrijving na een splitsing
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt de methode beschreven die wordt gebruikt in vaste activa om de afschrijving te berekenen nadat een activum is gesplitst naar een ander activum met de methode degressieve afschrijving. Het afschrijvingsjaar dat in het activa boek is geconfigureerd, is het fiscaal jaar. Zie [Degressieve afschrijving](reduce-balance-depreciation.md) en [Een vast activum splitsen](tasks/split-fixed-asset.md) voor meer informatie.
+In dit artikel wordt de methode beschreven die wordt gebruikt in vaste activa om de afschrijving te berekenen nadat een activum is gesplitst naar een ander activum met de methode degressieve afschrijving. Het afschrijvingsjaar dat in het activa boek is geconfigureerd, is het fiscaal jaar. Zie [Degressieve afschrijving](reduce-balance-depreciation.md) en [Een vast activum splitsen](tasks/split-fixed-asset.md) voor meer informatie.
 
 Als u een vast activum splitst tijdens een boekperiode die later is dan de periode waarin het activum is aangeschaft, wordt met de degressieve afschrijving rekening gehouden met de netto boekwaarde (NBW) van het activum voor het vorige jaar. Er wordt ook rekening gehouden met de verwervings- en afschrijvingscorrectietransacties die zijn gegenereerd op basis van de transactie waarmee het activum is gesplitst. Bij dit gedrag wordt ervan uitgegaan dat het activum in één fiscaal jaar is verworven en in een later fiscaal jaar is opgesplitst. Het bedrag dat moet worden afgeschreven voor het oorspronkelijke activum na de splitsing weerspiegelt de NBW van het activum voordat het activum is gesplitst, en de verwervings- en afschrijvingscorrectietransactie die voor de splitsing is geboekt.
 

@@ -1,6 +1,6 @@
 ---
 title: Analyse van kostprijsboekhouding Power BI-inhoud
-description: In dit onderwerp wordt beschreven wat wordt opgenomen in de Power BI-inhoud voor de analyse van kostprijsboekhouding.
+description: In dit artikel wordt beschreven wat wordt opgenomen in de Power BI-inhoud voor de analyse van kostprijsboekhouding.
 author: AndersGirke
 ms.date: 10/02/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d3b8832e5a5612fd0311811f43454689d5b274c36404b4fb92b710411d45e573
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d5e595c910e237481b8124cb2a0333697344b9ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747364"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876887"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Analyse van kostprijsboekhouding Power BI-inhoud
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven wat is opgenomen in de Microsoft Power BI-inhoud **Analyse van kostprijsboekhouding**. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+In dit artikel wordt beschreven wat wordt opgenomen in de Microsoft Power BI-inhoud voor de **analyse van kostprijsboekhouding**. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 
 ## <a name="overview"></a>Overzicht
 

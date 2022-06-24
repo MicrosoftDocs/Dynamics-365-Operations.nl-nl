@@ -1,6 +1,6 @@
 ---
 title: Franse Intrastat
-description: Dit onderwerp bevat informatie over Intrastat-aangifte in Frankrijk.
+description: Dit artikel bevat informatie over Intrastat-aangifte in Frankrijk.
 author: anasyash
 ms.date: 07/9/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 4d38576e1c6b40242d5c6313fb06f08e170b4466
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: e86d7c8f28b1b3df0066a588d380965c21dc98a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487895"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887848"
 ---
 # <a name="french-intrastat"></a>Franse Intrastat
 
@@ -97,7 +97,7 @@ De tabel geeft ook het rapportniveau van het veld aan. Het veld kan **4** (veree
     3. Selecteer op het sneltabblad **Hiërarchie van basisproductcodes** in het veld **Categoriehiërarchie** de optie **Intrastat**.
     4. Selecteer in het veld **Transactiecode** op het sneltabblad **Algemeen** de code die wordt gebruikt voor het overboeken van goederen.
     5. Selecteer in het veld **Creditnota** de code die wordt gebruikt voor het retourneren van goederen.
-    6. Voer in het veld **Verplichtingsniveau voor export** het detailniveau voor het exportrapport in. Het geselecteerde niveau heeft invloed op de regels die in het rapport worden weergegeven. Zie de tabellen aan het begin van dit onderwerp voor meer informatie.
+    6. Voer in het veld **Verplichtingsniveau voor export** het detailniveau voor het exportrapport in. Het geselecteerde niveau heeft invloed op de regels die in het rapport worden weergegeven. Zie de tabellen aan het begin van dit artikel voor meer informatie.
 
 3. Ga naar **Organisatiebeheer** > **Organisaties** > **Rechtspersonen**, selecteer uw bedrijf en voer vervolgens deze stappen uit:
 

@@ -1,6 +1,6 @@
 ---
 title: Bestanden in XML-indeling importeren met optionele kenmerken
-description: Dit onderwerp bevat informatie over het ontwerpen van ER‑indelingen waarmee XML-kenmerken worden opgegeven voor het parseren van inkomende elektronische documenten in XML-indeling.
+description: Dit artikel bevat informatie over het ontwerpen van ER‑indelingen waarmee XML-kenmerken worden opgegeven voor het parseren van inkomende elektronische documenten in XML-indeling.
 author: NickSelin
 ms.date: 07/03/2019
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 81156cf13e003a67fde0a73bdcd69b2c997f23a33c464fad82132f7768f8a99f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f5b25b51a4f59bf9c308bcaeb140e2737597798e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757292"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873217"
 ---
 # <a name="import-files-in-xml-format-with-optional-attributes"></a>Bestanden in XML-indeling importeren met optionele kenmerken
 
@@ -26,7 +26,7 @@ ms.locfileid: "6757292"
 
 U kunt ER-indelingen (elektronische rapportage) ontwerpen om inkomende elektronische documenten te parseren in XML-indeling. U kunt bepaalde kenmerken van XML-elementen als optioneel specificeren in de ontworpen ER‑indeling. Hiermee kunt u binnenkomende bestanden met en zonder dergelijke XML-kenmerken op de juiste manier verwerken. Vervolgens kunt u de inhoud van deze bestanden gebruiken om toepassingsgegevens bij te werken.
 
-Als u meer wilt weten over deze functie, voltooit u de stappen in het onderwerp [RCS‑bestanden in XML-indeling importeren met optionele kenmerken](tasks/import-files-xml-format-optional-attributes.md), die deel uitmaken van het bedrijfsproces 7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677). U kunt deze taakbegeleiding en het bijbehorend voorbeeld downloaden uit het [Microsoft Downloadcentrum](https://go.microsoft.com/fwlink/?linkid=874684).
+Als u meer wilt weten over deze functie, voltooit u de stappen in het artikel [RCS‑bestanden in XML-indeling importeren met optionele kenmerken](tasks/import-files-xml-format-optional-attributes.md), die deel uitmaken van het bedrijfsproces 7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677). U kunt deze taakbegeleiding en het bijbehorend voorbeeld downloaden uit het [Microsoft Downloadcentrum](https://go.microsoft.com/fwlink/?linkid=874684).
 
 
 | Omschrijving inhoud       | Bestand                                                         |
@@ -38,7 +38,7 @@ Als u meer wilt weten over deze functie, voltooit u de stappen in het onderwerp 
 In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een ER‑indelingsconfiguratie kan ontwerpen om bestanden in XML‑indeling met optionele kenmerken te importeren. Als u deze stappen wilt uitvoeren, moet u eerst de stappen voltooien in de procedure [Configuratieproviders maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md). Voordat u begint, moet u het bestand IncomingdocumentToLearnHowToHandleOptionalAttributes.xml downloaden uit het Microsoft Downloadcenter en lokaal opslaan (https://go.microsoft.com/fwlink/?linkid=874684).
 
 1. Ga naar **Organisatiebeheer** > **Werkruimten** > **Elektronische rapportage**.
-2. Controleer of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. beschikbaar is en gemarkeerd als **Actief**. Als u deze configuratieprovider niet ziet, voltooit u de stappen in het onderwerp [Configuratieproviders maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Controleer of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. beschikbaar is en gemarkeerd als **Actief**. Als u deze configuratieprovider niet ziet, voltooit u de stappen in het artikel [Configuratieproviders maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Klik op **Rapportconfiguraties**.
 
 ## <a name="create-a-new-data-model-configuration"></a>Een nieuwe gegevensmodelconfiguratie maken

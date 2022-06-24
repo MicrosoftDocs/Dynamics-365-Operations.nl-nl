@@ -1,6 +1,6 @@
 ---
 title: Server-naar-server-verificatie voor de API voor ATS-integratie
-description: In dit onderwerp wordt beschreven hoe u server-naar-serververificatie kunt instellen voor integraties met de API voor ATS-integratie (Applicant Tracking System) van Dynamics 365 Human Resources.
+description: In dit artikel wordt beschreven hoe u server-naar-serververificatie kunt instellen voor integraties met de API voor ATS-integratie (Applicant Tracking System) van Dynamics 365 Human Resources.
 author: jaredha
 ms.date: 06/30/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-06-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 350fb5a00b85f28fa8aef2ca50cf1f277b8f635e
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: de3dc29c5366996276c02576eba27f7e831e4ccf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743536"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879361"
 ---
 # <a name="server-to-server-authentication-for-the-ats-integration-api"></a>Server-naar-server-verificatie voor de API voor ATS-integratie
 
@@ -27,7 +27,7 @@ ms.locfileid: "8743536"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp wordt beschreven hoe u server-naar-serververificatie kunt instellen voor toepassingsintegraties met de API voor ATS-integratie (Applicant Tracking System) van Dynamics 365 Human Resources. Er zijn enkele beveiligingslagen die moeten worden beheerd voor de service-principal om toegang te krijgen tot de virtuele Microsoft Dataverse-tabel en bijbehorende gegevens. De gebruiker moet toegang krijgen tot de virtuele Dataverse-tabel in Microsoft Power Platform en tot de gegevens in Dynamics 365 Human Resources.
+In dit artikel wordt beschreven hoe u server-naar-serververificatie kunt instellen voor toepassingsintegraties met de API voor ATS-integratie (Applicant Tracking System) van Dynamics 365 Human Resources. Er zijn enkele beveiligingslagen die moeten worden beheerd voor de service-principal om toegang te krijgen tot de virtuele Microsoft Dataverse-tabel en bijbehorende gegevens. De gebruiker moet toegang krijgen tot de virtuele Dataverse-tabel in Microsoft Power Platform en tot de gegevens in Dynamics 365 Human Resources.
 
 ## <a name="enable-access-to-dataverse-virtual-tables-in-power-platform"></a>Toegang tot virtuele Dataverse-tabellen inschakelen in Power Platform
 

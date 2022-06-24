@@ -1,6 +1,6 @@
 ---
 title: Aan de slag met Elektronische facturering voor Brazilië
-description: Dit onderwerp bevat informatie waarmee u aan de slag kunt met Elektronische facturering voor Brazilië in Finance en Supply Chain Management.
+description: Dit artikel bevat informatie waarmee u aan de slag kunt met Elektronische facturering voor Brazilië in Finance en Supply Chain Management.
 author: gionoder
 ms.date: 03/29/2021
 ms.topic: article
@@ -9,30 +9,32 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 82bbf806d207af0b15406e4bec516420db7f2c06
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 74debbca4ee365e05f1c15d45179f0cd1d23c3e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984848"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846579"
 ---
 # <a name="get-started-with-electronic-invoicing-for-brazil"></a>Aan de slag met Elektronische facturering voor Brazilië 
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat informatie waarmee u aan de slag kunt met Elektronische facturering voor Brazilië. Dit onderwerp leidt u door de configuratiestappen die landafhankelijk zijn in Regulatory Configuration Services (RCS) en vullen de stappen aan die worden beschreven in [Aan de slag met Elektronische facturering](e-invoicing-get-started.md).
+Dit artikel bevat informatie waarmee u aan de slag kunt met Elektronische facturering voor Brazilië. Dit artikel leidt u door de configuratiestappen die landafhankelijk zijn in Regulatory Configuration Services (RCS) en vullen de stappen aan die worden beschreven in [Aan de slag met Elektronische facturering](e-invoicing-get-started.md).
 
 ## <a name="country-specific-configuration-for-brazilian-nf-e-br-electronic-invoicing-feature"></a>Landspecifieke configuratie voor de Braziliaanse functie NF-e (BR) voor elektronische facturering
 
 Sommige parameters van de **Braziliaanse functie NF-e (BR) voor elektronische facturering** worden met standaardwaarden gepubliceerd. Controleer de waarden en werk ze zo nodig bij zodat deze beter aansluiten bij uw zakelijke bewerkingsbehoeften voordat u de functie Elektronische facturering in de serviceomgeving implementeert.
 
-Deze sectie is een aanvulling op de sectie **Landspecifieke configuratie voor de functie voor elektronische facturering** in het onderwerp [Aan de slag met Elektronische facturering](e-invoicing-get-started.md).
+Deze sectie is een aanvulling op de sectie **Landspecifieke configuratie voor de functie voor elektronische facturering** in het artikel [Aan de slag met Elektronische facturering](e-invoicing-get-started.md).
 
 1. Selecteer in RCS in de werkruimte **Globalisatiefunctie** in de sectie **Functies** de tegel **Elektronische facturering**.
 2. Controleer op de pagina **Functies voor elektronische facturering** of de functie voor elektronische facturering **Braziliaanse NF-e (BR)** die u hebt gemaakt, is geselecteerd.
@@ -51,7 +53,7 @@ Deze sectie is een aanvulling op de sectie **Landspecifieke configuratie voor de
 
 Voltooi deze stappen voordat u de toepassingsinstellingen implementeert naar uw verbonden toepassing Finance of Supply Chain Management.
 
-Deze sectie is een aanvulling op de sectie **Landspecifieke configuratie van toepassingsinstellingen** in het onderwerp [Aan de slag met Elektronische facturering](e-invoicing-get-started.md).
+Deze sectie is een aanvulling op de sectie **Landspecifieke configuratie van toepassingsinstellingen** in het artikel [Aan de slag met Elektronische facturering](e-invoicing-get-started.md).
 
 1. Selecteer in RCS in de werkruimte **Globalisatiefunctie** in de sectie **Functies** de tegel **Elektronische facturering**.
 2. Controleer op de pagina **Functies voor elektronische facturering** of de functie voor elektronische facturering **Braziliaanse NF-e (BR)** is geselecteerd.
@@ -71,7 +73,7 @@ Deze sectie is een aanvulling op de sectie **Landspecifieke configuratie van toe
 
 Sommige parameters van de **Braziliaanse functie NFS-e ABRASF Curitiba (BR) voor elektronische facturering** worden met standaardwaarden gepubliceerd. Controleer deze waarden en werk ze zo nodig bij zodat deze beter aansluiten bij uw zakelijke bewerkingsbehoeften voordat u de functie Elektronische facturering in de serviceomgeving implementeert.
 
-Deze sectie is een aanvulling op de sectie **Landspecifieke configuratie voor de functie voor elektronische facturering** in het onderwerp [Aan de slag met Elektronische facturering](e-invoicing-get-started.md).
+Deze sectie is een aanvulling op de sectie **Landspecifieke configuratie voor de functie voor elektronische facturering** in het artikel [Aan de slag met Elektronische facturering](e-invoicing-get-started.md).
 
 1. Selecteer in RCS in de werkruimte **Globalisatiefunctie** in de sectie **Functies** de tegel **Elektronische facturering**.
 2. Controleer op de pagina **Functies voor elektronische facturering** of de functie voor elektronische facturering **Braziliaanse NFS-e ABRASF Curitiba (BR)** die u hebt gemaakt, is geselecteerd.
@@ -96,7 +98,7 @@ Deze sectie is een aanvulling op de sectie **Landspecifieke configuratie voor de
 
 Voltooi deze stappen voordat u de toepassingsinstellingen implementeert naar uw verbonden toepassing Finance of Supply Chain Management.
 
-Deze sectie is een aanvulling op de sectie **Landspecifieke configuratie van toepassingsinstellingen** in het onderwerp [Aan de slag met Elektronische facturering](e-invoicing-get-started.md).
+Deze sectie is een aanvulling op de sectie **Landspecifieke configuratie van toepassingsinstellingen** in het artikel [Aan de slag met Elektronische facturering](e-invoicing-get-started.md).
 
 1. Selecteer in RCS in de werkruimte **Globalisatiefunctie** in de sectie **Functies** de tegel **Elektronische facturering**.
 2. Controleer op de pagina **Functies voor elektronische facturering** of de functie voor elektronische facturering **Braziliaanse NFS-e ABRASF Curitiba (BR)** is geselecteerd.

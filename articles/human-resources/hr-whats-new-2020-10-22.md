@@ -1,6 +1,6 @@
 ---
 title: Wat is nieuw of gewijzigd in Dynamics 365 Human Resources 22 oktober 2020
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 22 oktober 2020.
+description: In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 22 oktober 2020.
 author: jcart1106
 ms.date: 10/22/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b36354b14faf59aacb4a619dfb6f243335e6a297
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: d58c8d5eab86779a764cee5a3ee8ca17ade471de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063513"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862796"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-22-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources 22 oktober 2020
 
@@ -27,7 +27,7 @@ ms.locfileid: "8063513"
 
 
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn of die binnenkort worden vrijgegeven in Dynamics 365 Human Resources. Zie [Updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces en de planning.
+In dit artikel worden de functies beschreven die in Dynamics 365 Human Resources nieuw, gewijzigd of binnenkort beschikbaar zijn. Zie [Updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces en de planning.
 
 Zie [Overzicht van Dynamics 365 Human Resources 2020 release wave 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/) voor meer informatie over nieuwe functies en de verwachte algemene beschikbaarheidsdatums ervan.
 
@@ -50,9 +50,9 @@ De volgende functie zijn algemeen beschikbaar in deze release.
 Deze versie bevat de volgende correcties.
 
 > [!NOTE]
-> Ons doel is om deze informatie zo snel mogelijk bij u te krijgen. Mogelijk wordt dit onderwerp gewijzigd om correcties op te nemen die in de build zijn gemaakt nadat dit onderwerp oorspronkelijk werd gepubliceerd.
+> Ons doel is om deze informatie zo snel mogelijk bij u te krijgen. Mogelijk wordt dit artikel gewijzigd om correcties op te nemen die in de build zijn gemaakt nadat dit artikel oorspronkelijk werd gepubliceerd.
 
-| Probleemnummer| Uitgeven  | Beschrijving|
+| Probleemnummer| Probleem  | Description|
 | --- | --- | --- |
 | 437922 | Het importeren van FMLA-uren met de DMF-entiteit resulteert in een alleen-lezenfout. | Het gebruik van de entiteit FMLA-uren om uren te importeren die aan een FMLA-case zijn gekoppeld, mislukt. Er is logica toegevoegd om ervoor te zorgen dat het aantal geïmporteerde uren niet groter is dan het aantal resterende uren voor de case. |
 | 512019 | Onjuist bedrag voor **Laatste transport**. | Als op de pagina **Verlof** de datum bij **Datum vanaf** werd gewijzigd in de eerste dag van de volgende boekperiode, werd er een onjuist bedrag bij **Laatste transport** voor het type **Jaarlijks verlof** weergegeven. Nu wordt het juiste bedrag weergegeven. |

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2deb20646a532509c9e3a3e7a39f646bced2a3fb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 039b4aa3f044cda29944bcd4f5c42fc35818c58b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693110"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868154"
 ---
 # <a name="configure-rates"></a>Tarieven configureren
 
@@ -47,7 +47,7 @@ Gebruik tarieven om te bepalen hoeveel werknemers en werkgevers betalen voor elk
    | **Geldig vanaf** | De datum waarop het tarief van kracht wordt. De huidige systeemdatum is de standaardwaarde. Deze datum moet in of vóór uw vergoedingsperiode liggen. Het is goed gebruik om deze datum in te stellen op de datum van het vergoedingsplan. |
    | **Vervaldatum** | De einddatum van het tarief. 12/31/2154 (wat voor nooit staat) is de standaardwaarde. |
    | **Niveaus gebruiken** |  Gebruik dit veld als u logica hebt die moet worden gebruikt om een tarief te bepalen. Als een tarief bijvoorbeeld moet stijgen op basis van de leeftijd, selecteert u hier een waarde. Selecteer **Eén niveau** voor een vergoedingstarief van één niveau of **Dubbel niveau** voor een vergoedingstarief van twee niveaus. Een voorbeeld van een dubbel niveau is een niveau dat is gebaseerd op geslacht en leeftijd. Nadat u een waarde hebt geselecteerd, selecteert u **Acties** en selecteert u vervolgens **Niveautarieven**. Als u een vast tarief hebt dat niet wijzigt, laat u dit veld leeg. |
-   | **Betalingsfrequentie** | Geef op hoe vaak het premietarief voor de vergoeding moet worden betaald aan de vergoedingsprovider. De tarieven die u op de pagina opgeeft die later in dit onderwerp wordt beschreven, worden gebaseerd op de betalingsfrequentie die u hier opgeeft. Als u bijvoorbeeld **Maandelijks** in dit veld invoert en een werknemerstarief van **$ 100** opgeeft, wordt ervan uitgegaan dat de vergoeding de werknemer $ 100 per maand kost. Een werknemer wordt echter mogelijk twee keer per maand betaald afhankelijk van de betalingsfrequentie voor de vergoeding die is ingesteld in de record van de werknemer. Wanneer de werknemer zich in dat geval bij **Selfservice werknemer** aanmeldt, wordt het bedrag dat hij of zij betaalt $ 50 omdat het tarief dat **Selfservice werknemer** laat zien is gebaseerd op de betalingsfrequentie van de werknemer. |
+   | **Betalingsfrequentie** | Geef op hoe vaak het premietarief voor de vergoeding moet worden betaald aan de vergoedingsprovider. De tarieven die u op de pagina opgeeft die later in dit artikel wordt beschreven, worden gebaseerd op de betalingsfrequentie die u hier opgeeft. Als u bijvoorbeeld **Maandelijks** in dit veld invoert en een werknemerstarief van **$ 100** opgeeft, wordt ervan uitgegaan dat de vergoeding de werknemer $ 100 per maand kost. Een werknemer wordt echter mogelijk twee keer per maand betaald afhankelijk van de betalingsfrequentie voor de vergoeding die is ingesteld in de record van de werknemer. Wanneer de werknemer zich in dat geval bij **Selfservice werknemer** aanmeldt, wordt het bedrag dat hij of zij betaalt $ 50 omdat het tarief dat **Selfservice werknemer** laat zien is gebaseerd op de betalingsfrequentie van de werknemer. |
    | **Afronding betalingsfrequentie** | De methoden voor het afronding van het tarief zijn: Standaard, Afgekapt, Normaal, Naar beneden afronden en Naar boven afronden. </br></br><ul><li>**Standaard**: altijd naar boven afronden. Zo wordt 10,611 afgerond op 10,62. -10,231 wordt afgerond op -10,23. </li><li>**Afgekapt**: altijd naar beneden afronden. Zo wordt 10,619 afgerond op 10,61. -10,231 wordt afgerond op -10,24. </li><li>**Normaal**: decimale waarden die eindigen op of groter zijn dan 5 worden van nul weg afgerond. Decimale waarden die eindigen op of lager zijn dan 4, worden naar nul afgerond. Zo wordt 10,615 afgerond op 10,62. -10,235 wordt afgerond op -10,24. 10,614 wordt afgerond op 10,61. -10,234 wordt afgerond op -10,23. </li><li>**Naar beneden afronden**: afronden naar nul. Zo wordt 10,619 afgerond op 10,61. -10,231 wordt afgerond op -10,23. </li><li>**Naar boven afronden**: van nul weg afronden. Zo wordt 10,619 afgerond op 10,62. -10,231 wordt afgerond op -10,24. |
    | **Werknemersbedrag niet-roker** | Het bedrag dat de vergoedingsprovider berekent voor een werknemer die niet rookt. Dit is het bedrag dat de werkgever betaalt aan de vergoedingsprovider en dat moet worden gebaseerd op de betalingsfrequentie voor de tariefinstellingen. |
    | **Werkgeversbedrag niet-roker** | Het bedrag dat de vergoedingsprovider berekent voor een werknemer die niet rookt. Dit is het bedrag dat de werkgever betaalt aan de vergoedingsprovider en dit moet worden gebaseerd op de betalingsfrequentie voor de tariefinstellingen. |

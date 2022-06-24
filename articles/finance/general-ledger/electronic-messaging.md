@@ -1,8 +1,8 @@
 ---
 title: Elektronische berichten
-description: Dit onderwerp biedt overzichts- en instellingsinformatie voor elektronische berichten in Microsoft Dynamics 365 Finance.
+description: Dit artikel biedt overzichts- en instellingsinformatie voor elektronische berichten in Microsoft Dynamics 365 Finance.
 author: liza-golub
-ms.date: 06/29/2021
+ms.date: 01/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 191abc37b7c349aaf3c9e871fe2f1885eec9fc896271d6fac27e5caa0b0fe3b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf9ee77b2588283f0b34f2099d6f8d78e15a5af5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768334"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934679"
 ---
 # <a name="electronic-messaging"></a>Elektronische berichten
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp biedt overzichts- en instellingsinformatie voor de functionaliteit voor **elektronische berichten** (EM).
+Dit artikel biedt overzichts- en instellingsinformatie voor de functionaliteit voor **elektronische berichten** (EM).
 
 De overheden en wetgevende instanties van verschillende landen en regio's wereldwijd hebben onlang rapportagevereisten geïmplementeerd voor bedrijven die in deze landen of regio's zijn geregistreerd. Het doel van de vereisten is ervoor zorgen dat gegevens in elektronische indeling van die bedrijven worden verkregen, rechtstreeks van de systemen waarin deze zijn berekend, opgeslagen en verwerkt.
 
@@ -58,6 +58,16 @@ De EM-functionaliteit ondersteunt de volgende scenario's:
 - Opslaan en controleren van alle logboekgegevens die betrekking hebben op acties die worden uitgevoerd voor een bericht of berichtitem.
 - De verwerking door verschillende berichtstatussen en berichtitemstatussen beheren.
 
+## <a name="security-privileges"></a>Beveiligingsbevoegdheden
+
+De volgende beveiligingsbevoegdheden zijn beschikbaar voor elektronische berichten.
+
+| Beveiligingsbevoegdheid           | Toegangsniveau | Koppeling |
+|------------------------------|--------------|-------------|
+| Elektronische berichten onderhouden | Deze bevoegdheid geeft volledige toegang tot de functionaliteit voor elektronische berichten. Als u deze bevoegdheid hebt, kunt u elektronische berichten instellen en alle verwerkingen uitvoeren. | Deze bevoegdheid is opgenomen in de beveiligingsfunctie **Btw-transacties voor leveranciers beheren**. Deze functie is op zijn beurt weer opgenomen in de beveiligingsrol **Accountant**. |
+| Elektronische berichten weergeven     | Deze bevoegdheid geeft alleen-lezentoegang tot de functionaliteit voor elektronische berichten. Als u deze bevoegdheid hebt, kunt de instellingen voor elektronische berichten en de berichten bekijken. U kunt echter niets instellen of uitvoeren. | Deze bevoegdheid is opgenomen in de beveiligingsfunctie **Informatie opvragen over de status van btw-transacties**. Deze functie is op zijn beurt weer opgenomen in de volgende beveiligingsrollen:<ul><li>Incassomanager</li><li>Klantenadministrateur</li><li>Klantenmanager</li><li>Belastingaccountant</li><li>Accountant</li><li>Accountingmanager</li><li>Accounting supervisor</li><li>Verkoopleider</li><li>Leveranciersmedewerker</li></ul> |
+| Elektronische berichten bewerken  | Deze bevoegdheid geeft alleen toegang tot de **Elektronische berichten** en de pagina's met **Items elektronisch bericht**. Als u deze bevoegdheid hebt, kunt u alle verwerkingen uitvoeren die vanaf deze pagina's wordt aangeroepen. | Deze bevoegdheid is opgenomen in de beveiligingsfunctie **Elektronische berichten bedienen**. Deze functie is op zijn beurt weer opgenomen in de beveiligingsrol **Operator elektronische berichten**. |
+
 ## <a name="country-specific-regulatory-features-supported-by-the-em-functionality"></a>Landspecifieke wettelijk voorgeschreven functies die worden ondersteund door de EM-functionaliteit
 
 De volgende tabel bevat informatie over bepaalde landspecifieke wettelijk voorgeschreven functies die worden ondersteund door de EM-functionaliteit.
@@ -66,9 +76,9 @@ De volgende tabel bevat informatie over bepaalde landspecifieke wettelijk voorge
 |-------------|--------------|------------------------|
 | Spanje       | [Directe levering van informatie over btw (Suministro Inmediato de Información del IVA, SII)](../localizations/emea-esp-sii.md) | |
 | Hongarije     | [Online factureringssysteem](../localizations/emea-hun-online-invoicing.md) | |
-| Verenigd Koninkrijk | [Belasting digitaal maken - Wijziging in indiening van btw-aangifte](../localizations/emea-gbr-mtd-vat-integration.md) | [Finance and Operations: Digitale belasting- en btw-aangifte in het VK in Dynamics 365](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-uk-digital-tax-vat-declaration-in-dynamics-365) |
+| Verenigd Koninkrijk | [Belasting digitaal maken - Wijziging in indiening van btw-aangifte](../localizations/emea-gbr-mtd-vat-integration.md) | [Finance and Operations: Digitale belasting- en btw-aangifte (VK) in Dynamics 365](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-uk-digital-tax-vat-declaration-in-dynamics-365) |
 | Litouwen   | [i.SAF-rapportage](../localizations/emea-ltu-isaf.md) | |
-| Polen      | [Btw-aangifte met registers (JPK_V7M, VDEK)](../localizations/emea-pol-vdek.md) | [Dynamics 365 Finance: SAF/JPK btw-auditregisters](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-saf-jpk-vat-audit-registers-june-4-2020) |
+| Polen      | [Btw-aangifte met registers (JPK_V7M, VDEK)](../localizations/emea-pol-vdek.md) | [Dynamics 365 Finance: SAF/JPK btw-controleregisters](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-saf-jpk-vat-audit-registers-june-4-2020) |
 | Nederland | [Btw-aangifte voor Nederland](../localizations/emea-nl-vat-declaration-netherlands.md) | |
 | Tsjechische Republiek | [Btw-aangifte](../localizations/emea-cze-vat-declaration-tax-declaration-model.md) | |
 | Brazilië      | [SPED-Reinf](../localizations/latam-bra-sped-reinf-overview.md) | |
@@ -78,7 +88,13 @@ De volgende tabel bevat informatie over bepaalde landspecifieke wettelijk voorge
 | Rusland      | [Beoordeelde belastingaangifte](../localizations/rus-assessed-tax-declaration.md) | |
 | Rusland      | [Belastingaangifte van import](../localizations/rus-transport-tax-declaration.md) | |
 | Rusland      | [Belastingaangifte land](../localizations/rus-land-tax-declaration.md) | |
-
+| Noorwegen      | [Btw-retouren met directe verzending naar Altinn](../localizations/emea-nor-vat-return.md) | [Nieuwe btw-aangifte met directe indiening naar Altinn in Dynamics 365 Finance](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/new-vat-return-with-direct-submission-to-altinn-in-dynamics-365-finance-december-1-2021) |
+| Frankrijk      | [Btw-aangifte (Frankrijk)](../localizations/emea-fra-VAT-declaration-preview-France.md) | |
+| Oostenrijk     | [Btw-aangifte (Oostenrijk)](../localizations/emea-aut-vat-declaration-austria.md) | |
+| Duitsland     | [Btw-aangifte (Duitsland)](../localizations/emea-deu-vat-declaration-germany.md) | |
+| Nederland | [Btw-aangifte voor Nederland](../localizations/emea-nl-vat-declaration-netherlands.md) | |
+| Zweden      | [Btw-aangifte (Zweden)](../localizations/emea-swe-VAT-declaration-Sweden.md) | |
+| Zwitserland | [Btw-aangifte (Zwitserland)](../localizations/emea-che-vat-declaration-switzerland.md) | |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

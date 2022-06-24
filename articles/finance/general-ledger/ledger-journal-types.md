@@ -1,6 +1,6 @@
 ---
 title: Grootboekjournaaltypen
-description: Dit onderwerp beschrijft de journaaltypes die u kunt instellen voor financiële journalen.
+description: In dit artikel worden de journaaltypen beschreven die u kunt instellen voor financiële journalen.
 author: kweekley
 ms.date: 10/10/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e49d101bbbe576e0fcf2e9b243f4f29124fbd85
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 883c54b84ed31384a28c31c8b814c75d340d020e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722264"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901308"
 ---
 # <a name="ledger-journal-types"></a>Grootboekjournaaltypen
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp beschrijft de journaaltypes die u kunt instellen voor financiële journalen. Gebruik de pagina **Journaalnamen** voor het instellen van journalen die u in heel Dynamics 365 Finance kunt gebruiken.
+In dit artikel worden de journaaltypen beschreven die u kunt instellen voor financiële journalen. Gebruik de pagina **Journaalnamen** voor het instellen van journalen die u in heel Dynamics 365 Finance kunt gebruiken.
 
 | Journaaltype                      | Doel                       | Transacties invoeren op deze pagina                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|

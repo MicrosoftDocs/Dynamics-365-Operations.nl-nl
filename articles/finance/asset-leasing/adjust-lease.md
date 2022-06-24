@@ -1,6 +1,6 @@
 ---
 title: Leases aanpassen
-description: In dit onderwerp wordt uitgelegd hoe u een lease kunt aanpassen. Aanpassingen kunnen nodig zijn als de leasetermijnen worden gewijzigd, de lease wordt verlengd of andere omstandigheden veranderen.
+description: In dit artikel wordt uitgelegd hoe u een lease kunt aanpassen. Aanpassingen kunnen nodig zijn als de leasetermijnen worden gewijzigd, de lease wordt verlengd of andere omstandigheden veranderen.
 author: moaamer
 ms.date: 03/18/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 89ec876c9bd967107635eb2955209a4dcb95cde5
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 48d1a261a43d6e3a68dfc0aae6f06c0d7d6b82db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712169"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898322"
 ---
 # <a name="adjust-leases"></a>Leases aanpassen
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u een lease kunt aanpassen. Aanpassingen kunnen nodig zijn als de leasetermijnen worden gewijzigd, de lease wordt verlengd of andere omstandigheden veranderen. Het leasen van activa voldoet aan de richtlijnen die de Accounting Standards Codification Topic 842 (ASC 842) en International Financial Reporting Standard 16 (IFRS 16) bieden over leasewijzigingen. In ASC 842-20-15-1 wordt een wijziging in de lease gedefinieerd als elke wijziging in de voorwaarden van een contract waardoor een wijziging in de omvang of de interpretatie van de lease wordt veroorzaakt. In IFRS 39 van IFRS 16 wordt aangegeven dat een leasenemer de leaseverplichtingen moet herwaarderen, zodat deze wijzigingen in de leasebetalingen weerspiegelen.
+In dit artikel wordt uitgelegd hoe u een lease kunt aanpassen. Aanpassingen kunnen nodig zijn als de leasetermijnen worden gewijzigd, de lease wordt verlengd of andere omstandigheden veranderen. Het leasen van activa voldoet aan de richtlijnen die de Accounting Standards Codification Topic 842 (ASC 842) en International Financial Reporting Standard 16 (IFRS 16) bieden over leasewijzigingen. In ASC 842-20-15-1 wordt een wijziging in de lease gedefinieerd als elke wijziging in de voorwaarden van een contract waardoor een wijziging in de omvang of de interpretatie van de lease wordt veroorzaakt. In IFRS 39 van IFRS 16 wordt aangegeven dat een leasenemer de leaseverplichtingen moet herwaarderen, zodat deze wijzigingen in de leasebetalingen weerspiegelen.
 
 Voor organisaties die zich houden aan ASC 842 of IFRS 16, wordt een lease aangepast om een wijziging in de contante waarde van de toekomstige minimale leasebetalingen (PVFMLP) aan te geven. Als de PVFMLP toeneemt, is de gemaakte journaalpost een debetpost voor het activumaccount met gebruiksrecht en een creditpost voor het leaseverplichtingenaccount om het verschil tussen de nieuwe PVFMLP en de vorige PVFMLP aan te geven. Als de PVFMLP afneemt, is de journaalpost voor het verschil een debetbedrag voor het leaseverplichtingenaccount en een creditbedrag voor het RoU-activumaccount.
 

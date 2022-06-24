@@ -1,6 +1,6 @@
 ---
 title: Gebruikersvoorkeuren in Ontwerper financiële rapporten
-description: In dit onderwerp wordt beschreven hoe u uw gebruikersvoorkeuren instelt voor het aanpassen van uw gebruikersinteracties in Ontwerper financiële rapporten en de ervaring bij eerste aanmelding bepaalt.
+description: In dit artikel wordt beschreven hoe u uw gebruikersvoorkeuren instelt voor het aanpassen van uw gebruikersinteracties in financiële Report Designer en de ervaring bij eerste aanmelding bepaalt.
 author: aprilolson
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 1f4c9bdde367044cfbf736c1aecbe0387031309318a7bf929f1b9ba2fd9368be
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 91fbe80bf52dc14e0c3e00f68d62192f04ef506b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724364"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903548"
 ---
 # <a name="user-preferences-in-financial-report-designer"></a>Gebruikersvoorkeuren in Ontwerper financiële rapporten
 

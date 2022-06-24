@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 9a0a9a3f23a3aec0077fd1a64c55fea567b72800
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: fa7a519b87bd5933b8b672f9f9b3e230fd7f2eb4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722487"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896400"
 ---
 # <a name="one-voucher"></a>Eén boekstuk
 
@@ -37,7 +37,7 @@ Met de bestaande functionaliteit voor financiële journalen (algemeen journaal, 
     [![Eén regel.](./media/same-line.png)](./media/same-line.png)
 
     > [!IMPORTANT]
-    > De definitie van Eén boekstuk omvat **geen** gevallen waarin journaalnamen zijn ingesteld als **Maximaal één boekstuknummer**, maar waarvoor de gebruiker vervolgens een boekstuk invoert dat alleen soorten grootboekrekeningen bevat. In dit onderwerp betekent Eén boekstuk dat er één boekstuk is met meer dan één leverancier, klant, bank, vaste activa of project.
+    > De definitie van Eén boekstuk omvat **geen** gevallen waarin journaalnamen zijn ingesteld als **Maximaal één boekstuknummer**, maar waarvoor de gebruiker vervolgens een boekstuk invoert dat alleen soorten grootboekrekeningen bevat. In dit artikel betekent Eén boekstuk dat er één boekstuk is met meer dan één leverancier, klant, bank, vaste activa of project.
 
 - Voer een boekstuk met meerdere regels in wanneer er geen tegenrekening is.
 
@@ -63,16 +63,16 @@ Vervolgens genereert u het rapport **Onkosten per leverancier** in het werkgebie
 
 Vanwege de problemen die kunnen optreden bij het gebruik van één boekstuk, wordt deze functionaliteit uiteindelijk afgeschaft. Omdat er echter functionele hiaten zijn die afhankelijk zijn van deze functionaliteit, zal de functie niet in één keer worden verwijderd. Dit gebeurt volgens het volgende schema:
 
-- **Release van voorjaar 2018**: deze functionaliteit werd standaard uitgeschakeld via de parameter **Meerdere transacties binnen één boekstuk toestaan** op het tabblad **Algemeen** van de **Grootboekparameters**. U kunt de functie echter weer inschakelen als uw organisatie een scenario heeft dat valt in een van de functionele hiaten die verderop in dit onderwerp worden vermeld.
+- **Release van voorjaar 2018**: deze functionaliteit werd standaard uitgeschakeld via de parameter **Meerdere transacties binnen één boekstuk toestaan** op het tabblad **Algemeen** van de **Grootboekparameters**. U kunt de functie echter weer inschakelen als uw organisatie een scenario heeft dat valt in een van de functionele hiaten die verderop in dit artikel worden vermeld.
 
-    - Als één boekstuk niet is vereist in uw bedrijfsscenario, raden we u aan de functionaliteit uit te schakelen. Als u de functionaliteit gebruikt terwijl er een andere oplossing beschikbaar is, lost Microsoft geen fouten op in de gebieden die verderop in dit onderwerp worden aangegeven.
+    - Als één boekstuk niet is vereist in uw bedrijfsscenario, raden we u aan de functionaliteit uit te schakelen. Als u de functionaliteit gebruikt terwijl er een andere oplossing beschikbaar is, lost Microsoft geen fouten op in de gebieden die verderop in dit artikel worden aangegeven.
     - We raden u aan te stoppen met het gebruik van één boekstuk voor integraties, tenzij de functionaliteit nodig hebt voor een van de gedocumenteerde functionele hiaten.
 
 - **Nieuwere versies**: aan meerdere bedrijfsvereisten kan alleen worden voldaan met Eén boekstuk. Microsoft moet ervoor zorgen dat er nog aan alle geïdentificeerde bedrijfsvereisten in het systeem kan worden voldaan nadat de functionaliteit is afgeschaft. Daarom moeten er waarschijnlijk nieuwe functies worden toegevoegd om de functionele hiaten op te vullen. Microsoft kan geen specifieke oplossing leveren, omdat elke hiaat in de functionaliteit anders is en op basis van de behoeften van de zakelijke vereisten moet worden geëvalueerd. Sommige functionele hiaten worden waarschijnlijk vervangen door functies die helpen om aan specifieke bedrijfsvereisten te voldoen. Andere hiaten worden mogelijk opgevuld door invoer in een journaal te blijven toestaan, op een manier zoals bij het gebruik van één boekstuk, maar waardoor het systeem zo nodig meer details kan bijhouden.
 
 Nadat alle functionele hiaten zijn opgevuld, geeft Microsoft door dat de functie wordt afgeschaft. De functie wordt echter pas na minimaal één jaar na die communicatie afgeschaft. Hoewel Microsoft niet precies kan zeggen wanneer de functie Eén boekstuk wordt afgeschaft, zal dit waarschijnlijk nog ten minste twee jaar duren. Het Microsoft-beleid is om minimaal 12 maanden te wachten tussen de aankondiging van afgeschafte functionaliteit en de werkelijke afschaffing, zodat klanten en onafhankelijke softwareleveranciers (ISV's) tijd hebben om te reageren op de wijziging. Het kan zijn dat een organisatie bijvoorbeeld hun bedrijfsprocessen, entiteiten en integraties nog moeten bijwerken.
 
-De afschaffing van één boekstuk is een aanzienlijke wijziging die op tal van manieren wordt doorgegeven. Als onderdeel van die communicatie zal Microsoft dit onderwerp bijwerken, een blogpost op het Microsoft Dynamics 365 Finance-blog plaatsen, het onderwerp 'Verwijderde of afgeschafte functies' bijwerken, de wijziging communiceren op de juiste Microsoft-conferenties enzovoort.
+De afschaffing van één boekstuk is een aanzienlijke wijziging die op tal van manieren wordt doorgegeven. Als onderdeel van die communicatie zal Microsoft dit artikel bijwerken, een blogpost op het Microsoft Dynamics 365 Finance-blog plaatsen, het artikel 'Verwijderde of afgeschafte functies' bijwerken, de wijziging communiceren op de juiste Microsoft-conferenties enzovoort.
 
 ## <a name="why-use-one-voucher"></a>Waarom gebruikt u Eén boekstuk?
 

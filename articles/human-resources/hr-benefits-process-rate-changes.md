@@ -1,6 +1,6 @@
 ---
 title: Wijzigingen in tarieven verwerken
-description: In dit onderwerp wordt uitgelegd hoe u wijzigingen in het vergoedingstarief in Microsoft Dynamics 365 Human Resources verwerkt.
+description: In dit artikel wordt uitgelegd hoe u wijzigingen in het vergoedingstarief in Microsoft Dynamics 365 Human Resources verwerkt.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c1eea61df6dd5fbe0b52a21944deba69928b5125
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 09714c70cb00b1a1b5dbd4613bbd70ff11d35cb2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696121"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882948"
 ---
 # <a name="process-rate-changes"></a>Wijzigingen in tarieven verwerken
 
@@ -28,7 +28,7 @@ ms.locfileid: "8696121"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp wordt beschreven hoe u wijzigingen in het vergoedingstarief in Microsoft Dynamics 365 Human Resources verwerkt wanneer er een wijziging is aangebracht in de instellingen van geschiktheidsregels in een nieuw of bestaand vergoedingsplan. Als er een nieuwe geschiktheidsregel wordt gemaakt en aan het plan wordt toegewezen, wordt u door het systeem gevraagd om de geschiktheidscontrole van medewerkers opnieuw uit te voeren om te controleren of medewerkers nu mogelijk in aanmerking komen voor het plan op basis van nieuwe geschiktheidsopties. 
+In dit artikel wordt beschreven hoe u wijzigingen in het vergoedingstarief in Microsoft Dynamics 365 Human Resources verwerkt wanneer er een wijziging is aangebracht in de instellingen van geschiktheidsregels in een nieuw of bestaand vergoedingsplan. Als er een nieuwe geschiktheidsregel wordt gemaakt en aan het plan wordt toegewezen, wordt u door het systeem gevraagd om de geschiktheidscontrole van medewerkers opnieuw uit te voeren om te controleren of medewerkers nu mogelijk in aanmerking komen voor het plan op basis van nieuwe geschiktheidsopties. 
 
 1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Verwerken** de optie **Updateverwerking voor tariefwijziging**.
 

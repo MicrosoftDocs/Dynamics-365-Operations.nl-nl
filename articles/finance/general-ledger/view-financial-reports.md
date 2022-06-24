@@ -1,6 +1,6 @@
 ---
 title: Financiële rapporten weergeven
-description: In dit onderwerp wordt beschreven hoe u financiële rapporten in Microsoft Dynamics 365 Finance kunt bekijken en verkennen. Het bevat informatie over de verschillende opties die u op financiële rapporten kunt toepassen om hun vormgeving en de gegevens die ze bevatten te wijzigen.
+description: In dit artikel wordt beschreven hoe u financiële rapporten in Microsoft Dynamics 365 Finance kunt bekijken en verkennen. Het bevat informatie over de verschillende opties die u op financiële rapporten kunt toepassen om hun vormgeving en de gegevens die ze bevatten te wijzigen.
 author: kweekley
 ms.date: 03/25/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fec130ce7b05a8e0b8182a63679cf7b20983f1d0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 2d4b28add4406b2248a2ce842072e577ecd760cd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724410"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907887"
 ---
 # <a name="view-financial-reports"></a>Financiële rapporten weergeven
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u financiële rapporten kunt bekijken en verkennen. Het bevat informatie over de verschillende opties die u op financiële rapporten kunt toepassen om hun vormgeving en de gegevens die ze bevatten te wijzigen.
+In dit artikel wordt beschreven hoe u financiële rapporten kunt bekijken en verkennen. Het bevat informatie over de verschillende opties die u op financiële rapporten kunt toepassen om hun vormgeving en de gegevens die ze bevatten te wijzigen.
 
 ## <a name="financial-reporting-overview"></a>Overzicht van financiële rapportage
 

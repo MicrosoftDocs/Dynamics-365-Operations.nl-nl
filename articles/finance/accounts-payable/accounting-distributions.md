@@ -1,6 +1,6 @@
 ---
 title: Boekhoudingsverdelingen
-description: Dit onderwerp biedt informatie over boekhoudingsverdelingen en beschrijft de beschikbare opties voor verwerking.
+description: Dit artikel biedt informatie over boekhoudingsverdelingen en beschrijft de beschikbare opties voor verwerking.
 author: sunfzam
 ms.date: 09/17/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8178836318600fd6e702d097062d30b91e6c1a
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6aa3dce4bfda7f3c9243387cd398f08e7b990b2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735572"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894195"
 ---
 # <a name="accounting-distributions"></a>Boekhoudingsverdelingen
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp biedt informatie over boekhoudingsverdelingen en beschrijft de beschikbare opties voor de verwerking hiervan. Boekhoudingsverdelingen worden gebruikt om monetaire bedragen voor een brondocument toe te wijzen aan bepaalde grootboekrekeningen. 
+Dit artikel biedt informatie over boekhoudingsverdelingen en beschrijft de beschikbare opties voor de verwerking hiervan. Boekhoudingsverdelingen worden gebruikt om monetaire bedragen voor een brondocument toe te wijzen aan bepaalde grootboekrekeningen. 
 
 Boekhoudingsverdelingen vormen een functie die in het hele programma kan worden gebruikt en die kan worden uitgebreid door elk brondocument, zoals een inkooporder, een leveranciersfactuur, een onkostennota en een vrije-tekstfactuur. Standaard wordt een standaardboekhoudingsverdeling gegenereerd voor elke brondocumentregel en monetair bedrag en wordt voorwaardelijk ingeschakeld voor wijziging. 
 

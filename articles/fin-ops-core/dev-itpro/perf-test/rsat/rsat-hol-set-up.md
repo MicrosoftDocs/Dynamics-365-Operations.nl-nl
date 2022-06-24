@@ -1,6 +1,6 @@
 ---
 title: Zelfstudie over het instellen en installeren van Regression Suite Automation Tool
-description: Dit onderwerp is een zelfstudie waarin wordt beschreven hoe u RSAT (Regression Suite Automation Tool) instelt en installeert.
+description: Dit artikel is een zelfstudie waarin wordt beschreven hoe u RSAT (Regression Suite Automation Tool) instelt en installeert.
 author: tonyafehr
 ms.date: 09/20/2019
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 5dcdd14f54b9c0ad39794ff98ede29332c246513
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: ec4ae765aaac038e6c7eff11403fb21ebd27fc2c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781986"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858585"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Zelfstudie over het instellen en installeren van Regression Suite Automation Tool
 
-Dit onderwerp is een zelfstudie waarmee u RSAT en de bijbehorende hulpprogramma's kunt instellen en gebruiken.
+Dit artikel is een zelfstudie waarmee u RSAT en de bijbehorende hulpprogramma's kunt instellen en gebruiken.
 
 [!include [banner](../../includes/banner.md)]
 
@@ -111,7 +111,7 @@ In deze zelfstudie gebruikt u de LCS-oplossing BPM (Modelleertool bedrijfsproces
 
 ## <a name="configure-the-lcs-project"></a>Het LCS-project configureren
 
-U hebt een LCS-project (Lifecycle Services) nodig voor de hoofdtestbibliotheek. LCS BPM wordt gebruikt als de hoofdbibliotheek voor uw testcases. BPM wordt gebruikt om test bibliotheken te beheren en te distribueren voor LCS-projecten. Een Microsoft-partner of onafhankelijke softwareleverancier (ISV) die testbibliotheken maakt, brengt testcases in de vorm van BPM-bibliotheken uit. In BPM worden testcases ingedeeld op bedrijfsprocessen. In BPM wordt de uitvoeringsvolgorde of -frequentie van uw testdoorloop niet bepaald. Deze details worden beheerd in Azure DevOps, zoals later in dit onderwerp wordt beschreven.  
+U hebt een LCS-project (Lifecycle Services) nodig voor de hoofdtestbibliotheek. LCS BPM wordt gebruikt als de hoofdbibliotheek voor uw testcases. BPM wordt gebruikt om test bibliotheken te beheren en te distribueren voor LCS-projecten. Een Microsoft-partner of onafhankelijke softwareleverancier (ISV) die testbibliotheken maakt, brengt testcases in de vorm van BPM-bibliotheken uit. In BPM worden testcases ingedeeld op bedrijfsprocessen. In BPM wordt de uitvoeringsvolgorde of -frequentie van uw testdoorloop niet bepaald. Deze details worden beheerd in Azure DevOps, zoals later in dit artikel wordt beschreven.  
 
 Voor uw LCS-project kunt u bestaande klantimplementaties of partnerprojecten gebruiken.
 

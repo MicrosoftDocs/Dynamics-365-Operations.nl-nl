@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08ab90d6f53dbb9eabeea3c2cf020792e8957c7b71ed27fc491008fcad114c72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a75b268f2d8341c1a6dd0d3f1bd9dcb31d9084ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727480"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884136"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Configuraties importeren voor het genereren van documenten die toepassingsgegevens bevatten
 
@@ -25,7 +25,7 @@ ms.locfileid: "6727480"
 
 Als u de stappen in deze procedure wilt voltooien, moet u eerst de procedure "ER Een configuratieprovider maken en deze als actief markeren" voltooien.
 
-De stappen in deze procedure leggen uit hoe u ER-configuraties ontwerpt om een elektronisch document te genereren. In deze procedure importeert u de vereiste ER-indelingsconfiguraties die zijn gemaakt voor het voorbeeldbedrijf, Litware, Inc., en genereert u vervolgens elektronische documenten. Deze procedure is gemaakt voor gebruikers met de toegewezen rol van systeembeheerder of elektronische aangifteontwikkelaar. Deze stappen kunnen worden voltooid met de DEMF-gegevensset. Voordat u begint, downloadt u de bestanden die worden genoemd in Help-onderwerp "Elektronische documenten genereren en toepassingsgegevens bijwerken met het ER-hulpmiddel" (generate-electronic-documents-update-application-data/) en slaat u deze op. De bestanden zijn .XML-Intrastat (model), Intrastat (toewijzing) XML- en .XML-Intrastat (indeling).
+De stappen in deze procedure leggen uit hoe u ER-configuraties ontwerpt om een elektronisch document te genereren. In deze procedure importeert u de vereiste ER-indelingsconfiguraties die zijn gemaakt voor het voorbeeldbedrijf, Litware, Inc., en genereert u vervolgens elektronische documenten. Deze procedure is gemaakt voor gebruikers met de toegewezen rol van systeembeheerder of elektronische aangifteontwikkelaar. Deze stappen kunnen worden voltooid met de DEMF-gegevensset. Voordat u begint, downloadt u de bestanden die worden genoemd in Help-artikel "Elektronische documenten genereren en toepassingsgegevens bijwerken met het ER-hulpmiddel" (generate-electronic-documents-update-application-data/) en slaat u deze op. De bestanden zijn .XML-Intrastat (model), Intrastat (toewijzing) XML- en .XML-Intrastat (indeling).
 
 1. Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.
     * Controleer of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. beschikbaar is en gemarkeerd als Actief. Als u deze configuratieprovider niet ziet, voert u eerst de stappen uit in de procedure Een configuratieprovider maken en deze als actief markeren.  

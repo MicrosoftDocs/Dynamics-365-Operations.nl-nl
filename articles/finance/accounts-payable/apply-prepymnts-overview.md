@@ -1,6 +1,6 @@
 ---
 title: Automatisch vooruitbetalingen op leveranciersfacturen toepassen
-description: In dit onderwerp wordt beschreven hoe u automatisch vooruitbetalingen op leveranciersfacturen toepast.
+description: In dit artikel wordt beschreven hoe u automatisch vooruitbetalingen op leveranciersfacturen toepast.
 author: sunfzam
 ms.date: 10/19/2021
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8583962c41a7ac5e27463f325ddc2ccd367331cc
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: 547573d187460a900df7f4927ac062bd9d456729
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358214"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900066"
 ---
 # <a name="automatically-apply-to-vendor-invoices"></a>Automatisch toepassen op leveranciersfacturen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u automatisch vooruitbetalingen op leveranciersfacturen toepast. Er kan een vooruitbetaling worden gemaakt voor een inkooporder als onderdeel van een inkoopovereenkomst. Nadat een leveranciersfactuur is ontvangen, kan de vooruitbetaling worden gebruikt om de te betalen rekeningen te vereffenen met de leveranciersfactuur. De nieuwe functie stelt het systeem in staat om automatisch inkoopordernummers op een leveranciersfactuur te gebruiken om overeenkomende vooruitbetalingen op te zoeken wanneer de leveranciersfactuur wordt geïmporteerd.
+In dit artikel wordt beschreven hoe u automatisch vooruitbetalingen op leveranciersfacturen toepast. Er kan een vooruitbetaling worden gemaakt voor een inkooporder als onderdeel van een inkoopovereenkomst. Nadat een leveranciersfactuur is ontvangen, kan de vooruitbetaling worden gebruikt om de te betalen rekeningen te vereffenen met de leveranciersfactuur. De nieuwe functie stelt het systeem in staat om automatisch inkoopordernummers op een leveranciersfactuur te gebruiken om overeenkomende vooruitbetalingen op te zoeken wanneer de leveranciersfactuur wordt geïmporteerd.
 
 Als er vooruitbetalingen worden gevonden en kunnen worden toegepast, worden regels toegevoegd aan de bestaande factuurregels om de vooruitbetalingen toe te passen. Tijdens het factuurvereffeningsproces wordt nooit rekening gehouden met de vooruitbetalingregels.
 

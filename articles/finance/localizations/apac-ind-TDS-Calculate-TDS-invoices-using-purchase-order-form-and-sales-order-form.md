@@ -1,6 +1,6 @@
 ---
 title: TDS-facturen berekenen met inkooporderformulier en verkooporderformulier
-description: Dit onderwerp geeft een overzicht van de stappen voor het berekenen van TDS (belasting ingehouden op bron) op verschillende typen facturen.
+description: Dit artikel geeft een overzicht van de stappen voor het berekenen van TDS (belasting ingehouden op bron) op verschillende typen facturen.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 6a7e670c38a1bce6b8f6771b4be49e56e3aa785a
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 72883741ee7eed6b0296736c80dd648c882ae53e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711943"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853280"
 ---
 # <a name="calculate-tds-invoices-using-purchase-order-form-and-sales-order-form"></a>TDS-facturen berekenen met inkooporderformulier en verkooporderformulier
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp geeft een overzicht van de stappen voor het berekenen van TDS (belasting ingehouden op bron) op verschillende typen facturen met behulp van de pagina's **Inkooporder**, **Inkoopjournaal**, **Afroeporder** en **Verkooporder**.
+Dit artikel geeft een overzicht van de stappen voor het berekenen van TDS (belasting ingehouden op bron) op verschillende typen facturen met behulp van de pagina's **Inkooporder**, **Inkoopjournaal**, **Afroeporder** en **Verkooporder**.
 
 1. Maak een inkooporder, inkoopjournaal, afroeporder voor inkoop of een verkooporder op de weergegeven pagina. Voer de vereiste gegevens in.
 

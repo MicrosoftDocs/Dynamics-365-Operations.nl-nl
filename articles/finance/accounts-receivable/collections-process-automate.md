@@ -1,6 +1,6 @@
 ---
 title: Automatisering van incassoproces
-description: In dit onderwerp wordt beschreven hoe u strategieën voor het incassoproces instelt waarmee automatisch klantfacturen worden geïdentificeerd waarvoor een e-mailherinnering of incasso-activiteit vereist is of een aanmaningsbrief naar de klant moet worden verzonden.
+description: In dit artikel wordt beschreven hoe u strategieën voor het incassoproces instelt waarmee automatisch klantfacturen worden geïdentificeerd waarvoor een e-mailherinnering of incasso-activiteit vereist is of een aanmaningsbrief naar de klant moet worden verzonden.
 author: JodiChristiansen
 ms.date: 03/12/2021
 ms.topic: article
@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 59db852024faf457db7ac145b67619b31555aaf2
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 9ec749db197b4d04ee2e99ac7a16f4f2120c6707
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486864"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946142"
 ---
 # <a name="collections-process-automation"></a>Automatisering van incassoproces
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u strategieën voor het incassoproces instelt waarmee automatisch klantfacturen worden geïdentificeerd waarvoor een e-mailherinnering of incasso-activiteit (zoals een telefoongesprek) vereist is of een aanmaningsbrief naar de klant moet worden verzonden. 
+In dit artikel wordt beschreven hoe u strategieën voor het incassoproces instelt waarmee automatisch klantfacturen worden geïdentificeerd waarvoor een e-mailherinnering of incasso-activiteit (zoals een telefoongesprek) vereist is of een aanmaningsbrief naar de klant moet worden verzonden. 
 
 Organisaties besteden vaak veel tijd aan het doorzoeken van verouderde balansrapporten, klantrekeningen en openstaande facturen om te bepalen met welke klanten contact moet worden opgenomen over een openstaande factuur of een openstaand rekeningsaldo. Dit onderzoek kost tijd die de incassomedewerker ook had kunnen besteden aan het communiceren met klanten om achterstallige saldi te innen of factuurgeschillen te verhelpen. Door het incassoproces te automatiseren, kunt u een strategie instellen voor uw incassoproces. Zo kunt u incasso-activiteiten consistent toepassen door aangepaste e-mailherinneringen of een geprogrammeerd proces voor het verzenden van aanmaningen te bieden. 
 

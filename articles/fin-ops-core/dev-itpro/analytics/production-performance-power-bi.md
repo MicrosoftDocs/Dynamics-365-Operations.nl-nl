@@ -1,6 +1,6 @@
 ---
 title: Power BI-inhoud Productieprestaties
-description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud Productieprestaties.
+description: In dit artikel wordt beschreven wat is opgenomen in de Power BI-inhoud Productieprestaties.
 author: AndersGirke
 ms.date: 12/19/2017
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 940e49b43ec1dba0917c67ad6ef4562351d175bcb1c0be7f98d00e73371e5346
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf0d2bdc37efb66f7aee40f237413a2ef5d9f9f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761411"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881456"
 ---
 # <a name="production-performance-power-bi-content"></a>Power BI-inhoud Productieprestaties
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven wat is opgenomen in de Microsoft Power BI-inhoud **Productieprestaties**. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+In dit artikel wordt beschreven wat is opgenomen in de Microsoft Power BI-inhoud **Productieprestaties**. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 
 ## <a name="overview"></a>Overzicht
 

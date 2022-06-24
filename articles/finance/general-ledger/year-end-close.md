@@ -1,6 +1,6 @@
 ---
 title: Jaarafsluiting
-description: In dit onderwerp worden de vereiste instellingen en stappen beschreven voor het uitvoeren van het jaarafsluitingsproces van het grootboek.
+description: In dit artikel worden de vereiste instellingen en stappen beschreven voor het uitvoeren van het jaarafsluitingsproces van het grootboek.
 author: kweekley
 ms.date: 12/06/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 247c3286124da946937c8afd248a275e5a745044
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 032c572ec7b29bb6b2823ddde0c4fa76e5f8fcf1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725228"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883208"
 ---
 # <a name="year-end-close"></a>Jaarafsluiting
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de vereiste instellingen en stappen beschreven voor het uitvoeren van het jaarafsluitingsproces van het grootboek.
+In dit artikel worden de vereiste instellingen en stappen beschreven voor het uitvoeren van het jaarafsluitingsproces van het grootboek.
 
 Aan het einde van een boekjaar moet u het jaarafsluitingsproces uitvoeren om beginsaldi naar het nieuwe jaar over te brengen. De meeste organisaties voeren het jaarafsluitingsproces meerdere keren uit. Bij de eerste uitvoering worden de saldi naar het nieuwe fiscale jaar verplaatst. Het proces kan vervolgens opnieuw of zo vaak als nodig is worden uitgevoerd om de saldi van correctieposten naar het nieuwe fiscale jaar te verplaatsen.
 

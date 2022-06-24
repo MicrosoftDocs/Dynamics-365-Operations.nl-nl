@@ -1,6 +1,6 @@
 ---
 title: Poolse Intrastat
-description: Dit onderwerp bevat informatie over Intrastat-aangifte in Polen.
+description: Dit artikel bevat informatie over Intrastat-aangifte in Polen.
 author: andosip
 ms.date: 11/09/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: ''
-ms.openlocfilehash: fbacc204208e536291035c6f9bb2ef4fa4038f58
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 45bd1d3c90d0a8a8ad5db6d0b80c5eed0aa489e8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566086"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871096"
 ---
 # <a name="polish-intrastat"></a>Poolse Intrastat
 
@@ -394,7 +394,7 @@ Importeer de laatste versie van de volgende ER-configuraties (Elektronische Rapp
 
 10. Selecteer in het actievenster **Uitvoer** > **Rapport**.
 11. Selecteer in het dialoogvenster **Intrastat-rapport** op het sneltabblad **Parameters** in de sectie **Datum** in het veld **Begindatum** de eerste dag van de huidige maand.
-12. Stel in het gedeelte **Exportopties** de optie **Bestand** **genereren** in op **Ja**. Voer in het veld **Bestandsnaam** vervolgens de vereiste naam in.
+12. Stel in het gedeelte **Exportopties** de optie **Bestand genereren** in op **Ja**. Voer in het veld **Bestandsnaam** vervolgens de vereiste naam in.
 13. Stel de optie **Rapport genereren** in op **Ja**. Voer in het veld **Bestandsnaam rapport** vervolgens de vereiste naam in.
 14. Selecteer **Verzendingen** in het veld **Richting**.
 15. Controleer in de sectie **Bestandsindeling toewijzen** of het veld **Aangiftetype** is ingesteld op **Aangifte**.

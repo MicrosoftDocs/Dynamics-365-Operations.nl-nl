@@ -1,6 +1,6 @@
 ---
-title: Lege lijst met btw-functies in parameters voor belastingberekening
-description: In dit onderwerp wordt uitgelegd hoe u een probleem oplost waarbij de lijst met btw-functies op de pagina Parameters van belastingberekening leeg is.
+title: Lege lijst met belastingfuncties in parameters voor belastingberekening
+description: In dit artikel wordt uitgelegd hoe u een probleem oplost waarbij de lijst met btw-functies op de pagina Parameters van belastingberekening leeg is.
 author: wangchen
 ms.date: 03/04/2022
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: ef8158c2ada18e7d132eebbedef559b3f80ab19f
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: 0d9286ec313a270da86181ff80ddfd690a757c9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612284"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869947"
 ---
 # <a name="empty-tax-feature-list-in-tax-calculation-parameters"></a>Lege lijst met btw-functies in parameters voor belastingberekening
 
@@ -46,7 +46,7 @@ Om de tenant-id voor uw Finance-omgeving te vinden, volgt u dezelfde stappen als
 
 ## <a name="resolution"></a>Oplossing
 
-Als de twee tenant-id's verschillen, ondervindt u het probleem dat in dit onderwerp wordt beschreven. Als ze hetzelfde zijn, is er sprake van een niet-gerelateerd probleem. In dat geval is het raadzaam om contact op te nemen met Microsoft Ondersteuning.
+Als de twee tenant-id's verschillen, ondervindt u het probleem dat in dit artikel wordt beschreven. Als ze hetzelfde zijn, is er sprake van een niet-gerelateerd probleem. In dat geval is het raadzaam om contact op te nemen met Microsoft Ondersteuning.
 
 ### <a name="solution-1"></a>Oplossing 1
 

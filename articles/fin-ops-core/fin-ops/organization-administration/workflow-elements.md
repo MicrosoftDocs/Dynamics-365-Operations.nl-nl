@@ -1,6 +1,6 @@
 ---
 title: Workflowelementen
-description: In dit onderwerp worden de diverse elementen beschreven waaruit een workflow bestaat.
+description: In dit artikel worden de diverse elementen beschreven waaruit een workflow bestaat.
 author: ChrisGarty
 ms.date: 11/03/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9491b8ee6da69ba93c830bf0721c1d58fd4385b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e145a8ebb082aa2d59c9a05a0cbbf38e9936bae0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070445"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900095"
 ---
 # <a name="workflow-elements"></a>Workflowelementen
 
@@ -28,7 +28,7 @@ ms.locfileid: "8070445"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-In dit onderwerp worden de diverse elementen beschreven waaruit een workflow bestaat.
+In dit artikel worden de diverse elementen beschreven waaruit een workflow bestaat.
 
 Een workflow bestaat uit elementen. In de hier volgende secties wordt elk type element beschreven.
 

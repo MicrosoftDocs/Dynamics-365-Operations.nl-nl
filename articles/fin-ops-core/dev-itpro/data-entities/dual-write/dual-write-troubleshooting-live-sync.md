@@ -1,6 +1,6 @@
 ---
 title: Problemen met live synchronisatie oplossen
-description: Dit onderwerp bevat informatie over het oplossen van problemen met live synchronisatie.
+description: Dit artikel bevat informatie over het oplossen van problemen met live synchronisatie.
 author: RamaKrishnamoorthy
 ms.date: 08/19/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: df184decdfa900ccb5c2070575e55052b9dfc547
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 9d27331b940a95168810c2f1ec4ae240a9df93a8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062358"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896700"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Problemen met live synchronisatie oplossen
 
@@ -22,10 +22,10 @@ ms.locfileid: "8062358"
 
 
 
-Dit onderwerp bevat informatie voor het oplossen van problemen met de integratie van Twee keer wegschrijven tussen apps voor financiële en bedrijfsactiviteiten en Microsoft Dataverse. Dit onderwerp bevat specifieke informatie over het oplossen van problemen met live synchronisatie.
+Dit artikel bevat informatie voor het oplossen van problemen met de integratie van Twee keer wegschrijven tussen apps voor financiële en bedrijfsactiviteiten en Microsoft Dataverse. Dit onderwerp bevat specifieke informatie over het oplossen van problemen met live synchronisatie.
 
 > [!IMPORTANT]
-> Bij sommige problemen die in dit onderwerp worden beschreven, is mogelijk de rol van systeembeheerder vereist of de inloggegevens van de tenantbeheerder van de Microsoft Azure Active Directory (Azure AD). In elk gedeelte wordt uitgelegd of een specifieke rol of specifieke inloggegevens vereist zijn.
+> Bij sommige problemen die in dit artikel worden beschreven, is mogelijk de rol van systeembeheerder vereist of de inloggegevens van de tenantbeheerder van de Microsoft Azure Active Directory (Azure AD). In elk gedeelte wordt uitgelegd of een specifieke rol of specifieke inloggegevens vereist zijn.
 
 ## <a name="live-synchronization-shows-an-error-when-you-create-a-row"></a>Bij live synchronisatie wordt een fout weergegeven wanneer u een rij aanmaakt
 

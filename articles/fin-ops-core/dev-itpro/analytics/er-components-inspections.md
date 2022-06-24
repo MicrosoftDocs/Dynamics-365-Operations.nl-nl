@@ -1,6 +1,6 @@
 ---
 title: Het geconfigureerde ER-onderdeel inspecteren om runtimeproblemen te voorkomen
-description: In dit onderwerp wordt uitgelegd hoe u de geconfigureerde onderdelen voor elektronische rapportage (ER) kunt inspecteren om runtimeproblemen te voorkomen.
+description: In dit artikel wordt uitgelegd hoe u de geconfigureerde onderdelen voor elektronische rapportage (ER) kunt inspecteren om runtimeproblemen te voorkomen.
 author: NickSelin
 ms.date: 01/03/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c63ffc6316d21d36bb2aad57194b8aa1c477607e
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: c30f1a0d6ca4a50645bada39abbbf2f58777abb8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074786"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864831"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Het geconfigureerde ER-onderdeel inspecteren om runtimeproblemen te voorkomen
 
@@ -80,7 +80,7 @@ In ER worden de volgende categorieën inspecties gebruikt om consistentiecontrol
 
 ## <a name="list-of-inspections"></a>Lijst met inspecties
 
-De volgende tabel biedt een overzicht van de inspecties die ER biedt. Als u meer wilt weten over deze inspecties, gebruikt u de koppelingen in de eerste kolom om naar de desbetreffende secties van dit onderwerp te gaan. In deze secties worden de typen onderdelen beschreven waarvoor ER inspecties biedt en wordt aangegeven hoe u ER-onderdelen opnieuw kunt configureren om problemen te helpen voorkomen.
+De volgende tabel biedt een overzicht van de inspecties die ER biedt. Als u meer wilt weten over deze inspecties, gebruikt u de koppelingen in de eerste kolom om naar de desbetreffende secties van dit artikel te gaan. In deze secties worden de typen onderdelen beschreven waarvoor ER inspecties biedt en wordt aangegeven hoe u ER-onderdelen opnieuw kunt configureren om problemen te helpen voorkomen.
 
 <table>
 <thead>

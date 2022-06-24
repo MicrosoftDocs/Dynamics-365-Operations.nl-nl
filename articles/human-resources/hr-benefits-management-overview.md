@@ -1,6 +1,6 @@
 ---
 title: Overzicht van Vergoedingenbeheer
-description: In dit onderwerp wordt een overzicht gegeven van de functie Vergoedingenbeheer in Dynamics 365 Human Resources.
+description: In dit artikel wordt een overzicht gegeven van de functie Vergoedingenbeheer in Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 12/06/2021
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e53a68aed2e4b1e0b0d7797e7326e223c47443f4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f008c273a3088353c33ae8c4b0b3cbc6b274fbcf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687186"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901142"
 ---
 # <a name="benefits-management-overview"></a>Overzicht van Vergoedingenbeheer
 
@@ -44,7 +44,7 @@ Als u toegang wilt tot de demogegevens, moet u de sandbox-omgeving opnieuw imple
 
 ## <a name="enable-benefits-management"></a>Vergoedingenbeheer inschakelen
 
-In dit onderwerp wordt beschreven hoe u functies inschakelt in Human Resources. Ook wordt uitgelegd welke bestaande functies in Human Resources door Vergoedingenbeheer worden vervangen en welke functies worden uitgeschakeld nadat u Vergoedingenbeheer hebt ingeschakeld.
+In dit artikel wordt beschreven hoe u functies inschakelt in Human Resources. Ook wordt uitgelegd welke bestaande functies in Human Resources door Vergoedingenbeheer worden vervangen en welke functies worden uitgeschakeld nadat u Vergoedingenbeheer hebt ingeschakeld.
 
 > [!IMPORTANT]
 > Nadat u Vergoedingenbeheer in een **productieomgeving** hebt ingeschakeld, kunt u dit niet meer uitschakelen. U wordt aangeraden Vergoedingenbeheer in een **sandbox**-omgeving in te schakelen en te testen voordat u dit in een **productieomgeving** activeert. Er zijn belangrijke verschillen tussen de verouderde vergoedingsfunctionaliteit en de nieuwe functionaliteit voor Vergoedingenbeheer. Hiervoor zijn aanvullende instellingen nodig die moeten worden getest voordat ze in de productie worden gebracht.

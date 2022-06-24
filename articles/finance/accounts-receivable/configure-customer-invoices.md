@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 069ada071fe6a7d3e22ad6aa45e3c2f06a9f4b31
-ms.sourcegitcommit: 5a4b8ce4a7ae82c0ef22d2223c11c6b55f048cdd
+ms.openlocfilehash: 93d25a260cfc94e898ef50c618b2cbc640c963bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/14/2022
-ms.locfileid: "8756958"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876320"
 ---
 # <a name="create-a-customer-invoice"></a>Een klantfactuur maken
 
@@ -33,11 +33,8 @@ Een **vrije-tekstfactuur** is niet gerelateerd aan een verkooporder. Deze factuu
 Ga voor meer informatie naar:
 
 [Vrije-tekstfacturen maken](../accounts-receivable/create-free-text-invoice-new.md)
-
 [Een sjabloon voor vrije-tekstfacturen maken](../accounts-receivable/create-free-text-invoice-template-new.md)
-
 [Sjabloon voor vrije-tekstfacturen toewijzen aan een klant](tasks/assign-free-text-invoice-template-customer.md)
-
 [Terugkerende vrije-tekstfacturen genereren en boeken](tasks/post-recurring-free-text-invoices.md)
 
 
@@ -91,8 +88,8 @@ U kunt de splitsing van klantfacturen voor verkooporders configureren op site of
  - Selecteer de optie **Splitsen op basis van factuurlocatie** om één factuur per site te maken. 
  - Selecteer de optie **Splitsen op basis van factuurleveringsgegevens** om één factuur per afleveradres voor verkooporderregels te maken. 
 
-## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>Naar opbrengstrekening boeken voor verkooporderfactuurregels die geen prijs bevatten
-U hebt de mogelijkheid om de **opbrengstrekening** in het **grootboek** bij te werken voor verkooporderregels zonder prijs. Als u deze informatie wilt instellen of weergeven, gaat u naar de parameter **Naar opbrengstrekening boeken voor verkooporderfactuurregels met nulprijs** op het tabblad **Grootboek en btw** van de pagina **Parameters van klanten**. (**Klanten > Instellingen > Parameters van Klanten**). Selecteer **Ja** om de **opbrengstrekening** voor verkooporderfactuurregels zonder prijs bij te werken. Een opbrengstrekening wordt gedefinieerd op de parameterpagina **Voorraadboeking** op het tabblad **Verkooporder** voor de rekeningdefinitie. Als deze optie niet is geselecteerd, worden regels zonder prijsgegevens niet naar de **opbrengstrekening** geboekt.
+## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>Naar opbrengstrekening boeken voor verkooporderfactuurregels die geen prijs en kosten bevatten
+U hebt de mogelijkheid om de **opbrengstrekening** in het **grootboek** bij te werken voor verkooporderregels zonder prijs en kosten. Als u deze informatie wilt instellen of weergeven, gaat u naar de parameter **Naar opbrengstrekening boeken voor verkooporderfactuurregels met nulprijs en geen kosten** op het tabblad **Grootboek en btw** van de pagina **Parameters van klanten**. (**Klanten > Instellingen > Parameters van Klanten**). Selecteer **Ja** om de **opbrengstrekening** voor verkooporderfactuurregels zonder prijs en kosten bij te werken. Als deze optie is geselecteerd, bevat het boekstuk 0,00 boekingen voor de boekingstypen **Klantsaldo** en **Opbrengst**. Een opbrengstrekening wordt gedefinieerd op de parameterpagina **Voorraadboeking** op het tabblad **Verkooporder** voor de rekeningdefinitie. Als deze optie niet is geselecteerd, worden regels zonder prijs- of kostengegevens niet naar de **opbrengstrekening** geboekt. In plaats daarvan bevat het boekstuk een vermelding van 0,00 voor het boekingstype **Klantsaldo**.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Aanvullende instellingen die het boekingsgedrag wijzigen
 De volgende velden wijzigen het gedrag van het boekingsproces.

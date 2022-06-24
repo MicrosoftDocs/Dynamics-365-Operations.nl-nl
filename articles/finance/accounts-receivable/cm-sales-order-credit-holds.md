@@ -1,6 +1,6 @@
 ---
 title: Kredietblokkeringen voor verkooporders
-description: In dit onderwerp wordt beschreven hoe u regels instelt om een kredietblokkering voor een verkooporder op te geven.
+description: In dit artikel wordt beschreven hoe u regels instelt om een kredietblokkering voor een verkooporder op te geven.
 author: JodiChristiansen
 ms.date: 07/20/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2d8966f993e7ca82b10a2ef5a023256a05682980
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 44560425056ee1726f21a4279f36c2e718956814
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734328"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856823"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Kredietblokkeringen voor verkooporders
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-In dit onderwerp wordt beschreven hoe u regels instelt om een kredietblokkering voor een verkooporder op te geven. De blokkeringsregels voor kredietbeheer kunnen van toepassing zijn op een individuele klant of op een groep klanten. Blokkeringsregels definiëren reacties op de volgende omstandigheden:
+In dit artikel wordt beschreven hoe u regels instelt om een kredietblokkering voor een verkooporder op te geven. De blokkeringsregels voor kredietbeheer kunnen van toepassing zijn op een individuele klant of op een groep klanten. Blokkeringsregels definiëren reacties op de volgende omstandigheden:
 
 1. Aantal dagen achterstallig
 2. Status van rekening

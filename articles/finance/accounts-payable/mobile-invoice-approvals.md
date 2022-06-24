@@ -1,42 +1,42 @@
 ---
 title: Mobiele factuurgoedkeuringen
-description: Dit onderwerp is bedoeld om een praktische aanpak te verschaffen voor het ontwerpen van mobiele scenario's door factuurgoedkeuringen van leveranciers voor mobiel gebruik als praktijkvoorbeeld te nemen.
+description: Dit artikel is bedoeld om een praktische aanpak te verschaffen voor het ontwerpen van mobiele scenario's door factuurgoedkeuringen van leveranciers voor mobiel gebruik als praktijkvoorbeeld te nemen.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 83d95ef6d9fcff060ac992b11ab5773af075fea5409e43430b4826dc097570c7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f635891e3d92fbd5978e10fe01eb67c0a28542c5
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737350"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946269"
 ---
 # <a name="mobile-invoice-approvals"></a>Mobiele factuurgoedkeuringen
 
 [!include [banner](../includes/banner.md)]
 
-Met de mobiele mogelijkheden kan een zakelijke gebruiker mobiele ervaringen ontwerpen. Voor geavanceerde scenario's kunnen ontwikkelaars met het platform de mogelijkheden desgewenst ook uitbreiden. De meest effectieve manier om een aantal van de nieuwe concepten over mobiele mogelijkheden te leren is het proces voor het ontwerpen van enkele scenario's te doorlopen. Dit onderwerp is bedoeld om een praktische aanpak te verschaffen voor het ontwerpen van mobiele scenario's door factuurgoedkeuringen van leveranciers voor mobiel gebruik als praktijkvoorbeeld te nemen. Aan de hand van dit onderwerp kunt u andere variaties van de scenario's ontwerpen en kunt u de informatie in dit onderwerp ook toepassen op andere scenario's die niet zijn gerelateerd aan facturen van leveranciers.
+Met de mobiele mogelijkheden kan een zakelijke gebruiker mobiele ervaringen ontwerpen. Voor geavanceerde scenario's kunnen ontwikkelaars met het platform de mogelijkheden desgewenst ook uitbreiden. De meest effectieve manier om een aantal van de nieuwe concepten over mobiele mogelijkheden te leren is het proces voor het ontwerpen van enkele scenario's te doorlopen. Dit artikel is bedoeld om een praktische aanpak te verschaffen voor het ontwerpen van mobiele scenario's door factuurgoedkeuringen van leveranciers voor mobiel gebruik als praktijkvoorbeeld te nemen. Aan de hand van dit artikel kunt u andere variaties van de scenario's ontwerpen en kunt u de informatie in dit onderwerp ook toepassen op andere scenario's die niet zijn gerelateerd aan facturen van leveranciers.
 
 ## <a name="prerequisites"></a>Vereisten
 
-| Vereiste                                                                                            | Omschrijving                                                                                                                                                          |
-|---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Vereiste                                                                                            | Description                       |
+|---------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | Vooraf gelezen mobiel handboek                                                                                |[Mobiel platform](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 Finance                                                                              | Een omgeving met versie 1611 en Platformupdate 3 (november 2016)                   |
 | Installeer hotfix KB 3204341.                                                                              | Taakrecorder kan onterecht twee Sluiten-opdrachten voor vervolgkeuzelijstdialoogvensters registreren. Dit is opgenomen in Platformupdate 3 (update van november 2016). |
 | Installeer hotfix KB 3207800.                                                                              | Met deze hotfix kunnen bijlagen worden weergegeven op de mobiele client. Dit is opgenomen in Platformupdate 3 (update van november 2016).           |
 | Installeer hotfix KB 3208224.                                                                              | De toepassingscode voor de mobiele toepassing voor leveranciersfactuurgoedkeuring. Dit is opgenomen in versie 7.0.1 (mei 2016).                          |
-| Een Android of iOS of een Windows-apparaat waarop de mobiele app is geïnstalleerd. | Zoek naar de app in de juiste store voor mobiele apps.                                                                                                                     |
+| Een Android of iOS of een Windows-apparaat waarop de mobiele app is geïnstalleerd. | Zoek naar de app in de juiste store voor mobiele apps.                            |
 
 ## <a name="introduction"></a>Inleiding
 Voor mobiele goedkeuringen van leveranciersfacturen zijn de drie hotfixes vereist die worden vermeld in de sectie 'Vereisten'. Deze hotfixes verschaffen geen werkgebied voor de factuurgoedkeuringen. Als u wilt weten wat een werkgebied is in de context van mobiel gebruik, leest u het mobiele handboek dat wordt vermeld in de sectie 'Vereisten'. Het werkgebied voor factuurgoedkeuringen moet worden ontworpen. 
@@ -51,11 +51,11 @@ Elke organisatie organiseert en definieert bedrijfsprocessen op een andere manie
     -   Bevatten de facturen ook boekhoudingsverdelingen in de factuurkoptekst? In dat geval moeten deze boekhoudingsverdelingen dan beschikbaar zijn op het apparaat?
 
     > [!NOTE]
-    > In dit onderwerp wordt niet uitgelegd hoe boekhoudingsverdelingen kunnen worden bewerkt, omdat deze functionaliteit momenteel niet wordt ondersteund voor mobiele scenario's.
+    > In dit artikel wordt niet uitgelegd hoe boekhoudingsverdelingen kunnen worden bewerkt, omdat deze functionaliteit momenteel niet wordt ondersteund voor mobiele scenario's.
 
 -   Willen gebruikers bijlagen voor de factuur op het apparaat zien?
 
-Het ontwerp van de mobiele ervaring voor factuurgoedkeuringen verschilt, afhankelijk van de antwoorden op deze vragen. Het doel is de gebruikerservaring te optimaliseren voor het bedrijfsproces op mobiele apparaten in een organisatie. In de rest van dit onderwerp bekijken we twee scenariovariaties die zijn gebaseerd op verschillende antwoorden op de voorgaande vragen. 
+Het ontwerp van de mobiele ervaring voor factuurgoedkeuringen verschilt, afhankelijk van de antwoorden op deze vragen. Het doel is de gebruikerservaring te optimaliseren voor het bedrijfsproces op mobiele apparaten in een organisatie. In de rest van dit artikel bekijken we twee scenariovariaties die zijn gebaseerd op verschillende antwoorden op de voorgaande vragen. 
 
 Zorg er als algemene richtlijn voor dat u tijdens het werken met de mobiele ontwerper de wijzigingen ´publiceert´ om te voorkomen dat de updates verloren gaan.
 

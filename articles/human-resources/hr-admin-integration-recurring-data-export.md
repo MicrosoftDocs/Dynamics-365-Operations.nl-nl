@@ -1,6 +1,6 @@
 ---
 title: Een app voor het exporteren van terugkerende gegevens maken
-description: In dit onderwerp wordt beschreven hoe u in Microsoft Azure een logische app kunt maken waarmee gegevens vanuit Microsoft Dynamics 365 Human Resources worden geëxporteerd volgens een gepland terugkeerpatroon.
+description: In dit artikel wordt beschreven hoe u in Microsoft Azure een logische app kunt maken waarmee gegevens vanuit Microsoft Dynamics 365 Human Resources worden geëxporteerd volgens een gepland terugkeerpatroon.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c53adc56c19acae05904edcf4109a134566d30b7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9c840dbf4f717da3359640ee5c8231ccd129ebb2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688766"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875824"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Een app voor het exporteren van terugkerende gegevens maken
 
@@ -28,7 +28,7 @@ ms.locfileid: "8688766"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp wordt beschreven hoe u in Microsoft Azure een logische app kunt maken waarmee gegevens vanuit Microsoft Dynamics 365 Human Resources worden geëxporteerd volgens een gepland terugkeerpatroon. In de zelfstudie wordt gebruikgemaakt van de REST-API (Application Programming Interface) in het DMF-pakket van Human Resources om de gegevens te exporteren. Nadat de gegevens zijn geëxporteerd, wordt het geëxporteerde gegevenspakket door de logische app opgeslagen in een map op Microsoft OneDrive voor Bedrijven.
+In dit artikel wordt beschreven hoe u in Microsoft Azure een logische app kunt maken waarmee gegevens vanuit Microsoft Dynamics 365 Human Resources worden geëxporteerd volgens een gepland terugkeerpatroon. In de zelfstudie wordt gebruikgemaakt van de REST-API (Application Programming Interface) in het DMF-pakket van Human Resources om de gegevens te exporteren. Nadat de gegevens zijn geëxporteerd, wordt het geëxporteerde gegevenspakket door de logische app opgeslagen in een map op Microsoft OneDrive voor Bedrijven.
 
 ## <a name="business-scenario"></a>Bedrijfsscenario
 

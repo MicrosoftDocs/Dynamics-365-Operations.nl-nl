@@ -1,6 +1,6 @@
 ---
 title: Opslag van ouderdomsgegevens van klanten
-description: In dit onderwerp wordt het proces beschreven waarbij externe opslag wordt gebruikt voor ouderdomsgegevens van klanten. U kunt het opslagproces voor ouderdomsgegevens van klanten uitvoeren om de uitvoer beschikbaar te maken voor export naar een extern systeem.
+description: In dit artikel wordt het proces beschreven waarbij externe opslag wordt gebruikt voor ouderdomsgegevens van klanten. U kunt het opslagproces voor ouderdomsgegevens van klanten uitvoeren om de uitvoer beschikbaar te maken voor export naar een extern systeem.
 author: JodiChristiansen
 ms.date: 10/27/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1af4b4cbf503369565ee64ad8889ee9e59a92b3f
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d7a66485cc9a538f5c3999009b6dbe295d7a5b9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735516"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894137"
 ---
 # <a name="customer-aging-data-storage"></a>Opslag van ouderdomsgegevens van klanten
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt het proces beschreven waarbij externe opslag wordt gebruikt voor ouderdomsgegevens van klanten. In Microsoft Dynamics 365 Finance kunt u het **opslagproces voor ouderdomsgegevens van klanten** uitvoeren om de uitvoer beschikbaar te maken voor export naar een extern systeem. Wanneer u het proces uitgevoerd, zijn de opties voor naar ouderdom gerangschikte rapporten die beschikbaar zijn in het systeem gelijk aan de opties die beschikbaar zijn voor externe systemen. De details worden altijd opgenomen in de geëxporteerde gegevens.
+In dit artikel wordt het proces beschreven waarbij externe opslag wordt gebruikt voor ouderdomsgegevens van klanten. In Microsoft Dynamics 365 Finance kunt u het **opslagproces voor ouderdomsgegevens van klanten** uitvoeren om de uitvoer beschikbaar te maken voor export naar een extern systeem. Wanneer u het proces uitgevoerd, zijn de opties voor naar ouderdom gerangschikte rapporten die beschikbaar zijn in het systeem gelijk aan de opties die beschikbaar zijn voor externe systemen. De details worden altijd opgenomen in de geëxporteerde gegevens.
 
 Het kan helpen ouderdomsgegevens van klanten beschikbaar te maken voor opslag in gevallen waarin de uitvoer veel klanten en/of transacties bevat. Als er een time-out optreedt voor het bestaande rapport **Naar ouderdom gerangschikt rapport voor klanten** omdat er te veel gegevens zijn om af te drukken, biedt deze functie een alternatieve manier om dezelfde gegevens op te halen.
 

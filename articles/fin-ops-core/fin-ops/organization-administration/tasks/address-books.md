@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 666ecc5b4e0df9ed518e8e9dabc1babd442508bc
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: 34851d17e08c56d2972b5fed558ae1fc19fd5ede
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487608"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880985"
 ---
 # <a name="configure-address-books"></a>Adresboeken configureren
 
 [!include [banner](../../includes/banner.md)]
 
-Gebruik deze procedure en de beslissingen die u hebt genomen in het onderwerp De configuratie van het globale adresboek en aanvullende adresboeken plannen om aanvullende adresboeken in te stellen voor uw organisatie.
+Gebruik deze procedure en de beslissingen die u hebt genomen in het artikel De configuratie van het globale adresboek en aanvullende adresboeken plannen om aanvullende adresboeken in te stellen voor uw organisatie.
 
 Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF.
 

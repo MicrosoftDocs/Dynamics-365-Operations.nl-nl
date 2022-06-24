@@ -1,6 +1,6 @@
 ---
 title: Journaalboeking mislukt door onevenwichtigheid
-description: In dit onderwerp wordt uitgelegd waarom debet- en credittransacties mogelijk niet in evenwicht zijn in boekstuktransacties, waardoor de transacties niet kunnen worden geboekt. Het onderwerp bevat ook stappen voor het oplossen van het probleem.
+description: In dit artikel wordt uitgelegd waarom debet- en credittransacties mogelijk niet in evenwicht zijn in boekstuktransacties, waardoor de transacties niet kunnen worden geboekt. Het artikel bevat ook stappen voor het oplossen van het probleem.
 author: kweekley
 ms.date: 08/03/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-8-03
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 07408e608496dcc19562b866449b3b27f5f80edd
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: f5afded3d5c42f8dab465b668e4c1fcdaed8c215
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719927"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861324"
 ---
 # <a name="journal-posting-failure-because-of-imbalance"></a>Journaalboeking mislukt door onevenwichtigheid
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd waarom debet- en credittransacties mogelijk niet in evenwicht zijn in boekstuktransacties, waardoor de transacties niet kunnen worden geboekt. Het onderwerp bevat ook stappen voor het oplossen van het probleem.
+In dit artikel wordt uitgelegd waarom debet- en credittransacties mogelijk niet in evenwicht zijn in boekstuktransacties, waardoor de transacties niet kunnen worden geboekt. Het artikel bevat ook stappen voor het oplossen van het probleem.
 
 ## <a name="symptom"></a>Symptoom
 

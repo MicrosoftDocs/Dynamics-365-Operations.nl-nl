@@ -1,6 +1,6 @@
 ---
 title: Compensatie Power BI-inhoud
-description: In dit onderwerp wordt Power BI-inhoud voor Compensatie besproken. Er wordt uitgelegd hoe u rapporten kunt openen en u vindt informatie over het gebruikte gegevensmodel.
+description: In dit artikel wordt Power BI-inhoud voor Compensatie besproken. Er wordt uitgelegd hoe u rapporten kunt openen en u vindt informatie over het gebruikte gegevensmodel.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 549111dab1b6d3b66567801ae787a680a04b18e20e286e1a59d1ab388bf2a4f7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a8bc9be91a7538c3d50163832d5d4957724cd8fb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763591"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897183"
 ---
 # <a name="compensation-power-bi-content"></a>Compensatie Power BI-inhoud
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt de Microsoft Power BI-inhoud **Compensatie** besproken. U vindt hier een uitleg hoe u toegang krijgt tot de rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+In dit artikel wordt Microsoft Power BI-inhoud voor **Compensatie** besproken. U vindt hier een uitleg hoe u toegang krijgt tot de rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud
 De **Compensatie** Power BI-inhoud wordt weergegeven in het werkgebied **Compensatiebeheer** als u een van de volgende producten gebruikt:

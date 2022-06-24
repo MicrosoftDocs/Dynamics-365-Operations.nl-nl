@@ -1,6 +1,6 @@
 ---
 title: Algemene problemen oplossen
-description: Dit onderwerp bevat algemene informatie voor het oplossen van problemen voor de integratie van twee keer wegschrijven tussen apps voor financiële en bedrijfsactiviteiten en Dataverse.
+description: Dit artikel bevat algemene informatie voor het oplossen van problemen voor de integratie van twee keer wegschrijven tussen apps voor financiële en bedrijfsactiviteiten en Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5896b031229c7fe7e02c8ccf038dd2b1a4f2de05
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 620f6f999859eff0ccd8aeb1cff12ddd56fa9926
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614090"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853650"
 ---
 # <a name="general-troubleshooting"></a>Algemene problemen oplossen
 
@@ -22,14 +22,14 @@ ms.locfileid: "8614090"
 
 
 
-Dit onderwerp bevat algemene informatie voor het oplossen van problemen voor de integratie van twee keer wegschrijven tussen apps voor financiële en bedrijfsactiviteiten en Dataverse.
+Dit artikel bevat algemene informatie voor het oplossen van problemen voor de integratie van twee keer wegschrijven tussen apps voor financiële en bedrijfsactiviteiten en Dataverse.
 
 > [!IMPORTANT]
-> In sommige problemen die in dit onderwerp worden beschreven, is mogelijk de rol van systeembeheerder vereist of de referenties van de Microsoft Azure Active Directory-tenantbeheerder (Azure AD). In de sectie voor elk probleem wordt uitgelegd of een specifieke rol of referenties vereist zijn.
+> In sommige problemen die in dit artikel worden beschreven, is mogelijk de rol van systeembeheerder vereist of de referenties van de Microsoft Azure Active Directory-tenantbeheerder (Azure AD). In de sectie voor elk probleem wordt uitgelegd of een specifieke rol of referenties vereist zijn.
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Het traceerlogboek voor de invoegtoepassing inschakelen en weergeven in Dataverse om foutdetails weer te geven
 
-Traceerlogboeken kunnen nuttig zijn bij het oplossen van problemen met live synchronisatie van twee keer wegschrijven tussen Finance and Operations en Dataverse. De logboeken kunnen specifieke informatie bieden voor de teams die technische ondersteuning bieden voor Dynamics 365. In dit artikel wordt beschreven hoe traceerlogboeken kunnen worden ingeschakeld en hoe u deze kunt weergeven. Traceerlogboeken worden beheerd op de Dynamics 365-pagina instellingen en vereisen beheerdersrechten om te wijzigen en weer te geven. 
+Traceerlogboeken kunnen nuttig zijn bij het oplossen van problemen met live synchronisatie van twee keer wegschrijven tussen apps voor financiën en bedrijfsactiviteiten en Dataverse. De logboeken kunnen specifieke informatie bieden voor de teams die technische ondersteuning bieden voor Dynamics 365. In dit artikel wordt beschreven hoe traceerlogboeken kunnen worden ingeschakeld en hoe u deze kunt weergeven. Traceerlogboeken worden beheerd op de Dynamics 365-pagina instellingen en vereisen beheerdersrechten om te wijzigen en weer te geven. 
 
 **Vereiste rol om het traceerlogboek in te schakelen en fouten weer te geven:** systeembeheerder
 

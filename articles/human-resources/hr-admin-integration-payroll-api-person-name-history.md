@@ -1,6 +1,6 @@
 ---
 title: Historie van naam van persoon
-description: Dit onderwerp bevat details en een voorbeeldquery voor de entiteit Naamsgeschiedenis van persoon in Dynamics 365 Human Resources.
+description: Dit artikel bevat details en een voorbeeldquery voor de entiteit Naamsgeschiedenis van persoon in Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 09/01/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: db22a602c782cef15b6e5769b9c0726dff158160
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: e34b0d7bebd1c4037347161087ff3a4485a58878
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533593"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875766"
 ---
 # <a name="person-name-history"></a>Historie van naam van persoon
 
@@ -27,7 +27,7 @@ ms.locfileid: "8533593"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp wordt de entiteit Naamsgeschiedenis van persoon in Dynamics 365 Human Resources beschreven.
+In dit artikel wordt de entiteit Naamsgeschiedenis van persoon in Dynamics 365 Human Resources beschreven.
 
 Fysieke naam: mshr_dirpersonnamehistoricalentity.
 

@@ -1,6 +1,6 @@
 ---
 title: Factureringsplanningen maken
-description: In dit onderwerp wordt uitgelegd hoe u factureringsplanningen maakt, verwijdert en bewerkt.
+description: In dit artikel wordt uitgelegd hoe u factureringsplanningen maakt, verwijdert en bewerkt.
 author: JodiChristiansen
 ms.date: 02/09/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: ed31dd96b0115610cfb74aed69f1acc1055bfe56
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1248799f92dc6cbce8528a53cc8a3012d2a67b3c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690440"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903387"
 ---
 # <a name="create-billing-schedules"></a>Factureringsplanningen maken
 
@@ -83,7 +83,7 @@ Volg deze stappen om een artikel te verwijderen uit een factureringsplanning.
 2. Selecteer op het sneltabblad **Factureringsplanningsregels** de regel die u wilt verwijderen en selecteer **Verwijderen**.
 3. Selecteer **Opslaan**.
 
-In de rest van dit onderwerp worden de acties en details beschreven die beschikbaar zijn voor regels op het sneltabblad **Factureringsplanningsregels**.
+In de rest van dit artikel worden de acties en details beschreven die beschikbaar zijn voor regels op het sneltabblad **Factureringsplanningsregels**.
 
 ## <a name="billing-schedule-line-actions"></a>Acties voor factureringsplanningsregels
 

@@ -1,6 +1,6 @@
 ---
 title: Btw-aangifte (Duitsland)
-description: In dit onderwerp wordt beschreven hoe u een voorschot-btw-aangifte voor Duitsland kunt instellen en genereren in de officiële XML-indeling.
+description: In dit artikel wordt beschreven hoe u een voorschot-btw-aangifte voor Duitsland kunt instellen en genereren in de officiële XML-indeling.
 author: anasyash
 ms.date: 03/10/2022
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: a761a145a876584728098a92b3f3e93ac718a164
-ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
+ms.openlocfilehash: ff52963c03ec2eb662eb0c20ef2a960e3b999167
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "8402798"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879527"
 ---
 # <a name="vat-declaration-germany"></a>Btw-aangifte (Duitsland)
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u een voorschot-btw-aangifte voor Duitsland kunt instellen en genereren in de officiële XML-indeling. In dit onderwerp wordt ook uitgelegd hoe u een voorbeeld van de btw-aangifte kunt bekijken in Microsoft Excel.
+In dit artikel wordt beschreven hoe u een voorschot-btw-aangifte voor Duitsland kunt instellen en genereren in de officiële XML-indeling. In dit artikel wordt ook uitgelegd hoe u een voorbeeld van de btw-aangifte kunt bekijken in Microsoft Excel.
 
 Als u het rapport automatisch wilt genereren, maakt u voldoende btw-codes om een afzonderlijke btw-boekhouding te behouden voor elk vak in de voorschot-btw-aangifte. In de toepassingsspecifieke parameters van de ER-indeling (elektronische aangifte) voor de voorschot-btw-aangifte koppelt u bovendien btw-codes aan het zoekresultaat van de zoekopdrachten voor de vakken in de btw-aangifte.
 
-Voor Duitsland moet u **Rapportveld zoeken** configureren. Zie de sectie [Toepassingsspecifieke parameters instellen voor btw-aangiftevelden](#set-up-application-specific-parameters-for-vat-declaration-fields) verderop in dit onderwerp voor meer informatie over het instellen van toepassingsspecifieke parameters.
+Voor Duitsland moet u **Rapportveld zoeken** configureren. Zie de sectie [Toepassingsspecifieke parameters instellen voor btw-aangiftevelden](#set-up-application-specific-parameters-for-vat-declaration-fields) verderop in dit artikel voor meer informatie over het instellen van toepassingsspecifieke parameters.
 
 In de volgende tabel ziet u in de kolom 'Opzoekresultaat' het opzoekresultaat dat vooraf is geconfigureerd voor een specifieke btw-aangifterij in de indeling voor de btw-aangifte. Gebruik deze informatie om btw-codes correct aan het opzoekresultaat en vervolgens aan de rij van de btw-aangifte te koppelen.
 
@@ -176,7 +176,7 @@ Volg deze stappen om te definiëren door welke btw-codes welke vakken worden geg
 
     | Veld                  | Description                                                                                                                                                                                                                                                                                                          |
     |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Zoekresultaat          | Selecteer de waarde van het rapportveld. Zie de sectie eerder in dit onderwerp [Overzicht van btw-aangifte](#vat-declaration-overview) voor meer informatie over de waarden en hun toewijzing aan rijen voor btw-aangifte.                                                                                               |
+    | Zoekresultaat          | Selecteer de waarde van het rapportveld. Zie de sectie eerder in dit artikel [Overzicht van btw-aangifte](#vat-declaration-overview) voor meer informatie over de waarden en hun toewijzing aan rijen voor btw-aangifte.                                                                                               |
     | Belastingcode               | Selecteer de btw-code die u aan het rapportveld wilt koppelen. Geboekte btw-transacties die de geselecteerde btw-code gebruiken, worden in het desbetreffende aangiftevak verzameld. Het is raadzaam om btw-codes zo te scheiden, dat één btw-code bedragen in slechts één aangiftevak genereert. |
     | Transactieclassificatie | Als u voldoende btw-codes hebt gemaakt om het aangiftevak te bepalen, selecteert u **\*Niet leeg\***. Als u niet voldoende btw-codes hebt gegenereerd zodat één btw-code bedragen in slechts één aangiftevak genereert, kunt u een transactieclassificatie instellen. De volgende transactieclassificaties zijn beschikbaar:</br>-   **Aankoop**</br>-   **PurchaseExempt** (inkoop met belastingvrijstelling)</br>-   **PurchaseReverseCharge** (terug te ontvangen btw van een omgekeerde toeslag op een inkoopfactuur)</br>-   **Sales**</br>-   **SalesExempt** (verkoop met btw-vrijstelling)</br>-   **SalesReverseCharge** (te betalen btw van een omgekeerde toeslag op een inkoopfactuur of een omgekeerde toeslag op een verkoopfactuur)</br>-   **Gebruiksbelasting**. </br>Voor elke transactieclassificatie is er ook een classificatie voor de creditnota beschikbaar. Een van deze classificaties is bijvoorbeeld **PurchaseCreditNote** (creditnota voor inkoop).</br>Zorg ervoor dat u twee regels maakt voor elke btw-code: een met de waarde van de transactieclassificatie en een met de transactieclassificatie voor de waarde van de creditnota. |
 
@@ -265,7 +265,7 @@ Het gegevenspakket bevat elektronische berichtinstellingen die worden gebruikt o
 
 ## <a name="generate-a-vat-declaration-from-electronic-messages"></a>Een btw-aangifte genereren vanuit elektronische berichten
 
-Wanneer u elektronische berichten gebruikt om het rapport te genereren, kunt u belastinggegevens verzamelen van meerdere rechtspersonen. Zie de sectie [Btw-aangifte uitvoeren voor meerdere rechtspersonen](#run-a-vat-declaration-for-multiple-legal-entities) verderop in dit onderwerp voor meer informatie.
+Wanneer u elektronische berichten gebruikt om het rapport te genereren, kunt u belastinggegevens verzamelen van meerdere rechtspersonen. Zie de sectie [Btw-aangifte uitvoeren voor meerdere rechtspersonen](#run-a-vat-declaration-for-multiple-legal-entities) verderop in dit artikel voor meer informatie.
 
 De volgende procedure is van toepassing op het voorbeeld van de verwerking van elektronische berichten die u hebt geïmporteerd uit de bibliotheek met gedeelde activa van LCS.
 
@@ -277,7 +277,7 @@ De volgende procedure is van toepassing op het voorbeeld van de verwerking van e
     > [!NOTE]
     > Stappen 5 tot en met 7 zijn optioneel.
 
-5. Optioneel: selecteer op het sneltabblad **Berichten** de optie **Gegevens verzamelen** en selecteer vervolgens **OK**. De btw-betalingen die eerder zijn gegenereerd, worden toegevoegd aan het bericht. Zie de sectie [Btw vereffenen en boeken](#settle-and-post-sales-tax) eerder in dit onderwerp voor meer informatie. Als u deze stap overslaat, kunt u nog steeds een btw-aangifte genereren via het veld **Versie btw-aangifte** in het dialoogvenster **Aangifte**.
+5. Optioneel: selecteer op het sneltabblad **Berichten** de optie **Gegevens verzamelen** en selecteer vervolgens **OK**. De btw-betalingen die eerder zijn gegenereerd, worden toegevoegd aan het bericht. Zie de sectie [Btw vereffenen en boeken](#settle-and-post-sales-tax) eerder in dit artikel voor meer informatie. Als u deze stap overslaat, kunt u nog steeds een btw-aangifte genereren via het veld **Versie btw-aangifte** in het dialoogvenster **Aangifte**.
 6. Optioneel: controleer op het sneltabblad **Berichtitems** de btw-betalingen die zijn overgeboekt voor verwerking. Standaard worden alle btw-betalingen opgenomen van de geselecteerde periode die niet in een ander bericht van dezelfde verwerking zijn opgenomen.
 7. Optioneel: selecteer **Oorspronkelijk document** om de btw-betalingen te controleren of selecteer **Verwijderen** om de verwerking van btw-betalingen uit te sluiten. Als u deze stap overslaat, kunt u nog steeds een btw-aangifte genereren via het veld **Versie btw-aangifte** in het dialoogvenster **Aangifte**.
 8. Selecteer op het sneltabblad **Berichten** de optie **Status bijwerken**. Selecteer in het dialoogvenster **Status bijwerken** de optie **Gereed om te genereren** en selecteer vervolgens **OK**. Controleer of de berichtstatus is gewijzigd in **Gereed om te genereren**.

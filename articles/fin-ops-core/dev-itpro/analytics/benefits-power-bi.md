@@ -1,6 +1,6 @@
 ---
 title: Power BI-inhoud Vergoedingen
-description: In dit onderwerp wordt de Power BI-inhoud Vergoedingen beschreven.
+description: In dit artikel wordt de Power BI-inhoud Vergoedingen beschreven.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0e7cadc16c5ed6c6eab8c90090cac017221f63f466115b04a6a3b843db44b1c7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c78755946c7f07e1be7a57015e6c0c15317e6b76
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733166"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848804"
 ---
 # <a name="benefits-power-bi-content"></a>Power BI-inhoud Vergoedingen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt de Microsoft Power BI-inhoud **Vergoedingen** beschreven. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot rapporten die zijn opgenomen en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld.
+In dit artikel wordt de Microsoft Power BI-inhoud voor **Vergoedingen** beschreven. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot rapporten die zijn opgenomen en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld.
 
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud
 De Power BI-inhoud **Vergoedingen** wordt weergegeven in het werkgebied **Vergoedingenbeheer** als u een van de volgende producten gebruikt:

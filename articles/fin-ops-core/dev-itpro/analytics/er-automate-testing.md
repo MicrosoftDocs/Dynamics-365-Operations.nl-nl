@@ -1,6 +1,6 @@
 ---
 title: Testen automatiseren met elektronische rapportage
-description: In dit onderwerp wordt uitgelegd hoe u de functie voor de basislijn van het elektronisch rapportageraamwerk (ER) kunt gebruiken om het testen van functionaliteit te automatiseren.
+description: In dit artikel wordt uitgelegd hoe u de functie voor de basislijn van het elektronisch rapportageraamwerk (ER) kunt gebruiken om het testen van functionaliteit te automatiseren.
 author: NickSelin
 ms.date: 07/02/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: da69cc903197dbfae536c8494f126074c51aa77f9522d57f2673c97b1e682d9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: df2baa988bb634db11d819dd84ef73eaa560bab9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749795"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892764"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Testen automatiseren met elektronische rapportage
 
 [!include[banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u het elektronisch rapportageraamwerk (ER) kunt gebruiken om het testen van sommige functionaliteit te automatiseren. Het voorbeeld in dit onderwerp laat zien hoe u het testen van de verwerking van leveranciersbetalingen kunt automatiseren.
+In dit artikel wordt uitgelegd hoe u het elektronisch rapportageraamwerk (ER) kunt gebruiken om het testen van sommige functionaliteit te automatiseren. Het voorbeeld in dit artikel laat zien hoe u het testen van de verwerking van leveranciersbetalingen kunt automatiseren.
 
 De toepassing gebruikt het ER-raamwerk om betaling bestanden en bijbehorende documenten te genereren tijdens de verwerking van leveranciersbetalingen. Het ER‑raamwerk bestaat uit een gegevensmodel, modeltoewijzingen en opmaakcomponenten die de verwerking van betalingen voor verschillende betalingstypen en het genereren van documenten in verschillende indelingen ondersteunen. Deze onderdelen kunnen vanuit Microsoft Dynamics Lifecycle Services (LCS) worden gedownload en geïmporteerd in het exemplaar.
 
@@ -54,15 +54,15 @@ Functionele hoofdgebruikers kunnen tests uitvoeren voor de acceptatie en integra
 
 ## <a name="prerequisites"></a>Vereisten
 
-Voordat u de taken in dit onderwerp kunt voltooien, moet u de volgende vereisten uitvoeren:
+Voordat u de taken in dit artikel kunt voltooien, moet u de volgende vereisten uitvoeren:
 
 - Implementeer een topologie die testautomatisering ondersteunt. U moet toegang hebben tot het exemplaar van deze topologie voor de rol **Systeembeheerder**. Deze topologie moet de voorbeeldgegevens bevatten die in dit voorbeeld worden gebruikt. Zie [Omgevingen implementeren en gebruiken die continue build- en testautomatisering ondersteunen](../perf-test/continuous-build-test-automation.md) voor meer informatie.
-- Als u de gebruikers- en integratietests automatisch wilt uitvoeren, moet u RSAT installeren in de topologie die u gebruikt en deze op de juiste manier configureren. Zie [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357) voor informatie over het installeren en configureren van RSAT zodat dit werkt met Finance and Operations-apps en Azure DevOps, Let op de vereisten voor het gebruik van het hulpprogramma. In de volgende afbeelding ziet u een voorbeeld van de RSAT‑instellingen. De blauwe rechthoek omsluit de parameters waarmee toegang wordt gegeven tot Azure DevOps. De groene rechthoek omsluit de parameters waarmee de toegang tot het exemplaar wordt gegeven.
+- Als u de gebruikers- en integratietests automatisch wilt uitvoeren, moet u RSAT installeren in de topologie die u gebruikt en deze op de juiste manier configureren. Zie [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357) voor informatie over het installeren en configureren van RSAT voor het werken met Finance and Operations-apps en Azure DevOps. Let op de vereisten voor het gebruik van het hulpprogramma. In de volgende afbeelding ziet u een voorbeeld van de RSAT‑instellingen. De blauwe rechthoek omsluit de parameters waarmee toegang wordt gegeven tot Azure DevOps. De groene rechthoek omsluit de parameters waarmee de toegang tot het exemplaar wordt gegeven.
 
     ![RSAT-instellingen.](media/GER-Configure.png "Schermafbeelding van het dialoogvenster RSAT-instellingen")
 
 - Als u test cases in suites wilt indelen om de juiste volgorde van uitvoering te garanderen, zodat u logboeken van testuitvoeringen voor verdere rapportage en onderzoek kunt verzamelen, moet u toegang hebben tot Azure DevOps vanuit de geïmplementeerde topologie.
-- Als u het voorbeeld in dit onderwerp wilt voltooien, raden we aan [ER‑gebruik voor RSAT‑testen](https://go.microsoft.com/fwlink/?linkid=874684) te downloaden. Dit zip-bestand bevat de volgende taakbegeleidingen:
+- Als u het voorbeeld in dit artikel wilt voltooien, raden we aan [ER‑gebruik voor RSAT‑testen](https://go.microsoft.com/fwlink/?linkid=874684) te downloaden. Dit zip-bestand bevat de volgende taakbegeleidingen:
 
     | Inhoud                                           | Bestandsnaam en locatie |
     |---------------------------------------------------|------------------------|

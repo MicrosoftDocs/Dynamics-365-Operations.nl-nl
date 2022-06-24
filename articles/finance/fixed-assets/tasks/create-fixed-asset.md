@@ -1,6 +1,6 @@
 ---
 title: Een vast activum maken
-description: In dit onderwerp wordt uitgelegd hoe u een nieuwe record voor vaste activa kunt maken op de lijstpagina Vaste activa.
+description: In dit artikel wordt uitgelegd hoe u een nieuwe record voor vaste activa kunt maken op de lijstpagina Vaste activa.
 author: moaamer
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a9394c0c7a5e2d9b417cbaee9f4e67f36ae124fb
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 00c72081d20015737aa027cee9474a54e498cef4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714280"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868484"
 ---
 # <a name="create-a-fixed-asset"></a>Een vast activum maken
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u een nieuwe record voor vaste activa kunt maken op de lijstpagina **Vaste activa**.
+In dit artikel wordt uitgelegd hoe u een nieuwe record voor vaste activa kunt maken op de lijstpagina **Vaste activa**.
 
 Het activumnummer wordt toegewezen op basis van de nummerreeks die is toegewezen aan de groep met vaste activa. Als u de sjabloon voor vaste activa gebruikt om activa te importeren via de invoegtoepassing Microsoft Excel of als u een andere importtaak gebruikt, worden automatisch records voor vaste activa gemaakt en wordt het activanummer verhoogd.
 

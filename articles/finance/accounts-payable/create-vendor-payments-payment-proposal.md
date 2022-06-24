@@ -1,6 +1,6 @@
 ---
 title: Leverancierbetalingen maken met behulp van een betalingsvoorstel
-description: Dit onderwerp geeft een overzicht van de opties voor betalingsvoorstel en bevat enkele voorbeelden die tonen hoe betalingsvoorstellen werken.
+description: Dit artikel geeft een overzicht van de opties voor betalingsvoorstel en bevat enkele voorbeelden die tonen hoe betalingsvoorstellen werken.
 author: abruer
 ms.date: 04/04/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 101cbcc77b2e1eab9fb4b6724fc5e3e8925a54c5
-ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
+ms.openlocfilehash: 64290ebd47295bea5bc4bf843f7a9d9528375ce7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8629433"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845369"
 ---
-# <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Leveranciersbetalingen maken met behulp van een betalingsvoorstel
+# <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Leverancierbetalingen maken met behulp van een betalingsvoorstel
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp geeft een overzicht van de opties voor betalingsvoorstel en bevat enkele voorbeelden die tonen hoe betalingsvoorstellen werken. Betalingsvoorstellen worden vaak gebruikt om leveranciersbetalingen te maken, omdat de query kan worden gebruikt om snel leveranciersfacturen voor betaling te selecteren op basis van criteria zoals vervaldatum en contantkorting. 
+Dit artikel geeft een overzicht van de opties voor betalingsvoorstel en bevat enkele voorbeelden die tonen hoe betalingsvoorstellen werken. Betalingsvoorstellen worden vaak gebruikt om leveranciersbetalingen te maken, omdat de query kan worden gebruikt om snel leveranciersfacturen voor betaling te selecteren op basis van criteria zoals vervaldatum en contantkorting. 
 
 Organisaties gebruiken vaak betalingsvoorstellen om leveranciersbetalingen te maken, omdat de voorstelquery voor klantbetalingen kan worden gebruikt om snel leveranciersfacturen voor betaling te selecteren op basis van de vervaldatum, de contantkorting, en andere criteria. 
 

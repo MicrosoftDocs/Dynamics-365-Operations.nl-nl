@@ -1,6 +1,6 @@
 ---
 title: Rijdefinitiecellen wijzigen
-description: In dit onderwerp wordt beschreven welke informatie is vereist voor elke cel in een rijdefinitie in een financieel rapport en wordt uitgelegd hoe u die gegevens invoert
+description: In dit artikel wordt beschreven welke informatie is vereist voor elke cel in een rijdefinitie in een financieel rapport en wordt uitgelegd hoe u die gegevens invoert.
 author: ShylaThompson
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 80df992ce14577ba78587648f8af2c35b382a589
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: b06c59e3ec35d0eea7fc4b81af540e0bcca144fb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344880"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905107"
 ---
 # <a name="modify-row-definition-cells"></a>Rijdefinitiecellen wijzigen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven welke informatie is vereist voor elke cel in een rijdefinitie in een financieel rapport en wordt uitgelegd hoe u die gegevens invoert
+In dit artikel wordt beschreven welke informatie is vereist voor elke cel in een rijdefinitie in een financieel rapport en wordt uitgelegd hoe u die gegevens invoert.
 
 ## <a name="specify-a-row-code-in-a-row-definition"></a>Een rij in een rijdefinitie opgeven
 

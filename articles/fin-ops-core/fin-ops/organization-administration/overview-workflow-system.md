@@ -1,6 +1,6 @@
 ---
-title: Overzicht van Workflowsysteem
-description: In dit onderwerp wordt het werkstroomsysteem beschreven.
+title: Overzicht van het werkstroomsysteem
+description: In dit artikel wordt het werkstroomsysteem beschreven.
 author: ChrisGarty
 ms.date: 07/25/2019
 ms.topic: overview
@@ -16,21 +16,21 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70776ba0a0461998d2c1f62ba05b55cd4307a0f7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 13dd4335a8b939a44ea7176a90f660999c32a83a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067928"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863183"
 ---
-# <a name="workflow-system-overview"></a>Overzicht van Workflowsysteem
+# <a name="workflow-system-overview"></a>Overzicht van het werkstroomsysteem
 
 [!include [banner](../includes/banner.md)]
 
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-In dit onderwerp wordt het werkstroomsysteem beschreven.
+In dit artikel wordt het werkstroomsysteem beschreven.
 
 ## <a name="what-is-workflow"></a>Wat is een workflow?
 

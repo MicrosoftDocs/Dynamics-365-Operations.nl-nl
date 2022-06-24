@@ -1,6 +1,6 @@
 ---
 title: Het voorspellingsmodel verbeteren
-description: In dit onderwerp worden de functies beschreven die u kunt gebruiken om de prestaties van voorspellingsmodellen te verbeteren.
+description: In dit artikel worden de functies beschreven die u kunt gebruiken om de prestaties van voorspellingsmodellen te verbeteren.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 96ba1653ea1f9a5ac1037e9ecc7e85c86a6f31c7
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: cb725f4e8f7b9dd81077f5c85059a024f3146092
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719966"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846881"
 ---
 # <a name="improve-the-prediction-model"></a>Het voorspellingsmodel verbeteren
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die u kunt gebruiken om de prestaties van voorspellingsmodellen te verbeteren. U begint uw model te verbeteren in het werkgebied **Voorspellingen voor klantbetalingen** in Microsoft Dynamics 365 Finance. De stappen voor verbetering worden vervolgens uitgevoerd in AI Builder.
+In dit artikel worden de functies beschreven die u kunt gebruiken om de prestaties van voorspellingsmodellen te verbeteren. U begint uw model te verbeteren in het werkgebied **Voorspellingen voor klantbetalingen** in Microsoft Dynamics 365 Finance. De stappen voor verbetering worden vervolgens uitgevoerd in AI Builder.
 
 ## <a name="select-historical-outcomes"></a>Historische resultaten selecteren
 

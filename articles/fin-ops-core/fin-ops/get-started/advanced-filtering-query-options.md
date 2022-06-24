@@ -1,6 +1,6 @@
 ---
 title: Geavanceerde filter- en querysyntaxis
-description: In dit onderwerp worden de filter- en queryopties voor het dialoogvenster Geavanceerd filteren/sorteren beschreven en vindt u uitleg over de operator voor overeenkomsten in het filtervenster of de filters in de rasterkolomkoppen.
+description: In dit artikel worden de filter- en queryopties voor het dialoogvenster Geavanceerd filteren/sorteren beschreven en vindt u uitleg over de operator voor overeenkomsten in het filtervenster of de filters in de rasterkolomkoppen.
 author: jasongre
 ms.date: 03/09/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 520c8b32099024e9a9619a6ecdcd3ba7b97c7ecf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070004"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856913"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Geavanceerde filter- en querysyntaxis
 
@@ -29,7 +29,7 @@ ms.locfileid: "8070004"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-In dit onderwerp worden de filter- en queryopties beschreven die beschikbaar zijn wanneer u het dialoogvenster Geavanceerd filteren/sorteren of de operator **komt overeen** in het filtervenster of de filters in de rasterkolomkoppen gebruikt.
+In dit artikel worden de filter- en queryopties beschreven die beschikbaar zijn wanneer u het dialoogvenster Geavanceerd filteren/sorteren of de operator **komt overeen** in het filtervenster of de filters in de rasterkolomkoppen gebruikt.
 
 ## <a name="advanced-query-syntax"></a>Geavanceerde querysyntaxis
 

@@ -1,6 +1,6 @@
 ---
 title: Overbruggingsbetalingen instellen en verwerken
-description: In dit onderwerp wordt uitgelegd hoe u overbruggingsbetalingen instelt en verwerkt. Een overbruggingsbetaling is een betaling die in twee stappen naar het grootboek wordt geboekt.
+description: In dit artikel wordt uitgelegd hoe u overbruggingsbetalingen instelt en verwerkt. Een overbruggingsbetaling is een betaling die in twee stappen naar het grootboek wordt geboekt.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca93d99ce04e607b137a2755d507022a33ab1be8
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 4f0609e333fb16ba189b6a971f88fbb5bf900fec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734186"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887972"
 ---
 # <a name="set-up-and-process-bridged-payments"></a>Overbruggingsbetalingen instellen en verwerken
 
@@ -28,7 +28,7 @@ ms.locfileid: "8734186"
 
 Een overbruggingsbetaling is een betaling die in twee stappen naar het grootboek wordt geboekt. Deze methode wordt meestal gebruikt wanneer de betalingsmethode is ingesteld op **Bank** en u transacties alleen naar de bankrekening overmaakt als de transactie door de bank is verwerkt. U kunt dit echter ook voor een grootboekrekening gebruiken. In dit geval wordt het bedrag van de ene hoofdrekening naar een andere hoofdrekening verplaatst wanneer de overbruggingsboeking wordt verwerkt.
 
-U kunt overbruggingsbetalingen maken vanuit Leveranciers of Klanten. Hoewel in dit onderwerp wordt uitgelegd hoe u overbruggingsboekingen voor Klanten configureert, zijn de stappen voor crediteurentransacties vergelijkbaar.
+U kunt overbruggingsbetalingen maken vanuit Leveranciers of Klanten. Hoewel in dit artikel wordt uitgelegd hoe u overbruggingsboekingen voor Klanten configureert, zijn de stappen voor crediteurentransacties vergelijkbaar.
 
 ## <a name="set-up-bridging-posting"></a>Overbruggingsboeking instellen
 

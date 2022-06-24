@@ -1,6 +1,6 @@
 ---
 title: Herwaardering voor vreemde valuta van bank
-description: Dit onderwerp biedt een overzicht van het proces voor herwaardering voor vreemde valuta van bank. Dit onderwerp bevat informatie over instellingen, de uitvoering van het proces, de berekening voor het proces en de omkering van herwaarderingstransacties.
+description: Dit artikel biedt een overzicht van het proces voor herwaardering voor vreemde valuta van bank. Dit onderwerp bevat informatie over instellingen, de uitvoering van het proces, de berekening voor het proces en de omkering van herwaarderingstransacties.
 author: kweekley
 ms.date: 05/16/2019
 ms.topic: article
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a8ce792fdc0c6b441deaead32db04ee0246becc9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: d68232af3e87cef2f86213211e6c87f7d654df33
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711198"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863096"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Herwaardering voor vreemde valuta van bank
 
 [!include [banner](../includes/banner.md)]
 
 
-Dit onderwerp biedt een overzicht van het proces voor herwaardering voor vreemde valuta van bank. In dit onderwerp wordt uitgelegd hoe u het proces kunt instellen en uitvoeren en geeft informatie over de berekening voor het proces. Ook wordt uitgelegd hoe u herwaarderingstransacties kunt omkeren als omkering vereist is.
+Dit artikel biedt een overzicht van het proces voor herwaardering voor vreemde valuta van bank. In dit onderwerp wordt uitgelegd hoe u het proces kunt instellen en uitvoeren en geeft informatie over de berekening voor het proces. Ook wordt uitgelegd hoe u herwaarderingstransacties kunt omkeren als omkering vereist is.
 
 Als onderdeel van een periode-einde vereisen de boekhoudconventies dat bankrekeningsaldo's in vreemde valuta worden geherwaardeerd met verschillende typen wisselkoersen (huidig, historisch, gemiddeld, enzovoort). De functie voor herwaardering van vreemde valuta van de bank kan worden gebruikt om een of meer bankrekeningen te herwaarderen. De functie is ook een globale functie. U kunt daarom via één pagina banken herwaarderen voor alle rechtspersonen waartoe u toegang hebt.
 

@@ -1,6 +1,6 @@
 ---
-title: Power BI-content voor facturering van abonnementen
-description: In dit onderwerp wordt beschreven wat is opgenomen in de Microsoft Power BI-content voor facturering van abonnementen.
+title: Power BI-inhoud voor facturering van abonnementen
+description: In dit artikel wordt beschreven wat is opgenomen in de Microsoft Power BI-inhoud voor facturering van abonnementen.
 author: JodiChristiansen
 ms.date: 04/13/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-04-13
-ms.openlocfilehash: fad96bdaf60e7772e9ea1ff937435b0274303505
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 6cee01eb5b8bb8296b6e7f638b565c999ccc023e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645396"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849955"
 ---
-# <a name="subscription-billing-power-bi-content"></a>Power BI-content voor facturering van abonnementen
+# <a name="subscription-billing-power-bi-content"></a>Power BI-inhoud voor facturering van abonnementen
 
 [!include[banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven wat is opgenomen in de Microsoft Power BI-content voor facturering van abonnementen. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld. 
+In dit artikel wordt beschreven wat is opgenomen in de Microsoft Power BI-inhoud voor facturering van abonnementen. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld. 
 
 ## <a name="overview"></a>Overzicht
 

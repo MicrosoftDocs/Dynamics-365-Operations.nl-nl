@@ -1,6 +1,6 @@
 ---
 title: Wat is nieuw of gewijzigd in Dynamics 365 Human Resources, 5 april 2021
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 5 april 2021.
+description: In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 5 april 2021.
 author: marcelbf
 ms.date: 04/05/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 19ac856de0fed9253bf79cb4c06d4347e5a19c77
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1b8074877b8d2b2c05596406cbf2d98febd2e8cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693467"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899522"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-5-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources, 5 april 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn of die binnenkort worden vrijgegeven in Dynamics 365 Human Resources.
+In dit artikel worden de functies beschreven die in Dynamics 365 Human Resources nieuw, gewijzigd of binnenkort beschikbaar zijn.
 
 Zie [Updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces en de planning.
 
@@ -48,9 +48,9 @@ De volgende functie zijn algemeen beschikbaar in deze release.
 Deze versie bevat de volgende correcties.
 
 > [!NOTE]
-> Ons doel is om deze informatie zo snel mogelijk bij u te krijgen. Mogelijk wordt dit onderwerp gewijzigd om correcties op te nemen die in de build zijn gemaakt nadat dit onderwerp oorspronkelijk werd gepubliceerd.
+> Ons doel is om deze informatie zo snel mogelijk bij u te krijgen. Mogelijk wordt dit artikel gewijzigd om correcties op te nemen die in de build zijn gemaakt nadat dit artikel oorspronkelijk werd gepubliceerd.
 
-| Probleemnummer | Uitgeven |  Beschrijving |
+| Probleemnummer | Probleem |  Description |
 | --- | --- | --- |
 | 550852 | De knop **Goedkeuring** valideert niet met verplichte velden die zijn ingesteld op het formulier **Controleren**. | Wanneer u een veld in het formulier **Controleren** instelt als verplicht en de wijzigingen publiceert voor de rol Manager, wordt het formulier niet gevalideerd zoals verwacht. |
 | 559564 | Historische werknemersacties voor wijziging van vaste compensatie geven foutmeldingen voor ontslagen gebruikers. | Een actie van een werknemer voor de compensatie na ontslag, levert een fout op. Nadat een werknemer is ontslagen, veroorzaakt de werknemeractie voor promotie voordat het ontslag inging, een fout. |

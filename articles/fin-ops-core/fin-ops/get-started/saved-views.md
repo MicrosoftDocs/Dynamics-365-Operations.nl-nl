@@ -1,6 +1,6 @@
 ---
 title: Opgeslagen weergaven
-description: In dit onderwerp wordt beschreven hoe u de functies voor opgeslagen weergaven gebruikt.
+description: In dit artikel wordt beschreven hoe u de functies voor opgeslagen weergaven gebruikt.
 author: jasongre
 ms.date: 04/25/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: e10137ff5d11ed06c32613e601e2fa7423e270ac
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 1218497bbb112c9a9ebeaa4cabdcb9314c604a7f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644782"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845408"
 ---
 # <a name="saved-views"></a>Opgeslagen weergaven
 
@@ -27,7 +27,7 @@ ms.locfileid: "8644782"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-## <a name="introduction"></a>Introductie
+## <a name="introduction"></a>Inleiding
 
 Personalisatie speelt een belangrijke rol bij het toestaan van gebruikers en organisaties om de gebruikerservaring te optimaliseren op basis van hun behoeften. Zie [De gebruikerservaring aanpassen](personalize-user-experience.md) voor meer informatie over aanpassingen.
 
@@ -196,7 +196,7 @@ De volgende set acties is beschikbaar voor de lijst met alle gepubliceerde weerg
 
 ## <a name="managing-views-globally"></a>Weergaven globaal beheren
 
-Hoewel sommige beheermogelijkheden op elke pagina zichtbaar zijn, zoals in dit onderwerp wordt aangegeven, kunnen weergaven door **systeembeheerders** en **beheerders van opgeslagen weergaven** op een meer holistische wijze voor het systeem worden beheerd via de pagina **Persoonlijke instellingen**. Deze pagina biedt de volgende secties en mogelijkheden: 
+Hoewel sommige beheermogelijkheden op elke pagina zichtbaar zijn, zoals in dit artikel wordt aangegeven, kunnen weergaven door **systeembeheerders** en **beheerders van opgeslagen weergaven** op een meer holistische wijze voor het systeem worden beheerd via de pagina **Persoonlijke instellingen**. Deze pagina biedt de volgende secties en mogelijkheden: 
 
 - **Gepubliceerde weergaven**: in deze sectie worden alle weergaven vermeld die voor uw organisatie zijn gepubliceerd. Hier kunt u een weergave opnieuw publiceren nadat u de beveiligingsrollen of rechtspersonen in de weergave hebt aangepast. U kunt weergaven ook exporteren, verwijderen of de publicatie ervan ongedaan maken. U kunt de actie **Opslaan als persoonlijk** gebruiken om een persoonlijke kopie van een weergave te maken, zodat u de weergave kunt bijwerken of een beter begrip van de inhoud kunt krijgen. 
 - **Niet-gepubliceerde weergaven**: in deze sectie worden alle organisatieweergaven in uw systeem weergegeven die momenteel niet zijn gepubliceerd. Deze weergaven komen het vaakst in het systeem via de importmogelijkheid. U kunt deze weergaven publiceren, exporteren of verwijderen. Met de actie **Snel publiceren** die is toegevoegd in versie 10.0.12, kunnen meerdere weergaven uit deze sectie in één actie worden gepubliceerd met behulp van de bestaande configuratie voor beveiligingsrollen en rechtspersonen. U kunt de actie **Opslaan als persoonlijk** gebruiken om persoonlijke kopieën van deze weergaven te maken, zodat u een beter begrip van de inhoud kunt krijgen.

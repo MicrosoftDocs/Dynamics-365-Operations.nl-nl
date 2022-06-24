@@ -1,6 +1,6 @@
 ---
 title: Aan de slag met Activalease
-description: In dit onderwerp wordt de functie Activalease beschreven en wordt u begeleid bij de stappen voor het maken van een activalease en leert u informatie voor deze leases weer te geven.
+description: In dit artikel wordt de functie Activalease beschreven en wordt u begeleid bij de stappen voor het maken van een activalease en leert u informatie voor deze leases weer te geven.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 991685f50a00e60026331bf573561be904c7f9ab
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: df4343031b3b116318f798f31adb4d1f6bed1db9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710324"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895133"
 ---
 # <a name="asset-leasing-get-started"></a>Aan de slag met Activalease
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt de functie Activalease beschreven en wordt u begeleid bij de stappen voor het maken van een activalease en leert u informatie voor deze leases weer te geven. In het onderwerp wordt ook de terminologie gedefinieerd die wordt gebruikt in de gebruikersinterface en de documentatie. Activalease is een geavanceerde functie voor het beheren, bijhouden en automatiseren van financiële transacties voor geleasde activa in Microsoft Dynamics 365 Finance. Activalease voldoet aan de internationale boekhoudstandaarden (IFRS 16) en de US GAAP-normen (ASC 842). In Activalease worden de gegevens over de leases vastgelegd en verwerkt en worden journaalboekingen gegenereerd voor de gehele levenscyclus van de lease, vanaf de eerste toerekening, maandelijkse journaalboekingen, tot en met waardevermindering en beëindiging van de lease. Activalease wordt naadloos geïntegreerd met andere componenten van Dynamics 365 Finance, zoals Vaste activa, Leveranciers en Grootboek.
+In dit artikel wordt de functie Activalease beschreven en wordt u begeleid bij de stappen voor het maken van een activalease en leert u informatie voor deze leases weer te geven. In het artikel wordt ook de terminologie gedefinieerd die wordt gebruikt in de gebruikersinterface en de documentatie. Activalease is een geavanceerde functie voor het beheren, bijhouden en automatiseren van financiële transacties voor geleasde activa in Microsoft Dynamics 365 Finance. Activalease voldoet aan de internationale boekhoudstandaarden (IFRS 16) en de US GAAP-normen (ASC 842). In Activalease worden de gegevens over de leases vastgelegd en verwerkt en worden journaalboekingen gegenereerd voor de gehele levenscyclus van de lease, vanaf de eerste toerekening, maandelijkse journaalboekingen, tot en met waardevermindering en beëindiging van de lease. Activalease wordt naadloos geïntegreerd met andere componenten van Dynamics 365 Finance, zoals Vaste activa, Leveranciers en Grootboek.
 
 Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen het werkgebied **Functiebeheer** gebruiken om de status van de functie te controleren en desgewenst in te schakelen. Zoek in het werkgebied **Functiebeheer** de functie **Activaleasing** en klik op de knop **Nu inschakelen**.
 

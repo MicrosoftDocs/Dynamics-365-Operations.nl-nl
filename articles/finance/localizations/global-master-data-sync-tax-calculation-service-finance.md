@@ -1,6 +1,6 @@
 ---
 title: De belastinginstellingen van Service voor belastingberekening synchroniseren met Dynamics 365 Finance
-description: In dit onderwerp wordt uitgelegd hoe u hoofdgegevens van de Service voor belastingberekening synchroniseert met Microsoft Dynamics 365 Finance.
+description: In dit artikel wordt uitgelegd hoe u hoofdgegevens van de Service voor belastingberekening synchroniseert met Microsoft Dynamics 365 Finance.
 author: wangchen
 ms.date: 01/05/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3a9c11a6f5946d56b9e58a02c37f18adec155661
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b017a19834998e1c493b0a38c1b50accd8c7e630
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687781"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853152"
 ---
 # <a name="sync-the-tax-setup-from-the-tax-calculation-service-to-dynamics-365-finance"></a>De belastinginstellingen van Service voor belastingberekening synchroniseren met Dynamics 365 Finance
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u hoofdgegevens van de Service voor belastingberekening synchroniseert met Microsoft Dynamics 365 Finance.
+In dit artikel wordt uitgelegd hoe u hoofdgegevens van de Service voor belastingberekening synchroniseert met Microsoft Dynamics 365 Finance.
 
 Nadat u de vereiste instellingsstappen in [Aan de slag met belastingberekening](global-get-started-with-tax-calculation-service.md) hebt voltooid, worden de volgende instellingsgegevens uit de Service voor belastingberekening automatisch gesynchroniseerd naar Finance.
 

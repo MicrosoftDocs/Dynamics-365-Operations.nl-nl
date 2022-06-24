@@ -1,6 +1,6 @@
 ---
 title: Elektronische rapportage (ER) configureren om gegevens op te halen in Power BI
-description: In dit onderwerp wordt beschreven hoe u uw ER-configuratie (Elektronische rapportage) kunt gebruiken om gegevens van uw exemplaar over te dragen naar Power BI-services.
+description: In dit artikel wordt beschreven hoe u uw ER-configuratie (Elektronische rapportage) kunt gebruiken om gegevens van uw exemplaar over te dragen naar Power BI-services.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -14,31 +14,31 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: aa9a47c9ee7c76322fd2d9bfcf5fc61a50bf421321891b3c78a782be6a9f8e6a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6903513dec4da20dbc4463fbae6a406fc06e1a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740937"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896729"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Elektronische rapportage (ER) configureren om gegevens op te halen in Power BI
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u uw ER-configuratie (Elektronische rapportage) kunt gebruiken om gegevens van uw exemplaar over te dragen naar Power BI-services. Als voorbeeld worden in dit onderwerp Intrastat-transacties gebruikt als zakelijke gegevens die moeten worden overgedragen. Met de Power BI-kaartvisualisering worden deze Intrastat-transactiegegevens gebruikt om een weergave voor analyse van import-/exportactiviteiten in het Power BI-rapport te maken.
+In dit artikel wordt beschreven hoe u uw ER-configuratie (Elektronische rapportage) kunt gebruiken om gegevens van uw exemplaar over te dragen naar Power BI-services. Als voorbeeld worden in dit artikel Intrastat-transacties gebruikt als zakelijke gegevens die moeten worden overgedragen. Met de Power BI-kaartvisualisering worden deze Intrastat-transactiegegevens gebruikt om een weergave voor analyse van import-/exportactiviteiten in het Power BI-rapport te maken.
 
 ## <a name="overview"></a>Overzicht
 
-Microsoft Power BI bestaat uit een verzameling softwareservices, apps en connectors die samenwerken om externe gegevensbronnen om te zetten in coherente, visueel aantrekkelijk en interactieve inzichten. Met Elektronische rapportage (ER) kunnen gebruikers eenvoudig gegevensbronnen configureren en de overdracht van gegevens regelen van de toepassing naar Power BI. De gegevens worden overgebracht als bestanden in de OpenXML-werkbladindeling (Microsoft Excel-werkmapbestand). De overgebrachte bestanden worden opgeslagen op een Microsoft SharePoint-server die voor dit doel is geconfigureerd. De opgeslagen bestanden worden in Power BI gebruikt om rapporten met visualisaties (tabellen, grafieken, kaarten, enzovoort) te maken. Power BI-rapporten worden gedeeld met Power BI-gebruikers en in Power BI-dashboards en op Finance-pagina's geopend. In dit onderwerp worden de volgende taken beschreven:
+Microsoft Power BI bestaat uit een verzameling softwareservices, apps en connectors die samenwerken om externe gegevensbronnen om te zetten in coherente, visueel aantrekkelijk en interactieve inzichten. Met Elektronische rapportage (ER) kunnen gebruikers eenvoudig gegevensbronnen configureren en de overdracht van gegevens regelen van de toepassing naar Power BI. De gegevens worden overgebracht als bestanden in de OpenXML-werkbladindeling (Microsoft Excel-werkmapbestand). De overgebrachte bestanden worden opgeslagen op een Microsoft SharePoint-server die voor dit doel is geconfigureerd. De opgeslagen bestanden worden in Power BI gebruikt om rapporten met visualisaties (tabellen, grafieken, kaarten, enzovoort) te maken. Power BI-rapporten worden gedeeld met Power BI-gebruikers en in Power BI-dashboards en op Finance-pagina's geopend. In dit artikel worden de volgende taken beschreven:
 
-- Configureer Microsoft Dynamics 365 Finance.
+- Microsoft Dynamics 365 Finance configureren.
 - Bereid uw configuratie van de ER-indeling om gegevens op te halen uit de Finance-toepassing.
 - De ER-omgeving configureren om gegevens over te dragen naar Power BI.
 - Overgedragen gegevens gebruiken om een Power BI-rapport te maken.
 - Het Power BI-rapport toegankelijk maken in Finance.
 
 ## <a name="prerequisites"></a>Vereisten
-Om het voorbeeld in dit onderwerp te kunnen voltooien, moet u over de volgende toegangsrechten beschikken:
+Om het voorbeeld in dit artikel te kunnen voltooien, moet u over de volgende toegangsrechten beschikken:
 
 - Toegang voor een van de volgende rollen:
 

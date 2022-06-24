@@ -1,6 +1,6 @@
 ---
 title: Betalingsmethode van klant vaststellen
-description: In dit onderwerp wordt uitgelegd hoe u betalingsmethode kunt maken voor klantbetalingen.
+description: In dit artikel wordt uitgelegd hoe u betalingsmethode kunt maken voor klantbetalingen.
 author: ShivamPandey-msft
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9e8974ea20497124e24e95b3761317daf126839
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: f3843ce596d054263b69ccc577f3885970fe49d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713891"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861497"
 ---
 # <a name="establish-customer-method-of-payment"></a>Betalingsmethode van klant vaststellen
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u betalingsmethode kunt maken voor klantbetalingen. Bij deze taak wordt het demobedrijf USMF gebruikt.
+In dit artikel wordt uitgelegd hoe u betalingsmethode kunt maken voor klantbetalingen. Bij deze taak wordt het demobedrijf USMF gebruikt.
 
 1. Ga in het navigatievenster naar **Modules > Klanten > Instelling van betalingen > Betalingsmethoden**.
 2. Selecteer **Nieuw**.

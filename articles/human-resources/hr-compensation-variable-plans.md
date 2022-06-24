@@ -1,6 +1,6 @@
 ---
 title: Plannen voor variabele compensatie maken
-description: In dit onderwerp worden de onderdelen beschreven die u moet instellen voordat u variabele compensatie kunt gebruiken en werknemers kunt inschrijven voor een plan voor variabele compensatie.
+description: In dit artikel worden de onderdelen beschreven die u moet instellen voordat u variabele compensatie kunt gebruiken en werknemers kunt inschrijven voor een plan voor variabele compensatie.
 author: twheeloc
 ms.date: 08/24/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 589990c48d115266b57589f905de20572e76a040
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 22788dff1ee29b6920426d8ff00d412c3d5564e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688652"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853069"
 ---
 # <a name="create-variable-compensation-plans"></a>Variabelecompensatieplannen maken
 
@@ -28,7 +28,7 @@ ms.locfileid: "8688652"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Variabele compensatie heeft betrekking op de onregelmatige inkomsten van een werknemer, zoals bonussen of aandelenpakketten. In dit onderwerp wordt beschreven hoe u de onderdelen instelt die nodig zijn variabele compensatie, en hoe u werknemers inschrijft voor een plan voor variabele compensatie.
+Variabele compensatie heeft betrekking op de onregelmatige inkomsten van een werknemer, zoals bonussen of aandelenpakketten. In dit artikel wordt beschreven hoe u de onderdelen instelt die nodig zijn variabele compensatie, en hoe u werknemers inschrijft voor een plan voor variabele compensatie.
 
 De berekening van variabele compensatiebedragen voor uw werknemers kan worden gebaseerd op verschillende factoren, zoals de prestaties van de werknemer, het compensatieniveau van de werknemer en de prestaties van de afdeling.
 

@@ -1,6 +1,6 @@
 ---
-title: Lineaire afschrijving van restlevensduur
-description: Dit onderwerp geeft een overzicht van de afschrijvingsmethode ´Lineaire restlevensduur´.
+title: Lineaire afschrijving restlevensduur
+description: Dit artikel geeft een overzicht van de afschrijvingsmethode ´Lineaire restlevensduur´.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92941bc679835d38ba47464452315498a70ce2ee
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 185e1c101ffb6dfbd47348952d6dfc47ab137ffa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726692"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853433"
 ---
-# <a name="straight-line-life-remaining-depreciation"></a>Lineaire afschrijving van restlevensduur
+# <a name="straight-line-life-remaining-depreciation"></a>Lineaire afschrijving restlevensduur
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp geeft een overzicht van de afschrijvingsmethode ´Lineaire restlevensduur´.
+Dit artikel geeft een overzicht van de afschrijvingsmethode ´Lineaire restlevensduur´.
 
 Wanneer u een profiel voor de afschrijving van vaste activa instelt en **Lineaire restlevensduur** selecteert in het veld **Methode** op de pagina **Afschrijvingsprofielen**, dan is de afschrijving van vaste activa die zijn toegewezen aan dit afschrijvingsprofiel gebaseerd op de resterende levensduur van het activum. Over het algemeen is het afschrijvingsbedrag elke afschrijvingsperiode hetzelfde. Als u lineaire resterende afschrijving van de levensduur wilt instellen, moet u ook opties selecteren in het veld **Afschrijvingsjaar** en het veld **Periodefrequentie** op de pagina **Afschrijvingsprofielen**. De opties die beschikbaar zijn in het veld **Periodefrequentie** variëren, afhankelijk van de waarde die in het veld **Afschrijvingsjaar** is geselecteerd.
 
@@ -35,7 +35,7 @@ U kunt **Kalender** of **Fiscaal** selecteren in het veld **Afschrijvingsjaar** 
 
 ### <a name="calendar"></a>Kalender
 
-Als u **Kalender** selecteert in het veld **_Afschrijvingsjaar_*_ wordt uitgegaan van een jaar van 1 januari t/m 31 december, zelfs als u de fiscale kalender anders hebt gedefinieerd. Met de optie _* Kalender** wordt de afschrijvingsbasis op 1 januari van elk jaar bijgewerkt. Doorgaans is de afschrijvingsbasis de nettoboekwaarde min de restwaarde. In het voorbeeld verderop in dit onderwerp is de afschrijvingsbasis de teller in de eerste expressie in de berekeningenkolom. Als u **Kalender** als het afschrijvingsjaar selecteert, zijn de volgende opties beschikbaar in het veld **Periodefrequentie**:
+Als u **Kalender** selecteert in het veld **_Afschrijvingsjaar_*_ wordt uitgegaan van een jaar van 1 januari t/m 31 december, zelfs als u de fiscale kalender anders hebt gedefinieerd. Met de optie _* Kalender** wordt de afschrijvingsbasis op 1 januari van elk jaar bijgewerkt. Doorgaans is de afschrijvingsbasis de nettoboekwaarde min de restwaarde. In het voorbeeld verderop in dit artikel is de afschrijvingsbasis de teller in de eerste expressie in de berekeningenkolom. Als u **Kalender** als het afschrijvingsjaar selecteert, zijn de volgende opties beschikbaar in het veld **Periodefrequentie**:
 
 - **Jaarlijks**: op 31 december wordt een bedrag geboekt.
 - **Maandelijks**: aan het einde van elke kalendermaand wordt een maandbedrag geboekt.

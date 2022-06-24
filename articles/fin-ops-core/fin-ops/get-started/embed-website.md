@@ -1,6 +1,6 @@
 ---
 title: Apps van derden insluiten
-description: In dit onderwerp wordt uitgelegd hoe u apps van derden kunt insluiten om de functionaliteit van het product te verbeteren.
+description: In dit artikel wordt uitgelegd hoe u apps van derden kunt insluiten om de functionaliteit van het product te verbeteren.
 author: jasongre
 ms.date: 09/13/2021
 ms.topic: article
@@ -13,20 +13,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 89f101bcf33080f6a73664fe7c3fe6719de04a4e
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 3c07befc7150ff0a121fd3aaa0b5233df9f431e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488229"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868603"
 ---
 # <a name="embed-third-party-apps"></a>Apps van derden insluiten
 
 [!include [banner](../includes/banner.md)]
 
-Veel klanten gebruiken een meerdere toepassingen om hun activiteiten uit te voeren. Sommige van deze toepassingen zijn webtoepassingen van derden, die werken in combinatie met Finance and Operations-apps. Voor een soepele gebruikerservaring kunt u met de functie **Apps op volledige pagina (preview)** deze toepassingen van derden rechtstreeks in uw Finance and Operations-apps insluiten (als deze toepassingen van derden het toelaten te worden ingesloten). Op deze manier hebben gebruikers toegang tot de websites en apps die ze nodig hebben, zonder dat ze tussen tabbladen of vensters moeten wisselen.
+Veel klanten gebruiken een meerdere toepassingen om hun activiteiten uit te voeren. Sommige van deze toepassingen zijn webtoepassingen van derden, die werken in combinatie met apps voor financiën en bedrijfsactiviteiten. Voor een soepele gebruikerservaring kunt u met de functie **Apps op volledige pagina** deze toepassingen van derden rechtstreeks in uw apps voor financiën en bedrijfsactiviteiten insluiten (als deze toepassingen van derden het toelaten te worden ingesloten). Op deze manier hebben gebruikers toegang tot de websites en apps die ze nodig hebben, zonder dat ze tussen tabbladen of vensters moeten wisselen.
 
-Voordat u apps van derden in het product kunt insluiten, moet u de functie **Apps op volledige pagina (preview)** inschakelen in Functiebeheer. U kunt vervolgens met een van de volgende methoden een app of website van een derde partij insluiten. Deze methoden zijn vergelijkbaar met de methoden waarmee canvas-toepassingen uit Microsoft Power Apps worden ingesloten in Finance and Operations-apps.
+Voordat u apps van derden in het product kunt insluiten, moet u de functie **Apps op volledige pagina (preview)** inschakelen in Functiebeheer. U kunt vervolgens met een van de volgende methoden een app of website van een derde partij insluiten. Deze methoden zijn vergelijkbaar met de methoden waarmee canvas-toepassingen uit Microsoft Power Apps worden ingesloten in apps voor financiën en bedrijfsactiviteiten.
 
 - Sluit de app of website in op een bestaande pagina als een nieuw tabblad (draaitabblad, sneltabblad, blade of werkgebiedsectie).
 - Maak een volledige nieuwe pagina voor de app of website vanuit het dashboard.
@@ -60,7 +60,7 @@ Gebruik deze procedure als u een bestaande pagina in het systeem wilt aanvullen 
 
 ## <a name="embed-a-website-as-a-full-page-experience-from-the-dashboard"></a>Een website insluiten als volledige pagina vanuit het dashboard
 
-Gebruik deze procedure als de app die u wilt insluiten die geen verband houdt met een bestaande pagina, of als u alleen een volledige pagina wilt gebruiken voor de app in de Finance and Operations-app.
+Gebruik deze procedure als de app die u wilt insluiten die geen verband houdt met een bestaande pagina, of als u alleen een volledige pagina wilt gebruiken voor de app voor financiën en bedrijfsactiviteiten in de procedure.
 
 1. Open het dashboard.
 2. Selecteer en houd vast (of klik met de rechtermuisknop) op het dashboard, selecteer **Personaliseren** en selecteer vervolgens **Een pagina toevoegen**
@@ -89,7 +89,7 @@ Nadat u een app hebt ingesloten via een van de methoden die in de vorige secties
 
 ## <a name="viewing-embedded-apps"></a>Ingesloten apps weergeven
 
-Als u een ingesloten app wilt weergeven in Finance and Operations-apps, opent u de pagina die de ingesloten app bevat. Onthoud dat u op sommige pagina's toegang kunt krijgen tot apps via de knop **Power Apps** in het standaardactievenster. Apps kunnen ook rechtstreeks op de pagina worden weergegeven als een nieuw tabblad, sneltabblad, blade of als een nieuwe sectie in een werkgebied.
+Als u een ingesloten app wilt weergeven in apps voor financiën en bedrijfsactiviteiten, opent u de pagina die de ingesloten app bevat. Onthoud dat u op sommige pagina's toegang kunt krijgen tot apps via de knop **Power Apps** in het standaardactievenster. Apps kunnen ook rechtstreeks op de pagina worden weergegeven als een nieuw tabblad, sneltabblad, blade of als een nieuwe sectie in een werkgebied.
 
 ## <a name="editing-or-removing-embedded-apps"></a>Ingesloten apps bewerken of verwijderen
 
@@ -126,6 +126,6 @@ Als een website niet correct wordt weergegeven nadat deze is ingesloten in een F
 
 ### <a name="developer-modeling-a-website-on-a-form"></a>[Ontwikkelaar] Een website modelleren op een formulier
 
-Hoewel dit onderwerp zich richt op het insluiten van apps of websites van derden via personalisatie, kunnen ontwikkelaars deze ook in een formulier insluiten door middel van de Visual Studio-ontwikkelomgeving. U voegt hiervoor gewoon een besturingselement **WebsiteHostControl** toe aan het formulier. De metagegevenseigenschappen die beschikbaar zijn voor het besturingselement, bieden dezelfde mogelijkheden als personalisatie.
+Hoewel dit artikel zich richt op het insluiten van apps of websites van derden via personalisatie, kunnen ontwikkelaars deze ook in een formulier insluiten door middel van de Visual Studio-ontwikkelomgeving. U voegt hiervoor gewoon een besturingselement **WebsiteHostControl** toe aan het formulier. De metagegevenseigenschappen die beschikbaar zijn voor het besturingselement, bieden dezelfde mogelijkheden als personalisatie.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

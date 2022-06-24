@@ -1,6 +1,6 @@
 ---
 title: Gegevens van de dochtermaatschappij importeren vanuit bestanden
-description: In dit onderwerp wordt uitgelegd hoe u gegevens van externe systemen voorbereidt zodat u deze in Microsoft Dynamics 365 Finance kunt importeren.
+description: In dit artikel wordt uitgelegd hoe u gegevens van externe systemen voorbereidt zodat u deze in Microsoft Dynamics 365 Finance kunt importeren.
 author: jinniew
 ms.date: 10/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 045ecd6dfb95ccf38773293d44834531668ac1ff
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6886e2ee79ee9e4ccc067dc4f661c1eea646cfa6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733814"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846765"
 ---
 # <a name="import-subsidiary-data-from-files"></a>Gegevens van de dochtermaatschappij importeren vanuit bestanden
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u gegevens van externe systemen voorbereidt zodat u deze in Microsoft Dynamics 365 Finance kunt importeren. Met de pagina **Consolidatie met import** (**Consolidaties \> Consolidatie met import**) kunt u de overdracht van gegevens van dochtermaatschappijen vanuit externe systemen voorbereiden.
+In dit artikel wordt uitgelegd hoe u gegevens van externe systemen voorbereidt zodat u deze in Microsoft Dynamics 365 Finance kunt importeren. Met de pagina **Consolidatie met import** (**Consolidaties \> Consolidatie met import**) kunt u de overdracht van gegevens van dochtermaatschappijen vanuit externe systemen voorbereiden.
 
 1. Maak een dochtermaatschappij voor de consolidatie. Meer informatie over het maken van rechtspersonen vindt u in [Een rechtspersoon maken](../../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md). Meer informatie vindt u in [Een rechtspersoon voorbereiden voor gebruik in het consolidatieproces](prepare-company-for-consolidation.md) en [Een dochtermaatschappij voor consolidatie instellen](set-up-subsidiary-company-for-consolidation.md).
 

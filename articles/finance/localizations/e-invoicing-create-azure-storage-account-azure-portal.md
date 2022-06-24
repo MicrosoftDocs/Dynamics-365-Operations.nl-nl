@@ -1,6 +1,6 @@
 ---
 title: Een Azure-opslagaccount maken in de Azure-portal
-description: In dit onderwerp wordt uitgelegd hoe u een Azure-opslagaccount voor Elektronische facturering maakt.
+description: In dit artikel wordt uitgelegd hoe u een Azure-opslagaccount voor Elektronische facturering maakt.
 author: dkalyuzh
 ms.date: 02/14/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3d9647e234b3603ef6305ec6031a793b744bbe98
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 4380261140086bcb278162f8dc70b39eaa7078fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371571"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898013"
 ---
 # <a name="create-an-azure-storage-account-in-the-azure-portal"></a>Een Azure-opslagaccount maken in de Azure-portal
 

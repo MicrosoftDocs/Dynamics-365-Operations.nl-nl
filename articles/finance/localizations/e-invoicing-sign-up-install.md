@@ -1,6 +1,6 @@
 ---
 title: Aanmelden voor Elektronische facturering en de service installeren
-description: Dit onderwerp bevat informatie over het aanmelden voor en het installeren van de service voor elektronische facturering.
+description: Dit artikel bevat informatie over het aanmelden voor en het installeren van de service voor elektronische facturering.
 author: dkalyuzh
 ms.date: 02/07/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4ab16652e4a50dd71a5d0b2b49b4dd79e327f7a8
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 57314058883e60599bc51d91a65b0daeae724bb7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371553"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865521"
 ---
 # <a name="sign-up-for-and-install-the-electronic-invoicing-service"></a>Aanmelden voor Elektronische facturering en de service installeren
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat informatie over het aanmelden voor en het installeren van de service voor elektronische facturering. Er zijn vier stappen voor dit proces. Stappen 1 tot en met 3 zijn vereist en stap 4 is optioneel.
+Dit artikel bevat informatie over het aanmelden voor en het installeren van de service voor elektronische facturering. Er zijn vier stappen voor dit proces. Stappen 1 tot en met 3 zijn vereist en stap 4 is optioneel.
 
 ### <a name="step-1-sign-up-for-regulatory-configuration-service"></a>Stap 1: Meld u aan bij Regulatory Configuration Service.
 

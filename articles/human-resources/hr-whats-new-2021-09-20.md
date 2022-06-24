@@ -1,6 +1,6 @@
 ---
 title: Wat is nieuw of gewijzigd in Dynamics 365 Human Resources 20 september 2021
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 20 september 2021.
+description: In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 20 september 2021.
 author: marcelbf
 ms.date: 09/20/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a3fd8705c7735cb3c0945f71651fafa767a7addf
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 47a46b7210b718aea7ec737971cb826eb5d0652d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691577"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858093"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-20-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources 20 september 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn of die binnenkort worden vrijgegeven in Microsoft Dynamics 365 Human Resources.
+In dit artikel worden de functies beschreven die nieuw, gewijzigd of binnenkort beschikbaar zijn in Microsoft Dynamics 365 Human Resources.
 
 Zie [Updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces en de planning.
 
@@ -49,9 +49,9 @@ De volgende functie zijn algemeen beschikbaar in deze release.
 Deze versie bevat de volgende correcties.
 
 > [!NOTE]
-> Ons doel is om deze informatie zo snel mogelijk bij u te krijgen. Mogelijk wordt dit onderwerp gewijzigd om correcties op te nemen die in de build zijn gemaakt nadat dit onderwerp oorspronkelijk werd gepubliceerd.
+> Ons doel is om deze informatie zo snel mogelijk bij u te krijgen. Mogelijk wordt dit artikel gewijzigd om correcties op te nemen die in de build zijn gemaakt nadat dit artikel oorspronkelijk werd gepubliceerd.
 
-| Probleemnummer | Probleem | Omschrijving |
+| Probleemnummer | Probleem | Description |
 |---|---|---|
 | 619774 | Het bewerken van adresomschrijving wordt niet in realtine naar Dataverse gesynchroniseerd. | Wanneer u de beschrijving voor een werknemersadres bewerkt, wordt de bijgewerkte beschrijving niet in realtime naar Dataverse gesynchroniseerd. Het abonnement in de tabel **Logistieke locatie** is bijgewerkt voor het verzenden van een update. |
 | 614603| Fout op de pagina **Werknemer** wanneer de parameter **Personeelsacties werknemer** niet is geselecteerd. | Wanneer u een nieuwe werknemer aanneemt of naar de pagina **Werknemer** gaat, wordt het foutbericht Het veld **Actietype personeel** moet worden ingevuld, zelfs als **Personeelsacties** zijn uitgeschakeld. |

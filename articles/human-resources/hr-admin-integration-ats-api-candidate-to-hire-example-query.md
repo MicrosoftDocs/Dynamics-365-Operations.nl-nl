@@ -1,6 +1,6 @@
 ---
 title: Voorbeeldquery voor kandidaten voor aanstelling
-description: Dit onderwerp geeft een voorbeeldquery voor de entiteit Kandidaten voor aanstelling in Dynamics 365 Human Resources.
+description: Dit artikel geeft een voorbeeldquery voor de entiteit Kandidaten voor aanstelling in Dynamics 365 Human Resources.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: edb8687b9dae0afc1bc15a3a5c197e14e7e8cf1e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2dd744665d4f0b6c64f4ee45a01c237081018514
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069216"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848337"
 ---
 # <a name="example-query-for-candidate-to-hire"></a>Voorbeeldquery voor kandidaten voor aanstelling
 
@@ -27,9 +27,9 @@ ms.locfileid: "8069216"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Dit onderwerp geeft een voorbeeldquery voor de entiteit Kandidaten voor aanstelling in Dynamics 365 Human Resources.
+Dit artikel geeft een voorbeeldquery voor de entiteit Kandidaten voor aanstelling in Dynamics 365 Human Resources.
 
-In dit onderwerp wordt beschreven hoe u *diepte-invoegingen* kunt gebruiken om alle details van een nieuwe kandidaatrecord in één API-bewerking te maken. Zie [Verwante entiteitsrecords maken in één bewerking](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation) voor meer informatie over diepte-invoegingen.
+In dit artikel wordt beschreven hoe u *diepte-invoegingen* kunt gebruiken om alle details van een nieuwe kandidaatrecord in één API-bewerking te maken. Zie [Verwante entiteitsrecords maken in één bewerking](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation) voor meer informatie over diepte-invoegingen.
 
 De entiteit **mshr_hcmcandidatetohireentity** is uniek vanwege de relatie met de entiteit **mshr_dirpersonentity**. Veel van de eigenschappen in de entiteit **mshr_hcmcandidatetohireentity** (bijvoorbeeld **mshr_firstname**, **mshr_lastname** en **mshr_birthdate**) zijn afgeleid van de record **mshr_dirpersonentity**. Als u een record voor een nieuwe kandidaat boekt op **mshr_hcmcandidatetohireentity** zonder diepte-invoegingen te gebruiken, kunt u waarden voor deze eigenschappen rechtstreeks in de record **mshr_hcmcandidatetohireentity** definiëren. De bijbehorende recors **mshr_dirpersonentity** wordt speciaal gemaakt met de gedefinieerde waarden voor de eigenschappen. U kunt vervolgens andere gerelateerde entiteitsrecords (zoals vaardigheden of opleiding) maken als afzonderlijke API-aanroepen.
 

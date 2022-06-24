@@ -1,6 +1,6 @@
 ---
 title: Analyses aan werkgebieden toevoegen met Power BI Embedded
-description: In dit onderwerp wordt beschreven hoe u een Power BI-rapport insluit op het tabblad Analyses van een werkgebied.
+description: In dit artikel wordt beschreven hoe u een Power BI-rapport insluit op het tabblad Analyses van een werkgebied.
 author: RichdiMSFT
 ms.date: 06/21/2017
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fba78f091a9e1ba209489b0e324027c4885a198d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760147"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884544"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analyses aan werkgebieden toevoegen met Power BI Embedded
 
@@ -27,7 +27,7 @@ ms.locfileid: "6760147"
 > Deze functie wordt ondersteund in Finance and Operations (versie 7.2 en hoger).
 
 ## <a name="introduction"></a>Inleiding
-In dit onderwerp wordt beschreven hoe u een Microsoft Power BI-rapport insluit op het tabblad **Analyses** van een werkgebied. In het hier gebruikte voorbeeld wordt het werkgebied **Reserveringenbeheer** in de toepassing Wagenparkbeheer uitgebreid om een analytisch werkgebied in te sluiten in het tabblad **Analyses**.
+In dit artikel wordt beschreven hoe u een Microsoft Power BI-rapport insluit op het tabblad **Analyses** van een werkgebied. In het hier gebruikte voorbeeld wordt het werkgebied **Reserveringenbeheer** in de toepassing Wagenparkbeheer uitgebreid om een analytisch werkgebied in te sluiten in het tabblad **Analyses**.
 
 ## <a name="prerequisites"></a>Vereisten
 + Open een ontwikkelaaromgeving waarop Platformupdate 8 of hoger wordt uitgevoerd.

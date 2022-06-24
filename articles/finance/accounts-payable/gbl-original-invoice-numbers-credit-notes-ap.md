@@ -1,6 +1,6 @@
 ---
 title: Verwijzen naar oorspronkelijke facturen in creditnota's (leveranciersfacturen)
-description: In dit onderwerp wordt beschreven hoe u een verwijzing naar een oorspronkelijke factuur maakt wanneer u een creditnota maakt.
+description: In dit artikel wordt beschreven hoe u een verwijzing naar een oorspronkelijke factuur maakt wanneer u een creditnota maakt.
 author: v-oloski
 ms.date: 09/28/2021
 ms.topic: article
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: v-oloski
 ms.search.validFrom: 2021-09-23
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 698a23a98f027014c89073203e6d9dfa5539a2f6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e05dddf056d86513d86ea925349f60ca25f191ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689180"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901484"
 ---
 # <a name="reference-original-invoices-in-credit-notes-vendor-invoices"></a>Verwijzen naar oorspronkelijke facturen in creditnota's (leveranciersfacturen)
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u een verwijzing naar een oorspronkelijke factuur maakt wanneer u een creditnota maakt.
+In dit artikel wordt beschreven hoe u een verwijzing naar een oorspronkelijke factuur maakt wanneer u een creditnota maakt.
 
 ## <a name="prerequisites"></a>Vereisten
 
 Schakel in de werkruimte **Functiebeheer** de functie **Factuurcreditering inschakelen voor leveranciersfacturen** in. Zie [Overzicht van functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voor meer informatie.
 
-De functionaliteit die in dit onderwerp wordt beschreven, is van toepassing op de volgende bedrijfsdocumenten:
+De functionaliteit die in dit artikel wordt beschreven, is van toepassing op de volgende bedrijfsdocumenten:
 
 **Leveranciers:**
 

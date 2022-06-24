@@ -1,6 +1,6 @@
 ---
 title: Voorspellingen voor klantbetalingen inschakelen
-description: In dit onderwerp wordt uitgelegd hoe u de functie Voorspellingen voor klantbetalingen kunt inschakelen en configureren in Financiële inzichten.
+description: In dit artikel wordt uitgelegd hoe u de functie Voorspellingen voor klantbetalingen kunt inschakelen en configureren in Finance Insights.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,21 +15,21 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a52d38e8fb842c7fbc8adf60a6daaef6cdc9d5ec
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: f04ee9db5efe3595dea30d641c5097d6b90c0d77
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713355"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898202"
 ---
 # <a name="enable-customer-payment-predictions"></a>Voorspellingen voor klantbetalingen inschakelen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u de functie Voorspellingen voor klantbetalingen kunt inschakelen en configureren in Financiële inzichten. U schakelt de functie in het werkgebied **Functiebeheer** in en voert de configuratie-instellingen in op de pagina **Finance Insights-configuratie**. Dit onderwerp bevat ook informatie die u kan helpen bij het effectief gebruik van de functie.
+In dit artikel wordt uitgelegd hoe u de functie Voorspellingen voor klantbetalingen kunt inschakelen en configureren in Finance Insights. U schakelt de functie in het werkgebied **Functiebeheer** in en voert de configuratie-instellingen in op de pagina **Finance Insights-configuratie**. Dit artikel bevat ook informatie die u kan helpen bij het effectief gebruik van de functie.
 
 > [!NOTE]
-> Voordat u de volgende stappen uitvoert, moet u controleren of u de vereiste stappen in het onderwerp [Configureren voor Financiële inzichten](configure-for-fin-insites.md) hebt voltooid.
+> Voordat u de volgende stappen uitvoert, moet u controleren of u de vereiste stappen in het artikel [Configureren voor Finance Insights](configure-for-fin-insites.md) hebt voltooid.
 
 1. Schakel de functie Voorspellingen voor klantbetalingen in:
 

@@ -1,6 +1,6 @@
 ---
 title: Het globale adresboek en andere adresboeken plannen
-description: In dit onderwerp worden de overwegingen en beslissingen beschreven die u tijdens het planningsproces moet nemen.
+description: In dit artikel worden de overwegingen en beslissingen beschreven die u tijdens het planningsproces moet nemen.
 author: msftbrking
 ms.date: 01/13/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87b3f6a74c217b0cc7cec784ca6a964ab2caae0c7e9438aee2cc82987a508d63
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 288c96d8c877f5e3b3101080294b2f6cdeb39882
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771891"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863154"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>Het globale adresboek en andere adresboeken plannen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerpen worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken voordat u het globaal adresboek en enige aanvullende adresboeken instelt en configureert. Voor enkele beslissingen moet u de beslissingen bevestigen die voor andere gebieden van het product zijn gemaakt, zoals de organisatiehiërarchie.
+In dit artikel worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken voordat u het globaal adresboek en enige aanvullende adresboeken instelt en configureert. Voor enkele beslissingen moet u de beslissingen bevestigen die voor andere gebieden van het product zijn gemaakt, zoals de organisatiehiërarchie.
 
 ## <a name="global-address-book"></a>Algemeen adresboek
 

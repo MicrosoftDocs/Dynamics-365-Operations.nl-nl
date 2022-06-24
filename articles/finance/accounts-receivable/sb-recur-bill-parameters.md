@@ -1,6 +1,6 @@
 ---
 title: Terugkerende contractfactureringsparameters
-description: In dit onderwerp wordt uitgelegd hoe u de standaardwaarden kunt instellen voor factureringsplanningen die worden gemaakt in Terugkerende contractfacturering. Daarnaast wordt uitgelegd hoe u factureringsplanningsgroepen maakt.
+description: In dit artikel wordt uitgelegd hoe u de standaardwaarden kunt instellen voor factureringsplanningen die worden gemaakt in Terugkerende contractfacturering. Daarnaast wordt uitgelegd hoe u factureringsplanningsgroepen maakt.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 19fe77ade0523aa7fd6382266457fd739df46d75
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: cb60253f3cbb8c991ef2e106abdb1c685bf22171
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685826"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903329"
 ---
 # <a name="recurring-contract-billing-parameters"></a>Terugkerende contractfactureringsparameters
 
@@ -27,7 +27,7 @@ Op de pagina **Terugkerende contractfactureringsparameters** stelt u de standaar
 
 ## <a name="general-tab"></a>Tabblad Algemeen
 
-1. Selecteer op de pagina **Terugkerende contractfactureringsparameters** op het tabblad **Algemeen** in het veld **Factureringsplanningsgroep** een factureringsplanningsgroep. Raadpleeg het gedeelte [Factureringsplanningsgroepen](#set-up-billing-schedule-groups) verderop in dit onderwerp voor informatie over het instellen van factureringsplanningsgroepen.
+1. Selecteer op de pagina **Terugkerende contractfactureringsparameters** op het tabblad **Algemeen** in het veld **Factureringsplanningsgroep** een factureringsplanningsgroep. Raadpleeg het gedeelte [Factureringsplanningsgroepen](#set-up-billing-schedule-groups) verderop in dit artikel voor informatie over het instellen van factureringsplanningsgroepen.
 2. Selecteer in het veld **Beëindigingstype** hoe de eindfactuur wordt berekend wanneer een factureringsplanningen wordt beëindigd:
 
     - **Planning aanpassen**: kap het factureringsschema af op de einddatum, stel de status van het schema in op **Laatste facturering** en pas de bijbehorende uitstelplanning aan door het bedrag terug te boeken dat niet meer hoeft te worden toegerekend. Als de begindatum van de facturering na de beëindigingsdatum valt, worden de resterende factureringsperioden verwijderd.

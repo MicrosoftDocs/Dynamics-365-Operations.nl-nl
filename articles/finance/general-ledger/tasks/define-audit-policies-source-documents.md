@@ -1,6 +1,6 @@
 ---
-title: Auditbeleid voor brondocumenten definiëren
-description: In dit onderwerp wordt beschreven hoe u controlebeleidsregels instelt en uitvoert.
+title: Controlebeleid voor brondocumenten definiëren
+description: In dit artikel wordt beschreven hoe u controlebeleidsregels instelt en uitvoert.
 author: panolte
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e8698dd2c14321498d23efe1d01be274c56d5721
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: b8aa106cd5a5596f6b9a6663390e03ebc3f91a7b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713777"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872523"
 ---
-# <a name="define-audit-policies-for-source-documents"></a>Auditbeleid voor brondocumenten definiëren
+# <a name="define-audit-policies-for-source-documents"></a>Controlebeleid voor brondocumenten definiëren
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u controlebeleidsregels instelt en uitvoert. Het voorbeeld gebruikt onkostennota's met het type hotelkosten. Bij deze procedure wordt het demobedrijf USMF gebruikt. De auditorrol bevat de juiste machtigingen om deze taken uit te voeren.
+In dit artikel wordt beschreven hoe u controlebeleidsregels instelt en uitvoert. Het voorbeeld gebruikt onkostennota's met het type hotelkosten. Bij deze procedure wordt het demobedrijf USMF gebruikt. De auditorrol bevat de juiste machtigingen om deze taken uit te voeren.
 
 1. Ga in het navigatievenster naar **Modules > Controleworkbench > Instellingen > Beleidsregeltype**.
 2. Selecteer **Nieuw**.

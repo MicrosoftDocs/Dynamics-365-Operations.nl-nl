@@ -1,6 +1,6 @@
 ---
 title: Ondersteuning en verlengingen
-description: In dit onderwerp wordt uitgelegd hoe u het ondersteunings- en verlengingsproces voor verkooporders kunt instellen en gebruiken om een factureringsplanning voor verlengingsartikelen te maken.
+description: In dit artikel wordt uitgelegd hoe u het ondersteunings- en verlengingsproces voor verkooporders kunt instellen en gebruiken om een factureringsplanning voor verlengingsartikelen te maken.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 7de74f2b12e8e7201663ba78d936131b301b1ff9
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b40e0136883d909755480a3ce101627297bd9ffb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685765"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896516"
 ---
 # <a name="support-and-renewals"></a>Ondersteuning en verlengingen 
 
-In dit onderwerp wordt uitgelegd hoe u ondersteunings- of vernieuwingsartikelen kunt invoeren wanneer u verkooporders invoert. Deze artikelen worden gebruikt om het toeslagbedrag voor het oorspronkelijke ondersteuningscontract en/of het verlengingsbedrag te berekenen dat wordt gebruikt wanneer een factureringsplanning wordt gemaakt in Facturering van abonnementen. Stel dat uw bedrijf een server aan een klant verkoopt en u een abonnement voor databack-ups voor het eerste jaar aanbiedt met de optie om dat abonnement elk jaar te verlengen. Het *ondersteuningsartikel* is het abonnement voor het eerste jaar en het *verlengingsartikel* is de verlenging voor elk volgend jaar.
+In dit artikel wordt uitgelegd hoe u ondersteunings- of verlengingsartikelen kunt invoeren wanneer u verkooporders invoert. Deze artikelen worden gebruikt om het toeslagbedrag voor het oorspronkelijke ondersteuningscontract en/of het verlengingsbedrag te berekenen dat wordt gebruikt wanneer een factureringsplanning wordt gemaakt in Facturering van abonnementen. Stel dat uw bedrijf een server aan een klant verkoopt en u een abonnement voor databack-ups voor het eerste jaar aanbiedt met de optie om dat abonnement elk jaar te verlengen. Het *ondersteuningsartikel* is het abonnement voor het eerste jaar en het *verlengingsartikel* is de verlenging voor elk volgend jaar.
 
 U kunt informatie invoeren voor het ondersteuningscontract, het verlengingscontract of beide. Wanneer u de gegevens van het ondersteuningscontract invoert, wordt alleen het ondersteuningsartikel aan de verkooporder toegevoegd. Wanneer u de gegevens van het verlengingscontract invoert, wordt het vernieuwingsartikel gebruikt om een factureringsplanning te maken.
 

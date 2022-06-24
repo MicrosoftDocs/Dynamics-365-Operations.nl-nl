@@ -1,6 +1,6 @@
 ---
 title: Power BI-inhoud Metrische gegevens personeel
-description: In dit onderwerp wordt de Power BI-inhoud Metrische gegevens personeel besproken.
+description: In dit artikel wordt de Power BI-inhoud Metrische gegevens personeel beschreven.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9393b4dcc6cb5f65d38c6904bf38def9d50af281671e0e09314148824f3e6891
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e45e4fb58bd535b66b7ad0dad8c4efa37e4336b7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757268"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884483"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>Power BI-inhoud Metrische gegevens personeel
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt de Microsoft Power BI-inhoud **Metrische gegevens personeel** besproken. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+In dit artikel wordt de Microsoft Power BI-inhoud **Metrische gegevens personeel** beschreven. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud
 De Power BI-inhoud **Metrische gegevens personeel** wordt weergegeven in het werkgebied **Personeelsbeheer** als u een van deze producten gebruikt:

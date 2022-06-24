@@ -1,6 +1,6 @@
 ---
 title: Bedrijfsconcept in Dataverse
-description: In dit onderwerp wordt de integratie van bedrijfsgegevens tussen Finance and Operations en Dataverse beschreven.
+description: In dit artikel wordt de integratie van bedrijfsgegevens tussen apps voor financiën en bedrijfsactiviteiten en Dataverse beschreven.
 author: RamaKrishnamoorthy
 ms.date: 08/04/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 3657e41363ca6c1ce8eabfeaf3ba6da9b93f5e2a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 11355031714b7e046f70bd5840297d66aa7d32e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061021"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873173"
 ---
 # <a name="company-concept-in-dataverse"></a>Bedrijfsconcept in Dataverse
 
@@ -49,7 +49,7 @@ Vanwege deze configuratie is elke rij die is gerelateerd aan het bedrijf USMF, e
 
 Zoals u in de voorgaande afbeelding kunt zien, is deze 1:1-toewijzing tussen bedrijfseenheid, bedrijf en team slechts een beginpunt. In dit voorbeeld wordt in Dataverse handmatig een nieuwe bedrijfseenheid Europa gemaakt als bovenliggend element voor zowel DEMF als ESMF. Deze nieuwe bedrijfseenheid in de basismap is niet gerelateerd aan Twee keer wegschrijven. Deze kan echter worden gebruikt om leden van het team EUR Sales toegang te geven tot accountgegevens in zowel DEMF als ESMF, door de zichtbaarheid van gegevens in te stellen op **Bovenliggende/onderliggende bedrijfseenheid** in de bijbehorende beveiligingsrol.
 
-In een laatste onderwerp wordt beschreven hoe Twee keer wegschrijven bepaalt aan welk eigenaarsteam rijen moeten worden toegewezen. Dit gedrag wordt bepaald met de kolom **Standaardeigenaarsteam** van de cdm\_Company-rij. Wanneer een cdm\_Company-rij is ingeschakeld voor Twee keer wegschrijven, maakt een invoegtoepassing automatisch de gekoppelde bedrijfseenheid en het eigenaarsteam (als dit nog niet bestaat) en wordt de kolom **Standaardeigenaarsteam** ingesteld. De beheerder kan deze kolom wijzigen in een andere waarde. De beheerder kan de kolom echter niet wissen zolang de tabel is ingeschakeld voor Twee keer wegschrijven.
+In een laatste artikel wordt beschreven hoe Twee keer wegschrijven bepaalt aan welk eigenaarsteam rijen moeten worden toegewezen. Dit gedrag wordt bepaald met de kolom **Standaardeigenaarsteam** van de cdm\_Company-rij. Wanneer een cdm\_Company-rij is ingeschakeld voor Twee keer wegschrijven, maakt een invoegtoepassing automatisch de gekoppelde bedrijfseenheid en het eigenaarsteam (als dit nog niet bestaat) en wordt de kolom **Standaardeigenaarsteam** ingesteld. De beheerder kan deze kolom wijzigen in een andere waarde. De beheerder kan de kolom echter niet wissen zolang de tabel is ingeschakeld voor Twee keer wegschrijven.
 
 > [!div class="mx-imgBorder"]
 ![Kolom Standaardeigenaarsteam.](media/dual-write-default-owning-team.jpg)

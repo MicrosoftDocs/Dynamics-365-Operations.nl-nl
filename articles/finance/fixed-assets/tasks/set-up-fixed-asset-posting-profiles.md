@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2964be0b02d6a5553bad9a1b3788a5f1efb208ee
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: be8001428cf2df111458fddd0ecbcdae0daf9b25
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725256"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863067"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Boekingsprofielen voor vaste activa instellen
 
 [!include [banner](../../includes/banner.md)]
 
-Deze procedure laat zien hoe u boekingsprofielen voor vaste activa moet instellen. De voorbeelden in het onderwerp zijn voor een basisboekingsprofiel, hoewel de boekingsprofielen voor uw specifieke rekeningschema en financiële rapportagebehoeften moeten worden gemaakt.
+Deze procedure laat zien hoe u boekingsprofielen voor vaste activa moet instellen. De voorbeelden in het artikel zijn voor een basisboekingsprofiel, hoewel de boekingsprofielen voor uw specifieke rekeningschema en financiële rapportagebehoeften moeten worden gemaakt.
 
 1. Ga in het navigatievenster naar **Modules > Vaste activa > Instellen > Boekingsprofielen vaste activa**.
 2. Klik op **Nieuw**.

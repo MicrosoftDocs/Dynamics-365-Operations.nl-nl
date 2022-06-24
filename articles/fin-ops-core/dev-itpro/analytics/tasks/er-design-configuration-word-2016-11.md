@@ -1,6 +1,6 @@
 ---
 title: ER-configuraties opnieuw gebruiken met Excel-sjablonen om rapporten te genereren in Word-indeling
-description: In dit onderwerp wordt beschreven hoe rapportindelingen die zijn ontworpen om rapporten als Excel-werkmappen te genereren, kunnen worden geconfigureerd om rapporten als Word-documenten te genereren.
+description: In dit artikel wordt beschreven hoe rapportindelingen die zijn ontworpen om rapporten als Excel-werkmappen te genereren, kunnen worden geconfigureerd om rapporten als Word-documenten te genereren.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: de8286c7612cd588b28cf4667340374906962dde
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 1e0fe9ba55be435fb214c9d0885dd4ef942f5081
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324057"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910381"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>ER-configuraties opnieuw gebruiken met Excel-sjablonen om rapporten te genereren in Word-indeling
 

@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 866db1307484fd35949e87d02ca17ef0555bb654
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 729fc6a1172d651a24cc0a3bff765b09263e3cd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062256"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903094"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-developers"></a>Trainingscatalogus voor Dynamics 365 Finance-ontwikkelaars
 

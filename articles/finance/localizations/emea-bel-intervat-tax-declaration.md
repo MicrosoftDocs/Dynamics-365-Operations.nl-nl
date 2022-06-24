@@ -1,8 +1,8 @@
 ---
 title: INTERVAT-belastingaangifte
-description: Dit onderwerp biedt land-/regiospecifieke informatie over het instellen en maken van de INTERVAT-belastingaangifte voor rechtspersonen in alleen België.
+description: Dit artikel biedt land-/regiospecifieke informatie over het instellen en maken van de INTERVAT-belastingaangifte voor rechtspersonen in alleen België.
 author: anasyash
-ms.date: 05/02/2022
+ms.date: 06/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,20 +14,22 @@ ms.search.region: Belgium
 ms.author: anasyash
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: 68f65b759c6004700a3a5216e92af6b8e4dbf516
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 68c7fc39b462c5ec4171d160bd7c0b05227b5d24
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674182"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883101"
 ---
 # <a name="intervat-tax-declaration"></a>INTERVAT-belastingaangifte
 
 [!include [banner](../includes/banner.md)]
+> [!NOTE]
+> Deze functie is vervangen door de functionaliteit voor btw-aangifte. Zie [Btw-aangifte (België)](emea-bel-vat-declaration-belgium.md) voor meer informatie.
 
 ## <a name="overview"></a>Overzicht
 
-Dit onderwerp biedt land-/regiospecifieke informatie over het instellen en maken van de INTERVAT-belastingaangifte voor rechtspersonen in België.
+Dit artikel biedt land-/regiospecifieke informatie over het instellen en maken van de INTERVAT-belastingaangifte voor rechtspersonen in België.
 
 U kunt de INTERVAT-btw-aangifte als een XML-bestand maken. U kunt ook een voorbeeld weergeven van de bedragen van de btw-aangifte in een afdrukbare indeling.
 
@@ -90,7 +92,7 @@ De volgende vereisten moeten worden ingesteld voordat u begint te werken met de 
 
 Als het veld **Btw-correctie** is ingeschakeld voor een btw-aangiftecode, is die code beschikbaar voor selectie op de pagina **Aanvullende btw-rapportvakken**.
 
-Voorbeelden van btw-aangiftecodes worden gegeven in het gedeelte [Btw-aangiftecodes instellen](#set-up-sales-tax-reporting-codes), verderop in dit onderwerp.
+Voorbeelden van btw-aangiftecodes worden gegeven in het gedeelte [Btw-aangiftecodes instellen](#set-up-sales-tax-reporting-codes), verderop in dit artikel.
 
 ### <a name="sales-tax-codes"></a>Btw-codes
 
@@ -642,7 +644,7 @@ Voer de volgende stappen uit om handmatige correctiebedragen in te voeren.
 > [!NOTE]
 > Bestaande aangiftecodes die worden gebruikt voor creditnota's. zoals code **8185**, zijn niet beschikbaar voor selectie. Codes **71**, **72** en **91** zijn ook niet beschikbaar. Codes **71** en **72** worden automatisch berekend wanneer Belgische btw-aangifte wordt uitgevoerd. Code **91** wordt op een andere manier ingevoerd (zie omschrijving van het veld **Voorschot** hierboven).
 >
-> Als een belastingperiode wordt bijgewerkt, worden een boekstuknummer en een datum weergegeven. (Zie voor meer informatie de omschrijving van het selectievakje **Update** in de sectie [Een INTERVAT-btw-aangifte genereren](#generate-an-intervat-tax-declaration), verderop in dit onderwerp.) De periode die een boekstuknummer en een datum heeft, is een afgesloten btw-periode voor België. Daarom zijn alle waarden op het tabblad **Algemeen** van de pagina **Btw-correcties** alleen-lezen. Wanneer er nieuwe transacties met belastingen zijn ingevoerd voor de afgesloten btw-periode, wordt de btw doorgestuurd naar de volgende beschikbare openstaande belastingperiode.
+> Als een belastingperiode wordt bijgewerkt, worden een boekstuknummer en een datum weergegeven. (Zie voor meer informatie de omschrijving van het selectievakje **Update** in de sectie [Een INTERVAT-btw-aangifte genereren](#generate-an-intervat-tax-declaration), verderop in dit artikel.) De periode die een boekstuknummer en een datum heeft, is een afgesloten btw-periode voor België. Daarom zijn alle waarden op het tabblad **Algemeen** van de pagina **Btw-correcties** alleen-lezen. Wanneer er nieuwe transacties met belastingen zijn ingevoerd voor de afgesloten btw-periode, wordt de btw doorgestuurd naar de volgende beschikbare openstaande belastingperiode.
 
 
 ## <a name="generate-an-intervat-tax-declaration"></a>Een INTERVAT-btw-aangifte genereren
@@ -673,12 +675,12 @@ U kunt de belastingperiode ook afsluiten door een btw-betaling te genereren (**B
 | **Veld**                        | **Beschrijving**                                                                                                                                                                                                                                                                           |
 |----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bedrijfsnaam                     | De bedrijfsnaam.                                                                                                                                                                                                                                                                         |
-| Btw-nummer                 | Het btw-registratienummer dat wordt overgenomen uit de instelling die u hebt gedefinieerd in de sectie [Vereisten](#prerequisites), eerder in dit onderwerp.                                                                                                                                   |
+| Btw-nummer                 | Het btw-registratienummer dat wordt overgenomen uit de instelling die u hebt gedefinieerd in de sectie [Vereisten](#prerequisites), eerder in dit artikel.                                                                                                                                   |
 | Ondernemingsnummer                | Het ondernemingsnummer dat wordt overgenomen uit de instelling die u hebt gedefinieerd in de sectie [Vereisten](#prerequisites), eerder in dit onderwerp.                                                                                                                                                               |
 | Telefoon, e-mail                 | Contactgegevens die worden overgenomen uit de instelling die u hebt gedefinieerd in de sectie [Vereisten](#prerequisites), eerder in dit onderwerp.                                                                                                                                                                 |
 | Aanvraag van teruggaaf        | Schakel dit selectievakje in om een terugbetaling van de belasting aan te vragen.                                                                                                                                                                                                                                  |
 | Aanvraag van betalingsformulieren        | Schakel dit selectievakje in om betalingspagina's voor de INTERVAT-belastingaangifte aan te vragen.                                                                                                                                                                                                         |
-| Geen jaaroverzichten               | Een aangevinkt selectievakje geeft aan dat deze aangifte een lege aangifte is. De waarde wordt overgenomen van de pagina **Aanvullende btw-rapportvakken**, die wordt beschreven in de sectie [Aanvullende btw-rapportvakken](#additional-sales-tax-report-boxes), eerder in dit onderwerp |
+| Geen jaaroverzichten               | Een aangevinkt selectievakje geeft aan dat deze aangifte een lege aangifte is. De waarde wordt overgenomen van de pagina **Aanvullende btw-rapportvakken**, die wordt beschreven in de sectie [Aanvullende btw-rapportvakken](#additional-sales-tax-report-boxes), eerder in dit artikel |
 | Vervangen btw-aangifte         | Het identificatienummer van de aangifte, om te vervangen wat u hebt gedefinieerd in het dialoogvenster **INTERVAT: Belgisch btw-aangifte**, dat eerder in deze sectie is beschreven.                                                                                                          |
 | Sectie **Omslagpercentages** | Controleer de bedragen in de velden **Omslagpercentage**, **B1**, **B2**, **B3**, **B4** en **B5**, die u hebt gedefinieerd op de pagina **Aanvullende btw-rapportvakken** die wordt beschreven in de sectie [Aanvullende btw-rapportvakken](#additional-sales-tax-report-boxes).         |
 

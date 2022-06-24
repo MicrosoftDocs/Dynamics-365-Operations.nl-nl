@@ -1,6 +1,6 @@
 ---
 title: Leasebetalingen die zijn gekoppeld aan een indextarief herwaarderen
-description: Dit onderwerp beschrijft de correctie die wordt uitgevoerd om de aansprakelijkheid voor een RoU-activum te leasen wanneer variabele leasebetalingen veranderen vanwege een wijziging in het indextarief.
+description: Dit artikel beschrijft de correctie die wordt gemaakt in de leaseverplichting voor een RoU-activum (activum met gebruiksrecht) wanneer variabele leasebetalingen veranderen vanwege een wijziging in het indextarief.
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5abd1f5d265c6e8b53903e6df5c52a06b3468880
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 8dc2325e9f0651bea0d70d9f66e5d88b741009f8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968047"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903242"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>Leasebetalingen die zijn gekoppeld aan een indextarief herwaarderen
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp beschrijft de correctie die wordt uitgevoerd op de leaseverplichting van een RoU-activum wanneer variabele leasebetalingen veranderen vanwege een wijziging in het indextarief. De leaseverplichtingen en het RoU-activum worden gecorrigeerd met de nieuwe betalingsbedragen. Onder Accounting Standards Codification Topic 842 (ASC 842), de standaard in algemeen geaccepteerde boekhoudprincipes in de V.S. (VS GAAP), veranderen alleen de variabele betalingen wanneer betalingen toenemen of afnemen vanwege een wijziging in het indextarief, tenzij er extra wijzigingen zijn in de kasstromen. Deze aanvullende wijzigingen kunnen een wijziging in de leasevoorwaarden omvatten die gerelateerd is aan rentetarieven. Zie ASC 842-10-55-225 en alinea 42(b) van International Financial Reporting Standard 16 (IFRS 16) voor meer informatie.
+Dit artikel beschrijft de correctie die wordt gemaakt in de leaseverplichting voor een RoU-activum wanneer variabele leasebetalingen veranderen vanwege een wijziging in het indextarief. De leaseverplichtingen en het RoU-activum worden gecorrigeerd met de nieuwe betalingsbedragen. Onder Accounting Standards Codification Topic 842 (ASC 842), de standaard in algemeen geaccepteerde boekhoudprincipes in de V.S. (VS GAAP), veranderen alleen de variabele betalingen wanneer betalingen toenemen of afnemen vanwege een wijziging in het indextarief, tenzij er extra wijzigingen zijn in de kasstromen. Deze aanvullende wijzigingen kunnen een wijziging in de leasevoorwaarden omvatten die gerelateerd is aan rentetarieven. Zie ASC 842-10-55-225 en alinea 42(b) van International Financial Reporting Standard 16 (IFRS 16) voor meer informatie.
 
 ## <a name="adjust-lease-payments"></a>Leasebetalingen aanpassen
 

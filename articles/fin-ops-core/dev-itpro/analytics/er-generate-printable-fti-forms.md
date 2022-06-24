@@ -1,6 +1,6 @@
 ---
 title: Afdrukbare FTI-formulieren genereren
-description: In dit onderwerp wordt uitgelegd hoe het raamwerk voor elektronische rapportage (ER) kan worden gebruikt voor het genereren van afdrukbare vrije-tekstfactuurformulieren (FTI) als Microsoft Office-documenten.
+description: In dit artikel wordt uitgelegd hoe het raamwerk voor elektronische rapportage (ER) kan worden gebruikt voor het genereren van afdrukbare vrije-tekstfactuurformulieren (FTI) als Microsoft Office-documenten.
 author: NickSelin
 ms.date: 07/24/2018
 ms.topic: article
@@ -14,25 +14,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: be5e3ef0f6ecb3d8f911b5be5f8bc9102d201fd299425e847a2df233d9b4edf4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d4efbb46bbba2b139bbcf9b07c480a7e8669fd7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758211"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868824"
 ---
 # <a name="generate-printable-fti-forms"></a>Afdrukbare FTI-formulieren genereren
 
 [!include[banner](../includes/banner.md)]
 
-Met het raamwerk voor elektronische rapportage (ER) kunt u afdrukbare vrije-tekstfactuurformulieren (FTI) genereren als Microsoft Office-documenten. Dit onderwerp bevat informatie over het bouwen van uw eigen configuraties, evenals details van beschikbare configuratiesjablonen.
+Met het raamwerk voor elektronische rapportage (ER) kunt u afdrukbare vrije-tekstfactuurformulieren (FTI) genereren als Microsoft Office-documenten. Dit artikel bevat informatie over het bouwen van uw eigen configuraties, evenals details van beschikbare configuratiesjablonen.
 
 ## <a name="overview"></a>Overzicht
 
 Naast de bestaande mogelijkheid van het genereren van afdrukbare FTI-formulieren met behulp van Microsoft SQL Server Reporting Services (SSRS), kunt u hiervoor nu ook het ER-raamwerk gebruiken. U kunt afdrukbare FTI-formulieren beheren in Microsoft Office Excel en Word. U kunt ook de lay-out, gegevensstroom en opmaak wijzigen om in specifieke behoeften te voorzien zonder codewijzigingen uit te voeren.
 
 > [!NOTE]
-> Als u wilt beginnen met een overzicht van bestaande ER-configuraties voor dit voorbeeld van de oplossing voor afdrukbare FTI-formulieren, gaat u rechtstreeks naar de sectie **Voorbeelden van ER-configuraties voor het genereren van afdrukbare FTI-formulieren downloaden** verderop in dit onderwerp.
+> Als u wilt beginnen met een overzicht van bestaande ER-configuraties voor dit voorbeeld van de oplossing voor afdrukbare FTI-formulieren, gaat u rechtstreeks naar de sectie **Voorbeelden van ER-configuraties voor het genereren van afdrukbare FTI-formulieren downloaden** verderop in dit artikel.
 
 ## <a name="create-customized-configurations-for-fti-printable-forms"></a>Aangepaste configuraties maken voor afdrukbare FTI-formulieren
 Als onderdeel van uw aangepaste oplossing voor afdrukbare FTI-formulieren, moet u een reeks ER-configuraties maken.

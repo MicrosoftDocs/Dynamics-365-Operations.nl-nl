@@ -1,6 +1,6 @@
 ---
 title: Een gegevensintegratieproject maken
-description: In dit onderwerp wordt uitgelegd hoe u een gegevensintegratieproject maakt.
+description: In dit artikel wordt uitgelegd hoe u een gegevensintegratieproject maakt.
 author: ShivamPandey-msft
 ms.date: 05/06/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4d69ffcb6ccfcc7bae2891f2539941f7b6bbf86e
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 4ff4f88c6c5d55d853aebd7d437bfb107292fb2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722878"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876235"
 ---
 # <a name="create-a-data-integration-project"></a>Een gegevensintegratieproject maken
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u een gegevensintegratieproject maakt.
+In dit artikel wordt uitgelegd hoe u een gegevensintegratieproject maakt.
 
 1. Meld u aan bij Microsoft Dynamics 365 Finance.
 2. Ga naar **Werkgebieden \> Gegevensbeheer** en selecteer **Gegevensentiteiten**. Wacht totdat alle gegevensentiteiten zijn vernieuwd voordat u naar de volgende stap gaat.

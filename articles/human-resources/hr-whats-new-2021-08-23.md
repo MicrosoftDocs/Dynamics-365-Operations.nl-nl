@@ -1,6 +1,6 @@
 ---
 title: Nieuwe of gewijzigde functies in Dynamics 365 Human Resources, 23 augustus 2021
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 23 augustus 2021.
+description: In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 23 augustus 2021.
 author: marcelbf
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-08-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 21c3448c373600ffebca82be41fb5849b952dfe1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 91c2cd396ca26cc78c3fd4fab40a29b98a7826c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686822"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909725"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-23-2021"></a>Nieuwe of gewijzigde functies in Dynamics 365 Human Resources, 23 augustus 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn of die binnenkort worden vrijgegeven in Microsoft Dynamics 365 Human Resources.
+In dit artikel worden de functies beschreven die nieuw, gewijzigd of binnenkort beschikbaar zijn in Microsoft Dynamics 365 Human Resources.
 
 Zie [Updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces en de planning.
 
@@ -40,9 +40,9 @@ Deze versie bevat de volgende nieuwe functies en correcties. Wijzigingen die van
 Deze versie bevat de volgende correcties.
 
 > [!NOTE]
-> Ons doel is om deze informatie zo snel mogelijk bij u te krijgen. Mogelijk wordt dit onderwerp gewijzigd om correcties op te nemen die in de build zijn gemaakt nadat dit onderwerp oorspronkelijk werd gepubliceerd.
+> Ons doel is om deze informatie zo snel mogelijk bij u te krijgen. Mogelijk wordt dit artikel gewijzigd om correcties op te nemen die in de build zijn gemaakt nadat dit artikel oorspronkelijk werd gepubliceerd.
 
-| Probleemnummer | Probleem | Beschrijving |
+| Probleemnummer | Probleem | Description |
 | --- | --- | --- |
 | 594066 | Contactgegevens kunnen niet worden verwijderd | Wanneer u een andere record voor contactinformatie voor een werknemer selecteert dan de geselecteerde record, wordt deze verwijderd. |
 | 611339 | Wanneer u een personalisatie toevoegt, negeert de bankrekening het filter en wordt de eerste record opgehaald | Als u een personalisatie toevoegt, wordt er door de bankrekeninglijst een personalisatiequery uitgevoerd nadat de gegevensbronquery is uitgevoerd, wat tot gevolg heeft dat de bovenste record wordt opgehaald, ongeacht de werknemer voor wie de gegevens worden weergegeven. |

@@ -1,6 +1,6 @@
 ---
 title: Boekdefinities
-description: Dit onderwerp bevat informatie over boekdefinities en hoe u deze definieert en koppelt. Voor ondersteunde boekingstypen en documenten kunt u boekdefinities in plaats van boekingsprofielen gebruiken om hoofdrekeningen en financiële dimensies voor boekhoudvermeldingen te classificeren.
+description: Dit artikel bevat informatie over boekdefinities en hoe u deze definieert en koppelt. Voor ondersteunde boekingstypen en documenten kunt u boekdefinities in plaats van boekingsprofielen gebruiken om hoofdrekeningen en financiële dimensies voor boekhoudvermeldingen te classificeren.
 author: kweekley
 ms.date: 09/03/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 056300768aa0bc5e1981e1d43de03fabba21a5fa
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: f60506e039623ae7a97f6b4e835f751da15ac0c1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722005"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898144"
 ---
 # <a name="posting-definitions"></a>Boekdefinities
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat informatie over boekdefinities en hoe u deze definieert en koppelt.
+Dit artikel bevat informatie over boekdefinities en hoe u deze definieert en koppelt.
 Voor ondersteunde boekingstypen en documenten kunt u boekdefinities in plaats van boekingsprofielen gebruiken om hoofdrekeningen en financiële dimensies voor boekhoudvermeldingen te classificeren. U kunt de ondersteunde documenten en boekingstypen op de pagina **Boekdefinities voor transacties** weergeven. 
 
 Als u boekdefinities wilt gaan gebruiken, selecteert u de optie **Boekdefinities gebruiken** op de pagina **Grootboekparameters**. Zelfs wanneer u boekdefinities gebruikt, moet u nog steeds boekingsprofielen definiëren voor de oorspronkelijke vermeldingen en niet-ondersteunde boekingstypen en documenten. 

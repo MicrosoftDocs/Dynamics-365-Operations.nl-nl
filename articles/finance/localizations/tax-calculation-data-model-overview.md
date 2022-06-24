@@ -1,6 +1,6 @@
 ---
 title: Gegevensmodel voor belastingberekening
-description: Dit onderwerp biedt informatie over het belastinggegevensmodel en over hoe de veldwaarden van elk gegevensmodel worden bepaald door de context van belasting-berekeningstransacties.
+description: Dit artikel biedt informatie over het belastinggegevensmodel en over hoe de veldwaarden van elk gegevensmodel worden bepaald door de context van belastingberekeningstransacties.
 author: kailiang
 ms.date: 10/15/2021
 ms.topic: overview
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 759803767111c27cba76b68430e09a0d9dd6110f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a711eb73c171cd099947b44e2376cad2455059f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694251"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859690"
 ---
 # <a name="tax-calculation-data-model"></a>Gegevensmodel voor belastingberekening
 
-Dit onderwerp biedt informatie over hoe de veldwaarden in het belastinggegevensmodel worden bepaald in belastingberekeningstransacties.
+Dit artikel bevat informatie over hoe de veldwaarden in het belastinggegevensmodel worden bepaald in belastingberekeningstransacties.
 
 Het *belastinggegevensmodel* bestaat uit velden die nodig zijn voor belasting-berekeningen. Microsoft levert het *gegevensmodel voor het berekenen van belastingen*, inclusief de koptekstvelden en regelvelden van transactiedocumenten in Finance and Operations-apps. De velden die worden gedefinieerd in het gegevensmodel voor belastingberekening zijn de beschikbare kolommen van de tabellen met regels voor toepasbaarheid in de configuratie van de configuratie van de functie voor belastingberekening.
 
@@ -99,7 +99,7 @@ Tweeëndertig datamodellen kunnen als velden in de kop van een transactie worden
 | Verzenden naar provincie/staat          | <ul><li>**Verkooporder:**<ol><li>Koptekst &gt; Leveringsadres &gt; Staat</li></ol></li><li>**Inkooporder:**<ol><li>Koptekst &gt; Leveringsadres &gt; Staat</li></ol></li><li>**Transferorder – Verzenden**<ol><li>Koptekst &gt; Naar magazijn &gt; Primair adres &gt; Staat</li><li>Koptekst &gt; Naar Locatie &gt; Primair adres &gt; Staat</li></ol></li><li>**Transferorder – Ontvangen**<ol><li>Koptekst &gt; Naar magazijn &gt; Primair adres &gt; Staat</li><li>Koptekst &gt; Naar Locatie &gt; Primair adres &gt; Staat</li></ol></li><li>**Offerteaanvraag:**<ol><li>Koptekst &gt; Leveringsadres &gt; Staat</li></ol></li><li>**Verkoopofferte:**<ol><li>Koptekst &gt; Leveringsadres &gt; staat</li></ol></li><li>**Vrije-tekstfactuur:**<ol><li>Koptekst &gt; Gebruikersaccount &gt; Standaard leveringsadres &gt; Staat</li><li>Koptekst &gt; Gebruikersaccount &gt; Primair adres &gt; Staat</li></ol></li><li>**Journaal (klant):**<ol><li>Klantrekening &gt; Standaard leveringsadres &gt; Staat</li><li>Klantrekening &gt; Primair adres &gt; Staat</li></ol></li><li>**Journaal (leverancier):**<ol><li>Rechtspersoon &gt; Standaardleveringsadres &gt; Staat</li><li>Rechtspersoon &gt; Primair adres &gt; Staat</li></ol></li></ul> |
 | Verzenden naar postcode                 | <ul><li>**Verkooporder:**<ol><li>Koptekst &gt; Leveringsadres &gt; Postcode</li></ol></li><li>**Inkooporder:**<ol><li>Koptekst &gt; Leveringsadres &gt; Postcode</li></ol></li><li>**Transferorder – Verzenden**<ol><li>Koptekst &gt; Naar magazijn &gt; Primair adres &gt; Postcode</li><li>Koptekst &gt; Naar Locatie &gt; Primair adres &gt; Postcode</li></ol></li><li>**Transferorder – Ontvangen**<ol><li>Koptekst &gt; Naar magazijn &gt; Primair adres &gt; Postcode</li><li>Koptekst &gt; Naar Locatie &gt; Primair adres &gt; Postcode</li></ol></li><li>**Offerteaanvraag:**<ol><li>Koptekst &gt; Leveringsadres &gt; Postcode</li></ol></li><li>**Verkoopofferte:**<ol><li>Koptekst &gt; Leveringsadres &gt; Postcode</li></ol></li><li>**Vrije-tekstfactuur:**<ol><li>Koptekst &gt; Gebruikersaccount &gt; Standaard leveringsadres &gt; Postcode</li><li>Koptekst &gt; Gebruikersaccount &gt; Primair adres &gt; Postcode</li></ol></li><li>**Journaal (klant):**<ol><li>Klantrekening &gt; Standaard leveringsadres &gt; Postcode</li><li>Klantrekening &gt; Primair adres &gt; Postcode</li></ol></li><li>**Journaal (leverancier):**<ol><li>Rechtspersoon &gt;Standaardleveringsadres &gt; Postcode</li><li>Rechtspersoon &gt; Primair adres &gt; Postcode</li></ol></li></ul> |
 | Site                             | <ul><li>**Verkooporder:** Locatie</li><li>**Inkooporder:** Locatie</li><li>**Transferorders - Verzenden:**  Locatie van de Van magazijn</li><li>**Transferorders - Ontvangen:**  Locatie van de Naar magazijn</li><li>**Offerteaanvraag:** Locatie</li><li>**Verkoopofferte:** Locatie</li></ul> |
-| Belastingrichting                    | <ul><li>**Criteria voor verkooporder:** Uitvoer</li><li>**Inkooporder:** Invoer</li><li>**Transferorder - Verzenden:** Output</li><li>**Transferorder – Ontvangen**: Invoer</li><li>**Opdracht tot inkoop:** Invoer</li><li>**Offerteaanvraag:** Invoer</li><li>**Verkoopofferte:** Uitvoer</li><li>**Vrije-tekstfactuur:** Uitvoer</li></ul> |
+| Belastingrichting                    | <ul><li>**Criteria voor verkooporder:** Uitvoer</li><li>**Inkooporder:** Invoer</li><li>**Transferorder - Verzenden:** Output</li><li>**Transferorder – Ontvangen**: Invoer</li><li>**Opdracht tot inkoop:** Invoer</li><li>**Offerteaanvraag:** Invoer</li><li>**Verkoopofferte:** Uitvoer</li><li>**Vrije-tekstfactuur:** Uitvoer</li><li>**Journaal:** uitvoer</li></ul> |
 | Leverancierrekening                   | <ul><li>**Inkooporder:** Leverancieraccount</li><li>**Journaal (leverancier):** leverancierrekening</li></ul> |
 | Te factureren leverancierrekening           | <ul><li>**Inkooporder:** Factuurraccount</li><li>**Journaal (leverancier):**<ol><li>Leveranciermodel &gt; factuurrekening</li><li>Leverancierrekening</li></ol></li></ul> |
 | Magazijn                        | <ul><li>**Verkooporder.** Magazijn</li><li>**Inkooporder:** Magazijn</li><li>**Transferorder - Verzenden:** Van magazijn</li><li>**Transferorder - Ontvangen:** Naar magazijn</li><li>**Offerteaanvraag:** Magazijn</li><li>**Verkoopofferte:** Magazijn</li></ul> |

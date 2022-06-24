@@ -1,6 +1,6 @@
 ---
 title: Afschrijving vaste activa
-description: Dit onderwerp bevat een overzicht van de afschrijving in vaste activa.
+description: Dit artikel bevat een overzicht van de afschrijving in vaste activa.
 author: moaamer
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2442830766ef1dccc109db5569bfbbbc8182f027
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: b4fedee481b4066c81671cf1fca3781c8c75aaeb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890975"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874518"
 ---
 # <a name="fixed-asset-depreciation"></a>Afschrijving vaste activa
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Dit onderwerp bevat een overzicht van de afschrijving in vaste activa.
+Dit artikel bevat een overzicht van de afschrijving in vaste activa.
 
 Afschrijving is een periodieke transactie die doorgaans de waarde van het vaste activum in de balans verlaagt en als uitgave in een winst-en-verliesrekening wordt geboekt. Daarom wordt een hoofdrekening gewoonlijk gebruikt voor de creditering van de periodieke afschrijving op de balans. Een tegenrekening is een rekening in het winst-en verliesgedeelte van het rekeningschema.
 

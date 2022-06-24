@@ -1,6 +1,6 @@
 ---
 title: Intercompany-boekhouding instellen
-description: In dit onderwerp wordt uitgelegd hoe u intercompany-boekhouding kunt instellen zodat u intercompany-journalen voor grootboektoewijzingen en financiële journalen, zoals dagelijkse journalen, factuurjournalen van leveranciers en betalingsjournalen, kunt gebruiken.
+description: In dit artikel wordt uitgelegd hoe u intercompany-boekhouding kunt instellen zodat u intercompany-journalen voor grootboektoewijzingen en financiële journalen, zoals dagelijkse journalen, factuurjournalen van leveranciers en betalingsjournalen, kunt gebruiken.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c9914d9fff3407d8d469fe2ed27a9bfd6b26a50
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 309c121c1ef4b3814d676cad6f3c2b6826b59843
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720360"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871212"
 ---
 # <a name="intercompany-accounting-setup"></a>Intercompany-boekhouding instellen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u intercompany-boekhouding kunt instellen zodat u intercompany-journalen voor grootboektoewijzingen en financiële journalen, zoals dagelijkse journalen, factuurjournalen van leveranciers en betalingsjournalen, kunt gebruiken.
+In dit artikel wordt uitgelegd hoe u intercompany-boekhouding kunt instellen zodat u intercompany-journalen voor grootboektoewijzingen en financiële journalen, zoals dagelijkse journalen, factuurjournalen van leveranciers en betalingsjournalen, kunt gebruiken.
 
 Intercompany-journalen kunnen in diverse scenario's worden gemaakt, zoals voor dagelijkse journalen, factuurjournalen voor leveranciers, grootboektoewijzingen en gecentraliseerde betalingen. Om deze scenario's in te schakelen moet u intercompany-boekhouding instellen.
 

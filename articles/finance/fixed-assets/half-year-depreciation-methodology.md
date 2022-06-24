@@ -1,6 +1,6 @@
 ---
 title: Methodologie van afschrijvingsconventie van een half jaar
-description: In dit onderwerp wordt beschreven welke methode voor vaste activa wordt gebruikt om de afschrijving te berekenen op basis van de conventie van een half jaar, waarmee zes maanden van afschrijving wordt berekend tijdens het eerste en laatste jaar van gebruik van het activum.
+description: In dit artikel wordt beschreven welke methode voor vaste activa wordt gebruikt om de afschrijving te berekenen op basis van de conventie van een half jaar, waarmee zes maanden van afschrijving wordt berekend tijdens het eerste en laatste jaar van gebruik van het activum.
 author: moaamer
 ms.date: 08/17/2019
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: fb15a293bb8cec1b4faba7bcbd29eb4df7916786
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: fac20f7a31eca7922ed079f9554437f28448620d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720387"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879590"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>Methodologie van afschrijvingsconventie van een half jaar
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-In dit onderwerp wordt beschreven welke methode voor vaste activa wordt gebruikt om afschrijving te berekenen op basis van de conventie van een half jaar. De conventie van een half jaar berekent zes maanden afschrijving gedurende het eerste en laatste gebruiksjaar van het activum. Zie voor meer informatie [Afschrijvingsmethoden en conventies](Fixed-asset-depreciation-conventions.md). 
+In dit artikel wordt beschreven welke methode voor vaste activa wordt gebruikt om afschrijving te berekenen op basis van de conventie van een half jaar. De conventie van een half jaar berekent zes maanden afschrijving gedurende het eerste en laatste gebruiksjaar van het activum. Zie voor meer informatie [Afschrijvingsmethoden en conventies](Fixed-asset-depreciation-conventions.md). 
 
 Wanneer u de afschrijvingsconventie van zes maanden gebruikt, gebruikt het systeem het aankoopjaar of het jaar waarin het activum in gebruik is genomen, worden de vijf jaar afschrijving vanaf dat jaar berekend en worden er vervolgens zes maanden bij opgeteld. Stel dat een activum is aangeschaft voor de prijs van 50.000 en in gebruik is genomen in april 2020. Stel daarnaast dat het activum een levensduur van vijf jaar heeft.
 

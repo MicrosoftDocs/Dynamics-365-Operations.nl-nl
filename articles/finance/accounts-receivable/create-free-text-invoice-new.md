@@ -1,6 +1,6 @@
 ---
 title: Een vrije-tekstfactuur invoeren
-description: In dit onderwerp wordt uitgelegd hoe u vrije-tekstfacturen maakt.
+description: In dit artikel wordt uitgelegd hoe u vrije-tekstfacturen maakt.
 author: abruer
 ms.date: 02/15/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 6e9578d9b2d61f241ab5e92fc9740b88b80969f6
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: 87dc6334baa83ace23b77d94da4d1e464cb0b574
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392880"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878155"
 ---
 # <a name="create-a-free-text-invoice"></a>Een vrije-tekstfactuur invoeren
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u vrije-tekstfacturen maakt. Gebruik voor de procedure het demobedrijf **USMF**.
+In dit artikel wordt uitgelegd hoe u vrije-tekstfacturen maakt. Gebruik voor de procedure het demobedrijf **USMF**.
 
 ## <a name="create-a-free-text-invoice"></a>Een vrije-tekstfactuur invoeren
 
@@ -37,7 +37,7 @@ In dit onderwerp wordt uitgelegd hoe u vrije-tekstfacturen maakt. Gebruik voor d
     * Als u SEPA-mandaten (Single Euro Payments Area) gebruikt, wordt het mandaat voor automatische afschrijving automatisch ingevoerd wanneer u de klantrekening selecteert.
 
 4. Voer een waarde in het veld **Beschrijving** in.
-5. Geef in het veld **Hoofdrekening** een rekeningnummer op dat geen dimensies heeft. Verderop in dit onderwerp gaat u dimensies invoeren.
+5. Geef in het veld **Hoofdrekening** een rekeningnummer op dat geen dimensies heeft. Verderop in dit artikel gaat u dimensies invoeren.
 
     U kunt ook een of meerdere tekens voor de hoofdrekening invoeren en de zoekopdracht gebruiken om uw rekening te zoeken.
 

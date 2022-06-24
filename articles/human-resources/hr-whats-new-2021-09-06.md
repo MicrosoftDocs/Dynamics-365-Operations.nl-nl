@@ -1,6 +1,6 @@
 ---
 title: Wat is nieuw of gewijzigd in Dynamics 365 Human Resources 6 september 2021
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 6 september 2021.
+description: In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 6 september 2021.
 author: marcelbf
 ms.date: 09/06/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 314d836db9b7560c2ed95ad1b9d2eba753e39d2b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 776498b32f8323b1a06f39b518cdc1ae534f9bcc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690577"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872147"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-6-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources 6 september 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn of die binnenkort worden vrijgegeven in Microsoft Dynamics 365 Human Resources.
+In dit artikel worden de functies beschreven die nieuw, gewijzigd of binnenkort beschikbaar zijn in Microsoft Dynamics 365 Human Resources.
 
 Zie [Updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces en de planning.
 
@@ -50,9 +50,9 @@ De volgende functie zijn algemeen beschikbaar in deze release.
 Deze versie bevat de volgende correcties.
 
 > [!NOTE]
-> Ons doel is om deze informatie zo snel mogelijk bij u te krijgen. Mogelijk wordt dit onderwerp gewijzigd om correcties op te nemen die in de build zijn gemaakt nadat dit onderwerp oorspronkelijk werd gepubliceerd.
+> Ons doel is om deze informatie zo snel mogelijk bij u te krijgen. Mogelijk wordt dit artikel gewijzigd om correcties op te nemen die in de build zijn gemaakt nadat dit artikel oorspronkelijk werd gepubliceerd.
 
-| Probleemnummer | Probleem | Beschrijving |
+| Probleemnummer | Probleem | Description |
 |---|---|---|
 | 610128 | Fout bij het publiceren van gegevens bij het gebruik van HcmDiscussionOverallCommentEntity | Wanneer gegevens worden gepubliceerd vanuit een Excel-werkmap naar de entiteit HcmDiscussionOverralCommentEntity, verschijnt de volgende foutmelding: "Kan de gegevensbronrecord van het type HcmTopicOverrall niet vinden." |
 | 589073 | EEO-1-rapport telt "Niet specifiek" en lege waarden bij het veld **Geslacht** als de waarde "Vrouwelijk". | Als niet **Mannelijk** is opgegeven voor het veld **Geslacht**, genereert het rapport EEO-1 een standaardwaarde van **Vrouwelijk**. |

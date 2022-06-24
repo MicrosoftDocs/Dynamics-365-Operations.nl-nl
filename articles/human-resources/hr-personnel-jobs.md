@@ -1,6 +1,6 @@
 ---
 title: De onderdelen van een taak instellen
-description: In dit onderwerp worden de conceptuele elementen beschreven die een functie kan bevatten en worden voorbeelden gegeven van de wijze waarop u deze elementen in uw organisatie kunt gebruiken.
+description: In dit artikel worden de conceptuele elementen beschreven die een functie kan bevatten en worden voorbeelden gegeven van de wijze waarop u deze elementen in uw organisatie kunt gebruiken.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: de828bc1ab764a8a1bd084a508f38ff19a3947d5
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: afe100879a4f83e4ef16048bc4b1acace19b679b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693579"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877709"
 ---
 # <a name="set-up-the-components-of-a-job"></a>De onderdelen van een taak instellen
 
@@ -28,7 +28,7 @@ ms.locfileid: "8693579"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp worden de conceptuele elementen beschreven die een functie kan bevatten en worden voorbeelden gegeven van de wijze waarop u deze elementen in uw organisatie kunt gebruiken. 
+In dit artikel worden de conceptuele elementen beschreven die een functie kan bevatten en worden voorbeelden gegeven van de wijze waarop u deze elementen in uw organisatie kunt gebruiken. 
 
 Voordat u functies kunt maken, moet u enige referentiegegevens instellen. U kunt een functie maken die alleen een naam heeft. Echter door aanvullende informatie op te nemen, zoals de titel van een functie, geeft u standaardwaarden op voor de posities die aan de functie zijn toegewezen. Bovendien kan een deel van de gegevens die u invoert, worden gebruikt voor het filteren van compensatieplannen voor specifieke functies. Als u geschiktheid wilt instellen op basis waarvan u compensatieplannen voor een specifieke functie kunt filteren, moet u functiebeschrijvingen en functietypen instellen voordat u functies instelt. Als u deze standaardwaarden beschikbaar hebt, bespaart u tijd wanneer u posities aan de functie toevoegt. 
 

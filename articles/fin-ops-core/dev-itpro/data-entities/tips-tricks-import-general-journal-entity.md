@@ -1,6 +1,6 @@
 ---
 title: Boekstukken importeren met behulp van de entiteit Algemeen journaal
-description: In dit artikel vindt u tips voor het importeren van gegevens in het algemeen journaal met behulp van de entiteit Algemeen journaal.
+description: Dit artikel bevat tips voor het importeren van gegevens in het algemeen journaal met behulp van de entiteit Algemeen journaal.
 author: rcarlson
 ms.date: 04/20/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42bc804393d050e5ff722c46c9ce50ece54c5a0b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 056bb860e3133bb8389410e29d20f32447799399
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065065"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867606"
 ---
 # <a name="importing-vouchers-by-using-the-general-journal-entity"></a>Boekstukken importeren met behulp van de entiteit Algemeen journaal
 
@@ -28,7 +28,7 @@ ms.locfileid: "8065065"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-In dit artikel vindt u tips voor het importeren van gegevens in het algemeen journaal met behulp van de entiteit Algemeen journaal.
+Dit artikel bevat tips voor het importeren van gegevens in het algemeen journaal met behulp van de entiteit Algemeen journaal.
 
 U kunt de entiteit Algemeen journaal gebruiken om boekstukken te importeren met het rekening- of tegenrekeningtype **Grootboek**, **Klant**, **Leverancier** of **Bank**. U kunt het boekstuk invoeren als één regel, door middel van de velden **Rekening** en **Tegenrekening**, of als een meerregelig boekstuk, waarbij u alleen het veld **Rekening** gebruikt en het veld **Tegenrekening** op elke regel leeg laat. De entiteit Algemeen journaal ondersteunt niet elk rekeningtype. In plaats daarvan bestaan andere entiteiten voor scenario's waarin verschillende combinaties van de rekeningtypen vereist zijn. Als u bijvoorbeeld een projecttransactie wilt importeren, gebruikt u de entiteit Projectonkostenjournaal. Elke entiteit is ontworpen om specifieke scenario's te ondersteunen. Dit betekent dat extra velden mogelijk beschikbaar zijn in entiteiten voor deze scenario's. Het is echter mogelijk dat extra velden niet beschikbaar zijn in entiteiten voor verschillende scenario's.
 

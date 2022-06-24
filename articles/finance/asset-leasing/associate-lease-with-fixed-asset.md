@@ -1,6 +1,6 @@
 ---
 title: Vaste activa koppelen met leases
-description: In dit onderwerp wordt uitgelegd hoe u een bestaand vast activum aan een nieuwe lease koppelt.
+description: In dit artikel wordt uitgelegd hoe u een bestaand vast activum aan een nieuwe lease koppelt.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a0ae7a850ceb13cb41ee5adc406e71105cdad4fe
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 5cc341008d25da544ec35d5660b5ff0b38f2287b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712141"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895104"
 ---
 # <a name="associate-fixed-assets-with-leases"></a>Vaste activa koppelen met leases
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u een bestaand vast activum aan een nieuwe lease koppelt. Wanneer u een vast activum koppelt aan een lease, wordt de waarde van het activum met gebruiksrecht (RoU) bij de eerste toerekening gebruikt als de verwervingskosten van het vaste activum.
+In dit artikel wordt uitgelegd hoe u een bestaand vast activum aan een nieuwe lease koppelt. Wanneer u een vast activum koppelt aan een lease, wordt de waarde van het activum met gebruiksrecht (RoU) bij de eerste toerekening gebruikt als de verwervingskosten van het vaste activum.
 
 Voordat u een vast activum aan een lease kunt koppelen, moet u een record voor het vaste activum maken in Vaste activa. Vervolgens maakt u op de pagina **Leaseoverzicht** een lease en koppelt u het activum aan die lease.
 

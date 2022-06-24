@@ -1,6 +1,6 @@
 ---
 title: Overzicht Indiase TDS (belasting ingehouden op bron)
-description: Dit onderwerp biedt gedetailleerde informatie over Indiase TDS (belasting ingehouden op bron). In de TDS-documentatie wordt de functionaliteit van deze mogelijkheid behandeld.
+description: Dit artikel biedt gedetailleerde informatie over Indiase TDS (belasting ingehouden op bron). In de TDS-documentatie wordt de functionaliteit van deze mogelijkheid behandeld.
 author: kailiang
 ms.date: 03/19/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 0947481f27323a53d5ef9c7295d8dda078fb4254
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 7ddcf11013921b5d5e242c9026d332d319ed8169
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720191"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896278"
 ---
 # <a name="indian-tax-deducted-at-source-tds-overview"></a>Overzicht Indiase TDS (belasting ingehouden op bron)
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp biedt gedetailleerde informatie over Indiase TDS (belasting ingehouden op bron).
+Dit artikel biedt gedetailleerde informatie over Indiase TDS (belasting ingehouden op bron).
 
 In de TDS-documentatie wordt de functionaliteit van deze mogelijkheid behandeld. Verder wordt uitgelegd hoe u de basisinstellingen voor TDS kunt instellen, TDS voor transacties kunt berekenen, het TDS-vereffeningsproces kunt voltooien, TDS-certificaatnummers kunt registreren en TDS-aanvragen, TDS-overzichten en TDS-certificaten kunt genereren. De documentatie bevat de volgende onderwerpen:
 

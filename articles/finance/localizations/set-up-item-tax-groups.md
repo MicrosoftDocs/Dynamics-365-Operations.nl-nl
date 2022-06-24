@@ -1,6 +1,6 @@
 ---
 title: Belastinggroepen voor artikelen instellen
-description: In dit onderwerp wordt uitgelegd hoe u belastinggroepen voor artikelen instelt in de service voor belastingberekening.
+description: In dit artikel wordt uitgelegd hoe u belastinggroepen voor artikelen instelt in de service voor belastingberekening.
 author: wangchen
 ms.date: 11/30/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 88dd8e2fd9d4d4e5172dcc7b1bd27a70a2f59f03
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 3bc705bc8173ad2bc8ef883e6dc80b0a187314ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883851"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846458"
 ---
 # <a name="set-up-item-tax-groups"></a>Belastinggroepen voor artikelen instellen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u belastinggroepen voor artikelen instelt in de service voor belastingberekening. Daarnaast wordt uitgelegd hoe u de matrix voor regels voor toepasbaarheid van de belastinggroep voor artikelen instelt en regels in de matrix configureert.
+In dit artikel wordt uitgelegd hoe u belastinggroepen voor artikelen instelt in de service voor belastingberekening. Daarnaast wordt uitgelegd hoe u de matrix voor regels voor toepasbaarheid van de belastinggroep voor artikelen instelt en regels in de matrix configureert.
 
 Het concept van belastinggroepen voor artikelen in de service voor belastingberekening lijkt op het concept van btw-groepen voor artikelen in Microsoft Dynamics 365 Finance. Dit zijn groepen belastingcodes. De service voor belastingberekening gebruikt de doorsnede van een belastinggroep en een artikelbelastinggroep om de belastingcodes te bepalen.
 

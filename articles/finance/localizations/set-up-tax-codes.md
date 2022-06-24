@@ -1,6 +1,6 @@
 ---
 title: Belastingcodes instellen
-description: In dit onderwerp wordt uitgelegd hoe u belastingcodes instelt in de service voor belastingberekening.
+description: In dit artikel wordt uitgelegd hoe u belastingcodes instelt in de service voor belastingberekening.
 author: wangchen
 ms.date: 11/30/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 8bdb194e7d8b704d1e58d3c25bf2e1f6bff1ba00
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 1bc250716763ce9d8e25c8850c8a3676bf65fb0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883852"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862923"
 ---
 # <a name="set-up-tax-codes"></a>Belastingcodes instellen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u belastingcodes instelt in de service voor belastingberekening. Het bevat de instelling voor een eenvoudig scenario om de belastingcode te laten werken en informatie over bepaalde geavanceerde functionaliteit voor btw-code voor complexe scenario's.
+In dit artikel wordt uitgelegd hoe u belastingcodes instelt in de service voor belastingberekening. Het bevat de instelling voor een eenvoudig scenario om de belastingcode te laten werken en informatie over bepaalde geavanceerde functionaliteit voor btw-code voor complexe scenario's.
 
 > [!IMPORTANT]
 > De instelling van belastingcodes in de service voor belastingberekening is onafhankelijk van rechtspersoon. U kunt deze configuratie maar één keer voltooien in RCS (Regulatory Configuration Service). Belastingcodes worden automatisch gesynchroniseerd met Microsoft Dynamics 365 Finance wanneer u de service voor belastingberekening inschakelt voor een geselecteerde rechtspersoon in Finance.

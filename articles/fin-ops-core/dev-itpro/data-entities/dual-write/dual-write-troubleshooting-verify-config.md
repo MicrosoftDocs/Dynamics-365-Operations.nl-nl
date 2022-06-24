@@ -1,6 +1,6 @@
 ---
-title: Configuratie voor twee keer wegschrijven verifiëren in apps voor financiële en bedrijfsactiviteiten en Dataverse
-description: In dit onderwerp wordt uitgelegd hoe u kunt bepalen of Twee keer wegschrijven is geconfigureerd in apps voor financiële en bedrijfsactiviteiten en in Dataverse.
+title: Configuratie voor twee keer wegschrijven verifiëren in apps voor financiën en bedrijfsactiviteiten en Dataverse
+description: In dit artikel wordt uitgelegd hoe u kunt bepalen of Twee keer wegschrijven is geconfigureerd in apps voor financiële en bedrijfsactiviteiten en in Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,14 +9,14 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 3fa16a450032464e445ae166f0699fe0dc388071
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 7131e6c2c4ca4d9c6bb84ad74bf425faf28bd92c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062795"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884454"
 ---
-# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Configuratie voor twee keer wegschrijven verifiëren in apps voor financiële en bedrijfsactiviteiten en Dataverse
+# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Configuratie voor twee keer wegschrijven verifiëren in apps voor financiën en bedrijfsactiviteiten en Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
@@ -24,7 +24,7 @@ ms.locfileid: "8062795"
 
 
 
-Dit onderwerp bevat informatie voor het oplossen van problemen met de integratie van Twee keer wegschrijven tussen apps voor financiële en bedrijfsactiviteiten en Dataverse. In dit onderwerp wordt specifiek uitgelegd hoe u kunt bepalen of Twee keer wegschrijven is geconfigureerd in apps voor financiële en bedrijfsactiviteiten en in Dataverse.
+Dit artikel bevat informatie voor het oplossen van problemen met de integratie van Twee keer wegschrijven tussen apps voor financiële en bedrijfsactiviteiten en Dataverse. In dit onderwerp wordt specifiek uitgelegd hoe u kunt bepalen of Twee keer wegschrijven is geconfigureerd in apps voor financiële en bedrijfsactiviteiten en in Dataverse.
 
 ## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Configuratie voor twee keer wegschrijven verifiëren in een app voor financiële en bedrijfsactiviteiten
 

@@ -1,6 +1,6 @@
 ---
 title: Power BI-inhoud - Crediterings- en aanmaningsbeheer
-description: In dit onderwerp wordt beschreven wat er is opgenomen in de Power BI-inhoud Crediterings- en aanmaningsbeheer. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+description: In dit artikel wordt beschreven wat er is opgenomen in de Power BI-inhoud Crediterings- en aanmaningsbeheer. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 author: ShivamPandey-msft
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 291eeddf754ef86bf7eb8f534ac36b1151e39b3a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 350c7ff2f0fa93d4ff99e2a11b9418413854a076
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713495"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889927"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Power BI-inhoud - Crediterings- en aanmaningsbeheer
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven wat er is opgenomen in de Microsoft Power BI-inhoud **Crediterings- en aanmaningsbeheer**. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+In dit artikel wordt beschreven wat er is opgenomen in de Microsoft Power BI-inhoud **Crediterings- en aanmaningsbeheer**. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 
 ## <a name="overview"></a>Overzicht
 

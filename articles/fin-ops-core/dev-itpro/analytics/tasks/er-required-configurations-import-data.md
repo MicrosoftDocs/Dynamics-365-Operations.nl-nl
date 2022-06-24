@@ -1,6 +1,6 @@
 ---
 title: 'ER: vereiste configuraties maken voor het importeren van gegevens uit een extern bestand'
-description: Dit onderwerp beschrijft het ontwerpen van configuraties elektronische rapportage om gegevens te importeren in de Microsoft Dynamics 365 Finance-app vanuit een extern bestand.
+description: Dit artikel beschrijft het ontwerpen van configuraties elektronische rapportage om gegevens te importeren in de Microsoft Dynamics 365 Finance-app vanuit een extern bestand.
 author: NickSelin
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7eaa35baae8e030d8a8b7ce903554c4876c874b48cfd72d6ac278cf4c0e8a6e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aa1dc55e8cdee7d61e5ababe92e8a9234788664f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720851"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865888"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER: vereiste configuraties maken voor het importeren van gegevens uit een extern bestand
 
@@ -241,7 +241,7 @@ Voer deze toewijzingsindeling uit om te testen. Gebruik het bestand 1099entries.
 19. Sluit de pagina.
 20. Klik op Bewerken.
 
-    Als u de hotfix "KB 4012871 Support of GER model mappings in separated configurations with an ability to specify different kinds of prerequisites for deploying them on different versions of Dynamics 365 Finance" ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)) hebt geïnstalleerd, voert u de volgende stap "Turn the flag 'Default for model mapping' on" uit voor de opgegeven indelingsconfiguratie. Sla anders de volgende stap over.  
+    Als u de hotfix “KB 4012871 Support of GER model mappings in separated configurations with an ability to specify different kinds of prerequisites for deploying them on different versions of Dynamics 365 Finance ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)) hebt geïnstalleerd, voert u de volgende stap “Turn the flag ‘Default for model mapping’ on” uit voor de opgegeven indelingsconfiguratie. Sla anders de volgende stap over.  
 
 21. Selecteer in het veld Standaard voor modeltoewijzing de waarde Ja.
 22. Selecteer in de structuur '1099 Payments model'.

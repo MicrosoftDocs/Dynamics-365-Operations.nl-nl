@@ -1,6 +1,6 @@
 ---
 title: Veelgestelde vragen over go-live
-description: Dit onderwerp bevat veelgestelde vragen over hoe u live kunt gaan werken met een Dynamics 365 Human Resources-implementatieproject.
+description: Dit artikel bevat veelgestelde vragen over hoe u live kunt gaan werken met een Dynamics 365 Human Resources-implementatieproject.
 author: rachel-profitt
 ms.date: 10/13/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5b0f58c7ebf03466805d20806316f6f1c32e4a4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: dfb2434b0d0573f2edab228fcca77ee653d751a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695355"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853098"
 ---
 # <a name="go-live-faq"></a>Veelgestelde vragen over go-live 
 
@@ -30,7 +30,7 @@ ms.locfileid: "8695355"
 
 
 
-Dit onderwerp bevat veelgestelde vragen over hoe u live kunt gaan werken met een Dynamics 365 Human Resources-implementatieproject. 
+Dit artikel bevat veelgestelde vragen over hoe u live kunt gaan werken met een Dynamics 365 Human Resources-implementatieproject. 
 
 ## <a name="when-can-i-configure-and-request-my-production-environment"></a>Wanneer kan ik mijn productieomgeving configureren en aanvragen? 
 

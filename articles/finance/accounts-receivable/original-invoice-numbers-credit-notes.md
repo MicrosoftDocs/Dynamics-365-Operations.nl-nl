@@ -1,6 +1,6 @@
 ---
 title: Verwijzingen naar oorspronkelijke facturen in creditnota's
-description: In dit onderwerp wordt uitgelegd hoe u de oorspronkelijke factuurnummers in gerelateerde creditnota's kunt instellen en afdrukken.
+description: In dit artikel wordt uitgelegd hoe u de oorspronkelijke factuurnummers in gerelateerde creditnota's kunt instellen en afdrukken.
 author: ilkond
 ms.date: 10/26/2021
 ms.topic: article
@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c1362bf41416202631dc4b966338e8166b26a67f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ebfeb43aaf137ef336b460f340fbda50f5918d08
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688341"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861526"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Verwijzingen naar oorspronkelijke facturen in creditnota's
 
 [!include [banner](../includes/banner.md)]
 
 
-In sommige landen en regio's is er een wettelijke vereiste dat afgedrukte creditnota's verwijzingen naar de oorspronkelijke facturen bevatten. In dit onderwerp wordt uitgelegd hoe u de oorspronkelijke factuurnummers in gerelateerde creditnota's kunt instellen en afdrukken.
+In sommige landen en regio's is er een wettelijke vereiste dat afgedrukte creditnota's verwijzingen naar de oorspronkelijke facturen bevatten. In dit artikel wordt uitgelegd hoe u de oorspronkelijke factuurnummers in gerelateerde creditnota's kunt instellen en afdrukken.
 
 ## <a name="prerequisites"></a>Vereisten
 
 - Schakel in de werkruimte **Functiebeheer** de functie **Creditfactuurindeling voor verkoop- en projectfactuurrapporten** in. Zie [Overzicht van functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voor meer informatie.
 - De afdrukbare indelingen van de vereiste documenten moeten in Afdrukbeheer worden geconfigureerd.
 
-De functionaliteit die in dit onderwerp wordt beschreven, is van toepassing op de volgende documenten:
+De functionaliteit die in dit artikel wordt beschreven, is van toepassing op de volgende documenten:
 
 **Klanten**
 

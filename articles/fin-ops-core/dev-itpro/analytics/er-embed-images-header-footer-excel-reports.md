@@ -1,6 +1,6 @@
 ---
 title: Een ER-indeling ontwerpen om een rapport in Excel-indeling te genereren met ingesloten afbeeldingen in paginakopteksten of -voetteksten
-description: In dit onderwerp wordt uitgelegd hoe u het hulpmiddel voor elektronische rapportage (ER) kunt gebruiken om bedrijfsdocumenten te genereren met ingesloten afbeeldingen en vormen in paginakopteksten of -voetteksten.
+description: In dit artikel wordt uitgelegd hoe u het hulpmiddel voor elektronische rapportage (ER) kunt gebruiken om bedrijfsdocumenten te genereren met ingesloten afbeeldingen en vormen in paginakopteksten of -voetteksten.
 author: NickSelin
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3f3f77a9e6104a31995c9ee398504982fe43ac9e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 1cfde60459e440c851edb97276321216b1654e40
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323770"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854838"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>Een ER-indeling ontwerpen om een rapport in Excel-indeling te genereren met ingesloten afbeeldingen in paginakopteksten of -voetteksten
 
 [!include[banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe een gebruiker in de rol Systeembeheerder of Functioneel consultant elektronische rapportage deze taken kan uitvoeren:
+In dit artikel wordt uitgelegd hoe een gebruiker in de rol Systeembeheerder of Functioneel consultant elektronische rapportage deze taken kan uitvoeren:
 
 - Parameters configureren voor het [ER-raamwerk (elektronische rapportage)](general-electronic-reporting.md).
 - ER-[configuraties](general-electronic-reporting.md#Configuration) die door Microsoft worden [geleverd](general-electronic-reporting.md#Provider) en worden gebruikt om [vrije-tekstfacturen](../../../finance/accounts-receivable/create-free-text-invoice-new.md) te genereren op basis van een [sjabloon](er-fillable-excel.md#excel-file-component) in Microsoft Excel-indeling.
 - Een [aangepaste (afgeleide)](general-electronic-reporting.md#building-a-format-selecting-another-format-as-a-base-customization) versie maken van een standaardconfiguratie voor een ER-indeling die door Microsoft wordt geleverd.
 - Wijzig de aangepaste ER-indelingsconfiguratie, zodat er een vrije-tekstfactuurrapport wordt gegenereerd met een afbeelding van het bedrijfslogo in de voettekst.
 
-De procedures in dit onderwerp kunnen in het bedrijf **USMF** worden uitgevoerd. U hoeft hiervoor geen code te schrijven. Voordat u begint, moet u het volgende bestand downloaden en opslaan.
+De procedures in dit artikel kunnen in het bedrijf **USMF** worden uitgevoerd. U hoeft hiervoor geen code te schrijven. Voordat u begint, moet u het volgende bestand downloaden en opslaan.
 
 | Beschrijving        | Bestandsnaam |
 |--------------------|-----------|
@@ -132,7 +132,7 @@ Meer informatie over ER-configuratieproviders vindt u in [Configuratieproviders 
 
 ### <a name="import-the-standard-er-configurations"></a><a id="ImportERFormat"></a>De standaard-ER-configuraties importeren
 
-Als u de standaard-ER-configuraties wilt toevoegen aan uw huidige exemplaar van Microsoft Dynamics 365 Finance, moet u deze importeren vanuit de ER-[opslagplaats](general-electronic-reporting.md#Repository) die voor dat exemplaar is geconfigureerd.
+Als u de ER-standaardconfiguraties wilt toevoegen aan uw huidige Dynamics 365 Finance-exemplaar, moet u deze importeren vanuit de ER-[opslagplaats](general-electronic-reporting.md#Repository) die voor dat exemplaar is geconfigureerd.
 
 1. Ga naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
 2. Selecteer op de pagina **Lokalisatieconfiguraties** in de sectie **Configuratieproviders** de tegel **Microsoft** en selecteer vervolgens **Opslagplaatsen** om de lijst met opslagplaatsen voor de provider **Microsoft** weer te geven.

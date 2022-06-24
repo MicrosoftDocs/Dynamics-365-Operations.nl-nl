@@ -1,6 +1,6 @@
 ---
 title: Vooruitbetalingsfacturen versus vooruitbetalingen
-description: In dit onderwerp worden de twee methoden beschreven en vergeleken die organisaties kunnen gebruiken voor voorschotten (vooruitbetalingen).
+description: In dit artikel worden de twee methoden beschreven en vergeleken die organisaties kunnen gebruiken voor voorschotten (vooruitbetalingen).
 author: abruer
 ms.date: 10/26/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f05f1d8d2a1fb454f3f227d2cc8138f2b779ff87
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: a420a0a366e454df14d5fe994691829bc7950306
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716320"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895191"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Vooruitbetalingsfacturen versus vooruitbetalingen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de twee methoden beschreven en vergeleken die organisaties kunnen gebruiken voor voorschotten (vooruitbetalingen). Met één methode maakt u een aanbetalingsfactuur die aan een inkooporder is gekoppeld. Met de andere methode maakt u journaalboekstukken van vooruitbetaling door boekingen in een journaal te maken en ze als journaalboekstukken van vooruitbetaling te markeren.
+In dit artikel worden de twee methoden beschreven en vergeleken die organisaties kunnen gebruiken voor voorschotten (vooruitbetalingen). Met één methode maakt u een aanbetalingsfactuur die aan een inkooporder is gekoppeld. Met de andere methode maakt u journaalboekstukken van vooruitbetaling door boekingen in een journaal te maken en ze als journaalboekstukken van vooruitbetaling te markeren.
 
 Organisaties kunnen aanbetalingen (vooruitbetalingen) verzenden naar leveranciers voor goederen of services voordat deze goederen of services zijn afgehandeld. Voor het verzenden van vooruitbetalingen naar leveranciers kunnen twee methoden worden gebruikt. Om risico's te minimaliseren, kunt u vooruitbetalingen bijhouden door de vooruitbetaling op een inkooporder te definiëren. Voor deze methode moet u een aanbetalingsfactuur maken die aan een inkooporder is gekoppeld. Deze methode wordt aanbetalingsfacturering genoemd. Organisaties die vooruitbetalingen niet zo nauwgezet willen bijhouden of geen vooruitbetalingsfactuur van hun leverancier ontvangen, kunnen journaalboekstukken voor vooruitbetalingen gebruiken in plaats van de vooruitbetalingsfactureringsmethode. U kunt journaalboekstukken van vooruitbetaling maken door boekingen in een journaal te maken en ze als journaalboekstukken van vooruitbetaling te markeren. Bij deze methode kunt u niet bijhouden welke vooruitbetalingen aan een leverancier worden uitgevoerd en voor welke inkooporders. U kunt echter wel een geboekte vooruitbetaling voor vereffening voor een inkooporder markeren.
 

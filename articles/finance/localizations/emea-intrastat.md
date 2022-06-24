@@ -1,6 +1,6 @@
 ---
 title: Intrastat-overzicht
-description: Dit onderwerp bevat informatie over Intrastat-rapportage voor de handel van goederen en, in sommige gevallen, diensten tussen landen en regio's van de Europese Unie (EU).
+description: Dit artikel bevat informatie over Intrastat-rapportage voor de handel van goederen en, in sommige gevallen, diensten tussen landen en regio's van de Europese Unie (EU).
 author: EvgenyPopovMBS
 ms.date: 01/13/2021
 ms.topic: overview
@@ -16,18 +16,18 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 97c2b4068f3b8d38281e637ec80f04b19d19be61
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9360f97506ac7bdf67bb2f1b296f01b6ed49b39f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986032"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894775"
 ---
 # <a name="intrastat-overview"></a>Intrastat-overzicht
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat informatie over Intrastat-rapportage voor de handel van goederen en, in sommige gevallen, diensten tussen landen en regio's van de Europese Unie (EU). Dit onderwerp bevat ook een overzicht van het rapportageproces en bevat een beschrijving van de vereiste instellingen en vereisten.
+Dit artikel bevat informatie over Intrastat-rapportage voor de handel van goederen en, in sommige gevallen, diensten tussen landen en regio's van de Europese Unie (EU). Dit artikel bevat ook een overzicht van het rapportageproces en bevat een beschrijving van de vereiste instellingen en vereisten.
 
 Intrastat is het systeem voor het verzamelen van informatie en genereren van statistieken met betrekking tot de handel in artikelen tussen landen en regio's van de Europese Unie (EU). Intrastat-aangifte is vereist wanneer een product de grens van een ander EU-land/regio overschrijdt. In sommige landen/regio's is Intrastat-aangifte ook van toepassing op services. De verplichte en optionele elementen kunnen in Intrastat-aangiftes worden verzameld. De volgende elementen zijn verplicht: het btw-nummer van de partij die de informatie moet verstrekken, de referentieperiode, de stroom (ontvangst of verzending), de achtcijferige basisproductcode, de lidstaat van de partner (lidstaat van verzending voor ontvangsten en lidstaat van bestemming voor verzendingen), de waarde van de goederen, de hoeveelheid goederen (netto massa en bijkomende eenheid) en de aard van de transactie. Landen/regio's kunnen ook optionele elementen verzamelen in diverse situaties. Sommige optionele elementen zijn het land of de regio van herkomst, de leveringsvoorwaarden, de wijze van transport, een meer gedetailleerde basisproductcode dan CN8, de regio van herkomst voor verzendingen en de regio van bestemming voor ontvangsten, de statistische procedure, de statistische waarde, een omschrijving van de goederen, en de haven/de luchthaven waar het product wordt geladen/gelost.
 
@@ -152,7 +152,7 @@ Gebruik de pagina **Parameters buitenlandse handel** om de parameters in de volg
 
 ### <a name="transaction-codes-and-miscellaneous-charges"></a><a name= "transaction-codes-and-miscellaneous-charges"></a>transactiecodes en diverse toeslagen
 
-Dit onderwerp gaat over een scenario waarbij een bedrijf in Duitsland goederen bij een bedrijf in Italië moet inkopen. Voor deze inkoop moet het Duitse bedrijf nieuwe transactiecodes en berekeningsregels instellen voor het factuurbedrag en het statistische bedrag voor die transactiecodes. Wanneer het bedrijf een factuur maakt, moet het bovendien diverse toeslagen en de percentages opgeven. Er wordt bij het berekenen van de statistische waarde rekening gehouden met deze waarden.
+Dit artikel gaat over een scenario waarbij een bedrijf in Duitsland goederen bij een bedrijf in Italië moet inkopen. Voor deze inkoop moet het Duitse bedrijf nieuwe transactiecodes en berekeningsregels instellen voor het factuurbedrag en het statistische bedrag voor die transactiecodes. Wanneer het bedrijf een factuur maakt, moet het bovendien diverse toeslagen en de percentages opgeven. Er wordt bij het berekenen van de statistische waarde rekening gehouden met deze waarden.
 
 In dit scenario wordt de rechtspersoon **DEMF** gebruikt.
 

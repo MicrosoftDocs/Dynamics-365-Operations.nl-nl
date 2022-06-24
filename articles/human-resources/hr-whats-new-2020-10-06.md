@@ -1,6 +1,6 @@
 ---
 title: Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (6 oktober 2020)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 6 oktober 2020.
+description: In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 6 oktober 2020.
 author: jcart1106
 ms.date: 10/06/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ac64218e48d2713b91af1541f94083aef3f815a2
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 4eb3e893c3243d3b2c169cb5a47001d4e0771a20
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062974"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887713"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (6 oktober 2020)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8062974"
 
 
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn of die binnenkort worden vrijgegeven in Dynamics 365 Human Resources. Zie [Updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces en de planning.
+In dit artikel worden de functies beschreven die in Dynamics 365 Human Resources nieuw, gewijzigd of binnenkort beschikbaar zijn. Zie [Updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces en de planning.
 
 Zie [Overzicht van Dynamics 365 Human Resources 2020 release wave 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/) voor meer informatie over nieuwe functies en de verwachte algemene beschikbaarheidsdatums ervan.
 
@@ -48,9 +48,9 @@ De volgende functie is algemeen beschikbaar in deze release.
 Deze versie bevat de volgende correcties.
 
 >[!NOTE]
-> Ons doel is om deze informatie zo snel mogelijk bij u te krijgen. Mogelijk wordt dit onderwerp gewijzigd om correcties op te nemen die in de build zijn gemaakt nadat dit onderwerp oorspronkelijk werd gepubliceerd.
+> Ons doel is om deze informatie zo snel mogelijk bij u te krijgen. Mogelijk wordt dit artikel gewijzigd om correcties op te nemen die in de build zijn gemaakt nadat dit artikel oorspronkelijk werd gepubliceerd.
 
-| Probleemnummer | Uitgeven | Beschrijving |
+| Probleemnummer | Probleem | Description |
 | --- | --- | --- |
 | 448806 | **Standaardidentificatietype** wordt geëxporteerd als **RecID** in HCM-parameters | Door deze wijziging van de entiteit Parameters van Human Resources wordt een extra kolom toegevoegd waarin het **Standaardidentificatietype** wordt weergegeven. |
 | 492923 | Taakregistraties worden niet opgeslagen in Lifecycle Services (LCS) | Taakregistraties kunnen nu worden opgeslagen in LCS. |

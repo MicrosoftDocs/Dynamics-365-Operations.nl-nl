@@ -1,6 +1,6 @@
 ---
 title: Configuraties voor elektronische rapportage aanpassen om een elektronisch document te genereren
-description: In dit onderwerp wordt uitgelegd hoe u de door Microsoft geleverde ER-configuraties (elektronische rapportage) kunt aanpassen, waarmee een aangepast elektronisch document wordt gegenereerd.
+description: In dit artikel wordt uitgelegd hoe u de door Microsoft geleverde ER-configuraties (elektronische rapportage) kunt aanpassen, waarmee een aangepast elektronisch document wordt gegenereerd.
 author: NickSelin
 ms.date: 10/21/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a7353d7d8149ff1316fbc0adc55b7e1050f443a8
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: 30ef9a0fa9b61b1e2016f85407ec0ec8fb70a6c6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661653"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854693"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Configuraties voor elektronische rapportage aanpassen om een elektronisch document te genereren
 
@@ -32,9 +32,9 @@ Met het [Raamwerk voor elektronische rapportage (ER)](general-electronic-reporti
 
 ## <a name="overview"></a>Overzicht
 
-Voor het voorbeeld in dit onderwerp moet u een nationale belasting-ID opgeven als nieuw aangepast kenmerk van elke klant die u elektronisch factureert. Daarom moet u de structuur van de factuur die momenteel wordt gebruikt, aanpassen door een nieuw item toe te voegen dat moet worden gevuld met de belastingcode in elke elektronische factuur die wordt gegenereerd.
+Voor het voorbeeld in dit artikel moet u een nationale belasting-ID opgeven als nieuw aangepast kenmerk van elke klant die u elektronisch factureert. Daarom moet u de structuur van de factuur die momenteel wordt gebruikt, aanpassen door een nieuw item toe te voegen dat moet worden gevuld met de belastingcode in elke elektronische factuur die wordt gegenereerd.
 
-In de procedures in dit onderwerp wordt uitgelegd hoe een gebruiker met de rol Systeembeheerder, Ontwikkelaar voor elektronische rapportage of Functioneel consultant voor elektronische rapportage de volgende taken kan uitvoeren in uw Finance-exemplaar:
+In de procedures in dit artikel wordt uitgelegd hoe een gebruiker met de rol Systeembeheerder, Ontwikkelaar voor elektronische rapportage of Functioneel consultant voor elektronische rapportage de volgende taken kan uitvoeren in uw Finance-exemplaar:
 
 - [Configureer de minimale set ER-parameters die nodig zijn om het ER-raamwerk te gaan gebruiken](#ConfigureER).
 - [Importeer de eerste versies van de ER-standaardconfiguraties die beschikbaar zijn om e-facturen te genereren](#ImportERConfigurations1).

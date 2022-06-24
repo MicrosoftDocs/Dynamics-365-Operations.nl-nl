@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea52c39ef1c7d7b62f20da9fe4d94103119ccc23
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 75019f3f9bcd081f32d06971b11429bcdd794240
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069268"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847094"
 ---
 # <a name="view-and-export-field-descriptions"></a>Veldomschrijvingen weergeven en exporteren
 
@@ -91,11 +91,11 @@ Deze sectie bevat informatie om u te helpen problemen op te lossen die u kunt te
 
 ### <a name="i-cant-find-a-field-description"></a>Ik kan geen veldomschrijving vinden
 
-We zijn bezig met het toevoegen van omschrijvingen voor de complexere velden. Als u hulp nodig hebt voor een bepaald veld, laat dit ons dan weten door een opmerking voor dit onderwerp toe te voegen.
+We zijn bezig met het toevoegen van omschrijvingen voor de complexere velden. Als u hulp nodig hebt voor een bepaald veld, laat dit ons dan weten door een opmerking voor dit artikel toe te voegen.
 
 ### <a name="the-field-description-isnt-helpful"></a>De veldomschrijving is niet nuttig
 
-Laat ons dit weten door een opmerking voor dit onderwerp toe te voegen. Beschrijf, indien mogelijk, de aanvullende informatie die u nodig hebt.
+Laat ons dit weten door een opmerking voor dit artikel toe te voegen. Beschrijf, indien mogelijk, de aanvullende informatie die u nodig hebt.
 
 ### <a name="i-cant-find-a-field-on-the-field-descriptions-page"></a>Ik kan een veld op de pagina in Veldbeschrijvingen niet vinden.
 

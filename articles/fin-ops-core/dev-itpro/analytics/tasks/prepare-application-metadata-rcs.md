@@ -1,6 +1,6 @@
 ---
 title: Metagegevens van de toepassing voorbereiden voor gebruik in RCS
-description: In dit onderwerp wordt beschreven hoe u een nieuwe rapportageconfiguratie maakt die toepassingsmetagegevens bevat.
+description: In dit artikel wordt beschreven hoe u een nieuwe rapportageconfiguratie maakt die toepassingsmetagegevens bevat.
 author: NickSelin
 ms.date: 06/28/2019
 ms.topic: business-process
@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 71a33a69796b31c456bfcc5abbb3b18bcb1064be65c1c58b36656a9cebfbf47d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b5e7f69653381e16b4a8a8def56845a41bb14b0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750569"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868792"
 ---
 # <a name="prepare-application-metadata-to-be-used-in-rcs"></a>Metagegevens van de toepassing voorbereiden voor gebruik in RCS
 [!include [banner](../../includes/banner.md)]
 
-De volgende stappen leggen uit hoe een gebruiker met de rol Systeembeheerder of Ontwikkelaar Elektronische Rapportage een nieuwe configuratie voor een elektronische rapportage (ER) kan maken die de metagegevens van de toepassing bevat voor het ontwerpen van ER‑modelconfiguratie in Regulatory Configuration Service (RCS). Deze configuratie wordt gebruikt voor het ontwerpen van een voorbeeld van een ER‑modeltoewijzingsconfiguratie om transacties van buitenlandse handel te openen. In dit voorbeeld maakt u een configuratie voor het voorbeeldbedrijf Litware, Inc. Deze stappen kunnen in elk bedrijf worden uitgevoerd. Als u deze stappen wilt uitvoeren, moet u eerst de stappen voltooien in het onderwerp [Configuratieproviders maken en deze als actief markeren](er-configuration-provider-mark-it-active-2016-11.md).
+De volgende stappen leggen uit hoe een gebruiker met de rol Systeembeheerder of Ontwikkelaar Elektronische Rapportage een nieuwe configuratie voor een elektronische rapportage (ER) kan maken die de metagegevens van de toepassing bevat voor het ontwerpen van ER‑modelconfiguratie in Regulatory Configuration Service (RCS). Deze configuratie wordt gebruikt voor het ontwerpen van een voorbeeld van een ER‑modeltoewijzingsconfiguratie om transacties van buitenlandse handel te openen. In dit voorbeeld maakt u een configuratie voor het voorbeeldbedrijf Litware, Inc. Deze stappen kunnen in elk bedrijf worden uitgevoerd. Als u deze stappen wilt uitvoeren, moet u eerst de stappen voltooien in het artikel [Configuratieproviders maken en deze als actief markeren](er-configuration-provider-mark-it-active-2016-11.md).
 
 ## <a name="prerequisites"></a>Vereisten
 1.    Ga naar **Organisatiebeheer** > **Werkruimten** > **Elektronische rapportage**. 

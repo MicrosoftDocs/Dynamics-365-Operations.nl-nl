@@ -1,6 +1,6 @@
 ---
 title: Prospect naar contant geld in twee keer wegschrijven
-description: Dit onderwerp biedt informatie over Prospect naar contant geld in twee keer wegschrijven.
+description: Dit artikel biedt informatie over Prospect naar contant geld in twee keer wegschrijven.
 author: RamaKrishnamoorthy
 ms.date: 01/07/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 7c53bcd1084d89b59d0f6b2674a85d7c3481a9bf
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: f0d5339190f7e2aff7b084fa73e559af28e10ee8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781786"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860104"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect naar contant geld in twee keer wegschrijven
 
@@ -29,7 +29,7 @@ In de app-interfaces hebt u toegang tot de verwerkingsstatus en factuurgegevens 
 Zie [Geïntegreerd klantmodel](customer-mapping.md) voor informatie over klant- en contactintegratie. Zie [Uniforme productervaring](product-mapping.md) voor informatie over productintegratie.
 
 > [!NOTE]
-> In Dynamics 365 Sales verwijzen zowel prospect als klant naar een record in de tabel **Account** waar de kolom **RelationshipType** ofwel **Prospect** of **Klant** is. Als uw bedrijfslogica een kwalificatieproces **Account** bevat waarbij de record **Account** wordt gemaakt en eerst als prospect en daarna als klant wordt gekwalificeerd, wordt deze record alleen met de Finance and Operations-app gesynchroniseerd als het een klant (`RelationshipType=Customer`) is. Als u wilt dat de rij **Account** wordt gesynchroniseerd als een prospect, hebt u een aangepaste toewijzing nodig om de prospectgegevens te integreren.
+> In Dynamics 365 Sales verwijzen zowel prospect als klant naar een record in de tabel **Account** waar de kolom **RelationshipType** ofwel **Prospect** of **Klant** is. Als uw bedrijfslogica een kwalificatieproces **Account** bevat waarbij de record **Account** wordt gemaakt en eerst als prospect en daarna als klant wordt gekwalificeerd, wordt deze record alleen met de apps voor financiën en bedrijfsactiviteiten gesynchroniseerd als het een klant (`RelationshipType=Customer`) is. Als u wilt dat de rij **Account** wordt gesynchroniseerd als een prospect, hebt u een aangepaste toewijzing nodig om de prospectgegevens te integreren.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Vereisten en instellingen voor toewijzing
 
@@ -111,7 +111,7 @@ Verkoopfacturen worden gemaakt in Supply Chain Management en gesynchroniseerd me
 
 Prospect naar contact geld omvat een verzameling basistabeltoewijzingen die samenwerken tijdens de interactie van gegevens, zoals in de volgende tabel wordt weergegeven.
 
-| Finance and Operations-apps | Customer Engagement-apps | Beschrijving |
+| Apps voor financiële en bedrijfsactiviteiten | Customer Engagement-apps | Description |
 |-----------------------------|-----------------------------------|-------------|
 [Alle producten](mapping-reference.md#138) | msdyn_globalproducts | |
 [Klanten V3](mapping-reference.md#101) | rekeningen | |
@@ -122,7 +122,7 @@ Prospect naar contact geld omvat een verzameling basistabeltoewijzingen die same
 [CDS-verkoopoffertekoptekst](mapping-reference.md#215) | offertes | |
 [Regels van CDS-verkoopofferte](mapping-reference.md#214) | quotedetails | |
 [Vrijgegeven producten V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
-[Kopteksten van verkoopfacturen V2](mapping-reference.md#118) | facturen | De tabel Kopteksten van verkoopfacturen V2 in de Finance and Operations-app bevat facturen voor verkooporders en vrije-tekstfacturen. Er wordt een filter toegepast in Dataverse voor twee keer wegschrijven waarmee alle vrije-tekstfactuurdocumenten worden uitgefilterd. |
+[Kopteksten van verkoopfacturen V2](mapping-reference.md#118) | facturen | De tabel Kopteksten van verkoopfacturen V2 in de apps voor financiën en bedrijfsactiviteiten bevat facturen voor verkooporders en vrije-tekstfacturen. Er wordt een filter toegepast in Dataverse voor twee keer wegschrijven waarmee alle vrije-tekstfactuurdocumenten worden uitgefilterd. |
 [Verkoopfactuurregels V2](mapping-reference.md#117) | factuurdetails | |
 [Oorsprongcodes van verkooporder](mapping-reference.md#186) | msdyn_salesorderorigins | |
 

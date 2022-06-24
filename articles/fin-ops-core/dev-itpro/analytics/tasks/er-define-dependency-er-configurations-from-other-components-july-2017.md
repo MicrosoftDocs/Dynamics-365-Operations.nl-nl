@@ -1,6 +1,6 @@
 ---
 title: De afhankelijkheid van ER-configuraties voor andere onderdelen definiëren
-description: In dit onderwerp wordt beschreven hoe u een ER-configuratie (Electronic Reporting) ontwerpt en de afhankelijkheid ervan van andere softwareonderdelen opgeeft.
+description: In dit artikel wordt beschreven hoe u een ER-configuratie (Electronic Reporting) ontwerpt en de afhankelijkheid ervan van andere softwareonderdelen opgeeft.
 author: NickSelin
 ms.date: 07/23/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2901092938dae5ae14480716eeeb2b0386848332e91ad388ce5d34437f8492ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 525e9be1655bdf0c0328ec53509ab1966abd7bde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717589"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883563"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>De afhankelijkheid van ER-configuraties voor andere onderdelen definiëren
 
@@ -46,7 +46,7 @@ Deze procedure is bedoeld voor gebruikers met de rol Systeembeheerder of Elektro
 7. Selecteer Microsoft Dynamics 365 for Operations (1611).
 8. Typ in het veld Versie '[7.1.1541.3036,8)'.
     * [7.1.1541.3036,8)  
-    * Afhankelijkheden die u invoert, worden geëvalueerd wanneer deze configuratie wordt gedownload via een ER-opslagplaats. Deze configuratieversie wordt gedownload van de ER-opslagplaats als versie 1 van de configuratie van het 'Voorbeeldgegevensmodel' al bestaat of eerder is gedownload. Als het van tevoren is gedownload, moet het worden voltooid in Finance and Operations versie 7.1.1541.3036 of hoger, maar niet hoger zijn dan hoofdversie 8.   
+    * Afhankelijkheden die u invoert, worden geëvalueerd wanneer deze configuratie wordt gedownload via een ER-opslagplaats. Deze configuratieversie wordt gedownload van de ER-opslagplaats als versie 1 van de configuratie van het 'Voorbeeldgegevensmodel' al bestaat of eerder is gedownload. Als het van tevoren is gedownload, moet het worden voltooid in Finance and Operations versie 7.1.1541.3036 of hoger, maar niet hoger zijn dan de primaire versie 8.   
 9. Klik op Opslaan.
 10. Sluit de pagina.
 11. Klik op Status wijzigen.

@@ -1,6 +1,6 @@
 ---
 title: Afschrijvingsconventies voor vaste activa
-description: In dit onderwerp worden afschrijvingsconventies voor vaste activa beschreven.
+description: In dit artikel worden afschrijvingsconventies voor vaste activa beschreven.
 author: moaamer
 ms.date: 09/04/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e151d20fbfb9aa8fca9afc5be4f112b3de13cc7
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 6d791461a344611437e77514e47dd5dd9b7ddb10
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719800"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858386"
 ---
 # <a name="fixed-asset-depreciation-conventions"></a>Afschrijvingsconventies voor vaste activa
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden afschrijvingsconventies voor vaste activa beschreven. Afschrijvingsconventies worden gebruikt om te bepalen wanneer en hoe de afschrijving wordt berekend voor zowel het jaar waarin het vaste activum is verworven en het jaar waarop het vaste activum is afgestoten.
+In dit artikel worden afschrijvingsconventies voor vaste activa beschreven. Afschrijvingsconventies worden gebruikt om te bepalen wanneer en hoe de afschrijving wordt berekend voor zowel het jaar waarin het vaste activum is verworven en het jaar waarop het vaste activum is afgestoten.
 
 Afschrijvingsconventies kunnen worden toegewezen aan de instelling voor een boek van de vaste-activagroep. Als u de afschrijvingsconventie wilt weergeven of toewijzen, selecteert u in het instellingsgebied **Groepen vaste activa**. Selecteer de knop **Boeken**. In dit geval worden de afschrijvingsconventies die zijn toegewezen, gebruikt als standaardwaarden wanneer de boeken voor vaste activa worden gemaakt. Afschrijvingsconventies kunnen ook worden ingesteld voor een afzonderlijke vaste-activaboek. Selecteer hiervoor **Boeken** in het instellingsgebied van vaste activa en selecteer vervolgens de knop **Groepen vaste activa**.
 

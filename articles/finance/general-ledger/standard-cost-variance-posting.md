@@ -1,6 +1,6 @@
 ---
 title: Boeking voor standaardkostenafwijking
-description: Dit onderwerp bevat informatie over het instellen van boekingsprofielen voor standaardkostprijsberekening.
+description: Dit artikel bevat informatie over het instellen van boekingsprofielen voor standaardkostprijsberekening.
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,16 +10,16 @@ ms.search.form: InventPosting, InventItemGroup
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: bc4f1bd7c1bf7a8f214f20460b10d371d8f3c790
-ms.sourcegitcommit: 1ea145dc606e243c7f51d91a5c0dd9e385bbda4a
+ms.openlocfilehash: e7b2d04f32b75dbd1354b3ef74a41ea1b6469c8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8804602"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894872"
 ---
 # <a name="standard-cost-variance-posting"></a>Boeking voor standaardkostenafwijking
 
-Wanneer u standaardkostprijsberekening gebruikt voor een of meer producten in uw organisatie, moet u de [vereisten voor standaardkostprijsberekening](/supply-chain/cost-management/prerequisites-standard-costs.md) configureren. In dit onderwerp worden de boekingsrekeningen uitgelegd die nodig zijn voor stap 3 van de vereisten: "Grootboekrekeningen toewijzen aan artikelboekingen die zijn gerelateerd aan standaardkostenafwijkingen".
+Wanneer u standaardkostprijsberekening gebruikt voor een of meer producten in uw organisatie, moet u de [vereisten voor standaardkostprijsberekening](/supply-chain/cost-management/prerequisites-standard-costs.md) configureren. In dit artikel worden de boekingsrekeningen uitgelegd die nodig zijn voor stap 3 van de vereisten: "Grootboekrekeningen toewijzen aan artikelboekingen die zijn gerelateerd aan standaardkostenafwijkingen".
 
 Er kunnen verschillende typen afwijkingen voorkomen voor inkopen en productieorders. Zie [Veelvoorkomende bronnen van productieafwijkingen](/supply-chain/cost-management/common-sources-of-production-variances.md) voor voorbeelden van productieafwijkingen. Prijsafwijkingen in inkooporders treden op wanneer u de standaardkosten voor een ingekocht artikel gebruikt en er een verschil is tussen de standaardkosten van het product en het gefactureerde bedrag op de inkooporder.
 

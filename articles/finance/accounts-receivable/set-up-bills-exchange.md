@@ -1,6 +1,6 @@
 ---
 title: Wissels instellen
-description: In dit onderwerp worden de stappen beschreven voor het instellen van wissels.
+description: In dit artikel worden de stappen beschreven voor het instellen van wissels.
 author: ShivamPandey-msft
 ms.date: 09/17/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6a9d04500ffe5b93c7a95c5cac9b4270e208dde9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 91821b10afe7cdbabd0a58b61219ce29d686c5c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726804"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874720"
 ---
 # <a name="set-up-bills-of-exchange"></a>Wissels instellen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de stappen beschreven voor het instellen van wissels.
+In dit artikel worden de stappen beschreven voor het instellen van wissels.
 
 Een wissel is een geschreven of elektronische order van een klant, waarin wordt aangegeven dat een andere partij, meestal een bank, een opgegeven bedrag aan het bedrijf moet betalen. Wanneer u een wissel als betaling gebruikt voor een verkooporderfactuur of vrije-tekstfactuur, wordt er een bedrag op de klantrekening bijgeschreven. Dit bedrag wordt gedekt door de wissel totdat de klant de wissel betaalt aan de bank. Meestal vereffent u de factuur met de wissel op de vervaldatum. Wanneer u een bericht ontvangt van uw bank dat de wissel is gehonoreerd, kunt u de wissel sluiten. U kunt een wissel trekken via uw bank op een van de volgende momenten:
 

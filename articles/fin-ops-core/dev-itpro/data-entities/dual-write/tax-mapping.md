@@ -1,6 +1,6 @@
 ---
 title: Geïntegreerde belasting
-description: In dit onderwerp wordt de integratie van belastinggegevens tussen Finance and Operations en Dataverse beschreven.
+description: In dit artikel wordt de integratie van belastinggegevens tussen apps voor financiën en bedrijfsactiviteiten en Dataverse beschreven.
 author: tonyafehr
 ms.date: 09/06/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: tfehr
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 532e6603b74ad0293d65684d2d6858ef31fbc496
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 8864a9567d57739aa72fa1859f5cfce6df33e8f7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063182"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864538"
 ---
 # <a name="integrated-tax"></a>Geïntegreerde belasting
 

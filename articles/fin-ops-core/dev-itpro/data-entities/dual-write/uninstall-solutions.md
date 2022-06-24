@@ -1,6 +1,6 @@
 ---
 title: Indelingsoplossingen voor toepassing van twee keer wegschrijven verwijderen
-description: In dit onderwerp wordt beschreven hoe u indelingsoplossingen voor twee keer wegschrijven verwijdert.
+description: In dit artikel wordt beschreven hoe u indelingsoplossingen voor twee keer wegschrijven verwijdert.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2022-01-21
-ms.openlocfilehash: 781b2cb19a563d5712fa65718c93bfdc242f0c4a
-ms.sourcegitcommit: abfaef124c8747827d6f297821f01f1f6fbca6b7
+ms.openlocfilehash: 676802ddabac69db4947cf806e9103f67cece3de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "8455319"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870369"
 ---
 # <a name="uninstall-dual-write-application-orchestration-solutions"></a>Indelingsoplossingen voor toepassing van twee keer wegschrijven verwijderen
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u indelingsoplossingen voor twee keer wegschrijven verwijdert.
+In dit artikel wordt beschreven hoe u indelingsoplossingen voor twee keer wegschrijven verwijdert.
 
 Sommige klanten installeren onbedoeld het indelingspakket voor twee keer wegschrijven waarmee meerdere oplossingen in hun Microsoft Dataverse-omgeving worden geïnstalleerd. De installatie van de externe oplossingen in het pakket kan onverwachte en ongewenste problemen veroorzaken.
 

@@ -1,6 +1,6 @@
 ---
 title: Kandidaten werven
-description: Dit onderwerp beschrijft hoe u kandidaten werft in Dynamics 365 Human Resources.
+description: In dit artikel wordt beschreven hoe u kandidaten werft in Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ef2f2c82708fd48055faa7546e7e0c4da51e7b6c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 743c78d3526db2707630229d4cf21531f9641dd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733980"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879245"
 ---
 # <a name="recruit-job-candidates"></a>Kandidaten werven
 
@@ -47,11 +47,12 @@ Als u wervingsaanvragen wilt indienen in HR-werving, moet u eerst de functies **
 
 Zodra de functies zijn ingeschakeld, selecteert u de functionaliteit met de volgende stappen: 
 1. Ga naar **Human resources** > **Instellingen** > **Human resources-parameters**.
-2. Stel op het tabblad  **Werving**  het veld **Werving uitgeschakeld** in op **Nee**.
-3. Selecteer **HR-werving** in de vervolgkeuzelijst **Wervingservaring**.   
+2. Stel op het tabblad  **Werving**  het veld **Werving ingeschakeld** in op **Ja**.
+3. Selecteer **HR-werving** in de vervolgkeuzelijst **Wervingservaring**.  
+4. Klik op **Opslaan**. 
 
 > [!Note] 
-> Als **HR-werving** is geselecteerd, wordt **Wervingsprojecten** (verouderd) alleen-lezen. 
+> Als **HR-werving** is geselecteerd, is **Wervingsprojecten** (verouderd) niet beschikbaar. 
 
 
 ## <a name="add-a-recruiting-request-location"></a>De locatie van een wervingsaanvraag toevoegen

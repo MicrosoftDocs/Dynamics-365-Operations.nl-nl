@@ -1,6 +1,6 @@
 ---
 title: Functionaliteit voor samenstellingsintervallen
-description: Dit onderwerp bevat informatie waarmee u kunt kiezen uit maandelijkse, driemaandelijkse, halfjaarlijkse en jaarlijkse samenstellingsintervallen.
+description: Dit artikel bevat informatie waarmee u kunt kiezen uit maandelijkse, driemaandelijkse, halfjaarlijkse en jaarlijkse samenstellingsintervallen.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d1b8af3d5f8f6a6812fe309f57f682d0c5023d00
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 2de5f1e9d52de41388298031a03fbc487a1b1cde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710437"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886407"
 ---
 # <a name="compounding-interval-functionality"></a>Functionaliteit voor samenstellingsintervallen
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Dit onderwerp bevat informatie waarmee u kunt kiezen uit maandelijkse, driemaandelijkse, halfjaarlijkse en jaarlijkse samenstellingsintervallen. De functionaliteit voor samenstellingsintervallen wordt gebruikt om het aantal samenstellingensperioden per jaar in het betalingsschema van een lease te bepalen. Elk van de vier voorbeelden in dit onderwerp laat zien hoe een betalingsschema van een lease wordt weergegeven voor een ander interval.
+Dit artikel bevat informatie waarmee u kunt kiezen uit maandelijkse, driemaandelijkse, halfjaarlijkse en jaarlijkse samenstellingsintervallen. De functionaliteit voor samenstellingsintervallen wordt gebruikt om het aantal samenstellingensperioden per jaar in het betalingsschema van een lease te bepalen. Elk van de vier voorbeelden in dit artikel laat zien hoe een betalingsschema van een lease wordt weergegeven voor een ander interval.
 
 U kunt geen samenstellingsinterval selecteren dat minder frequent is dan de betalingsfrequentie van de lease. Een driemaandelijks samenstellingsinterval kan bijvoorbeeld niet worden gebruikt met een maandelijkse betalingsfrequentie en een jaarlijks samenstellingsinterval kan niet worden gebruikt met een halfjaarlijkse betalingsfrequentie. Als u een samenstellingsinterval probeert te selecteren dat minder frequent is dan de betalingsfrequentie van de lease, verschijnt een foutmelding.
 
 > [!NOTE]
-> In alle vier voorbeelden in dit onderwerp komt het samenstellingsinterval overeen met de betalingsfrequentie.
+> In alle vier voorbeelden in dit artikel komt het samenstellingsinterval overeen met de betalingsfrequentie.
 
 ## <a name="examples"></a>Voorbeelden
 

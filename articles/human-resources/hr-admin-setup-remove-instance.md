@@ -1,6 +1,6 @@
 ---
 title: Een exemplaar verwijderen
-description: In dit onderwerp wordt u door het proces van het verwijderen van een testdrive- of productieomgeving voor Dynamics 365 Human Resources geleid.
+description: In dit artikel wordt u door het proces van het verwijderen van een testdrive- of productieomgeving voor Microsoft Dynamics 365 Human Resources geleid.
 author: twheeloc
 ms.date: 08/11/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 522989298544fa5a2c0812bc57e9ae4ae21fe250
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4256938be70f301d3d7b7663f10addb19725b048
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692361"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859628"
 ---
 # <a name="remove-an-instance"></a>Een exemplaar verwijderen
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp wordt het proces van het verwijderen van een testdrive- of productieomgeving voor Microsoft Dynamics 365 Human Resources uitgelegd.
+In dit artikel wordt het proces van het verwijderen van een testdrive- of productieomgeving voor Microsoft Dynamics 365 Human Resources uitgelegd.
 
 ## <a name="remove-a-test-drive-environment"></a>Een testdrive-omgeving verwijderen
 
@@ -40,7 +40,7 @@ De bestaande testdrive-omgeving wordt verwijderd. Wanneer deze is verwijderd, ku
 
 ## <a name="remove-a-production-environment"></a>Een productieomgeving verwijderen
 
-In dit onderwerp wordt ervan uitgegaan dat u Human Resources hebt aangeschaft via een provider van cloudoplossingen of een EA-overeenkomst (Enterprise Architecture). 
+In dit artikel wordt ervan uitgegaan dat u Human Resources hebt aangeschaft via een provider van cloudoplossingen of een EA-overeenkomst (Enterprise Architecture). 
 
 Aangezien één Human Resources-omgeving is opgenomen in één Power Apps-omgeving, zijn twee opties mogelijk. De eerste optie is het verwijderen van de gehele Power Apps-omgeving; bij de tweede optie verwijdert u alleen Human Resources. De eerste optie is het beste wanneer u een Power Apps-omgeving speciaal voor Human Resources hebt gemaakt en u net met de implementatie bent begonnen, of wanneer er geen integratie is uitgevoerd. De tweede optie is geschikt wanneer u een Power Apps-omgeving hebt die is voorzien van veel gegevens, die worden gebruikt in Power Apps en Power Automate.
 

@@ -1,6 +1,6 @@
 ---
 title: Handmatige taken configureren in een workflow
-description: In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een handmatige taak configureert.
+description: In dit artikel wordt uitgelegd hoe u de verschillende eigenschappen van een handmatige taak configureert.
 author: ChrisGarty
 ms.date: 08/23/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 726abcf20789fb3a7a9a3adbebf17249042910d1
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 265f127f948aa7425c5eb523abe18986a942cfb0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066463"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889202"
 ---
 # <a name="configure-manual-tasks-in-a-workflow"></a>Handmatige taken configureren in een workflow
 
@@ -28,7 +28,7 @@ ms.locfileid: "8066463"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een handmatige taak configureert.
+In dit artikel wordt uitgelegd hoe u de verschillende eigenschappen van een handmatige taak configureert.
 
 Om een handmatige taak te configureren, klikt u in de workfloweditor met de rechtermuisknop op de taak en klikt u vervolgens op **Eigenschappen** om de pagina **Eigenschappen** te openen. Configureer vervolgens aan de hand van de volgende procedures de eigenschappen voor de handmatige taak.
 

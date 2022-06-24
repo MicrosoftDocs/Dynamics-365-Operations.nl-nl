@@ -1,6 +1,6 @@
 ---
 title: Dubbele valuta
-description: Dit onderwerp biedt informatie over dubbele valuta, waar de aangiftevaluta wordt gebruikt als een tweede valuta voor boekhouding voor Microsoft Dynamics 365 Finance.
+description: Dit artikel biedt informatie over dubbele valuta, waar de aangiftevaluta wordt gebruikt als een tweede valuta voor boekhouding voor Microsoft Dynamics 365 Finance.
 author: kweekley
 ms.date: 04/17/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 04738d2fe88fef5c0e96a39febfec86fab3bee7d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 8db8faefaec4afe208344492ec91375531cb9cd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713565"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906350"
 ---
 # <a name="dual-currency"></a>Dubbele valuta
 
@@ -36,7 +36,7 @@ Bovendien zijn verschillende modules verbeterd om de aangiftevaluta in verschill
 - Vaste activa 
 - Consolidaties
 
-Na een upgrade moet u bepaalde stappen uitvoeren voor Kas- en bankbeheer en Vaste activa. Daarom moet u de relevante onderdelen van dit onderwerp zorgvuldig lezen en begrijpen.
+Na een upgrade moet u bepaalde stappen uitvoeren voor Kas- en bankbeheer en Vaste activa. Daarom moet u de relevante onderdelen van dit artikel zorgvuldig lezen en begrijpen.
 
 ## <a name="posting-process"></a>Boekingsproces
 
@@ -93,7 +93,7 @@ De volgende aanvullende wijzigingen zijn aangebracht in de module **Grootboek**:
 - Een afzonderlijk wisselkoerstype voor de aangiftevaluta kan worden gedefinieerd in het grootboek. Als een organisatie geen ander wisselkoerstype wil gebruiken, kunt u het veld voor het wisselkoerstype voor de aangiftevaluta leeg laten. U kunt ook hetzelfde wisselkoerstype selecteren dat wordt gebruikt voor de boekhoudingsvaluta. Als u het veld leeg laat, wordt het wisselkoerstype gebruikt voor de boekhoudingsvaluta.
 - Met een nieuw journaal, het Correctiejournaal aangiftevaluta, kunnen correcties worden geboekt naar grootboekrekeningen in alleen de aangiftevaluta. Met dit journaal kan alleen naar grootboekrekeningen worden geboekt. Intercompany wordt niet ondersteund en de valuta moet de aangiftevaluta van de rechtspersoon zijn waar het journaal wordt geboekt. Wanneer het journaal wordt geboekt, zijn het transactievalutabedrag en het aangiftevalutabedrag 0 (nul) en wordt het aangiftevalutabedrag geboekt met het bedrag dat in de transactie is ingevoerd. Omdat de manier waarop de aangiftevaluta wordt gebruikt in de modules **Leveranciers**, **Klanten** en **Vaste activa** is gewijzigd, kan dit journaal worden gebruikt voor correcties na een upgrade. Zie de secties voor deze modules voor voorbeelden die laten zien hoe dit journaal kan worden gebruikt.
 - Het proces voor periodetoewijzing is bijgewerkt zodat het bedragen toewijst in de transactie-, boekhoudings- en aangiftevaluta. Bedragen werden eerder toegewezen in de transactie- en de boekhoudingsvaluta en vervolgens werd het boekhoudingsvalutabedrag vertaald naar de aangiftevaluta. Dat gedrag kan leiden tot een resterend saldo op de grootboekrekening in de aangiftevaluta. Wanneer bedragen worden berekend en gebruikt in de boekhoudingspost, vindt nu geen vertaling plaats.
-- Het proces voor herwaardering van vreemde valuta's herwaardeert bedragen in de aangiftevaluta. Het aangiftevalutabedrag wordt nu echter berekend via het transactievalutabedrag, zoals beschreven in de sectie [Boekingsproces](#posting-process) eerder in dit onderwerp.
+- Het proces voor herwaardering van vreemde valuta's herwaardeert bedragen in de aangiftevaluta. Het aangiftevalutabedrag wordt nu echter berekend via het transactievalutabedrag, zoals beschreven in de sectie [Boekingsproces](#posting-process) eerder in dit artikel.
 - Veel rapporten en query's in het Grootboek bevatten al de aangiftevaluta, maar enkele niet. Eén voorbeeld is de lijstpagina **Proefbalans**. Deze lijstpagina bevat nu kolommen voor de boekhoudingsvaluta en de aangiftevaluta. De kolommen voor de aangiftevaluta worden verborgen als de boekhoudingsvaluta en de aangiftevaluta hetzelfde zijn of als geen aangiftevaluta is gedefinieerd in het grootboek.
 
 ### <a name="financial-reporting"></a>Financiële rapportage

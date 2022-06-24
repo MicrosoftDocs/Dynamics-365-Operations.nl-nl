@@ -1,6 +1,6 @@
 ---
 title: 'Ouderdomsmomentopnamen voor klanten '
-description: Dit onderwerp bevat informatie over ouderdomsmomentopname voor klanten. Een ouderdomsmomentopname berekent saldi voor groep klanten op een bepaald tijdstip.
+description: Dit artikel bevat informatie over ouderdomsmomentopname voor klanten. Een ouderdomsmomentopname berekent saldi voor groep klanten op een bepaald tijdstip.
 author: JodiChristiansen
 ms.date: 05/05/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 54db3e53cd31936ce80f0cdf1147535216d0d4b4
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: c1a83f2648b52e436d19a11862e58dc33313f341
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722990"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902568"
 ---
 # <a name="customer-aging-snapshots"></a>Ouderdomsmomentopnamen voor klanten 
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat informatie over ouderdomsmomentopname voor klanten. Een ouderdomsmomentopname berekent saldi voor groep klanten op een bepaald tijdstip. U kunt registraties voor ouderdomsmomentopnamen voor alle klanten of voor de klanten in een klantverzameling maken.
+Dit artikel bevat informatie over ouderdomsmomentopname voor klanten. Een ouderdomsmomentopname berekent saldi voor groep klanten op een bepaald tijdstip. U kunt registraties voor ouderdomsmomentopnamen voor alle klanten of voor de klanten in een klantverzameling maken.
 
 Informatie van ouderdomsmomentopnamen wordt weergegeven op de lijstpagina **Ouderdomssaldi** en op de pagina **Aanmaningen**. U moet een ouderdomsmomentopname maken voordat u de lijstpagina **Ouderdomssaldi** kunt gebruiken. De lijstpagina vermeldt uitsluitend informatie voor klanten voor wie een ouderdomsmomentopname is gemaakt.
 

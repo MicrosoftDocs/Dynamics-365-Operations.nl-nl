@@ -1,6 +1,6 @@
 ---
 title: Bronbelastingaangifte voor Egypte
-description: In dit onderwerp wordt uitgelegd hoe u de bronbelastingaangiften voor Egypte configureert en genereert.
+description: In dit artikel wordt uitgelegd hoe u de bronbelastingaangiften voor Egypte configureert en genereert.
 author: sndray
 ms.date: 03/08/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8d78af13e0b3879afd0b6dae7b1a9ece651c3fd2
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: 505eb8a907ec8cc74b897695ddd90eee3abb0ed6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403886"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907682"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>Bronbelastingaangifte voor Egypte (EG-00005)
 
@@ -26,7 +26,7 @@ ms.locfileid: "7403886"
 [!include[banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>Overzicht
-In dit onderwerp wordt uitgelegd hoe u de bronbelastingaangifte en de bronbelastingaangifteformulieren 41 en 11 instelt en genereert voor rechtspersonen in Egypte 
+In dit artikel wordt uitgelegd hoe u de bronbelastingaangifte en de bronbelastingaangifteformulieren 41 en 11 instelt en genereert voor rechtspersonen in Egypte 
 
 Alle Egyptische entiteiten moeten formulier 41 voorbereiden, waarin alle belastingen worden samengevat die zijn ingehouden van lokale leveranciers en serviceproviders. Behalve formulier 41 moet ook formulier 11 worden gegenereerd voor alle ingehouden belastingen van buitenlandse leveranciers. 
 
@@ -58,7 +58,7 @@ Zie [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](..
 
 De implementatie van de bronbelastingaangifteformulieren voor Egypte is gebaseerd op ER-configuraties (elektronische rapportage). Zie [Elektronische rapportage](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md) voor meer informatie over de capaciteiten en concepten van configureerbare rapportage.
 
-Volg de instructies in het onderwerp [Configuraties voor elektronische rapportage downloaden vanuit Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md) voor meer informatie over productie- en gebruikersacceptatietestomgevingen (UAT).
+Volg de instructies in het artikel [Configuraties voor elektronische rapportage downloaden vanuit Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md) voor meer informatie over productie- en gebruikersacceptatietestomgevingen (UAT).
 
 Als u de bronbelastingsaangiften wilt genereren in een Egyptische rechtspersoon, moet u de volgende configuraties uploaden:
 

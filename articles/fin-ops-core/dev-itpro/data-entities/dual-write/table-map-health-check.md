@@ -1,20 +1,20 @@
 ---
 title: Foutencodes voor de statuscontrole van de tabeltoewijzing
-description: In dit onderwerp worden foutcodes voor de statuscontrole voor een tabeltoewijzing beschreven.
-author: nhelgren
-ms.date: 10/04/2021
+description: In dit artikel worden foutcodes voor de statuscontrole van een tabeltoewijzing beschreven.
+author: RamaKrishnamoorthy
+ms.date: 05/31/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
-ms.author: nhelgren
+ms.author: ramasri
 ms.search.validFrom: 2021-10-04
-ms.openlocfilehash: 916f3cfca3bae7a073ce4e956a12080ee01c8d31
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3ae78077fc716311c38620b14665af3983a44c2d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061273"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884078"
 ---
 # <a name="errors-codes-for-the-table-map-health-check"></a>Foutencodes voor de statuscontrole van de tabeltoewijzing
 
@@ -22,7 +22,7 @@ ms.locfileid: "8061273"
 
 
 
-In dit onderwerp worden foutcodes voor de statuscontrole voor een tabeltoewijzing beschreven.
+In dit artikel worden foutcodes voor de statuscontrole van een tabeltoewijzing beschreven.
 
 ## <a name="error-100"></a>Fout 100
 
@@ -36,9 +36,9 @@ De foutmelding is 'Er worden geen registratiegegevens voor zakelijke gebeurtenis
 
 ## <a name="error-500"></a>Fout 500
 
-Het foutbericht is "Er zijn geen projectconfiguraties gevonden voor project \{projectnaam\}. De reden kan zijn dat het project niet is ingeschakeld of dat alle veldtoewijzingen unidirectioneel zijn van Customer Engagement tot Finance and Operations."
+Het foutbericht is "Er zijn geen projectconfiguraties gevonden voor project \{projectnaam\}. De reden kan zijn dat het project niet is ingeschakeld of dat alle veldtoewijzingen unidirectioneel zijn van Customer Engagement naar apps voor financiën en bedrijfsactiviteiten."
 
-Controleer de toewijzingen voor de tabeltoewijzing. Als deze unidirectioneel zijn van Customer Engagement-apps tot apps voor financiële en bedrijfsactiviteiten, wordt geen verkeer gegenereerd voor live synchronisatie van apps voor financiële en bedrijfsactiviteiten naar Dataverse.
+Controleer de toewijzingen voor de tabeltoewijzing. Als deze unidirectioneel zijn van Customer Engagement-apps naar apps voor financiën en bedrijfsactiviteiten, wordt geen verkeer gegenereerd voor live synchronisatie van apps voor financiën en bedrijfsactiviteiten naar Dataverse.
 
 ## <a name="error-900"></a>Fout 900
 
@@ -79,5 +79,20 @@ select * from <EntityName> where <filter criteria for the records> on SQL.
 Het foutbericht is 'Tabel: \{datasourceTable.Key.subscribedTableName\} voor entiteit \{datasourceTable.Key.entityName\} wordt bijgehouden voor entiteit \{origTableToEntityMaps.EntityName\}. Dezelfde tabellen die voor meerdere entiteiten worden bijgehouden, kunnen invloed hebben op de systeemprestaties bij live synchronisatietransacties.'
 
 Als dezelfde tabel door meerdere entiteiten wordt bijgehouden, zal elke wijziging in de tabel evaluatie van twee keer wegschrijven activeren voor de gekoppelde entiteiten. Hoewel de filterclausules alleen de geldige records verzenden, kan de evaluatie een prestatieprobleem veroorzaken als er langlopende query's of niet-geoptimaliseerde queryplannen zijn. Dit probleem kan mogelijk niet worden vermeden vanuit het zakelijke perspectief. Als er echter een groot aantal kruisende tabellen tussen meerdere entiteiten zijn, moet u overwegen de entiteit te vereenvoudigen of optimalisaties voor entiteitsquery's te controleren.
+
+## <a name="error-1800"></a>Fout 1800
+De foutmelding is 'Gegevensbron: {} voor entiteit CustCustomerV3Entity bevat een bereikwaarde. Inkomende recordupserts van Dataverse naar apps voor financiën en bedrijfsactiviteiten kunnen worden beïnvloed door bereikwaarden van de entiteit. Test recordupdates van Dataverse naar apps voor financiën en bedrijfsactiviteiten met records die niet aan de filtercriteria voldoen om uw instellingen te valideren."
+
+Als er een bereik is opgegeven voor de entiteit in de apps voor financiën en bedrijfsactiviteiten, moet de inkomende synchronisatie van Dataverse naar apps voor financiën en bedrijfsactiviteiten worden getest op bijwerkgedrag in records die niet aan deze bereikcriteria voldoen. Alle records die niet overeenkomen met het bereik, worden door de entiteit behandeld als een invoegbewerking. Als er een bestaande record in de onderliggende tabel aanwezig is, mislukt de invoeging. Het is raadzaam om deze use case voor alle scenario's te testen voordat u deze implementeert voor de productie.
+
+## <a name="error-1900"></a>Fout 1900
+De foutmelding is 'Entiteit bevat {} gegevensbronnen die niet worden bijgehouden voor uitgaand twee keer wegschrijven. Dit kan gevolgen hebben voor de prestaties van live synchronisatiequery's. Modelleer de entiteit opnieuw in Finance and Operations om ongebruikte gegevensbronnen en tabellen te verwijderen of getEntityRecordIdsImpactedByTableChange te implementeren om de runtimequery's te optimaliseren."
+
+Als er veel gegevensbronnen zijn die niet worden gebruikt voor traceren in de werkelijke live synchronisatie van de apps voor financiën en bedrijfsactiviteiten, is het mogelijk dat de prestaties van entiteiten de live synchronisatie beïnvloeden. Als u de bijgehouden tabellen wilt optimaliseren, gebruikt u de methode getEntityRecordIdsImpactedByTableChange.
+
+## <a name="error-5000"></a>Fout 5000
+De foutmelding is 'Synchrone invoegtoepassingen worden geregistreerd voor gegevensbeheergebeurtenissen voor entiteitsrekeningen. Deze kunnen van invloed zijn op importprestaties van initiële synchronisatie en live synchronisatie naar Dataverse. Schakel voor de beste prestaties de invoegtoepassingen over naar asynchrone verwerking. Lijst met geregistreerde invoegtoepassingen {}."
+
+Synchrone invoegtoepassingen in een Dataverse-entiteit kunnen van invloed zijn op de prestaties van live synchronisatie en initiële synchronisatie bij toevoeging aan de transactiebelasting. De aanbevolen benadering is om de invoegtoepassingen uit te schakelen of om deze invoegtoepassingen asynchroon te maken als u bij initiële synchronisatie of live synchronisatie te maken krijgt met trage laadtijden voor een bepaalde entiteit.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Toeslagcodes maken
-description: In dit onderwerp wordt uitgelegd hoe u toeslagcodes configureert voor Leveranciers en Klanten.
+description: In dit artikel wordt uitgelegd hoe u toeslagcodes configureert voor Leveranciers en Klanten.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e8526fa0f3c6e3d1b545703f6e6ef72f558b57bd
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d65952cb989672e4eac2dd6101ee9c7c9424daed
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735022"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866078"
 ---
 # <a name="create-charges-codes"></a>Toeslagcodes maken
 
-In dit onderwerp wordt uitgelegd hoe u toeslagcodes configureert voor Leveranciers en Klanten. Als uw organisatie vereist dat verkoop- of inkoopbedragen worden bijgehouden naast regelartikelen op een verkoop- of inkooporder, kunt u hiervoor toeslagcodes gebruiken. Zo betaalt u bijvoorbeeld vrachtkosten en verzekering op een inkooporder, en komen deze bedragen afzonderlijk voor op de inkooporder. In dit geval kunt u opgeven of de bedragen worden geboekt naar kostenrekeningen of toegevoegd aan de kosten van de artikelen.
+In dit artikel wordt uitgelegd hoe u toeslagcodes configureert voor Leveranciers en Klanten. Als uw organisatie vereist dat verkoop- of inkoopbedragen worden bijgehouden naast regelartikelen op een verkoop- of inkooporder, kunt u hiervoor toeslagcodes gebruiken. Zo betaalt u bijvoorbeeld vrachtkosten en verzekering op een inkooporder, en komen deze bedragen afzonderlijk voor op de inkooporder. In dit geval kunt u opgeven of de bedragen worden geboekt naar kostenrekeningen of toegevoegd aan de kosten van de artikelen.
 
 ## <a name="set-up-charges-codes-for-accounts-receivable"></a>Toeslagcodes instellen voor Klanten
 

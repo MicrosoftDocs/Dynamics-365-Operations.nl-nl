@@ -1,6 +1,6 @@
 ---
 title: De parameters van een ER-indeling per rechtspersoon instellen
-description: In dit onderwerp wordt uitgelegd hoe u de para meters van een ER-indeling (Elektronische rapportage) per rechts persoon kunt instellen.
+description: In dit artikel wordt uitgelegd hoe u de para meters van een ER-indeling (Elektronische rapportage) per rechts persoon kunt instellen.
 author: NickSelin
 ms.date: 03/25/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: f72ce72e9cbd268efc6ab09dbec7009794d69613
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: dbcf968dde432da182b5bd2d6a7bcb9f83dad6fa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644494"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890207"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>De parameters van een ER-indeling per rechtspersoon instellen
 
@@ -30,7 +30,7 @@ ms.locfileid: "8644494"
 
 Als u deze stappen wilt voltooien, moet u eerst de stappen in het onderwerp [ER-indelingen configureren om parameters te gebruiken die per rechtspersoon worden opgegeven](er-app-specific-parameters-configure-format.md) uitvoeren.
 
-Als u de voorbeelden in dit onderwerp wilt voltooien, moet u toegang hebben tot Microsoft Dynamics 365 Finance voor een van de volgende rollen:
+Als u de voorbeelden in dit artikel wilt voltooien, moet u toegang hebben tot Microsoft Dynamics 365 Finance voor een van de volgende rollen:
 
 - Ontwikkelaar elektronische rapportage
 - Functioneel consultant elektronische rapportage
@@ -221,7 +221,7 @@ De toepassingsspecifieke parameters van een ER-indeling zijn afhankelijk van de 
 
 U kunt deze aanpak van exporteren en importeren ook gebruiken om toepassingsspecifieke parameters voor een ER-indeling die oorspronkelijk waren geconfigureerd in het ene exemplaar van Finance, over te dragen naar een ander exemplaar van Finance.
 
-Als u toepassingsspecifieke parameters configureert voor één versie van een ER-indeling en vervolgens een latere versie van dezelfde indeling importeert in het huidige exemplaar van Finance, worden de bestaande toepassingsspecifieke parameters niet toegepast op de geïmporteerde versie tenzij u de toepassingsspecifieke parameters uit vorige versies van de **ER-indelingen** gebruikt. Zie de sectie [Bestaande parameter opnieuw gebruiken](#reuse-existing-parameters) verderop in dit onderwerp voor meer informatie.
+Als u toepassingsspecifieke parameters configureert voor één versie van een ER-indeling en vervolgens een latere versie van dezelfde indeling importeert in het huidige exemplaar van Finance, worden de bestaande toepassingsspecifieke parameters niet toegepast op de geïmporteerde versie tenzij u de toepassingsspecifieke parameters uit vorige versies van de **ER-indelingen** gebruikt. Zie de sectie [Bestaande parameter opnieuw gebruiken](#reuse-existing-parameters) verderop in dit artikel voor meer informatie.
 
 Wanneer u een bestand selecteert dat u wilt importeren, wordt de structuur van de toepassingsspecifieke parameters in dat bestand vergeleken met de structuur van de bijbehorende gegevensbronnen van het type **Zoekopdracht** in de ER-indeling die voor het importeren is geselecteerd. Standaard wordt de importbewerking alleen voltooid als de structuur van elke toepassingsspecifieke parameter overeenkomt met de structuur van de bijbehorende gegevensbron in de ER-indeling die voor het importeren is geselecteerd. Als de structuren niet overeenkomen, krijgt u de waarschuwingsbericht dat de importbewerking niet kan worden uitgevoerd. Als u de importbewerking afdwingt, worden de bestaande toepassingsspecifieke parameters voor de geselecteerde ER-indeling verwijderd en moet u deze opnieuw instellen.
 

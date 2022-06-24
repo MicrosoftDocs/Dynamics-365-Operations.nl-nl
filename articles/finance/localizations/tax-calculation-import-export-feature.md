@@ -1,6 +1,6 @@
 ---
 title: Belastingberekeningen importeren en exporteren
-description: Dit onderwerp biedt informatie over de import- en exportfunctionaliteit van de service voor belastingberekening.
+description: Dit artikel biedt informatie over de import- en exportfunctionaliteit van de service voor belastingberekening.
 author: Kai-Cloud
 ms.date: 11/22/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-11-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 02ad47b5f350969b4935a8f383ddf26a7ce7a46a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9daee683763d7cb0eb9573497eb4e20cba9b1863
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690885"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855168"
 ---
 # <a name="import-and-export-tax-calculations"></a>Belastingberekeningen importeren en exporteren
 
-Dit onderwerp biedt informatie over de import- en exportfunctionaliteit van de service voor belastingberekening. Deze functionaliteit zorgt voor een flexibele en efficiënte configuratie-ervaring.
+Dit artikel biedt informatie over de import- en exportfunctionaliteit van de service voor belastingberekening. Deze functionaliteit zorgt voor een flexibele en efficiënte configuratie-ervaring.
 
 ## <a name="import-and-export-tax-codes"></a>Belastingcodes importeren en exporteren
 

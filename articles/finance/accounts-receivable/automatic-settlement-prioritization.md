@@ -1,6 +1,6 @@
 ---
 title: Automatische vereffening en prioriteitstelling
-description: Dit onderwerp beschrijft hoe transacties worden vereffend als u Automatische vereffening op de pagina Parameters van module Klanten selecteert. Het legt ook uit hoe de automatische vereffening in combinatie met de betalingsprioriteit kan worden gebruikt.
+description: Dit artikel beschrijft hoe transacties worden vereffend als u Automatische vereffening op de pagina Parameters van module Klanten selecteert. Het legt ook uit hoe de automatische vereffening in combinatie met de betalingsprioriteit kan worden gebruikt.
 author: ShivamPandey-msft
 ms.date: 01/30/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47ccdb49b4d5c43b4f9cb9a967bd30376474e4c1
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: bd5b894c82beb1b5d69ad6bf485161ab9c91a806
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712253"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855515"
 ---
 # <a name="automatic-settlement-and-prioritization"></a>Automatische vereffening en prioriteitstelling
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp beschrijft hoe transacties worden vereffend als u Automatische vereffening op de pagina Parameters van module Klanten selecteert. Het legt ook uit hoe de automatische vereffening in combinatie met de betalingsprioriteit kan worden gebruikt.
+Dit artikel beschrijft hoe transacties worden vereffend als u Automatische vereffening op de pagina Parameters van module Klanten selecteert. Het legt ook uit hoe de automatische vereffening in combinatie met de betalingsprioriteit kan worden gebruikt.
 
 U hebt twee opties wanneer u betalingen met facturen en andere transacties vereffent. U kunt de te vereffenen transacties handmatig selecteren of u kunt de transacties in het systeem automatisch laten selecteren door de functie Automatische vereffeningen te gebruiken. U kunt ook aanpassen hoe automatische vereffeningen worden verwerkt door de optie **Prioriteit van vereffening** te gebruiken. Al deze opties maken deel uit van de vereffeningparameters die zijn gedefinieerd op de pagina **Parameters van module Klanten**. De manier waarop transacties automatisch worden vereffend kan verschillen, afhankelijk van de methode die u voor automatische vereffening gebruikt. De volgende methoden zijn beschikbaar:
 

@@ -1,6 +1,6 @@
 ---
 title: Belasting wordt geboekt naar de verkeerde grootboekrekening in het boekstuk
-description: Dit onderwerp bevat informatie voor het oplossen van problemen die kunnen helpen wanneer belasting is geboekt naar de verkeerde grootboekrekening in het boekstuk.
+description: Dit artikel bevat informatie voor het oplossen van problemen die kan helpen wanneer belasting is geboekt naar de verkeerde grootboekrekening in het boekstuk.
 author: qire
 ms.date: 04/12/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 9c9f3fc63374b185a795977566cf73c8c29ee5d3
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5eb0f7d0196ac52a87d61cba6b9cd438708eff73
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686430"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846736"
 ---
 # <a name="tax-is-posted-to-the-wrong-ledger-account-in-the-voucher"></a>Belasting wordt geboekt naar de verkeerde grootboekrekening in het boekstuk
 
 [!include [banner](../includes/banner.md)]
 
-Tijdens het boeken, kan belasting naar de verkeerde grootboekrekening in het boekstuk worden geboekt. Volg de stappen in de volgende secties zoals vereist om dit probleem op te lossen. In de voorbeelden in dit onderwerp wordt een verkooporder als bedrijfsdocument gebruikt.
+Tijdens het boeken, kan belasting naar de verkeerde grootboekrekening in het boekstuk worden geboekt. Volg de stappen in de volgende secties zoals vereist om dit probleem op te lossen. In de voorbeelden in dit artikel wordt een verkooporder als bedrijfsdocument gebruikt.
 
 ## <a name="find-the-tax-code-of-the-incorrectly-posted-tax-transaction"></a>Zoek de belastingcode van de onjuist geboekte belastingtransactie
 

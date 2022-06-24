@@ -1,6 +1,6 @@
 ---
 title: Nieuwe of bijgewerkte taakbegeleidingen (november 2016)
-description: In dit onderwerp worden de nieuwe of bijgewerkte taakbegeleidingen vermeld die zijn uitgebracht voor de Microsoft APQC Unified Library (november 2016, alle talen) voor Microsoft Dynamics 365 for Operations. Er is geen nieuwe bibliotheek Aan de slag uitgebracht.
+description: In dit artikel worden de nieuwe of bijgewerkte taakbegeleidingen vermeld die zijn uitgebracht voor de Microsoft APQC Unified Library (november 2016, alle talen) voor Microsoft Dynamics 365 for Operations. Er is geen nieuwe bibliotheek Aan de slag uitgebracht.
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3f36ceb535919991c1be0501daabd94e966723fa875cf8765439212d235e82a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3836456f8d4ba8aba95e90563f8bdb27fc547e09
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728122"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886580"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>Nieuwe of bijgewerkte taakbegeleidingen (november 2016)
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de nieuwe of bijgewerkte taakbegeleidingen vermeld die zijn uitgebracht voor de Microsoft APQC Unified Library (november 2016, alle talen) voor Microsoft Dynamics 365 for Operations. Er is geen nieuwe bibliotheek Aan de slag uitgebracht.
+In dit artikel worden de nieuwe of bijgewerkte taakbegeleidingen vermeld die zijn uitgebracht voor de Microsoft APQC Unified Library (november 2016, alle talen) voor Microsoft Dynamics 365 for Operations. Er is geen nieuwe bibliotheek Aan de slag uitgebracht.
 
-De APQC Unified Library (november 2016, alle talen) bevat de taakbegeleidingen die zijn bedoeld voor gebruik als Help met Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations-platformupdate 3, Microsoft Dynamics AX-platformupdate 2, de Dynamics AX-update voor mei 2016 en de release van Microsoft Dynamics AX voor februari 2016. Zie [Startpagina Nieuwe of gewijzigde functies in Finance and Operations](whats-new-changed.md) voor meer informatie over deze versies. Gelokaliseerde versies van de taakbegeleidingen zijn beschikbaar in deze bibliotheek. Zie voor meer informatie over het verbinden van het Help-systeem met een bibliotheek met taakbegeleidingen het onderwerp [Help-systeem](help-overview.md).
+De APQC Unified Library (november 2016, alle talen) bevat de taakbegeleidingen die zijn bedoeld voor gebruik als Help met Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations-platformupdate 3, Microsoft Dynamics AX-platformupdate 2, de Dynamics AX-update voor mei 2016 en de release van Microsoft Dynamics AX voor februari 2016. Zie [Startpagina Nieuw of gewijzigd in Finance and Operations](whats-new-changed.md) voor meer informatie over deze versies. Gelokaliseerde versies van de taakbegeleidingen zijn beschikbaar in deze bibliotheek. Zie voor meer informatie over het verbinden van het Help-systeem met een bibliotheek met taakbegeleidingen het onderwerp [Help-systeem](help-overview.md).
 
 > [!NOTE]
 > Een sterretje (\*) naast de titel van een BPM-regel (Business Process Modeler) geeft aan dat de taakbegeleider voor dat bedrijfsproces is gemaakt voor de update van Dynamics 365 for Operations van november 2016 en niet wordt ondersteund in eerdere versies van Microsoft Dynamics AX.

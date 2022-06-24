@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: e4aa910d92c2905d54d96f656e1d3d1c36388636
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 228c891e8c29cf4309856b90139d0b88805a9812
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693859"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886155"
 ---
 # <a name="process-compensation"></a>Compensatie verwerken
 
@@ -27,7 +27,7 @@ ms.locfileid: "8693859"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Met compensatieverwerking kunt u nieuwe basiscompensatiebedragen berekenen voor uw werknemers, op basis van salarisaanpassingen, loonsverhoging voor verdienste en prestaties. In dit onderwerp wordt uitgelegd hoe de algemene stroom van compensatie wordt verwerkt voor vaste-compensatieplannen zonder rekening te houden met prestaties van de werknemer.
+Met compensatieverwerking kunt u nieuwe basiscompensatiebedragen berekenen voor uw werknemers, op basis van salarisaanpassingen, loonsverhoging voor verdienste en prestaties. In dit artikel wordt uitgelegd hoe de algemene stroom van compensatie wordt verwerkt voor vaste-compensatieplannen zonder rekening te houden met prestaties van de werknemer.
 
 ## <a name="plan-the-new-compensation-amounts-and-budgets"></a>De nieuwe compensatiebedragen en -budgetten plannen
 Als u uw werknemers een loonsverhoging voor verdiensten wilt geven, moet u een budget voor vaste verhoging instellen voor al uw afdelingen: **Compensatiebeheer** > **Koppelingen** > **Verdiensteverhogingsdoelen**. (U kunt deze pagina ook openen via de afdeling: **Organisatie** > **Afdelingen**.) Hier kunt u nader specificeren of werknemers in een bepaalde vakbond of locatie een verschillend verhogingspercentage moeten krijgen. De velden **Budget** en **Valuta** zijn ter informatie en kunnen worden gebruikt om een valutabedrag voor het budget te vermelden.
@@ -41,7 +41,7 @@ De procesgebeurtenisdatum **Punt-in-tijd** wordt alleen gebruikt voor het verwer
 
 Nadat de parameters van de procesgebeurtenis zijn opgeslagen, klikt u op de knop **Instellen** om te selecteren welke plannen u in deze procesuitvoering wilt opnemen en welke vaste-compensatieacties voor elk plan moeten worden uitgevoerd.
 
-Klik op de knop **Toevoegen** op het tabblad **Plannen** om een compensatieplan toe te voegen aan de procesgebeurtenis. De kolommen **Andere hefboomwerking gebruiken**, **Hefboomwerkingsfactor** en **Beschrijving van hefboomwerking** worden alleen gebruikt voor variabele-compensatieplannen en worden hier niet behandeld.
+Klik op de knop **Toevoegen** op het tabblad **Plannen** om een compensatieplan toe te voegen aan de procesgebeurtenis. De kolommen **Andere hefboomwerking gebruiken**, **Hefboomwerkingsfactor** en **Beschrijving van hefboomwerking** worden alleen gebruikt voor variabele-compensatieplannen en worden niet behandeld in dit artikel.
 
 Sla de record op en klik vervolgens op de knop **Toevoegen** op het tabblad **Acties** om vaste-compensatieacties voor het geselecteerde plan toe te voegen. Gebruik de optie **Aanbevelingen inschakelen**, als u een bedrag wilt kunnen invoeren dat afwijkt van de berekende richtlijnverhoging voor de actie. Als u een actie wilt berekenen op basis van het resultaat van de vorige actie om zo meerdere compensatieacties aan elkaar te koppelen, schakel dan de optie **Vorig resultaat gebruiken** in. Vaste-compensatieacties zijn typen compensatielogica waaraan u een beschrijvende naam kunt geven. Bij **Schaal**- en **Schijf**-plannen kunt u alleen vastecompensatieacties van de volgende typen toevoegen:
 

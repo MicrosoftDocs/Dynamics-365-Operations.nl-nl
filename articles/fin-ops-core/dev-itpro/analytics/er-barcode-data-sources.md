@@ -1,6 +1,6 @@
 ---
 title: Gegevensbronnen voor streepjescodes gebruiken om streepjescode-afbeeldingen te genereren
-description: In dit onderwerp wordt uitgelegd hoe u gegevensbronnen voor streepjescodes gebruikt om streepjescode-afbeeldingen te genereren.
+description: In dit artikel wordt uitgelegd hoe u gegevensbronnen voor streepjescodes gebruikt om streepjescode-afbeeldingen te genereren.
 author: NickSelin
 ms.date: 10/21/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: a5a396080d8b5dd4c2ed9a0eb15c1286e8799ebf
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: c8e755b664656a1a10672a990dc581969f6a7b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323947"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880307"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Gegevensbronnen voor streepjescodes gebruiken om streepjescode-afbeeldingen te genereren
 
@@ -77,7 +77,7 @@ Wanneer u een gegevensbron voor een **Streepjescode** configureert, kunt u speci
 >
 > Wanneer u een gegevensbron voor een **Streepjescode** koppelt aan een celelement in een indeling en het celelement een inhoudsbesturingselement van Word of een Excel-afbeelding vertegenwoordigt, wordt de gegevensbron in die binding weergegeven als een functie met één parameter van het type **Tekenreeks**. U moet deze parameter gebruiken om de tekst op te geven die moet worden omgezet in een streepjescode-afbeelding en die moet worden gelezen wanneer een gegenereerde streepjescode wordt gescand.
 
-Voor meer informatie over deze functie kunt u de voorbeelden in dit onderwerp uitvoeren.
+Voor meer informatie over deze functie kunt u de voorbeelden in dit artikel uitvoeren.
 
 ## <a name="example-generate-a-payment-check-that-contains-a-bar-code-that-encodes-the-payable-amount"></a>Voorbeeld: een betaalcheque genereren die een streepjescode bevat waarmee het te betalen bedrag wordt gecodeerd
 
@@ -112,7 +112,7 @@ Als u de voorbeelden in dit onderwerp wilt voltooien, moet u toegang hebben tot 
 - Functioneel consultant elektronische rapportage
 - Systeembeheerder
 
-Als u het voorbeeld nog niet hebt voltooid in het onderwerp [Afbeeldingen en vormen insluiten in documenten die u genereert met ER](electronic-reporting-embed-images-shapes.md), downloadt u de volgende configuraties van de voorbeeld-ER-oplossing.
+Als u het voorbeeld nog niet hebt voltooid in het artikel [Afbeeldingen en vormen insluiten in documenten die u genereert met ER](electronic-reporting-embed-images-shapes.md), downloadt u de volgende configuraties van de voorbeeld-ER-oplossing.
 
 | Omschrijving inhoud         | Bestandsnaam                   |
 |-----------------------------|-----------------------------|
@@ -128,7 +128,7 @@ Download ook het volgende Excel-bestand dat de gewijzigde sjabloon bevat voor de
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Een configuratieprovider activeren
 
 1. Ga naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
-2. Controleer op de pagina **Lokalisatieconfiguraties** in de sectie **Configuratieproviders** of de [configuratieprovider](general-electronic-reporting.md#Provider) voor het voorbeeldbedrijf **Litware, Inc.** wordt vermeld en of het is gemarkeerd als Actief. Als deze niet wordt vermeld of als deze niet is gemarkeerd als actief, volgt u de stappen in het onderwerp [Een configuratieprovider maken en als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Controleer op de pagina **Lokalisatieconfiguraties** in de sectie **Configuratieproviders** of de [configuratieprovider](general-electronic-reporting.md#Provider) voor het voorbeeldbedrijf **Litware, Inc.** wordt vermeld en of het is gemarkeerd als Actief. Als deze niet wordt vermeld of als deze niet is gemarkeerd als actief, volgt u de stappen in het artikel [Een configuratieprovider maken en als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ![Het voorbeeldbedrijf op actief instellen op de pagina Lokalisatieconfiguraties.](./media/er-barcode-data-source-active-provider.png)
 
@@ -284,7 +284,7 @@ De conceptversie van de geselecteerde indeling wordt gemarkeerd als beschikbaar 
 
 ### <a name="convert-the-generated-check-to-a-pdf"></a><a name="ExampleConvertToPDF"></a>De gegenereerde cheque converteren naar een PDF
 
-Zoals wordt beschreven in het onderwerp [Afdrukbare FTI-formulieren genereren](er-generate-printable-fti-forms.md#finland), kunt u een speciaal lettertype gebruiken om streepjescodes te produceren in een gegenereerd document. In dit geval is het mogelijk dat extra transformaties van het gegenereerde document afhankelijk zijn van de beschikbaarheid van dat lettertype in de transformatie-omgeving. Als u bijvoorbeeld een document wilt converteren naar PDF-indeling of als voorbeeld wilt weergeven in een omgeving waarin het lettertype ontbreekt, worden streepjescodes niet goed weergegeven.
+Zoals wordt beschreven in het artikel [Afdrukbare FTI-formulieren genereren](er-generate-printable-fti-forms.md#finland), kunt u een speciaal lettertype gebruiken om streepjescodes te produceren in een gegenereerd document. In dit geval is het mogelijk dat extra transformaties van het gegenereerde document afhankelijk zijn van de beschikbaarheid van dat lettertype in de transformatie-omgeving. Als u bijvoorbeeld een document wilt converteren naar PDF-indeling of als voorbeeld wilt weergeven in een omgeving waarin het lettertype ontbreekt, worden streepjescodes niet goed weergegeven.
 
 Wanneer u de gegevensbron **Streepjescode** gebruikt om streepjescodes te produceren, is de weergave van die streepjescodes echter niet afhankelijk van het lettertype. Daarom kunt u documenten die streepjescodes bevatten, eenvoudig converteren naar PDF-indeling. In de volgende afbeelding ziet u een voorbeeld van een gegenereerde betaalcheque die is [geconverteerd](electronic-reporting-destinations.md#OutputConversionToPDF) naar een PDF, op basis van de instelling van de geconfigureerde [ER-bestemming](electronic-reporting-destinations.md).
 

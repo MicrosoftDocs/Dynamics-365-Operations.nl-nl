@@ -1,6 +1,6 @@
 ---
 title: Actieafhankelijke ER-bestemmingen configureren
-description: In dit onderwerp wordt uitgelegd hoe actieafhankelijke bestemmingen worden geconfigureerd voor een ER-indeling (elektronische rapportage) die wordt geconfigureerd voor het genereren van uitgaande documenten.
+description: In dit artikel wordt uitgelegd hoe actieafhankelijke bestemmingen worden geconfigureerd voor een ER-indeling (elektronische rapportage) die wordt geconfigureerd voor het genereren van uitgaande documenten.
 author: NickSelin
 ms.date: 02/09/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e0c836d4a0be47b753d74dc9d6d40ea7d9197176
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: b7dfd92fd9e256298c13dcbde4b6da3f07d250d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323974"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876829"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Actieafhankelijke ER-bestemmingen configureren
 
@@ -28,7 +28,7 @@ ms.locfileid: "8323974"
 
 U kunt [bestemmingen](electronic-reporting-destinations.md) configureren voor elke uitvoercomponent (map of bestand) van een [Electronic reporting (ER)](general-electronic-reporting.md)-indelings[configuratie](general-electronic-reporting.md#Configuration) die wordt gebruikt voor het genereren van uitgaande documenten. Gebruikers die een ER-indeling van dit type uitvoeren en voor wie de juiste toegangsrechten gelden, kunnen ook de geconfigureerde bestemmingsinstellingen wijzigen tijdens runtime.
 
-In Microsoft Dynamics 365 Finance **versie 10.0.17 en hoger** kan een ER-indeling worden uitgevoerd door [levering](er-apis-app10-0-17.md) van een actiecode die de gebruiker uitvoert door die ER-indeling uit te voeren. In de module **Klanten** kunt u bijvoorbeeld in de afdrukbeheerinstellingen een ER-indeling selecteren om een specifiek bedrijfsdocument te genereren, zoals een vrije-tekstfactuur. U kunt vervolgens **Weergeven** selecteren om een voorbeeld van de factuur weer te geven of **Afdrukken** om deze naar een printer te sturen. Als een gebruikersactie wordt doorgegeven voor de lopende ER-indeling tijdens runtime, kunt u verschillende ER-bestemmingen voor verschillende gebruikersacties configureren. In dit onderwerp wordt uitgelegd hoe u ER-bestemmingen voor dit type ER-indeling configureert.
+In Microsoft Dynamics 365 Finance **versie 10.0.17 en hoger** kan een ER-indeling worden uitgevoerd door [levering](er-apis-app10-0-17.md) van een actiecode die de gebruiker uitvoert door die ER-indeling uit te voeren. In de module **Klanten** kunt u bijvoorbeeld in de afdrukbeheerinstellingen een ER-indeling selecteren om een specifiek bedrijfsdocument te genereren, zoals een vrije-tekstfactuur. U kunt vervolgens **Weergeven** selecteren om een voorbeeld van de factuur weer te geven of **Afdrukken** om deze naar een printer te sturen. Als een gebruikersactie wordt doorgegeven voor de lopende ER-indeling tijdens runtime, kunt u verschillende ER-bestemmingen voor verschillende gebruikersacties configureren. In dit artikel wordt uitgelegd hoe u ER-bestemmingen voor dit type ER-indeling configureert.
 
 ## <a name="make-action-dependent-er-destinations-available"></a>Actieafhankelijke ER-bestemmingen beschikbaar maken
 
@@ -82,7 +82,7 @@ In de volgende afbeelding wordt getoond hoe u het alternatieve configureren van 
 
 Wanneer er een ER-indeling wordt uitgevoerd en er gebruikersacties zijn opgegeven door gebruikers die de juiste [machtigingen](electronic-reporting-destinations.md#security-considerations) hebben om geconfigureerde bestemmingsinstellingen tijdens runtime te wijzigen, wordt een dialoogvenster weergegeven dat de optie biedt om de geconfigureerde bestemmingsinstellingen te wijzigen. Dit dialoogvenster is optioneel en heeft een uiterlijk dat afhankelijk is van hoe de oproep waarmee het ER-framework wordt uitgevoerd, een ER-indeling implementeert. Als dit dialoogvenster wordt weergegeven, worden de ER-bestemmingen in het dialoogvenster ingeschakeld op basis van de geleverde gebruikersactie.
 
-Hieronder ziet u een voorbeeld van het dialoogvenster **Bestemming van indeling voor elektronische rapportage** dat wordt weergegeven wanneer er een vrije-tekstfactuur wordt [geboekt](../../../finance/accounts-receivable/create-free-text-invoice-new.md) en de ER-indeling **Vrije-tekstfactuur** wordt uitgevoerd om dit document te genereren, als de actie **Printer** is opgegeven en ER-bestemmingen voor deze indeling zijn geconfigureerd, zoals eerder in dit onderwerp is beschreven.
+Hieronder ziet u een voorbeeld van het dialoogvenster **Bestemming van indeling voor elektronische rapportage** dat wordt weergegeven wanneer er een vrije-tekstfactuur wordt [geboekt](../../../finance/accounts-receivable/create-free-text-invoice-new.md) en de ER-indeling **Vrije-tekstfactuur** wordt uitgevoerd om dit document te genereren, als de actie **Printer** is opgegeven en ER-bestemmingen voor deze indeling zijn geconfigureerd, zoals eerder in dit artikel is beschreven.
 
 ![Dialoogvenster met de mogelijkheid om de oorspronkelijk geconfigureerde ER-bestemmingen te wijzigen voor de lopende ER-indeling.](./media/er-destination-action-dependent-02.gif)
 

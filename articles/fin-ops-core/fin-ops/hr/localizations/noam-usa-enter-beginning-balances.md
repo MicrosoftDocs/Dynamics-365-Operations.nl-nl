@@ -1,6 +1,6 @@
 ---
 title: Beginsaldi voor salarisadministratie invoeren
-description: In dit onderwerp worden de stappen beschreven voor het invoeren van de beginsaldi voor inkomstencodes, inhoudingen, vergoedingen en belastingen.
+description: In dit artikel worden de stappen beschreven voor het invoeren van de beginsaldi voor inkomstencodes, inhoudingen, vergoedingen en belastingen.
 author: andreabichsel
 ms.date: 11/20/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a5529e3268727dce022daebb853e50710e5bde84811014febe30e80afee9ed6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d14e7e0772c5b365818d3a8a230abe9f674a077e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721871"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850013"
 ---
 # <a name="enter-payroll-beginning-balances"></a>Beginsaldi voor salarisadministratie invoeren
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp worden de stappen beschreven voor het invoeren van de beginsaldi voor inkomstencodes, inhoudingen, vergoedingen en belastingen. Deze informatie is nuttig voor partners die gegevens voor een nieuwe salarisadministratie-implementatie willen migreren of overbrengen vanuit een ander systeem. Als voorbereiding voor het invoeren van beginsaldi controleren we de volgende informatie:
+In dit artikel worden de stappen beschreven voor het invoeren van de beginsaldi voor inkomstencodes, inhoudingen, vergoedingen en belastingen. Deze informatie is nuttig voor partners die gegevens voor een nieuwe salarisadministratie-implementatie willen migreren of overbrengen vanuit een ander systeem. Als voorbereiding voor het invoeren van beginsaldi controleren we de volgende informatie:
 
 - Werknemersrecords zijn ingevoerd en beschikbaar in het systeem
 - De volgende gegevens zijn ingesteld en toegewezen aan werknemers:

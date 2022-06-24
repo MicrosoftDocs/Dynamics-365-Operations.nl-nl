@@ -1,6 +1,6 @@
 ---
-title: Power BI-inhoud - overzicht van contant geld
-description: In dit onderwerp wordt Power BI-inhoud - overzicht van contant geld besproken. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot rapporten die zijn opgenomen in de inhoud en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld.
+title: 'Power BI-inhoud: overzicht van contant geld'
+description: In dit artikel wordt Power BI-inhoud - overzicht van contant geld besproken. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot rapporten die zijn opgenomen in de inhoud en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld.
 author: panolte
 ms.date: 07/16/2020
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bb44dd8203b87ac5fb1f7977b865522faa6ebaeb
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 4f841ec5b17c2271010a95f45188832ee5917556
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710272"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910224"
 ---
 # <a name="cash-overview-power-bi-content"></a>Power BI-inhoud: overzicht van contant geld
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt de Microsoft Power BI-inhoud **Overzicht van contant geld** besproken. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot rapporten die zijn opgenomen in de inhoud en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld.
+In dit artikel wordt Microsoft Power BI-inhoud - **overzicht van contant geld** besproken. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot rapporten die zijn opgenomen in de inhoud en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld.
 
 ## <a name="overview"></a>Overzicht
 

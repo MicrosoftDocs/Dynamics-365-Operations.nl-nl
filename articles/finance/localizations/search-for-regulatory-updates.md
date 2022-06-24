@@ -1,6 +1,6 @@
 ---
 title: Zoeken naar landspecifieke reglementaire updates
-description: Dit onderwerp bevat koppelingen naar geplande en vrijgegeven landspecifieke reglementaire updates voor Microsoft Dynamics 365 Finance.
+description: Dit artikel bevat koppelingen naar geplande en vrijgegeven landspecifieke reglementaire updates voor Microsoft Dynamics 365 Finance.
 author: AKroshkina
 ms.date: 01/20/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kfend
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c86f93ca76168e04a3152de67f40ef408bc096a6
-ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
+ms.openlocfilehash: 2a272c5310375007b65f54501b9770610504f72a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8022944"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896177"
 ---
 # <a name="search-for-country-specific-regulatory-updates"></a>Zoeken naar landspecifieke reglementaire updates
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat koppelingen naar geplande en vrijgegeven landspecifieke reglementaire updates voor Microsoft Dynamics 365 Finance. U moet zich aanmelden bij Microsoft Dynamics Lifecycle Services (LCS) om deze informatie te kunnen openen.
+Dit artikel bevat koppelingen naar geplande en vrijgegeven landspecifieke reglementaire updates voor Microsoft Dynamics 365 Finance. U moet zich aanmelden bij Microsoft Dynamics Lifecycle Services (LCS) om deze informatie te kunnen openen.
 
 | Land of regio    | Problemen zoeken in LCS |
 |----------------------|---------------------------|

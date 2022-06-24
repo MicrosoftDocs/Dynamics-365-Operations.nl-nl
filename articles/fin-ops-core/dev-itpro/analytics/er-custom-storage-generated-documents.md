@@ -1,6 +1,6 @@
 ---
-title: Een aangepaste opslaglocatie voor gegenereerde documenten opgeven
-description: In dit onderwerp wordt uitgelegd hoe u de lijst met opslaglocaties uitbreidt voor documenten waarmee indelingen voor elektronische rapportage (ER) worden gegenereerd.
+title: Een aangepaste opslaglocatie opgeven voor gegenereerde documenten
+description: In dit artikel wordt uitgelegd hoe u de lijst met opslaglocaties uitbreidt voor documenten waarmee indelingen voor elektronische rapportage (ER) worden gegenereerd.
 author: NickSelin
 ms.date: 02/22/2019
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 61a1e46497d650e2c063a5fe7537d17cf7aa1828a5a4504bb781e84aeb88f04a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 70d9ccfac18b4cdf1ea19b3def87fc10ba9ddcb4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718496"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864741"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Een aangepaste opslaglocatie voor gegenereerde documenten opgeven
 
 [!include[banner](../includes/banner.md)]
 
-Met de API (Application Programming Interface) van het ER-raamwerk kunt u de lijst met opslaglocaties uitbreiden voor documenten waarmee ER-indelingen worden gegenereerd. Dit onderwerp bevat een overzicht van de belangrijkste taken die u moet uitvoeren om een aangepaste opslaglocatie toe te voegen.
+Met de API (Application Programming Interface) van het ER-raamwerk kunt u de lijst met opslaglocaties uitbreiden voor documenten waarmee ER-indelingen worden gegenereerd. Dit artikel bevat een overzicht van de belangrijkste taken die u moet uitvoeren om een aangepaste opslaglocatie toe te voegen.
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -118,7 +118,7 @@ De gebeurtenis **AttachingFile()** wordt geactiveerd wanneer de volgende ER-best
 ## <a name="configure-an-er-destination"></a>Een ER-bestemming configureren
 
 1. Configureer de gearchiveerde bestemming voor een van de eerder genoemde elementen (bestand, map, samenvoeger of bijlage) van de ER-indeling die u hebt gemaakt of geïmporteerd. Raadpleeg voor richtlijnen [ER-bestemmingen configureren](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
-2. Gebruik het documenttype dat u eerder hebt toegevoegd voor de geconfigureerde bestemming. (Voor het voorbeeld in dit onderwerp is het documenttype **FileX**.)
+2. Gebruik het documenttype dat u eerder hebt toegevoegd voor de geconfigureerde bestemming. (Voor het voorbeeld in dit artikel is het documenttype **FileX**.)
 
 ![Dialoogvenster Bestemmingsinstellingen.](media/er-extend-file-storages-destination.png)
 

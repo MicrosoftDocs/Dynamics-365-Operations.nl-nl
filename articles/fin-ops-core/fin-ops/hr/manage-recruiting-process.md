@@ -1,6 +1,6 @@
 ---
 title: Wervingsprocessen beheren
-description: In dit onderwerp wordt een concept beschreven dat recruiters kunnen gebruiken om de stappen in een wervingsproces bij te houden.
+description: In dit artikel wordt een concept beschreven dat recruiters kunnen gebruiken om de stappen in een wervingsproces bij te houden.
 author: twheeloc
 ms.date: 01/10/2022
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb7cc1db906ba0cd07caaa1d82a12182f78b19ba
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 1ada6dfc9b227c7ae4ca873e8354d1fcc11ecbaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735369"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910314"
 ---
 # <a name="manage-recruiting-processes"></a>Wervingsprocessen beheren
 
 > [!IMPORTANT]
-> Naar de wervingsfunctie in dit onderwerp wordt verwezen als Wervingsprojecten genoemd en deze is gericht op sollicitanten, sollicitaties en wervingsprojecten. 
+> De wervingsfunctie in dit artikel wordt Wervingsprojecten genoemd en is gericht op sollicitanten, sollicitaties en wervingsprojecten. 
 
 
-In dit onderwerp wordt een concept beschreven dat recruiters kunnen gebruiken om de stappen in een aanwervingsproces op te volgen, waaronder inspanningen om vacatures te adverteren en sollicitanten aan te werven, het opvolgen van gegevens van sollicitanten en sollicitaties, het interviewen van sollicitanten en een of meerdere kandidaten selecteren om de openstaande posities in uw organisatie in te vullen.
+In dit artikel wordt een concept beschreven dat recruiters kunnen gebruiken om de stappen in een aanwervingsproces op te volgen, waaronder inspanningen om vacatures te adverteren en sollicitanten aan te werven, het opvolgen van gegevens van sollicitanten en sollicitaties, het interviewen van sollicitanten en een of meerdere kandidaten selecteren om de openstaande posities in uw organisatie in te vullen.
 
 ## <a name="overview"></a>Overzicht
 

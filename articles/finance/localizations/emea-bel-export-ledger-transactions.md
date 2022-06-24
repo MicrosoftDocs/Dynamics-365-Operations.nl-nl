@@ -1,6 +1,6 @@
 ---
-title: Export grootboektransacties
-description: Dit onderwerp bevat informatie over het exporteren van grootboekrekeningsaldi naar een ASCII-bestand (tekst zonder opmaak) in CED-indeling voor België.
+title: Grootboektransacties exporteren
+description: Dit artikel bevat informatie over het exporteren van grootboekrekeningsaldi naar een ASCII-bestand (tekst zonder opmaak) in CED-indeling voor België.
 author: anasyash
 ms.date: 12/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Belgium
 ms.author: roschlom
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: 93c4dcb0288423d6787a07db3cf41a2670c88458f06eba5bf39b03a26c1bd1af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 305194701bb1eb96e1f63aabc42c32a216bb2647
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781692"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889814"
 ---
 # <a name="export-ledger-transactions"></a>Grootboektransacties exporteren
 
 [!include [banner](../includes/banner.md)]
 
-De functie die in dit onderwerp wordt beschreven, wordt gebruikt om het totaalsaldo van elke grootboekrekening voor een bepaalde periode te exporteren naar een bestand zonder opmaak (ASCII) in CED-indeling. U kunt het gegenereerde bestand vervolgens importeren in software van derden om een boekhoudingsrapport te maken in overeenstemming met de vereisten die per land/regio gelden.
+De functie die in dit artikel wordt beschreven, wordt gebruikt om het totaalsaldo van elke grootboekrekening voor een bepaalde periode te exporteren naar een bestand zonder opmaak (ASCII) in CED-indeling. U kunt het gegenereerde bestand vervolgens importeren in software van derden om een boekhoudingsrapport te maken in overeenstemming met de vereisten die per land/regio gelden.
 
 Deze functionaliteit is beschikbaar voor rechtspersonen die hun primaire adres in België hebben.
 
@@ -42,7 +42,7 @@ Deze functionaliteit is beschikbaar voor rechtspersonen die hun primaire adres i
 
 1. Importeer uit de [algemene Microsoft-opslagplaats](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md) de meest recente versies van de ER-configuraties (Elektronische rapportage) voor de volgende rapportindeling.
 
-    | **Dynamics 365 Finance-versie**          | **Configuratienaam**                                                                                           |
+    | **Versie Dynamics 365 Finance**          | **Configuratienaam**                                                                                           |
     |-------------------------------------------|------------------------------------------------------------------------------------------------------------------|
     | Vóór 10.0.16                            | **Exportindeling van grootboektransacties (BE)** onder **Grootboekrekeningrapporten** > **Exporteren van grootboektransacties**-modle. |
     | Vanaf 10.0.16                     | **Exporteren van grootboekgegevens (BE)** onder model **Standaard auditfile (SAF-T)**.                                  |

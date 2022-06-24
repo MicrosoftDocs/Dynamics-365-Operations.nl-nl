@@ -1,6 +1,6 @@
 ---
 title: JOIN-gegevensbronnen gebruiken in ER-modeltoewijzingen om gegevens uit meerdere toepassingstabellen op te halen
-description: In dit onderwerp wordt uitgelegd hoe u gegevensbronnen van het type JOIN kunt gebruiken in elektronische rapportage (ER).
+description: In dit artikel wordt uitgelegd hoe u gegevensbronnen van het type JOIN kunt gebruiken in elektronische rapportage (ER).
 author: NickSelin
 ms.date: 04/26/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: c9a06c048e98676e30a6652cad6634c2e13531d4ebc6d35f325f4c7153cd82ae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0994c19ad79a3e73dc787ef8d82716db637f9ab0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723208"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845513"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>JOIN-gegevensbronnen gebruiken om gegevens uit meerdere toepassingstabellen op te halen in ER-modeltoewijzingen (elektronische rapportage)
 
@@ -40,7 +40,7 @@ Wanneer in de geconfigureerde **Join**-gegevensbron alle gegevensbronnen van het
 > [!NOTE]
 > Het gebruik van de functie **VALUEIN** in ER-expressies die voorwaarden specificeren voor het samenvoegen van records in gegevensbronnen van het type Join wordt nog niet ondersteund. Bezoek de pagina [Formuleontwerper in elektronische rapportage](general-electronic-reporting-formula-designer.md) voor meer informatie.
 
-Voor meer informatie over deze functie kunt u het voorbeeld in dit onderwerp uitvoeren.
+Voor meer informatie over deze functie kunt u het voorbeeld in dit artikel uitvoeren.
 
 ## <a name="example-use-join-data-sources-in-er-model-mappings"></a>Voorbeeld: JOIN-gegevensbronnen gebruiken in ER-modeltoewijzingen
 
@@ -48,7 +48,7 @@ In de volgende stappen wordt uitgelegd hoe de systeembeheerder of de ontwikkelaa
 
 ### <a name="prerequisites"></a>Vereisten
 
-Als u de voorbeelden in dit onderwerp wilt voltooien, moet u toegang hebben tot een van de volgende services, afhankelijk van de service die wordt gebruikt om deze stappen uit te voeren:
+Als u de voorbeelden in dit artikel wilt voltooien, moet u toegang hebben tot een van de volgende services, afhankelijk van de service die wordt gebruikt om deze stappen uit te voeren:
 
 **Toegang tot Financiën voor een van de volgende rollen:**
 
@@ -257,7 +257,7 @@ Controleer de instellingen van het onderdeel voor ER-modeltoewijzing. Het onderd
 
 ## <a name="limitations"></a>Beperkingen
 
-Zoals u kunt zien in het voorbeeld in dit onderwerp, kan de **JOIN**-gegevens bron worden opgebouwd uit verschillende gegevensbronnen waarin de afzonderlijke gegevenssets worden beschreven van de records die uiteindelijk moeten worden gekoppeld. U kunt deze gegevensbronnen configureren met de ingebouwde ER [FILTER](er-functions-list-filter.md)-functie. Wanneer u de gegevensbron zo configureert dat deze buiten de **JOIN**-gegevensbron wordt aangeroepen, kunt u bedrijfsbereikwaarden gebruiken als onderdeel van de voorwaarde voor het selecteren van gegevens. De eerste implementatie van de **JOIN**-gegevensbron biedt geen ondersteuning voor gegevensbronnen van dit type. Wanneer u bijvoorbeeld een gegevensbron op basis van een [FILTER](er-functions-list-filter.md) aanroept binnen het uitvoeringsbereik van een **JOIN**-gegevensbron, wordt een uitzondering gegenereerd als de aangeroepen gegevensbron bedrijfsreeksen bevat als onderdeel van de voorwaarde voor het selecteren van gegevens.
+Zoals u kunt zien in het voorbeeld in dit artikel, kan de **JOIN**-gegevens bron worden opgebouwd uit verschillende gegevensbronnen waarin de afzonderlijke gegevenssets worden beschreven van de records die uiteindelijk moeten worden gekoppeld. U kunt deze gegevensbronnen configureren met de ingebouwde ER [FILTER](er-functions-list-filter.md)-functie. Wanneer u de gegevensbron zo configureert dat deze buiten de **JOIN**-gegevensbron wordt aangeroepen, kunt u bedrijfsbereikwaarden gebruiken als onderdeel van de voorwaarde voor het selecteren van gegevens. De eerste implementatie van de **JOIN**-gegevensbron biedt geen ondersteuning voor gegevensbronnen van dit type. Wanneer u bijvoorbeeld een gegevensbron op basis van een [FILTER](er-functions-list-filter.md) aanroept binnen het uitvoeringsbereik van een **JOIN**-gegevensbron, wordt een uitzondering gegenereerd als de aangeroepen gegevensbron bedrijfsreeksen bevat als onderdeel van de voorwaarde voor het selecteren van gegevens.
 
 In Microsoft Dynamics 365 Finance versie 10.0.12 (augustus 2020) kunt u bedrijfsbereikwaarden gebruiken als onderdeel van de voorwaarde voor gegevensselectie in op [FILTER](er-functions-list-filter.md) gebaseerde gegevensbronnen die worden aangeroepen binnen het uitvoeringsbereik van een **JOIN**-gegevensbron. Vanwege de beperkingen van de opbouwfunctie voor toepassings [query's](../dev-ref/xpp-library-objects.md#query-object-model), worden de bedrijfsbereikwaarden alleen ondersteund voor de eerste gegevensbron van een **JOIN**-gegevensbron.
 

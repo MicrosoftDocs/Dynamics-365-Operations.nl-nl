@@ -1,6 +1,6 @@
 ---
 title: Elektronische facturering instellen
-description: Dit onderwerp bevat een overzicht van het proces voor het instellen en configureren van Elektronische facturering.
+description: Dit artikel bevat een overzicht van het proces voor het instellen en configureren van Elektronische facturering.
 author: dkalyuzh
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 42e617e26e7658fae9ee54cb8a4dee45314fddaa
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: 8e2aa89119530a0ba00a8561d94006285d67a71b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661687"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883114"
 ---
 # <a name="electronic-invoicing-setup"></a>Elektronische facturering instellen
 
 [!include [banner](../includes/banner.md)]
 
-Het onderwerp bevat een overzicht van het proces voor het instellen en configureren van Elektronische facturering. U moet de instellingsstappen voltooien in de volgorde die hier is opgegeven. Als een stap verplicht is, maar u slaat deze over, werkt de functionaliteit niet goed en treden er meerdere fouten op tijdens volgende stappen of wanneer u de functionaliteit gebruikt. 
+Het artikel bevat een overzicht van het proces voor het instellen en configureren van Elektronische facturering. U moet de instellingsstappen voltooien in de volgorde die hier is opgegeven. Als een stap verplicht is, maar u slaat deze over, werkt de functionaliteit niet goed en treden er meerdere fouten op tijdens volgende stappen of wanneer u de functionaliteit gebruikt. 
 
 Voordat u begint, moet u controleren of alle hoofdonderdelen correct zijn ingesteld, of u zich hebt aangemeld voor Regulatory Configuration Service (RCS) en een exemplaar van RCS hebt en dat de invoegvoeging voor elektronische facturering is geïnstalleerd voor uw Microsoft Dynamics 365 Finance- of Dynamics 365 Supply Chain Management-omgeving. Zie [Aanmelden voor Elektronische facturering en installeren](e-invoicing-install-add-in-microservices-lcs.md) voor meer informatie.
 
