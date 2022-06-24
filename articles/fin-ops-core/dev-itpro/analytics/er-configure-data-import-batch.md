@@ -1,6 +1,6 @@
 ---
 title: Gegevens importeren uit handmatig geselecteerde bestanden in batchmodus
-description: In dit onderwerp wordt uitgelegd hoe u gegevens uit handmatig geselecteerde bestanden in batchmodus importeert.
+description: In dit artikel wordt uitgelegd hoe u gegevens uit handmatig geselecteerde bestanden in batchmodus importeert.
 author: NickSelin
 ms.date: 01/07/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-01-01
 ms.dyn365.ops.version: Release 10.0.25
-ms.openlocfilehash: 8615b5a0623fd696c64f4ec03e481a2bcb16c0ac
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 2dec838439876fd8e57ea4a7078d97267e5ea1a2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075608"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890178"
 ---
 # <a name="import-data-from-manually-selected-files-in-batch-mode"></a>Gegevens importeren uit handmatig geselecteerde bestanden in batchmodus
 
@@ -31,11 +31,11 @@ Als u het raamwerk voor [ER (Electronic Reporting)](general-electronic-reporting
 
 Met de nieuwe ER-mogelijkheid ter ondersteuning van het importeren van gegevens in batchmodus kan dit proces worden geconfigureerd als onbeheerd. U kunt ER-configuraties gebruiken om gegevensimport uit te voeren door een nieuwe batchtaak te plannen via de ER-gebruikersinterface (UI).
 
-In dit onderwerp wordt uitgelegd hoe u gegevens uit handmatig geselecteerde bestanden in batchmodus importeert. De voorbeelden gebruiken leverancierstransacties als zakelijke gegevens. De stappen van deze voorbeelden kunnen worden uitgevoerd in het bedrijf **USMF**. U hoeft hiervoor geen code te schrijven.
+In dit artikel wordt uitgelegd hoe u gegevens uit handmatig geselecteerde bestanden in batchmodus importeert. De voorbeelden gebruiken leverancierstransacties als zakelijke gegevens. De stappen van deze voorbeelden kunnen worden uitgevoerd in het bedrijf **USMF**. U hoeft hiervoor geen code te schrijven.
 
 ## <a name="prerequisites"></a>Vereisten
 
-Om de voorbeelden in dit onderwerp te kunnen voltooien, moet u toegang tot het volgende hebben:
+Om de voorbeelden in dit artikel te kunnen voltooien, moet u over de volgende toegangsrechten beschikken:
 
 - Een van de volgende rollen:
 

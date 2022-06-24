@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d81d20045c7b06de01a023d1a34ee653dd696ff1
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: e92e6aeab949567e65a13ebdd92f0e5b306ccd30
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711315"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861700"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Wat is nieuw of gewijzigd in Dynamics AX 7.0 (februari 2016)
 
@@ -320,7 +320,7 @@ Deze functie werkt onafhankelijk van kostprijsberekeningmethodes die aan het gep
 <td>Gebruik begeleide procedurele Help (taakbegeleidingen) en concepuele onderwerpen door op <strong>Help</strong> te klikken.</td>
 <td>Het Help-systeem van AX 2012 wijst de weg naar HTML-onderwerpen die op een lokale webserver zijn opgeslagen. Klanten en partners kunnen hun eigen Help maken.</td>
 <td>Het Help-systeem in de huidige versie van AX geeft taakbegeleidingen weer die zijn opgeslagen in de BPM van Microsoft Dynamics Lifecycle Services (LCS). Het Help-systeem geeft ook onderwerpen van de MicrosoftDocs-site weer. Zie <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Help-systeem</a> en <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Nieuwe taakbegeleidingen (februari 2016)</a> voor meer informatie.</td>
-<td>De taakbegeleidingen bieden een interactieve geleide ervaring die u door de stappen van een taak of een bedrijfsproces leidt. U kunt de taakbegeleidingen die Microsoft biedt downloaden en aanpassen. Het onderwerp biedt een snellere en flexibelere manier om productdocumentatie te maken, leveren en bijwerken. Zo helpt het te garanderen dat u toegang tot de meest recente technische informatie hebt.</td>
+<td>De taakbegeleidingen bieden een interactieve geleide ervaring die u door de stappen van een taak of een bedrijfsproces leidt. U kunt de taakbegeleidingen die Microsoft biedt downloaden en aanpassen. Het artikel biedt een snellere en flexibelere manier om productdocumentatie te maken, te leveren en bij te werken. Zo helpt het te garanderen dat u toegang tot de meest recente technische informatie hebt.</td>
 </tr>
 </tbody>
 </table>

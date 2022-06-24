@@ -1,6 +1,6 @@
 ---
 title: Btw-gegevens afdrukken op transferorderdocumenten
-description: In dit onderwerp wordt uitgelegd hoe de belastinggegevens die worden bepaald door de btw-berekeningsservice, kunnen worden afgedrukt op transferorderdocumenten.
+description: In dit artikel wordt uitgelegd hoe de belastinggegevens die worden bepaald door de btw-berekeningsservice, kunnen worden afgedrukt op transferorderdocumenten.
 author: Kai-Cloud
 ms.date: 10/15/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-10-12
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e74336270ab46fc19adb4c797745c9582028391a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ca7a610162c539a0ecd74cf9e663f08ea80a7e44
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687466"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855197"
 ---
 # <a name="print-tax-information-on-transfer-order-documents"></a>Btw-gegevens afdrukken op transferorderdocumenten
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u btw-gegevens op transferorderdocumenten afdrukt. U kunt het pro-forma factuurdocument afdrukken van een transferorder voor voorraadoverboekingen die worden beschouwd als intracommunautaire levering en intracommunautaire verwervingen onder de btw-regelgeving van de Europese Unie. 
+In dit artikel wordt uitgelegd hoe u btw-gegevens op transferorderdocumenten afdrukt. U kunt het pro-forma factuurdocument afdrukken van een transferorder voor voorraadoverboekingen die worden beschouwd als intracommunautaire levering en intracommunautaire verwervingen onder de btw-regelgeving van de Europese Unie. 
 
 Aan de transferorderdocumenten worden de volgende gegevens die relevant zijn voor de belasting, toegevoegd:
 

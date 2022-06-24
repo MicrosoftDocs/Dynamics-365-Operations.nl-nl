@@ -1,6 +1,6 @@
 ---
 title: Financieel rapport inkomensoverzicht
-description: In dit onderwerp wordt het standaardrapport voor inkomensoverzichten beschreven. In dit artikel worden ook de bouwstenen beschreven die aan dit rapport zijn gekoppeld.
+description: In dit artikel wordt het standaardrapport voor inkomensoverzichten beschreven. In dit artikel worden ook de bouwstenen beschreven die aan dit rapport zijn gekoppeld.
 author: jcart1106
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f664eeaa5cf40ce856b424d10ba2d1c3bd46e1c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: e9a1f20ed5e2a84e0d18101ede46ffffef4230c7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734742"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868455"
 ---
 # <a name="income-statement-financial-report"></a>Financieel rapport inkomensoverzicht
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt het standaardrapport voor inkomensoverzichten beschreven. In dit artikel worden ook de bouwstenen beschreven die aan dit rapport zijn gekoppeld. 
+In dit artikel wordt het standaardrapport voor inkomensoverzichten beschreven. In dit artikel worden ook de bouwstenen beschreven die aan dit rapport zijn gekoppeld. 
 
 ## <a name="default-income-statement-report"></a>Standaardrapport inkomensoverzicht
 

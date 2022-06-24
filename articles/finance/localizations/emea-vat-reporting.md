@@ -1,6 +1,6 @@
 ---
 title: Btw-aangifte voor Europa
-description: Dit onderwerp bevat algemene informatie over het instellen en genereren van het btw-overzicht (belasting toegevoegde waarde) voor een aantal Europese landen.
+description: Dit artikel bevat algemene informatie over het instellen en genereren van het btw-overzicht (belasting toegevoegde waarde) voor een aantal Europese landen/regio's.
 author: ShylaThompson
 ms.date: 03/24/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a1f7611dcf713e80f637a4b3f5542763050ac4a6
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: e25b01133bfaa84186faf82c80f24a119b40ac2e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487748"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856536"
 ---
 # <a name="vat-reporting-for-europe"></a>Btw-aangifte voor Europa
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat algemene informatie over het instellen en genereren van het btw-overzicht (belasting toegevoegde waarde) voor een aantal Europese landen.
+Dit artikel bevat algemene informatie over het instellen en genereren van het btw-overzicht (belasting toegevoegde waarde) voor een aantal Europese landen/regio's.
 
-Dit onderwerp biedt een algemene aanpak voor het instellen en genereren van de btw-aangifte. Deze benadering geldt voor alle gebruikers in rechtspersonen in de volgende landen:
+Dit artikel biedt een algemene aanpak voor het instellen en genereren van de btw-aangifte. Deze benadering geldt voor alle gebruikers in rechtspersonen in de volgende landen:
 
 -   Oostenrijk
 -   België
@@ -41,7 +41,7 @@ Dit onderwerp biedt een algemene aanpak voor het instellen en genereren van de b
 -   Zweden
 
 > [!IMPORTANT]
-> Functies die in dit onderwerp worden beschreven voor Oostenrijk, Tsjechische Republiek, Duitsland, Nederland en Zweden worden afgeschaft. Zie [Verwijderde en verouderde functies](../get-started/removed-deprecated-features-finance.md) voor meer informatie.
+> Functies die in dit artikel worden beschreven voor Oostenrijk, Tsjechische Republiek, Duitsland, Nederland en Zweden worden afgeschaft. Zie [Verwijderde en verouderde functies](../get-started/removed-deprecated-features-finance.md) voor meer informatie.
 > Gebruik de koppelingen in de volgende tabel voor meer informatie over het nieuwe ontwerp van btw-aangiften in de overeenkomstige landen.
 > 
 >
@@ -60,7 +60,7 @@ Dit onderwerp biedt een algemene aanpak voor het instellen en genereren van de b
 > | VK             | [Voorbereiden op integratie met MRD voor btw](emea-gbr-mtd-vat-integration.md) |
 
 ## <a name="vat-statement-overview"></a>Overzicht btw-overzichten
-Het btw-overzicht is gebaseerd op bedragen van belastingtransacties. Het proces voor het genereren van een btw-aangifte is onderdeel van het btw-betalingsproces dat is geïmplementeerd via de functie Btw vereffenen en boeken. Met deze functie wordt de btw berekend die verschuldigd is voor een bepaalde periode. De berekening van de vereffening omvat de geboekte btw voor de geselecteerde vereffeningsperiode voor de belastingtransacties. Het proces voor het berekenen van gegevens voor een btw-overzicht is gebaseerd op de relatie tussen btw-codes en btw-aangiftecodes, waarbij btw-aangiftecodes overeenkomen met de btw-overzichtvakken (of labels in XML). Voor elke btw-code moeten er btw-aangiftecodes worden ingesteld voor elk type transactie, zoals belastbare verkoop, belastbare inkopen, belastbare import. Dit transactietype wordt beschreven in het gedeelte Btw-codes voor btw-aangifte verderop in dit onderwerp.
+Het btw-overzicht is gebaseerd op bedragen van belastingtransacties. Het proces voor het genereren van een btw-aangifte is onderdeel van het btw-betalingsproces dat is geïmplementeerd via de functie Btw vereffenen en boeken. Met deze functie wordt de btw berekend die verschuldigd is voor een bepaalde periode. De berekening van de vereffening omvat de geboekte btw voor de geselecteerde vereffeningsperiode voor de belastingtransacties. Het proces voor het berekenen van gegevens voor een btw-overzicht is gebaseerd op de relatie tussen btw-codes en btw-aangiftecodes, waarbij btw-aangiftecodes overeenkomen met de btw-overzichtvakken (of labels in XML). Voor elke btw-code moeten er btw-aangiftecodes worden ingesteld voor elk type transactie, zoals belastbare verkoop, belastbare inkopen, belastbare import. Dit transactietype wordt beschreven in het gedeelte Btw-codes voor btw-aangifte verderop in dit artikel.
 
 Voor elke btw-aangiftecode moet een specifieke rapportindeling worden bepaald. Btw-codes worden tegelijkertijd gekoppeld aan een specifieke btw-dienst via btw-vereffeningsperioden. Voor elke btw-dienst moet een rapportindeling worden bepaald. Dus alleen btw-aangiftecodes met dezelfde rapportindeling als die is ingesteld voor een btw-dienst in btw-vereffeningsperioden voor btw-code, kunnen worden geselecteerd in de rapportinstelling van de btw-code. Een btw-transactie die is gegenereerd bij het boeken van een order of een journaal, bevat een btw-code, btw-bron, btw-richting en transactiebedragen (belastingbasisbedrag en belastingbedrag in valuta voor boekhouding, btw-valuta en transactievaluta). Op basis van de combinatie van belastingtransactiekenmerken bestaan transactiebedragen uit totaalbedragen voor btw-aangiftecodes die zijn opgegeven voor btw-codes. In de volgende afbeelding wordt de gegevensrelatie weergegeven.
 

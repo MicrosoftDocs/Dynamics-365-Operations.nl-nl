@@ -1,6 +1,6 @@
 ---
 title: Waarde van activa met gebruiksrecht verminderen
-description: In dit onderwerp wordt de functionaliteit beschreven waarmee een waardevermindering wordt vastgelegd en het schema van de activa-afschrijving van een Accounting Standards Codification Topic 842 (ASC 842) operationele lease wordt aangepast.
+description: In dit artikel wordt de functionaliteit beschreven waarmee een waardevermindering wordt vastgelegd en het schema van de activa-afschrijving van een Accounting Standards Codification Topic 842 (ASC 842) operationele lease wordt aangepast.
 author: moaamer
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 497739e56c6ce0f4fe0bd4aec889f0782d08fc4a
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: f953b3a351859c6becba10a129bbb17b49be6290
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720162"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894108"
 ---
 # <a name="impair-right-of-use-assets"></a>Waarde van activa met gebruiksrecht verminderen
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Als de boekwaarde van een activum met gebruiksrecht (RoU-activum) niet terugvorderbaar is, moet u mogelijk testen of de waarde van het activum is verminderd. Als u vaststelt dat de waarde van het activum is verminderd, kan Activa leasen de waardevermindering vastleggen en het afschrijvingsschema dienovereenkomstig aanpassen. In dit onderwerp wordt de functionaliteit beschreven waarmee de waardevermindering wordt vastgelegd en het afschrijvingsschema van een Accounting Standards Codification Topic 842 (ASC 842) operationele lease wordt aangepast. Dezelfde methode geldt ook voor International Financial Reporting Standard 16 (IFRS 16)-leases.
+Als de boekwaarde van een activum met gebruiksrecht (RoU-activum) niet terugvorderbaar is, moet u mogelijk testen of de waarde van het activum is verminderd. Als u vaststelt dat de waarde van het activum is verminderd, kan Activa leasen de waardevermindering vastleggen en het afschrijvingsschema dienovereenkomstig aanpassen. In dit artikel wordt de functionaliteit beschreven waarmee de waardevermindering wordt vastgelegd en het afschrijvingsschema van een Accounting Standards Codification Topic 842 (ASC 842) operationele lease wordt aangepast. Dezelfde methode geldt ook voor International Financial Reporting Standard 16 (IFRS 16)-leases.
 
 Het resterende saldo van het RoU-activum wordt lineair afgeschreven voor het aantal perioden dat overblijft, ongeacht of de lease was geclassificeerd als financiële lease onder IFRS 16 of een operationele lease onder ASC 842.
 
@@ -83,7 +83,7 @@ In de volgende tabellen ziet u de waarden die zijn ingesteld op de tabbladen **A
 
 ### <a name="steps"></a>Stappen
 
-1. Nadat u de lease hebt gemaakt zoals eerder in dit onderwerp is beschreven, gaat u naar het leaseboek en bevestigt u het betalingsschema. Boek vervolgens de eerste journaalpost voor toerekening. Het initiële RoU-activum en de leaseverplichtingen moeten $ 70.235,81 zijn. Voor dit voorbeeld is de lease geclassificeerd als operationele lease onder ASC 842.
+1. Nadat u de lease hebt gemaakt zoals eerder in dit artikel is beschreven, gaat u naar het leaseboek en bevestigt u het betalingsschema. Boek vervolgens de eerste journaalpost voor toerekening. Het initiële RoU-activum en de leaseverplichtingen moeten $ 70.235,81 zijn. Voor dit voorbeeld is de lease geclassificeerd als operationele lease onder ASC 842.
 2. Voer het batchjournaalproces drie keer uit om de doorloop van drie jaar te simuleren voor de leasebetalingen, rentelasten en afschrijvingskosten.
 3. Nadat u alle drie de batchtaken hebt uitgevoerd, gaat u terug naar het leaseboek en opent u de tabellen verplichtingen en activumtransacties om de huidige boekwaarde van het RoU-activum en leaseverplichtingen weer te geven. Na drie jaar moet de waarde van de verplichtingen ongeveer € -53.893,00 zijn en de waarde van het activum ongeveer $ 53.893,00. 
 

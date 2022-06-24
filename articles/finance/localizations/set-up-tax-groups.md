@@ -1,6 +1,6 @@
 ---
 title: Belastinggroepen instellen
-description: In dit onderwerp wordt uitgelegd hoe u belastinggroepen instelt in de service voor belastingberekening.
+description: In dit artikel wordt uitgelegd hoe u belastinggroepen instelt in de service voor belastingberekening.
 author: wangchen
 ms.date: 11/30/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 50abafb958edfb8476434ff5842cd84cb186962f
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 89c5670ee7e78f2dc51f128c3ae8d284bb6b925b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883853"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862894"
 ---
 # <a name="set-up-tax-groups"></a>Belastinggroepen instellen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u belastinggroepen instelt in de service voor belastingberekening. Daarnaast wordt uitgelegd hoe u de matrix voor regels voor toepasbaarheid van de belastinggroep instelt en regels in de matrix configureert.
+In dit artikel wordt uitgelegd hoe u belastinggroepen instelt in de service voor belastingberekening. Daarnaast wordt uitgelegd hoe u de matrix voor regels voor toepasbaarheid van de belastinggroep instelt en regels in de matrix configureert.
 
 Het concept van belastinggroepen in de service voor belastingberekening lijkt op het concept van btw-groepen in Microsoft Dynamics 365 Finance. Dit zijn groepen belastingcodes. De service voor belastingberekening gebruikt de doorsnede van een belastinggroep en een artikelbelastinggroep om de belastingcodes te bepalen.
 

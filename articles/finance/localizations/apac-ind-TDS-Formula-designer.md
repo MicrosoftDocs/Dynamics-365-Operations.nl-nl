@@ -1,6 +1,6 @@
 ---
 title: Formuleontwerper voor TDS-berekeningen
-description: In dit onderwerp wordt een voorbeeld beschreven van hoe TDS (Tax Ducted at Source, belasting ingehouden op bron) wordt berekend op basis van de formule die is gedefinieerd voor elke TDS-belastingcode in de TDS-groep die aan de transactie is gekoppeld.
+description: In dit artikel wordt een voorbeeld beschreven van hoe TDS (Tax Ducted at Source, belasting ingehouden op bron) wordt berekend op basis van de formule die is gedefinieerd voor elke TDS-belastingcode in de TDS-groep die aan de transactie is gekoppeld.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: e60db55fd3bbcfb8dc34670b3bbbd39336b04efb
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1196f7258c898a55f3f29ddce7457e6f527185d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720078"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889856"
 ---
 # <a name="formula-designer-for-tds-calculations"></a>Formuleontwerper voor TDS-berekeningen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt een voorbeeld gegeven van hoe TDS (Tax Ducted at Source, belasting ingehouden op bron) wordt berekend op basis van de formule die voor elke TDS-belastingcode is gedefinieerd. TDS-belastingcodes worden gedefinieerd in de TDS-groep die aan de transactie is gekoppeld. Voordat u TDS-formules ontwerpt, moet u de basisinstellingen voor TDS voltooien, zoals wordt vermeld in de volgende stappen. 
+In dit artikel wordt een voorbeeld gegeven van hoe TDS (Tax Ducted at Source, belasting ingehouden op bron) wordt berekend op basis van de formule die voor elke TDS-belastingcode is gedefinieerd. TDS-belastingcodes worden gedefinieerd in de TDS-groep die aan de transactie is gekoppeld. Voordat u TDS-formules ontwerpt, moet u de basisinstellingen voor TDS voltooien, zoals wordt vermeld in de volgende stappen. 
 
 - Stel TDS-componentgroepen in met de pagina **Componentgroepen voor bronbelasting**. 
 - Stel TDS-componenten in en koppel de TDS-componentgroep aan de TDS-componenten met de pagina **Bronbelastingcomponenten**. 

@@ -1,6 +1,6 @@
 ---
 title: NF-e XML-bestanden als bijlagen verplaatsen
-description: In dit onderwerp wordt uitgelegd hoe u NF-e XML-bestanden uit uw Microsoft Dynamics 365 Finance- of Dynamics 365 Supply Chain Management-database verplaatst en ze in plaats daarvan beschikbaar maakt als bijlagen.
+description: In dit artikel wordt uitgelegd hoe u NF-e XML-bestanden uit uw Microsoft Microsoft Dynamics 365 Finance- of Dynamics 365 Supply Chain Management-database verplaatst en ze in plaats daarvan beschikbaar maakt als bijlagen.
 author: gionoder
 ms.date: 11/11/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2022-01-27
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: c7b82d486cecf6b20f1283fa609c360b3003efca
-ms.sourcegitcommit: ebf6546835e4d6a80aea1dfae81e119e294387f0
+ms.openlocfilehash: ce9061896759efeb8e8960e84656d5fc1f0616ae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "7799444"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877892"
 ---
 # <a name="move-nf-e-xml-files-as-attachments"></a>NF-e XML-bestanden als bijlagen verplaatsen
 

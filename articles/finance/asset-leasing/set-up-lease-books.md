@@ -1,6 +1,6 @@
 ---
 title: Leaseboeken instellen
-description: In dit onderwerp wordt de informatie beschreven die in leaseboeken wordt bijgehouden. Leaseboeken bevatten de boekhoudbeleidsregels die bepalen hoe een lease wordt verwerkt in het systeem.
+description: In dit artikel wordt de informatie beschreven die in leaseboeken wordt bijgehouden. Leaseboeken bevatten de boekhoudbeleidsregels die bepalen hoe een lease wordt verwerkt in het systeem.
 author: moaamer
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ba442b3085593221e2182b848e6879a96bbca127
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: ee8cb3c827d590a5eb91121fe4510fbc56c13d9a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727084"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903213"
 ---
 # <a name="set-up-lease-books"></a>Leaseboeken instellen
 

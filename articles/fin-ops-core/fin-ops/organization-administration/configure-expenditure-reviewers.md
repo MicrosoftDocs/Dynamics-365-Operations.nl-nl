@@ -1,6 +1,6 @@
 ---
 title: Uitgavencontroleurs configureren
-description: In dit onderwerp wordt beschreven hoe uitgavencontroleurs worden gebruikt om dynamisch de gebruiker te selecteren aan wie een werkstroomtaak, goedkeuring of handmatige beslissing is toegewezen.
+description: In dit artikel wordt beschreven hoe uitgavencontroleurs worden gebruikt om dynamisch de gebruiker te selecteren aan wie een werkstroomtaak, goedkeuring of handmatige beslissing is toegewezen.
 author: rachel-profitt
 ms.date: 06/25/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2021-06-24
-ms.openlocfilehash: ad980889247e0239ad743078cb013c1c5839f676
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 110edf4c2733f899368069c7d215ae5b0882f5cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070141"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863218"
 ---
 # <a name="configure-expenditure-reviewers"></a>Uitgavencontroleurs configureren
 [!include[banner](../includes/banner.md)]
@@ -75,7 +75,7 @@ Wanneer de inkooporder wordt gemaakt, moet het veld **Project** worden opgegeven
 
 ## <a name="set-up-expenditure-reviewers"></a>Uitgavencontroleurs instellen
 
-Dit voorbeeld laat zien hoe u een uitgavencontroleur voor opdrachten tot inkoop configureert. Als u andere typen uitgavencontroleurs wilt configureren, vervangt u het navigatiepad in stap 1 door het juiste pad van de tabel in de sectie [Typen uitgavencontroleurs](configure-expenditure-reviewers.md#types-of-expenditure-reviewers), eerder dit onderwerp.
+Dit voorbeeld laat zien hoe u een uitgavencontroleur voor opdrachten tot inkoop configureert. Als u andere typen uitgavencontroleurs wilt configureren, vervangt u het navigatiepad in stap 1 door het juiste pad van de tabel in de sectie [Typen uitgavencontroleurs](configure-expenditure-reviewers.md#types-of-expenditure-reviewers), eerder dit artikel.
 
 1. Ga naar **Inkoopbeheer \> Instellingen \> Beleid \> Uitgavencontroleurs voor opdrachten tot inkoop**.
 2. Selecteer **Nieuw** op de pagina **Uitgavencontroleurs voor opdrachten tot inkoop**.

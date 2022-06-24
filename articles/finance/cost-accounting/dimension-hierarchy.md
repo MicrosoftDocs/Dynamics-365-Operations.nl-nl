@@ -1,6 +1,6 @@
 ---
 title: Dimensiehiërarchie
-description: Dit onderwerp bevat informatie over dimensiehiërarchieën. U gebruikt een dimensiehiërarchie om de rapportagestructuur, het kostenbeleid en de beveiligingsinstelling in Kostprijsboekhouding te definiëren.
+description: Dit artikel bevat informatie over dimensiehiërarchieën. U gebruikt een dimensiehiërarchie om de rapportagestructuur, het kostenbeleid en de beveiligingsinstelling in Kostprijsboekhouding te definiëren.
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 852cfa536ed7e6985ce1f7de612b34e2a492ee07
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 60585690a2cf5962d4ad562c3a01b675a0588263
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735077"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848630"
 ---
 # <a name="dimension-hierarchy"></a>Dimensiehiërarchie
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat informatie over dimensiehiërarchieën. U gebruikt een dimensiehiërarchie om de rapportagestructuur, het kostenbeleid en de beveiligingsinstelling in Kostprijsboekhouding te definiëren.  
+Dit artikel bevat informatie over dimensiehiërarchieën. U gebruikt een dimensiehiërarchie om de rapportagestructuur, het kostenbeleid en de beveiligingsinstelling in Kostprijsboekhouding te definiëren.  
 
 ## <a name="overview"></a>Overzicht
 

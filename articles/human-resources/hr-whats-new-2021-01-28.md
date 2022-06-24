@@ -1,6 +1,6 @@
 ---
 title: Wat is nieuw of gewijzigd in Dynamics 365 Human Resources, 28 januari 2021
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 28 januari 2021.
+description: In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 28 januari 2021.
 author: marcelbf
 ms.date: 01/28/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d59e242421b1b86c32f9009ae6ae17e0f161a2e2
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 46bbda21c3eb2b32030b93afc2a40785c22b124e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689293"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909754"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-28-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources, 28 januari 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn of die binnenkort worden vrijgegeven in Dynamics 365 Human Resources.
+In dit artikel worden de functies beschreven die in Dynamics 365 Human Resources nieuw, gewijzigd of binnenkort beschikbaar zijn.
 
 Zie [Updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces en de planning.
 
@@ -48,10 +48,10 @@ De volgende functie zijn algemeen beschikbaar in deze release.
 Deze versie bevat de volgende correcties.
 
 > [!NOTE]
-> Ons doel is om deze informatie zo snel mogelijk bij u te krijgen. Mogelijk wordt dit onderwerp gewijzigd om correcties op te nemen die in de build zijn gemaakt nadat dit onderwerp oorspronkelijk werd gepubliceerd.
+> Ons doel is om deze informatie zo snel mogelijk bij u te krijgen. Mogelijk wordt dit artikel gewijzigd om correcties op te nemen die in de build zijn gemaakt nadat dit artikel oorspronkelijk werd gepubliceerd.
 
 
-| Probleemnummer | Uitgeven |  Beschrijving |
+| Probleemnummer | Probleem |  Description |
 | --- | --- | --- |
 | 539456 | In de kalender wordt het verloftype in de muisaanwijzertekst getoond wanneer de parameter **Afwezigheid tonen zonder details** is ingeschakeld. | Wanneer de optie **Afwezigheid tonen zonder details** is ingeschakeld, wordt de datum van de aanvraag nu ter informatie weergegeven wanneer de muisaanwijzer op het veld wordt geplaatst. |
 | 528907 | Wanneer een rechtspersoon toegang wordt verleend tot werknemerrollen, kunnen managers geen activiteiten voor verlofsaldo meer zien voor werknemers in het gebied **Mijn team** in de werknemersselfservice. |Door deze optie in te, stellen kunnen managers nu activiteiten voor het verlofsaldo blijven zien. |

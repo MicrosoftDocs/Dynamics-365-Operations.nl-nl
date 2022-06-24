@@ -1,6 +1,6 @@
 ---
 title: Geboekte leasetransacties terugboeken
-description: In dit onderwerp wordt uitgelegd hoe u een geboekte leasetransactie terugboekt. Transacties die via Activa leasen zijn gemaakt, kunnen worden teruggeboekt.
+description: In dit artikel wordt uitgelegd hoe u een geboekte leasetransactie terugboekt. Transacties die via Activa leasen zijn gemaakt, kunnen worden teruggeboekt.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1f45a06464962098f8ed98de5ae15080a778ce97
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 4f23b6cca6ddf4da7a0232a5bc61785dbd451d55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724948"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908062"
 ---
 # <a name="reverse-posted-lease-transactions"></a>Geboekte leasetransacties terugboeken
 

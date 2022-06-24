@@ -1,6 +1,6 @@
 ---
 title: Herwaardering van valuta voor Leveranciers en Klanten
-description: Dit onderwerp bevat informatie over de herwaardering van vreemde valuta die u kunt uitvoeren om de waarde van openstaande transacties in Leveranciers en Klanten bij te werken.
+description: Dit artikel bevat informatie over de herwaardering van vreemde valuta die u kunt uitvoeren om de waarde van openstaande transacties in Leveranciers en Klanten bij te werken.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf32a31df1d56740d803b97d65829b1b1d31eb17
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 33750e7bb2f1fc4158a5f2faba5eeae5a356db7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713919"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906379"
 ---
 # <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Herwaardering van valuta voor Leveranciers en Klanten
 
 [!include [banner](../includes/banner.md)]
 
-Schommelingen in wisselkoersen leiden ertoe dat de theoretische waarde (boekwaarde) van openstaande transacties in vreemde valuta in de loop van de tijd variëren. Dit onderwerp bevat informatie over de herwaardering van vreemde valuta die u kunt uitvoeren om de waarde van openstaande transacties in Leveranciers en Klanten bij te werken. 
+Schommelingen in wisselkoersen leiden ertoe dat de theoretische waarde (boekwaarde) van openstaande transacties in vreemde valuta in de loop van de tijd variëren. Dit artikel bevat informatie over de herwaardering van vreemde valuta die u kunt uitvoeren om de waarde van openstaande transacties in Leveranciers en Klanten bij te werken. 
 
 De theoretische waarde, of boekwaarde, van openstaande transacties in vreemde valuta varieert in de loop van de tijd vanwege schommelingen in wisselkoersen. U kunt de waarde van openstaande transacties bijwerken in Leveranciers en Klant door het herwaarderingsproces voor vreemde valuta uit te voeren. Herwaardering van vreemde valuta kan worden uitgevoerd voor zowel Leveranciers als Klanten. Voor het proces wordt een nieuwe wisselkoers gehanteerd voor het herwaarderen van openstaande of niet-vereffende bedragen op een opgegeven datum. De verschillen tussen de oorspronkelijke geboekte bedragen en de geherwaardeerde bedragen veroorzaken een niet-gerealiseerde winst of niet-gerealiseerd verlies voor elke openstaande transactie. De subjournalen voor leveranciers en klanten worden vervolgens bijgewerkt, zodat de niet-gerealiseerde winst of het niet-gerealiseerde verlies en een boeking naar het grootboek worden geboekt.
 

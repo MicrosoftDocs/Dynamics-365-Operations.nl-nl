@@ -1,6 +1,6 @@
 ---
 title: Resultaten van de automatisering van leveranciersfacturering weergeven (preview)
-description: In dit onderwerp wordt uitgelegd hoe u de status van leveranciersfacturen kunt weergeven die zich in het geautomatiseerde proces voor indiening bij de werkstroom bevinden.
+description: In dit artikel wordt uitgelegd hoe u de status van leveranciersfacturen kunt weergeven die zich in het geautomatiseerde proces voor indiening bij de werkstroom bevinden.
 author: abruer
 ms.date: 10/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1700f4c4748dc12bf000b25c0d51bc6ed069a97b
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: dd9b74d2ed34399aff455563504c296a5a25a874
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717244"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895162"
 ---
 # <a name="view-vendor-invoice-automation-results"></a>Resultaten van de automatisering van leveranciersfacturering weergeven
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u de status van leveranciersfacturen kunt weergeven die zich in het geautomatiseerde proces voor indiening bij de werkstroom bevinden. Details van de automatiseringsgeschiedenis worden bijgehouden voor elke geïmporteerde leveranciersfactuur. Afhankelijk van de bedrijfsprocessen die u hebt geautomatiseerd, worden op de pagina **Leveranciersfacturen in behandeling** de waarden **Afstemmingsstatus van automatische ontvangst** en **Automatisch indienen bij werkstroomstatus** weergegeven. U kunt de details bekijken en een plan maken om zich te concentreren op de facturen waarvoor een geautomatiseerde stap is mislukt. Nadat u het probleem hebt opgelost, kunt u het geautomatiseerde proces voor de geïmporteerde factuur hervatten.
+In dit artikel wordt uitgelegd hoe u de status van leveranciersfacturen kunt weergeven die zich in het geautomatiseerde proces voor indiening bij de werkstroom bevinden. Details van de automatiseringsgeschiedenis worden bijgehouden voor elke geïmporteerde leveranciersfactuur. Afhankelijk van de bedrijfsprocessen die u hebt geautomatiseerd, worden op de pagina **Leveranciersfacturen in behandeling** de waarden **Afstemmingsstatus van automatische ontvangst** en **Automatisch indienen bij werkstroomstatus** weergegeven. U kunt de details bekijken en een plan maken om zich te concentreren op de facturen waarvoor een geautomatiseerde stap is mislukt. Nadat u het probleem hebt opgelost, kunt u het geautomatiseerde proces voor de geïmporteerde factuur hervatten.
 
 Voordat u een factuur kunt bewerken die is ingediend, moet u de geautomatiseerde verwerking onderbreken. Als een factuur in het geautomatiseerde proces voor indiening bij de werkstroom moet worden onderbroken, stelt u het veld **Opnemen in geautomatiseerde verwerking** in op **Nee** op de pagina **Leveranciersfacturen**. Automation wordt vervolgens pas uitgevoerd als **Opnemen in geautomatiseerde verwerking** is ingesteld op **Ja**. Een factuur kan worden onderbroken voor verdere automatisering als deze nog niet in het werkstroomsysteem is opgenomen en niet wordt gebruikt door het geautomatiseerde proces.
 

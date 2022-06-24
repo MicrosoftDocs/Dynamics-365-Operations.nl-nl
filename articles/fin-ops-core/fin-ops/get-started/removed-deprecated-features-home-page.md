@@ -1,6 +1,6 @@
 ---
 title: Startpagina voor verwijderde of afgeschafte functies
-description: Dit onderwerp biedt een lijst met Help-onderwerpen over verwijderde of afgeschafte functies in apps voor financiële en bedrijfsactiviteiten.
+description: Dit artikel biedt een lijst met Help-onderwerpen over verwijderde of afgeschafte functies in apps voor financiën en bedrijfsactiviteiten.
 author: sericks007
 ms.date: 05/27/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2021-03-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 9beda14bb6ac02534340e4dc5539cc0114c15c0c
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: cc813ba4bafb526c16445eecaed9f1be68a8d726
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087340"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859976"
 ---
 # <a name="removed-or-deprecated-features-home-page"></a>Startpagina voor verwijderde of afgeschafte functies
 
@@ -35,6 +35,6 @@ De volgende onderwerpen bevatten informatie over verwijderde of afgeschafte func
 - [Verwijderde of afgeschafte functies in eerdere releases](../../dev-itpro/migration-upgrade/deprecated-features.md)
 
 ## <a name="deprecations-in-the-microsoft-power-platform"></a>Afgeschafte onderdelen op het Microsoft Power Platform
-De volgende onderwerpen bevatten informatie over afgeschafte onderdelen op het Microsoft Power Platform:
+Het volgende artikel bevat informatie over afgeschafte onderdelen op het Microsoft Power Platform:
 
 - [Belangrijke wijzigingen (afschaffingen) die komen in Power Apps, Power Automate en apps voor klantbetrokkenheid](/power-platform/important-changes-coming)

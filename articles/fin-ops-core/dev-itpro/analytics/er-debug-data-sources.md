@@ -1,6 +1,6 @@
 ---
 title: Fouten opsporen in gegevensbronnen van een uitgevoerde ER-indeling om gegevensstromen en transformatie te analyseren
-description: In dit onderwerp wordt uitgelegd hoe u fouten kunt opsporen in de gegevensbronnen van een uitgevoerde ER-indeling om de geconfigureerde gegevensstroom en transformatie beter te begrijpen.
+description: In dit artikel wordt uitgelegd hoe u fouten kunt opsporen in de gegevensbronnen van een uitgevoerde ER-indeling om de geconfigureerde gegevensstroom en transformatie beter te begrijpen.
 author: NickSelin
 ms.date: 04/22/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 02aee8c6ec3b2720c2fcbb17f15791d88d688a34
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 6fca177093caf42ad27b58eaa97e3f6997289eeb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323756"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884223"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>Fouten opsporen in gegevensbronnen van een uitgevoerde ER-indeling om gegevensstromen en transformatie te analyseren
 
@@ -34,7 +34,7 @@ Soms zien de gegevens van de gegenereerde uitvoer er anders uit dan dezelfde geg
 
 Als u de functie voor foutopsporing in gegevensbronnen wilt inschakelen, stelt u de optie **Foutopsporing in gegevens bij indelingsuitvoering inschakelen** in op **Ja** in de ER-gebruikersparameters. U kunt vervolgens foutopsporing starten in de gegevensbron terwijl u een ER-indeling uitvoert om uitgaande documenten te genereren. U kunt ook de optie **Foutopsporing starten** gebruiken om foutopsporing in de gegevensbron te starten voor een ER-indeling die is geconfigureerd in de [ER Operations-ontwerper](./tasks/er-format-configuration-2016-11.md#design-the-format-of-an-electronic-document).
 
-Dit onderwerp bevat richtlijnen voor het starten van foutopsporing in gegevensbronnen voor uitgevoerde ER-indelingen. Het geeft uitleg over de informatie die u kan helpen bij het begrijpen van de gegevensstroom en gegevenstransformaties. De voorbeelden in dit onderwerp gebruiken het bedrijfsproces voor het verwerken van leveranciersbetalingen.
+Dit artikel bevat richtlijnen voor het starten van foutopsporing in gegevensbronnen voor uitgevoerde ER-indelingen. Het geeft uitleg over de informatie die u kan helpen bij het begrijpen van de gegevensstroom en gegevenstransformaties. De voorbeelden in dit artikel gebruiken het bedrijfsproces voor het verwerken van leveranciersbetalingen.
 
 ## <a name="limitations"></a>Beperkingen
 
@@ -49,7 +49,7 @@ De volgende instellingen voor ER-indelingen zijn op dit moment niet toegankelijk
 
 ## <a name="prerequisites"></a>Vereisten
 
-- Als u de voorbeelden in dit onderwerp wilt voltooien, moet u toegang hebben tot een van de volgende [rollen](../sysadmin/tasks/assign-users-security-roles.md):
+- Als u de voorbeelden in dit artikel wilt voltooien, moet u toegang hebben tot een van de volgende [rollen](../sysadmin/tasks/assign-users-security-roles.md):
 
     - Ontwikkelaar elektronische rapportage
     - Functioneel consultant elektronische rapportage
@@ -57,12 +57,12 @@ De volgende instellingen voor ER-indelingen zijn op dit moment niet toegankelijk
 
 - Het bedrijf moet worden ingesteld op **DEMF**.
 
-- Volg de stappen in [bijlage 1](#appendix1) van dit onderwerp om de onderdelen van de Microsoft ER-oplossing te downloaden die vereist zijn om leveranciersbetalingen te verwerken.
-- Volg de stappen in [bijlage 2](#appendix2) van dit onderwerp om Leveranciers voor te bereiden voor de verwerking van leveranciersbetalingen met de gedownloade ER-oplossing.
+- Volg de stappen in [bijlage 1](#appendix1) van dit artikel om de onderdelen van de Microsoft ER-oplossing te downloaden die vereist zijn om leveranciersbetalingen te verwerken.
+- Volg de stappen in [bijlage 2](#appendix2) van dit artikel om Leveranciers voor te bereiden voor de verwerking van leveranciersbetalingen met de gedownloade ER-oplossing.
 
 ## <a name="process-a-vendor-payment-to-get-a-payment-file"></a>Een leveranciersbetaling verwerken om een betalingsbestand op te halen
 
-1. Volg de stappen in [bijlage 3](#appendix3) van dit onderwerp om leveranciersbetalingen te verwerken.
+1. Volg de stappen in [bijlage 3](#appendix3) van dit artikel om leveranciersbetalingen te verwerken.
 
     ![Verwerking van leveranciersbetalingen wordt uitgevoerd.](./media/er-data-debugger-process-payment.png)
 
@@ -89,7 +89,7 @@ De volgende instellingen voor ER-indelingen zijn op dit moment niet toegankelijk
 
 ## <a name="process-a-vendor-payment-for-debugging"></a>Een leveranciersbetaling verwerken voor foutopsporing
 
-1. Volg de stappen in [bijlage 3](#appendix3) van dit onderwerp om leveranciersbetalingen te verwerken.
+1. Volg de stappen in [bijlage 3](#appendix3) van dit artikel om leveranciersbetalingen te verwerken.
 2. Selecteer **Ja** in het berichtvak om te bevestigen dat u de verwerking van leveranciersbetalingen wilt onderbreken en in plaats daarvan foutopsporing in de gegevensbron wilt starten op de pagina **Fouten opsporen in gegevensbronnen**.
 
     ![Venster met bevestigingsbericht.](./media/er-data-debugger-start-debugging.png)

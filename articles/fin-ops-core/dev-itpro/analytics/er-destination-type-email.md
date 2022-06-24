@@ -1,6 +1,6 @@
 ---
 title: ER-bestemmingstype voor e-mail
-description: In dit onderwerp wordt uitgelegd hoe u een e-mailbestemming kunt configureren voor elke MAP- of BESTAND-component van een ER-indeling (Electronic Reporting).
+description: In dit artikel wordt uitgelegd hoe u een e-mailbestemming kunt configureren voor elke MAP- of BESTAND-component van een ER-indeling (Electronic Reporting).
 author: NickSelin
 ms.date: 08/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2248b8a35b076eb778a50bbbc67d083380ceee62
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 08d64b0f21e4957727de1e8f5f13f9067c0fbc7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324003"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845652"
 ---
 # <a name="email-er-destination-type"></a>ER-bestemmingstype voor e-mail
 
@@ -120,7 +120,7 @@ Voer op de pagina **Formuleontwerper** in het veld **Formule** een documentspeci
 
 ![Een e-mailbronaccount configureren.](./media/er_destinations-emaildefineaddresssource.gif)
 
-Als de rekeningnummers van de geconfigureerde rol uniek zijn voor het gehele exemplaar van Microsoft Dynamics 365 Finance, kan het veld **Bvan e-mailbron** in het dialoogvenster **E-mail naar** leeg blijven.
+Als de rekeningnummers van de geconfigureerde rol uniek zijn voor het gehele exemplaar van Microsoft Dynamics 365 Finance, kan het veld **Bedrijf van e-mailbron** in het dialoogvenster **E-mail naar** leeg blijven.
 
 U kunt ook een situatie hebben waarin verschillende partijen in het [algemene adresboek](../../fin-ops/organization-administration/overview-global-address-book.md) zijn geregistreerd in verschillende bedrijven ([rechtspersonen](../../fin-ops/organization-administration/organizations-organizational-hierarchies.md#legal-entities)), zodat ze allemaal hetzelfde rekeningnummer gebruiken om de geconfigureerde rol te vullen. In dit geval zijn de rekeningnummers voor de geconfigureerde rol niet uniek voor de gehele Finance-exemplaar. Daarom kunt u niet alleen een rekeningnummer opgeven om een partij expliciet te selecteren. U moet ook het bedrijf opgeven in het bereik waarvan de partij is geregistreerd om de geconfigureerde rol te kunnen invullen. Selecteer de knop **Binden** (kettingsymbool) naast het veld **Bedrijf van e-mailbron** in het dialoogvenster **E-mail naar** om de pagina [Formuleontwerperr](general-electronic-reporting-formula-designer.md) te openen. U kunt deze pagina vervolgens gebruiken om een formule te configureren die tijdens runtime de code retourneert van het bedrijf waarvoor de gewenste bron deel moet uitmaken van het bereik.
 
@@ -162,7 +162,7 @@ In de volgende afbeelding ziet u de structuur van een ERindeling die is geconfig
 
 [![Structuur van een ER-indeling die uitgaande documenten genereert.](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
 
-In de volgende afbeelding ziet u het proces, zoals beschreven in dit onderwerp, voor het groeperen van afzonderlijke onderdelen en het inschakelen van de bestemming **E-mail** voor de nieuwe groep, zodat een notitie bij een aanmaning wordt verzonden met de desbetreffende klantfacturen als e-mailbijlagen.
+In de volgende afbeelding ziet u het proces, zoals beschreven in dit artikel, voor het groeperen van afzonderlijke onderdelen en het inschakelen van de bestemming **E-mail** voor de nieuwe groep, zodat een notitie bij een aanmaning wordt verzonden met de desbetreffende klantfacturen als e-mailbijlagen.
 
 [![Afzonderlijke onderdelen groeperen en de e-mailbestemming inschakelen.](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 

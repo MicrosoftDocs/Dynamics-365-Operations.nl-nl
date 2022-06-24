@@ -1,6 +1,6 @@
 ---
 title: ER-indelingen configureren om parameters te gebruiken die per rechtspersoon worden opgegeven
-description: In dit onderwerp wordt uitgelegd hoe u ER-indelingen (Elektronische rapportage) kunt configureren voor het gebruik van parameters die worden opgegeven per rechtspersoon.
+description: In dit artikel wordt uitgelegd hoe u ER-indelingen (Elektronische rapportage) kunt configureren voor het gebruik van parameters die worden opgegeven per rechtspersoon.
 author: NickSelin
 ms.date: 04/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 2bf4d1ecad3e25299df7c87ffa2236736ddcac300a5ded779616b25920745d7e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb44422c4cdcc87989cdfb28dcd7d5cfea9002eb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765827"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858823"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>ER-indelingen configureren om parameters te gebruiken die per rechtspersoon worden opgegeven
 
@@ -37,13 +37,13 @@ Met de functie voor toepassingsspecifieke ER-parameters kunnen hoofdgebruikers g
 
 ## <a name="prerequisites"></a>Vereisten
 
-Als u de voorbeelden in dit onderwerp wilt voltooien, moet u toegang hebben tot het exemplaar van Regulatory Configuration Services (RCS) dat is ingericht voor dezelfde tenant als Finance voor een van de volgende rollen:
+Als u de voorbeelden in dit artikel wilt voltooien, moet u toegang hebben tot het exemplaar van Regulatory Configuration Services (RCS) dat is ingericht voor dezelfde tenant als Finance voor een van de volgende rollen:
 
 - Ontwikkelaar elektronische rapportage
 - Functioneel consultant elektronische rapportage
 - Systeembeheerder
 
-U wordt aangeraden de stappen in het onderwerp [Ondersteuning bieden voor parameteraanroepen van ER-gegevensbronnen van een BEREKEND VELD-type](er-calculated-field-type.md) te voltooien. Als u deze stappen al hebt uitgevoerd, kunt u de stappen in de daaropvolgende sectie **ER-configuraties importeren in RCS** overslaan.
+U wordt aangeraden de stappen in het artikel [Ondersteuning bieden voor parameteraanroepen van ER-gegevensbronnen van een BEREKEND VELD-type](er-calculated-field-type.md) te voltooien. Als u deze stappen al hebt uitgevoerd, kunt u de stappen in de daaropvolgende sectie **ER-configuraties importeren in RCS** overslaan.
 
 ## <a name="import-er-configurations-into-rcs"></a>ER-configuraties importeren in RCS
 
@@ -58,7 +58,7 @@ Download de volgende ER-configuraties en sla deze lokaal op.
 
 Meld u vervolgens aan bij uw RCS-exemplaar.
 
-In dit voorbeeld maakt u een configuratie voor het voorbeeldbedrijf Litware, Inc. Voordat u de stappen in deze procedure kunt uitvoeren, moet u eerst de stappen in het onderwerp [Een configuratieprovider maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md) in RCS voltooien.
+In dit voorbeeld maakt u een configuratie voor het voorbeeldbedrijf Litware, Inc. Voordat u de stappen in deze procedure kunt uitvoeren, moet u eerst de stappen in het artikel [Een configuratieprovider maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md) in RCS voltooien.
 
 1.  Selecteer **Elektronische aangifte** in het standaarddashboard.
 2.  Selecteer **Rapportageconfiguraties**.
@@ -300,9 +300,9 @@ Herhaal de stappen in dit gedeelte voor de bovenliggende items van de indeling *
 -   Toewijzing voor het leren van parameteraanroepen.xml
 -   Model voor het leren van parameteraanroepen.xml
 
-Als u wilt leren hoe u de geconfigureerde ER-indeling **Indeling voor het opzoeken van LE-gegevens** kunt gebruiken voor het instellen van rechtspersoonafhankelijke sets belastingcode om belastingtransacties te filteren op basis van verschillende belastingniveaus, voert u de stappen uit in het onderwerp [De parameters van een ER-indeling per rechtspersoon instellen](er-app-specific-parameters-set-up.md).
+Als u wilt leren hoe u de geconfigureerde ER-indeling **Indeling voor het opzoeken van LE-gegevens** kunt gebruiken voor het instellen van rechtspersoonafhankelijke sets belastingcode om belastingtransacties te filteren op basis van verschillende belastingniveaus, voert u de stappen uit in het artikel [De parameters van een ER-indeling per rechtspersoon instellen](er-app-specific-parameters-set-up.md).
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Formuleontwerper in elektronische aangifte](general-electronic-reporting-formula-designer.md)
 

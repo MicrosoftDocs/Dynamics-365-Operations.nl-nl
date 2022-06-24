@@ -1,6 +1,6 @@
 ---
 title: Nummerreeksen instellen met een wizard
-description: In dit onderwerp wordt uitgelegd hoe u alle vereiste nummerreeksen tegelijkertijd instelt met behulp van een wizard.
+description: In dit artikel wordt uitgelegd hoe u alle vereiste nummerreeksen tegelijkertijd instelt met behulp van een wizard.
 author: SunilGarg
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7388a835147e1e8242463fee98c57c300d062877
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: cae739aad1166eee1abebe3c0adc7939bca55bc4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777563"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847058"
 ---
 # <a name="set-up-number-sequences-using-a-wizard"></a>Nummerreeksen instellen met een wizard
 
 [!include [banner](../../includes/banner.md)]
 
-Nummerreeksen worden gebruikt om leesbare, unieke identificaties te maken voor hoofdgegevensrecords en transactierecords die deze nodig hebben. Een hoofdgegevens- of transactieregistratie die een identificatie nodig heeft wordt een verwijzing genoemd. Voordat u nieuwe registraties voor een verwijzing kunt maken, moet u een nummerreeks instellen en deze aan de verwijzing koppelen. In dit onderwerp wordt uitgelegd hoe u alle vereiste nummerreeksen tegelijkertijd instelt met behulp van een wizard. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
+Nummerreeksen worden gebruikt om leesbare, unieke identificaties te maken voor hoofdgegevensrecords en transactierecords die deze nodig hebben. Een hoofdgegevens- of transactieregistratie die een identificatie nodig heeft wordt een verwijzing genoemd. Voordat u nieuwe registraties voor een verwijzing kunt maken, moet u een nummerreeks instellen en deze aan de verwijzing koppelen. In dit artikel wordt uitgelegd hoe u alle vereiste nummerreeksen tegelijkertijd instelt met behulp van een wizard. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 
 1. Ga naar **Navigatiedeelvenster > Modules > Organisatiebeheer > Nummerreeksen > Nummerreeksen**.
 2. Selecteer **Genereren**.

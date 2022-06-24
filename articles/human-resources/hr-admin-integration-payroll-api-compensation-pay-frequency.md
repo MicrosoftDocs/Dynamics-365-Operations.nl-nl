@@ -1,6 +1,6 @@
 ---
 title: Compensatiebetalingsfrequentie
-description: Dit onderwerp bevat details en een voorbeeldquery voor de entiteit Compensatiebetalingsfrequentie in Dynamics 365 Human Resources.
+description: Dit artikel bevat details en een voorbeeldquery voor de entiteit Compensatiebetalingsfrequentie in Dynamics 365 Human Resources.
 author: marcelbf
 ms.date: 09/01/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 171b7fb7b361bd1fe2e7e637cd555c88a81a8bcf
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 9afe27776797b2355a32226bbd7fa514b5c5d962
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066138"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894609"
 ---
 # <a name="compensation-pay-frequency"></a>Compensatiebetalingsfrequentie
 
@@ -27,7 +27,7 @@ ms.locfileid: "8066138"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp wordt de entiteit Compensatiebetalingsfrequentie in Dynamics 365 Human Resources beschreven.
+In dit artikel wordt de entiteit Compensatiebetalingsfrequentie in Dynamics 365 Human Resources beschreven.
 
 Fysieke naam: mshr_hcmpayrateconversionentity.
 

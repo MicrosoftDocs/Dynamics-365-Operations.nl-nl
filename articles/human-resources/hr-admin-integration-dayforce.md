@@ -1,6 +1,6 @@
 ---
 title: Integratie met Dayforce configureren
-description: In dit onderwerp worden de vereiste configuratiestappen beschreven die zijn vereist voor de integratie tussen Microsoft Dynamics 365 Human Resources en Ceridian Dayforce.
+description: In dit artikel worden de vereiste configuratiestappen beschreven die zijn vereist voor de integratie tussen Microsoft Dynamics 365 Human Resources en Ceridian Dayforce.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a4e95a78364fcee2c03614e110f9b5983abfde37
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5a5d296dd4c1b09065fc47673dd540d8c122c482
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691327"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896129"
 ---
 # <a name="configure-integration-with-dayforce"></a>Integratie met Dayforce configureren
 
@@ -28,7 +28,7 @@ ms.locfileid: "8691327"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-De integratie tussen Microsoft Dynamics 365 Human Resources en Ceridian Dayforce is afhankelijk van verschillende configuratiestappen die in dit onderwerp worden beschreven. Voordat u een betaling kunt verwerken, moet u de integratie configureren in zowel Human Resources als Dayforce.
+De integratie tussen Microsoft Dynamics 365 Human Resources en Ceridian Dayforce is afhankelijk van verschillende configuratiestappen, die in dit artikel worden beschreven. Voordat u een betaling kunt verwerken, moet u de integratie configureren in zowel Human Resources als Dayforce.
 
 Als u een service zoals Dayforce gebruikt voor het uitvoeren van betalingen, moet u de integratie inschakelen in Human Resources. De integratie vereist specifieke gegevens vanuit Human Resources. Daarom moet u controleren of gegevens die zijn toegewezen aan Dayforce, zodanig in Human Resources zijn geconfigureerd dat de integratie wordt ondersteund. De integratie maakt gebruik van de volgende brede categorieën gegevens:
 
@@ -37,7 +37,7 @@ Als u een service zoals Dayforce gebruikt voor het uitvoeren van betalingen, moe
 - Salarisgegevens, zoals betalingscycli, salarisperioden en inkomstencodes
 - Medewerkergegevens
 
-In dit onderwerp worden de stappen beschreven die u moet volgen om de integratie in te schakelen en worden de gegevenstypen en de configuratiedetails uitgelegd die voor de integratie nodig zijn.
+In dit artikel worden de stappen beschreven die u moet volgen om de integratie in te schakelen en worden de gegevenstypen en de configuratiedetails uitgelegd die voor de integratie nodig zijn.
 
 ## <a name="enable-the-integration"></a>De integratie inschakelen
 

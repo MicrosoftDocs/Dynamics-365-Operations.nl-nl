@@ -1,6 +1,6 @@
 ---
 title: Jaarlijkse btw-lijst van binnenlandse verkopen
-description: Dit onderwerp biedt informatie over de jaarlijkse btw-lijst met een aangifte van de binnenlandse verkopen of factuuromzet voor België.
+description: Dit artikel biedt informatie over de jaarlijkse btw-lijst met een aangifte van de binnenlandse verkopen of factuuromzet voor België.
 author: andosip
 ms.date: 09/09/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Belgium
 ms.author: anasyash
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bea209f5a2d5db9cecff392b77818be2cf6f888b
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 33e4040cd7f11289909807b8caff6022f60c65d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487063"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893976"
 ---
 # <a name="annual-vat-listing-of-domestic-sales"></a>Jaarlijkse btw-lijst van binnenlandse verkopen
 

@@ -1,6 +1,6 @@
 ---
 title: Elektronische berichten instellen
-description: Dit onderwerp bevat informatie over het instellen van de functionaliteit voor elektronische berichten (EM).
+description: Dit artikel bevat informatie over het instellen van de functionaliteit voor elektronische berichten (EM).
 author: liza-golub
 ms.date: 11/18/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 652d8684473d1c1505a80eb1d860c57a214b9488
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6ac6e4fbc37165a3126de3b1f937a43c980410b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734214"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874546"
 ---
 # <a name="set-up-electronic-messages"></a>Elektronische berichten instellen
 
@@ -66,7 +66,7 @@ In de volgende tabel worden de velden op de pagina **Berichtstatussen** beschrev
 |---------------------|-------------|
 | Berichtstatus      | Voer een unieke naam voor de berichtstatus in. Berichtstatussen worden gebruikt om de status van een elektronisch bericht op elk moment aan te geven. De naam die u invoert, wordt weergegeven op de pagina **Elektronische berichten** en in een logboek dat betrekking heeft op elektronische berichten. |
 | Beschrijving         | Voer een omschrijving van de berichtstatus in. |
-| Antwoordtype       | Selecteer het responstype voor de berichtstatus. Sommige acties in een verwerking kunnen meer dan één antwoordtype produceren. Zo kan bijvoorbeeld een actie van het type **Webservice** responsen produceren van het type **Uitgevoerd** of het type **Technische fout**, afhankelijk van het resultaat van de uitvoering ervan. Definieer in dit geval berichtstatussen voor beide responstypen. Zie de sectie [Actietypen voor berichtverwerking](#action-types) verderop in dit onderwerp voor meer informatie over actietypen en de eraan gerelateerde responstypen. |
+| Antwoordtype       | Selecteer het responstype voor de berichtstatus. Sommige acties in een verwerking kunnen meer dan één antwoordtype produceren. Zo kan bijvoorbeeld een actie van het type **Webservice** responsen produceren van het type **Uitgevoerd** of het type **Technische fout**, afhankelijk van het resultaat van de uitvoering ervan. Definieer in dit geval berichtstatussen voor beide responstypen. Zie de sectie [Actietypen voor berichtverwerking](#action-types) verderop in dit artikel voor meer informatie over actietypen en de eraan gerelateerde responstypen. |
 | Status berichtitem | De status van een elektronisch bericht moet soms de status van gerelateerde berichtitems beïnvloeden. Selecteer een berichtitemstatus in dit veld om deze te koppelen aan de berichtstatus. |
 | Verwijderen toestaan        | Schakel dit selectievakje in als gebruikers elektronische berichten met deze status op de pagina **Elektronische berichten** moeten kunnen verwijderen. |
 
@@ -240,7 +240,7 @@ In de volgende tabellen worden de velden op de pagina **Acties berichtverwerking
 
 | Veld                                     | Omschrijving |
 |-------------------------------------------|-------------|
-| Actietype                               | Selecteer het type actie. Zie de sectie [Actietypen voor berichtverwerking](#action-types) verderop in dit onderwerp voor informatie over de beschikbare opties. |
+| Actietype                               | Selecteer het type actie. Zie de sectie [Actietypen voor berichtverwerking](#action-types) verderop in dit artikel voor informatie over de beschikbare opties. |
 | Indelingstoewijzing                            | Selecteer de ER-indeling die voor de actie moet worden aangeroepen. Dit veld is alleen beschikbaar voor acties van het type **Export van elektronische rapportage**, **Import van elektronische rapportage** en **Bericht over export van elektronische rapportage**. |
 | Indelingstoewijzing voor URL-pad               | Selecteer de ER-indeling die voor de actie moet worden aangeroepen. Deze indeling wordt gebruikt voor het samenstellen van het pad van het URL-adres dat wordt toegevoegd aan het basisinternetadres dat is opgegeven voor de geselecteerde webserver. Dit veld is alleen beschikbaar voor acties van het type **Webservice**. |
 | Type berichtitem                         | Selecteer het recordtype waarvoor de actie moet worden beoordeeld. Dit veld is beschikbaar voor acties van het type **Uitvoeringsniveau berichtitem**, **Export van elektronische rapportage**, **Import van elektronische rapportage** en **Webservice** en andere typen. Als u dit veld leeg laat, worden alle gedefinieerde berichtitemtypen voor de berichtverwerking beoordeeld. |

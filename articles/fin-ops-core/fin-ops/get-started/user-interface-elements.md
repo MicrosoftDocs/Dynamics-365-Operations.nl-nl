@@ -1,6 +1,6 @@
 ---
 title: Gebruikersinterface-elementen
-description: In dit onderwerp worden de elementen van de gebruikersinterface (UI) in de app beschreven.
+description: In dit artikel worden de elementen van de gebruikersinterface (UI) in de app beschreven.
 author: tlefor
 ms.date: 08/09/2019
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 60e85841ec940ed65d73dc052848168be70301d6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 60f5abfe009b45adc5ae5f064f1b5c367f2844f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069318"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906495"
 ---
 # <a name="user-interface-elements"></a>Gebruikersinterface-elementen
 
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-In dit onderwerp worden de elementen van de gebruikersinterface (UI) beschreven die worden gebruikt in de app. Voordat gebruikers in de interface kunnen navigeren, is het belangrijk dat u de namen en functies kent van de elementen die de interface vormen.
+In dit artikel worden de elementen van de gebruikersinterface (UI) beschreven die worden gebruikt in de app. Voordat gebruikers in de interface kunnen navigeren, is het belangrijk dat u de namen en functies kent van de elementen die de interface vormen.
 
 ## <a name="overview"></a>Overzicht
 

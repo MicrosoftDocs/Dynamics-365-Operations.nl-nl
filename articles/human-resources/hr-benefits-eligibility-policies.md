@@ -1,6 +1,6 @@
 ---
 title: Beleid voor geschiktheid vergoedingen
-description: Dit onderwerp bevat informatie over het beleid voor geschiktheid voor vergoedingen, waarmee wordt bepaald wie voor specifieke vergoedingen in aanmerking komt.
+description: Dit artikel bevat informatie over het beleid voor geschiktheid voor vergoedingen, waarmee wordt bepaald wie voor specifieke vergoedingen in aanmerking komt.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: e36235e089fef70bc0d33815cd855628836f58db
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f0b373679690715ddbc518e4df79b81dbb000059
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689545"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877769"
 ---
 # <a name="benefit-eligibility-policies"></a>Beleid voor geschiktheid vergoedingen
 
@@ -28,7 +28,7 @@ ms.locfileid: "8689545"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Dit onderwerp bevat informatie over het beleid voor geschiktheid voor vergoedingen, waarmee wordt bepaald wie voor specifieke vergoedingen in aanmerking komt.
+Dit artikel bevat informatie over het beleid voor geschiktheid voor vergoedingen, waarmee wordt bepaald wie voor specifieke vergoedingen in aanmerking komt.
 
 Als u vergoedingen maakt, bepaalt u welke vergoedingen beschikbaar zijn voor welke werknemers. In de volgende tabel worden voorbeelden weergegeven van vergoedingen die u voor specifieke werknemers beschikbaar kunt maken.
 

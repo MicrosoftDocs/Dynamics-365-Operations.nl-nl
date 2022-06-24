@@ -1,6 +1,6 @@
 ---
 title: Adreswijzigingen weergeven en beheren
-description: In dit onderwerp wordt uitgelegd hoe u adreswijzigingen kunt weergeven en beheren in Dynamics 365 Human Resources.
+description: In dit artikel wordt uitgelegd hoe u adreswijzigingen kunt weergeven en beheren in Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 819f22c58da485980c38d35dcc6dda6aebacf423
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 744ab532fcc663f25ce376817779924bbef15432
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695839"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899580"
 ---
 # <a name="view-and-manage-address-changes"></a>Adreswijzigingen weergeven en beheren
 
@@ -27,7 +27,7 @@ ms.locfileid: "8695839"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp wordt beschreven hoe u adreswijzigingen kunt weergeven en beheren op de pagina **Persoonlijke gegevens bewerken** (de pagina die u opent vanuit het werkgebied **Selfservice werknemer**) of de detailpagina **Medewerker** in Dynamics 365 Human Resources.
+In dit artikel wordt beschreven hoe u adreswijzigingen kunt weergeven en beheren op de pagina **Persoonlijke gegevens bewerken** (de pagina die u opent vanuit het werkgebied **Selfservice werknemer**) of de detailpagina **Medewerker** in Dynamics 365 Human Resources.
 
 Veel organisaties willen dat werknemers hun persoonlijke gegevens beheren via een selfservicevoorziening. U kunt toestaan dat gebruikers hun adres bijwerken in het werkgebied **Werknemerselfservice**. U kunt deze wijzigingen vervolgens controleren in het werkgebied **Personeelsbeheer**. Als u deze functie wilt gebruiken, moet u het aantal dagen opgeven dat u wijzigingen wilt weergeven op de pagina **Human Resources-parameters**.
 

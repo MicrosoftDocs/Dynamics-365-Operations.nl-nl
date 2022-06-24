@@ -1,6 +1,6 @@
 ---
 title: De indirecte wisselkoers opgeven
-description: Dit onderwerp biedt informatie over indirecte wisselkoersen in Microsoft Dynamics 365 Finance.
+description: Dit artikel biedt informatie over indirecte wisselkoersen in Microsoft Dynamics 365 Finance.
 author: abruer
 ms.date: 05/16/2018
 ms.topic: article
@@ -13,25 +13,25 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed1db707cf6aed7c9def76ebbbdef7032b8776b6
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: efb01948af2bcba9ca740e8bd0e12584cf021fce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735285"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889956"
 ---
 # <a name="specify-the-cross-rate"></a>De indirecte wisselkoers opgeven
 
 [!include [banner](../includes/banner.md)]
 
-In dit hoofdstuk wordt het doel van een breed tarief uitgelegd en hoe dit brede tarief ingesteld kan worden bij het doen van een betaling via een factuur. Gebruik een breed tarief als de volgende criteria van toepassing zijn: 
+In dit artikel wordt het doel van een indirecte wisselkoers uitgelegd en hoe deze indirecte wisselkoers ingesteld kan worden bij het doen van een betaling via een factuur. Gebruik een indirecte wisselkoers als de volgende criteria van toepassing zijn: 
 -   U vereffent een betaling met een factuur. 
 -   De valuta´s van de betalingsregel en de factuurregel zijn verschillend. 
 -   Geen van beide valuta´s is de valuta voor de boekhouding. 
 
 De indirecte wisselkoers wordt niet gebruikt voor de omrekening van de betalingstransactievaluta naar de boekhoudvaluta van de betaling. In plaats daarvan worden de valutakoersen uit de wisselkoerstabellen opgehaald om de waarde te berekenen van het bedrag van de betalingstransactievaluta en het bedrag van de boekhoudvaluta. 
 
-De boekhoudvaluta is bijvoorbeeld USD, de factuurvaluta is CAD en de betalingsvaluta is EUR. Met een breed tarief kunt u een wisselkoers invoeren die rechtstreeks tussen CAD en EUR vertaalt, waardoor er niet door USD vertaald hoeft te worden. Wanneer u een factuur en een primaire betaling selecteert, kunt u een indirecte wisselkoers invoeren voor de factuurregel. De indirecte wisselkoers is de wisselkoers tussen de valuta's voor de desbetreffende transacties, die geldt op de vereffeningsdatum.
+De boekhoudvaluta is bijvoorbeeld USD, de factuurvaluta is CAD en de betalingsvaluta is EUR. Met een indirecte wisselkoers kunt u een wisselkoers invoeren die rechtstreeks tussen CAD en EUR vertaalt, waardoor er niet door USD vertaald hoeft te worden. Wanneer u een factuur en een primaire betaling selecteert, kunt u een indirecte wisselkoers invoeren voor de factuurregel. De indirecte wisselkoers is de wisselkoers tussen de valuta's voor de desbetreffende transacties, die geldt op de vereffeningsdatum.
 
 1.  Ga naar een van de volgende pagina's:
 - **Klanten > Algemeen > Klanten > Alle klanten** 

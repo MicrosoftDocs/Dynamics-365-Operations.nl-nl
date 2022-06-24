@@ -1,6 +1,6 @@
 ---
 title: Auditfile (XML Auditfile Financieel, XAF)
-description: In dit onderwerp wordt uitgelegd hoe u de auditfile voor rechtspersonen in Nederland kunt instellen en genereren.
+description: In dit artikel wordt uitgelegd hoe u de auditfile voor rechtspersonen in Nederland kunt instellen en genereren.
 author: liza-golub
 ms.date: 05/06/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Netherlands
 ms.author: elgolu
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3eb834350545846bd411a46a1cacdecc78c80c2b1d774d5914e7499c99a294be
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf0750c638d18bb01794c6a73b1fe2ed0f489fa6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766270"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909990"
 ---
 # <a name="audit-file-xml-auditfile-financieel-xaf"></a>Auditfile (XML Auditfile Financieel, XAF)
 
@@ -26,7 +26,7 @@ ms.locfileid: "6766270"
 
 Deze functionaliteit is beschikbaar voor rechtspersonen waarvan het primaire adres in Nederland is.
 
-In dit onderwerp wordt uitgelegd hoe u ER-configuraties voor de auditfile importeert en vervolgens de auditfile voor rechtspersonen in Nederland genereert.
+In dit artikel wordt uitgelegd hoe u ER-configuraties voor de auditfile importeert en vervolgens de auditfile voor rechtspersonen in Nederland genereert.
 
 ## <a name="import-and-set-up-er-configurations"></a>ER-configuraties importeren en instellen
 

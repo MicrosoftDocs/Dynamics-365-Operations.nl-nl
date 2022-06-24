@@ -1,6 +1,6 @@
 ---
 title: Vereffeningsoverzicht
-description: Dit onderwerp biedt algemene informatie over het vereffeningsproces. Het beschrijft welke transactietypen kunnen worden vereffend en de timing en het proces om deze te vereffenen. Ook worden de resultaten van het vereffeningsproces beschreven.
+description: Dit artikel geeft algemene informatie over het vereffeningsproces. Het beschrijft welke transactietypen kunnen worden vereffend en de timing en het proces om deze te vereffenen. Ook worden de resultaten van het vereffeningsproces beschreven.
 author: panolte
 ms.date: 07/30/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e1992019570129461f3ecdd5479a87bafd8aeacb
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: a495a71a95032a0022cbab2783f356db48ee349d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724892"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887943"
 ---
 # <a name="settlement-overview"></a>Vereffeningsoverzicht
 
@@ -30,7 +30,7 @@ ms.locfileid: "8724892"
 [!include [preview banner](../includes/preview-banner.md)]
 
 
-Dit onderwerp biedt algemene informatie over het vereffeningsproces. Het beschrijft welke transactietypen kunnen worden vereffend en de timing en het proces om deze te vereffenen. Ook worden de resultaten van het vereffeningsproces beschreven.
+Dit artikel geeft algemene informatie over het vereffeningsproces. Het beschrijft welke transactietypen kunnen worden vereffend en de timing en het proces om deze te vereffenen. Ook worden de resultaten van het vereffeningsproces beschreven.
 
 Tijdens vereffening worden de transacties op één document toegepast op de transacties voor een ander document om het saldo van elk document te verhogen of te verlagen. Bijvoorbeeld, een betaling kan worden toegepast voor een factuur. Diverse transactietypen kunnen op verschillende tijden en door verschillende methoden worden vereffend. Het vereffeningsproces kan ook nieuwe transacties genereren.
 

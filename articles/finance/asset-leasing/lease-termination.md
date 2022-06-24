@@ -1,6 +1,6 @@
 ---
 title: Voorstel voor leasebeëindiging
-description: In dit onderwerp wordt uitgelegd hoe u een voorstel voor beëindiging van een lease opstelt.
+description: In dit artikel wordt uitgelegd hoe u een voorstel voor beëindiging van een lease opstelt.
 author: moaamer
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2f6990177251418bece8c99a0f9befa333d6549f
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: a5939f165943ff76ba453fb49d8c0c376c8ce4b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720497"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879648"
 ---
 # <a name="propose-a-lease-for-termination"></a>Een lease voordragen voor beëindiging
 
 [!include [banner](../includes/banner.md)]
 
-Als een lease voortijdig wordt beëindigd, kan bij Activa leasen een journaalboeking voor beëindiging worden gemaakt, zodat de leaseverplichtingen, het activum met gebruiksrecht (RoU-activum) en de geaccumuleerde afschrijving worden afgeschreven en de winst of het verlies wordt geboekt. Met het proces voor voortijdige beëindiging worden een lease en de bijbehorende leaseboeken beëindigd. Hiermee worden geen individuele leaseboeken beëindigd. In dit onderwerp wordt de functionaliteit beschreven waarmee u een lease kunt voordragen voor beëindiging en de vermelding in het lease-beëindigingsjournaal kunt verwerken.
+Als een lease voortijdig wordt beëindigd, kan bij Activa leasen een journaalboeking voor beëindiging worden gemaakt, zodat de leaseverplichtingen, het activum met gebruiksrecht (RoU-activum) en de geaccumuleerde afschrijving worden afgeschreven en de winst of het verlies wordt geboekt. Met het proces voor voortijdige beëindiging worden een lease en de bijbehorende leaseboeken beëindigd. Hiermee worden geen individuele leaseboeken beëindigd. In dit artikel wordt de functionaliteit beschreven waarmee u een lease kunt voordragen voor beëindiging en de vermelding in het lease-beëindigingsjournaal kunt verwerken.
 
 Als een lease niet is geclassificeerd als een lease voor uitgestelde gebruiksvergoeding en niet is gekoppeld aan een vast activum, wordt de volgende journaalinvoer geproduceerd.
 
@@ -121,7 +121,7 @@ In de volgende tabellen ziet u de waarden die zijn ingesteld op de tabbladen **A
 
 ### <a name="steps-for-terminating-the-lease"></a>Stappen voor het beëindigen van de lease
 
-1. Nadat u de lease hebt gemaakt zoals eerder in dit onderwerp is beschreven, gaat u naar het leaseboek en bevestigt u het betalingsschema. Boek vervolgens de eerste journaalpost voor toerekening. Het initiële RoU-activum is $71,235.81 en de leaseverplichtingen moeten $70.235,81 zijn. Voor dit voorbeeld is de lease geclassificeerd als operationele lease onder Accounting Standards Codification Topic 842 (ASC 842).
+1. Nadat u de lease hebt gemaakt zoals eerder in dit artikel is beschreven, gaat u naar het leaseboek en bevestigt u het betalingsschema. Boek vervolgens de eerste journaalpost voor toerekening. Het initiële RoU-activum is $71,235.81 en de leaseverplichtingen moeten $70.235,81 zijn. Voor dit voorbeeld is de lease geclassificeerd als operationele lease onder Accounting Standards Codification Topic 842 (ASC 842).
 2. Voer het batchjournaalproces drie keer uit om de doorloop van drie jaar te simuleren voor de leasebetalingen, rentelasten en afschrijvingskosten.
 3. Nadat u alle drie de batchtaken hebt uitgevoerd, gaat u terug naar het leaseboek en opent u de tabellen Verplichtingen en Activumtransacties om de huidige boekwaarde van het RoU-activum en leaseverplichtingen weer te geven. Na drie jaar moet de waarde van de verplichtingen ongeveer € -53.893,00 zijn en de waarde van het activum ongeveer $ 54.593,00.
 

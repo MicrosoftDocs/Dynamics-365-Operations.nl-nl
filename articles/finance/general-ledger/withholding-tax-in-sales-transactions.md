@@ -1,6 +1,6 @@
 ---
 title: Bronbelasting in verkooptransacties
-description: Dit onderwerp bevat de stappen voor het voorkomen van de berekening van bronbelasting voor geselecteerde klanten. Voor klanten die bronbelasting opgeven in hun betalingen aan u, kunt u de standaard bronbelastinggroep toewijzen.
+description: Dit artikel bevat de stappen voor het voorkomen van de berekening van bronbelasting voor geselecteerde klanten. Voor klanten die bronbelasting opgeven in hun betalingen aan u, kunt u de standaard bronbelastinggroep toewijzen.
 author: kailiang
 ms.date: 01/12/2021
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 72d659004a1f61b63d6a782ba6b45bb99030bae9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 75a7fc62c1d493007f3aa88a723465828c557df7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727421"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910079"
 ---
 # <a name="withholding-tax-in-sales-transactions"></a>Bronbelasting in verkooptransacties
 
-Dit onderwerp bevat de stappen voor het voorkomen van de berekening van bronbelasting voor geselecteerde klanten. Voor klanten die bronbelasting opgeven in hun betalingen aan u, kunt u de standaard **bronbelastinggroep** toewijzen op de pagina **Klanten**. 
+Dit artikel bevat de stappen voor het voorkomen van de berekening van bronbelasting voor geselecteerde klanten. Voor klanten die bronbelasting opgeven in hun betalingen aan u, kunt u de standaard **bronbelastinggroep** toewijzen op de pagina **Klanten**. 
 
 1. Ga in het navigatiedeelvenster naar **Modules > Klanten > Klanten > Alle klanten**.
 

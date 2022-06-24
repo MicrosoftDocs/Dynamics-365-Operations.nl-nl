@@ -1,6 +1,6 @@
 ---
 title: Formuleontwerper in elektronische rapportage (ER)
-description: Dit onderwerp biedt algemene informatie over het gebruik van de formuleontwerper in ER (Elektronische rapportage).
+description: Dit artikel biedt algemene informatie over het gebruik van de formuleontwerper in ER (Elektronische rapportage).
 author: NickSelin
 ms.date: 04/08/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 606532411aa8297654d8d20a9061472597e773da
-ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
+ms.openlocfilehash: 6b03613cb40c5ca718f45e69740d29059fcfb70b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782199"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894290"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formuleontwerper in elektronische rapportage (ER)
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe de formuleontwerper in elektronische rapportage (ER) wordt gebruikt. Wanneer u een indeling voor een specifiek elektronisch document in ER ontwerpt, kunt u formules gebruiken om gegevens te transformeren om te voldoen aan de vereisten voor de afhandeling en opmaak van het document. Deze formules lijken op formules in Microsoft Excel. Er worden diverse typen functies ondersteund in de formules: tekst, datum en tijd, wiskundig, logisch, informatie, gegevenstypeconversie en andere functies (specifiek voor het zakelijke domein).
+In dit artikel wordt beschreven hoe de formuleontwerper in elektronische rapportage (ER) wordt gebruikt. Wanneer u een indeling voor een specifiek elektronisch document in ER ontwerpt, kunt u formules gebruiken om gegevens te transformeren om te voldoen aan de vereisten voor de afhandeling en opmaak van het document. Deze formules lijken op formules in Microsoft Excel. Er worden diverse typen functies ondersteund in de formules: tekst, datum en tijd, wiskundig, logisch, informatie, gegevenstypeconversie en andere functies (specifiek voor het zakelijke domein).
 
 ## <a name="formula-designer-overview"></a>Overzicht van formuleontwerper
 

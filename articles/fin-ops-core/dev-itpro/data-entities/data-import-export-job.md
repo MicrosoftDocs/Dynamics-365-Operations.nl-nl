@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74430aadc661a49e330960135ce7b0912079f79b
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 1407c6def22b9759723e49fb2fa6d4d68f180891
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644454"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860159"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Overzicht van Gegevensimport- en exporttaken
 
@@ -29,7 +29,7 @@ ms.locfileid: "8644454"
 Gebruik de werkruimte **Gegevensbeheer** om taken voor het importeren en exporteren van gegevens te maken en te beheren. Standaard wordt met het proces voor gegevensimport en -export een faseringstabel gemaakt voor elke entiteit in de doeldatabase. Met faseringstabellen kunt u gegevens verifiëren, opschonen of converteren voordat u deze verplaatst.
 
 > [!NOTE]
-> Dit onderwerp gaat ervanuit dat u vertrouwd bent met [gegevensentiteiten](data-entities.md).
+> Dit artikel gaat ervanuit dat u vertrouwd bent met [gegevensentiteiten](data-entities.md).
 
 ## <a name="data-importexport-process"></a>Proces voor importeren/exporteren van gegevens
 Hier vindt u de stappen die u moet uitvoeren om gegevens te importeren of te exporteren.
@@ -48,7 +48,7 @@ Hier vindt u de stappen die u moet uitvoeren om gegevens te importeren of te exp
 5. Controleer aan de hand van de taakhistorie of de taak naar verwachting is uitgevoerd.
 6. Schoon de faseringstabellen op.
 
-In de overige secties van dit onderwerp vindt u meer informatie over elke stap van het proces.
+In de overige secties van dit artikel vindt u meer informatie over elke stap van het proces.
 
 > [!NOTE]
 > Gebruik het pictogram voor het vernieuwen van formulieren om het formulier voor gegevensimport/-export te vernieuwen en de meest recente voortgang te bekijken. Vernieuwen op browserniveau wordt niet aanbevolen omdat hiermee import-/exporttaken worden onderbroken die niet in een batch worden uitgevoerd.

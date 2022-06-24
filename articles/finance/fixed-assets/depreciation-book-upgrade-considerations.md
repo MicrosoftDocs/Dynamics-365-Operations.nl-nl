@@ -1,6 +1,6 @@
 ---
 title: Overzicht van upgrade van afschrijvingsboeken
-description: In dit onderwerp wordt de huidige boekfunctionaliteit in vaste activa beschreven. Deze nieuwe functionaliteit is gebaseerd de functionaliteit voor waardemodellen, die beschikbaar was in eerdere versies, maar omvat ook alle functionaliteit die voorheen alleen in afschrijvingsboeken beschikbaar was.
+description: In dit artikel wordt de huidige boekfunctionaliteit in vaste activa beschreven. Deze nieuwe functionaliteit is gebaseerd de functionaliteit voor waardemodellen, die beschikbaar was in eerdere versies, maar omvat ook alle functionaliteit die voorheen alleen in afschrijvingsboeken beschikbaar was.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: overview
@@ -16,18 +16,18 @@ ms.search.region: global
 ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b43c499928988e98cae63b85f528b8a71e042cc7
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 784ec32ae886ef7ea9342b085f893eeeec761961
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713637"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855486"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Overzicht van upgrade van afschrijvingsboeken
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt de huidige boekfunctionaliteit in vaste activa beschreven. Deze nieuwe functionaliteit is gebaseerd de functionaliteit voor waardemodellen, die beschikbaar was in eerdere versies, maar omvat ook alle functionaliteit die voorheen alleen in afschrijvingsboeken beschikbaar was. De functionaliteit voor waardemodellen en afschrijvingsboeken zijn samengevoegd tot één concept dat bekend is als een boek. Met de boekfunctionaliteit kunt u één set pagina's, vragen en rapporten gebruiken voor alle vaste-activaprocessen van uw organisatie. In dit onderwerp komen aan paar onderwerpen aan de orde waar u rekening mee moet houden voordat u de upgrade uitvoert. 
+In dit artikel wordt de huidige boekfunctionaliteit in vaste activa beschreven. Deze nieuwe functionaliteit is gebaseerd de functionaliteit voor waardemodellen, die beschikbaar was in eerdere versies, maar omvat ook alle functionaliteit die voorheen alleen in afschrijvingsboeken beschikbaar was. De functionaliteit voor waardemodellen en afschrijvingsboeken zijn samengevoegd tot één concept dat bekend is als een boek. Met de boekfunctionaliteit kunt u één set pagina's, vragen en rapporten gebruiken voor alle vaste-activaprocessen van uw organisatie. In dit artikel komen aan paar onderwerpen aan de orde waar u rekening mee moet houden voordat u de upgrade uitvoert. 
 
 Met het upgradeproces verplaatst u uw bestaande instellingen en alle bestaande transacties naar de nieuwe boekstructuur. De waardemodellen worden in de huidige vorm behouden, in de vorm van een boek dat boekt naar het grootboek. Afschrijvingsboeken worden naar een boek verplaatst waarvoor de optie Boeken naar grootboek is ingesteld op Nee. De journaalnamen van afschrijvingsboeken worden verplaatst naar een grootboekjournaalnaam, waarbij de boekingslaag is ingesteld op Geen. Afschrijvingsboektransacties worden verplaatst naar Vaste-activatransacties.
 

@@ -1,6 +1,6 @@
 ---
 title: Uw lokale rekeningschema plannen
-description: Dit onderwerp bevat informatie die u helpt om het rekeningschema te plannen wanneer u vereisten hebt voor wettelijke/lokale vereisten voor uw organisatie.
+description: Dit artikel bevat informatie die u helpt om het rekeningschema te plannen wanneer u vereisten hebt voor wettelijke/lokale vereisten voor uw organisatie.
 author: VeselinaE
 ms.date: 10/07/2021
 ms.topic: article
@@ -10,7 +10,7 @@ ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts, Ledge
 ROBOTS: ''
 audience: Application User
 ms.devlang: ''
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.tgt_pltfrm: ''
 ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: veneva
 ms.search.validFrom: 10/07/2021
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e224a2e24b4ba293c953c6c883307038128e2f04
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: 78379fd51cf24985fce83e2b6aa9a475af7df363
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798291"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946240"
 ---
 # <a name="plan-your-local-chart-of-accounts"></a>Uw lokale rekeningschema plannen
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp biedt informatie die u helpt om het rekeningschema te plannen wanneer uw organisatie rechtspersonen omvat die moeten voldoen aan vereisten voor specifieke locaties waar ze zaken doen. In dit onderwerp worden de volgende termen gebruikt om rekeningschema's te beschrijven:
+Dit artikel biedt informatie die u helpt om het rekeningschema te plannen wanneer uw organisatie rechtspersonen omvat die moeten voldoen aan vereisten voor specifieke locaties waar ze zaken doen. In dit artikel worden de volgende termen gebruikt om rekeningschema's te beschrijven:
 
 - **Globaal**: het rekeningschema dat de organisatie globaal gebruikt. In de meeste gevallen consolideert u naar dit rekeningschema.
 - **Lokaal**: een rekeningschema dat door rechtspersonen in een bepaald land of een bepaalde regio wordt gebruikt.
@@ -154,7 +154,7 @@ Bij deze benadering wordt een financiële dimensie gebruikt waarbij de waarden v
 
 ### <a name="do-external-mapping-to-the-local-chart-of-accounts"></a>Externe toewijzing uitvoeren aan het lokale rekeningschema
 
-Bij ingebruikname van een globaal rekeningschema wordt aangenomen dat u de toewijzing en lokalisaties buiten het systeem beheert. Bij deze benadering maakt u slechts één globaal rekeningschema in Microsoft Dynamics 365 Finance en verwerkt u de vereisten buiten het systeem.
+Bij ingebruikname van een globaal rekeningschema wordt aangenomen dat u de toewijzing en lokalisaties buiten het systeem beheert. Bij deze benadering maakt u slechts één globaal rekeningschema in Microsoft Microsoft Dynamics 365 Finance en verwerkt u de vereisten buiten het systeem.
 
 #### <a name="set-up-external-mapping-to-a-local-chart-of-accounts"></a>Externe toewijzing instellen aan een lokaal rekeningschema
 

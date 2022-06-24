@@ -1,6 +1,6 @@
 ---
 title: De prestaties van ER-oplossingen verbeteren door BEREKEND VELD-gegevensbronnen met parameters toe te voegen
-description: In dit onderwerp wordt uitgelegd hoe u de prestaties van ER-oplossingen (elektronische rapportage) kunt verbeteren door BEREKEND VELD-gegevensbronnen met parameters toe te voegen.
+description: In dit artikel wordt uitgelegd hoe u de prestaties van ER-oplossingen (elektronische rapportage) kunt verbeteren door BEREKEND VELD-gegevensbronnen met parameters toe te voegen.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -14,32 +14,32 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5fada2fc0b35e22da18f5d6a0505df077d5ada4e0221031d63c316d8c705bc79
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c2c0499ac3d41c9bb6026cc05f971087799c28f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753665"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850109"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>De prestaties van ER-oplossingen verbeteren door BEREKEND VELD-gegevensbronnen met parameters toe te voegen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u [prestatietraceringen](trace-execution-er-troubleshoot-perf.md) van uitgevoerde [ER-indelingen (elektronische rapportage)](general-electronic-reporting.md) kunt gebruiken om de prestaties te verbeteren door een gegevensbron **Berekend veld** met parameters te configureren.
+In dit artikel wordt beschreven hoe u [prestatietraceringen](trace-execution-er-troubleshoot-perf.md) van uitgevoerde [ER-indelingen (elektronische rapportage)](general-electronic-reporting.md) kunt gebruiken om de prestaties te verbeteren door een gegevensbron **Berekend veld** met parameters te configureren.
 
 Als onderdeel van het proces van het ontwerpen van ER-configuraties om elektronische documenten te genereren, definieert u de methode die wordt gebruikt om gegevens uit de toepassing te halen en deze in te voeren in de gegenereerde uitvoer. Door een ER-gegevensbron van het type **Berekend veld** met parameters te ontwerpen, kunt u het aantal databaseaanroepen verminderen en de tijd en kosten van het verzamelen van de details van het uitvoeren van de ER-indeling aanzienlijk beperken.
 
 ## <a name="prerequisites"></a>Vereisten
 
-- Als u de voorbeelden in dit onderwerp wilt voltooien, moet u toegang hebben tot een van de volgende [rollen](../sysadmin/tasks/assign-users-security-roles.md):
+- Als u de voorbeelden in dit artikel wilt voltooien, moet u toegang hebben tot een van de volgende [rollen](../sysadmin/tasks/assign-users-security-roles.md):
 
     - Ontwikkelaar elektronische rapportage
     - Functioneel consultant elektronische rapportage
     - Systeembeheerder
 
 - Het bedrijf moet worden ingesteld op **DEMF**.
-- Volg de stappen in [bijlage 1](#appendix1) van dit onderwerp om de onderdelen van de Microsoft ER-voorbeeldoplossing te downloaden die vereist zijn om de voorbeelden in dit onderwerp te voltooien.
-- Volg de stappen in [bijlage 2](#appendix2) van dit onderwerp om de minimale set ER-parameters te configureren die nodig is om het ER-framework te gebruiken om de prestaties van de Microsoft ER-voorbeeldoplossing te verbeteren.
+- Volg de stappen in [bijlage 1](#appendix1) van dit artikel om de onderdelen van de Microsoft ER-voorbeeldoplossing te downloaden die vereist zijn om de voorbeelden in dit artikel te voltooien.
+- Volg de stappen in [bijlage 2](#appendix2) van dit artikel om de minimale set ER-parameters te configureren die nodig is om het ER-framework te gebruiken om de prestaties van de Microsoft ER-voorbeeldoplossing te verbeteren.
 
 ## <a name="import-the-sample-er-solution"></a>De ER-voorbeeldoplossing importeren
 
@@ -48,7 +48,7 @@ Stel dat u een ER-oplossing moet ontwerpen om een nieuw rapport te genereren waa
 De eerste stap is om de ER-voorbeeldoplossing te importeren om een leverancierstransactierapport te genereren.
 
 1. Meld u aan bij het exemplaar van Microsoft Dynamics 365 Finance dat wordt ingericht voor uw bedrijf.
-2. In dit onderwerp maakt en wijzigt u configuraties voor het voorbeeldbedrijf **Litware, Inc.** Zorg ervoor dat deze configuratieprovider is toegevoegd aan uw exemplaar van Finance en als actief is gemarkeerd. Zie [Configuratieproviders maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md) voor meer informatie.
+2. In dit artikel maakt en wijzigt u configuraties voor het voorbeeldbedrijf **Litware, Inc.**. Zorg ervoor dat deze configuratieprovider is toegevoegd aan uw exemplaar van Finance en als actief is gemarkeerd. Zie [Configuratieproviders maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md) voor meer informatie.
 3. Selecteer in het werkgebied **Elektronische rapportage** de tegel **Rapportconfiguraties**.
 4. Importeer op de pagina **Configuraties** de ER-configuraties die u als vereiste hebt gedownload in Finance, in de volgende volgorde: gegevensmodel, modeltoewijzing, indeling. Volg deze stappen voor elke configuratie:
 
@@ -220,7 +220,7 @@ Volg deze stappen om caching en een gegevensbron van het type **Berekend veld** 
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>De gewijzigde ER-oplossing uitvoeren om de uitvoering te traceren
 
-Herhaal de stappen uit het gedeelte [De ER-indeling uitvoeren](#run-format) eerder in dit onderwerp om een nieuwe prestatietracering te genereren.
+Herhaal de stappen uit het gedeelte [De ER-indeling uitvoeren](#run-format) eerder in dit artikel om een nieuwe prestatietracering te genereren.
 
 ## <a name="use-the-performance-trace-to-analyze-adjustments-to-the-model-mapping"></a>De prestatietracering gebruiken om aanpassingen in de modeltoewijzing te analyseren 
 

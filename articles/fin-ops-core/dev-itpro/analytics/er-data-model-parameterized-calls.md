@@ -1,6 +1,6 @@
 ---
 title: Parameteraanroepen van ER-gegevensmodellen ondersteunen
-description: In dit onderwerp wordt uitgelegd hoe u parameteraanroepen van ER-gegevensmodellen voor Elektronische rapportage kunt implementeren.
+description: In dit artikel wordt uitgelegd hoe u parameteraanroepen van ER-gegevensmodellen voor Elektronische rapportage kunt implementeren.
 author: NickSelin
 ms.date: 03/14/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 968b0769607e9fdbed57c25b727ed44988a92913
-ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
+ms.openlocfilehash: 65ac81e9aa25b286640fd526e71b55de3b0695ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419467"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884252"
 ---
 # <a name="support-parameterized-calls-of-er-data-models"></a>Parameteraanroepen van ER-gegevensmodellen ondersteunen
 
@@ -160,7 +160,7 @@ U kunt elke parameter van een gegevensmodelveld opgeven waarvoor het argument ka
 > [!NOTE]
 > De standaardwaarde voor de parameter van een gegevensmodelveld wordt niet ondersteund. Als u een parameter toevoegt aan een veld in een gegevensmodel en de versie van dat gegevensmodel is al vrijgegeven en gepubliceerd, moet u alle bijbehorende modeltoewijzingen en -indelingen [rebasen](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase) voor de nieuwe versie van dit model, omdat dit gegevensmodel niet achterwaarts compatibel is.
 
-U kunt velden van geparametreerde gegevensmodellen configureren om de indeling van modeltoewijzingsaanroepen specifiek te maken. Door deze benadering kunt u het aantal modeltoewijzingen verminderen dat moet worden geconfigureerd voor een groot aantal indelingen van één gegevensmodel. U kunt deze methode ook gebruiken om de uitvoeringsprestaties van uw indelingen te verbeteren en de tijd te beperken die nodig is om bedrijfsdocumenten te genereren. Voor meer informatie over deze functie kunt u het voorbeeld in dit onderwerp uitvoeren.
+U kunt velden van geparametreerde gegevensmodellen configureren om de indeling van modeltoewijzingsaanroepen specifiek te maken. Door deze benadering kunt u het aantal modeltoewijzingen verminderen dat moet worden geconfigureerd voor een groot aantal indelingen van één gegevensmodel. U kunt deze methode ook gebruiken om de uitvoeringsprestaties van uw indelingen te verbeteren en de tijd te beperken die nodig is om bedrijfsdocumenten te genereren. Voor meer informatie over deze functie kunt u het voorbeeld in dit artikel uitvoeren.
 
 ## <a name="example-use-parameterized-calls-of-er-data-models"></a>Voorbeeld: Parameteraanroepen van ER-gegevensmodellen gebruiken
 

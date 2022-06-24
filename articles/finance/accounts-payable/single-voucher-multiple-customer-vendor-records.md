@@ -1,6 +1,6 @@
 ---
 title: Enkel boekstuk met meerdere klant- of leveranciersrecords
-description: Dit onderwerp geeft een overzicht van wat er gebeurt wanneer u één enkel boekstuk boekt met meerdere klant- of leverancierrecords. Deze functionaliteit gaat verdwijnen in toekomstige versies van Microsoft Dynamics 365 Finance. Het wordt daarom afgeraden om deze boekingsmethode te gebruiken, vanwege het boekhoudingseffect op de verwerking van vereffeningen.
+description: Dit artikel geeft een overzicht van wat er gebeurt wanneer u één enkel boekstuk boekt met meerdere klant- of leverancierrecords. Deze functionaliteit gaat verdwijnen in toekomstige versies van Microsoft Dynamics 365 Finance. Het wordt daarom afgeraden om deze boekingsmethode te gebruiken, vanwege het boekhoudingseffect op de verwerking van vereffeningen.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8677eba2c38c6273555e1189c0153272a8ff9e005655f3846c0d7605b872ff94
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb94d582020484d8f37eb139c037fb108894c9ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737036"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889086"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Enkel boekstuk met meerdere klant- of leveranciersrecords
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp geeft een overzicht van wat er gebeurt wanneer u één enkel boekstuk boekt met meerdere klant- of leverancierrecords. Deze functionaliteit gaat verdwijnen in toekomstige versies. Het wordt daarom afgeraden om deze boekingsmethode te gebruiken, vanwege het boekhoudingseffect op de verwerking van vereffeningen. 
+Dit artikel geeft een overzicht van wat er gebeurt wanneer u één enkel boekstuk boekt met meerdere klant- of leverancierrecords. Deze functionaliteit gaat verdwijnen in toekomstige versies. Het wordt daarom afgeraden om deze boekingsmethode te gebruiken, vanwege het boekhoudingseffect op de verwerking van vereffeningen. 
 
 Enkele veelvoorkomende gevallen waarin een enkel boekstuk wordt gebruikt voor meerdere klanten of leveranciers zijn saldo-overboekingen tussen klanten en verrekening van saldi tussen klanten en leveranciers binnen dezelfde organisatie. 
 
@@ -35,7 +35,7 @@ Een boekstuk met meer dan één klant of leverancier kan worden ingevoerd met ee
 -   Met een meerregelig boekstuk, waarbij geen tegenrekening in het grootboek bestaat, met meer dan één klant of leverancier.
 -   Door een boekstuk in te voeren waarvan de rekening en de tegenrekening leverancier/leverancier, klant/klant, leverancier/klant, leverancier/klant zijn.
 
-In dit onderwerp wordt getoond hoe de vereffening wordt verwerkt wanneer een boekstuk met meerdere klant- of leverancierrecords wordt geboekt. Daarnaast reikt dit onderwerp workarounds aan die u helpen te begrijpen hoe u het gebruik van één boekstuk met meerdere klanten of leveranciers kunt vermijden. In het bijzonder zijn er voorbeelden die twee veel voorkomende vereffeningscenario's illustreren, die last hebben van het gebruik van een boekstuk met meerdere klanten of leveranciers:
+In dit artikel wordt getoond hoe de vereffening wordt verwerkt wanneer een boekstuk met meerdere klant- of leverancierrecords wordt geboekt. Daarnaast reikt dit artikel workarounds aan die u helpen te begrijpen hoe u het gebruik van één boekstuk met meerdere klanten of leveranciers kunt vermijden. In het bijzonder zijn er voorbeelden die twee veel voorkomende vereffeningscenario's illustreren, die last hebben van het gebruik van een boekstuk met meerdere klanten of leveranciers:
 
 -   Boekhouding met contantkortingen
 -   Boekhouden met herwaarderingen

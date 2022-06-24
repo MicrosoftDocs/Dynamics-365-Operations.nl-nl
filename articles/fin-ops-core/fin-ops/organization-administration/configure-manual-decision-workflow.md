@@ -1,6 +1,6 @@
 ---
 title: Handmatige beslissingen configureren in een workflow
-description: In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een handmatige beslissing configureert.
+description: In dit artikel wordt uitgelegd hoe u de verschillende eigenschappen van een handmatige beslissing configureert.
 author: ChrisGarty
 ms.date: 06/15/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d54c010c8fe0d8ca6cc8129948392fb56ef85283
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: c143da04c5398190f1f5e4d2ec9eb07c6421459f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065650"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910282"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>Handmatige beslissingen configureren in een workflow
 
@@ -28,7 +28,7 @@ ms.locfileid: "8065650"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een handmatige beslissing configureert.
+In dit artikel wordt uitgelegd hoe u de verschillende eigenschappen van een handmatige beslissing configureert.
 
 Om een handmatige beslissing te configureren, klikt u in de workfloweditor met de rechtermuisknop op de handmatige beslissing en klikt u vervolgens op **Eigenschappen** om de pagina **Eigenschappen** te openen. Vervolgens kunt u met de volgende procedures de eigenschappen van de handmatige beslissing configureren.
 

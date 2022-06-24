@@ -1,6 +1,6 @@
 ---
 title: Leaserapporten voor activa
-description: In dit onderwerp vindt u een beknopt overzicht van de rapporten die beschikbaar zijn voor de leasing van activa.
+description: In dit artikel vindt u een beknopt overzicht van de rapporten die beschikbaar zijn voor de leasing van activa.
 author: moaamer
 ms.date: 04/05/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cb1c994fee6efff82dd1cba1e71c6af49b384208
-ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
+ms.openlocfilehash: a6e6eb851b9b2dce7259a5355326dd594a940b8c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8550034"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856707"
 ---
 # <a name="asset-leasing-reports"></a>Leaserapporten voor activa
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp vindt u een beknopt overzicht van de rapporten die beschikbaar zijn voor de leasing van activa. De meeste rapporten worden weergegeven door het voltooien van deze stappen of stappen die hiermee vergelijkbaar zijn. 
+In dit artikel vindt u een beknopt overzicht van de rapporten die beschikbaar zijn voor de leasing van activa. De meeste rapporten worden weergegeven door het voltooien van deze stappen of stappen die hiermee vergelijkbaar zijn. 
 
 - Als u leaserapporten voor activa wilt weergeven, gaat u naar **Activa leasen > Query's en rapporten > Leaserapporten** en selecteert u een rapport dat u wilt weergeven. Voor de rapporten waarvoor een ander pad is vereist, worden de stappen voor het openen van het rapport opgenomen in de beschrijving van dat rapport. 
 - Wanneer u een rapport selecteert om af te drukken, wordt er een pagina met parameters geopend waarmee u de informatie die in het rapport is opgenomen, kunt filteren. Voer filtercriteria in en selecteer **OK** om het rapport te genereren. In het gegenereerde rapport worden gegevens weergegeven die binnen de opgegeven filters vallen.

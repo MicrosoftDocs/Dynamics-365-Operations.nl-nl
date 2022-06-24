@@ -1,6 +1,6 @@
 ---
 title: Het grootboek aan het einde van de periode afsluiten
-description: In dit onderwerp worden de taken beschreven die meestal worden uitgevoerd bij het uitvoeren van een periodeafsluiting voor het grootboek.
+description: In dit artikel worden de taken beschreven die meestal worden uitgevoerd bij het uitvoeren van een periodeafsluiting voor het grootboek.
 author: aprilolson
 ms.date: 08/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 359e177e4ac2218c28ddd7c5ac3b71ee69e652e8
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 42a5df1cd1a73462c93012b26f9b9b5c1631f2ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717525"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878036"
 ---
 # <a name="close-the-general-ledger-at-period-end"></a>Het grootboek aan het einde van de periode afsluiten
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de taken beschreven die meestal worden uitgevoerd bij het uitvoeren van een periodeafsluiting voor het grootboek. 
+In dit artikel worden de taken beschreven die meestal worden uitgevoerd bij het uitvoeren van een periodeafsluiting voor het grootboek. 
 
 In het grootboek kunt u afsluitingsprocedures voor een periode of een jaar uitvoeren. Afsluitingsprocessen bereiden het systeem voor op een nieuwe periode. Als u het systeem op een nieuw jaar wilt voorbereiden, moet u het jaarafsluitingsproces uitvoeren. Elke organisatie kent verschillende processen en de stappen die worden uitgevoerd voor het einde van een periode. Hieronder staan enkele optionele stappen voor periodeafsluitingen:
 

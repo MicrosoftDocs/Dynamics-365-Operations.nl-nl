@@ -1,6 +1,6 @@
 ---
 title: Een ER-indeling aanpassen om een aangepast elektronisch document te genereren
-description: In dit onderwerp wordt uitgelegd hoe u een door Microsoft geleverde ER-indeling (Electronic Reporting) kunt aanpassen, zodat een aangepast elektronisch document wordt gegenereerd.
+description: In dit artikel wordt uitgelegd hoe u een door Microsoft geleverde ER-indeling (Electronic Reporting) kunt aanpassen, zodat een aangepast elektronisch document wordt gegenereerd.
 author: NickSelin
 ms.date: 06/22/2020
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 14976aab474b6571c2a25907f04fd4d7ae053e74
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 492964d3cea0e474a50d6d83231f33d9508b9d9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323812"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886786"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Een ER-indeling aanpassen om een aangepast elektronisch document te genereren
 
 [!include[banner](../includes/banner.md)]
 
-In de procedures in dit onderwerp wordt uitgelegd hoe een gebruiker in de rol Systeembeheerder of Functioneel consultant elektronische rapportage deze taken kan uitvoeren:
+In de procedures in dit artikel wordt uitgelegd hoe een gebruiker in de rol Systeembeheerder of Functioneel consultant elektronische rapportage deze taken kan uitvoeren:
 
 - [Parameters voor het ER-raamwerk (elektronische rapportage) configureren](general-electronic-reporting.md).
 - Door Microsoft geleverde ER-configuraties importeren, waarmee een betalingsbestand wordt gegenereerd terwijl een [leveranciers betaling](../../../finance/cash-bank-management/tasks/vendor-payment-overview.md) wordt verwerkt.
@@ -135,7 +135,7 @@ Meer informatie over ER-configuratieproviders vindt u in [Configuratieproviders 
 
 ### <a name="import-the-standard-er-configurations"></a><a id="ImportERFormat1"></a>De standaard-ER-configuraties importeren
 
-Als u de standaard-ER-configuraties wilt toevoegen aan uw huidige exemplaar van Microsoft Dynamics 365 Finance, moet u deze importeren vanuit de ER-[opslagplaats](general-electronic-reporting.md#Repository) die voor dat exemplaar is geconfigureerd.
+Als u de ER-standaardconfiguraties wilt toevoegen aan uw huidige Microsoft Dynamics 365 Finance-exemplaar, moet u deze importeren vanuit de ER-[opslagplaats](general-electronic-reporting.md#Repository) die voor dat exemplaar is geconfigureerd.
 
 1. Ga naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
 2. Selecteer op de pagina **Lokalisatieconfiguraties** in de sectie **Configuratieproviders** de tegel **Microsoft** en selecteer vervolgens **Opslagplaatsen** om de lijst met opslagplaatsen voor de provider Microsoft weer te geven.

@@ -1,6 +1,6 @@
 ---
 title: Een ER-indeling ontwerpen om gegenereerde documenten in Excel te pagineren
-description: In dit onderwerp wordt uitgelegd hoe u een ER-indeling (elektronische rapportage) ontwerpt die een gegenereerd document pagineert in Microsoft Excel.
+description: In dit artikel wordt uitgelegd hoe u een ER-indeling (elektronische rapportage) ontwerpt die een gegenereerd document pagineert in Microsoft Excel.
 author: NickSelin
 ms.date: 09/14/2021
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: Version 10.0.22
-ms.openlocfilehash: ce29225c4bce24adc2abefc3d3d6f20774852af4
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: e8edc8bba62f74b4f81d423cf75b5fb87c01e43f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488334"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909273"
 ---
 # <a name="design-an-er-format-to-paginate-generated-documents-in-excel"></a>Een ER-indeling ontwerpen om gegenereerde documenten in Excel te pagineren
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe een gebruiker in de rol Systeembeheerder of Functioneel consultant een [ER-indeling (Electronic Reporting)](general-electronic-reporting.md) kan configureren om uitgaande documenten te genereren in Microsoft Excel en paginering van documenten te beheren.
+In dit artikel wordt uitgelegd hoe een gebruiker in de rol Systeembeheerder of Functioneel consultant een [ER-indeling (Electronic Reporting)](general-electronic-reporting.md) kan configureren om uitgaande documenten te genereren in Microsoft Excel en paginering van documenten te beheren.
 
 In dit voorbeeld wijzigt u de door Microsoft geleverde ER-indeling die wordt gebruikt om het controlerapport af te drukken wanneer de Intrastat-aangifte wordt [gegenereerd](../../../finance/localizations/tasks/eur-00002-eu-intrastat-declaration.md). Met dit rapport kunt u gerapporteerde Intrastat-transacties bekijken. Na de wijzigingen kunt u de paginering beheren van controlerapporten die worden gegenereerd.
 
-De procedures in dit onderwerp kunnen in het bedrijf **DEMF** worden uitgevoerd. U hoeft hiervoor geen code te schrijven. Voordat u begint, moet u de volgende bestanden downloaden en opslaan.
+De procedures in dit artikel kunnen in het bedrijf **DEMF** worden uitgevoerd. U hoeft hiervoor geen code te schrijven. Voordat u begint, moet u de volgende bestanden downloaden en opslaan.
 
 | Beschrijving       | Bestandsnaam |
 |-------------------|-----------| 
@@ -165,7 +165,7 @@ Gebruik vervolgens de aangepaste ER-indeling om het controlerapport van de Intra
 
 ### <a name="repeat-the-replacement-of-the-current-excel-template-in-the-custom-er-format"></a>Herhaal de vervanging van de huidige Excel-sjabloon in de aangepaste ER-indeling
 
-1. Volg de stappen in de sectie [De huidige Excel-sjabloon vervangen in de aangepaste ER-indeling](#replace-template) van dit onderwerp. Selecteer echter in stap 7 het bestand **ERIntrastatReportDemo2.xlsx**.
+1. Volg de stappen in de sectie [De huidige Excel-sjabloon vervangen in de aangepaste ER-indeling](#replace-template) van dit artikel. Selecteer echter in stap 7 het bestand **ERIntrastatReportDemo2.xlsx**.
 2. Ga naar de pagina **Indelingsontwerper** en vouw **Intrastat** uit.
 3. Geef de indelingscomponenten [Bereik](er-fillable-excel.md#range-component) op die zijn toegevoegd aan de bewerkbare ER-indeling om de structuur te synchroniseren met de structuur van de toegepaste Excel-sjabloon:
 
@@ -406,7 +406,7 @@ Als u de zichtbaarheid wilt wijzigen, moet u de eigenschap **Ingeschakeld** van 
 
 ## <a name="generate-an-intrastat-declaration-control-report-updated"></a>Een controlerapport Intrastat-aangifte genereren (bijgewerkt)
 
-1. Zorg ervoor dat er 24 transacties op de pagina **Intrastat** staan. Herhaal de stappen in de sectie [Een controlerapport Intrastat-aangifte genereren](#generate-intrastat-control-report) van dit onderwerp om het controlerapport te genereren en te controleren.
+1. Zorg ervoor dat er 24 transacties op de pagina **Intrastat** staan. Herhaal de stappen in de sectie [Een controlerapport Intrastat-aangifte genereren](#generate-intrastat-control-report) van dit artikel om het controlerapport te genereren en te controleren.
 
     Alle transacties worden op de eerste pagina weergegeven. De paginatotalen en -tellers zijn gelijk aan de rapporttotalen en -tellers. Het bereik paginakoptekst is verborgen op de eerste pagina omdat de rapportkop al kolomtitels bevat. De paginakoptekst en -voettekst zijn verborgen op de tweede pagina omdat die pagina geen transacties bevat.
 

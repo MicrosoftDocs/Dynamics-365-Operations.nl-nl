@@ -1,6 +1,6 @@
 ---
 title: Degressieve afschrijving van 125 procent
-description: Dit onderwerp biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving van 125 procent.
+description: Dit artikel biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving van 125 procent.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 756048d1627731af2e1eb7a23a9dcc2756583526
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: d197ae75ded6033aeeeb87b041ee3e9e3c6b3a0d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711571"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856678"
 ---
 # <a name="125-percent-reducing-balance-depreciation"></a>Degressieve afschrijving van 125 procent
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving van 125 procent.
+Dit artikel biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving van 125 procent.
 
 Wanneer u een profiel voor de afschrijving van vaste activa instelt en **125% degressieve afschrijving** in het veld **Methode** op de pagina **Afrschrijvingsprofielen**, worden vaste activa die zijn toegewezen aan het afschrijvingsprofiel met hetzelfde percentage afgeschreven in elke afschrijvingsperiode. Dit percentage wordt berekend aan de hand van de levensduur van het activum. Als een activum een levensduur van bijvoorbeeld vijf jaar heeft, wordt het percentage berekend als 25 procent (125% ÷ 5).
 
@@ -41,7 +41,7 @@ Uw keuze bepaalt welke opties beschikbaar zijn in het veld **Periodefrequentie**
 
 U kunt de standaardwaarde **Kalender** in het veld **Afschrijvingsjaar** behouden. 
 
-Met de optie **Kalender** wordt de afschrijvingsbasis op 1 januari van elk jaar bijgewerkt. Doorgaans is de afschrijvingsbasis de nettoboekwaarde min de restwaarde. In de voorbeelden verderop in dit onderwerp is de afschrijvingsbasis de teller in de eerste expressie in de berekeningenkolom. 
+Met de optie **Kalender** wordt de afschrijvingsbasis op 1 januari van elk jaar bijgewerkt. Doorgaans is de afschrijvingsbasis de nettoboekwaarde min de restwaarde. In de voorbeelden verderop in dit artikel is de afschrijvingsbasis de teller in de eerste expressie in de berekeningenkolom. 
 
 Als u **Kalender** als het afschrijvingsjaar selecteert, zijn de volgende opties beschikbaar in het veld **Periodefrequentie**:
 

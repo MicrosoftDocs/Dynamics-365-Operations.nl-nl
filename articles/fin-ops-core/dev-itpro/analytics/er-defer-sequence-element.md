@@ -1,6 +1,6 @@
 ---
 title: De uitvoering van reekselementen in ER-indelingen uitstellen
-description: In dit onderwerp wordt uitgelegd hoe u de uitvoering van een reekselement uitstelt in een ER-indeling (elektronische rapportage).
+description: In dit artikel wordt uitgelegd hoe u de uitvoering van een reekselement uitstelt in een ER-indeling (elektronische rapportage).
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 19d1cf0aa6e9b40a0e72a3a74acda6e2579d6ee2
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 5d4c5395c87c7bdc874f277a691e84081f68742d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323685"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880225"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>De uitvoering van reekselementen in ER-indelingen uitstellen
 
@@ -32,7 +32,7 @@ U kunt de Operations-ontwerper van het [ER-raamwerk](general-electronic-reportin
 
 Door de optie <a name="DeferredSequenceExecution"></a>**Uitgestelde uitvoering** in te schakelen voor een reeksopmaakelement in de geconfigureerde indeling kunt u de uitvoering van dat element uitstellen. In dat geval wordt het element pas uitgevoerd als alle andere elementen van het bovenliggende element zijn uitgevoerd.
 
-Voor meer informatie over deze functie kunt u het voorbeeld in dit onderwerp uitvoeren.
+Voor meer informatie over deze functie kunt u het voorbeeld in dit artikel uitvoeren.
 
 ## <a name="limitations"></a>Beperkingen
 
@@ -53,7 +53,7 @@ Als u de voorbeelden in dit onderwerp wilt voltooien, moet u toegang hebben tot 
 - Functioneel consultant elektronische rapportage
 - Systeembeheerder
 
-Als u het voorbeeld nog niet hebt ingevuld in het onderwerp [De uitvoering van reekselementen in ER-indelingen uitstellen](er-defer-xml-element.md#Example), downloadt u de volgende [configuraties](general-electronic-reporting.md#Configuration) van de voorbeeld-ER-oplossing.
+Als u het voorbeeld nog niet hebt ingevuld in het artikel [De uitvoering van reekselementen in ER-indelingen uitstellen](er-defer-xml-element.md#Example), downloadt u de volgende [configuraties](general-electronic-reporting.md#Configuration) van de voorbeeld-ER-oplossing.
 
 | Omschrijving inhoud            | Bestandsnaam |
 |--------------------------------|-----------|
@@ -93,7 +93,7 @@ Voordat u begint, moet u ook de volgende configuratie van de voorbeeld-ER-oploss
 ### <a name="activate-a-configurations-provider"></a>Een configuratieprovider activeren
 
 1. Ga naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
-2. Controleer op de pagina **Lokalisatieconfiguraties** in de sectie **Configuratieproviders** of de [configuratieprovider](general-electronic-reporting.md#Provider) voor het voorbeeldbedrijf Litware, Inc. (`http://www.litware.com`) wordt vermeld en of het is gemarkeerd als Actief. Als deze configuratieprovider niet wordt vermeld of als deze niet is gemarkeerd als actief, volgt u de stappen in het onderwerp [Een configuratieprovider maken en als actief markeren](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Controleer op de pagina **Lokalisatieconfiguraties** in de sectie **Configuratieproviders** of de [configuratieprovider](general-electronic-reporting.md#Provider) voor het voorbeeldbedrijf Litware, Inc. (`http://www.litware.com`) wordt vermeld en of het is gemarkeerd als Actief. Als deze configuratieprovider niet wordt vermeld of als deze niet is gemarkeerd als actief, volgt u de stappen in het artikel [Een configuratieprovider maken en als actief markeren](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
     ![Voorbeeldbedrijf Litware, Inc. op de pagina Lokalisatieconfiguraties.](./media/ER-DeferredSequence-ElectronicReportingWorkspace.png)
 

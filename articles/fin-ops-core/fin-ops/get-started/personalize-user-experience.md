@@ -1,8 +1,8 @@
 ---
 title: De gebruikerservaring personaliseren
-description: In dit onderwerp wordt uitgelegd hoe u de app kunt aanpassen.
+description: In dit artikel wordt uitgelegd hoe u de app aan persoonlijke voorkeuren kunt aanpassen.
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 06/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b922d68fcf3e83be57140cf8c54c4bacd2b75f56
-ms.sourcegitcommit: edc887e0526c415466e9691e642028ecd97cdbe7
+ms.openlocfilehash: c326e51dc127d8b82ccef28146ec223ca5169c5e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8602984"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845437"
 ---
-# <a name="personalize-the-user-experience"></a>De gebruikerservaring aanpassen
+# <a name="personalize-the-user-experience"></a>De gebruikerservaring personaliseren
 
 [!include [banner](../includes/banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-In dit onderwerp wordt uitgelegd hoe u de app personaliseert en worden de volgende onderwerpen behandeld: 
+In dit artikel wordt uitgelegd hoe u de app aan persoonlijke voorkeuren kunt aanpassen en worden de volgende onderwerpen behandeld: 
 
 - **Opties voor het hele systeem** : deze personalisatieopties worden gemaakt op een instellingspagina en zijn beschikbaar voor alle gebruikers. Voorbeelden zijn kleurenthema en tijdzone. 
 - **Beperkte toegang voor persoonlijke instellingen**: op dit toegangsniveau worden gebruikersacties die zijn gekoppeld aan het standaardpaginagebruik automatisch opgeslagen door de app en teruggezet de volgende keer dat u de pagina bezoekt. Zo slaat de app bijvoorbeeld de breedte van rasterkolommen op als u deze aanpast, en de status van uitgevouwen of samengevouwen sneltabbladen. 
@@ -58,7 +58,7 @@ Hier volgt een lijst met de acties die onder het normale gebruik van de pagina v
 
 - **Rasterkolombreedten:** u kunt de breedte van een kolom in een raster aanpassen door de formaatbalk links of rechts van de kolomkop te selecteren en deze naar links of rechts te schuiven totdat de kolom de gewenste breedte heeft. De app slaat de breedte op die u instelt voor een kolom. De kolom krijgt die grootte steeds wanneer u de volgende keer die pagina opent.
 - **Rastervoettekst- en kolomtotalen**: *(alleen beschikbaar als het nieuwe rasterbesturingselement is ingeschakeld)* U bepaalt of er een totaal moet worden weergegeven onder aan een numerieke kolom in een raster en of de rastervoettekst zichtbaar is. De app slaat deze gegevens op en past ze toe wanneer u de pagina de volgende keer opent. Zie [Rastermogelijkheden](grid-capabilities.md) voor meer informatie. 
-- **Sneltabbladen**: sommige pagina's bevatten uitvouwbare secties genaamd *sneltabbladen*. De app bevat gegevens over de sneltabbladen die u hebt uitgevouwen of samengevouwen. Vervolgens worden de volgende keer dat u de pagina opent, dezelfde sneltabbladen uitgevouwen of samengevouwen, gebaseerd op uw laatste interactie met de pagina. In sommige gevallen kunt u de systeemprestaties helpen verbeteren door een sneltabblad samen te vouwen, omdat de app de gegevens voor sneltabbladen pas op hoeft te halen als ze worden uitgevouwen. Zoals later in dit onderwerp wordt uitgelegd kunt u ook de volgorde wijzigen van de sneltabbladen op een pagina.
+- **Sneltabbladen**: sommige pagina's bevatten uitvouwbare secties genaamd *sneltabbladen*. De app bevat gegevens over de sneltabbladen die u hebt uitgevouwen of samengevouwen. Vervolgens worden de volgende keer dat u de pagina opent, dezelfde sneltabbladen uitgevouwen of samengevouwen, gebaseerd op uw laatste interactie met de pagina. In sommige gevallen kunt u de systeemprestaties helpen verbeteren door een sneltabblad samen te vouwen, omdat de app de gegevens voor sneltabbladen pas op hoeft te halen als ze worden uitgevouwen. Zoals later in dit artikel wordt uitgelegd, kunt u ook de volgorde wijzigen van de sneltabbladen op een pagina.
 - **Feitenblokken**: sommige pagina's hebben een deelvenster **Verwante informatie** waarin alleen-lezen informatie wordt weergegeven over het huidige onderwerp van de pagina. Elke sectie in het deelvenster **Verwante informatie** wordt een *feitenblok* genoemd. U kunt het deelvenster **Verwante informatie** uitvouwen of samenvouwen en u kunt ook afzonderlijke feitenblokken uitvouwen of samenvouwen. De app slaat deze voorkeuren op. Wanneer u de volgende keer de pagina opent, zijn het deelvenster **Verwante informatie** en de afzonderlijke feitenblokken uitgevouwen of samengevouwen op basis van uw laatste interactie met de pagina. In sommige gevallen kunt u de systeemprestaties helpen verbeteren door het deelvenster **Verwante informatie** samen te vouwen, omdat de app de gegevens voor feitenblokken pas op hoeft te halen als ze worden uitgevouwen.
 - **Actievensters**: een *actievenster* wordt weergegeven boven aan de meeste pagina's. Het actievenster bevat knoppen voor een groot aantal van de acties die u op de huidige pagina uitvoeren kunt. Deze knoppen zijn vaak geordend op tabbladen. U kunt het gehele actievenster open *vastzetten* of u kunt het standaard samengevouwen laten. De volgende keer dat u de pagina opent, is het actievenster geopend of samengevouwen, gebaseerd op uw laatste interactie met de pagina. Als u het actievenster open hebt vastgemaakt, wordt het laatst gebruikte tabblad weergegeven.
 - **Snelfilters**: een *snelfilter* wordt boven aan veel rasters weergegeven. Met het snelfilter kunt u het raster filteren op basis van één kolom die u selecteert. De app slaat de kolom op waarop u hebt gefilterd. De volgende keer dat u die pagina opent, wordt het raster standaard op dezelfde kolom gefilterd. U kunt vervolgens echter toch een andere kolom selecteren om het raster op te filteren.
@@ -173,14 +173,14 @@ Vanaf versie 10.0.26 kunnen gebruikers met de functie **Toestaan dat gebruikers 
 
 ### <a name="personalizing-your-dashboard"></a>Het dashboard aanpassen
 
-Het dashboard is vaak de eerste pagina die bij het openen van de app wordt weergegeven. Het kan op dezelfde manier worden aangepast als elke andere pagina in het systeem door gebruik te maken van dezelfde mechanismen die eerder in dit onderwerp zijn beschreven. 
+Het dashboard is vaak de eerste pagina die bij het openen van de app wordt weergegeven. Het kan op dezelfde manier worden aangepast als elke andere pagina in het systeem door gebruik te maken van dezelfde mechanismen die eerder in dit artikel zijn beschreven. 
 
 > [!WARNING]
 > Wanneer u op dit moment inhoud op het dashboard verbergt, is het van belang dat u rechtstreeks een tegel aanwijst, niet de ruimte eromheen. Als u de groep rond een tegel verbergt, zijn er onverwachte resultaten als er later meer tegels worden toegevoegd of als het systeem naar een andere taal wordt overgeschakeld.
 
 Een unieke aanpassingsmogelijkheid die beschikbaar is op het dashboard, is de mogelijkheid om tegels toe te voegen. 
 
-- Als de functie **Apps op volledige pagina's** is uitgeschakeld, voegt u een nieuwe tegel toe door met de rechtermuisknop op een element in het dashboard te klikken en vervolgens **Een werkgebied toevoegen** te selecteren. Een nieuwe werkgebiedtegel wordt onder aan het dashboard gemaakt. U kunt deze werkgebiedtegel desgewenst hernoemen. U kunt ook lijsten, tegels en koppelingen toevoegen aan het werkgebied, zoals beschreven in de sectie [Tegels, lijsten en koppelingen toevoegen aan een werkgebied](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) van dit onderwerp.
+- Als de functie **Apps op volledige pagina's** is uitgeschakeld, voegt u een nieuwe tegel toe door met de rechtermuisknop op een element in het dashboard te klikken en vervolgens **Een werkgebied toevoegen** te selecteren. Een nieuwe werkgebiedtegel wordt onder aan het dashboard gemaakt. U kunt deze werkgebiedtegel desgewenst hernoemen. U kunt ook lijsten, tegels en koppelingen toevoegen aan het werkgebied, zoals beschreven in de sectie [Tegels, lijsten en koppelingen toevoegen aan een werkgebied](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) van dit artikel.
 - Als de functie **Apps op volledige pagina's** is ingeschakeld, voegt u een nieuwe tegel toe door met de rechtermuisknop op een element in het dashboard te klikken en vervolgens **Een app toevoegen** te selecteren. Selecteer in het dialoogvenster of u een tegel wilt toevoegen voor een nieuw werkgebied of een tegel met inhoud uit Power Apps of een website. Voer vervolgens de stappen uit om de geselecteerde optie te configureren. Een nieuwe werkgebiedtegel wordt onder aan het dashboard gemaakt. Raadpleeg voor meer informatie over het toevoegen, bewerken, verwijderen en delen van deze ingesloten apps [Canvas-apps insluiten vanuit Power Apps](embed-power-apps.md) en [Apps van derde partijen insluiten](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Persoonlijke instellingen delen
@@ -236,7 +236,7 @@ U kunt aanpassingen ook delen via export en import. Individuele gebruikers, of e
 
 #### <a name="export"></a>Exporteren
 
-In het algemeen kunt u een van uw eigen weergaven of aanpassingen exporteren door de betreffende pagina te openen, de werkbalk **Persoonlijke instellingen** te openen en vervolgens **Exporteren** te selecteren. Meer informatie over de werkbalk vindt u in de sectie [Aanpassingswerkbalk](#personalization-toolbar) een stukje terug in dit artikel. Als [Opgeslagen weergaven](saved-views.md) is ingeschakeld, kunt u ook gaan naar **Instellingen \> Gebruikersopties \> Persoonlijke instellingen** om een lijst met al uw aanpassingen in het systeem weer te geven. Hier kunt u de weergaven of aanpassingen selecteren die u wilt exporteren en vervolgens **Exporteren** selecteren.
+In het algemeen kunt u een van uw eigen weergaven of aanpassingen exporteren door de betreffende pagina te openen, de werkbalk **Persoonlijke instellingen** te openen en vervolgens **Exporteren** te selecteren. Meer informatie over de werkbalk vindt u in het gedeelte [Aanpassingswerkbalk](#personalization-toolbar) eerder in dit artikel. Als [Opgeslagen weergaven](saved-views.md) is ingeschakeld, kunt u ook gaan naar **Instellingen \> Gebruikersopties \> Persoonlijke instellingen** om een lijst met al uw aanpassingen in het systeem weer te geven. Hier kunt u de weergaven of aanpassingen selecteren die u wilt exporteren en vervolgens **Exporteren** selecteren.
 
 Verder kunnen beheerders de aanpassingen van andere gebruikers exporteren door de volgende stappen uit te voeren.
 
@@ -277,7 +277,7 @@ Als Opgeslagen weergaven niet is ingeschakeld, volgt u deze stappen.
 
 De pagina **Persoonlijke instellingen** is de centrale hub voor het beheer van persoonlijke instellingen op een organisatieniveau. De inhoud en mogelijkheden op deze pagina zijn afhankelijk van de vraag of de functie **Opgeslagen weergaven** is ingeschakeld.
 
-Zie de sectie 'Weergaven globaal beheren' in het onderwerp [Opgeslagen weergaven](saved-views.md) voor klanten die de functie **Opgeslagen weergaven** hebben ingeschakeld.
+Zie het gedeelte "Weergaven globaal beheren" in het artikel [Opgeslagen weergaven](saved-views.md) voor klanten die de functie **Opgeslagen weergaven** hebben ingeschakeld.
 
 Voor klanten die de functie [Opgeslagen weergaven](saved-views.md) nog niet hebben ingeschakeld, bevat deze pagina vier tabbladen:
 
@@ -285,6 +285,9 @@ Voor klanten die de functie [Opgeslagen weergaven](saved-views.md) nog niet hebb
 - **Wissen**: u kunt alle aanpassingen voor een pagina of werkgebied voor een of meer gebruikers wissen. Selecteer eerst een pagina of werkgebied voor een overzicht van de gebruikers die deze hebben aangepast. Kies vervolgens de gebruikers waarvoor de aanpassingen voor die pagina moeten worden gewist en selecteer **Wissen**. Alle aanpassingen die de geselecteerde gebruikers hebben toegepast op de geselecteerde pagina of het geselecteerde werkgebied, worden verwijderd. Deze actie kan niet ongedaan worden gemaakt. Als de pagina of het werkgebied echter een opgeslagen aanpassing heeft, kan die aanpassing opnieuw worden geïmporteerd.
 - **Gebruikers**: selecteer een gebruiker voor een lijst met de pagina's die de gebruiker heeft aangepast. Vervolgens kunt u in- of uitschakelen of de gebruiker voor bepaalde pagina's of voor het hele systeem aanpassingen kan doorvoeren. U kunt ook een aanpassing importeren, exporteren of wissen voor de gebruiker. Daarnaast kunt u de functietoelichtingen voor de gebruiker opnieuw instellen. Als de gebruiker pop-upvensters die nieuwe functies introduceren, eerder heeft gesloten, worden deze opnieuw weergegeven wanneer de gebruiker de volgende keer de desbetreffende functie tegenkomt.
 - **Systeem**: u kunt tijdelijk aanpassingen voor alle gebruikers in het systeem uitschakelen. In dat geval worden alle aanpassingen voor alle gebruikers verwijderd en worden alle pagina's opnieuw ingesteld op de standaardstatus. Als u aanpassingen later weer wilt inschakelen, worden alle aanpassingen opnieuw toegepast. U kunt alle aanpassingen voor alle gebruikers in het systeem ook permanent verwijderen. Er is geen enkele manier om aanpassingen terug te halen die zijn verwijderd. Voordat u deze taak uitvoert, moet u er daarom voor zorgen dat u aanpassingen hebt geëxporteerd die u later mogelijk wilt.
+
+### <a name="service-updates-and-personalization"></a>Service-updates en persoonlijke instellingen
+Als u overschakelt naar een nieuwe versie van het product hoeven persoonlijke instellingen niet te worden verwijderd of opnieuw ingesteld. Persoonlijke instellingen en gegevens van opgeslagen weergaven blijven bij updates werken. Uitzonderingen hierop kunnen wijzigingen in het formulier zelf zijn waardoor een persoonlijke instelling (zoals een verwijderd besturingselement) ongeldig wordt, of wijzigingen in de basisquery van het formulier waarmee de substructuur van de gegevensbron wordt gewijzigd zodat deze niet langer overeenkomt met de substructuur van de gegevensbron die aan de weergavequery is gekoppeld.
 
 ## <a name="personalizing-inventory-dimensions"></a>Voorraaddimensies aanpassen
 

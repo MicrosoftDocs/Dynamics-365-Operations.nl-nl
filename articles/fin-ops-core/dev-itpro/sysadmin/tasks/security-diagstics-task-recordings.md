@@ -1,6 +1,6 @@
 ---
 title: Beveiligingsdiagnose voor taakregistraties
-description: Dit onderwerp bevat informatie over het analyseren en beheren van vereisten voor beveiligingsmachtigingen op basis van een taakregistratie.
+description: Dit artikel bevat informatie over het analyseren en beheren van vereisten voor beveiligingsmachtigingen op basis van een taakregistratie.
 author: Peakerbl
 ms.date: 05/05/2020
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: 44af35f16f6e9ff89b30bc10eef3f16ecdfaf907c4c6e22aa5775d1941fb6a5d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb69bf997100f25cd0ad2b7e34139857199e5d00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745115"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880162"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>Beveiligingsdiagnose voor taakregistraties
 
@@ -26,7 +26,7 @@ ms.locfileid: "6745115"
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-Dit onderwerp bevat informatie over het analyseren en beheren van vereisten voor beveiligingsmachtigingen op basis van een taakregistratie. Voordat u de stappen in dit onderwerp uitvoert, moet u beschikken over een taakregistratie van het bedrijfsproces dat u wilt analyseren. Zie [Resources voor Taakrecorder](../../user-interface/task-recorder.md) om een bedrijfsproces vast te leggen. 
+Dit artikel bevat informatie over het analyseren en beheren van vereisten voor beveiligingsmachtigingen op basis van een taakregistratie. Voordat u de stappen in dit artikel uitvoert, moet u beschikken over een taakregistratie van het bedrijfsproces dat u wilt analyseren. Zie [Resources voor Taakrecorder](../../user-interface/task-recorder.md) om een bedrijfsproces vast te leggen. 
 
 ## <a name="manage-security-for-a-task-recording"></a>Beveiliging voor een taakregistratie beheren
 

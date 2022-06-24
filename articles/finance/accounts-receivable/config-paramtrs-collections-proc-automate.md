@@ -1,6 +1,6 @@
 ---
 title: Parameters voor automatisering van incassoproces configureren
-description: In dit onderwerp worden de parameters beschreven die invloed hebben op geautomatiseerde incassoprocessen en worden richtlijnen gegeven voor het instellen ervan, zodat het geautomatiseerde proces voldoet aan uw bedoelingen en verwachtingen.
+description: In dit artikel worden de parameters beschreven die invloed hebben op geautomatiseerde incassoprocessen en worden richtlijnen gegeven voor het instellen ervan, zodat het geautomatiseerde proces voldoet aan uw bedoelingen en verwachtingen.
 author: JodiChristiansen
 ms.date: 08/05/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: e7a7e048a371fc90456368206b91c29c4b1264d5
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c5d0f801c47ef2d98d8ba410dc593bd7640839c1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734391"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900037"
 ---
 # <a name="configure-parameters-for-collection-process-automation"></a>Parameters voor automatisering van incassoproces configureren
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de parameters beschreven die invloed hebben op geautomatiseerde incassoprocessen en worden richtlijnen gegeven voor het instellen ervan, zodat het geautomatiseerde proces voldoet aan uw bedoelingen en verwachtingen. Voor meer informatie over het automatiseren van incassoprocessen zie [Automatisering van incassoproces](collections-process-automate.md).
+In dit artikel worden de parameters beschreven die invloed hebben op geautomatiseerde incassoprocessen en worden richtlijnen gegeven voor het instellen ervan, zodat het geautomatiseerde proces voldoet aan uw bedoelingen en verwachtingen. Voor meer informatie over het automatiseren van incassoprocessen zie [Automatisering van incassoproces](collections-process-automate.md).
 
 ## <a name="general"></a>Algemeen
 Voer in **Percentage klanten per batchtaak** een getal in om het aantal batchtaken per geautomatiseerd proces te bepalen. Stel **Aanmaningen automatisch boeken** in op **Ja** zodat het actietype van de aanmaning de brief automatisch boekt tijdens de automatisering. Stel **Activiteiten maken voor automatisering** in op **Ja** om activiteiten voor niet-activiteitsactietypen te maken en af te sluiten om alle geautomatiseerde stappen voor een rekening weer te geven. Definieer het aantal dagen dat de incassohistorie wordt bewaard in **Aantal dagen om automatisering van incassoproces te behouden**. Wanneer een factuur de laatste stap van het incassoproces bereikt, wordt deze niet gebruikt voor het maken van toekomstige actietypen voor procesautomatisering als **Factuur uitsluiten na activeren van laatste processtap** is ingesteld op **Ja**. De volgende oudste factuur bepaalt de volgende stap voor procesautomatisering om ervoor te zorgen dat procesautomatiseringsacties voor incasso worden voortgezet. 

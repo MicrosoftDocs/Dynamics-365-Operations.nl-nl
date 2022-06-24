@@ -1,6 +1,6 @@
 ---
 title: Metagegevens van de toepassing openen door gebruik van verbonden toepassingen
-description: In de stappen in dit onderwerp wordt uitgelegd hoe een gebruiker van de Regulatory Configuration Service een nieuwe Elektronisch Rapportage modeltoewijzing kan ontwerpen met behulp van de metagegevens.
+description: In de stappen in dit artikel wordt uitgelegd hoe een gebruiker van de Regulatory Configuration Service een nieuwe Elektronisch Rapportage modeltoewijzing kan ontwerpen met behulp van de metagegevens.
 author: NickSelin
 ms.date: 06/29/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6d99ca41a9a24ef8ac0fe31e703cad79d41216fa726fa1d354ac19db90706954
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 330683da986a551a9694833655122768d30499b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776019"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906763"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Metagegevens van de toepassing openen door gebruik van verbonden toepassingen
 
 [!include [banner](../../includes/banner.md)]
 
-In de volgende stappen wordt uitgelegd hoe een gebruiker van Regulatory Configuration Service (RCS) in de rol van systeembeheerder of ER-ontwikkelaar een nieuwe ER-modeltoewijzing kan maken met gebruik van metagegevens in Finance and Operations. Toepassingsmetagegevens worden online benaderd via de met de toepassing RCS verbonden toepassing. Voorbeeld ER modeltoewijzing wordt geconfigureerd voor het openen van transacties van buitenlandse handel. Als u deze stappen wilt uitvoeren, moet u in RCS eerst de stappen voltooien in het onderwerp [Configuratieproviders maken en deze als actief markeren](er-configuration-provider-mark-it-active-2016-11.md). Als u de stappen in het onderwerp [Toepassingsmetagegevens openen met gebruik van de ER‑configuratie](access-application-metadata-er-configuration.md) niet hebt voltooid, downloadt u de [pagina Voorbeelden van elektronische rapportage](https://download.microsoft.com/download/0/4/e/04e13839-e423-442b-a6c2-dd35b1045c2d/Dynamics%20365%20for%20Finance%20and%20Operations%208.1%20Electronic%20reporting%20task%20guides.zip) en slaat u de volgende ER‑configuratie op: Metagegevens buitenlandse handel.xml, Metagegevens buitenlandse handel.xml, Toewijzing buitenlandse handel.xml en voltooit u dan de stappen van de procedure.
+In de volgende stappen wordt uitgelegd hoe een gebruiker van Regulatory Configuration Service (RCS) in de rol van systeembeheerder of ER-ontwikkelaar een nieuwe ER-modeltoewijzing kan maken met gebruik van de metagegevens van Finance and Operations. Toepassingsmetagegevens worden online benaderd via de met de toepassing RCS verbonden toepassing. Voorbeeld ER modeltoewijzing wordt geconfigureerd voor het openen van transacties van buitenlandse handel. Als u deze stappen wilt uitvoeren, moet u in RCS eerst de stappen voltooien in het artikel [Configuratieproviders maken en deze als actief markeren](er-configuration-provider-mark-it-active-2016-11.md). Als u de stappen in het artikel [Toepassingsmetagegevens openen met gebruik van de ER‑configuratie](access-application-metadata-er-configuration.md) niet hebt voltooid, downloadt u de [pagina Voorbeelden van elektronische rapportage](https://download.microsoft.com/download/0/4/e/04e13839-e423-442b-a6c2-dd35b1045c2d/Dynamics%20365%20for%20Finance%20and%20Operations%208.1%20Electronic%20reporting%20task%20guides.zip) en slaat u de volgende ER‑configuratie op: Metagegevens buitenlandse handel.xml, Metagegevens buitenlandse handel.xml, Toewijzing buitenlandse handel.xml en voltooit u dan de stappen van de procedure.
 
 ## <a name="prerequisites"></a>Vereisten
 1. Ga naar **Alle werkgebieden** > **Elektronische rapportage**. 

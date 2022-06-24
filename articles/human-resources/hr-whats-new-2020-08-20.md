@@ -1,6 +1,6 @@
 ---
 title: Nieuwe of gewijzigde functies in Dynamics 365 Human Resources (20 augustus 2020)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 20 augustus 2020.
+description: In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 20 augustus 2020.
 author: andreabichsel
 ms.date: 08/20/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b6a3953c0c8474ae67667176c21d065c6b94c6ab
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3c71a742022afba36c417092d5a9b75c78600357
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688398"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902164"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-20-2020"></a>Nieuwe of gewijzigde functies in Dynamics 365 Human Resources (20 augustus 2020)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8688398"
 
 
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Human Resources. Wijzigingen die van toepassing zijn op buildnummer 8.1.3478. De getallen tussen haakjes in sommige koppen verwijzen ter referentie naar ondersteuningsnummers in Lifecycle Services (LCS).
+In dit artikel worden de functies beschreven die in Dynamics 365 Human Resources nieuw of gewijzigd zijn. Wijzigingen die van toepassing zijn op buildnummer 8.1.3478. De getallen tussen haakjes in sommige koppen verwijzen ter referentie naar ondersteuningsnummers in Lifecycle Services (LCS).
 
 ## <a name="show-upcoming-and-pending-leave-of-absence-information-to-cards-in-people-workspace"></a>Gegevens over aanstaand en in behandeling genomen verlof en verzuim weergeven in kaarten in de werkruimte Personen
 

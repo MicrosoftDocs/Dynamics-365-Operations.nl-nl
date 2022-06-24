@@ -1,6 +1,6 @@
 ---
 title: Uitsteltransacties in Facturering van abonnementen
-description: In dit onderwerp worden de verschillende transacties beschreven die in uitsteltransacties kunnen worden gebruikt als onderdeel van uitgestelde opbrengsten en onkosten in Facturering van abonnementen.
+description: In dit artikel worden de verschillende transacties beschreven die in uitsteltransacties kunnen worden gebruikt als onderdeel van uitgestelde opbrengsten en onkosten in Facturering van abonnementen.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 5913308d4ee9fdcb8cf2b862171078f27f651662
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c3862f1a250bf8e56303975b5c6a3560cd84c1e7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686011"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872581"
 ---
 # <a name="deferral-default-transactions"></a>Standaardtransacties voor uitstel
 
-In dit onderwerp worden de transacties beschreven waarmee opbrengsten en onkosten kunnen worden uitgesteld. Uitstelplanningen zijn altijd gebaseerd op en afhankelijk van een oorspronkelijk document of factureringsplanning. Uitstelplanningen worden gemaakt op basis van standaardwaarden en kunnen niet afzonderlijk worden ingevoerd of gemaakt.
+In dit artikel worden de transacties beschreven waarmee opbrengsten en onkosten kunnen worden uitgesteld. Uitstelplanningen zijn altijd gebaseerd op en afhankelijk van een oorspronkelijk document of factureringsplanning. Uitstelplanningen worden gemaakt op basis van standaardwaarden en kunnen niet afzonderlijk worden ingevoerd of gemaakt.
 
 ## <a name="sales-order-transaction-deferral"></a>Uitstel van verkoopordertransactie
 

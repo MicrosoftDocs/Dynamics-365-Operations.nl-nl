@@ -1,6 +1,6 @@
 ---
 title: Factuurautomatisering voor gescande documenten
-description: In dit onderwerp worden de functies beschreven die beschikbaar zijn voor end-to-end automatisering van leveranciersfacturen, zelfs facturen die bijlagen bevatten.
+description: In dit artikel worden de functies beschreven die beschikbaar zijn voor end-to-end automatisering van leveranciersfacturen, zelfs facturen die bijlagen bevatten.
 author: abruer
 ms.date: 03/24/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02fcb6ce49156c32f23bfb37478a1076f62aa868
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: e7d8e55fc1293e2b33b15f3862498363a6b23f1f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716389"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883411"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Factuurautomatisering voor gescande documenten
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de gegevensentiteiten beschreven die beschikbaar zijn voor end-to-end automatisering van leveranciersfacturen, inclusief facturen met bijlagen.
+In dit artikel worden de gegevensentiteiten beschreven die beschikbaar zijn voor end-to-end automatisering van leveranciersfacturen, inclusief facturen met bijlagen.
 
 Organisaties die hun crediteurprocessen willen stroomlijnen, wijzen het verwerken van facturen vaak aan als een van de belangrijke procesgebieden die efficiënter moeten worden gemaakt. In veel gevallen brengen deze organisaties de verwerking van papieren facturen onder bij met een externe OCR-provider (Optical Character Recognition). Ze ontvangen vervolgens machineleesbare factuurmetagegevens, samen met een gescande afbeelding van elke factuur. Ter ondersteuning van de automatisering wordt dan een oplossing voor het laatste stukje samengesteld, zodat deze artefacten in het factureringssysteem kunnen worden verwerkt Nu is dit laatste stukje automatisering standaard beschikbaar, door middel van een oplossing voor automatische factuurverwerking.
 
@@ -46,7 +46,7 @@ De oplossing bestaat uit de volgende onderdelen:
 + Uitzonderingsverwerking voor facturen
 + Een lezer voor het naast elkaar weergeven van bijlagen en facturen
 
-De rest van dit onderwerp bevat gedetailleerde beschrijvingen van de onderdelen van deze oplossing.
+De rest van dit artikel bevat gedetailleerde beschrijvingen van de onderdelen van deze oplossing.
 
 ## <a name="data-entities"></a>Gegevensentiteiten
 

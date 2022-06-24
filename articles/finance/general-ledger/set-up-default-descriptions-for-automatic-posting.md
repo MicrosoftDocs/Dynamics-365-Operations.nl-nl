@@ -1,6 +1,6 @@
 ---
 title: Standaard beschrijvingen voor automatische boeking instellen
-description: Dit onderwerp verklaart hoe u de standaardtekst kunt instellen die wordt gebruikt om boekhoudinvoeringen te beschrijven die automatisch in het grootboek zijn geboekt. U kunt een standaard beschrijvingstekst instellen met vrije tekst of door vaste variabelen te selecteren.
+description: Dit artikel verklaart hoe u de standaardtekst kunt instellen die wordt gebruikt om boekhoudinvoeringen te beschrijven die automatisch in het grootboek zijn geboekt. U kunt een standaard beschrijvingstekst instellen met vrije tekst of door vaste variabelen te selecteren.
 author: aprilolson
 ms.date: 07/23/2019
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 772c754e9980e693daf7542de273cbe278ca7038
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 71982a7d5b1bb08d3e238646ea0b15f17260bdcc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722431"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904494"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>Standaard beschrijvingen voor automatische boeking instellen
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp verklaart hoe u de standaardtekst kunt instellen die wordt gebruikt om boekhoudinvoeringen te beschrijven die automatisch in het grootboek zijn geboekt. U kunt een standaard beschrijvingstekst instellen met vrije tekst of door vaste variabelen te selecteren.
+Dit artikel verklaart hoe u de standaardtekst kunt instellen die wordt gebruikt om boekhoudinvoeringen te beschrijven die automatisch in het grootboek zijn geboekt. U kunt een standaard beschrijvingstekst instellen met vrije tekst of door vaste variabelen te selecteren.
 
 > [!NOTE]
-> Voor een aantal transactietypes in een aantal landen of regio's kunt u ook tekst invoegen uit velden die aan deze transactietypes zijn gerelateerd. Zie voor een lijst met transactietypen en de landen en regio's de sectie [Optioneel: Andere tekst aan standaardbeschrijvingen toevoegen](#optional-add-other-text-to-default-descriptions), verderop in dit onderwerp.
+> Voor een aantal transactietypes in een aantal landen of regio's kunt u ook tekst invoegen uit velden die aan deze transactietypes zijn gerelateerd. Zie voor een lijst met transactietypen en de landen en regio's het gedeelte [Optioneel: andere tekst aan standaardbeschrijvingen toevoegen](#optional-add-other-text-to-default-descriptions), verderop in dit artikel.
 
 ## <a name="set-up-default-descriptions"></a>Standaardbeschrijvingen opzetten
 
@@ -78,7 +78,7 @@ Deze optie is beschikbaar voor de volgende landen en regio's:
 
 ### <a name="add-text-to-default-descriptions"></a>Voeg tekst toe aan standaard beschrijvingen
 
-Wanneer u de stappen in de sectie [Standaardbeschrijvingen instellen](#set-up-default-descriptions), eerder in dit onderwerp hebt voltooid, volgt u deze stappen om andere tekst aan de standaardbeschrijvingen toe te voegen:
+Wanneer u de stappen in het gedeelte [Standaardbeschrijvingen instellen](#set-up-default-descriptions), eerder in dit artikel hebt voltooid, volgt u deze stappen om andere tekst aan de standaardbeschrijvingen toe te voegen.
 
 1. Selecteer op het sneltabblad **Parameters** de optie **Toevoegen**.
 2. Selecteer in het veld **Referentietabel** de databasetabel met de parametergegevens die u aan de beschrijving wilt toevoegen.

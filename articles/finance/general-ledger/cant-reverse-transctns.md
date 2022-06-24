@@ -1,6 +1,6 @@
 ---
 title: Waarom kan ik deze transactie niet ongedaan maken?
-description: In dit onderwerp worden verschillende redenen beschreven waarom transacties niet kunnen worden omgekeerd. Er wordt ook een lijst met oplossingen voor dit probleem vermeld.
+description: In dit artikel worden verschillende redenen beschreven waarom transacties niet kunnen worden omgekeerd. Er wordt ook een lijst met oplossingen voor dit probleem vermeld.
 author: kweekley
 ms.date: 07/21/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-07-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e18caf1dbdf8191713c17b1793f5da44cf2f182b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9a8b26584b1a9b82440583db693cd14daa580e22
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876177"
 ---
 # <a name="why-cant-i-reverse-this-transaction"></a>Waarom kan ik deze transactie niet ongedaan maken?
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden verschillende redenen beschreven waarom transacties niet kunnen worden omgekeerd. Er wordt ook een lijst met oplossingen voor dit probleem vermeld.
+In dit artikel worden verschillende redenen beschreven waarom transacties niet kunnen worden omgekeerd. Er wordt ook een lijst met oplossingen voor dit probleem vermeld.
 
 ## <a name="symptom"></a>Symptoom
 
@@ -35,14 +35,14 @@ Organisaties kunnen in situaties terechtkomen waarin ze een geboekte transactie 
 
 ## <a name="resolution"></a>Oplossing
 
-Transacties moeten aan specifieke criteria voldoen voordat ze kunnen worden omgekeerd. De resterende secties van dit onderwerp bieden de validatie voor elke module. Hoewel dit onderwerp zich richt op transacties in Microsoft Dynamics 365 Finance, kunnen enkele van de concepten en validatie ook worden toegepast op andere toepassingen, zoals Dynamics 365 Supply Chain Management.
+Transacties moeten aan specifieke criteria voldoen voordat ze kunnen worden omgekeerd. De resterende secties van dit artikel bieden de validatie voor elke module. Hoewel dit artikel zich richt op transacties in Microsoft Dynamics 365 Finance, kunnen enkele van de concepten en validatie ook worden toegepast op andere toepassingen, zoals Dynamics 365 Supply Chain Management.
 
 Bovendien kan de plaats waar een transactie wordt omgekeerd invloed hebben op de vraag of de transactie kan worden omgekeerd. Een leveranciersbetaling die als cheque is geboekt, kan bijvoorbeeld alleen worden omgekeerd via de sectie **Cheques** op de transactiepagina voor de bankrekeningen. Deze kan niet worden omgekeerd via de pagina **Boekstuktransacties** in Grootboek.
 
 Als de functie **Massaal omkeren voor meerdere documenten** (ook wel de functie Massaal omkeren genoemd) is ingeschakeld in de werkruimte **Functiebeheer**, heeft dit invloed op het aantal transacties dat kan worden omgekeerd en op de plaats waar deze kunnen worden omgekeerd. Deze functie levert twee voordelen op wanneer deze is ingeschakeld:
 
 - Voor sommige transactietypen kunt u meerdere transacties tegelijk selecteren en omkeren vanuit het journaal waarin de transactie is geboekt, of via de pagina **Boekstuktransacties**. De afzonderlijke transacties moesten echter omkeerbaar zijn voordat de functie werd ingeschakeld. Voordat deze functie werd geïntroduceerd, moesten transacties een voor een worden omgekeerd.
-- *Sommige* subgrootboektransacties kunnen worden omgekeerd vanuit het journaal (algemeen journaal) of de pagina **Boekstuktransacties**. Ze hoeven niet te worden omgekeerd via de subgrootboekpagina. Een leveranciersfactuurjournaal kon eerder bijvoorbeeld alleen worden omgekeerd via de pagina **Leverancierstransacties**. Het kunt nu echter ook vanuit het grootboek worden gedaan, via de pagina **Boekstuktransacties**. In elke sectie van dit onderwerp wordt uitgelegd voor welke transactietypen dit voordeel niet van toepassing is.
+- *Sommige* subgrootboektransacties kunnen worden omgekeerd vanuit het journaal (algemeen journaal) of de pagina **Boekstuktransacties**. Ze hoeven niet te worden omgekeerd via de subgrootboekpagina. Een leveranciersfactuurjournaal kon eerder bijvoorbeeld alleen worden omgekeerd via de pagina **Leverancierstransacties**. Het kunt nu echter ook vanuit het grootboek worden gedaan, via de pagina **Boekstuktransacties**. In elke sectie van dit artikel wordt uitgelegd voor welke transactietypen dit voordeel niet van toepassing is.
 
 Met de functie voor massaal omkeren kunnen **niet** meer typen transacties worden omgekeerd. Als een transactietype eerder niet kon worden omgekeerd, kan deze nog steeds niet worden omgekeerd als de functie is ingeschakeld. Leveranciersfacturen voor inkooporders kunnen bijvoorbeeld niet worden omgekeerd, ongeacht of de functie voor massaal omkeren is ingeschakeld.
 
@@ -189,7 +189,7 @@ De volgende typen transacties kunnen niet worden omgekeerd:
 
 Subjournalen voor klanten worden bijgewerkt met verschillende transactietypen. Voorbeelden zijn onder andere klantfacturen uit verkooporders, klantfacturen die via het algemene journaal worden ingevoerd, vrije-tekstfacturen, klantbetalingen en afschrijvingen.
 
-Als de functie voor massaal omkeren is uitgeschakeld, kunnen transacties afzonderlijk worden omgekeerd via de pagina **Klanttransacties** voor facturen of de pagina **Bankrekeningen** voor stortingen. Zie het gedeelte [Contanten en bankbeheer](cant-reverse-transctns.md#cash-and-bank-management) verderop in dit onderwerp voor informatie over het omkeren van een betaling.
+Als de functie voor massaal omkeren is uitgeschakeld, kunnen transacties afzonderlijk worden omgekeerd via de pagina **Klanttransacties** voor facturen of de pagina **Bankrekeningen** voor stortingen. Zie het gedeelte [Contanten en bankbeheer](cant-reverse-transctns.md#cash-and-bank-management) verderop in dit artikel voor informatie over het omkeren van een betaling.
 
 Als de functie Massaal omkeren is ingeschakeld, kunnen een of meer klanttransacties ook worden omgekeerd via de pagina **Boekstuktransacties** en vanuit het journaal waaruit de transacties zijn geboekt. Stortingen kunnen nog steeds alleen vanaf de bankrekening worden omgekeerd en vrije-tekstfacturen kunnen alleen via de oorspronkelijke pagina worden omgekeerd (als de functie voor het toestaan van correcties is ingeschakeld). Daarnaast kunnen klanttransacties nog steeds niet worden omgekeerd via de pagina **Transacties voor \<main account\>** voor het grootboek. Deze kunnen wel worden omgekeerd via de pagina **Boekstuktransacties**.
 

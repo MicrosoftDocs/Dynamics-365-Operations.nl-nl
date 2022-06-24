@@ -1,8 +1,8 @@
 ---
 title: Ondersteuning van parameteraanroepen voor ER-gegevensbronnen van het type Berekend veld
-description: Dit onderwerp biedt informatie over het gebruik van het type Berekend veld voor ER-gegevensbronnen.
+description: Dit artikel biedt informatie over het gebruik van het type Berekend veld voor ER-gegevensbronnen.
 author: NickSelin
-ms.date: 08/06/2020
+ms.date: 01/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fb09e1ccd4b2be08e43784330adf4092ca25f5a6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4a4933c429982d1371c7c9a9412789ae08e08f43
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349155"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934700"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Ondersteuning van parameteraanroepen voor ER-gegevensbronnen van het type Berekend veld
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u een ER-gegevensbron (elektronische rapportage) kunt ontwerpen met behulp van het type **Berekend veld**. Deze gegevensbron kan een ER-expressie bevatten die bij uitvoering kan worden bestuurd door de waarden van de parameterargumenten die zijn geconfigureerd in een binding die deze gegevensbron aanroept. Door parameteraanroepen voor een dergelijke gegevensbron te configureren, kunt u één gegevensbron in veel bindingen opnieuw gebruiken. Dit vermindert het totale aantal gegevensbronnen dat moet worden geconfigureerd in ER-modeltoewijzingen of ER-indelingen. Het vereenvoudigt ook het geconfigureerde ER-onderdeel, wat de onderhoudskosten en de kosten van gebruik door andere gebruikers verlaagt.
+In dit artikel wordt uitgelegd hoe u een ER-gegevensbron (elektronische rapportage) kunt ontwerpen met behulp van het type **Berekend veld**. Deze gegevensbron kan een ER-expressie bevatten die bij uitvoering kan worden bestuurd door de waarden van de parameterargumenten die zijn geconfigureerd in een binding die deze gegevensbron aanroept. Door parameteraanroepen voor een dergelijke gegevensbron te configureren, kunt u één gegevensbron in veel bindingen opnieuw gebruiken. Dit vermindert het totale aantal gegevensbronnen dat moet worden geconfigureerd in ER-modeltoewijzingen of ER-indelingen. Het vereenvoudigt ook het geconfigureerde ER-onderdeel, wat de onderhoudskosten en de kosten van gebruik door andere gebruikers verlaagt.
 
 ## <a name="prerequisites"></a>Vereisten
-Om de voorbeelden in dit onderwerp te kunnen voltooien, moet u toegang tot het volgende hebben:
+Om de voorbeelden in dit artikel te kunnen voltooien, moet u over de volgende toegangsrechten beschikken:
 
 - Maak gebruik van een van de volgende rollen:
 
@@ -36,7 +36,7 @@ Om de voorbeelden in dit onderwerp te kunnen voltooien, moet u toegang tot het v
     - Functioneel consultant elektronische rapportage
     - Systeembeheerder
 
-- Toegang tot RCS (Regulatory Configuration Services) die zijn ingericht voor dezelfde tenant als Finance and Operations voor een van de volgende rollen:
+- Start RCS (Regulatory Configuration Services) die zijn ingericht voor dezelfde tenant als Finance and Operations voor een van de volgende rollen:
 
     - Ontwikkelaar elektronische rapportage
     - Functioneel consultant elektronische rapportage
@@ -46,10 +46,10 @@ U moet ook de volgende bestanden downloaden en lokaal opslaan.
 
 | **Inhoud**                           | **Bestandsnaam**                                        |
 |---------------------------------------|------------------------------------------------------|
-| Voorbeeldconfiguratie van model voor ER-gegevens    | [Model voor het leren van parameteraanroepen.versie.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)     |
-| Voorbeeldconfiguratie van ER-metagegevens      | [Metagegevens voor het leren van parameteraanroepen.versie.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
-| Voorbeeldconfiguratie van ER-modeltoewijzing | [Toewijzing voor het leren van parameteraanroepen.versie.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Voorbeeldconfiguratie van ER-indeling        | [Indeling voor het leren van parameteraanroepen.versie.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
+| Voorbeeldconfiguratie van model voor ER-gegevens    | [Model voor het leren van parameteraanroepen.versie.1.xml](https://download.microsoft.com/download/e/5/c/e5c0d3f9-1818-47c7-ae75-46efcbb1314f/Modeltolearnparameterizedcallsversion.1.xml)     |
+| Voorbeeldconfiguratie van ER-metagegevens      | [Metagegevens voor het leren van parameteraanroepen.versie.1.xml](https://download.microsoft.com/download/8/3/a/83a910a5-bf65-4509-bec4-6737a81ecc45/Metadatatolearnparameterizedcalls.version.1.xml)  |
+| Voorbeeldconfiguratie van ER-modeltoewijzing | [Toewijzing voor het leren van parameteraanroepen.versie.1.xml](https://download.microsoft.com/download/b/f/d/bfd8cbd8-0370-44d1-a1b1-66d021c580ca/Mappingtolearnparameterizedcalls.version.1.1.xml) |
+| Voorbeeldconfiguratie van ER-indeling        | [Indeling voor het leren van parameteraanroepen.versie.1.xml](https://download.microsoft.com/download/8/1/d/81deb6d8-a768-4fcf-bbbe-8f84d2dac3eb/Formattolearnparameterizedcalls.version.1.1.xml)  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>Meld u aan bij uw RCS-exemplaar
 In dit voorbeeld maakt u een configuratie voor het voorbeeldbedrijf Litware, Inc. Eerst moet u in RCS de stappen uitvoeren in de procedure [Aanbieders van configuraties maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md):
@@ -306,7 +306,7 @@ Wanneer een berekend parameterveld een record retourneert, moet u binding van af
 U kunt de initiële en verbeterde ER-indelingen uitvoeren om te controleren of de geconfigureerde berekende parametervelden goed werken.
 
 ### <a name="import-er-configurations"></a>ER-configuraties importeren
-U kunt gecontroleerde configuraties vanuit RCS importeren door de ER-opslagplaats van het type **RCS** te gebruiken. Als u de stappen in het onderwerp [Configuraties voor Elektronische rapportage (ER) importeren uit Regulatory Configuration Services (RCS)](rcs-download-configurations.md) al hebt uitgevoerd, gebruikt u de geconfigureerde ER-opslagplaats om de configuraties die eerder in dit onderwerp zijn besproken in uw omgeving te importeren. Volg anders deze stappen:
+U kunt gecontroleerde configuraties vanuit RCS importeren door de ER-opslagplaats van het type **RCS** te gebruiken. Als u de stappen in het artikel [Configuraties voor Elektronische rapportage (ER) importeren uit Regulatory Configuration Services (RCS)](rcs-download-configurations.md) al hebt uitgevoerd, gebruikt u de geconfigureerde ER-opslagplaats om de configuraties die eerder in dit artikel zijn besproken in uw omgeving te importeren. Volg anders deze stappen:
 
 1. Selecteer het bedrijf **DEMF** en selecteer in het standaarddashboard de optie **Elektronische rapportage**.
 2. Selecteer **Rapportageconfiguraties**.

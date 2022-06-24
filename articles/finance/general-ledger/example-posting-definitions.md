@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e6af5fbd050642ac462ecb159c05d78f534f0ce
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: ae6b2b505acb211f9fb5506234953eba9f3ec2a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722544"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865767"
 ---
 # <a name="posting-definition-examples"></a>voorbeelden van boekdefinities
 
@@ -28,7 +28,7 @@ ms.locfileid: "8722544"
 
 Dit artikel bevat voorbeelden die laten zien hoe boekdefinities worden gebruikt voor vorderingen van inkooporders en budgettoewijzingen.
 
-Voordat u dit onderwerp leest, moet u vertrouwd zijn met de boekingsdefinities en transactieboekingsdefinities. Meer informatie vindt u onder [Boekdefinities](posting-definitions.md). De volgende voorbeelden kunnen worden ingesteld op de pagina **Boekdefinities**. Elk voorbeeld bevat deze secties:
+Voordat u dit artikel leest, moet u vertrouwd zijn met de boekingsdefinities en transactieboekingsdefinities. Meer informatie vindt u onder [Boekdefinities](posting-definitions.md). De volgende voorbeelden kunnen worden ingesteld op de pagina **Boekdefinities**. Elk voorbeeld bevat deze secties:
 
 -   Boekdefinitie – Matchcriteria
 -   Boekingsdefinitie – Gegenereerde vermeldingen

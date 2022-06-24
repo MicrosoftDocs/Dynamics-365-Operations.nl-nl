@@ -1,6 +1,6 @@
 ---
 title: Drempellimiet en uitzonderingsdrempellimiet
-description: In dit onderwerp worden de drempel- en uitzonderingslimieten voor TDS (belasting ingehouden op bron) beschreven.
+description: In dit artikel worden de drempel- en uitzonderingslimieten voor TDS (belasting ingehouden op bron) beschreven.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7fa7d871fdf25f29b003a68cacd9fc0d487dce5b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: aceebad08b5454b64059e7ef374b9634bad35c37
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726011"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877931"
 ---
 # <a name="threshold-limit-and-exception-threshold-limit"></a>Drempellimiet en uitzonderingsdrempellimiet
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de drempel- en uitzonderingslimieten voor TDS (belasting ingehouden op bron) beschreven. TDS op facturen en betalingen wordt altijd berekend rekening houdend met de drempellimiet en uitzonderingsdrempellimiet die gedefinieerd zijn voor de TDS-belastingcomponenten op de pagina **Bronbelastingcomponenten**. De TDS-belastingcomponenten zijn gekoppeld aan TDS-belastingcodes die zijn opgenomen in de TDS-belastinggroepen. De TDS-belastinggroepen worden gekoppeld aan leveranciers en klanten om TDS te berekenen op factuurniveau of betalingsniveau.
+In dit artikel worden de drempel- en uitzonderingslimieten voor TDS (belasting ingehouden op bron) beschreven. TDS op facturen en betalingen wordt altijd berekend rekening houdend met de drempellimiet en uitzonderingsdrempellimiet die gedefinieerd zijn voor de TDS-belastingcomponenten op de pagina **Bronbelastingcomponenten**. De TDS-belastingcomponenten zijn gekoppeld aan TDS-belastingcodes die zijn opgenomen in de TDS-belastinggroepen. De TDS-belastinggroepen worden gekoppeld aan leveranciers en klanten om TDS te berekenen op factuurniveau of betalingsniveau.
 
 TDS wordt berekend als het bedrag voor een transactie of de cumulatieve transacties die met een specifieke TDS-groep voor een leverancier zijn geboekt, de drempellimiet overschrijdt die is opgegeven op de pagina **Bronbelastingcomponenten**. TDS wordt pas berekend als het cumulatieve transactiebedrag de opgegeven drempellimiet overschrijdt.
 

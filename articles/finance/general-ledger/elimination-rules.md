@@ -1,6 +1,6 @@
 ---
-title: Schrappingsregels
-description: Dit onderwerp bevat informatie over schrappingsregels en de verschillende opties voor het rapporteren van schrappingen.
+title: Schrappingregels
+description: Dit artikel biedt informatie over schrappingsregels en de verschillende opties voor het rapporteren van schrappingen.
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e062e7541871d77803cbed475d715621b19537f1
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3eb3ea117959dbc51eb5666aad60299210ff3ac5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722628"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864305"
 ---
-# <a name="elimination-rules"></a>Schrappingsregels
+# <a name="elimination-rules"></a>Schrappingregels
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat informatie over schrappingsregels en de verschillende opties voor het rapporteren van schrappingen.
+Dit artikel biedt informatie over schrappingsregels en de verschillende opties voor het rapporteren van schrappingen.
 
 Schrappingtransacties zijn vereist wanneer de bovenliggende rechtspersoon zaken doet met een of meerdere dochtermaatschappijen en gebruik maakt van geconsolideerde financiële rapportage. Geconsolideerde financiële overzichten moeten alleen transacties bevatten die tussen de geconsolideerde organisatie en andere entiteiten buiten die organisaties plaatsvinden. Daarom moeten transacties tussen rechtspersonen die deel uitmaken van dezelfde organisatie worden verwijderd of geëlimineerd uit het grootboek, zodat ze niet in financiële rapporten worden weergegeven. Er zijn meerdere manieren om over schrappingen te rapporteren:
 
@@ -34,7 +34,7 @@ Schrappingtransacties zijn vereist wanneer de bovenliggende rechtspersoon zaken 
 -   Financiële rapportage kan worden gebruikt om de schrappingsrekeningen en -dimensies in een specifieke rij of kolom weer te geven.
 -   Een afzonderlijke rechtspersoon kan worden gebruikt om handmatige transactievermeldingen te boeken om schrappingen bij te houden.
 
-Dit onderwerp is gericht op schrappingsregels die in een consolidatie- of eliminatiebedrijf worden verwerkt. U kunt schrappingregels opstellen om schrappingtransacties te maken in een rechtspersoon die is opgegeven als de doelrechtspersoon voor schrappingen. Deze doelrechtspersoon wordt de eliminatierechtspersoon genoemd. Schrappingjournalen kunnen tijdens het consolidatieproces of met behulp van een schrappingsjournaalvoorstel worden gegenereerd. Voordat u schrappingregels opstelt, moet u vertrouwd zijn met de volgende definities:
+Dit artikel is gericht op schrappingsregels die in een consolidatie- of eliminatiebedrijf worden verwerkt. U kunt schrappingregels opstellen om schrappingtransacties te maken in een rechtspersoon die is opgegeven als de doelrechtspersoon voor schrappingen. Deze doelrechtspersoon wordt de eliminatierechtspersoon genoemd. Schrappingjournalen kunnen tijdens het consolidatieproces of met behulp van een schrappingsjournaalvoorstel worden gegenereerd. Voordat u schrappingregels opstelt, moet u vertrouwd zijn met de volgende definities:
 
 -   **Bronrechtspersoon** – De rechtspersoon waarop de bedragen die geschrapt worden, geboekt zijn.
 -   **Doelrechtspersoon** - De rechtspersoon waarop schrappingsregels worden geboekt.

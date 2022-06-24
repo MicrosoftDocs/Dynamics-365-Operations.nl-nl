@@ -1,6 +1,6 @@
 ---
 title: Voorspellingen voor klantbetalingen gebruiken
-description: In dit onderwerp worden de vereisten en algemene stappen doorlopen die nodig zijn om een proefversie van de Financiële inzichten te gebruiken.
+description: In dit artikel worden de vereisten en algemene stappen doorlopen die nodig zijn om een proefversie van Finance Insights te gebruiken.
 author: ShivamPandey-msft
 ms.date: 11/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: ecc864485dfc106df22b48e92a85f2c73d58e0e8
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 330642624b55a6772ef149b70873021401a6bd83
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740619"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901397"
 ---
 # <a name="use-customer-payment-predictions"></a>Voorspellingen voor klantbetalingen gebruiken
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u de Voorspellingen voor klantbetalingen kunt gebruiken. Voordat u deze functie gebruikt, moet u ervoor zorgen dat u de juiste installatiestappen hebt uitgevoerd. Zie [Voorspellingen voor klantbetalingen inschakelen](enable-cust-paymnt-prediction.md) voor meer informatie.
+In dit artikel wordt uitgelegd hoe u de Voorspellingen voor klantbetalingen kunt gebruiken. Voordat u deze functie gebruikt, moet u ervoor zorgen dat u de juiste installatiestappen hebt uitgevoerd. Zie [Voorspellingen voor klantbetalingen inschakelen](enable-cust-paymnt-prediction.md) voor meer informatie.
 
 U kunt voorspellingen voor klantbetalingen weergeven in het werkgebied **Klantcreditering en -aanmaning beheren** en op twee nieuwe lijstpagina's: **Voorspellingen voor transactiebetalingen** en **Voorspellingen voor klantbetalingen**.
 

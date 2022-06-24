@@ -1,6 +1,6 @@
 ---
 title: Problemen met het instellen van cashflowprognoses oplossen
-description: Dit onderwerp bevat beantwoorden op vragen die u kunt hebben wanneer u cashflowprognoses configureert. Hierin komen veelgestelde vragen (FAQ) over de opzet voor cashflow, updates van cashflow en cashflow Power BI aan de orde.
+description: Dit artikel bevat beantwoorden op vragen die u kunt hebben wanneer u cashflowprognoses configureert. Hierin komen veelgestelde vragen (FAQ) over de opzet voor cashflow, updates van cashflow en cashflow Power BI aan de orde.
 author: panolte
 ms.date: 03/23/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2020-12-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e2b5a8df84ff5159a85526251a6367857afa1808
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 0e3438bc07fde28d5d9d2d5b3d83bbe70692c0bd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724565"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878065"
 ---
 # <a name="troubleshoot-cash-flow-forecasting-setup"></a>Problemen met het instellen van cashflowprognoses oplossen
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat beantwoorden op vragen die u kunt hebben wanneer u cashflowprognoses configureert. Hierin komen veelgestelde vragen (FAQ) over de opzet voor cashflow, updates van cashflow en cashflow Power BI aan de orde.
+Dit artikel bevat beantwoorden op vragen die u kunt hebben wanneer u cashflowprognoses configureert. Hierin komen veelgestelde vragen (FAQ) over de opzet voor cashflow, updates van cashflow en cashflow Power BI aan de orde.
 
 ## <a name="why-is-cash-flow-shown-for-only-one-legal-entity"></a>Waarom wordt de cashflow voor slechts één rechtspersoon weergegeven?
 

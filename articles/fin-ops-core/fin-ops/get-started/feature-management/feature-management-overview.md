@@ -1,6 +1,6 @@
 ---
 title: Overzicht functiebeheer
-description: Dit onderwerp bevat een beschrijving van Functiebeheer en de manier waarop u deze kunt gebruiken.
+description: Dit artikel bevat een beschrijving van Functiebeheer en de manier waarop u deze kunt gebruiken.
 author: Peakerbl
 ms.date: 01/10/2022
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: c98bdbd64ee5488da20de3f5b23ae18ebce8c23f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 0691bc34ac8b57d20cfbeb58b6a2e2a03a57d067
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068004"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850046"
 ---
 # <a name="feature-management-overview"></a>Overzicht functiebeheer
 
@@ -41,7 +41,7 @@ De lijst met functies bevat de volgende informatie:
 - **Status** - een symbool geeft aan of een functie is ingeschakeld (vinkje), niet is ingeschakeld (leeg), ingepland is voor inschakeling (klok), verplicht is (slot), aandacht vereist vóór inschakelen (waarschuwingssymbool) of niet kan worden ingeschakeld (X). De instelling die wordt weergegeven, wordt gebruikt voor alle rechtspersonen. Houd er rekening mee dat zelfs wanneer een functie is ingeschakeld, deze nog steeds aan de beveiliging moet voldoen. Daarom is de functie alleen beschikbaar voor gebruikers die toegang hebben tot de functie op basis van hun beveiligingsrol. Deze is ook alleen beschikbaar voor rechtspersonen waartoe de gebruiker toegang heeft.
 - **Inschakeldatum**: de datum waarop de functie is ingeschakeld of gepland staat om te worden ingeschakeld.
 - **Toegevoegde functie**: de datum waarop de functie aan uw omgeving is toegevoegd. Deze datum wordt automatisch ingevoerd wanneer u uw omgeving bijwerkt tijdens de maandelijkse releasecycli.
-- **Staat functie** - De huidige levenscyclusstatus van de functie: **Voorbeeld**, **Vrijgegeven** (weergegeven als leeg), **Standaard ingeschakeld** en **Verplicht**. Later in dit onderwerp worden de verschillende staten in meer detail behandeld. 
+- **Staat functie** - De huidige levenscyclusstatus van de functie: **Voorbeeld**, **Vrijgegeven** (weergegeven als leeg), **Standaard ingeschakeld** en **Verplicht**. Later in dit artikel worden de verschillende staten in meer detail behandeld. 
 - **Module**: de module waarop de nieuwe functie van invloed is.
 
 > [!NOTE]
@@ -72,7 +72,7 @@ De kolom **functiestatus** is voor deze functies leeg. Functies die in eerste in
 
 ### <a name="on-by-default-features-optional"></a>Functies die standaard zijn ingeschakeld (optioneel)
 
-Functies die worden bijgewerkt naar **Standaard ingeschakeld** worden standaard ingeschakeld maar kunnen wel worden uitgeschakeld. Nadat functies die kunnen worden uitgeschakeld ten minste zes maanden in de staat **Vrijgegeven** hebben gestaan, gaan ze naar verwachting in de volgende hoofdversie naar deze status. Functies die overgaan naar **Standaard ingeschakeld** worden naar verwachting doorgegeven in het onderwerp [Wat is er nieuw](../whats-new-changed.md) van de versie. De update wordt gestart door het productteam dat eigenaar is.
+Functies die worden bijgewerkt naar **Standaard ingeschakeld** worden standaard ingeschakeld maar kunnen wel worden uitgeschakeld. Nadat functies die kunnen worden uitgeschakeld ten minste zes maanden in de staat **Vrijgegeven** hebben gestaan, gaan ze naar verwachting in de volgende hoofdversie naar deze status. Functies die overgaan naar **Standaard ingeschakeld** worden naar verwachting doorgegeven in het artikel [Wat is er nieuw](../whats-new-changed.md) van de versie. De update wordt gestart door het productteam dat eigenaar is.
 
 > [!NOTE]
 > Omdat deze functies automatisch worden ingeschakeld, is het van belang dat u bepaalt of uw organisatie gereed is om deze functies te gaan gebruiken of dat er meer tijd nodig is. Als er meer tijd nodig is, kan het nodig zijn om deze functies tijdelijk uit te schakelen. De overgang van een functie naar **Standaard ingeschakeld** wordt meestal uitgevoerd in de hoofdversie voordat de functie **Verplicht** wordt. Op dat moment hebt u niet de mogelijkheid om de functie uit te schakelen. 

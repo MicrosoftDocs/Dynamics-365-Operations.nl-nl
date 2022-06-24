@@ -1,6 +1,6 @@
 ---
 title: Werknemer salarisadministratie
-description: Dit onderwerp bevat details en een voorbeeldquery voor de entiteit Werknemer in salarisadministratie in Dynamics 365 Human Resources.
+description: Dit artikel bevat details en een voorbeeldquery voor de entiteit Werknemer in salarisadministratie in Dynamics 365 Human Resources.
 author: jcart
 ms.date: 08/25/2021
 ms.topic: article
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e853a8a5730d397f253c8ce3a330794594dfd907
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b07fbc76b997600b2c076c00a63d1f6d865326d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068479"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872205"
 ---
-# <a name="payroll-employee"></a>Werknemer in salarisadministratie
+# <a name="payroll-employee"></a>Werknemer salarisadministratie
 
 
 [!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp wordt de entiteit Werknemer in salarisadministratie voor Dynamics 365 Human Resources beschreven.
+In dit artikel wordt de entiteit Werknemer in salarisadministratie voor Dynamics 365 Human Resources beschreven.
 
 Fysieke naam: mshr_payrollemployeeentity.
 

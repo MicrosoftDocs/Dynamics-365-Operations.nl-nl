@@ -1,6 +1,6 @@
 ---
 title: Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
-description: Dit onderwerp bevat informatie over het ontwerpen van een ER-indeling (Elektronische rapportage) voor het invullen van een Excel-sjabloon en het genereren van uitgaande Excel-documenten.
+description: Dit artikel bevat informatie over het ontwerpen van een ER-indeling (Elektronische rapportage) voor het invullen van een Excel-sjabloon en het genereren van uitgaande Excel-documenten.
 author: NickSelin
 ms.date: 05/09/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a34f990c865aa8c82213a60c23d5a44ad75aee4
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 4660aaf438ee091eed30387d984746ac2c3b4bd7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811415"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854809"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
 
@@ -28,7 +28,7 @@ ms.locfileid: "8811415"
 
 U kunt een configuratie voor [elektronische rapportage (ER)](general-electronic-reporting.md) ontwerpen met een ER-indelingsonderdeel dat u kunt configureren om een uitgaand document in een Microsoft Excel-werkmapindeling te genereren. Hiervoor moeten specifieke ER-indelingsonderdelen worden gebruikt.
 
-Volg de stappen in het onderwerp [Een configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling](tasks/er-design-reports-openxml-2016-11.md) voor meer informatie over deze functie.
+Volg de stappen in het artikel [Een configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling](tasks/er-design-reports-openxml-2016-11.md) voor meer informatie over deze functie.
 
 ## <a name="add-a-new-er-format"></a>Een nieuwe ER-indeling toevoegen
 
@@ -263,7 +263,7 @@ Voor een enkel onderdeel **Werkblad** kunt u verschillende onderdelen **Voetteks
 
 Voeg onder het onderdeel **Voettekst** de vereiste geneste onderdelen van de **Tekst\\Tekenreeks**, **Tekst\\Datum/tijd** of een ander type toe. Configureer de bindingen voor deze onderdelen om op te geven hoe de voettekst van uw pagina wordt ingevuld.
 
-U kunt ook speciale [opmaakcodes](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) gebruiken om de inhoud van een gegenereerde voettekst correct op te maken. Volg de stappen in [Voorbeeld 1](#example-1), verderop in dit onderwerp, om te weten te komen hoe u deze methode moet gebruiken.
+U kunt ook speciale [opmaakcodes](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) gebruiken om de inhoud van een gegenereerde voettekst correct op te maken. Volg de stappen in [Voorbeeld 1](#example-1), verderop in dit artikel, om te weten te komen hoe u deze methode moet gebruiken.
 
 > [!NOTE]
 > Wanneer u ER-indelingen configureert, moet u rekening houden met de Excel-[limiet](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) en het maximale aantal tekens voor een enkele kop- of voettekst.

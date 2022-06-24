@@ -1,6 +1,6 @@
 ---
 title: Directe integratie van Italiaanse FatturaPA met SDI instellen
-description: Dit onderwerp biedt informatie die u zal helpen om aan de slag te gaan met elektronische facturering voor Italië en om directe integratie van Italiaanse FatturaPA met het Exchange-systeem (SDI) in te stellen.
+description: Dit artikel biedt informatie die u zal helpen om aan de slag te gaan met elektronische facturering voor Italië en om directe integratie van Italiaanse FatturaPA met het Exchange-systeem (SDI) in te stellen.
 author: abaryshnikov
 ms.date: 01/15/2022
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 73cb08c880d7b3459201acfc7aeaa8d0dee1674f
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 510cf05e7bbc925478f9a1a4ea2ea27fe397c570
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984798"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853187"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>Directe integratie van Italiaanse FatturaPA met SDI instellen
 
@@ -24,21 +24,21 @@ ms.locfileid: "7984798"
 > [!IMPORTANT]
 > Elektronische facturering voor Italië ondersteunt momenteel mogelijk niet alle functies die beschikbaar zijn voor elektronische facturen in Microsoft Dynamics 365 Finance en Dynamics 365 Supply Chain Management.
 
-Dit onderwerp bevat informatie waarmee u aan de slag kunt met Elektronische facturering voor Italië in Finance en Supply Chain Management. U wordt door de configuratiestappen geleid die land-/regioafhankelijk zijn in de Regulatory Configuration Services (RCS). Deze stappen vullen de stappen aan die worden beschreven in [Aan de slag met Elektronische facturering](e-invoicing-get-started.md).
+Dit artikel bevat informatie waarmee u aan de slag kunt met Elektronische facturering voor Italië in Finance en Supply Chain Management. U wordt door de configuratiestappen geleid die land-/regioafhankelijk zijn in de Regulatory Configuration Services (RCS). Deze stappen vullen de stappen aan die worden beschreven in [Aan de slag met Elektronische facturering](e-invoicing-get-started.md).
 
 ## <a name="prerequisites"></a>Vereisten
 
-Voordat u de stappen in dit onderwerp uitvoert, moet aan de volgende vereisten zijn voldaan:
+Voordat u de stappen in dit artikel uitvoert, moet aan de volgende vereisten zijn voldaan:
 
 - Voer de stappen in [Aan de slag met servicebeheer voor Elektronische facturering](e-invoicing-get-started.md) uit.
-- Importeer de functie **Italiaanse FatturaPA (IT)** voor elektronische facturering in RCS vanuit de algemene opslagplaats. Zie de functie [Een functie voor elektronische facturering importeren vanuit de sectie van de Microsoft-configuratieprovider](e-invoicing-get-started.md#import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider) van het eerder genoemde onderwerp 'Aan de slag met elektronische facturering' voor meer informatie.
-- Voeg koppelingen van de vereiste certificaten toe aan de serviceomgeving. De vereiste certificaten zijn het certificaat voor digitale handtekening, het CA-certificaat (Certificate Authority) en het Clients-certificaat. Zie de sectie [Een digitaal certificaatgeheim maken](e-invoicing-get-started-service-administration.md#create-a-digital-certificate-secret) van het onderwerp 'Aan de slag met servicebeheer via Elektronische facturering' voor meer informatie.
+- Importeer de functie **Italiaanse FatturaPA (IT)** voor elektronische facturering in RCS vanuit de algemene opslagplaats. Zie de functie [Een functie voor elektronische facturering importeren vanuit de sectie van de Microsoft-configuratieprovider](e-invoicing-get-started.md#import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider) van het eerder genoemde artikel 'Aan de slag met elektronische facturering' voor meer informatie.
+- Voeg koppelingen van de vereiste certificaten toe aan de serviceomgeving. De vereiste certificaten zijn het certificaat voor digitale handtekening, het CA-certificaat (Certificate Authority) en het Clients-certificaat. Zie de sectie [Een digitaal certificaatgeheim maken](e-invoicing-get-started-service-administration.md#create-a-digital-certificate-secret) van het artikel 'Aan de slag met servicebeheer via Elektronische facturering' voor meer informatie.
 
 ## <a name="country-specific-configuration-for-the-italian-fatturapa-it-electronic-invoicing-feature"></a>Landspecifieke configuratie voor de Italiaanse functie FatturaPA (IT) voor elektronische facturering
 
 Voltooi de volgende procedure voordat u de toepassingsinstellingen implementeert naar uw verbonden Finance- of Supply Chain Management-app.
 
-Deze sectie is een aanvulling op de sectie [Landspecifieke configuratie van toepassingsinstellingen](e-invoicing-get-started.md#country-specific-configuration-of-application-setup) in het onderwerp 'Aan de slag met elektronische facturering'.
+Deze sectie is een aanvulling op de sectie [Landspecifieke configuratie van toepassingsinstellingen](e-invoicing-get-started.md#country-specific-configuration-of-application-setup) in het artikel 'Aan de slag met elektronische facturering'.
 
 ### <a name="create-a-new-feature"></a>Een nieuwe functie maken
 
@@ -87,8 +87,8 @@ Deze sectie is een aanvulling op de sectie [Landspecifieke configuratie van toep
 
 ### <a name="deploy-the-feature"></a>De functie implementeren
 
-1. Voltooi, publiceer en implementeer de functie voor de serviceomgeving. Zie de sectie [De functie voor elektronische facturering implementeren in de serviceomgeving](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-service-environment) van het onderwerp 'Aan de slag met elektronische facturering' voor meer informatie.
-2. Implementeer de functie in de verbonden toepassing. Zie de sectie [De functie voor elektronische facturering implementeren met verbonden toepassing](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-connected-application) van het onderwerp 'Aan de slag met elektronische facturering' voor meer informatie.
+1. Voltooi, publiceer en implementeer de functie voor de serviceomgeving. Zie de sectie [De functie voor elektronische facturering implementeren in de serviceomgeving](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-service-environment) van het artikel 'Aan de slag met elektronische facturering' voor meer informatie.
+2. Implementeer de functie in de verbonden toepassing. Zie de sectie [De functie voor elektronische facturering implementeren met verbonden toepassing](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-connected-application) van het artikel 'Aan de slag met elektronische facturering' voor meer informatie.
 
 ### <a name="set-up-finance"></a>Finance instellen
 

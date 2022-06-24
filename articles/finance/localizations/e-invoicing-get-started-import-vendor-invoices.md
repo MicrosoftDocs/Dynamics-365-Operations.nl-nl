@@ -1,6 +1,6 @@
 ---
-title: De service voor Elektronische facturering gebruiken om leveranciersfacturen te importeren
-description: Dit onderwerp bevat informatie over het importeren van leveranciersfacturen met de service voor elektronische facturering.
+title: De service voor elektronische facturering gebruiken om leveranciersfacturen te importeren
+description: Dit artikel bevat informatie over het importeren van leveranciersfacturen met de service voor elektronische facturering.
 author: gionoder
 ms.date: 09/03/2021
 ms.topic: article
@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c28adbfe532e77a52cab7625b9539d1e8e528bea
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.openlocfilehash: 2d239bbafad9292ba6cef5534e778a2824a9cc5a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "7983818"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865579"
 ---
-# <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>De service voor Elektronische facturering gebruiken om leveranciersfacturen te importeren
+# <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>De service voor elektronische facturering gebruiken om leveranciersfacturen te importeren
 
 [!include [banner](../includes/banner.md)]
 
 [!include [banner](../includes/preview-banner.md)]
 
-Dit onderwerp bevat informatie waarmee u aan de slag kunt met het importeren van leveranciersfacturen met de service voor elektronische facturering. Dit onderwerp helpt u bij de uitvoering van de configuratiestappen in RCS (Regulatory Configuration Services), Dynamics 365 Finance en Dynamics 365 Supply Chain Management om elektronische leveranciersfacturen van de leveranciers te ontvangen.
+Dit artikel bevat informatie waarmee u aan de slag kunt met het importeren van leveranciersfacturen met de service voor elektronische facturering. Dit artikel helpt u bij de uitvoering van de configuratiestappen in RCS (Regulatory Configuration Services), Dynamics 365 Finance en Dynamics 365 Supply Chain Management om elektronische leveranciersfacturen van de leveranciers te ontvangen.
 
 ## <a name="set-up-vendor-invoice-import-in-rcs"></a>Importeren van leveranciersfacturen in RCS instellen
 Voer de volgende stappen uit om het importeren van leveranciersfacturen in RCS in te stellen:

@@ -1,6 +1,6 @@
 ---
 title: Leveranciersfactuurbeleid instellen
-description: In dit onderwerp wordt uitgelegd u beleidsregels instelt voor leveranciersfacturen.
+description: In dit artikel wordt uitgelegd hoe u beleidsregels instelt voor leveranciersfacturen.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f9707c7b283f42729126efa57e890e0df65ca8b
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 049b38b6feba5f4369d79b89b4c81a8195dd7758
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109751"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904725"
 ---
 # <a name="set-up-vendor-invoice-policies"></a>Leveranciersfactuurbeleid instellen
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd u beleidsregels instelt voor leveranciersfacturen. Beleidsregels voor leveranciersfacturen worden uitgevoerd wanneer u een leveranciersfactuur boekt met behulp van de pagina **Leveranciersfactuur** en wanneer u de leveranciersfactuurpagina **Beleidsovertredingen** opent. U kunt tevens de workflow van de leveranciersfactuur configureren, om iedere keer wanneer u een factuur naar de workflow verzendt, leveranciersfactuurbeleid uit te voeren. 
+In dit artikel wordt uitgelegd hoe u beleidsregels instelt voor leveranciersfacturen. Beleidsregels voor leveranciersfacturen worden uitgevoerd wanneer u een leveranciersfactuur boekt met behulp van de pagina **Leveranciersfactuur** en wanneer u de leveranciersfactuurpagina **Beleidsovertredingen** opent. U kunt tevens de workflow van de leveranciersfactuur configureren, om iedere keer wanneer u een factuur naar de workflow verzendt, leveranciersfactuurbeleid uit te voeren. 
 
 - Beleidsregels voor leveranciersfacturen gelden niet voor facturen die in het facturenregister of facturenjournaal gemaakt zijn.  
 - Valideren van factuurvereffening maakt geen gebruik van beleidsregels voor leveranciersfacturen, maar is in plaats daarvan ingesteld in de pagina **Parameters van module Leveranciers**.  

@@ -1,6 +1,6 @@
 ---
 title: Leaseboekingsrekeningen instellen
-description: Dit onderwerp bevat een overzicht van de boekingsrekeningen die nodig zijn voor de transacties voor activaleases en legt uit hoe u boekingsrekeningen kunt definiëren op de pagina Leaseboekingsparameters.
+description: Dit artikel bevat een overzicht van de boekingsrekeningen die nodig zijn voor de transacties voor activaleases en legt uit hoe u boekingsrekeningen kunt definiëren op de pagina Leaseboekingsparameters.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 147d8cd93f9664039b2004b878dcaff96c8b6ce6
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 6e3a0d8dd3bb3e58ca10b2efce0cc88a2f48d2de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726373"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859909"
 ---
 # <a name="set-up-lease-posting-accounts"></a>Leaseboekingsrekeningen instellen
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat een overzicht van de boekingsrekeningen die nodig zijn voor de transacties voor activaleases en legt uit hoe u boekingsrekeningen kunt definiëren op de pagina **Leaseboekingsparameters**.
+Dit artikel bevat een overzicht van de boekingsrekeningen die nodig zijn voor de transacties voor activaleases en legt uit hoe u boekingsrekeningen kunt definiëren op de pagina **Leaseboekingsparameters**.
 
 Om te voldoen aan Accounting Standards Codification Topic 842 (ASC 842) en International Financial Reporting Standard 16 (IFRS 16) moet u mogelijk rekeningen in uw rekeningschema maken. Rekeningen die u maakt om te voldoen aan de ASC- en IFRS-standaarden, zijn echter geen vaste-activarekeningen. Onder ASC 842 wordt een RoU-activum (met gebruiksrecht) geregistreerd voor zowel financiële als operationele leases. Deze leases staan los van de vaste activa. (U kunt nog steeds een RoU-activum onderhouden met behulp van vaste activa.)
 

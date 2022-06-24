@@ -1,6 +1,6 @@
 ---
 title: Fiscale kalenders, boekjaren en boekperioden
-description: In dit onderwerp worden fiscale kalenders, boekjaren en perioden beschreven en wordt aangegeven hoe ze voor rechtspersonen, vaste activa en budgettering moeten worden gebruikt.
+description: In dit artikel worden fiscale kalenders, boekjaren en perioden beschreven en wordt aangegeven hoe ze voor rechtspersonen, vaste activa en budgettering moeten worden gebruikt.
 author: aprilolson
 ms.date: 03/05/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d50db3a96d6267f59dd5a99c039dd8fc8b44079a
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: a1583df4650d0b36ecc2cb0d3e2d3a410aa807ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717385"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909093"
 ---
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Fiscale kalenders, boekjaren en boekperioden
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden fiscale kalenders, boekjaren en perioden beschreven en wordt aangegeven hoe ze voor rechtspersonen, vaste activa en budgettering moeten worden gebruikt.
+In dit artikel worden fiscale kalenders, boekjaren en perioden beschreven en wordt aangegeven hoe ze voor rechtspersonen, vaste activa en budgettering moeten worden gebruikt.
 
 Fiscale kalenders vormen een raamwerk voor de financiële activiteiten van een organisatie. Elke fiscale kalender bevat een of meer boekjaren, en elk boekjaar bevat meerdere perioden. Fiscale kalenders kunnen zijn gebaseerd op een kalenderjaar van 1 januari tot 31 december op elke andere datum die u selecteert. Sommige organisaties kiezen bijvoorbeeld een fiscale kalender die op 1 juli van het ene jaar begint en op 30 juni van het volgende jaar eindigt. 
 

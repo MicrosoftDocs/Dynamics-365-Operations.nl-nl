@@ -1,6 +1,6 @@
 ---
 title: Power BI-inhoud - compensatie en vergoedingen
-description: In dit onderwerp wordt Power BI-inhoud voor Compensatie en vergoedingen besproken.
+description: In dit artikel wordt Power BI-inhoud voor Compensatie en vergoedingen besproken.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 13f084ba49baa01eea99822baa6960136725140a80c9d29a4104aabc5d7d5dca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bed0e8ffbd23c6793c037bade218f637105734b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772077"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908614"
 ---
 # <a name="compensation-and-benefits-power-bi-content"></a>Power BI-inhoud - compensatie en vergoedingen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt Power BI-inhoud voor Compensatie en vergoedingen besproken. 
+In dit artikel wordt Power BI-inhoud voor Compensatie en vergoedingen besproken. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Rapporten die zijn opgenomen in het inhoudpakket
 Nadat u het inhoudpakket aan uw gegevens hebt gekoppeld, geven de rapporten de gegevens van uw organisatie weer. Als u Microsoft Power BI nog niet eerder hebt gebruikt, raadpleegt u de pagina [Guided Learning for Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). De rapporten die zijn opgenomen in het inhoudpakket, bevatten diagrammen en tabellen met aanvullende informatie. De onderstaande tabel geeft een overzicht van de rapporten.

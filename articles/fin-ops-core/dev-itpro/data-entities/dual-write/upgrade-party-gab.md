@@ -1,6 +1,6 @@
 ---
 title: Bijwerken naar het model voor partij en globaal adresboek
-description: In dit onderwerp wordt beschreven hoe u gegevens voor twee keer wegschrijven kunt upgraden naar het partij- en globale adresboekmodel.
+description: In dit artikel wordt beschreven hoe u gegevens voor twee keer wegschrijven kunt upgraden naar het partij- en globale adresboekmodel.
 author: RamaKrishnamoorthy
 ms.date: 03/10/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 22b31b46b247ca5f2d6b8b93f58c090b03a2b38c
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 10c5d9eb3f98887be976c2331f4d34530628702c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688369"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895271"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Bijwerken naar het model voor partij en globaal adresboek
 
@@ -40,7 +40,7 @@ Aan het einde van het proces worden de volgende CSV-bestanden (Comma Separated V
 | ImportFONewPostalAddress.csv | Met dit bestand kunt u nieuwe **Postadres**-records maken in de app voor financiële en bedrijfsactiviteiten. |
 | ImportFONewElectronicAddress.csv | Met dit bestand kunt u nieuwe **Elektronische adres**-records maken in de app voor financiële en bedrijfsactiviteiten. |
 
-In dit onderwerp wordt uitgelegd hoe u de Data Factory-sjablonen kunt gebruiken en uw gegevens kunt upgraden. Als u geen aanpassingen hebt, kunt u de sjablonen ongewijzigd gebruiken. Als u echter aanpassingen hebt voor gegevens van het type **Account**, **Contactpersoon** en **Leverancier**, moet u de sjablonen wijzigen zoals beschreven in dit onderwerp.
+In dit artikel wordt uitgelegd hoe u de Data Factory-sjablonen kunt gebruiken en uw gegevens kunt upgraden. Als u geen aanpassingen hebt, kunt u de sjablonen ongewijzigd gebruiken. Als u echter aanpassingen hebt voor gegevens van het type **Account**, **Contactpersoon** en **Leverancier**, moet u de sjablonen wijzigen zoals beschreven in dit artikel.
 
 > [!IMPORTANT]
 > Er zijn speciale instructies voor het uitvoeren van de sjablonen voor postadressen voor partijen en elektronische adressen voor partijen. U moet eerst de sjabloon voor de partij uitvoeren, daarna de sjabloon voor het postadres van de partij en vervolgens de sjabloon voor het elektronisch adres van de partij. Elke sjabloon is ontworpen om in een afzonderlijke data factory te worden geïmporteerd.

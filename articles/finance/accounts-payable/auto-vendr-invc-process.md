@@ -1,6 +1,6 @@
 ---
 title: Overzicht van geautomatiseerde processen voor leveranciersfacturering
-description: In dit onderwerp wordt de mogelijkheid beschreven om uw leveranciersfactuurverwerking te automatiseren en de voordelen van het gebruik van een geautomatiseerd proces.
+description: In dit artikel wordt de mogelijkheid beschreven om uw leveranciersfactuurverwerking te automatiseren en de voordelen van het gebruik van een geautomatiseerd proces.
 author: abruer
 ms.date: 02/12/2021
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f21b76bb0d30370e4ea4fdd718999d537e9ce925
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: d2c629ed2d064a3350ec8ffe53940098d12ab0b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358420"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883440"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Overzicht van geautomatiseerde processen voor leveranciersfacturering
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt de mogelijkheid beschreven om uw leveranciersfactuurverwerking te automatiseren en de voordelen van het gebruik van een geautomatiseerd proces. Deze mogelijkheid bestaat uit functies die worden ingeschakeld in Functiebeheer. Deze functies zijn alleen van toepassing op leveranciersfacturen en niet op facturen die worden verwerkt via de pagina **Factuurjournaal** of **Facturenregisterjournaal**.
+In dit artikel wordt de mogelijkheid beschreven om uw leveranciersfactuurverwerking te automatiseren en de voordelen van het gebruik van een geautomatiseerd proces. Deze mogelijkheid bestaat uit functies die worden ingeschakeld in Functiebeheer. Deze functies zijn alleen van toepassing op leveranciersfacturen en niet op facturen die worden verwerkt via de pagina **Factuurjournaal** of **Facturenregisterjournaal**.
 
 Organisaties werken vaak met derden om papieren facturen te verwerken met behulp van een OCR-serviceprovider (Optical Character Recognition). De serviceprovider retourneert door machines leesbare metagegevens van facturen. Voor hulp bij automatisering kunt u met de automatiseringsfuncties van Leveranciers deze artefacten vanuit Leveranciers gebruiken.
 

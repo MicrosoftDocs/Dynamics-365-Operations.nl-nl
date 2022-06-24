@@ -1,6 +1,6 @@
 ---
 title: Leases toevoegen of kopiëren (preview)
-description: In dit onderwerp wordt beschreven hoe u een nieuwe lease maakt door informatie in te voeren in Activa leasen of door gegevens uit een bestaande lease te kopiëren.
+description: In dit artikel wordt beschreven hoe u een nieuwe lease maakt door informatie in te voeren in Activa leasen of door gegevens uit een bestaande lease te kopiëren.
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b09a87c7d4f5ba076647218c3586d17a13e6c558
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 798ab3ece45ee6f21694a364cfb7a4ff14a9c8aa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967921"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880927"
 ---
 # <a name="add-or-copy-leases-preview"></a>Leases toevoegen of kopiëren (preview)
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u een geheel nieuwe lease maakt in Activa leasen en hoe u een lease kunt maken door een bestaande lease te kopiëren. Het proces voor het maken van een nieuwe lease omvat het invoeren van gegevens voor de nieuwe lease en het maken van een leaseschema. Nadat er ten minste één lease is ingesteld, kunt u de informatie uit een bestaande lease kopiëren en vervolgens de gegevens bewerken die u nodig hebt om een nieuwe lease te maken.
+In dit artikel wordt uitgelegd hoe u een geheel nieuwe lease maakt in Activa leasen en hoe u een lease kunt maken door een bestaande lease te kopiëren. Het proces voor het maken van een nieuwe lease omvat het invoeren van gegevens voor de nieuwe lease en het maken van een leaseschema. Nadat er ten minste één lease is ingesteld, kunt u de informatie uit een bestaande lease kopiëren en vervolgens de gegevens bewerken die u nodig hebt om een nieuwe lease te maken.
 
 ## <a name="create-a-lease"></a>Een lease maken
 

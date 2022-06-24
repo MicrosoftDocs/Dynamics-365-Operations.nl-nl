@@ -1,6 +1,6 @@
 ---
 title: Conflicten bij scheiding van taken identificeren en oplossen
-description: In dit onderwerp wordt uitgelegd hoe u conflicten bij de scheiding van taken kunt identificeren en oplossen.
+description: In dit artikel wordt uitgelegd hoe u conflicten bij de scheiding van taken kunt identificeren en oplossen.
 author: peakerbl
 ms.date: 01/04/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0638699c0e569bbe67024a87d6c55729642557cb085ee899aa98aa0022b12840
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd36db5df2b6871d410bb1feaae825909ec9b3ff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748307"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883472"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>Conflicten bij scheiding van taken identificeren en oplossen
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u conflicten bij de scheiding van taken kunt identificeren en oplossen. U kunt regels instellen om taken te scheiden die door verschillende gebruikers moeten worden uitgevoerd. Dit concept wordt scheiding van taken genoemd. Wanneer de definitie van een beveiligingsrol of de roltoewijzingen van een gebruiker de regels overtreden, wordt het conflict vastgelegd. Alle conflicten moeten door de beheerder worden opgelost. Voer de volgende procedure uit om conflicten te identificeren en op te lossen.
+In dit artikel wordt uitgelegd hoe u conflicten bij de scheiding van taken kunt identificeren en oplossen. U kunt regels instellen om taken te scheiden die door verschillende gebruikers moeten worden uitgevoerd. Dit concept wordt scheiding van taken genoemd. Wanneer de definitie van een beveiligingsrol of de roltoewijzingen van een gebruiker de regels overtreden, wordt het conflict vastgelegd. Alle conflicten moeten door de beheerder worden opgelost. Voer de volgende procedure uit om conflicten te identificeren en op te lossen.
 
 Controleer nadat u een regel hebt toegevoegd of alle bestaande rollen compatibel zijn. 
 

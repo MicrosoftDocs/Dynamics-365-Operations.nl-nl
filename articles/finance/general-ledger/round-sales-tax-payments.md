@@ -1,6 +1,6 @@
 ---
 title: Btw-betalingen en afrondingsregels
-description: In dit onderwerp wordt uitgelegd hoe u afrondingregels kunt instellen voor de belastingdienst en hoe u het btw-bedrag kunt afronden tijdens de taak Btw vereffenen en boeken.
+description: In dit artikel wordt uitgelegd hoe de instelling van afrondingregels voor de btw-dienst werkt en afronding van het btw-saldo tijdens de taak Btw vereffenen en boeken.
 author: kailiang
 ms.date: 10/29/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff69afae675b9f8824ac0b29b5611420136b6a57
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 5c24a9850543e9d08ee1726186f433c7cfd26608
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726545"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865678"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>Btw-betalingen en afrondingsregels
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u afrondingregels kunt instellen voor de belastingdienst en hoe u het btw-bedrag kunt afronden tijdens de taak Btw vereffenen en boeken.
+In dit artikel wordt uitgelegd hoe de instelling van afrondingregels voor de btw-dienst werkt en afronding van het btw-saldo tijdens de taak Btw vereffenen en boeken.
 
 Periodiek moet btw worden aangegeven en betaald aan de belastingdienst. Deze actie kan worden voltooid door het proces Btw vereffenen en boeken op de pagina **Btw** uit te voeren. Btw voor een periode wordt vereffend voor de btw-rekeningen en het btw-saldo wordt naar de rekening Btw-vereffening geboekt. Het btw-saldo, dat naar de rekening Btw-vereffening wordt geboekt, kan worden afgerond zoals vereist wordt door de belastingdienst door een afrondingregel in te stellen op de pagina **Btw**. 
 

@@ -1,6 +1,6 @@
 ---
 title: Ondersteuning van twee valuta's voor belasting
-description: In dit onderwerp wordt uitgelegd hoe u de functie voor boekhouding met twee valuta's uitbreidt in het belastingdomein en wat de gevolgen zijn bij het berekenen en boeken van belasting
+description: In dit artikel wordt uitgelegd hoe u de functie voor boekhouding met twee valuta's uitbreidt in het belastingdomein en wat de gevolgen zijn bij het berekenen en boeken van belasting
 author: EricWang
 ms.date: 12/11/2020
 ms.topic: article
@@ -15,17 +15,17 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fcd5a3afb442d9c85aba12b7782cf09f88f0e51a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 13d70d964a83c2efba090244d549bdb38ad25af2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713039"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909035"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Ondersteuning van twee valuta's voor btw
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u boekhouding met twee valuta's voor btw uitbreidt en wat de gevolgen zijn voor btw-berekeningen, boekingen en vereffeningen
+In dit artikel wordt uitgelegd hoe u boekhouding met twee valuta's voor btw uitbreidt en wat de gevolgen zijn voor btw-berekeningen, boekingen en vereffeningen
 
 De functie voor twee valuta's voor Dynamics 365 Finance werd geïntroduceerd in versie 8.1 (oktober 2018). Het verandert de manier waarop boekhoudvermeldingen in de aangiftevaluta worden berekend.
 
@@ -89,7 +89,7 @@ Deze functie is alleen van toepassing op nieuwe transacties. Voor belastingtrans
 
 Om het voorgaande scenario te voorkomen, wordt u aangeraden deze parameterwaarde te wijzigen in een nieuwe (schone) belastingvereffeningsperiode die geen niet-vereffende belastingtransacties bevat. Als u deze waarde wilt wijzigen in het midden van een vereffeningsperiode voor belasting, voert u de optie 'Btw vereffenen en boeken' uit voor de huidige vereffeningsperiode voor belasting voordat u deze parameterwaarde wijzigt.
 
-Met deze functie voegt u boekhoudregels toe die winsten en verliezen door valutaomrekeningen verduidelijken. De posten worden gemaakt in de gerealiseerde winst- en verliesrekeningen van valutacorrecties wanneer de herwaardering wordt uitgevoerd tijdens de btw-vereffening. Zie de sectie [Automatisch belastingsvereffeningssaldo in aangiftevaluta](#tax-settlement-auto-balance-in-reporting-currency) verderop in dit onderwerp voor meer informatie.
+Met deze functie voegt u boekhoudregels toe die winsten en verliezen door valutaomrekeningen verduidelijken. De posten worden gemaakt in de gerealiseerde winst- en verliesrekeningen van valutacorrecties wanneer de herwaardering wordt uitgevoerd tijdens de btw-vereffening. Zie de sectie [Automatisch belastingsvereffeningssaldo in aangiftevaluta](#tax-settlement-auto-balance-in-reporting-currency) verderop in dit artikel voor meer informatie.
 
 > [!NOTE]
 > Tijdens de vereffening worden gegevens voor financiële dimensies overgenomen uit btw-rekeningen, die balansrekeningen zijn, en ingevoerd in winst-en-verliesrekeningen voor valutacorrecties. Dit zijn winst-en-verliesrekeningen. Aangezien de beperkingen voor de waarde van financiële dimensies tussen balansrekeningen en verlies-en-winstrekeningen verschillen, kan er een fout optreden tijdens het proces Btw vereffenen en boeken. Als u wilt voorkomen dat u rekeningstructuren moet wijzigen, kunt u de functie "Financiële dimensies invullen voor de gerealiseerde winst-/verliesrekeningen voor valutacorrectie voor btw-vereffening" inschakelen. Met deze functie wordt de derivatie van financiële dimensies voor winst-/verliesrekeningen voor valutacorrecties afgedwongen. 

@@ -1,6 +1,6 @@
 ---
 title: Een betaling voor bronbelasting maken
-description: De procedure voor de taak Betaling bronbelasting vereffent bronbelastingsaldi van Leveranciers op bronbelastingrekeningen en boekt ze op de bronbelastingvereffeningsrekening voor een bepaalde periode. Dit onderwerp geeft een overzicht van de stappen voor het instellen van bronbelastingbetaling.
+description: De procedure voor de taak Betaling bronbelasting vereffent bronbelastingsaldi van Leveranciers op bronbelastingrekeningen en boekt ze op de bronbelastingvereffeningsrekening voor een bepaalde periode. Dit artikel geeft een overzicht van de stappen voor het instellen van bronbelastingbetaling.
 author: kailiang
 ms.date: 01/12/2021
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 2b374d7aeab4d066b0894dde8f542c2f807d1ef9
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 3d3619137ccb909eed31af3793c6cf2773cc9886
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713327"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855399"
 ---
 # <a name="create-a-withholding-tax-payment"></a>Een betaling voor bronbelasting maken
 
-De procedure voor de taak Betaling bronbelasting vereffent bronbelastingsaldi van Leveranciers op bronbelastingrekeningen en boekt ze op de bronbelastingvereffeningsrekening voor een bepaalde periode. Dit onderwerp geeft een overzicht van de stappen voor het instellen van bronbelastingbetaling.
+De procedure voor de taak Betaling bronbelasting vereffent bronbelastingsaldi van Leveranciers op bronbelastingrekeningen en boekt ze op de bronbelastingvereffeningsrekening voor een bepaalde periode. Dit artikel geeft een overzicht van de stappen voor het instellen van bronbelastingbetaling.
 
 > [!NOTE] 
 > Bij de berekening van bronbelastingbetaling wordt geen rekening gehouden met de tegenrekening voor bronbelasting (van klanten).

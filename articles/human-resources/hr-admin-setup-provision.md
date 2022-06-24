@@ -1,6 +1,6 @@
 ---
 title: Human Resources inrichten
-description: In dit onderwerp wordt het proces van het inrichten van een nieuwe productieomgeving voor Microsoft Dynamics 365 Human Resources uitgelegd.
+description: In dit artikel wordt het proces van het inrichten van een nieuwe productieomgeving voor Microsoft Dynamics 365 Human Resources uitgelegd.
 author: twheeloc
 ms.date: 01/07/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79747d0c5c4265315d1757352dfecef09c469dd8
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 341b14d493c85a1e94666fa7e07b80704645e5f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710858"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858238"
 ---
 # <a name="provision-human-resources"></a>Human Resources inrichten
 
@@ -27,13 +27,13 @@ ms.locfileid: "8710858"
 
 
 
-In dit onderwerp wordt het proces van het inrichten van een nieuwe productieomgeving voor Microsoft Dynamics 365 Human Resources uitgelegd. 
+In dit artikel wordt het proces van het inrichten van een nieuwe productieomgeving voor Microsoft Dynamics 365 Human Resources uitgelegd. 
 
 ## <a name="prerequisites"></a>Vereisten
 
 Voordat u een nieuwe productieomgeving inricht, moet aan de volgende voorwaarden zijn voldaan:
 
-- U hebt Human Resources aangeschaft via een provider van cloudoplossingen of een EA-overeenkomst (Enterprise Architecture). Als u een bestaande Microsoft Dynamics 365-licentie hebt waarin het Human Resources-serviceabonnement al is opgenomen en u de stappen in dit onderwerp niet kunt voltooien, neemt u contact op met de ondersteuning.
+- U hebt Human Resources aangeschaft via een provider van cloudoplossingen of een EA-overeenkomst (Enterprise Architecture). Als u een bestaande Microsoft Dynamics 365-licentie hebt waarin het Human Resources-serviceabonnement al is opgenomen en u de stappen in dit artikel niet kunt voltooien, neemt u contact op met de ondersteuning.
 
 - De globale beheerder heeft zich aangemeld bij [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) en een nieuw Human Resources-project gemaakt. 
 

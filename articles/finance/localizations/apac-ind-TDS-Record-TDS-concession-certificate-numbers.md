@@ -1,6 +1,6 @@
 ---
 title: TDS-vrijstellingscertificaatnummers registreren
-description: In dit onderwerp wordt uitgelegd hoe u de TDS-vrijstellingscertificaatnummers (belasting ingehouden op bron) vastlegt die aan leveranciers worden uitgegeven.
+description: In dit artikel wordt uitgelegd hoe u de TDS-vrijstellingscertificaatnummers (belasting ingehouden op bron) vastlegt die aan leveranciers worden uitgegeven.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 994ddbb4666c326d237d53d529ba126f42d48595
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 116bc5c4b4f5f0b95d05dc73f2a012fbbc065bf2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727140"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846608"
 ---
 # <a name="record-tds-concession-certificate-numbers"></a>TDS-vrijstellingscertificaatnummers registreren
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u de TDS-vrijstellingscertificaatnummers (belasting ingehouden op bron) vastlegt die aan leveranciers worden uitgegeven.
+In dit artikel wordt uitgelegd hoe u de TDS-vrijstellingscertificaatnummers (belasting ingehouden op bron) vastlegt die aan leveranciers worden uitgegeven.
 
 1. Ga naar **Belasting \> Indirecte belastingen \> Bronbelasting \> Vrijstelling van bronbelasting**.
 2. Selecteer in het veld **Belastingtype** de optie **TDS** om vrijstellingscertificaten voor het belastingtype TDS vast te leggen.

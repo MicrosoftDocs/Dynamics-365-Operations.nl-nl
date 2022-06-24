@@ -1,6 +1,6 @@
 ---
 title: Help-systeem (bevat video)
-description: In dit onderwerp vindt u een overzicht van het Help-systeem voor apps voor financiële en bedrijfsactiviteiten.
+description: In dit artikel vindt u een overzicht van het Help-systeem voor apps voor financiële en bedrijfsactiviteiten.
 author: edupont04
 ms.date: 07/20/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd34addc2ffa5e437691cb1e3e8b33246053ccc7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 924af44a6f0b1430859f0f6354ef55ff67a1b677
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070496"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898364"
 ---
 # <a name="help-system"></a>Help-systeem
 
@@ -70,7 +70,7 @@ U kunt ook per app een abonnement op een RSS-feed nemen:
 
 ### <a name="leave-us-feedback"></a>Feedback achterlaten
 
-Als u ons feedback wilt geven of vragen hebt over een onderwerp, kunt u onder aan de pagina een opmerking achterlaten.
+Als u ons feedback wilt geven of vragen hebt over een artikel, kunt u onder aan de pagina een opmerking achterlaten.
 
 1. Selecteer **Feedback** om naar de opmerkingen onder aan de pagina te gaan. Selecteer vervolgens **Productfeedback** of **Aanmelden om feedback te geven over de documentatie**.
 
@@ -83,7 +83,7 @@ Als u ons feedback wilt geven of vragen hebt over een onderwerp, kunt u onder aa
 
 ## <a name="contribute-to-the-documentation"></a>Bijdragen aan de documentatie
 
-U kunt bijdragen aan en wijzigingen aanbrengen in de documentatie. Om te beginnen, selecteert u de knop **Bewerken** (potloodsymbool) voor een onderwerp. In de volgende video ziet u hoe u aan onze documentatie kunt bijdragen.
+U kunt bijdragen aan en wijzigingen aanbrengen in de documentatie. Selecteer om aan de slag te gaan de knop **Bewerken** (potloodsymbool) voor een artikel. In de volgende video ziet u hoe u aan onze documentatie kunt bijdragen.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36liB]
 
@@ -98,7 +98,7 @@ Zie voor meer informatie de [handleiding voor bijdragers aan documenten](/contri
 
 Een taakbegeleidingen is een gecontroleerde, begeleide, interactieve ervaring die u door de stappen van een taak of bedrijfsproces leidt. U kunt een taakbegeleiding openen (afspelen) via het deelvenster **Help**. Wanneer u voor het eerst een taakbegeleiding selecteert, worden in het deelvenster **Help** de stapsgewijze instructies voor de taak weergegeven. Gelokaliseerde taakbegeleidingen zijn beschikbaar.
 
-Microsoft heeft de taakbegeleidingsbibliotheek voor productversies tot en met de release van 2017 december van Dynamics 365 for Finance and Operations uitgebracht. In de sectie [Taakbegeleiders openen via het deelvenster Help](#accessing-task-guides-from-the-help-pane) van dit onderwerp wordt beschreven hoe u de juiste taakbegeleidingen voor uw product vindt.
+Microsoft heeft de taakbegeleidingsbibliotheek voor productversies tot en met de release van 2017 december van Dynamics 365 for Finance and Operations uitgebracht. In de sectie [Taakbegeleiders openen via het deelvenster Help](#accessing-task-guides-from-the-help-pane) van dit artikel wordt beschreven hoe u de juiste taakbegeleidingen voor uw product vindt.
 
 ![Leesweergave van taakbegeleiding.](./media/task-guide-ops.png)
 
@@ -121,7 +121,7 @@ U opent Help-inhoud door de knop **Help** (**?**) te selecteren en vervolgens **
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Help-onderwerpen openen via het deelvenster Help
 
-Via het deelvenster **Help** kunt u onderwerpen openen die betrekking hebben op de client. Als u het deelvenster **Help** voor het eerst opent, worden op het tabblad **Help** de onderwerpen weergegeven die betrekking hebben op de pagina die nu is geopend. Als er geen onderwerpen worden gevonden, kunt u trefwoorden invoeren om uw zoekopdracht te verfijnen. Wanneer u een onderwerp selecteert in het deelvenster **Help**, wordt dit geopend op een nieuw tabblad in uw browser.
+Via het deelvenster **Help** kunt u onderwerpen openen die betrekking hebben op de client. Als u het deelvenster **Help** voor het eerst opent, worden op het tabblad **Help** de onderwerpen weergegeven die betrekking hebben op de pagina die nu is geopend. Als er geen onderwerpen worden gevonden, kunt u trefwoorden invoeren om uw zoekopdracht te verfijnen. Wanneer u een artikel selecteert in het deelvenster **Help**, wordt dit geopend op een nieuw tabblad in uw browser.
 
 > [!IMPORTANT]
 > Deze sectie geldt niet voor Dynamics 365 Human Resources. Het Help-systeem voor Human Resources is automatisch verbonden met taakbegeleidingen voor het product. U kunt ook geen aangepaste taakbegeleidingen voor Human Resources maken.

@@ -1,6 +1,6 @@
 ---
 title: Aangepaste X++-scripts uitvoeren met nul downtime
-description: In dit onderwerp wordt beschreven hoe u implementeerbare pakketten met aangepaste X++-scripts kunt uploaden en uitvoeren zonder uw systeem te onderbreken.
+description: In dit artikel wordt beschreven hoe u implementeerbare pakketten met aangepaste X++-scripts kunt uploaden en uitvoeren zonder uw systeem te onderbreken.
 author: AndersGirke
 ms.date: 12/16/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-12-16
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: fcd0a472fa5116ca0b3a59561b6eeb72181a9113
-ms.sourcegitcommit: 44e6875e974a3a1b3e1d7a24c1a3cff3d3697cdc
+ms.openlocfilehash: ff01e2ff8ec105603bb91e0b555301f36e8985b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "8088339"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867324"
 ---
 # <a name="run-custom-x-scripts-with-zero-downtime"></a>Aangepaste X++-scripts uitvoeren met nul downtime
 
@@ -122,7 +122,7 @@ Gebruik de volgende procedure om een script te uploaden en uit te voeren.
 
 1. Ga in uw app voor financiële en bedrijfsactiviteiten naar **Systeembeheer \> Periodieke taken \> Database \> Aangepaste scripts**.
 1. Selecteer **Uploaden**.
-1. Selecteer het implementeerbare pakket dat u hebt gemaakt, zoals eerder in dit onderwerp is beschreven. U wordt gevraagd het doel van het script op te geven.
+1. Selecteer het implementeerbare pakket dat u hebt gemaakt, zoals eerder in dit artikel is beschreven. U wordt gevraagd het doel van het script op te geven.
 1. Het script moet nu worden goedgekeurd door een andere gebruiker dan de gebruiker die het heeft geüpload. De fiatteur moet de volgende stappen uitvoeren:
 
     1. Ga naar **Systeembeheer \> Periodiek \> Database \> Aangepaste scripts**.

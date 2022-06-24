@@ -1,6 +1,6 @@
 ---
 title: Mechanisme voor omgekeerde toeslagen van btw/GST-schema
-description: In dit onderwerp wordt uitgelegd hoe u de omgekeerde toeslag instelt voor Europese landen, Saudi-Arabië en Singapore.
+description: In dit artikel wordt uitgelegd hoe u de omgekeerde toeslag instelt voor Europese landen, Saudi-Arabië en Singapore.
 author: epodkolz
 ms.date: 10/05/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 326a74d0f962cf0455033b04950ded7ca26bfc77
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 4176f8e853b7d7c2acc1044cab33371202f10c4a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594714"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861257"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>Mechanisme voor omgekeerde toeslagen van btw/GST-schema
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp beschrijft een algemene aanpak voor het instellen van de functionaliteit voor omgekeerde toeslagen voor landen/regio's die de btw- of GST-schema's aannemen.
+Dit artikel beschrijft een algemene aanpak voor het instellen van de functionaliteit voor omgekeerde toeslagen voor landen/regio's die de btw- of GST-schema's aannemen.
                                                                                  
 De beschikbaarheid van de land/regiofunctionaliteit wordt beheerd door de volgende functies in de werkruimte **Functiebeheer**.
 
@@ -33,7 +33,7 @@ De beschikbaarheid van de land/regiofunctionaliteit wordt beheerd door de volgen
 | Omgekeerde toeslag voor extra landen            | Bahrein  </br>Koeweit  </br>Oman  </br>Qatar                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Mechanisme voor omgekeerde toeslag voor btw/GST-schema inschakelen | Alle andere landen/regio's, met uitzondering van:  </br>Brazilië  </br>India  </br>Rusland                                                                                                                                                                                                                                                                                                                                                                                         |
  
- Zie de [functie Mechanisme voor omgekeerde toeslag voor btw/GST-schema inschakelen](#enable-reverse-charge) verderop in dit onderwerp voor meer informatie.
+ Zie de [functie Mechanisme voor omgekeerde toeslag voor btw/GST-schema inschakelen](#enable-reverse-charge) verderop in dit artikel voor meer informatie.
 
 Omgelegde toeslag is een btw-schema dat de verantwoordelijkheid voor de boekhouding en aangifte van btw verlegt van de verkoper naar de koper van goederen en/of diensten. Daarom geven ontvangers van goederen en/of diensten zowel de te betalen btw (in de rol van verkoper) en de te vorderen btw (in de rol van inkoper) in hun btw-aangifte aan.
 

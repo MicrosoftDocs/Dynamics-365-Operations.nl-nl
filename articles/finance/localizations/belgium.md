@@ -1,6 +1,6 @@
 ---
 title: Overzicht België
-description: In dit onderwerp vindt u een overzicht van de specifieke functionaliteit voor België.
+description: In dit artikel vindt u een overzicht van de specifieke functionaliteit voor België.
 author: anasyash
 ms.date: 05/27/2022
 ms.topic: overview
@@ -12,18 +12,18 @@ ms.search.region: belgium
 ms.author: anasyash
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8888e2728b8123092355633934983ec1345e78d8
-ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
+ms.openlocfilehash: f8ee652523822d42d47fffa22760ca2ba3fe56e7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809518"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902405"
 ---
 # <a name="belgium-overview"></a>Overzicht België
 
 [!include[banner](../includes/banner.md)]
 
-In dit onderwerp vindt u informatie en koppelingen naar resources die moeten worden overwogen voor rechtspersonen met een primair adres in België.
+In dit artikel vindt u informatie en koppelingen naar resources die moeten worden overwogen voor rechtspersonen met een primair adres in België.
 
 ## <a name="coda-bank-statement"></a>Coda-bankafschriftregel
 CODA is een rapportindeling die in het Belgische elektronische banksysteem wordt gebruikt. Zie [CODA-bankafschrift](emea-bel-coda-bank-statement-import.md) voor meer informatie.

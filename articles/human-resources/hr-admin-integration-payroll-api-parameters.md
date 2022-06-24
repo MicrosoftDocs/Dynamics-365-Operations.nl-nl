@@ -1,6 +1,6 @@
 ---
 title: Parameters voor integratie van salarisadministratie
-description: In dit onderwerp worden de parameters voor Salarisintegratie in Dynamics 365 Human Resources beschreven.
+description: In dit artikel worden de parameters voor Salarisintegratie in Dynamics 365 Human Resources beschreven.
 author: marcelbf
 ms.date: 06/17/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-17
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 37d4dc52e7fe5ddd95f43d98267db819a275bd92
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 7d784909fc8c5fa05557566b62b19802cd2acece
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069852"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896092"
 ---
 # <a name="payroll-integration-parameters"></a>Parameters voor integratie van salarisadministratie
 
@@ -27,7 +27,7 @@ ms.locfileid: "8069852"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Voordat u Salarisintegratie van Dynamics 365 Human Resources kunt gebruiken, moet u de parameters instellen die in dit onderwerp worden beschreven.
+Voordat u Salarisintegratie van Dynamics 365 Human Resources kunt gebruiken, moet u de parameters instellen die in dit artikel worden beschreven.
 
 ## <a name="enable-payroll-address"></a>Adres salarisadministratie inschakelen
 

@@ -1,6 +1,6 @@
 ---
 title: Gegevensimport uit SharePoint configureren
-description: In dit onderwerp wordt uitgelegd hoe u gegevens importeert uit Microsoft SharePoint.
+description: In dit artikel wordt uitgelegd hoe u gegevens importeert uit Microsoft SharePoint.
 author: NickSelin
 ms.date: 01/05/2022
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9ac328e660c7a8a3b4a4f34a650062a0fa974771
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 0163ece2f61735073567b32a45d3dc6df8be1864
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074761"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864773"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Gegevensimport uit SharePoint configureren
 
 [!include[banner](../includes/banner.md)]
 
-Om gegevens te importeren uit een binnenkomend bestand met behulp van het raamwerk voor elektronische aangifte (ER), moet u een ER-indeling configureren die de import ondersteunt en vervolgens een modeltoewijzing van het type **Tot bestemming** uitvoeren die deze indeling als gegevensbron gebruikt. Om gegevens te importeren moet u navigeren naar het bestand dat u wilt importeren. Het inkomende bestand kan handmatig worden geselecteerd door de gebruiker. Met de nieuwe ER-mogelijkheid ter ondersteuning van het importeren van gegevens uit Microsoft SharePoint, kan dit proces worden geconfigureerd als zonder toezicht. U kunt ER-configuraties gebruiken om gegevens te importeren uit bestanden die zijn opgeslagen in Microsoft SharePoint-mappen. In dit onderwerp wordt uitgelegd hoe u de import van SharePoint kunt voltooien. De voorbeelden gebruiken leverancierstransacties als zakelijke gegevens.
+Om gegevens te importeren uit een binnenkomend bestand met behulp van het raamwerk voor elektronische aangifte (ER), moet u een ER-indeling configureren die de import ondersteunt en vervolgens een modeltoewijzing van het type **Tot bestemming** uitvoeren die deze indeling als gegevensbron gebruikt. Om gegevens te importeren moet u navigeren naar het bestand dat u wilt importeren. Het inkomende bestand kan handmatig worden geselecteerd door de gebruiker. Met de nieuwe ER-mogelijkheid ter ondersteuning van het importeren van gegevens uit Microsoft SharePoint, kan dit proces worden geconfigureerd als zonder toezicht. U kunt ER-configuraties gebruiken om gegevens te importeren uit bestanden die zijn opgeslagen in Microsoft SharePoint-mappen. In dit artikel wordt uitgelegd hoe u de import van SharePoint kunt voltooien. De voorbeelden gebruiken leverancierstransacties als zakelijke gegevens.
 
 ## <a name="prerequisites"></a>Vereisten
-Om de voorbeelden in dit onderwerp te kunnen voltooien, moet u toegang tot het volgende hebben:
+Om de voorbeelden in dit artikel te kunnen voltooien, moet u over de volgende toegangsrechten beschikken:
 
 - Maak gebruik van een van de volgende rollen:
 

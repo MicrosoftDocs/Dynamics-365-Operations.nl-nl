@@ -1,6 +1,6 @@
 ---
 title: Wat is nieuw of gewijzigd in Dynamics 365 Human Resources 26 september 2020
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 26 september 2020.
+description: In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 26 september 2020.
 author: jcart1106
 ms.date: 09/26/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8b0260c4d1bafe271a08336ceed7dc3742f1d590
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 1b7a89ae8a2132c8548d9451aa235d1bccb88809
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061379"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874241"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources 26 september 2020
 
@@ -27,7 +27,7 @@ ms.locfileid: "8061379"
 
 
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn of die binnenkort worden vrijgegeven in Dynamics 365 Human Resources. Zie [Updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces en de planning.
+In dit artikel worden de functies beschreven die in Dynamics 365 Human Resources nieuw, gewijzigd of binnenkort beschikbaar zijn. Zie [Updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces en de planning.
 
 Zie [Overzicht van Dynamics 365 Human Resources 2020 release wave 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/) voor meer informatie over nieuwe functies en de verwachte algemene beschikbaarheidsdatums ervan.
 
@@ -46,9 +46,9 @@ De volgende functie is algemeen beschikbaar in deze release:
 Deze versie bevat de volgende correcties.
 
 > [!NOTE]
-> Ons doel is om deze informatie zo snel mogelijk bij u te krijgen. Mogelijk wordt dit onderwerp gewijzigd om correcties op te nemen die in de build zijn gemaakt nadat dit onderwerp oorspronkelijk werd gepubliceerd.
+> Ons doel is om deze informatie zo snel mogelijk bij u te krijgen. Mogelijk wordt dit artikel gewijzigd om correcties op te nemen die in de build zijn gemaakt nadat dit artikel oorspronkelijk werd gepubliceerd.
 
-| Probleemnummer | Uitgeven | Beschrijving |
+| Probleemnummer | Probleem | Description |
 | --- | --- | --- |
 | 469495 | Update van standaardraster en -dialoogvenster voor financiële dimensies | Het raster en dialoogvenster voor financiële dimensies zijn overal in Human Resources bijgewerkt. |
 | 474887 | Met werkitems voor verlofaanvragen wordt de verkeerde koppeling in een handmatige beslissing geopend | Wanneer een werkstroomconfiguratie een handmatige beslissing bevat en u vanuit **Aan mij toegewezen werkitems** naar de verlofaanvraag gaat, wordt de verkeerde koppeling geopend, waarbij een leeg formulier wordt weergegeven of een verlofaanvraag die is gemaakt door de huidige gebruiker in plaats van de gebruiker die eraan is toegewezen voor de handmatige beslissing. |

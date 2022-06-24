@@ -1,6 +1,6 @@
 ---
 title: Nummerreeksen toewijzen
-description: In dit onderwerp wordt uitgelegd hoe u nummerreeksen voor lease-id's maakt. Ook wordt uitgelegd hoe unieke id's worden gemaakt die worden gebruikt in het indexherwaarderingsproces.
+description: In dit artikel wordt uitgelegd hoe u nummerreeksen voor lease-id's maakt. Ook wordt uitgelegd hoe unieke id's worden gemaakt die worden gebruikt in het indexherwaarderingsproces.
 author: moaamer
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 71a6f27b4067eadb3d17b6fc14de366fcc441230
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ee7547f9a46034238f2bd6c668c124852b3e0714
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710748"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845311"
 ---
 # <a name="assign-number-sequences"></a>Nummerreeksen toewijzen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u nummerreeksen voor lease-id's maakt. Ook wordt uitgelegd hoe unieke id's worden gemaakt die worden gebruikt in het indexherwaarderingsproces.
+In dit artikel wordt uitgelegd hoe u nummerreeksen voor lease-id's maakt. Ook wordt uitgelegd hoe unieke id's worden gemaakt die worden gebruikt in het indexherwaarderingsproces.
 
 1. Ga naar **Activa leasen \> Instellingen \> Parameters voor activa leasen**.
 2. Selecteer het tabblad **Nummerreeksen** aan de zijkant.

@@ -1,6 +1,6 @@
 ---
 title: Overzicht van Beheer van bedrijfsdocumenten
-description: Dit onderwerp biedt informatie over het gebruiken van de functie Beheer van bedrijfsdocumenten van het ER-raamwerk.
+description: Dit artikel biedt informatie over het gebruiken van de functie Beheer van bedrijfsdocumenten van het ER-raamwerk.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: faea9d4d9b3fc8f3f1474b6bb2a8dc31cdc22511
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9147a2e81329d5bf9103b6bfe067d166c1471835
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986246"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903612"
 ---
 # <a name="business-document-management-overview"></a>Overzicht van Beheer van bedrijfsdocumenten
 
@@ -50,7 +50,7 @@ Een volledige lijst met alle rapporten die zijn gepland voor de release van okto
 
 In toekomstige versies komen meer rapporten beschikbaar. Speciale meldingen over aanvullende rapporten worden afzonderlijk verzonden. Zie de sectie [Lijst met ER-configuraties die in Finance zijn vrijgegeven ter ondersteuning van configureerbare bedrijfsdocumenten](#list-of-configurations-cbd) hieronder voor meer informatie over hoe u de lijst met beschikbare rapporten kunt bekijken.
 
-Voor meer informatie over deze functie kunt u het voorbeeld in dit onderwerp uitvoeren.
+Voor meer informatie over deze functie kunt u het voorbeeld in dit artikel uitvoeren.
 
 ## <a name="configure-er-parameters"></a>ER-parameters configureren
 
@@ -231,7 +231,7 @@ Zakelijke gebruikers hebben toegang tot bedrijfsdocumentsjablonen om deze te bew
 - Gebruikers die zijn toegewezen aan de rol **Systeembeheerder**.
 - Gebruikers die zijn toegewezen aan een rol die is geconfigureerd voor het uitvoeren van de functie **Sjablonen voor Beheer van bedrijfsdocumenten beheren** (AOT-naam **ERBDManageTemplates**).
 
-Met de volgende procedure kunt u sjablonen voor vrije-tekstfacturen bewerken in het werkgebied voor Beheer van bedrijfsdocumenten. Voordat u deze procedure voltooit, moet u alle voorgaande procedures in dit onderwerp hebben voltooid.
+Met de volgende procedure kunt u sjablonen voor vrije-tekstfacturen bewerken in het werkgebied voor Beheer van bedrijfsdocumenten. Voordat u deze procedure voltooit, moet u alle voorgaande procedures in dit artikel hebben voltooid.
 
 1. Meld u als een gebruiker met toegang tot het werkgebied voor het beheer van bedrijfsdocumenten aan.
 2. Open het werkgebied van Beheer van bedrijfsdocumenten.

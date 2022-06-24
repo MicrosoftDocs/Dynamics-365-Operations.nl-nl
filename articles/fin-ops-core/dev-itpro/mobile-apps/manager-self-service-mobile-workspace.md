@@ -1,6 +1,6 @@
 ---
 title: Mobiel werkgebied Mijn team
-description: In dit onderwerp vindt u informatie over het mobiele werkgebied Mijn team, waarin managers hun directe ondergeschikten en uitgebreide personeel kunnen weergeven.
+description: In dit artikel vindt u informatie over het mobiele werkgebied Mijn team, waarin managers hun directe ondergeschikten en uitgebreide personeel kunnen weergeven.
 author: ShielaSogge
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7793bd6bb1c2dfb5f6840430914393e837242fb5
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: f15ac24e5c32a42863cac8a9c9754c95aa4ff734
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811052"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868693"
 ---
 # <a name="my-team-mobile-workspace"></a>Mobiel werkgebied Mijn team
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-Dit onderwerp biedt informatie over het mobiele werkgebied **Mijn team**. In dit werkgebied kunnen managers hun directe ondergeschikten en uitgebreide personeel weergeven. Ze kunnen ook lof versturen voor personen in hun rapportageketen.
+Dit artikel biedt informatie over het mobiele werkgebied **Mijn team**. In dit werkgebied kunnen managers hun directe ondergeschikten en uitgebreide personeel weergeven. Ze kunnen ook lof versturen voor personen in hun rapportageketen.
 
 Dit mobiele werkgebied is bedoeld om samen te worden gebruikt met de mobiele app van Finance and Operations.
 

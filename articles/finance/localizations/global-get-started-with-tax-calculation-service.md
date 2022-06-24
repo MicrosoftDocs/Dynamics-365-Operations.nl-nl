@@ -1,6 +1,6 @@
 ---
 title: Aan de slag met belastingberekening
-description: In dit onderwerp wordt uitgelegd hoe u belastingberekening instelt.
+description: In dit artikel wordt uitgelegd hoe u belastingberekening instelt.
 author: wangchen
 ms.date: 03/25/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0ab9c0cf974114c4fa9b673e5601e138acef534d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c2293102057ac055f0958c1c6b1de2a19cb331d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685906"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855278"
 ---
 # <a name="get-started-with-tax-calculation"></a>Aan de slag met belastingberekening
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp vindt u informatie over hoe u aan de slag met het berekenen van belasting. De secties in dit onderwerp leiden u door het basisontwerp en de configuratiestappen in Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance en Dynamics 365 Supply Chain Management. 
+In dit artikel vindt u informatie over hoe u aan de slag met het berekenen van belasting. De secties in dit artikel leiden u door het basisontwerp en de configuratiestappen in Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance en Dynamics 365 Supply Chain Management. 
 
 De configuratie omvat drie hoofdstappen.
 
@@ -77,11 +77,11 @@ Nadat u deze stappen hebt voltooid, worden de volgende instellingen automatisch 
 - Btw-groepen
 - Btw-groepen voor artikel
 
-In de overige secties van dit onderwerp vindt u meer gedetailleerde configuratiestappen.
+In de overige secties van dit artikel vindt u meer gedetailleerde configuratiestappen.
 
 ## <a name="prerequisites"></a>Vereisten
 
-Voordat u de resterende procedures in dit onderwerp kunt voltooien, moet aan de volgende vereisten zijn voldaan:<!--TO HERE-->
+Voordat u de resterende procedures in dit artikel kunt voltooien, moet aan de volgende vereisten zijn voldaan:<!--TO HERE-->
 
 - U moet toegang tot uw LCS-account hebben en u moet een LCS-project hebben geïmplementeerd met een Tier 2-omgeving (of hoger) waarop versie 10.0.21 of hoger van Dynamics 365 wordt uitgevoerd.
 - U moet een RCS-omgeving voor uw organisatie maken en u moet toegang tot uw account hebben. Zie [Overzicht Regulatory Configuration Service](rcs-overview.md) voor meer informatie over het maken van een RCS-omgeving.
@@ -212,7 +212,7 @@ De stappen in deze sectie zijn niet gerelateerd aan een specifieke rechtspersoon
     | Sales            | BEL       | FRA     | BEL_EU       |
     
     > [!NOTE]
-    > Als de standaard btw-groep op uw belastbare documentregels correct is, laat u deze matrix leeg. Zie de sectie [Runtime-ontwerp](#runtime), eerder in dit onderwerp, voor meer informatie.
+    > Als de standaard btw-groep op uw belastbare documentregels correct is, laat u deze matrix leeg. Zie de sectie [Runtime-ontwerp](#runtime), eerder in dit artikel, voor meer informatie.
 
 22. Selecteer op het tabblad **Toepasbaarheid van artikelbelastinggroep** de kolommen die vereist zijn om de juiste belastingcode te bepalen en selecteer vervolgens **Toevoegen**. Voer waarden voor elke kolom in of selecteer deze. Het veld **Artikelbelastinggroep** is de uiteindelijke uitvoer van deze matrix. Als dit tabblad niet is geconfigureerd, wordt de artikel-btw-groep op de transactieregel gebruikt.
 
@@ -224,7 +224,7 @@ De stappen in deze sectie zijn niet gerelateerd aan een specifieke rechtspersoon
     | D0003     | Gereduceerd        |
 
     > [!NOTE]
-    > Als de standaard btw-groep voor artikelen op uw belastbare documentregels correct is, laat u deze matrix leeg. Zie de sectie [Runtime-ontwerp](#runtime), eerder in dit onderwerp, voor meer informatie.
+    > Als de standaard btw-groep voor artikelen op uw belastbare documentregels correct is, laat u deze matrix leeg. Zie de sectie [Runtime-ontwerp](#runtime), eerder in dit artikel, voor meer informatie.
 
     Zie [Logica voor bepaling van btw-groepen en item-btw-groepen](global-sales-tax-group-determination.md) voor meer informatie over de manier waarop belastingcodes worden bepaald in Belastingberekening.
 
@@ -243,7 +243,7 @@ De configuratie in deze sectie wordt per rechtspersoon uitgevoerd. U moet dit co
 2. Stel op het tabblad **Algemeen** de volgende velden in:
 
     - **De service voor belastingberekening inschakelen**: schakel dit selectievakje in om Belastingberekening voor de rechtspersoon in te schakelen. Als deze niet is ingeschakeld voor de huidige rechtspersoon, blijft de rechtspersoon de bestaande belastingengine gebruiken om belasting te bepalen en te berekenen.
-    - **Functie-instellingen**: selecteer een gepubliceerde configuratie en versie van de belastingfunctie voor de rechtspersoon. Zie de vorige sectie van dit onderwerp voor meer informatie over het instellen en voltooien van een gepubliceerde belastingfunctie.
+    - **Functie-instellingen**: selecteer een gepubliceerde configuratie en versie van de belastingfunctie voor de rechtspersoon. Zie de vorige sectie van dit artikel voor meer informatie over het instellen en voltooien van een gepubliceerde belastingfunctie.
     - **Bedrijfsproces**: Selecteer de bedrijfsprocessen die u wilt inschakelen.
 
 3. Definieer op het tabblad **Berekening** de verwachte afrondingsregel voor de rechtspersoon. Zie [Afrondingsregels voor belastingberekening](https://go.microsoft.com/fwlink/?linkid=2166988) voor meer informatie over de afrondingslogica.

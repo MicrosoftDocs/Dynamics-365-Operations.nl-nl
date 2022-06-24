@@ -1,6 +1,6 @@
 ---
 title: Het aanvankelijke prognosemodel voor klantbetalingen evalueren
-description: In dit onderwerp worden de stappen beschreven die u kunt uitvoeren om het voorspellingsmodel voor klantbetalingen te begrijpen en de effectiviteit ervan te beoordelen.
+description: In dit artikel worden de stappen beschreven die u kunt uitvoeren om het voorspellingsmodel voor klantbetalingen te begrijpen en de effectiviteit ervan te beoordelen.
 author: ShivamPandey-msft
 ms.date: 05/02/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: c0951c8dcf6205ebbb15baf86b1272af4e95547f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: fcdf276505cf58267a38e9d6174a155ad307653b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677949"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846997"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model"></a>Het aanvankelijke prognosemodel voor klantbetalingen evalueren
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u een voorspellingsmodel evalueert nadat u Financiële inzichten hebt ingeschakeld en vervolgens uw eerste model hebt gegenereerd en getraind. Dit onderwerp behandelt modellen voor het voorspellen van klantbetalingen. Het beschrijft de stappen die u kunt uitvoeren om het voorspellingsmodel voor klantbetalingen te begrijpen en de effectiviteit ervan te beoordelen.
+In dit artikel wordt uitgelegd hoe u een voorspellingsmodel evalueert nadat u Finance Insights hebt ingeschakeld en vervolgens uw eerste model hebt gegenereerd en getraind. Dit artikel behandelt modellen voor het voorspellen van klantbetalingen. Het beschrijft de stappen die u kunt uitvoeren om het voorspellingsmodel voor klantbetalingen te begrijpen en de effectiviteit ervan te beoordelen.
 
 ## <a name="getting-details-about-the-model"></a>Details over het model ophalen
 

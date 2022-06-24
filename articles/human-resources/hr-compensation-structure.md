@@ -1,6 +1,6 @@
 ---
 title: Een compensatiestructuur ontwikkelen
-description: In dit onderwerp wordt beschreven hoe u een vastecompensatieplan maakt en werknemers registreert voor het plan via geschiktheidsregels.
+description: In dit artikel wordt beschreven hoe u een vastecompensatieplan maakt en werknemers registreert voor het plan via geschiktheidsregels.
 author: twheeloc
 ms.date: 08/25/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f069d4e982a9c02070c2010b894b2ec7a9c7f6ab
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 86953e6d54843f17d0d6090a9def8bc256624f21
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693082"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902960"
 ---
 # <a name="develop-a-compensation-structure"></a>Een compensatiestructuur ontwikkelen
 
@@ -26,7 +26,7 @@ ms.locfileid: "8693082"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Dit onderwerp beschrijft hoe u een vastecompensatieplan maakt en werknemers registreert voor het plan via geschiktheidsregels. In dit onderwerp worden de USMF-demodata gebruikt en toegepast op managers voor compensatie en vergoedingen.
+In dit artikel wordt beschreven hoe u een vastecompensatieplan maakt en werknemers registreert voor het plan via geschiktheidsregels. In dit artikel, dat van toepassing is op managers voor compensatie en vergoedingen, worden de USMF-voorbeeldgegevens gebruikt.
 
 ## <a name="create-a-fixed-compensation-plan"></a>Een vast compensatieplan maken
 

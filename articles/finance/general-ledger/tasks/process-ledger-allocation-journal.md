@@ -1,6 +1,6 @@
 ---
 title: Grootboektoewijzingsjournaal verwerken
-description: In dit onderwerp wordt uitgelegd hoe u een toewijzingsaanvraag in Dynamics 365 Finance kunt verwerken.
+description: In dit artikel wordt uitgelegd hoe u een toewijzingsaanvraag in Dynamics 365 Finance kunt verwerken.
 author: aprilolson
 ms.date: 07/26/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1ec3653085aed278eb5d13d47f345c713cd39f1f
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: b86f8f5d090d624e812d9e7e6c0bc0212e5e9716
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722134"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902424"
 ---
 # <a name="process-ledger-allocation-journal"></a>Grootboektoewijzingsjournaal verwerken
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u een toewijzingsaanvraag kunt verwerken. Gebruik de pagina Toewijzingsaanvraag verwerken om een toewijzingsjournaal te maken dat kan worden gecontroleerd en goedgekeurd voordat dit naar het grootboek wordt geboekt. Het toewijzingjournaal kan ook rechtstreeks naar het grootboek worden geboekt. Voordat u een toewijzingsjournaal kunt maken, moet u minstens één actieve Grootboektoewijzingsregel maken. Bij deze taak wordt het demobedrijf USMF gebruikt.
+In dit artikel wordt uitgelegd hoe u een toewijzingsaanvraag kunt verwerken. Gebruik de pagina Toewijzingsaanvraag verwerken om een toewijzingsjournaal te maken dat kan worden gecontroleerd en goedgekeurd voordat dit naar het grootboek wordt geboekt. Het toewijzingjournaal kan ook rechtstreeks naar het grootboek worden geboekt. Voordat u een toewijzingsjournaal kunt maken, moet u minstens één actieve Grootboektoewijzingsregel maken. Bij deze taak wordt het demobedrijf USMF gebruikt.
 
 1. Ga in het navigatievenster naar **Grootboek > Toewijzingen > Toewijzingsaanvraag verwerken**.
 2. Selecteer in het veld **Regel** de gewenste record in het vervolgkeuzemenu.

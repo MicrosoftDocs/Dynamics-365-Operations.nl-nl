@@ -1,6 +1,6 @@
 ---
 title: Verbonden toepassingen
-description: In dit onderwerp wordt uitgelegd hoe u verbonden toepassingen instelt in Elektronische facturering.
+description: In dit artikel wordt uitgelegd hoe u verbonden toepassingen instelt in Elektronische facturering.
 author: dkalyuzh
 ms.date: 02/07/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 59b67589139c0ce332716acf998825c6a024bded
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 7a0a9c19009c49b80ca8c182c31592c1a713a2aa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371541"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906282"
 ---
 # <a name="connected-applications"></a>Verbonden toepassingen
 
@@ -39,7 +39,7 @@ De beschikbaarheid van parameters voor Finance of Supply Chain Management in RCS
 3. Selecteer op de pagina **Omgeving instellen** in het actiedeelvenster de optie **Verbonden toepassingen**.
 4. Selecteer **Nieuw** om een verbonden toepassing te maken.
 5. Voer in het veld **Naam** de naam in voor de toepassing die moet worden verbonden.
-6. Selecteer **Dynamics 365 Finance** in het veld **Type**.
+6. In het veld **Type** selecteert u **Dynamics 365 Finance**.
 7. Voer in het veld **Toepassing** de URL in voor de omgeving die moet worden verbonden.
 8. Geef in het veld **Tenant** de tenant van de omgeving op.
 9. Selecteer **Opslaan**.

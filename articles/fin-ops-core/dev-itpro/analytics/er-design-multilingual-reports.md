@@ -1,8 +1,8 @@
 ---
 title: Meertalige rapporten ontwerpen in Elektronische rapportage
-description: In dit onderwerp wordt uitgelegd hoe u labels voor elektronische rapporten (ER) kunt gebruiken om meertalige rapporten te ontwerpen en genereren.
+description: In dit artikel wordt uitgelegd hoe u labels voor elektronische rapporten (ER) kunt gebruiken om meertalige rapporten te ontwerpen en genereren.
 author: NickSelin
-ms.date: 04/28/2022
+ms.date: 05/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa8297d4f5c56a7a20561b1a90c5852e65dbff31
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: c042d609d68544aa4be5d707109a15b2ab8d422c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811602"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845739"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Meertalige rapporten ontwerpen in Elektronische rapportage
 
@@ -142,6 +142,9 @@ Als u een ER-indeling op deze manier configureert, wordt het rapport gegenereerd
 
 Als een label waarnaar wordt verwezen, geen vertaling heeft voor de taal van de context voor de indelingsuitvoering, wordt in plaats daarvan de labeltekst in de taal EN-US gebruikt.
 
+> [!TIP]
+> U kunt de onderdelen **MAP** en verschillende typen **BESTANDEN** gebruiken in de bewerkbare ER-indeling om op te geven hoe een uitgaand bestand wordt gegenereerd. Als u een gegenereerd bestand een naam wilt geven, configureert u de ER-[expressie](er-formula-language.md) voor de parameter **Bestandsnaam** van het onderdeel. U kunt labels gebruiken in de geconfigureerde expressie. Aangezien de parameter **Bestandsnaam** standaard geen taal herkent, wordt de tekst van alle labels waar u in deze expressie naar verwijst, tijdens runtime beschikbaar gemaakt in de standaardtaal EN-US. In versie 10.0.28 en hoger kunt u echter **De parameter Taalvoorkeur toepassen op de expressie Bestandsnaam**. Voor de expressie **Bestandsnaam** wordt vervolgens bij het berekenen rekening gehouden met de parameter **Taalvoorkeuren**.
+
 ## <a name="language"></a>Taal
 
 ER ondersteunt verschillende manieren om een taal voor een gegenereerd rapport op te geven. In het veld **Taalvoorkeuren** op het tabblad **Opmaak** kunt u de volgende waarden selecteren:
@@ -198,7 +201,7 @@ De configuratie van een ER-onderdeel wordt uitgevoerd in de conceptversie van de
 
 ![Pagina ER-configuraties biedt toegang van de configuratieversie in de conceptstatus.](./media/er-multilingual-labels-configurations.png)
 
-Zoals eerder in dit onderwerp is beschreven, kunt u vereiste ER-labels toevoegen aan een bewerkbaar ER-onderdeel. Op deze manier kunt u de tekst van de ER-labels opgeven in de taal EN-US. Vervolgens kunt u de labels van het ER-onderdeel exporteren met de ingebouwde ER-functie. Selecteer de conceptversie van een ER-configuratie die het bewerkbare ER-onderdeel bevat en selecteer vervolgens **Uitwisselen \> Labels exporteren**.
+Zoals eerder in dit artikel is beschreven, kunt u vereiste ER-labels toevoegen aan een bewerkbaar ER-onderdeel. Op deze manier kunt u de tekst van de ER-labels opgeven in de taal EN-US. Vervolgens kunt u de labels van het ER-onderdeel exporteren met de ingebouwde ER-functie. Selecteer de conceptversie van een ER-configuratie die het bewerkbare ER-onderdeel bevat en selecteer vervolgens **Uitwisselen \> Labels exporteren**.
 
 ![Pagina ER-configuraties waarop het exporteren van ER-labels uit de geselecteerde configuratieversie wordt toegestaan.](./media/er-multilingual-labels-export.png)
 
@@ -229,7 +232,7 @@ Door versiebeheer wordt de labeltoewijzing aan elk kenmerk in een ER-onderdeel b
 
 Met de ingebouwde ER-functie [LISTOFFIELDS](er-functions-list-listoffields.md) hebt u toegang tot ER-labels die zijn geconfigureerd voor een aantal ER-onderdelen.
 
-Zoals eerder in dit onderwerp is beschreven, kunnen de kenmerken **Label** en **Beschrijving** van de ER-opsommingswaarde van elk [model](#LinkModelEnum) of elke [indeling](#LinkFormatEnum) worden gekoppeld aan een ER-label dat toegankelijk is in het desbetreffende ER-onderdeel. U kunt een ER-expressie configureren waarbij u de functie **LISTOFFIELDS** aanroept door de ER-opsomming als argument te gebruiken. Met deze expressie wordt een lijst geretourneerd die een record bevat voor elke waarde van een ER-opsomming die is gedefinieerd als een argument van deze functie. Elke record bevat de waarde van een ER-label dat is gekoppeld aan een ER-opsommingswaarde:
+Zoals eerder in dit artikel is beschreven, kunnen de kenmerken **Label** en **Beschrijving** van de ER-opsommingswaarde van elk [model](#LinkModelEnum) of elke [indeling](#LinkFormatEnum) worden gekoppeld aan een ER-label dat toegankelijk is in het desbetreffende ER-onderdeel. U kunt een ER-expressie configureren waarbij u de functie **LISTOFFIELDS** aanroept door de ER-opsomming als argument te gebruiken. Met deze expressie wordt een lijst geretourneerd die een record bevat voor elke waarde van een ER-opsomming die is gedefinieerd als een argument van deze functie. Elke record bevat de waarde van een ER-label dat is gekoppeld aan een ER-opsommingswaarde:
 
 - De waarde van een ER-label die is gekoppeld aan de **label** kenmerken, wordt opgeslagen in het veld **Label** van de geretourneerde record.
 - De waarde van een ER-label die is gekoppeld aan de **beschrijvings** kenmerken, wordt opgeslagen in het veld **Beschrijving** van de geretourneerde record.

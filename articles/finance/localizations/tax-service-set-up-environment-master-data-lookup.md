@@ -1,6 +1,6 @@
 ---
 title: Zoeken van hoofdgegevens voor btw-berekeningsconfiguratie inschakelen
-description: In dit onderwerp wordt uitgelegd hoe u de zoekfunctie voor hoofdgegevens voor belastingberekening kunt instellen en inschakelen.
+description: In dit artikel wordt uitgelegd hoe u de zoekfunctie voor hoofdgegevens voor belastingberekening kunt instellen en inschakelen.
 author: kai-cloud
 ms.date: 11/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7640144b1687fc64e55f659d49cdb0817c17294a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d9c234781e55fbf7f29eec14666c939d5d60e2fb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686706"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879404"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Zoeken van hoofdgegevens voor btw-berekeningsconfiguratie inschakelen 
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u de zoekfunctie voor hoofdgegevens voor belastingberekening kunt instellen en inschakelen. Er is een vervolgkeuzelijst beschikbaar voor het selecteren van waarden in de belastingberekeningsconfiguratie voor velden, zoals **Rechtspersoon**, **Leveranciersrekening**, **Artikelcode** en **Leveringstermijn**. Deze waarden zijn afkomstig uit de verbonden Microsoft Dynamics 365 Finance-omgeving met de Microsoft Dataverse-gegevensbron.
+In dit artikel wordt uitgelegd hoe u de zoekfunctie voor hoofdgegevens voor belastingberekening kunt instellen en inschakelen. Er is een vervolgkeuzelijst beschikbaar voor het selecteren van waarden in de belastingberekeningsconfiguratie voor velden, zoals **Rechtspersoon**, **Leveranciersrekening**, **Artikelcode** en **Leveringstermijn**. Deze waarden zijn afkomstig uit de verbonden Microsoft Dynamics 365 Finance-omgeving met de Microsoft Dataverse-gegevensbron.
 
 > [!NOTE] 
 > De functie voor het opzoeken van hoofdgegevens voor de belastingberekening is optionele functionaliteit. U kunt de volgende stappen overslaan als u de functie **Ondersteuning voor Dataverse-gegevensbronnen van de Belastingdienst** in Regulatory Configuration Service (RCS) uitschakelt. In dat geval is de vervolgkeuzelijst echter niet beschikbaar in de configuratie van de btw-berekening.

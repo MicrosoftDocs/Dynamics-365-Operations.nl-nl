@@ -1,6 +1,6 @@
 ---
 title: Overheadberekening
-description: In dit onderwerp worden de kenmerkende processen voor het berekenen en toewijzen van overheadkosten beschreven.
+description: In dit artikel worden de kenmerkende processen voor het berekenen en toewijzen van overheadkosten beschreven.
 author: AndersGirke
 ms.date: 10/04/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 9d704268f481fdf377033740f727e5d581a8c510
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 9322fb5237afdbf73147bb549eb3f70929c46ce2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733929"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881986"
 ---
 # <a name="overhead-calculation"></a>Overheadberekening
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de kenmerkende processen voor het berekenen en toewijzen van overheadkosten beschreven.
+In dit artikel worden de kenmerkende processen voor het berekenen en toewijzen van overheadkosten beschreven.
 
 ## <a name="term-definition"></a>Definitie van term
 
@@ -1333,10 +1333,10 @@ Kostenelement | Kostenobject<br>CC099 | Kostenobject<br>CC001 | Kostenobject<br>
 10001 Elektriciteit | 0,00 | 0,00 | 0,00 | 0,00 |  | 30.00 | 10.00 | 7,770.57 | 2,189.43 | 10,000.00 |
 Ongeclassificeerd | 0,00 |  |  |  |  |  |  |  |  |  |
 Vaste kosten | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |  |  | 776.36 | 223.64 | 1,000.00 |
-Variabele kosten | 000 | 0,00 | 0,00 | 0,00 | 0,00 | 30,00 | 10,00 | 6,994.21 | 1,965.79 | 9,000.00 |
+Variabele kosten | 000 | 0,00 | 0,00 | 0,00 | 0,00 | 30.00 | 10.00 | 6,994.21 | 1,965.79 | 9,000.00 |
 
 > [!NOTE]
-> Dit onderwerp laat zien beschreven hoe een primair kostenelement, 10001 Elektriciciteit, door de kostenobjecten stroomt. Daarom worden deze overheadkosten toegewezen aan het laagste niveau in de organisatie. Met andere woorden, de kostenobjecten op het laagste niveau dragen de kosten. Als u een visuele stroom van de kosten tussen de kostenobjecten nodig hebt, kunt u de beleidsregels voor kostenaggregatie gebruiken om de stroom van de kosten zichtbaar te maken. Zie [Beleid voor totalisering van kosten en overheadberekening](cost-rollup.md) voor meer informatie.
+> Dit artikel laat zien hoe een primair kostenelement, 10001 Elektriciteit, door de kostenobjecten stroomt. Daarom worden deze overheadkosten toegewezen aan het laagste niveau in de organisatie. Met andere woorden, de kostenobjecten op het laagste niveau dragen de kosten. Als u een visuele stroom van de kosten tussen de kostenobjecten nodig hebt, kunt u de beleidsregels voor kostenaggregatie gebruiken om de stroom van de kosten zichtbaar te maken. Zie [Beleid voor totalisering van kosten en overheadberekening](cost-rollup.md) voor meer informatie.
 
 
 

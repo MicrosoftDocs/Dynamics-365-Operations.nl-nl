@@ -1,6 +1,6 @@
 ---
 title: Leeg Ja Nee
-description: In dit onderwerp wordt de optieset voor Leeg Ja Nee voor Dynamics 365 Human Resources beschreven.
+description: In dit artikel wordt de optieset voor Leeg Ja Nee voor Dynamics 365 Human Resources beschreven.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2e0547c071f730a89f4d94a83690954caca07211
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 47c4f2ce308e3c32ddb540d19e1a346a3dc359ff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068704"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868212"
 ---
 # <a name="blank-yes-no"></a>Leeg Ja Nee
 
@@ -27,7 +27,7 @@ ms.locfileid: "8068704"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp wordt de optieset voor Leeg Ja Nee voor Dynamics 365 Human Resources beschreven.
+In dit artikel wordt de optieset voor Leeg Ja Nee voor Dynamics 365 Human Resources beschreven.
 
 Fysieke naam: mshr_hrmblankyesno
 

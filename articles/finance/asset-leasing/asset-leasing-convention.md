@@ -1,6 +1,6 @@
 ---
 title: Conventies voor het leasen van activa
-description: In dit onderwerp worden conventies voor geleasde activa beschreven.
+description: In dit artikel worden conventies voor geleasde activa beschreven.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5e0aabce46e47079b754b8ac674b205cf00b5e26
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: f2f0e21b20a969c0847ce3a6eb167287c1d7ee3e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711025"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898264"
 ---
 # <a name="asset-leasing-conventions"></a>Conventies voor het leasen van activa
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-In dit onderwerp worden conventies voor geleasde activa beschreven. Leasingconventies worden gebruikt om de aanvangsdatum van een leaseboek te bepalen. Als de leasingconventie is ingesteld op **Geen**, is de aanvangsdatum gelijk aan de begindatum voor de lease (dat wil zeggen de waarde van het veld **Begindatum lease**). Als de leasingconventie is ingesteld op **Volledige maand**, is de aanvangsdatum de eerste dag van de maand waarin de begindatum van de lease valt.
+In dit artikel worden conventies voor geleasde activa beschreven. Leasingconventies worden gebruikt om de aanvangsdatum van een leaseboek te bepalen. Als de leasingconventie is ingesteld op **Geen**, is de aanvangsdatum gelijk aan de begindatum voor de lease (dat wil zeggen de waarde van het veld **Begindatum lease**). Als de leasingconventie is ingesteld op **Volledige maand**, is de aanvangsdatum de eerste dag van de maand waarin de begindatum van de lease valt.
 
 De aanvangsdatum bepaalt de begindatum van de periode voor de afschrijvingsschema's voor de verplichting en de afschrijving van de activa. Rente- en afschrijvingskosten worden geboekt op de einddatum van de periode van de overeenkomstige schema's. De eerste inboeking en correctie worden geboekt op de aanvangsdatum.
 

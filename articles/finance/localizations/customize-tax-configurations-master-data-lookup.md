@@ -1,6 +1,6 @@
 ---
 title: Belastingconfiguraties aanpassen voor het opzoeken van hoofdgegevens
-description: In dit onderwerp wordt uitgelegd hoe u belastingconfiguraties kunt aanpassen om de zoekfunctionaliteit van hoofdgegevens uit te breiden.
+description: In dit artikel wordt uitgelegd hoe u belastingconfiguraties kunt aanpassen om de zoekfunctionaliteit van hoofdgegevens uit te breiden.
 author: kai-cloud
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 69541316ad4c6c4bb404ea142844ce596b5502b9
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 31c15c47fa1dc6861ff555a991d5f9233b7df35e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689123"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845179"
 ---
 # <a name="customize-tax-configurations-for-master-data-lookup"></a>Belastingconfiguraties aanpassen voor het opzoeken van hoofdgegevens
 
 [!include [banner](../includes/banner.md)]
 
-Neem de stappen in dit onderwerp om belastingconfiguraties aan te passen om de zoekfunctionaliteit van hoofdgegevens uit te breiden.
+Neem de stappen in dit artikel om belastingconfiguraties aan te passen om de zoekfunctionaliteit van hoofdgegevens uit te breiden.
 
 ## <a name="import-a-tax-configuration-provided-by-microsoft"></a>Een belastingconfiguratie importeren die door Microsoft is geleverd
 

@@ -1,6 +1,6 @@
 ---
 title: Postcodes importeren of handmatig maken
-description: In dit onderwerp wordt beschreven hoe u postcodes in de juiste indeling importeert en handmatig maakt.
+description: In dit artikel wordt beschreven hoe u postcodes in de juiste indeling importeert en handmatig maakt.
 author: EvgenyPopovMBS
 ms.date: 10/31/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Belgium, Netherlands, Sweden
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d547b6cb199279b6e40e6d6cf005086d62386421945cbeb04a9cfc395a55f0fc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9c64fa998e6c9d64ac5d2c18b9391ad81a047f0b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768247"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897989"
 ---
 # <a name="import-or-manually-create-postal-codes"></a>Postcodes importeren of handmatig maken
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u postcodes in de juiste indeling importeert en handmatig maakt. 
+In dit artikel wordt beschreven hoe u postcodes in de juiste indeling importeert en handmatig maakt. 
 
 Met het importproces kunt u de postcodes voor een bepaald land of een bepaalde regio bijwerken. U kunt postcodes ook handmatig maken.
 

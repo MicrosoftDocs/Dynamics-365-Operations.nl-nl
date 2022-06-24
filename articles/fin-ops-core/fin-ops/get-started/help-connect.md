@@ -1,6 +1,6 @@
 ---
 title: De Help-ervaring voor apps voor financiële en bedrijfsactiviteiten configureren
-description: Dit onderwerp biedt informatie over de onderdelen van het Help-systeem voor sommige Microsoft Dynamics 365-apps.
+description: Dit artikel biedt informatie over de onderdelen van het Help-systeem voor sommige Microsoft Dynamics 365-apps.
 author: margoc
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bac06e258a96bb50bb6de7957e3e5ed07e966127
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b002b374e5da619460c496b8f0d7a70b7194afd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071003"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900124"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>De Help-ervaring voor apps voor financiële en bedrijfsactiviteiten configureren
 
@@ -29,7 +29,7 @@ ms.locfileid: "8071003"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-In dit onderwerp vindt u een overzicht van de onderdelen van het Help-systeem voor apps voor financiële en bedrijfsactiviteiten, zoals Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce en Dynamics 365 Human Resources. Ook wordt uitgelegd hoe u deze onderdelen verbindt en u vindt een overzicht van het proces voor het maken van aangepaste Help.
+In dit artikel vindt u een overzicht van de onderdelen van het Help-systeem voor apps voor financiële en bedrijfsactiviteiten, zoals Microsoft Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce en Dynamics 365 Human Resources. Ook wordt in dit artikel uitgelegd hoe u deze onderdelen verbindt en u vindt een overzicht van het proces voor het maken van aangepaste Help.
 
 ## <a name="help-architecture"></a>Help-architectuur
 

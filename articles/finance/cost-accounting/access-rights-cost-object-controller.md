@@ -1,6 +1,6 @@
 ---
 title: Toegangsrechten voor controllers voor kostenobjecten
-description: Dit onderwerp bevat informatie over toegangsrechten voor controllers voor kostenobjecten.
+description: Dit artikel bevat informatie over toegangsrechten voor controllers voor kostenobjecten.
 author: AndersGirke
 ms.date: 06/24/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 13d562a4f42644b822c9548d1ea87d44a396b2c2
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c40be758c5e5d1d1fb025630ed8321ae46251892
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733873"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903184"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>Toegangsrechten voor controllers voor kostenobjecten
 
@@ -35,10 +35,10 @@ Er zijn vier unieke rollen in Kostprijsboekhouding.
 |-------------------------|--------------|
 | Manager van kostprijsboekhouding | Activiteit     |
 | Kostenaccountant         | Operations   |
-| Assistent kostenaccountant   | Operations   |
+| Assistent kostenaccountant   | Werkzaamheden   |
 | Controller voor kostenobjecten  | Teamleden |
 
-In dit onderwerp wordt uitgelegd hoe de rol **Controller voor kostenobjecten** aan een manager kan worden toegewezen.
+In dit artikel wordt uitgelegd hoe de rol **Controller voor kostenobjecten** aan een manager kan worden toegewezen.
 
 Wanneer de **Controller voor kostenobjecten** wordt toegewezen aan een manager, kan de manager de volgende taken uitvoeren:
 
@@ -95,7 +95,7 @@ De instellingen voor de hiërarchie van toegangslijsten worden gebruikt voor het
 
 > [!IMPORTANT]
 > - Voordat de hiërarchie van toegangslijsten van invloed kan zijn op gegevens in Power BI, moeten de hiërarchie van toegangslijsten en beveiliging op rijniveau in Power BI worden gekoppeld. Zie [Beveiliging instellen voor het inhoudpakket Kostprijsboekhouding](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md) voor meer informatie.
-> - Dit onderwerp bevat de vereisten waaraan moet worden voldaan voordat u het werkgebied **Kostenbeheer** kunt gebruiken.
+> - Dit artikel bevat de vereisten waaraan moet worden voldaan voordat u het werkgebied **Kostenbeheer** kunt gebruiken.
 
 Aanvullende resources
 

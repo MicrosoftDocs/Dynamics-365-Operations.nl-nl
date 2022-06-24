@@ -1,6 +1,6 @@
 ---
 title: Documenten en boekstukken chronologisch nummeren
-description: In dit onderwerp wordt uitgelegd hoe u chronologische nummers kunt instellen en gebruiken voor toepasselijke documenten en gerelateerde boekstukken.
+description: In dit artikel wordt uitgelegd hoe u chronologische nummers kunt instellen en gebruiken voor toepasselijke documenten en gerelateerde boekstukken.
 author: ikond
 ms.date: 02/01/2021
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0ce1afdbd31a78611e6b51dd93f7159d684c97cb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 6baf307406982e8f72acc0d02f047dbc7c63a5ed
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692668"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876378"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>Documenten en boekstukken chronologisch nummeren
 
 [!include [banner](../includes/banner.md)]
 
 
-In sommige landen is het wettelijk verplicht documenten en gerelateerde boekstukken in chronologische volgorde te nummeren. De chronologie moet door perioden worden ondersteund. Alle nummers die tot eerdere perioden behoren, moeten lager zijn dan de nummers die tot latere perioden behoren. Om aan deze vereiste te voldoen, is de chronologische nummeringsfunctionaliteit geïmplementeerd. In dit onderwerp wordt uitgelegd hoe u chronologische nummers kunt configureren en gebruiken voor toepasselijke documenten en gerelateerde boekstukken.
+In sommige landen is het wettelijk verplicht documenten en gerelateerde boekstukken in chronologische volgorde te nummeren. De chronologie moet door perioden worden ondersteund. Alle nummers die tot eerdere perioden behoren, moeten lager zijn dan de nummers die tot latere perioden behoren. Om aan deze vereiste te voldoen, is de chronologische nummeringsfunctionaliteit geïmplementeerd. In dit artikel wordt uitgelegd hoe u chronologische nummers kunt configureren en gebruiken voor toepasselijke documenten en gerelateerde boekstukken.
 
 ## <a name="prerequisites"></a>Vereisten
 

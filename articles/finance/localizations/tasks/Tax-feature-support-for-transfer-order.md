@@ -1,6 +1,6 @@
 ---
 title: Ondersteuning voor belastingfunctie voor transferorders
-description: In dit onderwerp wordt de ondersteuning voor de nieuwe belastingfunctie met behulp van de service voor belastingberekening uitgelegd.
+description: In dit artikel wordt de ondersteuning voor de nieuwe belastingfunctie met behulp van de service voor belastingberekening uitgelegd.
 author: Kai-Cloud
 ms.date: 10/13/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d95ea6795dc5777bfd37f8fbb3ebc47f2db337a0
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 281ee90b7cae2d24d37d0684ad9975118560bb3e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689209"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869976"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Ondersteuning voor belastingfunctie voor transferorders
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp vindt u informatie over belastingberekening en boekingsintegratie in transferorders. Met deze functionaliteit kunt u belastingberekening en boekingen in transferorders instellen voor voorraadtransfers. Volgens de btw-regelgeving van de Europese Unie (EU) worden voorraadtransfers beschouwd als intracommunautaire leveringen en intracommunautaire verwervingen.
+In dit artikel vindt u informatie over belastingberekening en boekingsintegratie in transferorders. Met deze functionaliteit kunt u belastingberekening en boekingen in transferorders instellen voor voorraadtransfers. Volgens de btw-regelgeving van de Europese Unie (EU) worden voorraadtransfers beschouwd als intracommunautaire leveringen en intracommunautaire verwervingen.
 
 Als u deze functionaliteit wilt configureren en gebruiken, moet u drie hoofdstappen uitvoeren:
 

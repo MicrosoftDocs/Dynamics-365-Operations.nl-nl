@@ -1,6 +1,6 @@
 ---
 title: De uitvoering van ER-indelingen traceren om prestatieproblemen op te lossen
-description: Dit onderwerp bevat informatie over het gebruik van de functie voor prestatietracering in Elektronische rapportage (ER) om prestatieproblemen op te lossen.
+description: Dit artikel bevat informatie over het gebruik van de functie voor prestatietracering in Elektronische rapportage (ER) om prestatieproblemen op te lossen.
 author: NickSelin
 ms.date: 06/22/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 10eddf2f60db914e6451840d4d7aedb9dce7108874ea3ff45f375b85a55a694f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 886781764b44ca76b327ad49f25f11f6c370a706
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724388"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851946"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>De uitvoering van ER-indelingen traceren om prestatieproblemen op te lossen
 
@@ -305,27 +305,27 @@ Het kan ook handig zijn om het aantal aanroepen naar de gegevensbron LedgerTrans
 
 ### <a name="import-the-modified-er-model-mapping-configuration-from-rcs-into-the-application"></a>De gewijzigde configuratie voor ER-modeltoewijzing vanuit RCS in de toepassing importeren
 
-Herhaal de stappen uit het gedeelte [Een ER-configuratie uit RCS importeren in Finance and Operations](#import-configuration) eerder in dit onderwerp om versie 1.2 van de configuratie **Toewijzing voor prestatietracering** te importeren.
+Herhaal de stappen uit het gedeelte [Een ER-configuratie uit RCS importeren in Finance and Operations](#import-configuration) eerder in dit artikel om versie 1.2 van de configuratie **Toewijzing voor prestatietracering** te importeren.
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>De gewijzigde ER-oplossing uitvoeren om de uitvoering te traceren
 
 ### <a name="run-the-er-format"></a>De ER-indeling uitvoeren
 
-Herhaal de stappen uit het gedeelte [De ER-indeling uitvoeren](#run-format) eerder in dit onderwerp om een nieuwe prestatietracering te genereren.
+Herhaal de stappen uit het gedeelte [De ER-indeling uitvoeren](#run-format) eerder in dit artikel om een nieuwe prestatietracering te genereren.
 
 ## <a name="work-with-the-execution-trace"></a>Werken met de uitvoeringstracering
 
 ### <a name="export-the-generated-trace-from-the-application"></a>De gegenereerde tracering exporteren vanuit de toepassing
 
-Herhaal de stappen uit het gedeelte [De gegenereerde tracering exporteren vanuit de toepassing](#export-trace) eerder in dit onderwerp om een nieuwe prestatietracering lokaal op te slaan.
+Herhaal de stappen uit het gedeelte [De gegenereerde tracering exporteren vanuit de toepassing](#export-trace) eerder in dit artikel om een nieuwe prestatietracering lokaal op te slaan.
 
 ### <a name="import-the-generated-trace-into-rcs"></a>De gegenereerde tracering in RCS importeren
 
-Herhaal de stappen uit het gedeelte [De gegenereerde tracering in RCS importeren](#import-trace) eerder in dit onderwerp om de nieuwe prestatietracering in RCS te importeren.
+Herhaal de stappen uit het gedeelte [De gegenereerde tracering in RCS importeren](#import-trace) eerder in dit artikel om de nieuwe prestatietracering in RCS te importeren.
 
 ### <a name="use-the-performance-trace-for-analysis-in-rcs--model-mapping"></a>De prestatietracering gebruiken voor analyse in RCS – Modeltoewijzing
 
-Herhaal de stappen uit het gedeelte [De prestatietracering gebruiken voor analyse in RCS – Modeltoewijzing](#use-trace) eerder in dit onderwerp om de meest recente prestatietracering te analyseren.
+Herhaal de stappen uit het gedeelte [De prestatietracering gebruiken voor analyse in RCS – Modeltoewijzing](#use-trace) eerder in dit artikel om de meest recente prestatietracering te analyseren.
 
 Door uw aanpassingen in de modeltoewijzing worden er geen dubbele query's meer uitgevoerd in de database. Het aantal aanroepen naar databasetabellen en gegevensbronnen voor deze modeltoewijzing is ook beperkt. Hierdoor zijn de prestaties van de hele ER-oplossing verbeterd.
 
@@ -355,7 +355,7 @@ Als u een van deze versies gebruikt, kunt u de details van gegenereerde prestati
 
 ### <a name="run-the-er-format"></a>De ER-indeling uitvoeren
 
-Herhaal de stappen uit het gedeelte [De ER-indeling uitvoeren](#run-format) eerder in dit onderwerp om een nieuwe prestatietracering te genereren.
+Herhaal de stappen uit het gedeelte [De ER-indeling uitvoeren](#run-format) eerder in dit artikel om een nieuwe prestatietracering te genereren.
 
 U ziet dat de webbrowser een zipbestand voor downloaden biedt. Dit bestand bevat de prestatietracering in PerfView-indeling. Vervolgens kunt u het PerfView-hulpprogramma voor prestatieanalyse gebruiken om de details van de ER-indelingsuitvoering te analyseren.
 
@@ -379,7 +379,7 @@ Vanwege verbeteringen in het ER-raamwerk biedt de prestatietracering die in de P
 
 ### <a name="run-the-er-format"></a>De ER-indeling uitvoeren
 
-Herhaal de stappen uit het gedeelte [De ER-indeling uitvoeren](#run-format) eerder in dit onderwerp om een nieuwe prestatietracering te genereren.
+Herhaal de stappen uit het gedeelte [De ER-indeling uitvoeren](#run-format) eerder in dit artikel om een nieuwe prestatietracering te genereren.
 
 U ziet dat de webbrowser een zipbestand voor downloaden biedt. Dit bestand bevat de prestatietracering in PerfView-indeling. Vervolgens kunt u het PerfView-hulpprogramma voor prestatieanalyse gebruiken om de details van de ER-indelingsuitvoering te analyseren. Deze tracering bevat nu de details van SQL-databasetoegang tijdens de uitvoering van de ER-indeling.
 

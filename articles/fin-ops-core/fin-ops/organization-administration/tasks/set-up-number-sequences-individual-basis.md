@@ -1,6 +1,6 @@
 ---
 title: Nummerreeksen instellen op een individuele basis
-description: In dit onderwerp wordt uitgelegd hoe op een individuele basis nummerreeksen kunnen worden ingesteld.
+description: In dit artikel wordt uitgelegd hoe op een individuele basis nummerreeksen kunnen worden ingesteld.
 author: SunilGarg
 ms.date: 08/16/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b95a639c593c0f126a9aa1dd50434838d09ef746
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 7be72d348957c5c6494958276b2baa9c67d63c58
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777908"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904983"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Nummerreeksen instellen op een individuele basis
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe op een individuele basis nummerreeksen kunnen worden ingesteld. Nummerreeksen worden gebruikt om leesbare, unieke identificaties te maken voor hoofdgegevensrecords en transactierecords die deze nodig hebben. Een hoofdgegevens- of transactieregistratie die een identificatie nodig heeft wordt een verwijzing genoemd. Voordat u nieuwe registraties voor een verwijzing kunt maken, moet u een nummerreeks instellen en deze aan de verwijzing koppelen. U kunt alle vereiste nummerreeksen tegelijkertijd instellen met de wizard **Nummerreeksen instellen** of u kunt individuele nummerreeksen maken of wijzigen met de pagina **Nummerreeksen**.
+In dit artikel wordt uitgelegd hoe op een individuele basis nummerreeksen kunnen worden ingesteld. Nummerreeksen worden gebruikt om leesbare, unieke identificaties te maken voor hoofdgegevensrecords en transactierecords die deze nodig hebben. Een hoofdgegevens- of transactieregistratie die een identificatie nodig heeft wordt een verwijzing genoemd. Voordat u nieuwe registraties voor een verwijzing kunt maken, moet u een nummerreeks instellen en deze aan de verwijzing koppelen. U kunt alle vereiste nummerreeksen tegelijkertijd instellen met de wizard **Nummerreeksen instellen** of u kunt individuele nummerreeksen maken of wijzigen met de pagina **Nummerreeksen**.
 
 1. Ga naar **Navigatiedeelvenster > Modules > Organisatiebeheer > Nummerreeksen > Nummerreeksen**.
 2. Selecteer **Nummerreeksen selecteren**.

@@ -1,6 +1,6 @@
 ---
 title: Leases beheren via het raamwerk voor het importeren van leases
-description: In dit onderwerp wordt uitgelegd hoe u het raamwerk voor het importeren van leases kunt gebruiken om meerdere leases tegelijk aan te passen.
+description: In dit artikel wordt uitgelegd hoe u het raamwerk voor het importeren van leases kunt gebruiken om meerdere leases tegelijk aan te passen.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e3443225b5c7cb6d8f758248e538c2a427a89265
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 8cf81ccf61e62ac49e6cb90d13ca5fe50147cc76
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723162"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894959"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>Leases beheren via het raamwerk voor het importeren van leases
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u het raamwerk voor het importeren van leases kunt gebruiken om meerdere leases in één stap aan te passen. Als u deze functie gebruikt, kunt u tijd besparen en kunt u nauwkeurige correcties garanderen door de kans op een menselijke fout te verlagen. Bovendien kan deze mogelijkheid Microsoft Dynamics 365 Finance met externe gegevensentiteiten verbinden om gegevens efficiënt te uploaden.
+In dit artikel wordt uitgelegd hoe u het raamwerk voor het importeren van leases kunt gebruiken om meerdere leases in één stap aan te passen. Als u deze functie gebruikt, kunt u tijd besparen en kunt u nauwkeurige correcties garanderen door de kans op een menselijke fout te verlagen. Bovendien kan deze mogelijkheid Microsoft Dynamics 365 Finance met externe gegevensentiteiten verbinden om gegevens efficiënt te uploaden.
 
 De volgende gegevensentiteiten kunnen worden gebruikt om activa-leasing met externe systemen te integreren:
 

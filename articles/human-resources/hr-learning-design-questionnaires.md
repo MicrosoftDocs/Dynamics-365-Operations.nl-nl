@@ -1,6 +1,6 @@
 ---
 title: Vragenlijsten maken
-description: In dit onderwerp wordt het proces om een vragenlijst te maken beschreven.
+description: Dit artikel beschrijft het proces om een vragenlijst te maken.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 7b2e1316768dc6207c82f08cef4c268ae70648ad
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ef14dfe35e6cffc5ae2351045141d99b2fb53c16
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694846"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899638"
 ---
 # <a name="create-questionnaires"></a>Vragenlijsten maken
 
@@ -28,7 +28,7 @@ ms.locfileid: "8694846"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp wordt het proces om een vragenlijst te maken beschreven. Als eerste stap ontwerpt u de vragenlijst Wanneer u een vragenlijst ontwerpt, schrijft u niet alleen de vragen en antwoorden, maar maakt u ook de structuur waardoor antwoorden worden geregistreerd en getabelleerd. 
+Dit artikel beschrijft het proces om een vragenlijst te maken. Als eerste stap ontwerpt u de vragenlijst Wanneer u een vragenlijst ontwerpt, schrijft u niet alleen de vragen en antwoorden, maar maakt u ook de structuur waardoor antwoorden worden geregistreerd en getabelleerd. 
 
 Door een vragenlijst zorgvuldig te ontwerpen, verhoogt u de kwaliteit van de gegevens die u verzamelt. Door een zorgvuldig ontwerp kunt u op het juiste moment beter de gewenste opties selecteren voor een vragenlijst. De volgende punten kunnen u helpen bij het plannen van een effectieve vragenlijst:
 

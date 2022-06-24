@@ -1,6 +1,6 @@
 ---
 title: Afschrijving van activum met gebruiksrecht vastleggen (preview)
-description: In dit onderwerp wordt uitgelegd hoe u de journaalboeking kunt maken voor de afschrijving die is vereist voor leases die worden herkend op de balans van een organisatie.
+description: In dit artikel wordt uitgelegd hoe u de journaalboeking kunt maken voor de afschrijving die is vereist voor leases die worden herkend op de balans van een organisatie.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ebac6c8d008babec93061071414579eec3a73223
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 93e521cf409af4c01d625f27bdd7a7564e471bd9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727701"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903271"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Afschrijving van activum met gebruiksrecht vastleggen (preview)
 
@@ -28,13 +28,13 @@ ms.locfileid: "8727701"
 [!include [preview banner](../includes/preview-banner.md)]
 
 
-Voor leases die worden herkend op de balans van een organisatie, wordt het activum met gebruiksrecht maandelijks afgeschreven. In dit onderwerp wordt uitgelegd hoe u de journaalboeking voor de afschrijving maakt. De afschrijving wordt afgeschreven van de onkostengrootboekrekening en bijgeschreven opde samengevoegde afschrijvingsgrootboekrekening, op basis van de instellingen van uw boekingsprofiel en het leasetype. Deze boekingen kunnen voor elke lease worden gemaakt, of ze kunnen worden gemaakt voor meerdere leases met behulp van de batchjournaalfunctie.
+Voor leases die worden herkend op de balans van een organisatie, wordt het activum met gebruiksrecht maandelijks afgeschreven. In dit artikel wordt uitgelegd hoe u de journaalboeking voor de afschrijving maakt. De afschrijving wordt afgeschreven van de onkostengrootboekrekening en bijgeschreven opde samengevoegde afschrijvingsgrootboekrekening, op basis van de instellingen van uw boekingsprofiel en het leasetype. Deze boekingen kunnen voor elke lease worden gemaakt, of ze kunnen worden gemaakt voor meerdere leases met behulp van de batchjournaalfunctie.
 
 ## <a name="asset-depreciation-schedule"></a>Afschrijvingsschema van activa
 
 1. Selecteer een lease op de pagina **Leaseoverzicht**. Selecteer vervolgens **Boeken \> Afschrijvingsschema activa** om de pagina **Afschrijvingsschema activa** te openen.
 
-    Het journaalpost voor afschrijvingskosten van het RoU-activum is gebaseerd op het bedrag in de kolom **Afschrijvingskosten**. Zie de sectie [Afschrijvingskosten voor RoU-activum berekenen voor financiële leases](#calculation-of-rou-asset-amortization-expense-for-finance-leases) verderop in dit onderwerp voor een voorbeeld van de richtlijnen voor de naleving van de boekhoudstandaard.
+    Het journaalpost voor afschrijvingskosten van het RoU-activum is gebaseerd op het bedrag in de kolom **Afschrijvingskosten**. Zie het gedeelte [Afschrijvingskosten voor RoU-activum berekenen voor financiële leases](#calculation-of-rou-asset-amortization-expense-for-finance-leases) verderop in dit artikel voor een voorbeeld van de richtlijnen voor de naleving van de boekhoudstandaard.
     
 2. Selecteer de afschrijvingperiode en selecteer **Journaal maken**. U ontvangt een bericht met de mededeling dat het journaal dat wordt gebruikt voor het vastleggen van de afschrijving is gemaakt.
 3. Selecteer **Journalen \> Activaleasejournalen** om de pagina **Activaleasejournaal** te openen, waar u de gemaakte journaalpost voor afschrijvingskosten kunt bekijken.

@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e9d937211c049b2ec4ac06ac6eddce7fd9bcb5b0
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: f4f06b7916fb2eeed802b2dce95edfce448dcd97
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719994"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880840"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Samenvoeging van waardemodellen en afschrijvingsboeken voor vaste activa
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt de huidige boekfunctionaliteit in vaste activa beschreven. Deze nieuwe functionaliteit is gebaseerd de functionaliteit voor waardemodellen, die beschikbaar was in eerdere versies, maar omvat ook alle functionaliteit die voorheen alleen in afschrijvingsboeken beschikbaar was.
+In dit artikel wordt de huidige boekfunctionaliteit in vaste activa beschreven. Deze nieuwe functionaliteit is gebaseerd de functionaliteit voor waardemodellen, die beschikbaar was in eerdere versies, maar omvat ook alle functionaliteit die voorheen alleen in afschrijvingsboeken beschikbaar was.
 
-Met de boekfunctionaliteit kunt u één set pagina's, vragen en rapporten gebruiken voor alle vaste-activaprocessen van uw organisatie. De tabellen in dit onderwerp geven de bestaande functionaliteit voor waardemodellen en afschrijvingsboeken weer, samen met de nieuwe functionaliteit voor boeken.
+Met de boekfunctionaliteit kunt u één set pagina's, vragen en rapporten gebruiken voor alle vaste-activaprocessen van uw organisatie. De tabellen in dit artikel geven de bestaande functionaliteit voor waardemodellen en afschrijvingsboeken weer, samen met de nieuwe functionaliteit voor boeken.
 
 ## <a name="setup"></a>Instelling
 Standaard boeken de boeken naar zowel het grootboek (GB) als ook de subadministratie voor vaste activa. Boeken hebben een nieuwe optie **Boeken naar grootboek**, waarmee u het boeken naar het grootboek kunt uitschakelen en alleen boekt naar de subadministratie voor vaste activa. Deze functionaliteit lijkt op het vroegere boekingsgedrag voor afschrijvingsboeken. De instelling voor journaalnamen heeft een nieuwe boekingslaag met de naam Geen. Deze boekingslaag is specifiek toegevoegd voor vaste-activatransacties. Om transacties te boeken voor boeken die niet naar het grootboek boeken, moet u een journaalnaam gebruiken waarvoor de boekingslaag is ingesteld op **Geen**.

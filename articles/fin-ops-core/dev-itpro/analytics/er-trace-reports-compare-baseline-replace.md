@@ -1,6 +1,6 @@
 ---
 title: Tracering verbeteren van de resultaten van gegenereerde ER-rapporten om deze te vergelijken met basislijnwaarden
-description: Dit onderwerp beschrijft verbeteringen in de ER-basislijnfunctie in Microsoft Dynamics 365 for Finance and Operations versie 10.0.3 (juni 2019).
+description: Dit artikel beschrijft verbeteringen in de ER-basislijnfunctie in Microsoft Dynamics 365 for Finance and Operations versie 10.0.3 (juni 2019).
 author: NickSelin
 ms.date: 06/19/2019
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: b6e8299dd57730486c731cd38578bd5ff6b8a1754f145432e300c1217c6dd640
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b9ac7dcac4d020759d04fec75e17c43ed627e25
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760745"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847396"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Tracering verbeteren van de resultaten van gegenereerde ER-rapporten om deze te vergelijken met basislijnwaarden
 
 [!include[banner](../includes/banner.md)]
 
-In dit onderwerp wordt de eerste verbeteringen beschreven die zijn aangebracht in de basisfunctie van het raamwerk voor elektronische rapportage (ER). Deze verbeteringen zijn beschikbaar in Microsoft Dynamics 365 for Finance and Operations 10.0.3 (juni 2019) en hoger.
+In dit artikel wordt de eerste verbeteringen beschreven die zijn aangebracht in de basisfunctie van het raamwerk voor elektronische rapportage (ER). Deze verbeteringen zijn beschikbaar in Microsoft Dynamics 365 for Finance and Operations 10.0.3 (juni 2019) en hoger.
 
 ## <a name="automate-the-setting-of-baseline-rules"></a>De instelling van basislijnregels automatiseren
 
-In het onderwerp [Gegenereerde rapportresultaten volgen en vergelijken met de basislijnwaarden](er-trace-reports-compare-baseline.md) wordt uitgelegd hoe u het ER-raamwerk kunt configureren voor het verzamelen van informatie over de uitvoering van ER-indelingen en het evalueren van de resultaten van die uitvoeringen. In het voorbeeld in dit onderwerp worden de stappen weergegeven die moeten worden uitgevoerd.
+In het artikel [Gegenereerde rapportresultaten volgen en vergelijken met de basislijnwaarden](er-trace-reports-compare-baseline.md) wordt uitgelegd hoe u het ER-raamwerk kunt configureren voor het verzamelen van informatie over de uitvoering van ER-indelingen en het evalueren van de resultaten van die uitvoeringen. In het voorbeeld in dit artikel worden de stappen weergegeven die moeten worden uitgevoerd.
 
 Hieronder ziet u enkele van deze stappen:
 
@@ -45,7 +45,7 @@ Hieronder ziet u enkele van deze stappen:
 
 ## <a name="example-automate-the-setting-of-baseline-rules"></a>Voorbeeld: De instelling van basislijnregels automatiseren
 
-Als u de stappen in dit voorbeeld wilt uitvoeren, moet u eerst de stappen in het voorbeeld in het onderwerp [Gegenereerde rapportresultaten volgen en vergelijken met de basislijnwaarden](er-trace-reports-compare-baseline.md) uitvoeren, tot en met de sectie Een nieuwe basislijn toevoegen voor een ontworpen ER-indeling.
+Als u de stappen in dit voorbeeld wilt uitvoeren, moet u eerst de stappen in het voorbeeld in het artikel [Gegenereerde rapportresultaten volgen en vergelijken met de basislijnwaarden](er-trace-reports-compare-baseline.md) uitvoeren, tot en met de sectie Een nieuwe basislijn toevoegen voor een ontworpen ER-indeling.
 
 ### <a name="review-added-baseline"></a>Toegevoegde basislijn evalueren
 
@@ -80,7 +80,7 @@ De basislijn is toegevoegd voor de geselecteerde indeling **Indeling voor leren 
 
 ### <a name="run-the-format"></a>De indeling uitvoeren
 
-U kunt nu de resterende stappen in het voorbeeld in het onderwerp [Gegenereerde rapportresultaten volgen en vergelijken met de basislijnwaarden](er-trace-reports-compare-baseline.md) uitvoeren, vanaf de sectie De ontworpen ER-indeling uitvoeren en het logboek controleren om de resultaten te analyseren.
+U kunt nu de resterende stappen in het voorbeeld in het artikel [Gegenereerde rapportresultaten volgen en vergelijken met de basislijnwaarden](er-trace-reports-compare-baseline.md) uitvoeren, vanaf de sectie De ontworpen ER-indeling uitvoeren en het logboek controleren om de resultaten te analyseren.
 
 > [!NOTE]
 > Wanneer u de automatisch toegevoegde basislijnregel verwijdert op het sneltabblad **Basislijnen**, wordt de bijlage waarnaar wordt verwezen niet automatisch verwijderd.
@@ -91,7 +91,7 @@ Wanneer een ER-indeling is ontworpen om informatie te bevatten die wordt gewijzi
 
 ## <a name="example-configure-the-baseline-so-that-it-ignores-constantly-changing-parts-of-the-er-output"></a>Voorbeeld: De basislijn zo configureren dat voortdurend veranderende delen van de ER-uitvoer worden genegeerd
 
-Als u de stappen in dit voorbeeld wilt uitvoeren, moet u eerst de stappen in het voorbeeld in het onderwerp [Gegenereerde rapportresultaten volgen en vergelijken met de basislijnwaarden](er-trace-reports-compare-baseline.md) uitvoeren.
+Als u de stappen in dit voorbeeld wilt uitvoeren, moet u eerst de stappen in het voorbeeld in het artikel [Gegenereerde rapportresultaten volgen en vergelijken met de basislijnwaarden](er-trace-reports-compare-baseline.md) uitvoeren.
 
 ### <a name="modify-a-configured-er-format"></a>Een geconfigureerde ER-indeling wijzigen
 
@@ -142,7 +142,7 @@ Het geselecteerde ER-indelingsonderdeel is toegevoegd aan de lijst met onderdele
 
 ### <a name="make-a-new-baseline-rule"></a>Een nieuwe basislijnregel maken
 
-Volg de stappen in de sectie Voorbeeld: De instelling van basislijnregels automatiseren eerder in dit onderwerp. Er wordt een melding weergegeven dat het uitgaande bestand is gegenereerd met behulp van basislijninstellingen en dat er een geforceerde vervanging van de indelingsbindingen heeft plaatsgevonden.
+Volg de stappen in de sectie Voorbeeld: De instelling van basislijnregels automatiseren eerder in dit artikel. Er wordt een melding weergegeven dat het uitgaande bestand is gegenereerd met behulp van basislijninstellingen en dat er een geforceerde vervanging van de indelingsbindingen heeft plaatsgevonden.
 
 ![Melding op de pagina Configuraties.](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Schermafbeelding van de melding op de pagina Configuraties")
 

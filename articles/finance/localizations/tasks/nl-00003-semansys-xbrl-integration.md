@@ -13,18 +13,18 @@ ms.search.region: Netherlands
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6f451fc74a4316ecb35e988fe6e6daa93ffe5396e8ac63c0134c65f561b67f83
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2c40abd107f9e49bc0a432e9821c14e5d3c4f8de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775862"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864129"
 ---
 # <a name="deliver-xbrl-to-the-dutch-regulatory-body-via-semansys-xbrlone"></a>XBRL aan de Nederlandse regelgevende instantie bezorgen via Semansys XBRLOne
 
 [!include [banner](../../includes/banner.md)]
 
-Dit onderwerp begeleidt u door de stappen voor het toewijzen, exporteren en leveren van XBRL (eXtensible Business Reporting Language) aan de Nederlandse regelgevende instantie.  
+Dit artikel begeleidt u door de stappen voor het toewijzen, exporteren en leveren van XBRL (eXtensible Business Reporting Language) aan de Nederlandse regelgevende instantie.  
 
 Het proces op hoog niveau is een proces van systeem naar mens naar systeem. Het eerste systeem waarvoor dit gevolgen heeft, is Microsoft Dynamics 365 Finance. Dit systeem is verantwoordelijk voor het maken van alle benodigde vermeldingen, rekeningschema's en toewijzingen. Nadat dit is voltooid, exporteert een gebruiker de gegevens in de Semansys DataBridge-indeling. Deze geëxporteerde gegevens kunnen vervolgens naar de XBRLOne-portal worden geüpload om naar XBRL te worden geconverteerd en vervolgens worden gevalideerd en bij de juiste Nederlandse regelgevende instantie worden afgeleverd. 
 

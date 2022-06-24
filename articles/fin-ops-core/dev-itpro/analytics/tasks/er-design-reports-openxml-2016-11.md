@@ -1,6 +1,6 @@
 ---
 title: 'ER: een configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling (november 2016)'
-description: In dit onderwerp wordt beschreven hoe u een nieuwe ER-configuratie (Electronic Reporting) maakt die een sjabloon voor het genereren van elektronische documenten in OPENXML-indeling bevat.
+description: In dit artikel wordt beschreven hoe u een nieuwe ER-configuratie (Electronic Reporting) maakt die een sjabloon voor het genereren van elektronische documenten in OPENXML-indeling bevat.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c3dfe6ce9c918b5fccbd7097096fa359facdf41bbf6fd0fab6c61153171484cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b2325a5389e0bfe1efff17e5cd117ad8dbcd65d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753023"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908408"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER: een configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling (november 2016)
 
 [!include [banner](../../includes/banner.md)]
 
-In de volgende stappen wordt uitgelegd hoe een gebruiker in de rol van Systeembeheerder of Ontwikkelaar voor Elektronische rapportage een nieuwe configuratie voor Elektronische rapportage (ER) kan maken die een sjabloon bevat voor het genereren van elektronische documenten in OPENXML-indeling. Deze configuratie wordt voor de verwerking van leveranciersbetalingen gebruikt.
+In dit artikel wordt uitgelegd hoe een gebruiker in de rol van Systeembeheerder of Ontwikkelaar voor Elektronische rapportage een nieuwe configuratie voor Elektronische rapportage (ER) kan maken die een sjabloon bevat voor het genereren van elektronische documenten in OPENXML-indeling. Deze configuratie wordt voor de verwerking van leveranciersbetalingen gebruikt.
 
 In dit voorbeeld maakt u een configuratie voor het voorbeeldbedrijf, Litware, Inc. Maken. Deze stappen kunnen in GBSI-bedrijven worden uitgevoerd.
 

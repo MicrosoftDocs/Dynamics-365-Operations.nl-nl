@@ -1,6 +1,6 @@
 ---
 title: Microsoft Power Apps-portals gebruiken met het gegevensmodel Partij
-description: In dit onderwerp worden de wijzigingen in de webrollen voor Microsoft Power Apps-portals vanwege het partijgegevensmodel in Twee keer wegschrijven beschreven.
+description: In dit artikel worden de wijzigingen in de webrollen voor Microsoft Power Apps-portals vanwege het partijgegevensmodel in Twee keer wegschrijven beschreven.
 author: RamaKrishnamoorthy
 ms.date: 03/22/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 8242a74b8b2251a8489b772f5c4746b113fe2987
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: c2e9d0f47ef90167bf84bb5b20e6a7ad2d58ffd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060915"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898941"
 ---
 # <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>Microsoft Power Apps-portals gebruiken met het gegevensmodel Partij
 
@@ -24,7 +24,7 @@ ms.locfileid: "8060915"
 
 Orkestratieversie 2.0.999.0 en hoger van de oplossing Twee keer wegschrijven omvatten wijzigingen in het gegevensmodel voor partijen en het globale adresboek voor de tabellen Rekening en Contactpersoon. De wijzigingen maken veel-op-veel-relaties mogelijk die geavanceerde bedrijfsscenario's ondersteunen. Deze wijzigingen worden niet ondersteund door portalwebrollen, inclusief de klantportal, die out-of-the-box worden verzonden of die in uw omgeving bestonden voordat u Twee keer wegschrijven installeerde. Om de webrollen te laten werken zoals verwacht, moet u nieuwe webrollen maken met behulp van het nieuwe gegevensmodel. 
 
-Samengevat is de manier waarop de tabellen samenwerken gewijzigd, maar de tabelmachtigingen in de klantportal zijn niet gewijzigd. In dit onderwerp wordt uitgelegd hoe u nieuwe webrollen maakt die werken met het nieuwe geavanceerde gegevensmodel.
+Samengevat is de manier waarop de tabellen samenwerken gewijzigd, maar de tabelmachtigingen in de klantportal zijn niet gewijzigd. In dit artikel wordt uitgelegd hoe u nieuwe webrollen maakt die werken met het nieuwe geavanceerde gegevensmodel.
 
 Dit diagram toont de tabelrelatie **zonder** het gegevensmodel voor partijen en het globale adresboek:
 

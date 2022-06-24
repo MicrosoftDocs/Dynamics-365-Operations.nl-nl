@@ -1,6 +1,6 @@
 ---
 title: Een gedeeltelijke leverancierbetaling vereffenen en de definitieve betaling volledig vereffenen vóór de kortingsdatum
-description: Dit onderwerp begeleidt u door een scenario waarin meerdere gedeeltelijke betalingen worden gedaan voor een leveranciersfactuur en een contantkorting wordt genomen.
+description: Dit artikel begeleidt u door een scenario waarin meerdere gedeeltelijke betalingen worden gedaan voor een leveranciersfactuur en een contantkorting wordt genomen.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04b00c8407ea2fd7d1e4b58db47c392989a20577
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 90aeff9872e72950f42b6227300933d562c0a3d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716238"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889985"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Een gedeeltelijke leverancierbetaling vereffenen en de definitieve betaling volledig vereffenen vóór de kortingsdatum
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp begeleidt u door een scenario waarin meerdere gedeeltelijke betalingen worden gedaan voor een leveranciersfactuur en een contantkorting wordt genomen.
+Dit artikel begeleidt u door een scenario waarin meerdere gedeeltelijke betalingen worden gedaan voor een leveranciersfactuur en een contantkorting wordt genomen.
 
 Fabrikam koopt goederen aan bij leverancier 3064. De leverancier geeft Fabrikam een contantkorting van 1 procent als de factuur wordt betaald binnen 14 dagen. Facturen moeten worden betaald binnen 30 dagen. De leverancier laat Fabrikam ook contantkortingen nemen op gedeeltelijke betalingen. De vereffeningparameters bevinden zich op de pagina **Parameters van module Leveranciers**. Op 25 juni voert April een factuur voor leverancier 3064 in van 1000,00.
 

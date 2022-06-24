@@ -1,6 +1,6 @@
 ---
 title: Een nieuw vergoedingsplan maken
-description: In dit onderwerp wordt beschreven hoe u vergoedingsplannen in Dynamics 365 Human Resources instelt.
+description: In dit artikel wordt aangegeven hoe u vergoedingsplannen in Dynamics 365 Human Resources instelt.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 90d4399cce227cfec09a12e02f2e56618a656473
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7815657c4bf3f79d1a04333027cc51b496fe1820
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694559"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909812"
 ---
 # <a name="create-a-benefit-plan"></a>Een vergoedingsplan maken
 
@@ -28,7 +28,7 @@ ms.locfileid: "8694559"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp wordt beschreven hoe u vergoedingsplannen in Dynamics 365 Human Resources instelt.
+In dit artikel wordt aangegeven hoe u vergoedingsplannen in Dynamics 365 Human Resources instelt.
 
 1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Plannen** de optie **Vergoedingsplannen**.
 

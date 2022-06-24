@@ -1,6 +1,6 @@
 ---
 title: Budgetplanning bijwerken
-description: In dit onderwerp wordt uitgelegd wat opnieuw moet worden geconfigureerd en worden tevens nieuwe functies beschreven die moeten worden overwogen nadat de upgrade is voltooid.
+description: In dit artikel wordt uitgelegd wat opnieuw moet worden geconfigureerd en worden tevens nieuwe functies beschreven die moeten worden overwogen nadat de upgrade is voltooid.
 author: panolte
 ms.date: 04/10/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: panolte
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c52de15faddd797d31d0875882863b8fe37a7d173b38be058e51a06b2e7fe078
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d098aa77b4eb87118692c18ecd1b09a5de2c53d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769186"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890401"
 ---
 # <a name="upgrade-budget-planning"></a>Budgetplanning bijwerken
 
 [!include [banner](../includes/banner.md)]
 
-Er zijn belangrijke verschillen in de budgetplanning tussen Microsoft Dynamics AX 2012 en Dynamics 365 Finance. Sommige functies zijn niet bijgewerkt en moeten derhalve opnieuw worden geconfigureerd. In dit onderwerp wordt uitgelegd wat opnieuw moet worden geconfigureerd en worden tevens nieuwe functies beschreven die moeten worden overwogen nadat de upgrade is voltooid.  
+Er zijn belangrijke verschillen in de budgetplanning tussen Microsoft Dynamics AX 2012 en Dynamics 365 Finance. Sommige functies zijn niet bijgewerkt en moeten derhalve opnieuw worden geconfigureerd. In dit artikel wordt uitgelegd wat opnieuw moet worden geconfigureerd en worden tevens nieuwe functies beschreven die moeten worden overwogen nadat de upgrade is voltooid.  
 
-Budgetplanning in Finance heeft veel verbeteringen die niet beschikbaar waren Dynamics AX 2012. In dit onderwerp worden de wijzigingen uitgelegd die klanten moeten uitvoeren bij een upgrade. Ook wordt verwezen naar de nieuwe functies die in overweging moeten worden genomen in het upgradeproces. Vanwege de omvang van de wijzigingen, kunnen eventuele bestaande budgetplannen pas worden geopend nadat de wijzigingen zie doorgevoerd die in dit onderwerp worden beschreven. Rapporten moeten echter blijven werken en mogen geen extra wijzigingen vereisen.
+Budgetplanning in Finance heeft veel verbeteringen die niet beschikbaar waren Dynamics AX 2012. In dit artikel worden de wijzigingen uitgelegd die klanten moeten uitvoeren bij een upgrade. Ook wordt verwezen naar de nieuwe functies die in overweging moeten worden genomen in het upgradeproces. Vanwege de omvang van de wijzigingen kunnen eventuele bestaande budgetplannen pas worden geopend nadat de wijzigingen zijn doorgevoerd die in dit artikel worden beschreven. Rapporten moeten echter blijven werken en mogen geen extra wijzigingen vereisen.
 
 ## <a name="overview-of-changes"></a>Overzicht van wijzigingen
 Er zijn veel belangrijke wijzigingen aangebracht in budgettering voor Finance and Operations. Deze wijzigingen zijn bedoeld om ervoor te zorgen dat budgetplanning gemakkelijker te configureren en bruikbaarder wordt, zodat onderhoud en instelling van jaar tot jaar afnemen. De volgende gebieden in AX 2012 bestaan niet langer in Finance:
@@ -58,7 +58,7 @@ Budgetplanningsprocessen zijn meestal hetzelfde als in AX 2012. De belangrijkste
 In AX 2012 werden redendocumenten opgeslagen in een bijlagemap. Er vindt geen upgrade van eerdere redendocumenten plaats. Redendocumenten worden nu opgeslagen in de database. Als deze informatie moet worden opgeslagen in de bijgewerkte versie, kunt u definitieve redendocumenten voor elk plan uploaden als bijlage met de knop **Reden** in het actievenster. In AX 2012 werden voor elk budgetplan Excel-werkbladen gemaakt op basis van de sjabloon. In Finance wordt in alle plannen een kopie van de indeling geopend. Er worden echter geen wijzigingen in het Excel-bestand opgeslagen. Eventuele formules of ondersteunende gegevens die werden gebruikt op planbasis moeten worden toegevoegd via opmerkingen, een redendocument of een ander aanvullend proces.
 
 ## <a name="configuring-an-upgraded-environment-from-ax-2012"></a>Een bijgewerkte omgeving configureren vanuit AX 2012
-Om te helpen bepalen hoe het bijgewerkte systeem moet worden geconfigureerd, wordt in het volgende voorbeeld een bijgewerkt budgetproces uit de demogegevens voor AX 2012 gebruikt. Er zijn standaardconfiguratiegegevens voor kolommen gemaakt om te helpen met het upgradeproces. U kunt deze standaardgegevens bijwerken of verwijderen als zij niet voldoen aan uw configuratievereisten. **Opmerking:** er zijn nieuwe vereiste velden die niet worden ingesteld in het systeem. Als u vast komt te zitten op een pagina, zoals de pagina **Budgetplanningsconfiguratie** en niet weg kunt navigeren, kunt u uw browser sluiten en vervolgens opnieuw openen op een andere pagina om gegevens in de juiste volgorde in te voeren. Er zijn vereiste velden die nog niet zijn ingesteld. Daarom kunnen zich problemen voordoen totdat alles is geconfigureerd en alle vereiste velden zijn ingesteld. In dit onderwerp wordt uitgelegd hoe deze velden instelt, zoals vereist. Dit zijn enkele van deze vereiste velden:
+Om te helpen bepalen hoe het bijgewerkte systeem moet worden geconfigureerd, wordt in het volgende voorbeeld een bijgewerkt budgetproces uit de demogegevens voor AX 2012 gebruikt. Er zijn standaardconfiguratiegegevens voor kolommen gemaakt om te helpen met het upgradeproces. U kunt deze standaardgegevens bijwerken of verwijderen als zij niet voldoen aan uw configuratievereisten. **Opmerking:** er zijn nieuwe vereiste velden die niet worden ingesteld in het systeem. Als u vast komt te zitten op een pagina, zoals de pagina **Budgetplanningsconfiguratie** en niet weg kunt navigeren, kunt u uw browser sluiten en vervolgens opnieuw openen op een andere pagina om gegevens in de juiste volgorde in te voeren. Er zijn vereiste velden die nog niet zijn ingesteld. Daarom kunnen zich problemen voordoen totdat alles is geconfigureerd en alle vereiste velden zijn ingesteld. In dit artikel wordt uitgelegd hoe deze velden indien vereist instelt. Dit zijn enkele van deze vereiste velden:
 
 -   Pagina **Budgetplanningsproces**: veld **Standaardrekeningstructuur**
 -   Pagina **Budgetplanningsproces**: veld **Indeling** op het sneltabblad **Faseregels en indelingen van budgetplanning**
@@ -71,7 +71,7 @@ Om te helpen bepalen hoe het bijgewerkte systeem moet worden geconfigureerd, wor
 
    De volgende kolommen worden gemaakt in Finance and Operations:
 
-   | Kolomnaam    | Budgetplanscenario | Kolomperiode | Jaarverschil |
+   | Kolomnaam    | Budgetplanscenario | Kolomperiode | Jaargrens |
    |----------------|----------------------|--------------------|-------------|
    | Jan Scenario 1 | Werkelijke kosten              | 1                  | 0           |
    | Jan Scenario 2 | Basislijn             | 1                  | 0           |

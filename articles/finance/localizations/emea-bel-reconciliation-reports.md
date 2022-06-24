@@ -1,8 +1,8 @@
 ---
 title: Afstemmingsrapporten voor België
-description: In dit onderwerp worden de standaardrapporten beschreven die Microsoft Dynamics 365 Finance biedt om u te helpen bij de INTERVAT-belastingaangifte en afstemmingsanalyse.
+description: In dit artikel worden de standaardrapporten beschreven die Microsoft Dynamics 365 Finance biedt om u te helpen bij de INTERVAT-belastingaangifte en afstemmingsanalyse.
 author: anasyash
-ms.date: 07/27/2020
+ms.date: 06/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,27 +11,30 @@ audience: Application User
 ms.reviewer: kfend
 ms.custom: 273103
 ms.search.region: Belgium
-ms.author: roschlom
+ms.author: anasyash
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: f585d959b96640df384624edd4109aec8e9d4f0f9d8c314faa19be8c5e0b508b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee09b25924732871ff931498a897e7161c5f519b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744288"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907704"
 ---
 # <a name="reconciliation-reports-for-belgium"></a>Afstemmingsrapporten voor België
 
 [!include [banner](../includes/banner.md)]
 
+> [!NOTE]
+> Deze functie is vervangen door de functionaliteit voor btw-aangifte. Zie [Btw-aangifte (België)](emea-bel-vat-declaration-belgium.md) voor meer informatie.
+
 Dynamics 365 Finance omvat diverse speciaal gebouwde toepassingen die u helpen bij het beheren van specifieke bedrijfsfuncties. Zie [Dynamics 365-licentiehandleiding](https://go.microsoft.com/fwlink/?LinkId=866544) voor meer informatie over deze licentiewijzigingen.
 
-In dit onderwerp worden de standaardrapporten beschreven die u helpen bij de INTERVAT-belastingaangifte en afstemmingsanalyse.
+In dit artikel worden de standaardrapporten beschreven die u helpen bij de INTERVAT-belastingaangifte en afstemmingsanalyse.
 
-Op basis van de btw-posten voor geselecteerde perioden, combineert de Belgische periodieke btw-aangifte (belasting toegevoegde waarde) btw-bedragen in vakken (btw-aangiftecodes) door informatie op een bepaalde manier te sorteren, splitsen en totaliseren. Daarom zijn controlerapporten vereist, zodat de bedragen in de btw-aangifte in detail kunnen worden gecontroleerd. In de rest van dit onderwerp worden de rapporten beschreven die details bevatten van de gegevens in de btw-aangifte.
+Op basis van de btw-posten voor geselecteerde perioden, combineert de Belgische periodieke btw-aangifte (belasting toegevoegde waarde) btw-bedragen in vakken (btw-aangiftecodes) door informatie op een bepaalde manier te sorteren, splitsen en totaliseren. Daarom zijn controlerapporten vereist, zodat de bedragen in de btw-aangifte in detail kunnen worden gecontroleerd. In de rest van dit artikel worden de rapporten beschreven die details bevatten van de gegevens in de btw-aangifte.
 
-Schermafbeeldingen die in dit onderwerp worden weergegeven, bevatten gegevens op basis van transacties uit een voorbeeld in het onderwerp [INTERVAT-belastingaangifte](emea-bel-intervat-tax-declaration.md).
+Schermafbeeldingen die in dit artikel worden weergegeven, bevatten gegevens op basis van transacties uit een voorbeeld in het artikel [INTERVAT-belastingaangifte](emea-bel-intervat-tax-declaration.md).
 
 
 ## <a name="sales-tax-correction"></a>Btw-correctie

@@ -1,6 +1,6 @@
 ---
 title: Planning van consumentenprijsindex
-description: In dit onderwerp wordt uitgelegd hoe u de lijst met CPI-planningen (consumentenprijsindex) maakt die u van internet haalt om de escalatiekosten in Facturering van abonnementen te bepalen.
+description: In dit artikel wordt uitgelegd hoe u de lijst met CPI-planningen (consumentenprijsindex) maakt die u van internet haalt om de escalatiekosten in Facturering van abonnementen te bepalen.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 54114fae25565ed1aae7056ef9be5a4a159291e9
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f08b79ee00baab3713d9ccc24a7595b1de7a7768
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686514"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904868"
 ---
 # <a name="consumer-price-index-schedule"></a>Planning van consumentenprijsindex
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u CPI-planningen maakt, verwijdert, controleert en verwerkt. Een CPI-planning kan worden gebruikt om de prijzen te bepalen voor consumptiegoederen en -diensten die u toevoegt als factureringsplanningsregels. De CPI-planning kan vervolgens worden gebruikt voor escalatie- en kortingsprijzen in een factureringsplanning of kan handmatig worden verwerkt om de factureringsbedragen in factureringsplanningen bij te werken. U kunt CPI-planningen handmatig invoeren of u kunt ze importeren met de samengestelde entiteit CPI-planning.
+In dit artikel wordt uitgelegd hoe u CPI-planningen maakt, verwijdert, controleert en verwerkt. Een CPI-planning kan worden gebruikt om de prijzen te bepalen voor consumptiegoederen en -diensten die u toevoegt als factureringsplanningsregels. De CPI-planning kan vervolgens worden gebruikt voor escalatie- en kortingsprijzen in een factureringsplanning of kan handmatig worden verwerkt om de factureringsbedragen in factureringsplanningen bij te werken. U kunt CPI-planningen handmatig invoeren of u kunt ze importeren met de samengestelde entiteit CPI-planning.
 
 Volg deze stappen om een planning van een consumentenprijsindex toe te voegen.
 

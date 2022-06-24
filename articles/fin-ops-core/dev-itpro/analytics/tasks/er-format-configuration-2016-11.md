@@ -1,6 +1,6 @@
 ---
 title: 'ER: Een indelingsconfiguratie maken (november 2016)'
-description: In dit onderwerp wordt uitgelegd hoe u een indelingsconfiguratie maakt voor Elektronische rapportage (ER).
+description: In dit artikel wordt uitgelegd hoe u een indelingsconfiguratie maakt voor Elektronische rapportage (ER).
 author: NickSelin
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5d59f0f7c914cc6d59ae441e6f6b8ff249a3e9c03c6ee4b4a75421d875f826a0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2617f33293c38b7f1aaa61fda7d8de06711c6727
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728208"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902649"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER: Een indelingsconfiguratie maken (november 2016)
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een indelingsconfiguratie kan maken voor elektronische rapportage (ER). Deze indelingsconfiguratie definieert de indeling van elektronische documenten die wordt gebruikt voor het verwerken van betalingen. In dit voorbeeld maakt u een indelingsconfiguratie voor het voorbeeldbedrijf, Litware, Inc. Als u deze stappen wilt uitvoeren, moet u de stappen in de procedure "Model toewijzen aan geselecteerde gegevensbronnen" eerst uitvoeren.
+In dit artikel wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een indelingsconfiguratie kan maken voor elektronische rapportage (ER). Deze indelingsconfiguratie definieert de indeling van elektronische documenten die wordt gebruikt voor het verwerken van betalingen. In dit voorbeeld maakt u een indelingsconfiguratie voor het voorbeeldbedrijf, Litware, Inc. Als u deze stappen wilt uitvoeren, moet u de stappen in de procedure "Model toewijzen aan geselecteerde gegevensbronnen" eerst uitvoeren.
 
 
 ## <a name="create-a-new-format-configuration"></a>Een nieuwe indelingsconfiguratie maken

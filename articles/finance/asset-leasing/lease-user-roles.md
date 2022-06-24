@@ -1,6 +1,6 @@
 ---
 title: Gebruikersrollen voor lease toewijzen
-description: In dit onderwerp worden de beveiligingsrollen beschreven die worden gebruikt voor activa-leasing. Ook wordt uitgelegd hoe u gebruikers aan deze rollen toewijst.
+description: In dit artikel worden de beveiligingsrollen beschreven die worden gebruikt voor activa-leasing. Ook wordt uitgelegd hoe u gebruikers aan deze rollen toewijst.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1a9e7772448314e0c3fd101576c07a5b6508270f
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 38c859d64742d582d0709506d83600ea26a21147
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711286"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878126"
 ---
 # <a name="assign-lease-user-roles"></a>Gebruikersrollen voor lease toewijzen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de beveiligingsrollen beschreven die worden gebruikt voor activa-leasing. Ook wordt uitgelegd hoe u gebruikers aan deze rollen toewijst.
+In dit artikel worden de beveiligingsrollen beschreven die worden gebruikt voor activa-leasing. Ook wordt uitgelegd hoe u gebruikers aan deze rollen toewijst.
 
 Drie gebruikersrollen geven verschillende toegang tot activa-leasing. Eén rol is geschikt voor het onderhouden van leases, een is geschikt voor het weergeven van leases en een is geschikt voor het uitvoeren van de taken van een leasemedewerker. Elke rol heeft specifieke machtigingen voor alle leasepagina's, en gebruikers kunnen met elk van deze rollen leases weergeven, maken, bewerken of verwijderen op basis van hun functie.
 

@@ -1,6 +1,6 @@
 ---
 title: Een vast activum splitsen
-description: In dit onderwerp wordt uitgelegd hoe u een percentage van één activumboek opsplitst naar een nieuw activumboek.
+description: In dit artikel wordt uitgelegd hoe u een percentage van één activumboek opsplitst naar een nieuw activumboek.
 author: moaamer
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1073f262d29e19fbbdc2257f5cdc18c4fa629196
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 0d7fe30702717f960a42fb2a118e0d12587024f5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725844"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880783"
 ---
 # <a name="split-a-fixed-asset"></a>Een vast activum splitsen
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u een percentage van één activumboek opsplitst naar een nieuw activumboek. 
+In dit artikel wordt uitgelegd hoe u een percentage van één activumboek opsplitst naar een nieuw activumboek. 
 
 ## <a name="create-a-new-fixed-asset"></a>Nieuwe vaste activa maken
 

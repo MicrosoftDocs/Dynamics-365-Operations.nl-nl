@@ -1,6 +1,6 @@
 ---
 title: Canvas-apps insluiten vanuit Power Apps
-description: In dit onderwerp wordt uitgelegd hoe u canvas-apps vanuit Microsoft Power Apps kunt insluiten in de client om de functionaliteit van het product te verbeteren.
+description: In dit artikel wordt uitgelegd hoe u canvas-apps vanuit Microsoft Power Apps kunt insluiten in de client om de functionaliteit van het product te verbeteren.
 author: jasongre
 ms.date: 09/13/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: c2f7b660d364be6e62d484e67908201027190a8a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: fb81aa058e749df346ee87bbe83427b20b234b72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065096"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898393"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Canvas-apps insluiten vanuit Power Apps
 
@@ -33,7 +33,7 @@ Voor meer informatie over het insluiten van canvas-apps bekijkt u de korte video
 
 ## <a name="adding-an-embedded-canvas-app-from-power-apps-to-a-page"></a>Een ingesloten canvas-app vanuit Power Apps toevoegen aan een pagina
 
-Voordat u een canvas-app vanuit Power Apps in de client insluit, moet u eerst een app zoeken of maken met de gewenste visuele effecten of functionaliteit. Dit onderwerp bevat geen gedetailleerde beschrijving van het proces voor het maken van apps. Als u Power Apps voor het eerst gebruikt, raadpleegt u de [Power Apps-documentatie](/powerapps/).
+Voordat u een canvas-app vanuit Power Apps in de client insluit, moet u eerst een app zoeken of maken met de gewenste visuele effecten of functionaliteit. Dit artikel bevat geen gedetailleerde beschrijving van het proces voor het maken van apps. Als u Power Apps voor het eerst gebruikt, raadpleegt u de [Power Apps-documentatie](/powerapps/).
 
 U kunt op drie manieren een canvas-app in een app voor financiële en bedrijfsactiviteiten insluiten. U kunt de aanpak gebruiken die het beste bij uw scenario past. 
 
@@ -60,7 +60,7 @@ De volgende procedure laat zien hoe u vanuit Power Apps een canvas-app op een be
 
     - Als de app moet worden geopend via de menuknop **Power Apps**, kunt u de menuknop **Power Apps** in het standaardactievenster selecteren en vervolgens **Een app toevoegen** selecteren.
 
-3. Configureer de ingesloten app. Zie de sectie [Een canvas-app configureren](#configuring-a-canvas-app) verderop in dit onderwerp voor meer informatie.
+3. Configureer de ingesloten app. Zie de sectie [Een canvas-app configureren](#configuring-a-canvas-app) verderop in dit artikel voor meer informatie.
 4. Nadat u hebt bevestigd dat de configuratie juist is, selecteert u **Invoegen**.
 
     - Als de functie **Opgeslagen weergaven** is uitgeschakeld, wordt u gevraagd om de browser te vernieuwen om de ingesloten app weer te geven.
@@ -76,7 +76,7 @@ U wilt een canvas-app mogelijk vanuit het dashboard insluiten als de app niet is
 1. Open het dashboard.
 2. Selecteer de pagina en houd deze vast (of klik erop met de rechtermuisknop), selecteer **Personaliseren** en selecteer vervolgens **Een pagina toevoegen**.
 3. Selecteer in het deelvenster **Een pagina toevoegen** de optie **Power Apps**.
-4. Configureer de ingesloten app. Zie de sectie [Een canvas-app configureren](#configuring-a-canvas-app) verderop in dit onderwerp voor meer informatie.
+4. Configureer de ingesloten app. Zie de sectie [Een canvas-app configureren](#configuring-a-canvas-app) verderop in dit artikel voor meer informatie.
 5. Selecteer **Opslaan** om de app aan het dashboard toe te voegen als een nieuwe tegel.
 6. Selecteer de nieuwe tegel op het dashboard en controleer of de canvas-app wordt weergegeven zoals u verwacht.
 
@@ -86,7 +86,7 @@ Wanneer u een canvas-app insluit, moet u de volgende parameters instellen:
 
 - **Naam**: voer de tekst in die moet worden weergegeven op de knop of het tabblad met de ingesloten app. U wilt de naam van de app in dit veld mogelijk vaak herhalen.
 - **App-id**: geef de GUID (Globally Unique Identifier) op voor de canvas-app die u wilt insluiten. Als u deze waarde wilt ophalen, gaat u naar de app op [make.powerapps.com](https://make.powerapps.com) en zoekt u in het veld **App-id** onder **Details**.
-- **Context invoeren voor de app**: u kunt eventueel het veld selecteren met de gegevens die u als invoer wilt doorgeven aan de app. Raadpleeg de sectie [Een app bouwen die gebruikmaakt van gegevens die zijn verzonden uit apps voor financiële en bedrijfsactiviteiten](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) verderop in dit onderwerp voor meer informatie over hoe de app toegang krijgt tot de gegevens die zijn verzonden uit apps voor financiële en bedrijfsactiviteiten.
+- **Context invoeren voor de app**: u kunt eventueel het veld selecteren met de gegevens die u als invoer wilt doorgeven aan de app. Raadpleeg de sectie [Een app bouwen die gebruikmaakt van gegevens die zijn verzonden uit apps voor financiële en bedrijfsactiviteiten](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) verderop in dit artikel voor meer informatie over hoe de app toegang krijgt tot de gegevens die zijn verzonden uit apps voor financiële en bedrijfsactiviteiten.
 
     Vanaf versie 10.0.19 wordt de huidige rechtspersoon ook als context aan de canvas-app doorgegeven via de URL-parameter **cmp**. Dit gedrag is pas van invloed op de doelcanvas-app als de app die informatie gebruikt.
 
@@ -145,7 +145,7 @@ Ga als volgt te werk om de configuratie van een ingesloten app te bewerken:
 
 Nadat een app is ingesloten op een pagina, zijn er een paar manieren om deze indien nodig te verwijderen:
 
-- Ga naar het deelvenster **Een app bewerken** aan de hand van de instructies in [Een ingesloten app bewerken](#editing-an-embedded-app) hierboven. Bevestig dat het deelvenster de informatie bevat voor de ingesloten app die u wilt verwijderen en klik op de knop **Verwijderen**.
+- Ga naar het deelvenster **Een app bewerken** aan de hand van de instructies in het artikel [Een ingesloten app bewerken](#editing-an-embedded-app) hierboven. Bevestig dat het deelvenster de informatie bevat voor de ingesloten app die u wilt verwijderen en klik op de knop **Verwijderen**.
 - Als de ingesloten app is toegevoegd vanuit het dashboard, opent u het dashboard, houdt u de tegel ingedrukt die aan de canvas-app is gekoppeld (of klikt u met de rechtermuisknop op de tegel), selecteert u **Aanpassen** en selecteert u vervolgens **Pagina verwijderen**. 
 - Omdat de ingesloten app wordt opgeslagen als persoonlijke gegevens, worden bij het wissen van aanpassingen op uw pagina ook eventuele ingesloten apps op die pagina verwijderd. Houd er rekening mee dat het wissen van de aanpassingen van de pagina definitief is. Als u uw aanpassingen op een pagina wilt verwijderen, selecteert u **Opties** en klikt u op **Deze pagina aanpassen** en tot slot op de knop **Wissen**. Na het vernieuwen van uw browser worden alle vorige aanpassingen voor deze pagina verwijderd. Zie [De gebruikerservaring aanpassen](personalize-user-experience.md) voor meer informatie over het optimaliseren van pagina's met aanpassingen.
 
@@ -153,7 +153,7 @@ Nadat een app is ingesloten op een pagina, zijn er een paar manieren om deze ind
 
 ### <a name="developer-modeling-a-canvas-app-on-a-form"></a>[Ontwikkelaar] Een canvas-app modelleren op een formulier
 
-In dit onderwerp wordt besproken hoe canvas-apps door middel van personalisatie kunnen worden ingesloten, maar ontwikkelaars kunnen met behulp van de Visual Studio-ontwikkelervaring ook een canvas-app toevoegen aan een formulier. Hiervoor voegt u gewoon een PowerAppsHostControl toe aan het formulier. De metagegevenseigenschappen die beschikbaar zijn in het besturingselement, bieden dezelfde mogelijkheden als personalisatie.
+In dit artikel wordt besproken hoe canvas-apps door middel van personalisatie kunnen worden ingesloten, maar ontwikkelaars kunnen met behulp van de Visual Studio-ontwikkelervaring ook een canvas-app toevoegen aan een formulier. Hiervoor voegt u gewoon een PowerAppsHostControl toe aan het formulier. De metagegevenseigenschappen die beschikbaar zijn in het besturingselement, bieden dezelfde mogelijkheden als personalisatie.
 
 ### <a name="developer-specifying-where-an-app-can-be-embedded"></a>\[Ontwikkelaar\]: opgeven waar een app kan worden ingesloten
 

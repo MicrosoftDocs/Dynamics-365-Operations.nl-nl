@@ -1,6 +1,6 @@
 ---
 title: Registratie-id's
-description: Dit onderwerp bevat informatie over het instellen en gebruiken van registratie-id´s.
+description: Dit artikel bevat informatie over het instellen en gebruiken van registratie-id's.
 author: ShylaThompson
 ms.date: 11/08/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 544e994a18811995afc64c052a3f97e622529162b8a14b17206c370026b78ac4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 379cf78ece388f738fad8121d5b0adb4434d7905
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782811"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883070"
 ---
 # <a name="registration-ids"></a>Registratie-id's
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat informatie over het instellen en gebruiken van registratie-id´s.
+Dit artikel bevat informatie over het instellen en gebruiken van registratie-id's.
 
-Veel landen en regio's hebben verschillende regelingen en voorschriften voor het registreren van registratienummers of id´s. Dit onderwerp biedt een overzicht van de vereiste instellingen en de verwerking van ondersteunde registratietypen voor partijen in verschillende Europese landen/regio's. Alle landen/regio's hebben hun vereisten voor de ondersteuning van verschillende landspecifieke functionaliteiten die betrekking hebben op registratienummers die door verschillende overheidsbureaus worden verstrekt. Voorbeelden van registratienummers zijn het sociale fiscale nummer (Sofinummer), het btw-identificatienummer (TIN) en de Europese btw-identificatie (EU-btw-id). Deze functie biedt een uniform raamwerk voor alle landen in alle regio's waarbij rekening wordt gehouden met landspecifieke vereisten van bepaalde Europese landen. In de volgende gedeelten wordt de gehele stroom van informatie beschreven die wordt gebruikt voor het instellen en verwerken van registratie-id´s.
+Veel landen en regio's hebben verschillende regelingen en voorschriften voor het registreren van registratienummers of id´s. Dit artikel biedt een overzicht van de vereiste instellingen en de verwerking van ondersteunde registratietypen voor partijen in verschillende Europese landen/regio's. Alle landen/regio's hebben hun vereisten voor de ondersteuning van verschillende landspecifieke functionaliteiten die betrekking hebben op registratienummers die door verschillende overheidsbureaus worden verstrekt. Voorbeelden van registratienummers zijn het sociale fiscale nummer (Sofinummer), het btw-identificatienummer (TIN) en de Europese btw-identificatie (EU-btw-id). Deze functie biedt een uniform raamwerk voor alle landen in alle regio's waarbij rekening wordt gehouden met landspecifieke vereisten van bepaalde Europese landen. In de volgende gedeelten wordt de gehele stroom van informatie beschreven die wordt gebruikt voor het instellen en verwerken van registratie-id´s.
 
 ## <a name="registration-type-creation"></a>Registratietype maken
 Voordat u een registratie-id kunt invoeren, moet u registratietypen instellen voor de verschillende soorten registratienummers waaraan elke partij is onderworpen. Ga naar **Organisatiebeheer** &gt; **Globaal adresboek** &gt; **Registratietypen** &gt; **Registratietypen** (pagina) om registratietypen voor leveranciers te maken en beheren voor leveranciers, klanten, werknemers en rechtspersonen in verschillende landen/regio's.
@@ -51,7 +51,7 @@ Registratiecategorie is een registratie-id voor land/regio die is goedgekeurd vo
 |-----------------------|----------------|
 | Registratietype     | Het registratietype in een bepaald land of een bepaalde regio.|
 | Beperkt tot         | Het soort beperking die geldt voor het belastingregistratietype: geen, persoon, organisatie.|
-| Registratiecategorie | De unieke registratie-id die is goedgekeurd voor gebruik in het land. De volledige lijst met ondersteunde categorieën wordt verderop in dit onderwerp weergegeven. |
+| Registratiecategorie | De unieke registratie-id die is goedgekeurd voor gebruik in het land. De volledige lijst met ondersteunde categorieën wordt verderop in dit artikel weergegeven. |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Registratie-id's voor globale-adresboekrecords invoeren
 

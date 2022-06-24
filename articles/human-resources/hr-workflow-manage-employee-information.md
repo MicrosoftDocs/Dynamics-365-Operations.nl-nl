@@ -1,6 +1,6 @@
 ---
 title: Workflows gebruiken om werknemersgegevens te beheren
-description: In dit onderwerp wordt uitgelegd hoe u werkstromen kunt gebruiken om medewerkersgegevens te beheren.
+description: In dit artikel wordt uitgelegd hoe u werkstromen kunt gebruiken om medewerkersgegevens te beheren.
 author: twheeloc
 ms.date: 11/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7c416a82976bc39464006325f02f1af4d2f32ea4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2fcbacc3cb891043560fabf28487bfeb12d1b77b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691521"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908796"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>Workflows gebruiken om werknemersgegevens te beheren
 
@@ -27,7 +27,7 @@ ms.locfileid: "8691521"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp wordt uitgelegd hoe u de workflowmogelijkheid voor Human resources kunt gebruiken om werknemersgegevens te beheren. U kunt bijvoorbeeld een workflow aan een positie koppelen en een goedkeuringsworkflow configureren die wordt gestart wanneer werknemers hun record wijzigen.
+In dit artikel wordt uitgelegd hoe u de workflowmogelijkheid voor Human resources kunt gebruiken om werknemersgegevens te beheren. U kunt bijvoorbeeld een workflow aan een positie koppelen en een goedkeuringsworkflow configureren die wordt gestart wanneer werknemers hun record wijzigen.
 
 De workflowmogelijkheid voor Human resources biedt een groot aantal workflows voor het beheren van human resources-activiteiten. Bovendien zijn er vele opties beschikbaar zodat u specifieke workflows kunt wijzigen en deze aan een rapportagehiërarchie kunt koppelen. Werkstromen zijn beschikbaar om wijzigingen in verschillende typen medewerkersgegevens gemakkelijker te beheren. U kunt een workflow koppelen aan een positie. Vervolgens wordt er, als werknemers hun werknemersrecord wijzigen, een workflow gestart die moet worden goedgekeurd voordat de nieuwe informatie wordt opgeslagen. Werkstromen worden vooraf gedefinieerd voor de volgende typen informatie om wijzigingen efficiënt te beheren en uw medewerkersgegevens nauwkeurig te houden:
 

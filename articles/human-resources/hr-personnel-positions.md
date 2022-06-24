@@ -1,6 +1,6 @@
 ---
 title: Posities
-description: In dit onderwerp worden de conceptuele elementen beschreven die een positie kan bevatten. Het biedt ook voorbeelden die laten zien hoe u die elementen in uw organisatie kunt gebruiken.
+description: In dit artikel worden de conceptuele elementen beschreven die een positie kan bevatten. Het biedt ook voorbeelden die laten zien hoe u die elementen in uw organisatie kunt gebruiken.
 author: twheeloc
 ms.date: 06/24/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.custom: 269054
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bb7582165f49c40d294acd3cf804fe89782936c4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9c97a96e27188d12b9c5e626613e18d54d6632c0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689433"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888725"
 ---
 # <a name="positions"></a>Posities
 
@@ -28,7 +28,7 @@ ms.locfileid: "8689433"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In dit onderwerp worden de conceptuele elementen beschreven die een positie kan bevatten. Het biedt ook voorbeelden die laten zien hoe u die elementen in uw organisatie kunt gebruiken.
+In dit artikel worden de conceptuele elementen beschreven die een positie kan bevatten. Het biedt ook voorbeelden die laten zien hoe u die elementen in uw organisatie kunt gebruiken.
 
 Voordat u een positie kunt maken, moet u eerst een taak instellen. Sommige positiedetails, zoals de compensatieregio, werknemertoewijzing, duur van de positie en rapporteringsrelatie, zijn van kracht.
 

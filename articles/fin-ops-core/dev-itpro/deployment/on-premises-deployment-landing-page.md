@@ -1,6 +1,6 @@
 ---
 title: Startpagina van On-premises implementatie
-description: Dit onderwerp bevat informatie en koppelingen naar inhoud over on-premises implementaties.
+description: Dit artikel bevat informatie en koppelingen naar inhoud over on-premises implementaties.
 author: sericks007
 ms.date: 07/01/2021
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b57183a0c06f4735757c3c0c8d9e355879585e7a
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: b73e0cc31fd0e5a22ee330f623b9125de9237e29
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566034"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867407"
 ---
 # <a name="on-premises-deployment-home-page"></a>Startpagina van On-premises implementatie
 
 [!include [banner](../includes/banner.md)]
 
-U kunt Dynamics 365 Finance + Operations (on-premises) implementeren. Wanneer u een on-premises implementatietype kiest, zullen de systeemvereisten, de grootte van de hardware en de functionaliteit verschillen van een cloudimplementatie. Dit onderwerp bevat koppelingen naar inhoud met specifieke informatie over on-premises implementaties.
+U kunt Dynamics 365 Finance + Operations (on-premises) implementeren. Wanneer u een on-premises implementatietype kiest, zullen de systeemvereisten, de grootte van de hardware en de functionaliteit verschillen van een cloudimplementatie. Dit artikel bevat koppelingen naar inhoud met specifieke informatie over on-premises implementaties.
 
 ## <a name="get-started"></a>Aan de slag
 - [Overzicht van On-premises implementatie](on-premises-overview.md)

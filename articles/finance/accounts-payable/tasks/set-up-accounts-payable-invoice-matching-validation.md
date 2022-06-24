@@ -1,6 +1,6 @@
 ---
-title: Validatie van factuurvereffening instellen voor leveranciers
-description: Dit onderwerp biedt informatie over het instellen van validatie van factuurvereffening voor leveranciers.
+title: Factuurvereffeningsvalidatie voor leveranciers instellen
+description: Dit artikel biedt informatie over het instellen van validatie van factuurvereffening voor leveranciers.
 author: abruer
 ms.date: 02/14/2022
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 602666df4cf015791398939a3067a2cae85a12eb
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 86cc5cf688e3b66cf976fc7f507bd8f8df757612
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182550"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904954"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Validatie van factuurvereffening instellen voor leveranciers
 
@@ -44,7 +44,7 @@ Er zijn vier verschillende typen vereffeningsvalidatie beschikbaar.
 5. Schakel het selectievakje **Factuurtotalen vereffenen** in of uit om de feitelijke factuurtotalen te vereffenen met de verwachte totalen.
     * Selecteer of een pictogram wordt weergegeven als een verschil voor factuurvereffening groter is dan de tolerantie. U kunt kiezen om het pictogram weer te geven als een positieve discrepantie groter is dan de tolerantie, of wanneer een positieve of een negatieve discrepantie de tolerantie overschrijdt.  
     * Bijvoorbeeld: de tolerantie is 5 procent en het totale factuurbedrag op de inkooporder is 100,00. Daarom wordt een pictogram voor prijsvereffening weergegeven als het totale factuurbedrag op de factuur hoger is dan 105,00. Als u **Indien groter of kleiner dan tolerantie** selecteert, wordt het pictogram ook weergegeven als het factuurbedrag minder dan 95,00 bedraagt.  
-6. Voer in het veld **Tolerantiepercentage voor factuurtotalen** het acceptabele tolerantiepercentage in. Deze waarde is de standaardwaarde voor het bedrijf. Deze waarde kan voor specifieke leveranciers worden overschreven via de pagina **Toleranties voor factuurtotalen**. Zie de sectie Vereffeningstolerantie voor factuurtotalen voor leveranciers instellen verderop in dit onderwerp voor meer informatie over het overschrijven van het tolerantiepercentage voor factuurtotalen voor een specifieke leverancier.
+6. Voer in het veld **Tolerantiepercentage voor factuurtotalen** het acceptabele tolerantiepercentage in. Deze waarde is de standaardwaarde voor het bedrijf. Deze waarde kan voor specifieke leveranciers worden overschreven via de pagina **Toleranties voor factuurtotalen**. Zie het gedeelte Vereffeningstolerantie voor factuurtotalen voor leveranciers instellen verderop in dit artikel voor meer informatie over het overschrijven van het tolerantiepercentage voor factuurtotalen voor een specifieke leverancier.
 7. Stel **Prijs- en hoeveelheidsvereffening** in.
 8. Selecteer in het veld **Regelovereenstemmingsbeleid** een waarde om te gebruiken als standaardbeleid voor de rechtspersoon waarmee u werkt. **Niet vereist** betekent dat er geen controle van afzonderlijke prijzen op factuurregels ten opzichte van inkooporderprijzen of factuurhoeveelheden ten opzichte van pakbonhoeveelheden vereist is. **Tweewegs overeenstemming** betekent dat de verificatie van factuurregels vereist is, maar dat alleen de inkooporder en de factuurdocumenten van de leverancier worden gebruikt voor de verificatie. Er wordt geen rekening gehouden met de productontvangst bij de overeenstemmingsvalidaties. **Driewegs overeenstemming** betekent dat de netto-eenheidprijs van de factuur wordt vergeleken met de netto-eenheidsprijs van de inkooporder en dat de overeenkomstige productontvangsthoeveelheid wordt vergeleken met de factuurhoeveelheid.
 9. Selecteer een waarde in het veld **Overschrijven van overeenstemmingsbeleid toestaan** om toe te staan dat een ander vereffeningsniveau voor een artikel, leverancier, combinatie van leverancier en artikel of inkooporderregel wordt toegepast. Het regelovereenstemmingsbeleid van de rechtspersoon kan worden genegeerd voor een specifieke leverancier, een specifiek artikel of een specifieke combinatie van leverancier op de pagina **Overeenstemmingbeleid**.
