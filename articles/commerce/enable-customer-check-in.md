@@ -1,6 +1,6 @@
 ---
-title: Incheckmeldingen van klanten in Point of Sale (POS) inschakelen
-description: In dit onderwerp wordt beschreven hoe u incheckmeldingen voor klanten in het Microsoft Dynamics 365 Commerce POS kunt inschakelen.
+title: Incheckmeldingen van klanten in het verkooppunt inschakelen (POS)
+description: In dit artikel wordt beschreven hoe u incheckmeldingen voor klanten in het Microsoft Dynamics 365 Commerce POS kunt inschakelen.
 author: bicyclingfool
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 95b4e3a1750cf072db919492f7445e87654701da
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ae53657c95128eae793f670bd9dbc31d9fac0fe4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983156"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885140"
 ---
-# <a name="enable-customer-check-in-notifications-in-point-of-sale-pos"></a>Incheckmeldingen van klanten in Point of Sale (POS) inschakelen
+# <a name="enable-customer-check-in-notifications-in-point-of-sale-pos"></a>Incheckmeldingen van klanten in het verkooppunt inschakelen (POS)
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u incheckmeldingen voor klanten in het Microsoft Dynamics 365 Commerce POS kunt inschakelen.
+In dit artikel wordt beschreven hoe u incheckmeldingen voor klanten in het Microsoft Dynamics 365 Commerce POS kunt inschakelen.
 
 In hun e-mails voor 'Order gereed voor ophalen' kunnen organisaties een koppeling of knop bieden, waarmee klanten aan de winkel kunnen melden dat ze zich op het terrein bevinden en wachten tot hun pakket naar hen wordt gebracht. Klanten ontvangen vervolgens een incheckbevestiging en de winkel ontvangt een melding als een taak in de POS-toepassing. Deze taak dient als aansporing voor een verkoopmedewerker om de order af te geven bij het voertuig van de klant. Zo hoeft de klant de winkel niet in te komen.
 
@@ -70,7 +70,7 @@ Volg deze stappen om de incheckfunctie voor klanten te testen.
 1. Check de pagina in, maar publiceer deze niet.
 1. Voeg de volgende koppeling toe aan een e-mailsjabloon die door het meldingstype Verpakken is voltooid wordt aangeroepen voor een leveringsmodus van het type Afhalen. Zie voor meer informatie [E-mailsjablonen maken voor transactiegebeurtenissen](email-templates-transactions.md).
 
-    - **Voor preproductieomgevingen (UAT):** voeg het codefragment uit de sectie [De transactionele e-mailsjabloon configureren](#configure-the-transactional-email-template) eerder in dit onderwerp toe.
+    - **Voor preproductieomgevingen (UAT):** voeg het codefragment uit de sectie [De transactionele e-mailsjabloon configureren](#configure-the-transactional-email-template) eerder in dit artikel toe.
     - **Voor productieomgevingen**: voeg de volgende becommentarieerde code toe zodat dit voor bestaande klanten geen gevolgen heeft.
 
         `<!-- https://[DOMAIN]/[CHECK_IN_PAGE]?channelReferenceId=%confirmationid%&channelId=%pickupchannelid%&packingSlipId=%packingslipid%&preview=inprogress -->`

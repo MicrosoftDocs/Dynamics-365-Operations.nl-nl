@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 9fed5f93441bbc29b039bd1562821b999a58e5e1
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 2a87e1aa27085f1b4821d27cece782dffbcd2096
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677585"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851357"
 ---
 # <a name="usmca-certification-of-origin"></a>USMCA-certificaat van oorsprong
 
@@ -53,7 +53,7 @@ Het document voor het USMCA-certificaat van oorsprong bevat de volgende gegevens
 - Handtekening van certificerende
 - Aantal pagina's
 
-Zie de overige secties in dit onderwerp voor meer informatie over elk van deze elementen en de manier waarop hun waarden worden gevonden.
+Zie de overige secties in dit artikel voor meer informatie over elk van deze elementen en de manier waarop hun waarden worden gevonden.
 
 ## <a name="print-a-usmca-certification-of-origin-document"></a>Een document voor USMCA-certificaat van oorsprong afdrukken
 

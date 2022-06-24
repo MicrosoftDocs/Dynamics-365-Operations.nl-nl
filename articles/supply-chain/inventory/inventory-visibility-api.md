@@ -1,6 +1,6 @@
 ---
-title: Openbare API's voor Voorraadzichtbaarheid
-description: In dit onderwerp worden de openbare API's beschreven die worden geleverd door Voorraadzichtbaarheid.
+title: Openbare API's voor Inventory Visibility
+description: In dit artikel worden de openbare API's beschreven die worden geleverd door Voorraadzichtbaarheid.
 author: yufeihuang
 ms.date: 12/09/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: cb02e8d10a5c673734727682436ba1b3fc996935
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: 25f6539616d4567249e1d1eb4297090176526fde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786860"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902019"
 ---
-# <a name="inventory-visibility-public-apis"></a>Openbare API's voor Voorraadzichtbaarheid
+# <a name="inventory-visibility-public-apis"></a>Openbare API's voor Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
 
-In dit onderwerp worden de openbare API's beschreven die worden geleverd door Voorraadzichtbaarheid.
+In dit artikel worden de openbare API's beschreven die worden geleverd door Voorraadzichtbaarheid.
 
 De openbare REST API van de invoegtoepassing Voorraadzichtbaarheid biedt verschillende specifieke eindpunten voor integratie. De API ondersteunt vier hoofdinteractietypen:
 
@@ -160,7 +160,7 @@ Ga als volgt te werk om een beveiligingstoken voor de service te krijgen.
    ```
 
 > [!IMPORTANT]
-> Wanneer u de *Postman*-aanvraagverzameling gebruikt om openbare API's voor Voorraadzichtbaarheid aan te roepen, moet u voor elke aanvraag een Bearer-token toevoegen. Als u het Bearer-token wilt vinden, selecteert u het tabblad **Autorisatie** onder de aanvraag-URL, selecteert u het type **Bearer-token** en kopieert u het toegangstoken dat in de laatste stap is opgehaald. In latere secties van dit onderwerp wordt `$access_token` gebruikt om het token te vertegenwoordigen dat in de laatste stap is opgehaald.
+> Wanneer u de *Postman*-aanvraagverzameling gebruikt om openbare API's voor Voorraadzichtbaarheid aan te roepen, moet u voor elke aanvraag een Bearer-token toevoegen. Als u het Bearer-token wilt vinden, selecteert u het tabblad **Autorisatie** onder de aanvraag-URL, selecteert u het type **Bearer-token** en kopieert u het toegangstoken dat in de laatste stap is opgehaald. In latere secties van dit artikel wordt `$access_token` gebruikt om het token te vertegenwoordigen dat in de laatste stap is opgehaald.
 
 ## <a name="create-on-hand-change-events"></a><a name="create-onhand-change-event"></a>Wijzigingsgebeurtenissen maken voor voorhanden voorraad
 
@@ -359,7 +359,7 @@ Body:
     ]
 ```
 
-In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst weergegeven. Het gedrag van deze API verschilt van het gedrag van de API's dat wordt beschreven in de sectie [Wijzigingsgebeurtenissen maken voor voorhanden voorraad](#create-onhand-change-event) eerder in dit onderwerp. In dit voorbeeld wordt de hoeveelheid van het product *T-shirt* ingesteld op 1.
+In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst weergegeven. Het gedrag van deze API verschilt van het gedrag van de API's dat wordt beschreven in de sectie [Wijzigingsgebeurtenissen maken voor voorhanden voorraad](#create-onhand-change-event) eerder in dit artikel. In dit voorbeeld wordt de hoeveelheid van het product *T-shirt* ingesteld op 1.
 
 ```json
 [

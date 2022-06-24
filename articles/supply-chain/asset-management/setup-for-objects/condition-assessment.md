@@ -1,6 +1,6 @@
 ---
-title: Toestandsbeoordeling
-description: In dit onderwerp wordt uitgelegd hoe u een sjabloon voor toestandsbeoordeling en registratie voor een activum in Activabeheer maakt.
+title: Voorwaardebeoordeling
+description: In dit artikel wordt uitgelegd hoe u een sjabloon voor toestandsbeoordeling en registratie voor een activum in Activabeheer maakt.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cced322dd2f213d8e6025d853edc8472618989b61de7139b28ba1c6bffd3ad2a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aa326a01bb63bd0b59c0df7a3c751a5242a3dd37
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736059"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872089"
 ---
-# <a name="condition-assessment"></a>Toestandsbeoordeling
+# <a name="condition-assessment"></a>Voorwaardebeoordeling
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-In dit onderwerp wordt uitgelegd hoe u een sjabloon voor toestandsbeoordeling en registratie voor een activum in Activabeheer maakt. Een toestandsbeoordeling wordt met regelmatige tussenpozen uitgevoerd en het primaire doel is het maken en onderhouden van toestandsgegevens voor activa. Gezien vanuit preventief onderhoud, is het belangrijk om belangrijke informatie te bewaken, zoals de huidige toestand en de resterende levensduur. Bovendien kunt u, als u regelmatig een toestandsbeoordeling uitvoert, de omstandigheden op de machine in uw fabriek bewaken en vergelijken.
+In dit artikel wordt uitgelegd hoe u een sjabloon voor toestandsbeoordeling en registratie voor een activum in Activabeheer maakt. Een toestandsbeoordeling wordt met regelmatige tussenpozen uitgevoerd en het primaire doel is het maken en onderhouden van toestandsgegevens voor activa. Gezien vanuit preventief onderhoud, is het belangrijk om belangrijke informatie te bewaken, zoals de huidige toestand en de resterende levensduur. Bovendien kunt u, als u regelmatig een toestandsbeoordeling uitvoert, de omstandigheden op de machine in uw fabriek bewaken en vergelijken.
 
 Toestandsbeoordeling kan worden gebruikt om veel omstandigheden op uw apparatuur te meten en te bewaken. Voorbeeld: u zou trillingen op uw machines kunnen meten. Nadat u trillingsmetingen hebt vastgelegd in Activabeheer voor verschillende soorten apparatuur, kunt u zoeken naar de meest recengte geregistreerde beoordeling en trillingsmetingen bekijken.
 

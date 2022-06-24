@@ -1,6 +1,6 @@
 ---
 title: Contactpersonen in Sales rechtstreeks synchroniseren met contactpersonen of klanten in Supply Chain Management
-description: Dit onderwerp bepreekt de sjablonen en onderliggende taken die worden gebruikt om entiteiten van het type Contactpersoon (contactpersonen) en Contactpersoon (klanten) te synchroniseren rechtstreeks vanuit Dynamics 365 Sales naar Dynamics 365 Supply Chain Management.
+description: Dit artikel bespreekt de sjablonen en onderliggende taken die worden gebruikt om entiteiten van het type Contactpersoon (contactpersonen) en Contactpersoon (klanten) vanuit Dynamics 365 Sales te synchroniseren naar Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 57a9c2a860e99855e841f0f4276ba2f92767c2b1
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 4ddb91c34816791d8eca80e4798eb46c1b496439
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062510"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857339"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Contactpersonen in Sales rechtstreeks synchroniseren met contactpersonen of klanten in Supply Chain Management
 
@@ -32,7 +32,7 @@ ms.locfileid: "8062510"
 > [!NOTE]
 > Voordat u de oplossing Prospect naar contant geld kunt gebruiken, moet u vertrouwd zijn met [Gegevens integreren in Microsoft Dataverse for Apps](/powerapps/administrator/data-integrator).
 
-Dit onderwerp bepreekt de sjablonen en onderliggende taken die worden gebruikt om tabellen van het type Contactpersoon (contactpersonen) en Contactpersoon (klanten) te synchroniseren rechtstreeks vanuit Dynamics 365 Sales naar Dynamics 365 Supply Chain Management.
+Dit artikel bespreekt de sjablonen en onderliggende taken die worden gebruikt om tabellen van het type Contactpersoon (contactpersonen) en Contactpersoon (klanten) te synchroniseren rechtstreeks vanuit Dynamics 365 Sales naar Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Gegevensstroom in Prospect naar contant geld
 
@@ -126,7 +126,7 @@ In de volgende afbeeldingen ziet u een voorbeeld van sjabloontoewijzing in Gegev
 ![Sjabloontoewijzing voor contact met klanten in Gegevensintegrator.](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-articles"></a>Gerelateerde artikelen
 
 [Van prospect tot contant geld](prospect-to-cash.md)
 

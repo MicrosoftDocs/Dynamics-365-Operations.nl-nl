@@ -1,6 +1,6 @@
 ---
 title: Leverancierskortingen
-description: Dit onderwerp biedt een overzicht van de meest voorkomende taken die u kunt uitvoeren wanneer u met leverancierskortingen werkt. Met leverancierskortingen kunnen bedrijven hun kortingsprogramma's voor leveranciers beter beheren door taken te automatiseren die vereist zijn om verdiende kortingen te beheren, bij te houden en te claimen.
+description: Dit artikel biedt een overzicht van de meest voorkomende taken die u kunt uitvoeren wanneer u met leverancierskortingen werkt. Met leverancierskortingen kunnen bedrijven hun kortingsprogramma's voor leveranciers beter beheren door taken te automatiseren die vereist zijn om verdiende kortingen te beheren, bij te houden en te claimen.
 author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: ed41fe18048050ecb80a93e929d66ebc3a2e2441
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 789a58af40595cbb72d55d598510c43315aead2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672957"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890794"
 ---
 # <a name="vendor-rebates"></a>Leverancierskortingen
 
@@ -26,7 +26,7 @@ ms.locfileid: "8672957"
 
 Met leverancierskortingen kunnen bedrijven hun kortingsprogramma's voor leveranciers beter beheren door taken te automatiseren die vereist zijn om verdiende kortingen te beheren, bij te houden en te claimen.
 
-Dit onderwerp biedt een overzicht van de meest voorkomende taken die u kunt uitvoeren wanneer u met leverancierskortingen werkt. In het overzicht komen de volgende taken aan bod:
+Dit artikel biedt een overzicht van de meest voorkomende taken die u kunt uitvoeren wanneer u met leverancierskortingen werkt. In het overzicht komen de volgende taken aan bod:
 
 - Controleer de gegevens van een kortingsovereenkomst.
 - Identificeer orders die in aanmerking voor kortingen en genereer kortingsclaims.
@@ -34,7 +34,7 @@ Dit onderwerp biedt een overzicht van de meest voorkomende taken die u kunt uitv
 
 ## <a name="audience-and-purpose"></a>Doelgroep en doel
 
-De informatie in dit onderwerp is bedoeld voor de besluitvormers in ondernemingen, bijvoorbeeld inkoopmanagers, CFO's (Chief Financial Officer) en accountmanagers, die de volgende verantwoordelijkheden hebben:
+De informatie in dit document is bedoeld voor de besluitvormers in ondernemingen, bijvoorbeeld inkoopmanagers, CFO's (Chief Financial Officer) en accountmanagers, die de volgende verantwoordelijkheden hebben:
 
 - Onderhandelen over leveranciersprijzen, kortingen en kortingsovereenkomsten.
 - Leiding geven aan medewerkers die kortingsclaims verwerken en betalingen verzamelen.

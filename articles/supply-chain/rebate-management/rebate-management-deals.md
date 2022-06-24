@@ -1,6 +1,6 @@
 ---
-title: Deals voor kortingbeheer
-description: In dit onderwerp wordt beschreven hoe u deals voor kortingbeheer maakt. Met deals worden verschillende methoden en basissen voor het berekenen van kortingen en royalty's bestuurd. Zij bevatten regels voor opname en uitsluiting.
+title: Kortingsbeheerdeals
+description: In dit artikel wordt beschreven hoe u deals voor kortingbeheer maakt. Met deals worden verschillende methoden en basissen voor het berekenen van kortingen en royalty's bestuurd. Zij bevatten regels voor opname en uitsluiting.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 76cdbf21cfbc0db7b363d0fbf60a1ecd0046efc1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 28cfff69ab4e528c146ccbf6a34548a819c99522
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689658"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851589"
 ---
 # <a name="rebate-management-deals"></a>Deals voor kortingbeheer
 
 [!include [banner](../includes/banner.md)]
 
-Deals voor kortingbeheer worden gebruikt om verschillende methoden en basissen voor het berekenen van kortingen en royalty's te besturen. Zij bevatten regels voor opname en uitsluiting. Er zijn drie typen deals voor kortingsbeheer: klantkortingen, klantroyalty's en leverancierskortingen. Alle drie de typen hebben soortgelijke instellingen. In dit onderwerp wordt aangegeven waar de verschillen liggen.
+Deals voor kortingbeheer worden gebruikt om verschillende methoden en basissen voor het berekenen van kortingen en royalty's te besturen. Zij bevatten regels voor opname en uitsluiting. Er zijn drie typen deals voor kortingsbeheer: klantkortingen, klantroyalty's en leverancierskortingen. Alle drie de typen hebben soortgelijke instellingen. In dit artikel wordt aangegeven waar de verschillen liggen.
 
 ## <a name="create-a-deal"></a>Een deal maken
 
@@ -118,7 +118,7 @@ Op het tabblad **Algemeen** van het sneltabblad **Details kortingsbeheer** kunt 
 
 | Veld | Beschrijving |
 |---|---|
-| Berekeningsmethode | Selecteer de methode die moet worden gebruikt wanneer de geselecteerde dealregel wordt gecombineerd met andere dealregels (*Getrapt*, *Cumulatief*, *Opvolgend* of *Totaal*). De waarde van dit veld kan de resultaten van uw kortingsberekeningen aanzienlijk beïnvloeden. Zie de sectie [Berekeningsmethoden voor dealregels](#calc-methods) verderop in dit onderwerp voor een volledige beschrijving van elke methode en voorbeelden die laten zien hoe dit van invloed is op de kortingsberekening. |
+| Berekeningsmethode | Selecteer de methode die moet worden gebruikt wanneer de geselecteerde dealregel wordt gecombineerd met andere dealregels (*Getrapt*, *Cumulatief*, *Opvolgend* of *Totaal*). De waarde van dit veld kan de resultaten van uw kortingsberekeningen aanzienlijk beïnvloeden. Zie de sectie [Berekeningsmethoden voor dealregels](#calc-methods) verderop in dit artikel voor een volledige beschrijving van elke methode en voorbeelden die laten zien hoe dit van invloed is op de kortingsberekening. |
 | Basis | Selecteer of de korting wordt toegepast op basis van de hoeveelheid (het totale aantal eenheden dat wordt gekocht of verkocht) of de waarde (de totale prijs van gekochte of verkochte goederen). |
 | Transactietype | <p>Selecteer het punt in het proces waarop de berekening moet worden uitgevoerd:</p><ul><li>*Order*: gebruik de bestelde hoeveelheid of waarde als basis voor de berekening.</li><li>*Geleverd*: gebruik de geleverde hoeveelheid of waarde als basis voor de berekening.</li><li>*Factuur*: gebruik de gefactureerde hoeveelheid of waarde als basis voor de berekening.</li></ul> |
 | Eenheid | Als u *Hoeveelheid* hebt geselecteerd in het veld **Basis**, selecteert u de eenheid waarin de hoeveelheid moet worden opgegeven. |

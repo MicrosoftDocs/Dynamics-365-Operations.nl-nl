@@ -1,6 +1,6 @@
 ---
 title: Productontvangst tegen inkooporders
-description: In dit onderwerp worden de verschillende opties voor het registreren van producten als ontvangen beschreven.
+description: Dit artikel beschrijft de verschillende opties voor het registreren van producten als ontvangen.
 author: GalynaFedorova
 ms.date: 11/15/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ea22357b4d966f50ef2021ba7534ae633859455
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 53925426b5df6000617b0d8cee757a551fb89c95
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674388"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904038"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Productontvangst tegen inkooporders
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de verschillende opties voor het registreren van producten als ontvangen beschreven.
+Dit artikel beschrijft de verschillende opties voor het registreren van producten als ontvangen.
 
 Productontvangst is het proces van het vastleggen van de ontvangst van bestelde producten, zodat de inkooporderregels (IO) vervolgens kunnen worden verwerkt voor facturering. In sommige gevallen doorlopen producten een proces van voorafgaande registratie, waarbij aanvullende informatie van de leverancier wordt vastgelegd voordat de producten worden ontvangen. Wanneer producten binnenkomen, worden zij eerst gemarkeerd als **Geregistreerd**. De producten doorlopen vervolgens mogelijk aanvullende processen, zoals kwaliteitsbeheer, voordat zij definitief worden gemarkeerd als **Ontvangen**.
 

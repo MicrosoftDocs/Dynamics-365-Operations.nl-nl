@@ -1,6 +1,6 @@
 ---
 title: Werkbeleidsregels
-description: In dit onderwerp wordt uitgelegd u werkbeleidsregels instelt.
+description: In dit artikel wordt uitgelegd u werkbeleidsregels instelt.
 author: perlynne
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 1d4ee3f1bffaf00c20758f6a3f399451d3122291
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7637ef908ffa6e79f81e4ecfb8afac4e3e3fed26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571156"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855843"
 ---
 # <a name="work-policies"></a>Werkbeleidsregels
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u het systeem en de mobiele app Magazijnbeheer instelt zodat deze werkbeleidsregels ondersteunen. Met deze functie kunt u de voorraad snel registreren zonder wegzetwerk te maken wanneer u inkoop- of overboekingsorders ontvangt of wanneer u productieprocessen voltooit. Dit onderwerp biedt algemene informatie. Zie voor gedetailleerde informatie over de ontvangst van nummerplaten [Nummerplaat ontvangen via de mobiele app Magazijnbeheer](warehousing-mobile-device-app-license-plate-receiving.md).
+In dit artikel wordt uitgelegd hoe u het systeem en de mobiele app Magazijnbeheer instelt zodat deze werkbeleidsregels ondersteunen. Met deze functie kunt u de voorraad snel registreren zonder wegzetwerk te maken wanneer u inkoop- of overboekingsorders ontvangt of wanneer u productieprocessen voltooit. Dit artikel biedt algemene informatie. Zie voor gedetailleerde informatie over de ontvangst van nummerplaten [Nummerplaat ontvangen via de mobiele app Magazijnbeheer](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Met een werkbeleid wordt bepaald of magazijnwerk wordt gemaakt wanneer een geproduceerd artikel wordt gereedgemeld of wanneer goederen worden ontvangen via de mobiele app Magazijnbeheer. U stelt elk werkbeleid in door de voorwaarden te definiëren waaronder het beleid van toepassing is: de werkordertypen en -processen, de voorraadlocatie en (optioneel) de producten. Een inkooporder voor product *A0001* moet bijvoorbeeld worden ontvangen op locatie *RECV* in magazijn *24*. Later wordt het product verbruikt in een ander proces op locatie *RECV*. In dat geval kunt u een werkbeleid instellen om te voorkomen dat wegzetwerk wordt gemaakt wanneer een werknemer product *A0001* meldt als ontvangen op de locatie *RECV*.
 
@@ -35,7 +35,7 @@ Met een werkbeleid wordt bepaald of magazijnwerk wordt gemaakt wanneer een gepro
 
 ## <a name="activate-the-features-in-your-system"></a>De functies in uw systeem activeren
 
-Schakel de volgende twee functies in het [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in om alle functies die in dit onderwerp worden beschreven, beschikbaar te maken in uw systeem:
+Schakel de volgende twee functies in het [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in om alle functies die in dit artikel worden beschreven, beschikbaar te maken in uw systeem:
 
 - Verbeteringen voor ontvangen van nummerplaten
 - Verbeteringen in werkbeleid voor inkomend werk

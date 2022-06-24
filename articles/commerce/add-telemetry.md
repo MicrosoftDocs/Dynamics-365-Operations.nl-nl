@@ -1,6 +1,6 @@
 ---
 title: Scriptcode toevoegen aan sitepagina's voor ondersteuning van telemetrie
-description: In dit onderwerp wordt beschreven hoe u scriptcode op de client toevoegt aan de sitepagina's om de verzameling telemetrie aan clientzijde te ondersteunen.
+description: In dit artikel wordt beschreven hoe u scriptcode op de client toevoegt aan de sitepagina's om de verzameling telemetrie aan clientzijde te ondersteunen.
 author: bicyclingfool
 ms.date: 09/29/2020
 ms.topic: article
@@ -14,23 +14,23 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f796a3e10345da41ff461b656d88affb3adbdf9e
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 262216ee99d52e3d53f5f5dae663104bb79757c6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852836"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Scriptcode toevoegen aan sitepagina's voor ondersteuning van telemetrie
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u scriptcode op de client toevoegt aan de sitepagina's om de verzameling telemetrie aan clientzijde te ondersteunen.
+In dit artikel wordt beschreven hoe u scriptcode op de client toevoegt aan de sitepagina's om de verzameling telemetrie aan clientzijde te ondersteunen.
 
 Webanalyses zijn een essentieel hulpmiddel om inzicht te krijgen in de manier waarop uw klanten met uw site communiceren en om beslissingen te nemen die de ervaring voor een maximale conversie optimaliseren. Er zijn veel webanalysepakketten beschikbaar om u te helpen deze doelstellingen te verwezenlijken, zoals Google Analytics, Clicky, Moz Analytics en KISSMetrics. Voor de meeste webanalysepakketten moet u scriptcode op de client toevoegen in het element **\<head\>** van de HTML-code op uw sitepagina's.
 
 > [!NOTE]
-> De instructies in dit onderwerp gelden ook voor andere aangepaste clientfunctionaliteit die Microsoft Dynamics 365 Commerce niet zelf aanbiedt.
+> De instructies in dit artikel gelden ook voor andere aangepaste clientfunctionaliteit die Microsoft Dynamics 365 Commerce niet zelf aanbiedt.
 
 ## <a name="create-a-reusable-fragment-for-your-script-code"></a>Een herbruikbaar fragment maken voor uw scriptcode
 

@@ -1,6 +1,6 @@
 ---
 title: Het maken van werk plannen tijdens waves
-description: In dit onderwerp wordt beschreven hoe u de waveverwerkingsmethode Werk maken plannen instelt en gebruikt.
+description: In dit artikel wordt beschreven hoe u de waveverwerkingsmethode Werk maken plannen instelt en gebruikt.
 author: Mirzaab
 ms.date: 01/14/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c955e7275c0bdc12dc206dde1d7e390f16270148
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 8b4505d66c37134bc8f672b38d195f4f677df9bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691126"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852065"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Het maken van werk plannen tijdens waves
 
@@ -30,7 +30,7 @@ Wanneer de functionaliteit is ingeschakeld, wordt automatisch gepland werk gemaa
 
 ## <a name="turn-on-the-scheduled-work-creation-features-in-feature-management"></a>De functies voor het maken van gepland werk inschakelen in functiebeheer
 
-Als u de functies wilt gebruiken die in dit onderwerp worden beschreven, moeten deze zijn ingeschakeld voor uw systeem. Gebruik de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de volgende functies in deze volgende in te schakelen:
+Als u de functies wilt gebruiken die in dit artikel worden beschreven, moeten deze zijn ingeschakeld voor uw systeem. Gebruik de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de volgende functies in deze volgende in te schakelen:
 
 1. **Werk blokkeren voor de hele organisatie**: vereist voor zowel handmatige als automatische configuratie van geplande werkcreatie. (Vanaf Supply Chain Management versie 10.0.21 is deze functie verplicht, waardoor deze standaard wordt ingeschakeld en niet meer kan worden uitgeschakeld.)
 1. **Werk maken plannen**: vereist voor zowel handmatige als automatische configuratie van geplande werkcreatie.

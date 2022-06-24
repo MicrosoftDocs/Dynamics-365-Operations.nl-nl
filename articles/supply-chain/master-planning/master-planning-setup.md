@@ -1,7 +1,7 @@
 ---
 title: Hoofdplanning instellen
-description: Dit onderwerp beschrijft diverse belangrijke strategieën en parameters die worden gebruikt voor het instellen van de hoofdplanning.
-author: ChristianRytt
+description: Dit artikel beschrijft diverse belangrijke strategieën en parameters die worden gebruikt voor het instellen van de hoofdplanning.
+author: t-benebo
 ms.date: 07/01/2019
 ms.topic: article
 ms.prod: ''
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 6d33fd53dd088ae4c6b4680d2604f783a3e1a5a0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: effdefcf8326babaa89d7de4b28a86bbef7280f8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580715"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888552"
 ---
 # <a name="set-up-master-planning"></a>Hoofdplanning instellen
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp beschrijft diverse belangrijke strategieën en parameters die worden gebruikt voor het instellen van de hoofdplanning. Het bevat een overzicht van de typen plannen die worden gebruikt door de hoofdplanning en geeft aan welke planstrategie u moet gebruiken, afhankelijk van de vereisten van uw bedrijf. Verder worden de belangrijkste parameters beschreven die van invloed zijn op het plan en wordt uitgelegd hoe deze parameters invloed hebben op de voorgestelde geplande orders.
+Dit artikel beschrijft diverse belangrijke strategieën en parameters die worden gebruikt voor het instellen van de hoofdplanning. Het bevat een overzicht van de typen plannen die worden gebruikt door de hoofdplanning en geeft aan welke planstrategie u moet gebruiken, afhankelijk van de vereisten van uw bedrijf. Verder worden de belangrijkste parameters beschreven die van invloed zijn op het plan en wordt uitgelegd hoe deze parameters invloed hebben op de voorgestelde geplande orders.
 
 ## <a name="types-of-master-plans"></a>Typen hoofdplannen
 

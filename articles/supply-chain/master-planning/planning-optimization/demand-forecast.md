@@ -1,6 +1,6 @@
 ---
 title: Hoofdplanning met vraagprognoses
-description: In dit onderwerp wordt uitgelegd hoe u vraagprognoses opneemt tijdens de hoofdplanning met Planningsoptimalisatie.
+description: In dit artikel wordt uitgelegd hoe u vraagprognoses opneemt tijdens de hoofdplanning met Planningsoptimalisatie.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ec5150186e190e67913409b9cac107ff2bd55001
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 63221b5270416cad9cdfb586c697d7700f3b561b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468436"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878985"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Hoofdplanning met vraagprognoses
 
@@ -42,7 +42,7 @@ Voer de volgende stappen uit om een hoofdplan zo te configureren dat het een vra
 
     - **Prognosemodel**: selecteer het prognosemodel dat moet worden toegepast. Dit model kan worden gebruikt wanneer een aanbodvoorstel wordt gegenereerd voor het huidige hoofdplan.
     - **Vraagprognose opnemen**: stel deze optie in op *Ja* om de vraagprognose in het huidige prognoseplan op te nemen. Bij *Nee* worden vraagprognosetransacties niet opgenomen in het hoofdplan.
-    - **Gebruikte methode om prognosebehoeften te verminderen**: selecteer de methode die moet worden gebruikt om prognosebehoeften te verminderen. Zie de sectie [Reductiesleutels van prognose](#reduction-keys) verderop in dit onderwerp voor meer informatie.
+    - **Gebruikte methode om prognosebehoeften te verminderen**: selecteer de methode die moet worden gebruikt om prognosebehoeften te verminderen. Zie de sectie [Reductiesleutels van prognose](#reduction-keys) verderop in dit artikel voor meer informatie.
 
 1. Op het sneltabblad **Time fence in dagen** kunt u de volgende velden instellen om de periode op te geven waarin de vraagprognose moet worden opgenomen:
 
@@ -61,7 +61,7 @@ Voer de volgende stappen uit om een behoefteplanningsgroep zo te configureren da
 1. Stel op het sneltabblad **Overig** de volgende velden in:
 
     - **Time fence voor prognoseplan**: voer het aantal dagen in (vanaf de datum van vandaag) waarvoor de vraagprognose moet worden toegepast. Deze waarde kan worden overschreven door de optie **Prognoseplan** in het hoofdplan te gebruiken, zoals wordt beschreven in de vorige sectie.
-    - **Reductiesleutel**: selecteer de reductiesleutel die u wilt toepassen. Zie [Een prognosereductiesleutel maken en instellen](#create-reduction-key) en [Een reductiesleutel gebruiken](#use-reduction-key) verderop in dit onderwerp voor meer informatie.
+    - **Reductiesleutel**: selecteer de reductiesleutel die u wilt toepassen. Zie [Een prognosereductiesleutel maken en instellen](#create-reduction-key) en [Een reductiesleutel gebruiken](#use-reduction-key) verderop in dit artikel voor meer informatie.
     - **Prognose reduceren met**: voor hoofdplannen waarvoor het veld **Gebruikte methode om prognosebehoeften te verminderen** is ingesteld op *Transacties - reductiesleutel* of *Transacties - dynamische periode*, geeft u welke transacties de prognose moeten verminderen. Selecteer een van de volgende waarden:
 
         - **Alle transacties**: alle transacties moeten de prognose verminderen.

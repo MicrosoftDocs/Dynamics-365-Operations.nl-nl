@@ -1,6 +1,6 @@
 ---
 title: Batchverdeling
-description: In dit onderwerp wordt het proces voor batchverdeling beschreven.
+description: In dit artikel wordt het proces voor batchverdeling beschreven.
 author: johanhoffmann
 ms.date: 01/04/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: a9e69b4d9213e57e5a920c7adda934ba845d17410c17d9c8a6356d717870ac23
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 50392e8aa0deb568a57e1df59ced70625a4f8a78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780071"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856043"
 ---
 # <a name="batch-balancing"></a>Batchverdeling
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe het proces voor batchverdeling wordt ondersteund.
+In dit artikel wordt beschreven hoe het proces voor batchverdeling wordt ondersteund.
 
 Bekijk een [video over batchverdeling](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be) voor meer informatie.
 
@@ -149,7 +149,7 @@ De verdeelde hoeveelheid van het vul-ingrediënt wordt berekend als het verschil
 Het batchverdelingsproces wordt uitgevoerd vanaf de pagina **Batchverdeling**.
 Selecteer **Kostenbeheer \> Batchorders** en vervolgens op het tabblad **Proces** **Batchverdeling**. Batchverdeling is beschikbaar voor batchorders met de status **Begonnen**.
 
-In het algemeen kan batchverdeling worden toegepast op batchorders als de formule ten minste één formuleregel heeft waarbij het **ingrediënttype** *Actief* is. (Zie de sectie 'Batchorders die niet van toepassing zijn voor batchverdeling' verderop in dit onderwerp voor de uitzondering op deze regel.)
+In het algemeen kan batchverdeling worden toegepast op batchorders als de formule ten minste één formuleregel heeft waarbij het **ingrediënttype** *Actief* is. (Zie de sectie 'Batchorders die niet van toepassing zijn voor batchverdeling' verderop in dit artikel voor de uitzondering op deze regel.)
 
 Het batchverdelingsproces kan worden opgedeeld in twee subprocessen:
 

@@ -1,6 +1,6 @@
 ---
 title: Tegellijstmodule
-description: In dit onderwerp wordt beschreven wat tegellijstmodules zijn en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt beschreven wat tegellijstmodules zijn en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dd714f29fe2f9acd459be7bda1c0bfac65b72cb0
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 44eb9b82ef9625734c7fe5ccba85207d9f210a00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780788"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905393"
 ---
 # <a name="tile-list-module"></a>Tegellijstmodule
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven wat tegellijstmodules zijn en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt beschreven wat tegellijstmodules zijn en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 
 Een tegellijstmodule is een verzameling tegels in een carrousel. Deze wordt gebruikt om productcategorieën of productmerken op de markt te brengen via afbeeldingen en tekst. Een detailhandelaar kan bijvoorbeeld een tegellijstmodule toevoegen aan de startpagina van een e-commercesite om alle best verkopende categorieën te promoten.
 

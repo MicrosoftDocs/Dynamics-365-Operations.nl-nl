@@ -1,6 +1,6 @@
 ---
 title: Authenticatie in Azure Active Directory voor POS-aanmelding configureren
-description: In dit onderwerp wordt uitgelegd hoe u Azure Active Directory configureert als de verificatiemethode voor het Microsoft Dynamics 365 Commerce-verkooppunt.
+description: In dit artikel wordt uitgelegd hoe u Azure Active Directory configureert als de verificatiemethode voor het Microsoft Dynamics 365 Commerce-verkooppunt.
 author: boycezhu
 ms.date: 04/23/2021
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 9dfb0389b0ca4b2cf75ccc70f35824674e618055
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 47da2c78cef2bbee324fbc2202898fbabd927c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402146"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853923"
 ---
 # <a name="configure-azure-active-directory-authentication-for-pos-sign-in"></a>Authenticatie in Azure Active Directory voor POS-aanmelding configureren
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u Azure Active Directory (Azure AD) configureert als de verificatiemethode voor het Microsoft Dynamics 365 Commerce-verkooppunt (POS).
+In dit artikel wordt uitgelegd hoe u Azure Active Directory (Azure AD) configureert als de verificatiemethode voor het Microsoft Dynamics 365 Commerce-verkooppunt (POS).
 
-Detailhandelaren die Dynamics 365 Commerce gebruiken samen met andere Microsoft-cloudservices zoals Microsoft Azure, Microsoft 365 en Microsoft Teams, willen meestal Azure AD gebruiken voor centraal beheer van gebruikersreferenties voor een beveiligde en naadloze aanmeldingservaring in alle toepassingen. Als u de Azure AD-verificatie wilt gebruiken voor Commerce POS, moet u Azure AD eerst configureren als de verificatiemethode in Commerce Headquarters.
+Detailhandelaren die Dynamics 365 Commerce gebruiken met andere Microsoft-cloudservices, zoals Microsoft Azure, Microsoft 365 en Microsoft Teams, willen Azure AD meestal gebruiken voor het centraal beheer van gebruikersreferenties voor een beveiligde en naadloze aanmeldingservaring in alle toepassingen. Als u de Azure AD-verificatie wilt gebruiken voor Commerce POS, moet u Azure AD eerst configureren als de verificatiemethode in Commerce Headquarters.
 
 ## <a name="configure-pos-authentication-method"></a>Methode voor configureren van POS-verificatie
 

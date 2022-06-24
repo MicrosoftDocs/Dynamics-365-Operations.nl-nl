@@ -1,6 +1,6 @@
 ---
 title: 'Berekeningen voor productconfiguratiemodellen: veelgestelde vragen'
-description: In dit onderwerp worden berekeningen voor productconfiguratiemodellen beschreven en wordt uitgelegd hoe u berekeningen samen met beperkingen kunt gebruiken.
+description: In dit artikel worden berekeningen voor productconfiguratiemodellen beschreven en wordt uitgelegd hoe u berekeningen samen met beperkingen kunt gebruiken.
 author: t-benebo
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9463fac363f6bb25c1bd2afebe5737e47aa8b3cf
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 593f6a8e28c789a378515ddc8e4163c331442e8b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570796"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890939"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Berekeningen voor productconfiguratiemodellen: veelgestelde vragen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden berekeningen voor productconfiguratiemodellen beschreven en wordt uitgelegd hoe u berekeningen samen met beperkingen kunt gebruiken.
+In dit artikel worden berekeningen voor productconfiguratiemodellen beschreven en wordt uitgelegd hoe u berekeningen samen met beperkingen kunt gebruiken.
 
 Berekeningen kunnen voor rekenkundige of logische bewerkingen worden gebruikt. Deze vullen expressiebeperkingen in productconfiguratiemodellen aan. U kunt berekeningen definiëren op de pagina **Details van op beperkingen gebaseerd productconfiguratiemodel** en vervolgens expressies maken voor de berekeningen in de expressie-editor. Raadpleeg Berekeningen maken voor meer informatie.
 

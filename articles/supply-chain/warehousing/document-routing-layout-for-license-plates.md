@@ -1,6 +1,6 @@
 ---
 title: Indeling van documentroutering voor nummerplaatlabels
-description: In dit onderwerp wordt beschreven hoe u opmaakmethoden kunt gebruiken om waarden op labels af te drukken.
+description: In dit artikel wordt beschreven hoe u opmaakmethoden kunt gebruiken om waarden op labels af te drukken.
 author: perlynne
 ms.date: 04/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 9055e4c6e35099b7769faa6fc83f71523f2e64fd
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 10e63353cda93d666d7f23f59508b73e5492c3cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103885"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847870"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Indeling van documentroutering voor nummerplaatlabels
 
@@ -53,7 +53,7 @@ Er zijn verschillende veelgebruikte hulpmiddelen voor het genereren van labels o
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Deze functie inschakelen voor uw systeem
 
-Als de functies die in dit onderwerp worden beschreven, nog niet in het systeem aanwezig zijn, gaat u naar [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de functie *Verbeterde indelingen voor nummerplaatlabels* in. (Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld.)
+Als de functies die in dit artikel worden beschreven, nog niet in het systeem aanwezig zijn, gaat u naar [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de functie *Verbeterde indelingen voor nummerplaatlabels* in. (Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld.)
 
 ## <a name="custom-number-formats"></a>Aangepaste getalnotaties
 
@@ -129,7 +129,7 @@ U kunt afdrukken vanuit een weergavemethode met de volgende notatie.
 $DisplayMethod()$
 ```
 
-U kunt deze notatie combineren met andere typen die eerder in dit onderwerp zijn beschreven. U hebt bijvoorbeeld een weergavemethode met de naam `DisplayListOfItemsNumbers()` en u wilt het eerste artikelnummer van deze methode afdrukken. In dit geval kunt u de volgende code gebruiken.
+U kunt deze notatie combineren met andere typen die eerder in dit artikel zijn beschreven. U hebt bijvoorbeeld een weergavemethode met de naam `DisplayListOfItemsNumbers()` en u wilt het eerste artikelnummer van deze methode afdrukken. In dit geval kunt u de volgende code gebruiken.
 
 ```dos
 $DisplayListOfItemsNumbers()[1]$

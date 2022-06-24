@@ -1,6 +1,6 @@
 ---
 title: containers beheren
-description: In dit onderwerp wordt beschreven hoe u met containers werkt. containers worden gebruikt om goederen te groeperen die fysiek zijn gegroepeerd. Ze worden ook gebruikt wanneer kosten alleen over deze goederen moeten worden gedeeld, meestal omdat ze fysiek zijn gegroepeerd.
+description: In dit artikel wordt beschreven hoe u met containers werkt. containers worden gebruikt om goederen te groeperen die fysiek zijn gegroepeerd. Ze worden ook gebruikt wanneer kosten alleen over deze goederen moeten worden gedeeld, meestal omdat ze fysiek zijn gegroepeerd.
 author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ac88f8e3b8cf305a5bd247e7ed6b14b23ad85499
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 22f2512125679f160cb658923893d5f5aa739a2d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686764"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906148"
 ---
 # <a name="manage-shipping-containers"></a>containers beheren
 
@@ -142,7 +142,7 @@ Als u de weergave **Regels** wilt openen, opent u een container en selecteert u 
 
 ### <a name="information-on-the-shipping-container-fasttab"></a>Informatie op het sneltabblad container
 
-Het sneltabblad **container** in de weergave **Regels** bevat informatie over het folio. De meeste informatie wordt ook weergegeven in de weergave **Header**, zoals eerder in dit onderwerp is beschreven.
+Het sneltabblad **container** in de weergave **Regels** bevat informatie over het folio. De meeste informatie wordt ook weergegeven in de weergave **Header**, zoals eerder in dit artikel is beschreven.
 
 ### <a name="information-and-buttons-on-the-lines-fasttab"></a>Informatie en knoppen op het sneltabblad Regels
 

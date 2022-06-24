@@ -1,6 +1,6 @@
 ---
 title: Spoedbetalingen configureren voor PayPal
-description: In dit onderwerp wordt beschreven hoe u spoedbetalingen voor PayPal kunt configureren om sneller uit te checken in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt beschreven hoe u spoedbetalingen voor PayPal kunt configureren om sneller uit te checken in Microsoft Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 05/11/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 5fff17959e7ed9299df169c68b2ed07f6b7c7d2c
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: b69b7384992fb86370ff6881824a7d2c9a77d2c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743567"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905277"
 ---
 # <a name="configure-express-payments-for-paypal"></a>Spoedbetalingen configureren voor PayPal
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u spoedbetalingen voor PayPal kunt configureren om sneller uit te checken in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt beschreven hoe u spoedbetalingen voor PayPal kunt configureren om sneller uit te checken in Microsoft Dynamics 365 Commerce.
 
 ## <a name="key-terms"></a>Belangrijke termen
 
@@ -28,7 +28,7 @@ In dit onderwerp wordt beschreven hoe u spoedbetalingen voor PayPal kunt configu
 |---|---|
 | PayPal Wallet | De klantervaring en integratie die worden ondersteund door de PayPal-connector. Dit wordt ook wel de PayPal-knop genoemd. |
 | Portemonnee | Een betalingstype dat geen traditionele betalingskenmerken bevat, zoals het BIN-bereik (Bank Identification Number) en de vervaldatum, die worden gebruikt om de creditcard- en betaalkaarttypen te onderscheiden. |
-| Snelle betaling | Een Commerce-module die sneller afrekengedrag ondersteunt wanneer ondersteunde betalingswijzen worden gebruikt. In dit onderwerp wordt het gebruik van de module voor snelle betaling met PayPal besproken. |
+| Snelle betaling | Een Commerce-module die sneller afrekengedrag ondersteunt wanneer ondersteunde betalingswijzen worden gebruikt. In dit artikel wordt het gebruik van de module voor snelle betaling met PayPal besproken. |
 
 Dynamics 365 Commerce biedt een kant-en-klare integratie voor PayPal Wallet. Wanneer de Dynamics 365 Payment Connector voor PayPal is geconfigureerd, wordt de PayPal-knop weergegeven als een te selecteren betalingswijze tijdens het afrekenen van online orders. Wanneer gebruikers PayPal selecteren, worden ze omgeleid om hun betaling rechtstreeks via PayPal te voltooien en keren ze vervolgens terug naar de online winkel om de order te voltooien. Met PayPal-betalingen via het winkelwagentje kunnen klanten hun betalingsrekeninggegevens gebruiken om het formulier voor afrekenen vooraf in te vullen, zodat ze het proces sneller kunnen voltooien.
 

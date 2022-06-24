@@ -1,6 +1,6 @@
 ---
-title: Module voor snelle weergave
-description: In dit onderwerp wordt beschreven wat modules voor snelle weergave zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
+title: Snelweergavemodule
+description: In dit artikel wordt beschreven wat modules voor snelle weergave zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2020-01-08
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 5ba42806d8f77f41ab9c5cf5e26b20ecb647aadf
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: e9066357fda4f5d91c547622ac64d8c4eef253ae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780813"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847570"
 ---
 # <a name="quick-view-module"></a>Snelweergavemodule
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven wat modules voor snelle weergave zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt beschreven wat modules voor snelle weergave zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 
 Met de module voor snelle weergave kunnen gebruikers snel productgegevens weergeven wanneer ze door producten bladeren op een lijstpagina en een of meer producten aan het winkelwagentje toevoegen vanaf de lijstpagina, zonder naar de pagina met productgegevens te hoeven gaan. De module voor snelle weergave biedt een overzicht van de productgegevens die gebruikers nodig hebben om een beslissing over een toevoeging aan een winkelwagen te nemen. Daarnaast biedt de module een koppeling naar de pagina met productgegevens, zodat gebruikers aanvullende productdetails en inkoopopties kunnen bekijken.
 

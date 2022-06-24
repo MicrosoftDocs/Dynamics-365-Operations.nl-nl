@@ -1,6 +1,6 @@
 ---
 title: ProcessGuide-raamwerk
-description: Dit onderwerp bevat informatie over het ProcessGuide-framework voor ontwikkelaars die onze mobiele magazijnprocessen in X++ uitbreiden.
+description: Dit artikel bevat informatie over het ProcessGuide-framework voor ontwikkelaars die onze mobiele magazijnprocessen in X++ uitbreiden.
 author: Mirzaab
 ms.date: 11/01/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 6882c979ad9b37eb4f95a04259b6ac0f0a0edcdc
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: e88f32e0347a808d03615cf85e50b1592d691670
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902041"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860430"
 ---
 # <a name="process-guide-framework"></a>ProcessGuide-raamwerk
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat informatie over het ProcessGuide-framework voor ontwikkelaars die de mobiele magazijnprocessen in X++ uitbreiden. De mobiele processen voor magazijnen zijn uitbreidbaar omdat de processen in kleine stappen worden opgesplitst. De opbouw van elke stap in de bedrijfslogica en de gebruikersinterface is opgesplitst in afzonderlijke klassen, wat uitbreiding mogelijk maakt.
+Dit artikel bevat informatie over het ProcessGuide-framework voor ontwikkelaars die de mobiele magazijnprocessen in X++ uitbreiden. De mobiele processen voor magazijnen zijn uitbreidbaar omdat de processen in kleine stappen worden opgesplitst. De opbouw van elke stap in de bedrijfslogica en de gebruikersinterface is opgesplitst in afzonderlijke klassen, wat uitbreiding mogelijk maakt.
 
 ## <a name="overview-of-the-existing-design"></a>Overzicht van het bestaande ontwerp
 
@@ -321,7 +321,7 @@ public class ProdProcessGuideConfirmProductionOrderPageBuilder extends ProcessGu
 ```
 
 > [!NOTE]
-> U kunt dezelfde broncode vinden voor de X++-methoden in dit onderwerp met behulp van de Toepassingsverkenner. Filter op de klassenaam en klik vervolgens met de rechtermuisknop op de klassenaam en selecteer **Code weergeven**.
+> U kunt dezelfde broncode vinden voor de X++-methoden in dit artikel met behulp van de Toepassingsverkenner. Filter op de klassenaam en klik vervolgens met de rechtermuisknop op de klassenaam en selecteer **Code weergeven**.
 
 ### <a name="step-3-start-the-production-order"></a>Stap 3: De productieorder starten
 
@@ -421,7 +421,7 @@ Door dat te doen, wordt aan de stap gevraagd om een actieklasse te maken voor de
 
 ### <a name="summary"></a>Samenvatting
 
-Om alles wat in dit onderwerp is uitgelegd samen te vatten, is hier een uitgebreid overzicht van de code die nodig is voor het proces:
+Om alles wat in dit artikel is uitgelegd samen te vatten, is hier een uitgebreid overzicht van de code die nodig is voor het proces:
 
 1.  **ProdProcessGuideProductionStartController**
 
@@ -570,7 +570,7 @@ Om alles wat in dit onderwerp is uitgelegd samen te vatten, is hier een uitgebre
         ```
 
         > [!NOTE]
-        > De methode **generateItemInfoForProdId()** die wordt gebruikt voor het genereren van de artikelinformatielabels, is weggelaten in dit onderwerp. Deze methode voert query's uit op enkele tabellen om de id, omschrijving en afmetingen van een artikel te krijgen. Als u beter inzicht wilt in **generateItemInfoForProdId()**, bekijkt u de broncode.
+        > De methode **generateItemInfoForProdId()** die wordt gebruikt voor het genereren van de artikelinformatielabels, is weggelaten in dit artikel. Deze methode voert query's uit op enkele tabellen om de id, omschrijving en afmetingen van een artikel te krijgen. Als u beter inzicht wilt in **generateItemInfoForProdId()**, bekijkt u de broncode.
 
 4.  **ProdProcessGuideStartProductionOrderStep**
 
@@ -605,7 +605,7 @@ Om alles wat in dit onderwerp is uitgelegd samen te vatten, is hier een uitgebre
 
 ### <a name="extending-a-business-process"></a>Een bedrijfsproces uitbreiden
 
-Tot nu toe is in dit onderwerp besproken hoe u een nieuw proces kunt maken met behulp van het **ProcessGuide**-framework. In dit laatste gedeelte vindt u enkele voorbeelden van de manier waarop dit bedrijfsproces kan worden uitgebreid.
+Tot nu toe is in dit artikel besproken hoe u een nieuw proces kunt maken met behulp van het **ProcessGuide**-framework. In dit laatste gedeelte vindt u enkele voorbeelden van de manier waarop dit bedrijfsproces kan worden uitgebreid.
 
 ### <a name="add-a-step-in-a-flow-using-processguidenavigationagentdefault"></a>Een stap in een stroom toevoegen (met ProcessGuideNavigationAgentDefault)
 

@@ -1,6 +1,6 @@
 ---
 title: Orderbelofte
-description: In dit onderwerp vindt u informatie over het uitvoeren van ordertoezeggingen (orderbeloftes). Als u gebruikt maakt van orderbeloftes, kunt u met zekerheid leveringsdatums aan uw klanten beloven en hebt u de flexibiliteit dat u deze datums ook haalt.
+description: In dit artikel vindt u informatie over het uitvoeren van ordertoezeggingen (orderbeloftes). Als u gebruikt maakt van orderbeloftes, kunt u met zekerheid leveringsdatums aan uw klanten beloven en hebt u de flexibiliteit dat u deze datums ook haalt.
 author: Henrikan
 ms.date: 04/17/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f7535ba28358fef21784956da38cd334a4aebe7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 21af95f06182863c6ba74e4329052fc15c1b49a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572596"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878811"
 ---
 # <a name="order-promising"></a>Orderbelofte
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp vindt u informatie over het uitvoeren van ordertoezeggingen (orderbeloftes). Als u gebruikt maakt van orderbeloftes, kunt u met zekerheid leveringsdatums aan uw klanten beloven en hebt u de flexibiliteit dat u deze datums ook haalt.
+In dit artikel vindt u informatie over het uitvoeren van ordertoezeggingen (orderbeloftes). Als u gebruikt maakt van orderbeloftes, kunt u met zekerheid leveringsdatums aan uw klanten beloven en hebt u de flexibiliteit dat u deze datums ook haalt.
 
 Met orderbelofte worden de vroegste verzend- en ontvangstdatum berekend. De functie is gebaseerd op de controlemethode voor de leveringsdatum en op de transportdagen. U kunt onder kiezen uit vier controlemethoden voor de leveringsdatum:
 

@@ -1,6 +1,6 @@
 ---
 title: Registratie voor Productieregistratie-uitvoering
-description: In dit onderwerp worden belangrijke concepten en termen beschreven, die u moet kennen om de productieregistratie te configureren en te gebruiken.
+description: In dit artikel worden belangrijke concepten en termen beschreven, die u moet kennen om de productieregistratie te configureren en te gebruiken.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c843bc87c7b9c0676211c8f3363ec3e05ee97d20b3eedc940b9ffaee2d3211fa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c43a9d847045f2c029f232d6317268d91ee0129a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718895"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907198"
 ---
 # <a name="registration-for-manufacturing-execution"></a>Registratie voor Productieregistratie-uitvoering
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden belangrijke concepten en termen beschreven, die u moet kennen om de productieregistratie te configureren en te gebruiken. 
+In dit artikel worden belangrijke concepten en termen beschreven, die u moet kennen om de productieregistratie te configureren en te gebruiken. 
 
 De functie Productie-uitvoering is voornamelijk bedoeld voor gebruik door productiebedrijven. Werknemers kunnen tijd- en artikelverbruik registreren voor productietaken via de pagina **Taakregistratie**. Alle geregistreerde gegevens moeten worden goedgekeurd en later overgebracht naar de relevante modules. Omdat er doorlopend geregistreerde gegevens worden goedgekeurd en overgebracht, kunnen managers gemakkelijk de werkelijke kosten van productieorders bijhouden.
 

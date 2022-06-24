@@ -1,6 +1,6 @@
 ---
 title: Classificatieprofielen
-description: In dit onderwerp wordt beschreven hoe u de gegevens voor beoordelingsprofielen instelt.
+description: In dit artikel wordt beschreven hoe u de gegevens voor beoordelingsprofielen instelt.
 author: Weijiesa
 ms.date: 10/30/2020
 ms.topic: business-process
@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2512b79c87a4640a2b31b7699e85d743b451a14c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 1f7408574187ddb099181bd2566c46c52307f603
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676434"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850462"
 ---
 # <a name="rating-profiles"></a>Classificatieprofielen
 
@@ -56,7 +56,7 @@ Op de pagina **Beoordelingsprofielen** kunt u alle beschikbare beoordelingsprofi
 1. Ga naar **Transportbeheer \> Instellingen \> Vervoerders \> Vervoerders**.
 1. Selecteer een vervoerder in de lijst.
 1. Selecteer in het sneltabblad **Beoordelingsprofiel** de optie **Nieuw** om een beoordelingsprofiel te maken.
-1. Stel de velden in voor het nieuwe beoordelingsprofiel. Deze velden komen overeen met de velden op de pagina **Beoordelingsprofielen**, zoals beschreven in het vorige gedeelte van dit onderwerp.
+1. Stel de velden in voor het nieuwe beoordelingsprofiel. Deze velden komen overeen met de velden op de pagina **Beoordelingsprofielen**, zoals beschreven in het vorige gedeelte van dit artikel.
 
 > [!NOTE]
 > Profielen die op de pagina **Vervoerders** worden gemaakt, worden ook weergegeven op de pagina **Beoordelingsprofielen**.

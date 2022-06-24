@@ -1,6 +1,6 @@
 ---
 title: Sitenavigatie aanpassen
-description: In dit onderwerp wordt beschreven hoe u een aangepaste online navigatiehiërarchie kunt maken om uw producten te ordenen op uw Microsoft Dynamics 365 Commerce-site.
+description: In dit artikel wordt beschreven hoe u een aangepaste online navigatiehiërarchie kunt maken om uw producten te ordenen op uw Microsoft Dynamics 365 Commerce-site.
 author: bicyclingfool
 ms.date: 09/15/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8af68fff17f2f92356ade356da0e75867ed54950d744c6cbe730ad8db4ac3975
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 60aaae397501269be55f5ef75e4314b4e1f0b252
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755877"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863456"
 ---
 # <a name="customize-site-navigation"></a>Sitenavigatie aanpassen
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u een aangepaste online navigatiehiërarchie kunt maken om uw producten te ordenen op uw Microsoft Dynamics 365 Commerce-site.
+In dit artikel wordt beschreven hoe u een aangepaste online navigatiehiërarchie kunt maken om uw producten te ordenen op uw Microsoft Dynamics 365 Commerce-site.
 
 Met online winkels kunnen klanten producten bekijken en bladeren door middel van productcategorieën. Deze functie wordt meestal geboden door tabbladen boven aan de pagina of door een navigatiebalk aan de linkerkant. In Dynamics 365 Commerce maakt en beheert u de hiërarchiestructuur van uw categorienavigatie en de producten die in de verschillende categorieën zijn opgenomen.
 

@@ -1,6 +1,6 @@
 ---
-title: Cookietoestemmingsmodule
-description: In dit onderwerp wordt beschreven wat cookietoestemmingsmodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
+title: Module voor cookietoestemming
+description: In dit artikel wordt beschreven wat cookietoestemmingsmodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 43f18a0963d84d486c8077bde1dad50fdd4fe85beb95dc8b22ae2f3ee724ba0f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 514f54ea6ff05dc3e0885f21af176453dd604848
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750733"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878578"
 ---
 # <a name="cookie-consent-module"></a>Module voor cookietoestemming
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven wat cookietoestemmingsmodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt beschreven wat cookietoestemmingsmodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 
 In de cookietoestemmingsmodule wordt aan sitegebruikers gevraagd expliciet cookies toe te staan voor alle functies of modules die browsercookies bijhouden. De toestemming is vereist wanneer een sitegebruiker de site voor het eerst bezoekt in een nieuwe browsersessie. Wanneer toestemming wordt ontvangen, wordt deze getraceerd en wordt de sitegebruiker niet nogmaals om toestemming gevraagd. Zie [Conformiteit van cookie](cookie-compliance.md) voor meer informatie.
 

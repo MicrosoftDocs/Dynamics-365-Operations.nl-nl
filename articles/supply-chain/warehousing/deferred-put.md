@@ -1,6 +1,6 @@
 ---
 title: Uitgestelde verwerking van magazijnwerk
-description: In dit onderwerp wordt de functionaliteit beschreven die uitgestelde verwerking van wegzetbewerkingen in magazijnwerk beschikbaar maakt in Dynamics 365 Supply Chain Management.
+description: In dit artikel wordt de functionaliteit beschreven die uitgestelde verwerking van wegzetbewerkingen in magazijnwerk beschikbaar maakt in Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 11/18/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f99e960ffe7ca383563cc49c2e0825592ef5de57
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f4eeea0805c2cecedbd6b42926191ab02022df9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577859"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899290"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Uitgestelde verwerking van magazijnwerk
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt de functionaliteit beschreven die uitgestelde verwerking van wegzetbewerkingen voor magazijnwerk beschikbaar maakt in Dynamics 365 Supply Chain Management.
+In dit artikel wordt de functionaliteit beschreven die uitgestelde verwerking van wegzetbewerkingen voor magazijnwerk beschikbaar maakt in Dynamics 365 Supply Chain Management.
 
 Met de functionaliteit voor uitgestelde verwerking kunnen magazijnmedewerkers doorgaan met ander werk terwijl de wegzetbewerking op de achtergrond wordt verwerkt. Uitgestelde verwerking is nuttig wanneer veel werkregels moeten worden verwerkt en de werknemer dat werk asynchroon kan laten verwerken. Het is ook handig wanneer de server ad-hoc of niet-geplande verhogingen in verwerkingstijd kan hebben, en de toegenomen verwerkingstijd kan invloed hebben op de productiviteit van de gebruiker.
 

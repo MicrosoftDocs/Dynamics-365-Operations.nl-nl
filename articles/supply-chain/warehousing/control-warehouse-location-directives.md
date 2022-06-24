@@ -1,6 +1,6 @@
 ---
 title: Magazijnwerk beheren met werksjablonen en locatierichtlijnen
-description: In dit onderwerp wordt beschreven hoe werksjablonen en locatie-instructies kunnen worden gebruikt om te bepalen hoe en waar werk wordt uitgevoerd in het magazijn.
+description: In dit artikel wordt beschreven hoe werksjablonen en locatie-instructies kunnen worden gebruikt om te bepalen hoe en waar werk wordt uitgevoerd in het magazijn.
 author: perlynne
 ms.date: 10/20/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7e955fba12e963a443c0304f0a8a0e395c46909dd34de12cd51fa9788491786
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 65675d8a99d023176e3e66e92cd3d634750bdb0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770139"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877416"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Magazijnwerk beheren met werksjablonen en locatierichtlijnen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe werksjablonen en locatie-instructies kunnen worden gebruikt om te bepalen hoe en waar werk wordt uitgevoerd in het magazijn.
+In dit artikel wordt beschreven hoe werksjablonen en locatie-instructies kunnen worden gebruikt om te bepalen hoe en waar werk wordt uitgevoerd in het magazijn.
 
 De instructies die werknemers ontvangen op een mobiel apparaat worden gedefinieerd door de werksjablonen die u in Dynamics 365 Supply Chain Management hebt ingesteld om de verschillende magazijnprocessen en de functies te definiëren. Werksjablonen bepalen hoe het werk voor elk magazijnproces wordt uitgevoerd. Door een locatierichtlijn te koppelen aan werksjablonen kunt u helpen garanderen dat werk plaatsvindt in specifieke gebieden van de magazijnen.
 
@@ -73,7 +73,7 @@ De locatie-instructies bepalen *waar* artikelen moeten worden verzameld en *waar
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 - Video: [Configuratie van magazijnbeheer: diepgravend](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- Help-onderwerp: [Werken met locatie-instructies](create-location-directive.md)
+- Help-artikel: [Werken met locatie-instructies](create-location-directive.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Taalinstellingen voor verkooppunttoepassing (POS) en gebruiker
-description: In dit onderwerp wordt beschreven hoe u taalinstellingen wijzigt in Modern POS (MPOS) en Cloud POS.
+description: In dit artikel wordt beschreven hoe u taalinstellingen wijzigt in Modern POS (MPOS) en Cloud POS.
 author: jblucher
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 099d16f63e03ecbc8bf911fe4385b35fac7c67f763c17379cdc6b6229abdea16
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 15490885b5ce366edbab669893f3c3e36585f308
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774528"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863342"
 ---
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>Taalinstellingen voor verkooppunttoepassing (POS) en gebruiker
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u taalinstellingen wijzigt in Modern POS (MPOS) en Cloud POS.
+In dit artikel wordt beschreven hoe u taalinstellingen wijzigt in Modern POS (MPOS) en Cloud POS.
 
 ## <a name="overview"></a>Overzicht
 Modern POS (MPOS) en Cloud POS ondersteunen omgevingen waar de taalinstellingen en vertalingen tussen de winkel- en de gebruikerinstellingen kunnen verschillen. De winkel kan zich bijvoorbeeld bevinden in een regio waar klanten meestal Engels spreken, maar sommige werknemers kunnen er de voorkeur aan geven de toepassing te gebruiken met de Franse vertaling.

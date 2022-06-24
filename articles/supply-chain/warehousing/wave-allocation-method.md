@@ -1,6 +1,6 @@
 ---
 title: Wavetoewijzing
-description: In dit onderwerp wordt beschreven hoe u de stap voor wavetoewijzing instelt, inclusief hoe u parallelle verwerking hiervoor inschakelt.
+description: In dit artikel wordt beschreven hoe u de stap voor wavetoewijzing instelt, inclusief hoe u parallelle verwerking hiervoor inschakelt.
 author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 08781b26a4e066a026d4efa14670f073b04ec185
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c6b89364afd57b9c4b4413d0319b86e725433594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695530"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906946"
 ---
 # <a name="wave-allocation"></a>Wavetoewijzing
 
@@ -25,7 +25,7 @@ ms.locfileid: "8695530"
 
 Waveverwerking kan tijdrovend zijn en het grootste deel van de verwerkingstijd wordt besteed aan de toewijzingsstap en aan de stap voor het maken van werk.
 
-Het is nu mogelijk om elk van deze stappen parallel uit te voeren, wat de prestaties van de waveverwerking kan verbeteren en een grotere doorvoer van waves in hetzelfde magazijn mogelijk kan maken. In dit onderwerp wordt uitgelegd hoe u wavetoewijzingsmethode instelt zodat deze parallel wordt uitgevoerd. Zie [Het maken van werk tijdens wave plannen](configure-wave-schedule-work-creation.md) voor meer informatie over hoe het maken van werk parallel kan worden uitgevoerd.
+Het is nu mogelijk om elk van deze stappen parallel uit te voeren, wat de prestaties van de waveverwerking kan verbeteren en een grotere doorvoer van waves in hetzelfde magazijn mogelijk kan maken. In dit artikel wordt uitgelegd hoe u wavetoewijzingsmethode instelt zodat deze parallel wordt uitgevoerd. Zie [Het maken van werk tijdens wave plannen](configure-wave-schedule-work-creation.md) voor meer informatie over hoe het maken van werk parallel kan worden uitgevoerd.
 
 Voorheen kon slechts één wave tegelijk in een magazijn worden toegewezen. Deze beperking is verwijderd en vervangen door een nieuwe beperking die alleen het artikel en de dimensies boven de locatie in de reserveringshiërarchie vergrendelt. Afmetingen boven de locatie bevatten altijd productafmetingen. Als een artikel bijvoorbeeld is geconfigureerd met *Kleur*, kunnen varianten voor *Rood*, *Blauw* en *Geel* elk parallel worden verwerkt.
 

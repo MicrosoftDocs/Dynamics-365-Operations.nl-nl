@@ -1,6 +1,6 @@
 ---
 title: Een intercompany-verkooporder voor intern gebruik maken
-description: In dit onderwerp wordt uitgelegd hoe u een intercompany-verkooporder voor intern gebruik maakt
+description: In dit artikel wordt uitgelegd hoe u een intercompany-verkooporder voor intern gebruik maakt
 author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 9b4d2dc450fb5996e0e08c92836c1d1942a05b73
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a37b8ab1b3df10cdbd3bbb87410bc3dc70dc0ed0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673685"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873516"
 ---
 # <a name="create-an-intercompany-sales-order-for-internal-use"></a>Een intercompany-verkooporder voor intern gebruik maken
 

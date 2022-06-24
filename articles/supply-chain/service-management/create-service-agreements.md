@@ -1,6 +1,6 @@
 ---
 title: Serviceovereenkomsten maken
-description: In dit onderwerp wordt beschreven hoe u serviceovereenkomsten maakt met de functies in de modules Servicebeheer en Projectbeheer en boekhouding.
+description: In dit artikel wordt beschreven hoe u serviceovereenkomsten maakt met de functies in de modules Servicebeheer en Projectbeheer en boekhouding.
 author: sorenva
 ms.date: 02/19/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a8a139d1a11cca036ace2540cba59bf2cace0db
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d18d279cd437e98cad6495def953978cb78e723e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677249"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901758"
 ---
 # <a name="create-service-agreements"></a>Serviceovereenkomsten maken
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u serviceovereenkomsten maakt met de functies in de modules Servicebeheer en Projectbeheer en boekhouding.
+In dit artikel wordt beschreven hoe u serviceovereenkomsten maakt met de functies in de modules Servicebeheer en Projectbeheer en boekhouding.
 
 ## <a name="create-a-service-agreement-from-service-management"></a>Een serviceovereenkomst maken via Servicebeheer
 
@@ -54,7 +54,7 @@ In dit onderwerp wordt beschreven hoe u serviceovereenkomsten maakt met de funct
 5. Voer de beschreven stappen in de sectie **Een serviceovereenkomst maken** uit om de projectverwijzing in te voeren.
 
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-articles"></a>Gerelateerde artikelen
 
 [Overzicht van Servicelevelovereenkomsten opstellen en tot stand brengen](service-agreements.md)
 

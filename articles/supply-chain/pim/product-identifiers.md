@@ -1,6 +1,6 @@
 ---
 title: Product-id's
-description: Dit onderwerp bevat informatie over de verschillende typen product-id's en hierin wordt uitgelegd hoe u product-id's in de productgegevens kunt toevoegen.
+description: Dit artikel bevat informatie over de verschillende typen product-id's en hierin wordt uitgelegd hoe u product-id's in de productgegevens kunt toevoegen.
 author: t-benebo
 ms.date: 03/27/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 638b5c3b0c83f67f3d99331b6456efd1b8f5225a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3fc2d5c01209f15a9cb680e3bb569087f08c08d3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063336"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851705"
 ---
 # <a name="product-identifiers"></a>Product-id's
 
@@ -29,7 +29,7 @@ ms.locfileid: "8063336"
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat informatie over de verschillende typen product-id's en hierin wordt uitgelegd hoe u product-id's in de productgegevens kunt toevoegen.
+Dit artikel bevat informatie over de verschillende typen product-id's en hierin wordt uitgelegd hoe u product-id's in de productgegevens kunt toevoegen.
 
 Wanneer u op de werkvloer met producten of in een magazijn in Microsoft Dynamics ERP of Microsoft Dynamics CRM werkt, moet u een goede strategie voor het identificeren van die producten en productvarianten hebben.
 
@@ -125,7 +125,7 @@ Helaas is er geen standaardfunctionaliteit waarmee u op externe codes kunt zoeke
 | Producten V2 | Productnummer, zoeknaam voor product, productnaam, productomschrijving | Productnummer, zoeknaam voor product, productnaam, productomschrijving | Afhankelijk van de instellingen van de entiteit en de nummerreeks voor het productnummer, kan het productnummer automatisch worden gemaakt op het moment van importeren. |
 | Productvarianten | Productnummer, zoeknaam voor product, productnaam, productomschrijving | Productnummer, zoeknaam voor product, productnaam, productomschrijving | Afhankelijk van de sjabloon voor de nomenclatuur van producten, kan het productnummer automatisch worden gemaakt op het moment van importeren. U kunt echter elk uniek productnummer importeren en dat productnummer hoeft niet de structuur van de sjablonen voor de nomenclatuur van producten te volgen. |
 | Productvertalingen | Productnaam, productomschrijving | Productnaam, productomschrijving | Deze entiteit overschrijft elke taal. Wanneer de naam of omschrijving van de primaire taal voor een rechtspersoon wordt overschreven, worden de naam en omschrijving van het product zelf gewijzigd. |
-| Vrijgegeven product maken V2 | Artikelnummer, productnummer, zoeknaam artikel| Artikelnummer, productnummer, zoeknaam artikel, zoeknaam voor product, productnaam | Deze entiteit kan lastig zijn als nummerreeksen worden gebruikt tijdens het maken van nieuwe vrijgegeven producten. Zowel de nummerreeks **Artikelnummer** als de nummerreeks **Productnummer** heeft invloed. De nummerreeks **Artikelnummer** geldt per rechtspersoon terwijl de nummerreeks **Productnummer** globaal geldt. Daarom raden we u niet aan de nummerreeks **Artikelnummer** te gebruiken wanneer u nieuwe vrijgegeven producten implementeert. Wanneer de entiteit wordt gebruikt voor het vrijgeven van een bestaand product, moet het productnummer vanzelfsprekend wel worden vermeld in de entiteit. Zie de sectie Product- en artikelnummerreeksen in dit onderwerp voor meer informatie. |
+| Vrijgegeven product maken V2 | Artikelnummer, productnummer, zoeknaam artikel| Artikelnummer, productnummer, zoeknaam artikel, zoeknaam voor product, productnaam | Deze entiteit kan lastig zijn als nummerreeksen worden gebruikt tijdens het maken van nieuwe vrijgegeven producten. Zowel de nummerreeks **Artikelnummer** als de nummerreeks **Productnummer** heeft invloed. De nummerreeks **Artikelnummer** geldt per rechtspersoon terwijl de nummerreeks **Productnummer** globaal geldt. Daarom raden we u niet aan de nummerreeks **Artikelnummer** te gebruiken wanneer u nieuwe vrijgegeven producten implementeert. Wanneer de entiteit wordt gebruikt voor het vrijgeven van een bestaand product, moet het productnummer vanzelfsprekend wel worden vermeld in de entiteit. Zie de sectie Product- en artikelnummerreeksen in dit artikel voor meer informatie. |
 | Vrijgegeven productvarianten | Artikelnummer, productdimensies, productnummer | Productnummer, zoeknaam voor product, productnaam, productomschrijving, productdimensies | Net als de entiteit **Productvarianten** kan deze entiteit worden gebruikt voor het maken van nieuwe producten die de sjabloon voor de nomenclatuur van producten volgen of hun eigen productnummers voor de variant gebruiken. |
 | Extern-artikelomschrijving voor klanten | Artikelnummer van klant, naam van klantartikel, klantomschrijving, klantrekening | Artikelnummer van klant, naam van klantartikel, klantomschrijving, klantrekening | Een groep klanten (bijvoorbeeld een kopersvereniging) kan worden samengevoegd tot één groep met behulp van de entiteit **Klantengroepen voor extern-artikelomschrijving**. |
 | Extern-artikelomschrijving voor leveranciers | Artikelnummer van leverancier, naam van leveranciersartikel, omschrijving van leverancier, leverancierrekening | Artikelnummer van leverancier, naam van leveranciersartikel, omschrijving van leverancier, leverancierrekening | Een groep leveranciers (bijvoorbeeld een leveranciersvereniging of een brancheorganisatie) kan worden samengevoegd tot één groep met behulp van de entiteit **Leveranciersgroepen voor extern-artikelomschrijving**. |
@@ -184,7 +184,7 @@ Ga als volgt te werk om de omgeving te configureren.
 
 Nu kunt u de gegevensentiteiten **Entiteit voor Common Data Service-id voor productentiteit**, **Record-id voor identificatiecode voor productentiteit** en **Identificatiebereik voor productentiteiten** gebruiken voor het exporteren van de id's voor elk doelsysteem.
 
-## <a name="related-topic"></a>Verwant onderwerp
+## <a name="related-article"></a>Gerelateerd artikel
 
 [Producten en productvarianten zoeken tijdens orderinvoer](search-products-product-variants.md)
 

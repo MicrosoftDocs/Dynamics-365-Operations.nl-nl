@@ -1,6 +1,6 @@
 ---
 title: Functionele locaties maken
-description: In dit onderwerp wordt uitgelegd hoe u een functionele locatie maakt in Activabeheer.
+description: In dit artikel wordt uitgelegd hoe u een functionele locatie maakt in Activabeheer.
 author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e5dd5ea59b27c594752ff82428723f3afe555b5f2426a812c70e10b968c920a5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 503150e7cfc580821c5ed8d4c4c9b56998f6ff13
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767527"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869715"
 ---
 # <a name="create-functional-locations"></a>Functionele locaties maken
 
@@ -28,7 +28,7 @@ ms.locfileid: "6767527"
 
  
 
-In dit onderwerp wordt uitgelegd hoe u een functionele locatie maakt in Activabeheer.
+In dit artikel wordt uitgelegd hoe u een functionele locatie maakt in Activabeheer.
 
 Wanneer u een functionele locatiestructuur maakt, moet u er rekening mee houden dat wanneer u een functionele locatie hebt gemaakt, u deze niet kunt verplaatsen vanaf de oorspronkelijke locatie. Dit betekent dat u de structuur van uw functionele locaties zorgvuldig moet overwegen voordat u begint met het maken hiervan in Activabeheer. Als u spijt hebt van een functionele locatie, kunt u deze verwijderen, op voorwaarde dat deze nog niet in gebruik is genomen.
 

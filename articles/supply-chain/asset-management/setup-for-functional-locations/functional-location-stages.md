@@ -1,6 +1,6 @@
 ---
 title: Levenscyclusstatussen van functionele locatie
-description: In dit onderwerp wordt beschreven hoe u statussen van functionele locaties en levenscyclusmodellen instelt in Activabeheer.
+description: In dit artikel wordt beschreven hoe u statussen van functionele locaties en levenscyclusmodellen instelt in Activabeheer.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a9893ad497bbe442d74f5212153fa466d2c85eb
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ae56c2b734339343b134be95abe0ce40b70c8a0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360965"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934658"
 ---
 # <a name="functional-location-lifecycle-states"></a>Levenscyclusstatussen van functionele locatie
 
@@ -28,7 +28,7 @@ ms.locfileid: "6360965"
 
  
 
-In dit onderwerp wordt beschreven hoe u levenscyclusstatussen van functionele locaties en levenscyclusmodellen instelt in Activabeheer. Levenscyclusstatussen van functionele locaties definiëren de statussen die een functionele locatie kan doorlopen, bijvoorbeeld gemaakt, actief en beëindigd. U kunt alle functionele locaties weergeven, ongeacht hun levenscyclusstatus, op de lijstpagina **Alle functionele locaties**. U kunt de status van een functionele locatie wijzigen door deze te selecteren op de lijstpagina **Alle functionele locaties** en **Status van functionele locatie bijwerken** te selecteren.
+In dit artikel wordt beschreven hoe u levenscyclusstatussen van functionele locaties en levenscyclusmodellen instelt in Activabeheer. Levenscyclusstatussen van functionele locaties definiëren de statussen die een functionele locatie kan doorlopen, bijvoorbeeld gemaakt, actief en beëindigd. U kunt alle functionele locaties weergeven, ongeacht hun levenscyclusstatus, op de lijstpagina **Alle functionele locaties**. U kunt de status van een functionele locatie wijzigen door deze te selecteren op de lijstpagina **Alle functionele locaties** en **Status van functionele locatie bijwerken** te selecteren.
 
 ## <a name="set-up-functional-location-lifecycle-states"></a>Levenscyclusstatussen van functionele locatie instellen
 
@@ -39,6 +39,7 @@ In dit onderwerp wordt beschreven hoe u levenscyclusstatussen van functionele lo
 5. Selecteer 'Ja' op de wisselknop **Activa maken** als het mogelijk moet zijn om automatisch een activum met dezelfde naam te maken als de functionele locatie en dit bij deze status te installeren op de functionele locatie.  
 >[!NOTE]
 >Deze wisselknop heeft betrekking op het veld **Activatype** op het sneltabblad **Algemeen** in het formulier **Typen functionele locatie** (**Activabeheer** > **Instellingen** > **Functionele locaties** > **Typen functionele locatie**).
+
 6. Selecteer 'Ja' op de wisselknop **Locatie hernoemen** als het mogelijk moet zijn om de naam van de functionele locatie bij deze status te wijzigen.
 7. Selecteer 'Ja' op de wisselknop **Nieuwe sublocaties** als het mogelijk moet zijn om nieuwe sublocaties toe te voegen aan de functionele locatie bij deze status.
 8. Selecteer 'Ja' op de wisselknop **Activa installeren** als het mogelijk moet zijn om activa te installeren op de functionele locatie bij deze status.

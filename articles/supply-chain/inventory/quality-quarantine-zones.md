@@ -1,6 +1,6 @@
 ---
 title: Quarantainezones voor niet-conformeringen
-description: In dit onderwerp wordt beschreven hoe u quarantainezones voor niet-conformeringen maakt en gebruikt.
+description: In dit artikel wordt beschreven hoe u quarantainezones voor niet-conformeringen maakt en gebruikt.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 207950a2ff4057853488f75d0e302a049d228b76
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2e556d2aa078a76ff4f81b6763535c38ce1cca0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578459"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857701"
 ---
 # <a name="quarantine-zones-for-nonconformances"></a>Quarantainezones voor niet-conformeringen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u quarantainezones voor niet-conformeringen maakt en gebruikt.
+In dit artikel wordt beschreven hoe u quarantainezones voor niet-conformeringen maakt en gebruikt.
 
 U kunt de pagina **Quarantainezones** gebruiken om zones te definiëren die kunnen worden toegewezen aan niet-conformeringen. Wanneer u een niet-conformering maakt, kunt u de velden **Quarantainezone** en **Quarantainetype** instellen op het tabblad **Algemeen** van de pagina **Niet-conformeringen**. Het veld **Quarantainezone** geeft gewoonlijk het gebied of de locatie aan waar het artikel zich bevindt. In het veld **Quarantainetype** wordt het artikel gedefinieerd als *Beperkt gebruik* of *Onbruikbaar*.
 

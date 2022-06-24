@@ -1,6 +1,6 @@
 ---
-title: Statussen en levenscyclus document
-description: In dit onderwerp worden de verschillende documentstatussen van pagina-elementen in Microsoft Dynamics 365 Commerce beschreven.
+title: Statussen en levenscyclus van document
+description: In dit artikel worden de verschillende documentstatussen van pagina-elementen in Microsoft Dynamics 365 Commerce beschreven.
 author: phinneyridge
 ms.date: 10/09/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ad8547fe6b36caf75ce78cb09fb2caf901c63afe43fa4755bb9e5c69427829d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04836ecf80fc86ab6abb96e4255779c8c03988d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727576"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909453"
 ---
 # <a name="document-states-and-lifecycle"></a>Statussen en levenscyclus van document
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp worden de verschillende documentstatussen van pagina-elementen in Microsoft Dynamics 365 Commerce beschreven.
+In dit artikel worden de verschillende documentstatussen van pagina-elementen in Microsoft Dynamics 365 Commerce beschreven.
 
 ## <a name="document-state-descriptions"></a>Omschrijvingen van documenstatus
 
-Het onderwerp [Pagina-elementen](page-elements-overview.md) geeft een overzicht van diverse documenttypen in het Content Management System (CMS). Deze documenttypen kunnen verschillende statussen hebben in het ontwerpprogramma. De documentstatussen helpen bij het voorkomen van gegevensconflicten en het afdwingen van versiebeheer. De status bepaalt wie de documenten kan wijzigen, wanneer de documenten kunnen worden gewijzigd en wanneer wijzigingen door anderen kunnen worden bekeken.
+Het artikel [Pagina-elementen](page-elements-overview.md) geeft een overzicht van diverse documenttypen in het Content Management System (CMS). Deze documenttypen kunnen verschillende statussen hebben in het ontwerpprogramma. De documentstatussen helpen bij het voorkomen van gegevensconflicten en het afdwingen van versiebeheer. De status bepaalt wie de documenten kan wijzigen, wanneer de documenten kunnen worden gewijzigd en wanneer wijzigingen door anderen kunnen worden bekeken.
 
 In de volgende tabel ziet u de mogelijke documentstatussen van pagina-elementen in Commerce.
 

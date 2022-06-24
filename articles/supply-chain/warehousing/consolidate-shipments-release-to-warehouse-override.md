@@ -1,6 +1,6 @@
 ---
 title: Zendingen consolideren wanneer het consolidatiebeleid voor zendingen wordt overschreven
-description: In dit onderwerp wordt een scenario weergegeven waarbij een of meer verkoopregels handmatig naar het magazijn moeten worden vrijgegeven via de pagina Vrijgave naar magazijn. Het door het systeem gedefinieerde consolidatiebeleid voor zendingen moet worden overschreven vóór de vrijgave.
+description: In dit artikel wordt een scenario weergegeven waarbij een of meer verkoopregels handmatig naar het magazijn moeten worden vrijgegeven via de pagina Vrijgave naar magazijn. Het door het systeem gedefinieerde consolidatiebeleid voor zendingen moet worden overschreven vóór de vrijgave.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 8b1c8ac41fe0941c9bbfce20ce593eafe5699ef1
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 680941adeba1fc1cd54a02fb366d3d5903938d77
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675454"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878695"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden"></a>Zendingen consolideren wanneer het consolidatiebeleid voor zendingen wordt overschreven
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt een scenario weergegeven waarbij een of meer verkoopregels handmatig naar het magazijn moeten worden vrijgegeven via de pagina **Vrijgave naar magazijn**. Het door het systeem gedefinieerde consolidatiebeleid voor zendingen moet worden overschreven vóór de vrijgave. Een overschrijving van het consolidatiebeleid voor zendingen kan vereist zijn als een order die doorgaans niet met openstaande zendingen wordt geconsolideerd, moet worden geconsolideerd met openstaande zendingen.
+In dit artikel wordt een scenario weergegeven waarbij een of meer verkoopregels handmatig naar het magazijn moeten worden vrijgegeven via de pagina **Vrijgave naar magazijn**. Het door het systeem gedefinieerde consolidatiebeleid voor zendingen moet worden overschreven vóór de vrijgave. Een overschrijving van het consolidatiebeleid voor zendingen kan vereist zijn als een order die doorgaans niet met openstaande zendingen wordt geconsolideerd, moet worden geconsolideerd met openstaande zendingen.
 
 In het scenario maakt u een set verkooporders en overschrijft u vervolgens het standaardbeleid voor consolidatie van zendingen voordat u de orders vrijgeeft naar het magazijn.
 
 ## <a name="make-demo-data-available"></a>Demogegevens beschikbaar maken
 
-Het scenario in dit onderwerp verwijst naar waarden en records die zijn opgenomen in de standaarddemogegevens die voor Microsoft Dynamics 365 Supply Chain Management worden geleverd. Als u de waarden wilt gebruiken die hier worden weergegeven in de oefeningen, moet u controleren of u werkt in een omgeving waarin de demogegevens zijn geïnstalleerd en stelt u de rechtspersoon in op **USMF** voordat u begint.
+Het scenario in dit artikel verwijst naar waarden en records die zijn opgenomen in de standaarddemogegevens die voor Microsoft Dynamics 365 Supply Chain Management worden geleverd. Als u de waarden wilt gebruiken die hier worden weergegeven in de oefeningen, moet u controleren of u werkt in een omgeving waarin de demogegevens zijn geïnstalleerd en stelt u de rechtspersoon in op **USMF** voordat u begint.
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>Consolidatiebeleid voor zendingen en productfilters instellen
 

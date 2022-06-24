@@ -1,6 +1,6 @@
 ---
 title: Overzichten maken, berekenen en boeken voor een detailhandelwinkel
-description: In dit onderwerp worden de handmatige stappen beschreven voor het maken, berekenen en boeken van een overzicht voor een winkel.
+description: In dit artikel worden de handmatige stappen beschreven voor het maken, berekenen en boeken van een overzicht voor een winkel.
 author: jashanno
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a3d82daed16c1b37d10653f04c1dc473cd5c5abc3a6443972da6e8ecf9820f1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 740857e6a902e21588855eef5e36cac68e560898
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719867"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873273"
 ---
 # <a name="create-calculate-and-post-statements-for-a-retail-store"></a>Overzichten maken, berekenen en boeken voor een detailhandelwinkel
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de handmatige stappen beschreven voor het maken, berekenen en boeken van een overzicht voor een winkel. Er zijn ook batchtaken die voor dezelfde taken kunnen worden geconfigureerd. De stappen voor het configureren en uitvoeren van de batchtaken kunnen in andere onderwerpen worden gevonden. Als u deze procedure wilt voltooien, moet u transacties hebben die in POS zijn voltooid en vervolgens in Dynamics 365 Commerce zijn opgehaald. Deze registratie gebruikt het demobedrijf USRT.
+In dit artikel worden de handmatige stappen beschreven voor het maken, berekenen en boeken van een overzicht voor een winkel. Er zijn ook batchtaken die voor dezelfde taken kunnen worden geconfigureerd. De stappen voor het configureren en uitvoeren van de batchtaken kunnen in andere artikelen worden gevonden. Als u deze procedure wilt voltooien, moet u transacties hebben die in POS zijn voltooid en vervolgens in Dynamics 365 Commerce zijn opgehaald. Deze registratie gebruikt het demobedrijf USRT.
 
 1. Selecteer **Financiën van winkel** op de startpagina.
 2. Selecteer **Nieuw overzicht**.

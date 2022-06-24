@@ -1,6 +1,6 @@
 ---
-title: De uitvoeringsinterface voor de werkvloer vormgeven
-description: In dit onderwerp wordt uitgelegd hoe u formulierbesturingselementen configureert zodat de standaardstijlen voor de uitvoering op de werkvloer worden toegepast.
+title: De uitvoeringsinterface voor de werkvloer ontwerpen
+description: In dit artikel wordt uitgelegd hoe u formulierbesturingselementen configureert zodat de standaardstijlen voor de uitvoering op de werkvloer worden toegepast.
 author: johanhoffmann
 ms.date: 11/08/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ef39dc6414f0afdadd4a4b5a41e1fb1fe60e4974
-ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
+ms.openlocfilehash: ad6ecd591353fe8ddc1a5b9049d65491fb58e98a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7790885"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859135"
 ---
-# <a name="style-the-production-floor-execution-interface"></a>De uitvoeringsinterface voor de werkvloer vormgeven
+# <a name="style-the-production-floor-execution-interface"></a>De uitvoeringsinterface voor de werkvloer ontwerpen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u formulierbesturingselementen configureert zodat de standaardstijlen voor de uitvoering op de werkvloer worden toegepast.
+In dit artikel wordt uitgelegd hoe u formulierbesturingselementen configureert zodat de standaardstijlen voor de uitvoering op de werkvloer worden toegepast.
 
 ## <a name="forms-and-dialogs"></a>Formulieren en dialoogvensters
 
@@ -31,7 +31,7 @@ Stijlen kunnen alleen op een formulier of dialoogvenster worden toegepast als aa
 - Als het formulier op het bestaande formulier voor voortgangsrapportage moet lijken, moet de naam van uw formulier of dialoogvenster beginnen met `JmgProductionFloorExecutionCustomInputDialog`.
 - Het formulier of dialoogvenster kan een detailformuliergedeelte bevatten. Als u er stijlen op wilt toepassen, moet de naam van het detailformuliergedeelte beginnen met `JmgProductionFloorExecutionCustomDetailsDialog`.
 - Als het formulier of dialoogvenster een eenvoudige weergave moet hebben, moet de naam van de eenvoudige weergave beginnen met `JmgProductionFloorExecutionCustomDialog`. Voorbeelden van formulieren met een eenvoudige weergave zijn het beginformulier en het indirecte-activiteitenformulier.
-- Alle besturingselementen in het dialoogvenster moeten worden geconfigureerd zoals beschreven in dit onderwerp.
+- Alle besturingselementen in het dialoogvenster moeten worden geconfigureerd zoals beschreven in dit artikel.
 
 > [!IMPORTANT]
 > Voor de functies die in de eerste twee punt van deze lijst worden genoemd, is Supply Chain Management versie 10.0.19 of hoger nodig.

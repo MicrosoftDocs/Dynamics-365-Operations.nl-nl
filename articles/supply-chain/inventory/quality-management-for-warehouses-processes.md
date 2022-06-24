@@ -1,6 +1,6 @@
 ---
 title: Kwaliteitsbeheer voor magazijnprocessen
-description: Dit onderwerp biedt informatie over de functie Kwaliteitsbeheer voor magazijnprocessen. Met deze functie worden de mogelijkheden van kwaliteitsbeheer uitgebreid en kunnen gebruikers besturingselementen voor artikelbemonstering integreren in het ontvangstproces van het magazijn via geavanceerd magazijnbeheer.
+description: Dit artikel biedt informatie over de functie Kwaliteitsbeheer voor magazijnprocessen. Met deze functie worden de mogelijkheden van kwaliteitsbeheer uitgebreid en kunnen gebruikers besturingselementen voor artikelbemonstering integreren in het ontvangstproces van het magazijn via geavanceerd magazijnbeheer.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: a8a7ac8266c14791137f9eda51b5abb5a59e5961
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 7f806b58c5e956e4f26158e8ea5c90a559296655
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679046"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857832"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Kwaliteitsbeheer voor magazijnprocessen
 
@@ -69,7 +69,7 @@ Voordat magazijnwerk automatisch kan worden gegenereerd om de voorraad naar kwal
 1. Stel voor elk werkordertype locatie-instructies in met de juiste locaties voor kwaliteitscontrole waarnaar de voorraad moet worden verplaatst. Nadat de kwaliteitscontrole is voltooid, zorgt de locatierichtlijn voor het werkordertype _Kwaliteitsorder_ ervoor dat een nieuwe doellocatie wordt geselecteerd, zodat de voorraad kan worden verplaatst uit de locatie van de kwaliteitscontrole.
 1. Stel de relevante menuopties voor het mobiele apparaat in voor het ondersteunen van de verplaatsing van de ontvangen voorraad naar de kwaliteitscontrolelocatie en voor de verplaatsing naar een nieuwe locatie van voorraad die voor de kwaliteitscontrole slaagt of niet.
 
-Zie het [voorbeeldscenario](#example-scenario) aan het einde van dit onderwerp voor een stapsgewijs voorbeeld waarin wordt beschreven hoe u deze instellingen voltooit.
+Zie het [voorbeeldscenario](#example-scenario) aan het einde van dit artikel voor een stapsgewijs voorbeeld waarin wordt beschreven hoe u deze instellingen voltooit.
 
 ## <a name="enable-a-warehouse-for-quality-management"></a>Een magazijn inschakelen voor kwaliteitsbeheer
 
@@ -188,7 +188,7 @@ De waarde voor **Verwijzingstype** voor de volgende voorbeelden is _Inkoop_ en d
 | Inlezen | Volledige nummerplaat | Ja _(vergrendeld/niet bewerkbaar)_ | <p>Locatie: Ja</p><p>Nummerplaat: Ja _(vergrendeld/niet bewerkbaar)_</p> | Ja | 3 | <p>**Twee artikelen:**</p><ul><li>**Hoeveelheid voor orderregel voor artikel A: 120 EA (4 pallets)**</li><li>**Hoeveelheid voor orderregel voor artikel B: 90 EA (3 pallets)**</li></ul><p>**Eén lading, twee ladingsregels met elke orderregel**</p><ol><li>Registreer de ontvangst in de mobiele app Magazijnbeheer voor artikel A, 30 EA, LP1<p>Bemonsteringswerk van kwaliteitsartikel voor 30 EA</p><p>Kwaliteitsorder 1 voor 30 EA</p></li><li>Registreer de ontvangst in de mobiele app Magazijnbeheer voor artikel A, 30 EA, LP2<p>Inkooporderwerk voor 30 EA (opslag)</p></li><li>Registreer de ontvangst in de mobiele app Magazijnbeheer voor artikel A, 30 EA, LP3<p>Inkooporderwerk voor 30 EA (opslag)</p></li><li>Registreer de ontvangst in de mobiele app Magazijnbeheer voor artikel A, 30 EA, LP4<p>Bemonsteringswerk van kwaliteitsartikel voor 30 EA</p><p>Kwaliteitsorder 1 voor 30 EA</p></li><li>Registreer de ontvangst in de mobiele app Magazijnbeheer voor artikel B, 30 EA, LP5<p>Bemonsteringswerk van kwaliteitsartikel voor 30 EA</p><p>Kwaliteitsorder 1 voor 30 EA</p></li><li>Registreer de ontvangst in de mobiele app Magazijnbeheer voor artikel B, 30 EA, LP6<p>Inkooporderwerk voor 30 EA (opslag)</p></li><li>Registreer de ontvangst in de mobiele app Magazijnbeheer voor artikel A, 30 EA, LP7<p>Inkooporderwerk voor 30 EA (opslag)</p></li></ol> |
 | Inlezen | Procent = 10 | Ja _(vergrendeld/niet bewerkbaar)_ | <p>Locatie: Nee</p><p>Nummerplaat: Nee</p> | Nee | Niet van toepassing | <p>**Hoeveelheid orderregel: 100 EA**</p><p>**Er worden geen ladingen gemaakt. Orderbereik wordt toegepast.**</p><ol><li>Registreer de ontvangst in de mobiele app Magazijnbeheer voor 50 EA, LP1<p>Bemonsteringswerk van kwaliteitsartikel voor 5 EA</p><p>Kwaliteitsorder 1 voor 5 EA</p><p>Inkooporderwerk voor 45 EA (opslag)</p></li><li>Registreer de ontvangst in de mobiele app Magazijnbeheer voor 50 EA, LP2<p>Bemonsteringswerk van kwaliteitsartikel voor 5 EA</p><p>Kwaliteitsorder 1 voor 5 EA</p><p>Inkooporderwerk voor 45 EA (opslag)</p></li></ol> |
 
-Wanneer een werknemer een van de kwaliteitsorders valideert die in de vorige tabel worden weergegeven, wordt door het systeem automatisch een kwaliteitsorder gegenereerd om de voorraad van de kwaliteitscontrolelocatie naar de locatie te verplaatsen die is gedefinieerd in de locatierichtlijn voor het werkordertype voor de _Kwaliteitsorder_. U kunt een locatie voor dit doel instellen, zoals een retour- of opslaglocatie, afhankelijk van het testresultaat voor de kwaliteitsorder. Zie het [voorbeeldscenario](#example-scenario) aan het einde van dit onderwerp voor een voorbeeld van deze instelling.
+Wanneer een werknemer een van de kwaliteitsorders valideert die in de vorige tabel worden weergegeven, wordt door het systeem automatisch een kwaliteitsorder gegenereerd om de voorraad van de kwaliteitscontrolelocatie naar de locatie te verplaatsen die is gedefinieerd in de locatierichtlijn voor het werkordertype voor de _Kwaliteitsorder_. U kunt een locatie voor dit doel instellen, zoals een retour- of opslaglocatie, afhankelijk van het testresultaat voor de kwaliteitsorder. Zie het [voorbeeldscenario](#example-scenario) aan het einde van dit artikel voor een voorbeeld van deze instelling.
 
 U kunt een kwaliteitsorder die al is gevalideerd opnieuw openen, mits voor de kwaliteitsorder die is gekoppeld aan het verplaatsen van de voorraad vanuit de locatie van de kwaliteitscontrole, de **Werkstatus** niet de waarde *Gesloten* of *In uitvoering* heeft.
 

@@ -1,6 +1,6 @@
 ---
 title: Een streepjescode voor een product maken
-description: In dit onderwerp ziet u hoe u handmatig een streepjescode maakt met als voorbeeld het artikelnummer M0001.
+description: In dit artikel ziet u hoe u handmatig een streepjescode maakt met als voorbeeld het artikelnummer M0001.
 author: t-benebo
 ms.date: 07/08/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcdf062ed14cc4cf395de006d55aba3dc2a94bae
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0e368c1483970e3aa12d1150db8c046908b64d98
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577355"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900907"
 ---
 # <a name="create-a-bar-code-for-a-product"></a>Een streepjescode voor een product maken
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp ziet u hoe u handmatig een streepjescode maakt met als voorbeeld het artikelnummer M0001. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
+In dit artikel ziet u hoe u handmatig een streepjescode maakt met als voorbeeld het artikelnummer M0001. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 
 1. Ga naar **Productgegevensbeheer \> Producten \> Vrijgegeven producten**.
 1. Zoek en selecteer de gewenste record in de lijst. Selecteer voor dit voorbeeld **M0001**.

@@ -1,6 +1,6 @@
 ---
 title: Organisatiehiërarchieën instellen
-description: In dit onderwerp wordt beschreven hoe u organisatiehiërarchieën instelt in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt beschreven hoe u organisatiehiërarchieën instelt in Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ce0732f32a9a80fc5b0ede7ae9f1c1ab9a68a89b2fb0b1821cb5df123ca5ca4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01ba05566e966eb62a4df0b7b97ee3a442027936
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746011"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847675"
 ---
 # <a name="set-up-organization-hierarchies"></a>Organisatiehiërarchieën instellen
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u organisatiehiërarchieën instelt in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt beschreven hoe u organisatiehiërarchieën instelt in Microsoft Dynamics 365 Commerce.
 
 Voordat u kanalen gaat maken, moet u controleren of uw organisatiehiërarchieën zijn ingesteld.
 
@@ -34,7 +34,7 @@ Met organisatiehiërarchieën kunt u vanuit verschillende gezichtspunten kijken 
 Voordat u een organisatiehiërarchie maakt, moet u organisaties maken. Zie voor meer informatie [Rechtspersonen maken](channels-legal-entities.md) of [Operationele eenheden maken](../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/commerce/toc.json).
 
 
-Zie de volgende onderwerpen voor meer informatie.
+Zie de volgende artikelen voor meer informatie.
 - [Overzicht van Organisaties en organisatiehiërarchieën](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 - [Uw organisatiehiërarchie plannen](../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json)
 - [Een organisatiehiërarchie maken](../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/commerce/toc.json)

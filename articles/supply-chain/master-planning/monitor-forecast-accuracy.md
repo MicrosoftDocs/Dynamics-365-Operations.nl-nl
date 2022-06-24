@@ -1,6 +1,6 @@
 ---
-title: Prognosenauwkeurigheid controleren
-description: In dit onderwerp worden de typen prognosenauwkeurigheid beschreven die Dynamics 365 Supply Chain Management berekent en wordt uitgelegd hoe u de nauwkeurigheidswaarden kunt weergeven.
+title: Nauwkeurigheid van de vraagprognose bewaken
+description: In dit artikel worden de typen prognosenauwkeurigheid beschreven die Dynamics 365 Supply Chain Management berekent en wordt uitgelegd hoe u de nauwkeurigheidswaarden kunt weergeven.
 author: t-benebo
 ms.date: 01/07/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14d23ae800240ebb10ae085acf3ed981a22f1574
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: ebde5ab90b9345b3d6f28ea98650b3b29021c304
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470284"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893347"
 ---
-# <a name="monitor-forecast-accuracy"></a>Prognosenauwkeurigheid controleren
+# <a name="monitor-forecast-accuracy"></a>Nauwkeurigheid van de vraagprognose bewaken
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de typen prognosenauwkeurigheid beschreven die Microsoft Dynamics 365 Supply Chain Management berekent en wordt uitgelegd hoe u de nauwkeurigheidswaarden kunt weergeven.
+In dit artikel worden de typen prognosenauwkeurigheid beschreven die Microsoft Dynamics 365 Supply Chain Management berekent en wordt uitgelegd hoe u de nauwkeurigheidswaarden kunt weergeven.
 
 Supply Chain Management berekent de volgende typen prognosenauwkeurigheid:
 

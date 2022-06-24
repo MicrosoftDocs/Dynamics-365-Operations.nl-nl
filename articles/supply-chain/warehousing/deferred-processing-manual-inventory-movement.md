@@ -1,6 +1,6 @@
 ---
 title: Uitgestelde verwerking van handmatige voorraadmutaties
-description: In dit onderwerp wordt beschreven hoe u uitgestelde verwerking van handmatige voorraadmutaties in Microsoft Dynamics 365 Supply Chain Management gebruikt.
+description: In dit artikel wordt beschreven hoe u uitgestelde verwerking van handmatige voorraadmutaties in Microsoft Dynamics 365 Supply Chain Management gebruikt.
 author: Mirzaab
 ms.date: 04/27/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c2e7296d77332b665e5d618d39804216f4347ca2
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5e5d0a93a4c628d4867161d082b0f0e177ddb95c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670463"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863732"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Uitgestelde verwerking van handmatige voorraadmutaties
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u uitgestelde verwerking van handmatige voorraadmutaties in Microsoft Dynamics 365 Supply Chain Management gebruikt.
+In dit artikel wordt beschreven hoe u uitgestelde verwerking van handmatige voorraadmutaties in Microsoft Dynamics 365 Supply Chain Management gebruikt.
 
 Met uitgestelde verwerking kunnen magazijnmedewerkers doorgaan met ander werk terwijl de wegzetbewerking op de achtergrond wordt verwerkt. Uitgestelde verwerking is ook handig wanneer de server incidentele of niet-geplande verhogingen in verwerkingstijd kan hebben, en de toegenomen verwerkingstijd kan invloed hebben op de productiviteit van de medewerkers. Het werktype *Voorraadmutatie* is nu toegevoegd aan de set werktypen die deze functie ondersteunt.
 

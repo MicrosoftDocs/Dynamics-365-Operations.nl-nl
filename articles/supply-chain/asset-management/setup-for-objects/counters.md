@@ -1,6 +1,6 @@
 ---
 title: Activummetingen
-description: In dit onderwerp wordt uitgelegd hoe u metingtypen voor activa maakt in Activabeheer.
+description: In dit artikel wordt uitgelegd hoe u metingtypen voor activa maakt in Activabeheer.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc515615afaa172e1832508d79e202b166f134a9171a0a35ea4f372f9d19b7e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1bcef89265697c1898b7d61a0b0ae6331ce1c851
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723570"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909667"
 ---
 # <a name="counters"></a>Tellers
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u tellertypen maakt in Activabeheer. Tellertypen worden gebruikt om tellerregistraties te maken voor activa, bijvoorbeeld met betrekking tot het aantal productie-uren of de hoeveelheid die op het activum wordt geproduceerd. De activatypen zijn gerelateerd aan de tellertypen. Dit betekent dat een teller alleen voor een activum kan worden gebruikt als de teller is ingesteld voor het activumtype dat met het activum wordt gebruikt.
+In dit artikel wordt uitgelegd hoe u tellertypen maakt in Activabeheer. Tellertypen worden gebruikt om tellerregistraties te maken voor activa, bijvoorbeeld met betrekking tot het aantal productie-uren of de hoeveelheid die op het activum wordt geproduceerd. De activatypen zijn gerelateerd aan de tellertypen. Dit betekent dat een teller alleen voor een activum kan worden gebruikt als de teller is ingesteld voor het activumtype dat met het activum wordt gebruikt.
 
 Voordat u tellerregistraties voor activa kunt maken, maakt u in **Tellers** eerst de tellertypen die u wilt gebruiken. Vervolgens kunt u tellerregistraties voor activa maken in **Tellers**. 
 

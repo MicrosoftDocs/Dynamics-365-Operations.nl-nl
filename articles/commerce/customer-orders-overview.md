@@ -1,6 +1,6 @@
 ---
 title: Klantorders in POS (Point of Sale)
-description: Dit onderwerp bevat informatie over klantorders in POS (Point of Sale). Klantorders worden ook wel speciale orders genoemd. In dit onderwerp worden de gerelateerde parameters en transactiestromen besproken.
+description: Dit artikel bevat informatie over klantorders in POS (Point of Sale). Klantorders worden ook wel speciale orders genoemd. In dit artikel worden de gerelateerde parameters en transactiestromen besproken.
 author: josaw1
 ms.date: 08/02/2021
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9ebdad47d761f775cf26666dc3e2736818fb4832
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 6051e0a18823b354dd9940aac70a086a0f317002
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982813"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850377"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Klantorders in POS (Point of Sale)
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp bevat informatie over het maken en beheren van klantorders in de POS-app (Point of Sale). Klantorders kunnen worden gebruikt om verkopen te registreren waarbij kopers op een latere datum producten willen ophalen, producten op een andere locatie willen ophalen of artikelen willen laten verzenden. 
+Dit artikel bevat informatie over het maken en beheren van klantorders in de POS-app (Point of Sale). Klantorders kunnen worden gebruikt om verkopen te registreren waarbij kopers op een latere datum producten willen ophalen, producten op een andere locatie willen ophalen of artikelen willen laten verzenden. 
 
 Veel detailhandelaren bieden de optie van klantorders, oftewel speciale orders, om aan verschillende product- en afhandelingsbehoeften te voldoen. Hierna vindt u enkele typische scenario's:
 

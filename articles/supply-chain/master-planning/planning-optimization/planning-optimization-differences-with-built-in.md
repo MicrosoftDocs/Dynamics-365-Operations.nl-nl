@@ -1,6 +1,6 @@
 ---
 title: Verschillen tussen ingebouwde hoofdplanning en Planningsoptimalisatie
-description: In dit onderwerp worden functies weergegeven die nog niet worden ondersteund door Planningsoptimalisatie en die niet worden weergegeven op de pagina voor het aanpassen van de analyse aan Planningsoptimalisatie.
+description: In dit artikel worden functies weergegeven die nog niet worden ondersteund door Planningsoptimalisatie en die niet worden weergegeven op de pagina voor het aanpassen van de analyse aan Planningsoptimalisatie.
 author: t-benebo
 ms.date: 07/30/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c73587015d6714c409819ab19ad68685aaa71cf7
-ms.sourcegitcommit: 70289a33b0a6ff3f9418d91a928db452cfd815bd
+ms.openlocfilehash: cf39166dce860dbd796cb4749175628252ed96ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "8618255"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897569"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Verschillen tussen ingebouwde hoofdplanning en Planningsoptimalisatie
 
 [!include [banner](../../includes/banner.md)]
 
-De resultaten van de Planningsoptimalisatie kunnen afwijken van de resultaten van de ingebouwde hoofdplannings-engine. De verschillen kunnen worden veroorzaakt door functies die in behandeling zijn. In dit onderwerp worden functies weergegeven die nog niet worden ondersteund door Planningsoptimalisatie en die niet worden weergegeven op de pagina **[Analyse aanpassen aan Planningsoptimalisatie](planning-optimization-fit-analysis.md)**.
+De resultaten van de Planningsoptimalisatie kunnen afwijken van de resultaten van de ingebouwde hoofdplannings-engine. De verschillen kunnen worden veroorzaakt door functies die in behandeling zijn. In dit artikel worden functies weergegeven die nog niet worden ondersteund door Planningsoptimalisatie en die niet worden weergegeven op de pagina **[Analyse aanpassen aan Planningsoptimalisatie](planning-optimization-fit-analysis.md)**.
 
 | Functie | Huidig gedrag in planningsoptimalisatie |
 |---|---|

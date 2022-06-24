@@ -1,6 +1,6 @@
 ---
-title: Inkomende voorraadbewerking in POS
-description: In dit onderwerp worden de mogelijkheden van inkomende voorraadbewerking van het verkooppunt (POS) beschreven.
+title: Binnenkomende voorraadbewerking in POS
+description: In dit artikel worden de mogelijkheden van inkomende voorraadbewerking van het verkooppunt (POS) beschreven.
 author: hhaines
 ms.date: 09/17/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 8848c10e9f8f931ee66414075d28b8910a02e5a000525a63bc38ab6851f11276
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fbabcaafee74b4d0a1ca8ef79de94376a7764aa3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741777"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858877"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Binnenkomende voorraadbewerking in POS
 
@@ -215,7 +215,7 @@ Nadat het conceptdocument is ingediend bij Commerce Headquarters, wordt het weer
 
 Nadat het document de status **Aangevraagd** heeft gekregen, wordt het weergegeven op het tabblad **Actief**. Het kan echter nog niet worden ontvangen door de inkomende winkel of het inkomende magazijn. Nadat het uitgaande magazijn de overboekingsorder geheel of gedeeltelijk heeft verzonden, kan de inkomende winkel of het inkomende magazijn ontvangsten in POS boeken. Wanneer de overboekingsorderdocumenten worden verwerkt door de uitgaande zijde, wordt hun status bijgewerkt van **Aangevraagd** naar **Verzonden** of **Gedeeltelijk verzonden**. Nadat de documenten de status **Verzonden** of **Gedeeltelijk verzonden** hebben gekregen, kan de inkomende winkel of het inkomende magazijn ontvangsten met deze documenten boeken door middel van het ontvangstproces voor inkomende bewerking.
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-articles"></a>Gerelateerde artikelen
 
 [Uitgaande voorraadbewerking in POS](pos-outbound-inventory-operation.md)
 

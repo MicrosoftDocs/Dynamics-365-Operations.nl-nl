@@ -1,6 +1,6 @@
 ---
 title: e-Commerce-gebruikers en -rollen beheren
-description: In dit onderwerp wordt uitgelegd hoe u gebruikerstoegang verleent voor de ontwerpomgeving voor uw Microsoft Dynamics 365 Commerce-site.
+description: In dit artikel wordt uitgelegd hoe u gebruikerstoegang verleent voor de ontwerpomgeving voor uw Microsoft Dynamics 365 Commerce-site.
 author: bicyclingfool
 ms.date: 10/01/2019
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ff0d3e607eb905eb9264bbb9ba151fbd527a81a2c72252252f2a45edc201e1b4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ac4342e4439db229997d9d4a0ad32f3664a795b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715401"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868956"
 ---
 # <a name="manage-e-commerce-users-and-roles"></a>e-Commerce-gebruikers en -rollen beheren
 
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u gebruikerstoegang verleent voor de ontwerpomgeving voor uw Microsoft Dynamics 365 Commerce-site.
+In dit artikel wordt uitgelegd hoe u gebruikerstoegang verleent voor de ontwerpomgeving voor uw Microsoft Dynamics 365 Commerce-site.
 
 De ontwerpomgeving voor websites maakt gebruik van beveiligingsgroepen die u maakt in Microsoft Azure Active Directory (Azure AD) om gebruikerstoegang te beheren en aan gebruikers toestemming te verlenen om specifieke taken uit te voeren. U wijst eerst een nieuwe of bestaande beveiligingsgroep uit Azure AD toe aan elke rol in de ontwerpomgeving. Vervolgens kunt u machtigingen verlenen of intrekken voor afzonderlijke gebruikers door deze gebruikers aan een geschikte beveiligingsgroep toe te voegen of ze uit een beveiligingsgroep te verwijderen.
 
@@ -50,7 +50,7 @@ Wanneer u Dynamics 365 Commerce inricht in de Microsoft Dynamics Lifecycle Servi
 
 ## <a name="administrator-role"></a>Beheerdersrol
 
-Wanneer u een nieuwe site maakt in Commerce, wordt u gevraagd een beveiligingsgroep voor de rol **Beheerder** op te geven. Zie de tabel eerder in dit onderwerp voor een overzicht van de machtigingen die door deze rol worden verleend.
+Wanneer u een nieuwe site maakt in Commerce, wordt u gevraagd een beveiligingsgroep voor de rol **Beheerder** op te geven. Zie de tabel eerder in dit artikel voor een overzicht van de machtigingen die door deze rol worden verleend.
 
 ## <a name="add-or-update-security-groups"></a>Beveiligingsgroepen toevoegen of bijwerken
 

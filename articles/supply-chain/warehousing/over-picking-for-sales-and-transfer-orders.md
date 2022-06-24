@@ -1,6 +1,6 @@
 ---
 title: Oververzamelen voor verkooporders en overboekingsorders
-description: In dit onderwerp wordt uitgelegd hoe u meer- of oververzameling van orders voor verkoop- en overboekingsorders kunt inschakelen.
+description: In dit artikel wordt uitgelegd hoe u meer- of oververzameling van orders voor verkoop- en overboekingsorders kunt inschakelen.
 author: GalynaFedorova
 ms.date: 07/06/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-07-06
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 52a4225efa88a7b9303dd611d5652f59da1612a4
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b8bbc7d532f910edfb442831d6c906f253dee06c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678403"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897279"
 ---
 # <a name="over-picking-for-sales-orders-and-transfer-orders"></a>Oververzamelen voor verkooporders en overboekingsorders
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp geeft een scenario weer dat laat zien hoe u een bepaalde werknemer of alle werknemers meer kunt laten verzamelen. Met het meerverzamelingsproces kunnen op gecontroleerde wijze meerdere artikelen worden verzameld tijdens het verzamelen.
+Dit artikel geeft een scenario weer dat laat zien hoe u een bepaalde werknemer of alle werknemers meer kunt laten verzamelen. Met het meerverzamelingsproces kunnen op gecontroleerde wijze meerdere artikelen worden verzameld tijdens het verzamelen.
 
 Meerverzamelen in magazijnen is een eenvoudig concept. Werknemers kunnen door het systeem meer artikelen verzamelen dan voor een order zijn opgegeven. Er wordt echter nog steeds rekening gehouden met de meerleveringslimiet die is ingesteld op het regelniveau voor de overboekings- of verkooporder. Als die limiet wordt overschreden, meldt de Warehouse Management-app aan de medewerkers dat ze de meerleveringslimiet overschrijden.
 
@@ -41,11 +41,11 @@ De functie voor het meerverzamelen van artikelen kan werknemers helpen tijd en m
 > [!IMPORTANT]
 > De functie voor oververzamelen is alleen van toepassing op het verzamelen en verwerken van verkooporders en overboekingsorders. Aanvulling biedt geen ondersteuning voor te oververzamelen. Wanneer aanvullingswerkzaamheden worden uitgevoerd, mogen gebruikers niet oververzamelen.
 
-Dit onderwerp bespreekt een scenario waarin wordt uitgelegd hoe de functie voor oververzamelen wordt ingesteld en gebruikt.
+Dit artikel bespreekt een scenario waarin wordt uitgelegd hoe de functie voor oververzamelen wordt ingesteld en gebruikt.
 
 ## <a name="scenario-prerequisite-make-demo-data-available"></a>Vereiste voor scenario: demonstratiegegevens beschikbaar maken
 
-Het scenario in dit onderwerp verwijst naar waarden en records die zijn opgenomen in de standaarddemogegevens die voor Microsoft Dynamics 365 Supply Chain Management worden geleverd. Als u de waarden wilt gebruiken die hier worden weergegeven in de oefeningen, moet u controleren of u werkt in een omgeving waarin de demogegevens zijn geïnstalleerd en stelt u de rechtspersoon in op *USMF* voordat u begint.
+Het scenario in dit artikel verwijst naar waarden en records die zijn opgenomen in de standaarddemogegevens die voor Microsoft Dynamics 365 Supply Chain Management worden geleverd. Als u de waarden wilt gebruiken die hier worden weergegeven in de oefeningen, moet u controleren of u werkt in een omgeving waarin de demogegevens zijn geïnstalleerd en stelt u de rechtspersoon in op *USMF* voordat u begint.
 
 ## <a name="scenario-setup"></a>Scenario instellen
 

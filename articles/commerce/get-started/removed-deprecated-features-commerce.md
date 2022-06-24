@@ -1,6 +1,6 @@
 ---
 title: Verwijderde of afgeschafte functies in Dynamics 365 Commerce
-description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering uit Dynamics 365 Commerce.
+description: In dit artikel worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering uit Dynamics 365 Commerce.
 author: josaw
 ms.date: 04/27/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 213ed2091b1f2359f2481b162cba07812b3ffe90
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 2725ff2b8bfbaadbca1bc070e32cee7c5d2754be
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649070"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910519"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Verwijderde of afgeschafte functies in Dynamics 365 Commerce
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering uit Dynamics 365 Commerce.
+In dit artikel worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering uit Dynamics 365 Commerce.
 
 - Een *verwijderde* functie is niet langer beschikbaar in het product.
 - Een *afgeschafte* functie wordt niet meer actief ontwikkeld en kan in een toekomstige update worden verwijderd.

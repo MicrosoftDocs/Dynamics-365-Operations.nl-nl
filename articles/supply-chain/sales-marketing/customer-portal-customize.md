@@ -1,6 +1,6 @@
 ---
 title: De klantportal aanpassen en gebruiken
-description: In dit onderwerp wordt uitgelegd hoe u de klantportal aanpast nadat deze aan uw systeem is toegevoegd.
+description: In dit artikel wordt uitgelegd hoe u de klantportal aanpast nadat deze aan uw systeem is toegevoegd.
 author: Henrikan
 ms.date: 04/22/2020
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 02ad0470b7886b2e9b259682a7f8c8150d656cfb
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 85ec4beda2efe62ff5076a5ed694efbc47c6d87f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063488"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878869"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>De klantportal aanpassen en gebruiken
 
 [!include [banner](../includes/banner.md)]
 
 
-In dit onderwerp worden de verschillende pagina's beschreven die standaard beschikbaar zijn in de klantportal. Hierin wordt uitgelegd wat u met de pagina's kunt doen en hoe u deze kunt aanpassen.
+In dit artikel worden de verschillende pagina's beschreven die standaard beschikbaar zijn in de klantportal. Hierin wordt uitgelegd wat u met de pagina's kunt doen en hoe u deze kunt aanpassen.
 
 De klantportal bevat een paar webpagina's en standaard acties. Het volgende siteoverzicht bevat die webpagina's en acties, en de rollen waarmee de acties kunnen worden uitgevoerd.
 
@@ -32,16 +32,16 @@ De klantportal bevat een paar webpagina's en standaard acties. Het volgende site
 
 ## <a name="typical-customizations"></a>Standaard aanpassingen
 
-In de volgende onderwerpen vindt u informatie over Power Apps-portals en hoe u portals kunt aanpassen:
+In de volgende artikelen vindt u informatie over Power Apps-portals en hoe u portals kunt aanpassen:
 
-- [Werken met sjablonen](/powerapps/maker/portals/work-with-templates): dit onderwerp biedt een algemeen overzicht van de werking van Power Apps-portals en over hoe u portals eenvoudig kunt aanpassen.
-- [Portalinhoud beheren](/dynamics365/portals/manage-portal-content): in dit onderwerp wordt uitgelegd hoe u de inhoud die u in uw portal opneemt, kunt beheren en aanpassen.
+- [Werken met sjablonen](/powerapps/maker/portals/work-with-templates): dit artikel biedt een algemeen overzicht van de werking van Power Apps-portals en over hoe u portals eenvoudig kunt aanpassen.
+- [Portalinhoud beheren](/dynamics365/portals/manage-portal-content): in dit artikel wordt uitgelegd hoe u de inhoud die u in uw portal opneemt, kunt beheren en aanpassen.
 - [CSS bewerken](/powerapps/maker/portals/edit-css): hier vindt u informatie over het aanbrengen van meer complexe aanpassingen in de gebruikersinterface van uw portal.
 - [Een thema maken voor uw portal](/dynamics365/portals/create-theme): hier vindt u informatie over het maken van een UI-thema voor uw portal.
 - [De portalinhoud eenvoudig maken en publiceren](/dynamics365/portals/create-expose-portal-content): hier vindt u informatie over het beheren van de onderliggende gegevens en tabellen die u gebruikt voor uw portal.
-- [Een contactpersoon configureren voor gebruik in een portal](/powerapps/maker/portals/configure/configure-contacts): in dit onderwerp wordt uitgelegd hoe u gebruikersrollen maakt en aanpast, en hoe beveiliging en verificatie in Power Apps-portals worden uitgevoerd.
-- [Notities voor tabelformulieren en webformulieren configureren in portals](/powerapps/maker/portals/configure-notes): in dit onderwerp wordt uitgelegd hoe u documenten en extra opslagruimte aan uw portal toevoegt.
-- [Foutafhandeling voor portalwebsite](/powerapps/maker/portals/admin/view-portal-error-log): in dit onderwerp wordt uitgelegd hoe u foutlogboeken voor portals kunt weergeven en in uw Microsoft Azure-blobopslagaccount kunt opslaan.
+- [Een contactpersoon configureren voor gebruik in een portal](/powerapps/maker/portals/configure/configure-contacts): in dit artikel wordt uitgelegd hoe u gebruikersrollen maakt en aanpast, en hoe beveiliging en verificatie in Power Apps-portals worden uitgevoerd.
+- [Notities voor tabelformulieren en webformulieren configureren in portals](/powerapps/maker/portals/configure-notes): in dit artikel wordt uitgelegd hoe u documenten en extra opslagruimte aan uw portal toevoegt.
+- [Foutafhandeling voor portalwebsite](/powerapps/maker/portals/admin/view-portal-error-log): in dit artikel wordt uitgelegd hoe u foutlogboeken voor portals kunt weergeven en in uw Microsoft Azure-blobopslagaccount kunt opslaan.
 
 ## <a name="customize-the-order-creation-process"></a>Het proces voor het maken van orders aanpassen
 

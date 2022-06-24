@@ -1,6 +1,6 @@
 ---
 title: Leverancierssamenwerking met klanten
-description: In dit onderwerp wordt beschreven hoe u leverancierssamenwerking kunt gebruiken om met inkooporders te werken en consignatievoorraad te bewaken.
+description: In dit artikel wordt beschreven hoe u leverancierssamenwerking kunt gebruiken om met inkooporders te werken en consignatievoorraad te bewaken.
 author: GalynaFedorova
 ms.date: 09/15/2020
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 5690630d4dde947798c925af66c73122c2efad3d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4e5748f2368376ee03f280f1487d1de65250d3a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673769"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859164"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Leverancierssamenwerking met klanten
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u leverancierssamenwerking kunt gebruiken om met klanten te werken in Microsoft Dynamics 365 Supply Chain Management. Leveranciers kunnen een reeks bedrijfsprocessen voltooien vanuit de volgende werkgebieden:
+In dit artikel wordt beschreven hoe u leverancierssamenwerking kunt gebruiken om met klanten te werken in Microsoft Dynamics 365 Supply Chain Management. Leveranciers kunnen een reeks bedrijfsprocessen voltooien vanuit de volgende werkgebieden:
 
 - **Inkooporderbevestiging**: controleer inkooporders en reageer hierop.
 - **Biedingen van leverancier**: bekijk offerteaanvragen en reageer hierop door te bieden.
 - **Leveranciersgegevens**: bekijk modelgegevens van leveranciers en werk deze bij.
-- **Facturering**: werk met facturen. In dit onderwerp komt het werkgebied **Facturering** niet aan bod. Zie [Werkgebied voor samenwerkingsfacturering van leveranciers](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md) voor meer informatie over dit werkgebied.
+- **Facturering**: werk met facturen. In dit artikel komt het werkgebied **Facturering** niet aan bod. Zie [Werkgebied voor samenwerkingsfacturering van leveranciers](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md) voor meer informatie over dit werkgebied.
 
 Leveranciers kunnen ook informatie over de consignatievoorraad controleren.
 
@@ -47,9 +47,9 @@ Er zijn drie lijsten in de werkruimte **Inkooporderbevestiging**:
 
 U kunt de volgende pagina's gebruiken om met inkooporders te werken:
 
-- **Inkooporders ter beoordeling**: deze pagina bevat dezelfde informatie als de lijst **Inkooporders ter beoordeling** in het werkgebied. Zie de beschrijvingen eerder in dit onderwerp.
+- **Inkooporders ter beoordeling**: deze pagina bevat dezelfde informatie als de lijst **Inkooporders ter beoordeling** in het werkgebied. Zie de beschrijvingen eerder in dit artikel.
 - **Historie van leveranciersbevestigingen van inkooporders**: deze pagina bevat alle inkooporders en alle versies van inkooporders die zijn verzonden naar de leverancier. Hier vindt u ook alle geretourneerde antwoorden van de leverancier.
-- **Bevestigde inkooporders openen**: deze pagina bevat dezelfde informatie als de lijst **Bevestigde inkooporders openen** in het werkgebied. Zie de beschrijvingen eerder in dit onderwerp.
+- **Bevestigde inkooporders openen**: deze pagina bevat dezelfde informatie als de lijst **Bevestigde inkooporders openen** in het werkgebied. Zie de beschrijvingen eerder in dit artikel.
 - **Alle bevestigde inkooporders**: deze pagina bevat alle bevestigde inkooporders. De IO's op deze pagina omvatten IO's waarop producten of services zijn ontvangen. U kunt deze lijst gebruiken om te controleren voor welke inkooporders u facturen kunt verzenden.
 
 ### <a name="responding-to-pos"></a>Reageren op inkooporders

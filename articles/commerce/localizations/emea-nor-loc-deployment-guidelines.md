@@ -1,6 +1,6 @@
 ---
 title: Implementatierichtlijnen voor kassa's voor Noorwegen (verouderd)
-description: Dit onderwerp is een implementatiehandleiding die laat zien hoe u de lokalisatie van Microsoft Dynamics 365 Commerce voor Noorwegen kunt inschakelen.
+description: Dit artikel is een implementatiehandleiding die laat zien hoe u de lokalisatie van Microsoft Dynamics 365 Commerce voor Noorwegen kunt inschakelen.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,27 +9,27 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2018-2-28
-ms.openlocfilehash: 019bac01abdc0b2e16718c08953b44fbccef83a3
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 7a6450215f152779428d3b0fd83bf09761e2ad98
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944783"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894457"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway-legacy"></a>Implementatierichtlijnen voor kassa's voor Noorwegen (verouderd)
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp is een implementatiehandleiding die laat zien hoe u de lokalisatie van Microsoft Dynamics 365 Commerce voor Noorwegen kunt inschakelen. De lokalisatie bestaat uit verschillende extensies van Commerce-onderdelen. Met de extensies kunt u bijvoorbeeld aangepaste velden afdrukken op ontvangstbewijzen, extra controlegebeurtenissen, verkooptransacties en betalingstransacties registreren in POS (Point-of-Sale), verkooptransacties digitaal ondertekenen en X- en Z-rapporten afdrukken in lokale indelingen. Zie [Kassafunctionaliteit voor Noorwegen](./emea-nor-cash-registers.md) voor meer informatie over de lokalisatie voor Noorwegen.
+Dit artikel is een implementatiehandleiding die laat zien hoe u de lokalisatie van Microsoft Dynamics 365 Commerce voor Noorwegen kunt inschakelen. De lokalisatie bestaat uit verschillende extensies van Commerce-onderdelen. Met de extensies kunt u bijvoorbeeld aangepaste velden afdrukken op ontvangstbewijzen, extra controlegebeurtenissen, verkooptransacties en betalingstransacties registreren in POS (Point-of-Sale), verkooptransacties digitaal ondertekenen en X- en Z-rapporten afdrukken in lokale indelingen. Zie [Kassafunctionaliteit voor Noorwegen](./emea-nor-cash-registers.md) voor meer informatie over de lokalisatie voor Noorwegen.
 
 Dit voorbeeld maakt deel uit van de Retail Software Development Kit (SDK). Zie de [Architectuur van Retail SDK (Software Development Kit)](../dev-itpro/retail-sdk/retail-sdk-overview.md) voor informatie over het installeren en gebruiken van de SDK.
 
-Dit voorbeeld bestaat uit extensies voor Commerce runtime (CRT), Retail Server en POS. Als u dit voorbeeld wilt uitvoeren, moet u de CRT-, Retail Server- en POS-projecten wijzigen en bouwen. Het is raadzaam een niet-geverifieerde Retail SDK te gebruiken om de wijzigingen aan te brengen die in dit onderwerp worden beschreven. Het wordt ook aangeraden een broncontrolesysteem te gebruiken, zoals Microsoft Visual Studio Online (VSO) wanneer er nog geen bestanden zijn gewijzigd.
+Dit voorbeeld bestaat uit extensies voor Commerce runtime (CRT), Retail Server en POS. Als u dit voorbeeld wilt uitvoeren, moet u de CRT-, Retail Server- en POS-projecten wijzigen en bouwen. Het is raadzaam een niet-geverifieerde Retail SDK te gebruiken om de wijzigingen aan te brengen die in dit artikel worden beschreven. Het wordt ook aangeraden een broncontrolesysteem te gebruiken, zoals Microsoft Visual Studio Online (VSO) wanneer er nog geen bestanden zijn gewijzigd.
 
 > [!NOTE]
-> In Commerce 10.0.8 of hoger staat Retail Server bekend als Commerce Scale Unit. Aangezien dit onderwerp van toepassing is op meerdere eerdere versies van de app, wordt overal in het onderwerp *Retail Server* gebruikt.
+> In Commerce 10.0.8 of hoger staat Retail Server bekend als Commerce Scale Unit. Aangezien dit artikel van toepassing is op meerdere eerdere versies van de app, wordt overal in het artikel *Retail Server* gebruikt.
 >
-> Sommige stappen in de procedures in dit onderwerp verschillen, afhankelijk van de versie van Commerce die u gebruikt. Zie [Nieuwe of gewijzigde functies in Dynamics 365 Retail](../get-started/whats-new.md) voor meer informatie.
+> Sommige stappen in de procedures in dit artikel verschillen, afhankelijk van de versie van Commerce die u gebruikt. Zie [Nieuwe of gewijzigde functies in Dynamics 365 Retail](../get-started/whats-new.md) voor meer informatie.
 
 ### <a name="using-certificate-profiles-in-commerce-channels"></a>Certificaatprofielen gebruiken in Commerce-kanalen
 
@@ -1252,7 +1252,7 @@ Zie [Kassafunctionaliteit voor Noorwegen](./emea-nor-cash-registers.md) voor mee
 
 Volg deze stappen om implementeerbare pakketten te maken die Commerce-onderdelen bevatten en om deze pakketten toe te passen in een productieomgeving.
 
-1. Voltooi de stappen in de sectie met de [Onderdelen van Cloud POS-extensies](#cloud-pos-extension-components) of [Onderdelen van Modern POS-extensies](#modern-pos-extension-components) eerder in dit onderwerp.
+1. Voltooi de stappen in de sectie met de [Onderdelen van Cloud POS-extensies](#cloud-pos-extension-components) of [Onderdelen van Modern POS-extensies](#modern-pos-extension-components) eerder in dit artikel.
 2. Breng de volgende wijzigingen aan in de pakketconfiguratiebestanden onder de map **RetailSdk\\Assets**:
 
     1. Voeg in de configuratiebestanden **commerceruntime.ext.config** en **CommerceRuntime.MPOSOffline.Ext.config** de volgende regels toe aan de sectie **Samenstelling**:

@@ -1,6 +1,6 @@
 ---
 title: Activa installeren op functionele locaties
-description: In dit onderwerp wordt uitgelegd hoe u activa installeert op functionele locaties in Activabeheer.
+description: In dit artikel wordt uitgelegd hoe u activa installeert op functionele locaties in Activabeheer.
 author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc278564b02335b44a0b35d6a3a981125e6f456b08893be2b5886f0a55396d52
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a35f2494c616c2e456f92409d012cc434a32bd8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775742"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894496"
 ---
 # <a name="install-assets-on-functional-locations"></a>Activa installeren op functionele locaties
 
@@ -28,7 +28,7 @@ ms.locfileid: "6775742"
 
  
 
-Nadat u structuren voor functionele locaties hebt gemaakt, is de volgende stap het installeren van activa op de relevante functionele locaties. In dit onderwerp wordt uitgelegd hoe u activa installeert op deze functionele locaties in Activabeheer. Zie [Inleiding tot activa](../objects/introduction-to-objects.md) voor meer informatie over het maken van activa.
+Nadat u structuren voor functionele locaties hebt gemaakt, is de volgende stap het installeren van activa op de relevante functionele locaties. In dit artikel wordt uitgelegd hoe u activa installeert op deze functionele locaties in Activabeheer. Zie [Inleiding tot activa](../objects/introduction-to-objects.md) voor meer informatie over het maken van activa.
 
 Als u een activastructuur hebt gemaakt, moet de hele activastructuur worden geïnstalleerd op een functionele locatie. Daarom kunnen alleen bovenliggende activa (activa op het hoogste niveau die geen bovenliggend activum hebben) worden geselecteerd op een functionele locatie. Alle gerelateerde onderliggende activa (subactiva) worden ook op de functionele locatie geïnstalleerd. Wanneer u activa op een functionele locatie installeert, worden de financiële dimensies van de functionele locatie mogelijk automatisch naar deze activa overgebracht. Dit is afhankelijk van de instellingen voor het type functionele locatie dat voor de functionele locatie is geselecteerd. Zie [Typen functionele locaties](../setup-for-functional-locations/functional-location-types.md) voor meer informatie over het instellen van typen functionele locaties.
 

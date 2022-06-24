@@ -1,6 +1,6 @@
 ---
-title: Een aanschafbeleid maken
-description: Dit onderwerp laat zien hoe u aanschafbeleid kunt maken voor afstemming met uw bedrijfsprocessen voor inkoop.
+title: Een inkoopbeleid maken
+description: Dit artikel laat zien hoe u aanschafbeleid kunt maken voor afstemming met uw bedrijfsprocessen voor inkoop.
 author: GalynaFedorova
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f51c88506044359787257ba0e0a6668213a170d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 011705723466d746fa5b23c5499d03a548f133f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677865"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878840"
 ---
-# <a name="create-purchasing-policies"></a>Een aanschafbeleid maken
+# <a name="create-purchasing-policies"></a>Een inkoopbeleid maken
 
 [!include [banner](../../includes/banner.md)]
 
-Dit onderwerp laat zien hoe u aanschafbeleid kunt maken voor afstemming met uw bedrijfsprocessen voor inkoop. Voordat u een inkoopbeleid kunt maken, moet u de parameters van het aanschafbeleid instellen. Het is mogelijk om een aanschafbeleid te maken, te wijzigen en in te trekken, maar u kunt een aanschafbeleid niet verwijderen. Deze procedure wordt meestal uitgevoerd door een inkoopmanager. U kunt deze procedure gebruiken met het demogegevensbedrijf USMF of met uw eigen gegevens.
+Dit artikel laat zien hoe u aanschafbeleid kunt maken voor afstemming met uw bedrijfsprocessen voor inkoop. Voordat u een inkoopbeleid kunt maken, moet u de parameters van het aanschafbeleid instellen. Het is mogelijk om een aanschafbeleid te maken, te wijzigen en in te trekken, maar u kunt een aanschafbeleid niet verwijderen. Deze procedure wordt meestal uitgevoerd door een inkoopmanager. U kunt deze procedure gebruiken met het demogegevensbedrijf USMF of met uw eigen gegevens.
 
 
 ## <a name="set-up-policy-parameters"></a>Beleidsparameters instellen

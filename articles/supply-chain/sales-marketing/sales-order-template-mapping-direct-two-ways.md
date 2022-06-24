@@ -1,6 +1,6 @@
 ---
 title: Verkooporders rechtstreeks tussen Sales en Supply Chain Management synchroniseren
-description: Dit onderwerp bespreekt de sjablonen en onderliggende taken die worden gebruikt voor het synchroniseren van verkooporders tussen Dynamics 365 Sales en Dynamics 365 Supply Chain Management.
+description: Dit artikel bespreekt de sjablonen en onderliggende taken die worden gebruikt voor het synchroniseren van verkooporders tussen Dynamics 365 Sales en Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 05/09/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: eb41a21395a5d115b779e6b1ef71e9eb1176e28e
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 63a9be9bedabe1f15ad8db583151aa7fa480473b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061513"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854147"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Verkooporders rechtstreeks tussen Sales en Supply Chain Management synchroniseren
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061513"
 
 
 
-Dit onderwerp bespreekt de sjablonen en onderliggende taken die worden gebruikt voor het synchroniseren van verkooporders tussen Dynamics 365 Sales en Dynamics 365 Supply Chain Management.
+Dit artikel bespreekt de sjablonen en onderliggende taken die worden gebruikt voor het synchroniseren van verkooporders tussen Dynamics 365 Sales en Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Gegevensstroom in Prospect naar contant geld
 
@@ -203,7 +203,7 @@ In de volgende afbeeldingen ziet u een voorbeeld van sjabloontoewijzing in Gegev
 
 [![Sjabloontoewijzing in Gegevensintegratie, Verkooporders (Sales naar Supply Chain Management) - Direct: OrderLine.](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-articles"></a>Gerelateerde artikelen
 
 [Van prospect tot contant geld](prospect-to-cash.md)
 

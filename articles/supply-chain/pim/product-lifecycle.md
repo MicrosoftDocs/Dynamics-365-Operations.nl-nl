@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: f71ce701adbe60b69b25e41810dda7adeec1d390
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5d1ea1517c75393b1c8d7c95c8aa2405042b4532
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983789"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850636"
 ---
 # <a name="product-lifecycle-state-overview"></a>Overzicht van Levenscyclusstatus van producten
 
@@ -74,7 +74,7 @@ De statussen voor productlevenscycli worden ondersteund door gegevensentiteiten 
 
 ## <a name="find-obsolete-products-and-products-variants"></a>Verouderde producten en productvarianten zoeken
 
-U kunt een simulatieanalyse uitvoeren om te zoeken naar de verouderde vrijgegeven producten of productvarianten, en om de status van de productlevenscyclus bij te werken. Als u verouderde producten wilt vinden, gaat u naar [Verouderde productvarianten zoeken en een status voor de productlevenscyclus toewijzen](tasks/obsolete-product-variants.md). In dit onderwerp wordt aangegeven hoe u verouderde vrijgegeven producten of productvarianten kunt vinden en de status van een productlevenscyclus kunt koppelen aan de verouderde producten. U ziet ook hoe u de simulatieresultaten kunt bekijken en kunt bepalen hoeveel producten en productvarianten worden gekoppeld aan een nieuwe status voor de productlevenscyclus wanneer u de update zonder simulatie uitvoert.  
+U kunt een simulatieanalyse uitvoeren om te zoeken naar de verouderde vrijgegeven producten of productvarianten, en om de status van de productlevenscyclus bij te werken. Als u verouderde producten wilt vinden, gaat u naar [Verouderde productvarianten zoeken en een status voor de productlevenscyclus toewijzen](tasks/obsolete-product-variants.md). In dit artikel wordt aangegeven hoe u verouderde vrijgegeven producten of productvarianten kunt vinden en de status van een productlevenscyclus kunt koppelen aan de verouderde producten. U ziet ook hoe u de simulatieresultaten kunt bekijken en kunt bepalen hoeveel producten en productvarianten worden gekoppeld aan een nieuwe status voor de productlevenscyclus wanneer u de update zonder simulatie uitvoert.  
 
 Wanneer u de analyse in een simulatiemodus uitvoert, worden de als verouderd aangeduide producten en productvarianten weergegeven in een specifiek formulier, waar ze eenvoudig kunnen worden gecontroleerd. Met de analyse wordt gezocht naar transacties en bepaalde hoofdgegevens ter identificatie van producten waarvoor geen vraag bestaat in een variabele periode en er geen hoofdgegevens zijn die kunnen resulteren in vraag. Nieuw vrijgegeven producten in een variabele periode kunnen worden uitgesloten van de analyse. Wanneer de analysesimulatie het verwachte resultaat retourneert, kan de gebruiker de analyse uitvoeren en een nieuwe status voor de productlevenscyclus instellen voor alle producten die door de analyse als verouderd zijn aangeduid.  
 
@@ -97,7 +97,7 @@ Gebruik de volgende criteria voor het selecteren en bijwerken van de vrijgegeven
 - Geen actieve of toekomstige verkoop- of inkoopovereenkomstregels voor het product of de productvariant.
 - Het product of de productvariant wordt niet gebruikt in een stuklijst die is gekoppeld aan een niet-verlopen goedgekeurde stuklijstversie voor een product dat of variant die actief is voor de planning.
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-articles"></a>Gerelateerde artikelen
 
 - [Nieuwe status van levenscyclus van producten maken](tasks/new-product-lifecycle-state.md)
 - [Standaardstatus van levenscyclus van producten maken](tasks/default-product-lifecycle-state.md)

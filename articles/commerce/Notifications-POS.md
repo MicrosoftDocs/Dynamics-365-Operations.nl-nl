@@ -1,6 +1,6 @@
 ---
 title: Meldingen over orders op het verkooppunt (POS) weergeven
-description: In dit onderwerp wordt beschreven hoe u ordermeldingen inschakelt in het POS en het framework voor meldingen.
+description: In dit artikel wordt beschreven hoe u ordermeldingen inschakelt in het POS en het framework voor meldingen.
 author: ShalabhjainMSFT
 ms.date: 03/12/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7166afdb43c7e835170c5768a0767f2943222b19c00c7d0aaf067263845651f8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a9e646d6bf48461e78dc75c8a154f2fbf1443393
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714133"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853950"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Meldingen over orders op het verkooppunt (POS) weergeven
 
@@ -65,10 +65,10 @@ Voor zowel de melding voor orderafhandeling als de melding voor het intrekken va
 
 ## <a name="enable-live-content-on-pos-buttons"></a>Live inhoud op de POS-knoppen inschakelen
 
-POS-knoppen kunnen nu een aantal aangeven zodat de werknemers eenvoudig kunnen bepalen welke taken hun onmiddellijke aandacht vereisen. Als u dit aantal wilt weergeven op een POS-knop, moet u de instellingen voor berichtgeving invullen die eerder in dit onderwerp zijn beschreven (dat wil zeggen u moet meldingen voor een bewerking inschakelen, een meldingsinterval instellen en de POS-machtigingsgroep voor de werknemer bijwerken). Daarnaast moet u de ontwerper van het knoppenraster openen, de eigenschappen van de knop weergeven en het selectievakje **Live inhoud inschakelen** selecteren. In het veld **Uitlijning van inhoud** kunt u aangeven of de telling wordt weergegeven in de rechterbovenhoek van de knop (**Rechtsboven**) of in het midden (**Midden**).
+POS-knoppen kunnen nu een aantal aangeven zodat de werknemers eenvoudig kunnen bepalen welke taken hun onmiddellijke aandacht vereisen. Als u dit aantal wilt weergeven op een POS-knop, moet u de instellingen voor berichtgeving invullen die eerder in dit artikel zijn beschreven (dat wil zeggen u moet meldingen voor een bewerking inschakelen, een meldingsinterval instellen en de POS-machtigingsgroep voor de werknemer bijwerken). Daarnaast moet u de ontwerper van het knoppenraster openen, de eigenschappen van de knop weergeven en het selectievakje **Live inhoud inschakelen** selecteren. In het veld **Uitlijning van inhoud** kunt u aangeven of de telling wordt weergegeven in de rechterbovenhoek van de knop (**Rechtsboven**) of in het midden (**Midden**).
 
 > [!NOTE]
-> De live inhoud kan alleen worden ingeschakeld voor bewerkingen als het selectievakje **Meldingen inschakelen** is ingeschakeld op de pagina **POS-bewerkingen**, zoals eerder in dit onderwerp is beschreven.
+> De live inhoud kan alleen worden ingeschakeld voor bewerkingen als het selectievakje **Meldingen inschakelen** is ingeschakeld op de pagina **POS-bewerkingen**, zoals eerder in dit artikel is beschreven.
 
 In de volgende afbeelding ziet u de instellingen voor live inhoud in de ontwerper van het knoppenraster.
 

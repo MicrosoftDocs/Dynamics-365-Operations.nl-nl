@@ -1,6 +1,6 @@
 ---
 title: Werkorders in Field Service synchroniseren met verkooporders in Supply Chain Management
-description: In dit onderwerp worden de sjablonen en onderliggende taken besproken die worden gebruikt voor het synchroniseren van werkorders in Field Service met verkooporders in Supply Chain Management.
+description: In dit artikel worden de sjablonen en onderliggende taken besproken die worden gebruikt voor het synchroniseren van werkorders in Field Service met verkooporders in Supply Chain Management.
 author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b7b311701aff12d58392fc036d0f1174678b7dc3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e64c9a954e8f5c4410f8ba370b40b7c6e76e8ae0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061304"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860517"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Werkorders in Field Service synchroniseren met verkooporders in Supply Chain Management
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061304"
 
 
 
-In dit onderwerp worden de sjablonen en onderliggende taken besproken die worden gebruikt om werkorders in Dynamics 365 Field Service te synchroniseren met verkooporders in Dynamics 365 Supply Chain Management.
+In dit artikel worden de sjablonen en onderliggende taken besproken die worden gebruikt om werkorders in Dynamics 365 Field Service te synchroniseren met verkooporders in Dynamics 365 Supply Chain Management.
 
 [![Synchronisatie van zakelijke processen tussen Supply Chain Management en Field Service.](./media/field-service-integration.png)](./media/field-service-integration.png)
 
@@ -165,7 +165,7 @@ Om verkooporders in Supply Chain Management bij te houden die afkomstig zijn van
 
 Standaard wordt door de toewijzing de verkoopoorsprong voor **Integratie werkorder** geselecteerd voor alle verkooporders die zijn gemaakt op basis van werkorders. Dit gedrag kan van pas komen wanneer u werkt met de verkooporder in Supply Chain Management. U moet ervoor zorgen dat verkooporders die afkomstig zijn van werkorders, niet terug worden gesynchroniseerd met Field Service als werkorders.
 
-Zie de sectie 'Voorwaarden en instellingen voor toewijzing' in dit onderwerp voor meer informatie over het maken van de juiste instellingen voor verkoopoorsprong in Supply Chain Management.
+Zie de sectie 'Voorwaarden en instellingen voor toewijzing' in dit artikel voor meer informatie over het maken van de juiste instellingen voor verkoopoorsprong in Supply Chain Management.
 
 ### <a name="status"></a>Status
 

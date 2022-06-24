@@ -1,6 +1,6 @@
 ---
-title: Tips voor voorraadzichtbaarheid
-description: Dit onderwerp biedt een aantal tips die u kunt overwegen bij het instellen en gebruiken van de invoegtoepassing Voorraadzichtbaarheid.
+title: Tips voor Inventory Visibility
+description: Dit artikel biedt een aantal tips die u kunt overwegen bij het instellen en gebruiken van de invoegtoepassing Voorraadzichtbaarheid.
 author: yufeihuang
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1f6ade36ac184a3c8bf790fc0d899ea01d90c8d2
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 9f571d353f99c91776424bc2fa3405f73b2bae0a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952410"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885952"
 ---
 # <a name="inventory-visibility-tips"></a>Tips voor voorraadzichtbaarheid
 
@@ -34,5 +34,6 @@ Hier volgt een aantal tips die u kunt overwegen bij het instellen en gebruiken v
 - Als u een of meer nieuwe metingen toevoegt aan uw Supply Chain Management-omgeving, moet u ze ook toevoegen in Voorraadzichtbaarheid. Echter, alle hoeveelheidswijzigingen voor nieuwe metingen moeten afkomstig zijn van uw Supply Chain Management-omgeving.
 - De [partitieconfiguratie](inventory-visibility-configuration.md#partition-configuration) bestaat momenteel uit twee basisdimensies (`SiteId` en `LocationId`) die aangeven hoe de gegevens worden gedistribueerd. Bewerkingen onder dezelfde partitie kunnen betere prestaties bieden tegen lagere kosten. De oplossing bevat standaard deze partitieconfiguratie. Daarom *hoeft u deze niet zelf te definiëren*. Pas de standaard partitieconfiguratie niet aan. Als u deze verwijdert of wijzigt, veroorzaakt u waarschijnlijk een onverwachte fout.
 - Basisdimensies die in de partitieconfiguratie zijn gedefinieerd, mogen niet worden gedefinieerd in de [configuratie voor de productindexhiërarchie](inventory-visibility-configuration.md#index-configuration).
+- Uw [configuratie voor de productindexhiërarchie](inventory-visibility-configuration.md#index-configuration) moet ten minste één indexhiërarchie hebben (die bijvoorbeeld de basisdimensie `Empty` bevat), anders mislukken query's met de fout 'Er is geen indexhiërarchie ingesteld'.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

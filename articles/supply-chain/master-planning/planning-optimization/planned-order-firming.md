@@ -1,6 +1,6 @@
 ---
 title: Vast geplande orders
-description: In dit onderwerp wordt uitgelegd hoe u geplande orders kunt fiatteren. Wanneer geplande orders worden gefiatteerd, worden ze omgezet in werkelijke inkooporders, transferorders of productieorders.
+description: In dit artikel wordt uitgelegd hoe u geplande orders kunt fiatteren. Wanneer geplande orders worden gefiatteerd, worden ze omgezet in werkelijke inkooporders, transferorders of productieorders.
 author: t-benebo
 ms.date: 04/22/2021
 ms.search.form: ReqTransPo, ReqTransFirmLog
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30f3ee656b97e0337b6e3e78f0acb2300d7d85dc
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 24b5c6cb7e97924ebace8f7131a87e9bffea22e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468463"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857513"
 ---
 # <a name="firm-planned-orders"></a>Vast geplande orders
 
@@ -29,11 +29,11 @@ U kunt geplande orders op drie manieren fiatteren:
 - **Automatisch fiatteren**: definieer een standaard time fence voor de fiattering voor behoefteplanningsgroepen, afzonderlijke artikelen en combinaties van artikelen en hoofdplannen. Tijdens de uitvoering van de hoofdplanning worden geplande orders vervolgens automatisch gefiatteerd als de orderdatum binnen de opgegeven time fence voor fiattering valt.
 - **Op query's gebaseerde fiattering**: Definieer een query om geplande orders te selecteren op basis van de eigenschappen van deze orders. U kunt een batchtaak instellen om de query uit te voeren en overeenkomende orders regelmatig te fiatteren.
 
-In dit onderwerp wordt elke methode uitgebreid beschreven.
+In dit artikel wordt elke methode uitgebreid beschreven.
 
-## <a name="enable-the-features-that-are-described-in-this-topic"></a><a name="enable-features"></a>De functies inschakelen die in dit onderwerp worden beschreven
+## <a name="enable-the-features-that-are-described-in-this-article"></a><a name="enable-features"></a>De functies inschakelen die in dit artikel worden beschreven
 
-De meeste geplande orderfuncties zijn beschikbaar in alle standaardinstallaties van Microsoft Dynamics 365 Supply Chain Management die gebruikmaken van Planningsoptimalisatie. Enkele functies die in dit onderwerp worden beschreven, moeten echter worden ingeschakeld in Functiebeheer voordat u ze kunt gebruiken.
+De meeste geplande orderfuncties zijn beschikbaar in alle standaardinstallaties van Microsoft Dynamics 365 Supply Chain Management die gebruikmaken van Planningsoptimalisatie. Enkele functies die in dit artikel worden beschreven, moeten echter worden ingeschakeld in Functiebeheer voordat u ze kunt gebruiken.
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Parallel fiatteren van geplande orders in- of uitschakelen
 
@@ -97,7 +97,7 @@ Met automatische fiattering kunt u geplande orders fiatteren als onderdeel van h
 > Afgeleide orders (dat wil zeggen, uitbestede inkooporders) die worden gefiatteerd, hebben de status *Wordt gecontroleerd* als Wijzigingen bijhouden is ingeschakeld.
 
 > [!IMPORTANT]
-> Voordat de functie die in deze sectie wordt beschreven, kan worden gebruikt met Planningsoptimalisatie, moet de functie [*Automatische fiattering voor planningsoptimalisatie*](#enable-features) zijn ingeschakeld in het systeem, zoals aan het begin van dit onderwerp is beschreven. Automatische fiattering kan altijd worden gebruikt met de geïntegreerde hoofdplanningsengine.
+> Voordat de functie die in deze sectie wordt beschreven, kan worden gebruikt met Planningsoptimalisatie, moet de functie [*Automatische fiattering voor planningsoptimalisatie*](#enable-features) zijn ingeschakeld in het systeem, zoals aan het begin van dit artikel is beschreven. Automatische fiattering kan altijd worden gebruikt met de geïntegreerde hoofdplanningsengine.
 
 ### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Automatisch fiattering met Planningsoptimalisatie versus de geïntegreerde planningsengine
 
@@ -130,7 +130,7 @@ Met op een query gebaseerde fiattering kunt u fiattering plannen op basis van cr
 U kunt automatische fiattering combineren met op query gebaseerde fiattering. Een op een query gebaseerd fiatteringstaak heeft bijvoorbeeld een time fence in de toekomst die langer is dan de time fence voor een overeenkomende configuratie voor automatische fiattering van de behoefte. Daarom worden met de op een query gebaseerde fiatteringstaak de geplande orders verwerkt voordat de automatische fiattering wordt geactiveerd. U kunt dit gedrag gebruiken als u orders voor specifieke leveranciers anders wilt plannen dan orders voor vergelijkbare producten van andere leveranciers.
 
 > [!IMPORTANT]
-> Voordat de functie die in deze sectie wordt beschreven, kan worden gebruikt, moet de functie [*Fiatteren van geplande orders met filtering*](#enable-features) zijn ingeschakeld in het systeem, zoals aan het begin van dit onderwerp is beschreven.
+> Voordat de functie die in deze sectie wordt beschreven, kan worden gebruikt, moet de functie [*Fiatteren van geplande orders met filtering*](#enable-features) zijn ingeschakeld in het systeem, zoals aan het begin van dit artikel is beschreven.
 
 Volg deze stappen om een geplande order te fiatteren met behulp van het op een query gebaseerd fiatteringsproces.
 

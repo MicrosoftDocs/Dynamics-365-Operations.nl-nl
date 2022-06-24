@@ -1,6 +1,6 @@
 ---
 title: Een favicon toevoegen
-description: In dit onderwerp wordt uitgelegd hoe u een favicon aan uw site toevoegt.
+description: In dit artikel wordt uitgelegd hoe u een favicon aan uw site toevoegt.
 author: bicyclingfool
 ms.date: 08/31/2020
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 080ef4da7313bd6b9d91e616f576b3ff774509d9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 2047a0c30c9e723c717657475a111181299aaa8d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964727"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855790"
 ---
 # <a name="add-a-favicon"></a>Een favicon toevoegen
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u een favicon aan uw site toevoegt.
+In dit artikel wordt uitgelegd hoe u een favicon aan uw site toevoegt.
 
 Een favicon is een klein grafisch bestand dat onder andere wordt weergegeven op het tabblad van de webbrowser, in de adresbalk, de browsergeschiedenis en in bladwijzers of favorieten. Het is raadzaam om een favicon aan uw site toe te voegen, omdat deze uw merk vertegenwoordigt en benadrukt. Zo onderscheidt uw site zich van andere sites die uw klant bezoekt.
 
-Hoewel u meerdere favicons van verschillende grootten en bestandstypen kunt toevoegen aan uw site, wordt in dit onderwerp aangegeven hoe u één favicon toevoegt. Hetzelfde proces en dezelfde locatie worden echter gebruikt om meer favicons toe te voegen.
+Hoewel u meerdere favicons van verschillende grootten en bestandstypen kunt toevoegen aan uw site, wordt in dit artikel aangegeven hoe u één favicon toevoegt. Hetzelfde proces en dezelfde locatie worden echter gebruikt om meer favicons toe te voegen.
 
 ## <a name="upload-a-favicon-to-your-sites-asset-collection"></a>Een favicon uploaden naar de verzameling met assets voor uw site
 

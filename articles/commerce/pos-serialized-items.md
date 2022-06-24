@@ -1,6 +1,6 @@
 ---
 title: Werken met geserialiseerde artikelen in het POS
-description: In dit onderwerp wordt uitgelegd hoe u geserialiseerde artikelen kunt beheren in de verkooppunttoepassing (POS).
+description: In dit artikel wordt uitgelegd hoe u geserialiseerde artikelen kunt beheren in de verkooppunttoepassing (POS).
 author: boycezhu
 ms.date: 01/08/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 5725943fd249e1b5d66b08b829c2eb58b6aad3ee24db9ca83bbde9be906bbf82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a715a9d025f36656506daeb9e611bfacdafa102
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737573"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880024"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>Werken met geserialiseerde artikelen in het POS
 
 [!include [banner](includes/banner.md)]
 
-Veel detailhandelaren verkopen producten waarvoor seriebeheer vereist is. Deze producten worden *geserialiseerde artikelen* genoemd. Sommige detailhandelaren willen mogelijk serienummers in de winkel- of magazijnvoorraad bijhouden voor traceringsdoeleinden. Andere detailhandelaren willen mogelijk serienummers vastleggen tijdens het verkoopproces, voor service- en garantiedoeleinden. In dit onderwerp wordt uitgelegd hoe u geserialiseerde artikelen kunt beheren in de Microsoft Dynamics 365 Commerce-verkooppunttoepassing (POS).
+Veel detailhandelaren verkopen producten waarvoor seriebeheer vereist is. Deze producten worden *geserialiseerde artikelen* genoemd. Sommige detailhandelaren willen mogelijk serienummers in de winkel- of magazijnvoorraad bijhouden voor traceringsdoeleinden. Andere detailhandelaren willen mogelijk serienummers vastleggen tijdens het verkoopproces, voor service- en garantiedoeleinden. In dit artikel wordt uitgelegd hoe u geserialiseerde artikelen kunt beheren in de Microsoft Dynamics 365 Commerce-verkooppunttoepassing (POS).
 
 ## <a name="serial-number-configurations"></a>Configuratie van serienummers
 
@@ -124,7 +124,7 @@ Voor geserialiseerde artikelen die worden verkocht voor toekomstige ophalen of z
 
 ### <a name="apply-serial-numbers-during-customer-order-fulfillment-or-pickup"></a>Serienummers toepassen tijdens het afhandelen van klantorders of het ophalen
 
-Wanneer klantorderregels voor geserialiseerde producten worden uitgevoerd met de bewerking **Orderafhandeling** in POS, wordt in POS het vastleggen van serienummers afgedwongen vóór de uiteindelijke afhandeling van de order. Als er tijdens het vastleggen van de aanvankelijke order geen serienummer is opgegeven, moet dat nummer worden vastgelegd tijdens het verzamelen, verpakken of verzenden in POS. Bij elke stap wordt een validatie uitgevoerd en de gebruiker wordt alleen om serienummergegevens gevraagd als deze ontbreken of niet meer geldig zijn. Als een gebruiker bijvoorbeeld de stappen voor het verzamelen of verpakken overslaat en direct een zending start en een serienummer niet is geregistreerd voor de regel, vereist POS dat het serienummer eerst moet worden ingevoerd voordat de laatste factureringsstap wordt voltooid. Wanneer u het vastleggen van het serienummer afdwingt tijdens bewerkingen voor de afhandeling van de order in POS, zijn alle regels die eerder in dit onderwerp werden genoemd nog steeds van toepassing. Alleen geserialiseerde artikelen die als **Actief** zijn geconfigureerd, doorlopen een validatie van serienummers in voorraad. Artikelen die zijn geconfigureerd als **Actief in verkoopproces**, worden niet gevalideerd. Als **Fysieke negatieve voorraad** is toegestaan voor producten die zijn geconfigureerd als **Actief**, wordt een serienummer geaccepteerd, ongeacht de voorraadbeschikbaarheid. Voor artikelen met de status **Actief** en **Actief in verkoopproces**, als **Lege uitgifte is toegestaan** is geconfigureerd, kan een gebruiker serienummers leeglaten als dit is toegestaan tijdens het verzamelen, verpakken en verzenden.
+Wanneer klantorderregels voor geserialiseerde producten worden uitgevoerd met de bewerking **Orderafhandeling** in POS, wordt in POS het vastleggen van serienummers afgedwongen vóór de uiteindelijke afhandeling van de order. Als er tijdens het vastleggen van de aanvankelijke order geen serienummer is opgegeven, moet dat nummer worden vastgelegd tijdens het verzamelen, verpakken of verzenden in POS. Bij elke stap wordt een validatie uitgevoerd en de gebruiker wordt alleen om serienummergegevens gevraagd als deze ontbreken of niet meer geldig zijn. Als een gebruiker bijvoorbeeld de stappen voor het verzamelen of verpakken overslaat en direct een zending start en een serienummer niet is geregistreerd voor de regel, vereist POS dat het serienummer eerst moet worden ingevoerd voordat de laatste factureringsstap wordt voltooid. Wanneer u het vastleggen van het serienummer afdwingt tijdens bewerkingen voor de afhandeling van de order in POS, zijn alle regels die eerder in dit artikel werden genoemd nog steeds van toepassing. Alleen geserialiseerde artikelen die als **Actief** zijn geconfigureerd, doorlopen een validatie van serienummers in voorraad. Artikelen die zijn geconfigureerd als **Actief in verkoopproces**, worden niet gevalideerd. Als **Fysieke negatieve voorraad** is toegestaan voor producten die zijn geconfigureerd als **Actief**, wordt een serienummer geaccepteerd, ongeacht de voorraadbeschikbaarheid. Voor artikelen met de status **Actief** en **Actief in verkoopproces**, als **Lege uitgifte is toegestaan** is geconfigureerd, kan een gebruiker serienummers leeglaten als dit is toegestaan tijdens het verzamelen, verpakken en verzenden.
 
 Validaties voor serienummers worden ook uitgevoerd wanneer een gebruiker de bewerkingen voor ophalen voor klantorders in POS. In de POS-toepassing kan het ophalen van een product met serienummers pas worden afgerond als de eerder genoemde validaties zijn doorlopen. De validaties zijn altijd gebaseerd op de traceringsdimensie van het product en de configuraties van het verkoopmagazijn. 
 

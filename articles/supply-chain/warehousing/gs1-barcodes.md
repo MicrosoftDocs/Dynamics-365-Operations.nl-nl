@@ -1,6 +1,6 @@
 ---
 title: GS1-streepjescodes
-description: In dit onderwerp wordt beschreven hoe u GS1-streepjescodes en QR-codes in moet stellen zodat labels in een magazijn kunnen worden gescand.
+description: In dit artikel wordt beschreven hoe u GS1-streepjescodes en QR-codes in moet stellen zodat labels in een magazijn kunnen worden gescand.
 author: Mirzaab
 ms.date: 03/21/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: ea928bc8a020035adb36ae2e7873c656e8c3985d
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: 67c54f344ff7091f4a25198fdafa745c6c84d5d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625273"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907140"
 ---
 # <a name="gs1-bar-codes"></a>GS1-streepjescodes
 
@@ -30,11 +30,11 @@ GS1-ondersteuning in Supply Chain Management vereenvoudigt het scanproces in mag
 
 Logistieke managers moeten de vereiste lijst met toepassings-id's instellen en elk van deze id's koppelen aan de juiste menuopdrachten voor mobiele apparaten. De toepassings-id's kunnen vervolgens in verschillende magazijnen worden gebruikt als algemene instelling voor verplaatsen en verpakken. Daarom krijgen alle verzendlabels een uniforme vorm.
 
-Tenzij anders aangegeven, wordt in dit onderwerp de term *streepjescode* gebruikt om naar zowel lineaire (1D) streepjescodes als 2D-streepjescodes te verwijzen.
+Tenzij anders aangegeven, wordt in dit artikel de term *streepjescode* gebruikt om naar zowel lineaire (1D) streepjescodes als 2D-streepjescodes te verwijzen.
 
 ## <a name="the-gs1-bar-code-format"></a>De GS1-streepjescode-indeling
 
-De algemene GS1-specificaties bepalen welke symbolen kunnen worden gebruikt voor GS1-streepjescodes en hoe de gegevens in de streepjescode kunnen worden gecodeerd. Deze sectie bevat een korte inleiding op het onderwerp. Zie de [algemene GS1-specificaties](https://www.gs1.org/docs/barcodes/GS1_General_Specifications.pdf) die door GS1 worden gepubliceerd voor volledige details. Het document met GS1-specificaties wordt regelmatig bijgewerkt en de informatie hierin komt overeen met die in versie 22.0 van de algemene GS1-specificaties.
+De algemene GS1-specificaties bepalen welke symbolen kunnen worden gebruikt voor GS1-streepjescodes en hoe de gegevens in de streepjescode kunnen worden gecodeerd. Deze sectie bevat een korte inleiding op het artikel. Zie de [algemene GS1-specificaties](https://www.gs1.org/docs/barcodes/GS1_General_Specifications.pdf) die door GS1 worden gepubliceerd voor volledige details. Het document met GS1-specificaties wordt regelmatig bijgewerkt en de informatie hierin komt overeen met die in versie 22.0 van de algemene GS1-specificaties.
 
 GS1-streepjescodes gebruiken de volgende symbolen:
 

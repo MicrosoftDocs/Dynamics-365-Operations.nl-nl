@@ -1,6 +1,6 @@
 ---
 title: Levenscyclusstatussen van activa
-description: In dit onderwerp worden levenscyclusstatussen van activa en levenscyclusmodellen in Activabeheer uitgelegd.
+description: In dit artikel worden levenscyclusstatussen van activa en levenscyclusmodellen in Activabeheer uitgelegd.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55139c6458e569b15518f0f11f1c12c3a26cae2f26c6a2046a7ebdc1277cb144
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 43b1ff9438437e6c1ff33bab9a7ba0361029cb6d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722458"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901055"
 ---
 # <a name="asset-lifecycle-states"></a>Levenscyclusstatussen van activa
 
@@ -28,7 +28,7 @@ ms.locfileid: "6722458"
 
  
 
-In dit onderwerp worden levenscyclusstatussen van activa en levenscyclusmodellen in Activabeheer uitgelegd. Levenscyclusstatussen van activa worden gebruikt om te definiëren of een activum actief of inactief is. U kunt bijvoorbeeld de levenscyclusstatussen van activa instellen op **Gemaakt**, **Actief** en **Beëindigd**.
+In dit artikel worden levenscyclusstatussen van activa en levenscyclusmodellen in Activabeheer uitgelegd. Levenscyclusstatussen van activa worden gebruikt om te definiëren of een activum actief of inactief is. U kunt bijvoorbeeld de levenscyclusstatussen van activa instellen op **Gemaakt**, **Actief** en **Beëindigd**.
 
 > [!NOTE]
 > - Aanvragen voor levenscyclusstatussen zijn gekoppeld aan levenscyclusstatussen van activa. Daarom krijgt, wanneer een aanvraag wordt gewijzigd in een nieuwe aanvraag voor levenscyclusstatus, het activum dat is gekoppeld aan de aanvraag een nieuwe van de levenscyclusstatus van activa. Als bijvoorbeeld de levenscyclusstatus van een aanvraag wordt gewijzigd in **Inkomend**, wordt de levenscyclusstatus van het gekoppelde activum gewijzigd in de levenscyclusstatus die is geselecteerd in het veld **Inkomende levenscyclusstatus** op het sneltabblad **Levenscyclusstatus van activa** van de pagina **Modellen voor levenscyclusstatussen van activa**. 

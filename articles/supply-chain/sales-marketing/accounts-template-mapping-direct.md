@@ -1,6 +1,6 @@
 ---
 title: Rekeningen rechtstreeks vanuit Sales synchroniseren met klanten in Supply Chain Management
-description: Dit onderwerp bespreekt de sjablonen en onderliggende taken die worden gebruikt om rekeningen rechtstreeks te synchroniseren van Dynamics 365 Sales naar Supply Chain Management.
+description: Dit artikel bespreekt de sjablonen en onderliggende taken die worden gebruikt om rekeningen rechtstreeks te synchroniseren van Dynamics 365 Sales naar Supply Chain Management.
 author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b3257f4582ede6cd1be8e593a5ed99f5ffd0ca6f
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 8d415174f62c511626852b91f3591f907b4a85ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063080"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851560"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>Rekeningen rechtstreeks vanuit Sales synchroniseren met klanten in Supply Chain Management
 
@@ -32,7 +32,7 @@ ms.locfileid: "8063080"
 > [!NOTE]
 > Voordat u de oplossing Prospect naar contant geld kunt gebruiken, moet u vertrouwd zijn met [Gegevens integreren in Microsoft Dataverse for Apps](/powerapps/administrator/data-integrator).
 
-Dit onderwerp bespreekt de sjablonen en onderliggende taken die worden gebruikt om rekeningen rechtstreeks te synchroniseren van Dynamics 365 Sales naar Dynamics 365 Supply Chain Management.
+Dit artikel bespreekt de sjablonen en onderliggende taken die worden gebruikt om rekeningen rechtstreeks te synchroniseren van Dynamics 365 Sales naar Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Gegevensstroom in Prospect naar contant geld
 
@@ -101,7 +101,7 @@ In de volgende afbeeldingen ziet u een voorbeeld van sjabloontoewijzing in Gegev
 
 ![Sjabloontoewijzing in Gegevensintegratie.](./media/accounts-direct-template-mapping-data-integrator-1.png)
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-articles"></a>Gerelateerde artikelen
 
 
 [Van prospect tot contant geld](prospect-to-cash.md)

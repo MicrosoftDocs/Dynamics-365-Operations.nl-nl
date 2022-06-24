@@ -1,6 +1,6 @@
 ---
 title: De uitvoeringsinterface voor de werkvloer configureren
-description: In dit onderwerp wordt beschreven hoe u een of meer configuraties maakt voor de uitvoeringsinterface van de werkvloer. Wanneer u de uitvoeringsinterface van de werkvloer opent, worden automatisch een geselecteerde configuratie en een taakfilter geladen die specifiek zijn voor de browser en het apparaat. In de configuratie stelt u de beleidsregels in die toegepast moeten worden op een specifiek gebruik.
+description: In dit artikel wordt beschreven hoe u een of meer configuraties maakt voor de uitvoeringsinterface van de werkvloer. Wanneer u de uitvoeringsinterface van de werkvloer opent, worden automatisch een geselecteerde configuratie en een taakfilter geladen die specifiek zijn voor de browser en het apparaat. In de configuratie stelt u de beleidsregels in die toegepast moeten worden op een specifiek gebruik.
 author: johanhoffmann
 ms.date: 10/05/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 083f5a30323cdc813116af7462563c3b8dd5e4f5
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 9eefde163473e11b01bfa0adf9b3694c830f1488
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644327"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899406"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>De uitvoeringsinterface voor de werkvloer configureren
 
@@ -31,15 +31,15 @@ Wanneer u de uitvoeringsinterface van de werkvloer opent, worden automatisch een
 - Op een apparaat in de bedrijfshal klokken werknemers in wanneer ze binnenkomen op kantoor en ze klokken uit wanneer ze weer naar huis gaan.
 - Op een apparaat op de werkvloer registreren machinewerkers wanneer ze taken starten en voltooien. Ze registreren ook pauzes en indirecte activiteiten.
 
-In dit onderwerp worden de verschillende opties beschreven voor het configureren van een uitvoeringsinterface voor de werkvloer voor elk apparaat dat op uw locatie wordt gebruikt.
+In dit artikel worden de verschillende opties beschreven voor het configureren van een uitvoeringsinterface voor de werkvloer voor elk apparaat dat op uw locatie wordt gebruikt.
 
 ## <a name="turn-on-the-production-floor-execution-interface-and-its-related-optional-features"></a>De uitvoeringsinterface voor de werkvloer en de bijbehorende optionele functies inschakelen
 
-De uitvoeringsinterface voor de werkvloer zelf, plus een aantal optionele instellingen die in dit onderwerp worden beschreven, moeten in uw systeem zijn ingeschakeld voordat u ze kunt gebruiken. Gebruik de pagina [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om een of meer van de functies die in de volgende subsecties worden beschreven, in te schakelen.
+De uitvoeringsinterface voor de werkvloer zelf, plus een aantal optionele instellingen die in dit artikel worden beschreven, moeten in uw systeem zijn ingeschakeld voordat u ze kunt gebruiken. Gebruik de pagina [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om een of meer van de functies die in de volgende subsecties worden beschreven, in te schakelen.
 
 ### <a name="the-production-floor-execution-interface"></a>De uitvoeringsinterface voor de werkvloer
 
-Dit is de primaire functie die in dit onderwerp wordt beschreven en is een vereiste voor alle andere functies die in deze sectie worden genoemd. Vanaf Supply Chain Management 10.0.25 is dit verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Uitvoering werkvloer* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Dit is de primaire functie die in dit artikel wordt beschreven en is een vereiste voor alle andere functies die in deze sectie worden genoemd. Vanaf Supply Chain Management 10.0.25 is dit verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Uitvoering werkvloer* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="generate-license-plates"></a>Nummerplaten genereren
 
@@ -146,7 +146,7 @@ Met deze functie kunt u instellingen voor de volgende functionaliteit toevoegen 
 - Aanpassingen voor materiaalverbruik toestaan vanuit de dialoogvensters **Voortgang melden**. Voor deze functionaliteit is ook de functie *Materiaalverbruik registreren op de uitvoeringsinterface van de werkvloer (niet-WMS)* vereist.
 - Zoekopdrachten op project-id mogelijk maken.
 
-Informatie over het gebruik van de instellingen vindt u verderop in dit onderwerp.
+Informatie over het gebruik van de instellingen vindt u verderop in dit artikel.
 
 Als u deze functionaliteit wilt gebruiken, schakelt u in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) de volgende functie in:
 

@@ -1,6 +1,6 @@
 ---
 title: Wijzigingsbeheer voor bestaande producten inschakelen
-description: In dit onderwerp wordt uitgelegd hoe u wijzigingsbeheer voor bestaande producten kunt inschakelen. Het beschrijft ook gevallen waarin het vermogen om wijzigingsbeheer in te stellen beperkt is.
+description: In dit artikel wordt uitgelegd hoe u wijzigingsbeheer voor bestaande producten kunt inschakelen. Het beschrijft ook gevallen waarin het vermogen om wijzigingsbeheer in te stellen beperkt is.
 author: t-benebo
 ms.date: 02/05/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e356ef8339f8f71965bf9313e14fed3d0810152d
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9f99529abebdf5490f158c6f0a7be4519449e9f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103608"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893463"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Wijzigingsbeheer voor bestaande producten inschakelen
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u wijzigingsbeheer voor bestaande producten kunt inschakelen. Het beschrijft ook gevallen waarin het vermogen om wijzigingsbeheer in te stellen beperkt is.
+In dit artikel wordt uitgelegd hoe u wijzigingsbeheer voor bestaande producten kunt inschakelen. Het beschrijft ook gevallen waarin het vermogen om wijzigingsbeheer in te stellen beperkt is.
 
 Wanneer u wijzigingsbeheer inschakelt voor een bestaand product, kunt u versies van dat product maken en wijzigingen traceren die in het product zijn aangebracht gedurende de levensduur. U kunt deze wijzigingen dan bijhouden door wijzigingsorders te gebruiken. Als u wijzigingsbeheer wilt inschakelen, moet u de relevante producten converteren naar *technische artikelen* (ook wel technische producten genoemd). Technische producten zijn producten waarvoor versiebeheer wordt uitgevoerd en die worden beheerd via wijzigingsbeheer. Er is een wizard beschikbaar die u begeleidt bij het conversieproces.
 
@@ -81,7 +81,7 @@ Voer de volgende stappen uit om de wizard **Converteren naar technisch product**
 
     - **Productnummer** – het productnummer.
     - **Productnaam** – De naam van het product.
-    - **Technische categorie** – Selecteer de categorie technische producten waarbij het product moet horen nadat het is geconverteerd. Er moet al een geschikte categorie bestaan voor elk product, zoals is uitgelegd in de vorige sectie van dit onderwerp. U moet aan elk product een categorie toewijzen.
+    - **Technische categorie** – Selecteer de categorie technische producten waarbij het product moet horen nadat het is geconverteerd. Er moet al een geschikte categorie bestaan voor elk product, zoals is uitgelegd in de vorige sectie van dit artikel. U moet aan elk product een categorie toewijzen.
     - **Versie** – Voer de productversie in die aan het product moet worden toegewezen nadat het is geconverteerd. U kunt bijvoorbeeld een nummer selecteren dat past in de nummerreeks die uw categorie al gebruikt. Voor elke technische versie worden de technisch relevante gegevens opgeslagen die specifiek zijn voor die versie. Zie [Technische versies en categorieën van technische producten](engineering-versions-product-category.md) voor meer informatie.
     - **Status van productlevenscyclus** – selecteer de status van de productlevenscyclus waarin het product moet worden omgezet nadat het is geconverteerd. Met de status van de productlevenscyclus kunt u bepalen welke transacties zijn toegestaan voor een bepaalde technische versie. Zie voor meer informatie [Levenscyclusstatussen en transacties van producten](product-lifecycle-state-transactions.md).
     - **Heeft stuklijst** – Een ingeschakeld selectievakje geeft aan dat het product een stuklijst heeft. De instelling van dit selectievakje kan u helpen om te beslissen hoe u het selectievakje **Huidige stuklijst maakt deel uit van het technische product** moet instellen.

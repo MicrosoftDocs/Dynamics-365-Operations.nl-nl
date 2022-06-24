@@ -1,6 +1,6 @@
 ---
 title: Beheer van bedrijfsmiddelen integreren met vaste activa
-description: In dit onderwerp wordt uitgelegd hoe u de modules Asset Management en Vaste activa integreert, zodat u vaste activa kunt koppelen aan onderhoudsactiva.
+description: In dit artikel wordt uitgelegd hoe u de modules Activabeheer en Vaste activa integreert, zodat u vaste activa kunt koppelen aan onderhoudsactiva.
 author: johanhoffmann
 ms.date: 04/17/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 40e4fdce50b335668a53d2efe53b7cf6c66f364f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d5dfaaf9e4cd989ad6b993e8d152f4713c0d3aa4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567578"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874212"
 ---
 # <a name="integrate-asset-management-with-fixed-assets"></a>Beheer van bedrijfsmiddelen integreren met vaste activa
 
@@ -26,7 +26,7 @@ ms.locfileid: "7567578"
 Als u de modules **Asset Management** en **Vaste activa** integreert, kunt u vaste activa kunt koppelen aan onderhoudsactiva. Vaste activa-gebruikers kunnen vervolgens een onderhoudsactivum maken van een nieuw of bestaand vast activum en gebruikers van Asset Management kunnen een onderhoudsactivum koppelen aan een bestaand vast activum. Met deze functie kunnen gebruikers van Vaste activa ook gemakkelijk de kosten bekijken die zijn geboekt vanuit werkorders voor gerelateerde onderhoudsactiva.
 
 > [!NOTE]
-> In dit onderwerp verwijzen *onderhoudsactiva* naar activa van de module **Asset Management** en *vaste activa* naar activa uit de module **Vaste activa**.
+> In dit artikel verwijzen *onderhoudsactiva* naar activa van de module **Activabeheer** en *vaste activa* naar activa uit de module **Vaste activa**.
 
 ## <a name="set-a-default-location-for-new-maintenance-assets-that-are-created-from-fixed-assets-optional"></a>Een standaardlocatie instellen voor nieuwe onderhoudsactiva die worden gemaakt op basis van vaste activa (optioneel)
 

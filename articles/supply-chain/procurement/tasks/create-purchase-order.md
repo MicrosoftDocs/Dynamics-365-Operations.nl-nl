@@ -1,6 +1,6 @@
 ---
 title: Inkooporder maken
-description: In dit onderwerp leest u hoe u een inkooporder handmatig maakt.
+description: In dit artikel leest u hoe u een inkooporder handmatig maakt.
 author: GalynaFedorova
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2fd627b9874b3e3f7aad71fb2970ddcc333a608
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 2a04a9f4a512a307efecb19703cd3df638ba5ff5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677389"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856072"
 ---
 # <a name="create-a-purchase-order"></a>Inkooporder maken
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp leest u hoe u een inkooporder handmatig maakt. Het is gebruikelijker dat inkooporders automatisch worden gemaakt als resultaat van hoofdplanning, directe levering en andere processen. Inkooporders worden meestal gemaakt door een inkoper. Het hier weergegeven voorbeeld kan in het demobedrijf USMF worden gebruikt met de waarden die in de notities voor verschillende stappen worden voorgesteld.
+In dit artikel leest u hoe u een inkooporder handmatig maakt. Het is gebruikelijker dat inkooporders automatisch worden gemaakt als resultaat van hoofdplanning, directe levering en andere processen. Inkooporders worden meestal gemaakt door een inkoper. Het hier weergegeven voorbeeld kan in het demobedrijf USMF worden gebruikt met de waarden die in de notities voor verschillende stappen worden voorgesteld.
 
 
 ## <a name="create-the-purchase-order-header"></a>De koptekst van de inkooporder maken

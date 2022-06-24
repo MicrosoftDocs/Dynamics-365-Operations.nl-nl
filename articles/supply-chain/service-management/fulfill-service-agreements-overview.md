@@ -1,6 +1,6 @@
 ---
-title: Serviceovereenkomsten uitvoeren - Overzicht
-description: Dit onderwerp bevat een overzicht van de taken voor het uitvoeren van serviceovereenkomsten.
+title: Overzicht van Servicelevelovereenkomsten uitvoeren
+description: Dit artikel bevat een overzicht van de taken voor het uitvoeren van serviceovereenkomsten.
 author: sorenva
 ms.date: 05/03/2018
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c0331477a815c7404faa9bde43275415c3994fd
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 920ac245c94d87ac692b173012e88dc8c1352f8f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677193"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852094"
 ---
-# <a name="fulfill-service-agreements-overview"></a>Serviceovereenkomsten uitvoeren - Overzicht
+# <a name="fulfill-service-agreements-overview"></a>Overzicht van Servicelevelovereenkomsten uitvoeren
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat een overzicht van de taken voor het uitvoeren van serviceovereenkomsten. In dit onderwerp worden ook de formulieren weergegeven die aan elk bedrijfsprocesonderdeel zijn gekoppeld en wordt informatie besproken over de taken die aan elk bedrijfsprocesonderdeel zijn gekoppeld.
+Dit artikel bevat een overzicht van de taken voor het uitvoeren van serviceovereenkomsten. In dit artikel worden ook de formulieren weergegeven die aan elk bedrijfsprocesonderdeel zijn gekoppeld en wordt informatie besproken over de taken die aan elk bedrijfsprocesonderdeel zijn gekoppeld.
 
 ## <a name="forms-for-the-fulfill-service-contracts-business-process-components"></a>Formulieren voor de bedrijfsprocesonderdelen voor het uitvoeren van servicecontracten
 

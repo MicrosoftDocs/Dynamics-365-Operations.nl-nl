@@ -1,6 +1,6 @@
 ---
 title: Vrijgeven naar magazijn
-description: Dit onderwerp biedt informatie over het proces van het vrijgeven aan het magazijn. In het onderwerp worden entiteiten beschreven die worden gemaakt wanneer u een order vrijgeeft aan het magazijn en worden opties beschreven die u kunt gebruiken om het proces te starten.
+description: Dit artikel biedt informatie over het proces van het vrijgeven aan het magazijn. In het onderwerp worden entiteiten beschreven die worden gemaakt wanneer u een order vrijgeeft aan het magazijn en worden opties beschreven die u kunt gebruiken om het proces te starten.
 author: Mirzaab
 ms.date: 8/13/2021
 ms.topic: article
@@ -11,22 +11,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 8624db42e9d0f3d08ed3b582224ed7937d52f85d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c3280b2e39d7af5ca99cad703cad6ecc7b307bff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678346"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893173"
 ---
 # <a name="release-to-warehouse"></a>Vrijgeven naar magazijn
 
 [!include [banner](../../includes/banner.md)]
 
-Dit onderwerp biedt informatie over het proces van het vrijgeven aan het magazijn. In het onderwerp worden entiteiten beschreven die worden gemaakt wanneer u een order vrijgeeft aan het magazijn en worden opties beschreven die u kunt gebruiken om het proces te starten.
+Dit artikel biedt informatie over het proces van het vrijgeven aan het magazijn. In het onderwerp worden entiteiten beschreven die worden gemaakt wanneer u een order vrijgeeft aan het magazijn en worden opties beschreven die u kunt gebruiken om het proces te starten.
 
 ## <a name="release-to-warehouse-overview"></a>Overzicht van vrijgeven naar magazijn
 
-Vrijgave naar magazijn is het proces waarbij voorraad gereed wordt gemaakt voor verzending. Wanneer u een order vrijgeeft aan het magazijn, worden er door het systeem ladingsregels en zendingen gemaakt. Als automatische waveverwerking is ingesteld, worden er ook ladingen en vereist werk gemaakt. De configuratie van de betrokken entiteiten is afhankelijk van de systeeminstellingen. In deze sectie van het onderwerp worden de entiteiten besproken die zijn gemaakt tijdens het proces van het vrijgeven naar magazijn en de systeeminstellingen waarmee ze zijn gedefinieerd.
+Vrijgave naar magazijn is het proces waarbij voorraad gereed wordt gemaakt voor verzending. Wanneer u een order vrijgeeft aan het magazijn, worden er door het systeem ladingsregels en zendingen gemaakt. Als automatische waveverwerking is ingesteld, worden er ook ladingen en vereist werk gemaakt. De configuratie van de betrokken entiteiten is afhankelijk van de systeeminstellingen. In deze sectie van het artikel worden de entiteiten besproken die zijn gemaakt tijdens het proces van het vrijgeven naar magazijn en de systeeminstellingen waarmee ze zijn gedefinieerd.
 
 Een *zending* is een groep verkooporder- of transferorderregels voor dezelfde klant of hetzelfde afleveradres.
 
@@ -67,7 +67,7 @@ Wanneer een order dus naar het magazijn wordt vrijgegeven, werkt de meest geauto
 
 Afhankelijk van wavesjablonen, werksjablonen en instellingen voor locatierichtlijnen moeten sommige stappen in deze stroom mogelijk handmatig worden uitgevoerd. De algehele stroom blijft echter hetzelfde.
 
-U hebt verschillende mogelijkheden om een order vrij te geven naar het magazijn. U kunt de bewerking handmatig uitvoeren of u kunt een batchtaak instellen. In de resterende secties van dit onderwerp komen uitgebreid de verschillende manieren aan de orde waarop u een vrijgave naar een magazijnbewerking kunt uitvoeren.
+U hebt verschillende mogelijkheden om een order vrij te geven naar het magazijn. U kunt de bewerking handmatig uitvoeren of u kunt een batchtaak instellen. In de resterende secties van dit artikel komen uitgebreid de verschillende manieren aan de orde waarop u een vrijgave naar een magazijnbewerking kunt uitvoeren.
 
 ## <a name="manual-release-to-the-warehouse-from-the-sales-orders-and-transfer-orders-pages"></a>Handmatige vrijgave naar het magazijn vanuit de pagina's Verkooporders en Transferorders
 

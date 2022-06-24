@@ -1,6 +1,6 @@
 ---
 title: Randapparaten
-description: In dit onderwerp worden de concepten beschreven die verband houden met Commerce-randapparaten.
+description: In dit artikel worden de concepten beschreven die verband houden met Commerce-randapparaten.
 author: BrianShook
 ms.date: 03/01/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 76ce17777a2d13b46e5faed96dbde5e0d93782eb
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 641b45390477c8c5e6239709f7c91887a403fbaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462236"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880076"
 ---
 # <a name="peripherals"></a>Randapparaten
 
 [!include[banner](includes/banner.md)]
 
-In dit onderwerp worden de concepten beschreven die verband houden met randapparaten in winkels. Hierin worden de verschillende manieren beschreven waarop randapparaten kunnen worden aangesloten op het POS en de onderdelen die de verbinding met het POS afhandelen.
+In dit artikel worden de concepten beschreven die verband houden met randapparaten in winkels. Hierin worden de verschillende manieren beschreven waarop randapparaten kunnen worden aangesloten op het POS en de onderdelen die de verbinding met het POS afhandelen.
 
 ## <a name="concepts"></a>Concepten
 
@@ -55,7 +55,7 @@ Modern POS voor Android is een Android-versie van het Modern POS-programma die k
 
 ### <a name="pos-peripherals"></a>POS-randapparaten
 
-POS-randapparaten zijn apparaten die expliciet worden ondersteund voor POS-functies. Deze randapparaten worden meestal onderverdeeld in specifieke klassen. Zie de sectie 'Apparaatklassen' van dit onderwerp voor meer informatie over deze klassen.
+POS-randapparaten zijn apparaten die expliciet worden ondersteund voor POS-functies. Deze randapparaten worden meestal onderverdeeld in specifieke klassen. Zie de sectie 'Apparaatklassen' van dit artikel voor meer informatie over deze klassen.
 
 ### <a name="hardware-station"></a>Hardwarestation
 

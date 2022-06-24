@@ -1,6 +1,6 @@
 ---
 title: De uitgebreide aanmeldingsfunctie instellen en gebruiken
-description: In dit onderwerp wordt beschreven hoe u de uitgebreide aanmeldingsmogelijkheid van de Microsoft Dynamics 365 Commerce POS-toepassing kunt instellen en gebruiken.
+description: In dit artikel wordt beschreven hoe u de uitgebreide aanmeldingsmogelijkheid van de Microsoft Dynamics 365 Commerce POS-toepassing kunt instellen en gebruiken.
 author: boycez
 ms.date: 03/18/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d211ecfe1550f6093e1d35e7c2b37c036b50dd4a
-ms.sourcegitcommit: 5aebb181004eb63210503fb566dcda5c55032bee
+ms.openlocfilehash: e27e8d94adccc46559089928b0481442306567ef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "8491434"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884306"
 ---
 # <a name="set-up-and-use-the-extended-logon-capability"></a>De uitgebreide aanmeldingsfunctie instellen en gebruiken
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u de uitgebreide aanmeldingsmogelijkheid van de Microsoft Dynamics 365 Commerce POS-toepassing kunt instellen en gebruiken.
+In dit artikel wordt beschreven hoe u de uitgebreide aanmeldingsmogelijkheid van de Microsoft Dynamics 365 Commerce POS-toepassing kunt instellen en gebruiken.
 
 Cloud POS (CPOS) en Modern POS (MPOS) bieden een uitgebreide aanmeldingsmogelijkheid waarin detailhandelmedewerkers zich kunnen aanmelden bij de POS-toepassing door een streepjescode te scannen of een kaart door de lezer te halen met behulp van een magneetstriplezer (MSR).
 

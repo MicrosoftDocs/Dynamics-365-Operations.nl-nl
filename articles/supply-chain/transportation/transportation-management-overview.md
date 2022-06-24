@@ -1,6 +1,6 @@
 ---
 title: Overzicht van Transportbeheer
-description: Dit onderwerp bevat een overzicht van de functionaliteit voor transportbeheer in Supply Chain Management.
+description: Dit artikel bevat een overzicht van de functionaliteit voor transportbeheer in Supply Chain Management.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6181d63c9ab447c4892948fe1f3ee41d2680b78d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 12f870c95f28e752c3c3b3dd4161d82815b9954a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671641"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897453"
 ---
 # <a name="transportation-management-overview"></a>Overzicht van Transportbeheer
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat een overzicht van de functionaliteit voor transportbeheer in Supply Chain Management.
+Dit artikel bevat een overzicht van de functionaliteit voor transportbeheer in Supply Chain Management.
 
 Met Transportbeheer kunt u het transport van uw bedrijf gebruiken en kunt u tevens leveranciers- en routeringoplossingen voor binnenkomende en uitgaande orders identificeren. Bijvoorbeeld, kunt u de snelste route of het minste dure tarief voor een zending identificeren. In de volgende tabel worden de hoofdscenario´s beschreven voor het gebruik van Transportbeheer.
 

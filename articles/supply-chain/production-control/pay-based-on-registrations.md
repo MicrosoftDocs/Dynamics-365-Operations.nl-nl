@@ -1,6 +1,6 @@
 ---
 title: Salaris op basis van registraties
-description: In dit onderwerp wordt uitgelegd hoe salaris wordt berekend op basis van medewerkerregistraties.
+description: In dit artikel wordt uitgelegd hoe salaris wordt berekend op basis van medewerkerregistraties.
 author: johanhoffmann
 ms.date: 03/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 58ff2629c2894e85ca5529df5f995ffa5273de67e1c22564f5f9911ea86fbd95
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 729e2f6c7c2dac598154b342244ab3d8eccaf4d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715717"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844375"
 ---
 # <a name="pay-based-on-registrations"></a>Salaris op basis van registraties
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt gedetailleerd uitgelegd hoe salaris wordt berekend op basis van medewerkerregistraties. U vindt hier voorbeelden die laten zien hoe de verschillende combinaties van beschikbare instellingsopties voor de berekening het resultaat beïnvloeden. Hier volgen enkele van de onderwerpen die aan bod komen:
+In dit artikel wordt gedetailleerd uitgelegd hoe salaris wordt berekend op basis van medewerkerregistraties. U vindt hier voorbeelden die laten zien hoe de verschillende combinaties van beschikbare instellingsopties voor de berekening het resultaat beïnvloeden. Hier volgen enkele van de onderwerpen die aan bod komen:
 
 - Flextijd
 - Overtijd

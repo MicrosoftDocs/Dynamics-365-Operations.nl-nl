@@ -1,6 +1,6 @@
 ---
 title: Beoordelingen en recensies importeren en exporteren
-description: In dit onderwerp wordt beschreven hoe u productbeoordelingen en -recensies importeert en exporteert in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt beschreven hoe u productbeoordelingen en -recensies importeert en exporteert in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 01/12/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 3ae85f21f7a78d56621aed60527207badcee9c75
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 97407f62d462c0ae370e9ea0d2799d3f30ecacfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968515"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863396"
 ---
 # <a name="import-and-export-ratings-and-reviews"></a>Beoordelingen en recensies importeren en exporteren
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u productbeoordelingen en -recensies importeert en exporteert in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt beschreven hoe u productbeoordelingen en -recensies importeert en exporteert in Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce biedt [Beoordelingen en recensies](ratings-reviews-overview.md) als een oplossing voor meerdere kanalen. Wanneer u overschakelt naar de oplossing voor beoordelingen en recensies van Dynamics 365 Commerce, wilt u mogelijk uw bestaande beoordelingen en recensies naar het Commerce-platform verplaatsen. Het kan zijn dat u ook beoordelingen en recensies wilt exporteren vanuit Commerce op basis van uw bedrijfsbehoeften. Met een Power Automate-connector kunt u beoordelingen en recensies in Commerce importeren en exporteren vanuit Commerce.
 

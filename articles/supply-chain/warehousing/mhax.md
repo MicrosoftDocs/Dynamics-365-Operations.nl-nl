@@ -1,6 +1,6 @@
 ---
 title: Interface voor materiaalverwerkingsapparatuur (MHAX)
-description: In dit onderwerp wordt beschreven hoe u de interface voor materiaalverwerkingsapparatuur (Material Handling Equipment Interface, MHAX) in kunt stellen zodat u verbinding kunt maken met externe fysieke MH-systemen (Material Handling).
+description: In dit artikel wordt beschreven hoe u de interface voor materiaalverwerkingsapparatuur (Material Handling Equipment Interface, MHAX) in kunt stellen zodat u verbinding kunt maken met externe fysieke MH-systemen (Material Handling).
 author: Mirzaab
 ms.date: 03/04/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4c04b8a9574bb6f34b56b4a7462882f1885f1178
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c4b0d991d320d5a679d0ed60880c56a6cb849e2d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695586"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907082"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Interface voor materiaalverwerkingsapparatuur (MHAX)
 
@@ -88,7 +88,7 @@ Als u een abonnement wilt maken, gaat u naar **Interface voor materiaalverwerkin
 
 Er kan aan elk abonnement een query worden gekoppeld. Met deze query worden werkregels en headers gefilterd ter beperking van het werk dat gebruikmaakt van het abonnement voor het genereren van gebeurtenissen. Als u een query aan een abonnement wilt toevoegen, selecteert u het selectievakje **Query uitvoeren** voor het relevante abonnement op de pagina **Abonnementen** en selecteert u vervolgens **Query bewerken** in het actievenster. De standaard query-editoreditor van Supply Chain Management wordt weergegeven.
 
-Het abonnement bevat bovendien een *abonnementstoewijzing* waarmee velden vanuit de werkheader of de werkregel worden toegewezen aan enkele of alle 10 vrije gegevensvelden van de uitgaande gebeurtenis, indien nodig. Als u gegevens naar de MHAX-service wilt retourneren, zult u gewoonlijk de werkregelrecord-id of de *werkregelpaar-id* opnemen. (De werkregelpaar-is is een nieuwe eigenschap waarmee het systeem één retouropdracht kan gebruiken voor het verwerken regels voor verzamelen en wegzetten.) De resterende velden zijn afhankelijk van de use case. Verderop in dit onderwerp worden enkele voorbeelden gegeven.
+Het abonnement bevat bovendien een *abonnementstoewijzing* waarmee velden vanuit de werkheader of de werkregel worden toegewezen aan enkele of alle 10 vrije gegevensvelden van de uitgaande gebeurtenis, indien nodig. Als u gegevens naar de MHAX-service wilt retourneren, zult u gewoonlijk de werkregelrecord-id of de *werkregelpaar-id* opnemen. (De werkregelpaar-is is een nieuwe eigenschap waarmee het systeem één retouropdracht kan gebruiken voor het verwerken regels voor verzamelen en wegzetten.) De resterende velden zijn afhankelijk van de use case. Verderop in dit artikel worden enkele voorbeelden gegeven.
 
 Als u een abonnementstoewijzing wilt instellen, selecteert u het desbetreffende abonnement op de pagina **Abonnementen** en selecteert u vervolgens **Abonnementstoewijzing** in het actievenster. In het dialoogvenster **Abonnementstoewijzing** dat verschijnt, kunt u een tabel en een veld toewijzen voor elk beschikbare gegevensveld dat u nodig hebt.
 
@@ -161,7 +161,7 @@ Als de werkregelpaar-id is opgegeven, worden alle orderverzamel- en wegzetwerkre
 
 Voor orderverzamelregels die afkomstig zijn van door een nummerplaat beheerde locaties, moet in het veld **data03** de nummerplaat worden opgegeven van waaruit artikelen moeten worden verzameld voor een order, ongeacht of de regels zijn gemarkeerd door de werkregelrecord-id of de werkregelpaar-id. In het veld **data04** moet de doelnummerplaat van de werkheader voor de orderverzamelbewerking worden opgegeven.
 
-Op wegzetregels worden geen verdere informatie geaccepteerd. Deze worden alleen uitgevoerd op basis van de locatie van de huidige werkregel en de doelnummerplaat van het werk. Als de wegzetbewerking naar een andere locatie moet worden uitgevoerd, wijzigt u de locatie van de werkregel, zoals beschreven in de sectie [Gebeurtenissen overschrijven](#override-events) verderop in dit onderwerp.
+Op wegzetregels worden geen verdere informatie geaccepteerd. Deze worden alleen uitgevoerd op basis van de locatie van de huidige werkregel en de doelnummerplaat van het werk. Als de wegzetbewerking naar een andere locatie moet worden uitgevoerd, wijzigt u de locatie van de werkregel, zoals beschreven in de sectie [Gebeurtenissen overschrijven](#override-events) verderop in dit artikel.
 
 Aangepaste werkregels vereisen of ondersteunen geen extra informatie in de binnenkomende gebeurtenis.
 
@@ -220,7 +220,7 @@ Uiteindelijk zal uw binnenkomende wachtrij vol raken met wachtrijartikelen die a
 
 ## <a name="get-a-quick-overview-by-using-the-queue-manager"></a>Snel een overzicht krijgen met de wachtrijbeheerder
 
-Als u snel een overzicht wilt hebben van alle activiteiten die te maken hebben met uw binnenkomende en uitgaande wachtrijen, gaat u naar **Interface voor materiaalverwerkingsapparatuur \> Werkruimten \> Wachtrijbeheerder**. De pagina **Wachtrijbeheerder** biedt een set tabbladen en informatie die u kunt gebruiken om uw wachtrijen te bewaken en te bekijken. Op deze pagina vindt u ook nuttige koppelingen naar de meeste andere pagina's die in dit onderwerp worden genoemd.
+Als u snel een overzicht wilt hebben van alle activiteiten die te maken hebben met uw binnenkomende en uitgaande wachtrijen, gaat u naar **Interface voor materiaalverwerkingsapparatuur \> Werkruimten \> Wachtrijbeheerder**. De pagina **Wachtrijbeheerder** biedt een set tabbladen en informatie die u kunt gebruiken om uw wachtrijen te bewaken en te bekijken. Op deze pagina vindt u ook nuttige koppelingen naar de meeste andere pagina's die in dit artikel worden genoemd.
 
 ## <a name="connect-to-the-mhax-service"></a>Verbinding maken met de MHAX-service
 

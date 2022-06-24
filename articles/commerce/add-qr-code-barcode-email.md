@@ -1,6 +1,6 @@
 ---
 title: Een QR-code of streepjescode toevoegen aan transactionele e-mails en ontvangstberichten
-description: In dit onderwerp wordt uitgelegd hoe u QR-codes en streepjescodes die order-id's vertegenwoordigen kunt invoegen in transactionele e-mails en ontvangstberichten in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt uitgelegd hoe u QR-codes en streepjescodes die order-id's vertegenwoordigen kunt invoegen in transactionele e-mails en ontvangstberichten in Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 03/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-02-16
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 5f7b349700a4b3b43f818b30bb479e630048e8b8
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ffa0009c55b5322b209b19692952c2e0704f65c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688960"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872879"
 ---
 # <a name="add-a-qr-code-or-bar-code-to-transactional-and-receipt-emails"></a>Een QR-code of streepjescode toevoegen aan transactionele e-mails en ontvangstberichten
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u QR-codes en streepjescodes die order-id's vertegenwoordigen kunt invoegen in transactionele e-mails en ontvangstberichten in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt uitgelegd hoe u QR-codes en streepjescodes die order-id's vertegenwoordigen kunt invoegen in transactionele e-mails en ontvangstberichten in Microsoft Dynamics 365 Commerce.
 
 U kunt eenvoudig QR-codes en streepjescodes in transactionele e-mails opnemen, zodat het opzoekproces voor orders in een detailhandelomgeving wordt versneld. Als u QR-codes en streepjescodes wilt invoegen in e-mails, gebruikt u een HTML **\<img\>**-code waarin wordt gevraagd om een QR-code of streepjescodeafbeelding van een generatie- en renderingservice. Microsoft levert deze service niet. Er bestaat echter een groot aantal gratis of voordelige services waarmee u QR-codes of streepjescodes kunt gebruiken die dynamisch worden gegenereerd op basis van een waarde die wordt doorgegeven in een queryreeks.
 

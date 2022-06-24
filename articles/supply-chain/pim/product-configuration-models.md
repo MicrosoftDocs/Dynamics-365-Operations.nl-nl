@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fddad1fffd61ef0cf78977721bdf2da51aa4c682
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9bee2d68a2ed2aa339ddf8232bba4541f4fe52b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984641"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871915"
 ---
 # <a name="product-configuration-models-overview"></a>Overzicht productconfiguratiemodellen
 
@@ -75,7 +75,7 @@ Als het type kenmerk <strong>Booleaans</strong>, <strong>Geheel getal</strong> m
 <td>Beperkingen</td>
 <td>Beperkingen beschrijven de beperkingen van het productconfiguratiemodel. Beperkingen worden gebruikt om te garanderen dat alleen geldige waarden zijn geselecteerd wanneer een product wordt geconfigureerd. Er zijn twee typen beperkingen: expressiebeperkingen en tabelbeperkingen:
 <ul>
-<li>Expressiebeperkingen kunnen alleen worden gebruikt voor het onderdeel waaraan ze gekoppeld zijn. De expressiebeperkingen voor een onderdeel kunnen echter verwijzen naar kenmerken van subonderdelen van het onderdeel. De productconfiguratieoplosser wordt gebruikt voor het oplossen van de beperkingen, en u moet de oplossersyntaxis gebruiken wanneer u de beperkingen schrijft. Zie de onderwerpkoppeling over expressiebeperkingen en tabelbeperkingen voor meer info.</li>
+<li>Expressiebeperkingen kunnen alleen worden gebruikt voor het onderdeel waaraan ze gekoppeld zijn. De expressiebeperkingen voor een onderdeel kunnen echter verwijzen naar kenmerken van subonderdelen van het onderdeel. De productconfiguratieoplosser wordt gebruikt voor het oplossen van de beperkingen, en u moet de oplossersyntaxis gebruiken wanneer u de beperkingen schrijft. Zie de artikelkoppeling over expressiebeperkingen en tabelbeperkingen voor meer info.</li>
 <li>Tabelbeperkingen moeten worden gedefinieerd voordat ze op een component in een productconfiguratie kunnen worden toegepast. Tabelbeperkingen kunnen door de gebruiker of door het systeem zijn gedefinieerd. Een gebruikergedefinieerde tabelbeperking is een matrix die kan worden gebruikt voor het beschrijven van combinaties voor de waarden die zijn gedefinieerd door het kenmerktypen. Als er bijvoorbeeld speakers worden geproduceerd, heeft de matrix voor een gebruikergedefinieerde tabelbeperking mogelijk kolommen voor de speakerafwerking en speaker grill.</li>
 </ul>
 <strong>Voorbeeld</strong> De speakers zijn beschikbaar in vier afwerkingen: Zwart, Eiken, Rozenhout en Wit. De speakers kunnen drie voorgrills hebben: Zwart, Metaal of Wit. De zwarte afwerking is beschikbaar voor alle grills, maar de andere afwerkingen zijn beperkt tot specifieke grills. De volgende tabel toont een voorbeeld van de informatie die op het tabblad <strong>Toegestane combinaties</strong> op de pagina <strong>Tabelbeperking bewerken</strong> wordt weergegeven.

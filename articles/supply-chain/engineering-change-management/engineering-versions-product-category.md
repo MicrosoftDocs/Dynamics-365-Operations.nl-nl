@@ -1,6 +1,6 @@
 ---
 title: Technische versies van en categorieën voor technische producten
-description: Dit onderwerp bevat informatie over het concept van technische versies. Technische versies zorgen ervoor dat de verschillende statussen van een product en de bijbehorende gegevens actueel en duidelijk blijven en dat ze in het systeem kunnen worden gevisualiseerd.
+description: Dit artikel bevat informatie over het concept van technische versies. Technische versies zorgen ervoor dat de verschillende statussen van een product en de bijbehorende gegevens actueel en duidelijk blijven en dat ze in het systeem kunnen worden gevisualiseerd.
 author: t-benebo
 ms.date: 04/07/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a4d057c603e6592e491af7597e50fce2497860ec
-ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
+ms.openlocfilehash: a98ead81a61ceac2ed721848847164f76e758f80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "8553357"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872060"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Technische versies van en categorieën voor technische producten
 
@@ -60,7 +60,7 @@ Houd er rekening mee dat een technisch product slechts in één order voor techn
 
 ## <a name="track-versions-in-transactions"></a>Versies in transacties traceren
 
-Wanneer u Technisch wijzigingsbeheer gebruikt, bevatten productmodelgegevens altijd een of meer technische versies. Bij het instellen van technische producten kunt u kiezen of de technische versie ook deel uitmaakt van *logistieke transacties*. (Zie het gedeelte [Categorieën voor technische producten instellen](#product-category) verderop in dit onderwerp). Als de logistieke impact relevant is, verschilt deze per product en per bedrijf. Soms wordt alleen de laatste versie van een product gebruikt. In dat geval kan de vorige versie niet meer worden gebruikt wanneer u een nieuwe versie introduceert. In andere gevallen is de vorige versie vereist in logistieke transacties om de volgende uitdagingen te overwinnen:
+Wanneer u Technisch wijzigingsbeheer gebruikt, bevatten productmodelgegevens altijd een of meer technische versies. Bij het instellen van technische producten kunt u kiezen of de technische versie ook deel uitmaakt van *logistieke transacties*. (Zie het gedeelte [Categorieën voor technische producten instellen](#product-category) verderop in dit artikel). Als de logistieke impact relevant is, verschilt deze per product en per bedrijf. Soms wordt alleen de laatste versie van een product gebruikt. In dat geval kan de vorige versie niet meer worden gebruikt wanneer u een nieuwe versie introduceert. In andere gevallen is de vorige versie vereist in logistieke transacties om de volgende uitdagingen te overwinnen:
 
 - De afdeling Logistiek moet twee stuks van een product naar een klant verzenden. In dit geval moet u beslissen of u twee verschillende versies wilt laten verzenden.
 - Later wordt ontdekt dat er een probleem optreedt en dat het is gerelateerd aan een bepaalde wijziging. In dit geval kan het nuttig zijn om exact te kunnen bepalen welke versie in elke order is verzonden.
@@ -118,7 +118,7 @@ Stel de volgende velden op het sneltabblad **Details** van een categorie voor ee
 | Productdimensiegroep | Met de instelling **Versies in transacties traceren** kunt u de productdimensiegroep selecteren. Als u hebt opgegeven dat u de versie in transacties wilt bijhouden, worden de productdimensiegroepen weergegeven waarvoor de dimensie *versie* wordt gebruikt. Anders worden alleen productdimensiegroepen weergegeven waarvoor de dimensie *versie* niet wordt gebruikt. |
 | Status in productlevenscyclus na aanmaken | Stel de standaard levenscyclusstatus in die een technisch product moet hebben wanneer het voor het eerst wordt gemaakt. Zie voor meer informatie [Levenscyclusstatussen en transacties van producten](product-lifecycle-state-transactions.md). |
 | Versienummerregel | Selecteer de versienummerregel die van toepassing is op de categorie:<ul><li>**Handmatig**: u kiest het versienummer voor elke nieuwe versie.</li><li>**Automatisch**: het versienummer wordt ingesteld op basis van een indeling die u definieert. Wanneer u de notatie instelt, gebruikt u een hekje (\#) om een cijfer aan te duiden en elk ander teken voor een constante waarde. Als u de notatie bijvoorbeeld definieert als *V-\#\#*, is de eerste versie V-01, de tweede V-02, enzovoort.</li><li>**Lijst**: het volgende nummer wordt opgehaald uit een vooraf gedefinieerde lijst met aangepaste waarden die u definieert.</li></ul> |
-| Geldigheid afdwingen | Geef op of de ingangsdatums van de technische versies aaneengesloten moeten zijn of dat er hiaten en overlappingen kunnen bestaan. Deze instelling is van invloed op de manier waarop u de velden **Geldig vanaf** en **Geldig tot** kunt gebruiken voor elke technische versie waarop de categorie van toepassing is.<ul><li>Als deze optie is ingesteld op *Ja*, moet er een waarde voor **Geldig vanaf** worden opgegeven voor elke versie en zijn hiaten en overlappingen niet toegestaan tussen versies. Het datumbereik voor elke technische versie is direct verbonden met de vorige en volgende technische versies, indien aanwezig. In dit scenario wordt altijd de nieuwste versie gebruikt en worden oudere versies niet meer gebruikt.</li><li>Als deze optie is ingesteld op **Nee**, gelden er geen beperkingen voor de geldigheidsdatumvelden voor technische versies en zijn zowel overlappingen als hiaten toegestaan. In dit scenario kunnen meerdere versies tegelijk actief zijn en kunt u met elke actieve versie werken.</li></ul><p>Deze optie is ook van invloed op stuklijsten en routes die zijn verbonden met een productversie. Zie de sectie [Stuklijsten en routes verbinden met technische versies](#boms-routes) verderop in dit onderwerp voor meer informatie.</p> |
+| Geldigheid afdwingen | Geef op of de ingangsdatums van de technische versies aaneengesloten moeten zijn of dat er hiaten en overlappingen kunnen bestaan. Deze instelling is van invloed op de manier waarop u de velden **Geldig vanaf** en **Geldig tot** kunt gebruiken voor elke technische versie waarop de categorie van toepassing is.<ul><li>Als deze optie is ingesteld op *Ja*, moet er een waarde voor **Geldig vanaf** worden opgegeven voor elke versie en zijn hiaten en overlappingen niet toegestaan tussen versies. Het datumbereik voor elke technische versie is direct verbonden met de vorige en volgende technische versies, indien aanwezig. In dit scenario wordt altijd de nieuwste versie gebruikt en worden oudere versies niet meer gebruikt.</li><li>Als deze optie is ingesteld op **Nee**, gelden er geen beperkingen voor de geldigheidsdatumvelden voor technische versies en zijn zowel overlappingen als hiaten toegestaan. In dit scenario kunnen meerdere versies tegelijk actief zijn en kunt u met elke actieve versie werken.</li></ul><p>Deze optie is ook van invloed op stuklijsten en routes die zijn verbonden met een productversie. Zie de sectie [Stuklijsten en routes verbinden met technische versies](#boms-routes) verderop in dit artikel voor meer informatie.</p> |
 | Nummerregel van nomenclatuur gebruiken | Stel deze optie in op *Ja* om regels in te schakelen voor het definiëren van een productnummer met behulp van nummerreeksen, namen en waarden van technische kenmerken en tekstconstanten als segmenten. Als u regels wilt maken of wijzigen, selecteert u de knop **Bewerken**. |
 | Naamregel van nomenclatuur gebruiken | Stel deze optie in op *Ja* om regels in te schakelen voor het definiëren van een naam met behulp van de namen en waarden van technische kenmerken en tekstconstanten als segmenten. Als u regels wilt maken of wijzigen, selecteert u de knop **Bewerken**. |
 | Omschrijvingsregel van nomenclatuur gebruiken | Stel deze optie in op *Ja* om regels in te schakelen voor het definiëren van de beschrijving met behulp van de namen en waarden van technische kenmerken en tekstconstanten als segmenten. Als u regels wilt maken of wijzigen, selecteert u de knop **Bewerken**. |

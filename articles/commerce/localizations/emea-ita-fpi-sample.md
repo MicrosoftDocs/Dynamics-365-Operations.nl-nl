@@ -1,6 +1,6 @@
 ---
 title: Voorbeeld van integratie van fiscale printer voor Italië
-description: Dit onderwerp biedt een overzicht van het fiscale integratievoorbeeld voor Italië in Microsoft Dynamics 365 Commerce.
+description: Dit artikel biedt een overzicht van het fiscale integratievoorbeeld voor Italië in Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2018-11-1
-ms.openlocfilehash: 02226fd9f2c92db2518ca48baefb680a3d2f0ac1
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 2aa1851fe5fe447ba2dd4640be9881b37e54216e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076898"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909385"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>Voorbeeld van integratie van fiscale printer voor Italië
 
 [!include[banner](../includes/banner.md)]
 
-Dit onderwerp biedt een overzicht van het fiscale integratievoorbeeld voor Italië in Microsoft Dynamics 365 Commerce.
+Dit artikel biedt een overzicht van het fiscale integratievoorbeeld voor Italië in Microsoft Dynamics 365 Commerce.
 
 De Commerce-functionaliteit voor Italië omvat een voorbeeldintegratie van het verkooppunt (POS) met een fiscale printer. De voorbeeldfunctie is een uitbreiding van de [functionaliteit voor fiscale integratie](fiscal-integration-for-retail-channel.md) zodat deze werkt met printers uit de [Epson FP-90III-reeks](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) en maakt communicatie met een fiscale printer in de webservermodus mogelijk via de webservice EpsonFPMate met behulp van Fiscal ePOS-Print API. Het voorbeeld ondersteunt alleen de RT-modus (Registratore Telematico). Het voorbeeld wordt geleverd in de vorm van broncode en maakt deel uit van de Retail Software Development Kit (SDK).
 

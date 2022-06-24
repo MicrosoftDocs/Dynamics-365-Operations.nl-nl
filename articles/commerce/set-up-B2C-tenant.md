@@ -1,6 +1,6 @@
 ---
 title: Een B2C-tenant instellen in Commerce
-description: In dit onderwerp wordt beschreven hoe u uw B2C-tenants (business-to-consumers) in Azure Active Directory (Azure AD) instelt voor de verificatie van sitegebruikers in Dynamics 365 Commerce.
+description: In dit artikel wordt beschreven hoe u uw B2C-tenants (business-to-consumers) in Azure Active Directory (Azure AD) instelt voor de verificatie van sitegebruikers in Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 05/05/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 086128091b23ce6ab46dd2dfc0803af38de6bac7
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 4b1ee8999717d70dfe36baef95921962a1b7be65
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714307"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853736"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Een B2C-tenant instellen in Commerce
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u uw B2C-tenants (business-to-consumers) in Azure Active Directory (Azure AD) instelt voor de verificatie van sitegebruikers in Dynamics 365 Commerce.
+In dit artikel wordt beschreven hoe u uw B2C-tenants (business-to-consumers) in Azure Active Directory (Azure AD) instelt voor de verificatie van sitegebruikers in Dynamics 365 Commerce.
 
 Dynamics 365 Commerce gebruikt Azure AD B2C om gebruikersreferenties en verificatiestromen te ondersteunen. Een gebruiker kan zich registreren en aanmelden, en vervolgens zijn/haar wachtwoord opnieuw instellen via deze stromen. Azure AD B2C slaat gevoelige gebruikersverificatiegegevens op, zoals de gebruikersnaam en het wachtwoord. In de gebruikersrecord in de B2C-tenant wordt een record voor een lokale B2C-account of een record voor een B2C-provider van sociale identiteiten opgeslagen. Deze B2C-records verwijzen weer naar de klantrecord in de Commerce-omgeving.
 

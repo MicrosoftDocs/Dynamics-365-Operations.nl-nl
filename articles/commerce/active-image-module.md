@@ -1,6 +1,6 @@
 ---
 title: Module voor actieve afbeeldingen
-description: In dit onderwerp wordt beschreven wat modules voor actieve afbeeldingen zijn en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt beschreven wat modules voor actieve afbeeldingen zijn en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 06b9162029de3f5f3fede9583fa8a4a96fefb2f3
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 3d532d21f847a80a16af814eeaf097a616605795
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780280"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853845"
 ---
 # <a name="active-image-module"></a>Module voor actieve afbeeldingen
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven wat modules voor actieve afbeeldingen zijn en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt beschreven wat modules voor actieve afbeeldingen zijn en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 
 Een module voor actieve afbeeldingen kan worden gebruikt om productlabels in een afbeelding in te voegen. Gebruikers van de e-Commercesite kunnen vervolgens de aanwijzer boven de labels plaatsen om een voorbeeld van producten weer te geven die in de afbeelding worden weergegeven. De voorbeelden worden weergegeven in pop-upvensters. Als u een pop-upvenster voor een voorbeeld selecteert, kunnen gebruikers rechtstreeks naar de pagina met productdetails (PDP) voor het bijbehorende product gaan.
 

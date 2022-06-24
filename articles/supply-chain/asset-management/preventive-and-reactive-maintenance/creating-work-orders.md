@@ -1,6 +1,6 @@
 ---
 title: Werkorders maken
-description: In dit onderwerp wordt uitgelegd hoe u werkorders maakt in Activabeheer.
+description: In dit artikel wordt uitgelegd hoe u werkorders maakt in Activabeheer.
 author: johanhoffmann
 ms.date: 02/01/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c1477e3c1b99172d84d2cdc64fc0ed01c057e0fa59422b30c17868ca400de4d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1b8b3d8d83bdad2efe49bd4e878793cca6c49f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743693"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891200"
 ---
 # <a name="creating-work-orders"></a>Werkorders maken
 
@@ -60,7 +60,7 @@ Volg deze stappen om werkorders te maken op basis van uw onderhoudsschema.
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Werkorderregels groeperen die automatisch worden gemaakt terwijl een onderhoudsplan wordt uitgevoerd
 
-Met deze functie kunt u regels definiëren voor het groeperen van werkorderregels onder één werkorder wanneer het systeem is ingesteld om automatisch werkorders te genereren op basis van een onderhoudsplan. Eerder automatisch gegenereerde werkorders kunnen slechts één regel bevatten. U kunt werkorders nu echter wel groeperen op bijvoorbeeld activa, activatype of functionele locatie. (Handmatig gegenereerde werkorders konden al op deze manier worden gegroepeerd, zoals wordt beschreven in de vorige sectie van dit onderwerp.)
+Met deze functie kunt u regels definiëren voor het groeperen van werkorderregels onder één werkorder wanneer het systeem is ingesteld om automatisch werkorders te genereren op basis van een onderhoudsplan. Eerder automatisch gegenereerde werkorders kunnen slechts één regel bevatten. U kunt werkorders nu echter wel groeperen op bijvoorbeeld activa, activatype of functionele locatie. (Handmatig gegenereerde werkorders konden al op deze manier worden gegroepeerd, zoals wordt beschreven in de vorige sectie van dit artikel.)
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>Groepering inschakelen voor automatisch gegenereerde werkorders
 

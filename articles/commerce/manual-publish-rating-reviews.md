@@ -1,6 +1,6 @@
 ---
 title: Handmatig publiceren van beoordelingen en recensies inschakelen door een moderator
-description: In dit onderwerp wordt beschreven hoe u handmatig publiceren van beoordelingen en recensies door een moderator in Microsoft Dynamics 365 Commerce inschakelt en hoe u handmatig beoordelingen en recensies publiceert.
+description: In dit artikel wordt beschreven hoe u handmatig publiceren van beoordelingen en recensies door een moderator in Microsoft Dynamics 365 Commerce inschakelt en hoe u handmatig beoordelingen en recensies publiceert.
 author: gvrmohanreddy
 manager: annbe
 ms.date: 09/03/2021
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0709173b8c3dfb7018d0bd9a712554112722a1f3
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7d90cbbdc1ac0368c6ccfbeef7ff8db9b65679a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693277"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892618"
 ---
 # <a name="enable-manual-publishing-of-ratings-and-reviews-by-a-moderator"></a>Handmatig publiceren van beoordelingen en recensies inschakelen door een moderator
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u handmatig publiceren van beoordelingen en recensies door een moderator in Microsoft Dynamics 365 Commerce inschakelt en hoe u handmatig beoordelingen en recensies publiceert.
+In dit artikel wordt beschreven hoe u handmatig publiceren van beoordelingen en recensies door een moderator in Microsoft Dynamics 365 Commerce inschakelt en hoe u handmatig beoordelingen en recensies publiceert.
 
 De oplossing voor beoordelingen en recensies van Dynamics 365 Commerce gebruikt Azure Cognitive Services om automatisch grof taalgebruik in beoordelingstitels en -inhoud te bewerken en om beoordelingen en recensies te publiceren. Handmatige tussenkomst is dus niet nodig om beoordelingen en recensies op uw e-commercesite te beoordelen en te publiceren.
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d5aa579394a0e3bd4c27cd44c9ff98951b3bfe1c
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 559ca80976955d6328cb4d6b2020d5662460cef9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103658"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863645"
 ---
 # <a name="putaway-clusters"></a>Wegzetclusters
 
@@ -27,7 +27,7 @@ Wegzetclusters bieden u de mogelijkheid om meerdere nummerplaten tegelijk te ver
 
 ## <a name="turn-the-cluster-putaway-feature-on-or-off"></a>De functie Cluster wegzetten in- of uitschakelen
 
-Als u de functionaliteit wilt gebruiken die in dit onderwerp wordt beschreven, moet de functie *Cluster wegzetten* zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Cluster wegzetten* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Als u de functionaliteit wilt gebruiken die in dit artikel wordt beschreven, moet de functie *Cluster wegzetten* zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Cluster wegzetten* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup-for-the-example-scenario"></a>Instellingen voor het voorbeeldscenario
 

@@ -1,6 +1,6 @@
 ---
 title: Mobiele apparaten instellen voor magazijnwerk
-description: In dit onderwerp wordt beschreven hoe u de menu-items configureert die magazijnmedewerkers gebruiken om werk op een mobiel apparaat uit te voeren.
+description: In dit artikel wordt beschreven hoe u de menu-items configureert die magazijnmedewerkers gebruiken om werk op een mobiel apparaat uit te voeren.
 author: Mirzaab
 ms.date: 03/23/2020
 ms.topic: article
@@ -15,21 +15,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9e0f27839d9e6330cc8a11874a5cb1786daf8dc
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: efbf9072c3bbcb20f38e144f9a15d8178d96d708
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902174"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905568"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiele apparaten instellen voor magazijnwerk
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u de menu-items configureert die magazijnmedewerkers gebruiken om werk op een mobiel apparaat uit te voeren.
+In dit artikel wordt beschreven hoe u de menu-items configureert die magazijnmedewerkers gebruiken om werk op een mobiel apparaat uit te voeren.
 
 > [!NOTE]
-> Dit onderwerp is van toepassing op functies in Magazijnbeheer. Het geldt niet voor functies in Voorraadbeheer. De menuopties die in de menu's op een mobiel apparaat in een magazijn worden weergegeven worden geconfigureerd op de pagina **Menuopties voor mobiel apparaat**. Omdat de menuopties op verschillende menu's kunnen worden geplaatst, is het gemakkelijk om menustructuren te configureren zodat alleen specifieke typen werk aan specifieke gebruikers worden beschikbaar gesteld. U kunt de menuopties configureren om de volgende taken uit te voeren:
+> Dit artikel is van toepassing op functies in Magazijnbeheer. Het geldt niet voor functies in Voorraadbeheer. De menuopties die in de menu's op een mobiel apparaat in een magazijn worden weergegeven worden geconfigureerd op de pagina **Menuopties voor mobiel apparaat**. Omdat de menuopties op verschillende menu's kunnen worden geplaatst, is het gemakkelijk om menustructuren te configureren zodat alleen specifieke typen werk aan specifieke gebruikers worden beschikbaar gesteld. U kunt de menuopties configureren om de volgende taken uit te voeren:
 
 - Een query verwerken of een activiteit uitvoeren, zoals een label afdrukken, nummerplaatnummers genereren, een productieorder starten of snel informatie over artikelen op een locatie opzoeken.
 - Maken het werk dat door een ander proces wordt uitgevoerd. Bijvoorbeeld, door het ontvangen van een artikel voor een inkooporder kan weggezet werk worden gemaakt voor een andere werknemer.
@@ -38,7 +38,7 @@ In dit onderwerp wordt beschreven hoe u de menu-items configureert die magazijnm
 Als u een menuopdracht voor een activiteit of query wilt maken, stelt u het veld **Modus** in op **Indirect**. Een lijst met opties voor **Activiteitscode** worden vervolgens beschikbaar, zodat u het type query of de activiteit kunt selecteren waarvoor de menuopdracht is bedoeld. Als u een menuopdracht voor het genereren van magazijnwerk wilt maken, stelt u het veld **Modus** in op **Werk**. Een lijst met opties voor **Proces van werkaanmaak** wordt vervolgens beschikbaar. Als u een menuoptie wilt maken om het bestaande magazijnwerk te verwerken, stelt u het veld **Modus** in op **Werk** en stelt u vervolgens de optie **Bestaand werk gebruiken** in op **Ja**. 
 
 > [!NOTE]
-> Er kunnen aanvullende velden voor menuopdrachten beschikbaar zijn. Dit hangt af van de modus die u selecteert voor de menuopdracht en of de menuopdracht wordt gebruikt om bestaand werk uit te voeren. Zie voor informatie over de aanvullende veldselecties de sectie "Extra opties voor menuopties" verderop in dit onderwerp.
+> Er kunnen aanvullende velden voor menuopdrachten beschikbaar zijn. Dit hangt af van de modus die u selecteert voor de menuopdracht en of de menuopdracht wordt gebruikt om bestaand werk uit te voeren. Zie voor informatie over de aanvullende veldselecties de sectie "Extra opties voor menuopdrachten" verderop in dit artikel.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Menuopties configureren voor activiteiten en query's
 

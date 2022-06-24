@@ -1,6 +1,6 @@
 ---
 title: Werken met locatie-instructies
-description: In dit onderwerp wordt beschreven hoe u met locatie-instructies werkt. Locatie-instructies zijn door gebruiker gedefinieerde regels voor het aangeven van verzamel- en wegzetlocaties voor voorraadverplaatsingen.
+description: In dit artikel wordt beschreven hoe u met locatie-instructies werkt. Locatie-instructies zijn door gebruiker gedefinieerde regels voor het aangeven van verzamel- en wegzetlocaties voor voorraadverplaatsingen.
 author: Mirzaab
 ms.date: 11/13/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 84ff0a466c037db05aecaff14aa2e17990ce8799
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 7705ea132521353cd6af7245df90aafaf23af885
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103133"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903690"
 ---
 # <a name="work-with-location-directives"></a>Werken met locatie-instructies
 
@@ -27,7 +27,7 @@ ms.locfileid: "8103133"
 De locatierichtlijnen zijn regels die verzamelings- en wegzetlocaties identificeren voor voorraadverplaatsing. In een verkoopordertransactie kan een locatierichtlijn bijvoorbeeld bepalen waar de artikelen worden verzameld en waar de verzamelde artikelen worden geplaatst. Locatie-instructies bestaan uit een kop en bijbehorende regels. Deze worden gemaakt voor specifieke *werkordertypen*.
 
 > [!NOTE]
-> Dit onderwerp geldt voor functies in de module voor **Magazijnbeheer**. Het is niet van toepassing op functies in de module [Voorraadbeheer](../inventory/inventory-home-page.md).
+> Dit artikel geldt voor functies in de module voor **Magazijnbeheer**. Het is niet van toepassing op functies in de module [Voorraadbeheer](../inventory/inventory-home-page.md).
 
 Met locatie-instructies kunt u de volgende taken uitvoeren:
 
@@ -109,7 +109,7 @@ In de volgende tabel worden de velden weergegeven die specifiek zijn voor bepaal
 
 Om de pagina **Locatie-instructies** te openen, gaat u naar **Magazijnbeheer \> Setup \> Locatie-instructies**.
 
-Hier kunt u de locatie-instructies weergeven, maken en bewerken met de opdrachten in het actiedeelvenster. Zie de overige secties van dit onderwerp voor informatie over het gebruik van alle velden die beschikbaar zijn op de pagina.
+Hier kunt u de locatie-instructies weergeven, maken en bewerken met de opdrachten in het actiedeelvenster. Zie de overige secties van dit artikel voor informatie over het gebruik van alle velden die beschikbaar zijn op de pagina.
 
 ## <a name="action-pane"></a>Actievenster
 
@@ -162,7 +162,7 @@ De velden op het sneltabblad **Locatie-instructies** zijn specifiek voor het wer
 - **Toepasselijke beschikkingscode**: geef op of de beschikkingscode van de locatie-instructie moet overeenkomen met de beschikkingscode die wordt toegepast wanneer het artikel wordt ontvangen of dat de locatie-instructie op basis van elke beschikkingscode kan worden geselecteerd. Als u *Exacte overeenkomst* selecteert en het veld **Beschikkingscode** leeg is, worden alleen lege beschikkingscodes gebruikt voor deze locatie-instructie.
 
     > [!NOTE]
-    > Dit veld is alleen beschikbaar voor de geselecteerde werkordertypen waar aanvulling is toegestaan. Zie voor een volledige lijst de sectie [Velden die specifiek zijn voor werkordertypen](#fields-specific-types) eerder in dit onderwerp.
+    > Dit veld is alleen beschikbaar voor de geselecteerde werkordertypen waar aanvulling is toegestaan. Zie voor een volledige lijst de sectie [Velden die specifiek zijn voor werkordertypen](#fields-specific-types) eerder in dit artikel.
 
 - **Zoeken op**: geef op of de wegzethoeveelheid de gehele hoeveelheid op de nummerplaat moet zijn of dat deze per artikel moet zijn. Gebruik dit veld om ervoor te zorgen dat alle inhoud van een nummerplaat op één locatie wordt geplaatst en dat het systeem niet suggereert dat u de inhoud opsplitst in verschillende locaties voor **ASN** (nummerplaat voor ontvangen), **Gecombineerde nummerplaat** voor ontvangen en **Cluster** ontvangstprocessen. (Het **Cluster** ontvangstproces vereist dat de [functie Cluster wegzetten](putaway-clusters.md) wordt ingeschakeld.) Het gedrag van de query voor locatie-instructies, de regels en de locatie-instructieacties zijn afhankelijk van de waarde die u selecteert. Het sneltabblad **Regels** regels wordt alleen gebruikt wanneer **Zoeken op** is ingesteld op *Artikel*.
 
@@ -254,7 +254,7 @@ Nadat u locatie-instructies hebt gemaakt, kunt u elke instructiecode aan een wer
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 - Video: [Configuratie van magazijnbeheer: diepgravend](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- Help-onderwerp: [Magazijnwerk beheren met werksjablonen en locatierichtlijnen](control-warehouse-location-directives.md)
+- Help-artikel: [Magazijnwerk beheren met werksjablonen en locatierichtlijnen](control-warehouse-location-directives.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

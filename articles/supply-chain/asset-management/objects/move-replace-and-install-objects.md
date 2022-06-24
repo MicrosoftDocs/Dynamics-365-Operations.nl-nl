@@ -1,6 +1,6 @@
 ---
 title: Activa verplaatsen, vervangen en installeren
-description: In dit onderwerp wordt uitgelegd hoe u activa verplaatst, vervangt en installeert in Activabeheer.
+description: In dit artikel wordt uitgelegd hoe u activa verplaatst, vervangt en installeert in Activabeheer.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aad94f17d6efadf7c520c021354963e7135d6d4da1426774925ce877f705e01a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1454f41bb0b43e22c5278463f63aa4178696eef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769630"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872119"
 ---
 # <a name="move-replace-and-install-assets"></a>Activa verplaatsen, vervangen en installeren
 
@@ -28,7 +28,7 @@ ms.locfileid: "6769630"
 
  
 
-In dit onderwerp wordt uitgelegd hoe u activa verplaatst, vervangt en installeert in Activabeheer. U kunt afzonderlijke activa maken die geen relaties hebben met andere activa, of u kunt een activastructuur maken die een bovenliggend activum (op het hoogste niveau) en gerelateerde onderliggende activa (subactiva) bevat. In Activabeheer zijn er drie benaderingen voor het verplaatsen en wijzigen van de locatie van een activum:
+In dit artikel wordt uitgelegd hoe u activa verplaatst, vervangt en installeert in Activabeheer. U kunt afzonderlijke activa maken die geen relaties hebben met andere activa, of u kunt een activastructuur maken die een bovenliggend activum (op het hoogste niveau) en gerelateerde onderliggende activa (subactiva) bevat. In Activabeheer zijn er drie benaderingen voor het verplaatsen en wijzigen van de locatie van een activum:
 
 - **Verplaatsen**: een activum verplaatsen naar een andere activastructuur of naar een andere locatie in dezelfde activastructuur.
 - **Vervangen**: tijdelijk een activum verwijderen uit een activastructuur zodat het kan worden gerepareerd of gereviseerd, en vervolgens het gereviseerde activum weer aan de activastructuur toevoegen. U kunt ook een gebruikt activum permanent vervangen door een nieuw activum.
@@ -42,7 +42,7 @@ In dit onderwerp wordt uitgelegd hoe u activa verplaatst, vervangt en installeer
 Gebruik de functie **Activum verplaatsen** om een activum te verplaatsen naar een andere activastructuur of naar een andere locatie in dezelfde activastructuur. U kunt een activum ook uit een activastructuur verplaatsen, zodat het een zelfstandig activum wordt dat geen structuurrelaties heeft.
 
 > [!NOTE]
-> Gebruik deze functie niet als activa worden gerepareerd of tijdelijk worden vervangen. Gebruik in plaats daarvan de functie **Activum vervangen** die verderop in dit onderwerp wordt beschreven.
+> Gebruik deze functie niet als activa worden gerepareerd of tijdelijk worden vervangen. Gebruik in plaats daarvan de functie **Activum vervangen** die verderop in dit artikel wordt beschreven.
 
 1. Selecteer **Activabeheer** \> **Algemeen** \> **Activa** \> **Alle activa** of **Actieve activa**.
 2. Selecteer in de lijst het activum dat u wilt verplaatsen. Als het activum onderliggende activa heeft, verplaatst u deze activa ook.

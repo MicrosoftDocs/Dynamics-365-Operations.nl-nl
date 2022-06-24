@@ -1,6 +1,6 @@
 ---
 title: Routes en bewerkingen
-description: In dit onderwerp vindt u informatie over routes en bewerkingen.
+description: Dit artikel bevat informatie over routes en bewerkingen.
 author: johanhoffmann
 ms.date: 03/18/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab825227e7cd8848dbad58c58f5c6d7afc338f9c
-ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
+ms.openlocfilehash: 103c7007cd002c5953d096ff6001a93c4936b702
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7891948"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856014"
 ---
 # <a name="routes-and-operations"></a>Routes en bewerkingen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp vindt u informatie over routes en bewerkingen. Een route definieert het proces voor het produceren van een product of de productvariant. Hierin wordt elke stap (bewerking) in het productieproces beschreven, plus de volgorde waarin deze stappen moeten worden uitgevoerd. Voor elke stap definieert de route ook de vereiste bronnen voor bedrijfsactiviteiten, de vereiste insteltijd en uitvoeringstijd en hoe de kosten moet worden berekend.
+Dit artikel bevat informatie over routes en bewerkingen. Een route definieert het proces voor het produceren van een product of de productvariant. Hierin wordt elke stap (bewerking) in het productieproces beschreven, plus de volgorde waarin deze stappen moeten worden uitgevoerd. Voor elke stap definieert de route ook de vereiste bronnen voor bedrijfsactiviteiten, de vereiste insteltijd en uitvoeringstijd en hoe de kosten moet worden berekend.
 
 ## <a name="overview"></a>Overzicht
 

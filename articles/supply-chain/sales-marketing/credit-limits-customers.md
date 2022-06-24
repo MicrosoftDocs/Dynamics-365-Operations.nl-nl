@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e3476f1f25ac01d8740cce0442ac48ef25101a0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f7f15c0f15302c271fac7199b21b7bcd3dcfe88a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574300"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903864"
 ---
 # <a name="credit-limits-for-customers"></a>Kredietlimieten voor klanten
 
@@ -126,7 +126,7 @@ Gebruik het formulier **Klanten** om het bedrag van de kredietlimiet op te geven
 4.  Voer indien nodig het licentienummer of een andere overheidsidentificatie in het veld **Overheidsidentificatie** in.
 
 > [!NOTE]
-> In het formulier **Parameters van module Klanten** is doorgaans een kredietlimiettype geselecteerd. Als het type kredietlimiet echter is ingesteld op **Geen**, moet u ook het selectievakje **Verplichte kredietlimiet** in het formulier **Klanten** inschakelen zodat u de kredietlimiet van de klant kunt vergelijken met het saldo van de klant. Zie 'Voor welke documenten en processen kan ik kredietlimieten controleren?' in dit onderwerp voor meer informatie over kredietlimiettypes. 
+> In het formulier **Parameters van module Klanten** is doorgaans een kredietlimiettype geselecteerd. Als het type kredietlimiet echter is ingesteld op **Geen**, moet u ook het selectievakje **Verplichte kredietlimiet** in het formulier **Klanten** inschakelen zodat u de kredietlimiet van de klant kunt vergelijken met het saldo van de klant. Zie 'Voor welke documenten en processen kan ik kredietlimieten controleren?' in dit onderwerp voor meer informatie in dit artikel. 
 
 **Hoe controleer ik kredietlimieten handmatig op verkooporders?**
 

@@ -1,6 +1,6 @@
 ---
 title: Bedrijfsdocumenten die worden ondersteund door Algemene voorraadboekhouding
-description: Dit onderwerp geeft een overzicht van de bedrijfsdocumenten die worden ondersteund door Algemene voorraadboekhouding. Het bevat ook een gedetailleerd voorbeeld van inkooporderdocumenten.
+description: Dit artikel geeft een overzicht van de bedrijfsdocumenten die worden ondersteund door Algemene voorraadboekhouding. Het bevat ook een gedetailleerd voorbeeld van inkooporderdocumenten.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 44081be35c6737aa0d16b6e11a5fc8f94b41e872
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: dc88d095c039b22ac347db949f6b61d5a89dc4b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674444"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875418"
 ---
 # <a name="business-documents-supported-by-global-inventory-accounting"></a>Bedrijfsdocumenten die worden ondersteund door Algemene voorraadboekhouding
 
@@ -32,7 +32,7 @@ Er zijn twee typen bedrijfsdocumenten:
 - **Documenten met een journaal**: deze documenten omvatten productontvangstbon-, inkoopfactuur-, pakbon- en verkoopfactuurdocumenten.
 - **Documenten die geen journaal hebben**: deze documenten omvatten tellings-, verplaatsings- en voorraadcorrectiedocumenten.
 
-Verder in dit onderwerp worden inkooporders gebruikt als voorbeeld om het proces te illustreren.
+Verder in dit artikel worden inkooporders gebruikt als voorbeeld om het proces te illustreren.
 
 In de volgende tabel worden de documenten vermeld die door de huidige versie worden ondersteund.
 

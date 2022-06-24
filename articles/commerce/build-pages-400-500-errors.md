@@ -1,6 +1,6 @@
 ---
 title: Aangepaste antwoordpagina's bouwen voor fouten met de statuscode 4xx/5xx
-description: In dit onderwerp wordt beschreven hoe u aangepaste antwoordpagina's kunt maken voor de statusfoutcodes 4xx en 5xx met behulp van de ontwerpfuncties in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt beschreven hoe u aangepaste antwoordpagina's kunt maken voor de statusfoutcodes 4xx en 5xx met behulp van de ontwerpfuncties in Microsoft Dynamics 365 Commerce.
 author: v-chgri
 ms.date: 04/14/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 16cd6c3dab5502826119b6a517414d23e168e79708e306897b04c7ba8c80404b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b56d7a58659205ce4483480fd85d1c91ae52a0f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741136"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882254"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>Aangepaste antwoordpagina's bouwen voor fouten met de statuscode 4xx/5xx
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u aangepaste antwoordpagina's kunt maken voor de statusfoutcodes 4xx en 5xx met behulp van de ontwerpfuncties in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt beschreven hoe u aangepaste antwoordpagina's kunt maken voor de statusfoutcodes 4xx en 5xx met behulp van de ontwerpfuncties in Microsoft Dynamics 365 Commerce.
 
 Als een aanvraag misukt, verzendt de server een reactie met een HTTP-statuscode. De 404-statuscode wordt vastgelegd en geretourneerd als een pagina niet wordt gevonden en de 500-statuscode wordt vastgelegd en geretourneerd als er een serverfout optreedt. In Dynamics 365 Commerce kunnen toepassingsgebruikers aangepaste antwoordpagina's met statusfoutcodes maken die worden weergegeven aan gebruikers als reactie voor deze statuscodes.
 

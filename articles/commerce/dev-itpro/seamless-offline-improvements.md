@@ -1,6 +1,6 @@
 ---
 title: Naadloos overschakelen naar offline bewerkingen voor cadeaukaarten en creditnota's
-description: Dit onderwerp biedt een overzicht van de verbeteringen die een naadloze offline overschakeling biedt voor specifieke betalingstypen.
+description: Dit artikel biedt een overzicht van de verbeteringen die een naadloze offline overschakeling biedt voor specifieke betalingstypen.
 author: BrianShook
 ms.date: 02/11/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 59f1a0b213bd22906ba8b2c3e7da38a9818f6d4f
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: e0416a61bd5fd3b875b427ad8a6313d0e9936f0d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779487"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869156"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Naadloos overschakelen naar offline bewerkingen voor cadeaukaarten en creditnota's
 
 [!include [banner](../includes/banner.md)]
 
-Als een POS-apparaat de verbinding met de kanaaldatabase verliest, kunnen de meeste POS-bewerkingen en -transacties doorgaan nadat de kassier een waarschuwingsbericht heeft ontvangen over het verlies van de verbinding. In sommige gevallen hebben transacties echter elementen die afhankelijk zijn van de realtime service en worden deze elementen niet ondersteund wanneer het POS offline is. In dit onderwerp wordt een aantal functies beschreven waarmee u de impact van de verbindingsproblemen in deze scenario's kunt beperken.
+Als een POS-apparaat de verbinding met de kanaaldatabase verliest, kunnen de meeste POS-bewerkingen en -transacties doorgaan nadat de kassier een waarschuwingsbericht heeft ontvangen over het verlies van de verbinding. In sommige gevallen hebben transacties echter elementen die afhankelijk zijn van de realtime service en worden deze elementen niet ondersteund wanneer het POS offline is. In dit artikel wordt een aantal functies beschreven waarmee u de impact van de verbindingsproblemen in deze scenario's kunt beperken.
 
 ## <a name="completing-gift-card-transactions-in-offline-mode"></a>Transacties met geschenkbonnen voltooien in offline modus
 
@@ -50,7 +50,7 @@ Ga naar het tabblad **Boeking** op de pagina **Commerce-parameters** om de funct
 
 Commerce-parameters worden doorgaans in de cache opgeslagen. Daarom kan het, nadat de instelling van deze parameter is bijgewerkt en de distributieplanning wordt gestart om de wijziging te synchroniseren met het kanaal, tot 24 uur duren voordat de wijziging van kracht wordt. Als u de wijziging onmiddellijk wilt doorvoeren, moet u IIS opnieuw instellen.
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-articles"></a>Gerelateerde artikelen
 
 - [Functionaliteit voor offline verkooppunt (POS)](../pos-offline-functionality.md)
 - [Online en offline verkooppuntbewerkingen (POS)](../pos-operations.md)

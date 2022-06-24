@@ -1,6 +1,6 @@
 ---
 title: Kortingen verwerken, controleren en boeken
-description: In dit onderwerp wordt beschreven hoe u uw kortingsbeheerdeals verwerkt, de kortingen berekent, de gegenereerde transacties ccontroleert, transacties boekt en de boekingen bekijkt.
+description: In dit artikel wordt beschreven hoe u uw kortingsbeheerdeals verwerkt, de kortingen berekent, de gegenereerde transacties ccontroleert, transacties boekt en de boekingen bekijkt.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 524aec8025378391057275f77e31191f88e4a98b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e63f02e5e93ec2ce8c321a20c2a0c5886edcbe42
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690269"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901932"
 ---
 # <a name="process-review-and-post-rebates"></a>Kortingen verwerken, controleren en boeken
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u uw kortingsbeheerdeals verwerkt, de kortingen berekent, de gegenereerde transacties ccontroleert, transacties boekt en de boekingen bekijkt.
+In dit artikel wordt beschreven hoe u uw kortingsbeheerdeals verwerkt, de kortingen berekent, de gegenereerde transacties ccontroleert, transacties boekt en de boekingen bekijkt.
 
 ## <a name="change-the-status-of-a-deal"></a>De status van een deal wijzigen
 
@@ -45,7 +45,7 @@ Ga naar **Kortingsbeheer \> Periodieke taken \> FIFO-inkoopprijs berekenen**. Se
 
 U kunt de verkooporders of inkooporders met brontransacties maken voor of nadat u een toepasselijke kortingsbeheeractie maakt.
 
-U kunt elke kortingsregel zo instellen dat er automatisch een kortingsvoorziening wordt gemaakt door de levering of factuur voor een verkoop- of inkooporder te boeken. Stel het veld **Transactietype** voor de dealregel in op *Levering* of *Factuur* en stel de optie **Verwerken bij boeking** in op *Ja*. Als het veld **Transactietype** is ingesteld op *Order*, wordt de verwerking tijdens het boeken uitgeschakeld. Voor brontransacties die zijn gemaakt nadat een transactie was geactiveerd, kunt u de voorziening nog altijd verwerken zoals beschreven in de sectie [Kortingsbeheer verwerken](#process-deals) verder in dit onderwerp.
+U kunt elke kortingsregel zo instellen dat er automatisch een kortingsvoorziening wordt gemaakt door de levering of factuur voor een verkoop- of inkooporder te boeken. Stel het veld **Transactietype** voor de dealregel in op *Levering* of *Factuur* en stel de optie **Verwerken bij boeking** in op *Ja*. Als het veld **Transactietype** is ingesteld op *Order*, wordt de verwerking tijdens het boeken uitgeschakeld. Voor brontransacties die zijn gemaakt nadat een transactie was geactiveerd, kunt u de voorziening nog altijd verwerken zoals beschreven in de sectie [Kortingsbeheer verwerken](#process-deals) verder in dit artikel.
 
 ### <a name="enable-price-details"></a>Prijsdetails inschakelen
 

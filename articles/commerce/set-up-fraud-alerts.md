@@ -1,6 +1,6 @@
 ---
 title: Fraudewaarschuwingen van callcenters instellen en gebruiken
-description: Dit onderwerp wordt beschreven hoe u regels instelt om klantenservice medewerkers van potentieel frauduleuze informatie te waarschuwen wanneer bestellingen zijn verwerkt. U kunt speciale codes definiëren die automatisch of handmatig worden gebruikt om verdachte orders in de wachtstand te zetten.
+description: Dit artikel wordt beschreven hoe u regels instelt om klantenservice medewerkers van potentieel frauduleuze informatie te waarschuwen wanneer bestellingen zijn verwerkt. U kunt speciale codes definiëren die automatisch of handmatig worden gebruikt om verdachte orders in de wachtstand te zetten.
 author: josaw1
 ms.date: 05/14/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e692d43b8c2648a424ff3b4fdc9d0cf16d0e03702d6a237f71caaf49646c5ec3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 212afd594453d3594fdaef9442a7809e4cafbd07
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763663"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885343"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Fraudewaarschuwingen van callcenters instellen en gebruiken
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u criteria en regels instelt om mogelijk frauduleuze verkooporders in de wachtstand te plaatsen voor verder onderzoek. De fraudecontrolefunctie wordt gebruikt om de geldigheid van de gegevens in een verkooporder te bepalen. Als de informatie in de verkooporder dubieus lijkt op basis van de fraudecriteria en -regels van een organisatie, kan de order door een beheerder in de wachtstand worden geplaatst voor nader onderzoek. In dit geval kan de order niet worden vrijgegeven naar het magazijn voor verdere verwerking totdat de blokkering is gewist.
+In dit artikel wordt uitgelegd hoe u criteria en regels instelt om mogelijk frauduleuze verkooporders in de wachtstand te plaatsen voor verder onderzoek. De fraudecontrolefunctie wordt gebruikt om de geldigheid van de gegevens in een verkooporder te bepalen. Als de informatie in de verkooporder dubieus lijkt op basis van de fraudecriteria en -regels van een organisatie, kan de order door een beheerder in de wachtstand worden geplaatst voor nader onderzoek. In dit geval kan de order niet worden vrijgegeven naar het magazijn voor verdere verwerking totdat de blokkering is gewist.
 
 > [!NOTE]
 > Deze functie kan alleen worden gebruikt met de functie voor verkooporderverwerking voor het Commerce-kanaal callcenter.

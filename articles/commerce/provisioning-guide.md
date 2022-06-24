@@ -1,6 +1,6 @@
 ---
 title: Een evaluatieomgeving voor Dynamics 365 Commerce inrichten
-description: In dit onderwerp wordt uitgelegd hoe u een evaluatieomgeving van Microsoft Dynamics 365 Commerce inricht.
+description: In dit artikel wordt uitgelegd hoe u een evaluatieomgeving van Microsoft Dynamics 365 Commerce inricht.
 author: psimolin
 ms.date: 12/17/2020
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c8241c31e82d124398189666c3a1709d25884b8acd9c8f3b1068529cbd216684
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 52a263d1ab833eb688b1049cd4e8c584e8c9a94d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777495"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868904"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Een evaluatieomgeving voor Dynamics 365 Commerce inrichten
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u een evaluatieomgeving van Microsoft Dynamics 365 Commerce inricht.
+In dit artikel wordt uitgelegd hoe u een evaluatieomgeving van Microsoft Dynamics 365 Commerce inricht.
 
-Voordat u begint, kunt u het beste dit onderwerp snel doorlezen om een idee te krijgen van wat nodig is voor het proces.
+Voordat u begint, kunt u het beste dit artikel snel doorlezen om een idee te krijgen van wat nodig is voor het proces.
 
 > [!NOTE]
 > Commerce-evaluatieomgevingen zijn doorgaans niet beschikbaar en worden aan partners en klanten op aanvraag ter beschikking gesteld. Neem contact op met uw Microsoft-partner voor meer informatie.
 
-Als u uw evaluatieomgeving van Commerce wilt inrichten, moet u een project maken met een specifieke productnaam en een specifiek producttype. De omgeving en Commerce Scale Unit (CSU) beschikken ook over specifieke parameters die u moet gebruiken wanneer u e-Commerce later wilt inrichten. De instructies in dit onderwerp beschrijven alle vereiste stappen voor het voltooien van de inrichting en de parameters die u moet gebruiken.
+Als u uw evaluatieomgeving van Commerce wilt inrichten, moet u een project maken met een specifieke productnaam en een specifiek producttype. De omgeving en Commerce Scale Unit (CSU) beschikken ook over specifieke parameters die u moet gebruiken wanneer u e-Commerce later wilt inrichten. De instructies in dit artikel beschrijven alle vereiste stappen voor het voltooien van de inrichting en de parameters die u moet gebruiken.
 
 Nadat de inrichting van de evaluatieomgeving van Commerce is voltooid, moet u een aantal stappen uitvoeren om de preview-omgeving voor te bereiden. Sommige stappen zijn optioneel, afhankelijk van de aspecten van het systeem die u wilt evalueren. U kunt de optionele stappen altijd later voltooien.
 

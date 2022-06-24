@@ -1,6 +1,6 @@
 ---
 title: Commerce-analyses (preview)
-description: In dit onderwerp wordt uitgelegd hoe u de analysemogelijkheden installeert en gebruikt in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt uitgelegd hoe u de analysemogelijkheden installeert en gebruikt in Microsoft Dynamics 365 Commerce.
 author: AamirAllaq
 ms.date: 02/24/2022
 audience: Application user
@@ -8,18 +8,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2021-11-12
-ms.openlocfilehash: 63d6e5ef7e883578106495d5ec778bbd686ee92d
-ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
+ms.openlocfilehash: 9ffa0affa0b80af65dd2aa37ef2fe969752ae332
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8550002"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887161"
 ---
 # <a name="commerce-analytics-preview"></a>Commerce-analyses (preview)
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u Commerce-analyses (preview) installeert. Dit is de functionele analysemogelijkheid die deel uitmaakt van Microsoft Dynamics 365 Commerce.
+In dit artikel wordt uitgelegd hoe u Commerce-analyses (preview) installeert. Dit is de functionele analysemogelijkheid die deel uitmaakt van Microsoft Dynamics 365 Commerce.
 
 ## <a name="commerce-analytics-preview-live-demo"></a>Live demo van Commerce-analyses (preview)
 

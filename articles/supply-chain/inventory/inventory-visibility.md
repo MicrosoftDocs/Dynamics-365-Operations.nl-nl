@@ -1,6 +1,6 @@
 ---
-title: Overzicht van invoegtoepassing voorraadzichtbaarheid
-description: In dit onderwerp wordt beschreven wat Voorraadzichtbaarheid is en worden de functies ervan beschreven.
+title: Overzicht van invoegtoepassing Inventory Visibility
+description: In dit artikel wordt beschreven wat Voorraadzichtbaarheid is en worden de functies ervan beschreven.
 author: yufeihuang
 ms.date: 03/18/2022
 ms.topic: overview
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9eb8a135d2415c867c746a1c40a80cdb84819c0e
-ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.openlocfilehash: 782545ea38a209eb4430607f5bca96e4e930efdc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547896"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897627"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Overzicht van invoegtoepassing Voorraadzichtbaarheid
 

@@ -1,6 +1,6 @@
 ---
-title: De focuspunten van de afbeelding aanpassen
-description: In dit onderwerp wordt beschreven hoe u de focuspunten van afbeeldingen aanpast in Microsoft Dynamics 365 Commerce Site Builder.
+title: Focuspunten van afbeelding aanpassen
+description: In dit artikel wordt beschreven hoe u de focuspunten van afbeeldingen aanpast in Microsoft Dynamics 365 Commerce Site Builder.
 author: psimolin
 ms.date: 04/14/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9c8a1b6de774a4d89c0ebcf46847c1b2c5b62374b3e5ac25a0bea2ff30b47510
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9294fcc7302e3651eca1b5edefd556143e49fb93
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727601"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852810"
 ---
 # <a name="customize-image-focal-points"></a>Focuspunten van afbeelding aanpassen
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u de focuspunten van afbeeldingen aanpast in Microsoft Dynamics 365 Commerce Site Builder.
+In dit artikel wordt beschreven hoe u de focuspunten van afbeeldingen aanpast in Microsoft Dynamics 365 Commerce Site Builder.
 
 Wanneer een afbeelding wordt geüpload naar mediabibliotheek in Commerce Site Builder, probeert het systeem het focuspunt van de afbeelding te bepalen. Als de afbeelding bijvoorbeeld een persoon bevat, wordt het focuspunt door het systeem standaard ingesteld op het gezicht van de persoon. In de meeste gevallen is het automatisch instellen van een focuspunt geschikt voor alle viewports, maar soms wilt u het focuspunt aanpassen om ervoor te zorgen dat een bepaald deel van de afbeelding altijd zichtbaar is.
 

@@ -1,6 +1,6 @@
 ---
 title: Veelgestelde vragen over de kostprijsberekening van voorraad
-description: In dit onderwerp worden antwoorden op enkele veelgestelde vragen over de kostprijsberekening van voorraad in Microsoft Dynamics 365 Supply Chain Management gegeven.
+description: In dit artikel worden antwoorden op enkele veelgestelde vragen over de kostprijsberekening van voorraad in Microsoft Dynamics 365 Supply Chain Management gegeven.
 author: rachel-profitt
 ms.date: 05/03/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-05-03
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 45f65bd4a5cfb9bd0c4eb03ceb56eca452f6ec95
-ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
+ms.openlocfilehash: 467839b1d0ca6788a92ae60d46686374d0a58046
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809284"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850839"
 ---
 # <a name="inventory-costing-faq"></a>Veelgestelde vragen over de kostprijsberekening van voorraad
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden antwoorden op enkele veelgestelde vragen over de kostprijsberekening van voorraad in Microsoft Dynamics 365 Supply Chain Management gegeven.
+In dit artikel worden antwoorden op enkele veelgestelde vragen over de kostprijsberekening van voorraad in Microsoft Dynamics 365 Supply Chain Management gegeven.
 
 ## <a name="inventory-close-adjustments-and-recalculation"></a>Afsluiting, aanpassingen en herberekening van voorraad
 
@@ -359,7 +359,7 @@ Wij raden u aan negatieve voorraad regelmatig te controleren en te corrigeren wa
 
 ### <a name="do-i-have-to-create-a-new-item-if-my-inventory-has-gone-negative-and-i-use-moving-average"></a>Moet ik een nieuw artikel maken als mijn voorraad negatief is geworden en ik een zwevend gemiddelde gebruik?
 
-Nummer Als uw organisatie toestaat dat de voorraad fysiek negatief wordt en u een zwevend gemiddelde gebruikt als voorraadmodel, gebruikt het systeem de volgorde voor terugvalkosten die is toegewezen op de pagina **Parameters voor voorraad- en magazijnbeheer** om te bepalen hoe de kosten aan uw uitgiften worden toegewezen. Over het algemeen is het raadzaam om te voorkomen dat uw voorraad fysiek negatief wordt. Zie de andere vragen in de sectie [Negatieve voorraad](#negative-inventory) van dit onderwerp voor meer informatie.
+Nummer Als uw organisatie toestaat dat de voorraad fysiek negatief wordt en u een zwevend gemiddelde gebruikt als voorraadmodel, gebruikt het systeem de volgorde voor terugvalkosten die is toegewezen op de pagina **Parameters voor voorraad- en magazijnbeheer** om te bepalen hoe de kosten aan uw uitgiften worden toegewezen. Over het algemeen is het raadzaam om te voorkomen dat uw voorraad fysiek negatief wordt. Zie de andere vragen in de sectie [Negatieve voorraad](#negative-inventory) van dit artikel voor meer informatie.
 
 ## <a name="not-stocked-products"></a>Niet-voorradige producten
 
@@ -433,7 +433,7 @@ Als er een prijsverschil is tussen de boeking van een fysieke update en een fina
 
 ### <a name="when-i-use-moving-average-what-happens-if-there-is-an-issue-before-the-receipt"></a>Wat gebeurt er als er een uitgifte vóór de ontvangst is als ik een zwevend gemiddelde gebruik?
 
-Meestal kan er een uitgifte zijn vóór de ontvangst, omdat u fysieke negatieve voorraad toestaat voor de artikelmodelgroep of omdat de uitgifte wordt geantedateerd. Zie de sectie [Negatieve voorraad](#negative-inventory) in dit onderwerp voor meer informatie.
+Meestal kan er een uitgifte zijn vóór de ontvangst, omdat u fysieke negatieve voorraad toestaat voor de artikelmodelgroep of omdat de uitgifte wordt geantedateerd. Zie de sectie [Negatieve voorraad](#negative-inventory) in dit artikel voor meer informatie.
 
 Als u transacties antedateert, raden we u aan om uw bedrijfsproces en bewerkingen zorgvuldig te overwegen om te bepalen of er een manier is om dit scenario te vermijden. Als u een transactie antedateert voor een artikel dat een zwevend gemiddelde gebruikt, wordt het huidige zwevende gemiddelde toegewezen aan de transactie. Latere uitgiften worden niet gecorrigeerd. Zie [Zwevend gemiddelde](moving-average.md) voor meer informatie over het zwevende gemiddelde met geantedateerde transacties.
 

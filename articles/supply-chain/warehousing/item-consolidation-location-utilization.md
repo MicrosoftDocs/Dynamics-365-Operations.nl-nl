@@ -1,6 +1,6 @@
 ---
 title: Locatiegebruik bij artikelconsolidatie
-description: Dit onderwerp bevat informatie over de functionaliteit waarmee magazijnbeheerders het volumetrische gebruik van locaties in het magazijn kunnen weergeven en filteren. Managers kunnen locaties selecteren en voorraadmutaties uitvoeren, rechtstreeks vanaf de pagina Artikelconsolidatie om artikelen te consolideren en zodoende de magazijnruimte beter te gebruiken.
+description: Dit artikel bevat informatie over de functionaliteit waarmee magazijnbeheerders het volumetrische gebruik van locaties in het magazijn kunnen weergeven en filteren. Managers kunnen locaties selecteren en voorraadmutaties uitvoeren, rechtstreeks vanaf de pagina Artikelconsolidatie om artikelen te consolideren en zodoende de magazijnruimte beter te gebruiken.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f858eae57b8b354076f5ed026a4b84ed680866b0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 63fd8b209cb73843aae7324c805c5d0eb83b4ca4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578603"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849179"
 ---
 # <a name="item-consolidation---location-utilization"></a>Locatiegebruik bij artikelconsolidatie
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat informatie over de functionaliteit waarmee magazijnbeheerders het volumetrische gebruik van locaties in het magazijn kunnen weergeven en filteren. Managers kunnen locaties selecteren en voorraadmutaties uitvoeren, rechtstreeks vanaf de pagina **Artikelconsolidatie** om artikelen te consolideren en zodoende de magazijnruimte beter te gebruiken.
+Dit artikel bevat informatie over de functionaliteit waarmee magazijnbeheerders het volumetrische gebruik van locaties in het magazijn kunnen weergeven en filteren. Managers kunnen locaties selecteren en voorraadmutaties uitvoeren, rechtstreeks vanaf de pagina **Artikelconsolidatie** om artikelen te consolideren en zodoende de magazijnruimte beter te gebruiken.
 
 ## <a name="turn-on-the-features"></a>De functies inschakelen
 
-Voordat u de in dit onderwerp beschreven functies kunt gebruiken, moet u deze in het systeem inschakelen. Beheerders kunnen gebruikmaken van het werkgebied [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functies te controleren en deze zo nodig in te schakelen. Schakel de beide volgende functies in in de volgorde waarin ze worden vermeld. (Beide functies zijn voor de module **Magazijnbeheer**.)
+Voordat u de in dit artikel beschreven functies kunt gebruiken, moet u deze in het systeem inschakelen. Beheerders kunnen gebruikmaken van het werkgebied [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functies te controleren en deze zo nodig in te schakelen. Schakel de beide volgende functies in in de volgorde waarin ze worden vermeld. (Beide functies zijn voor de module **Magazijnbeheer**.)
 
 1. Status magazijnlocatie
 2. Locatiegebruik artikelconsolidatie
@@ -51,7 +51,7 @@ Met behulp van deze velden kunnen magazijnbeheerders een beter overzicht krijgen
 
 ## <a name="set-up-item-consolidation-and-location-utilization"></a>Artikelconsolidatie en locatiegebruik instellen
 
-In deze sectie wordt beschreven hoe u uw systeem voorbereidt op het gebruik van artikelconsolidatie en locatiegebruik. In de procedures worden voorbeeldwaarden uit de standaard demogegevens gebruikt. Als u het voorbeeldscenario dat verderop in dit onderwerp wordt beschreven wilt doorlopen, selecteert u de rechtspersoon **USMF** (die de standaard demogegevens bevat) en maakt u elke record die in deze sectie wordt beschreven. Als u het voorbeeldscenario niet wilt doorlopen, kunt u de waarden die hier worden opgegeven, beschouwen als voorbeelden van de typen instellingen die u moet voltooien om de functies te kunnen gebruiken.
+In deze sectie wordt beschreven hoe u uw systeem voorbereidt op het gebruik van artikelconsolidatie en locatiegebruik. In de procedures worden voorbeeldwaarden uit de standaard demogegevens gebruikt. Als u het voorbeeldscenario dat verderop in dit artikel wordt beschreven wilt doorlopen, selecteert u de rechtspersoon **USMF** (die de standaard demogegevens bevat) en maakt u elke record die in deze sectie wordt beschreven. Als u het voorbeeldscenario niet wilt doorlopen, kunt u de waarden die hier worden opgegeven, beschouwen als voorbeelden van de typen instellingen die u moet voltooien om de functies te kunnen gebruiken.
 
 ### <a name="released-product"></a>Vrijgegeven product
 

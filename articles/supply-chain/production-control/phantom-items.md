@@ -1,6 +1,6 @@
 ---
 title: Phantom-artikelen
-description: In dit onderwerp wordt beschreven hoe het regeltype Phantom kan worden gebruikt voor de regels van een stuklijst en een formule in Dynamics 365 Supply Chain Management.
+description: In dit artikel wordt beschreven hoe het regeltype Phantom kan worden gebruikt voor de regels van een stuklijst en een formule in Dynamics 365 Supply Chain Management.
 author: johanhoffmann
 ms.date: 05/05/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-05-05
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 5c9768381d35709611e4bec3d2b7793a4d896b34
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 64139873216decd8ecb2fcaf1f284e726c53c332
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713241"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893318"
 ---
 # <a name="phantom-items"></a>Phantom-artikelen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt gedetailleerd beschreven hoe het regeltype Phantom kan worden gebruikt voor de regels van een stuklijst en een formule.
+In dit artikel wordt gedetailleerd beschreven hoe het regeltype Phantom kan worden gebruikt voor de regels van een stuklijst en een formule.
 
 In afbeelding 1 is (a) de stuklijst voor het product H en de onderdelen F en G, en is (b) het routeblad voor product H en onderdeel F.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f87723ebd6684efba8464a7d64c7e1ea99f194eb
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: e52b313e0a00c04edf9003aa6292146936f837d4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102784"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889423"
 ---
 # <a name="location-license-plate-positioning"></a>Positionering van locatie nummerplaat
 
@@ -28,11 +28,11 @@ Met positionering van de nummerplaatlocatie kunt u zien waar een nummerplaat zic
 
 De functie voegt een volgnummer toe aan elke nummerplaat die op een opslaglocatie wordt geplaatst. Dit volgnummer wordt gebruikt om de nummerplaten op de opslaglocatie te bestellen. De functie ondersteunt daarom op intelligente wijze scenario's waarin klanten een doorrolstelling gebruiken en die voor het verzamelen van producten moeten weten welke nummerplaat zich vooraan bevindt.
 
-Dit onderwerp bespreekt een scenario waarin wordt uitgelegd hoe u de functie instelt en gebruikt.
+Dit artikel bespreekt een scenario waarin wordt uitgelegd hoe u de functie instelt en gebruikt.
 
 ## <a name="turn-the-location-license-plate-positioning-feature-on-or-off"></a>De functie Positionering van locatie nummerplaat in- of uitschakelen
 
-Als u de functionaliteit wilt gebruiken die in dit onderwerp wordt beschreven, moet de functie *Positionering van locatie nummerplaat* zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Positionering van locatie nummerplaat* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Als u de functionaliteit wilt gebruiken die in dit artikel wordt beschreven, moet de functie *Positionering van locatie nummerplaat* zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Positionering van locatie nummerplaat* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="example-scenario"></a>Voorbeeldscenario
 
@@ -42,7 +42,7 @@ Om dit scenario te doorlopen met de waarden die hier worden voorgesteld, moet u 
 
 ### <a name="set-up-the-feature-for-this-scenario"></a>De functie instellen voor dit scenario
 
-Voer de volgende procedures uit om de functie *Positionering van locatie nummerplaat* in te stellen voor het scenario dat in dit onderwerp wordt besproken.
+Voer de volgende procedures uit om de functie *Positionering van locatie nummerplaat* in te stellen voor het scenario dat in dit artikel wordt besproken.
 
 #### <a name="location-profiles"></a>Locatieprofielen
 

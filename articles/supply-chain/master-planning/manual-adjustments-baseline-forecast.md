@@ -1,6 +1,6 @@
 ---
 title: Handmatige correcties aanbrengen in de basislijnprognose
-description: In dit onderwerp wordt uitgelegd hoe u handmatige aanpassingen kunt uitvoeren op een basislijnprognose en details van de prognose kunt weergeven.
+description: In dit artikel wordt uitgelegd hoe u handmatige aanpassingen kunt uitvoeren op een basislijnprognose en details van de prognose kunt weergeven.
 author: t-benebo
 ms.date: 01/07/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19b6bf742bb395de41bfbf1e50ca9df68f416367
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: e602e6d46f928fd5376a6a6d4f94bb4a726d92b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470228"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844962"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Handmatige correcties aanbrengen in de basislijnprognose
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u handmatige aanpassingen kunt uitvoeren op een basislijnprognose en details van de prognose kunt weergeven. 
+In dit artikel wordt uitgelegd hoe u handmatige aanpassingen kunt uitvoeren op een basislijnprognose en details van de prognose kunt weergeven. 
 
 Voordat u handmatige aanpassingen uitvoert, is het belangrijk dat u een paar concepten op verschillende pagina's begrijpt.
 

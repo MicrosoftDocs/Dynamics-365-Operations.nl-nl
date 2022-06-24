@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f969224f48cdb1f12b48b9f5d839d7c88168e87d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 7026453bf3a0eda2b9bc4d8538150974bd6aa634
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674248"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847899"
 ---
 # <a name="repair-management"></a>Reparatiebeheer       
 
@@ -97,7 +97,7 @@ Als een reparatieprobleem is opgelost, kunt u de reparatieregel afsluiten. Stel 
 
 ## <a name="close-a-repair-line-for-a-resolved-issue"></a>Een reparatieregel voor een opgelost probleem afsluiten
 
-1.  Open het formulier **Reparatieregels**. Volg de procedure voor het maken van een reparatieregel die eerder in dit onderwerp is beschreven.
+1.  Open het formulier **Reparatieregels**. Volg de procedure voor het maken van een reparatieregel die eerder in dit artikel is beschreven.
 
 2.  Selecteer de reparatieregel met de reparatie die u wilt afsluiten.
 

@@ -1,6 +1,6 @@
 ---
 title: Optionele functies voor een Dynamics 365 Commerce-evaluatieomgeving configureren
-description: In dit onderwerp wordt uitgelegd hoe u optionele functies voor een evaluatieomgeving van Microsoft Dynamics 365 Commerce configureert.
+description: In dit artikel wordt uitgelegd hoe u optionele functies voor een evaluatieomgeving van Microsoft Dynamics 365 Commerce configureert.
 author: psimolin
 ms.date: 07/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2f4e93b7ece7652b72ae2067be4de73f45a8261ada1b0bc731e2bd2147dcccc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 39d4784e21c4fb42ca218d507616d49eff309ee1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728286"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861909"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Optionele functies voor een Dynamics 365 Commerce-evaluatieomgeving configureren
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u optionele functies voor een evaluatieomgeving van Microsoft Dynamics 365 Commerce configureert.
+In dit artikel wordt uitgelegd hoe u optionele functies voor een evaluatieomgeving van Microsoft Dynamics 365 Commerce configureert.
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -108,7 +108,7 @@ Mogelijk wilt u de e-mailsjablonen aanpassen zodat deze verschillende afbeelding
     - Sjabloon voor verpakkingsorder
     - Sjabloon voor orderverzameling
 
-1. Pas de sjablonen aan met een tekst- of HTML-editor. Zie de lijst met [ondersteunde tokens](#supported-tokens-in-the-email-template) verderop in dit onderwerp.
+1. Pas de sjablonen aan met een tekst- of HTML-editor. Zie de lijst met [ondersteunde tokens](#supported-tokens-in-the-email-template) verderop in dit artikel.
 1. Meld u aan bij Commerce.
 1. Ga in het menu links naar **Modules \> Organisatiebeheer \> Instellingen \> E-mailsjablonen van organisatie**.
 1. Vouw de lijst links uit om alle sjablonen te bekijken.

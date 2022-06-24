@@ -1,6 +1,6 @@
 ---
 title: Een menuopdracht van mobiel apparaat instellen voor het voltooien van werkzaamheden van het type Inkooporder
-description: Dit onderwerp laat zien hoe u een menuopdracht Mobiel apparaat instelt.
+description: Dit artikel laat zien hoe u een menuopdracht Mobiel apparaat instelt.
 author: Mirzaab
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d18b0ab1057dbccdd45a52a58f80ef9346e4459f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 09286e8e482780523b61006081205868be487755
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565147"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882281"
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order"></a>Een menuopdracht van mobiel apparaat instellen voor het voltooien van werkzaamheden van het type Inkooporder
 
 [!include [banner](../../includes/banner.md)]
 
-Dit onderwerp laat zien hoe u een menuopdracht Mobiel apparaat instelt. In dit voorbeeld, wordt de menuopdracht gebruikt voor het uitvoeren van werkzaamheden van het type Inkooporder. De werkklasse die aan de menuopdracht is gekoppeld, bepaalt welk werk geldig is. U kunt deze guide gebruiken in het demobedrijf USMF. Doorgaans wordt deze procedure uitgevoerd door een magazijnbeheerder.
+Dit artikel laat zien hoe u een menuopdracht Mobiel apparaat instelt. In dit voorbeeld, wordt de menuopdracht gebruikt voor het uitvoeren van werkzaamheden van het type Inkooporder. De werkklasse die aan de menuopdracht is gekoppeld, bepaalt welk werk geldig is. U kunt deze guide gebruiken in het demobedrijf USMF. Doorgaans wordt deze procedure uitgevoerd door een magazijnbeheerder.
 
 
 ## <a name="create-a-mobile-device-menu-item"></a>Een menuopdracht van mobiel apparaat maken

@@ -1,6 +1,6 @@
 ---
 title: 'Guide: handmatig een vraagprognose wijzigen'
-description: Dit onderwerp laat zien hoe u de prognose voor een artikel kunt wijzigen
+description: Dit artikel laat zien hoe u de prognose voor een artikel kunt wijzigen
 author: t-benebo
 ms.date: 08/12/2019
 ms.topic: business-process
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e5030bf97bee8dc475f22473ecc87e900298b6f
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 6275749f85c9b9d5a8b89da6340beeafbe22c2d4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469371"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859251"
 ---
 # <a name="guide-modify-a-demand-forecast-manually"></a>Guide: handmatig een vraagprognose wijzigen
 

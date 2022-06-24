@@ -1,6 +1,6 @@
 ---
 title: Voorraadtransactiedetails
-description: Dit onderwerp biedt een overzicht van de pagina Transactiedetails met details van een geselecteerde voorraadtransactie.
+description: Dit artikel biedt een overzicht van de pagina Transactiedetails met details van een geselecteerde voorraadtransactie.
 author: rachel-profitt
 ms.date: 04/25/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-04-25
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: fd1416f21ce15dc832dd41ea4110c93bf5bb41a2
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 55e29d5804f57cd86fb5ddac5d6c5576b7ea5f61
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735910"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859382"
 ---
 # <a name="inventory-transaction-details"></a>Voorraadtransactiedetails
 
@@ -36,8 +36,8 @@ De pagina **Transactiedetails** is opgesplitst in verschillende sneltabbladen. D
 
 | Sneltabblad | Description |
 |---|---|
-| Algemeen | Op dit sneltabblad wordt basisinformatie over de geselecteerde voorraadtransactie gegeven. Naast de velden die worden weergegeven op de pagina **Voorraadtransacties**, bevat dit sneltabblad de extra velden die later in dit onderwerp worden beschreven. |
-| Updates | Op dit sneltabblad wordt informatie gegeven over de fysieke, financiële en vereffeningsaspecten van de geselecteerde voorraadtransactie. Afhankelijk van de huidige status van de transactie zijn sommige velden mogelijk leeg. Deze velden worden echter automatisch ingesteld wanneer transacties worden geboekt. Naast de velden die worden weergegeven op de pagina **Voorraadtransacties**, bevat dit sneltabblad de extra velden die later in dit onderwerp worden beschreven. |
+| Algemeen | Op dit sneltabblad wordt basisinformatie over de geselecteerde voorraadtransactie gegeven. Naast de velden die worden weergegeven op de pagina **Voorraadtransacties**, bevat dit sneltabblad de extra velden die later in dit artikel worden beschreven. |
+| Updates | Op dit sneltabblad wordt informatie gegeven over de fysieke, financiële en vereffeningsaspecten van de geselecteerde voorraadtransactie. Afhankelijk van de huidige status van de transactie zijn sommige velden mogelijk leeg. Deze velden worden echter automatisch ingesteld wanneer transacties worden geboekt. Naast de velden die worden weergegeven op de pagina **Voorraadtransacties**, bevat dit sneltabblad de extra velden die later in dit artikel worden beschreven. |
 | Grootboekboekingen | Op dit sneltabblad worden het boekingstype en de grootboekrekening weergegeven die worden gebruikt voor de fysieke update, financiële update, fysieke opbrengsten, fysieke toeslagen, financiële opbrengsten en financiële toeslagen die gerelateerd zijn aan de geselecteerde voorraadtransactie. |
 | Verwijzingen | Op dit sneltabblad wordt extra informatie weergegeven over de brontransactie die de geselecteerde voorraadtransactie heeft gemaakt. Deze informatie kan bijvoorbeeld details uit de inkoop- of verkooporder bevatten. |
 | Verwante informatie | Op dit sneltabblad wordt extra informatie over de geselecteerde voorraadtransactie gegeven. Deze velden worden mogelijk niet ingesteld als u bepaalde functies niet gebruikt, zoals inkoopcategorieën of -projecten. |

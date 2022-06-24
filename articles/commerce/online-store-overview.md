@@ -1,6 +1,6 @@
 ---
-title: Overzicht van E-commerce
-description: Dit onderwerp biedt een overzicht van de ondersteuning voor E-commerce-pagina's in Microsoft Dynamics 365 Commerce.
+title: Overzicht van e-commercesite
+description: Dit artikel biedt een overzicht van de ondersteuning voor E-commerce-pagina's in Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 11/05/2020
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 90f0f01115b00f231af8d4ae11be1d18d379399b
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: 9b7e4d09eaa4f91478d27cbca5eaea48af86e676
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487763"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899116"
 ---
 # <a name="e-commerce-site-overview"></a>Overzicht van e-commercesite
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp biedt een overzicht van de ondersteuning voor E-commerce-pagina's in Microsoft Dynamics 365 Commerce. Het bevat informatie over de manier waarop e-commerce-online winkels worden geïnitialiseerd en beheerd in Dynamics 365 Commerce. Daarnaast vindt u hier koppelingen naar meer informatie over online winkels en informatie over het instellen en configureren van een e-commercepagina. Hoewel in dit onderwerp veel van de basisprincipes worden behandeld, is dit niet van toepassing op alles wat is vereist voor het instellen van een e-commercepagina voor productie. Meer geavanceerde onderwerpen vindt u in de Dynamics 365 Commerce-documentatie.
+Dit artikel biedt een overzicht van de ondersteuning voor E-commerce-pagina's in Microsoft Dynamics 365 Commerce. Het bevat informatie over de manier waarop e-commerce-online winkels worden geïnitialiseerd en beheerd in Dynamics 365 Commerce. Daarnaast vindt u hier koppelingen naar meer informatie over online winkels en informatie over het instellen en configureren van een e-commercepagina. Hoewel in dit artikel veel van de basisprincipes worden behandeld, is dit niet van toepassing op alles wat is vereist voor het instellen van een e-commercepagina voor productie. Meer geavanceerde artikelen vindt u in de Dynamics 365 Commerce-documentatie.
 
 ## <a name="online-store-channel"></a>Online winkelkanaal
 
@@ -74,16 +74,16 @@ Dynamics 365 Commerce gebruikt Azure Active Directory (Azure AD) B2C om gebruike
 
 ## <a name="overview-of-the-default-site-pages"></a>Overzicht van de standaard sitepagina's
 
-De **standaard** en **fabrikam**-sites bevatten vooraf geconfigureerde sjablonen, fragmenten en pagina's om u te helpen aan de slag te gaan. Zie de volgende onderwerpen voor meer informatie:
+De **standaard** en **fabrikam**-sites bevatten vooraf geconfigureerde sjablonen, fragmenten en pagina's om u te helpen aan de slag te gaan. Zie de volgende artikelen voor meer informatie:
 
-- [Overzicht introductiepagina](quick-tour-home-page.md)
+- [Overzicht van startpagina](quick-tour-home-page.md)
 - [Overzicht van pagina met productgegevens](quick-tour-pdp.md)
 - [Overzicht van pagina's met winkelwagen en kassa](quick-tour-cart-checkout.md)
 - [Overzicht van pagina's voor rekeningbeheer](quick-tour-account-management.md)
 
 ## <a name="manage-site-settings"></a>Site-instellingen beheren
 
-Zie de volgende onderwerpen voor informatie over het beheren van uw site-instellingen:
+Zie de volgende artikelen voor informatie over het beheren van uw site-instellingen:
 
 - [e-Commerce-gebruikers en -rollen beheren](manage-ecommerce-users-roles.md)
 - [Overwegingen bij SEO (Search Engine Optimization) voor uw site](search-engine-optimization-considerations.md)
@@ -92,7 +92,7 @@ Zie de volgende onderwerpen voor informatie over het beheren van uw site-instell
 
 ## <a name="manage-site-content"></a>Site-inhoud beheren
 
-Zie de volgende onderwerpen voor informatie over het beheren van uw site-inhoud:
+Zie de volgende artikelen voor informatie over het beheren van uw site-inhoud:
 
 - [Woordenlijst voor paginamodellen](page-elements-overview.md)
 - [Statussen en levenscyclus van document](document-states-overview.md)

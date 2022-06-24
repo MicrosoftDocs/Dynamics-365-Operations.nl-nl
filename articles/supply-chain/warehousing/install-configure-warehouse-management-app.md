@@ -1,6 +1,6 @@
 ---
 title: De mobiele app Warehouse Management installeren en verbinden
-description: In dit onderwerp wordt uitgelegd hoe u de mobiele app Warehouse Management op al uw mobiele apparaten installeert en configureert om verbinding te maken met uw Microsoft Dynamics 365 Supply Chain Management-omgeving.
+description: In dit artikel wordt uitgelegd hoe u de mobiele app Warehouse Management op al uw mobiele apparaten installeert en configureert om verbinding te maken met uw Microsoft Dynamics 365 Supply Chain Management-omgeving.
 author: Mirzaab
 ms.date: 02/03/2021
 ms.topic: article
@@ -16,21 +16,21 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 812dd30e0e444bc310fc81edd16958e0c0747885
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9bd208ba78d28046782d03221b0f23471f56b574
+ms.sourcegitcommit: 3f544f8671821be915b289a614e4e440bd38994f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103408"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "8941761"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>De mobiele app Warehouse Management installeren en verbinden
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> In dit onderwerp wordt beschreven hoe u de nieuwe mobiele app Warehouse Management configureert. Zie [De magazijnapp installeren en verbinden](../../supply-chain/warehousing/install-configure-warehousing-app.md) als u informatie zoekt over het configureren van de oude magazijnapp (die nu is afgeschaft).
+> In dit artikel wordt beschreven hoe u de nieuwe mobiele app Warehouse Management configureert. Zie [De magazijnapp installeren en verbinden](../../supply-chain/warehousing/install-configure-warehousing-app.md) als u informatie zoekt over het configureren van de oude magazijnapp (die nu is afgeschaft).
 
-In dit onderwerp wordt uitgelegd hoe u de mobiele app Warehouse Management downloadt en op al uw mobiele apparaten installeert en hoe u de app configureert om verbinding te maken met uw Supply Chain Management-omgeving. U kunt elk apparaat handmatig configureren of u kunt verbindingsinstellingen importeren via een bestand of door een QR-code te scannen.
+In dit artikel wordt uitgelegd hoe u de mobiele app Warehouse Management downloadt en op al uw mobiele apparaten installeert en hoe u de app configureert om verbinding te maken met uw Supply Chain Management-omgeving. U kunt elk apparaat handmatig configureren of u kunt verbindingsinstellingen importeren via een bestand of door een QR-code te scannen.
 
 ## <a name="system-requirements"></a>Systeemvereisten
 
@@ -39,7 +39,7 @@ De mobiele app Warehouse Management is beschikbaar voor de besturingssystemen va
 - Windows 10 (Universal Windows Platform \[UWP\]) oktober 2018 update 1809 (build 10.0.17763) of later
 - Android 4.4 of hoger
 
-## <a name="turn-warehouse-management-mobile-app-features-or-or-off-in-supply-chain-management"></a>De functies in de mobiele app Warehouse Management in- of uitschakelen in Supply Chain Management
+## <a name="turn-warehouse-management-mobile-app-features-on-or-off-in-supply-chain-management"></a>De functies in de mobiele app Warehouse Management in- of uitschakelen in Supply Chain Management
 
 Om de mobiele app Warehouse Management te gebruiken die in dit onderwerp wordt beschreven, moet de functie *Gebruikersinstellingen, pictogrammen en stapnamen voor de nieuwe magazijnapp* worden ingeschakeld voor het systeem. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Gebruikersinstellingen, pictogrammen en stapnamen voor de nieuwe magazijnapp* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
@@ -87,11 +87,11 @@ Als u de mobiele app Warehouse Management wilt inschakelen voor interactie met e
 
     ![Wizard Een toepassing registreren.](media/app-connect-azure-register-wizard.png "Wizard Een toepassing registreren")
 
-1. Uw nieuwe app-registratie wordt geopend. Noteer de waarde in het veld **Toepassings-id (client)**. U hebt deze later nog nodig. Deze id wordt later in dit onderwerp aangeduid als de *client-id*.
+1. Uw nieuwe app-registratie wordt geopend. Noteer de waarde in het veld **Toepassings-id (client)**. U hebt deze later nog nodig. Deze id wordt later in dit artikel aangeduid als de *client-id*.
 
     ![Id van toepassing (client).](media/app-connect-azure-app-id.png "Id van toepassing (client)")
 
-1. Selecteer in de lijst **Beheren** de optie **Certificaat en geheimen**. Selecteer vervolgens een van de volgende knoppen, afhankelijk van hoe u de app wilt configureren voor verificatie. (Zie de sectie [Verifiëren via een certificaat of clientgeheim](#authenticate) verderop in dit onderwerp voor meer informatie.)
+1. Selecteer in de lijst **Beheren** de optie **Certificaat en geheimen**. Selecteer vervolgens een van de volgende knoppen, afhankelijk van hoe u de app wilt configureren voor verificatie. (Zie de sectie [Verifiëren via een certificaat of clientgeheim](#authenticate) verderop in dit artikel voor meer informatie.)
 
     - **Certificaat uploaden**: upload een certificaat voor gebruik als geheim. We raden deze benadering aan, omdat het veiliger is en ook meer kan worden geautomatiseerd. Als u de mobiele app Warehouse Management uitvoert op Windows-apparaten, noteert u de waarde voor **Vingerafdruk** die wordt weergegeven nadat u het certificaat hebt geüpload. U hebt deze waarde nodig wanneer u het certificaat op Windows-apparaten configureert.
     - **Nieuw clientgeheim**: maak een sleutel door een beschrijving en een duur voor de sleutel in te voeren in de sectie **Wachtwoorden** en selecteer vervolgens **Toevoegen**. Maak een kopie van de sleutel en sla deze veilig op.
@@ -101,7 +101,7 @@ Als u de mobiele app Warehouse Management wilt inschakelen voor interactie met e
 Zie de volgende bronnen voor meer informatie over het instellen van webservicetoepassingen in Azure AD.
 
 - Zie [Procedure: Azure PowerShell gebruiken om een service-principal te maken met een certificaat](/azure/active-directory/develop/howto-authenticate-service-principal-powershell) voor instructies voor het gebruik van Windows PowerShell om webservicetoepassingen in te stellen in Azure AD.
-- Zie de volgende onderwerpen voor gedetailleerde informatie over het handmatig maken van een webservicetoepassing in Azure AD.
+- Zie de volgende artikelen voor gedetailleerde informatie over het handmatig maken van een webservicetoepassing in Azure AD.
 
     - [Snelstart: Een toepassing registreren op het Microsoft-identiteitsplatform](/azure/active-directory/develop/quickstart-register-app)
     - [Procedure: de portal gebruiken om een Azure AD-toepassing en een service-principal te maken die toegang hebben tot bronnen](/azure/active-directory/develop/howto-create-service-principal-portal)
@@ -129,13 +129,13 @@ Voer de volgende stappen uit om Supply Chain Management in staat te stellen om u
     ![Azure Active Directory-toepassingen.](media/app-connect-aad-apps.png "Azure Active Directory-toepassingen")
 
 > [!TIP]
-> Eén manier om deze instellingen te gebruiken is door een client-id in Azure te maken voor al uw fysieke apparaten en vervolgens elke client-id aan de pagina **Azure Active Directory-toepassingen** toe te voegen. Als een apparaat nu zoekraakt, kunt u de toegang van het apparaat tot Supply Chain Management eenvoudig verwijderen door de client-id van die pagina te verwijderen. (Deze methode werkt, omdat in de verbindingsreferenties die op elk apparaat zijn opgeslagen, ook een client-id is opgeven, zoals verderop in dit onderwerp wordt beschreven.)
+> Eén manier om deze instellingen te gebruiken is door een client-id in Azure te maken voor al uw fysieke apparaten en vervolgens elke client-id aan de pagina **Azure Active Directory-toepassingen** toe te voegen. Als een apparaat nu zoekraakt, kunt u de toegang van het apparaat tot Supply Chain Management eenvoudig verwijderen door de client-id van die pagina te verwijderen. (Deze methode werkt, omdat in de verbindingsreferenties die op elk apparaat zijn opgeslagen, ook een client-id is opgeven, zoals verderop in dit artikel wordt beschreven.)
 >
 > Daarnaast worden de instellingen voor de standaardtaal, de nummernotatie en de tijdzone voor elke client-id ingesteld via de voorkeuren die zijn ingesteld voor de waarde **Gebruikers-id** die hier is toegewezen. Daarom kunt u deze voorkeuren gebruiken om op basis van de client-id standaardinstellingen in te stellen voor elk apparaat of elke verzameling apparaten. Deze standaardinstellingen worden echter overschreven als ze ook zijn gedefinieerd voor de *gebruikersaccount van de magazijn-app* die een werknemer gebruikt om zich op het apparaat aan te melden. (Zie [Gebruikersaccounts voor mobiele apparaten](mobile-device-work-users.md) voor meer informatie.)
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Verifiëren via een certificaat of clientgeheim
 
-Verificatie met Azure AD biedt een veilige manier om een mobiel apparaat te verbinden met Supply Chain Management. U kunt verifiëren via een clientgeheim of een certificaat. Als u verbindingsinstellingen gaat importeren, is het raadzaam een certificaat te gebruiken in plaats van een clientgeheim. Omdat het clientgeheim altijd veilig moet worden opgeslagen, kunt u het niet importeren vanuit een bestand met verbindingsinstellingen of een QR-code, zoals verderop in dit onderwerp wordt beschreven.
+Verificatie met Azure AD biedt een veilige manier om een mobiel apparaat te verbinden met Supply Chain Management. U kunt verifiëren via een clientgeheim of een certificaat. Als u verbindingsinstellingen gaat importeren, is het raadzaam een certificaat te gebruiken in plaats van een clientgeheim. Omdat het clientgeheim altijd veilig moet worden opgeslagen, kunt u het niet importeren vanuit een bestand met verbindingsinstellingen of een QR-code, zoals verderop in dit artikel wordt beschreven.
 
 Certificaten kunnen worden gebruikt als geheimen om de identiteit van de toepassing te bewijzen wanneer een token wordt aangevraagd. Het openbare gedeelte van het certificaat wordt geüpload naar de app-registratie in de Azure-portal, terwijl het volledige certificaat moet worden geïmplementeerd op elk apparaat waarop de mobiele app Warehouse Management is geïnstalleerd. Uw organisatie is verantwoordelijk voor het beheer van het certificaat wat betreft rotatie en dergelijke. U kunt zelfondertekende certificaten gebruiken, maar u moet altijd met niet-exporteerbare certificaten werken.
 
@@ -266,7 +266,7 @@ Als u geen bestand of QR-code hebt, kunt u de app handmatig configureren op het 
 
 1. Voer de volgende gegevens in:
 
-    - **Clientgeheim gebruiken**: stel deze optie in op _Ja_ als u een clientgeheim wilt gebruiken voor verificatie met Supply Chain Management. Stel deze in op _Nee_ om een certificaat voor verificatie te gebruiken. (Zie voor meer informatie de sectie [Een webservicetoepassing maken in Azure Active Directory](#create-service) eerder in dit onderwerp.)
+    - **Clientgeheim gebruiken**: stel deze optie in op _Ja_ als u een clientgeheim wilt gebruiken voor verificatie met Supply Chain Management. Stel deze in op _Nee_ om een certificaat voor verificatie te gebruiken. (Zie voor meer informatie de sectie [Een webservicetoepassing maken in Azure Active Directory](#create-service) eerder in dit artikel.)
     - **Verbindingsnaam**: voer een naam in voor de nieuwe verbinding. Deze naam wordt weergegeven in het veld **Verbinding selecteren** wanneer u de verbindingsinstellingen de volgende keer opent. De naam die u invoert, moet uniek zijn. (Met andere woorden, de naam moet verschillen van alle andere verbindingsnamen die op het apparaat zijn opgeslagen als er daar nog andere verbindingsnamen zijn opgeslagen.)
     - **Client-id Active Directory**: geef de client-id op waarvan u een notitie hebt gemaakt terwijl u bezig was met het instellen van Azure AD in de sectie [Een webservicetoepassing maken in Azure Active Directory](#create-service).
     - **Clientgeheim Active Directory**: dit veld is alleen beschikbaar wanneer de optie **Clientgeheim gebruiken** is ingesteld op _Ja_. Voer het clientgeheim in waarvan u een notitie hebt gemaakt terwijl u bezig was met het instellen van Azure AD in de sectie [Een webservicetoepassing maken in Azure Active Directory](#create-service).

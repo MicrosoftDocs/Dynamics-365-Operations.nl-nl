@@ -1,6 +1,6 @@
 ---
 title: Tabbladmodule
-description: In dit onderwerp wordt beschreven wat tabbladmodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt beschreven wat tabbladmodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 104fb57cfdcd96a0da50899c0eac576074282017
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 6453db5038e3f25df73b7b656bc53df2d936affb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780609"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873109"
 ---
 # <a name="tab-module"></a>Tabbladmodule
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven wat tabbladmodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt beschreven wat tabbladmodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 
 Tabbladmodules zijn containerachtige modules die worden gebruikt om de informatie op een sitepagina in tabbladen te ordenen. Ze kunnen worden gebruikt op elke pagina waar informatie moet worden weergegeven op tabbladen.
 

@@ -1,6 +1,6 @@
 ---
 title: Aanbevelingen voor vergelijkbare artikelen inschakelen
-description: In dit onderwerp wordt beschreven hoe u productaanbevelingen voor vergelijkbare artikelen kunt inschakelen in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt beschreven hoe u productaanbevelingen voor vergelijkbare artikelen kunt inschakelen in Microsoft Dynamics 365 Commerce.
 author: bebeale
 ms.date: 08/06/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: e70365be8484d71ef9e0e9823b0a4406b0fd2761439780cafc30e1284bda1f20
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3024e832de5e6a60b49c5b0c8bfbe36b2c416379
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721995"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884572"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>Aanbevelingen voor vergelijkbare artikelen inschakelen
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u productaanbevelingen voor vergelijkbare artikelen kunt inschakelen in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt beschreven hoe u productaanbevelingen voor vergelijkbare artikelen kunt inschakelen in Microsoft Dynamics 365 Commerce.
 
 De aanbevelingen van de optie voor voor vergelijkbare artikelen in Dynamics 365 Commerce maakt gebruik van de kracht van kunstmatige intelligentie en machine learning (AI-ML) om aanbevelingen te geven voor vergelijkbare producten aan klanten. Door de aanbevelingen voor vergelijkbare artikelen beschikbaar te maken voor alle detailhandelkanalen in Commerce, kunnen detailhandelaren de klanttevredenheid verbeteren doordat klanten gemakkelijk vinden wat ze zoeken.
 

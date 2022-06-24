@@ -1,6 +1,6 @@
 ---
-title: Overzicht met productinformatie
-description: Dit onderwerp biedt informatie over productgegevensbeheer. Productgegevensbeheer werkt met een gedeelde productdefinitie, categorisatie en id's in alle rechtspersonen en specifieke configuraties van een product, zodat deze past in de bedrijfsprocessen.
+title: Overzicht van Productgegevens
+description: Dit artikel biedt informatie over productgegevensbeheer. Productgegevensbeheer werkt met een gedeelde productdefinitie, categorisatie en id's in alle rechtspersonen en specifieke configuraties van een product, zodat deze past in de bedrijfsprocessen.
 author: t-benebo
 ms.date: 06/01/2017
 ms.topic: overview
@@ -15,20 +15,20 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c8aabeed66f864d1d1060a6452a3b554611c295
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: fa06e718d2acc44cfced7db842814c48fb210d1e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063311"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867864"
 ---
-# <a name="product-information-overview"></a>Overzicht met productinformatie
+# <a name="product-information-overview"></a>Overzicht van Productgegevens
 
 [!include [banner](../includes/banner.md)]
 
 
 
-Dit onderwerp biedt informatie over productgegevensbeheer. Productgegevensbeheer werkt met een gedeelde productdefinitie, categorisatie en id's in alle rechtspersonen en specifieke configuraties van een product, zodat deze past in de bedrijfsprocessen. 
+Dit artikel biedt informatie over productgegevensbeheer. Productgegevensbeheer werkt met een gedeelde productdefinitie, categorisatie en id's in alle rechtspersonen en specifieke configuraties van een product, zodat deze past in de bedrijfsprocessen. 
 
 Productgegevens vormen de basis van toepassingen voor supply chain en commerce in alle bedrijfstakken. Het verwijst naar processen en technologieën die gericht zijn op centraal beheer van informatie over producten (bijvoorbeeld in de toeleveringsketens). Het is essentieel dat gedeelde definities, documentatie, kenmerken en id's van producten worden gebruikt. In de verschillende modules van een oplossing zijn productspecifieke informatie en configuratie vereist om de bedrijfsprocessen te beheren die zijn gerelateerd aan specifieke producten, productfamilies of productcategorieën.
 

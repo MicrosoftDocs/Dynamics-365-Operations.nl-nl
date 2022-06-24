@@ -1,6 +1,6 @@
 ---
 title: Verschillende dimensies voor verpakking en opslag instellen
-description: In dit onderwerp wordt aangegeven voor welk proces (verpakking, opslag of geneste verpakking) elke opgegeven dimensie wordt gebruikt.
+description: In dit artikel wordt aangegeven voor welk proces (verpakking, opslag of geneste verpakking) elke opgegeven dimensie wordt gebruikt.
 author: Mirzaab
 ms.date: 01/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 090a6f653b50d8f22a2f34354172f129624813f1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 85e40a0768174dcdc5d0fa2647b24cddccf01bdf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687640"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905481"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Verschillende dimensies voor verpakking en opslag instellen
 
@@ -33,7 +33,7 @@ Sommige artikelen worden verpakt of opgeslagen op een manier die u mogelijk nodi
 *Opslag*: dimensies worden zelfs ondersteund wanneer de functie *Verpakkingsproductdimensie* niet is ingeschakeld. U stelt deze in via de pagina **Fysieke dimensie** in Supply Chain Management. Deze dimensies worden gebruikt door alle processen waarbij geen verpakkings- en geneste verpakkingsdimensies zijn opgegeven.
 
 *Verpakkings*- en *geneste verpakkings* dimensies worden ingesteld met de pagina **Fysieke productdimensies** die wordt toegevoegd wanneer u de functie *Verpakkingsproductdimensie* inschakelt.
-In dit onderwerp vindt u een scenario dat laat zien hoe u deze functie moet gebruiken.
+In dit artikel vindt u een scenario dat laat zien hoe u deze functie moet gebruiken.
 
 ## <a name="turn-on-the-packaging-product-dimensions-feature"></a>De functie Verpakkingsproductdimensie inschakelen
 

@@ -1,6 +1,6 @@
 ---
 title: Exacte prijs- en kortingsberekening uitstellen voor betere prestaties
-description: In dit onderwerp wordt de functionaliteit voor uitgestelde prijsberekening beschreven die beschikbaar is in het Microsoft Dynamics 365 Commerce POS (Point of Sale) en callcenter.
+description: In dit artikel wordt de functionaliteit voor uitgestelde prijsberekening beschreven die beschikbaar is in het Microsoft Dynamics 365 Commerce POS (Point of Sale) en callcenter.
 author: boycezhu
 ms.date: 09/09/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: boycez
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 8c4264c3a4c71e6aab0e1ef8d7d8cfffad065a46
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 6926c288a91dbe66b6ffc2e6c06f866d3ebd7652
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488358"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845892"
 ---
 # <a name="delay-exact-price-and-discount-calculation-for-improved-performance"></a>Exacte prijs- en kortingsberekening uitstellen voor betere prestaties
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt de functionaliteit voor uitgestelde prijsberekening beschreven die beschikbaar is in het Microsoft Dynamics 365 Commerce POS (Point of Sale) en callcenter.
+In dit artikel wordt de functionaliteit voor uitgestelde prijsberekening beschreven die beschikbaar is in het Microsoft Dynamics 365 Commerce POS (Point of Sale) en callcenter.
 
 Dynamics 365 Commerce ondersteunt het maken van meerregelkortingen die worden toegepast wanneer meerdere verkoopregels van een verkooporder of verkoopofferte worden gecombineerd. Deze kortingen omvatten combinatiekortingen, drempelkortingen en hoeveelheidskortingen.
 

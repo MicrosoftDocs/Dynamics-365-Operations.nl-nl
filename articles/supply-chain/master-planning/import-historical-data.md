@@ -1,6 +1,6 @@
 ---
 title: Historische gegevens voor vraagprognoses importeren
-description: Als u nauwkeurige vraagprognoses wilt, hebt u historische vraaggegevens per artikel of artikeltoewijzingssleutel nodig. In dit onderwerp wordt uitgelegd hoe u gegevensentiteiten gebruikt om historische vraaggegevens te importeren uit een willekeurig systeem, zodat u een langere historie van vraagprognosegegevens hebt.
+description: Als u nauwkeurige vraagprognoses wilt, hebt u historische vraaggegevens per artikel of artikeltoewijzingssleutel nodig. In dit artikel wordt uitgelegd hoe u gegevensentiteiten gebruikt om historische vraaggegevens te importeren uit een willekeurig systeem, zodat u een langere historie van vraagprognosegegevens hebt.
 author: t-benebo
 ms.date: 05/10/2017
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c52d27d6e3aa8a20d6cc1dc81e4ade981c6a8091
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: e36ea72322c31f7e0ea3377b474cd148d78bdd3d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470396"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877590"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>Historische gegevens voor vraagprognoses importeren
 
@@ -37,7 +37,7 @@ In het werkgebied **Gegevensbeheer** ziet u een overzicht van alle velden in de 
 
 Als u de gegevensentiteit wilt gebruiken, moet u een Microsoft Excel-bestand of een door komma's gescheiden waarden (CSV)-bestand hebben met de historische vraaggegevens. Het volgende voorbeeld laat zien hoe u gegevens importeert uit een CSV-bestand.
 
-Zie [Gegevensimport- en exporttakenoverzicht](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) en de gerelateerde onderwerpen voor meer informatie over het importeren van gegevens, waaronder het opschonen van gegevens na een import.
+Zie [Gegevensimport- en exporttakenoverzicht](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) en de gerelateerde artikelen voor meer informatie over het importeren van gegevens, waaronder het opschonen van gegevens na een import.
 
 Zie ook [Een statistische basislijnprognose genereren](generate-statistical-baseline-forecast.md).
 

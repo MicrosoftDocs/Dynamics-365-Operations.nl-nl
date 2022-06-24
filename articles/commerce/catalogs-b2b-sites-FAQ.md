@@ -1,6 +1,6 @@
 ---
-title: Veelgestelde vragen over Commercecatalogi voor B2B-sites
-description: Dit onderwerp biedt antwoorden op veelgestelde vragen over Microsoft Dynamics 365 Commerce-catalogi.
+title: Veelgestelde vragen over Commerce-catalogi voor B2B-sites
+description: Dit artikel biedt antwoorden op veelgestelde vragen over Microsoft Dynamics 365 Commerce-catalogi.
 author: ashishmsft
 ms.date: 05/18/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 5bdc7dfcb0e48aa85db2db4d178c5bf62ea0411b
-ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
+ms.openlocfilehash: 0cd11b4469e4dbd1205ace785fe857f6c6001480
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782857"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849036"
 ---
-# <a name="commerce-catalogs-for-b2b-faq"></a>Veelgestelde vragen over Commercecatalogi voor B2B-sites
+# <a name="commerce-catalogs-for-b2b-faq"></a>Veelgestelde vragen over Commerce-catalogi voor B2B-sites
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Dit onderwerp biedt antwoorden op veelgestelde vragen over Microsoft Dynamics 365 Commerce [B2B-catalogi (business-to-business)](catalogs-b2b-sites.md).
+Dit artikel biedt antwoorden op veelgestelde vragen over Microsoft Dynamics 365 Commerce [B2B-catalogi (business-to-business)](catalogs-b2b-sites.md).
 
 ## <a name="why-cant-i-configure-a-catalog-specific-navigation-hierarchy-or-see-an-option-to-associate-a-customer-hierarchy"></a>Waarom kan ik geen catalogusspecifieke navigatiehiërarchie configureren of waarom zie ik geen optie om een klanthiërarchie te koppelen?
 

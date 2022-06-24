@@ -1,6 +1,6 @@
 ---
 title: Wavelabels opnieuw afdrukken en ongeldig maken
-description: In dit onderwerp wordt uitgelegd hoe u bestaande wavelabels ongeldig kunt maken en opnieuw kunt afdrukken.
+description: In dit artikel wordt uitgelegd hoe u bestaande wavelabels ongeldig kunt maken en opnieuw kunt afdrukken.
 author: perlynne
 ms.date: 07/09/2020
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 052c6632d1c6c6b1f357d4066ca8b419698cae62
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f9f057d9985fb8431ec7c9ced23f2cd3c476570d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572332"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871828"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Wavelabels opnieuw afdrukken en ongeldig maken
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u labels beheert die door waveverwerking worden gegenereerd. (Zie [Wavelabels afdrukken configureren](../warehousing/configure-wave-label-printing.md) voor een gedetailleerde beschrijving en configuratie-instructies.)
+In dit artikel wordt uitgelegd hoe u labels beheert die door waveverwerking worden gegenereerd. (Zie [Wavelabels afdrukken configureren](../warehousing/configure-wave-label-printing.md) voor een gedetailleerde beschrijving en configuratie-instructies.)
 
 U kunt wavelabels op elk gewenst moment opnieuw afdrukken. Het kan bijvoorbeeld zijn dat u één label wilt afdrukken als een bestaand label verloren is gegaan of beschadigd is geraakt. Het kan ook zijn dat een magazijnmedewerker of supervisor een hele rol labels moet opnieuw afdrukken als het nummer en/of de samenstelling van een hele reeks wavelabels is gewijzigd (bijvoorbeeld vanwege een voorraadtekort of andere redenen). Ook als alleen het aantal dozen is gewijzigd, moet de gehele rol opnieuw worden afgedrukt om te zorgen dat het totale aantal in de sectie "Doos X van Y" van elk label correct is.
 
@@ -32,10 +32,10 @@ De functie voor het opnieuw afdrukken van wavelabels ondersteunt de volgende fun
 - Maak labels ongeldig en druk ze tegelijk opnieuw af. (De mogelijkheid om labels ongeldig te maken is bijvoorbeeld opgenomen in korte orderverzamelscenario's.)
 - Schoon de wavelbelhistorie op.
 
-Dit onderwerp bevat een verzameling scenario's met voorbeelden voor hoe u met de functie voor het opnieuw afdrukken van wavelabels kunt werken.
+Dit artikel bevat een verzameling scenario's met voorbeelden voor hoe u met de functie voor het opnieuw afdrukken van wavelabels kunt werken.
 
 > [!IMPORTANT]
-> Als u de scenario's wilt doorlopen die in dit onderwerp worden weergegeven, moet u eerst de relevante afdrukfuncties voor waves inschakelen en configureren, zoals wordt beschreven in [Wavelabels afdrukken configureren](../warehousing/configure-wave-label-printing.md). Diverse scenario's in dit onderwerp vereisen ook dat u eerst de scenario's in dat onderwerp doorloopt om vereiste voorbeeldgegevens te genereren.
+> Als u de scenario's wilt doorlopen die in dit artikel worden weergegeven, moet u eerst de relevante afdrukfuncties voor waves inschakelen en configureren, zoals wordt beschreven in [Wavelabels afdrukken configureren](../warehousing/configure-wave-label-printing.md). Diverse scenario's in dit artikel vereisen ook dat u eerst de scenario's in dat artikel doorloopt om vereiste voorbeeldgegevens te genereren.
 
 ## <a name="scenario-1-reprint-labels-from-the-web-client"></a>Scenario 1: Labels opnieuw afdrukken vanaf de webclient
 

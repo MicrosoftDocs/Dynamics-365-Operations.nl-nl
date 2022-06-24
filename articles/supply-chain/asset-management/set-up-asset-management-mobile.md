@@ -1,6 +1,6 @@
 ---
 title: Mobiel werkgebied voor activabeheer instellen
-description: In dit onderwerp wordt beschreven hoe u Microsoft Dynamics 365 Supply Chain Management en de mobiele app Finance + Operations (Dynamics 365) kunt instellen voor het uitvoeren van het mobiele werkgebied Activabeheer waarmee medewerkers taken voor activabeheer kunnen uitvoeren.
+description: In dit artikel wordt beschreven hoe u Microsoft Dynamics 365 Supply Chain Management en de mobiele app Finance + Operations (Dynamics 365) kunt instellen voor het uitvoeren van het mobiele werkgebied Activabeheer waarmee medewerkers taken voor activabeheer kunnen uitvoeren.
 author: johanhoffmann
 ms.date: 01/15/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a056be417d266fd400ce1572312f327dc070cb6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ee92ed2c0e2a59adaebe20ed3d426ac03c056dac
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693495"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870837"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Mobiel werkgebied voor activabeheer instellen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u Microsoft Dynamics 365 Supply Chain Management en de mobiele app Finance + Operations (Dynamics 365) kunt instellen voor het uitvoeren van het mobiele werkgebied **Activabeheer** waarmee medewerkers taken voor activabeheer kunnen uitvoeren.
+In dit artikel wordt beschreven hoe u Microsoft Dynamics 365 Supply Chain Management en de mobiele app Finance + Operations (Dynamics 365) kunt instellen voor het uitvoeren van het mobiele werkgebied **Activabeheer** waarmee medewerkers taken voor activabeheer kunnen uitvoeren.
 
 ## <a name="set-up-maintenance-worker-users-in-supply-chain-management"></a>Onderhoudsmedewerkers instellen in Supply Chain Management
 

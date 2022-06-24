@@ -1,6 +1,6 @@
 ---
 title: Negatieve dagen en dynamische negatieve dagen
-description: In dit onderwerp vindt u informatie over negatieve dagen en dynamische negatieve dagen en hoe u deze kunt gebruiken om uw bedrijf te helpen.
+description: In dit artikel vindt u informatie over negatieve dagen en dynamische negatieve dagen en hoe u deze kunt gebruiken om uw bedrijf te helpen.
 author: t-benebo
 ms.date: 05/25/2021
 ms.topic: article
@@ -10,27 +10,27 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d88517c99a274911e8abd8de4bcd318139822a5
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: d83aab9b7d3d30d519e8b313a57f2802de3cfb72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469864"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846122"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Negatieve dagen en dynamische negatieve dagen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp vindt u informatie over negatieve dagen en dynamische negatieve dagen en hoe u deze kunt gebruiken om uw bedrijf te helpen. De *time fence voor negatieve dagen* staat voor het aantal dagen dat u bereid bent om te wachten voordat u nieuwe aanvulling bestelt wanneer u negatieve voorraad hebt.
+In dit artikel vindt u informatie over negatieve dagen en dynamische negatieve dagen en hoe u deze kunt gebruiken om uw bedrijf te helpen. De *time fence voor negatieve dagen* staat voor het aantal dagen dat u bereid bent om te wachten voordat u nieuwe aanvulling bestelt wanneer u negatieve voorraad hebt.
 
-Dit onderwerp omvat de volgende informatie:
+Dit artikel omvat de volgende informatie:
 
 - Hoe geplande orders worden gemaakt
 - De correlatie tussen de time fence voor negatieve dagen en de levertijd van het artikel
 - De manier waarop de time fence voor dynamische negatieve dagen wordt berekend en hoe de levertijd van het artikel in de berekening wordt meegenomen
 - Hoe u de [suggesties voor het verbeteren van de uitvoeringstijd voor materiaalbehoeftenplanning (material requirements planning; MRP) (hoofdplanning)](https://blogs.msdn.com/b/axmfg/archive/2015/01/02/checklist-for-improving-mrp-performance-part-2-how-to-setup-planning-parameters.aspx) kunt interpreteren die zijn gerelateerd aan negatieve dagen
 
-In dit onderwerp worden drie hypothetische scenario's gebruikt om u te helpen bij het begrijpen van deze informatie. Het verschil tussen de scenario's is het punt waarop u vraag krijgt: vóór, gedurende of na de doorlooptijd van het artikel.
+In dit artikel worden drie hypothetische scenario's gebruikt om u te helpen bij het begrijpen van deze informatie. Het verschil tussen de scenario's is het punt waarop u vraag krijgt: vóór, gedurende of na de doorlooptijd van het artikel.
 
 ## <a name="scenario-1-you-get-demand-before-the-items-lead-time-period"></a>Scenario 1: U krijgt vraag vóór de levertijd van het artikel
 
@@ -93,7 +93,7 @@ De volgende afbeelding toont een grafische weergave van wat er gebeurt in dit ge
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>Geval E: Meer negatieve dagen dan de levertijd van het artikel en de time fence voor dynamische negatieve dagen gebruiken
 
-Als u de negatieve dagen instelt op een hogere waarde dan de levertijd van het artikel en u ook de time fence voor dynamische negatieve dagen gebruikt, is de time fence voor dynamische negatieve dagen 6 + 6 + 0 = 12 dagen. Deze benadering kan een zeer lange time fence produceren waarin naar resultaten moet worden gezocht. Zie de sectie [Conclusie](#conclusion) van dit onderwerp voor meer informatie over de manier waarop geval E betrekking heeft op een situatie waarin u de negatieve dagen instelt op een lange time fence.
+Als u de negatieve dagen instelt op een hogere waarde dan de levertijd van het artikel en u ook de time fence voor dynamische negatieve dagen gebruikt, is de time fence voor dynamische negatieve dagen 6 + 6 + 0 = 12 dagen. Deze benadering kan een zeer lange time fence produceren waarin naar resultaten moet worden gezocht. Zie de sectie [Conclusie](#conclusion) van dit artikel voor meer informatie over de manier waarop geval E betrekking heeft op een situatie waarin u de negatieve dagen instelt op een lange time fence.
 
 ## <a name="scenario-2-you-get-demand-during-the-items-lead-time-period"></a>Scenario 2: U krijgt vraag gedurende de levertijd van het artikel
 
@@ -142,7 +142,7 @@ Als u de negatieve dagen instelt op **0** (nul) en alleen de time fence voor dyn
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>Geval E: Meer negatieve dagen dan de levertijd van het artikel en de time fence voor dynamische negatieve dagen gebruiken
 
-Als u de negatieve dagen instelt op een hogere waarde dan de levertijd van het artikel en u ook de time fence voor dynamische negatieve dagen gebruikt, is de time fence voor dynamische negatieve dagen 6 + 6 – 4 = 8 dagen. Deze benadering kan een zeer lange time fence produceren waarin naar resultaten moet worden gezocht. Zie de sectie [Conclusie](#conclusion) van dit onderwerp voor meer informatie over de manier waarop geval E betrekking heeft op een situatie waarin u de negatieve dagen instelt op een lange time fence.
+Als u de negatieve dagen instelt op een hogere waarde dan de levertijd van het artikel en u ook de time fence voor dynamische negatieve dagen gebruikt, is de time fence voor dynamische negatieve dagen 6 + 6 – 4 = 8 dagen. Deze benadering kan een zeer lange time fence produceren waarin naar resultaten moet worden gezocht. Zie de sectie [Conclusie](#conclusion) van dit artikel voor meer informatie over de manier waarop geval E betrekking heeft op een situatie waarin u de negatieve dagen instelt op een lange time fence.
 
 ## <a name="scenario-3-you-get-demand-after-the-items-lead-time-period"></a>Scenario 3: U krijgt vraag na de levertijd van het artikel
 
@@ -204,7 +204,7 @@ Dit geval komt overeen met geval E voor scenario´s 1 en 2. Het biedt dezelfde v
 
 ## <a name="conclusion"></a>Conclusie
 
-Zoals de drie scenario's in dit onderwerp laten zien, is het een goed idee om de negatieve dagen in te stellen op een waarde die hoger is dan de levertijd van de artikelen in de behoefteplanningsgroep. Het is ook een goed idee om alleen dynamische negatieve dagen te gebruiken en om de negatieve dagen in te stellen op het aantal dagen dat u bereid bent om wachten voordat u een nieuwe aanvulling bestelt wanneer u een negatieve voorraad hebt (met andere woorden, het aantal dagen dat u bereid bent om vraag verder uit te stellen). Daarnaast moeten artikelen in dezelfde behoefteplanningsgroep dezelfde levertijden hebben.
+Zoals de drie scenario's in dit artikel laten zien, is het een goed idee om de negatieve dagen in te stellen op een waarde die hoger is dan de levertijd van de artikelen in de behoefteplanningsgroep. Het is ook een goed idee om alleen dynamische negatieve dagen te gebruiken en om de negatieve dagen in te stellen op het aantal dagen dat u bereid bent om wachten voordat u een nieuwe aanvulling bestelt wanneer u een negatieve voorraad hebt (met andere woorden, het aantal dagen dat u bereid bent om vraag verder uit te stellen). Daarnaast moeten artikelen in dezelfde behoefteplanningsgroep dezelfde levertijden hebben.
 
 Als u de negatieve dagen instelt op **0** (nul) en geen dynamische negatieve dagen gebruikt, wordt er in MRP altijd een nieuwe geplande order gemaakt om aan de vraag te voldoen. In deze situatie is het belangrijk dat u werkt met de actieberichten om er zeker van te zijn dat u voorraad niet ophoopt.
 

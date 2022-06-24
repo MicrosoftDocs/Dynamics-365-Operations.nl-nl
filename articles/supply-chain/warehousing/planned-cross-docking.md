@@ -1,6 +1,6 @@
 ---
 title: Gepland cross-docken
-description: In dit onderwerp wordt geavanceerd gepland cross-docking beschreven, waarbij de voorraadhoeveelheid die nodig is voor een order rechtstreeks van ontvangst of maken naar het juiste outbound dock of klaarzetlocatie wordt gestuurd. Alle resterende voorraad uit de inkomende bron wordt via het normale wegzetproces naar de juiste opslaglocatie gestuurd.
+description: In dit artikel wordt geavanceerd gepland cross-docking beschreven, waarbij de voorraadhoeveelheid die nodig is voor een order rechtstreeks van ontvangst of maken naar het juiste outbound dock of klaarzetlocatie wordt gestuurd. Alle resterende voorraad uit de inkomende bron wordt via het normale wegzetproces naar de juiste opslaglocatie gestuurd.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c28639a4a575f5f356bf947ba8e0aee6bcd256b4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 28ebf1b4fb966fd6801e75e7b3a6c8741114938d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573028"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863674"
 ---
 # <a name="planned-cross-docking"></a>Gepland cross-docken
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt geavanceerd gepland cross-docking beschreven. Cross-docking is een magazijnproces waarbij de voorraadhoeveelheid die nodig is voor een order rechtstreeks van ontvangst of maken naar het juiste outbound dock of klaarzetlocatie wordt gestuurd. Alle resterende voorraad uit de inkomende bron wordt via het normale wegzetproces naar de juiste opslaglocatie gestuurd.
+In dit artikel wordt geavanceerd gepland cross-docking beschreven. Cross-docking is een magazijnproces waarbij de voorraadhoeveelheid die nodig is voor een order rechtstreeks van ontvangst of maken naar het juiste outbound dock of klaarzetlocatie wordt gestuurd. Alle resterende voorraad uit de inkomende bron wordt via het normale wegzetproces naar de juiste opslaglocatie gestuurd.
 
 Bij cross-docken kunnen de werknemers het wegzetten van inkomende artikelen en het verzamelen voor uitgaande artikelen overslaan voor voorraat die al voor een uitgaande order is gemarkeerd. Zo wordt het aantal aanrakingsmomenten voor voorraad waar mogelijk zo klein mogelijk gehouden. Omdat er minder interactie is met het systeem, kan worden bespaard op tijd en ruimte op de magazijnvloer.
 
@@ -37,7 +37,7 @@ Bij ontvangst van inkomende orders identificeert de cross-dockingconfiguratie au
 
 ## <a name="turn-on-the-planned-cross-docking-features"></a>De functies voor gepland cross-docken inschakelen
 
-Als de functies die in dit onderwerp worden beschreven, nog niet in het systeem aanwezig zijn, gaat u naar [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de volgende functies in de volgende volgorde in:
+Als de functies die in dit artikel worden beschreven, nog niet in het systeem aanwezig zijn, gaat u naar [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de volgende functies in de volgende volgorde in:
 
 1. *Gepland cross-docken*
 1. *Sjablonen met locatie-instructies voor cross-docken*

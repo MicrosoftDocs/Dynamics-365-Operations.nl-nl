@@ -1,6 +1,6 @@
 ---
 title: Het veiligheidsvoorraadjournaal gebruiken om de minimumbehoefteplanning voor artikelen bij te werken
-description: In dit onderwerp wordt beschreven hoe u veiligheidsvoorraadjournalen gebruikt om de veiligheidsvoorraadhoeveelheid voor artikelen bij te werken door voorstellen voor minimale behoefteplanning te berekenen op basis van historische transacties.
+description: In dit artikel wordt beschreven hoe u veiligheidsvoorraadjournalen gebruikt om de veiligheidsvoorraadhoeveelheid voor artikelen bij te werken door voorstellen voor minimale behoefteplanning te berekenen op basis van historische transacties.
 author: t-benebo
 ms.date: 10/28/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-28
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 391f741ee08eb0624e80f5c297009c527e50c14c
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 385144738b83fcf6873eae5204b4784d6ecd5b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468533"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851763"
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage-for-items"></a>Het veiligheidsvoorraadjournaal gebruiken om de minimumbehoefteplanning voor artikelen bij te werken
 
@@ -24,7 +24,7 @@ ms.locfileid: "8468533"
 
 Veiligheidsvoorraad duidt op een extra hoeveelheid van een artikel dat op voorraad wordt gehouden om het risico te verkleinen dat het artikel uitverkocht raakt. Veiligheidsvoorraad wordt gebruikt als een buffer voor het geval er verkooporders binnenkomen, maar de leverancier niet kan voldoen aan de gevraagde verzenddatum van de klant.
 
-In dit onderwerp wordt beschreven hoe het veiligheidsvoorraadjournaal moet worden gebruikt voor het berekenen van de voorstellen voor minimumbehoefteplanning op basis van historische transacties en om vervolgens de artikelbehoefteplanning met de voorstellen bij te werken.
+In dit artikel wordt beschreven hoe het veiligheidsvoorraadjournaal moet worden gebruikt voor het berekenen van de voorstellen voor minimumbehoefteplanning op basis van historische transacties en om vervolgens de artikelbehoefteplanning met de voorstellen bij te werken.
 
 ## <a name="overview-of-minimum-coverage-usage"></a>Overzicht van minimaal gebruik van behoefteplanning
 
@@ -43,7 +43,7 @@ De waarde voor **Minimum** kan op drie manieren worden ingesteld:
 
 Veiligheidsvoorraadjournalen worden gebruikt om een voorgestelde minimumhoeveelheid te berekenen op basis van het historische gebruik van een artikel, voor min/max-doeleinden of voor voorraadplandoeleinden. Historisch gebruik vertegenwoordigt alle uitgiftetransacties gedurende een opgegeven periode. Deze uitgiftetransacties omvatten verkoopordertransacties en voorraadcorrecties. De berekeningen geven ook het effect van de voorgestelde minimumhoeveelheid op de voorraadwaarde aan en de wijziging in de voorraadwaarde vergeleken met de huidige minimumhoeveelheden.
 
-Elke veiligheidsvoorraadjournaalregel vertegenwoordigt een artikel en de bijbehorende behoefteplanningsdimensies. Deze journaalregels worden gemaakt en weergegeven op de pagina **Journaalregels veiligheidsvoorraad** (**Hoofdplanning \> Hoofdplanning \> Uitvoeren \> Berekening veiligheidsvoorraad)**. Het bedrijfsproces waarbij de veiligheidsvoorraadjournalen worden gebruikt om de voorgestelde minimumhoeveelheden te berekenen, wordt verderop in dit onderwerp beschreven.
+Elke veiligheidsvoorraadjournaalregel vertegenwoordigt een artikel en de bijbehorende behoefteplanningsdimensies. Deze journaalregels worden gemaakt en weergegeven op de pagina **Journaalregels veiligheidsvoorraad** (**Hoofdplanning \> Hoofdplanning \> Uitvoeren \> Berekening veiligheidsvoorraad)**. Het bedrijfsproces waarbij de veiligheidsvoorraadjournalen worden gebruikt om de voorgestelde minimumhoeveelheden te berekenen, wordt verderop in dit artikel beschreven.
 
 De planner gebruikt een veiligheidsvoorraadjournaal om voorgestelde minimumhoeveelheden voor geselecteerde artikelen te berekenen op basis van het historische gebruik tijdens geselecteerde perioden. De voorgestelde minimumhoeveelheden kunnen indien nodig handmatig worden overschreven en u kunt de mogelijke invloed van de voorgestelde minimumhoeveelheden op de voorraadwaarde controleren. Als het journaal wordt geboekt, worden de bijbehorende minimumhoeveelheden in de artikelbehoefteplanning automatisch bijgewerkt.
 
@@ -89,7 +89,7 @@ Voer de volgende stappen uit om automatisch journaalregels te genereren.
 
     - **Begindatum**: selecteer de begindatum van de periode waarin uitgiften in de berekening moeten worden opgenomen.
     - **Einddatum**: selecteer de einddatum van de periode waarin uitgiften in deze berekening moeten worden opgenomen. Er moeten ten minste twee maanden tussen de begin- en einddatum zitten.
-    - **Standaardafwijking berekenen**: stel deze optie in op *Ja* om de standaardafwijking te berekenen. U moet deze optie op *Ja* instellen als u de optie **Serviceniveau gebruiken** wilt gebruiken wanneer u het voorstel berekent (zoals verderop in dit onderwerp wordt beschreven).
+    - **Standaardafwijking berekenen**: stel deze optie in op *Ja* om de standaardafwijking te berekenen. U moet deze optie op *Ja* instellen als u de optie **Serviceniveau gebruiken** wilt gebruiken wanneer u het voorstel berekent (zoals verderop in dit artikel wordt beschreven).
 
 1. Op het sneltabblad **Op te nemen records** kunt u filters en beperkingen instellen om aan te geven welke gegevens u in het rapport wilt opnemen. (U kunt bijvoorbeeld filteren op waarde van **Behoefteplanningsgroep**.) Selecteer **Filter** om een standaarddialoogvenster van de query-editor te openen, waarin u selectiecriteria, sorteercriteria en joins kunt definiëren. De velden werken op dezelfde manier als bij andere typen query's in Microsoft Dynamics 365 Supply Chain Management.
 1. Geef op het sneltabblad **Op de achtergrond uitvoeren** aan of de taak in de batchmodus moet worden uitgevoerd en/of stel een terugkerend schema in. De velden werken op dezelfde manier als bij andere typen [achtergrondtaken](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) in Supply Chain Management.
@@ -110,7 +110,7 @@ Met deze stap berekent u een voorgesteld minimum voor elke journaalregel en de m
 De berekeningen die worden weergegeven, hebben geen invloed op de werkelijke waarden voor minimumhoeveelheid voor elk product totdat u **Boeken** in het actievenster selecteert. Op dat moment worden de waarden voor **Nieuwe minimumhoeveelheid** toegepast op elk product.
 
 1. Ga naar **Hoofdplanning \> Hoofdplanning \> Uitvoeren \> Berekening veiligheidsvoorraad**.
-1. Open het journaal waarvoor u een voorstel wilt berekenen. U kunt ook een nieuw journaal maken zoals eerder in dit onderwerp is beschreven.
+1. Open het journaal waarvoor u een voorstel wilt berekenen. U kunt ook een nieuw journaal maken zoals eerder in dit artikel is beschreven.
 1. Selecteer op het sneltabblad **Journaalregels** **Voorstel berekenen** op de werkbalk. (U hoeft geen regels te selecteren.)
 1. Stel de volgende velden in het dialoogvenster **Voorstel berekenen voor minimumvoorraadniveau** in:
 

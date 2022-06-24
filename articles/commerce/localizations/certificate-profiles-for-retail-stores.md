@@ -1,6 +1,6 @@
 ---
 title: Door gebruiker gedefinieerde certificaatprofielen voor winkels
-description: Dit onderwerp biedt een overzicht van de manier waarop certificaten worden gebruikt in detailhandelwinkels.
+description: Dit artikel biedt een overzicht van de manier waarop certificaten worden gebruikt in detailhandelwinkels.
 author: josaw
 ms.date: 10/09/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9cb82a6d6336bb69fe818fb33e04ad621382b383055b24a4e79eee5ddff217ac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b40c74efa56a6e18af907e000554b9ab269bb31
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719925"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873024"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Door gebruiker gedefinieerde certificaatprofielen voor winkels
 
@@ -28,7 +28,7 @@ ms.locfileid: "6719925"
 
 ## <a name="overview"></a>Overzicht
 
-Dit onderwerp biedt een overzicht van de certificaatprofielen die beschikbaar zijn in Microsoft Dynamics 365 Commerce. Met deze functionaliteit wordt de functie [Geheimen voor detailhandelafzetkanalen beheren](../dev-itpro/manage-secrets.md) uitgebreid door ondersteuning voor lokale certificaten toe te voegen.
+Dit artikel biedt een overzicht van de certificaatprofielen die beschikbaar zijn in Microsoft Dynamics 365 Commerce. Met deze functionaliteit wordt de functie [Geheimen voor detailhandelafzetkanalen beheren](../dev-itpro/manage-secrets.md) uitgebreid door ondersteuning voor lokale certificaten toe te voegen.
 
 Als het verkooppunt (POS/Point of Sale) wordt uitgevoerd in de offlinemodus, heeft het geen toegang tot de certificaten die zijn opgeslagen in de sleutelkluis. In plaats daarvan moet het lokale certificaat worden gebruikt. De volgende mogelijkheden worden ondersteund:
 

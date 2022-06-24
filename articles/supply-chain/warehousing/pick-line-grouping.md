@@ -1,6 +1,6 @@
 ---
 title: Orderverzamelregels groeperen
-description: Dit onderwerp bevat een overzicht van de groepering van orderverzamelregels.
+description: Dit artikel bevat een overzicht van de groepering van orderverzamelregels.
 author: Mirzaab
 ms.date: 12/15/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 076a4dfdc49525eef616d1008073371be1dd4a248cd6f16d395b544ae70e7531
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f9e6cbf0f520f0f30c01cefba03689e9c119f2cb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757489"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890620"
 ---
 # <a name="pick-line-grouping"></a>Orderverzamelregels groeperen
 
@@ -116,7 +116,7 @@ Voordat u de groepering van orderverzamelregels kunt instellen, moet u in aanmer
     - **Artikel M9201:** *3* stuks
     - **Artikel M9202:** *9* stuks
 
-1. Voordat u de orders aan het magazijn vrijgeeft, moet u ervoor zorgen dat de picklocaties voldoende voorraad hebben voor alle artikelen op alle orders. Controleer de instelling **Locatie-instructie** om te bepalen welke orderverzamellocaties worden gebruikt voor het verzamelen van verkooporders. Als u de Contoso Demonstratiegegevensomgeving voor magazijn *51* gebruikt, bevestigt u dat er beschikbare voorraad is.
+1. Voordat u de orders aan het magazijn vrijgeeft, moet u ervoor zorgen dat de picklocaties voldoende voorraad hebben voor alle artikelen op alle orders. Controleer de instelling **Locatie-instructie** om te bepalen welke orderverzamellocaties worden gebruikt voor het verzamelen van verkooporders. Als u de Demonstratiegegevensomgeving van Contoso voor magazijn *51* gebruikt, bevestigt u dat er beschikbare voorraad is.
 
     U moet nu de voorraad voor elke regel reserveren.
 

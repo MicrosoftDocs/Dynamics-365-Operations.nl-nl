@@ -1,6 +1,6 @@
 ---
-title: Overboekingsorders maken via de app voor magazijnbeheer
-description: In dit onderwerp wordt beschreven hoe u overboekingsorders kunt maken en verwerken via de mobiele app Magazijnbeheer
+title: overboekingsorders maken vanuit de magazijnapp
+description: In dit artikel wordt beschreven hoe u overboekingsorders kunt maken en verwerken via de mobiele app Magazijnbeheer
 author: perlynne
 ms.date: 09/02/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: cbaeb120032bf2239fd9a5bce39fd7936229b308
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: b9edc2d94aa1f4850d2e7fe2b4bdd1b092be944f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102933"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877445"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>overboekingsorders maken vanuit de magazijnapp
 

@@ -1,6 +1,6 @@
 ---
 title: Een herhalingsinkooporder maken
-description: In dit onderwerp wordt beschreven hoe u een herhalingsinkooporder (IO) kunt maken door regels vanuit een eerder inkooporderdocument naar een nieuwe inkooporder of naar een bestaande inkooporder te kopiëren.
+description: In dit artikel wordt beschreven hoe u een herhalingsinkooporder (IO) kunt maken door regels vanuit een eerder inkooporderdocument naar een nieuwe inkooporder of naar een bestaande inkooporder te kopiëren.
 author: GalynaFedorova
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be4eca824794b8d45c7a6f40cb68aff7c4a53cd0
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 42bfbc7a10d21a475055ee87e76c89db0ad64165
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671108"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865087"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Een herhalingsinkooporder maken
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u een herhalingsinkooporder (IO) kunt maken door regels vanuit een eerder inkooporderdocument naar een nieuwe inkooporder of naar een bestaande inkooporder te kopiëren. Er zijn twee methoden voor het maken van herhalingsorders. U kunt de acties die beschikbaar zijn op documentniveau gebruiken vanuit het actievenster of u kunt de regeldetailacties gebruiken. De acties op documentniveau zijn voornamelijk bedoeld voor het maken van een nieuwe inkooporder door regels en koptekstinformatie vanuit een andere order toe te voegen, terwijl de regeldetailsactie voornamelijk wordt gebruikt voor het toevoegen van regels aan een bestaande order. Het voorbeeld dat in deze handleiding wordt weergegeven, kan worden gebruikt in het USMF-demobedrijf. Deze taak wordt meestal uitgevoerd door een inkoopagent.
+In dit artikel wordt beschreven hoe u een herhalingsinkooporder (IO) kunt maken door regels vanuit een eerder inkooporderdocument naar een nieuwe inkooporder of naar een bestaande inkooporder te kopiëren. Er zijn twee methoden voor het maken van herhalingsorders. U kunt de acties die beschikbaar zijn op documentniveau gebruiken vanuit het actievenster of u kunt de regeldetailacties gebruiken. De acties op documentniveau zijn voornamelijk bedoeld voor het maken van een nieuwe inkooporder door regels en koptekstinformatie vanuit een andere order toe te voegen, terwijl de regeldetailsactie voornamelijk wordt gebruikt voor het toevoegen van regels aan een bestaande order. Het voorbeeld dat in deze handleiding wordt weergegeven, kan worden gebruikt in het USMF-demobedrijf. Deze taak wordt meestal uitgevoerd door een inkoopagent.
 
 
 ## <a name="create-a-new-repeat-purchase-order"></a>Een nieuwe herhalingsinkooporder maken

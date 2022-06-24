@@ -1,6 +1,6 @@
 ---
-title: Productdimensies op locaties combineren
-description: Dit onderwerp biedt informatie over het combineren van productdimensies op locaties. Deze functionaliteit voor locatieprofielen helpt het locatiebeheer te verbeteren wanneer productvarianten of producten met dimensies worden gebruikt, zoals in de kledingsector. Hiermee kunt u bepalen of configuraties, kleuren, stijlen en formaat kunnen worden gecombineerd voor een bepaald locatieprofiel, of dat een van deze dimensies of een combinatie van deze dimensies op dezelfde locatie kan worden geplaatst.
+title: Locaties voor productdimensie combineren
+description: Dit artikel biedt informatie over het combineren van productdimensies op locaties. Deze functionaliteit voor locatieprofielen helpt het locatiebeheer te verbeteren wanneer productvarianten of producten met dimensies worden gebruikt, zoals in de kledingsector. Hiermee kunt u bepalen of configuraties, kleuren, stijlen en formaat kunnen worden gecombineerd voor een bepaald locatieprofiel, of dat een van deze dimensies of een combinatie van deze dimensies op dezelfde locatie kan worden geplaatst.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 031b92f827979c01dbf0208ba21ae827fb13920b
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9daf6061d56ef004753114aaffa8eb580cea1186
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103483"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885720"
 ---
 # <a name="location-product-dimension-mixing"></a>Productdimensies op locaties combineren
 
@@ -28,7 +28,7 @@ Productdimensies op locaties combineren is functionaliteit voor locatieprofielen
 
 ## <a name="turn-the-location-product-dimension-mixing-feature-on-or-off"></a>De functie Locaties voor productdimensie combineren in- of uitschakelen
 
-Als u de functionaliteit wilt gebruiken die in dit onderwerp wordt beschreven, moet de functie *Locaties voor productdimensie combineren* zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Locaties voor productdimensie combineren* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Als u de functionaliteit wilt gebruiken die in dit artikel wordt beschreven, moet de functie *Locaties voor productdimensie combineren* zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Locaties voor productdimensie combineren* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup"></a>Instelling
 
@@ -44,7 +44,7 @@ Aan elke locatie in het magazijn moet een locatieprofiel zijn gekoppeld, dat de 
     > [!NOTE]
     > U kunt deze optie alleen op *Ja* instellen als de optie **Gemengde artikelen toestaan** is ingesteld op *Nee*.
 
-1. Stel op het sneltabblad **Toegestane productdimensiecombinaties** de optie **Formaat** in op *Ja*. In het scenario dat in dit onderwerp wordt beschreven, kan combineren alleen worden uitgevoerd voor producten met een verschillende dimensies voor **Formaat**. Er zijn echter ook andere opties beschikbaar.
+1. Stel op het sneltabblad **Toegestane productdimensiecombinaties** de optie **Formaat** in op *Ja*. In het scenario dat in dit artikel wordt beschreven, kan combineren alleen worden uitgevoerd voor producten met een verschillende dimensies voor **Formaat**. Er zijn echter ook andere opties beschikbaar.
 1. Selecteer **Opslaan**.
 
 ### <a name="create-a-new-product-master-and-product-variants"></a>Een nieuw productmodel en productvarianten maken

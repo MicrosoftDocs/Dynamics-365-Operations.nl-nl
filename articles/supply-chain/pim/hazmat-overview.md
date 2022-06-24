@@ -1,6 +1,6 @@
 ---
 title: Overzicht van gevaarlijke stoffen
-description: Dit onderwerp biedt een overzicht van functies die zijn gerelateerd aan het afhandelen en documenteren van gevaarlijke stoffen tijdens productgegevensbeheer en magazijnbeheer.
+description: Dit artikel biedt een overzicht van functies die zijn gerelateerd aan het afhandelen en documenteren van gevaarlijke stoffen tijdens productgegevensbeheer en magazijnbeheer.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: overview
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: cfea2cd6a2699bdf2a14de72a8bdeb3e8cd32a17
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c2cae4cb65dd163e9fbf1d24cff5a0a040e3ce3a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986271"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905800"
 ---
 # <a name="hazardous-materials-overview"></a>Overzicht van gevaarlijke stoffen
 
@@ -50,7 +50,7 @@ Bij het ontwikkelen van deze functie wordt verwezen naar de volgende algemene re
 
 Elke reeks regelgevingen voorziet in gestandaardiseerde lijsten van gevaarlijke goederen en referentiecodes. Daarin verstrekt Supply Chain Management een referentietabel voor de algemene codes in die lijsten. Elke lijst heeft ook een aantal unieke codes die u kunt definiëren.
 
-Zie de volgende onderwerpen voor meer informatie over het instellen van regels en waarden voor gevaarlijke goederen en over het toewijzen van de waarden aan relevante producten:
+Zie de volgende artikelen voor meer informatie over het instellen van regels en waarden voor gevaarlijke goederen en over het toewijzen van de waarden aan relevante producten:
 
 - [Gevaarlijke goederen instellen](hazmat-setup.md)
 - [Gevaarlijke goederen in producten, orders, zendingen en ladingen](hazmat-items.md)

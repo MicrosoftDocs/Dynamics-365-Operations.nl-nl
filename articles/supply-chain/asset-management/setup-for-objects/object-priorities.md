@@ -1,6 +1,6 @@
 ---
-title: Serviceniveaus van activa
-description: In dit onderwerp worden serviceniveaus voor activa in Activabeheer uitgelegd.
+title: Serviceniveaus activum
+description: In dit artikel worden serviceniveaus voor activa in Activabeheer uitgelegd.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e4f7daa10931ce406a5d2bdbbc1dced067e3de5065cdb61cce369d617709d67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1f7429b30253f540925e67ff9239667a0a404f26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723594"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908680"
 ---
-# <a name="asset-service-levels"></a>Serviceniveaus van activa
+# <a name="asset-service-levels"></a>Serviceniveaus activum
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-In dit onderwerp worden serviceniveaus voor activa in Activabeheer uitgelegd. Serviceniveaus van activa zijn gerelateerd aan activa en worden overgebracht naar onderhoudsaanvragen en werkorders. Ze worden gebruikt om de prioriteit van werkorders te berekenen tijdens de planning van de werkorder. Serviceniveaus van activa kunnen worden gewijzigd als er wijzigingen nodig zijn.
+In dit artikel worden serviceniveaus voor activa in Activabeheer uitgelegd. Serviceniveaus van activa zijn gerelateerd aan activa en worden overgebracht naar onderhoudsaanvragen en werkorders. Ze worden gebruikt om de prioriteit van werkorders te berekenen tijdens de planning van de werkorder. Serviceniveaus van activa kunnen worden gewijzigd als er wijzigingen nodig zijn.
 
 Zie [Parameters voor activabeheer](../setup-for-objects/enterprise-asset-management-parameters.md) voor meer informatie over de instellingen die zijn gerelateerd aan de berekening van beoordelingsscores voor de planning van werkorders. U moet ten minste één standaardrecord instellen voor het serviceniveau van de activa. Deze standaardrecord wordt gebruikt als er geen andere overeenkomst wordt gevonden tijdens de planning van de werkorder.
 

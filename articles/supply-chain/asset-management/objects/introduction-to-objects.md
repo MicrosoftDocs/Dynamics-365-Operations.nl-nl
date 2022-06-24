@@ -1,6 +1,6 @@
 ---
 title: Inleiding tot activa
-description: Dit onderwerp bevat een overzicht van activa in Activabeheer.
+description: Dit artikel bevat een overzicht van activa in Activabeheer.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43a5646bc4a1301922781d8b083dfa709befe3dca0fad1074b5433c6e02f5c66
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee61c43f93d68747a7095dc9317674a435553c8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767503"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874183"
 ---
 # <a name="introduction-to-assets"></a>Inleiding tot activa
 
@@ -30,9 +30,9 @@ ms.locfileid: "6767503"
 
  
 
-Dit onderwerp bevat een overzicht van activa in Activabeheer. Een *activum* is elk type apparatuur, zoals een machine of een machineonderdeel, waarvoor onderhoud, service of reparatie nodig is.
+Dit artikel bevat een overzicht van activa in Activabeheer. Een *activum* is elk type apparatuur, zoals een machine of een machineonderdeel, waarvoor onderhoud, service of reparatie nodig is.
 
-Een activum wordt automatisch bijgewerkt met gerelateerde informatie. Deze informatie kan bijvoorbeeld betrekking hebben op nieuwe of bijgewerkte werkorders. U kunt activa maken met de menuopdracht **Alle activa** of de menuopdracht **Activa in behandeling**. In dit onderwerp wordt uitgelegd hoe u activat maakt met de menuopdracht **Alle activa**. Zie [Activa maken op basis van inkooporders](../objects/create-objects-based-on-purchase-orders.md) voor informatie over het maken van activa met behulp van de menuopdracht **Activa in behandeling**.
+Een activum wordt automatisch bijgewerkt met gerelateerde informatie. Deze informatie kan bijvoorbeeld betrekking hebben op nieuwe of bijgewerkte werkorders. U kunt activa maken met de menuopdracht **Alle activa** of de menuopdracht **Activa in behandeling**. In dit artikel wordt uitgelegd hoe u activa maakt met de menuopdracht **Alle activa**. Zie [Activa maken op basis van inkooporders](../objects/create-objects-based-on-purchase-orders.md) voor informatie over het maken van activa met behulp van de menuopdracht **Activa in behandeling**.
 
 ## <a name="all-assets"></a>Alle activa
 

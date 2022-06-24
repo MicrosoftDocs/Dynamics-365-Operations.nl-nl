@@ -1,6 +1,6 @@
 ---
 title: Aanvulling boven locatiecapaciteit
-description: Dit onderwerp biedt informatie over de functie Aanvulling boven locatiecapaciteit. Deze functie schakelt alle aanvullingswerk in dat nodig is voor de dag om te worden gemaakt en beheert de beschikbaarheid van dat aanvullingswerk om ervoor te zorgen dat de verzamellocatie niet door voorraad heen raakt en ook niet boven de capaciteit komt.
+description: Dit artikel biedt informatie over de functie Aanvulling boven locatiecapaciteit. Deze functie schakelt alle aanvullingswerk in dat nodig is voor de dag om te worden gemaakt en beheert de beschikbaarheid van dat aanvullingswerk om ervoor te zorgen dat de verzamellocatie niet door voorraad heen raakt en ook niet boven de capaciteit komt.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 0c3dedc47558e98f63fb5883e4731bf021b9602b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 72cda7608d55414ee62bc7dcc1e02e28f6212aff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677921"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899232"
 ---
 # <a name="replenishment-over-location-capacity"></a>Aanvulling boven locatiecapaciteit
 
@@ -37,7 +37,7 @@ Als u deze functie beschikbaar wilt maken, schakelt u de volgende functies in [F
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>De functie instellen voor het voorbeeldscenario
 
-Deze sectie bevat richtlijnen en een voorbeeld waarin wordt uitgelegd hoe u deze functie instelt en voorbeeldgegevens voorbereidt voor het voorbeeldscenario dat verderop in dit onderwerp wordt gegeven.
+Deze sectie bevat richtlijnen en een voorbeeld waarin wordt uitgelegd hoe u deze functie instelt en voorbeeldgegevens voorbereidt voor het voorbeeldscenario dat verderop in dit artikel wordt gegeven.
 
 ### <a name="enable-sample-data"></a>Voorbeeldgegevens inschakelen
 
@@ -145,7 +145,7 @@ Aanvullingssjablonen zijn een set regels die bepalen wanneer en hoe een locatie 
 
 ## <a name="example-scenario"></a>Voorbeeldscenario
 
-Nadat u alle eerder beschreven voorbeeldgegevens hebt gemaakt en ingesteld, kunt u dit scenario doorlopen om de functie *Aanvulling boven locatiecapaciteit* uit te proberen. Bij de waarden die in dit scenario worden weergegeven, wordt ervan uitgegaan dat u werkt met de standaarddemonstratiegegevens, dat u de rechtspersoon **USMF** hebt geselecteerd en dat u de voorbeeldrecords hebt voorbereid die eerder in dit onderwerp zijn beschreven. Dit scenario dient ook als voorbeeld waarin wordt aangegeven hoe de functie in een productie-instelling kan worden gebruikt.
+Nadat u alle eerder beschreven voorbeeldgegevens hebt gemaakt en ingesteld, kunt u dit scenario doorlopen om de functie *Aanvulling boven locatiecapaciteit* uit te proberen. Bij de waarden die in dit scenario worden weergegeven, wordt ervan uitgegaan dat u werkt met de standaarddemonstratiegegevens, dat u de rechtspersoon **USMF** hebt geselecteerd en dat u de voorbeeldrecords hebt voorbereid die eerder in dit artikel zijn beschreven. Dit scenario dient ook als voorbeeld waarin wordt aangegeven hoe de functie in een productie-instelling kan worden gebruikt.
 
 ### <a name="create-replenishment-work"></a>Aanvullingswerk maken
 

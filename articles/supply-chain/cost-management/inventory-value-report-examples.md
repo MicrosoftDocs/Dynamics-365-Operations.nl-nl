@@ -1,6 +1,6 @@
 ---
 title: Voorbeelden en logica voorraadwaardenrapporten
-description: Dit onderwerp geeft enkele voorbeelden van resultaten die worden gepresenteerd op elk type voorraadwaardenrapport. Voorraadwaardenrapporten geven informatie over de fysieke en financiële hoeveelheden en bedragen in uw voorraad.
+description: Dit artikel geeft enkele voorbeelden van resultaten die worden gepresenteerd op elk type voorraadwaardenrapport. Voorraadwaardenrapporten geven informatie over de fysieke en financiële hoeveelheden en bedragen in uw voorraad.
 author: JennySong-SH
 ms.date: 10/19/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0d594fc18a104c434a334a5b6d1d249330a6be9a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e6c6387be5204fde6ebc7a4983567801900974af
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675314"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877648"
 ---
 # <a name="inventory-value-report-examples-and-logic"></a>Voorbeelden en logica voorraadwaardenrapporten
 
 [!include [banner](../includes/banner.md)]
 
-Voorraadwaardenrapporten geven informatie over de fysieke en financiële hoeveelheden en bedragen in uw voorraad. Dit onderwerp geeft enkele voorbeelden van resultaten die worden gepresenteerd op elk type voorraadwaardenrapport.
+Voorraadwaardenrapporten geven informatie over de fysieke en financiële hoeveelheden en bedragen in uw voorraad. Dit artikel geeft enkele voorbeelden van resultaten die worden gepresenteerd op elk type voorraadwaardenrapport.
 
 Zie [Voorraadwaardenrapporten](inventory-value-report-storage.md) voor meer informatie over het genereren en gebruiken van elk type voorraadwaardenrapport.
 
 ## <a name="sample-data-that-is-used-in-these-examples"></a>Voorbeeldgegevens die in deze voorbeelden worden gebruikt
 
-De voorbeelden in dit onderwerp zijn gebaseerd op de voorbeeldgegevens voor voorraadtransacties die in deze sectie worden beschreven.
+De voorbeelden in dit artikel zijn gebaseerd op de voorbeeldgegevens voor voorraadtransacties die in deze sectie worden beschreven.
 
 ### <a name="storage-dimension-setup"></a>Instellingen opslagdimensiegroep
 
@@ -70,9 +70,9 @@ Het voorbeeldsysteem bevat een configuratie voor het voorraadwaardenrapport met 
 
 ## <a name="inventory-value-report-example-1"></a>Voorraadwaardenrapport voorbeeld 1
 
-De volgende tabel en afbeeldingen geven de resultaten weer wanneer u de voorbeeldgegevens en de rapportconfiguratie gebruikt die eerder in dit onderwerp zijn beschreven.
+De volgende tabel en afbeeldingen geven de resultaten weer wanneer u de voorbeeldgegevens en de rapportconfiguratie gebruikt die eerder in dit artikel zijn beschreven.
 
-| Resourcetype | Bron | Locatie | Verwijzing | Voorraad: financiële hoeveelheid | Voorraad: financieel bedrag | Voorraad: fysieke geboekte hoeveelheid | Voorraad: fysiek geboekt bedrag | Voorraad: hoeveelheid | Voorraad: bedrag | Gemiddelde kostprijs per eenheid |
+| Resourcetype | Bron | Site | Verwijzing | Voorraad: financiële hoeveelheid | Voorraad: financieel bedrag | Voorraad: fysieke geboekte hoeveelheid | Voorraad: fysiek geboekt bedrag | Voorraad: hoeveelheid | Voorraad: bedrag | Gemiddelde kostprijs per eenheid |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Materiaal | B0001 | 1 | Eindsaldo | 9.00 | 908.33 | 5.00 | 375.00 | 14,00 | 1,283.33 | 91.67 |
 | Materiaal | B0001 | 2 | Eindsaldo | 10.00 | 2,000.00 | 0,00 | 0,00 | 10.00 | 2,000.00 | 200.00 |
@@ -91,7 +91,7 @@ In de volgende afbeelding ziet u het rapport **Opslag voorraadwaardenrapport** v
 
 ## <a name="inventory-value-report-example-2"></a>Voorraadwaardenrapport voorbeeld 2
 
-De volgende tabel en afbeeldingen tonen de resultaten wanneer u de voorbeeldgegevens gebruikt die eerder in dit onderwerp zijn beschreven, maar u de waarde van het veld **Niveau** wijzigt in *Transacties* in de rapportconfiguratie en u het veld **Begindatum** instelt op *15 maart* wanneer u het rapport uitvoert.
+De volgende tabel en afbeeldingen tonen de resultaten wanneer u de voorbeeldgegevens gebruikt die eerder in dit artikel zijn beschreven, maar u de waarde van het veld **Niveau** wijzigt in *Transacties* in de rapportconfiguratie en u het veld **Begindatum** instelt op *15 maart* wanneer u het rapport uitvoert.
 
 | Resourcetype | Bron | Locatie | Datum | Nummer | Verwijzing | Voorraad: financiële hoeveelheid | Voorraad: financieel bedrag | Voorraad: fysieke geboekte hoeveelheid | Voorraad: fysiek geboekt bedrag | Voorraad: hoeveelheid | Voorraad: bedrag |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -127,7 +127,7 @@ In de volgende subsecties worden de rapporten met voorraadwaarden tonen die word
 
 ### <a name="example-3-when-the-totals-level-is-used"></a>Voorbeeld 3 wanneer het niveau Totalen wordt gebruikt
 
-De volgende tabel geeft de resultaten weer wanneer u de voorbeeldgegevens en de rapportconfiguratie gebruikt die eerder in dit onderwerp zijn beschreven. (In de rapportconfiguratie is het veld **Niveau** ingesteld op *Totalen*.)
+De volgende tabel geeft de resultaten weer wanneer u de voorbeeldgegevens en de rapportconfiguratie gebruikt die eerder in dit artikel zijn beschreven. (In de rapportconfiguratie is het veld **Niveau** ingesteld op *Totalen*.)
 
 | Resourcetype | Bron | Locatie | Verwijzing | Voorraad: financiële hoeveelheid | Voorraad: financieel bedrag | Voorraad: fysieke geboekte hoeveelheid | Voorraad: fysiek geboekt bedrag | Voorraad: hoeveelheid | Voorraad: bedrag | Gemiddelde kostprijs per eenheid |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -136,7 +136,7 @@ De volgende tabel geeft de resultaten weer wanneer u de voorbeeldgegevens en de 
 
 ### <a name="example-3-when-the-transactions-level-is-used"></a>Voorbeeld 3 wanneer het niveau Transacties wordt gebruikt
 
-De volgende tabel toont de resultaten wanneer u de voorbeeldgegevens gebruikt die eerder in dit onderwerp zijn beschreven, maar u de waarde van het veld **Niveau** wijzigt in *Transacties* in de rapportconfiguratie.
+De volgende tabel toont de resultaten wanneer u de voorbeeldgegevens gebruikt die eerder in dit artikel zijn beschreven, maar u de waarde van het veld **Niveau** wijzigt in *Transacties* in de rapportconfiguratie.
 
 | Resourcetype | Bron | Locatie | Datum | Nummer | Verwijzing | Voorraad: financiële hoeveelheid | Voorraad: financieel bedrag | Voorraad: fysieke geboekte hoeveelheid | Voorraad: fysiek geboekt bedrag | Voorraad: hoeveelheid | Voorraad: bedrag |
 |---|---|---|---|---|---|---|---|---|---|---|---|

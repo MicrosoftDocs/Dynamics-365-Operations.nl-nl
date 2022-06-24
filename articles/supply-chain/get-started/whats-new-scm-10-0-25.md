@@ -1,6 +1,6 @@
 ---
 title: Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.25 (april 2022)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management 10.0.25.
+description: In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management 10.0.25.
 author: kamaybac
 ms.date: 03/14/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 27f3233ebb3363abcbfc5b98b3786865fa32366c
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 1fa2ec6e21026552a4f14a67188db0720d3feae5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462434"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850781"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.25 (april 2022)
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management versie 10.0.25. Deze versie heeft een buildnummer van 10.0.1149 en is als volgt beschikbaar:
+In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in versie 10.0.25 van Microsoft Dynamics 365 Supply Chain Management. Deze versie heeft een buildnummer van 10.0.1149 en is als volgt beschikbaar:
 
 - **Preview van versie:** februari 2022
 - **Algemene beschikbaarheid van versie (zelfupdate):** maart 2022
@@ -29,7 +29,7 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Mi
 
 ## <a name="features-included-in-this-release"></a>Functies in deze versie
 
-De volgende tabel vermeldt de functies die deze versie bevat. Mogelijk wordt dit onderwerp gewijzigd om functies op te nemen die in de build zijn gemaakt nadat dit onderwerp oorspronkelijk werd gepubliceerd.
+De volgende tabel vermeldt de functies die deze versie bevat. Mogelijk wordt dit artikel gewijzigd om functies op te nemen die in de build zijn gemaakt nadat dit artikel oorspronkelijk werd gepubliceerd.
 
 | Functiegebied | Functie | Meer informatie | Ingeschakeld door   |
 |---|---|---|---|
@@ -199,12 +199,12 @@ Bekijk de [Dynamics 365- en bedrijfsclouds: releasewave 1-plan van 2022](/dynami
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Verwijderde en afgeschafte functies voor Supply Chain Management
 
-In het onderwerp [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) worden functies beschreven die zijn of worden verwijderd voor Supply Chain Management.
+In het artikel [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) worden functies beschreven die zijn of worden verwijderd voor Supply Chain Management.
 
 - Een *verwijderde* functie is niet langer beschikbaar in het product.
 - Een *afgeschafte* functie wordt niet meer actief ontwikkeld en kan in een toekomstige update worden verwijderd.
 
-Twaalf maanden voordat een functie uit het product wordt verwijderd, wordt de afschaffing aangekondigd in het onderwerp [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md).
+Twaalf maanden voordat een functie uit het product wordt verwijderd, wordt de afschaffing aangekondigd in het artikel [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md).
 
 Voor ingrijpende wijzigingen die alleen van invloed zijn op de compilatietijd, maar binair compatibel zijn met sandbox- en productieomgevingen, is de afschaffingstijd korter dan 12 maanden. Meestal zijn dit functionele updates die moeten worden doorgevoerd in de compiler.
 

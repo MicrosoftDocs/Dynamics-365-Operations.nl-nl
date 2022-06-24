@@ -1,6 +1,6 @@
 ---
 title: Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
-description: In dit onderwerp worden de nieuwe en gewijzigde functies genoemd voor elke vrijgegeven versie van de mobiele app Warehouse Management voor Microsoft Dynamics 365 Supply Chain Management.
+description: In dit artikel worden de nieuwe en gewijzigde functies genoemd voor elke vrijgegeven versie van de mobiele app Warehouse Management voor Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 04/25/2022
 ms.topic: article
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c79b18d24c8b9cb90a570496882fdfe91dc6ba51
-ms.sourcegitcommit: a4dc7d170f1504631127c3e92af0c6b03468d375
+ms.openlocfilehash: 34ac023bc5ee44987f6a36a1636cd343576e5d90
+ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/02/2022
-ms.locfileid: "8661820"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945718"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de nieuwe functies, oplossingen, verbeteringen en bekende problemen genoemd voor elke vrijgegeven versie van de mobiele app Warehouse Management voor Microsoft Dynamics 365 Supply Chain Management.
+In dit artikel worden de nieuwe functies, oplossingen, verbeteringen en bekende problemen genoemd voor elke vrijgegeven versie van de mobiele app Warehouse Management voor Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20240"></a>Versie 2.0.24.0
+
+Deze versie bevat de volgende nieuwe functies, verbeteringen en oplossingen voor fouten:
+
+- Verbeterde scannerpagina's waarmee de scanoptie op **Details**-pagina's kan worden ingeschakeld.
+- Verbeterde gebaren, zoals touch- of tapscreen.
+- Prestatieproblemen voor Android zijn verholpen.
+- Vaste plaatsing van meerdere kopteksten zodat er meer kaarten op de pagina **Query** worden weergegeven.
+- Verbeterde bladerfunctie zodat er minder afstand is ingeschakeld bij paginering voor bladeren.
+- Lang drukken toegevoegd om aanvullende tekst weer te geven op de **Query**-pagina.
+- Ontbrekende gegevens over apparaat-id voor Android gecorrigeerd.
+- Grotere stabiliteit.
+- De indeling voor de aanmelding is geoptimaliseerd.
+- Beweging naar rechts swipen toegevoegd om pop-uppagina's van dialoogvensters te sluiten op het numerieke toetsenblok, de pagina **Details** en invoerpagina's.
 
 ## <a name="version-20220"></a>Versie 2.0.22.0
 

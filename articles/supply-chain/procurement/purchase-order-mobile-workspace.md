@@ -1,6 +1,6 @@
 ---
 title: Mobiel werkgebied Goedkeuring van inkooporder
-description: In dit onderwerp vindt u informatie over het mobiele werkgebied Goedkeuring van inkooporders waarin u inkooporders kunt weergeven en op ze reageren via acties. U kunt bijvoorbeeld een inkooporder goedkeuren of afwijzen.
+description: In dit artikel vindt u informatie over het mobiele werkgebied Goedkeuring van inkooporders waarin u inkooporders kunt weergeven en op ze reageren via acties. U kunt bijvoorbeeld een inkooporder goedkeuren of afwijzen.
 author: GalynaFedorova
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b0bdcb2f6db95ae061e786365d22cdf74643d09e
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 224d3ce5c9163e95de817a3446a57f07c85df757
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811807"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863848"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Mobiel werkgebied Goedkeuring van inkooporder
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-Dit onderwerp biedt informatie over het mobiele werkgebied **Goedkeuring van inkooporders**. In deze werkruimte kunt u inkooporders weergeven en op ze reageren via acties. U kunt bijvoorbeeld een inkooporder goedkeuren of afwijzen.
+Dit artikel biedt informatie over het mobiele werkgebied **Goedkeuring van inkooporders**. In deze werkruimte kunt u inkooporders weergeven en op ze reageren via acties. U kunt bijvoorbeeld een inkooporder goedkeuren of afwijzen.
  
 ## <a name="overview"></a>Overzicht 
 Inkooporders die moet worden goedgekeurd doorlopen een goedkeuringswerkstroom. De werkstroom kan verschillende stappen omvatten, waarin één of meer mensen actie moeten ondernemen. Een persoon moet bijvoorbeeld mogelijk een taak uitvoeren of de inkooporder goedkeuren. 

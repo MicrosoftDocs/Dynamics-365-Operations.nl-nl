@@ -1,6 +1,6 @@
 ---
 title: Bewerkingsplanning
-description: Dit onderwerp bevat informatie over de planning van bewerkingen. U kunt het plannen van bewerkingen gebruiken om een algemene schatting te geven voor de duur van het productieproces.
+description: Dit artikel bevat informatie over de planning van bewerkingen. U kunt het plannen van bewerkingen gebruiken om een algemene schatting te geven voor de duur van het productieproces.
 author: johanhoffmann
 ms.date: 06/20/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3c380297b56f615a6b285ef7daf1ecbd7bb420f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7b9ae31b288831d2f3b85bf1996206221e0bdbbd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574564"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871886"
 ---
 # <a name="operations-scheduling"></a>Bewerkingsplanning
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat informatie over de planning van bewerkingen. U kunt het plannen van bewerkingen gebruiken om een algemene schatting te geven voor de duur van het productieproces.
+Dit artikel bevat informatie over de planning van bewerkingen. U kunt het plannen van bewerkingen gebruiken om een algemene schatting te geven voor de duur van het productieproces.
 
 U kunt de productie op het niveau van de bewerking en het taakniveau plannen. In tegenstelling tot het plannen van taken worden bij het plannen van bewerkingen de bewerkingen voor de productieroute niet in taken opgesplitst. Indien u meer details in de planning op wilt nemen, zoals informatie over de huidige capaciteit, kunt u na het plannen van de bewerkingen een taakplanning uitvoeren. U kunt ook alleen een taakplanning uitvoeren. De taakplanning wordt meestal gebruikt voor het plannen van afzonderlijke taken op de werkvloer voor een onmiddellijke of een korte periode.
 

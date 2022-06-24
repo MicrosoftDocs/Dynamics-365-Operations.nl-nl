@@ -1,6 +1,6 @@
 ---
-title: Een statistische basislijnprognose genereren
-description: Dit onderwerp bevat informatie over de parameters en de filters die in de berekening van de vraagprognose worden gebruikt.
+title: Een statistische basislijnprognose maken
+description: Dit artikel bevat informatie over de parameters en de filters die in de berekening van de vraagprognose worden gebruikt.
 author: t-benebo
 ms.date: 07/08/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b2a71faeeb4de35e26b5a346e17caa0d8d353f8
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: c45d763a1f3d199c91f3cf6181c22f4b8130fabc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468699"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844933"
 ---
-# <a name="generate-a-statistical-baseline-forecast"></a>Een statistische basislijnprognose genereren
+# <a name="generate-a-statistical-baseline-forecast"></a>Een statistische basislijnprognose maken
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat informatie over de parameters en de filters die in de berekening van de vraagprognose worden gebruikt. 
+Dit artikel bevat informatie over de parameters en de filters die in de berekening van de vraagprognose worden gebruikt. 
 
 Wanneer u een basislijnprognose maakt, moet u eerst de parameters en filters opgeven die worden gebruikt in de berekening. U kunt bijvoorbeeld u een basislijnprognose maken die de vraag raamt op basis van transactiegegevens van het afgelopen jaar voor een specifiek bedrijf, voor de volgende maand, en voor een geselecteerde groep artikelen. 
 

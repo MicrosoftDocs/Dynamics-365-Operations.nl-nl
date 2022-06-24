@@ -1,6 +1,6 @@
 ---
 title: Automatische vrijgave van zending voor cross-docken
-description: In dit onderwerp wordt een strategie voor cross-docken beschreven waarmee u automatisch een vraagorder kunt vrijgeven aan het magazijn wanneer de productieorder die de vraaghoeveelheid levert is gereedgemeld, zodat de hoeveelheid rechtstreeks vanuit de locatie voor productie-uitvoer naar de uitgaande locatie kan worden verplaatst.
+description: In dit artikel wordt een strategie voor cross-docken beschreven waarmee u automatisch een vraagorder kunt vrijgeven aan het magazijn wanneer de productieorder die de vraaghoeveelheid levert is gereedgemeld, zodat de hoeveelheid rechtstreeks vanuit de locatie voor productie-uitvoer naar de uitgaande locatie kan worden verplaatst.
 author: Mirzaab
 ms.date: 10/15/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 1315bda1fd284eb326d4f08bf36bfea59074fde3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 34283422bafaeabef9ac454957b60db84eb5a9c7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577931"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903777"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Automatische vrijgave van zending voor cross-docken
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt een strategie voor cross-docken beschreven waarmee u automatisch een vraagorder kunt vrijgeven aan het magazijn wanneer de productieorder die de vraaghoeveelheid levert is gereedgemeld. Op deze manier wordt de hoeveelheid die nodig is voor het uitvoeren van de vraagorder rechtstreeks vanuit de locatie voor productie-uitvoer naar de uitgaande locatie wordt verplaatst.
+In dit artikel wordt een strategie voor cross-docken beschreven waarmee u automatisch een vraagorder kunt vrijgeven aan het magazijn wanneer de productieorder die de vraaghoeveelheid levert is gereedgemeld. Op deze manier wordt de hoeveelheid die nodig is voor het uitvoeren van de vraagorder rechtstreeks vanuit de locatie voor productie-uitvoer naar de uitgaande locatie wordt verplaatst.
 
 Cross-docken is een magazijnverwerkingsstroom waarbij de hoeveelheid die nodig is om een uitgaande order te vervullen direct naar de outbound dock of het faseringsgebied voor de order wordt gestuurd vanaf de locatie waar de inkomende order is ontvangen. (De inkomende order kan een inkooporder, een overboekingsorder of een productieorder zijn.) Hoewel de functie voor geavanceerd cross-docken alle leverings- en vraagorders ondersteunt en vereist dat de uitgaande vraag moet worden vrijgegeven voordat de cross-dockmogelijkheid wordt geïdentificeerd, heeft de functie voor het automatisch vrijgeven van zendingen deze kenmerken:
 

@@ -1,6 +1,6 @@
 ---
 title: Werkbelasting van magazijnbeheer voor cloud- en randschaaleenheden
-description: Dit onderwerp bevat informatie over de functie waarmee schaaleenheden kunnen worden gebruikt om geselecteerde processen uit te voeren vanuit de magazijnbeheer-workload.
+description: Dit artikel bevat informatie over de functie waarmee schaaleenheden kunnen worden gebruikt om geselecteerde processen uit te voeren vanuit de magazijnbeheer-workload.
 author: perlynne
 ms.date: 09/03/2021
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 67f78441b0914d18c2a7853bab54c6b8817be3ac
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: f9839ad9a18eb543734c2ba43a56b568460a64c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384479"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893492"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Werkbelasting van magazijnbeheer voor cloud- en randschaaleenheden
 
 [!include [banner](../includes/banner.md)]
 
 > [!WARNING]
-> Niet alle magazijnbeheerbedrijfsfunctionaliteit wordt volledig ondersteund voor magazijnen met een werkbelasting voor een schaaleenheid. Zorg ervoor dat u alleen de processen gebruikt die in dit onderwerp expliciet worden ondersteund.
+> Niet alle magazijnbeheerbedrijfsfunctionaliteit wordt volledig ondersteund voor magazijnen met een werkbelasting voor een schaaleenheid. Zorg ervoor dat u alleen de processen gebruikt die in dit artikel expliciet worden ondersteund.
 
 ## <a name="warehouse-execution-on-scale-units"></a>Magazijnuitvoering op schaaleenheden
 
@@ -184,7 +184,7 @@ Momenteel wordt verwerking van andere typen brondocumenten of magazijnwerk niet 
 >
 > Enkele extra stappen zijn vereist om de mobiele app Warehouse Management zo in te stellen dat deze voor een cloud- of randschaaleenheid werkt. Zie [De mobiele app Warehouse Management configureren voor cloud- en randschaaleenheden](cloud-edge-workload-setup-warehouse-app.md) voor meer informatie.
 >
-> Als u een workload uitvoert voor een schaaleenheid, kunt u geen niet-ondersteunde processen voor dat specifieke magazijn op de hub uitvoeren. De tabellen die later in dit onderwerp worden verstrekt, documenteren de ondersteunde capaciteiten.
+> Als u een workload uitvoert voor een schaaleenheid, kunt u geen niet-ondersteunde processen voor dat specifieke magazijn op de hub uitvoeren. De tabellen die later in dit artikel worden verstrekt, documenteren de ondersteunde capaciteiten.
 >
 > Geselecteerde magazijnwerktypen kunnen zowel voor de hub als voor schaaleenheden worden gemaakt. Deze werktypen kunnen echter alleen worden beheerd door de eigenaar van de hub of schaaleenheid (de implementatie waardoor de gegevens zijn gemaakt).
 >

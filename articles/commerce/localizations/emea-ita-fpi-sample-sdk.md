@@ -1,6 +1,6 @@
 ---
 title: Implementatierichtlijnen voor het voorbeeld van integratie van fiscale printers voor Italië (verouderd)
-description: Dit onderwerp bevat richtlijnen voor de implementatie van het voorbeeld voor fiscale printerintegratie voor Italië vanuit de Retail SDK (Software Development Kit) voor Microsoft Dynamics 365 Commerce.
+description: Dit artikel bevat richtlijnen voor de implementatie van het voorbeeld voor fiscale printerintegratie voor Italië vanuit de Retail SDK (Software Development Kit) voor Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 617e97272fb4bd7cea0958958ae99648bb847b56
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: bb07ca91c9e5bf1a79f672f9ba29b7bcc21688c6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614064"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848893"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>Implementatierichtlijnen voor het voorbeeld van integratie van fiscale printers voor Italië (verouderd)
 
 [!include[banner](../includes/banner.md)]
 
-Dit onderwerp bevat richtlijnen voor de implementatie van het voorbeeld voor integratie van fiscale printer voor Italië vanuit de Microsoft Dynamics 365 Commerce Retail Software Development Kit (SDK) op een virtuele machine (VM) voor een developer in Microsoft Dynamics Lifecycle Services (LCS). Zie [Voorbeeld van integratie van fiscale printer voor Italië](emea-ita-fpi-sample.md) voor meer informatie over dit voorbeeld van fiscale integratie. 
+Dit artikel bevat richtlijnen voor de implementatie van het voorbeeld voor integratie van fiscale printer voor Italië vanuit de Microsoft Dynamics 365 Commerce Retail Software Development Kit (SDK) op een virtuele machine (VM) voor een developer in Microsoft Dynamics Lifecycle Services (LCS). Zie [Voorbeeld van integratie van fiscale printer voor Italië](emea-ita-fpi-sample.md) voor meer informatie over dit voorbeeld van fiscale integratie. 
 
-Het voorbeeld van fiscale integratie voor Italië maakt deel uit van de Retail SDK. Zie [Architectuur van Retail SDK (Software Development Kit)](../dev-itpro/retail-sdk/retail-sdk-overview.md) voor informatie over het installeren en gebruiken van de SDK. Dit voorbeeld bestaat uit extensies voor Commerce runtime (CRT) en Hardwarestation. Als u dit voorbeeld wilt uitvoeren, moet u de projecten CRT en Hardwarestation wijzigen en bouwen. Het is raadzaam een niet-geverifieerde Retail SDK te gebruiken om de wijzigingen aan te brengen die in dit onderwerp worden beschreven. Het wordt ook aangeraden een broncontrolesysteem te gebruiken, zoals Azure DevOps wanneer er nog geen bestanden zijn gewijzigd.
+Het voorbeeld van fiscale integratie voor Italië maakt deel uit van de Retail SDK. Zie [Architectuur van Retail SDK (Software Development Kit)](../dev-itpro/retail-sdk/retail-sdk-overview.md) voor informatie over het installeren en gebruiken van de SDK. Dit voorbeeld bestaat uit extensies voor Commerce runtime (CRT) en Hardwarestation. Als u dit voorbeeld wilt uitvoeren, moet u de projecten CRT en Hardwarestation wijzigen en bouwen. Het is raadzaam een niet-geverifieerde Retail SDK te gebruiken om de wijzigingen aan te brengen die in dit artikel worden beschreven. Het wordt ook aangeraden een broncontrolesysteem te gebruiken, zoals Azure DevOps wanneer er nog geen bestanden zijn gewijzigd.
 
 ## <a name="development-environment"></a>Ontwikkelingsomgeving
 
@@ -86,7 +86,7 @@ De onderdelen van de extensie voor het hardwarestation zijn opgenomen in de Reta
 
 Volg deze stappen om implementeerbare pakketten te maken die Commerce-onderdelen bevatten en om deze pakketten toe te passen in een productieomgeving.
 
-1. Voltooi de stappen die zijn beschreven in de sectie [Ontwikkelomgeving](#development-environment) eerder in dit onderwerp.
+1. Voltooi de stappen die zijn beschreven in de sectie [Ontwikkelomgeving](#development-environment) eerder in dit artikel.
 2. Breng de volgende wijzigingen aan in de pakketconfiguratiebestanden onder de map **RetailSdk\\Assets**:
 
     1. Voeg in de configuratiebestanden **commerceruntime.ext.config** en **CommerceRuntime.MPOSOffline.Ext.config** de volgende regel toe aan de sectie **Samenstelling**.

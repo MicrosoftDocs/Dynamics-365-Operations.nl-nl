@@ -1,6 +1,6 @@
 ---
 title: Zendingen handmatig consolideren via de pagina Zendingen consolideren
-description: Dit onderwerp bevat een scenario waarin meerdere orders naar het magazijn worden vrijgegeven en vervolgens worden geconsolideerd via de pagina Zendingen consolideren.
+description: Dit artikel bevat een scenario waarin meerdere orders naar het magazijn worden vrijgegeven en vervolgens worden geconsolideerd via de pagina Zendingen consolideren.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 5a2f4a9ed05460f9beedf8653ec80b01c84a7b26
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d24542a126d64621525f62e694bbc7174b474810
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677473"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897337"
 ---
 # <a name="consolidate-shipments-manually-by-using-the-consolidate-shipments-page"></a>Zendingen handmatig consolideren via de pagina Zendingen consolideren
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat een scenario waarin meerdere orders naar het magazijn worden vrijgegeven en vervolgens worden geconsolideerd via de pagina **Zendingen consolideren**.
+Dit artikel bevat een scenario waarin meerdere orders naar het magazijn worden vrijgegeven en vervolgens worden geconsolideerd via de pagina **Zendingen consolideren**.
 
 ## <a name="make-demo-data-available"></a>Demogegevens beschikbaar maken
 
-Het scenario in dit onderwerp verwijst naar waarden en records die zijn opgenomen in de standaarddemogegevens die voor Microsoft Dynamics 365 Supply Chain Management worden geleverd. Als u de waarden wilt gebruiken die hier worden weergegeven in de oefeningen, moet u controleren of u werkt in een omgeving waarin de demogegevens zijn geïnstalleerd en stelt u de rechtspersoon in op **USMF** voordat u begint.
+Het scenario in dit artikel verwijst naar waarden en records die zijn opgenomen in de standaarddemogegevens die voor Microsoft Dynamics 365 Supply Chain Management worden geleverd. Als u de waarden wilt gebruiken die hier worden weergegeven in de oefeningen, moet u controleren of u werkt in een omgeving waarin de demogegevens zijn geïnstalleerd en stelt u de rechtspersoon in op **USMF** voordat u begint.
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>Consolidatiebeleid voor zendingen en productfilters instellen
 

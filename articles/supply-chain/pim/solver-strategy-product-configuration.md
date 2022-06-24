@@ -1,6 +1,6 @@
 ---
 title: Oplossingsstrategie voor productconfiguratie
-description: In dit onderwerp wordt beschreven hoe u oplossingsstrategie kunt gebruiken voor het verbeteren van de prestaties van productconfiguratie.
+description: In dit artikel wordt beschreven hoe u oplossingsstrategie kunt gebruiken voor het verbeteren van de prestaties van productconfiguratie.
 author: t-benebo
 ms.date: 02/19/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37e8f2c9557ee6fc827d60ca6dc83cd638b6378a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 76ad64c19fe088ec85fafba4a3276a4d8c23a18c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565689"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852355"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Oplossingsstrategie voor productconfiguratie
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u oplossingsstrategie kunt gebruiken voor het verbeteren van de prestaties van productconfiguratie.
+In dit artikel wordt beschreven hoe u oplossingsstrategie kunt gebruiken voor het verbeteren van de prestaties van productconfiguratie.
 
 Het concept van oplossingsstrategieën is voor het eerst geïntroduceerd in cumulatieve update 7 (CU7) voor Microsoft Dynamics AX 2012 R2. Het is verlengd in cumulatieve update 8 (CU8) voor Microsoft Dynamics AX 2012 R3 en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.
 

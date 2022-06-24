@@ -1,6 +1,6 @@
 ---
 title: Overzicht van Servicelevelovereenkomsten
-description: In dit onderwerp wordt beschreven hoe serviceovereenkomsten werken.
+description: In dit artikel wordt beschreven hoe serviceovereenkomsten werken.
 author: sorenva
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc0be99cf492d672f9eaecff25c93b700e7ed230
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5566f559da6340a82ca015fb5dee2dae7887202e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670827"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862448"
 ---
 # <a name="service-agreements-overview"></a>Overzicht van Servicelevelovereenkomsten
 
@@ -35,7 +35,7 @@ In het veld **Serviceovereenkomstgroep** op de pagina **Parameters voor serviceb
 - De drie overeenkomstgroepen die u hebt ingesteld in het bedrijf zijn Goud, Zilver en Brons.
 - Een nieuwe serviceaccountmanager is aangesteld in uw bedrijf. De servicemanager is verantwoordelijk voor het omgaan met alle clients in de overeenkomstgroep Gold. U kunt overeenkomstrecords filteren op de overeenkomstgroep Gold om alle overeenkomsten te vinden waarvoor u de nieuwe servicemanager moet opgeven als de verantwoordelijke persoon.
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-articles"></a>Gerelateerde artikelen
 
 [Serviceovereenkomstgroepen maken](create-service-agreement-groups.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Levenscyclusstatussen van werkorders
-description: In dit onderwerp wordt uitgelegd hoe u levenscyclusstatussen van werkorders plant in Activabeheer.
+description: In dit artikel wordt uitgelegd hoe u levenscyclusstatussen van werkorders plant in Activabeheer.
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fa0980438ec629ef7ae6bf711d5ae87efca131e6ab86dfcaa1f17d953725147a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 67f857e4bfb828250e632e3ba46af9930cd908a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768661"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860865"
 ---
 # <a name="work-order-lifecycle-states"></a>Levenscyclusstatussen van werkorders
 
@@ -69,7 +69,7 @@ In de volgende tabel worden de opties in de secties **Werkorder** en **Planning*
 
     In het Sneltabblad **Details** wordt in het veld **Levenscyclusmodellen** het aantal levenscyclusmodellen van werkorders weergegeven die deze levenscyclusstatus gebruiken.
 
-8. Selecteer in het Sneltabblad **Algemeen** in de sectie **Werkorder** de functies die beschikbaar moeten zijn voor deze levenscyclusstatus door de relevante opties in te stellen op **Ja**. Zie voor beschrijvingen van de opties de tabel eerder in dit onderwerp.
+8. Selecteer in het Sneltabblad **Algemeen** in de sectie **Werkorder** de functies die beschikbaar moeten zijn voor deze levenscyclusstatus door de relevante opties in te stellen op **Ja**. Zie voor beschrijvingen van de opties de tabel eerder in dit artikel.
 9. Selecteer in de sectie **Project** in het veld **Fase** de projectfase die aan deze levenscyclusstatus moet worden gerelateerd.
 10. Stel in de sectie **Project** de optie **Activiteiten afsluiten** in op **Ja** als projectactiviteiten die aan elke werkordertaak zijn gekoppeld, automatisch moeten worden gesloten wanneer de werkorder zich in deze levenscyclusstatus bevindt.
 
@@ -77,7 +77,7 @@ In de volgende tabel worden de opties in de secties **Werkorder** en **Planning*
     > Als u het nummer wilt weten van de projectactiviteit die aan een werkordertaak is gekoppeld, selecteert u **Activiteitenbeheer** \> **Algemene** \> **Werkorders** \> **Alle werkorders**, **Actieve werkorders** of **Mijn actieve werkorders**. Open de werkorder en selecteer vervolgens de werkordertaak. Het activiteitsnummer wordt weer gegeven in het veld **Activiteitsnummer** in de sectie **Project** in het tabblad **Algemeen** van het Sneltabblad **Regeldetails**.
 
 11. In de sectie **Prognose** stelt u de optie **Uurprognose kopiëren**, **Artikelprognose kopiëren** en/of **Onkostenprognose kopiëren** in op **Ja** als projectprognoses voor werkorders automatisch moeten worden gekopieerd naar werkorderjournalen wanneer de werkorder zich in deze levenscyclusstatus bevindt.
-12. Stel in sectie **Planning** een van de opties in op **Ja** als de planningsstatus voor werkordertaken moet worden bijgewerkt wanneer de werkorder zich in deze levenscyclusstatus bevindt. Zie de tabel eerder in dit onderwerp voor beschrijvingen van de opties **Gereed**, **Start**, **Einde** en **Planningsregels verwijderen**.
+12. Stel in sectie **Planning** een van de opties in op **Ja** als de planningsstatus voor werkordertaken moet worden bijgewerkt wanneer de werkorder zich in deze levenscyclusstatus bevindt. Zie de tabel eerder in dit artikel voor beschrijvingen van de opties **Gereed**, **Start**, **Einde** en **Planningsregels verwijderen**.
 
     > [!NOTE]
     > Als u het planningsregels wilt zien die aan werkordertaken zijn gekoppeld, selecteert u **Activiteitenbeheer** \> **Algemene** \> **Werkorders** \> **Alle werkorders**, **Actieve werkorders** of **Mijn actieve werkorders**. Open de werkorder, selecteer de werkordertaak op het Sneltabblad **Werkordertaken** en bekijk gerelateerde informatie over het Sneltabblad **Regeldetails**. In het veld **Status** op het tabblad **Planning** wordt de status van de werkordertaak weergegeven. Het veld **Status** kan op de volgende waarden worden ingesteld: **Gepland**, **Gereed**, **Gestart**, **Gestopt** en **Beëindigd**.

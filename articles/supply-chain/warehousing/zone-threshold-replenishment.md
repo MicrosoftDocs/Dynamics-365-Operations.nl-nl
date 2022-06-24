@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: f3e94cc79f0daac9107f9876ac8414d2c4cff366
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e3ec1f59e0b1d202d5591bfc1525c9034f4d8f45
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568986"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893115"
 ---
 # <a name="zone-threshold-replenishment"></a>Aanvulling op basis van zonedrempels
 
@@ -45,7 +45,7 @@ Voordat u de functie *Aanvulling op basis van zonedrempels* kunt gebruiken, moet
 
 ## <a name="set-up-zone-based-replenishment"></a><a name="setup"></a>Aanvulling op basis van zones instellen
 
-Als u aanvulling op basis van zones wilt instellen, moet u verschillende onderdelen van het systeem configureren. In deze sectie worden de verschillende instellingen geïntroduceerd en worden waarden voor demogegevens weergegeven die u kunt invoeren als u het scenario aan het einde van dit onderwerp wilt doorlopen.
+Als u aanvulling op basis van zones wilt instellen, moet u verschillende onderdelen van het systeem configureren. In deze sectie worden de verschillende instellingen geïntroduceerd en worden waarden voor demogegevens weergegeven die u kunt invoeren als u het scenario aan het einde van dit artikel wilt doorlopen.
 
 ### <a name="set-up-directive-codes"></a>Instructiecodes instellen
 
@@ -57,7 +57,7 @@ Om de instructiecodes weer te geven of te bewerken, gaat u naar **Magazijnbeheer
 
 #### <a name="prepare-demo-data-directive-codes"></a>Instructiecodes voor demogegevens voorbereiden
 
-In dit voorbeeld wordt getoond hoe u een instructiecode voorbereidt. Als u het scenario aan het einde van dit onderwerp wilt doorlopen, gebruikt u de voorbeeldgegevenswaarden die hier worden getoond. Gebruik anders uw eigen waarden.
+In dit voorbeeld wordt getoond hoe u een instructiecode voorbereidt. Als u het scenario aan het einde van dit artikel wilt doorlopen, gebruikt u de voorbeeldgegevenswaarden die hier worden getoond. Gebruik anders uw eigen waarden.
 
 1. Selecteer de rechtspersoon **USMF** om te werken met de demogegevens.
 1. Ga naar **Magazijnbeheer \> Instellen \> Instructiecodes**.
@@ -79,7 +79,7 @@ Een aanvullingssjabloon is een set regels die bepalen wanneer en hoe een locatie
 
 #### <a name="prepare-a-demo-data-replenishment-template"></a>Een aanvullingssjabloon met demogegevens voorbereiden
 
-In dit voorbeeld wordt getoond hoe u een aanvullingssjabloon voorbereidt. Als u het scenario aan het einde van dit onderwerp wilt doorlopen, gebruikt u de voorbeeldgegevenswaarden die hier worden getoond. Gebruik anders uw eigen waarden.
+In dit voorbeeld wordt getoond hoe u een aanvullingssjabloon voorbereidt. Als u het scenario aan het einde van dit artikel wilt doorlopen, gebruikt u de voorbeeldgegevenswaarden die hier worden getoond. Gebruik anders uw eigen waarden.
 
 1. Selecteer de rechtspersoon **USMF** om te werken met de demogegevens.
 1. Ga naar **Magazijnbeheer \> Instellen \> Aanvulling \> Aanvullingssjablonen**.
@@ -144,7 +144,7 @@ In de volgende sectie vindt u voorbeelden waarin wordt uitgelegd hoe u met de in
 
 #### <a name="prepare-demo-data-location-directives"></a>Locatie-instructies voor demogegevens voorbereiden
 
-Om demogegevens voor te bereiden zodat deze in het scenario aan het einde van dit onderwerp kunnen worden gebruikt, moet u twee locatie-instructies maken: een voor de orderverzamelen en een voor wegzetten.
+Om demogegevens voor te bereiden zodat deze in het scenario aan het einde van dit artikel kunnen worden gebruikt, moet u twee locatie-instructies maken: een voor de orderverzamelen en een voor wegzetten.
 
 ##### <a name="create-a-replenishment-pick-directive"></a>Een instructie voor aanvullingsverzamelen maken
 
@@ -258,7 +258,7 @@ In deze sectie wordt een voorbeeldscenario besproken waarin u kunt zien hoe u me
 
 ### <a name="prepare-the-sample-data-that-is-required-for-the-sample-scenario"></a>De voorbeeldgegevens voorbereiden die zijn vereist voor het voorbeeldscenario
 
-Voordat u het scenario gaat doorlopen, moet u voorbeeld gegevens activeren en de functie configureren, zoals beschreven in deze en de vorige sectie in dit onderwerp.
+Voordat u het scenario gaat doorlopen, moet u voorbeeld gegevens activeren en de functie configureren, zoals beschreven in deze en de vorige sectie in dit artikel.
 
 #### <a name="use-the-usmf-legal-entity"></a>De rechtspersoon USMF gebruiken
 
@@ -266,7 +266,7 @@ Als u het scenario wilt doorlopen met de hier opgegeven voorbeeldrecords en -waa
 
 #### <a name="prepare-additional-sample-data"></a>Extra voorbeeldgegevens voorbereiden
 
-Selecteer eerst de rechtspersoon **USMF** en voeg de benodigde aanvullende voorbeeldgegevens toe, zoals beschreven in de sectie [Op zone gebaseerde aanvulling instellen](#setup) eerder in dit onderwerp.
+Selecteer eerst de rechtspersoon **USMF** en voeg de benodigde aanvullende voorbeeldgegevens toe, zoals beschreven in de sectie [Op zone gebaseerde aanvulling instellen](#setup) eerder in dit artikel.
 
 #### <a name="check-your-on-hand-inventory"></a>Controleer de voorhanden voorraad
 

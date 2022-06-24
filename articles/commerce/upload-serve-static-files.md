@@ -1,6 +1,6 @@
 ---
 title: Statische bestanden uploaden en verwerken
-description: In dit onderwerp wordt beschreven hoe u een statisch bestand uploadt in Microsoft Dynamics 365 Commerce Site Builder en hoe u een aangepaste URL en bestandsnaam maakt die u kunt gebruiken om dat bestand aan te vragen.
+description: In dit artikel wordt beschreven hoe u een statisch bestand uploadt in Microsoft Dynamics 365 Commerce Site Builder en hoe u een aangepaste URL en bestandsnaam maakt die u kunt gebruiken om dat bestand aan te vragen.
 author: StuHarg
 ms.date: 11/16/2020
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 389d33189644241dcf98da0c7f3b841e82a4430ac459dc8027284cecc299b4b1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a1b14feba1466c3a5efc3b0ea66f20e9e818a8a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714678"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885317"
 ---
 # <a name="upload-and-serve-static-files"></a>Statische bestanden uploaden en verwerken
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u een statisch bestand uploadt in Microsoft Dynamics 365 Commerce Site Builder en hoe u een aangepaste URL en bestandsnaam maakt die u kunt gebruiken om dat bestand aan te vragen.
+In dit artikel wordt beschreven hoe u een statisch bestand uploadt in Microsoft Dynamics 365 Commerce Site Builder en hoe u een aangepaste URL en bestandsnaam maakt die u kunt gebruiken om dat bestand aan te vragen.
 
-Voor sommige connectors van derden moet een bestand worden gehost en vanaf de e-commerce site worden aangeboden. Deze connectors verwachten dat het bestand wordt geretourneerd door verzoeken naar een specifiek callback URL-pad en bestandsnaam. Daarom wordt in dit onderwerp uitgelegd hoe u een statisch bestand kunt uploaden en bedienen met een door de gebruiker te definiëren URL en bestandsnaam op een Dynamics 365 Commerce e-commercesite.
+Voor sommige connectors van derden moet een bestand worden gehost en vanaf de e-commerce site worden aangeboden. Deze connectors verwachten dat het bestand wordt geretourneerd door verzoeken naar een specifiek callback URL-pad en bestandsnaam. Daarom wordt in dit artikel uitgelegd hoe u een statisch bestand kunt uploaden en bedienen met een door de gebruiker te definiëren URL en bestandsnaam op een Dynamics 365 Commerce e-commercesite.
 
 ## <a name="create-a-site-url-that-returns-a-static-file"></a>Een site-URL maken die een statisch bestand retourneert
 
@@ -86,7 +86,7 @@ Nadat een URL is gemaakt, kan het pad ervan niet worden gewijzigd. Als u het URL
 
 Als u het URL-pad wilt wijzigen, volgt u deze stappen.
 
-1. Als u een nieuwe URL wilt maken en toewijzen aan het bestaande bestand of een andere bron, volgt u de instructies in de sectie [Een site-URL maken die een statisch bestand retourneert](#create-a-site-url-that-returns-a-static-file) eerder in dit onderwerp.
+1. Als u een nieuwe URL wilt maken en toewijzen aan het bestaande bestand of een andere bron, volgt u de instructies in de sectie [Een site-URL maken die een statisch bestand retourneert](#create-a-site-url-that-returns-a-static-file) eerder in dit artikel.
 1. Selecteer de nieuwe URL en selecteer **Publiceren** in de opdrachtbalk. De nieuwe URL wordt gepubliceerd.
 1. Als u de publicatie van de oude URL ongedaan wilt maken, selecteert u de URL en selecteert u vervolgens **Publicatie ongedaan maken** in de opdrachtbalk. U kunt nu de oude URL verwijderen als u wilt.
 

@@ -1,6 +1,6 @@
 ---
 title: De planningsenginefout 'Er kan niet voldoende capaciteit worden gevonden' en eindige capaciteit oplossen
-description: In dit onderwerp vindt u informatie over de redenen en oplossingen voor het bericht 'Productieorder %1 kan niet worden gepland. Er kan niet voldoende capaciteit worden gevonden' voor de planningsenginefout.
+description: In dit artikel vindt u informatie over de redenen en oplossingen voor het bericht 'Productieorder %1 kan niet worden gepland. Er kan niet voldoende capaciteit worden gevonden' voor de planningsenginefout.
 author: t-benebo
 ms.date: 7/29/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a3c08dc72c7133a2ebb148a2f88f83fee282717b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 2db4c2606936222fcd1a97cf2814fbfbc41df113
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469836"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891026"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>De planningsenginefout 'Er kan niet voldoende capaciteit worden gevonden' oplossen
 
@@ -26,7 +26,7 @@ Wanneer u de planning uitvoert, wordt mogelijk het volgende foutbericht weergege
 
 > Productieorder %1 kan niet worden gepland. Er kan niet voldoende capaciteit worden gevonden.
 
-Er zijn verschillende redenen waarom de planningsengine niet kan worden uitgevoerd en dit foutbericht wordt weergegeven. Dit onderwerp biedt richtlijnen die u helpen om de hoofdoorzaak van de fout te vinden en deze vervolgens te beperken.
+Er zijn verschillende redenen waarom de planningsengine niet kan worden uitgevoerd en dit foutbericht wordt weergegeven. Dit artikel biedt richtlijnen die u helpen om de hoofdoorzaak van de fout te vinden en deze vervolgens te beperken.
 
 ## <a name="review-the-applicable-resources"></a>De toepasselijke resources controleren
 

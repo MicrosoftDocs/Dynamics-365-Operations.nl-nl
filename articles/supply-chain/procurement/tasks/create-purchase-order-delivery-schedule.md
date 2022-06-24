@@ -1,6 +1,6 @@
 ---
 title: Een inkooporder maken met een afleveringsschema
-description: Dit onderwerp laat zien hoe u een afleveringsschema voor een inkooporder kunt maken.
+description: Dit artikel laat zien hoe u een afleveringsschema voor een inkooporder kunt maken.
 author: GalynaFedorova
 ms.date: 08/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1475115b5c1a475f9a56f0f3eb8bb47267d2b91
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e13103f374be838a5ea0fb5e08c449b419905cab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677445"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875241"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Een inkooporder maken met een afleveringsschema
 
 [!include [banner](../../includes/banner.md)]
 
-Dit onderwerp laat zien hoe u een afleveringsschema voor een inkooporder kunt maken. Een afleveringsschema wordt gebruikt wanneer wordt gevraagd een hoeveelheid op een order of journaal in meerdere zendingen te leveren. Het voorbeeld dat in deze handleiding wordt weergegeven, kan worden gebruikt in het USMF-demobedrijf. Deze procdure wordt gewoonlijk uitgevoerd door een inkoper.
+Dit artikel laat zien hoe u een afleveringsschema voor een inkooporder kunt maken. Een afleveringsschema wordt gebruikt wanneer wordt gevraagd een hoeveelheid op een order of journaal in meerdere zendingen te leveren. Het voorbeeld dat in deze handleiding wordt weergegeven, kan worden gebruikt in het USMF-demobedrijf. Deze procdure wordt gewoonlijk uitgevoerd door een inkoper.
 
 ## <a name="create-a-delivery-schedule"></a>Een afleveringsschema maken
 1. Ga in het navigatievenster naar **Modules > Inkoopbeheer > Inkooporders > Alle inkooporders**.

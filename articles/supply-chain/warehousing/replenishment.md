@@ -1,6 +1,6 @@
 ---
 title: Overzicht van Aanvulling
-description: Dit onderwerp beschrijft de aanvullingsstrategieën die beschikbaar zijn voor magazijnen die gebruikmaken van de functionaliteit die beschikbaar is in Magazijnbeheer.
+description: Dit artikel beschrijft de aanvullingsstrategieën die beschikbaar zijn voor magazijnen die gebruikmaken van de functionaliteit die beschikbaar is in Magazijnbeheer.
 author: Mirzaab
 ms.date: 02/19/2020
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7681294c1c05f1ca93330c948fc454b6460cb41c
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 3dceb8e6300d19eb9253e88debbaaef0b6987420
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985779"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893086"
 ---
 # <a name="replenishment-overview"></a>Overzicht van Aanvulling
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp beschrijft de aanvullingsstrategieën die beschikbaar zijn voor magazijnen die gebruikmaken van de functionaliteit die beschikbaar is in Magazijnbeheer. De informatie in dit onderwerp is niet van toepassing op de magazijnoplossing die in Voorraadbeheer beschikbaar is.
+Dit artikel beschrijft de aanvullingsstrategieën die beschikbaar zijn voor magazijnen die gebruikmaken van de functionaliteit die beschikbaar is in Magazijnbeheer. De informatie in dit artikel is niet van toepassing op de magazijnoplossing die in Voorraadbeheer beschikbaar is.
 
 De volgende aanvullingsstrategieën zijn beschikbaar:
 

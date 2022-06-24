@@ -1,6 +1,6 @@
 ---
 title: Weergave-instellingen voor productdimensies toepassen
-description: In dit onderwerp worden de weergave-instellingen voor productdimensies besproken en wordt beschreven hoe u deze toepast in Microsoft Dynamics 365 Commerce.
+description: In dit artikel worden de weergave-instellingen voor productdimensies besproken en wordt beschreven hoe u deze toepast in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/28/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 80a0861c51ea14ddb6bce02d757667adac34e740cd04311e26211d9bdbae4ed8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d7575e205a9732259b00e424f66eeadfe8c659ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716217"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899170"
 ---
 # <a name="apply-display-settings-for-product-dimensions"></a>Weergave-instellingen voor productdimensies toepassen
 
 [!include [banner](includes/banner.md)]
 
 
-In dit onderwerp worden de weergave-instellingen voor productdimensies besproken en wordt beschreven hoe u deze toepast in Microsoft Dynamics 365 Commerce.
+In dit artikel worden de weergave-instellingen voor productdimensies besproken en wordt beschreven hoe u deze toepast in Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce ondersteunt het gebruik van grootte-, stijl- en kleurdimensies om productvarianten te onderscheiden. Dimensies worden meestal weergegeven als tekstwaarden, zoals 'Klein', 'Normaal' en 'Groot' voor grootte, en 'Zwart' en 'Bruin' voor kleuren. Als een product echter veel variaties ondersteunt, kan het moeilijk zijn om door productvarianten te bladeren omdat er meerdere selecties vereist zijn om de afbeelding voor elke variant weer te geven. Om het gemakkelijker te maken om door productvarianten te bladeren, kunnen in de versie 10.0.20 van Commerce afbeeldingen en hexadecimale (hex) codes worden gebruikt om dimensies weer te geven als stalen.
 

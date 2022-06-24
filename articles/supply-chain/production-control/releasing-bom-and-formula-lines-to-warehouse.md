@@ -1,6 +1,6 @@
 ---
 title: Stuklijst- en formuleregels vrijgeven aan het magazijn
-description: In dit onderwerp wordt het proces voor het vrijgeven van grondstoffen voor stuklijst- en formuleregels aan het magazijn beschreven.
+description: In dit artikel wordt het proces voor het vrijgeven van grondstoffen voor stuklijst- en formuleregels aan het magazijn beschreven.
 author: johanhoffmann
 ms.date: 10/30/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c9956290ce8f90f04bc144d710ad35b5a0243e3898a8f3e75692b1a9da506149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53e3a943dbd6cf982101f42ed8f94b7e0f46597c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731218"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860604"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Stuklijst- en formuleregels vrijgeven aan het magazijn
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt het proces voor het vrijgeven van grondstoffen voor stuklijst- en formuleregels aan het magazijn beschreven. Wanneer u een stuklijst- of formuleregel aan het magazijn vrijgeeft, bepaalt het systeem eerst of er al materiaal beschikbaar is op de productie-invoerlocatie op de werkvloer waar het materiaal voor het productieproces wordt verbruikt.
+In dit artikel wordt het proces voor het vrijgeven van grondstoffen voor stuklijst- en formuleregels aan het magazijn beschreven. Wanneer u een stuklijst- of formuleregel aan het magazijn vrijgeeft, bepaalt het systeem eerst of er al materiaal beschikbaar is op de productie-invoerlocatie op de werkvloer waar het materiaal voor het productieproces wordt verbruikt.
 
 - Als het materiaal beschikbaar is op de productie-invoerlocatie, wordt het materiaal van die locatie verzameld direct nadat het signaal voor de vrijgave van materiaal aan het magazijn is gegeven.
 - Als het materiaal niet beschikbaar is op de productie-invoerlocatie, wordt met de materiaalvrijgave aangegeven dat materiaal van locaties in het magazijn moet worden verplaatst naar de productie-invoerlocatie. Het materiaal wordt verplaatst via magazijnwerk voor het verzamelen van grondstoffen. Daarom moeten er magazijnprocessen voor het verzamelen van grondstoffen worden geconfigureerd. Zie voor meer informatie [Overzicht van Aanvulling](../warehousing/replenishment.md) en [Magazijnwerk beheren met werksjablonen en locatierichtlijnen](../warehousing/control-warehouse-location-directives.md).

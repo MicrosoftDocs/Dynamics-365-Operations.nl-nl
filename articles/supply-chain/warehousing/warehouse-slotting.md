@@ -1,6 +1,6 @@
 ---
 title: Magazijnvakken
-description: Dit onderwerp biedt informatie over magazijnvakken. Met magazijnvakken kunt u de vraag consolideren op basis van artikel en maateenheid vanuit orders met de status Besteld, Gereserveerd of Vrijgegeven. Hiermee kunnen magazijnbeheerders orderverzamellocaties intelligent plannen voordat orders naar het magazijn worden vrijgegeven en het orderverzamelwerk wordt gemaakt.
+description: Dit artikel biedt informatie over magazijnvakken. Met magazijnvakken kunt u de vraag consolideren op basis van artikel en maateenheid vanuit orders met de status Besteld, Gereserveerd of Vrijgegeven. Hiermee kunnen magazijnbeheerders orderverzamellocaties intelligent plannen voordat orders naar het magazijn worden vrijgegeven en het orderverzamelwerk wordt gemaakt.
 author: Mirzaab
 ms.date: 11/13/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e057992b15f0a1fa76a78ef78ea9aeea3c088be9
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a5ce900d7698c7d8211ce1e8b7d529ab79a28915
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676294"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897250"
 ---
 # <a name="warehouse-slotting"></a>Magazijnvakken
 
@@ -156,7 +156,7 @@ Voer voor elke verkooporder die u maakt de volgende stappen uit om een regel voo
 
     - **Maateenheid niveau:** _EaBoxPl_
 
-        Dit veld bepaalt de maateenheden van vraag die geldig zijn voor de regel. (Voor meer informatie, zie de sectie [Niveaus van maateenheden maken voor vakken](#unit-tiers) eerder in dit onderwerp.)
+        Dit veld bepaalt de maateenheden van vraag die geldig zijn voor de regel. (Voor meer informatie, zie de sectie [Niveaus van maateenheden maken voor vakken](#unit-tiers) eerder in dit artikel.)
 
     - **Criteria voor vaktoewijzing:** _Hoeveelheid overwegen_
 

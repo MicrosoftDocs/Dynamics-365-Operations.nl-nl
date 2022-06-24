@@ -1,6 +1,6 @@
 ---
 title: Algemene parameters voor mobiele apparaten
-description: In dit onderwerp wordt beschreven hoe u instellingen voor mobiele apparaten instelt op de pagina Parameters voor magazijnbeheer.
+description: In dit artikel wordt beschreven hoe u instellingen voor mobiele apparaten instelt op de pagina Parameters voor magazijnbeheer.
 author: Mirzaab
 ms.date: 08/13/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0ae04c86ff1eafb649fcef7c34ace66bdc3e5cb8
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e6e03414edd9243fcc4156195928455b30a7cee9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679160"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847754"
 ---
 # <a name="global-mobile-device-parameters"></a>Algemene parameters voor mobiele apparaten
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u algemene parameters voor magazijnbeheer instelt die van invloed zijn op de interactie tussen het systeem en mobiele apparaten.
+In dit artikel wordt beschreven hoe u algemene parameters voor magazijnbeheer instelt die van invloed zijn op de interactie tussen het systeem en mobiele apparaten.
 
 Voor meer informatie over het instellen van magazijnmedewerkers zie [Magazijnmedewerkers beheren](manage-warehouse-workers.md). Zie voor meer informatie over de afhandeling van nummerplaten op mobiele apparaten [Nummerplaat ontvangen via de mobiele app Warehouse Management](warehousing-mobile-device-app-license-plate-receiving.md). Voor meer informatie over de processen voor cyclustelling zie [Cyclustelling](cycle-counting.md) en [Voorbeeldscenario's voor cyclustelling](cycle-counting-scenarios.md).
 
 ## <a name="open-the-warehouse-management-parameters-page"></a>Open de pagina Parameters voor magazijnbeheer
 
-Om de pagina **Parameters voor magazijnbeheer** te openen, gaat u naar **Magazijnbeheer \> Instellingen \> Parameters voor magazijnbeheer**. Vervolgens kunt u de velden instellen die betrekking hebben op werken met mobiele apparaten, zoals wordt beschreven in het volgende onderdeel van dit onderwerp.
+Om de pagina **Parameters voor magazijnbeheer** te openen, gaat u naar **Magazijnbeheer \> Instellingen \> Parameters voor magazijnbeheer**. Vervolgens kunt u de velden instellen die betrekking hebben op werken met mobiele apparaten, zoals wordt beschreven in het volgende onderdeel van dit artikel.
 
 ## <a name="mobile-device-fasttab-on-the-general-tab"></a>Sneltabblad Mobiele apparaten op het tabblad Algemeen
 

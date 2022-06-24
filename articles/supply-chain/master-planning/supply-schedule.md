@@ -1,6 +1,6 @@
 ---
-title: Voorraadschema
-description: Dit onderwerp bevat informatie over de pagina Voorraadschema en de mogelijkheden ervan.
+title: Voorraadplanning
+description: Dit artikel bevat informatie over de pagina Voorraadschema en de mogelijkheden ervan.
 author: t-benebo
 ms.date: 9/3/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 89b8ce96a5c34902187751cfa523ed99a94500b3
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 0e3937dd4cffc464f38b5770674364579bdb06d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468671"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851734"
 ---
 # <a name="supply-schedule"></a>Voorraadschema
 
@@ -28,7 +28,7 @@ De pagina **Voorraadschema** geeft een uitgebreid overzicht van vraag en aanbod 
 
 U kunt de pagina **Voorraadschema** op een van de volgende manieren openen:
 
-- Ga naar **Hoofdplanning \> Hoofdplanning \> Voorraadschema**. Geef in het dialoogvenster **Filter wijzigen** het plan en het product op dat u wilt zoeken door filterwaarden in te voeren in de beschikbare velden. (In de rest van dit onderwerp wordt de verzameling filterwaarden die u invoert, het 'filter' of 'huidige filter' genoemd.) Wanneer u klaar bent, selecteert u **OK**.
+- Ga naar **Hoofdplanning \> Hoofdplanning \> Voorraadschema**. Geef in het dialoogvenster **Filter wijzigen** het plan en het product op dat u wilt zoeken door filterwaarden in te voeren in de beschikbare velden. (In de rest van dit artikel wordt de verzameling filterwaarden die u invoert, het 'filter' of 'huidige filter' genoemd.) Wanneer u klaar bent, selecteert u **OK**.
 - Ga naar **Productgegevensbeheer \> Producten \> Vrijgegeven producten**. Selecteer of open een product. Selecteer vervolgens in het deelvenster Actie, op het tabblad **Plan**, in de groep **Weergeven**, de optie **Leverschema**.
 - Ga naar **Hoofdplanning \> Instellen \> Vraagprognose \> Artikeltoewijzingssleutels**. Selecteer een artikeltoewijzingssleutel die als productfamilie wordt gebruikt. Selecteer vervolgens in het actiepaneel de optie **Leverschema**.
 - Ga naar **Hoofdplanning \> Hoofdplanning \> Geplande orders**. Selecteer of open een geplande verkooporder. Selecteer vervolgens in het deelvenster Actie, op het tabblad **Weergeven**, in de groep **Weergeven**, de optie **Leverschema**.

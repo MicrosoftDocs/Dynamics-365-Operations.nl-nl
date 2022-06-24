@@ -1,6 +1,6 @@
 ---
 title: Voorbeeld van waveverwerking configureren
-description: In dit onderwerp wordt een voorbeeld gegeven van het instellen van de criteria die bepalen welk werk wordt gegenereerd voor een magazijn wanneer een wave wordt verwerkt en of waves handmatig of automatisch worden verwerkt.
+description: In dit artikel wordt een voorbeeld gegeven van het instellen van de criteria die bepalen welk werk wordt gegenereerd voor een magazijn wanneer een wave wordt verwerkt en of waves handmatig of automatisch worden verwerkt.
 author: Mirzaab
 ms.date: 03/17/2021
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39c3fecf9250ee89c22003d5dff4ea662c3042e3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3a9fc2b9f31bc9e2f73b53a900bc9b0924410768
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572980"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860343"
 ---
 # <a name="configure-wave-processing-example"></a>Voorbeeld van waveverwerking configureren
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt een voorbeeld gegeven van het instellen van de criteria die bepalen welk werk wordt gegenereerd voor een magazijn wanneer een wave wordt verwerkt en of waves handmatig of automatisch worden verwerkt. U kunt de criteria opgeven door wavesjablonen en query's in te stellen die overeenstemmen met een wave met vrijgegeven regels in verkooporders, productieorders of kanbanorders.
+In dit artikel wordt een voorbeeld gegeven van het instellen van de criteria die bepalen welk werk wordt gegenereerd voor een magazijn wanneer een wave wordt verwerkt en of waves handmatig of automatisch worden verwerkt. U kunt de criteria opgeven door wavesjablonen en query's in te stellen die overeenstemmen met een wave met vrijgegeven regels in verkooporders, productieorders of kanbanorders.
 
 ## <a name="enable-sample-data"></a>Voorbeeldgegevens inschakelen
 

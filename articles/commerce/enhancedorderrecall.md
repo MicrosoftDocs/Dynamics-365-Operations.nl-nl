@@ -1,6 +1,6 @@
 ---
 title: Bewerking Order intrekken in POS
-description: In dit onderwerp worden de functies uitgelegd die beschikbaar zijn voor de verbeterde pagina´s voor orderintrekking in POS.
+description: In dit artikel worden de functies uitgelegd die beschikbaar zijn voor de verbeterde pagina´s voor orderintrekking in POS.
 author: hhainesms
 ms.date: 03/12/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 43d6b2e4e5d923b16b02337432fc5259f66c0bf1a8ba1dbf311fb76cb3f085e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3723b40209ee1f8fb0ef77cb1ad52d123ff2a02f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737599"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869457"
 ---
 # <a name="recall-order-operation-in-pos"></a>Bewerking Order intrekken in POS
 

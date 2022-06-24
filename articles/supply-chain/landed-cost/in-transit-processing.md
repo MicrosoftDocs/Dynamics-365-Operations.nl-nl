@@ -1,6 +1,6 @@
 ---
 title: Goederen in transit verwerken
-description: In dit onderwerp wordt beschreven hoe u met orders voor goederen in transit werkt. Wanneer een order of reis is ingesteld voor de verwerking van goederen in transit, kunnen goederen worden gefactureerd voordat deze voor verbruik in het magazijn zijn ontvangen.
+description: In dit artikel wordt beschreven hoe u met orders voor goederen in transit werkt. Wanneer een order of reis is ingesteld voor de verwerking van goederen in transit, kunnen goederen worden gefactureerd voordat deze voor verbruik in het magazijn zijn ontvangen.
 author: Weijiesa
 ms.date: 01/13/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8df07c7c94cf64b0e4cf1def794270e176241b5f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 47e5ef2ef99fcf23af73cfdb6ec57b92ad62f18c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694650"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854379"
 ---
 # <a name="goods-in-transit-processing"></a>Goederen in transit verwerken
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u met orders voor goederen in transit werkt. Dit type order wordt alleen gebruikt door de module **Francoprijzen**. Wanneer een order of reis is ingesteld voor de verwerking van goederen in transit, hoeft u niet te wachten totdat de goederen door het magazijn worden ontvangen voordat u ze kunt factureren. De goederen worden in dit geval gefactureerd wanneer ze het magazijn van de leverancier of de haven van vertrek verlaten en de financiële kosten worden herkend wanneer de reis begint. Met deze functionaliteit kunt u voorraad op de juiste manier in eigendom nemen, omdat goederen vaak eigendom van uw organisatie worden wanneer ze de haven verlaten.
+In dit artikel wordt beschreven hoe u met orders voor goederen in transit werkt. Dit type order wordt alleen gebruikt door de module **Francoprijzen**. Wanneer een order of reis is ingesteld voor de verwerking van goederen in transit, hoeft u niet te wachten totdat de goederen door het magazijn worden ontvangen voordat u ze kunt factureren. De goederen worden in dit geval gefactureerd wanneer ze het magazijn van de leverancier of de haven van vertrek verlaten en de financiële kosten worden herkend wanneer de reis begint. Met deze functionaliteit kunt u voorraad op de juiste manier in eigendom nemen, omdat goederen vaak eigendom van uw organisatie worden wanneer ze de haven verlaten.
 
 Wanneer orders voor goederen in transit worden gebruikt, worden de financieel bijgewerkte artikelen ontvangen in een interim-magazijn dat ook wel een transitmagazijn wordt genoemd. De goederen blijven vervolgens in dit magazijn totdat ze kunnen worden ontvangen in het uiteindelijke doelmagazijn (dat wil zeggen het magazijn dat is gedefinieerd op de inkoopregel). Ze kunnen niet handmatig worden verwijderd.
 

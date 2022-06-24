@@ -1,6 +1,6 @@
 ---
 title: Voorraadcorrecties uit Supply Chain Management synchroniseren met Field Service
-description: Dit onderwerp bespreekt de sjablonen en de onderliggende taken die worden gebruikt om informatie op voorraadniveau te synchroniseren van Dynamics 365 Supply Chain Management naar Dynamics 365 Field Service.
+description: Dit artikel bespreekt de sjablonen en de onderliggende taken die worden gebruikt om informatie op voorraadniveau te synchroniseren van Dynamics 365 Supply Chain Management naar Dynamics 365 Field Service.
 author: Henrikan
 ms.date: 05/07/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 8dfba2d2dc2fdd4af136e3cb20061d794369011f
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: fc14fc63bc1a69a57b10f39b2cb9fb8014e6f70b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060940"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844788"
 ---
 # <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>Voorraadcorrecties uit Supply Chain Management synchroniseren met Field Service 
 
@@ -29,7 +29,7 @@ ms.locfileid: "8060940"
 
 
 
-Dit onderwerp bespreekt de sjablonen en de onderliggende taken die worden gebruikt om informatie op voorraadniveau te synchroniseren van Dynamics 365 Supply Chain Management naar Dynamics 365 Field Service.
+Dit artikel bespreekt de sjablonen en de onderliggende taken die worden gebruikt om informatie op voorraadniveau te synchroniseren van Dynamics 365 Supply Chain Management naar Dynamics 365 Field Service.
 
 [![Synchronisatie van zakelijke processen tussen Supply Chain Management en Field Service.](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
 

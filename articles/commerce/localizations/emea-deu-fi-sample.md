@@ -1,6 +1,6 @@
 ---
 title: Voorbeeld van integratie van fiscale registratieservice voor Duitsland
-description: Dit onderwerp biedt een overzicht van het fiscale integratievoorbeeld voor Duitsland in Microsoft Dynamics 365 Commerce.
+description: Dit artikel biedt een overzicht van het fiscale integratievoorbeeld voor Duitsland in Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-5-29
-ms.openlocfilehash: 16079ba5ca830625c4f18df9fe6b5b307217183d
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: a218989263580ea08947d3366b79e3b19b506375
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614039"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867753"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>Voorbeeld van integratie van fiscale registratieservice voor Duitsland
 
 [!include[banner](../includes/banner.md)]
 
-Dit onderwerp biedt een overzicht van het fiscale integratievoorbeeld voor Duitsland in Microsoft Dynamics 365 Commerce.
+Dit artikel biedt een overzicht van het fiscale integratievoorbeeld voor Duitsland in Microsoft Dynamics 365 Commerce.
 
 Als u wilt voldoen aan de lokale fiscale vereisten voor kassa's in Duitsland, omvat de Microsoft Dynamics 365 Commerce-functionaliteit voor Duitsland een voorbeeldintegratie van het POS (point-of-sale) met een externe fiscale registratieservice. In het voorbeeld wordt de [functionaliteit voor fiscale integratie](fiscal-integration-for-retail-channel.md) uitgebreid. Het is gebaseerd op de [EFR-oplossing (Electronic Fiscal Register)](https://www.efsta.eu/de/fiskalloesungen/deutschland) van [EFSTA](https://www.efsta.eu/de/) en maakt communicatie met de EFR-service via het HTTPS-protocol mogelijk. De EFR-service moet worden gehost op het retailhardwarestation of op een afzonderlijke computer waarmee verbinding kan worden gemaakt vanuit het hardwarestation. Het voorbeeld wordt geleverd in de vorm van broncode en maakt deel uit van de Retail Software Development Kit (SDK).
 

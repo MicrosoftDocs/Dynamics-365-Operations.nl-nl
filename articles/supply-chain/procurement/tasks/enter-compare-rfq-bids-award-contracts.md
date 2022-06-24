@@ -1,6 +1,6 @@
 ---
 title: Offerteaanvraagbiedingen invoeren en vergelijken en contracten toekennen
-description: In dit onderwerp wordt uitgelegd hoe u antwoorden op een offerteaanvraag invoert, biedingen met elkaar vergelijkt en vervolgens het contract toekent aan een van de leveranciers.
+description: In dit artikel wordt uitgelegd hoe u antwoorden op een offerteaanvraag invoert, biedingen met elkaar vergelijkt en vervolgens het contract toekent aan een van de leveranciers.
 author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50b403021c347498a9b489a34196e592a2041a11
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d3ef754f2d5d58254a7c6f0e572115f8a2981ad9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677361"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893376"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Offerteaanvraagbiedingen invoeren en vergelijken en contracten toekennen
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u antwoorden op een offerteaanvraag invoert, biedingen met elkaar vergelijkt en vervolgens het contract toekent aan een van de leveranciers. U kunt deze procedure gebruiken in het demobedrijf **USMF**.
+In dit artikel wordt uitgelegd hoe u antwoorden op een offerteaanvraag invoert, biedingen met elkaar vergelijkt en vervolgens het contract toekent aan een van de leveranciers. U kunt deze procedure gebruiken in het demobedrijf **USMF**.
 
 Voordat u met deze procedure begint, moet u een offerteaanvraag hebben met twee regels die aan ten minste twee leveranciers is verzonden. Voltooi de procedure [Een offerteaanvraag maken](create-request-quotation.md) om deze offerteaanvraag te maken. Ook moeten er beoordelingscriteria worden ingesteld voordat u deze procedure kunt voltooien.
 

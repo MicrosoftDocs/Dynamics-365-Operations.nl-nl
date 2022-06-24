@@ -1,6 +1,6 @@
 ---
 title: Consignatie instellen
-description: In dit onderwerp wordt uitgelegd hoe u gebruik maakt van de processen voor inkomende consignatievoorraad.
+description: In dit artikel wordt uitgelegd hoe u gebruik maakt van de processen voor inkomende consignatievoorraad.
 author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4a1b96d18048a1ae6e380374f32d2bfa2270ae24
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 66215811c8c48412fb137967107abca3774f5f0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577715"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872031"
 ---
 # <a name="set-up-consignment"></a>Consignatie instellen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u gebruik maakt van de processen voor inkomende consignatievoorraad.
+In dit artikel wordt uitgelegd hoe u gebruik maakt van de processen voor inkomende consignatievoorraad.
 
-De consignatievoorraad is de voorraad die eigendom is van een leverancier, maar die op uw locatie is opgeslagen. Wanneer u klaar bent om de voorraad te verbruiken of te gebruiken, neemt u het eigendom van de voorraad over. Dit onderwerp bevat informatie over het fysiek ontvangen van voorhanden voorraad in eigendom van de leverancier zonder grootboektransacties te maken, over het starten van een productieproces waarin de voorraad in eigendom van de leverancier fysiek kan worden gereserveerd. en over het wijzigen van het eigendom van de grondstoffen om het verbruik als onderdeel van de verwerking van productieorders te kunnen verwerken. U vindt ook informatie over hoe leveranciers het verbruik van hun voorraad kunnen volgen door middel van de interface van de leverancierssamenwerking.
+De consignatievoorraad is de voorraad die eigendom is van een leverancier, maar die op uw locatie is opgeslagen. Wanneer u klaar bent om de voorraad te verbruiken of te gebruiken, neemt u het eigendom van de voorraad over. Dit artikel bevat informatie over het fysiek ontvangen van voorhanden voorraad in eigendom van de leverancier zonder grootboektransacties te maken, over het starten van een productieproces waarin de voorraad in eigendom van de leverancier fysiek kan worden gereserveerd. en over het wijzigen van het eigendom van de grondstoffen om het verbruik als onderdeel van de verwerking van productieorders te kunnen verwerken. U vindt ook informatie over hoe leveranciers het verbruik van hun voorraad kunnen volgen door middel van de interface van de leverancierssamenwerking.
 
 ## <a name="overview-of-the-consignment-process"></a>Overzicht van het consignatieproces
 

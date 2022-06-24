@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 46079daafc744421abcbdf0a3539428f2a39f13c
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: acfd9be044818ab0f40171c25a8fc9e760173aa8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920518"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867922"
 ---
 # <a name="product-dimensions"></a>Productdimensies
 
@@ -47,7 +47,7 @@ Productdimensiewaarden voor de dimensies maat, kleur en stijl kunnen op de volge
 
 Waarden voor productdimensies voor de configuratiedimensie worden doorgaans gemaakt met de functie voor productconfiguratie of op dimensies gebaseerde configuratie. 
 
-Productversies worden gewoonlijk gemaakt voor specifieke versies wanneer het product tijdens de levenscyclus wordt ontwikkeld. Productversies worden verderop in dit onderwerp gedetailleerd besproken.
+Productversies worden gewoonlijk gemaakt voor specifieke versies wanneer het product tijdens de levenscyclus wordt ontwikkeld. Productversies worden verderop in dit artikel gedetailleerd besproken.
 
 Productdimensies kunnen tevens worden gemaakt en beheerd op de pagina **Productdimensies**, die kan worden geopend vanaf de volgende locaties:
 

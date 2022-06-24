@@ -1,6 +1,6 @@
 ---
 title: Werken met fragmenten
-description: In dit onderwerp wordt beschreven waarom, wanneer en hoe u fragmenten gebruikt in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt beschreven waarom, wanneer en hoe u fragmenten gebruikt in Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 02/03/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 98cb1fba158ea99427d2068ca49b257cb5290de3
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 8824a42e46d94904f50d3f95b486673c231d9828
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090739"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896816"
 ---
 # <a name="work-with-fragments"></a>Werken met fragmenten 
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven waarom, wanneer en hoe u fragmenten gebruikt in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt beschreven waarom, wanneer en hoe u fragmenten gebruikt in Microsoft Dynamics 365 Commerce.
 
 Fragmenten bieden een gecentraliseerde ontwerpervaring voor moduleconfiguraties die op de gehele site opnieuw moeten worden gebruikt. Kopteksten, voetteksten en banners worden vaak vaak als fragmenten geconfigureerd, omdat ze over meerdere pagina's worden gedeeld. U kunt fragmenten zien als miniatuurwebpagina's die in andere pagina's op uw site kunnen worden ingevoegd. Fragmenten hebben hun eigen levenscyclus. Met andere woorden ze worden in de ontwerphulpmiddelen als onafhankelijke entiteiten gemaakt, als verwijzing genoemd, bijgewerkt en verwijderd.
 

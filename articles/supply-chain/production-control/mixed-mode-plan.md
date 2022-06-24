@@ -1,6 +1,6 @@
 ---
 title: 'Gemengde planmodus: combineer discrete sourcing, processourcing en lean sourcing'
-description: Dit onderwerp biedt informatie over de gemengde planmodus.
+description: Dit artikel biedt informatie over de gemengde planmodus.
 author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a199d5ac7633aba894ffbc17db015100ae93d895
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 186dcdca9d6db5ca16d84f084c66700ddfe8bb5d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566762"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857426"
 ---
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Gemengde planmodus: combineer discrete sourcing, processourcing en lean sourcing
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp biedt informatie over de gemengde planmodus. Bij de gemengde planmodus kunt u uw leveringsketen modelleren op basis van de materiaalstroom. Dynamics 365 Supply Chain Management zorgt ervoor dat de materiaalstroom uw modellen volgt, ongeacht het leveringsbeleid dat is geselecteerd (kanbans, productieorders, inkooporders, batchorders of overboekingsorders). 
+Dit artikel biedt informatie over de gemengde planmodus. Bij de gemengde planmodus kunt u uw leveringsketen modelleren op basis van de materiaalstroom. Dynamics 365 Supply Chain Management zorgt ervoor dat de materiaalstroom uw modellen volgt, ongeacht het leveringsbeleid dat is geselecteerd (kanbans, productieorders, inkooporders, batchorders of overboekingsorders). 
 
 U kunt uw algemene strategie voor productlevering selecteren, ongeacht de productstructuur.  
 

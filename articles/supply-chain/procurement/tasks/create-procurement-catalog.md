@@ -1,6 +1,6 @@
 ---
-title: Een inkoopcatalogus maken
-description: In dit onderwerp wordt uitgelegd hoe u een aanschaffingscatalogus maakt.
+title: Een aanschaffingscatalogus maken
+description: In dit artikel wordt uitgelegd hoe u een aanschaffingscatalogus maakt.
 author: GalynaFedorova
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e94f2ef23a3c4020f46138a10fcdf84552451515
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8e35e8c5b5c93fa9aac914f04e7ea658748cb052
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673861"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869541"
 ---
-# <a name="create-a-procurement-catalog"></a>Een inkoopcatalogus maken
+# <a name="create-a-procurement-catalog"></a>Een aanschaffingscatalogus maken
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u een aanschaffingscatalogus maakt. Deze taak wordt gewoonlijk uitgevoerd door een inkoopmedewerker. U komt ook te weten hoe werknemers de catalogus kunnen gebruiken wanneer zij een bestelopdracht maken. Voordat u een catalogus kunt maken, moet er een hiërarchie van aanschaffingscategorieën in uw systeem worden ingesteld. De hiërarchie wordt overgenomen door de nieuwe catalogus, samen met alle producten in de hiërarchie. U kunt deze handleiding in het demobedrijf USMF gebruiken waar de hiërarchie van aanschaffingscategorieën beschikbaar is, evenals de voorbeelden die zijn gebruikt in de procedurestappen.
+In dit artikel wordt uitgelegd hoe u een aanschaffingscatalogus maakt. Deze taak wordt gewoonlijk uitgevoerd door een inkoopmedewerker. U komt ook te weten hoe werknemers de catalogus kunnen gebruiken wanneer zij een bestelopdracht maken. Voordat u een catalogus kunt maken, moet er een hiërarchie van aanschaffingscategorieën in uw systeem worden ingesteld. De hiërarchie wordt overgenomen door de nieuwe catalogus, samen met alle producten in de hiërarchie. U kunt deze handleiding in het demobedrijf USMF gebruiken waar de hiërarchie van aanschaffingscategorieën beschikbaar is, evenals de voorbeelden die zijn gebruikt in de procedurestappen.
 
 
 ## <a name="ensure-that-a-procurement-category-hierarchy-exists"></a>Controleren of er een hiërarchie van aanschaffingscategorieën bestaat

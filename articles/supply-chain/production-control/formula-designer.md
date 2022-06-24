@@ -1,6 +1,6 @@
 ---
 title: Formuleontwerper
-description: In dit onderwerp wordt uitgelegd hoe u met de formuleontwerper formules kunt analyseren en beheren in een boomstructuur.
+description: In dit artikel wordt uitgelegd hoe u met de formuleontwerper formules kunt analyseren en beheren in een boomstructuur.
 author: johanhoffmann
 ms.date: 06/01/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf45fdf44e6d060ee16edf1a6628c5ffd9920dcb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 247f41b43030d392df67275e6e7db1bea5df1847
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566829"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849266"
 ---
 # <a name="formula-designer"></a>Formuleontwerper
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u met de formuleontwerper formules kunt analyseren en beheren in een boomstructuur.
+In dit artikel wordt uitgelegd hoe u met de formuleontwerper formules kunt analyseren en beheren in een boomstructuur.
 
 Bij het openen van de pagina **Formuleontwerper** via de pagina **Vrijgegeven producten** bevat de structuur in het linkerdeelvenster de lijst met coproducten en de hiërarchie van ingrediënten voor het vrijgegeven product. De structuur wordt afgeleid van de hiërarchie van formules die actief zijn en zijn goedgekeurd voor het geselecteerde artikel en de bijbehorende ingrediënten, de standaardorderlocatie van het artikel en de werkelijke datum.
 

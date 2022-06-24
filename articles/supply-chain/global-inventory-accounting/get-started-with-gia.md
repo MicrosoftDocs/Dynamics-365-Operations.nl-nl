@@ -1,6 +1,6 @@
 ---
 title: Aan de slag met Algemene voorraadboekhouding (Global Inventory Accounting)
-description: In dit onderwerp wordt beschreven hoe u aan de slag gaat met Algemene voorraadboekhouding.
+description: In dit artikel wordt beschreven hoe u aan de slag gaat met Algemene voorraadboekhouding.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 17d4816fc5fcad0b0665640a8347b1f4ea032dd7
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 493e0be8ab56abc2a3253876107b7f4fefabf4ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679438"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891084"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Aan de slag met Algemene voorraadboekhouding (Global Inventory Accounting)
 
@@ -38,12 +38,18 @@ Algemene voorraadboekhouding is een invoegtoepassing. Om de functies beschikbaar
 
 Algemene voorraadboekhouding ondersteunt momenteel niet alle kostenbeheerfuncties die in Supply Chain Management zijn ingebouwd. Het is daarom belangrijk dat u evalueert of de functieset die momenteel beschikbaar is, voldoet aan uw behoeften.
 
-## <a name="how-to-get-the-global-inventory-accounting-public-preview"></a><a name="sign-up"></a>Procedure voor het ophalen van de preview van Algemene voorraadboekhouding
+## <a name="how-to-get-the-global-inventory-accounting-add-in"></a><a name="sign-up"></a>Procedure voor het ophalen van de invoegtoepassing Algemene voorraadboekhouding
 
 > [!IMPORTANT]
 > Als u Algemene voorraadboekhouding wilt gebruiken, moet u een omgeving met hoge beschikbaarheid voor LCS hebben (niet in een OneBox-omgeving). Daarnaast moet u Supply Chain Management versie 10.0.19 of hoger uitvoeren.
 
-Als u zich wilt aanmelden voor de preview van Algemene voorraadboekhouding, verzendt u uw LCS-omgevings-id per e-mail naar het [team voor Algemene voorraadboekhouding](mailto:GlobalInvAccount@microsoft.com). Nadat u bent goedgekeurd voor het programma, verzendt het team u een opvolgings-e-mail met de bètasleutel voor Algemene voorraadboekhouding en uw service-eindpunten. Nadat u de bètasleutel hebt ontvangen, kunt u [de invoegtoepassing installeren](#install).
+### <a name="supply-chain-management-version-10019-to-10026"></a>Supply Chain Management versie 10.0.19 tot 10.0.26
+
+Als u Algemene voorraadboekhouding voor Supply Chain Management versie 10.0.19 tot en met 10.0.26 wilt installeren, [installeert u eerst de invoegtoepassing](#install). Verzend vervolgens uw LCS-omgevings-id en bedrijfsnaam per e-mail naar het [team voor Algemene voorraadboekhouding](mailto:GlobalInvAccount@microsoft.com). U ontvangt van het team een opvolgings-e-mail met uw service-eindpunten voor Algemene voorraadboekhouding.
+
+### <a name="supply-chain-management-version-10027-and-later"></a>Supply Chain Management versie 10.0.27 en hoger
+
+Als u Algemene voorraadboekhouding voor Supply Chain Management versie 10.0.27 en hoger wilt installeren, hoeft u alleen [de invoegtoepassing te installeren](#install). Voor deze versies van Supply Chain Management worden de service-eindpunten voor Algemene voorraadboekhouding automatisch ingesteld, zodat u deze niet handmatig hoeft te vinden. Als er tijdens het instellen van de invoegtoepassing wel problemen zijn, kunt u contact opnemen met het [team van Algemene voorraadboekhouding](mailto:GlobalInvAccount@microsoft.com).
 
 ## <a name="licensing"></a>Licenties
 
@@ -98,12 +104,7 @@ Als de standaardtaal van uw Dataverse-installatie niet Engels is, volgt u deze s
 
 Voer deze stappen uit om de invoegtoepassing te installeren zodat u Algemene voorraadboekhouding kunt gebruiken.
 
-1. [Registreer u](#sign-up) voor de preview van Algemene voorraadboekhouding.
 1. Meld u aan bij [LCS](https://lcs.dynamics.com/Logon/Index).
-1. Ga naar **Beheer van previewfuncties**.
-1. Selecteer het plusteken (**+**).
-1. Voer in het veld **Code** uw bètasleutel voor de invoegtoepassing Algemene voorraadboekhouding in. (U zou uw bètasleutel per e-mail moeten hebben ontvangen toen u zich registreerde.)
-1. Selecteer **Deblokkeren**.
 1. Open de LCS-omgeving waar u de service wilt toevoegen.
 1. Ga naar **Volledige details**.
 1. Ga naar **Power Platform-integratie** en selecteer **Instelling**.
@@ -124,6 +125,8 @@ Volg deze stappen om de integratie in te stellen tussen Global Inventory Account
 1. Zoek op het tabblad **Alle** naar de functie genaamd *(Preview) Algemene voorraadboekhouding*.
 1. Selecteer **Nu inschakelen**.
 1. Ga naar voor **Algemene voorraadboekhouding \> Instellen \> Parameters algemene voorraadboekhouding \> Integratieparameters**.
-1. In de velden **Dataservice-eindpunt** en **Eindpunt voor algemene voorraadboekhouding** voert u de URL's in uit de e-mail die het team van Global Inventory Accounting heeft verzonden toen u zich hebt geregistreerd voor de preview.
+1. Ga als volgt te werk, afhankelijk van welke versie van Supply Chain Management wordt uitgevoerd:
+    - **Supply Chain Management versie 10.0.19 tot en met 10.0.26**: voer in de velden **Eindpunt gegevensservice** en **Eindpunt van algemene voorraadboekhouding** de URL's in die per e-mail naar u zijn verzonden vanuit het team voor Algemene voorraadboekhouding (zie ook [Procedure voor het ophalen van de invoegtoepassing Algemene voorraadboekhouding](#sign-up)).
+    - **Supply Chain Management versie 10.0.27 en nieuwer**: u hoeft de eindpunten niet in te voeren, dus u kunt deze stap overslaan.
 
 Global Inventory Accounting is nu klaar voor gebruik.

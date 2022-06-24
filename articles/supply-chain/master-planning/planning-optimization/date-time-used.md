@@ -1,6 +1,6 @@
 ---
 title: Parameters voor datum en tijd die door Planningsoptimalisatie worden gebruikt
-description: Dit onderwerp biedt informatie over de parameters voor datum en tijd die tijdens de bewerking door Planningsoptimalisatie worden gebruikt .
+description: Dit artikel biedt informatie over de parameters voor datum en tijd die tijdens de bewerking door Planningsoptimalisatie worden gebruikt .
 author: t-benebo
 ms.date: 09/21/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 0708404f286253449e0400fc65680e903f6d1e9b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 807834bf5cd062ed24e5e3f3512d8389717a2d39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468827"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885894"
 ---
 # <a name="date-and-time-parameters-used-by-planning-optimization"></a>Parameters voor datum en tijd die door Planningsoptimalisatie worden gebruikt
 
 [!include [banner](../../includes/banner.md)]
 
-Dit onderwerp biedt informatie over de parameters voor datum en tijd die tijdens de bewerking door Planningsoptimalisatie worden gebruikt .
+Dit artikel biedt informatie over de parameters voor datum en tijd die tijdens de bewerking door Planningsoptimalisatie worden gebruikt .
 
 Terwijl in de ingebouwde hoofdplanningsengine transactiedatums in alle berekeningen gebruikt, werkt Planningsoptimalisatie met datum- en tijdwaarden die naar datums zijn geconverteerd. Dit verschil in gedrag kan leiden tot situaties waarin bijvoorbeeld prognosetransacties die zijn gemaakt om middernacht op de dag waarop de hoofdplanning wordt uitgevoerd, niet zijn opgenomen, omdat Planningsoptimalisatie er rekening mee houdt dat ze vóór de huidige datum zijn gemaakt.
 

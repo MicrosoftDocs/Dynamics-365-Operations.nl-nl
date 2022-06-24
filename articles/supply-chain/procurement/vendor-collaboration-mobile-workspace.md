@@ -1,6 +1,6 @@
 ---
 title: Mobiel werkgebied Leverancierssamenwerking
-description: In dit onderwerp vindt u informatie over het mobiele werkgebied Leverancierssamenwerking. Met dit werkgebied kunnen uw leveranciers op de hoogte blijven van de inkooporders die aan hen zijn verzonden voor goedkeuring. Ze zien hier ook informatie over nieuwe en bijgewerkte inkooporders en contactpersonen.
+description: In dit artikel vindt u informatie over het mobiele werkgebied Leverancierssamenwerking. Met dit werkgebied kunnen uw leveranciers op de hoogte blijven van de inkooporders die aan hen zijn verzonden voor goedkeuring. Ze zien hier ook informatie over nieuwe en bijgewerkte inkooporders en contactpersonen.
 author: GalynaFedorova
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: global
 ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 97352ca89cef77b9320f17af5a1dbe6a00df2dd6
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 591d4269a1188ed8f098a342729ba49b9772f42d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811709"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851647"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Mobiel werkgebied Leverancierssamenwerking
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-In dit onderwerp vindt u informatie over het mobiele werkgebied **Leverancierssamenwerking**. Met dit werkgebied kunnen uw leveranciers op de hoogte blijven van de inkooporders die aan hen zijn verzonden voor goedkeuring. Ze zien hier ook informatie over nieuwe en bijgewerkte inkooporders en contactpersonen.
+In dit artikel vindt u informatie over het mobiele werkgebied **Leverancierssamenwerking**. Met dit werkgebied kunnen uw leveranciers op de hoogte blijven van de inkooporders die aan hen zijn verzonden voor goedkeuring. Ze zien hier ook informatie over nieuwe en bijgewerkte inkooporders en contactpersonen.
 
 Dit mobiele werkgebied is bedoeld om te worden gebruikt met de mobiele app van Finance and Operations (Dynamics 365).
 
@@ -97,7 +97,7 @@ Als Microsoft Dynamics 365 for Operations versie 1611, met platformupdate 3 of h
 </tr>
 <tr class="even">
 <td>De leveranciersgebruiker moet toegang hebben tot de webinterface voor leverancierssamenwerking in de webclient en een gebruiker voor leverancierssamenwerking instellen.</td><td>Inkopers en de systeembeheerder</td>
-<td>Volg de stappen in de volgende onderwerpen om de webinterface voor leverancierssamenwerking in te stellen en ermee te werken.
+<td>Volg de stappen in de volgende artikelen om de webinterface voor leverancierssamenwerking in te stellen en ermee te werken.
 <ul>
 <li><a href="vendor-collaboration-work-external-vendors.md">Leverancierssamenwerking voor het werken met externe leveranciers</a></li>
 <li><a href="manage-vendor-collaboration-users.md">Gebruikers van leverancierssamenwerking beheren</a></li>

@@ -1,6 +1,6 @@
 ---
 title: Een standaardklant maken
-description: In dit onderwerp wordt beschreven hoe u een standaardklant kunt maken die u kunt gebruiken wanneer u een kanaal maakt in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt beschreven hoe u een standaardklant kunt maken die u kunt gebruiken wanneer u een kanaal maakt in Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ff9e5665ffd82982e09f63e34b30ae6937666231855587ad2f27c5231ead8419
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b4658356e268d045fcb7065b397411ffc5161864
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720954"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894524"
 ---
 # <a name="create-a-default-customer"></a>Een standaardklant maken
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u een standaardklant kunt maken die u kunt gebruiken wanneer u een kanaal maakt in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt beschreven hoe u een standaardklant kunt maken die u kunt gebruiken wanneer u een kanaal maakt in Microsoft Dynamics 365 Commerce.
 
 Wanneer u een kanaal maakt, moet u een standaardklant opgeven. U kunt eenvoudig een standaardklant maken nadat u eerst de klantgroep en het adresboek van de klant hebt gemaakt.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: b265c0d5cb43e151386fe90e3a3dea414ec0aca6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5eb18ce29cbd1434b2a766c2ba5d78ed1be4e72b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579899"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851241"
 ---
 # <a name="wave-template-grouping"></a>Wave-sjabloongroepering
 
@@ -41,7 +41,7 @@ Voordat u de functie *Wave-sjabloongroepering* kunt gebruiken, moet deze zijn in
 Voer de volgende stappen uit om uw [wave-sjabloon in te stellen](tasks/configure-wave-processing.md) om wave-sjabloongroepering beschikbaar te maken.
 
 1. Ga naar **Magazijnbeheer \> Instellen \> Waves \> Wavesjablonen**.
-1. Selecteer in het linkerdeelvenster de wave-sjabloon die u wilt instellen. Als u het scenario later in dit onderwerp wilt doorlopen met behulp van voorbeeldgegevens, selecteert u de sjabloon **62 Shipping default**.
+1. Selecteer in het linkerdeelvenster de wave-sjabloon die u wilt instellen. Als u het scenario later in dit artikel wilt doorlopen met behulp van voorbeeldgegevens, selecteert u de sjabloon **62 Shipping default**.
 1. Selecteer de optie **Bewerken** om de pagina in de bewerkingsmodus te openen.
 1. Stel op het sneltabblad **Algemeen** de volgende waarden in:
 
@@ -84,7 +84,7 @@ U kunt dit scenario ook gebruiken als instructie voor het gebruik van deze funct
 
 In dit scenario ziet u hoe u met wave-sjabloongroepering automatisch meerdere waves maakt op basis van groeperingscriteria die zijn gedefinieerd in een wave-sjabloon. In dit scenario wordt de wave-sjabloon geconfigureerd in het systeem om één wave per vervoerdersservice te maken.
 
-Voordat u begint, moet u de wave-sjabloon voorbereiden zoals beschreven in de sectie [Een wave-sjabloon instellen voor gebruik met wave-sjabloongroepering](#set-up-template) eerder in dit onderwerp. Als u voor dit scenario met demogegevens gaat werken, moet u ervoor zorgen dat u de voorbeeldgegevenswaarden gebruikt die in die procedure worden voorgesteld. Met deze configuratie worden de waves gegroepeerd op basis van de vervoerdersservice die voor elke verkooporder is ingesteld.
+Voordat u begint, moet u de wave-sjabloon voorbereiden zoals beschreven in de sectie [Een wave-sjabloon instellen voor gebruik met wave-sjabloongroepering](#set-up-template) eerder in dit artikel. Als u voor dit scenario met demogegevens gaat werken, moet u ervoor zorgen dat u de voorbeeldgegevenswaarden gebruikt die in die procedure worden voorgesteld. Met deze configuratie worden de waves gegroepeerd op basis van de vervoerdersservice die voor elke verkooporder is ingesteld.
 
 #### <a name="create-sales-order-1"></a>Verkooporder 1 maken
 

@@ -1,6 +1,6 @@
 ---
 title: Productieplanning
-description: In dit onderwerp wordt de planning voor de productie beschreven en wordt uitgelegd hoe u geplande productieorders wijzigt met behulp van Planningsoptimalisatie.
+description: In dit artikel wordt de planning voor de productie beschreven en wordt uitgelegd hoe u geplande productieorders wijzigt met behulp van Planningsoptimalisatie.
 author: t-benebo
 ms.date: 06/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 8f23cb62512dfd718fe199867a4b21aaa0eca3fd
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 151aa3688c570ea6ec282c297ed18288dd886131
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469053"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873777"
 ---
 # <a name="production-planning"></a>Productieplanning
 
@@ -24,11 +24,11 @@ ms.locfileid: "8469053"
 
 Tijdens Planningsoptimalisaties worden verschillende productiescenario's ondersteund. Als u migreert van de bestaande, ingebouwde hoofdplanningsengine, is het belangrijk dat u zich realiseert dat bepaalde zaken gewijzigd zijn.
 
-De volgende video geeft een korte inleiding op enkele van de concepten die in dit onderwerp worden besproken: [Dynamics 365 Supply Chain Management: verbeteringen in planningsoptimalisatie](https://youtu.be/u1pcmZuZBTw).
+De volgende video geeft een korte inleiding op enkele van de concepten die in dit artikel worden besproken: [Dynamics 365 Supply Chain Management: verbeteringen in planningsoptimalisatie](https://youtu.be/u1pcmZuZBTw).
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Deze functie inschakelen voor uw systeem
 
-Als de functies die in dit onderwerp worden beschreven, nog niet in het systeem aanwezig zijn, gaat u naar [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de functie *Geplande productieorders voor Planningsoptimalisatie* in.
+Als de functies die in dit artikel worden beschreven, nog niet in het systeem aanwezig zijn, gaat u naar [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de functie *Geplande productieorders voor Planningsoptimalisatie* in.
 
 ## <a name="planned-production-orders"></a>Geplande productieorders
 
@@ -65,7 +65,7 @@ Als u informatie over een geplande order wilt wijzigen en de gevolgen ervan op d
 2. Keur de geplande order goed.
 3. Voer de hoofdplanning uit.
 
-Wanneer u de hoofdplanning uitvoert, moet u geen filters gebruiken als geplande productieorders worden opgenomen. Zie de sectie [Filters](#filters), verderop in dit onderwerp voor meer informatie.
+Wanneer u de hoofdplanning uitvoert, moet u geen filters gebruiken als geplande productieorders worden opgenomen. Zie de sectie [Filters](#filters), verderop in dit artikel voor meer informatie.
 
 > [!NOTE]
 > Als de leveringsdatum van de geplande order wordt gewijzigd in een latere datum, kan de vraag worden getraceerd voor een nieuwe geplande order. Dit gedrag treedt op wanneer de nieuwe leveringsdatum een vertraging veroorzaakt voor de getraceerde vraag, maar deze vertraging kan worden voorkomen volgens de doorlooptijdinstellingen.

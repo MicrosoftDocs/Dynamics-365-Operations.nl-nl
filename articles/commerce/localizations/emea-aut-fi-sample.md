@@ -1,6 +1,6 @@
 ---
 title: Voorbeeld van integratie van fiscale registratieservice voor Oostenrijk
-description: Dit onderwerp biedt een overzicht van het fiscale integratievoorbeeld voor Oostenrijk in Microsoft Dynamics 365 Commerce.
+description: Dit artikel biedt een overzicht van het fiscale integratievoorbeeld voor Oostenrijk in Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 826c1cb0fba7025b16dadbfa6157683392945103
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 099c3630d035ea673342d8345cd8f65dbd6db6a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614146"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873353"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-austria"></a>Voorbeeld van integratie van fiscale registratieservice voor Oostenrijk
 
 [!include[banner](../includes/banner.md)]
 
-Dit onderwerp biedt een overzicht van het fiscale integratievoorbeeld voor Oostenrijk in Microsoft Dynamics 365 Commerce.
+Dit artikel biedt een overzicht van het fiscale integratievoorbeeld voor Oostenrijk in Microsoft Dynamics 365 Commerce.
 
 Als u wilt voldoen aan de lokale fiscale vereisten voor kassa's in Oostenrijk, omvat de Dynamics 365 Retail-functionaliteit voor Oostenrijk een voorbeeldintegratie van het POS (point-of-sale) met een externe fiscale registratieservice. In het voorbeeld wordt de [functionaliteit voor fiscale integratie](fiscal-integration-for-retail-channel.md) uitgebreid. Het is gebaseerd op de [EFR-oplossing (Electronic Fiscal Register)](https://www.efsta.eu/at/fiskalloesungen/oesterreich) van [EFSTA](https://www.efsta.eu/at/) en maakt communicatie met de EFR-service via het HTTPS-protocol mogelijk. De EFR-service moet worden gehost op het retailhardwarestation of op een afzonderlijke machine waarmee verbinding kan worden gemaakt vanuit het hardwarestation. Het voorbeeld wordt geleverd in de vorm van broncode en maakt deel uit van de Retail Software Development Kit (SDK).
 

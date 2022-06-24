@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cb13124bb086b3240a41278aac067775663c6ac
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 43d74135f8a18cddcb86f719d4c5ecd6a532cc82
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678173"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878753"
 ---
 #  <a name="dispatch-board"></a>Verzendbord 
 
@@ -38,7 +38,7 @@ Verzendbord een is de centrale locatie waarvan u de status van activiteiten in e
 
   - De lijst met serviceactviteiten, die nog niet zijn verzonden, evalueren.
 
-Voor informatie over hoe specifieke taken in een verzendbord uit te voeren, zie de onderwerpen in de sectie **Zie ook**.
+Zie de artikelen in de sectie **Zie ook** voor informatie over hoe specifieke taken in een verzendbord moeten worden uitgevoerd.
 
 ## <a name="see-also"></a>Zie ook
 

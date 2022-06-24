@@ -1,6 +1,6 @@
 ---
-title: Een aankomstoverzichtsprofiel instellen voor een artikel
-description: Dit onderwerp is gericht op de instelling van een profiel van aankomstoverzicht.
+title: Een ontvangstoverzichtsprofiel instellen voor een artikel
+description: Dit artikel is gericht op de instelling van een profiel van aankomstoverzicht.
 author: yufeihuang
 ms.date: 07/30/2019
 ms.topic: business-process
@@ -15,18 +15,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9a98c84c0dcc86e58b74f53a9061c4a0518ecbf
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 8517710f5d0be1859f86449152712d950281769a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964801"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872002"
 ---
-# <a name="set-up-an-item-arrival-overview-profile"></a>Een aankomstoverzichtsprofiel instellen voor een artikel
+# <a name="set-up-an-item-arrival-overview-profile"></a>Een ontvangstoverzichtsprofiel instellen voor een artikel
 
 [!include [banner](../../includes/banner.md)]
 
-Dit onderwerp is gericht op de instelling van een profiel van aankomstoverzicht. Het profiel van aankomstoverzicht is een verzameling regels die wordt toegepast wanneer de aankomstoverzichtspagina door een gebruiker wordt geopend. U kunt deze procedure gebruiken in het demobedrijf USMF. Deze procedure wordt meestal uitgevoerd door een ontvangstadministrateur.
+Dit artikel is gericht op de instelling van een profiel van aankomstoverzicht. Het profiel van aankomstoverzicht is een verzameling regels die wordt toegepast wanneer de aankomstoverzichtspagina door een gebruiker wordt geopend. U kunt deze procedure gebruiken in het demobedrijf USMF. Deze procedure wordt meestal uitgevoerd door een ontvangstadministrateur.
 
 1. Ga in het navigatievenster naar **Modules > Voorraadbeheer > Instellingen > Distributie > Aankomstoverzichtsprofielen**.
 2. Selecteer **Nieuw**. Omdat u bijna altijd in hetzelfde magazijn zult werken waar volledige vrachtwagenladingen worden gelost, kunt u het beste een aankomstoverzichtsprofiel maken om het proces van het registreren van ontvangen artikelen te vereenvoudigen.  

@@ -1,6 +1,6 @@
 ---
 title: Randschaaleenheden implementeren op aangepaste hardware met LBD
-description: In dit onderwerp wordt uitgelegd hoe u on-premises randschaaleenheden inricht door aangepaste hardware en implementatie te gebruiken die is gebaseerd op lokale bedrijfsgegevens (LBD).
+description: In dit artikel wordt uitgelegd hoe u on-premises randschaaleenheden inricht door aangepaste hardware en implementatie te gebruiken die is gebaseerd op lokale bedrijfsgegevens (LBD).
 author: Mirzaab
 ms.date: 01/24/2022
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 540ac1f6d69d869256f49b8501e18966575903fa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 794de8c0d77949789e4046418ac2b55dba1bee02
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674081"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882745"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>Randschaaleenheden implementeren op aangepaste hardware met LBD
 
@@ -27,7 +27,7 @@ Randschaaleenheden spelen een belangrijke rol in de gedistribueerde hybride topo
 
 De randschaaleenheden kunnen worden geïmplementeerd door een lokale bedrijfsomgeving (LBD) [on-premises-omgeving](../../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md) te maken en deze vervolgens te configureren om als een schaaleenheid te fungeren in uw gedistribueerde hybride topologie voor Supply Chain Management. Dit wordt bereikt door de on-premises LBD-omgeving aan een Supply Chain Management-omgeving te koppelen in de cloud die is configureerd om als hub te fungeren.  
 
-In dit onderwerp wordt beschreven hoe u een on-premises LBD-omgeving instelt als een randschaaleenheid en deze vervolgens koppelt aan een hub.
+In dit artikel wordt beschreven hoe u een on-premises LBD-omgeving instelt als een randschaaleenheid en deze vervolgens koppelt aan een hub.
 
 ## <a name="infrastructure-considerations"></a>Infrastructuuroverwegingen
 
@@ -44,21 +44,21 @@ Hier is een overzicht van de implementatiestappen.
 
 1. **Stel een LBD-omgeving in en implementeer deze met een *lege* database**
 
-    Gebruik LCS om de LBD-omgeving te implementeren met de nieuwste topologie en een lege database. Zie de sectie [LBD-omgeving instellen en implementeren met een lege database](#set-up-deploy) verderop in dit onderwerp voor meer informatie. U moet Supply Chain Management versie 10.0.21 of hoger gebruiken in de hub- en schaaleenheidsomgevingen.
+    Gebruik LCS om de LBD-omgeving te implementeren met de nieuwste topologie en een lege database. Zie de sectie [LBD-omgeving instellen en implementeren met een lege database](#set-up-deploy) verderop in dit artikel voor meer informatie. U moet Supply Chain Management versie 10.0.21 of hoger gebruiken in de hub- en schaaleenheidsomgevingen.
 
 1. **Doelpakketten uploaden naar LBD-projectactiva in LCS.**
 
-    Toepassings-, platform- en aanpassingspakketten voorbereiden die u in de hub- en randschaaleenheid gebruikt. Zie de sectie [Doelpakketten uploaden naar LBD-projectactiva in LCS](#upload-packages) verderop in dit onderwerp voor meer informatie.
+    Toepassings-, platform- en aanpassingspakketten voorbereiden die u in de hub- en randschaaleenheid gebruikt. Zie de sectie [Doelpakketten uploaden naar LBD-projectactiva in LCS](#upload-packages) verderop in dit artikel voor meer informatie.
 
 1. **De LBD-omgeving onderhouden met de doelpakketten.**
 
-    Via deze stap zorgt u ervoor dat dezelfde build en aanpassingen worden geïmplementeerd in de hub en de spoke. Zie de sectie [De LBD-omgeving onderhouden met doelpakketten](#service-target-packages) verderop in dit onderwerp voor meer informatie.
+    Via deze stap zorgt u ervoor dat dezelfde build en aanpassingen worden geïmplementeerd in de hub en de spoke. Zie de sectie [De LBD-omgeving onderhouden met doelpakketten](#service-target-packages) verderop in dit artikel voor meer informatie.
 
 1. **Voltooi de configuratie van de schaaleenheid en de toewijzing van de werkbelasting.**
 
-    Zie de sectie [Uw LBD-randschaaleenheid toewijzen aan een hub](#assign-edge-to-hub) verderop in dit onderwerp voor meer informatie.
+    Zie de sectie [Uw LBD-randschaaleenheid toewijzen aan een hub](#assign-edge-to-hub) verderop in dit artikel voor meer informatie.
 
-In de overige secties van dit onderwerp vindt u meer informatie over hoe u deze stappen uitvoert.
+In de overige secties van dit artikel vindt u meer informatie over hoe u deze stappen uitvoert.
 
 ## <a name="set-up-and-deploy-an-lbd-environment-with-an-empty-database"></a><a name="set-up-deploy"></a>Een LBD-omgeving instellen en implementeren met een lege database
 
@@ -67,7 +67,7 @@ Via deze stap maakt u een functionele LBD-omgeving. De omgeving heeft echter nie
 1. Volg de instructies in [On-premises omgevingen instellen en implementeren (Platform update 41 en hoger)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). U moet Supply Chain Management versie 10.0.21 of hoger gebruiken in de hub- en schaaleenheidsomgevingen. Daarnaast moet u versie 2.12.0 of hoger van de infrastructuurscripts gebruiken. 
 
     > [!IMPORTANT]
-    > Lees het resterende deel van deze sectie **voordat** u de stappen in dat onderwerp uitvoert.
+    > Lees het resterende deel van deze sectie **voordat** u de stappen in dat artikel uitvoert.
 
 1. Voer het volgende script uit voordat u uw configuratie in het infrastructuurbestand\\ConfigTemplate.xml beschrijft:
 

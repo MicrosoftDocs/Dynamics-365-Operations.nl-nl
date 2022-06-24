@@ -1,6 +1,6 @@
 ---
 title: Handleiding voor lokalisatie van Dynamics 365 Commerce e-commerce
-description: In dit onderwerp wordt beschreven hoe u een Microsoft Dynamics 365 Commerce e-commercesite in extra talen kunt lokaliseren en de site kunt configureren om meerdere kanalen te ondersteunen.
+description: In dit artikel wordt beschreven hoe u een Microsoft Dynamics 365 Commerce e-commercesite in extra talen kunt lokaliseren en de site kunt configureren om meerdere kanalen te ondersteunen.
 author: bicyclingfool
 ms.date: 04/29/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1e9d91036ceeb9161dc8ee903532b2cf3ca435e2
-ms.sourcegitcommit: 26c726bd0b00935e3d2c31fdc5a3b2ae03a8a2b0
+ms.openlocfilehash: 955a85340f6d35f1e203d74920d07b5dc6ff8654
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661523"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873379"
 ---
 # <a name="dynamics-365-commerce-e-commerce-localization-guide"></a>Handleiding voor lokalisatie van Dynamics 365 Commerce e-commerce
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u een Microsoft Dynamics 365 Commerce e-commercesite in extra talen kunt vertalen en de site kunt configureren voor ondersteuning van meerdere kanalen. Daarnaast worden de concepten en terminologie met betrekking tot het proces beschreven.
+In dit artikel wordt beschreven hoe u een Microsoft Dynamics 365 Commerce e-commercesite in extra talen kunt vertalen en de site kunt configureren voor ondersteuning van meerdere kanalen. Daarnaast worden de concepten en terminologie met betrekking tot het proces beschreven.
 
 De e-commercemogelijkheden in Dynamics 365 Commerce zijn ontworpen met het oog op online-ervaringen die kunnen worden aangepast aan bepaalde landen/regio's en talen, terwijl sjablonen, pagina's, inhoud en media tegelijkertijd maximaal kunnen worden hergebruikt. U kunt ook een basissite maken en deze vervolgens uitbreiden naar nieuwe markten door in de loop der tijd ondersteuning voor extra landen/regio's en talen toe te voegen.
 
@@ -79,7 +79,7 @@ In deze configuratie ontwikkelen klanten en partners meestal alle onderdelen die
 ![Standaard e-commercesite van Dynamics 365 Commerce](media/loc-guide-1.png)
 
 > [!NOTE]
-> U kunt de Fabrikam-demosite voor een extra taal configureren zodat de inhoud in die taal kan worden ontwikkeld. Zie het onderdeel [Een extra taal configureren voor uw site](#configure-an-additional-language-for-your-site) verderop in dit onderwerp voor informatie over het toevoegen van een nieuwe taal aan een site en kanaal.
+> U kunt de Fabrikam-demosite voor een extra taal configureren zodat de inhoud in die taal kan worden ontwikkeld. Zie het onderdeel [Een extra taal configureren voor uw site](#configure-an-additional-language-for-your-site) verderop in dit artikel voor informatie over het toevoegen van een nieuwe taal aan een site en kanaal.
 
 Het contentmanagementsysteem (CMS) en het paginamodel voor de Dynamics 365 Commerce e-commercesites zijn echter ontworpen om uitbreiding naar nieuwe markten en landinstellingen mogelijk te maken. Daarom kunt u via één e-commercesite de onderdelen beheren voor een online winkel die meerdere markten en talen omvat.
 
@@ -117,7 +117,7 @@ Voer de volgende stappen uit om een taal toe te voegen aan een kanaal in Site bu
 
 Wanneer u teruggaat naar de weergave **Pagina's** in Commerce Site Builder, is de nieuwe taal beschikbaar in het kanaal en de kiezer voor landinstellingen rechtsboven. U kunt nu lokale versies van pagina's maken in uw basistaal.
 
-Het proces voor het lokaliseren van de inhoud van uw pagina's en fragmenten wordt besproken in de sectie [Inhoud van e-commercesite lokaliseren](#localize-e-commerce-site-content) later in dit onderwerp.
+Het proces voor het lokaliseren van de inhoud van uw pagina's en fragmenten wordt besproken in de sectie [Inhoud van e-commercesite lokaliseren](#localize-e-commerce-site-content) later in dit artikel.
 
 ### <a name="configure-a-new-channel-for-your-site"></a>Een nieuw kanaal configureren voor uw site
 
@@ -156,7 +156,7 @@ De volgende onderdelen voor de e-commercesites kunnen worden gelokaliseerd in Si
 
 Alle nieuwe pagina's, fragmenten en mediaonderdelen worden gemaakt in de context van het kanaal en de taal die momenteel zijn geselecteerd in de kiezer voor kanaal en landinstellingen. Deze taal is meestal uw basistaal, mits u nog geen extra talen of kanalen hebt geconfigureerd. Op sites waar meerdere kanalen en talen zijn geconfigureerd, wordt de 'basistaal' gedefinieerd door het kanaal en de landinstelling die u als standaardinstelling hebt ingesteld op de pagina **Kanalen** in site-instellingen.
 
-De stappen voor het lokaliseren van inhoud voor pagina's, fragmenten en mediaonderdelen zijn vergelijkbaar. Uitzonderingen en verschillen worden aangegeven in de secties die daarop volgen. De stappen voor het lokaliseren van de inhoud van de module verschillen echter. Zie de sectie [Modules lokaliseren](#localize-modules), verderop in dit onderwerp voor meer informatie.
+De stappen voor het lokaliseren van inhoud voor pagina's, fragmenten en mediaonderdelen zijn vergelijkbaar. Uitzonderingen en verschillen worden aangegeven in de secties die daarop volgen. De stappen voor het lokaliseren van de inhoud van de module verschillen echter. Zie de sectie [Modules lokaliseren](#localize-modules), verderop in dit artikel voor meer informatie.
 
 #### <a name="step-1-export-an-xliff-file"></a>Stap 1: Een XLIFF-bestand exporteren
 

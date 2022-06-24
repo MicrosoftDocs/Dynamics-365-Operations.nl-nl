@@ -1,6 +1,6 @@
 ---
 title: Voorbeeldscenario's van cyclustelling
-description: Dit onderwerp biedt een verzameling scenario's waarin de functies voor cyclustelling van Microsoft Dynamics 365 Supply Chain Management onder de loep worden genomen.
+description: Dit artikel biedt een verzameling scenario's waarin de functies voor cyclustelling van Microsoft Dynamics 365 Supply Chain Management onder de loep worden genomen.
 author: GalynaFedorova
 ms.date: 06/08/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 60be945035570634c572baaa37ae0d02e41dd0be
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 90a3f132a96081b56ab60f5b0ba5cc328b820879
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674696"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899319"
 ---
 # <a name="cycle-counting-example-scenarios"></a>Voorbeeldscenario's van cyclustelling
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp biedt een verzameling scenario's waarin de functies voor cyclustelling van Microsoft Dynamics 365 Supply Chain Management onder de loep worden genomen. Eerst worden de vereisten voor uw bestaande Supply Chain Management-omgeving beschreven. Vervolgens wordt uitgelegd hoe u de cyclustelling kunt configureren en worden alle fasen voor de cyclustelling beschreven. Wanneer u klaar bent, moet u een goed inzicht hebben in cyclustelling, waaronder begeleide cyclustelling, blinde cyclustelling, plaatscyclustelling, drempels voor cyclustellingen en cyclustelplannen.
+Dit artikel biedt een verzameling scenario's waarin de functies voor cyclustelling van Microsoft Dynamics 365 Supply Chain Management onder de loep worden genomen. Eerst worden de vereisten voor uw bestaande Supply Chain Management-omgeving beschreven. Vervolgens wordt uitgelegd hoe u de cyclustelling kunt configureren en worden alle fasen voor de cyclustelling beschreven. Wanneer u klaar bent, moet u een goed inzicht hebben in cyclustelling, waaronder begeleide cyclustelling, blinde cyclustelling, plaatscyclustelling, drempels voor cyclustellingen en cyclustelplannen.
 
 ## <a name="prerequisites"></a>Vereisten
 
 ### <a name="make-demo-data-available"></a>Demogegevens beschikbaar maken
 
-Elk scenario in dit onderwerp verwijst naar waarden en records die zijn opgenomen in de standaarddemogegevens die voor Supply Chain Management worden geleverd. Als u de waarden wilt gebruiken die hier worden weergegeven wanneer u de scenario's doorloopt, moet u controleren of u werkt in een omgeving waarin de demogegevens zijn geïnstalleerd en stelt u de rechtspersoon in op **USMF** voordat u begint.
+Elk scenario in dit artikel verwijst naar waarden en records die zijn opgenomen in de standaarddemogegevens die voor Supply Chain Management worden geleverd. Als u de waarden wilt gebruiken die hier worden weergegeven wanneer u de scenario's doorloopt, moet u controleren of u werkt in een omgeving waarin de demogegevens zijn geïnstalleerd en stelt u de rechtspersoon in op **USMF** voordat u begint.
 
 ### <a name="turn-on-support-for-the-warehouse-management-mobile-app"></a>Ondersteuning voor de mobiele app Warehouse Management inschakelen
 
@@ -158,7 +158,7 @@ Volg deze stappen om cyclustellingswerkzaamheden te maken voor artikellocatie *0
 
 Nadat u het cyclustellingswerk hebt gemaakt, kunt u het werk uitvoeren door artikelen in een magazijnlocatie te tellen en vervolgens het resultaat via een mobiel apparaat in Supply Chain Management in te voeren. Volg deze stappen om het werk voor de cyclustelling uit te voeren in de mobiele app Warehouse Management.
 
-1. Meld u aan bij de mobiele app Warehouse Management als de werkgebruiker die u hebt ingesteld in de sectie [Demogegevens voorbereiden voor de scenario's](#prepare-demo-data) eerder in dit onderwerp. In het voorbeeld in dit onderwerp heeft de gebruiker de naam *Julia Funderburk* en is ingesteld voor magazijn *61*. (Met de demonstratiegegevens van USMF moet u zich aanmelden als deze werkgebruiker door *61* in te voeren als gebruikers-id en *1* als wachtwoord.)
+1. Meld u aan bij de mobiele app Warehouse Management als de werkgebruiker die u hebt ingesteld in de sectie [Demogegevens voorbereiden voor de scenario's](#prepare-demo-data) eerder in dit artikel. In het voorbeeld in dit artikel heeft de gebruiker de naam *Julia Funderburk* en is deze ingesteld voor magazijn *61*. (Met de demonstratiegegevens van USMF moet u zich aanmelden als deze werkgebruiker door *61* in te voeren als gebruikers-id en *1* als wachtwoord.)
 1. Selecteer **Voorraad** in het hoofdmenu.
 1. Selecteer **Cyclustelling Begeleid** in het menu **Voorraad**.
 1. Selecteer het veld **Hoev.**, voer *9* in met behulp van het numerieke blok en selecteer vervolgens **OK** (de vinkjesknop).
@@ -227,7 +227,7 @@ Voordat een blinde cyclustelling kan plaatsvinden, moet u enkele werkzaamheden m
 
 Nadat u het cyclustellingswerk hebt gemaakt, volgt u deze stappen om het werk uit te voeren in de mobiele app Warehouse Management.
 
-1. Meld u aan bij de mobiele app Warehouse Management als de werkgebruiker die u hebt ingesteld in de sectie [Demogegevens voorbereiden voor de scenario's](#prepare-demo-data) eerder in dit onderwerp. In het voorbeeld in dit onderwerp heeft de gebruiker de naam *Julia Funderburk* en is ingesteld voor magazijn *61*. (Met de demonstratiegegevens van USMF moet u zich aanmelden als deze werkgebruiker door *61* in te voeren als gebruikers-id en *1* als wachtwoord.)
+1. Meld u aan bij de mobiele app Warehouse Management als de werkgebruiker die u hebt ingesteld in de sectie [Demogegevens voorbereiden voor de scenario's](#prepare-demo-data) eerder in dit artikel. In het voorbeeld in dit artikel heeft de gebruiker de naam *Julia Funderburk* en is deze ingesteld voor magazijn *61*. (Met de demonstratiegegevens van USMF moet u zich aanmelden als deze werkgebruiker door *61* in te voeren als gebruikers-id en *1* als wachtwoord.)
 1. Selecteer **Voorraad** in het hoofdmenu.
 1. Selecteer **Cyclustelling Blind** in het menu **Voorraad**.
 1. Selecteer het veld **Zone-id**, voer *BULK06* in en selecteer **OK** (de vinkjesknop).
@@ -259,7 +259,7 @@ In de voorhanden-record staat dat er een voorhanden hoeveelheid is van artikel *
 
 Volg deze stappen om het werk voor de cyclustelling uit te voeren in de mobiele app Warehouse Management.
 
-1. Meld u aan bij de mobiele app Warehouse Management als de werkgebruiker die u hebt ingesteld in de sectie [Demogegevens voorbereiden voor de scenario's](#prepare-demo-data) eerder in dit onderwerp. In het voorbeeld in dit onderwerp heeft de gebruiker de naam *Julia Funderburk* en is ingesteld voor magazijn *61*. (Met de demonstratiegegevens van USMF moet u zich aanmelden als deze werkgebruiker door *61* in te voeren als gebruikers-id en *1* als wachtwoord.)
+1. Meld u aan bij de mobiele app Warehouse Management als de werkgebruiker die u hebt ingesteld in de sectie [Demogegevens voorbereiden voor de scenario's](#prepare-demo-data) eerder in dit artikel. In het voorbeeld in dit artikel heeft de gebruiker de naam *Julia Funderburk* en is deze ingesteld voor magazijn *61*. (Met de demonstratiegegevens van USMF moet u zich aanmelden als deze werkgebruiker door *61* in te voeren als gebruikers-id en *1* als wachtwoord.)
 1. Selecteer **Voorraad** in het hoofdmenu.
 1. Selecteer **Plaatcyclusstelling** in het menu **Voorraad**.
 1. Selecteer het veld **Locatie**, voer *01A02R2S1B* in en selecteer **OK** (de vinkjesknop).

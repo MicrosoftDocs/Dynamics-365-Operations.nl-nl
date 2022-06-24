@@ -1,6 +1,6 @@
 ---
 title: Activa maken op basis van inkooporders
-description: In dit onderwerp wordt uitgelegd hoe u een lijst met activumartikelen maakt die kunnen worden gebruikt als basis voor het maken van activa voor onderhoudstaken in Activabeheer.
+description: In dit artikel wordt uitgelegd hoe u een lijst met activumartikelen maakt die kunnen worden gebruikt als basis voor het maken van activa voor onderhoudstaken in Activabeheer.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5068712a7ea1e0d940d4a05a411fb3e1b6f6d9bb9be924d5375b16676561ea1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8bee66e2d35af6daa8d86539e52b558bde3c79a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754102"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893695"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>Activa maken op basis van inkooporders
 
@@ -28,7 +28,7 @@ ms.locfileid: "6754102"
 
  
 
-In dit onderwerp wordt uitgelegd hoe u een lijst met activumartikelen maakt die kunnen worden gebruikt als basis voor het maken van activa voor onderhoudstaken in Activabeheer. Op basis van de activumartikelen kunt u een lijst weergeven van de inkooporderregels die voor die artikelen zijn gemaakt. Het doel van deze functionaliteit is om op basis van een inkooporder eenvoudig een activum te maken in Activabeheer.
+In dit artikel wordt uitgelegd hoe u een lijst met activumartikelen maakt die kunnen worden gebruikt als basis voor het maken van activa voor onderhoudstaken in Activabeheer. Op basis van de activumartikelen kunt u een lijst weergeven van de inkooporderregels die voor die artikelen zijn gemaakt. Het doel van deze functionaliteit is om op basis van een inkooporder eenvoudig een activum te maken in Activabeheer.
 
 Eerst stelt u vanuit een inkooporder in **Activumartikelen** de artikelen in die moeten worden gebruikt voor het maken van activa. Nadat u een inkooporderregel hebt gemaakt, maakt u de activa in **Activa in behandeling**. Het is mogelijk om te bepalen in welk stadium van de inkooporder het activum moet worden gemaakt.
 

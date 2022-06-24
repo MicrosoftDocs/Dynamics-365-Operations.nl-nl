@@ -1,6 +1,6 @@
 ---
 title: Locatie-instructie voor naar ouderdom gerangschikte voorraadorderverzameling
-description: In dit onderwerp wordt uitgelegd hoe u de richtlijnen voor de FIFO- (First in, first out) en LIFO-locaties (last in, first out) gebruikt tijdens het orderverzamelen.
+description: In dit artikel wordt uitgelegd hoe u de richtlijnen voor de FIFO- (First in, first out) en LIFO-locaties (last in, first out) gebruikt tijdens het orderverzamelen.
 author: Mirzaab
 ms.date: 07/15/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 229dd0033e3eae4bdd33acca6736b7a9feec8c9b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 34ce119ca70596f0e40797c4b44a8fba4d5b7e0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676266"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885691"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Locatie-instructie voor naar ouderdom gerangschikte voorraadorderverzameling
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u de richtlijnen voor de FIFO- (First in, first out) en LIFO-locaties (last in, first out) gebruikt tijdens het orderverzamelen. Deze strategieën werken samen met de ouderdomsdatums die zijn vastgelegd voor locaties en die moeten worden gevolgd nadat de voorraad voor het eerst binnenkomt in het magazijn. De functie *Locatie-instructie voor naar ouderdom gerangschikte voorraadorderverzameling* gebruikt de de datum van de locatie om de ouderdom te bepalen. Met de functie *Status van magazijnlocatie* wordt de datum op de locatie bijgewerkt op basis van de datum van de nummerplaat.
+In dit artikel wordt uitgelegd hoe u de richtlijnen voor de FIFO- (First in, first out) en LIFO-locaties (last in, first out) gebruikt tijdens het orderverzamelen. Deze strategieën werken samen met de ouderdomsdatums die zijn vastgelegd voor locaties en die moeten worden gevolgd nadat de voorraad voor het eerst binnenkomt in het magazijn. De functie *Locatie-instructie voor naar ouderdom gerangschikte voorraadorderverzameling* gebruikt de de datum van de locatie om de ouderdom te bepalen. Met de functie *Status van magazijnlocatie* wordt de datum op de locatie bijgewerkt op basis van de datum van de nummerplaat.
 
 U kunt FIFO- en LIFO-strategieën gebruiken om artikelen met en zonder batchtracering te verzenden, op basis van de datum waarop de voorraad in het magazijn binnenkomt. Deze mogelijkheid kan vooral nuttig zijn voor voorraad zonder batchtracering, waarbij een vervaldatum niet beschikbaar is voor sorteren.
 

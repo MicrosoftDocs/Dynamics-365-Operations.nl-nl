@@ -1,6 +1,6 @@
 ---
 title: Instellingen van automatische kosten
-description: In dit onderwerp wordt beschreven hoe u kostenregels in kunt stellen voor verschillende inkomende reisniveaus. Op basis van deze regels worden de kosten berekend en automatisch toegevoegd. Daarom hoeven gebruikers de kosten niet handmatig toe te voegen.
+description: In dit artikel wordt beschreven hoe u kostenregels in kunt stellen voor verschillende inkomende reisniveaus. Op basis van deze regels worden de kosten berekend en automatisch toegevoegd. Daarom hoeven gebruikers de kosten niet handmatig toe te voegen.
 author: Weijiesa
 ms.date: 01/21/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ea788ea8d21c4cb6511188e937166bc3df3cd45a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 02c78789fc7531c267cee936fa30a395e6d0b62f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695327"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852384"
 ---
 # <a name="auto-costs-setup"></a>Instellingen van automatische kosten
 
@@ -26,7 +26,7 @@ ms.locfileid: "8695327"
 
 U kunt de pagina **Automatische kosten** gebruiken om kostenregels in te stellen voor verschillende kostengebieden (zoals reizen, verzendingscontainers, folio´s, inkooporders, artikelen of overboekingsorderregels). Op basis van de regels en de velden die gebruikers selecteren wanneer ze records maken voor een van de kostengebieden, berekent het systeem de kosten en voegt het deze automatisch toe. Daarom hoeven gebruikers de kosten niet handmatig toe te voegen.
 
-Als u wilt werken met automatische kosten, gaat u naar **Francoprijzen \> Kosten instellen \> Automatische kosten**. Stel vervolgens uw automatische kostenregels in zoals beschreven in de rest van dit onderwerp.
+Als u wilt werken met automatische kosten, gaat u naar **Francoprijzen \> Kosten instellen \> Automatische kosten**. Stel vervolgens uw automatische kostenregels in zoals beschreven in de rest van dit artikel.
 
 ## <a name="work-with-cost-areas"></a>Werken met kostengebieden
 

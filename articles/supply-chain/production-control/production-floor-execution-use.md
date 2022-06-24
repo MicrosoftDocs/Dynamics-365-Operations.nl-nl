@@ -1,6 +1,6 @@
 ---
-title: Hoe werknemers de uitvoeringsinterface voor de werkvloer gebruiken
-description: In dit onderwerp wordt beschreven hoe de uitvoeringsinterface van de werkvloer moet worden gebruikt vanuit het perspectief van een werknemer.
+title: Hoe medewerkers de interface voor de uitvoering van de productievloer gebruiken
+description: In dit artikel wordt beschreven hoe de uitvoeringsinterface van de werkvloer moet worden gebruikt vanuit het perspectief van een werknemer.
 author: johanhoffmann
 ms.date: 01/24/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f163b8feb906470f31a648bf09abf5647c5f1bab
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 9c0d87dfb4c432f9cff0f1172139dbcda6308275
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644985"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860662"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hoe werknemers de uitvoeringsinterface voor de werkvloer gebruiken
 
@@ -34,7 +34,7 @@ Nadat het apparaat is voorbereid, wordt de aanmeldingspagina erop weergegeven. D
 
 ![Aanmeldingspagina van de uitvoeringsinterface voor de werkvloer.](media/pfei-sign-in-page.png "Aanmeldingspagina van de uitvoeringsinterface voor de werkvloer")
 
-In de overige secties van dit onderwerp wordt beschreven hoe werknemers met de interface werken.
+In de overige secties van dit artikel wordt beschreven hoe werknemers met de interface werken.
 
 ## <a name="all-jobs-tab"></a>Tabblad Alle taken
 

@@ -1,6 +1,6 @@
 ---
 title: De functies van Technisch wijzigingsbeheer
-description: Dit onderwerp biedt een end-to-end-overzicht waarin wordt aangegeven hoe u met Technisch wijzigingsbeheer kunt werken.
+description: Dit artikel biedt een end-to-end-overzicht waarin wordt aangegeven hoe u met Technisch wijzigingsbeheer kunt werken.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4c1c67559a8f2e9d0abb512f4231aea495d1957c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ec5535013af9ccb253744e061de738155ac9ad22
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573988"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889630"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>De functies van Technisch wijzigingsbeheer
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp biedt een end-to-end-overzicht waarin wordt aangegeven hoe u met Technisch wijzigingsbeheer kunt werken. U doorloopt de belangrijkste scenario's:
+Dit artikel biedt een end-to-end-overzicht waarin wordt aangegeven hoe u met Technisch wijzigingsbeheer kunt werken. U doorloopt de belangrijkste scenario's:
 
 - Basisconfiguratie van functies
 - Hoe een technisch bedrijf een nieuw technisch product maakt
@@ -35,13 +35,13 @@ Dit onderwerp biedt een end-to-end-overzicht waarin wordt aangegeven hoe u met T
 - Hoe u aangevraagde wijzigingen plant en implementeert door een order voor technische wijzigingen te maken
 - Hoe u een gewijzigd product vrijgeeft
 
-Alle oefeningen in dit onderwerp gebruiken de standaardvoorbeeldgegevens voor Microsoft Dynamics 365 Supply Chain Management. Elke oefening borduurt voort op de vorige oefening. Daarom wordt u aangeraden de oefeningen op volgorde te doorlopen, van begin tot einde, met name als u de functie voor het beheer van technische wijzigingen nog nooit eerder hebt gebruikt. Op deze manier krijgt u een compleet beeld van de functie.
+Alle oefeningen in dit artikel gebruiken de standaardvoorbeeldgegevens voor Microsoft Dynamics 365 Supply Chain Management. Elke oefening borduurt voort op de vorige oefening. Daarom wordt u aangeraden de oefeningen op volgorde te doorlopen, van begin tot einde, met name als u de functie voor het beheer van technische wijzigingen nog nooit eerder hebt gebruikt. Op deze manier krijgt u een compleet beeld van de functie.
 
 ## <a name="set-up-for-the-sample-scenario"></a>Instellen voor het voorbeeldscenario
 
-Als u het voorbeeldscenario wilt volgen dat in dit onderwerp wordt gegeven, moet u eerst de functie voorbereiden door demogegevens beschikbaar te maken en een paar aangepaste records toe te voegen.
+Als u het voorbeeldscenario wilt volgen dat in dit artikel wordt gegeven, moet u eerst de functie voorbereiden door demogegevens beschikbaar te maken en een paar aangepaste records toe te voegen.
 
-Voordat u een van de oefeningen in de rest van dit onderwerp probeert uit te voeren, volgt u de instructies in de volgende subsecties. In deze subsecties worden ook verschillende belangrijke instellingspagina's geïntroduceerd die u kunt gebruiken wanneer u technisch wijzigingsbeheer instelt voor uw organisatie.
+Voordat u een van de oefeningen in de rest van dit artikel probeert uit te voeren, volgt u de instructies in de volgende subsecties. In deze subsecties worden ook verschillende belangrijke instellingspagina's geïntroduceerd die u kunt gebruiken wanneer u technisch wijzigingsbeheer instelt voor uw organisatie.
 
 ### <a name="make-standard-demo-data-available"></a>Standaarddemogegevens beschikbaar maken
 

@@ -1,6 +1,6 @@
 ---
-title: Een retour- en restitutiebeleid voor een kanaal maken en bijwerken
-description: In dit onderwerp wordt uitgelegd hoe u een retour- en restitutiebeleid instelt voor een kanaal.
+title: Beleid voor retouren en restituties voor een afzetkanaal maken en bijwerken
+description: In dit artikel wordt uitgelegd hoe u een retour- en restitutiebeleid instelt voor een kanaal.
 author: ShalabhjainMSFT
 ms.date: 07/13/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 4346f9eefa04688c80ce2512a7972bfd4627942c
-ms.sourcegitcommit: 53fad4d4b5fb67aa75550956ec205f456a5be01d
+ms.openlocfilehash: 54dd19134aea68f73de51086fbaa096961447b62
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "7388928"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873299"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Beleid voor retouren en restituties voor een afzetkanaal maken en bijwerken
 
@@ -27,7 +27,7 @@ ms.locfileid: "7388928"
 
 Via het kanaalretourbeleid in Dynamics 365 Commerce kunnen detailhandelaren voorwaarden instellen voor het toestaan van betalingsmethoden voor het verwerken van een retour op een POS-apparaat (Point of Sale).  
 
-In dit onderwerp worden de stappen beschreven voor het instellen van een retour- en restitutiebeleid voor een kanaal.
+In dit artikel worden de stappen beschreven voor het instellen van een retour- en restitutiebeleid voor een kanaal.
 
 De reikwijdte van het beleid is momenteel beperkt tot het instellen van de betalingsmethoden die kunnen worden toegestaan voor een kanaal. De lijst 'toegestaan' is gebaseerd op de betalingsmethoden die zijn gebruikt voor het doen van de aankoop. Bijvoorbeeld:
 

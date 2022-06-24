@@ -1,6 +1,6 @@
 ---
 title: Planningen van wijzigingen in voorhanden hoeveelheid en available to promise in Voorraadzichtbaarheid
-description: In dit onderwerp wordt beschreven hoe u toekomstige wijzigingen in de voorhanden hoeveelheid kunt plannen en ATP-hoeveelheden (Available-To-Promise) kunt berekenen.
+description: In dit artikel wordt beschreven hoe u toekomstige wijzigingen in de voorhanden hoeveelheid kunt plannen en ATP-hoeveelheden (Available-To-Promise) kunt berekenen.
 author: yufeihuang
 ms.date: 05/11/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 7456f87bede7bd0073223fa4762f96f919799e06
-ms.sourcegitcommit: 38d97efafb66de298c3f504b83a5c9b822f5a62a
+ms.openlocfilehash: 4a0edeedfe42b43ef36c8ca091b01eef815f3632
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "8763248"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856188"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>Planningen van wijzigingen in voorhanden hoeveelheid en available to promise in Voorraadzichtbaarheid
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u de functie *Planning van wijzigingen in voorhanden hoeveelheid* instelt om toekomstige wijzigingen in de voorhanden hoeveelheid te plannen en ATP-hoeveelheden (available-to-promise) te berekenen. ATP is de hoeveelheid van een artikel, die beschikbaar is en die aan een klant kan worden beloofd in de volgende periode. Het gebruik van deze berekening kan uw capaciteit voor het afhandelen van orders veel groter maken.
+In dit artikel wordt beschreven hoe u de functie *Planning van wijzigingen in voorhanden hoeveelheid* instelt om toekomstige wijzigingen in de voorhanden hoeveelheid te plannen en ATP-hoeveelheden (available-to-promise) te berekenen. ATP is de hoeveelheid van een artikel, die beschikbaar is en die aan een klant kan worden beloofd in de volgende periode. Het gebruik van deze berekening kan uw capaciteit voor het afhandelen van orders veel groter maken.
 
 Voor veel fabrikanten, detailhandelaars of verkopers is het niet voldoende om alleen te weten wat er op dat moment voorhanden is. Zij moeten volledig zicht hebben op de toekomstige beschikbaarheid. Bij deze toekomstige beschikbaarheid moet rekening worden houden met toekomstig aanbod, toekomstige vraag en ATP.
 

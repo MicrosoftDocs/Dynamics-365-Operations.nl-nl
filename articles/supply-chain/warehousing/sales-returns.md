@@ -1,6 +1,6 @@
 ---
 title: Verkoopretouren
-description: In dit onderwerp vindt u informatie over het proces voor retourorders. Het behandelt de afhandeling van klantretouren en het effect daarvan op kostprijsberekening en de voorhanden voorraadhoeveelheden.
+description: In dit artikel vindt u informatie over het proces voor retourorders. Het behandelt de afhandeling van klantretouren en het effect daarvan op kostprijsberekening en de voorhanden voorraadhoeveelheden.
 author: Mirzaab
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 672f24a720f48c420916c197722eb2d9599744fa
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9e8045ec39b9caf9bf0dc2b2d331419efb54e6d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695558"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860401"
 ---
 # <a name="sales-returns"></a>Verkoopretouren
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp vindt u informatie over het proces voor retourorders. Het behandelt de afhandeling van klantretouren en het effect daarvan op kostprijsberekening en de voorhanden voorraadhoeveelheden.
+In dit artikel vindt u informatie over het proces voor retourorders. Het behandelt de afhandeling van klantretouren en het effect daarvan op kostprijsberekening en de voorhanden voorraadhoeveelheden.
 
 Klanten kunnen artikelen retourneren om verschillende redenen. Een artikel kan bijvoorbeeld beschadigd zijn of niet voldoen aan de verwachtingen van de klant. Het retourproces begint wanneer een klant een verzoek indient om een artikel te retourneren. Nadat het verzoek van de klant is ontvangen, wordt een retourorder gemaakt.
 
@@ -84,7 +84,7 @@ Nadat u de retourorderkoptekst hebt voltooid, kunt u retourregels kunt maken met
 -   U maakt een retourregel met behulp van de functie **Verkooporder zoeken**. Het wordt aangeraden om deze functie te gebruiken wanneer u een retourorder maakt. De functie **Verkooporder zoeken** maakt een verwijzing van de retourregel naar de regel in de gefactureerde verkooporder en haalt regelgegevens op uit de verkoopregel, zoals de waarden voor artikelnummer, hoeveelheid, prijs, korting en kosten. De verwijzing zorgt ervoor dat, als het product wordt geretourneerd naar het bedrijf, het wordt gewaardeerd tegen dezelfde kostprijs waarvoor het werd verkocht. De verwijzing valideert ook dat geen retourorder worden gemaakt voor een hoeveelheid die groter is dan de hoeveelheid die op de factuur is verkocht.
 
 >[!NOTE] 
->Retourregels die naar een verkooporder verwijzen, worden verwerkt als correcties of omkering van de verkoop. Zie voor meer informatie de sectie 'Boeken naar het grootboek' verderop in dit onderwerp.
+>Retourregels die naar een verkooporder verwijzen, worden verwerkt als correcties of omkering van de verkoop. Zie voor meer informatie de sectie 'Boeken naar het grootboek' verderop in dit artikel.
 
 ### <a name="charges"></a>Toeslagen
 
@@ -179,7 +179,7 @@ Voordat u geretourneerde artikelen fysiek weer aan de voorraad kunt toevoegen vi
 
 [![Ontvangstproces.](./media/salesreturn03.png)](./media/salesreturn03.png)  
 
-Het proces bevat verschillende andere varianten die niet in dit onderwerp worden behandeld. Dit zijn enkele van deze variaties:
+Het proces bevat verschillende andere varianten die niet in dit artikel worden behandeld. Dit zijn enkele van deze variaties:
 
 -   U maakt niet gebruik van de lijst **Overzicht aankomst** om een ontvangstjournaal te maken. In plaats daarvan maakt u het ontvangstjournaal handmatig aan. Retourorders krijgen **Verkooporder** als verwijzing.
 -   Als u Magazijnbeheer gebruikt, genereert u pallettransporten. De retourregel krijgt de status **aangekomen** tijdens het pallettransport.

@@ -1,6 +1,6 @@
 ---
 title: Francoprijzen ramen en beheren
-description: U kunt via de automatische kosteninstellingen een raming voor de francoprijzen bepalen. In dit onderwerp wordt uitgelegd hoe u verschillende scenario's kunt definiëren om een nauwkeurigere raming te leveren.
+description: U kunt via de automatische kosteninstellingen een raming voor de francoprijzen bepalen. In dit artikel wordt uitgelegd hoe u verschillende scenario's kunt definiëren om een nauwkeurigere raming te leveren.
 author: Weijiesa
 ms.date: 01/26/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-26
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 630fb9dc8e7954fcbc4f54941d81de1caa657676
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2e7cdd7c7439a24ec75a59bcee1e8f42f37bb2cd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696202"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854436"
 ---
 # <a name="estimate-and-manage-landed-costs"></a>Francoprijzen ramen en beheren
 
@@ -50,7 +50,7 @@ In de volgende tabel worden de velden beschreven die beschikbaar zijn voor elke 
 
 Gebruik het dialoogvenster **Kostenraming** om een nieuwe kostenraming te genereren op basis van een geselecteerde kostensjabloon, een geselecteerde set artikelen en andere details van een kostprijsraming. Deze instellingen worden vervolgens gebruikt om de geschatte francoprijzen van goederen te bepalen. Deze kostenramingen worden voornamelijk gebruikt om met standaardkostenartikelen te werken. Als u de geschatte francoprijzen toevoegt aan de standaardkosten van goederen in de voorraad, moet u kleinere afwijkingstransacties krijgen wanneer de goederen worden toegevoegd aan een reis, omdat de standaardkosten de ramingen van deze francoprijzen weerspiegelen.
 
-Als u het dialoogvenster **Kostenraming** wilt openen, gaat u naar **Francoprijzen \> Periodieke taken \> Kostenraming**. Stel vervolgens de velden in volgens de beschrijving in de volgende subsecties. Selecteer tot slot **OK** om de raming te maken. De pagina **Kostenraming** (**Francoprijzen \> Query's \> Kostenramingen**) wordt geopend en toont de nieuwe raming, zoals verderop in dit onderwerp wordt beschreven.
+Als u het dialoogvenster **Kostenraming** wilt openen, gaat u naar **Francoprijzen \> Periodieke taken \> Kostenraming**. Stel vervolgens de velden in volgens de beschrijving in de volgende subsecties. Selecteer tot slot **OK** om de raming te maken. De pagina **Kostenraming** (**Francoprijzen \> Query's \> Kostenramingen**) wordt geopend en toont de nieuwe raming, zoals verderop in dit artikel wordt beschreven.
 
 ### <a name="settings-on-the-parameters-tab"></a>Instellingen op het tabblad Parameters
 
@@ -91,7 +91,7 @@ Als u de details van het volume en/of het gewicht van een artikel wilt weergeven
 
 ## <a name="manage-estimated-costs"></a>Kostenramingen beheren
 
-Als u de gemaakte kostenramingen wilt weergeven en bewerken, gaat u naar **Francoprijzen \> Query's \> Kostenramingen**. Op de pagina **Kostenramingen** worden in het lijstdeelvenster aan de linkerkant alle huidige kostenramingen weergegeven. U kunt de knoppen in het actievenster gebruiken om te werken met een geselecteerde raming. U kunt geen nieuwe kostenraming maken op de pagina **Kostenramingen**. Gebruik in plaats daarvan het dialoogvenster **Kostenraming** (**Francoprijzen \> Periodieke taken \> Kostenramingen**), zoals eerder in dit onderwerp is beschreven.
+Als u de gemaakte kostenramingen wilt weergeven en bewerken, gaat u naar **Francoprijzen \> Query's \> Kostenramingen**. Op de pagina **Kostenramingen** worden in het lijstdeelvenster aan de linkerkant alle huidige kostenramingen weergegeven. U kunt de knoppen in het actievenster gebruiken om te werken met een geselecteerde raming. U kunt geen nieuwe kostenraming maken op de pagina **Kostenramingen**. Gebruik in plaats daarvan het dialoogvenster **Kostenraming** (**Francoprijzen \> Periodieke taken \> Kostenramingen**), zoals eerder in dit artikel is beschreven.
 
 Op de pagina **Kostenramingen** wordt weergegeven hoe elke kostenraming is afgeleid. In dit rapport worden ook de geraamde francoprijzen voor elk artikel weergegeven. U kunt een kostenraming wijzigen door de kostprijs en/of valuta te wijzigen die aan de verschillende goederen zijn gekoppeld. U kunt de gekoppelde kosten van de reis ook wijzigen op zowel het niveau van de reis als van de container. Wanneer u deze pagina gebruikt om de kosten te wijzigen, wordt u gevraagd de ramingen voor de artikelen in de kostenraming opnieuw te berekenen. Wanneer u gereed bent, kunt u de ramingen gebruiken om de kostprijs van de artikelen in de kostensjabloon bij te werken.
 

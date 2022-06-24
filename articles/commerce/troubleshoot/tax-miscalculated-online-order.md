@@ -1,6 +1,6 @@
 ---
 title: De btw op online orders wordt onjuist berekend
-description: Dit onderwerp bevat richtlijnen voor het oplossen van problemen die kunnen helpen bij het foutief berekenen van btw op online orders of wanneer de btw-groep op de verkoopregel niet juist is ingesteld.
+description: Dit artikel bevat richtlijnen voor het oplossen van problemen die kunnen helpen bij het foutief berekenen van btw op online orders of wanneer de btw-groep op de verkoopregel niet juist is ingesteld.
 author: Reza-Assadi
 ms.date: 02/16/2022
 ms.topic: Troubleshooting
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0e4361b436cc78eccaff29dfa2927d342e26072d
-ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.openlocfilehash: eefcfc983a7b3861caa4b4362d2813082b7963a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8312026"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901616"
 ---
 # <a name="taxes-on-online-orders-are-incorrectly-calculated"></a>De btw op online orders wordt onjuist berekend
 
 [!include [banner](../../includes/banner.md)]
 
-Dit onderwerp bevat richtlijnen voor het oplossen van problemen die kunnen helpen bij het foutief berekenen van btw op online orders of wanneer de btw-groep op de verkoopregel niet juist is ingesteld.
+Dit artikel bevat richtlijnen voor het oplossen van problemen die kunnen helpen bij het foutief berekenen van btw op online orders of wanneer de btw-groep op de verkoopregel niet juist is ingesteld.
 
 ## <a name="description"></a>Beschrijving
 

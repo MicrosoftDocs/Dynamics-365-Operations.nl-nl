@@ -1,6 +1,6 @@
 ---
 title: Een medewerker configureren met het mobiele taakapparaat
-description: In dit onderwerp wordt uitgelegd hoe u de juiste rollen toewijst aan de gebruikersaccount van een medewerker, en de medewerker vervolgens de mogelijk biedt om werkvloerregistraties te doen.
+description: In dit artikel wordt uitgelegd hoe u de juiste rollen toewijst aan de gebruikersaccount van een medewerker, en de medewerker vervolgens de mogelijk biedt om werkvloerregistraties te doen.
 author: johanhoffmann
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d9745995752c06385acc31e529de52eefaa6f96
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3f6f51a66d49cafd172ba123bf883fb41cdcb5c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573556"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844300"
 ---
 # <a name="configure-a-worker-using-the-mobile-job-device"></a>Een medewerker configureren met het mobiele taakapparaat
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u de juiste rollen toewijst aan de gebruikersaccount van een medewerker, en de medewerker vervolgens de mogelijk biedt om werkvloerregistraties te doen.
+In dit artikel wordt uitgelegd hoe u de juiste rollen toewijst aan de gebruikersaccount van een medewerker, en de medewerker vervolgens de mogelijk biedt om werkvloerregistraties te doen.
 
 ## <a name="verify-that-a-worker-is-assigned-a-certain-role"></a>Controleren of aan een medewerker een bepaalde rol is toegewezen
 

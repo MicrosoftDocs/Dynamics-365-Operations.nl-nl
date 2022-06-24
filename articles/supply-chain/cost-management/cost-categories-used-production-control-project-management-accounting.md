@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e35a6b7da4ead8ab6f007ef8800ed8a05b1c513
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 09a808c91ece25a9a40f662e0aca2c504246fc0a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675341"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854495"
 ---
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Kostencategorieën die worden gebruikt in Productiebeheer en in Projectbeheerboekhouding
 
@@ -31,7 +31,7 @@ Bepaalde typen productiewerk zijn mogelijk van toepassing op geraamde projecture
 
 Bepaalde typen productiewerk zijn mogelijk van toepassing op geraamde projecturen en rapportage. In een dergelijk geval is een kostencategorie vereist voor productie- en projectdoeleinden. Wanneer er een kostencategorie wordt gebruikt in productie en projecten, moet er extra projectgerelateerde informatie worden gedefinieerd. De kosten per uur van projecten kunnen bijvoorbeeld afwijken van de kosten per uur die horen bij de productie. U kunt de pagina **Kostencategorieën** gebruiken om een kostencategorie te definiëren die in Productiebeheer en Projectbeheerboekhouding wordt gebruikt. 
 
-**Opmerking:** kostprijsboekhouding heeft een pagina **Projectcategorieën**, maar deze pagina heeft geen betrekking op de functionaliteit die in dit onderwerp wordt beschreven. Wanneer u een kostencategorie in projecten gebruikt, heeft de pagina **Kostencategorieën** extra tabbladen die extra projectgerelateerde informatie weergegeven. Deze informatie omvat de categoriegroep, een regeleigenschap en grootboekrekeningen, die aan de kostencategorie worden toegewezen.
+**Opmerking:** kostprijsboekhouding heeft een pagina **Projectcategorieën**, maar deze pagina heeft geen betrekking op de functionaliteit die in dit artikel wordt beschreven. Wanneer u een kostencategorie in projecten gebruikt, heeft de pagina **Kostencategorieën** extra tabbladen die extra projectgerelateerde informatie weergegeven. Deze informatie omvat de categoriegroep, een regeleigenschap en grootboekrekeningen, die aan de kostencategorie worden toegewezen.
 
 -   U moet de kostencategorie toewijzen aan een categoriegroep die het transactietype **Uren** ondersteunt.
 -   De regeleigenschap geeft standaardgegevens aan over hoe gerapporteerde tijd in rekening kan worden gebracht bij een project.

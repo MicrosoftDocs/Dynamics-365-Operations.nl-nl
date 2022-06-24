@@ -1,6 +1,6 @@
 ---
 title: Werk splitsen
-description: Dit onderwerp bevat informatie over de functionaliteit voor gesplitst werk. Met deze functie kunt u grote werkorders splitsen in meerdere kleinere werkorders die u vervolgens aan meerdere magazijnmedewerkers kunt toewijzen. Op deze manier kan het werk tegelijkertijd worden verzameld door verschillende magazijnmedewerkers.
+description: Dit artikel bevat informatie over de functionaliteit voor gesplitst werk. Met deze functie kunt u grote werkorders splitsen in meerdere kleinere werkorders die u vervolgens aan meerdere magazijnmedewerkers kunt toewijzen. Op deze manier kan het werk tegelijkertijd worden verzameld door verschillende magazijnmedewerkers.
 author: Mirzaab
 ms.date: 10/15/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: b9914958684d552f0b45ddca641238124ade3454
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 83333f4d8c755bc0ca4b2d141a5591ef43501b64
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669455"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857020"
 ---
 # <a name="work-split"></a>Werk splitsen
 

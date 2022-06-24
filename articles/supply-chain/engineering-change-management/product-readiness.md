@@ -1,6 +1,6 @@
 ---
 title: Productgereedheid
-description: Dit onderwerp beschrijft hoe u de gereedheidscontroles kunt gebruiken om ervoor te zorgen dat de vereiste hoofdgegevens voor een product zijn voltooid voordat het product in transacties wordt gebruikt.
+description: In dit artikel wordt beschreven hoe u de gereedheidscontroles kunt gebruiken om ervoor te zorgen dat de vereiste hoofdgegevens voor een product zijn voltooid voordat deze in transacties worden gebruikt.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f7ab6165e85cd2b1165292b74cd036f1233b22b4
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: a8e76d5fc786b6f4cac7cd0430399ca3ad13a7bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102985"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856217"
 ---
 # <a name="product-readiness"></a>Productgereedheid
 
@@ -61,7 +61,7 @@ Als voor een product een nieuwe technische *versie* wordt gemaakt, controleert h
 - De technische versie wordt ingesteld op inactief om te voorkomen dat het product wordt gebruikt.
 
 > [!NOTE]
-> U kunt gereedheidscontrolebeleid ook instellen voor standaardproducten (niet-technisch). Zie het gedeelte [Gereedheidscontroles op standaardproducten](#standard-products) verderop dit onderwerp voor meer informatie.
+> U kunt gereedheidscontrolebeleid ook instellen voor standaardproducten (niet-technisch). Zie het gedeelte [Gereedheidscontroles op standaardproducten](#standard-products) verderop dit artikel voor meer informatie.
 
 ## <a name="view-readiness-checks"></a>Gereedheidscontroles weergeven
 
@@ -151,7 +151,7 @@ Stel de volgende velden in voor elke rij die u toevoegt.
 | Bedrijf | Als u het veld **Uitvoeren in** instelt op *Eén bedrijf*, selecteert u het bedrijf. |
 | Type eigenaar | Selecteer of gereedheidscontroles die worden gegenereerd in de rij moeten worden toegewezen aan een persoon of een team. |
 | Eigenaar | Selecteer de persoon of het team waaraan de gereedheidscontroles die worden gegenereerd in de rij moeten worden toegewezen. |
-| Vragenlijst | Selecteer de vragenlijst die voor de controlelijst moet worden gebruikt. De controlelijst is een lokale controlelijst in het bedrijf waar de gereedheidscontrole is uitgevoerd. Het systeem moet kunnen beoordelen of de controlelijst correct is beantwoord. Daarom moet de controlelijst zo zijn ingesteld dat een evaluatie wordt uitgevoerd op basis van juiste antwoorden. Zie [Vragenlijsten gebruiken](/dynamicsax-2012/appuser-itpro/using-questionnaires) en verwante onderwerpen voor meer informatie over het maken van vragenlijsten. |
+| Vragenlijst | Selecteer de vragenlijst die voor de controlelijst moet worden gebruikt. De controlelijst is een lokale controlelijst in het bedrijf waar de gereedheidscontrole is uitgevoerd. Het systeem moet kunnen beoordelen of de controlelijst correct is beantwoord. Daarom moet de controlelijst zo zijn ingesteld dat een evaluatie wordt uitgevoerd op basis van juiste antwoorden. Zie [Vragenlijsten gebruiken](/dynamicsax-2012/appuser-itpro/using-questionnaires) en verwante artikelen voor meer informatie over het maken van vragenlijsten. |
 | Automatische goedkeuring | Records voor gereedheidscontroles bevatten een selectievakje **Goedgekeurd** waarmee de goedkeuringsstatus wordt aangegeven. Selecteer het selectievakje **Automatische goedkeuring** voor controles die direct op Goedgekeurd moeten worden gezet nadat de toegewezen gebruiker ze voltooid. Wis dit selectievakje uit als u expliciete goedkeuring als extra stap verplicht wilt maken. |
 | Verplicht | Schakel dit selectievakje in voor controles die door de toegewezen gebruiker moeten worden voltooid. Verplichte controles kunnen niet worden overgeslagen. |
 
@@ -159,7 +159,7 @@ Stel de volgende velden in voor elke rij die u toevoegt.
 
 ## <a name="assign-readiness-policies-to-standard-and-engineering-products"></a>Gereedheidsbeleid toewijzen aan standaard en technische producten
 
-Wanneer u een nieuw product maakt op basis van een technische categorie, maakt u zowel een *vrijgegeven product* als een gerelateerd *gedeeld product*. De manier waarop gereedheidsbeleid voor een vrijgegeven product wordt opgelost, is afhankelijk van of de functie *Controles op productgereedheid* is ingeschakeld voor het systeem (zie de sectie [Gereedheidscontroles op standaardproducten](#standard-products) verderop in dit onderwerp voor informatie over deze functie en hoe u deze kunt in- of uitschakelen).
+Wanneer u een nieuw product maakt op basis van een technische categorie, maakt u zowel een *vrijgegeven product* als een gerelateerd *gedeeld product*. De manier waarop gereedheidsbeleid voor een vrijgegeven product wordt opgelost, is afhankelijk van of de functie *Controles op productgereedheid* is ingeschakeld voor het systeem (zie de sectie [Gereedheidscontroles op standaardproducten](#standard-products) verderop in dit artikel voor informatie over deze functie en hoe u deze kunt in- of uitschakelen).
 
 - Wanneer de functie *Productgereedheidscontroles* op uw systeem is *uitgeschakeld*, wordt het gereedheidsbeleid ingesteld en alleen weergegeven in [records van technische categorieën](engineering-versions-product-category.md). Om te weten te komen welk beleid van toepassing is op een vrijgegeven product, controleert het systeem het veld **Productgereedheidsbeleid** voor de gerelateerde technische categorie. U kunt het gereedheidsbeleid voor een bestaand product wijzigen door de gerelateerde technische categorie (niet het gedeelde product) te bewerken.
 - Wanneer de functie *Productgereedheidscontrole* is *ingeschakeld*, wordt het veld **Productgereedheidscontrole** toegevoegd aan de pagina **Product** (waar gedeelde producten worden ingesteld) en aan de pagina **Vrijgegeven product** (waar de waarde alleen-lezen is en uit het gerelateerde gedeelde product wordt gehaald). Het gereedheidsbeleid voor een vrijgegeven product wordt gevonden door het gerelateerde gedeelde product te controleren. Wanneer u een technische categorie gebruikt om een nieuw technisch product te maken, worden zowel een gedeeld product als een vrijgegeven product gemaakt en wordt een instelling voor **Productgereedheidsbeleid** voor de technische categorie gekopieerd naar het nieuwe gedeelde product. Vervolgens kunt u het gereedheidsbeleid voor een bestaand product wijzigen door het gerelateerde gedeelde product (niet de vrijgegeven technische categorie) te bewerken.
@@ -188,14 +188,14 @@ Voor deze functie moeten de functies *Beheer voor technische wijzigingen* en *Co
 
 ### <a name="create-readiness-policies-for-standard-products"></a>Gereedheidsbeleid voor standaardproducten maken
 
-U maakt gereedheidsbeleid voor standaardproducten op dezelfde manier als u dat voor technische producten doet. Zie de informatie eerder in dit onderwerp.
+U maakt gereedheidsbeleid voor standaardproducten op dezelfde manier als u dat voor technische producten doet. Zie de informatie eerder in dit artikel.
 
 ### <a name="assign-readiness-policies-to-standard-products"></a>Gereedheidsbeleid aan standaardproducten toewijzen
 
-Als u een gereedheidsbeleid aan een standaardproduct wilt toewijzen, opent u het gerelateerde gedeelde product en stelt u het veld **Productgereedheidsbeleid** in op de naam van het beleid dat moet worden toegepast. Zie [Gereedheidsbeleid toewijzen aan standaard en technische producten](#assign-policy) eerder in dit onderwerp voor meer informatie.
+Als u een gereedheidsbeleid aan een standaardproduct wilt toewijzen, opent u het gerelateerde gedeelde product en stelt u het veld **Productgereedheidsbeleid** in op de naam van het beleid dat moet worden toegepast. Zie [Gereedheidsbeleid toewijzen aan standaard en technische producten](#assign-policy) eerder in dit artikel voor meer informatie.
 
 ### <a name="view-and-process-readiness-checks-on-standard-products"></a>Gereedheidscontroles op standaardproducten weergeven en verwerken
 
-Wanneer deze functie is ingeschakeld, kunt u gereedheidscontroles voor standaardproducten weergeven en verwerken net als u dat voor een technisch product doet. Zie de informatie eerder in dit onderwerp.
+Wanneer deze functie is ingeschakeld, kunt u gereedheidscontroles voor standaardproducten weergeven en verwerken net als u dat voor een technisch product doet. Zie de informatie eerder in dit artikel.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

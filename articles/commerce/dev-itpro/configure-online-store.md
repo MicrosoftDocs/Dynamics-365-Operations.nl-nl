@@ -1,6 +1,6 @@
 ---
 title: Online winkels configureren
-description: Dit artikel bevat koppelingen naar onderwerpen die u helpen bij het centraal configureren en beheren van een online winkel.
+description: Dit artikel bevat koppelingen naar artikelen die u helpen bij het centraal configureren en beheren van een online winkel.
 author: kfend
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 87607e2c42ee67d62a7ce2e87744e9d9143dcf81
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c8a5b13189eb93d4df81a427a932b81ab8d830be
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734099"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861874"
 ---
 # <a name="configure-online-stores"></a>Online winkels configureren
 
 [!include [banner](../includes/banner.md)]
 
-Dit artikel bevat koppelingen naar onderwerpen die u helpen bij het centraal configureren en beheren van een online winkel.
+Dit artikel bevat koppelingen naar artikelen die u helpen bij het centraal configureren en beheren van een online winkel.
 
-De onderwerpen in de volgende tabel helpen u bij de configuratie van Commerce-onderdelen en de online winkel in de client.
+De artikelen in de volgende tabel helpen u bij de configuratie van Commerce-onderdelen en de online winkel in de client.
 
 ## <a name="configure-an-online-store"></a>Een online winkel configureren
 
-| Opdracht                                                | Details                                                                                                                                                                                                                                                                                                                                                   | Onderwerp                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Opdracht                                                | Gegevens                                                                                                                                                                                                                                                                                                                                                   | Artikelen                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configureer onderdelen.                        | Gegevens voor Commerce-bewerkingen instellen en onderhouden. Deze informatie omvat winkels, btw, producten, cadeaubonnen, promoties en kortingen.                                                                                                                                                                                                          | [Detailhandel instellen en beheren](/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-retail) (TechNet-onderwerpen voor Microsoft Dynamics AX 2012)                                                                                                                                                                                                                                                                                          |
 | Configureer een kanaalnavigatiehiërarchie.    | U kunt een kanaalnavigatiehiërarchie maken die kan worden gebruikt om een categoriestructuur in te stellen voor producten die u via een online winkel aanbiedt. U definieert de categoriehiërarchie en wijst producten, productkenmerkgroepen en kenmerkwaarden toe aan de categorieën. Vervolgens wijst u de categoriehiërarchie toe aan een online winkel.                            | [Een detailhandelhiërarchie instellen](/dynamicsax-2012/appuser-itpro/set-up-a-retail-hierarchy)</br> (TechNet-inhoud voor AX 2012)</br> [Kenmerken en kenmerktypen instellen](/dynamicsax-2012/appuser-itpro/set-up-attributes-and-attribute-types) (TechNet-inhoud voor AX 2012)</br> [Retail-kenmerkgroepen instellen](/dynamicsax-2012/appuser-itpro/set-up-retail-attribute-groups) (TechNet-inhoud voor AX 2012) |
@@ -41,7 +41,7 @@ De onderwerpen in de volgende tabel helpen u bij de configuratie van Commerce-on
 
 ## <a name="configure-online-store-products"></a>Producten van online winkels configureren
 
-| Opdracht                                 | Details                                                                                                                                           | Onderwerp                                                                                                                                                                                                                                                                            |
+| Opdracht                                 | Gegevens                                                                                                                                           | Artikelen                                                                                                                                                                                                                                                                            |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Assortimenten toevoegen aan de online winkel | Voeg de assortimenten toe die de producten bevatten die u in een online winkel aanbiedt.                                                                  | [Een online winkel instellen](/dynamicsax-2012/appuser-itpro/set-up-an-online-store) (TechNet-onderwerpen voor AX 2012)                                                                                                                                              |
 | Catalogi beheren                     | Gebruik productcatalogi voor de identificatie van de producten die u in uw online winkels wilt aanbieden.                                                              | [Belangrijke taken: detailhandelproductcatalogi maken](/dynamicsax-2012/appuser-itpro/key-tasks-create-retail-product-catalogs) (TechNet-onderwerpen voor AX 2012)                                                                                                                           |
@@ -52,7 +52,7 @@ De onderwerpen in de volgende tabel helpen u bij de configuratie van Commerce-on
 
 ## <a name="set-up-data-exchange-between-commerce-and-the-online-store"></a>Gegevensuitwisseling tussen Commerce en de online winkel instellen
 
-| Opdracht                                 | Details                                                                                                                               | Onderwerp                                                                                                                                                                                                                                                                                  |
+| Opdracht                                 | Gegevens                                                                                                                               | Artikelen                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kanaalintegratieprofielen instellen | Met profielen kunnen de onderdelen met elkaar communiceren. U kunt profielen instellen voordat u instellingen voor het uitwisselen van gegevens configureert. | [Een real-time Serviceprofiel instellen](/dynamicsax-2012/appuser-itpro/set-up-a-real-time-service-profile) (TechNet-inhoud voor AX 2012)</br> [Een kanaalprofiel instellen](/dynamicsax-2012/appuser-itpro/set-up-a-channel-profile) (TechNet-inhoud voor AX 2012) |
 

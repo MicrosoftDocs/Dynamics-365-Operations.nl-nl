@@ -1,6 +1,6 @@
 ---
 title: Werkorders plannen
-description: In dit onderwerp wordt uitgelegd hoe u werkorders plant in Activabeheer.
+description: In dit artikel wordt uitgelegd hoe u werkorders plant in Activabeheer.
 author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: becd06c46afd92bf07d9a69147b7768e780aefa57f9045c11698c04154d6ddb8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a3fc3e6ef2332a883ef4a612a669142da1794454
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718054"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845049"
 ---
 # <a name="schedule-work-orders"></a>Werkorders plannen
 
@@ -28,7 +28,7 @@ ms.locfileid: "6718054"
 
  
 
-In dit onderwerp wordt uitgelegd hoe u werkorders plant in Activabeheer. 
+In dit artikel wordt uitgelegd hoe u werkorders plant in Activabeheer. 
 
 Het vereiste aantal uren voor een werkorder wordt gedefinieerd op basis van het totaal aan voorspelde uren min de geboekte uren. Als er meer tijd nodig is, moet de prognose dienovereenkomstig worden aangepast. In **Activabeheer** > **Algemeen** > **Werkorders** > **Alle werkorders** of **Actieve werkorders** kunt u prognoses in een werkorder weergeven of bewerken door de werkorder te selecteren en te klikken op **Prognose** op het tabblad **Werkorder**. Wanneer werkorders zijn gemaakt en geraamd, moeten de vereiste onderhoudsmedewerkers en hulpmiddelen worden toegewezen om de werkorders te voltooien.
 

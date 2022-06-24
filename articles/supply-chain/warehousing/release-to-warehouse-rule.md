@@ -1,6 +1,6 @@
 ---
 title: Regel voor vrijgave naar magazijn
-description: Dit onderwerp biedt informatie over de Functie Regel voor vrijgave naar magazijn, die flexibiliteit biedt tijdens de vrijgave naar het magazijn. Er wordt een configuratieoptie toegevoegd waarmee wordt bepaald of gedeeltelijk gereserveerde orderregels in het systeem mogen worden vrijgegeven.
+description: Dit artikel biedt informatie over de Functie Regel voor vrijgave naar magazijn, die flexibiliteit biedt tijdens de vrijgave naar het magazijn. Er wordt een configuratieoptie toegevoegd waarmee wordt bepaald of gedeeltelijk gereserveerde orderregels in het systeem mogen worden vrijgegeven.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 5fef1d942f2e9d3467fb8a00c6d89cc5c018a5aa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c011938438be32e8a3169d90561ab329da32e32a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674612"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895462"
 ---
 # <a name="release-to-warehouse-rule"></a>Regel voor vrijgave naar magazijn
 
@@ -78,7 +78,7 @@ U kunt deze scenario's ook gebruiken als instructie voor deze functie wanneer u 
 In dit scenario ziet u hoe de functie werkt voor magazijnen die zijn ingesteld op **Volledige reservering vereist**.
 
 1. Ga naar **Magazijnbeheer \> Instellen \> Magazijn \> Magazijnen**.
-1. Voor magazijn _62_ stelt u het veld **Vereisten voor voorraadreservering** in op **Volledige reservering vereisen**, zoals wordt beschreven in de sectie [De regel voor vrijgave naar magazijn instellen voor elk magazijn](#set-option-warehouse) die eerder in dit onderwerp is beschreven.
+1. Voor magazijn _62_ stelt u het veld **Vereisten voor voorraadreservering** in op **Volledige reservering vereisen**, zoals wordt beschreven in de sectie [De regel voor vrijgave naar magazijn instellen voor elk magazijn](#set-option-warehouse) die eerder in dit artikel is beschreven.
 1. Ga naar **Verkoop en marketing \> Verkooporders \> Alle verkooporders**.
 1. Selecteer **Nieuw** om een verkooporder te maken.
 1. Stel in het dialoogvenster **Verkooporder maken** de volgende waarden in:
@@ -112,7 +112,7 @@ In dit scenario ziet u hoe de functie werkt voor magazijnen die zijn ingesteld o
 In dit scenario ziet u hoe de functie werkt voor magazijnen die zijn ingesteld op **Gedeeltelijke vrijgave toestaan**.
 
 1. Ga naar **Magazijnbeheer \> Instellen \> Magazijn \> Magazijnen**.
-1. Voor magazijn _62_ stelt u het veld **Vereisten voor voorraadreservering** in op **Gedeeltelijke reservering toestaan**, zoals wordt beschreven in de sectie [De regel voor vrijgave naar magazijn instellen voor elk magazijn](#set-option-warehouse) die eerder in dit onderwerp is beschreven.
+1. Voor magazijn _62_ stelt u het veld **Vereisten voor voorraadreservering** in op **Gedeeltelijke reservering toestaan**, zoals wordt beschreven in de sectie [De regel voor vrijgave naar magazijn instellen voor elk magazijn](#set-option-warehouse) die eerder in dit artikel is beschreven.
 1. Zoals u in het [vorige scenario](#scenario1) deed, gaat u naar **Verkoop- en marketing \> Verkooporders \> Alle verkooporders** en maakt u een verkooporder voor klantaccount _VS-004_ uit magazijn _62_. Voeg de volgende twee orderregels toe:
 
     - **Regel 1:** Stel op de nieuwe regel het veld **Artikelnummer** in op _A0001_ en het veld **Hoeveelheid** op _2_ en het veld **Eenheid** op _Stuks_.

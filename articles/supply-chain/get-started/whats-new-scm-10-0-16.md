@@ -1,6 +1,6 @@
 ---
 title: Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.16 (februari 2021)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Supply Chain Management 10.0.16.
+description: In dit artikel worden de functies beschreven die in Dynamics 365 Supply Chain Management 10.0.16 nieuw of gewijzigd zijn.
 author: kamaybac
 ms.date: 11/20/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-30
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 4c5c8e1d13a58b5ebc68315c75e5245cb10377f3
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 323dde332364a26ec5b0d3f48a0d6ae831656108
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474911"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879100"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.16 (februari 2021)
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management versie 10.0.16. Deze versie heeft een buildnummer van 10.0.689 en is als volgt beschikbaar:
+In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management versie 10.0.16. Deze versie heeft een buildnummer van 10.0.689 en is als volgt beschikbaar:
 
 - **Preview van versie:** november 2020
 - **Algemene beschikbaarheid van versie (zelfupdate):** januari 2021
@@ -49,11 +49,11 @@ De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-
 
 ## <a name="new-and-updated-documentation-resources"></a>Nieuwe en bijgewerkte documentatiebronnen
 
-De volgende Help-onderwerpen zijn onlangs toegevoegd of ingrijpend bijgewerkt. Ze zijn niet noodzakelijkerwijs gerelateerd aan de nieuwe functies die zijn toegevoegd voor deze versie, zoals wordt beschreven in de vorige sectie, maar ze kunnen u helpen om meer uit bestaande functies te halen.
+De volgende Help-artikelen zijn onlangs toegevoegd of ingrijpend bijgewerkt. Ze zijn niet noodzakelijkerwijs gerelateerd aan de nieuwe functies die zijn toegevoegd voor deze versie, zoals wordt beschreven in de vorige sectie, maar ze kunnen u helpen om meer uit bestaande functies te halen.
 
 - [Op kenmerken gebaseerde verkoopprijzen voor een op beperkingen gebaseerde productconfiguratie](../pim/attribute-based-product-configurator.md)
 - [Automatische toewijzing van toeslagen](../procurement/automatic-charges-allocation.md)
-- [Overzicht van gevaarlijke materialen](../pim/hazmat-overview.md) (en verwante onderwerpen)
+- [Overzicht van gevaarlijke materialen](../pim/hazmat-overview.md) (en verwante artikelen)
 - [Migratie naar planningsoptimalisatie voor hoofdplanning](../master-planning/new-master-planning-engine.md)
 - [Inkoop-cXML-verbeteringen](../procurement/purchasing-cxml-enhancements.md)
 - [Wegzetclusters](../warehousing/putaway-clusters.md)
@@ -63,9 +63,9 @@ De volgende Help-onderwerpen zijn onlangs toegevoegd of ingrijpend bijgewerkt. Z
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform updates voor Finance and Operations-apps
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformupdates voor apps voor financiële en bedrijfsactiviteiten
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.16 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.16 van Finance and Operations-apps (februari 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.16 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.16 van apps voor financiële en bedrijfsactiviteiten (februari 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md).
 
 ### <a name="bug-fixes"></a>Correcties
 
@@ -79,12 +79,12 @@ Bekijk [Dynamics 365: releasewave 2-plan van 2020](/dynamics365-release-plan/202
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Verwijderde en afgeschafte functies voor Supply Chain Management
 
-In het onderwerp [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) worden functies beschreven die zijn of worden verwijderd voor Supply Chain Management.
+In het artikel [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) worden functies beschreven die zijn of worden verwijderd voor Supply Chain Management.
 
 - Een *verwijderde* functie is niet langer beschikbaar in het product.
 - Een *afgeschafte* functie wordt niet meer actief ontwikkeld en kan in een toekomstige update worden verwijderd.
 
-Twaalf maanden voordat een functie uit het product wordt verwijderd, wordt de afschaffing aangekondigd in het onderwerp [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md).
+Twaalf maanden voordat een functie uit het product wordt verwijderd, wordt de afschaffing aangekondigd in het artikel [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md).
 
 Voor ingrijpende wijzigingen die alleen van invloed zijn op de compilatietijd, maar binair compatibel zijn met sandbox- en productieomgevingen, is de afschaffingstijd korter dan 12 maanden. Meestal zijn dit functionele updates die moeten worden doorgevoerd in de compiler.
 

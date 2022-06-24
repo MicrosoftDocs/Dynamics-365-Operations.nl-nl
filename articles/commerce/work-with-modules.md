@@ -1,6 +1,6 @@
 ---
 title: Werken met modules
-description: In dit onderwerp wordt beschreven hoe en wanneer u modules in Microsoft Dynamics 365 Commerce gebruikt.
+description: In dit artikel wordt beschreven hoe en wanneer u modules in Microsoft Dynamics 365 Commerce gebruikt.
 author: phinneyridge
 ms.date: 09/15/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ce16aa98a37cd5dec60bcdbf86f59f74810da9755a6d3514bdd3e38a21afb748
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c393f1e619647795a5ae8da3a78500c1678da9f6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728259"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860187"
 ---
 # <a name="work-with-modules"></a>Werken met modules
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe en wanneer u modules in Microsoft Dynamics 365 Commerce gebruikt.
+In dit artikel wordt beschreven hoe en wanneer u modules in Microsoft Dynamics 365 Commerce gebruikt.
 
 Modules zijn logische bouwstenen die de paginastructuur vormen en verschillende doeleinden en bereiken hebben. Sommige modules zijn containers op een hoog niveau en zijn alleen bedoeld voor het vasthouden en organiseren van andere modules (onderliggende modules). Andere modules, zoals een eenvoudige afbeeldingsmodule, hebben een specifiek doel. Modules, zoals carrouselmodules, vallen ergens tussen deze twee categorieën.
 
@@ -151,7 +151,7 @@ Voer de volgende stappen uit om een containermodule op een pagina te configurere
 
 1. Selecteer een containermodule op de pagina (bijvoorbeeld een carrousel of een vloeibare containermodule).
 1. Vouw in het deelvenster Eigenschappen rechts de geneste besturingselementen uit door de kopteksten te selecteren en stel de vereiste waarden voor besturingselementen in.
-1. Selecteer in het overzichtsvenster aan de linkerkant de knop met het weglatingsteken naast de naam van de containermodule of van vakken in de container, en selecteer **Module toevoegen**. Voeg vervolgens onderliggende modules toe aan de geselecteerde container. Zie de sectie [Werken met modules](#add-a-module) eerder in dit onderwerp voor meer informatie.
+1. Selecteer in het overzichtsvenster aan de linkerkant de knop met het weglatingsteken naast de naam van de containermodule of van vakken in de container, en selecteer **Module toevoegen**. Voeg vervolgens onderliggende modules toe aan de geselecteerde container. Zie de sectie [Werken met modules](#add-a-module) eerder in dit artikel voor meer informatie.
 1. Als er meerdere onderliggende modules op hetzelfde niveau zijn in een bovenliggende container, kunt u de weergavevolgorde in de bovenliggende container wijzigen. Selecteer de knop met het weglatingsteken voor een module en gebruik vervolgens de knoppen pijl-omhoog en pijl-omlaag.
 
 ## <a name="additional-resources"></a>Aanvullende resources

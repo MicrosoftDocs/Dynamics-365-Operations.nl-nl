@@ -1,6 +1,6 @@
 ---
 title: Leveringsmethoden en toeslagen van callcenters configureren
-description: In dit onderwerp wordt het instellen van methodes voor levering en toeslagen voor een callcenterorder in Dynamics 365 Commerce beschreven.
+description: In dit artikel wordt het instellen van methodes voor levering en toeslagen voor een callcenterorder in Dynamics 365 Commerce beschreven.
 author: josaw1
 ms.date: 04/26/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bd763082969079de2d68e12483ec25871c332e4067f122c6a845d3acd477af62
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f445e9dabd0210951609170369eae63bcc30ce6b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748566"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888293"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Leveringsmethoden en toeslagen van callcenters configureren
 
@@ -35,7 +35,7 @@ Commerce heeft mogelijkheden waarmee gebruikers de leveringsmethoden die kunnen 
 
 Voordat u opgeeft welke leveringsmethoden kunnen worden gebruikt voor callcenterorders en de bijbehorende regels en toeslagen definieert, moet u de leveringsmethoden definiëren. Ga naar **Verkoop en marketing \> Instellen \> Distributie \> Leveringsmethoden**. Selecteer **Nieuw** om een nieuwe leveringsmethode te maken. U kunt ook een bestaande leveringsmethode selecteren in de lijst en vervolgens **Bewerken** selecteren om wijzigingen aan te brengen.
 
-In het veld **Leveringsmethode** kunt u elke combinatie van alfanumerieke tekens invoeren, op basis van uw zakelijke behoeften. U kunt vervolgens het veld **Omschrijving** gebruiken om extra context te bieden. De velden **Toeslagengroep** en **Spoed** zijn optioneel en worden verderop in dit onderwerp gedetailleerder beschreven.
+In het veld **Leveringsmethode** kunt u elke combinatie van alfanumerieke tekens invoeren, op basis van uw zakelijke behoeften. U kunt vervolgens het veld **Omschrijving** gebruiken om extra context te bieden. De velden **Toeslagengroep** en **Spoed** zijn optioneel en worden verderop in dit artikel gedetailleerder beschreven.
 
 Voeg op het sneltabblad **Commerce-kanalen** een eventueel kanaal in dat de leveringsmethode mag gebruiken wanneer verkooptransacties worden gemaakt in dat kanaal.
 

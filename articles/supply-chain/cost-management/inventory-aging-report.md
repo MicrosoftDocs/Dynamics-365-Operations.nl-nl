@@ -1,6 +1,6 @@
 ---
-title: Voorbeelden en logica voor naar ouderdom gerangschikt voorraadrapport
-description: Dit onderwerp bevat enkele voorbeelden voor het interpreteren van de resultaten van een naar ouderdom gerangschikt voorraadrapport.
+title: Voorbeelden en logica voorraadverouderingsrapporten
+description: Dit artikel bevat enkele voorbeelden voor het interpreteren van de resultaten van een naar ouderdom gerangschikt voorraadrapport.
 author: JennySong-SH
 ms.date: 5/29/2020
 ms.topic: article
@@ -16,24 +16,24 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-5-29
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4cfffa49f802c601da391617b123134c435fba92
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 40066431ddfb9644c059025eac55d1b36789882e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672341"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848015"
 ---
-# <a name="inventory-aging-report-examples-and-logic"></a>Voorbeelden en logica voor naar ouderdom gerangschikt voorraadrapport
+# <a name="inventory-aging-report-examples-and-logic"></a>Voorbeelden en logica voorraadverouderingsrapporten
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat enkele voorbeelden voor het interpreteren van de resultaten van een **Naar ouderdom gerangschikt voorraadrapport**. Dit rapport categoriseert de voorhanden hoeveelheid en voorraadwaarden voor een geselecteerd artikel of een geselecteerde artikelgroep in verschillende periodebuckets. In dit onderwerp wordt ook de interne logica van het rapport weergegeven.
+Dit artikel bevat enkele voorbeelden voor het interpreteren van de resultaten van een **naar ouderdom gerangschikt voorraadrapport**. Dit rapport categoriseert de voorhanden hoeveelheid en voorraadwaarden voor een geselecteerd artikel of een geselecteerde artikelgroep in verschillende periodebuckets. In dit artikel wordt ook de interne logica van het rapport weergegeven.
 
-In de voorbeelden in dit onderwerp worden resultaten weergegeven in een standaard **naar ouderdom gerangschikt voorraadrapport**. In het algemeen is het echter raadzaam om de [opslagversie van het naar ouderdom gerangschikte voorraadrapport](inventory-aging-report-storage.md) te gebruiken, vooral wanneer u veel artikelen en magazijnen moet verwerken. Met Opslag naar ouderdom gerangschikt rapport wordt elk gegenereerd rapport opgeslagen, worden de resultaten weergegeven als een interactieve pagina en een grafiek, en kunt u elk opgeslagen rapport exporteren.
+In de voorbeelden in dit artikel worden resultaten weergegeven in een standaard **naar ouderdom gerangschikt voorraadrapport**. In het algemeen is het echter raadzaam om de [opslagversie van het naar ouderdom gerangschikte voorraadrapport](inventory-aging-report-storage.md) te gebruiken, vooral wanneer u veel artikelen en magazijnen moet verwerken. Met Opslag naar ouderdom gerangschikt rapport wordt elk gegenereerd rapport opgeslagen, worden de resultaten weergegeven als een interactieve pagina en een grafiek, en kunt u elk opgeslagen rapport exporteren.
 
 ## <a name="sample-data-that-is-used-in-these-examples"></a>Voorbeeldgegevens die in deze voorbeelden worden gebruikt
 
-De voorbeelden in dit onderwerp zijn gebaseerd op de voorbeeldgegevens voor voorraadtransacties die in deze sectie worden beschreven.
+De voorbeelden in dit artikel zijn gebaseerd op de voorbeeldgegevens voor voorraadtransacties die in deze sectie worden beschreven.
 
 ### <a name="storage-dimension-setup"></a>Instellingen opslagdimensiegroep
 

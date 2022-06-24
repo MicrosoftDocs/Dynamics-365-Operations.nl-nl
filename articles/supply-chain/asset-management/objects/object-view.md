@@ -1,6 +1,6 @@
 ---
 title: Activaweergave
-description: In dit onderwerp wordt de activaweergave in Activabeheer beschreven.
+description: In dit artikel wordt de activaweergave in Activabeheer beschreven.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4265928fc5cb899a77eee6e5b9ff0a928efbe99c99ec7fe31eecffcb0f98f752
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a416dbea0bab8f6a506ae5cfbfc4feeae8edfe29
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765533"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882716"
 ---
 # <a name="asset-view"></a>Activaweergave
 
@@ -28,7 +28,7 @@ ms.locfileid: "6765533"
 
  
 
-In dit onderwerp wordt de activaweergave in Activabeheer beschreven. Op de pagina **Activaweergave** worden actieve activa en functionele locaties weergegeven in een structuurweergave. Daarom kunt u gemakkelijk een overzicht van de activarelaties met functionele locaties bekijken. Bovendien kunt u gedetailleerde informatie over functionele locaties, activa en gerelateerde stuklijsten weergeven. U kunt ook een snel overzicht krijgen van actieve onderhoudsaanvragen en werkorders die betrekking hebben op een activum.
+In dit artikel wordt de activaweergave in Activabeheer beschreven. Op de pagina **Activaweergave** worden actieve activa en functionele locaties weergegeven in een structuurweergave. Daarom kunt u gemakkelijk een overzicht van de activarelaties met functionele locaties bekijken. Bovendien kunt u gedetailleerde informatie over functionele locaties, activa en gerelateerde stuklijsten weergeven. U kunt ook een snel overzicht krijgen van actieve onderhoudsaanvragen en werkorders die betrekking hebben op een activum.
 
 1. Selecteer **Activabeheer** \> **Algemeen** \> **Activa** \> **Activaweergave**.
 2. Als u de weergave wilt wijzigen die op de pagina wordt weergegeven, selecteert u een nieuwe waarde in het veld **Weergave**.

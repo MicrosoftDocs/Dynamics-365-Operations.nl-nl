@@ -1,6 +1,6 @@
 ---
 title: Prestaties van planningsengine verbeteren
-description: Dit onderwerp biedt informatie over de planningsengine en over hoe u de prestaties kunt verbeteren.
+description: Dit artikel biedt informatie over de planningsengine en over hoe u de prestaties kunt verbeteren.
 author: t-benebo
 ms.date: 09/03/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 972e566153b7423398b2ad4a4e70b264f02c40cd
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: f5ece3672bba352e02808248c91366539423d682
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469001"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854292"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Prestaties van planningsengine verbeteren
 
@@ -29,7 +29,7 @@ ms.locfileid: "8469001"
 
 De planningsengine voor resources wordt gebruikt bij het plannen van routes voor geplande en vrijgegeven productieorders. De engine werd oorspronkelijk uitgebracht als onderdeel van Dynamics AX 2012 en heeft sinds de release verschillende verbeteringen ondergaan.
 
-Het [probleem van taakplanning op de werkvloer](https://en.wikipedia.org/wiki/Job_shop_scheduling) is een uitzonderlijk ingewikkelde gecombineerde kwestie waarbij de oplossingstijd exponentieel toeneemt met het aantal beslissingsvariabelen. Vaak hebben klanten productieroutes en gerelateerde gegevens ingesteld op een manier die leidt tot een planningsprobleem dat niet binnen redelijke tijd kan worden opgelost, zelfs op de meest moderne hardware. Dit onderwerp helpt u bij het begrijpen van de planningsengine en biedt inzicht in hoe een bepaalde instelling invloed op de prestaties kan hebben.
+Het [probleem van taakplanning op de werkvloer](https://en.wikipedia.org/wiki/Job_shop_scheduling) is een uitzonderlijk ingewikkelde gecombineerde kwestie waarbij de oplossingstijd exponentieel toeneemt met het aantal beslissingsvariabelen. Vaak hebben klanten productieroutes en gerelateerde gegevens ingesteld op een manier die leidt tot een planningsprobleem dat niet binnen redelijke tijd kan worden opgelost, zelfs op de meest moderne hardware. Dit artikel helpt u bij het begrijpen van de planningsengine en biedt inzicht in hoe een bepaalde instelling invloed op de prestaties kan hebben.
 
 Wanneer u de prestaties van de planning wilt verbeteren, is het raadzaam de complexiteit te reduceren van het probleem dat door de engine moet worden opgelost. Enkele van de belangrijkste factoren die van invloed kunnen zijn op de prestaties zijn:
 

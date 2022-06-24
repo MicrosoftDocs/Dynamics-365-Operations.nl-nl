@@ -1,6 +1,6 @@
 ---
 title: Parameters die niet worden gebruikt door Planningsoptimalisatie
-description: In dit onderwerp worden de parameters vermeld waarmee tijdens de bewerking van Planningsoptimalisatie momenteel geen rekening wordt houden.
+description: In dit artikel worden de parameters vermeld waarmee tijdens de bewerking van Planningsoptimalisatie momenteel geen rekening wordt houden.
 author: t-benebo
 ms.date: 09/02/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 82bdd522b5b6ca1cf149f9fea508d8d6a96a1466
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 3791ac804b78a20d0051881a83cb075e56ec8639
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469109"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907343"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Parameters die niet worden gebruikt door Planningsoptimalisatie
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp worden de parameters vermeld waarmee tijdens de bewerking van Planningsoptimalisatie momenteel geen rekening wordt houden. Een parameter kan worden overgeslagen, bijvoorbeeld omdat gerelateerde functionaliteit nog niet wordt ondersteund. De parameter kan ook verouderd zijn geraakt als gevolg van functionele wijzigingen.
+In dit artikel worden de parameters vermeld waarmee tijdens de bewerking van Planningsoptimalisatie momenteel geen rekening wordt houden. Een parameter kan worden overgeslagen, bijvoorbeeld omdat gerelateerde functionaliteit nog niet wordt ondersteund. De parameter kan ook verouderd zijn geraakt als gevolg van functionele wijzigingen.
 
 In de volgende secties vindt u een overzicht van de parameters die tijdens Planningsoptimalisatie niet worden gebruikt op specifieke pagina's. Er wordt ook uitgelegd waarom elke parameter niet wordt gebruikt.
 

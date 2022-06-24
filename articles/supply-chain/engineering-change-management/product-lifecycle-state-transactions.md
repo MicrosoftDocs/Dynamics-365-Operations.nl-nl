@@ -1,6 +1,6 @@
 ---
 title: Levenscyclusstatussen van producten en transacties
-description: In dit onderwerp wordt besproken hoe u kunt beheren welke transacties zijn toegestaan voor elke levenscyclusstatus naarmate een technisch product de levenscyclus doorloopt.
+description: In dit artikel wordt besproken hoe u kunt beheren welke transacties zijn toegestaan voor elke levenscyclusstatus naarmate een technisch product de levenscyclus doorloopt.
 author: t-benebo
 ms.date: 02/17/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1e9b8a9f25edfa654a57e0ab4071cd93c8033d85
-ms.sourcegitcommit: d375ef4138e898621416754c40770d8ccca4d271
+ms.openlocfilehash: dd9155f799c66e8297b93d8ffbeeced1acd14220
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322739"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867951"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Levenscyclusstatussen van producten en transacties
 
@@ -37,7 +37,7 @@ Als u wilt werken met levenscyclusstatussen voor producten, gaat u naar **Beheer
 - Als u een bestaande levenscyclusstatus wilt verwijderen, selecteert u deze in het lijstvenster en selecteert u **Verwijderen** in het actievenster.
 
 > [!NOTE]
-> Technische producten gebruiken dezelfde levenscyclusstatussen als standaard producten (niet-technisch). U kunt ook de pagina **Levenscyclusstatus van product**, beschreven in dit onderwerp, openen door naar **Productgegevenseheer \> Instellingen \> Levenscyclusstatus van product** te gaan. Voor meer informatie over de levenscyclusstatus van producten, voor zowel technische producten als standaardproducten, gaat u naar [Overzicht van Levenscyclusstatus van producten](../pim/product-lifecycle.md).
+> Technische producten gebruiken dezelfde levenscyclusstatussen als standaard producten (niet-technisch). U kunt ook de pagina **Levenscyclusstatus van product**, beschreven in dit artikel, openen door naar **Productgegevenseheer \> Instellingen \> Levenscyclusstatus van product** te gaan. Voor meer informatie over de levenscyclusstatus van producten, voor zowel technische producten als standaardproducten, gaat u naar [Overzicht van Levenscyclusstatus van producten](../pim/product-lifecycle.md).
 
 ### <a name="header"></a>Koptekst
 

@@ -1,6 +1,6 @@
 ---
 title: Orders opzoeken voor gastbetalingen
-description: In dit onderwerp wordt beschreven hoe u orders opzoeken voor gastbetalingen inschakelt in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt beschreven hoe u orders opzoeken voor gastbetalingen inschakelt in Microsoft Dynamics 365 Commerce.
 author: stuharg
 ms.date: 12/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: a2a10b122faae354b0ea002e43a9bd60157f6216
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: fe32bb59b6529dd9686ced92c1016f12a75a32d4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891493"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891982"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>Orders opzoeken voor gastbetalingen
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u orders opzoeken voor gastbetalingen inschakelt in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt beschreven hoe u orders opzoeken voor gastbetalingen inschakelt in Microsoft Dynamics 365 Commerce.
 
 Met de functie voor het opzoeken van orders voor gastbetalingen kunnen klanten die aankopen doen als gastgebruikers, hun orders opzoeken. De opzoekmogelijkheid voor orders is handig wanneer klanten acties willen uitvoeren, zoals het controleren van de afhandelingsstatus van producten op een order, het controleren van het adres waarnaar een order is verzonden, het opnieuw bestellen van een product of het bevestigen van de winkel waar een order wordt opgehaald.
 

@@ -1,6 +1,6 @@
 ---
 title: Orders verzenden als rechtstreekse leveringen
-description: Dit onderwerp toont hoe een rechtstreekse levering voor een verkooporder wordt gemaakt.
+description: Dit artikel toont hoe een rechtstreekse levering voor een verkooporder wordt gemaakt.
 author: Henrikan
 ms.date: 07/11/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 94890b0915a49052c298090f124cf2b91c462de8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f5f145bacecc47a782c60335c6ff5b79f978007c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572436"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875154"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Orders verzenden als rechtstreekse leveringen
 
 [!include [banner](../../includes/banner.md)]
 
-Dit onderwerp toont hoe een rechtstreekse levering voor een verkooporder wordt gemaakt. U gebruikt rechtstreekse levering wanneer u goederen rechtstreeks van uw leverancier naar de klant wilt verzenden in plaats van deze eerst naar uw eigen magazijn te verzenden. U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens. Om de tweede subtaak 'Rechtstreekse leveringen vanaf de workbench maken' met succes te voltooien, controleert u dat er voor het artikel dat u op de verkooporder kiest een standaardleverancier is opgegeven op het sneltabblad Inkoop van het model Vrijgegeven product.
+Dit artikel toont hoe een rechtstreekse levering voor een verkooporder wordt gemaakt. U gebruikt rechtstreekse levering wanneer u goederen rechtstreeks van uw leverancier naar de klant wilt verzenden in plaats van deze eerst naar uw eigen magazijn te verzenden. U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens. Om de tweede subtaak 'Rechtstreekse leveringen vanaf de workbench maken' met succes te voltooien, controleert u dat er voor het artikel dat u op de verkooporder kiest een standaardleverancier is opgegeven op het sneltabblad Inkoop van het model Vrijgegeven product.
 
 ## <a name="set-an-individual-order-for-direct-delivery"></a>Een afzonderlijk order voor rechtstreekse levering instellen
 1. Ga naar **Navigatievenster > Modules > Klanten > Orders > Alle verkooporders**.

@@ -1,6 +1,6 @@
 ---
 title: Voorbereiding van het onderhoud van standaardkosten voor gefabriceerde artikelen
-description: Dit onderwerp beschrijft de stappen voor het voorbereiden van het beheer van kosten voor gefabriceerde artikelen.
+description: Dit artikel beschrijft de stappen voor het voorbereiden van het beheer van kosten voor gefabriceerde artikelen.
 author: JennySong-SH
 ms.date: 01/17/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d42f61bcd44e89f0563c8f7450a1cdd6fd0e3ce
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 423da8022faf8066c5aa524c49c5071d0871de04
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679130"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886010"
 ---
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>Voorbereiding van het onderhoud van standaardkosten voor gefabriceerde artikelen
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp beschrijft de stappen voor het voorbereiden van het beheer van kosten voor gefabriceerde artikelen. De stappen voor gefabriceerde artikelen verschillen enigszins van de stappen voor ingekochte artikelen.
+Dit artikel beschrijft de stappen voor het voorbereiden van het beheer van kosten voor gefabriceerde artikelen. De stappen voor gefabriceerde artikelen verschillen enigszins van de stappen voor ingekochte artikelen.
 
 Beleidsregels die aan gefabriceerde artikelen zijn toegewezen, kunnen gevolgen hebben voor de kostprijsberekeningen voor de bovenliggende gefabriceerde artikelen. Voer de volgende stappen uit om kosten voor gefabriceerde artikelen te onderhouden.
 
@@ -63,7 +63,7 @@ Beleidsregels die aan gefabriceerde artikelen zijn toegewezen, kunnen gevolgen h
 
 Als u routegegevens wilt gebruiken voor kostprijsberekening, zijn er extra voorbereidende stappen vereist. Zo moeten de kostencategorieën die aan routebewerkingen zijn toegewezen, juist en volledig zijn.
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-articles"></a>Gerelateerde artikelen
 
 [Constante kosten voor een gefabriceerd artikel afschrijven](amortize-constant-costs-manufactured-item.md)
 

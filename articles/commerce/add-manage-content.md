@@ -1,6 +1,6 @@
 ---
 title: Manieren om inhoud toe te voegen
-description: Dit onderwerp bevat een overzicht en specifieke koppelingen voor waar en hoe u kunt beginnen met het beheer van content met behulp van de webontwerpwerkset Microsoft Dynamics 365 Commerce Site Builder.
+description: Dit artikel bevat een overzicht en specifieke koppelingen voor waar en hoe u kunt beginnen met het beheer van content met behulp van de webontwerpwerkset Microsoft Dynamics 365 Commerce Site Builder.
 author: phinneyridge
 ms.date: 10/09/2020
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f8a2dbb7bc7659e2e23b0ba6e2b5645dbe508ef9c9bda10df3bad8d04a6cfb32
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7f01de31e4eca1266066b4fcf1c92b429bfc71c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727673"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871749"
 ---
 # <a name="ways-to-add-content"></a>Manieren om inhoud toe te voegen
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp bevat een overzicht en koppelingen naar documentatie over het beheer van content met behulp van de webontwerpwerkset Microsoft Dynamics 365 Commerce Site Builder.
+Dit artikel bevat een overzicht en koppelingen naar documentatie over het beheer van content met behulp van de webontwerpwerkset Microsoft Dynamics 365 Commerce Site Builder.
 
 Er zijn vele manieren om het uiterlijk en de inhoud van uw site te wijzigen. Afhankelijk van het vereiste aanpassingsniveau kunnen veel van deze wijzigingen door niet-ontwikkelaars worden geïmplementeerd in Site Builder, de webontwerpwerkset van Dynamics 365 Commerce. Met Site Builder kunt u sjablonen maken, thema's selecteren en modules selecteren en configureren zonder code te schrijven. Ontwikkelvaardigheden zijn daarentegen wel vereist voor het maken van een nieuw thema of een nieuwe module, omdat daarvoor de e-commerce Software Development Kit (SDK) en de implementatiewerkstroom voor Microsoft Dynamics Lifecycle Services (LCS) moeten worden gebruikt.
 
-De volgende onderwerpen zijn goede uitgangspunten om inzicht te krijgen in hoe u sitecontent toevoegt en beheert. De meeste onderwerpen die hier worden genoemd, zijn gericht op aspecten van uw site waarvoor geen ontwikkelaar nodig is. Sommige gaan over basisbewerkingen van de content, terwijl andere betrekking hebben op de taken van sitebeheerders. In al deze onderwerpen worden specifieke taken aangegeven waarvoor mogelijk SDK-werk nodig is. In elk onderwerp wordt ervan uitgegaan dat u al een site hebt ingericht en toegang hebt gekregen tot de Site Builder-werkset voor uw site.
+De volgende artikelen zijn goede uitgangspunten om inzicht te krijgen in hoe u sitecontent toevoegt en beheert. De meeste artikelen die hier worden genoemd, zijn gericht op aspecten van uw site waarvoor geen ontwikkelaar nodig is. Sommige gaan over basisbewerkingen van de content, terwijl andere betrekking hebben op de taken van sitebeheerders. In al deze artikelen worden specifieke taken aangegeven waarvoor mogelijk SDK-werk nodig is. In elk artikel wordt ervan uitgegaan dat u al een site hebt ingericht en toegang hebt gekregen tot de Site Builder-werkset voor uw site.
 
-Selecteer een van de volgende onderwerpen om aan de slag te gaan.
+Selecteer een van de volgende artikelen om aan de slag te gaan.
 
 - Zie [Woordenlijst voor paginamodellen](page-elements-overview.md) om vertrouwd te raken met de terminologie voor contentbeheer die wordt gebruikt in Site Builder en in deze documentatie.
 - Zie [Werken met modules](work-with-modules.md) voor informatie over het werken met modules in werkstromen voor contentbeheer.

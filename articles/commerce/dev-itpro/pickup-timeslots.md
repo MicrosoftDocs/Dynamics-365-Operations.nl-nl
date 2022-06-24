@@ -1,6 +1,6 @@
 ---
 title: Tijdvakken voor het ophalen door klanten maken en bijwerken
-description: In dit onderwerp wordt beschreven hoe u tijdvakken voor kunt maken, configureren en bijwerken in Commerce Headquarters.
+description: In dit artikel wordt beschreven hoe u tijdvakken voor kunt maken, configureren en bijwerken in Commerce Headquarters.
 author: anupamar-ms
 ms.date: 01/05/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: a9ee1356bfcaeee881c28cf0361b34b2c65acbc7a3b57347fa2581a8a935da42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a135f592225e4b388b5c9fdaa5fe23e60baf0185
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713416"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882228"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Tijdvakken voor het ophalen door klanten maken en bijwerken
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u tijdvakken voor kunt maken, configureren en bijwerken in Commerce Headquarters.
+In dit artikel wordt beschreven hoe u tijdvakken voor kunt maken, configureren en bijwerken in Commerce Headquarters.
 
 Met de tijdvakfunctie kan een detailhandelaar een tijdvak definiëren voor artikelen waarbij de klanten ervoor kunnen kiezen dit op te halen. Met tijdvakken kunnen detailhandelaren de dagen en tijden definiëren wanneer orders kunnen worden opgehaald uit een winkel. Detailhandelaren kunnen ook het aantal orders definiëren dat tijdens een bepaalde periode kan worden opgehaald. Op deze manier kunnen detailhandelaren het aantal orders beperken dat op een bepaalde dag en op een bepaalde tijd kan worden opgehaald. Het resultaat is een betere kwaliteitservaring voor klanten.
 

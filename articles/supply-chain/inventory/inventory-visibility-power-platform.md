@@ -1,8 +1,8 @@
 ---
 title: App Voorraadzichtbaarheid
-description: In dit onderwerp wordt beschreven hoe u de app Voorraadzichtbaarheid gebruikt.
+description: In dit artikel wordt beschreven hoe u de app Voorraadzichtbaarheid gebruikt.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 359f89f98ca6954a0bbafd63fffa1d505a43f0c8
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: db158e3b6ae76f69149db04096f99d3dc4251146
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060967"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895752"
 ---
-# <a name="use-the-inventory-visibility-app"></a>De app Voorraadzichtbaarheid gebruiken
+# <a name="use-the-inventory-visibility-app"></a>De app Inventory Visibility gebruiken
 
 [!include [banner](../includes/banner.md)]
 
 
-In dit onderwerp wordt beschreven hoe u de app Voorraadzichtbaarheid gebruikt.
+In dit artikel wordt beschreven hoe u de app Voorraadzichtbaarheid gebruikt.
 
 Voorraadzichtbaarheid biedt een modelgestuurde app voor visualisatie. De app bevat drie pagina's: **Configuratie**, **Operationele zichtbaarheid** en **Voorraadoverzicht**. De app biedt de volgende functies:
 
@@ -70,7 +70,10 @@ Als u een reserveringsaanvraag wilt boeken, moet u een waarde in de aanvraagbody
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>Voorraadoverzicht
 
-**Voorraadoverzicht** is een aangepaste weergave voor de entiteit *Inventory OnHand Sum*. Het overzicht biedt een voorraadoverzicht voor producten samen met alle dimensies. De overzichtsgegevens van de voorraad worden periodiek gesynchroniseerd vanuit Voorraadzichtbaarheid. Voordat u gegevens kunt bekijken op het tabblad **Voorraadoverzicht**, moet u de functie *OnHandMostSpecificBackoverzichtService* op het tabblad **Functiebeheer** inschakelen.
+**Voorraadoverzicht** is een aangepaste weergave voor de entiteit *Inventory OnHand Sum*. Het overzicht biedt een voorraadoverzicht voor producten samen met alle dimensies. Voorraadoverzichtsgegevens worden elke 15 minuten gesynchroniseerd vanuit Voorraadzichtbaarheid. Om gegevens te kunnen bekijken op het tabblad **Voorraadoverzicht**, moet u de functie *OnHandMostSpecificBackgroundService* op het tabblad **Functiebeheer** inschakelen en **Configuratie bijwerken** selecteren.
+
+> [!NOTE]
+> Met de functie *OnHandMostSpecificBackgroundService* worden alleen wijzigingen in voorhanden producten bijgehouden die hebben plaatsgevonden nadat u de functie hebt ingeschakeld. Gegevens voor producten die niet zijn gewijzigd nadat u de functie hebt ingeschakeld, worden niet van de voorraadservicecache naar de Dataverse-omgeving gesynchroniseerd. Als op uw pagina **Voorraadoverzicht** niet alle informatie wordt weergegeven die u verwacht, gaat u naar **Voorraadbeheer > Periodieke taken > Integratie met Voorraadoverzicht** en schakelt u de batchtaak uit en weer in. De eerste push wordt nu uitgevoerd en alle gegevens worden de volgende 15 minuten gesynchroniseerd met de entiteit *Totaal voorhanden voorraad*. Als u deze functie wilt gebruiken, raden we u aan om deze in te schakelen voordat u wijzigingen in voorhanden voorraad aanbrangt en de batchtaak **Integratie van voorraadzichtbaarheid** inschakelt.
 
 Met het **Geavanceerde filter** dat Dataverse biedt, kunt u een persoonlijke weergave maken met de rijen die belangrijk voor u zijn. Met de opties van het geavanceerde filter kunt u een breed scala weergaven maken, van eenvoudig tot complex. Met deze filters kunt u ook gegroepeerde en geneste voorwaarden aan de filters toevoegen. Zie [Persoonlijke weergaven maken of bewerken met geavanceerde rasterfilters](/powerapps/user/grid-filters-advanced) voor meer informatie over het gebruik van **Geavanceerd filter**.
 

@@ -1,6 +1,6 @@
 ---
 title: Niet-conformeringen maken en verwerken
-description: In dit onderwerp wordt het beheer van niet-conformeringen, op basis van een bestaande kwaliteitsorder, beschreven.
+description: In dit artikel wordt het beheer van niet-conformeringen, op basis van een bestaande kwaliteitsorder, beschreven.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 032f5b712c2be5312524129cd25e655e778f5f44
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: dd8a10e88ab4d1be24a11739dddd7619b3fa6bbc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580859"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901961"
 ---
 # <a name="create-and-process-nonconformances"></a>Niet-conformeringen maken en verwerken
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt het beheer van niet-conformeringen, op basis van een bestaande kwaliteitsorder, beschreven. Het beheer van niet-conformeringen wordt meestal uitgevoerd door een kwaliteitbewakingsmedewerker. Een voorwaarde hiervoor is dat een kwaliteitsorder beschikbaar is. (Zie voor informatie over het maken van een kwaliteitsorder [De kwaliteit van goederen inspecteren](inspect-quality-goods.md).)
+In dit artikel wordt het beheer van niet-conformeringen, op basis van een bestaande kwaliteitsorder, beschreven. Het beheer van niet-conformeringen wordt meestal uitgevoerd door een kwaliteitbewakingsmedewerker. Een voorwaarde hiervoor is dat een kwaliteitsorder beschikbaar is. (Zie voor informatie over het maken van een kwaliteitsorder [De kwaliteit van goederen inspecteren](inspect-quality-goods.md).)
 
 Voordat een gebruiker de goedkeuring van een niet-conformering kan verwerken, moet een medewerker aan deze gebruiker zijn toegewezen in het veld **Persoon** op de pagina **Gebruikers**. Voordat de gebruiker de documentnotities kan gebruiken, moet bovendien de optie **Documentverwerking inschakelen** zijn ingesteld op *Ja* in diens gebruikersopties.
 

@@ -1,6 +1,6 @@
 ---
 title: Gepropageerde velden configureren voor stappen in de mobiele app Warehouse Management
-description: In dit onderwerp wordt beschreven hoe u specifieke informatie propageert en markeert voor stappen in de taakstromen voor de mobiele app Warehouse Management.
+description: In dit artikel wordt beschreven hoe u specifieke informatie propageert en markeert voor stappen in de taakstromen voor de mobiele app Warehouse Management.
 author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,21 +11,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 0ce3fb829d349a35c6c2f29838a2c725f7b61c55
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 5f5f24f47d0a2376be714f9208cd383cf3aacc07
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920318"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857049"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>Gepropageerde velden configureren voor stappen in de mobiele app Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> De functies die in dit onderwerp worden beschreven, zijn alleen van toepassing op de nieuwe mobiele app van Warehouse Management. Deze hebben geen invloed op de oude magazijn-app, die nu is afgeschaft.
+> De functies die in dit artikel worden beschreven, zijn alleen van toepassing op de nieuwe mobiele app van Warehouse Management. Deze hebben geen invloed op de oude magazijn-app, die nu is afgeschaft.
 
-In dit onderwerp wordt beschreven hoe u specifieke informatie propageert en markeert voor stappen in de taakstromen voor de mobiele app Warehouse Management. Deze mogelijkheid kan de aandacht van werknemers op de belangrijkste velden helpen houden wanneer ze een stroom verwerken. Voor elke stap in elk proces kunnen beheerders selecteren welke velden moeten worden gepropageerd en gemarkeerd.
+In dit artikel wordt beschreven hoe u specifieke informatie propageert en markeert voor stappen in de taakstromen voor de mobiele app Warehouse Management. Deze mogelijkheid kan de aandacht van werknemers op de belangrijkste velden helpen houden wanneer ze een stroom verwerken. Voor elke stap in elk proces kunnen beheerders selecteren welke velden moeten worden gepropageerd en gemarkeerd.
 
 ## <a name="enable-promoted-fields-in-your-system"></a>Gepropageerde velden in het systeem inschakelen
 
@@ -44,7 +44,7 @@ Voordat u gepropageerde velden kunt instellen, moet u de volgende procedure uitv
     - **Module:** *Magazijnbeheer*
     - **Functienaam:** *Gepropageerde velden van magazijnapp*
 
-    Deze functie is de functie die in dit onderwerp wordt beschreven.
+    Deze functie is de functie die in dit artikel wordt beschreven.
 
 1. Werk de veldnamen in de mobiele app Warehouse Management bij door te gaan naar **Magazijnbeheer \> Instellingen \> Mobiel apparaat \> Veldnamen van Warehouse-app** en **Standaardinstelling maken** te selecteren. Zie [Velden configureren voor de mobiele app Magazijnbeheer](configure-app-field-names-priorities-warehouse.md) voor meer informatie.
 1. Herhaal de vorige stap voor elke rechtspersoon (bedrijf) waar u de mobiele app Warehouse Management gebruikt.
@@ -56,7 +56,7 @@ U kunt de volgende procedure gebruiken om gepropageerde velden in te stellen.
 1. Maak een menuspecifieke overschrijving voor het relevante menu en de relevante stap, zoals beschreven in [Staptitels en instructies aanpassen voor de mobiele app Warehouse Management](mobile-app-titles-instructions.md).
 1. Zoek de combinatie van de waarden **Stap-ID** en **Naam van het menu-item** die u wilt bewerken, en selecteer vervolgens de waarde in de kolom **Stap-ID**.
 1. Selecteer op de pagina die verschijnt, het sneltabblad **Gepropageerde velden selecteren** en **Velden selecteren** op de werkbalk.
-1. Selecteer in het dialoogvenster **Gepropageerde velden** de velden die u wilt propageren. U kunt ook maximaal twee van de geselecteerde velden markeren. Gemarkeerde velden worden vet weergegeven in de mobiele app Warehouse Management. Houd er bij het selecteren van velden rekening mee dat sommige schermen groot genoeg zijn om alleen de bovenste een of twee gepropageerde velden weer te geven. Zie het scenario verderop in dit onderwerp voor een voorbeeld over het gebruik van deze instellingen.
+1. Selecteer in het dialoogvenster **Gepropageerde velden** de velden die u wilt propageren. U kunt ook maximaal twee van de geselecteerde velden markeren. Gemarkeerde velden worden vet weergegeven in de mobiele app Warehouse Management. Houd er bij het selecteren van velden rekening mee dat sommige schermen groot genoeg zijn om alleen de bovenste een of twee gepropageerde velden weer te geven. Zie het scenario verderop in dit artikel voor een voorbeeld over het gebruik van deze instellingen.
 
     > [!NOTE]
     > De lijst **Beschikbare velden** beperkt zich tot de velden die kunnen worden weergegeven voor het menu-item. Andere factoren (zoals artikelsamenstelling) bepalen echter of een veld werkelijk in de mobiele app Warehouse Management wordt weergegeven. Als u gepropageerde velden hebt geconfigureerd, worden alleen de geselecteerde velden weergegeven op de hoofdpagina van de mobiele app Warehouse Management. Werknemers kunnen echter nog steeds de resterende velden bekijken door te tikken op de detailpagina.

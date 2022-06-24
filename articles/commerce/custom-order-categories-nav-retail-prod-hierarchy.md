@@ -1,6 +1,6 @@
 ---
 title: De sorteervolgorde voor entiteiten voor merchandising wijzigen
-description: In dit onderwerp worden de concepten beschreven die te maken hebben met het bepalen van de weergavevolgorde voor diverse merchandising-gerelateerde entiteiten in Dynamics 365 Commerce.
+description: In dit artikel worden de concepten beschreven die te maken hebben met het bepalen van de weergavevolgorde voor diverse merchandising-gerelateerde entiteiten in Dynamics 365 Commerce.
 author: josaw1
 ms.date: 08/05/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 444f1ebd99cf8443181a51d93a48b6b4d1addf4d
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 4e7a7bd42b0ef72ae6bc3f52a8857602b6282907
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779537"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847649"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>De sorteervolgorde voor entiteiten voor merchandising wijzigen
 
@@ -29,7 +29,7 @@ ms.locfileid: "7779537"
 
 Voor detailhandelaren is het kunnen vinden van producten een primair hulpmiddel voor de interactie met klanten in alle kanalen. Met behulp van diverse functies kunnen klanten gemakkelijk producten ontdekken. Ze kunnen bijvoorbeeld bladeren in categorieën, zoeken en filteren.
 
-In dit onderwerp worden de concepten beschreven die te maken hebben met het bepalen van de weergavevolgorde voor diverse merchandising-gerelateerde entiteiten. Ook wordt uitgelegd hoe u de sorteervolgorde kunt wijzigen.
+In dit artikel worden de concepten beschreven die te maken hebben met het bepalen van de weergavevolgorde voor diverse merchandising-gerelateerde entiteiten. Ook wordt uitgelegd hoe u de sorteervolgorde kunt wijzigen.
 
 ## <a name="overview"></a>Overzicht
 

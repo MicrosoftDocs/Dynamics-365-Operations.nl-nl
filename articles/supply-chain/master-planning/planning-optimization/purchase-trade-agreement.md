@@ -1,6 +1,6 @@
 ---
 title: Hoofdplanning met inkoophandelsovereenkomsten
-description: In dit onderwerp wordt beschreven hoe u met Planningsoptimalisatie de leverancier en/of doorlooptijd voor een geplande order kunt vinden op basis van de beste prijs of doorlooptijd die is gevonden in inkoophandelsovereenkomsten.
+description: In dit artikel wordt beschreven hoe u met Planningsoptimalisatie de leverancier en/of doorlooptijd voor een geplande order kunt vinden op basis van de beste prijs of doorlooptijd die is gevonden in inkoophandelsovereenkomsten.
 author: t-benebo
 ms.date: 06/29/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: cb790836042506ed6676ee7edbd8bba58191519b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 29f0f44289e44b21cb304bd1f423d63f9f58f2db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468408"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873748"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Hoofdplanning met inkoophandelsovereenkomsten
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u met Planningsoptimalisatie de leverancier en/of doorlooptijd voor een geplande order kunt vinden op basis van de beste prijs of doorlooptijd die is gevonden in alle inkoophandelsovereenkomsten die zijn opgegeven voor een bepaald product.
+In dit artikel wordt beschreven hoe u met Planningsoptimalisatie de leverancier en/of doorlooptijd voor een geplande order kunt vinden op basis van de beste prijs of doorlooptijd die is gevonden in alle inkoophandelsovereenkomsten die zijn opgegeven voor een bepaald product.
 
 ## <a name="turn-on-the-purchase-trade-agreements-for-planning-optimization-feature"></a>De functie Inkoophandelsovereenkomsten voor Planningsoptimalisatie inschakelen
 

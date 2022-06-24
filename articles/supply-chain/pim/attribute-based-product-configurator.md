@@ -1,6 +1,6 @@
 ---
 title: Op kenmerken gebaseerde verkoopprijzen voor op beperkingen gebaseerde productconfiguratie
-description: In dit onderwerp wordt beschreven hoe u verkoopprijsmodellen kunt maken met verkoopprijzen op basis van onderdelen en kenmerken in plaats van op basis van de fysieke stuklijst en de route.
+description: In dit artikel wordt beschreven hoe u verkoopprijsmodellen kunt maken met verkoopprijzen op basis van onderdelen en kenmerken in plaats van op basis van de fysieke stuklijst en de route.
 author: t-benebo
 ms.date: 10/2/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e50b2d1e9ccf03a58e0ddf6d4ecfb34c6c504161
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 456c7399f981e41ea452f1a6a8e30e9e12e0be54
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577451"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857456"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Op kenmerken gebaseerde verkoopprijzen voor op beperkingen gebaseerde productconfiguratie
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u verkoopprijsmodellen kunt maken met verkoopprijzen op basis van onderdelen en kenmerken in plaats van op basis van de fysieke stuklijst en de route. U kunt diverse verkoopprijsmodellen maken voor elk productconfiguratiemodel.
+In dit artikel wordt beschreven hoe u verkoopprijsmodellen kunt maken met verkoopprijzen op basis van onderdelen en kenmerken in plaats van op basis van de fysieke stuklijst en de route. U kunt diverse verkoopprijsmodellen maken voor elk productconfiguratiemodel.
 
 ## <a name="set-relevant-product-information-management-parameters"></a>Relevante parameters voor productgegevensbeheer instellen
 

@@ -1,8 +1,8 @@
 ---
-title: Voorraadzichtbaarheid configureren
-description: In dit onderwerp wordt beschreven hoe u Voorraadzichtbaarheid configureert.
+title: Inventory Visibility configureren
+description: In dit artikel wordt beschreven hoe u Voorraadzichtbaarheid configureert.
 author: yufeihuang
-ms.date: 12/09/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 7e42c0b49a4083edd0e64551f4840bd74d412fc1
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: 2bdb2ca0067ea430b249ac619a38c8bcec75f2f7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786833"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895810"
 ---
-# <a name="configure-inventory-visibility"></a>Voorraadzichtbaarheid configureren
+# <a name="configure-inventory-visibility"></a>Inventory Visibility configureren
 
 [!include [banner](../includes/banner.md)]
 
 
-In dit onderwerp wordt beschreven hoe u de invoegtoepassing Voorraadzichtbaarheid gebruikt met de app Voorraadzichtbaarheid in Power Apps.
+In dit artikel wordt beschreven hoe u de invoegtoepassing Voorraadzichtbaarheid gebruikt met de app Voorraadzichtbaarheid in Power Apps.
 
 ## <a name="introduction"></a><a name="introduction"></a>Inleiding
 
-Voordat u met Voorraadzichtbaarheid begint te werken, moet u de volgende configuratie voltooien zoals beschreven in dit onderwerp:
+Voordat u met Voorraadzichtbaarheid begint te werken, moet u de volgende configuratie voltooien zoals beschreven in dit artikel:
 
 - [Configuratie van de gegevensbron](#data-source-configuration)
 - [Configuratie van de partitie](#partition-configuration)
@@ -41,7 +41,7 @@ Installeer voordat u begint eerst de invoegtoepassing Voorraadzichtbaarheid en s
 
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>De configuratiepagina van de app Voorraadzichtbaarheid
 
-In Power Apps kunt u op de pagina **Configuratie** van de [app Voorraadzichtbaarheid](inventory-visibility-power-platform.md) de configuratie van voorhanden voorraad en zachte reservering instellen. Als de invoegtoepassing is geïnstalleerd, bevat de standaardconfiguratie de waarde van Microsoft Dynamics 365 Supply Chain Management (de `fno`-gegevensbron). U kunt de standaardinstellingen controleren. Daarnaast kunt u op basis van uw bedrijfsbehoeften en de voorraadboekingsvereisten van uw externe systeem de configuratie wijzigen om de manier te standaardiseren waarop voorraadwijzigingen kunnen worden geboekt, geordend en opgevraagd in de verschillende systemen. In de resterende secties van dit onderwerp wordt uitgelegd hoe u elk deel van de pagina **Configuratie** gebruikt.
+In Power Apps kunt u op de pagina **Configuratie** van de [app Voorraadzichtbaarheid](inventory-visibility-power-platform.md) de configuratie van voorhanden voorraad en zachte reservering instellen. Als de invoegtoepassing is geïnstalleerd, bevat de standaardconfiguratie de waarde van Microsoft Dynamics 365 Supply Chain Management (de `fno`-gegevensbron). U kunt de standaardinstellingen controleren. Daarnaast kunt u op basis van uw bedrijfsbehoeften en de voorraadboekingsvereisten van uw externe systeem de configuratie wijzigen om de manier te standaardiseren waarop voorraadwijzigingen kunnen worden geboekt, geordend en opgevraagd in de verschillende systemen. In de resterende secties van dit artikel wordt uitgelegd hoe u elk deel van de pagina **Configuratie** gebruikt.
 
 Nadat de configuratie is voltooid, moet u **Configuratie bijwerken** selecteren in de app.
 
@@ -54,6 +54,7 @@ Met de invoegingtoepassing Voorraadzichtbaarheid worden meerdere nieuwe functies
 | *OnHandReservation* | Met deze functie kunt u reserveringen maken, reserveringen opnemen en/of de reservering van gespecificeerde voorraadhoeveelheden ongedaan maken met behulp van Voorraadzichtbaarheid. Zie [Voorraadzichtbaarheid reserveringen](inventory-visibility-reservations.md) voor meer informatie. |
 | *OnHandMostSpecificBackgroundService* | De functie biedt een voorraadoverzicht voor producten samen met alle dimensies. De overzichtsgegevens van de voorraad worden periodiek gesynchroniseerd vanuit Voorraadzichtbaarheid. Zie [Voorraadoverzicht](inventory-visibility-power-platform.md#inventory-summary) voor meer informatie. |
 | *OnhandChangeSchedule* | Met deze optionele functie worden de functies voor planning van wijzigingen in voorhanden hoeveelheden en ATP (Available To Promise) ingeschakeld. Zie [Planning van wijzigingen in voorhanden hoeveelheid en available to promise in Voorraadzichtbaarheid](inventory-visibility-available-to-promise.md) voor meer informatie. |
+| *Toewijzing* | Met deze optionele functie wordt aan Voorraadzichtbaarheid de functie voor voorraadbeveiliging (ringfencing) toegevoegd en kan worden voorkomen dat er te veel wordt verkocht. Zie [Voorraadtoewijzing in Voorraadzichtbaarheid](inventory-visibility-allocation.md) voor meer informatie. |
 | *Magazijnartikelen inschakelen voor Voorraadzichtbaarheid* | Met deze optionele functie wordt Voorraadzichtbaarheid ingeschakeld om artikelen te ondersteunen die zijn ingeschakeld voor geavanceerde magazijnprocessen (WHS-artikelen). Zie [Ondersteuning voor Inventory Visibility voor WHS-artikelen](inventory-visibility-whs-support.md) voor meer informatie. |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Het service-eindpunt zoeken
@@ -320,6 +321,13 @@ Ga als volgt te werk om uw producthiërarchie-index in te stellen.
     - **Setnummer**: dimensies die tot dezelfde groep (index) behoren, worden gegroepeerd en krijgen hetzelfde setnummer toegewezen.
     - **Hiërarchie**: de hiërarchie wordt gebruikt om de ondersteunde dimensiecombinaties te definiëren waarop een query kan worden uitgevoerd in een dimensiegroep (index). Als u bijvoorbeeld een dimensiegroep instelt met de hiërarchievolgorde *Stijl*, *Kleur* en *Maat*, ondersteunt het systeem het resultaat van drie querygroepen. De eerste groep is alleen stijl. De tweede groep is een combinatie van stijl en kleur. En de derde groep is een combinatie van stijl, kleur en maat. De andere combinaties worden niet ondersteund.
 
+> [!TIP]
+> Hier volgen enkele tips om in gedachten te houden bij het instellen van de indexhiërarchie:
+>
+> - Basisdimensies die in de partitieconfiguratie zijn gedefinieerd, mogen niet worden gedefinieerd in indexconfiguraties. Als in de indexconfiguratie opnieuw een basisdimensie is gedefinieerd, kunt u in deze index geen query's uitvoeren.
+> - Als u alleen een query hoeft uit te voeren op voorraad die wordt samengevoegd door alle dimensiecombinaties, kunt u één index instellen die de basisdimensie `Empty` bevat.
+> - U moet ten minste één indexhiërarchie hebben (die bijvoorbeeld de basisdimensie `Empty` bevat), anders mislukken query's met de fout 'Er is geen indexhiërarchie ingesteld'.
+
 ### <a name="example"></a>Voorbeeld
 
 In deze sectie vindt u een voorbeeld van de manier waarop de hiërarchie werkt.
@@ -372,11 +380,6 @@ Met de index kunt u op de volgende manieren query's uitvoeren op de voorhanden v
     - T-shirt, rood, small, regular, 6
     - T-shirt, rood, large, regular, 7
 
-> [!NOTE]
-> Basisdimensies die in de partitieconfiguratie zijn gedefinieerd, mogen niet worden gedefinieerd in indexconfiguraties.
-> 
-> Als u alleen een query hoeft uit te voeren op voorraad die wordt samengevoegd door alle dimensiecombinaties, kunt u één index instellen die de basisdimensie `Empty` bevat.
-
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Configuratie van de reservering (optioneel)
 
 De reserveringsconfiguratie is vereist als u de functie voor zachte reservering wilt gebruiken. De configuratie bestaat uit twee fundamentele onderdelen:
@@ -390,7 +393,7 @@ Als u een reservering maakt, wilt u mogelijk weten of voorhanden voorraad moment
 
 Door de toewijzing van de fysieke meting in te stellen op de berekende meting, schakelt u de service Voorraadzichtbaarheid in om automatisch de beschikbaarheid van reserveringen te valideren op basis van de fysieke meting.
 
-Voordat u deze toewijzing instelt, moeten de fysieke metingen, berekende metingen en de bijbehorende gegevensbronnen worden gedefinieerd op de tabbladen **Gegevensbron** en **Berekende meting** van de pagina **Configuratie** in Power Apps (zoals eerder in dit onderwerp is beschreven).
+Voordat u deze toewijzing instelt, moeten de fysieke metingen, berekende metingen en de bijbehorende gegevensbronnen worden gedefinieerd op de tabbladen **Gegevensbron** en **Berekende meting** van de pagina **Configuratie** in Power Apps (zoals eerder in dit artikel is beschreven).
 
 Volg deze stappen om een zachte reserveringstoewijzing te definiëren.
 
@@ -646,10 +649,10 @@ De berekende meting `InventoryDemand` wordt geconfigureerd voor de `iv`-gegevens
 | Optellen | `iom` | `OnOrder` |
 | Optellen | `iv` | `SoftReservPhysical` |
 | Optellen | `iv` | `SoftReservOrdered` |
-| Optellen | `fno` | `ReservPhysical` |
-| Optellen | `fno` | `ReservOrdered` |
-| Optellen | `iv` | `ReservPhysical` |
-| Optellen | `iv` | `ReservOrdered` |
+| Aanvullend | `fno` | `ReservPhysical` |
+| Aanvullend | `fno` | `ReservOrdered` |
+| Aanvullend | `iv` | `ReservPhysical` |
+| Aanvullend | `iv` | `ReservOrdered` |
 
 #### <a name="configuration-of-the-fno-data-source"></a>Configuratie van de fno-gegevensbron
 
@@ -716,8 +719,8 @@ De berekende meting `AvailQuantity` wordt geconfigureerd voor de `pos`-gegevensb
 
 | Berekeningstype | Gegevensbron | Fysieke meting |
 |---|---|---|
-| Optellen | `fno` | `AvailPhysical` |
-| Optellen | `pos` | `PosInbound` |
+| Aanvullend | `fno` | `AvailPhysical` |
+| Aanvullend | `pos` | `PosInbound` |
 | Aftrekken | `pos` | `PosOutbound` |
 
 #### <a name="configuration-of-the-iom-data-source"></a>Configuratie van de iom-gegevensbron

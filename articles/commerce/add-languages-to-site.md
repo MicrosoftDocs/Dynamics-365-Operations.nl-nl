@@ -1,6 +1,6 @@
 ---
 title: Talen toevoegen aan uw site
-description: In dit onderwerp wordt uitgelegd hoe u ondersteuning voor extra talen toevoegt aan een Microsoft Dynamics 365 Commerce-site.
+description: In dit artikel wordt uitgelegd hoe u ondersteuning voor extra talen toevoegt aan een Microsoft Dynamics 365 Commerce-site.
 author: bicyclingfool
 ms.date: 12/12/2019
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d118c90dc16be964bb22aa6f170fe2d2f009b3e9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 69ee1d744ce26d5040d80e470b18d87bbddbda26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964549"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871801"
 ---
 # <a name="add-languages-to-your-site"></a>Talen toevoegen aan uw site
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u ondersteuning voor extra talen toevoegt aan een Microsoft Dynamics 365 Commerce-site.
+In dit artikel wordt uitgelegd hoe u ondersteuning voor extra talen toevoegt aan een Microsoft Dynamics 365 Commerce-site.
 
-U kunt uw website lokaliseren in elke taal die door Commerce wordt ondersteund. (De lijst met ondersteunde talen wordt later in dit onderwerp weergegeven.) Als u een taal op uw website wilt toevoegen, moet u deze eerst toevoegen aan een online winkel die aan uw site is gekoppeld.
+U kunt uw website lokaliseren in elke taal die door Commerce wordt ondersteund. (De lijst met ondersteunde talen wordt later in dit artikel weergegeven.) Als u een taal op uw website wilt toevoegen, moet u deze eerst toevoegen aan een online winkel die aan uw site is gekoppeld.
 
 ## <a name="add-a-language-to-an-online-store"></a>Een taal toevoegen aan een online winkel
 

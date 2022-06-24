@@ -1,6 +1,6 @@
 ---
 title: Een werksjabloon instellen voor inkooporders
-description: In dit onderwerp wordt beschreven hoe u een eenvoudige werksjabloon instelt die u kunt gebruiken wanneer u ontvangen artikelen wegzet.
+description: In dit artikel wordt beschreven hoe u een eenvoudige werksjabloon instelt die u kunt gebruiken wanneer u ontvangen artikelen wegzet.
 author: Mirzaab
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32dbdd8243c6b37cfe0c42d2e7b06adfa32a947a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ee6bc896a979c326001e1596e4a463753005fabf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572284"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877358"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Een werksjabloon instellen voor inkooporders
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u een eenvoudige werksjabloon instelt die u kunt gebruiken wanneer u ontvangen artikelen wegzet. Werksjablonen bepalen de reeks instructies die op een mobiel apparaat aan de magazijnmedewerker worden voorgesteld wanneer deze artikelen van het ontvangende gebied verplaatst. U kunt deze procedure gebruiken met de opgegeven gegevens van het demogegevensbedrijf USMF. Maak voordat u deze guide start een werkgroep-id. In dit voorbeeld wordt een werkgroep-id met de naam Binnenkomend gebruikt. Deze procedure is bedoeld voor de magazijnbeheerder.
+In dit artikel wordt beschreven hoe u een eenvoudige werksjabloon instelt die u kunt gebruiken wanneer u ontvangen artikelen wegzet. Werksjablonen bepalen de reeks instructies die op een mobiel apparaat aan de magazijnmedewerker worden voorgesteld wanneer deze artikelen van het ontvangende gebied verplaatst. U kunt deze procedure gebruiken met de opgegeven gegevens van het demogegevensbedrijf USMF. Maak voordat u deze guide start een werkgroep-id. In dit voorbeeld wordt een werkgroep-id met de naam Binnenkomend gebruikt. Deze procedure is bedoeld voor de magazijnbeheerder.
 
 1. Ga in het navigatievenster naar **Modules > Magazijnbeheer > Instellingen > Werk >Werksjablonen**.
 2. Selecteer **Inkooporders** in het veld **Werkordertype**.

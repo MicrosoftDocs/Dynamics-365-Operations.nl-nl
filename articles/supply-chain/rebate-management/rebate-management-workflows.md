@@ -1,6 +1,6 @@
 ---
 title: Werkstromen voor kortingsbeheerdeals
-description: In dit onderwerp wordt uitgelegd hoe u een werkstroom voor kortingsbeheer kunt instellen om deals goed te keuren en te activeren.
+description: In dit artikel wordt uitgelegd hoe u een werkstroom voor kortingsbeheer kunt instellen om deals goed te keuren en te activeren.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0fe5bc5af953ee7cbbda3477d75a38261bb2bb10
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2b1611ff7877efc4a2f98b8f84a1ef91971902ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687407"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869512"
 ---
 # <a name="rebate-management-deal-workflows"></a>Werkstromen voor kortingsbeheerdeals
 
@@ -35,7 +35,7 @@ Gebruikers kunnen transacties niet handmatig goedkeuren. De werkstroom moet alti
 
 ## <a name="create-and-manage-rebate-management-deal-workflows"></a>Werkstromen voor kortingsbeheerdeals maken en beheren
 
-Als u wilt werken met uw werkstromen voor kortingsbeheerdeals, gaat u naar **Kortingsbeheer \> Instellen \> Werkstromen voor kortingsbeheer**. Hier kunt u werkstromen weergeven, maken en bijwerken. Er kan slechts één werkstroom van dit type tegelijk actief zijn. Zie [Overzicht van werkstroomsysteem](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md) en de gerelateerde onderwerpen voor meer informatie over werkstromen, hoe u werkt met de pagina **Werkstromen voor kortingsbeheer** en hoe u werkstromen maakt.
+Als u wilt werken met uw werkstromen voor kortingsbeheerdeals, gaat u naar **Kortingsbeheer \> Instellen \> Werkstromen voor kortingsbeheer**. Hier kunt u werkstromen weergeven, maken en bijwerken. Er kan slechts één werkstroom van dit type tegelijk actief zijn. Zie [Overzicht van werkstroomsysteem](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md) en de gerelateerde artikelen voor meer informatie over werkstromen, hoe u werkt met de pagina **Werkstromen voor kortingsbeheer** en hoe u werkstromen maakt.
 
 ## <a name="use-a-workflow-to-activate-a-deal"></a>Een werkstroom gebruiken om een deal te activeren
 

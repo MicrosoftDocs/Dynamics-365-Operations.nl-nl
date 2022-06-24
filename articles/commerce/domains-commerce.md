@@ -1,6 +1,6 @@
 ---
 title: Domeinen in Dynamics 365 Commerce
-description: In dit onderwerp wordt beschreven hoe domeinen worden verwerkt in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt beschreven hoe domeinen worden verwerkt in Microsoft Dynamics 365 Commerce.
 author: BrShoo
 ms.date: 05/10/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: aab5e983b42aea7d8eb4f198f033634d4663f278
-ms.sourcegitcommit: 7181a022739d6107a75d84546c3379c23f722034
+ms.openlocfilehash: c48c8bd57d90a8c7d47bfa4263cd9ab38002629b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8737341"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848949"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domeinen in Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe domeinen worden verwerkt in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt beschreven hoe domeinen worden verwerkt in Microsoft Dynamics 365 Commerce.
 
-Domeinen zijn webadressen die worden gebruikt om te navigeren naar Dynamics 365 Commerce-sites in een webbrowser. U beheert het beheer van uw domein met een gekozen DNS-provider (Domain Name Server). In Dynamics 365 Commerce Site Builder wordt naar domeinen verwezen om te coördineren hoe een site wordt geopend wanneer deze wordt gepubliceerd. In dit onderwerp wordt beschreven hoe domeinen worden verwerkt en gebruikt in de levenscyclus van de ontwikkeling en lancering van de Commerce-site.
+Domeinen zijn webadressen die worden gebruikt om te navigeren naar Dynamics 365 Commerce-sites in een webbrowser. U beheert het beheer van uw domein met een gekozen DNS-provider (Domain Name Server). In Dynamics 365 Commerce Site Builder wordt naar domeinen verwezen om te coördineren hoe een site wordt geopend wanneer deze wordt gepubliceerd. In dit artikel wordt beschreven hoe domeinen worden verwerkt en gebruikt in de levenscyclus van de ontwikkeling en lancering van de Commerce-site.
 
 > [!NOTE]
 > Vanaf 6 mei 2022 worden alle omgevingen gemaakt in Dynamics 365 Commerce ingericht met het domein `.dynamics365commerce.ms`, dat het eerdere patroon vervangt van `.commerce.dynamics.com` vervangt. Bestaande omgevingen ingericht met het domein `.commerce.dynamics.com` blijven werken.

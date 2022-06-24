@@ -1,6 +1,6 @@
 ---
 title: Een traject met meerdere etappes instellen
-description: In dit onderwerp wordt beschreven hoe u trajecten met meerdere etappes kunt instellen voor de module Francoprijzen.
+description: In dit artikel wordt beschreven hoe u trajecten met meerdere etappes kunt instellen voor de module Francoprijzen.
 author: Weijiesa
 ms.date: 12/04/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c65a3d3971593ccf832a6af3c8c27d56a68b46c8
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: dcb536c03d09d51b247d9060d87db64e2b80383b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689714"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905829"
 ---
 # <a name="multi-leg-journey-setup"></a>Een traject met meerdere etappes instellen
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u trajecten met meerdere etappes kunt instellen voor de module **Francoprijzen**.
+In dit artikel wordt beschreven hoe u trajecten met meerdere etappes kunt instellen voor de module **Francoprijzen**.
 
 ## <a name="legs"></a>Etappes
 

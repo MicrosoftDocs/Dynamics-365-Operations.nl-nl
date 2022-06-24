@@ -1,6 +1,6 @@
 ---
 title: Inkooporders goedkeuren en bevestigen
-description: In dit onderwerp worden de statussen beschreven die een inkooporder doorloopt nadat deze is gemaakt, en de gevolgen van het inschakelen van wijzigingsbeheer voor IO's.
+description: In dit artikel worden de statussen beschreven die een inkooporder doorloopt nadat deze is gemaakt, en de gevolgen van het inschakelen van wijzigingsbeheer voor IO's.
 author: GalynaFedorova
 ms.date: 04/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d38a486c604dc761dcaf12b839d8b9b89b5e0414
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 936fddb73a639564a136002354a4d3dff7798e0b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676997"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907372"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Inkooporders goedkeuren en bevestigen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de statussen beschreven die een inkooporder (IO) doorloopt nadat deze is gemaakt, en de gevolgen van het inschakelen van wijzigingsbeheer voor IO's.
+In dit artikel worden de statussen beschreven die een inkooporder (IO) doorloopt nadat deze is gemaakt, en de gevolgen van het inschakelen van wijzigingsbeheer voor IO's.
 
 Nadat een inkooporder (IO) is gemaakt, moet deze mogelijk een goedkeuringsproces doorlopen. Nadat de leverancier heeft ingestemd met de order, wordt de IO ingesteld op de status **Bevestigd**.
 

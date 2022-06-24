@@ -1,6 +1,6 @@
 ---
 title: Activadocumenten
-description: In dit onderwerp worden activadocumenten in Activabeheer uitgelegd.
+description: In dit artikel worden activadocumenten in Activabeheer uitgelegd.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77b7265b1ba56dbd1cd955f5d90afea02f589ce2eebdd05a2fef3a7ddebc0ee1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2e8d72dc938c43e266c6b7c39329f827c56607a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722482"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899464"
 ---
 # <a name="asset-documents"></a>Activadocumenten
 
@@ -28,7 +28,7 @@ ms.locfileid: "6722482"
 
  
 
-In dit onderwerp worden activadocumenten in Activabeheer uitgelegd.
+In dit artikel worden activadocumenten in Activabeheer uitgelegd.
 
 In Activabeheer kunt u documenten zo instellen dat deze automatisch worden gekoppeld aan bijvoorbeeld taaktypen, activafabrikanten, activatypen of activa. Deze functionaliteit is handig wanneer bijgewerkte documentversies worden vrijgegeven. In dat geval hoeft u alleen het bijgewerkte document op de standaardlocatie te plaatsen die u voor uw documenten in Supply Chain Management gebruikt en het document te koppelen aan de activadocumentrecord die u hebt gemaakt. Het bijgewerkte document kan vervolgens worden geopend vanuit de menuopties **Alle activa**, **Actieve activa**, **Mijn actieve activa**, **Alle werkorders** en **Actieve werkordertaken**. Bij het proces voor het koppelen van documenten aan een activadocumentrecord wordt gebruikgemaakt van het standaardsysteem voor documentverwerking.
 

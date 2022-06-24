@@ -1,6 +1,6 @@
 ---
 title: Module voor het opzoeken van orders
-description: In dit onderwerp wordt de module voor het opzoeken van orders beschreven en wordt uitgelegd hoe u de module configureert in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt de module voor het opzoeken van orders beschreven en wordt uitgelegd hoe u de module configureert in Microsoft Dynamics 365 Commerce.
 author: stuharg
 ms.date: 09/01/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 0ae5c8a2eea84a9aa707f7c2f6f29950f2f48faa
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: c83463d9a0ece9605b0d22bee2a1c76057c8ed05
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675112"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869425"
 ---
 # <a name="order-lookup-module"></a>Module voor het opzoeken van orders
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt de module voor het opzoeken van orders beschreven en wordt uitgelegd hoe u de module configureert in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt de module voor het opzoeken van orders beschreven en wordt uitgelegd hoe u de module configureert in Microsoft Dynamics 365 Commerce.
 
 De module voor het opzoeken van orders biedt een formulier dat klanten kunnen gebruiken om orders op te zoeken die ze op een e-commercesite hebben geplaatst. Dit formulier wordt gebruikt als onderdeel van de functie [Opzoeken van orders voor gastbetalingen inschakelen](order-lookup-guest.md). De module voor het opzoeken van orders kan worden gebruikt om orders op te zoeken die zijn ingediend via een e-commercesite, het verkooppunt (POS) of een callcenter. Met het formulier kunnen orders worden opgehaald die zijn ingediend door gastgebruikers en door geregistreerde gebruikers.
 

@@ -1,6 +1,6 @@
 ---
 title: Overzicht van Adventure Works-thema
-description: In dit onderwerp wordt een overzicht van het Adventure Works-thema gegeven en wordt beschreven hoe u dit kunt toepassen op sitepagina's in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt een overzicht van het Adventure Works-thema gegeven en wordt beschreven hoe u dit kunt toepassen op sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 12/03/2021
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 34ea24e2d81a69d720973455492f9e05ed34dd81
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 4f13d6c1c4b0e2764c22dc3d7311c726fac7989d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983689"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874982"
 ---
 # <a name="adventure-works-theme-overview"></a>Overzicht van Adventure Works-thema
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt een overzicht van het Adventure Works-thema gegeven en wordt beschreven hoe u dit kunt toepassen op sitepagina's in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt een overzicht van het Adventure Works-thema gegeven en wordt beschreven hoe u dit kunt toepassen op sitepagina's in Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce heeft een thema voor e-commerce dat Adventure Works heet. Het Adventure Works-thema bevat sport- en recreatieproducten en is geoptimaliseerd voor een rijke en verbeterde ervaring. Dit ontwerp biedt een modern uiterlijk, nieuwe indelingen en effecten voor animaties om een unieke online winkelervaring te maken voor e-commerceklanten.
 

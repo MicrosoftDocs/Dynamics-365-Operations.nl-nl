@@ -1,6 +1,6 @@
 ---
 title: Producteigenaren
-description: Dit onderwerp biedt informatie over producteigenaren. Een producteigenaar is een groep gebruikers die verantwoordelijk is voor specifieke producten. Alleen leden van de groep kunnen deze producten vrijgeven. De producteigenaar kan ook worden gebruikt in de goedkeuringswerkstroom.
+description: In dit artikel vindt u informatie over producteigenaren. Een producteigenaar is een groep gebruikers die verantwoordelijk is voor specifieke producten. Alleen leden van de groep kunnen deze producten vrijgeven. De producteigenaar kan ook worden gebruikt in de goedkeuringswerkstroom.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a29ab169e9b24826fbe69fbc316040d4618750ee
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5e09fdbbe14aa5a5ffbc5f07ae90b5d307a9e155
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567506"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907517"
 ---
 # <a name="product-owners"></a>Producteigenaren
 

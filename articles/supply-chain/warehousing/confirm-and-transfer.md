@@ -1,6 +1,6 @@
 ---
 title: Bevestigen en overboeken
-description: In dit onderwerp wordt uitgelegd hoe u de functie Bevestigen en overboeken gebruikt, waarmee gebruikers ladingen uit het magazijn kunnen verzenden voordat ze alle werkzaamheden uitvoeren die gerelateerd zijn aan die ladingen.
+description: In dit artikel wordt uitgelegd hoe u de functie Bevestigen en overboeken gebruikt, waarmee gebruikers ladingen uit het magazijn kunnen verzenden voordat ze alle werkzaamheden uitvoeren die gerelateerd zijn aan die ladingen.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d34dd1b33467aa1ea3a723e1baaf7f06285c3fa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 9257d8f9e6ed62ac0b19b0cdc8fd858e8b2f97a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675482"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900559"
 ---
 # <a name="confirm-and-transfer"></a>Bevestigen en overboeken
 
@@ -55,11 +55,11 @@ U kunt alleen ladingen splitsen die voldoen aan de volgende criteria:
 
 ## <a name="turn-the-confirm-and-transfer-feature-on-or-off"></a>De functie Bevestigen en overboeken in- of uitschakelen
 
-Als u de functionaliteit wilt gebruiken die in dit onderwerp wordt beschreven, moet de functie *Bevestigen en overboeken* zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Bevestigen en overboeken* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Als u de functionaliteit wilt gebruiken die in dit artikel wordt beschreven, moet de functie *Bevestigen en overboeken* zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Bevestigen en overboeken* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-confirm-and-transfer"></a>Bevestigen en overboeken configureren
 
-Om de functie *Bevestigen en overboeken* te gebruiken, moet u deze inschakelen in elke relevante ladingsslabloon. Bovendien kunt u, afhankelijk van uw behoeften, uw werksjablonen voorbereiden om deze functie te ondersteunen. Als u het voorbeeldscenario wilt doorlopen dat verderop in dit onderwerp wordt beschreven, stelt u uw systeem in zoals in deze sectie wordt beschreven. Dit scenario is gebaseerd op **USMF**-voorbeeldgegevens.
+Om de functie *Bevestigen en overboeken* te gebruiken, moet u deze inschakelen in elke relevante ladingsslabloon. Bovendien kunt u, afhankelijk van uw behoeften, uw werksjablonen voorbereiden om deze functie te ondersteunen. Als u het voorbeeldscenario wilt doorlopen dat verderop in dit artikel wordt beschreven, stelt u uw systeem in zoals in deze sectie wordt beschreven. Dit scenario is gebaseerd op **USMF**-voorbeeldgegevens.
 
 ### <a name="prepare-your-load-templates"></a>De ladingssjablonen voorbereiden
 
@@ -69,7 +69,7 @@ Om de functie *Bevestigen en overboeken* te gebruiken, moet u deze inschakelen i
 
 ### <a name="prepare-your-work-templates"></a>De werksjablonen voorbereiden
 
-Het is niet voor alle situaties vereist om dit te configureren. Het volgende voorbeeld zorgt ervoor dat werk per zending kan worden opgesplitst, ter ondersteuning van het voorbeeldscenario dat verderop in dit onderwerp wordt besproken. Er zijn ook andere manieren om dit resultaat te bereiken.
+Het is niet voor alle situaties vereist om dit te configureren. Het volgende voorbeeld zorgt ervoor dat werk per zending kan worden opgesplitst, ter ondersteuning van het voorbeeldscenario dat verderop in dit artikel wordt besproken. Er zijn ook andere manieren om dit resultaat te bereiken.
 
 1. Ga naar **Magazijnbeheer \> Instellen \> Werk \> Werksjablonen**.
 1. Selecteer in het raster in het bovenste gedeelte van de pagina een bestaande werksjabloon waarvoor u de functie *Bevestigen en overboeken* wilt instellen. (Als u werkt met de **USMF**-voorbeeldgegevens, selecteert u de werksjabloon **51 Orderverzamelen naar klaarzetten**. U kunt er ook voor kiezen om een nieuwe werksjabloon te maken.)

@@ -1,6 +1,6 @@
 ---
 title: Afdrukken van nummerplaatlabel inschakelen
-description: In dit onderwerp wordt beschreven hoe u het automatisch afdrukken van een SSCC-label (Serial Shipping Container Code) inschakelt nadat het laatste artikel is verzameld van de voorraad in het werkproces orderverzamelen voor verkoop.
+description: In dit artikel wordt beschreven hoe u het automatisch afdrukken van een SSCC-label (Serial Shipping Container Code) inschakelt nadat het laatste artikel is verzameld van de voorraad in het werkproces orderverzamelen voor verkoop.
 author: perlynne
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b3895961f1f682a3fd06800a83a497afaf2fa65
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: dec552cac505b3fdc24dd453dbf723fa1d009ced
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565082"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903661"
 ---
 # <a name="enable-license-plate-label-printing"></a>Afdrukken van nummerplaatlabel inschakelen
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u het automatisch afdrukken van een SSCC-label (Serial Shipping Container Code) inschakelt nadat het laatste artikel is verzameld van de voorraad in het werkproces orderverzamelen voor verkoop. U kunt deze procedure in het bedrijf USMF van de demogegevens uitvoeren. Als u het met behulp van uw eigen gegevens uitvoert, moet u een ingestelde nummerreeks voor nummerplaten hebben. U moet een labelprinter instellen voordat u deze taak start. Ga naar Organisatiebeheer > Instellingen > Netwerkprinters. Klik in het actievenster op Opties en vervolgens op de knop Installatieprogramma van documentrouteringsagent downloaden. Voer het installatieprogramma uit en zorg ervoor dat een netwerkprinter Actief is voordat u met de procedure vervolgt.
+In dit artikel wordt beschreven hoe u het automatisch afdrukken van een SSCC-label (Serial Shipping Container Code) inschakelt nadat het laatste artikel is verzameld van de voorraad in het werkproces orderverzamelen voor verkoop. U kunt deze procedure in het bedrijf USMF van de demogegevens uitvoeren. Als u het met behulp van uw eigen gegevens uitvoert, moet u een ingestelde nummerreeks voor nummerplaten hebben. U moet een labelprinter instellen voordat u deze taak start. Ga naar Organisatiebeheer > Instellingen > Netwerkprinters. Klik in het actievenster op Opties en vervolgens op de knop Installatieprogramma van documentrouteringsagent downloaden. Voer het installatieprogramma uit en zorg ervoor dat een netwerkprinter Actief is voordat u met de procedure vervolgt.
 
 
 ## <a name="set-up-the-gs1-company-prefix"></a>Het GS1-bedrijfsvoorvoegsel instellen

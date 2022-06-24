@@ -1,6 +1,6 @@
 ---
 title: Producten voor tweeërlei gebruik
-description: In dit onderwerp wordt uitgelegd hoe u producten kunt bijhouden die zijn geïdentificeerd als producten voor tweeërlei gebruik. U kunt certificaatnummers opslaan voor elk relevant product en land van bestemming en geldige certificaatnummers afdrukken op relevante facturen, pakbonnen en/of verkooporders.
+description: In dit artikel wordt uitgelegd hoe u producten kunt bijhouden die zijn geïdentificeerd als producten voor tweeërlei gebruik. U kunt certificaatnummers opslaan voor elk relevant product en land van bestemming en geldige certificaatnummers afdrukken op relevante facturen, pakbonnen en/of verkooporders.
 author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 787d0c4ebcf83d6bfec05943f2bb0ddc5961a93a
-ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
+ms.openlocfilehash: 02b154b9ea849c6b905d76edb256c4106b254acd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8736028"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878898"
 ---
 # <a name="dual-use-goods"></a>Producten voor tweeërlei gebruik
 
@@ -42,7 +42,7 @@ Hier volgt een aantal scenario:
 
 6. De order bevat product X-100, het product wordt verzonden naar Frankrijk en er bestaat een Frans certificaat voor het product. Het certificaat is echter verlopen. Daarom wordt het volgende waarschuwingsbericht weergegeven: "De certificaten voor tweeërlei gebruik voor een of meer artikelen voor tweeërlei gebruik in deze verkooporder zijn niet geldig. Wilt u doorgaan met het bevestigen?"
 
-In dit onderwerp wordt uitgelegd hoe u alle instellingen configureert die vereist zijn voor het instellen van producten voor tweeërlei gebruik en die dit scenario ondersteunen.
+In dit artikel wordt uitgelegd hoe u alle instellingen configureert die vereist zijn voor het instellen van producten voor tweeërlei gebruik en die dit scenario ondersteunen.
 
 ## <a name="define-dual-use-requirements-for-each-relevant-country"></a>Vereisten voor tweeërlei gebruik voor elk land definiëren
 

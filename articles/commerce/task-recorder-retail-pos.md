@@ -1,6 +1,6 @@
 ---
 title: Taakrecorder en Help voor Retail Modern POS (MPOS) en Cloud POS
-description: In dit onderwerp wordt beschreven hoe u Taakrecorder gebruikt in Retail Modern POS en Cloud POS.
+description: In dit artikel wordt beschreven hoe u Taakrecorder gebruikt in Retail Modern POS en Cloud POS.
 author: mugunthanm
 ms.date: 06/19/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: aedf18ef8b3d7266f3e5c7acd676241f9ec8b900f061f5363cd8d581062e83ed
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f9f3e17a6c67dc1cc1d4ba423ce258f2ed1d1ec0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730750"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847595"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Taakrecorder en Help voor Retail Modern POS (MPOS) en Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u Taakrecorder gebruikt in Retail Modern POS en Cloud POS.
+In dit artikel wordt beschreven hoe u Taakrecorder gebruikt in Retail Modern POS en Cloud POS.
 
 ## <a name="overview"></a>Overzicht
 
@@ -139,7 +139,7 @@ Om uw eigen taakregistraties in het Help-deelvenster van Retail Modern POS en Cl
 
 [![De knop Help.](./media/help.jpg)](./media/help.jpg)
 
-Wanneer u op de taakbegeleiding in de zoekresultaten klikt, kunt u de stappen weergeven als een Help-onderwerp of een Word-document.
+Wanneer u op de taakbegeleiding in de zoekresultaten klikt, kunt u de stappen weergeven als een Help-artikel of een Word-document.
 
 > [!NOTE]
 > Help in Retail Modern POS en Cloud POS opent geen taakbegeleiding op basis van het formulier waar u zich bevindt of de bewerking die u uitvoert. U moet de procesnaam in het zoekvak typen en op **Zoeken** klikken.

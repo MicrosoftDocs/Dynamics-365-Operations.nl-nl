@@ -1,6 +1,6 @@
 ---
 title: Reizen beheren
-description: In dit onderwerp wordt beschreven hoe u met reizen werkt. Een reis vertegenwoordigt doorgaans een vaartuig. Afhankelijk van uw werkwijzen en procedures kan het echter ook een leverancier, een inkooporder of een ander artikel vertegenwoordigen dat betekenis heeft voor uw organisatie.
+description: In dit artikel wordt beschreven hoe u met reizen werkt. Een reis vertegenwoordigt doorgaans een vaartuig. Afhankelijk van uw werkwijzen en procedures kan het echter ook een leverancier, een inkooporder of een ander artikel vertegenwoordigen dat betekenis heeft voor uw organisatie.
 author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7d85ef86351f5d6ac662bb72c88d464fba82f561
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 43f28a7e30dbbe15bb02d26483289f25515fcfca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696161"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905858"
 ---
 # <a name="manage-voyages"></a>Reizen beheren
 
@@ -96,7 +96,7 @@ Als u de weergave **Regels** wilt openen, opent u een reis en selecteert u vervo
 
 ### <a name="information-on-the-voyage-header-fasttab"></a>Informatie op het sneltabblad Reisheader
 
-Het sneltabblad **Reisheader** in de weergave **Regels** van een reis bevat basisinformatie over de reis. Veel van de velden die op dit sneltabblad worden weergegeven, worden ook weergegeven in de weergave **Header**, zoals verderop in dit onderwerp wordt beschreven.
+Het sneltabblad **Reisheader** in de weergave **Regels** van een reis bevat basisinformatie over de reis. Veel van de velden die op dit sneltabblad worden weergegeven, worden ook weergegeven in de weergave **Header**, zoals verderop in dit artikel wordt beschreven.
 
 ### <a name="information-on-the-voyage-lines-fasttab"></a>Informatie op het sneltabblad Reisregels
 

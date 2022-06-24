@@ -1,6 +1,6 @@
 ---
 title: Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.26 (mei 2022)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management 10.0.26.
+description: In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management 10.0.26.
 author: kamaybac
 ms.date: 03/01/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 0724045824f39f316c8b3dbb06a48eb6ca6dbef3
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: 73f2f9a819312d8d6e111b998c68b65ba85e7818
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625246"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850752"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.26 (mei 2022)
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management versie 10.0.26. Deze versie heeft een buildnummer van 10.0.1192 en is als volgt beschikbaar:
+In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management versie 10.0.26. Deze versie heeft een buildnummer van 10.0.1192 en is als volgt beschikbaar:
 
 - **Preview van versie:** maart 2022
 - **Algemene beschikbaarheid van versie (zelfupdate):** april 2022
@@ -29,7 +29,7 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Mi
 
 ## <a name="features-included-in-this-release"></a>Functies in deze versie
 
-De volgende tabel vermeldt de functies die deze versie bevat. Mogelijk wordt dit onderwerp gewijzigd om functies op te nemen die in de build zijn gemaakt nadat dit onderwerp oorspronkelijk werd gepubliceerd.
+De volgende tabel vermeldt de functies die deze versie bevat. Mogelijk wordt dit artikel gewijzigd om functies op te nemen die in de build zijn gemaakt nadat dit artikel oorspronkelijk werd gepubliceerd.
 
 | Functiegebied | Functie | Meer informatie | Ingeschakeld door |
 |---|---|---|---|
@@ -56,11 +56,11 @@ Als u een van deze functies wilt in- of uitschakelen, moet u dat doen in [Functi
 
 ## <a name="new-and-updated-documentation-resources"></a>Nieuwe en bijgewerkte documentatiebronnen
 
-De volgende Help-onderwerpen zijn onlangs toegevoegd of ingrijpend bijgewerkt. Deze onderwerpen hoeven niet te zijn gerelateerd aan de nieuwe functies die voor deze versie zijn toegevoegd, zoals in de vorige secties is vermeld. Deze kunnen u echter helpen meer uit bestaande functies te halen.
+De volgende Help-artikelen zijn onlangs toegevoegd of ingrijpend bijgewerkt. Deze artikelen hoeven niet te zijn gerelateerd aan de nieuwe functies die voor deze versie zijn toegevoegd, zoals in de vorige secties is vermeld. Deze kunnen u echter helpen meer uit bestaande functies te halen.
 
-| Functiegebied | Nieuwe of bijgewerkte onderwerpen |
+| Functiegebied | Nieuwe of bijgewerkte artikelen |
 |---|---|
-| Kostenbeheer | Aan elk van de volgende onderwerpen zijn bijgewerkte voorbeelden en diagrammen toegevoegd:<ul><li>[FIFO met fysieke waarde en markering](../cost-management/fifo-physical-value-marking.md)</li><li>[LIFO met fysieke waarde en markering](../cost-management/lifo-physical-value-marking.md)</li><li>[LIFO-datum met fysieke waarde en markering](../cost-management/lifo-date-physical-value-marking.md)</li><li>[Lopend gemiddelde kostprijs](../cost-management/running-average-cost-price.md)</li><li>[Gewogen gemiddelde met fysieke waarde en markering](../cost-management/weighted-average-physical-value-marking.md)</li></ul> |
+| Kostenbeheer | Aan elk van de volgende artikelen zijn bijgewerkte voorbeelden en diagrammen toegevoegd:<ul><li>[FIFO met fysieke waarde en markering](../cost-management/fifo-physical-value-marking.md)</li><li>[LIFO met fysieke waarde en markering](../cost-management/lifo-physical-value-marking.md)</li><li>[LIFO-datum met fysieke waarde en markering](../cost-management/lifo-date-physical-value-marking.md)</li><li>[Lopend gemiddelde kostprijs](../cost-management/running-average-cost-price.md)</li><li>[Gewogen gemiddelde met fysieke waarde en markering](../cost-management/weighted-average-physical-value-marking.md)</li></ul> |
 | Inkoopbeheer | [Verschillen in gegevens op inkooporderregels](../troubleshooting/procurement/purchase-order-line-data-issues.md) |
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
@@ -81,12 +81,12 @@ Bekijk de [Dynamics 365- en bedrijfsclouds: releasewave 1-plan van 2022](/dynami
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Verwijderde en afgeschafte functies voor Supply Chain Management
 
-In het onderwerp [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) worden functies beschreven die zijn of worden verwijderd voor Supply Chain Management.
+In het artikel [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) worden functies beschreven die zijn of worden verwijderd voor Supply Chain Management.
 
 - Een *verwijderde* functie is niet langer beschikbaar in het product.
 - Een *afgeschafte* functie wordt niet meer actief ontwikkeld en kan in een toekomstige update worden verwijderd.
 
-Twaalf maanden voordat een functie uit het product wordt verwijderd, wordt de afschaffing aangekondigd in het onderwerp [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md).
+Twaalf maanden voordat een functie uit het product wordt verwijderd, wordt de afschaffing aangekondigd in het artikel [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md).
 
 Voor ingrijpende wijzigingen die alleen van invloed zijn op de compilatietijd, maar binair compatibel zijn met sandbox- en productieomgevingen, is de afschaffingstijd korter dan 12 maanden. Meestal zijn dit functionele updates die moeten worden doorgevoerd in de compiler.
 

@@ -1,6 +1,6 @@
 ---
 title: IoT-intelligentie controleren en beheren
-description: In dit onderwerp wordt uitgelegd hoe u IoT-intelligentie kunt controleren en beheren.
+description: In dit artikel wordt uitgelegd hoe u IoT-intelligentie kunt controleren en beheren.
 author: johanhoffmann
 ms.date: 08/16/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e078f1895b44ca388b75f5cd3d19e0e8f7c36630
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a640b523adac619377e19d670f932d4d85cfb6a9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669734"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852413"
 ---
 # <a name="monitor-and-manage-iot-intelligence"></a>IoT-intelligentie controleren en beheren
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u IoT-intelligentie kunt controleren en beheren.
+In dit artikel wordt uitgelegd hoe u IoT-intelligentie kunt controleren en beheren.
 
 ## <a name="monitor-scenarios-in-microsoft-dynamics-365-supply-chain-management"></a><a id="monitor-scenarios"></a>Controlescenario's in Microsoft Dynamics 365 Supply Chain Management
 
@@ -54,7 +54,7 @@ Wanneer een scenario wordt uitgevoerd, zijn de volgende wijzigingen niet toegest
 
 ## <a name="simulation-options"></a>Simulatieopties
 
-U kunt de signalen van fabrieksmachines simuleren. Voor meer informatie wordt verwezen naar deze onderwerpen.
+U kunt de signalen van fabrieksmachines simuleren. Voor meer informatie wordt verwezen naar deze artikelen.
 
 + [IoT DevKit AZ3166 verbinden met Azure IoT-hub](/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
 + [Raspberry Pi online simulator verbinden met Azure IoT-hub (Node.js)](/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)

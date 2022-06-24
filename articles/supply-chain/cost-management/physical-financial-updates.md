@@ -1,6 +1,6 @@
 ---
 title: Fysieke en financiële updates
-description: Dit onderwerp biedt een overzicht van de typen transacties die voorraadhoeveelheden vergroten of verkleinen.
+description: Dit artikel biedt een overzicht van de typen transacties die voorraadhoeveelheden vergroten of verkleinen.
 author: JennySong-SH
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc8ffb87f6fcb9836d734dbfb4d962be4fa585a4
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 345f07e7ba55f567c9956539241c080db958c848
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670407"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895839"
 ---
 # <a name="physical-and-financial-updates"></a>Fysieke en financiële updates
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp biedt een overzicht van de typen transacties die voorraadhoeveelheden vergroten of verkleinen. 
+Dit artikel biedt een overzicht van de typen transacties die voorraadhoeveelheden vergroten of verkleinen. 
 
 Voorraadtransacties kunnen in Dynamics 365 Supply Chain Management fysiek en financieel worden bijgewerkt. Bepaalde typen van fysieke en financiële transacties verhogen voorraadhoeveelheden, terwijl andere de hoeveelheid verlagen.
 

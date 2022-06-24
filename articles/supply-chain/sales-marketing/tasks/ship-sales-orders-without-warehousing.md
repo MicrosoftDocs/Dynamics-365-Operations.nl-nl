@@ -1,6 +1,6 @@
 ---
 title: Verkooporders verzenden zonder magazijn
-description: In dit onderwerp wordt aangegeven hoe u een verkooporder bijwerkt wanneer producten naar de klant zijn verzonden.
+description: In dit artikel wordt aangegeven hoe u een verkooporder bijwerkt wanneer producten naar de klant zijn verzonden.
 author: Henrikan
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10e21bcdef22caf4f4d97ba7dd36ebf1a6e6e055
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c0144be929045b385c58dd29f6241330fc1092f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578867"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862477"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Verkooporders verzenden zonder magazijn
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt aangegeven hoe u een verkooporder bijwerkt wanneer producten naar de klant zijn verzonden. De guide is van toepassing op de vervullingsstroom die niet is ingesteld voor magazijnbeheer (geen basale of geavanceerd magazijnen) en vereist daarom niet dat productorderverzameling vóór zending wordt geregistreerd. U kunt deze procedure uitvoeren met uw eigen gegevens of in het demogegevensbedrijf USMF. In beide gevallen maakt u voordat u deze taak start, een verkooporder voor een voorraadproduct met een hoeveelheid die groter is dan 1. Als u een boekingsfout wilt voorkomen, moet u controleren of de voorhanden hoeveelheid van het product op de site en in het magazijn dat u hebt geselecteerd op de order, de orderhoeveelheid dekt.
+In dit artikel wordt aangegeven hoe u een verkooporder bijwerkt wanneer producten naar de klant zijn verzonden. De guide is van toepassing op de vervullingsstroom die niet is ingesteld voor magazijnbeheer (geen basale of geavanceerd magazijnen) en vereist daarom niet dat productorderverzameling vóór zending wordt geregistreerd. U kunt deze procedure uitvoeren met uw eigen gegevens of in het demogegevensbedrijf USMF. In beide gevallen maakt u voordat u deze taak start, een verkooporder voor een voorraadproduct met een hoeveelheid die groter is dan 1. Als u een boekingsfout wilt voorkomen, moet u controleren of de voorhanden hoeveelheid van het product op de site en in het magazijn dat u hebt geselecteerd op de order, de orderhoeveelheid dekt.
 
 ## <a name="post-packing-slip-for-an-order"></a>Een pakbon boeken voor een order
 1. Ga in het navigatievenster naar **Modules > Verkoop en marketing > Verkooporders > Alle verkooporders**.

@@ -1,6 +1,6 @@
 ---
 title: Kassafunctionaliteit voor Noorwegen
-description: Dit onderwerp biedt een overzicht van de kassafunctionaliteit die beschikbaar is voor Noorwegen in Microsoft Dynamics 365 Commerce en geeft richtlijnen voor het instellen van de functionaliteit.
+description: Dit artikel biedt een overzicht van de kassafunctionaliteit die beschikbaar is voor Noorwegen in Microsoft Dynamics 365 Commerce en geeft richtlijnen voor het instellen van de functionaliteit.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-10-31
-ms.openlocfilehash: bb87b3a7405ef3d8435748813fa66db74b8f0971
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 778a947f03866518219e9c0fa44660d66f19f53a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944935"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906694"
 ---
 # <a name="cash-register-functionality-for-norway"></a>Kassafunctionaliteit voor Noorwegen
 
 [!include[banner](../includes/banner.md)]
 
-Dit onderwerp biedt een overzicht van de kassafunctionaliteit die beschikbaar is voor Noorwegen in Dynamics 365 Commerce. Daarnaast bevat het richtlijnen voor het instellen van de functionaliteit. De functionaliteit bestaat uit de volgende onderdelen:
+Dit artikel biedt een overzicht van de kassafunctionaliteit die beschikbaar is voor Noorwegen in Dynamics 365 Commerce. Daarnaast bevat het richtlijnen voor het instellen van de functionaliteit. De functionaliteit bestaat uit de volgende onderdelen:
 
 - Algemene POS-functies (Point-of-Sale) die beschikbaar zijn voor klanten in alle landen of regio's. Een voorbeeld is de optie waarmee u kunt voorkomen dat een kopie van een ontvangstbewijs meerdere keer wordt afgedrukt.
 - Specifieke functies voor Noorwegen, zoals digitale handtekeningen voor verkooptransacties.

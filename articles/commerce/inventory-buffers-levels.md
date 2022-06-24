@@ -1,6 +1,6 @@
 ---
 title: Voorraadbuffers en voorraadniveaus configureren
-description: In dit onderwerp wordt uitgelegd hoe u voorraadbuffers en voorraadniveaus configureert waarmee berichten voor voorraadbeschikbaarheid op Microsoft Dynamics 365 Commerce-sites worden bepaald.
+description: In dit artikel wordt uitgelegd hoe u voorraadbuffers en voorraadniveaus configureert waarmee berichten voor voorraadbeschikbaarheid op Microsoft Dynamics 365 Commerce-sites worden bepaald.
 author: boycezhu
 ms.date: 06/01/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 842389811169f785235de7ac7d9a49ab903f99ddf7d43f139aba0873a2577d72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: acfe71f7fb55f1bc701297bb3949e91d6450d9e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727528"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853788"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>Voorraadbuffers en voorraadniveaus configureren
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u voorraadbuffers en voorraadniveaus configureert waarmee de berichten over voorraadbeschikbaarheid op Microsoft Dynamics 365 Commerce-sites worden bepaald.
+In dit artikel wordt uitgelegd hoe u voorraadbuffers en voorraadniveaus configureert waarmee de berichten over voorraadbeschikbaarheid op Microsoft Dynamics 365 Commerce-sites worden bepaald.
 
 Dynamics 365 Commerce Headquarters omvat voorraadgegevens en diverse kanalen, zoals POS-toepassingen (Point of Sale), webwinkels en andere aangepaste geïntegreerde toepassingen die op asynchrone wijze voorraad verplaatsen. De waarden voor beschikbare voorraad die via de pagina voor voorhanden voorraad in Commerce Headquarters worden verkregen, via de POS-gebruikersinterface en de e-Commerce-API's voor voorraadbeschikbaarheid, zijn daarom niet altijd 100 procent nauwkeurig in realtime.
 

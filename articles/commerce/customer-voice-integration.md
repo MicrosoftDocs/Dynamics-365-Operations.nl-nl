@@ -1,6 +1,6 @@
 ---
 title: Customer Voice integreren in e-commercesitepagina's
-description: In dit onderwerp wordt beschreven hoe u Microsoft Dynamics 365 Customer Voice in e-commercesitepagina's van Dynamics 365 Commerce integreert.
+description: In dit artikel wordt beschreven hoe u Microsoft Dynamics 365 Customer Voice in e-commercesitepagina's van Dynamics 365 Commerce integreert.
 author: samjarawan
 ms.date: 05/17/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
-ms.openlocfilehash: 272ec1a59ed45b2d2336dcfea16051d27011360f
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
+ms.openlocfilehash: c8c67ecf4950c92fc91c8d119e06e5e8afff0ddf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767945"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850325"
 ---
 # <a name="integrate-customer-voice-into-e-commerce-site-pages"></a>Customer Voice integreren in e-commercesitepagina's
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u Microsoft Dynamics 365 Customer Voice in e-commercesitepagina's van Dynamics 365 Commerce integreert.
+In dit artikel wordt beschreven hoe u Microsoft Dynamics 365 Customer Voice in e-commercesitepagina's van Dynamics 365 Commerce integreert.
 
 U kunt [Customer Voice](https://dynamics.microsoft.com/customer-voice/overview/) integreren in uw e-commercesite om realtime feedback van klanten te verzamelen, te analyseren en te volgen. Als u aan de slag wilt met de integratie, moet u een account maken en een Customer Voice-projectsjabloon selecteren voor het type feedback dat u wilt verzamelen.
 
@@ -37,7 +37,7 @@ Volg deze stappen om een Customer Voice-projectsjabloon te selecteren.
 1. Selecteer de projectsjabloon in voor het feedbacktype dat u wilt verzamelen en selecteer vervolgens **Volgende**.
 1. Selecteer op het tabblad **Verzenden** onder **Een insluitingsindeling kiezen** een insluitingsindeling. In het veld **Ingesloten code** ziet u de code die moet worden ingesloten in Commerce Site Builder.
 
-Voor de voorbeelden in dit onderwerp wordt gebruikgemaakt van de projectsjabloon **Periodiek klantonderzoek** en de insluitingsindeling **Knop**.
+Voor de voorbeelden in dit artikel wordt gebruikgemaakt van de projectsjabloon **Periodiek klantonderzoek** en de insluitingsindeling **Knop**.
 
 In het volgende voorbeeld wordt de projectsjabloonpagina **Periodiek klantonderzoek** weergegeven, waar de optie voor de insluitingsindeling **Knop** is geselecteerd. De insluitingscode voor die optie wordt weergegeven in het veld **Ingesloten code**. Drie afzonderlijke acties zijn vereist om de geleverde code in uw sitepagina's in te voegen, zoals wordt beschreven in de volgende secties.
 

@@ -1,6 +1,6 @@
 ---
 title: Een landingspagina voor een categorie verrijken
-description: In dit onderwerp wordt de verrijking van categoriepagina's in Dynamics 365 Commerce beschreven.
+description: In dit artikel wordt de verrijking van categoriepagina's in Dynamics 365 Commerce beschreven.
 author: v-chgri
 ms.date: 04/14/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5bb28c3b5fbb1133d32219b9c47dd1477ae2ac982ee035321dafd77c53dc910b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bfee3b09768fa19ab95c880d7f7cbf330a8c58d7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771002"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856959"
 ---
 # <a name="enrich-a-category-landing-page"></a>Een landingspagina voor een categorie verrijken
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt de verrijking van categoriepagina's in Dynamics 365 Commerce beschreven.
+In dit artikel wordt de verrijking van categoriepagina's in Dynamics 365 Commerce beschreven.
 
 Commerce biedt een standaard landingspagina voor categorieën die wordt gebruikt wanneer categoriegegevens worden weergegeven. Een standaard categoriepagina bevat vereiste elementen, zoals verfijners, gecategoriseerde productplaatsing, sorteeropties, een keuzeoverzicht en pagineringsknoppen. 
 

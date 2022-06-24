@@ -1,6 +1,6 @@
 ---
 title: Aanbevelingen maken met voorbeeldgegevens
-description: Dit onderwerp biedt richtlijnen over het gebruik van productaanbevelingen voor meerdere kanalen in Tier 1-omgevingen met een enkel systeem via vooraf ingevulde, aanpasbare demogegevens.
+description: Dit artikel biedt richtlijnen over het gebruik van productaanbevelingen voor meerdere kanalen in Tier 1-omgevingen met een enkel systeem via vooraf ingevulde, aanpasbare demogegevens.
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1a9592ee5cae88c6277115ed495b15ec09945e56cad0634fd246b6ee7e5dd048
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a0e6666cc163f97567cf5c6f820d436ef6ef4cca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741033"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874890"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Aanbevelingen maken met voorbeeldgegevens
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp biedt richtlijnen over het gebruik van productaanbevelingen voor meerdere kanalen in Tier 1-omgevingen met een enkel systeem via vooraf ingevulde, aanpasbare demogegevens.
+Dit artikel biedt richtlijnen over het gebruik van productaanbevelingen voor meerdere kanalen in Tier 1-omgevingen met een enkel systeem via vooraf ingevulde, aanpasbare demogegevens.
 
 Productaanbevelingen voor meerdere kanalen bieden een reeks redactioneel samengestelde of door het programma gegenereerde lijsten met producten. Deze lijsten kunnen worden gebruikt in verschillende scenario's, afhankelijk van de zakelijke behoefte. Meer informatie over lijsten met productaanbevelingen vindt u in [Overzicht van productaanbevelingen](product-recommendations.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Kopteksten en regels in verkoopfacturen rechtstreeks synchroniseren vanuit Supply Chain Management naar Sales
-description: In dit onderwerp worden de sjablonen en onderliggende taken besproken die worden gebruikt voor het rechtstreeks synchroniseren van kopteksten en regels van verkoopfacturen van Dynamics 365 Supply Chain Management naar Dynamics 365 Sales.
+description: In dit artikel worden de sjablonen en onderliggende taken besproken die worden gebruikt voor het rechtstreeks synchroniseren van kopteksten en regels van verkoopfacturen van Dynamics 365 Supply Chain Management naar Dynamics 365 Sales.
 author: Henrikan
 ms.date: 10/26/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c2f988b4f170c027444ba7cf54a55e0bd846cedf
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: de4bdd07127b65321540543040192eb7811850da
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571636"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862535"
 ---
-# <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Kopteksten en regels in verkoopfacturen rechtstreeks synchroniseren vanuit Finance and Operations naar Sales
+# <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Kopteksten en regels in verkoopfacturen direct vanuit Finance and Operations synchroniseren naar Sales
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de sjablonen en onderliggende taken besproken die worden gebruikt voor het rechtstreeks synchroniseren van kopteksten en regels van verkoopfacturen van Dynamics 365 Supply Chain Management naar Dynamics 365 Sales.
+In dit artikel worden de sjablonen en onderliggende taken besproken die worden gebruikt voor het rechtstreeks synchroniseren van kopteksten en regels van verkoopfacturen van Dynamics 365 Supply Chain Management naar Dynamics 365 Sales.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Gegevensstroom in Prospect naar contant geld
 
@@ -124,7 +124,7 @@ In de volgende afbeeldingen ziet u een voorbeeld van sjabloontoewijzing in Gegev
 
 
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-articles"></a>Gerelateerde artikelen
 
 [Van prospect tot contant geld](prospect-to-cash.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Een nieuw adresboek maken
-description: In dit onderwerp wordt beschreven hoe u adresboeken maakt in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt beschreven hoe u adresboeken maakt in Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f28e9d301b0a3c30f903ccc32e785ae09f0d702f3625f5febe03817ba44046ce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7bee4999255e063da946d38561146f5beb98dbc8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729849"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889363"
 ---
 # <a name="create-new-address-book"></a>Nieuw adresboek maken
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u een nieuw adresboek maakt in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt beschreven hoe u een nieuw adresboek maakt in Microsoft Dynamics 365 Commerce.
 
 Adresboeken worden voor verschillende doeleinden gebruikt in Commerce, waaronder het opslaan van klantlijsten en lijsten met werknemers voor een kanaal. Adresboeken kunnen worden gebruikt voor één kanaal of worden gedeeld tussen kanalen.
 

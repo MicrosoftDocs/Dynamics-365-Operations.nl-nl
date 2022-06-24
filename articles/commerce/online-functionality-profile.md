@@ -1,6 +1,6 @@
 ---
 title: Een online functionaliteitsprofiel maken
-description: In dit onderwerp wordt beschreven hoe u een online functionaliteitsprofiel maakt in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt beschreven hoe u een online functionaliteitsprofiel maakt in Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d6dcbb5b9ea01035396e90a6809cb1568c3a4fc86def41cf36732588b5046da7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 686bc6440c31f3a4d729f2d92e3e57a1cc7b641f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716189"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895421"
 ---
 # <a name="create-an-online-functionality-profile"></a>Een online functionaliteitsprofiel maken
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp bevat een overzicht van het instellen van een online functionaliteitsprofiel voor Microsoft Dynamics 365 Commerce.
+Dit artikel bevat een overzicht van het instellen van een online functionaliteitsprofiel voor Microsoft Dynamics 365 Commerce.
 
 Het online functionaliteitsprofiel biedt verschillende instellingen voor online kanalen. In elk online kanaal moet een online functionaliteitsprofiel worden opgegeven.
 

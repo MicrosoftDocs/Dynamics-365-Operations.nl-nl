@@ -1,6 +1,6 @@
 ---
 title: Lijst met voorhanden voorraad
-description: In dit onderwerp wordt beschreven hoe u de lijst Voorhanden voorraad gebruikt om details over voorhanden voorraad te controleren. Er worden enkele manieren weergegeven waarop de verschillende filter- en sorteeropties samenwerken en de manier waarop deze opties kunnen leiden tot onverwachte resultaten wanneer deze worden gecombineerd.
+description: In dit artikel wordt beschreven hoe u de lijst Voorhanden voorraad gebruikt om details over voorhanden voorraad te controleren. Er worden enkele manieren weergegeven waarop de verschillende filter- en sorteeropties samenwerken en de manier waarop deze opties kunnen leiden tot onverwachte resultaten wanneer deze worden gecombineerd.
 author: yufeihuang
 ms.date: 07/07/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 9464240123ec2248e1b66f32dd3c9a2f974512b6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5747ae985e1791de8ddd93b678c2449a4a1802da
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573916"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879043"
 ---
 # <a name="inventory-on-hand-list"></a>Lijst met voorhanden voorraad
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u de lijst **Voorhanden voorraad** gebruikt om details over voorhanden voorraad te controleren. Er worden enkele manieren weergegeven waarop de verschillende filter- en sorteeropties samenwerken en de manier waarop deze opties kunnen leiden tot onverwachte resultaten wanneer deze worden gecombineerd.
+In dit artikel wordt beschreven hoe u de lijst **Voorhanden voorraad** gebruikt om details over voorhanden voorraad te controleren. Er worden enkele manieren weergegeven waarop de verschillende filter- en sorteeropties samenwerken en de manier waarop deze opties kunnen leiden tot onverwachte resultaten wanneer deze worden gecombineerd.
 
 ## <a name="query-your-on-hand-inventory"></a>Uw voorhanden voorraad opvragen
 
@@ -35,9 +35,9 @@ De pagina **Voorhanden voorraad** wordt automatisch bijgewerkt wanneer transacti
 Gebruik de volgende hulpmiddelen om de set producten te vinden die u zoekt:
 
 - Selecteer in het actievenster [**Dimensies**](#dimensions) om een dialoogvenster te openen waarin u kolommen kunt toevoegen of verwijderen die in het raster **Voorhanden** worden weergegeven.
-- Voer in het [deelvenster **Filters**](#filters-pane) waarden in voor specifieke velden om alleen records weer te geven die overeenkomen met die waarden. Filters die u hier definieert, gelden voor brontabellen die later kunnen worden samengevoegd op basis van de dimensies die u hebt geselecteerd om weer te geven. Zie de [voorbeelden](#examples) verderop in dit onderwerp voor meer informatie over de manier waarop dit gedrag van invloed kan zijn op de resultaten.
+- Voer in het [deelvenster **Filters**](#filters-pane) waarden in voor specifieke velden om alleen records weer te geven die overeenkomen met die waarden. Filters die u hier definieert, gelden voor brontabellen die later kunnen worden samengevoegd op basis van de dimensies die u hebt geselecteerd om weer te geven. Zie de [voorbeelden](#examples) verderop in dit artikel voor meer informatie over de manier waarop dit gedrag van invloed kan zijn op de resultaten.
 - Selecteer in het deelvenster **Filters** de optie **Toepassen** om de lijst met overeenkomende voorhanden voorraad in het raster **Voorhanden** te genereren.
-- Selecteer in het raster **Voorhanden** een kolomkop om te sorteren of filteren op waarden in die kolom. Een snelfilter boven aan het raster bevat extra filteropties. Deze filters zijn van toepassing op de resultaten, niet op de brontabellen. Zie de [voorbeelden](#examples) verderop in dit onderwerp voor meer informatie over de manier waarop dit gedrag van invloed kan zijn op de resultaten.
+- Selecteer in het raster **Voorhanden** een kolomkop om te sorteren of filteren op waarden in die kolom. Een snelfilter boven aan het raster bevat extra filteropties. Deze filters zijn van toepassing op de resultaten, niet op de brontabellen. Zie de [voorbeelden](#examples) verderop in dit artikel voor meer informatie over de manier waarop dit gedrag van invloed kan zijn op de resultaten.
 
 Voor elk overeenkomend artikel bevat het raster **Voorhanden** de volgende kolommen met voorraadgegevens.
 
@@ -64,7 +64,7 @@ Gebruik het deelvenster **Filters** om de voorhanden voorraad te filteren zodat 
 > [!IMPORTANT]
 > De pagina **Voorhanden voorraad** wordt samengesteld uit een gedetailleerde tabel met voorhanden voorraad waarin alle beschikbare dimensies zijn opgenomen. De lijst op deze pagina is echter een overzicht. Daarom kunnen rijen uit de brontabel worden gecombineerd door waarden te aggregeren op basis van de dimensies die worden weergegeven.
 >
-> De filters die u in het deelvenster **Filters** definieert, zijn van toepassing op de brontabel en niet op de samengevoegde lijst. Dit gedrag kan soms tot onverwachte resultaten leiden. Zie de [voorbeelden](#examples) verderop in dit onderwerp voor meer informatie over de manier waarop dit gedrag van invloed kan zijn op de resultaten.
+> De filters die u in het deelvenster **Filters** definieert, zijn van toepassing op de brontabel en niet op de samengevoegde lijst. Dit gedrag kan soms tot onverwachte resultaten leiden. Zie de [voorbeelden](#examples) verderop in dit artikel voor meer informatie over de manier waarop dit gedrag van invloed kan zijn op de resultaten.
 > 
 > De [filters die in het raster worden vermeld](#grid-filters) hebben echter *wel* betrekking op de samengevoegde lijst. Deze filters bevatten zowel het snelfilter boven aan het raster als het filter voor elke kolomkop.
 
@@ -75,7 +75,7 @@ U kunt de set filters die beschikbaar zijn, in het deelvenster **Filters** wijzi
 
 ## <a name="select-which-dimensions-to-show"></a><a name="dimensions"></a>Selecteer de dimensies die u wilt weergeven
 
-Dimensies geven meer informatie over elk artikel in de lijst met voorhanden voorraad en bieden u meer manieren om de lijst te sorteren en te filteren. De dimensies die u selecteert, bepalen ook hoe rijen worden samengevoegd op de pagina **Voorhanden voorraad**. Deze samenvoeging kan op haar beurt invloed hebben op de manier waarop rijen uit de brontabellen worden gecombineerd in de resultaten die u ziet. Zie de [voorbeelden](#examples) verderop in dit onderwerp voor meer informatie over de manier waarop dit gedrag van invloed kan zijn op de resultaten.
+Dimensies geven meer informatie over elk artikel in de lijst met voorhanden voorraad en bieden u meer manieren om de lijst te sorteren en te filteren. De dimensies die u selecteert, bepalen ook hoe rijen worden samengevoegd op de pagina **Voorhanden voorraad**. Deze samenvoeging kan op haar beurt invloed hebben op de manier waarop rijen uit de brontabellen worden gecombineerd in de resultaten die u ziet. Zie de [voorbeelden](#examples) verderop in dit artikel voor meer informatie over de manier waarop dit gedrag van invloed kan zijn op de resultaten.
 
 Voer de volgende stappen uit om de selectie van voorraaddimensies aan te passen die worden weergegeven.
 
@@ -89,7 +89,7 @@ Voer de volgende stappen uit om de selectie van voorraaddimensies aan te passen 
 
 ## <a name="filter-on-the-output-of-the-inventory-on-hand-list"></a><a name="grid-filters"></a>Filteren op de uitvoer van de voorhanden voorraad
 
-U kunt in het raster **Voorhanden** een kolomkop selecteren om te sorteren of filteren op waarden in die kolom. Een snelfilter boven aan het raster bevat extra filteropties. Deze filters zijn van toepassing op de resultaten, niet op de brontabellen. Zie de [voorbeelden](#examples) verderop in dit onderwerp voor meer informatie over de manier waarop dit gedrag van invloed kan zijn op de resultaten.
+U kunt in het raster **Voorhanden** een kolomkop selecteren om te sorteren of filteren op waarden in die kolom. Een snelfilter boven aan het raster bevat extra filteropties. Deze filters zijn van toepassing op de resultaten, niet op de brontabellen. Zie de [voorbeelden](#examples) verderop in dit artikel voor meer informatie over de manier waarop dit gedrag van invloed kan zijn op de resultaten.
 
 > [!NOTE]
 > U kunt niet op alle kolommen filteren en sorteren. De meeste kolommen met hoeveelheden bevatten geen sorteer- en filterbesturingselementen, omdat dit berekende velden zijn. De kolom **In bestelling** is een uitzondering.

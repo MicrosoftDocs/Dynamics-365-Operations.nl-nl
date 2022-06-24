@@ -1,6 +1,6 @@
 ---
 title: Testgroepen voor kwaliteitsbeheer
-description: In dit onderwerp wordt beschreven hoe u testgroepen maakt, zodat er meerdere tests kunnen worden gebruikt met kwaliteitsorders in Microsoft Dynamics 365 Supply Chain Management.
+description: In dit artikel wordt beschreven hoe u testgroepen maakt, zodat er meerdere tests kunnen worden gebruikt met kwaliteitsorders in Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5619be4a0724556bf0c51dcaa3adcc3725f10706
-ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
+ms.openlocfilehash: e7722bc92d8c2bf52d6a798a93f07af44037d4e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "8789263"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857688"
 ---
 # <a name="quality-management-test-groups"></a>Testgroepen voor kwaliteitsbeheer
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u testgroepen maakt, zodat er meerdere tests kunnen worden gebruikt met kwaliteitsorders in Microsoft Dynamics 365 Supply Chain Management.
+In dit artikel wordt beschreven hoe u testgroepen maakt, zodat er meerdere tests kunnen worden gebruikt met kwaliteitsorders in Microsoft Dynamics 365 Supply Chain Management.
 
 U kunt de pagina **Testgroepen** gebruiken voor het instellen, bewerken en weergeven van testgroepen en van de afzonderlijke tests die aan deze testgroepen zijn toegewezen. In het bovenste gedeelte van de pagina worden de testgroepen weergegeven en in het onderste gedeelte worden de tests weergegeven die aan een geselecteerde testgroep zijn toegewezen.
 

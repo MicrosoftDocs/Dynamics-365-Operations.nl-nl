@@ -1,8 +1,8 @@
 ---
 title: Planhistorie en planningslogboeken weergeven
-description: In dit onderwerp wordt uitgelegd hoe u de historie van planningstaken kunt weergeven die zijn geactiveerd door de functionaliteit Planningsoptimalisatie.
+description: In dit artikel wordt uitgelegd hoe u de historie van planningstaken kunt weergeven die zijn geactiveerd door de functionaliteit Planningsoptimalisatie.
 author: t-benebo
-ms.date: 10/30/2019
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,22 +16,22 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 9b4cba4dd94eb198e770d152d4f759a706065dee
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: b2c9257fc67a06b57418b2f5b035b2b540131405
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469752"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863935"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Planhistorie en planningslogboeken weergeven
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u de historie van planningstaken kunt weergeven die zijn geactiveerd door de functionaliteit Planningsoptimalisatie in Microsoft Dynamics 365 Supply Chain Management.
+In dit artikel wordt uitgelegd hoe u de historie van planningstaken kunt weergeven die zijn geactiveerd door de functionaliteit Planningsoptimalisatie in Microsoft Dynamics 365 Supply Chain Management.
 
 Als u de historie voor een plan wilt weergeven, opent u het plan door naar **Hoofdplanning** \> **Instellingen** \> **Plannen** \> **Hoofdplannen** te gaan en **Historie** te selecteren. In de historie worden alle taken voor het geselecteerde plan weergegeven. De lijst bevat voltooide en actieve taken.
 
-De historie van taken voor de uitvoeringen van hoofdplanning van Planningsoptimalisatie behoudt maximaal 60 records per hoofdplan. Wanneer u een nieuwe hoofdplanningsberekening maakt, wordt de vroegste historierecord van het plan verwijderd.
+Per hoofdplan behoudt het systeem maximaal 60 geschiedenisrecords en worden records verwijderd die ouder zijn dan 30 dagen. Telkens wanneer u een nieuwe hoofdplanningsberekening maakt, voegt het systeem een nieuwe geschiedenisrecord toe en schoont het de oudste records waar nodig op.
 
 Naast de begintijd en status van taken kunt u het logboek voor een bepaalde taak weergeven. Het logboek bevat aanvullende informatie en waarschuwingen. Niet alle taken hebben een logboek. Selecteer **Logboek** als u het logboek voor een taak wilt weergeven. Logboekvermeldingen worden slechts 30 dagen opgeslagen na de datum waarop de taak is voltooid. Daarna worden ze automatisch verwijderd.
 

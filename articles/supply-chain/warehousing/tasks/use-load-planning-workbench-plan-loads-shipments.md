@@ -1,6 +1,6 @@
 ---
 title: Belastingen en zendingen plannen met behulp van de Workbench ladingplanning
-description: In dit onderwerp wordt getoond hoe u de workbench voor ladingplanning kunt gebruiken om een lading te maken voor een verkooporder.
+description: In dit artikel wordt getoond hoe u de workbench voor ladingplanning kunt gebruiken om een lading te maken voor een verkooporder.
 author: Mirzaab
 ms.date: 07/08/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d641ece709d36d8f3ee29cde47918154835a5bb9
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8ad9c91051c1a1140661c93d7c5e86a78de5ec3f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572932"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877329"
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>Belastingen en zendingen plannen met behulp van de Workbench ladingplanning
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt getoond hoe u de workbench voor ladingplanning kunt gebruiken om een lading te maken voor een verkooporder. Als vereiste maken we eerst de verkooporder. Deze procedure maakt deel uit van het dagelijks werk voor de transportcoördinator. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
+In dit artikel wordt getoond hoe u de workbench voor ladingplanning kunt gebruiken om een lading te maken voor een verkooporder. Als vereiste maken we eerst de verkooporder. Deze procedure maakt deel uit van het dagelijks werk voor de transportcoördinator. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 
 
 ## <a name="create-a-sales-order"></a>Verkooporder maken

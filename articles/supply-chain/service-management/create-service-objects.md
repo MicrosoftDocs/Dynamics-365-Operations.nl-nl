@@ -1,6 +1,6 @@
 ---
 title: Serviceobjecten maken
-description: In dit onderwerp wordt beschreven hoe u serviceobjecten maakt.
+description: In dit artikel wordt beschreven hoe u serviceobjecten maakt.
 author: sorenva
 ms.date: 02/21/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 585a268f4ebbe7bc8626f028c038d1533812c5e4
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b372e7d06fdf25df81b11e74e20a5ff214503a0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674976"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852123"
 ---
 # <a name="create-service-objects"></a>Serviceobjecten maken  
 
@@ -34,7 +34,7 @@ Serviceobjecten zijn de activa en de producten van een klant waarvoor u een serv
 4. Selecteer de groep waartoe het object behoort in het veld **Serviceobjectgroep**. 
 5. Optioneel: Selecteer een artikel voor de serviceobjectregel of selecteer een stuklijst (BOM)-sjabloon.
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-articles"></a>Gerelateerde artikelen
 
 [Overzicht van Serviceobjecten](service-objects.md)
 

@@ -1,6 +1,6 @@
 ---
 title: De productieorderstatus omkeren
-description: In dit onderwerp wordt beschreven hoe de productieorderstatus kan worden omgekeerd.
+description: In dit artikel wordt beschreven hoe de productieorderstatus kan worden omgekeerd.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0dd17bc48bfb6c78e1baca4faf78d6bc5b3ce426c5f0530174eccd95536a5859
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1d50cbcb4031d5c9f2c814883afd1fb38777d2ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760413"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903951"
 ---
 # <a name="reverse-the-production-order-status"></a>De productieorderstatus omkeren
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe de productieorderstatus kan worden omgekeerd. 
+In dit artikel wordt beschreven hoe de productieorderstatus kan worden omgekeerd. 
 
 Als u de status van een productieorder omkeert, gaan de productieorder zelf en alle bewerkingen die aan de routes zijn gekoppeld een stap terug in de levensloop van de productieorder. Stel dat een productieorder een status heeft van **Gepland** en u de status terug wijzigt naar **Gemaakt**. In dit geval, moet het systeem eerst de status wijzigen in **Geraamd**. Dit is de status die direct voorafgaat aan **Gepland**. Vervolgens kan de status worden gewijzigd in de status die u wilt, namelijk **Gemaakt**. **Opmerking:** Als uw order de status **Gereedmelden** heeft bereikt, kunt u deze nog steeds terugzetten naar een eerdere status. U moet echter wel een nieuwe raming en planning van bewerkingen of taakplanning of beide uitvoeren om de informatie over de order bij te werken. Deze stap is vereist omdat eventuele reserveringen van resterend artikelverbruik en resourceverbruik eveneens opnieuw moeten worden ingesteld. In de rest van dit artikel wordt uitgelegd wat er gebeurt wanneer u de status van een productieorder op de volgende manieren terugzet:
 

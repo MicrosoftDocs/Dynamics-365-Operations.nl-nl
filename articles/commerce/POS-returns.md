@@ -1,6 +1,6 @@
 ---
 title: Retouren maken in POS
-description: In dit onderwerp wordt beschreven hoe u retouren voor contante transacties of klantorders start in de toepassing Microsoft Dynamics 365 Commerce POS (Point of Sale).
+description: In dit artikel wordt beschreven hoe u retouren voor contante transacties of klantorders start in de toepassing Microsoft Dynamics 365 Commerce POS (Point of Sale).
 author: hhainesms
 ms.date: 04/27/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: c8e06c0d83e3bc2f5efea1e3a8124c700706aa2e
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: a49e9abd0143d480cc1cafb05be5e995fb3cebdd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648983"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856993"
 ---
 # <a name="create-returns-in-pos"></a>Retouren maken in POS
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u retouren voor contante transacties of klantorders start in de app Microsoft Dynamics 365 Commerce POS (Point of Sale).
+In dit artikel wordt beschreven hoe u retouren voor contante transacties of klantorders start in de app Microsoft Dynamics 365 Commerce POS (Point of Sale).
 
 > [!NOTE]
 > In versie 10.0.20 en hoger van Commerce is een nieuwe functie met de naam **Uniforme retourverwerkingservaring in POS** beschikbaar. Deze functie biedt een consistenter en uniform retourproces in POS, ongeacht het transactietype (contante transactie of klantorder) of het oorspronkelijke kanaal waarin de order is gemaakt. Het wordt aangeraden dat alle organisaties deze nieuwe functie inschakelen om de algehele betrouwbaarheid van retourverwerking via POS te verbeteren.

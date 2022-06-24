@@ -1,6 +1,6 @@
 ---
 title: Randapparaten aansluiten op het verkooppunt (POS)
-description: In dit onderwerp wordt beschreven hoe u randapparatuur aansluit op uw Retail POS.
+description: In dit artikel wordt beschreven hoe u randapparatuur aansluit op uw Retail POS.
 author: BrianShook
 ms.date: 03/01/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f1c53c7215d3a5a182f345d5e040274ae06f9b12
-ms.sourcegitcommit: 116898def829c0f78bda8a117242aa308793465d
+ms.openlocfilehash: ffee75e1713c7c9d31b1d023cd055c2f1a3fc43d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8370946"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897103"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Randapparaten aansluiten op het verkooppunt (POS)
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u randapparatuur aansluit op uw Retail POS.
+In dit artikel wordt beschreven hoe u randapparatuur aansluit op uw Retail POS.
 
 > [!NOTE]
 > Zie [Retail Hardware Station configureren en installeren](retail-hardware-station-configuration-installation.md) en [Modern POS (MPOS) configureren, installeren en activeren](retail-modern-pos-device-activation.md) voor specifieke installatie-instructies.
@@ -157,7 +157,7 @@ Ontvangstprofielen worden direct aan printers toegewezen binnen het hardwareprof
 
 #### <a name="hardware-profiles"></a>Hardwareprofielen
 
-Eerder in dit onderwerp werd uitgelegd dat hardwareprofielen onderdeel van de clientinstellingen vormen. Hardwareprofielen worden rechtstreeks aan het POS-register of aan een gedeeld hardwarestation toegewezen en worden gebruikt om de typen apparaten op te geven die door een specifiek POS-register of hardwarestation worden gebruikt. Hardwareprofielen worden ook gebruikt om de EFT-instellingen op te geven die worden gebruikt om te communiceren met de betaling-SDK.
+Eerder in dit artikel werd uitgelegd dat hardwareprofielen onderdeel van de clientinstellingen vormen. Hardwareprofielen worden rechtstreeks aan het POS-register of aan een gedeeld hardwarestation toegewezen en worden gebruikt om de typen apparaten op te geven die door een specifiek POS-register of hardwarestation worden gebruikt. Hardwareprofielen worden ook gebruikt om de EFT-instellingen op te geven die worden gebruikt om te communiceren met de betaling-SDK.
 
 #### <a name="visual-profiles"></a>Weergaveprofielen
 

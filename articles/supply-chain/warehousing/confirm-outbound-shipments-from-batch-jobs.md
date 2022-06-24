@@ -1,6 +1,6 @@
 ---
 title: Uitgaande zendingen vanuit batchtaken bevestigen
-description: In dit onderwerp wordt beschreven hoe u een batchtaak instelt waarmee automatisch uitgaande overboekingsorderzendingen worden bevestigd voor ladingen die gereed zijn om te verzenden.
+description: In dit artikel wordt beschreven hoe u een batchtaak instelt waarmee automatisch uitgaande overboekingsorderzendingen worden bevestigd voor ladingen die gereed zijn om te verzenden.
 author: perlynne
 ms.date: 07/31/2020
 ms.topic: article
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f68dcfc0c1454ee5b095e186c52faa6c83bf8dc6
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 00749a69b17b0064290d7b41ccb2171386716302
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103910"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875096"
 ---
 # <a name="confirm-outbound-shipments-from-batch-jobs"></a>Uitgaande zendingen vanuit batchtaken bevestigen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u een batchtaak instelt waarmee automatisch uitgaande overboekingsorderzendingen worden bevestigd voor ladingen die gereed zijn om te verzenden. De batchtaak die hier wordt beschreven, is alleen van toepassing op overboekingsorders, niet op verkooporders.
+In dit artikel wordt beschreven hoe u een batchtaak instelt waarmee automatisch uitgaande overboekingsorderzendingen worden bevestigd voor ladingen die gereed zijn om te verzenden. De batchtaak die hier wordt beschreven, is alleen van toepassing op overboekingsorders, niet op verkooporders.
 
 ## <a name="turn-the-confirm-outbound-shipments-from-batch-jobs-feature-on-or-off"></a>De functie Uitgaande zendingen vanuit batchtaken bevestigen in- of uitschakelen
 
-Als u de functionaliteit wilt gebruiken die in dit onderwerp wordt beschreven, moet de functie *Uitgaande zendingen vanuit batchtaken bevestigen* zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Uitgaande zendingen vanuit batchtaken bevestigen* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Als u de functionaliteit wilt gebruiken die in dit artikel wordt beschreven, moet de functie *Uitgaande zendingen vanuit batchtaken bevestigen* zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Uitgaande zendingen vanuit batchtaken bevestigen* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="process-outbound-shipments"></a>Uitgaande zendingen verwerken
 

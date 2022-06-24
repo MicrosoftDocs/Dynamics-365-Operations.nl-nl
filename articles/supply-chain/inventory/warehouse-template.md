@@ -1,6 +1,6 @@
 ---
 title: Een magazijn instellen op basis van een magazijnconfiguratiesjabloon
-description: In dit onderwerp wordt uitgelegd hoe u een magazijn instelt op basis van een magazijnconfiguratiesjabloon.
+description: In dit artikel wordt uitgelegd hoe u een magazijn instelt op basis van een magazijnconfiguratiesjabloon.
 author: yufeihuang
 ms.date: 11/16/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 6698d615826a1555426824bb76db654fde539360
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 737b6f2f645ff270e5a49d54ca7542df3c075f94
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571084"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856101"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Een magazijn instellen op basis van een magazijnconfiguratiesjabloon
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u een magazijn instelt op basis van een magazijnconfiguratiesjabloon. Er zijn verschillende vooraf gedefinieerde sjablonen die u kunt gebruiken. Zie voor informatie over het gebruik van deze sjablonen [Gegevenssjablonen voor configuratie](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
+In dit artikel wordt uitgelegd hoe u een magazijn instelt op basis van een magazijnconfiguratiesjabloon. Er zijn verschillende vooraf gedefinieerde sjablonen die u kunt gebruiken. Zie voor informatie over het gebruik van deze sjablonen [Gegevenssjablonen voor configuratie](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
 ## <a name="scenarios-where-configuration-templates-can-be-helpful"></a>Scenario's waarin configuratiesjablonen nuttig kunnen zijn
 
@@ -38,7 +38,7 @@ Configuratiesjablonen kunnen in veel scenario's nuttig zijn. Hieronder vindt u e
 - U wilt u snel voorbereiden voor een demonstratie van de magazijnfunctionaliteit.
 - U wilt dat bestaande artikelen en magazijnen de functionaliteit in Magazijnbeheer gebruiken in plaats van de functionaliteit in Voorraadbeheer.
 
-Dit onderwerp is gericht op de eerste van deze scenario's. Hier ziet u hoe u een configuratiesjabloon kunt gebruiken om configuratie-instellingen van een testomgeving naar een productieomgeving te kopiëren.
+Dit artikel is gericht op de eerste van deze scenario's. Hier ziet u hoe u een configuratiesjabloon kunt gebruiken om configuratie-instellingen van een testomgeving naar een productieomgeving te kopiëren.
 
 ## <a name="copy-a-configuration-setup-from-a-test-environment-to-a-production-environment"></a>Configuratie-instellingen van een testomgeving naar een productieomgeving kopiëren
 
@@ -90,9 +90,9 @@ U kunt een zipbestand voor het gegevenspakket downloaden. Dit bestand bevat alle
 
 Met **Uitvoeringslogboek weergeven** kunt u gedetailleerde informatie weergeven over elk gegevensitem dat wordt geïmporteerd. U kunt de weergave Faseringsgegevens gebruiken om snel naar de doelgegevens te gaan. Op deze manier ziet u hoe de geïmporteerde gegevens eruitzien op de gerelateerde pagina's in de toepassing. Wanneer u de standaardgegevenssjablonen gebruikt, werkt de importvolgorde voor elke gegevensentiteit op de vooraf gedefinieerde manier om ervoor te zorgen dat alle afhankelijke gegevens eerst worden geïmporteerd. Als aangepaste gegevensentiteiten deel uitmaken van het project, moet u ervoor zorgen dat de juiste volgorde is gedefinieerd. Zie [Gegevenssjablonen voor configuratie](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md) voor meer informatie.
 
-Bekijk deze video van 3 minuten op YouTube over [Het magazijnsjabloon gebruiken om de configuratie te kopiëren voor Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs) voor meer informatie over het gebruik van magazijnsjablonen om de configuratie van een magazijn van het ene bedrijf naar een nieuw bedrijf in dezelfde instantie te kopiëren.
+Bekijk deze video van 3 minuten op YouTube over [Het magazijnsjabloon gebruiken om de configuratie voor Finance and Operations te kopiëren](https://www.youtube.com/watch?v=K2WIfFlqJYs)voor meer informatie over het gebruik van magazijnsjablonen om de configuratie van een magazijn van het ene bedrijf naar een nieuw bedrijf in dezelfde instantie te kopiëren.
 
-## <a name="related-topic"></a>Verwant onderwerp
+## <a name="related-article"></a>Gerelateerd artikel
 
 [Sjablonen voor configuratiegegevens](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)
 

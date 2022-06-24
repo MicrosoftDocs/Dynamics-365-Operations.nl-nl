@@ -1,6 +1,6 @@
 ---
 title: Verzendcontainers
-description: In dit onderwerp wordt beschreven hoe u verzendcontainers kunt instellen voor de module Francoprijzen.
+description: In dit artikel wordt beschreven hoe u verzendcontainers kunt instellen voor de module Francoprijzen.
 author: Weijiesa
 ms.date: 12/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 96710cf2b5a2e39f9492aadb0ba6f3241f0666f4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 345f815a4f85db30db18aba3f8a4d41835c2e3f2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690549"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860837"
 ---
 # <a name="shipping-container-setup"></a>Verzendingscontainer instellen
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u verzendcontainers kunt instellen voor de module **Francoprijzen**.
+In dit artikel wordt beschreven hoe u verzendcontainers kunt instellen voor de module **Francoprijzen**.
 
 ## <a name="set-up-shipping-container-types"></a><a id="shipping-container-types"></a>Verzendcontainertypen instellen
 
@@ -53,7 +53,7 @@ Als u wilt werken met verzendcontainers, gaat u naar **Francoprijzen \> Containe
 | Veld | Beschrijving |
 |---|---|
 | Verzendcontainer | Voer een unieke identificatienaam/-nummer voor de verzendcontainer in. |
-| Type verzendcontainer | Selecteer het type verzendcontainer. Zie de sectie [Verzendcontainertypen instellen](#shipping-container-types) eerder in dit onderwerp voor meer informatie. |
+| Type verzendcontainer | Selecteer het type verzendcontainer. Zie de sectie [Verzendcontainertypen instellen](#shipping-container-types) eerder in dit artikel voor meer informatie. |
 
 > [!NOTE]
 > - Het instellen van verzendcontainers is optioneel. Meestal gebruikt u deze alleen als uw bedrijf zelf verzendcontainers in eigendom heeft of vaak dezelfde verzendcontainers gebruikt.

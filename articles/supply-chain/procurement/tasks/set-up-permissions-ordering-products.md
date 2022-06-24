@@ -1,6 +1,6 @@
 ---
 title: Machtigingen instellen voor het bestellen van producten namens iemand anders
-description: Dit onderwerp laat zien hoe u medewerkers machtigingen kunt verlenen om opdrachten tot inkoop voor te bereiden namens andere medewerkers.
+description: Dit artikel laat zien hoe u medewerkers machtigingen kunt verlenen om opdrachten tot inkoop voor te bereiden namens andere medewerkers.
 author: GalynaFedorova
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1313ca01686e55d802716adf335e77ffeb1ece34
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3053f28fdf97637b1da5f644f64676bfd10fb6a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679298"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854205"
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>Machtigingen instellen voor het bestellen van producten namens iemand anders
 
 [!include [banner](../../includes/banner.md)]
 
-Dit onderwerp laat zien hoe u medewerkers machtigingen kunt verlenen om opdrachten tot inkoop voor te bereiden namens andere medewerkers. Met andere woorden, een opdracht tot inkoop voor voorbereider kan een opdracht tot inkoop maken voor een andere aanvrager. De procedure laat ook zien hoe u een werknemer kunt machtigen om artikelen en diensten in verschillende rechtspersonen of operationele eenheden te bestellen. Deze taken worden gewoonlijk uitgevoerd door een inkoopmanager. U kunt deze procedure gebruiken voor gegevens voor het USMF-demobedrijf of voor uw eigen gegevens.
+Dit artikel laat zien hoe u medewerkers machtigingen kunt verlenen om opdrachten tot inkoop voor te bereiden namens andere medewerkers. Met andere woorden, een opdracht tot inkoop voor voorbereider kan een opdracht tot inkoop maken voor een andere aanvrager. De procedure laat ook zien hoe u een werknemer kunt machtigen om artikelen en diensten in verschillende rechtspersonen of operationele eenheden te bestellen. Deze taken worden gewoonlijk uitgevoerd door een inkoopmanager. U kunt deze procedure gebruiken voor gegevens voor het USMF-demobedrijf of voor uw eigen gegevens.
 
 
 ## <a name="grant-permission-to-enter-purchase-requisitions-on-behalf-of-another-worker"></a>Machtiging verlenen om opdrachten tot inkoop in te voeren namens een andere medewerker

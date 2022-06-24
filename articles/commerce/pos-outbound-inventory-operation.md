@@ -1,6 +1,6 @@
 ---
 title: Uitgaande voorraadbewerking in POS
-description: In dit onderwerp worden de mogelijkheden van uitgaande voorraadbewerking van het verkooppunt (POS) beschreven.
+description: In dit artikel worden de mogelijkheden van uitgaande voorraadbewerking van het verkooppunt (POS) beschreven.
 author: hhaines
 ms.date: 07/30/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: dd2c124660643628ca4c19dc3a49366b67f29ad3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581132"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850218"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Uitgaande voorraadbewerking in POS
 
@@ -187,7 +187,7 @@ Nadat het document de status **Aangevraagd** heeft gekregen, is deze gereed voor
 
 Volledig verzonden overboekingsorders worden naar het tabblad **Voltooid** van de documentlijst **Uitgaande bewerking** verplaatst. Hier blijven zij gedurende zeven dagen zichtbaar voor gebruikers in de uitgaande winkel of het uitgaande magazijn, in de alleen-lezen modus.
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-articles"></a>Gerelateerde artikelen
 
 [Inkomende voorraadbewerking in POS](pos-inbound-inventory-operation.md)
 

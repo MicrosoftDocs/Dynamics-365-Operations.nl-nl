@@ -1,6 +1,6 @@
 ---
 title: Overzicht van Tijd- en aanwezigheidsregistratie
-description: Tijdregistratiewerknemers kunnen uiteenlopende typen tijdregistraties invoeren, zoals inklokken, uitklokken, registratie van indirecte activiteiten en verzuimregistratie. Dit onderwerp beschrijft registraties, hun berekening, goedkeuring en het gebruik van de workflow om structuur en automatische goedkeuring aan het proces van het goedkeuren van urenstaten toe te voegen.
+description: Tijdregistratiewerknemers kunnen uiteenlopende typen tijdregistraties invoeren, zoals inklokken, uitklokken, registratie van indirecte activiteiten en verzuimregistratie. Dit artikel beschrijft registraties, hun berekening, goedkeuring en het gebruik van de workflow om structuur en automatische goedkeuring aan het proces van het goedkeuren van urenstaten toe te voegen.
 author: johanhoffmann
 ms.date: 07/25/2019
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af257427661cb9a0d976800b657d3eb4afe7feca
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f648663d81cd37a1df7794ee9d5ad6598fb16594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986114"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875212"
 ---
 # <a name="time-and-attendance-registration-overview"></a>Overzicht van Tijd- en aanwezigheidsregistratie
 
 [!include [banner](../includes/banner.md)]
 
-Tijdregistratiewerknemers kunnen uiteenlopende typen tijdregistraties invoeren, zoals inklokken, uitklokken, registratie van indirecte activiteiten en verzuimregistratie. Dit onderwerp beschrijft registraties, hun berekening, goedkeuring en het gebruik van de workflow om structuur en automatische goedkeuring aan het proces van het goedkeuren van urenstaten toe te voegen.
+Tijdregistratiewerknemers kunnen uiteenlopende typen tijdregistraties invoeren, zoals inklokken, uitklokken, registratie van indirecte activiteiten en verzuimregistratie. Dit artikel beschrijft registraties, hun berekening, goedkeuring en het gebruik van de workflow om structuur en automatische goedkeuring aan het proces van het goedkeuren van urenstaten toe te voegen.
 
 ## <a name="registrations"></a>Registraties
 

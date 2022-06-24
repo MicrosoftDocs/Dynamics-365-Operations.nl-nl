@@ -1,6 +1,6 @@
 ---
-title: Module Kaarten
-description: In dit onderwerp worden kaartmodules beschreven en hoe u ze configureert in Microsoft Dynamics 365 Commerce.
+title: Kaartmodule
+description: In dit artikel worden kaartmodules beschreven en hoe u ze configureert in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bc5962d6bedba1f5abf423c396382e5c8a901c81797ae95132833e23c46cfd57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 191d98d039dea6466eeee9a1db0835393be0a9ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747388"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894431"
 ---
 # <a name="map-module"></a>Kaartmodule
 
 [!include [banner](includes/banner.md)]
 
 
-In dit onderwerp worden kaartmodules beschreven en hoe u ze configureert in Microsoft Dynamics 365 Commerce.
+In dit artikel worden kaartmodules beschreven en hoe u ze configureert in Microsoft Dynamics 365 Commerce.
 
 Een kaartmodule toont de locaties van winkels op een interactieve kaart die wordt gegenereerd met behulp van het [V8-webbesturingselement van Bing Kaarten](/bingmaps/v8-web-control/). Er is een API-sleutel voor Bing Kaarten vereist. Deze moet worden toegevoegd aan de pagina met gedeelde parameters in Commerce Headquarters. Kaartmodules bieden verschillende weergaven, zoals Road, Aerial en Streetside, die gebruikers kunnen selecteren om kaartlocaties weer te geven. Ze maken ook interacties mogelijk, zoals in- en uitzoomen en gebruik van de locatie van de gebruiker.
 

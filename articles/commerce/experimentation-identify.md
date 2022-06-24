@@ -1,6 +1,6 @@
 ---
 title: Een hypothese opstellen en metrische gegevens bepalen voor een experiment
-description: In dit onderwerp wordt beschreven hoe u de hypothese en metrische gegevens voor succes kunt identificeren voor een experiment dat u uitvoert op een e-Commerce-website in Dynamics 365 Commerce.
+description: In dit artikel wordt beschreven hoe u de hypothese en metrische gegevens voor succes kunt identificeren voor een experiment dat u uitvoert op een e-Commerce-website in Dynamics 365 Commerce.
 author: sushma-rao
 ms.date: 10/21/2020
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: a143f00eedc2ddb3b54f05f2475a616609af8d5a7b8a4d19d0bbcb021290dfd3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b6bdf160522fc93e841ec2f8a4542ff80d8f67f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720927"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852781"
 ---
 # <a name="identify-a-hypothesis-and-determine-success-metrics-for-an-experiment"></a>Een hypothese opstellen en metrische gegevens voor succes bepalen voor een experiment
-De eerste fase in de levenscyclus van het experiment omvat de identificatie van de hypothese voor het experiment en het bepalen van de metrische gegevens die u zult volgen om succes te beoordelen. In het volgende diagram ziet u alle stappen voor het [instellen en uitvoeren van een experiment](experimentation-overview.md) op een e-Commerce-website in Dynamics 365 Commerce. Extra stappen worden in afzonderlijke onderwerpen behandeld. 
+De eerste fase in de levenscyclus van het experiment omvat de identificatie van de hypothese voor het experiment en het bepalen van de metrische gegevens die u zult volgen om succes te beoordelen. In het volgende diagram ziet u alle stappen voor het [instellen en uitvoeren van een experiment](experimentation-overview.md) op een e-Commerce-website in Dynamics 365 Commerce. Extra stappen worden in afzonderlijke artikelen behandeld. 
 
 [ ![Traject van gebruiker voor experimenten - identificeren.](./media/experimentation_identify.svg) ](./media/experimentation_identify.svg#lightbox)
 

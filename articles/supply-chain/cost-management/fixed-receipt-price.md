@@ -1,6 +1,6 @@
 ---
 title: Vaste ontvangstprijs
-description: In dit onderwerp wordt uitgelegd hoe u vaste ontvangstprijzen kunt configureren en gebruiken in Microsoft Dynamics 365 Supply Chain Management.
+description: In dit artikel wordt uitgelegd hoe u vaste ontvangstprijzen kunt configureren en gebruiken in Microsoft Dynamics 365 Supply Chain Management.
 author: raprofit
 ms.date: 04/25/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-04-25
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 8e26d84ddc309249d8bd6e54987ad3ae8eed68f0
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 2630952f395d1a18202698b4d73b67ef4b760194
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770296"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907575"
 ---
 # <a name="fixed-receipt-price"></a>Vaste ontvangstprijs
 
 [!include [banner](../includes/banner.md)]
 
-**Vaste ontvangstprijs** is een optie die u kunt selecteren voor een artikelmodelgroep wanneer u een ander voorraadmodel gebruikt dan *Standaardkosten* of *Zwevend gewogen gemiddelde* gebruikt. In vroege versies van Microsoft Dynamics AX was deze optie genaamd **Standaardkosten**. De naam werd gewijzigd in **Vaste ontvangstprijs** toen het nieuwe voorraadmodel voor standaardkosten werd geïntroduceerd in Dynamics AX 2012. In dit onderwerp wordt uitgelegd hoe u vaste ontvangstprijzen kunt configureren en gebruiken in Dynamics 365 Supply Chain Management.
+**Vaste ontvangstprijs** is een optie die u kunt selecteren voor een artikelmodelgroep wanneer u een ander voorraadmodel gebruikt dan *Standaardkosten* of *Zwevend gewogen gemiddelde* gebruikt. In vroege versies van Microsoft Dynamics AX was deze optie genaamd **Standaardkosten**. De naam werd gewijzigd in **Vaste ontvangstprijs** toen het nieuwe voorraadmodel voor standaardkosten werd geïntroduceerd in Dynamics AX 2012. In dit artikel wordt uitgelegd hoe u vaste ontvangstprijzen kunt configureren en gebruiken in Dynamics 365 Supply Chain Management.
 
 ## <a name="about-fixed-receipt-prices"></a>Vaste ontvangstprijzen
 

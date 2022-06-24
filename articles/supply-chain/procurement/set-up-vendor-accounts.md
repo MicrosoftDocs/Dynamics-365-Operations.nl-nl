@@ -1,6 +1,6 @@
 ---
 title: Leveranciersaccounts instellen
-description: In dit onderwerp worden de soorten gegevens beschreven, die u moet opgeven wanneer u een nieuwe leverancieraccount maakt.
+description: In dit artikel worden de soorten gegevens beschreven, die u moet opgeven wanneer u een nieuwe leverancieraccount maakt.
 author: GalynaFedorova
 ms.date: 02/03/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d524ff99cba733fdd607d9708abba440248d6cc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d1ddf126305f39a35f61b9a98da1c6bce29372cf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676969"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875270"
 ---
 # <a name="set-up-vendor-accounts"></a>Leveranciersaccounts instellen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de soorten gegevens beschreven, die u moet opgeven wanneer u een nieuwe leverancieraccount maakt.
+In dit artikel worden de soorten gegevens beschreven, die u moet opgeven wanneer u een nieuwe leverancieraccount maakt.
 
 Wanneer u een leverancieraccount maakt, voert u informatie over de leverancier in. Deze informatie wordt gebruikt om automatisch gegevens in documenten in te voeren en activiteiten te volgen waarbij de leverancier is betrokken. U kunt bijvoorbeeld de volgende informatie voor een leverancier configureren:
 

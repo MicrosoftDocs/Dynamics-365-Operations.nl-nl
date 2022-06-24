@@ -1,6 +1,6 @@
 ---
 title: Taakkaart configureren voor apparaten
-description: In dit onderwerp worden de verschillende opties beschreven voor het configureren van het taakkaartapparaat.
+description: In dit artikel worden de verschillende opties beschreven voor het configureren van het taakkaartapparaat.
 author: johanhoffmann
 ms.date: 05/29/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 4c7a9585d96a1e08790e0f3c972e704971f27dc0
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 0f42ad593f59f716fb6cb535d73654d3549ba00e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103433"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860720"
 ---
 # <a name="configure-job-card-for-devices"></a>Taakkaart configureren voor apparaten
 
 [!include [banner](../includes/banner.md)]
 
-Het taakkaartapparaat wordt gebruikt door werkvloerwerknemers om hun dagelijkse werkzaamheden te registreren, bijvoorbeeld wanneer taken worden gestart, feedback over taken wordt geregistreerd, indirecte activiteiten worden geregistreerd en verzuim wordt gerapporteerd. Deze registraties vormen de basis voor het bijhouden van de voortgang en de kosten van productieorders, en voor het berekenen van de basis voor het salaris van de werknemers. In dit onderwerp worden de verschillende opties beschreven voor het configureren van taakkaartapparaten.
+Het taakkaartapparaat wordt gebruikt door werkvloerwerknemers om hun dagelijkse werkzaamheden te registreren, bijvoorbeeld wanneer taken worden gestart, feedback over taken wordt geregistreerd, indirecte activiteiten worden geregistreerd en verzuim wordt gerapporteerd. Deze registraties vormen de basis voor het bijhouden van de voortgang en de kosten van productieorders, en voor het berekenen van de basis voor het salaris van de werknemers. In dit artikel worden de verschillende opties beschreven voor het configureren van taakkaartapparaten.
 
 ## <a name="enable-new-features-in-feature-management"></a>Nieuwe functies in Functiebeheer inschakelen
 
-Enkele van de instellingen die in dit onderwerp worden beschreven, moeten op uw systeem zijn ingeschakeld voordat deze voor u beschikbaar zijn. Gebruik de pagina [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om een of meer van de volgende functies in te schakelen, indien vereist.
+Enkele van de instellingen die in dit artikel worden beschreven, moeten op uw systeem zijn ingeschakeld voordat deze voor u beschikbaar zijn. Gebruik de pagina [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om een of meer van de volgende functies in te schakelen, indien vereist.
 
 ### <a name="generate-license-plate"></a>Nummerplaat maken
 

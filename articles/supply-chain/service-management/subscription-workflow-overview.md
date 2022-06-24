@@ -1,6 +1,6 @@
 ---
-title: Overzicht van abonnementsworkflow
-description: Dit onderwerp bevat een overzicht van de abonnementswerkstroom.
+title: Overzicht van abonnementswerkstroom
+description: Dit artikel bevat een overzicht van de abonnementswerkstroom.
 author: sorenva
 ms.date: 05/07/2018
 ms.topic: overview
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cbb986b9e7496975df076f473b828a023548560
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c112e1816d7ede80e0e30fe318d159e22ab540b7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670659"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897424"
 ---
-# <a name="subscription-workflow-overview"></a>Overzicht van abonnementsworkflow 
+# <a name="subscription-workflow-overview"></a>Overzicht van abonnementswerkstroom 
 
 [!include [banner](../includes/banner.md)]
 

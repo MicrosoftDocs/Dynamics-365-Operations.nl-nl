@@ -1,6 +1,6 @@
 ---
-title: Overzicht van clienteling
-description: Dit onderwerp biedt een overzicht van de nieuwe clienteling-functies die beschikbaar zijn in de winkeltoepassing.
+title: Clientelingoverzicht
+description: Dit artikel biedt een overzicht van de nieuwe clienteling-functies die beschikbaar zijn in de winkeltoepassing.
 author: bebeale
 ms.date: 02/01/2021
 ms.topic: overview
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: b1e1b7a67141ffec01d926b7f917ebd4e1f24741
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 3d60004367840208f239d69220b3c181109f83d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984591"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885606"
 ---
 # <a name="clienteling-overview"></a>Clientelingoverzicht
 
@@ -81,7 +81,7 @@ Voer de volgende stappen uit om de clienteling-functionaliteit in uw omgeving in
     - Stel de weergavevolgorde in voor deze kenmerken. Met deze weergavevolgorde bepaalt u welke kenmerken worden weergegeven op de klantkaart in het klantenboek. Een weergavevolgorde van 1 wordt als hoger beschouwd dan een weergavevolgorde van 2. Daarom wordt het kenmerk met de weergavevolgorde 1 weergegeven vóór het kenmerk met de weergavevolgorde 2.
 
     > [!NOTE]
-    > U kunt Customer Insights beschikbaar maken op dezelfde pagina. Voor verificatiedoeleinden moet echter een Azure-toepassings-id en geheim worden gemaakt. (Zie de sectie [De integratie van Customer Insights met Commerce inschakelen](#turn-on-the-integration-of-customer-insights-with-commerce) verderop in dit onderwerp voor meer informatie over de vereisten.) Als Customer Insights is ingeschakeld en u een of meer eenheden selecteert die op de klantkaart moeten worden weergegeven, worden deze metingen als eerste weergegeven. Vervolgens worden kenmerkgroepen in het klantenboek weergegeven op basis van de weergavevolgorde. Als u bijvoorbeeld twee metingen selecteert uit Customer Insights, worden deze twee metingen en één kenmerk van het klantenboek weergegeven op de klantkaart. (Het kenmerk van het klantenboek dat wordt weergegeven is het kenmerk met de hoogste weergavevolgorde.)
+    > U kunt Customer Insights beschikbaar maken op dezelfde pagina. Voor verificatiedoeleinden moet echter een Azure-toepassings-id en geheim worden gemaakt. (Zie de sectie [De integratie van Customer Insights met Commerce inschakelen](#turn-on-the-integration-of-customer-insights-with-commerce) verderop in dit artikel voor meer informatie over de vereisten.) Als Customer Insights is ingeschakeld en u een of meer eenheden selecteert die op de klantkaart moeten worden weergegeven, worden deze metingen als eerste weergegeven. Vervolgens worden kenmerkgroepen in het klantenboek weergegeven op basis van de weergavevolgorde. Als u bijvoorbeeld twee metingen selecteert uit Customer Insights, worden deze twee metingen en één kenmerk van het klantenboek weergegeven op de klantkaart. (Het kenmerk van het klantenboek dat wordt weergegeven is het kenmerk met de hoogste weergavevolgorde.)
 
 6. Ga op de pagina **Commerce-parameters** naar het tabblad **Clienteling** en selecteer in het veld **Kenmerkgroep klantenboek** de kenmerkgroep die u zojuist hebt gemaakt.
 

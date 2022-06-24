@@ -1,6 +1,6 @@
 ---
 title: Werken met CSS-overschrijvingsbestanden
-description: In dit onderwerp wordt beschreven waarom, wanneer en hoe u CSS-overschrijvingsbestanden (Cascading Style Sheets) gebruikt in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt beschreven waarom, wanneer en hoe u CSS-overschrijvingsbestanden (Cascading Style Sheets) gebruikt in Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 05/28/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6788481936a54bff32096dba1d0424fc52c669e4
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: eaeeee4c9de7293ba94cc836c4d7b62787eca81d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964599"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892855"
 ---
 # <a name="work-with-css-override-files"></a>Werken met CSS-overschrijvingsbestanden
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven waarom, wanneer en hoe u CSS-overschrijvingsbestanden (Cascading Style Sheets) gebruikt in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt beschreven waarom, wanneer en hoe u CSS-overschrijvingsbestanden (Cascading Style Sheets) gebruikt in Microsoft Dynamics 365 Commerce.
 
 Permanente sitestijlen moeten doorgaans worden afgehandeld via het thema van een site. Thema's bieden de fundamentele CSS- en stijlinstellingen voor de modules op elke pagina van uw site. Thema's worden gemaakt met behulp van de Dynamics 365 Commerce-SDK en ze worden geïmplementeerd op uw websites via Microsoft Dynamics Lifecycle Services (LCS). Met mogelijkheden voor het opsporen van themafouten en module-interfaceconfiguraties in de SDK kunnen site-ontwikkelaar aanpasbare en samenhangende site-ontwerppakketten maken. Wanneer deze ontwerppakketten worden geïmplementeerd op een site, kunnen site-auteurs zich concentreren op het maken, bewerken en publiceren van inhoud in plaats van op siteontwikkeling.
 

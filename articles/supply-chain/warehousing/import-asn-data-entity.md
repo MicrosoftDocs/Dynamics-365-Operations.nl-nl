@@ -1,6 +1,6 @@
 ---
 title: Inkomende ASN's importeren via de V3-gegevensentiteit
-description: In dit onderwerp wordt uitgelegd hoe u het importeren van inkomende geavanceerde vervoerders meldingen (ASN's) via de inkomende ASN-gegevensentiteit beheert.
+description: In dit artikel wordt uitgelegd hoe u het importeren van inkomende geavanceerde vervoerders meldingen (ASN's) via de inkomende ASN-gegevensentiteit beheert.
 author: GalynaFedorova
 ms.date: 05/11/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-04
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 44ec0230236451a413d483b3e9f3ddc58b49a0b0
-ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
+ms.openlocfilehash: 0ac45e070d0473547c48da1380377de3d4bf60bd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740133"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907111"
 ---
 # <a name="import-inbound-asns-through-the-v3-data-entity"></a>Inkomende ASN's importeren via de V3-gegevensentiteit
 
@@ -26,7 +26,7 @@ ASN's brengen u op de hoogte over leveringen van leveranciers. Met behulp van de
 
 Met ASN's kunnen magazijnmedewerkers weten wat er arriveert en wanneer. Dan kunnen ze zich dus voorbereiden. Daarnaast kunnen magazijnmedewerkers ASN's gebruiken om de details van een zending te vergelijken met de gerelateerde inkooporder die eerder is gemaakt.
 
-Dit onderwerp bevat een verzameling scenario's met voorbeelden voor hoe u met ASN-bestanden kunt werken.
+Dit artikel bevat een verzameling scenario's met voorbeelden voor hoe u met ASN-bestanden kunt werken.
 
 > [!IMPORTANT]
 > Importeren van *Inkomende ASN* is alleen van toepassing op artikelen die zijn ingeschakeld voor WMS (Advanced Magazijn Management). Voordat u een ASN ontvangt, moet er een inkooporder in het systeem zijn geregistreerd voor de leverancier die de ASN verstuurt.

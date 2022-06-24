@@ -1,6 +1,6 @@
 ---
 title: B2B-websiteorders snel plaatsen
-description: In dit onderwerp worden de mogelijkheden in Microsoft Dynamics 365 Commerce beschreven waarmee gebruikers van een B2B-site (business-to-business) snel bulkorders kunnen plaatsen en orders kunnen herhalen.
+description: In dit artikel worden de mogelijkheden in Microsoft Dynamics 365 Commerce beschreven waarmee gebruikers van een B2B-site (business-to-business) snel bulkorders kunnen plaatsen en orders kunnen herhalen.
 author: shajain
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8ac4833b2ca05e90b4019ffdfc4b669c542b0cf6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0b13fb49c49b0a540b192f4dd0f3a847fb5dd8a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686541"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881356"
 ---
 # <a name="place-b2b-website-orders-quickly"></a>B2B-websiteorders snel plaatsen
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp worden de mogelijkheden in Microsoft Dynamics 365 Commerce beschreven waarmee gebruikers van een B2B-site (business-to-business) snel bulkorders kunnen plaatsen en orders kunnen herhalen.
+In dit artikel worden de mogelijkheden in Microsoft Dynamics 365 Commerce beschreven waarmee gebruikers van een B2B-site (business-to-business) snel bulkorders kunnen plaatsen en orders kunnen herhalen.
 
 Via B2B-e-commercewebsites met Dynamics 365 Commerce kunnen gebruikers standaardbewerkingen uitvoeren, zoals nieuwe producten ontdekken via zoeken en bladeren, productgegevens weergeven, artikelen aan de winkelwagen toevoegen en uitchecken. Waar klanten van B2C-sites (business-to-consumer) echter meestal artikelen in kleine hoeveelheden bestellen en dit slechts één keer doen, bestellen B2B-klanten meestal artikelen in grote hoeveelheden en meerdere keren opnieuw. Omdat deze klanten doorgaans precies weten welke artikelen ze willen kopen, slaan ze vaak de productdetectiefase over en gaan ze direct over tot bestellen. Commerce B2B-e-commercewebsites bieden verschillende mogelijkheden om snel orders te kunnen plaatsen en aan de behoeften van deze klanten te voldoen.
 
@@ -65,4 +65,4 @@ In de volgende afbeelding ziet u een voorbeeld van de ordergeschiedenis van een 
 
 ![Opnieuw bestellen vanuit ordergeschiedenis.](../media/Reorder.png)
 
-In dit onderwerp zijn enkele van de manieren beschreven waarop Commerce B2B-sites gebruikers kunnen helpen snel producten te vinden, te bestellen en opnieuw te bestellen. Meer mogelijkheden zijn in ontwikkeling om het proces van het vastleggen van bulkorders nog eenvoudiger te maken.
+In dit artikel zijn enkele van de manieren beschreven waarop Commerce B2B-sites gebruikers kunnen helpen snel producten te vinden, te bestellen en opnieuw te bestellen. Meer mogelijkheden zijn in ontwikkeling om het proces van het vastleggen van bulkorders nog eenvoudiger te maken.

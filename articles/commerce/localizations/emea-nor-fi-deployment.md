@@ -1,6 +1,6 @@
 ---
 title: Implementatierichtlijnen voor kassa's voor Noorwegen
-description: Dit onderwerp biedt richtlijnen voor het inschakelen van de kassafunctionaliteit voor de Microsoft Dynamics 365 Commerce-lokalisatie voor Noorwegen.
+description: Dit artikel biedt richtlijnen voor het inschakelen van de kassafunctionaliteit voor de Microsoft Dynamics 365 Commerce-lokalisatie voor Noorwegen.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: f0744b18ed59c692ae336c92e488d339ae158368
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 1f2226432237662e28b9e26017020ab81bb6026b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077135"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899062"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway"></a>Implementatierichtlijnen voor kassa's voor Noorwegen
 
 [!include[banner](../includes/banner.md)]
 
-Dit onderwerp biedt richtlijnen voor het inschakelen van de kassafunctionaliteit voor de Microsoft Dynamics 365 Commerce-lokalisatie voor Noorwegen. De lokalisatie bestaat uit verschillende extensies van onderdelen. Met deze extensies kunt u bijvoorbeeld aangepaste velden afdrukken op ontvangstbewijzen , extra controlegebeurtenissen, verkooptransacties en betalingstransacties registreren in POS (Point-of-Sale), verkooptransacties digitaal ondertekenen en rapporten afdrukken in lokale indelingen. Zie [Kassafunctionaliteit voor Noorwegen](./emea-nor-cash-registers.md) voor meer informatie over de lokalisatie voor Noorwegen. Zie [Commerce instellen voor Noorwegen](./emea-nor-cash-registers.md#setting-up-commerce-for-norway) voor meer informatie over het configureren van Commerce voor Noorwegen.
+Dit artikel biedt richtlijnen voor het inschakelen van de kassafunctionaliteit voor de Microsoft Dynamics 365 Commerce-lokalisatie voor Noorwegen. De lokalisatie bestaat uit verschillende extensies van onderdelen. Met deze extensies kunt u bijvoorbeeld aangepaste velden afdrukken op ontvangstbewijzen , extra controlegebeurtenissen, verkooptransacties en betalingstransacties registreren in POS (Point-of-Sale), verkooptransacties digitaal ondertekenen en rapporten afdrukken in lokale indelingen. Zie [Kassafunctionaliteit voor Noorwegen](./emea-nor-cash-registers.md) voor meer informatie over de lokalisatie voor Noorwegen. Zie [Commerce instellen voor Noorwegen](./emea-nor-cash-registers.md#setting-up-commerce-for-norway) voor meer informatie over het configureren van Commerce voor Noorwegen.
 
 > [!WARNING]
 > Vanwege beperkingen van het [nieuwe onafhankelijke verpakkings- en extensiemodel](../dev-itpro/build-pipeline.md) kan het momenteel niet worden gebruikt voor deze lokalisatiefunctionaliteit. U moet de versie van het voorbeeld voor digitaal ondertekenen voor Noorwegen gebruiken in de vorige versie van de Retail Software Development Kit (SDK) op een virtual machine (VM) voor ontwikkelaars in Microsoft Dynamics Lifecycle Services (LCS). Zie [Implementatierichtlijnen voor kassa's voor Noorwegen (verouderd)](./emea-nor-loc-deployment-guidelines.md) voor meer informatie.

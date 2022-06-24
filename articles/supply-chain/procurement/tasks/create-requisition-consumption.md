@@ -1,6 +1,6 @@
 ---
 title: Een bestelaanvraag voor verbruik maken
-description: In dit onderwerp wordt het proces van het maken van een bestelaanvraag beschreven.
+description: In dit artikel wordt het proces van het maken van een bestelaanvraag beschreven.
 author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5881e8a415ad37ff4bdb61b1043901c0b87ef743
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b4fc4a9f0dbd5c413300d27640512df69df30122
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671118"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888465"
 ---
 # <a name="create-a-requisition-for-consumption"></a>Een bestelaanvraag voor verbruik maken
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt het proces van het maken van een bestelaanvraag beschreven. Het toont u verschillende manieren om producten in uw aanschaffingscatalogus te zoeken en hoe u een product toevoegt dat niet in uw catalogus staat. Voordat u deze procedure start, moet u een inkoopbeleid instellen met Verbruik als standaardtype bestelaanvraag. U kunt deze procedure met het demobedrijf USMF uitvoeren of uw eigen gegevens gebruiken. De procedure kan alleen via een gebruikersprofiel worden uitgevoerd dat is ingesteld als werknemer. Deze taak moet doorgaans worden uitgevoerd door een werknemer. De werknemersrol **Werknemer** staat toe dat u de taken uitvoert. Als u USMF gebruikt, kunt u zich ook aanmelden als **Alicia**.
+In dit artikel wordt het proces van het maken van een bestelaanvraag beschreven. Het toont u verschillende manieren om producten in uw aanschaffingscatalogus te zoeken en hoe u een product toevoegt dat niet in uw catalogus staat. Voordat u deze procedure start, moet u een inkoopbeleid instellen met Verbruik als standaardtype bestelaanvraag. U kunt deze procedure met het demobedrijf USMF uitvoeren of uw eigen gegevens gebruiken. De procedure kan alleen via een gebruikersprofiel worden uitgevoerd dat is ingesteld als werknemer. Deze taak moet doorgaans worden uitgevoerd door een werknemer. De werknemersrol **Werknemer** staat toe dat u de taken uitvoert. Als u USMF gebruikt, kunt u zich ook aanmelden als **Alicia**.
 
 
 ## <a name="create-a-new-requisition"></a>Een nieuwe bestelaanvraag maken

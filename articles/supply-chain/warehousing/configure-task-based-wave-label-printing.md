@@ -1,6 +1,6 @@
 ---
 title: Wavelabel afdrukken plannen tijdens wave
-description: In dit onderwerp wordt beschreven hoe u de functionaliteit voor afdrukken van wavelabels op basis van taken kunt instellen en gebruiken.
+description: In dit artikel wordt beschreven hoe u de functionaliteit voor afdrukken van wavelabels op basis van taken kunt instellen en gebruiken.
 author: perlynne
 ms.date: 06/09/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 1323538765308ec3dd366456e31f5e08b08ce5ab
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: ac2bc4cce42bada43334b82301d716414cd6d654
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920144"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889452"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Wavelabel afdrukken plannen tijdens wave
 
@@ -30,7 +30,7 @@ Wanneer u de functie *Wavelabels afdrukken op basis van taken* gebruikt, worden 
 
 ## <a name="turn-on-the-task-based-wave-label-printing-feature-in-feature-management"></a>De functie Wavelabels afdrukken op basis van taken in Functiebeheer inschakelen
 
-Als u de functies wilt gebruiken die in dit onderwerp worden beschreven, moeten deze zijn ingeschakeld voor uw systeem. Gebruik werkgebied voor [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de functies in deze volgende in te schakelen:
+Als u de functies wilt gebruiken die in dit artikel worden beschreven, moeten deze zijn ingeschakeld voor uw systeem. Gebruik werkgebied voor [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de functies in deze volgende in te schakelen:
 
 1. *Wavelabels afdrukken*: deze functie is vereist om de procesmethode voor wavelabels afdrukken in te kunnen schakelen.
 1. *Werk blokkeren voor de hele organisatie*: deze functie is vereist voor zowel handmatige als automatische configuratie van geplande werkcreatie. (Vanaf Supply Chain Management versie 10.0.21 is deze functie verplicht, waardoor deze standaard wordt ingeschakeld en niet meer kan worden uitgeschakeld.)

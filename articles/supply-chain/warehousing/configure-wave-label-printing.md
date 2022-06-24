@@ -1,6 +1,6 @@
 ---
 title: Wavelabels afdrukken
-description: In dit onderwerp wordt beschreven hoe u wavelabels afdrukt en hoe u dit kunt instellen.
+description: In dit artikel wordt beschreven hoe u wavelabels afdrukt en hoe u dit kunt instellen.
 author: perlynne
 ms.date: 05/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 18620602c5f3cf6a69a36ef7248f35e5509337b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778078"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901816"
 ---
 # <a name="wave-label-printing"></a>Wavelabels afdrukken
 
@@ -49,7 +49,7 @@ Bij het afdrukken van wavelabels kunt u de volgende uitbreidingen kiezen:
 Deze uitbreidingen maken het efficiënter om dozen te labelen voor palletisering. Dit is met name handig voor bedrijven die naar grote winkels verzenden waar ontvangstbewijzen van orders automatisch worden bevestigd door het scannen van elke doos afzonderlijk.
 
 > [!NOTE]
-> U kunt de configuratiescenario's die in dit onderwerp worden beschreven, afzonderlijk of in combinatie implementeren, afhankelijk van uw zakelijke vereisten. U kunt verschillende wavelabelsjablonen ontwerpen die in de juiste volgorde worden uitgevoerd (zoals aangegeven in scenario 3). U kunt bijvoorbeeld scenario 1 gebruiken om labels voor dozen af te drukken en scenario 2 om palletlabels af te drukken (als de grootte en samenstelling van pallets verschillen).
+> U kunt de configuratiescenario's die in dit artikel worden beschreven, afzonderlijk of in combinatie implementeren, afhankelijk van uw zakelijke vereisten. U kunt verschillende wavelabelsjablonen ontwerpen die in de juiste volgorde worden uitgevoerd (zoals aangegeven in scenario 3). U kunt bijvoorbeeld scenario 1 gebruiken om labels voor dozen af te drukken en scenario 2 om palletlabels af te drukken (als de grootte en samenstelling van pallets verschillen).
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>De functie Wavelabels afdrukken inschakelen
 

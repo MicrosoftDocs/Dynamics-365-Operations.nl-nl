@@ -1,6 +1,6 @@
 ---
 title: Gebruikersinstellingen mobiel apparaat
-description: In dit onderwerp wordt uitgelegd hoe u gebruikersinstellingen voor mobiele apparaten beheert voor magazijnmedewerkers.
+description: In dit artikel wordt uitgelegd hoe u gebruikersinstellingen voor mobiele apparaten beheert voor magazijnmedewerkers.
 author: Mirzaab
 ms.date: 02/09/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4ea0fcfa7a165587567968f95549799859edaa60
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 15f9ce1768e1ed9dc6f7e84d245082b46a7f122c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103708"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882339"
 ---
 # <a name="mobile-device-user-settings"></a>Gebruikersinstellingen mobiel apparaat
 
@@ -41,7 +41,7 @@ Deze functie kan werknemers sneller helpen aan de slag te gaan wanneer ze een ni
 
 ## <a name="turn-the-mobile-device-user-settings-feature-on-or-off"></a>De functie voor gebruikersinstellingen voor mobiele apparaten in- of uitschakelen
 
-Om de functionaliteit te gebruiken die in dit onderwerp wordt beschreven, moet de functie *Gebruikersinstellingen, pictogrammen en stapnamen voor de nieuwe magazijnapp* worden ingeschakeld voor het systeem. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Gebruikersinstellingen, pictogrammen en stapnamen voor de nieuwe magazijnapp* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Om de functionaliteit te gebruiken die in dit artikel wordt beschreven, moet de functie *Gebruikersinstellingen, pictogrammen en stapnamen voor de nieuwe magazijnapp* worden ingeschakeld voor het systeem. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Gebruikersinstellingen, pictogrammen en stapnamen voor de nieuwe magazijnapp* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="create-and-manage-user-settings"></a>Gebruikersinstellingen maken en beheren
 

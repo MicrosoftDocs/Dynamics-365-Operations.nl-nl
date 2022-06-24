@@ -1,6 +1,6 @@
 ---
 title: Een bestaande sitepagina wijzigen
-description: In dit onderwerp wordt beschreven hoe u een bestaande sitepagina wijzigt in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt beschreven hoe u een bestaande sitepagina wijzigt in Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 04/14/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0039489c266840e5341f2e322fa7783216ac9bb3ebcecff840f591beec9f79c4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ceffb07afc8287e975f48696a059d3cd4ad20ffa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751538"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848858"
 ---
 # <a name="modify-an-existing-site-page"></a>Een bestaande sitepagina wijzigen
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u een bestaande sitepagina wijzigt in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt beschreven hoe u een bestaande sitepagina wijzigt in Microsoft Dynamics 365 Commerce.
 
 Wanneer u een pagina wilt wijzigen, moet u de pagina eerst openen in de pagina-editor. Ga naar de site die de pagina bevat en zoek in de lijst met pagina's naar de gewenste pagina. Als u de pagina niet kunt vinden, gebruikt u de uitgebreide zoekfunctie van het ontwerpgereedschap. Typ de exacte paginanaam of typ de eerste paar letters van de pagina en vervolgens een asterisk (\*). Er wordt een gefilterde lijst met pagina's weergegeven. U kunt deze lijst gebruiken om de gewenste pagina te zoeken. Nadat u de juiste pagina hebt gevonden, selecteert u de paginanaam om de pagina te openen in de pagina-editor.
 

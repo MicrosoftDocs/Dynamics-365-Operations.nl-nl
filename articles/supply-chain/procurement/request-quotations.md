@@ -1,6 +1,6 @@
 ---
 title: Overzicht van Offerteaanvragen
-description: Dit onderwerp bevat een overzicht van offerteaanvragen. Organisaties geven offerteaanvragen uit wanneer ze concurrerende aanbiedingen van verschillende leveranciers willen ontvangen voor de artikelen of services die ze moeten kopen.
+description: Dit artikel bevat een overzicht van offerteaanvragen. Organisaties geven offerteaanvragen uit wanneer ze concurrerende aanbiedingen van verschillende leveranciers willen ontvangen voor de artikelen of services die ze moeten kopen.
 author: GalynaFedorova
 ms.date: 10/05/2020
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3de48c03ac73ee164dea0c329b2595db21c841cc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 89abf82879ab08f2341ce5b14e6af1d5c42140b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671949"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895578"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Overzicht van Offerteaanvragen
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat een overzicht van offerteaanvragen. Organisaties geven offerteaanvragen uit wanneer ze concurrerende aanbiedingen van verschillende leveranciers willen ontvangen voor de artikelen of services die ze moeten kopen. In een offerteaanvraag vraagt u leveranciers welke prijzen en leveringstijden ze kunnen bieden voor de hoeveelheid artikelen die u opgeeft.
+Dit artikel bevat een overzicht van offerteaanvragen. Organisaties geven offerteaanvragen uit wanneer ze concurrerende aanbiedingen van verschillende leveranciers willen ontvangen voor de artikelen of services die ze moeten kopen. In een offerteaanvraag vraagt u leveranciers welke prijzen en leveringstijden ze kunnen bieden voor de hoeveelheid artikelen die u opgeeft.
 U kunt leveranciers ook vragen om op te geven of er bijkomende kosten zijn, zoals verzendkosten, of kortingen voor grote orders of vroege betaling van de leveranciersfactuur.
 
 Het proces voor offerteaanvragen bestaat uit de volgende taken:
@@ -45,7 +45,7 @@ U kunt een offerteaanvraagcase maken op basis van geplande orders, een opdracht 
 
 Nadat u de offerteaanvraagcase hebt voorbereid en leveranciers hebt toegevoegd, selecteert u **Verzenden** (**Verzenden en publiceren** voor de openbare sector) op de offerteaanvraagcase. Er wordt een offerteaanvraagjournaal gemaakt voor elke leverancier waarnaar u een offerteaanvraag verzendt. U kunt afdrukopties configureren voor de actie Verzenden om een rapport voor elke leverancier af te drukken naar een archief of om een rapport te verzenden naar het e-mailadres van elke leverancier. Bovendien kunt u het offerteaanvraagjournaal voor elke leverancier gebruiken om een rapport te genereren dat u later kunt verzenden of opnieuw kunt verzenden naar een leverancier. U kunt de actie Verzenden ook zo configureren dat een antwoordblad wordt gegenereerd dat de leverancier kan invullen.
 
-Dit onderwerp behandelt het proces voor het afhandelen van offerteaanvragen wanneer geen gebruik wordt gemaakt van leverancierssamenwerking. Als uw systeem is ingesteld voor leverancierssamenwerking, kunnen leveranciers rechtstreeks biedingen invoeren in Supply Chain Management. Meer informatie vindt u in [Leverancierssamenwerking met klanten](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) en [Leverancierssamenwerking met externe leveranciers](vendor-collaboration-work-external-vendors.md).
+Dit artikel behandelt het proces voor het afhandelen van offerteaanvragen wanneer geen gebruik wordt gemaakt van leverancierssamenwerking. Als uw systeem is ingesteld voor leverancierssamenwerking, kunnen leveranciers rechtstreeks biedingen invoeren in Supply Chain Management. Meer informatie vindt u in [Leverancierssamenwerking met klanten](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) en [Leverancierssamenwerking met externe leveranciers](vendor-collaboration-work-external-vendors.md).
 
 Als u een offerteaanvraag moet wijzigen nadat u deze hebt verzonden, kunt u de offerteaanvraag na voltooiing opnieuw verzenden naar leveranciers met de twee aanpassingsacties: Maken en Voltooien.
 
@@ -59,7 +59,7 @@ Nadat u een bod of een aantal regels in een bod hebt gekozen, kunt u alle of all
 
 Een offerteaanvraag heeft twee statuswaarden: laagste en hoogste. U kunt de status bekijken op de lijstpagina **Alle aanvragen voor offertes**. De laagste status is het minst vergevorderde stadium van een regel in de offerteaanvraagcase en de hoogste status is het meest vergevorderde stadium van een regel in de offerteaanvraagcase. Stel bijvoorbeeld dat een offerteaanvraagcase met drie regels naar twee leveranciers is verzonden, zodat er twee offerteaanvragen met drie regels zijn. Alle regels zijn **verzonden**. Nu wordt een bod ingevoerd van een van de leveranciers en de regels in de offerteaanvraag krijgen de status **Ontvangen**. Dit betekent dat de drie regels in de offerteaanvraagcase allemaal zijn **verzonden** voor een offerteaanvraag en zijn **ontvangen** voor een andere offerteaanvraag. De laagste status is **verzonden,** en de hoogste status is **ontvangen.**
 
-De statussen worden verderop in dit onderwerp nader beschreven.
+De statussen worden verderop in dit artikel nader beschreven.
 
 ## <a name="setting-up-rfq-functionality"></a>Functionaliteit voor offerteaanvragen instellen
 

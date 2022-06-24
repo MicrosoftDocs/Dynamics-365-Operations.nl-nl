@@ -1,6 +1,6 @@
 ---
 title: Werkgroep voor werk wijzigen
-description: In dit onderwerp wordt uitgelegd hoe u de knop Werkpool wijzigen kunt gebruiken voor werkitems om de werkpool van bestaande werkzaamheden te wijzigen.
+description: In dit artikel wordt uitgelegd hoe u de knop Werkpool wijzigen kunt gebruiken voor werkitems om de werkpool van bestaande werkzaamheden te wijzigen.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: dc210de420705062ba52c674f3ddb8eb7944715a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 817b45e8f5af957801a0af04e50acf20ba16c26d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669847"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900617"
 ---
 # <a name="change-work-pool-on-work"></a>Werkgroep voor werk wijzigen
 
@@ -34,14 +34,14 @@ Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie 
 
 ## <a name="set-up-the-change-work-pool-on-work-feature"></a>De functie Werkpool voor werk wijzigen instellen
 
-Als u deze functie wilt gebruiken, moeten sommige werkpools zijn ingesteld. U kunt ook uw werksjablonen instellen zodat deze automatisch een pool toewijzen. Als u het voorbeeldscenario wilt doorlopen dat verderop in dit onderwerp wordt beschreven, stelt u uw systeem in zoals in deze sectie wordt beschreven.
+Als u deze functie wilt gebruiken, moeten sommige werkpools zijn ingesteld. U kunt ook uw werksjablonen instellen zodat deze automatisch een pool toewijzen. Als u het voorbeeldscenario wilt doorlopen dat verderop in dit artikel wordt beschreven, stelt u uw systeem in zoals in deze sectie wordt beschreven.
 
 ### <a name="set-up-work-pools"></a>Werkpools instellen
 
 Met werk pools kunt u werkitems op type ordenen. Als u wilt werken met de functie *Werkpool voor werk wijzigen*, moeten er minimaal twee werkpools beschikbaar zijn. Voer de volgende stappen uit om werkpools weer te geven en toe te voegen.
 
 1. Ga naar **Magazijnbeheer \> Instellen \> Werk \> Werkpools**.
-1. Als u werkt met demogegevens uit het **USMF**-bedrijf en het voorbeeldscenario verderop in dit onderwerp doorloopt, voegt u twee werkpools toe met de volgende instellingen:
+1. Als u werkt met demogegevens uit het **USMF**-bedrijf en het voorbeeldscenario verderop in dit artikel doorloopt, voegt u twee werkpools toe met de volgende instellingen:
 
     - Werkpool 1:
 
@@ -57,7 +57,7 @@ Met werk pools kunt u werkitems op type ordenen. Als u wilt werken met de functi
 
 ### <a name="set-up-work-templates"></a>Werksjablonen instellen
 
-Voor elk van uw werksjablonen kunt u een standaard werkpool instellen. Voor elke relevante sjabloon wijst u een werkpool toe in de kolom **Werkpool-id**. In dit geval nemen alle werkitems die met behulp van een bepaalde sjabloon worden gegenereerd, automatisch de toegewezen werkpool over. Als u werkt met de demogegevens uit het **USMF**-bedrijf en het voorbeeldscenario verderop in dit onderwerp doorloopt, volgt u deze stappen.
+Voor elk van uw werksjablonen kunt u een standaard werkpool instellen. Voor elke relevante sjabloon wijst u een werkpool toe in de kolom **Werkpool-id**. In dit geval nemen alle werkitems die met behulp van een bepaalde sjabloon worden gegenereerd, automatisch de toegewezen werkpool over. Als u werkt met de demogegevens uit het **USMF**-bedrijf en het voorbeeldscenario verderop in dit artikel doorloopt, volgt u deze stappen.
 
 1. Ga naar **Magazijnbeheer \> Instellen \> Werk \> Werksjablonen**.
 1. Selecteer in het actievenster de optie **Bewerken** om de pagina in de bewerkingsmodus te openen.
@@ -70,7 +70,7 @@ Voor elk van uw werksjablonen kunt u een standaard werkpool instellen. Voor elke
 
 ## <a name="example-scenario"></a>Voorbeeldscenario
 
-In dit scenario ziet u hoe u de verwerkingsstroom van een bestaand werk item kunt wijzigen door de werkpool te wijzigen. Het gebruikt demogegevens uit het **USMF**-bedrijf en de instellingen die eerder in dit onderwerp zijn voorgesteld.
+In dit scenario ziet u hoe u de verwerkingsstroom van een bestaand werk item kunt wijzigen door de werkpool te wijzigen. Het gebruikt demogegevens uit het **USMF**-bedrijf en de instellingen die eerder in dit artikel zijn voorgesteld.
 
 ### <a name="create-a-sales-order-and-release-it-to-the-warehouse"></a>Een verkooporder maken en vrijgeven naar het magazijn
 

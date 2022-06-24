@@ -1,6 +1,6 @@
 ---
 title: Leverancierssamenwerking met externe leveranciers
-description: In dit onderwerp wordt uitgelegd hoe aankoopbemiddelaars met externe leveranciers kunnen samenwerken om informatie over inkooporders en consignatievoorraad uit te wisselen.
+description: In dit artikel wordt uitgelegd hoe aankoopbemiddelaars met externe leveranciers kunnen samenwerken om informatie over inkooporders en consignatievoorraad uit te wisselen.
 author: GalynaFedorova
 ms.date: 11/02/2017
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 05a2ecc82306c013912b3ee824d63d7d39c4258f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4ae943592c18dd0383aafbce59617cc983dc979b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676882"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907285"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Leverancierssamenwerking met externe leveranciers
 
 [!include [banner](../includes/banner.md)]
 
-De module **Leverancierssamenwerking** is bedoeld voor leveranciers die geen EDI-integratie (Electronic Data Interchange) met Microsoft Dynamics 365 Supply Chain Management hebben. Hiermee kunnen leveranciers werken met inkooporders (IO's), facturen, consignatievoorraadgegevens en offerteaanvragen, en toegang krijgen tot delen van de modelgegevens van hun leveranciers. In dit onderwerp wordt beschreven hoe u kunt samenwerken met externe leveranciers die de interface voor leverancierssamenwerking gebruiken om met inkooporders, offerteaanvragen en consignatievoorraad te werken. Daarnaast wordt beschreven hoe u een specifieke leverancier in staat stelt om leverancierssamenwerking te gebruiken en hoe u de gegevens definieert die alle leveranciers te zien krijgen wanneer ze reageren op een inkooporder.
+De module **Leverancierssamenwerking** is bedoeld voor leveranciers die geen EDI-integratie (Electronic Data Interchange) met Microsoft Dynamics 365 Supply Chain Management hebben. Hiermee kunnen leveranciers werken met inkooporders (IO's), facturen, consignatievoorraadgegevens en offerteaanvragen, en toegang krijgen tot delen van de modelgegevens van hun leveranciers. In dit artikel wordt beschreven hoe u kunt samenwerken met externe leveranciers die de interface voor leverancierssamenwerking gebruiken om met inkooporders, offerteaanvragen en consignatievoorraad te werken. Daarnaast wordt beschreven hoe u een specifieke leverancier in staat stelt om leverancierssamenwerking te gebruiken en hoe u de gegevens definieert die alle leveranciers te zien krijgen wanneer ze reageren op een inkooporder.
 
 Meer informatie over wat externe leveranciers kunnen doen in de interface voor leverancierssamenwerking vindt u in [Leverancierssamenwerking met klanten](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> De informatie in dit onderwerp over leverancierssamenwerking geldt alleen voor de huidige versie van Supply Chain Management. In Microsoft Dynamics AX 7.0 (februari 2016) en Microsoft Dynamics AX toepassingsversie 7.0.1 (mei 2016) werkt u met leveranciers samen via de module **Leveranciersportal**. Zie [Samenwerken met leveranciers met behulp van de leveranciersportal](collaborate-vendors-vendor-portal.md) voor informatie over de module **Leveranciersportal**.
+> De informatie in dit artikel over leverancierssamenwerking geldt alleen voor de huidige versie van Supply Chain Management. In Microsoft Dynamics AX 7.0 (februari 2016) en Microsoft Dynamics AX toepassingsversie 7.0.1 (mei 2016) werkt u met leveranciers samen via de module **Leveranciersportal**. Zie [Samenwerken met leveranciers met behulp van de leveranciersportal](collaborate-vendors-vendor-portal.md) voor informatie over de module **Leveranciersportal**.
 
 Meer informatie over hoe leveranciers leverancierssamenwerking kunnen gebruiken in factureringsprocessen vindt u in [Werkgebied voor samenwerkingsfacturering van leveranciers](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md) Meer informatie over hoe u nieuwe gebruikers van leverancierssamenwerking inricht, vindt u in [Leverancierssamenwerkingsgebruikers beheren](manage-vendor-collaboration-users.md)
 
@@ -112,7 +112,7 @@ De inkooporder die naar de leverancier is verzonden en de status <strong>Externe
 <li>Vervang een item.</li>
 </ul>
 Prijsgegevens en toeslagen kunnen niet door de leverancier worden gewijzigd. De leverancier kan deze wijzigingen echter wel voorstellen met notities.</td>
-<td>Het leveranciersantwoord wordt geregistreerd als <strong>Geaccepteerd met wijzigingen</strong>, en de inkooporder behoudt de status <strong>Externe controle</strong>. De statuswaarden geven weer welke typen wijzigingen de leverancier heeft voorgesteld. Zie voor informatie over de automatische verwerking van de wijzigingen de sectie &quot;De inkooporder bijwerken wanneer een leverancier wijzigingen voorstelt&quot; verderop. </td>
+<td>Het leveranciersantwoord wordt geregistreerd als <strong>Geaccepteerd met wijzigingen</strong>, en de inkooporder behoudt de status <strong>Externe controle</strong>. De statuswaarden geven weer welke typen wijzigingen de leverancier heeft voorgesteld. Zie voor informatie over de automatische verwerking van de wijzigingen de sectie &quot;De inkooporder bijwerken wanneer een leverancier wijzigingen voorstelt&quot; verderop in dit artikel. </td>
 </tr>
 </tbody>
 </table>

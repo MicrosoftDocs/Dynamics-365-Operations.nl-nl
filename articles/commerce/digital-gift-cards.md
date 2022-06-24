@@ -1,6 +1,6 @@
 ---
 title: Digitale geschenkbonnen voor e-commerce
-description: In dit onderwerp wordt beschreven hoe digitale geschenkbonnen in de e-commerce-implementatie van Microsoft Dynamics 365 Commerce werken. Het bevat ook een overzicht van belangrijke configuratiestappen.
+description: In dit artikel wordt beschreven hoe digitale geschenkbonnen in de e-commerce-implementatie van Microsoft Dynamics 365 Commerce werken. Het bevat ook een overzicht van belangrijke configuratiestappen.
 author: anupamar-ms
 ms.date: 05/27/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: de8811b3265bc582a055aaad1f3dea32def552f4
-ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
+ms.openlocfilehash: 60de6988f14a0dcbbb881e84a9e4d8a45ca1289a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809582"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884899"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>Digitale geschenkbonnen voor e-commerce
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe digitale geschenkbonnen in de e-commerce-implementatie van Microsoft Dynamics 365 Commerce werken. Het bevat ook een overzicht van belangrijke configuratiestappen.
+In dit artikel wordt beschreven hoe digitale geschenkbonnen in de e-commerce-implementatie van Microsoft Dynamics 365 Commerce werken. Het bevat ook een overzicht van belangrijke configuratiestappen.
 
 In Dynamics 365 Commerce volgt de aankoop van digitale geschenkbonnen dezelfde stroom als de aankoop van andere producten in het systeem. U hoeft verder geen modules te configureren. Als er meerdere geschenkbonnen aan de winkelwagen worden toegevoegd, worden de geschenkbonartikelen niet samengevoegd op één verkoopregel. Dit gedrag is vereist omdat elke verkoopregel wordt gefactureerd met een apart geschenkbonnummer.
 

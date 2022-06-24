@@ -1,6 +1,6 @@
 ---
 title: Voorbeeld van regeleenheidintegratie voor Zweden
-description: Dit onderwerp biedt een overzicht van het fiscale integratievoorbeeld voor Zweden in Microsoft Dynamics 365 Commerce.
+description: Dit artikel biedt een overzicht van het fiscale integratievoorbeeld voor Zweden in Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-10-08
-ms.openlocfilehash: ace1bd5b1a06317b6753a34779ecfa96e519a63e
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 11ce0b146f2e64092b0d03dc7416660d76380cd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077008"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885397"
 ---
 # <a name="control-unit-integration-sample-for-sweden"></a>Voorbeeld van regeleenheidintegratie voor Zweden
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp biedt een overzicht van het fiscale integratievoorbeeld voor Zweden in Microsoft Dynamics 365 Commerce.
+Dit artikel biedt een overzicht van het fiscale integratievoorbeeld voor Zweden in Microsoft Dynamics 365 Commerce.
 
 > [!NOTE]
 > Deze voorbeeldfunctionaliteit voor fiscale integratie vervangt het eerdere [voorbeeld voor POS-integratie met regeleenheden voor Zweden](retail-sdk-control-unit-sample.md). Het eerdere voorbeeld maakt geen gebruik van het [fiscale integratieraamwerk](./fiscal-integration-for-retail-channel.md) en is verouderd in latere updates. Zie [Migreren vanuit het eerdere voorbeeld](emea-swe-fi-sample-sdk.md#migrating-from-the-earlier-integration-sample) voor meer informatie over migratie vanuit het eerdere voorbeeld naar het voorbeeld dat overeenkomt met Dynamics 365 Commerce versie **10.0.22 en eerder**.
@@ -83,7 +83,7 @@ Voeg op de pagina **Aangepaste velden** de volgende records toe voor de aangepas
 
 Wijzig voor elke indeling die is vereist voor ontvangstbewijzen de waarde van het veld **Afdrukgedrag** in **Altijd afdrukken**.
 
-Voeg in de ontwerper van de ontvangstbewijsindeling de volgende aangepaste velden toe aan de sectie **Voettekst**. Opmerking: veldnamen komen overeen met de taalteksten die u in de vorige sectie van dit onderwerp hebt gedefinieerd.
+Voeg in de ontwerper van de ontvangstbewijsindeling de volgende aangepaste velden toe aan de sectie **Voettekst**. Opmerking: veldnamen komen overeen met de taalteksten die u in de vorige sectie van dit artikel hebt gedefinieerd.
 
 - **Controlecode registeren:** dit veld drukt de controlecode af.
 - **Registratieapparaat:** dit veld drukt het fabricagenummer van de regeleenheid af.

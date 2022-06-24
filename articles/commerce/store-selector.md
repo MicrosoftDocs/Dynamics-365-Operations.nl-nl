@@ -1,6 +1,6 @@
 ---
 title: Winkelselectiemodule
-description: In dit onderwerp wordt beschreven wat de winkelselectiemodule is en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt beschreven wat de winkelselectiemodule is en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 05/18/2022
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 76682f26f62fe4686f5102e3099f038a50005f5e
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: a91b50d2177483615cf45276cf342be381814717
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780634"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881678"
 ---
 # <a name="store-selector-module"></a>Winkelselectiemodule
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven wat de winkelselectiemodule is en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt beschreven wat de winkelselectiemodule is en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 
 Klanten kunnen de winkelselectiemodule gebruiken om een product in een geselecteerde winkel op te halen na een online aankoop. In Commerce versie 10.0.13 bevat de winkelselectiemodule ook extra mogelijkheden voor een overzicht van een **Winkel zoeken**-pagina waarin nabijgelegen winkels worden weergegeven.
 
@@ -132,7 +132,7 @@ Voor de modus **Ophalen in winkel** kan de module alleen worden gebruikt op PDP'
 - Zie [Module met vakje voor kopen](add-buy-box.md) voor informatie over het toevoegen van een winkelselectiemodule aan een koopvakmodule. 
 - Zie [Winkelwagenmodule](add-cart-module.md) voor informatie over het toevoegen van een winkelselectiemodule aan een winkelwagenmodule
 
-Voer de volgende stappen uit om de winkelselectiemodule te configureren voor de weergave van beschikbare winkels voor een winkellocatiepagina, zoals in de afbeelding die eerder in dit onderwerp wordt weergegeven.
+Voer de volgende stappen uit om de winkelselectiemodule te configureren voor de weergave van beschikbare winkels voor een winkellocatiepagina, zoals in de afbeelding die eerder in dit artikel wordt weergegeven.
 
 1. Ga naar **Sjablonen** en selecteer **Nieuw** om een nieuwe sjabloon te maken.
 1. Voer in het dialoogvenster **Nieuwe sjabloon** onder **Sjabloonnaam** **Marketingsjabloon** in en selecteer vervolgens **OK**.

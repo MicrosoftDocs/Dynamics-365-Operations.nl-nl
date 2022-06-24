@@ -1,7 +1,7 @@
 ---
 title: Prestaties van hoofdplanning verbeteren
-description: In dit onderwerp worden de verschillende opties beschreven waarmee u de prestaties van de hoofdplanning kunt verbeteren of problemen kunt oplossen.
-author: ChristianRytt
+description: In dit artikel worden de verschillende opties beschreven waarmee u de prestaties van de hoofdplanning kunt verbeteren of problemen kunt oplossen.
+author: t-benebo
 ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fcbc732fce4120268acd774cc4d42193ba95787d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b2c4b7e2197d312d22f9851121a9e6d4d4d03ba3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570916"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897598"
 ---
 # <a name="improve-master-planning-performance"></a>Prestaties van hoofdplanning verbeteren
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de verschillende opties beschreven waarmee u de prestaties van de hoofdplanning kunt verbeteren of problemen kunt oplossen. Het bevat informatie over parameters en instellingen en over aanbevolen configuraties en acties. Daarnaast bevat het een overzicht van alle belangrijke parameters waarmee u rekening moet houden wanneer u langlopende hoofdplanningstaken uitvoert.
+In dit artikel worden de verschillende opties beschreven waarmee u de prestaties van de hoofdplanning kunt verbeteren of problemen kunt oplossen. Het bevat informatie over parameters en instellingen en over aanbevolen configuraties en acties. Daarnaast bevat het een overzicht van alle belangrijke parameters waarmee u rekening moet houden wanneer u langlopende hoofdplanningstaken uitvoert.
 
-Dit onderwerp is bedoeld voor systeembeheerders of IT-gebruikers die de mogelijkheid hebben om problemen op te lossen. Het is ook bedoeld voor productie- of aanbodplanners, omdat hierin informatie wordt opgenomen over parameters die zijn gerelateerd aan bedrijfsplanningsvereisten. 
+Dit artikel is bedoeld voor systeembeheerders of IT-gebruikers die de mogelijkheid hebben om problemen op te lossen. Het is ook bedoeld voor productie- of aanbodplanners, omdat hierin informatie wordt opgenomen over parameters die zijn gerelateerd aan bedrijfsplanningsvereisten. 
 
 ## <a name="parameters-related-to-master-planning-performance"></a>Parameters die zijn gerelateerd aan hoofdplanningsprestaties
 
@@ -151,9 +151,9 @@ Voordat de behoefteplanningsstap wordt gestart, is er een stap vóór de behoeft
 ## <a name="performance-checklist-summary"></a>Overzicht van prestatiecontrolelijst
 
 - **Aantal threads**: stel een waarde groter dan **0** (nul) in.
-- **Aantal taken in de taakbundel van de helper**: stel een waarde groter dan **0** (nul) in. (gebruik de formules die eerder in dit onderwerp zijn beschreven.)
+- **Aantal taken in de taakbundel van de helper**: stel een waarde groter dan **0** (nul) in. (gebruik de formules die eerder in dit artikel zijn beschreven.)
 - **Gebruik van cache**: stel **Maximum** in, tenzij het systeem weinig geheugen heeft.
-- **Aantal orders fiatteringsbundel**: stel een waarde groter dan **0** (nul) in. (gebruik de formule die eerder in dit onderwerp is beschreven.)
+- **Aantal orders fiatteringsbundel**: stel een waarde groter dan **0** (nul) in. (gebruik de formule die eerder in dit artikel is beschreven.)
 - **Time fences**: pas dit aan op basis van uw bedrijfsbehoeften.
 - **Acties en uitstel**: schakel dit uit als u hiervan geen gebruikmaakt.
 - **Eén zware routine tegelijk**: voer een hoofdplanning niet tegelijk met een andere zware routine uit.

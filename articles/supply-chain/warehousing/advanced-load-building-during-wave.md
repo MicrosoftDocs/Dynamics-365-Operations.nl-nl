@@ -1,6 +1,6 @@
 ---
 title: Geavanceerde ladingopbouw tijdens een wave
-description: Dit onderwerp bevat informatie over het geavanceerde opbouwen van de wave-lading waarmee automatisch zendingen worden toegewezen aan bestaande waves tijdens het uitvoeren van de wave. Zo kunt u zinvolle ladingen maken die vrachtwagens voorstellen zonder dat u de werkbank voor ladingplanning hoeft te gebruiken.
+description: Dit artikel bevat informatie over het geavanceerde opbouwen van de wave-lading waarmee automatisch zendingen worden toegewezen aan bestaande waves tijdens het uitvoeren van de wave. Zo kunt u zinvolle ladingen maken die vrachtwagens voorstellen zonder dat u de werkbank voor ladingplanning hoeft te gebruiken.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0dafac981bcdec307de6dc202f557e7b8837ae2e
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3a630a7f388e0bbb6fee96e4de753b2380d305c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670512"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863761"
 ---
 # <a name="advanced-load-building-during-wave"></a>Geavanceerde ladingopbouw tijdens een wave
 
@@ -220,7 +220,7 @@ U kunt zo veel ladingopbouwsjablonen instellen als nodig. Voor het gebruik van g
 
 ## <a name="scenario"></a>Scenario's
 
-In dit scenario wordt toegelicht hoe de instellingen die eerder in dit onderwerp zijn beschreven, van invloed zijn op magazijnbewerkingen terwijl een verkooporder wordt verwerkt. In dit scenario worden de **USMF**-voorbeeldgegevens gebruikt, samen met andere voorbeeldwaarden die in de configuratie-instructies zijn opgenomen.
+In dit scenario wordt toegelicht hoe de instellingen die eerder in dit artikel zijn beschreven, van invloed zijn op magazijnbewerkingen terwijl een verkooporder wordt verwerkt. In dit scenario worden de **USMF**-voorbeeldgegevens gebruikt, samen met andere voorbeeldwaarden die in de configuratie-instructies zijn opgenomen.
 
 ### <a name="create-sales-orders"></a>Verkooporders maken
 

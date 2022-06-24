@@ -1,6 +1,6 @@
 ---
-title: Kiezen tussen Store Commerce en Cloud-POS
-description: In dit onderwerp worden de belangrijkste verschillen uitgelegd tussen Store Commerce en Cloud-POS en worden verschillende factoren beschreven die detailhandelaren die Dynamics 365 Commerce implementeren moeten overwegen om ze te helpen de beste keuze te maken voor hun behoeften.
+title: Kiezen tussen Store Commerce en Cloud POS
+description: In dit artikel worden de belangrijkste verschillen uitgelegd tussen Store Commerce en Cloud-POS en worden verschillende factoren beschreven die detailhandelaren die Dynamics 365 Commerce implementeren moeten overwegen om ze te helpen de beste keuze te maken voor hun behoeften.
 author: jblucher
 ms.date: 04/21/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b62e1737bc9e3b9d9e25a7a88e693a9aece80776
-ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
+ms.openlocfilehash: 26f6e94b13b3058ac42c4c7b83dcf7179bae18e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8629285"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854001"
 ---
-# <a name="choose-between-store-commerce-and-cloud-pos"></a>Kiezen tussen Store Commerce en Cloud-POS
+# <a name="choose-between-store-commerce-and-cloud-pos"></a>Kiezen tussen Store Commerce en Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp worden de belangrijkste verschillen uitgelegd tussen Store Commerce en Cloud-POS en worden verschillende factoren beschreven die detailhandelaren die Dynamics 365 Commerce implementeren moeten overwegen om ze te helpen de beste keuze te maken voor hun behoeften. Hierin vinden implementatiespecialisten ook extra achtergrondinformatie, tips en richtlijnen voor de factoren waarmee ze rekening moeten houden bij de implementatie van Dynamics 365 Commerce. Door deze richtlijnen te lezen en te volgen als onderdeel van het implementatieproces, kunnen implementatiespecialisten problemen vermijden die de tevredenheid van gebruikers of de prestaties mogelijk beïnvloeden.
+In dit artikel worden de belangrijkste verschillen uitgelegd tussen Store Commerce en Cloud-POS en worden verschillende factoren beschreven die detailhandelaren die Dynamics 365 Commerce implementeren moeten overwegen om ze te helpen de beste keuze te maken voor hun behoeften. Hierin vinden implementatiespecialisten ook extra achtergrondinformatie, tips en richtlijnen voor de factoren waarmee ze rekening moeten houden bij de implementatie van Dynamics 365 Commerce. Door deze richtlijnen te lezen en te volgen als onderdeel van het implementatieproces, kunnen implementatiespecialisten problemen vermijden die de tevredenheid van gebruikers of de prestaties mogelijk beïnvloeden.
 
 ## <a name="insights"></a>Inzichten
 
@@ -44,7 +44,7 @@ Commerce ondersteunt de volgende POS-opties:
 In alle gevallen deelt de POS (Store Commerce en CPOS) dezelfde kerntoepassingscode. Dit punt is belangrijk om de volgende redenen:
 
 - De gebruikersinterface is consistent, ongeacht platform of vormfactor.
-- De meeste functionele mogelijkheden komen overeen, ongeacht platform of vormfactor. Er zijn echter enkele belangrijke verschillen. Deze verschillen komen aan bod in dit onderwerp.
+- De meeste functionele mogelijkheden komen overeen, ongeacht platform of vormfactor. Er zijn echter enkele belangrijke verschillen. Deze verschillen komen aan bod in dit artikel.
 - In elke winkel kunnen de POS-variaties worden gecombineerd en tegelijkertijd worden uitgevoerd. Voor de belangrijkste kassa's kan een detailhandelaar Store Commerce bijvoorbeeld gebruiken op computers waarop Windows wordt uitgevoerd. De detailhandelaar kan deze kassa's echter aanvullen met terminals met browsers of mobiele apparaten.
 - Aanpassingen en uitbreidingen kunnen eenvoudig worden gebruikt voor verschillende platforms en vormfactoren. Omdat de kerntoepassingscode wordt gedeeld, kunnen de meeste aanpassingen in één keer worden geïmplementeerd.
 

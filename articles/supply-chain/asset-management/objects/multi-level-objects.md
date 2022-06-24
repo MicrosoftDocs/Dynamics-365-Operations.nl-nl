@@ -1,6 +1,6 @@
 ---
 title: Activa met meerdere niveaus
-description: In dit onderwerp wordt uitgelegd hoe u activa met meerdere niveaus maakt en verwijdert.
+description: In dit artikel wordt uitgelegd hoe u activa met meerdere niveaus maakt en verwijdert.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f43c7c97f8b05a1bf76b2f2c869e6868689f388d06337064f04af839f2403357
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 34ab83c9f9673c39006b3985ebaac9e17a45da82
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769606"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908767"
 ---
 # <a name="multi-level-assets"></a>Activa met meerdere niveaus
 
@@ -28,7 +28,7 @@ ms.locfileid: "6769606"
 
  
 
-In dit onderwerp wordt uitgelegd hoe u activa met meerdere niveaus maakt en verwijdert. U kunt activa en gerelateerde subactiva maken in een hiërarchische boomstructuur. Op deze manier kunt u relaties en afhankelijkheden tussen activa weergeven. Onderhoudstaken kunnen worden gerelateerd aan alle niveaus van de boomstructuur. Ook kunnen statistieken worden gemaakt voor een individueel niveau of als een som van alle subactivaniveaus.
+In dit artikel wordt uitgelegd hoe u activa met meerdere niveaus maakt en verwijdert. U kunt activa en gerelateerde subactiva maken in een hiërarchische boomstructuur. Op deze manier kunt u relaties en afhankelijkheden tussen activa weergeven. Onderhoudstaken kunnen worden gerelateerd aan alle niveaus van de boomstructuur. Ook kunnen statistieken worden gemaakt voor een individueel niveau of als een som van alle subactivaniveaus.
 
 Op de lijstpagina **Alle activa** (**Activabeheer** \> **Algemeen** \> **Activa** \> **Alle activa**), worden activa in hiërarchische volgorde weergegeven in de kolom **Activum**. De kolom **Bovenliggende** bevat het gerelateerde bovenliggende activum. Bovendien worden, als er al activa en subactiva zijn gemaakt, in de sectie **Activastructuur** in het deelvenster **Verwante informatie** de activa in een boomstructuur weergegeven.
 

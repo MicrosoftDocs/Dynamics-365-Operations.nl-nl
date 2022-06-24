@@ -1,6 +1,6 @@
 ---
-title: Beleid voor flexibele dimensiereservering op magazijnniveau
-description: In dit onderwerp wordt het beleid voor voorraadreservering beschreven waarmee bedrijven die batch-getraceerde producten verkopen en hun logistiek uitvoeren als WMS-bewerkingen, specifieke batches kunnen reserveren voor klantverkooporders, hoewel de reserveringshiërarchie die aan de producten is gekoppeld, reservering van specifieke batches niet toestaat.
+title: Flexibel reserveringsbeleid voor dimensies op magazijnniveau
+description: In dit artikel wordt het beleid voor voorraadreservering beschreven waarmee bedrijven die batch-getraceerde producten verkopen en hun logistiek uitvoeren als WMS-bewerkingen, specifieke batches kunnen reserveren voor klantverkooporders, hoewel de reserveringshiërarchie die aan de producten is gekoppeld, reservering van specifieke batches niet toestaat.
 author: perlynne
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0fe4b377ec80601f616f81f71222129256dfd448
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: fb42d4ccd2d8797a34f6351caf7dedbc1e957fd5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474935"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885807"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Flexibel reseveringsbeleid voor dimensies op magazijnniveau
 
@@ -28,7 +28,7 @@ Wanneer een hiërarchie voor voorraadreservering van het type *Batch-onder\[loca
 
 Op vergelijkbare wijze kunnen specifieke nummerplaten niet worden gereserveerd voor producten op verkooporders wanneer deze producten zijn gekoppeld aan de standaardreserveringshiërarchie.
 
-In dit onderwerp wordt het beleid voor voorraadreservering beschreven waarmee deze bedrijven specifieke batches of nummerplaten kunnen reserveren, zelfs wanneer de producten zijn gekoppeld aan een *Batch-onder\[locatie\]* reserveringshiërarchie.
+In dit artikel wordt het beleid voor voorraadreservering beschreven waarmee deze bedrijven specifieke batches of nummerplaten kunnen reserveren, zelfs wanneer de producten zijn gekoppeld aan een *Batch-onder\[locatie\]* reserveringshiërarchie.
 
 ## <a name="inventory-reservation-hierarchy"></a>Hiërarchie voor voorraadreservering
 

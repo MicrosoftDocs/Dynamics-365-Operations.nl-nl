@@ -1,6 +1,6 @@
 ---
 title: Statuscontrole voor POS-randapparatuur en -services
-description: Dit onderwerp geeft een overzicht van de statuscontrolebewerking in het verkooppunt (POS).
+description: Dit artikel geeft een overzicht van de statuscontrolebewerking in het verkooppunt (POS).
 author: BrianShook
 ms.date: 03/06/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: cd4e97b8dbfc4faf336d4ea927342fd4fa3cc7cd
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 44fd4b6246d3d7947527416c2b8b447bd64f179f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779867"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863316"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>Statuscontrole voor POS-randapparatuur en -services
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp bevat een beschrijving van de statuscontrolebewerking in het verkooppunt (POS).
+Dit artikel bevat een beschrijving van de statuscontrolebewerking in het verkooppunt (POS).
 
 ## <a name="overview"></a>Overzicht
 
@@ -39,7 +39,7 @@ Microsoft Dynamics 365 Commerce-versies 10.0.10 en hoger bevatten een statuscont
 | Voorwaarde | Omschrijving |
 |---|---|
 | Randapparaat | Elk apparaat dat door de POS-toepassing wordt gebruikt om transacties en andere bewerkingen in de winkel te faciliteren. Voorbeelden zijn kassalades, streepjescodescanners en betalingsterminals. |
-| Service | In dit onderwerp is een service een hulptoepassing die de POS-toepassing nodig heeft voor het uitvoeren van transacties en dagelijkse bewerkingen. Voorbeelden zijn apps die helpen bij het berekenen van btw of verzending. |
+| Service | In dit artikel is een service een hulptoepassing die de POS-toepassing nodig heeft voor het uitvoeren van transacties en dagelijkse bewerkingen. Voorbeelden zijn apps die helpen bij het berekenen van btw of verzending. |
 
 ## <a name="health-check-operation"></a>Statuscontrolebewerking
 

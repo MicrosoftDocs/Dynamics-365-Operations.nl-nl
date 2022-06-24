@@ -1,6 +1,6 @@
 ---
 title: Overzicht van de standaard landingspagina voor categorieën en pagina met zoekresultaten
-description: In dit onderwerp vindt u een overzicht van de standaard landingspagina voor categorieën en pagina met zoekresultaten in Dynamics 365 Commerce.
+description: In dit artikel vindt u een overzicht van de standaard landingspagina voor categorieën en pagina met zoekresultaten in Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 06/30/2020
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f61ee8ec212185e195e2cf1a9d6d25c31e4f672
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5e61db026649df8fe331d107bfbda8246fb9d5f9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982429"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881847"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Overzicht van de standaard landingspagina voor categorieën en pagina met zoekresultaten
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp vindt u een overzicht van de standaard landingspagina voor categorieën en pagina met zoekresultaten in Microsoft Dynamics 365 Commerce e-Commerce.
+In dit artikel vindt u een overzicht van de standaard landingspagina voor categorieën en pagina met zoekresultaten in Microsoft Dynamics 365 Commerce e-Commerce.
 
 ## <a name="default-category-landing-page"></a>Standaard landingspagina voor categorieën
 
@@ -32,7 +32,7 @@ De standaard landingspagina voor categorieën is de pagina waar websitegebruiker
 
 ![Standaard landingspagina voor categorieën.](./media/SimpleCategoryLandingDressCategory.png)
 
-Boven aan de pagina staat een koptekst waarin alle productcategorieën en andere pagina's worden weergegeven die door de merchandisingmanager zijn ingedeeld. De configuratie wordt uitgevoerd als onderdeel van de configuratie van de navigatiehiërarchie voor afzetkanalen. Onder aan de pagina staat een voettekst die snelkoppelingen bevat naar verschillende onderwerpen waarin klanten mogelijk geïnteresseerd zijn.
+Boven aan de pagina staat een koptekst waarin alle productcategorieën en andere pagina's worden weergegeven die door de merchandisingmanager zijn ingedeeld. De configuratie wordt uitgevoerd als onderdeel van de configuratie van de navigatiehiërarchie voor afzetkanalen. Onder aan de pagina staat een voettekst die snelkoppelingen bevat naar verschillende artikelen waarin klanten mogelijk geïnteresseerd zijn.
 
 De volgende onderdelen zijn essentieel voor een categorie:
 

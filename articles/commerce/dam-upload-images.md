@@ -1,6 +1,6 @@
 ---
 title: Afbeeldingen uploaden
-description: In dit onderwerp wordt beschreven hoe u afbeeldingen uploadt in Microsoft Dynamics 365 Commerce Site Builder.
+description: In dit artikel wordt beschreven hoe u afbeeldingen uploadt in Microsoft Dynamics 365 Commerce Site Builder.
 author: psimolin
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: e0f5cdd0381932cffc64f1c7e83eecd4662d8c9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891517"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892829"
 ---
 # <a name="upload-images"></a>Afbeeldingen uploaden
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u afbeeldingen uploadt in Microsoft Dynamics 365 Commerce Site Builder.
+In dit artikel wordt beschreven hoe u afbeeldingen uploadt in Microsoft Dynamics 365 Commerce Site Builder.
 
 Met de mediabibliotheek van de Commerce Site Builder kunt u afbeeldingen met mappen uploaden, zowel afzonderlijk als tegelijk. U moet altijd de versie van de afbeelding uploaden met de hoogste resolutie en kwaliteit, omdat de componenten voor het bepalen van de afbeeldinggrootte automatisch de afbeelding optimaliseert voor de verschillende viewports en de bijbehorende onderbrekingspunten.
 

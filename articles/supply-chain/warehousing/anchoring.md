@@ -1,6 +1,6 @@
 ---
 title: Verankering
-description: In dit onderwerp wordt uitgelegd hoe een verankering gebruikt en inschakelt.
+description: In dit artikel wordt uitgelegd hoe u een verankering gebruikt en inschakelt.
 author: GalynaFedorova
 ms.date: 07/29/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-07-29
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 26a7bf60912ff1e8a23305e9331d520fe8d65727
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8a0fa849f07f0cc0a41a663fc97b5aba927700b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676490"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903806"
 ---
 # <a name="anchoring"></a>Verankering
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp biedt informatie over het proces van verankering. Het beschrijft de vereiste configuratie en de logica die wordt uitgevoerd wanneer een magazijnmedewerker de klaarzetlocatie of de laadlocatie wijzigt.
+Dit artikel biedt informatie over het proces van verankering. Het beschrijft de vereiste configuratie en de logica die wordt uitgevoerd wanneer een magazijnmedewerker de klaarzetlocatie of de laadlocatie wijzigt.
 
 Met de verankeringsfunctie kunt u de klaarzetlocatie of laadlocatie overschrijven. Alle openstaande ladingen worden vervolgens doorgestuurd naar de nieuwe klaarzetlocatie of laadlocatie die u opgeeft.
 
@@ -36,11 +36,11 @@ U configureert verankering voor menuopties van mobiele apparaten met de optie **
 > [!IMPORTANT]
 > De volgende open wegzetlocatie wordt alleen gewijzigd op de werkregels die worden gegenereerd vanuit dezelfde werksjabloonregel. Met andere woorden, het systeem verankert de neerzetregels die afkomstig zijn van dezelfde werksjabloonregel.
 
-Dit onderwerp biedt een scenario dat laat zien hoe verankering werkt. Tijdens het scenario maakt u een set verkooporders en geeft u deze set vrij naar het magazijn. Vervolgens overschrijft u de voorgestelde klaarzetlocatie en controleert u of alle resterende neerzetwerkzaamheden zijn overgeplaatst naar de nieuwe locatie.
+Dit artikel biedt een scenario dat laat zien hoe verankering werkt. Tijdens het scenario maakt u een set verkooporders en geeft u deze set vrij naar het magazijn. Vervolgens overschrijft u de voorgestelde klaarzetlocatie en controleert u of alle resterende neerzetwerkzaamheden zijn overgeplaatst naar de nieuwe locatie.
 
 ## <a name="scenario-prerequisite-make-demo-data-available"></a>Vereiste voor scenario: demonstratiegegevens beschikbaar maken
 
-Het scenario in dit onderwerp verwijst naar waarden en records die zijn opgenomen in de standaarddemogegevens die voor Microsoft Dynamics 365 Supply Chain Management worden geleverd. Als u de waarden wilt gebruiken die hier worden weergegeven in de oefeningen, moet u controleren of u werkt in een omgeving waarin de demogegevens zijn geïnstalleerd en stelt u de rechtspersoon in op *USMF* voordat u begint.
+Het scenario in dit artikel verwijst naar waarden en records die zijn opgenomen in de standaarddemogegevens die voor Microsoft Dynamics 365 Supply Chain Management worden geleverd. Als u de waarden wilt gebruiken die hier worden weergegeven in de oefeningen, moet u controleren of u werkt in een omgeving waarin de demogegevens zijn geïnstalleerd en stelt u de rechtspersoon in op *USMF* voordat u begint.
 
 ## <a name="scenario-setup"></a>Scenario instellen
 

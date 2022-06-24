@@ -1,6 +1,6 @@
 ---
 title: Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management
-description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering in Dynamics 365 Supply Chain Management.
+description: In dit artikel worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering in Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 04/27/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: e7350e697beec42b349082df06b77a89d526c27c
-ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
+ms.openlocfilehash: 949fa0df58bc3338c8bc84ecbd4f2ad17117dd12
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "8396519"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865261"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp wordt bijgewerkt zodra er nieuwe verwijderde of verouderde functies worden gedocumenteerd voor Dynamics 365 Supply Chain Management.
+Dit artikel wordt bijgewerkt zodra er nieuwe verwijderde of verouderde functies worden gedocumenteerd voor Dynamics 365 Supply Chain Management.
 
 - Een *verwijderde* functie is niet langer beschikbaar in het product.
 - Een *afgeschafte* functie wordt niet meer actief ontwikkeld en kan in een toekomstige update worden verwijderd.

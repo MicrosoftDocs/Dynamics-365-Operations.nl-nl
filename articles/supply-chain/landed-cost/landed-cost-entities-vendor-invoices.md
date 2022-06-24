@@ -1,6 +1,6 @@
 ---
-title: Leveranciersfactuurentiteiten
-description: Dit onderwerp bevat informatie over leveranciersfactuurentiteiten waarmee kostentypecodes kunnen worden geconfigureerd voor interne kosten of extern afgeleide kosten.
+title: Entiteiten voor leveranciersfacturen
+description: Dit artikel bevat informatie over leveranciersfactuurentiteiten waarmee kostentypecodes kunnen worden geconfigureerd voor interne kosten of extern afgeleide kosten.
 author: yufeihuang
 ms.date: 05/27/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 4bbe0fdbf95050ebfa707224f602e5e71ddb3a8f
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: 171b383e1549babd76fd18e4932436a66aa62cc1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8813081"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873922"
 ---
 # <a name="vendor-invoice-entities"></a>Leveranciersfactuurentiteiten
 

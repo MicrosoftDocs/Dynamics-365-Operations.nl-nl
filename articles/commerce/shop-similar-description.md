@@ -1,6 +1,6 @@
 ---
-title: Aanbevelingen voor vergelijkbare omschrijving inschakelen
-description: In dit onderwerp wordt beschreven hoe u productaanbevelingen voor vergelijkbare omschrijvingen kunt inschakelen in Microsoft Dynamics 365 Commerce.
+title: Aanbevelingen voor vergelijkbare omschrijvingen inschakelen
+description: In dit artikel wordt beschreven hoe u productaanbevelingen voor vergelijkbare omschrijvingen kunt inschakelen in Microsoft Dynamics 365 Commerce.
 author: bsokolov
 ms.date: 01/13/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 733b21870f9dd7ffa42fce3bccf669a59d633b14
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b935731b24f96753c814e3b496ffeeb7a92d9cc1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690998"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852003"
 ---
 # <a name="enable-shop-similar-description-recommendations"></a>Aanbevelingen voor vergelijkbare omschrijvingen inschakelen
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u productaanbevelingen voor vergelijkbare omschrijvingen kunt inschakelen in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt beschreven hoe u productaanbevelingen voor vergelijkbare omschrijvingen kunt inschakelen in Microsoft Dynamics 365 Commerce.
 
 De aanbevelingen van de optie voor voor vergelijkbare omschrijvingen in Dynamics 365 Commerce maakt gebruik van kunstmatige intelligentie en machine learning (AI-ML) om aanbevelingen te geven voor producten met vergelijkbare omschrijvingen als waar de klant naar op zoek is. Door de aanbevelingen voor vergelijkbare omschrijvingen beschikbaar te maken voor alle detailhandelkanalen in Commerce, kunnen detailhandelaren klanten helpen te vinden wat ze zoeken.
 

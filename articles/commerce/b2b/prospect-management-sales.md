@@ -1,6 +1,6 @@
 ---
 title: Gebruikers van zakenpartners op B2B-e-commercewebsite beheren met Dynamics 365 Sales
-description: In dit onderwerp wordt beschreven hoe u Microsoft Dynamics 365 Sales kunt gebruiken om goedkeuringen van zakenpartners voor B2B-e-commercewebsites (business-to-business) met Dynamics 365 Commerce te beheren.
+description: In dit artikel wordt beschreven hoe u Microsoft Dynamics 365 Sales kunt gebruiken om goedkeuringen van zakenpartners voor B2B-e-commercewebsites (business-to-business) met Dynamics 365 Commerce te beheren.
 author: shajain
 ms.date: 2/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 540e8f26d7f2a08060a3839f9e4f97bf8ddcafac
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ac4aa15f2c6e7f557105254c2c8ce743a9466985
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692558"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878616"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites-using-dynamics-365-sales"></a>Gebruikers van zakenpartners op B2B-e-commercewebsite beheren met Dynamics 365 Sales
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u Microsoft Dynamics 365 Sales kunt gebruiken om goedkeuringen van zakenpartners voor B2B-e-commercewebsites (business-to-business) met Dynamics 365 Commerce te beheren. Organisaties die al hebben geïnvesteerd in de Dynamics 365 Sales-oplossing kunnen de concepten voor leads en verkoopkansen gebruiken voor het goedkeuringsproces voor zakenpartners in B2B.
+In dit artikel wordt beschreven hoe u Microsoft Dynamics 365 Sales kunt gebruiken om goedkeuringen van zakenpartners voor B2B-e-commercewebsites (business-to-business) met Dynamics 365 Commerce te beheren. Organisaties die al hebben geïnvesteerd in de Dynamics 365 Sales-oplossing kunnen de concepten voor leads en verkoopkansen gebruiken voor het goedkeuringsproces voor zakenpartners in B2B.
 
 Zie voor achtergrondinformatie over het goedkeuringsproces voor B2B-bedrijfspartners [Zakenpartners op B2B-e-commercewebsites beheren](manage-b2b-users.md).
 

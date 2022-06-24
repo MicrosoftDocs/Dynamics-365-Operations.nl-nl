@@ -1,8 +1,8 @@
 ---
 title: Invoegtoepassing Voorraadzichtbaarheid installeren
-description: In dit onderwerp wordt beschreven hoe u de invoegtoepassing voor de Voorraadzichtbaarheid installeert voor Microsoft Dynamics 365 Supply Chain Management.
+description: In dit artikel wordt beschreven hoe u de invoegtoepassing Inventory Visibility installeert voor Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a49f35211f30cdb76104cc5be78f5b114320a228
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: ce81ed2ed79bfe5c7fff9724e14af150817af11f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062645"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895694"
 ---
-# <a name="install-and-set-up-inventory-visibility"></a>Voorraadzichtbaarheid installeren en instellen
+# <a name="install-and-set-up-inventory-visibility"></a>Inventory Visibility installeren en instellen
 
 [!include [banner](../includes/banner.md)]
 
+In dit artikel wordt beschreven hoe u de invoegtoepassing Inventory Visibility installeert voor Microsoft Dynamics 365 Supply Chain Management.
 
-In dit onderwerp wordt beschreven hoe u de invoegtoepassing voor de Voorraadzichtbaarheid installeert voor Microsoft Dynamics 365 Supply Chain Management.
+U moet de invoegtoepassing voor Voorraadzichtbaarheid installeren met behulp van Microsoft Dynamics Lifecycle Services (LCS). LCS is een portal voor samenwerking die een omgeving en een reeks regelmatig bijgewerkte services biedt waarmee u de toepassingslevensduur van uw finance and operations-apps kunt beheren. Zie voor meer informatie [Lifecycle Services-resources](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
-U moet de invoegtoepassing voor Voorraadzichtbaarheid installeren met behulp van Microsoft Dynamics Lifecycle Services (LCS). LCS is een portal voor samenwerking die een omgeving en een reeks regelmatig bijgewerkte services biedt waarmee u de toepassingslevensduur van uw finance and operations-apps kunt beheren.
-
-Zie voor meer informatie [Lifecycle Services-resources](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
+> [!TIP]
+> We raden u aan om deel te nemen aan de gebruikersgroep Invoegtoepassing Voorraadzichtbaarheid, waar u nuttige handleidingen kunt vinden, onze nieuwste updates kunt krijgen en eventuele vragen kunt plaatsen over het gebruik van Voorraadzichtbaarheid. Als u wilt deelnemen, verzendt u een e-mail naar het productteam Voorraadzichtbaarheid op [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) en voegt u uw ID van de Supply Chain Management-omgeving toe.
 
 ## <a name="inventory-visibility-prerequisites"></a>Vereisten voor Voorraadzichtbaarheid
 
@@ -44,6 +44,9 @@ Als u vragen hebt over deze vereisten, neemt u contact op met het productteam va
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>Invoegtoepassing Voorraadzichtbaarheid installeren
 
 Voordat u de invoegtoepassing installeert, registreert u een toepassing en voegt u een clientgeheim toe aan Azure Active Directory (Azure AD) via uw Azure-abonnement. Zie [Een toepassing registreren](/azure/active-directory/develop/quickstart-register-app) en [Een clientgeheim toevoegen](/azure/active-directory/develop/quickstart-register-app#add-a-certificate) voor instructies. Zorg ervoor dat u de waarden **Toepassings-ID**, **Clientgeheim** en **Tenant-ID** noteert, omdat u ze later nodig hebt.
+
+> [!IMPORTANT]
+> Als u meerdere LCS-omgevingen hebt, maakt u een andere Azure AD-toepassing voor elke omgeving. Als u dezelfde toepassings-id en tenant-id gebruikt om de invoegtoepassing Voorraadzichtbaarheid voor verschillende omgevingen te installeren, treedt er een probleem met een token op voor oudere omgevingen. Het gvolg is dat alleen de laatste installatie geldig is.
 
 Nadat u een toepassing geregistreerd hebt en een clientgeheim aan Azure AD hebt toegevoegd, volgt u deze stappen om de invoegtoepassing voor Voorraadzichtbaarheid te installeren.
 
@@ -72,11 +75,18 @@ Nadat u een toepassing geregistreerd hebt en een clientgeheim aan Azure AD hebt 
 1. Selecteer **Installeren**. De status van de invoegtoepassing wordt weergegeven als **Wordt geïnstalleerd**. Nadat de installatie voltooid is, vernieuwt u de pagina. De status moet worden gewijzigd in **Geïnstalleerd**.
 1. Selecteer in Dataverse de sectie **Apps** in het linkernavigatievenster en controleer of de **Voorraadzichtbaarheid** van Power Apps is geïnstalleerd. Als de sectie **Apps** niet bestaat, neemt u contact op met het productteam van Voorraadzichtbaarheid op [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
-> [!TIP]
-> We raden u aan om deel te nemen aan de gebruikersgroep Invoegtoepassing Voorraadzichtbaarheid, waar u nuttige handleidingen kunt vinden, onze nieuwste updates kunt krijgen en eventuele vragen kunt plaatsen over het gebruik van Voorraadzichtbaarheid. Als u wilt deelnemen, verzendt u een e-mail naar het productteam Voorraadzichtbaarheid op [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) en voegt u uw ID van de Supply Chain Management-omgeving toe.
-
-> [!IMPORTANT]
-> Als u meerdere LCS-omgevingen hebt, maakt u een andere Azure AD-toepassing voor elke omgeving. Als u dezelfde toepassings-id en tenant-id gebruikt om de invoegtoepassing Voorraadzichtbaarheid voor verschillende omgevingen te installeren, treedt er een probleem met een token op voor oudere omgevingen. Alleen de laatste omgeving die is geïnstalleerd, is geldig.
+> [!NOTE]
+> Als de installatie van de LCS-pagina meer dan een uur duurt, heeft uw gebruikersaccount waarschijnlijk onvoldoende machtigingen om oplossingen in de Dataverse-omgeving te installeren. Volg deze stappen om het probleem op te lossen:
+>
+> 1. Annleer de installatie van de invoegtoepassing Voorraadzichtbaarheid via de LCS-pagina.
+> 1. Meld u aan bij het [Microsoft 365-beheercentrum](https://admin.microsoft.com) en zorg ervoor dat aan de gebruikersaccount die u wilt gebruiken voor het installeren van de invoegaccount de licentie Dynamics 365 Unified Operations-plan is toegewezen. Wijs indien nodig de licentie toe.
+> 1. Meld u aan bij het [Power Platform-beheercentrum](https://admin.powerplatform.microsoft.com) met de relevante gebruikersaccount. Ga vervolgens als volgt te werk om de invoegtoepassing Voorraadzichtbaarheid te installeren:
+>     1. Selecteer de omgeving waar u de invoegtoepassing wilt installeren.
+>     1. Selecteer **Dynamics 365-apps**.
+>     1. Selecteer **App installeren**.
+>     1. Selecteer **Voorraadzichtbaarheid**.
+>
+> 1. Als de installatie is voltooid, gaat u terug naar de LCS-pagina en probeert u de invoegvoeging **Voorraadzichtbaarheid** opnieuw te installeren.
 
 ## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Invoegtoepassing Voorraadzichtbaarheid deïnstalleren
 

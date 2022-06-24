@@ -1,6 +1,6 @@
 ---
 title: Wizard voor instellen van Hoofdplanning (bevat video)
-description: In dit onderwerp wordt beschreven hoe u de wizard voor het instellen van de hoofdplanning uitvoert om de hoofdplanning in te stellen.
+description: In dit artikel wordt beschreven hoe u de wizard voor het instellen van de hoofdplanning uitvoert om de hoofdplanning in te stellen.
 author: t-benebo
 ms.date: 10/21/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: a5914f63de654acd076048240c6e37d5b67f4ffa
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 1c79e1df53dfabc33aeacb56096b113e62b765d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470200"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875328"
 ---
 # <a name="master-planning-setup-wizard"></a>Wizard voor instellen van Hoofdplanning
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat een handleiding voor de **wizard Hoofdplanning instellen**. Hierin wordt uitgelegd hoe parametersuggesties worden berekend en bevat ook voorbeelden die laten zien hoe verschillende bedrijven de hoofdplanning instellen op basis van hun bedrijfsbehoeften.
+Dit artikel bevat een handleiding voor de **wizard Hoofdplanning instellen**. Hierin wordt uitgelegd hoe parametersuggesties worden berekend en bevat ook voorbeelden die laten zien hoe verschillende bedrijven de hoofdplanning instellen op basis van hun bedrijfsbehoeften.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 

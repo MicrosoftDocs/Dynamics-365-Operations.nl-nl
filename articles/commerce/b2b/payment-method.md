@@ -1,6 +1,6 @@
 ---
 title: De betalingsmethode voor de klantrekening configureren voor B2B-e-commercesites
-description: In dit onderwerp wordt beschreven hoe u de betalingsmethode voor de klantrekening configureert in Microsoft Dynamics 365 Commerce. Hierin wordt ook beschreven hoe kredietlimieten van invloed zijn op het vastleggen van a conto-betalingen op e-commercesites voor B2B (business-to-business).
+description: In dit artikel wordt beschreven hoe u de betalingsmethode voor de klantrekening configureert in Microsoft Dynamics 365 Commerce. Hierin wordt ook beschreven hoe kredietlimieten van invloed zijn op het vastleggen van a conto-betalingen op e-commercesites voor B2B (business-to-business).
 author: josaw1
 ms.date: 04/19/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a55a5d4c9dbf7909af5219843fc4310b6cdd4ed7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 20af517b9a69f4fb490d4d93ada8bc4063e895dd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689632"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878642"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>De betalingsmethode voor de klantrekening configureren voor B2B-e-commercesites
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u de betalingsmethode voor de klantrekening configureert in Microsoft Dynamics 365 Commerce. Hierin wordt ook beschreven hoe kredietlimieten van invloed zijn op het vastleggen van a conto-betalingen op e-commercesites voor B2B (business-to-business).
+In dit artikel wordt beschreven hoe u de betalingsmethode voor de klantrekening configureert in Microsoft Dynamics 365 Commerce. Hierin wordt ook beschreven hoe kredietlimieten van invloed zijn op het vastleggen van a conto-betalingen op e-commercesites voor B2B (business-to-business).
 
 Detailhandelaren kunnen verschillende typen betalingen accepteren voor de producten en diensten die ze verkopen in een e-commercekanaal. Elk betalingstype dat een detailhandelaar accepteert, moet worden geconfigureerd in Dynamics 365 Commerce wanneer het systeem wordt ingesteld. De betalingsmethode voor de klantrekening (of 'a conto') moet worden ondersteund op B2B-e-commercesites. 
 

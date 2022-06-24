@@ -1,6 +1,6 @@
 ---
 title: Een nieuwe transportbeheerengine maken
-description: In dit onderwerp wordt beschreven hoe u een nieuwe engine voor transportbeheer maakt in Dynamics 365 Supply Chain Management.
+description: In dit artikel wordt beschreven hoe u een nieuwe engine voor transportbeheer maakt in Dynamics 365 Supply Chain Management.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be52c6afb66e88b36f3b2cdf5af14e17b3d3005f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 627972ef6afb7551bb57821ded24183f8f335e9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678117"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857252"
 ---
 # <a name="create-a-new-transportation-management-engine"></a>Een nieuwe transportbeheerengine maken
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u een nieuwe engine voor transportbeheer maakt in Dynamics 365 Supply Chain Management. 
+In dit artikel wordt beschreven hoe u een nieuwe engine voor transportbeheer maakt in Dynamics 365 Supply Chain Management. 
 
 Met engines voor Transportbeheer (TMS) wordt de logica gedefinieerd die wordt gebruikt om transporttarieven in Transportbeheer te genereren en te verwerken. Supply Chain Management biedt verschillende typen engines waarmee verschillende parameters worden berekend, zoals tarieven, transittijden en het aantal zones dat tijdens transit wordt doorkruist. In dit artikel wordt uitgelegd hoe u de ontwikkelomgeving Microsoft Visual Studio samen met ontwikkelprogramma's van Supply Chain Management gebruikt om een nieuwe TMS-engine te maken en te implementeren en hoe u vervolgens de engine in Operations instelt. Zie [Engines voor Transportbeheer](transportation-management-engines.md) voor meer informatie over engines.
 

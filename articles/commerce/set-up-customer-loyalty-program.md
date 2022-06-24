@@ -1,6 +1,6 @@
 ---
 title: Loyaliteitsoverzicht
-description: In dit onderwerp worden de loyaliteitsmogelijkheden in Dynamics 365 Commerce en de bijbehorende instellingsstappen beschreven om de detailhandelaar te helpen eenvoudig aan de slag te gaan met hun loyaliteitsprogramma's.
+description: In dit artikel worden de loyaliteitsmogelijkheden in Dynamics 365 Commerce en de bijbehorende instellingsstappen beschreven om de detailhandelaar te helpen eenvoudig aan de slag te gaan met hun loyaliteitsprogramma's.
 author: scott-tucker
 ms.date: 07/21/2020
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 57512bbd735e26ba31e00518ca8179f2d9b14bc4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 667c30e52bae34f8ddfdc7b74f271d08612ac594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985157"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883898"
 ---
 # <a name="loyalty-overview"></a>Overzicht van loyaliteit
 
 [!include [banner](includes/banner.md)]
 
-Loyaliteitsprogramma's kunnen helpen klantloyaliteit te verhogen door klanten te belonen voor hun interactie met het merk van de detailhandelaar. In Dynamics 365 Commerce kunt u eenvoudige of complexe loyaliteitsprogramma's instellen die gelden voor verschillende rechtspersonen in een handelskanaal. In dit onderwerp worden de loyaliteitsmogelijkheden in Commerce en de bijbehorende instellingsstappen beschreven om detailhandelaars te helpen eenvoudig aan de slag te gaan met hun loyaliteitsprogramma's.
+Loyaliteitsprogramma's kunnen helpen klantloyaliteit te verhogen door klanten te belonen voor hun interactie met het merk van de detailhandelaar. In Dynamics 365 Commerce kunt u eenvoudige of complexe loyaliteitsprogramma's instellen die gelden voor verschillende rechtspersonen in een handelskanaal. In dit artikel worden de loyaliteitsmogelijkheden in Commerce en de bijbehorende instellingsstappen beschreven om detailhandelaars te helpen eenvoudig aan de slag te gaan met hun loyaliteitsprogramma's.
 
 U kunt uw loyaliteitsprogramma zo instellen dat het de volgende opties bevat.
 

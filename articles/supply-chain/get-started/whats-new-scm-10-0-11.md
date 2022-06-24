@@ -1,6 +1,6 @@
 ---
 title: Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.11 (juni 2020)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Supply Chain Management 10.0.11.
+description: In dit artikel worden de functies beschreven die in Dynamics 365 Supply Chain Management 10.0.11 nieuw of gewijzigd zijn.
 author: kamaybac
 ms.date: 04/17/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 76a28b9285bb8edfaaee7f9bc3cb4f03deb7a731abb55624394278d72398c748
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b0cde3da6f2894d6d0bbfe2e5842c055a120e348
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723522"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857861"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.11 (juli 2020)
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management 10.0.11. Deze versie heeft een buildnummer van 10.0.464 en is als volgt beschikbaar:
+In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management 10.0.11. Deze versie heeft een buildnummer van 10.0.464 en is als volgt beschikbaar:
 
 - **Preview-versie:** april 2020
 - **Algemene beschikbaarheid (zelfupdate):** mei 2020
@@ -49,9 +49,9 @@ Deze versie bevat de volgende functies. De functietitels verwijzen naar extra in
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform updates voor Finance and Operations-apps
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformupdates voor apps voor financiële en bedrijfsactiviteiten
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.11 bevat platform updates. Zie [Platform updates voor versie 10.0.11 van Finance and Operations- apps (juli 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-35.md) voor meer informatie.
+Microsoft Dynamics 365 Supply Chain Management 10.0.11 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.11 van apps voor financiële en bedrijfsactiviteiten (juli 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-35.md).
 
 ### <a name="bug-fixes"></a>Correcties
 
@@ -65,12 +65,12 @@ Bekijk [Dynamics 365: releasewave 1-plan van 2020](/dynamics365-release-plan/202
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Verwijderde en afgeschafte functies voor Supply Chain Management
 
-In het onderwerp [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) worden functies beschreven die zijn of worden verwijderd voor Supply Chain Management.
+In het artikel [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) worden functies beschreven die zijn of worden verwijderd voor Supply Chain Management.
 
 - Een *verwijderde* functie is niet langer beschikbaar in het product.
 - Een *afgeschafte* functie wordt niet meer actief ontwikkeld en kan in een toekomstige update worden verwijderd.
 
-Twaalf maanden voordat een functie uit het product wordt verwijderd, wordt de afschaffing aangekondigd in het onderwerp [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md).
+Twaalf maanden voordat een functie uit het product wordt verwijderd, wordt de afschaffing aangekondigd in het artikel [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md).
 
 Voor ingrijpende wijzigingen die alleen van invloed zijn op de compilatietijd, maar binair compatibel zijn met sandbox- en productieomgevingen, is de afschaffingstijd korter dan 12 maanden. Meestal zijn dit functionele updates die moeten worden doorgevoerd in de compiler.
 

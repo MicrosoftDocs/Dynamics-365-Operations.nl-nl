@@ -1,6 +1,6 @@
 ---
 title: Dynamische e-commercepagina's maken op basis van URL-parameters
-description: In dit onderwerp wordt beschreven hoe u een Microsoft Dynamics 365 Commerce-e-commercepagina kunt instellen die dynamische inhoud kan aanbieden op basis van URL-parameters.
+description: In dit artikel wordt beschreven hoe u een Microsoft Dynamics 365 Commerce-e-commercepagina kunt instellen die dynamische inhoud kan aanbieden op basis van URL-parameters.
 author: StuHarg
 ms.date: 05/27/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
-ms.openlocfilehash: 3443dad9ead40b59da994c56e22fe2599f4bac82
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: e2b13403ffb316059476a03857c849b4f9f8cb9c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811026"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884658"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>Dynamische e-commercepagina's maken op basis van URL-parameters
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-In dit onderwerp wordt beschreven hoe u een Microsoft Dynamics 365 Commerce-e-commercepagina kunt instellen die dynamische inhoud kan aanbieden op basis van URL-parameters.
+In dit artikel wordt beschreven hoe u een Microsoft Dynamics 365 Commerce-e-commercepagina kunt instellen die dynamische inhoud kan aanbieden op basis van URL-parameters.
 
 Een e-commercepagina kan worden geconfigureerd voor verschillende soorten inhoud, gebaseerd op een segment in het URL-pad. Daarom staat de pagina bekend als een dynamische pagina. Het segment wordt gebruikt als parameter om de pagina-inhoud op te halen. Een pagina gemaakt in Site Builder met de naam **blog\_viewer** wordt bijvoorbeeld toegewezen aan de URL `https://fabrikam.com/blog`. Deze pagina kan vervolgens worden gebruikt om andere inhoud weer te geven, gebaseerd op het laatste segment in het URL-pad. Het laatste segment in de URL `https://fabrikam.com/blog/article-1` is bijvoorbeeld **artikel-1**.
 

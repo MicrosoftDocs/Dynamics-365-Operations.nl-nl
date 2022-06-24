@@ -1,6 +1,6 @@
 ---
 title: Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.20 (augustus 2021)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Supply Chain Management 10.0.20.
+description: In dit artikel worden de functies beschreven die in Dynamics 365 Supply Chain Management 10.0.20 nieuw of gewijzigd zijn.
 author: kamaybac
 ms.date: 05/28/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a8f46165a89f064878d2e8af1b0b174b04eca37e
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 3eadc447d8c0c443fa9d3eab220300e3eedf051d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647309"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888638"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.20 (augustus 2021)
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management versie 10.0.20. Deze versie heeft een buildnummer van 10.0.886 en is als volgt beschikbaar:
+In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management versie 10.0.20. Deze versie heeft een buildnummer van 10.0.886 en is als volgt beschikbaar:
 
 - **Preview van versie:** mei 2021
 - **Algemene beschikbaarheid van versie (zelfupdate):** juli 2021
@@ -59,21 +59,21 @@ In de volgende tabel worden de functieverbeteringen weergegeven die deze versie 
 
 ## <a name="new-and-updated-documentation-resources"></a>Nieuwe en bijgewerkte documentatiebronnen
 
-De volgende Help-onderwerpen zijn onlangs toegevoegd of ingrijpend bijgewerkt. Ze zijn niet noodzakelijkerwijs gerelateerd aan de nieuwe functies die zijn toegevoegd voor deze versie, zoals wordt beschreven in de vorige sectie, maar ze kunnen u helpen om meer uit bestaande functies te halen.
+De volgende Help-artikelen zijn onlangs toegevoegd of ingrijpend bijgewerkt. Ze zijn niet noodzakelijkerwijs gerelateerd aan de nieuwe functies die zijn toegevoegd voor deze versie, zoals wordt beschreven in de vorige sectie, maar ze kunnen u helpen om meer uit bestaande functies te halen.
 
-| Functiegebied | Nieuwe of bijgewerkte onderwerpen |
+| Functiegebied | Nieuwe of bijgewerkte artikelen |
 |---|---|
 | Beheer voor technische wijzigingen | [Levenscyclusstatussen van producten en transacties](../engineering-change-management/product-lifecycle-state-transactions.md) |
-| Voorraadbeheer | [Invoegtoepassing voorraadzichtbaarheid](../inventory/inventory-visibility.md)<br><br>[Overzicht van beheer voor kwaliteit en niet-conformering](../inventory/quality-management-processes.md) (plus alle gerelateerde onderwerpen over kwaliteitsbeheer) |
+| Voorraadbeheer | [Invoegtoepassing voorraadzichtbaarheid](../inventory/inventory-visibility.md)<br><br>[Overzicht van beheer voor kwaliteit en niet-conformering](../inventory/quality-management-processes.md) (plus alle gerelateerde artikelen over kwaliteitsbeheer) |
 | Inkoopbeheer | [Leverancierscertificering onderhouden](../../finance/public-sector/manage-vendor-certification.md) |
 | Productiebeheer | [De uitvoeringsinterface voor de werkvloer ontwerpen](../production-control/production-floor-execution-styles.md) |
 | Magazijnbeheer | [Stappictogrammen en -titels toewijzen voor de mobiele app Warehouse Management](../warehousing/step-icons-titles.md)<br><br>[Uitgestelde verwerking van handmatige voorraadmutaties](../warehousing/deferred-processing-manual-inventory-movement.md) |
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform updates voor Finance and Operations-apps
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformupdates voor apps voor financiële en bedrijfsactiviteiten
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.20 bevat platform updates. Zie [Platform updates voor versie 10.0.20 van Finance and Operations- apps (juli 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md) voor meer informatie.
+Microsoft Dynamics 365 Supply Chain Management 10.0.20 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.20 van apps voor financiële en bedrijfsactiviteiten (juli 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
 
 ### <a name="bug-fixes"></a>Correcties
 
@@ -87,12 +87,12 @@ Bekijk [Dynamics 365: releasewave 1-plan van 2021](/dynamics365-release-plan/202
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Verwijderde en afgeschafte functies voor Supply Chain Management
 
-In het onderwerp [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) worden functies beschreven die zijn of worden verwijderd voor Supply Chain Management.
+In het artikel [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) worden functies beschreven die zijn of worden verwijderd voor Supply Chain Management.
 
 - Een *verwijderde* functie is niet langer beschikbaar in het product.
 - Een *afgeschafte* functie wordt niet meer actief ontwikkeld en kan in een toekomstige update worden verwijderd.
 
-Twaalf maanden voordat een functie uit het product wordt verwijderd, wordt de afschaffing aangekondigd in het onderwerp [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md).
+Twaalf maanden voordat een functie uit het product wordt verwijderd, wordt de afschaffing aangekondigd in het artikel [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md).
 
 Voor ingrijpende wijzigingen die alleen van invloed zijn op de compilatietijd, maar binair compatibel zijn met sandbox- en productieomgevingen, is de afschaffingstijd korter dan 12 maanden. Meestal zijn dit functionele updates die moeten worden doorgevoerd in de compiler.
 

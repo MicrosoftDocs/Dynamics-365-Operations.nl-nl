@@ -1,6 +1,6 @@
 ---
 title: Inleiding tot functionele locaties
-description: Dit onderwerp bevat een overzicht van functionele locaties in Activabeheer.
+description: Dit artikel bevat een overzicht van functionele locaties in Activabeheer.
 author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b0cb76a05f0f19d3e57d1f79751e8bc5870b3c331aa4d1c37ec8dfde0a3c6d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4a1c8c4db9aee68584ab35949745132091a34a58
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767550"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882832"
 ---
 # <a name="introduction-to-functional-locations"></a>Inleiding tot functionele locaties
 
@@ -30,7 +30,7 @@ ms.locfileid: "6767550"
 
  
 
-Dit onderwerp bevat een overzicht van functionele locaties in Activabeheer. Functionele locaties zijn elementen van een technische structuur, zoals de functionele eenheden in een systeem. Functionele locaties worden hiërarchisch gemaakt en u installeert hierop activa. De instelling van functionele locaties in uw bedrijf is afhankelijk van de vereisten van het bedrijf.
+Dit artikel bevat een overzicht van functionele locaties in Activabeheer. Functionele locaties zijn elementen van een technische structuur, zoals de functionele eenheden in een systeem. Functionele locaties worden hiërarchisch gemaakt en u installeert hierop activa. De instelling van functionele locaties in uw bedrijf is afhankelijk van de vereisten van het bedrijf.
 
 Hier volgen enkele voorbeelden van hoe u functionele locaties kunt gebruiken:
 

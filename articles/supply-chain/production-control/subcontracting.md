@@ -1,6 +1,6 @@
 ---
 title: Werk uitbesteden
-description: Dit onderwerp helpt u een procedure voor het uitbesteden van werk in de productie op te zetten in Dynamics 365 Supply Chain Management.
+description: Dit artikel helpt u een procedure voor het uitbesteden van werk in de productie op te zetten in Dynamics 365 Supply Chain Management.
 author: johanhoffmann
 ms.date: 09/28/2018
 ms.topic: article
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4c4ef554406c727cc410f8dca5f41264be01060b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ef8f30e934ece4a148c6f5259d74f8f67799999d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579347"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854172"
 ---
 # <a name="subcontracting"></a>Werk uitbesteden
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp helpt u een procedure voor het uitbesteden van werk in de productie op te zetten in Microsoft Dynamics 365 Supply Chain Management. In het eerste deel van dit onderwerp wordt beschreven hoe u de gegevens instelt. In het tweede deel doorloopt u de stappen in de procedure.
+Dit artikel helpt u een procedure voor het uitbesteden van werk in de productie op te zetten in Microsoft Dynamics 365 Supply Chain Management. In het eerste deel van dit artikel wordt beschreven hoe u de gegevens instelt. In het tweede deel doorloopt u de stappen in de procedure.
 
 ## <a name="target-audience"></a>Doelgroep
 
-In dit onderwerp leert u hoe u de uitbesteding van werk in productie instelt. U gebruikt bestaande gegevens in de rechtspersoon HQUS om de basisinstellingen voor een stroom uitbestedingsactiviteiten te configureren. De voorbeeldgegevens in de rechtspersoon HQUS omvatten onder andere instellingsparameters die vooraf zijn ingesteld ter ondersteuning van de stappen in deze procedure. Hoewel in de procedure belangrijke knelpunten en uitdagingen voor verschillende rollen aan bod komen, kan de systeembeheerder deze procedure voltooien.
+In dit artikel leert u hoe u de uitbesteding van werk in productie instelt. U gebruikt bestaande gegevens in de rechtspersoon HQUS om de basisinstellingen voor een stroom uitbestedingsactiviteiten te configureren. De voorbeeldgegevens in de rechtspersoon HQUS omvatten onder andere instellingsparameters die vooraf zijn ingesteld ter ondersteuning van de stappen in deze procedure. Hoewel in de procedure belangrijke knelpunten en uitdagingen voor verschillende rollen aan bod komen, kan de systeembeheerder deze procedure voltooien.
 
 ## <a name="demo-scenario"></a>Demonstratiescenario
 

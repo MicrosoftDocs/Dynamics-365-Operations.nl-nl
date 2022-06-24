@@ -1,6 +1,6 @@
 ---
-title: Activatypen
-description: In dit onderwerp wordt uitgelegd hoe u activatypen maakt in Activabeheer. Ook worden de elementen beschreven die gerelateerd zijn aan activatypen.
+title: Activumtypen
+description: In dit artikel wordt uitgelegd hoe u activatypen maakt in Activabeheer. Ook worden de elementen beschreven die gerelateerd zijn aan activatypen.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc1a8d98e9a8853e2e72bfcc7415ddb9a0a3b7758504621d6fccff00a08a36be
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3a51fdb55e9158e88e89549e3d0049e699c233e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730365"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887626"
 ---
-# <a name="asset-types"></a>Activatypen
+# <a name="asset-types"></a>Activumtypen
 
 [!include [banner](../../includes/banner.md)]
 
 
 
-In dit onderwerp wordt uitgelegd hoe u activatypen maakt. Ook worden de elementen beschreven die gerelateerd zijn aan activatypen. Activatypen worden gebruikt als algemene categorieën voor activa. Voorbeelden hiervan zijn CNC-machines, meetapparatuur en vrachtwagenmotoren. Activatypen worden gebruikt voor het beheren van de onderhoudstaaktypen (onderhoudstaken), levenscyclusstatussen van activa, tellers, kenmerken van activa, sjablonen voor beoordeling van voorwaarden en activamodellen die voor een activum kunnen worden geselecteerd. Wanneer u een activum maakt, moet u het activatype opgeven.
+In dit artikel wordt uitgelegd hoe u activatypen maakt. Ook worden de elementen beschreven die gerelateerd zijn aan activatypen. Activatypen worden gebruikt als algemene categorieën voor activa. Voorbeelden hiervan zijn CNC-machines, meetapparatuur en vrachtwagenmotoren. Activatypen worden gebruikt voor het beheren van de onderhoudstaaktypen (onderhoudstaken), levenscyclusstatussen van activa, tellers, kenmerken van activa, sjablonen voor beoordeling van voorwaarden en activamodellen die voor een activum kunnen worden geselecteerd. Wanneer u een activum maakt, moet u het activatype opgeven.
 
 Voor elk activatype kunnen variaties van de instellingen van het activatype worden gemaakt. Als u bijvoorbeeld een activatype met de naam **Trucks** hebt, kunt u variaties van dat activatype maken voor verschillende activafabrikanten en activamodellen. Voor elke instelling van het activatype kunt u de benodigde reserveonderdelen en onderhoudsplannen toevoegen.
 

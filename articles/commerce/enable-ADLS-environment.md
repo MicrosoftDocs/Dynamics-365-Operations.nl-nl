@@ -1,6 +1,6 @@
 ---
 title: Azure Data Lake Storage inschakelen in een Dynamics 365 Commerce-omgeving
-description: Dit onderwerp geeft instructies voor het verbinden van een Azure Data Lake Storage Gen 2-oplossing met een Dynamics 365 Commerce-entiteitswinkel van een omgeving. Dit is een vereiste stap voordat productaanbevelingen worden ingeschakeld.
+description: Dit artikel geeft instructies voor het verbinden van een Azure Data Lake Storage Gen 2-oplossing met een Dynamics 365 Commerce-entiteitswinkel van een omgeving. Dit is een vereiste stap voordat productaanbevelingen worden ingeschakeld.
 author: bebeale
 ms.date: 08/31/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c96c29a4d9639b02e6a60ad938b7e06f7d500c68
-ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
+ms.openlocfilehash: 6e0c84dd6b173a111b70a8adb6036be946149f7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "7466287"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885166"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>Azure Data Lake Storage inschakelen in een Dynamics 365 Commerce-omgeving
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp geeft instructies voor het verbinden van een Azure Data Lake Storage Gen 2-oplossing met een Dynamics 365 Commerce-entiteitswinkel van een omgeving. Dit is een vereiste stap voordat productaanbevelingen worden ingeschakeld.
+Dit artikel geeft instructies voor het verbinden van een Azure Data Lake Storage Gen 2-oplossing met een Dynamics 365 Commerce-entiteitswinkel van een omgeving. Dit is een vereiste stap voordat productaanbevelingen worden ingeschakeld.
 
 In de Dynamics 365 Commerce-oplossing worden de gegevens die nodig zijn om aanbevelingen, producten en transacties te berekenen, samengevoegd in de entiteitswinkel van de omgeving. Om deze gegevens toegankelijk te maken voor andere Dynamics 365-services, zoals gegevensanalyse, Business Intelligence en persoonlijke aanbevelingen, is het noodzakelijk de omgeving te verbinden met een Azure Data Lake Storage Gen 2-oplossing van de klant.
 

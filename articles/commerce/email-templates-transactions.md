@@ -1,6 +1,6 @@
 ---
 title: E-mailsjablonen maken voor transactiegebeurtenissen
-description: In dit onderwerp wordt beschreven hoe u e-mailsjablonen kunt maken, uploaden en configureren voor transactiegebeurtenissen in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt beschreven hoe u e-mailsjablonen kunt maken, uploaden en configureren voor transactiegebeurtenissen in Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 08e247bac577dc0bb8a4635d61f0082793380da9
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 9a4d67d901608e210b4060a655ce39f0ea707a52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722514"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910545"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>E-mailsjablonen maken voor transactiegebeurtenissen
 
 [!include [banner](includes/banner.md)]
 
 
-In dit onderwerp wordt beschreven hoe u e-mailsjablonen kunt maken, uploaden en configureren voor transactiegebeurtenissen in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt beschreven hoe u e-mailsjablonen kunt maken, uploaden en configureren voor transactiegebeurtenissen in Microsoft Dynamics 365 Commerce.
 
-Dynamics 365 Commerce biedt een kant-en-klare oplossing voor het verzenden van e-mails waarin klanten worden gewaarschuwd over transactionele gebeurtenissen. E-mails kunnen bijvoorbeeld worden verzonden wanneer er een order wordt geplaatst, klaar is om te worden opgehaald of als deze is verzonden. In dit onderwerp worden de stappen beschreven voor het maken, uploaden en configureren van de e-mailsjablonen die worden gebruikt voor het verzenden van transactionele e-mails.
+Dynamics 365 Commerce biedt een kant-en-klare oplossing voor het verzenden van e-mails waarin klanten worden gewaarschuwd over transactionele gebeurtenissen. E-mails kunnen bijvoorbeeld worden verzonden wanneer er een order wordt geplaatst, klaar is om te worden opgehaald of als deze is verzonden. In dit artikel worden de stappen beschreven voor het maken, uploaden en configureren van de e-mailsjablonen die worden gebruikt voor het verzenden van transactionele e-mails.
 
 ## <a name="notification-types"></a>Meldingstypen
 

@@ -1,6 +1,6 @@
 ---
 title: Wijzigingen in formules en de ingrediënten beheren
-description: In dit onderwerp wordt beschreven hoe u formulebeheer uitvoert en wijzigingen in de hoofdgegevens van de procesfabricage kunt beheren.
+description: In dit artikel wordt beschreven hoe u formulebeheer uitvoert en wijzigingen in de hoofdgegevens van de procesfabricage kunt beheren.
 author: t-benebo
 ms.date: 05/19/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 31953fd29c471e52bd63dbb02c20f5f224c3cae2
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 8105ebc7f3698a6baaa04b6548dac18a7bf81a47
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103034"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904067"
 ---
 # <a name="manage-changes-in-formulas-and-their-ingredients"></a>Wijzigingen in formules en de ingrediënten beheren
 
@@ -46,7 +46,7 @@ In de volgende lijst wordt samengevat hoe de functies voor technisch wijzigingsb
 - **Gereedheidscontrole**: gebruik systeemcontroles en gebruikersadvies (vragenlijsten en controlelijsten) om ervoor te zorgen dat alle vereiste productgegevens volledig zijn ingevoerd voordat het product wordt vrijgegeven. Zie voor meer informatie [Productgereedheid](product-readiness.md).
 - **Verbeterde functionaliteit voor productvrijgave**: u kunt volledig gedefinieerde versies van een product en de bijbehorende formule vrijgeven vanuit een organisatie (rechtspersoon) aan andere rechtspersonen. U kunt zelfs beslissen of de productgegevens moeten worden gecontroleerd of bewerkt vóór de vrijgave. Zie [Productstructuren van de vrijgave](release-product-structure.md) voor meer informatie.
 
-De meeste onderwerpen waaraan wordt gekoppeld in de vorige lijst, bevatten voorbeelden die zijn gebaseerd op stuklijsten. Formules werken echter op dezelfde manier. Hieronder vindt u enkele extra concepten die handig zijn om te weten wanneer u wijzigingsbeheer (of alleen formulewijzigingsbeheer) gebruikt voor het beheren van formules en stuklijsten:
+De meeste artikelen waaraan wordt gekoppeld in de vorige lijst, bevatten voorbeelden die zijn gebaseerd op stuklijsten. Formules werken echter op dezelfde manier. Hieronder vindt u enkele extra concepten die handig zijn om te weten wanneer u wijzigingsbeheer (of alleen formulewijzigingsbeheer) gebruikt voor het beheren van formules en stuklijsten:
 
 - Voor elke [technische productcategorie](engineering-versions-product-category.md) kunt u het productietype (stuklijst, formule of planningsartikel) opgeven. U kunt ook opgeven of catch weight-ondersteuning vereist is voor producten waarvoor die categorie wordt gebruikt.
 - Co- en bijproducten zijn geen technische producten. Daarom hebben ze bepaalde versies. Als u deze moet wijzigen, maakt u gewoon een nieuw product. Deze benadering maakt het onderhoud eenvoudiger.

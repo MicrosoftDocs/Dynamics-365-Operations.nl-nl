@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a61e501d843e220259f9e26aac4309e6902d7a22
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a9ff9cb71b08d94e45e82c2b8f81550c9f8aba64
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669652"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897743"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Trainingscatalogus voor beheerders van Dynamics 365 Supply Chain Management
 
@@ -42,7 +42,7 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 | [Gegevens migreren en live gaan met apps voor financiële en bedrijfsactiviteiten](/learn/paths/migrate-data-go-live-finance-operations/) | Als functionele consultant moet u begrijpen hoe u de gegevens van klanten voorbereidt voor migratie, hoe u werkt met gegevensbeheer en hoe u acceptatietests voor gebruikers uitvoert om live te gaan met apps voor financiële en bedrijfsactiviteiten. | Gratis online leertraject voor zelfstudie | 4 uur |
 | [Werken met analyse en rapportage in Finance and Operations](/learn/modules/work-with-analytics-reporting-in-dynamics-365-finance-ops/) | Zakelijke leiders kunnen belangrijke beslissingen nemen in hun bedrijf als zij nauwkeurig inzicht hebben in de onderliggende financiële en operationele gegevens. Zonder zichtbaarheid van gegevens staan leidinggevenden voor een nagenoeg onmogelijke taak. Door analyse en rapportage te gebruiken in apps voor financiën en bedrijfsactiviteiten, kunt u elke zakelijke gebruiker, afhankelijk van hun beveiligingsrechten, toestaan om de benodigde inzichten te krijgen om deze belangrijke beslissingen te maken. | Gratis online leertraject voor zelfstudie | 1.5 uur |
 | [Een implementatieproject beheren voor Finance and Operations](/learn/paths/implement-finance-operations/) | Leer de belangrijkste elementen en de beste praktijken voor het beheren van een succesvol implementatieproject in Finance and Operations. Vanaf de eerste stap waarbij u uw projectmethodologie plant en ontwerpt, het gebruik van FastTrack-services, de ontwikkelingsstrategie, het beheer van gegevens en meer, tot de beste manieren om uw bewerkingen na Go-live te onderhouden en te controleren. | Gratis online leertraject voor zelfstudie | 11.5 uur |
-| [Startpagina van Systeembeheer](/dynamics365/unified-operations/dev-itpro/sysadmin/system-administration-home-page) | In dit onderwerp wordt verwezen naar inhoud voor systeembeheerders van Microsoft Dynamics 365 for Finance and Operations. Op basis van deze inhoud kunt u het systeem configureren zodat het vloeiend en effectief werkt voor uw organisatie. | Documentatie | |
+| [Startpagina van Systeembeheer](/dynamics365/unified-operations/dev-itpro/sysadmin/system-administration-home-page) | In dit artikel wordt verwezen naar inhoud voor systeembeheerders van Microsoft Dynamics 365 for Finance and Operations. Op basis van deze inhoud kunt u het systeem configureren zodat het vloeiend en effectief werkt voor uw organisatie. | Documentatie | |
 | [Finance and Operations: Onboarding voor Dynamics 365 (DYN542PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-onboarding-to-dynamics-365-1-10-19) | FastTrack biedt een Onboarding-service voor elk Dynamics 365 for Finance and Operations-project. In deze TechTalk wordt het Onboarding-proces uitgelegd, nemen we de inhoud van de Onboarding-sessie met u door en wordt toegelicht hoe wij in de nabije toekomst Onboarding efficiënter en handiger maken. Deze sessie is vooral relevant voor iedereen die in de vroege fasen van een project met klanten werkt, tussen het afsluiten van de licentieovereenkomst en het begin van het implementatieproject. | Gratis registratie van een webvergadering | 62 minuten |
 | [On-premises implementatie (lokale bedrijfsgegevens) (DYN382PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | In deze TechTalk krijgt u een overzicht van de on-premises implementatie voor Dynamics 365 for Finance and Operations, Enterprise Edition. In deze sessie bekijken we de oplossingsarchitectuur van een on-premises implementatie, ALM-aspecten, systeemvereisten en het inrichten van het Lifecycle Services-project. | Gratis registratie van een webvergadering | 48 minuten |
 | [Kopiëren naar rechtspersoon (DYN383PAL) ](https://community.dynamics.com/365/b/techtalks/posts/copy-into-legal-entity-october-24-2017) | In deze sessie bespreken we de nieuwe functie Kopiëren naar rechtspersoon in het Data Management Framework. We zullen eerst kort de nieuwe functies bekijken die aan het Data Management Framework in platform 8 zijn toegevoegd voor het werkgebied, sjablonen en gegevensprojecten. Vervolgens bespreken we de extra functionaliteit die is toegevoegd voor Kopiëren naar rechtspersoon. | Gratis registratie van een webvergadering | 54 minuten |

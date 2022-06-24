@@ -1,6 +1,6 @@
 ---
 title: Methoden voor restitutiebetalingen in callcenters
-description: In dit onderwerp wordt uitgelegd hoe restituties worden gegenereerd via callcenters wanneer retouren worden gemaakt of wanneer orders of orderregels worden geannuleerd.
+description: In dit artikel wordt uitgelegd hoe restituties worden gegenereerd via callcenters wanneer retouren worden gemaakt of wanneer orders of orderregels worden geannuleerd.
 author: hhainesms
 ms.date: 01/05/2020
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d5bcf3a0d36e323ee96c1f37829a95b60f529bc
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 330674a31dc59e99ffedb82d0896c64214562eb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944708"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880109"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Methoden voor restitutiebetalingen in callcenters
 
-In dit onderwerp wordt uitgelegd hoe restituties worden gegenereerd via callcenters wanneer retouren worden gemaakt of wanneer orders of orderregels worden geannuleerd.
+In dit artikel wordt uitgelegd hoe restituties worden gegenereerd via callcenters wanneer retouren worden gemaakt of wanneer orders of orderregels worden geannuleerd.
 
 Een gebruiker die als callcentergebruiker in Microsoft Dynamics 365 Commerce Headquarters een retourorder voor een klant maakt, gebruikt de pagina **Retourorder** om de initiële retourmaterialenautorisatie (RMA) te maken. De RMA definieert de producten die de klant wil retourneren of ruilen, en maakt een gekoppelde retourverkooporder met het ordertype **Geretourneerde order**. Deze gekoppelde retourorder wordt gebruikt om de boeking van de geretourneerde voorraad en eventuele creditnota's of restitutiebedragen die worden geboekt bij te houden.
 
@@ -92,7 +92,7 @@ De instelling **Ja** voor de optie **Creditering toepassen** is alleen van toepa
 
 ## <a name="payment-overrides-for-call-center-returns"></a>Overschrijving van betalingen voor retourzendingen van callcenters
 
-Hoewel de callcenterlogica systematisch de betalingswijze voor de restitutie bepaalt op de manier die eerder in dit onderwerp is beschreven, willen gebruikers die betalingen soms overschrijven. Een gebruiker kan bijvoorbeeld bestaande betalingsregels voor restituties bewerken of verwijderen en nieuwe betalingsregels toepassen. Door het systeem berekende restitutiebetalingen kunnen alleen worden gewijzigd door gebruikers met de juiste overschrijvingsmachtigingen. Deze machtigingen kunnen worden geconfigureerd op de pagina **Overschrijvingsmachtigingen** in Retail en Commerce. Om een restitutiebetaling te overschrijven, moet de gebruiker gekoppeld zijn aan een beveiligingsrol waarbij de optie **Alternatieve betaling toestaan** op **Ja** staat op de pagina **Overschrijvingsmachtigingen**.
+Hoewel de callcenterlogica systematisch de betalingswijze voor de restitutie bepaalt op de manier die eerder in dit artikel is beschreven, willen gebruikers die betalingen soms overschrijven. Een gebruiker kan bijvoorbeeld bestaande betalingsregels voor restituties bewerken of verwijderen en nieuwe betalingsregels toepassen. Door het systeem berekende restitutiebetalingen kunnen alleen worden gewijzigd door gebruikers met de juiste overschrijvingsmachtigingen. Deze machtigingen kunnen worden geconfigureerd op de pagina **Overschrijvingsmachtigingen** in Retail en Commerce. Om een restitutiebetaling te overschrijven, moet de gebruiker gekoppeld zijn aan een beveiligingsrol waarbij de optie **Alternatieve betaling toestaan** op **Ja** staat op de pagina **Overschrijvingsmachtigingen**.
 
 ![De optie Alternatieve betaling toestaan op de pagina Overschrijvingsmachtigingen.](media/overridepermissions.png)
 

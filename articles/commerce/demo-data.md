@@ -1,6 +1,6 @@
 ---
 title: Schermindelingen met demonstratiegegevens in Modern POS (MPOS) en Cloud POS
-description: Dit onderwerp bevat informatie over de schermindelingen die zijn opgenomen in de voorbeeldgegevensset voor de POS-ervaringen (Point Of Sale) in Dynamics 365 Commerce.
+description: Dit artikel bevat informatie over de schermindelingen die zijn opgenomen in de voorbeeldgegevensset voor de POS-ervaringen (Point Of Sale) in Dynamics 365 Commerce.
 author: josaw1
 ms.date: 10/05/2017
 ms.topic: article
@@ -16,22 +16,22 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: c141325580d698cccc7d186496a0902913961d47764b93fa73c64c3eddf6e791
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb7a288b61e8b467dd8ad6a8f7dc42b7fca0d943
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761657"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897220"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Schermindelingen met demonstratiegegevens in Modern POS (MPOS) en Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp bevat informatie over de schermindelingen die zijn opgenomen in de voorbeeldgegevensset voor de POS-ervaringen (Point Of Sale) in Dynamics 365 Commerce.
+Dit artikel bevat informatie over de schermindelingen die zijn opgenomen in de voorbeeldgegevensset voor de POS-ervaringen (Point Of Sale) in Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Overzicht
 
-De voorbeeldschermindelingen die zijn opgenomen in de Commerce-demonstratiegegevens bieden inhoud die is geoptimaliseerd voor verschillende segmenten van de detailhandel, winkelmedewerkerrollen en apparaten. Eén indeling kan verschillende indelingsformaten en combinaties van knoppenrasters bevatten om in de behoefte te kunnen blijven voorzien wanneer werknemers tussen apparaten en stations schakelen. Dit onderwerp biedt meer informatie over de verschillen tussen deze indelingen, de mogelijkheden die ze bieden en de algehele ervaring die ze leveren.
+De voorbeeldschermindelingen die zijn opgenomen in de Commerce-demonstratiegegevens bieden inhoud die is geoptimaliseerd voor verschillende segmenten van de detailhandel, winkelmedewerkerrollen en apparaten. Eén indeling kan verschillende indelingsformaten en combinaties van knoppenrasters bevatten om in de behoefte te kunnen blijven voorzien wanneer werknemers tussen apparaten en stations schakelen. Dit artikel biedt meer informatie over de verschillen tussen deze indelingen, de mogelijkheden die ze bieden en de algehele ervaring die ze leveren.
 
 ![Apparaatonafhankelijke demonstratiegegevensindelingen.](../commerce/media/demo-screen-layouts-fig-1-1.png)
 
@@ -52,12 +52,12 @@ Schermindeling-id's kunnen uit maximaal 10 tekens bestaan. De id is een tekenree
 | Brief | Bedrijf         |
 |--------|-----------------|
 | V      | Adventure Works |
-| Vr      | Fabrikam        |
-| C      | Contoso         |
+| F      | Fabrikam        |
+| E      | Contoso         |
 
 ### <a name="layout-version"></a>Indelingsversie
 
-| Versienummer | Beschrijving                                                                                |
+| Versienummer | Omschrijving                                                                                |
 |----------------|--------------------------------------------------------------------------------------------|
 | 3              | De basisversie die ondersteuning biedt voor meerdere schermformaten voor verschillende apparaten en hoogte-breedteverhoudingen |
 | 3.1            | De basisversie met extra ondersteuning voor het deelvenster **Aanbevolen producten**        |

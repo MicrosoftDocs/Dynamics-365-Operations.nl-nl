@@ -1,6 +1,6 @@
 ---
 title: LTL-klassen (Less than truckload)
-description: In dit onderwerp wordt beschreven wat LTL-klassen (Less Than Truckload, 'geen volledige vrachtwagen') zijn en wordt beschreven hoe u deze in instelt in Microsoft Dynamics 365 Supply Chain Management.
+description: In dit artikel wordt beschreven wat LTL-klassen (Less Than Truckload, 'geen volledige vrachtwagen') zijn en wordt beschreven hoe u deze in instelt in Microsoft Dynamics 365 Supply Chain Management.
 author: Weijiesa
 ms.date: 04/05/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a6e05ea7534ee081778a899d5956e6ca7cd104cb
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 9ab05e1bc5d0ae2c8b5d98dda32660d2436676e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678061"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857194"
 ---
 # <a name="less-than-truckload-ltl-classes"></a>LTL-klassen (Less than truckload)
 
@@ -33,7 +33,7 @@ Met deze functie kunt in uw systeem de volgende taken uitvoeren:
 - De verpakkingsvereisten bepalen voor elke LTL-klasse door de internationale LTL-standaarden te bekijken. Hiermee borgt u dat uw producten goed beschermd worden en veilig worden verzonden.
 - Nauwkeurige schattingen van transportkosten maken, gebaseerd op de LTL-vrachtklasse voor elk product.
 
-In dit onderwerp wordt beschreven hoe u LTL-klassen maakt in Microsoft Dynamics 365 Supply Chain Management.
+In dit artikel wordt beschreven hoe u LTL-klassen maakt in Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="create-an-ltl-class"></a>Een LTL-klasse maken
 

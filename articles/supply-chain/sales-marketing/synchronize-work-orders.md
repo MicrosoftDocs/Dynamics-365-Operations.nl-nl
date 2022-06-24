@@ -1,6 +1,6 @@
 ---
 title: Werkorders synchroniseren met projecten van Field Service Supply Chain Management
-description: Dit onderwerp bespreekt de sjablonen en de onderliggende taak die worden gebruikt om werkorders met een projectnummer te synchroniseren van Dynamics 365 Field Service naar Dynamics 365 Supply Chain Management.
+description: Dit artikel bespreekt de sjablonen en de onderliggende taak die worden gebruikt om werkorders met een projectnummer te synchroniseren van Dynamics 365 Field Service naar Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 03/12/2019
 ms.topic: article
@@ -16,24 +16,24 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: f0b3214aba5882a585664030d6c1aebe34de455c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a43a7f7e900205bdb23fb9a35ca1518369683a42
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860488"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>Werkorders synchroniseren met projecten van Field Service Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-Dit onderwerp bespreekt de sjablonen en de onderliggende taak die worden gebruikt om werkorders met een projectnummer te synchroniseren van Dynamics 365 Field Service naar Dynamics 365 Supply Chain Management.
+Dit artikel bespreekt de sjablonen en de onderliggende taak die worden gebruikt om werkorders met een projectnummer te synchroniseren van Dynamics 365 Field Service naar Dynamics 365 Supply Chain Management.
 
 [![Synchronisatie van zakelijke processen tussen Supply Chain Management en Field Service.](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
 De gebruikte sjabloon **Werkorders met Project (Field Service naar Supply Chain Management)** is gebaseerd op de sjabloon **Werkorders (Field Service naar Supply Chain Management)**. Zie voor meer informatie [Werkorders in Field Service synchroniseren met verkooporders in Supply Chain Management](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
-In dit onderwerp worden alleen de verschillen tussen de twee sjablonen beschreven:
+In dit artikel worden alleen de verschillen tussen de twee sjablonen beschreven:
 - **Werkorders met Project (Field Service naar Supply Chain Management)**
 - **Werkorders (Field Service naar Supply Chain Management)**
 

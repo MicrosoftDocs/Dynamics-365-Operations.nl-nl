@@ -1,6 +1,6 @@
 ---
-title: Instellingen maateenheid toepassen
-description: In dit onderwerp worden instellingen van de maateenheid beschreven en hoe u deze toepast in Microsoft Dynamics 365 Commerce.
+title: Instellingen voor maateenheid toepassen
+description: In dit artikel worden instellingen van de maateenheid beschreven en hoe u deze toepast in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 04/23/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7fe5cf6b57a8897a0bd541146cb1ad17b496d5633c0a1df9d58b2a4fbc868139
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ca95bd31af8f244f60f12120bc6df121f48cc7ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761509"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884810"
 ---
-# <a name="apply-unit-of-measure-settings"></a>Instellingen maateenheid toepassen
+# <a name="apply-unit-of-measure-settings"></a>Instellingen voor maateenheid toepassen
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp worden instellingen van de maateenheid beschreven en hoe u deze toepast in Microsoft Dynamics 365 Commerce.
+In dit artikel worden instellingen van de maateenheid beschreven en hoe u deze toepast in Microsoft Dynamics 365 Commerce.
 
 Een product kan worden verkocht in verschillende eenheden, zoals 'stuk', 'paar' en 'dozijn'. In Commerce Headquarters kan de maateenheid voor een product worden gedefinieerd en weergegeven op een e-commerce-site. Als een detailhandelaar bijvoorbeeld een product per stuk of per dozijn verkoopt, kunnen de beschikbare maateenheden tegelijk met de andere productgegevens worden weergegeven.
 

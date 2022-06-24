@@ -1,6 +1,6 @@
 ---
 title: Implementatierichtlijnen voor het voorbeeld van integratie van fiscale registratieservice voor Tsjechië (verouderd)
-description: Dit onderwerp bevat richtlijnen voor de implementatie van het voorbeeld voor fiscale integratie voor Tsjechië vanuit de Retail SDK (Software Development Kit) voor Microsoft Dynamics 365 Commerce.
+description: Dit artikel bevat richtlijnen voor de implementatie van het voorbeeld voor fiscale integratie voor Tsjechië vanuit de Retail SDK (Software Development Kit) voor Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: aaa894ccfd77a5522a3696e20987b9e67f3abee0
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 35584493cd2a4fecd5fc86d529ec43bb4ef97671
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8613956"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881759"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-the-czech-republic-legacy"></a>Implementatierichtlijnen voor het voorbeeld van integratie van fiscale registratieservice voor Tsjechië (verouderd)
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat richtlijnen voor de implementatie van het voorbeeld voor integratie van de fiscale registratieservice voor Tsjechië vanuit de Retail Software Development Kit (SDK) van Microsoft Dynamics 365 Commerce op een virtuele machine (VM) voor een developer in Microsoft Dynamics Lifecycle Services (LCS). Zie [Voorbeeld van integratie van fiscale registratieservice voor Tsjechië](emea-cze-fi-sample.md) voor meer informatie over dit voorbeeld van fiscale integratie. 
+Dit artikel bevat richtlijnen voor de implementatie van het voorbeeld voor integratie van de fiscale registratieservice voor Tsjechië vanuit de Retail Software Development Kit (SDK) van Microsoft Dynamics 365 Commerce op een virtuele machine (VM) voor een developer in Microsoft Dynamics Lifecycle Services (LCS). Zie [Voorbeeld van integratie van fiscale registratieservice voor Tsjechië](emea-cze-fi-sample.md) voor meer informatie over dit voorbeeld van fiscale integratie. 
 
-Het voorbeeld van fiscale integratie voor Tsjechië maakt deel uit van de Retail SDK. Zie [Architectuur van Retail SDK (Software Development Kit)](../dev-itpro/retail-sdk/retail-sdk-overview.md) voor informatie over het installeren en gebruiken van de SDK. Dit voorbeeld bestaat uit extensies voor Commerce runtime (CRT) en Hardwarestation. Als u dit voorbeeld wilt uitvoeren, moet u de projecten CRT en Hardwarestation wijzigen en bouwen. Het is raadzaam een niet-geverifieerde Retail SDK te gebruiken om de wijzigingen aan te brengen die in dit onderwerp worden beschreven. Het wordt ook aangeraden een broncontrolesysteem te gebruiken, zoals Azure DevOps wanneer er nog geen bestanden zijn gewijzigd.
+Het voorbeeld van fiscale integratie voor Tsjechië maakt deel uit van de Retail SDK. Zie [Architectuur van Retail SDK (Software Development Kit)](../dev-itpro/retail-sdk/retail-sdk-overview.md) voor informatie over het installeren en gebruiken van de SDK. Dit voorbeeld bestaat uit extensies voor Commerce runtime (CRT) en Hardwarestation. Als u dit voorbeeld wilt uitvoeren, moet u de projecten CRT en Hardwarestation wijzigen en bouwen. Het is raadzaam een niet-geverifieerde Retail SDK te gebruiken om de wijzigingen aan te brengen die in dit artikel worden beschreven. Het wordt ook aangeraden een broncontrolesysteem te gebruiken, zoals Azure DevOps wanneer er nog geen bestanden zijn gewijzigd.
 
 ## <a name="development-environment"></a>Ontwikkelingsomgeving
 

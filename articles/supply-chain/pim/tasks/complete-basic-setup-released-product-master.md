@@ -1,6 +1,6 @@
 ---
 title: Basisinstellingen voor een vrijgegeven productmodel voltooien
-description: In dit onderwerp ziet u hoe u de minimuminstelling voltooit die is vereist voordat het productmodel in stuklijstversies kan worden gebruikt.
+description: In dit artikel ziet u hoe u de minimuminstelling voltooit die vereist is voordat het productmodel in stuklijstversies kan worden gebruikt.
 author: t-benebo
 ms.date: 07/08/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1ec567892c09968fe80c3a075d656185aceb4e5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a403600bfdc257587441b5b5a907981d5eebaf58
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568490"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844847"
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>Basisinstellingen voor een vrijgegeven productmodel voltooien
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp ziet u hoe u de minimuminstelling voltooit die is vereist voordat het productmodel in stuklijstversies kan worden gebruikt.
+In dit artikel ziet u hoe u de minimuminstelling voltooit die vereist is voordat het productmodel in stuklijstversies kan worden gebruikt.
 
 Dit is de derde van acht procedures waarin wordt uitgelegd hoe u combinaties maakt voor een op dimensies gebaseerde configuratie. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

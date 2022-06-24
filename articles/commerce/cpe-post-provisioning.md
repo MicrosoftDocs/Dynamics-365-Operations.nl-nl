@@ -1,6 +1,6 @@
 ---
 title: Een Dynamics 365 Commerce-evaluatieomgeving configureren
-description: In dit onderwerp wordt uitgelegd hoe u een evaluatieomgeving van Microsoft Dynamics 365 Commerce configureert na inrichting.
+description: In dit artikel wordt uitgelegd hoe u een evaluatieomgeving van Microsoft Dynamics 365 Commerce configureert na inrichting.
 author: psimolin
 ms.date: 05/12/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d9738700ca495d54c91ad91aa9c5a3d32c95a5a5
-ms.sourcegitcommit: 4a973ac0e7af0176270a8070a96a52293567dfbf
+ms.openlocfilehash: 19d88139e35554bce68bc6203141957b96e439a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "8747632"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892325"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Een Dynamics 365 Commerce-evaluatieomgeving configureren
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u een evaluatieomgeving van Microsoft Dynamics 365 Commerce configureert na inrichting.
+In dit artikel wordt uitgelegd hoe u een evaluatieomgeving van Microsoft Dynamics 365 Commerce configureert na inrichting.
 
-Voltooi de procedures in dit onderwerp pas nadat uw evaluatieomgeving van Commerce is ingericht. Zie [Een evaluatieomgeving van Commerce inrichten](provisioning-guide.md) voor meer informatie over hoe u uw evaluatieomgeving van Commerce inricht.
+Voltooi de procedures in dit artikel pas nadat uw evaluatieomgeving van Commerce is ingericht. Zie [Een evaluatieomgeving van Commerce inrichten](provisioning-guide.md) voor meer informatie over hoe u uw evaluatieomgeving van Commerce inricht.
 
 Nadat uw evaluatieomgeving van Commerce end-to-end is ingericht, moeten extra configuratiestappen worden voltooid voordat u kunt beginnen met het evalueren van de omgeving. Als u deze stappen wilt uitvoeren, moet u Microsoft Dynamics Lifecycle Services (LCS) en Dynamics 365 Commerce gebruiken.
 

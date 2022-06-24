@@ -1,6 +1,6 @@
 ---
 title: Verzegelde biedingen voor offerteaanvragen
-description: In dit onderwerp wordt beschreven hoe u verzegelde biedingen kunt instellen om antwoorden op offertes van leveranciers geheim te houden totdat deze worden ontgrendeld door inkooppersoneel.
+description: In dit artikel wordt beschreven hoe u verzegelde biedingen kunt instellen om antwoorden op offertes van leveranciers geheim te houden totdat deze worden ontgrendeld door inkooppersoneel.
 author: GalynaFedorova
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: dfc19646d6724627c8a25bcfc8a6b2a70a73c261
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 40f1735d7efa5131b1462963758b6b48eec78fea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675144"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890881"
 ---
 # <a name="sealed-bidding-for-rfqs"></a>Verzegelde biedingen voor offerteaanvragen
 
@@ -148,7 +148,7 @@ Het proces van het maken van een offerteaanvraag voor verzegelde biedingen is bi
 Offerteaanvraagcases voor verzegelde biedingen moet voor **Biedingstype** de waarde *Verzegeld* hebben. U kunt deze waarde op drie manieren aan een offerteaanvraagcase toewijzen:
 
 - Stel de waarde rechtstreeks in op de offerteaanvraagcase nadat u deze hebt gemaakt.
-- Definieer verzegelde bieding als het standaardbiedingstype voor alle offerteaanvraagcases in de parameters voor Inkoopbeheer. (Zie het gedeelte [Het standaardbiedingstype instellen](#set-default-bid-type) eerder in dit onderwerp.)
+- Definieer verzegelde bieding als het standaardbiedingstype voor alle offerteaanvraagcases in de parameters voor Inkoopbeheer. (Zie het gedeelte [Het standaardbiedingstype instellen](#set-default-bid-type) eerder in dit artikel.)
 - Wanneer u een nieuwe offerteaanvraagcase maakt, selecteert u een sollicitatietype dat is ingesteld voor verzegeld bieden. (Zie het gedeelte [Het standaardbiedingstype instellen](#set-default-bid-type).)
 
 Aan de hand van de waarde van **Vervaldatum en -tijd** voor verzegeld bieden wordt bepaald wanneer de ingediende biedingen kunnen worden ontgrendeld. De waarde van **Vervaldatum en -tijd** op elke regel komt overeen met de waarde in de koptekst.

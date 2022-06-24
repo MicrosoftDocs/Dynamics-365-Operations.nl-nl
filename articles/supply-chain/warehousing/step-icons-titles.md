@@ -1,6 +1,6 @@
 ---
 title: Stappictogrammen en -titels toewijzen voor de mobiele app Warehouse Management
-description: In dit onderwerp wordt beschreven hoe u stappictogrammen en -titels kunt toewijzen voor nieuwe of aangepaste taakstromen voor de mobiele app Warehouse Management.
+description: In dit artikel wordt beschreven hoe u stappictogrammen en -titels kunt toewijzen voor nieuwe of aangepaste taakstromen voor de mobiele app Warehouse Management.
 author: Mirzaab
 ms.date: 05/17/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a687c26cacc0dbdaf0091b2d26277864553ca1bf
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 361ace454f7125ec86bd99cffefc7d268f81d37f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103308"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890591"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Stappictogrammen en -titels toewijzen voor de mobiele app Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u stappictogrammen en staptitels kunt toewijzen voor nieuwe of aangepaste taakstromen voor de mobiele app Warehouse Management.
+In dit artikel wordt beschreven hoe u stappictogrammen en staptitels kunt toewijzen voor nieuwe of aangepaste taakstromen voor de mobiele app Warehouse Management.
 
 In de volgende afbeeldingen ziet u hoe stappictogrammen en staptitels worden weergegeven in de mobiele app Warehouse Management.
 
@@ -29,7 +29,7 @@ In de volgende afbeeldingen ziet u hoe stappictogrammen en staptitels worden wee
 
 ## <a name="turn-this-feature-on-or-off"></a>Deze functie in- of uitschakelen
 
-Om de functionaliteit te gebruiken die in dit onderwerp wordt beschreven, moet de functie *Gebruikersinstellingen, pictogrammen en stapnamen voor de nieuwe magazijnapp* worden ingeschakeld voor het systeem. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Gebruikersinstellingen, pictogrammen en stapnamen voor de nieuwe magazijnapp* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Om de functionaliteit te gebruiken die in dit artikel wordt beschreven, moet de functie *Gebruikersinstellingen, pictogrammen en stapnamen voor de nieuwe magazijnapp* worden ingeschakeld voor het systeem. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Gebruikersinstellingen, pictogrammen en stapnamen voor de nieuwe magazijnapp* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="standard-step-ids-classes-and-icons"></a>Standaard ID´s, klassen en pictogrammen van stappen
 
@@ -39,7 +39,7 @@ Elke stap in een taakstroom wordt aangeduid met een stap-ID en elke stap-ID heef
 
 In de volgende tabel wordt elke stap-ID vermeld die momenteel beschikbaar is, en de bijbehorende stapklasse. De besturingselementnaam van het primaire invoerveld wordt gebruikt als de stap-ID.
 
-Zie de implementatie van de methode `WHSMobileAppStepInfoBuilder.stepId()` in het gedeelte [Voorbeeld: Stappictogrammen en -titels toewijzen voor een aangepaste stroom](#example) verderop in dit onderwerp voor een voorbeeld hoe deze stap-ID´s en -klassen worden gebruikt.
+Zie de implementatie van de methode `WHSMobileAppStepInfoBuilder.stepId()` in het gedeelte [Voorbeeld: Stappictogrammen en -titels toewijzen voor een aangepaste stroom](#example) verderop in dit artikel voor een voorbeeld hoe deze stap-ID´s en -klassen worden gebruikt.
 
 | Stap-id | Stapklasse |
 |-|-|
@@ -373,7 +373,7 @@ final internal class WHSMobileAppStepContainerId extends WHSMobileAppStep
 
 De ID van het stappictogram wordt opgeslagen in het klasselid `defaultStepIcon` en de titel van de stap wordt opgeslagen in het klasselid `defaultStepTitle`.
 
-Als u een stappictogram wilt toewijzen, stelt u `defaultStepIcon` in op een van de pictogram-ID's die worden vermeld in het gedeelte [Beschikbare stappictogrammen](#step-icons) eerder in dit onderwerp.
+Als u een stappictogram wilt toewijzen, stelt u `defaultStepIcon` in op een van de pictogram-ID's die worden vermeld in het gedeelte [Beschikbare stappictogrammen](#step-icons) eerder in dit artikel.
 
 ### <a name="use-a-standard-or-custom-step-icon-and-title-for-the-weight-input"></a>Een standaard of aangepast stappictogram en -titel gebruiken voor de invoer van gewicht
 
@@ -405,7 +405,7 @@ public class WHSMobileAppStepInfoBuilderWeighContainer extends WHSMobileAppStepI
 }
 ```
 
-Vervolgens maakt u een stapklasse voor de stap `NewWeight`. De code moet lijken op de code voor het voorbeeld `ContainerId` dat eerder in dit onderwerp is weergegeven.
+Vervolgens maakt u een stapklasse voor de stap `NewWeight`. De code moet lijken op de code voor het voorbeeld `ContainerId` dat eerder in dit artikel is weergegeven.
 
 #### <a name="override-the-stepinfo-method"></a>De stepInfo()-methode overschrijven
 

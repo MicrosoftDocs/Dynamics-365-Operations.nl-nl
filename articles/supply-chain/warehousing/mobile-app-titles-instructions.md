@@ -1,6 +1,6 @@
 ---
 title: Staptitels en instructies aanpassen voor de mobiele app Warehouse Management
-description: In dit onderwerp wordt beschreven hoe u aangepaste instructies kunt aanmaken en weergeven voor elke stap van elke taakstroom die u hebt ingesteld voor de mobiele app van Warehouse Management.
+description: In dit artikel wordt beschreven hoe u aangepaste instructies kunt aanmaken en weergeven voor elke stap van elke taakstroom die u hebt ingesteld voor de mobiele app van Warehouse Management.
 author: Mirzaab
 ms.date: 08/11/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ffd433427b2c5011740a7ee54c93713689945df3
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 289a3735133919ae7dbad05c40ba9ccf0e8f57ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902242"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895491"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>Staptitels en instructies aanpassen voor de mobiele app Warehouse Management
 
 > [!IMPORTANT]
-> De functies die in dit onderwerp worden beschreven, zijn alleen van toepassing op de nieuwe mobiele app van Warehouse Management. Deze hebben geen invloed op de oude magazijn-app, die nu is afgeschaft.
+> De functies die in dit artikel worden beschreven, zijn alleen van toepassing op de nieuwe mobiele app van Warehouse Management. Deze hebben geen invloed op de oude magazijn-app, die nu is afgeschaft.
 
-In dit onderwerp wordt beschreven hoe u aangepaste instructies kunt aanmaken en weergeven voor elke stap van elke taakstroom die u hebt ingesteld voor de mobiele app van Warehouse Management. Wanneer magazijnmedewerkers goed geschreven instructies ontvangen, kunnen ze onmiddellijk nieuwe taakstromen gaan gebruiken zonder dat er vooraf training nodig is. Deze functie biedt de volgende verbeteringen:
+In dit artikel wordt beschreven hoe u aangepaste instructies kunt aanmaken en weergeven voor elke stap van elke taakstroom die u hebt ingesteld voor de mobiele app van Warehouse Management. Wanneer magazijnmedewerkers goed geschreven instructies ontvangen, kunnen ze onmiddellijk nieuwe taakstromen gaan gebruiken zonder dat er vooraf training nodig is. Deze functie biedt de volgende verbeteringen:
 
 - **Werknemers sneller maken door ze eenvoudige instructies te laten volgen voor elke taakstap.** Elke stap in een stroom biedt eerstelijnsmedewerkers instructies, waardoor ze de taak begrijpen.
 - **Bied instructies die overeenkomen met uw eigen processen.** Schrijf uw eigen instructies die overeenkomen met uw bedrijfs- en magazijnprocessen. U kunt de terminologie bijvoorbeeld geschikt maken voor uw fysieke ruimte en lokale afkortingen.

@@ -1,6 +1,6 @@
 ---
-title: Medewerkers die verantwoordelijk zijn voor het goedkeuren van niet-conformeringen
-description: In dit onderwerp wordt beschreven hoe u werknemers configureert die verantwoordelijk zijn voor het goedkeuren van niet-conformeringen.
+title: Werknemers verantwoordelijk voor het goedkeuren van non-conformeringen
+description: In dit artikel wordt beschreven hoe u werknemers configureert die verantwoordelijk zijn voor het goedkeuren van niet-conformeringen.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5fd1c7c86ac8627bd332bc578e98b4d7f091cdc8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a108fc1f8954e32719c93656a64d1d27fda03fb6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575891"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907401"
 ---
-# <a name="workers-responsible-for-approving-nonconformances"></a>Medewerkers die verantwoordelijk zijn voor het goedkeuren van niet-conformeringen
+# <a name="workers-responsible-for-approving-nonconformances"></a>Werknemers verantwoordelijk voor het goedkeuren van non-conformeringen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u werknemers configureert die verantwoordelijk zijn voor het goedkeuren van niet-conformeringen.
+In dit artikel wordt beschreven hoe u werknemers configureert die verantwoordelijk zijn voor het goedkeuren van niet-conformeringen.
 
 Niet-conformeringen moeten worden goedgekeurd voordat gebruikers kunnen beginnen met het invoeren van details, zoals correcties of bewerkingen. Voordat gebruikers niet-conformeringen kunnen goedkeuren of afwijzen, moet hun gebruikers-id (gebruikersrecord) worden gekoppeld aan een werknemersrecord. U kunt desgewenst werknemers configureren die verantwoordelijk zijn voor de kwaliteit en vervolgens de ene werknemer toestaan om werk goed te keuren namens een andere werknemer.
 

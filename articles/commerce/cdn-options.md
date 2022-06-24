@@ -1,6 +1,6 @@
 ---
 title: Implementatieopties voor netwerk voor contentlevering
-description: In dit onderwerp worden de verschillende opties voor de implementatie van het netwerk voor contentlevering (Content Delivery Network - CDN) besproken die kunnen worden gebruikt in Microsoft Dynamics 365 Commerce-omgevingen. Deze opties omvatten oorspronkelijke, door Commerce geleverde exemplaren van Azure Front Door en exemplaren van Azure Front Door die eigendom zijn van klanten.
+description: In dit artikel worden de verschillende opties voor de implementatie van het netwerk voor contentlevering (Content Delivery Network - CDN) besproken die kunnen worden gebruikt in Microsoft Dynamics 365 Commerce-omgevingen. Deze opties omvatten oorspronkelijke, door Commerce geleverde exemplaren van Azure Front Door en exemplaren van Azure Front Door die eigendom zijn van klanten.
 author: BrianShook
 ms.date: 07/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 944123f3afe1c869c262da3997a73d8c60bbc366
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a63751d42ab98610904191f1c09794b2311b0189
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692720"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884412"
 ---
 # <a name="content-delivery-network-implementation-options"></a>Implementatieopties voor netwerk voor contentlevering
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp worden de verschillende opties voor de implementatie van het netwerk voor contentlevering (Content Delivery Network - CDN) besproken die kunnen worden gebruikt in Microsoft Dynamics 365 Commerce-omgevingen. Deze opties omvatten oorspronkelijke, door Commerce geleverde exemplaren van Azure Front Door en exemplaren van Azure Front Door die eigendom zijn van klanten.
+In dit artikel worden de verschillende opties voor de implementatie van het netwerk voor contentlevering (Content Delivery Network - CDN) besproken die kunnen worden gebruikt in Microsoft Dynamics 365 Commerce-omgevingen. Deze opties omvatten oorspronkelijke, door Commerce geleverde exemplaren van Azure Front Door en exemplaren van Azure Front Door die eigendom zijn van klanten.
 
 Commerce-klanten hebben verschillende mogelijkheden wanneer ze overwegen welke CDN-service met hun Commerce-omgeving moet worden gebruikt. Commerce wordt vrijgegeven met basisondersteuning voor Azure Front Door. Dit omvat basishosting en aangepaste domeinvereisten. Voor bedrijven die meer controle en specifiekere beveiligingsvaardigheden willen, zoals een WAF (Web Application Firewall), is de beste optie om een exemplaar van Azure Front Door dat eigendom is van een klant of een externe CDN-service te gebruiken.
 

@@ -1,6 +1,6 @@
 ---
-title: Nummerplaat ontvangen via de mobiele app voor Magazijnbeheer
-description: In dit onderwerp wordt uitgelegd hoe u de mobiele app Magazijnbeheer kunt instellen om het ontvangstproces met nummerplaat in de fysieke voorraad te ondersteunen.
+title: Nummerplaat ontvangen via de mobiele app Warehouse Management
+description: In dit artikel wordt uitgelegd hoe u de mobiele app Magazijnbeheer kunt instellen om het ontvangstproces met nummerplaat in de fysieke voorraad te ondersteunen.
 author: perlynne
 ms.date: 04/29/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6663188334c70035906f924c7850a0dc5002f306
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: fe083f16bd47b3f7bdfd366ae4b0fe4a02f49185
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103058"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906995"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Nummerplaat ontvangen via de mobiele app voor Magazijnbeheer
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Nummerplaat ontvangen via de mobiele app Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u de mobiele app Magazijnbeheer kunt instellen om het ontvangstproces met nummerplaat in de fysieke voorraad te ondersteunen.
+In dit artikel wordt uitgelegd hoe u de mobiele app Magazijnbeheer kunt instellen om het ontvangstproces met nummerplaat in de fysieke voorraad te ondersteunen.
 
 Met deze functie kunt u snel de ontvangst van de inkomende voorraad vastleggen die is gerelateerd aan een voorschotbericht (advance shipping notice, ASN). Het systeem maakt automatisch een ASN wanneer magazijnbeheerprocessen worden gebruikt om een overboekingsorder te verzenden. Voor het inkooporderproces kan een ASN handmatig worden vastgelegd of kan deze automatisch worden geïmporteerd met behulp van een inkomend ASN-gegevensentiteitproces.
 

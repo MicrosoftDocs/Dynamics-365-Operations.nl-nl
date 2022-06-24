@@ -1,6 +1,6 @@
 ---
 title: Aan de slag met Planningsoptimalisatie
-description: In dit onderwerp wordt uitgelegd hoe u aan de slag gaat met de functionaliteit Planningsoptimalisatie.
+description: In dit artikel wordt uitgelegd hoe u aan de slag gaat met de functionaliteit Planningsoptimalisatie.
 author: t-benebo
 ms.date: 05/20/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a08128f9529e576294181bd70134b02caae54b90
-ms.sourcegitcommit: 5130446fd5327595b2d67e67cbd1b5661bb2983c
+ms.openlocfilehash: b9595aece264f55c706ebc84010b927fae56b512
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648704"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900965"
 ---
 # <a name="get-started-with-planning-optimization"></a>Aan de slag met Planningsoptimalisatie
 
@@ -99,7 +99,7 @@ De verbindingsstatus geeft de huidige status aan van de verbinding tussen Supply
 |---|---|---|
 | Verbonden | Er is een verbinding tot stand gebracht tussen de service Planningsoptimalisatie en Supply Chain Management. | Ja |
 | Verbinding wordt ingeschakeld | Een aanvraag om de verbinding met de service Planningsoptimalisatie in te schakelen, wordt momenteel uitgevoerd. | Nee |
-| Niet verbonden | Er is geen verbinding met de service Planningsoptimalisatie. De verbinding kan worden ingeschakeld vanuit LCS, zoals eerder in dit onderwerp is beschreven. | Nee |
+| Niet verbonden | Er is geen verbinding met de service Planningsoptimalisatie. De verbinding kan worden ingeschakeld vanuit LCS, zoals eerder in dit artikel is beschreven. | Nr. |
 | Verbinding wordt uitgeschakeld | Een aanvraag om de verbinding met de service Planningsoptimalisatie uit te schakelen, wordt momenteel uitgevoerd. | Nee |
 | Status ophalen | Het systeem wacht op statusinformatie van de service Planningsoptimalisatie. | Nee |
 

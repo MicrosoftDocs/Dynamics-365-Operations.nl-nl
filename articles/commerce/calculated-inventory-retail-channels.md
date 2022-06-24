@@ -1,6 +1,6 @@
 ---
 title: Voorraadbeschikbaarheid voor retail-kanalen berekenen
-description: In dit onderwerp wordt beschreven hoe een bedrijf Microsoft Dynamics 365 Commerce kan gebruiken om de geschatte beschikbaarheid van voorhanden voorraad te bekijken voor producten in de online- en winkelkanalen.
+description: In dit artikel wordt beschreven hoe een bedrijf Microsoft Dynamics 365 Commerce kan gebruiken om de geschatte beschikbaarheid van voorhanden voorraad te bekijken voor producten in de online- en winkelkanalen.
 author: hhainesms
 ms.date: 09/01/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 1b1e0ea264dd74f6583d3b7fd3ecce551c73fbae
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 952acf4cc26815822436bb7a5117775a5f12200c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674670"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884106"
 ---
-# <a name="calculate-inventory-availability-for-retail-channels"></a>Voorraadbeschikbaarheid voor Retail-kanalen berekenen
+# <a name="calculate-inventory-availability-for-retail-channels"></a>Voorraadbeschikbaarheid voor retail-kanalen berekenen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe een bedrijf Microsoft Dynamics 365 Commerce kan gebruiken om de geschatte beschikbaarheid van voorhanden voorraad te bekijken voor producten in de online- en winkelkanalen.
+In dit artikel wordt beschreven hoe een bedrijf Microsoft Dynamics 365 Commerce kan gebruiken om de geschatte beschikbaarheid van voorhanden voorraad te bekijken voor producten in de online- en winkelkanalen.
 
 ## <a name="accuracy-of-inventory-availability"></a>Nauwkeurigheid van voorraadbeschikbaarheid
 

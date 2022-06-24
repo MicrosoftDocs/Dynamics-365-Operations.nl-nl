@@ -1,6 +1,6 @@
 ---
 title: Speciale betalingsterminals en -prompts voor een printer en kassalade
-description: Dit onderwerp biedt informatie over de mogelijkheid om een speciale betalingsterminal te hebben en de gebruiker te vragen om een kassalade en een kassabonprinter te selecteren.
+description: Dit artikel biedt informatie over de mogelijkheid om een speciale betalingsterminal te hebben en de gebruiker te vragen om een kassalade en een kassabonprinter te selecteren.
 author: BrianShook
 ms.date: 05/20/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: b955e55271471ac43ff4c2b217c6448b30536e06
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 7c010448e43bbfb1f949508ce1b62bd07f3107e1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779765"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874916"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Speciale betalingsterminals en -prompts voor een printer en kassalade
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp biedt informatie over de mogelijkheid om een speciale betalingsterminal te hebben en de gebruiker te vragen om een kassalade en een kassabonprinter te selecteren.
+Dit artikel biedt informatie over de mogelijkheid om een speciale betalingsterminal te hebben en de gebruiker te vragen om een kassalade en een kassabonprinter te selecteren.
 
 ## <a name="overview"></a>Overzicht
 
@@ -46,7 +46,7 @@ Microsoft Dynamics 365 Commerce ondersteunt deze trends door een scenario mogeli
 
 ## <a name="supported-pos-clients-and-devices"></a>Ondersteunde POS-clients en -apparaten
 
-De functionaliteit die in dit onderwerp wordt beschreven, wordt ondersteund door de clients Modern POS voor Windows en Modern POS voor Android.
+De functionaliteit die in dit artikel wordt beschreven, wordt ondersteund door de clients Modern POS voor Windows en Modern POS voor Android.
 
 Deze functie ondersteunt netwerkbetalingsterminals en kassabonprinters. U kunt ondersteuning voor kassalades bieden door de kassalade via de d/k-poort aan de netwerkprinter voor kassabonnen te koppelen.
 

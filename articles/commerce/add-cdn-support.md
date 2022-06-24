@@ -1,6 +1,6 @@
 ---
-title: Ondersteuning voor een CDN (contentleveringsnetwerk) toevoegen
-description: In dit onderwerp wordt beschreven hoe u een CDN (Content Delivery Network) toevoegt aan uw Microsoft Dynamics 365 Commerce-omgeving.
+title: Ondersteuning voor een CDN (netwerk voor contentlevering) toevoegen
+description: In dit artikel wordt beschreven hoe u een CDN (Content Delivery Network) toevoegt aan uw Microsoft Dynamics 365 Commerce-omgeving.
 author: brianshook
 ms.date: 03/17/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: caed13c37c9043a2acea751c8a8b15261f26ecb2e10b6e64c0ce50f6ce9a68de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2ed8f66d447e1d9e890c0885fd20e9b55c66ac0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722049"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855871"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Ondersteuning voor een CDN (netwerk voor contentlevering) toevoegen
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u een CDN (Content Delivery Network) toevoegt aan uw Microsoft Dynamics 365 Commerce-omgeving.
+In dit artikel wordt beschreven hoe u een CDN (Content Delivery Network) toevoegt aan uw Microsoft Dynamics 365 Commerce-omgeving.
 
 Wanneer u een e-commerce-omgeving instelt in Dynamics 365 Commerce, kunt u deze configureren om met uw CDN-service te werken. 
 
@@ -60,7 +60,7 @@ Het CDN-installatieproces bestaat uit de volgende algemene stappen:
 
 ### <a name="add-a-front-end-host"></a>Een front-endhost toevoegen
 
-U kunt elke CDN-service gebruiken, maar voor het voorbeeld in dit onderwerp wordt de Azure Front Door Service gebruikt. 
+U kunt elke CDN-service gebruiken, maar voor het voorbeeld in dit artikel wordt de Azure Front Door Service gebruikt. 
 
 Voor informatie over het instellen van de Azure Front Door Service raadpleegt u [Beknopte gids voor Front Door Service voor een algemene webtoepassing met hoge beschikbaarheid](/azure/frontdoor/quickstart-create-front-door).
 
@@ -101,7 +101,7 @@ Voer de volgende stappen uit om een regel voor doorsturen in te stellen in de Az
 
 
 > [!WARNING]
-> Als het domein dat u gaat gebruiken al actief en live is, maakt u een ondersteuningsticket vanuit de tegel **Ondersteuning** in [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) om hulp te krijgen bij uw volgende stappen. Zie [Ondersteuning voor Finance and Operations-apps of Lifecycle Services (LCS) krijgen voor meer informatie](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
+> Als het domein dat u gaat gebruiken al actief en live is, maakt u een ondersteuningsticket vanuit de tegel **Ondersteuning** in [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) om hulp te krijgen bij uw volgende stappen. Zie [Ondersteuning krijgen voor apps voor financiële en bedrijfsactiviteiten of Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md) voor meer informatie.
 
 Als uw domein nieuw is en geen reeds bestaand live domein is, kunt u uw aangepaste domein toevoegen aan de configuratie voor de Azure Front Door Service. Hierdoor wordt webverkeer via het Azure Front Door-exemplaar naar uw site geleid. Als u het aangepaste domein wilt toevoegen (bijvoorbeeld `www.fabrikam.com`), moet u een canonieke naam (CNAME) voor het domein configureren.
 

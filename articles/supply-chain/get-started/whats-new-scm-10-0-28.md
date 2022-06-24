@@ -1,6 +1,6 @@
 ---
 title: Preview van Dynamics 365 Supply Chain Management 10.0.28 (augustus 2022)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management 10.0.28.
+description: In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management 10.0.28.
 author: kamaybac
 ms.date: 05/27/2022
 ms.topic: article
@@ -10,19 +10,19 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 306ff9be80c7a7a947b9132e3c9b4b9ec799b265
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: 2b129481399897337e960ec2d708d69a563b5435
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8813071"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902048"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10028-august-2022"></a>Preview van Dynamics 365 Supply Chain Management 10.0.28 (augustus 2022)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management, previewversie 10.0.28. Deze versie heeft het buildnummer 10.0.1264 en is beschikbaar volgens de onderstaande planning:
+In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management, previewversie 10.0.28. Deze versie heeft het buildnummer 10.0.1264 en is beschikbaar volgens de onderstaande planning:
 
 - **Preview van versie:** mei 2022
 - **Algemene beschikbaarheid van versie (zelfupdate):** juli 2022
@@ -30,15 +30,14 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Mi
 
 ## <a name="features-included-in-this-release"></a>Functies in deze versie
 
-De volgende tabel vermeldt de functies die deze versie bevat. Mogelijk wordt dit onderwerp gewijzigd om functies op te nemen die zijn toegevoegd na de oorspronkelijke publicatie van dit onderwerp.
+De volgende tabel vermeldt de functies die deze versie bevat. Mogelijk wordt dit artikel gewijzigd om functies op te nemen die zijn toegevoegd na de oorspronkelijke publicatie van dit artikel.
 
 | Functiegebied | Functie | Meer informatie | Ingeschakeld door   |
 |---|---|---|---|
 | Voorraad en logistiek | [Entiteiten voor integratie van francoprijzen voor externe expediteurs](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/landed-cost-integration-third-party-freight-forwarders) | [Overzicht van entiteiten voor francoprijzen](../landed-cost/landed-cost-entities-overview.md) | Standaard ingeschakeld |
-| Planning | [Planningsoptimalisatie-ondersteuning voor houdbaarheid](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | Binnenkort beschikbaar <!-- KFM: Vendor is preparing this. Expected May 20. --> | Standaard ingeschakeld |
-
-<!-- KFM: Confirm status of this feature:
-| Planning | [Demand Driven Material Requirements Planning (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | Coming soon | Feature management:<br>*(Preview) DDMRP for Planning Optimization* | -->
+| Planning | [DDMRP (Demand Driven Material Requirements Planning)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | Binnenkort beschikbaar | Functiebeheer:<br>*(Preview) DDMRP voor Planningsoptimalisatie* |
+| Planning | [Planningsoptimalisatie-ondersteuning voor CTP (Capable to Promise)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | Binnenkort beschikbaar | Functiebeheer:<br>*(Preview) CTP voor Planningsoptimalisatie* |
+| Planning | [Planningsoptimalisatie-ondersteuning voor houdbaarheid](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | Binnenkort beschikbaar | Standaard ingeschakeld |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Functieverbeteringen in deze versie
 
@@ -56,9 +55,9 @@ Als u een van deze functies wilt in- of uitschakelen, moet u dat doen in [Functi
 
 ## <a name="new-and-updated-documentation-resources"></a>Nieuwe en bijgewerkte documentatiebronnen
 
-De volgende Help-onderwerpen zijn onlangs toegevoegd of ingrijpend bijgewerkt. Deze onderwerpen hoeven niet te zijn gerelateerd aan de nieuwe functies die voor deze versie zijn toegevoegd, zoals in de vorige secties is vermeld. Deze kunnen u echter helpen meer uit bestaande functies te halen.
+De volgende Help-artikelen zijn onlangs toegevoegd of ingrijpend bijgewerkt. Deze artikelen hoeven niet te zijn gerelateerd aan de nieuwe functies die voor deze versie zijn toegevoegd, zoals in de vorige secties is vermeld. Deze kunnen u echter helpen meer uit bestaande functies te halen.
 
-| Functiegebied | Nieuwe of bijgewerkte onderwerpen |
+| Functiegebied | Nieuwe of bijgewerkte artikelen |
 |---|---|
 | Kostenbeheer | [Vaste ontvangstprijs](../cost-management/fixed-receipt-price.md) |
 | Kostenbeheer | [Veelgestelde vragen over kostprijsberekening van de voorraad](../cost-management/inventory-costing-faq.md) |
@@ -69,7 +68,7 @@ De volgende Help-onderwerpen zijn onlangs toegevoegd of ingrijpend bijgewerkt. D
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformupdates voor apps voor financiële en bedrijfsactiviteiten
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.28 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.28 van apps voor financiële en bedrijfsactiviteiten (juni 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-28.md).<!-- KFM Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.28 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.28 van apps voor financiële en bedrijfsactiviteiten (juni 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-28.md).
 
 ### <a name="bug-fixes"></a>Correcties
 
@@ -83,12 +82,12 @@ Bekijk de [Dynamics 365- en bedrijfsclouds: releasewave 1-plan van 2022](/dynami
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Verwijderde en afgeschafte functies voor Supply Chain Management
 
-In het onderwerp [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) worden functies beschreven die zijn of worden verwijderd voor Supply Chain Management.
+In het artikel [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) worden functies beschreven die zijn of worden verwijderd voor Supply Chain Management.
 
 - Een *verwijderde* functie is niet langer beschikbaar in het product.
 - Een *afgeschafte* functie wordt niet meer actief ontwikkeld en kan in een toekomstige update worden verwijderd.
 
-Twaalf maanden voordat een functie uit het product wordt verwijderd, wordt de afschaffing aangekondigd in het onderwerp [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md).
+Twaalf maanden voordat een functie uit het product wordt verwijderd, wordt de afschaffing aangekondigd in het artikel [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md).
 
 Voor ingrijpende wijzigingen die alleen van invloed zijn op de compilatietijd, maar binair compatibel zijn met sandbox- en productieomgevingen, is de afschaffingstijd korter dan 12 maanden. Meestal zijn dit functionele updates die moeten worden doorgevoerd in de compiler.
 

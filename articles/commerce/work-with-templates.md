@@ -1,6 +1,6 @@
 ---
 title: Werken met sjablonen
-description: In dit onderwerp wordt beschreven hoe u werkt met sjablonen in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt beschreven hoe u werkt met sjablonen in Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 02/03/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ab6ccfac96249b39cb007d9a9fce10475f0c7149
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: c234ddb0cdc212bead4f722f7881fbf21d608675
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090789"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881574"
 ---
 # <a name="work-with-templates"></a>Werken met sjablonen
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u werkt met sjablonen in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt beschreven hoe u werkt met sjablonen in Microsoft Dynamics 365 Commerce.
 
 Zoals wordt besproken in [Overzicht sjablonen en indelingen](templates-layouts-overview.md), wordt met sjablonen de set opties bepaald die beschikbaar zijn voor auteurs. Sjablonen zijn om verschillende redenen nuttig voor het webontwerpteam van een onderneming. Goed gestructureerde sjablonen helpen bij alle volgende doelstellingen:
 

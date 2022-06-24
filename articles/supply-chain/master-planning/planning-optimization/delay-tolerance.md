@@ -1,6 +1,6 @@
 ---
 title: Vertragingstolerantie (negatieve dagen)
-description: Dit onderwerp bevat informatie over de berekening van vertragingstolerantie en over het effect ervan op het maken van geplande orders in Planningsoptimalisatie.
+description: Dit artikel bevat informatie over de berekening van vertragingstolerantie en over het effect ervan op het maken van geplande orders in Planningsoptimalisatie.
 author: t-benebo
 ms.date: 07/30/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a333048e1c30ab7bdb1b5d4af817cb1561c1212a
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 4bd6042f9dd33ba15773b251911e965cb870c5aa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468604"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865116"
 ---
 # <a name="delay-tolerance-negative-days"></a>Vertragingstolerantie (negatieve dagen)
 

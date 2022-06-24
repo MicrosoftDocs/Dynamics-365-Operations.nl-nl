@@ -1,6 +1,6 @@
 ---
 title: Visuele planning voor lean manufacturing
-description: In dit onderwerp vindt u informatie over het kanbanplanningsbord. Dit kan de productieplanner gebruiken om het productieplan voor kanbantaken te optimaliseren aan te sturen en te optimaliseren.
+description: In dit artikel vindt u informatie over het kanbanplanningsbord. Dit kan de productieplanner gebruiken om het productieplan voor kanbantaken te optimaliseren aan te sturen en te optimaliseren.
 author: johanhoffmann
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af5803793a4874ee73f943d0f059047458c37dc48b7d3276dadc8d8803599fb9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a743be96867c1f325e6fe01f23355c27cb4d0cc0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764807"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875183"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Visuele planning voor lean manufacturing
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp vindt u informatie over het kanbanplanningsbord. Dit kan de productieplanner gebruiken om het productieplan voor kanbantaken te optimaliseren aan te sturen en te optimaliseren.
+In dit artikel vindt u informatie over het kanbanplanningsbord. Dit kan de productieplanner gebruiken om het productieplan voor kanbantaken te optimaliseren aan te sturen en te optimaliseren.
 
-In dit onderwerp vindt u informatie over het kanbanplanningsbord. Dit kan de productieplanner gebruiken om het productieplan voor kanbantaken te optimaliseren aan te sturen en te optimaliseren.
+In dit artikel vindt u informatie over het kanbanplanningsbord. Dit kan de productieplanner gebruiken om het productieplan voor kanbantaken te optimaliseren aan te sturen en te optimaliseren.
 
 Met het kanbanplanningsbord kan de productieplanner het productieplan voor kanbantaken aansturen en optimaliseren. Dit maakt de stroom van kanbantaken transparant en biedt de productieplanner een tool dat het productieplan voor voor de lean manufacturing-werkcel optimaliseert en aanpast.
 

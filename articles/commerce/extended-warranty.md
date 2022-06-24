@@ -1,6 +1,6 @@
 ---
 title: Uitgebreide garanties maken en configureren
-description: In dit onderwerp wordt beschreven wat uitgebreide garanties zijn en hoe u ze maakt en configureert in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt beschreven wat uitgebreide garanties zijn en hoe u ze maakt en configureert in Microsoft Dynamics 365 Commerce.
 author: sijoshi
 ms.date: 06/08/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 772dc1fdda7c34448ffa946237f717e657df6d83d8fda9336049e79d19ed1af0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9ed9851a9609e8a87ae0ffadc5cdd20c03fa17ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745375"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886979"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Uitgebreide garanties maken en configureren
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven wat uitgebreide garanties zijn en hoe u ze maakt en configureert in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt beschreven wat uitgebreide garanties zijn en hoe u ze maakt en configureert in Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Overzicht
 

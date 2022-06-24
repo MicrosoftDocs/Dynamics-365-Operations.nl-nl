@@ -1,6 +1,6 @@
 ---
 title: Samenwerking met leveranciers instellen en onderhouden
-description: In dit onderwerp wordt uitgelegd hoe u leverancierssamenwerking instelt voor Dynamics 365 Supply Chain Management. Daarnaast wordt uitgelegd hoe u nieuwe gebruikers voor leverancierssamenwerking kunt inrichten en de beveiligingsrollen voor deze gebruikers kunt beheren.
+description: In dit artikel wordt uitgelegd hoe u leverancierssamenwerking instelt voor Dynamics 365 Supply Chain Management. Daarnaast wordt uitgelegd hoe u nieuwe gebruikers voor leverancierssamenwerking kunt inrichten en de beveiligingsrollen voor deze gebruikers kunt beheren.
 author: GalynaFedorova
 ms.date: 12/03/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4b59513d86426d3c1bfd759b9aabc331e58d5423
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8fe4731f8ff23f4abe25fce57a2325e1fca979c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677557"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890823"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>Samenwerking met leveranciers instellen en onderhouden
 
@@ -28,7 +28,7 @@ ms.locfileid: "8677557"
 
 De interface voor leverancierssamenwerking biedt gebruikers die externe leveranciers zijn, beperkte informatie over inkooporders, facturen en de consignatievoorraad. Via deze interface kan een leverancier ook antwoorden op offerteaanvragen en basisbedrijfsgegevens weergeven en bewerken.
 
-In dit onderwerp wordt uitgelegd hoe u leverancierssamenwerking instelt voor Dynamics 365 Supply Chain Management. Daarnaast wordt uitgelegd hoe u een werkstroom kunt instellen om nieuwe gebruikers voor leverancierssamenwerking in te richten en hoe u de beveiligingsrollen voor deze gebruikers kunt beheren.
+In dit artikel wordt uitgelegd hoe u leverancierssamenwerking instelt voor Dynamics 365 Supply Chain Management. Daarnaast wordt uitgelegd hoe u een werkstroom kunt instellen om nieuwe gebruikers voor leverancierssamenwerking in te richten en hoe u de beveiligingsrollen voor deze gebruikers kunt beheren.
 
 > [!NOTE]
 > De informatie over het instellen van beveiligingsrollen voor leverancierssamenwerking is alleen van toepassing op de huidige versie van Finance + Operations. In Microsoft Dynamics AX 7.0 (februari 2016) en Microsoft Dynamics AX toepassingsversie 7.0.1 (mei 2016) werkt u met leveranciers samen via de module **Leveranciersportal**. Informatie over gebruikersmachtigingen voor de leveranciersportal in Microsoft Dynamics AX vindt u in [Gebruikersbeveiliging leveranciersportal](configure-security-vendor-portal-users.md).
@@ -77,7 +77,7 @@ De rol **Leverancier (extern)** kan worden gebruikt voor externe leveranciers di
 
 ## <a name="set-up-security-roles-that-are-used-when-prospective-vendors-are-onboarded"></a>Beveiligingsrollen instellen die worden gebruikt bij het onboarden van potentiële leveranciers
 
-Als u leveranciers wilt onboarden waarvoor een aanvraag voor registratie van een potentiële leverancier is ingediend, moet u een externe beveiligingsrol instellen. Deze rol wordt aan nieuwe gebruikers toegewezen tijdens het inrichtingsproces dat wordt geregeld door de werkstroom van het type **Werkstroom gebruikersaanvragen (platform)**. Zie voor meer informatie de sectie [Werkstromen instellen voor het verwerken van gebruikersaanvragen voor leverancierssamenwerking](#set-up-workflows-to-process-vendor-collaboration-user-requests) verderop in dit onderwerp.
+Als u leveranciers wilt onboarden waarvoor een aanvraag voor registratie van een potentiële leverancier is ingediend, moet u een externe beveiligingsrol instellen. Deze rol wordt aan nieuwe gebruikers toegewezen tijdens het inrichtingsproces dat wordt geregeld door de werkstroom van het type **Werkstroom gebruikersaanvragen (platform)**. Zie voor meer informatie de sectie [Werkstromen instellen voor het verwerken van gebruikersaanvragen voor leverancierssamenwerking](#set-up-workflows-to-process-vendor-collaboration-user-requests) verderop in dit artikel.
 
 Zie [Leveranciers onboarden](vendor-onboarding.md) voor meer informatie over het onboarden van potentiële leveranciers.
 

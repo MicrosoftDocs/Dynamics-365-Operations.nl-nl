@@ -1,6 +1,6 @@
 ---
 title: Uitbreidbaarheid van Planningsoptimalisatie
-description: In dit onderwerp worden de uitbreidbaarheidsscenario's beschreven die in Planningsoptimalisatie worden ondersteund.
+description: In dit artikel worden de uitbreidbaarheidsscenario's beschreven die in Planningsoptimalisatie worden ondersteund.
 author: t-benebo
 ms.date: 08/05/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: d7e39c9ecd1dc1a101e219764e8f4457bb06ff7a
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 7d649110959e6bcfdaeb32dd53c55dbc446ed1be
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468883"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857539"
 ---
 # <a name="planning-optimization-extensibility"></a>Uitbreidbaarheid van Planningsoptimalisatie
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp worden de uitbreidbaarheidsscenario's beschreven die in Planningsoptimalisatie worden ondersteund. Deze mogelijkheden zijn beschikbaar vanaf Microsoft Dynamics 365 Supply Chain Management versie 10.0.13.
+In dit artikel worden de uitbreidbaarheidsscenario's beschreven die in Planningsoptimalisatie worden ondersteund. Deze mogelijkheden zijn beschikbaar vanaf Microsoft Dynamics 365 Supply Chain Management versie 10.0.13.
 
 ## <a name="custom-processing-when-master-planning-is-completed"></a>Aangepaste verwerking wanneer de hoofdplanning wordt voltooid
 

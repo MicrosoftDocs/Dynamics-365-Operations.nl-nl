@@ -1,6 +1,6 @@
 ---
 title: Uitbesteed werk in productie beheren
-description: 'In dit onderwerp wordt uitgelegd hoe uitbestede bewerkingen worden beheerd in Dynamics 365 Supply Chain Management. Met andere woorden: hierin wordt uitgelegd hoe de productiebewerkingen die zijn toegewezen aan een resource, worden beheerd door een leverancier.'
+description: 'In dit artikel wordt uitgelegd hoe uitbestede bewerkingen worden beheerd in Dynamics 365 Supply Chain Management. Met andere woorden: hierin wordt uitgelegd hoe de productiebewerkingen die zijn toegewezen aan een resource, worden beheerd door een leverancier.'
 author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e80efc751ccf9243163d23ed48fd17923326f89
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a0021d409f9f4a9b36effbd80a99766812572d5b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579374"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863790"
 ---
 # <a name="manage-subcontracting-work-in-production"></a>Uitbesteed werk in productie beheren
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe uitbestede bewerkingen worden beheerd in Dynamics 365 Supply Chain Management. Met andere woorden: hierin wordt uitgelegd hoe de productiebewerkingen die zijn toegewezen aan een resource, worden beheerd door een leverancier.
+In dit artikel wordt uitgelegd hoe uitbestede bewerkingen worden beheerd in Dynamics 365 Supply Chain Management. Met andere woorden: hierin wordt uitgelegd hoe de productiebewerkingen die zijn toegewezen aan een resource, worden beheerd door een leverancier.
 
 In [productieprocessen](production-process-overview.md) kunnen werkzaamheden worden uitgevoerd door resources die eigendom zijn van leveranciers of die door leveranciers worden beheerd. Leveranciersresources worden meestal gebruikt voor het nivelleren van periodiek excessieve vraag die de beschikbare capaciteit van de eigen resources van een bedrijf overschrijdt. De leverancier kan mogelijk ook specifieke [resourcemogelijkheden](resource-capabilities.md) of resources tegen een lagere prijs aanbieden.  
 
@@ -63,7 +63,7 @@ Wanneer deze configuratie wordt gebruikt, wordt er een inkooporder gemaakt voor 
 Een productieorder kan vele bewerkingen hebben en elke bewerking kan worden toegewezen aan een andere leverancier. Een end-to-end productieorder kan daarom meerdere inkooporders activeren.
 
 ## <a name="subcontracting-of-production-flow-activities"></a>Uitbesteding van productiestroomactiviteiten
-In de [lean manufacturing](lean-manufacturing-overview.md)-oplossing wordt het uitbestede werk gemodelleerd als een service die is gerelateerd aan een activiteit van een [productiestroom](tasks/create-production-flow-version.md) (Taakbegeleider-onderwerp). Daarom kan naar dit soort uitbesteding ook worden verwezen als [uitbesteding op basis van een activiteit.](activity-based-subcontracting.md) Er is een speciaal soort kostengroeptype met de naam **Rechtstreekse uitbesteding** geïntroduceerd en de uitbestedingsservices maken geen deel uit van de stuklijst van de eindproducten. Wanneer u lean manufacturing gebruikt, worden alle activiteiten gedefinieerd door kanbans die kunnen worden gekoppeld aan een of meer productiestroomactiviteiten. Tot nu toe lijkt die uitleg op de uitleg van productieorders. Maar terwijl productieorders altijd met een eindproduct eindigen, kunt u kanbans maken om een halffabricaat te leveren. U hoeft geen nieuw product en stuklijstniveau te introduceren.  
+In de [lean manufacturing](lean-manufacturing-overview.md)-oplossing wordt het uitbestede werk gemodelleerd als een service die is gerelateerd aan een activiteit van een [productiestroom](tasks/create-production-flow-version.md) (Taakbegeleider-artikel). Daarom kan naar dit soort uitbesteding ook worden verwezen als [uitbesteding op basis van een activiteit.](activity-based-subcontracting.md) Er is een speciaal soort kostengroeptype met de naam **Rechtstreekse uitbesteding** geïntroduceerd en de uitbestedingsservices maken geen deel uit van de stuklijst van de eindproducten. Wanneer u lean manufacturing gebruikt, worden alle activiteiten gedefinieerd door kanbans die kunnen worden gekoppeld aan een of meer productiestroomactiviteiten. Tot nu toe lijkt die uitleg op de uitleg van productieorders. Maar terwijl productieorders altijd met een eindproduct eindigen, kunt u kanbans maken om een halffabricaat te leveren. U hoeft geen nieuw product en stuklijstniveau te introduceren.  
 
 Omdat kanbanregels zeer dynamisch kunnen zijn, kunt u verschillende varianten van levering modelleren voor hetzelfde product in een productiestroom. Wanneer u lean-uitbesteding gebruikt, worden de materiaalstroom en de financiële stroom strikt gescheiden. De hele materiaalstroom wordt vertegenwoordigd door kanbanactiviteiten. De inkooporders voor de serviceproducten en de boekingen van de ontvangst van deze services kunnen worden geautomatiseerd op basis van de status van kanbantaken in de productiestroom. Kanbantaken kunnen worden gestart en voltooid voordat de inkooporders worden gemaakt. Per periode en service kunnen de uitbestedingsdocumenten (inkooporder en inkoopontvangst van de service) worden samengevoegd. Daarom kan het aantal inkoopdocumenten en regels klein worden gehouden, zelfs in bewerkingen die heel vaak worden herhaald, waarbij leveranciers uitbestede services in een stroom voor één stuk leveren.
 

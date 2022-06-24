@@ -1,6 +1,6 @@
 ---
 title: Kostprijsberekening via terugwaarts afboeken
-description: In dit onderwerp wordt het concept van kostprijsberekening via terugwaarts afboeken geïntroduceerd dat wordt gebruikt voor Lean manufacturing.
+description: In dit artikel wordt het concept van kostprijsberekening via terugwaarts afboeken geïntroduceerd dat wordt gebruikt voor Lean manufacturing.
 author: JennySong-SH
 ms.date: 04/10/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: a5b0ac26a1f6b209be7c9d52aaad9bb689a8a656
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 33cb7bf70d8867ccd067144e661c3bdf1c0b778d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674021"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906090"
 ---
 # <a name="backflush-costing"></a>Kostprijsberekening via terugwaarts afboeken
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt het concept van kostprijsberekening via terugwaarts afboeken geïntroduceerd dat wordt gebruikt voor Lean manufacturing. 
+In dit artikel wordt het concept van kostprijsberekening via terugwaarts afboeken geïntroduceerd dat wordt gebruikt voor Lean manufacturing. 
 
 Bij kostprijsberekening voor Lean manufacturing kan de productiestroom gebruikmaken van de kostenaccumulatiemethode die bekend staat als kostprijsberekening via terugwaarts afboeken. Bij de methode van kostprijsberekening via terugwaarts afboeken worden de directe materialen die worden verbruikt bij elkaar opgeteld in de kostenrekening voor onderhanden werk (OHW) van de productiestroom. Er wordt gebruikgemaakt van de voorraadmodelgroep voor standaardkosten. De producten die worden ontvangen van de productiestroom worden afgetrokken van het OHW tegen standaardkostprijs. Het belangrijkste verschil tussen de kostprijsberekening via terugwaarts afboeken en standaardkosten is dat afwijkingen voor kostprijsberekening via terugwaarts afboeken niet worden berekend per kanban of eindproduct. In plaats daarvan worden afwijkingen per productiestroom berekend gedurende een periode. Deze methode introduceert een echt lean concept voor het melden van materiaalverbruik. Specifiek verzamelde hoeveelheid materiaal worden niet aan een kanban of productieorder gerapporteerd. In plaats daarvan worden volledige batches of materiaalverwerkingseenheden klaargezet voor de productiestroom. Nadat de batches of materiaalverwerkingseenheden als leeg zijn geregistreerd, worden zij als verbruikt verklaard. Mogelijk wordt gebruikgemaakt van geavanceerd verbruik, afhankelijk van de [configuratie van de productiestroom](../production-control/lean-manufacturing-modeling-lean-organization.md). Voordat gebruik kan worden gemaakt van geavanceerd verbruik, moeten organisaties zichzelf toestaan dat materiaal kan verdwijnen in het OHW van de productiestroom. De periodieke kostprijsberekening via terugwaarts afboeken bepaalt de effectieve waarde van OHW naar het einde van de periode. Deze bepaling is gebaseerd op de kanban-materiaalverwerkingseenheden en de kanbantaakstatus. Afwijkingen tussen de daadwerkelijke waarden en de werkelijke OHW-waarden per kostengroep en artikel worden verwerkt en weergegeven als afwijkingen.
 

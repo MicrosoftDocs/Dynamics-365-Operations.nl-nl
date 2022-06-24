@@ -1,6 +1,6 @@
 ---
 title: Typen kritieke eigenschappen van activa
-description: In het onderwerp wordt uitgelegd hoe u typen kritieke eigenschappen van activa maakt in Activabeheer.
+description: In het artikel wordt uitgelegd hoe u typen kritieke eigenschappen van activa maakt in Activabeheer.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9edf55c22375a66fda04ae7ff76d7a0a191140e5ffb3a377b9ac1a7ba604a8d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cfde9a9bc681c0d758491fc5c361b5b046e20d9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776915"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899493"
 ---
 # <a name="asset-criticality-types"></a>Typen kritieke eigenschappen van activa
 
@@ -28,7 +28,7 @@ ms.locfileid: "6776915"
 
  
 
-In het onderwerp wordt uitgelegd hoe u typen kritieke eigenschappen van activa maakt in Activabeheer. Kritieke eigenschappen van activa zijn gerelateerd aan activa en worden overgebracht naar werkorders. Zij kunnen niet worden gewijzigd in een werkorder. Kritieke eigenschappen van activa worden gebruikt voor het berekenen van kritieke eigenschappen van een werkorder tijdens de planning van de werkorder. Met andere woorden, zij worden gebruikt om te berekenen in hoeverre een onderhoudstaak voor een activum van invloed is op het productieschema en de productiviteit in uw bedrijf. Zie [Parameters voor activabeheer](../setup-for-objects/enterprise-asset-management-parameters.md) voor meer informatie over de instellingen die zijn gerelateerd aan de berekening van beoordelingsscores voor de planning van werkorders.
+In het artikel wordt uitgelegd hoe u typen kritieke eigenschappen van activa maakt in Activabeheer. Kritieke eigenschappen van activa zijn gerelateerd aan activa en worden overgebracht naar werkorders. Zij kunnen niet worden gewijzigd in een werkorder. Kritieke eigenschappen van activa worden gebruikt voor het berekenen van kritieke eigenschappen van een werkorder tijdens de planning van de werkorder. Met andere woorden, zij worden gebruikt om te berekenen in hoeverre een onderhoudstaak voor een activum van invloed is op het productieschema en de productiviteit in uw bedrijf. Zie [Parameters voor activabeheer](../setup-for-objects/enterprise-asset-management-parameters.md) voor meer informatie over de instellingen die zijn gerelateerd aan de berekening van beoordelingsscores voor de planning van werkorders.
 
 Als u kritieke eigenschappen wilt instellen, maakt u eerst de typen kritieke eigenschappen die moeten worden gebruikt in de activa-instellingen. Vervolgens stelt u kritieke eigenschappen van activa in.
 

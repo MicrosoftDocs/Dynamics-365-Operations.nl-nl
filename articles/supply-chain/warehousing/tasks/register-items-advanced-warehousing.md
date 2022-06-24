@@ -1,6 +1,6 @@
 ---
 title: Artikelen registreren voor een artikel waarvoor geavanceerd magazijnbeheer mogelijk is met een artikelontvangstjournaal
-description: In dit onderwerp wordt een scenario gepresenteerd dat laat zien hoe u artikelen registreert via het artikelontvangstjournaal wanneer u de geavanceerde magazijnbeheerprocessen gebruikt.
+description: In dit artikel wordt een scenario gepresenteerd dat laat zien hoe u artikelen registreert via het artikelontvangstjournaal wanneer u de geavanceerde magazijnbeheerprocessen gebruikt.
 author: Mirzaab
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -14,22 +14,22 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e753897d1e21ffebbcbfac48abab4b0549c3553f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ac4a681484f0cd843ccd73633040f0fa0be0475e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565250"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863616"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Artikelen registreren voor een artikel waarvoor geavanceerd magazijnbeheer mogelijk is met een artikelontvangstjournaal
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt een scenario gepresenteerd dat laat zien hoe u artikelen registreert via het artikelontvangstjournaal wanneer u de geavanceerde magazijnbeheerprocessen gebruikt. Dit wordt gewoonlijk uitgevoerd door een ontvangstadministrateur.
+In dit artikel wordt een scenario gepresenteerd dat laat zien hoe u artikelen registreert via het artikelontvangstjournaal wanneer u de geavanceerde magazijnbeheerprocessen gebruikt. Dit wordt gewoonlijk uitgevoerd door een ontvangstadministrateur.
 
 ## <a name="enable-sample-data"></a>Voorbeeldgegevens inschakelen
 
-Als u dit scenario wilt doorwerken met behulp van de voorbeeldrecords en -waarden die in dit onderwerp zijn opgegeven, moet u een systeem gebruiken waarbij de standaarddemogegevens zijn geïnstalleerd en moet u de rechtspersoon *USMF* selecteren voordat u begint.
+Als u dit scenario wilt doorwerken met behulp van de voorbeeldrecords en -waarden die in dit artikel zijn opgegeven, moet u een systeem gebruiken waarbij de standaarddemogegevens zijn geïnstalleerd en moet u de rechtspersoon *USMF* selecteren voordat u begint.
 
 U kunt in plaats daarvan dit scenario doorwerken door waarden uit uw eigen gegevens te vervangen op voorwaarde dat u over de volgende gegevens beschikt:
 

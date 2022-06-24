@@ -1,6 +1,6 @@
 ---
-title: Module ophaalinformatie
-description: In dit onderwerp wordt beschreven wat de ophaalinformatiemodule is en hoe u deze toevoegt aan uitcheckpagina's in Microsoft Dynamics 365 Commerce.
+title: Module met afhaalinformatie
+description: In dit artikel wordt beschreven wat de ophaalinformatiemodule is en hoe u deze toevoegt aan uitcheckpagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 11/06/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 52015fb973642bfc6f45901e7c1a265f0ccfc415b1324bc62ef77a5fc72550bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad877a0c018093fe97f0aa8ac213357c0520a1c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764556"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892592"
 ---
 # <a name="pickup-information-module"></a>Module met afhaalinformatie
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven wat de ophaalinformatiemodule is en hoe u deze toevoegt aan uitcheckpagina's in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt beschreven wat de ophaalinformatiemodule is en hoe u deze toevoegt aan uitcheckpagina's in Microsoft Dynamics 365 Commerce.
 
 De module ophaalinformatie kan worden gebruikt in een uitcheckmodule om informatie over het ophalen van orders weer te geven. Klanten kunnen de beschikbare ophaaldatums en tijdvakken weergeven en vervolgens een geschikte tijd selecteren om de order op te halen. Een klant kan bijvoorbeeld kiezen om een order op te halen op 21 maart om 15.00 uur in de winkel in San Francisco.
 

@@ -1,6 +1,6 @@
 ---
 title: Conformiteit van cookie
-description: In dit onderwerp worden overwegingen voor compliance op het gebied van cookies en het standaardbeleid in Microsoft Dynamics 365 Commerce beschreven.
+description: In dit artikel worden overwegingen voor compliance op het gebied van cookies en het standaardbeleid in Microsoft Dynamics 365 Commerce beschreven.
 author: BrianShook
 ms.date: 03/10/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2efb866d513ba90630b0397c1ca144c92d40719c
-ms.sourcegitcommit: 4645278a4b4a38dcb18fdfb49ce2e276eabb59de
+ms.openlocfilehash: 6a96ba21f1872b41156768fb7277933e68a16d90
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "8403142"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863534"
 ---
 # <a name="cookie-compliance"></a>Conformiteit van cookie
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp worden overwegingen voor compliance op het gebied van cookies en het standaardbeleid in Microsoft Dynamics 365 Commerce beschreven.
+In dit artikel worden overwegingen voor compliance op het gebied van cookies en het standaardbeleid in Microsoft Dynamics 365 Commerce beschreven.
 
 Privacy is een belangrijke factor wanneer trackingtechnologieën worden gebruikt die invloed hebben op e-Commerce-klanten. Vanwege normen voor privacycompliance, zoals de AVG (Algemene Verordening Gegevensbescherming) in de EU (Europese Unie), moeten elektronische privacyrichtlijnen worden overwogen voor elke site die nu actief is. Omdat veel e-Commerce-sites standaard wereldwijd toegankelijk zijn, is het belangrijk dat u de compliancenormen voor uw e-Commerce-site controleert.
 

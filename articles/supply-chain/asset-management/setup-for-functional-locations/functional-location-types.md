@@ -1,6 +1,6 @@
 ---
-title: Functionele locatietypen
-description: In dit onderwerp wordt beschreven hoe u functionele locatietypen maakt in Activabeheer.
+title: Typen functionele locaties
+description: In dit artikel wordt beschreven hoe u functionele locatietypen maakt in Activabeheer.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 301dc838ed204ebe488dd167df75fc84131f235f64285c6ae99c62ee1188362c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01c8276d77f7655659cab13f3c520d7c171e3cfd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739150"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879216"
 ---
-# <a name="functional-location-types"></a>Functionele locatietypen
+# <a name="functional-location-types"></a>Typen functionele locaties
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-In dit onderwerp wordt beschreven hoe u functionele locatietypen maakt in Activabeheer. Functionele locatietypen worden gebruikt voor het beheren van vereisten voor functionele locaties, zoals hoe activa worden geïnstalleerd op een functionele locatie. U kunt vereisten instellen voor activumtypen, onderhoudsplannen, functionele locatiekenmerken en activakenmerken die moeten worden gebruikt op een functionele locatie die gebruikmaakt van het specifieke type functionele locatie. Wanneer u een functionele locatie maakt, is het functionele locatietype verplicht.
+In dit artikel wordt beschreven hoe u functionele locatietypen maakt in Activabeheer. Functionele locatietypen worden gebruikt voor het beheren van vereisten voor functionele locaties, zoals hoe activa worden geïnstalleerd op een functionele locatie. U kunt vereisten instellen voor activumtypen, onderhoudsplannen, functionele locatiekenmerken en activakenmerken die moeten worden gebruikt op een functionele locatie die gebruikmaakt van het specifieke type functionele locatie. Wanneer u een functionele locatie maakt, is het functionele locatietype verplicht.
 
 >[!NOTE] 
 >Als u wilt werken met functionele locaties, moet u een standaard functionele locatie maken die alleen wordt gebruikt voor het maken van nieuwe activa. Voor die standaard functionele locatie moet u een standaardtype functionele locatie maken dat heel eenvoudig is en waarmee meerdere activa op de standaard functionele locatie kunnen worden geïnstalleerd. Zie [Functionele locaties maken](../functional-locations/create-functional-locations.md) voor meer informatie over het instellen van typen functionele locaties.

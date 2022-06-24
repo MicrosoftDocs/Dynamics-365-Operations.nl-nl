@@ -1,6 +1,6 @@
 ---
 title: Hoofdplanning voor locatie- en magazijnbehoefte, magazijn niet verplicht
-description: Dit onderwerp beschrijft hoe een artikel dat een locatie en magazijn als dimensies voor behoefteplanning heeft, wordt gepland. De magazijndimensie is niet verplicht.
+description: Dit artikel beschrijft hoe een artikel dat een locatie en magazijn als dimensies voor behoefteplanning heeft, wordt gepland. De magazijndimensie is niet verplicht.
 author: t-benebo
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 396c07fa8cd5a915d5be39837cfdda3404dc402e
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: fb1f486406df22b4e9b92a0302e4e7ce7816517f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470312"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878956"
 ---
 # <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>Hoofdplanning voor locatie- en magazijnbehoefte, magazijn niet verplicht
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp beschrijft hoe een artikel dat een locatie en magazijn als dimensies voor behoefteplanning heeft, wordt gepland. De magazijndimensie is niet verplicht.
+Dit artikel beschrijft hoe een artikel dat een locatie en magazijn als dimensies voor behoefteplanning heeft, wordt gepland. De magazijndimensie is niet verplicht.
 
 Voor dit hoofdplanningsscenario gelden de volgende voorwaarden:
 

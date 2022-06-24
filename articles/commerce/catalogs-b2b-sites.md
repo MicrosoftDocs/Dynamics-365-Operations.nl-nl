@@ -1,6 +1,6 @@
 ---
-title: Commercecatalogi maken voor B2B-sites
-description: In dit onderwerp wordt beschreven hoe u Commercecatalogi maakt voor B2B-sites (business-to-business) in Microsoft Dynamics 365 Commerce.
+title: Commerce-catalogi voor B2B-sites maken
+description: In dit artikel wordt beschreven hoe u Commerce-catalogi maakt voor B2B-sites (business-to-business) in Microsoft Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 05/18/2022
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 7382062706c2de01c499ee05aeb0b45ff6fb37cb
-ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
+ms.openlocfilehash: 7d87b6c64a6038c4518eeec178f9e139ef6f5ae2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782832"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848984"
 ---
-# <a name="create-commerce-catalogs-for-b2b-sites"></a>Commercecatalogi maken voor B2B-sites
+# <a name="create-commerce-catalogs-for-b2b-sites"></a>Commerce-catalogi voor B2B-sites maken
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-In dit onderwerp wordt beschreven hoe u Commerceproductcatalogi maakt voor B2B-sites (business-to-business) in Microsoft Dynamics 365 Commerce. Zie [Veelgestelde vragen over Commercecatalogi voor B2B-sites](catalogs-b2b-sites-FAQ.md) voor antwoorden op veelgestelde vragen over commercecatalogi voor B2B-sites.
+In dit artikel wordt beschreven hoe u Commerce-productcatalogi maakt voor B2B-sites (business-to-business) in Microsoft Dynamics 365 Commerce. Zie [Veelgestelde vragen over Commercecatalogi voor B2B-sites](catalogs-b2b-sites-FAQ.md) voor antwoorden op veelgestelde vragen over commercecatalogi voor B2B-sites.
 
 > [!NOTE]
-> Dit onderwerp is van toepassing op Dynamics 365 Commerce versie 10.0.27 en hoger.
+> Dit artikel is van toepassing op Dynamics 365 Commerce versie 10.0.27 en hoger.
 
 U kunt detailhandel Commercecatalogi gebruiken voor de identificatie van de producten die u in uw online B2B-winkels wilt aanbieden. Wanneer u een catalogus maakt, identificeert u de online winkels waarin de producten worden aangeboden, voegt u de producten toe die u wilt opnemen en verbetert u het productaanbod door productdetails toe te voegen. U kunt meerdere catalogi maken voor elke online B2B-winkel.
 

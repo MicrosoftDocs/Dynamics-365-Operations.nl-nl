@@ -1,6 +1,6 @@
 ---
 title: Door systeem gestuurde werksequentiëring
-description: Dit onderwerp geeft informatie over door het systeem gestuurde werksequentiëring. Met deze functie kunt u de werkorders sorteren en filteren die door het systeem aan gebruikers worden gepresenteerd voor uitvoering. Het is nuttig in scenario's waarin extra criteria nodig zijn om het verzamelproces in het magazijn aan te sturen.
+description: Dit artikel geeft informatie over door het systeem gestuurde werksequentiëring. Met deze functie kunt u de werkorders sorteren en filteren die door het systeem aan gebruikers worden gepresenteerd voor uitvoering. Het is nuttig in scenario's waarin extra criteria nodig zijn om het verzamelproces in het magazijn aan te sturen.
 author: Mirzaab
 ms.date: 07/03/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: b433787f330de3634c59f7b1b2babfe07e3bdf09
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8dfa7d8e3bdbfd74c6f95d8b79ac1b0698f73bd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577811"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849121"
 ---
 # <a name="system-directed-work-sequencing"></a>Door systeem gestuurde werksequentiëring
 
@@ -44,7 +44,7 @@ Voordat u door het systeem gestuurde werksequentiëring kunt gebruiken, moet dez
 
 ### <a name="make-demo-data-available"></a>Demogegevens beschikbaar maken
 
-Om het scenario te doorlopen met de waarden die in dit onderwerp worden voorgesteld, moet u werken op een systeem waarop de standaardvoorbeeldgegevens zijn geïnstalleerd. U moet daarnaast ook de rechtspersoon **USMF** selecteren. In het scenario wordt magazijn *51* uit de demogegevens gebruikt.
+Om het scenario te doorlopen met de waarden die in dit artikel worden voorgesteld, moet u werken op een systeem waarop de standaardvoorbeeldgegevens zijn geïnstalleerd. U moet daarnaast ook de rechtspersoon **USMF** selecteren. In het scenario wordt magazijn *51* uit de demogegevens gebruikt.
 
 > [!IMPORTANT]
 > Voordat u de orders aan het magazijn vrijgeeft, moet u ervoor zorgen dat de orderverzamellocaties voldoende voorraad hebben voor alle artikelen op de orders.

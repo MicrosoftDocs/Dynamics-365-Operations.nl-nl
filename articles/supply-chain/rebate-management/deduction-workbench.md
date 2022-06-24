@@ -1,6 +1,6 @@
 ---
 title: Inhoudingen beheren met de inhoudingsworkbench
-description: In dit onderwerp wordt beschreven hoe u de inhoudingsworkbench gebruikt waarin u de klantbetalingen kunt verwerken die inhoudingen bevatten.
+description: In dit artikel wordt beschreven hoe u de inhoudingsworkbench gebruikt waarin u de klantbetalingen kunt verwerken die inhoudingen bevatten.
 author: sherry-zheng
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: bf98529176fbed368708ea925f542a70f2936037
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 607ad528b56d1f0c9a78e113f67c920cdae6e620
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500397"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873603"
 ---
 # <a name="manage-deductions-using-the-deduction-workbench"></a>Inhoudingen beheren met de inhoudingsworkbench
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u de inhoudingsworkbench gebruikt waarin u de klantbetalingen kunt verwerken die inhoudingen bevatten.
+In dit artikel wordt beschreven hoe u de inhoudingsworkbench gebruikt waarin u de klantbetalingen kunt verwerken die inhoudingen bevatten.
 
 Een klant die een korting is verschuldigd, kan ervoor kiezen niet op de korting te wachten. In plaats daarvan kan de klant een betaling doen die een inhouding bevat voor het bedrag van de korting. Om dit type transactie te verwerken, kunt u de inhoudingsworkbench gebruiken om inhoudingen af te stemmen op open credittransacties, gesplitste inhoudingen, geweigerde inhoudingen en afschrijvingsinhoudingen.
 
 > [!NOTE]
-> De inhoudingswerkbank is lange tijd onderdeel van de verkoop- en marketingfunctie in Microsoft Dynamics 365 Supply Chain Management geweest. De module is nu echter verbeterd, zodat het ook werkt met de nieuwere **module** Kortingsbeheer. In dit onderwerp wordt beschreven hoe u zowel oudere functies als kortingsbeheerfuncties van de inhoudingsworkbench gebruikt. Als u [de module **Kortingsbeheer** echter niet hebt ingeschakeld voor het systeem](rebate-management-enable.md), is een aantal van de functionaliteit die hier wordt beschreven, niet beschikbaar.
+> De inhoudingswerkbank is lange tijd onderdeel van de verkoop- en marketingfunctie in Microsoft Dynamics 365 Supply Chain Management geweest. De module is nu echter verbeterd, zodat het ook werkt met de nieuwere **module** Kortingsbeheer. In dit artikel wordt beschreven hoe u zowel oudere functies als kortingsbeheerfuncties van de inhoudingsworkbench gebruikt. Als u [de module **Kortingsbeheer** echter niet hebt ingeschakeld voor het systeem](rebate-management-enable.md), is een aantal van de functionaliteit die hier wordt beschreven, niet beschikbaar.
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -159,11 +159,11 @@ Volg de onderstaande stappen om een inhouding te maken in de inhoudingsworkbench
         - *Hoeveelheid gebaseerd* – Een negatieve verkooporder of retourorder wordt gemaakt.
 
     - **Claimdatum** – Selecteer de datum van de claim. De standaardwaarde is de huidige datum.
-    - **Claimreden** – Selecteer de redencode die van toepassing is op de huidige inhouding. De door u geselecteerde claimbasis heeft invloed op de opties die van toepassing zijn. Zie de sectie [Redenen voor inhouding maken](#deduction-reasons) eerder in dit onderwerp voor meer informatie over het maken en configureren van de claimredenen die hier voor selectie beschikbaar zijn.
+    - **Claimreden** – Selecteer de redencode die van toepassing is op de huidige inhouding. De door u geselecteerde claimbasis heeft invloed op de opties die van toepassing zijn. Zie de sectie [Redenen voor inhouding maken](#deduction-reasons) eerder in dit artikel voor meer informatie over het maken en configureren van de claimredenen die hier voor selectie beschikbaar zijn.
     - **Opmerkingen** – Opmerkingen toevoegen die van toepassing zijn. Wanneer de claim is goedgekeurd, kan de fiattur de opmerkingen van de claim bewerken of toevoegen.
     - **Claimjournaal maken** – Stel deze optie in om op te geven of het claimjournaal moet worden gemaakt wanneer de claim of inhouding wordt gemaakt:
 
-        - *Ja* – Er wordt een algemeen journaal gemaakt en geboekt via het claimjournaal dat is ingesteld op de **Parameters van module Klanten**. (Zie voor meer informatie de sectie [Klanten en inhoudingen configureren](#accounts-receivable-deductions) eerder in dit onderwerp.) Wanneer er een factuur aan de claim is gekoppeld, wordt het claimjournaal gebruikt om het saldo van de toepasselijke factuur te verminderen. Als de claim later wordt afgewezen, worden het claimjournaal en de vereffeningen (als er een factuur was gekoppeld) teruggeboekt.
+        - *Ja* – Er wordt een algemeen journaal gemaakt en geboekt via het claimjournaal dat is ingesteld op de **Parameters van module Klanten**. (Zie voor meer informatie de sectie [Klanten en inhoudingen configureren](#accounts-receivable-deductions) eerder in dit artikel.) Wanneer er een factuur aan de claim is gekoppeld, wordt het claimjournaal gebruikt om het saldo van de toepasselijke factuur te verminderen. Als de claim later wordt afgewezen, worden het claimjournaal en de vereffeningen (als er een factuur was gekoppeld) teruggeboekt.
         - *Nee*– Er wordt op dit moment geen claimjournaal gemaakt. Deze wordt gemaakt wanneer de claim wordt goedgekeurd. Er kan nog steeds een factuur aan de nieuwe claim worden gekoppeld, ook als er geen claimjournaaljournaal is gemaakt. Vereffening kan echter niet zonder het claimjournaal worden uitgevoerd.
 
 1. Selecteer **OK**.
@@ -197,11 +197,11 @@ Het proces waarbij een inhouding wordt gemaakt van een vereffening voor klanten 
         - *Hoeveelheid gebaseerd* – Een negatieve verkooporder of retourorder wordt gemaakt.
 
     - **Claimdatum** – Selecteer de datum van de claim. De standaardwaarde is de huidige datum.
-    - **Claimreden** – Selecteer de redencode die van toepassing is op de huidige inhouding. De door u geselecteerde claimbasis heeft invloed op de opties die van toepassing zijn. Zie de sectie [Redenen voor inhouding maken](#deduction-reasons) eerder in dit onderwerp voor meer informatie over het maken en configureren van de claimredenen die hier voor selectie beschikbaar zijn.
+    - **Claimreden** – Selecteer de redencode die van toepassing is op de huidige inhouding. De door u geselecteerde claimbasis heeft invloed op de opties die van toepassing zijn. Zie de sectie [Redenen voor inhouding maken](#deduction-reasons) eerder in dit artikel voor meer informatie over het maken en configureren van de claimredenen die hier voor selectie beschikbaar zijn.
     - **Opmerkingen** – Opmerkingen toevoegen die van toepassing zijn. Wanneer de claim is goedgekeurd, kan de fiattur de opmerkingen van de claim bewerken of toevoegen.
     - **Claimjournaal maken** – Stel deze optie in om op te geven of het claimjournaal moet worden gemaakt wanneer de claim of inhouding wordt gemaakt:
 
-        - *Ja* – Er wordt een algemeen journaal gemaakt en geboekt via het claimjournaal dat is ingesteld op de **Parameters van module Klanten**. (Zie voor meer informatie de sectie [Klanten en inhoudingen configureren](#accounts-receivable-deductions) eerder in dit onderwerp.) Wanneer er een factuur aan de claim is gekoppeld, wordt het claimjournaal gebruikt om het saldo van de toepasselijke factuur te verminderen. Als de claim later wordt afgewezen, worden het claimjournaal en de vereffeningen (als er een factuur was gekoppeld) teruggeboekt.
+        - *Ja* – Er wordt een algemeen journaal gemaakt en geboekt via het claimjournaal dat is ingesteld op de **Parameters van module Klanten**. (Zie voor meer informatie de sectie [Klanten en inhoudingen configureren](#accounts-receivable-deductions) eerder in dit artikel.) Wanneer er een factuur aan de claim is gekoppeld, wordt het claimjournaal gebruikt om het saldo van de toepasselijke factuur te verminderen. Als de claim later wordt afgewezen, worden het claimjournaal en de vereffeningen (als er een factuur was gekoppeld) teruggeboekt.
         - *Nee*– Er wordt op dit moment geen claimjournaal gemaakt. Deze wordt gemaakt wanneer de claim wordt goedgekeurd. Er kan nog steeds een factuur aan de nieuwe claim worden gekoppeld, ook als er geen claimjournaaljournaal is gemaakt. Vereffening kan echter niet zonder het claimjournaal worden uitgevoerd.
 
 1. Selecteer **OK**.
@@ -235,11 +235,11 @@ Het proces waarbij een inhouding wordt gemaakt van een klantpagina lijkt op het 
         - *Hoeveelheid gebaseerd* – Een negatieve verkooporder of retourorder wordt gemaakt.
 
     - **Claimdatum** – Selecteer de datum van de claim. De standaardwaarde is de huidige datum.
-    - **Claimreden** – Selecteer de redencode die van toepassing is op de huidige inhouding. De door u geselecteerde claimbasis heeft invloed op de opties die van toepassing zijn. Zie de sectie [Redenen voor inhouding maken](#deduction-reasons) eerder in dit onderwerp voor meer informatie over het maken en configureren van de claimredenen die hier voor selectie beschikbaar zijn.
+    - **Claimreden** – Selecteer de redencode die van toepassing is op de huidige inhouding. De door u geselecteerde claimbasis heeft invloed op de opties die van toepassing zijn. Zie de sectie [Redenen voor inhouding maken](#deduction-reasons) eerder in dit artikel voor meer informatie over het maken en configureren van de claimredenen die hier voor selectie beschikbaar zijn.
     - **Opmerkingen** – Opmerkingen toevoegen die van toepassing zijn. Wanneer de claim is goedgekeurd, kan de fiattur de opmerkingen van de claim bewerken of toevoegen.
     - **Claimjournaal maken** – Stel deze optie in om op te geven of het claimjournaal moet worden gemaakt wanneer de claim of inhouding wordt gemaakt:
 
-        - *Ja* – Er wordt een algemeen journaal gemaakt en geboekt via het claimjournaal dat is ingesteld op de **Parameters van module Klanten**. (Zie voor meer informatie de sectie [Klanten en inhoudingen configureren](#accounts-receivable-deductions) eerder in dit onderwerp.) Wanneer er een factuur aan de claim is gekoppeld, wordt het claimjournaal gebruikt om het saldo van de toepasselijke factuur te verminderen. Als de claim later wordt afgewezen, worden het claimjournaal en de vereffeningen (als er een factuur was gekoppeld) teruggeboekt.
+        - *Ja* – Er wordt een algemeen journaal gemaakt en geboekt via het claimjournaal dat is ingesteld op de **Parameters van module Klanten**. (Zie voor meer informatie de sectie [Klanten en inhoudingen configureren](#accounts-receivable-deductions) eerder in dit artikel.) Wanneer er een factuur aan de claim is gekoppeld, wordt het claimjournaal gebruikt om het saldo van de toepasselijke factuur te verminderen. Als de claim later wordt afgewezen, worden het claimjournaal en de vereffeningen (als er een factuur was gekoppeld) teruggeboekt.
         - *Nee*– Er wordt op dit moment geen claimjournaal gemaakt. Deze wordt gemaakt wanneer de claim wordt goedgekeurd. Er kan nog steeds een factuur aan de nieuwe claim worden gekoppeld, ook als er geen claimjournaaljournaal is gemaakt. Vereffening kan echter niet zonder het claimjournaal worden uitgevoerd.
 
 1. Selecteer **OK**.
@@ -280,7 +280,7 @@ Volg deze stappen om een inhouding op een krediet af te stemmen.
 1. Klik in het actievenster op **Onderhouden \> Afstemmen**. Het systeem stemt de inhouding af op het krediet. Als er een saldo blijft in de inhouding, wordt dit weergegeven in het veld **Resterend bedrag** op het tabblad **Inhoudingen**.
 
     > [!NOTE]
-    > Voor inhoudingen die zijn gemaakt met de opdracht **Nieuwe inhouding** op de inhoudingsworkbench, klantvereffening of klantpagina, is de opdracht **Onderhouden \> Afstemmen** alleen beschikbaar als het veld **Claimstatus** is ingesteld op *Geaccepteerd*. Deze opdracht kan worden gebruikt om de op prijs of hoeveelheid gebaseerde transactie handmatig af te stemmen op de gekoppelde krediet in de sectie **Openstaande transacties**. Dit krediet wordt gemaakt als de inhouding is goedgekeurd (via de opdracht **Onderhouden \> Inhouding goedkeuren**) of wanneer de inhouding is gekoppeld aan een bestaand krediet, zoals wordt beschreven in de sectie [Verwerken van kredieten gemaakt buiten het inhoudingsgoedkeuringsproces om](#credits-outside-approval) verder in dit onderwerp. De periodieke taak *Goedgekeurde inhoudingen vereffenen* (**Verkoopmarketing \> Periodieke taken \> Goedgekeurde inhoudingen vereffenen**) kan ook worden gebruikt om automatisch inhoudingen en kredietbedragen met overeenkomende **Inhoudings-ID**-waarden en bedragen af te stemmen.
+    > Voor inhoudingen die zijn gemaakt met de opdracht **Nieuwe inhouding** op de inhoudingsworkbench, klantvereffening of klantpagina, is de opdracht **Onderhouden \> Afstemmen** alleen beschikbaar als het veld **Claimstatus** is ingesteld op *Geaccepteerd*. Deze opdracht kan worden gebruikt om de op prijs of hoeveelheid gebaseerde transactie handmatig af te stemmen op de gekoppelde krediet in de sectie **Openstaande transacties**. Dit krediet wordt gemaakt als de inhouding is goedgekeurd (via de opdracht **Onderhouden \> Inhouding goedkeuren**) of wanneer de inhouding is gekoppeld aan een bestaand krediet, zoals wordt beschreven in de sectie [Verwerken van kredieten gemaakt buiten het inhoudingsgoedkeuringsproces om](#credits-outside-approval) verder in dit artikel. De periodieke taak *Goedgekeurde inhoudingen vereffenen* (**Verkoopmarketing \> Periodieke taken \> Goedgekeurde inhoudingen vereffenen**) kan ook worden gebruikt om automatisch inhoudingen en kredietbedragen met overeenkomende **Inhoudings-ID**-waarden en bedragen af te stemmen.
 
 ### <a name="split-a-deduction"></a>Inhouding splitsen
 

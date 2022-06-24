@@ -1,6 +1,6 @@
 ---
 title: Productbeoordelingen synchroniseren in Dynamics 365 Commerce
-description: In dit onderwerp wordt beschreven hoe u productbeoordelingen in Microsoft Dynamics 365 Commerce kunt synchroniseren.
+description: In dit artikel wordt beschreven hoe u productbeoordelingen in Microsoft Dynamics 365 Commerce kunt synchroniseren.
 author: gvrmohanreddy
 ms.date: 02/06/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: ac94a8b4505aba509f0a71ed36d32adac864aedf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967945"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909330"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Productbeoordelingen synchroniseren in Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u productbeoordelingen in Microsoft Dynamics 365 Commerce kunt synchroniseren.
+In dit artikel wordt beschreven hoe u productbeoordelingen in Microsoft Dynamics 365 Commerce kunt synchroniseren.
 
 Als u productbeoordelingen wilt gebruiken in omnichannels, zoals op het verkooppunt (POS) en in callcenters, moeten productbeoordelingen van de beoordelings- en revisieservice worden geïmporteerd in de database met Commerce-kanalen. Wanneer productbeoordelingen beschikbaar worden gemaakt in omnichannels, kunnen klanten tijdens hun interactie met verkoopmedewerkers indirect worden geholpen.
 
-In dit onderwerp worden de volgende taken beschreven:
+In dit artikel worden de volgende taken beschreven:
 
 1. Configureer **Taak productbeoordelingen synchroniseren** als een batchtaak om productbeoordelingen te synchroniseren vanuit de **Service voor beoordelingen en recensies**.
 1. Controleren of de batchtaak voor het synchroniseren van productbeoordelingen is geslaagd.

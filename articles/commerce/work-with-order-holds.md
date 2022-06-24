@@ -1,6 +1,6 @@
 ---
-title: Configureren en werken met orderwachtstanden voor callcenters
-description: In dit onderwerp wordt beschreven hoe u werkt met wachtstanden voor orders met behulp van Dynamics 365 Commerce.
+title: Orderwachtstanden voor callcenters configureren en hiermee werken
+description: In dit artikel wordt beschreven hoe u werkt met wachtstanden voor orders met behulp van Dynamics 365 Commerce.
 author: josaw1
 ms.date: 05/14/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f474b5936f2ae154ad54185becd91865642e8efe3cf10e7dcdbb650c6c833b21
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1f8c5daecc6aa05cc6a0f5dc4a2bc44a0fbba07d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762591"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860132"
 ---
-# <a name="configure-and-work-with-call-center-order-holds"></a>Configureren en werken met orderwachtstanden voor callcenters
+# <a name="configure-and-work-with-call-center-order-holds"></a>Orderwachtstanden voor callcenters configureren en hiermee werken
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp beschrijft de functies voor orderwachtstanden die Dynamics 365 Commerce heeft voor callcenterorders.
+Dit artikel beschrijft de functies voor orderwachtstanden die Dynamics 365 Commerce heeft voor callcenterorders.
 
 ## <a name="configuring-call-center-order-holds"></a>Callcenterorderwachtstanden configureren
 

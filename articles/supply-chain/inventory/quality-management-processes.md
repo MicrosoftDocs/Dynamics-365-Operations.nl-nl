@@ -1,6 +1,6 @@
 ---
-title: Overzicht van het beheer van kwaliteit en niet-conformeringen
-description: In dit onderwerp worden de functies voor kwaliteits- en niet-conformeringsbeheer in Microsoft Dynamics 365 Supply Chain Management beschreven en wordt uitgelegd hoe u hiermee de productkwaliteit in uw toeleveringsketen kunt verbeteren.
+title: Overzicht van beheer voor kwaliteit en niet-conformering
+description: In dit artikel worden de functies voor kwaliteits- en niet-conformeringsbeheer in Microsoft Dynamics 365 Supply Chain Management beschreven en wordt uitgelegd hoe u hiermee de productkwaliteit in uw toeleveringsketen kunt verbeteren.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bb4bcb7f554c22b4e1ab1b41867bd2d3dcca4d4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 510dee78f6fed02e6511aedad00fcb1b15195470
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985504"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907488"
 ---
-# <a name="quality-and-nonconformance-management-overview"></a>Overzicht van het beheer van kwaliteit en niet-conformeringen
+# <a name="quality-and-nonconformance-management-overview"></a>Overzicht van beheer voor kwaliteit en niet-conformering
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de functies voor kwaliteits- en niet-conformeringsbeheer in Microsoft Dynamics 365 Supply Chain Management beschreven en wordt uitgelegd hoe u hiermee de productkwaliteit in uw toeleveringsketen kunt verbeteren.
+In dit artikel worden de functies voor kwaliteits- en niet-conformeringsbeheer in Microsoft Dynamics 365 Supply Chain Management beschreven en wordt uitgelegd hoe u hiermee de productkwaliteit in uw toeleveringsketen kunt verbeteren.
 
 Kwaliteitscontrole omvat het testen van producten en het beheren van materialen die niet overeenkomen. Kwaliteitsbeheerprocessen helpen om een hoog productkwaliteitsniveau in uw leveringsketen te garanderen. Deze processen helpen om de leveringsketenprocessen te optimaliseren en klanttevredenheid te verhogen. Kwaliteitsbeheer kan u helpen keerpunttijden te beheren wanneer u te maken hebt met niet-overeenkomende producten, ongeacht punt van oorsprong van deze producten. U kunt diagnoseresultaten koppelen aan correctietaken. Het systeem kan taken inplannen om problemen te corrigeren, en zo helpen voorkomen dat deze problemen zich in de toekomst opnieuw voordoen. Met kwaliteitsbeheer ook kunt u problemen (inclusief interne problemen) volgen op probleemtype en oplossingen identificeren als korte-termijnoplossingen of lange-termijnoplossingen. De statistieken over Key Performance Indicators (KPI's) bevatten inzicht in niet-conformeringsproblemen die eerder zijn opgetreden en de oplossingen die zijn toegepast om ze te corrigeren. U kunt de historische gegevens gebruiken om de efficiëntie van kwaliteitsmetingen te controleren die eerder zijn genomen en overeenkomende stappen in de toekomst te definiëren.
 

@@ -1,6 +1,6 @@
 ---
 title: Voorbeeld van integratie van fiscale printer voor Polen
-description: Dit onderwerp biedt een overzicht van het fiscale integratievoorbeeld voor Polen in Microsoft Dynamics 365 Commerce.
+description: Dit artikel biedt een overzicht van het fiscale integratievoorbeeld voor Polen in Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-2-1
-ms.openlocfilehash: 43d9a54334d97a65a1f9a356daf54154f6c069b3
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: e71d7b342789e4cf2e7644a46bc847087063fc78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076831"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876944"
 ---
 # <a name="fiscal-printer-integration-sample-for-poland"></a>Voorbeeld van integratie van fiscale printer voor Polen
 
 [!include[banner](../includes/banner.md)]
 
-Dit onderwerp biedt een overzicht van het fiscale integratievoorbeeld voor Polen in Microsoft Dynamics 365 Commerce.
+Dit artikel biedt een overzicht van het fiscale integratievoorbeeld voor Polen in Microsoft Dynamics 365 Commerce.
 
 De Dynamics 365 Commerce-functionaliteit voor Polen omvat een voorbeeldintegratie van het verkooppunt (POS) met een fiscale printer. Het voorbeeld breidt de [functionaliteit voor fiscale integratie](fiscal-integration-for-retail-channel.md) uit en ondersteunt het POSNET ERP 2.02-protocol voor fiscale printers van [Posnet Polska S.A.](https://www.posnet.com.pl) Het voorbeeld maakt communicatie mogelijk met een fiscale printer die met behulp van een native softwarestuurprogramma via een COM-poort is verbonden. Het is geïmplementeerd en getest met een software-emulator die Posnet heeft geleverd voor de Posnet Thermal HD FV EJ fiscale printer. Het voorbeeld wordt geleverd in de vorm van broncode en maakt deel uit van de Retail Software Development Kit (SDK).
 

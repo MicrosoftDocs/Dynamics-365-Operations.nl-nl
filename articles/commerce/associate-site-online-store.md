@@ -1,6 +1,6 @@
 ---
 title: Een Dynamics 365 Commerce-site koppelen aan een online kanaal
-description: In dit onderwerp wordt uitgelegd hoe u uw Microsoft Dynamics 365 Commerce-site verbindt met een of meer online winkels.
+description: In dit artikel wordt uitgelegd hoe u uw Microsoft Dynamics 365 Commerce-site verbindt met een of meer online winkels.
 author: bicyclingfool
 ms.date: 07/02/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 60ead45e6e2b7fea8f04371310ff4315205e11f6e0968e5f8bbc6a29c5f26e18
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 006c8b60791e0176c808762025f3bfdeaff9c48d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737648"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878668"
 ---
 # <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>Een Dynamics 365 Commerce-site koppelen aan een online kanaal
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u uw Microsoft Dynamics 365 Commerce-site verbindt met een of meer online winkels. 
+In dit artikel wordt uitgelegd hoe u uw Microsoft Dynamics 365 Commerce-site verbindt met een of meer online winkels. 
 
 Nadat u uw Dynamics 365 Commerce e-commerce-omgeving hebt ingericht met behulp van de portal Microsoft Dynamics Lifecycle Services (LCS), bent u klaar om uw eerste e-commerce-website te gaan gebruiken. Als onderdeel van het maken van de eerste site, koppelt u de site aan een online winkel die eerder is gemaakt. Met deze stap koppelt u de site aan een online kanaal en toont de site de navigatiehiërarchie, producten, categorieën, prijzen, verzendopties en alles wat u in de online winkel hebt gedefinieerd.
 

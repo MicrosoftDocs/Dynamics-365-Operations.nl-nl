@@ -1,6 +1,6 @@
 ---
-title: Instelling van vraagprognose
-description: In dit onderwerp worden de insteltaken beschreven die u moet uitvoeren ter voorbereiding op de vraagprognose.
+title: Instelling van Vraagprognose
+description: In dit artikel worden de insteltaken beschreven die u moet uitvoeren ter voorbereiding op de vraagprognose.
 author: t-benebo
 ms.date: 11/23/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3b52b970a8040dcba5a1fc59d297dc9ce1a3c53
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 10a211e0e20f22dfbfdb4923841808750b6ed71b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470004"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900997"
 ---
 # <a name="demand-forecasting-setup"></a>Instelling van Vraagprognose
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u vraagprognose instelt.  
+In dit artikel wordt beschreven hoe u vraagprognose instelt.  
 
 ## <a name="item-allocation-keys"></a>Artikeltoewijzingssleutels
 
@@ -245,7 +245,7 @@ Gebruik de volgende procedure om een nieuwe machine learning-werkruimte te maken
 1. Voltooi de wizard door de instructies op het scherm te volgen. Houd de volgende punten in gedachten tijdens het werken:
 
     - Gebruik standaardinstellingen, tenzij op andere punten in deze lijst andere instellingen worden aangeraden.
-    - Zorg ervoor dat u de geografische regio selecteert die overeenkomt met de regio waar uw exemplaar van Supply Chain Management is geïmplementeerd. Anders overschrijden sommige gegevens mogelijk regiogrenzen. Zie de [privacyverklaring](#privacy) verderop in dit onderwerp voor meer informatie.
+    - Zorg ervoor dat u de geografische regio selecteert die overeenkomt met de regio waar uw exemplaar van Supply Chain Management is geïmplementeerd. Anders overschrijden sommige gegevens mogelijk regiogrenzen. Zie de [privacyverklaring](#privacy) verderop in dit artikel voor meer informatie.
     - Gebruik specifieke resources, zoals resourcegroepen, opslagaccounts, containerregisters, Azure-sleutelkluizen en netwerkbronnen.
     - Op de pagina **Verbindingsparameters voor Azure Machine Learning Service instellen** van de wizard moet u een naam opgeven voor een opslagaccount. Gebruik een account die is toegewezen aan vraagprognoses. Invoer- en uitvoergegevens voor vraagprognoses worden opgeslagen in deze opslagaccount.
 

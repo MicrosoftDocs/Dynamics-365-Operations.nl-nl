@@ -1,6 +1,6 @@
 ---
 title: Instellingen toepassen voor toevoegen van product aan winkelwagen
-description: In dit onderwerp worden instellingen voor het toevoegen van producten aan de winkelwagen beschreven en hoe deze worden toegevoegd in Microsoft Dynamics 365 Commerce.
+description: In dit artikel worden instellingen voor het toevoegen van producten aan de winkelwagen beschreven en hoe deze worden toegevoegd in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 07/08/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6299a1c815978ab9f748b6110980e673e1fbae927ed08a5e2e080f89ef063115
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 336bea289b22e4f6f98077f915d7d35f2a48682d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712809"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866025"
 ---
 # <a name="apply-add-product-to-cart-settings"></a>Instellingen toepassen voor toevoegen van product aan winkelwagen
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp worden instellingen voor **Product toevoegen aan winkelwagen beschreven** en hoe deze worden toegevoegd in Microsoft Dynamics 365 Commerce.
+In dit artikel worden instellingen voor het **toevoegen van producten aan de winkelwagen** beschreven en hoe deze worden toegevoegd in Microsoft Dynamics 365 Commerce.
 
 Verschillende werkstromen worden ondersteund wanneer een product wordt toegevoegd aan de winkelwagen op een e-commercesite in Dynamics 365 Commerce. De sitegebruiker kan bijvoorbeeld naar de winkelwagenpagina worden overgebracht. Het is ook mogelijk dat de gebruiker op de huidige pagina blijft, maar een melding ontvangt om te bevestigen dat het product aan de winkelwagen is toegevoegd.
 

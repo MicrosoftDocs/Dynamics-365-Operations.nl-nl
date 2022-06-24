@@ -1,6 +1,6 @@
 ---
 title: Implementatierichtlijnen voor het voorbeeld van integratie van fiscale registratieservice voor Duitsland (verouderd)
-description: Dit onderwerp bevat richtlijnen voor de implementatie van het voorbeeld voor fiscale integratie voor Duitsland vanuit de Retail SDK (Software Development Kit) voor Microsoft Dynamics 365 Commerce.
+description: Dit artikel bevat richtlijnen voor de implementatie van het voorbeeld voor fiscale integratie voor Duitsland vanuit de Retail SDK (Software Development Kit) voor Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: c49e6cedcce1d336486e9fbcc0620bcdf455cc9d
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 9f6ecc715e10538806998459b7fd837648494ad7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614119"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845832"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-germany-legacy"></a>Implementatierichtlijnen voor het voorbeeld van integratie van fiscale registratieservice voor Duitsland (verouderd)
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat richtlijnen voor de implementatie van het voorbeeld voor integratie van de fiscale registratieservice voor Duitsland vanuit de Retail Software Development Kit (SDK) van Microsoft Dynamics 365 Commerce op een virtuele machine (VM) voor een developer in Microsoft Dynamics Lifecycle Services (LCS). Zie [Voorbeeld van integratie van fiscale registratieservice voor Duitsland](emea-deu-fi-sample.md) voor meer informatie over dit voorbeeld van fiscale integratie. 
+Dit artikel bevat richtlijnen voor de implementatie van het voorbeeld voor integratie van de fiscale registratieservice voor Duitsland vanuit de Retail Software Development Kit (SDK) van Microsoft Dynamics 365 Commerce op een virtuele machine (VM) voor een developer in Microsoft Dynamics Lifecycle Services (LCS). Zie [Voorbeeld van integratie van fiscale registratieservice voor Duitsland](emea-deu-fi-sample.md) voor meer informatie over dit voorbeeld van fiscale integratie. 
 
-Het voorbeeld van fiscale integratie voor Duitsland maakt deel uit van de Retail SDK. Zie [Architectuur van Retail SDK (Software Development Kit)](../dev-itpro/retail-sdk/retail-sdk-overview.md) voor informatie over het installeren en gebruiken van de SDK. Dit voorbeeld bestaat uit extensies voor Commerce runtime (CRT) en Hardwarestation. Als u dit voorbeeld wilt uitvoeren, moet u de projecten CRT en Hardwarestation wijzigen en bouwen. Het is raadzaam een niet-geverifieerde Retail SDK te gebruiken om de wijzigingen aan te brengen die in dit onderwerp worden beschreven. Het wordt ook aangeraden een broncontrolesysteem te gebruiken, zoals Azure DevOps wanneer er nog geen bestanden zijn gewijzigd.
+Het voorbeeld van fiscale integratie voor Duitsland maakt deel uit van de Retail SDK. Zie [Architectuur van Retail SDK (Software Development Kit)](../dev-itpro/retail-sdk/retail-sdk-overview.md) voor informatie over het installeren en gebruiken van de SDK. Dit voorbeeld bestaat uit extensies voor Commerce runtime (CRT) en Hardwarestation. Als u dit voorbeeld wilt uitvoeren, moet u de projecten CRT en Hardwarestation wijzigen en bouwen. Het is raadzaam een niet-geverifieerde Retail SDK te gebruiken om de wijzigingen aan te brengen die in dit artikel worden beschreven. Het wordt ook aangeraden een broncontrolesysteem te gebruiken, zoals Azure DevOps wanneer er nog geen bestanden zijn gewijzigd.
 
 ## <a name="development-environment"></a>Ontwikkelingsomgeving
 

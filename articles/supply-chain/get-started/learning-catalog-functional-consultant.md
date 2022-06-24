@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 296cee4c5da82d8bfcab298a5a2a13d982f8f808
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 05f2f11408dac93faa8f71cb0396893c03cdb6a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672089"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851879"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-functional-consultants"></a>Trainingscatalogus voor functionele Dynamics 365 Supply Chain Management-consultants
 
@@ -68,7 +68,7 @@ Ons onderzoek voor taakanalyse voor functionele consultants heeft aangetoond dat
 | [Cursus MB-300T01-A: Algemene kernfuncties van Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T01) | In deze cursus worden de belangrijkste algemene kenmerken van Microsoft Dynamics 365 for Finance and Operations besproken. | Geleid door een docent of online training, kosten variëren per regio en partner | 1 dag |
 | [Cursus MB-300T02-A: Kernconfiguratie in Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T02) | In deze cursus worden kernconfiguratietaken besproken voor Microsoft Dynamics 365 for Finance and Operations. | Geleid door een docent of online training, kosten variëren per regio en partner | 1 dag |
 | [Cursus MB-300T03-A: Gegevensmigratie en voorbereiding voor go-live met Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T03) | In deze cursus worden de gegevensmigratie en de voorbereiding voor go-live voor Microsoft Dynamics 365 for Finance and Operations besproken. | Geleid door een docent of online training, kosten variëren per regio en partner | 1 dag |
-| [Startpagina van implementatie levenscyclusbeheer](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | In deze onderwerpen worden de programma's, hulpprogramma's en processen beschreven die beschikbaar zijn voor de implementatie van de levenscyclus van uw Microsoft Dynamics 365 for Finance and Operations-project. | Documentatie | |
+| [Startpagina van implementatie levenscyclusbeheer](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | In deze artikelen worden de programma's, hulpprogramma's en processen beschreven die beschikbaar zijn voor de implementatie van de levenscyclus van uw Microsoft Dynamics 365 for Finance and Operations-project. | Documentatie | |
 
 ## <a name="migration-and-upgrade"></a>Migratie en upgrade<a name="migration"></a>
 
@@ -105,7 +105,7 @@ Ons onderzoek voor taakanalyse voor functionele consultants heeft aangetoond dat
 | [Mobiele magazijnapp (VIR816PAL) ](https://community.dynamics.com/365/b/techtalks/posts/warehousing-mobile-app-march-22-2017) | In deze TechTalk komt het geavanceerde magazijnsysteem in Dynamics 365 for Operations aan de orde en de toekomstige functies voor de mobiele interface. We onderzoeken de nieuwe mobiele toepassing die is vrijgegeven en vergelijken deze met de oude WMDP. Er wordt informatie gegeven over wat er nodig is om deze mobiele toepassing te installeren, configureren en bedienen en hoe uw implementaties hiervan kunnen profiteren. | Gratis registratie van een webvergadering | 54 minuten |
 | [Leverancierssamenwerking (DYN327PAL) ](https://community.dynamics.com/365/b/techtalks/posts/vendor-collaboration-july-25-2017) | In deze TechTalk wordt de functie voor Leverancierssamenwerking besproken, waaronder het gebruik van de functie Respons van leveranciers die is opgenomen in de release van juli. | Gratis registratie van een webvergadering | 58 minuten |
 | [Artikel- en magazijnmigratieproces voor gebruik van geavanceerd magazijnbeheer (DYN316PAL) ](https://community.dynamics.com/365/b/techtalks/posts/item-and-warehouse-migration-process-to-use-advanced-warehouse-management-june-27-2017) | In deze TechTalk leert u hoe u bestaande magazijninstellingen en artikelen met openstaande transacties naar het geavanceerde magazijnbeheersysteem kunt migreren, door de nieuwe capaciteiten te gebruiken om de opslagdimensiegroep voor artikelen te wijzigen en magazijnen in te schakelen voor het gebruik van de geavanceerde magazijnbeheerprocessen. | Gratis registratie van een webvergadering | 54 minuten |
-| [Startpagina Supply Chain Management](/dynamics365/unified-operations/supply-chain/) | Dit onderwerp bevat een lijst met de Help-onderwerpen en andere informatiebronnen voor de functies voor Supply Chain Management in Microsoft Dynamics 365 for Finance and Operations. | Documentatie | |
+| [Startpagina Supply Chain Management](/dynamics365/unified-operations/supply-chain/) | Dit artikel bevat een lijst met de Help-artikelen en andere informatiebronnen voor de functies voor Supply Chain Management in Microsoft Dynamics 365 for Finance and Operations. | Documentatie | |
 | [Vraagaanvulling voor verzamelen van grondstoffen (DYN333PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/demand-replenishment-for-raw-material-picking-september-28-2017) | Deze TechTalk bespreekt orderverzamelen van grondstoffen en de vraagaanvulling voor orderverzamelen van grondstoffen. | Gratis registratie van een webvergadering | 38 minuten |
 | [Cursus MB-330T01-A: Supply Chain Management configureren en gebruiken in Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-330T01) | In deze cursus wordt beschreven hoe u Supply Chain Management in Dynamics 365 for Finance and Operations kunt configureren en gebruiken. | Geleid door een docent of online training, kosten variëren per regio en partner | 2 dagen |
 | [Cursus MB-330T02-A: Kwaliteitsbeheer, intercompany-handel en hoofdplanning gebruiken in Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-330T02) | Deze cursus behandelt hoe u kwaliteitsbeheer, intercompany-handel en hoofdplanning gebruikt in Dynamics 365 for Finance and Operations. | Geleid door een docent of online training, kosten variëren per regio en partner | 1 dag |

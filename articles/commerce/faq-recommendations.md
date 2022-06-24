@@ -1,6 +1,6 @@
 ---
 title: Veelgestelde vragen over productaanbevelingen
-description: Dit onderwerp bevat informatie over processen en hulpprogramma's die u kunt gebruiken om problemen op te lossen die betrekking hebben op aanbevelingen van producten of hun resultaten.
+description: Dit artikel bevat informatie over processen en hulpprogramma's die u kunt gebruiken om problemen op te lossen die betrekking hebben op aanbevelingen van producten of hun resultaten.
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 88ad0efd8f678c3082c31b1c3162b8288e14fc9edb69e8756f1641461b808e07
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77a5532ab1ae3b630bb335aa7cff6dc747184994
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733960"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900442"
 ---
 # <a name="product-recommendations-faq"></a>Veelgestelde vragen over productaanbevelingen
 
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp bevat informatie over processen en hulpprogramma's die u kunt gebruiken om problemen op te lossen die betrekking hebben op [aanbevelingen van producten](product-recommendations.md) of hun resultaten.
+Dit artikel bevat informatie over processen en hulpprogramma's die u kunt gebruiken om problemen op te lossen die betrekking hebben op [aanbevelingen van producten](product-recommendations.md) of hun resultaten.
 
 ## <a name="best-practices"></a>Aanbevolen procedures
 Het is zeer belangrijk dat u het concept van productmodellen en varianten gebruikt. Met de juiste groepering van varianten onder een bovenliggend productmodel kunnen met de lijst van algoritmen en services betere modellen worden gemaakt. Daarnaast kan de service slechts één exemplaar van een product leveren in plaats van alle nauw verwante varianten in een lijst te plaatsen. Wanneer alle nauw verwante varianten in een lijst worden geplaatst, kunnen er onjuiste of dubbele resultaten optreden.

@@ -1,6 +1,6 @@
 ---
 title: Redencodes voor voorraadtelling
-description: Dit onderwerp beschrijft hoe u redencodes instelt en toepast voor teltaken.
+description: Dit artikel beschrijft hoe u redencodes instelt en toepast voor teltaken.
 author: perlynne
 ms.date: 08/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 7d182f1d979543eeec700924d2bd180ee06be8ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500585"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857107"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Redencodes voor voorraadtelling
 
@@ -42,7 +42,7 @@ Voordat u het systeem instelt, wordt aangeraden om een strategie voor het werken
 
 ## <a name="turn-on-reason-code-features-in-your-system"></a>Functies voor redencodes in uw systeem inschakelen
 
-Als u in uw systeem niet alle functies ziet die in dit onderwerp worden beschreven, moet u waarschijnlijk de functie *Voorhanden correcties boeken met configureerbare redencodes die zijn gekoppeld aan tegenrekeningen* inschakelen. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en desgewenst in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
+Als u in uw systeem niet alle functies ziet die in dit artikel worden beschreven, moet u waarschijnlijk de functie *Voorhanden correcties boeken met configureerbare redencodes die zijn gekoppeld aan tegenrekeningen* inschakelen. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en desgewenst in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
 
 - **Module:** *Magazijnbeheer*
 - **Functienaam:** *Voorhanden correcties boeken met configureerbare redencodes die zijn gekoppeld aan tegenrekeningen*
@@ -111,7 +111,7 @@ Ga als volgt te werk om de redencodes voor telling in te stellen.
 
 ### <a name="set-up-counting-reason-code-groups"></a><a name="reason-groups"></a>Redencodegroepen voor telling instellen
 
-*Redencodegroepen voor telling* kunnen worden gebruikt als onderdeel van de menu-items *Correctie-invoer* en *Correctie-uitvoer* in de mobiele app Warehouse Management om de lijst met redencodes voor telling te beperken. (Zie voor meer informatie over redencodegroepen voor telling het gedeelte [Menu-items voor mobiele apparaten instellen voor correctie in en correctie uit](#setup-adjustment-in-out) verderop in dit onderwerp.)
+*Redencodegroepen voor telling* kunnen worden gebruikt als onderdeel van de menu-items *Correctie-invoer* en *Correctie-uitvoer* in de mobiele app Warehouse Management om de lijst met redencodes voor telling te beperken. (Zie voor meer informatie over redencodegroepen voor telling het gedeelte [Menu-items voor mobiele apparaten instellen voor correctie in en correctie uit](#setup-adjustment-in-out) verderop in dit artikel.)
 
 1. Ga naar het **Voorraadbeheer** \> **Instellen** \> **Voorraad** \> **Redencodegroepen voor telling**.
 1. Selecteer **Nieuw** in het actievenster om een groep toe te voegen.
@@ -174,7 +174,7 @@ Als u een menu-item voor een mobiel apparaat wilt instellen voor Correctie-invoe
         - *Verbergen*: geef de redencode niet weer.
 
     - **Redencode voor telling bewerken**: stel deze optie in op *Ja* als de medewerker de redencode mag bewerken wanneer deze tijdens het tellen wordt weergegeven op het mobiele apparaat. Stel deze optie in op *Nee* als de medewerker de code niet mag bewerken.
-    - **Redencodegroepen voor telling:** selecteer een redencodegroep als u de lijst met opties die aan medewerkers wordt getoond, wilt beperken. Raadpleeg het gedeelte [Redencodegroepen voor telling instellen](#reason-groups) eerder in dit onderwerp voor informatie over het instellen van redencodegroepen. 
+    - **Redencodegroepen voor telling:** selecteer een redencodegroep als u de lijst met opties die aan medewerkers wordt getoond, wilt beperken. Raadpleeg het gedeelte [Redencodegroepen voor telling instellen](#reason-groups) eerder in dit artikel voor informatie over het instellen van redencodegroepen. 
 
 > [!NOTE]
 > Wanneer u een redencodegroep voor telling toewijst aan de menu-items *Correctie invoer* en *Correctie uitvoer* waarbij de optie **Verwerkingsinstructies gebruiken** is ingesteld op *Ja*, kunt u een beperkte lijst met redencodes voor telling ophalen als onderdeel van de verwerking in de mobiele app Warehouse Management.

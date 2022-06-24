@@ -1,6 +1,6 @@
 ---
 title: Bewerkingen voor niet-conformeringen
-description: In dit onderwerp wordt beschreven hoe u bewerkingen voor niet-conformeringen maakt en gebruikt.
+description: In dit artikel wordt beschreven hoe u bewerkingen voor niet-conformeringen maakt en gebruikt.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35619454af8b1cb1b7d383d393362f58d9dd0ea6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d2e63156dd2b230da7f1ea89e2c2006c1b4f3eeb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573868"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847986"
 ---
 # <a name="operations-for-nonconformances"></a>Bewerkingen voor niet-conformeringen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u bewerkingen voor niet-conformeringen maakt en gebruikt.
+In dit artikel wordt beschreven hoe u bewerkingen voor niet-conformeringen maakt en gebruikt.
 
 U kunt de pagina **Bewerkingen** gebruiken om een classificaties te definiëren van het werk dat kan worden uitgevoerd voor een goedgekeurde niet-conformering. Wanneer u een gerelateerde bewerking toewijst aan een niet-conformering, kunt u details opgeven, zoals het bijbehorende materiaal, werkuren en diverse toeslagen die zijn vereist om de bewerking uit te voeren. Het systeem gebruikt deze informatie om een de geraamde kosten voor de bewerking te berekenen. De gedetailleerde informatie en de kostenraming dienen ter referentie. De gerelateerde bewerkingen voor kwaliteit verschillen van de bewerkingen die kunnen worden gedefinieerd voor een productieroute.
 

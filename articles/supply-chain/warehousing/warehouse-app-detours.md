@@ -1,6 +1,6 @@
 ---
 title: Omleidingen configureren voor stappen in menu-items van mobiele apparaten
-description: In dit onderwerp wordt beschreven hoe u omleidingen configureert voor menu-items zodat werknemers de huidige taak kunnen parkeren, een andere taak kunnen uitvoeren en vervolgens naar de oorspronkelijke taak kunnen terugkeren zonder dat er informatie verloren gaat.
+description: In dit artikel wordt beschreven hoe u omleidingen configureert voor menu-items zodat werknemers de huidige taak kunnen parkeren, een andere taak kunnen uitvoeren en vervolgens naar de oorspronkelijke taak kunnen terugkeren zonder dat er informatie verloren gaat.
 author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,21 +11,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 874abbdf7c0938a7ad4cc66e23dd01d901a1f0d3
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 69090def1bba2f64ed21cca8b6d4629083aeb0c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920343"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863587"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Omleidingen configureren voor stappen in menu-items van mobiele apparaten
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> De functies die in dit onderwerp worden beschreven, zijn alleen van toepassing op de nieuwe mobiele app van Warehouse Management. Deze hebben geen invloed op de oude magazijn-app, die nu is afgeschaft.
+> De functies die in dit artikel worden beschreven, zijn alleen van toepassing op de nieuwe mobiele app van Warehouse Management. Deze hebben geen invloed op de oude magazijn-app, die nu is afgeschaft.
 
-In dit onderwerp wordt beschreven hoe u omleidingen configureert voor menu-items zodat werknemers de huidige taak kunnen "parkeren", een andere taak kunnen uitvoeren en vervolgens naar de oorspronkelijke taak kunnen terugkeren zonder dat er informatie verloren gaat.
+In dit artikel wordt beschreven hoe u omleidingen configureert voor menu-items zodat werknemers de huidige taak kunnen 'parkeren', een andere taak kunnen uitvoeren en vervolgens naar de oorspronkelijke taak kunnen terugkeren zonder dat er informatie verloren gaat.
 
 Een omleiding is een apart menu-item dat u kunt openen vanuit een stap in een hoofdtaak. Aan het einde van de omleiding wordt de werknemer teruggestuurd naar de plaats waar ze de hoofdtaak hebben verlaten. Tijdens het configureren geeft u het menu-item op dat als omleiding moet fungeren. U selecteert ook welke veldwaarden uit de hoofdtaak automatisch moeten worden doorgestuurd (gekopieerd) naar de omleiding en daar worden ingevoerd. Daarom moet u weten waar in de taakstroom de omleiding beschikbaar moet zijn voor werknemers. U moet er ook voor zorgen dat de informatie die naar de omleiding moet worden gekopieerd, beschikbaar is voor die stap in de taakstroom.
 
@@ -46,7 +46,7 @@ Voordat u omleidingen voor stappen in menu-items van mobiele apparaten kunt conf
     - **Module:** *Magazijnbeheer*
     - **Functienaam:** *Omleidingen van app Warehouse Management*
 
-    Deze functie is de functie die in dit onderwerp wordt beschreven.
+    Deze functie is de functie die in dit artikel wordt beschreven.
 
 1. Werk de veldnamen in de mobiele app Warehouse Management bij door te gaan naar **Magazijnbeheer \> Instellingen \> Mobiel apparaat \> Veldnamen van Warehouse-app** en **Standaardinstelling maken** te selecteren. Zie [Velden configureren voor de mobiele app Magazijnbeheer](configure-app-field-names-priorities-warehouse.md) voor meer informatie.
 1. Herhaal de vorige stap voor elke rechtspersoon (bedrijf) waar u de mobiele app Warehouse Management gebruikt.
@@ -57,7 +57,7 @@ Gebruik de volgende procedure om een omleiding in te stellen vanuit een menuspec
 
 1. Maak een menuspecifieke overschrijving voor het relevante menu en de relevante stap, zoals beschreven in [Staptitels en instructies aanpassen voor de mobiele app Warehouse Management](mobile-app-titles-instructions.md).
 1. Zoek de combinatie van de waarden **Stap-ID** en **Naam van het menu-item** die u wilt bewerken, en selecteer vervolgens de waarde in de kolom **Stap-ID**.
-1. Geef op het sneltabblad **Beschikbare omleidingen (menu-items)** van de pagina die verschijnt, het menu-item op dat als omleiding moet fungeren. U kunt ook selecteren welke veldwaarden uit de hoofdtaak automatisch moeten worden gekopieerd naar en van de omleiding. Zie de scenario´s verderop in dit onderwerp voor voorbeelden over het gebruik van deze instellingen.
+1. Geef op het sneltabblad **Beschikbare omleidingen (menu-items)** van de pagina die verschijnt, het menu-item op dat als omleiding moet fungeren. U kunt ook selecteren welke veldwaarden uit de hoofdtaak automatisch moeten worden gekopieerd naar en van de omleiding. Zie de scenario´s verderop in dit artikel voor voorbeelden over het gebruik van deze instellingen.
 
 ## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a>Voorbeeldscenario 1: Verzamelen voor verkoop waarbij een locatievraag als een omleiding fungeert
 

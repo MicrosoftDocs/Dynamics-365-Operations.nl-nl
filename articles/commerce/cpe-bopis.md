@@ -1,6 +1,6 @@
 ---
 title: BOPIS configureren in een Dynamics 365 Commerce-evaluatieomgeving
-description: In dit onderwerp wordt uitgelegd hoe u online kopen, ophalen in winkel (BOPIS) kunt configureren, in een Microsoft Dynamics 365 Commerce-evaluatieomgeving nadat deze is ingericht.
+description: In dit artikel wordt uitgelegd hoe u online kopen, ophalen in winkel (BOPIS) kunt configureren, in een Microsoft Dynamics 365 Commerce-evaluatieomgeving nadat deze is ingericht.
 author: BrianShook
 ms.date: 07/16/2020
 ms.topic: article
@@ -14,30 +14,30 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1e0aabec196aa1ffd2e4d2f2691c03cf11326ee8
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 379537fd490be98497b6e7c5cdfbc33798fe28ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779789"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861961"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>BOPIS configureren in een Dynamics 365 Commerce-evaluatieomgeving
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u online kopen, ophalen in winkel (BOPIS) kunt configureren, in een Microsoft Dynamics 365 Commerce-evaluatieomgeving nadat deze is ingericht.
+In dit artikel wordt uitgelegd hoe u online kopen, ophalen in winkel (BOPIS) kunt configureren, in een Microsoft Dynamics 365 Commerce-evaluatieomgeving nadat deze is ingericht.
 
 ## <a name="prerequisite"></a>Vereiste
 
-Voltooi de procedures in dit onderwerp pas nadat uw evaluatieomgeving van Commerce is ingericht en geconfigureerd. Zie [Een omgevingomgeving van Dynamics 365 Commerce inrichten](provisioning-guide.md) en [Een evaluatieomgeving van Dynamics 365 Commerce configureren](./cpe-post-provisioning.md) voor meer informatie over het inrichten en configureren van uw omgeving.
+Voltooi de procedures in dit artikel pas nadat uw evaluatieomgeving van Commerce is ingericht en geconfigureerd. Zie [Een omgevingomgeving van Dynamics 365 Commerce inrichten](provisioning-guide.md) en [Een evaluatieomgeving van Dynamics 365 Commerce configureren](./cpe-post-provisioning.md) voor meer informatie over het inrichten en configureren van uw omgeving.
 
-Nadat uw Commerce-omgeving is ingericht en volledig is geconfigureerd, kunt u dit onderwerp gebruiken om BOPIS-scenario's in te schakelen.
+Nadat uw Commerce-omgeving is ingericht en volledig is geconfigureerd, kunt u dit artikel gebruiken om BOPIS-scenario's in te schakelen.
 
 ## <a name="configure-the-pos"></a>Het POS configureren
 
 ### <a name="configure-modern-pos"></a>Modern POS configureren
 
-BOPIS-scenario's waarbij een creditcardbetaling nodig is, vereisen een hardwarestation. Het hardwarestation is ingebouwd in de Modern POS-programma's voor Windows en Android-clients. Als u met Cloud POS of Modern POS voor iOS werkt, moet de POS-client zijn gekoppeld aan een gedeeld hardwarestation. In dit onderwerp wordt uitgelegd hoe u BOPIS configureert voor Windows en Android-clients. Zie voor meer informatie over het instellen van een gedeeld hardwarestation het onderwerp [Retail Hardware Station configureren en installeren](./retail-hardware-station-configuration-installation.md).
+BOPIS-scenario's waarbij een creditcardbetaling nodig is, vereisen een hardwarestation. Het hardwarestation is ingebouwd in de Modern POS-programma's voor Windows en Android-clients. Als u met Cloud POS of Modern POS voor iOS werkt, moet de POS-client zijn gekoppeld aan een gedeeld hardwarestation. In dit artikel wordt uitgelegd hoe u BOPIS configureert voor Windows en Android-clients. Zie voor meer informatie over het instellen van een gedeeld hardwarestation het onderwerp [Retail Hardware Station configureren en installeren](./retail-hardware-station-configuration-installation.md).
 
 1. Ga naar **Detailhandel en Commerce \> Kanaalinstellingen \> POS-instellingen \> Kassa's**.
 2. Selecteer **SANFRAN-5** registreren en vervolgens **Bewerken**.
@@ -67,7 +67,7 @@ BOPIS-scenario's waarbij een creditcardbetaling nodig is, vereisen een hardwares
 5. Het verificatiedialoogvenster wordt weergegeven. Selecteer de account die gebruikmaakt van het e-mailadres dat eerder is gekoppeld aan werknemer **000713 - Andrew Collette**.
 
     > [!NOTE]
-    > Als u nog geen werknemer hebt gekoppeld aan uw identiteit, wordt de activering niet voltooid. Volg in dat geval de stappen onder de sectie "Een medewerker aan uw identiteit koppelen" in het onderwerp [Een Dynamics 365 Commerce-evaluatieomgeving configureren](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
+    > Als u nog geen werknemer hebt gekoppeld aan uw identiteit, wordt de activering niet voltooid. Volg in dat geval de stappen onder de sectie "Een medewerker aan uw identiteit koppelen" in het artikel [Een Dynamics 365 Commerce-evaluatieomgeving configureren](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
     
 6. Selecteer **Alleen deze app** bij de vraag en laat uw organisatie het apparaat beheren.
 7. Wanneer de activering is voltooid, selecteert u **Aan de slag**.

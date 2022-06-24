@@ -1,6 +1,6 @@
 ---
 title: Instelling van parameterwaarden voor kostprijsberekening
-description: Wanneer u de module Francoprijzen instelt, kunt u verschillende sets algemene waarden definiëren die beschikbaar zijn wanneer u specifieke typen parameterwaarden voor kostprijsberekening selecteert in andere delen van de app. In dit onderwerp wordt uitgelegd hoe u deze waardensets instelt.
+description: Wanneer u de module Francoprijzen instelt, kunt u verschillende sets algemene waarden definiëren die beschikbaar zijn wanneer u specifieke typen parameterwaarden voor kostprijsberekening selecteert in andere delen van de app. In dit artikel wordt uitgelegd hoe u deze waardensets instelt.
 author: Weijiesa
 ms.date: 12/07/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ed20181201a2f3f84c3dc08549f4f107d46a50a2
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ca3633cd8a3fb053bda597b968003685aa2326ef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689742"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852326"
 ---
 # <a name="costing-parameter-values-setup"></a>Instelling van parameterwaarden voor kostprijsberekening
 
 [!include [banner](../../includes/banner.md)]
 
-Wanneer u de module **Francoprijzen** instelt, kunt u verschillende sets algemene waarden en gerelateerde instellingen per waarde definiëren. Deze waarden zijn dan beschikbaar wanneer u specifieke typen parameterwaarden voor kostprijsberekening selecteert in andere delen van de app. In dit onderwerp wordt uitgelegd hoe u deze waardensets instelt.
+Wanneer u de module **Francoprijzen** instelt, kunt u verschillende sets algemene waarden en gerelateerde instellingen per waarde definiëren. Deze waarden zijn dan beschikbaar wanneer u specifieke typen parameterwaarden voor kostprijsberekening selecteert in andere delen van de app. In dit artikel wordt uitgelegd hoe u deze waardensets instelt.
 
 ## <a name="set-up-cost-type-codes"></a>Codes voor kostentypen instellen
 

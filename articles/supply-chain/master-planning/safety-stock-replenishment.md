@@ -1,6 +1,6 @@
 ---
-title: Afhandeling van veiligheidsvoorraad voor artikelen
-description: Dit onderwerp heeft betrekking op het afhandelen van veiligheidsvoorraad en het instellen van een hoeveelheid veiligheidsvoorraad voor artikelen.
+title: Veiligheidsvoorraadafhandeling voor items
+description: Dit artikel heeft betrekking op het afhandelen van veiligheidsvoorraad en het instellen van een hoeveelheid veiligheidsvoorraad voor artikelen.
 author: t-benebo
 ms.date: 8/23/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c539b804198ddc5d5dac52c958a851ee55116711
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 70461ad1de94c984cb41e6b1d46af9e310a928d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672061"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887394"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Afhandeling van veiligheidsvoorraad voor artikelen
 
@@ -88,7 +88,7 @@ Als er **minimumsleutels** worden gebruikt, schakelt u het selectievakje **Minim
 In het volgende scenario ziet u hoe deze parameter werkt en wat de verschillen tussen de waarden zijn.
 
 > [!NOTE]
-> Voor alle afbeeldingen in dit onderwerp vertegenwoordigt de x-as de voorraad en de y-as het aantal dagen. Met de balken wordt het voorraadniveau aangegeven en de pijlen staan voor transacties, zoals verkooporderregels, inkooporderregels of geplande orders.
+> Voor alle afbeeldingen in dit artikel vertegenwoordigt de x-as de voorraad en de y-as het aantal dagen. Met de balken wordt het voorraadniveau aangegeven en de pijlen staan voor transacties, zoals verkooporderregels, inkooporderregels of geplande orders.
 
 [![Gangbaar scenario voor afhandeling van veiligheidsvoorraad.](media/Scenario1.png)](media/Scenario1.png)
 

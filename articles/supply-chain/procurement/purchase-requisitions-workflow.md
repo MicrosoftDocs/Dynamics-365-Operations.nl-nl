@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3381c752e4f1f723162ad314c29ab477caf635a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6934c1147de79c24eb66127d2e08ae8b627bc744
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675930"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849353"
 ---
 # <a name="purchase-requisition-workflow"></a>Werkstroom voor opdrachten tot inkoop
 
@@ -89,7 +89,7 @@ In dit voorbeeld omvat het workflowproces voor de regels in de opdracht tot inko
 ## <a name="configuring-a-workflow-for-purchase-requisitions"></a>Een workflow voor opdrachten tot inkoop configureren
 Om een opdracht tot inkoop ter controle te routeren, moet u de workflowprocessen voor de opdracht tot inkoop configureren. Het workflowproces dat u definieert, controleert de interactie tussen de gebruiker die de artikelen heeft aangevraagd (de aanvrager) en de controleur en goedkeurder in de workflow. De route van de opdracht tot inkoop is afhankelijk van de voorwaarden die in de workflowconfiguratie zijn opgegeven. Bijvoorbeeld: deze voorwaarden definiëren wanneer de opdracht tot inkoop moet worden doorgestuurd, de gebruiker of rol waarnaar het moet worden doorgestuurd, en de acties die gebruikers kunnen uitvoeren.  
 
-De voorbeelden in dit onderwerp beschrijven hoe een opdracht tot inkoop kan worden gerouteerd via een workflow als één document of als individuele regels in een opdracht tot inkoop. U kunt ook een workflow voor opdrachten tot inkoop configureren die de interne controle van opdrachten tot inkoop weerspiegelt die voor uw organisatie is gedefinieerd.  
+De voorbeelden in dit artikel beschrijven hoe een opdracht tot inkoop kan worden gerouteerd via een workflow als één document of als individuele regels in een opdracht tot inkoop. U kunt ook een workflow voor opdrachten tot inkoop configureren die de interne controle van opdrachten tot inkoop weerspiegelt die voor uw organisatie is gedefinieerd.  
 
 De deelnemers of controleurs aan wie een taak in een werkstroom wordt toegewezen kunnen lid zijn van een bepaalde gebruikersgroep, gebruikers zijn die een bepaalde beveiligingsrol hebben, gebruikers zijn die gekoppeld zijn aan de indiener in een managementhiërarchie of benoemde gebruikers of gebruikers die specifieke uitgavenverantwoordelijkheden hebben.
 

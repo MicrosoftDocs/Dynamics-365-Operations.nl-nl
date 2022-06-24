@@ -1,6 +1,6 @@
 ---
 title: Niet-gekoppelde restituties verwerken met Dynamics 365 Commerce Payment Connector voor Adyen
-description: In dit onderwerp wordt beschreven hoe niet-gekoppelde restituties werken wanneer Microsoft Dynamics 365 Payment Connector voor Adyen wordt gebruikt.
+description: In dit artikel wordt beschreven hoe niet-gekoppelde restituties werken wanneer Microsoft Dynamics 365 Payment Connector voor Adyen wordt gebruikt.
 author: BrianShook
 ms.date: 10/07/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c137dcf7d35031a293c88d8c4f5dc1e5f3d9e2f9
-ms.sourcegitcommit: a21a664cd35b95c8600c5af0aac588a64e892902
+ms.openlocfilehash: 634b30de7adbfb0c316fe14456581ea8eb89d070
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623916"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885192"
 ---
 # <a name="process-unlinked-refunds-with-the-dynamics-365-commerce-payment-connector-for-adyen"></a>Niet-gekoppelde restituties verwerken met Dynamics 365 Commerce Payment Connector voor Adyen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe niet-gekoppelde restituties werken wanneer [Microsoft Dynamics 365 Payment Connector voor Adyen](adyen-connector.md) wordt gebruikt. Daarnaast wordt gekeken naar de mogelijkheid om een restitutie te verwerken met een nieuwe betalingsmethode in een POS of callcenter.
+In dit artikel wordt beschreven hoe niet-gekoppelde restituties werken wanneer [Microsoft Dynamics 365 Payment Connector voor Adyen](adyen-connector.md) wordt gebruikt. Daarnaast wordt gekeken naar de mogelijkheid om een restitutie te verwerken met een nieuwe betalingsmethode in een POS of callcenter.
 
 Met Dynamics 365 Payment Connector voor Adyen kunt u restituties verwerken met een andere betalingsmethode dan is gebruikt voor de oorspronkelijke transactie. Hoewel het raadzaam is om [gekoppelde restituties](linked-refunds.md) te gebruiken om een restitutie te verwerken ten opzichte van de oorspronkelijke betalingsmethode die is opgegeven, zijn restituties op een andere betalingsmethode in sommige scenario's vereist. De kaart die voor de oorspronkelijke betaling is gebruikt, kan bijvoorbeeld nu zijn verlopen of verloren of kan zijn geannuleerd door de gebruiker.
 

@@ -1,6 +1,6 @@
 ---
 title: Waves maken en verwerken
-description: In dit onderwerp wordt beschreven hoe u handmatig een wave kunt maken, verwerken en vrijgeven om verzamelwerk te maken voor een lading, zending, productieorder of kanbanorder.
+description: In dit artikel wordt beschreven hoe u handmatig een wave kunt maken, verwerken en vrijgeven om verzamelwerk te maken voor een lading, zending, productieorder of kanbanorder.
 author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 349285f089ecab00c4c1c0a0315c4223314e3e79
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3347db6395b7da396c42f84881060f476346d2e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687499"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851270"
 ---
 # <a name="wave-creation-and-processing"></a>Waves maken en verwerken
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u handmatig een wave kunt maken, verwerken en vrijgeven om verzamelwerk te maken voor een lading, zending, productieorder of kanbanorder. U kunt waves maken voor de volgende typen orders:
+In dit artikel wordt beschreven hoe u handmatig een wave kunt maken, verwerken en vrijgeven om verzamelwerk te maken voor een lading, zending, productieorder of kanbanorder. U kunt waves maken voor de volgende typen orders:
 
 - **Verkooporders**: gebruik zendingwaves om regels van verkooporders op te nemen. Wanneer een verkooporder aan het magazijn wordt vrijgegeven, kunnen de verkooporderregels in de wave worden opgenomen.
 - **Productieorders**: gebruik productiewaves om regels van de stuklijst (BOM) voor een product op te nemen.

@@ -1,6 +1,6 @@
 ---
 title: Productieparameters in Productieregistratie
-description: In dit onderwerp vindt u informatie over het instellen van productieparameters in Productieregistratie.
+description: In dit artikel vindt u informatie over het instellen van productieparameters in Productieregistratie.
 author: johanhoffmann
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ce0dadd353df756a468384e3bf8e68c0ad2033a7042b4986fce41aa0764afdbc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d74b6c82c573810da9cbfe14745f997f40d408fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752725"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873661"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Productieparameters in Productieregistratie
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp vindt u informatie over het instellen van productieparameters in Productieregistratie.
+In dit artikel vindt u informatie over het instellen van productieparameters in Productieregistratie.
 
 De module **Productieregistratie** is voornamelijk bedoeld voor productiebedrijven. Deze module kan worden gebruikt om tijd- en artikelverbruik te registreren voor productietaken of projecten. Voordat u Productieregistratie voor taakregistratie gaat gebruiken, moet u verscheidene productieparameters instellen die bepalen hoe en wanneer de geregistreerde gegevens worden geboekt tijden het productieproces. De instellingen van productieparameters beïnvloeden het voorraad- en productiebeheer en de kostenberekening.
 

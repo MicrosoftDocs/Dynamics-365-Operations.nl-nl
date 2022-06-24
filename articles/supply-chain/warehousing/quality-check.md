@@ -1,6 +1,6 @@
 ---
 title: Kwaliteitscontrole
-description: Dit onderwerp bevat informatie over de functie voor kwaliteitscontrole. Met deze functie kunnen magazijnmedewerkers snel controleren op kwaliteit terwijl zij artikelen ontvangen naar het inkomend docking-gebied.
+description: Dit artikel bevat informatie over de functie voor kwaliteitscontrole. Met deze functie kunnen magazijnmedewerkers snel controleren op kwaliteit terwijl zij artikelen ontvangen naar het inkomend docking-gebied.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: c5a4b380529ca8cb9c3474b363c7f9ba4220ff2b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: ceb01205edc269690fda306bc90f465dbccc563b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677977"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855052"
 ---
 # <a name="quality-check"></a>Kwaliteitscontrole
 
@@ -41,11 +41,11 @@ Dit proces kan ook zo worden ingesteld dat alle gescande nummerplaten direct naa
 
 ## <a name="turn-the-quality-check-feature-on-or-off"></a>De functie Kwaliteitscontrole in- of uitschakelen
 
-Als u de functionaliteit wilt gebruiken die in dit onderwerp wordt beschreven, moet de functie *Kwaliteitscontrole* zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Kwaliteitscontrole* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Als u de functionaliteit wilt gebruiken die in dit artikel wordt beschreven, moet de functie *Kwaliteitscontrole* zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Kwaliteitscontrole* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>De functie instellen voor het voorbeeldscenario
 
-Deze sectie bevat richtlijnen en een voorbeeld waarin wordt uitgelegd hoe u de functie *Kwaliteitscontrole* instelt en voorbeeldgegevens voorbereidt voor het voorbeeldscenario dat verderop in dit onderwerp wordt gegeven.
+Deze sectie bevat richtlijnen en een voorbeeld waarin wordt uitgelegd hoe u de functie *Kwaliteitscontrole* instelt en voorbeeldgegevens voorbereidt voor het voorbeeldscenario dat verderop in dit artikel wordt gegeven.
 
 ### <a name="make-sample-data-available"></a>Voorbeeldgegevens beschikbaar maken
 
@@ -270,7 +270,7 @@ Configureer een menuopdracht zodat mobiele apparaten de functie **Kwaliteitscont
 
 ## <a name="example-scenario"></a><a name="example-scenario"></a>Voorbeeldscenario
 
-Nadat u alle eerder beschreven voorbeeldgegevens hebt gemaakt en ingesteld, kunt u dit scenario doorlopen om de functie *Kwaliteitscontrole* uit te proberen. Bij de waarden die in dit scenario worden weergegeven, wordt ervan uitgegaan dat u werkt met de standaarddemonstratiegegevens, dat u de rechtspersoon **USMF** hebt geselecteerd en dat u de voorbeeldrecords hebt voorbereid die eerder in dit onderwerp zijn beschreven. Dit scenario dient ook als voorbeeld waarin wordt aangegeven hoe de functie in een productie-instelling kan worden gebruikt.
+Nadat u alle eerder beschreven voorbeeldgegevens hebt gemaakt en ingesteld, kunt u dit scenario doorlopen om de functie *Kwaliteitscontrole* uit te proberen. Bij de waarden die in dit scenario worden weergegeven, wordt ervan uitgegaan dat u werkt met de standaarddemonstratiegegevens, dat u de rechtspersoon **USMF** hebt geselecteerd en dat u de voorbeeldrecords hebt voorbereid die eerder in dit artikel zijn beschreven. Dit scenario dient ook als voorbeeld waarin wordt aangegeven hoe de functie in een productie-instelling kan worden gebruikt.
 
 ### <a name="create-a-purchase-order"></a>Inkooporder maken
 
@@ -357,7 +357,7 @@ Voor dit scenario wordt pallet 2 afgewezen.
 
 U hebt de kwaliteitscontrole nu voltooid en een kwaliteitsorder gemaakt voor de afgekeurde pallet. Als u de gemaakte order wilt weergeven, gaat u naar **Voorraadbeheer \> Periodieke taken \> Kwaliteitsbeheer \> Kwaliteitsorders**.
 
-Het testen van kwaliteitsorders kan nu worden verwerkt. Kwaliteitstests worden niet behandeld in dit onderwerp.
+Het testen van kwaliteitsorders kan nu worden verwerkt. Kwaliteitstests worden niet behandeld in dit artikel.
 
 Zie voor meer informatie over kwaliteitsbeheer [Overzicht van kwaliteitsbeheer](../inventory/enable-quality-management.md)
 

@@ -1,8 +1,8 @@
 ---
-title: Voorraadtoewijzing voor voorraadzichtbaarheid
-description: In dit onderwerp wordt uitgelegd hoe u de voorraadtoewijzingsfunctie kunt instellen en gebruiken. Met deze functie kunt u speciale voorraad apart zetten om ervoor te zorgen dat u uw meest winstgevende kanalen of klanten kunt bedienen.
+title: Voorraadtoewijzing Inventory Visibility
+description: In dit artikel wordt uitgelegd hoe u de voorraadtoewijzingsfunctie kunt instellen en gebruiken. Met deze functie kunt u speciale voorraad apart zetten om ervoor te zorgen dat u uw meest winstgevende kanalen of klanten kunt bedienen.
 author: yufeihuang
-ms.date: 05/20/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-13
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 4293ead4ccfc9ba04e8b9da437134b4e97569026
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: ccc3a8c4b3d0649397b1d1f9139f7feebf39b02f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786945"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852500"
 ---
 # <a name="inventory-visibility-inventory-allocation"></a>Voorraadtoewijzing voor voorraadzichtbaarheid
 
@@ -98,7 +98,7 @@ Dit zijn de eerste berekende metingen:
 
 ### <a name="add-other-physical-measures-to-the-available-to-allocate-calculated-measure"></a>Andere fysieke metingen toevoegen aan de berekende meting beschikbaar voor toewijzing
 
-Als u gebruik wilt maken van de toewijzing, moet u de berekende meting beschikbaar voor toewijzing (`@iv`.`@available_to_allocate`) instellen. U hebt bijvoorbeeld gegevensbron `fno` en meting `onordered`, gegevensbron `pos` en meting `inbound` en u wilt toewijzing uitvoeren op de voorhanden voorraad voor de som van `fno.onordered` en `pos.inbound` In dit geval moet `@iv.@available_to_allocate` `pos.inbound` en `fno.onordered` in de formule bevatten. Dit is een voorbeeld:
+Als u gebruik wilt maken van de toewijzing, moet u de berekende meting beschikbaar voor toewijzing (`@iv.@available_to_allocate`) instellen. U hebt bijvoorbeeld gegevensbron `fno` en meting `onordered`, gegevensbron `pos` en meting `inbound` en u wilt toewijzing uitvoeren op de voorhanden voorraad voor de som van `fno.onordered` en `pos.inbound` In dit geval moet `@iv.@available_to_allocate` `pos.inbound` en `fno.onordered` in de formule bevatten. Dit is een voorbeeld:
 
 `@iv.@available_to_allocate` = `fno.onordered` + `pos.inbound` – `@iv.@allocated`
 
@@ -110,11 +110,12 @@ U stelt de groepsnamen op de pagina **Configuratie Power App Voorraadzichtbaarhe
 
 Als u bijvoorbeeld vier groepsnamen gebruikt en deze instelt op \[`channel`, `customerGroup`, `region`, `orderType`\], zijn deze namen geldig voor toewijzingsgerelateerde aanvragen wanneer u de API voor het bijwerken van configuraties oproept.
 
-### <a name="allcoation-using-tips"></a>Toewijzing met tips
+### <a name="allocation-using-tips"></a>Toewijzing met tips
 
-- Voor elk product moet de toewijzingsfunctie op hetzelfde dimensieniveau worden gebruikt volgens de productindexhiërarchie die u in de [productindexhiërarchieconfiguratie](inventory-visibility-configuration.md#index-configuration) hebt ingesteld. De indexhiërarchie is bijvoorbeeld Site, Locatie, Kleur, Grootte. Als u een bepaalde hoeveelheid voor één product toewijst op het niveau van site, locatie, kleur. De volgende keer dat u toewijzingen gebruikt, moet dit ook op het niveau van site, locatie, kleur zijn. Als u niveau van vestiging, locatie, kleur, grootte of niveau van vestiging, locatie gebruikt, zijn de gegevens niet consistent.
+- Voor elk product moet de toewijzingsfunctie op hetzelfde *dimensieniveau* worden gebruikt volgens de productindexhiërarchie die u in de [productindexhiërarchieconfiguratie](inventory-visibility-configuration.md#index-configuration) hebt ingesteld. Stel bijvoorbeeld dat uw indexhiërarchie \[`Site`, `Location`, `Color`, `Size`\] is. Als u een bepaalde hoeveelheid voor één product toewijst op het niveau \[`Site`, `Location`, `Color`\], moet u bij een volgende toewijzing van dit product toewijzen op hetzelfde niveau (\[`Site`, `Location`, `Color`\]). Als u het niveau \[`Site`, `Location`, `Color`, `Size`\] of \[`Site`, `Location`\] gebruikt, worden de gegevens inconsistent.
 - Het wijzigen van de naam van de toewijzingsgroep heeft geen invloed op de gegevens die in de service zijn opgeslagen.
 - De toewijzing moet plaatsvinden als het product de positieve voorhanden hoeveelheid heeft.
+- Als u producten van een groep met een *hoog toewijzingsniveau* aan een subgroep wilt toewijzen, gebruikt u de `Reallocate`-API. Als u een toewijzingsgroepshiërarchie \[`channel`, `customerGroup`, `region`, `orderType`\] hebt en een product uit de toewijzingsgroep \[Online, VIP\] wilt toewijzen aan de subtoewijzingsgroep \[Online, VIP, EU\], gebruikt u de `Reallocate`-API om de hoeveelheid te verplaatsen. Als u de `Allocate`-API gebruikt, wordt de hoeveelheid toegewezen vanuit de virtuele gemeenschappelijke pool.
 
 ### <a name="using-the-allocation-api"></a><a name="using-allocation-api"></a>De toewijzings-API gebruiken
 
@@ -297,7 +298,7 @@ Na deze aanroep wordt de toegewezen hoeveelheid voor het product verminderd met 
 
 In deze aanvraag moet het tegenovergestelde modificatortype (Optellen of Aftrekken) worden gebruikt voor de fysieke meting die u in de verbruikstekst gebruikt, vergeleken met het modificatortype dat in de berekende meting is gebruikt. In deze verbruikstekst heeft `iv.inbound` dus de waarde `Subtraction` en niet `Addition`.
 
-Gegevensbron `fno` kan niet in de verbruikstekst worden gebruikt, omdat we altijd hebben gesteld dat voorraadzichtbaarheid geen gegevens voor de gegevensbron `fno` kan wijzigen. De gegevensstroom verloopt in één richting, wat betekent dat alle hoeveelheidswijzigingen voor de gegevensbron `fno` afkomstig moeten zijn uit uw Supply Chain Management-omgeving.
+De gegevensbron `fno` kan niet in de verbruikstekst worden gebruikt, omdat we altijd hebben gesteld dat voorraadzichtbaarheid geen gegevens voor de gegevensbron `fno` kan wijzigen. De gegevensstroom verloopt in één richting, wat betekent dat alle hoeveelheidswijzigingen voor de gegevensbron `fno` afkomstig moeten zijn uit uw Supply Chain Management-omgeving.
 
 #### <a name="consume-as-a-soft-reservation"></a><a name="consume-to-soft-reserved"></a>Verbruiken als een zachte reservering
 
@@ -343,7 +344,7 @@ In deze aanvraag heeft `iv.softreserved` de waarde `Addition` en niet `Subtracti
 
 #### <a name="query"></a>Vraag
 
-Gebruik de API `Query` om toewijzingsgerelateerde informatie voor bepaalde producten op te halen. U kunt dimensiefilters en toewijzingsgroepsfilters gebruiken om de resultaten te beperken. De dimensies moeten exact overeenkomen met de dimensie die u wilt ophalen, bijvoorbeeld \[site=1, locatie=11\] heeft niet-gerelateerde resultaten vergeleken met \[site=1, locatie=11, kleur=rood\].
+Gebruik de `Query`-API om toewijzingsgerelateerde informatie voor bepaalde producten op te halen. U kunt dimensiefilters en toewijzingsgroepsfilters gebruiken om de resultaten te beperken. De dimensies moeten exact overeenkomen met de dimensie die u wilt ophalen, bijvoorbeeld \[site=1, locatie=11\] heeft niet-gerelateerde resultaten vergeleken met \[site=1, locatie=11, kleur=rood\].
 
 ```json
 {

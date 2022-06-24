@@ -1,6 +1,6 @@
 ---
 title: Ondersteuning voor Inventory Visibility voor WHS-artikelen
-description: In dit onderwerp wordt de ondersteuning van Voorraadzichtbaarheid beschreven voor artikelen die zijn ingeschakeld voor geavanceerde magazijnprocessen (WHS-artikelen).
+description: In dit artikel wordt de ondersteuning van Voorraadzichtbaarheid beschreven voor artikelen die zijn ingeschakeld voor geavanceerde magazijnprocessen (WHS-artikelen).
 author: yufeihuang
 ms.date: 03/10/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-10
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: cfbff05697f4159cb74d110887b8029f28fbf96b
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: ec2254d6cf203216acea88fdfb54ad491abdeb49
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625382"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895665"
 ---
 # <a name="inventory-visibility-support-for-whs-items"></a>Ondersteuning voor Inventory Visibility voor WHS-artikelen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt de ondersteuning van Voorraadzichtbaarheid beschreven voor artikelen die zijn ingeschakeld voor geavanceerde magazijnprocessen (WHS-artikelen). De functie waarmee u deze mogelijkheid aan Voorraadzichtbaarheid toevoegt, heet *Advanced WHS*.
+In dit artikel wordt de ondersteuning van Voorraadzichtbaarheid beschreven voor artikelen die zijn ingeschakeld voor geavanceerde magazijnprocessen (WHS-artikelen). De functie waarmee u deze mogelijkheid aan Voorraadzichtbaarheid toevoegt, heet *Advanced WHS*.
 
 ## <a name="whs-items"></a>WHS-artikelen
 

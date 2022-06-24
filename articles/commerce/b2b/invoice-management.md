@@ -1,6 +1,6 @@
 ---
 title: Factuurbeheer voor B2B-e-commercewebsites
-description: In dit onderwerp worden de factuurbeheermogelijkheden van B2B-e-commercewebsites met Microsoft Dynamics 365 Commerce beschreven.
+description: In dit artikel worden de factuurbeheermogelijkheden van B2B-e-commercewebsites met Microsoft Dynamics 365 Commerce beschreven.
 author: shajain
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 60cb0c8aaede4a0eaeed80cf5ebe41068da57836
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: fa6b81187481a6b7f47ea02291e5a581052d6c7b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686295"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854921"
 ---
 # <a name="invoice-management-for-b2b-e-commerce-websites"></a>Factuurbeheer voor B2B-e-commercewebsites
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp worden de factuurbeheermogelijkheden van B2B-e-commercewebsites met Microsoft Dynamics 365 Commerce beschreven.
+In dit artikel worden de factuurbeheermogelijkheden van B2B-e-commercewebsites met Microsoft Dynamics 365 Commerce beschreven.
 
 Het is gebruikelijk voor bedrijven die B2B-transacties verwerken om orders op klantkrediet te accepteren en vervolgens een factuur naar klanten te sturen nadat ze de order hebben afgehandeld. Er worden betalingsvoorwaarden gedefinieerd voor klanten en er kunnen enkele kortingen zijn om klanten te motiveren om tijdig of voortijdig te betalen. Om de waarschijnlijkheid te vergroten dat betalingen op tijd worden ontvangen, kunnen klanten op B2B-e-commercewebsites al hun facturen bekijken. De klant kan de facturen eenvoudig filteren om betaalde, onbetaalde of gedeeltelijk betaalde facturen en de vervaldatums weer te geven.
 

@@ -1,30 +1,24 @@
 ---
 title: Een experiment instellen
-description: In dit onderwerp wordt beschreven hoe u een experiment in een service van derden instelt.
+description: In dit artikel wordt beschreven hoe u een experiment in een service van derden instelt.
 author: sushma-rao
-ms.date: 10/21/2020
+ms.date: 06/08/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
-ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 870bcb9cc63fd4dbf6d7b40d730edfad7783540d5d943896e0129d29572fa875
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1073cdc509622279ce7388b8b406079a4e6e9e09
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769390"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946161"
 ---
 # <a name="set-up-an-experiment"></a>Een experiment instellen
 
-Nadat u [een hypothese hebt gedefinieerd en hebt bepaald welke metrische gegevens voor succes u wilt gebruiken](experimentation-identify.md), moet u uw experiment instellen in de service van derden. In het volgende diagram ziet u alle stappen voor het instellen en uitvoeren van een experiment op een e-Commerce-website in Dynamics 365 Commerce. Extra stappen worden in afzonderlijke onderwerpen behandeld.
+Nadat u [een hypothese hebt gedefinieerd en hebt bepaald welke metrische gegevens voor succes u wilt gebruiken](experimentation-identify.md), moet u uw experiment instellen in de service van derden. In het volgende diagram ziet u alle stappen voor het instellen en uitvoeren van een experiment op een e-Commerce-website in Dynamics 365 Commerce. Extra stappen worden in afzonderlijke artikelen behandeld.
 
 [ ![Traject van gebruiker voor experimenten - instellen.](./media/experimentation_setup.svg) ](./media/experimentation_setup.svg#lightbox)
 
@@ -37,13 +31,55 @@ Voer de stappen uit die nodig zijn om uw experiment te maken in de service van d
 ## <a name="set-up-your-success-metrics"></a>Uw metrische gegevens voor succes instellen
 Voor elk experiment zijn metrische gegevens nodig om de impact van de variaties te meten en de hypothese te valideren. Voer de volgende stappen uit om de berekening van metrische gegevens in de service van derden via live telemetrie-gebeurtenissen in te schakelen in Dynamics 365 Commerce.
 
-Voer de volgende stappen uit om uw metrische gegevens voor succes in te stellen.
+Volg deze stappen om uw metrische gegevens voor succes in te stellen voor kant-en-klare modules.
 
 1. Selecteer in Commerce Site Builder **Pagina's** in het linkernavigatievenster en selecteer vervolgens de pagina waarvoor u metrische gegevens wilt verzamelen. 
 1. Ga naar de sectie **Bij te houden gebeurtenis-ID´s** in het eigenschappenvenster aan de rechterzijde van de pagina of module die u wilt bijhouden.
-1. Selecteer **Weergeven**. Er wordt een lijst weergegeven met alle gebeurtenis-ID's. Kopieer de gebeurtenis die u wilt bijhouden en plak de gebeurtenissleutel op de opgegeven locatie in de service van derden. Als u meer dan één gebeurtenis nodig hebt, kopieert u de sleutels een voor een. 
-    - Voor meer informatie over het weergeven van alle beschikbare gebeurtenissen en kenmerken, waaronder paginaweergaven en opbrengstentracering, raadpleegt u [Commerce-onderdeelgebeurtenissen voor diagnose en probleemoplossing](dev-itpro/retail-component-events-diagnostics-troubleshooting.md).
+1. Selecteer **Weergeven**. Er wordt een lijst weergegeven met alle klikgebeurtenis-id's. Kopieer de gebeurtenis die u wilt bijhouden en plak de gebeurtenissleutel op de opgegeven locatie in de service van derden. Als u meer dan één gebeurtenis nodig hebt, kopieert u de sleutels een voor een. 
+1. Voor paginaweergaven gebruikt u de SHA-256-hashwaarde van de paginanaam in Site Builder en voegt u hieraan `.PageView` toe. De gebeurtenis-id voor `Homepage.PageView` zou bijvoorbeeld `e217eb66c7808ecc43b0f5c517c6a83b39d72b91412fbd54a485da9d8e186a9` zijn.
 1. Voer eventuele andere stappen uit voor het bijhouden van metrische gegevens zoals in de service van derden is vereist.
+
+Volg deze stappen om de klikgebeurtenissen te instrumenteren voor aangepaste moduleklikken:
+
+1. Gebruik de onderstaande functie om een object **TelemetryContent** voor te bereiden. Met deze functie worden de paginanaam, de modulenaam en het door de SDK geleverde standaard telemetrieobject als invoer gebruikt.
+
+    ```TypeScript
+    getTelemetryObject(pageName: string, moduleName: string, telemetry: ITelemetry): ITelemetryContent
+    ```
+    
+    Hier volgt een voorbeeld: 
+    
+    ```TypeScript
+    private readonly telemetryContent: ITelemetryContent = getTelemetryObject(this.props.context.request.telemetryPageName!, this.props.friendlyName, this.props.telemetry);
+    ```
+    
+1. Maak de nettoladinggegevens die informatie bevatten over wat er moet worden vastgelegd. Voor knoppen en andere statische besturingselementen kunt u **etext** opnemen, zoals 'Nu winkelen' of 'Zoeken'. En voor componenten met klikken, bijvoorbeeld klikken op een productkaart, kunt u de **recid** verzenden. Dit is de record-id van het product of de product-id.
+
+    ```TypeScript
+    getPayloadObject(eventType: string, telemetryContent: ITelemetryContent, etext: string, recid?: string): IPayLoad
+    ```
+    Als voorbeeld voor statische besturingselementen geeft u de tekenreeks voor de knoptekst door zoals hieronder wordt weergegeven:
+
+    ```TypeScript
+    const payLoad = getPayloadObject('click', this.props.telemetryContent, 'Shop Now', '');
+    ```
+    Als een voorbeeld van productklikken geeft u de recordId voor het product door zoals hieronder wordt weergegeven:
+
+    ```TypeScript
+    const payLoad = getPayloadObject('click', telemetryContent!, '', product.RecordId.toString());
+    ```
+    
+1. Roep de functie **OnClick** aan om de gebeurtenis te registreren.
+
+    ```TypeScript
+    onTelemetryClick = (telemetryContent: ITelemetryContent, payLoad: IPayLoad, linkText: string) => () =>
+    ```
+
+    Hier volgt een voorbeeld:
+
+    ```TypeScript
+    onClick: onTelemetryClick(this.props.telemetryContent, payLoad, linkText)
+    ```
 
 ## <a name="previous-step"></a>Vorige stap
 [Een hypothese opstellen en metrische gegevens bepalen voor een experiment](experimentation-identify.md) 

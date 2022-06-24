@@ -1,6 +1,6 @@
 ---
 title: Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.8 (februari 2020)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Supply Chain Management 10.0.8.
+description: In dit artikel worden de functies beschreven die in Dynamics 365 Supply Chain Management 10.0.8 nieuw of gewijzigd zijn.
 author: kamaybac
 ms.date: 01/23/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: b8508301b3dfcb36d876de0f3195c247caefcfcd22e476461ab1e8721b37976d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ece7fcac013ddb5a23ffc1a01bbd7f4e64a2b7d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773389"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907459"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.8 (februari 2020)
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management 10.0.8. Deze versie heeft een buildnummer van 10.0.319 en is als volgt beschikbaar:
+In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management 10.0.8. Deze versie heeft een buildnummer van 10.0.319 en is als volgt beschikbaar:
 
 - **Preview-versie:** december 2019
 - **Algemene beschikbaarheid (zelfupdate):** januari 2020
@@ -33,7 +33,7 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Mi
 
 ## <a name="features-included-in-this-release"></a>Functies in deze versie
 
-Deze versie bevat de volgende functies. De functietitels verwijzen naar extra informatie op de site [Release plans](/dynamics365/release-plans/). Extra koppelingen verwijzen naar extra documentatie of video's die momenteel beschikbaar zijn voor die functie. Een aantal van deze functies kan ook in een eerdere incrementele release zijn opgenomen, maar is niet aangekondigd in een eerder onderwerp *Nieuwe functies*. Daarom worden ze hier toegevoegd. De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken.
+Deze versie bevat de volgende functies. De functietitels verwijzen naar extra informatie op de site [Release plans](/dynamics365/release-plans/). Extra koppelingen verwijzen naar extra documentatie of video's die momenteel beschikbaar zijn voor die functie. Een aantal van deze functies kan ook in een eerdere incrementele release zijn opgenomen, maar is niet aangekondigd in een eerder artikel *Nieuwe functies*. Daarom worden ze hier toegevoegd. De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken.
 
 - [Extra locatiezone](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
 
@@ -74,12 +74,12 @@ Bekijk [Dynamics 365: releasewave 2-plan van 2019](/dynamics365-release-plan/201
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Verwijderde en afgeschafte functies voor Supply Chain Management
 
-In het onderwerp [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) worden functies beschreven die zijn of worden verwijderd voor Supply Chain Management.
+In het artikel [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) worden functies beschreven die zijn of worden verwijderd voor Supply Chain Management.
 
 - Een *verwijderde* functie is niet langer beschikbaar in het product.
 - Een *afgeschafte* functie wordt niet meer actief ontwikkeld en kan in een toekomstige update worden verwijderd.
 
-Twaalf maanden voordat een functie uit het product wordt verwijderd, wordt de afschaffing aangekondigd in het onderwerp [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md).
+Twaalf maanden voordat een functie uit het product wordt verwijderd, wordt de afschaffing aangekondigd in het artikel [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md).
 
 Voor ingrijpende wijzigingen die alleen van invloed zijn op de compilatietijd, maar binair compatibel zijn met sandbox- en productieomgevingen, is de afschaffingstijd korter dan 12 maanden. Meestal zijn dit functionele updates die moeten worden doorgevoerd in de compiler.
 

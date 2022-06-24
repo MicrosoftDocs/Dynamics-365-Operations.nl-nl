@@ -1,6 +1,6 @@
 ---
 title: Kanalen aan e-commercesites toewijzen
-description: In dit onderwerp worden enkele veelgebruikte scenario's voor kanaaltoewijzing in Microsoft Dynamics 365 Commerce beschreven die voor de meeste andere zakelijke behoeften kunnen worden toegepast.
+description: In dit artikel worden enkele veelgebruikte scenario's voor kanaaltoewijzing in Microsoft Dynamics 365 Commerce beschreven die voor de meeste andere zakelijke behoeften kunnen worden toegepast.
 author: samjarawan
 ms.date: 05/11/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8ce272d63b4a37f99661333a02434708205ea19a
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: 94c43df26e8d6e55a5b6d459b65066d5873e1063
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743570"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902758"
 ---
 # <a name="map-channels-to-e-commerce-sites"></a>Kanalen aan e-commercesites toewijzen
 
-In dit onderwerp worden enkele veelgebruikte scenario's voor kanaaltoewijzing in Microsoft Dynamics 365 Commerce beschreven die voor de meeste andere zakelijke behoeften kunnen worden toegepast.
+In dit artikel worden enkele veelgebruikte scenario's voor kanaaltoewijzing in Microsoft Dynamics 365 Commerce beschreven die voor de meeste andere zakelijke behoeften kunnen worden toegepast.
 
 Dynamics 365 Commerce ondersteunt veel zakelijke scenario's voor het toewijzen van [online kanalen](#channels) met een geconfigureerde set producten, prijzen en kortingen aan [e-commercesites](#e-commerce-sites) voor klanten.
 
-In dit onderwerp worden de volgende scenario's besproken:
+In dit artikel worden de volgende scenario's besproken:
 
 - **Een kanaal met één taal met één e-commercesitevoorziening.** In dit scenario kan bijvoorbeeld sprake zijn van één merksite die voor de Engelse markt is geconfigureerd.
 - **Een kanaal met meerdere talen met één gelokaliseerde e-commercesitevoorziening.** In dit scenario kan bijvoorbeeld sprake zijn van één merksite die voor Canada is geconfigureerd met taalondersteuning voor Frans en Engels. In dit scenario hebben gebruikers die verschillende talen selecteren dezelfde site-ervaring, maar is deze gelokaliseerd in de geselecteerde taal van elke gebruiker.
@@ -63,7 +63,7 @@ In de volgende afbeelding ziet u een voorbeeld van kanaalconfiguratie in Commerc
 
 ![Waarden voor rechtspersoon, valuta en taal voor de online winkel van Adventure Works die in Commerce Headquarters is gemarkeerd.](media/channel-mapping-3.png)
 
-Het online kanaal kan aan één e-commercesite in Site Builder worden toegewezen. Zie de sectie [Een kanaal toewijzen aan een site in Site Builder](#map-a-channel-to-a-site-in-site-builder) van dit onderwerp voor informatie over hoe u een nieuwe site maakt en aan een kanaal toewijst.
+Het online kanaal kan aan één e-commercesite in Site Builder worden toegewezen. Zie de sectie [Een kanaal toewijzen aan een site in Site Builder](#map-a-channel-to-a-site-in-site-builder) van dit artikel voor informatie over hoe u een nieuwe site maakt en aan een kanaal toewijst.
 
 ### <a name="multi-language-channel-that-has-a-single-localized-site-experience"></a>Een kanaal met meerdere talen met één gelokaliseerde e-commercesitevoorziening
 
@@ -73,7 +73,7 @@ De beperking van dit scenario is dat één kanaal kan worden geconfigureerd met 
 
 Elke taal in een kanaal kan worden geconfigureerd met een eigen domeinnaam. Het domein `www.adventure-works.ca` kan bijvoorbeeld worden geconfigureerd voor de Engelse versie van Canada, en het domein `www.adventure-works-fr.ca` kan worden geconfigureerd voor de Franse versie van Canada. U kunt ook verschillende talen in een kanaal configureren in één domein, waarna voor elke taal een ander pad kan worden gebruikt. Het domein `www.adventure-works.ca` kan bijvoorbeeld worden geconfigureerd voor de Engelse versie van Canada, en het pad `www.adventure-works.ca/fr` kan vervolgens worden gebruikt voor de Franse versie van Canada. [Geodetectie](geo-detection-redirection.md) kan ook worden ingeschakeld om een gebruiker automatisch naar de juiste site te leiden op basis van de locatie van de gebruiker.
 
-Zie de sectie [Een siteselectiemodule toevoegen en configureren](#add-and-configure-the-site-picker-module) van dit onderwerp voor informatie over handmatig schakelen tussen talen voor klanten. Zie de sectie [Site-inhoud beheren met meerdere kanalen en talen](#manage-site-content-that-has-multiple-channels-and-languages) voor informatie over het aanpassen van gelokaliseerde pagina's en fragmenten.
+Zie de sectie [Een siteselectiemodule toevoegen en configureren](#add-and-configure-the-site-picker-module) van dit artikel voor informatie over handmatig schakelen tussen talen voor klanten. Zie de sectie [Site-inhoud beheren met meerdere kanalen en talen](#manage-site-content-that-has-multiple-channels-and-languages) voor informatie over het aanpassen van gelokaliseerde pagina's en fragmenten.
 
 ### <a name="multi-language-channel-that-has-a-different-site-experience-per-language"></a>Een kanaal met meerdere talen met een verschillende sitevoorziening per taal
 
@@ -87,7 +87,7 @@ Voor een merksite kunnen meerdere online kanalen per regio zijn vereist ter onde
 
 In dit scenario kan elke markt worden geconfigureerd met eigen domeinnamen. Het domein `www.adventure-works.com` kan bijvoorbeeld worden geconfigureerd voor de Amerikaanse markt en het domein `www.adventure-works.de` voor de Duitse markt. Elke markt kan ook zo worden geconfigureerd dat deze een ander pad gebruikt. Het domein `www.adventure-works.com` kan bijvoorbeeld worden geconfigureerd voor de Amerikaanse markt en het pad `www.adventure-works.com/de` kan vervolgens worden gebruikt voor de Duitse markt. [Geodetectie](geo-detection-redirection.md) kan ook worden ingeschakeld om gebruikers automatisch naar de juiste site te leiden op basis van hun regio.
 
-Mogelijk wilt u ook dat de site een vervolgkeuzelijst bevat waarmee gebruikers handmatig naar een specifieke markt kunnen overschakelen. Zie de sectie [De siteselectiemodule toevoegen en configureren](#add-and-configure-the-site-picker-module) van dit onderwerp voor meer informatie.
+Mogelijk wilt u ook dat de site een vervolgkeuzelijst bevat waarmee gebruikers handmatig naar een specifieke markt kunnen overschakelen. Zie de sectie [De siteselectiemodule toevoegen en configureren](#add-and-configure-the-site-picker-module) van dit artikel voor meer informatie.
 
 Zie de sectie [Meerdere kanalen configureren op een e-commercesite](#configure-multiple-channels-on-an-e-commerce-site) voor informatie over het configureren van meerdere kanalen op één site.
 
@@ -180,7 +180,7 @@ In plaats van elke pagina en elk fragment handmatig te maken, kunt u elke pagina
 
 Op een site met meerdere kanalen en/of talen wordt een unieke variant van elke pagina en elk fragment opgeslagen voor elke combinatie van een kanaal en een taal. Hierdoor kunnen de paginavarianten gelokaliseerde gegevens bevatten, maar het geeft u ook de flexibiliteit om het uiterlijk van een pagina voor een specifieke variant te wijzigen.
 
-Zie [Paginavarianten implementeren voor elke taal](#implement-page-variants-for-each-language) van dit onderwerp voor informatie over het werken met paginavarianten.
+Zie [Paginavarianten implementeren voor elke taal](#implement-page-variants-for-each-language) van dit artikel voor informatie over het werken met paginavarianten.
 
 ## <a name="configure-multiple-channels-on-an-e-commerce-site"></a>Meerdere kanalen op een e-commercesite configureren
 

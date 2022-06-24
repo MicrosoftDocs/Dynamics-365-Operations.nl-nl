@@ -1,6 +1,6 @@
 ---
 title: Schaaleenheden in een gedistribueerde hybride topologie
-description: Dit onderwerp geeft informatie over schaaleenheden voor Cloud en Edge voor workloads voor productie en magazijnbeheer.
+description: Dit artikel geeft informatie over schaaleenheden voor Cloud en Edge voor workloads voor productie en magazijnbeheer.
 author: Mirzaab
 ms.date: 04/22/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 5ec846b294cd9ca62ff15a5306e012813c77e306
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6b53822238220ccfcf538d49285e051c49c57189
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676323"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893666"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Schaaleenheden in een gedistribueerde hybride topologie
 
@@ -25,7 +25,7 @@ ms.locfileid: "8676323"
 > [!IMPORTANT]
 > De capaciteit van de schaaleenheid voor Microsoft Dynamics 365 Supply Chain Management wordt voor u beschikbaar gemaakt onder de voorwaarden die van toepassing zijn op de service. Zie [Juridische informatie voor Microsoft Dynamics](https://go.microsoft.com/fwlink/?LinkID=290927) voor meer informatie.
 >
-> Wanneer u schaaleenheden voor cloud en edge inschakelt, wordt u gevraagd te bevestigen dat bepaalde gegevens die zijn gerelateerd aan de configuratie en verwerking van cloud- en edge-schaaleenheden, kunnen worden opgeslagen in een datacenter in de Verenigde Staten. Zie de sectie [Gegevensverwerking tijdens het beheer van schaaleenheden](#data-processing-management) verderop in dit onderwerp voor meer informatie over gegevensverwerking voor cloud- en edgeschaaleenheden.
+> Wanneer u schaaleenheden voor cloud en edge inschakelt, wordt u gevraagd te bevestigen dat bepaalde gegevens die zijn gerelateerd aan de configuratie en verwerking van cloud- en edge-schaaleenheden, kunnen worden opgeslagen in een datacenter in de Verenigde Staten. Zie de sectie [Gegevensverwerking tijdens het beheer van schaaleenheden](#data-processing-management) verderop in dit artikel voor meer informatie over gegevensverwerking voor cloud- en edgeschaaleenheden.
 
 ## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>Kernwaardepropositie voor een gedistribueerde hybride topologie
 
@@ -48,7 +48,7 @@ Schaaleenheden bieden veerkracht, betrouwbaarheid en schaal voor de toegewezen w
 
 Een *workload* is een gedefinieerde set bedrijfsfunctionaliteit die kan worden weggelaten en overgedragen aan een schaaleenheid. De workload voor magazijnbeheer is al vrijgegeven, maar de workloadvoorziening voor productie-uitvoering is nog in preview.
 
-U kunt uw hub-omgeving en cloud-schaaleenheden voor geselecteerde workloads configureren met behulp van de [portal voor schaaleenhedenbeheer](https://sum.dynamics.com). U kunt ook meerdere workloads per schaaleenheid toewijzen. Zie de sectie [Vereisten en beperkingen voor cloudschaaleenheden](#cloud-scale-unit-prerequisites) verderop in dit onderwerp voor informatie over de vereisten en beperkingen voor cloudschaaleenheden in de huidige versie.
+U kunt uw hub-omgeving en cloud-schaaleenheden voor geselecteerde workloads configureren met behulp van de [portal voor schaaleenhedenbeheer](https://sum.dynamics.com). U kunt ook meerdere workloads per schaaleenheid toewijzen. Zie de sectie [Vereisten en beperkingen voor cloudschaaleenheden](#cloud-scale-unit-prerequisites) verderop in dit artikel voor informatie over de vereisten en beperkingen voor cloudschaaleenheden in de huidige versie.
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Toegewezen workloadfuncties voor magazijnbeheer in een schaaleenheid
 

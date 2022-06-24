@@ -1,6 +1,6 @@
 ---
 title: Opties voor het plannen van bewerkingen
-description: Dit onderwerp beschrijft de opties voor het plannen van bewerkingen. U kunt het plannen van bewerkingen gebruiken om een algemene schatting te geven voor de duur van het productieproces.
+description: Dit artikel beschrijft de opties voor het plannen van bewerkingen. U kunt het plannen van bewerkingen gebruiken om een algemene schatting te geven voor de duur van het productieproces.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bb0ee3020c5cfd17e82282e8fddb8f9c6dcdfee
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d2f4d1e74855a0a8f73030c222c3f2fe27ce58a2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566738"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907256"
 ---
 # <a name="operations-scheduling-options"></a>Opties voor het plannen van bewerkingen
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp beschrijft de opties voor het plannen van bewerkingen. U kunt het plannen van bewerkingen gebruiken om een algemene schatting te geven voor de duur van het productieproces.
+Dit artikel beschrijft de opties voor het plannen van bewerkingen. U kunt het plannen van bewerkingen gebruiken om een algemene schatting te geven voor de duur van het productieproces.
 
 Bewerkingsplanning berekent de volgende informatie voor een productieorder:
 

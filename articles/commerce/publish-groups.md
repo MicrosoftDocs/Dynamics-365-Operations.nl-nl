@@ -1,6 +1,6 @@
 ---
 title: Werken met publicatiegroepen
-description: In dit onderwerp wordt de functie voor publicatiegroepen in Microsoft Dynamics 365 Commerce beschreven.
+description: In dit artikel wordt de functie voor publicatiegroepen in Microsoft Dynamics 365 Commerce beschreven.
 author: phinneyridge
 ms.date: 10/09/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d757f34d3e16850e4f5de122f63b2b3342f612e49f07c7cf6585362999f03c02
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 76d447a5368cd5e342e8b1b934bb04d45e3378fb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717667"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885105"
 ---
 # <a name="work-with-publish-groups"></a>Werken met publicatiegroepen
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt de functie voor publicatiegroepen in Microsoft Dynamics 365 Commerce beschreven.
+In dit artikel wordt de functie voor publicatiegroepen in Microsoft Dynamics 365 Commerce beschreven.
 
 E-commerce-websites worden gedurende het hele jaar bijgewerkt met nieuwe inhoud. Updates worden vaak gepubliceerd in batches rond drukke e-commerce-evenementen, zoals vakanties, seizoensgebonden marketingcampagnes of promotionele lanceringen. Deze updates vereisen vaak dat groepen website-inhoud (bijvoorbeeld pagina's, afbeeldingen, fragmenten en sjablonen) worden klaargezet, gevalideerd en gelijktijdig worden gepubliceerd in één actie.
 

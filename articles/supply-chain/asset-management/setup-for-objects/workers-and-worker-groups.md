@@ -1,6 +1,6 @@
 ---
 title: Onderhoudsmedewerkers en medewerkersgroepen
-description: In dit onderwerp worden onderhoudsmedewerkers en medewerkersgroepen in Activabeheer uitgelegd.
+description: In dit artikel worden onderhoudsmedewerkers en medewerkersgroepen in Activabeheer uitgelegd.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e976a28349a4bc7a371d23eb4df724e0ffd36a0553aec2deeb2ff07d0a63579
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3a24c880ee76af1490824aef07976b998d9225d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750119"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860894"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>Onderhoudsmedewerkers en medewerkersgroepen
 
@@ -28,7 +28,7 @@ ms.locfileid: "6750119"
 
  
 
-In dit onderwerp worden onderhoudsmedewerkers en medewerkersgroepen in Activabeheer uitgelegd. In Activabeheer kunt u onderhoudsmedewerkers verbinden met functionele locaties. (Zie [Functionele locaties maken](../functional-locations/create-functional-locations.md) voor meer informatie over functionele locaties.) Deze functionaliteit kan handig zijn als u bijvoorbeeld een onderhoudstaak wilt plannen op een machine die zich op functionele locatie 01 bevindt en u onderhoudsmedewerkers wilt toewijzen vanaf dezelfde locatie om de taak uit te voeren.
+In dit artikel worden onderhoudsmedewerkers en medewerkersgroepen in Activabeheer uitgelegd. In Activabeheer kunt u onderhoudsmedewerkers verbinden met functionele locaties. (Zie [Functionele locaties maken](../functional-locations/create-functional-locations.md) voor meer informatie over functionele locaties.) Deze functionaliteit kan handig zijn als u bijvoorbeeld een onderhoudstaak wilt plannen op een machine die zich op functionele locatie 01 bevindt en u onderhoudsmedewerkers wilt toewijzen vanaf dezelfde locatie om de taak uit te voeren.
 
 U kunt ook groepen onderhoudsmedewerkers maken en hieraan onderhoudsmedewerkers koppelen. Deze functionaliteit is handig wanneer u een eenvoudige werkorderplanning maakt en u een groep onderhoudsmedewerkers voor een werkorder wilt plannen. U kunt onderhoudsmedewerkers en groepen onderhoudsmedewerkers gebruiken om voorkeursonderhoudsmedewerkers en verantwoordelijke onderhoudsmedewerkers in te stellen. 
 

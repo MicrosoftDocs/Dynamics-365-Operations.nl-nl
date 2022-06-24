@@ -1,6 +1,6 @@
 ---
 title: Toeslagen voor koptekst naar rato verdelen voor overeenkomende verkoopregels
-description: In dit onderwerp worden aanvullende mogelijkheden beschreven voor het berekenen en toepassen van automatische toeslagen op Commerce-kanaalorders met behulp van de geavanceerde functie voor automatische toeslagen.
+description: In dit artikel worden aanvullende mogelijkheden beschreven voor het berekenen en toepassen van automatische toeslagen op Commerce-kanaalorders met behulp van de geavanceerde functie voor automatische toeslagen.
 author: hhaines
 ms.date: 03/30/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0de29e1817840c172f9235f2ee48251c4878a0573d270a60fde5b42ba6f88d31
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b41aa7b012b161626a98fc4aa2d37134552a57a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774504"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886927"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Toeslagen voor koptekst naar rato verdelen voor overeenkomende verkoopregels
 
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp beschrijft de functionaliteit waarmee automatische toeslagen op koptekstniveau worden gegroepeerd en naar rato worden verdeeld voor Commerce-verkoopregels. Deze functionaliteit is beschikbaar voor transacties die zijn gemaakt op het verkooppunt (POS) in Retail versie 10.0.1 en verkopen die zijn gemaakt in een callcenter in Retail versie 10.0.2.
+Dit artikel beschrijft de functionaliteit waarmee automatische toeslagen op koptekstniveau worden gegroepeerd en naar rato worden verdeeld voor Commerce-verkoopregels. Deze functionaliteit is beschikbaar voor transacties die zijn gemaakt op het verkooppunt (POS) in Retail versie 10.0.1 en verkopen die zijn gemaakt in een callcenter in Retail versie 10.0.2.
 
 Deze functionaliteit is alleen beschikbaar als de functie voor [geavanceerde automatische toeslagen](/dynamics365/unified-operations/retail/omni-auto-charges) is ingeschakeld via de optie op de pagina **Commerce-parameters**. Bovendien kan de verbeterde berekeningsmethode voor automatische toeslagen alleen worden toegepast op verkooporders die zijn gemaakt via Commerce-kanalen (het POS, een callcenter en het platform Dynamics e-Commerce).
 

@@ -1,6 +1,6 @@
 ---
 title: Boekingsinstellingen voor kortingsbeheer
-description: In dit onderwerp wordt beschreven hoe u boekingsprofielen instelt. Boekingsprofielen worden gebruikt om boekingsposten voor berekeningregels voor kortingsbeheer te bepalen.
+description: In dit artikel wordt beschreven hoe u boekingsprofielen instelt. Boekingsprofielen worden gebruikt om boekingsposten voor berekeningregels voor kortingsbeheer te bepalen.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5ed28e99e36fafa4e1275421159420a3f3380c7c
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7a519b7153b307bf7d8cc9093572ca2711432970
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690241"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873574"
 ---
 # <a name="rebate-management-posting-setup"></a>Boekingsinstellingen voor kortingsbeheer
 
@@ -30,7 +30,7 @@ Deze functie is in verschillende bedrijven (rechtspersonen) werkzaam. U kunt het
 
 Als u boekingsprofielen voor kortingsbeheer wilt instellen voor klanten en leveranciers, gaat u naar **Kortingsbeheer \> Boekingsinstellingen voor kortingsbeheer \> Boekingsprofielen voor kortingsbeheer**. De pagina **Boekingsprofielen voor kortingsbeheer** bevat een lijstvenster met alle bestaande profielen. U kunt de knoppen in het actievenster gebruiken om profielen toe te voegen aan de lijst of uit de lijst te verwijderen.
 
-In de resterende secties van dit onderwerp wordt beschreven hoe u de beschikbare velden gebruikt wanneer u een profiel maakt of bewerkt.
+In de resterende secties van dit artikel wordt beschreven hoe u de beschikbare velden gebruikt wanneer u een profiel maakt of bewerkt.
 
 ## <a name="posting-profile-header"></a>Header van boekingsprofiel
 

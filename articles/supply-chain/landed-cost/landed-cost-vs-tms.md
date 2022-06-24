@@ -1,6 +1,6 @@
 ---
 title: Francoprijzen versus Transportbeheer
-description: Microsoft Dynamics 365 Supply Chain Management biedt twee verschillende modules om met transport, Transportbeheer (TMS) en Francoprijzen te werken. In dit onderwerp wordt de functionaliteit samengevat die de twee modules gemeen hebben en komen de verschillen tussen de twee aan de orde.
+description: Microsoft Dynamics 365 Supply Chain Management biedt twee verschillende modules om met transport, Transportbeheer (TMS) en Francoprijzen te werken. In dit artikel wordt de functionaliteit samengevat die de twee modules gemeen hebben en komen de verschillen tussen de twee aan de orde.
 author: Weijiesa
 ms.date: 12/04/2020
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8c59d7d1887986d308cb591ece077cff9f4648a5
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 40489ff8d8683d19a5f726546cc4c43cc3e7a05d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690367"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905916"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Francoprijzen versus Transportbeheer
 
 [!include [banner](../../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management biedt twee verschillende modules om met transport, **Transportbeheer** (TMS) en **Francoprijzen** te werken. In dit onderwerp wordt de functionaliteit samengevat die de twee modules gemeen hebben en komen de verschillen tussen de twee aan de orde. U kunt deze informatie gebruiken om te bepalen welke module het beste bij uw bedrijf past. U vindt wellicht dat bepaalde zakelijke werkwijzen beter werken met TMS, terwijl andere het beste werken met Francoprijzen. U kunt er vervolgens voor kiezen om, afhankelijk van uw bedrijfsbehoeften, maar één module te gebruiken of om de twee modules te combineren.
+Microsoft Dynamics 365 Supply Chain Management biedt twee verschillende modules om met transport, **Transportbeheer** (TMS) en **Francoprijzen** te werken. In dit artikel wordt de functionaliteit samengevat die de twee modules gemeen hebben en komen de verschillen tussen de twee aan de orde. U kunt deze informatie gebruiken om te bepalen welke module het beste bij uw bedrijf past. U vindt wellicht dat bepaalde zakelijke werkwijzen beter werken met TMS, terwijl andere het beste werken met Francoprijzen. U kunt er vervolgens voor kiezen om, afhankelijk van uw bedrijfsbehoeften, maar één module te gebruiken of om de twee modules te combineren.
 
-In dit onderwerp wordt geen uitgebreid overzicht gegeven van alle functies van de beide modules. In plaats daarvan wordt de beschikbare functionaliteit benadrukt voor het transport van goederen van een leverancier naar het magazijn van uw bedrijf waar ze kunnen worden verbruikt.
+In dit artikel wordt geen uitgebreid overzicht gegeven van alle functies van de beide modules. In plaats daarvan wordt de beschikbare functionaliteit benadrukt voor het transport van goederen van een leverancier naar het magazijn van uw bedrijf waar ze kunnen worden verbruikt.
 
 ## <a name="terminology-reference-data-and-reporting-differences"></a>Terminologie, referentiegegevens en rapportageverschillen
 

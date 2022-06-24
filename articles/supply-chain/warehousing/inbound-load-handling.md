@@ -1,6 +1,6 @@
 ---
 title: Magazijnverwerking van inkomende ladingen voor inkooporders
-description: In dit onderwerp wordt het magazijnverwerkingsproces voor inkomende ladingen voor inkooporders beschreven.
+description: In dit artikel wordt het magazijnverwerkingsproces voor inkomende ladingen voor inkooporders beschreven.
 author: Mirzaab
 ms.date: 03/21/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 100b1972801f117560a5caf338a1ac640737ccdf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778054"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855927"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Magazijnverwerking van inkomende ladingen voor inkooporders
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt het magazijnverwerkingsproces voor inkomende ladingen voor inkooporders beschreven.
+In dit artikel wordt het magazijnverwerkingsproces voor inkomende ladingen voor inkooporders beschreven.
 
 Voor elke inkomende lading moet het systeem al een gerelateerde verkooporder bevatten en kan het ook een gerelateerde ladingspecificatie en/of transportplan bevatten. Zie [Bedrijfsproces: Transport plannen voor inkomende ladingen](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads) voor meer informatie over het maken en beheren van inkomende ladingen.
 
@@ -209,7 +209,7 @@ De volgende tabel geeft een overzicht van de effecten van de instelling **Meerde
 | Ja | Geen updates | _Ontvangen_, als de totale geregistreerde ladinghoeveelheid gelijk is aan of groter is dan de ladinghoeveelheid | |
 | Ja | Geen updates | _Verzonden_ of _Onderhanden_, als de totale geregistreerde ladinghoeveelheid kleiner is dan de ladinghoeveelheid | |
 
-Nadat het veld **Ladingsstatus** is ingesteld op _Ontvangen_, kunnen er geen productontvangstboekingen meer worden uitgevoerd voor die lading. De werknemer kan de resterende orderhoeveelheid voor de ontvangen lading echter registreren onder de volgende voorwaarden. (Zie de sectie [Meer ontvangen lading](#load-over-receiving) eerder in dit onderwerp voor meer informatie.)
+Nadat het veld **Ladingsstatus** is ingesteld op _Ontvangen_, kunnen er geen productontvangstboekingen meer worden uitgevoerd voor die lading. De werknemer kan de resterende orderhoeveelheid voor de ontvangen lading echter registreren onder de volgende voorwaarden. (Zie de sectie [Meer ontvangen lading](#load-over-receiving) eerder in dit artikel voor meer informatie.)
 
 - De versie van Supply Chain Management is ouder dan versie 10.0.11.
 - De functie _Meerontvangst voor ladinghoeveelheden_ is ingeschakeld en het veld **Meerontvangst voor hoeveelheid ladingsregel** in de menuopdracht van het mobiele apparaat voor de actie Artikelontvangst laden is ingesteld op _Toestaan_.

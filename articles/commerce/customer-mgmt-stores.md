@@ -1,6 +1,6 @@
 ---
 title: Klantbeheer in winkels
-description: In dit onderwerp wordt uitgelegd hoe detailhandelaren mogelijkheden voor klantbeheer kunnen inschakelen op het verkooppunt (POS) in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt uitgelegd hoe detailhandelaren mogelijkheden voor klantbeheer kunnen inschakelen op het verkooppunt (POS) in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5a352ba479ca5e635ef521b99f31bd26d5d837ac
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 805d0b5894b18e2fc34f481bdc32ada7a4b1aee0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687328"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863482"
 ---
 # <a name="customer-management-in-stores"></a>Klantbeheer in winkels
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe detailhandelaren mogelijkheden voor klantbeheer kunnen inschakelen op het verkooppunt (POS) in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt uitgelegd hoe detailhandelaren mogelijkheden voor klantbeheer kunnen inschakelen op het verkooppunt (POS) in Microsoft Dynamics 365 Commerce.
 
 Het is belangrijk dat winkelmedewerkers klantrecords kunnen maken en bewerken op het POS. Op die manier kunnen zij updates van klantgegevens vastleggen, zoals het e-mailadres, telefoonnummer en adres. Deze informatie is handig in downstream systemen zoals marketing, omdat de effectiviteit van die systemen afhankelijk is van de nauwkeurigheid van de klantgegevens.
 

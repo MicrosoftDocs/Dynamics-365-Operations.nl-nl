@@ -1,6 +1,6 @@
 ---
 title: Een productieorder plannen met bewerkingen en taakplanning
-description: Dit onderwerp is gericht op het plannen van een productieorder met bewerkingsplanning en taakplanning.
+description: Dit artikel is gericht op het plannen van een productieorder met bewerkingsplanning en taakplanning.
 author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc91fe5aa398cd94e38beea017d6d60ecb44f17e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d82d5439e57c02ddc9db4222a946bd15f4ed67e4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574372"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903922"
 ---
 # <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a>Een productieorder plannen met bewerkingen en taakplanning
 
 [!include [banner](../../includes/banner.md)]
 
-Dit onderwerp is gericht op het plannen van een productieorder met bewerkingsplanning en taakplanning. Er worden geen taken gemaakt met bewerkingsplanning, terwijl er wel taken worden gemaakt met taakplanning. Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF. Deze procedure is bedoeld voor de productiemanager, productieplanner of werkvloersupervisor in een discrete productie-omgeving.
+Dit artikel is gericht op het plannen van een productieorder met bewerkingsplanning en taakplanning. Er worden geen taken gemaakt met bewerkingsplanning, terwijl er wel taken worden gemaakt met taakplanning. Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF. Deze procedure is bedoeld voor de productiemanager, productieplanner of werkvloersupervisor in een discrete productie-omgeving.
 
 
 ## <a name="create-a-production-order"></a>Een productieorder maken

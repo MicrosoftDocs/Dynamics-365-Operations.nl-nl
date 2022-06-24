@@ -1,6 +1,6 @@
 ---
 title: Artikelkwaliteitsgroepen
-description: In dit onderwerp wordt beschreven hoe u artikelkwaliteitsgroepen gebruikt en maakt om producten op een logische manier te groepen, zodat ze kunnen worden toegewezen aan kwaliteitskoppelingen voor het automatisch genereren van kwaliteitsorders.
+description: In dit artikel wordt beschreven hoe u artikelkwaliteitsgroepen gebruikt en maakt om producten op een logische manier te groepen, zodat ze kunnen worden toegewezen aan kwaliteitskoppelingen voor het automatisch genereren van kwaliteitsorders.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f7a4932c561c052bec1eb0094a390e315b9b1bb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: bf1ce49fa58fd1a8a5aa07636e0b2bd7e2fc10e4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580907"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875360"
 ---
 # <a name="item-quality-groups"></a>Artikelkwaliteitsgroepen
 
 [!include [banner](../includes/banner.md)]
 
-Een kwaliteitsgroep bevat algemene testvereisten voor artikelen. In dit onderwerp wordt beschreven hoe u artikelkwaliteitsgroepen gebruikt en maakt om producten op een logische manier te groepen, zodat ze kunnen worden toegewezen aan kwaliteitskoppelingen voor het automatisch genereren van kwaliteitsorders.
+Een kwaliteitsgroep bevat algemene testvereisten voor artikelen. In dit artikel wordt beschreven hoe u artikelkwaliteitsgroepen gebruikt en maakt om producten op een logische manier te groepen, zodat ze kunnen worden toegewezen aan kwaliteitskoppelingen voor het automatisch genereren van kwaliteitsorders.
 
 Als u de artikelen wilt instellen, bewerken en weergeven die aan een kwaliteitsgroep zijn toegewezen of als de kwaliteitsgroepen zijn toegewezen aan een artikel, gaat u naar **Voorraadbeheer \> Instellingen \> Kwaliteitsgroepen**. Wanneer u de testvereisten hebt gedefinieerd op de pagina **Testgroepen**, kunt u de regels voor het automatisch genereren van kwaliteitsorders definiëren. Om het proces te vereenvoudigen, definieert u geen regels voor afzonderlijke artikelen. In plaats daarvan kunt u de regels definiëren voor een kwaliteitsgroep op de pagina **Kwaliteitskoppelingen**.
 

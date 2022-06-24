@@ -1,6 +1,6 @@
 ---
 title: Achtergelaten winkelwagens detecteren en meldingen verzenden naar klanten
-description: In dit onderwerp wordt beschreven hoe u de connectorvoorbeeld-app van Microsoft Dynamics 365 Commerce voor verlaten winkelwagens kunt aanpassen om verlaten winkelwagentjes te detecteren en meldingen per e-mail naar klanten te verzenden.
+description: In dit artikel wordt beschreven hoe u de connectorvoorbeeld-app van Microsoft Dynamics 365 Commerce voor verlaten winkelwagens kunt aanpassen om verlaten winkelwagentjes te detecteren en meldingen per e-mail naar klanten te verzenden.
 author: bicyclingfool
 ms.date: 02/25/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1db4e988653aa55db2b18fb201edeafc4d16a1bc
-ms.sourcegitcommit: ab690bc897699ff8a4c489e749251fe0367050ca
+ms.openlocfilehash: 707640ca211e997533d0f5a0b4e6d52cb5be9db4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "8489025"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899205"
 ---
 # <a name="detect-abandoned-carts-and-send-notifications-to-customers"></a>Achtergelaten winkelwagens detecteren en meldingen verzenden naar klanten
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u de connectorvoorbeeld-app van Microsoft Dynamics 365 Commerce voor verlaten winkelwagens kunt aanpassen om verlaten winkelwagentjes te detecteren en meldingen per e-mail naar klanten te verzenden.
+In dit artikel wordt beschreven hoe u de connectorvoorbeeld-app van Microsoft Dynamics 365 Commerce voor verlaten winkelwagens kunt aanpassen om verlaten winkelwagentjes te detecteren en meldingen per e-mail naar klanten te verzenden.
 
 De mogelijkheid om opbrengsten te herstellen en klanten te behouden via meldingen over verlaten winkelwagens, is een belangrijke mogelijkheid die door Dynamics 365 Commerce wordt ondersteund. Door de connectorvoorbeeld-app van Commerce voor verlaten winkelwagens aan te passen hebben detailhandelaren toegang tot winkelwagens op Retail Server die gedurende een tijdvenster dat door de detailhandelaren wordt gedefinieerd, niet zijn gewijzigd. Deze winkelwagens kunnen vervolgens samen met product- en klantgegevens worden opgehaald en worden doorgegeven aan een e-mailmarketingprovider van derden die e-mailmeldingen genereert en aan deze klanten verzendt.
 

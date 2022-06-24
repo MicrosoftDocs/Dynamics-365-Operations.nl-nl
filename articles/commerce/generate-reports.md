@@ -1,6 +1,6 @@
 ---
-title: Rapporten van online kanalen genereren
-description: In dit onderwerp wordt beschreven hoe u rapporten voor uw online afzetkanaal genereert in Microsoft Dynamics 365 Commerce.
+title: Rapporten voor online kanalen genereren
+description: In dit artikel wordt beschreven hoe u rapporten voor uw online afzetkanaal genereert in Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 10/01/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8bd7a1bebd3d97923a9435d4cc96bfb69e326de8e50507eeae649834ce4c2b69
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 96127b0aff213effae9519d461e6451598918ab8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760843"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909411"
 ---
 # <a name="generate-online-channel-reports"></a>Rapporten voor online kanalen genereren
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u rapporten voor uw online afzetkanaal genereert in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt beschreven hoe u rapporten voor uw online afzetkanaal genereert in Microsoft Dynamics 365 Commerce.
 
 U kunt verschillende rapporten in Commerce genereren en weergeven hoe uw online kanaal presteert.
 

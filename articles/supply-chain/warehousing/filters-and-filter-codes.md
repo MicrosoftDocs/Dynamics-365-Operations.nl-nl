@@ -1,6 +1,6 @@
 ---
 title: Productfilters voor magazijntransacties configureren
-description: In dit onderwerp wordt beschreven hoe u productfilters en filtercodes configureert om voorraadartikelen in een magazijn te categoriseren. U kunt ook filters gebruiken om op te geven welke klanten een bepaald artikel kunnen bestellen en welke artikelen bij een bepaalde leverancier kunnen worden gekocht.
+description: In dit artikel wordt beschreven hoe u productfilters en filtercodes configureert om voorraadartikelen in een magazijn te categoriseren. U kunt ook filters gebruiken om op te geven welke klanten een bepaald artikel kunnen bestellen en welke artikelen bij een bepaalde leverancier kunnen worden gekocht.
 author: Mirzaab
 ms.date: 01/04/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 021ce940a4ea6d59719d1c6bc79532832cc2f3ff
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f3d6cd373699d374c019f0db7befaffc169f4f6c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567674"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850433"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Productfilters voor magazijntransacties configureren
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u productfilters en filtercodes configureert om voorraadartikelen in een magazijn te categoriseren. U kunt ook filters gebruiken om op te geven welke klanten een bepaald artikel kunnen bestellen en welke artikelen bij een bepaalde leverancier kunnen worden gekocht.
+In dit artikel wordt beschreven hoe u productfilters en filtercodes configureert om voorraadartikelen in een magazijn te categoriseren. U kunt ook filters gebruiken om op te geven welke klanten een bepaald artikel kunnen bestellen en welke artikelen bij een bepaalde leverancier kunnen worden gekocht.
 
 Bovendien kunt u productfilters instellen en gebruiken om automatisch voorraadartikelen te organiseren in een magazijn en gefilterde artikelen te combineren in filtergroepen. Filters kunnen worden gebruikt om artikelen in categorieën te plaatsen voor verwerkings-, inkoop- en verkoopprocessen. Het kan zijn dat u artikelen wilt groepen of van elkaar wilt scheiden wanneer de manier waarop deze worden verwerkt, is gebaseerd op het gewicht of de verwerkingsbeperkingen. U kunt ook opgeven aan of van welke klanten of leveranciers een artikel kan worden gekocht of verkocht.
 
@@ -48,7 +48,7 @@ Productfilters bieden maximaal 10 **Filtertitel**-eigenschappen. Dit zijn opsomm
 
     ![Een productfilter instellen.](media/Product_Filters10.png "Een productfilter instellen")
 
-1. Voer in het veld **Beschrijving** een naam voor de code in. *Code 2* kan bijvoorbeeld leveranciers vertegenwoordigen. U kunt vervolgens een productfilter maken voor een specifieke leverancier of groep leveranciers. Zie de sectie [Filtercodes van leveranciers instellen](#vendor-product-filters) verderop in dit onderwerp voor meer informatie.
+1. Voer in het veld **Beschrijving** een naam voor de code in. *Code 2* kan bijvoorbeeld leveranciers vertegenwoordigen. U kunt vervolgens een productfilter maken voor een specifieke leverancier of groep leveranciers. Zie de sectie [Filtercodes van leveranciers instellen](#vendor-product-filters) verderop in dit artikel voor meer informatie.
 
     ![Productfilters instellen.](media/Product_Filters.png "Productfilters instellen")
 

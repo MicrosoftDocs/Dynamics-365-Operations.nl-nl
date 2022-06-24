@@ -1,6 +1,6 @@
 ---
 title: Kwaliteitsorders
-description: In dit onderwerp wordt beschreven hoe u handmatig of automatisch kwaliteitsorders maakt en hoe u hiermee werkt om inspecties uit te voeren en testresultaten vast te leggen in Microsoft Dynamics 365 Supply Chain Management.
+description: In dit artikel wordt beschreven hoe u handmatig of automatisch kwaliteitsorders maakt en hoe u hiermee werkt om inspecties uit te voeren en testresultaten vast te leggen in Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69a4a61a599f1279ec7ad68ebb20c7b4b0f37005
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eb7ab1de0fb4d93ed18f1862630c1af7af7f3095
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571852"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857774"
 ---
 # <a name="quality-orders"></a>Kwaliteitsorders
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u handmatig of automatisch kwaliteitsorders maakt en hoe u hiermee werkt om inspecties uit te voeren en testresultaten vast te leggen in Microsoft Dynamics 365 Supply Chain Management.
+In dit artikel wordt beschreven hoe u handmatig of automatisch kwaliteitsorders maakt en hoe u hiermee werkt om inspecties uit te voeren en testresultaten vast te leggen in Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="automatically-created-quality-orders"></a>Automatisch gemaakte kwaliteitsorders
 
@@ -39,7 +39,7 @@ Volg deze stappen om handmatig een kwaliteitsorder te maken.
 
 1. Ga naar **Voorraadbeheer \> Periodieke taken \> Kwaliteitsbeheer \> Kwaliteitsorders**.
 1. Selecteer **Nieuw**.
-1. Selecteer in het dialoogvenster **Kwaliteitsorders** in het veld **Verwijzingstype** de voorraadverwijzing waaraan uw kwaliteitsorder wordt gekoppeld. Zie de sectie [Verwijzingstypen voor kwaliteitsorders](#ref-types) verderop in dit onderwerp voor een beschrijving van de verwijzingstypen die kunnen worden geselecteerd.
+1. Selecteer in het dialoogvenster **Kwaliteitsorders** in het veld **Verwijzingstype** de voorraadverwijzing waaraan uw kwaliteitsorder wordt gekoppeld. Zie de sectie [Verwijzingstypen voor kwaliteitsorders](#ref-types) verderop in dit artikel voor een beschrijving van de verwijzingstypen die kunnen worden geselecteerd.
 
     > [!NOTE]
     > Voorraad die is gekoppeld aan de geselecteerde verwijzing, moet beschikbaar zijn. Als er geen voorraad beschikbaar is voor de combinatie van het verwijzingstype, de hoeveelheid en de voorraaddimensie die u selecteert, wordt er een foutbericht weergegeven.
@@ -88,7 +88,7 @@ U kunt de pagina Kwaliteitsorders gebruiken om handmatig een nieuwe kwaliteitsor
 
 ### <a name="from-the-quality-orders-page"></a>Vanaf de pagina Kwaliteitsorders
 
-Als u de kwaliteitsorder handmatig wilt maken en alle bestaande kwaliteitsorders wilt weergeven, gaat u naar **Voorraadbeheer \> Periodieke taken \> Kwaliteitsbeheer \> Kwaliteitsorders**. De resterende secties van dit onderwerp bevatten meer informatie over het werken met de pagina **Kwaliteitsorders**.
+Als u de kwaliteitsorder handmatig wilt maken en alle bestaande kwaliteitsorders wilt weergeven, gaat u naar **Voorraadbeheer \> Periodieke taken \> Kwaliteitsbeheer \> Kwaliteitsorders**. De resterende secties van dit artikel bevatten meer informatie over het werken met de pagina **Kwaliteitsorders**.
 
 ### <a name="from-sales-orders"></a>Van verkooporders
 

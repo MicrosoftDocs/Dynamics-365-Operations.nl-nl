@@ -1,6 +1,6 @@
 ---
 title: Gevaarlijke stoffen in producten, orders, zendingen en ladingen
-description: In dit onderwerp wordt uitgelegd hoe u eigenschappen voor gevaarlijke stoffen kunt instellen voor vrijgegeven producten, hoe u voorraadlimieten voor gevaarlijke stoffen kunt instellen en hoe u gevaarlijke stoffen kunt opnemen in een verkooporder, zending of lading.
+description: In dit artikel wordt uitgelegd hoe u eigenschappen voor gevaarlijke stoffen kunt instellen voor vrijgegeven producten, hoe u voorraadlimieten voor gevaarlijke stoffen kunt instellen en hoe u gevaarlijke stoffen kunt opnemen in een verkooporder, zending of lading.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 64d31cd86045ff28aa007666a3877271eecf0106
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eaae3ce4916465cd57da65eaa217c40f9c3ea88a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570700"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860691"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>Gevaarlijke stoffen in producten, orders, zendingen en ladingen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u eigenschappen voor gevaarlijke stoffen kunt instellen voor vrijgegeven producten, hoe u voorraadlimieten voor gevaarlijke stoffen kunt instellen en hoe u gevaarlijke stoffen kunt opnemen in een verkooporder, zending of lading.
+In dit artikel wordt uitgelegd hoe u eigenschappen voor gevaarlijke stoffen kunt instellen voor vrijgegeven producten, hoe u voorraadlimieten voor gevaarlijke stoffen kunt instellen en hoe u gevaarlijke stoffen kunt opnemen in een verkooporder, zending of lading.
 
 ## <a name="set-hazardous-material-specifications-for-products"></a>Specificaties voor gevaarlijke stoffen instellen voor producten
 
@@ -109,11 +109,11 @@ Dit is een sleutel voor de formule:
 - *&lt;UnitConversion&gt;* is een omrekeningsfactor om de eenheid die wordt gebruikt voor de hoeveelheid op de laadregel te converteren naar de eenheid die voor een product is opgegeven in het veld **Eenheid** op het sneltabblad **Materiaalbeheer**.
 - *&lt;Multiplier&gt;* is de vermenigvuldiger die voor een product is opgegeven in het veld **Vermenigvuldiger** op het sneltabblad **Materiaalbeheer**.
 
-Deze score wordt aangegeven voor elke laadregel die een product bevat waarin deze waarden zijn opgegeven. Meer informatie vindt u in de secties [Zendingen die gevaarlijke stoffen bevatten](#hazmat-shipments) en [Ladingen die gevaarlijke stoffen bevatten](#hazmat-loads) verderop in dit onderwerp.
+Deze score wordt aangegeven voor elke laadregel die een product bevat waarin deze waarden zijn opgegeven. Meer informatie vindt u in de secties [Zendingen die gevaarlijke stoffen bevatten](#hazmat-shipments) en [Ladingen die gevaarlijke stoffen bevatten](#hazmat-loads) verderop in dit artikel.
 
 #### <a name="how-the-hazardous-material-weight-is-calculated"></a>Berekening van het gewicht van gevaarlijke stoffen
 
-Ladingen en laadregels die producten bevatten waarvoor de optie **Beperkte hoeveelheid** op het sneltabblad **Materiaalbeheer** is ingesteld op **Ja**, tonen het totale gewicht van gevaarlijke stoffen, zoals wordt beschreven in de secties [Zendingen die gevaarlijke stoffen bevatten](#hazmat-shipments) en [Ladingen die gevaarlijke stoffen bevatten](#hazmat-loads) verderop in dit onderwerp. Het gewicht van gevaarlijke stoffen wordt berekend met de volgende formule:
+Ladingen en laadregels die producten bevatten waarvoor de optie **Beperkte hoeveelheid** op het sneltabblad **Materiaalbeheer** is ingesteld op **Ja**, tonen het totale gewicht van gevaarlijke stoffen, zoals wordt beschreven in de secties [Zendingen die gevaarlijke stoffen bevatten](#hazmat-shipments) en [Ladingen die gevaarlijke stoffen bevatten](#hazmat-loads) verderop in dit artikel. Het gewicht van gevaarlijke stoffen wordt berekend met de volgende formule:
 
 Gewicht van gevaarlijke stoffen = *&lt;LineQty&gt;* × *&lt;ProductWeight&gt;* × *&lt;UnitConversion&gt;*
 

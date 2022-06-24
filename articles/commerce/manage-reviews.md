@@ -1,6 +1,6 @@
 ---
 title: Beoordelingen en recensies beheren
-description: In dit onderwerp wordt uitgelegd hoe u beoordelingen en recensies kunt beheren in Microsoft Dynamics 365 Commerce Site Builder.
+description: In dit artikel wordt uitgelegd hoe u beoordelingen en recensies kunt beheren in Microsoft Dynamics 365 Commerce Site Builder.
 author: gvrmohanreddy
 ms.date: 10/09/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1aefa6eb93ef251778a48ba972d87e0cd5930bf0
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 79738030d4e33ceaad105a404b8188384d5a320c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968222"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881318"
 ---
 # <a name="manage-ratings-and-reviews"></a>Beoordelingen en recensies beheren
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u beoordelingen en recensies kunt beheren in Microsoft Dynamics 365 Commerce Site Builder.
+In dit artikel wordt uitgelegd hoe u beoordelingen en recensies kunt beheren in Microsoft Dynamics 365 Commerce Site Builder.
 
 Dynamics 365 Commerce gebruikt Microsoft Azure Cognitieve service om de recensietekst automatisch te controleren op ongepaste woorden. Bovendien kunnen moderators met behulp van Dynamics 365 Commerce Site Builder de volgende handmatige taken implementeren:
 

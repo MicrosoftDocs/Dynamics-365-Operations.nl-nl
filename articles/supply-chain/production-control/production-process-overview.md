@@ -1,6 +1,6 @@
 ---
-title: Overzicht van productieproces
-description: In dit onderwerp vindt u een overzicht van de productieprocessen. De verschillende fasen van productieorders, batchorders en kanbans worden beschreven, van het maken van de order tot het afsluiten van de boekperiode.
+title: Overzicht van Productieproces
+description: In dit artikel vindt u een overzicht van de productieprocessen. De verschillende fasen van productieorders, batchorders en kanbans worden beschreven, van het maken van de order tot het afsluiten van de boekperiode.
 author: johanhoffmann
 ms.date: 09/13/2019
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c9eac4d3f984b6fe511d7cc5ebab67e6c24c722
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: a8ebf0418a7d8b93e2ac58f90a686c63fd859355
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983208"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852210"
 ---
-# <a name="production-process-overview"></a>Overzicht van productieproces
+# <a name="production-process-overview"></a>Overzicht van Productieproces
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp vindt u een overzicht van de productieprocessen. De verschillende fasen van productieorders, batchorders en kanbans worden beschreven, van het maken van de order tot het afsluiten van de boekperiode.
+In dit artikel vindt u een overzicht van de productieprocessen. De verschillende fasen van productieorders, batchorders en kanbans worden beschreven, van het maken van de order tot het afsluiten van de boekperiode.
 
 De vervaardiging van producten, soms ook wel bekend als de productiecyclus, volgt specifieke stappen die vereist zijn voor het maken van een artikel. De levenscyclus begint met het opstellen van de productieorder, batchorder of kanban. Het eindigt met een voltooid, gefabriceerd artikel dat gereed is voor een klant of een andere productiefase. Elke stap in de levenscyclus vereist verschillende soorten informatie om het proces te voltooien. Bij elke stap die is voltooid, ondergaat de productieorder, batchorder of kanban een wijziging in de productiestatus. Verschillende typen producten vereisen verschillende productieprocessen.
 

@@ -1,6 +1,6 @@
 ---
 title: De invoegtoepassing IoT-intelligentie installeren in LCS
-description: In dit onderwerp wordt uitgelegd hoe u de invoegtoepassing IoT-intelligentie kunt installeren in Microsoft Dynamics Lifecycle Services (LCS).
+description: In dit artikel wordt uitgelegd hoe u de invoegtoepassing IoT-intelligentie kunt installeren in Microsoft Dynamics Lifecycle Services (LCS).
 author: johanhoffmann
 ms.date: 07/07/2020
 ms.topic: article
@@ -14,25 +14,25 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 12ffa71dc1c2badaffdc2e419a47d855635016f2
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 52fe4c4a79378aca5f1e64c8b3f4fa85199c9911
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679018"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887481"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>De invoegtoepassing IoT-intelligentie installeren in LCS
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u de invoegtoepassing IoT-intelligentie kunt installeren in Microsoft Dynamics Lifecycle Services (LCS). Invoegtoepassingen kunnen niet worden geïnstalleerd in een demo-/proefomgeving. Voordat u de invoeg toepassing kunt installeren, moet u [de Azure-resources maken](iot-azure-setup.md).
+In dit artikel wordt uitgelegd hoe u de invoegtoepassing IoT-intelligentie kunt installeren in Microsoft Dynamics Lifecycle Services (LCS). Invoegtoepassingen kunnen niet worden geïnstalleerd in een demo-/proefomgeving. Voordat u de invoeg toepassing kunt installeren, moet u [de Azure-resources maken](iot-azure-setup.md).
 
 U kunt IoT-intelligentie instellen en configureren zonder code te schrijven. Hier volgen de basisstappen.
 
 1. [Azure-bronnen instellen](iot-azure-setup.md): maak een IoT-hub, een Redis-cache en een sleutelkluis die toegankelijk is vanuit Supply Chain Management.
 2. [Indelingen voor berichtschema's voor IoT-hub](iot-schema-format.md): configureer uw apparaten om berichten naar IoT-hub te verzenden en om de JSON-berichtenindeling (JavaScript Object Notation) te definiëren.
 3. Schakel in Functiebeheer de functie IoT-intelligentie in.
-4. Installeer de invoegtoepassing IoT-intelligentie in Microsoft Dynamics Lifecycle Services (LCS): installeer de invoegtoepassing in LCS en configureer de Azure-geheimen (zoals beschreven in dit onderwerp).
+4. Installeer de invoegtoepassing IoT-intelligentie in Microsoft Dynamics Lifecycle Services (LCS): installeer de invoegtoepassing in LCS en configureer de Azure-geheimen (zoals beschreven in dit artikel).
 5. [Metrische gegevens instellen](iot-metrics-setup.md): stel metrische gegevens in Supply Chain Management in.
 6. [Scenario-instellingen](iot-scenario-setup.md): stel de scenario's in Supply Chain Management in.
 

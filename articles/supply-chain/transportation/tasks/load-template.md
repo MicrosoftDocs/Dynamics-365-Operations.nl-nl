@@ -1,6 +1,6 @@
 ---
 title: Sjablonen laden
-description: In dit onderwerp wordt beschreven hoe u laadsjablonen instelt en hoe u een laadsjabloon koppelt aan een nieuwe lading.
+description: In dit artikel wordt beschreven hoe u laadsjablonen instelt en hoe u een laadsjabloon koppelt aan een nieuwe lading.
 author: Weijiesa
 ms.date: 10/30/2020
 ms.topic: business-process
@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d33e4c71680947316b540d2aef7a7220305f2054
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 47b4925c528b64b835ce3e88659ee6ab0572eb2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674640"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844175"
 ---
 # <a name="load-templates"></a>Sjablonen laden
 
@@ -27,7 +27,7 @@ ms.locfileid: "8674640"
 
 Wanneer u een nieuwe lading maakt, kunt u een laadsjabloon toewijzen. De laadsjabloon bevat informatie over apparatuur en over maateenheden zoals de hoogte, breedte, diepte en het volume van de lading.
 
-In dit onderwerp wordt beschreven hoe u laadsjablonen instelt en hoe u een laadsjabloon koppelt aan een nieuwe lading.
+In dit artikel wordt beschreven hoe u laadsjablonen instelt en hoe u een laadsjabloon koppelt aan een nieuwe lading.
 
 ## <a name="set-up-a-load-template"></a>Een laadsjabloon instellen
 

@@ -1,6 +1,6 @@
 ---
 title: Werken met artikelen met serienummers
-description: In dit onderwerp wordt uitgelegd hoe u serienummers op pakbonnen of facturen kunt registreren tijdens het verkoopproces. Deze functionaliteit is nuttig als een bedrijf serienummers wil vastleggen voor service- en garantiedoeleinden, maar geen serienummers in voorraad hoeft bij te houden van ontvangst tot uitgifte.
+description: In dit artikel wordt uitgelegd hoe u serienummers op pakbonnen of facturen kunt registreren tijdens het verkoopproces. Deze functionaliteit is nuttig als een bedrijf serienummers wil vastleggen voor service- en garantiedoeleinden, maar geen serienummers in voorraad hoeft bij te houden van ontvangst tot uitgifte.
 author: Henrikan
 ms.date: 10/31/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62e53ec57a8d5c5c922f580219e4bde5338d0707
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b89e9ab547d13e68ead88d76f9922d14fde4beb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571684"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901845"
 ---
 # <a name="working-with-serialized-items"></a>Werken met artikelen met serienummers
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u serienummers op pakbonnen of facturen kunt registreren tijdens het verkoopproces. Deze functionaliteit is nuttig als een bedrijf serienummers wil vastleggen voor service- en garantiedoeleinden, maar geen serienummers in voorraad hoeft bij te houden van ontvangst tot uitgifte.
+In dit artikel wordt uitgelegd hoe u serienummers op pakbonnen of facturen kunt registreren tijdens het verkoopproces. Deze functionaliteit is nuttig als een bedrijf serienummers wil vastleggen voor service- en garantiedoeleinden, maar geen serienummers in voorraad hoeft bij te houden van ontvangst tot uitgifte.
 
 Veel bedrijven wilt alleen serienummers vastleggen voor service en garantiedoeleinden en niet serienummers in voorraad te hoeven bijhouden van ontvangst tot uitgifte. In deze gevallen kunt u met de serienummers op de pakbonnen of de facturen registreren wanneer producten worden verkocht. Als producten later worden geretourneerd, kunt u elk product op een factuur traceren om te bepalen of u het product verkocht hebt en of de service- of garantieverplichtingen geldig zijn.
 

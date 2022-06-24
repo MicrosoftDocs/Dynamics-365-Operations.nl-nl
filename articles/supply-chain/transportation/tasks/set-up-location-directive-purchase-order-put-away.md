@@ -1,6 +1,6 @@
 ---
 title: Een locatie-instructie instellen voor wegzetten van inkooporders
-description: In dit onderwerp wordt beschreven hoe u een eenvoudige locatie-instructie instelt.
+description: In dit artikel wordt beschreven hoe u een eenvoudige locatie-instructie instelt.
 author: Weijiesa
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2275b2fd70e246955054930b13f29a6c0b287363
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6d973d1cdb530a031ca8a5caf621f9bebced4842
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674133"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873487"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Een locatie-instructie instellen voor wegzetten van inkooporders
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u een eenvoudige locatie-instructie instelt. Het voorbeeld dat wordt gegeven, maakt een locatierichtlijn die moet worden gebruikt om te bepalen waar artikelen worden weggezet die zijn ontvangen voor een inkooporder. U kunt deze taakbegeleider afspelen met de gegevens van het demobedrijf USMF. Precondities: u moet een beschikkingscode maken. In deze procedure gebruiken we een beschikkingscode met de naam Opnieuw labelen. Als u een locatierichtlijn in uw eigen gegevens maakt, moet u geavanceerd magazijnbeheer voor uw magazijn en artikelen hebben ingesteld. Deze procedure is bedoeld voor de magazijnbeheerder.
+In dit artikel wordt beschreven hoe u een eenvoudige locatie-instructie instelt. Het voorbeeld dat wordt gegeven, maakt een locatierichtlijn die moet worden gebruikt om te bepalen waar artikelen worden weggezet die zijn ontvangen voor een inkooporder. U kunt deze taakbegeleider afspelen met de gegevens van het demobedrijf USMF. Precondities: u moet een beschikkingscode maken. In deze procedure gebruiken we een beschikkingscode met de naam Opnieuw labelen. Als u een locatierichtlijn in uw eigen gegevens maakt, moet u geavanceerd magazijnbeheer voor uw magazijn en artikelen hebben ingesteld. Deze procedure is bedoeld voor de magazijnbeheerder.
 
 1. Ga in het navigatievenster naar **Modules > Magazijnbeheer > Instellingen > Locatie-instructie**.
 2. Selecteer **Inkooporders** in het veld **Werkordertype**.

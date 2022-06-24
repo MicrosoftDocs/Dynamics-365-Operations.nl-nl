@@ -1,6 +1,6 @@
 ---
 title: Leveringsmethoden voor niet-vervoerders verbergen in de verzendopties in POS
-description: In dit onderwerp wordt een configuratieoptie beschreven waarmee u kunt voorkomen dat leveringsmethoden voor niet-vervoerders worden weergegeven voor selectie wanneer verzendorders worden gemaakt in de POS-toepassing.
+description: In dit artikel wordt een configuratieoptie beschreven waarmee u kunt voorkomen dat leveringsmethoden voor niet-vervoerders worden weergegeven voor selectie wanneer verzendorders worden gemaakt in de POS-toepassing.
 author: hhainesms
 ms.date: 10/24/2019
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 4d885aa7ab3b4daaebb1fa8378562d86cc153270ea166b495bf3381fae826773
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 469e6ebb8afed26a6bf25f4c9c3ab8f7f4ac78ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773874"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897000"
 ---
 # <a name="hide-non-carrier-delivery-modes-from-the-shipping-options-in-pos"></a>Leveringsmethoden voor niet-vervoerders verbergen in de verzendopties in POS
 
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt een configuratieoptie beschreven die beschikbaar is voor de POS-toepassing. Met deze configuratieoptie wijzigt u het gedrag voor de selectie van leveringsmethoden wanneer verzendorders worden gemaakt in POS.
+In dit artikel wordt een configuratieoptie beschreven die beschikbaar is voor de POS-toepassing. Met deze configuratieoptie wijzigt u het gedrag voor de selectie van leveringsmethoden wanneer verzendorders worden gemaakt in POS.
 
 Wanneer gebruikers verzendorders voor een klant maken in POS, kunnen ze een leveringsmethode selecteren voor de zending. Deze functionaliteit is beschikbaar ongeacht of de gehele order wordt verzonden of alleen geselecteerde regels.
 

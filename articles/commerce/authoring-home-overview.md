@@ -1,6 +1,6 @@
 ---
-title: Overzicht van pagina schrijven
-description: In dit onderwerp vindt u een overzicht van de creatiepagina in Microsoft Dynamics 365 Commerce.
+title: Overzicht van de creatiepagina
+description: In dit artikel vindt u een overzicht van de creatiepagina in Microsoft Dynamics 365 Commerce.
 author: brendans
 ms.date: 10/31/2019
 ms.topic: overview
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 68487c899edccaeff9c339d746d21b1d27b498aa
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: bc8cdbc0a521f3aa444a3af0d0230f8567729694
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984616"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854999"
 ---
-# <a name="authoring-page-overview"></a>Overzicht van pagina schrijven
+# <a name="authoring-page-overview"></a>Overzicht van de creatiepagina
 
   
  [!include [banner](includes/banner.md)]
 
-In dit onderwerp vindt u een overzicht van de creatiepagina in Microsoft Dynamics 365 Commerce.
+In dit artikel vindt u een overzicht van de creatiepagina in Microsoft Dynamics 365 Commerce.
 
 U kunt websites maken ter ondersteuning van verschillende zakelijke behoeften. Ze kunnen een geheel bedrijf vertegenwoordigen, een enkel kanaal van het bedrijf weergeven, of zijn gericht op een specifiek publiek of een bepaald segment van een publiek. Een kledingfabrikant kan bijvoorbeeld een website hebben met een overzicht van alle merken die het bedrijf bezit. Dezelfde kleding fabrikant kan vervolgens voor elk van deze merken een aparte website hebben en tevens een reeks websites voor luxe mode, outdoorkleding en kindermode.
 

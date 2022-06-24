@@ -1,6 +1,6 @@
 ---
 title: Grootschalige implementatie van verzegelde Commerce-selfservicecomponenten
-description: In dit onderwerp wordt uitgelegd hoe u het framework voor installatieprogramma's voor selfservicecomponenten kunt gebruiken om implementaties op de achtergrond te installeren en te onderhouden.
+description: In dit artikel wordt uitgelegd hoe u het framework voor installatieprogramma's voor selfservicecomponenten kunt gebruiken om implementaties op de achtergrond te installeren en te onderhouden.
 author: jashanno
 ms.date: 05/11/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: 5cb27fd0ea366d12c8bd6ee1cdb0c6d584375862
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: a679d78db3ad5bd9cccbd4ab6a7026bd07890f55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8741543"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898574"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>Grootschalige implementatie van verzegelde Commerce-selfservicecomponenten
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp is van toepassing op de installatieprogramma's voor componenten van het verzegelde framework die elke maand worden uitgebracht, vanaf release 10.0.18, en beschikbaar worden gemaakt in de bibliotheek voor deze gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS). De eerste versies van deze nieuwe installatieprogramma's worden aangeduid als **(preview)**. Deze aanduiding is echter alleen bedoeld om onderscheid te maken tussen de nieuwe installatieprogramma's terwijl Microsoft bepaalt of er extra functionele vereisten zijn om deze te gebruiken. Dit betekent niet dat de installatieprogramma's niet geldig zijn voor productie. Op basis van de release van deze nieuwe installatieprogramma's is Microsoft van plan om de oude (verouderde) installatieprogramma's in of rond oktober 2023 af te schaffen. 
+Dit artikel is van toepassing op de installatieprogramma's voor componenten van het verzegelde framework die elke maand worden uitgebracht, vanaf release 10.0.18, en beschikbaar worden gemaakt in de bibliotheek voor deze gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS). De eerste versies van deze nieuwe installatieprogramma's worden aangeduid als **(preview)**. Deze aanduiding is echter alleen bedoeld om onderscheid te maken tussen de nieuwe installatieprogramma's terwijl Microsoft bepaalt of er extra functionele vereisten zijn om deze te gebruiken. Dit betekent niet dat de installatieprogramma's niet geldig zijn voor productie. Op basis van de release van deze nieuwe installatieprogramma's is Microsoft van plan om de oude (verouderde) installatieprogramma's in of rond oktober 2023 af te schaffen. 
 
-In dit onderwerp wordt uitgelegd hoe u de nieuwe installatieprogramma's kunt gebruiken om via opdrachtregelargumenten installatie- en onderhoudsupdates uit te voeren op de achtergrond. Met deze argumenten kunt u massale implementaties op verschillende manieren uitvoeren.
+In dit artikel wordt uitgelegd hoe u de nieuwe installatieprogramma's kunt gebruiken om via opdrachtregelargumenten installatie- en onderhoudsupdates uit te voeren op de achtergrond. Met deze argumenten kunt u massale implementaties op verschillende manieren uitvoeren.
 
 > [!NOTE]
 > De nieuwe verzegelde selfservice installatieprogramma's worden niet beschikbaar gemaakt in Headquarters en kunnen alleen worden gedownload via LCS.
@@ -108,7 +108,7 @@ Voor de migratie van het oude framewerk voor installatieprogramma's voor selfser
 
 ### <a name="before-you-begin"></a>Voordat u begint
 
-Het is van groot belang dat u het oude, selfservice Modern POS-onderdeel verwijdert. Zie de migratiestappen eerder in dit onderwerp voor meer informatie.
+Het is van groot belang dat u het oude, selfservice Modern POS-onderdeel verwijdert. Zie de migratiestappen eerder in dit artikel voor meer informatie.
 
 ### <a name="examples-of-silent-deployment"></a>Voorbeelden van installatie op de achtergrond
 
@@ -125,7 +125,7 @@ CommerceModernPOS.exe --help install
 ```
 
 > [!NOTE]
-> Een configuratiebestand is niet vereist voor Modern POS. Het installatieprogramma heeft nu parameters (eerder in dit onderwerp weergegeven) voor de verschillende waarden die tijdens het activeren van het apparaat worden gebruikt.
+> Een configuratiebestand is niet vereist voor Modern POS. Het installatieprogramma heeft nu parameters (eerder in dit artikel weergegeven) voor de verschillende waarden die tijdens het activeren van het apparaat worden gebruikt.
 
 Met de volgende opdracht worden alle parameters opgegeven die moeten worden gebruikt tijdens het activeren van apparaten nadat de toepassing Modern POS is geïnstalleerd. In dit voorbeeld wordt gebruikgemaakt van het register **Houston-3**, dat veel wordt gebruikt in Dynamics 365 Commerce-demonstratiegegevens.
 
@@ -145,7 +145,7 @@ U kunt deze concepten combineren om de gewenste installatieresultaten te bereike
 
 ### <a name="before-you-begin"></a>Voordat u begint
 
-Het is van groot belang dat u het oude, selfservice onderdeel Hardware Station verwijdert. Zie de migratiestappen eerder in dit onderwerp voor meer informatie. Er is geen hulpmiddel voor verkopersrekeninggegevens meer. In plaats daarvan worden de verkopersrekeninggegevens geïnstalleerd wanneer een POS-terminal aan Hardware Station wordt gekoppeld. Het wordt sterk aangeraden de volgende opdracht te gebruiken wanneer u dit installatieprogramma voor het eerst test:
+Het is van groot belang dat u het oude, selfservice onderdeel Hardware Station verwijdert. Zie de migratiestappen eerder in dit artikel voor meer informatie. Er is geen hulpmiddel voor verkopersrekeninggegevens meer. In plaats daarvan worden de verkopersrekeninggegevens geïnstalleerd wanneer een POS-terminal aan Hardware Station wordt gekoppeld. Het wordt sterk aangeraden de volgende opdracht te gebruiken wanneer u dit installatieprogramma voor het eerst test:
 
 ```Console
 CommerceHardwareStation.exe --help install
@@ -166,7 +166,7 @@ HardwareStation.exe install --Port 443 --StoreSystemAOSURL "https://MyDynamics36
 ```
 
 > [!NOTE]
-> Een configuratiebestand is niet vereist voor Hardware Station. Het installatieprogramma heeft nu parameters (eerder in dit onderwerp weergegeven) voor de verschillende waarden die vereist zijn.
+> Een configuratiebestand is niet vereist voor Hardware Station. Het installatieprogramma heeft nu parameters (eerder in dit artikel weergegeven) voor de verschillende waarden die vereist zijn.
 
 Met de volgende opdracht worden alle parameters opgegeven die nodig zijn om de vereiste controles tijdens een standaardinstallatie over te slaan. 
 
@@ -189,7 +189,7 @@ CommerceStoreScaleUnitSetup.exe --help install
 
 ### <a name="before-you-begin"></a>Voordat u begint
 
-Het is van groot belang dat u het oude, selfservice onderdeel CSU (zelfgehost) verwijdert. Zie de migratiestappen eerder in dit onderwerp voor meer informatie.
+Het is van groot belang dat u het oude, selfservice onderdeel CSU (zelfgehost) verwijdert. Zie de migratiestappen eerder in dit artikel voor meer informatie.
 
 ### <a name="examples-of-silent-deployment"></a>Voorbeelden van installatie op de achtergrond
 

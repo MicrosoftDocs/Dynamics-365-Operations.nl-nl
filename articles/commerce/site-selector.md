@@ -1,6 +1,6 @@
 ---
 title: Siteselectiemodule
-description: In dit onderwerp wordt beschreven wat de siteselectiemodule is en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
+description: In dit artikel wordt beschreven wat de siteselectiemodule is en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/04/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: a1954f6b2fea35d5138218e6a2a23ab1fd04c8fc
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ef7753658f878fdf76c6a6beb82ce54e9c12e212
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710298"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884598"
 ---
 # <a name="site-picker-module"></a>Siteselectiemodule
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven wat de siteselectiemodule is en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
+In dit artikel wordt beschreven wat de siteselectiemodule is en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 
 Wanneer een bedrijf verschillende sites heeft voor verschillende markten, regio's en landen, hebben sitegebruikers een eenvoudige manier nodig om tussen sites te schakelen en hun favoriete winkelsite te selecteren. Voor dit scenario kunnen gebruikers met de siteselectiemodule bladeren door meerdere sites. Een siteverdeler wordt ook aangeraden wanneer [geodetectie en omleiding](geo-detection-redirection.md) zijn geïmplementeerd voor uw e-commercesite, zodat klanten een manier hebben om de sitevoorkeur te overschrijven die ze aangeven via de module voor [land-/regioselectie](country-region-picker-module.md). 
 

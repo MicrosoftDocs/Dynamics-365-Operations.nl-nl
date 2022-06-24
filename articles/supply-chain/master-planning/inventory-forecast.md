@@ -1,6 +1,6 @@
 ---
 title: Voorraadprognoses
-description: In dit onderwerp worden de functies voor aanbod- en vraagprognose beschreven die kunnen worden gebruikt om voorraadprognoses te maken in Microsoft Dynamics 365 Supply Chain Management.
+description: In dit artikel worden de functies voor aanbod- en vraagprognose beschreven die kunnen worden gebruikt om voorraadprognoses te maken in Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 06/08/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1446928c2f5fe606d1d0732764a2a4460643afcf
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.openlocfilehash: 10e3b6ad079dbcbc3cce429a4d9d838e584b9c54
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8548162"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844520"
 ---
 # <a name="inventory-forecasts"></a>Voorraadprognoses
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u voorraadprognoses maakt en bekijkt. U kunt aanbod- en vraagprognoseregels maken en weergeven voor artikelen, artikelgroepen, artikeltoewijzingssleutels, klantrekeningen, klantgroepen, leveranciersrekeningen en leveranciersgroepen.
+In dit artikel wordt beschreven hoe u voorraadprognoses maakt en bekijkt. U kunt aanbod- en vraagprognoseregels maken en weergeven voor artikelen, artikelgroepen, artikeltoewijzingssleutels, klantrekeningen, klantgroepen, leveranciersrekeningen en leveranciersgroepen.
 
 Voor elke prognoseregel kunt u het prognosemodel selecteren dat wordt gebruikt. U kunt vervolgens het artikel of de artikelgroep plus de hoeveelheid of het transactiebedrag opgeven. U kunt ook een tijdschema instellen voor toewijzing van de prognosehoeveelheid.
 
@@ -60,7 +60,7 @@ Zoals de tabel in stap 1 aangeeft, zijn er verschillende manieren om de gebruikt
     Afhankelijk van wat u hebt geselecteerd, verschijnt de pagina **Aanbodprognose** of **Vraagprognose**. Hier worden bestaande prognoseregels weergegeven voor de record die u hebt geselecteerd voordat u de pagina hebt geopend.
 
 1. Selecteer in het actievenster de optie **Nieuw** om een prognoseregel toe te voegen aan het raster in het bovenste deel van de pagina.
-1. Selecteer op de nieuwe regel in het veld **Model** het prognosemodel dat u wilt gebruiken. Voer vervolgens zo nodig andere gegevens in, zoals het artikel, de artikelgroep, de klant- of leveranciersrekening of de groep, de artikelhoeveelheid of het totale transactiebedrag. Zie de volgende gedeelten in dit onderwerp voor volledige details over de velden die beschikbaar zijn op de pagina's **Aanbodprognose** en **Vraagprognose**.
+1. Selecteer op de nieuwe regel in het veld **Model** het prognosemodel dat u wilt gebruiken. Voer vervolgens zo nodig andere gegevens in, zoals het artikel, de artikelgroep, de klant- of leveranciersrekening of de groep, de artikelhoeveelheid of het totale transactiebedrag. Zie de volgende gedeelten in dit artikel voor volledige details over de velden die beschikbaar zijn op de pagina's **Aanbodprognose** en **Vraagprognose**.
 1. Als u de prognose over de periode wilt verdelen, selecteert u op het tabblad **Overzicht** de optie **Prognose toewijzen** op de werkbalk.
 1. Controleer in het raster **Toewijzing** de periode en de intervallen die worden gebruikt voor het verdelen van de prognosehoeveelheden.
 
@@ -68,7 +68,7 @@ Zoals de tabel in stap 1 aangeeft, zijn er verschillende manieren om de gebruikt
 
 Met de aanbodprognose kunt u een plan maken voor artikelen die moeten worden ingekocht. Het laat de inkoop- en sourcing-medewerkers weten wat ze moeten bestellen.
 
-U kunt een aanbodprognose invoeren per artikel, artikelgroep, artikeltoewijzingssleutel, leverancier en leveranciersgroep. Zie het gedeelte [Prognoseregels weergeven en handmatig invoeren](#manual-entry) eerder in dit onderwerp voor informatie over alle manieren om de pagina **Aanbodprognose** voor verschillende entiteiten en records te openen.
+U kunt een aanbodprognose invoeren per artikel, artikelgroep, artikeltoewijzingssleutel, leverancier en leveranciersgroep. Zie het gedeelte [Prognoseregels weergeven en handmatig invoeren](#manual-entry) eerder in dit artikel voor informatie over alle manieren om de pagina **Aanbodprognose** voor verschillende entiteiten en records te openen.
 
 Het bovenste deel van de pagina **Aanbodprognose** biedt een raster van aanbodprognoseregels en een reeks tabbladen die u kunt gebruiken om meer informatie over een geselecteerde prognoseregel weer te geven en in te stellen. Het onderste deel van de pagina bevat het raster **Toewijzing**.
 
@@ -94,9 +94,9 @@ In de volgende tabel worden de opdrachten beschreven die beschikbaar zijn op de 
 
 | Opdracht | Beschrijving |
 |---|---|
-| Prognose toewijzen | Als u een toewijzingsmethode gebruikt, genereert u de afzonderlijke schemaregels voor de prognosetransactie. De hoeveelheid van de regel wordt vervolgens verdeeld op datum (op basis van de geselecteerde tijdsintervallen), hoeveelheid en bedrag voor de hele periode. (Zie de sectie [Prognose toewijzen](#allocate-forecast) verderop in dit onderwerp.) |
-| Bulkupdate | Open de pagina **Prognosetransacties bewerken**. (Zie het gedeelte [Prognosetransacties groepsgewijs bijwerken](#bulk-update) verderop in dit onderwerp.) |
-| Voorraadprognose | Open een weergave van de pagina **Voorraadprognose** die is gefilterd op de geselecteerde combinatie van artikel/model. (Zie het gedeelte [Voorraadprognose](#inventory-forecast) verderop in dit onderwerp.) |
+| Prognose toewijzen | Als u een toewijzingsmethode gebruikt, genereert u de afzonderlijke schemaregels voor de prognosetransactie. De hoeveelheid van de regel wordt vervolgens verdeeld op datum (op basis van de geselecteerde tijdsintervallen), hoeveelheid en bedrag voor de hele periode. (Zie de sectie [Prognose toewijzen](#allocate-forecast) verderop in dit artikel.) |
+| Bulkupdate | Open de pagina **Prognosetransacties bewerken**. (Zie het gedeelte [Prognosetransacties groepsgewijs bijwerken](#bulk-update) verderop in dit artikel.) |
+| Voorraadprognose | Open een weergave van de pagina **Voorraadprognose** die is gefilterd op de geselecteerde combinatie van artikel/model. (Zie het gedeelte [Voorraadprognose](#inventory-forecast) verderop in dit artikel.) |
 | Artikelbehoefte maken | Open een dialoogvenster waarin u artikelbehoeften en verkooporder- of artikeljournaalregels kunt maken voor projectgerelateerde prognosetransacties. Hoewel deze opdracht beschikbaar is voor zowel aanbodprognoseregels als vraagprognoseregels, kan deze niet worden gebruikt op de pagina **Aanbodprognose**. |
 
 ### <a name="the-overview-tab-on-the-supply-forecast-page"></a>Het tabblad Overzicht van de pagina Aanbodprognose
@@ -173,7 +173,7 @@ Als u een artikeltoewijzingssleutel gebruikt of als u een artikelprognose voor e
 
 Met de vraagprognose kunt u de vraag voor een klant invoeren of genereren. Het helpt verkoop- en marketingmedewerkers om hoofdplanningsmedewerkers te informeren over de verwachte vraag tijdens de komende prognoseperiode.
 
-U kunt een vraagprognose invoeren per artikel, artikelgroep, artikeltoewijzingssleutel, klant en klantgroep. Zie het gedeelte [Prognoseregels weergeven en handmatig invoeren](#manual-entry) eerder in dit onderwerp voor informatie over alle manieren om de pagina **Vraagprognose** voor verschillende entiteiten en records te openen.
+U kunt een vraagprognose invoeren per artikel, artikelgroep, artikeltoewijzingssleutel, klant en klantgroep. Zie het gedeelte [Prognoseregels weergeven en handmatig invoeren](#manual-entry) eerder in dit artikel voor informatie over alle manieren om de pagina **Vraagprognose** voor verschillende entiteiten en records te openen.
 
 Het bovenste deel van de pagina **Vraagprognose** biedt een raster van vraagprognoseregels en een reeks tabbladen die u kunt gebruiken om meer informatie over een geselecteerde prognoseregel weer te geven en in te stellen. Het onderste deel van de pagina bevat het raster **Toewijzing**.
 
@@ -201,9 +201,9 @@ In de volgende tabel worden de opdrachten beschreven die beschikbaar zijn op de 
 
 | Opdracht | Beschrijving |
 |---|---|
-| Prognose toewijzen | Als u een toewijzingsmethode gebruikt, genereert u de afzonderlijke schemaregels voor de prognosetransactie. De hoeveelheid van de regel wordt vervolgens verdeeld op datum (op basis van de geselecteerde tijdsintervallen), hoeveelheid en bedrag voor de hele periode. (Zie de sectie [Prognose toewijzen](#allocate-forecast) verderop in dit onderwerp.)|
-| Bulkupdate | Open de pagina **Prognosetransacties bewerken**. (Zie het gedeelte [Prognosetransacties groepsgewijs bijwerken](#bulk-update) verderop in dit onderwerp.) |
-| Voorraadprognose | Open een weergave van de pagina **Voorraadprognose** die is gefilterd op de geselecteerde combinatie van artikel/model. (Zie het gedeelte [Voorraadprognose](#inventory-forecast) verderop in dit onderwerp.) |
+| Prognose toewijzen | Als u een toewijzingsmethode gebruikt, genereert u de afzonderlijke schemaregels voor de prognosetransactie. De hoeveelheid van de regel wordt vervolgens verdeeld op datum (op basis van de geselecteerde tijdsintervallen), hoeveelheid en bedrag voor de hele periode. (Zie de sectie [Prognose toewijzen](#allocate-forecast) verderop in dit artikel.)|
+| Bulkupdate | Open de pagina **Prognosetransacties bewerken**. (Zie het gedeelte [Prognosetransacties groepsgewijs bijwerken](#bulk-update) verderop in dit artikel.) |
+| Voorraadprognose | Open een weergave van de pagina **Voorraadprognose** die is gefilterd op de geselecteerde combinatie van artikel/model. (Zie het gedeelte [Voorraadprognose](#inventory-forecast) verderop in dit artikel.) |
 | Artikelbehoefte maken | Open een dialoogvenster waarin u artikelbehoeften en verkooporder- of artikeljournaalregels kunt maken voor projectgerelateerde prognosetransacties. |
 
 ### <a name="the-overview-tab-on-the-demand-forecast-page"></a>Het tabblad Overzicht van de pagina Vraagprognose
@@ -296,7 +296,7 @@ Op het tabblad **Voorraaddimensies** worden alle waarden van voorraaddimensies w
 
 ### <a name="the-allocation-grid-on-the-demand-forecast-page"></a>Het raster Toewijzing van de pagina Vraagprognose
 
-Als u een artikeltoewijzingssleutel gebruikt of als u een artikelprognose voor een of meer toekomstige perioden hebt ingevoerd, kunt u de prognose toewijzen door **Prognose toewijzen** op de werkbalk op het tabblad **Overzicht** te selecteren. De hoeveelheid wordt vervolgens verdeeld op de manier die wordt aangegeven door de regels in het raster **Toewijzing**. (Zie de sectie [Prognose toewijzen](#allocate-forecast) verderop in dit onderwerp.)
+Als u een artikeltoewijzingssleutel gebruikt of als u een artikelprognose voor een of meer toekomstige perioden hebt ingevoerd, kunt u de prognose toewijzen door **Prognose toewijzen** op de werkbalk op het tabblad **Overzicht** te selecteren. De hoeveelheid wordt vervolgens verdeeld op de manier die wordt aangegeven door de regels in het raster **Toewijzing**. (Zie de sectie [Prognose toewijzen](#allocate-forecast) verderop in dit artikel.)
 
 ## <a name="inventory-forecast"></a><a name="inventory-forecast"></a>Voorraadprognose
 

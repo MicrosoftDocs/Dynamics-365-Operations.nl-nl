@@ -1,6 +1,6 @@
 ---
 title: Migratie naar Planningsoptimalisatie voor hoofdplanning
-description: Dit onderwerp bevat informatie over de nieuwe hoofdplannings-engine, Planningsoptimalisatie, en migratie van de bestaande engine.
+description: Dit artikel bevat informatie over de nieuwe hoofdplannings-engine, Planningsoptimalisatie, en migratie van de bestaande engine.
 author: t-benebo
 ms.date: 05/11/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 598e29ead50e1ecb249a7338c7f0952a912b4f69
-ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
+ms.openlocfilehash: a94b424ad1a454feecede8a7b037171b2984504f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809090"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846093"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migratie naar Planningsoptimalisatie voor hoofdplanning
 
 [!include [banner](../includes/banner.md)]
 
-De ingebouwde engine voor hoofdplanningen is gepland om verouderd te worden gemaakt (afgeschaft). Deze wordt vervangen door de invoegtoepassing Planningsoptimalisatie voor Microsoft Dynamics 365 Supply Chain Management. In dit onderwerp vindt u informatie over het effect op nieuwe en bestaande implementaties. Het bevat informatie over vereiste acties.
+De ingebouwde engine voor hoofdplanningen is gepland om verouderd te worden gemaakt (afgeschaft). Deze wordt vervangen door de invoegtoepassing Planningsoptimalisatie voor Microsoft Dynamics 365 Supply Chain Management. In dit artikel vindt u informatie over het effect op nieuwe en bestaande implementaties. Het bevat informatie over vereiste acties.
 
 Met Planningsoptimalisatie kunnen de berekeningen van de hoofdplanning buiten Supply Chain Management en de gerelateerde Azure SQL-database plaatsvinden. De voordelen die zijn gekoppeld aan Planningsoptimalisatie omvatten betere prestaties en minimale gevolgen voor de SQL-database tijdens uitvoeringen van de hoofdplanning. Omdat snelle planningsuitvoeringen zelfs tijdens kantooruren kunnen worden uitgevoerd, kunnen planners direct reageren op vraag- of parameterwijzigingen.
 
@@ -63,7 +63,7 @@ Uitzonderingen voor de migratie naar Planningsoptimalisatie zijn momenteel allee
 
 Nadat de vereiste functies beschikbaar zijn, geeft Microsoft een respijtperiode totdat de uitzondering is verlopen. De omgevingsbeheerder wordt geïnformeerd wanneer de vereiste functies beschikbaar zijn geworden en de respijtperiode is gestart.
 
-In het volgende stroomdiagram worden de gegevens in dit onderwerp samengevat, zodat u snel kunt zien of u een uitzondering moet aanvragen. Als u een uitzondering moet aanvragen, vult u de [Plannings- en uitzonderingsvragenlijst voor optimalisatie](https://go.microsoft.com/fwlink/?linkid=2144962) in en dient u deze in. De productgroep is verantwoordelijk voor het evalueren en goedkeuren van elke uitzonderingsaanvraag. Dien daarom uw aanvraag rechtstreeks bij de productgroep in via de koppeling en maak geen ondersteuningskaart voor de productgroep. Als uw aanvraag wordt afgewezen, moet u geen ondersteuningsbewijs maken, omdat Microsoft Support niet opnieuw uitzonderingen kan beoordelen of verlenen.
+In het volgende stroomdiagram worden de gegevens in dit artikel samengevat, zodat u snel kunt zien of u een uitzondering moet aanvragen. Als u een uitzondering moet aanvragen, vult u de [Plannings- en uitzonderingsvragenlijst voor optimalisatie](https://go.microsoft.com/fwlink/?linkid=2144962) in en dient u deze in. De productgroep is verantwoordelijk voor het evalueren en goedkeuren van elke uitzonderingsaanvraag. Dien daarom uw aanvraag rechtstreeks bij de productgroep in via de koppeling en maak geen ondersteuningskaart voor de productgroep. Als uw aanvraag wordt afgewezen, moet u geen ondersteuningsbewijs maken, omdat Microsoft Support niet opnieuw uitzonderingen kan beoordelen of verlenen.
 
 ![Stroomdiagram uitzonderingen.](media/exception-diagram.png "Stroomdiagram uitzonderingen")
 

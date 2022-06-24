@@ -1,6 +1,6 @@
 ---
-title: De magazijnapp installeren en verbinden
-description: In dit onderwerp wordt uitgelegd hoe u de magazijnapp op al uw mobiele apparaten installeert en configureert om verbinding te maken met uw Microsoft Dynamics 365 Supply Chain Management-omgeving. U kunt elk apparaat handmatig configureren of u kunt verbindingsinstellingen importeren via een bestand of door een QR-code te scannen.
+title: De app voor magazijnbeheer installeren en verbinden
+description: In dit artikel wordt uitgelegd hoe u de magazijnapp op al uw mobiele apparaten installeert en configureert om verbinding te maken met uw Microsoft Dynamics 365 Supply Chain Management-omgeving. U kunt elk apparaat handmatig configureren of u kunt verbindingsinstellingen importeren via een bestand of door een QR-code te scannen.
 author: Mirzaab
 ms.date: 05/25/2020
 ms.topic: article
@@ -16,26 +16,26 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9f123f217aabcc7500832fafb15199043048b5e5
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 8ed770e45aa7f9909b98a92b493dd2931c6a3981
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902266"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885749"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>De app voor magazijnbeheer installeren en verbinden
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> In dit onderwerp wordt beschreven hoe u de oude magazijn-app configureert (die nu is afgeschaft). Zie [De mobiele app Magazijnbeheer installeren en verbinden](install-configure-warehouse-management-app.md) als u wilt weten hoe u de nieuwe mobiele app Magazijnbeheer kunt configureren.
+> In dit artikel onderwerp wordt beschreven hoe u de oude magazijn-app configureert (die nu is afgeschaft). Zie [De mobiele app Magazijnbeheer installeren en verbinden](install-configure-warehouse-management-app.md) als u wilt weten hoe u de nieuwe mobiele app Magazijnbeheer kunt configureren.
 
 > [!NOTE]
-> In dit onderwerp wordt beschreven hoe u de magazijnapp voor cloudimplementaties configureert. Als u op zoek bent naar informatie over hoe u de magazijnapp configureert voor on-premises implementaties, raadpleegt u [Magazijnbeheer voor on-premises implementaties](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> In dit artikel wordt beschreven hoe u de magazijnapp voor cloudimplementaties configureert. Als u op zoek bent naar informatie over hoe u de magazijnapp configureert voor on-premises implementaties, raadpleegt u [Magazijnbeheer voor on-premises implementaties](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 De magazijnapp is beschikbaar in Google Play Store en Microsoft Store. Deze wordt als zelfstandig onderdeel geleverd. Daarom moet u de app op elk apparaat downloaden en vervolgens configureren om verbinding te maken met uw Microsoft Dynamics 365 Supply Chain Management-omgeving.
 
-In dit onderwerp wordt uitgelegd hoe u de magazijnapp op al uw mobiele apparaten installeert en configureert om verbinding te maken met uw Supply Chain Management-omgeving. U kunt elk apparaat handmatig configureren of u kunt verbindingsinstellingen importeren via een bestand of door een QR-code te scannen.
+In dit artikel wordt uitgelegd hoe u de magazijnapp op al uw mobiele apparaten installeert en configureert om verbinding te maken met uw Supply Chain Management-omgeving. U kunt elk apparaat handmatig configureren of u kunt verbindingsinstellingen importeren via een bestand of door een QR-code te scannen.
 
 ## <a name="system-requirements"></a>Systeemvereisten
 
@@ -76,11 +76,11 @@ Als u de magazijnapp wilt inschakelen voor interactie met een specifieke Supply 
 
     ![Wizard Een toepassing registreren.](media/app-connect-azure-register-wizard.png "Wizard Een toepassing registreren")
 
-1. Uw nieuwe app-registratie wordt geopend. Noteer de waarde in het veld **Toepassings-id (client)**. U hebt deze later nog nodig. Deze id wordt later in dit onderwerp aangeduid als de *client-id*.
+1. Uw nieuwe app-registratie wordt geopend. Noteer de waarde in het veld **Toepassings-id (client)**. U hebt deze later nog nodig. Deze id wordt later in dit artikel aangeduid als de *client-id*.
 
     ![Id van toepassing (client).](media/app-connect-azure-app-id.png "Id van toepassing (client)")
 
-1. Selecteer in de lijst **Beheren** de optie **Certificaat en geheimen**. Selecteer vervolgens een van de volgende knoppen, afhankelijk van hoe u de app wilt configureren voor verificatie. (Zie de sectie [Verifiëren via een certificaat of clientgeheim](#authenticate) verderop in dit onderwerp voor meer informatie.)
+1. Selecteer in de lijst **Beheren** de optie **Certificaat en geheimen**. Selecteer vervolgens een van de volgende knoppen, afhankelijk van hoe u de app wilt configureren voor verificatie. (Zie de sectie [Verifiëren via een certificaat of clientgeheim](#authenticate) verderop in dit artikel voor meer informatie.)
 
     - **Certificaat uploaden**: upload een certificaat voor gebruik als geheim. We raden deze benadering aan, omdat het veiliger is en ook meer kan worden geautomatiseerd. Als u de magazijnapp uitvoert op Windows-apparaten, noteert u de waarde voor **Vingerafdruk** die wordt weergegeven nadat u het certificaat hebt geüpload. U hebt deze waarde nodig wanneer u het certificaat op Windows-apparaten configureert.
     - **Nieuw clientgeheim**: maak een sleutel door een beschrijving en een duur voor de sleutel in te voeren in de sectie **Wachtwoorden** en selecteer vervolgens **Toevoegen**. Maak een kopie van de sleutel en sla deze veilig op.
@@ -90,7 +90,7 @@ Als u de magazijnapp wilt inschakelen voor interactie met een specifieke Supply 
 Zie de volgende bronnen voor meer informatie over het instellen van webservicetoepassingen in Azure AD.
 
 - Zie [Procedure: Azure PowerShell gebruiken om een service-principal te maken met een certificaat](/azure/active-directory/develop/howto-authenticate-service-principal-powershell) voor instructies voor het gebruik van Windows PowerShell om webservicetoepassingen in te stellen in Azure AD.
-- Zie de volgende onderwerpen voor gedetailleerde informatie over het handmatig maken van een webservicetoepassing in Azure AD.
+- Zie de volgende artikelen voor gedetailleerde informatie over het handmatig maken van een webservicetoepassing in Azure AD.
 
     - [Snelstart: Een toepassing registreren op het Microsoft-identiteitsplatform](/azure/active-directory/develop/quickstart-register-app)
     - [Procedure: de portal gebruiken om een Azure AD-toepassing en een service-principal te maken die toegang hebben tot bronnen](/azure/active-directory/develop/howto-create-service-principal-portal)
@@ -117,7 +117,7 @@ Voer de volgende stappen uit om Supply Chain Management in staat te stellen om u
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Verifiëren via een certificaat of clientgeheim
 
-Verificatie met Azure AD biedt een veilige manier om een mobiel apparaat te verbinden met Supply Chain Management. U kunt verifiëren via een clientgeheim of een certificaat. Als u verbindingsinstellingen gaat importeren, is het raadzaam een certificaat te gebruiken in plaats van een clientgeheim. Omdat het clientgeheim altijd veilig moet worden opgeslagen, kunt u het niet importeren vanuit een bestand met verbindingsinstellingen of een QR-code, zoals verderop in dit onderwerp wordt beschreven.
+Verificatie met Azure AD biedt een veilige manier om een mobiel apparaat te verbinden met Supply Chain Management. U kunt verifiëren via een clientgeheim of een certificaat. Als u verbindingsinstellingen gaat importeren, is het raadzaam een certificaat te gebruiken in plaats van een clientgeheim. Omdat het clientgeheim altijd veilig moet worden opgeslagen, kunt u het niet importeren vanuit een bestand met verbindingsinstellingen of een QR-code, zoals verderop in dit artikel wordt beschreven.
 
 Certificaten kunnen worden gebruikt als geheimen om de identiteit van de toepassing te bewijzen wanneer een token wordt aangevraagd. Het openbare gedeelte van het certificaat wordt geüpload naar de app-registratie in de Azure-portal, terwijl het volledige certificaat moet worden geïmplementeerd op elk apparaat waarop de magazijnapp is geïnstalleerd. Uw organisatie is verantwoordelijk voor het beheer van het certificaat wat betreft rotatie en dergelijke. U kunt zelfondertekende certificaten gebruiken, maar u moet altijd met niet-exporteerbare certificaten werken.
 

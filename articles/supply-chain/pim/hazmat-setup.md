@@ -1,6 +1,6 @@
 ---
 title: Gevaarlijke stoffen instellen
-description: In dit onderwerp wordt uitgelegd hoe u de gegevens instelt die nodig zijn om artikelen te classificeren als gevaarlijke stoffen. Wanneer u een verkooporder maakt die een artikel bevat dat is geclassificeerd als een gevaarlijk goed, genereert het systeem voor die verkooporder een documentatie voor gevaarlijke stoffen wanneer het artikel wordt verzonden.
+description: In dit artikel wordt uitgelegd hoe u de gegevens instelt die nodig zijn om artikelen te classificeren als gevaarlijke stoffen. Wanneer u een verkooporder maakt die een artikel bevat dat is geclassificeerd als een gevaarlijk goed, genereert het systeem voor die verkooporder een documentatie voor gevaarlijke stoffen wanneer het artikel wordt verzonden.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6923bd24fc8f9aad6e758603e3b20f7d5f2b8fde
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 95d7a4d5e61b2f0ff2a9d52b7ccfa8deec1b309d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778004"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888494"
 ---
 # <a name="set-up-hazardous-materials"></a>Gevaarlijke stoffen instellen
 

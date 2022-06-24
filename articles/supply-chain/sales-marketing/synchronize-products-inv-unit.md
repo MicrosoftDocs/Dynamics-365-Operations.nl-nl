@@ -1,6 +1,6 @@
 ---
 title: Producten met voorraadeenheid uit Supply Chain Management synchroniseren met Field Service
-description: Dit onderwerp bespreekt de sjablonen en de onderliggende taak die worden gebruikt om producten met voorraadeenheid te synchroniseren van Dynamics 365 Supply Chain Management naar Dynamics 365 Field Service.
+description: Dit artikel bespreekt de sjablonen en de onderliggende taak die worden gebruikt om producten met voorraadeenheid te synchroniseren van Dynamics 365 Supply Chain Management naar Dynamics 365 Field Service.
 author: Henrikan
 ms.date: 03/13/2019
 ms.topic: article
@@ -16,24 +16,24 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 6ac346d735bc44e9f9660c60b23a73057e4b7306
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5f7658eacd20aa69a64d6288e9d29e53b6ccb002
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566330"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887249"
 ---
 # <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a>Producten met voorraadeenheid uit Supply Chain Management synchroniseren met Field Service
 
 [!include[banner](../includes/banner.md)]
 
-Dit onderwerp bespreekt de sjablonen en de onderliggende taak die worden gebruikt om producten met voorraadeenheid te synchroniseren van Dynamics 365 Supply Chain Management naar Dynamics 365 Field Service.
+Dit artikel bespreekt de sjablonen en de onderliggende taak die worden gebruikt om producten met voorraadeenheid te synchroniseren van Dynamics 365 Supply Chain Management naar Dynamics 365 Field Service.
 
 [![Synchronisatie van zakelijke processen tussen Supply Chain Management en Field Service.](./media/FSProductsOW.png)](./media/FSProductsOW.png)
 
 De gebruikte sjabloon **Field Service-producten met Voorraadeenheid (Supply Chain Management naar Field Service)** is gebaseerd op de sjabloon **Field Service-producten (Supply Chain Management naar Field Service)**. Zie voor meer informatie [Producten in Supply Chain Management synchroniseren met producten in Field Service](field-service-product.md).
 
-In dit onderwerp worden alleen de verschillen tussen de twee sjablonen beschreven: 
+In dit artikel worden alleen de verschillen tussen de twee sjablonen beschreven: 
 - **Field Service-producten met Voorraadeenheid (Supply Chain Management naar Service)**
 - **Field Service-producten (Supply Chain Management naar Field Service)** 
 

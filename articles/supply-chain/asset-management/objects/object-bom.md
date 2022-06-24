@@ -1,6 +1,6 @@
 ---
 title: Activumstuklijsten
-description: Dit onderwerp beschrijft activumstuklijsten in Activabeheer.
+description: Dit artikel beschrijft activumstuklijsten in Activabeheer.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0430891607ac4558c91b86318aee318d0076007daf59a32eda65cb411d274b3a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 71b861ec31e704e001aab29245b9e24ce8beb0de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751980"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882774"
 ---
 # <a name="asset-boms"></a>Activumstuklijsten
 
@@ -28,7 +28,7 @@ ms.locfileid: "6751980"
 
  
 
-Dit onderwerp beschrijft activumstuklijsten in Activabeheer. Op de pagina **Activumstuklijst** wordt een lijst weergegeven met alle artikelen (reserveonderdelen en andere artikelen) die gedurende de hele levensduur op een activum worden gebruikt. Wanneer u een nieuw activum maakt, moet u overwegen om een activumstuklijst in te stellen als onderdeel van de instellingsprocedure. Op deze manier kunt u de artikelhistorie voor het activum bijhouden vanaf de aanmaakdatum.
+Dit artikel beschrijft activumstuklijsten in Activabeheer. Op de pagina **Activumstuklijst** wordt een lijst weergegeven met alle artikelen (reserveonderdelen en andere artikelen) die gedurende de hele levensduur op een activum worden gebruikt. Wanneer u een nieuw activum maakt, moet u overwegen om een activumstuklijst in te stellen als onderdeel van de instellingsprocedure. Op deze manier kunt u de artikelhistorie voor het activum bijhouden vanaf de aanmaakdatum.
 
 Nadat u een onderhoudstaak hebt voltooid en het artikelverbruik is geregistreerd op een werkorder, kunt u het verbruik van reserveonderdelen en andere artikelen bijhouden die voor het activum zijn gebruikt. Met deze functionaliteit kunt u een volledig artikelverbruikrecord bijhouden voor al uw activa. U kunt de record bijvoorbeeld gebruiken om te controleren of een specifiek reserveonderdeel vaak wordt vervangen of om de reserveonderdelen of andere artikelen bij te houden die momenteel voor een activum worden gebruikt.
 

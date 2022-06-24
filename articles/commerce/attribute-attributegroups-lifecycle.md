@@ -1,6 +1,6 @@
 ---
 title: Kenmerken en kenmerkgroepen beheren
-description: In dit onderwerp wordt beschreven hoe u kenmerken kunt gebruiken om een product en de bijbehorende karakteristieken door middel van door gebruiker gedefinieerde velden te beschrijven.
+description: In dit artikel wordt beschreven hoe u kenmerken kunt gebruiken om een product en de bijbehorende karakteristieken door middel van door gebruiker gedefinieerde velden te beschrijven.
 author: ashishmsft
 ms.date: 04/28/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: b3960f0877bdf68dd2f511ad283961b2a92db6a60078e84be55f071a00eae927
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cd74cb7795366bdca80e47d79a9591af69a16daf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727649"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876659"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Kenmerken en kenmerkgroepen beheren
 
@@ -85,7 +85,7 @@ Kenmerken zijn gebaseerd op *kenmerktypen*. Het kenmerktype geeft het gegevensty
 
 Bij *Metagegevens van het kenmerk* kunt u opties selecteren om op te geven hoe de kenmerken voor elk product moeten werken. U kunt bijvoorbeeld aangeven of kenmerken vereist zijn, kunnen worden gebruikt voor zoekopdrachten en kunnen worden gebruikt als filter in de online winkel.
 
-Voor producten kunnen de instellingen van kenmerkmetagegevens worden overschreven op kanaalniveau. Deze functionaliteit wordt verderop in dit onderwerp besproken.
+Voor producten kunnen de instellingen van kenmerkmetagegevens worden overschreven op kanaalniveau. Deze functionaliteit wordt verderop in dit artikel besproken.
 
 Zoals u merkt, bevat de pagina **Kenmerken** opties die betrekking hebben op metagegevens. Onder **Metagegevens van kenmerk voor POS** vindt u een optie met de naam **'Kan worden verfijnd'**. Deze is van invloed op de werking van de kenmerkwaarden in het verkooppunt (POS) of de manier waarop het systeem deze kenmerkwaarden verwerkt. Alleen kenmerken waarvoor u de optie **Kan worden verfijnd** instelt op **Ja**, worden weergegeven voor verfijnen of filteren van producten in het POS.
 

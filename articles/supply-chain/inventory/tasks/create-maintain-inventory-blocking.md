@@ -1,6 +1,6 @@
 ---
 title: Een voorraadblokkering maken en beheren
-description: In dit onderwerp wordt beschreven hoe u met een voorraadblokkering voorkomt dat fysieke voorhanden voorraad wordt gereserveerd door andere uitgaande brondocumenten.
+description: In dit artikel wordt beschreven hoe u met een voorraadblokkering voorkomt dat fysieke voorhanden voorraad wordt gereserveerd door andere uitgaande brondocumenten.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bad7d4e5794dc543bd750912ef0d3e4460e611b1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ba95b689bedfc76598dfa81548a074f4fb7c833a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572836"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859338"
 ---
 # <a name="create-and-maintain-an-inventory-blocking"></a>Een voorraadblokkering maken en beheren
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u met een voorraadblokkering voorkomt dat fysieke voorhanden voorraad wordt gereserveerd door andere uitgaande brondocumenten. Voordat u met deze procedure begint, moet u een artikel met fysieke, beschikbare voorhanden voorraad hebben.
+In dit artikel wordt beschreven hoe u met een voorraadblokkering voorkomt dat fysieke voorhanden voorraad wordt gereserveerd door andere uitgaande brondocumenten. Voordat u met deze procedure begint, moet u een artikel met fysieke, beschikbare voorhanden voorraad hebben.
 
 ## <a name="block-inventory"></a>Voorraad blokkeren
 

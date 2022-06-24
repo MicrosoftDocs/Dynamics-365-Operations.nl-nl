@@ -1,6 +1,6 @@
 ---
 title: Service-to-Service verificatie configureren
-description: In dit onderwerp wordt beschreven hoe u Service-to-Service verificatie configureert in Microsoft Dynamics 365 Commerce om service-API's voor beoordelingen en recensies veilig aan te roepen.
+description: In dit artikel wordt beschreven hoe u Service-to-Service verificatie configureert in Microsoft Dynamics 365 Commerce om service-API's voor beoordelingen en recensies veilig aan te roepen.
 author: gvrmohanreddy
 ms.date: 01/12/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: da780de5f15d72bdac85a261eae809125c830260
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: acb3a6220d146d32bbeb5bd8169033bc897ec3fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968512"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871602"
 ---
 # <a name="configure-service-to-service-authentication"></a>Service-to-Service verificatie configureren
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u Service-to-Service (S2S) verificatie configureert in Microsoft Dynamics 365 Commerce om service-API's voor beoordelingen en recensies veilig aan te roepen.
+In dit artikel wordt beschreven hoe u Service-to-Service (S2S) verificatie configureert in Microsoft Dynamics 365 Commerce om service-API's voor beoordelingen en recensies veilig aan te roepen.
 
-Dynamics 365 Commerce biedt [Beoordelingen en recensies](ratings-reviews-overview.md) als een oplossing voor meerdere kanalen. Met deze oplossing is toegang mogelijk tot service-API's buiten Commerce, zodat verschillende taken kunnen worden uitgevoerd. Deze taken omvatten het importeren van beoordelingen en recensies van uw externe systeem in Commerce, en het exporteren van beoordelingen en recensies vanuit Commerce. Als u in Commerce veilig API's voor beoordelingen en recensies wilt aanroepen, moet u S2S-verificatie eerst configureren door de procedures in dit onderwerp uit te voeren.
+Dynamics 365 Commerce biedt [Beoordelingen en recensies](ratings-reviews-overview.md) als een oplossing voor meerdere kanalen. Met deze oplossing is toegang mogelijk tot service-API's buiten Commerce, zodat verschillende taken kunnen worden uitgevoerd. Deze taken omvatten het importeren van beoordelingen en recensies van uw externe systeem in Commerce, en het exporteren van beoordelingen en recensies vanuit Commerce. Als u in Commerce veilig API's voor beoordelingen en recensies wilt aanroepen, moet u S2S-verificatie eerst configureren door de procedures in dit artikel uit te voeren.
 
 ## <a name="add-a-new-app-registration"></a>Een nieuwe appregistratie toevoegen
 

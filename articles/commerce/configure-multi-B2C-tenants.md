@@ -1,6 +1,6 @@
 ---
 title: Meerdere B2C-tenants configureren in een Commerce-omgeving
-description: In dit onderwerp wordt beschreven wanneer en hoe u meerdere Microsoft Azure Active Directory (Azure AD) B2C-tenants (Business-to-consumers) per kanaal instelt voor gebruikersverificatie in een specifieke Dynamics 365 Commerce-omgeving.
+description: In dit artikel wordt beschreven wanneer en hoe u meerdere Microsoft Azure Active Directory (Azure AD) B2C-tenants (Business-to-consumers) per kanaal instelt voor gebruikersverificatie in een specifieke Dynamics 365 Commerce-omgeving.
 author: BrianShook
 ms.date: 03/17/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a372561b8a6cdca8e1a3dc362009379884f1a3414330f3f056d4c3af7703a132
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 13504a612c388b4720ec3328aaf2db83da2aad8c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736399"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890564"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Meerdere B2C-tenants configureren in een Commerce-omgeving
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven wanneer en hoe u meerdere Microsoft Azure Active Directory (Azure AD) B2C-tenants (Business-to-consumers) per kanaal instelt voor gebruikersverificatie in een specifieke Dynamics 365 Commerce-omgeving.
+In dit artikel wordt beschreven wanneer en hoe u meerdere Microsoft Azure Active Directory (Azure AD) B2C-tenants (Business-to-consumers) per kanaal instelt voor gebruikersverificatie in een specifieke Dynamics 365 Commerce-omgeving.
 
 Dynamics 365 Commerce gebruikt de Azure AD-B2C-cloudidentiteitsservice om gebruikersreferenties en verificatiestromen te ondersteunen. Gebruikers kunnen de verificatiestromen gebruiken om te registreren, om zich aan te melden en hun wachtwoord opnieuw in te stellen. Azure AD B2C slaat gevoelige verificatiegegevens van de gebruiker op, zoals de gebruikersnaam en het wachtwoord. De gebruikersrecord is uniek voor elke B2C-tenant en gebruikt de referenties voor de gebruikersnaam (e-mailadres) of de referentie van de sociale identiteitsprovider.
 

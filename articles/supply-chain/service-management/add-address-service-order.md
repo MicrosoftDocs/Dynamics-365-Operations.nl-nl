@@ -1,6 +1,6 @@
 ---
 title: Een adres aan een serviceorder toevoegen
-description: Dit onderwerp beschrijft hoe u een klantadres aan de serviceorder toe te voegen.
+description: In dit artikel wordt beschreven hoe u een klantadres aan de serviceorder toevoegt.
 author: sorenva
 ms.date: 05/02/2018
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 560d0c58aebe652e668cc0ec3ed05d84f004872e
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: ce58ff7bbb491fd2d250b8986d02fca04bd5fad1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672873"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844730"
 ---
 # <a name="add-an-address-to-a-service-order"></a>Een adres aan een serviceorder toevoegen    
 
 [!include [banner](../includes/banner.md)]
 
 
-Dit onderwerp beschrijft hoe u een klantadres aan de serviceorder toe te voegen. Wanneer u een serviceorder maakt, worden de adresgegevens overgedragen vanuit het project waaraan de serviceorder is gekoppeld. U kunt echter een alternatieve locatie uit adressen selecteren die al in Microsoft Dynamics AX voor klanten, leveranciers, locaties, magazijnen, serviceorders en projecten worden ingevoerd.
+In dit artikel wordt beschreven hoe u een klantadres aan de serviceorder toevoegt. Wanneer u een serviceorder maakt, worden de adresgegevens overgedragen vanuit het project waaraan de serviceorder is gekoppeld. U kunt echter een alternatieve locatie uit adressen selecteren die al in Microsoft Dynamics AX voor klanten, leveranciers, locaties, magazijnen, serviceorders en projecten worden ingevoerd.
 
 U kunt ook nieuw adres maken. Standaard, wordt het nieuwe adres naar het project overgeboekt. Echter, u kunt opgeven dat het nieuwe adres alleen voor dit exemplaar van de service relevant is. Als u dit doet, wordt het nieuwe adres niet naar het project overgeboekt.
 

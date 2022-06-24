@@ -1,6 +1,6 @@
 ---
 title: Integratie van Dynamics 365 Commerce en Microsoft Teams inschakelen
-description: In dit onderwerp wordt beschreven hoe u integratie van Microsoft Dynamics 365 Commerce en Microsoft Teams inschakelt.
+description: In dit artikel wordt beschreven hoe u integratie van Microsoft Dynamics 365 Commerce en Microsoft Teams inschakelt.
 author: gvrmohanreddy
 ms.date: 02/17/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dfada577ab97fdb9912c22d2399529f934b25d54
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 505e3854818e4d5b73fc1a22724be16036300c3b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695729"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872823"
 ---
 # <a name="enable-dynamics-365-commerce-and-microsoft-teams-integration"></a>Integratie van Dynamics 365 Commerce en Microsoft Teams inschakelen
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u integratie van Microsoft Dynamics 365 Commerce en Microsoft Teams inschakelt.
+In dit artikel wordt beschreven hoe u integratie van Microsoft Dynamics 365 Commerce en Microsoft Teams inschakelt.
 
 Als u Teams wilt voorzien van informatie uit Dynamics 365 Commerce en de functies voor taakbeheer tussen Teams en de POS-toepassing (verkooppunt) wilt synchroniseren, moet u de integratiefuncties in Commerce Headquarters inschakelen.
 

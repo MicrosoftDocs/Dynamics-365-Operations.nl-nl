@@ -1,6 +1,6 @@
 ---
 title: Consistente afhandeling van afleveringsmodus in e-commercekanalen inschakelen
-description: In dit onderwerp wordt beschreven hoe u consistente afhandeling van de leveringsmodus kunt inschakelen om mogelijke problemen op te lossen die te maken hebben met toeslagenstromen in Microsoft Dynamics 365 Commerce e-commercekanalen.
+description: In dit artikel wordt beschreven hoe u consistente afhandeling van de leveringsmodus kunt inschakelen om mogelijke problemen op te lossen die te maken hebben met toeslagenstromen in Microsoft Dynamics 365 Commerce e-commercekanalen.
 author: gvrmohanreddy
 ms.date: 02/24/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-02-10
-ms.openlocfilehash: 4cecd70dacd72572afc8e6cb65530bf2be4cc93d
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: f32f1915f8f7de1d5536b69b05bc74c6149dfda6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349943"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885580"
 ---
 # <a name="enable-consistent-delivery-mode-handling-in-e-commerce-channels"></a>Consistente afhandeling van afleveringsmodus in e-commercekanalen inschakelen 
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u consistente afhandeling van de leveringsmodus kunt inschakelen om mogelijke problemen op te lossen die te maken hebben met toeslagenstromen in Microsoft Dynamics 365 Commerce e-commercekanalen.
+In dit artikel wordt beschreven hoe u consistente afhandeling van de leveringsmodus kunt inschakelen om mogelijke problemen op te lossen die te maken hebben met toeslagenstromen in Microsoft Dynamics 365 Commerce e-commercekanalen.
 
 In Dynamics 365 Commerce worden niet-pro rata toeslagen op koptekstniveau niet standaard toegepast in e-commercekanalen. Dit gedrag kan voor een of meer van de volgende problemen in e-commercekanalen zorgen:
 

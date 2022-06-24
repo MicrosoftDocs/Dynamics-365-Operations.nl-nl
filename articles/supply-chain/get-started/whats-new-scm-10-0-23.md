@@ -1,6 +1,6 @@
 ---
 title: Nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.23 (januari 2022)
-description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management 10.0.23.
+description: In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management 10.0.23.
 author: kamaybac
 ms.date: 10/15/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 86e33296fd8631082e47bf6814d8e5e716d9fa1b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: acffe97cf1844f16a70c716a7f2078b1e9a072d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691465"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849469"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.23 (januari 2022)
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management versie 10.0.23. Deze versie heeft een buildnummer van 10.0.1037 en is als volgt beschikbaar:
+In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in versie 10.0.23 van Microsoft Dynamics 365 Supply Chain Management. Deze versie heeft een buildnummer van 10.0.1037 en is als volgt beschikbaar:
 
 - **Preview van versie:** oktober 2021
 - **Algemene beschikbaarheid van versie (zelfupdate):** december 2021
@@ -29,7 +29,7 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Mi
 
 ## <a name="features-included-in-this-release"></a>Functies in deze versie
 
-De volgende tabel vermeldt de functies die deze versie bevat. De kolom *Functie* bevat koppelingen naar het [releaseplan](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features) waar u de officiële vrijgavedatums voor elke functie kunt zien. De kolom *Meer informatie* bevat meer details en/of koppelingen naar gerelateerde documentatie. Zie de kolom *Ingeschakeld per* om te bepalen hoe u een functie kunt inschakelen. Zie [Overzicht Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)voor meer informatie over het gebruik van Functiebeheer. Mogelijk wordt dit onderwerp gewijzigd om functies op te nemen die in de build zijn gemaakt nadat dit onderwerp oorspronkelijk werd gepubliceerd.
+De volgende tabel vermeldt de functies die deze versie bevat. De kolom *Functie* bevat koppelingen naar het [releaseplan](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features) waar u de officiële vrijgavedatums voor elke functie kunt zien. De kolom *Meer informatie* bevat meer details en/of koppelingen naar gerelateerde documentatie. Zie de kolom *Ingeschakeld per* om te bepalen hoe u een functie kunt inschakelen. Zie [Overzicht Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)voor meer informatie over het gebruik van Functiebeheer. Mogelijk wordt dit artikel gewijzigd om functies op te nemen die in de build zijn gemaakt nadat dit artikel oorspronkelijk werd gepubliceerd.
 
 | Functiegebied | Functie | Meer informatie | Ingeschakeld door   |
 |---|---|---|---|
@@ -63,9 +63,9 @@ Als u een van deze functies wilt in- of uitschakelen, moet u dit doen in [functi
 
 ## <a name="new-and-updated-documentation-resources"></a>Nieuwe en bijgewerkte documentatiebronnen
 
-De volgende Help-onderwerpen zijn onlangs toegevoegd of ingrijpend bijgewerkt. Deze onderwerpen hoeven niet te zijn gerelateerd aan de nieuwe functies die voor deze versie zijn toegevoegd, zoals in de vorige sectie is vermeld. Deze kunnen u echter helpen meer uit bestaande functies te halen.
+De volgende Help-artikelen zijn onlangs toegevoegd of ingrijpend bijgewerkt. Deze artikelen hoeven niet te zijn gerelateerd aan de nieuwe functies die voor deze versie zijn toegevoegd, zoals in de vorige sectie is vermeld. Deze kunnen u echter helpen meer uit bestaande functies te halen.
 
-| Functiegebied | Nieuwe of bijgewerkte onderwerpen |
+| Functiegebied | Nieuwe of bijgewerkte artikelen |
 |---|---|
 | Beheer voor technische wijzigingen | [Technische kenmerken en zoekopdracht voor technische kenmerken](../engineering-change-management/engineering-attributes-and-search.md) beschrijft nu hoe overname van technische kenmerken werkt. |
 | Hoofdplanning | [Hoofdplanning met vraagprognoses](../master-planning/planning-optimization/demand-forecast.md) en [Reductiesleutels van prognose](../master-planning/reduction-keys.md) bieden nu meer informatie over het werken met reductiesleutels. |
@@ -74,9 +74,9 @@ De volgende Help-onderwerpen zijn onlangs toegevoegd of ingrijpend bijgewerkt. D
 | Hoofdplanning | [Voorraadplanning](../master-planning/supply-schedule.md) |
 | Magazijnbeheer | [Algemene parameters voor mobiele apparaten](../warehousing/mobile-device-parameters.md) |
 | Magazijnbeheer | [Verankering](../warehousing/anchoring.md) |
-| Verkoopbeheer en marketing | Intercompany-handel wordt nu uitgebreid beschreven, te beginnen bij [Het instellen van intercompany-handel](../sales-marketing/intercompany-trade-set-up.md) en de gerelateerde onderwerpen. |
+| Verkoopbeheer en marketing | Intercompany-handel wordt nu uitgebreid beschreven, te beginnen bij [Het instellen van intercompany-handel](../sales-marketing/intercompany-trade-set-up.md) en de gerelateerde artikelen. |
 | Verkoopbeheer en marketing | [Prestatieverbeteringen bij opschonen van verkoophistorie](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
-| Voorraadbeheer | De documentatie voor Voorraadzichtbaarheid is uitgebreid en bijgewerkt, te beginnen met [het overzicht van de invoegtoepassing Voorraadzichtbaarheid](../inventory/inventory-visibility.md) en de gerelateerde onderwerpen. |
+| Voorraadbeheer | De documentatie voor Voorraadzichtbaarheid is uitgebreid en bijgewerkt, te beginnen met [het overzicht van de invoegtoepassing Voorraadzichtbaarheid](../inventory/inventory-visibility.md) en de gerelateerde artikelen. |
 | Magazijnbeheer | [Gebruikersaccounts voor mobiele apparaten](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
@@ -97,12 +97,12 @@ Bekijk de [Dynamics 365- en bedrijfsclouds: releasewave 2-plan van 2021](/dynami
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Verwijderde en afgeschafte functies voor Supply Chain Management
 
-In het onderwerp [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) worden functies beschreven die zijn of worden verwijderd voor Supply Chain Management.
+In het artikel [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) worden functies beschreven die zijn of worden verwijderd voor Supply Chain Management.
 
 - Een *verwijderde* functie is niet langer beschikbaar in het product.
 - Een *afgeschafte* functie wordt niet meer actief ontwikkeld en kan in een toekomstige update worden verwijderd.
 
-Twaalf maanden voordat een functie uit het product wordt verwijderd, wordt de afschaffing aangekondigd in het onderwerp [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md).
+Twaalf maanden voordat een functie uit het product wordt verwijderd, wordt de afschaffing aangekondigd in het artikel [Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md).
 
 Voor ingrijpende wijzigingen die alleen van invloed zijn op de compilatietijd, maar binair compatibel zijn met sandbox- en productieomgevingen, is de afschaffingstijd korter dan 12 maanden. Meestal zijn dit functionele updates die moeten worden doorgevoerd in de compiler.
 

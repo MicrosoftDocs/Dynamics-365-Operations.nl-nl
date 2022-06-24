@@ -1,6 +1,6 @@
 ---
 title: Een bestelopdracht maken die een offerteaanvraag gebruikt
-description: In dit onderwerp wordt aangegeven hoe u prijs- en leveranciersgegevens kunt toevoegen aan een opdracht tot inkoop vanuit een offerteaanvraagproces.
+description: In dit artikel wordt aangegeven hoe u prijs- en leveranciersgegevens kunt toevoegen aan een opdracht tot inkoop vanuit een offerteaanvraagproces.
 author: GalynaFedorova
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78092205c1a1d149b4dc202e085871d1fe46c4ad
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5ecde250e3517464611b68fe3c960bfbfdf06319
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675116"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846006"
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>Een bestelopdracht maken die een offerteaanvraag gebruikt
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt aangegeven hoe u prijs- en leveranciersgegevens kunt toevoegen aan een opdracht tot inkoop vanuit een offerteaanvraagproces. Het voorbeeld dat in deze taakbegeleiding wordt weergegeven kan worden gebruikt in het demobedrijf USMF, en u moet als beheerder zijn aangemeld om alle stappen te kunnen voltooien. De taken in deze taakbegeleiding worden doorgaans uitgevoerd door inkoopprofessionals.
+In dit artikel wordt aangegeven hoe u prijs- en leveranciersgegevens kunt toevoegen aan een opdracht tot inkoop vanuit een offerteaanvraagproces. Het voorbeeld dat in deze taakbegeleiding wordt weergegeven kan worden gebruikt in het demobedrijf USMF, en u moet als beheerder zijn aangemeld om alle stappen te kunnen voltooien. De taken in deze taakbegeleiding worden doorgaans uitgevoerd door inkoopprofessionals.
 
 
 ## <a name="create-a-requisition"></a>Een bestelopdracht maken

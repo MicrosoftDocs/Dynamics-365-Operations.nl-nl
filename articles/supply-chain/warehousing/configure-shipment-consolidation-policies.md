@@ -1,6 +1,6 @@
 ---
 title: Consolidatiebeleid voor zendingen configureren
-description: In dit onderwerp wordt uitgelegd hoe u standaard- en aangepast consolidatiebeleid voor zendingen instelt.
+description: In dit artikel wordt uitgelegd hoe u standaard- en aangepast consolidatiebeleid voor zendingen instelt.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 0a575648c0e6f5d0e3b9fb03ea6f47252837bf9c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f793cb71ff52e49534e1f11b06132f2e20610d7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672565"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845919"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Consolidatiebeleid voor zendingen configureren
 
@@ -26,12 +26,12 @@ ms.locfileid: "8672565"
 
 In het consolidatieproces voor zendingen waarbij wordt gebruikgemaakt van consolidatiebeleid voor zendingen kunnen zendingen automatisch worden geconsolideerd en handmatig worden vrijgegeven aan het magazijn. Nadat u deze functie hebt ingeschakeld, moet u het initiële beleid configureren. Als er geen beleid is geconfigureerd, wordt voor elke verkoopregel een afzonderlijke verzending met één ladingsregel gegenereerd.
 
-De scenario's die in dit onderwerp worden weergegeven, laten zien hoe u standaard- en aangepast consolidatiebeleid voor zendingen instelt.
+De scenario's die in dit artikel worden weergegeven, laten zien hoe u standaard- en aangepast consolidatiebeleid voor zendingen instelt.
 
 ## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>De functie voor consolidatiebeleid voor zendingen inschakelen
 
 > [!IMPORTANT]
-> In het [eerste scenario](#scenario-1) dat in dit onderwerp wordt beschreven, stelt u eerst een magazijn in, zodat hiervoor de eerdere functie voor consolidatie van zendingen wordt gebruikt. Vervolgens wordt maakt u consolidatiebeleid voor zendingen beschikbaar. Op deze manier kunt u ervaren hoe het upgradescenario werkt. Als u van plan bent om een omgeving met demogegevens te gebruiken om het eerste scenario te doorlopen, moet u de functie niet inschakelen voordat u het scenario uitvoert.
+> In het [eerste scenario](#scenario-1) dat in dit artikel wordt beschreven, stelt u eerst een magazijn in, zodat hiervoor de eerdere functie voor consolidatie van zendingen wordt gebruikt. Vervolgens wordt maakt u consolidatiebeleid voor zendingen beschikbaar. Op deze manier kunt u ervaren hoe het upgradescenario werkt. Als u van plan bent om een omgeving met demogegevens te gebruiken om het eerste scenario te doorlopen, moet u de functie niet inschakelen voordat u het scenario uitvoert.
 
 Voordat u de functie *Consolidatiebeleid voor zendingen* kunt gebruiken, moet u deze in het systeem inschakelen. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
 
@@ -40,7 +40,7 @@ Voordat u de functie *Consolidatiebeleid voor zendingen* kunt gebruiken, moet u 
 
 ## <a name="make-demo-data-available"></a>Demogegevens beschikbaar maken
 
-Elk scenario in dit onderwerp verwijst naar waarden en records die zijn opgenomen in de standaarddemogegevens die voor Microsoft Dynamics 365 Supply Chain Management worden geleverd. Als u de waarden wilt gebruiken die hier worden weergegeven in de oefeningen, moet u controleren of u werkt in een omgeving waarin de demogegevens zijn geïnstalleerd en stelt u de rechtspersoon in op **USMF** voordat u begint.
+Elk scenario in dit artikel verwijst naar waarden en records die zijn opgenomen in de standaarddemogegevens die voor Microsoft Dynamics 365 Supply Chain Management worden geleverd. Als u de waarden wilt gebruiken die hier worden weergegeven in de oefeningen, moet u controleren of u werkt in een omgeving waarin de demogegevens zijn geïnstalleerd en stelt u de rechtspersoon in op **USMF** voordat u begint.
 
 ## <a name="scenario-1-configure-default-shipment-consolidation-policies"></a><a name="scenario-1"></a>Scenario 1: Standaardbeleid voor consolidatie van zendingen configureren
 
@@ -339,7 +339,7 @@ Nu u al uw beleid hebt gemaakt, moet u de volgorde bepalen waarin deze beleidsre
 
 ## <a name="example-scenarios-of-how-to-use-shipment-consolidation-policies"></a><a name="example-scenarios"></a> Voorbeeldscenario's voor het gebruik van consolidatiebeleid voor zendingen
 
-In de volgende scenario's wordt beschreven hoe u het consolidatiebeleid voor zendingen kunt gebruiken dat u hebt gemaakt tijdens het lezen van dit onderwerp. In elk scenario wordt u door een consolidatieproces voor zendingen geleid waarbij wordt gebruikgemaakt van consolidatiebeleid voor zendingen tijdens automatische of handmatig vrijgave naar het magazijn:
+In de volgende scenario's wordt beschreven hoe u het consolidatiebeleid voor zendingen kunt gebruiken dat u hebt gemaakt tijdens het lezen van dit artikel. In elk scenario wordt u door een consolidatieproces voor zendingen geleid waarbij wordt gebruikgemaakt van consolidatiebeleid voor zendingen tijdens automatische of handmatig vrijgave naar het magazijn:
 
 - Scenario 1: [Zendingen consolideren wanneer deze naar het magazijn worden vrijgegeven met Automatische vrijgave van verkooporders](../warehousing/consolidate-shipments-automatic.md)
 - Scenario 2: [Zendingen consolideren wanneer het consolidatiebeleid voor zendingen wordt overschreven via de pagina Vrijgave naar magazijn](../warehousing/consolidate-shipments-release-to-warehouse-override.md)
