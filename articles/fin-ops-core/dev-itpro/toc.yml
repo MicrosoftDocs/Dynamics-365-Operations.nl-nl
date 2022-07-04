@@ -16,12 +16,10 @@
                   href: get-started/whats-new-home-page.md
                 - name: Platform updates voor versie 10.0.28 (augustus 2022)
                   href: get-started/whats-new-platform-updates-10-0-28.md
-                - name: Platform updates voor versie 10.0.27 (juli 2022)
+                - name: Platform-updates voor versie 10.0.27 (juli 2022)
                   href: get-started/whats-new-platform-updates-10-0-27.md
-                - name: Platform updates voor versie 10.0.26 (mei 2022)
+                - name: Platform-updates voor versie 10.0.26 (mei 2022)
                   href: get-started/whats-new-platform-updates-10-0-26.md
-                - name: Platform updates voor versie 10.0.25 (april 2022)
-                  href: get-started/whats-new-platform-updates-10-0-25.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -372,15 +370,15 @@
                   href: deployment/on-premises-deployment-landing-page.md
                 - name: On-premises implementaties voorbereiden
                   items:
-                    - name: Overzicht van On-premises implementatie
+                    - name: Overzicht van on-premises implementaties
                       href: deployment/on-premises-overview.md
                     - name: On-premises implementaties plannen en voorbereiden
                       href: deployment/plan-onprem-deployment.md
-                    - name: Voor Microsoft Dynamics 365 Finance + Operations (on-premises) ondersteunde software
+                    - name: On-premises ondersteunde software
                       href: deployment/onprem-compatibility.md
                     - name: Vereisten voor omvang hardware
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                    - name: Verificatie in Dynamics 365 Finance + Operations (on-premises)
+                    - name: Verificatie in on-premises omgevingen
                       href: deployment/authentication-onprem.md
                 - name: On-premises omgevingen instellen en implementeren
                   items:
@@ -408,9 +406,9 @@
                       href: deployment/onprem-SSRSHA.md
                     - name: Proxy's voor on-premises omgevingen configureren
                       href: deployment/onprem-reverseproxy.md
-                    - name: De Magazijnbeheer-app configureren voor on-premises implementaties
+                    - name: De Warehousing-app configureren voor on-premises implementaties
                       href: deployment/warehousing-for-on-premise-deployments.md
-                    - name: RSAT inschakelen in omgevingen met Finance + Operations (on-premises)
+                    - name: RSAT inschakelen in on-premises omgevingen
                       href: deployment/onprem-rsat-configuration.md
                     - name: Netwerkprinterapparaten installeren in on-premises omgevingen
                       href: analytics/install-network-printer-onprem.md
@@ -428,9 +426,9 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Hetzelfde AD FS-exemplaar hergebruiken voor meerdere omgevingen
                       href: deployment/onprem-reuseadfs.md
-                    - name: Upgrade van Windows Server in uw Microsoft Dynamics 365 Finance + Operations (on-premises)-omgevingen
+                    - name: Windows Server upgraden in uw on-premises omgevingen
                       href: deployment/onprem-upgrade-os.md
-                    - name: Het SQL Server-exemplaar van Microsoft Dynamics 365 Finance + Operations (on-premises)-omgevingen upgraden
+                    - name: Het SQL Server-exemplaar van on-premises omgevingen upgraden of vervangen
                       href: deployment/onprem-upgrade-sqlserver.md
                 - name: Lokale agent
                   items:
@@ -982,6 +980,8 @@
                   href: lifecycle-services/configuration-manager-lcs.md
                 - name: Configuratiebeheer instellen
                   href: lifecycle-services/set-up-configuration-manager-lcs.md
+                - name: Configuraties kopiëren
+                  href: lifecycle-services/copy-configuration-lcs.md
             - name: De code-upgradeservice configureren
               href: lifecycle-services/configure-execute-code-upgrade.md
             - name: Methodologieën maken of bijwerken
@@ -1050,7 +1050,9 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: Zelfstudie over Azure DevOps-extensie (openbare preview)
                   href: lifecycle-services/dts-ado-tutorial.md
-                - name: Visual Studio Code-extensie voor Dynamics 365 Translation Service (openbare preview)
+                - name: Visual Studio-extensie (beperkte preview)
+                  href: lifecycle-services/dts-visual-studio.md
+                - name: Visual Studio Code-extensie (openbare preview)
                   href: lifecycle-services/dts-vscode-doc.md
         - name: Integratie van Microsoft Power Platform
           items:
@@ -1602,6 +1604,8 @@
               href: sysadmin/implement-b2b.md
             - name: Gegevensonderhoud
               href: sysadmin/DataMaintenancePortal.md
+            - name: Toegang tot netwerkprinters voor rechtspersonen beheren
+              href: sysadmin/sys-admin-tools-network-printer.md
             - name: Beveiliging
               items:
                 - name: Op rollen gebaseerde beveiliging

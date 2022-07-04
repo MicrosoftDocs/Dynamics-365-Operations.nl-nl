@@ -18,8 +18,6 @@
                   href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26 (mei 2022)
                   href: get-started/whats-new-commerce-10-0-26.md
-                - name: Commerce 10.0.25 (april 2022)
-                  href: get-started/whats-new-commerce-10-0-25.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -70,20 +68,16 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/commerce/toc.json
                 - name: Acceptatietests voor gebruikers maken en automatiseren
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/commerce/toc.json
-            - name: Een evaluatieomgeving voor Dynamics 365 Commerce instellen
+            - name: Een sandbox-omgeving voor Dynamics 365 Commerce instellen
               items:
-                - name: Overzicht van de evaluatieomgeving voor Dynamics 365 Commerce
-                  href: cpe-overview.md
-                - name: Een evaluatieomgeving voor Dynamics 365 Commerce inrichten
+                - name: Een sandbox-omgeving voor Dynamics 365 Commerce inrichten
                   href: provisioning-guide.md
-                - name: Een Dynamics 365 Commerce-evaluatieomgeving configureren
+                - name: Een sandbox-omgeving voor Dynamics 365 Commerce configureren
                   href: cpe-post-provisioning.md
-                - name: BOPIS configureren in een Dynamics 365 Commerce-evaluatieomgeving
+                - name: BOPIS configureren in een sandbox-omgeving voor Dynamics 365 Commerce
                   href: cpe-bopis.md
-                - name: Optionele functies voor een Dynamics 365 Commerce-evaluatieomgeving configureren
+                - name: Optionele functies voor een sandbox-omgeving voor Dynamics 365 Commerce configureren
                   href: cpe-optional-features.md
-                - name: Veelgestelde vragen over evaluatieomgeving voor Dynamics 365 Commerce
-                  href: cpe-faq.md
             - name: Overwegingen bij de implementatie
               items:
                 - name: Implementatieopties
@@ -440,6 +434,8 @@
                           href: pos-healthcheck.md
                         - name: Ondersteuning voor netwerkrandapparatuur
                           href: dev-itpro/network-peripherals.md
+                        - name: Compatibiliteit van randapparatuur
+                          href: Compatible-peripherals.md
                     - name: Schermindelingen
                       items:
                         - name: Indelingen voor schermen met demonstratiegegevens in MPOS/CPOS
@@ -1402,6 +1398,8 @@
               items:
                 - name: Voorbeeld van integratie van fiscale registratieservice voor Oostenrijk
                   href: localizations/emea-aut-fi-sample.md
+                - name: Implementatierichtlijnen voor kassa's voor Oostenrijk
+                  href: localizations/emea-aut-deployment.md
                 - name: Implementatierichtlijnen voor voorbeeld van fiscale integratie voor Oostenrijk (legacy)
                   href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brazilië
@@ -2896,6 +2894,8 @@
                       href: dev-itpro/cloud-dev-box.md
                     - name: Build-pipeline voor Retail SDK
                       href: dev-itpro/retail-sdk/sdk-build-pipeline.md
+                    - name: Een Visual Studio 2017-buildagent instellen om MPOS te bouwen
+                      href: dev-itpro/retail-sdk/mpos-build-agent.md
                     - name: POS-voorbeelden uitvoeren
                       href: dev-itpro/pos-run-samples.md
                 - name: Verwijzing

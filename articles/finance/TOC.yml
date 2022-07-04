@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-27.md
                 - name: Finance 10.0.26 (mei)
                   href: get-started/whats-new-changed-10-0-26.md
-                - name: Finance 10.0.25 (april)
-                  href: get-started/whats-new-changed-10-0-25.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -462,6 +460,8 @@
                   items:
                     - name: Uitstel van opbrengsten en onkosten instellen
                       href: accounts-receivable/sb-deferrals.md
+                    - name: Boekingsmethode voor uitstel
+                      href: accounts-receivable/Deferral-posting-methods.md
                     - name: Uitstelplanningen maken
                       href: accounts-receivable/sb-deferrals-schedules.md
                     - name: Standaardtransacties voor uitstel
@@ -1210,13 +1210,15 @@
           items:
             - name: Aan de slag met financiële rapportage
               href: general-ledger/financial-reporting-getting-started.md
-            - name: Overzicht van financiële rapportage
+            - name: Overzicht van Financiële rapportage
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
             - name: Onderdelen van een financieel rapport
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
+            - name: Financiële rapporten weergeven en ontwerpen
+              href: ../fin-ops-core/dev-itpro/analytics/design-financial-reports.md
             - name: Valutamogelijkheden in financiële rapportage
               href: general-ledger/financial-reporting-currency-capability.md
-            - name: Berekening van ingehouden winst in Financial Reporting
+            - name: Berekening van ingehouden winst in Financiële rapportage
               href: general-ledger/retained-earnings-enhancements.md
             - name: Financiële rapporten balans
               href: general-ledger/balance-sheet-financial-reports.md
@@ -1978,6 +1980,8 @@
                   href: localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
                 - name: Bankrekeningnummers instellen voor Brazilië
                   href: localizations/latam-bra-bank-account-number-setup-brazil-localization.md
+                - name: Transferorders
+                  href: localizations/latam-bra-about-transfer-orders.md
                 - name: Belastingen
                   items:
                     - name: Overzicht van belastingen voor Brazilië
@@ -2116,6 +2120,8 @@
                   href: localizations/emea-cze-intra-community-VAT.md
                 - name: Jaarafsluiting
                   href: localizations/emea-cze-hun-year-end.md
+                - name: ICL-lijst
+                  href: localizations/emea-cze-eu-sales-list.md
             - name: Denemarken
               items:
                 - name: Overzicht Denemarken
@@ -2130,8 +2136,8 @@
                   href: localizations/tasks/create-post-project-invoice-public-sector-customer.md
                 - name: ICL-lijst
                   href: localizations/emea-dnk-eu-sales-list.md
-                - name: Configuraties voor elektronische facturering OIOUBL importeren
-                  href: localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
+                - name: Elektronische klantfacturen in Denemarken
+                  href: localizations/emea-dnk-e-invoices.md
                 - name: Een vrije-tekstfactuur met een betalingsbon boeken
                   href: localizations/tasks/post-free-text-invoice-payment-slip.md
                 - name: Een projectfactuur met een betalingsbon boeken
@@ -2220,6 +2226,8 @@
                       href: localizations/emea-ISO20022-file-formats.md
                     - name: Configuratie van ISO20022-incasso importeren
                       href: localizations/tasks/import-iso20022-direct-debit-configuration.md
+                    - name: Vereisten voor kredietoverdrachtindeling ISO 20022
+                      href: localizations/emea-fra-ISO20022-international.md
                     - name: Configuratie van ISO20022-kredietoverdracht importeren
                       href: localizations/tasks/import-iso20022-credit-transfer-configuration.md
                     - name: Bankrekeningen voor ISO20022-kredietoverdrachten voor een bank instellen
@@ -2462,6 +2470,8 @@
                   href: localizations/emea-hun-intrastat.md
                 - name: Uitgestelde btw-berekeningen
                   href: localizations/emea-hun-deferred-vat.md
+                - name: ICL-lijst
+                  href: localizations/emea-hun-eu-sales-list.md
             - name: IJsland
               items:
                 - name: Overzicht IJsland
@@ -2766,6 +2776,8 @@
                                   href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
                                 - name: TDS-registratienummers instellen voor rechtspersonen
                                   href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                                - name: Componentgroepen voor bronbelasting instellen voor het TDS-belastingtype
+                                  href: localizations/apac-ind-TDS-Withholding-tax-component-groups-setup-for-TDS-tax-type.md
                                 - name: Bronbelastingdiensten instellen voor het TDS-belastingtype
                                   href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
                                 - name: Belastingonderdelen instellen voor het TDS-belastingtype
@@ -2968,6 +2980,8 @@
                   href: localizations/tasks/configure-depreciation-profile-posting.md
                 - name: Hoofdrekeningen voor boeken van verplichting tot pensionering van activa en marktkortingspercentages configureren
                   href: localizations/tasks/configure-main-accounts-asset-retirement.md
+                - name: Aangifte van consumptiebelasting
+                  href: localizations/apac-jpn-consumption-tax-report.md
                 - name: Geconsolideerde facturen
                   href: localizations/apac-jpn-consolidate-invoices.md
                 - name: Een vast activum maken met aanvullende afschrijving
@@ -3416,6 +3430,8 @@
                           href: localizations/rus-register-acquisition.md
                         - name: Vaste activa verwerven en in werking stellen
                           href: localizations/rus-fixed-asset-acquisition.md
+                        - name: Voertuigen en onroerende goederen als vaste activa
+                          href: localizations/rus-vehicles-realty.md
                         - name: Afschrijving berekenen
                           href: localizations/rus-depreciation-calculation.md
                         - name: Vaste activa gedeeltelijk disassembleren (liquidatie)
@@ -3440,10 +3456,12 @@
                           href: localizations/printing-forms-fixed-assets.md
                         - name: Query's en rapporten
                           href: localizations/rus-fa-inquiries-reports.md
-                    - name: Geen waardevolle vaste activa en werkkleding
+                    - name: Niet-waardevolle vaste activa en werkkleding
                       items:
                         - name: Niet-waardevolle vaste activa (Rusland)
                           href: localizations/rus-not-valuable-assets.md
+                        - name: 'Primaire formulieren voor NVFA, werkkleding en speciale uitrusting (Rusland)'
+                          href: localizations/rus-nvfa.md
                         - name: Boekhouding voor werkkleding/speciale uitrusting (Rusland)
                           href: localizations/rus-working-clothes-instruments-accounting.md
                     - name: Integratie van vaste activa met module Activabeheer
@@ -3520,6 +3538,8 @@
                       href: localizations/rus-land-tax-declaration.md
                     - name: Aangifte winstbelasting
                       href: localizations/rus-profit-tax-declaration.md
+                    - name: Rapport over bewerkingen met traceerbare goederen
+                      href: localizations/rus-traceable-goods-operation-report.md
                 - name: Organisatiebeheer
                   items:
                     - name: Info over belastingregistratie gerelateerd aan adres

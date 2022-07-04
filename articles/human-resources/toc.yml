@@ -496,6 +496,8 @@
                   items:
                     - name: Proces voor wervingsproject beheren
                       href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
+                    - name: Wervingsprojecten instellen
+                      href: hr-personnel-develop-open-job-requisition.md
                     - name: Sollicitant- en sollicitatiegegevens handmatig invoeren
                       href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
                     - name: Vacatures ontwikkelen en openen
@@ -626,6 +628,10 @@
                   items:
                     - name: Vergoedingsplannen instellen
                       href: hr-benefits-plans-setup.md
+                    - name: Vergoedingsplannen voor medewerkers maken
+                      href: hr-benefits-plans-worker.md
+                    - name: Toekomstige levensgebeurtenissen instellen
+                      href: hr-benefits-plans-future-life-events.md
                     - name: Programma's voor flexibel krediet instellen
                       href: hr-benefits-plans-flex-credit-programs.md
                 - name: Vergoedingsplannen verwerken
@@ -836,6 +842,10 @@
               href: hr-developer-api-authentication.md
             - name: Entiteiten
               items:
+                - name: Taakdetails
+                  href: hr-admin-integration-api-job-detail.md
+                - name: Opties voor type aanstelling
+                  href: hr-admin-integration-payroll-api-hcmemploymenttype.md
                 - name: MyLeaveRequests
                   items:
                     - name: MyLeaveRequests-overzicht
