@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e59271771a5f332ad8470b0b8f8f54b52a25543d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4c9495bbc8e5f7cb603c027a125887feba1f0e2d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671669"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017198"
 ---
 # <a name="set-up-a-preferred-technician"></a>Een voorkeurstechnicus instellen 
 
@@ -31,13 +31,13 @@ U kunt een willekeurige werknemer selecteren als voorkeurstechnicus voor een ser
 
 ## <a name="assign-employee-to-a-dispatch-team"></a>Een werknemer toewijzen aan een verzendteam
 
-1.  Klik op **Human resources** \> **Algemeen** \> **Medewerkers** \> **Medewerkers**. Dubbelklik op een werknemer om de detailpagina van de werknemer te openen. Klik in het **Actievenster** op **Instellen** \> **Verzendteam** om het formulier **Verzendmedewerkers** te openen.
+1.  Klik op **Human resources** \> **Medewerkers** \> **Medewerkers**. Dubbelklik op een werknemer om de detailpagina van de werknemer te openen. Klik in het **Actievenster** op **Instellen** \> **Verzendteam** om het formulier **Verzendmedewerkers** te openen.
 
 2.  Selecteer in het veld **Verzendteam** het team om toe te wijzen aan de werknemer.
 
 ## <a name="assign-a-preferred-technician-to-a-service-agreement"></a>Een voorkeurstechnicus toewijzen aan een serviceovereenkomst
 
-1.  Klik op **Servicebeheer** \> **Algemeen** \> **Serviceovereenkomsten** \> **Serviceovereenkomsten**. Dubbelklik op een serviceovereenkomst om het detailformulier te openen.
+1.  Klik op **Servicebeheer** \> **Serviceovereenkomsten** \> **Serviceovereenkomsten**. Dubbelklik op een serviceovereenkomst om het detailformulier te openen.
 
 2.  Selecteer op het tabblad **Algemeen** het veld **Voorkeurstechnicus** en selecteer vervolgens een lid van het relevante verzendteam als de voorkeurstechnicus voor de serviceovereenkomst.
 

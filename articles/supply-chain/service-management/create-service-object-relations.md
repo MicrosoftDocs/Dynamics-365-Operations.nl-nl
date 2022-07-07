@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e89039356f167ef2f06824ffee8645f74f8a2b53
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b4d9424b5678a6f37d46203e5d4e359b020fda7a
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890649"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016965"
 ---
 # <a name="create-service-object-relations"></a>Relaties van serviceobjecten maken 
 
@@ -33,7 +33,7 @@ Dit artikel beschrijft hoe u serviceobjectrelaties kunt maken voor een serviceov
 
 Gebruik de volgende stappen om een nieuwe serviceobjectrelatie te maken voor een serviceovereenkomst:
 
-1.  Klik op **Servicebeheer** \> **Algemeen** \> **Serviceovereenkomsten** \> **Serviceovereenkomsten**.
+1.  Klik op **Servicebeheer** \> **Serviceovereenkomsten** \> **Serviceovereenkomsten**.
 
 2.  In de lijst **Serviceovereenkomsten** selecteert u een bestaande serviceovereenkomst of klikt u op **Nieuw** om een nieuwe serviceovereenkomst te maken.
 
@@ -47,7 +47,7 @@ Gebruik de volgende stappen om een nieuwe serviceobjectrelatie te maken voor een
 
 Gebruik de volgende stappen om een nieuwe serviceobjectrelatie te maken voor een serviceorder:
 
-1.  Klik op **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**.
+1.  Klik op **Servicebeheer** \> **Serviceorders** \> **Serviceorders**.
 
 2.  Selecteer in de lijst **Serviceorders** een bestaande serviceorder of maak een nieuwe serviceorder.
 

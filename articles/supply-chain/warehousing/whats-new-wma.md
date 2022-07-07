@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 34ac023bc5ee44987f6a36a1636cd343576e5d90
-ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
+ms.openlocfilehash: ac750ede78bb4547f90b57426cc9cb10d2a282b3
+ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "8945718"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8954658"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 In dit artikel worden de nieuwe functies, oplossingen, verbeteringen en bekende problemen genoemd voor elke vrijgegeven versie van de mobiele app Warehouse Management voor Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20250"></a>Versie 2.0.25.0
+
+Deze versie bevat de volgende nieuwe functies, verbeteringen en oplossingen voor fouten:
+
+- Betere prestaties.
+- Grotere stabiliteit.
+- De pagina **Onderzoek** is verbeterd om langere teksten in subkoppen te ondersteunen.
+- De mogelijkheid om een stroom onmiddellijk te annuleren met één tik of klik (wanneer **Annuleren** de enige actie is die beschikbaar is onder **Meer acties**).
+- Er is een probleem opgelost waarbij de focus soms verloren ging tussen invoeropties op de pagina **Verbinding bewerken** en aangepaste pagina's.
+- Er is een probleem opgelost waarbij knoppen soms niet meer reageerden en geselecteerd bleven in een schuifweergave.
+- Er is een probleem opgelost waardoor soms de verkeerde indeling op de hoofdpagina werd gebruikt.
 
 ## <a name="version-20240"></a>Versie 2.0.24.0
 

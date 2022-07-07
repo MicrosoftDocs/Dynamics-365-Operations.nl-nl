@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 936fddb73a639564a136002354a4d3dff7798e0b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: af33dbd38b1eb70e79392860e48c6943a4192f78
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907372"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016444"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Inkooporders goedkeuren en bevestigen
 
@@ -50,7 +50,7 @@ Als wijzigingsbeheer is ingeschakeld, doorlopen IO's zes goedkeuringsstatussen, 
 ## <a name="confirming-purchase-orders"></a>Inkooporders bevestigen
 IO's met de goedkeuringsstatus **Goedgekeurd** kunnen aanvullende stappen doorlopen voordat ze worden bevestigd. Zo moet u bijvoorbeeld mogelijk een inkooponderzoek naar de leverancier verzenden voor informatie over prijzen, kortingen of leverdatums. In dat geval kunt u de IO instellen op de status **Bij externe herziening** met behulp van de actie **Inkooponderzoek**.
 
-Leveranciers die zijn ingesteld voor gebruik van het leveranciersportaal kunnen orders op de portal controleren en deze goedkeuren of afwijzen. Tijdens dit controleproces, heeft de IO de status **Bij externe herziening**. De leveranciersportal kan zo worden geconfigureerd dat een bevestiging van de leverancier automatisch de order bevestigt in Supply Chain Management. U kunt ook handmatig een IO bevestigen nadat u een bevestiging van de leverancier hebt ontvangen. Als een leverancier een IO afwijst, wordt de afwijzing ontvangen samen met de reden voor de afwijzing en suggesties voor wijzigingen. In dat geval blijft de status van de IO **Bij externe herziening**.
+Leveranciers die zijn ingesteld voor gebruik van de module voor leverancierssamenwerking kunnen orders in de portal controleren en deze goedkeuren of afwijzen. Tijdens dit controleproces, heeft de IO de status **Bij externe herziening**. De module voor leverancierssamenwerking kan zo worden geconfigureerd dat een bevestiging van de leverancier automatisch de order bevestigt in Supply Chain Management. U kunt ook handmatig een IO bevestigen nadat u een bevestiging van de leverancier hebt ontvangen. Als een leverancier een IO afwijst, wordt de afwijzing ontvangen samen met de reden voor de afwijzing en suggesties voor wijzigingen. In dat geval blijft de status van de IO **Bij externe herziening**.
 
 Er is ook een optie om een pro forma-bevestiging voor een order te genereren voordat de werkelijke bevestiging is verwerkt. Deze optie maakt gewoon een rapport dat u met de leverancier kunt delen. Er wordt geen journaalinformatie gemaakt.
 

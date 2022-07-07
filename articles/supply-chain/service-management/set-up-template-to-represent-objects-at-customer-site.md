@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c91fc2478ce4799fd51140a1416df0b674c1bce
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 02e15375eb4757e84627206c4617edc7bf51ebf2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673405"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016879"
 ---
 # <a name="set-up-template-to-represent-objects-at-customer-site"></a>Sjabloon instellen om objecten op de klantlocatie te vertegenwoordigen 
 
@@ -29,7 +29,7 @@ ms.locfileid: "8673405"
 
 Gebruik deze procedure om een sjaboon in te stellen die objecten op de locatie van een klant vertegenwoordigt.
 
-1.  Klik op **Servicebeheer** \> **Algemeen** \> **Serviceovereenkomsten** \> **Serviceovereenkomsten**.
+1.  Klik op **Servicebeheer** \> **Serviceovereenkomsten** \> **Serviceovereenkomsten**.
 
 2.  Dubbelklik op een serviceovereenkomst of klik op **Serviceovereenkomst** om een nieuwe serviceovereenkomst te maken.
 

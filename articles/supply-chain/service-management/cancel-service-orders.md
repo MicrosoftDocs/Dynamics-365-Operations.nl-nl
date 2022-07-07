@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e75ed6e30ece1f4807ff036d831c269774d941a7
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 228b76d6f6f0bb048662c8e82df76f51b7cb3652
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670967"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017371"
 ---
 # <a name="cancel-service-orders"></a>Serviceorders annuleren   
 
@@ -36,11 +36,11 @@ U kunt een serviceorder of serviceorderregel vanuit de serviceorder zelf annuler
 
 ## <a name="cancel-a-service-order-in-the-service-orders-form"></a>Een serviceorder annuleren in het formulier Serviceorders
 
-1.  Klik op **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**. Selecteer de serviceorder en klik in het actievenster op **Order annuleren**.
+1.  Klik op **Servicebeheer** \> **Serviceorders** \> **Serviceorders**. Selecteer de serviceorder en klik in het actievenster op **Order annuleren**.
 
 ## <a name="cancel-a-service-order-line"></a>Een serviceorderregel annuleren
 
-1.  Klik op **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**. Dubbelklik op de serviceorder die de regel bevat die u wilt annuleren.
+1.  Klik op **Servicebeheer** \> **Serviceorders** \> **Serviceorders**. Dubbelklik op de serviceorder die de regel bevat die u wilt annuleren.
 
 2.  Selecteer de serviceorderregel die u wilt annuleren en klik vervolgens op **Orderregel annuleren** om de status van de regel te wijzigen in **Geannuleerd**.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 66215811c8c48412fb137967107abca3774f5f0c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0087abebccca107a094a40d3e2d5a5de330532af
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872031"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014904"
 ---
 # <a name="set-up-consignment"></a>Consignatie instellen
 
@@ -84,7 +84,7 @@ Als uw leveranciers de interface van de leverancierssamenwerking gebruiken, kunn
 - **Producten ontvangen uit consignatievoorraad**: toont informatie over de artikelen en hoeveelheden waarvoor productontvangstbonnen zijn bijgewerkt tijdens het proces van de eigendomwijziging.
 - **Voorhanden consignatievoorraad**: toont informatie over de consignatieartikelen waarvan de levering wordt verwacht en de artikelen die al fysiek beschikbaar zijn op de klantlocatie.
 
-Zie [Gebruikersbeveiliging in leveranciersportal](../procurement/configure-security-vendor-portal-users.md) voor meer informatie over het configureren van leveranciers voor leverancierssamenwerking.
+Zie [Gebruikers van leverancierssamenwerking beheren](../procurement/manage-vendor-collaboration-users.md) voor meer informatie over het configureren van leveranciers voor leverancierssamenwerking.
 
 ## <a name="inventory-owners"></a>Voorraadeigenaren
 

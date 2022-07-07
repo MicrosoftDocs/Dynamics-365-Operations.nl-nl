@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee61c43f93d68747a7095dc9317674a435553c8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d8498d6099112cea2c57a6387e7596adb5bcd84e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874183"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016009"
 ---
 # <a name="introduction-to-assets"></a>Inleiding tot activa
 
@@ -36,7 +36,7 @@ Een activum wordt automatisch bijgewerkt met gerelateerde informatie. Deze infor
 
 ## <a name="all-assets"></a>Alle activa
 
-Selecteer **Activabeheer** \> **Algemeen** \> **Activa** \> **Alle activa**. De lijstpagina **Alle activa** bevat alle activa en een deel van de informatie die aan hen is gerelateerd. Als u alleen actieve activa wilt weergeven, selecteert u **Actieve activa**. Als u alleen activa wilt weergeven die zijn geïnstalleerd op de functionele locaties waarmee u als onderhoudsmedewerker bent verbonden, selecteert u **Mijn actieve activa**. (Deze relatie is ingesteld op de pagina **Medewerkers**. Zie [Onderhoudsmedewerkers en medewerkersgroepen](../setup-for-objects/workers-and-worker-groups.md) voor meer informatie.)
+Selecteer **Activabeheer** \> **Activa** \> **Alle activa**. De lijstpagina **Alle activa** bevat alle activa en een deel van de informatie die aan hen is gerelateerd. Als u alleen actieve activa wilt weergeven, selecteert u **Actieve activa**. Als u alleen activa wilt weergeven die zijn geïnstalleerd op de functionele locaties waarmee u als onderhoudsmedewerker bent verbonden, selecteert u **Mijn actieve activa**. (Deze relatie is ingesteld op de pagina **Medewerkers**. Zie [Onderhoudsmedewerkers en medewerkersgroepen](../setup-for-objects/workers-and-worker-groups.md) voor meer informatie.)
 
 Selecteer in de rasterweergave **Alle activa** een koppeling in de kolom **Activum** om de details van de geselecteerde record weer te geven. Als u de record wilt bewerken, selecteert u de knop **Bewerken**. De detailweergave bevat gedetailleerde informatie die is gerelateerd aan het activum. Een deelvenster **Verwante informatie** aan de rechterkant bevat aanvullende aan het activum gerelateerde informatie. Vouw het deelvenster uit om de gerelateerde informatie voor het geselecteerde activum weer te geven.
 

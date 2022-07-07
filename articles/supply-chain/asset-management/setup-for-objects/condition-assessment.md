@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa326a01bb63bd0b59c0df7a3c751a5242a3dd37
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c43424a0955d7a046186e8a4120c050990df6060
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872089"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015051"
 ---
 # <a name="condition-assessment"></a>Voorwaardebeoordeling
 
@@ -47,7 +47,7 @@ Toestandsbeoordeling wordt uitgevoerd voor activa. U stelt een sjabloon voor toe
 
 ## <a name="create-condition-assessment-registration-on-an-asset"></a>Registratie van toestandsbeoordeling maken voor een activum
 
-1. Selecteer **Activabeheer** > **Algemeen** > **Activa** > **Alle activa**.
+1. Selecteer **Activabeheer** > **Activa** > **Alle activa**.
 2. Selecteer in de lijst het activum waarvoor u een registratie van toestandsbeoordeling wilt maken.
 3. Klik op het tabblad **Algemeen** op **Toestandsbeoordeling**.
 4. Klik op **Nieuw** om een nieuwe registratie te maken.
@@ -62,7 +62,7 @@ Toestandsbeoordeling wordt uitgevoerd voor activa. U stelt een sjabloon voor toe
 Nadat u een toestandsbeoordelingsregistratie voor een activum hebt gemaakt, kunt u een rapport voor toestandsbeoordeling afdrukken.
 
 >[!NOTE]
->U kunt ook de toestandsbeoordeling voor een werkorder registreren (**Activabeheer** > **Algemeen** > **Werkorders** > **Alle werkorders** > knop **Toestandsbeoordeling**).
+>U kunt ook de toestandsbeoordeling voor een werkorder registreren (**Activabeheer** > **Werkorders** > **Alle werkorders** > **Toestandsbeoordeling**).
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

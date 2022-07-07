@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 19fa26eeb8ea3c0944be199c57eaf4a2d7e76034
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 923715893b9f1c4b87d7bbb67e200f8cb8f92e6b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851618"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015547"
 ---
 # <a name="import-vendor-catalogs"></a>Leverancierscatalogi importeren
 
@@ -46,7 +46,7 @@ U moet de volgende taken uitvoeren om leverancierscatalogusgegevens te importere
 
 4. Configureer de workflow voor het importeren van catalogi. Maak een CMR-bestandssjabloon en deel deze met uw leverancier.
 
-5. Selecteer **Inkoop en sourcing** \> **Algemeen** \> **Catalogi** \> **Leverancierscatalogi** voor het maken van een leverancierscatalogus. De catalog maintenance request (CMR)-bestanden die u van uw leverancier ontvangt, worden in deze catalogus gegroepeerd. 
+5. Selecteer **Inkoop en sourcing** \> **Catalogi** \> **Leverancierscatalogi** voor het maken van een leverancierscatalogus. De catalog maintenance request (CMR)-bestanden die u van uw leverancier ontvangt, worden in deze catalogus gegroepeerd.
 
 6. Upload het CMR-bestand.
 

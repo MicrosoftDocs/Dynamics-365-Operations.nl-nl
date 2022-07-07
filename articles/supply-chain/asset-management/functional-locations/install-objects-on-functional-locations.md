@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a35f2494c616c2e456f92409d012cc434a32bd8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3ae571f4ad7210b31d212b0472610b36dc5c488b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894496"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016067"
 ---
 # <a name="install-assets-on-functional-locations"></a>Activa installeren op functionele locaties
 
@@ -40,7 +40,7 @@ Nadat u activa op een functionele locatie hebt geïnstalleerd, kunt u een bovenl
 
 ## <a name="install-an-asset-structure-on-a-functional-location"></a>Een activastructuur installeren op een functionele locatie
 
-1. Selecteer **Activabeheer** \> **Algemeen** \> **Functionele locaties** \> **Alle functionele locaties** of **Alle functionele locaties**.
+1. Selecteer **Activabeheer** \> **Functionele locaties** \> **Alle functionele locaties** of **Alle functionele locaties**.
 2. Selecteer de functionele locatie waarop u een activum wilt installeren.
 3. Selecteer **Activum installeren**.
 

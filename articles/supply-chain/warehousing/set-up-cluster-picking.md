@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3094649da2ce9a700a4d1cde236609013f4b9744
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0ec3de073def2ff63af3c04b5696cbcec4f09948
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862303"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014715"
 ---
 # <a name="set-up-cluster-picking"></a>Clusterverzameling instellen
 
@@ -74,9 +74,14 @@ Wanneer clusterverzameling wordt toegepast, is artikelbevestiging van groot bela
 
 ### <a name="set-up-item-verification-with-cluster-picking"></a>Artikelverificatie met clusterverzameling instellen
 
-1. Open op een menu-item voor mobiele apparaten het instellingsformulier voor werkbevestiging: **Magazijnbeheer** \> **Magazijnbeheer** \> **Instellingen** \> **Mobiel apparaat** \> **Menuopties voor mobiel apparaat**.
+1. Ga naar **Magazijnbeheer** > **Instellingen** > **Mobiel apparaat** > **Menuopties voor mobiel apparaat**.
+1. Selecteer in het lijstvenster het menu-item dat u wilt instellen.
+1. Selecteer **Werkbevestigingsinstellingen** in het actievenster.
+1. U kunt een van de volgende dingen doen:
+    - Als er al een regel bestaat voor het **werktype** dat u wilt instellen, selecteert u deze en selecteert u **Bewerken** in het actievenster.
+    - Als de betreffende regel niet bestaat, selecteert u **Nieuw** in het actievenster en stelt u **Werktype** in op het juiste type.
+1. Schakel het selectievakje **Product bevestigen** in voor de nieuwe of geselecteerde regel. Hiermee kunnen medewerkers elk stuk van de voorraad via het mobiele apparaat controleren.
 
-1. Open in de menuoptie voor het mobiele apparaat **Werkbevestigingsinstellingen**. Met de optie **Productbevestiging** kunt u elk stuk van de voorraad tijdens het scannen vanaf het mobiele apparaat controleren.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3347db6395b7da396c42f84881060f476346d2e9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 60bf4ab6944bd982e022ead6431adae417ddfb43
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851270"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014614"
 ---
 # <a name="wave-creation-and-processing"></a>Waves maken en verwerken
 
@@ -60,9 +60,9 @@ Volg deze stappen om handmatig een wave te maken:
 1. Zorg ervoor dat de relevante [wavesjablonen](wave-templates.md) niet zijn ingesteld om automatisch een wave te maken voor het magazijn en de ordertypen waarvoor u dit handmatig wilt doen.
 1. Afhankelijk van het type wave dat u wilt maken, voert u een van de volgende acties uit:
 
-    - Ga naar **Magazijnbeheer** \> **Algemeen** \> **Waves** \> **Zendingwaves** \> **Alle waves**. Selecteer **Wave** in het actievenster.
-    - Ga naar **Magazijnbeheer** \> **Algemeen** \> **Waves** \> **Productiewaves** \> **Alle productiewaves**. Selecteer **Productiewave** in het actievenster.
-    - Ga naar **Magazijnbeheer** \> **Algemeen** \> **Waves** \> **Kanbanwaves** \> **Alle kanbanwaves**. Selecteer **Wave maken** in het actievenster.
+    - Ga naar **Magazijnbeheer** \> **Uitgaande waves** \> **Zendingwaves** \> **Alle waves**. Selecteer **Wave** in het actievenster.
+    - Ga naar **Magazijnbeheer** \> **Uitgaande waves** \> **Productiewaves** \> **Alle productiewaves**. Selecteer **Productiewave** in het actievenster.
+    - Ga naar **Magazijnbeheer** \> **Uitgaande waves** \> **Kanbanwaves** \> **Alle kanbanwaves**. Selecteer **Wave maken** in het actievenster.
 
 1. Voer in het veld **Beschrijving** een korte beschrijving van de wave in. Dit moet aangeven wat u in de wave verwerkt.
 
@@ -87,9 +87,9 @@ Wanneer een wave is gemaakt maar nog niet is vrijgegeven, kunt u handmatig opgev
 
 1. Afhankelijk van het type wave waaraan u regels wilt toevoegen, voert u een van de volgende handelingen uit:
 
-    - Ga naar **Magazijnbeheer** \> **Algemeen** \> **Waves** \> **Zendingwaves** \> **Alle waves**. Selecteer **Wave** in het actievenster.
-    - Ga naar **Magazijnbeheer** \> **Algemeen** \> **Waves** \> **Productiewaves** \> **Alle productiewaves**. Selecteer **Productiewave** in het actievenster.
-    - Ga naar **Magazijnbeheer** \> **Algemeen** \> **Waves** \> **Kanbanwaves** \> **Alle kanbanwaves**. Selecteer **Wave maken** in het actievenster.
+    - Ga naar **Magazijnbeheer** \> **Uitgaande waves** \> **Zendingwaves** \> **Alle waves**. Selecteer **Wave** in het actievenster.
+    - Ga naar **Magazijnbeheer** \> **Uitgaande waves** \> **Productiewaves** \> **Alle productiewaves**. Selecteer **Productiewave** in het actievenster.
+    - Ga naar **Magazijnbeheer** \> **Uitgaande waves** \> **Kanbanwaves** \> **Alle kanbanwaves**. Selecteer **Wave maken** in het actievenster.
 
 1. Selecteer de wave. Selecteer een van de volgende opties in het actievenster:
 
@@ -121,9 +121,9 @@ Voer de volgende stappen uit om een wave met alle vereiste inhoud handmatig te v
 
 1. Afhankelijk van het type golf dat u wilt verwerken, voert u een van de volgende handelingen uit:
 
-    - Selecteer **Magazijnbeheer** \> **Algemeen** \> **Waves** \> **Zendingwaves** \> **Alle waves**. Selecteer **Wave** in het actievenster.
-    - Selecteer **Magazijnbeheer** \> **Algemeen** \> **Waves** \> **Productiewaves** \> **Alle productiewaves**. Selecteer **Productiewave** in het actievenster.
-    - Selecteer **Magazijnbeheer** \> **Algemeen** \> **Waves** \> **Kanbanwaves** \> **Alle kanbanwaves**. Selecteer **Wave maken** in het actievenster.
+    - Selecteer **Magazijnbeheer** \> **Uitgaande waves** \> **Zendingwaves** \> **Alle waves**. Selecteer **Wave** in het actievenster.
+    - Selecteer **Magazijnbeheer** \> **Uitgaande waves** \> **Productiewaves** \> **Alle productiewaves**. Selecteer **Productiewave** in het actievenster.
+    - Selecteer **Magazijnbeheer** \> **Uitgaande waves** \> **Kanbanwaves** \> **Alle kanbanwaves**. Selecteer **Wave maken** in het actievenster.
 
 1. Selecteer de te verwerken wave. Selecteer **Verwerken** in het actievenster.
 
@@ -141,9 +141,9 @@ Volg deze stappen om handmatig een wave vrij te geven:
 
 1. Afhankelijk van het type wave u wilt vrijgeven, voert u een van de volgende handelingen uit:
 
-      - Selecteer **Magazijnbeheer** \> **Algemeen** \> **Waves** \> **Zendingwaves** \> **Alle waves**. Selecteer **Wave** in het actievenster.
-      - Selecteer **Magazijnbeheer** \> **Algemeen** \> **Waves** \> **Productiewaves** \> **Alle productiewaves**. Selecteer **Productiewave** in het actievenster.
-      - Selecteer **Magazijnbeheer** \> **Algemeen** \> **Waves** \> **Kanbanwaves** \> **Alle kanbanwaves**. Selecteer **Wave maken** in het actievenster.
+      - Selecteer **Magazijnbeheer** \> **Uitgaande waves** \> **Zendingwaves** \> **Alle waves**. Selecteer **Wave** in het actievenster.
+      - Selecteer **Magazijnbeheer** \> **Uitgaande waves** \> **Productiewaves** \> **Alle productiewaves**. Selecteer **Productiewave** in het actievenster.
+      - Selecteer **Magazijnbeheer** \> **Uitgaande waves** \> **Kanbanwaves** \> **Alle kanbanwaves**. Selecteer **Wave maken** in het actievenster.
 
 1. Selecteer de vrij te geven wave. Selecteer **Wave vrijgeven** in het actievenster.
 
@@ -179,9 +179,9 @@ Indien nodig, kunt u een wave annuleren die is verwerkt. Als u een wave en het g
 
 1. Afhankelijk van het type wave u wilt annuleren, voert u een van de volgende handelingen uit:
 
-      - Ga naar **Magazijnbeheer** \> **Algemeen** \> **Waves** \> **Zendingwaves** \> **Alle waves**.
-      - Ga naar **Magazijnbeheer** \> **Algemeen** \> **Waves** \> **Productiewaves** \> **Alle productiewaves**.
-      - Ga naar **Magazijnbeheer** \> **Algemeen** \> **Waves** \> **Kanbanwaves** \> **Alle kanbanwaves**.
+      - Ga naar **Magazijnbeheer** \> **Uitgaande waves** \> **Zendingwaves** \> **Alle waves**.
+      - Ga naar **Magazijnbeheer** \> **Uitgaande waves** \> **Productiewaves** \> **Alle productiewaves**.
+      - Ga naar **Magazijnbeheer** \> **Uitgaande waves** \> **Kanbanwaves** \> **Alle kanbanwaves**.
 
 1. Selecteer de wave die u wilt annuleren. Selecteer in het actievenster op het tabblad **Werk** de optie **Annuleren**.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a416dbea0bab8f6a506ae5cfbfc4feeae8edfe29
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 495f3dbf9bab9d550ebdbb7dda52aca80d5ea635
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882716"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017111"
 ---
 # <a name="asset-view"></a>Activaweergave
 
@@ -30,7 +30,7 @@ ms.locfileid: "8882716"
 
 In dit artikel wordt de activaweergave in Activabeheer beschreven. Op de pagina **Activaweergave** worden actieve activa en functionele locaties weergegeven in een structuurweergave. Daarom kunt u gemakkelijk een overzicht van de activarelaties met functionele locaties bekijken. Bovendien kunt u gedetailleerde informatie over functionele locaties, activa en gerelateerde stuklijsten weergeven. U kunt ook een snel overzicht krijgen van actieve onderhoudsaanvragen en werkorders die betrekking hebben op een activum.
 
-1. Selecteer **Activabeheer** \> **Algemeen** \> **Activa** \> **Activaweergave**.
+1. Selecteer **Activabeheer** \> **Activa** \> **Activaweergave**.
 2. Als u de weergave wilt wijzigen die op de pagina wordt weergegeven, selecteert u een nieuwe waarde in het veld **Weergave**.
 
     > [!NOTE]

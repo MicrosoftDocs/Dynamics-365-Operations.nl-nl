@@ -2,7 +2,7 @@
 title: EU-verkooplijst rapportering
 description: Dit artikel biedt informatie over rapportage van de EU-verkooplijst (Europese Unie).
 author: EvgenyPopovMBS
-ms.date: 02/17/2022
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af49817667999dd02a96a7a9bd5bb966be652d35
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: 8dfd3fafdfc011973b169516cd4e2d239751e96d
+ms.sourcegitcommit: f5b156f2e5ca99ad05b3d6e4a5d118631fd3064e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323471"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "9012495"
 ---
 # <a name="eu-sales-list-reporting"></a>Rapport ICL-lijst
 
@@ -150,7 +150,7 @@ De transacties van de volgende typen kunnen als intracommunautair handelsverkeer
 -   Projectfacturen
 -   Leveranciersfacturen
 
-Een transactie wordt beschouwd als intracommunautair handelsverkeer transactie als het afleveradres van de transactie in een lidstatus gevestigd is. Voor dergelijke landen/regios moet een registratie bestaan op het tabblad **Parameters land/regio** van de pagina **Buitenlandse handel parameters**, en de waarde **Land/regio type** moet worden ingesteld op **EU**. Intracommunautair handelsverkeer transacties worden gemarkeerd in het **Lijstcode** veld. Met dit veld, kunt u algemene intracommunautair handelsverkeertransacties scheiden van driehoekige handelstransacties. U kunt informatie over intracommunautaire handelsverkeertransacties verzamelen op de pagina **EU-verkooplijst** (klik op **Belasting** &gt; **Aangiften** &gt; **Buitenlandse handel** &gt; **EU-verkooplijst**) door de functie **Overboeken** te gebruiken. Met deze functie kunt u transacties opnemen die bedragen van verschillende rapportage typen (dat wil zeggen, artikelen of diensten), volgens de item BTW-groepen die zijn gespecificeerd op transactieregels. U kunt ook andere filters toepassen om de transacties te definiëren die moeten worden opgenomen. De **Overboeken** functie maakt een registratie op de **EU-verkooplijst** pagina voor elke intracommunautaire handelsverkeertransactie die is opgenomen is en specificeerd een tegenpartijaccountnummer, een land/regio, een BTW-vrijstellingsnummer, een factuurnummer en datum, en de totaal aantal regels per rapportage type. Het kopieert ook de **Lijstcode** waarde van de transactie. U kunt de lijstcode voor een transactie handmatig wijzigen op de **EU-verkooplijst** pagina. De **Overboeken** functie maakt registraties waarin de **Rapportage status** waarde is ingesteld op **Opgenomen**. U kunt de gegevens valideren die op de pagina **EU-verkooplijst** met de functie te **Valideren** gebruiken wordt verzameld.
+Een transactie wordt beschouwd als intracommunautair handelsverkeer transactie als het afleveradres van de transactie in een lidstatus gevestigd is. Voor dergelijke landen/regios moet een registratie bestaan op het tabblad **Parameters land/regio** van de pagina **Buitenlandse handel parameters**, en de waarde **Land/regio type** moet worden ingesteld op **EU**. Intracommunautair handelsverkeer transacties worden gemarkeerd in het **Lijstcode** veld. Met dit veld, kunt u algemene intracommunautair handelsverkeertransacties scheiden van driehoekige handelstransacties. U kunt informatie over intracommunautaire handelsverkeertransacties verzamelen op de pagina **EU-verkooplijst** (klik op **Belasting** &gt; **Aangiften** &gt; **Buitenlandse handel** &gt; **EU-verkooplijst**) door de functie **Overboeken** te gebruiken. Met deze functie kunt u transacties opnemen die bedragen van verschillende rapportage typen (dat wil zeggen, artikelen of diensten), volgens de item BTW-groepen die zijn gespecificeerd op transactieregels. U kunt ook andere filters toepassen om de transacties te definiëren die moeten worden opgenomen. De **Overboeken** functie maakt een registratie op de **EU-verkooplijst** pagina voor elke intracommunautaire handelsverkeertransactie die is opgenomen is en specificeerd een tegenpartijaccountnummer, een land/regio, een BTW-vrijstellingsnummer, een factuurnummer en datum, en de totaal aantal regels per rapportage type. Het kopieert ook de **Lijstcode** waarde van de transactie. U kunt de lijstcode voor een transactie handmatig wijzigen op de **EU-verkooplijst** pagina. De **Overboeken** functie maakt registraties waarin de **Rapportage status** waarde is ingesteld op **Opgenomen**. U kunt de gegevens valideren die op de pagina **EU-verkooplijst** met de functie te **Valideren** gebruiken wordt verzameld. U kunt gedetailleerde informatie over de factuur (voor verkooprichting) ophalen met de functie **Totalen**.
 
 ### <a name="generating-the-eu-sales-list-report"></a>Genereren van de EU-Verkooplijst rapport.
 
@@ -160,8 +160,26 @@ U kunt een rapport **EU-verkooplijst** genereren door de functie **Rapportering*
 
 Als u het rapportageproces voor een specifieke periode (bijvoorbeeld, wanneer de belastingdienst de **EU-verkooplijst** rapport accepteerd), kunt u de ESL registraties markeren die bijgesloten zijn in het rapport voor de periode door het instellen van de **Rapportage status** waarde op **Gesloten**. Om deze status in te stellen, gebruik de **Markeren als gesloten** functie op de **EU-verkooplijst** pagina. Als u de afsluiting van de periode omkeert, kunt u ESL-registraties markeren door de **Rapportage status** waarde in te stellen op **Opgenomen**. Deze records kunnen vervolgens opnieuw op een rapport **EU-verkooplijst** worden opgenomen. Om deze status in te stellen, gebruik de **Markeren als** **Inclusief** functie op de **EU-verkooplijst** pagina.
 
+## <a name="list-of-country-specific-topics"></a>Lijst met landspecifieke onderwerpen
 
-
+| Land/regio          | Koppeling      |
+|------------------|-----------|
+| Oostenrijk          | [ICL-lijst voor Oostenrijk](emea-aut-eu-sales-list.md)| 
+| België          |[ICL-lijst voor België](emea-bel-eu-sales-list.md)|
+| Tsjechische Republiek          |[ICL-lijst voor Tsjechische Republiek](emea-cze-eu-sales-list.md)|
+| Denemarken          |[ICL-lijst voor Denemarken](emea-dnk-eu-sales-list.md)|
+| Estland          |[ICL-lijst voor Estland](emea-est-eu-sales-list.md)|
+| Finland          |[ICL-lijst voor Finland](emea-fin-eu-sales-list.md)|
+| Frankrijk          |[ICL-lijst voor Frankrijk](emea-fra-eu-sales-list.md)|
+| Duitsland          |[ICL-lijst voor Duitsland](emea-deu-eu-sales-list.md)|
+| Hongarije          |[ICL-lijst voor Hongarije](emea-hun-eu-sales-list.md)|
+| Letland          |[ICL-lijst voor Letland](emea-lva-eu-sales-list.md)|
+| Litouwen          |[ICL-lijst voor Litouwen](emea-ltu-eu-sales-list.md)|
+| Nederland          |[ICL-lijst voor Nederland](emea-nl-eu-sales-list.md)|
+| Polen          |[ICL-lijst voor Polen](emea-pol-eu-sales-list.md)|
+| Spanje          |[ICL-lijst voor Spanje (349-aangifte)](emea-esp-sales-list.md)|
+| Zweden          |[ICL-lijst voor Zweden](emea-swe-eu-sales-list.md)|
+| VK (Noord-Ierland)          |[ICL-lijst voor VK (Noord-Ierland)](emea-uk-eu-sales-list.md)|
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

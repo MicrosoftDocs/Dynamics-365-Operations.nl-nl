@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 9c0d87dfb4c432f9cff0f1172139dbcda6308275
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2ee316a3e6a6baef7aa8b5d46b04a2d1bb07a641
+ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860662"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "9022499"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hoe werknemers de uitvoeringsinterface voor de werkvloer gebruiken
 
@@ -263,9 +263,6 @@ Een werknemer registreert een pauze door **Pauze** te selecteren en vervolgens d
 
 ## <a name="view-the-my-day-dialog"></a>Het dialoogvenster Mijn dag weergeven
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 Het dialoogvenster **Mijn dag** biedt werknemers een overzicht van hun registraties en saldi. Het dialoogvenster bestaat uit de volgende drie secties:
 
 - In de hoofdsectie staan de registraties die de huidige werknemer op een geselecteerde datum heeft gedaan. Het wordt geopend met registraties voor de huidige dag en bevat een datumkiezer waarmee de werknemer andere dagen kan weergeven.
@@ -275,9 +272,6 @@ Het dialoogvenster **Mijn dag** biedt werknemers een overzicht van hun registrat
 Beheerders kunnen deze functie toevoegen aan de interface door de knop **Mijn dag** op een werkbalk te plaatsen voor elk relevant tabblad, zoals beschreven in [De uitvoeringsinterface voor de werkvloer ontwerpen](production-floor-execution-tabs.md).
 
 ## <a name="working-in-teams"></a>Werken in teams
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
 
 Wanneer meerdere werknemers aan dezelfde productietaak zijn toegewezen, kunnen ze een team vormen. Het team kan één werknemer aanwijzen als leider. De overige werknemers worden automatisch assistenten van die leider. Voor het team dat hierdoor ontstaat, moet alleen de leider de taakstatus registreren. Tijdregistraties gelden voor alle teamleden.
 

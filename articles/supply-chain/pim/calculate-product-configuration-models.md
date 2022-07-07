@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 593f6a8e28c789a378515ddc8e4163c331442e8b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4424ebbf64ccdcb9bffc840520952ac915606209
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890939"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015488"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Berekeningen voor productconfiguratiemodellen: veelgestelde vragen
 
@@ -73,7 +73,7 @@ U kunt de waarde overschrijven die voor het doelkenmerk wordt berekend, tenzij h
 ## <a name="how-do-i-set-a-target-attribute-as-hidden-or-read-only"></a>Hoe kan ik een doelkenmerk instellen als verborgen of alleen-lezen?
 Om een kenmerk in te stellen als verborgen of alleen-lezen, volgt u deze stappen.
 
-1.  Klik op **Productgegevensbeheer** &gt; **Algemeen** &gt; **Productconfiguratiemodellen**.
+1.  Klik op **Productgegevensbeheer** &gt; **Producten** &gt; **Productconfiguratiemodellen**.
 2.  Selecteer een productconfiguratiemodel en klik vervolgens in het Actievenster op **Bewerken**.
 3.  Selecteer op de pagina **Details van op beperkingen gebaseerd productconfiguratiemodel** het kenmerk dat u als doelkenmerk wilt gebruiken.
 4.  Selecteer op het sneltabblad **Kenmerken** de optie **Verborgen** of **Alleen-lezen**.
@@ -96,7 +96,7 @@ Dit bericht verschijnt wanneer een berekening een fout bevat of wanneer er een t
 ## <a name="why-do-i-receive-an-error-message-even-though-i-successfully-validated-my-product-model"></a>Waarom krijg ik een foutbericht hoewel ik succesvol mijn productmodel hebt gevalideerd?
 De berekeningen zijn niet opgenomen in de validatie. U moet het productconfiguratiemodel testen om fouten in berekeningen te zoeken. Om een productconfiguratiemodel te testen, voert u deze stappen uit.
 
-1.  Klik op **Productgegevensbeheer** &gt; **Algemeen** &gt; **Productconfiguratiemodellen**.
+1.  Klik op **Productgegevensbeheer** &gt; **Producten** &gt; **Productconfiguratiemodellen**.
 2.  Selecteer een productconfiguratiemodel en klik vervolgens in het Actievenster in de groep **Uitvoeren** op **Testen**.
 
 

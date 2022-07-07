@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 1fa2ec6e21026552a4f14a67188db0720d3feae5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: af344d3771583a99851c070e3735258ac964b5d7
+ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850781"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8954486"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.25 (april 2022)
 
@@ -155,7 +155,7 @@ De tabel bevat ook functies die eerder in openbare preview waren, maar zijn gewi
 | Magazijnbeheer | [Uitgestelde verwerking van handmatige bewerking voor voorraadmutatie](../warehousing/deferred-processing-manual-inventory-movement.md) | Verplicht |
 | Magazijnbeheer | Niet toestaan dat ladingen worden gemaakt die niet voldoen aan de sjabloonvereisten voor het maken van waveladingen | Verplicht |
 | Magazijnbeheer | [Verbeterde indelingen voor nummerplaatlabels](../warehousing/document-routing-layout-for-license-plates.md) | Verplicht |
-| Magazijnbeheer | [Alle acties voor locatie-instructies met meerdere SKU's evalueren](../troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md) | Verplicht |
+| Magazijnbeheer | [Alle acties voor locatie-instructies met meerdere SKU's evalueren](/troubleshoot/dynamics-365/supply-chain/warehousing/evaluate-multiple-location-directive-actions) | Verplicht |
 | Magazijnbeheer | Het veld Totale waarde verbergen op de pagina's Alle ladingen en Ladingdata | Verplicht |
 | Magazijnbeheer | Configuratie van nummerplaatlabel maken | Verplicht |
 | Magazijnbeheer | Handmatige correctie van ladingsregel voor beheerder of vergelijkbare vertrouwde gebruikers | Verplicht |

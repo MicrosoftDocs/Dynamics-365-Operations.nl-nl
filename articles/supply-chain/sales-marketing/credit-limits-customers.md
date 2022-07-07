@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7f15c0f15302c271fac7199b21b7bcd3dcfe88a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b4a98b90491093f55ce6974b9b11ff326c0c2f5c
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903864"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015313"
 ---
 # <a name="credit-limits-for-customers"></a>Kredietlimieten voor klanten
 
@@ -117,7 +117,7 @@ Gebruik het formulier **Parameters van module Klanten** om op te geven of een wa
 
 Gebruik het formulier **Klanten** om het bedrag van de kredietlimiet op te geven voor een bepaalde klant. U moet lid zijn van een beveiligingsrol met de taak Klantmodel onderhouden (CustCustomersMaintain) toegewezen om wijzigingen aan te brengen in dit formulier.
 
-1.  Klik op **Klanten** \> **Algemeen** \> **Klanten** \> **Alle klanten**. Dubbelklik op een klantrekening.
+1.  Klik op **Klanten** \> **Klanten** \> **Alle klanten**. Dubbelklik op een klantrekening.
 
 2.  Klik in het formulier **Klanten** in het actievenster op **Bewerken**.
 
@@ -132,7 +132,7 @@ Gebruik het formulier **Klanten** om het bedrag van de kredietlimiet op te geven
 
 Soms moet u de kredietlimiet van de klant handmatig controleren. U zou bijvoorbeeld de kredietlimiet van de klant handmatig kunnen controleren voordat u een verkooporder invoert. U kunt het formulier **Verkooporder** gebruiken om kredietlimieten handmatig te controleren. U moet lid zijn van een beveiligingsrol met de taak Verkooporder onderhouden (SalesOrderMaintain) toegewezen om wijzigingen aan te brengen in dit formulier.
 
-1.  Klik op **Verkoop en marketing** \> **Algemeen** \> **Verkooporders** \> **Alle verkooporders**. Dubbelklik op een verkooporder.
+1.  Klik op **Verkoop en marketing** \> **Verkooporders** \> **Alle verkooporders**. Dubbelklik op een verkooporder.
 
 2.  Klik in het formulier **Verkooporder** in het actievenster op het tabblad **Beheren** op **Kredietlimiet controleren**.
 

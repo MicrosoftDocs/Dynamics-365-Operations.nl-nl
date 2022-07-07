@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f999dec6639183015b1be9378dc4e8ea01c9a84
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 32a108694c11a2ebd922a71d5c82691584bbb397
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670883"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014744"
 ---
 # <a name="perform-invoice-updates-for-returns"></a>Facturen bijwerken voor retouren 
 
@@ -35,7 +35,7 @@ Wanneer u het bijwerken van de factuur instelt op batchverwerking, moet de verko
 
 ## <a name="post-an-invoice-for-a-return-order"></a>Boek een factuur voor de retourorder.
 
-1.  Klik op **Klanten** \> **Algemeen** \> **Verkooporders** \> **Alle verkooporders**.
+1.  Klik op **Klanten** \> **Orders** \> **Alle verkooporders**.
 
 2.  Selecteer een verkooporder waarvoor **Geretourneerde order** wordt weergegeven in het veld **Ordertype**.
 

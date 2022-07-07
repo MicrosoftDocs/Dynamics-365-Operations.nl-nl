@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7905dcd4c29872ec2601359baefa78545140397c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 210db3259a6c64a508119b30598a34dbda2d2dd2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857890"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014993"
 ---
 # <a name="add-fault-to-work-order"></a>Fout aan werkorder toevoegen
 
@@ -30,7 +30,7 @@ ms.locfileid: "8857890"
 
 Aan een werkorder kunt u fouten toevoegen die in de foutontwerper zijn ingesteld. Er moeten een of meer foutrecords worden gekoppeld aan de activumtypen die worden gebruikt voor het activum dat is geselecteerd in de werkorder. Zie [Foutbeheer](../setup-for-work-orders/fault-management.md) voor meer informatie over de instelling.
 
-1. Selecteer **Activabeheer** > **Algemeen** > **Werkorders** > **Alle werkorders** of **Actieve werkorders**.
+1. Selecteer **Activabeheer** > **Werkorders** > **Alle werkorders** of **Actieve werkorders**.
 
 2. Selecteer de werkorder waarvoor u een foutregistratie wilt maken en selecteer vervolgens in het actievenster op het tabblad **Werkorder** in de groep **Activum** de optie **Fout in activum**.
 
@@ -64,7 +64,7 @@ Op de lijstpagina **Activafouten** kunt u een overzicht weergeven van alle foute
 
 Via de lijstpagina **Alle activa** kunt u een rapport met activafouten afdrukken waarin alle foutregistraties en een grafisch overzicht van foutstatistieken worden weergegeven.
 
-1. Selecteer **Activabeheer** > **Algemeen** > **Activa** > **Alle activa**.
+1. Selecteer **Activabeheer** > **Activa** > **Alle activa**.
 
 2. Selecteer het activum waarvoor u een foutrapport wilt afdrukken.
 

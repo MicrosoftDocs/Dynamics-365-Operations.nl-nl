@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b4d0bf82dc0dfe12991b4a48fd68a029a2ff2f3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2d4385fdd3e94d48a65baf195efa1d687fbf95c3
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887597"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016763"
 ---
 # <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>Typen, categorieën, varianten, specialismen en controlelijsten voor onderhoudstaken
 
@@ -243,7 +243,7 @@ U kunt een batchtaak instellen om verwijzingen naar het standaard type onderhoud
 
 Nadat u de vereiste combinaties hebt gemaakt voor het vereiste type onderhoudstaak, kunt u de pagina **Alle activa** gebruiken om een overzicht weer te geven van het huidige type onderhoudstaak dat is gekoppeld aan een specifiek activum. Het overzicht toont alle standaard combinaties van typen onderhoudstaken die kunnen worden gebruikt voor het activatype dat voor de activa is geselecteerd, voor alle typen onderhoudstaken. Deze combinaties omvatten combinaties met verschillende typen onderhoudstaken en specialismen voor onderhoudstaken.
 
-1. Selecteer **Activabeheer** \> **Algemeen** \> **Activa** \> **Alle activa** of **Actieve activa**.
+1. Selecteer **Activabeheer** \> **Activa** \> **Alle activa** of **Actieve activa**.
 2. Selecteer in de lijst de activa waarvoor u een overzicht van de combinaties van typen onderhoudstaken wilt weer geven.
 3. Klik in het Actievenster op het tabblad **Algemeen** in de groep **Verwante informatie**, selecteer **Typen onderhoudstaken**.
 

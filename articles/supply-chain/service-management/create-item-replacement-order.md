@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57bbb8eb638b990914dc00f9700ff0c1925c48852862b02e09f3f26415d3e347
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 14751fb0e0632ca986d6eddf55c93d44fbd68276
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745497"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015459"
 ---
 # <a name="create-an-item-replacement-order"></a>Een order maken voor het vervangen van een artikel 
 
@@ -31,7 +31,7 @@ Artikelvervangingsorders worden meestal gemaakt wanneer een product is geretourn
 
 ## <a name="create-a-replacement-order-after-you-receive-an-item-that-is-returned"></a>Een vervangingsorder maken nadat u een artikel ontvangt dat werd geretourneerd
 
-1.  Klik op **Verkoop en marketing** \> **Algemeen** \> **Retourorders** \> **Alle retourorders**.
+1.  Klik op **Verkoop en marketing** \> **Verkoopretouren** \> **Alle retourorders**.
 
 2.  Maak een nieuwe retourorder of selecteer een geretourneerde order in de lijst om het formulier **Retourorder - RMA-nummer: %1, %2** te openen.
 
@@ -45,7 +45,7 @@ Artikelvervangingsorders worden meestal gemaakt wanneer een product is geretourn
 
 ## <a name="create-a-replacement-order-before-you-receive-an-item-that-will-be-returned"></a>Een vervangingsorder maken voordat u een artikel ontvangt dat wordt geretourneerd
 
-1.  Klik op **Verkoop en marketing** \> **Algemeen** \> **Retourorders** \> **Alle retourorders**.
+1.  Klik op **Verkoop en marketing** \> **Verkoopretouren** \> **Alle retourorders**.
 
 2.  Maak een nieuwe retourorder of selecteer een retourorder in de lijst om het formulier **Retourorder - RMA-nummer: %1, %2** te openen.
 

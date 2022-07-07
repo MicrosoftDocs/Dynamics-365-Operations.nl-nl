@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 503150e7cfc580821c5ed8d4c4c9b56998f6ff13
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f7c36fe230db38bfdbfd70fec7bdfd0a313d5a15
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869715"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015836"
 ---
 # <a name="create-functional-locations"></a>Functionele locaties maken
 
@@ -41,7 +41,7 @@ Om te kunnen werken met functionele locaties, begint u met het maken van twee "c
 
 Wanneer u functionele locaties gebruikt, begint u met het maken van één standaardlocatie die moet worden gebruikt wanneer u nieuwe activa maakt. Deze functionele locatie is degene die u selecteert in **Activabeheer** > **Instellingen** > **Parameters voor activabeheer** > koppeling **Activa** > veld **Standaard functionele locatie**. De standaard functionele locatie kan worden gebruikt wanneer u nieuwe activa maakt en u nog geen functionele locatiestructuur voor die activa hebt ingesteld.
 
-1. Selecteer **Activabeheer** > **Algemeen** > **Functionele locaties** > **Alle functionele locaties**.  
+1. Selecteer **Activabeheer** > **Functionele locaties** > **Alle functionele locaties**.  
 2. Selecteer **Nieuwe** in **Alle functionele locaties**.
 3. Typ een id in het veld **Functionele locatie**, bijvoorbeeld '0000' of 'Standaard', om aan te geven dat dit een speciale functionele locatie is.
 4. Voeg een naam in voor de standaard functionele locatie in het veld **Naam**.
@@ -53,7 +53,7 @@ Wanneer u functionele locaties gebruikt, begint u met het maken van één standa
 
 In de volgende procedure wordt beschreven hoe u de functionele locaties maakt die nodig zijn voor onderhoudsbeheer in uw bedrijf.
 
-1. Selecteer **Activabeheer** > **Algemeen** > **Functionele locaties** > **Alle functionele locaties**. U kunt een functionele locatie maken vanuit de rasterweergave of de detailweergave.
+1. Selecteer **Activabeheer** > **Functionele locaties** > **Alle functionele locaties**. U kunt een functionele locatie maken vanuit de rasterweergave of de detailweergave.
 2. Selecteer de knop **Nieuw**.
 3. Typ een id in het veld **Functionele locatie**.
 4. Typ een naam voor de functionele locatie in het veld **Naam**.

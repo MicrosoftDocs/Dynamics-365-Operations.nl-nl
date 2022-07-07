@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bf78d53e8e2d7bee24a0a7789ca1a96cdd8f1415
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 588da2a217a56d2bc25f85c9a10c6589f90b16a1
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886039"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015080"
 ---
 # <a name="register-consumption"></a>Verbruik registreren
 
@@ -35,7 +35,7 @@ In sommige gevallen kunt u prognoseregels toevoegen aan of verwijderen uit een w
 >[!NOTE]
 >U kunt het automatisch boeken van journalen instellen in de levenscyclusstatus van werkorders. Zie [Levenscyclusstatussen van werkorder](../setup-for-work-orders/work-order-lifecycle-states.md) voor meer informatie.
 
-1. Klik op **Activabeheer** > **Algemeen** > **Werkorders** > **Alle werkorders** of **Actieve werkorders**.
+1. Klik op **Activabeheer** > **Werkorders** > **Alle werkorders** of **Actieve werkorders**.
 
 2. Selecteer de werkorder en klik op **Journalen**.
 
@@ -61,7 +61,7 @@ In de volgende schermafbeelding ziet u een voorbeeld van uren- en artikelregistr
 
 Als een werkorder verschillende werkordertaken bevat, kunt u openingstijden registreren met de functie **Uren splitsen**, wat betekent dat één uurregistratieregel gelijkmatig kan worden verdeeld over alle werkordertaken.
 
-1. Klik op **Activabeheer** > **Algemeen** > **Werkorders** > **Alle werkorders** of **Actieve werkorders**.
+1. Klik op **Activabeheer** > **Werkorders** > **Alle werkorders** of **Actieve werkorders**.
 
 2. Selecteer de werkorder en klik op **Journalen**.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a6e9454baa33e37fe62db2b7bd39ff00891ff855
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5be880a6d178743f4a2d3339609604d993f7e5d5
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905019"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016394"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Operations versie 1611 (november 2016)
 
@@ -818,7 +818,7 @@ Momenteel is Retail Modern POS alleen beschikbaar als een Windows 8.1-toepassing
 | Voorraad in eigendom van de leverancier aanpassen door middel van een tellijst. | Het is belangrijk om de in het systeem geregistreerde voorhanden voorraad synchroon te houden met de daadwerkelijke fysieke voorraad. De voorraad in eigendom van de leverancier kan voor in- en uitgaande mutaties worden gecorrigeerd door middel van telprocessen zoals hoeveelheidscorrecties en tellijstprocessen. |
 | Meer informatie over ondersteuning voor consignatie in Dynamics 365 for Operations | Voor meer informatie over de ondersteuning voor consignatieprocessen zie [Consignatie](../../../supply-chain/inventory/consignment.md), [Consignatie instellen](/d365F-O/fin-ops-core/fin-ops/get-started/consignment), [Een nieuwe consignatieaanvullingsorder maken (taakbegeleiding)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) en [Het eigendom van consignatievoorraad wijzigen op basis van de productievraag (taakbegeleiding)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
 
-### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>Leverancierssamenwerking (voorheen bekend als de Leveranciersportal)
+### <a name="vendor-collaboration"></a>Leverancierssamenwerking
 
 | Wat u kunt doen | Waarom dit belangrijk is |
 |-----------------|-----------------------|

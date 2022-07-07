@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a3e48ceec2e95f796b6e7662af42e6bc1c3f01b7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 80072381c59b6cc0e0ea512a50900f8754a413a0
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895868"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016995"
 ---
 # <a name="active-work-order-maintenance-jobs-overview"></a>Overzicht van actieve onderhoudstaken voor werkorder
 
@@ -29,7 +29,7 @@ ms.locfileid: "8895868"
 
 Op de lijstpagina **Actieve onderhoudstaken voor werkorder** kunt u een overzicht van werkorders weergeven wat betreft het aantal werkorders dat is gemaakt voor specifieke activa, activatypen, fabrikanten, modellen, onderhoudstaaktypen enzovoort. Door een werkordertaak te selecteren en vervolgens **Bewerken** te selecteren, kunt u de desbetreffende werkorder openen. Door een werkordertaak te selecteren en vervolgens een van de knoppen op het tabblad **Onderhoudstaken voor werkorders** van het actievenster te selecteren, kunt u de gegevens weergeven voor de werkorder waarop de werkordertaak betrekking heeft.
 
-U kunt de lijstpagina openen door **Activabeheer** > **Algemeen** > **Werkorders** > **Actieve onderhoudstaken voor werkorder** te selecteren. De pagina bevat alle actieve werkordertaken, terwijl bovendien worden enkele gegevens over de werkorder of werkordertaak worden weergegeven.
+U kunt de lijstpagina openen door **Activabeheer** > **Werkorders** > **Actieve onderhoudstaken voor werkorder** te selecteren. De pagina bevat alle actieve werkordertaken, terwijl bovendien worden enkele gegevens over de werkorder of werkordertaak worden weergegeven.
 
 In de kolom **%** wordt met een percentage aangegeven in hoeverre de werkorder is voltooid. De voltooiing is gebaseerd op twee berekeningen: geboekte uren vergeleken met geraamde uren en het aantal onderhoudscontrolelijsten dat is voltooid.
 

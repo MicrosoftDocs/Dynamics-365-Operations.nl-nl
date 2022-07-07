@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d74b6c82c573810da9cbfe14745f997f40d408fc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8d9c756d8aaf2e7b2f6593e78fbb645dafee4552
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873661"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016154"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Productieparameters in Productieregistratie
 
@@ -63,7 +63,7 @@ Op de pagina **Productieparameters** stelt u automatisch stuklijstverbruik in dr
 
 Voor elke fase kunt u in het veld **Automatisch stuklijstverbruik** kiezen uit drie methoden voor het verzamelen van artikelen voor een productieorder:
 
-- **Backflushing**: Deze optie wordt gebruikt in combinatie met een optie die is gedefinieerd in de stuklijst in de module **Productie**. Klik op **Productiecontrole** &gt; **Algemeen** &gt; **Productieorders** &gt; **Alle productieorders**. Selecteer op de pagina **Alle productieorders** een productieorder in de lijst en klik vervolgens in het actievenster op **Stuklijst**. Selecteer op de pagina **Stuklijst**, op het tabblad **Instellingen** in het veld **Backflushing** een van de volgende opties:
+- **Backflushing**: Deze optie wordt gebruikt in combinatie met een optie die is gedefinieerd in de stuklijst in de module **Productie**. Klik op **Productiebeheer** &gt; **Productieorders** &gt; **Alle productieorders**. Selecteer op de pagina **Alle productieorders** een productieorder in de lijst en klik vervolgens in het actievenster op **Stuklijst**. Selecteer op de pagina **Stuklijst**, op het tabblad **Instellingen** in het veld **Backflushing** een van de volgende opties:
 
   - **Beginnen**
   - **Voltooien**

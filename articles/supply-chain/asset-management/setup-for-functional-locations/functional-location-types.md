@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01c8276d77f7655659cab13f3c520d7c171e3cfd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0c44e503900bd157d7f0159cdf2b2d0c1fb3393f
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879216"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015778"
 ---
 # <a name="functional-location-types"></a>Typen functionele locaties
 
@@ -57,7 +57,7 @@ Nu wordt een standaardtype functionele locatie gemaakt dat alleen wordt gebruikt
 7. Het veld **Activumtype** wordt gebruikt als u automatisch *één* activum wilt maken voor de functionele locatie met dezelfde id en naam als de functionele locatie die u maakt. Dit kan bijvoorbeeld relevant zijn als u een statische functionele locatie maakt, zoals een gebouw of een pijplijn. Selecteer in dat geval het activumtype dat u wilt gebruiken voor het automatisch gemaakte activum. Houd er rekening mee dat als u een selectie maakt in dit veld, de wisselknop **Meerdere activa** moet worden ingesteld op "Nee".
 8. Selecteer op het sneltabblad **Activatypen** de activatypen die moeten worden gerelateerd aan het functionele locatietype. Selecteer **Regel toevoegen** en selecteer de activatypen. Als u hier activatypen toevoegt, kunnen alleen activa die deze activatypen gebruiken, op een functionele locatie worden geïnstalleerd met behulp van dit type functionele locatie. Als er geen activatypen zijn geselecteerd op het sneltabblad **Activatypen**, kunnen alle activatypen worden geïnstalleerd.
 9. Selecteer op het sneltabblad **Onderhoudsplannen** de onderhoudsplannen die automatisch moeten worden ingesteld op nieuwe functionele locaties met dit type functionele locatie. Selecteer **Regel toevoegen** en selecteer de onderhoudsplannen. Als u hier onderhoudsplannen toevoegt, kunnen alleen die plannen worden gebruikt op een functionele locatie met dit type functionele locatie.
-10. Stel op het sneltabblad **Vereisten voor kenmerken van activa** de activakenmerken in die automatisch moeten worden ingesteld op nieuwe functionele locaties met dit type functionele locatie. Selecteer **Regel toevoegen** en selecteer het kenmerk. Deze kenmerkvereisten fungeren als richtlijnen. Ze worden niet gevalideerd voor kenmerken die zijn ingesteld voor een activum **(Activabeheer** > **Algemeen** > **Activa** > **Alle activa** > activum selecteren op de lijstpagina > tabblad **Algemeen** > knop **Kenmerken**). De kenmerkvereisten worden weergegeven wanneer u activa op functionele locaties installeert.
+10. Stel op het sneltabblad **Vereisten voor kenmerken van activa** de activakenmerken in die automatisch moeten worden ingesteld op nieuwe functionele locaties met dit type functionele locatie. Selecteer **Regel toevoegen** en selecteer het kenmerk. Deze kenmerkvereisten fungeren als richtlijnen. Ze worden niet gevalideerd voor kenmerken die zijn ingesteld voor een activum(**Activabeheer** > **Activa** > **Alle activa** > activum selecteren op de lijstpagina > tabblad **Algemeen** > knop **Kenmerken**). De kenmerkvereisten worden weergegeven wanneer u activa op functionele locaties installeert.
 11. Selecteer op het sneltabblad **Toegestane typen** de functionele locatietypen die geldig zijn voor functionele sublocatietypen die betrekking hebben op een bovenliggend type functionele locatie, die het geselecteerde functionele locatietype gebruikt.
 12. Selecteer op het sneltabblad **Kenmerken** de kenmerken voor functionele locaties die automatisch moeten worden ingesteld op functionele locaties met dit type functionele locatie. Selecteer **Regel toevoegen** en selecteer het kenmerk.
 

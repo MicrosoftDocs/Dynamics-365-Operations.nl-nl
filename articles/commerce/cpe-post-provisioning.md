@@ -1,8 +1,8 @@
 ---
-title: Een Dynamics 365 Commerce-evaluatieomgeving configureren
-description: In dit artikel wordt uitgelegd hoe u een evaluatieomgeving van Microsoft Dynamics 365 Commerce configureert na inrichting.
+title: Een sandbox-omgeving van Dynamics 365 Commerce configureren
+description: In dit artikel wordt uitgelegd hoe u een sandbox-omgeving van Microsoft Dynamics 365 Commerce configureert na inrichting.
 author: psimolin
-ms.date: 05/12/2022
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,34 +14,34 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 19d88139e35554bce68bc6203141957b96e439a7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 259a580981003f135e234f66e9e93ceb18605412
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892325"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013104"
 ---
-# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Een Dynamics 365 Commerce-evaluatieomgeving configureren
+# <a name="configure-a-dynamics-365-commerce-sandbox-environment"></a>Een sandbox-omgeving van Dynamics 365 Commerce configureren
 
 [!include [banner](includes/banner.md)]
 
-In dit artikel wordt uitgelegd hoe u een evaluatieomgeving van Microsoft Dynamics 365 Commerce configureert na inrichting.
+In dit artikel wordt uitgelegd hoe u een sandbox-omgeving van Microsoft Dynamics 365 Commerce configureert na inrichting.
 
-Voltooi de procedures in dit artikel pas nadat uw evaluatieomgeving van Commerce is ingericht. Zie [Een evaluatieomgeving van Commerce inrichten](provisioning-guide.md) voor meer informatie over hoe u uw evaluatieomgeving van Commerce inricht.
+Voltooi de procedures in dit artikel pas nadat uw sandbox-omgeving van Commerce is ingericht. Zie [Een sandbox-omgeving van Commerce inrichten](provisioning-guide.md) voor meer informatie over hoe u uw sandbox-omgeving van Commerce inricht.
 
-Nadat uw evaluatieomgeving van Commerce end-to-end is ingericht, moeten extra configuratiestappen worden voltooid voordat u kunt beginnen met het evalueren van de omgeving. Als u deze stappen wilt uitvoeren, moet u Microsoft Dynamics Lifecycle Services (LCS) en Dynamics 365 Commerce gebruiken.
+Nadat uw sandbox-omgeving van Commerce end-to-end is ingericht, moeten extra configuratiestappen worden voltooid voordat u kunt beginnen met het gebruiken van de omgeving. Als u deze stappen wilt uitvoeren, moet u Microsoft Dynamics Lifecycle Services (LCS) en Dynamics 365 Commerce gebruiken.
 
 ## <a name="before-you-start"></a>Voordat u begint
 
 1. Meld u aan bij de [LCS-portal](https://lcs.dynamics.com).
 1. Ga naar uw project.
-1. Selecteer in het bovenste menu de optie **Cloudomgevingen**.
 1. Selecteer uw omgeving in de lijst.
 1. Klik op **Aanmelden bij omgeving** in de omgevingsgegevens rechts. U wordt doorgestuurd naar Commerce Headquarters.
-1. Zorg ervoor dat de rechtspersoon **USRT** is geselecteerd rechtsboven.
-1. Ga naar **Commerce-parameters \> Configuratieparameters** en controleer of er een vermelding bestaat voor **ProductSearch.UseAzureSearch** die is ingesteld op **true**. Als de vermelding ontbreekt, kunt u deze toevoegen, de waarde instellen op **true** en **Kanaaldatabase \> Volledige synchronisatie** selecteren voor de Commerce Scale Unit die is gekoppeld aan uw e-commercewebsite.
+1. Zorg ervoor dat de rechtspersoon **USRT** is geselecteerd rechtsboven. Deze rechtspersoon is vooraf geconfigureerd in de demogegevens.
+1. Ga naar **Commerce-parameters \> Configuratieparameters** en controleer of er een vermelding bestaat voor **ProductSearch.UseAzureSearch** die is ingesteld op **true**. Als dit item ontbreekt, voegt u deze toe en stelt u de waarde in op **waar**.
 1. Ga naar **Detailhandel en commerce \> Instellingen van hoofdkantoor \> Commerce-planner \> Commerce-planner initialiseren**. Controleer in het fly-outmenu **Commerce-planner initialiseren** of de optie **Bestaande configuratie verwijderen** is ingesteld op **Ja** en selecteer vervolgens **OK**.
-1. Als u kanalen wilt toevoegen aan Commerce Scale Unit, gaat u naar **Detailhandel en commerce \> Instellingen van hoofdkantoor \> Commerce-planner \> Afzetkanaaldatabase** en selecteert u vervolgens in het linkerdeelvenster Commerce Scale Unit. Voeg op het sneltabblad **Detailhandelafzetkanaal** de afzetkanalen **AW online store**, **AW Business online store** en **Fabrikam extended online store** toe. U kunt ook detailhandels toevoegen als u POS gebruikt ( bijvoorbeeld **Seattle**, **San Francisco** en **San Jose**).
+1. De store- en e-commercekanalen moeten moeten voor een goede werking worden toegevoegd aan Commerce Scale Unit. Ga naar **Detailhandel en commerce \> Instelling van hoofdkantoor \> Commerce-planner \> Kanaaldatabase** en selecteer Commerce Scale Unit in het deelvenster links. Voeg op het sneltabblad **Detailhandelafzetkanaal** de afzetkanalen **AW online store**, **AW Business online store** en **Fabrikam extended online store** toe als u die e-commercekanalen wilt gebruiken. U kunt ook detailhandels toevoegen als u POS gebruikt ( bijvoorbeeld **Seattle**, **San Francisco** en/of **San Jose**).
+1. Als u ervoor wilt zorgen dat alle wijzigingen worden gesynchroniseerd met de kanaaldatabase, selecteert u **Kanaaldatabase \> Volledige gegevenssynchronisatie** voor Commerce Scale Unit.
 
 Controleer tijdens het activiteiten na het inrichting in Commerce Headquarters of de rechtspersoon **USRT** altijd is geselecteerd.
 
@@ -52,7 +52,7 @@ Controleer tijdens het activiteiten na het inrichting in Commerce Headquarters o
 Ga als volgt te werk om een medewerker te koppelen aan uw identiteit in Commerce Headquarters
 
 1. Ga in het menu links naar **Modules \> Detailhandel en commerce \> Werknemers \> Medewerkers**.
-1. Zoek en selecteer record **000713 - Andrew Collette**.
+1. Zoek en selecteer record **000713 - Andrew Collette**. Deze voorbeeldgebruiker is gekoppeld aan de winkel in San Francisco die wordt gebruikt in de volgende sectie.
 1. Selecteer in het actievenster de optie **Commerce**.
 1. Selecteer **Bestaande identiteit koppelen**.
 1. Typ uw e-mailadres in het veld **E-mail** rechts van **Zoeken met behulp van e-mail**.
@@ -76,24 +76,24 @@ Ga als volgt te werk om Cloud POS in LCS te activeren.
 1. Selecteer **Activeren**. U bent afgemeld en de POS-aanmeldingspagina wordt geopend.
 1. U kunt u nu aanmelden bij Cloud POS met operator-id **000713** en wachtwoord **123**.
 
-## <a name="set-up-your-site-in-commerce"></a>Uw site instellen in Commerce
+## <a name="set-up-your-e-commerce-sites"></a>Uw e-commercesites instellen
 
-Ga als volgt te werk om te beginnen met het instellen van uw evaluatiesite in Commerce.
+Er zijn drie demosites voor e-commerce beschikbaar: Fabrikam, Adventure Works en Adventure Works Business. Volg de onderstaande stappen om elke demonstratiesite te configureren.
 
 1. Meld u aan bij de site builder met de URL die u hebt genoteerd tijdens de initialisatie van e-Commerce tijdens het inrichten (zie [e-Commerce initialiseren](provisioning-guide.md#initialize-e-commerce)).
-1. Selecteer **Fabrikam** om het dialoogvenster met instellingen voor de site te openen.
-1. Selecteer het domein dat u hebt ingevoerd bij het initialiseren van e-Commerce.
-1. Selecteer **Uitgebreide Fabrikam online winkel** als het standaardkanaal. Zorg ervoor dat u de **uitgebreide** online winkel selecteert.
+1. Selecteer de site (**Fabrikam**, **Adventure Works** of **Adventure Works Business**) om het dialoogvenster voor het instellen van de site te openen.
+1. Selecteer het domein dat u hebt ingevoerd bij het initialiseren van Commerce.
+1. Selecteer in Headquarts het vooraf geconfigureerde online winkelkanaal (**Uitgebreide online winkel Fabrikam**, **AW online store** of **AW Business online store**) die overeenkomt met het standaardkanaal.
 1. Als standaardtaal selecteert u **en-us**.
-1. Laat de waarde van het veld **Pad** ongewijzigd.
+1. Configureer de padvelden. U kunt deze leeg laten voor één site, maar u moet deze wel configureren als u dezelfde domeinnaam voor meerdere sites gebruikt. Als de domeinnaam bijvoorbeeld `https://www.constoso.com` is, kunt u een leeg pad gebruiken voor Fabrikam (`https://contoso.com`) en vervolgens aw gebruiken voor Adventure Works (`https://contoso.com/aw`) en awbusiness voor de bedrijfssite van Adventure Works (`https://contoso.com/awbusiness`).
 1. Selecteer **OK**. De lijst met pagina's op de site wordt weergegeven.
-1. Herhaal stap 2 en 7 voor de site **AdventureWorks** (die is toegewezen aan het afzetkanaal **AW online store**) en de site **AdventureWorks-bedrijf** (die is toegewezen aan het afzetkanaal **AW Business online store**). Als het veld **Pad** voor de Fabrikam-site leeg is, moet u paden voor de twee AdventureWorks-sites toevoegen (bijvoorbeeld aw en awbusiness).
+1. Herhaal eventueel stap 2-7 om de andere demonstratiesites zo nodig te configureren.
 
 ## <a name="enable-jobs"></a>Taken inschakelen
 
 Ga als volgt te werk om taken in Commerce in te schakelen.
 
-1. Meld u aan bij de omgeving (HQ).
+1. Meld u aan bij uw Headquarters-omgeving.
 1. Ga in het menu links naar **Detailhandel en commerce \> Query's en rapporten \> Batchtaken**.
 
     De resterende stappen van deze procedure moeten worden voltooid voor elk van de volgende taken:
@@ -146,12 +146,11 @@ Voor het uitvoeren van testtransacties op de site kunt u de volgende creditcardg
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Als de inrichtings- en configuratiestappen zijn voltooid, bent u klaar om uw evaluatieomgeving te gebruiken. Gebruik de site builder-URL voor de Commerce-site om naar de ontwerpomgeving te gaan. Gebruik de URL van de Commerce-site om naar de omgeving van de site van de detailhandelklant te gaan.
+Als de inrichtings- en configuratiestappen zijn voltooid, bent u klaar om uw sandbox-omgeving te gebruiken. Gebruik de site builder-URL voor de Commerce-site om naar de ontwerpomgeving te gaan. Gebruik de URL van de Commerce-site om naar de omgeving van de site van de detailhandelklant te gaan.
 
-Zie [Optionele functies voor een evaluatieomgeving van Commerce configureren](cpe-optional-features.md) voor meer informatie over hoe u optionele functies voor uw evaluatieomgeving van Commerce configureert.
+Zie [Optionele functies voor een sandbox-omgeving van Commerce configureren](cpe-optional-features.md) voor meer informatie over hoe u optionele functies voor uw sandbox-omgeving van Commerce configureert.
 
-> [!NOTE]
-> Commerce-evaluatieomgevingen worden geleverd met een vooraf geladen Azure Active Directory (Azure AD) B2C-tenant voor demonstratiedoeleinden. Het configureren van uw eigen Azure AD B2C-tenant is niet vereist voor evaluatieomgevingen. Als u echter de evaluatieomgeving configureert om uw eigen Azure AD B2C-tenant te gebruiken, moet u ervoor zorgen dat u ``https://login.commerce.dynamics.com/_msdyn365/authresp`` als een antwoord-URL toevoegt in de Azure AD B2C-toepassing via de Azure Portal.
+Om e-commercegebruikers in staat te stellen zich bij de e-commercesite aan te melden, is aanvullende configuratie vereist om siteverificatie in te schakelen via Azure Active Directory business-to-consumer (B2C). Zie [Een B2C-tenant instellen in Commerce](set-up-b2c-tenant.md) voor instructies.
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 
@@ -177,15 +176,11 @@ Demonstratiegegevens in Commerce versie 10.0.26 en eerder bevatten een fout waar
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Overzicht van de evaluatieomgeving voor Dynamics 365 Commerce](cpe-overview.md)
+[Een sandbox-omgeving inrichten voor Dynamics 365 Commerce](provisioning-guide.md)
 
-[Een evaluatieomgeving voor Dynamics 365 Commerce inrichten](provisioning-guide.md)
+[Optionele functies voor een sandbox-omgeving van Dynamics 365 Commerce configureren](cpe-optional-features.md)
 
-[Optionele functies voor een Dynamics 365 Commerce-evaluatieomgeving configureren](cpe-optional-features.md)
-
-[BOPIS configureren in een Dynamics 365 Commerce-evaluatieomgeving](cpe-bopis.md)
-
-[Veelgestelde vragen over evaluatieomgeving voor Dynamics 365 Commerce](cpe-faq.md)
+[BOPIS configureren in een sandbox-omgeving van Dynamics 365 Commerce](cpe-bopis.md)
 
 [Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f969e3de9586c0c47214201b34a16f8afad5ca90
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 1764d97d4492e7b982a5d2c9f7e7f1c15380be1d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678257"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014846"
 ---
 # <a name="create-service-orders-manually"></a>Handmatig serviceorders maken    
 
@@ -34,7 +34,7 @@ U kunt handmatig serviceorders maken door een serviceovereenkomst te gebruiken o
 
 ## <a name="create-a-service-order-manually-from-a-service-agreement"></a>Handmatig een serviceorder maken vanuit een serviceovereenkomst
 
-1.  Selecteer **Servicebeheer** \> **Algemeen** \> **Serviceovereenkomsten** \> **Serviceovereenkomsten**.
+1.  Selecteer **Servicebeheer** \> **Serviceovereenkomsten** \> **Serviceovereenkomsten**.
 
 2.  Selecteer een serviceovereenkomst of maak een nieuwe serviceovereenkomst.
 
@@ -42,7 +42,7 @@ U kunt handmatig serviceorders maken door een serviceovereenkomst te gebruiken o
 
 ## <a name="create-a-service-order-manually-in-the-service-orders-form"></a>Handmatig een serviceorder maken in het formulier Serviceorders
 
-1.  Selecteer **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**.
+1.  Selecteer **Servicebeheer** \> **Serviceorders** \> **Serviceorders**.
 
 2.  Selecteer **Nieuw** om een nieuwe serviceorder te maken.
 
@@ -53,7 +53,7 @@ U kunt handmatig serviceorders maken door een serviceovereenkomst te gebruiken o
 
 ## <a name="create-a-service-order-from-a-project"></a>Een serviceorder vanuit een project maken
 
-1.  Ga naar **Projectbeheer en boekhouding** \> **Algemeen** \> **Projecten** \> **Alle projecten**.
+1.  Ga naar **Projectbeheer en boekhouding** \> **Projecten** \> **Alle projecten**.
 
 2.  Selecteer in het formulier **Projecten** in het **actiedeelvenster** op het tabblad **Beheren** \> de optie **Service** \> **Serviceorders**.
 
@@ -66,7 +66,7 @@ U kunt handmatig serviceorders maken door een serviceovereenkomst te gebruiken o
 
 U kunt een serviceorder maken in het formulier **Verkooporders** met behulp van de wizard **Een nieuwe serviceorder maken op basis van de verkooporder**.
 
-1.  Ga naar **Verkoop en marketing** \> **Algemeen** \> **Verkooporders** \> **Alle verkooporders**.
+1.  Ga naar **Verkoop en marketing** \> **Verkooporders** \> **Alle verkooporders**.
 
 2.  Open de relevante verkooporder.
 

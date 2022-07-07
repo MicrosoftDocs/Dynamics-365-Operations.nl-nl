@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dcee5fd729de6e96d57462879f7851756f287dc9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5eb911ec4ba9655c4ecaea3bf9a4f8736fa036c2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902826"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016705"
 ---
 # <a name="introduction-to-work-orders"></a>Inleiding tot werkorders
 
@@ -47,15 +47,15 @@ Werkorders kunnen op de volgende manieren worden gemaakt:
 
 ## <a name="all-work-orders"></a>Alle werkorders
 
-Selecteer **Activabeheer** > **Algemeen** > **Werkorders** > **Alle werkorders** en open de de lijstpagina **Alle werkorders**. Op deze pagina worden alle werkorders weergegeven plus een deel van de informatie die aan elk hiervan is gerelateerd.
+Selecteer **Activabeheer** > **Werkorders** > **Alle werkorders** en open de de lijstpagina **Alle werkorders**. Op deze pagina worden alle werkorders weergegeven plus een deel van de informatie die aan elk hiervan is gerelateerd.
 
 In de onderstaande afbeelding ziet u een voorbeeld van de lijstpagina **Alle werkorders**.
 
 ![Figuur 1.](media/01-work-orders.png)
 
-Selecteer **Activabeheer** > **Algemeen** > **Werkorders** > **Actieve werkorders** om een lijst met alleen actieve werkorders weer te geven. 
+Selecteer **Activabeheer** > **Werkorders** > **Actieve werkorders** om een lijst met alleen actieve werkorders weer te geven. 
 
-Klik op **Activabeheer** > **Algemeen** > **Werkorders** > **Mijn functionele locatie van onderhoudstaken voor werkorders** om een lijst met werkordertaken weer te geven die activa bevatten die zijn geïnstalleerd op functionele locaties waaraan u bent gerelateerd als werknemer. (De relatie tussen werknemers en functionele locaties wordt ingesteld op de pagina **Werknemers**. Zie [Onderhoudsmedewerkers en medewerkersgroepen](../setup-for-objects/workers-and-worker-groups.md) voor meer informatie.)
+Klik op **Activabeheer** > **Werkorders** > **Mijn functionele locatie van onderhoudstaken voor werkorders** om een lijst met werkordertaken weer te geven die activa bevatten die zijn geïnstalleerd op functionele locaties waaraan u bent gerelateerd als werknemer. (De relatie tussen werknemers en functionele locaties wordt ingesteld op de pagina **Werknemers**. Zie [Onderhoudsmedewerkers en medewerkersgroepen](../setup-for-objects/workers-and-worker-groups.md) voor meer informatie.)
 
 Hier volgen enkele manieren waarop u de pagina **Alle werkorders** kunt gebruiken:
 

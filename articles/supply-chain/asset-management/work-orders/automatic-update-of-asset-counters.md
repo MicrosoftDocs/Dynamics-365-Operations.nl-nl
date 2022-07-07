@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c1b04c7cca70ec8b25d40cde86be370bce224388
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8ea84259eb8f12becdcf008ed9222a44b2626a0d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856246"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016212"
 ---
 # <a name="automatic-update-of-asset-counters"></a>Automatisch bijwerken van activatellers
 
@@ -53,7 +53,7 @@ Zoals hierboven aangegeven, kunnen automatische tellers worden bijgewerkt vanuit
 
 5. Selecteer **OK**. 
 
-Nadat de automatische update van de activumteller is uitgevoerd, kunt u de tellerregistraties bekijken die zijn gerelateerd aan het activum op de pagina **Activumtellers**. Selecteer **Activabeheer** > **Algemeen** > **Activa** > **Alle activa**, selecteer het activum en selecteer daarna in het actievenster op het tabblad **Activum** in de groep **Preventief** de optie **Tellers**.
+Nadat de automatische update van de activumteller is uitgevoerd, kunt u de tellerregistraties bekijken die zijn gerelateerd aan het activum op de pagina **Activumtellers**. Selecteer **Activabeheer** > **Activa** > **Alle activa**, selecteer het activum en selecteer daarna in het actievenster op het tabblad **Activum** in de groep **Preventief** de optie **Tellers**.
 
 Op de pagina **Samengevoegde waarde van activa** kunt u een overzicht krijgen van de als laatste gemaakte registratie voor alle tellertypen voor alle activa. Selecteer **Activabeheer** > **Query's** > **Activa** > **Samengevoegde waarde van activa**. Deze pagina lijkt op de pagina **Activatellers**, maar u kunt geen registraties toevoegen of bewerken. Deze is alleen bedoeld als overzicht.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8eb0b152f0a4b4e0f61d519262c24d02b71b8fc3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 95d1e38db8e4658a57f36139836264b87d525e61
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849643"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016125"
 ---
 # <a name="calculate-capacity-load"></a>Capaciteitsbelasting berekenen
 
@@ -35,7 +35,7 @@ In Activabeheer kunt u de capaciteitsbelasting berekenen voor:
 
 Dit is handig als u een overzicht wilt weergeven van de verwachte capaciteitsbelasting voor een bepaalde periode. De berekening van de capaciteitsbelasting kan worden uitgevoerd voor alle activa of geselecteerde activa. U kunt ook een berekening uitvoeren voor activiteiten voor uitvaltijd of werkordergroepen.
 
-1. Klik op **Activabeheer** > **Query's** > **Capaciteitsbelasting** of **Activabeheer** > **Algemeen** > **Werkordergroepen** > **Alle werkordergroepen** / **Actieve werkordergroepen** > selecteer de werkordergroep in de lijst > de knop **Capaciteitsbelasting** of **Activabeheer** > **Algemeen** > **Activiteiten voor uitvaltijd voor onderhoud** > **Alle activiteiten voor uitvaltijd voor onderhoud** / **Actieve activiteiten voor uitvaltijd voor onderhoud** > selecteer de activiteit voor uitvaltijd voor onderhoud in de lijst > de knop **Capaciteitsbelasting**.
+1. Klik op **Activabeheer** > **Query's** > **Capaciteitsbelasting** of **Activabeheer** > **Werkordergroepen** > **Alle werkordergroepen** / **Actieve werkordergroepen** > selecteer de werkordergroep in de lijst > de knop **Capaciteitsbelasting** of **Activabeheer** > **Activiteiten voor uitvaltijd voor onderhoud** > **Alle activiteiten voor uitvaltijd voor onderhoud** / **Actieve activiteiten voor uitvaltijd voor onderhoud** > selecteer de activiteit voor uitvaltijd voor onderhoud in de lijst > de knop **Capaciteitsbelasting**.
 
 2. Selecteer in het dialoogvenster **Capaciteitsbelasting berekenen** een periode voor de berekening in de velden **Begindatum/-tijd** en **Einddatum/-tijd**.
 

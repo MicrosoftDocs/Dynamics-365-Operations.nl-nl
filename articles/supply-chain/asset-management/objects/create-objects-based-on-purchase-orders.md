@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bee66e2d35af6daa8d86539e52b558bde3c79a1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ccd14493aac6484dc54ccf51ae159a071c8697a5
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893695"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015604"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>Activa maken op basis van inkooporders
 
@@ -45,7 +45,7 @@ Eerst stelt u vanuit een inkooporder in **Activumartikelen** de artikelen in die
 
 ## <a name="create-assets-from-pending-assets"></a>Activa maken van activa in behandeling
 
-1. Klik op **Activabeheer** > **Algemeen** > **Activa** > **Activa in behandeling**.
+1. Klik op **Activabeheer** > **Activa** > **Activa in behandeling**.
 2. U ziet een bijgewerkte lijst van de inkooporders op basis van de artikelen die zijn geselecteerd in **Activumartikelen**.
 3. U kunt de status van inkooporders filteren om te selecteren in welke levenscyclusstatus het activum moet worden gemaakt. U wilt bijvoorbeeld alleen activa maken wanneer een productontvangstbon voor een inkooporder is geboekt.
 4. Selecteer de koppeling **Referentienummer** op een inkooporderregel om gedetailleerde informatie over het artikel weer te geven.

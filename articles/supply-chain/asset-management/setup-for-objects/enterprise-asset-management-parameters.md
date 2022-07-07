@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1e2c79a621cf4bd1212c006e1c8967d85bd716b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 750776412ce9d87389a635ef108a34cffe12b68b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870806"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015807"
 ---
 # <a name="asset-management-parameters"></a>Parameters voor activabeheer
 
@@ -37,7 +37,7 @@ Het tabblad **Activa** biedt de volgende instellingen:
 
 - **Standaard functionele locatie** is de standaard functionele locatie, die automatisch wordt geselecteerd voor activa wanneer u nieuwe activa maakt.  
 - Selecteer in het veld **Standaardkalender** een kalender die moet worden gebruikt voor het berekenen van KPI's voor activa als er geen resource is geselecteerd voor een activum.  
-- Selecteer in het veld **Weergave** de standaardweergave die wordt weergegeven wanneer u **Activaweergave** opent (**Activabeheer** > **Algemeen** > **Activa** > **Activaweergave**).
+- Selecteer in het veld **Weergave** de standaardweergave die wordt weergegeven wanneer u **Activaweergave** opent (**Activabeheer** > **Activa** > **Activaweergave**).
 - **Standaard aanvraagtype** is het standaardtype onderhoudsaanvraag, dat automatisch wordt geselecteerd wanneer u een nieuwe aanvraag maakt.  
 - Prognoses voor taaktypen worden opgeslagen in het project dat is geselecteerd in het veld **Prognose project**. Voor elk taaktype wordt automatisch een nieuwe activiteit gemaakt voor het prognoseproject. Prognoses voor het taaktype worden vervolgens opgeslagen in het prognoseproject.  
 - Selecteer in het veld **Model** het prognosemodel dat wordt gebruikt voor taaktype- en werkorderprognoses.

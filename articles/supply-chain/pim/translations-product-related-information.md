@@ -16,12 +16,12 @@ ms.search.industry: Product information
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2798e25d1f6c293aa71a6c143ded5293f241060
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 079e6de00d1a946d998648378d5ca24c1fd26218
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850549"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015401"
 ---
 # <a name="product-related-translations-faq"></a>Veelgestelde vragen (FAQ) over productgerelateerde vertalingen
 
@@ -43,20 +43,20 @@ U kunt vertalingen van productgerelateerde informatie in een extern brondocument
 
 ## <a name="how-do-i-create-translations-for-product-related-information"></a>Hoe maak ik vertalingen voor productgerelateerde informatie?
 Om een vertaling te maken voor een project, volgt u deze stappen:
-1.  Klik op **Productgegevensbeheer** &gt; **Algemeen** &gt; **Vrijgegeven producten**.
+1.  Klik op **Productgegevensbeheer** &gt; **Producten** &gt; **Vrijgegeven producten**.
 2.  Selecteer een product en klik in het venster Actie, in de groep **Talen** op **Vertalingen**.
 3.  Selecteer een taal op de pagina **Tekstvertaling** in het veld **Taal**. Om meer talen te voegen, vouwt u het veld **Taal** uit en klikt u op **OK**.
 4.  Voer in de groep **Vertaalde tekst** vertalingen in in de velden **Omschrijving** en **Productienaam**.
 
 Om vertalingen te maken voor productkenmerken, volgt u deze stappen:
-1.  Klik op **Productgegevensbeheer** &gt; **Algemeen** &gt; **Vrijgegeven producten**.
+1.  Klik op **Productgegevensbeheer** &gt; **Producten** &gt; **Vrijgegeven producten**.
 2.  Klik onder **Instellen** op **Kenmerken** en vervolgens op **Kenmerken**.
 3.  Klik op de pagina **Kenmerken** op **Vertalen**.
 4.  Selecteer een taal op de pagina **Tekstvertaling** in het veld **Taal**. Om meer talen te voegen, vouwt u het veld **Taal** uit en klikt u op **OK**.
 5.  Voer in de groep **Vertaalde tekst** vertalingen in in de velden **Omschrijving** en **Beschrijvende naam** en **Help-tekst**.
 
 Om een vertaling te maken voor een productdimensiewaarden volgt u deze stappen:
-1.  Klik op **Productgegevensbeheer** &gt; **Algemeen** &gt; **Vrijgegeven producten**.
+1.  Klik op **Productgegevensbeheer** &gt; **Producten** &gt; **Vrijgegeven producten**.
 2.  Selecteer een product en klik op **Productdimensies**.
 3.  Selecteer een van de koppelingen voor de productdimensies: **Configuraties**, **Afmetingen** **Kleuren** of **Opmaakmodel**.
 4.  Selecteer een dimensiewaarde en klik dan op **Vertalen**.

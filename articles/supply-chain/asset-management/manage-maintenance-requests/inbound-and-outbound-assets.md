@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e0c382efda81067ad4c0cd977e5cfbf37b4e3fc6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fd7482cfe943347840e9fb070151d66fbe5ef9ca
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908709"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016531"
 ---
 # <a name="inbound-and-outbound-assets"></a>Inkomende en uitgaande activa
 
@@ -37,7 +37,7 @@ De instellingen van Activabeheer bepalen of u met inkomende en uitgaande activa 
 
 ## <a name="register-assets-as-inbound"></a>Activa registreren als inkomend
 
-1. Selecteer **Activabeheer** \> **Algemeen** \> **Onderhoudsverzoeken** \> **Actieve onderhoudsverzoeken**.
+1. Selecteer **Activabeheer** \> **Onderhoudsverzoeken** \> **Actieve onderhoudsverzoeken**.
 2. Selecteer het onderhoudsverzoek.
 3. Selecteer **Status van onderhoudsverzoek bijwerken**.
 4. Selecteer **Inkomend** (of een andere levenscyclusstatus die u hebt gemaakt voor inkomende activa) en selecteer **OK**.
@@ -46,7 +46,7 @@ De instellingen van Activabeheer bepalen of u met inkomende en uitgaande activa 
 
 ## <a name="register-inbound-assets-as-received"></a>Inkomende activa registreren als ontvangen
 
-1. Selecteer **Activabeheer** \> **Algemeen** \> **Inkomend/uitgaand** \> **Inkomende activa**.
+1. Selecteer **Activabeheer** \> **Inkomend/uitgaand** \> **Inkomende activa**.
 2. Selecteer het activum of het onderhoudsverzoek.
 3. Selecteer **Activa ontvangen**.
 4. Voer de datum en de tijd in het veld **Ontvangen** in. Selecteer vervolgens **OK**. De record wordt verwijderd uit de pagina met de lijst **Inkomende activa**.
@@ -57,14 +57,14 @@ De instellingen van Activabeheer bepalen of u met inkomende en uitgaande activa 
 
 Wanneer u de onderhouds- of reparatietaak hebt voltooid, kunt u het activum als geretourneerd registreren.
 
-1. Selecteer **Activabeheer** \> **Algemeen** \> **Onderhoudsverzoeken** \> **Actieve onderhoudsverzoeken**.
+1. Selecteer **Activabeheer** \> **Onderhoudsverzoeken** \> **Actieve onderhoudsverzoeken**.
 2. Selecteer het onderhoudsverzoek.
 3. Selecteer **Status van onderhoudsverzoek bijwerken**.
 4. Selecteer **Uitgaand** (of een andere levenscyclusstatus die u hebt gemaakt voor uitgaande activa) en selecteer **OK**.
 
 ## <a name="register-outbound-assets-as-delivered"></a>Uitgaande activa registreren als afgeleverd
 
-1. Selecteer **Activabeheer** \> **Algemeen** \> **Inkomend/uitgaand** \> **Uitgaande activa**.
+1. Selecteer **Activabeheer** \> **Inkomend/uitgaand** \> **Uitgaande activa**.
 2. Selecteer het activum of het onderhoudsverzoek.
 3. Selecteer **Activa afleveren**.
 4. Voer de datum en de tijd in het veld **Afgeleverd** in. Selecteer vervolgens **OK**. De record wordt verwijderd uit de pagina met de lijst **Uitgaande activa**.

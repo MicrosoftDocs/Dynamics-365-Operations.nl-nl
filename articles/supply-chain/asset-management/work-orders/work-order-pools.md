@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6fc97c8a65afe24bfe730e6d13eb178ddcafc2d9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dc9eaf82c2f3336f8c3400fcd3f1165ed4fa56d8
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849556"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014934"
 ---
 # <a name="work-order-pools"></a>Werkordergroepen
 
@@ -44,7 +44,7 @@ U kunt een werkorder zo nodig in meerdere werkplaatsgroepen plaatsen.
 
 Op de lijstpagina **Alle werkordergroepen** of **Actieve werkordergroepen** kunt u een overzicht van uw werkordergroepen bekijken en nieuwe groepen maken.
 
-1. Selecteer **Activabeheer** > **Algemeen** > **Werkordergroepen** > **Alle werkordergroepen** of **Actieve werkordergroepen**.
+1. Selecteer **Activabeheer** > **Werkordergroepen** > **Alle werkordergroepen** of **Actieve werkordergroepen**.
 
 2. Selecteer **Nieuw**.
 

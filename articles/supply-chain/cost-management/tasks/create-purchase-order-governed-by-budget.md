@@ -2,63 +2,55 @@
 title: Een inkooporder maken die wordt geregeld door een budget
 description: Via deze procedure kunt u een inkooporder maken die is gecontroleerd op beschikbaar budget.
 author: JennySong-SH
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: business-process
-ms.prod: ''
-ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e8458fc1f47f929ac612acfb3a2d75a79c8fb7d6
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: aa9777ad3aa487dfb558879335f93f347b8ac749
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671361"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016183"
 ---
 # <a name="create-a-purchase-order-governed-by-budget"></a>Een inkooporder maken die wordt geregeld door een budget
 
 [!include [banner](../../includes/banner.md)]
 
-Via deze procedure kunt u een inkooporder maken die is gecontroleerd op beschikbaar budget. Deze registratie gebruikt het USMF-demogegevensbedrijf.
-
+Via deze procedure kunt u een inkooporder maken die is gecontroleerd op beschikbaar budget.
 
 ## <a name="review-the-budget-control-configuration"></a>De budgetbeheerconfiguratie controleren
-1. Ga naar Budgettering > Instelling > Budgetbeheer > Configuratie budgetbeheer.
-2. Klik op het tabblad Beschikbare budgetfondsen.
-3. Klik op het tabblad Documenten en journalen.
-4. Klik op het tabblad Regels voor budgetbeheer definiëren.
-5. Klik op het tabblad Budgetgroepen definiëren.
-6. Sluit de pagina.
 
-## <a name="create-the-purchase-order-header"></a>De koptekst van de inkooporder maken
-1. Ga naar Inkoop en sourcing > Inkooporders > Alle inkooporders.
-2. Klik op Nieuw.
-3. Typ of selecteer een waarde in het veld Leveranciersrekening.
-4. Vouw de sectie Algemeen uit.
-5. Stel in het veld Boekingsdatum de datum in op '2016-01-01'.
-6. Klik op OK.
+1. Ga naar **Budgettering > Instelling > Budgetbeheer > Configuratie budgetbeheer**.
+1. Selecteer het tabblad **Beschikbare budgetfondsen**.
+1. Selecteer het tabblad **Documenten en journalen**.
+1. Selecteer het tabblad **Regels voor budgetbeheer definiëren**.
+1. Selecteer het tabblad **Budgetgroepen definiëren**.
+1. Sluit de pagina.
 
-## <a name="add-a-purchase-order-line"></a>Een inkooporderregel toevoegen
-1. Typ of selecteer een waarde in het veld Aanschaffingscategorie.
-2. Stel Hoeveelheid in op '2'.
-3. Typ of selecteer een waarde in het veld Eenheid.
-4. Stel Eenheidsprijs in op '10000'.
-5. Klik op Financiële items.
-6. Klik op Bedragen verdelen.
-7. Geef in het veld Grootboekrekening de waarde '601300-001-023--' op.
-8. Sluit de pagina.
+## <a name="create-a-purchase-order"></a>Inkooporder maken
+
+1. Ga naar **Inkoop en sourcing > Inkooporders > Alle inkooporders**.
+1. Selecteer **Nieuw**.
+1. In het veld **Leveranciersrekening** typt of selecteert u een waarde.
+1. Vouw de het sneltabblad **Algemeen**.
+1. Stel in het veld **Boekingsdatum** de datum in.
+1. Selecteer **OK** om het dialoogvenster te sluiten en de nieuwe inkooporder te openen.
+1. Selecteer op het sneltabblad **Inkooporderregels** de optie **Regel toevoegen** op de werkbalk om een nieuwe regel toe te voegen en de regel zo nodig in te vullen om een artikel aan de order toe te voegen.
+1. Selecteer **Financiële items \> Bedragen verdelen** op de werkbalk van het sneltabblad **Inkooporderregels**.
+1. Geef een rekening op in het veld **Grootboekrekening**.
+1. Sluit de pagina.
 
 ## <a name="perform-budget-checking"></a>Budgetcontrole uitvoeren
-1. Klik op Financiële items.
-2. Klik op Budgetcontrole uitvoeren.
-3. Klik op Financiële items.
-4. Klik op Fouten of waarschuwingen van budgetcontrole.
-5. Klik op Sluiten.
 
-
+1. Ga verder met de inkooporder waar u zojuist een regel aan hebt toegevoegd.
+1. Selecteer **Financiële items \> Budgetcontrole uitvoeren** op de werkbalk van het sneltabblad **Inkooporderregels**.
+1. Selecteer **Financiële items \> Fouten of waarschuwingen van budgetcontrole** op de werkbalk van het sneltabblad **Inkooporderregels**.
+1. Het dialoogvenster **Fouten of waarschuwingen van budgetcontrole** wordt geopend. Controleer de resultaten van de controle en selecteer **Sluiten** om het dialoogvenster te sluiten.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

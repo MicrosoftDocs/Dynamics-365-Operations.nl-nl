@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a1c8c4db9aee68584ab35949745132091a34a58
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a94b366dc725db3af01c156ae517a241213f7d52
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882832"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016038"
 ---
 # <a name="introduction-to-functional-locations"></a>Inleiding tot functionele locaties
 
@@ -59,7 +59,7 @@ Nadat u een functionele locatiehiërarchie hebt gemaakt, bestaat de volgende sta
 
 ## <a name="all-functional-locations"></a>Alle functionele locaties
 
-Selecteer **Activabeheer** \> **Algemeen** \> **Functionele locaties** \> **Alle functionele locatie** om de lijstpagina **Alle functionele locaties** te openen. Op deze pagina worden alle functionele locaties weergegeven plus een deel van de informatie die aan elk hiervan is gerelateerd. Als u alleen actieve functionele locaties wilt weergeven, selecteert u **Actieve functionele locaties**. Als u alleen de functionele locatie die waaraan u bent gerelateerd als medewerker, selecteert u **Mijn actieve functionele locaties**. (Deze relatie is ingesteld op de pagina **Medewerkers**. Zie [Onderhoudsmedewerkers en medewerkersgroepen](../setup-for-objects/workers-and-worker-groups.md) voor meer informatie.)
+Selecteer **Activabeheer** \> **Functionele locaties** \> **Alle functionele locaties** om de lijstpagina **Alle functionele locaties** te openen. Op deze pagina worden alle functionele locaties weergegeven plus een deel van de informatie die aan elk hiervan is gerelateerd. Als u alleen actieve functionele locaties wilt weergeven, selecteert u **Actieve functionele locaties**. Als u alleen de functionele locatie die waaraan u bent gerelateerd als medewerker, selecteert u **Mijn actieve functionele locaties**. (Deze relatie is ingesteld op de pagina **Medewerkers**. Zie [Onderhoudsmedewerkers en medewerkersgroepen](../setup-for-objects/workers-and-worker-groups.md) voor meer informatie.)
 
 Selecteer op de lijstpagina **Alle functionele locaties** een koppeling in de kolom **Functionele locatie** om de details van de geselecteerde record weer te geven. Als u de functionele locatie wilt bewerken, selecteert u de knop **Bewerken**. De detailweergave bevat gedetailleerde informatie die is gerelateerd aan de locatie. Het bevat ook een deelvenster **Verwante informatie** aan de rechterkant. Dit deelvenster toont de hiërarchie van functionele locaties. U kunt het deelvenster **Verwante informatie** uitvouwen en samenvouwen.
 

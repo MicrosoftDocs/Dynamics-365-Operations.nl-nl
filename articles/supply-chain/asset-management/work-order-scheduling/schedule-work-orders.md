@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a3fc3e6ef2332a883ef4a612a669142da1794454
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6592b94105777525c777950132d5099d1e8abb0e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845049"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016734"
 ---
 # <a name="schedule-work-orders"></a>Werkorders plannen
 
@@ -30,11 +30,11 @@ ms.locfileid: "8845049"
 
 In dit artikel wordt uitgelegd hoe u werkorders plant in Activabeheer. 
 
-Het vereiste aantal uren voor een werkorder wordt gedefinieerd op basis van het totaal aan voorspelde uren min de geboekte uren. Als er meer tijd nodig is, moet de prognose dienovereenkomstig worden aangepast. In **Activabeheer** > **Algemeen** > **Werkorders** > **Alle werkorders** of **Actieve werkorders** kunt u prognoses in een werkorder weergeven of bewerken door de werkorder te selecteren en te klikken op **Prognose** op het tabblad **Werkorder**. Wanneer werkorders zijn gemaakt en geraamd, moeten de vereiste onderhoudsmedewerkers en hulpmiddelen worden toegewezen om de werkorders te voltooien.
+Het vereiste aantal uren voor een werkorder wordt gedefinieerd op basis van het totaal aan voorspelde uren min de geboekte uren. Als er meer tijd nodig is, moet de prognose dienovereenkomstig worden aangepast. In **Activabeheer** > **Werkorders** > **Alle werkorders** of **Actieve werkorders** kunt u prognoses in een werkorder weergeven of bewerken door de werkorder te selecteren en te klikken op **Prognose** op het tabblad **Werkorder**. Wanneer werkorders zijn gemaakt en geraamd, moeten de vereiste onderhoudsmedewerkers en hulpmiddelen worden toegewezen om de werkorders te voltooien.
 
 Alleen werkorders met een levenscyclusstatus voor werkorders die planning toestaat, kunnen worden gepland. U kunt planning toestaan via **Activabeheer** > **Instellingen** > **Werkorders** > **Levenscyclusstatussen** > het sneltabblad **Algemeen** > de wisselknop **Planning toestaan**.
 
-1. Klik op **Activabeheer** > **Algemeen** > **Werkorders** > **Alle werkorders**.
+1. Klik op **Activabeheer** > **Werkorders** > **Alle werkorders**.
 
 2. Selecteer in de lijst de werkorders die u wilt plannen. U kunt de lijst bijvoorbeeld sorteren op **Huidige levenscyclusstatus**.
 

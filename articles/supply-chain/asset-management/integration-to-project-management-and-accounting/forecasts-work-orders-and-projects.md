@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 80f0380d50a0c050242846c0c3e70bc1a0bd6bf5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: df1e1fe352add8361309df54b2178ec27752466d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880446"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016792"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Prognoses, werkorders en projecten
 
@@ -60,7 +60,7 @@ Vanwege de manier waarop het activumtype **Truckmotor** is ingesteld, is in de v
 
 ![Figuur 1.](media/01-integration-to-pma.png)
 
-Het doel van de project-id in de werkordertaak en het bijbehorende activiteitnummer is het bijhouden van kosten die zijn gerelateerd aan de werkordertaak en het activum dat ervoor is geselecteerd in de module **Projectbeheer en boekhouding**. (Als u de project-id en het activiteitnummer wilt bekijken, selecteert u **Activabeheer** > **Algemeen** > **Werkorders** > **Alle werkorders** en selecteert u de werkorder. Op het sneltabblad **Regeldetails** ziet u in het veld **Project-id** de project-id. In het veld **Activiteitnummer** ziet u het activiteitnummer.) Meer informatie over kostenbeheer in Activabeheer vindt u in [Kosten- en datumbeheer](../controlling-and-reporting/cost-and-date-control.md).
+Het doel van de project-id in de werkordertaak en het bijbehorende activiteitnummer is het bijhouden van kosten die zijn gerelateerd aan de werkordertaak en het activum dat ervoor is geselecteerd in de module **Projectbeheer en boekhouding**. (Als u de project-id en het activiteitnummer wilt bekijken, selecteert u **Activabeheer** > **Werkorders** > **Alle werkorders** en selecteert u de werkorder. Op het sneltabblad **Regeldetails** ziet u in het veld **Project-id** de project-id. In het veld **Activiteitnummer** ziet u het activiteitnummer.) Meer informatie over kostenbeheer in Activabeheer vindt u in [Kosten- en datumbeheer](../controlling-and-reporting/cost-and-date-control.md).
 
 In de volgende afbeelding ziet u een grafisch overzicht van werkorderprojecten en gerelateerde projectactiviteiten.
 

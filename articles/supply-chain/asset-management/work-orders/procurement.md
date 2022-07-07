@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 015499463f1eab4aaa3f3658b3204229382e73cb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6e41a28ec922924b0ef86858a881280fd44bfe63
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893637"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014947"
 ---
 # <a name="procurement"></a>Inkoop
 
@@ -28,7 +28,7 @@ ms.locfileid: "8893637"
 
 In Activabeheer kunt u een overzicht bekijken van opdrachten tot inkoop en inkooporders die betrekking hebben op werkorders. U kunt ook vanuit een werkorder een inkooporder of opdracht tot inkoop maken.
 
-De lijstpagina **Opdracht tot inkoop voor werkorder** (**Activabeheer** > **Algemeen** > **Inkoop** > **Opdracht tot inkoop voor werkorder**) toont een lijst van opdrachten tot inkoop die betrekking hebben op werkorders. Wanneer u op deze pagina een werkordertaak selecteert, kunt u de knoppen in de groep **Tonen** van het tabblad **Opdracht tot inkoop voor werkorder** van het actievenster gebruiken om diverse acties uit te voeren:
+De lijstpagina **Opdracht tot inkoop voor werkorder** (**Activabeheer** > **Inkoop** > **Opdracht tot inkoop voor werkorder**) toont een lijst van opdrachten tot inkoop die betrekking hebben op werkorders. Wanneer u op deze pagina een werkordertaak selecteert, kunt u de knoppen in de groep **Tonen** van het tabblad **Opdracht tot inkoop voor werkorder** van het actievenster gebruiken om diverse acties uit te voeren:
 
 - Selecteer **Opdracht tot inkoop** om de gerelateerde opdracht tot inkoop te openen. 
 - Selecteer **Werkorder** om de gerelateerde werkorder te openen.
@@ -39,7 +39,7 @@ In de onderstaande afbeelding ziet u een voorbeeld van de lijstpagina **Opdracht
 ![Figuur 1.](media/08-work-orders.png)
 
 
-De lijstpagina **Inkoop werkorder** (**Activabeheer** > **Algemeen** > **Inkoop** > **Inkoop werkorder**) toont een lijst van inkooporders die betrekking hebben op werkorders. Wanneer u op deze pagina een werkordertaak selecteert, kunt u de knoppen in de groep **Tonen** van het tabblad **Inkoop werkorder** van het actievenster gebruiken om diverse acties uit te voeren:
+De lijstpagina **Inkoop werkorder** (**Activabeheer** > **Inkoop** > **Inkoop werkorder**) toont een lijst met inkooporders die betrekking hebben op werkorders. Wanneer u op deze pagina een werkordertaak selecteert, kunt u de knoppen in de groep **Tonen** van het tabblad **Inkoop werkorder** van het actievenster gebruiken om diverse acties uit te voeren:
 
 - Selecteer **Inkooporder** om de gerelateerde inkooporder te openen. 
 - Selecteer **Werkorder** om de gerelateerde werkorder te openen.
@@ -69,7 +69,7 @@ Voor een opdracht tot inkoop wordt de datum in het veld **Gevraagde datum** op h
 
 Op de lijstpagina **Alle werkorders** kunt u een werkordertaak selecteren en vervolgens een bijbehorende inkooporder of opdracht tot inkoop maken. Op die manier kunt projectrelaties tussen de inkooporder of de opdracht tot inkoop en de werkorder bewerkstelligen.
 
-1. Selecteer **Activabeheer** > **Algemeen** > **Werkorders** > **Alle werkorders** of **Actieve werkorders**.
+1. Selecteer **Activabeheer** > **Werkorders** > **Alle werkorders** of **Actieve werkorders**.
 
 2. Selecteer de werkorder waarvoor u een inkooporder wilt maken en selecteer **Bewerken**.
 

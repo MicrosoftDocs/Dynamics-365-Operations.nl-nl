@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4ae943592c18dd0383aafbce59617cc983dc979b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 25561802996514f6f60fc9400c22dc61a30ef1c8
+ms.sourcegitcommit: bad64015da0c96a6b5d81e389708281406021d4f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907285"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023783"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Leverancierssamenwerking met externe leveranciers
 
@@ -29,9 +29,6 @@ ms.locfileid: "8907285"
 De module **Leverancierssamenwerking** is bedoeld voor leveranciers die geen EDI-integratie (Electronic Data Interchange) met Microsoft Dynamics 365 Supply Chain Management hebben. Hiermee kunnen leveranciers werken met inkooporders (IO's), facturen, consignatievoorraadgegevens en offerteaanvragen, en toegang krijgen tot delen van de modelgegevens van hun leveranciers. In dit artikel wordt beschreven hoe u kunt samenwerken met externe leveranciers die de interface voor leverancierssamenwerking gebruiken om met inkooporders, offerteaanvragen en consignatievoorraad te werken. Daarnaast wordt beschreven hoe u een specifieke leverancier in staat stelt om leverancierssamenwerking te gebruiken en hoe u de gegevens definieert die alle leveranciers te zien krijgen wanneer ze reageren op een inkooporder.
 
 Meer informatie over wat externe leveranciers kunnen doen in de interface voor leverancierssamenwerking vindt u in [Leverancierssamenwerking met klanten](vendor-collaboration-work-customers-dynamics-365-operations.md).
-
-> [!NOTE]
-> De informatie in dit artikel over leverancierssamenwerking geldt alleen voor de huidige versie van Supply Chain Management. In Microsoft Dynamics AX 7.0 (februari 2016) en Microsoft Dynamics AX toepassingsversie 7.0.1 (mei 2016) werkt u met leveranciers samen via de module **Leveranciersportal**. Zie [Samenwerken met leveranciers met behulp van de leveranciersportal](collaborate-vendors-vendor-portal.md) voor informatie over de module **Leveranciersportal**.
 
 Meer informatie over hoe leveranciers leverancierssamenwerking kunnen gebruiken in factureringsprocessen vindt u in [Werkgebied voor samenwerkingsfacturering van leveranciers](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md) Meer informatie over hoe u nieuwe gebruikers van leverancierssamenwerking inricht, vindt u in [Leverancierssamenwerkingsgebruikers beheren](manage-vendor-collaboration-users.md)
 
@@ -57,8 +54,25 @@ Een beheerder configureert de algemene instellingen voor leverancierssamenwerkin
 
 Voordat gebruikersaccounts kunnen worden gemaakt voor een externe leverancier, moet u de leveranciersaccount zo configureren dat de leverancier kan gebruikmaken van leverancierssamenwerking. Stel op de pagina **Leveranciers** op het tabblad **Algemeen** het veld **Samenwerkingsactivering** in. De volgende opties zijn beschikbaar:
 
-- **Actief (IO wordt automatisch bevestigd)**: inkooporders worden automatisch bevestigd wanneer de leverancier deze zonder wijzigingen accepteert.
+- **Actief (IO wordt automatisch bevestigd)**: inkooporders worden automatisch bevestigd wanneer de leverancier deze zonder wijzigingen accepteert. Als u deze optie gebruikt, moet u de taak *Geaccepteerde inkooporders van leverancierssamenwerking bevestigen* plannen, die verantwoordelijk is voor de verwerking van de bevestigingen. Zie het volgende onderdeel voor instructies.
 - **Actief (IO wordt niet automatisch bevestigd)**: uw organisatie moet inkooporders handmatig bevestigen nadat de leverancier ze heeft geaccepteerd.
+
+### <a name="scheduling-the-auto-confirmation-batch-job"></a>De batchtaak voor automatische bevestiging plannen
+
+Als u de optie **Actief (inkooporder is automatisch bevestigd)** gebruikt voor een of meer leveranciers (zoals is beschreven in de vorige sectie), moet u de batchtaak *Geaccepteerde inkooporders van leverancierssamenwerking bevestigen* plannen. Deze taak is verantwoordelijk voor het verwerken en bevestigen van uw inkooporders. Anders vinden automatische bevestigingen nooit plaats. Voer de volgende procedure uit om deze taak te plannen.
+
+1. Ga naar Inkoop **Inkoopbeheer \> Inkooporders \> Inkooporderbevestiging \> Geaccepteerde inkooporders van leverancierssamenwerking bevestigen**.
+1. In het dialoogvenster **Geaccepteerde inkooporders van leverancierssamenwerking bevestigen** selecteert u op het sneltabblad **Op de achtergrond uitvoeren** de optie **Terugkeerpatroon**.
+1. Definieer de planning voor de taak in het dialoogvenster **Terugkeerpatroon definiëren**. Houd rekening met het volgende wanneer u uw planning kiest:
+
+    - Als uw systeem een groot gegevensvolume verwerkt en er veel batchtaken worden uitgevoerd, kan er een probleem zijn. In dat geval moet u de taak waarschijnlijk niet elke 10 minuten uitvoeren (afhankelijk van uw andere behoeften). Als de prestaties geen probleem voor u zijn, kunt u de taak zo vaak als elke 1 tot 2 minuten uitvoeren als dat nodig is.
+    - Als uw leveranciers doorgaans snel (binnen een dag nadat ze akkoord zijn gegaan) goederen willen leveren, moet het terugkeerpatroon vaak (elke 10 tot 30 minuten of zo) zijn. Op deze manier kunnen magazijnmedewerkers de goederen voor de bevestigde IO ontvangen na de bevestiging.
+    - Als de leveranciers vaak een lange doorlooptijd (meer dan 24 uur) hebben, kunt u instellen dat deze taak slechts één keer per dag wordt uitgevoerd.
+
+1. Selecteer **OK** om uw planning toe te passen en terug te keren naar het dialoogvenster **Geaccepteerde inkooporders van leverancierssamenwerking bevestigen**.
+1. Stel zo nodig extra achtergrondopties in. Het dialoogvenster biedt de gebruikelijke opties voor het instellen van batchtaken in Supply Chain Management.
+
+Zie voor meer informatie over batchtaken [Overzicht van batchverwerking](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md).
 
 ### <a name="specifying-whether-the-vendor-should-see-price-information"></a>Opgeven of de leverancier prijsinformatie te zien moet krijgen
 

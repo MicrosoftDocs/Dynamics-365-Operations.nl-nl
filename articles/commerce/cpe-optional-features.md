@@ -1,8 +1,8 @@
 ---
-title: Optionele functies voor een Dynamics 365 Commerce-evaluatieomgeving configureren
-description: In dit artikel wordt uitgelegd hoe u optionele functies voor een evaluatieomgeving van Microsoft Dynamics 365 Commerce configureert.
+title: Optionele functies voor een sandbox-omgeving van Dynamics 365 Commerce configureren
+description: In dit artikel wordt uitgelegd hoe u optionele functies voor een sandbox-omgeving van Microsoft Dynamics 365 Commerce configureert.
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39d4784e21c4fb42ca218d507616d49eff309ee1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 201628eb0c3e81d5fee0df9e53d93f5b1839adfb
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861909"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013233"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Optionele functies voor een Dynamics 365 Commerce-evaluatieomgeving configureren
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-sandbox-environment"></a>Optionele functies voor een sandbox-omgeving van Dynamics 365 Commerce configureren
 
 [!include [banner](includes/banner.md)]
 
-In dit artikel wordt uitgelegd hoe u optionele functies voor een evaluatieomgeving van Microsoft Dynamics 365 Commerce configureert.
+In dit artikel wordt uitgelegd hoe u optionele functies voor een sandbox-omgeving van Microsoft Dynamics 365 Commerce configureert.
 
 ## <a name="prerequisites"></a>Vereisten
 
-Als u de transactionele e-mailfuncties wilt evalueren, moet aan de volgende voorwaarden worden voldaan:
+Als u een de transactionele e-mailfuncties wilt uitproberen, moet aan de volgende voorwaarden worden voldaan:
 
-- U hebt een e-mailserver beschikbaar (\[SMTP\]-server), die kan worden gebruikt vanuit het Microsoft Azure-abonnement waarin u de evaluatieomgeving inricht.
+- U hebt een e-mailserver beschikbaar (\[SMTP\]-server), die kan worden gebruikt vanuit het Microsoft Azure-abonnement waarin u de sandbox-omgeving inricht.
 - U hebt het FQDN/IP-adres, het SMTP-poortnummer en de verificatiegegevens van de server beschikbaar.
 
 ## <a name="configure-the-image-back-end"></a>De backend van de afbeelding configureren
@@ -39,10 +39,10 @@ Als u de transactionele e-mailfuncties wilt evalueren, moet aan de volgende voor
 ### <a name="find-your-media-base-url"></a>Uw basis-URL voor media vinden
 
 > [!NOTE]
-> Voordat u deze procedure kunt uitvoeren, moet u de stappen in [Uw site instellen in Commerce](cpe-post-provisioning.md#set-up-your-site-in-commerce) voltooien.
+> Voordat u deze procedure kunt uitvoeren, moet u de stappen in [Uw site instellen in Commerce](cpe-post-provisioning.md#set-up-your-e-commerce-sites) voltooien.
 
 1. Meld u aan bij de Commerce Site Builder met de URL die u hebt genoteerd tijdens de initialisatie van e-Commerce tijdens het inrichten (zie [e-Commerce initialiseren](provisioning-guide.md#initialize-e-commerce)).
-1. Open de site **Fabrikam**.
+1. Open de site **Fabrikam**, **Adventure Works** of **Adventure Works Business**.
 1. Selecteer **Mediabibliotheek** in het linkermenu.
 1. Selecteer één afbeeldingsactivum.
 1. Zoek in de eigenschappencontrole aan de rechterkant de eigenschap **Openbare URL**. De waarde is een URL. Dit is een voorbeeld:
@@ -98,9 +98,9 @@ Voor elke transactionele gebeurtenis waarvoor u e-mailberichten wilt verzenden, 
 
 ## <a name="customize-email-templates"></a>E-mailsjablonen aanpassen
 
-Mogelijk wilt u de e-mailsjablonen aanpassen zodat deze verschillende afbeeldingen gebruiken. U kunt ook de koppelingen in de sjablonen bijwerken, zodat deze naar uw evaluatieomgeving leiden. In deze procedure wordt uitgelegd hoe u de standaardsjablonen kunt downloaden, aanpassen en bijwerken in het systeem.
+Mogelijk wilt u de e-mailsjablonen aanpassen zodat deze verschillende afbeeldingen gebruiken. U kunt ook de koppelingen in de sjablonen bijwerken, zodat deze naar uw sandbox-omgeving leiden. In deze procedure wordt uitgelegd hoe u de standaardsjablonen kunt downloaden, aanpassen en bijwerken in het systeem.
 
-1. Download via een webbrowser het [zipbestand met standaard e-mailsjablonen voor Microsoft Dynamics 365 Commerce-evaluatie](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) naar uw lokale computer. Dit bestand bevat de volgende HTML-documenten:
+1. Download via een webbrowser het [zipbestand met standaard e-mailsjablonen voor de Microsoft Dynamics 365 Commerce-demo](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) naar uw lokale computer. Dit bestand bevat de volgende HTML-documenten:
 
     - Sjabloon voor orderbevestiging
     - Sjabloon voor uitgifte van geschenkbon
@@ -167,15 +167,11 @@ De volgende tokens worden voor elk product in de order vervangen door waarden.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Overzicht van de evaluatieomgeving voor Dynamics 365 Commerce](cpe-overview.md)
+[Een sandbox-omgeving inrichten voor Dynamics 365 Commerce](provisioning-guide.md)
 
-[Een evaluatieomgeving voor Dynamics 365 Commerce inrichten](provisioning-guide.md)
+[Een sandbox-omgeving van Dynamics 365 Commerce configureren](cpe-post-provisioning.md)
 
-[Een Dynamics 365 Commerce-evaluatieomgeving configureren](cpe-post-provisioning.md)
-
-[BOPIS configureren in een Dynamics 365 Commerce-evaluatieomgeving](cpe-bopis.md)
-
-[Veelgestelde vragen over evaluatieomgeving voor Dynamics 365 Commerce](cpe-faq.md)
+[BOPIS configureren in een sandbox-omgeving van Dynamics 365 Commerce](cpe-bopis.md)
 
 [Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

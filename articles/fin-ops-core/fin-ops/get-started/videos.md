@@ -1,8 +1,8 @@
 ---
 title: Video's
-description: Op deze pagina worden door Microsoft gemaakte procedures en Tech Talk-video's met betrekking tot Finance and Operations-apps weergegeven die beschikbaar zijn op YouTube en andere sites.
+description: Op deze pagina worden door Microsoft gemaakte "how-to"- en Tech Talk-video's met betrekking tot Finance and Operations-apps weergegeven die beschikbaar zijn op YouTube en andere sites.
 author: sericks007
-ms.date: 09/15/2021
+ms.date: 06/13/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,27 +14,27 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 3fe44a9a7fcef2f22dff3be00ddfadd5b8c59574
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 76fe61c13490afbd7b5dcd39f3c631cbab43bb9e
+ms.sourcegitcommit: 0686b56b4699ffefd2c208d0fe496d5860296520
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487986"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8958133"
 ---
 # <a name="videos"></a>Video's 
 
 [!include [banner](../includes/banner.md)]
 
-Op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) vindt u video's die zijn gemaakt door Microsoft die een breed scala van zakelijke oplossingen voor Dynamics 365-producten laten zien. In deze sectie worden de procedurevideo's voor Finance and Operations-apps weergegeven die op het kanaal worden gehost.
+Op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) vindt u video's die zijn gemaakt door Microsoft die een breed scala van zakelijke oplossingen voor Dynamics 365-producten laten zien. In deze sectie worden de "how-to"-video's voor Finance and Operations-apps weergegeven die op het kanaal worden gehost.
 
 > [!Note]
 > Een aantal van de vermelde video's is gepubliceerd onder een eerdere productnaam, maar is nog steeds van toepassing.
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a>Video's voor ontwikkeling en beheer in Finance and Operations
+## <a name="videos-for-finance-and-operations-development-and-administration"></a>Video's voor ontwikkeling en beheer voor Finance and Operations
 
 ### <a name="data-integration"></a>Gegevensintegratie
 
-- [Een werkorder synchroniseren tussen Dynamics 365 for Field Service- en Finance and Operations-apps](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [Een werkorder synchroniseren tussen Dynamics 365 for Field Service en Finance and Operations-apps](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>Gegevensbeheer
 
@@ -42,8 +42,7 @@ Op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/U
 
 ### <a name="development"></a>Ontwikkeling
 
-- [Hoe conflicten in Visual Studio op te lossen](https://youtu.be/4rxO0zUN2zU)
-- [Optimalisatie-advies](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+- [Optimalisatieadvies](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Een ontwikkelingsvertakking en build instellen](https://www.youtube.com/watch?v=qXLd-NMx9OY)
 - [Een ontwikkelingsmachine instellen](https://www.youtube.com/watch?v=cqp9MetfiyM)
 - [Azure DevOps-integratie met Lifecycle Services](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
@@ -51,8 +50,8 @@ Op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/U
 ### <a name="intelligence"></a>Intelligence
 
 - [Een ingesloten rapport in een analytische werkruimte aanpassen](https://youtu.be/_8WlwmSggcQ)
-- [PowerBI.com-rapporten insluiten in Finance and Operations-apps](https://youtu.be/gGWuNJDoi-M)
-- [Uw eigen database gebruiken (BYOD) voor Finance and Operations-apps](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [PowerBI.com rapporten insluiten in Finance and Operations-apps](https://youtu.be/gGWuNJDoi-M)
+- [Bring Your Own Database (BYOD) naar Finance and Operations-apps](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Power BI-inhoud Kostenbeheer in Dynamics 365 gebruiken](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 ### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)

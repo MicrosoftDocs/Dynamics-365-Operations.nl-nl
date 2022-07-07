@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dfb75d69f20c68a40242bb1c0c25ca77f85e0c14
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 519431d84652e45dcd45aefbbaaa2a0e2afe6349
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852866"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016502"
 ---
 # <a name="maintenance-rounds"></a>Onderhoudsrondes
 
@@ -87,7 +87,7 @@ In de onderstaande afbeelding ziet u een voorbeeld van een onderhoudsronde die d
 
 Wanneer u een onderhoudsronde hebt ingesteld, voert u een planningstaak uit om alle taken voor de onderhoudsronde te plannen.
 
-1. Klik op **Activabeheer** > **Periodiek** > **Preventief onderhoud** > **Onderhoudsronden plannen**, of **Activabeheer** > **Algemeen** > **Onderhoudsschema** > **Hele onderhoudsschema** of **Openstaande onderhoudsschemaregels** of **Openstaande onderhoudsschemagroepen** > selecteer een onderhoudsschemaregel in de lijst > knop **Onderhoudsronden**.
+1. Klik op **Activabeheer** > **Periodiek** > **Preventief onderhoud** > **Onderhoudsronden plannen** of **Activabeheer** > **Onderhoudsschema** > **Hele onderhoudsschema** of **Openstaande onderhoudsschemaregels** of **Openstaande onderhoudsschemagroepen** > selecteer een onderhoudsschemaregel in de lijst > knop **Onderhoudsronden**.
 
 2. Selecteer in het veld **Periode** het periodetype dat u voor de planningstaak wilt gebruiken.
 
@@ -102,7 +102,7 @@ Wanneer u een onderhoudsronde hebt ingesteld, voert u een planningstaak uit om a
 
 6. Klik op **OK**.
 
-7. Nu kunt u de taken van de onderhoudsronden bekijken in **Activabeheer** > **Algemeen** > **Onderhoudsschema** > **Hele onderhoudsschema** of **Openstaande onderhoudsschemaregels**. Als de geplande ronden zijn gekoppeld aan een werkordergroep, ziet u ook onderhoudsschemaregels in **Openstaande onderhoudsschemagroepen**. Onderhoudsschemaregels op basis van een ronde hebben het verwijzingstype Onderhoudsronden.
+7. Nu kunt u de taken van de onderhoudsronden bekijken in **Activabeheer** > **Onderhoudsschema** > **Hele onderhoudsschema** of **Openstaande onderhoudsschemaregels**. Als de geplande ronden zijn gekoppeld aan een werkordergroep, ziet u ook onderhoudsschemaregels in **Openstaande onderhoudsschemagroepen**. Onderhoudsschemaregels op basis van een ronde hebben het verwijzingstype Onderhoudsronden.
 
 In de twee illustraties hieronder ziet u een planningstaak in het dialoogvenster **Onderhoudsronden plannen** en de onderhoudsplanningsregels die op basis van die planningstaak zijn gemaakt in **Alle onderhoudsschema's**.
 

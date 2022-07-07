@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c2c90ff76121b436d0fec532268cd3383de0eab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f21cda0abb334432d22cc7e0ccfdab724253d91e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888407"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016944"
 ---
 # <a name="create-item-requirements-for-service-orders"></a>Artikelbehoeften voor serviceorders maken
 
@@ -34,14 +34,14 @@ Artikelbehoeften voor serviceorders worden verwerkt via een project. Als u een a
 
 ## <a name="create-an-item-requirement-for-a-service-order"></a>Een artikelbehoefte maken voor een serviceorder
 
-1. Ga naar **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**.
+1. Ga naar **Servicebeheer** \> **Serviceorders** \> **Serviceorders**.
 1. Selecteer de serviceorder waarvoor u een artikelbehoefte wilt maken.
 1. Selecteer in het **Actievenster** op het tabblad **Verzenden** de optie **Artikelbehoefte**.
 1. Voer in het formulier **Artikelbehoeften** de informatie voor het vereiste artikel in. Zie voor meer informatie over de specifieke velden [Artikelbehoeften (formulier)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).
 
 ## <a name="create-an-item-requirement-for-a-service-agreement"></a>Een artikelbehoefte maken voor een serviceovereenkomst
 
-1. Ga naar **Servicebeheer** \> **Algemeen** \> **Serviceovereenkomsten** \> **Serviceovereenkomsten**.
+1. Ga naar **Servicebeheer** \> **Serviceovereenkomsten** \> **Serviceovereenkomsten**.
 1. Open de serviceovereenkomst waarvoor u een artikelbehoefte wilt maken.
 1. Selecteer op het sneltabblad **Regels** de optie **Toevoegen** om een nieuwe regel te maken.
 1. Selecteer in het veld **Transactietype** **Artikel**.

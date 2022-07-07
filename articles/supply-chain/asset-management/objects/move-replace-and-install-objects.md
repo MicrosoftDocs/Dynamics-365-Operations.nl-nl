@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1454f41bb0b43e22c5278463f63aa4178696eef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0a6b5a2904d21782ae422d06eaaf03c5d5e51ab9
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872119"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015574"
 ---
 # <a name="move-replace-and-install-assets"></a>Activa verplaatsen, vervangen en installeren
 
@@ -44,7 +44,7 @@ Gebruik de functie **Activum verplaatsen** om een activum te verplaatsen naar ee
 > [!NOTE]
 > Gebruik deze functie niet als activa worden gerepareerd of tijdelijk worden vervangen. Gebruik in plaats daarvan de functie **Activum vervangen** die verderop in dit artikel wordt beschreven.
 
-1. Selecteer **Activabeheer** \> **Algemeen** \> **Activa** \> **Alle activa** of **Actieve activa**.
+1. Selecteer **Activabeheer** \> **Activa** \> **Alle activa** of **Actieve activa**.
 2. Selecteer in de lijst het activum dat u wilt verplaatsen. Als het activum onderliggende activa heeft, verplaatst u deze activa ook.
 3. Selecteer **Activum verplaatsen**.
 4. Als u het activum wilt verplaatsen zodat het onderdeel wordt van een activastructuur, selecteert u het nieuwe bovenliggende activum in het veld **Bovenliggend activum**. Als u een onderliggend element verplaatst en u daarvan een zelfstandig activum wilt maken dat geen structuurrelaties heeft, laat u het veld **Bovenliggend activum** leeg.
@@ -58,7 +58,7 @@ Gebruik de functie **Activum vervangen** in verband met reparaties, revisie of p
 > [!NOTE]
 > Als een reparatiewerkplaats is gerelateerd aan uw productieafdeling, kunt u functionele locaties zoals **reparatie**, **uitval** en **opslag** maken om de reparatie en vervanging van activa te verwerken.
 
-1. Selecteer **Activabeheer** \> **Algemeen** \> **Activa** \> **Alle activa** of **Actieve activa**.
+1. Selecteer **Activabeheer** \> **Activa** \> **Alle activa** of **Actieve activa**.
 2. Selecteer in de lijst het onderliggende activum dat wordt vervangen. Als het activum onderliggende activa heeft, vervangt u deze activa ook.
 3. Selecteer **Activum vervangen**.
 
@@ -79,7 +79,7 @@ Gebruik de functie **Activum installeren** om een activastructuur op een functio
 > [!NOTE]
 > Selecteer altijd een bovenliggend activum. Het bovenliggende activum en de bijbehorende onderliggende activa worden verplaatst naar de geselecteerde functionele locatie.
 
-1. Selecteer **Activabeheer** \> **Algemeen** \> **Activa** \> **Alle activa** of **Actieve activa**.
+1. Selecteer **Activabeheer** \> **Activa** \> **Alle activa** of **Actieve activa**.
 2. Selecteer in de lijst het bovenliggende activum dat u wilt installeren op een andere functionele locatie.
 3. Selecteer **Activum installeren**.
 

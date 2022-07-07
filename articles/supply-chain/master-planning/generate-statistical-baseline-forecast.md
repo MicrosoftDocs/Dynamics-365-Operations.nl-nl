@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c45d763a1f3d199c91f3cf6181c22f4b8130fabc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 98595d900f9e87a4ec6ed4c1f23971801d334487
+ms.sourcegitcommit: d98ecbd9457197ec8f8e281f9c2f24dcce7b8269
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844933"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8960138"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Een statistische basislijnprognose maken
 
@@ -70,10 +70,8 @@ Als de prognose niet wordt gegenereerd voor een grote set artikelen, maar bijvoo
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 - [Instelling van Vraagprognose](demand-forecasting-setup.md)
-
 - [Handmatige correcties aanbrengen in de basislijnprognose](manual-adjustments-baseline-forecast.md)
-
 - [Een gecorrigeerde vraagprognose autoriseren](authorize-adjusted-forecast.md)
-
+- [Webinar: Vraagprognose met Azure Machine Learning-serie](https://aka.ms/DemandForecastingwithAzureMachineLearningSeries)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

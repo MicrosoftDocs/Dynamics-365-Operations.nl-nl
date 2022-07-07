@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7a69cbca6e6f32812ea00a63751c931a8477991
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: e1648808667c8bb9487e7a47b87d8e73cf442d82
+ms.sourcegitcommit: d98ecbd9457197ec8f8e281f9c2f24dcce7b8269
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469249"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8960168"
 ---
 # <a name="demand-forecasting-overview"></a>Overzicht vraagprognose
 
@@ -91,19 +91,13 @@ De maateenheid van de vraagprognose hoeft geen specifieke betekenis te hebben. D
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Instelling van Vraagprognose](demand-forecasting-setup.md)
-
-[Een statistische basislijnprognose genereren](generate-statistical-baseline-forecast.md)
-
-[Handmatige correcties aanbrengen in de basislijnprognose](manual-adjustments-baseline-forecast.md)
-
-[Een gecorrigeerde vraagprognose autoriseren](authorize-adjusted-forecast.md)
-
-[Prognosenauwkeurigheid controleren](monitor-forecast-accuracy.md)
-
-[Uitschieters verwijderen uit historische transactiegegevens bij het berekenen van een vraagprognose](remove-historical-outliers-calculating-demand-forecast.md)
-
-[De functie voor vraagprognose uitbreiden](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
-
+- [Instelling van Vraagprognose](demand-forecasting-setup.md)
+- [Een statistische basislijnprognose genereren](generate-statistical-baseline-forecast.md)
+- [Handmatige correcties aanbrengen in de basislijnprognose](manual-adjustments-baseline-forecast.md)
+- [Een gecorrigeerde vraagprognose autoriseren](authorize-adjusted-forecast.md)
+- [Prognosenauwkeurigheid controleren](monitor-forecast-accuracy.md)
+- [Uitschieters verwijderen uit historische transactiegegevens bij het berekenen van een vraagprognose](remove-historical-outliers-calculating-demand-forecast.md)
+- [Video: De functie voor vraagprognose uitbreiden](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+- [Webinar: Vraagprognose met Azure Machine Learning-serie](https://aka.ms/DemandForecastingwithAzureMachineLearningSeries)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

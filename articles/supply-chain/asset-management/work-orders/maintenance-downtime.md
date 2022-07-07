@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7a76c0ecefbb8da762ac68cbdd7bb44f68a89894
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4a310152685f733093cc7e50404c23b6f24c40cc
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851851"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016647"
 ---
 # <a name="maintenance-downtime-for-work-orders"></a>Uitvaltijd voor onderhoud voor werkorders
 
@@ -52,7 +52,7 @@ Nadat u de redencodes voor uitvaltijd voor onderhoud hebt gemaakt die u wilt geb
 
 ## <a name="create-maintenance-downtime-registrations"></a>Registraties voor uitvaltijd voor onderhoud maken
 
-1. Klik op **Activabeheer** > **Algemeen** > **Werkorders** > **Alle werkorders** of **Actieve werkorders**.
+1. Klik op **Activabeheer** > **Werkorders** > **Alle werkorders** of **Actieve werkorders**.
 
 2. Selecteer de werkorder en selecteer vervolgens op het tabblad **Werkorder** in de groep **Activum** de optie **Uitvaltijd voor onderhoud**.
 

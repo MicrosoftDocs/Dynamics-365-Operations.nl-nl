@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eb29c5e7170011b95151d9aaf2a96a570563096d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5d2cc1f5b8eccb51b6bea8655fdee243c1a2df55
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902077"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015022"
 ---
 # <a name="manually-created-work-orders"></a>Handmatig gemaakte werkorders
 
@@ -34,7 +34,7 @@ U kunt werkorders op twee manieren handmatig maken:
 
 ## <a name="create-work-order"></a>Werkorder maken
 
-1. Selecteer **Activabeheer** > **Algemeen** > **Werkorders** > **Alle werkorders** of **Actieve werkorders**.
+1. Selecteer **Activabeheer** > **Werkorders** > **Alle werkorders** of **Actieve werkorders**.
 
 2. Selecteer **Nieuw**.
 
@@ -82,7 +82,7 @@ Let op de volgende punten:
 
 U kunt een werkorder maken die betrekking heeft op een bestaande werkorder. Deze functie is handig als bijvoorbeeld wilt werken met primaire en secundaire werkorders. Een nieuwe werkorder is gebaseerd op een werkordertaak op basis van een bestaande werkorder.
 
-1. Selecteer **Activabeheer** > **Algemeen** > **Werkorders** > **Alle werkorders** of **Actieve werkorders**.
+1. Selecteer **Activabeheer** > **Werkorders** > **Alle werkorders** of **Actieve werkorders**.
 
 2. Selecteer de werkorder waarvoor u een gerelateerde werkorder wilt maken.
 
@@ -120,7 +120,7 @@ In de onderstaande afbeelding ziet u een voorbeeld van het dialoogvenster **Gere
 
 U kunt snel een nieuwe werkorder maken op basis van een bestaande werkorder. Deze manier van werken met werkorders verschilt van het maken van werkorders op basis van [onderhoudsplannen](../preventive-and-reactive-maintenance/maintenance-plans.md). Het is bijvoorbeeld handig als een werkorder veel werkordertaken bevat en de verschillende taken voor verschillende activa regelmatig moeten worden voltooid.
 
-1. Selecteer **Activabeheer** > **Algemeen** > **Werkorders** > **Alle werkorders** of **Actieve werkorders**.
+1. Selecteer **Activabeheer** > **Werkorders** > **Alle werkorders** of **Actieve werkorders**.
 
 2. Selecteer de werkorder waaruit u inhoud wilt kopiëren.
 
@@ -142,7 +142,7 @@ In de onderstaande afbeelding ziet u een voorbeeld van het dialoogvenster **Werk
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Een werkorder maken op basis van een onderhoudsverzoek
 
-1. Selecteer **Activabeheer** > **Algemeen** > **Onderhoudsverzoeken** > **Alle onderhoudsverzoeken** of **Actieve onderhoudsverzoeken**.
+1. Selecteer **Activabeheer** > **Onderhoudsverzoeken** > **Alle onderhoudsverzoeken** of **Actieve onderhoudsverzoeken**.
 
 2. Selecteer het onderhoudsverzoek waarvoor u een werkorder wilt maken en klik op **Bewerken**.
 

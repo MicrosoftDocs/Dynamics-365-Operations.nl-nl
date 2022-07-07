@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c3def1b8ebd75da44588732d9f54a1cc03c999c6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 92f3a2bc3d2a4d5d1c3be0c6dda2674dc3e7d0bb
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891229"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016821"
 ---
 # <a name="create-maintenance-requests"></a>Onderhoudsverzoeken maken
 
@@ -32,9 +32,9 @@ Onderhoudsverzoeken kunnen worden gebruikt als onderhoudsmedewerkers of producti
 
 **Voorbeeld:** terwijl onderhoudsmedewerkers een reparatie doen, ontdekken ze dat een ander activum op dezelfde locatie moet worden onderhouden. De onderhoudsmedewerker heeft echter niet de tijd of de vereiste reserveonderdelen om de reparatietaak uit te voeren. Daarom maken ze een onderhoudsverzoek voor het activum en voeren ze een korte beschrijving van het probleem in.
 
-De sectie **Actieve onderhoudsverzoeken** van het deelvenster **Verwante informatie** aan de rechterkant van de pagina **Alle activa** of **Actieve activa** (**Activabeheer** \> **Algemeen** \> **Activa** \> **Alle activa** of **Actieve activa**) bevat de actieve onderhoudsverzoeken die aan het geselecteerde activum gekoppeld zijn.
+De sectie **Actieve onderhoudsverzoeken** van het deelvenster **Verwante informatie** aan de rechterkant van de pagina **Alle activa** of **Actieve activa** (**Activabeheer** \> **Activa** \> **Alle activa** of **Actieve activa**) bevat de actieve onderhoudsverzoeken die aan het geselecteerde activum gekoppeld zijn.
 
-1. Selecteer **Activabeheer** \> **Algemeen** \> **Onderhoudsverzoeken** \> **Alle onderhoudsverzoeken** of **Actieve onderhoudsverzoeken**.
+1. Selecteer **Activabeheer** \> **Onderhoudsverzoeken** \> **Alle onderhoudsverzoeken** of **Actieve onderhoudsverzoeken**.
 2. Selecteer **Nieuw**.
 3. Selecteer het type onderhoudsverzoek in het dialoogvenster **Aanvraag maken** in het veld **Type onderhoudsverzoek**. Er wordt een standaardtype voorgesteld.
 4. Voer in het veld **Beschrijving** een naam of titel in die kort het onderhoudsverzoek beschrijft.

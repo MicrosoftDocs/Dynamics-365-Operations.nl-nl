@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34ab83c9f9673c39006b3985ebaac9e17a45da82
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5b13db8b8b12aaef2e067f9a55eb8754333eb16b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908767"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017140"
 ---
 # <a name="multi-level-assets"></a>Activa met meerdere niveaus
 
@@ -30,7 +30,7 @@ ms.locfileid: "8908767"
 
 In dit artikel wordt uitgelegd hoe u activa met meerdere niveaus maakt en verwijdert. U kunt activa en gerelateerde subactiva maken in een hiërarchische boomstructuur. Op deze manier kunt u relaties en afhankelijkheden tussen activa weergeven. Onderhoudstaken kunnen worden gerelateerd aan alle niveaus van de boomstructuur. Ook kunnen statistieken worden gemaakt voor een individueel niveau of als een som van alle subactivaniveaus.
 
-Op de lijstpagina **Alle activa** (**Activabeheer** \> **Algemeen** \> **Activa** \> **Alle activa**), worden activa in hiërarchische volgorde weergegeven in de kolom **Activum**. De kolom **Bovenliggende** bevat het gerelateerde bovenliggende activum. Bovendien worden, als er al activa en subactiva zijn gemaakt, in de sectie **Activastructuur** in het deelvenster **Verwante informatie** de activa in een boomstructuur weergegeven.
+Op de lijstpagina **Alle activa** (**Activabeheer** \> **Activa** \> **Alle activa**), worden activa in hiërarchische volgorde weergegeven in de kolom **Activum**. De kolom **Bovenliggende** bevat het gerelateerde bovenliggende activum. Bovendien worden, als er al activa en subactiva zijn gemaakt, in de sectie **Activastructuur** in het deelvenster **Verwante informatie** de activa in een boomstructuur weergegeven.
 
 Zie [Een activum maken](../objects/create-an-object.md) voor meer informatie over het maken van een activum. Als u een subactivum wilt maken, selecteert u het bovenliggende activum in het veld **Bovenliggende** op het sneltabblad **Algemeen**.
 
@@ -38,7 +38,7 @@ Zie [Een activum maken](../objects/create-an-object.md) voor meer informatie ove
 
 Als uw bedrijf meerdere vergelijkbare activastructuren heeft, kunt u de functie Kopiëren in Activabeheer gebruiken om deze snel te maken.
 
-1. Selecteer **Activabeheer** \> **Algemeen** \> **Activa** \> **Alle activa**.
+1. Selecteer **Activabeheer** \> **Activa** \> **Alle activa**.
 2. Selecteer op de lijstpagina **Alle activa** het activum dat u wilt kopiëren. Als u bijvoorbeeld de gehele activastructuur, inclusief subactiva, wilt kopiëren, selecteert u een bovenliggend activum.
 3. Selecteer **Activum kopiëren**. In de sectie **Kopiëren van** is het veld **Activum** ingesteld op het activum dat u op de lijstpagina hebt geselecteerd.
 4. Voer in de sectie **Kopiëren naar** in het veld **Activum** de naam van het nieuwe activum in.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 99613369084ca1e708761179dfb2688014b011f7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 72813325c19c639c3c8e7ea9c7436730d23eb61b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849614"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017024"
 ---
 # <a name="scheduled-work-order-maintenance-jobs"></a>Geplande onderhoudstaken voor werkorders
 
@@ -32,7 +32,7 @@ De pagina **Geplande onderhoudstaken voor werkorder** bevat een overzicht van de
 
 ## <a name="view-scheduled-work-order-maintenance-jobs"></a>Geplande onderhoudstaken voor werkorder weergeven
 
-1. Klik op **Activabeheer** > **Algemeen** > **Werkorders** > **Geplande onderhoudstaken voor werkorder**. U ziet een lijst met alle werkorders met de levenscyclusstatus Gepland of In uitvoering.
+1. Klik op **Activabeheer** > **Werkorders** > **Geplande onderhoudstaken voor werkorder**. U ziet een lijst met alle werkorders met de levenscyclusstatus Gepland of In uitvoering.
 
 2. U kunt de lijst sorteren, bijvoorbeeld op onderhoudsmedewerker. U kunt het filter ook gebruiken om de lijst te beperken en alleen werkorders weer te geven die zijn toegewezen aan een bepaalde resource of onderhoudsmedewerker.
 

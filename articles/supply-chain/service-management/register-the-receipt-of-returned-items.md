@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4ff01a8c4ed5fb8372ff7b498d0febdcd2f1e89
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f4942e455350844ac5614e70fef21b37461540a6
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672761"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017284"
 ---
 # <a name="register-the-receipt-of-returned-items"></a>De ontvangst van retourartikelen registreren 
 
@@ -87,7 +87,7 @@ U kunt het formulier **Aankomstoverzicht** gebruiken om een retourzending te ide
 
 Als alternatief voor het formulier **Aankomstoverzicht** kunt u het formulier **Registratie** gebruiken om de aankomst van geretourneerde artikelen te registreren.
 
-1.  Klik op **Verkoop en marketing** \> **Algemeen** \> **Retourorders** \> **Alle retourorders**. Een nieuwe retourorder maken of de retourorder openen in de lijst. Selecteer de retourorderregel op het sneltabblad **Regels**. Klik op **Regel bijwerken** en klik vervolgens op **Registratie**.
+1.  Klik op **Verkoop en marketing** \> **Verkoopretouren** \> **Alle retourorders**. Een nieuwe retourorder maken of de retourorder openen in de lijst. Selecteer de retourorderregel op het sneltabblad **Regels**. Klik op **Regel bijwerken** en klik vervolgens op **Registratie**.
 
 2.  Wijs een beschikkingscode toe in het veld **Beschikkingscode** en klik op **OK**.
     

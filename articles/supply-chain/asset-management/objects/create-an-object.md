@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 90b41b57dfa6db8b5874bbc2d4bcac7b4c634f20
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5ab715be3bfdc380f5736fadd901af3ed78d7035
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860923"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016299"
 ---
 # <a name="create-an-asset"></a>Een activum maken
 
@@ -30,7 +30,7 @@ ms.locfileid: "8860923"
 
 In dit artikel wordt beschreven hoe u een activum maakt in Activabeheer.
 
-1. Klik op **Activabeheer** > **Algemeen** > **activa** > **Alle activa** of **Actieve activa**.
+1. Klik op **Activabeheer** > **Activa** > **Alle activa** of **Actieve activa**.
 2. Klik op de knop **Nieuw**.
 3. Voeg in het dialoogvenster **Activa maken** gegevens in met betrekking tot **Activum** (de activa-id) en de naam van het activum. Selecteer datum en tijd voor het activum in het veld **Geldig vanaf**. Vanaf die datum kunt u het activum op een functionele locatie installeren en het activum verplaatsen en vervangen in een activastructuur.
 4. Selecteer in het veld **Type activa** het activumtype voor het activum (verplicht veld). Selecteer indien nodig **Activafabrikant** en **Activamodel** voor het activum. Als er slechts één product is ingesteld, wordt dat product automatisch geselecteerd in het veld **Activafabrikant**. De selecties die beschikbaar zijn in de velden **Activafabrikant** en **Activamodel** zijn afhankelijk van de instellingen in [Activafabrikanten en -modellen](../setup-for-objects/product-and-model.md).

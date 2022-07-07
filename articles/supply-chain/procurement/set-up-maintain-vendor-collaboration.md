@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8fe4731f8ff23f4abe25fce57a2325e1fca979c4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 19fafb21e879d7436678bdb3c29d1a3d7e2330d7
+ms.sourcegitcommit: bad64015da0c96a6b5d81e389708281406021d4f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890823"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023755"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>Samenwerking met leveranciers instellen en onderhouden
 
@@ -29,9 +29,6 @@ ms.locfileid: "8890823"
 De interface voor leverancierssamenwerking biedt gebruikers die externe leveranciers zijn, beperkte informatie over inkooporders, facturen en de consignatievoorraad. Via deze interface kan een leverancier ook antwoorden op offerteaanvragen en basisbedrijfsgegevens weergeven en bewerken.
 
 In dit artikel wordt uitgelegd hoe u leverancierssamenwerking instelt voor Dynamics 365 Supply Chain Management. Daarnaast wordt uitgelegd hoe u een werkstroom kunt instellen om nieuwe gebruikers voor leverancierssamenwerking in te richten en hoe u de beveiligingsrollen voor deze gebruikers kunt beheren.
-
-> [!NOTE]
-> De informatie over het instellen van beveiligingsrollen voor leverancierssamenwerking is alleen van toepassing op de huidige versie van Finance + Operations. In Microsoft Dynamics AX 7.0 (februari 2016) en Microsoft Dynamics AX toepassingsversie 7.0.1 (mei 2016) werkt u met leveranciers samen via de module **Leveranciersportal**. Informatie over gebruikersmachtigingen voor de leveranciersportal in Microsoft Dynamics AX vindt u in [Gebruikersbeveiliging leveranciersportal](configure-security-vendor-portal-users.md).
 
 ## <a name="set-up-vendor-collaboration-security-roles"></a>Beveiligingsrollen voor leverancierssamenwerking instellen
 
@@ -138,13 +135,7 @@ Maak een werkstroom van het type **Werkstroom voor deactiveren gebruikersaanvrag
 
 ## <a name="enable-vendor-collaboration-for-a-specific-vendor"></a>Leverancierssamenwerking voor een specifieke leverancier inschakelen
 
-Voordat u een gebruikersaccount maakt voor iemand die leverancierssamenwerking gaat gebruiken, moet u de leverancier zo instellen dat deze leverancierssamenwerking kan gebruiken. Stel op de pagina **Leveranciers** op het tabblad **Algemeen** het veld **Samenwerkingsactivering** in. De volgende opties zijn beschikbaar:
-
-- **Actief (IO wordt automatisch bevestigd)** – Inkooporders worden automatisch bevestigd als de leverancier deze zonder wijzigingen accepteert.
-- **Actief (IO wordt niet automatisch bevestigd)** – Uw organisatie moet inkooporders handmatig bevestigen nadat de leverancier ze heeft geaccepteerd.
-
-> [!NOTE]
-> Inkoopmedewerkers in uw bedrijf kunnen deze taak ook voltooien.
+Voordat u een gebruikersaccount maakt voor iemand die leverancierssamenwerking gaat gebruiken, moet u de leverancier zo instellen dat deze leverancierssamenwerking kan gebruiken. Meer informatie over hoe u dit doet, vindt u in [Leverancierssamenwerking met externe leveranciers](vendor-collaboration-work-external-vendors.md).
 
 ## <a name="troubleshoot-the-provisioning-of-new-vendor-collaboration-users"></a>Problemen oplossen met de inrichting van nieuwe gebruikers van leverancierssamenwerking
 
