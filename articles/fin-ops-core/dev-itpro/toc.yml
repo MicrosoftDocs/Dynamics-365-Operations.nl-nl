@@ -2,7 +2,7 @@
   items:
     - name: Ontwikkeling en beheer voor apps voor financiën en bedrijfsactiviteiten
       items:
-        - name: Documentatie over Finance and Operations-apps
+        - name: Documentatie over apps voor financiën en bedrijfsactiviteiten
           href: ../fin-ops/index.md
         - name: Ontwikkeling en beheer voor apps voor financiën en bedrijfsactiviteiten
           href: index.md
@@ -10,16 +10,14 @@
           items:
             - name: Nieuwe of gewijzigde functies in apps voor financiën en bedrijfsactiviteiten
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Nieuwe of gewijzigde functies in Platform updates
+            - name: Nieuwe of gewijzigde functies in Platform-updates
               items:
-                - name: Startpagina voor nieuwe of gewijzigde functies in Platform updates
+                - name: Startpagina voor nieuwe of gewijzigde functies in Platform-updates
                   href: get-started/whats-new-home-page.md
-                - name: Platform updates voor versie 10.0.28 (augustus 2022)
+                - name: Platform-updates voor versie 10.0.28 (augustus 2022)
                   href: get-started/whats-new-platform-updates-10-0-28.md
                 - name: Platform-updates voor versie 10.0.27 (juli 2022)
                   href: get-started/whats-new-platform-updates-10-0-27.md
-                - name: Platform-updates voor versie 10.0.26 (mei 2022)
-                  href: get-started/whats-new-platform-updates-10-0-26.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -82,7 +80,7 @@
                   href: data-entities/service-protection-monitoring.md
                 - name: API-doorvoercapaciteit maximaliseren
                   href: data-entities/service-protection-maximizing-api-throughput.md
-            - name: Connector Finance and Operations
+            - name: Finance and Operations-connector
               href: data-entities/fin-ops-connector.md
             - name: Ontwikkeling voor integratie
               items:
@@ -106,39 +104,39 @@
                       items:
                         - name: Van prospect tot contant geld
                           href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                        - name: Accounts in Sales rechtstreeks synchroniseren met klanten in Finance and Operations
+                        - name: Accounts in Sales rechtstreeks synchroniseren met klanten in financiën en bedrijfsactiviteiten
                           href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                        - name: Producten van Finance and Operations rechtstreeks synchroniseren met producten in Sales
+                        - name: Producten van financiën en bedrijfsactiviteiten rechtstreeks synchroniseren met producten in Sales
                           href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                        - name: Contactpersonen in Sales rechtstreeks synchroniseren met contactpersonen of klanten in Finance and Operations
+                        - name: Contactpersonen in Sales rechtstreeks synchroniseren met contactpersonen of klanten in financiën en bedrijfsactiviteiten
                           href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                        - name: Kopteksten en regels in verkoopoffertes rechtstreeks synchroniseren vanuit Sales naar Finance and Operations
+                        - name: Kopteksten en regels in verkoopoffertes rechtstreeks synchroniseren vanuit Sales naar financiën en bedrijfsactiviteiten
                           href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                        - name: Verkooporders rechtstreeks synchroniseren tussen Sales en Finance and Operations
+                        - name: Verkooporders rechtstreeks synchroniseren tussen Sales en financiën en bedrijfsactiviteiten
                           href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                        - name: Kopteksten en regels in verkoopfacturen rechtstreeks synchroniseren vanuit Finance and Operations naar Sales
+                        - name: Kopteksten en regels in verkoopfacturen rechtstreeks synchroniseren vanuit financiën en bedrijfsactiviteiten naar Sales
                           href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
                     - name: Integratie met Field Service configureren
                       items:
                         - name: Overzicht van Integratie met Field Service configureren
                           href: ../../supply-chain/sales-marketing/field-service.md
-                        - name: Producten van Finance and Operations synchroniseren met producten in Field Service
+                        - name: Producten van financiën en bedrijfsactiviteiten synchroniseren met producten in Field Service
                           href: ../../supply-chain/sales-marketing/field-service-product.md
-                        - name: Werkorders in Field Service synchroniseren met verkooporders in Finance and Operations
+                        - name: Werkorders in Field Service synchroniseren met verkooporders in financiën en bedrijfsactiviteiten
                           href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                        - name: Overeenkomstfacturen in Field Service synchroniseren met vrije-tekstfacturen in Finance and Operations
+                        - name: Overeenkomstfacturen in Field Service synchroniseren met vrije-tekstfacturen in financiën en bedrijfsactiviteiten
                           href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                        - name: Voorraadoverboekingen en correcties uit Field Service synchroniseren met Finance and Operations
+                        - name: Voorraadoverboekingen en correcties uit Field Service synchroniseren met financiën en bedrijfsactiviteiten
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                        - name: Informatie over voorraadniveau uit Finance and Operations synchroniseren met Field Service
+                        - name: Informatie over voorraadniveau uit financiën en bedrijfsactiviteiten synchroniseren met Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                        - name: Producten met voorraadeenheid uit Finance and Operations synchroniseren met Field Service
+                        - name: Producten met voorraadeenheid uit financiën en bedrijfsactiviteiten synchroniseren met Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                        - name: Projectlijst van Finance and Operations synchroniseren met Field Service
+                        - name: Projectlijst van financiën en bedrijfsactiviteiten synchroniseren met Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                        - name: Magazijnen van Finance and Operations synchroniseren met Field Service
+                        - name: Magazijnen van financiën en bedrijfsactiviteiten synchroniseren met Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                        - name: Werkorders synchroniseren met project van Field Service naar Finance and Operations
+                        - name: Werkorders synchroniseren met project van Field Service naar financiën en bedrijfsactiviteiten
                           href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
                     - name: Project Service Automation-integratie configureren
                       items:
@@ -348,9 +346,9 @@
                   href: deployment/arm-onboarding.md
                 - name: Het proces Onboarding Azure Resource Manager voltooien voor LCS-projecten van de Amerikaanse overheid
                   href: deployment/arm-onbarding-us-goverment.md
-                - name: Azure ExpressRoute en Finance and Operations
+                - name: Azure ExpressRoute en financiën en bedrijfsactiviteiten
                   href: deployment/expressroute.md
-                - name: Architectuur voor Finance and Operations
+                - name: Architectuur voor financiën en bedrijfsactiviteiten
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Updates toepassen op cloudomgevingen
                   href: deployment/apply-deployable-package-system.md
@@ -584,11 +582,11 @@
                   href: dev-tools/metadata-search-visual-studio.md
                 - name: Modellen en pakketten
                   href: dev-tools/models.md
-                - name: Projecttype Finance and Operations
+                - name: Projecttype voor financiën en bedrijfsactiviteiten
                   href: dev-tools/projects.md
                 - name: Invoegtoepassingen met hulpmiddelen voor Visual Studio
                   href: dev-tools/developer-tools-add-ins.md
-                - name: Visual Studio-ontwikkelingshulpmiddelen bijwerken
+                - name: De Visual Studio-ontwikkelingshulpmiddelen bijwerken
                   href: dev-tools/update-development-tools.md
             - name: X++-programmeertaal
               items:
@@ -1050,7 +1048,7 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: Zelfstudie over Azure DevOps-extensie (openbare preview)
                   href: lifecycle-services/dts-ado-tutorial.md
-                - name: Visual Studio-extensie (beperkte preview)
+                - name: Visual Studio-extensie (openbare preview)
                   href: lifecycle-services/dts-visual-studio.md
                 - name: Visual Studio Code-extensie (openbare preview)
                   href: lifecycle-services/dts-vscode-doc.md
@@ -1224,9 +1222,9 @@
                   href: power-platform/admin-reference.md
                 - name: Virtuele Dataverse-entiteiten inschakelen
                   href: power-platform/enable-virtual-entities.md
-                - name: Power Apps-portals met Finance and Operations
+                - name: Power Apps-portals met financiën en bedrijfsactiviteiten
                   href: power-platform/power-portal-reference.md
-                - name: Veelgestelde vragen over virtuele entiteiten van Finance and Operations
+                - name: Veelgestelde vragen over virtuele entiteiten van financiën en bedrijfsactiviteiten
                   href: power-platform/faq.md
             - name: Zakelijke gebeurtenissen
               items:
@@ -1574,11 +1572,11 @@
                   href: lcs-solutions/submit-localization-alerts.md
         - name: Ondersteuning
           items:
-            - name: Ondersteuning krijgen voor Finance and Operations en Lifecycle Services
+            - name: Ondersteuning krijgen voor financiën en bedrijfsactiviteiten en Lifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: Overzicht van Dynamics 365-ondersteuning
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: Ondersteuning verkrijgen voor Finance and Operations geëxploiteerd door 21Vianet in China
+            - name: Ondersteuning verkrijgen voor financiën en bedrijfsactiviteiten geëxploiteerd door 21Vianet in China
               href: lifecycle-services/21vianet-support.md
             - name: Technische ondersteuning instellen voor apps voor financiën en bedrijfsactiviteiten
               href: lifecycle-services/support-experience.md
@@ -1698,7 +1696,7 @@
               href: migration-upgrade/upgrade-home-page.md
             - name: Upgraden van AX 2012
               items:
-                - name: Upgraden van AX 2012 naar Finance and Operations
+                - name: Upgraden van AX 2012 naar financiën en bedrijfsactiviteiten
                   href: migration-upgrade/upgrade-overview-2012.md
                 - name: Upgrade van AX 2012 - Plannen met het hulpprogramma Upgradeanalyse
                   href: migration-upgrade/upgrade-analyzer-tool.md
@@ -1758,7 +1756,7 @@
                       href: migration-upgrade/compress-tables-ax-2012.md
             - name: Gegevens migreren vanuit AX 2009
               items:
-                - name: Gegevens migreren van AX 2009 naar Finance and Operations
+                - name: Gegevens migreren van AX 2009 naar financiën en bedrijfsactiviteiten
                   href: migration-upgrade/data-migration-tool.md
                 - name: Migratie van AX 2009 - hulpmiddel voor gegevensmigratie installeren
                   href: migration-upgrade/install-dmt.md

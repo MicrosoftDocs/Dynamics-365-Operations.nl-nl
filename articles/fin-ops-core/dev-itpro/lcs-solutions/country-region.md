@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4935d54a911701fda4740e3a1116c139730ceb08
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: abfba49c1b5e410cdc47db9965ffee26fbaebb9e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866532"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067677"
 ---
 # <a name="globalization-resources"></a>Globalisatieresources
 
@@ -62,8 +62,8 @@ De volgende resources bevatten informatie over geplande en nieuwe lokalisatiefun
 #### <a name="dynamics-365-release-plans"></a>Dynamics 365-releaseplannen
 De [Dynamics 365-releaseplannen](/business-applications-release-notes/) bevatten beschrijvingen van nieuwe en verbeterde functies die zijn gepland voor de zakelijke toepassingen en toepassingsplatforms van Dynamics 365. 
 
-#### <a name="finance-and-operations-apps-whats-new"></a>Nieuw in Finance and Operations-apps
-Op de [startpagina Nieuw of gewijzigd in Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) worden de functies vermeld die zijn opgenomen in specifieke releases van de Finance and Operations-apps.
+#### <a name="finance-and-operations-apps-whats-new"></a>Nieuw in apps voor financiën en bedrijfsactiviteiten
+Op de [startpagina van Nieuwe of gewijzigde functies in financiën en bedrijfsactiviteiten](../../fin-ops/get-started/whats-new-changed.md) worden de functies vermeld die zijn opgenomen in specifieke releases van de apps voor financiën en bedrijfsactiviteiten.
 
 ### <a name="electronic-reporting"></a>Elektronische rapportage
 Met het hulpmiddel voor elektronische rapportage (ER) kunt u indelingen voor elektronische documenten configureren in overeenstemming met de wettelijke voorschriften van verschillende landen/regio's. Met ER kunt u deze indelingen beheren gedurende hun hele levenscyclus. Raadpleeg een van de volgende onderwerpen voor meer informatie:
@@ -133,3 +133,4 @@ Meer informatie vindt u in het [Help-systeem](../../fin-ops/get-started/help-ove
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

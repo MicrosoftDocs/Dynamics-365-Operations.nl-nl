@@ -7,21 +7,21 @@ ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom:
-- "27681"
-- intro-internal
-ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4be3c576cd0fac1239113efcdd7e97810b193a88
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "27681"
+- intro-internal
+ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
+ms.openlocfilehash: 119292dccc2f2d7131f0fa39aa35a8253b948d40
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906628"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206470"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Rapportage en analyse met Power BI-startpagina
 
@@ -30,9 +30,9 @@ ms.locfileid: "8906628"
 In dit artikel wordt verwezen naar resources die u kunt gebruiken om meer te weten te komen over de BI- (business intelligence) en rapportagehulpmiddelen die beschikbaar zijn.
 
 ## <a name="get-started"></a>Aan de slag
-- [Informatietoegang en -rapportage](information-access-reporting.md)
+- [Toegang tot informatie en rapportage](information-access-reporting.md)
 - [Tech Talk: Rapportageopties](https://www.youtube.com/watch?v=NzZONjKs5xA) (video)
-- [Finance and Operations: Blog met Power BI-analyses en Reporting Services](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blog)
+- [financiën en bedrijfsactiviteiten: blog met Power BI-analyses en Reporting Services](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blog)
 
 ## <a name="analytical-workspaces"></a>Analytische werkgebieden
 In werkgebieden kan worden gebruikgemaakt van uitgebreide infographics en visuals die worden ondersteund door Microsoft Power BI. Deze infographics en visuals bevatten veel besturingselementen die worden geleverd door derden. Werkgebieden kunnen daarom een zeer visuele, interactieve ervaring bieden voor gebruikers.

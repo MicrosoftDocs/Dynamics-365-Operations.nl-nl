@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 189239ad6142af200e41cfe9cfcdbb56be65b0b7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dbf77b57f7a107918c3b8a03290e208ed1c4803b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879071"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066052"
 ---
 # <a name="supply-chain-management-home-page"></a>Startpagina Supply Chain Management
 
@@ -56,16 +56,16 @@ Ga voor meer informatie over Dynamics 365 Finance naar de [startpagina van Finan
 
 ## <a name="videos"></a>Video's
 
-Deze korte video biedt een overzicht van de nieuwe functies voor Supply Chain Management die zijn toegevoegd aan Microsoft Dynamics 365 for Finance and Operations versie 8.0 (april 2018).
+Deze korte video biedt een overzicht van de nieuwe functies voor Supply Chain Management die zijn toegevoegd aan Microsoft Dynamics 365 Finance versie 8.0 (april 2018).
 
-- [Een werkorder in Field Service synchroniseren met Finance and Operations](https://youtu.be/hAB4TDVMjxU)
+- [Een werkorder in Field Service synchroniseren met financiën en bedrijfsactiviteiten](https://youtu.be/hAB4TDVMjxU)
 
-Deze korte video's bieden een overzicht van de nieuwe functies voor Supply Chain Management die zijn toegevoegd aan Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (december 2017).
+Deze korte video's bieden een overzicht van de nieuwe functies voor Supply Chain Management die zijn toegevoegd aan Microsoft Dynamics 365 Finance, Enterprise edition 7.3 (december 2017).
 
 - [Optimalisatieadvies](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Magazijnsjabloon gebruiken om configuratie te kopiëren](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-Deze korte video's geven een overzicht van de nieuwe functies voor Supply Chain Management die zijn toegevoegd aan Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (juli 2017).
+Deze korte video's geven een overzicht van de nieuwe functies voor Supply Chain Management die zijn toegevoegd aan Microsoft Dynamics 365 Finance, Enterprise Edition (juli 2017).
 
 - [Aan de slag met kostprijsboekhouding](https://youtu.be/1pUDtJQZ8FU)
 - [Het mobiele werkgebied Kostenbeheer](https://youtu.be/imsuTg8rUVk)
@@ -73,7 +73,7 @@ Deze korte video's geven een overzicht van de nieuwe functies voor Supply Chain 
 - [Inkooporders goedkeuren op een mobiel apparaat](https://youtu.be/gZ-gOlJe7H8)
 - [Visuele planning met Gantt-diagram voor productie- en batchorders](https://youtu.be/BtbuShkGj4I)
 
-In de volgende opnamen van technische conferenties worden de functies voor Supply Chain Management van eerdere versies van Finance and Operations besproken. Deze functionaliteit maakt nu deel uit van Dynamics 365 Supply Chain Management. Dezelfde concepten zijn nog steeds van toepassing en de procedures zijn vergelijkbaar in de huidige versie.
+In de volgende opnamen van technische conferenties worden de functies voor Supply Chain Management van eerdere versies van financiën en bedrijfsactiviteiten besproken. Deze functionaliteit maakt nu deel uit van Dynamics 365 Supply Chain Management. Dezelfde concepten zijn nog steeds van toepassing en de procedures zijn vergelijkbaar in de huidige versie.
 
 - **Kostenbeheer:**
   - [Overzicht van Kostenbeheer](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
@@ -106,3 +106,4 @@ Zie [Dynamics 365 Supply Chain Management op Microsoft Learn](/learn/browse/?pro
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
