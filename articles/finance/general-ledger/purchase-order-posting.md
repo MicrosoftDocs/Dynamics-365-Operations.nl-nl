@@ -10,12 +10,12 @@ ms.search.form: InventPosting, InventTrans
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: 0793c58b07d2c0a133e1a5bc0607483f22206b95
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38a9e2740232b18255109ba867fcdddd5b890774
+ms.sourcegitcommit: 9310c943ac76896663e5604209034da9f8d6139c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849926"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151027"
 ---
 # <a name="purchase-order-posting"></a>Boeking van inkooporders
 
@@ -93,10 +93,10 @@ In de volgende tabel ziet u voorbeelden van de standaardboekingstypen met voorbe
 
 | Boekingstype | Voorbeeld van hoofdrekening | Voorbeeld van hoofdrekeningnaam | Rekeningtype | Debet/Credit? | Vereffeningsrekening | P/F | Volgen | Description |
 |--------------|---------------------|-------------------------|----------------|----------------|--------------------|----|----------|-----------|
-| Kosten van ingekocht ontvangen materiaal | 140100</br>140101 | Materiaalvoorraad</br>Materiaal verzonden niet gefactureerd | Activum | Debet | Ja | W | Kosten van ingekocht gefactureerd materiaal | Gebruikt wanneer een productontvangstbon voor een inkooporder wordt geboekt. De verschuiving op de rekening betreft de Inkoopuitgave, niet-gefactureerd. Het bedrag op deze rekening wordt teruggeboekt wanneer een factuur voor een verkooporder wordt geboekt. |
+| Kosten van ingekocht ontvangen materiaal | 140100</br>140101 | Materiaalvoorraad</br>Materiaal verzonden niet gefactureerd | Activum | Debet | Ja | W | Kosten van ingekocht gefactureerd materiaal | Wanneer een productontvangstbon van een inkooporder wordt geboekt, betreft de verschuiving op de rekening Inkoopuitgave, niet-gefactureerd. Het bedrag op deze rekening wordt teruggeboekt wanneer een factuur voor een verkooporder wordt geboekt. |
 | Inkoopuitgave, niet-gefactureerd | 600180 | Materiaalontvangstbonnen | Onkosten | Debet | Ja | W | |Gebruikt wanneer een productontvangstbon voor een inkooporder wordt geboekt. Er zijn twee boekstukken gemaakt voor de ontvangst om inkoopprijsafwijkingen bij te houden wanneer de standaardkosten worden gebruikt. De verschuiving op de rekening voor het eerste boekstuk is Inkoop, toerekening. De verschuiving voor het tweede boekstuk is de som van de kosten van ingekocht ontvangen materiaal en de rekeningen voor inkoopprijsafwijkingen. De naar deze rekening geboekte bedragen worden teruggeboekt wanneer een inkooporderfactuur wordt geboekt. |
 | Kosten van ingekocht gefactureerd materiaal | 140100 | Materiaalvoorraad | Activum | Debet | Nr. | Vr  |Kosten van ingekocht ontvangen materiaal | Gebruikt wanneer een inkooporderfactuur wordt geboekt. De verschuiving op deze rekening betreft de Inkoopuitgave voor product. Deze rekening vertegenwoordigt de voorraad op uw balans. De rekening die wordt gebruikt, is gewoonlijk dezelfde rekening die wordt gebruikt voor kosten van geleverde eenheden en kosten van eenheden die zijn gefactureerd voor een verkooporder. |
-| Inkoopuitgave voor product | 600180 | Materiaalontvangstbon | Onkosten | Credit | Nr. | Vr  | |Gebruikt wanneer een inkooporderfactuur wordt geboekt. De verschuiving op deze rekening betreft de Kosten van ingekochte materialen. Deze rekening vertegenwoordigt de voorraad op uw balans. |
+| Inkoopuitgave voor product | 600180 | Materiaalontvangstbon | Onkosten | Credit | Ja | Vr  | |Gebruikt wanneer een inkooporderfactuur wordt geboekt. Er zijn twee boekstukken gemaakt voor de factuur om inkoopprijsafwijkingen bij te houden wanneer de standaardkosten worden gebruikt. De verschuiving op deze rekening betreft de Inkoopuitgave, niet-gefactureerde rekening die wordt gebruikt bij het boeken van de ontvangst en die tijdens het boeken van de factuur wordt tegengeboekt. Vertegenwoordigt kosten voor de voorraad die is ingekocht bij de facturering en die niet worden weerspiegeld in de voorraadrekening op de balans. Dit is een winst- en verliesboeking voor inkoopprijsafwijking die meestal wordt gezien in itemaankopen met standaardkosten.|
 | Winstrekening vaste ontvangstprijs (Inkoop, winstrekening vaste ontvangstprijs*) | 510310 | Afwijking inkoopprijs | Onkosten | Credit | Nr. | Vr | Verliesrekening vaste ontvangstprijs | Gebruikt wanneer een inkooporderfactuur wordt geboekt en er een verschil is tussen de gefactureerde prijs en de standaardkosten voor het artikel. Deze rekening wordt gebruikt wanneer het verschil groter is. De verschuiving op deze rekening betreft Tegenrekening vaste ontvangstprijs. |
 | Verliesrekening vaste ontvangstprijs (Inkoop, verliesrekening vaste ontvangstprijs*) | 510310 | Afwijking inkoopprijs | Onkosten | Debet | Nr. | Vr | Winstrekening vaste ontvangstprijs | Gebruikt wanneer een inkooporderfactuur wordt geboekt en er een verschil is tussen de gefactureerde prijs en de standaardkosten voor het artikel. Deze rekening wordt gebruikt wanneer het verschil kleiner is. De verschuiving op deze rekening betreft Tegenrekening vaste ontvangstprijs. |
 | Tegenrekening vaste ontvangstprijs (Inkoop, tegenrekening vaste ontvangstprijs*) | 140900 | Voorraadwijziging | Activum | Beide | Nr. | Vr  | |Gebruikt wanneer een inkooporderfactuur wordt geboekt en er een verschil is tussen de gefactureerde prijs en de standaardkosten voor het artikel. Deze rekening is de verschuiving op de winst- en verliesrekeningen voor vaste ontvangstprijs. |

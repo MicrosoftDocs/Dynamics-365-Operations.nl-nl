@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c76eadc5839785ba1624ee3894ef1d0872369aa9
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: b8faa7b73349c48d3a02b685546b47c4969c6027
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403836"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109427"
 ---
 # <a name="synchronize-date-and-time-in-import-jobs"></a>Datum en tijd in importtaken synchroniseren
 
@@ -27,7 +27,7 @@ Het is belangrijk om de tijdzone voor uw importtaak in te stellen op UTC (Coordi
 
 Door deze dubbele conversie veranderen de datums tussen toepassingen. Bij de dubbele conversie kan bijvoorbeeld de begindatum van een werknemer verschillen tussen Dynamics 365 Human Resources en Dynamics 365 Finance door verschillen in lokale tijdzones. Als u de importtaak instelt op UTC, wordt dit probleem verholpen.
 
-1. Selecteer in Dynamics 365 Finance and Operations **Gegevensbeheer**.
+1. Selecteer **Gegevensbeheer** in Dynamics 365 Finance and Operations.
 
 2. Selecteer **Projecten importeren** en dan het project.
 
@@ -41,3 +41,4 @@ Door deze dubbele conversie veranderen de datums tussen toepassingen. Bij de dub
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f75176781620cd6f845c002876eba6e34d5793e7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1f379cd7783cc984666582d2c680a1db013627ce
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692221"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070167"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>Virtuele Dataverse-tabelquery's optimaliseren
 
@@ -49,12 +49,12 @@ Een van de oorzaak van tragere prestaties bij virtuele Dataverse-tabellen voor H
 Een voorbeeld waar u deze impact kunt zien, is in query's die worden uitvoeren op de entiteit Werknemer (**mshr_hcmworkerentity**) of Basiswerker (**mshr_hcmworkerbaseentity**). Het prestatieprobleem kan op een aantal verschillende manieren zichtbaar zijn:
 
 - **Trage uitvoering van query's**: de query uit de virtuele tabel kan de verwachte resultaten retourneren, maar het duurt langer dan verwacht om de uitvoering van de query te voltooien.
-- **Time-out van query**: er treedt een time-out voor de query op en de volgende fout wordt geretourneerd: "Een token is verkregen om Finance and Operations aan te roepen maar Finance and Operations heeft een fout van het type InternalServerError geretourneerd."
+- **Time-out van query**: er treedt een time-out voor de query op en de volgende fout wordt geretourneerd: "Een token is verkregen om apps voor financiën en bedrijfsactiviteiten aan te roepen, maar er is een fout van het type InternalServerError geretourneerd."
 - **Onverwachte fout**: de query kan een fouttype 400 retourneren met het volgende bericht: "Er is een onverwachte fout opgetreden."
 
   ![Fouttype 400 op HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType400.png)
 
-- **Aanvraagbeperking**: de query gebruikt mogelijk te veel serverbronnen waardoor aanvraagbeperking wordt toegepast. In dit geval geeft de query de volgende fout: "Er is een token verkregen om Finance and Operations aan te roepen maar Finance and Operations heeft een fout van het type 429 geretourneerd." Meer informatie over aanvraagbeperking in Human Resources vindt u in [Veelgestelde vragen over aanvraagbeperking](./hr-admin-integration-throttling-faq.md).
+- **Aanvraagbeperking**: de query gebruikt mogelijk te veel serverbronnen waardoor aanvraagbeperking wordt toegepast. In dit geval geeft de query de volgende fout: "Er is een token verkregen om apps voor financiën en bedrijfsactiviteiten aan te roepen, maar er is een fout van het type 429 geretourneerd." Meer informatie over aanvraagbeperking in Human Resources vindt u in [Veelgestelde vragen over aanvraagbeperking](./hr-admin-integration-throttling-faq.md).
 
   ![Fouttype 429 op HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType429.png)
 
@@ -161,3 +161,4 @@ Zie [Het aantal entiteiten opgeven dat op een pagina moet worden geretourneerd](
 - [Veelgestelde vragen over aanvraagbeperking](./hr-admin-integration-throttling-faq.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

@@ -2,7 +2,7 @@
 title: Rekeningstructuren configureren
 description: Dit artikel biedt informatie over rekeningstructuren en financiële dimensies.
 author: aprilolson
-ms.date: 06/03/2019
+ms.date: 07/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0a3febf8d269caec847ad879f60ac042e5fec9e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0f816f0fc894b902c444a3113abfd48d4146d485
+ms.sourcegitcommit: e59990780830ac8e3382fea5df851abe86fbf496
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907975"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9141273"
 ---
 # <a name="configure-account-structures"></a>Rekeningstructuren configureren
 
@@ -91,6 +91,8 @@ Als u wilt doorgaan met het toevoegen van extra criteria, klikt u op **Duplicere
 Bij het instellen van uw rekeningstructuren zijn er enkele aanbevelingen die u kunt volgen. Dit is echter alleen een richtlijn zodat een holistische discussie over uw bedrijf, groeiplan en onderhoudsplan moet worden beschouwd als onderdeel van die discussie.
 
 - Maak de hoofdrekening de eerste of zo dicht mogelijk bij de voorzijde van de rekeningstructuur, zodat gebruikers de best mogelijke begeleide ervaring krijgen tijdens rekeninginvoer.
+  
+  - Controleer of oplossingen van derden die u wilt gebruiken de hoofdrekening in de eerste positie ondersteunen.
 
 - Hergebruik rekeningstructuren zo veel mogelijk om onderhoud te beperken in uw rechtspersonen.
 

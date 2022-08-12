@@ -1,6 +1,6 @@
 ---
 title: Model voor geïntegreerde klanten
-description: In dit artikel wordt de integratie van klantgegevens tussen apps voor financiën en bedrijfsactiviteiten en Dataverse beschreven.
+description: In dit artikel wordt de integratie van klantgegevens tussen Finance + Operations en Dataverse beschreven.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 042042bb19b32d3c96b4e0c8521a8b1d65e7ab22
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1b16eab5c107a3176f0890372d397947698e71de
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890451"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111719"
 ---
 # <a name="integrated-customer-master"></a>Model voor geïntegreerde klanten
 
@@ -30,9 +30,9 @@ Klantgegevens kunnen in meerdere Dynamics 365-toepassingen worden beheerd. Een k
 
 ![Klantgegevensstroom.](media/dual-write-customer-data-flow.png)
 
-Klanten kunnen globaal worden ingedeeld in twee typen: commerciële/organisatorische klanten en consumenten/eindgebruikers. Deze twee typen klanten worden in Finance and Operations en Dataverse op een andere manier opgeslagen en verwerkt.
+Klanten kunnen globaal worden ingedeeld in twee typen: commerciële/organisatorische klanten en consumenten/eindgebruikers. Deze twee typen klanten worden in Finance + Operations en Dataverse op een andere manier opgeslagen en verwerkt.
 
-In Finance and Operations worden zowel commerciële/organisatorische klanten als consumenten/eindgebruikers in één tabel met de naam **CustTable** (CustCustomerV3Entity) beheerd en worden ze geclassificeerd op basis van het kenmerk **Type**. (Als **Type** is ingesteld op **Organisatie**, is de klant een commerciële/organisatorische klant en als **Type** is ingesteld op **Persoon**, is de klant een consument/eindgebruiker.) De primaire contactpersoonsgegevens worden afgehandeld via de tabel SMMContactPersonEntity.
+In Finance + Operations worden zowel commerciële/organisatorische klanten als consumenten/eindgebruikers in één tabel met de naam **CustTable** (CustCustomerV3Entity) beheerd en worden ze geclassificeerd op basis van het kenmerk **Type**. (Als **Type** is ingesteld op **Organisatie**, is de klant een commerciële/organisatorische klant en als **Type** is ingesteld op **Persoon**, is de klant een consument/eindgebruiker.) De primaire contactpersoonsgegevens worden afgehandeld via de tabel SMMContactPersonEntity.
 
 In Dataverse worden commerciële/organisatorische klanten beheerd in de tabel Account en worden ze geïdentificeerd als klant als het kenmerk **RelationshipType** is ingesteld op **Klant**. Zowel consumenten/eindgebruikers als de contactpersoon worden vertegenwoordigd door de tabel Contactpersoon. Om een duidelijke scheiding te maken tussen een consument/eindgebruiker en een contactpersoon, heeft de tabel **Contactpersoon** een Booleaanse vlag met de naam **Verkoopbaar**. Wanneer **Verkoopbaar** de waarde **Waar** heeft, is de contactpersoon een consument/eindgebruiker en kunnen er voor die contactpersoon offertes en orders worden gemaakt. Als **Verkoopbaar** is ingesteld op **Onwaar**, is de contactpersoon slechts een primaire contactpersoon van een klant.
 
@@ -42,7 +42,7 @@ Wanneer een niet-verkoopbare contactpersoon deelneemt aan een offerte- of orderp
 
 Klantgegevens omvatten alle informatie over de klant, zoals de klantgroep, adressen, contactgegevens, betalingsprofiel en factuurprofiel. Een verzameling tabeltoewijzingen werkt samen tijdens interactie met klantgegevens, zoals in de volgende tabel wordt weergegeven.
 
-Apps voor financiële en bedrijfsactiviteiten | Customer Engagement-apps         | Beschrijving
+Apps voor financiën en bedrijfsactiviteiten | Customer Engagement-apps         | Beschrijving
 ----------------------------|---------------------------------|------------
 [CDS-contactpersonen V2](mapping-reference.md#115) | contacten | Met deze sjabloon worden alle primaire, secundaire en tertiaire contactgegevens voor zowel klanten als leveranciers gesynchroniseerd.
 [Klantengroepen](mapping-reference.md#126) | msdyn_customergroups | Met deze sjabloon worden klantengroepgegevens gesynchroniseerd.
@@ -57,3 +57,4 @@ Apps voor financiële en bedrijfsactiviteiten | Customer Engagement-apps        
 [Betalingstermijnen](mapping-reference.md#161) | msdyn_paymentterms | Met deze sjabloon worden referentiegegevens over betalingsvoorwaarden (voorwaarden voor betaling) voor zowel klanten als leveranciers gesynchroniseerd.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

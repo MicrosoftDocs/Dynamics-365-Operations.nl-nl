@@ -2,7 +2,7 @@
 title: Sneltoetsen
 description: Dit artikel biedt een overzicht van de sneltoetscombinaties die u kunt gebruiken wanneer u met apps voor financiën en bedrijfsactiviteiten werkt.
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 07/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f0f833e3a6d45329fd8a69af658f392df32e4db
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 67e1904807dfe5122de3d3ead97c2e2c11ed213d
+ms.sourcegitcommit: bd2d6a86a7fd4b4f6f86656998f7a8844f949e42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866112"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9140434"
 ---
 # <a name="keyboard-shortcuts"></a>Sneltoetsen
 
@@ -197,6 +197,7 @@ Gebruikers kunnen momenteel beschikbaar snelkoppelingen rechtstreeks vanuit de g
 | De navigatielijst in detailformulieren sluiten (met de focus in de navigatielijst) | Esc                        |
 | Naar de hoofdpaginainhoud gaan (met de focus in een ander deelvenster)                    | Alt+M, M                    |
 | Naar het feitenvak gaan (of dit venster openen, indien van toepassing)                       | Alt+M, B of Ctrl+F2         |
+| Ga naar volgende functietoelichting                                              | Alt+M,C                    |
 
 > [!NOTE]
 > Met de functie **Tabbladen stroomlijnen in formulieren met volledige pagina's**, die in versie 10.0.26 wordt geïntroduceerd, kunnen gebruikers met tabs door alle gebieden van een pagina gaan, zonder dat de muis of een specifieke snelkoppeling tussen gebieden nodig is. Met de bestaande sneltoetsen (zoals alt+M-toetstoetsen) kunt u nog wel snel tussen de gebieden op een pagina schakelen.
@@ -269,3 +270,4 @@ Met focusbeheer wordt beschreven hoe de gebruikersfocus wordt verwerkt in een to
 [Sneltoetsen voor ontbrekende rekeninganalyse](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

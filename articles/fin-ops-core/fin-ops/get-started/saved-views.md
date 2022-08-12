@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 1218497bbb112c9a9ebeaa4cabdcb9314c604a7f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 14369b02f1d7553be5c732f3bdf768825267998b
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845408"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125145"
 ---
 # <a name="saved-views"></a>Opgeslagen weergaven
 
@@ -215,7 +215,7 @@ Voor een lijst met bekende problemen met opgeslagen weergaven raadpleegt u [Form
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Hoe schakel ik opgeslagen weergaven in mijn omgeving in?
 
 > [!NOTE]
-> Voor de functie **Opgeslagen weergaven** moet het personalisatiesysteem in Finance and Operations zijn ingeschakeld. Als persoonlijke instellingen zijn uitgeschakeld voor de gehele omgeving, worden weergaven wel uitgeschakeld, ook als u de onderstaande stappen uitvoert. 
+> Voor de functie **Opgeslagen weergaven** moet het personalisatiesysteem in de apps voor financiën en bedrijfsactiviteiten zijn ingeschakeld. Als persoonlijke instellingen zijn uitgeschakeld voor de gehele omgeving, worden weergaven wel uitgeschakeld, ook als u de onderstaande stappen uitvoert. 
 
 U kunt de functie **Opgeslagen weergaven** in- en uitschakelen via Functiebeheer in elke omgeving. Wanneer de functie is ingeschakeld, worden opgeslagen weergaven ingeschakeld in alle volgende gebruikerssessies.
 
@@ -255,3 +255,4 @@ Als u een weergave naar een specifieke rechtspersoon publiceert, maar wanneer u 
 - **Versie 10.0.21 of hoger:** als de **Verbeterde ondersteuning van de rechtspersoon voor opgeslagen weergaven** is ingeschakeld, geeft de weergaveselector alleen de weergave voor de opgegeven rechtspersonen weer. Dit vindt plaats, omdat de functie weergaven (inclusief persoonlijke weergaven) aan specifieke rechtspersonen koppelt.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

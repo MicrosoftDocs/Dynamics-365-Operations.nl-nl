@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c4b0d991d320d5a679d0ed60880c56a6cb849e2d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dc46c9fea94c3d86f9511c2bea4ea64455c936f9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907082"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068354"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Interface voor materiaalverwerkingsapparatuur (MHAX)
 
 [!include [banner](../../includes/banner.md)]
 
-Met de *interface voor materiaalverwerkingsapparatuur* (MHAX) kunt u externe fysieke MH-systemen (Material Handling) koppelen aan een magazijn dat wordt beheerd via een WMS-systeem voor geavanceerd magazijnbeheer in Microsoft Dynamics 365 Supply Chain Management. De interface tussen het WMS- en MH-systemen bestaat uit twee wachtrijen: een voor uitgaande gebeurtenissen (WMS naar MH) en een voor inkomende gebeurtenissen (MH naar WMS). Het WMS-systeem genereert uitgaande gebeurtenissen op basis van werkregels die zijn gemaakt tijdens verschillende processen voor het aanmaken en uitvoeren van werk. Het MH-systeem controleert vervolgens het WMS-systeem regelmatig op nieuwe gebeurtenissen en verwerkt de responsen. Nadat het MH-systeem de verwerking van de gebeurtenissen in overeenstemming met werkinstructies heeft voltooid, verstuurt het inkomende gebeurtenissen, zoals die voor de voltooiing van een werkregel of voor het verzamelen van een tekort aan artikelen voor een order.
+Met de *interface voor materiaalverwerkingsapparatuur* (MHAX) kunt u externe fysieke MH-systemen (Material Handling) koppelen aan een magazijn dat wordt beheerd door magazijnbeheerprocessen (WMS) in Microsoft Dynamics 365 Supply Chain Management. De interface tussen het WMS- en MH-systemen bestaat uit twee wachtrijen: een voor uitgaande gebeurtenissen (WMS naar MH) en een voor inkomende gebeurtenissen (MH naar WMS). Het WMS-systeem genereert uitgaande gebeurtenissen op basis van werkregels die zijn gemaakt tijdens verschillende processen voor het aanmaken en uitvoeren van werk. Het MH-systeem controleert vervolgens het WMS-systeem regelmatig op nieuwe gebeurtenissen en verwerkt de responsen. Nadat het MH-systeem de verwerking van de gebeurtenissen in overeenstemming met werkinstructies heeft voltooid, verstuurt het inkomende gebeurtenissen, zoals die voor de voltooiing van een werkregel of voor het verzamelen van een tekort aan artikelen voor een order.
 
 In de volgende afbeelding ziet u de verschillende elementen en de volgorde waarin de processen plaatsvinden wanneer u MHAX-integratie gebruikt.
 

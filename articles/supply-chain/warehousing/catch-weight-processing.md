@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: d0f0e44cfafec722f6eed3d18ba8be4739be30c1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 881c3c4aa655a5ad30adffce108ba2fc3e6691c5
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900675"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070404"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Verwerking van catch weight-producten bij magazijnbeheer
 
@@ -82,7 +82,7 @@ Als het werkelijke gewicht wordt vastgelegd in het inpakstation tijdens de inpak
 > [!NOTE]
 > Omdat de optie **Inpakken** ervoor zorgt dat de voorraad wordt bijgewerkt met het gemiddelde pickgewicht, kan dit een verschil veroorzaken dat een correctie voor winst/verlies van het catch weight-artikel en/of een verschil tussen het gewicht van de voorhanden voorraad en het catch weight labelgewicht veroorzaakt.
 
-Voor interne magazijnbeheerprocessen, zoals tellen en correcties, kunt u definiëren of het gewicht moet worden vastgelegd. Als het niet wordt vastgelegd, wordt het nominale gewicht gebruikt. Met andere opties kunt u gewicht per catch weight-eenheid en per getelde hoeveelheid vastleggen.
+Voor interne processen, zoals tellen en correcties, kunt u definiëren of het gewicht moet worden vastgelegd. Als het niet wordt vastgelegd, wordt het nominale gewicht gebruikt. Met andere opties kunt u gewicht per catch weight-eenheid en per getelde hoeveelheid vastleggen.
 
 U kunt ook definiëren hoe het gewicht wordt vastgelegd. In een van de twee hoofdstromen worden Catch weight-labels bijgehouden en gebruikt voor het vastleggen van het gewicht. In de andere stroom worden catch weight-labels niet bijgehouden.
 
@@ -183,7 +183,7 @@ Niet alle workflows ondersteunen verwerking van catch weight-producten bij magaz
 ### <a name="other-restrictions-and-behaviors-for-catch-weight-product-processing-with-warehouse-management"></a>Andere beperkingen en gedragingen voor het verwerken van catch weight-producten bij magazijnbeheer
 
 - Tijdens verzamelprocessen waarin de gebruiker niet wordt gevraagd om traceringsdimensies te identificeren, wordt de gewichtstoewijzing gedaan op basis van het gemiddelde gewicht. Dit treedt op wanneer bijvoorbeeld een combinatie van traceringsdimensies wordt gebruikt op dezelfde locatie en nadat een gebruiker het verzamelen verwerkt en er slechts één trackingsdimensiewaarde op de locatie is gebleven.
-- Wanneer de voorraad wordt gereserveerd voor een catch weight-product dat is geconfigureerd voor magazijnbeheerprocessen, wordt de reservering gedaan op basis van het minimumgewicht dat is gedefinieerd, zelfs als deze hoeveelheid de laatste voorhanden verwerkingshoeveelheid is. Dit gedrag wijkt af van het gedrag voor artikelen die niet zijn geconfigureerd voor magazijnbeheerprocessen. Er is één uitzondering op deze beperking. Voor productieverzamelen wordt het werkelijke gewicht gebruikt als de laatste afhandelingshoeveelheid van een catch weight-product met serienummercontrole wordt verzameld.
+- Wanneer de voorraad wordt gereserveerd voor een catch weight-product dat is geconfigureerd voor magazijnbeheerprocessen (WMS), wordt de reservering gedaan op basis van het minimumgewicht dat is gedefinieerd, zelfs als deze hoeveelheid de laatste voorhanden verwerkingshoeveelheid is. Dit gedrag wijkt af van het gedrag voor artikelen die niet zijn geconfigureerd voor WMS. Er is één uitzondering op deze beperking. Voor productieverzamelen wordt het werkelijke gewicht gebruikt als de laatste afhandelingshoeveelheid van een catch weight-product met serienummercontrole wordt verzameld.
 - Processen die gebruikmaken van het gewicht als onderdeel van de capaciteitsberekeningen (wavedrempels, maximale werkpauzes, containermaxima, belastingscapaciteiten locatie, enzovoort) gebruiken het werkelijke gewicht van de voorraad niet. In plaats daarvan zijn de processen gebaseerd op het fysieke verwerkingsgewicht dat is gedefinieerd voor het product.
 - In het algemeen wordt Commerce-functionaliteit niet ondersteund voor catch weight-producten.
 - Voor catch weight-producten kan de voorraadstatus niet worden bijgewerkt vanuit **Statuswijziging van magazijn**.

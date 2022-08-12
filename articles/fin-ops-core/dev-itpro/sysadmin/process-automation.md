@@ -2,7 +2,7 @@
 title: Procesautomatisering
 description: Dit artikel biedt informatie over de manier waarop procesautomatisering eenvoudige planning van processen voor de batchserver mogelijk maakt.
 author: RyanCCarlson2
-ms.date: 04/20/2021
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: f13392fd6610735f8c539d42b62cf71cece71fba
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c0015b65f1ff00cfce19139cb8aaa248512d070b
+ms.sourcegitcommit: 3d2c0a39c4f987e9ac71df2f2fa6df0f64f10b2b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898604"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9114930"
 ---
 # <a name="process-automation"></a>Procesautomatisering
 
@@ -30,7 +30,7 @@ Procesautomatisering maakt eenvoudige planning van processen voor de batchserver
 
 De centrale beheerpagina voor alle procesautomatiseringen vindt u in de module Systeembeheer onder het menu **Instellingen**. Op deze pagina worden alle geautomatiseerde processen (reeksen) vermeld die in het systeem zijn ingesteld. U kunt hiermee ook rechtstreeks vanaf deze pagina nieuwe procesautomatiseringen toevoegen. Nadat u een reeks hebt ingesteld, kunt u elke reeks in deze lijst beheren. U kunt ervoor kiezen om de gehele reeks te bewerken, deze te verwijderen, alle exemplaren weer te geven in een lijstweergave of de reeks uit te schakelen als u het geplande werk voor een tijdje wilt onderbreken. 
 
-Alle processen die in functiebeheer zijn uitgeschakeld, worden niet weergegeven wanneer de functie is uitgeschakeld. Bovendien worden met de planningsengine voor procesautomatisering geen exemplaren of achtergrondprocessen gepland voor een uitgeschakelde functie. Als u de functie opnieuw inschakelt, worden alle in het verleden geplande gebeurtenissen of achtergrondprocessen onmiddellijk uitgevoerd. De planningsengine voor procesautomatisering is afhankelijk van de systeembatchtaak **Procesautomatisering navragen systeemtaak** die moet worden uitgevoerd. De taak mag op geen enkel moment worden gewijzigd of aan de taak worden geknoeid. 
+Alle processen die in functiebeheer zijn uitgeschakeld, worden niet weergegeven wanneer de functie is uitgeschakeld. Bovendien worden met de planningsengine voor procesautomatisering geen exemplaren of achtergrondprocessen gepland voor een uitgeschakelde functie. Als u de functie opnieuw inschakelt, worden alle in het verleden geplande gebeurtenissen of achtergrondprocessen onmiddellijk uitgevoerd. De planningsengine voor procesautomatisering is afhankelijk van de systeembatchtaak **Procesautomatisering navragen systeemtaak** die moet worden uitgevoerd. De taak mag op geen enkel moment worden gewijzigd of aan de taak worden geknoeid. Als deze batchtaak niet wordt uitgevoerd of als deze een foutstatus heeft, selecteert u **Procesautomatisering initialiseren** om de batch taak opnieuw in te stellen. Door deze reset worden alle nieuwe automatiseringen geïnitialiseerd die in een recentere versie van de toepassing zijn vrijgegeven. 
 
 ## <a name="calendar-view"></a>Kalenderweergave
 

@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f97244f48cdfde6f9e91a459b123068480b9c80b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 81c20432a3094ef0fe3013c0867044ef3014adcb
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891113"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124613"
 ---
 # <a name="learning-catalog-for-business-decision-makers-considering-dynamics-365-supply-chain-management"></a>Trainingscatalogus voor zakelijke besluitvormers die Dynamics 365 Supply Chain Management overwegen
 
@@ -31,7 +31,7 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 |---------|-------------|--------|--------|
 | [De bedrijfswaarde van Microsoft Dynamics 365 en Power Platform leren kennen](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Wilt u graag meer weten over zakelijke toepassingen? Misschien weet u niet waar u moet beginnen de toepassingen Microsoft Dynamics 365 en Power Platform? Lees hoe de kracht van zakelijke toepassingen uw bedrijf kan helpen transformeren. | Gratis online leertraject voor zelfstudie | 7 uur |
 | [Grondbeginselen van Dynamics 365 en Power Platform](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Wilt u graag meer weten over zakelijke toepassingen? Begin met dit leertraject om te zien hoe Dynamics 365-apps worden gebruikt. Lees over cloudconcepten, Power Platform en hoe u aan de slag gaat met Dynamics 365-apps. | Gratis online leertraject voor zelfstudie | 5.5 uur |
-| [Aan de slag met apps voor financiële en bedrijfsactiviteiten](/learn/paths/get-started-finance-operations/) | Informatie over hoe apps voor financiële en bedrijfsactiviteiten bedrijven ondersteunen om hun algemene financiële systemen, operationele bedrijfsprocessen en gestroomlijnde toeleveringsketens te beheren om mensen te helpen snelle en gefundeerde beslissingen te nemen. Als eerste stap bij het werken met apps voor financiële en bedrijfsactiviteiten moet u vertrouwd raken met de voorzieningen en de functionaliteit, ongeacht uw gewenste rol. | Gratis online leertraject voor zelfstudie | 2 uur |
+| [Aan de slag met apps voor financiën en bedrijfsactiviteiten](/learn/paths/get-started-finance-operations/) | Informatie over hoe apps voor financiën en bedrijfsactiviteiten bedrijven ondersteunen om hun algemene financiële systemen, operationele bedrijfsprocessen en gestroomlijnde toeleveringsketens te beheren om mensen te helpen snelle en gefundeerde beslissingen te nemen. Als eerste stap bij het werken met apps voor financiën en bedrijfsactiviteiten moet u vertrouwd raken met de voorzieningen en de functionaliteit, ongeacht uw gewenste rol. | Gratis online leertraject voor zelfstudie | 2 uur |
 | [Cursus MB-900T01-A: Grondbeginselen van Dynamics 365](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | In deze cursus wordt de cursist vertrouwd gemaakt met de functionaliteit en de bedrijfswaarde van Dynamics 365. In de cursus komen Dynamics 365-toepassingen, het Power Platform, cloud concepten, het beveiligingsmodel en licentieoverwegingen aan de orde. | Geleid door een docent of online training, kosten variëren per regio en partner | 1 dag |
 | [Aan de slag met Asset Management voor Dynamics 365 Supply Chain Management](/learn/modules/get-started-asset-management/index) | Activabeheer is een module voor het beheren van activa en onderhoudstaken in Dynamics 365 Supply Chain Management. Met Activabeheer kunt u taken met betrekking tot het beheren en onderhouden van vele soorten apparatuur in uw bedrijf efficiënt beheren en uitvoeren, bijvoorbeeld machines, productieapparatuur en voertuigen. Activabeheer ondersteunt oplossingen in tal van industrieën. | Gratis online leermodule voor zelfstudie | 1 uur |
 | [Aan de slag met de Engineering Change Management-invoegtoepassing voor Dynamics 365 Supply Chain Management](/learn/modules/get-started-engineering-change-management/) | Met Dynamics 365 Supply Chain Management kunnen werknemers en organisaties een uniforme weergave verkrijgen van de voorraad, magazijn, productie, service en logistiek. Deze omvat een voorspelbare analyse waarmee gegevens worden omgezet in inzichten om betere strategische beslissingen te ondersteunen. | Gratis online leermodule voor zelfstudie | 2 uur |

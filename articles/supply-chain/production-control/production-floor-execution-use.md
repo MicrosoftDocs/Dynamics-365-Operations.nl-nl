@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 2ee316a3e6a6baef7aa8b5d46b04a2d1bb07a641
-ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
+ms.openlocfilehash: 0d857ef31e0fed2a0d7550197209fac9251d8812
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "9022499"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069781"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hoe werknemers de uitvoeringsinterface voor de werkvloer gebruiken
 
@@ -217,7 +217,7 @@ Werknemers kunnen het materiaalverbruik voor artikelen met een catch weight aanp
 
 In het dialoogvenster **Materiaal aanpassen** kan een medewerker materiaalreserveringen maken en aanpassen door **Materiaal reserveren** te selecteren. In het dialoogvenster **Materiaal reserveren** dat verschijnt, wordt de fysiek beschikbare voorraad voor het artikel weergegeven voor elke opslag- en traceringsdimensie.
 
-Als het materiaal is ingeschakeld voor de geavanceerde magazijnprocessen, bevat de lijst alleen de fysiek beschikbare voorraad voor de productie-invoerlocatie voor het materiaal. De productie-invoerlocatie wordt gedefinieerd voor de resource waar de productietaak is gepland. Als het artikelnummer een batch- of serienummer is, wordt de volledige lijst met fysiek beschikbare batch- en serienummers weergegeven. Als u een te reserveren hoeveelheid wilt opgeven, kan de medewerker **Materiaal reserveren** selecteren . Als u een bestaande reservering wilt verwijderen, kan de medewerker **Reservering verwijderen** selecteren .
+Als het materiaal is ingeschakeld voor magazijnbeheerprocessen (WMS), bevat de lijst alleen de fysiek beschikbare voorraad voor de productie-invoerlocatie voor het materiaal. De productie-invoerlocatie wordt gedefinieerd voor de resource waar de productietaak is gepland. Als het artikelnummer een batch- of serienummer is, wordt de volledige lijst met fysiek beschikbare batch- en serienummers weergegeven. Als u een te reserveren hoeveelheid wilt opgeven, kan de medewerker **Materiaal reserveren** selecteren . Als u een bestaande reservering wilt verwijderen, kan de medewerker **Reservering verwijderen** selecteren .
 
 Zie voor meer informatie over het instellen van de productie-invoerlocatie het volgende blogbericht: [De productie-invoerlocatie instellen](/archive/blogs/axmfg/deliver-picked-materials-to-the-locations-where-the-materials-are-consumed-by-operations-in-production).
 

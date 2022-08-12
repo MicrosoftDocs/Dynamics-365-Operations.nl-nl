@@ -1,7 +1,7 @@
 ---
 title: Problemen oplossen met importeren van bankafschriftbestanden
 description: In dit artikel wordt uitgelegd hoe u problemen oplost die worden veroorzaakt door kleine verschillen in het bankafschriftbestand.
-author: panolte
+author: angelad116
 ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
@@ -12,19 +12,22 @@ ms.reviewer: kfend
 ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 422b2df6c4de3a948b0e62bfb70f99b12e04a8f9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 44658ea48b9f7dae76c34c5f3d8828c9e8c4ac32
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711168"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151755"
 ---
 # <a name="bank-statement-file-import-troubleshooting"></a>Problemen oplossen met importeren van bankafschriftbestanden
 
 [!include [banner](../includes/banner.md)]
+
+>[!NOTE]
+>Deze functionaliteit wordt afgeschaft in september 2022. Nieuwe gebruikers moeten elektronische rapportage gebruiken.
 
 Het is belangrijk dat het bankafschriftbestand van de bank overeenkomt met de indeling die Microsoft Dynamics 365 Finance ondersteunt. Vanwege strikte normen voor bankafschriften zullen de meeste integratie correct functioneren. Soms kan echter het afschriftbestand niet worden geïmporteerd of geeft onjuiste resultaten. Doorgaans worden deze problemen veroorzaakt door kleine verschillen in het bankafschriftbestand. In dit artikel wordt uitgelegd hoe u deze verschillen kunt oplossen.
 
@@ -39,7 +42,7 @@ Nadat u hebt geprobeerd een bankafschriftbestand te importeren, gaat u naar de g
 Vergelijk de indelingsdefinitie van het bankbestand met de importdefinitie van Finance en noteer eventuele verschillen tussen de velden en de elementen. Vergelijk het bankafschriftbestand met het gerelateerde Finance-voorbeeldbestand. Eventuele verschillen moeten gemakkelijk te zien zijn in de ISO20022-bestanden.
 
 ## <a name="time-zone-differences-on-imported-bank-statements"></a>Verschillen in tijdzones op geïmporteerde bankafschriften
-De datum-/tijdwaarden in het importbestand kunnen verschillen van de datum-/tijdwaarden die worden weergegeven in Finance and Operations. U kunt dit verschil voorkomen door een tijdzonevoorkeur in te voeren op de pagina **Gegevensbronnen configureren**. Zie [Het importproces voor geavanceerde bankafstemming instellen](set-up-advanced-bank-reconciliation-import-process.md) voor meer informatie over het invoeren van een tijdzonevoorkeur.
+De datum-/tijdwaarden in het importbestand kunnen verschillen van de datum-/tijdwaarden die worden weergegeven in apps voor financiën en bedrijfsactiviteiten. U kunt dit verschil voorkomen door een tijdzonevoorkeur in te voeren op de pagina **Gegevensbronnen configureren**. Zie [Het importproces voor geavanceerde bankafstemming instellen](set-up-advanced-bank-reconciliation-import-process.md) voor meer informatie over het invoeren van een tijdzonevoorkeur.
 
 ## <a name="transformations"></a>Transformaties
 Doorgaans moeten wijzigingen worden doorgevoerd in één van drie transformaties. Elke transformatie is geschreven voor een specifieke standaard.
@@ -109,3 +112,4 @@ In de onderstaande tabel ziet u voorbeelden van de technische indelingsdefinitie
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -1,31 +1,32 @@
 ---
 title: Power BI-inhoud Organisatietraining
-description: In dit artikel wordt Power BI-inhoud voor organisatietraining in Finance and Operations beschreven.
+description: In dit artikel wordt Power BI-inhoud voor organisatietraining in apps voor financiën en bedrijfsactiviteiten beschreven.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom: 263874
-ms.assetid: 45dbba14-aba6-4571-be0d-5d1aba3515d9
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ba332fc0c241969cbe0c25e7985101a2bbe12be4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "263874"
+ms.assetid: 45dbba14-aba6-4571-be0d-5d1aba3515d9
+ms.openlocfilehash: 7b8f6c1b32876af3a6992ff73c6898ce5307c5a2
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892416"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206750"
 ---
 # <a name="organizational-training-power-bi-content"></a>Power BI-inhoud Organisatietraining
 
 [!include [banner](../includes/banner.md)]
 
-In dit artikel wordt Power BI-inhoud voor organisatietraining in Finance and Operations beschreven.
+In dit artikel wordt Power BI-inhoud voor organisatietraining in apps voor financiën en bedrijfsactiviteiten beschreven.
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Rapporten die zijn opgenomen in het inhoudpakket
 Nadat u het inhoudpakket aan uw gegevens hebt gekoppeld, geven de rapporten de gegevens van uw organisatie weer. Als u Microsoft Power BI nog niet eerder hebt gebruikt, raadpleegt u de pagina [Guided Learning for Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). De rapporten die zijn opgenomen in het inhoudpakket, bevatten diagrammen en tabellen met aanvullende informatie. De onderstaande tabel geeft een overzicht van de rapporten.

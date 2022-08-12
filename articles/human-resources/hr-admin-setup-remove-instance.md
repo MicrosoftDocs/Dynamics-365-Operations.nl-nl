@@ -1,6 +1,6 @@
 ---
 title: Een exemplaar verwijderen
-description: In dit artikel wordt u door het proces van het verwijderen van een testdrive- of productieomgeving voor Microsoft Dynamics 365 Human Resources geleid.
+description: In dit artikel wordt het proces van het verwijderen van een testdrive- of productieomgeving voor Microsoft Dynamics 365 Human Resources beschreven.
 author: twheeloc
 ms.date: 08/11/2021
 ms.topic: article
@@ -14,16 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4256938be70f301d3d7b7663f10addb19725b048
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0ce676c93e133cc04ad9c49417ed2ca0d6791e93
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859628"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178467"
 ---
 # <a name="remove-an-instance"></a>Een exemplaar verwijderen
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Is van toepassing op:** Human resources in de zelfstandige infrastructuur_ 
+
+> [!NOTE]
+> Vanaf juli 2022 kunnen er geen nieuwe Human Resources-omgevingen worden ingericht in de zelfstandige Human Resources-infrastructuur en er kunnen geen nieuwe Microsoft Dynamics LCS-projecten (Lifecycle Services) in worden gemaakt. Klanten kunnen Human Resources-omgevingen implementeren in de infrastructuur voor financiën en bedrijfsactiviteiten. Zie voor meer informatie [Human Resources in de infrastructuur voor financiën en bedrijfsactiviteiten inrichten](/hr-admin-setup-provision-fo.md).
+
+> [!IMPORTANT]
+> De infrastructuur van de app voor financiën en bedrijfsactiviteiten ondersteunt het verwijderen van een omgeving. Zie [Een omgeving verwijderen](../fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure.md#delete-an-environment) voor meer informatie over het verwijderen van een omgeving.
 
 In dit artikel wordt het proces van het verwijderen van een testdrive- of productieomgeving voor Microsoft Dynamics 365 Human Resources uitgelegd.
 
@@ -42,7 +48,10 @@ De bestaande testdrive-omgeving wordt verwijderd. Wanneer deze is verwijderd, ku
 
 In dit artikel wordt ervan uitgegaan dat u Human Resources hebt aangeschaft via een provider van cloudoplossingen of een EA-overeenkomst (Enterprise Architecture). 
 
-Aangezien één Human Resources-omgeving is opgenomen in één Power Apps-omgeving, zijn twee opties mogelijk. De eerste optie is het verwijderen van de gehele Power Apps-omgeving; bij de tweede optie verwijdert u alleen Human Resources. De eerste optie is het beste wanneer u een Power Apps-omgeving speciaal voor Human Resources hebt gemaakt en u net met de implementatie bent begonnen, of wanneer er geen integratie is uitgevoerd. De tweede optie is geschikt wanneer u een Power Apps-omgeving hebt die is voorzien van veel gegevens, die worden gebruikt in Power Apps en Power Automate.
+Aangezien één Human Resources-omgeving is opgenomen in één Power Apps-omgeving, kunnen twee opties worden overwogen bij het verwijderen van een omgeving: 
+- **De gehele Power Apps-omgeving verwijderen.** Deze optie heeft de voorkeur wanneer de Power Apps-omgeving speciaal voor de inrichting van Human Resources is gemaakt, de implementatie net is begonnen of wanneer u geen ingestelde integraties hebt.  
+- **Alleen Human Resources verwijderen.** Deze optie is geschikt wanneer er een ingestelde Power Apps-omgeving is waarin veel gegevens zijn ingevuld die worden gebruikt in Microsoft Power Apps en Power Automate.
+
 
 > [!Important]
 > Controleer voordat u de Power Apps-omgeving verwijdert, of deze niet wordt gebruikt voor de integratie van gegevens buiten het bereik van Human Resources. Houd er ook rekening mee dat de standaard Power Apps-omgevingen niet kunnen worden verwijderd. 
@@ -73,7 +82,7 @@ Als u een Human Resources-omgeving wilt verwijderen uit een bestaande Power Apps
 
 ## <a name="recover-a-soft-deleted-environment"></a>Een zacht verwijderde omgeving herstellen
 
-Als u de Power Apps-omgeving verwijdert waarop uw HRM-omgeving is aangesloten, wordt de status van de human resources-omgeving in Lifecycle Services **zacht verwijderd**. In dit geval kunnen gebruikers geen verbinding maken met human resources.
+Als u de Power Apps-omgeving verwijdert waarmee uw Human Resources-omgeving is verbonden, wordt de status van de Human Resources-omgeving in LCS **Voorlopig verwijderd**. In dit geval kunnen gebruikers geen verbinding maken met human resources.
 
 De omgeving herstellen:
 

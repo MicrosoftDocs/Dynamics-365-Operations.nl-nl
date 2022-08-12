@@ -16,19 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9bd208ba78d28046782d03221b0f23471f56b574
-ms.sourcegitcommit: 3f544f8671821be915b289a614e4e440bd38994f
+ms.openlocfilehash: ec2a9f5ca6d6735e675defda6782738da7814c01
+ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "8941761"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "9171450"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>De mobiele app Warehouse Management installeren en verbinden
 
 [!include [banner](../includes/banner.md)]
-
-> [!NOTE]
-> In dit artikel wordt beschreven hoe u de nieuwe mobiele app Warehouse Management configureert. Zie [De magazijnapp installeren en verbinden](../../supply-chain/warehousing/install-configure-warehousing-app.md) als u informatie zoekt over het configureren van de oude magazijnapp (die nu is afgeschaft).
 
 In dit artikel wordt uitgelegd hoe u de mobiele app Warehouse Management downloadt en op al uw mobiele apparaten installeert en hoe u de app configureert om verbinding te maken met uw Supply Chain Management-omgeving. U kunt elk apparaat handmatig configureren of u kunt verbindingsinstellingen importeren via een bestand of door een QR-code te scannen.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 22788dff1ee29b6920426d8ff00d412c3d5564e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f2f51a095a23b651dca645b14e652519f20037e2
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853069"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070553"
 ---
 # <a name="create-variable-compensation-plans"></a>Variabelecompensatieplannen maken
 
@@ -42,7 +42,11 @@ De berekening van variabele compensatiebedragen voor uw werknemers kan worden ge
 Bedrijven kunnen desgewenst **vestigingsregels** instellen. Met **vestigingsregels** wordt beschreven hoe de variabele beloning na verloop van tijd moet worden toegewezen. Een vestigingsregel kan bijvoorbeeld aangeven dat de werknemer 25 procent van de totale beloning elk jaar voor de volgende vier jaar ontvangt. Vestigingsregels zijn alleen ter informatie.
 
 ## <a name="variable-compensation-plans"></a>Variabelecompensatieplannen
-Het **variabelecompensatieplan** bevat de regels, de berekeningsmethoden en de standaardwaarden voor de berekening van variabele compensatie voor ingeschreven werknemers. Wanneer u een variabel compensatieplan maakt, moet u het variabele compensatietype instellen. Met het variabele compensatietype wordt bepaald of een valutabedrag of een aantal eenheden als beloning wordt berekend. U moet de berekeningsmethode ook instellen:
+Het **variabelecompensatieplan** bevat de regels, de berekeningsmethoden en de standaardwaarden voor de berekening van variabele compensatie voor ingeschreven werknemers. Wanneer u een variabel compensatieplan maakt, moet u het variabele compensatietype instellen. Met het variabele compensatietype wordt bepaald of een valutabedrag of een aantal eenheden als beloning wordt berekend. 
+
+Met de parameter **Toegang beperken tot geselecteerde rollen** wordt de toegang tot het compensatieplan beperkt tot geselecteerde beveiligingsrollen die aan dit plan zijn toegewezen in Human Resources. Wanneer u bijvoorbeeld compensatieplannen maakt die voor leidinggevenden zijn en niet voor alle HR-specifieke rollen zichtbaar mogen zijn, kunt u deze parameter gebruiken om de toegang tot deze compensatieplannen te beperken. 
+
+U moet de berekeningsmethode ook instellen:
 
 -   **Punt in tijd**: de berekening van de variabele beloning is gebaseerd op de vaste compensatie die de werknemer op een bepaalde datum had. Met deze datum is in de procesgebeurtenis opgegeven wanneer nieuwe compensatiebedragen worden verwerkt.
 -   **Samengesteld**: een toekenningsbedrag wordt berekend voor elk uniek vast compensatiesalaristarief dat de werknemer tussen de begindatum en de einddatum van de cyclus voor de procesgebeurtenis had. De tarieven worden vervolgens samen opgeteld om de definitieve beloning vast te stellen. Voorbeeld: een werknemer die tijdens de cyclus naar een andere positie is overgeplaatst waarvoor een ander loontarief geldt. In dit geval wordt de variabele toekenning aangepast aan de tijd gedurende welke de werknemer elk salaristarief had.

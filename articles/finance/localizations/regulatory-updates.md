@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 04cc8b4272bcedc7db27b0d76eccdc6375641933
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 129e4e1d44018da206d0e797dcfd389c9e6adeba
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904276"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206162"
 ---
 # <a name="regulatory-updates"></a>Wettelijk voorgeschreven updates
 
@@ -39,27 +39,19 @@ Raadpleeg de volgende tabel voor de meest recente plannen voor wettelijke update
 
 |Land/regio|Datum vrijgeven|Versie van release|Wettelijke update|
 |--------------------|---------------|-------|-------| 
-|      Brazilië         |   2021 december         | 10.0.25         |    SPED Fiscal-indeling 2022  |
-|      Brazilië         |   2022 maart    | 10.0.25HF, 10.0.26HF, 10.0.27        |    ICMS-DIFAL-incasso in bewerkingen die gericht zijn op niet-btw-belastingbetalers (aanvullende wet nr. 190/22)  |
-|      Brazilië         |   2022 maart         | 10.0.26HF         |    SPED Fiscal - Nieuwe velden in de record C500 (34-40) voor inkomende fiscale documenten  |
+|      Brazilië         |   2022 maart    | 10.0.27        |    ICMS-DIFAL-incasso in bewerkingen die gericht zijn op niet-btw-belastingbetalers (aanvullende wet nr. 190/22)  |
 |      Brazilië         |   2022 maart         | 10.0.27         |    NF-e NT2021.004  v1.00 - Indeling en validatieregels bijgewerkt  |
 |      Brazilië         |   2022 maart         | 10.0.27         |    NF-e NT2021.004  v1.00 - Indeling en validatieregels bijgewerkt - Retail  |
-|      Denemarken         |   2022 januari  | 10.0.25HF         |    Voorbeeld van de btw-aangifte in Excel |
-|      Finland         |   2022 januari  | 10.0.26         |    Btw-aangifte in TXT en voorbeeld in Excel |
-|      Frankrijk   |   november 2021 | 10.0.25         |    Franse gegevensarchiveringsexport (FEC) - Bijlage 'Verantwoording van ontbrekende getallen' |
-|      Italië         |   2022 februari | 10.0.25HF, 10.0.26| Uniek certificering - 2022 in Dynamics 365 Finance  |
-|      Litouwen|   2022 februari | 10.0.25HF, 10.0.26HF, 10.0.27 | i.SAF-wijzigingen van 2022-01-01 in Dynamics 365 Finance  |
-|      Maleisië|   2022 februari |10.0.26HF | SST-02 btw-aangifte. Wijzigingen in vakken  |
-|      Mexico         |   2022 januari      | 10.0.26      |   MX - CFDI versie 4.0 (annulering)  |
-|      Mexico         |   2022 maart      | 10.0.25, 10.0.26, 10.0.26      |   CFDI-indelingen versie 4.0 (facturen en betalingen)  |
+|      Brazilië         |   2022 april         | 10.0.27HF, 10.0.28         |    SPED ECF - LAYOUT 8  |
+|      Oost-Europa         |   Juli 2022         | 10.0.27HF, 10.0.28HF, 10.0.29         |    Grootboekoverzicht per hoofdrekening  |
+|      Litouwen|   2022 februari | 10.0.27 | i.SAF-wijzigingen van 2022-01-01 in Dynamics 365 Finance  |
+|      Mexico         |   2022 maart      | 10.0.27      |   CFDI-indelingen versie 4.0 (facturen en betalingen)  |
 |      Mexico         |   2022 februari      | 10.0.27      |   Vanaf 1 januari 2022 wordt versie 4.0 van het CFDI van kracht. In de periode 1 januari t/m 30 juni 2022 zullen de versies 3.3 en 4.0 naast elkaar bestaan.  |
-|      Mexico         |   2022 maart      | 10.0.25, 10.0.26, 10.0.27      |   CFDI-indelingen versie 4.0 (bronbelasting)  |
-|      Polen          |   2022 april     | 10.0.25HF, 10.0.26HF, 10.0.27HF     |   JPK_FA versie 4 vanaf 1 april 2022 JPK_V7M - nieuwe schemaversie vanaf januari 2022 |
-|      Rusland          |   2022 januari     | 10.0.25    |   Een bestemming voor elektronische rapportage (ER) inschakelen voor de opslag van Russische boekhoudingsdocumenten (primaire documenten en boekhoudrapporten)|
-|      Rusland          |   2021 december     | 10.0.25    |   Module voor integratie van vaste activa (Rusland) met module Activabeheer|
-|      Rusland          |   maart-april 2022     | 10.0.25, 10.0.26    |  Nieuwe indeling van transportfactuur (overheidsbesluit N 2116 30.11.2021)|
-|      Spanje      |   2022 maart| 10.0.25HF, 10.0.26HF, 10.0.27 | Btw-aangiftemodel 303 verandert per 1 januari 2022 in Dynamics 365 Finance|
-
+|      Mexico         |   2022 maart      | 10.0.27      |   CFDI-indelingen versie 4.0 (bronbelasting)  |
+|      Polen          |   2022 april     | 10.0.27HF, 10.0.28     |   JPK_FA versie 4 vanaf 1 april 2022 JPK_V7M - nieuwe schemaversie vanaf januari 2022 |
+|      Rusland          |   2022 juni     | 10.0.27    |  Rapport over bewerkingen met traceerbare producten (op het gebied van het afschrijven van ingekochte traceerbare goederen, zoals beeldschermen, koelkasten en kantoormeubilair voor eigen gebruik)|
+|      Singapore      |   Juli 2022| 10.0.27HF, 10.0.28HF, 10.0.29 | IRAS Audit File (IAF) in TXT-indeling|
+|      Spanje      |   2022 maart| 10.0.27 | Btw-aangiftemodel 303 verandert per 1 januari 2022 in Dynamics 365 Finance|
 
 
 ## <a name="additional-resources"></a>Aanvullende bronnen

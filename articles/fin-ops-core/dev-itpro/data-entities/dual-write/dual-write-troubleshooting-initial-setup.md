@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5ebb14dad723fad5b17b4dfca153bf153e77bbd4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2e2759ff15dd8d146c642fc0da90d1a38fe855d1
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882079"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111195"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Problemen tijdens de initiële instelling oplossen
 
@@ -22,20 +22,20 @@ ms.locfileid: "8882079"
 
 
 
-Dit artikel bevat informatie voor het oplossen van problemen met de integratie van Twee keer wegschrijven tussen apps voor financiële en bedrijfsactiviteiten en Dataverse. In dit onderwerp vindt u specifieke informatie over het oplossen van problemen die kunnen optreden tijdens de eerste installatie van de integratie van twee keer wegschrijven.
+Dit artikel bevat informatie voor het oplossen van problemen met de integratie van Twee keer wegschrijven tussen apps voor financiën en bedrijfsactiviteiten en Dataverse. In dit onderwerp vindt u specifieke informatie over het oplossen van problemen die kunnen optreden tijdens de eerste installatie van de integratie van twee keer wegschrijven.
 
 > [!IMPORTANT]
 > In sommige problemen die in dit artikel worden beschreven, is mogelijk de rol van systeembeheerder vereist of de referenties van de Microsoft Azure Active Directory-tenantbeheerder (Azure AD). In de sectie voor elk probleem wordt uitgelegd of een specifieke rol of referenties vereist zijn.
 
-## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>U kunt een app voor financiële en bedrijfsactiviteiten niet koppelen aan Dataverse
+## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>U kunt een app voor financiën en bedrijfsactiviteiten niet koppelen aan Dataverse
 
-**Vereiste rol om twee keer wegschrijven in te stellen**: systeembeheerder in apps voor financiële en bedrijfsactiviteiten en Dataverse.
+**Vereiste rol om twee keer wegschrijven in te stellen**: systeembeheerder in apps voor financiën en bedrijfsactiviteiten en Dataverse.
 
 Fouten op de pagina **Koppeling instellen met Dataverse** worden meestal veroorzaakt door problemen met onvolledige instellingen of machtigingen. Controleer of de volledige statuscontrole is geslaagd op de pagina **Koppeling instellen met Dataverse**, zoals wordt weergegeven in de volgende afbeelding. U kunt twee keer wegschrijven niet koppelen, tenzij de hele statuscontrole is geslaagd.
 
 ![Geslaagde statuscontrole.](media/health_check.png)
 
-U moet beschikken over referenties als Azure AD-tenantbeheerder om te kunnen koppelen met de Finance and Operations- en Dataverse-omgevingen. Nadat u de omgevingen hebt gekoppeld, kunnen gebruikers zich aanmelden met hun accountreferenties en een bestaande tabeltoewijzing bijwerken.
+U moet beschikken over referenties als Azure AD-tenantbeheerder om te kunnen koppelen met de Finance + Operations- en Dataverse-omgevingen. Nadat u de omgevingen hebt gekoppeld, kunnen gebruikers zich aanmelden met hun accountreferenties en een bestaande tabeltoewijzing bijwerken.
 
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>De limiet zoeken voor het aantal rechtspersonen of bedrijven dat kan worden gekoppeld voor twee keer wegschrijven
 
@@ -55,7 +55,7 @@ Twee keer wegschrijven biedt geen ondersteuning voor meerdere rechtspersonen/bed
 
 Als u de blokkering van de klant wilt opheffen, verwijdert u dubbele records uit de tabel **cdm_company** in Dataverse. Verwijder of corrigeer die records ook als de tabel **cdm_company** records bevat waarvan de naam leeg is.
 
-## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Fout bij het openen van de pagina Twee keer wegschrijven in apps voor financiële en bedrijfsactiviteiten
+## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Fout bij het openen van de pagina Twee keer wegschrijven in apps voor financiën en bedrijfsactiviteiten
 
 Het volgende foutbericht kan worden weergegeven wanneer u een Dataverse-omgeving voor twee keer wegschrijven probeert te koppelen.
 
@@ -70,22 +70,23 @@ Deze fout treedt op wanneer de stap voor toestemming van de app niet is voltooid
     `https://login.microsoftonline.com/common/oauth2/authorize?client_id=33976c19-1db5-4c02-810e-c243db79efde&response_type=code&prompt=admin_consent`
 
 + Selecteer **Accepteren** om toestemming te verlenen. U geeft de toestemming om de app te installeren (met `id=33976c19-1db5-4c02-810e-c243db79efde`) in uw tenant.
-+ Deze app is vereist voor Dataverse om te communiceren met apps voor financiële en bedrijfsactiviteiten.
++ Deze app is vereist voor Dataverse om te communiceren met apps voor financiën en bedrijfsactiviteiten.
 
     ![Problemen oplossen tijdens de initiële synchronisatie](media/Initial-sync-setup-troubleshooting-1.png)
 
 > [!NOTE]
 > Als dit niet werkt, opent u de URL in de privémodus van Microsoft Edge of in de incognitomodus van Chrome.
 
-## <a name="finance-and-operations-environment-is-not-discoverable"></a>De client voor financiële en bedrijfsactiviteiten is niet te vinden
+## <a name="finance-and-operations-environment-is-not-discoverable"></a>De omgeving voor financiën en bedrijfsactiviteiten is niet te vinden
 
 Mogelijk wordt het volgende foutbericht weergegeven:
 
-*Omgeving van apps voor financiële en bedrijfsactiviteiten \*\*\*.cloudax.dynamics.com is niet te vinden.*
+*Omgeving van apps voor financiën en bedrijfsactiviteiten \*\*\*.cloudax.dynamics.com is niet te vinden.*
 
 Er zijn twee zaken die een probleem kunnen veroorzaken met een omgeving die niet detecteerbaar is:
 
-+ De gebruiker die voor het aanmelden wordt gebruikt, bevindt zich niet in dezelfde tenant als het Finance and Operations-exemplaar.
-+ Er zijn enkele verouderde exemplaren van Finance and Operations die door Microsoft werden gehost en waarbij een probleem optrad bij de detectie. U kunt dit verhelpen door het exemplaar van Finance and Operations bij te werken. De omgeving is bij elke update detecteerbaar.
++ De gebruiker die voor het aanmelden wordt gebruikt, bevindt zich niet in dezelfde tenant als het Finance + Operations-exemplaar.
++ Er zijn enkele verouderde exemplaren van Finance + Operations die door Microsoft werden gehost en waarbij een probleem optrad bij de detectie. U kunt dit verhelpen door het exemplaar van Finance + Operations bij te werken. De omgeving is bij elke update detecteerbaar.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

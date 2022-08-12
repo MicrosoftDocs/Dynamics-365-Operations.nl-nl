@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d8c79057c157f9f0244ea11ad5c3563dcdb21a5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ea9355b040c6431f5ddcccc4aaa0de73e21ad299
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866180"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124553"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Verwijderde of afgeschafte functies in eerdere releases
 
@@ -28,7 +28,7 @@ ms.locfileid: "8866180"
 
 
 > [!IMPORTANT]
-> Dit artikel wordt niet meer bijgewerkt. Als u een actuele lijst met functies wilt weergeven die zijn verwijderd of afgeschaft in apps voor financiële en bedrijfsactiviteiten, zoekt u naar de inhoud **Verwijderde of afgeschafte functies** die betrekking heeft op de app die u gebruikt.
+> Dit artikel wordt niet meer bijgewerkt. Als u een actuele lijst met functies wilt weergeven die zijn verwijderd of afgeschaft in apps voor financiën en bedrijfsactiviteiten, zoekt u naar de inhoud **Verwijderde of afgeschafte functies** die betrekking heeft op de app die u gebruikt.
 
 In dit artikel worden de functies beschreven die zijn verwijderd of afgeschaft in Dynamics 365 for Finance and Operations en eerdere versies van dat product.
 
@@ -37,7 +37,7 @@ In dit artikel worden de functies beschreven die zijn verwijderd of afgeschaft i
 
 Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning rekening te houden met deze verwijderingen en afschaffingen. 
 
-Gedetailleerde informatie over objecten in apps voor financiële en bedrijfsactiviteiten is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van apps voor financiële en bedrijfsactiviteiten.
+Gedetailleerde informatie over objecten in apps voor financiën en bedrijfsactiviteiten is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van apps voor financiën en bedrijfsactiviteiten.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 met Platformupdate 31
 
@@ -302,7 +302,7 @@ Ingesloten prestatie-indicatoren (KPI's) kunnen worden gemodelleerd in Visual St
 | **Vervangen door een andere functie?**   | Deze waarschuwing wordt in de toekomst vervangen door een compilatiefout. |
 | **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's |
 | **Implementatieoptie**              | Alle |
-| **Status**                         | Afgeschaft: de waarschuwing is een compilatietijdfout in platformupdates voor versie 10.0.11 van apps voor financiële en bedrijfsactiviteiten. |
+| **Status**                         | Afgeschaft: de waarschuwing is een compilatietijdfout in platformupdates voor versie 10.0.11 van apps voor financiën en bedrijfsactiviteiten. |
 
 #### <a name="complete-list"></a>Volledige lijst
 Raadpleeg voor toegang tot de volledige lijst met API's [Afschaffing van methoden en metagegevenselementen](deprecation-deletion-apis.md).
@@ -1417,3 +1417,4 @@ De Windows 8-tabletapp leverde functionaliteit voor het invoeren van onkosten en
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

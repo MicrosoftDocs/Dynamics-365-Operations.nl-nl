@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ee92ed2c0e2a59adaebe20ed3d426ac03c056dac
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ef4e6bf2ae59adb05c7d4aacc3f5675a5adcafc9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870837"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070048"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Mobiel werkgebied voor activabeheer instellen
 
@@ -50,7 +50,7 @@ Als u activabeheerfuncties beschikbaar wilt maken in de mobiele app Finance + Op
 
 1. Selecteer de tegel **Activabeheer** en selecteer **Publiceren** op de werkbalk. Na enkele seconden ontvangt u een melding dat het werkgebied met succes is gepubliceerd. Daarnaast moet de tekst op de tegel veranderen in 'In metagegevens - gepubliceerd'.
 
-## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>Installeer en configureer de mobiele app Finance + Operations (Dynamics 365):
+## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>De mobiele app Finance + Operations (Dynamics 365) installeren en instellen
 
 1. Ga naar een van de volgende app-stores om de app **Microsoft Finance + Operations (Dynamics 365)** op uw mobiele apparaat te installeren:
 

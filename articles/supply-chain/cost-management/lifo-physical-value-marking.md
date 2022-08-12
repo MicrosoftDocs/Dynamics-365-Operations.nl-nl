@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45316c40cce988c0758e70af627b0123ec1f7873
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c1acc103291c5d648ac7e179a598348cd9cc2a93
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670435"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135564"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO met fysieke waarde en markering
 
@@ -128,7 +128,7 @@ De volgende afbeelding geeft deze transacties weer:
 - 6a. Fysieke voorraaduitgifte voor een hoeveelheid van 1 met een kostprijs van USD 23,00 (lopend gemiddelde van financieel geboekte transacties)
 - 7\. Voorraadafsluiting is uitgevoerd. Op basis van het markeringsprincipe waarin de LIFO-methode wordt gebruikt, worden de gemarkeerde transacties met elkaar vereffend. In dit voorbeeld wordt 3b vereffend met 2b en wordt een correctie voor USD 6,00 geboekt naar 3b om de waarde op USD 22,00 te brengen. In dit voorbeeld worden er geen extra vereffeningen gemaakt, omdat door de afsluiting alleen vereffeningen worden gemaakt voor financieel bijgewerkte transacties.
 
-De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en fysiek bijgewerkte transacties, USD 27,50.
+De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en fysiek bijgewerkte transacties, USD 17,50.
 
 In het volgende afbeelding worden de effecten van het LIFO-voorraadmodel op deze reeks transacties weergegeven wanneer markering tussen uitgiften en ontvangsten wordt gebruikt.
 

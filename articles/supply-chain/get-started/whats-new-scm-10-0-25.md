@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: af344d3771583a99851c070e3735258ac964b5d7
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: c54534ae32aa037f36a16600a058bca6d433002c
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954486"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9167726"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.25 (april 2022)
 
@@ -36,8 +36,7 @@ De volgende tabel vermeldt de functies die deze versie bevat. Mogelijk wordt dit
 | Voorraad en logistiek | [Verbeteringen gevaarlijke materialen](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/hazardous-materials-enhancements) | Binnenkort beschikbaar | Functiebeheer:<br>*Verbeteringen gevaarlijke materialen* |
 | Voorraad en logistiek | [Inpakwerk voor inpakstations](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | Binnenkort beschikbaar | Functiebeheer:<br>*Inpakwerk voor inpakstations* |
 | Voorraad en logistiek | [Streepjescodes scannen in het magazijn met behulp van GS1-indelingsstandaarden](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1-streepjescodes en QR-codes](../warehousing/gs1-barcodes.md) | Functiebeheer:<br>*GS1-streepjescode scannen* |
-| Productie | [Materiaalverbruik en reserveringen in de uitvoeringsinterface van de productievloer](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken](../production-control/production-floor-execution-use.md) | Functiebeheer:<br>*(Preview) Materiaalverbruik registreren op de uitvoeringsinterface van de werkvloer (niet-WMS)*<br><br>En/of:<br><br>Functiebeheer:<br>*(Preview) Materiaalverbruik registreren in de uitvoeringsinterface van de productievloer (WMS ingeschakeld)* |
-| Productie | [Materiaalverbruik voor schaaleenheden registreren](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [Werkbelasting voor productie-uitvoering voor cloud- en randschaaleenheden](../cloud-edge/cloud-edge-workload-manufacturing.md) | Functiebeheer:<br>*Materiaalverbruik op de mobiele app op een schaaleenheid registreren* |
+| Productie | [Materiaalverbruik en reserveringen in de uitvoeringsinterface van de productievloer](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken](../production-control/production-floor-execution-use.md) | Functiebeheer:<br>*Materiaalverbruik registreren in de uitvoeringsinterface van de werkvloer (niet-WMS)*<br><br>En/of:<br><br>Functiebeheer:<br>*(Preview) Materiaalverbruik registreren in de uitvoeringsinterface van de productievloer (WMS ingeschakeld)* |
 | Planning | [Gecentraliseerd onderhoud van kalenders voor Planningsoptimalisatie](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-centralized-calendar-maintenance) | [Kalenders en hoofdplanning](../master-planning/supply-chain-calendars-master-planning.md) | Standaard ingeschakeld |
 | Planning | [Suggesties voor Planningsoptimalisatie om bestaande voorraad te optimaliseren](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [Actieberichten](../master-planning/action-messages.md) | Standaard ingeschakeld |
 | Planning | Geplande orders vereenvoudigd | [Geplande orders vereenvoudigd](../master-planning/planning-optimization/planned-orders-simplified.md ) | Functiebeheer:<br>*Geplande orders vereenvoudigd* |
@@ -183,9 +182,9 @@ De tabel bevat ook functies die eerder in openbare preview waren, maar zijn gewi
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformupdates voor apps voor financiële en bedrijfsactiviteiten
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformupdates voor apps voor financiën en bedrijfsactiviteiten
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.25 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.25 van apps voor financiële en bedrijfsactiviteiten (april 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-25.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.25 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.25 van apps voor financiën en bedrijfsactiviteiten (april 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-25.md).
 
 ### <a name="bug-fixes"></a>Correcties
 
@@ -209,3 +208,4 @@ Twaalf maanden voordat een functie uit het product wordt verwijderd, wordt de af
 Voor ingrijpende wijzigingen die alleen van invloed zijn op de compilatietijd, maar binair compatibel zijn met sandbox- en productieomgevingen, is de afschaffingstijd korter dan 12 maanden. Meestal zijn dit functionele updates die moeten worden doorgevoerd in de compiler.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

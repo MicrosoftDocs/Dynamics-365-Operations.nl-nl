@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9a6b9cf8327f65371f8362a5729bb32746d900cd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ed83450592d85205743c9ff1aefd0e66e5d2b90c
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885981"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111954"
 ---
 # <a name="work-orders-and-fixed-assets"></a>Werkorders en vaste activa
 
 [!include [banner](../../includes/banner.md)]
 
 
-In Activabeheer kunnen activa worden gekoppeld aan vaste activa en kunt u werkorders voor deze activa maken. Als u deze functionaliteit gebruikt, kunt u een volledig overzicht krijgen van vaste activa, gerelateerde investeringsprojecten en de kosten die voor de investeringsprojecten zijn geregistreerd in de modules **Projectbeheer en boekhouding** en **Vaste activa** in Microsoft Dynamics 365 for Finance and Operations.
+In Activabeheer kunnen activa worden gekoppeld aan vaste activa en kunt u werkorders voor deze activa maken. Als u deze functionaliteit gebruikt, kunt u een volledig overzicht krijgen van vaste activa, gerelateerde investeringsprojecten en de kosten die voor de investeringsprojecten zijn geregistreerd in de module **Projectbeheer en boekhouding** en de module **Vaste activa** in de apps voor financiën en bedrijfsactiviteiten.
 
 >[!NOTE]
 >Het veld **Vaste-activanummer** in het project van de werkordertaak wordt alleen ingesteld als het projecttype **Investering** is geselecteerd in het project van de werkordertaak.

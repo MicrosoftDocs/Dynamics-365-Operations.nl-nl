@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 24d4a722ee143dc0869f758475aaf377e7a9e084
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: 817d7db5952f96fa741671166d88fffddaac84e9
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954516"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9166834"
 ---
 # <a name="tax-calculation-overview"></a>Overzicht van belastingberekening
 
@@ -29,7 +29,7 @@ Belastingberekening is een hyperschaalbare multitenantservice waarmee de Global 
 De functie voor het berekenen van belastingen wordt geïntegreerd met Dynamics 365 Finance en Dynamics 365 Supply Chain Management. Uiteindelijk wordt deze ook geïntegreerd met Dynamics 365 Project Operations, Dynamics 365 Commerce en andere toepassingen van dezelfde leverancier en derden.
 
 > [!IMPORTANT]
-> Wanneer u de Belastingberekening inschakelt, kunnen bepaalde bewerkingen op gerelateerde gegevens worden uitgevoerd in een ander datacentrum dan het datacentrum dat uw servicegegevens onderhoudt. Controleer de [Algemene voorwaarden](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) voor u Belastingberekening inschakelt. Uw privacy is belangrijk voor ons. Lees onze [Privacyverklaring](https://go.microsoft.com/fwlink/?LinkId=521839) voor meer informatie.
+> Wanneer u de Belastingberekening inschakelt, kunnen bepaalde bewerkingen op gerelateerde gegevens worden uitgevoerd in een ander datacentrum dan het datacentrum dat uw servicegegevens onderhoudt. Controleer de [Algemene voorwaarden](https://go.microsoft.com/fwlink/?linkid=2156043) voor u Belastingberekening inschakelt. Uw privacy is belangrijk voor ons. Lees onze [Privacyverklaring](https://go.microsoft.com/fwlink/?LinkId=521839) voor meer informatie.
 
 Belastingberekening is een op microservices gebaseerde belastingengine die exponentiële schaalbaarheid biedt en u kan helpen de volgende taken uit te voeren:
 

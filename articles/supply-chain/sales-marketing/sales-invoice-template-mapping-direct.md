@@ -16,14 +16,14 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: de4bdd07127b65321540543040192eb7811850da
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 421d84b739faacbade711b01bfccb9f4efe6de32
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862535"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103270"
 ---
-# <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Kopteksten en regels in verkoopfacturen direct vanuit Finance and Operations synchroniseren naar Sales
+# <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Kopteksten en regels in verkoopfacturen direct vanuit apps voor financiën en bedrijfsactiviteiten synchroniseren naar Sales
 
 [!include [banner](../includes/banner.md)]
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 520c8b32099024e9a9619a6ecdcd3ba7b97c7ecf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 89175763357f4309c4eb7874d0068586c5d9e726
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856913"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123943"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Geavanceerde filter- en querysyntaxis
 
@@ -122,9 +122,9 @@ In dit artikel worden de filter- en queryopties beschreven die beschikbaar zijn 
 <td>Met twee opeenvolgende dubbele aanhalingstekens (<strong>""</strong>) wordt gezocht naar rijen zonder waarde voor de huidige kolom.</td>
 </tr>
 <tr>
-<td>(<span class="code">Finance and Operations-query</span>) (Finance and Operations-query tussen haakjes)</td>
+<td>(<span class="code">Finance + Operations-query</span>) (Finance + Operations-query tussen haakjes)</td>
 <td>Overeenkomend met een opgegeven query.</td>
-<td>Typ een query als een SQL-instructie tussen haakjes met de Finance and Operations-querytaal.</td>
+<td>Typ een query als een SQL-instructie tussen haakjes met de Finance + Operations-querytaal.</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
        Als een voorbeeld van een syntaxis voor een filtervoorwaarde op een veld uit de hoofdgegevensbron en een veld uit een andere gegevensbron (voor de pagina Alle klanten)</td>
 </tr>

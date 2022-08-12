@@ -6,19 +6,19 @@ ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: HcmCompensationWorkspace
 audience: Application User, IT Pro
-ms.reviewer: kfend
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a8bc9be91a7538c3d50163832d5d4957724cd8fb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: HcmCompensationWorkspace
+ms.openlocfilehash: cd51bf429abea5693432643a5ea9441fb9e2e464
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897183"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206441"
 ---
 # <a name="compensation-power-bi-content"></a>Compensatie Power BI-inhoud
 
@@ -29,7 +29,7 @@ In dit artikel wordt Microsoft Power BI-inhoud voor **Compensatie** besproken. U
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud
 De **Compensatie** Power BI-inhoud wordt weergegeven in het werkgebied **Compensatiebeheer** als u een van de volgende producten gebruikt:
 
-- Finance and Operations-apps
+- Apps voor financiën en bedrijfsactiviteiten
 - Microsoft Dynamics 365 Human Resources
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Rapporten die zijn opgenomen in de Power BI-inhoud

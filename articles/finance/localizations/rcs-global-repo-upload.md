@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8cfbcfea3c6056d87eb600c9a2f9e0d1727c30ff
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f73f7189ad82d85169a4e0df573dd26dab8bb009
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894738"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070595"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>ER-configuraties uitvoeren in Regulatory Configuration Services (RCS) en deze uploaden naar de algemene opslagplaats
 
@@ -37,7 +37,7 @@ Voordat u deze procedures kunt uitvoeren, moet u eerst aan de volgende vereisten
 
 U moet er ook voor zorgen dat een RCS-omgeving wordt ingericht voor uw organisatie. Als u geen RCS-instantie hebt ingericht voor uw organisatie, kunt u dit doen met behulp van de volgende stappen:
 
-1. Ga in een Finance and Operations-app naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
+1. Ga in een app voor financiën en bedrijfsactiviteiten naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
 2. Selecteer in **Gerelateerde/externe koppelingen** **Regulatory services - configuratie** en volg de instructies om u **aan te melden** om deze in te richten.
 
 Als er al een RCS-omgeving is ingericht voor uw organisatie, gebruikt u de pagina-URL om deze te openen en de **aanmeldingsoptie** te selecteren.
@@ -105,3 +105,4 @@ De configuratieversie wordt verwijderd en er wordt een bevestigingsbericht weerg
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

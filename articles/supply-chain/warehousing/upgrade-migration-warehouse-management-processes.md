@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d85f4e5c44db511970b3e22490341228fa0d1abd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7a88c5a615ec860890578873eaee736fabbeaf08
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857078"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065803"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Upgrade van magazijnbeheer van Microsoft Dynamics AX 2012 naar Supply Chain Management 
 
@@ -37,11 +37,11 @@ Tijdens een upgrade worden alle producten die zijn gekoppeld aan een opslagdimen
 Na de upgrade kunt u een reeks opties in het formulier **Opslagdimensiegroep voor artikelen wijzigen** gebruiken om producten te deblokkeren die tijdens de upgrade zijn geblokkeerd. Vervolgens kunt u transacties voor deze producten verwerken.
 
 ### <a name="enabling-items-in-supply-chain-management"></a>Artikelen inschakelen in Supply Chain Management 
-Deze wijziging is vereist omdat in Supply Chain Management traceren van artikelen deel uitmaakt van de magazijnbeheerprocessen. Voor deze processen moeten alle magazijnen en hun locaties worden gekoppeld aan een locatieprofiel. Als u magazijnbeheerprocessen wilt gebruiken, moet het volgende worden geconfigureerd:
--   Bestaande magazijnen moet worden ingeschakeld voor gebruik van magazijnbeheerprocessen 
--   Bestaande vrijgegeven producten moeten worden gekoppeld aan een opslagdimensiegroep die magazijnbeheerprocessen gebruikt 
+Deze wijziging is vereist omdat in Supply Chain Management traceren van artikelen deel uitmaakt van de magazijnbeheerprocessen (WMS). Voor deze processen moeten alle magazijnen en hun locaties worden gekoppeld aan een locatieprofiel. Als u WMS wilt gebruiken, moet u het volgende configureren:
+-   Bestaande magazijnen moeten worden ingeschakeld voor gebruik van WMS 
+-   Bestaande vrijgegeven producten moeten worden gekoppeld aan een opslagdimensiegroep waarin WMS wordt gebruikt 
 
-Als de bronopslagdimensiegroepen de voorraaddimensie Pallet-ID gebruiken, moeten de locaties van bestaande voorhanden voorraad die de voorraaddimensie Pallet-ID gebruikt, zijn gekoppeld aan een locatieprofiel waarin de parameter **Bijhouden nummerplaat gebruiken** is geselecteerd. Als u de bestaande magazijnen niet wilt inschakelen voor gebruik van magazijnbeheerprocessen, kunt u de opslagdimensiegroepen van de bestaande voorhanden voorraad wijzigen naar groepen die alleen de voorraaddimensies Vestiging, Magazijn en Locatie gebruiken. 
+Als de bronopslagdimensiegroepen de voorraaddimensie Pallet-ID gebruiken, moeten de locaties van bestaande voorhanden voorraad die de voorraaddimensie Pallet-ID gebruikt, zijn gekoppeld aan een locatieprofiel waarin de parameter **Bijhouden nummerplaat gebruiken** is geselecteerd. Als u de bestaande magazijnen niet wilt inschakelen voor gebruik van WMS, kunt u de opslagdimensiegroepen van de bestaande voorhanden voorraad wijzigen naar groepen die alleen de voorraaddimensies Vestiging, Magazijn en Locatie gebruiken. 
 
 > [!NOTE] 
 >  U kunt de opslagdimensiegroep wijzigen voor artikelen als er openstaande voorraadtransacties bestaan.
@@ -56,12 +56,12 @@ Om te kunnen worden gebruikt als onderdeel van een magazijnbeheerproces moet een
 Als u producten wilt deblokkeren die tijdens de upgrade zijn geblokkeerd, moet u een nieuwe opslagdimensiegroep voor deze producten selecteren. Merk op dat u de opslagdimensiegroep zelfs kunt wijzigen als er openstaande voorraadtransacties bestaan. Om artikelen te gebruiken die tijdens de upgrade zijn geblokkeerd, hebt u twee mogelijkheden:
 
 -   Wijzig de opslagdimensiegroep voor het artikel naar een opslagdimensiegroep die alleen de voorraaddimensies Vestiging, Magazijn en Locatie gebruikt. Als gevolg hiervan wordt de voorraaddimensie Pallet-ID niet meer gebruikt.
--   Wijzig de opslagdimensiegroep voor het artikel naar een opslagdimensiegroep die de magazijnbeheerprocessen gebruikt. Als gevolg hiervan wordt nu de voorraaddimensie Nummerplaat gebruikt.
+-   Wijzig de opslagdimensiegroep voor het artikel naar een opslagdimensiegroep waarin WMS wordt gebruikt. Als gevolg hiervan wordt nu de voorraaddimensie Nummerplaat gebruikt.
 
-## <a name="configure-warehouse-management-processes"></a>Magazijnbeheerprocessen configureren
+## <a name="configure-wms"></a>WMS configureren
 Voordat u vrijgegeven producten in de module **Magazijnbeheer** kunt gebruiken, moeten de producten een opslagdimensiegroep gebruiken waarvoor de parameter **Magazijnbeheerprocessen gebruiken** is geselecteerd.
 
-### <a name="enable-warehouses-to-use-warehouse-management-processes"></a>Magazijnen inschakelen voor gebruik van magazijnbeheerprocessen
+### <a name="enable-warehouses-to-use-wms"></a>Magazijnen inschakelen voor gebruik van WMS
 
 1.  Maak tenminste één nieuw locatieprofiel.
 2.  Klik op **Magazijnbeheer** &gt; **Instellingen** &gt; **Magazijnbeheerprocessen inschakelen** &gt; **Magazijninstellingen inschakelen**.
@@ -70,7 +70,7 @@ Voordat u vrijgegeven producten in de module **Magazijnbeheer** kunt gebruiken, 
 5.  Valideer de wijzigingen. Als onderdeel van het validatieproces worden verschillende validaties van gegevensintegriteit uitgevoerd. Als onderdeel van een groter upgradeproces moeten mogelijk problemen die optreden worden gecorrigeerd in de bron-implementatie. In dit geval is een aanvullende gegevensupgrade vereist.
 6.  Verwerk de wijzigingen.
 
-### <a name="change-the-storage-dimension-group-for-items-so-that-it-uses-warehouse-management-processes"></a>Wijzig de opslagdimensiegroep voor het artikel, zodat het gebruik maakt van magazijnbeheerprocessen
+### <a name="change-the-storage-dimension-group-for-items-so-that-it-uses-wms"></a>Wijzig de opslagdimensiegroep voor het artikelen, zodat WMS wordt gebruikt
 
 1.  Maak een nieuwe waarde aan voor **Voorraadstatus** en wijs deze toe als de **Standaardvoorraadstatus-id** in de instellingen **Parameters voor magazijnbeheer**.
 2.  Maak een nieuwe opslagdimensiegroep aan waarin de parameter **Magazijnbeheerprocessen gebruiken** is geselecteerd.

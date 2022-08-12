@@ -1,6 +1,6 @@
 ---
-title: Artikelen registreren voor een artikel waarvoor geavanceerd magazijnbeheer mogelijk is met een artikelontvangstjournaal
-description: In dit artikel wordt een scenario gepresenteerd dat laat zien hoe u artikelen registreert via het artikelontvangstjournaal wanneer u de geavanceerde magazijnbeheerprocessen gebruikt.
+title: Artikelen registreren die zijn ingeschakeld voor magazijnbeheerprocessen met een artikelontvangstjournaal
+description: In dit artikel wordt een scenario gepresenteerd dat laat zien hoe u artikelen registreert via het artikelontvangstjournaal wanneer u magazijnbeheerprocessen (WMS) gebruikt.
 author: Mirzaab
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac4a681484f0cd843ccd73633040f0fa0be0475e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5241c982675d6b9a9bc9596b8ac9ed2798903287
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863616"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066962"
 ---
-# <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Artikelen registreren voor een artikel waarvoor geavanceerd magazijnbeheer mogelijk is met een artikelontvangstjournaal
+# <a name="register-items-enabled-for-warehouse-management-processes-using-an-item-arrival-journal"></a>Artikelen registreren die zijn ingeschakeld voor magazijnbeheerprocessen met een artikelontvangstjournaal
 
 [!include [banner](../../includes/banner.md)]
 
-In dit artikel wordt een scenario gepresenteerd dat laat zien hoe u artikelen registreert via het artikelontvangstjournaal wanneer u de geavanceerde magazijnbeheerprocessen gebruikt. Dit wordt gewoonlijk uitgevoerd door een ontvangstadministrateur.
+In dit artikel wordt een scenario gepresenteerd dat laat zien hoe u artikelen registreert via het artikelontvangstjournaal wanneer u magazijnbeheerprocessen (WMS) gebruikt. Dit wordt gewoonlijk uitgevoerd door een ontvangstadministrateur.
 
 ## <a name="enable-sample-data"></a>Voorbeeldgegevens inschakelen
 
@@ -36,7 +36,7 @@ U kunt in plaats daarvan dit scenario doorwerken door waarden uit uw eigen gegev
 - U moet een bevestigde inkooporder hebben met een openstaande inkooporderregel.
 - Het artikel op de regel moet worden opgeslagen in voorraad. Het mag geen productvarianten gebruiken en mag geen traceringsdimensies hebben.
 - Het artikel moet zijn gekoppeld aan een opslagdimensiegroep waarvoor het magazijnbeheerproces is ingeschakeld.
-- Het magazijn dat wordt gebruikt, moet zijn ingeschakeld voor magazijnbeheerprocessen en de locatie die u voor het ontvangen gebruikt, moet worden gecontroleerd op nummerplaat.
+- Het magazijn dat wordt gebruikt, moet zijn ingeschakeld voor WMS en de locatie die u voor het ontvangen gebruikt, moet worden gecontroleerd op nummerplaat.
 
 ## <a name="create-an-item-arrival-journal-header-that-uses-warehouse-management"></a>Een koptekst voor het artikelontvangstjournaal maken die gebruikmaakt van magazijnbeheer
 

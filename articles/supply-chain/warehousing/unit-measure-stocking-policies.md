@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0de12620bca54c7e43713138d7a152c2bd6edff3453f81cf779f9b875cf77eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ca1c18a293d66ab78f41cac857461249826ce4c9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714831"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069117"
 ---
 # <a name="unit-of-measure-and-stocking-policies"></a>Maateenheid en opslagbeleid
 
@@ -28,7 +28,7 @@ ms.locfileid: "6714831"
 
 Dit artikel beschrijft hoe de standaardeenheden, eenheidsvolgorden, en eenheidsomrekeningen worden gebruikt in magazijnprocessen.
 
-Eenheidsvolgordegroepen bepalen de volgorde van eenheden die in magazijnbewerkingen kunnen worden gebruikt. Deze worden gemaakt op de pagina **Volgordegroepen eenheid**. De volgorde laat de relatie tussen de verschillende eenheden zien. Zo slaat u bijvoorbeeld pallets op die dozen bevatten die individuele artikelen bevatten. In dit geval, moet u de drie verschillende eenheden en de logische volgorde van de lagen opgeven. Met eenheidsvolgordegroepen kunt u de beleidsregels definiëren voor groepering van nummerplaten en de standaardeenheden die voor verschillende magazijnprocessen moeten worden gebruikt. Dit artikel is zowel van toepassing op de geavanceerde magazijnoplossing die in Magazijnbeheer beschikbaar als op de meer elementaire magazijnoplossing die beschikbaar is in Voorraadbeheer.
+Eenheidsvolgordegroepen bepalen de volgorde van eenheden die in magazijnbewerkingen kunnen worden gebruikt. Deze worden gemaakt op de pagina **Volgordegroepen eenheid**. De volgorde laat de relatie tussen de verschillende eenheden zien. Zo slaat u bijvoorbeeld pallets op die dozen bevatten die individuele artikelen bevatten. In dit geval, moet u de drie verschillende eenheden en de logische volgorde van de lagen opgeven. Met eenheidsvolgordegroepen kunt u de beleidsregels definiëren voor groepering van nummerplaten en de standaardeenheden die voor verschillende magazijnprocessen moeten worden gebruikt. Dit artikel is zowel van toepassing op magazijnbeheerprocessen (WMS) die in de module Warehouse Management beschikbaar zijn, als op de meer elementaire magazijnoplossing die beschikbaar is in Voorraadbeheer.
 
 ## <a name="unit-sequence-groups-for-released-products"></a>Eenheidvolgordegroepen voor vrijgegeven producten
 Als u vrijgegeven producten wilt gebruiken in processen voor magazijnwerk, moet hieraan een eenheidvolgordegroep worden toegewezen. Als u een product valideert dat aan een opslagdimensiegroep is gekoppeld, en de optie **HMagazijnbeheerprocessen gebruiken** voor de voorraaddimensiegroep is ingesteld op **Ja**, ontvangt u een foutbericht als geen id voor een eenheidvolgordegroep is gedefinieerd voor het product. Als de eenheidvolgordegroep die u gebruikt meerdere regels (en daarmee meerdere eenheden) bevat, moet u een eenheidsomrekening tussen de eenheden instellen. U voltooit deze instellingen op de pagina **Eenheidsconversies**. De kleinste eenheid in een volgordegroep die u aan een artikel koppelt met een vrijgegeven product moet overeenstemmen met de voorraadeenheid die voor het overeenkomstige product is gedefinieerd. De voorraadeenheid is de eenheid die voor basisberekeningen van de voorhanden voorraad wordt gebruikt. U kunt ook maateenheidsconversies voor productvarianten van productmodellen instellen door de optie **Maateenheidconversies inschakelen** te gebruiken.

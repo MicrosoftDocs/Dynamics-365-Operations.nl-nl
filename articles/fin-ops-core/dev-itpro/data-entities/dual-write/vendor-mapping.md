@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 394bb19000076eace6377e07bb3a939c8345da8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a2c32ef546a5bc74e090591c0ac9d51529299041
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905310"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112189"
 ---
 # <a name="integrated-vendor-master"></a>Model voor geïntegreerde leveranciers
 
@@ -37,13 +37,13 @@ Als u leveranciersgegevens wilt blijven opslaan in de tabel **Rekening/contactpe
 ![Uitgebreide leveranciersgegevensstroom.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
-> Als u Power Apps-portals gebruikt voor selfservice leveranciers, kunnen de leveranciersgegevens rechtstreeks naar apps voor financiële en bedrijfsactiviteiten stromen.
+> Als u Power Apps-portals gebruikt voor selfserviceleveranciers, kunnen de leveranciersgegevens rechtstreeks naar apps voor financiën en bedrijfsactiviteiten stromen.
 
 ## <a name="templates"></a>Sjablonen
 
 Leveranciersgegevens omvatten alle informatie over de leverancier, zoals de leveranciersgroep, adressen, contactgegevens, betalingsprofiel en factuurprofiel. Een verzameling tabeltoewijzingen werkt samen tijdens interactie met leveranciersgegevens, zoals in de volgende tabel wordt weergegeven.
 
-Apps voor financiële en bedrijfsactiviteiten | Customer Engagement-apps     | Beschrijving
+Apps voor financiën en bedrijfsactiviteiten | Customer Engagement-apps     | Beschrijving
 ----------------------------|-----------------------------|------------
 [CDS-contactpersonen V2](mapping-reference.md#115) | contacten | Met deze sjabloon worden alle primaire, secundaire en tertiaire contactgegevens voor zowel klanten als leveranciers gesynchroniseerd.
 [Voor- en achtervoegsel naam](mapping-reference.md#155) | msdyn_nameaffixes | Met deze sjabloon worden referentiegegevens over voor- en achtervoegsels van namen voor zowel klanten als leveranciers gesynchroniseerd.
@@ -52,8 +52,9 @@ Apps voor financiële en bedrijfsactiviteiten | Customer Engagement-apps     | B
 [Regels van betalingsschema](mapping-reference.md#159) | msdyn_paymentschedulelines | Met deze sjabloon worden referentiegegevens over betalingsschemaregels voor zowel klanten als leveranciers gesynchroniseerd.
 [Betalingsplanning](mapping-reference.md#160) | msdyn_paymentschedules | Met deze sjabloon worden referentiegegevens over betalingsschema's voor zowel klanten als leveranciers gesynchroniseerd.
 [Betalingstermijnen](mapping-reference.md#161) | msdyn_paymentterms | Met deze sjabloon worden referentiegegevens over betalingsvoorwaarden (voorwaarden voor betaling) voor zowel klanten als leveranciers gesynchroniseerd.
-[Leveranciers V2](mapping-reference.md#202) | msdyn_vendors | Door integratie met apps voor financiële en bedrijfsactiviteiten kunnen bedrijven die een aangepaste oplossing voor leveranciers gebruiken, profiteren van het kant-en-klare leveranciersconcept dat in Dataverse wordt geïntroduceerd.
+[Leveranciers V2](mapping-reference.md#202) | msdyn_vendors | Vanwege integratie met apps voor financiën en bedrijfsactiviteiten kunnen bedrijven die een aangepaste oplossing voor leveranciers gebruiken, profiteren van het kant-en-klare leveranciersconcept dat in Dataverse wordt geïntroduceerd.
 [Leveranciersgroepen](mapping-reference.md#200) | msdyn_vendorgroups | Met deze sjabloon worden leveranciersgroepgegevens gesynchroniseerd.
 [Leveranciersbetalingsmethode](mapping-reference.md#201) | msdyn_vendorpaymentmethods | Met deze sjabloon worden gegevens over de betalingsmethoden van leveranciers gesynchroniseerd.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6c9bfcdef91ad07b8346498b8944e1d741d623a1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3a27548fff9728c74814fb92438da1d0c17b5e2b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862651"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067387"
 ---
 # <a name="engineering-change-management-overview"></a>Overzicht van technisch wijzigingsbeheer
 
@@ -40,7 +40,7 @@ Het beheer van technische wijzigingen helpt u productversies te plannen en beher
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HE6B]
 
-De voorgaande video ([Mogelijkheden voor wijzigingsbeheer in Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) is opgenomen in de [Finance and Operations-speellijst](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) beschikbaar op YouTube.
+De voorgaande video ([Mogelijkheden voor wijzigingsbeheer in Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) is opgenomen in de [afspeellijst voor Finance + Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) beschikbaar op YouTube.
 
 ## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>De functies voor het beheer van technische wijzigingen voor uw systeem inschakelen
 
@@ -88,3 +88,4 @@ Wanneer u de basisfuncties voor het beheer van technische wijzigingen hebt inges
 | Varianten genereren voor technische producten | <p>Met deze functie kunt u varianten voor technische producten genereren op basis van beschikbare dimensiewaarden.</p><p>Zie [Varianten voor technische producten genereren](engineering-variants.md) voor meer informatie.</p> |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

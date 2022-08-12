@@ -1,6 +1,6 @@
 ---
 title: Help-systeem (bevat video)
-description: In dit artikel vindt u een overzicht van het Help-systeem voor apps voor financiële en bedrijfsactiviteiten.
+description: In dit artikel vindt u een overzicht van het Help-systeem voor apps voor financiën en bedrijfsactiviteiten.
 author: edupont04
 ms.date: 07/20/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 924af44a6f0b1430859f0f6354ef55ff67a1b677
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 57c17cab920c531b3eb125260064d01dd8662576
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898364"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124189"
 ---
 # <a name="help-system"></a>Help-systeem
 
@@ -53,7 +53,7 @@ Met een zoekmachine kunt u inhoud vinden op docs.microsoft.com. We raden u voor 
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Meldingen over wijzigingen ontvangen in een RSS-feed
 
-Als u zich wilt abonneren op een RSS-feed met alle updates die zijn aangebracht op docs.microsoft.com in de apps voor financiële en bedrijfsactiviteiten, gebruikt u de volgende koppeling:
+Als u zich wilt abonneren op een RSS-feed met alle updates die zijn aangebracht op docs.microsoft.com in de apps voor financiën en bedrijfsactiviteiten, gebruikt u de volgende koppeling:
 
 [RSS-feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
@@ -96,15 +96,15 @@ Zie voor meer informatie de [handleiding voor bijdragers aan documenten](/contri
 
 ## <a name="task-guides"></a>Taakbegeleiders
 
-Een taakbegeleidingen is een gecontroleerde, begeleide, interactieve ervaring die u door de stappen van een taak of bedrijfsproces leidt. U kunt een taakbegeleiding openen (afspelen) via het deelvenster **Help**. Wanneer u voor het eerst een taakbegeleiding selecteert, worden in het deelvenster **Help** de stapsgewijze instructies voor de taak weergegeven. Gelokaliseerde taakbegeleidingen zijn beschikbaar.
+Een taakbegeleider is een gecontroleerde, begeleide, interactieve ervaring die u door de stappen van een taak of bedrijfsproces leidt. U kunt een taakbegeleider openen (afspelen) via het deelvenster **Help**. Wanneer u voor het eerst een taakbegeleider selecteert, worden in het deelvenster **Help** de stapsgewijze instructies voor de taak weergegeven. Gelokaliseerde taakbegeleiders zijn beschikbaar.
 
-Microsoft heeft de taakbegeleidingsbibliotheek voor productversies tot en met de release van 2017 december van Dynamics 365 for Finance and Operations uitgebracht. In de sectie [Taakbegeleiders openen via het deelvenster Help](#accessing-task-guides-from-the-help-pane) van dit artikel wordt beschreven hoe u de juiste taakbegeleidingen voor uw product vindt.
+Microsoft heeft de taakbegeleidersbibliotheek voor productversies tot en met de release van 2017 december van Dynamics 365 Finance and Operations uitgebracht. In de sectie [Taakbegeleiders openen via het deelvenster Help](#accessing-task-guides-from-the-help-pane) van dit artikel wordt beschreven hoe u de juiste taakbegeleiders voor uw product vindt.
 
-![Leesweergave van taakbegeleiding.](./media/task-guide-ops.png)
+![Leesweergave van taakbegeleider.](./media/task-guide-ops.png)
 
-U kunt met de interactieve taakbegeleiding beginnen door **Taakbegeleiding starten** onder aan het deelvenster **Help** te selecteren. Een zwarte aanwijzer geeft aan waar u eerst naartoe moet gaan. Volg de aanwijzingen die in de gebruikersinterface verschijnen en voer gegevens in volgens de aanwijzingen.
+U kunt met de interactieve taakbegeleider beginnen door **Taakbegeleider starten** onder aan het deelvenster **Help** te selecteren. Een zwarte aanwijzer geeft aan waar u eerst naartoe moet gaan. Volg de aanwijzingen die in de gebruikersinterface verschijnen en voer gegevens in volgens de aanwijzingen.
 
-![Instructies bij stappen taakbegeleiding.](./media/task-guide-step-1-ops.png)
+![Instructies bij stappen taakbegeleider.](./media/task-guide-step-1-ops.png)
 
 > [!IMPORTANT]
 > De gegevens die u invoert wanneer u een taakbegeleider afspeelt, zijn echt. Als u in een productieomgeving bent, worden de gegevens ingevoerd in het bedrijf dat u momenteel gebruikt.
@@ -115,7 +115,7 @@ U kunt Taakregistratie gebruiken om uw eigen aangepaste taakbegeleiders te maken
 
 Sommige velden bevatten veldomschrijvingen om gebruikers verder te helpen wanneer ze bijvoorbeeld niet zeker zijn over de gegevens in het veld. Bovendien biedt het deelvenster **Help** in het product contextafhankelijke toegang tot inhoud die gebruikers kan helpen aan de slag te gaan, ontgrendeld te worden en meer informatie te krijgen.
 
-U opent Help-inhoud door de knop **Help** (**?**) te selecteren en vervolgens **Help** te selecteren. Of druk op **Ctrl+Shift+?**. In beide gevallen wordt het deelvenster **Help** geopend. Via het deelvenster **Help** kunt u toegang krijgen tot conceptuele onderwerpen of taakbegeleidingen die relevant zijn voor het gebied van het product dat u momenteel gebruikt.
+U opent Help-inhoud door de knop **Help** (**?**) te selecteren en vervolgens **Help** te selecteren. Of druk op **Ctrl+Shift+?**. In beide gevallen wordt het deelvenster **Help** geopend. Via het deelvenster **Help** kunt u toegang krijgen tot conceptuele onderwerpen of taakbegeleiders die relevant zijn voor het gebied van het product dat u momenteel gebruikt.
 
 ![Deelvenster Help.](./media/help-pane-ops-help.png)
 
@@ -124,11 +124,11 @@ U opent Help-inhoud door de knop **Help** (**?**) te selecteren en vervolgens **
 Via het deelvenster **Help** kunt u onderwerpen openen die betrekking hebben op de client. Als u het deelvenster **Help** voor het eerst opent, worden op het tabblad **Help** de onderwerpen weergegeven die betrekking hebben op de pagina die nu is geopend. Als er geen onderwerpen worden gevonden, kunt u trefwoorden invoeren om uw zoekopdracht te verfijnen. Wanneer u een artikel selecteert in het deelvenster **Help**, wordt dit geopend op een nieuw tabblad in uw browser.
 
 > [!IMPORTANT]
-> Deze sectie geldt niet voor Dynamics 365 Human Resources. Het Help-systeem voor Human Resources is automatisch verbonden met taakbegeleidingen voor het product. U kunt ook geen aangepaste taakbegeleidingen voor Human Resources maken.
+> Deze sectie geldt niet voor Dynamics 365 Human Resources. Het Help-systeem voor Human Resources is automatisch verbonden met taakbegeleiders voor het product. U kunt ook geen aangepaste taakbegeleiders voor Human Resources maken.
 
-### <a name="accessing-task-guides-from-the-help-pane"></a>Taakbegeleidingen openen via het deelvenster Help
+### <a name="accessing-task-guides-from-the-help-pane"></a>Taakbegeleiders openen via het deelvenster Help
 
-Voordat u taakbegeleidingen via het deelvenster **Help** kunt openen, moet een systeembeheerder bepaalde instellingen op de pagina **Systeemparameters** in Finance, Supply Chain Management of Commerce configureren. Zie [Taakbegeleidingen toevoegen](help-connect.md#adding-task-guides) voor meer informatie.
+Voordat u taakbegeleiders via het deelvenster **Help** kunt openen, moet een systeembeheerder bepaalde instellingen op de pagina **Systeemparameters** in Finance, Supply Chain Management of Commerce configureren. Zie [Taakbegeleiders toevoegen](help-connect.md#adding-task-guides) voor meer informatie.
 
 <!-- > [!NOTE]
 > - In order to configure Help, you must be signed in with an account in the same tenant as the tenant in which the app is deployed.
@@ -146,20 +146,20 @@ On the **System parameters** page, follow these steps:
 3. Select BPM libraries (within the selected project) to retrieve task recordings from.
 4. Set the display order of the BPM libraries. This setting determines the order in which task recordings from the libraries will appear in the Help pane.-->
 
-Wanneer een systeembeheerder deze stappen heeft voltooid, kunt u het deelvenster **Help** openen en het tabblad **Taakbegeleidingen** selecteren. U ziet nu de taakbegeleidingen die van toepassing zijn op de pagina die nu is geopend. Als er geen taakbegeleidingen worden gevonden, kunt u trefwoorden invoeren om uw zoekopdracht te verfijnen. Nadat u een taakbegeleiding in het deelvenster **Help** hebt geselecteerd, toont het deelvenster **Help** de stapsgewijze instructies en kunt u de taakbegeleiding afspelen.
+Wanneer een systeembeheerder deze stappen heeft voltooid, kunt u het deelvenster **Help** openen en het tabblad **Taakbegeleiders** selecteren. U ziet nu de taakbegeleiders die van toepassing zijn op de pagina die nu is geopend. Als er geen taakbegeleiders worden gevonden, kunt u trefwoorden invoeren om uw zoekopdracht te verfijnen. Nadat u een taakbegeleider in het deelvenster **Help** hebt geselecteerd, toont het deelvenster **Help** de stapsgewijze instructies en kunt u de taakbegeleider afspelen.
 
-![Leesweergave van taakbegeleiding.](./media/task-guide-ops.png)
+![Leesweergave van taakbegeleider.](./media/task-guide-ops.png)
 
-### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a>Waar zijn de vertaalde taakbegeleidingen voor Microsoft-bibliotheken?
+### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a>Waar zijn de vertaalde taakbegeleiders voor Microsoft-bibliotheken?
 
-Vertaalde taakbegeleidingen worden vrijgegeven in bibliotheken waarvan de titel Alle talen bevat. Als u gelokaliseerde Help met taakbegeleiding wilt zien, moet u ervoor zorgen dat u bent verbonden met de bijbehorende bibliotheek. Elke gebruiker kan de taal wijzigen waarin een taakbegeleiding wordt weergegeven door de taalinstellingen onder **Opties** &gt; **Voorkeuren** te wijzigen.
+Vertaalde taakbegeleiders worden vrijgegeven in bibliotheken waarvan de titel Alle talen bevat. Als u gelokaliseerde Help met taakbegeleider wilt zien, moet u ervoor zorgen dat u bent verbonden met de bijbehorende bibliotheek. Elke gebruiker kan de taal wijzigen waarin een taakbegeleider wordt weergegeven door de taalinstellingen onder **Opties** &gt; **Voorkeuren** te wijzigen.
 
-- Als een taakbegeleiding is vertaald, wordt bij het openen van die taakbegeleiding alle tekst van de taakbegeleiding weergegeven in uw geselecteerde taal.
-- Als een taakbegeleiding nog niet is vertaald, wordt bij het openen van die taakbegeleiding alleen de tekst van de besturingselementen weergegeven in uw gekozen taal.
+- Als een taakbegeleider is vertaald, wordt bij het openen van die taakbegeleider alle tekst van de taakbegeleider weergegeven in uw geselecteerde taal.
+- Als een taakbegeleider nog niet is vertaald, wordt bij het openen van die taakbegeleider alleen de tekst van de besturingselementen weergegeven in uw gekozen taal.
 
 ## <a name="creating-custom-help"></a>Aangepaste Help maken
 
-U kunt Help voor uw gebruikers maken door aangepaste taakbegeleidingen te maken of uw eigen website te verbinden met het deelvenster **Help**. Zie de volgende onderwerpen voor meer informatie:
+U kunt Help voor uw gebruikers maken door aangepaste taakbegeleiders te maken of uw eigen website te verbinden met het deelvenster **Help**. Zie de volgende onderwerpen voor meer informatie:
 
 - [Resources voor Taakrecorder](../../dev-itpro/user-interface/task-recorder.md)
 - [Overzicht van aangepaste Help](../../dev-itpro/help/custom-help-overview.md)
@@ -182,3 +182,4 @@ In de volgende tabel worden onze websites weergegeven. Sites die een sterretje (
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

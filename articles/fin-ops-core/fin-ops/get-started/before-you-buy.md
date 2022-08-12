@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9c2f658fbf7fd4db38d572ff80e9d500b5548e0a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: fc3cf3b5d28a4e512f921db6ba090dd5731391cc
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713271"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123977"
 ---
 # <a name="before-you-buy"></a>Voordat u koopt
 
@@ -26,9 +26,9 @@ ms.locfileid: "8713271"
 
 Onbekend met Dynamics 365 Finance, Dynamics 365 Supply Chain Management of Dynamics 365 Commerce? We hebben stapsgewijze instructies opgesteld voor als u nog aan het evalueren bent of al klaar bent om tot aanschaf over te gaan.
 
-## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Stap één: probeer Finance and Operations gratis 30 dagen uit
+## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Stap één: probeer Finance + Operations gratis 30 dagen uit
 
-U kunt Dynamics 365 for Finance, Dynamics 365 Supply Chain Management of Dynamics 365 Commerce 30 dagen lang uitproberen via een eenvoudige e-aanmelding. De evaluatieversie van apps voor financiën en bedrijfsactiviteiten bevat de taakhandleiding Aan de slag met stapsgewijze instructies waarmee u specifieke scenario's in actie kunt weergeven. Het product is beschikbaar voor het verkennen en uitvoeren van scenario's, maar kan niet worden aangepast. Demonstratiegegevens zijn opgenomen om het gebruik van het product te vereenvoudigen en de ervaring duidelijker te maken. Per e-mail ontvangt u 3 dagen vóór de afloop van de evaluatie een herinnering. Meer informatie vindt u op [Aanmelden voor preview-abonnementen](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
+U kunt Dynamics 365 for Finance, Dynamics 365 Supply Chain Management of Dynamics 365 Commerce 30 dagen lang uitproberen via een eenvoudige e-aanmelding. De proefversie van apps voor financiën en bedrijfsactiviteiten bevat de taakbegeleider Aan de slag met stapsgewijze instructies waarmee u specifieke scenario's in actie kunt weergeven. Het product is beschikbaar voor het verkennen en uitvoeren van scenario's, maar kan niet worden aangepast. Demonstratiegegevens zijn opgenomen om het gebruik van het product te vereenvoudigen en de ervaring duidelijker te maken. Per e-mail ontvangt u 3 dagen vóór de afloop van de evaluatie een herinnering. Meer informatie vindt u op [Aanmelden voor preview-abonnementen](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Stap twee: Kies een optie voor implementatie
 
@@ -62,7 +62,7 @@ Een Microsoft Cloud Solution Provider werkt nauw met u samen om de behoeften van
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Kopen via een Dynamics-partner (on-premises)
 
-Werk samen met een partner om Finance and Operations on-premises aan te schaffen. Zie [Finance and Operations (on-premises) kopen](purchase-on-premises.md) voor meer informatie.
+Werk samen met een partner om Finance + Operations (on-premises) aan te schaffen. Zie [Finance and Operations (on-premises) kopen](purchase-on-premises.md) voor meer informatie.
 
 ### <a name="buy-through-volume-licensing-cloud-or-on-premises"></a>Kopen via volumelicenties (cloud of on-premises)
 
@@ -94,3 +94,4 @@ Als u een upgrade uitvoert van Microsoft Dynamics AX 2012 of migreert van Micros
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

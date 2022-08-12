@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 4997ba123f105f683daaa6b29fe8c5ee72cb47cb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8f46a4d4e087a99c00ab7b4eabc74f60043cbf21
+ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873806"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9186478"
 ---
 # <a name="priority-based-planning"></a>Op prioriteit gebaseerde planning
 
 [!include [banner](../../includes/banner.md)]
 
-In dit artikel wordt de functie van op prioriteit gebaseerde planning van Microsoft Dynamics 365 Supply Chain Management beschreven. Met deze functie wordt ondersteuning toegevoegd voor vraaggestuurde planning. Dit is één stap van DDMRP (Demand Driven Material Requirements Planning). Met op prioriteit gebaseerde planning kunnen tijdens planningsoptimalisatie geplande orders worden gegenereerd die worden gestuurd door planningsprioriteiten in plaats van op basis van behoeftedatums.
+In dit artikel wordt de functie van op prioriteit gebaseerde planning van Microsoft Dynamics 365 Supply Chain Management beschreven. Met de functie wordt ondersteuning toegevoegd voor vraaggestuurde planning. Dit is één stap van [DDMRP (Demand Driven Material Requirements Planning)](ddmrp-overview.md). Met op prioriteit gebaseerde planning kunnen tijdens planningsoptimalisatie geplande orders worden gegenereerd die worden gestuurd door planningsprioriteiten in plaats van op basis van behoeftedatums.
 
 Met op prioriteit gebaseerde planning kunt u de prioriteit van aanvullingsorders bepalen, zodat voorrang wordt verleend aan urgente vraag boven minder belangrijke vraag. Er wordt bijvoorbeeld voorrang verleend aan een voorraadaanvullingsorder boven een standaardaanvullingsorder. Het systeem kan automatisch grotere orders opsplitsen in kleinere orders, waarbij orderregels op prioriteit worden gegroepeerd. Alle orders met een hoge prioriteit kunnen vervolgens eerst worden verwerkt.
 

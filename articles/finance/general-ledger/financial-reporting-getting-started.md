@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2c31e8b8b8022e5dfdb1f8dc4836d3d95174078
-ms.sourcegitcommit: d9d111d7420ca8f1071689afe38a1ccf4b8051f4
+ms.openlocfilehash: 9d0c2e821ee504cd62a536674ef91ee89a25c0a9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/21/2022
-ms.locfileid: "9033655"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066412"
 ---
 # <a name="get-started-with-financial-reporting"></a>Aan de slag met financiële rapportage 
 
@@ -151,7 +151,7 @@ U kunt een onbeperkt aantal rapportagestructuren maken om de gegevens van uw org
 
 ## <a name="update-the-financial-reporting-version-through-slipstreaming"></a>De versie van Financial reporting bijwerken via slipstreaming
 
-Finance and Operations-apps worden elke maand bijgewerkt. Maar Financial reporting wordt niet per se in dit ritme bijgewerkt. Bovendien hebben klanten meer opties voor het tijdstip waarop ze updates voor Finance and Operations-apps implementeren. Updates van Financial reporting worden automatisch geïnstalleerd. Financial reporting heeft een bepaalde versie die in een klantenomgeving wordt verbruikt wanneer een service-update wordt geïmplementeerd, wanneer downtime wordt gestart of wanneer de omgeving van een klant in de onderhoudsmodus is. Dit proces wordt *slipstreaming* of *true-up* genoemd, omdat alle klantimplementaties worden ingesteld op dezelfde versie van Financial reporting.
+Apps voor financiën en bedrijfsactiviteiten worden elke maand bijgewerkt. Maar Financial reporting wordt niet per se in dit ritme bijgewerkt. Bovendien hebben klanten meer opties voor het tijdstip waarop ze updates voor apps voor financiën en bedrijfsactiviteiten implementeren. Updates van Financial reporting worden automatisch geïnstalleerd. Financial reporting heeft een bepaalde versie die in een klantenomgeving wordt verbruikt wanneer een service-update wordt geïmplementeerd, wanneer downtime wordt gestart of wanneer de omgeving van een klant in de onderhoudsmodus is. Dit proces wordt *slipstreaming* of *true-up* genoemd, omdat alle klantimplementaties worden ingesteld op dezelfde versie van Financial reporting.
 
 U vindt de wijzigingen die in elke versie worden vrijgegeven in [Nieuwe of gewijzigde functies in Dynamics 365 Finance](../../finance/get-started/whats-new-home-page.md). Platformupdates en bug fixes vindt u in de sectie "Aanvullende resources" onder aan de pagina voor elke release.
 
@@ -254,3 +254,4 @@ Probleem: u ontvangt de foutmelding "Kan geen verbinding maken met de server waa
 - [Rapportagestructuurdefinities in financiële rapporten](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

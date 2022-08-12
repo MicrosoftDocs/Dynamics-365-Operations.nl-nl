@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a78b4c37bfca9fedbd46cd8a16b47bd4444fbfee
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 91462cc589be6170418f7f78267feea5e25c037d
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849527"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123773"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.21 (oktober 2021)
 
@@ -137,9 +137,9 @@ De volgende Help-artikelen zijn onlangs toegevoegd of ingrijpend bijgewerkt. Ze 
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformupdates voor apps voor financiële en bedrijfsactiviteiten
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformupdates voor apps voor financiën en bedrijfsactiviteiten
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.21 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.21 van apps voor financiële en bedrijfsactiviteiten (oktober 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.21 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.21 van apps voor financiën en bedrijfsactiviteiten (oktober 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md).
 
 ### <a name="bug-fixes"></a>Correcties
 
@@ -164,3 +164,4 @@ Voor ingrijpende wijzigingen die alleen van invloed zijn op de compilatietijd, m
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

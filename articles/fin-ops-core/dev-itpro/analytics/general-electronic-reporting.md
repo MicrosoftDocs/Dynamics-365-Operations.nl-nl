@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65f7a642d3b2c2ddfca1e2d92570b49ef2f8c2b4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f3853e0c1da0a5abb3f92171370cc4aeabbd829
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869252"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109575"
 ---
 # <a name="electronic-reporting-er-overview"></a>Overzicht van elektronische rapportage (ER)
 
@@ -66,7 +66,7 @@ ER ondersteunt op dit moment de werkbladindelingen TEXT, XML, JSON, PDF, Microso
 
 De ER-engine biedt de volgende mogelijkheden:
 
-- De engine vertegenwoordigt een enkel gedeeld hulpmiddel voor elektronische rapportage in verschillende domeinen en vervangt meer dan 20 verschillende engines waarmee elektronische rapportage van welke aard dan ook voor Finance and Operations wordt uitgevoerd.
+- De engine vertegenwoordigt een enkel gedeeld hulpmiddel voor elektronische rapportage in verschillende domeinen en vervangt meer dan 20 verschillende engines waarmee elektronische rapportage van welke aard dan ook voor Finance + Operations wordt uitgevoerd.
 - De engine zorgt ervoor dat de indeling van een rapport losstaat van de huidige implementatie. Met andere woorden, de indeling is van toepassing op verschillende versies.
 - De engine ondersteunt het maken van een aangepaste indeling die is gebaseerd op een oorspronkelijke indeling. Dit omvat ook mogelijkheden voor het automatisch uitvoeren van een upgrade van de aangepaste indeling wanneer er wijzigingen in de oorspronkelijke indeling optreden wegens vereisten voor localisatie of aanpassing.
 - Het wordt het primaire standaardhulpmiddel voor ondersteuning van lokalisatiebehoeften bij elektronische rapportage, zowel voor Microsoft als voor Microsoft-partners;
@@ -126,7 +126,7 @@ Een ER-configuratie wordt gedeeld voor toepassingsbedrijven.
 
 #### <a name="provider"></a><a name="Provider"></a>Provider
 
-De ER-provider is de partij-id die wordt gebruikt om de auteur (eigenaar) van elke ER-configuratie aan te duiden. Via ER kunt u de lijst met configuratieproviders beheren. Indelingsconfiguraties die worden vrijgegeven voor elektronische documenten als onderdeel van de Finance and Operations-oplossing zijn gemarkeerd als het eigendom van de configuratieprovider **Microsoft**.
+De ER-provider is de partij-id die wordt gebruikt om de auteur (eigenaar) van elke ER-configuratie aan te duiden. Via ER kunt u de lijst met configuratieproviders beheren. Indelingsconfiguraties die worden vrijgegeven voor elektronische documenten als onderdeel van de Finance + Operations-oplossing zijn gemarkeerd als het eigendom van de configuratieprovider **Microsoft**.
 
 Voor informatie over het registreren van een nieuwe ER-provider speelt u de taakbegeleiding **ER Een configuratieprovider maken en deze als actief markeren** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen van IT-services/oplossingen ophalen/ontwikkelen (10677)**).
 
@@ -143,7 +143,7 @@ In een ER-opslagplaats worden ER-configuraties opgeslagen. De volgende typen ER-
 
 De opslagplaats **Gedeelde LCS-bibliotheek** biedt toegang tot de lijst met configuraties binnen de bibliotheek voor gedeelde activa in Lifecycle Services (LCS). Dit type ER-opslagplaats kan alleen worden geregistreerd voor de Microsoft-provider. Vanuit de LCS-bibliotheek voor gedeelde activa kunt u de meest recente versies van ER-configuraties importeren in het huidige exemplaar.
 
-Een opslagplaats **LCS-project** biedt toegang tot de lijst met configuraties van een specifiek LCS-project (activabibliotheek voor LCS-project) dat is geselecteerd tijdens de registratie van de opslagplaats. Via ER kunt u gedeelde configuraties uploaden vanuit het huidige exemplaar naar een specifieke opslagplaats voor **LCS-projecten**. U kunt ook configuraties importeren vanuit een bepaalde opslagplaats voor **LCS-projecten** in het huidige exemplaar van uw Finance and Operations-apps.
+Een opslagplaats **LCS-project** biedt toegang tot de lijst met configuraties van een specifiek LCS-project (activabibliotheek voor LCS-project) dat is geselecteerd tijdens de registratie van de opslagplaats. Via ER kunt u gedeelde configuraties uploaden vanuit het huidige exemplaar naar een specifieke opslagplaats voor **LCS-projecten**. U kunt ook configuraties importeren vanuit een bepaalde opslagplaats voor **LCS-projecten** in het huidige exemplaar van uw apps voor financiën en bedrijfsactiviteiten.
 
 Een opslagplaats **Bestandssysteem** biedt toegang tot de lijst met configuraties die zich als XML-bestanden bevinden in de opgegeven map van het lokale bestandssysteem op de computer waarop de AOS-service wordt gehost. Vereiste map is geselecteerd in de fase van opslagplaatsregistratie. U kunt configuraties importeren vanuit een opslagplaats **Bestandssysteem** in het huidige exemplaar. 
 
@@ -270,3 +270,4 @@ De lijst met ER-configuraties voor Finance wordt continu bijgewerkt. Open de [Al
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

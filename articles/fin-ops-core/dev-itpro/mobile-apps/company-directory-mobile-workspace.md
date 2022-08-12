@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8e8e6adc2c72b6e3ab567723ac01055ea8d7292e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b3cfdb98f9f0f05e046784cc77c85cd4a045868c
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868722"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069372"
 ---
 # <a name="company-directory-mobile-workspace"></a>Mobiel werkgebied Adresboek van bedrijf
 
@@ -26,7 +26,7 @@ ms.locfileid: "8868722"
 
 Dit artikel biedt informatie over het mobiele werkgebied **Adresboek van bedrijf**. Met dit werkgebied kunnen gebruikers andere werknemers in hun organisatie weergeven en contact met hen opnemen.
 
-Dit mobiele werkgebied kan worden gebruikt met de mobiele app Finance and Operations.
+Dit mobiele werkgebied kan worden gebruikt met de mobiele app voor financiën en bedrijfsactiviteiten.
 
 ## <a name="overview"></a>Overzicht
 Gebruikers kunnen met het mobiele werkgebied **Adresboek van bedrijf** de volgende taken uitvoeren:
@@ -50,12 +50,12 @@ Voordat u dit mobiele werkgebied kunt gebruiken, moet aan de volgende voorwaarde
 <tbody>
 <tr class="odd">
 <td>Een van de volgende producten moet worden geïmplementeerd in uw organisatie:
-<ul><li>Een Finance and Operations-app</li>
+<ul><li>Een app voor financiën en bedrijfsactiviteiten</li>
 <li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>Systeembeheerder</td>
-<td>Als geen Finance and Operations-app in uw organisatie hebt geïmplementeerd, raadpleegt u <a href="../deployment/deploy-demo-environment.md">Een demo-omgeving implementeren</a>. Als u Human Resources nog niet hebt geïmplementeerd in uw organisatie, kan de systeembeheerder toegang krijgen tot een evaluatieversie vanaf de <a href="https://dynamics.microsoft.com/human-resources/overview/">webpagina Human Resources</a>.
+<td>Als u geen app voor financiën en bedrijfsactiviteiten uw organisatie hebt geïmplementeerd, raadpleegt u <a href="../deployment/deploy-demo-environment.md">Een demo-omgeving implementeren</a>. Als u Human Resources nog niet hebt geïmplementeerd in uw organisatie, kan de systeembeheerder toegang krijgen tot een evaluatieversie vanaf de <a href="https://dynamics.microsoft.com/human-resources/overview/">webpagina Human Resources</a>.
 </td>
 </tr>
 <tr class="even">
@@ -67,7 +67,7 @@ Voordat u dit mobiele werkgebied kunt gebruiken, moet aan de volgende voorwaarde
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>De mobiele app downloaden en installeren
-Download en installeer de mobiele app van Finance and Operations:
+Download en installeer de mobiele app van Finance + Operations:
 
 -   [Voor Android-telefoons](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Voor iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -91,3 +91,4 @@ Download en installeer de mobiele app van Finance and Operations:
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

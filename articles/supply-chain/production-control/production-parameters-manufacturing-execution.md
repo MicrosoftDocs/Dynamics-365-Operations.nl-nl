@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8d9c756d8aaf2e7b2f6593e78fbb645dafee4552
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 6d440a0d0d95fe93ed633fa588e1c3a193757d9d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9016154"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070374"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Productieparameters in Productieregistratie
 
@@ -71,7 +71,7 @@ Voor elke fase kunt u in het veld **Automatisch stuklijstverbruik** kiezen uit d
   - Leeg (geen optie geselecteerd)
   - **Beschikbaar op locatie**
 
-    Als in Productieregistratie **Backflushing** is geselecteerd in het veld **Automatisch stuklijstverbruik** op het tabblad **Starten**, worden alle materialen die in de stuklijst zijn ingesteld op **Starten**, afgetrokken van de voorraad wanneer de bewerking wordt gestart. De optie **Beschikbaar op locatie** wordt gebruikt voor producten die beschikbaar zijn voor geavanceerde magazijnprocessen. Als u deze vorm van backflushing instelt, wordt materiaal gewist wanneer magazijnwerk voor grondstofverzameling wordt voltooid. Materiaal wordt ook gewist wanneer een stuklijstregel, die dit wisprincipe gebruikt, wordt vrijgegeven voor het magazijn en het materiaal beschikbaar is op de productie-invoerlocatie.
+    Als in Productieregistratie **Backflushing** is geselecteerd in het veld **Automatisch stuklijstverbruik** op het tabblad **Starten**, worden alle materialen die in de stuklijst zijn ingesteld op **Starten**, afgetrokken van de voorraad wanneer de bewerking wordt gestart. De optie **Beschikbaar op locatie** wordt gebruikt voor producten die zijn ingeschakeld voor magazijnbeheerprocessen (WMS). Als u deze vorm van backflushing instelt, wordt materiaal gewist wanneer magazijnwerk voor grondstofverzameling wordt voltooid. Materiaal wordt ook gewist wanneer een stuklijstregel, die dit wisprincipe gebruikt, wordt vrijgegeven voor het magazijn en het materiaal beschikbaar is op de productie-invoerlocatie.
 
     > [!NOTE]
     > Als het veld **Backflushing** is ingesteld op het tabblad **Beginnen** in Productieregistratie, moet u dezelfde methode selecteren op het tabblad **Bewerkingen** of op het tabblad **Gereedmelden**. Deze vereiste helpt garanderen dat materialen worden afgetrokken van de voorraad op de stuklijsten die **Voltooien** gebruiken voor backflushing op de productieorder. Als hetzelfde wisprincipe niet wordt geselecteerd op het tabblad **Bewerkingen** of het tabblad **Gereedmelden**, kunnen materialen twee keer worden afgetrokken van de voorraad.

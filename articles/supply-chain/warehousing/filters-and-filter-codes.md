@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: f3d6cd373699d374c019f0db7befaffc169f4f6c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7d6524cb9109263ad62d221ec98e546b962b89ee
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850433"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067523"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Productfilters voor magazijntransacties configureren
 
@@ -95,7 +95,7 @@ Voer de onderstaande stappen uit om filtercodes in te stellen op artikelgroepen.
     Als bijvoorbeeld de selectievakjes **Filtercode 1 gebruiken** en **Filtercode 2 gebruiken** zijn ingeschakeld, moet zowel filtercode 1 als 2 van het artikel overeenstemmen met de instellingen van de filtergroep voor de artikelgroep voordat de filtergroep kan worden geselecteerd. Wanneer u een nieuw artikel maakt, is de geselecteerde filtergroep de standaardfiltergroep in de velden **Groep 1** en **Groep 2** op het sneltabblad **Magazijn** van de pagina **Vrijgegeven productdetails**.
 
 > [!IMPORTANT]
-> Productfiltercodes worden alleen ingeschakeld voor artikelen die geavanceerd magazijnbeheer gebruiken.
+> Productfiltercodes worden alleen ingeschakeld voor artikelen die magazijnbeheerprocessen (WMS) gebruiken.
 
 ## <a name="specify-filter-codes-for-released-products"></a>Filtercodes opgeven voor vrijgegeven producten
 
@@ -158,7 +158,7 @@ Als u leverancierfiltercodes wilt instellen, voert u de volgende stappen uit.
 1. Selecteer in de velden **Code 1** tot en met **Code 10** de filtercodes die u wilt gebruiken als criteria om de artikelen te beperken die beschikbaar zijn voor leveranciers in de geselecteerde artikelgroep. U moet een selectie maken voor elke filtercode die voor de artikelgroep is ingesteld.
 
 > [!NOTE]
-> De instelling van leveranciersproductfilters is van toepassing op vrijgegeven producten waarbij de processen voor magazijnbeheer zijn ingeschakeld voor de gekoppelde opslagdimensiegroep. De filtercodes worden gebruikt om te bepalen of gebruikers een bepaald artikel bij een bepaalde leverancier kunnen kopen wanneer ze inkooporderregels maken. Microsoft Dynamics 365 Supply Chain Management kan op twee manieren leveranciersgoedkeuring verwerken. Als er een of meer vrijgegeven producten zijn waarin het veld **Controlemethode goedgekeurde leveranciers** is ingesteld op *Alleen waarschuwing* of *Niet toegestaan*, kunnen beide goedkeuringsmethoden voor leveranciers worden ingeschakeld voor deze artikelen. Deze situatie kan problemen veroorzaken wanneer gebruikers inkooporderregels maken.
+> De instelling van leveranciersproductfilters is van toepassing op vrijgegeven producten waarbij de processen voor magazijnbeheer (WMS) zijn ingeschakeld voor de gekoppelde opslagdimensiegroep. De filtercodes worden gebruikt om te bepalen of gebruikers een bepaald artikel bij een bepaalde leverancier kunnen kopen wanneer ze inkooporderregels maken. Microsoft Dynamics 365 Supply Chain Management kan op twee manieren leveranciersgoedkeuring verwerken. Als er een of meer vrijgegeven producten zijn waarin het veld **Controlemethode goedgekeurde leveranciers** is ingesteld op *Alleen waarschuwing* of *Niet toegestaan*, kunnen beide goedkeuringsmethoden voor leveranciers worden ingeschakeld voor deze artikelen. Deze situatie kan problemen veroorzaken wanneer gebruikers inkooporderregels maken.
 
 ## <a name="see-also"></a>Zie ook
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5dbf8ab2ea875e902709215e249871474b17230f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6c4c2a0954c8554da0b4c859d837ab6ca4839b36
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883504"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111923"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER Uw indeling upgraden door een nieuwe basisversie van die indeling aan te nemen
 
@@ -119,7 +119,7 @@ Wijzig de status van de ontworpen indelingsconfiguratie van Concept in Voltooid 
     Merk op dat de gemaakte configuratie wordt opgeslagen als voltooide versie 1.1.1. Dit houdt in dat het versie 1 van de aangepaste BACS-indeling (UK fictief en aangepast) is, die is gebaseerd op versie 1 van de BACS-indeling (UK fictief), die is gebaseerd op versie 1 van het gegevensmodel Betalingen (vereenvoudigd model).  
 
 ## <a name="test-the-customized-format-to-generate-payment-files"></a>De aangepaste indeling testen om betalingsbestanden te genereren
-Voer de stappen van de procedure 'Gemaakte indeling gebruiken om elektronische documenten voor betalingen te genereren' uit in een parallelle Finance and Operations-sessie. Selecteer de indeling BACS (UK fictief) in parameters voor elektronische betalingsmethoden. Zorg ervoor dat het gemaakte betalingsbestand het zojuist geïntroduceerde XML-knooppunt bevat dat de IBAN-code in overeenstemming met regionale vereisten weergeeft.  
+Voer de stappen van de procedure 'Gemaakte indeling gebruiken om elektronische documenten voor betalingen te genereren' uit in een parallelle sessie van apps voor financiën en bedrijfsactiviteiten. Selecteer de indeling BACS (UK fictief) in parameters voor elektronische betalingsmethoden. Zorg ervoor dat het gemaakte betalingsbestand het zojuist geïntroduceerde XML-knooppunt bevat dat de IBAN-code in overeenstemming met regionale vereisten weergeeft.  
 
 ## <a name="update-the-existing-country-specific-configuration"></a>De bestaande landspecifieke configuratie bijwerken
 Litware, Inc. moet de configuratie BACS (UK fictief) bijwerken en nieuwe landvereisten aannemen voor het beheren van de indeling van het elektronische document. Later wordt deze in een nieuwe versie van deze configuratie ingesloten die wordt aangeboden voor serviceabonnees, inclusief Proseware, Inc.  
@@ -239,7 +239,7 @@ Hiervoor moet Proseware, Inc. de versie van de basisconfiguratie voor de aangepa
     De gemaakte configuratie wordt als voltooide versie 1.2.2 opgeslagen: versie 2 van de basisindeling BACS (UK fictief en aangepast), die is gebaseerd op versie 2 van basisindeling BACS (UK fictief), die is gebaseerd op versie 1 van het gegevensmodel Betalingen (vereenvoudigd model).  
 
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>De aangepaste indeling testen om betalingsbestanden te genereren
-Voer de stappen van de procedure 'Gemaakte indeling gebruiken om elektronische documenten voor betalingen te genereren' uit in een parallelle Finance and Operations-sessie. Selecteer de gemaakte indeling 'BACS (UK fictief en aangepast)' in parameters voor elektronische betalingsmethoden. Zorg ervoor dat het gemaakte betalingsbestand het zojuist door Proseware, Inc. geïntroduceerde XML-knooppunt bevat dat de IBAN-rekeningcode in overeenstemming met regionale vereisten weergeeft. Het bestand moet ook het onlangs door Litware, Inc. geïntroduceerde XML-knooppunt met de SWIFT-bankcode bevatten conform de landvereisten.  
+Voer de stappen van de procedure 'Gemaakte indeling gebruiken om elektronische documenten voor betalingen te genereren' uit in een parallelle sessie voor apps van financiën en bedrijfsactiviteiten. Selecteer de gemaakte indeling 'BACS (UK fictief en aangepast)' in parameters voor elektronische betalingsmethoden. Zorg ervoor dat het gemaakte betalingsbestand het zojuist door Proseware, Inc. geïntroduceerde XML-knooppunt bevat dat de IBAN-rekeningcode in overeenstemming met regionale vereisten weergeeft. Het bestand moet ook het onlangs door Litware, Inc. geïntroduceerde XML-knooppunt met de SWIFT-bankcode bevatten conform de landvereisten.  
 
 
 

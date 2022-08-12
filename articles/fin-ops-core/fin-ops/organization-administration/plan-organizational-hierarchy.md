@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef906c0d60639da763f2a9c1e1adf508b0849b8978dff17cd0e7b3936fc4779e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5bb0b306cca715cad64d62fff843987a8e98eb99
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771867"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108759"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Uw organisatiehiërarchie plannen
 
@@ -42,7 +42,7 @@ Wanneer u hiërarchieën plant, is het ook van belang om de relatie tussen de or
 
 U moet ten minste één rechtspersoon hebben die uw bedrijf vertegenwoordigd. Een rechtspersoon kan wettelijk bindende overeenkomsten aangaan en is verplicht financieele overzichten te overleggen.
 
-Rechtspersonen kunnen worden gebruikt voor transactiezaken of voor consolidatie. Dit betekent dat een rechtspersoon in Finance and Operations niet noodzakelijkerwijs een echte rechtspersoon in uw bedrijf vertegenwoordigt. Bijvoorbeeld, een bedrijf dat aan transacties deelneemt kan over dochtermaatschappijen beschikken. In dit scenario, is een rechtspersoon vereist voor transacties, en een virtuele rechtspersoon is vereist om de resultaten en de saldi van de dochtermaatschappijen te consolideren.
+Rechtspersonen kunnen worden gebruikt voor transactiezaken of voor consolidatie. Dit betekent dat een rechtspersoon in apps voor financiën en bedrijfsactiviteiten niet noodzakelijkerwijs een echte entiteit in uw bedrijf vertegenwoordigt. Bijvoorbeeld, een bedrijf dat aan transacties deelneemt kan over dochtermaatschappijen beschikken. In dit scenario, is een rechtspersoon vereist voor transacties, en een virtuele rechtspersoon is vereist om de resultaten en de saldi van de dochtermaatschappijen te consolideren.
 
 De interne organisaties in uw bedrijf, zoals regionale kantor, kunnen als extra rechtspersonen, of als operationele eenheden van de belangrijkste rechtspersoon worden weergegeven. Een operationele eenheid is niet vereist om een wettelijk gedefinieerde organisatie te zijn. De operationele eenheden worden gebruikt om economische middelen en operationele processen in het bedrijf te controleren. Afdelingen en kostenplaatsen zijn bijvoorbeeld operationele eenheden.
 
@@ -171,7 +171,7 @@ Voor landen/regio's die ondersteund worden, kunnen de meeste wettelijke rapporte
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>Als de organisatie als operationele eenheid wordt gemodelleerd
 
-De wettelijke rapporten moet worden gemaakt door een andere toepassing te gebruiken. U moet ervoor zorgen dat de gegevens in Finance and Operations-apps worden vastgelegd om de vereisten van elke operationele eenheid te ondersteunen, waar deze van de behoeften van het hoofdkantoor verschillen.
+De wettelijke rapporten moet worden gemaakt door een andere toepassing te gebruiken. U moet ervoor zorgen dat de gegevens in apps voor financiën en bedrijfsactiviteiten worden vastgelegd om de vereisten van elke operationele eenheid te ondersteunen, waar deze van de behoeften van het hoofdkantoor verschillen.
 
 ### <a name="currency"></a>Valuta
 
@@ -242,3 +242,4 @@ Houd rekening met de volgende beste praktijken wanneer u een organisatiehiërarc
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

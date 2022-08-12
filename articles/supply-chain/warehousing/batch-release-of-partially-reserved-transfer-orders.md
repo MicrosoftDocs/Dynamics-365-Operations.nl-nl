@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 591c93eef61992507188323909f37e3f33550a7d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e0b21c0000f6bf1cbbb318c898a519e51ca7e9b8
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888378"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068626"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Batchvrijgave van gedeeltelijk gereserveerde overboekingsorders
 
@@ -28,7 +28,7 @@ ms.locfileid: "8888378"
 Met de functionaliteit voor batchvrijgave van gedeeltelijk gereserveerde overboekingsorders kunt u overboekingsorders met een batchtaak gedeeltelijk vrijgeven aan een magazijn.
 Omdat u een gedeeltelijke hoeveelheid kunt vrijgeven, hoeft u niet te wachten tot de hele orderhoeveelheid in het magazijn beschikbaar is voordat u een order vrijgeeft.
 
-De vrijgave van orders aan een magazijn is een geavanceerd magazijnbeheerproces. Dit proces omvat activiteiten, zoals orderverzamelen, verpakken en verzenden, die een magazijnmedewerker kan uitvoeren via een mobiel apparaat.
+De vrijgave van orders aan een magazijn is een magazijnbeheerproces (WMS). Dit proces omvat activiteiten, zoals orderverzamelen, verpakken en verzenden, die een magazijnmedewerker kan uitvoeren via een mobiel apparaat.
 
 ## <a name="where-it-applies"></a>Waar van toepassing
 

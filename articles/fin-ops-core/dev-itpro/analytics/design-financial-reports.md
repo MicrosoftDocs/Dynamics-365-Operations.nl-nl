@@ -6,21 +6,22 @@ ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: FinancialReportingSetup
 audience: Application User
-ms.reviewer: kfend
-ms.custom: 10814
-ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c13169ab05dd506f75b2c9d28f05fcf4471f5a7c8f0a563c974bc38949993295
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom:
+- "10814"
+ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
+ms.search.form: FinancialReportingSetup
+ms.openlocfilehash: 77756b9f32268b091361e1e69be05a11eac19846
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724438"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205659"
 ---
 # <a name="view-and-design-financial-reports"></a>Financiële rapporten weergeven en ontwerpen
 
@@ -151,7 +152,7 @@ Voor deze oefening wijzigt u een bestaand standaardrapport. U voegt een organisa
 4. Selecteer **Bestand** &gt; **Opslaan als** en geef het rapport de naam **Geconsolideerde balans en inkomensoverzicht naast elkaar**.
 5. Wijzig het basisjaar in 2012.
 6. Klik op de pijl van de vervolgkeuzelijst Structuur en selecteer **Organisatiehiërarchieën**.
-7. Klik op de pijl van de vervolgkeuzelijst Structuur en selecteer **Contoso Holdings**.
+7. Klik op de pijl van de vervolgkeuzelijst Structuur en selecteer **Contoso-holdings**.
 8. Sla de wijzigingen op en genereer het rapport. Indien gevraagd, selecteert u alle rapportage-eenheden. Nadat het rapport is gegenereerd en geopend, kunt u het rapport controleren.
 9. Selecteer **Rapportopties**.
 10. Selecteer **Een dimensiefilter toevoegen** en kies **Afdeling**.

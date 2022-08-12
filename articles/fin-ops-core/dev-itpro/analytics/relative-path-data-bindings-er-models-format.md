@@ -13,18 +13,18 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: af3a646e24976d50f83d8564e3006fc2c50d8e2a
-ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.openlocfilehash: be2c0f921fde13598685553ea01bfcf3f8255362
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8313562"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108666"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Een relatief pad gebruiken in gegevensbindingen van ER-modellen en -indelingen
 
 [!include[banner](../includes/banner.md)]
 
-Met het hulpprogramma voor Elektronische rapportage (ER) kunnen gebruikers elektronische indelingsstructuren definiëren en vervolgens beschrijven hoe deze structuren moeten worden gevuld met behulp van gegevens en algoritmen die in de toepassing bestaan. Zie [ER-configuraties (Elektronische rapportage) maken](electronic-reporting-configuration.md) voor meer informatie. Als u de gegevensstroom wilt opgeven voor het ophalen van gegevens uit Finance and Operations en het gebruik ervan om een elektronisch document te genereren, moet u het volgende doen:
+Met het hulpprogramma voor Elektronische rapportage (ER) kunnen gebruikers elektronische indelingsstructuren definiëren en vervolgens beschrijven hoe deze structuren moeten worden gevuld met behulp van gegevens en algoritmen die in de toepassing bestaan. Zie [ER-configuraties (Elektronische rapportage) maken](electronic-reporting-configuration.md) voor meer informatie. Als u de gegevensstroom wilt opgeven voor het ophalen van gegevens uit apps voor financiën en bedrijfsactiviteiten en het gebruik ervan om een elektronisch document te genereren, moet u het volgende doen:
 
 - De geconfigureerde gegevensbronnen binden aan elementen van het ontworpen domeinspecifieke gegevensmodel. De modelstructuur en de geselecteerde gegevensbronnen kunnen deel uitmaken van een complexe hiërarchische structuur. Hierdoor kunnen eindbindingen vrij groot zijn en vele elementen van verschillende typen bevatten (bijvoorbeeld relaties, tabellen en methoden). De bindingen kunnen minder goed leesbaar worden en zijn zeer ingewikkeld om te controleren en te begrijpen, vooral voor niet-eigenaars. 
 - Gegevensmodelelementen binden met indelingscomponenten om te definiëren welke gegevens uit het gegevensmodel de gegenereerde indelingsoutput zullen vullen.
@@ -58,3 +58,4 @@ Deze functie verbreekt niet de achterwaartse compatibiliteit van het ER-raamwerk
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

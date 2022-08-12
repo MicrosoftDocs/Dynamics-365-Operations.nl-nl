@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d098aa77b4eb87118692c18ecd1b09a5de2c53d6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7d8d59def24fd138b4cf1d36e286b786e13b096e
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890401"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124023"
 ---
 # <a name="upgrade-budget-planning"></a>Budgetplanning bijwerken
 
@@ -30,7 +30,7 @@ Er zijn belangrijke verschillen in de budgetplanning tussen Microsoft Dynamics A
 Budgetplanning in Finance heeft veel verbeteringen die niet beschikbaar waren Dynamics AX 2012. In dit artikel worden de wijzigingen uitgelegd die klanten moeten uitvoeren bij een upgrade. Ook wordt verwezen naar de nieuwe functies die in overweging moeten worden genomen in het upgradeproces. Vanwege de omvang van de wijzigingen kunnen eventuele bestaande budgetplannen pas worden geopend nadat de wijzigingen zijn doorgevoerd die in dit artikel worden beschreven. Rapporten moeten echter blijven werken en mogen geen extra wijzigingen vereisen.
 
 ## <a name="overview-of-changes"></a>Overzicht van wijzigingen
-Er zijn veel belangrijke wijzigingen aangebracht in budgettering voor Finance and Operations. Deze wijzigingen zijn bedoeld om ervoor te zorgen dat budgetplanning gemakkelijker te configureren en bruikbaarder wordt, zodat onderhoud en instelling van jaar tot jaar afnemen. De volgende gebieden in AX 2012 bestaan niet langer in Finance:
+Er zijn veel belangrijke wijzigingen aangebracht in budgettering van apps voor financiën en bedrijfsactiviteiten. Deze wijzigingen zijn bedoeld om ervoor te zorgen dat budgetplanning gemakkelijker te configureren en bruikbaarder wordt, zodat onderhoud en instelling van jaar tot jaar afnemen. De volgende gebieden in AX 2012 bestaan niet langer in Finance:
 
 -   Budgetplansjablonen (budgetplanningsconfiguratie)
 -   Budgetplanmappen (budgetplanningsconfiguratie)
@@ -47,7 +47,7 @@ Kolommen zijn een nieuw concept dat delen van de Excel-sjabloon en ook matrixvel
 
 ### <a name="layouts"></a>Indelingen
 
-Indelingen zijn een nieuw concept ter vervanging van de Excel-sjabloon. Indelingen bevatten de kolommen die definiëren welke budgetgegevens of werkelijke waarden en perioden moeten worden weergegeven. Indelingen worden ook gedeeld tussen de client en de Excel-invoegtoepassing. Daarom is de gebruikerservaring bij het invoeren of weergeven van gegevens in de client van Finance and Operations beter dan de gebruikerservaring in AX 2012. Als u gegevens wilt invoeren in de client van Finance, bent u niet langer beperkt tot het weergeven en invoeren van een enkel scenario in een transactieweergave. In plaats daarvan kunt u met een vergelijkingsweergave op eenvoudige wijze bedragen bekijken en invoeren voor meerdere perioden en rekeningen tegelijk. Ook kunnen indelingen worden gedefinieerd zodat u valuta, opmerkingen en andere optionele gegevens kunt invoeren en weergeven. Via indelingen kunt u definiëren welke grootboekdimensies en beschrijvingen van dimensies moeten worden weergegeven. Indelingen kunnen ook scenariobeperkingen bevatten om te bepalen welke kolommen in een sjabloon kunnen worden bewerkt en welke kolommen beschikbaar moeten zijn in Excel. Nadat u een indeling hebt gedefinieerd, wordt hiervoor een sjabloon gegenereerd. Deze sjabloon maakt op zijn beurt de bijbehorende Excel-sjabloon. Vervolgens kunt u de Excel-sjabloon bewerken om meer formules en opmaak op te nemen en deze vervolgens opnieuw uploaden. Indelingen worden vervolgens toegewezen aan elke faseregel op de pagina **Budgetplanningsproces**. Daarom vervangen de indelingen sjablonen, die op een vergelijkbare manier werden toegewezen en gebruikt.
+Indelingen zijn een nieuw concept ter vervanging van de Excel-sjabloon. Indelingen bevatten de kolommen die definiëren welke budgetgegevens of werkelijke waarden en perioden moeten worden weergegeven. Indelingen worden ook gedeeld tussen de client en de Excel-invoegtoepassing. Daarom is de gebruikerservaring bij het invoeren of weergeven van gegevens in de client voor financiën en bedrijfsactiviteiten beter dan de gebruikerservaring in AX 2012. Als u gegevens wilt invoeren in de client van Finance, bent u niet langer beperkt tot het weergeven en invoeren van een enkel scenario in een transactieweergave. In plaats daarvan kunt u met een vergelijkingsweergave op eenvoudige wijze bedragen bekijken en invoeren voor meerdere perioden en rekeningen tegelijk. Ook kunnen indelingen worden gedefinieerd zodat u valuta, opmerkingen en andere optionele gegevens kunt invoeren en weergeven. Via indelingen kunt u definiëren welke grootboekdimensies en beschrijvingen van dimensies moeten worden weergegeven. Indelingen kunnen ook scenariobeperkingen bevatten om te bepalen welke kolommen in een sjabloon kunnen worden bewerkt en welke kolommen beschikbaar moeten zijn in Excel. Nadat u een indeling hebt gedefinieerd, wordt hiervoor een sjabloon gegenereerd. Deze sjabloon maakt op zijn beurt de bijbehorende Excel-sjabloon. Vervolgens kunt u de Excel-sjabloon bewerken om meer formules en opmaak op te nemen en deze vervolgens opnieuw uploaden. Indelingen worden vervolgens toegewezen aan elke faseregel op de pagina **Budgetplanningsproces**. Daarom vervangen de indelingen sjablonen, die op een vergelijkbare manier werden toegewezen en gebruikt.
 
 ### <a name="budget-planning-processes"></a>Budgetplanningsprocessen
 
@@ -69,7 +69,7 @@ Om te helpen bepalen hoe het bijgewerkte systeem moet worden geconfigureerd, wor
    -   Budgetplanscenario's: werkelijke waarden, basislijn, budgetaanvraag, goedgekeurd budget
    -   Budgetplanregels voor alle scenario's in 2017 en werkelijke waarden voor zowel 2017 als 2016
 
-   De volgende kolommen worden gemaakt in Finance and Operations:
+   De volgende kolommen worden gemaakt in apps voor financiën en bedrijfsactiviteiten:
 
    | Kolomnaam    | Budgetplanscenario | Kolomperiode | Jaargrens |
    |----------------|----------------------|--------------------|-------------|

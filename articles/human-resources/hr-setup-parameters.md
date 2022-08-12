@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dd645dcc79672e7f69afe47b803b90a04c22305d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 13a25d3f1f72d8053ed3951b036522cfa3a15959
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856275"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065639"
 ---
 # <a name="configure-human-resources-parameters"></a>Human Resources-parameters configureren
 
@@ -27,7 +27,7 @@ ms.locfileid: "8856275"
 
 De instellingen van bepaalde parameters van Human Resources worden in alle bedrijven gedeeld, terwijl de instellingen van andere parameters bedrijfsspecifiek zijn. In dit artikel wordt uitgelegd hoe u bedrijfsspecifieke Human Resources-parameters instelt.
 
-Twee pagina's worden gebruikt om de parameters voor Human resources in te stellen. Voor parameters die door bedrijven worden gedeeld, gebruikt u de pagina **Gedeelde Human resources-parameters**. Voor parameters die bedrijfsspecifiek zijn (met andere woorden, de instellingen gelden voor één bedrijf), gebruikt u de pagina **Parameters personeel**.
+Twee pagina's worden gebruikt om de parameters voor Human resources in te stellen. Voor parameters die door bedrijven worden gedeeld, gebruikt u de pagina **Gedeelde Human resources-parameters**. Voor parameters die bedrijfsspecifiek zijn, gebruikt u de pagina **Human resources-parameters**.
 
 ![Ga naar Human Resources-parameters.](./media/hr-employee-self-service-human-resources-parameters.png)
 
@@ -74,9 +74,10 @@ In Dynamics 365 Finance definiëren de instellingen op het tabblad **Compensatie
 
 In Human Resources kunt u op het tabblad **Compensatie** ervoor kiezen de toegang tot compensatieplannen te beperken en een standaardvaluta in te stellen.
 
-Zie [Overzicht van compensatieplannen](hr-compensation-overview.md) voor meer informatie over compensatieplannen.
+> [!NOTE]
+> In de samengevoegde infrastructuur is de standaardparameter **Valuta** op het tabblad **Compensatie** van de pagina **Human resources-parameters** verwijderd. In de toekomst wordt de valuta verwerkt door de parameter **Grootboekvaluta** om te zorgen dat er geen conflicten zijn voor de bestaande functionaliteit voor financiën en bedrijfsactiviteiten en om dubbele gegevens te voorkomen. Raadpleeg [Grootboeken configureren](/general-ledger/configure-ledger#configuring-currencies-for-the-ledger.md) voor meer informatie over het gebruik van de functionaliteit voor grootboekvaluta. 
 
-![Tabblad Compensatie.](./media/hr-setup-parameters-compensation.png)
+Zie [Overzicht van compensatieplannen](hr-compensation-overview.md) voor meer informatie over compensatieplannen.
 
 ## <a name="number-sequences"></a>Nummerreeksen
 

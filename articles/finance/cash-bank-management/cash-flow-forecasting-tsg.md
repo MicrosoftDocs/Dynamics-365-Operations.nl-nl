@@ -1,7 +1,7 @@
 ---
 title: Problemen met het instellen van cashflowprognoses oplossen
 description: Dit artikel bevat beantwoorden op vragen die u kunt hebben wanneer u cashflowprognoses configureert. Hierin komen veelgestelde vragen (FAQ) over de opzet voor cashflow, updates van cashflow en cashflow Power BI aan de orde.
-author: panolte
+author: angelad116
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: LedgerCovParameters
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2020-12-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 0e3438bc07fde28d5d9d2d5b3d83bbe70692c0bd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 807a1da1906bdefec38954cea02ed29b0157d69e
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878065"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151396"
 ---
 # <a name="troubleshoot-cash-flow-forecasting-setup"></a>Problemen met het instellen van cashflowprognoses oplossen
 

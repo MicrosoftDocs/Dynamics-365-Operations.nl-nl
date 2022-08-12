@@ -1,6 +1,6 @@
 ---
 title: Bedrijfsconcept in Dataverse
-description: In dit artikel wordt de integratie van bedrijfsgegevens tussen apps voor financiën en bedrijfsactiviteiten en Dataverse beschreven.
+description: In dit artikel wordt de integratie van bedrijfsgegevens tussen Finance + Operations en Dataverse beschreven.
 author: RamaKrishnamoorthy
 ms.date: 08/04/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 11355031714b7e046f70bd5840297d66aa7d32e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ad0075e2b92ebeb9fba879bcae503100dc7adb47
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873173"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205931"
 ---
 # <a name="company-concept-in-dataverse"></a>Bedrijfsconcept in Dataverse
 
@@ -23,15 +23,17 @@ ms.locfileid: "8873173"
 
 
 
-In Finance and Operations is het concept *bedrijf* zowel een juridische constructie als een bedrijfsconstructie. Het is ook een beveiligings- en zichtbaarheidsgrens voor gegevens. Gebruikers werken altijd in de context van één bedrijf en de meeste gegevens zijn verdeeld per bedrijf.
+In Finance + Operations is het concept *bedrijf* zowel een juridische constructie als een bedrijfsconstructie. Het is ook een beveiligings- en zichtbaarheidsgrens voor gegevens. Gebruikers werken altijd in de context van één bedrijf en de meeste gegevens zijn verdeeld per bedrijf.
 
 Dataverse heeft geen gelijkwaardig concept. Het concept dat het meest overeenkomt, is *bedrijfseenheid*, wat in de eerste plaats een beveiligings- en zichtbaarheidsgrens is voor gebruikersgegevens. Dit concept heeft niet dezelfde juridische of zakelijke implicaties als het bedrijfsconcept.
 
 Omdat bedrijfseenheid en bedrijf geen gelijkwaardige concepten zijn, is het niet mogelijk om een 1:1-toewijzing (één-op-één) tussen beide te forceren met het oog op Dataverse-integratie. Maar omdat gebruikers standaard in de toepassing dezelfde rijen moeten kunnen zien als in Dataverse, heeft Microsoft een nieuwe tabel in Dataverse geïntroduceerd met de naam cdm\_Company. Deze tabel is gelijk aan de tabel Bedrijf in de toepassing. Om te garanderen dat de zichtbaarheid van rijen standaard equivalent is tussen de toepassing en Dataverse, raden we de volgende instellingen voor Dataverse-gegevens aan:
 
-+ Voor elke Finance and Operations-bedrijfsrij die is ingeschakeld voor Twee keer wegschrijven, wordt een bijbehorende cdm\_Company-rij gemaakt.
-+ Wanneer een cdm\_Company-rij is gemaakt en is ingeschakeld voor Twee keer wegschrijven, wordt er een standaardbedrijfseenheid met dezelfde naam gemaakt. Hoewel er automatisch een standaardteam voor die bedrijfseenheid wordt gemaakt, wordt de bedrijfseenheid niet gebruikt.
-+ Er wordt een afzonderlijk eigenaarsteam gemaakt dat dezelfde naam heeft. Het wordt ook gekoppeld aan de bedrijfseenheid.
++ Voor elke Finance + Operations-bedrijfsrij die is ingeschakeld voor Twee keer wegschrijven, wordt een bijbehorende cdm\_Company-rij gemaakt.
+
++ Wanneer een cdm\_Company-rij is gemaakt en is ingeschakeld voor Twee keer wegschrijven, wordt er een standaardbedrijfseenheid met dezelfde naam gemaakt. Hoewel er automatisch een standaardeigenaarsteam voor die bedrijfseenheid wordt gemaakt, wordt de bedrijfseenheid niet gebruikt.
++ Er wordt een afzonderlijk eigenaarsteam gemaakt dat dezelfde naam heeft met een achtervoegsel voor twee keer wegschrijven. Het wordt ook gekoppeld aan de bedrijfseenheid.
+
 + De eigenaar van een rij die is gemaakt en twee keer wordt weggeschreven naar Dataverse, wordt standaard ingesteld op het team 'DW eigenaar' dat is gekoppeld aan de betreffende bedrijfseenheid.
 
 In de volgende afbeelding ziet u een voorbeeld van deze gegevensinstelling in Dataverse.
@@ -43,7 +45,7 @@ Vanwege deze configuratie is elke rij die is gerelateerd aan het bedrijf USMF, e
 + De rol Verkoopmanager wordt toegewezen aan leden van het team USMF Sales.
 + Gebruikers met de rol Verkoopmanager hebben toegang tot alle accountrijen die lid zijn van dezelfde bedrijfseenheid waarvan ze lid zijn.
 + Het team USMF Sales is gekoppeld aan de bedrijfseenheid USMF die eerder is vermeld.
-+ Daarom kunnen leden van het team USMF Sales elk account zien dat eigendom is van de gebruiker USMF DW, die afkomstig zou zijn van de bedrijfstabel USMF in Finance and Operations.
++ Daarom kunnen leden van het team "USMF Sales" elk account zien dat eigendom is van de gebruiker "USMF DW", die afkomstig zou zijn van de bedrijfstabel USMF in Finance + Operations.
 
 ![Hoe teams kunnen worden gebruikt.](media/dual-write-company-2.png)
 

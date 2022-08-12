@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 50392e8aa0deb568a57e1df59ced70625a4f8a78
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 939066fbf4ab7b316283d406c321f1a7936c187f
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856043"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066541"
 ---
 # <a name="batch-balancing"></a>Batchverdeling
 
@@ -165,22 +165,22 @@ In het subproces Ingrediënten batchverdeling wordt de hoeveelheid ingrediënten
 
 ### <a name="confirm-and-release-the-formula"></a>Bevestigen en de formule vrijgeven
 
-Nadat de ingrediënthoeveelheden zijn berekend, kunt u bevestigen en de formule vrijgeven. Het vrijgaveproces verschilt, afhankelijk van of de producten zijn ingeschakeld voor de magazijnbeheerprocessen:
+Nadat de ingrediënthoeveelheden zijn berekend, kunt u bevestigen en de formule vrijgeven. Het vrijgaveproces verschilt, afhankelijk van de vraag of de producten zijn ingeschakeld voor de magazijnbeheerprocessen (WMS):
 
-- Als een product voor de magazijnbeheerprocessen is ingeschakeld, wordt de formuleregel vrijgegeven aan het magazijn volgens de principes voor de magazijnbeheerprocessen. De formuleregel wordt vrijgegeven in hoeveelheden die overeenkomen met de verdeelde hoeveelheden en voor de specifieke batches die zijn geselecteerd voor de actieve ingrediënten.
+- Als een product voor de magazijnbeheerprocessen (WMS) is ingeschakeld, wordt de formuleregel vrijgegeven aan het magazijn volgens de principes voor WMS. De formuleregel wordt vrijgegeven in hoeveelheden die overeenkomen met de verdeelde hoeveelheden en voor de specifieke batches die zijn geselecteerd voor de actieve ingrediënten.
 
     > [!NOTE]
     > Formuleregels kunnen alleen worden vrijgegeven aan het magazijn als onderdeel van het batchverdelingsproces. Hoewel er andere opties voor het vrijgeven van materialen voor productie aan het magazijn zijn, kunnen deze opties niet worden gebruikt voor formuleregels.
 
-- Als een product niet is ingeschakeld voor de magazijnbeheerprocessen, wordt een orderverzamellijst voor de productie gemaakt voor het product wanneer u de formule bevestigt en vrijgeeft.
+- Als een product niet is ingeschakeld voor WMS, wordt een orderverzamellijst voor de productie gemaakt voor het product wanneer u de formule bevestigt en vrijgeeft.
 
-U kunt in één formule producten combineren die wel of niet zijn ingeschakeld voor magazijnbeheerprocessen. Wanneer de twee typen producten zijn opgenomen in één formule, worden de producten die zijn ingeschakeld voor de magazijnbeheerprocessen vrijgegeven aan het magazijn. Voor de producten die niet zijn ingeschakeld voor de magazijnbeheerprocessen, wordt een orderverzamellijst gemaakt wanneer u de formule bevestigt en vrijgeeft.
+U kunt in één formule producten combineren die wel of niet zijn ingeschakeld voor magazijnbeheerprocessen. Wanneer de twee typen producten zijn opgenomen in één formule, worden de producten die zijn ingeschakeld voor WMS, vrijgegeven aan het magazijn. Voor de producten die niet zijn ingeschakeld WMS, wordt een orderverzamellijst gemaakt wanneer u de formule bevestigt en vrijgeeft.
 
 ### <a name="batch-orders-that-arent-applicable-for-batch-balancing"></a>Batchorders die niet van toepassing zijn voor batchverdeling
 
 Er zijn twee uitzonderingen op de regel dat batchorders van toepassing zijn voor batchverdeling als de formule ten minste één formuleregel heeft waarbij het **ingrediënttype** *Actief* is.
 
-1. Als een formule een actief ingrediënt bevat voor een product dat voor de magazijnbeheerprocessen is ingeschakeld, maar het batchnummer lager is dan de locatie in de reserveringshiërarchie, is de batchorder niet van toepassing voor batchverdeling.
+1. Als een formule een actief ingrediënt bevat voor een product dat voor WMS is ingeschakeld, maar het batchnummer lager is dan de locatie in de reserveringshiërarchie, is de batchorder niet van toepassing voor batchverdeling.
 1. Als de formulemaateenheid verschilt van de voorraadmaateenheid van het actieve ingrediënt, is de batchorder niet van toepassing voor batchverdeling.
 
 Een batchorder die niet van toepassing is voor batchverdeling, loopt via de normale procescyclus voor batchorders.

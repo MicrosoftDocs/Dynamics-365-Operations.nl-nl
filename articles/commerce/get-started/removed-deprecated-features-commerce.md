@@ -2,7 +2,7 @@
 title: Verwijderde of afgeschafte functies in Dynamics 365 Commerce
 description: In dit artikel worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering uit Dynamics 365 Commerce.
 author: josaw
-ms.date: 04/27/2022
+ms.date: 07/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 2725ff2b8bfbaadbca1bc070e32cee7c5d2754be
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a59d62ad846eed659fa4e70390ebafc40127df0f
+ms.sourcegitcommit: ef56b5d0ed26e373add5dec63168e08ade40573e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910519"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9138581"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Verwijderde of afgeschafte functies in Dynamics 365 Commerce
 
@@ -31,7 +31,20 @@ In dit artikel worden de functies beschreven die zijn verwijderd of die zijn gep
 Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning rekening te houden met deze verwijderingen en afschaffingen. 
 
 > [!NOTE]
-> Gedetailleerde informatie over objecten in apps voor financiële en bedrijfsactiviteiten is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van apps voor financiële en bedrijfsactiviteiten.
+> Gedetailleerde informatie over objecten in apps voor financiën en bedrijfsactiviteiten is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van apps voor financiën en bedrijfsactiviteiten.
+
+## <a name="feature-deprecation-effective-july-2022"></a>Afschaffing van functie met ingang van juli 2022
+
+### <a name="commerce-analytics-preview"></a>Commerce-analyses (preview)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Het Dynamics 365 Commerce-team heeft het gebruik en de opname van de functie Commerce-analyses (preview) geanalyseerd en er is besloten om de functie niet naar algemene beschikbaar te maken.   |
+| **Vervangen door een andere functie?**   | Op dit moment wordt de functie Commerce-analyses (preview) niet vervangen door een andere functie of oplossing. De export van onbewerkte transacties en hoofdgegevens van de apps voor financiën en bedrijfsactiviteiten naar Azure Data Lake blijven beschikbaar, zoals wordt uitgelegd in [Exporteren naar Data Lake in apps voor financiën en bedrijfsactiviteiten](../../fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake.md). Partners en klanten kunnen deze gegevensstroom gebruiken om eventuele voorgenomen analyserapporten voor hun zakelijke behoeften te schrijven.
+| **Betrokken productgebieden**         | Commerce-analyses (preview) |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Deze functie wordt 30 augustus 2022 uitgeschakeld.  Vanaf deze datum vindt er geen vernieuwing plaats in de huidige Power BI-rapporten die worden geleverd door Commerce-analyses (preview).     |
+
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Verwijderde of verouderde functies in versie 10.0.25 van Commerce
 
@@ -195,3 +208,4 @@ Zie [Verwijderde of afgeschafte functies in eerdere versies](../../fin-ops-core/
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

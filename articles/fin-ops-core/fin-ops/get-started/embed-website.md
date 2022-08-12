@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3c07befc7150ff0a121fd3aaa0b5233df9f431e5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ef5ed6c3c99d62010643940f3e2f158963ff0dc2
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868603"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123713"
 ---
 # <a name="embed-third-party-apps"></a>Apps van derden insluiten
 
@@ -129,3 +129,4 @@ Als een website niet correct wordt weergegeven nadat deze is ingesloten in een F
 Hoewel dit artikel zich richt op het insluiten van apps of websites van derden via personalisatie, kunnen ontwikkelaars deze ook in een formulier insluiten door middel van de Visual Studio-ontwikkelomgeving. U voegt hiervoor gewoon een besturingselement **WebsiteHostControl** toe aan het formulier. De metagegevenseigenschappen die beschikbaar zijn voor het besturingselement, bieden dezelfde mogelijkheden als personalisatie.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

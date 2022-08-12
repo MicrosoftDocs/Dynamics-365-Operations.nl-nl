@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1407c6def22b9759723e49fb2fa6d4d68f180891
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 18a15928eef4d7158f778729506d691dd587e013
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860159"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109457"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Overzicht van Gegevensimport- en exporttaken
 
@@ -209,7 +209,7 @@ Bij het plannen van het opschoningsproces moeten de volgende parameters worden o
 ## <a name="job-history-clean-up-and-archival"></a>Taakgeschiedenis opschonen en archiveren 
 De functie voor het opschonen en archiveren van de taakgeschiedenis vervangt de vorige versies van de functionaliteit voor opschonen. In deze sectie worden deze nieuwe mogelijkheden uitgelegd.
 
-Een van de belangrijkste wijzigingen in de functionaliteit voor opschonen is het gebruik van de systeembatchtaak voor het opschonen van de geschiedenis. Met het gebruik van de systeembatchtaak kunnen apps voor financiële en bedrijfsactiviteiten de batchtaak voor opschonen automatisch plannen en uitvoeren zodra het systeem gereed is. Het is niet meer nodig om de batchtaak handmatig te plannen. In deze standaardmodus wordt de batchtaak elk uur uitgevoerd vanaf middernacht en wordt de uitvoeringsgeschiedenis voor de meest recente 7 dagen bewaard. De verwijderde geschiedenis wordt gearchiveerd voor toekomstige ophaalacties. Vanaf versie 10.0.20 is deze functie altijd beschikbaar.
+Een van de belangrijkste wijzigingen in de functionaliteit voor opschonen is het gebruik van de systeembatchtaak voor het opschonen van de geschiedenis. Met het gebruik van de systeembatchtaak kunnen apps voor financiën en bedrijfsactiviteiten de batchtaak voor opschonen automatisch plannen en uitvoeren zodra het systeem gereed is. Het is niet meer nodig om de batchtaak handmatig te plannen. In deze standaardmodus wordt de batchtaak elk uur uitgevoerd vanaf middernacht en wordt de uitvoeringsgeschiedenis voor de meest recente 7 dagen bewaard. De verwijderde geschiedenis wordt gearchiveerd voor toekomstige ophaalacties. Vanaf versie 10.0.20 is deze functie altijd beschikbaar.
 
 De tweede wijziging in het opschoonproces is het archiveren van de verwijderde uitvoeringsgeschiedenis. Met de opschoontaak worden de verwijderde records gearchiveerd naar de blob-opslag die DIXF gebruikt voor normale integraties. Het gearchiveerde bestand heeft de DIXF-pakketindeling en is 7 dagen beschikbaar in de blob. Gedurende deze tijd kan het worden gedownload. De standaardduur van 7 dagen voor het gearchiveerde bestand kan worden ingesteld op maximaal 90 dagen in de parameters.
 
@@ -235,3 +235,4 @@ Als u de gearchiveerde uitvoeringsgeschiedenis wilt downloaden, gaat u naar de w
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

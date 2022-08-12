@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 8e1444aa311bb2dc74705a3791e58c3187ecd8ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 19a1fd53f19575a16ee8d8b7391c30f0cacf26a8
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876710"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111451"
 ---
 # <a name="note-integration"></a>Integratie van notities
 
@@ -30,7 +30,7 @@ Klantgegevens kunnen op de volgende manieren worden geclassificeerd:
 + **Bruikbare informatie voor een Dynamics 365-gebruiker**: een klant die een Surface-eenheid aanschaft, voert bijvoorbeeld speciale instructies in om aan te geven dat het apparaat als geschenk moet worden ingepakt voordat het wordt afgeleverd. Deze instructies zijn bruikbare gegevens die moeten worden verwerkt door de Contoso-werknemer die verantwoordelijk is voor de verpakking.
 + **Niet-bruikbare informatie**: een klant bezoekt bijvoorbeeld de Contoso-winkel en toont tijdens het gesprek met een winkelmedewerker interesse in *Halo*-games en gamingaccessoires. De winkelmedewerker maakt een notitie van deze informatie. De engine voor productaanbevelingen gebruikt deze dan om aanbevelingen te doen aan de klant.
 
-Bruikbare informatie wordt over het algemeen vastgelegd als *activiteiten* in apps voor financiële en bedrijfsactiviteiten en Customer Engagement-apps. Niet-bruikbare informatie wordt vastgelegd als *notities* in apps voor financiële en bedrijfsactiviteiten en als *aantekeningen* in Customer Engagement-apps.
+Bruikbare informatie wordt over het algemeen vastgelegd als *activiteiten* in apps voor financiën en bedrijfsactiviteiten en Customer Engagement-apps. Niet-bruikbare informatie wordt vastgelegd als *notities* in apps voor financiën en bedrijfsactiviteiten en als *aantekeningen* in Customer Engagement-apps.
 
 > [!TIP]
 > Hoewel notities zijn bedoeld voor niet-bruikbare informatie, kunnen de apps wel worden gebruikt voor het opslaan en verwerken van bruikbare informatie als u deze op die manier wilt gebruiken.
@@ -39,7 +39,7 @@ Microsoft brengt momenteel functionaliteit voor integratie van notities uit. (Fu
 
 ## <a name="create-a-note-in-a-customer-engagement-app"></a>Een notitie maken in een app voor klantbetrokkenheid
 
-Voer de volgende stappen uit om een notitie te maken in een Customer Engagement-app en deze vervolgens te synchroniseren met een app voor financiële en bedrijfsactiviteiten.
+Voer de volgende stappen uit om een notitie te maken in een Customer Engagement-app en deze vervolgens te synchroniseren met een app voor financiën en bedrijfsactiviteiten.
 
 1. Open in de app voor klantbetrokkenheid de rekeningrecord voor een klant.
 2. Selecteer in het deelvenster **Tijdlijn** het plusteken (**+**) en selecteer vervolgens **Notitie** om een notitie te maken.
@@ -54,7 +54,7 @@ Voer de volgende stappen uit om een notitie te maken in een Customer Engagement-
 
     ![Nieuwe notitie op de tijdlijn van klant.](media/notes-ce-3.png)
 
-4. Meld u aan bij de app voor financiële en bedrijfsactiviteiten en open dezelfde klantrecord. De knop **Bijlagen** (paperclipsymbool) rechtsboven geeft aan dat de record een bijlage heeft.
+4. Meld u aan bij de app voor financiën en bedrijfsactiviteiten en open dezelfde klantrecord. De knop **Bijlagen** (paperclipsymbool) rechtsboven geeft aan dat de record een bijlage heeft.
 
     ![Melding over een bijlage.](media/notes-ce-4.png)
 
@@ -62,17 +62,17 @@ Voer de volgende stappen uit om een notitie te maken in een Customer Engagement-
 
     ![Notitie vanuit de app voor klantbetrokkenheid.](media/notes-ce-5.png)
 
-Alle updates van de notitie worden steeds gesynchroniseerd tussen de app voor financiële en bedrijfsactiviteiten en de Customer Engagement-app.
+Alle updates van de notitie worden steeds gesynchroniseerd tussen de app voor financiën en bedrijfsactiviteiten en de Customer Engagement-app.
 
-## <a name="create-a-note-in-a-finance-and-operations-app"></a>Een notitie maken in een app voor financiële en bedrijfsactiviteiten
+## <a name="create-a-note-in-a-finance-and-operations-app"></a>Een notitie maken in een app voor financiën en bedrijfsactiviteiten
 
-U kunt ook een notitie maken in een app voor financiële en bedrijfsactiviteiten. Deze wordt vervolgens gesynchroniseerd met een Customer Engagement-app.
+U kunt ook een notitie maken in een app voor financiën en bedrijfsactiviteiten. Deze wordt vervolgens gesynchroniseerd met een Customer Engagement-app.
 
-Voer de volgende stappen uit om een notitie te maken in een app voor financiële en bedrijfsactiviteiten en deze vervolgens te synchroniseren met een Customer Engagement-app.
+Voer de volgende stappen uit om een notitie te maken in een app voor financiën en bedrijfsactiviteiten en deze vervolgens te synchroniseren met een Customer Engagement-app.
 
-1. Selecteer in de app voor financiële en bedrijfsactiviteiten op de pagina **Bijlagen** **Nieuw** \> **Notitie**.
+1. Selecteer in de app voor financiën en bedrijfsactiviteiten op de pagina **Bijlagen** **Nieuw** \> **Notitie**.
 
-    ![Een notitie in de app voor financiële en bedrijfsactiviteiten maken.](media/notes-fo-1.png)
+    ![Een notitie in de app voor financiën en bedrijfsactiviteiten maken.](media/notes-fo-1.png)
 
 2. Voer een titel en een korte reeks instructies in en selecteer **Opslaan**.
 
@@ -84,17 +84,17 @@ Voer de volgende stappen uit om een notitie te maken in een app voor financiële
 
 U kunt een notitie classificeren als intern of extern.
 
-- Open de notitie in de app voor financiële en bedrijfsactiviteiten op de pagina **Bijlagen** en selecteer vervolgens in het veld **Beperking** de optie **Intern** of **Extern**.
+- Open de notitie in de app voor financiën en bedrijfsactiviteiten op de pagina **Bijlagen** en selecteer vervolgens in het veld **Beperking** de optie **Intern** of **Extern**.
 
     ![Beperkingsveld.](media/notes-fo-4.png)
 
 U kunt ook een URL maken.
 
-1. Selecteer in de app voor financiële en bedrijfsactiviteiten op de pagina **Bijlagen** **Nieuw** \> **URL**.
+1. Selecteer in de app voor financiën en bedrijfsactiviteiten op de pagina **Bijlagen** **Nieuw** \> **URL**.
 2. Voer een titel en de URL in.
 3. Selecteer in het veld **Beperking** de optie **Intern** of **Extern**.
 
-    ![Een URL in de app voor financiële en bedrijfsactiviteiten maken.](media/notes-fo-5.png)
+    ![Een URL in de app voor financiën en bedrijfsactiviteiten maken.](media/notes-fo-5.png)
 
 4. Selecteer **Opslaan**.
 
@@ -121,3 +121,4 @@ Integratie van notities omvat een verzameling tabeltoewijzingen die samenwerken 
 Zodra u de oplossing voor notities hebt geïnstalleerd, kunt u deze niet meer verwijderen. 
 
 Zie [Toewijzingsverwijzing voor twee keer wegschrijven](mapping-reference.md) voor meer informatie.
+

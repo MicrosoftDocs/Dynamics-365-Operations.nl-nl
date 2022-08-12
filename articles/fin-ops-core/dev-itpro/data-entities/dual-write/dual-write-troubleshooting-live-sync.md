@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 9d27331b940a95168810c2f1ec4ae240a9df93a8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1211f7da15686f1c55a4c942f04c73d671e0ba6b
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8896700"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111421"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Problemen met live synchronisatie oplossen
 
@@ -22,14 +22,14 @@ ms.locfileid: "8896700"
 
 
 
-Dit artikel bevat informatie voor het oplossen van problemen met de integratie van Twee keer wegschrijven tussen apps voor financiële en bedrijfsactiviteiten en Microsoft Dataverse. Dit onderwerp bevat specifieke informatie over het oplossen van problemen met live synchronisatie.
+Dit artikel bevat informatie voor het oplossen van problemen met de integratie van Twee keer wegschrijven tussen apps voor financiën en bedrijfsactiviteiten en Microsoft Dataverse. Dit onderwerp bevat specifieke informatie over het oplossen van problemen met live synchronisatie.
 
 > [!IMPORTANT]
 > Bij sommige problemen die in dit artikel worden beschreven, is mogelijk de rol van systeembeheerder vereist of de inloggegevens van de tenantbeheerder van de Microsoft Azure Active Directory (Azure AD). In elk gedeelte wordt uitgelegd of een specifieke rol of specifieke inloggegevens vereist zijn.
 
 ## <a name="live-synchronization-shows-an-error-when-you-create-a-row"></a>Bij live synchronisatie wordt een fout weergegeven wanneer u een rij aanmaakt
 
-Mogelijk wordt het volgende foutbericht weergegeven wanneer u een rij in een app voor financiële en bedrijfsactiviteiten maakt:
+Mogelijk wordt het volgende foutbericht weergegeven wanneer u een rij in een app voor financiën en bedrijfsactiviteiten maakt:
 
 *\[{\\"error\\":{\\"code\\":\\"0x80072560\\",\\"message\\":\\"De gebruiker is geen lid van de organisatie.\\"}}\], De externe server heeft een fout geretourneerd: (403) verboden."}}".*
 
@@ -39,27 +39,27 @@ Volg de stappen in [Systeemvereisten en vereisten vooraf](requirements-and-prere
 
 **Vereiste rol om de fout op te lossen:** systeembeheerder
 
-Mogelijk wordt het volgende foutbericht weergegeven wanneer u probeert tabelgegevens op te slaan in een app voor financiële en bedrijfsactiviteiten:
+Mogelijk wordt het volgende foutbericht weergegeven wanneer u probeert tabelgegevens op te slaan in een app voor financiën en bedrijfsactiviteiten:
 
 *De wijzigingen in de database kunnen niet worden opgeslagen. Werkeenheid kan transactie niet doorvoeren. Kan geen gegevens schrijven in maateenheid van entiteit. Schrijven naar UnitOfMeasureEntity is mislukt met foutbericht Kan niet synchroniseren met maateenheden van entiteit.*
 
-Om het probleem op te lossen moet u ervoor zorgen dat de vereiste verwijzingsgegevens aanwezig zijn in de app voor financiële en bedrijfsactiviteiten en Dataverse. Als een klantrecord bijvoorbeeld deel uitmaakt van een specifieke klantengroep, zorg er dan voor dat het record van de klantengroep bestaat in Dataverse.
+Om het probleem op te lossen moet u ervoor zorgen dat de vereiste verwijzingsgegevens aanwezig zijn in de app voor financiën en bedrijfsactiviteiten en Dataverse. Als een klantrecord bijvoorbeeld deel uitmaakt van een specifieke klantengroep, zorg er dan voor dat het record van de klantengroep bestaat in Dataverse.
 
 Voer de volgende stappen uit als er op beide plekken gegevens voorkomen en is bevestigd dat het probleem niet samenhangt met gegevens.
 
-1. Open de entiteit **DualWriteProjectConfigurationEntity** met de Excel-invoegtoepassing. Als u de invoegtoepassing wilt gebruiken, moet u de ontwerpmodus in de Excel-invoegtoepassing van Finance and Operations inschakelen en **DualWriteProjectConfigurationEntity** aan een werkblad toevoegen. Zie [Entiteitsgegevens weergeven en bijwerken met Excel](../../office-integration/use-excel-add-in.md) voor meer informatie.
+1. Open de entiteit **DualWriteProjectConfigurationEntity** met de Excel-invoegtoepassing. Als u de invoegtoepassing wilt gebruiken, moet u de ontwerpmodus in de Excel-invoegtoepassing voor financiën en bedrijfsactiviteiten inschakelen en **DualWriteProjectConfigurationEntity** aan een werkblad toevoegen. Zie [Entiteitsgegevens weergeven en bijwerken met Excel](../../office-integration/use-excel-add-in.md) voor meer informatie.
 2. Selecteer en verwijder de records waarmee problemen zijn in de toewijzing voor twee keer wegschrijven en het project. Er zullen twee records bestaan voor elke toewijzing voor twee keer wegschrijven.
 3. Publiceer de wijzigingen met de Excel-invoegtoepassing. Deze stap is belangrijk omdat hiermee de records uit de entiteit en onderliggende tabellen worden verwijderd.
 
-## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Fouten met lees- of schrijfbevoegdheid oplossen wanneer u gegevens maakt in een app voor financiële en bedrijfsactiviteiten
+## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Fouten met lees- of schrijfbevoegdheid oplossen wanneer u gegevens maakt in een app voor financiën en bedrijfsactiviteiten
 
-Mogelijk wordt het foutbericht 'Ongeldige aanvraag' weergegeven wanneer u gegevens in een app voor financiële en bedrijfsactiviteiten aanmaakt.
+Mogelijk wordt het foutbericht 'Ongeldige aanvraag' weergegeven wanneer u gegevens in een app voor financiën en bedrijfsactiviteiten aanmaakt.
 
 ![Voorbeeld van foutbericht Ongeldige aanvraag.](media/error_record_id_source.png)
 
 Dit probleem is op te lossen door de juiste beveiligingsrol toe te wijzen aan het team van de toegewezen Dynamics 365 Sales- of Dynamics 365 Customer Service-bedrijfseenheden om de ontbrekende bevoegdheid in te schakelen.
 
-1. Zoek in de app voor financiële en bedrijfsactiviteiten de bedrijfseenheid die is toegewezen in de verbindingsset Gegevensintegratie.
+1. Zoek in de app voor financiën en bedrijfsactiviteiten de bedrijfseenheid die is toegewezen in de verbindingsset Gegevensintegratie.
 
     ![Organisatietoewijzing.](media/mapped_business_unit.png)
 
@@ -77,7 +77,7 @@ Dit probleem is op te lossen door de juiste beveiligingsrol toe te wijzen aan he
 
 **Vereiste rol om de fout op te lossen:** systeembeheerder
 
-Mogelijk wordt het volgende foutbericht weergegeven wanneer u gegevens in een app voor financiële en bedrijfsactiviteiten maakt:
+Mogelijk wordt het volgende foutbericht weergegeven wanneer u gegevens in een app voor financiën en bedrijfsactiviteiten maakt:
 
 *{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**Kan geen nettolading genereren voor entiteit CustCustomerV3Entity**","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"Het maken van de nettolading is mislukt met fout Ongeldige URI: de URI is leeg."}\],"isErrorCountUpdated":true}*
 
@@ -85,19 +85,19 @@ Het foutbericht ziet er als volgt uit in de app voor klantbetrokkenheid:
 
 > Er is een onverwachte fout opgetreden vanuit de ISV-code. (Fouttype = ClientError) Onverwachte uitzondering vanuit invoegtoepassing (Execute): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: verwerken van entiteitsaccount mislukt - (een verbindingspoging is mislukt omdat de verbonden partij niet correct reageert na een bepaalde tijd of de tot stand gebrachte verbinding is mislukt omdat de verbonden host niet heeft gereageerd.
 
-Deze fout treedt op als de Dataverse-omgeving onjuist opnieuw wordt ingesteld wanneer u probeert gegevens aan te maken in de app voor financiële en bedrijfsactiviteiten.
+Deze fout treedt op als de Dataverse-omgeving onjuist opnieuw wordt ingesteld wanneer u probeert gegevens aan te maken in de app voor financiën en bedrijfsactiviteiten.
 
 > [!IMPORTANT]
 > Als u de omgevingen opnieuw hebt gekoppeld, moet u alle entiteitstoewijzingen stoppen voordat u verder gaat met de te ondernemen beperkende stappen.
 
-Om het probleem op te lossen, moet u stappen in zowel Dataverse als in de app voor financiële en bedrijfsactiviteiten uitvoeren.
+Om het probleem op te lossen, moet u stappen in zowel Dataverse als in de app voor financiën en bedrijfsactiviteiten uitvoeren.
 
-1. Voer de volgende stappen uit in de app voor financiële en bedrijfsactiviteiten:
+1. Voer de volgende stappen uit in de app voor financiën en bedrijfsactiviteiten:
 
-    1. Open de entiteit **DualWriteProjectConfigurationEntity** met de Excel-invoegtoepassing. Als u de invoegtoepassing wilt gebruiken, moet u de ontwerpmodus in de Excel-invoegtoepassing van Finance and Operations inschakelen en **DualWriteProjectConfigurationEntity** aan een werkblad toevoegen. Zie [Entiteitsgegevens weergeven en bijwerken met Excel](../../office-integration/use-excel-add-in.md) voor meer informatie.
+    1. Open de entiteit **DualWriteProjectConfigurationEntity** met de Excel-invoegtoepassing. Als u de invoegtoepassing wilt gebruiken, moet u de ontwerpmodus in de Excel-invoegtoepassing voor financiën en bedrijfsactiviteiten inschakelen en **DualWriteProjectConfigurationEntity** aan een werkblad toevoegen. Zie [Entiteitsgegevens weergeven en bijwerken met Excel](../../office-integration/use-excel-add-in.md) voor meer informatie.
     2. Selecteer en verwijder de records waarmee problemen zijn in de toewijzing voor twee keer wegschrijven en het project. Er zullen twee records bestaan voor elke toewijzing voor twee keer wegschrijven.
     3. Publiceer de wijzigingen met de Excel-invoegtoepassing. Deze stap is belangrijk omdat hiermee de records uit de entiteit en onderliggende tabellen worden verwijderd.
-    4. Om fouten te voorkomen wanneer u de Finance and Operations- of Dataverse-omgevingen opnieuw opnieuw koppelt, moet u ervoor zorgen dat er geen configuraties met twee keer wegschrijven overblijven.
+    4. Om fouten te voorkomen wanneer u de omgeving voor financiën en bedrijfsactiviteiten of Dataverse-omgeving opnieuw koppelt, moet u ervoor zorgen dat er geen configuraties met twee keer wegschrijven overblijven.
 
 2. Volg in Dataverse deze stappen:
 
@@ -108,12 +108,12 @@ Om het probleem op te lossen, moet u stappen in zowel Dataverse als in de app vo
     5. Selecteer **Resultaten** om de configuraties weer te geven.
     6. Alle exemplaren verwijderen.
 
-3. Voer de volgende stappen uit in de app voor financiële en bedrijfsactiviteiten:
+3. Voer de volgende stappen uit in de app voor financiën en bedrijfsactiviteiten:
 
-    1. Open de entiteit **DualWriteProjectConfigurationEntity** met de Excel-invoegtoepassing. Als u de invoegtoepassing wilt gebruiken, moet u de ontwerpmodus in de Excel-invoegtoepassing van Finance and Operations inschakelen en **DualWriteProjectConfigurationEntity** aan een werkblad toevoegen. Zie [Entiteitsgegevens weergeven en bijwerken met Excel](../../office-integration/use-excel-add-in.md) voor meer informatie.
+    1. Open de entiteit **DualWriteProjectConfigurationEntity** met de Excel-invoegtoepassing. Als u de invoegtoepassing wilt gebruiken, moet u de ontwerpmodus in de Excel-invoegtoepassing voor financiën en bedrijfsactiviteiten inschakelen en **DualWriteProjectConfigurationEntity** aan een werkblad toevoegen. Zie [Entiteitsgegevens weergeven en bijwerken met Excel](../../office-integration/use-excel-add-in.md) voor meer informatie.
     2. Selecteer en verwijder de records waarmee problemen zijn in de toewijzing voor twee keer wegschrijven en het project. Er zullen twee records bestaan voor elke toewijzing voor twee keer wegschrijven.
     3. Publiceer de wijzigingen met de Excel-invoegtoepassing. Deze stap is belangrijk omdat hiermee de records uit de entiteit en onderliggende tabellen worden verwijderd.
-    4. Om fouten te voorkomen wanneer u de Finance and Operations- of Dataverse-omgevingen opnieuw opnieuw koppelt, moet u ervoor zorgen dat er geen configuraties met twee keer wegschrijven overblijven.
+    4. Om fouten te voorkomen wanneer u de omgeving voor financiën en bedrijfsactiviteiten of Dataverse-omgeving opnieuw koppelt, moet u ervoor zorgen dat er geen configuraties met twee keer wegschrijven overblijven.
 
 ## <a name="live-synchronization-error-after-you-do-a-full-database-copy"></a>Fout in live synchronisatie nadat u een volledige kopie van de database hebt gemaakt
 
@@ -189,9 +189,9 @@ while(qRun.next())
 }
 ```
 
-## <a name="data-from-finance-and-operations-apps-isnt-synced-to-dataverse"></a>Gegevens van apps voor financiële en bedrijfsactiviteiten worden niet gesynchroniseerd met Dataverse
+## <a name="data-from-finance-and-operations-apps-isnt-synced-to-dataverse"></a>Gegevens van apps voor financiën en bedrijfsactiviteiten worden niet gesynchroniseerd met Dataverse
 
-Tijdens live synchronisatie kan er een probleem optreden waarbij slechts een gedeelte van de gegevens wordt gesynchroniseerd tussen apps voor financiële en bedrijfsactiviteiten en Dataverse of waarbij gegevens niet worden gesynchroniseerd.
+Tijdens live synchronisatie kan er een probleem optreden waarbij slechts een gedeelte van de gegevens wordt gesynchroniseerd tussen apps voor financiën en bedrijfsactiviteiten en Dataverse of waarbij gegevens niet worden gesynchroniseerd.
 
 > [!NOTE]
 > Dit probleem moet in de ontwikkelfase worden verholpen.
@@ -200,13 +200,13 @@ Controleer de volgende vereisten voordat u het probleem gaat oplossen:
 
 + Zorg ervoor dat uw aangepaste wijzigingen in één transactiebereik worden geschreven.
 + Zakelijke gebeurtenissen en het framewerk voor twee keer wegschrijven verwerken `doinsert()`-, `doUpdate()`- en `recordset()`-bewerkingen of records waar `skipBusinessEvents(true)` is gemarkeerd, niet. Als uw code binnen deze functies valt, wordt het twee keer wegschrijven niet geactiveerd.
-+ Zakelijke gebeurtenissen moeten worden geregistreerd voor de gegevensbron die is toegewezen. Sommige gegevensbronnen maken mogelijk gebruik van een outer join en kunnen gemarkeerd zijn als alleen-lezen in apps voor financiële en bedrijfsactiviteiten. Deze gegevensbronnen worden niet bijgehouden.
++ Zakelijke gebeurtenissen moeten worden geregistreerd voor de gegevensbron die is toegewezen. Sommige gegevensbronnen maken mogelijk gebruik van een outer join en kunnen gemarkeerd zijn als alleen-lezen in apps voor financiën en bedrijfsactiviteiten. Deze gegevensbronnen worden niet bijgehouden.
 + Wijzigingen worden alleen geactiveerd als de wijzigingen in de toegewezen velden staan. Wijzigingen aan niet-toegewezen velden zullen twee keer wegschrijven niet activeren.
 + Zorg ervoor dat filterevaluaties een geldig resultaat opleveren.
 
 ### <a name="troubleshooting-steps"></a>Stappen om problemen op te lossen
 
-1. Veldtoewijzingen controleren op de beheerpagina voor twee keer afschrijven. Als een veld niet is toegewezen vanuit apps voor financiële en bedrijfsactiviteiten aan Dataverse, wordt het niet bijgehouden. In de volgende afbeelding wordt het veld **Omschrijving** bijvoorbeeld wel bijgehouden vanuit Dataverse, maar niet vanuit apps voor financiële en bedrijfsactiviteiten. Wijzigingen in dat veld in apps voor financiële en bedrijfsactiviteiten worden niet bijgehouden.
+1. Veldtoewijzingen controleren op de beheerpagina voor twee keer afschrijven. Als een veld niet is toegewezen vanuit apps voor financiën en bedrijfsactiviteiten aan Dataverse, wordt het niet bijgehouden. In de volgende afbeelding wordt het veld **Omschrijving** bijvoorbeeld wel bijgehouden vanuit Dataverse, maar niet vanuit apps voor financiën en bedrijfsactiviteiten. Wijzigingen in dat veld in apps voor financiën en bedrijfsactiviteiten worden niet bijgehouden.
 
     ![Bijgehouden veld.](media/live-sync-troubleshooting-1.png)
 
@@ -220,9 +220,9 @@ Controleer de volgende vereisten voordat u het probleem gaat oplossen:
 
 ### <a name="sample-scenario"></a>Voorbeeldscenario
 
-In apps voor financiële en bedrijfsactiviteiten wordt het adres van een contactpersoonrecord bijgewerkt, maar de adreswijziging wordt niet gesynchroniseerd met Dataverse. Dit scenario treedt op omdat geen enkel record in de tabel **BusinessEventsDefinition** de combinatie van de betreffende tabel en de entiteit heeft. Met name de tabel **LogisticsPostalAddress** is niet de directe gegevensbron voor de entiteit **smmContactpersonCDSV2Entity**. De entiteit **smmContactpersonCDSV2Entity** heeft **smmContactPersonV2Entity** als de gegevensbron en **smmContactPersonV2Entity** heeft op zijn beurt **LogisticsPostalAddressBaseEntity** als gegevensbron. De tabel **LogisticsPostalAddress** is de gegevensbron voor **LogisticsPostalAddressBaseEntity**.
+In apps voor financiën en bedrijfsactiviteiten wordt het adres van een contactpersoonrecord bijgewerkt, maar de adreswijziging wordt niet gesynchroniseerd met Dataverse. Dit scenario treedt op omdat geen enkel record in de tabel **BusinessEventsDefinition** de combinatie van de betreffende tabel en de entiteit heeft. Met name de tabel **LogisticsPostalAddress** is niet de directe gegevensbron voor de entiteit **smmContactpersonCDSV2Entity**. De entiteit **smmContactpersonCDSV2Entity** heeft **smmContactPersonV2Entity** als de gegevensbron en **smmContactPersonV2Entity** heeft op zijn beurt **LogisticsPostalAddressBaseEntity** als gegevensbron. De tabel **LogisticsPostalAddress** is de gegevensbron voor **LogisticsPostalAddressBaseEntity**.
 
-Een vergelijkbare situatie kan optreden in sommige niet-standaardpatronen, zoals gevallen waarin de tabel die wordt gewijzigd in apps voor financiële en bedrijfsactiviteiten niet duidelijk aan de entiteit is gekoppeld die de tabel bevat. De primaire adresgegevens worden bijvoorbeeld berekend in de entiteit **smmContactPersonCDSV2Entity**. Het framewerk voor twee keer schrijven probeert te bepalen hoe een wijziging in een onderliggende tabel weer wordt toegewezen aan entiteiten. Meestal is deze benadering voldoende. In sommige gevallen is de koppeling echter zo complex dat u specifiek moet zijn. U moet ervoor zorgen dat de **RecId** van de gerelateerde tabel rechtstreeks beschikbaar is voor de entiteit. Voeg vervolgens een statische methode toe om de tabel op wijzigingen te controleren.
+Een vergelijkbare situatie kan optreden in sommige niet-standaardpatronen, zoals gevallen waarin de tabel die wordt gewijzigd in apps voor financiën en bedrijfsactiviteiten niet duidelijk aan de entiteit is gekoppeld die de tabel bevat. De primaire adresgegevens worden bijvoorbeeld berekend in de entiteit **smmContactPersonCDSV2Entity**. Het framewerk voor twee keer schrijven probeert te bepalen hoe een wijziging in een onderliggende tabel weer wordt toegewezen aan entiteiten. Meestal is deze benadering voldoende. In sommige gevallen is de koppeling echter zo complex dat u specifiek moet zijn. U moet ervoor zorgen dat de **RecId** van de gerelateerde tabel rechtstreeks beschikbaar is voor de entiteit. Voeg vervolgens een statische methode toe om de tabel op wijzigingen te controleren.
 
 Bekijk voor een voorbeeld de methode **smmContactPersonCDSV2Entity::getEntityDataSourceToFieldMapping()**. **CustCustomerV3entity** en **VendVendorV2Entity** zijn aangepast om deze situatie te verwerken.
 
@@ -250,19 +250,19 @@ Volg deze stappen om het probleem op te lossen.
 5. Stop alle toewijzingen voor twee keer wegschrijven die zijn aangemaakt voor de entiteit **smmContactPersonCDSV2Entity**.
 6. Start de toewijzing. U moet de nieuwe tabel (in dit voorbeeld **LogisticsPostalAddress**) bekijken die u bent begonnen bij te houden met behulp van de kolom **RefTableName** voor de rij waarin de waarde voor **refentityname** gelijk is aan **smmContactPersonCDSV2Entity** in de tabel **BusinessEventsDefinition**.
 
-## <a name="error-when-you-create-a-record-where-multiple-records-are-sent-from-a-finance-and-operations-app-to-dataverse-in-the-same-batch"></a>Fout bij het aanmaken van een record waar meerdere records vanuit een app voor financiële en bedrijfsactiviteiten naar Dataverse worden verzonden in dezelfde batch
+## <a name="error-when-you-create-a-record-where-multiple-records-are-sent-from-a-finance-and-operations-app-to-dataverse-in-the-same-batch"></a>Fout bij het aanmaken van een record waar meerdere records vanuit een app voor financiën en bedrijfsactiviteiten naar Dataverse worden verzonden in dezelfde batch
 
-Voor elke transactie worden gegevens door een app voor financiële en bedrijfsactiviteiten aangemaakt in een batch, en die batch wordt naar Dataverse verzonden. Als er twee records worden aangemaakt als onderdeel van dezelfde transactie die naar elkaar verwijzen, wordt er mogelijk een foutbericht weergegeven dat op het volgende voorbeeld in de app voor financiële en bedrijfsactiviteiten lijkt:
+Voor elke transactie worden gegevens door een app voor financiën en bedrijfsactiviteiten aangemaakt in een batch, en die batch wordt naar Dataverse verzonden. Als er twee records worden aangemaakt als onderdeel van dezelfde transactie die naar elkaar verwijzen, wordt er mogelijk een foutbericht weergegeven dat op het volgende voorbeeld in de app voor financiën en bedrijfsactiviteiten lijkt:
 
 *Kan geen gegevens naar de entiteit aaa_fundingsources schrijven. Kan geen ebecsfs_contracts opzoeken met de waarden {PC00...}. Kan geen aaa_fundingsources opzoeken met waarden {PC00...}. Schrijfopdrachten naar aaa_fundingsources mislukt met foutbericht Uitzonderingsbericht: De externe server heeft een foutmelding geretourneerd: (400) Ongeldige aanvraag*.
 
-Om dit probleem op te lossen, maakt u relaties tussen entiteiten aan in de app voor financiële en bedrijfsactiviteiten om aan te geven dat de twee entiteiten aan elkaar gerelateerd zijn en dat de gerelateerde records in dezelfde transactie worden afgehandeld.
+Om dit probleem op te lossen, maakt u relaties tussen entiteiten aan in de app voor financiën en bedrijfsactiviteiten om aan te geven dat de twee entiteiten aan elkaar gerelateerd zijn en dat de gerelateerde records in dezelfde transactie worden afgehandeld.
 
 ## <a name="enable-verbose-logging-of-error-messages"></a>Uitgebreide logboekregistratie van foutberichten inschakelen
 
-In een app voor financiële en bedrijfsactiviteiten kunnen fouten optreden die gerelateerd zijn aan de Dataverse-omgeving. Het foutbericht bevat mogelijk niet de volledige tekst van het bericht of andere relevante gegevens. Als u meer informatie wilt, kunt u uitgebreide logboekregistratie inschakelen door de vlag **IsDebugMode** in te stellen die beschikbaar is voor de entiteit **DualWriteProjectConfigurationEntity** in alle projectconfiguraties in apps voor financiële en bedrijfsactiviteiten.
+In een app voor financiën en bedrijfsactiviteiten kunnen fouten optreden die gerelateerd zijn aan de Dataverse-omgeving. Het foutbericht bevat mogelijk niet de volledige tekst van het bericht of andere relevante gegevens. Als u meer informatie wilt, kunt u uitgebreide logboekregistratie inschakelen door de vlag **IsDebugMode** in te stellen die beschikbaar is voor de entiteit **DualWriteProjectConfigurationEntity** in alle projectconfiguraties in apps voor financiën en bedrijfsactiviteiten.
 
-1. Open de entiteit **DualWriteProjectConfigurationEntity** met de Excel-invoegtoepassing. Als u de invoegtoepassing wilt gebruiken, moet u de ontwerpmodus in de Excel-invoegtoepassing van Finance and Operations inschakelen en **DualWriteProjectConfigurationEntity** aan een werkblad toevoegen. Zie [Entiteitsgegevens weergeven en bijwerken met Excel](../../office-integration/use-excel-add-in.md) voor meer informatie.
+1. Open de entiteit **DualWriteProjectConfigurationEntity** met de Excel-invoegtoepassing. Als u de invoegtoepassing wilt gebruiken, moet u de ontwerpmodus in de Excel-invoegtoepassing voor financiën en bedrijfsactiviteiten inschakelen en **DualWriteProjectConfigurationEntity** aan een werkblad toevoegen. Zie [Entiteitsgegevens weergeven en bijwerken met Excel](../../office-integration/use-excel-add-in.md) voor meer informatie.
 2. Stel de vlag **IsDebugMode** in op **Ja** in het project.
 3. Voer het scenario uit.
 4. De uitgebreide logboeken zijn beschikbaar in de tabel **DualWriteErrorLog**. Als u gegevens wilt opzoeken met de tabelbrowser, gebruikt u de volgende URL: `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`.
@@ -270,7 +270,7 @@ In een app voor financiële en bedrijfsactiviteiten kunnen fouten optreden die g
 
 ## <a name="error-when-you-add-an-address-for-a-customer-or-contact"></a>Foutmelding wanneer u een adres voor een klant of contactpersoon toevoegt
 
-Mogelijk wordt het volgende foutbericht weergegeven wanneer u een adres voor een klant of contactpersoon probeert toe te voegen in apps voor financiële en bedrijfsactiviteiten of in Dataverse:
+Mogelijk wordt het volgende foutbericht weergegeven wanneer u een adres voor een klant of contactpersoon probeert toe te voegen in apps voor financiën en bedrijfsactiviteiten of in Dataverse:
 
 *Kan geen gegevens naar entiteit msdyn_partypostaladdresses schrijven. Schrijfopdrachten naar DirPartyPostalAddressLocationCDSEntity mislukt met foutbericht Aanvraag mislukt met statuscode BadRequest en CDS-foutcode: 0x80040265 antwoordbericht: Er is een fout opgetreden in de invoegroepassing. Er bestaat al een record met de kenmerkwaarden Locatie-ID. Voor de sleutel van de locatie-ID en die van de entiteit moet deze set kenmerken unieke waarden bevatten. Selecteer unieke waarden en probeer het opnieuw.*
 
@@ -290,7 +290,7 @@ Mogelijk wordt het volgende foutbericht weergegeven wanneer u probeert een klant
 
 *'RecordError0': 'Schrijven mislukt voor entiteit Klanten V3 met onbekende uitzondering - Partijrecord niet gevonden voor partijtype 'Organisatie'}'.*
 
-Wanneer er een klant wordt aangemaakt in Dataverse, wordt er een nieuw partijnummer gegenereerd. Het foutbericht wordt getoond wanneer de klantrecord samen met de partij wordt gesynchroniseerd naar apps voor financiële en bedrijfsactiviteiten, maar er al een klantrecord bestaat met een ander partijnummer.
+Wanneer er een klant wordt aangemaakt in Dataverse, wordt er een nieuw partijnummer gegenereerd. Het foutbericht wordt getoond wanneer de klantrecord samen met de partij wordt gesynchroniseerd naar apps voor financiën en bedrijfsactiviteiten, maar er al een klantrecord bestaat met een ander partijnummer.
 
 Om het probleem op te lossen, kan de klant worden opgezocht via een zoekactie op partij. Als de klant niet bestaat, maak dan een nieuwe klantrecord aan. Als de klant wel bestaat, gebruik dan de bestaande partij om de nieuwe klantrecord aan te maken.
 
@@ -300,7 +300,7 @@ Mogelijk wordt het volgende foutbericht weergegeven wanneer u een nieuwe klant, 
 
 *Kan het type van een partij niet bijwerken van 'DirOrganization' naar 'DirPerson'; in plaats daarvan moet de bestaande partij worden verwijderd, gevolgd door het uitvoeren van een invoegactie met het nieuwe type.*
 
-In Dataverse is er een nummerreeks op de tabel **msdyn_party**. Wanneer er een account wordt aangemaakt in Dataverse, wordt er een nieuwe partij aangemaakt (bijvoorbeeld **Partij-001** van het type **Organisatie**). Deze gegevens worden verzonden naar de app voor financiële en bedrijfsactiviteiten. Als de Dataverse-omgeving opnieuw wordt ingesteld of de client voor financiële en bedrijfsactiviteiten aan een andere Dataverse-omgeving wordt gekoppeld en er vervolgens een nieuwe contactpersoonrecord wordt aangemaakt in Dataverse, wordt er een nieuwe partijwaarde gemaakt die begint met **Partij-001**. Dit keer is de partijrecord die wordt aangemaakt **Partij-001** van het type **Persoon**. Wanneer deze gegevens worden gesynchroniseerd, tonen apps voor financiële en bedrijfsactiviteiten het voorgaande foutbericht, omdat partijrecord **Partij-001** van het type **Organisatie** al bestaat.
+In Dataverse is er een nummerreeks op de tabel **msdyn_party**. Wanneer er een account wordt aangemaakt in Dataverse, wordt er een nieuwe partij aangemaakt (bijvoorbeeld **Partij-001** van het type **Organisatie**). Deze gegevens worden verzonden naar de app voor financiën en bedrijfsactiviteiten. Als de Dataverse-omgeving opnieuw wordt ingesteld of de omgeving voor financiën en bedrijfsactiviteiten aan een andere Dataverse-omgeving wordt gekoppeld en er vervolgens een nieuwe contactpersoonrecord wordt aangemaakt in Dataverse, wordt er een nieuwe partijwaarde gemaakt die begint met **Partij-001**. Dit keer is de partijrecord die wordt aangemaakt **Partij-001** van het type **Persoon**. Wanneer deze gegevens worden gesynchroniseerd, tonen apps voor financiën en bedrijfsactiviteiten het voorgaande foutbericht, omdat partijrecord **Partij-001** van het type **Organisatie** al bestaat.
 
 Om het probleem op te lossen, wijzigt u de automatische nummerreeks voor het veld **msdyn_partynumber** van de tabel **msdyn_party** in Dataverse naar een andere automatische nummerreeks.
 
@@ -355,3 +355,4 @@ Volg deze stappen nadat u de methoden hebt bijgewerkt.
 3. Start de toewijzingen. U hoort minder records te zien in de entiteiten **smmContactPersonCDSV2Entity** en **CustCustomerV3Entity** en de tabel **BusinessEventsDefinition** en de prestaties kunnen marginaal verbeteren.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

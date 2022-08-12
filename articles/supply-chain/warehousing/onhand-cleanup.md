@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 7f054f4f479affe8ca2e041c77bd6fd11d51378e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a82a3b26f2bf7cb546383da047d18c2997569ca5
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900501"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065114"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Taak voor het opruimen van voorhanden artikelen in magazijnbeheer
 
@@ -26,11 +26,11 @@ ms.locfileid: "8900501"
 
 De prestaties van query's die worden gebruikt om de voorhanden voorraad te berekenen, worden beïnvloed door het aantal records in de desbetreffende tabellen. Een manier om de prestaties te verbeteren is om het aantal records te verminderen dat moet worden doorzocht.
 
-Dit artikel beschrijft de taak voor het opruimen van voorhanden artikelen, waarmee overbodige records worden verwijderd uit de tabellen InventSum en WHSInventReserve. In deze tabellen wordt informatie over voorhanden artikelen opgeslagen voor artikelen die zijn ingeschakeld voor magazijnbeheerverwerking. (Deze artikelen worden ook wel WHS-artikelen genoemd.) Het verwijderen van deze records kan de prestaties van berekeningen van voorhanden voorraad aanzienlijk verbeteren.
+In dit artikel wordt de taak beschreven voor het opruimen van voorhanden items, waarmee overbodige records worden verwijderd uit de tabellen `InventSum` en `WHSInventReserve`. In deze tabellen wordt informatie over voorhanden artikelen opgeslagen voor artikelen die zijn ingeschakeld voor magazijnbeheerverwerking. (Deze artikelen worden ook wel WMS-artikelen genoemd.) Het verwijderen van deze records kan de prestaties van berekeningen van voorhanden voorraad aanzienlijk verbeteren.
 
 ## <a name="what-the-cleanup-job-does"></a>Wat de opruimtaak doet
 
-Met de taak voor het opruimen van voorhanden artikelen worden alle records in de tabellen WHSInventReserve en InventSum verwijderd die als veldwaarden *0* (nul) hebben. Deze records kunnen worden verwijderd omdat ze niet bijdragen aan de informatie over voorhanden artikelen. De taak verwijdert alleen records die zich onder het niveau **Locatie** bevinden.
+Met de taak voor het opruimen van voorhanden items worden alle records in de tabellen `WHSInventReserve` en `InventSum` verwijderd die als veldwaarden *0* (nul) hebben. Deze records kunnen worden verwijderd omdat ze niet bijdragen aan de informatie over voorhanden artikelen. De taak verwijdert alleen records die zich onder het niveau **Locatie** bevinden.
 
 Als negatieve fysieke voorraad is toegestaan, kan de opruimtaak mogelijk niet alle relevante items verwijderen. De reden voor deze beperking is dat de taak een bijzonder scenario moet toestaan waarbij een nummerplaat meerdere serienummers heeft en een van dezeserie nummers negatief is geworden. Stel dat het systeem nul voorhanden voorraad op het niveau van de nummerplaat heeft wanneer een nummerplaat beschikt over + 1 st. van serienummer 1 en –1 st. van serienummer 2. Voor dit speciale scenario wordt geprobeerd eerst vanaf lagere niveaus te verwijderen.
 

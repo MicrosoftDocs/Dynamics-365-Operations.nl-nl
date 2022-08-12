@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: aa0092f65461b6ebeea6649f48c0cf1c07cc936d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2fd29d747c7141b051e6c7c68db94abfd849f947
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866249"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123491"
 ---
 # <a name="make-the-chart-of-accounts-delimiter-unique"></a>Het scheidingsteken in het rekeningschema uniek maken
 
 [!include [banner](../includes/banner.md)]
 
-In Microsoft Dynamics AX 2012 kunt u hetzelfde scheidingsteken gebruiken voor het rekeningschema en dimensiewaarden. In de huidige versies van Finance and Operations is het niet toegestaan dat hetzelfde scheidingsteken wordt gebruikt voor het rekeningschema en dimensienamen of -waarden. Als er een dubbele scheidingsteken is, kunt u dit wijzigen na de upgrade. 
+In Microsoft Dynamics AX 2012 kunt u hetzelfde scheidingsteken gebruiken voor het rekeningschema en dimensiewaarden. In de huidige versies van Finance + Operations is het niet toegestaan dat hetzelfde scheidingsteken wordt gebruikt voor het rekeningschema en dimensienamen of -waarden. Als er een dubbele scheidingsteken is, kunt u dit wijzigen na de upgrade. 
 
 ## <a name="update-delimiter"></a>Scheidingsteken bijwerken
 Als er een conflict is met het rekeningschema, kan het scheidingsteken voor het rekeningschema en de indeling van de project/subproject-ID worden gewijzigd. Geen andere scheidingstekens voor de dimensie kunnen worden gewijzigd. 
@@ -39,3 +39,4 @@ Net als bij project-/subproject-id mogen andere hoofdgegevensrecords die worden 
 Als scheidingstekens in uw bijgewerkte omgeving conflicten veroorzaken, kan het instabiel zijn wanneer u waarden invoert in een besturingselement voor het invoeren van segmenten of dimensies. Dit houdt in dat u altijd zoekopdrachten of een flyout-menu moet gebruiken voor het invoeren van combinaties van rekeningen en dimensies.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

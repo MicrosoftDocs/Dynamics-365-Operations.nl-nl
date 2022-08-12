@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: hasaid
 ms.search.validFrom: 2021-11-09
-ms.openlocfilehash: 90e64fec512307af209ace128d5897475de7aee5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 41789d574cc7348dbf8a18db97da9c428da09602
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867268"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103933"
 ---
 # <a name="dynamics-365-finance-supply-chain-management-and-commerce-in-us-government-community-cloud-gcc"></a>Dynamics 365 Finance, Supply Chain Management en Commerce in de Amerikaanse Government Community Cloud (GCC)
 
@@ -38,9 +38,9 @@ Nadat de initiële onboarding is voltooid, volgt u de instructies in [Onboarding
 
 ## <a name="environment-deployment"></a>Implementatie van omgeving
 
-Nadat u de onboarding voor een project hebt voltooid, kunt u de aanvullende mogelijkheden van LCS controleren die zijn beschreven in [Lifecycle Services (LCS) voor klanten met apps voor financiële en bedrijfsactiviteiten](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Ga vervolgens verder met de implementatie van de omgeving.
+Nadat u de onboarding voor een project hebt voltooid, kunt u de aanvullende mogelijkheden van LCS controleren die zijn beschreven in [Lifecycle Services (LCS) voor klanten met apps voor financiën en bedrijfsactiviteiten](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Ga vervolgens verder met de implementatie van de omgeving.
 
-- Als u door Microsoft beheerde omgevingen wilt implementeren via LCS, volgt u de instructies in [Lifecycle Services (LCS) voor klanten met apps voor financiële en bedrijfsactiviteiten](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
+- Als u door Microsoft beheerde omgevingen wilt implementeren via LCS, volgt u de instructies in [Lifecycle Services (LCS) voor klanten met apps voor financiën en bedrijfsactiviteiten](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
 - Zie [Ontwikkelomgevingen implementeren en openen](../../../fin-ops-core/dev-itpro/dev-tools/access-instances.md) voor in de cloud gehoste omgevingen. U moet ook het onboardingsproces voor Resource Manager voltooien voor uw connectors, zoals beschreven in [Het proces voor onboarding van Azure Resource Manager voltooien voor Lifecycle Services-projecten van de Amerikaanse overheid](arm-onbarding-us-goverment.md).
 
 > [!NOTE]
@@ -84,3 +84,4 @@ Ja. Als uw partner echter een niet-GCC-identiteit gebruikt, wordt het ondersteun
 - [Overzicht van Cloudimplementatie](../../../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

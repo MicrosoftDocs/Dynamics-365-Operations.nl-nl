@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b73e0cc31fd0e5a22ee330f623b9125de9237e29
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 87bab110d99bd756038b9f556aa15ed9fd02fb97
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867407"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103967"
 ---
 # <a name="on-premises-deployment-home-page"></a>Startpagina van On-premises implementatie
 
@@ -53,7 +53,7 @@ U kunt Dynamics 365 Finance + Operations (on-premises) implementeren. Wanneer u 
 - [Configuraties van elektronische aangifte (ER) importeren](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Mogelijkheden voor het genereren, publiceren en afdrukken van documenten in on-premises implementaties](../analytics/printing-capabilities-on-premises.md)
 - [Proxy's voor on-premises omgevingen configureren](onprem-reverseproxy.md)
-- [Technische ondersteuning instellen voor Finance and Operations-apps](../lifecycle-services/support-experience.md)
+- [Technische ondersteuning instellen voor apps voor financiën en bedrijfsactiviteiten](../lifecycle-services/support-experience.md)
 - [Internetverbinding voor client](../user-interface/client-disconnected.md)
 - [Updates toepassen op on-premises implementaties](apply-updates-on-premises.md)
 - [On-premises omgevingen opnieuw implementeren](redeploy-on-prem.md)
@@ -73,9 +73,10 @@ U kunt Dynamics 365 Finance + Operations (on-premises) implementeren. Wanneer u 
 - [Scripts voor het oplossen van problemen in on-premises omgevingen](onprem-tsg-implementations.md)
 - [Certificaatrotatie](certificate-rotation-on-prem.md)
 - [On-premises diagnoses](on-premises-diagnostics.md)
-- [Verwijderde of afgeschafte functies voor Finance and Operations](../migration-upgrade/deprecated-features.md)
+- [Verwijderde of afgeschafte functies voor financiën en bedrijfsactiviteiten](../migration-upgrade/deprecated-features.md)
 - [Lifecycle-beleid voor software en on-premises versies](../migration-upgrade/on-prem-version-update-policy.md)
  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

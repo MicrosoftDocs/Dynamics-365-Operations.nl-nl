@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 782545ea38a209eb4430607f5bca96e4e930efdc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 274f9b368a6074725d1938de5f2172d2810a5985
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897627"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066635"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Overzicht van invoegtoepassing Voorraadzichtbaarheid
 
@@ -61,9 +61,9 @@ Zichtbaarheid in de voor de nabije toekomst geprojecteerde voorraad (inclusief d
 
 De ATP-functie is eenvoudig aan te passen aan uw dagelijkse afhandelingsproces voor orders. Het belangrijkste is, net als bij andere aanbiedingen voor voorraadzichtbaarheid, dat de ATP-functie *globaal en realtime* is. U kunt daarom meerdere formules voor ATP-berekening instellen zodat er volledige voorraadbeschikbaarheidsquery's worden gemaakt die betrekking hebben op al uw zakelijke kanalen en gegevensbronnen. Zie [Planningen van wijzigingen in voorhanden hoeveelheid en available to promise in Voorraadzichtbaarheid](inventory-visibility-available-to-promise.md) voor meer informatie.
 
-### <a name="compatibility-with-advanced-warehouse-management-items"></a>Compatibiliteit met geavanceerde magazijnbeheerartikelen
+### <a name="compatibility-with-warehouse-management-processes-wms-items"></a>Compatibiliteit met artikelen van magazijnbeheerprocessen (WMS)
 
-Microsoft wil kant-en-klare integratie bieden met Advanced Warehouse Management (WHS), zodat WHS-klanten kunnen profiteren van de voordelen van de service voor voorraadzichtbaarheid. Vanaf releasewave 1 voor 2022 (openbare preview in maart) ondersteunt de voorraadservice query's voor voorhanden WHS-voorraadartikelen en ATP. De functie voor zachte reservering en toewijzing wordt in de volgende wave ondersteund voor WHS-klanten. Zie [Ondersteuning voor Inventory Visibility voor WHS-artikelen](inventory-visibility-whs-support.md) voor meer informatie.
+Microsoft wil kant-en-klare integratie bieden met magazijnbeheerprocessen (WMS), zodat WMS-klanten kunnen profiteren van de voordelen van de service voor voorraadzichtbaarheid. Vanaf releasewave 1 voor 2022 (openbare preview in maart) ondersteunt de voorraadservice query's voor voorhanden WMS-voorraadartikelen en ATP. De functie voor zachte reservering en toewijzing wordt in de volgende wave ondersteund voor WMS-klanten. Zie [Ondersteuning voor Inventory Visibility voor WMS-artikelen](inventory-visibility-whs-support.md) voor meer informatie.
 
 ## <a name="licensing"></a>Licenties
 

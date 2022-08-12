@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6bc190a48d0212e24c5bd72255ed6b6b3caf942c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8996ad5d03327b9273be7860a3905dc25efa7e90
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872494"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070659"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Excel-sjablonen voor budgetplanning
 
@@ -79,7 +79,7 @@ De geselecteerde veldgroep bevat de kolommen die in de sjabloon beschikbaar zijn
 [![Kolom toevoegen en invoegen.](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Als u de formule wilt definiëren, maakt u de formule in de spreadsheet en kopieert u deze naar het venster **Ontwerp**. Een aan Finance and Operations gerelateerde tabel heeft meestal de naam 'AXTable1'. Om bijvoorbeeld de kolommen Aanvraag KW1-Aanvraag KW4 in de spreadsheet samen te vatten, is de formule als volgt: AxTable1\[Aanvraag KW1\]+ AxTable1\[Aanvraag KW2\]+ AxTable1\[Aanvraag KW3\]+ AxTable1\[Aanvraag KW4\].
+> Als u de formule wilt definiëren, maakt u de formule in de spreadsheet en kopieert u deze naar het venster **Ontwerp**. Een aan Finance + Operations gerelateerde tabel heeft meestal de naam 'AXTable1'. Om bijvoorbeeld de kolommen Aanvraag KW1-Aanvraag KW4 in de spreadsheet samen te vatten, is de formule als volgt: AxTable1\[Aanvraag KW1\]+ AxTable1\[Aanvraag KW2\]+ AxTable1\[Aanvraag KW3\]+ AxTable1\[Aanvraag KW4\].
 
 Herhaal deze stappen om de kolom **Correctie** in te voegen. Gebruik formule = AxTable1\[Totale aanvraag\]\*$I$1 voor deze kolom. Hiermee wordt de waarde in cel I1 gebruikt en worden de waarden in de kolom **Totale aanvraag** vermenigvuldigd om correctiebedragen te berekenen.
 
@@ -129,3 +129,4 @@ U kunt ook draaitabellen en diagrammen maken en gebruiken voor extra groeperinge
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 525e9be1655bdf0c0328ec53509ab1966abd7bde
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: aceb883e9182090a336c4c91aa0022a79495ce40
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883563"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111689"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>De afhankelijkheid van ER-configuraties voor andere onderdelen definiëren
 
@@ -25,7 +25,7 @@ ms.locfileid: "8883563"
 
 Voordat u deze stappen uitvoert, moet u eerst de stappen in de taakbegeleiding ER modeltoewijzingsconfiguraties uitvoeren en moet u toegang hebben tot Microsoft Dynamics Lifecycle Services (LCS).
 
-Deze procedure laat zien hoe u een ER-configuratie ontwerpt en de afhankelijkheid opgeeft van andere softwareonderdelen, zodat u kunt helpen garanderen dat de configuratie goed is gedownload naar een specifieke versie van Finance and Operations. In dit voorbeeld maakt u vereiste ER-configuraties voor het voorbeeldbedrijf, Litware, Inc. 
+Deze procedure laat zien hoe u een ER-configuratie ontwerpt (elektronische rapportage) en de afhankelijkheid opgeeft van andere softwareonderdelen, zodat u kunt helpen garanderen dat de configuratie goed is gedownload naar een specifieke versie van apps voor financiën en bedrijfsactiviteiten. In dit voorbeeld maakt u vereiste ER-configuraties voor het voorbeeldbedrijf, Litware, Inc. 
 
 Deze procedure is bedoeld voor gebruikers met de rol Systeembeheerder of Elektronische aangifteontwikkelaar. De stappen kunnen in elk bedrijf worden uitgevoerd, omdat ER-configuraties tussen bedrijven worden gedeeld. 
 
@@ -46,7 +46,7 @@ Deze procedure is bedoeld voor gebruikers met de rol Systeembeheerder of Elektro
 7. Selecteer Microsoft Dynamics 365 for Operations (1611).
 8. Typ in het veld Versie '[7.1.1541.3036,8)'.
     * [7.1.1541.3036,8)  
-    * Afhankelijkheden die u invoert, worden geëvalueerd wanneer deze configuratie wordt gedownload via een ER-opslagplaats. Deze configuratieversie wordt gedownload van de ER-opslagplaats als versie 1 van de configuratie van het 'Voorbeeldgegevensmodel' al bestaat of eerder is gedownload. Als het van tevoren is gedownload, moet het worden voltooid in Finance and Operations versie 7.1.1541.3036 of hoger, maar niet hoger zijn dan de primaire versie 8.   
+    * Afhankelijkheden die u invoert, worden geëvalueerd wanneer deze configuratie wordt gedownload via een ER-opslagplaats. Deze configuratieversie wordt gedownload van de ER-opslagplaats als versie 1 van de configuratie van het 'Voorbeeldgegevensmodel' al bestaat of eerder is gedownload. Als het van tevoren is gedownload, moet het worden voltooid in apps voor financiën en bedrijfsactiviteiten versie 7.1.1541.3036 of hoger, maar niet hoger zijn dan de primaire versie 8.   
 9. Klik op Opslaan.
 10. Sluit de pagina.
 11. Klik op Status wijzigen.
@@ -59,7 +59,7 @@ Deze procedure is bedoeld voor gebruikers met de rol Systeembeheerder of Elektro
 18. Selecteer Microsoft Dynamics AX 7.0 RTW.
 19. Typ in het veld Versie '[7.0.1265.3015,7.1)'.
     * [7.0.1265.3015,7.1)  
-    * Afhankelijkheden worden geëvalueerd wanneer de configuratie wordt gedownload uit een ER-opslagplaats. Deze configuratieversie wordt gedownload van de ER-opslagplaats als versie 1 van de configuratie van het 'Voorbeeldgegevensmodel' al bestaat of eerder is gedownload. Als het van tevoren is gedownload, moet het worden voltooid in Microsoft Dynamics 365 for Finance and Operations Enterprise Edition, met de versie 7.0.1265.3015 of hoger, maar niet hoger zijn dan de secundaire versie 1.   
+    * Afhankelijkheden worden geëvalueerd wanneer de configuratie wordt gedownload uit een ER-opslagplaats. Deze configuratieversie wordt gedownload van de ER-opslagplaats als versie 1 van de configuratie van het 'Voorbeeldgegevensmodel' al bestaat of eerder is gedownload. Als het van tevoren is gedownload, moet het worden voltooid in Microsoft Dynamics 365 Finance, Enterprise Edition, met de versie 7.0.1265.3015 of hoger, maar niet hoger zijn dan de secundaire versie 1.   
 20. Klik op Opslaan.
 21. Sluit de pagina.
 22. Klik op Status wijzigen.
@@ -136,10 +136,11 @@ We verwijderen gemaakte configuraties uit het systeem en downloaden deze terug u
 25. Ga naar Organisatiebeheer > Elektronische rapportage > Configuraties.
 26. Vouw in de structuur 'Voorbeeldgegevensmodel' uit.
     * Houd er rekening mee dat de modeltoewijzingsconfiguratie 'Voorbeeldtoewijzing' is gedownload met de geselecteerde gegevensmodelconfiguratie. De twee bestanden worden samen gedownload omdat 'Voorbeeldtoewijzing' is gedefinieerd als implementatie van het geselecteerde gegevensmodel en omdat het toepasbaar is op de toepassing. De configuratie 'Voorbeeldtoewijzing (alternatief)' is niet gedownload omdat niet is voldaan aan de voorwaarde voor de vereiste toepassingsversie.   
-    * Als u zich aanmeldt bij Finance and Operations, dezelfde provider registreert, toegang krijgt tot hetzelfde LCS-project en dezelfde gegevensmodelconfiguratie downloadt, wordt de configuratie 'Voorbeeldtoewijzing (alternatief)' gedownload en wordt de configuratie 'Voorbeeldtoewijzing' overgeslagen.  
+    * Als u zich aanmeldt bij apps voor financiën en bedrijfsactiviteiten, dezelfde provider registreert, toegang krijgt tot hetzelfde LCS-project en dezelfde gegevensmodelconfiguratie downloadt, wordt de configuratie 'Voorbeeldtoewijzing (alternatief)' gedownload en wordt de configuratie 'Voorbeeldtoewijzing' overgeslagen.  
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [De levenscyclus van de configuratie van elektronische rapportage (ER) beheren](../general-electronic-reporting-manage-configuration-lifecycle.md)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

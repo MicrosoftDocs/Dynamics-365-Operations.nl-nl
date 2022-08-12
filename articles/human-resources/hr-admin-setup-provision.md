@@ -14,18 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d13372d8cc1f1f0f1407ea69bee4f98ae5065c2
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 6fc44b52e2f7662fc6be609562cec903a8755d1b
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9015341"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178498"
 ---
 # <a name="provision-human-resources"></a>Human Resources inrichten
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Is van toepassing op:** Human resources in de zelfstandige infrastructuur_ 
 
-
+> [!NOTE]
+> Vanaf juni 2022 kunnen Human Resources-omgevingen alleen in de infrastructuur van de app voor financiën en bedrijfsactiviteiten worden geïmplementeerd. Zie voor meer informatie [Human Resources in de infrastructuur voor financiën en bedrijfsactiviteiten inrichten](hr-admin-setup-provision-fo.md).
 
 In dit artikel wordt het proces van het inrichten van een nieuwe productieomgeving voor Microsoft Dynamics 365 Human Resources uitgelegd. 
 
@@ -40,14 +41,14 @@ Voordat u een nieuwe productieomgeving inricht, moet aan de volgende voorwaarden
 ## <a name="provision-a-human-resources-trial-environment"></a>Een Human Resources-proefomgeving inrichten
 
 >[!NOTE]
-> Vanaf april 2022 zijn de Human Resources-testomgevingen niet meer beschikbaar in de zelfstandige toepassing. Potentiële klanten die geïnteresseerd zijn in het evalueren van de HR-mogelijkheden in apps voor financiën en bedrijfsactiviteiten, kunnen dit doen met behulp van de gratis proefversie van 30 dagen en de demonstratiegegevens. Dynamics 365 Finance omvat de HR-mogelijkheden van de Finance-infrastructuur dankzij de samenvoeging van de zelfstandige toepassing. Raadpleeg [Merging of HR offerings brings capabilities together for customers](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) voor meer informatie. Raadpleeg de stapsgewijze [handleiding](../fin-ops-core/fin-ops/get-started/before-you-buy.md) voor meer informatie over Dynamics 365 Finance-proefversies. 
+> Vanaf april 2022 zijn de Human Resources-testomgevingen niet meer beschikbaar in de zelfstandige toepassing. Potentiële klanten die geïnteresseerd zijn in het evalueren van de Human Resources-mogelijkheden in apps voor financiën en bedrijfsactiviteiten, kunnen dit doen met behulp van de gratis proefversie van 30 dagen en de demonstratiegegevens. Dynamics 365 Finance omvat de HR-mogelijkheden van de Finance-infrastructuur dankzij de samenvoeging van de zelfstandige toepassing. Zie [Samenvoeging van HR-aanbod combineert mogelijkheden voor klanten](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) voor meer informatie . Raadpleeg de stapsgewijze [handleiding](../fin-ops-core/fin-ops/get-started/before-you-buy.md) voor meer informatie over Dynamics 365 Finance-proefversies. 
 
 
 Voordat u uw eerste sandbox- of productieomgeving inricht, kunt u een [Human Resources-proefomgeving](https://go.microsoft.com/fwlink/p/?LinkId=2115962) inrichten om de Human Resources-functionaliteit te valideren. Proefomgevingen bevatten fictieve gegevens die kunnen worden gebruikt om het programma op een veilige manier te verkennen. Hoewel een proefomgeving eigendom is van de gebruiker die hierom heeft verzocht, kunnen andere gebruikers worden uitgenodigd via de systeembeheerervaring voor Human Resources. 
 
-Testomgevingen bieden de mogelijkheid om de functionaliteit Human Resources te beoordelen voor personen die nog geen toegang hebben tot een Human Resources-omgeving. Als u een proefomgeving inricht en de geverifieerde gebruiker al toegang heeft tot een of meer bestaande Human Resources-omgevingen, wordt de gebruiker omgeleid naar de bestaande omgeving of een lijst met omgevingen.
+Testomgevingen helpen bij het beoordelen van de functionaliteit Human Resources voor personen die nog geen toegang hebben tot een Human Resources-omgeving. Als u een proefomgeving inricht en de geverifieerde gebruiker al toegang heeft tot een of meer bestaande Human Resources-omgevingen, wordt de gebruiker omgeleid naar de bestaande omgeving of een lijst met omgevingen.
 
-Proefomgevingen zijn niet bedoeld als productieomgevingen. Proefomgevingen zijn beperkt tot een periode van 30 dagen. Wanneer een proefperiode verloopt, worden de omgeving en alle gegevens erin permanent verwijderd. De omgeving kan niet worden geconverteerd naar een sandbox of een productieomgeving. Nadat de bestaande omgeving is verlopen, kunt u zich aanmelden voor een nieuwe proefomgeving.
+Proefomgevingen zijn niet bedoeld als productieomgevingen. Proefomgevingen zijn beperkt tot een periode van 30 dagen. Wanneer een proefperiode verloopt, worden de omgeving en alle gegevens erin permanent verwijderd. De omgeving kan niet worden geconverteerd naar een sandbox- of een productieomgeving. Nadat de bestaande omgeving is verlopen, kunt u zich aanmelden voor een nieuwe proefomgeving.
 
 Bij het aanmaken van een testomgeving voor Human Resources wordt ook een testomgeving aangemaakt voor Power Apps voor de tenant, die wordt gekoppeld aan de Human Resources-omgeving. De Power Apps-omgeving, met de naam TestDrive, heeft dezelfde testperiode als de Human Resources-omgeving.
 
@@ -56,14 +57,14 @@ Bij het aanmaken van een testomgeving voor Human Resources wordt ook een testomg
 
 ## <a name="plan-human-resources-environments"></a>Human Resources-omgevingen plannen
 
-Voordat u uw eerste Human Resources-omgeving maakt, moet u de omgevingsbehoeften voor uw project zorgvuldig plannen. Een basisabonnement op Human Resources omvat twee omgevingen: een productieomgeving en een werkomgeving. Afhankelijk van de complexiteit van uw project moet u mogelijk extra omgevingen voor uw bedrijf aanschaffen ter ondersteuning van projectactiviteiten. 
+Voordat u uw eerste Human Resources-omgeving maakt, moet u de omgevingsbehoeften voor uw project zorgvuldig plannen. Een basisabonnement op Human Resources omvat twee omgevingen: een productieomgeving en een werkomgeving. Afhankelijk van de complexiteit van uw project moet u mogelijk extra sandbox-omgevingen aanschaffen ter ondersteuning van projectactiviteiten. 
 
 Overwegingen voor extra omgevingen:
 
-- **Gegevensmigratie**: mogelijk moet u rekening houden met een extra omgeving voor gegevensmigratieactiviteiten, zodat uw omgeving kan worden gebruikt voor testdoeleinden tijdens het project. Als u een extra omgeving hebt, kunnen activiteiten voor gegevensmigratie worden voortgezet terwijl de test- en configuratieactiviteiten gelijktijdig plaatsvinden in een andere omgeving.
-- **Integratie**: mogelijk moet u rekening houden met een extra omgeving voor het configureren en testen van integraties. Dit kan native integraties omvatten, zoals de Ceridian Dayforce- of LinkedIn Talent Hub-integraties, of aangepaste integraties, zoals die voor salarisadministratie, volgsystemen voor sollicitanten of vergoedingssystemen en leveranciers.
+- **Gegevensmigratie**: gegevensmigratieactiviteiten, zodat uw sandbox-omgeving kan worden gebruikt voor testdoeleinden tijdens het project. Als u een extra omgeving hebt, kunnen activiteiten voor gegevensmigratie worden voortgezet terwijl de test- en configuratieactiviteiten gelijktijdig plaatsvinden in een andere omgeving.
+- **Integratie**: hiermee configureert en test u integraties die native integraties kunnen bevatten, zoals Ceridian Dayforce of aangepaste integraties.
 - **Training**: u hebt mogelijk een afzonderlijke omgeving nodig die is geconfigureerd met een set trainingsgegevens om uw werknemers te trainen het nieuwe systeem te gebruiken. 
-- **Project met meerdere fasen**: u hebt mogelijk een extra omgeving nodig voor configuratie, gegevensmigratie, testen of andere activiteiten in een projectfase die is gepland na de eerste keer live gaan van het project.
+- **Project met meerdere fasen**: configuratie, gegevensmigratie, testen of andere activiteiten in een projectfase die is gepland nadat het project de eerste keer live is gegaan.
 
  > [!IMPORTANT]
  > We raden het volgende aan om voor uw omgeving te overwegen:
@@ -140,7 +141,7 @@ Gebruik de volgende richtlijnen bij het bepalen in welke Power Apps-omgeving u H
    
     - **Niet-ondersteunde regio's**: De omgeving moet zich in een ondersteunde geografie bevinden. Meer informatie over dit onderwerp vindt u in [Ondersteunde geografieën](hr-admin-setup-provision.md#supported-geographies).
 
-6. Functionaliteit voor twee keer wegschrijven voor het integreren van Human Resources-data met de Power Apps-omgeving kan alleen worden gebruikt als de optie **Dynamics 365-apps inschakelen** is ingeschakeld voor de omgeving. Zie de [startpagina van Twee keer wegschrijven](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md) voor meer informatie over twee keer wegschrijven.
+6. Functionaliteit voor twee keer wegschrijven voor het integreren van Human Resources-data met de Power Apps-omgeving kan alleen worden gebruikt als de optie **Dynamics 365-apps inschakelen** is ingeschakeld voor de omgeving. Zie [Startpagina voor Twee keer wegschrijven](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md) voor meer informatie.
 
     > [!NOTE]
     > De optie **Dynamics 365-apps inschakelen** moet worden geselecteerd op het moment dat de Power Apps-omgeving wordt gemaakt. Als de optie niet wordt geselecteerd tijdens de inrichting, kunt u geen twee keer wegschrijven gebruiken om data te integreren tussen Dynamics 365 Human Resources en de Power Apps-omgeving of kunt u geen Dynamics 365-apps installeren in de omgeving zoals Dynamics 365 Sales en Field Service. Deze optie is niet omkeerbaar. 
@@ -175,3 +176,4 @@ Standaard heeft de globale beheerder die de omgeving heeft gemaakt toegang tot d
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

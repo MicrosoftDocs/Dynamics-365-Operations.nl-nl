@@ -1,6 +1,6 @@
 ---
 title: Overzicht van Optimalisatie-advies
-description: In dit artikel wordt beschreven hoe u Optimalisatie-advies kunt gebruiken om een optimale configuratie van Finance and Operations te garanderen.
+description: In dit artikel wordt beschreven hoe u Optimalisatieadvies kunt gebruiken om een optimale configuratie van apps voor financiën en bedrijfsactiviteiten te garanderen.
 author: roxanadiaconu
 ms.date: 07/23/2019
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 1dd66e27098b4125b03c4fe6b52825afe2ff34cf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fb71453c37572c4956d98d4309d3526a7fbc1124
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865856"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109035"
 ---
 # <a name="optimization-advisor-overview"></a>Overzicht van Optimalisatie-advies
 
 [!include [banner](../includes/banner.md)]
 
-In dit artikel wordt beschreven hoe u Optimalisatie-advies kunt gebruiken om een optimale configuratie van Finance and Operations te garanderen.
+In dit artikel wordt beschreven hoe u Optimalisatieadvies kunt gebruiken om een optimale configuratie van apps voor financiën en bedrijfsactiviteiten te garanderen.
 
 ## <a name="overview"></a>Overzicht
 
@@ -44,7 +44,7 @@ Standaardbeveiligingsbeleid is van toepassing op optimalisatiemogelijkheden. Bij
 
 Wanneer u actie onderneemt voor sommige verkoopkansen, berekent het systeem de impact van de mogelijkheid als vermindering van de runtime van bedrijfsprocessen. Helaas is deze functie niet beschikbaar voor alle optimalisatiemogelijkheden.
 
-Voor meer informatie over Optimization advisor, bekijk de korte [Optimization advisor in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ) video.
+Bekijk voor meer informatie over Optimalisatieadvies de korte video [Optimalisatieadvies in Dynamics 365 Finance](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
 
 ## <a name="optimization-rules"></a>Optimalisatieregels
 
@@ -90,7 +90,7 @@ Als u de evaluatie van specifieke regels wilt deactiveren, selecteert u de mogel
 
 [Regels maken voor Optimalisatie-advies](./create-rules-optimization-advisor.md)
 
-[Optimization advisor in Dynamics 365 for Finance and Operations (video)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+[Optimalisatieadvies in Dynamics 365 Finance (video)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

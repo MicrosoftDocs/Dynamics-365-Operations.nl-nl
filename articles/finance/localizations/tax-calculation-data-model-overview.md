@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a711eb73c171cd099947b44e2376cad2455059f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 79296a452e146bb17b197e9ca40db016664df6f9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859690"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068843"
 ---
 # <a name="tax-calculation-data-model"></a>Gegevensmodel voor belastingberekening
 
 Dit artikel bevat informatie over hoe de veldwaarden in het belastinggegevensmodel worden bepaald in belastingberekeningstransacties.
 
-Het *belastinggegevensmodel* bestaat uit velden die nodig zijn voor belasting-berekeningen. Microsoft levert het *gegevensmodel voor het berekenen van belastingen*, inclusief de koptekstvelden en regelvelden van transactiedocumenten in Finance and Operations-apps. De velden die worden gedefinieerd in het gegevensmodel voor belastingberekening zijn de beschikbare kolommen van de tabellen met regels voor toepasbaarheid in de configuratie van de configuratie van de functie voor belastingberekening.
+Het *belastinggegevensmodel* bestaat uit velden die nodig zijn voor belasting-berekeningen. Microsoft biedt het *gegevensmodel voor het berekenen van belastingen*, inclusief de koptekstvelden en regelvelden van transactiedocumenten in apps voor financiën en bedrijfsactiviteiten. De velden die worden gedefinieerd in het gegevensmodel voor belastingberekening zijn de beschikbare kolommen van de tabellen met regels voor toepasbaarheid in de configuratie van de configuratie van de functie voor belastingberekening.
 
 > [!NOTE] 
 > Sommige knooppunten die in het gegevensmodel zijn gedefinieerd, zoals **record-ID** en **tabel-ID**, zijn bedoeld voor technische doeleinden. Deze kolommen zijn niet beschikbaar in de configuratie van de functie voor belastingberekening.
@@ -54,7 +54,7 @@ U kunt ook het gegevensmodel voor belasting-berekening en de beschikbare kolomme
 
     [![Kolommen beheren.](./media/tax-calculation-model-mapping-3.png)](./media/tax-calculation-model-mapping-3.png)
 
-Het gegevensmodel voor het berekenen van belastingen is geïntegreerd met Finance and Operations-apps. Tijdens elke transactie die betrekking heeft op belastingberekening, worden de waarden van de velden die zijn gedefinieerd in de tabellen met regels voor toepasbaarheid verzameld en verzonden naar de belasting-berekeningsservice voor berekening. In versie 40.46 zijn 57 vooraf gedefinieerde gegevensmodellen beschikbaar voor de volgende transactietypen: inkooporders, verkooporders, transferorders, opdrachten tot inkoop, offerteaanvragen en verkoop offertes.
+Het gegevensmodel voor het berekenen van belastingen is geïntegreerd met apps voor financiën en bedrijfsactiviteiten. Tijdens elke transactie die betrekking heeft op belastingberekening, worden de waarden van de velden die zijn gedefinieerd in de tabellen met regels voor toepasbaarheid verzameld en verzonden naar de belasting-berekeningsservice voor berekening. In versie 40.46 zijn 57 vooraf gedefinieerde gegevensmodellen beschikbaar voor de volgende transactietypen: inkooporders, verkooporders, transferorders, opdrachten tot inkoop, offerteaanvragen en verkoop offertes.
 
 ## <a name="version-updates-and-restrictions"></a>Versieupdates en beperkingen
 
@@ -134,3 +134,4 @@ Zesentwintig datamodellen kunnen als velden in de regels van een transactie word
 | Eenheid                          | <ul><li>**Verkooporder::**  Eenheid</li><li>**Inkooporder:** eenheid</li><li>**Transferorder – Verzenden**: Eenheid</li><li>**Transferorder – Ontvangen**: Eenheid</li><li>**Opdracht tot inkoop:** Eenheid</li><li>**Offerteaanvraag:** Eenheid</li><li>**Verkoopofferte:** Eenheid</li></ul> |
 | Variantnummer                | <ul><li>**Verkooporder:** Variantnummer</li><li>**Inrkooporder:** Variantnummer</li><li>**Verkoopofferte:** Variantnummer</li></ul> |
 | Magazijn                     | <ul><li>**Verkooporder:**<ol><li>Regel &gt; Magazijn</li><li>Product &gt; Magazijn</li></ol></li><li>**Inkooporder:**<ol><li>Regel &gt; Magazijn</li><li>Product &gt; Magazijn</li></ol></li><li>**Transferorder - Verzenden:** Van magazijn</li><li>**Transferorder - Ontvangen:** Naar magazijn</li><li>**Opdracht tot inkoop:** Regel &gt; Magazijn</li><li>**Offerteaanvraag:** Regel &gt; Magazijn</li><li>**Verkoopofferte:**<ol><li>Regel &gt; Magazijn</li><li>Product &gt; Magazijn</li></ol></li></ul> |
+

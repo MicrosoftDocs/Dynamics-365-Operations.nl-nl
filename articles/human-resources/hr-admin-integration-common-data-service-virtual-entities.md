@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0154faec8a9f3e968ea1b665e2a815cc9ec02379
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 45155dba5063981eb3aeeed4dda1d79a57b7c8af
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899725"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067093"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Virtuele Dataverse-tabellen configureren
 
@@ -121,10 +121,10 @@ In de volgende stap configureert u de gegevensbron van de virtuele tabel in de P
 
 4. Selecteer op de **Oplossingsstatushub** het pictogram **Geavanceerd zoeken** in de rechtsbovenhoek van de toepassingspagina.
 
-5. Selecteer op de pagina **Geavanceerd zoeken** in de vervolgkeuzelijst **Zoeken naar** de optie **Configuraties voor virtuele Finance and Operations-gegevensbronnen**.
+5. Selecteer op de pagina **Geavanceerd zoeken** in de vervolgkeuzelijst **Zoeken naar** de optie **Configuraties voor virtuele gegevensbronnen voor financiën en bedrijfsactiviteiten**.
 
    > [!NOTE]
-   > De installatie van de Virtual Table-app uit de vorige instellingsstap kan enkele minuten duren. Als **Configuraties voor virtuele Finance and Operations-gegevensbronnen** niet beschikbaar is in de lijst, moet u even wachten en de lijst vernieuwen.
+   > De installatie van de Virtual Table-app uit de vorige instellingsstap kan enkele minuten duren. Als **Configuraties voor virtuele gegevensbronnen voor financiën en bedrijfsactiviteiten** niet beschikbaar is in de lijst, moet u even wachten en de lijst vernieuwen.
 
 6. Selecteer **Resultaten**.
 
@@ -218,3 +218,4 @@ In het uitschuifvenster worden de meest recente uitvoeringsresultaten voor het p
 [Overzicht van het maken van apps in Power Apps](/powerapps/maker/)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

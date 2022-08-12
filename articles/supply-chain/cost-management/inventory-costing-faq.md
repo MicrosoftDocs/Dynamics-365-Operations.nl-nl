@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-05-03
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 467839b1d0ca6788a92ae60d46686374d0a58046
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a1d86e7e9cca159d0a820680714a08dc73c0688
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850839"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068388"
 ---
 # <a name="inventory-costing-faq"></a>Veelgestelde vragen over de kostprijsberekening van voorraad
 
@@ -112,11 +112,11 @@ Nee, u kunt de optie **Financiële voorraad** niet inschakelen voor de dimensie 
 
 ### <a name="should-i-enable-the-use-warehouse-management-processes-option-for-the-storage-dimension-group"></a>Moet ik de optie Magazijnbeheerprocessen gebruiken inschakelen voor de opslagdimensiegroep?
 
-Als u de geavanceerde magazijnbeheerfuncties in de toekomst wilt gebruiken, moet u de optie **Magazijnbeheerprocessen gebruiken** inschakelen. Nadat u een opslagdimensiegroep hebt opgeslagen, kunt u de instelling van de optie **Magazijnbeheerprocessen gebruiken** niet meer wijzigen. Als u later de processen voor magazijnbeheer wilt gebruiken, moet u een nieuw magazijn maken waarvoor de optie is ingeschakeld. Er is geen geautomatiseerd proces dat u kunt gebruiken om alle voorraad van het ene magazijn naar het andere magazijn te verplaatsen of om gerelateerde configuraties naar een nieuw magazijn te kopiëren.
+Als u de functies voor magazijnbeheerprocessen (WMS) in de toekomst wilt gebruiken, moet u de optie **Magazijnbeheerprocessen gebruiken** inschakelen. Nadat u een opslagdimensiegroep hebt opgeslagen, kunt u de instelling van de optie **Magazijnbeheerprocessen gebruiken** niet meer wijzigen. Als u later de processen voor magazijnbeheer wilt gebruiken, moet u een nieuw magazijn maken waarvoor de optie is ingeschakeld. Er is geen geautomatiseerd proces dat u kunt gebruiken om alle voorraad van het ene magazijn naar het andere magazijn te verplaatsen of om gerelateerde configuraties naar een nieuw magazijn te kopiëren.
 
-### <a name="can-i-enable-the-use-warehouse-management-processes-for-the-storage-dimension-group-even-if-im-not-planning-to-use-advanced-warehousing"></a>Kan ik de magazijnbeheerprocessen voor de opslagdimensiegroep ook inschakelen als ik geen geavanceerde magazijnopslag wil gebruiken?
+### <a name="can-i-enable-the-use-warehouse-management-processes-for-the-storage-dimension-group-even-if-im-not-planning-to-use-warehouse-management-processes-wms"></a>Kan ik Magazijnbeheerprocessen gebruiken inschakelen voor de opslagdimensiegroep zelfs als ik niet van plan ben magazijnbeheerprocessen (WMS) te gebruiken?
 
-Ja, zelfs als u niet van plan bent de geavanceerde magazijnbeheerfuncties te gebruiken, kunt u de optie **Magazijnbeheerprocessen gebruiken** voor de opslagdimensiegroep inschakelen. Als u transacties wilt maken en verwerken, moet u de minimale configuratie voltooien, zoals reserveringshiërarchieën en eenheidsvolgordegroepen. De instellingen voor geavanceerde magazijnen worden echter meestal genegeerd wanneer u ordervervangingslijsten, pakbonnen en productontvangstbonnen handmatig verwerkt (bijvoorbeeld op de verkooporder- en inkooporderpagina's).
+Ja, zelfs als u niet van plan bent de functies voor magazijnbeheerprocessen (WMS) te gebruiken, kunt u de optie **Magazijnbeheerprocessen gebruiken** voor de opslagdimensiegroep inschakelen. Als u transacties wilt maken en verwerken, moet u de minimale configuratie voltooien, zoals reserveringshiërarchieën en eenheidsvolgordegroepen. De instellingen voor WMS worden echter meestal genegeerd wanneer u orderverzamellijsten, pakbonnen en productontvangstbonnen handmatig verwerkt (bijvoorbeeld op de verkooporder- en inkooporderpagina's).
 
 ### <a name="when-should-i-enable-the-physical-inventory-option-for-a-storage-or-tracking-dimension-group"></a>Wanneer moet ik de optie Fysieke voorraad inschakelen voor een opslag- of traceringsdimensiegroep?
 
@@ -451,7 +451,7 @@ Ja, u kunt FEFO-reserveringen in een artikelmodelgroep gebruiken wanneer u stand
 
 ### <a name="can-i-upload-pending-prices"></a>Kan ik prijzen in behandeling uploaden?
 
-Ja, u kunt de Excel-invoegtoepassing of Data Management Framework gebruiken om een prijs in behandeling te uploaden. We raden u aan om de volgende entiteiten te gebruiken:
+Ja, u kunt de Excel-invoegtoepassing of het framework voor gegevensbeheer gebruiken om een prijs in behandeling te uploaden. We raden u aan om de volgende entiteiten te gebruiken:
 
 - Artikelprijzen in behandeling (V2)
 - Eenheidskosten in behandeling voor kostprijscategorie van route
@@ -475,7 +475,7 @@ Kostprijsberekeningsversies kunnen het type *Standaardkosten* of *Geplande koste
 
 ### <a name="can-the-total-cost-from-one-entity-be-transferred-to-another-entity-as-the-selling-cost"></a>Kunnen de totale kosten van de ene entiteit worden overgeboekt naar een andere entiteit als de verkoopkosten?
 
-Er is geen geautomatiseerde manier om kosten van het ene bedrijf naar het andere te kopiëren. Verder is er geen manier om kosten van een inkoopprijs automatische naar een verkoopprijs te kopiëren. Als uw organisatie een van deze taken moet uitvoeren, moet u overwegen of u Data Management Framework kunt gebruiken om de gegevens uit uw kostprijsberekeningsversie te exporteren en naar een ander bedrijf te uploaden, als verkoopprijs in de kostprijsberekeningsversie of als een handelsovereenkomst. Handmatige bewerkingen van de bestanden zijn mogelijk vereist.
+Er is geen geautomatiseerde manier om kosten van het ene bedrijf naar het andere te kopiëren. Verder is er geen manier om kosten van een inkoopprijs automatische naar een verkoopprijs te kopiëren. Als uw organisatie een van deze taken moet uitvoeren, moet u overwegen of u het framework voor gegevensbeheer kunt gebruiken om de gegevens uit uw kostprijsberekeningsversie te exporteren en naar een ander bedrijf te uploaden, als verkoopprijs in de kostprijsberekeningsversie of als een handelsovereenkomst. Handmatige bewerkingen van de bestanden zijn mogelijk vereist.
 
 ### <a name="what-is-the-best-way-to-copy-planned-costs-to-a-standard-costing-version"></a>Wat is de beste manier om geplande kosten naar een standaardkostprijsberekeningsversie te kopiëren?
 

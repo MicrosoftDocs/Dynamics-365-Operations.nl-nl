@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a05c34454e27244bb08bfff84f2ada6ff498f23
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 388be651164af622dbabd7b2c7b3437233454bea
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862150"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108596"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Entiteitsgegevens weergeven en bijwerken met Excel 
 
@@ -31,7 +31,7 @@ ms.locfileid: "8862150"
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 
-In dit artikel wordt uitgelegd hoe u entiteitsgegevens in Microsoft Excel kunt openen en deze vervolgens kunt bekijken, bijwerken en bewerken met behulp van de Excel-invoegtoepassing van Microsoft Dynamics. Om entiteitsgegevens te openen, kunt u starten vanuit Excel of apps voor financiële en bedrijfsactiviteiten.
+In dit artikel wordt uitgelegd hoe u entiteitsgegevens in Microsoft Excel kunt openen en deze vervolgens kunt bekijken, bijwerken en bewerken met behulp van de Excel-invoegtoepassing van Microsoft Dynamics. Om entiteitsgegevens te openen, kunt u starten vanuit Excel of apps voor financiën en bedrijfsactiviteiten.
 
 Door entiteitsgegevens in Excel te openen, kunt u deze snel en eenvoudig bekijken en bewerken met de Excel-invoegtoepassing. Voor deze invoegtoepassing is Microsoft Excel 2016 of hoger vereist.
 
@@ -40,15 +40,15 @@ Door entiteitsgegevens in Excel te openen, kunt u deze snel en eenvoudig bekijke
 
 Voor meer informatie over het gebruik van de Excel-invoegtoepassing, bekijkt u de korte video [Een Excel-sjabloon maken voor koptekst- en regelpatronen](https://youtu.be/RTicLb-6dbI).
 
-## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Entiteitsgegevens in Excel openen als u start vanuit een app voor financiële en bedrijfsactiviteiten
-1. Selecteer op een pagina in een app voor financiële en bedrijfsactiviteiten de optie **Openen in Microsoft Office**.
+## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Entiteitsgegevens in Excel openen als u start vanuit een app voor financiën en bedrijfsactiviteiten
+1. Selecteer op een pagina in een app voor financiën en bedrijfsactiviteiten de optie **Openen in Microsoft Office**.
 
     Als de hoofdgegevensbron (tabel) voor de pagina dezelfde is als de hoofdgegevensbron voor enige entiteiten, worden standaardopties voor **Openen in Excel** voor de pagina gegenereerd. **Openen in Excel**-opties vindt u op veelgebruikte pagina's, zoals **Alle leveranciers** en **Alle klanten**.
  
 2. Selecteer de optie **Openen in Excel** en open de werkmap die wordt gegenereerd. Deze werkmap heeft bindingsgegevens voor de entiteit, een verwijzing naar uw omgeving en een verwijzing naar de Excel-invoegtoepassing.
 3. Selecteer in Excel de optie **Bewerken inschakelen** zodat de Excel-invoegtoepassing kan worden uitgevoerd. De Excel-invoegtoepassing wordt uitgevoerd in een deelvenster aan de rechterkant van het Excel-venster.
 4. Als u de Excel-invoegtoepassing voor het eerst uitvoert, selecteert u **Deze invoegtoepassing vertrouwen**.
-5. Als u wordt gevraagd om u aan te melden, selecteert u **Aanmelden**. Vervolgens meldt u zich aan met de referenties waarmee u zich ook hebt aangemeld bij de app voor financiële en bedrijfsactiviteiten. Als dat mogelijk is, gebruikt de Excel-invoegtoepassing een vorige aanmeldingscontext van de browser om u automatisch aan te melden. (Zie voor informatie over de browser die op basis van het besturingssysteem wordt gebruikt [Browsers die worden gebruikt door Office-invoegtoepassingen](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins). Om ervoor te zorgen dat de aanmelding is geslaagd, controleert u de gebruikersnaam in de rechterbovenhoek van de Excel-invoegtoepassing. 
+5. Als u wordt gevraagd om u aan te melden, selecteert u **Aanmelden**. Vervolgens meldt u zich aan met de referenties waarmee u zich ook hebt aangemeld bij de app voor financiën en bedrijfsactiviteiten. Als dat mogelijk is, gebruikt de Excel-invoegtoepassing een vorige aanmeldingscontext van de browser om u automatisch aan te melden. (Zie voor informatie over de browser die op basis van het besturingssysteem wordt gebruikt [Browsers die worden gebruikt door Office-invoegtoepassingen](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins). Om ervoor te zorgen dat de aanmelding is geslaagd, controleert u de gebruikersnaam in de rechterbovenhoek van de Excel-invoegtoepassing. 
 
 De Excel-invoegtoepassing leest automatisch de gegevens voor de entiteit die u hebt geselecteerd. Houd er rekening mee dat de werkmap geen gegevens bevat, totdat de Excel-invoegtoepassing deze inleest.
 
@@ -57,7 +57,7 @@ De Excel-invoegtoepassing leest automatisch de gegevens voor de entiteit die u h
 2. Zoek in de Office Store op het trefwoord **Dynamics** en selecteer **Toevoegen** naast **Microsoft Dynamics Office-invoegtoepassing** (de Excel-invoegtoepassing).
 3. Als u de Excel-invoegtoepassing voor het eerst uitvoert, selecteert u **Deze invoegtoepassing vertrouwen** zodat de Excel-invoegtoepassing kan worden uitgevoerd. De Excel-invoegtoepassing wordt uitgevoerd in een deelvenster aan de rechterkant van het Excel-venster.
 4. Selecteer **Servergegevens toevoegen** om het deelvenster **Opties** te openen.
-5. Kopieer de URL van uw doel-exemplaar van de app voor financiële en bedrijfsactiviteiten in uw browser, plak deze in het veld **Server-URL** en verwijder alle gegevens achter de hostnaam. De resulterende URL moet alleen de hostnaam bevatten.
+5. Kopieer de URL van uw doelexemplaar van de app voor financiën en bedrijfsactiviteiten in uw browser, plak deze in het veld **Server-URL** en verwijder alle gegevens achter de hostnaam. De resulterende URL moet alleen de hostnaam bevatten.
 
     Als de URL bijvoorbeeld `https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage` is, verwijdert u alles behalve `https://xxx.dynamics.com`.
 
@@ -76,7 +76,7 @@ De Excel-invoegtoepassing leest automatisch de gegevens voor de entiteit die u h
 Nadat de Excel-invoegtoepassing entiteitsgegevens in de werkmap heeft ingelezen, kunt u de gegevens op elk moment bijwerken door **Vernieuwen** te selecteren in de Excel-invoegtoepassing.
 
 ## <a name="edit-entity-data-in-excel"></a>Entiteitsgegevens in Excel bewerken
-U kunt entiteitsgegevens naar wens wijzigen en deze vervolgens weer publiceren naar apps voor financiële en bedrijfsactiviteiten door **Publiceren** in de Excel-invoegtoepassing te selecteren. Om een record te bewerken, selecteert u een cel in het werkblad en wijzigt u de celwaarde. Als u een nieuwe record wilt toevoegen, volgt u een van deze stappen:
+U kunt entiteitsgegevens naar wens wijzigen en deze vervolgens weer publiceren naar apps voor financiën en bedrijfsactiviteiten door **Publiceren** in de Excel-invoegtoepassing te selecteren. Om een record te bewerken, selecteert u een cel in het werkblad en wijzigt u de celwaarde. Als u een nieuwe record wilt toevoegen, volgt u een van deze stappen:
 
 - Klik ergens in de gegevensbrontabel en selecteert vervolgens **Nieuw** in de Excel-invoegtoepassing.
 - Klik in de laatste rij van de gegevensbrontabel en druk vervolgens op Tab totdat de cursor uit de laatste kolom van die rij wordt verplaatst en er een nieuwe rij wordt gemaakt.
@@ -146,3 +146,4 @@ Er zijn enkele problemen die kunnen worden opgelost met enkele eenvoudige stappe
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

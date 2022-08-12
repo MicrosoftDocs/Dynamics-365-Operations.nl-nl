@@ -1,6 +1,6 @@
 ---
 title: Locaties in een WMS-magazijn configureren
-description: Deze begeleiding toont hoe u de locatie-instelling configureert voor een nieuw WMS-magazijn (een magazijn dat geavanceerde magazijnbeheerprocessen gebruikt).
+description: Deze guide toont hoe u de locatie-instelling configureert voor een nieuw WMS-magazijn (een magazijn dat magazijnbeheerprocessen (WMS) gebruikt).
 author: perlynne
 ms.date: 06/26/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5273a388b30a41b75bd76c92fa4b9ff05c8f8d6
-ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
+ms.openlocfilehash: 45195698b48d6a22697f99044a8ae49beaf7156e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599343"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067268"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Locaties in een WMS-magazijn configureren
 
 [!include [banner](../../includes/banner.md)]
 
-Deze begeleiding toont hoe u de locatie-instelling configureert voor een nieuw WMS-magazijn (een magazijn dat geavanceerde magazijnbeheerprocessen gebruikt). Het proces wordt gewoonlijk uitgevoerd door een magazijnmanager. U kunt deze begeleiding uitvoeren in het demobedrijf USMF of met uw eigen gegevens. Een preconditie is dat u ten minste één geconfigureerde site hebt.
+Deze guide toont hoe u de locatie-instelling configureert voor een nieuw WMS-magazijn (een magazijn dat magazijnbeheerprocessen (WMS) gebruikt). Het proces wordt gewoonlijk uitgevoerd door een magazijnmanager. U kunt deze begeleiding uitvoeren in het demobedrijf USMF of met uw eigen gegevens. Een preconditie is dat u ten minste één geconfigureerde site hebt.
 
 
 ## <a name="create-a-new-warehouse"></a>Een nieuw magazijn maken
@@ -35,7 +35,7 @@ Deze begeleiding toont hoe u de locatie-instelling configureert voor een nieuw W
 4. Typ een waarde in het veld **Naam**.
 5. Selecteer of typ een bestaande locatiewaarde in het veld **Locatie**.
 6. Vouw de sectie **Magazijn** uit.
-7. Stel de optie **Magazijnbeheerprocessen gebruiken** in op Ja. Met deze instelling kunt u geavanceerde magazijnprocessen uitvoeren met magazijnwerk en mobiele apparaten.
+7. Stel de optie **Magazijnbeheerprocessen gebruiken** in op Ja. Met deze instelling kunt u magazijnbeheerprocessen (WMS) uitvoeren met magazijnwerk en mobiele apparaten.
 8. Sluit de pagina.
 
 ## <a name="define-a-location-format"></a>Een locatie-indeling definiëren
@@ -68,7 +68,7 @@ Deze begeleiding toont hoe u de locatie-instelling configureert voor een nieuw W
 5. Sluit de pagina.
 
 ## <a name="define-location-profile"></a>Locatieprofiel definiëren
-1. Ga naar **Navigatievenster > Modules > Magazijnbeheer > Instellingen > Magazijn > Locatieprofielen**. De definitie van locatieprofielen is zeer belangrijk. Gegroepeerde locatiecapaciteit kan hier worden gecontroleerd, evenals het beleid dat bepaalt wat voor voorraad wordt opgeslagen en waar het wordt opgeslagen. Locatieprofielen kunnen worden gebruikt als filteropties om de andere magazijnbeheerprocessen te controleren. Als minimum moet u een gebruikerslocatieprofiel maken om de magazijnbeheerprocessen in te schakelen.
+1. Ga naar **Navigatievenster > Modules > Magazijnbeheer > Instellingen > Magazijn > Locatieprofielen**. De definitie van locatieprofielen is zeer belangrijk. Gegroepeerde locatiecapaciteit kan hier worden gecontroleerd, evenals het beleid dat bepaalt wat voor voorraad wordt opgeslagen en waar het wordt opgeslagen. Locatieprofielen kunnen worden gebruikt als filteropties om de andere magazijnbeheerprocessen te controleren. U moet minimaal een gebruikerslocatieprofiel maken om WMS in te schakelen.
 2. Klik op **Nieuw**.
 3. Typ een waarde in het veld **Locatieprofiel-id**.
 4. Typ een waarde in het veld **Naam**.

@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 79abd22bab9ec88358fa039060a67006fc53cb5d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3c9b97d02532b05aac2b02851f1b7b705a047726
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868635"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068130"
 ---
 # <a name="available-mobile-workspaces"></a>Beschikbare mobiele werkgebieden
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-In dit artikel vindt u een overzicht van de mobiele werkgebieden die beschikbaar zijn voor de mobiele app Finance and Operations (Dynamics 365). In de volgende tabel wordt het afschaffingsplan voor elk van deze mobiele werkgebieden aangegeven, ongeacht of een vervangingservaring is gepland of niet.  
+In dit artikel vindt u een overzicht van de mobiele werkgebieden die beschikbaar zijn voor gebruik met de mobiele app voor financiën en bedrijfsactiviteiten (Dynamics 365). In de volgende tabel wordt het afschaffingsplan voor elk van deze mobiele werkgebieden aangegeven, ongeacht of een vervangingservaring is gepland of niet.  
 
 
 | Mobiel werkgebied     | Description   | Afschaffingsplan   |
@@ -43,3 +43,4 @@ In dit artikel vindt u een overzicht van de mobiele werkgebieden die beschikbaar
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

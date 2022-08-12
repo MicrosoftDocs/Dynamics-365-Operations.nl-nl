@@ -1,6 +1,6 @@
 ---
 title: Startpagina mobiele app
-description: In dit artikel wordt de mobiele app Finance and Operations (Dynamics 365) beschreven en worden koppelingen verstrekt naar bronnen die u kunnen helpen de app te implementeren in uw organisatie.
+description: In dit artikel wordt de mobiele app voor financiën en bedrijfsactiviteiten (Dynamics 365) beschreven en worden koppelingen verstrekt naar bronnen die u kunnen helpen de app te implementeren in uw organisatie.
 author: ChrisGarty
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: d73a8d3cf8a7899f16db87148456671dea773636
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 973fdcd81a83b6b70e8fa941c4f0c9d24b5cb559
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868754"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066448"
 ---
 # <a name="mobile-app-home-page"></a>Startpagina mobiele app
 
@@ -77,7 +77,7 @@ De volgende tabel bevat koppelingen naar resources die u kunnen helpen bij de im
 <tr class="odd">
 <td>1</td>
 <td>Systeembeheerder</td>
-<td>Implementeer de Finance and Operations-app in uw organisatie.</td>
+<td>Implementeer de app voor financiën en bedrijfsactiviteiten in uw organisatie.</td>
 <td><ul><li>Als u nog geen versie van Microsoft Dynamics 365 hebt geïmplementeerd, raadpleeg dan <a href="../deployment/deploy-demo-environment.md">Een demo-omgeving implementeren</a>.</li><li>Een lijst met mobiele werkgebieden die u kunt gebruiken, vindt u in <a href="mobile-workspaces-released.md">Recentelijk gepubliceerde mobiele werkgebieden</a>.</li></ul></td>
 </tr>
 <tr class="even">
@@ -132,8 +132,8 @@ De volgende tabel bevat koppelingen naar resources die u kunnen helpen bij de im
 <td>Gebruiker</td>
 <td>Download en installeer de mobiele app.</td>
 <td>
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">Finance and Operations-app voor Android</a><BR/>
-<a href="https://go.microsoft.com/fwlink/?linkid=850663">Finance and Operations-app voor iOS</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">App voor financiën en bedrijfsactiviteiten voor Android</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">App voor financiën en bedrijfsactiviteiten voor iOS</a><BR/>
 (Windows Phone wordt niet ondersteund)
 </td>
 </tr>
@@ -152,3 +152,4 @@ De volgende tabel bevat koppelingen naar resources die u kunnen helpen bij de im
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

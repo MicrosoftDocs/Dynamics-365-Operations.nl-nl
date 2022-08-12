@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e92e6aeab949567e65a13ebdd92f0e5b306ccd30
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f9e6472fa9024f19b5c35e91b3c7c36eb311bc31
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861700"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125077"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Wat is nieuw of gewijzigd in Dynamics AX 7.0 (februari 2016)
 
@@ -1026,11 +1026,12 @@ Geen nieuwe functies zijn toegevoegd.
 |------------------|------------------|-----------------|------------------------|
 | Download, installeer en configureer de Magazijn-portal voor mobiele apparaten. | U kunt de portal downloaden, installeren en configureren tijdens het installatieproces van Microsoft Dynamics AX, door een standaardsetup. Het is ontworpen voor zelfgestuurde implementatie en configuratie on-premises. | U kunt een zelfstandig installatieprogramma downloaden via een menu-item in Magazijnbeheer. Het is ontworpen voor zelfgestuurde implementatie en configuratie on-premises. | Wanneer u de functionaliteit voor gebruik van mobiele apparaten opzet, moet u de magazijnportal voor mobiele apparaten lokaal installeren en configureren en een verbinding opzetten met het Dynamics AX-programma in de cloud. |
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Startpagina Nieuw of gewijzigd in Finance and Operations](whats-new-changed.md)
+[Startpagina Nieuw of gewijzigd in apps voor financiën en bedrijfsactiviteiten](whats-new-changed.md)
 
 [Nieuwe taakbegeleidingen (februari 2016)](new-task-guides-available-february-2016.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

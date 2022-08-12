@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 100b1972801f117560a5caf338a1ac640737ccdf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 43102cb867243a872a5d1df777d8c4102a48e235
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855927"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070314"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Magazijnverwerking van inkomende ladingen voor inkooporders
 
@@ -56,7 +56,7 @@ In de volgende afbeelding ziet u de gangbare stroom voor het verwerken van inkom
 
 ## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a>Artikelhoeveelheden registreren die binnenkomen op een inkomende lading
 
-Microsoft Dynamics 365 Supply Chain Management ondersteunt diverse operationele benaderingen voor het vastleggen van de aankomst van bestelde producten. Daarom kunt u het systeem zo configureren dat het aan uw specifieke bedrijfsvereisten voldoet. In deze sectie wordt beschreven hoe u binnenkomende artikelhoeveelheden registreert via een mobiel apparaat wanneer Geavanceerd magazijnbeheer is ingeschakeld in het systeem. Er is echter een alternatieve stroom die is gebaseerd op het gebruik van het artikelontvangstjournaal in plaats van een mobiel apparaat. Zie [Artikelen registreren voor een artikel waarvoor geavanceerd magazijnbeheer mogelijk is met een artikelontvangstjournaal](tasks/register-items-advanced-warehousing.md) voor meer informatie over die stroom.
+Microsoft Dynamics 365 Supply Chain Management ondersteunt diverse operationele benaderingen voor het vastleggen van de aankomst van bestelde producten. Daarom kunt u het systeem zo configureren dat het aan uw specifieke bedrijfsvereisten voldoet. In deze sectie wordt beschreven hoe u binnenkomende artikelhoeveelheden registreert via een mobiel apparaat wanneer magazijnbeheerprocessen (WMS) zijn ingeschakeld in het systeem. Er is echter een alternatieve stroom die is gebaseerd op het gebruik van het artikelontvangstjournaal in plaats van een mobiel apparaat. Zie [Artikelen registreren die zijn ingeschakeld voor magazijnbeheerprocessen met een artikelontvangstjournaal](tasks/register-items-advanced-warehousing.md) voor meer informatie over die stroom.
 
 Wanneer een inkomende lading voor het eerst in het magazijn arriveert, moeten magazijnmedewerkers de artikelhoeveelheden registreren die in de zending zijn opgenomen. Normaal gesproken gebruiken ze draagbare scanners. Deze werkstroom is alleen beschikbaar als het systeem de volgende items bevat:
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f9f3e17a6c67dc1cc1d4ba423ce258f2ed1d1ec0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0b8723da9b80d007cd0a3196affdfa854eff095f
+ms.sourcegitcommit: 45bb77244a31fa174adf85d1b54e9700109ca0c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847595"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9198375"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Taakrecorder en Help voor Retail Modern POS (MPOS) en Cloud POS
 
@@ -107,7 +107,7 @@ Als u de opnamesessie wilt hervatten nadat u deze hebt onderbroken, klikt u op *
 Taakrecorder kan schermopnamen maken van de gebruikersinterface van Retail Modern POS, terwijl u een bedrijfsproces registreert. Als u de functie voor het maken van schermopnamen wilt inschakelen, stelt u de optie **Schermopnamen maken** in op **Ja** en maakt u de opname. Zodra de opname is voltooid, klikt u op **Stoppen** en downloadt u het Word-document. Het document bevat de stappen met relevante schermafbeeldingen.
 
 > [!NOTE]
-> Functionaliteit voor het maken van schermopnamen wordt niet ondersteund in Cloud POS.
+> Schermopnamefunctionaliteit voor vastleggen wordt niet ondersteund in Store Commerce, Commerce Modern POS en Cloud POS.
 
 ### <a name="start-task-and-end-task"></a>Taak starten en taak beëindigen
 

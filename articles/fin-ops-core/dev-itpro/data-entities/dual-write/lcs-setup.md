@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 5cccba580d23c3a0e9aed62f76a305926a58585f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a002bae22044ea10be30340a87a191305f6c6b92
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879799"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111965"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Instellingen voor twee keer wegschrijven van Lifecycle Services
 
@@ -28,8 +28,8 @@ In dit artikel wordt uitgelegd hoe u twee keer wegschrijven kunt inschakelen van
 
 Klanten moeten de integratie van Power Platform voltooien zoals beschreven in de volgende onderwerpen:
 
-- Als u Microsoft Power Platform nog niet gebruikt en uw Finance and Operations-omgevingen wilt uitbreiden door platformmogelijkheden toe te voegen, raadpleegt u [Power Platform-integratie: inschakelen tijdens de implementatie van de omgeving](../../power-platform/enable-power-platform-integration.md#enable-during-deploy).
-- Als u al Dataverse- en Power Platform-omgevingen hebt en deze wilt verbinden met Finance and Operations-omgevingen, raadpleegt u [Power Platform-integratie: inschakelen tijdens de implementatie van de omgeving](../../power-platform/enable-power-platform-integration.md#enable-after-deploy).
+- Als u Microsoft Power Platform nog niet gebruikt en uw omgevingen van apps voor financiën en bedrijfsactiviteiten wilt uitbreiden door platformmogelijkheden toe te voegen, raadpleegt u [Power Platform-integratie: inschakelen tijdens de implementatie van de omgeving](../../power-platform/enable-power-platform-integration.md#enable-during-deploy).
+- Als u al Dataverse- en Power Platform-omgevingen hebt en deze wilt verbinden met omgevingen van apps voor financiën en bedrijfsactiviteiten, raadpleegt u [Power Platform-integratie: inschakelen tijdens de implementatie van de omgeving](../../power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
 ## <a name="set-up-dual-write-for-new-or-existing-dataverse-environments"></a>Twee keer wegschrijven instellen voor nieuwe of bestaande Dataverse-omgevingen
 
@@ -53,7 +53,7 @@ Voer de volgende stappen uit om twee keer wegschrijven via de pagina **Omgevings
 
     :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Koppeling naar Power Platform-omgeving.":::
 
-8. Wanneer de koppeling is voltooid, wordt er een hyperlink weergegeven. Gebruik de koppeling om u aan te melden bij het beheergebied voor twee keer wegschrijven in de client voor financiële en bedrijfsactiviteiten. Vanaf hier kunt u entiteitstoewijzingen instellen.
+8. Wanneer de koppeling is voltooid, wordt er een hyperlink weergegeven. Gebruik de koppeling om u aan te melden bij het beheergebied voor twee keer wegschrijven in de omgeving van apps voor financiën en bedrijfsactiviteiten. Vanaf hier kunt u entiteitstoewijzingen instellen.
 
 ## <a name="linking-mismatch"></a>Koppeling aan een verkeerde instantie
 
@@ -71,3 +71,4 @@ Als u deze waarschuwing ontvangt, kunt u een van de volgende oplossingen probere
 In het verleden was er een handmatige ondersteuningsticketoptie beschikbaar, maar dat was vóór optie 1 hierboven bestond.  Microsoft ondersteunt geen aanvragen voor handmatige herkoppeling via ondersteuningstickets meer.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

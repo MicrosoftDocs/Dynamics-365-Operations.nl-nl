@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 953a3bfec70235524067a47b8764f6dbb40d3c7b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 357ce65792ceef37abda523e7693069f1bc1ab43
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849295"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065549"
 ---
 # <a name="flushing-principles"></a>Wisprincipes
 
@@ -50,9 +50,9 @@ De wisprincipes worden geconfigureerd in een hiërarchie van standaardwaarden. D
 ## <a name="description-of-the-flushing-principles"></a>Omschrijving van de wisprincipes
 
 ### <a name="manual"></a>Handmatig
-Het handmatige wisprincipe geeft aan dat de registratie van materiaalverbruik een handmatige bewerking is. Dit principe is relevant als u bijvoorbeeld de tijd wilt bijhouden en de hoeveelheid verbruikte batchnummers of serienummers moeten worden verantwoord ter controle. Handmatig verbruik wordt geregistreerd in een orderverzamellijstjournaal voor de productie. Voor artikelen die zijn ingeschakeld voor geavanceerde magazijnprocessen, kan een handheld stroom worden toegepast.
+Het handmatige wisprincipe geeft aan dat de registratie van materiaalverbruik een handmatige bewerking is. Dit principe is relevant als u bijvoorbeeld de tijd wilt bijhouden en de hoeveelheid verbruikte batchnummers of serienummers moeten worden verantwoord ter controle. Handmatig verbruik wordt geregistreerd in een orderverzamellijstjournaal voor de productie. Voor artikelen die zijn ingeschakeld voor magazijnbeheerprocessen (WMS), kan een handheld stroom worden toegepast.
 
-### <a name="start"></a>Beginnen
+### <a name="start"></a>Begin
 Het wisprincipe Beginnen geeft aan dat materiaal automatisch wordt verbruikt wanneer de productieorder wordt gestart. De hoeveelheid materiaal die wordt verbruikt is evenredig aan de hoeveelheid die wordt gestart. Wanneer u het wisprincipe Beginnen samen met het productie-uitvoeringssysteem gebruikt, kan het ook worden gebruikt om materialen te wissen wanneer een bewerking of een procestaak is begonnen. Dit principe is van belang als, bijvoorbeeld de variantie in het verbruik laag is, de materialen een lage waarde hebben, er geen bijhoudvereisten zijn of er een korte uitvoeringstijd is voor de bewerkingen. 
 
 ### <a name="finish"></a>Voltooien

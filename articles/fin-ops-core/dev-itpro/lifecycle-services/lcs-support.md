@@ -1,5 +1,5 @@
 ---
-title: Ondersteuning krijgen voor apps voor financiële en bedrijfsactiviteiten of Lifecycle Services (LCS)
+title: Ondersteuning krijgen voor apps voor financiën en bedrijfsactiviteiten of Lifecycle Services (LCS)
 description: In dit artikel wordt uitgelegd hoe u ondersteuning kunt krijgen bij apps voor financiën en bedrijfsactiviteiten of Microsoft Dynamics Lifecycle Services (LCS).
 author: EricMoos
 ms.date: 08/02/2021
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 278a62c0393be503352db39dddeca1095e7e4a5a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f36709ddc2a64c31fe3c2d63fbe073fd9bc159bb
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866426"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103398"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Ondersteuning krijgen voor apps voor financiële en bedrijfsactiviteiten of Lifecycle Services (LCS)
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Ondersteuning krijgen voor apps voor financiën en bedrijfsactiviteiten of Lifecycle Services (LCS)
 
 [!include [banner](../includes/banner.md)]
 
@@ -51,7 +51,7 @@ In dit artikel wordt uitgelegd hoe u ondersteuning kunt krijgen bij apps voor fi
 <td>In <a href="https://lcs.dynamics.com/">LCS</a> kunt u met <strong>Problemen zoeken</strong> snel zoeken naar artikelen, hotfixes en oplossingen voor gerapporteerde problemen in Microsoft Knowledge Base (KB). U kunt zien welke gerapporteerde problemen momenteel worden opgelost voor een specifiek functioneel gebied, en welke problemen al zijn opgelost. Zie voor meer informatie <a href="issue-search-lcs.md">Problemen zoeken (Lifecycle Services, LCS)</a>.</td>
 </tr>
 <tr>
-<td>Ondersteuning krijgen binnen uw app voor financiële en bedrijfsactiviteiten.</td>
+<td>Ondersteuning krijgen binnen uw app voor financiën en bedrijfsactiviteiten.</td>
 <td>Selecteer de knop <strong>Help</strong> (<strong>?</strong>) in de rechterbovenhoek van de app en selecteer vervolgens <strong>Ondersteuning</strong>. Problemen worden gemeld op het tabblad <strong>Actieve problemen</strong> in LCS. Daar kunnen beheerders bepalen of ze interne ondersteuning moeten bieden of de problemen naar Microsoft moeten verzenden.</td>
 </tr>
 <tr>
@@ -72,3 +72,4 @@ In dit artikel wordt uitgelegd hoe u ondersteuning kunt krijgen bij apps voor fi
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -2,19 +2,19 @@
 title: Commerce-catalogi voor B2B-sites maken
 description: In dit artikel wordt beschreven hoe u Commerce-catalogi maakt voor B2B-sites (business-to-business) in Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-ms.date: 05/18/2022
+ms.date: 07/11/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 2cc9014d273b4ab6f23a38140d0cfcd3ffa4d630
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.openlocfilehash: 7d4ed3e2a76924c2c3c0ba55e21ba648e8da7b76
+ms.sourcegitcommit: d1491362421bf2fcf72a81dc2dc2d13d3b98122b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027027"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9136821"
 ---
 # <a name="create-commerce-catalogs-for-b2b-sites"></a>Commerce-catalogi voor B2B-sites maken
 
@@ -25,10 +25,13 @@ In dit artikel wordt beschreven hoe u Commerce-productcatalogi maakt voor B2B-si
 > [!NOTE]
 > Dit artikel is van toepassing op Dynamics 365 Commerce versie 10.0.27 en hoger.
 
-U kunt detailhandel Commercecatalogi gebruiken voor de identificatie van de producten die u in uw online B2B-winkels wilt aanbieden. Wanneer u een catalogus maakt, identificeert u de online winkels waarin de producten worden aangeboden, voegt u de producten toe die u wilt opnemen en verbetert u het productaanbod door productdetails toe te voegen. U kunt meerdere catalogi maken voor elke online B2B-winkel.
+U kunt detailhandel Commercecatalogi gebruiken voor de identificatie van de producten die u in uw online B2B-winkels wilt aanbieden. Wanneer u een catalogus maakt, identificeert u de online winkels waarin de producten worden aangeboden, voegt u de producten toe die u wilt opnemen en verbetert u het productaanbod door productdetails toe te voegen. U kunt voor elke online B2B-winkel meerdere catalogi maken, zoals in de onderstaande afbeelding is weergegeven.
+
+![Preview van Commerce-productcatalogi.](./media/Commerce_Catalogs.png)
 
 Met commerceproductcatalogi kunt u de volgende gegevens definiëren:
 
+- **Catalogustype**: configureer de waarde als **B2B**. U kunt catalogusspecifieke B2B-eigenschappen definiëren, zoals een navigatiehiërarchie, een klanthiërarchie en metagegevens voor kenmerken voor de catalogus. 
 - **Catalogusspecifieke navigatiehiërarchie**: organisaties kunnen een verschillende categoriestructuur maken voor hun specifieke catalogus.
 - **Catalogusspecifieke metagegevens voor kenmerken**: kenmerken bevatten details over een product. Door kenmerken toe te wijzen aan een categorie van de navigatiehiërarchie kunt u waarden definiëren voor die kenmerken op het niveau van producten die aan die categorie zijn toegewezen. Organisaties kunnen vervolgens deze taken uitvoeren:
 
@@ -41,11 +44,14 @@ Met commerceproductcatalogi kunt u de volgende gegevens definiëren:
 - **Prijsgroepen**: u kunt prijzen en promoties configureren die specifiek zijn voor een bepaalde catalogus. Deze mogelijkheid is de kernreden voor het definiëren van een catalogus voor een B2B-kanaal. Met prijsgroepen voor catalogi kunnen organisaties producten beschikbaar maken voor de gewenste B2B-organisaties en hun voorkeursprijzen en -kortingen toepassen. B2B-klanten die bestellen uit een geconfigureerde catalogus, kunnen profiteren van speciale prijzen en promoties nadat ze zich hebben aangemeld op een Commerce B2B-site. Als u specifieke catalogusprijzen wilt configureren, selecteert u **Prijsgroepen** op het tabblad **Catalogi** om een of meer prijsgroepen te koppelen aan de catalogus. Alle handelsovereenkomsten, prijscorrectiejournalen en geavanceerde kortingen die zijn gekoppeld aan dezelfde prijsgroep worden toegepast wanneer klanten uit die catalogus bestellen. (Geavanceerde kortingen zijn drempel-, hoeveelheids- en combinatiekortingen.) Zie [Prijsgroepen](price-management.md#price-groups) voor meer informatie over prijsgroepen.
 
 > [!NOTE]
-> Deze functie is beschikbaar vanaf Dynamics 365 Commerce versie 10.0.27. Als u catalogusspecifieke configuraties zoals de navigatiehiërarchie en klanthiërarchie wilt configureren, opent u in Commerce Headquarters de werkruimte **Functiebeheer** (**Systeembeheer \> Werkruimtes \> Functiebeheer**), schakelt u de functie **Gebruik van meerdere catalogi in detailhandelkanalen inschakelen** in en voert u de taak **1110 CDX** uit.
+> Deze functie is beschikbaar vanaf Dynamics 365 Commerce versie 10.0.27. Als u catalogusspecifieke configuraties wilt configureren zoals de navigatiehiërarchie en klanthiërarchie in Commerce Headquarters, gaat u naar het werkgebied **Functiebeheer** (**Systeembeheer \> Werkgebieden \> Functiebeheer**), schakelt u de functie **Gebruik van meerdere catalogi in detailhandelkanalen inschakelen** in en voert u de taak **1110 CDX** uit. Wanneer u deze functie inschakelt, worden alle bestaande catalogi die worden gebruikt voor POS-winkels of een callcenter, gemarkeerd als **Catalogustype = B2C** op de pagina **Catalogi**. Alleen bestaande en nieuwe catalogi die zijn gemarkeerd als **Catalogustype = B2C**, zijn van toepassing op POS-winkels en een callcenter. 
 
-## <a name="catalog-process-flow"></a>Processtroom catalogus
+## <a name="b2b-catalog-process-flow"></a>Processtroom B2B-catalogus
 
 Het proces van het maken en verwerken van een catalogus heeft vier algemene stappen. Elke stap wordt uitgebreid beschreven in de volgende sectie.
+
+> [!NOTE]
+> Voordat u verdergaat, controleert u of de catalogus is gemarkeerd als **Catalogustype = B2B**.
 
 1. **[Configuratie](#configure-the-catalog)**
 
@@ -73,7 +79,7 @@ Met de informatie in deze sectie kunt u uw catalogus instellen.
 
 Ga in Commerce Headquarters naar **Retail en Commerce \> Catalogi en assortimenten \> Alle catalogi** om uw catalogus te configureren.
 
-Wanneer u een nieuwe catalogus maakt, moet u deze eerst koppelen aan een of meer kanalen. Alleen artikelen die zijn gekoppeld aan uw geselecteerde kanaal [assortimenten](/dynamics365/unified-operations/retail/assortments) kunnen worden gebruikt bij het maken van de catalogus. Als u de catalogus wilt koppelen aan een of meer kanalen, selecteert u **Toevoegen** op het sneltabblad **Commerce-kanalen** van de pagina **Catalogusinstellingen**.
+Wanneer u een nieuwe catalogus maakt, moet u deze eerst koppelen aan een of meer kanalen. Alleen artikelen die zijn gekoppeld aan uw geselecteerde kanaal [assortimenten](/dynamics365/unified-operations/retail/assortments) kunnen worden gebruikt bij het maken van de catalogus. Als u de catalogus wilt koppelen aan een of meer kanalen, selecteert u **Toevoegen** op het sneltabblad **Commerce-kanalen** van de pagina **Catalogusinstellingen**. Zorg ervoor dat de catalogus is gemarkeerd als **Catalogustype = B2B**.
 
 #### <a name="associate-the-navigation-hierarchy"></a>De navigatiehiërarchie koppelen
 
@@ -90,6 +96,17 @@ Ga in Commerce Headquarters naar **Retail en Commerce \> Catalogi en assortiment
 U kunt ook een knooppunt in de navigatiehiërarchie selecteren. Vervolgens kunt u producten rechtstreeks toevoegen aan een categorie in de catalogus.
 
 #### <a name="associate-price-groups"></a>Prijsgroepen koppelen
+
+Ga in Commerce Headquarters naar **Retail en Commerce \> Catalogi en assortimenten \> Alle catalogi** om producten voor uw catalogus te configureren. Selecteer vervolgens **Producten toevoegen** op het tabblad **Catalogi**. 
+
+Producten die aan een catalogus zijn toegevoegd vanuit het hoofdknooppunt van de navigatiehiërarchie door **Producten toevoegen** in het actievenster te selecteren, nemen de categorieën over als de bronnavigatiehiërarchie ook aan de catalogus is gekoppeld. Wijzigingen in categorieën die in de bronnavigatiehiërarchie worden aangebracht, worden onmiddellijk weergegeven in de catalogi. U moet de catalogi opnieuw publiceren om de kanalen bij te werken.
+
+U kunt ook een knooppunt in de navigatiehiërarchie selecteren en producten rechtstreeks aan een geselecteerde categorie in de catalogus toevoegen. 
+
+Wanneer u producten toevoegt, wordt de optie **Alle varianten automatisch opnemen wanneer alleen productmodel is geselecteerd** beschikbaar. Om te voorkomen dat alle varianten worden opgenomen, selecteert u minimaal één variant voor het productmodel. 
+
+> [!NOTE]
+> Als u ervoor kiest om automatisch alle varianten op te nemen in een grote selectie van productmodellen, kan het zijn dat u langere verwerkingstijden krijgt. Voor grote selecties is het raadzaam om **Alle varianten opnemen** te selecteren in het actievenster van de cataloguspagina om de bewerking in batchmodus uit te voeren. Als u alleen het productmodel in de catalogus hebt opgenomen en geen varianten hebt meegenomen, is de variantkiezer mogelijk niet beschikbaar wanneer u naar een productdetailpagina navigeert. 
 
 Als u catalogusspecifieke prijzen wilt configureren, moet u een of meer prijsgroepen aan de catalogus koppelen. Ga in Commerce Headquarters naar **Retail en Commerce \> Catalogi en assortimenten \> Alle catalogi** om prijsgroepen aan een catalogus te koppelen. Selecteer vervolgens **Prijsgroepen** op het tabblad **Catalogi** onder **Prijzen**. Alle handelsovereenkomsten, prijscorrectiejournalen en geavanceerde kortingen (drempel, hoeveelheid, combinatie) die zijn gekoppeld aan dezelfde prijsgroep worden toegepast wanneer klanten uit de catalogus bestellen.
 
@@ -122,6 +139,9 @@ Volg deze stappen om een catalogus te valideren.
 1. Selecteer op het tabblad **Catalogi** van de pagina **Alle catalogi** onder **Validatie** de optie **Catalogus valideren** om een validatie uit te voeren. Deze stap is vereist. Hiermee wordt gevalideerd dat de vereiste instelling klopt.
 1. Selecteer **Resultaten weergeven** om de details van de validatie te zien. Als er fouten zijn gevonden, moet u de gegevens corrigeren en de validatie opnieuw uitvoeren totdat deze slaagt.
 
+> [!NOTE]
+> Als **Catalogustype = B2B**, mislukt de validatie als u POS-winkels of een callcenter aan de catalogus hebt toegevoegd. Aan B2B-catalogi mogen alleen online B2B-kanalen zijn gekoppeld. De validatie mislukt ook als er geen klanthiërarchie aan een B2B-catalogus is gekoppeld. 
+
 ### <a name="approve-the-catalog"></a>De catalogus goedkeuren
 
 Nadat een catalogus is gevalideerd, moet deze worden goedgekeurd.
@@ -143,3 +163,5 @@ Wanneer een catalogus de status **Goedgekeurd** heeft, kunt u deze publiceren do
 [Impact van uitbreidbaarheid van Commerce-catalogi voor B2B-aanpassingen](catalogs-b2b-sites-dev.md)
 
 [Veelgestelde vragen over Commercecatalogi voor B2B-sites](catalogs-b2b-sites-FAQ.md)
+
+[Module Cataloguskiezer](catalog-picker.md)

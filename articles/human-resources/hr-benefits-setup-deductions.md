@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b4817cd6370166b6dfdf17b3d733b13374db8f49
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2fb5f5b0b50f407f58193aafd79f28dd1fd432ee
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694902"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066787"
 ---
 # <a name="configure-deductions"></a>Inhoudingen configureren
 
@@ -45,7 +45,7 @@ Met inhoudingen in Microsoft Dynamics 365 Human Resources kunt u bepalen hoeveel
    | **Koptekst** | De koptekstcode uit de salarisadministratie die bij deze inhouding wordt gebruikt voor het werknemersdeel van de inhouding bij de verwerking van de vergoedingen in de salarisadministratie. Deze code wordt gebruikt wanneer bij u een externe dienstverlener de salarisadministratie verzorgt. |
    | **Verwijzing van werknemer voor salarisinhouding** | De inhoudingscode van de salarisadministratie die in deze inhouding wordt gebruikt voor het werknemergedeelte van de inhouding bij het verwerken van de vergoedingen voor de salarisadministratie. |
    | **Kop voor bedrag** | De koptekstcode uit de salarisadministratie die bij dit inhoudingsbedrag wordt gebruikt voor het werknemersdeel van de inhouding bij de verwerking van de vergoedingen in de salarisadministratie. Deze code wordt gewoonlijk gebruikt wanneer bij u een externe dienstverlener de salarisadministratie verzorgt. |
-   | **Kan verwijderen** | Hiermee geeft u aan of een geëxporteerde waarde uit Dynamics 365 for Finance and Operations ertoe kan leiden dat de waarde in de salarisadministratie wordt verwijderd. |
+   | **Kan verwijderen** | Hiermee geeft u aan of een geëxporteerde waarde uit Dynamics 365 Finance ertoe kan leiden dat de waarde in de salarisadministratie wordt verwijderd. |
    | **Gekoppelde kolommen** | Hiermee geeft u aan of de koptekst en het inhoudingsbedrag in gekoppelde, aangrenzende kolommen naar de salarisadministratie moeten worden geëxporteerd. |
    | **Ingangsdatum wijzigen** | De datum waarop de wijziging van de vergoedingsinhouding van kracht wordt. Op deze datum wordt de vergoedingsinhouding en alle vergoedingsplannen die aan deze inhouding zijn gekoppeld, bijgewerkt zolang u de verwerking **Wijziging van de inhouding** uitvoert. |
    | **Wijziging inhouding voltooid** | Het selectievakje **Wijziging van inhouding voltooid** wordt automatisch ingeschakeld nadat de wijzigingen in de vergoedingsinhouding zijn voltooid door de verwerking van de wijziging van de inhouding. |
@@ -56,3 +56,4 @@ Met inhoudingen in Microsoft Dynamics 365 Human Resources kunt u bepalen hoeveel
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

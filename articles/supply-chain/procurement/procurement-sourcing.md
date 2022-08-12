@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec5a9dac1d3b1288d060fe92ec94e6a105f84be8
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: b0d3869b93f6ecf4f70df6b394ce18a77318b83c
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9015283"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111779"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Startpagina Inkoopbeheer
 
@@ -54,7 +54,7 @@ Inkoopbeheer omvat alle stappen van het identificeren van een behoefte aan produ
 -   [Leverancierssamenwerking met klanten](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Gebruikers van leverancierssamenwerking beheren](manage-vendor-collaboration-users.md)
 -   [Samenwerking met leveranciers instellen en onderhouden](set-up-maintain-vendor-collaboration.md)
--   [Demoscript Inkomende consignatievoorraad voor Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(whitepaper)
+-   [Demoscript Inkomende consignatievoorraad](https://www.microsoft.com/download/details.aspx?id=101945)(whitepaper)
 -   [Consignmentvoorraad bewaken door middel van leverancierssamenwerking](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Mobiel werkgebied voor leverancierssamenwerking](vendor-collaboration-mobile-workspace.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Kwaliteitsbeheer voor magazijnprocessen
-description: Dit artikel biedt informatie over de functie Kwaliteitsbeheer voor magazijnprocessen. Met deze functie worden de mogelijkheden van kwaliteitsbeheer uitgebreid en kunnen gebruikers besturingselementen voor artikelbemonstering integreren in het ontvangstproces van het magazijn via geavanceerd magazijnbeheer.
+description: Dit artikel biedt informatie over de functie Kwaliteitsbeheer voor magazijnprocessen. Met deze functie worden de mogelijkheden van kwaliteitsbeheer uitgebreid en kunnen gebruikers besturingselementen voor artikelbemonstering integreren in het ontvangstproces van het magazijn via magazijnbeheerprocessen (WMS).
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 7f806b58c5e956e4f26158e8ea5c90a559296655
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 13c9bf522ededb5896c5f8462bfe123e9a9edb2c
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857832"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069237"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Kwaliteitsbeheer voor magazijnprocessen
 
 [!include [banner](../includes/banner.md)]
 
-Met deze functie _kwaliteitsbeheerproces voor magazijnprocessen_ kunt u besturingselementen voor artikelbemonstering integreren in het ontvangstproces van het magazijn via geavanceerd magazijnbeheer. Magazijnwerk kan automatisch worden gegenereerd om de voorraad naar de kwaliteitscontrolelocatie te verplaatsen op basis van een percentage of een vaste hoeveelheid, of op basis van elke *n* de nummerplaat. Nadat een kwaliteitsorder is voltooid, kunt u automatisch werk genereren om de voorraad naar de volgende locatie in het proces te verplaatsen, afhankelijk van de kwaliteitsresultaten.
+Met de functie _Kwaliteitsbeheer voor magazijnprocessen_ kunt u besturingselementen voor artikelbemonstering integreren in het ontvangstproces van het magazijn via magazijnbeheerprocessen (WMS). Magazijnwerk kan automatisch worden gegenereerd om de voorraad naar de kwaliteitscontrolelocatie te verplaatsen op basis van een percentage of een vaste hoeveelheid, of op basis van elke *n* de nummerplaat. Nadat een kwaliteitsorder is voltooid, kunt u automatisch werk genereren om de voorraad naar de volgende locatie in het proces te verplaatsen, afhankelijk van de kwaliteitsresultaten.
 
 De functie _Kwaliteitsbeheer voor magazijnprocessen_ vergroot de mogelijkheden van de basisfunctie voor kwaliteitsbeheer. Het biedt de mogelijkheid om kwaliteitsorders te maken voor de voorraad die wordt verzonden naar de locatie van de kwaliteitscontrole, hoewel kwaliteitsorders niet altijd vereist zijn. Daarom is het mogelijk om een lichtgewicht kwaliteitscontroleproces te gebruiken dat is gebaseerd op magazijnwerkzaamheden.
 
@@ -77,7 +77,7 @@ Voordat de functie _Kwaliteitsbeheer voor magazijnprocessen_ kan worden toegepas
 
 1. Ga naar **Magazijnbeheer \> Instellen \> Magazijn \> Magazijnen**.
 1. Selecteer het magazijn om kwaliteitsbeheer in te schakelen.
-1. Stel op het sneltabblad **Magazijn** de optie **Kwaliteitsorder inschakelen voor magazijnprocessen** in op _Ja_. (Deze optie kan alleen op _Ja_ worden ingesteld voor magazijnen die gebruikmaken van magazijnbeheerprocessen.)
+1. Stel op het sneltabblad **Magazijn** de optie **Kwaliteitsorder inschakelen voor magazijnprocessen** in op _Ja_. (Deze optie kan alleen op _Ja_ worden ingesteld voor magazijnen die gebruikmaken van WMS (magazijnbeheerprocessen).)
 
 Wanneer de optie **Kwaliteitsorder inschakelen voor magazijnprocessen** is ingesteld op _Ja_, wordt in de instelling van de kwaliteitskoppeling bepaald of de functie _Kwaliteitsbeheer voor magazijnprocessen_ werkelijk wordt toegepast op het geselecteerde magazijn. U kunt de instelling van de optie op elk gewenst moment wijzigen in _Nee_. In dat geval is de functie niet meer van toepassing voor het magazijn, ongeacht de instelling van de kwaliteitskoppeling.
 
@@ -97,7 +97,7 @@ Elke [kwaliteitskoppelingsrecord](enable-quality-management.md) definieert de se
     - **Alles**: schakel de functie _Kwaliteitsbeheer voor magazijnprocessen_ uit. Selecteer deze waarde voor alle verwijzingstypen behalve *Inkoop* en *Productie*.
 
 > [!NOTE]
-> De functie _Kwaliteitsbeheer voor magazijnprocessen_ heeft alleen effect als het artikel op de brondocumentregel gebruikmaakt van geavanceerde magazijnbeheerprocessen en als de **optie Kwaliteitsorder inschakelen voor magazijnprocessen** is ingesteld op _Ja_ voor het magazijn op de brondocumentregel.
+> De functie _Kwaliteitsbeheer voor magazijnprocessen_ heeft alleen effect als het artikel op de brondocumentregel gebruikmaakt van magazijnbeheerprocessen (WMS) en als de optie **Kwaliteitsorder inschakelen voor magazijnprocessen** is ingesteld op _Ja_ voor het magazijn op de brondocumentregel.
 
 Wanneer een artikel wordt geregistreerd (of gereedgemeld), bepaalt het systeem welke kwaliteitskoppelingen van toepassing zijn.
 

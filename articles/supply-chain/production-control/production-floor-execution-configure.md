@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 14a49d1d6c956b37ff9b2bec387615dc75d060e1
-ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
+ms.openlocfilehash: f740b68128b90fc7c9ce2f74edc4f3c06f03debd
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "9022559"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9167756"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>De uitvoeringsinterface voor de werkvloer configureren
 
@@ -92,9 +92,9 @@ Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschak
 
 Met deze functie kunnen werknemers de uitvoeringsinterface voor de werkvloer gebruiken om materiaalverbruik, batchnummers en serienummers te registreren. Sommige fabrikanten, met name fabrikanten in de procesindustrieën, moeten de hoeveelheid verbruikt materiaal voor elke batch of productieorder expliciet registreren. Werknemers kunnen bijvoorbeeld een schaal gebruiken om te wegen hoeveel materiaal tijdens het werk wordt verbruikt. Voor volledige materiaaltraceerbaarheid moeten deze organisaties ook registreren welke batchnummers zijn verbruikt bij de productie van elk product.
 
-Er zijn twee versies van deze functie. Eén functie ondersteunt alleen artikelen die *niet zijn* ingeschakeld om geavanceerde magazijnprocessen (WMS) te gebruiken. De andere ondersteunt artikelen die *zijn ingeschakeld* om WMS te gebruiken. Als u deze functionaliteit wilt gebruiken, moet u een of meer van de volgende functies in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (in deze volgorde) inschakelen, afhankelijk van het feit of er artikelen zijn ingeschakeld voor WMS:
+Er zijn twee versies van deze functie. Eén functie ondersteunt alleen artikelen die *niet zijn* ingeschakeld om magazijnbeheerprocessen (WMS) te gebruiken. De andere ondersteunt artikelen die *zijn ingeschakeld* om WMS te gebruiken. Als u deze functionaliteit wilt gebruiken, moet u een of meer van de volgende functies in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (in deze volgorde) inschakelen, afhankelijk van het feit of er artikelen zijn ingeschakeld voor WMS:
 
-- *(Preview) Materiaalverbruik registreren op de uitvoeringsinterface van de werkvloer (niet-WMS)*
+- *Materiaalverbruik registreren in de uitvoeringsinterface van de werkvloer (niet-WMS)*
 - *(Preview) Materiaalverbruik registreren in de uitvoeringsinterface van de productievloer (WMS ingeschakeld)*
 
 > [!IMPORTANT]

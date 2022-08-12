@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2bdb2ca0067ea430b249ac619a38c8bcec75f2f7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: cd5d2cf112a9d2ccdf6226ee79f0ff488d51066b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895810"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066665"
 ---
 # <a name="configure-inventory-visibility"></a>Inventory Visibility configureren
 
@@ -55,7 +55,7 @@ Met de invoegingtoepassing Voorraadzichtbaarheid worden meerdere nieuwe functies
 | *OnHandMostSpecificBackgroundService* | De functie biedt een voorraadoverzicht voor producten samen met alle dimensies. De overzichtsgegevens van de voorraad worden periodiek gesynchroniseerd vanuit Voorraadzichtbaarheid. Zie [Voorraadoverzicht](inventory-visibility-power-platform.md#inventory-summary) voor meer informatie. |
 | *OnhandChangeSchedule* | Met deze optionele functie worden de functies voor planning van wijzigingen in voorhanden hoeveelheden en ATP (Available To Promise) ingeschakeld. Zie [Planning van wijzigingen in voorhanden hoeveelheid en available to promise in Voorraadzichtbaarheid](inventory-visibility-available-to-promise.md) voor meer informatie. |
 | *Toewijzing* | Met deze optionele functie wordt aan Voorraadzichtbaarheid de functie voor voorraadbeveiliging (ringfencing) toegevoegd en kan worden voorkomen dat er te veel wordt verkocht. Zie [Voorraadtoewijzing in Voorraadzichtbaarheid](inventory-visibility-allocation.md) voor meer informatie. |
-| *Magazijnartikelen inschakelen voor Voorraadzichtbaarheid* | Met deze optionele functie wordt Voorraadzichtbaarheid ingeschakeld om artikelen te ondersteunen die zijn ingeschakeld voor geavanceerde magazijnprocessen (WHS-artikelen). Zie [Ondersteuning voor Inventory Visibility voor WHS-artikelen](inventory-visibility-whs-support.md) voor meer informatie. |
+| *Magazijnartikelen inschakelen voor Voorraadzichtbaarheid* | Met deze optionele functie wordt Voorraadzichtbaarheid ingeschakeld om artikelen te ondersteunen die zijn ingeschakeld voor magazijnbeheerprocessen (WMS). Zie [Ondersteuning voor Inventory Visibility voor WMS-artikelen](inventory-visibility-whs-support.md) voor meer informatie. |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Het service-eindpunt zoeken
 
@@ -809,3 +809,4 @@ In de volgende tabel wordt de standaardreserveringshiërarchie weergegeven.
 | `ExtendedDimension8` | 33 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

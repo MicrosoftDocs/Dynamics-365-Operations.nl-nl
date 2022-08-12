@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 28ebf1b4fb966fd6801e75e7b3a6c8741114938d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f379b3cdb6830f989199afde7d751842047df79
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863674"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070284"
 ---
 # <a name="planned-cross-docking"></a>Gepland cross-docken
 
@@ -118,7 +118,7 @@ Gepland cross-docken wordt geïmplementeerd als een boekingsmethode voor lading.
     - **Leveringsbron:** *Inkooporder*
 
 > [!NOTE]
-> U kunt een query instellen om te bepalen wanneer een bepaalde sjabloon voor cross-docken wordt gebruikt. De query voor sjablonen voor cross-docken bevat alleen de tabel *InventTable* (artikelen) en de met elkaar verbonden *WHSInventTable* (WHS-artikelen)-tabel. Als u andere tabellen aan de query wilt toevoegen, kunt u deze toevoegen door alleen *bestaande joins* of *niet-bestaande joins* te gebruiken. Wanneer u filtert op de verbonden tabellen, wordt een record uit de hoofdtabel opgehaald voor elke overeenkomende record in de verbonden tabel. Als het jointype *bestaande join* is, eindigt de zoekactie nadat de eerste match is gevonden. Als u bijvoorbeeld de tabel verkooporderregel met de artikelentabel samenvoegt, valideert en retourneert het systeem artikelen waarvoor minimaal één verkooporderregel de gedefinieerde voorwaarde heeft. In wezen worden de gegevens opgehaald uit de bovenliggende tabel (artikelen) en niet uit de tabel onderliggende tabel (verkooporderregel). U kunt daarom niet zomaar filteren op brondocumenten, zoals verkooporderregels of klanten.
+> U kunt een query instellen om te bepalen wanneer een bepaalde sjabloon voor cross-docken wordt gebruikt. De query voor sjablonen voor cross-docken bevat alleen de tabel *InventTable* (artikelen) en de met elkaar verbonden *WHSInventTable* (WMS-artikelen)-tabel. Als u andere tabellen aan de query wilt toevoegen, kunt u deze toevoegen door alleen *bestaande joins* of *niet-bestaande joins* te gebruiken. Wanneer u filtert op de verbonden tabellen, wordt een record uit de hoofdtabel opgehaald voor elke overeenkomende record in de verbonden tabel. Als het jointype *bestaande join* is, eindigt de zoekactie nadat de eerste match is gevonden. Als u bijvoorbeeld de tabel verkooporderregel met de artikelentabel samenvoegt, valideert en retourneert het systeem artikelen waarvoor minimaal één verkooporderregel de gedefinieerde voorwaarde heeft. In wezen worden de gegevens opgehaald uit de bovenliggende tabel (artikelen) en niet uit de tabel onderliggende tabel (verkooporderregel). U kunt daarom niet zomaar filteren op brondocumenten, zoals verkooporderregels of klanten.
 
 ### <a name="create-a-work-class"></a>Een werkklasse maken
 

@@ -14,17 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d0da71c87364eacf60b9a82a200996292b863b6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 935c2e6cb45df193e6cbf70634f3561154c6fe38
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692417"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178528"
 ---
 # <a name="copy-an-instance"></a>Een exemplaar kopiëren
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Is van toepassing op:** Human resources in de zelfstandige infrastructuur_ 
 
+> [!NOTE]
+> Vanaf juni 2022 kunnen Human Resources-omgevingen alleen in de infrastructuur van de app voor financiën en bedrijfsactiviteiten worden geïmplementeerd. Zie voor meer informatie [Human Resources in de infrastructuur voor financiën en bedrijfsactiviteiten inrichten](hr-admin-setup-provision-fo.md).
+
+> [!IMPORTANT]
+> De infrastructuur voor financiën en bedrijfsactiviteiten ondersteunt de functie voor het kopiëren van exemplaren niet. U kunt nieuwe omgevingen implementeren en databaseverplaatsingen gebruiken om kopieën te maken. Zie [Overzicht Selfservice-implementatie](../fin-ops-core/dev-itpro/deployment/infrastructure-stack.md) voor meer informatie over selfservice-implementaties. Zie de [startpagina Bewerkingen databaseverplaatsingen](../fin-ops-core/dev-itpro/database/dbmovement-operations.md) voor meer informatie over databaseverplaatsingen in de infrastructuur voor financiën en bedrijfsactiviteiten.
 
 U kunt Microsoft Dynamics Lifecycle Services (LCS) gebruiken om een Microsoft Dynamics 365 Human Resources-database naar een sandbox-omgeving te kopiëren. Als u nog een sandbox-omgeving hebt, kunt u de database ook vanuit die omgeving kopiëren naar een specifieke sandbox-omgeving.
 
@@ -50,7 +55,7 @@ De volgende gebeurtenissen treden op wanneer u een Human Resources-database kopi
 
 - Documenten in de Microsoft Azure Blob-opslag worden niet van de ene omgeving naar de andere gekopieerd. Het resultaat is dat documenten en sjablonen die zijn gekoppeld, niet worden gekopieerd en in de bronomgeving blijven staan.
 
-- Alle gebruikers, behalve gebruikers met de beveiligingsrol 'Systeembeheerder' en andere interne servicegebruikersaccounts, zijn niet beschikbaar. De gebruiker met beheerdersrechten kan de gegevens verwijderen of onleesbaar maken voordat andere gebruikers weer toegang hebben tot het systeem.
+- Alle gebruikers, behalve gebruikers met de beveiligingsrol 'Systeembeheerder' en andere interne servicegebruikersaccounts, zijn niet beschikbaar. De gebruiker met beheerdersrechten kan gegevens verwijderen voordat andere gebruikers weer toegang hebben tot het systeem.
 
 - Elke gebruiker met de beveiligingsrol 'Systeembeheerder' moet de vereiste configuratiewijzigingen doorvoeren, zoals het opnieuw verbinden van integratie-eindpunten met specifieke services of URL's.
 
@@ -67,7 +72,7 @@ Als u deze taak wilt voltooien, kopieert u eerst een exemplaar en meldt u zich v
 
 3. Selecteer het exemplaar dat u wilt kopiëren en selecteer **Kopiëren**.
 
-4. Selecteer in het taak venster **Een exemplaar kopiëren** het exemplaar dat u wilt overschrijven en selecteer vervolgens **Kopiëren**. Wacht totdat de waarde in het veld **Kopieerstatus** is bijgewerkt naar **Voltooid**.
+4. Selecteer in het taak venster **Een exemplaar kopiëren** het exemplaar dat u wilt overschrijven en selecteer vervolgens **Kopiëren**. Wacht totdat het veld **Kopieerstatus** is bijgewerkt naar **Voltooid**.
 
    ![[Selecteer het exemplaar dat u wilt overschrijven.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
@@ -76,6 +81,8 @@ Als u deze taak wilt voltooien, kopieert u eerst een exemplaar en meldt u zich v
    ![[Selecteer Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Selecteer de Power Apps-omgeving die u wilt kopiëren en selecteer vervolgens **Kopiëren**.
+
+Zie [Een omgeving kopiëren](/power-platform/admin/copy-environment#copy-an-environment-1) voor meer informatie over het kopiëren van Power Apps-omgevingen.
 
 7. Wanneer het kopieerproces is voltooid, meldt u zich aan bij het doelexemplaar en schakelt u Dataverse-integratie in. Zie voor meer informatie en instructies [Dataverse-integratie configureren](./hr-admin-integration-common-data-service.md).
 

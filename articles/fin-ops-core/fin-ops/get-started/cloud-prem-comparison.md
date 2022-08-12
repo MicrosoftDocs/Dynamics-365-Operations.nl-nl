@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 4096089978032f150bf6d711711a948cf1d3232f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5ef6a1574f55ad8a4222658887249db4a5490042
+ms.sourcegitcommit: 9cfccb5c260ce56a3457f9ea12e80f54ea55a3b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879770"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183835"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Vergelijking van functies tussen cloud en on-premises
 
@@ -60,7 +60,7 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 |                                      | Integratie met PowerBI Desktop                                                          | Nee        | Ja             |
 |                                      | Analytische werkgebieden                                                                     | Ja       | Nee              |
 |                                      | Intelligent bedrijfsproces: Aanbevelingen                                             | Ja       | Nee              |
-|                                      | Power BI-rapporten met OData opstellen met Power BI Desktop- of Excel PowerQuery-hulpprogramma's    | Ja       | Nee              |
+|                                      | Power BI-rapporten met OData opstellen met Power BI- of Excel PowerQuery-hulpprogramma's    | Ja       | Nee              |
 |                                      | SSRS (SQL Server Reporting Services) ondersteunt uitschalen                                 | Ja       | Ja             |
 |                                      | Telemetrie wordt overgebracht naar de cloud                                                   | Ja       | Nee              |
 | Lifecycle Services                   |                                                                                           | Ja       | Ja             |
@@ -109,7 +109,7 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 |                                      | Integratie met PowerBI Desktop                                                          | Nee        | Ja             |
 |                                      | Analytische werkgebieden                                                                     | Ja       | Nee              |
 |                                      | Intelligent bedrijfsproces: Aanbevelingen                                             | Ja       | Nee              |
-|                                      | Power BI-rapporten met OData opstellen met Power BI Desktop- of Excel PowerQuery-hulpprogramma's    | Ja       | Nee              |
+|                                      | Power BI-rapporten met OData opstellen met Power BI- of Excel PowerQuery-hulpprogramma's    | Ja       | Nee              |
 |                                      | SSRS (SQL Server Reporting Services) ondersteunt uitschalen                                 | Ja       | Ja             |
 |                                      | Telemetrie wordt overgebracht naar de cloud                                                   | Ja       | Nee              |
 | Voorraadbeheer                 |                                                                                           | Ja       | Ja             |
@@ -118,7 +118,7 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 | Lokalisaties                        |                                                                                           | Ja       | Ja             |
 | Productie                        |                                                                                           | Ja       | Ja             |
 | Hoofdplanning en prognoses      |                                                                                           | Ja       | Ja             |
-| Planningsoptimalisatie                |                                                                                           | Ja       | Nee              |
+|                                      | Planningsoptimalisatie                                                                     | Ja       | Nee              |
 | Mobiele app, werkgebieden en platform |                                                                                           | Ja       | Ja             |
 | Office-integratie                   |                                                                                           | Ja       | Ja             |
 | Organisatiebeheer          |                                                                                           | Ja       | Ja             |

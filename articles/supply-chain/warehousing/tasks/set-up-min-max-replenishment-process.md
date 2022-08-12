@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f032f95377fdc6f8ec7fbbfa7aadab8fc448be5d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fb0fbfcceece2883c32a266bcbe659211b0b56ce
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577763"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069721"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Een min./max. aanvullingsproces instellen
 
 [!include [banner](../../includes/banner.md)]
 
-Deze procedure laat zien hoe u een nieuw aanvullingsproces instelt waarin de strategie van min./max. aanvulling wordt gebruikt. Wanneer de voorraad onder het minimumniveau valt, wordt werk gemaakt om de locatie aan te vullen. De procedure laat ook zien hoe u vaste orderverzamellocaties kunt gebruiken om herbevoorrading mogelijk te maken zelfs als de voorraad onder het minimumniveau valt, en hoe het aanvullingsproces regelmatig kan worden uitgevoerd met een batchtaak. Deze taken worden meestal uitgevoerd door een magazijnmanager. U kunt deze procedure in het demobedrijf USMF uitvoeren met behulp van de onderstaande voorbeeldwaarden of u kunt de procedure op uw eigen gegevens uitvoeren. Als u uw eigen gegevens gebruikt, moet u ervoor zorgen dat u een magazijn hebt dat voor de magazijnbeheerprocessen is ingeschakeld.
+Deze procedure laat zien hoe u een nieuw aanvullingsproces instelt waarin de strategie van min./max. aanvulling wordt gebruikt. Wanneer de voorraad onder het minimumniveau valt, wordt werk gemaakt om de locatie aan te vullen. De procedure laat ook zien hoe u vaste orderverzamellocaties kunt gebruiken om herbevoorrading mogelijk te maken zelfs als de voorraad onder het minimumniveau valt, en hoe het aanvullingsproces regelmatig kan worden uitgevoerd met een batchtaak. Deze taken worden meestal uitgevoerd door een magazijnmanager. U kunt deze procedure in het demobedrijf USMF uitvoeren met behulp van de onderstaande voorbeeldwaarden of u kunt de procedure op uw eigen gegevens uitvoeren. Als u uw eigen gegevens gebruikt, moet u ervoor zorgen dat u een magazijn hebt dat voor de magazijnbeheerprocessen (WMS) is ingeschakeld.
 
 
 ## <a name="create-a-fixed-picking-location"></a>Een vaste orderverzamellocatie maken

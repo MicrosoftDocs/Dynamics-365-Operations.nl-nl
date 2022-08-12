@@ -14,18 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b9ab27b443e5ec675ea03e13aa7be4ea84bfb45
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 25889f9d4a7ffb4f155b7b7c12ec3b21a44a4710
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722236"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178437"
 ---
 # <a name="update-process"></a>Het updateproces
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Is van toepassing op:** Human resources in de zelfstandige infrastructuur_ 
 
+> [!NOTE]
+> Vanaf juli 2022 kunnen er geen nieuwe Human Resources-omgevingen worden ingericht in de zelfstandige Human Resources-infrastructuur en er kunnen geen nieuwe Microsoft Dynamics LCS-projecten (Lifecycle Services) in worden gemaakt. Klanten kunnen Human Resources-omgevingen implementeren in de infrastructuur voor financiën en bedrijfsactiviteiten. Zie voor meer informatie [Human Resources in de infrastructuur voor financiën en bedrijfsactiviteiten inrichten](/hr-admin-setup-provision-fo.md).
 
+> [!IMPORTANT]
+> Het update- en hotfix-proces in de infrastructuur van de app voor financiën en bedrijfsactiviteiten verschilt van het update- en hotfix-proces voor Human resources (zelfstandig). Zie [Proces voor overschakeling naar de nieuwste update van de app voor financiën en bedrijfsactiviteiten](../fin-ops-core/dev-itpro/migration-upgrade/upgrade-latest-update.md) voor meer informatie over het updateproces. Zie voor meer informatie over hotfixes [Updates downloaden vanuit Lifecycle Services (LCS)](/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs.md). 
 
 Microsoft Dynamics 365 Human Resources is echt software in de vorm van een service (SaaS) die voortdurende 'touchless' updates verzorgt. Deze updates bevatten zowel toepassings-als platformwijzigingen die vaak belangrijke verbeteringen voor de service bieden, waaronder wettelijke updates.
 
@@ -37,9 +41,7 @@ Er worden regelmatig updates uitgebracht voor alle omgevingen. Human Resources w
 
 Human Resources-updates worden automatisch op alle omgevingen toegepast. Human Resources biedt twee typen releases:
 
-- **Service-updates**: tweewekelijkse updates die correcties en nieuwe functies bevatten. Service-updates bevatten ook toepasselijke platformupdates wanneer ze worden uitgebracht. Zie [Nieuwe of gewijzigde functies in Platformupdates](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md) voor meer informatie over platformreleases. Tweewekelijkse updates bieden een gefaseerde globale implementatie tussen regio's. Zie [Nieuwe of gewijzigde functies in Dynamics 365 Human Resources](hr-admin-whats-new.md) voor meer informatie over tweewekelijkse updates.
-
-    Alle ondersteunde gegevenscentra worden tweewekelijks bijgewerkt, tenzij anders aangegeven. In de volgende regio's worden tweewekelijkse updates uitgebracht: Verenigde Staten, Australië, Europa, Groot-Brittannië, Azië en Canada. 
+- **Service-updates**: tweewekelijkse updates die correcties en nieuwe functies bevatten. Service-updates bevatten ook toepasselijke platformupdates wanneer ze worden uitgebracht. Zie [Nieuwe of gewijzigde functies in Platformupdates](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md) voor meer informatie over platformreleases. Updates bieden een gefaseerde globale implementatie tussen regio's. Zie [Nieuwe of gewijzigde functies in Dynamics 365 Human Resources](hr-admin-whats-new.md) voor meer informatie over updates.
 
 - **Dataverse-oplossingsupdates**: deze updates worden ongeveer om de zes weken uitgevoerd, indien nodig. Deze bevatten nieuwe entiteiten en wijzigingen in bestaande entiteiten in Dataverse. Deze updates worden in dezelfde regio's uitgebracht als de tweewekelijkse updates en het duurt ongeveer zes weken voordat ze door alle datacentra zijn gerepliceerd. Oplossingsupdates kunnen al dan niet samenvallen met tweewekelijkse service-updates.
 
@@ -83,11 +85,11 @@ Op de volgende locaties kunt u nagaan wat er is gepland voor Human Resources en 
 
 U kunt preview-functies in een sandbox-omgeving valideren voordat u deze in uw productie-omgeving inschakelt. Zie [Overzicht van functiebeheer](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voor meer informatie over het inschakelen van nieuwe functies.
 
-Alle nieuwe functies behouden gedurende minimaal 30 dagen en doorgaans 30-60 dagen de previewstatus. De belangrijkste functies zijn over het algemeen beschikbaar in oktober en april van elk jaar na de previewperiode. Zodra u nieuwe functies in het werkgebied Functiebeheer ziet, kunt u deze inschakelen. Sommige functies zijn mogelijk standaard ingeschakeld.
+Alle nieuwe functies behouden gedurende minimaal 30 dagen en doorgaans 30-60 dagen de previewstatus. De belangrijkste functies zijn over het algemeen beschikbaar in oktober en april van elk jaar na de previewperiode. Zodra u nieuwe functies in het werkgebied **Functiebeheer** ziet, kunt u deze inschakelen. Sommige functies zijn mogelijk standaard ingeschakeld.
 
 Soms is een integrale functie standaard ingeschakeld en kan deze niet worden uitgeschakeld (bijvoorbeeld het werkgebied Functiebeheer).
 
-Als een functie algemeen beschikbaar is, kan deze worden in- of uitgeschakeld in productieomgevingen. Het werkgebied Functiebeheer geeft aan wanneer een previewfunctie verplicht wordt. Deze datum is gewoonlijk 1 oktober of 1 april, in overeenstemming met de halfjaarlijkse releaseplannen. U kunt verplichte functies niet uitschakelen. Tot de functie verplicht wordt, kunt u deze in alle omgevingen in- of uitschakelen.
+Als een functie algemeen beschikbaar is, kan deze worden in- of uitgeschakeld in productieomgevingen. Het werkgebied **Functiebeheer** geeft aan wanneer een preview-functie verplicht wordt. Deze datum is gewoonlijk 1 oktober of 1 april, in overeenstemming met de halfjaarlijkse releaseplannen. U kunt verplichte functies niet uitschakelen. Tot de functie verplicht wordt, kunt u deze in alle omgevingen in- of uitschakelen.
 
 Het is raadzaam om de functies vooraf in een sandbox- of testomgeving te bekijken. U kunt het beste een kopie van uw huidige productie-omgeving of database maken in een sandbox-omgeving, zodat u beschikt over de volledige ervaring van de nieuwe functies met uw gegevens.
 

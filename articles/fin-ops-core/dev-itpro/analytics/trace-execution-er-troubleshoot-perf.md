@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 886781764b44ca76b327ad49f25f11f6c370a706
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4ea6901f8d9632b021c35b9ee899385e688fc77e
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851946"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108851"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>De uitvoering van ER-indelingen traceren om prestatieproblemen op te lossen
 
@@ -98,7 +98,7 @@ Stel dat u bent begonnen met het ontwerpen van een nieuwe ER-oplossing om een ni
 
 Stel dat u klaar bent met het ontwerpen van de eerste versie van de ER-oplossing. U moet deze nu testen in uw exemplaar en de uitvoeringsprestaties analyseren.
 
-### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>Een ER-configuratie uit RCS importeren in Finance and Operations
+### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>Een ER-configuratie uit RCS importeren naar apps voor financiën en bedrijfsactiviteiten
 
 1. Meld u aan bij uw exemplaat van de toepassing.
 2. Voor deze zelfstudie importeert u configuraties vanuit uw RCS-exemplaar (waarin u de ER-onderdelen ontwerpt) in uw exemplaar (waar u ze test en uiteindelijk gebruikt). Daarom moet u ervoor zorgen dat alle vereiste artefacten zijn voorbereid. Zie voor meer instructies de procedure [Configuraties voor Elektronische rapportage (ER) importeren uit Regulatory Configuration Services (RCS)](rcs-download-configurations.md).
@@ -305,7 +305,7 @@ Het kan ook handig zijn om het aantal aanroepen naar de gegevensbron LedgerTrans
 
 ### <a name="import-the-modified-er-model-mapping-configuration-from-rcs-into-the-application"></a>De gewijzigde configuratie voor ER-modeltoewijzing vanuit RCS in de toepassing importeren
 
-Herhaal de stappen uit het gedeelte [Een ER-configuratie uit RCS importeren in Finance and Operations](#import-configuration) eerder in dit artikel om versie 1.2 van de configuratie **Toewijzing voor prestatietracering** te importeren.
+Herhaal de stappen uit het gedeelte [Een ER-configuratie uit RCS importeren naar apps voor financiën en bedrijfsactiviteiten](#import-configuration) eerder in dit artikel om versie 1.2 van de configuratie **Toewijzing voor prestatietracering** te importeren.
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>De gewijzigde ER-oplossing uitvoeren om de uitvoering te traceren
 
@@ -363,7 +363,7 @@ U ziet dat de webbrowser een zipbestand voor downloaden biedt. Dit bestand bevat
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Externe hulpprogramma's gebruiken om een uitvoeringstracering met databasequery's te controleren.
 
-Vanwege verbeteringen in het ER-raamwerk biedt de prestatietracering die in de PerfView-indeling wordt gegenereerd nu meer informatie over het uitvoeren van ER-indelingen. In Microsoft Dynamics 365 for Finance and Operations 10.0.4 (juli 2019) kan deze tracering ook details van uitgevoerde SQL-query's naar de toepassingsdatabase bevatten.
+Vanwege verbeteringen in het ER-raamwerk biedt de prestatietracering die in de PerfView-indeling wordt gegenereerd nu meer informatie over het uitvoeren van ER-indelingen. In Microsoft Dynamics 365 Finance 10.0.4 (juli 2019) kan deze tracering ook details van uitgevoerde SQL-query's naar de toepassingsdatabase bevatten.
 
 ### <a name="configure-user-parameters"></a>Gebruikersparameters configureren
 
@@ -392,3 +392,4 @@ U ziet dat de webbrowser een zipbestand voor downloaden biedt. Dit bestand bevat
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

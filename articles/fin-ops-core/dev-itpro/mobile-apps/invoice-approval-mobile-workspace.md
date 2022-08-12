@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: e9067e33038ee09b8f8cdcc8dd597ab5be9cfe7f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4cc05d9fcea129cfb2ed8ed8df4bd4034a1fed4c
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868664"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066385"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Mobiel werkgebied Goedkeuring van facturen
 
@@ -26,7 +26,7 @@ ms.locfileid: "8868664"
 
 Dit artikel biedt informatie over het mobiele werkgebied **Factuurgoedkeuringen**. Dit werkgebied geeft een lijst met facturen die aan u zijn toegewezen via het workflowproces voor de koptekst van de leveranciersfactuur. 
 
-Dit mobiele werkgebied is bedoeld om samen te worden gebruikt met de mobiele app van Finance and Operations.
+Dit mobiele werkgebied is bedoeld om samen te worden gebruikt met de mobiele app voor financiën en bedrijfsactiviteiten.
 
 ## <a name="overview"></a>Overzicht
 
@@ -61,7 +61,7 @@ Voordat u dit mobiele werkgebied kunt gebruiken, moet aan de volgende voorwaarde
 
 ## <a name="download-and-install-the-mobile-app"></a>De mobiele app downloaden en installeren
 
-Download en installeer de mobiele app van Finance and Operations:
+Download en installeer de mobiele app van Finance + Operations:
 
 -   [Voor Android-telefoons](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Voor iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -88,3 +88,4 @@ Download en installeer de mobiele app van Finance and Operations:
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

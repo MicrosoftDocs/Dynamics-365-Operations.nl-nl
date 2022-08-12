@@ -1,6 +1,6 @@
 ---
 title: Gebruikers aan beveiligingsrollen toewijzen
-description: Voor toegang tot Finance and Operations-apps moeten gebruikers worden toegewezen aan beveiligingsrollen.
+description: Voor toegang tot apps voor financiën en bedrijfsactiviteiten moeten gebruikers worden toegewezen aan beveiligingsrollen.
 author: Peakerbl
 ms.date: 02/09/2022
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 36874b996cc5708f6fd7fbc45251f3066b5b1c97
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: b5e69a79f123daff3f85d0100647615ad818288e
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105533"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103863"
 ---
 # <a name="manage-users-and-security-roles"></a>Gebruikers en beveiligingsrollen beheren
 
@@ -73,3 +73,4 @@ Gebruikers die handmatig aan beveiligingsrollen zijn toegewezen, moeten ook hand
    4. Selecteer **Uitsluiten voor rol** in het **actievenster**. De kolom **Toewijzingsmodus** wordt nu bijgewerkt naar **Handmatig** en de gebruikers zijn nu uitgesloten van de rol.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

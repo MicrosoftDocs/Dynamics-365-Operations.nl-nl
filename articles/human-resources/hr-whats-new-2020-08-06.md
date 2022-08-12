@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 89fb22b97582e50cbb1d9929ece20786ab0d6267
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 07aeecaeb6605ab48c0ae9c41c95939fbc706a02
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902884"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070107"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Nieuwe of gewijzigde functies in Dynamics 365 Human Resources (06 augustus 2020)
 
@@ -31,9 +31,9 @@ In dit artikel worden de functies beschreven die in Dynamics 365 Human Resources
 
 ## <a name="platform-update-1001236-is-now-available"></a>Platform update 10.0.12(36) is nu beschikbaar
 
-Zie voor meer informatie [Platformupdates voor versie 10.0.12 van apps voor financiële en bedrijfsactiviteiten (augustus 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
+Zie voor meer informatie [Platformupdates voor versie 10.0.12 van apps voor financiën en bedrijfsactiviteiten (augustus 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
 
-## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>DMF-entiteiten (Data Management Framework) voor vergoedingenbeheer
+## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>DMF-entiteiten (framework voor gegevensbeheer) voor vergoedingenbeheer
  
 Entiteiten voor vergoedingenbeheer worden vrijgegeven. DMF-entiteiten staan het importeren en exporteren van gegevens toe om het configureren van vergoedingenbeheer te vereenvoudigen. Er is een sjabloon voor vergoedingenbeheer beschikbaar voor het verplaatsen van gegevens. De sjabloon exporteert en importeert de gegevens op volgorde om gegevensafhankelijkheden te behouden. Ga voor meer informatie naar:
 
@@ -60,7 +60,7 @@ Wanneer u de tijdelijke aanduiding gebruikt om een prestatiebeoordeling te opene
 
 ## <a name="new-entities-for-buying-and-selling-leave-473180"></a>Nieuwe entiteiten voor verlof kopen en verkopen (473180)
 
-De entiteiten van het Data Management Framework zijn nu beschikbaar voor verlof kopen en verkopen. Zie [Overzicht van Gegevensbeheer](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md) voor meer informatie.
+De entiteiten van het framework voor gegevensbeheer zijn nu beschikbaar voor verlof kopen en verkopen. Zie [Overzicht van Gegevensbeheer](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md) voor meer informatie.
 
 ## <a name="when-viewing-record-information-and-using-advanced-filters-a-user-could-gain-access-to-other-employees-records-472490"></a>Bij het weergeven van recordgegevens en het gebruik van geavanceerde filters kan een gebruiker toegang krijgen tot de records van andere werknemers (472490)
 

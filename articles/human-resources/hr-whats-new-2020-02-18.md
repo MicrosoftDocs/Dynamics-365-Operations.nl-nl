@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 42d00f570403af6e7a6a39a6643eec1f59ccdc20
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ec7d8dbc73dce57d3968c4d239a51d27673a2493
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687919"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066278"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (18 februari 2020)
 
@@ -31,7 +31,7 @@ In dit artikel worden de functies beschreven die in Dynamics 365 Human Resources
 
 ## <a name="platform-update-32"></a>Platformupdate 32 
 
-Platform update 32 is nu beschikbaar. Zie [Nieuw of gewijzigd in platformupdate 32 voor Finance and Operations (februari 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md) voor meer informatie.
+Platform update 32 is nu beschikbaar. Zie [Nieuwe of gewijzigde functies in platformupdate 32 voor apps voor financiën en bedrijfsactiviteiten (februari 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md) voor meer informatie.
 
 ## <a name="search-values-are-remembered-when-changing-view-options-in-streamlined-employee-form-383833"></a>Zoekwaarden worden onthouden bij het wijzigen van de weergaveopties in het gestroomlijnde formulier voor werknemers (383833)
 

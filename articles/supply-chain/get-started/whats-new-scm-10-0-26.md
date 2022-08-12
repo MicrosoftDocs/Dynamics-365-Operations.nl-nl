@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: d47f3f377a7de87b9c24a18e4542e5a48235d270
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: 8be79f259505c084a8680c453ec15a4cef1a890f
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954475"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124489"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.26 (mei 2022)
 
@@ -33,7 +33,7 @@ De volgende tabel vermeldt de functies die deze versie bevat. Mogelijk wordt dit
 
 | Functiegebied | Functie | Meer informatie | Ingeschakeld door |
 |---|---|---|---|
-| Voorraad en logistiek | [Query voor Voorraadzichtbaarheid om geavanceerde magazijnbeheerartikelen te ondersteunen](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [Ondersteuning voor Inventory Visibility voor WHS-artikelen](../inventory/inventory-visibility-whs-support.md) | Functiebeheer:<br>*Magazijnartikelen inschakelen voor Voorraadzichtbaarheid* |
+| Voorraad en logistiek | [Query voor Voorraadzichtbaarheid om geavanceerde magazijnbeheerartikelen te ondersteunen](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [Ondersteuning voor Inventory Visibility voor WMS-artikelen](../inventory/inventory-visibility-whs-support.md) | Functiebeheer:<br>*Magazijnartikelen inschakelen voor Voorraadzichtbaarheid* |
 | Voorraad en logistiek | [Available to promise voor de invoegvoeging Voorraadzichtbaarheid](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [Planningen van wijzigingen in voorhanden hoeveelheid en available to promise in Voorraadzichtbaarheid](../inventory/inventory-visibility-available-to-promise.md) | Ingeschakeld door serviceconfiguratie |
 | Productie | [Catch weight-artikelen voor de uitvoeringsinterface voor de werkvloer](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken](../production-control/production-floor-execution-use.md) | Functiebeheer:<br>*(Preview) Rapport over catch weight-artikelen uit de uitvoeringsinterface van de productievloer* |
 | Productie | Het tabblad Mijn taken in de uitvoeringsinterface voor de werkvloer <!-- KFM: Add link to release plan when available --> | [Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken](../production-control/production-floor-execution-use.md) | Functiebeheer:<br>*Het tabblad Mijn taken in de uitvoeringsinterface voor de werkvloer* |
@@ -47,9 +47,9 @@ Als u een van deze functies wilt in- of uitschakelen, moet u dat doen in [Functi
 | Module | Functienaam in Functiebeheer | Meer informatie |
 |---|---|---|
 | Inkoopbeheer | Geregistreerde hoeveelheden van producten in voorraad en restanten van niet-voorraadproducten voor ontvangstbewijzen en leveranciersfacturen boeken | Deze functie wijzigt de manier waarop hoeveelheden van producten die niet op voorraad zijn (zoals services), worden geboekt bij de verwerking van leveranciersfacturen en inkomende zendingen voor inkooporders. De functie stemt het gedrag van de hoeveelheidsoptie *Geregistreerde hoeveelheid en services* voor het boeken van ontvangsten en leveranciersfacturen af op de optie *Geregistreerde hoeveelheid en niet-voorraadproducten*, die al is opgegeven bij het boeken van hoeveelheden voor verkooppakbonnen.<br><br>Wanneer u een productontvangstbon of leveranciersfactuur boekt met de hoeveelheidsoptie *Geregistreerde hoeveelheid en services*, boekt het systeem de geregistreerde hoeveelheid in voorraadproducten en boekt het de resterende hoeveelheid als niet-voorraadproducten (inclusief zowel services als niet-services). Zonder deze functie boekt het systeem de geregistreerde hoeveelheid voorraadproducten (inclusief services die zijn geconfigureerd als voorraadartikelen) maar wordt altijd de volledige bestelde hoeveelheid niet-voorraadproducten geboekt (en negeert niet-voorraadproducten van het type *Service*). |
-| Inkoopbeheer | Traceringsdimensies synchroniseren op intercompany-verkoop- en inkooporderregels | Met deze functie kunt u bepalen of de traceringsdimensies voor serie- en batchnummers worden gesynchroniseerd tussen intercompany-verkooporderregels en -inkooporderregels. Er worden nieuwe instellingen toegevoegd aan zowel het **inkooporderbeleid** als het tabblad **Verkooporderbeleid** van de pagina **Intercompany-instelling** voor klanten en leveranciers. Ook worden de namen van enkele verwante, dichtbijliggende instellingen voor de duidelijkheid bijgewerkt.<br><br>Als u geavanceerd magazijnbeheer (WMS) gebruikt, moet u er rekening mee houden dat alleen batch- en serienummers worden gesynchroniseerd wanneer deze dimensies zich boven de locatie in de reserveringshiërarchie van de doelbestemming bevinden. |
+| Inkoopbeheer | Traceringsdimensies synchroniseren op intercompany-verkoop- en inkooporderregels | Met deze functie kunt u bepalen of de traceringsdimensies voor serie- en batchnummers worden gesynchroniseerd tussen intercompany-verkooporderregels en -inkooporderregels. Er worden nieuwe instellingen toegevoegd aan zowel het **inkooporderbeleid** als het tabblad **Verkooporderbeleid** van de pagina **Intercompany-instelling** voor klanten en leveranciers. Ook worden de namen van enkele verwante, dichtbijliggende instellingen voor de duidelijkheid bijgewerkt.<br><br>Als u magazijnbeheerprocessen (WMS) gebruikt, moet u er rekening mee houden dat alleen batch- en serienummers worden gesynchroniseerd wanneer deze dimensies zich boven de locatie in de reserveringshiërarchie van de doelbestemming bevinden. |
 | Productgegevensbeheer | Waarden van productkenmerk opschonen | Met deze functie wordt een periodieke taak toegevoegd met de naam **Productkenmerkwaarden opschonen**, waarmee waarderecords worden opgeschoond van productkenmerken die niet meer aan een product zijn gekoppeld via een productcategorie. |
-| Voorraad- en magazijnbeheer | (Rusland) Afwijkingen voorkomen bij het uitgeven van GTD's voor inkooporders die artikelen bevatten die zijn ingeschakeld voor WMS | Deze functie is alleen beschikbaar voor Russische lokalisatie. Hiermee worden discrepanties voorkomen die optreden bij het uitgeven van Russische GTD's (douaneaangiftenummers) voor inkooporders voor import die artikelen bevatten die zijn ingeschakeld voor geavanceerde magazijnen (WMS). Door het GTD-uitgifteproces worden sommige voorraaddimensiewaarden in de gerelateerde voorraadtransacties gewijzigd voor facturen in het aangepaste journaal, wat resulteert in verschillen tussen de werkrecords voor de inkooporder en de voorraadtransacties voor de inkoop. Wanneer deze functie is ingeschakeld, genereert het GTD-uitgifteproces correctiewerk waardoor dergelijke verschillen worden verwijderd. |
+| Voorraad- en magazijnbeheer | (Rusland) Afwijkingen voorkomen bij het uitgeven van GTD's voor inkooporders die artikelen bevatten die zijn ingeschakeld voor WMS | Deze functie is alleen beschikbaar voor Russische lokalisatie. Hiermee worden discrepanties voorkomen die optreden bij het uitgeven van Russische GTD's (douaneaangiftenummers) voor inkooporders voor import die artikelen bevatten die zijn ingeschakeld voor magazijnbeheerprocessen (WMS). Door het GTD-uitgifteproces worden sommige voorraaddimensiewaarden in de gerelateerde voorraadtransacties gewijzigd voor facturen in het aangepaste journaal, wat resulteert in verschillen tussen de werkrecords voor de inkooporder en de voorraadtransacties voor de inkoop. Wanneer deze functie is ingeschakeld, genereert het GTD-uitgifteproces correctiewerk waardoor dergelijke verschillen worden verwijderd. |
 | Magazijnbeheer | Verbeterde parser voor GS1-streepjescodes | Deze functie voegt een verbeterde parser toe voor GS1-symboolgegevens. De nieuwe parser implementeert het GS1 General Specification-algoritme voor het parseren van GS1-symbolen en zorgt voor een betere gegevensvalidatie. Zie [GS1-streepjescodes scannen](../warehousing/gs1-barcodes.md) voor meer informatie. |
 | Magazijnbeheer | Nieuwe workbenchpagina's voor ladingplanning | Hiermee worden twee nieuwe workbenchpagina's voor ladingplanning toegevoegd: **Workbench voor binnenkomende ladingplanning** en **Workbench voor uitgaande ladingplanning**. |
 | Magazijnbeheer | Magazijnbeheertoepassing - lege GTD | Deze functie is alleen beschikbaar voor Russische lokalisatie. Met deze functie kunnen werknemers die de mobiele app Warehouse Management gebruiken, de Russische GTD's (douaneaangiftenummers) zo nodig leeg laten. Als de GTD-traceringsdimensie zo is ingesteld dat lege waarden zijn toegestaan, accepteert het systeem lege waarden voor GTD voor voorraadbewerkingen als voorhanden voorraad beschikbaar is. |
@@ -64,9 +64,9 @@ De volgende Help-artikelen zijn onlangs toegevoegd of ingrijpend bijgewerkt. Dez
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformupdates voor apps voor financiële en bedrijfsactiviteiten
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformupdates voor apps voor financiën en bedrijfsactiviteiten
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.26 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.26 van apps voor financiële en bedrijfsactiviteiten (mei 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-26.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.26 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.26 van apps voor financiën en bedrijfsactiviteiten (mei 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-26.md).
 
 ### <a name="bug-fixes"></a>Correcties
 
@@ -90,3 +90,4 @@ Twaalf maanden voordat een functie uit het product wordt verwijderd, wordt de af
 Voor ingrijpende wijzigingen die alleen van invloed zijn op de compilatietijd, maar binair compatibel zijn met sandbox- en productieomgevingen, is de afschaffingstijd korter dan 12 maanden. Meestal zijn dit functionele updates die moeten worden doorgevoerd in de compiler.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

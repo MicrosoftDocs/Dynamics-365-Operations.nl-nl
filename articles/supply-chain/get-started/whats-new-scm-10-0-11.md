@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: b0cde3da6f2894d6d0bbfe2e5842c055a120e348
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 360f2bc80c1e3926cbee3bced176e7d7217ca952
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857861"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124125"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.11 (juli 2020)
 
@@ -49,9 +49,9 @@ Deze versie bevat de volgende functies. De functietitels verwijzen naar extra in
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformupdates voor apps voor financiële en bedrijfsactiviteiten
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformupdates voor apps voor financiën en bedrijfsactiviteiten
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.11 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.11 van apps voor financiële en bedrijfsactiviteiten (juli 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-35.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.11 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.11 van apps voor financiën en bedrijfsactiviteiten (juli 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-35.md).
 
 ### <a name="bug-fixes"></a>Correcties
 

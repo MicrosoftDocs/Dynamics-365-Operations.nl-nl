@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93d25a260cfc94e898ef50c618b2cbc640c963bc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 04c26eec8be61d60908bef67c75958287e7e1a01
+ms.sourcegitcommit: 85141b21ac90f3db1b378c21f9c7f3d8f74e182f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876320"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129507"
 ---
 # <a name="create-a-customer-invoice"></a>Een klantfactuur maken
 
@@ -90,6 +90,14 @@ U kunt de splitsing van klantfacturen voor verkooporders configureren op site of
 
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>Naar opbrengstrekening boeken voor verkooporderfactuurregels die geen prijs en kosten bevatten
 U hebt de mogelijkheid om de **opbrengstrekening** in het **grootboek** bij te werken voor verkooporderregels zonder prijs en kosten. Als u deze informatie wilt instellen of weergeven, gaat u naar de parameter **Naar opbrengstrekening boeken voor verkooporderfactuurregels met nulprijs en geen kosten** op het tabblad **Grootboek en btw** van de pagina **Parameters van klanten**. (**Klanten > Instellingen > Parameters van Klanten**). Selecteer **Ja** om de **opbrengstrekening** voor verkooporderfactuurregels zonder prijs en kosten bij te werken. Als deze optie is geselecteerd, bevat het boekstuk 0,00 boekingen voor de boekingstypen **Klantsaldo** en **Opbrengst**. Een opbrengstrekening wordt gedefinieerd op de parameterpagina **Voorraadboeking** op het tabblad **Verkooporder** voor de rekeningdefinitie. Als deze optie niet is geselecteerd, worden regels zonder prijs- of kostengegevens niet naar de **opbrengstrekening** geboekt. In plaats daarvan bevat het boekstuk een vermelding van 0,00 voor het boekingstype **Klantsaldo**.
+
+## <a name="line-creation-sequence-number-information"></a>Informatie over het volgnummer van regel maken
+Wanneer u klantfactuurregels maakt, kunt u opeenvolgende volgnummers voor het maken van regels maken. Volgnummers voor het maken van regels worden toegewezen tijdens het boekingsproces. Door niet-opeenvolgende nummering toe te staan, kunt u de prestaties van het boeken van klantfacturen verbeteren. Volgnummers voor het maken van regels kunnen worden gebruikt door integraties van derden die een opeenvolgende volgorde verwachten. Neem contact op met uw IT-afdeling over uitbreidingen die kunnen worden geïntegreerd met volgnummers voor het maken van regels.
+
+Als u deze informatie wilt instellen of weergeven, stelt u op de pagina **Parameters van Klanten** op het tabblad **Updates** de optie **Opeenvolgende regelnummers toewijzen bij het boeken van klantfactuurregels** in:
+
+- Stel de optie in op **Nee** om niet-opeenvolgende nummering te gebruiken voor volgnummers voor het maken van regels.
+- Stel de optie in op **Ja** om opeenvolgende nummering te gebruiken. U moet de optie op **Ja** instellen voor rechtspersonen met een primair adres in Italië. U moet dit ook instellen op **Ja** als de vlucht **CustInvoiceTransRandLineCreationSeqNumFlight** is uitgeschakeld.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Aanvullende instellingen die het boekingsgedrag wijzigen
 De volgende velden wijzigen het gedrag van het boekingsproces.

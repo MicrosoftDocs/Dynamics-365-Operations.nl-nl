@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 69eaa3e2ecfbd1e92f23725d97d7fa9f0abe1cea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0dac106a592a6a70aae6b245bce74d21c98cad10
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847541"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108434"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Bijgewerkte versies van ER-configuraties importeren
 
@@ -28,7 +28,7 @@ ms.locfileid: "8847541"
 
 Om [ER-configuraties](general-electronic-reporting.md#Configuration) (Electronic Reporting) te delen, wordt gebruik gemaakt van [ER-opslagplaatsen](general-electronic-reporting.md#Repository). U kunt configuraties vanuit verschillende opslagplaatsen [importeren](download-electronic-reporting-configuration-lcs.md) in uw exemplaar van Microsoft Dynamics 365 Finance. Wanneer u configuraties importeert, kunnen [configuratie providers](general-electronic-reporting.md#Provider) nieuwe [versies](general-electronic-reporting.md#component-versioning) van opslagplaatsen publiceren zodat deze kunnen worden gedeeld.
 
-In dit artikel wordt uitgelegd hoe u ER-configuraties importeert uit de algemene opslagplaats van de configuratieservice. Zie [Microsoft Dynamics 365 for Finance and Operations - Regulatory services, configuratieservice](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) voor meer informatie.
+In dit artikel wordt uitgelegd hoe u ER-configuraties importeert uit de algemene opslagplaats van de configuratieservice. Zie [Microsoft Dynamics 365 Finance - Regulatory services, configuratieservice](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) voor meer informatie.
 
 ## <a name="review-the-available-updated-versions"></a>Controleren welke bijgewerkte versies beschikbaar zijn
 

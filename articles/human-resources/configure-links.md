@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0c9efae1061e96c0c42d5ca6a100bb36889ce56b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9640f460ed7b0b1a0cfdffb7c318bf833f8627fc
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859661"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065288"
 ---
 # <a name="create-links-from-human-resources-to-another-finance-environment"></a>Koppelingen maken van Human Resources naar een andere Finance-omgeving
 
@@ -53,7 +53,7 @@ Elke koppeling die u maakt, heeft de volgende informatie gedefinieerd:
 
    U vindt het vereiste menu-item als volgt:
    1. Ga naar de Finance-omgeving en open u de pagina die het doel is van de navigatie. 
-   2. Kopieer het menu-item vanuit de URL. Als u bijvoorbeeld wilt dat de koppeling u brengt naar de werknemerslijst in Finance and Operations, voert u de waarde in die wordt weergegeven na de '&mi' in de URL. 
+   2. Kopieer het menu-item vanuit de URL. Als u bijvoorbeeld wilt dat de koppeling u brengt naar de werknemerslijst in Finance + Operations, voert u de waarde in die wordt weergegeven na de '&mi' in de URL. 
    3. Het menu-item om te navigeren naar de werknemerslijstpagina in dit voorbeeld is: HcmWorkerListPage_Employees.
 
  - **Koppeling naar gegevensbron**: selecteer de bron van de gegevens waarnaar de koppeling verwijst. De meest voorkomende bronnen, zoals **Medewerker** en **Positie** zijn beschikbaar.
@@ -63,4 +63,5 @@ Elke koppeling die u maakt, heeft de volgende informatie gedefinieerd:
 Systeembeheerders zien de nieuw gemaakte koppelingen op de gedefinieerde pagina's, zelfs als de optie **Deze koppeling inschakelen** is ingesteld op **Nee**. Dit kan worden gebruikt voor het testen van koppelingen voordat ze voor andere werknemers beschikbaar zijn. Alle andere rollen zien alleen de geconfigureerde koppelingen nadat de optie **Deze koppeling inschakelen** is ingesteld op **Ja**. Werknemers die toegang hebben tot de pagina's waarin de koppelingen voorkomen, hebben toegang tot de koppelingen.
 
 Gebruikers moeten ook beveiligingsrechten hebben in de gedefinieerde secundaire omgeving om de pagina's in die omgeving te kunnen openen. Zo niet, dan wordt een beveiligingsdialoogvenster weergegeven wanneer de koppeling wordt gebruikt.
+
 

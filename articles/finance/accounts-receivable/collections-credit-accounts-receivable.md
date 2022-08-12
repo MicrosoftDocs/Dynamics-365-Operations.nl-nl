@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03d1304c39628323c6d6e15181263a73ba965930
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 00e536241710fc8a75158472688757320abf4247
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710352"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067203"
 ---
 # <a name="collections-in-accounts-receivable"></a>Aanmaningen in Klanten
 
@@ -65,7 +65,7 @@ Met de volgende lijstpagina's kunt u gegevens over aanmaningen organiseren.
 
 > [!NOTE]
 > Een ouderdomsmomentopname moet worden gemaakt, voordat u gegevens op deze lijstpagina's kunt bekijken. Er worden alleen gegevens weergegeven voor klanten voor wie een ouderdomsmomentopname is gemaakt. De records die op de lijstpagina worden weergegeven, kunnen als volgt worden gefilterd:
-> <li>Een Finance and Operations-gebruiker heeft standaard toegang tot alle klanten die een ouderdomsmomentopname hebben.</li>
+> <li>Een Finance + Operations-gebruiker heeft standaard toegang tot alle klanten die een ouderdomsmomentopname hebben.</li>
 > <li>Als er klantverzamelingen bestaan, moet een gebruiker als incassomedewerker zijn ingesteld om de verzamelingen te gebruiken om gegevens op de lijstpagina's met aanmaningen te filteren. De gegevens zijn beperkt tot de klanten die zijn opgenomen in de geselecteerde klantverzameling.</li>
 > <li>Als een gebruiker is ingesteld als incassomedewerker, bevat de lijstpagina alleen de verzamelingen die zijn geselecteerd voor die incassomedewerker. Als de schakeloptie Medewerker toestaan alle klantverzamelingen te bekijken is geselecteerd op de pagina Incassomedewerker voor de incassomedewerker, zijn alle verzamelingen beschikbaar voor die medewerker.</li>
 
@@ -110,3 +110,4 @@ U kunt betalingen met ontoereikend saldo verwerken door op Betaling met ontoerei
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

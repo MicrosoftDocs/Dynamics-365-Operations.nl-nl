@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: acb3575d9b6371bb4a6924be1e6e2ee86b976e7c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f1c42897a0392d053b90fc2eae9b20a0d14f327
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888030"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067707"
 ---
 # <a name="revenue-recognition-overview"></a>Overzicht van opbrengsttoerekening
 
@@ -35,7 +35,7 @@ Over het algemeen kan het proces voor opbrengsttoerekening worden gebruikt voor 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44iER]
 
-De video [Opbrengsttoerekening gebruiken in Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) (zie hierboven) is opgenomen in de afspeellijst voor [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) die beschikbaar is op YouTube.
+De video [Opbrengsttoerekening gebruiken in Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) (zie hierboven) is opgenomen in de [afspeellijst voor Finance + Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) die beschikbaar is op YouTube.
 
 De functie Opbrengsttoerekening biedt een flexibel raamwerk waarmee u bedrijfsspecifieke regels kunt definiëren om zowel de opbrengstprijs als het opbrengstschema toe te rekenen.
 
@@ -53,3 +53,4 @@ Als door een contractuele wijziging een nieuwe verkooporderregel moet worden toe
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -1,6 +1,6 @@
 ---
 title: Een vrachtbrief maken
-description: In dit artikel wordt uitgelegd hoe u een vrachtbrief maakt wanneer u gebruik maakt van de processen voor magazijnbeheer.
+description: In dit artikel wordt uitgelegd hoe u een vrachtbrief maakt wanneer u gebruikmaakt van de processen voor magazijnbeheer (WMS).
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34e84fee13dcff574f1700ba2b8f577f4c401cbc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 68a703475191255ff6ceaee25ef8e2bdf33ba0c2
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885778"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069691"
 ---
 # <a name="create-a-bill-of-lading"></a>Een vrachtbrief maken
 
 [!include [banner](../includes/banner.md)]
 
-In dit artikel wordt uitgelegd hoe u een vrachtbrief maakt wanneer u gebruik maakt van de processen voor magazijnbeheer.  
+In dit artikel wordt uitgelegd hoe u een vrachtbrief maakt wanneer u gebruikmaakt van de processen voor magazijnbeheer (WMS).  
 
 Een vrachtbrief is een juridisch document tussen het bedrijf dat de artikelen verzendt en de vervoerder. Het document begeleidt de verzonden artikelen en dient als ontvangstbewijs wanneer artikelen op de plaats van bestemming worden afgeleverd. Als u magazijnbeheer gebruikt, zijn er twee manieren om een vrachtbrief te genereren:
 

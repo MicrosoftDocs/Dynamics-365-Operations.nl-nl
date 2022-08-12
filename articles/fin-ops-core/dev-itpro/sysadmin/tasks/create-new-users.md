@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 480d181e8abb3af5a7406efd13c8bd9961a7490a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 00da7c69ff18abd02ca0cd7984e9b2de5e453a0c
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595381"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103320"
 ---
 # <a name="create-new-users"></a>Nieuwe gebruikers maken
 
 [!include [banner](../../includes/banner.md)]
 
-Voordat u toegang kunt krijgen tot Finance and Operations-apps, moet u eerst worden toegevoegd aan de pagina **Gebruikers** (**Systeembeheer \> Gebruikers \> Gebruikers**). Gebruikers kunnen interne werknemers van uw organisatie of externe klanten en leveranciers zijn. Gebruikers kunnen handmatig worden geïmporteerd of toegevoegd. Alle gebruikers moeten over een juiste licentie voor compatibel gebruik beschikken.
+Voordat u toegang kunt krijgen tot apps voor financiën en bedrijfsactiviteiten, moet u eerst worden toegevoegd aan de pagina **Gebruikers** (**Systeembeheer \> Gebruikers \> Gebruikers**). Gebruikers kunnen interne werknemers van uw organisatie of externe klanten en leveranciers zijn. Gebruikers kunnen handmatig worden geïmporteerd of toegevoegd. Alle gebruikers moeten over een juiste licentie voor compatibel gebruik beschikken.
 
-Voor informatie over hoe u Finance and Operations-apps koopt en hiervoor een licentie krijgt, raadpleegt u [Microsoft Dynamics 365-licentiehandleiding](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
+Voor informatie over hoe u apps voor financiën en bedrijfsactiviteiten koopt en hiervoor een licentie krijgt, raadpleegt u [Microsoft Dynamics 365-licentiehandleiding](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>Een licentie aan een gebruiker toewijzen
-Systeembeheerders [kunnen licenties aan gebruikers toewijzen](/office365/admin/subscriptions-and-billing/assign-licenses-to-users) in het [Microsoft 365-beheercentrum](/office365/admin/admin-overview/about-the-admin-center).
+Systeembeheerders kunnen [licenties aan gebruikers toewijzen](/office365/admin/subscriptions-and-billing/assign-licenses-to-users) in het [Microsoft 365-beheercentrum](/office365/admin/admin-overview/about-the-admin-center).
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Een externe gebruiker toevoegen in Azure AD en een licentie toewijzen 
-Externe gebruikers moeten worden vertegenwoordigd in uw tenantdirectory (Azure Active Directory (Azure AD)) zodat aan hen licenties kunnen worden toegewezen. Deze externe gebruikers moeten aan de tenant in Azure AD als gast gebruikers worden toegevoegd en vervolgens de vereiste licenties toegewezen krijgen. Een vereiste voor Finance and Operations-apps is dat het bedrijf van de gastgebruiker Azure AD moet gebruiken. Zie [Gebruikers van Azure Active Directory B2B-samenwerking toevoegen in de Azure Portal](/azure/active-directory/b2b/add-users-administrator)voor meer informatie.
+Externe gebruikers moeten worden vertegenwoordigd in uw tenantdirectory (Azure Active Directory (Azure AD)) zodat aan hen licenties kunnen worden toegewezen. Deze externe gebruikers moeten aan de tenant in Azure AD als gast gebruikers worden toegevoegd en vervolgens de vereiste licenties toegewezen krijgen. Een vereiste voor apps voor financiën en bedrijfsactiviteiten is dat het bedrijf van de gastgebruiker Azure AD moet gebruiken. Zie [Gebruikers van Azure Active Directory B2B-samenwerking toevoegen in de Azure Portal](/azure/active-directory/b2b/add-users-administrator)voor meer informatie.
 
 ## <a name="import-new-users-from-azure-ad"></a>Nieuwe gebruikers importeren vanuit Azure AD 
 1. Ga naar **Systeembeheer** \> **Gebruiker** \> **Gebruikers**.

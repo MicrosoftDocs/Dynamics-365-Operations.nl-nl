@@ -1,7 +1,7 @@
 ---
 title: De samengestelde entiteit voor het bankjournaal bijwerken
 description: In dit artikel worden de stappen beschreven om het aanvullende veld BankTransactionType aan de samengestelde BankJournalEntity toe te voegen.
-author: panolte
+author: angelad116
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ ms.reviewer: kfend
 ms.custom: 221654
 ms.assetid: adb8146b-eb21-4be2-a338-a5b299fcc9a0
 ms.search.region: Global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db5f01af6b21b4dc5ff633ee9c11bb6ed41df048
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f8bf3bbcbd8036015757799a2e58b23fd9bd2b38
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868542"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151605"
 ---
 # <a name="update-the-bank-journal-composite-entity"></a>De samengestelde entiteit voor het bankjournaal bijwerken
 

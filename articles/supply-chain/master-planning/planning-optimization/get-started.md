@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b9595aece264f55c706ebc84010b927fae56b512
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e853c8a482b8fd0b92c9861fe022c056915ab405
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900965"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112175"
 ---
 # <a name="get-started-with-planning-optimization"></a>Aan de slag met Planningsoptimalisatie
 
@@ -40,7 +40,7 @@ Voordat u Planningsoptimalisatie inschakelt, kunt u het beste de resultaten van 
 
 ## <a name="availability"></a>Beschikbaarheid
 
-Planningsoptimalisatie is momenteel beschikbaar in de volgende Azure-regio's: Verenigde Staten, Canada, Brazilië, Europa, Verenigd Koninkrijk, Australië, Azië/Pacific, Japan en India. Als u de invoegtoepassing vanuit een andere geografische regio probeert te installeren, wordt in LCS een bericht weergegeven dat deze niet wordt ondersteund. Zie [Azure-regio's](https://azure.microsoft.com/global-infrastructure/geographies/#geographies) voor meer informatie over Azure-regio's en de verwante regio's.
+Planningsoptimalisatie is momenteel beschikbaar in de volgende Azure-regio's: Verenigde Staten, Canada, Brazilië, Europa, Frankrijk, Verenigd Koninkrijk, Australië, Azië/Pacific, Japan en India. Als u de invoegtoepassing vanuit een andere geografische regio probeert te installeren, wordt in LCS een bericht weergegeven dat deze niet wordt ondersteund. Zie [Azure-regio's](https://azure.microsoft.com/global-infrastructure/geographies/#geographies) voor meer informatie over Azure-regio's en de verwante regio's.
 
 Planningsoptimalisatie wordt niet ondersteund voor on-premises implementaties van Dynamics 365 Supply Chain Management.
 
@@ -135,3 +135,4 @@ Als Planningsoptimalisatie is ingeschakeld, wordt de hoofdplanning uitgevoerd me
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

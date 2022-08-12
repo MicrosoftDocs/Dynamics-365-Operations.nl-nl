@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: f0d5339190f7e2aff7b084fa73e559af28e10ee8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f44574abddb71e1a994ae60960e8c9c79242aff0
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860104"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112107"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect naar contant geld in twee keer wegschrijven
 
@@ -111,7 +111,7 @@ Verkoopfacturen worden gemaakt in Supply Chain Management en gesynchroniseerd me
 
 Prospect naar contact geld omvat een verzameling basistabeltoewijzingen die samenwerken tijdens de interactie van gegevens, zoals in de volgende tabel wordt weergegeven.
 
-| Apps voor financiële en bedrijfsactiviteiten | Customer Engagement-apps | Description |
+| Apps voor financiën en bedrijfsactiviteiten | Customer Engagement-apps | Description |
 |-----------------------------|-----------------------------------|-------------|
 [Alle producten](mapping-reference.md#138) | msdyn_globalproducts | |
 [Klanten V3](mapping-reference.md#101) | rekeningen | |
@@ -135,3 +135,4 @@ Zie [Geharmoniseerde productervaring](product-mapping.md) voor informatie over p
 - Financiële dimensies moeten worden ingesteld voor de hoofdgegevens, bijvoorbeeld klant en leverancier. Wanneer een klant wordt toegevoegd aan een offerte of verkooporder, worden de financiële dimensies die aan de klantrecordstroom zijn gekoppeld, automatisch aan de order toegevoegd. Op dit moment bevat twee keer wegschrijven geen financiële dimensiegegevens voor hoofdgegevens.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

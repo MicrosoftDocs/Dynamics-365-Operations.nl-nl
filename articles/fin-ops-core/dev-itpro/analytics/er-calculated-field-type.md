@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4a4933c429982d1371c7c9a9412789ae08e08f43
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a4eb70144957ecdbeba4246fb8c7cd6a20cb08c
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934700"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108324"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Ondersteuning van parameteraanroepen voor ER-gegevensbronnen van het type Berekend veld
 
@@ -36,7 +36,7 @@ Om de voorbeelden in dit artikel te kunnen voltooien, moet u over de volgende to
     - Functioneel consultant elektronische rapportage
     - Systeembeheerder
 
-- Start RCS (Regulatory Configuration Services) die zijn ingericht voor dezelfde tenant als Finance and Operations voor een van de volgende rollen:
+- Open RCS (Regulatory Configuration Services) die zijn ingericht voor dezelfde tenant als apps voor financiën en bedrijfsactiviteiten voor een van de volgende rollen:
 
     - Ontwikkelaar elektronische rapportage
     - Functioneel consultant elektronische rapportage
@@ -84,7 +84,7 @@ In dit voorbeeld maakt u een configuratie voor het voorbeeldbedrijf Litware, Inc
             - Het optellen van btw-waarden.
             - Het bepalen van het minimale toegepaste belastingtarief.
 
-    Met de modeltoewijzing in deze configuratie wordt het basisgegevensmodel geïmplementeerd voor elke ER-indeling die voor dit model is gemaakt en in Finance and Operations wordt uitgevoerd. Dat betekent dat de inhoud van de gegevensbronnen **Btw** en **GR** worden weergegeven voor ER-indelingen zoals abstracte gegevensbronnen.
+    Met de modeltoewijzing in deze configuratie wordt het basisgegevensmodel geïmplementeerd voor elke ER-indeling die voor dit model is gemaakt en in apps voor financiën en bedrijfsactiviteiten wordt uitgevoerd. Dat betekent dat de inhoud van de gegevensbronnen **Btw** en **GR** worden weergegeven voor ER-indelingen zoals abstracte gegevensbronnen.
 
     ![De pagina Ontwerper modeltoewijzingen met Btw- en GR-gegevensbronnen.](media/er-calculated-field-type-01.png)
 
@@ -343,3 +343,4 @@ U kunt gecontroleerde configuraties vanuit RCS importeren door de ER-opslagplaat
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

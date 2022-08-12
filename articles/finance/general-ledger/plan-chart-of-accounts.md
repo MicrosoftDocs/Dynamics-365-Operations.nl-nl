@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e797117199ff57cb4d3beae187ae7649579d33b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 10906d7b30628dfe69907cfa69ae1022fde33243
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853343"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070629"
 ---
 # <a name="plan-your-chart-of-accounts"></a>Uw rekeningschema plannen
 
@@ -43,7 +43,7 @@ Hierna vindt u een aantal factoren waarmee u rekening dient te houden wanneer u 
 U maakt het rekeningschema op de pagina **Rekeningschema**. U kunt hoofdrekeningen maken op de pagina **Rekeningschema** of de pagina **Hoofdrekeningen**. Voor uw hoofdrekeningen mogen geen speciale tekens worden gebruikt die als scheidingstekens voor het rekeningschema worden gebruikt. Anders wordt het systeem instabiel of moet u altijd wellicht zoekopdrachten of het dialoogvenster gebruiken wanneer u combinaties van rekeningen en dimensies opgeeft. Zie [Een hoofdrekening maken](tasks/create-main-account.md) voor meer informatie.
 
 > [!NOTE]
-> In Dynamics 365 for Finance and Operations versie 8.0 (april 2018) kunt u het scheidingsteken uit het rekeningschema van de pagina **Grootboekparameters** wijzigen.
+> In Dynamics 365 Finance versie 8.0 (april 2018) kunt u het scheidingsteken uit het rekeningschema van de pagina **Grootboekparameters** wijzigen.
 
 Het is daarom raadzaam de hoofdrekeningen te koppelen aan hoofdrekeningcategorieën, zodat u kunt profiteren van de financiële standaardrapporten zonder dat u wijzigingen hoeft aan te brengen. Zo kunt u rapporten sneller en eenvoudig ontwerpen en onderhouden.
 
@@ -60,3 +60,4 @@ Zie de volgende onderwerpen voor meer informatie:
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

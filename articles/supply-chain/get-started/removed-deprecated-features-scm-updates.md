@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 949fa0df58bc3338c8bc84ecbd4f2ad17117dd12
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7c7dd90fea79ae83d238ed51b9ec1fc42e9e36b2
+ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865261"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "9171510"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management
 
@@ -31,7 +31,7 @@ Dit artikel wordt bijgewerkt zodra er nieuwe verwijderde of verouderde functies 
 Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning rekening te houden met deze verwijderingen en afschaffingen.
 
 > [!NOTE]
-> Gedetailleerde informatie over objecten in apps voor financiële en bedrijfsactiviteiten is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van apps voor financiële en bedrijfsactiviteiten.
+> Gedetailleerde informatie over objecten in apps voor financiën en bedrijfsactiviteiten is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van apps voor financiën en bedrijfsactiviteiten.
 
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Verwijderde of verouderde functies in versie 10.0.19 van Supply Chain Management
@@ -48,11 +48,11 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Verwijderde of verouderde functies in versie 10.0.18 van Supply Chain Management
 
-### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations - Magazijnbeheer (de magazijn-app)
+### <a name="supply-chain-management--warehousing-the-warehouse-app"></a><a name="wma"></a>Supply Chain Management - Magazijnbeheer (de magazijnapp)
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Met ingang van april 2021 wordt *Dynamics 365 for Finance and Operations - Warehousing* (de magazijn-app) afgeschaft en wordt na april 2022 niet meer ondersteund. Het is nu vervangen door de *mobiele app Magazijnbeheer*, die werd uitgebracht met versie 10.0.17 van Supply Chain Management. De nieuwe app is een complete vervanging, maar maakt gebruik van hetzelfde onderliggende framework, waardoor migratie eenvoudig is. Indien nodig kunnen de twee apps naast elkaar worden gebruikt om gebruikers te helpen zich geleidelijk aan te passen terwijl ze de nieuwe app leren gebruiken.<br><br>Zie [Mobiele toepassing Magazijnbeheer](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) en [De mobiele app Magazijnbeheer installeren en verbinden](../warehousing/install-configure-warehouse-management-app.md) voor meer informatie over de mobiele app Magazijnbeheer. |
+| **Reden voor afschaffing/verwijdering** | Met ingang van april 2021 wordt *Supply Chain Management - Magazijnbeheer* (de magazijnapp) afgeschaft en wordt na april 2022 niet meer ondersteund. Het is nu vervangen door de *mobiele app Magazijnbeheer*, die werd uitgebracht met versie 10.0.17 van Supply Chain Management. De nieuwe app is een complete vervanging, maar maakt gebruik van hetzelfde onderliggende framework, waardoor migratie eenvoudig is. Indien nodig kunnen de twee apps naast elkaar worden gebruikt om gebruikers te helpen zich geleidelijk aan te passen terwijl ze de nieuwe app leren gebruiken.<br><br>Zie [Mobiele toepassing Magazijnbeheer](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) en [De mobiele app Magazijnbeheer installeren en verbinden](../warehousing/install-configure-warehouse-management-app.md) voor meer informatie over de mobiele app Magazijnbeheer. |
 | **Vervangen door een andere functie?**   | Ja, vervangen door de nieuwe mobiele app Magazijnbeheer. |
 | **Betrokken productgebieden**         | Supply Chain Management - magazijn-app |
 | **Implementatieoptie**              | Cloud en on-premises |
@@ -98,3 +98,4 @@ Zie [Verwijderde of afgeschafte functies in eerdere versies](../../fin-ops-core/
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

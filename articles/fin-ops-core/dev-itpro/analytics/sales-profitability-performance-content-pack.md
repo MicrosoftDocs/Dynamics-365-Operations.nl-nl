@@ -1,26 +1,27 @@
 ---
 title: Power BI-inhoud Verkoop- en winstgevendheidsprestaties
 description: In dit artikel wordt beschreven wat is opgenomen in de Power BI-inhoud Verkoop- en winstgevendheidsprestaties.
-author: ShylaThompson
+author: Henrikan
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: SalesProfitabilityPerformancePowerBI
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom: 260674
-ms.assetid: ab457f02-929e-4d34-b813-335be3092287
+ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kfend
+ms.author: henrikan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8433250efad467e92aeaa851f0b60c3c1eced99c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "260674"
+ms.assetid: ab457f02-929e-4d34-b813-335be3092287
+ms.search.form: SalesProfitabilityPerformancePowerBI
+ms.openlocfilehash: 2a3e0a46656f54a423a3bdfb05b87e3b7ad68efd
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898677"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205596"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Power BI-inhoud Verkoop- en winstgevendheidsprestaties
 
@@ -57,7 +58,7 @@ De Power BI-inhoud **Verkoop- en winstgevendheidsprestaties** bevat een rapport 
 |                        | Totale opbrengst op klantgroep            | Opbrengststijging jaar-op-jaar                                      |
 |                        | Gemiddelde omzet van klanten, op klantgroep | Brutomarge                                            |
 |                        | Opbrengst & brutowinst op klantengroep   |                                                         |
-| Opbrengst op product     | Opbrengst & brutowinst op verkoopcategorie   | Totaal aantal producten                                    |
+| Opbrengst op product     | Opbrengst & brutowinst op verkoopcategorie   | Totaal \# producten                                    |
 |                        | Top 10-producten op opbrengst                 | Totaal aantal actieve producten en percentage van totaal |
 |                        | Totale opbrengst op verkoopcategorie            | Aantal producten dat 80% van opbrengst oplevert           |
 | Opbrengste op periode\*    | Opbrengst per maand                           | Opbrengststijging jaar-op-jaar                                      |

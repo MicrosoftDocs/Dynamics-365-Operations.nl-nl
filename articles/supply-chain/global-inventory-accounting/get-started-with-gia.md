@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: cbe6bff6fab96900b8bd4e112a8858363fff86d1
-ms.sourcegitcommit: 9870b773a2ea8f5675651199fdbc63ca7a1b4453
+ms.openlocfilehash: 463a66002ec7a6536c9ff829f9ea2c3734138eae
+ms.sourcegitcommit: 6221a25f81aa83ab335de7cb6b6c3014dbec0116
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9013550"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177143"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Aan de slag met Algemene voorraadboekhouding (Global Inventory Accounting)
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
 
 Met Algemene voorraadboekhouding kunt u meerdere voorraadboekingen uitvoeren in de grootboeken voor Algemene voorraadboekhouding die u hebt ingesteld. U moet elk grootboek voor Algemene voorraadboekhouding aan een *conventie* koppelen. Een conventie is een verzameling van de volgende typen boekhoudbeleidsregels:
 
@@ -69,28 +67,34 @@ Voordat u de functionaliteit van de invoegtoepassing kunt inschakelen, moet u de
 
 Zie [Inschakelen na de implementatie van de omgeving](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy) voor meer informatie.
 
-## <a name="install-the-add-in"></a><a name="install"></a>De invoegtoepassing installeren
+## <a name="install-or-update-the-add-in-and-solution"></a><a name="install"></a>De invoegtoepassing en oplossing installeren of bijwerken
 
-Voer deze stappen uit om de invoegtoepassing te installeren zodat u Algemene voorraadboekhouding kunt gebruiken.
+Gebruik de volgende procedure om de invoegtoepassing en oplossing Algemene voorraadboekhouding te installeren of bij te werken. Het gedeelte van de procedure dat u moet volgen, is afhankelijk van de vraag of u de installatie voor het eerst uitvoert of dat u de oplossing voor een bestaande installatie alleen moet bijwerken.
+
+- Als u de invoegtoepassing nooit eerder hebt geïnstalleerd, volgt u de volledige procedure voor het installeren van zowel de invoegtoepassing als de oplossing.
+- Als u Algemene voorraadboekhouding al gebruikt maar de oplossing in het [Power Platform-beheercentrum](https://admin.powerplatform.microsoft.com) moet bijwerken, hoeft u alleen stap 6 uit te voeren en alle andere stappen over te slaan.
+
+De invoegtoepassing en oplossing installeren of bijwerken:
 
 1. Meld u aan bij [LCS](https://lcs.dynamics.com/Logon/Index).
 1. Open de LCS-omgeving waar u de service wilt toevoegen.
 1. Ga naar **Volledige details**.
 1. Ga naar **Power Platform-integratie** en selecteer **Instelling**.
 1. Schakel het selectievakje **Power Platformomgeving instellen** in het dialoogvenster in en selecteer **Instellingen**. Het instellen duurt doorgaans tussen de 60 en 90 minuten.
-1. Nadat de instelling van de Microsoft Power Platform-omgeving is voltooid, meldt u zich aan bij het [Power Platform-beheercentrum](https://admin.powerplatform.microsoft.com) en installeert u de invoegtoepassing Algemene voorraadboekhouding door de volgende stappen uit te voeren:
-   1. Selecteer de omgeving waar u de invoegtoepassing wilt installeren.
+1. Nadat de instelling van de Microsoft Power Platform-omgeving is voltooid, meldt u zich aan bij het [Power Platform-beheercentrum](https://admin.powerplatform.microsoft.com) en installeert u de oplossing Algemene voorraadboekhouding of werkt u deze bij door de volgende stappen uit te voeren:
+   1. Selecteer de omgeving waar u de oplossing wilt installeren of bijwerken.
    1. Selecteer **Dynamics 365-apps**.
    1. Selecteer **App installeren**.
    1. Selecteer **Algemene voorraadboekhouding Dynamics 365**.
    1. Selecteer **Volgende** om te installeren.
-1. Ga terug naar de LCS-omgeving. Selecteer op het sneltabblad **Invoegtoepassingen voor omgeving** de optie **Een nieuwe invoegtoepassing installeren**.
+1. Ga terug naar de LCS-omgeving nadat de oplossing volledig is geïnstalleerd. Selecteer op het sneltabblad **Invoegtoepassingen voor omgeving** de optie **Een nieuwe invoegtoepassing installeren**.
 1. Selecteer **Global Inventory Accounting** (Algemene voorraadboekhouding).
 1. Volg de installatiehandleiding en ga akkoord met de voorwaarden en bepalingen.
 1. Selecteer **Installeren**.
 1. Op het sneltabblad **Invoegtoepassingen voor omgeving** ziet u dat Algemene voorraadboekhouding wordt geïnstalleerd. Na enkele minuten verandert de status van *Bezig met installeren* in *Geïnstalleerd*. (Mogelijk moet u de pagina vernieuwen om deze wijziging te zien.) Op dat moment is Algemene voorraadboekhouding klaar voor gebruik.
 
 Als de standaardtaal van uw Dataverse-installatie niet Engels is, volgt u deze stappen:
+
 1. Ga naar **Geavanceerde instelling \> Beheer \> Talen**.
 1. Selecteer *Engels* (*LanguageCode=1033*) en selecteer vervolgens **Toepassen**.
 

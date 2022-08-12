@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 94e465616338b0c905ccf6b8244324c18c7a59e8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f8864ac22153908492b5e7c30a03617e6dc9d05a
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849440"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9166870"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.24 (februari 2022)
 
@@ -46,7 +46,7 @@ Als u een van deze functies wilt in- of uitschakelen, moet u dat doen in [Functi
 | Module | Functienaam in Functiebeheer | Meer informatie |
 |---|---|---|
 | Productiebeheer | Controle voor beschikbaarheid van materiaal op aanvraag voor productieorders | Met deze functie opent u sneller de pagina **Vrij te geven productieorders**, die beschikbaar is vanuit de werkruimte **Productiebeheer**. Zonder deze functie controleert het systeem automatisch of materialen beschikbaar zijn voor alle vermelde productieorders zodra u de pagina opent, wat veel tijd kan kosten als u een groot aantal orders hebt. Wanneer deze functie is ingeschakeld, biedt het systeem in plaats daarvan een werkbalkknop die u kunt gebruiken om de materiaalcontrole alleen te starten voor geselecteerde orders en wanneer dat nodig is. |
-| Productiebeheer | (Preview) Materiaalverbruik registreren op de uitvoeringsinterface van de werkvloer (niet-WMS) | Met deze functie kunnen werknemers de uitvoeringsinterface voor de werkvloer gebruiken om materiaalverbruik, batchnummers en serienummers te registreren. Deze functie ondersteunt alleen artikelen die niet zijn ingeschakeld om geavanceerde magazijnprocessen (WMS) te gebruiken. Ondersteuning voor WMS-artikelen is gepland voor een toekomstige versie.<p>Sommige fabrikanten, met name fabrikanten binnen de procesindustrieën, moeten de hoeveelheid verbruikt materiaal voor elke batch of productieorder expliciet registreren. Werknemers kunnen bijvoorbeeld een schaal gebruiken om te wegen hoeveel materiaal tijdens het werk wordt verbruikt. Voor volledige materiaaltraceerbaarheid moeten deze organisaties ook registreren welke batchnummers zijn verbruikt bij de productie van elk product. |
+| Productiebeheer | Materiaalverbruik registreren in de uitvoeringsinterface van de werkvloer (niet-WMS) | Met deze functie kunnen werknemers de uitvoeringsinterface voor de werkvloer gebruiken om materiaalverbruik, batchnummers en serienummers te registreren. Deze functie ondersteunt alleen artikelen die niet zijn ingeschakeld om magazijnbeheerprocessen (WMS) te gebruiken. Ondersteuning voor WMS-artikelen is gepland voor een toekomstige versie.<p>Sommige fabrikanten, met name fabrikanten binnen de procesindustrieën, moeten de hoeveelheid verbruikt materiaal voor elke batch of productieorder expliciet registreren. Werknemers kunnen bijvoorbeeld een schaal gebruiken om te wegen hoeveel materiaal tijdens het werk wordt verbruikt. Voor volledige materiaaltraceerbaarheid moeten deze organisaties ook registreren welke batchnummers zijn verbruikt bij de productie van elk product. |
 | Productiebeheer | Gereedmelden voor workloads voor magazijnbeheer voor de cloud- en randschaaleenheid | Met deze functie kunnen werknemers de mobiele app Warehouse Management gebruiken om een productie- of batchorder gereed te melden wanneer de app wordt uitgevoerd voor een workload voor magazijnbeheer in een cloud- of randschaaleenheid. Zie [Gereedmelden en wegzetten in een schaaleenheid](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF) voor meer informatie. |
 | Magazijnbeheer | Nieuwe workbenchpagina's voor ladingplanning | Hiermee worden twee nieuwe workbenchpagina's voor ladingplanning gemaakt: **Workbench voor binnenkomende ladingplanning** en **Workbench voor uitgaande ladingplanning**. |
 
@@ -68,9 +68,9 @@ De volgende Help-artikelen zijn onlangs toegevoegd of ingrijpend bijgewerkt. Dez
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformupdates voor apps voor financiële en bedrijfsactiviteiten
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformupdates voor apps voor financiën en bedrijfsactiviteiten
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.24 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.24 van apps voor financiële en bedrijfsactiviteiten (februari 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.24 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.24 van apps voor financiën en bedrijfsactiviteiten (februari 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
 
 ### <a name="bug-fixes"></a>Correcties
 
@@ -94,3 +94,4 @@ Twaalf maanden voordat een functie uit het product wordt verwijderd, wordt de af
 Voor ingrijpende wijzigingen die alleen van invloed zijn op de compilatietijd, maar binair compatibel zijn met sandbox- en productieomgevingen, is de afschaffingstijd korter dan 12 maanden. Meestal zijn dit functionele updates die moeten worden doorgevoerd in de compiler.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

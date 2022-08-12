@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 304cf3f6c913586e08e0a3771ebfe40bc5d2b102
-ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
+ms.openlocfilehash: 21d7d045c812c54d6776394ad9a0b025b55df8e1
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8464904"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109107"
 ---
 # <a name="financial-analysis"></a>Financiële analyse
 
@@ -40,7 +40,7 @@ De werkruimte **Financiële analyse** is gericht op het bekijken en filteren van
 
 - [Power BI-visualisaties op uw dashboard toevoegen of bewerken](/powerapps/user/add-powerbi-dashboards)
 
-## <a name="dynamics-365-finance-setup"></a>Dynamics 365 Finance-setup
+## <a name="dynamics-365-finance-setup"></a>Dynamics 365 Finance instellen
 **Grootboek**
 
 Het hoofdrekeningtype en de hoofdrekeningcategorieën worden gebruikt om de juiste standaardhoofdrekeningen in te vullen op het financieel overzicht **Balans** en de verschillende **winst- en verliesrekeningen** in **Financiële analyse**.
@@ -78,7 +78,7 @@ De gegevens in ingesloten Power BI-rapporten kunnen momenteel niet worden beperk
 | Functie                                    | Rollen | Beschrijving |
 |-----------------------------------------|-------|------------|
 | Financiële analyse voor huidig bedrijf weergeven | <ul><li>Accountant</li><li>Accountingmanager</li><li>Accounting supervisor</li><li>Accountant</li><li>Budgetbeheerder</li><li>President-directeur</li><li>Hoofdmedewerker financiën</li><li>Financieel controller</li></ul> | Deze functie geeft toegang tot Financiële analyse. Standaard wordt het actieve bedrijf gebruikt als filter. U kunt geen andere rechtspersonen toevoegen. |
-| Financiële analyse voor hele bedrijf weergeven   | In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 is deze functie niet toegewezen aan een rol. In de volgende versie wordt deze functie toegewezen aan de rol van CFO. | Deze functie biedt toegang tot de menuoptie voor de werkruimte CFO-overzicht. Standaard wordt het actieve bedrijf gebruikt als filter. U kunt echter alle rechtspersonen toevoegen, ongeacht of de gebruiker toegang tot de andere rechtspersonen heeft. |
+| Financiële analyse voor hele bedrijf weergeven   | In Microsoft Dynamics 365 Finance, Enterprise edition 7.3 is deze functie niet toegewezen aan een rol. In de volgende versie wordt deze functie toegewezen aan de rol van CFO. | Deze functie biedt toegang tot de menuoptie voor de werkruimte CFO-overzicht. Standaard wordt het actieve bedrijf gebruikt als filter. U kunt echter alle rechtspersonen toevoegen, ongeacht of de gebruiker toegang tot de andere rechtspersonen heeft. |
 
 
 ## <a name="financial-reporting-vs-financial-analysis"></a>Financiële rapportage versus Financiële analyse
@@ -96,7 +96,7 @@ Op basis van het volgende vergelijkingsdiagram kunt u onderscheid maken tussen d
 | **Ondersteuning van rapporthiërarchie/organisatiehiërarchie**   | Ja                                                               | Nee |
 | **Rapport van gegevens in subadministratie**                             | Ja Beperkt tot alleen leverancier, klant                              | Ja Leverancier, klant, leverancier-/klantgroepen, leverancier-/klantadressen, enz. |
 | **Aangiftevaluta**                                   | Ja Valuta voor boekhouding en omzetten naar aangiftevaluta       | Nee Alleen valuta voor boekhouding |
-| **Beveiliging**                                             | Ja Voldoet aan Finance-beveiliging van rapportstructuur | Beperkt Rapporten weergeven voor alle bedrijven (ongeacht de beveiliging van Finance and Operations) of alleen actief bedrijf |
+| **Beveiliging**                                             | Ja Voldoet aan Finance-beveiliging van rapportstructuur | Rapporten met beperkte weergave voor alle bedrijven (ongeacht de beveiliging van apps voor financiën en bedrijfsactiviteiten) of alleen actief bedrijf |
 | **Ondersteuning voor verschillende rekeningschema's en fiscale jaren** | Ja                                                               | Nee |
 | **Rapport van externe gegevens**                              | Nee                                                                | Nee |
 | **Consolidaties ondersteunen**                               | Ja                                                               | Beperkt Kan rapporteren over meerdere bedrijven, maar alleen valuta voor boekhouding gebruiken |
@@ -189,7 +189,7 @@ Power BI heeft ook een knop waarmee u naar het volgende niveau in de hiërarchie
 
 ![Knop Inzoomen voor proefbalans.](./media/trial-balance5.png)
 
-Als u de transactiedetails achter de samengevatte saldi wilt zien, kunt u enkele bedragen selecteren om terug te zoomen naar Finance and Operations.
+Als u de transactiedetails achter de samengevatte saldi wilt zien, kunt u enkele bedragen selecteren om terug te zoomen naar apps voor financiën en bedrijfsactiviteiten.
 
 Door terug te zoomen vanuit de financiële overzichten gaat u naar de Bronverkenner voor boekhouding (ASE), niet naar de boekstuktransacties. De ASE toont niet alleen de boekhoudingsposten in het grootboek. In plaats daarvan worden de details van de subjournaaltransactie getoond. Daarom krijgt u veel meer informatie over de brontransactie en kunt u deze gebruiken voor analyse. U kunt bijvoorbeeld zien wie de leverancier of klant was, wat de klant heeft gekocht of de leverancier heeft verkocht, en zelfs welk project zich in de transactie bevond.
 
@@ -244,3 +244,4 @@ De informatie in de volgende bronnen is niet vereist is om de ingesloten rapport
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

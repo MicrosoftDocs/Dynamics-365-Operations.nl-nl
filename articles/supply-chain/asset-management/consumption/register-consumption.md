@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 588da2a217a56d2bc25f85c9a10c6589f90b16a1
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 729ef6aae228ad1e528945031567b92c44cdf256
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9015080"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111749"
 ---
 # <a name="register-consumption"></a>Verbruik registreren
 
@@ -90,7 +90,7 @@ Wanneer u verbruiksregistraties uitvoert, worden financiële dimensies met betre
 - *Uurregistraties:* eerst worden financiële dimensies uit de journaalkoptekst toegevoegd, indien van toepassing. Vervolgens worden financiële dimensies uit het gerelateerde werkorderproject toegevoegd. Vervolgens worden financiële dimensies van de site toegevoegd. Tot slot worden financiële dimensies van het artikel toegevoegd.
 
 >[!NOTE]
->Voor alle drie de registratietypen wordt de combinatie van financiële dimensies gevalideerd en ongeldige combinaties worden blanco gemaakt. Dit zijn standaardinstellingen in Finance and Operations-apps.
+>Voor alle drie de registratietypen wordt de combinatie van financiële dimensies gevalideerd en ongeldige combinaties worden blanco gemaakt. Dit zijn standaardinstellingen in apps voor financiën en bedrijfsactiviteiten.
 
 
 

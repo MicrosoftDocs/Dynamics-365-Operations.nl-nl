@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d973d1cdb530a031ca8a5caf621f9bebced4842
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 25484efd7be026bfc3a209fb52822b87d6b76cc2
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873487"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065489"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Een locatie-instructie instellen voor wegzetten van inkooporders
 
 [!include [banner](../../includes/banner.md)]
 
-In dit artikel wordt beschreven hoe u een eenvoudige locatie-instructie instelt. Het voorbeeld dat wordt gegeven, maakt een locatierichtlijn die moet worden gebruikt om te bepalen waar artikelen worden weggezet die zijn ontvangen voor een inkooporder. U kunt deze taakbegeleider afspelen met de gegevens van het demobedrijf USMF. Precondities: u moet een beschikkingscode maken. In deze procedure gebruiken we een beschikkingscode met de naam Opnieuw labelen. Als u een locatierichtlijn in uw eigen gegevens maakt, moet u geavanceerd magazijnbeheer voor uw magazijn en artikelen hebben ingesteld. Deze procedure is bedoeld voor de magazijnbeheerder.
+In dit artikel wordt beschreven hoe u een eenvoudige locatie-instructie instelt. Het voorbeeld dat wordt gegeven, maakt een locatierichtlijn die moet worden gebruikt om te bepalen waar artikelen worden weggezet die zijn ontvangen voor een inkooporder. U kunt deze taakbegeleider afspelen met de gegevens van het demobedrijf USMF. Precondities: u moet een beschikkingscode maken. In deze procedure gebruiken we een beschikkingscode met de naam Opnieuw labelen. Als u een locatierichtlijn in uw eigen gegevens maakt, moet u magazijnbeheerprocessen (WMS) voor uw magazijn en artikelen hebben ingesteld. Deze procedure is bedoeld voor de magazijnbeheerder.
 
 1. Ga in het navigatievenster naar **Modules > Magazijnbeheer > Instellingen > Locatie-instructie**.
 2. Selecteer **Inkooporders** in het veld **Werkordertype**.

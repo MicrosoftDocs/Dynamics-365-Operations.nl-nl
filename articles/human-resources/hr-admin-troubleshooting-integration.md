@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f150c87b6d4e6575bc61a8f36bdf344ebba9c571
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f57e995dfcc04de8384d15f238c45290b3c3cbd
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879274"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067611"
 ---
 # <a name="integration-with-finance-faq"></a>Veelgestelde vragen over integratie met Finance
 
@@ -118,7 +118,7 @@ Redenen voor deze fout kunnen zijn:
 
 - De gegevensoverdracht heeft geresulteerd in het extraheren van dubbele records bij de bron (Dataverse).
 
-- De gegevensoverdracht heeft null-waarden voor velden die vereist zijn in Finance and Operations. Controleer of de gegevens zich in Dataverse bevinden en voldoen aan de vereisten van Finance and Operations.
+- De gegevensoverdracht heeft null-waarden voor velden die vereist zijn in apps voor financiën en bedrijfsactiviteiten. Controleer of de gegevens zich in Dataverse bevinden en voldoen aan de vereisten van Finance and Operations.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Als er uitvoeringsfouten zijn en de werknemer-ID niet is gesynchroniseerd, hoe vind ik de historietaak met de mislukte werknemerrecord dan?
 
@@ -150,7 +150,7 @@ Als de entiteit wordt ondersteund en de gegevens beschikbaar zijn in Dataverse, 
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>De adressen van mijn werknemers zijn onjuist nadat ik deze in Finance heb geïmporteerd. Wat moet ik doen?
 
-De nummerreeks voor **Locatie-id** gebruikt hetzelfde patroon in zowel Human Resources als Finance. De nummerreeks moet voor beide uniek zijn zodat er geen adresconflicten ontstaan bij het integreren van gegevens van Dataverse met Finance and Operations.
+De nummerreeks voor **Locatie-id** gebruikt hetzelfde patroon in zowel Human Resources als Finance. De nummerreeks moet voor beide uniek zijn zodat er geen adresconflicten ontstaan bij het integreren van gegevens van Dataverse naar apps voor financiën en bedrijfsactiviteiten.
 
 Controleer tijdens de implementatie van Human Resources of de nummerreeksen niet hetzelfde zijn in Human Resources en Finance. Controleer of alle nummerreeksen niet identiek zijn in gevallen waar gegevens in beide systemen kunnen worden beheerd.
 
@@ -184,3 +184,4 @@ Vernieuw de gegevensentiteiten in Finance door naar **Gegevensbeheer \> Raamwerk
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

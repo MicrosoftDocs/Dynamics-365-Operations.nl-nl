@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 16d861294a80ddb44c78760b329e544bc4665130
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 6069d28d84ab1705fd62a33cea7e0b923f0e0705
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716966"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065703"
 ---
 # <a name="establish-customer-payment-terms"></a>Voorwaarden voor klantbetalingen vaststellen
 
@@ -35,11 +35,11 @@ Deze procedure definieert een contantkorting en een instelling voor vervaldatum.
 7. Klik op **Opslaan**.
 8. Sluit de pagina.
 9. Ga naar het **Navigatiedeelvenster > Modules > Klanten > Betalingsinstelling > Betalingstermijnen**.
-10. Klik op **Nieuw**. Betalingstermijnen wordt gebruikt om te bepalen hoe de vervaldatums worden berekend. De instelling van de datum voor contantkorting wordt op een aparte pagina gedefinieerd. 
+10. Klik op **Nieuw**. **Betalingstermijnen** wordt gebruikt om te bepalen hoe de vervaldatums worden berekend. De instelling van de datum voor contantkorting wordt op een aparte pagina gedefinieerd. 
 11. Typ een id in het veld **Betalingstermijnen**.
 12. Voer in het veld **Beschrijving** een beschrijving in.
-13. Selecteer een **Betalingsmethode**, zoals Rembours, Netto, Huidige maand, enzovoort. De betalingsmethode wordt gebruikt voor de definitie van het begin van de manier waarop het verschuldigde bedrag wordt berekend. Zo wordt bijvoorbeeld Netto gebruikt als de vervaldatum altijd een vast aantal maanden of dagen na de factuurdatum ligt. Rembours kan worden gebruikt als betaling per factuur is vereist, dus geen vervaldatum wordt berekend. Selecteer 'Huidige maand' voor deze taakbegeleiding.  
-14. Selecteer een **Betalingsdag** als een bepaalde dag van de week of datum is opgenomen in de berekening. Afhankelijk van uw betalingstermijn kunt u een hoeveelheid invoeren in Maanden of Dagen. U kunt ook het **Betalingsschema** of de **Betalingsdag** gebruiken om bij het einde van de betalingsmethode 'op te tellen'. Als de vervaldatum altijd op de tiende van de volgende maand valt, selecteert u de tiende als **Betalingsdag**. 
+13. Selecteer een **Betalingsmethode**, zoals **Rembours**, **Netto**, **Huidige** maand, enzovoort. De **betalingsmethode** wordt gebruikt voor de definitie van het begin van de manier waarop het verschuldigde bedrag wordt berekend. Zo wordt bijvoorbeeld **Netto** gebruikt als de vervaldatum altijd een vast aantal maanden of dagen na de factuurdatum ligt. **Rembours** kan worden gebruikt als betaling per factuur is vereist, dus als er geen vervaldatum wordt berekend. Selecteer **Huidige maand** voor deze taakbegeleider.  
+14. Selecteer een **Betalingsdag** als een bepaalde dag van de week of datum is opgenomen in de berekening. Afhankelijk van uw betalingstermijn kunt u een hoeveelheid invoeren in Maanden of Dagen. U kunt ook het **Betalingsschema** of de **Betalingsdag** gebruiken om bij het einde van de **betalingsmethode** 'op te tellen'. Als de vervaldatum altijd op de tiende van de volgende maand valt, selecteert u de tiende als **Betalingsdag**. Als u een **betalingskalender** gebruikt, kunt u definiëren hoe de vervaldatum wordt bepaald wanneer de berekende datum op een niet-werkdag valt. De eerste vervaldatum wordt berekend op basis van kalenderdagen. Als de berekende datum op een niet-werkdag valt, kunt u de berekende vervaldatum aanpassen aan de volgende werkdag of een eerdere werkdag.
 15. Klik op **Opslaan**.
 16. Sluit de pagina.
 17. Ga naar **Klanten > Betalingsinstelling > Contantkortingen**.
@@ -50,7 +50,7 @@ Deze procedure definieert een contantkorting en een instelling voor vervaldatum.
 22. Voer in het veld **Dagen** het aantal dagen in dat wordt gebruikt om de datum voor contantkortingen te berekenen. Als de methode **Netto** is geselecteerd, wordt het aantal dagen opgeteld bij de factuurdatum om de datum voor de contantkorting te bepalen.  
 23. Voer in het veld **Kortingspercentage** het percentage van de contantkorting in.
 24. Voer in de **Hoofdrekening voor klantkortingen** de hoofdrekening in waarop de contantkorting wordt geboekt voor klantfacturen.
-25. Selecteer een optie in het veld **Kortingstegenrekeningen**. Als u Rekeningen op de factuurregels selecteert, wordt de contantkorting geboekt naar dezelfde activa-/hoofdrekening als in de regels van de leveranciersfactuur staat vermeld. Als u Hoofdrekening voor leveranciersfacturen gebruiken selecteert, wordt de contantkorting geboekt naar de hoofdrekening die u definieert in Hoofdrekening voor leveranciersfacturen. Voor dit voorbeeld selecteert u 'Hoofdrekening voor leveranciersfacturen gebruiken'. 
+25. Selecteer een optie in het veld **Kortingstegenrekeningen**. Als u Rekeningen op de factuurregels selecteert, wordt de contantkorting geboekt naar dezelfde activa-/hoofdrekening als in de regels van de leveranciersfactuur staat vermeld. Als u **Hoofdrekening voor leveranciersfacturen gebruiken** selecteert, wordt de contantkorting geboekt naar de hoofdrekening die u definieert in **Hoofdrekening voor leveranciersfacturen**. Voor dit voorbeeld selecteert u **Hoofdrekening voor leveranciersfacturen gebruiken**. 
 26. Voer in het veld **Hoofdrekening voor leverancierskortingen** de hoofdrekening in waarop de contantkorting wordt geboekt voor leveranciersfacturen.
 27. Klik op **Opslaan**.
 

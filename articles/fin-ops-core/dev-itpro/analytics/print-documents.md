@@ -7,21 +7,21 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: IT Pro, Application User
-ms.reviewer: kfend
-ms.custom:
-- "69161"
-- intro-internal
-ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b9105ef39e411ac33043f1941d4e1dd32b758e5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.custom:
+- "69161"
+- intro-internal
+ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
+ms.openlocfilehash: d8d40f7cb94e17370f04b0c97365600f68eb5090
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984903"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206720"
 ---
 # <a name="document-printing-overview"></a>Overzicht van Documenten afdrukken
 
@@ -54,7 +54,7 @@ Omdat de oplossing afhankelijk van het scenario verschilt, bevatten toepassingen
 - **Scenario 2** maakt gebruik van clienttoepassingen en services van Microsoft 365.
 - **Scenario 3** vereist ondersteuning van clienttoepassingen en services die worden gehost in Microsoft Azure.
 
-Naast het platform dat in het Azure-abonnement is geïmplementeerd, bevatten Finance and Operations-toepassingen een geïntegreerde, directe Azure-toepassing waarmee ze makkelijker in het domein gehoste apparaten kunnen gebruiken om documenten af te drukken.
+Naast het platform dat in het Azure-abonnement is geïmplementeerd, bieden toepassingen voor financiën en bedrijfsactiviteiten aan klanten een geïntegreerde, first-party Azure-toepassing waarmee ze gemakkelijker in het domein gehoste apparaten kunnen gebruiken om documenten af te drukken.
 
 ## <a name="service-overview"></a>Serviceoverzicht
 Documenten die worden geproduceerd door de gehoste toepassingen en die wachten om te worden afgedrukt op een netwerkapparaat, worden opgeslagen in de Azure-blobopslag. [De documentrouteringsagent installeren om afdrukken via het netwerk in te schakelen](install-document-routing-agent.md) gebruikt Azure-verificatie om een beveiligde verbinding met de Azure-services tot stand te brengen.

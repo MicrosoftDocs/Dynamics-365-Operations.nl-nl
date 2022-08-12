@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 281ee90b7cae2d24d37d0684ad9975118560bb3e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b611abb2d68d93178d0c26ba40b22f1b8d26b191
+ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869976"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9203104"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Ondersteuning voor belastingfunctie voor transferorders
 
@@ -111,7 +111,10 @@ Volg deze stappen om de belasting voor een transferorder in te stellen. In het v
 6. Definieer de toepasbaarheid van de artikelbelastinggroep.
 
     1. Selecteer **Kolommen beheren** en selecteer vervolgens kolommen die moeten worden gebruikt om de toepasbaarheidstabel te maken.
-    2. Voeg toepasbaarheidsregels toe. Laat het veld **Artikelbelastinggroep** niet leeg.
+    2. Voeg toepasbaarheidsregels toe.
+        
+       > [!NOTE]
+       > Als de standaard btw-groep voor artikelen op de regels van uw belastbare documenten correct is, laat u deze matrix leeg. 
         
         Voeg een nieuwe regel toe voor de transferorderzending en -ontvangst.
         1. Selecteer op de pagina **Toepasbaarheidsregels** de optie **Toevoegen**.

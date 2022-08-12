@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bcc464a17e27393c5904c59b8439de6ca000d57a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 208cfc91f11d4893785538ce4874e85a5725e993
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892220"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109255"
 ---
 # <a name="microsoft-office-style-user-interface-in-business-document-management"></a>Gebruikersinterface in Microsoft Office-stijl voor beheer van bedrijfsdocumenten
 
@@ -36,7 +36,7 @@ In de voorbeelden in dit artikel is de actieve provider Contoso en u gebruikt de
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWAVQg]
 
-De video [Een nieuw bedrijfsdocument maken met Bedrijfsdocumentbeheer](https://youtu.be/gAIYl-mM_pw) (hierboven weergegeven) is opgenomen in de [Finance and Operations-afspeellijst](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) die beschikbaar is op YouTube.
+De video [Een nieuw bedrijfsdocument maken met Bedrijfsdocumentbeheer](https://youtu.be/gAIYl-mM_pw) (hierboven weergegeven) is opgenomen in de [afspeellijst voor Finance + Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) die beschikbaar is op YouTube.
 
 ## <a name="make-the-new-document-ui-in-business-document-management-available"></a>De nieuwe documentgebruikersinterface in Beheer van bedrijfsdocumenten beschikbaar maken
 
@@ -145,3 +145,4 @@ Met dit voorbeeld wordt aangegeven hoe de knop **Nieuw document** in het werkgeb
 7. Selecteer **OK** om het begin van het bewerkingsproces te bevestigen.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

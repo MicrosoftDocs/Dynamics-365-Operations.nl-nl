@@ -10,12 +10,12 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: 504939f1f98c18005c092cabc1d040b420402c93
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 28c321ee2815b2886c07bfb0996870e536458145
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874807"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111655"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Dual-write Application Orchestration-pakket is opgesplitst
 
@@ -33,7 +33,7 @@ Voorheen was het Dual-write Application Orchestration-pakket een enkel pakket da
 - HCM - Algemeen
 - Dynamics 365 Supply Chain Extended
 - Dynamics 365 Finance Extended
-- Algemeen voor Dynamics 365 Finance and Operations
+- Dynamics 365 Finance and Operations - algemeen
 - Dynamics 365 Company
 - Currency Exchange Rates
 - Field Service Common
@@ -51,14 +51,14 @@ Met het Dual-write Application Core-pakket kunnen gebruikers twee keer wegschrij
 | Unieke naam                           | Weergavenaam                               |
 |---------------------------------------|--------------------------------------------|
 | Dynamics365Company                    | Dynamics 365 Company                       |
-| Dynamics365FinanceAndOperationsCommon | Algemeen voor Dynamics 365 Finance and Operations |
+| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance and Operations - algemeen |
 | CurrencyExchangeRates                 | Currency Exchange Rates                    |
 | msdyn_DualWriteAppCoreMaps            | Entiteitstoewijzingen voor Dual-write applications core   |
 | msdyn_DualWriteAppCoreAnchor          | Basisanker voor Dual-write-toepassingen        |
 
 De volgende kaarten zijn beschikbaar in dit pakket.
 
-| Apps voor financiële en bedrijfsactiviteiten     | Customer Engagement-apps                    |
+| Apps voor financiën en bedrijfsactiviteiten     | Customer Engagement-apps                    |
 |---------------------------------|---------------------------------------------|
 | Operationele eenheid                  | msdyn_internalorganizations                 |
 | Organisatiehiërarchie          | msdyn_internalorganizationhierarchies       |
@@ -89,7 +89,7 @@ Het Dual-write Human Resources-pakket bevat de oplossingen en kaarten die nodig 
 
 De volgende kaarten zijn beschikbaar in dit pakket.
 
-| Apps voor financiële en bedrijfsactiviteiten | Customer Engagement-apps         |
+| Apps voor financiën en bedrijfsactiviteiten | Customer Engagement-apps         |
 |-----------------------------|----------------------------------|
 | Etnische afkomst              | cdm_ethnicorigins                |
 | Compensatie functiepositie   | cdm_jobfunctions                 |
@@ -119,7 +119,7 @@ Het Dual-write Supply Chain-pakket bevat de oplossingen en kaarten die nodig zij
 
 De volgende kaarten zijn beschikbaar in dit pakket.
 
-| Apps voor financiële en bedrijfsactiviteiten                 | Customer Engagement-apps                      |
+| Apps voor financiën en bedrijfsactiviteiten                 | Customer Engagement-apps                      |
 |---------------------------------------------|-----------------------------------------------|
 | Eenheden                                       | uoms                                          |
 | CDS-verkooporderkopteksten                     | salesorders                                   |
@@ -197,7 +197,7 @@ Het Dual-write Finance-pakket bevat de oplossingen en kaarten die nodig zijn om 
 
 De volgende kaarten zijn beschikbaar in dit pakket.
 
-| Apps voor financiële en bedrijfsactiviteiten             | Customer Engagement-apps        |
+| Apps voor financiën en bedrijfsactiviteiten             | Customer Engagement-apps        |
 |-----------------------------------------|---------------------------------|
 | Bronbelastinggroepen                  | msdyn_withholdingtaxgroups      |
 | CDS-contactpersonen V2 (klant)              | contacten                        |
@@ -274,7 +274,7 @@ Het Dual-write Activabeheer-pakket bevat de oplossingen en kaarten die nodig zij
 
 De volgende kaarten zijn beschikbaar in dit pakket.
 
-| Apps voor financiële en bedrijfsactiviteiten                           | Customer Engagement-apps                |
+| Apps voor financiën en bedrijfsactiviteiten                           | Customer Engagement-apps                |
 |-------------------------------------------------------|-----------------------------------------|
 | Garantie voor activabeheer                             | msdyn_warranties                        |
 | Modellen voor activabeheer                               | msdyn_models                            |
@@ -314,7 +314,7 @@ Het pakket voor twee keer wegschrijven voor partij en globaal adresboek bevat de
 
 De volgende kaarten zijn beschikbaar in dit pakket.
 
-| Apps voor financiële en bedrijfsactiviteiten | Customer Engagement-apps | 
+| Apps voor financiën en bedrijfsactiviteiten | Customer Engagement-apps | 
 |-----------------------------|--------------------------|
 | CDS-partijen | msdyn_parties | 
 | CDS-locaties van postadres | msdyn_postaladdresscollections | 
@@ -344,3 +344,4 @@ De Twee keer wegschrijven-oplossingen voor partij en globaal adresboek zijn afha
 - Dual-write Application Core-pakket
 - Dual-write Finance-pakket
 - Dual-write Supply Chain-pakket
+

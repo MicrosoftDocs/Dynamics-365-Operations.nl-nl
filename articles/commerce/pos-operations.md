@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 23805a88fab34d925241c51ae449bd81e15d5337
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.openlocfilehash: 3948fff15108568df514406ad443d4f538653e62
+ms.sourcegitcommit: 1af2b01aea6b5a4d88ee3fae6faa0eaf1976c5dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027278"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9146480"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Online en offline verkooppuntbewerkingen (POS)
 
@@ -271,7 +271,7 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 | 1218 | Ontgrendelen van randapparaat forceren                           | Deze bewerking wordt intern door het systeem gebruikt voor het ontgrendelen van POS-randapparatuur.                                                                                                                                           | Niet van toepassing | Niet van toepassing     | Niet van toepassing | Niet van toepassing    | Nr.              |
 | 1219 | URL openen in POS                                   | In POS een URL openen die is geconfigureerd door een beheerder.                                                                                                                                                                           | Ja            | Ja                | Ja            | Ja               | Nr.              |
 | 1220 | Kluis beheren                                       | De kluis voor verschillende kassa's beheren.                                                                                                                                                                       | Ja            | Ja                | Ja            | Ja               | Nr.              |
-| 1221 | Uitgestelde transacties ongeldig maken                       | Uitgestelde transacties ongeldig maken                                                                                                                                                                               | Ja            | Ja                | Ja            | Ja               | Nr.              |
+| 1221 | Uitgestelde transacties ongeldig maken                       | Uitgestelde transacties ongeldig maken                                                                                                                                                                               | Ja            | Nr.                | Nr.            | Ja               | Nr.              |
 | 1300 | Fiscale registratie overslaan                          | Fiscale registratie overslaan.                                                                                                                                                                                       | Nr.            | Nr.                | Nr.            | Ja               | Nr.             |
 | 1301 | Fiscale gebeurtenis markeren als geregistreerd                      |  Fiscale gebeurtenis markeren als geregistreerd.                                                                                                                                                                                  | Nr.            | Nr.                | Nr.            | Ja               | Nr.             |
 | 1302 | Fiscaal registratieproces voltooien              | Het fiscale registratieproces voltooien.                                                                                                                                                                           | Nr.            | Nr.                | Ja            | Ja               | Ja             |

@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8db8faefaec4afe208344492ec91375531cb9cd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 19337b2651830d79543361d525bf24c4f794e825
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906350"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065741"
 ---
 # <a name="dual-currency"></a>Dubbele valuta
 
 [!include [banner](../includes/banner.md)]
 
-Met functionaliteit die is geïntroduceerd in Microsoft Dynamics 365 for Finance and Operations versie 8.1 (oktober 2018) kan de aangiftevaluta worden ingezet als een tweede valuta voor boekhouding. Deze functionaliteit wordt soms ook wel *dubbele valuta* genoemd. De wijzigingen voor dubbele valuta kunnen niet worden uitgeschakeld via een configuratiesleutel of parameter. Aangezien de aangiftevaluta wordt gebruikt als een tweede valuta voor boekhouding, is de manier waarop de aangiftevaluta wordt berekend in de boekingslogica gewijzigd.
+Met functionaliteit die is geïntroduceerd in Microsoft Dynamics 365 Finance versie 8.1 (oktober 2018) kan de aangiftevaluta worden ingezet als een tweede valuta voor boekhouding. Deze functionaliteit wordt soms ook wel *dubbele valuta* genoemd. De wijzigingen voor dubbele valuta kunnen niet worden uitgeschakeld via een configuratiesleutel of parameter. Aangezien de aangiftevaluta wordt gebruikt als een tweede valuta voor boekhouding, is de manier waarop de aangiftevaluta wordt berekend in de boekingslogica gewijzigd.
 
 Bovendien zijn verschillende modules verbeterd om de aangiftevaluta in verschillende processen bij te houden, aan te geven en te gebruiken. De modules die worden beïnvloed zijn:
 
@@ -209,3 +209,4 @@ Bij de consolidatie van het grootboek is een nieuwe optie toegevoegd om de boekh
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

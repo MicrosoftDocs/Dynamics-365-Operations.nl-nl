@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7ef3be13e82ff3722fc81247b5cd581b0b571b0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 91078352b6376ee99e7d9ce4546ed200cb80a25a
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876119"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135838"
 ---
 # <a name="posting-profiles-overview"></a>Overzicht van boekingsprofielen
 
-In Finance and Operations-apps wordt de term *boekingsprofielen* gebruikt om de configuraties te beschrijven die bepalen hoe subadministratierekeningen worden geconverteerd naar hoofdrekeningen, zodat ze kunnen worden gebruikt in transacties die naar het grootboek worden geboekt. Deze bepalen bijvoorbeeld hoe de klant wordt geconverteerd naar een hoofdrekening in Klanten wanneer een factuur wordt geboekt.
+In apps voor financiën en bedrijfsactiviteiten wordt de term *boekingsprofielen* gebruikt om de configuraties te beschrijven die bepalen hoe subgrootboekrekeningen worden geconverteerd naar hoofdrekeningen, zodat ze kunnen worden gebruikt in transacties die naar het grootboek worden geboekt. Deze bepalen bijvoorbeeld hoe de klant wordt geconverteerd naar een hoofdrekening in Klanten wanneer een factuur wordt geboekt.
 
 Sommige modules en functies hebben een pagina met de woorden 'boekingsprofiel' in de naam (bijvoorbeeld **Klantboekingsprofiel** of **Leveranciersboekingsprofiel**). Bovendien bevatten sommige modules meerdere opties voor het configureren van boekingen in het grootboek voor transacties die worden gegenereerd uit de subadministratie. In de module **Productiecontrole** kunt u bijvoorbeeld het boeken per productiegroep, resource of resourcegroep instellen.
 
@@ -34,7 +34,7 @@ Voordat u de boekingsprofielen, boekingsdefinities of de pagina **Rekeningen voo
 
 ## <a name="posting-types"></a>Boekingstypen
 
-In Finance and Operations-apps wordt een boekingstype gebruikt om een algemene categorie voor debet of credit te definiëren. Deze categorie is onafhankelijk van de hoofdrekening in het grootboek. Er zijn boekingstypen voor elke debet- of creditpost in het grootboek.
+In apps voor financiën en bedrijfsactiviteiten wordt een boekingstype gebruikt om een algemene categorie voor debet of credit te definiëren. Deze categorie is onafhankelijk van de hoofdrekening in het grootboek. Er zijn boekingstypen voor elke debet- of creditpost in het grootboek.
 
 Eén boekstuk kan een of meer boekingstypen hebben. Een transactie die bijvoorbeeld wordt geboekt via een algemeen journaal waarin de rekening en tegenrekening zijn ingesteld op **Grootboek**, heeft het boekingstype **Grootboekjournaal** voor zowel debet als credit. Een leveranciersfactuur heeft daarentegen meerdere boekingstypen. Die boekingstypen omvatten één regel voor het leveranciersaldo en extra regels voor de tegenboeking, zoals **Grootboekjournaal**.
 
@@ -111,13 +111,14 @@ Veel modules in Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dyna
 - Onkostenbeheer boeken (binnenkort beschikbaar)
 - [Boekingsprofiel vaste activa](../fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md)
 - Boekingen voor Intercompany-boekhouding (binnenkort beschikbaar)
-- Voorraadboekingsprofiel (binnenkort beschikbaar)
+- [Voorraadboeking](inventory-posting.md)
 - [Boeken van francoprijzen](../../supply-chain/landed-cost/costing-parameters-setup.md)
 - [Overzicht van boekingsdefinities](posting-definitions.md)
-- Boeken voor Productiebeheer (binnenkort beschikbaar)
+- [Productieboeking](production-posting.md)
 - Boeken voor Projectbeheer en boekhouding (binnenkort beschikbaar)
 - Boeken voor Servicebeheer (binnenkort beschikbaar)
 - Boeken voor belasting (binnenkort beschikbaar)
 - Boeken voor Tijd en aanwezigheid (binnenkort beschikbaar)
 - Boeken voor Transportbeheer (binnenkort beschikbaar)
 - Boekingsprofielen voor kortingsbeheer (binnenkort beschikbaar)
+

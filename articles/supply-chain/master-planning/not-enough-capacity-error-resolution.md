@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 2db4c2606936222fcd1a97cf2814fbfbc41df113
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d4f54c06a07b3cdd0b8fe2cc52614189ff31ba7f
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891026"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135594"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>De planningsenginefout 'Er kan niet voldoende capaciteit worden gevonden' oplossen
 
@@ -111,5 +111,41 @@ Volg deze stappen om de beschikbare capaciteit van de resourcegroep te controler
 Wanneer de bewerkingsplanning wordt gebruikt, wordt de capaciteit gepland op basis van de kalender van de primaire resourcegroep. De secundaire bewerking wordt tegelijk met de primaire bewerking geboekt en er wordt geen rekening gehouden met de kalenders of capaciteit van de secundaire bewerking. Dit kan resulteren in de planning van de productieorder op een afgesloten kalender of op een tijdstip waarop de secundaire bewerking niet beschikbaar is (kalender afgesloten, geen capaciteit).
 
 Wanneer u taakplanning gebruikt, wordt bij het plannen van de order rekening gehouden met de capaciteit en kalender van zowel de primaire als de secundaire bewerking. Kalenders voor de resources van beide bewerkingen moeten geopend zijn en over beschikbare capaciteit beschikken om de order te kunnen plannen.
+
+## <a name="maximum-job-lead-time-is-too-short"></a>De maximale doorlooptijd van de taak is te kort
+
+De planningsengine kan een order niet plannen als de **Maximale doorlooptijd van taak** voor uw site kleiner is dan de doorlooptijd die voor een artikel is opgegeven in de standaardorderinstellingen of in de behoefteplanningsinstellingen.
+
+Als u de instelling **Maximale doorlooptijd van taak** voor uw site wilt weergeven of bewerken, gaat u naar **Productiebeheer \> Instellingen \> Parameters productiebeheer** en opent u het tabblad **Algemeen**.
+
+Voer de volgende stappen uit om de standaardorderinstellingen voor een artikel te definiëren:
+
+1. Ga naar **Productgegevensbeheer \> Producten \> Vrijgegeven producten**.
+1. Zoek en selecteer het relevante product in de lijst.
+1. Open in het actievenster het tabblad **Voorraad beheren** en selecteer **Standaardorderinstellingen**.
+1. Vouw het sneltabblad **Voorraad** uit en bekijk of bewerk de instelling **Levertijd voorraad** zo nodig.
+
+Voer de volgende stappen uit om de behoefteplanningsinstellingen voor een artikel weer te geven of te bewerken:
+
+1. Ga naar **Productgegevensbeheer \> Producten \> Vrijgegeven producten**.
+1. Zoek en selecteer het relevante product in de lijst.
+1. Open in het actievenster het tabblad **Plan** en selecteer **Artikelbehoefteplanning**.
+1. Open het tabblad **Doorlooptijd** en bekijk of bewerk de waarde **Productietijd**.
+
+## <a name="excessive-quantity-of-required-resources"></a>Te veel hoeveelheid van vereiste resources
+
+Tijdens het plannen probeert de engine de vereiste resourcehoeveelheid die is ingesteld voor een routebewerking conform de bewerkingsresourcevereisten te matchen met de toepasselijke resources. Als u de resourcehoeveelheid te hoog instelt, kan een route onhaalbaar zijn, waardoor een planningsfout wordt veroorzaakt.
+
+Gebruik de volgende procedure om zowel de opgegeven hoeveelheid als de toepasselijke resources voor een geselecteerd(e) product, route en routebewerking te controleren:
+
+1. Ga naar **Productgegevensbeheer \> Producten \> Vrijgegeven producten**.
+1. Zoek en selecteer het relevante product in het raster.
+1. Open in het actievenster het tabblad **Engineer** en selecteer **Route**.
+1. Zoek en selecteer de relevante route in het raster.
+1. Open het tabblad **Overzicht** onderaan de pagina.
+1. Selecteer een bewerking in de lijst met geselecteerde routebewerkingen.
+1. Selecteer **Toepasselijke resources** om een dialoogvenster te openen waarin u de toepasselijke resources voor de geselecteerde routebewerking kunt weergeven.
+1. Open het tabblad **Belasting resource**. Het veld **Hoeveelheid** toont hier de resourcehoeveelheid die nodig is voor de geselecteerde routebewerking. Bekijk en/of bewerk de hoeveelheid zo nodig.
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

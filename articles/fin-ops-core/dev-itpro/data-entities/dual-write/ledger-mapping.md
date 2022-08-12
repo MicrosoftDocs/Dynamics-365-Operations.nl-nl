@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: tfehr
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e83d66f3f8c8927b9baaf99838a4e242e7e011dc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e5598295a25e31b33cd8b4d7ce3250a982ab4e87
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847184"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112235"
 ---
 # <a name="integrated-ledger"></a>Geïntegreerd grootboek
 
@@ -28,7 +28,7 @@ In een bedrijfstoepassing definiëren grootboekgegevens de basisinstelling van d
 
 Grootboekgegevens omvatten een verzameling financiële basistabeltoewijzingen die samenwerken tijdens de interactie van gegevens, zoals in de volgende tabel wordt weergegeven.
 
-Apps voor financiële en bedrijfsactiviteiten | Customer Engagement-apps     | Beschrijving
+Apps voor financiën en bedrijfsactiviteiten | Customer Engagement-apps     | Beschrijving
 ---------------------------------|----------------------------------|------------
 [Wisselkoersen CDS](mapping-reference.md#123) | msdyn_currencyexchangerates |
 [Rekeningschema](mapping-reference.md#121) | msdyn_chartofaccountses |
@@ -45,3 +45,4 @@ Apps voor financiële en bedrijfsactiviteiten | Customer Engagement-apps     | B
 [Categorieën van hoofdrekening](mapping-reference.md#151) | msdyn_mainaccountcategories |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

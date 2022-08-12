@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5259e1d7d6c95074337164d8427d7f035e00dbd9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 07791afb2de670a5b9b910e441395c2949460394
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890053"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124705"
 ---
 # <a name="grid-capabilities"></a>Rastermogelijkheden
 
@@ -35,10 +35,10 @@ Het nieuwe rasterbesturingselement biedt verschillende handige en krachtige func
 - Uitrekbare kolommen
 
 ## <a name="calculating-totals"></a>Totalen worden berekend
-In apps voor financiële en bedrijfsactiviteiten kunnen gebruikers totalen weergeven onder aan numerieke kolommen in rasters. Deze totalen worden weergegeven in een voettekstsectie onder in het raster. 
+In apps voor financiën en bedrijfsactiviteiten kunnen gebruikers totalen weergeven onder aan numerieke kolommen in rasters. Deze totalen worden weergegeven in een voettekstsectie onder in het raster. 
 
 ### <a name="showing-the-grid-footer"></a>De rastervoettekst weergeven
-Onder aan elk raster in tabelvorm in apps voor financiële en bedrijfsactiviteiten bevindt zich een voettekstgebied. In de voettekst kunnen waardevolle gegevens worden weergegeven die betrekking hebben op de gegevens die in het raster worden weergegeven. Hiermee volgen enkele voorbeelden van dergelijke informatie:
+Onder aan elk raster in tabelvorm in apps voor financiën en bedrijfsactiviteiten bevindt zich een voettekstgebied. In de voettekst kunnen waardevolle gegevens worden weergegeven die betrekking hebben op de gegevens die in het raster worden weergegeven. Hiermee volgen enkele voorbeelden van dergelijke informatie:
 
 - Het aantal geselecteerde rijen in de tabel (wanneer u meer dan één record selecteert)
 - Eindtotalen onder aan geconfigureerde numerieke kolommen
@@ -86,7 +86,7 @@ Ter ondersteuning van dit nieuwe gedrag is er een nieuwe kolom voor de rijstatus
 Wanneer gebruikers gegevens invoeren voordat de server deze verwerkt, kunnen ze een verslechtering van de gegevensinvoer verwachten, zoals minder zoekacties, validatie op niveau van het besturingselement en de invoer van standaardwaarden. Gebruikers die een vervolgkeuzelijst nodig hebben om een waarde te zoeken, wordt geadviseerd te wachten tot de huidige rij door de server is verwerkt. Validatie en invoer van standaardwaarden op niveau van het besturingselement worden ook uitgevoerd wanneer de server deze rij verwerkt.
 
 ### <a name="pasting-from-excel"></a>Plakken vanuit Excel
-Gebruikers kunnen altijd gegevens vanuit rasters in apps voor financiële en bedrijfsactiviteiten naar Microsoft Excel exporteren met het mechanisme **Exporteren naar Excel**. Doordat het mogelijk is om gegevens in te voeren vóór de systeemverwerking, ondersteunt het nieuwe raster echter het kopiëren van tabellen vanuit Excel en kunnen deze rechtstreeks in rasters in apps voor financiële en bedrijfsactiviteiten worden geplakt. In de rastercel waaruit de plakbewerking wordt geïnitieerd, wordt bepaald waar de gekopieerde tabel wordt geplakt. De inhoud van het raster wordt overschreven door de inhoud van de gekopieerde tabel, behalve in twee gevallen:
+Gebruikers kunnen altijd gegevens vanuit rasters in apps voor financiën en bedrijfsactiviteiten naar Microsoft Excel exporteren met het mechanisme **Exporteren naar Excel**. Doordat het mogelijk is om gegevens in te voeren vóór de systeemverwerking, ondersteunt het nieuwe raster echter het kopiëren van tabellen vanuit Excel en kunnen deze rechtstreeks in rasters in apps voor financiën en bedrijfsactiviteiten worden geplakt. In de rastercel waaruit de plakbewerking wordt geïnitieerd, wordt bepaald waar de gekopieerde tabel wordt geplakt. De inhoud van het raster wordt overschreven door de inhoud van de gekopieerde tabel, behalve in twee gevallen:
 
 - Als het aantal kolommen in de gekopieerde tabel groter is dan het aantal kolommen dat in het raster overblijft, te beginnen bij de plaklocatie, krijgt de gebruiker een melding dat de extra kolommen zijn genegeerd. 
 - Als het aantal rijen in de gekopieerde tabel groter is dan het aantal rijen in het raster, te beginnen bij de plaklocatie, worden de bestaande cellen overschreven door de geplakte inhoud en worden alle extra rijen uit de gekopieerde tabel ingevoegd als nieuwe rijen onder in het raster. 
@@ -97,7 +97,7 @@ Ter bevordering van de productiviteit kunnen gebruikers wiskundige formules invo
 Als u wilt dat het systeem een waarde herkent als een expressie, start u de waarde met het gelijkteken (**=**). Zie [Ondersteunde wiskundige symbolen](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols) voor meer informatie over de ondersteunde operators en syntaxis.
 
 ## <a name="grouping-tabular-data"></a>Tabelgegevens groeperen
-Zakelijke gebruikers moeten vaak ad hoc gegevensanalyse uitvoeren. U kunt dit doen door gegevens te exporteren naar Microsoft Excel en draaitabellen te gebruiken, maar met de functie **Groepering in rasters**, die afhankelijk is van de functie Nieuw rasterbesturingselement, kunnen gebruikers hun tabelgegevens op interessante manieren ordenen in apps voor financiële en bedrijfsactiviteiten. Aangezien deze functie de functie **Totalen** uitbreidt, kunt u met **Groepering** duidelijke inzichten krijgen in de gegevens door subtotalen op te geven op groepsniveau.
+Zakelijke gebruikers moeten vaak ad hoc gegevensanalyse uitvoeren. U kunt dit doen door gegevens te exporteren naar Microsoft Excel en draaitabellen te gebruiken, maar met de functie **Groepering in rasters**, die afhankelijk is van de functie Nieuw rasterbesturingselement, kunnen gebruikers hun tabelgegevens op interessante manieren ordenen in apps voor financiën en bedrijfsactiviteiten. Aangezien deze functie de functie **Totalen** uitbreidt, kunt u met **Groepering** duidelijke inzichten krijgen in de gegevens door subtotalen op te geven op groepsniveau.
 
 Als u deze functie wilt gebruiken, klikt u met de rechtermuisknop op de kolom waarop u wilt groeperen en selecteert u **Groeperen op deze kolom**. Met deze actie sorteert u de gegevens op de geselecteerde kolom, voegt u een nieuwe kolom **Groeperen op** toe aan het begin van het raster en voegt u 'koptekstrijen' toe aan het begin van elke groep. Deze koptekstrijen bevatten de volgende informatie over elke groep:
 
@@ -168,7 +168,7 @@ Als u een individuele pagina hebt uitgeschreven voor gebruik van het nieuwe rast
 ## <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Ontwikkelaar] De mogelijkheid Voor het systeem uit typen niet gebruiken voor afzonderlijke rasters
 In sommige scenario's is het niet handig de rasterfunctie *Voor het systeem uit typen* te gebruiken. (Door een bepaalde code die bijvoorbeeld wordt geactiveerd tijdens het valideren van een rij, wordt een gegevensbrononderzoek geactiveerd en kunnen onbewerkte bewerkingen op bestaande rijen beschadigd raken.) Als uw organisatie een dergelijk scenario ontdekt, is er een API beschikbaar waarmee een ontwikkelaar voor een afzonderlijk raster kan kiezen geen asynchrone rijvalidatie te gebruiken en kan terugkeren naar het verouderde gedrag.
 
-Wanneer asynchrone rijvalidatie in een raster is uitgeschakeld, kunnen gebruikers geen nieuwe rij maken of naar een andere bestaande rij in het raster gaan terwijl er validatieproblemen zijn op de huidige rij. Als gevolg van deze actie kunnen tabellen niet vanuit Excel in Finance and Operations-rasters worden geplakt.
+Wanneer asynchrone rijvalidatie in een raster is uitgeschakeld, kunnen gebruikers geen nieuwe rij maken of naar een andere bestaande rij in het raster gaan terwijl er validatieproblemen zijn op de huidige rij. Als gevolg van deze actie kunnen tabellen niet vanuit Excel in rasters voor financiën en bedrijfsactiviteiten worden geplakt.
 
 Als u voor een afzonderlijk raster geen asynchrone rijvalidatie wilt gebruiken, voegt u de volgende aanroep na `super()` in de methode `run()` van het formulier toe.
 
@@ -200,3 +200,4 @@ In deze sectie wordt een lijst met bekende problemen voor het nieuwe rasterbehee
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

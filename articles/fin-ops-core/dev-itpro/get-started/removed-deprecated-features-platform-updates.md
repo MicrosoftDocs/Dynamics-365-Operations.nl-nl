@@ -1,6 +1,6 @@
 ---
 title: Verwijderde of afgeschafte platform-functies
-description: In dit artikel worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van apps voor financiën en bedrijfsactiviteiten.
+description: In dit artikel worden de functies beschreven die zijn verwijderd of waarvoor de verwijdering is gepland in platformupdates van apps voor financiën en bedrijfsactiviteiten.
 author: sericks007
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,25 +12,25 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 51165db8d15f0a57fd9bc1649dc6e3ca72875236
-ms.sourcegitcommit: 1fa1ac1fa25e977e98bc02ed5d9d39bd3a7a28d7
+ms.openlocfilehash: 16c77d719171e8e5cfef71178f8917d462f6d84b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "8945799"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069917"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Verwijderde of afgeschafte platform-functies
 
 [!include [banner](../includes/banner.md)]
 
-In dit artikel worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van apps voor financiën en bedrijfsactiviteiten.
+In dit artikel worden de functies beschreven die zijn verwijderd of waarvoor de verwijdering is gepland in platformupdates van apps voor financiën en bedrijfsactiviteiten.
 
 - Een *verwijderde* functie is niet langer beschikbaar in het product.
 - Een *afgeschafte* functie wordt niet meer actief ontwikkeld en kan in een toekomstige update worden verwijderd.
 
 Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning rekening te houden met deze verwijderingen en afschaffingen. 
 
-Gedetailleerde informatie over objecten in apps voor financiële en bedrijfsactiviteiten is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van apps voor financiële en bedrijfsactiviteiten.
+Gedetailleerde informatie over objecten in apps voor financiën en bedrijfsactiviteiten is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van apps voor financiën en bedrijfsactiviteiten.
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Afschaffing van functie met ingang van juni 2022
@@ -39,9 +39,9 @@ Gedetailleerde informatie over objecten in apps voor financiële en bedrijfsacti
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | We schaffen de mobiele toepassing en het mobiele platform van Finance en Operations (Dynamics 365) af voor samenvoeging tot één mobiel platform, namelijk Power Apps. |
-| **Vervangen door een andere functie?**   | Ja, mobiele ervaringen via de gegevens van de app Finance and Operations kunnen met integratie van Power Platform worden ontwikkeld. Zie het [blogbericht](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/) en [Mobiele ervaringen maken](../power-platform/build-mobile-experiences.md) voor meer details. |
-| **Betrokken productgebieden**         | Apps voor financiële en bedrijfsactiviteiten |
+| **Reden voor afschaffing/verwijdering** | We schaffen de mobiele toepassing en het mobiele platform van Finance and Operations (Dynamics 365) af voor samenvoeging tot één mobiel platform, namelijk Power Apps. |
+| **Vervangen door een andere functie?**   | Ja, mobiele ervaringen via de gegevens van de apps voor financiën en bedrijfsactiviteiten kunnen met integratie van Power Platform worden ontwikkeld. Zie het [blogbericht](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/) en [Mobiele ervaringen maken](../power-platform/build-mobile-experiences.md) voor meer details. |
+| **Betrokken productgebieden**         | Apps voor financiën en bedrijfsactiviteiten |
 | **Implementatieoptie**              | Alle |
 | **Status**                         | Afgeschaft. De datum van de beëindiging van de ondersteuning is naar verwachting oktober 2024. |
 
@@ -67,7 +67,7 @@ Gedetailleerde informatie over objecten in apps voor financiële en bedrijfsacti
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Wij verwijderen de ondersteuning voor het omzetten van XML-URL's, omdat dit is geïdentificeerd als een mogelijke beveiligingsprobleem. Dit betekent dat externe bronnen die aan XML-bestanden zijn gekoppeld, niet meer kunnen worden omgezet.  |
 | **Vervangen door een andere functie?**   | Nummer |
-| **Betrokken productgebieden**         | Apps voor financiële en bedrijfsactiviteiten |
+| **Betrokken productgebieden**         | Apps voor financiën en bedrijfsactiviteiten |
 | **Implementatieoptie**              | Alle |
 | **Status**                         | Afgeschaft. |
 
@@ -79,7 +79,7 @@ Gedetailleerde informatie over objecten in apps voor financiële en bedrijfsacti
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | De ondersteuning van XSLT-scripting in Gegevensbeheer is afgeschaft om de beveiliging en gegevensbeveiliging binnen apps voor financiën en bedrijfsactiviteiten te verbeteren.  |
 | **Vervangen door een andere functie?**   | Nummer Klanten en ISV's moeten overwegen hun oplossingen opnieuw te implementeren op basis van de X++-taal in plaats van XSLT-scripting. |
-| **Betrokken productgebieden**         | Apps voor financiële en bedrijfsactiviteiten |
+| **Betrokken productgebieden**         | Apps voor financiën en bedrijfsactiviteiten |
 | **Implementatieoptie**              | Alle |
 | **Status**                         | Afgeschaft <br><br>**Uitzondering:** klanten die momenteel XLST-scripting gebruiken. Ze kunnen dit blijven gebruiken totdat ze updaten naar versie 10.0.30 of hoger. Voor eerdere versies verloopt de uitzondering per 31 januari 2023. Klanten met deze uitzondering hebben een melding ontvangen in de Berichtencentrum in het Microsoft 365-beheercentrum. |
 
@@ -196,7 +196,7 @@ Gedetailleerde informatie over objecten in apps voor financiële en bedrijfsacti
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Deze functie is verwijderd om de overhead van het bedienen, controleren en onderhouden van het indexbeheer door klanten te verminderen. |
 | **Vervangen door een andere functie?**   | In de toekomst wordt het indexonderhoud uitgevoerd door Microsoft-services. Dit proces vindt doorlopend plaats zonder dat dit van invloed is op de werkbelasting van de gebruiker. |
-| **Betrokken productgebieden**         | Apps voor financiële en bedrijfsactiviteiten|
+| **Betrokken productgebieden**         | Apps voor financiën en bedrijfsactiviteiten|
 | **Implementatieoptie**              | Cloudimplementatie: heeft gevolgen voor door Microsoft beheerde productieomgevingen en Tier 2 tot en met Tier 5-sandboxomgevingen. |
 | **Status**                         | Deze functie wordt verwijderd. |
 
@@ -204,7 +204,7 @@ Gedetailleerde informatie over objecten in apps voor financiële en bedrijfsacti
 ## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Platformupdates voor versie 10.0.17 van apps voor financiën en bedrijfsactiviteiten
 
 
-### <a name="visual-studio-2015"></a>Visual Studio 2015
+### <a name="visual-studio-2015"></a>Visual Studio2015
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -228,7 +228,7 @@ Gedetailleerde informatie over objecten in apps voor financiële en bedrijfsacti
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | De metagegevensartefacten die aan Dynamics AX 2012 Enterprise Portal (EP) zijn gekoppeld, zijn afgeschaft, omdat EP nooit in de apps voor financiën en bedrijfsactiviteiten werd ondersteund. |
+| **Reden voor afschaffing/verwijdering** | De metagegevensartefacten die aan Dynamics AX 2012 Enterprise Portal (EP) zijn gekoppeld, zijn afgeschaft omdat EP nooit in de apps voor financiën en bedrijfsactiviteiten werd ondersteund. |
 | **Vervangen door een andere functie?**   | Nr. |
 | **Betrokken productgebieden**         | Webclient |
 | **Implementatieoptie**              | Alles |
@@ -322,7 +322,7 @@ Gedetailleerde informatie over objecten in apps voor financiële en bedrijfsacti
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | De gegevensgroepeigenschap voor raster- of groepsbesturingselementen wordt gebruikt om automatisch alle velden van een veldgroep weer te geven. Een raster- of groepsbesturingselement dat door een uitbreiding wordt toegevoegd, kan velden bevatten die niet meer in de veldgroep zijn gedefinieerd of er kunnen velden ontbreken die zijn gedefinieerd voor de veldgroep. Dit kan inconsistent gedrag veroorzaken tijdens runtime. Platformupdates voor versie 10.0.12 van apps voor financiën en bedrijfsactiviteiten categoriseren dit probleem nu als een *waarschuwing*. U kunt dit probleem oplossen door de formulierextensie te openen en op te slaan.
+| **Reden voor afschaffing/verwijdering** | De gegevensgroepeigenschap voor raster- of groepsbesturingselementen wordt gebruikt om automatisch alle velden van een veldgroep weer te geven. Een raster- of groepsbesturingselement dat door een uitbreiding wordt toegevoegd, kan velden bevatten die niet meer in de veldgroep zijn gedefinieerd of er kunnen velden ontbreken die zijn gedefinieerd voor de veldgroep. Dit kan inconsistent gedrag veroorzaken tijdens runtime. Platformupdates voor versie 10.0.12 van apps voor financiën en bedrijfsactiviteiten categoriseren dit probleem nu als een *compilerwaarschuwing*. U kunt dit probleem oplossen door de formulierextensie te openen en op te slaan.
 | **Vervangen door een andere functie?**   | Deze compilerwaarschuwing wordt vervangen door een compilerfout in een toekomstige update. |
 | **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's |
 | **Implementatieoptie**              | Alle |
@@ -354,7 +354,7 @@ Gedetailleerde informatie over objecten in apps voor financiële en bedrijfsacti
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Veldgroepen in metagegevensdefinities van tabellen kunnen veldverwijzingen bevatten die niet geldig zijn. Als deze veldgroepen worden geïmplementeerd, kan dit runtime-fouten veroorzaken in Financial Reporting en Microsoft SQL Server Reporting Services (SSRS). Platform update 23 heeft een *compilerwaarschuwing* geïntroduceerd waardoor dit metagegevensprobleem wordt opgelost. Platformupdates voor versie 10.0.11 van apps voor financiën en bedrijfsactiviteiten categoriseren dit probleem nu als een *fout*.<p>Volg deze stappen om dit probleem op te lossen.</p><ol><li>Verwijder de ongeldige veldverwijzing uit de groepsdefinitie van het tabelveld.</li><li>Compileer opnieuw.</li><li>Controleer of er fouten zijn opgelost.</li></ol> |
+| **Reden voor afschaffing/verwijdering** | Veldgroepen in metagegevensdefinities van tabellen kunnen veldverwijzingen bevatten die niet geldig zijn. Als deze veldgroepen worden geïmplementeerd, kan dit runtime-fouten veroorzaken in Financial Reporting en Microsoft SQL Server Reporting Services (SSRS). Platform update 23 heeft een *compilerwaarschuwing* geïntroduceerd waardoor dit metagegevensprobleem wordt opgelost. Platformupdates voor versie 10.0.11 van apps voor financiën en bedrijfsactiviteiten categoriseren dit probleem nu als een *compilerfout*.<p>Volg deze stappen om dit probleem op te lossen.</p><ol><li>Verwijder de ongeldige veldverwijzing uit de groepsdefinitie van het tabelveld.</li><li>Compileer opnieuw.</li><li>Controleer of er fouten zijn opgelost.</li></ol> |
 | **Vervangen door een andere functie?**   | Deze compilerfout vervangt permanent de compilerwaarschuwing.  |
 | **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's |
 | **Implementatieoptie**              | Alle |
@@ -398,3 +398,4 @@ Zie [Verwijderde of afgeschafte functies in eerdere versies](../migration-upgrad
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 90a3f132a96081b56ab60f5b0ba5cc328b820879
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f6f3f2db6efcc4d4d6ae3d278751a230fca9a64
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899319"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068591"
 ---
 # <a name="cycle-counting-example-scenarios"></a>Voorbeeldscenario's van cyclustelling
 
@@ -127,7 +127,7 @@ Volg deze stappen om te controleren of alle vereiste demogegevens voor de scenar
 1. Selecteer magazijn *61* in het lijstvenster. Als er geen record bestaat met deze naam, maakt u deze record.
 1. Stel op het sneltabblad **Magazijn** de volgende waarden in:
 
-    - **Magazijnbeheerproces gebruiken:** *Ja* (Met deze waarde wordt het magazijn voor magazijnbeheerprocessen geactiveerd.)
+    - **Magazijnbeheerproces gebruiken:** *Ja* (Met deze waarde wordt het magazijn voor magazijnbeheerprocessen (WMS) geactiveerd.)
     - **Verplaatsingen nummerplaat gedurende cyclustelling toestaan:** *Ja* (met deze waarde kunnen werknemers nummerplaten verplaatsen tijdens een cyclustelling.)
 
 ## <a name="scenario-1-guided-cycle-counting"></a>Scenario 1: Begeleide cyclustelling

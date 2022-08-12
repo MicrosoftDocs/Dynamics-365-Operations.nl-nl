@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2a64cba837faf84f3e8470a9831d1641213a5cc4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e02cd80a3b7692f496fc70e50b812fae358103bc
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909607"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067846"
 ---
 # <a name="warehouse-parameters-for-wave-processing"></a>Magazijnparameters voor waveverwerking
 
@@ -52,7 +52,7 @@ Als u magazijnparameters wilt instellen voor waveverwerking, volgt u deze stappe
 > [!NOTE]
 > Op de golfsjabloon die wordt gebruikt om de golf te verwerken, kunt u de instellingen opgeven die golfverwerking automatiseren. Als u een planning instelt voor de batchtaak, moet u de timing coördineren met de instellingen voor automatisering in de golfsjabloon. Zie [Een wavesjabloon maken](wave-templates.md) voor meer informatie.
 >
-> Als u *Transportbeheer* en *Geavanceerd magazijnbeheer* gebruikt, kunt u opgeven of u ladingen wilt consolideren wanneer u een wave verwerkt. Dit is bijvoorbeeld handig wanneer verschillende kleine ladingen tegelijk kunnen worden verzonden. Als u ladingen wilt consolideren wanneer u een wave verwerkt, schakelt u op het tabblad **Ladingen** het selectievakje **Ladingen consolideren tijdens waveverwerking** in.</P>
+> Als u *Transportbeheer* en *Magazijnbeheerprocessen (WMS)* gebruikt, kunt u opgeven of u ladingen wilt consolideren wanneer u een wave verwerkt. Dit is bijvoorbeeld handig wanneer verschillende kleine ladingen tegelijk kunnen worden verzonden. Als u ladingen wilt consolideren wanneer u een wave verwerkt, schakelt u op het tabblad **Ladingen** het selectievakje **Ladingen consolideren tijdens waveverwerking** in.</P>
 
 ## <a name="set-up-full-or-partial-reservation-for-production-waves"></a>Gedeeltelijke of volledige reservering instellen voor productiewaves
 

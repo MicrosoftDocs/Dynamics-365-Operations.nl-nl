@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 976a86aee75581d1afa764bea049b6c0eaecf9f3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f789fd86904c1e625be8fc5be3bfe456fe0659b4
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888918"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068743"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>ER-configuraties (elektronische rapportage) in Microsoft Regulatory Configuration Services (RCS) algemene opslagplaats met externe organisaties delen
 
@@ -36,7 +36,7 @@ In de volgende procedures wordt uitgelegd hoe een RCS-gebruiker een versie van e
 
 U moet er ook voor zorgen dat een RCS-omgeving wordt ingericht voor uw bedrijf.
 
-1. Ga in een Finance and Operations-app naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
+1. Ga in een app voor financiën en bedrijfsactiviteiten naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
 2. Als er geen RCS-omgeving is ingericht voor uw bedrijf, selecteert u **Regulatory services ‑ Configuratie extern** en volgt u vervolgens de instructies om een RCS-omgeving in te richten.
 
 Als er al een RCS-omgeving is ingericht voor uw bedrijf, gebruikt u de pagina-URL om deze te openen door de aanmeldingsoptie te selecteren.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7d8e55fc1293e2b33b15f3862498363a6b23f1f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0449a13989bad45cf0456a2678e5724036d2af3d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883411"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070689"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Factuurautomatisering voor gescande documenten
 
@@ -58,7 +58,7 @@ Een gegevenspakket is de werkeenheid die moet worden verzonden, zodat factuurkop
 
 De documentbijlage van de leveranciersfactuur is een nieuwe gegevensentiteit die als onderdeel van deze functie wordt geïntroduceerd. De entiteit koptekst van leveranciersfactuur is gewijzigd, zodat deze bijlagen ondersteunt. De entiteit leveranciersfactuurregel is niet voor deze functie gewijzigd.
 
-Zie [Overzicht van Gegevensbeheer](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md) voor gedetailleerde informatie over gegevenspakketten. Zie [Gegevenspakketten verwerken en verbruiken in de oplossing apps voor financiën en bedrijfsactiviteiten](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md) voor informatie over het maken van gegevenspakketten met het werkgebied voor gegevensbeheer.
+Zie [Overzicht van Gegevensbeheer](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md) voor gedetailleerde informatie over gegevenspakketten. Zie [Gegevenspakketten verwerken en verbruiken in de oplossing Apps voor financiën en bedrijfsactiviteiten van Dynamics 365](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md) voor informatie over het maken van gegevenspakketten met het werkgebied voor gegevensbeheer.
 
 Als u snel testgegevens wilt genereren met facturen en bijlagen, voert u de volgende stappen uit.
 
@@ -86,7 +86,7 @@ Facturen die zijn geïmporteerd via de gegevenspakketten kunnen op twee manieren
 
 ## <a name="exception-processing"></a>Uitzonderingen verwerken
 
-In scenario's waarin leveranciersfacturen in Finance and Operations komen door middel van integratie, moet er een eenvoudige manier zijn waarmee een lid van het team Crediteuren uitzonderingen of mislukte facturen kan verwerken en in behandeling zijnde facturen kan maken van mislukte facturen. Deze verwerking van uitzonderingen voor leveranciersfacturen maakt nu deel uit van Finance and Operations.
+In scenario's waarin leveranciersfacturen in apps voor financiën en bedrijfsactiviteiten komen door middel van integratie, moet er een eenvoudige manier zijn waarmee een lid van het team Crediteuren uitzonderingen of mislukte facturen kan verwerken en in behandeling zijnde facturen kan maken van mislukte facturen. Deze verwerking van uitzonderingen voor leveranciersfacturen maakt nu deel uit van apps voor financiën en bedrijfsactiviteiten.
 
 ### <a name="vendor-invoices-that-failed-to-import-list-page"></a>Lijstpagina Leveranciersfacturen waarvan import is mislukt
 
@@ -225,3 +225,4 @@ Als de gebruikersrol bewerkingsrechten op een pagina biedt, heeft de gebruiker s
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
