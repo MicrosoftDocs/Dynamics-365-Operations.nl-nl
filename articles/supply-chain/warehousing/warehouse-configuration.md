@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28e026b01bbc2b2534556ce6018eec66fc5517d6
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7643a333c269a7e1976563ff0f10b89c1fb91674
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982997"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065177"
 ---
 # <a name="warehouse-configuration-overview"></a>Overzicht van Magazijnconfiguratie
 
@@ -31,10 +31,10 @@ ms.locfileid: "7982997"
 In dit artikel wordt beschreven hoe u een magazijn configureert. Er wordt aangegeven hoe u een magazijnindeling en magazijnprocessen inschakelt.
 
 > [!NOTE]
-> Dit artikel is van toepassing op de functies in de module **Magazijnbeheer** (geavanceerde magazijnen). Het is niet van toepassing op magazijnfuncties in de module **Voorraadbeheer**.
+> Dit artikel geldt voor functies in de module voor **Magazijnbeheer**. Het is niet van toepassing op magazijnfuncties in de module **Voorraadbeheer**.
 
 ## <a name="warehouse-layout"></a>Magazijnindeling
-Het Magazijnbeheersysteem in Supply Chain Management biedt u flexibele manieren om uw magazijnindeling te definiëren voor wisselende behoeften, zodat u optimale magazijnefficiëntie kunt bereiken.
+Met Magazijnbeheerprocessen (WMS) in Supply Chain Management hebt u flexibele manieren om uw magazijnindeling te definiëren voor wisselende behoeften, zodat u optimale magazijnefficiëntie kunt bereiken.
 
 -   U kunt opslaggebieden met hoge prioriteit en lage prioriteit ontwikkelen voor optimale plaatsing van goederen.
 -   U kunt uw magazijn in zones verdelen voor verschillende opslagbehoeften, zoals temperatuurvereisten of diverse omzettarieven voor artikelen.
@@ -42,7 +42,7 @@ Het Magazijnbeheersysteem in Supply Chain Management biedt u flexibele manieren 
 -   U kunt locaties groeperen door de instellingen voor fysieke capaciteitsbeperking te gebruiken.
 -   U kunt bepalen hoe de artikelen worden opgeslagen en verzameld, gebaseerd op query-bepaalde regels.
 
-Als u magazijnbeheer in Supply Chain Management wilt gebruiken, moet u een magazijn maken en dit inschakelen voor meer geavanceerde of gespecialiseerde magazijnbeheeractiviteiten. Selecteer op de pagina **Magazijnen** de optie **Magazijnbeheerprocessen gebruiken**.
+Als u WMS wilt gebruiken in Supply Chain Management, moet u een magazijn maken en het inschakelen voor WMS. Selecteer op de pagina **Magazijnen** de optie **Magazijnbeheerprocessen gebruiken**.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Zonegroepen, zones, locatietypen en locaties
 

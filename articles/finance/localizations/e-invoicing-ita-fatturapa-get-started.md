@@ -2,7 +2,7 @@
 title: Directe integratie van Italiaanse FatturaPA met SDI instellen
 description: Dit artikel biedt informatie die u zal helpen om aan de slag te gaan met elektronische facturering voor Italië en om directe integratie van Italiaanse FatturaPA met het Exchange-systeem (SDI) in te stellen.
 author: abaryshnikov
-ms.date: 01/15/2022
+ms.date: 07/27/2022
 ms.topic: article
 audience: Application User, Developer
 ms.reviewer: kfend
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 510cf05e7bbc925478f9a1a4ea2ea27fe397c570
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 363b7b5e3d5abbb990fea8f8ad4d0c1bebf80102
+ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853187"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9203164"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>Directe integratie van Italiaanse FatturaPA met SDI instellen
 
@@ -69,10 +69,13 @@ Deze sectie is een aanvulling op de sectie [Landspecifieke configuratie van toep
     - Geef voor de actie **Document ondertekenen** in het veld **Certificaatnaam** het certificaat voor digitale handtekening op.
     - Stel voor de actie **Indienen** de velden **URL-adres** en **Certificaten** in. De waarde van het veld **Certificaten** is een reeks certificaten, waarvan het eerste het hoofd-CA-certificaat (caentrate.cer) is en de tweede het Clients-certificaat.
 
-4. Selecteer **Valideren** om er zeker van te zijn dat alle vereiste velden zijn ingesteld.
-5. Sla uw wijzigingen op en sluit de pagina.
-6. Selecteer op het tabblad **Instellingen** de optie **Projectfacturen** en selecteer vervolgens **Bewerken**.
-7. Herhaal stap 3 tot en met 5 voor projectfacturen.
+4. In de sectie **Toepasbaarheidsregels** bekijkt u de clausules en controleert u de vereiste velden of stelt u deze in:
+    - Controleer de clausule **LegalEntityID** en werk deze bij met de juiste waarde van uw rechtspersoon.
+
+5. Selecteer **Valideren** om er zeker van te zijn dat alle vereiste velden zijn ingesteld.
+6. Sla uw wijzigingen op en sluit de pagina.
+7. Selecteer op het tabblad **Instellingen** de optie **Projectfacturen** en selecteer vervolgens **Bewerken**.
+8. Herhaal stap 3 tot en met 6 voor projectfacturen.
 
 ### <a name="configure-the-processing-pipeline-for-import"></a>De verwerkingspijplijn configureren voor import
 

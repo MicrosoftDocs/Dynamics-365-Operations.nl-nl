@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2963589562e2d646670183e9db35df33255e8894
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e5816a7cddf509260511368b74655a9fd5bfc485
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903748"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067876"
 ---
 # <a name="shipment-auto-updates"></a>Zendingen automatisch bijwerken
 
@@ -30,7 +30,7 @@ De functie voor het automatisch bijwerken van zendingen werkt automatisch de hoe
 
 Wanneer de functie voor het automatisch bijwerken van zendingen niet wordt gebruikt, worden alleen afnames van de hoeveelheid automatisch doorgestuurd totdat het magazijnwerk is gemaakt. Gebruikers moeten regels handmatig bijwerken of verwijderen en ze moeten vervolgens de regels opnieuw vrijgeven als er orderhoeveelheden worden verhoogd of als er nieuwe orderregels worden toegevoegd. Met de functie voor het automatisch bijwerken van zendingen kunnen bedrijven naadloos updates aan het magazijn doorgeven zonder bang te hoeven zijn dat bijbehorende verzendingen en ladingen niet overeenkomen met de orderregelupdates.
 
-De functie voor het automatisch bijwerken van zendingen is van toepassing op zowel verkooporderregels als overboekingsorderregels en wordt ingeschakeld voor een specifiek magazijn. Daarom kunnen bedrijven een ander beleid voor het automatisch bijwerken van zendingen toepassen voor een magazijn, als dat nodig is. Het beleid voor het automatisch bijwerken van de hoeveelheid wordt standaard toegepast voor alle magazijnen die gebruikmaken van magazijnbeheerprocessen. Wanneer deze standaardbeleidsinstelling wordt gebruikt, worden alleen afnames van de hoeveelheid automatisch doorgegeven aan een zending en lading totdat het magazijnwerk wordt gemaakt. Dit gedrag is hetzelfde als werd gebruikt voordat de functie voor automatische zendingupdates werd geïntroduceerd.
+De functie voor het automatisch bijwerken van zendingen is van toepassing op zowel verkooporderregels als overboekingsorderregels en wordt ingeschakeld voor een specifiek magazijn. Daarom kunnen bedrijven een ander beleid voor het automatisch bijwerken van zendingen toepassen voor een magazijn, als dat nodig is. Het beleid voor het automatisch bijwerken van de hoeveelheid wordt standaard toegepast voor alle magazijnen die gebruikmaken van magazijnbeheerprocessen (WMS). Wanneer deze standaardbeleidsinstelling wordt gebruikt, worden alleen afnames van de hoeveelheid automatisch doorgegeven aan een zending en lading totdat het magazijnwerk wordt gemaakt. Dit gedrag is hetzelfde als werd gebruikt voordat de functie voor automatische zendingupdates werd geïntroduceerd.
 
 ## <a name="main-elements-of-the-functionality"></a>Hoofdelementen van de functionaliteit
 

@@ -1,6 +1,6 @@
 ---
 title: Tracering verbeteren van de resultaten van gegenereerde ER-rapporten om deze te vergelijken met basislijnwaarden
-description: Dit artikel beschrijft verbeteringen in de ER-basislijnfunctie in Microsoft Dynamics 365 for Finance and Operations versie 10.0.3 (juni 2019).
+description: Dit artikel beschrijft verbeteringen in de ER-basislijnfunctie in Microsoft Dynamics 365 Finance versie 10.0.3 (juni 2019).
 author: NickSelin
 ms.date: 06/19/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 3b9ac7dcac4d020759d04fec75e17c43ed627e25
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bb2e76492ac9f6feb71811d0fbfd25919b59ac4d
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847396"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109137"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Tracering verbeteren van de resultaten van gegenereerde ER-rapporten om deze te vergelijken met basislijnwaarden
 
 [!include[banner](../includes/banner.md)]
 
-In dit artikel wordt de eerste verbeteringen beschreven die zijn aangebracht in de basisfunctie van het raamwerk voor elektronische rapportage (ER). Deze verbeteringen zijn beschikbaar in Microsoft Dynamics 365 for Finance and Operations 10.0.3 (juni 2019) en hoger.
+In dit artikel wordt de eerste verbeteringen beschreven die zijn aangebracht in de basisfunctie van het raamwerk voor elektronische rapportage (ER). Deze verbeteringen zijn beschikbaar in Microsoft Dynamics 365 Finance versie 10.0.3 (juni 2019) en hoger.
 
 ## <a name="automate-the-setting-of-baseline-rules"></a>De instelling van basislijnregels automatiseren
 
@@ -208,3 +208,4 @@ Als u basislijninstellingen wilt importeren vanuit een XML-bestand dat op de Mic
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -18,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dceb8e6300d19eb9253e88debbaaef0b6987420
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 075e74845eb8e0363cdb706f1f3af0dc9cfddfaa
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893086"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069177"
 ---
 # <a name="replenishment-overview"></a>Overzicht van Aanvulling
 
@@ -70,8 +70,8 @@ In plaats van het totaal van de vraag aan het einde van een toewijzingsproces te
 
 |      Vereiste       |                                                                                                                                Omschrijving                                                                                                                                 |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|          Artikel           |                                                                                                        Het artikel moet ingeschakeld zijn voor magazijnbeheer processen                                                                                                        |
-|        Magazijn        | Het magazijn moet ingeschakeld zijn voor magazijnbeheer processen. Om een magazijn in te schakelen voor magazijnbeheerprocessen, selecteert u het magazijn op de pagina <strong>Magazijnen</strong> en selecteert u vervolgens de optie <strong>Magazijnbeheerprocessen gebruiken</strong>. |
+|          Artikel           |                                                                                                        Het artikel moet ingeschakeld zijn voor magazijnbeheerprocessen (WMS).                                                                                                        |
+|        Magazijn        | Het magazijn moet ingeschakeld zijn voor magazijnbeheerprocessen (WMS). Om een magazijn in te schakelen voor WMS, selecteert u het magazijn op de pagina <strong>Magazijnen</strong> en selecteert u vervolgens de optie <strong>Magazijnbeheerprocessen gebruiken</strong>. |
 | Aanvullingssjablonen |                                                                   Er moet ten minste één aanvullingssjabloon worden ingesteld voor Min/Max aanvulling, Aanvulling voor wave-vraag of Vraag voor aanvulling laden.                                                                   |
 |        Locaties        |                                                                                                       Locaties worden gemaakt en verbonden met een locatieprofiel.                                                                                                       |
 |    Locatieprofielen    |                                                                                                        Locatieprofielen zijn vereist om locaties te maken.                                                                                                        |

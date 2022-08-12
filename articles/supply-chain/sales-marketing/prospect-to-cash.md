@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 40398a481d23b8abed59556a3c6d70e783756017
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ea07b40c0a1a7eae7cd167f46796556b1e0ecc46
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857223"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103589"
 ---
 # <a name="prospect-to-cash"></a>Van prospect naar contant geld
 
@@ -43,13 +43,13 @@ In de huidige versie biedt de oplossing Prospect naar contant geld de volgende t
 ## <a name="system-requirements-for-supply-chain-management"></a>Systeemvereisten voor Supply Chain Management
 Integratie van Prospect met contant geld wordt ondersteund door de volgende versies:
 
-### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (december 2017)
+### <a name="microsoft-dynamics-365-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 Finance and Operations, Enterprise edition 7.3 (december 2017)
 
-- Dynamics 365 for Finance and Operations, Enterprise edition (december 2017) - toepassingsbuild 7.3.11971.56116 met Platform Update 12 (7.0.4709.41129)
+- Dynamics 365 Finance and Operations, Enterprise Edition (december 2017) - toepassingsbuild 7.3.11971.56116 met platformupdate 12 (7.0.4709.41129)
 
-### <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Dynamics 365 for Finance and Operations, Enterprise edition (juli 2017)
+### <a name="dynamics-365-finance-enterprise-edition-july-2017"></a>Dynamics 365 Finance, Enterprise edition (juli 2017)
 
-- Dynamics 365 for Finance and Operations, Enterprise edition (juli 2017) - met Platform Update 8 (toepassingsbuild 7.2.11792.56024 met platformbuild 7.0.4565.16212).
+- Dynamics 365 Finance and Operations, Enterprise Edition (juli 2017) - met platformupdate 8 (toepassingsbuild 7.2.11792.56024 met platformbuild 7.0.4565.16212).
 - De volgende hotfixes zijn vereist:
 
   - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)**: deze hotfix maakt synchronisatie van verkooporders vanuit Sales met Supply Chain Management mogelijk via de functie Gegevensintegratie. Daarnaast bevat de hotfix diverse andere verbeteringen.
@@ -59,9 +59,9 @@ Integratie van Prospect met contant geld wordt ondersteund door de volgende vers
     > [!NOTE]
     > U hoeft alleen KB4045570 te installeren omdat de installatie de wijzigingen van andere hotfixes bevat. 
 
-### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 for Finance and Operations versie 1611 (november 2016)
+### <a name="dynamics-365-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 Finance and Operations versie 1611 (november 2016)
 
-- Dynamics 365 for Finance and Operations versie 1611 (november 2016) met Platform Update 8 of hoger
+- Dynamics 365 Finance and Operations versie 1611 (november 2016) met platformupdate 8 of hoger
 
 - De volgende hotfixes zijn vereist:
 

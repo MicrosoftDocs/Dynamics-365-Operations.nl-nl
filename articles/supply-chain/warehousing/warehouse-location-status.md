@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d2632ed1f5c733e45f5d927643bdaef430bc4009
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6d04ca43895935329b711f2658360c41f611975e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850404"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065459"
 ---
 # <a name="warehouse-location-status"></a>Status magazijnlocatie
 
@@ -165,7 +165,7 @@ Voor het voorbeeldscenario moet u twee locatieprofielen voorbereiden.
 1. U ziet dat het veld **Locatiestatus** voor de locatie vanwaar de verkooporder is opgehaald, nu is ingesteld op *Orderverzamelen* en dat het veld **Datum en tijd van de laatste activiteit** is bijgewerkt.
 
 > [!NOTE]
-> De locatievelden worden alleen bijgewerkt door magazijntransacties. Als u de voorraad verplaatst met behulp van een journaal of andere processen die niet WHS zijn, worden de velden niet bijgewerkt.
+> De locatievelden worden alleen bijgewerkt door magazijntransacties. Als u de voorraad verplaatst met behulp van een journaal of andere processen die niet WMS zijn, worden de velden niet bijgewerkt.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

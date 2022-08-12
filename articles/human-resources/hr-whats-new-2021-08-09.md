@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-08-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ad1397084dd3eb210065fe6d8c20c5b8253cd206
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 58926e5a6c1476db84fa41945dc92196eb24f4bf
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882861"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068449"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-9-2021"></a>Nieuwe of gewijzigde functies in Dynamics 365 Human Resources, 9 augustus 2021
 
@@ -66,7 +66,7 @@ Zie [Overzicht van Dynamics 365 Human Resources 2021 release wave 2](/dynamics36
 
 | Functie | Gegevens |
 | --- | --- |
-| Platformupdate 10.0.21 (45) | Implementatie van platformupdate 10.0.21 is gepland voor de volgende servicerelease op 4 oktober 2021. Zie voor meer informatie [Platformupdates voor versie 10.0.21 van apps voor financiële en bedrijfsactiviteiten (oktober 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
+| Platformupdate 10.0.21 (45) | Implementatie van platformupdate 10.0.21 is gepland voor de volgende servicerelease op 4 oktober 2021. Zie voor meer informatie [Platformupdates voor versie 10.0.21 van apps voor financiën en bedrijfsactiviteiten (oktober 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
 
 ## <a name="see-also"></a>Zie ook
 
@@ -76,3 +76,4 @@ Zie [Overzicht van Dynamics 365 Human Resources 2021 release wave 2](/dynamics36
 [Functies beheren](hr-admin-manage-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

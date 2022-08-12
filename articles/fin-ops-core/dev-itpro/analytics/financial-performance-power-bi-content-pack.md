@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fcbe41d113ee41734020546388851afb7fc27bbf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7b6fb9643873178f1cb93e3da15e83598af51de0
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910410"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109545"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Financiële prestatieoplossing PowerBI.com
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Deze PowerBI.com-oplossing is verouderd, zoals gedocumenteerd in [Verwijderde of afgeschafte functies voor Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Deze PowerBI.com-oplossing is verouderd, zoals gedocumenteerd in [Verwijderde of afgeschafte functies voor Finance + Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 In dit artikel wordt de **financiële prestatieoplossing** PowerBI.com besproken. In dit onderwerp wordt een beschrijving gegeven van het dashboard en de rapporten die zijn opgenomen en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de oplossing is samengesteld.
 

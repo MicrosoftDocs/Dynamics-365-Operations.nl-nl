@@ -1,5 +1,5 @@
 ---
-title: De Help-ervaring voor apps voor financiële en bedrijfsactiviteiten configureren
+title: De Help-ervaring voor apps voor financiën en bedrijfsactiviteiten configureren
 description: Dit artikel biedt informatie over de onderdelen van het Help-systeem voor sommige Microsoft Dynamics 365-apps.
 author: margoc
 ms.date: 08/11/2021
@@ -15,36 +15,36 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b002b374e5da619460c496b8f0d7a70b7194afd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 35f5d73075d118079ccb0616fbd1c5e1a8e00424
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900124"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123619"
 ---
-# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>De Help-ervaring voor apps voor financiële en bedrijfsactiviteiten configureren
+# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>De Help-ervaring voor apps voor financiën en bedrijfsactiviteiten configureren
 
 [!include [banner](../includes/banner.md)]
 
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-In dit artikel vindt u een overzicht van de onderdelen van het Help-systeem voor apps voor financiële en bedrijfsactiviteiten, zoals Microsoft Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce en Dynamics 365 Human Resources. Ook wordt in dit artikel uitgelegd hoe u deze onderdelen verbindt en u vindt een overzicht van het proces voor het maken van aangepaste Help.
+In dit artikel vindt u een overzicht van de onderdelen van het Help-systeem voor apps voor financiën en bedrijfsactiviteiten, zoals Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce en Dynamics 365 Human Resources. Ook wordt in dit artikel uitgelegd hoe u deze onderdelen verbindt en u vindt een overzicht van het proces voor het maken van aangepaste Help.
 
 ## <a name="help-architecture"></a>Help-architectuur
 
-Apps voor financiële en bedrijfsactiviteiten bevatten conceptuele overzichten en andere onderwerpen die op de site met [Microsoft Dynamics 365-documentatie](/dynamics365/) worden gepubliceerd. Deze inhoud kan vervolgens worden geopend vanuit het deelvenster **Help** in het product. De volgende afbeelding toont de onderdelen van het Help-systeem.
+Apps voor financiën en bedrijfsactiviteiten bevatten conceptuele overzichten en andere onderwerpen die op de site met [Microsoft Dynamics 365-documentatie](/dynamics365/) worden gepubliceerd. Deze inhoud kan vervolgens worden geopend vanuit het deelvenster **Help** in het product. De volgende afbeelding toont de onderdelen van het Help-systeem.
 
 [![Help-architectuur.](./media/help-architecture.png)](./media/help-architecture.png)
 
-De Help van het product haalt artikelen op van docs.microsoft.com en andere verbonden websites. Daarnaast worden taakbegeleidingen opgehaald die zijn opgeslagen in Modelleertool bedrijfsprocessen in Microsoft Dynamics Lifecycle Services (LCS).
+De Help van het product haalt artikelen op van docs.microsoft.com en andere verbonden websites. Daarnaast worden taakbegeleiders opgehaald die zijn opgeslagen in Modelleertool bedrijfsprocessen in Microsoft Dynamics Lifecycle Services (LCS).
 
-## <a name="adding-task-guides"></a>Taakbegeleidingen toevoegen
+## <a name="adding-task-guides"></a>Taakbegeleiders toevoegen
 
 > [!NOTE]
-> Het tabblad **Taakbegeleidingen** is momenteel niet beschikbaar in Human Resources of Commerce. <!--We are currently working to enable this functionality in a future release.--> De taakbegeleidingen in de ervaring Aan de slag in Human Resources blijven echter beschikbaar om de basisfunctionaliteit uit te leggen. Op de site [Microsoft Dynamics 365-documentatie](/dynamics365/) is procedurele Help beschikbaar voor zowel Human Resources als Commerce.
+> Het tabblad **Taakbegeleiders** is momenteel niet beschikbaar in Human Resources of Commerce. <!--We are currently working to enable this functionality in a future release.--> De taakbegeleiders in de ervaring Aan de slag in Human Resources blijven echter beschikbaar om de basisfunctionaliteit uit te leggen. Op de site [Microsoft Dynamics 365-documentatie](/dynamics365/) is procedurele Help beschikbaar voor zowel Human Resources als Commerce.
 
-Op de pagina **Systeemparameters** kunnen systeembeheerders de toegang tot relevante bibliotheken voor taakbegeleidingen configureren voor een implementatie.
+Op de pagina **Systeemparameters** kunnen systeembeheerders de toegang tot relevante bibliotheken voor taakbegeleiders configureren voor een implementatie.
 
 > [!NOTE]
 > - Voordat u Help kunt configureren, moet u zich aanmelden met een account in de dezelfde tenant als de tenant waarin de app is geïmplementeerd.
@@ -52,7 +52,7 @@ Op de pagina **Systeemparameters** kunnen systeembeheerders de toegang tot relev
 
 [![Formulier Systeemparameters met Help-instellingen.](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
 
-Als u taakbegeleidingen voor een oplossing wilt configureren, volgt u deze stappen op de pagina **Systeemparameters**.
+Als u taakbegeleiders voor een oplossing wilt configureren, volgt u deze stappen op de pagina **Systeemparameters**.
 
 > [!IMPORTANT]
 > De eerste keer dat u het tabblad **Help** opent, moet u verbinding maken met Lifecycle Services. Let erop dat u de koppeling in het midden van het formulier selecteert. Wacht op de verbinding, sluit het dialoogvenster en selecteer **OK** om de pagina **Systeemparameters** te openen.
@@ -63,31 +63,31 @@ Als u taakbegeleidingen voor een oplossing wilt configureren, volgt u deze stapp
 2. Selecteer de BPM-bibliotheken (in het geselecteerde project) om taakregistraties op te halen.
 3. Stel de weergavevolgorde van de BPM-bibliotheken in. Dit weergavevolgorde bepaalt de volgorde waarin de taakregistraties uit de bibliotheken verschijnen in het deelvenster **Help**.
 
-Wanneer u deze stappen hebt voltooid, kunt u het deelvenster **Help** openen en het tabblad **Taakbegeleidingen** selecteren. U ziet nu de taakbegeleidingen die van toepassing zijn op de pagina die nu is geopend in apps voor financiële en bedrijfsactiviteiten. Als er geen taakbegeleidingen worden gevonden, kunt u trefwoorden invoeren om uw zoekopdracht te verfijnen.
+Wanneer u deze stappen hebt voltooid, kunt u het deelvenster **Help** openen en het tabblad **Taakbegeleiders** selecteren. U ziet nu de taakbegeleiders die van toepassing zijn op de pagina die nu is geopend in apps voor financiën en bedrijfsactiviteiten. Als er geen taakbegeleiders worden gevonden, kunt u trefwoorden invoeren om uw zoekopdracht te verfijnen.
 
-### <a name="showing-translated-task-guides"></a>Vertaalde taakbegeleidingen weergeven
+### <a name="showing-translated-task-guides"></a>Vertaalde taakbegeleiders weergeven
 
-Vertaalde taakbegeleidingen zijn voor het eerst uitgebracht in de APQC Unified Library van mei 2016 en de Aan de slag-bibliotheek. Als u gelokaliseerde Help met taakbegeleiding wilt zien, moet u ervoor zorgen dat uw Dynamics 365-oplossing is verbonden met de bibliotheek van mei 2016. Gebruikers kunnen de taal wijzigen waarin een taakbegeleiding wordt weergegeven door de taalinstellingen onder **Opties** &gt; **Voorkeuren** te wijzigen.
+Vertaalde taakbegeleiders zijn voor het eerst uitgebracht in de APQC Unified Library van mei 2016 en de Aan de slag-bibliotheek. Als u gelokaliseerde Help met taakbegeleider wilt zien, moet u ervoor zorgen dat uw Dynamics 365-oplossing is verbonden met de bibliotheek van mei 2016. Gebruikers kunnen de taal wijzigen waarin een taakbegeleider wordt weergegeven door de taalinstellingen onder **Opties** &gt; **Voorkeuren** te wijzigen.
 
 > [!NOTE]
-> Hoewel veel taakbegeleidingen zijn vertaald, worden momenteel in de client de vertaalde namen van taakbegeleidingen niet weergegeven. Daarnaast zijn in de bibliotheek van mei 2016 alleen vertalingen beschikbaar voor de taakbegeleidingen die in februari 2016 zijn uitgebracht. Microsoft brengt een bijgewerkte bibliotheek met extra vertalingen uit.
+> Hoewel veel taakbegeleiders zijn vertaald, worden momenteel in de client de vertaalde namen van taakbegeleiders niet weergegeven. Daarnaast zijn in de bibliotheek van mei 2016 alleen vertalingen beschikbaar voor de taakbegeleiders die in februari 2016 zijn uitgebracht. Microsoft brengt een bijgewerkte bibliotheek met extra vertalingen uit.
 >
-> - Als een taakbegeleiding is vertaald, wordt bij het openen van die taakbegeleiding alle tekst van de taakbegeleiding weergegeven in uw geselecteerde taal.
-> - Als een taakbegeleiding nog niet is vertaald, wordt bij het openen van die taakbegeleiding alleen bepaalde tekst (de tekst van de besturingselementen) weergegeven in uw geselecteerde taal.
+> - Als een taakbegeleider is vertaald, wordt bij het openen van die taakbegeleider alle tekst van de taakbegeleider weergegeven in uw geselecteerde taal.
+> - Als een taakbegeleider nog niet is vertaald, wordt bij het openen van die taakbegeleider alleen bepaalde tekst (de tekst van de besturingselementen) weergegeven in uw geselecteerde taal.
 
 ## <a name="adding-custom-help"></a>Aangepaste Help toevoegen
 
-U kunt taakbegeleidingen maken om aangepaste Help te maken of een aangepaste Help-website koppelen aan het deelvenster **Help**.
+U kunt taakbegeleiders maken om aangepaste Help te maken of een aangepaste Help-website koppelen aan het deelvenster **Help**.
 
-### <a name="create-custom-help-by-using-task-guides"></a>Aangepaste Help maken met taakbegeleidingen
+### <a name="create-custom-help-by-using-task-guides"></a>Aangepaste Help maken met taakbegeleiders
 
-U kunt aangepaste Help voor de ondersteunde apps maken door taakregistraties te maken die uw implementatie weerspiegelen en deze op te slaan in een bedrijfsprocesbibliotheek in LCS. U kunt geen aangepaste taakbegeleidingen voor Human Resources maken.
+U kunt aangepaste Help voor de ondersteunde apps maken door taakregistraties te maken die uw implementatie weerspiegelen en deze op te slaan in een bedrijfsprocesbibliotheek in LCS. U kunt geen aangepaste taakbegeleiders voor Human Resources maken.
 
 Als u een partner bent en een bibliotheek propageert als bedrijfsbibliotheek en deze in een oplossing opneemt, wordt deze beschikbaar voor uw klanten. U kunt een kopie van de globale APQC Unified-bibliotheek maken en vervolgens de taakregistraties in de kopie openen, deze bewerken en uw wijzigingen opslaan. Zie [Resources voor Taakrecorder](../../dev-itpro/user-interface/task-recorder.md) voor meer informatie.
 
 ### <a name="connect-a-custom-help-site"></a>Verbinding maken met een aangepaste Help-site
 
-Apps voor financiële en bedrijfsactiviteiten worden zelden in hun kant-en-klare vorm gebruikt. In plaats daarvan wordt de oplossing aangepast en uitgebreid om aan de behoeften van de organisatie te voldoen. U kunt de Help-ervaring ook aanpassen en uitbreiden. U kunt bijvoorbeeld aangepaste Help toevoegen aan het deelvenster **Help** in het product.
+Apps voor financiën en bedrijfsactiviteiten worden zelden in hun kant-en-klare vorm gebruikt. In plaats daarvan wordt de oplossing aangepast en uitgebreid om aan de behoeften van de organisatie te voldoen. U kunt de Help-ervaring ook aanpassen en uitbreiden. U kunt bijvoorbeeld aangepaste Help toevoegen aan het deelvenster **Help** in het product.
 
 Microsoft heeft een toolkit geleverd waarmee u aangepaste Help kunt implementeren en kunt koppelen aan het deelvenster **Help**. Zie [Overzicht van aangepaste Help](../../dev-itpro/help/custom-help-overview.md) voor informatie over het instellen van een aangepaste Help-oplossing die is gekoppeld aan het deelvenster **Help**.
 
@@ -103,3 +103,4 @@ Als u wilt samenwerken met Microsoft aan hulpprogramma's en processen voor het a
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

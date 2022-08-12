@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 10c5d9eb3f98887be976c2331f4d34530628702c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 02ab3675db0d78efa1e4e43188d79bb1e763a713
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895271"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111813"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Bijwerken naar het model voor partij en globaal adresboek
 
@@ -24,7 +24,7 @@ ms.locfileid: "8895271"
 
 De [Microsoft Azure Data Factory-sjablonen](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema) helpen u bij het upgraden van de volgende bestaande gegevens met twee keer wegschrijven naar het partij- en globale adresboekmodel: gegevens in de tabellen **Account**, **Contactpersoon** en **Leverancier** en post- en elektronische adressen.
 
-De volgende drie Data Factory-sjablonen zijn beschikbaar. Met de sjabloon worden de gegevens van zowel apps voor financiële en bedrijfsactiviteiten als apps voor klantbetrokkenheid afgestemd.
+De volgende drie Data Factory-sjablonen zijn beschikbaar. Met de sjablonen worden de gegevens van zowel apps voor financiën en bedrijfsactiviteiten als apps voor Customer Engagement-apps afgestemd.
 
 - **[Partijsjabloon](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/arm_template.json) (Upgrade data to dual-write Party-GAB schema/arm_template.json)**: deze sjabloon helpt bij het bijwerken van gegevens van het type **Partij** en **Contactpersoon** die zijn gekoppeld aan gegevens in de tabellen **Account**, **Contactpersoon** en **Leverancier**.
 - **[Sjabloon Postadres van partij](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Postal%20Address%20-%20GAB/arm_template.json) (Upgrade data to dual-write Party-GAB schema/Upgrade to Party Postal Address - GAB/arm_template.json)**: met deze sjabloon kunt u de postadressen bijwerken die zijn gekoppeld aan gegevens in de tabellen **Account**, **Contactpersoon** en **Leverancier**.
@@ -34,11 +34,11 @@ Aan het einde van het proces worden de volgende CSV-bestanden (Comma Separated V
 
 | Bestandsnaam | Doel |
 |---|---|
-| FONewParty.csv | Met dit bestand kunt u nieuwe **Partij**-records maken in de app voor financiële en bedrijfsactiviteiten. |
-| ImportFONewPostalAddressLocation.csv | Met dit bestand kunt u nieuwe **Postadreslocatie**-records maken in de app voor financiële en bedrijfsactiviteiten. |
-| ImportFONewPartyPostalAddress.csv | Met dit bestand kunt u nieuwe **Partijpostadres**-records maken in de app voor financiële en bedrijfsactiviteiten. |
-| ImportFONewPostalAddress.csv | Met dit bestand kunt u nieuwe **Postadres**-records maken in de app voor financiële en bedrijfsactiviteiten. |
-| ImportFONewElectronicAddress.csv | Met dit bestand kunt u nieuwe **Elektronische adres**-records maken in de app voor financiële en bedrijfsactiviteiten. |
+| FONewParty.csv | Met dit bestand kunt u nieuwe **Partij**-records maken in de app voor financiën en bedrijfsactiviteiten. |
+| ImportFONewPostalAddressLocation.csv | Met dit bestand kunt u nieuwe **Postadreslocatie**-records maken in de app voor financiën en bedrijfsactiviteiten. |
+| ImportFONewPartyPostalAddress.csv | Met dit bestand kunt u nieuwe **Partijpostadres**-records maken in de app voor financiën en bedrijfsactiviteiten. |
+| ImportFONewPostalAddress.csv | Met dit bestand kunt u nieuwe **Postadres**-records maken in de app voor financiën en bedrijfsactiviteiten. |
+| ImportFONewElectronicAddress.csv | Met dit bestand kunt u nieuwe **Elektronische adres**-records maken in de app voor financiën en bedrijfsactiviteiten. |
 
 In dit artikel wordt uitgelegd hoe u de Data Factory-sjablonen kunt gebruiken en uw gegevens kunt upgraden. Als u geen aanpassingen hebt, kunt u de sjablonen ongewijzigd gebruiken. Als u echter aanpassingen hebt voor gegevens van het type **Account**, **Contactpersoon** en **Leverancier**, moet u de sjablonen wijzigen zoals beschreven in dit artikel.
 
@@ -61,7 +61,7 @@ Voor een upgrade moet u de volgende voorbereidingen treffen:
 + **Integratiesleutels:** de tabellen **Account (klant)**, **Contactpersoon** en **Leverancier** in apps voor klantbetrokkenheid gebruiken de integratiesleutels die met het product worden meegeleverd. Als u de integratiesleutels hebt aangepast, moet u de sjabloon aanpassen.
 + **Partijnummer:** alle records uit de tabellen **Account (klant)**, **Contactpersoon** en **Leverancier** die worden bijgewerkt, hebben een partijnummer. Records zonder partijnummer worden genegeerd. Als u deze records wilt upgraden, voegt u er een partijnummer aan toe voordat u het upgradeproces start.
 + **Systeemstoring:** tijdens het upgradeproces moet u de client voor financiële en bedrijfsactiviteiten en de omgeving voor klantbetrokkenheid offline halen.
-+ **Momentopname**: maak een momentopname van apps voor financiële en bedrijfsactiviteiten en Customer Engagement-apps. U kunt vervolgens de momentopnamen om de vorige toestand te herstellen als dat nodig is.
++ **Momentopname**: maak een momentopname van zowel de apps voor financiën en bedrijfsactiviteiten als Customer Engagement-apps. U kunt vervolgens de momentopnamen om de vorige toestand te herstellen als dat nodig is.
 
 ## <a name="deployment"></a>Implementatie
 
@@ -120,7 +120,7 @@ In deze sectie worden de instellingen beschreven die vereist zijn voordat u de D
 
 ### <a name="setup-to-run-the-party-postal-address-template"></a>Instellingen voor het uitvoeren van de sjabloon Postadres partij
 
-1. Meld u aan bij apps voor klantbetrokkenheid en ga naar **Instellingen** \> **Persoonlijke instellingen**. Configureer vervolgens op het tabblad **Algemeen** de tijdzone-instelling voor de systeembeheerderaccount. De tijdzone moet in UTC (Coordinated Universal Time) zijn om de datums 'geldig vanaf' en 'geldig tot' van postadressen van apps voor financiële en bedrijfsactiviteiten te kunnen bijwerken.
+1. Meld u aan bij apps voor klantbetrokkenheid en ga naar **Instellingen** \> **Persoonlijke instellingen**. Configureer vervolgens op het tabblad **Algemeen** de tijdzone-instelling voor de systeembeheerderaccount. De tijdzone moet in UTC (Coordinated Universal Time) zijn om de datums 'geldig vanaf' en 'geldig tot' van postadressen van apps voor financiën en bedrijfsactiviteiten te kunnen bijwerken.
 
     ![Tijdzone-instelling voor de systeembeheerderaccount.](media/ADF-1.png)
 
@@ -128,7 +128,7 @@ In deze sectie worden de instellingen beschreven die vereist zijn voordat u de D
 
     | Nummer | Name | Type | Waarde |
     |---|---|---|---|
-    | 1 | PostalAddressIdPrefix | tekenreeks | Met deze parameter wordt een serienummer als voorvoegsel aan nieuwe postadressen toegevoegd. Zorg ervoor dat u een tekenreeks opgeeft die geen conflict veroorzaakt met postadressen in apps voor financiële en bedrijfsactiviteiten en apps voor klantbetrokkenheid. Gebruik bijvoorbeeld **ADF-PAD-**. |
+    | 1 | PostalAddressIdPrefix | tekenreeks | Met deze parameter wordt een serienummer als voorvoegsel aan nieuwe postadressen toegevoegd. Zorg ervoor dat u een tekenreeks opgeeft die geen conflict veroorzaakt met postadressen in apps voor financiën en bedrijfsactiviteiten en Customer Engagement-apps. Gebruik bijvoorbeeld **ADF-PAD-**. |
 
     ![Algemene parameter PostalAddressIdPrefix die op het tabblad Beheren is gemaakt.](media/ADF-2.png)
 
@@ -142,8 +142,8 @@ In deze sectie worden de instellingen beschreven die vereist zijn voordat u de D
 
     | Nummer | Name | Type | Waarde |
     |---|---|---|---|
-    | 1 | IsFOSource | bool | Deze parameter bepaalt welke primaire systeemadressen bij conflicten worden vervangen. Als de waarde **waar** is, vervangen de primaire adressen in apps voor financiële en bedrijfsactiviteiten de primaire adressen in apps voor klantbetrokkenheid. Als de waarde **onwaar** is, vervangen de primaire adressen in Customer Engagement-apps de primaire adressen in apps voor financiële en bedrijfsactiviteiten. |
-    | 2 | ElectronicAddressIdPrefix | tekenreeks | Met deze parameter wordt een serienummer als voorvoegsel aan nieuwe elektronische adressen toegevoegd. Zorg ervoor dat u een tekenreeks opgeeft die geen conflict veroorzaakt met elektronische adressen in apps voor financiële en bedrijfsactiviteiten en apps voor klantbetrokkenheid. Gebruik bijvoorbeeld **ADF-EAD-**. |
+    | 1 | IsFOSource | bool | Deze parameter bepaalt welke primaire systeemadressen bij conflicten worden vervangen. Als de waarde **waar** is, vervangen de primaire adressen in apps voor financiën en bedrijfsactiviteiten de primaire adressen in Customer Engagement-apps. Als de waarde **onwaar** is, vervangen de primaire adressen in Customer Engagement-apps de primaire adressen in apps voor financiën en bedrijfsactiviteiten. |
+    | 2 | ElectronicAddressIdPrefix | tekenreeks | Met deze parameter wordt een serienummer als voorvoegsel aan nieuwe elektronische adressen toegevoegd. Zorg ervoor dat u een tekenreeks opgeeft die geen conflict veroorzaakt met elektronische adressen in apps voor financiën en bedrijfsactiviteiten en Customer Engagement-apps. Gebruik bijvoorbeeld **ADF-EAD-**. |
 
     ![Algemene parameters IsFOSource en ElectronicAddressIdPrefix worden gemaakt op het tabblad Beheren.](media/ADF-4.png)
 
@@ -167,7 +167,7 @@ In deze sectie worden de instellingen beschreven die vereist zijn voordat u de D
 
 2. Zorg ervoor dat de kaarten worden verwijderd uit de tabel **msdy_dualwriteruntimeconfig** in Dataverse.
 3. Installeer [de oplossingen voor twee keer wegschrijven naar Partij en Globaal adresboek](https://aka.ms/dual-write-gab) uit AppSource.
-4. Als de volgende tabellen gegevens bevatten in de app voor financiële en bedrijfsactiviteiten, moet u **Initiële synchronisatie** uitvoeren:
+4. Als de volgende tabellen gegevens bevatten in de app voor financiën en bedrijfsactiviteiten, moet u **Initiële synchronisatie** uitvoeren:
 
     + Aanhef
     + Persoonlijke karaktertypen
@@ -267,10 +267,10 @@ In deze sectie worden de instellingen beschreven die vereist zijn voordat u de D
     > [!NOTE]
     > Als u aanpassingen hebt voor **Account**, **Contactpersoon** en **Leverancier**, moet u de sjabloon wijzigen.
 
-8. Importeer de nieuwe records voor **Partij** in de app voor financiële en bedrijfsactiviteiten.
+8. Importeer de nieuwe records voor **Partij** in de app voor financiën en bedrijfsactiviteiten.
 
     1. Download het bestand **FONewParty.csv** vanuit Azure Blob Storage. Het pad is **partybootstrapping/output/FONewParty.csv**.
-    2. Converteer het bestand **FONewParty.csv** naar een Excel-bestand en importeer het Excel-bestand in de app voor financiële en bedrijfsactiviteiten. Als de CSV-import voor u werkt, kunt u ook het CSV-bestand rechtstreeks importeren. Het kan enkele uren duren voordat deze stap is voltooid, afhankelijk van het gegevensvolume. Meer informatie vindt u in [Overzicht van gegevensimport- en exporttaken](../data-import-export-job.md).
+    2. Converteer het bestand **FONewParty.csv** naar een Excel-bestand en importeer het Excel-bestand in de app voor financiën en bedrijfsactiviteiten. Als de CSV-import voor u werkt, kunt u ook het CSV-bestand rechtstreeks importeren. Het kan enkele uren duren voordat deze stap is voltooid, afhankelijk van het gegevensvolume. Meer informatie vindt u in [Overzicht van gegevensimport- en exporttaken](../data-import-export-job.md).
 
     ![De Dataverse-partijrecords importeren.](media/data-factory-import-party.png)
 
@@ -281,7 +281,7 @@ In deze sectie worden de instellingen beschreven die vereist zijn voordat u de D
 
     ![De sjablonen voor het postadres van de partij en het elektronische adres van de partij uitvoeren.](media/ADF-7.png)
 
-10. Als u de app voor financiële en bedrijfsactiviteiten met deze gegevens wilt bijwerken, moet u de CSV-bestanden converteren naar een Excel-werkmap en deze [importeren in de app voor financiële en bedrijfsactiviteiten](../data-import-export-job.md). Als de CSV-import voor u werkt, kunt u ook de CSV-bestanden rechtstreeks importeren. Het kan enkele uren duren voordat deze stap is voltooid, afhankelijk van het volume.
+10. Als u de app voor financiën en bedrijfsactiviteiten met deze gegevens wilt bijwerken, moet u de CSV-bestanden converteren naar een Excel-werkmap en deze [importeren in de app voor financiën en bedrijfsactiviteiten](../data-import-export-job.md). Als de CSV-import voor u werkt, kunt u ook de CSV-bestanden rechtstreeks importeren. Het kan enkele uren duren voordat deze stap is voltooid, afhankelijk van het volume.
 
     ![Geslaagde import.](media/ADF-8.png)
 
@@ -364,9 +364,9 @@ In dit gedeelte doorloopt u de stappen in elke Data Factory-sjabloon.
 ### <a name="steps-in-the-party-template"></a>Stappen in de partijsjabloon
 
 1. In stap 1 tot en met 6 wordt bepaald welke bedrijven zijn ingeschakeld voor twee keer wegschrijven en wordt een filterclausule hiervoor gemaakt.
-2. In stappen 7-1 tot en met 7-9 worden gegevens opgehaald uit de app voor financiële en bedrijfsactiviteiten en de app voor klantbetrokkenheid en worden die gegevens gefaseerd voor een upgrade.
-3. In stappen 8 tot en met 9 het partijnummer voor records van het type **Account**, **Contactpersoon** en **Leverancier** vergeleken voor de app voor financiële en bedrijfsactiviteiten en de app voor klantbetrokkenheid. Records zonder partijnummer worden overgeslagen.
-4. In Stap 10 genereert u twee CSV-bestanden voor de partijrecords die moeten worden gemaakt in de app voor klantbetrokkenheid en de app voor financiële en bedrijfsactiviteiten.
+2. In stappen 7-1 tot en met 7-9 worden gegevens opgehaald uit de app voor financiën en bedrijfsactiviteiten en de Customer Engagement-app en worden die gegevens gefaseerd voor een upgrade.
+3. In stappen 8 tot en met 9 wordt het partijnummer voor records van het type **Account**, **Contactpersoon** en **Leverancier** vergeleken voor de app voor financiën en bedrijfsactiviteiten en de Customer Engagement-app. Records zonder partijnummer worden overgeslagen.
+4. In stap 10 worden u twee CSV-bestanden gegenereerd voor de partijrecords die moeten worden gemaakt in de Customer Engagement-app en de app voor financiën en bedrijfsactiviteiten.
 
     - **FOCDSParty.csv**: dit bestand bevat alle partijrecords van beide systemen, ongeacht of het bedrijf is ingeschakeld voor twee keer wegschrijven.
     - **FONewParty.csv**: dit bestand bevat een subset van de partijrecords waarvan Dataverse zich bewust is (bijvoorbeeld accounts van het type **Prospect**).
@@ -382,12 +382,12 @@ In dit gedeelte doorloopt u de stappen in elke Data Factory-sjabloon.
 
 ### <a name="steps-in-the-party-postal-address-template"></a>Stappen in de sjabloon Postadres partij
 
-1. In stappen 1-1 tot en met 1-10 worden gegevens opgehaald uit de app voor financiële en bedrijfsactiviteiten en de app voor klantbetrokkenheid en worden die gegevens gefaseerd voor een upgrade.
-2. In stap 2 worden de postadresgegevens in de app voor financiële en bedrijfsactiviteiten gedenormaliseerd door het postadres en het postadres van de partij samen te voegen.
+1. In stappen 1-1 tot en met 1-10 worden gegevens opgehaald uit de app voor financiën en bedrijfsactiviteiten en de Customer Engagement-app en worden die gegevens gefaseerd voor een upgrade.
+2. In stap 2 worden de postadresgegevens in de app voor financiën en bedrijfsactiviteiten gedenormaliseerd door het postadres en het postadres van de partij samen te voegen.
 3. In stap 3 worden de adresgegevens voor accounts, contactpersonen en leveranciers gededupliceerd samengevoegd vanuit de app voor klantbetrokkenheid.
-4. In stap 4 worden CSV-bestanden voor de app voor financiële en bedrijfsactiviteiten gemaakt om nieuwe adresgegevens te maken die zijn gebaseerd op adressen van accounts, contactpersonen en leveranciers.
-5. In stap 5-1 worden CSV-bestanden gemaakt voor de app voor klantbetrokkenheid, waarmee alle adresgegevens kunnen worden gemaakt op basis van de app voor financiële en bedrijfsactiviteiten en de app voor klantbetrokkenheid.
-6. In stap 5-2 worden de CSV-bestanden geconverteerd naar de importindeling voor Finance and Operations voor handmatige import.
+4. In stap 4 worden CSV-bestanden voor de app voor financiën en bedrijfsactiviteiten gemaakt om nieuwe adresgegevens te maken die zijn gebaseerd op adressen van accounts, contactpersonen en leveranciers.
+5. In stap 5-1 worden CSV-bestanden gemaakt voor de Customer Engagement-app, waarmee alle adresgegevens kunnen worden gemaakt op basis van de app voor financiën en bedrijfsactiviteiten en de Customer Engagement-app.
+6. In stap 5-2 worden de CSV-bestanden geconverteerd naar de importindeling van de app voor financiën en bedrijfsactiviteiten voor handmatige import.
 
     - ImportFONewPostalAddressLocation.csv
     - ImportFONewPartyPostalAddress.csv
@@ -401,13 +401,13 @@ In dit gedeelte doorloopt u de stappen in elke Data Factory-sjabloon.
 
 ### <a name="steps-in-the-party-electronic-address-template"></a>Stappen in de sjabloon Elektronisch adres partij
 
-1. In stappen 1-1 tot en met 1-5 worden gegevens opgehaald uit de app voor financiële en bedrijfsactiviteiten en de app voor klantbetrokkenheid en worden die gegevens gefaseerd voor een upgrade.
+1. In stappen 1-1 tot en met 1-5 worden gegevens opgehaald uit de app voor financiën en bedrijfsactiviteiten en de Customer Engagement-app en worden die gegevens gefaseerd voor een upgrade.
 2. In stap 2 worden elektronische adressen in de app voor klantbetrokkenheid geconsolideerd vanuit account-, contactpersoon- en leveranciersentiteiten.
-3. In stap 3 worden primaire elektronische adresgegevens van de app voor klantbetrokkenheid en de app voor financiële en bedrijfsactiviteiten samengevoegd.
+3. In stap 3 worden primaire elektronische adresgegevens van de Customer Engagement-app en de app voor financiën en bedrijfsactiviteiten samengevoegd.
 4. In stap 4 worden CSV-bestanden gemaakt.
 
-    - Maak nieuwe elektronische adresgegevens voor de app voor financiële en bedrijfsactiviteiten op basis van account-, contactpersoon- en leveranciersadressen.
-    - Maak nieuwe elektronische adresgegevens voor de app voor klantbetrokkenheid op basis van elektronisch adres, account-, contactpersoon- en leveranciersadressen in de app voor financiële en bedrijfsactiviteiten.
+    - Maak nieuwe elektronische adresgegevens voor de app voor financiën en bedrijfsactiviteiten op basis van account-, contactpersoon- en leveranciersadressen.
+    - Maak nieuwe elektronische adresgegevens voor de Customer Engagement-app op basis van elektronisch adres, account-, contactpersoon- en leveranciersadressen in de app voor financiën en bedrijfsactiviteiten.
 
 5. In stap 5-1 worden elektronische adressen geïmporteerd in de app voor klantbetrokkenheid.
 6. In stap 5-2 worden CSV-bestanden gemaakt om primaire adressen voor accounts en contactpersonen bij te werken in de app voor klantbetrokkenheid.
@@ -425,3 +425,4 @@ In dit gedeelte doorloopt u de stappen in elke Data Factory-sjabloon.
 ## <a name="learn-more-about-the-template"></a>Meer informatie over de sjabloon
 
 Zie [leesmij-bestand Opmerkingen voor Azure Data Factory-sjabloon](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md) voor meer informatie over de sjabloon.
+

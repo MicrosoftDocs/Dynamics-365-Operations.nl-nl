@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-10-04
-ms.openlocfilehash: 3ae78077fc716311c38620b14665af3983a44c2d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 16c79a788b66830b77b2cdfb33fd2416c530f7d2
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884078"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111561"
 ---
 # <a name="errors-codes-for-the-table-map-health-check"></a>Foutencodes voor de statuscontrole van de tabeltoewijzing
 
@@ -26,9 +26,9 @@ In dit artikel worden foutcodes voor de statuscontrole van een tabeltoewijzing b
 
 ## <a name="error-100"></a>Fout 100
 
-De foutmelding is 'Minimale vereiste Finance and Operations-platformversie is PU 43 voor het uitvoeren van Finance and Operations-aanbevelingen'.
+De foutmelding is 'Minimale vereiste Finance +Operations-platformversie is PU 43 voor het uitvoeren van Finance + Operations-aanbevelingen'.
 
-Voor deze functie zijn platformupdates nodig voor versie 10.0.19 of hoger van apps voor financiële en bedrijfsactiviteiten.
+Voor deze functie zijn platformupdates nodig voor versie 10.0.19 of hoger van apps voor financiën en bedrijfsactiviteiten.
 
 ## <a name="error-400"></a>Fout 400
 
@@ -44,7 +44,7 @@ Controleer de toewijzingen voor de tabeltoewijzing. Als deze unidirectioneel zij
 
 De foutmelding is 'Ongeldige opmaak van bronfilter \{sourceFilter\} voor entiteit \{Finance and Operations UniqueEntityName\}.'
 
-Het bronfilter dat is opgegeven voor de tabeltoewijzing voor apps voor financiële en bedrijfsactiviteiten is syntactisch niet correct. Zie [Problemen met live synchronisatie oplossen](dual-write-troubleshooting-live-sync.md#live-synchronization-issues-that-are-caused-by-incorrect-query-filter-syntax-on-the-dual-write-maps) om de filtercriteria valideren.
+Het bronfilter dat is opgegeven voor de tabeltoewijzing voor apps voor financiën en bedrijfsactiviteiten is syntactisch niet correct. Zie [Problemen met live synchronisatie oplossen](dual-write-troubleshooting-live-sync.md#live-synchronization-issues-that-are-caused-by-incorrect-query-filter-syntax-on-the-dual-write-maps) om de filtercriteria valideren.
 
 ## <a name="error-1000"></a>Fout 1000
 
@@ -56,7 +56,7 @@ De entiteitsquery die is geretourneerd, is de ondersteunings-SQL-query voor de e
 
 De foutmelding is "Virtuele velden \{s.EntityFieldName\} voor entiteit \{Finance and Operations EntityMetadata.EntityProperties.LogicalEntityName\} mogen niet worden bijgehouden voor twee keer wegschrijven."
 
-Virtuele velden van Finance and Operations-tabellen zijn niet ingeschakeld voor tracering. Via live synchronisatie kunnen de gegevens worden gesynchroniseerd, maar de wijzigingen die in de kolommen zijn aangebracht, kunnen niet worden verzameld.
+Virtuele velden van Finance + Operations-tabellen zijn niet ingeschakeld voor tracering. Via live synchronisatie kunnen de gegevens worden gesynchroniseerd, maar de wijzigingen die in de kolommen zijn aangebracht, kunnen niet worden verzameld.
 
 ## <a name="error-1500"></a>Fout 1500
 
@@ -68,7 +68,7 @@ De gegevensbron van de entiteit heeft geen veld dat is toegewezen voor twee keer
 
 De foutmelding is 'Gegevensbron: \{datasource.DataSourceName\} voor entiteit \{Finance and Operations EntityMetadata.EntityProperties.LogicalEntityName\} heeft een bereik. Alleen records die voldoen aan de bereikvoorwaarde worden opgehaald voor uitgaand.'
 
-Entiteiten in apps voor financiële en bedrijfsactiviteiten kunnen gegevensbronnen hebben waar filterbereiken zijn ingeschakeld. Met deze bereiken worden de records bepaald die worden opgehaald als onderdeel van live synchronisatie. Als sommige records worden overgeslagen van apps voor financiële en bedrijfsactiviteiten naar Dataverse, controleert u of de records voldoen aan de bereikcriteria voor de entiteit. Een eenvoudige manier om deze controle uit te voeren, is een SQL-query uit te voeren die op het volgende voorbeeld lijkt.
+Entiteiten in apps voor financiële en bedrijfsactiviteiten kunnen gegevensbronnen hebben waar filterbereiken zijn ingeschakeld. Met deze bereiken worden de records bepaald die worden opgehaald als onderdeel van live synchronisatie. Als sommige records worden overgeslagen van apps voor financiën en bedrijfsactiviteiten naar Dataverse, controleert u of de records voldoen aan de bereikcriteria voor de entiteit. Een eenvoudige manier om deze controle uit te voeren, is een SQL-query uit te voeren die op het volgende voorbeeld lijkt.
 
 ```sql
 select * from <EntityName> where <filter criteria for the records> on SQL.
@@ -86,7 +86,7 @@ De foutmelding is 'Gegevensbron: {} voor entiteit CustCustomerV3Entity bevat een
 Als er een bereik is opgegeven voor de entiteit in de apps voor financiën en bedrijfsactiviteiten, moet de inkomende synchronisatie van Dataverse naar apps voor financiën en bedrijfsactiviteiten worden getest op bijwerkgedrag in records die niet aan deze bereikcriteria voldoen. Alle records die niet overeenkomen met het bereik, worden door de entiteit behandeld als een invoegbewerking. Als er een bestaande record in de onderliggende tabel aanwezig is, mislukt de invoeging. Het is raadzaam om deze use case voor alle scenario's te testen voordat u deze implementeert voor de productie.
 
 ## <a name="error-1900"></a>Fout 1900
-De foutmelding is 'Entiteit bevat {} gegevensbronnen die niet worden bijgehouden voor uitgaand twee keer wegschrijven. Dit kan gevolgen hebben voor de prestaties van live synchronisatiequery's. Modelleer de entiteit opnieuw in Finance and Operations om ongebruikte gegevensbronnen en tabellen te verwijderen of getEntityRecordIdsImpactedByTableChange te implementeren om de runtimequery's te optimaliseren."
+De foutmelding is 'Entiteit bevat {} gegevensbronnen die niet worden bijgehouden voor uitgaand twee keer wegschrijven. Dit kan gevolgen hebben voor de prestaties van live synchronisatiequery's. Modelleer de entiteit opnieuw in Finance + Operations om ongebruikte gegevensbronnen en tabellen te verwijderen of getEntityRecordIdsImpactedByTableChange te implementeren om de runtimequery's te optimaliseren."
 
 Als er veel gegevensbronnen zijn die niet worden gebruikt voor traceren in de werkelijke live synchronisatie van de apps voor financiën en bedrijfsactiviteiten, is het mogelijk dat de prestaties van entiteiten de live synchronisatie beïnvloeden. Als u de bijgehouden tabellen wilt optimaliseren, gebruikt u de methode getEntityRecordIdsImpactedByTableChange.
 
@@ -96,3 +96,4 @@ De foutmelding is 'Synchrone invoegtoepassingen worden geregistreerd voor gegeve
 Synchrone invoegtoepassingen in een Dataverse-entiteit kunnen van invloed zijn op de prestaties van live synchronisatie en initiële synchronisatie bij toevoeging aan de transactiebelasting. De aanbevolen benadering is om de invoegtoepassingen uit te schakelen of om deze invoegtoepassingen asynchroon te maken als u bij initiële synchronisatie of live synchronisatie te maken krijgt met trage laadtijden voor een bepaalde entiteit.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+
