@@ -2,49 +2,61 @@
 title: Modus voor het maken van asynchrone klanten
 description: In dit artikel wordt de modus voor het maken van asynchrone klanten in Microsoft Dynamics 365 Commerce beschreven.
 author: gvrmohanreddy
-ms.date: 12/10/2021
+ms.date: 08/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-12-17
-ms.openlocfilehash: 4ca63fe06a804035e976a3432454078c1cca0020
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1ac1bc842d5d12ece8951ffed18157e6f9b50d14
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880135"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228718"
 ---
 # <a name="asynchronous-customer-creation-mode"></a>Modus voor het maken van asynchrone klanten
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In dit artikel wordt de modus voor het maken van asynchrone klanten in Microsoft Dynamics 365 Commerce beschreven.
 
-In Commerce zijn er twee manieren om klanten te maken: synchroon en asynchroon. Klanten worden standaard synchroon gemaakt. Dit wil zeggen dat ze in realtime worden gemaakt in Commerce Headquarters. De modus voor het maken van synchrone klanten is nuttig omdat nieuwe klanten onmiddellijk in verschillende kanalen kunnen worden gezocht. Deze heeft echter ook een nadeel. Aangezien er [Commerce Data Exchange: realtime service](dev-itpro/define-retail-channel-communications-cdx.md#realtime-service)-aanroepen naar Commerce Headquarters worden gegenereerd, kan dit gevolgen hebben voor de prestaties als er veel gelijktijdige aanroepen worden gedaan voor het maken van klanten.
+In Commerce zijn er twee manieren om klanten te maken: synchroon en asynchroon. Klanten worden standaard synchroon gemaakt. Dit wil zeggen dat ze in realtime worden aangemaakt in Commerce headquarters. De modus voor het maken van synchrone klanten is nuttig omdat nieuwe klanten onmiddellijk in verschillende kanalen kunnen worden gezocht. Deze heeft echter ook een nadeel. Aangezien er [Commerce Data Exchange: realtime service](dev-itpro/define-retail-channel-communications-cdx.md#realtime-service)-aanroepen naar Commerce Headquarters worden gegenereerd, kan dit gevolgen hebben voor de prestaties als er veel gelijktijdige aanroepen worden gedaan voor het maken van klanten.
 
 Als de optie **Klant maken in asynchrone modus** is ingesteld op **Ja** in het functionaliteitsprofiel van de winkel (**Retail en Commerce \> Afzetkanaalinstellingen \> Onlinewinkel instellen \> Functionaliteitsprofielen**), worden realtime service-aanroepen niet gebruikt om klantrecords te maken in de afzetkanaaldatabase. De modus voor het maken van asynchrone klanten heeft geen invloed op de prestaties van Commerce Headquarters. Een tijdelijke Globally Unique Identifier (GUID) wordt toegewezen aan elke nieuwe asynchrone klantrecord en wordt gebruikt als de klantrekening-id. Deze GUID wordt niet weergegeven voor POS-gebruikers. In plaats daarvan krijgen deze gebruikers de **In afwachting van synchronisatie** te zien als klantrekening-id.
 
 > [!IMPORTANT]
-> Wanneer het POS offline gaat, maakt het systeem de klanten automatisch asynchroon aan, zelfs wanneer de modus voor het maken van asynchrone klanten is uitgeschakeld. Commerce Headquarters-beheerders moeten daarom, ongeacht of er nu synchrone of asynchrone klanten worden gemaakt, een terugkerende batchtaak aanmaken en inplannen voor de **P-taak**, de taak **Klanten en zakenpartners synchroniseren vanuit asynchrone modus** (eerder ook wel **Klanten en zakenpartners synchroniseren vanuit asynchrone modus** genoemd) en de taak **1010**, zodat alle asynchrone klanten worden geconverteerd naar synchrone in Commerce Headquarters.
+> Wanneer het POS offline gaat, maakt het systeem de klanten automatisch asynchroon aan, zelfs wanneer de modus voor het maken van asynchrone klanten is uitgeschakeld. Daarom moeten beheerders van Commerce headquarters, onafhankelijk van de keuze voor synchrone of asynchrone aanmaak van klanten, een terugkerende batchtaak aanmaken en inplannen voor de **P-taak**, de taak **Klanten en zakenpartners synchroniseren vanuit de asynchrone modus** en de taak **1010**, zodat eventuele asynchrone klanten worden geconverteerd naar synchronisatieklanten in Commerce headquarters.
 
 ## <a name="async-customer-limitations"></a>Beperkingen van asynchrone klanten
 
-De functionaliteit voor asynchrone klanten heeft momenteel de volgende beperkingen:
+De functionaliteit voor asynchrone klanten heeft momenteel de volgende beperking:
 
-- Asynchrone klantrecords kunnen niet worden bewerkt tenzij de klant is gemaakt in Commerce Headquarters en de nieuwe klantrekening-id weer met het afzetkanaal is gesynchroniseerd.
 - Loyaliteitskaarten kunnen alleen aan asynchrone klanten worden uitgegeven als de nieuwe klantrekening-id is gesynchroniseerd met het afzetkanaal.
 
 ## <a name="async-customer-enhancements"></a>Verbeteringen in asynchrone klanten
 
-Vanaf versie 10.0.24 van Commerce kunt u de functie **Verbeterde functie voor maken van asynchrone klanten** in de werkruimte **Functiebeheer** inschakelen. Met deze functie wordt de lacune tussen de modi voor het maken van asynchrone en synchrone klanten in POS en e-commerce op de volgende manieren gesynchroniseerd:
+De volgende verbeteringen zijn uitgerold om te zorgen voor pariteit tussen synchrone en asynchrone modi in kanalen, om organisaties te helpen bij het gebruik van asynchrone aanmaak van klanten om klanten te beheren en om te helpen de realtime communicatie met Commerce headquarters te verminderen. 
 
-- Aansluitingen kunnen niet aan asynchrone klanten worden gekoppeld.
-- Titels kunnen aan asynchrone klanten worden toegevoegd.
-- Secundaire e-mailadressen en telefoonnummers kunnen worden vastgelegd voor asynchrone klanten.
+| Functieverbetering | Commerce versie | Functiedetails |
+|---|---|---|
+| Prestatieverbeteringen wanneer klantgegevens worden opgehaald uit de kanaaldatabase | 10.0.20 en later | De klantentiteit is opgesplitst in kleinere entiteiten om de prestaties te verbeteren. Het systeem haalt vervolgens alleen de vereiste informatie op uit de kanaaldatabase. |
+| De mogelijkheid om asynchrone adressen aan te maken tijdens het uitchecken | 10.0.22 en later | <p>Functieschakelaar: **Asynchroon aanmaken van klantadressen inschakelen**</p><p>Informatie functie:</p><ul><li>De mogelijkheid om adressen toe te voegen zonder dat er realtime serviceaanroepen worden gedaan naar Commerce headquarters</li><li>De mogelijkheid om adressen in de kanaaldatabase uniek te identificeren zonder een record-ID te gebruiken (waarde **RecId**)</li><li>Traceringstijden voor het aanmaken van adressen</li><li>Synchronisatie van adressen in Commerce headquarters</li></ul><p>Deze functie is zowel van invloed op synchrone als asynchrone klanten. De functie **Klanten bewerken in asynchrone modus** moet worden ingeschakeld om naast het asynchroon aanmaken van adressen deze adressen asynchroon te kunnen bewerken .</p> |
+| Pariteit inschakelen tussen het aanmaken van synchrone en asynchrone klanten. | 10.0.24 en later | <p>Functieschakelaar: **Geavanceerd asynchrone klanten aanmaken inschakelen**</p><p>Informatie functie: De mogelijkheid om extra informatie vast te leggen, zoals de titel, aansluitingen van de standaardklant en secundaire contactgegevens (telefoonnummer en e-mailadres), terwijl u klanten asynchroon aanmaakt</p> |
+| Gebruiksvriendelijke foutberichten | 10.0.28 en later | Deze verbeteringen helpen bij het verbeteren van gebruiksvriendelijke foutberichten als een gebruiker niet onmiddellijk informatie kan bewerken terwijl de synchronisatie wordt uitgevoerd. U kunt deze verbeteringen inschakelen door de instelling **Bepaalde UI-elementen niet laten bewerken door een asynchrone klant** onder **Site-instellingen \> Uitbreidingen** in Commerce site builder te gebruiken. |
+| De mogelijkheid om klantgegevens asynchroon te bewerken | 10.0.29 en later | <p>Functieschakelaar: **Klanten bewerken in asynchrone modus inschakelen**</p><p>Informatie functie: De mogelijkheid om klantgegevens asynchroon te bewerken</p><p>Raadpleeg [Modus voor het aanmaken van asynchrone klanten - veelgestelde vragen](async-customer-mode-faq.md) voor antwoorden op veel voorkomende vragen over problemen die betrekking hebben op het asynchroon bewerken van klantgegevens.</p> |
 
-Vanaf versie 10.0.22 van Commerce kunt u de functie **Asynchroon aanmaken voor klantadressen inschakelen** in de werkruimte **Functiebeheer** inschakelen. Met deze functie kunnen nieuwe klantadressen asynchroon worden opgeslagen voor synchrone en asynchrone klanten.
+### <a name="feature-switch-hierarchy"></a>Hiërarchie functieschakelaars
+
+Door de hiërarchie van functieschakelaars moet u, voordat u de functie **Klanten bewerken in asynchrone modus inschakelen** inschakelt, de volgende functies inschakelen: 
+
+- **Prestatieverbeteringen voor klantorders en klanttransacties**: deze functie is verplicht sinds de release van Commerce versie 10.0.28. 
+- **Verbeterde functies inschakelen voor het asynchroon aanmaken van klanten**
+- **Asynchrone aanmaak voor klantadressen inschakelen**
+
+Raadpleeg [Modus voor het aanmaken van asynchrone klanten - veelgestelde vragen](async-customer-mode-faq.md) voor antwoorden op algemene vragen met betrekking tot probleemoplossing. 
 
 Nadat u de eerder gemelde functies hebt ingeschakeld, moet u een terugkerende batchtaak maken en plannen voor de **P-taak**, de taak **Klanten en zakenpartners synchroniseren vanuit de asynchrone modus** en de taak **1010**, zodat eventuele asynchrone klanten worden geconverteerd naar synchrone klanten in Commerce Headquarters.
 

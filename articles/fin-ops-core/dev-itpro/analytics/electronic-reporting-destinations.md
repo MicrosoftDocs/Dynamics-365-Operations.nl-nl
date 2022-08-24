@@ -1,26 +1,26 @@
 ---
 title: Bestemmingen van elektronische rapportage (ER)
 description: Dit artikel biedt informatie over het beheer van ER-bestemmingen (elektronische rapportage), de ondersteunde typen bestemmingen en beveiligingsoverwegingen.
-author: nselin
+author: kfend
 ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: DocuType, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
-ms.author: mrolecki
+ms.author: filatovm
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: bc8ef4a5299e6daba79702fadd37284f752a54a7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423
+ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
+ms.search.form: DocuType, ERSolutionTable
+ms.openlocfilehash: 1718b9e32c1e9f34d38479b74d59af6233f82a8c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851072"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281962"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Bestemmingen van elektronische rapportage (ER)
 
@@ -118,7 +118,7 @@ Wanneer u bestandsbestemmingen voor een geselecteerde indeling configureert, con
 
 [![Configuratiekoppeling.](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
-Tegelijkertijd kunt u meerdere [versies](general-electronic-reporting.md#component-versioning) van de indeling hebben die zijn geïmporteerd in het huidige Finance-exemplaar. U kunt deze weergeven als u de koppeling **Configuratie** selecteert die wordt aangeboden wanneer u het veld **Verwijzing** selecteert.
+Tegelijkertijd kunt u meerdere versies van de indeling hebben die zijn geïmporteerd in het huidige Finance-exemplaar. U kunt deze weergeven als u de koppeling **Configuratie** selecteert die wordt aangeboden wanneer u het veld **Verwijzing** selecteert.
 
 [![Configuratieversies.](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
 
@@ -181,6 +181,16 @@ Vanaf Finance **versie 10.0.9** wordt alleen de liggende afdrukstand ondersteund
 
 Alleen de algemene systeemlettertypen van het Windows-besturingssysteem worden gebruikt om uitvoer te converteren die geen ingesloten lettertypen bevat.
 
+### <a name="resources"></a>Bronnen
+
+Vóór Finance versie 10.0.29 kon conversie naar PDF alleen worden uitgevoerd buiten de huidige instantie van Finance. Er is een gegenereerd bestand van Finance naar de conversieservice verzonden, waarna het geconverteerde document door deze service is geretourneerd. In versie **10.0.29 en hoger** kunt u echter, naast de functie **Voor elektronische rapportage uitgaande documenten met Microsoft Office-indelingen converteren naar PDF** de functie **Toepassingsbronnen gebruiken om de conversie van CBD-documenten van Word- naar PDF-indeling uit te voeren** inschakelen. Met deze functie kunt u gegenereerde Word-documenten lokaal converteren naar PDF-indeling met behulp van toepassingsserverbronnen in de huidige instantie van Finance. 
+
+Hier zijn de voordelen van lokale PDF-conversie wanneer de functie **Toepassingsbronnen gebruiken om de conversie van CBD-documenten van Word- naar PDF-indeling uit te voeren** is ingeschakeld:
+
+- Het geproduceerde PDF-documnent is niet [beperkt](#limitations) tot een maximum aantal pagina's.
+- Het geconverteerde Word-document kan een [groot aantal besturingselementen voor inhoud](https://fix.lcs.dynamics.com/Issue/Details?bugId=647877&dbType=3) bevatten.
+- Internetconnectiviteit is niet vereist voor on-premises-implementaties.
+
 ### <a name="use-the-pdf-conversion-option"></a>De optie PDF-conversie gebruiken
 
 Als u PDF-conversie voor een bestandsbestemming wilt inschakelen, schakelt u het selectievakje **Converteren naar PDF** in.
@@ -230,7 +240,7 @@ Selecteer een van de volgende waarden op het tabblad **Algemeen** in het veld **
 - **Afzonderlijke bestanden**: hiermee wordt elk bestand van een gegenereerd zip-bestand als een afzonderlijk bestand afgeleverd.
 
     > [!NOTE]
-    > Als u **Afzonderlijke bestanden** selecteert, wordt de gegenereerde uitvoer in het geheugen gecomprimeerd verzameld. Daarom wordt de maximale [limiet voor bestandsgrootte](er-compress-outbound-files.md) toegepast voor gecomprimeerde uitvoer wanneer de werkelijke bestandsgrootte deze limiet kan overschrijden. Het wordt aanbevolen deze waarde te selecteren wanneer u verwacht dat de gegenereerde uitvoer nogal groot is.
+    > Als u **Afzonderlijke bestanden** selecteert, wordt de gegenereerde uitvoer in het geheugen gecomprimeerd verzameld. Daarom wordt de maximale [limiet voor bestandsgrootte](er-compress-outbound-files.md) toegepast voor gecomprimeerde uitvoer wanneer de werkelijke bestandsgrootte deze limiet kan overschrijden. Het wordt aanbevolen deze waarde te selecteren wanneer u verwacht dat de gegenereerde uitvoer nogal groot zal zijn.
 
 [![Een bestemming configureren voor het mapindelingsonderdeel.](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
 

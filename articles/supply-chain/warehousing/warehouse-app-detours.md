@@ -4,19 +4,19 @@ description: In dit artikel wordt beschreven hoe u omleidingen configureert voor
 author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
-ms.search.form: ''
+ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 69090def1bba2f64ed21cca8b6d4629083aeb0c4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8106dd600e8eadbaafcaa4cbc27ec179899318f7
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863587"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218999"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Omleidingen configureren voor stappen in menu-items van mobiele apparaten
 
@@ -34,20 +34,8 @@ Een omleiding is een apart menu-item dat u kunt openen vanuit een stap in een ho
 Voordat u omleidingen voor stappen in menu-items van mobiele apparaten kunt configureren, moet u de volgende procedure uitvoeren om de vereiste functies in te schakelen en de vereiste veldnamen te genereren in de mobiele app Warehouse Management.
 
 1. Ga naar **Systeembeheer \> Werkruimten \> Functiebeheer**.
-1. Schakel in het [**Functiebeheer**-werkgebied](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) de functie in die wordt weergegeven op de volgende manier:
-
-    - **Module:** *Magazijnbeheer*
-    - **Functienaam:** *Schakel de stapinstructiesfunctie van de Warehouse-app in*
-
-    Zie voor meer informatie over de *stapinstructies voor de Warehouse-app* de informatie in [Stappentitels en instructies voor de mobiele app Warehouse Management aanpassen](mobile-app-titles-instructions.md). Deze functie is een vereiste voor de functie *Omleidingen in de app Warehouse Management*.
-
-1. Schakel de functie in die op de volgende manier wordt weergegeven:
-
-    - **Module:** *Magazijnbeheer*
-    - **Functienaam:** *Omleidingen van app Warehouse Management*
-
-    Deze functie is de functie die in dit artikel wordt beschreven.
-
+1. Zorg ervoor dat de functie *stap-instructies voor de magazijn-app* is ingeschakeld voor het systeem. Vanaf Supply Chain Management versie 10.0.29 is deze functie standaard ingeschakeld. Zie voor meer informatie over de *stapinstructies voor de Warehouse-app* de informatie in [Stappentitels en instructies voor de mobiele app Warehouse Management aanpassen](mobile-app-titles-instructions.md). Deze functie is een vereiste voor de functie *Omleidingen in de app Warehouse Management*.
+1. Schakel de functie *Omleidingen van app Warehouse Management* in. Deze functie is de enige functie die in dit artikel wordt beschreven.
 1. Werk de veldnamen in de mobiele app Warehouse Management bij door te gaan naar **Magazijnbeheer \> Instellingen \> Mobiel apparaat \> Veldnamen van Warehouse-app** en **Standaardinstelling maken** te selecteren. Zie [Velden configureren voor de mobiele app Magazijnbeheer](configure-app-field-names-priorities-warehouse.md) voor meer informatie.
 1. Herhaal de vorige stap voor elke rechtspersoon (bedrijf) waar u de mobiele app Warehouse Management gebruikt.
 
@@ -65,7 +53,7 @@ Dit scenario laat zien hoe u een locatievraag als een omleiding kunt configurere
 
 ### <a name="enable-sample-data"></a>Voorbeeldgegevens inschakelen
 
-Als u de gespecifieerde voorbeeldrecords en waarden wilt gebruiken voor dit scenario, moet u een systeem gebruiken waarop de standaard demogegevens zijn geïnstalleerd. U moet ook de rechtspersoon **USMF** selecteren voordat u begint.
+Als u de gespecifieerde voorbeeldrecords en -waarden wilt gebruiken om dit scenario te doorlopen, moet u een systeem gebruiken waarop de standaard [demogegevens](../../fin-ops-core/fin-ops/get-started/demo-data.md) zijn geïnstalleerd. U moet ook de rechtspersoon **USMF** selecteren voordat u begint.
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-1"></a>Een menuspecifieke overschrijving maken en de omleiding configureren voor scenario 1
 
@@ -118,7 +106,7 @@ U kunt het locatieonderzoek vervangen door een nummerplaatonderzoek of een artik
 
 ### <a name="enable-sample-data"></a>Voorbeeldgegevens inschakelen
 
-Als u de gespecifieerde voorbeeldrecords en waarden wilt gebruiken voor dit scenario, moet u een systeem gebruiken waarop de standaard demogegevens zijn geïnstalleerd. U moet ook de rechtspersoon **USMF** selecteren voordat u begint.
+Als u de gespecifieerde voorbeeldrecords en -waarden wilt gebruiken om dit scenario te doorlopen, moet u een systeem gebruiken waarop de standaard [demogegevens](../../fin-ops-core/fin-ops/get-started/demo-data.md) zijn geïnstalleerd. U moet ook de rechtspersoon **USMF** selecteren voordat u begint.
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-2"></a>Een menuspecifieke overschrijving maken en de omleiding configureren voor scenario 2
 

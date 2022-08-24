@@ -1,7 +1,7 @@
 ---
 title: Configuraties importeren voor het genereren van documenten die toepassingsgegevens bevatten
-description: Als u de stappen in deze procedure wilt voltooien, moet u eerst de procedure "ER Een configuratieprovider maken en deze als actief markeren" voltooien.
-author: NickSelin
+description: Als u de stappen in deze procedure wilt voltooien, moet u eerst de procedure 'ER - Een configuratieprovider aanmaken en deze als actief markeren' voltooien.
+author: kfend
 ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a75b268f2d8341c1a6dd0d3f1bd9dcb31d9084ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ccff17ad83b6840b5e8f327e24f8ac8a5e8ff620
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884136"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290569"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Configuraties importeren voor het genereren van documenten die toepassingsgegevens bevatten
 

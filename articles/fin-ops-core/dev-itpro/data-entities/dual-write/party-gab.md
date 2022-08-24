@@ -1,20 +1,20 @@
 ---
-title: Partij en globaal adresboek
+title: Partij- en globaal adresboek
 description: In dit artikel wordt de functionaliteit Adresboek van partij en globaal adresboek van Twee keer wegschrijven beschreven.
 author: RamaKrishnamoorthy
-ms.date: 04/25/2022
+ms.date: 08/02/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 91b56d091f549838092bdefe1a6a763fde79a32c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7f06b6e69b76bf12092fdceca5b45a6750b52233
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892188"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228985"
 ---
 # <a name="party-and-global-address-book"></a>Partij en globaal adresboek
 
@@ -119,11 +119,11 @@ Het raster bevat de volgende kolommen:
 
 Met de knop **Nieuw adres** boven het raster kunt u zoveel postadressen maken als u wilt.
 
-De velden **Adres 1** en **Adres 2** op het tabblad **Overzicht** van de pagina **Account** komen overeen met respectievelijk de adressen voor **Levering** en **Factuur**.
+Wanneer een gebruiker in toepassingen voor **klantcontacten** de adressen invoer op het tabblad **Overzicht** van de pagina Accounts, komen de velden **Adres 1** en **Adres 2** overeen met de adressen voor **Levering** en **Factuur**. Wanneer een gebruiker echter een postadres aanmaakt in de toepassingen voor Financiën en bewerkingen, worden de eerste twee adressen van de klantrecord weergegeven in de velden **Adres1** en **Adres2** en heeft de gebruiker de mogelijkheid om het doel van het adres te wijzigen in **Levering** en **Factuur**.
 
 ![Tabblad Overzicht voor postadressen.](media/party-gab-image5.png)
 
-De velden **Adres 1**, **Adres 2** en **Adres 3** op het tabblad **Overzicht** van de pagina **Contactpersoon** komen overeen met respectievelijk de adressen voor **Bedrijf**, **Levering** en **Factuur**.
+Vergelijkbaar komen de velden **Adres 1**, **Adres 2** en **Adres 3** op het tabblad **Overzicht** van de pagina **Contactpersoon** overeen met respectievelijk de adressen voor **Bedrijf**, **Levering** en **Factuur**.
 
 ## <a name="electronic-addresses"></a>Elektronische adressen
 

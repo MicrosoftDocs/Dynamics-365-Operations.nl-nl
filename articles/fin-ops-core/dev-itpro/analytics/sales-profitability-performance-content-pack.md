@@ -12,16 +12,15 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.custom:
-- "260674"
+ms.custom: 260674
 ms.assetid: ab457f02-929e-4d34-b813-335be3092287
 ms.search.form: SalesProfitabilityPerformancePowerBI
-ms.openlocfilehash: 2a3e0a46656f54a423a3bdfb05b87e3b7ad68efd
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: 77271ad9f5a1d7c131e1d7750de280f0c70daaa4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9205596"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274654"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Power BI-inhoud Verkoop- en winstgevendheidsprestaties
 
@@ -77,7 +76,7 @@ De Power BI-inhoud **Verkoop- en winstgevendheidsprestaties** bevat een rapport 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
 De volgende gegevens worden gebruikt om de rapportpagina's in de Power BI-inhoud **Verkoop- en winstgevendheidsprestaties** te vullen. Deze gegevens worden vertegenwoordigd door samengevoegde metingen die zijn klaargezet in de entiteitopslag. De entiteitopslag is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses. Zie voor meer informatie [Power BI-integratie met Entiteitopslag](power-bi-integration-entity-store.md).
 
-De samengevoegde metingen in dit inhoudpakket zijn de subset van de geaggregeerde metingen die beschikbaar waren in de Verkoop-cube in Microsoft Dynamics AX 2012 en Microsoft Dynamics AX 2012 R3. Om de samengevoegde metingen uit de cube in de Entiteitopslag klaar te zetten, moet u ze implementeerbaar maken. Zie voor meer informatie hierover de procedure voor het klaarzetten van samengevoegde metingen in de Entiteitopslag in het blog-artikel [Power BI-integratie met entiteitopslag in Dynamics](/archive/blogs/dynamicsaxbi/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update).
+De gecombineerde metingen in deze inhoud zijn de subset van de gecombineerde metingen die beschikbaar waren in de verkoop-cube in Microsoft Dynamics AX 2012 en Microsoft Dynamics AX 2012 R3. Om de samengevoegde metingen uit de cube in de Entiteitopslag klaar te zetten, moet u ze implementeerbaar maken. Zie voor meer informatie hierover de procedure voor het klaarzetten van samengevoegde metingen in de Entiteitopslag in het blog-artikel [Power BI-integratie met entiteitopslag in Dynamics](/archive/blogs/dynamicsaxbi/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update).
 
 De volgende belangrijke samengevoegde metingen van de entiteit Factuurregels worden gebruikt als basis voor de inhoud.
 
@@ -95,7 +94,7 @@ In de volgende tabel ziet u de belangrijkste samengevoegde metingen van de entit
 | Brutomarge      | SUM(Brutowinst / (Opbrengst - btw (opgenomen in bedrag klantfactuurregel)))             |
 | Opbrengst vorig jaar | Opbrengst vorig jaar = CALCULATE(SUM('Factuurregels\[Opbrengst\]), SAMEPERIODLASTYEAR(Datums\[Datum\])) |
 
-De volgende belangrijke dimensies in de Verkoop-cube worden gebruikt als filters voor het segmenteren van de samengevoegde metingen, zodat u een grotere mate van granulatie en analytischere inzichten kunt bereiken.
+De volgende belangrijke dimensies in de verkoop-cube worden gebruikt als filters voor het segmenteren van de gecombineerde metingen, zodat u een grotere mate van granulariteit en analytischere inzichten kunt bereiken.
 
 | Entiteit           | Voorbeelden van kenmerken                               |
 |------------------|------------------------------------------------------|

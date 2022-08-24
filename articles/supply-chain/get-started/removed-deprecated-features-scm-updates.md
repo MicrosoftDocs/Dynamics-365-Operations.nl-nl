@@ -2,7 +2,7 @@
 title: Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management
 description: In dit artikel worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering in Dynamics 365 Supply Chain Management.
 author: kamaybac
-ms.date: 04/27/2021
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7c7dd90fea79ae83d238ed51b9ec1fc42e9e36b2
-ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
+ms.openlocfilehash: f70d05f5663d8249b2435ad353421c278692a9ac
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "9171510"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218797"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management
 
@@ -33,6 +33,17 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 > [!NOTE]
 > Gedetailleerde informatie over objecten in apps voor financiën en bedrijfsactiviteiten is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van apps voor financiën en bedrijfsactiviteiten.
 
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10029-release"></a>Verwijderde of verouderde functies in versie 10.0.29 van Supply Chain Management
+
+### <a name="stock-transfer-orders-that-have-tax-on-the-transfer-price"></a>Voorraadtransferorders met belasting op de transferprijs
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Reden voor afschaffing/verwijdering** | De functionaliteit [voorraadtransferorders met belasting op de transferprijs](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md) wordt vervangen door de functionaliteit [voorraadtransferorders voor India](../../finance/localizations/apac-ind-stock-transfer.md). |
+| **Vervangen door een andere functie?**   | Ja, de functionaliteit [voorraadtransferorders met belasting op de transferprijs](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md) wordt vervangen door de functionaliteit [voorraadtransferorders voor India](../../finance/localizations/apac-ind-stock-transfer.md). |
+| **Betrokken productgebieden** | Supply Chain Management - voorraad |
+| **Implementatieoptie** | Cloud en on-premises |
+| **Status** | <p>Wordt afgeschaft. De functionaliteit *voorraadtransferorders met belasting op de transferprijs* wordt niet langer ondersteund met correcties voor fouten en beveiligingsfixes.</p><p>Na april 2023 wordt klanten gevraagd om standaard de verbeterde functionaliteit *Voorraadtransferorders voor India* te gebruiken. Na oktober 2023 is de functionaliteit *voorraadtransferorders met belasting op de transferprijs* niet langer beschikbaar en wordt klanten gevraagd de verbeterde functionaliteit *Voorraadtransferorders voor India* te gebruiken.</p><p>Raadpleeg [Voorraadtransferorders voor India](../../finance/localizations/apac-ind-stock-transfer.md) voor meer informatie.</p> |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Verwijderde of verouderde functies in versie 10.0.19 van Supply Chain Management
 

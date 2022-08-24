@@ -1,26 +1,26 @@
 ---
 title: Een ER-indeling ontwerpen om gegenereerde documenten in Excel te pagineren
 description: In dit artikel wordt uitgelegd hoe u een ER-indeling (elektronische rapportage) ontwerpt die een gegenereerd document pagineert in Microsoft Excel.
-author: NickSelin
+author: kfend
 ms.date: 09/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: Version 10.0.22
-ms.openlocfilehash: e8edc8bba62f74b4f81d423cf75b5fb87c01e43f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
+ms.search.form: EROperationDesigner
+ms.openlocfilehash: e4a34dffda9e9b95f5d6c7ee382723663817ec6b
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909273"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284996"
 ---
 # <a name="design-an-er-format-to-paginate-generated-documents-in-excel"></a>Een ER-indeling ontwerpen om gegenereerde documenten in Excel te pagineren
 
@@ -58,11 +58,11 @@ In dit scenario bent u vertegenwoordiger van Litware, Inc., dat momenteel is ges
 5. Voer in het veld **Naam** de waarde **Intrastat report Litware** in.
 6. Selecteer **Configuratie maken** om de nieuwe indeling te maken.
 
-Versie 1.9.1 van de ER-indelingsconfiguratie **Intrastat report Litware** wordt gemaakt. Deze versie heeft de [status](general-electronic-reporting.md#component-versioning) **Concept** en kan worden bewerkt. De huidige inhoud van uw aangepaste ER-indeling komt overeen met de inhoud van de indeling die wordt geleverd door Microsoft.
+Versie 1.9.1 van de ER-indelingsconfiguratie **Intrastat report Litware** wordt gemaakt. Deze versie heeft de status **Concept** en kan worden bewerkt. De huidige inhoud van uw aangepaste ER-indeling komt overeen met de inhoud van de indeling die wordt geleverd door Microsoft.
 
 ### <a name="make-the-custom-format-runnable"></a>De aangepaste indeling uitvoerbaar maken
 
-Nu de eerste versie van uw aangepaste indeling is gemaakt en de status **Concept** heeft , kunt u de indeling uitvoeren om hem te testen. Om het rapport uit te voeren, verwerkt u een leveranciersbetaling met behulp van de betalingsmethode die verwijst naar door u aangepaste ER-indeling. Wanneer u een ER-indeling aanroept vanuit de toepassing, worden standaard alleen de versies met de status **Voltooid** en **Gedeeld** [meegenomen](general-electronic-reporting.md#component-versioning). Dit gedrag voorkomt dat ER-indelingsprofielen met niet-voltooide ontwerpen worden gebruikt. Voor het testen kunt u de toepassing dwingen de versie van de ER-indeling te gebruiken met de status **Concept**. Op deze manier kunt u de versie van de huidige indelingsversie aanpassen als er wijzigingen nodig zijn. Meer informatie over dit onderwerp vindt u in [Toepasbaarheid](electronic-reporting-destinations.md#applicability).
+Nu de eerste versie van uw aangepaste indeling is gemaakt en de status **Concept** heeft , kunt u de indeling uitvoeren om hem te testen. Om het rapport uit te voeren, verwerkt u een leveranciersbetaling met behulp van de betalingsmethode die verwijst naar door u aangepaste ER-indeling. Wanneer u een ER-indeling aanroept vanuit de toepassing, worden standaard alleen versies met een status **Voltooid** en **Gedeeld** meegenomen. Dit gedrag voorkomt dat ER-indelingsprofielen met niet-voltooide ontwerpen worden gebruikt. Voor het testen kunt u de toepassing dwingen de versie van de ER-indeling te gebruiken met de status **Concept**. Op deze manier kunt u de versie van de huidige indelingsversie aanpassen als er wijzigingen nodig zijn. Meer informatie over dit onderwerp vindt u in [Toepasbaarheid](electronic-reporting-destinations.md#applicability).
 
 Als u de conceptversie van een ER-indeling wilt gebruiken, moet u de ER-indeling expliciet markeren.
 

@@ -1,7 +1,7 @@
 ---
 title: Overzicht België
 description: In dit artikel vindt u een overzicht van de specifieke functionaliteit voor België.
-author: anasyash
+author: AdamTrukawka
 ms.date: 05/27/2022
 ms.topic: overview
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: belgium
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: f8ee652523822d42d47fffa22760ca2ba3fe56e7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 498c6ff23ef6f9100c2cafcf600d1796f7af3bca
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902405"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279256"
 ---
 # <a name="belgium-overview"></a>Overzicht België
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a420a0a366e454df14d5fe994691829bc7950306
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 901683f2176189ce2f4186b4f9b3b5c64ec9f2b1
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895191"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227770"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Vooruitbetalingsfacturen versus vooruitbetalingen
 
@@ -78,6 +78,8 @@ De vooruitbetaling kan uit de inkooporder worden verwijderd, tenzij u al een bet
 Als u de vooruitbetalingsfactuur van de leverancier wilt vastleggen, gaat u naar de pagina **Leveranciersfactuur** door de optie **Vooruitbetalingsfactuur** te selecteren op de pagina **Inkooporders** (**Leveranciers \> Algemeen \> Inkooporders \> Alle inkooporders \> tabblad Factuur \> Vooruitbetalingsfactuur**). Voor gegevens in voor de aanbetalingsfactuur, waaronder het factuurnummer. U kunt de hoeveelheden voor een aanbetalingsfactuur niet wijzigen. Als de leverancier een gedeeltelijk bedrag van de vooruitbetalingswaarde heeft gefactureerd die is gedefinieerd op de inkooporder, kunt u de eenheidsprijs aanpassen aan de gedeeltelijke waarde.
 
 Het leverancierssaldo en de vooruitbetalingsrekening worden bijgewerkt wanneer de vooruitbetalingsfactuur wordt geboekt. De waarde van **Aanbetalingsaanvraag** in de vooruitbetalingsdefinitie op de inkooporder wordt ook bijgewerkt. De standaardboekposten voor financiële dimensies voor het geboekte vooruitbetalingsboekstuk worden uit de koptekstgegevens op de inkooporder gehaald.
+
+Als de functie **Financiële dimensies in factuurregels op aanbetalingsfactuur van leverancier vergrendelen** op de pagina **Functiebeheer** is ingeschakeld, kunnen de dimensies in de koptekst of regels van de aanbetaling niet worden bijgewerkt. 
 
 ## <a name="post-and-settle-payments-for-the-prepayment-invoice"></a>Betalingen voor de vooruitbetalingsfactuur boeken en vereffenen
 Vervolgens wordt de vooruitbetalingsfactuur betaald via de pagina **Betalingsjournaal**. Als u betalingsjournalen wilt openen, klikt u op **Leveranciers \> Journalen \> Betalingen \> Betalingsjournaal**. Na boeking van de vereffening van de betaling naar de vooruitbetalingsfactuur wordt de restwaarde van de **aanbetalingsaanvraag** van de inkooporder bijgewerkt.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 6d04ca43895935329b711f2658360c41f611975e
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 2b3c408f5a5e4ce85a235ac83c15b648e43b5e10
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065459"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220052"
 ---
 # <a name="warehouse-location-status"></a>Status magazijnlocatie
 
@@ -42,10 +42,7 @@ In de volgende vier velden op de pagina **Locaties** wordt informatie bijgehoude
 
 ## <a name="turn-on-the-warehouse-location-status-feature"></a>De functie Status magazijnlocatie inschakelen
 
-Voordat u de functie *Status magazijnlocatie* kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en desgewenst in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
-
-- **Module:** *Magazijnbeheer*
-- **Functienaam:** *Status magazijnlocatie*
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Vanaf Supply Chain Management versie 10.0.29 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Locatiestatus magazijn* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-warehouse-location-status"></a>De functie Status magazijnlocatie configureren
 
@@ -55,7 +52,7 @@ Voordat u het scenario gaat doorlopen, moet u voorbeeld gegevens activeren en de
 
 #### <a name="use-the-usmf-legal-entity"></a>De rechtspersoon USMF gebruiken
 
-Als u deze het voorbeeldscenario wilt doorlopen met de hier opgegeven voorbeeldrecords en -waarden, moet u een systeem gebruiken waarop de standaard [demogegevens](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) zijn geïnstalleerd. U moet daarnaast ook de rechtspersoon **USMF** selecteren voordat u begint.
+Als u deze het voorbeeldscenario wilt doorlopen met de hier opgegeven voorbeeldrecords en -waarden, moet u een systeem gebruiken waarop de standaard [demogegevens](../../fin-ops-core/fin-ops/get-started/demo-data.md) zijn geïnstalleerd. U moet daarnaast ook de rechtspersoon **USMF** selecteren voordat u begint.
 
 #### <a name="set-up-location-profiles"></a>Locatieprofielen instellen
 

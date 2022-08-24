@@ -1,26 +1,24 @@
 ---
-title: Problemen tijdens de initiële instelling oplossen
+title: Problemen tijdens het initiële instellen oplossen
 description: In dit artikel vindt u informatie over het oplossen van problemen die optreden tijdens de eerste installatie van de integratie van twee keer wegschrijven.
 author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2e2759ff15dd8d146c642fc0da90d1a38fe855d1
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: d33fc6f4895b53f16cc6957a3a2fc6b1abe90a2f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111195"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289509"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Problemen tijdens de initiële instelling oplossen
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 Dit artikel bevat informatie voor het oplossen van problemen met de integratie van Twee keer wegschrijven tussen apps voor financiën en bedrijfsactiviteiten en Dataverse. In dit onderwerp vindt u specifieke informatie over het oplossen van problemen die kunnen optreden tijdens de eerste installatie van de integratie van twee keer wegschrijven.
 
@@ -51,7 +49,7 @@ Tijdens het koppelen van de omgeving voor twee keer wegschrijven mislukt de acti
 
 *Verbindingsset opslaan is mislukt. Er is al een artikel met dezelfde sleutel toegevoegd.*
 
-Twee keer wegschrijven biedt geen ondersteuning voor meerdere rechtspersonen/bedrijven met dezelfde naam. Als u bijvoorbeeld twee bedrijven hebt met de naam 'DAT' in Dataverse, wordt dit foutbericht weergegeven.
+Twee keer wegschrijven biedt geen ondersteuning voor meerdere rechtspersonen/bedrijven met dezelfde naam. Als u bijvoorbeeld twee bedrijven hebt met als naam 'DAT' in Dataverse, wordt dit foutbericht weergegeven.
 
 Als u de blokkering van de klant wilt opheffen, verwijdert u dubbele records uit de tabel **cdm_company** in Dataverse. Verwijder of corrigeer die records ook als de tabel **cdm_company** records bevat waarvan de naam leeg is.
 
@@ -87,6 +85,19 @@ Er zijn twee zaken die een probleem kunnen veroorzaken met een omgeving die niet
 
 + De gebruiker die voor het aanmelden wordt gebruikt, bevindt zich niet in dezelfde tenant als het Finance + Operations-exemplaar.
 + Er zijn enkele verouderde exemplaren van Finance + Operations die door Microsoft werden gehost en waarbij een probleem optrad bij de detectie. U kunt dit verhelpen door het exemplaar van Finance + Operations bij te werken. De omgeving is bij elke update detecteerbaar.
+
+## <a name="403-forbidden-error-while-connections-are-being-created"></a>403 (Geen verbinding) tijdens het maken van verbindingen
+
+Als onderdeel van het twee keer wegschrijven-koppelingsproces, worden er twee Power Apps-verbindingen ( ook *Apihub*-verbindingen genoemd) aangemaakt namens de gebruiker in de gekoppelde Dataverse-omgeving. Als de klant geen licentie voor de Power Apps-omgeving heeft, mislukt het maken van de ApiHub-verbindingen en wordt er een 403-fout (Verboden) getoond. Hier volgt een voorbeeld van het volledige foutbericht:
+
+> MSG=\[Het instellen van de omgeving voor twee keer wegschrijven is mislukt. Informatie fout: Statuscode respons geeft geen positief resultaat aan: 403 (Verboden). - Statuscode respons geeft geen succes aan: 403 (Verboden).\] STACKTRACE=\[   at Microsoft.Dynamics.Integrator.ProjectManagementService.DualWrite.DualWriteConnectionSetProcessor.\<CreateDualWriteConnectionSetAsync\>d\_\_29.MoveNext() in X:\\bt\\1158727\\repo\\src\\ProjectManagementService\\DualWrite\\DualWriteConnectionSetProcessor.cs:line 297 --- Einde van stack trace van vorige locatie waar uitzondering is opgetreden --- at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task) at Microsoft.Dynamics.Integrator.ProjectManagementService.Controllers.DualWriteEnvironmentManagementController.\<SetupDualWriteEnvironmentAsync\>d\_\_34.MoveNext() in X:\\bt\\1158727\\repo\\src\\ProjectManagementService\\Controllers\\DualWriteEnvironmentManagementController.cs:line 265\]
+
+Deze fout treedt op als gevolg van het ontbreken van een Power Apps-licentie. Wijs een geschikte licentie (bijvoorbeeld Power Apps Trial 2 Plan) toe aan de gebruiker, zodat de gebruiker over machtigingen beschikt om de verbindingen te maken. Om de licentie te controleren, kan de klant naar de site [Mijn account](https://portal.office.com/account/?ref=MeControl#subscriptions) gaan om de licenties te bekijken die momenteel aan de gebruiker zijn toegewezen.
+
+Raadpleeg de volgende artikelen voor meer informatie over Power Apps-licenties:
+
+- [Licenties toewijzen aan gebruikers](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)
+- [Power Apps aanschaffen voor uw organisatie](/power-platform/admin/signup-for-powerapps-admin)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
 

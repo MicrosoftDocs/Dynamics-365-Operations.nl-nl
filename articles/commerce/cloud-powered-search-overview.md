@@ -7,18 +7,18 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8a3ab869eb9ddc0e73061bd2363cf9b3962da1e3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.openlocfilehash: ed80ff42ea5c6e6a904ea2855953d006f66aad37
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850351"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273661"
 ---
 # <a name="cloud-powered-search-overview"></a>Overzicht van zoekopdrachten via cloud
 
@@ -64,11 +64,14 @@ In de volgende afbeelding ziet u een voorbeeld waarin automatische suggesties wo
 
 ## <a name="sort"></a>Sorteren
 
-Dankzij de verbeterde sorteermogelijkheden in Commerce kunnen klanten de zoekresultaten sorteren, zoeken en bekijken, en deze verfijnen aan de hand van criteria zoals prijs, productnaam en productnummer. Klanten kunnen de resultaten ook sorteren op basis van het feit of een product nieuw is, best verkocht of onlangs is toegevoegd.
+Met de sorteerfunctionaliteit kunnen klanten de resultaten van categorieën sorteren, doorzoeken en bekijken en deze verfijnen aan de hand van criteria als prijs, productnaam en productnummer. Als u [productaanbevelingen](product-recommendations.md)in uw omgeving inschakelt, kunnen klanten resultaten ook sorteren op basis van geavanceerde sorteercriteria als nieuw, best verkopend en trendy.
+
 
 > [!NOTE]
 > Deze zoekmogelijkheden via de cloud zijn beschikbaar vanaf versie 10.0.8. Zorg ervoor dat onder **Commerce-parameters > Configuratieparameters** een vermelding bestaat voor 'ProductSearch.UseAzureSearch' die is ingesteld op 'true'. 
 ![Configuratieparameters voor zoekopdrachten via de cloud.](./media/CloudPoweredSearchConfigurationParameters.png)
+>Geavanceerde sorteeropties, zoals nieuw, best verkopend en trendy, zijn beschikbaar bij de Commerce SSK-versie van 9.35+ en release 10.0.20 van Dynamics 365 Commerce.  
+
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

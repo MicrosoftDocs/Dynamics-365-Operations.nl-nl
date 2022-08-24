@@ -1,24 +1,24 @@
 ---
 title: ER-bestemmingen configureren
 description: Deze procedure laat zien hoe u verschillende bestemmingen voor uitvoercomponenten voor ER (Elektronische rapportage) instelt en gebruikt, zoals een map of een bestand.
-author: NickSelin
+author: kfend
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERFormatDestinationTable, SysLookupPicklist, ERFormatDestinationSettings, ERFormatDestinationEmailSettings, ERExpressionDesignerFormula, SRSPrintDestinationTokens
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f1e679b52b28ff1ca117c5224fc7e2825feb26e5e5aea1c8b5bc3a88d1eaf235
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.form: ERFormatDestinationTable, SysLookupPicklist, ERFormatDestinationSettings, ERFormatDestinationEmailSettings, ERExpressionDesignerFormula, SRSPrintDestinationTokens
+ms.openlocfilehash: 3c8d03e9783013183fbe76cb36014fa9e1e1cbed
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743258"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291049"
 ---
 # <a name="er-configure-destinations"></a>ER-bestemmingen configureren
 
@@ -26,7 +26,7 @@ ms.locfileid: "6743258"
 
 Deze procedure laat zien hoe u verschillende bestemmingen voor uitvoercomponenten voor ER (Elektronische rapportage) instelt en gebruikt, zoals een map of een bestand. Het demobedrijf dat wordt gebruikt om deze procedure te maken is DEMF. Duitsland is het land\de regio van het primaire adres van de rechtspersoon, maar u kunt elke rechtspersoon voor deze procedure gebruiken. 
 
-De in dit voorbeeld gebruikte indeling is ISO20022 Kredietoverdracht, maar u kunt elke indeling gebruiken die u al hebt geïmporteerd. Deze procedure is een voorbeeld van het instellen van één bestand en één bestemming. Meer informatie over bestemmingsbeheer voor ER-rapportage vindt u in de Dynamics 365 Finance Help.
+De in dit voorbeeld gebruikte indeling is ISO20022 Kredietoverdracht, maar u kunt elke indeling gebruiken die u al hebt geïmporteerd. Deze procedure is een voorbeeld van het instellen van één bestand en één bestemming. Meer informatie over bestemmingsbeheer voor elektronische rapportage is te vinden in de Help van Dynamics 365 Finance.
 
 1. Ga naar Organisatiebeheer > Elektronische rapportage > Bestemming elektronische rapportage.
 2. Klik op Nieuw om een nieuwe set bestemmingen voor een indeling te maken.

@@ -7,18 +7,18 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5e61db026649df8fe331d107bfbda8246fb9d5f9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.openlocfilehash: 1f2e4eb8825dd690f926f7f0bdfc39f1eb5fb83c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881847"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276368"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Overzicht van de standaard landingspagina voor categorieën en pagina met zoekresultaten
 
@@ -46,6 +46,12 @@ De volgende onderdelen zijn essentieel voor een categorie:
     - Productnaam: \[Z-A\]
     - Beoordelingen: laag naar hoog
     - Beoordelingen: hoog naar laag
+
+- **Geavanceerde sorteeropties** worden gebruikt door websitebezoekers om de producten te sorteren met behulp van intelligente criteria. Dppr [Productaanbevelingen](product-recommendations.md) in te schaleken, zijn de volgende sorteeropties beschikbaar: Raadpleeg het artikel [Typen productaanbevelingen](product-recommendations.md#types-of-product-recommendations) voor meer informatie.
+
+    - Nieuw
+    - Meest verkocht
+    - Trending
 
 - **Paginering** zorgt dat websitebezoekers van de ene pagina met productresultaten naar een andere pagina worden verplaatst.
 - **Totaal aantal** bevat het totale aantal producten dat is gedefinieerd in een categorie.
@@ -78,7 +84,7 @@ De volgende onderdelen zijn essentieel voor een pagina met zoekresultaten:
 
 - **Met tegels voor productplaatsing** worden de producten voor de zoekactie van de gebruiker weergegeven. Deze tegels zijn standaard gesorteerd op zoekrelevantiescore op basis van de cloud voor de zoekopdrachten van gebruikers.
 - **Verfijningen en keuzeoverzicht** zijn filters die tellingen geven en die kunnen worden gebruikt om artikelen te verfijnen. De merchandisingmanager configureert deze als onderdeel van de configuratie van de metagegevens voor afzetkanaalcategorieën en productkenmerken.
-- **Sorteeropties** worden gebruikt door websitebezoekers om de producten te sorteren. De volgende sorteeropties zijn standaard beschikbaar:
+- **Standaard sorteeropties** worden gebruikt door websitebezoekers om de producten te sorteren. De volgende sorteeropties zijn standaard beschikbaar:
 
     - Prijs: laag naar hoog
     - Prijs: hoog naar laag
@@ -86,7 +92,16 @@ De volgende onderdelen zijn essentieel voor een pagina met zoekresultaten:
     - Productnaam: \[Z-A\]
     - Beoordelingen: laag naar hoog
     - Beoordelingen: hoog naar laag
-    - Standaard
+    - Standaard 
+    
+    > [!NOTE]
+    > Als er waarden voor **Weergavevolgorde** zijn gedefinieerd voor de producten in de navigatie-hiërarchie, geeft sorteren op een categoriepagina standaard de waarden weer die zijn gedefinieerd in **Weergavevolgorde**. Anders wordt er gesorteerd op **productnummer**.)
+    
+- **Geavanceerde sorteeropties** worden gebruikt door websitebezoekers om de producten te sorteren met behulp van intelligente criteria. Dppr [Productaanbevelingen](product-recommendations.md) in te schaleken, zijn de volgende sorteeropties beschikbaar: Raadpleeg het artikel [Typen productaanbevelingen](product-recommendations.md#types-of-product-recommendations) voor meer informatie.
+
+    - Nieuw
+    - Meest verkocht
+    - Trending
 
 - **Paginering** zorgt dat websitebezoekers van de ene pagina met productresultaten naar een andere pagina worden verplaatst.
 - **Totaal aantal** bevat het totale aantal producten dat is gedefinieerd in een categorie en dat voldoet aan de zoekcriteria.
@@ -94,6 +109,8 @@ De volgende onderdelen zijn essentieel voor een pagina met zoekresultaten:
 >[!NOTE]
 >Deze zoekmogelijkheden via de cloud zijn beschikbaar vanaf versie 10.0.8. Zorg ervoor dat onder **Commerce-parameters > Configuratieparameters** een vermelding bestaat voor ProductSearch.UseAzureSearch die is ingesteld op true. 
 ![Configuratieparameters voor zoekopdrachten via de cloud.](./media/CloudPoweredSearchConfigurationParameters.png)
+
+>Bovendien moet u [productaanbevelingen](product-recommendations.md) voor uw omgeving inschakelen om geavanceerde sorteeropties, zoals nieuw, meest verkopend en trending, te gebruiken. Geavanceerde sorteeropties zijn beschikbaar in Commerce SDK versie 9.35+ en Commerce versie 10.0.20.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

@@ -4,19 +4,19 @@ description: In dit artikel wordt beschreven hoe u aangepaste instructies kunt a
 author: Mirzaab
 ms.date: 08/11/2021
 ms.topic: article
-ms.search.form: ''
+ms.search.form: WHSMobileAppFlowStepListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 289a3735133919ae7dbad05c40ba9ccf0e8f57ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 40b2115126aae28a41feaec4d3aabd73595107cd
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895491"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220144"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>Staptitels en instructies aanpassen voor de mobiele app Warehouse Management
 
@@ -30,10 +30,7 @@ In dit artikel wordt beschreven hoe u aangepaste instructies kunt aanmaken en we
 
 ## <a name="turn-on-the-warehouse-app-step-instructions-feature"></a>Schakel de stapinstructiesfunctie van de Warehouse-app in
 
-Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)-instellingen om de status van de functie te controleren en deze in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
-
-- **Module:** *Magazijnbeheer*
-- **Functienaam:** *Schakel de stapinstructiesfunctie van de Warehouse-app in*
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Vanaf Supply Chain Management versie 10.0.29 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Stapinstructies van magazijnapp verwerken* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="step-titles-and-step-instructions-in-the-app"></a>Staptitels en stapinstructies in de app
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 833d6cc131b3fb45d273b60ecf6778b2be31fc8a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 87be947c829641ba809e6850ccf41ea6d142161d
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687102"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228955"
 ---
 # <a name="plan-type-overview"></a>Overzicht plantype
 
@@ -27,6 +27,8 @@ ms.locfileid: "8687102"
 [!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+[!include [banner](../includes/preview-banner.md)]
 
 Een plantype is een groepering op hoog niveau van specifieke typen vergoedingen. Elk plantype heeft een plantypecode waarmee de regels voor het plantype worden bepaald. Het plantype **Basis leven** heeft bijvoorbeeld de plantypecode **Leven**, omdat het een type levensverzekering is en moet voldoen aan de regels die zijn vastgelegd voor de plantypecode **Leven**. Een ander plantype kan **Aanvullend leven** zijn. Dit plantype heeft ook de plantypecode **Leven**.
 
@@ -67,12 +69,12 @@ Een plantype kan dekkingsopties definiëren. De dekkingsopties worden gedefiniee
    | --- | --- |
    | **Plantype** | Het plantype waarvoor u opties voor levensgebeurtenissen wilt configureren. |
    | **Type-id van levensgebeurtenis** | De id van het type levensgebeurtenis. |
-   | **Annulering toestaan** | Hiermee wordt opgegeven of een werknemer een vergoedingsplan kan annuleren tijdens de levensgebeurtenis. |
    | **Dekkingsoptie wijzigen** | Hiermee wordt opgegeven of een werknemer dekkingsopties kan wijzigen tijdens de levensgebeurtenis. |
    | **Wijzigen in een nieuw plan** | Hiermee wordt opgegeven of een werknemer van plan kan veranderen tijdens de levensgebeurtenis. |
-   | **Plan automatisch annuleren** | Hiermee wordt aangegeven of het plan automatisch wordt geannuleerd tijdens de levensgebeurtenis. |
-   | **Geschiktheidscontrole automatisch opnieuw openen** | Hiermee wordt aangegeven of de geschiktheidscontrole voor de vergoedinginschrijving automatisch opnieuw wordt geopend tijdens de levensgebeurtenis. |
-   | **Tijdsvenster voor rapportage** | Geeft het tijdsvenster in dagen op voor de rapportage van de levensgebeurtenis. **Opmerking**: als u geen tijdsduur invoert, wordt aangenomen dat het rapportagevenster nul is en wordt de levensgebeurtenis niet verwerkt. |
+   | **Geschiktheidscontrole automatisch opnieuw openen** | Geeft aan of de geschiktheidscontrole voor de vergoedinginschrijving automatisch opnieuw wordt geopend tijdens de levensgebeurtenis. |
+   | **Inschrijvingsperiode levensgebeurtenis** | Geeft het tijdsvenster in dagen op voor de rapportage van de levensgebeurtenis. **Opmerking**: als u geen tijdsduur invoert, wordt aangenomen dat het rapportagevenster nul is en wordt de levensgebeurtenis niet verwerkt. |
+   | **Kan alleen worden bewerkt door beheerders** | Geeft aan of beheerders een plan kan annuleren of bewerken tijdens een levensgebeurtenis. De werknemer kan geen wijzigingen aanbrengen in de werkruimte **selfservice werknemer**. |
+   | **Plan automatisch annuleren** | Hiermee wordt aangegeven of het plan automatisch moet worden geannuleerd tijdens een levensgebeurtenis. Nadat de wijzigingen in de levensgebeurtenis zijn verwerkt, blijft de optie **Plan automatisch annuleren** behouden. Alleen de status **Bevestigd** of **Uitgecheckt** wordt verwijderd. Het plan blijft geselecteerd. Dat wil zeggen dat werknemers die geen planningsselecties maken tijdens de inschrijvingsperiode voor een levensgebeurtenis, de selectie van het plan niet verliezen. 
 
 5. Selecteer **Opslaan**. 
 

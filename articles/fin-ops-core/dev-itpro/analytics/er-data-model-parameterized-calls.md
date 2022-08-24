@@ -1,26 +1,26 @@
 ---
 title: Parameteraanroepen van ER-gegevensmodellen ondersteunen
 description: In dit artikel wordt uitgelegd hoe u parameteraanroepen van ER-gegevensmodellen voor Elektronische rapportage kunt implementeren.
-author: NickSelin
+author: kfend
 ms.date: 03/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula, ERDataModelDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 65ac81e9aa25b286640fd526e71b55de3b0695ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula, ERDataModelDesigner
+ms.openlocfilehash: 5be189c19d963991ec012de189bbf7b721b88fef
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884252"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275983"
 ---
 # <a name="support-parameterized-calls-of-er-data-models"></a>Parameteraanroepen van ER-gegevensmodellen ondersteunen
 
@@ -278,7 +278,7 @@ U kunt de wijzigingen implementeren wanneer door een lopende indeling in het geh
 
 1. Ga naar **Organisatiebeheer** \> **Elektronische rapportage** \> **Configuraties**.
 2. Selecteer op de pagina **Configuraties** in de configuratiestructuur in het linkerdeelvenster **Voorbeeldauditmodel**.
-3. Selecteer op het sneltabblad **Versies** versie **2** met de status **[Concept](general-electronic-reporting.md#component-versioning)**.
+3. Selecteer op het sneltabblad **Versies** versie **2** met de status **Concept**.
 4. Selecteer het sneltabblad **Configuratieonderdelen**.
 5. Selecteer **Ontwerper** om het gegevensmodel te openen voor bewerken.
 6. Zorg dat op de pagina **Gegevensmodel** het veld `Root` is geselecteerd en selecteer vervolgens **Nieuw**.

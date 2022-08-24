@@ -1,26 +1,26 @@
 ---
 title: Afschaffing van Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) Storage
 description: Dit artikel biedt informatie over de afschaffing van Microsoft Dynamics Lifecycle Services Storage (LCS) die is gepland als onderdeel van de implementatie van de algemene opslagplaats van RCS (Regulatory Configuration Service).
-author: JaneA07
+author: kfend
 ms.date: 10/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RCS, Regulatory Configuration Services, Localization, LCS storage, LCS storage deprecation
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: ''
 ms.search.region: Global
-ms.author: janeaug
+ms.author: filatovm
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 65d45eaf618075e0c78881634fc77bda0fab277e
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.custom: 97423
+ms.assetid: ''
+ms.search.form: RCS, Regulatory Configuration Services, Localization, LCS storage, LCS storage deprecation
+ms.openlocfilehash: 717a2b9b00e137631a7cb9a188bdcf1b33e6af02
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065669"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277209"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Afschaffing van Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) Storage
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 85e40a0768174dcdc5d0fa2647b24cddccf01bdf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8ebea86e5ea63ab4f5a844cd3d0936c0d65bbe2b
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905481"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220237"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Verschillende dimensies voor verpakking en opslag instellen
 
@@ -50,7 +50,7 @@ Voordat u het voorbeeldscenario kunt uitvoeren, moet u het systeem voorbereiden 
 
 #### <a name="enable-demo-data"></a>Demogegevens inschakelen
 
-Als u dit scenario wilt doorlopen met de hier opgegeven demorecords en -waarden, moet u een systeem gebruiken waarop de standaard [demogegevens](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) zijn geïnstalleerd. U moet daarnaast ook de rechtspersoon *USMF* selecteren voordat u begint.
+Als u dit scenario wilt doorlopen met de hier opgegeven demorecords en -waarden, moet u een systeem gebruiken waarop de standaard [demogegevens](../../fin-ops-core/fin-ops/get-started/demo-data.md) zijn geïnstalleerd. U moet daarnaast ook de rechtspersoon *USMF* selecteren voordat u begint.
 
 #### <a name="add-a-new-physical-dimension-to-a-product"></a>Een nieuwe fysieke dimensie aan een product toevoegen
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f740b68128b90fc7c9ce2f74edc4f3c06f03debd
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.openlocfilehash: 2a77924e6133158d538a3eb8365def92c9354b0e
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9167756"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220357"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>De uitvoeringsinterface voor de werkvloer configureren
 
@@ -87,29 +87,23 @@ Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschak
 
 ### <a name="enable-registering-of-material-consumption"></a>Materiaalverbruik registeren inschakelen
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
-
 Met deze functie kunnen werknemers de uitvoeringsinterface voor de werkvloer gebruiken om materiaalverbruik, batchnummers en serienummers te registreren. Sommige fabrikanten, met name fabrikanten in de procesindustrieën, moeten de hoeveelheid verbruikt materiaal voor elke batch of productieorder expliciet registreren. Werknemers kunnen bijvoorbeeld een schaal gebruiken om te wegen hoeveel materiaal tijdens het werk wordt verbruikt. Voor volledige materiaaltraceerbaarheid moeten deze organisaties ook registreren welke batchnummers zijn verbruikt bij de productie van elk product.
 
 Er zijn twee versies van deze functie. Eén functie ondersteunt alleen artikelen die *niet zijn* ingeschakeld om magazijnbeheerprocessen (WMS) te gebruiken. De andere ondersteunt artikelen die *zijn ingeschakeld* om WMS te gebruiken. Als u deze functionaliteit wilt gebruiken, moet u een of meer van de volgende functies in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (in deze volgorde) inschakelen, afhankelijk van het feit of er artikelen zijn ingeschakeld voor WMS:
 
 - *Materiaalverbruik registreren in de uitvoeringsinterface van de werkvloer (niet-WMS)*
-- *(Preview) Materiaalverbruik registreren in de uitvoeringsinterface van de productievloer (WMS ingeschakeld)*
+- *Materiaalverbruik registreren in de uitvoeringsinterface van de productievloer (WMS ingeschakeld)*
 
 > [!IMPORTANT]
 > U kunt alleen de functie niet-WMS gebruiken. Als u echter WMS gebruikt, moet u beide functies inschakelen.
 
 ### <a name="enable-reporting-on-catch-weight-items"></a>Rapporten voor catch weight-artikelen inschakelen
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
-
 Werknemers kunnen de uitvoeringsinterface voor de werkvloer gebruiken om de voortgang van batchorders met catch weight-artikelen te rapporteren. Batchorders worden gemaakt op basis van formules die u kunt definiëren zodat ze catch weight-artikelen als formule-artikelen, co- en bijproducten als uitvoer hebben. U kunt ook formuleregels definiëren voor ingrediënten die zijn gedefinieerd voor catch weight. Catch weight-artikelen gebruiken twee maateenheden om de voorraad te volgen: de hoeveelheid catch weight en de voorraadhoeveelheid. In de voedselindustrie kan verplakt vlees bijvoorbeeld worden gedefinieerd als catch weight-artikel, waarbij de catch weight-hoeveelheid wordt gebruikt om het aantal dozen bij te houden en de voorraadhoeveelheid wordt gebruikt om het gewicht van de dozen bij te houden.
 
 Als u deze functionaliteit wilt gebruiken, schakelt u in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) de volgende functie in:
 
-- *(Preview) Rapport over catch weight-artikelen uit de uitvoeringsinterface van de productievloer*
+- *Rapport over catch weight-artikelen uit de uitvoeringsinterface van de productievloer*
 
 ### <a name="enable-the-my-day-dialog"></a>Het dialoogvenster Mijn dag inschakelen
 

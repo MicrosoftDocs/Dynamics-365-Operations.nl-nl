@@ -1,27 +1,27 @@
 ---
 title: Binnenkomende voorraadbewerking in POS
 description: In dit artikel worden de mogelijkheden van inkomende voorraadbewerking van het verkooppunt (POS) beschreven.
-author: hhaines
+author: hhainesms
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fbabcaafee74b4d0a1ca8ef79de94376a7764aa3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.search.form: ''
+ms.openlocfilehash: 3099f03ba2da8a367953ad0d25ee884e41ff9deb
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858877"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288347"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Binnenkomende voorraadbewerking in POS
 
@@ -141,7 +141,7 @@ Tolerantiepercentages voor minderlevering voor een inkoopregel kunnen vooraf wor
 
 Nadat een organisatie de configuraties voor minderlevering van inkooporders heeft voltooid, zien POS-gebruikers een nieuwe optie **Resterende hoeveelheid sluiten** in het deelvenster **Details** wanneer ze een binnenkomende inkooporderregel selecteren in de bewerking **Binnenkomende voorraadbewerking**. Als de gebruiker de resterende hoeveelheid sluit, voert POS een validatie uit om te controleren of de hoeveelheid die wordt gesloten binnen het tolerantiepercentage voor minderlevering valt dat is gedefinieerd voor de inkooporderregel. Als de tolerantie voor minderleveringen wordt overschreden, wordt een foutbericht weergegeven en kan de gebruiker de resterende hoeveelheid niet sluiten totdat de eerder ontvangen hoeveelheid plus de hoeveelheid **Nu ontvangen** gelijk is aan of hoger is dan de minimale hoeveelheid die moet worden ontvangen, op basis van het tolerantiepercentage voor minderlevering. 
 
-Met de optie **Resterende hoeveelheid sluiten** ingeschakeld voor een inkooporderregel, wanneer de gebruiker de ontvangst voltooit via de actie **Ontvangst voltooien**, wordt er ook een sluitingsverzoek verzonden naar Commerce Headquarters en worden eventuele niet ontvangen hoeveelheden van deze orderregel geannuleerd. Op dat moment wordt de regel als volledig ontvangen beschouwd. 
+Met de optie **Resterende hoeveelheid sluiten** ingeschakeld voor een inkooporderregel wordt, wanneer de gebruiker de ontvangst voltooit via de actie **Ontvangst voltooien**, ook een sluitingsverzoek verzonden naar Commerce headquarters en worden eventuele niet ontvangen hoeveelheden van deze orderregel geannuleerd. Op dat moment wordt de regel als volledig ontvangen beschouwd. 
 
 ### <a name="receiving-location-controlled-items"></a>Op locatie gecontroleerde artikelen ontvangen
 
@@ -155,15 +155,13 @@ U kunt zo nodig **Alles ontvangen** selecteren op de appbalk om snel de hoeveelh
 
 ### <a name="receipt-of-unplanned-items-on-purchase-orders"></a>Ontvangst van ongeplande artikelen op inkooporders
 
-In Commerce versie 10.0.14 en hoger kunnen gebruikers een product ontvangen dat oorspronkelijk niet op de inkooporder stond. Als u deze functie wilt inschakelen, schakelt u **Regels aan inkooporder toevoegen tijdens POS-ontvangst**.  
-
-Deze functie werkt alleen voor de ontvangst van inkooporders. Het is niet mogelijk om artikelen te ontvangen op overboekingsorders wanneer de artikelen niet eerder zijn besteld en verzonden vanuit het uitgaande magazijn.
+In Commerce versie 10.0.14 en hoger kunnen gebruikers een product ontvangen dat oorspronkelijk niet op de inkooporder stond. Deze functie werkt alleen voor de ontvangst van inkooporders. Het is niet mogelijk om artikelen te ontvangen op overboekingsorders wanneer de artikelen niet eerder zijn besteld en verzonden vanuit het uitgaande magazijn.
 
 Gebruikers kunnen geen nieuwe producten aan een inkooporder toevoegen tijdens POS-ontvangst als de [werkstroom voor wijzigingsbeheer](../supply-chain/procurement/purchase-order-approval-confirmation.md) van inkooporders is ingeschakeld in Commerce Headquarters (HQ). Als u wijzigingsbeheer wilt inschakelen, moeten alle wijzigingen in een inkooporder eerst worden goedgekeurd voordat ontvangst wordt toegestaan. Aangezien een ontvanger door dit proces nieuwe regels aan de inkooporder kan toevoegen, mislukt de ontvangst als de werkstroom voor wijzigingsbeheer is ingeschakeld. Als wijzigingsbeheer is ingeschakeld voor alle inkooporders of voor de leverancier die is gekoppeld aan de inkooporder die actief is in POS, kan de gebruiker geen nieuwe producten aan de inkooporder toevoegen tijdens POS-ontvangst.
 
 De functionaliteit waarmee het toevoegen van regels is ingeschakeld, kan niet worden gebruikt als tijdelijke oplossing voor het ontvangen van extra hoeveelheden producten die al op de inkooporder staan. Meerontvangsten worden beheerd via de standaardinstellingen voor [meerontvangsten](#over-receiving-validations) voor de productregel op de inkooporder.
 
-Als **Regels aan inkooporder toevoegen tijdens POS-ontvangst** is ingeschakeld en een gebruiker ontvangt met de **Inkomende bewerking** in POS, dan ontvangt de gebruiker een bericht over het toevoegen van het artikel aan de inkooporder wanneer hij of zij de streepjescode scant of het productnummer invoert van een product dat niet wordt herkend als een artikel op de huidige inkooporder, maar wel wordt herkend als een geldig artikel. Als de gebruiker het artikel toevoegt aan de inkooporder, wordt de hoeveelheid die is ingevoerd in **Nu ontvangen** beschouwd als de bestelde hoeveelheid voor de inkooporderregel.
+Wanneer een gebruiker in POS ontvangt met de **Inkomende bewerking** in POS en een streepjescode scant of het productnummer invoert van een product dat niet wordt herkend als een artikel op de huidige inkooporder, maar wel wordt herkend als een geldig artikel, ontvangt de gebruiker een bericht waarin wordt gevraagd het artikel aan de inkooporder toe te voegen. Als de gebruiker het artikel toevoegt aan de inkooporder, wordt de hoeveelheid die is ingevoerd in **Nu ontvangen** beschouwd als de bestelde hoeveelheid voor de inkooporderregel.
 
 Wanneer het ontvangstbewijs van de inkooporder is voltooid en bij HQ is ingediend voor verwerking, worden de toegevoegde regels in het hoofddocument van de inkooporder gemaakt. Aan de inkooporderregel in HQ wordt de markering **Toegevoegd via POS** toegevoegd op het tabblad **Algemeen** van de inkooporderregel. De markering **Toegevoegd via POS** geeft aan dat de inkooporderregel is toegevoegd via het POS-ontvangstproces en dat vóór de ontvangst geen regel op de inkooporder was.
 

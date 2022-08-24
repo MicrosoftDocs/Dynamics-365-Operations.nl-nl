@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 67c54f344ff7091f4a25198fdafa745c6c84d5d0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 34f74c2a889b3a659831897897e2086b277256e0
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907140"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219773"
 ---
 # <a name="gs1-bar-codes"></a>GS1-streepjescodes
 
@@ -72,7 +72,7 @@ Hieronder vindt u enkele voorbeelden die laten zien hoe het getal *123456* wordt
 
 ## <a name="scanning-gs1-bar-codes-in-supply-chain-management"></a>GS1-streepjescodes scannen in Supply Chain Management
 
-Magazijnmedewerkers gebruiken een scanner die is ingebouwd in of verbonden met een mobiel apparaat om GS1-streepjescodes te scannen. De scanner verzendt vervolgens de gescande streepjescode naar de als een reeks toetsenbordgebeurtenissen mobiele app Warehouse Management. Deze bewerkingsmodus wordt ook wel een *keyboard-wedge* of *wedge* genoemd. De mobiele app verzendt vervolgens de ontvangen tekst ongewijzigd naar Supply Chain Management. Wanneer het systeem invoergegevens ontvangt, wordt eerst bepaald of de gegevens beginnen met een van de geconfigureerde voorvoegsels om aan te geven dat de gegevens daadwerkelijk een GS1-streepjescode zijn (zie de sectie [Algemene GS1-opties instellen](#set-gs1-options)). Als de gescande gegevens niet met een van deze voorvoegsels beginnen, gebruikt het systeem een GS1-parser om de gegevens te parseren en afzonderlijke gegevenselementen op te halen op basis van hun toepassings-id's. Nadat de gegevens zijn geparseerd, wordt het huidige invoerveld of worden meerdere velden gevuld met de gescande gegevens.
+Magazijnmedewerkers gebruiken een scanner die is ingebouwd in of verbonden met een mobiel apparaat om GS1-streepjescodes te scannen. De scanner verzendt vervolgens de gescande streepjescode naar de als een reeks toetsenbordgebeurtenissen mobiele app Warehouse Management. Deze bewerkingsmodus wordt ook wel een *keyboard-wedge* of *wedge* genoemd. De mobiele app verzendt vervolgens de ontvangen tekst ongewijzigd naar Supply Chain Management. Wanneer het systeem invoergegevens ontvangt, wordt eerst bepaald of de gegevens beginnen met een van de geconfigureerde voorvoegsels om aan te geven dat de gegevens daadwerkelijk een GS1-streepjescode zijn (raadpleeg het gedeelte [Algemene GS1-opties instellen](#set-gs1-options)). Als de gescande gegevens niet met een van deze voorvoegsels beginnen, gebruikt het systeem een GS1-parser om de gegevens te parseren en afzonderlijke gegevenselementen op te halen op basis van hun toepassings-id's. Nadat de gegevens zijn geparseerd, wordt het huidige invoerveld of worden meerdere velden gevuld met de gescande gegevens.
 
 ### <a name="configuration-of-bar-code-scanner-hardware-and-software"></a>Configuratie van hardware en software van de streepjescodescanner
 
@@ -115,7 +115,7 @@ Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. 
 
 ### <a name="turn-on-the-enhanced-parser-for-gs1-barcodes-feature"></a>De functie Verbeterde parser voor GS1-streepjescodes inschakelen
 
-Als u GS1-streepjescodes gebruikt, is het raadzaam om ook de functie *Verbeterde parser voor GS1-streepjescodes* in te schakelen. Deze functie zorgt voor een verbeterde implementatie van de GS1-streepjescodeparser. De volgende verbeteringen worden toegevoegd:
+Als u GS1-streepjescodes gebruikt, is het raadzaam om ook de functie *Verbeterde parser voor GS1-streepjescodes* aan te zetten. Deze functie zorgt voor een verbeterde implementatie van de GS1-streepjescodeparser. De volgende verbeteringen worden toegevoegd:
 
 - Het volgt het algoritme voor het parseren van symboolgegevens uit de algemene GS1-specificatie en valideert of de gegevens in het symbool geldig zijn volgens de specificatie.
 - U hoeft geen waarde voor **Maximumlengte van id** in te stellen en de langste voorvoegsels uit geconfigureerde toepassings-id's worden gematcht.
@@ -232,7 +232,7 @@ U kunt een set GS1-beleidsregels laden om snel aan de slag te gaan. U kunt de be
 
 Volg deze stappen om de standaardtoepassings-id's te laden.
 
-1. Ga naar **Magazijnbeheer\>  Instellingen \> GS1 \> GS1-beleid**.
+1. Ga naar **Magazijnbeheer \> Instellingen \> GS1 \> GS1-beleid**.
 1. Selecteer **Standaardinstelling maken** in het actievenster.
 
 > [!WARNING]
@@ -245,7 +245,7 @@ Volg deze stappen om de standaardtoepassings-id's te laden.
 
 Volg deze stappen om uw GS1-beleid in te stellen en aan te passen.
 
-1. Ga naar **Magazijnbeheer\>  Instellingen \> GS1 \> GS1-beleid**.
+1. Ga naar **Magazijnbeheer \> Instellingen \> GS1 \> GS1-beleid**.
 1. Volg één van deze stappen:
 
     - Selecteer in het actievenster **Nieuw** om een nieuw beleid te maken.

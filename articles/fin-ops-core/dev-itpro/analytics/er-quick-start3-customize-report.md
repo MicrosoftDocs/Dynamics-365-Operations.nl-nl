@@ -1,28 +1,26 @@
 ---
 title: Configuraties voor elektronische rapportage aanpassen om een elektronisch document te genereren
 description: In dit artikel wordt uitgelegd hoe u de door Microsoft geleverde ER-configuraties (elektronische rapportage) kunt aanpassen, waarmee een aangepast elektronisch document wordt gegenereerd.
-author: NickSelin
+author: kfend
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 30ef9a0fa9b61b1e2016f85407ec0ec8fb70a6c6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
+ms.openlocfilehash: cd3200bea07d622632dc5781638ec825c21233e4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854693"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278941"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Configuraties voor elektronische rapportage aanpassen om een elektronisch document te genereren
 
@@ -310,7 +308,7 @@ Als gebruiker met de rol Functioneel consultant van elektronische rapportage kun
 5. Voer in het veld **Naam** **Factuurmodel (Litware)** in.
 6. Selecteer **Configuratie maken** om de nieuwe ER-configuratie toe te voegen.
 
-U kunt nu de ER-gegevensmodelontwerper gebruiken om versie 50.1 van de ER-configuratie **Factuurmodel (Litware)** in de status **Concept**-[status](general-electronic-reporting.md#component-versioning) te bewerken.
+U kunt nu de ER-gegevensmodelontwerper gebruiken om versie 50.1 van de ER-configuratie **Factuurmodel (Litware)** in de status **Concept** te bewerken.
 
 ![Versie 50.1 van de ER-configuratie op de pagina Configuraties.](./media/er-quick-start3-added-custom-model.png)
 
@@ -337,7 +335,7 @@ U moet uw aangepaste gegevensmodel wijzigen door een nieuw veld toe te voegen om
 
 #### <a name="complete-a-custom-data-model-configuration"></a>Een aangepaste gegevensmodelconfiguratie uitvoeren
 
-U moet uw werk [voltooien](general-electronic-reporting.md#component-versioning) met versie 50.1 van uw aangepaste ER-gegevensmodelconfiguratie om deze beschikbaar te maken zodat andere aangepaste ER-configuraties kunnen worden toegevoegd.
+U moet uw werk voltooien met versie 50.1 van uw aangepaste ER-gegevensmodelconfiguratie om deze beschikbaar te maken zodat andere aangepaste ER-configuraties kunnen worden toegevoegd.
 
 1. Ga naar **Organisatiebeheer** \> **Elektronische rapportage** \> **Configuraties**.
 2. Vouw op de pagina **Configuraties** in de configuratiestructuur in het linkerdeelvenster **Factuurmodel** uit en selecteer **Factuurmodel (Litware)**.
@@ -394,7 +392,7 @@ U moet uw aangepaste modeltoewijzing aanpassen en opgeven hoe toepassingsgegeven
 
 #### <a name="complete-a-custom-model-mapping-configuration"></a>Een aangepaste modeltoewijzingsconfiguratie uitvoeren
 
-U moet uw werk [uitvoeren](general-electronic-reporting.md#component-versioning) met versie 50.19.1 van uw configuratie van de aangepaste ER-modeltoewijzing om deze beschikbaar te maken voor gebruik.
+U moet uw werk uitvoeren met versie 50.19.1 van uw configuratie van de aangepaste ER-modeltoewijzing om deze beschikbaar te maken voor gebruik.
 
 1. Ga naar **Organisatiebeheer** \> **Elektronische rapportage** \> **Configuraties**.
 2. Vouw op de pagina **Configuraties** in de configuratiestructuur in het linkerdeelvenster **Klantfactuurmodel** \> **Toewijzing klantfactuurmodel** uit en selecteer **Toewijzing factuurmodel (Litware)**.
@@ -428,7 +426,7 @@ Als gebruiker met de rol Functioneel consultant van elektronische rapportage kun
 
 ![Een configuratie van een aangepaste indeling op de pagina Configuraties toevoegen.](./media/er-quick-start3-adding-custom-format.png)
 
-U kunt nu de ER Operations-ontwerper gebruiken om versie 11.2.2.1 van de ER-configuratie **Peppol-verkoopfactuur (Litware)** in de status **Concept**-[status](general-electronic-reporting.md#component-versioning) te bewerken.
+U kunt nu de ER Operations-ontwerper gebruiken om versie 11.2.2.1 van de ER-configuratie **Peppol-verkoopfactuur (Litware)** in status **Concept** te bewerken.
 
 ![Versie 11.2.2.1 van de ER-configuratie op de pagina Configuraties.](./media/er-quick-start3-added-custom-format.png)
 
@@ -463,7 +461,7 @@ U moet uw aangepaste indeling wijzigen door een nieuw opmaakelement toe te voege
 
 #### <a name="complete-a-custom-format-configuration"></a>Een aangepaste indelingsconfiguratie voltooien
 
-U moet uw werk [uitvoeren](general-electronic-reporting.md#component-versioning) met versie 11.2.2.1 van uw configuratie van de aangepaste ER-indeling om deze beschikbaar te maken voor gebruik.
+U moet uw werk voltooien met versie 11.2.2.1 van uw aangepaste configuratie van de ER-indeling om deze beschikbaar te maken voor gebruik.
 
 1. Ga naar **Organisatiebeheer** \> **Elektronische rapportage** \> **Configuraties**.
 2. Vouw op de pagina **Configuraties** in de configuratiestructuur in het linkerdeelvenster **Klantfactuurmodel** \> **UBL-verkoopfactuur** \> **Peppol-verkoopfactuur** uit en selecteer **Peppol-verkoopfactuur (Litware)**.
@@ -650,7 +648,7 @@ De status van versie 32.6.7.2 wordt gewijzigd van **Concept** in **Voltooid** en
 3. Selecteer in het actievenster in de groep **Document** **Verzenden** \> **Origineel**.
 
     > [!NOTE] 
-    > Omdat u nu twee versies hebt van de ER-indelingsconfiguratie **Peppol-verkoopfactuur (Litware)** en geen van de versies een waarde voor [ingangsdatum](general-electronic-reporting.md#component-date-effectivity) heeft, wordt de laatste versie gebruikt om een elektronische factuur te genereren.
+    > Omdat u nu twee versies hebt van de ER-indelingsconfiguratie **Peppol-verkoopfactuur (Litware)** en geen van de versies een waarde voor ingangsdatum heeft, wordt de meest recente versie gebruikt om een elektronische factuur te genereren.
 
 4. Sluit de pagina **Vrije-tekstfactuur**.
 

@@ -1,25 +1,25 @@
 ---
 title: Bestandsindelingen voor betalingsmethoden
 description: In dit artikel worden de twee methoden beschreven voor het verkrijgen van bestandsindelingen die u voor betalingsmethoden kunt gebruiken.
-author: anasyash
+author: AdamTrukawka
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: CustPaymMode, VendPaymMode
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 262514
 ms.search.region: Belgium, France, Germany, Norway, Spain, Sweden, Switzerland
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c99413c361397c6818be580deb45ba85620ed5db
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 262514
+ms.search.form: CustPaymMode, VendPaymMode
+ms.openlocfilehash: eae21fba2499d819a146953e56f48a8f9d748582
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871077"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292215"
 ---
 # <a name="file-formats-for-methods-of-payment"></a>Bestandsindelingen voor betalingsmethoden
 

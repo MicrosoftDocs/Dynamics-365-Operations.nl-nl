@@ -1,24 +1,24 @@
 ---
 title: 'ER Horizontaal uitvouwbare bereiken gebruiken om kolommen in Excel-rapporten dynamisch toe te voegen (deel 1: Indeling ontwerpen)'
 description: In dit artikel wordt beschreven hoe u een ER-indeling (Electronic Reporting) configureert om rapporten te genereren als OPENXML-werkbladbestanden (Excel). (Deel 1)
-author: NickSelin
+author: kfend
 ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 157a486252d9447c2509fe5e05b02cf1684683fd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
+ms.openlocfilehash: 3fa8dcac309220d05225e87fd29ef6b741bfcc54
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886728"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290419"
 ---
 # <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1---design-format"></a>ER Horizontaal uitvouwbare bereiken gebruiken om kolommen in Excel-rapporten dynamisch toe te voegen (deel 1: Indeling ontwerpen)
 

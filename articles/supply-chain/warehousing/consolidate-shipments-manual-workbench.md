@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 388066b9c81ecb63ac1f81b70dc4b168f3f4a71d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a33189cdcbb66304eef80558e931209ea236f576
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888320"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218613"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Zendingen consolideren met de workbench voor het consolideren van zendingen
 
@@ -38,10 +38,10 @@ In het hier beschreven scenario wordt ervan uitgegaan dat u de functie al hebt i
 
 Voordat u de functie *Handmatige zendingsconsolidatie* kunt gebruiken, moet u deze in het systeem inschakelen. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
 
-- **Module:** *Magazijnbeheer*
+- **Module:** *Warehouse Management*
 - **Functienaam:** *Handmatige zendingsconsolidatie*
 
-Zoals vermeld in [Consolidatiebeleid voor zendingen configureren](configure-shipment-consolidation-policies.md), moet u ook de functie *Zending consolideren* inschakelen voordat u beleid kunt maken. U moet die stap echter al hebben voltooid.
+Voordat u beleid kunt aanmaken, moet ook de functie *Zending consolideren* zijn ingeschakeld. Raadpleeg [Beleid voor consolidatie van zendingen configureren](configure-shipment-consolidation-policies.md) voor meer informatie.
 
 ## <a name="create-the-sales-orders-for-this-scenario"></a>De verkooporders voor dit scenario maken
 

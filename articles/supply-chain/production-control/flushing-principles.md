@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 357ce65792ceef37abda523e7693069f1bc1ab43
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 89fd38ea6d2c1635e9d8974ab99c2e4cdae4d6be
+ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065549"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9266423"
 ---
 # <a name="flushing-principles"></a>Wisprincipes
 
@@ -56,7 +56,10 @@ Het handmatige wisprincipe geeft aan dat de registratie van materiaalverbruik ee
 Het wisprincipe Beginnen geeft aan dat materiaal automatisch wordt verbruikt wanneer de productieorder wordt gestart. De hoeveelheid materiaal die wordt verbruikt is evenredig aan de hoeveelheid die wordt gestart. Wanneer u het wisprincipe Beginnen samen met het productie-uitvoeringssysteem gebruikt, kan het ook worden gebruikt om materialen te wissen wanneer een bewerking of een procestaak is begonnen. Dit principe is van belang als, bijvoorbeeld de variantie in het verbruik laag is, de materialen een lage waarde hebben, er geen bijhoudvereisten zijn of er een korte uitvoeringstijd is voor de bewerkingen. 
 
 ### <a name="finish"></a>Voltooien
-Het wisprincipe Voltooien geeft aan dat materiaal automatisch worden verbruikt wanneer de productieorder wordt gereedgemeld of wanneer een bewerking die wordt ingesteld op het verbruiken van de materialen, wordt geregistreerd als voltooid. De hoeveelheid materiaal die wordt verbruikt is evenredig aan de hoeveelheid die wordt gerapporteerd als voltooid. Wanneer u het wisprincipe Voltooien samen met het productie-uitvoeringssysteem gebruikt, kan het ook worden gebruikt om materialen te wissen wanneer een bewerking of een procestaak is voltooid. Dit principe is relevant voor dezelfde situaties als het principe Beginnen. Het principe Voltooien is echter bedoeld voor bewerkingen met een langere bewerkingstijd waar materialen niet moeten worden ingesteld op OHW voordat de bewerking is voltooid. 
+Het wisprincipe Voltooien geeft aan dat materiaal automatisch worden verbruikt wanneer de productieorder wordt gereedgemeld of wanneer een bewerking die wordt ingesteld op het verbruiken van de materialen, wordt geregistreerd als voltooid. De hoeveelheid materiaal die wordt verbruikt is evenredig aan de hoeveelheid die wordt gerapporteerd als voltooid. Wanneer u het wisprincipe Voltooien samen met het productie-uitvoeringssysteem gebruikt, kan het ook worden gebruikt om materialen te wissen wanneer een bewerking of een procestaak is voltooid. Dit principe is relevant voor dezelfde situaties als het principe Beginnen. Het principe Voltooien is echter bedoeld voor bewerkingen met een langere bewerkingstijd waar materialen niet moeten worden ingesteld op OHW voordat de bewerking is voltooid.
+
+> [!NOTE]
+> Wisprincipe voltooien kan niet samen met planningsartikelen worden gebruikt. Wij raden aan om in plaats daarvan de entiteit Wisprincipe beginnen te gebruiken. Planningsartikelen hebben producttype *Planningsartikel*, en er kunnen alleen co-producten en bijproducten als voltooid worden gemeld voor batchorders die voor planningsartikelen zijn aangemaakt.
 
 ### <a name="available-at-location"></a>Beschikbaar op locatie
 Het wisprincipe Beschikbaar op locatie geeft aan dat het materiaal automatisch wordt verbruikt wanneer het wordt geregistreerd als gepickt voor productie. Het materiaal is geregistreerd als gepickt vanaf locatie, wanneer het verzamelen van de grondstoffen is voltooid of wanneer materiaal beschikbaar is op de productie-invoerlocatie en de materiaalregel wordt vrijgegeven voor het magazijn. De orderverzamellijst die wordt gegenereerd tijdens het proces wordt geboekt in een batchtaak. Dit principe is relevant als u bijvoorbeeld veel orderverzamelactiviteiten voor één productieorder hebt. In dit geval hoeft u de orderverzamellijst niet handmatig bij te werken en krijgt u een actuele weergave van het OHW-saldo.

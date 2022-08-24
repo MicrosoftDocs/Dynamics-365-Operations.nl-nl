@@ -1,24 +1,24 @@
 ---
 title: 'ER Financiële dimensies gebruiken als gegevensbron (deel 2: Modeltoewijzing)'
 description: In dit artikel wordt beschreven hoe u een ER-model (Electronic Reporting) configureert om financiële dimensies te gebruiken als gegevensbron voor ER-rapporten. (Deel 2)
-author: NickSelin
+author: kfend
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d228ee9d393cab1c5c1592ca6570cdc91992c38c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
+ms.openlocfilehash: 0d2daedd38c93ff17ef39780140c9c28ece82736
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878337"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290809"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER Financiële dimensies gebruiken als gegevensbron (deel 2: Modeltoewijzing)
 

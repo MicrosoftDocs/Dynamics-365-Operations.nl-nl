@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 5f5f24f47d0a2376be714f9208cd383cf3aacc07
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8ecca2d00b8753a405faa8d4c67c3cbb1eef6907
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857049"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218969"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>Gepropageerde velden configureren voor stappen in de mobiele app Warehouse Management
 
@@ -32,13 +32,7 @@ In dit artikel wordt beschreven hoe u specifieke informatie propageert en markee
 Voordat u gepropageerde velden kunt instellen, moet u de volgende procedure uitvoeren om de vereiste functies in te schakelen en de vereiste veldnamen te genereren in de mobiele app Warehouse Management.
 
 1. Ga naar **Systeembeheer \> Werkruimten \> Functiebeheer**.
-1. Schakel in het [**Functiebeheer**-werkgebied](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) de functie in die wordt weergegeven op de volgende manier:
-
-    - **Module:** *Magazijnbeheer*
-    - **Functienaam:** *Schakel de stapinstructiesfunctie van de Warehouse-app in*
-
-    Zie voor meer informatie over de *stapinstructies voor de Warehouse-app* de informatie in [Stappentitels en instructies voor de mobiele app Warehouse Management aanpassen](mobile-app-titles-instructions.md). Deze functie is een vereiste voor de functie *Gepropageerde velden van magazijnapp*.
-
+1. Zorg ervoor dat de functie *stap-instructies voor de magazijn-app* is ingeschakeld voor het systeem. Vanaf Supply Chain Management versie 10.0.29 is deze functie standaard ingeschakeld. Zie voor meer informatie over de *stapinstructies voor de Warehouse-app* de informatie in [Stappentitels en instructies voor de mobiele app Warehouse Management aanpassen](mobile-app-titles-instructions.md). Deze functie is een vereiste voor de functie *Gepropageerde velden van magazijnapp*.
 1. Schakel de functie in die op de volgende manier wordt weergegeven:
 
     - **Module:** *Magazijnbeheer*
@@ -67,7 +61,7 @@ U kunt de volgende procedure gebruiken om gepropageerde velden in te stellen.
 
 ### <a name="enable-sample-data"></a>Voorbeeldgegevens inschakelen
 
-Als u de gespecifieerde voorbeeldrecords en waarden wilt gebruiken voor dit scenario, moet u een systeem gebruiken waarop de standaard demogegevens zijn geïnstalleerd. U moet ook de rechtspersoon **USMF** selecteren voordat u begint.
+Als u de gespecifieerde voorbeeldrecords en -waarden wilt gebruiken om dit scenario te doorlopen, moet u een systeem gebruiken waarop de standaard [demogegevens](../../fin-ops-core/fin-ops/get-started/demo-data.md) zijn geïnstalleerd. U moet ook de rechtspersoon **USMF** selecteren voordat u begint.
 
 ### <a name="configure-sales-picking-with-promoted-steps-on-the-license-plate-step"></a>Verzamelen voor verkoop configureren met gepropageerde stappen voor de nummerplaatstap
 

@@ -1,30 +1,32 @@
 ---
 title: Besturingselementen voor Word-inhoud onderdrukken in gegenereerde rapporten
 description: In dit artikel wordt uitgelegd hoe u een ER-indeling (elektronische rapportage) configureert om rapporten te genereren als Microsoft Word-bestanden waarin inhoudsbesturingselementen worden onderdrukt.
-author: NickSelin
+author: kfend
 ms.date: 02/11/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: e11b697b78c89a1758fa9e81c901bd29fe281539
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form:
+- ERWorkspace, ERSolutionTable, EROperationDesigner
+- LedgerJournalTable, LedgerJournalTransVendPaym
+ms.openlocfilehash: 8787d43a0c453d49dd1d0efcbb7b5d276721be9e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882108"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267309"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Besturingselementen voor Word-inhoud onderdrukken in gegenereerde rapporten
 
 [!include [banner](../includes/banner.md)]
 
-Als u rapporten wilt genereren als Microsoft Word-documenten, moet u een sjabloon voor de rapporten ontwerpen als een Word-document. Deze sjabloon moet besturingselementen voor Word-inhoud bevatten als tijdelijke aanduidingen voor gegevens die tijdens runtime worden ingevuld. Als u het Word-document wilt gebruiken is gemaakt als sjabloon voor uw rapporten, kunt u een nieuwe [ER (elektronische rapportage)](general-electronic-reporting.md)-[oplossing](er-quick-start1-new-solution.md) [configureren](er-design-configuration-word.md). De oplossing moet een ER-[configuratie](general-electronic-reporting.md#Configuration) bevatten die een onderdeel voor ER-indeling bevat. Deze ER-indeling moet worden geconfigureerd om de ontworpen sjabloon te gebruiken voor het genereren van een rapport.
+Als u rapporten wilt genereren als Microsoft Word-documenten, moet u een sjabloon voor de rapporten ontwerpen als een Word-document. Deze sjabloon moet besturingselementen voor Word-inhoud bevatten als tijdelijke aanduidingen voor gegevens die tijdens runtime worden ingevuld. Als u het Word-document wilt gebruiken is gemaakt als sjabloon voor uw rapporten, kunt u een nieuwe [ER- (elektronische rapportage-)](general-electronic-reporting.md) [oplossing](er-quick-start1-new-solution.md) [configureren](er-design-configuration-word.md). De oplossing moet een ER-[configuratie](general-electronic-reporting.md#Configuration) bevatten die een onderdeel voor ER-indeling bevat. Deze ER-indeling moet worden geconfigureerd om de ontworpen sjabloon te gebruiken voor het genereren van een rapport.
 
 In versie 10.0.6 en hoger van Dynamics 365 Finance kunt u formules configureren in de ER-indeling om bepaalde besturingselementen voor Word-inhoud in gegenereerde documenten te onderdrukken.
 
@@ -42,7 +44,7 @@ Voordat u deze stappen uitvoert, moet u eerst de stappen in de volgende taakbege
 Wanneer u de stappen van deze taakhandleidingen voltooit, worden de volgende items voorbereid:
 
 - Een ER-indeling voor een **voorbeeldwerkbladrapport** dat is geconfigureerd om een document te genereren in Word-indeling
-- Een [conceptversie](general-electronic-reporting.md#component-versioning) van de ER-indeling voor een **voorbeeldwerkbladrapport** dat is gemarkeerd als **Uitvoerbaar**
+- Een conceptversie van de ER-indeling voor een **voorbeeldwerkbladrapport** dat is gemarkeerd als **Uitvoerbaar**
 - Een **elektronische** betalingsmethode die is geconfigureerd voor het gebruik van de ER-indeling voor een **voorbeeldwerkbladrapport** voor de verwerking van leverancierbetalingen
 
 U moet ook de volgende sjabloon downloaden en opslaan voor het voorbeeldrapport:

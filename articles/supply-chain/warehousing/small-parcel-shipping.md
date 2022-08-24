@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 7bafd4a5118de5ca6025c6bd74fe436aa6abd1c8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6ccc9c795e2da121acf9c0809aef99a5f9d5889e
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855898"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219713"
 ---
 # <a name="small-parcel-shipping"></a>Kleine pakketten verzenden
 
@@ -81,7 +81,7 @@ In dit voorbeeldscenario wordt getoond hoe u de functie voor verzending van klei
 
 ### <a name="make-demo-data-available"></a>Demogegevens beschikbaar maken
 
-Als u dit scenario wilt doorlopen met de hier opgegeven demorecords en -waarden, moet u een systeem gebruiken waarop de standaard [demogegevens](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) zijn geïnstalleerd. U moet daarnaast ook de rechtspersoon **USMF** selecteren voordat u begint.
+Als u dit scenario wilt doorlopen met de hier opgegeven demorecords en -waarden, moet u een systeem gebruiken waarop de standaard [demogegevens](../../fin-ops-core/fin-ops/get-started/demo-data.md) zijn geïnstalleerd. U moet daarnaast ook de rechtspersoon **USMF** selecteren voordat u begint.
 
 ### <a name="set-up-the-scenario"></a>Het scenario configureren
 

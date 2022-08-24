@@ -2,7 +2,7 @@
 title: Verwijderde of afgeschafte functies in Dynamics 365 Finance
 description: In dit artikel worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering uit Dynamics 365 Finance.
 author: kfend
-ms.date: 03/21/2022
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ee084e84c052366bdf34fe1a1e697a32e456914b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 4f2a1984d39713daa84f15422d7e0680b7f6c601
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068917"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219563"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Verwijderde of afgeschafte functies in Dynamics 365 Finance
 
@@ -32,6 +32,20 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 > [!NOTE]
 > Gedetailleerde informatie over objecten in apps voor financiën en bedrijfsactiviteiten is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van apps voor financiën en bedrijfsactiviteiten.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Verwijderde of verouderde functies in versie 10.0.29 van Finance
+
+### <a name="stock-transfer-orders-that-have-tax-on-the-transfer-price"></a>Voorraadtransferorders met belasting op de transferprijs
+
+[Voorraadtransferorders met belasting op de transferprijs](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md)
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Reden voor afschaffing/verwijdering** | Vervangen door verbeterde functionaliteit [voorraadtransferorders voor India](../../finance/localizations/apac-ind-stock-transfer.md)|
+| **Vervangen door een andere functie?**   | Ja |
+| **Betrokken productgebieden** | Toepassing |
+| **Implementatieoptie** | Alle |
+| **Status** | Afgeschaft: na april 2023 wordt de functionaliteit **voorraadtransferorders met belasting op de transferprijs** niet langer ondersteund met correcties voor fouten en beveiligingsfixes. Klanten zal worden gevraagd de verbeterde functionaliteit [Voorraadtransferorders voor India](../../finance/localizations/apac-ind-stock-transfer.md) te gebruiken. Na oktober 2023 is de functionaliteit **voorraadtransferorders met belasting op de transferprijs** niet langer beschikbaar en wordt klanten gevraagd de verbeterde functionaliteit te gebruiken. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Verwijderde of verouderde functies in versie 10.0.26 van Finance
 
@@ -59,7 +73,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 | **Vervangen door een andere functie?**   | Ja |
 | **Betrokken productgebieden**         | Toepassing |
 | **Implementatieoptie**              | Alle |
-| **Status**                         | Afgeschaft: vanaf 1 december 2022 willen we geen ondersteuning meer bieden voor het btw-rapport voor Zweden (Zweedse rapportindeling). In plaats daarvan worden onder het model **Belastingaangifte** de nieuwe ER-indelingen **XML voor btw-aangifte (SE)** en **Btw-aangifte Excel (SE)** beschikbaar gesteld. |
+| **Status**                         | Afgeschaft: vanaf 1 december 2022 willen we geen ondersteuning meer bieden voor het btw-rapport voor Zweden (Zweedse rapportindeling). In plaats daarvan worden onder het model **Belastingaangifte** de nieuwe ER-indelingen **XML voor btw-aangifte (SE**) en **Btw-aangifte Excel (SE)** beschikbaar gesteld. |
 
 ### <a name="vat-statement-for-austria-design-based-on-reporting-codes"></a>Btw-overzicht voor Oostenrijk (ontwerp op basis van aangiftecodes)
 

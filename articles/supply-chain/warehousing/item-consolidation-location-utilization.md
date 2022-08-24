@@ -1,5 +1,5 @@
 ---
-title: Locatiegebruik bij artikelconsolidatie
+title: Artikelconsolidatie - locatiegebruik
 description: Dit artikel bevat informatie over de functionaliteit waarmee magazijnbeheerders het volumetrische gebruik van locaties in het magazijn kunnen weergeven en filteren. Managers kunnen locaties selecteren en voorraadmutaties uitvoeren, rechtstreeks vanaf de pagina Artikelconsolidatie om artikelen te consolideren en zodoende de magazijnruimte beter te gebruiken.
 author: Mirzaab
 ms.date: 07/16/2020
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 63fd8b209cb73843aae7324c805c5d0eb83b4ca4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7c78954659c125c919ed0debbd81023a3da02db3
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849179"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219437"
 ---
 # <a name="item-consolidation---location-utilization"></a>Locatiegebruik bij artikelconsolidatie
 
@@ -30,8 +30,8 @@ Dit artikel bevat informatie over de functionaliteit waarmee magazijnbeheerders 
 
 Voordat u de in dit artikel beschreven functies kunt gebruiken, moet u deze in het systeem inschakelen. Beheerders kunnen gebruikmaken van het werkgebied [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functies te controleren en deze zo nodig in te schakelen. Schakel de beide volgende functies in in de volgorde waarin ze worden vermeld. (Beide functies zijn voor de module **Magazijnbeheer**.)
 
-1. Status magazijnlocatie
-2. Locatiegebruik artikelconsolidatie
+1. *Locatiestatus magazijn* (vanaf versie 10.0.29 staat deze functie standaard aan. Raadpleeg [Locatiestatus magazijn](warehouse-location-status.md) voor meer informatie.)
+2. *Locatiegebruik artikelconsolidatie*
 
 ## <a name="warehouse-location-status"></a>Status magazijnlocatie
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: ded645ebaea1230b68525c247ee91e3893211774
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: 1b45cc2ba26f60ab444edca6c513c581e8332a2a
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124523"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219119"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.23 (januari 2022)
 
@@ -55,7 +55,7 @@ Als u een van deze functies wilt in- of uitschakelen, moet u dit doen in [functi
 | Voorraad- en magazijnbeheer | (Rusland) Vertalingen naar lokale taal gebruiken in land- of regiospecifieke primaire formulieren in Voorraadbeheer | Deze functie maakt voor Russische lokalisaties van Supply Chain Management gebruik van Russische vertalingen mogelijk voor product-/artikelnamen en maateenheden in de volgende specifiek Russische voorraadafdrukken:Tellijst (INV-3),Tellijst (INV-5),Tellijst (INV-6). |
 | Hoofdplanning | Vraagprognose voor service Azure Machine Learning service | Met deze functie kan Azure Machine Learning Service vraagprognoses genereren op basis van historische gegevens. Zie voor meer informatie [Instelling van Vraagprognose](../master-planning/demand-forecasting-setup.md). |
 | Inkoopbeheer | Inkooporderhistorie voor update opschonen | Met deze functie kunt u tijdelijke historische records opschonen die zijn gerelateerd aan updates van inkooporders. Hiermee wordt een nieuwe knop met de naam **Inkooporderhistorie voor update opschonen** aan het actievenster toegevoegd op de pagina **Alle inkooporders**. Deze functie is standaard ingeschakeld. |
-| Productiebeheer | (Preview) Automatisch verzamelen van materialen waarvoor magazijn is ingeschakeld voor automatisch geboekte orderverzamellijsten | Met deze functie kunt u voorraaddimensies automatisch verzamelen en oplossen voor automatisch geboekte en terugwaarts afgeboekte orderverzamellijstjournalen. |
+| Productiebeheer | Automatisch verzamelen van materialen waarvoor magazijn is ingeschakeld voor automatisch geboekte orderverzamellijsten | Met deze functie kunt u voorraaddimensies automatisch verzamelen en oplossen voor automatisch geboekte en terugwaarts afgeboekte orderverzamellijstjournalen. |
 | Productiebeheer | Vervaldatum van grondstoffen valideren tegen geplande verbruiksdatum | Door deze functie wordt de validatie van batchverloopdatums gewijzigd bij het reserveren van een batch grondstoffen die tijdens de productie moet worden gebruikt. Wanneer deze functie is ingeschakeld, wordt de vervaldatum van de batch gevalideerd tegen de geplande verbruiksdatum (de grondstofdatum), zoals is vastgesteld op de productiestuklijstregel of batchorderformuleregel. Als deze functie is uitgeschakeld, wordt de batchvervaldatum gevalideerd tegen de geplande leveringsdatum van de productie- of batchorder (zoals eerder). |
 | Verkoopbeheer en marketing | Verkoophistorie voor update opschonen op basis van ouderdom | Met deze functie kunt u de maximale ouderdom instellen van records die u wilt behouden wanneer de periodieke taak **Opschoning van verkoophistorie voor update** wordt uitgevoerd. Oudere records worden verwijderd. Dit is handig wanneer u de taak zo in stelt dat deze periodiek wordt uitgevoerd, omdat de ouderdom altijd wordt berekend in relatie tot de datum waarop de taak wordt uitgevoerd. Zonder deze functie kunt u alleen een specifieke datum instellen voor de oudste records die u kunt bewaren. Zie [Opschonen van verkoophistoriegegevens plannen](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) voor meer informatie. |
 | Verkoopbeheer en marketing | Prestaties van rapport 'Top 100 van klanten' verbeteren | Deze functie verbetert de prestaties van het rapport **Top 100**-klanten door altijd het rapport uit te voeren voor alle klanten (wat het bedoelde gebruik is) in plaats van aangepaste query's toe te staan. Wanneer deze functie is ingeschakeld, worden alle **Op te nemen records**-instellingen uitgeschakeld in het rapportdialoogvenster **Top 100**. |

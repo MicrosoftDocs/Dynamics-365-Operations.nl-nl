@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9a4d67d901608e210b4060a655ce39f0ea707a52
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: cc3ad01c60324d751ee52d83d93fe59593775a00
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910545"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279563"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>E-mailsjablonen maken voor transactiegebeurtenissen
 
@@ -117,7 +117,29 @@ Het meldingstype *Order annuleren* wordt geactiveerd wanneer er in Commerce Head
 
 ### <a name="customer-created"></a>Klant gemaakt
 
-Het meldingstype *Klant gemaakt* wordt geactiveerd wanneer er in Commerce Headquarters een nieuwe klantentiteit wordt gemaakt.
+Het meldingstype *Klant gemaakt* wordt geactiveerd wanneer er in Commerce Headquarters een nieuwe klantentiteit wordt gemaakt. 
+
+Ga in Commerce headquarters naar **Retail en Commerce \> Headquarters instellen \> Parameters \> Commerce-parameters \> Algemeen** om door de klant aangemaakte meldingen in te schakelen. Selecteer in de vervolgkeuzelijst voor het **e-mailmeldingsprofiel** een e-mailmeldingsprofiel dat het door de klant aangemaakte meldingstype bevat. 
+
+Door klanten aangemaakte gebeurtenissen worden standaard naar headquarters geüpload met de batchtaak **Klanten en kanaalaanvragen synchroniseren**. Als u een real-time serviceoproep wilt gebruiken om deze gebeurtenissen te verzenden, stelt u de e-mail-ID van de klantsjabloon in op **newCust**. Dit wordt echter niet aangeraden, omdat real-time serviceoproepen 'fire and forget'-oproepen zijn en niet de terugval- of pogingslogica hebben die batchtaken leveren.
+
+> [!NOTE] 
+> Wanneer u door klanten aangemaakte meldingen inschakelt, ontvangen klanten die zijn aangemaakt via alle kanalen binnen de rechtspersoon een door de klant aangemaakt e-mail. Op dit moment kunnen door de klant aangemaakte meldingen niet worden beperkt tot één kanaal.  
+
+Bij aanroepen via de batchtaak ondersteunt het door de klant aangemaakte meldingtype de volgende tijdelijke aanduiding.
+
+| Naam van tijdelijke aanduiding | Description                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| customername     | De voornaam en achternaam van de klant die een account heeft aangemaakt. |
+
+Bij aanroepen via de een realtime serviceaanroep ondersteunt het door de klant aangemaakte meldingtype de volgende tijdelijke aanduidingen.
+
+| Naam van tijdelijke aanduiding | Description                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| Name             | De voornaam en achternaam van de klant die een account heeft aangemaakt. |
+| E-mailadres            | Het e-mailadres van de klant die een account heeft aangemaakt.    |
+| Telefoon            | Het telefoonnummer van de klant die een account heeft aangemaakt.      |
+| URL              | De URL die door de klant is opgegeven bij het aanmaken van het account. |
 
 ### <a name="b2b-prospect-approved"></a>B2B-prospect goedgekeurd
 

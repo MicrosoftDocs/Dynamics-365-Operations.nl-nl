@@ -1,26 +1,26 @@
 ---
 title: Het geconfigureerde ER-onderdeel inspecteren om runtimeproblemen te voorkomen
 description: In dit artikel wordt uitgelegd hoe u de geconfigureerde onderdelen voor elektronische rapportage (ER) kunt inspecteren om runtimeproblemen te voorkomen.
-author: NickSelin
+author: kfend
 ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c30f1a0d6ca4a50645bada39abbbf2f58777abb8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: ''
+ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
+ms.openlocfilehash: 53835bbceaa89793d890d8bc18921497c686e969
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864831"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277845"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Het geconfigureerde ER-onderdeel inspecteren om runtimeproblemen te voorkomen
 
@@ -30,8 +30,8 @@ Elke geconfigureerde [indeling](er-overview-components.md#format-components-for-
 
 De validatie wordt standaard automatisch toegepast in de volgende gevallen voor een ER-configuratie die de eerder genoemde ER-onderdelen bevat:
 
-- U [importeert](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) een nieuwe [versie](general-electronic-reporting.md#component-versioning) van een nieuwe ER-configuratie in uw exemplaar van Microsoft Dynamics 365 Finance.
-- U wijzigt de [status](general-electronic-reporting.md#component-versioning) van de bewerkbare ER-configuratie van **Concept** in **Voltooid**.
+- U [importeert](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) een nieuwe versie van een ER-configuratie in uw instantie van Microsoft Dynamics 365 Finance.
+- U wijzigt de status van de bewerkbare ER-configuratie van **Concept** in **Voltooid**.
 - U kunt een bewerkbare ER configuratie [opnieuw baseren](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase) door een nieuwe basisversie toe te passen.
 
 U kunt deze validatie expliciet uitvoeren. Selecteer een van de volgende drie opties en volg de stappen die worden beschreven:
@@ -770,7 +770,7 @@ Wijzig de geconfigureerde indeling door de binding te verwijderen voor het indel
 
 ## <a name="not-linked-template"></a><a id="i12"></a>Niet-gekoppelde sjabloon
 
-Wanneer u [handmatig](er-fillable-excel.md#manual-entry) een ER-indelingsonderdeel configureert om een sjabloon te gebruiken voor het genereren van een uitgaand document, moet u het element **Excel\\File** handmatig toevoegen, de vereiste sjabloon toevoegen als een bijlage van het bewerkbare onderdeel en die bijlage selecteren in het toegevoegde element **Excel\\File**. Op deze manier geeft u aan dat het toegevoegde element de geselecteerde sjabloon tijdens runtime zal vullen. Wanneer u een versie van een indelingsonderdeel configureert met de [status](general-electronic-reporting.md#component-versioning) **Concept**, kunt u verschillende sjablonen toevoegen aan het bewerkbare onderdeel en vervolgens elke sjabloon in het element **Excel\\File** selecteren om de ER-indeling uit te voeren. Op deze manier kunt u zien hoe verschillende sjablonen tijdens runtime worden gevuld. Als u sjablonen hebt die niet zijn geselecteerd in een van de elementen **Excel\\File**, wordt in de ER-indelingsontwerper gewaarschuwd dat deze sjablonen worden verwijderd uit de versie van het bewerkbare ER-indelingsonderdeel wanneer de status wordt gewijzigd van **Concept** in **Voltooid**.
+Wanneer u [handmatig](er-fillable-excel.md#manual-entry) een ER-indelingsonderdeel configureert om een sjabloon te gebruiken voor het genereren van een uitgaand document, moet u het element **Excel\\File** handmatig toevoegen, de vereiste sjabloon toevoegen als een bijlage van het bewerkbare onderdeel en die bijlage selecteren in het toegevoegde element **Excel\\File**. Op deze manier geeft u aan dat het toegevoegde element de geselecteerde sjabloon tijdens runtime zal vullen. Wanneer u een versie van een indelingsonderdeel met status **Concept** configureert, kunt u verschillende sjablonen toevoegen aan het bewerkbare onderdeel en vervolgens elke sjabloon in het element **Excel\\File** selecteren om de ER-indeling uit te voeren. Op deze manier kunt u zien hoe verschillende sjablonen tijdens runtime worden gevuld. Als u sjablonen hebt die niet zijn geselecteerd in een van de elementen **Excel\\File**, wordt in de ER-indelingsontwerper gewaarschuwd dat deze sjablonen worden verwijderd uit de versie van het bewerkbare ER-indelingsonderdeel wanneer de status wordt gewijzigd van **Concept** in **Voltooid**.
 
 De volgende stappen laten zien hoe dit probleem kan optreden.
 

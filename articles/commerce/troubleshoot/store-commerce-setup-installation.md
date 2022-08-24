@@ -1,7 +1,7 @@
 ---
 title: Problemen met het instellen en installeren van Store Commerce oplossen
 description: In dit artikel wordt beschreven hoe u problemen met het instellen en installeren in de Microsoft Dynamics 365 Commerce-app Store Commerce kunt oplossen.
-author: mugunthanm
+author: josaw1
 ms.date: 06/01/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: rassadi
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 8af2c476ced05fc159a53131f8b51ad914a6c7c3
-ms.sourcegitcommit: c271b2edc4bf777f7194b09139ccbd174a359c75
+ms.openlocfilehash: e3d115e84af1aaf5266eff6588ca6996a333e51a
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2022
-ms.locfileid: "9168942"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9286325"
 ---
 # <a name="troubleshoot-store-commerce-setup-and-installation-issues"></a>Problemen met het instellen en installeren van Store Commerce oplossen
 

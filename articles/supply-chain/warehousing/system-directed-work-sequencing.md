@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 8dfa7d8e3bdbfd74c6f95d8b79ac1b0698f73bd6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 88ea680b5b3e237d117b087978d703a7f6f09465
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849121"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219683"
 ---
 # <a name="system-directed-work-sequencing"></a>Door systeem gestuurde werksequentiëring
 
@@ -44,7 +44,7 @@ Voordat u door het systeem gestuurde werksequentiëring kunt gebruiken, moet dez
 
 ### <a name="make-demo-data-available"></a>Demogegevens beschikbaar maken
 
-Om het scenario te doorlopen met de waarden die in dit artikel worden voorgesteld, moet u werken op een systeem waarop de standaardvoorbeeldgegevens zijn geïnstalleerd. U moet daarnaast ook de rechtspersoon **USMF** selecteren. In het scenario wordt magazijn *51* uit de demogegevens gebruikt.
+Om het scenario te doorlopen met de waarden die in dit artikel worden voorgesteld, moet u werken op een systeem waarop de standaard [demogegevens](../../fin-ops-core/fin-ops/get-started/demo-data.md) zijn geïnstalleerd. U moet daarnaast ook de rechtspersoon **USMF** selecteren. In het scenario wordt magazijn *51* uit de demogegevens gebruikt.
 
 > [!IMPORTANT]
 > Voordat u de orders aan het magazijn vrijgeeft, moet u ervoor zorgen dat de orderverzamellocaties voldoende voorraad hebben voor alle artikelen op de orders.
@@ -108,7 +108,7 @@ Om het scenario te doorlopen met de waarden die in dit artikel worden voorgestel
     - **Tabel:** *Werkregels*
     - **Afgeleide tabel:** *Werkregels*
     - **Veld:** *Werkhoeveelheid voorraad*
-    - **Criteria:** *\< 20* (minder dan 20)
+    - **Criteria:** *\<20* (minder dan 20)
 
 1. Selecteer **Toevoegen** om nog een regel toe te voegen.
 1. Stel op de nieuwe regel de volgende waarden in:

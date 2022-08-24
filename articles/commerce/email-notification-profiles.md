@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 109adcc4e8b49c665bd14ecab2b7cc56cebd2291
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: db6c46d471e3b54982132df3e4819236833cf4a8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878481"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292130"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Een profiel voor e-mailmeldingen instellen
 
@@ -31,17 +31,9 @@ Wanneer u kanalen maakt, kunt u een e-mailmeldingsprofiel instellen. Met het e-m
 
 Zie [E-mail configureren en verzenden](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json) voor meer informatie over het configureren van e-mail.
 
-## <a name="create-an-email-notification-profile"></a>Een profiel voor e-mailmeldingen maken
 
-Voer de volgende stappen uit om een e-mailmeldingsprofiel te maken.
 
-1. Ga in het navigatievenster naar **Modules \> Detailhandel en Commerce \> Instelling van hoofdkantoor \> E-mailmeldingsprofiel voor Commerce**.
-1. Klik in het actievenster op **Nieuw**.
-1. Voer in het veld **E-mailmeldingsprofiel** een naam in om het profiel te identificeren.
-1. Voer in het veld **Beschrijving** een relevante beschrijving in.
-1. Stel de schakeloptie **Actief** in op **Ja**.
-
-### <a name="create-an-email-template"></a>Een e-mailsjabloon maken
+## <a name="create-an-email-template"></a>Een e-mailsjabloon maken
 
 Voordat een e-mailmeldingstype kan worden ingeschakeld, moet u een e-mailsjabloon voor de organisatie maken in Commerce Headquarters voor elk meldingstype dat u wilt ondersteunen. Met deze sjabloon definieert u het onderwerp van het e-mailbericht, de afzender, de standaardtaal en de hoofdtekst van de e-mail voor elke ondersteunde taal.
 
@@ -63,14 +55,24 @@ De volgende afbeelding toont enkele voorbeelden van e-mailsjablooninstellingen.
 
 Zie [E-mailsjablonen maken voor transactiegebeurtenissen](email-templates-transactions.md) voor meer informatie over het maken van e-mailsjablonen. 
 
-### <a name="create-an-email-event"></a>Een e-mailgebeurtenis maken
+## <a name="create-an-email-notification-profile"></a>Een profiel voor e-mailmeldingen maken
+
+Voer de volgende stappen uit om een e-mailmeldingsprofiel aan te maken in headquarters.
+
+1. Ga in het navigatievenster naar **Modules \> Detailhandel en Commerce \> Instelling van hoofdkantoor \> E-mailmeldingsprofiel voor Commerce**.
+1. Selecteer **Nieuw** in het actievenster.
+1. Voer in het veld **E-mailmeldingsprofiel** een naam in om het profiel te identificeren.
+1. Voer in het veld **Beschrijving** een relevante beschrijving in.
+1. Stel de schakeloptie **Actief** in op **Ja**.
+
+## <a name="add-a-notification-type"></a>Voer een type e-mailmelding toe
 
 Volg deze stappen om een e-mailgebeurtenis te maken.
 
 1. Ga in het navigatievenster naar **Modules \> Detailhandel en Commerce \> Instelling van hoofdkantoor \> E-mailmeldingsprofiel voor Commerce**.
-1. Zoek en selecteer de gewenste record in de lijst. 
-1. Selecteer de e-mailsjabloon in de vervolgkeuzelijst **E-mail-id**.
+1. Selecteer onder **Instellingen voor melding van detailhandele-mails** **Nieuw**.
 1. Selecteer het toepasselijke **E-mailmeldingstype** in de vervolgkeuzelijst.
+1. Selecteer de e-mailsjabloon die hierboven is aangemaakt uit de vervolgkeuzelijst **ID e-mail**.
 1. Schakel het selectievakje **Actief** in.
 1. Selecteer **Opslaan** in het actievenster.
 
@@ -78,14 +80,12 @@ De volgende afbeelding toont enkele voorbeelden van instellingen voor meldingen 
 
 ![Instellingen voor melding van gebeurtenissen.](media/email-notification-profile.png)
 
-> [!NOTE]
-> Voor het type door de klant gemaakte melding moet u een aanpassing doorvoeren voordat een e-mailmelding kan worden verzonden.
 
-### <a name="schedule-a-recurring-email-notification-process-job"></a>Een terugkerende taak voor het verwerken van e-mailmeldingen plannen
+## <a name="schedule-a-recurring-email-notification-process-job"></a>Een terugkerende taak voor het verwerken van e-mailmeldingen plannen
 
 Als u e-mailmeldingen wilt verzenden, moet de taak **E-mailmelding voor detailhandelorder verwerken** worden uitgevoerd.
 
-Volg deze stappen om de taak **E-mailmelding voor detailhandelorder verwerken** in Commerce Headquarters in te stellen als u dit nog niet hebt gedaan.
+Ga als volgt te werk om in headquarters een batch-taak in te stellen voor het verzenden van transactionele e-mails.
 
 1. Ga naar **Retail en commerce \> IT retail en commerce \> E-mail en meldingen \> E-mailmelding verzenden**.
 1. Selecteer **Terugkeerpatroon** in het dialoogvenster **E-mailmelding voor detailhandelorder verwerken**.
@@ -94,9 +94,9 @@ Volg deze stappen om de taak **E-mailmelding voor detailhandelorder verwerken** 
 1. Selecteer **OK** om terug te keren naar het dialoogvenster **E-mailmelding voor detailhandelorder verwerken**.
 1. Selecteer **OK** om het instellen van de taak af te ronden.
 
-### <a name="next-steps"></a>Volgende stappen
+## <a name="next-steps"></a>Volgende stappen
 
-Voordat u e-mailberichten kunt verzenden, moet u de service voor uitgaande e-mail configureren en een batchtaak instellen. Zie [E-mail configureren en verzenden](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json) voor meer informatie.
+Voordat e-mailberichten kunnen worden verzonden, moet u de service voor uitgaande e-mail configureren. Zie [E-mail configureren en verzenden](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json) voor meer informatie.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

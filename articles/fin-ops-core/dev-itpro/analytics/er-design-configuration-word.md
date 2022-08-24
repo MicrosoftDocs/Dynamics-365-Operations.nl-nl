@@ -1,24 +1,26 @@
 ---
 title: Een nieuwe ER-configuratie ontwerpen om rapporten in Word-indeling te genereren
 description: In dit artikel wordt uitgelegd hoe gebruikers een nieuwe ER-indeling (Electronic Reporting) kunnen configureren om rapporten als Microsoft Word-documenten te genereren.
-author: NickSelin
+author: kfend
 ms.date: 12/17/2020
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: caf87659ca4ceb7b25aa43e09893d2a0ef014884
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form:
+- ERWorkspace, ERSolutionTable, EROperationDesigner
+- LedgerJournalTable, LedgerJournalTransVendPaym
+ms.openlocfilehash: b56b328aa2a2b53dc177a02a4d453e5dbcb8340c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893007"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273333"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Een nieuwe ER-configuratie ontwerpen om rapporten in Word-indeling te genereren
 
@@ -35,7 +37,7 @@ Als u een Word-document wilt gebruiken als sjabloon voor rapporten in Word-indel
 
 ![Een indelingsconfiguratie maken op de pagina Configuraties.](./media/er-design-configuration-word-image2.gif)
 
-Het ER-indelingsonderdeel van de oplossing moet het indelingselement **Excel\\File** bevatten en dat indelingselement moet zijn gekoppeld aan het Word-document dat wordt gebruikt als sjabloon voor gegenereerde rapporten tijdens runtime. Om het ER-indelingsonderdeel te configureren, moet u de [concept](general-electronic-reporting.md#component-versioning)-versie van de gemaakt ER-configuratie in de ER-indelingsontwerper openen. Voeg vervolgens het element **Excel\\File** toe, koppel uw Word-sjabloon aan de bewerkbare ER-indeling en koppel die sjabloon aan het **Excel\\File**-element dat u hebt toegevoegd.
+Het ER-indelingsonderdeel van de oplossing moet het indelingselement **Excel\\File** bevatten en dat indelingselement moet zijn gekoppeld aan het Word-document dat wordt gebruikt als sjabloon voor gegenereerde rapporten tijdens runtime. Om het ER-indelingsonderdeel te configureren, moet u de concept-versie van de gemaakt ER-configuratie in de ER-indelingsontwerper openen. Voeg vervolgens het element **Excel\\File** toe, koppel uw Word-sjabloon aan de bewerkbare ER-indeling en koppel die sjabloon aan het **Excel\\File**-element dat u hebt toegevoegd.
 
 > [!NOTE]
 > Wanneer u een sjabloon koppelt, moet u een [documenttype](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) gebruiken dat eerder is [geconfigureerd](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) in de ER-parameters om sjablonen van ER-indelingen op te slaan.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 8b75907d01a029da1ed6a8224f8a7c0ca0230550
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: fc4348f8207f4f6c8a0b694bc3e57beb29449a15
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068665"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219467"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Locatie-instructie voor naar ouderdom gerangschikte voorraadorderverzameling
 
@@ -34,8 +34,8 @@ Wanneer de voorraad voor het eerst wordt ontvangen of gemaakt in het magazijn, w
 
 Als u deze functie beschikbaar wilt maken, schakelt u de volgende functies in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in, in deze volgorde:
 
-1. Status magazijnlocatie
-1. Locatie-instructie voor naar ouderdom gerangschikte voorraadorderverzameling
+1. *Locatiestatus magazijn* (vanaf versie 10.0.29 is deze functie standaard ingeschakeld. Raadpleeg [Locatiestatus magazijn](warehouse-location-status.md) voor meer informatie.)
+1. *Locatie-instructie voor naar ouderdom gerangschikte voorraadorderverzameling*
 
 ## <a name="feature-requirements"></a>Functievereisten
 
@@ -50,7 +50,7 @@ In deze sectie worden voorbeelden gegeven van het instellen en gebruiken van FIF
 
 ### <a name="make-sample-data-available"></a>Voorbeeldgegevens beschikbaar maken
 
-Als u deze scenario's wilt doorlopen met de hier opgegeven voorbeeldrecords en -waarden, moet u een systeem gebruiken waarop de standaard [demogegevens](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) zijn geïnstalleerd. U moet daarnaast ook de rechtspersoon **USMF** selecteren voordat u begint.
+Als u deze scenario's wilt doorlopen met de hier opgegeven voorbeeldrecords en -waarden, moet u een systeem gebruiken waarop de standaard [demogegevens](../../fin-ops-core/fin-ops/get-started/demo-data.md) zijn geïnstalleerd. U moet daarnaast ook de rechtspersoon **USMF** selecteren voordat u begint.
 
 U kunt deze scenario's ook gebruiken als instructie voor het gebruiken van de functie in een productiesysteem. In dat geval moet u echter uw eigen waarden opgeven voor elke instelling die hier wordt beschreven.
 

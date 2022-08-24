@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 15060d8bdd598476081c22d7280319da3db0cb31
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 2fd8176d16178ecc4ba667e5937f2cec2e0af2c3
+ms.sourcegitcommit: bd3b55e1af28e592c97b540de1e87cd8ba9c35a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178405"
+ms.lasthandoff: 08/03/2022
+ms.locfileid: "9221587"
 ---
 # <a name="provision-human-resources-in-the-finance-and-operations-infrastructure"></a>Human Resources in de infrastructuur voor financiën en bedrijfsactiviteiten inrichten
 
@@ -52,8 +52,8 @@ Hier volgen enkele overwegingen voor extra optionele omgevingen:
 - **Integratie**: configureer en test integraties die native integraties of aangepaste integraties kunnen omvatten, zoals die voor salarisadministratie, volgsystemen voor sollicitanten of vergoedingssystemen en providers.
 - **Training**: u hebt mogelijk een afzonderlijke omgeving nodig die is geconfigureerd met een set trainingsgegevens zodat u uw werknemers kunt trainen in het gebruik van het nieuwe systeem. 
 - **Project met meerdere fasen**: u hebt mogelijk een extra omgeving nodig voor configuratie, gegevensmigratie, testen of andere activiteiten in een projectfase die is gepland nadat het project voor de eerste keer live is gegaan.
-- **Ontwikkeling**: in de infrastructuur voor financiën en bedrijfsactiviteiten kunt u de oplossing nu uitbreiden en uw eigen aanpassingen ontwikkelen. Elke ontwikkelaar moet zijn/haar eigen ontwikkelomgeving gebruiken. Zie [Ontwikkelomgevingen implementeren en openen](/fin-ops-core/dev-itpro/dev-tools/access-instances) voor meer informatie.
-- **GOLD**: voor nieuwe implementaties wordt vaak een afzonderlijke GOLD-omgeving gebruikt die oorspronkelijk wordt behouden voor configuratie en gegevensmigratie. Deze omgeving kan in de gehele implementatie worden gebruikt om andere omgevingen te vernieuwen. Deze wordt gebruikt om de nieuwe productieomgeving te maken die de basisconfiguratie en gegevensmigratie heeft. U kunt een productieomgeving pas implementeren in infrastructuur voor financiën en bedrijfsactiviteiten als u het gereedheidsproces voor go-live hebt voltooid. Zie [Voorbereiden voor go-live](/fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live) voor meer informatie.
+- **Ontwikkeling**: in de infrastructuur voor financiën en bedrijfsactiviteiten kunt u de oplossing nu uitbreiden en uw eigen aanpassingen ontwikkelen. Elke ontwikkelaar moet zijn/haar eigen ontwikkelomgeving gebruiken. Zie [Ontwikkelomgevingen implementeren en openen](../fin-ops-core/dev-itpro/dev-tools/access-instances.md) voor meer informatie.
+- **GOLD**: voor nieuwe implementaties wordt vaak een afzonderlijke GOLD-omgeving gebruikt die oorspronkelijk wordt behouden voor configuratie en gegevensmigratie. Deze omgeving kan in de gehele implementatie worden gebruikt om andere omgevingen te vernieuwen. Deze wordt gebruikt om de nieuwe productieomgeving te maken die de basisconfiguratie en gegevensmigratie heeft. U kunt een productieomgeving pas implementeren in infrastructuur voor financiën en bedrijfsactiviteiten als u het gereedheidsproces voor go-live hebt voltooid. Zie [Voorbereiden voor go-live](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md) voor meer informatie.
 
 <!--NOTE: Need to come back and verify Tier-1 can be used and if a customer cannot purchase tier 3-5 need specific documentation about this.-->
 
@@ -66,24 +66,24 @@ Hier volgen enkele overwegingen voor extra optionele omgevingen:
 
 ## <a name="create-an-lcs-project"></a>Een LCS-project maken
 
-Als u LCS wilt gebruiken om Human Resources-omgevingen te beheren, moet u eerst een LCS-project maken. Als u uw Human Resources-omgeving migreert naar de infrastructuur voor financiën en bedrijfsactiviteiten, moet u een nieuw LCS-project maken voor apps voor financiën en bedrijfsactiviteiten. Zie [Uw Human resources-omgeving migreren](hr-admin-migrate-overview) voor meer informatie. Als u al een LCS-project hebt voor andere apps voor financiën en bedrijfsactiviteiten, kunt u de Human Resources-functies inschakelen in het werkgebied **Functiebeheer**. Zie [Overzicht van functiebeheer](/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview) voor meer informatie.
+Als u LCS wilt gebruiken om Human Resources-omgevingen te beheren, moet u eerst een LCS-project maken. Als u uw Human Resources-omgeving migreert naar de infrastructuur voor financiën en bedrijfsactiviteiten, moet u een nieuw LCS-project maken voor apps voor financiën en bedrijfsactiviteiten. Als u al een LCS-project hebt voor andere apps voor financiën en bedrijfsactiviteiten, kunt u de Human Resources-functies inschakelen in het werkgebied **Functiebeheer**. Zie [Overzicht van functiebeheer](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voor meer informatie.
 
-Wanneer een nieuwe klant zich bij Human Resources registreert, bevat het abonnement een implementatieprojectwerkgebied. Nadat de klant de service heeft geactiveerd, moet de tenantbeheerder zich aanmelden bij <https://lcs.dynamics.com> via het tenantaccount. Het projectwerkgebied wordt automatisch voor de organisatie gemaakt. Zie [Lifecycle Services (LCS) voor klanten van apps voor financiën en bedrijfsactiviteiten](/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs) voor meer informatie.
+Wanneer een nieuwe klant zich bij Human Resources registreert, bevat het abonnement een implementatieprojectwerkgebied. Nadat de klant de service heeft geactiveerd, moet de tenantbeheerder zich aanmelden bij <https://lcs.dynamics.com> via het tenantaccount. Het projectwerkgebied wordt automatisch voor de organisatie gemaakt. Zie [Lifecycle Services (LCS) voor klanten van apps voor financiën en bedrijfsactiviteiten](../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md) voor meer informatie.
 
 > [!NOTE]
 > Om een succesvolle inrichting te waarborgen, moet het account waarmee u de Human Resources-omgeving inricht zijn toegewezen aan de rol **Systeembeheerder** of de rol **Systeemaanpasser** in de Power Apps-omgeving die is gekoppeld aan de Human Resources-omgeving. Raadpleeg voor meer informatie over het toewijzen van beveiligingsrollen aan gebruikers in het Microsoft Power Platform [Beveiliging van gebruikers configureren voor resources](/power-platform/admin/database-security).
 
-U moet het proces van LCS-projectonboarding voltooien voordat u omgevingen kunt gaan implementeren. Zie [Projectonboarding](/fin-ops-core/dev-itpro/lifecycle-services/project-onboarding) voor meer informatie. Zie de [Gebruikershandleiding voor Lifecycle Services (LCS)](/fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide) voor meer informatie over het gebruik van LCS.
+U moet het proces van LCS-projectonboarding voltooien voordat u omgevingen kunt gaan implementeren. Zie [Projectonboarding](../fin-ops-core/dev-itpro/lifecycle-services/project-onboarding.md) voor meer informatie. Zie de [Gebruikershandleiding voor Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide.md) voor meer informatie over het gebruik van LCS.
 
 ## <a name="deploy-human-resources-environments"></a>Human Resources-omgevingen implementeren
 
 Voor de implementatie van apps voor financiën en bedrijfsactiviteiten zoals Human Resources in de cloud, moet u inzicht hebben in de omgeving en het abonnement waarvoor u de implementatie uitvoert, wie welke taken kan uitvoeren en welke gegevens en aanpassingen u moet beheren. U wordt aangeraden een serviceaccount te gebruiken in plaats van een benoemde gebruiker wanneer u nieuwe omgevingen implementeert. Zie [Overzicht van cloudimplementaties](/fin-ops-core/dev-itpro/deployment/cloud-deployment-overview) voor meer informatie over de implementaties van omgevingen in de infrastructuur voor financiën en bedrijfsactiviteiten.
 
-Als u een productieomgeving wilt implementeren voor Human Resources in de infrastructuur voor financiën en bedrijfsactiviteiten, moet u het gereedheidsproces voor go-live voltooien. Zie [Voorbereiden voor go-live](/fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live) voor meer informatie. Dit proces omvat de abonnementsschatting in LCS. Zie [Abonnementsschatting](/fin-ops-core/dev-itpro/lifecycle-services/subscription-estimator) voor meer informatie.
+Als u een productieomgeving wilt implementeren voor Human Resources in de infrastructuur voor financiën en bedrijfsactiviteiten, moet u het gereedheidsproces voor go-live voltooien. Zie [Voorbereiden voor go-live](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md) voor meer informatie. Dit proces omvat de abonnementsschatting in LCS. Zie [Abonnementsschatting](../fin-ops-core/dev-itpro/lifecycle-services/subscription-estimator.md) voor meer informatie.
 
 ## <a name="integrate-microsoft-power-platform-with-human-resources"></a>Microsoft Power Platform integreren met Human Resources
 
-Microsoft Power Platform biedt een reeks mogelijkheden voor Dynamics 365-toepassingen via het Power Platform-beheercentrum. U kunt het gebruik van Human Resources-gegevens integreren en uitbreiden met Microsoft Power Platform. Zie [Integratie van Microsoft Power Platform met apps voor financiën en bedrijfsactiviteiten](/fin-ops-core/dev-itpro/power-platform/overview) voor informatie over het integreren van Human Resources met Microsoft Power Platform.
+Microsoft Power Platform biedt een reeks mogelijkheden voor Dynamics 365-toepassingen via het Power Platform-beheercentrum. U kunt het gebruik van Human Resources-gegevens integreren en uitbreiden met Microsoft Power Platform. Zie [Integratie van Microsoft Power Platform met apps voor financiën en bedrijfsactiviteiten](../fin-ops-core/dev-itpro/power-platform/overview.md) voor informatie over het integreren van Human Resources met Microsoft Power Platform.
 
 ## <a name="supported-geographies"></a>Ondersteunde geografieën
 
@@ -96,8 +96,8 @@ Standaard heeft de globale beheerder die de omgeving heeft gemaakt toegang tot d
 ## <a name="additional-resources"></a>Aanvullende bronnen
 Meer informatie over het gebruiken en beheren van projecten in LCS in de infrastructuur van de apps voor financiën en bedrijfsactiviteiten vindt u met behulp van de volgende resources:
 
-- [Lifecycle Services-resources](/fin-ops-core/dev-itpro/lifecycle-services/lcs.md)
-- [Gebruikershandleiding Lifecycle Services (LCS)](/fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide.md)
+- [Lifecycle Services-resources](../fin-ops-core/dev-itpro/lifecycle-services/lcs.md)
+- [Gebruikershandleiding Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide.md)
 - [Overzicht van Selfservice-implementatie](../fin-ops-core/dev-itpro/deployment/infrastructure-stack.md)
 - [Startpagina Bewerkingen databaseverplaatsingen](../fin-ops-core/dev-itpro/database/dbmovement-operations.md)
 

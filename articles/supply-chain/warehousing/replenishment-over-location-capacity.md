@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 72cda7608d55414ee62bc7dcc1e02e28f6212aff
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 543afe2e689fa787158551bec64e2458141be71c
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899232"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220082"
 ---
 # <a name="replenishment-over-location-capacity"></a>Aanvulling boven locatiecapaciteit
 
@@ -41,7 +41,7 @@ Deze sectie bevat richtlijnen en een voorbeeld waarin wordt uitgelegd hoe u deze
 
 ### <a name="enable-sample-data"></a>Voorbeeldgegevens inschakelen
 
-Als u het [voorbeeldscenario](#example-scenario) wilt doorlopen met de hier opgegeven voorbeeldrecords en -waarden, moet u een systeem gebruiken waarop de standaard [demogegevens](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) zijn geïnstalleerd. U moet daarnaast ook de rechtspersoon **USMF** selecteren voordat u begint.
+Als u het [voorbeeldscenario](#example-scenario) wilt doorlopen met de hier opgegeven voorbeeldrecords en -waarden, moet u een systeem gebruiken waarop de standaard [demogegevens](../../fin-ops-core/fin-ops/get-started/demo-data.md) zijn geïnstalleerd. U moet daarnaast ook de rechtspersoon **USMF** selecteren voordat u begint.
 
 ### <a name="location-profile"></a>Locatieprofiel
 

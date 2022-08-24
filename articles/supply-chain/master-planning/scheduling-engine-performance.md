@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f5ece3672bba352e02808248c91366539423d682
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ddc22bdd223eff513ff571501c599712ac78a7da
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854292"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219902"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Prestaties van planningsengine verbeteren
 
@@ -294,7 +294,9 @@ Een alternatief voor het gebruik van parallelle bewerkingen is om de paren als '
 
 ### <a name="route-with-quantity-of-resources-higher-than-1"></a>Route met hoeveelheid resources van meer dan 1
 
-Als de hoeveelheid resources die nodig zijn voor een hogere bewerking wordt ingesteld op meer dan één, resulteert deze in effectief dezelfde manier als bij het gebruik van primaire/secundaire bewerkingen, omdat er meerdere parallelle taken naar de engine worden verzonden. Voor dit geval is er echter geen optie voor het gebruik van specifieke resourcetoewijzingen, omdat voor een hoeveelheid die groter is dan één resource, meer dan één resource van toepassing is voor de bewerking.
+Als de hoeveelheid resources die nodig is voor een bewerking groter is dan één, is het resultaat effectief hetzelfde als bij het gebruik van primaire/secundaire bewerkingen, omdat er meerdere parallelle taken naar de engine zullen worden verzonden. In dit geval is het echter niet mogelijk specifieke resourcetoewijzingen te gebruiken, omdat een hoeveelheid groter dan één meer dan één resource vereist is voor de bewerking.
+
+Een secundaire bewerking met een hoeveelheid resourcebelasting die groter is dan één houdt in dat de opgegeven hoeveelheid secundaire resources nodig is voor elke resource van de primaire bewerking. Als een primaire bewerking bijvoorbeeld een hoeveelheid resources heeft die is ingesteld op twee en voor de secundaire bewerking de resourcehoeveelheid is ingesteld op drie, zijn in totaal zes resources nodig voor de secundaire bewerking.
 
 ### <a name="excessive-use-of-finite-capacity"></a>Buitensporig gebruik van eindige capaciteit
 

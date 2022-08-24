@@ -1,24 +1,24 @@
 ---
 title: Verschillende afgeleide toewijzingen voor één modelbasis beheren
 description: In dit artikel wordt uitgelegd hoe u verschillende afgeleide toewijzingen beheert die voor één modelbasis zijn geconfigureerd.
-author: NickSelin
+author: kfend
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERModelMappingTable
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 960f5962ec1ea216e35feb0c282856bed95d079a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERSolutionTable, ERModelMappingTable
+ms.openlocfilehash: 868d47ccfebb9a9753d93344c72b10ae4353b0e6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892474"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277503"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Verschillende afgeleide toewijzingen voor één modelbasis beheren
 
@@ -106,7 +106,7 @@ In deze sectie wordt uitgelegd hoe u de modeltoewijzingen [aanpast](er-quick-sta
 3. Selecteer in het vervolgvenster **Configuratie maken** in het veld **Nieuw** **Afleiden van naam: Toewijzing factuurmodel, Microsoft**.
 4. Voer in het veld **Naam** **Toewijzing factuurmodel Litware** in.
 5. Selecteer **Configuratie maken**.
-6. [Markeer](er-quick-start2-customize-report.md#MarkFormatRunnable) de [concept](general-electronic-reporting.md#component-versioning)versie van de afgeleide toewijzing als beschikbaar voor gebruik tijdens runtime:
+6. [Markeer](er-quick-start2-customize-report.md#MarkFormatRunnable) de [concept](general-electronic-reporting.md)versie van de afgeleide toewijzing als beschikbaar voor gebruik tijdens runtime:
 
     1. Selecteer in het actievenster op het tabblad **Configuraties** in de groep **Geavanceerde instellingen** de optie **Gebruikersparameters**.
     2. Stel in het dialoogvenster **Gebruikersparameters** de optie **Uitvoeringsinstellingen** in op **Ja** en selecteer **OK**.

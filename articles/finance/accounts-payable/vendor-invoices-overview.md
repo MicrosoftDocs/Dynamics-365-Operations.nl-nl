@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b88390085d86956c38c0fc167395509d0c54f860
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 565e45a1c396b9144b4a6437056a0040b2fbde1d
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894166"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228746"
 ---
 # <a name="vendor-invoices-overview"></a>Overzicht van Leveranciersfacturen
 
@@ -71,10 +71,10 @@ Uw organisatie gebruikt mogelijke workflows om het controleproces voor leveranci
 
 U kunt op de volgende manieren voorkomen dat een factuur wordt ingediend bij een workflow.
 
-- **Het factuurtotaal en het geregistreerde totaal komen niet overeen.** De persoon die de factuur heeft ingediend, ontvangt een waarschuwing dat de totalen niet gelijk zijn. De waarschuwing biedt u de mogelijkheid om de saldi te corrigeren alvorens de factuur opnieuw in te dienen bij de workflow. Deze functie is beschikbaar als de parameter **Indiening bij workflow voorkomen wanneer het factuurtotaal en geregistreerde factuurtotaal niet gelijk zijn** op de pagina **Functiebeheer** is ingeschakeld. 
-- **Factuur bevat niet-toegewezen toeslagen.** De persoon die de factuur heeft ingediend, ontvangt een waarschuwing dat de factuur niet-toegewezen toeslagen bevat, zodat deze de factuur kan corrigeren alvorens deze opnieuw in te dienen bij de workflow. Deze functie is beschikbaar als de parameter **Indiening bij workflow voorkomen wanneer een leveranciersfactuur niet-toegewezen toeslagen bevat** op de pagina **Functiebeheer** is ingeschakeld.
-- **Factuur bevat hetzelfde factuurnummer als een andere geboekte factuur.** De persoon die de factuur heeft ingediend, ontvangt een bericht waarin wordt aangegeven dat er een factuur met een dubbel nummer is gevonden. Het dubbele nummer kan worden gecorrigeerd voordat u de factuur opnieuw bij de workflow indient. Deze waarschuwing wordt weergegeven wanneer de parameter in Leveranciers met de naam **Het gebruikte factuurnummer controleren** is ingesteld op **Duplicatie afwijzen**. Deze functie is beschikbaar als de parameter **Indiening bij workflow voorkomen als het factuurnummer al bestaat op een geboekte factuur en het systeem dubbele factuurnummers niet toestaat** op de pagina **Functiebeheer** is ingeschakeld.
-- **De factuur bevat een regel waarop de factuurhoeveelheid kleiner is dan de gematchte hoeveelheid op de productontvangstbon.** De persoon die de factuur indient of probeert te boeken, ontvangt een bericht dat de hoeveelheden niet gelijk zijn. Dit bericht biedt u de mogelijkheid om de waarden te corrigeren alvorens de factuur opnieuw in te dienen bij de workflow. Deze functie is beschikbaar als de parameter **Boeken en verzenden van leveranciersfacturen naar workflow blokkeren** op de pagina **Functiebeheer** is ingeschakeld en als de parameter **Boeken en verzenden naar workflow** op de pagina **Parameters van module Leveranciers** is ingeschakeld.
+- **Het factuurtotaal en het geregistreerde totaal komen niet overeen.** De gebruiker die de factuur heeft ingediend, ontvangt een waarschuwing dat de totalen niet gelijk zijn. Deze waarschuwing geeft de gebruiker de mogelijkheid om de saldi te corrigeren alvorens de factuur opnieuw in te dienen bij het workflowsysteem. Deze functie is beschikbaar als de parameter **Indienen bij werkstroom verhinderen wanneer het factuurtotaal en geregistreerd factuurtotaal niet gelijk zijn** op de pagina **Feature Management** en de parameter **Werkstroomoptie wanneer factuur en geregistreerd totaal niet gelijk zijn** op de pagina **Parameters van module Leveranciers** zijn ingeschakeld. 
+- **Factuur bevat niet-toegewezen toeslagen.** De gebruiker die de factuur heeft ingediend, ontvangt een waarschuwing dat de factuur niet-toegewezen toeslagen bevat. Op deze manier kan de gebruiker de factuur corrigeren voordat deze opnieuw bij het workflowsysteem wordt aangeboden. Deze functie is beschikbaar als de parameter **Indienen bij werkstroom niet toestaan als een leveranciersfactuur niet-toegewezen toeslagen bevat** op de pagina **Functiebeheer** en de parameter **Werkstroomoptie wanneer er niet-toegewezen toeslagen bestaan** op de pagina **Parameters van module Leveranciers** zijn ingeschakeld.
+- **Factuur bevat hetzelfde factuurnummer als een andere geboekte factuur.** De gebruiker die de factuur heeft ingediend, ontvangt een waarschuwing dat er een factuur met een dubbel nummer is gevonden. De gebruiker kan het dubbele nummer corrigeren voordat de factuur opnieuw bij het workflowsysteem wordt aangeboden. De waarschuwing wordt getoond als de parameter **Gebruikt factuurnummer controleren** in Leveranciers is ingesteld op **Duplicatie afwijzen**. Deze functie is beschikbaar als de parameter **Indiening bij workflow voorkomen als het factuurnummer al bestaat op een geboekte factuur en het systeem dubbele factuurnummers niet toestaat** op de pagina **Functiebeheer** is ingeschakeld.
+- **De factuur bevat een regel waarop de factuurhoeveelheid kleiner is dan de gematchte hoeveelheid op de productontvangstbon.** De gebruiker die de factuur indient of probeert te posten, ontvangt een bericht dat de hoeveelheden niet gelijk zijn. Dit bericht geeft de gebruiker de mogelijkheid om de waarden te corrigeren alvorens de factuur opnieuw in te dienen bij het workflowsysteem. Deze functie is beschikbaar als de parameter **Boeken en verzenden van leveranciersfacturen naar workflow blokkeren** op de pagina **Functiebeheer** en de parameter **Boeken en verzenden indienen bij workflow blokkeren** op de pagina **Parameters van module Leveranciers** zijn ingeschakeld.
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Leveranciersfacturen vereffenen met productontvangstbonnen
 
@@ -142,7 +142,7 @@ Voor elke transactie bevat het rapport de volgende details:
 Wanneer u het rapport **Open transacties leverancier** genereert, zijn de volgende standaardparameters beschikbaar. U kunt deze gebruiken om de gegevens te filteren die in het rapport worden opgenomen.
 
 - **Toekomstige vereffening uitsluiten**: schakel dit selectievakje in om transacties uit te sluiten die worden vereffend na de datum die is ingevoerd in het veld **Openstaande transacties per**.
-- **Openstaande transacties per** – Voer een datum in om transacties op te nemen die vanaf die datum openstaan. Als u geen datum invoert, wordt dit veld ingesteld op de maximumdatum. (De maximumdatum is de laatste datum die door het systeem wordt geaccepteerd, 31 december 2154.) De volgende keer dat het rapport wordt uitgevoerd, wordt dit veld standaard ingesteld op de laatste datum die erin is ingevoerd.
+- **Openstaande transacties per** – Voer een datum in om transacties op te nemen die vanaf die datum openstaan. Als u geen datum invoert, wordt dit veld ingesteld op de maximumdatum. (De maximum datum is de laatste datum die door het systeem wordt geaccepteerd, 31 december 2154.) De volgende keer dat het rapport wordt uitgevoerd, wordt dit veld standaard ingesteld op de laatste datum die erin is ingevoerd.
 
 Met de filters onder het veld **Op te nemen record** kunt u de transactiegegevens die in het rapport worden opgenomen, verder beperken.
 

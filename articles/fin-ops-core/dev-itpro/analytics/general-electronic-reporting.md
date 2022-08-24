@@ -1,28 +1,26 @@
 ---
-title: Overzicht van elektronische rapportage (ER)
+title: Overzicht elektronische rapportage (ER)
 description: Dit artikel biedt een overzicht van het hulpmiddel voor elektronische rapportage. In dit onderwerp worden belangrijke concepten, ondersteunde scenario's en indelingen beschreven die deel uitmaken van de oplossing.
-author: NickSelin
+author: kfend
 ms.date: 11/02/2021
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "58941"
-- intro-internal
-ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f3853e0c1da0a5abb3f92171370cc4aeabbd829
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 58941,  ""intro-internal
+ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
+ms.search.form: ERWorkspace
+ms.openlocfilehash: e94846dd565abb6de2c1f07532d285e28307e9a2
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109575"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269686"
 ---
 # <a name="electronic-reporting-er-overview"></a>Overzicht van elektronische rapportage (ER)
 
@@ -78,7 +76,7 @@ De ER-engine biedt de volgende mogelijkheden:
 
 [![ER-hoofdgegevensstroom.](./media/ger-main-data-flow.jpg)](./media/ger-main-data-flow.jpg)
 
-### <a name="components"></a>Onderdelen
+### <a name="component"></a>Component
 
 Elektronische rapportage ondersteunt de volgende typen onderdelen:
 
@@ -89,32 +87,7 @@ Elektronische rapportage ondersteunt de volgende typen onderdelen:
 
 Zie [Onderdelen van elektronische rapportage](er-overview-components.md) voor meer informatie.
 
-
-#### <a name="component-versioning"></a>Componentversiebeheer
-
-Versiebeheer wordt ondersteund voor ER-onderdelen. De volgende werkstroom voorziet in het beheer van wijzigingen in ER-onderdelen:
-
-1. De versie die oorspronkelijk is gemaakt, wordt gemarkeerd als een **Concept**-versie. Deze versie kan worden bewerkt en is beschikbaar voor testruns.
-2. De **Concept**-versie kan worden geconverteerd naar een **Voltooide** versie. Deze versie kan worden gebruikt in lokale rapportageprocessen.
-3. De **Voltooide** versie kan worden geconverteerd naar een **Gedeelde** versie. Deze versie is gepubliceerd in LCS en kan worden gebruikt in algemene rapportageprocessen.
-4. De **Gedeelde** versie kan worden geconverteerd naar een **Vervallen** versie. Deze versie kan vervolgens worden verwijderd.
-
-Versies met de status **Voltooid** of **Gedeeld** zijn beschikbaar voor andere gegevensuitwisseling. Op onderdelen met een van deze statussen kunnen deze acties worden uitgevoerd:
-
-- Het onderdeel kan worden geserialiseerd in XML-indeling en geëxporteerd als bestand in XML-indeling.
-- Een component kan opnieuw worden geserialiseerd vanuit een XML-bestand en geïmporteerd de toepassing als een nieuwe versie van een ER-onderdeel.
-
-#### <a name="component-date-effectivity"></a>Effectivity van de componentdatum
-
-Versies van ER-onderdelen zijn datumeffectief. U kunt de datum **Geldig vanaf** definiëren voor een ER-onderdeel, om de datum op te geven waarop een onderdeel geldig wordt voor rapportageprocessen. De datum van toepassingssessie wordt gebruikt om te definiëren of een onderdeel geldig is voor uitvoering. Als meer dan één versie geldig is voor een specifieke datum, wordt de meest recente versie gebruikt voor rapportageprocessen.
-
-#### <a name="component-access"></a>Componenttoegang
-
-Toegang tot ER-indelingsonderdelen is afhankelijk van de instelling voor de ISO land-/regiocode. Als deze instelling leeg wordt gelaten voor een geselecteerde versie van een indelingsconfiguratie, kan een indelingsonderdeel tijdens de uitvoering worden geopend vanuit elk bedrijf. Wanneer deze instelling ISO-land/regiocodes bevat, is alleen een indelingscomponent beschikbaar van bedrijven met een primair adres dat is gedefinieerd voor een van de ISO-land-/regiocodes van een indelingsonderdeel.
-
-Verschillende versies van een gegevensindelingsonderdeel kunnen verschillende instellingen hebben voor ISO-land-/regiocodes.
-
-#### <a name="configuration"></a><a name="Configuration"></a>Configuratie
+### <a name="configuration"></a><a name="Configuration"></a>Configuratie
 
 De ER-configuratie is de wrapper voor een bepaald ER-onderdeel. Dat onderdeel kan een gegevensmodelonderdeel zijn of een indelingscomponent. Een configuratie kan verschillende versies van een ER-onderdeel bevatten. Elke configuratie is gemarkeerd als eigendom van een bepaalde configuratieprovider. De **Concept**-versie van een onderdeel van een configuratie kan worden bewerkt als de eigenaar van de configuratie als een actieve provider is geselecteerd in de ER-instellingen in de toepassing.
 
@@ -124,13 +97,13 @@ De indelingsconfiguratie die wordt gemaakt bevat een indelingscomponent. Het geg
 
 Een ER-configuratie wordt gedeeld voor toepassingsbedrijven.
 
-#### <a name="provider"></a><a name="Provider"></a>Provider
+### <a name="provider"></a><a name="Provider"></a>Provider
 
 De ER-provider is de partij-id die wordt gebruikt om de auteur (eigenaar) van elke ER-configuratie aan te duiden. Via ER kunt u de lijst met configuratieproviders beheren. Indelingsconfiguraties die worden vrijgegeven voor elektronische documenten als onderdeel van de Finance + Operations-oplossing zijn gemarkeerd als het eigendom van de configuratieprovider **Microsoft**.
 
 Voor informatie over het registreren van een nieuwe ER-provider speelt u de taakbegeleiding **ER Een configuratieprovider maken en deze als actief markeren** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen van IT-services/oplossingen ophalen/ontwikkelen (10677)**).
 
-#### <a name="repository"></a><a name="Repository"></a>Opslagplaats
+### <a name="repository"></a><a name="Repository"></a>Opslagplaats
 
 In een ER-opslagplaats worden ER-configuraties opgeslagen. De volgende typen ER-opslagplaatsen worden momenteel ondersteund: 
 
@@ -145,7 +118,7 @@ De opslagplaats **Gedeelde LCS-bibliotheek** biedt toegang tot de lijst met conf
 
 Een opslagplaats **LCS-project** biedt toegang tot de lijst met configuraties van een specifiek LCS-project (activabibliotheek voor LCS-project) dat is geselecteerd tijdens de registratie van de opslagplaats. Via ER kunt u gedeelde configuraties uploaden vanuit het huidige exemplaar naar een specifieke opslagplaats voor **LCS-projecten**. U kunt ook configuraties importeren vanuit een bepaalde opslagplaats voor **LCS-projecten** in het huidige exemplaar van uw apps voor financiën en bedrijfsactiviteiten.
 
-Een opslagplaats **Bestandssysteem** biedt toegang tot de lijst met configuraties die zich als XML-bestanden bevinden in de opgegeven map van het lokale bestandssysteem op de computer waarop de AOS-service wordt gehost. Vereiste map is geselecteerd in de fase van opslagplaatsregistratie. U kunt configuraties importeren vanuit een opslagplaats **Bestandssysteem** in het huidige exemplaar. 
+Een opslagplaats **Bestandssysteem** biedt toegang tot de lijst met configuraties die zich als XML-bestanden in de opgegeven map bevinden van het lokale bestandssysteem op de computer waarop de AOS-service wordt gehost. De vereiste map is geselecteerd in de fase opslagplaatsregistratie. U kunt configuraties importeren vanuit een opslagplaats **Bestandssysteem** in het huidige exemplaar. 
 
 Houd er rekening mee dat dit type opslagplaats toegankelijk is in de volgende omgevingen:
 
@@ -162,7 +135,7 @@ Een **algemene opslagplaats** biedt toegang tot de lijst met configuraties in de
 
 Zie voor meer informatie [Configuraties voor Elektronische rapportage (ER) importeren uit de algemene opslagplaats van de configuratieservice](./er-download-configurations-global-repo.md).
 
-De opslagplaats **Bronnen voor bedrijfsactiviteiten** biedt toegang tot de lijst met configuraties die Microsoft als ER-configuratieprovider aanvankelijk heeft vrijgegeven als onderdeel van de toepassingsoplossing. Deze configuraties kunnen worden geïmporteerd in het huidige exemplaar en worden gebruikt voor elektronische rapportage of voor het afspelen van voorbeeldtaakbegeleidingen. Zij kunnen ook worden gebruikt voor extra lokalisaties en aanpassingen. Houd er rekening mee dat de meest recente versies die door Microsoft ER-configuraties worden verschaft, moeten worden geïmporteerd vanuit de LCS-bibliotheek met behulp van de opslagplaats ER-opslagplaats.
+De opslagplaats **Bronnen voor bedrijfsactiviteiten** biedt toegang tot de lijst met configuraties die Microsoft als ER-configuratieprovider aanvankelijk heeft vrijgegeven als onderdeel van de toepassingsoplossing. Deze configuraties kunnen worden geïmporteerd in het huidige exemplaar en worden gebruikt voor elektronische rapportage of voor het afspelen van voorbeeldtaakbegeleidingen. Zij kunnen ook worden gebruikt voor extra lokalisaties en aanpassingen. Houd er rekening mee dat de meest recente versies die door Microsoft ER-configuraties worden verschaft, moeten worden geïmporteerd vanuit de LCS-bibliotheek met behulp van de bijbehorende ER-opslagplaats.
 
 Vereiste opslagplaatsen voor **LCS-project**, **Bestandssysteem** en **Regulatory Configuration Services (RCS)** kunnen afzonderlijk worden geregistreerd voor elke configuratieprovider van het huidige exemplaar. Elke opslagplaats kan aan een specifieke configuratieprovider zijn gekoppeld.
 
@@ -265,6 +238,7 @@ De lijst met ER-configuraties voor Finance wordt continu bijgewerkt. Open de [Al
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
+- [Onderdelen van elektronische rapportage](er-overview-components.md)
 - [Configuraties voor elektronische rapportage (ER) maken](electronic-reporting-configuration.md)
 - [De levenscyclus van de configuratie van elektronische rapportage (ER) beheren](general-electronic-reporting-manage-configuration-lifecycle.md)
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: c54534ae32aa037f36a16600a058bca6d433002c
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.openlocfilehash: 89036920cc8738e2948ec1a78aafc4b35fff87fa
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9167726"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219089"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.25 (april 2022)
 
@@ -31,11 +31,11 @@ In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in vers
 
 De volgende tabel vermeldt de functies die deze versie bevat. Mogelijk wordt dit artikel gewijzigd om functies op te nemen die in de build zijn gemaakt nadat dit artikel oorspronkelijk werd gepubliceerd.
 
-| Functiegebied | Functie | Meer informatie | Ingeschakeld door   |
+| Functiegebied | Functie | Meer informatie | Ingeschakeld door |
 |---|---|---|---|
-| Voorraad en logistiek | [Verbeteringen gevaarlijke materialen](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/hazardous-materials-enhancements) | Binnenkort beschikbaar | Functiebeheer:<br>*Verbeteringen gevaarlijke materialen* |
-| Voorraad en logistiek | [Inpakwerk voor inpakstations](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | Binnenkort beschikbaar | Functiebeheer:<br>*Inpakwerk voor inpakstations* |
-| Voorraad en logistiek | [Streepjescodes scannen in het magazijn met behulp van GS1-indelingsstandaarden](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1-streepjescodes en QR-codes](../warehousing/gs1-barcodes.md) | Functiebeheer:<br>*GS1-streepjescode scannen* |
+| Voorraad&nbsp;en&nbsp;logistiek | [Verbeteringen gevaarlijke materialen](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/hazardous-materials-enhancements) | Binnenkort beschikbaar | Functiebeheer:<br>*Verbeteringen gevaarlijke materialen* |
+| Voorraad&nbsp;en&nbsp;logistiek | [Inpakwerk voor inpakstations](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | [Verpakkingswerk voor het verpakken van uitgaande containers en het verwerken van zendingen](../warehousing/packing-work.md) | Functiebeheer:<br>*Inpakwerk voor inpakstations* |
+| Voorraad&nbsp;en&nbsp;logistiek | [Streepjescodes scannen in het magazijn met behulp van GS1-indelingsstandaarden](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1-streepjescodes en QR-codes](../warehousing/gs1-barcodes.md) | Functiebeheer:<br>*GS1-streepjescode scannen* |
 | Productie | [Materiaalverbruik en reserveringen in de uitvoeringsinterface van de productievloer](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken](../production-control/production-floor-execution-use.md) | Functiebeheer:<br>*Materiaalverbruik registreren in de uitvoeringsinterface van de werkvloer (niet-WMS)*<br><br>En/of:<br><br>Functiebeheer:<br>*(Preview) Materiaalverbruik registreren in de uitvoeringsinterface van de productievloer (WMS ingeschakeld)* |
 | Planning | [Gecentraliseerd onderhoud van kalenders voor Planningsoptimalisatie](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-centralized-calendar-maintenance) | [Kalenders en hoofdplanning](../master-planning/supply-chain-calendars-master-planning.md) | Standaard ingeschakeld |
 | Planning | [Suggesties voor Planningsoptimalisatie om bestaande voorraad te optimaliseren](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [Actieberichten](../master-planning/action-messages.md) | Standaard ingeschakeld |

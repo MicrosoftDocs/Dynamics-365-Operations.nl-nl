@@ -1,32 +1,32 @@
 ---
 title: Bijgewerkte versies van ER-configuraties importeren
 description: In dit artikel wordt uitgelegd hoe u ER-configuraties (Electronic Reporting) importeert uit de algemene opslagplaats van de configuratieservice.
-author: NickSelin
+author: kfend
 ms.date: 06/09/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 105843
-ms.assetid: dc44dea2-22ce-401e-98b9-d289e0e2825b
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 0dac106a592a6a70aae6b245bce74d21c98cad10
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 105843
+ms.assetid: dc44dea2-22ce-401e-98b9-d289e0e2825b
+ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
+ms.openlocfilehash: 0eef9c9a112fd58a43f6c3a85163ccf44bea3d61
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9108434"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292641"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Bijgewerkte versies van ER-configuraties importeren
 
 [!include [banner](../includes/banner.md)]
 
-Om [ER-configuraties](general-electronic-reporting.md#Configuration) (Electronic Reporting) te delen, wordt gebruik gemaakt van [ER-opslagplaatsen](general-electronic-reporting.md#Repository). U kunt configuraties vanuit verschillende opslagplaatsen [importeren](download-electronic-reporting-configuration-lcs.md) in uw exemplaar van Microsoft Dynamics 365 Finance. Wanneer u configuraties importeert, kunnen [configuratie providers](general-electronic-reporting.md#Provider) nieuwe [versies](general-electronic-reporting.md#component-versioning) van opslagplaatsen publiceren zodat deze kunnen worden gedeeld.
+Om [ER-configuraties](general-electronic-reporting.md#Configuration) (Electronic Reporting) te delen, wordt gebruik gemaakt van [ER-opslagplaatsen](general-electronic-reporting.md#Repository). U kunt configuraties vanuit verschillende opslagplaatsen [importeren](download-electronic-reporting-configuration-lcs.md) in uw exemplaar van Microsoft Dynamics 365 Finance. Wanneer u ER-configuraties importeert, kunnen [configuratieproviders](general-electronic-reporting.md#Provider) nieuwe versies van opslagplaatsen publiceren zodat deze kunnen worden gedeeld.
 
 In dit artikel wordt uitgelegd hoe u ER-configuraties importeert uit de algemene opslagplaats van de configuratieservice. Zie [Microsoft Dynamics 365 Finance - Regulatory services, configuratieservice](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) voor meer informatie.
 

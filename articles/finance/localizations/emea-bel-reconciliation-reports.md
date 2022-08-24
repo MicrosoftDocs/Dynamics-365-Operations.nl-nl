@@ -1,25 +1,25 @@
 ---
 title: Afstemmingsrapporten voor België
 description: In dit artikel worden de standaardrapporten beschreven die Microsoft Dynamics 365 Finance biedt om u te helpen bij de INTERVAT-belastingaangifte en afstemmingsanalyse.
-author: anasyash
+author: AdamTrukawka
 ms.date: 06/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxReportExtraFieldsBE
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 273103
 ms.search.region: Belgium
-ms.author: anasyash
-ms.dyn365.ops.version: AX 7.0.1
+ms.author: atrukawk
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: ee09b25924732871ff931498a897e7161c5f519b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.dyn365.ops.version: AX 7.0.1
+ms.custom: 273103
+ms.search.form: TaxReportExtraFieldsBE
+ms.openlocfilehash: edc45c235a8c226fbe2bfc5621b1ba7d9412239c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907704"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292308"
 ---
 # <a name="reconciliation-reports-for-belgium"></a>Afstemmingsrapporten voor België
 

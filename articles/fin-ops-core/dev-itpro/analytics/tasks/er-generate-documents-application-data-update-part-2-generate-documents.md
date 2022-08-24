@@ -1,7 +1,7 @@
 ---
 title: Configuraties ontwerpen voor het genereren van documenten die toepassingsgegevens bevatten
 description: Dit artikel laat zien hoe u configuraties voor elektronische rapportage (ER) ontwerpt voor het genereren van elektronische documenten. (Deel 1 - Configuraties importeren).
-author: NickSelin
+author: kfend
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a52ce08458868ae717c650d4b96754c297cd07a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8494f54c6f84e63e75469aa9d80d090c050b0f7f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900188"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290539"
 ---
 # <a name="design-configurations-to-generate-documents-that-have-application-data"></a>Configuraties ontwerpen voor het genereren van documenten die toepassingsgegevens bevatten
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 4d46933b7c60317234b8e39cd6dfd63d383de860
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9361448ba7993ba7cc126d6dd60a45fe497b2e84
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857136"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218765"
 ---
 # <a name="cluster-position-full"></a>Clusterpositie vol
 
@@ -38,7 +38,7 @@ Deze sectie bevat richtlijnen en een voorbeeld waarin wordt aangegeven hoe u de 
 
 ### <a name="make-sample-data-available"></a>Voorbeeldgegevens beschikbaar maken
 
-Als u het [voorbeeldscenario](#example-scenario) wilt doorlopen met de hier opgegeven voorbeeldrecords en -waarden, moet u een systeem gebruiken waarop de standaard [demogegevens](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) zijn geïnstalleerd. U moet daarnaast ook de rechtspersoon **USMF** selecteren voordat u begint.
+Als u het [voorbeeldscenario](#example-scenario) wilt doorlopen met de hier opgegeven voorbeeldrecords en -waarden, moet u een systeem gebruiken waarop de standaard [demogegevens](../../fin-ops-core/fin-ops/get-started/demo-data.md) zijn geïnstalleerd. U moet daarnaast ook de rechtspersoon **USMF** selecteren voordat u begint.
 
 U kunt het voorbeeldscenario ook gebruiken als instructie voor het gebruik van deze functie wanneer u met een productiesysteem werkt. In dat geval moet u echter uw eigen waarden opgeven voor de instellingen die hier worden beschreven.
 

@@ -2,7 +2,7 @@
 title: Verwijderde of afgeschafte platform-functies
 description: In dit artikel worden de functies beschreven die zijn verwijderd of waarvoor de verwijdering is gepland in platformupdates van apps voor financiën en bedrijfsactiviteiten.
 author: sericks007
-ms.date: 05/24/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 16c77d719171e8e5cfef71178f8917d462f6d84b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b2eec4dd71baef54877b4139a331288bf37f4960
+ms.sourcegitcommit: e4b6521337dfff3515f70086b0125d4c23308c71
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069917"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9262293"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Verwijderde of afgeschafte platform-functies
 
@@ -31,6 +31,50 @@ In dit artikel worden de functies beschreven die zijn verwijderd of waarvoor de 
 Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning rekening te houden met deze verwijderingen en afschaffingen. 
 
 Gedetailleerde informatie over objecten in apps voor financiën en bedrijfsactiviteiten is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van apps voor financiën en bedrijfsactiviteiten.
+
+## <a name="feature-deprecation-effective-august-2022"></a>Kennisgeving van afschaffing van functie met ingang van augustus 2022
+
+### <a name="lifecycle-services-lcs-features-deprecated-in-august-2022"></a>In augustus 2022 afgeschafte functies in Lifecycle Services (LCS)
+
+Als onderdeel van de inzet van het [One Dynamics One-platform](/dynamics365-release-plan/2022wave2/finance-operations/finance-operations-crossapp-capabilities/one-dynamics-one-platform) worden de volgende LCS-functies afgeschaft.
+
+| Functienaam | Gebruikt met AX 2012? | Gebruikt met apps voor financiën en bedrijfsactiviteiten? | Vervangen door een andere functie? |
+|--------------|--------------------|----------------------------------------|------------------------------|
+| Aankondigingen | Ja | Ja | Ja: er bestaan banners op afzonderlijke project- en omgevingspagina's voor meldingen. |
+| Configuratiebeheer | Ja | Nr. | Nr. |
+| Crash- en dump-analyse | Ja | Nr. | Nr. |
+| Feedback en fouten | Ja | Ja | Nr. |
+| Mijn abonnement | Ja | Ja | Nr. |
+| Office 365 | Ja | Ja | Ja: Azure Active Directory of Microsoft-beheerportal. |
+| Impactanalyse | Nr. | Ja | Nr. |
+| Schatting van de totale economische impact | Nr. | Ja | Nr. |
+| Serviceaanvragen | Nr. | Ja | Ja: [Self-service implementaties](../deployment/infrastructure-stack.md) |
+| Integratie van SharePoint | Ja | Ja | Nr. |
+| Configuratie- en gegevensbeheer | Nr. | Ja | Nr. |
+| Procesgegevenspakketten | Nr. | Ja | Ja: Raamwerk voor gegevensimport/-export (DIXF) |
+| Upgrade van de omgeving | Nr. | Ja | Ja: Er zijn service-updates voor [One Version](../lifecycle-services/oneversion-overview.md) beschikbaar. |
+| Schatting infrastructuur | Ja | Nr. | Nr. |
+| Licentieomvang | Ja | Nr. | Nr. |
+| Gebruikprofilering | Ja | Nr. | Nr. |
+| Aanpassingsanalyse | Ja | Nr. | Nr. |
+| Systeemdiagnose | Ja | Ja | Nr. |
+| Modelleertool bedrijfsprocessen Visio-beheer | Ja | Ja | Nr. |
+| Beheer cloudomgeving AX 2012 | Ja | Nr. | Nr. |
+| RDFE Azure-connectors | Ja | Ja | Nr. |
+| Versies van AX 2012 | Ja | Nr. | Nr. |
+| Werkitems opgeslagen in LCS-opslag | Ja | Ja | Nr. |
+| Hotfix-aanvragen | Ja | Ja | Nr. |
+
+
+### <a name="transport-layer-security-tls-rsa-cipher-suites"></a>Transportlaagbeveiliging (TLS) RSA-suites met coderingsmethoden
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | We verwijderen de volgende lijst met suites met coderingsmethoden om te voldoen aan onze huidige beveiligingsprotocollen.<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
+| **Vervangen door een andere functie?**   | Vanaf 30 november 2022 kunnen klanten alleen onze [standaardsuites met coderingsmethoden](/power-platform/admin/server-cipher-tls-requirements) gebruiken. Deze wijziging is van invloed op uw clients en servers die met onze servers communiceren, en kan bijvoorbeeld van invloed zijn op integraties van externe partijen die zich niet houden aan onze standaardsuites met coderingsmethoden. |
+| **Betrokken productgebieden**         | Apps voor financiën en bedrijfsactiviteiten |
+| **Implementatieoptie**              | Cloudimplementaties |
+| **Status**                         | Afgeschaft. Klanten moeten hun servers vóór 30 november 2022 upgraden. Raadpleeg [Beveiliging van transportlaag (TLS) beheren](/windows-server/security/tls/manage-tls) voor meer informatie over het configureren van de volgorde van TLS Cipher Suite.  |
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Afschaffing van functie met ingang van juni 2022
@@ -204,7 +248,7 @@ Gedetailleerde informatie over objecten in apps voor financiën en bedrijfsactiv
 ## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Platformupdates voor versie 10.0.17 van apps voor financiën en bedrijfsactiviteiten
 
 
-### <a name="visual-studio-2015"></a>Visual Studio2015
+### <a name="visual-studio-2015"></a>Visual Studio 2015
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|

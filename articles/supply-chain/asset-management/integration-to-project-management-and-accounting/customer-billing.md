@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d6ad25ec49a329c16b0290278fb614293a507eae
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b7c2c07f3e3eb76ff20e37e8d5d485dc08232c7a
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887684"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220417"
 ---
 # <a name="bill-for-maintenance-on-customer-owned-assets"></a>Factureren voor onderhoud aan activa van klanten
 
@@ -49,7 +49,7 @@ Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem
 
 Als u wilt weten hoe deze functie werkt, doorloopt u de volgende voorbeeldscenario's.
 
-Als u dit scenario wilt doorlopen met de hier opgegeven voorbeeldrecords en -waarden, moet u een systeem gebruiken waarop de standaard [demogegevens](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) zijn geïnstalleerd. U moet de rechtspersoon **USMF** selecteren voordat u begint.
+Als u dit scenario wilt doorlopen met de hier opgegeven voorbeeldrecords en -waarden, moet u een systeem gebruiken waarop de standaard [demogegevens](../../../fin-ops-core/fin-ops/get-started/demo-data.md) zijn geïnstalleerd. U moet de rechtspersoon **USMF** selecteren voordat u begint.
 
 U kunt dit scenario ook gebruiken als instructie voor het gebruik van deze functie wanneer u met een productiesysteem werkt. In dat geval moet u echter uw eigen waarden vervangen en hebt u mogelijk niet de beschikking over bepaalde typen vereiste records die met de standaard demogegevens worden verstrekt.
 

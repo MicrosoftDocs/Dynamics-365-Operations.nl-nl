@@ -1,25 +1,25 @@
 ---
 title: Lijst met ER-functies in de lijstcategorie
 description: Dit artikel bevat informatie over de lijstfuncties die worden ondersteund in ER (Elektronische rapportage).
-author: NickSelin
+author: kfend
 ms.date: 04/01/2020
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b39da482578636d94faaa3117bd40a579f3ae636
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: 6c28445f731393857cdb0c75c1244e557b5ff4a4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869050"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277687"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>Lijst met ER-functies in de lijstcategorie
 
@@ -47,6 +47,7 @@ ER-lijstfuncties kunnen worden gebruikt om informatie te extraheren uit en bewer
 | [ListOfFields](er-functions-list-listoffields.md)         | Deze functie retourneert een *recordlijstwaarde* die wordt gemaakt op basis van de structuur van het opgegeven argument van het type *Opsomming* of *Container (record)*. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | Deze functie retourneert een waarde van het type *Recordlijst* die bestaat uit alleen de eerste record van de opgegeven lijst.|
 | [OrderBy](er-functions-list-orderby.md)                   | Deze functie retourneert de opgegeven lijst als een *recordlijstwaarde* nadat deze is gesorteerd op basis van de opgegeven argumenten. Deze argumenten kunnen worden gedefinieerd als een expressie. |
+| [Herhalen](er-functions-list-repeat.md)                     | Met deze functie wordt een record opgebouwd dat het veld bevat met een waarde die overeenkomt met de opgegeven invoer. Vervolgens wordt een nieuwe *recordlijst* retourneert van een record dat een opgegeven aantal keren wordt herhaald. |
 | [Terugboeken](er-functions-list-reverse.md)                   | Deze functie retourneert de opgegeven lijst als een *recordlijstwaarde* in omgekeerde sorteervolgorde. |
 | [Splitsen](er-functions-list-split.md)                       | Deze functie splitst de opgegeven invoertekenreeks in subtekenreeksen en retourneert het resultaat als een nieuwe waarde van het type *Recordlijst*. |
 | [SplitList](er-functions-list-splitlist.md)               | Deze functie splitst de opgegeven lijst in sublijsten (of batches) waarvan elk het opgegeven aantal records bevat. De functie retourneert vervolgens het resultaat als een nieuwe waarde van het type *Recordlijst* die uit de batches bestaat. |

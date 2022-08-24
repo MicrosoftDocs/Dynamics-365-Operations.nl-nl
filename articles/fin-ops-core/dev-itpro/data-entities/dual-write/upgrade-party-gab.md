@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 02ab3675db0d78efa1e4e43188d79bb1e763a713
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 7141f9c7ae4e27013bd655ce78892fc44c181315
+ms.sourcegitcommit: e14648b01549bdc17998ffdef6cde273d4e78560
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111813"
+ms.lasthandoff: 08/09/2022
+ms.locfileid: "9242977"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Bijwerken naar het model voor partij en globaal adresboek
 
@@ -274,7 +274,7 @@ In deze sectie worden de instellingen beschreven die vereist zijn voordat u de D
 
     ![De Dataverse-partijrecords importeren.](media/data-factory-import-party.png)
 
-9. Voer in de data factory na elkaar de sjabloon voor het postadres van de partij en de sjabloon voor het elektronische adres van de partij uit.
+9. Voer in de data factory achter elkaar de sjablonen voor het elektronische adres van de partij en het postadres van de partij uit.
 
     + Met de sjabloon voor het postadres van de partij wordt een upsert uitgevoerd van alle postadresrecords in de app voor klantbetrokkenheid en worden deze aan bijbehorende records van het type **Account**, **Contactpersoon** en **Leverancier** gekoppeld. Daarnaast worden drie CSV-bestanden gegenereerd: ImportFONewPostalAddressLocation.csv, ImportFONewPartyPostalAddress.csv en ImportFONewPostalAddress.csv.
     + Met de sjabloon voor het elektronische adres van de partij wordt een upsert uitgevoerd van alle elektronische adressen in de app voor klantbetrokkenheid en worden deze aan bijbehorende records van het type **Account**, **Contactpersoon** en **Leverancier** gekoppeld. Daarnaast wordt één CSV-bestand gegenereerd: ImportFONewElectronicAddress.csv.

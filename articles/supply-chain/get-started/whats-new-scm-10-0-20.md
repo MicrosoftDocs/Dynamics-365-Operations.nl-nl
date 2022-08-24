@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3465866df0d766b2300eb4fd1989c034cedbbb22
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: d99a7a7d0261ba0afd19efbb237dff329527723d
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9123803"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219149"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.20 (augustus 2021)
 
@@ -49,7 +49,7 @@ In de volgende tabel worden de functieverbeteringen weergegeven die deze versie 
 | Module | Functie&nbsp;naam&nbsp;in Functie&nbsp;beheer | Meer informatie |
 |---|---|---|
 | Hoofdplanning | Parallelle autorisatie van gecorrigeerde vraagprognose | Deze functie maakt parallelle autorisatie van gecorrigeerde vraagprognose via de pagina **Gecorrigeerde vraagprognose** mogelijk. Deze functie is bedoeld om de prestaties te verbeteren wanneer een groot aantal prognoses wordt geautoriseerd. Tijdens het autoriseren kan de gebruiker het **aantal threads** in het autorisatiedialoogvenster opgeven. |
-| Hoofdplanning | (Preview) Batchgewijs fiatteren en consolideren voor geplande batchorders voor bulk en verpakking | Met deze functie kunt u batchtaken gebruiken om geplande bulk- en verpakkingsorders te fiatteren en te consolideren. |
+| Hoofdplanning | Batchgewijs fiatteren en consolideren voor geplande batchorders voor bulk en verpakking | Met deze functie kunt u batchtaken gebruiken om geplande bulk- en verpakkingsorders te fiatteren en te consolideren. |
 | Productiebeheer | Algemene routes kopiëren | Met deze functie wordt de kopieerroutefunctie verbeterd, zodat gebruikers routes kunnen kopiëren die niet artikelspecifiek zijn. Hiermee kan het systeem alle relevante informatie (zoals locatie, routegroep, resourcebehoeften en diverse keren) bijwerken nadat de kopieerroutefunctie is gebruikt om een route te overschrijven die nog niet aan een artikel is toegewezen. |
 | Productiebeheer | Gerelateerde bronbehoeften bijwerken wanneer een routebewerking wordt gewijzigd | Met deze functie kan het systeem de gerelateerde bronbehoeften bijwerken nadat een gebruiker de bewerking van een bestaande routestap heeft gewijzigd. |
 | Productgegevensbeheer | Voorverwerking van stuklijstrapporten om time-out te voorkomen | Deze functie zorgt ervoor dat het rapport met stuklijsten wordt voorverwerkt. Zo voorkomt u time-outproblemen wanneer er sprake is van een grote gegevensbelasting voor het rapport. |

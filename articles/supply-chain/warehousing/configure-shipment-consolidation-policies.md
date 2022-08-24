@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: f793cb71ff52e49534e1f11b06132f2e20610d7c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bec96131326b3162b3d1a138b896e85982ad3aa5
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845919"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219527"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Consolidatiebeleid voor zendingen configureren
 
@@ -61,7 +61,6 @@ Volg deze stappen om standaardbeleid voor de consolidatie van zendingen in te st
 1. Stel op het sneltabblad **Magazijn** de optie **Zending bij vrijgave naar magazijn consolideren** in op *Ja*.
 1. Herhaal stap 2 tot en met 4 voor alle andere magazijnen waarvoor consolidatie vereist is.
 1. Sluit de pagina.
-1. Gebruik [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de functie *Consolidatiebeleid voor zendingen* in te schakelen. In de werkruimte **Functiebeheer** heeft de functie de naam *Zending consolideren*.
 1. Ga naar **Magazijnbeheer \> Instellen \> Vrijgave naar magazijn \> Consolidatiebeleid voor zendingen**. Mogelijk moet u de browser vernieuwen om het nieuwe menu-item **Consolidatiebeleid voor zendingen** te zien nadat u de functie hebt ingeschakeld.
 1. Selecteer in het actievenster de optie **Standaardinstelling maken** om het volgende beleid te maken:
 
@@ -81,7 +80,6 @@ Volg deze stappen om standaardbeleid voor de consolidatie van zendingen in te st
 
 Voer de volgende stappen uit om standaardbeleid voor de consolidatie van zendingen in te stellen in een gloednieuwe omgeving.
 
-1. Gebruik [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de functie *Consolidatiebeleid voor zendingen* in te schakelen, indien nodig. In de werkruimte **Functiebeheer** heeft de functie de naam *Zending consolideren*.
 1. Ga naar **Magazijnbeheer \> Instellen \> Vrijgave naar magazijn \> Consolidatiebeleid voor zendingen**.
 1. Selecteer in het actievenster de optie **Standaardinstelling maken** om het volgende beleid te maken:
 

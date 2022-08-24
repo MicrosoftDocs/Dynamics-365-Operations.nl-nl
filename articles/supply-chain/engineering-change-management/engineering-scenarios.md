@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ec5535013af9ccb253744e061de738155ac9ad22
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e66cda6e529a70d40e599718332152bac95b061e
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889630"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220022"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>De functies van Technisch wijzigingsbeheer
 
@@ -45,7 +45,7 @@ Voordat u een van de oefeningen in de rest van dit artikel probeert uit te voere
 
 ### <a name="make-standard-demo-data-available"></a>Standaarddemogegevens beschikbaar maken
 
-Werk op een systeem waarop de [standaarddemogegevens zijn geïnstalleerd](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). De standaarddemogegevens voegen gegevens toe voor verschillende demorechtspersonen (bedrijven en organisaties). Terwijl u de oefeningen doorloopt, gebruikt u de bedrijfskiezer aan de rechterkant van de navigatiebalk om te schakelen tussen een bedrijf (*DEMF*) dat is ingesteld als een *technische organisatie* en een ander bedrijf (*USMF*) dat is ingesteld als *operationele organisatie*.
+Werk op een systeem waarop de standaard [demogegevens](../../fin-ops-core/fin-ops/get-started/demo-data.md) zijn geïnstalleerd. De standaarddemogegevens voegen gegevens toe voor verschillende demorechtspersonen (bedrijven en organisaties). Terwijl u de oefeningen doorloopt, gebruikt u de bedrijfskiezer aan de rechterkant van de navigatiebalk om te schakelen tussen een bedrijf (*DEMF*) dat is ingesteld als een *technische organisatie* en een ander bedrijf (*USMF*) dat is ingesteld als *operationele organisatie*.
 
 ### <a name="set-up-an-engineering-organization"></a>Een technische organisatie instellen
 

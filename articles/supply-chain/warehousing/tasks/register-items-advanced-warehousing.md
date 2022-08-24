@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5241c982675d6b9a9bc9596b8ac9ed2798903287
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 66fc9e21b79d70ec14750440c74d354bb8ec0695
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066962"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219593"
 ---
 # <a name="register-items-enabled-for-warehouse-management-processes-using-an-item-arrival-journal"></a>Artikelen registreren die zijn ingeschakeld voor magazijnbeheerprocessen met een artikelontvangstjournaal
 
@@ -29,7 +29,7 @@ In dit artikel wordt een scenario gepresenteerd dat laat zien hoe u artikelen re
 
 ## <a name="enable-sample-data"></a>Voorbeeldgegevens inschakelen
 
-Als u dit scenario wilt doorwerken met behulp van de voorbeeldrecords en -waarden die in dit artikel zijn opgegeven, moet u een systeem gebruiken waarbij de standaarddemogegevens zijn geïnstalleerd en moet u de rechtspersoon *USMF* selecteren voordat u begint.
+Om dit scenario te doorlopen met behulp van de voorbeeldrecords en -waarden die in dit artikel zijn opgegeven, moet u een systeem gebruiken waarbij de standaard [demogegevens](../../../fin-ops-core/fin-ops/get-started/demo-data.md) zijn geïnstalleerd en moet u de rechtspersoon *USMF* selecteren voordat u begint.
 
 U kunt in plaats daarvan dit scenario doorwerken door waarden uit uw eigen gegevens te vervangen op voorwaarde dat u over de volgende gegevens beschikt:
 

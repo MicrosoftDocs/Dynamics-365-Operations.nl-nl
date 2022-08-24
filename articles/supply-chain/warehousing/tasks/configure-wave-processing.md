@@ -1,5 +1,5 @@
 ---
-title: Voorbeeld van waveverwerking configureren
+title: Voorbeeld van wave-verwerking configureren
 description: In dit artikel wordt een voorbeeld gegeven van het instellen van de criteria die bepalen welk werk wordt gegenereerd voor een magazijn wanneer een wave wordt verwerkt en of waves handmatig of automatisch worden verwerkt.
 author: Mirzaab
 ms.date: 03/17/2021
@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a9fc2b9f31bc9e2f73b53a900bc9b0924410768
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9a8c088f8726573e4b1fcad1944676547391a9bf
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860343"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219623"
 ---
 # <a name="configure-wave-processing-example"></a>Voorbeeld van waveverwerking configureren
 
@@ -29,7 +29,7 @@ In dit artikel wordt een voorbeeld gegeven van het instellen van de criteria die
 
 ## <a name="enable-sample-data"></a>Voorbeeldgegevens inschakelen
 
-Als u dit scenario wilt doorlopen met de hier opgegeven voorbeeldrecords en -waarden, moet u een systeem gebruiken waarop de standaard demogegevens zijn geïnstalleerd. U moet ook de rechtspersoon **USMF** selecteren voordat u begint.
+Om dit scenario te doorlopen met de hier opgegeven voorbeeldrecords en -waarden, moet u een systeem gebruiken waarop de standaard [demonstratiegegevens](../../../fin-ops-core/fin-ops/get-started/demo-data.md) zijn geïnstalleerd. U moet ook de rechtspersoon **USMF** selecteren voordat u begint.
 
 ## <a name="example-scenario-configure-wave-processing"></a>Voorbeeldscenario: waveverwerking configureren
 

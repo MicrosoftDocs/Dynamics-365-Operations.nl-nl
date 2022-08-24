@@ -1,32 +1,32 @@
 ---
 title: De levenscyclus van de configuratie van elektronische rapportage (ER) beheren
 description: In dit artikel wordt beschreven hoe u de levenscyclus van ER-configuratie (elektronische rapportage) voor de Dynamics 365 Finance-oplossing kunt beheren.
-author: NickSelin
+author: kfend
 ms.date: 07/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58801
-ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6a64908a167c09089a95f1d3faa825dcc63f064
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 58801
+ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
+ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
+ms.openlocfilehash: fe23d4cb2b293af466df2236b153974f95f636f8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109077"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271578"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>De levenscyclus van de configuratie van elektronische rapportage (ER) beheren
 
 [!include [banner](../includes/banner.md)]
 
-In dit artikel wordt beschreven hoe u de levenscyclus van ER-configuratie (elektronische rapportage) voor de Dynamics 365 Finance-oplossing kunt beheren.
+In dit artikel wordt beschreven hoe u de levenscyclus van [ER-configuraties](general-electronic-reporting.md#Configuration) ([elektronische rapportage](general-electronic-reporting.md)) voor Dynamics 365 Finance kunt beheren.
 
 ## <a name="overview"></a>Overzicht
 
@@ -105,6 +105,41 @@ In sommige gevallen wilt u mogelijk dat het systeem de geconfigureerde vereisten
 
     > [!NOTE]
     > Deze parameter specifiek is voor de gebruiker en het bedrijf.
+
+## <a name="dependencies-on-other-components"></a>Afhankelijkheden van andere onderdelen
+
+ER-configuraties kunnen worden geconfigureerd als [afhankelijk](er-download-configurations-global-repo.md#import-filtered-configurations) van andere configuraties. U kunt bijvoorbeeld een ER-[gegevensmodel](er-overview-components.md#data-model-component)configuratie [importeren](er-download-configurations-global-repo.md) uit de Algemene opslagplaats in uw [Microsoft Regulatory Configuration Services (RCS)](../../../finance/localizations/rcs-overview.md) of Dynamics 365 Finance-instantie en vervolgens een nieuwe ER-[indeling](er-overview-components.md#format-component)sconfiguratie aanmaken die is [afgeleid](er-quick-start2-customize-report.md#DeriveProvidedFormat) van de geïmporteerde ER-gegevensmodelconfiguratie. De configuratie van de afgeleide ER-indeling is afhankelijk van de basisconfiguratie van het ER-gegevensmodel.
+
+![Configuratie van de afgeleide ER-indeling op de pagina Configuraties.](./media/ger-configuration-lifecycle-img1.png)
+
+Wanneer u klaar bent met het ontwerpen van de indeling, kunt u de status van uw oorspronkelijke [versie](general-electronic-reporting.md#component-versioning) van de configuratie van de ER-indeling wijzigen van **Concept** in **Voltooid**. U kunt vervolgens de voltooide versie van de configuratie van de ER-indeling delen door deze te [publiceren](../../../finance/localizations/rcs-global-repo-upload.md) naar de Algemene opslagplaats. Vervolgens kunt u de Algemene opslagplaats openen vanuit elke andere cloud-instantie van RCS of Finance. Vervolgens kunt u elke versie van de ER-configuratie importeren die van toepassing is op de toepassing van de Algemene opslagplaats in die toepassing.
+
+![Gepubliceerde configuratie van ER-indeling op de pagina Opslagplaats van configuratie.](./media/ger-configuration-lifecycle-img2.png)
+
+Wanneer u op basis van de configuratieafhankelijkheid de er-indelingsconfiguratie selecteert in de Algemene opslagplaats om deze te importeren in een nieuw geïmplementeerde RCS- of financiën-exemplaar, wordt de basisgegevensmodelconfiguratie automatisch gevonden in de Algemene opslagplaats en geïmporteerd samen met de geselecteerde ER-indelingsconfiguratie als de basisconfiguratie.
+
+U kunt de versie van uw ER-indelingsconfiguratie ook exporteren vanuit de huidige instantie van RCS of Finance en deze lokaal opslaan als een XML-bestand.
+
+![Een versie van een ER-indelingsconfiguratie exporteren als XML-bestand op de pagina Configuratie.](./media/ger-configuration-lifecycle-img3.png)
+
+Wanneer u in versies van Finance **vóór versie 10.0.29** probeert om de versie van de ER-indelingsconfiguratie te importeren vanuit dat XML-bestand of vanuit een andere opslagplaats dan de algemene opslagplaats in een nieuw geïmplementeerde instantie van RCS of Finance die nog geen ER-configuraties bevat, treedt de volgende uitzondering op om u ervan op de hoogte te stellen dat er geen basisconfiguratie kan worden verkregen:
+
+> Resterende niet-opgeloste verwijzingen<br>
+Verwijzing van het object '\<imported configuration name\>' naar het object 'Base' (\<globally unique identifier of the missed base configuration\> ,\<version of the missed base configuration\>) kan niet tot stand worden gebracht
+
+![De versie van de ER-indelingsconfiguratie importeren op de pagina Opslagplaats van configuratie.](./media/ger-configuration-lifecycle-img4.gif)
+
+Wanneer u in **versie 10.0.29 of later** probeert dezelfde configuratie te importeren zal het ER-framework, als er geen basisconfiguratie kan worden gevonden in de huidige instantie van de toepassing of de bronopslagplaats die op dit moment wordt gebruikt (indien van toepassing), automatisch proberen de naam van de ontbrekende basisconfiguratie te vinden in de cache van de Algemene opslagplaats. De naam en de globally unique identifier (GUID) van de ontbrekende basisconfiguratie worden vervolgens gebruikt in de tekst van de uitzondering die optreedt.
+
+> Resterende niet-opgeloste verwijzingen<br>
+Verwijzing van het object '\<imported configuration name\>' naar het object 'Base' (\<name of the missed base configuration\> \<globally unique identifier of the missed base configuration\>,\<version of the missed base configuration\>) kan niet tot stand worden gebracht
+
+![Uitzondering op de pagina Configuratie-opslagplaats als de basisconfiguratie niet kan worden gevonden.](./media/ger-configuration-lifecycle-img5.png)
+
+U kunt de opgegeven naam gebruiken om de basisconfiguratie op te zoeken en deze vervolgens handmatig importeren.
+
+> [!NOTE]
+> Deze nieuwe optie werkt alleen als ten minste één gebruiker reeds bij de Algemene opslagplaats is aangemeld met de pagina [Configuratie-opslagplaatsen](er-download-configurations-global-repo.md#open-configurations-repository) of een van de [zoek](er-extended-format-lookup.md)velden voor algemene opslagplaats in de huidige instantie van Finance en wanneer de inhoud van de algemene opslagplaats in de cache is opgeslagen.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

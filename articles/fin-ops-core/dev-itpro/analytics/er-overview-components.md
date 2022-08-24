@@ -1,26 +1,26 @@
 ---
 title: Onderdelen van elektronische rapportage
 description: In dit artikel worden de onderdelen van elektronische rapportage (ER) beschreven.
-author: nselin
+author: kfend
 ms.date: 09/28/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58941
-ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
-ms.topic: overview
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2b8b197fdea0cd49fc5161a12b8f547cc1a27bf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58941
+ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
+ms.search.form: ERWorkspace
+ms.openlocfilehash: 4851374ca4943a84d35f063e0ee65b537ec3b6cd
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892445"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285026"
 ---
 # <a name="electronic-reporting-components"></a>Onderdelen van elektronische rapportage
 
@@ -113,7 +113,7 @@ Als u een enkele ER-indelingsconfiguratie wilt uitvoeren om gegevens te importer
 
 Versiebeheer wordt ondersteund voor ER-onderdelen. De volgende werkstroom voorziet in het beheer van wijzigingen in ER-onderdelen:
 
-1. De versie die oorspronkelijk is gemaakt, wordt gemarkeerd als een **Concept**-versie. Deze versie kan worden bewerkt en is beschikbaar voor testruns.
+1. De versie die oorspronkelijk werd gemaakt, wordt gemarkeerd als een **Concept**-versie. Deze versie kan worden bewerkt en is beschikbaar voor testruns.
 2. De **Concept**-versie kan worden geconverteerd naar een **Voltooide** versie. Deze versie kan worden gebruikt in lokale rapportageprocessen.
 3. De **Voltooide** versie kan worden geconverteerd naar een **Gedeelde** versie. Deze versie is gepubliceerd in Microsoft Dynamics Lifecycle Services (LCS) en kan worden gebruikt in algemene rapportageprocessen.
 4. De **Gedeelde** versie kan worden geconverteerd naar een **Vervallen** versie. Deze versie kan worden verwijderd.
@@ -123,15 +123,37 @@ Versies met de status **Voltooid** of **Gedeeld** zijn beschikbaar voor andere g
 - Het onderdeel kan worden geserialiseerd in XML-indeling en geëxporteerd als bestand in XML-indeling.
 - Een component kan opnieuw worden geserialiseerd vanuit een XML-bestand en geïmporteerd de toepassing als een nieuwe versie van een ER-onderdeel.
 
+Raadpleeg [Een nieuwe gegevensmodelconfiguratie importeren](er-quick-start1-new-solution.md#ImportDataModel) en [Voltooide versie van een afgeleide indeling exporteren](er-calculated-field-type.md#export-completed-version-of-a-derived-format) voor meer informatie.
+
+### <a name="draft-versions-at-runtime"></a>Conceptversies tijdens runtime
+
+In uw persoonlijke gebruikersparameters voor het ER-framework kunt u de optie inschakelen waarmee u kunt opgeven of de conceptversie van een ER-configuratie moet worden gebruikt tijdens runtime. Raadpleeg [Een aangepaste indeling als uitvoerbaar markeren](er-quick-start2-customize-report.md#MarkFormatRunnable) voor informatie over het beschikbaar maken van de optie **Concept uitvoeren** voor uw ER-configuraties.
+
+> [!NOTE]
+> De ER-gebruikersparameters zijn specifiek voor de gebruiker en specifiek voor het bedrijf.
+
+### <a name="draft-format-versions-at-runtime"></a>Conceptversies van indelingen tijdens runtime
+
+Wanneer u een ER-oplossing gebruikt, worden de conceptversies van de indelingsonderdelen ervan standaard genegeerd. In plaats daarvan wordt alleen de relevante versie gebruikt die een andere status heeft dan **Concept**. Soms wilt u er misschien voor kiezen om de conceptversie van uw ER-indelingsconfiguratie te gebruiken tijdens runtime. Nadat u bijvoorbeeld de benodigde wijzigingen in uw conceptversie hebt aangebracht, kunt u die conceptversie gebruiken om de testrun uit te voeren. Op deze manier kunt u de juistheid van de wijzigingen valideren. [Stel](er-quick-start2-customize-report.md#MarkFormatRunnable) de optie **Concept uitvoeren** van de relevante ER-configuratie in op **Ja** om conceptversie van de indeling te gaan gebruiken.
+
+### <a name="draft-model-mapping-versions-at-runtime"></a>Versies van conceptmodeltoewijzings tijdens runtime
+
+Wanneer u een ER-oplossing uitvoert, worden de conceptversies van de onderdelen voor modeltoewijzing ervan standaard altijd gebruikt. Soms wilt u misschien afdwingen dat ER de conceptversie van uw ER-modeltoewijzingsconfiguratie negeert tijdens runtime. In **versie 10.0.29 en hoger** kunt u de functie **Altijd de optie 'Concept uitvoeren' voor ER-modeltoewijzingen in aanmerking nemen** om de modeltoewijzingsversie te beheren die tijdens runtime wordt gebruikt. Wanneer deze functie wordt ingeschakeld, vindt het volgende gedrag plaats:
+
+- Wanneer de optie **Concept uitvoeren** is ingesteld op **Nee** voor een modeltoewijzingsconfiguratie, wordt de hoogste niet-conceptversie van die configuratie gebruikt tijdens runtime. Er treedt een uitzondering op als de configuratie niet beschikbaar is in de huidige instantie van Finance.
+- Wanneer de optie **Concept uitvoeren** is ingesteld op **Ja** voor een modeltoewijzingsconfiguratie, wordt de conceptversie van die configuratie gebruikt tijdens runtime.
+
 ## <a name="component-date-effectivity"></a>Effectivity van de componentdatum
 
-Versies van ER-onderdelen zijn datumeffectief. U kunt de datum Geldig vanaf' definiëren voor een ER-onderdeel om de datum op te geven waarop een onderdeel geldig wordt voor rapportageprocessen. De datum van toepassingssessie wordt gebruikt om te definiëren of een onderdeel geldig is voor uitvoering. Als meer dan één versie geldig is voor een specifieke datum, wordt de meest recente versie gebruikt voor rapportageprocessen.
+Versies van ER-indelingsonderdelen zijn datum-effectief. U kunt de datum 'Geldig vanaf' definiëren voor een ER-indelingsonderdeel om de datum op te geven waarop een onderdeel geldig wordt voor rapportageprocessen. De datum van toepassingssessie wordt gebruikt om te definiëren of een onderdeel geldig is voor uitvoering. Als meer dan één versie geldig is voor een specifieke datum, wordt de meest recente versie gebruikt voor rapportageprocessen.
 
 ## <a name="component-access"></a>Componenttoegang
 
-Toegang tot componenten van de ER-indeling is afhankelijk van de instelling voor de ISO-land-/regiocode (International Organization for Standardization). Als deze instelling leeg is voor een geselecteerde versie van een indelingsconfiguratie, kan een indelingsonderdeel tijdens runtime worden geopend vanuit elk bedrijf. Als de instelling ISO-land-/regiocodes bevat, is alleen een indelingscomponent beschikbaar van bedrijven met een primair adres dat is gedefinieerd voor een van de ISO-land-/regiocodes van een indelingsonderdeel.
+Toegang tot onderdelen van de ER-indeling en modeltoewijzing tijdens runtime is afhankelijk van de instelling voor de ISO-land-/regiocode (International Organization for Standardization). Als deze instelling leeg is voor een geselecteerde versie van een indelings- of modeltoewijzingsconfiguratie, kan een indelings- of modeltoewijzingsonderdeel tijdens runtime worden geopend vanuit elk bedrijf. Als de instelling ISO-land-/regiocodes bevat, is alleen een indelings- of modeltoewijzingsonderdeel beschikbaar van bedrijven met een primair adres dat is gedefinieerd voor een van de ISO-land-/regiocodes van een indelingsonderdeel.
 
-Verschillende versies van een gegevensindelingsonderdeel kunnen verschillende instellingen hebben voor ISO-land-/regiocodes.
+Verschillende versies van een indelings- of modeltoewijzingsonderdeel kunnen verschillende instellingen hebben voor ISO-land-/regiocodes.
+
+Raadpleeg [ER-modeltoewijzingen configureren afhankelijk van landencontext](er-country-dependent-model-mapping.md) voor meer informatie.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
 

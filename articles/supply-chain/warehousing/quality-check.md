@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: ceb01205edc269690fda306bc90f465dbccc563b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bc0e911eeccd1d4700f1f4daefd5fe1a4935cd80
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855052"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218707"
 ---
 # <a name="quality-check"></a>Kwaliteitscontrole
 
@@ -49,7 +49,7 @@ Deze sectie bevat richtlijnen en een voorbeeld waarin wordt uitgelegd hoe u de f
 
 ### <a name="make-sample-data-available"></a>Voorbeeldgegevens beschikbaar maken
 
-Als u het [voorbeeldscenario](#example-scenario) wilt doorlopen met de hier opgegeven voorbeeldrecords en -waarden, moet u een systeem gebruiken waarop de standaard [demogegevens](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) zijn geïnstalleerd. U moet daarnaast ook de rechtspersoon **USMF** selecteren voordat u begint.
+Als u het [voorbeeldscenario](#example-scenario) wilt doorlopen met de hier opgegeven voorbeeldrecords en -waarden, moet u een systeem gebruiken waarop de standaard [demogegevens](../../fin-ops-core/fin-ops/get-started/demo-data.md) zijn geïnstalleerd. U moet daarnaast ook de rechtspersoon **USMF** selecteren voordat u begint.
 
 ### <a name="quality-check-template"></a><a name="quality-template"></a>Sjabloon kwaliteitscontrole
 

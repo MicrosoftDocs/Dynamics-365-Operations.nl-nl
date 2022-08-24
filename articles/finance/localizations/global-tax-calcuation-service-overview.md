@@ -1,24 +1,24 @@
 ---
 title: Overzicht van belastingberekening
 description: In dit artikel worden het algehele bereik en de functies voor belastingberekening uitgelegd.
-author: wangchen
+author: EricWangChen
 ms.date: 03/02/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 817d7db5952f96fa741671166d88fffddaac84e9
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.search.form: TaxIntegrationTaxServiceParameters
+ms.openlocfilehash: c6dabb9d2aae6f1fc759c40f870c66304d7f7c8d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9166834"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270660"
 ---
 # <a name="tax-calculation-overview"></a>Overzicht van belastingberekening
 
@@ -54,10 +54,15 @@ Belastingberekening wordt geïmplementeerd in de volgende geografische regio's v
 
 - Azië-Pacific
 - Australië
+- Brazilië
 - Canada
 - Europa
+- Frankrijk
+- India
 - Japan
+- Zuid-Afrika
 - Zwitserland
+- Verenigde Arabische Emiraten
 - Verenigd Koninkrijk
 - Verenigde Staten
 
@@ -149,11 +154,15 @@ De volgende transacties worden ondersteund in versie 10.0.28:
 - Journaal met betalingen van leverancier
 - Journaal met betalingen van klant
 
+De volgende transacties worden ondersteund in versie 10.0.29: 
+
+- Periodiek journaal
+
 ## <a name="supported-countriesregions"></a>Ondersteunde landen/regio's
 
-Belastingberekening kan per rechtspersoon worden ingeschakeld. 
+Btw-berekening kan worden uitgevoerd met de ondersteunde localisatiefuncties in de volgende landen/regio's voor het primaire adres van een rechtspersoon: 
 
-De volgende landen/regio's voor het primaire adres van een rechtspersoon worden ondersteund in versie 10.0.21:
+Ondersteund in versie 10.0.21:
 
 - Oostenrijk
 - België
@@ -176,7 +185,7 @@ De volgende landen/regio's voor het primaire adres van een rechtspersoon worden 
 - Verenigd Koninkrijk
 - Verenigde Staten
 
-De volgende landen/regio's voor het primaire adres van een rechtspersoon worden ondersteund in versie 10.0.22:
+Ondersteund in versie 10.0.22:
 
 - Australië
 - Bahrein
@@ -191,22 +200,24 @@ De volgende landen/regio's voor het primaire adres van een rechtspersoon worden 
 - Zuid-Afrika
 - Verenigde Arabische Emiraten
 
-De volgende landen/regio's voor het primaire adres van een rechtspersoon worden ondersteund in versie 10.0.23:
+Ondersteund in versie 10.0.23:
 
 - Thailand
 - Japan
 - Maleisië
 - Singapore
 
-De volgende landen/regio's voor het primaire adres van een rechtspersoon worden ondersteund in versie 10.0.24:
+Ondersteund in versie 10.0.24:
 
 - Mexico
 
-De volgende landen/regio's voor het primaire adres van een rechtspersoon worden ondersteund in versie 10.0.26:
+Ondersteund in versie 10.0.26:
 
 - China
 - Tsjechische Republiek
 - Spanje
+
+Voor een land dat of regio die niet door Microsoft is gelokaliseerd, kan de btw-berekening ook worden ingeschakeld en worden uitgevoerd met andere algemene functies.
 
 ## <a name="related-resources"></a>Gerelateerde bronnen
 

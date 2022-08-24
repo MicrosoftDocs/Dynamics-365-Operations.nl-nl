@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5e5d0a93a4c628d4867161d082b0f0e177ddb95c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4a8dd322446843af41214e8daa0822939d0468f0
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863732"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219803"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Uitgestelde verwerking van handmatige voorraadmutaties
 
@@ -33,7 +33,7 @@ De achtergrondverwerking wordt gerealiseerd met de functie [Gebeurtenissen van d
 Als u deze functie beschikbaar wilt maken, schakelt u de volgende functies in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in: U moet ze in deze volgende volgorde in- of uitschakelen:
 
 1. *Werk blokkeren voor de hele organisatie*<br>(Vanaf Supply Chain Management versie 10.0.21 is deze functie verplicht, waardoor deze standaard wordt ingeschakeld en niet meer kan worden uitgeschakeld.)
-1. *Gebeurtenissen in magazijnapp verwerken*<br>(Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld.)
+1. *Gebeurtenissen in magazijnapp verwerken*<br>(Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management versie 10.0.29 is deze functie verplicht. Daarom is deze standaard ingeschakeld en kan deze niet weer worden uitgeschakeld.)
 1. *Uitgestelde put-bewerkingen*
 1. *Uitgestelde verwerking van handmatige bewerking voor voorraadmutatie*<br>(Vanaf Supply Chain Management versie 10.0.25 is deze functie verplicht, waardoor deze standaard wordt ingeschakeld en niet meer kan worden uitgeschakeld.)
 

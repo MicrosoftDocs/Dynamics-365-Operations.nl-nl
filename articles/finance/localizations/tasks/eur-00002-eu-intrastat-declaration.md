@@ -1,24 +1,24 @@
 ---
 title: EUR-00002 Een EU Intrastat-aangifte genereren
 description: Deze procedure begeleidt u bij de stappen die nodig zijn om de Intrastat-aangifte in de elektronische bestandsindeling te exporteren en een voorbeeld te bekijken van de aangiftegegevens in een Excel-indeling.
-author: Anasyash
+author: AdamTrukawka
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionRepositoryTable, ERSolutionImport, IntrastatParameters, IntrastatCommodityLookup, IntrastatCompressParameters, Intrastat, SysQueryForm
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 57d7fcfeed3b630b2fa1f8ada4e116c230ba5bf0d8a94deeb5f59b6514d8a3c3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.form: ERWorkspace, ERSolutionRepositoryTable, ERSolutionImport, IntrastatParameters, IntrastatCommodityLookup, IntrastatCompressParameters, Intrastat, SysQueryForm
+ms.openlocfilehash: b14134763da262fabe533b2864a5472abaeb01c3
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760606"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283819"
 ---
 # <a name="eur-00002-generate-an-eu-intrastat-declaration"></a>EUR-00002 Een EU Intrastat-aangifte genereren
 

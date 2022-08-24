@@ -1,28 +1,26 @@
 ---
 title: Een ER-indeling aanpassen om een aangepast elektronisch document te genereren
 description: In dit artikel wordt uitgelegd hoe u een door Microsoft geleverde ER-indeling (Electronic Reporting) kunt aanpassen, zodat een aangepast elektronisch document wordt gegenereerd.
-author: NickSelin
+author: kfend
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 492964d3cea0e474a50d6d83231f33d9508b9d9d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
+ms.openlocfilehash: 8b0bcdbd011c4c04e2693a3dcb8033c3cbe2adc7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886786"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283553"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Een ER-indeling aanpassen om een aangepast elektronisch document te genereren
 
@@ -271,7 +269,7 @@ In dit geval moet u als vertegenwoordiger van Litware, Inc. een nieuwe ER-indeli
 
 6. Selecteer **Configuratie maken**.
 
-Versie 1.1.1 van de ER-indelingsconfiguratie **BACS (UK, aangepast)** wordt gemaakt. Deze versie heeft de [status](general-electronic-reporting.md#component-versioning) **Concept** en kan worden bewerkt. De huidige inhoud van uw aangepaste ER-indeling komt overeen met de inhoud van de indeling die wordt geleverd door Microsoft.
+Versie 1.1.1 van de ER-indelingsconfiguratie **BACS (UK, aangepast)** wordt gemaakt. Deze versie heeft de status **Concept** en kan worden bewerkt. De huidige inhoud van uw aangepaste ER-indeling komt overeen met de inhoud van de indeling die wordt geleverd door Microsoft.
 
 ![Configuratiepagina met versie 1.1.1 van de ER-indelingsconfiguratie BACS (UK, aangepast).](./media/er-quick-start2-derived-format-configuration1.png)
 
@@ -324,7 +322,7 @@ U moet de aangepaste indeling zo configureren dat deze voldoet aan de vereisten 
 
 ### <a name="mark-a-custom-format-as-runnable"></a><a id="MarkFormatRunnable"></a>Een aangepaste indeling markeren als uitvoerbaar
 
-Nu de eerste versie van uw aangepaste indeling is gemaakt en de status **Concept** heeft , kunt u deze versie uitvoeren om hem te testen. Om het rapport uit te voeren, moet u een leveranciersbetaling verwerken met behulp van de betalingsmethode die verwijst naar door u aangepaste ER-indeling. Wanneer u een ER-indeling aanroept vanuit de toepassing, worden standaard alleen de versies met de status **Voltooid** en **Gedeeld** [meegenomen](general-electronic-reporting.md#component-versioning). Dit gedrag voorkomt dat ER-indelingsprofielen met niet-voltooide ontwerpen worden gebruikt. Voor het testen kunt u de toepassing dwingen de versie van de ER-indeling te gebruiken met de status **Concept**. Op deze manier kunt u de versie van de huidige indelingsversie aanpassen als er wijzigingen nodig zijn. Meer informatie over dit onderwerp vindt u in [Toepasbaarheid](electronic-reporting-destinations.md#applicability).
+Nu de eerste versie van uw aangepaste indeling is gemaakt en de status **Concept** heeft , kunt u deze versie uitvoeren om hem te testen. Om het rapport uit te voeren, moet u een leveranciersbetaling verwerken met behulp van de betalingsmethode die verwijst naar door u aangepaste ER-indeling. Wanneer u een ER-indeling aanroept vanuit de toepassing, worden standaard alleen versies met een status **Voltooid** en **Gedeeld** meegenomen. Dit gedrag voorkomt dat ER-indelingsprofielen met niet-voltooide ontwerpen worden gebruikt. Voor het testen kunt u de toepassing dwingen de versie van de ER-indeling te gebruiken met de status **Concept**. Op deze manier kunt u de versie van de huidige indelingsversie aanpassen als er wijzigingen nodig zijn. Meer informatie over dit onderwerp vindt u in [Toepasbaarheid](electronic-reporting-destinations.md#applicability).
 
 Als u de conceptversie van een ER-indeling wilt gebruiken, moet u de ER-indeling expliciet markeren.
 

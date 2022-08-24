@@ -1,26 +1,26 @@
 ---
 title: Serviceomgevingen
 description: In dit artikel vindt u informatie over serviceomgevingen voor elektronische facturering en uitleg over het instellen ervan.
-author: dkalyuzh
+author: gionoder
 ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8c743c5b2fbc7dcc3ae04fa4d7ca0e65de6c2507
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: ff6f50ff78676f5efed7d905fb622ad662b541d7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901242"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291594"
 ---
 # <a name="service-environments"></a>Serviceomgevingen
 

@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45195698b48d6a22697f99044a8ae49beaf7156e
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 4cce7ea0c06938d2ce038853a262f843ec76fe4c
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067268"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219653"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Locaties in een WMS-magazijn configureren
 
@@ -39,7 +39,7 @@ Deze guide toont hoe u de locatie-instelling configureert voor een nieuw WMS-mag
 8. Sluit de pagina.
 
 ## <a name="define-a-location-format"></a>Een locatie-indeling definiëren
-1. Ga naar **Navigatievenster > Modules > Magazijnbeheer > Instellingen > Magazijn > Locatie-indelingen**. Locatie-indelingen zijn een naamsysteem dat wordt gebruikt om unieke en consistente namen te maken voor verschillende locatiebakposities die binnen een magazijn worden gebruikt. Het kan handig zijn om scheidingstekens als onderdeel van de locatie-indeling te gebruiken om het gemakkelijker te maken onderdelen van de locatie zoals het gangnummer te identificeren. In dit voorbeeld wordt er een naam met vier onderdelen gemaakt. Dit kunnen bijvoorbeeld gang, rek, plank en bak zijn.
+1. Ga naar **Navigatievenster > Modules > Magazijnbeheer > Instellingen > Magazijn > Locatie-indelingen**. Locatie-indelingen zijn een benamingssysteem dat wordt gebruikt om unieke en consistente namen aan te maken voor verschillende locatiebakposities die binnen een magazijn worden gebruikt. Het kan handig zijn om scheidingstekens als onderdeel van de locatie-indeling te gebruiken om het gemakkelijker te maken onderdelen van de locatie zoals het gangnummer te identificeren. In dit voorbeeld wordt er een naam met vier onderdelen gemaakt. Dit kunnen bijvoorbeeld gang, rek, plank en bak zijn.
 2. Klik op **Nieuw**.
 3. Typ een waarde in het veld **Locatie-indeling**.
 4. Typ een waarde in het veld **Naam**.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f008c273a3088353c33ae8c4b0b3cbc6b274fbcf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 261d71e955e4cb1a4a461d59725c631248e10b17
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901142"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227892"
 ---
 # <a name="benefits-management-overview"></a>Overzicht van Vergoedingenbeheer
 
@@ -147,6 +147,16 @@ Voordat u de levensgebeurtenissen kunt verwerken, moet u minimaal eenmaal een op
 - [Levensgebeurtenissen verwerken](hr-benefits-process-life-events.md)
 - [Wijzigingen in levensgebeurtenissen verwerken](hr-benefits-process-life-event-changes.md)
 - [Geschiktheid voor levensgebeurtenissen verwerken](hr-benefits-process-life-event-eligibility.md)
+
+Nadat de verwerking van de levensgebeurtenis is voltooid en de inschrijvingsperiode voor een levensgebeurtenis is geopend, kunnen werknemers wijzigingen aanbrengen in de opties voor plannen die door de levensgebeurtenis worden beïnvloed. Beheerders kunnen de wijzigingen namens werknemers aanbrengen. Nadat de inschrijvingsperiode is geëindigd en er geen niet-bevestigde plantypen zijn gerelateerd aan de transactie voor de levensgebeurtenis, wordt de transactie gesloten.
+
+Alle plannen die door de levensgebeurtenis worden beïnvloed, moeten worden geselecteerd of kwijtgescholden en vervolgens worden bevestigd. Als een plan niet wordt geselecteerd, niet wordt kwijtgescholden en dus niet wordt bevestigd, dan wordt de transactie voor de levensgebeurtenis niet gesloten.
+
+Beheerders kunnen een levensgebeurtenistransactie handmatig sluiten door deze te selecteren en vervolgens te **sluiten**. Als de transactie niet-bevestigde plannen bevat en een beheerder deze wil sluiten, kan het sluiten van de levensgebeurtenis bewerkingen van deze plannen beperken.
+
+Afgesloten gebeurtenissen kunnen niet worden verwijderd.
+
+Beheerders kunnen een levensgebeurtenistransactie heropenen door deze te selecteren en vervolgens **Heropenen** te selecteren.
 
 ## <a name="rate-updates-optional"></a>Tariefupdates (optioneel)
 
