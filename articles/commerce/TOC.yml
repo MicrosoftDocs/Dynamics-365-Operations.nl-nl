@@ -12,6 +12,8 @@
               items:
                 - name: Startpagina voor nieuwe of gewijzigde functies in Commerce
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.29 (oktober 2022)
+                  href: get-started/whats-new-commerce-10-0-29.md
                 - name: Commerce 10.0.28 (juli 2022)
                   href: get-started/whats-new-commerce-10-0-28.md
                 - name: Commerce 10.0.27 (juli 2022)
@@ -60,6 +62,8 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/commerce
                 - name: Bericht ontvangen over service-updates
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/commerce
+                - name: Proactieve kwaliteitsupdates
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/commerce
                 - name: Automatisering van gegevenstaak
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/commerce
                 - name: ISV-oplossingen leveren met One Version
@@ -422,6 +426,8 @@
                       href: hide-non-carrier-modes.md
                     - name: Taakrecorder en Help voor MPOS en cloudCloud POS
                       href: task-recorder-retail-pos.md
+                    - name: CPOS configureren om een aangepaste Azure AD-app te gebruiken
+                      href: cpos-custom-aad.md
                     - name: Hardware randapparatuur
                       items:
                         - name: Randapparaten
@@ -698,8 +704,8 @@
                   href: prevent-discounts.md
                 - name: Kortingen op basis van betalingsmethode
                   href: tender_based_discounts.md
-                - name: Kortingoverzicht voor verzending
-                  href: retail-shipping-discount.md
+                - name: Korting verzending
+                  href: shipping-discount.md
                 - name: Geschenk met inkooppromoties configureren
                   href: gift-with-purchase.md
                 - name: Coupons instellen
@@ -714,6 +720,10 @@
                   href: tasks/category-pricing-rules-trade-agreements.md
                 - name: De berekening van de exacte prijs en korting uitstellen
                   href: delayed-price-calculation.md
+                - name: Prijsfuncties in POS
+                  href: pos-pricing-functions.md
+                - name: API's voor Commerce-prijzen
+                  href: pricing-apis.md
             - name: Aanbevelingen
               items:
                 - name: Overzicht productaanbevelingen
@@ -872,9 +882,11 @@
               href: async-customer-mode.md
             - name: Asynchrone klanten converteren naar synchrone klanten
               href: convert-async-to-sync.md
+            - name: Veelgestelde vragen over de modus voor het maken van asynchrone klanten
+              href: async-customer-mode-faq.md
             - name: Clienteling
               items:
-                - name: Clientelingoverzicht
+                - name: Overzicht van clienteling
                   href: clienteling-overview.md
             - name: Loyaliteit
               items:
@@ -1252,6 +1264,10 @@
                       href: product-collection-module-overview.md
                     - name: Snelweergavemodule
                       href: quick-view-module.md
+                - name: Productvergelijkingsmodules
+                  items:
+                    - name: Productvergelijkingsmodules
+                      href: product-comparison-modules.md
                 - name: Navigatiemodules
                   items:
                     - name: Breadcrumb-module
@@ -1272,6 +1288,10 @@
                   items:
                     - name: Module voor cookietoestemming
                       href: cookie-consent-module.md
+                - name: Chatmodules
+                  items:
+                    - name: Commerce-chatmodule
+                      href: commerce-chat-module.md
             - name: Zoeken
               items:
                 - name: Overzicht van de standaard landingspagina voor categorieën en pagina met zoekresultaten
@@ -1404,8 +1424,6 @@
               items:
                 - name: Voorbeeld van integratie van fiscale registratieservice voor Oostenrijk
                   href: localizations/emea-aut-fi-sample.md
-                - name: Implementatierichtlijnen voor kassa's voor Oostenrijk
-                  href: localizations/emea-aut-deployment.md
                 - name: Implementatierichtlijnen voor voorbeeld van fiscale integratie voor Oostenrijk (legacy)
                   href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brazilië
@@ -1502,6 +1520,8 @@
                   href: localizations/emea-nor-cash-registers.md
                 - name: Implementatierichtlijnen voor kassa's
                   href: localizations/emea-nor-fi-deployment.md
+                - name: Migreren vanuit verouderde functionaliteit voor Noorwegen
+                  href: localizations/emea-nor-fi-migration.md
                 - name: Implementatierichtlijnen voor kassa's (verouderd)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: Rusland
@@ -1764,6 +1784,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/commerce
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/commerce
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/commerce
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/commerce
                         - name: Split
@@ -2482,7 +2504,7 @@
               items:
                 - name: Overzicht van Commerce SDK
                   items:
-                    - name: Voorbeelden en referentiepakketten
+                    - name: Voorbeelden en referentiepakketten voor Commerce SDK downloaden
                       href: dev-itpro/retail-sdk/sdk-github.md
                     - name: Migratie verouderde Retail SDK
                       href: dev-itpro/retail-sdk/migrate-commerce-sdk.md

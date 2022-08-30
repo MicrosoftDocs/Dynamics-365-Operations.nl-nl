@@ -12,6 +12,8 @@
               items:
                 - name: Startpagina voor nieuwe of gewijzigde functies in Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.29 (oktober)
+                  href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (augustus)
                   href: get-started/whats-new-changed-10-0-28.md
                 - name: Finance 10.0.27 (juli)
@@ -62,6 +64,8 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/finance
                 - name: Bericht ontvangen over service-updates
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/finance
+                - name: Proactieve kwaliteitsupdates
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/finance
                 - name: Automatisering van gegevenstaak
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/finance
                 - name: ISV-oplossingen leveren met One Version
@@ -370,7 +374,7 @@
               href: accounts-receivable/credit-card-authorizations.md
             - name: Een vrije-tekstfactuur invoeren
               href: accounts-receivable/create-free-text-invoice-new.md
-            - name: Boekhoudingsverdelingen en journaals in de subadministratie voor vrije-tekstfacturen
+            - name: Boekhoudingsverdelingen en journaalposten in de subadministratie voor vrije-tekstfacturen
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
             - name: Een sjabloon voor vrije-tekstfacturen maken
               href: accounts-receivable/create-free-text-invoice-template-new.md
@@ -1108,12 +1112,14 @@
                       href: general-ledger/reverse-journal-posting.md
                     - name: Waarom kan ik deze transactie niet ongedaan maken?
                       href: general-ledger/cant-reverse-transctns.md
-                    - name: Een journaalboeking maken met een sjabloon
+                    - name: Een journaalpost maken met een sjabloon
                       href: general-ledger/tasks/create-journal-entry-template.md
                     - name: Grootboektoewijzingsjournaal verwerken
                       href: general-ledger/tasks/process-ledger-allocation-journal.md
-                    - name: Journaalboekingen of transacties weergeven
+                    - name: Journaalposten of transacties weergeven
                       href: general-ledger/tasks/view-journal-entries-or-transactions.md
+                    - name: Bewerkingen in interne gegevens op boekstukken in het grootboek toestaan
+                      href: general-ledger/allow-edits-internal-data-gl-vouchers.md
                     - name: Een gerelateerd intercompany-boekstuk weergeven vanuit een journaal
                       href: general-ledger/tasks/view-related-intercompany-voucher-journal.md
                     - name: Journaalregels en documenten publiceren vanuit Excel
@@ -1568,14 +1574,20 @@
                           href: localizations/e-invoicing-bra-get-started.md?context=/dynamics365/context/finance
                         - name: Aan de slag met Elektronische facturering voor Egypte
                           href: localizations/e-invoicing-eg-get-started.md?context=/dynamics365/context/finance
+                        - name: Aan de slag met Elektronische facturering voor Frankrijk
+                          href: localizations/e-invoicing-fr-get-started.md?context=/dynamics365/context/finance
                         - name: Aan de slag met Elektronische facturering voor Mexico
                           href: localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/finance
+                        - name: Aan de slag met Elektronische facturering voor Polen
+                          href: localizations/e-invoicing-pol-get-started.md?context=/dynamics365/context/finance
                         - name: Aan de slag met Elektronische facturering voor Saoedi-Arabië
-                          href: localizations/e-invoicing-sa-get-started.md
+                          href: localizations/e-invoicing-sa-get-started.md?context=/dynamics365/context/finance
+                        - name: Onboarding van elektronische facturering in Saoedi-Arabië
+                          href: localizations/e-invoicing-sa-onboarding.md?context=/dynamics365/context/finance
                         - name: Directe integratie van Italiaanse FatturaPA met SDI instellen
-                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
+                          href: localizations/e-invoicing-ita-fatturapa-get-started.md?context=/dynamics365/context/finance
                         - name: De service voor elektronische facturering gebruiken om leveranciersfacturen te importeren
-                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md
+                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md?context=/dynamics365/context/finance
                     - name: Veelgestelde vragen over Elektronische facturering
                       href: localizations/e-invoicing-faq.md?context=/dynamics365/context/finance
                 - name: Belastingberekening
@@ -1648,6 +1660,10 @@
                           items:
                             - name: Btw-aangifte
                               href: localizations/emea-nor-vat-declaration.md
+                        - name: Aangifte voor Polen
+                          items:
+                            - name: Btw-aangifte
+                              href: localizations/emea-pol-vat-declaration.md
                         - name: Aangifte voor Spanje
                           items:
                             - name: 'Directe levering van informatie over btw (Suministro Inmediato de Información del IVA, SII)'
@@ -1714,7 +1730,9 @@
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: Btw op een leveranciersfactuur berekenen en corrigeren
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                    - name: Berekening van vertraagde btw in journaal inschakelen
+                    - name: Btw corrigeren via algemene journalen
+                      href: general-ledger/adjust-sales-tax-via-general-journals.md
+                    - name: Uitgestelde belastingberekening in journaal inschakelen
                       href: general-ledger/enable-delayed-tax-calculation.md
                     - name: Een btw-betaling maken
                       href: general-ledger/tasks/create-sales-tax-payment.md
@@ -1770,6 +1788,8 @@
                           href: general-ledger/global-withholding-tax-overview.md
                         - name: Algemene bronbelasting instellen
                           href: general-ledger/set-up-global-withholding-tax.md
+                        - name: Het wisselkoerstype en het datumtype voor de globale bronbelastingvaluta inschakelen
+                          href: general-ledger/global-withholding-tax-currency-exchange-rate-date-type-setup.md
                         - name: Bronbelasting in inkooptransacties
                           href: general-ledger/withholding-tax-in-purchase-transactions.md
                         - name: Bronbelasting in verkooptransacties
@@ -1948,6 +1968,8 @@
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
                     - name: NF-e XML-bestanden als bijlagen verplaatsen
                       href: localizations/latam-bra-nf-e-move-xml-as-attachment.md
+                    - name: NT2021.004 - updates van indeling en validatie in het elektronische belastingdocument (NF-e)
+                      href: localizations/latam-bra-nfe-nt2021.004.md
                     - name: NT2020.005 - updates van indeling en validatie in het elektronische belastingdocument (NF-e)
                       href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 - intermediair digitaal verkoopplatform voor NF-e
@@ -2552,6 +2574,8 @@
                       href: localizations/apac-ind-news-letter-10-0-00.md
                 - name: Audittrail en bewerkingslogboeken voor boekhoudsoftware
                   href: localizations/apac-ind-audit-trail-edit-logs-accounting-software.md
+                - name: Elektronische facturen in India
+                  href: localizations/apac-ind-e-invoices.md
                 - name: Indirecte belastingen
                   items:
                     - name: GST India
@@ -3548,6 +3572,10 @@
                           href: localizations/rus-set-up-inventory-profile.md
                         - name: Een voorraadprofiel gebruiken in documenten en query's
                           href: localizations/rus-use-inventory-profile-documents-queries.md
+                    - name: Douane-inklaring
+                      items:
+                        - name: Werken met douane-inklaring
+                          href: localizations/rus-work-with-customs-clearance.md
                 - name: Rapportage
                   items:
                     - name: Financiële rapportage
@@ -3576,6 +3604,8 @@
                       href: localizations/rus-company-divisions.md
                     - name: Russische adresnotaties en import uit FIAS
                       href: localizations/rus-russian-address-format-and-import-from-FIAS.md
+                    - name: Importeren vanuit staatsadresregister (GAR)
+                      href: localizations/rus-russian-address-format-import-gar.md
                 - name: Uitgestelde posten
                   items:
                     - name: Uitgestelde posten instellen
@@ -4069,6 +4099,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/finance
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/finance
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/finance
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/finance
                         - name: Split

@@ -12,11 +12,13 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Nieuwe of gewijzigde functies in Platform-updates
               items:
-                - name: Startpagina voor nieuwe of gewijzigde functies in Platform-updates
+                - name: Startpagina voor nieuwe of gewijzigde functies in Platform updates
                   href: get-started/whats-new-home-page.md
-                - name: Platform-updates voor versie 10.0.28 (augustus 2022)
+                - name: Platform updates voor versie 10.0.29 (oktober 2022)
+                  href: get-started/whats-new-platform-updates-10-0-29.md
+                - name: Platform updates voor versie 10.0.28 (augustus 2022)
                   href: get-started/whats-new-platform-updates-10-0-28.md
-                - name: Platform-updates voor versie 10.0.27 (juli 2022)
+                - name: Platform updates voor versie 10.0.27 (juli 2022)
                   href: get-started/whats-new-platform-updates-10-0-27.md
             - name: Verwijderde of afgeschafte functies
               items:
@@ -1090,6 +1092,8 @@
                           href: data-entities/dual-write/link-your-environment.md
                         - name: Entiteitstoewijzing voor twee keer wegschrijven inschakelen
                           href: data-entities/dual-write/enable-entity-map.md
+                    - name: Een sessietime-outvenster van vijf minuten inschakelen voor sessie met twee keer wegschrijven
+                      href: data-entities/dual-write/5-minute-mode.md
                     - name: Afzonderlijk Application Orchestration-pakket voor twee keer wegschrijven
                       href: data-entities/dual-write/separated-solutions.md
                     - name: Migratie van valutagegevenstype voor twee keer wegschrijven
